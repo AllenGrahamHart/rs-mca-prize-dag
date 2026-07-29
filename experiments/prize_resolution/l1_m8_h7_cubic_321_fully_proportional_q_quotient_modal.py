@@ -172,6 +172,135 @@ def instantiate_role_template(
     return out
 
 
+def eta_power_pairs(
+    maximum: int, coefficients: list[int], prime: int
+) -> list[tuple[int, int]]:
+    c0, c1, c2 = coefficients
+    inverse_c0 = pow(c0, -1, prime)
+    reduction_c1 = c1 * inverse_c0 % prime
+    reduction_c2 = c2 * inverse_c0 % prime
+    powers = [(1, 0)]
+    for _ in range(maximum):
+        constant, linear = powers[-1]
+        powers.append(
+            (
+                -linear * reduction_c2 % prime,
+                (constant - linear * reduction_c1) % prime,
+            )
+        )
+    return powers
+
+
+def eta_guard_pair(
+    template: list[dict[str, object]],
+    coefficients: list[int],
+    factor: list[int],
+    prime: int,
+) -> tuple[list[int], list[int]]:
+    maximum = max(term["eta_exponent"] for term in template)
+    powers = eta_power_pairs(maximum, coefficients, prime)
+    constant, linear = [0], [0]
+    for term in template:
+        eta_exponent = term["eta_exponent"]
+        polynomial = term["coefficients_low_to_high"]
+        assert isinstance(eta_exponent, int)
+        assert isinstance(polynomial, list)
+        remainder = divmod_poly(polynomial, factor, prime)[1]
+        power_constant, power_linear = powers[eta_exponent]
+        constant = mod_poly(add(constant, scale(remainder, power_constant)), prime)
+        linear = mod_poly(add(linear, scale(remainder, power_linear)), prime)
+    return constant, linear
+
+
+def multiply_eta_pairs(
+    left: tuple[list[int], list[int]],
+    right: tuple[list[int], list[int]],
+    coefficients: list[int],
+    factor: list[int],
+    prime: int,
+) -> tuple[list[int], list[int]]:
+    c0, c1, c2 = coefficients
+    inverse_c0 = pow(c0, -1, prime)
+    reduction_c1 = c1 * inverse_c0 % prime
+    reduction_c2 = c2 * inverse_c0 % prime
+    left_constant, left_linear = left
+    right_constant, right_linear = right
+    linear_product = multiply_mod(
+        left_linear, right_linear, factor, prime
+    )
+    constant = add(
+        multiply_mod(left_constant, right_constant, factor, prime),
+        scale(linear_product, -reduction_c2),
+    )
+    linear = add(
+        add(
+            multiply_mod(left_constant, right_linear, factor, prime),
+            multiply_mod(left_linear, right_constant, factor, prime),
+        ),
+        scale(linear_product, -reduction_c1),
+    )
+    return mod_poly(constant, prime), mod_poly(linear, prime)
+
+
+def classify_eta_pair(
+    pair: tuple[list[int], list[int]],
+    coefficients: list[int],
+    factor: list[int],
+    prime: int,
+) -> dict[str, object]:
+    c0, c1, c2 = coefficients
+    inverse_c0 = pow(c0, -1, prime)
+    constant, linear = pair
+    if constant == [0] and linear == [0]:
+        norm = [0]
+        status = "BOTH_FAIL"
+    else:
+        norm = add(
+            add(
+                multiply_mod(constant, constant, factor, prime),
+                scale(
+                    multiply_mod(constant, linear, factor, prime),
+                    -c1 * inverse_c0,
+                ),
+            ),
+            scale(
+                multiply_mod(linear, linear, factor, prime),
+                c2 * inverse_c0,
+            ),
+        )
+        norm = mod_poly(norm, prime)
+        status = "ONE_FAIL" if norm == [0] else "PASS"
+    return {
+        "status": status,
+        "remainder_constant_low_to_high": constant,
+        "remainder_eta_low_to_high": linear,
+        "norm_low_to_high": norm,
+    }
+
+
+def guard_ledger(
+    templates: dict[str, object],
+    coefficients: list[int],
+    factor: list[int],
+    prime: int,
+) -> dict[str, object]:
+    total = ([1], [0])
+    entries = {}
+    for label in sorted(templates):
+        template = templates[label]
+        assert isinstance(template, list)
+        pair = eta_guard_pair(template, coefficients, factor, prime)
+        entries[label] = classify_eta_pair(pair, coefficients, factor, prime)
+        total = multiply_eta_pairs(total, pair, coefficients, factor, prime)
+    aggregate = classify_eta_pair(total, coefficients, factor, prime)
+    aggregate["status"] = {
+        "BOTH_FAIL": "ALL_ETA_REJECTED",
+        "ONE_FAIL": "ONE_ETA_BRANCH",
+        "PASS": "BOTH_ETA_BRANCHES",
+    }[aggregate["status"]]
+    return {"entries": entries, "aggregate": aggregate}
+
+
 def source_polynomials() -> dict[str, object]:
     import sympy as sp
 
@@ -375,6 +504,80 @@ def source_polynomials() -> dict[str, object]:
     j0_role_l_template = cleared_j0_role_template(role_l_j0, 6, 24, 1)
     j0_role_w_template = cleared_j0_role_template(role_w_j0, 8, 34, 2)
 
+    eta_guard, x_guard = sp.symbols("eta_guard x_guard")
+    d_guard = 3 * (eta_guard * role_r_j0 - role_s_j0) / q
+    l4_guard = 15 + q * (d_guard**2 + 7 * d_guard + 23) / 4 + q**2 / 8
+    k6_guard = (
+        1
+        + q
+        * (
+            10 * d_guard**4
+            + 62 * d_guard**3
+            + 163 * d_guard**2
+            + 237 * d_guard
+            + 213
+        )
+        / 60
+        + q**2 * (13 * d_guard**2 + 55 * d_guard + 76) / 72
+        + q**3 / 48
+    )
+    u_guard = x + y_j0
+    j_guard = (q - d_guard) * g_j0 - 6 * d_guard * d_core
+    delta_guard = g_j0 * j_guard + x * (q - d_guard) * d_core
+    w_guard = y_j0 * (a + x) * v_j0 + l4_guard
+    qhat_guard = x_guard**2 + u_guard * x_guard + v_j0
+    ghat_guard = qhat_guard * (x_guard - y_j0)
+    s_guard = eta_guard * role_r_j0
+    fhat_guard = ghat_guard + a * qhat_guard + s_guard
+    lhat_guard = fhat_guard * ghat_guard
+    guard_expressions = {
+        "A_b_plus_3": b + 3,
+        "D_star": d_star,
+        "Delta": delta_guard,
+        "K6": k6_guard,
+        "R_j": role_r_j0,
+        "T": j0_t,
+        "W": w_guard,
+        "b": b,
+        "c_d_plus_1": d_guard + 1,
+        "d": d_guard,
+        "disc_Fhat": sp.discriminant(fhat_guard, x_guard),
+        "disc_Qhat": sp.discriminant(qhat_guard, x_guard),
+        "eta": eta_guard,
+        "eta_plus_1": eta_guard + 1,
+        "q": q,
+        "q_minus_d": q - d_guard,
+        "split_Lhat_minus_1": lhat_guard.subs(x_guard, -1),
+    }
+
+    def cleared_eta_guard_template(expression: object) -> list[dict[str, object]]:
+        value = sp.cancel(expression.subs(q, j0_r / j0_t))
+        numerator = sp.fraction(value)[0]
+        rational = sp.Poly(numerator, b, eta_guard, domain=sp.QQ)
+        fixed_denominator, integral = rational.clear_denoms(convert=True)
+        assert fixed_denominator != 0
+        assert all(int(fixed_denominator) % prime != 0 for prime in PRIMES)
+        if integral.LC() < 0:
+            integral = -integral
+        eta_poly = sp.Poly(integral.as_expr(), eta_guard, domain=sp.ZZ[b])
+        template = []
+        for eta_exponent in range(eta_poly.degree() + 1):
+            coefficient = eta_poly.nth(eta_exponent)
+            if coefficient != 0:
+                template.append(
+                    {
+                        "eta_exponent": eta_exponent,
+                        "coefficients_low_to_high": coefficients(coefficient),
+                    }
+                )
+        assert template
+        return template
+
+    j0_guard_templates = {
+        label: cleared_eta_guard_template(expression)
+        for label, expression in guard_expressions.items()
+    }
+
     def numerator_q_coefficients(
         expression: object, total_degree_bound: int
     ) -> list[list[int]]:
@@ -427,6 +630,7 @@ def source_polynomials() -> dict[str, object]:
         "j0_ZRhat": coefficients(j0_zrhat),
         "j0_role_L_template": j0_role_l_template,
         "j0_role_W_template": j0_role_w_template,
+        "j0_guard_templates": j0_guard_templates,
         "V_E": v_exceptional_coefficients,
         "X_star_q_coefficients": x_star_q_coefficients,
         "Z_D_e_q_coefficients": numerator_q_coefficients(z_d_exceptional, 27),
@@ -744,8 +948,10 @@ def run_prime(prime: int) -> dict[str, object]:
 
     role_l_template = polynomials["j0_role_L_template"]
     role_w_template = polynomials["j0_role_W_template"]
+    guard_templates = polynomials["j0_guard_templates"]
     assert isinstance(role_l_template, list)
     assert isinstance(role_w_template, list)
+    assert isinstance(guard_templates, dict)
     role_common_gcds = []
     for role in official_role_packets(prime):
         role_id = role["role_id"]
@@ -771,6 +977,8 @@ def run_prime(prime: int) -> dict[str, object]:
             role_common_gcd["global_status"] = "INCONCLUSIVE"
             role_common_gcd["quadratic_subfield_status"] = "INCONCLUSIVE"
             role_common_gcd["cyclotomic_field_status"] = "INCONCLUSIVE"
+            role_common_gcd["guard_surviving_factors"] = []
+            role_common_gcd["guard_status"] = "INCONCLUSIVE"
         else:
             role_common = role_common_gcd["gcd_coefficients_low_to_high"]
             assert isinstance(role_common, list)
@@ -829,6 +1037,25 @@ def run_prime(prime: int) -> dict[str, object]:
                 if role_common_gcd["cyclotomic_field_factors"]
                 else "EMPTY"
             )
+            guard_survivors = []
+            for factor in role_common_gcd["cyclotomic_field_factors"]:
+                factor_coefficients = factor["coefficients_low_to_high"]
+                assert isinstance(factor_coefficients, list)
+                factor["guard_ledger"] = guard_ledger(
+                    guard_templates,
+                    role_coefficients,
+                    factor_coefficients,
+                    prime,
+                )
+                if (
+                    factor["guard_ledger"]["aggregate"]["status"]
+                    != "ALL_ETA_REJECTED"
+                ):
+                    guard_survivors.append(factor)
+            role_common_gcd["guard_surviving_factors"] = guard_survivors
+            role_common_gcd["guard_status"] = (
+                "HIT" if guard_survivors else "ALL_EMPTY"
+            )
         role_common_gcds.append(role_common_gcd)
 
     role_hit_ids = [
@@ -858,6 +1085,34 @@ def run_prime(prime: int) -> dict[str, object]:
         "hit_role_ids": role_hit_ids,
         "empty_role_ids": role_empty_ids,
         "inconclusive_role_ids": role_inconclusive_ids,
+    }
+    guard_hit_ids = [
+        packet["role_id"]
+        for packet in role_common_gcds
+        if packet["guard_status"] == "HIT"
+    ]
+    guard_empty_ids = [
+        packet["role_id"]
+        for packet in role_common_gcds
+        if packet["guard_status"] == "ALL_EMPTY"
+    ]
+    guard_inconclusive_ids = [
+        packet["role_id"]
+        for packet in role_common_gcds
+        if packet["guard_status"] == "INCONCLUSIVE"
+    ]
+    if guard_inconclusive_ids:
+        guard_summary_status = "INCONCLUSIVE"
+    elif guard_hit_ids:
+        guard_summary_status = "HIT"
+    else:
+        guard_summary_status = "ALL_EMPTY"
+    guard_summary = {
+        "status": guard_summary_status,
+        "role_count": len(role_common_gcds),
+        "hit_role_ids": guard_hit_ids,
+        "empty_role_ids": guard_empty_ids,
+        "inconclusive_role_ids": guard_inconclusive_ids,
     }
     row = {
         "p": prime,
@@ -890,6 +1145,7 @@ def run_prime(prime: int) -> dict[str, object]:
         "exceptional_j0_affine_common_gcd": j0_common_gcd,
         "exceptional_j0_role_common_gcds": role_common_gcds,
         "exceptional_j0_role_summary": role_summary,
+        "exceptional_j0_guard_summary": guard_summary,
         "seconds": round(time.monotonic() - started, 6),
     }
     print("L1_H7_C321_FULLY_PROPORTIONAL_Q_ROW " + json.dumps(row, sort_keys=True), flush=True)

@@ -8136,9 +8136,15 @@ aggregate semantics:
 HIT obligations: reconstructed-variable saturations, both eta roots where
                  applicable, and arithmetic lifts
 launcher:
-  c5ccd14b02e0b0119fbcbbaa20f7eae7214716c13a2e9b8158cce50674bb51af
+  421ef85dbe2f6a5154c348999de3cb79df182cb903d308ba3247575b3c3c2b16
 checker:
-  92b6d6d9e42b15a9c476aea154bfabc57b652a5d54d203c15c79036f09051643
+  e42629a472339216a8dca3532b43300cb34202f539312458e7adca523bd2e61f
+guard extension:
+  for each official-field factor reduce every named guard to
+  u(b)eta+v(b) modulo c_0eta^2+c_1eta+c_2
+  exact statuses: BOTH_ETA_BRANCHES / ONE_ETA_BRANCH / ALL_ETA_REJECTED
+  individual quotient remainders and quadratic norms preserve rejection
+  reasons; the aggregate guard product is checked independently
 validation: AST-only; packet arithmetic remains unrun
 resource delta: none; four one-CPU, 512 MB, 60-second tasks, no retries,
                 atomic partial output; completion time is unmeasured
@@ -8247,7 +8253,44 @@ compute spend: none
 DAG delta: one PROVED background node and six edges; no critical status flip
 upstream custody: not yet exported; prefer a small follow-up after PR #1121
                    is triaged
-next route-deciding action: extend the source-complete role packet with this
-                              per-candidate guard ledger and outer replay,
-                              without launching it while spend is blocked
+next route-deciding action: compile the degree-six outer replay for every
+                              guard-surviving eta/color branch, without
+                              launching while spend is blocked
+```
+
+**2026-07-29, L1 h=7 J-zero guard packet extension:** the source-complete
+role packet now consumes the proved guard compiler without constructing an
+extension field or selecting roots.
+
+```text
+candidate algebra:
+  A_f=F_p[b]/(f), f one eligible irreducible degree 1,2,4,8
+  eta relation c_0eta^2+c_1eta+c_2=0
+per guard:
+  reduce to u(b)eta+v(b) in A_f[eta]
+  norm=v^2-(c_1/c_0)uv+(c_2/c_0)u^2
+  PASS       norm!=0: both eta branches pass
+  ONE_FAIL   norm=0 but (u,v)!=(0,0): exactly one branch fails
+  BOTH_FAIL  u=v=0: both branches fail
+aggregate:
+  multiply all guard residues in the same quadratic algebra
+  BOTH_ETA_BRANCHES / ONE_ETA_BRANCH / ALL_ETA_REJECTED
+  row summary remains INCONCLUSIVE if any eight-filter family is
+  identically zero
+launcher:
+  421ef85dbe2f6a5154c348999de3cb79df182cb903d308ba3247575b3c3c2b16
+checker:
+  e42629a472339216a8dca3532b43300cb34202f539312458e7adca523bd2e61f
+checker scope: independently regenerate all guard templates, reductions,
+               norms, factor ledgers, and role/row summaries
+validation: AST-only; no source polynomial, factorization, or guard arithmetic
+            executed locally
+resource delta: none; same four one-CPU, 512 MB, 60-second tasks, no retries
+completion time: unmeasured; a 60-second miss returns partial rows only
+compute spend: none; Modal remains spend-blocked
+DAG delta: none; no result exists
+upstream custody: not exported; PR #1120 contains the historical role-only
+                   hashes and was already manually consolidated
+next route-deciding action: add normalized color matching and the exact
+                              degree-six outer replay to guard survivors
 ```

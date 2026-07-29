@@ -7905,10 +7905,10 @@ the outer stage into exactly two low-dimensional tasks.
 
   ```text
   experiments/prize_resolution/l1_m8_h7_cubic_321_fully_proportional_q_quotient_modal.py
-  sha256 c5ccd14b02e0b0119fbcbbaa20f7eae7214716c13a2e9b8158cce50674bb51af
+  sha256 421ef85dbe2f6a5154c348999de3cb79df182cb903d308ba3247575b3c3c2b16
 
   experiments/prize_resolution/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
-  sha256 92b6d6d9e42b15a9c476aea154bfabc57b652a5d54d203c15c79036f09051643
+  sha256 e42629a472339216a8dca3532b43300cb34202f539312458e7adca523bd2e61f
   ```
 
   It runs one independent one-CPU, 512 MB, 60-second task per official prime,
@@ -7962,6 +7962,20 @@ the outer stage into exactly two low-dimensional tasks.
   any eligible factor gives `HIT`, while any identically-zero family makes
   the summary `INCONCLUSIVE`.
 
+  For every official-field-eligible role factor, the same source now compiles
+  the proved J-zero guard ledger before any finite-field root construction.
+  Each cleared guard reduces modulo the irreducible `b` factor and
+  `c_0 eta^2+c_1 eta+c_2` to `u(b)eta+v(b)`. Its exact quadratic norm
+  distinguishes `PASS`, `ONE_FAIL`, and `BOTH_FAIL`. The product of all
+  guards is reduced independently and reported as `BOTH_ETA_BRANCHES`,
+  `ONE_ETA_BRANCH`, or `ALL_ETA_REJECTED`; individual remainders and norms
+  retain the named rejection reasons. This quotient-ring test consumes
+  `b(b+3)D_*Tq d(d+1)(q-d)Delta W K_6R_j eta(eta+1)`, both scaled
+  discriminants, and `Lhat(-1)`. It does not choose a normalized color pair,
+  test the norm or degree-six outer congruence, or construct the inner lift.
+  The checker independently regenerates every guard template, remainder,
+  norm, per-factor ledger, and row summary.
+
   The four small degree-58 factorizations should cost below `$0.01`. This
   request gives a structural chamber verdict: a unit four-way gcd excludes
   the generic coefficient-and-structural chart for that prime. A nonunit gcd
@@ -7979,11 +7993,14 @@ the outer stage into exactly two low-dimensional tasks.
   timeout. The same semantics apply to the `J_*=0` endpoint after removing
   `T` factors. In the role extension, `ALL_EMPTY` excludes the entire
   exceptional-`J_*=0` coefficient/structural/role/`P_4` chart for that row;
-  each `HIT` still owes reconstructed-variable saturations, both ambient role
-  roots where applicable, and arithmetic lifts. `IDENTICALLY_ZERO_FAMILY`
-  is explicitly inconclusive. The extended packet remains source-complete
-  but unrun, and its completion within the fixed 60-second task ceiling is
-  unmeasured. Wait for an explicit spend-access change.
+  a guard-summary `ALL_EMPTY` makes the same exclusion after all eligible
+  factors fail both eta branches. A guard `HIT` retains the exact surviving
+  eta multiplicity and still owes normalized-color matching, the norm and
+  degree-six outer congruence, and the independent inner lift.
+  `IDENTICALLY_ZERO_FAMILY` is explicitly inconclusive. The extended packet
+  remains source-complete but unrun, and its completion within the fixed
+  60-second task ceiling is unmeasured. Wait for an explicit spend-access
+  change.
 
   The requested decision is whether every branch in one complete
   representation is unit on `a*B*Q(y)!=0` and the inherited HNF/fiber
