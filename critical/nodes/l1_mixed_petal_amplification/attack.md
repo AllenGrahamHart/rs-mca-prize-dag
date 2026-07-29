@@ -793,6 +793,13 @@
   nonunit root for those stronger filters. Do not recompute the original
   four-variable ideal on this branch.
 
+- The second exceptional branch is reduced by
+  `l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction`.
+  For `q=-6x^2`, test the printed degree-12 `R_12(d)` against the same 32
+  official norm fibers. Its derivation removes the `q=d` saturation branch
+  before one necessary squaring; apply the unsquared sign, `D_b`, and `M_6`
+  only to nonunit norm roots. Do not carry `(x,y,b)` into the norm gcd.
+
 - On the `3+2+1` profile, consume
   `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction`.
   Use the triple fiber as the cubic factor `F`, its complement `G`, and the

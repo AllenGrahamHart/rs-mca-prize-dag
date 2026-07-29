@@ -6936,3 +6936,21 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: obtain the x=0 norm verdict, while reducing the
                               q=-6x^2 exceptional branch proof-only
 ```
+
+**2026-07-29, L1 h=7 cubic `2+2+2` q=-6x^2 degree-12 endpoint:** both
+exceptional slopes of the fifth linear remainder now have finite norm
+packets.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction
+branch: q=-6x^2, with q!=0 and q!=d
+intermediate conic: 105y^2-7(11d^2+27d+27)y+10B(d)=0, y=x^2
+saturation removal: d+6y=0 is exactly q=d
+remaining polynomial: R_12=105F^2+7AFE+10BE^2
+degree/leader: 12 / 149868
+finite endpoint: 32 degree-12 norm gcds
+compute spend: none; CR-L1-H7-C3-222-Q6X2 recorded
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: obtain both exceptional norm verdicts, then
+                              eliminate the generic three-variable branch
+```

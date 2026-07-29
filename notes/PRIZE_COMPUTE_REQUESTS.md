@@ -7670,6 +7670,23 @@ the outer stage into exactly two low-dimensional tasks.
   degree-five packet and should be priced below one dollar, but do not launch
   while the configured Modal workspace remains spend-blocked.
 
+  **Contributor request CR-L1-H7-C3-222-Q6X2:** consume
+  `l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction`.
+  Independently reconstruct `E`, `F`, and
+
+  ```text
+  R_12=105F^2+7AFE+10BE^2
+  ```
+
+  from (QDR2)--(QDR7), verify degree 12 and leading coefficient `149868`,
+  then compute `gcd(R_12(X),X^(p+1)-zeta)` for all four official primes and
+  eight `zeta in mu_8`. Return every monic gcd and partial output after each
+  packet. Unit gcds in all 32 packets close the complete `q=-6x^2` branch.
+  For a nonunit gcd, reconstruct `y`, check the unsquared equation (QDR3),
+  and only then apply `D_b`, `M_6`, and the color ratio. This is a degree-12
+  packet and should be priced below one dollar, but do not launch while the
+  configured Modal workspace remains spend-blocked.
+
   For the `3+2+1` profile, replace the generic remainder by
   `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction`.
   Parameterize monic cubics `F,G`, impose `FG=L_(r,d)`, and compare the three
