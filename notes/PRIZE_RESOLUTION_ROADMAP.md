@@ -7426,3 +7426,23 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: combine F_N and the four coefficient-zero
                               equations before any packet-by-packet compute
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` fully-proportional bivariate
+factorization:** the conic endpoint is only quadratic in `q`.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization
+coordinate: z=(4x-15)^2
+factored endpoint:
+  F_N/24=63(1575-247z)q^2+9240z(9-z)q
+         +400z(9-z)(z+27)
+excluded chart: z=9 gives -63*648q^2!=0
+generic q-discriminant:
+  302400z(9-z)(-200z^2+4239z-14175)
+leading-zero chart: z=1575/247 and q=-10(z+27)/231
+scope fence: no ambient-field square verdict
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: substitute the bivariate endpoint into
+                              C_1=M_1=C_0=M_0 before any compute
+```
