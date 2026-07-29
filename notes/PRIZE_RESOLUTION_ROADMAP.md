@@ -7103,3 +7103,28 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: reduce the four explicit color factors modulo
                               the conic and the two generic compatibilities
 ```
+
+**2026-07-29, L1 h=7 cubic `2+2+2` quadratic-quotient weld:** the generic
+color packets are now exact denominator-free systems rather than rational
+substitutions awaiting a resultant.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld
+quadratic quotient:
+  p=b-12
+  p^2+(3x^2-q/2)p-(3q(d^2+3d+3)/4+q^2/8)=0
+power recurrence:
+  U_(n+1)=V_n-aU_n, V_(n+1)=hU_n
+compact invariant remainder:
+  12P=(-60x^4-8qx^2+8q(d+2)x+4q(d^2+3d+3)+q^2)p
+      -12xq(d+2)(x^2+q/6)
+generic weld variables: (x,q,d)
+equations per color packet: conic, D/M5 compatibility, M5/M6
+                            compatibility, color/M5 compatibility
+packet count: 4 rational packets representing 7 geometric color values
+equivalence: exact on alpha=-(q-d)x(x^2+q/6)!=0
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: seek hand factors in the four welded systems;
+                              prepare bounded remote elimination only if not
+```
