@@ -890,3 +890,15 @@
   rerun a separate reciprocal surrogate. A retained candidate still owes
   the independent global inner lift. This compiler is not an emptiness
   result and does not apply to the other h=7 shapes.
+
+- Before replaying any retained exceptional-`J_*=0` candidate, consume
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler`.
+  In scaled coordinate `X=dW`, construct `Qhat,Ghat,Fhat,Lhat`. The former
+  common-quadratic saturation is exactly
+  `aB(lambda-1)Q(y)=R_j^2/d^6`; do not carry its four factors as separate
+  tests. After a normalized color pair is matched, exact fiber multiplicity
+  requires only `disc(Qhat)disc(Fhat)!=0`, while split-root coprimality is
+  `Lhat(-1)!=0` and `K_6=Lhat(0)`. Apply the printed algebraic ledger to
+  each factor/eta/color candidate and retain named rejection reasons. This
+  is not a guard outcome: passing candidates still owe the norm, degree-six
+  outer congruence, and independent inner lift.

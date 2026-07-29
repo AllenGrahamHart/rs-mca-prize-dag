@@ -8209,3 +8209,45 @@ upstream custody:
 next route-deciding action: compile the full inherited guard product into
                               per-factor and per-role rejection reasons
 ```
+
+**2026-07-29, L1 h=7 J-zero exact guard compiler:** the retained role
+interface no longer carries an unspecified bundle of saturations.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler
+scaled factors:
+  Qhat=X^2+(x+Y_j)X+V_j
+  Ghat=Qhat(X)(X-Y_j)
+  Fhat=Ghat+A Qhat+S_c
+  Lhat=Fhat Ghat=d^6 L(X/d)
+role identities:
+  S_c=eta R_j, lambda=1+eta^(-1), R_j=A Qhat(Y_j)
+collapsed common-quadratic guard:
+  a B (lambda-1) Q(y)=R_j^2/d^6
+exact-fiber identities:
+  disc(Ghat)=disc(Qhat)Qhat(Y_j)^2
+  Res(Ghat,Fhat)=lambda S_c^3
+  disc(Lhat)=disc(Fhat)disc(Qhat)Qhat(Y_j)^2
+             *lambda^2*S_c^6
+residual exact-fiber test: disc(Qhat)*disc(Fhat)!=0
+split/constant tests: Lhat(-1)!=0 and K_6=Lhat(0)!=0
+finite algebraic ledger:
+  b(b+3)D_*T*q*d(d+1)(q-d)*Delta*W*K_6*R_j
+  *eta(eta+1)*disc(Qhat)*disc(Fhat)*Lhat(-1) != 0
+semantics: evaluate after each b/eta/color reconstruction in F_(p^8);
+           reject a zero entry with its exact named reason
+scope fence: no common-root or guard outcome; no norm/congruence outcome;
+             no inner lift, other shape, or critical status flip
+checker state: primary symbolic and independent exact-rational sources
+               written; AST-only local validation; unexecuted
+checker hashes:
+  verify.py       1b09c4d4871b8a315f84de3b090555fce98f21de5d133b8f8e3705f2edd9278b
+  verify_audit.py 137e467c42b8639eb73b024f3f214698edb665b3ec5774d572ad56d403cb006e
+compute spend: none
+DAG delta: one PROVED background node and six edges; no critical status flip
+upstream custody: not yet exported; prefer a small follow-up after PR #1121
+                   is triaged
+next route-deciding action: extend the source-complete role packet with this
+                              per-candidate guard ledger and outer replay,
+                              without launching it while spend is blocked
+```
