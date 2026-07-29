@@ -8,4 +8,5 @@
   common cofactor gcds.
 - Successor: prove the local neighbor cap `215792`, or map every such
   neighbor injectively into a chronology-valid upstream owner with exact
-  add-back.
+  add-back. Equivalently, prove that one fixed support locator has at most
+  `15413` maximum-zero divisor directions inside the source direction space.

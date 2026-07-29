@@ -65,8 +65,24 @@ primitive first-above-threshold decorated shift-pair stratum. A source-bound
 local cap of `215792` for that stratum would contradict every violating
 proper-`G` class.
 
+There is also a projective compression. For a fixed anchor and fixed
+projective difference direction `[J]`, all class members on that affine line
+agree at the `t` roots of `J`; their remaining `m-t=67448` agreement sets are
+pairwise disjoint in the `N-t=1048577` other coordinates. Hence one direction
+contains at most `15` class members, or `14` neighbors of the anchor. The
+anchor in (DS2) therefore determines at least
+
+```text
+ceil(215793/14)=15414                                      (DS4)
+```
+
+distinct projective polynomials in the six-dimensional direction space,
+each represented by a monic degree-`4980` divisor of the anchor agreement
+locator. A fixed-support divisor-direction cap `15413` is another sufficient
+form of the exact successor theorem.
+
 ## Scope
 
-This theorem supplies a sharp local successor target, not its upper bound.
+This theorem supplies sharp local successor targets, not their upper bounds.
 It does not pay `Q=147595`, produce a v4 atom, close the M31 LIST row, treat
 higher ranks, or resolve either Prize problem.

@@ -19,5 +19,8 @@ assert deficit_fraction < Fraction(9, 10)
 assert Fraction(1) - deficit_fraction > Fraction(1, 10)
 assert (mass - 1) // 10 + 1 == 215_793
 assert weight - overlap == 67_448
+line_size = (domain - overlap) // (weight - overlap)
+assert line_size == 15
+assert (215_793 + 13) // 14 == 15_414
 
 print("L1_M31_DENSE_TOP_SHIFT_PAIR_AUDIT_PASS")

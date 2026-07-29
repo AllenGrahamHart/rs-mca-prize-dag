@@ -8410,8 +8410,14 @@ top pair normal form:
   A C_i-B C_j=c!=0
 automatic guard:
   gcd(C_i,C_j)=1, so the counted edges are primitive decorated pairs
+projective compression:
+  one difference direction has at most 15 line members / 14 neighbors
+  forbidden mass forces at least ceil(215793/14)=15414 distinct monic
+  degree-4980 divisors of the anchor support locator in the 6D direction
+  space
 exact sufficient successor:
-  prove a source-bound local neighbor cap <=215792
+  prove a source-bound local neighbor cap <=215792, or the equivalent
+  fixed-support projective divisor-direction cap <=15413
 scope fence: no such upper cap, upstream atom, Q=147595 payment, higher-rank
              theorem, row close, or Prize status movement
 compute spend: none; proof is analytic

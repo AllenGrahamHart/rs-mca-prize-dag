@@ -12,7 +12,7 @@ architecture: M31_RANK7_PROPER_G_ZERO_EXCESS_INCIDENCE_ROUTE_CUT_V1
 atom_or_cell: local primitive decorated shift-pair successor
 quantifier: Every violating normalized-label class in the unique k=4981 residual
 projection_and_unit: distinct LIST codewords and local codeword neighbors per received word
-claimed_bound: forced local degree >=215793; sufficient excluding cap 215792
+claimed_bound: forced local degree >=215793 and at least 15414 projective split-divisor directions; sufficient excluding caps 215792 or 15413
 status: PROVED LOCAL
 impact: ROUTE_CUT
 falsifier: pair-deficit arithmetic failure, a top pair not yielding a nonzero constant quotient, or a nonprimitive cofactor pair satisfying the constant identity

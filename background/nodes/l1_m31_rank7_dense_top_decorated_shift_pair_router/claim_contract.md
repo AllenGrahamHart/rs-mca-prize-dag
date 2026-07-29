@@ -10,10 +10,15 @@
 - the residual support locators and cofactor decorations are primitive in
   the required same-side senses;
 - a local primitive decorated top-neighbor cap `215,792` is sufficient to
-  eliminate the terminal.
+  eliminate the terminal;
+- at most `14` top neighbors share one projective difference direction, so a
+  violating class forces at least `15,414` degree-`4,980` split-divisor
+  directions in one fixed six-dimensional direction space;
+- a fixed-support projective divisor cap `15,413` is an equivalent sufficient
+  successor.
 
 ## Not claimed
 
-- no such upper cap is proved here;
+- neither excluding upper cap is proved here;
 - no transport to a bankable upstream `U_SP` or `U_Q` integer;
 - no row, higher-rank, MCA, or Prize closure.

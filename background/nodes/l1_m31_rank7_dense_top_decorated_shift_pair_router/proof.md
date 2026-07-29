@@ -84,4 +84,33 @@ a nonzero constant `c`, proving (DS3).
 If a nonconstant polynomial divided both `C_i` and `C_j`, it would divide
 both terms on the left of (DS3) and hence divide `c`. This is impossible.
 Thus `gcd(C_i,C_j)=1`, and every counted edge is primitive in the decorated
-cofactor sense. QED.
+cofactor sense.
+
+## 3. Fixed-support projective compression
+
+Fix the anchor supplied by Section 1. Every top neighbor satisfies
+
+```text
+a_j-a_i=c_j J_j,
+```
+
+where `J_j` is the monic locator of the `t` common agreements. Suppose
+several neighbors have the same projective direction, so after monic
+normalization they have the same `J`. Together with the anchor, they lie on
+the affine line `a_i+cJ`.
+
+All line members agree with the received table at the `t` roots of `J`.
+Outside those roots, two distinct scalar labels cannot agree at the same
+coordinate: their difference there is a nonzero scalar times `J(x)`. Each
+line member has exactly `m-t=67448` agreements outside `J`, and these sets
+are disjoint inside the remaining `N-t=1048577` coordinates. Therefore
+
+```text
+# line members <= floor((N-t)/(m-t))=15.
+```
+
+At most `14` top neighbors use one projective direction. The `215793`
+neighbors from Section 1 consequently use at least
+`ceil(215793/14)=15414` directions. Each direction is represented by its
+monic `J`, a degree-`4980` divisor of the fixed anchor locator lying in the
+six-dimensional direction space. This proves (DS4). QED.

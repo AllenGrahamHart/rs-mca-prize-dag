@@ -19,8 +19,14 @@ assert 10 * (M0 * delta + N * (m - t)) < 9 * N * (M0 - 1)
 assert (M0 - 1) // 10 == 215_792
 forced_degree = (M0 - 1) // 10 + 1
 assert forced_degree == 215_793
+line_members = (N - t) // (m - t)
+assert line_members == 15
+neighbors_per_direction = line_members - 1
+forced_directions = (forced_degree + neighbors_per_direction - 1) // neighbors_per_direction
+assert forced_directions == 15_414
 
 print(
     "L1_M31_DENSE_TOP_SHIFT_PAIR_PASS "
-    f"delta={delta} degree={forced_degree} e={w + 1}"
+    f"delta={delta} degree={forced_degree} directions={forced_directions} "
+    f"e={w + 1}"
 )
