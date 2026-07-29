@@ -2,6 +2,7 @@
 
 ```text
 e1_pair_feasible_prime_field_reduction [PROVED] ----------------req-->
+e1_low_square_mass_weighted_kernel_dictionary [PROVED] ---------req-->
 e1_prize_n256_s18_profile_36_cofactor_windows [PROVED] --------req-->
 e1_prize_n256_s18_profile_36_m1538_exclusion [PROVED] ---------req-->
 e1_prize_n256_s18_profile_36_m1024_exclusion [PROVED] ---------req-->
@@ -20,4 +21,3 @@ e1_pure_cofactor_common_prime_associate_router [PROVED] --ev-->
 
 The result couples the maximum-weight residual vectors but does not prove
 their aggregate weighted count.
-

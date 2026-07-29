@@ -8554,19 +8554,26 @@ fixed row/root factorization:
   (alpha)=P_r(1-zeta_256)^mu
   alpha/(1-zeta_256)^mu generates P_r
 same-row consequence:
-  every two normalized survivors differ by a cyclotomic unit
+  every two normalized survivors differ by an algebraic unit of Z[zeta_256]
 fixed-cofactor Cramer-Hadamard box:
   max coefficient of u and u^(-1) <= 1006,503,251,125
   for cofactors 2,4,8,16 respectively
+shift/sign quotient:
+  256 torsion associates per orbit
+  remaining classes inject into the full rank-63 unit log lattice
+  ||lambda||_1 <= 2(D+sqrt(128D)), D=log(18^64/(2^mu p))
+exact maximum-weight target:
+  at most 367 log-lattice points across mu=1,2,3,4
+  368 orbits already exceed the complete edge budget
 route verdict:
   residual maximum-weight vectors are finite bounded unit/inverse families,
   not unrelated norm-divisibility events or an unbounded unit search
 scope fence:
-  no associate count, weighted edge budget, E1 image bound, row close,
+  no associate count, lower-profile payment, E1 image bound, row close,
   or Prize status movement
 compute spend: none; ideal factorization proof
 next route-deciding action: count or sharply bound the inverse-pair boxes
-                              under U*V=1 mod X^128+1 and the two sparse
-                              profile products, while retaining the exact
-                              lower-profile weighted ledger
+                              or the equivalent full-unit log-lattice body,
+                              while retaining both sparse profile products
+                              and the exact lower-profile weighted ledger
 ```

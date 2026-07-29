@@ -48,7 +48,11 @@ profile's vectors must be counted as one bounded unit-associate family, not
 as unrelated norm-divisibility events. Within a fixed cofactor, the unit and
 its inverse have explicit power-basis coefficient bounds
 `1006,503,251,125` for cofactors `2,4,8,16`. No count of that finite family is
-yet proved.
+yet proved. Modulo the 256 negacyclic shift/sign associates, the same family
+injects into an explicit `L1` body in the full rank-63 algebraic-unit log
+lattice. The exact profile charge makes 367 the necessary total orbit cap;
+368 such orbits already exceed the complete edge budget. This does not pay
+the lower-weight profiles.
 
 ## Falsifier
 

@@ -65,6 +65,63 @@ Uniformly over the prize interval this gives
 Thus a fixed-cofactor branch is a finite bounded inverse-pair problem in
 `Z[X]/(X^128+1)`, not an unbounded unit-group search.
 
+The same branch has an exact logarithmic body. Choose one representative
+from each conjugate pair and put
+
+```text
+y_a=|alpha(zeta_256^a)|^2,       z_a=y_a/18,       a in (Z/256Z)^x/{+-1}.
+```
+
+Then
+
+```text
+sum_a z_a=64,       product_a z_a=2^mu p/18^64,
+D_(mu,p):=sum_a(z_a-1-log z_a)=log(18^64/(2^mu p)). (PCR4)
+```
+
+If `beta=u alpha` is a second collision in the same cofactor and
+
+```text
+lambda_a(u)=log|u(zeta_256^a)|^2,
+```
+
+then
+
+```text
+sum_a lambda_a(u)=0,
+sum_a |lambda_a(u)| <= 2(D_(mu,p)+sqrt(128 D_(mu,p))). (PCR5)
+```
+
+The logarithmic embedding of `R^x` has rank `63` and kernel exactly the 256
+roots of unity. Consequently the number of negacyclic shift/sign orbits in
+one fixed-cofactor collision family is at most the number of points of the
+full unit log lattice in the explicit `L1` body `(PCR5)`. This is a counting
+reduction, not a lattice-point estimate.
+
+Let `T_36(p,r)` be the total number of these 256-element orbits across the
+four residual cofactors. The exact weighted-kernel dictionary gives the
+profile contribution
+
+```text
+E_36=128 M_33(3,6) T_36(p,r),
+M_33(3,6)=1386246316188473270092082114587711840.       (PCR6)
+```
+
+The recalibrated binding-row vector allowance is `93962`. Since
+
+```text
+367*256=93952,       368*256=94208,
+```
+
+the complete low-mass pair budget necessarily requires
+
+```text
+T_36(p,r)<=367.                                      (PCR7)
+```
+
+This orbit cap is not sufficient for the complete budget because all
+lower-weight profiles still contribute.
+
 For the currently surviving prize `N=256`, profile `(3,6,S=18)` branches,
 the proved cofactor exclusions leave only
 

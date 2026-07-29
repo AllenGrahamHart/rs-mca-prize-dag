@@ -10,6 +10,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 NODE = "e1_pure_cofactor_common_prime_associate_router"
 TARGET = "e1_official_low_square_mass_pair_budget"
+EDGE_CAP = 65127585921474870475467050631501738502567
+PROFILE_WEIGHT = 1386246316188473270092082114587711840
 
 
 def main() -> None:
@@ -19,10 +21,17 @@ def main() -> None:
     assert "same row and quotient" in statement
     assert "same quotient\n+   root" in contract
     assert "odd cofactor" in contract
-    assert "not only a root of unity" in contract
+    assert "not only a root of" in contract
+    assert "cyclotomic-unit subgroup is not proved" in contract
     assert "mu!=nu" in contract
     assert "not a feasible exhaustive enumeration" in contract
-    checks += 6
+    assert "natural logarithms" in contract
+    assert "No regulator" in contract
+    assert "367 cap is necessary" in contract
+    assert "not sufficient" in contract
+    assert 128 * PROFILE_WEIGHT * 367 <= EDGE_CAP
+    assert 128 * PROFILE_WEIGHT * 368 > EDGE_CAP
+    checks += 13
 
     # Ideal-norm mutation controls: an odd residual factor cannot disappear,
     # and changing the root changes the selected prime ideal.

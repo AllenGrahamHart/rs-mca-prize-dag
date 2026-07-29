@@ -135,8 +135,14 @@ fixed `(p,r)`:
 alpha=pi^mu u g,       mu in {1,2,3,4},       (g)=P_r,
 ```
 
-for one prime generator `g` and a cyclotomic unit `u`. This is the selected
+for one prime generator `g` and an algebraic unit `u`. This is the selected
 non-computational interface for the profile. In a fixed cofactor, both `u`
 and `u^(-1)` have power-basis coefficient bounds `1006,503,251,125` for
-`mu=1,2,3,4`. A bounded-unit associate count or height theorem is still
-required, and lower-weight profiles still enter the exact weighted sum.
+`mu=1,2,3,4`. Modulo the 256 shift/sign roots of unity, the associates inject
+into the full rank-63 unit log lattice inside the exact row body
+`||lambda||_1<=2(D+sqrt(128D))`, where
+`D=log(18^64/(2^mu p))`. A bounded-unit associate count or height theorem is
+still required. The exact maximum-weight target is at most 367 log-lattice
+points across the four cofactors; 368 already exceed the complete edge
+budget. Lower-weight profiles still enter the exact weighted sum, so 367 is
+necessary rather than sufficient.

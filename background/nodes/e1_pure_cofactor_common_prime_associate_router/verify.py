@@ -11,8 +11,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 NODE = "e1_pure_cofactor_common_prime_associate_router"
 TARGET = "e1_official_low_square_mass_pair_budget"
+EDGE_CAP = 65127585921474870475467050631501738502567
+PROFILE_WEIGHT = 1386246316188473270092082114587711840
 SUPPLIERS = (
     "e1_pair_feasible_prime_field_reduction",
+    "e1_low_square_mass_weighted_kernel_dictionary",
     "e1_prize_n256_s18_profile_36_cofactor_windows",
     "e1_prize_n256_s18_profile_36_m1538_exclusion",
     "e1_prize_n256_s18_profile_36_m1024_exclusion",
@@ -56,11 +59,23 @@ def main() -> None:
 
     statement = (Path(__file__).with_name("statement.md")).read_text()
     assert "m in {2,4,8,16}" in statement
-    assert "arbitrary cyclotomic unit" in statement
+    assert "unit associates" in statement
+    contract = (Path(__file__).with_name("claim_contract.md")).read_text()
+    assert "arbitrary algebraic unit" in contract
+    assert "cyclotomic-unit subgroup is not proved" in contract
     assert "not a count" in statement
     assert [2013 // 2**mu for mu in range(1, 5)] == [1006, 503, 251, 125]
     assert "floor(18^64/(2^mu p))" in statement
-    checks += 5
+    assert "sqrt(128 D_(mu,p))" in statement
+    assert "rank `63`" in statement
+    assert "kernel exactly the 256" in statement
+    assert 2 * EDGE_CAP // PROFILE_WEIGHT == 93962
+    assert PROFILE_WEIGHT * 93962 <= 2 * EDGE_CAP
+    assert PROFILE_WEIGHT * 93963 > 2 * EDGE_CAP
+    assert 367 * 256 == 93952 < 93962 < 94208 == 368 * 256
+    assert "T_36(p,r)<=367" in statement
+    assert "not sufficient" in statement
+    checks += 16
 
     print(
         "E1_PURE_COFACTOR_COMMON_PRIME_ASSOCIATE_ROUTER_PASS "

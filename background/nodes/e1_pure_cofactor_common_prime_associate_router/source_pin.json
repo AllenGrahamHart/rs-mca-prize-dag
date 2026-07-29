@@ -1,4 +1,6 @@
 {
+  "dictionary_statement_file": "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/statement.md",
+  "dictionary_statement_sha256": "a2e6fe3a2ac8f8c89a1d9f0a0748377602ff16ede731424e685e0526d01fc512",
   "prime_reduction_statement_file": "background/nodes/e1_pair_feasible_prime_field_reduction/statement.md",
   "prime_reduction_statement_sha256": "f7b5ea3463c6b9101b854191a498015fedc89d1bf4a5a0c28b2b2f8b71157e7b",
   "cofactor_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/statement.md",
@@ -24,4 +26,3 @@
   "m16_two_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion/statement.md",
   "m16_two_statement_sha256": "9ddc1280fb78bf12e4ba4e53096cfec53a1043b5374a4ddc222c0ca91deb55ce"
 }
-

@@ -3077,8 +3077,8 @@
     "background/nodes/e1_pure_cofactor_common_prime_associate_router/verify.py",
     "background/nodes/e1_pure_cofactor_common_prime_associate_router/verify_audit.py"
    ],
-   "statement": "At one fixed prize N=256 reduction root, every collision of absolute norm 2^mu p has principal ideal P_r(1-zeta)^mu. Dividing by the ramified factor gives a generator of P_r, so every two pure-cofactor collisions are normalized unit associates. In a fixed cofactor, Cramer-Hadamard bounds both unit and inverse power-basis coefficients by 1006,503,251,125 for cofactors 2,4,8,16.",
-   "notes": "ANALYTIC AGGREGATE ROUTER 2026-07-29: the current profile-(3,6,S=18) residue has cofactors 2,4,8,16, with only the primitive m=16 support branch live. The result couples each fixed-cofactor row/root branch into a finite bounded unit/inverse family but proves no associate count, weighted edge budget, E1 image bound, or prize status movement."
+   "statement": "At one fixed prize N=256 reduction root, every collision of absolute norm 2^mu p has principal ideal P_r(1-zeta)^mu. Dividing by the ramified factor gives a generator of P_r, so every two pure-cofactor collisions are normalized unit associates. Fixed-cofactor associates have explicit unit/inverse coefficient boxes and, modulo 256 shifts/signs, inject into an exact AM-GM body in the full rank-63 unit log lattice. The exact maximum-weight profile target is at most 367 such torsion orbits.",
+   "notes": "ANALYTIC AGGREGATE ROUTER 2026-07-29: the current profile-(3,6,S=18) residue has cofactors 2,4,8,16, with only the primitive m=16 support branch live. Cramer-Hadamard gives coefficient bounds 1006,503,251,125; the log body is ||lambda||_1<=2(D+sqrt(128D)), D=log(18^64/(2^mu p)). Each orbit pays 128M_33(3,6) edges; 368 already exceed the complete edge budget. No orbit count, lower-profile payment, E1 image bound, or prize status movement follows."
   },
   {
    "id": "e1_n512_four_singleton_collision_exclusion",
@@ -39768,6 +39768,11 @@
   },
   {
    "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_low_square_mass_weighted_kernel_dictionary",
    "to": "e1_pure_cofactor_common_prime_associate_router",
    "kind": "req"
   },
