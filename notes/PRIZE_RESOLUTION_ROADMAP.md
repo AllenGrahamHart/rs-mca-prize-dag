@@ -7403,3 +7403,23 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: inspect the fully proportional role/conic locus;
                               use T=G_2+6D only inside that final residue
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` fully-proportional parameter
+reduction:** the final quotient coefficients now have explicit solutions.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction
+b=4x-15 is nonzero: b=0 would give N_1=630q^3!=0
+conic reconstruction: R_0=-qP/(2880b)
+bivariate conic endpoint: F_N=6P^2-bPQ+2880b^2T_c=0
+role reconstruction: S_0=-c_1R/(2c_0)-qa_d/18
+discriminant weld:
+  c_0^2 disc_d(P_4)=81(c_1^2-4c_2c_0)R^2
+scope fence: ambient quadratic field, so no prime-field nonsquare
+             contradiction is claimed
+retained d equation: P_4=0
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: combine F_N and the four coefficient-zero
+                              equations before any packet-by-packet compute
+```

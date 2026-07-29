@@ -19424,6 +19424,25 @@
    "notes": "Exact quadratic-quotient router only. Two rational parameter charts and the simultaneous N_1=U_1=N_0=U_0=0 proportionality chart remain open with every arithmetic-lift obligation."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional parameter reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the fully proportional quotient chart, the conic equations reconstruct R_0 and leave one explicit polynomial F_N, while the role equations reconstruct S_0 and weld the discriminants of P_4 and the selected role quadratic.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction/verify.py"
+   ],
+   "notes": "Exact parameter reduction only. The F_N endpoint and role-discriminant weld remain open separately on all 21 role packets, with P_4 and every arithmetic-lift obligation retained."
+  },
+  {
    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler",
    "title": "L1 Mersenne HNF m=8 order-one cubic three-double affine-color compiler",
    "status": "PROVED",
@@ -36913,6 +36932,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },
