@@ -10066,7 +10066,7 @@
     "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/upstream_crosswalk.md",
     "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/verify.py"
    ],
-   "statement": "For one exact anchor in a balanced interpolation-module split pencil, the coefficient determinant Delta_0=A_0B-B_0A is an affine coordinate on the complete monic coefficient body. Every exact neighbor satisfies Delta_0=(D/gamma)R and gcd(Delta_0,W_0)=D=gcd(W_0,W). At common-agreement deficiency j and fixed D, the neighbor locators lie in projective dimension at most j+1 and obey the exact root-matroid ceiling |C_D|<=floor(C(m,r)/(w+j-r+2)). The j=0 stratum is the one-parameter moving-root pencil. Aggregation over the potentially exponential D owners remains open.",
+   "statement": "For one exact anchor in a balanced interpolation-module split pencil, the coefficient determinant Delta_0=A_0B-B_0A is an affine coordinate on the complete monic coefficient body. A Bezout-dual vector gives W(P-P_0)=gamma Delta_0L_0 and W=Delta_0J mod W_0 with gcd(J,W_0)=1, so every common-complement owner is one canonical gcd stratum of a single Pade family. At deficiency j and fixed owner, the neighbor locators lie in projective dimension at most j+1 and obey the exact root-matroid ceiling |C_D|<=floor(C(m,r)/(w+j-r+2)). The j=0 stratum is the one-parameter moving-root pencil. Aggregation over the potentially exponential owners remains open.",
    "notes": "EXACT L1/BC BRIDGE 2026-07-29. This pays fixed common-complement charts and removes coefficient multiplicity, but supplies no global owner coalescence, finite-row reserve fit, or L1 promotion."
   },
   {

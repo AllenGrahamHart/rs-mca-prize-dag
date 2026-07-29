@@ -76,9 +76,13 @@ def main() -> None:
     statement = (ROOT / "statement.md").read_text()
     proof = (ROOT / "proof.md").read_text()
     assert "gcd(Delta_0,W_0)=D" in statement
+    assert "W(P-P_0)=gamma Delta_0 L_0" in statement
+    assert "gcd(J,W_0)=1" in statement
+    assert "Y=X+rem_X((R/gamma)J)" in statement
     assert "|C_D| <= floor( binom(m,r_D)/(h-r_D+1) )" in statement
     assert "may be exponential" in statement
     assert "A loopless rank-`r` matroid" in proof
+    assert "form a unimodular basis" in proof
 
     print(f"L1_BALANCED_PENCIL_ANCHOR_DETERMINANT_ATLAS_PASS checks={checks}")
 

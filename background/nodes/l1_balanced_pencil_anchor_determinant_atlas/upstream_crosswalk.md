@@ -11,3 +11,8 @@ For `j>=1`, the node gives the corresponding higher-dimensional object and
 an unconditional basis ledger. This supports the BC/split-pencil program but
 does not prove `conj:BC`: the number of common-complement charts can be
 exponential, and no MCA slope parameter is present in the list statement.
+
+The Bezout-dual formula `W(P-P_0)=gamma Delta_0L_0` is the direct
+arbitrary-word Pade interface requested by upstream's list-interior lane.
+It proves that all fixed-owner pencils are gcd strata of one affine family;
+it does not supply the row-sharp maximum over that family.

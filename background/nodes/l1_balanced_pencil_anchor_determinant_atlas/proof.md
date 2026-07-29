@@ -32,23 +32,59 @@ nonzero; if `deg T>0`, then `deg(TW_0)>omega`, contradicting the coefficient
 caps. Thus `T=0`. Equal finite dimensions now prove the affine bijection in
 `(DA4)`.
 
+Choose `u,v` with `uA_0+vB_0=1` and define the dual module vector
+
+```text
+(J,K)=-v g_1+u g_2.                                   (2)
+```
+
+The coefficient pairs `(A_0,B_0)` and `(-v,u)` form a unimodular basis.
+Consequently every coefficient pair has the unique form
+
+```text
+(A,B)=T(A_0,B_0)+Delta_0(-v,u),                       (3)
+```
+
+which proves `(DA4b)` and the denominator formula in `(DA4c)`. The
+determinant of the corresponding module vectors is unchanged by this
+unimodular basis transformation:
+
+```text
+W_0K-JN_0=gamma Omega.                                (4)
+```
+
+Since `N_0=W_0P_0` and `Omega=W_0L_0`, cancellation gives
+
+```text
+K=JP_0+gamma L_0.                                     (5)
+```
+
+Substitution in `(3)` proves the numerator formula in `(DA4c)` and, when
+`N=WP`, the Pade identity `(DA4e)`.
+
+If a root `x` of `W_0` were also a root of `J`, then `(5)` would give
+`K(x)=gamma L_0(x)!=0`, because `Omega` is squarefree. But `(J,K)` belongs
+to the interpolation module, so `K(x)=J(x)U(x)=0`, a contradiction. Hence
+`gcd(J,W_0)=1`. Reducing `W=T W_0+Delta_0J` modulo `W_0` now proves the gcd
+identity `(DA4d)` for every point of the monic coefficient body.
+
 For the anchor and one neighbor, bilinearity of the module determinant gives
 
 ```text
 W_0N-WN_0=(A_0B-B_0A) det(g_1,g_2)
-          =Delta_0 gamma Omega.                       (2)
+          =Delta_0 gamma Omega.                       (6)
 ```
 
 Since `N=WP` and `N_0=W_0P_0`, the left side is
-`W_0W(P-P_0)`. The squarefree divisor decomposition `(DA5)` changes `(2)`
+`W_0W(P-P_0)`. The squarefree divisor decomposition `(DA5)` changes `(6)`
 to
 
 ```text
-D^2XY(P-P_0)=Delta_0 gamma DXYG.                      (3)
+D^2XY(P-P_0)=Delta_0 gamma DXYG.                      (7)
 ```
 
 The two codewords agree with the received word on the roots of `G`, so
-`P-P_0=GR`. Cancelling the nonzero polynomial `DXYG` in `(3)` proves the
+`P-P_0=GR`. Cancelling the nonzero polynomial `DXYG` in `(7)` proves the
 first identity in `(DA6)`.
 
 At a root of `X`, the neighbor agrees with the received word and the anchor
@@ -61,16 +97,25 @@ determines the complete coefficient pair and hence the neighbor.
 Let `g=deg G` and `t=deg X=deg Y`. From `(DA5)`,
 
 ```text
-t=m-g,       deg D=n-2m+g.                            (4)
+t=m-g,       deg D=n-2m+g.                            (9)
 ```
 
-Using `s=n-2m+k` and `j=s-1-deg D` in `(4)` gives
+Using `s=n-2m+k` and `j=s-1-deg D` in `(9)` gives
 
 ```text
-g=k-1-j,       t=w+1+j.                               (5)
+g=k-1-j,       t=w+1+j.                               (10)
 ```
 
 Also `deg R<=k-1-g=j`. Nonnegative degrees prove all of `(DA7)`.
+Reducing `W=T W_0+Delta_0J` modulo `W_0`, substituting
+`(W,W_0,Delta_0)=(DY,DX,DR/gamma)`, and cancelling `D` gives
+
+```text
+Y=(R/gamma)J mod X.                                   (11)
+```
+
+Both `X` and `Y` are monic of degree `h`, so `Y-X` has degree below `h`.
+Taking the canonical remainder in `(11)` proves `(DA7a)`.
 
 It remains to prove `(DA10)`. Fix `D`. By `(DA6)`, every coefficient pair
 in `C_D` has determinant `DR` with `deg R<=j`. The affine bijection `(DA4)`
@@ -79,7 +124,7 @@ most `j+1`. Division of their denominators by the fixed monic `D` is linear,
 so
 
 ```text
-dim V_D<=j+2,       r_D<=j+1.                         (6)
+dim V_D<=j+2,       r_D<=j+1.                         (12)
 ```
 
 The anchor quotient `X=W_0/D` is monic of degree `h` and every neighbor
@@ -108,10 +153,10 @@ polynomial; monicity then determines one `Y`. All roots lie among the
 anchor's `m` agreement points. Counting the available `r_D`-subsets proves
 
 ```text
-|C_D|(h-r_D+1)<=binom(m,r_D),                         (7)
+|C_D|(h-r_D+1)<=binom(m,r_D),                         (13)
 ```
 
-which is `(DA10)`. For `j=0`, `(DA9)` forces `r_D=1` and `(5)` gives
+which is `(DA10)`. For `j=0`, `(DA9)` forces `r_D=1` and `(10)` gives
 `h=w+1`, proving `(DA11)`. Finally there are
 `binom(omega,s-1-j)` possible degree-`s-1-j` divisors of `W_0`; summing
 `(DA10)` and maximizing over the permitted `r_D` proves `(DA12)`. QED.

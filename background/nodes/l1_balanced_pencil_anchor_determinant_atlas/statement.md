@@ -41,6 +41,40 @@ Delta_0(A,B)=A_0B-B_0A                                  (DA4)
 
 is an affine bijection onto `F[Z]_(<=s-1)`, sending the anchor to zero.
 
+Choose Bezout polynomials `u,v` with
+
+```text
+uA_0+vB_0=1
+```
+
+and put
+
+```text
+(J,K)=-v g_1+u g_2,       L_0=Omega/W_0.             (DA4a)
+```
+
+Then every point of the monic coefficient body has a unique decomposition
+
+```text
+(W,N)=T(W_0,N_0)+Delta_0(J,K),                        (DA4b)
+K=JP_0+gamma L_0,
+W=T W_0+Delta_0J,
+N=WP_0+gamma Delta_0L_0.                              (DA4c)
+```
+
+Moreover,
+
+```text
+gcd(J,W_0)=1,
+gcd(W,W_0)=gcd(Delta_0,W_0).                          (DA4d)
+```
+
+For a codeword point `N=WP`, `(DA4c)` is the global Pade identity
+
+```text
+W(P-P_0)=gamma Delta_0 L_0.                           (DA4e)
+```
+
 ## Exact neighbor certificate
 
 For a distinct exact member put
@@ -71,6 +105,12 @@ deg G=k-1-j,       h=w+1+j,       deg R<=j.            (DA7)
 ```
 
 Moreover, `R` is nonzero on every root of `X` and `Y`.
+
+The fixed-owner quotient also lies on the explicit remainder graph
+
+```text
+Y=X+rem_X((R/gamma)J).                                (DA7a)
+```
 
 ## Fixed-owner linear-system bound
 
@@ -120,7 +160,9 @@ bound, aggregate different `D`, control growing `j`, or close L1. Its value
 is to identify the precise list-side bridge to Przemek's split-pencil
 program: `j=0` is a paid projective pencil, while `j>=1` is a
 dimension-at-most-`j+1` split linear system with an exact root-matroid basis
-ledger.
+ledger. Equations `(DA4b)--(DA4e)` coalesce all owner charts into one
+received-word-dependent Pade family; they do not bound the realized gcd
+strata of that family.
 
 ## Falsifier
 

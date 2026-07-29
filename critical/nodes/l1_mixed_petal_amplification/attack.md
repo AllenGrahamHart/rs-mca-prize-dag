@@ -925,3 +925,7 @@
   factor. The next theorem must coalesce those owners, prove a reserve-sized
   realized owner image, or route growing `j` to an earlier Q/tangent/prefix
   class.
+  Use the Bezout-dual identity
+  `W(P-P_0)=gamma Delta_0L_0` and the unit residue multiplier
+  `W=Delta_0J mod W_0` as the global Pade chart; do not rebuild one affine
+  pencil independently for every gcd owner.

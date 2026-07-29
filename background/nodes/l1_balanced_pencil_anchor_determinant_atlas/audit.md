@@ -10,6 +10,15 @@
 - `D` is the common **complement** locator. `G` is the common agreement
   locator. They are not interchangeable first owners.
 - The identity `gcd(Delta_0,W_0)=D` uses squarefreeness of the domain locator.
+- The Bezout dual `(-v,u)` is unimodular with the anchor coefficient pair.
+  Its module determinant gives `K-JP_0=gamma L_0` without division in the
+  interpolation module.
+- `J` is a unit modulo `W_0`: a common root would force the dual numerator
+  to be both zero by module evaluation and nonzero by squarefreeness.
+- The universal congruence `W=Delta_0J mod W_0` proves owner recovery on the
+  whole monic coefficient body, stronger than the exact-neighbor argument.
+- Cancelling the fixed owner in that congruence gives the remainder graph
+  `(DA7a)`; monicity supplies the added `X` term.
 - The deficiency identities have been checked in both coordinate systems:
   `j=k-1-deg G` and `h=w+1+j`.
 - The quotient system contains `X=W_0/D`, which is nonzero on all anchor

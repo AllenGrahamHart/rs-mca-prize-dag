@@ -16,6 +16,11 @@ the exact common complement by gcd. At fixed common complement and
 common-agreement deficiency `j`, all exact neighbors lie in a split linear
 system of projective dimension at most `j+1` and satisfy `(DA10)`.
 
+The Bezout-dual module vector additionally proves the global Pade identity
+`W(P-P_0)=gamma Delta_0L_0`, with a residue multiplier `J` that is a unit
+modulo `W_0`. Thus every gcd owner is a stratum of one affine family, and
+the fixed-owner quotient is the explicit remainder graph `(DA7a)`.
+
 ## Guards
 
 1. The shell is in the balanced band `2m<=n+k-1`; equivalently `s>=1`.
@@ -29,3 +34,5 @@ system of projective dimension at most `j+1` and satisfy `(DA10)`.
 6. The root-matroid bound uses full splitting and exact degree `h`; it is not
    a bound for arbitrary polynomial subspaces or partially split members.
 7. No row reserve inequality or critical-status promotion follows.
+8. Coalescing all owner charts into one Pade family is a representation
+   theorem, not a bound on the number of realized gcd strata.

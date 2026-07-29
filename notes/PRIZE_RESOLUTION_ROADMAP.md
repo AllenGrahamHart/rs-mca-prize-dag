@@ -8616,12 +8616,17 @@ node proved: l1_balanced_pencil_anchor_determinant_atlas
 fixed-anchor coordinate:
   Delta_0=A_0B-B_0A is an affine bijection from the monic balanced
   coefficient body to F[Z]_(<=s-1)
+global Pade transport:
+  choose the Bezout-dual denominator J with gcd(J,W_0)=1
+  W(P-P_0)=gamma Delta_0L_0 and W=Delta_0J mod W_0
+  every owner is one gcd stratum of this single affine family
 exact owner recovery:
   Delta_0=(D/gamma)R
   D=gcd(W_0,W)=gcd(Delta_0,W_0)
   j=s-1-deg D=k-1-deg G, h=w+1+j, deg R<=j
 fixed-D payment:
   neighbor quotients lie in projective dimension r<=j+1
+  Y=X+rem_X((R/gamma)J)
   root-matroid bases give
     |C_D|<=floor(C(m,r)/(h-r+1))
   j=0 specializes to floor(m/(w+1)), the one-pencil moving-root cap

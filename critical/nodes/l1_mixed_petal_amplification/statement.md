@@ -1313,6 +1313,17 @@ injection gives the exact per-owner ceiling
 floor(binom(m,r)/(w+j-r+2)),       1<=r<=j+1.
 ```
 
+A Bezout-dual module vector gives the stronger global interface
+
+```text
+W(P-P_0)=gamma Delta_0L_0,
+W=Delta_0J mod W_0,       gcd(J,W_0)=1.
+```
+
+Thus all common-complement owners are exact gcd strata inside one
+received-word Pade family, and every fixed-owner quotient is the explicit
+remainder graph `Y=X+rem_X((R/gamma)J)`.
+
 The `j=0` chamber is precisely a paid one-parameter moving-root pencil. This
 does not promote L1: the possible common-complement owners can be
 exponentially numerous, and growing `j` remains unaggregated. The missing
