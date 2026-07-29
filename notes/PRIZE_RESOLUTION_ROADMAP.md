@@ -8482,3 +8482,32 @@ upstream custody: PR #1124 head 0622a5fe3ea7bc34eca4a070b441b244bf579df1
 next route-deciding action: combine the core-shadow hierarchy with the
                               planted/external split and first-owner ledger
 ```
+
+**2026-07-29, M31 source-head saturation:** maximal overlap saturates the
+proper-`G` reduced determinant on every top edge.
+
+```text
+node proved: l1_m31_top_pair_source_head_saturation_router
+top-pair source identity:
+  A_i b_j-A_j b_i=(gamma_j-gamma_i) gcd(H_i,H_j)
+  a_j-a_i=(gamma_j-gamma_i) C_ij gcd(H_i,H_j)/L_S
+  gamma_i=[X^(d-1)]f_i, and every top edge has gamma_i!=gamma_j
+head-fiber cap:
+  same-head supports have intersection at most 4979
+  Cauchy cap = floor(1053557*67449/154881)=458812
+dangerous-family consequences:
+  at least five head values
+  at least 1699117 members with deg f_i=d-1
+  one nonzero-head anchor has at least 107897 top neighbors
+  that anchor forces 2238863 degree-4979 cores and 35821804
+  distinct (core,neighbor-head) pairs
+route verdict:
+  top-pair decoration is now a source-head difference, not a free scalar
+  the live theorem is cross-head/core ownership or aggregation
+scope fence: no head-spectrum bound, owner add-back, Q=147595 payment,
+             row close, or Prize movement
+compute spend: none; analytic source-degree saturation
+replay state: two exact verifier sources written; local arithmetic unrun
+next route-deciding action: test the active head/projective-line owner for
+                              disjoint coverage of the colored core shadow
+```
