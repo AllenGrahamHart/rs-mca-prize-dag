@@ -86,8 +86,15 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
 11. Consume `e1_profile210_m1538_collision_exclusion`: the `769` branch is
    empty after a sharp `V<=4` reduction and five exact norm checks. Restrict
    the split-prime attack to `514` and `1028` above `257`; the current profile
-   envelope is `T_210<=266`. Attack `1028` first because its universal moment
-   window is only `V<=12`.
+   envelope is `T_210<=266`. Consume
+   `e1_profile210_exact_weighted_payment`: charging all 266 families leaves
+   residual edge budget
+   `22622986807805210095050326195532090878375`, so the weighted frontier
+   advances to `(1,14,S=18)` with oriented cap `39193`. Further `514` and
+   `1028` work is optional slack and must not block the new profile.
+12. Attack `(1,14,S=18)` by deriving its local cofactor and prime-ideal
+   partition before any support census. Preserve the exact residual ledger;
+   do not replace the 39,193-vector aggregate cap by a per-profile guess.
 
 No broad local or Modal census is authorized. Large exact relation searches
 must be recorded as external compute requests with partial-result output.

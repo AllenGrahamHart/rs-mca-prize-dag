@@ -9045,3 +9045,21 @@ The trace cap uses the 13 largest distinct folded traces, rational Machin
 bounds `333/106<pi<355/113`, and a quartic cosine majorant. The remaining
 profiles occupy energies 5 through 12. Continue with the local lag-parity and
 fixed-root mod-257 equations; energy 13 no longer needs a census.
+
+**2026-07-29, exact profile-(2,10) E1 payment:** the weighted ledger can move
+inward without waiting for complete split-cofactor emptiness.
+
+```text
+profile-(2,10) oriented envelope:    68096
+exact profile charge:                41794840999781162066129578393300739162112
+new residual edge budget:            22622986807805210095050326195532090878375
+next profile:                         (1,14,S=18)
+next dictionary weight:               1154418456451360735963226152798543872
+tight residual oriented cap:          39193
+```
+
+This charge includes all 128 possible `514` ideals and all 128 possible
+`1028` ideals. Their continuing refinements can add slack but are no longer
+on the serial path. The active E1 frontier is now the local cofactor and
+prime-ideal partition for `(1,14,S=18)`; retain the exact aggregate residual
+across every later profile.
