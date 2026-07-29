@@ -5581,6 +5581,9 @@ degree-12 transverse types without computation.
 
 ```text
 new node: rate_half_kb_m12_outer_subdegree_route_cut [PROVED]
+outbound PR: https://github.com/przchojecki/rs-mca/pull/1132 (draft)
+outbound head: e368e5c8fc101ae0040b47265c2cd167e70dadd2
+stack parent: PR #1131 head e287c54252c7872e1745c7594cfef62b74a65cf5
 inputs:
   outer F has degree 5, one rational pole of order 5, and five distinct
   rational simple zeros

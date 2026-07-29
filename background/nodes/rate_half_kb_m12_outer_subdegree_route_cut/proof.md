@@ -7,11 +7,11 @@ defined over `K` and the pole is unique, `P` is `K`-rational. Its zero
 divisor consists of five distinct points: each is the common `h`-value of a
 complete 12-point active fiber, so each lies in `K`.
 
-The transverse image `C` is an irreducible non-diagonal component of
-`F(Y)=F(Z)` of bidegree `(r,r)`. Because degree five is prime, `F` is
-indecomposable; its separable geometric monodromy is primitive. Irreducible
-self-correspondence components are point-stabilizer suborbits. The complete
-primitive degree-five rows are
+The transverse image `C` is a geometrically irreducible non-diagonal
+component of `F(Y)=F(Z)` of bidegree `(r,r)`. Because degree five is prime,
+`F` is geometrically indecomposable; its separable geometric monodromy is
+primitive. Geometric self-correspondence components are point-stabilizer
+suborbits. The complete primitive degree-five rows are
 
 ```text
 (1,1,1,1,1),       (1,2,2),       (1,4),
@@ -20,10 +20,11 @@ primitive degree-five rows are
 with repetitions for the five primitive groups. None has subdegree three,
 so `r=3` is impossible.
 
-If `r=1`, `C` is the graph of a nonidentity Mobius transformation `sigma`
-with `F composed sigma=F`. The automorphism group embeds in the degree-five
-function-field extension, so its nontrivial subgroup has order five and the
-cover is cyclic. In characteristic different from five, a cyclic
+If `r=1`, `C` is the graph over the algebraic closure of a nonidentity
+Mobius transformation `sigma` with `F composed sigma=F`. The resulting
+nontrivial automorphism group has order dividing the degree-five
+function-field extension, so it has order five and the cover is cyclic. In
+characteristic different from five, a cyclic
 degree-five cover of `P^1` has exactly two totally ramified points. One is
 the unique pole `P`; call the other `Q`. The ramification divisor is defined
 over `K`, and after removing the unique rational point `P`, the remaining
