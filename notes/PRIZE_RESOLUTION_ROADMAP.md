@@ -6893,9 +6893,9 @@ local theorems:
   l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler
   l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler
 local source commits: 3380ea30, 1c2bfd55, 8d847b9e, e10d4683, 59497c96,
-                      44a9d6bb, 0dfd4714
+                      44a9d6bb, 0dfd4714, 32b35ed4
 upstream base: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
-PR head: 1f1fc64fb5e478702f68fd2be58e407338c433e2
+PR head: 227c0a5210b0702e66a30a0fa0071628185b4efe
 PR state at custody refresh: OPEN, DRAFT; mergeability pending
 upstream files:
   experimental/notes/l1/l1_m8_h7_order_one_cubic_33_exclusion.md
@@ -6912,7 +6912,7 @@ additional endpoints: P_5 of degree 5 and R_12 of degree 12 for the two
                       seven-shape affine-color equation for generic 2+2+2
 replay digests:
   8d49e0b87da9b842d4b827b7feae6718e3c0e9628e9a94d33cfc8b49e901c66f
-  c2b0faa609239f7ab10b3c4198abb584eb2fd20b10600c6bc2fa47d5a2f7e24b
+  478c99f198698a94e60615924a082fb05ab2dd6168e108dbc777bbbcb4f7f687
 compute-request digest:
   d3b4aacf170e13fecdf36718f8566bd597beacf4965aa1584077dbe61db9f695
 compute-certificate checker digest:
