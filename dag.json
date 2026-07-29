@@ -363,8 +363,8 @@
     "background/nodes/e1_official_low_square_mass_pair_budget/attack.md",
     "background/nodes/e1_official_low_square_mass_pair_budget/frontier.md"
    ],
-   "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 65127585921474870475467050631501738502567, about 1.714K; maximum low-mass collision degree three is sufficient. The weighted-kernel dictionary gives E_low=(1/2)sum_d M_ell(a(d),b(d)). The maximum profile (3,6,S=18) is paid exactly at its four-orbit upper bound. For the next profile (2,10,S=18), ten pure and 384 split-prime ideal families give the coarse cap T_210<=394; the remaining obstruction is to sharpen split-prime occupancy while retaining the later-profile weighted ledger. The Plotkin compiler then forces more than B* values.",
-   "attack_surface": "bound occupancy of the 384 profile-(2,10) split-prime families by coupling F(r)=0 mod p with F(s)=0 mod 257 or 769, or by a resultant/ideal argument; do not merge distinct Q_s or launch an unpartitioned support-12 census, and preserve orientation, stabilizer, and class-pair multiplicities in the residual weighted ledger",
+   "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 65127585921474870475467050631501738502567, about 1.714K; maximum low-mass collision degree three is sufficient. The weighted-kernel dictionary gives E_low=(1/2)sum_d M_ell(a(d),b(d)). The maximum profile (3,6,S=18) is paid exactly at its four-orbit upper bound. For the next profile (2,10,S=18), cofactor 1538 is now excluded and the coarse envelope is T_210<=266; the remaining split-prime cofactors are 514 and 1028 above 257. The Plotkin compiler then forces more than B* values.",
+   "attack_surface": "attack the profile-(2,10) cofactor-1028 branch through its universal V<=12 window, using finite-field autocorrelation types and exact real-cyclotomic norms before any support census; then treat 514, never merge distinct Q_s, and preserve orientation, stabilizer, and class-pair multiplicities in the residual weighted ledger",
    "falsifier": "an admissible row whose exact unordered low-mass collision-pair count exceeds its printed budget, or a multiplicity/type error in a claimed count"
   },
   {
@@ -3227,6 +3227,24 @@
    ],
    "statement": "On the binding prize row, every profile-(2,10,S=18) collision has one of ten pure power-of-two cofactors or one of 514, 1028, and 1538. The latter expose one of 128 primes above 257 or 769. Every fixed ideal family contains at most one 256-vector shift/sign orbit, so T_210<=394, |D_210|<=100864, and the coarse edge charge is at most 61906644187645781406222007093836433195008.",
    "notes": "SPLIT-PRIME FRONTIER 2026-07-29: exact Hasse-derivative enumeration gives mu=1,...,10 and the residue-degree sieve leaves thirteen cofactors. The ten pure families are paid; the remaining problem is occupancy of 384 distinct split-prime families, not unit multiplicity. Charging all 384 is too expensive for the later-profile ledger. No E1 close or Prize movement."
+  },
+  {
+   "id": "e1_profile210_m1538_collision_exclusion",
+   "title": "E1 profile-(2,10) cofactor-1538 collision exclusion",
+   "status": "PROVED",
+   "closure": "sharp moment envelope, finite-field orbit screen, and exact real-cyclotomic norms",
+   "refs": [
+    "background/nodes/e1_profile210_m1538_collision_exclusion/statement.md",
+    "background/nodes/e1_profile210_m1538_collision_exclusion/proof.md",
+    "background/nodes/e1_profile210_m1538_collision_exclusion/claim_contract.md",
+    "background/nodes/e1_profile210_m1538_collision_exclusion/dependency_subdag.md",
+    "background/nodes/e1_profile210_m1538_collision_exclusion/audit.md",
+    "background/nodes/e1_profile210_m1538_collision_exclusion/result.md",
+    "background/nodes/e1_profile210_m1538_collision_exclusion/frontier.md",
+    "background/nodes/e1_profile210_m1538_collision_exclusion/verify.py"
+   ],
+   "statement": "No binding-row profile-(2,10,S=18) collision has cofactor 1538. The sharp moment envelope forces V<=4; V=0,2 are impossible, and the V=4 branch reduces to five Galois types whose exact real-cyclotomic norm quotients all lie below the prize field floor. Hence the profile envelope drops from 394 to 266 shift/sign orbits and from 100864 to 68096 oriented vectors.",
+   "notes": "EXACT SPLIT-PRIME EXCLUSION 2026-07-29: a 640-hit finite-field screen over all primitive roots modulo 769 canonicalizes to five types. Stdlib Bareiss determinants recompute all five degree-64 norms. No support-vector enumeration, heuristic primality, E1 close, or Prize movement. The remaining split cofactors are 514 and 1028 above 257."
   },
   {
    "id": "e1_n512_four_singleton_collision_exclusion",
@@ -40146,6 +40164,26 @@
   },
   {
    "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_profile210_m1538_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_sharp_product_window",
+   "to": "e1_profile210_m1538_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "e1_profile210_m1538_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1538_collision_exclusion",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   }

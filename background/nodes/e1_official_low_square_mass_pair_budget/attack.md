@@ -83,6 +83,11 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
    `F(r)=0 mod p` and `F(s)=0 mod q`; the coarse all-occupied charge leaves
    only 4,350 uniform vectors for every later profile. Retain the exact
    weighted ledger across all later profiles.
+11. Consume `e1_profile210_m1538_collision_exclusion`: the `769` branch is
+   empty after a sharp `V<=4` reduction and five exact norm checks. Restrict
+   the split-prime attack to `514` and `1028` above `257`; the current profile
+   envelope is `T_210<=266`. Attack `1028` first because its universal moment
+   window is only `V<=12`.
 
 No broad local or Modal census is authorized. Large exact relation searches
 must be recorded as external compute requests with partial-result output.

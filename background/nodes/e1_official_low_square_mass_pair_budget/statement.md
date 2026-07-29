@@ -71,12 +71,11 @@ After subtracting it, `(2,10,S=18)` is the largest remaining profile and the
 residual uniform sufficient cap is `104955` oriented vectors. The exact
 weighted sum remains the actual target.
 
-The profile-`(2,10)` ideal router gives a first non-enumerative bound of
-`100864` oriented vectors: ten pure cofactor families and at most 384
-split-prime families, one orbit each. Its coarse edge charge is
-`61906644187645781406222007093836433195008`. This nearly exhausts the
-residual budget, so split-prime occupancy must be sharpened before the later
-profiles can be paid.
+The profile-`(2,10)` ideal router first gives ten pure and 384 split-prime
+families, one orbit each. Exact moment and resultant analysis then excludes
+the full `m=1538` branch, leaving at most `266` orbits and `68096` oriented
+vectors. The remaining split-prime cofactors are `514` and `1028`, both above
+`257`.
 
 ## Falsifier
 

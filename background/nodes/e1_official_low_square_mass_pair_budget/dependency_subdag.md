@@ -17,6 +17,7 @@ e1_high_cofactor_schinzel_height_collapse [PROVED] -----ev-->
 e1_cofactor2_smyth_height_collapse [PROVED] ------------ev-->
 e1_profile36_exact_weighted_payment [PROVED] -----------ev-->
 e1_profile210_split_prime_ideal_router [PROVED] --------ev-->
+e1_profile210_m1538_collision_exclusion [PROVED] -------ev-->
 e1_pair_feasible_prime_field_reduction [PROVED] --------ev-->
 
 e1_official_low_square_mass_pair_budget [TARGET] --ev--> unsafe_crossing_family_instantiation [TARGET]

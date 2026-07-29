@@ -8911,3 +8911,22 @@ Next action:
   or by a resultant/ideal argument; do not enumerate all support-12 vectors
   before fixing (m,Q_s)
 ```
+
+**2026-07-29, profile-(2,10) cofactor-1538 close:** the largest split rational
+prime is removed without a coefficient-support census.
+
+```text
+sharp moment threshold:            m=1538 => V<=4
+V=0:                               wrong 2-adic norm valuation
+V=2:                               L_64 mod 1538=2
+V=4 finite-field screen:           640 hits over 128 roots mod 769
+diagonal Galois types:              5
+exact real-cyclotomic norm verdict: every Norm/1538 below p_min
+profile-(2,10) envelope:            394 -> 266 orbits
+oriented vectors:                   100864 -> 68096
+```
+
+The norm verifier builds the real minimal polynomial `C_64` and all five
+degree-64 multiplication determinants using stdlib exact integers. No support
+vector is enumerated. The remaining split cofactors are `514` and `1028`
+above `257`; attack `1028` first because its moment window is `V<=12`.

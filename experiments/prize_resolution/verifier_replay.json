@@ -8,11 +8,11 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_profile210_split_prime_ideal_router/verify.py",
-      "seconds": 0.113041,
+      "script": "background/nodes/e1_profile210_m1538_collision_exclusion/verify.py",
+      "seconds": 0.309454,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_PROFILE210_SPLIT_PRIME_IDEAL_ROUTER_PASS valuations=10 raw=14 live=13 pure=10 split_ideal_families=384 maximum_orbits=394 charge=61906644187645781406222007093836433195008\n"
+      "stdout_tail": "E1_PROFILE210_M1538_COLLISION_EXCLUSION_PASS moment_comparisons=62 field_hits=640 galois_types=5 exact_norms=5 remaining_split_cofactors=514,1028 maximum_orbits=266\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

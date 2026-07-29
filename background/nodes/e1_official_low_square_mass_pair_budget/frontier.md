@@ -185,8 +185,7 @@ partition for `(2,10)`, including its newly possible local valuation
 
 That partition is now proved. The exact cofactor list has ten pure powers of
 two and `514,1028,1538`. Height collapse pays each fixed ideal family by one
-orbit, giving `T_210<=394`, but 384 of those families come from independent
-primes above `257` or `769`. Charging all of them leaves only 4,350 uniform
-vectors for every later profile. The live question is therefore the joint
-occupancy of the split-prime families under `F(r)=0 mod p` and
-`F(s)=0 mod q`, not the unit multiplicity inside one family.
+orbit. Sharp moment reduction and five exact real-cyclotomic resultants remove
+`1538`, sharpening the envelope from `394` to `266` orbits. The live question
+is now the occupancy of the 256 families above `257`, first for the shorter
+`m=1028`, `V<=12` branch.

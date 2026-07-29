@@ -37,6 +37,6 @@ The corresponding coarse edge charge is at most
 61906644187645781406222007093836433195008.
 ```
 
-This bound does not merge or exclude the `384` split-prime families. Their
-occupancy is the remaining profile-specific problem.
-
+The subsequent exact low-variance analysis excludes `m=1538` completely.
+Thus the current envelope has at most `266` orbits and `68096` oriented
+vectors; the `256` families above `257` remain the profile-specific problem.
