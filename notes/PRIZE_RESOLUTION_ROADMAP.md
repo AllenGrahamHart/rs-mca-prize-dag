@@ -8360,9 +8360,12 @@ replay state: independent DP and Ramanujan verifier sources written, unrun
 upstream custody:
   PR: https://github.com/przchojecki/rs-mca/pull/1123
   branch: agent/m31-quotient-rotation-spectrum
-  commit: 138695e4
-  state at pin: OPEN, DRAFT, MERGEABLE
-  accepted surface: experimental/experiments.tex plus one agents-log entry
+  commit: b6619f20f55beb9183bb0e9d591d0630c8e3f306
+  state at pin: OPEN, READY FOR REVIEW
+  accepted surface: experimental/experiments.tex, one agents-log entry, and
+                    one stdlib-only dual replay
+  replay: direct subset-product DP and independent Ramanujan-sum spectrum
+          both PASS under ordinary and optimized Python
 next route-deciding action: return to the surviving Pade/first-owner upper
 ```
 

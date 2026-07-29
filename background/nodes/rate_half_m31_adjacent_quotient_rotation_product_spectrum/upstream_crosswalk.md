@@ -18,6 +18,10 @@ status: PROVED
 impact: ROUTE_CUT / LOCAL_ONLY
 falsifier: a subset-product class count differing from the printed spectrum
 replay: two independent exact integer verifiers
+upstream_pr: https://github.com/przchojecki/rs-mca/pull/1123
+upstream_branch: agent/m31-quotient-rotation-spectrum
+upstream_head: b6619f20f55beb9183bb0e9d591d0630c8e3f306
+upstream_state_at_pin: OPEN / READY FOR REVIEW
 ```
 
 Portable destination: `experimental/experiments.tex`, immediately after the
