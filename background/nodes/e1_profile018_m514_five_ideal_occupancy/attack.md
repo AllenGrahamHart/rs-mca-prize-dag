@@ -6,6 +6,8 @@
    only an intermediate filter; they do not kill the stated threshold.
 2. Screen the 15 signed magnitude profiles by the fixed-root trace equation
    `18+sum_d A_d(s^d+s^-d)=0 mod 257` and local multiplicity two.
+   The proved singleton-completion no-go shows that `F(s)=0` plus local
+   multiplicity one, without the low-energy gate, admits all 128 ideals.
 3. Impose coefficient realization for 18 distinct signed singleton terms;
    do not confuse an autocorrelation target with a realizable polynomial.
 4. Canonicalize by inversion and diagonal Galois action while retaining the

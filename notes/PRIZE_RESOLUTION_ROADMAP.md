@@ -9191,3 +9191,20 @@ the count is independent of `r`. A true falsifier is six realizable Galois
 orbits sharing one exact official-admissible prime quotient, not six
 mod-257/autocorrelation hits. Use the latter only to reject intermediate
 proof routes.
+
+**2026-07-29, mod-257 singleton-completion no-go:** the isolated finite-field
+gate is provably nonselective for the active all-singleton profile.
+
+```text
+(e,sign) -> sign*3^e mod 257:       bijection onto F_257^*
+explicit support:                    {0,...,15,17,78}
+local multiplicity:                  1
+root:                                F(3)=0 mod 257
+Galois transports:                   all 128 primitive roots
+example energy:                      1478, outside the live window
+```
+
+Thus a root/local screen cannot remove any split ideal in principle. Do not
+fund a computation at that gate alone. The first selective object must couple
+the root equation to low-energy all-singleton realization, then exact
+norm/official-prime multiplicity.
