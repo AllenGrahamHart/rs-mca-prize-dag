@@ -69,12 +69,13 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
    generator, or prove a support-propagation classification before proposing
    computation. The exact profile target is at most 367 points modulo
    `mu_256`; retain all lower-profile charges after paying it.
-9. Consume `e1_high_cofactor_schinzel_height_collapse` before any associate
-   search. It pays the `m=4,8,16` multiplicities analytically at most one
-   torsion orbit each. Restrict every subsequent unit search to `m=2`; its
-   necessary maximum-profile fallback is at most 364 orbits after charging
-   the possible three high-cofactor orbits. Do not confuse this with the
-   complete weighted budget, which still includes lower profiles.
+9. Consume both `e1_high_cofactor_schinzel_height_collapse` and
+   `e1_cofactor2_smyth_height_collapse` before any associate search. They pay
+   all four `m=2,4,8,16` multiplicities analytically at most one torsion orbit
+   each, so `T_36(p,r)<=4`. Do not enumerate this profile again. Insert its
+   exact four-orbit upper charge into the weighted ledger, retain the root and
+   class-pair multiplicities, and move to the largest lower profile capable
+   of exhausting the residual budget.
 
 No broad local or Modal census is authorized. Large exact relation searches
 must be recorded as external compute requests with partial-result output.

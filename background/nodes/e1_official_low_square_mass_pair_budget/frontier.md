@@ -157,17 +157,19 @@ cofactors; 368 already exceed the complete edge budget. Lower-weight profiles
 still enter the exact weighted sum, so 367 is necessary rather than
 sufficient.
 
-The sharp entropy-height comparison closes the associate multiplicity for
-three of those four cofactors without enumeration. For `m=4,8,16`, every
-same-cofactor unit ratio is torsion, so each branch has at most one
-shift/sign orbit. The maximum-profile count is therefore at most
+The two sharp entropy-height comparisons close the associate multiplicity
+for all four cofactors without enumeration. For `m=4,8,16`, Schinzel's
+universal height bound makes every same-cofactor unit ratio torsion. For
+`m=2`, Smyth's second normalized Mahler value supplies the slightly stronger
+field-specific bound: the least value would force `Q(sqrt(5))` into the
+conductor-`256` real field and is therefore impossible. Consequently
 
 ```text
-T_36(p,r) <= T_36,m=2(p,r)+3.
+T_36(p,r) <= 4.
 ```
 
-The remaining maximum-profile task is the cofactor-`2` cap
-`T_36,m=2<=364` as a necessary fallback, followed by the exact lower-profile
-weighted charges. The cofactor-`2` worst-case deficit is too large for the
-same general Schinzel comparison, so its successor must use a stronger
-field-specific height bound or the sparse product/inverse equations.
+The maximum-profile associate task is complete. The next binding task is to
+insert this four-orbit charge into the exact weighted ledger and identify the
+largest lower profile capable of consuming the residual edge budget. No
+further exponent-lattice or sparse-product enumeration of `(3,6,S=18)` is
+authorized.

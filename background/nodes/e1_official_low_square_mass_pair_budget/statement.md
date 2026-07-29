@@ -54,12 +54,12 @@ lattice. The exact profile charge makes 367 the necessary total orbit cap;
 368 such orbits already exceed the complete edge budget. This does not pay
 the lower-weight profiles.
 
-The proved high-cofactor Schinzel collapse now shows that the branches
-`m=4,8,16` contribute at most one shift/sign orbit each. Thus all unresolved
-associate multiplicity in this maximum-weight profile is concentrated in
-cofactor `m=2`. Charging the possible three high-cofactor orbits leaves the
-necessary fallback cap `364` for the cofactor-`2` family. This still is not
-sufficient for the complete pair budget because lower profiles remain.
+The high-cofactor Schinzel collapse and the cofactor-`2` Smyth collapse now
+show that every branch `m=2,4,8,16` contributes at most one shift/sign orbit.
+Thus the entire maximum-weight profile contributes at most four such orbits
+at one fixed row and quotient root. This is far below its former necessary
+cap `367`, but is not sufficient for the complete pair budget because lower
+profiles remain.
 
 ## Falsifier
 

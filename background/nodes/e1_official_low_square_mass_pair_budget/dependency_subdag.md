@@ -13,6 +13,8 @@ e1_prize_n256_s18_m16_high_variance_exclusion [PROVED] --ev-->
 e1_prize_n256_s18_m16_collision_exclusion [PROVED] ------ev-->
 e1_pure_cofactor_common_prime_associate_router [PROVED] --ev-->
 e1_conductor256_character_eigenvalue_preflight [PROVED] --ev-->
+e1_high_cofactor_schinzel_height_collapse [PROVED] -----ev-->
+e1_cofactor2_smyth_height_collapse [PROVED] ------------ev-->
 e1_pair_feasible_prime_field_reduction [PROVED] --------ev-->
 
 e1_official_low_square_mass_pair_budget [TARGET] --ev--> unsafe_crossing_family_instantiation [TARGET]

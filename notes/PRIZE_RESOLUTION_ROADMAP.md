@@ -8829,3 +8829,39 @@ next route-deciding action:
   seek a cofactor-2-specific log improvement or sparse product invariant;
   the general Schinzel comparison misses only this branch
 ```
+
+**2026-07-29, E1 cofactor-2 Smyth collapse:** the field-specific height route
+closes the last associate family without enumeration.
+
+```text
+cofactor-2 deficit:                  D<7.539
+certified entropy implication:       P<12.2
+same-cofactor pair upper:             ||lambda(u)||_1<63.878
+Smyth second-value lower:             ||lambda(u)||_1>256log(1.29)
+                                      >65.188407
+all four pure cofactors:              T_36(p,r)<=4
+```
+
+Smyth's least normalized measure `sqrt(phi)` cannot occur in
+`Q(zeta_256)^+`: equality would put the Mahler measure `phi^(d/2)` in that
+field and hence force `sqrt(5)` into a field unramified outside `2`. Exact
+rational signs for `X^4-X^3-3X^2+X+1` certify that the second normalized
+measure exceeds `1.29`. Directed Decimal and exact-rational atanh verifiers
+agree on all 63 entropy side sizes and certificate digest
+`ee3e59acdfed6536189c3ff18476a7c657e279729e0c906ef627c4224c245cb8`.
+
+Effect:
+
+```text
+  the maximum-profile associate multiplicity is complete;
+  no exponent-lattice or sparse-product census is needed for (3,6,S=18);
+  E1 remains TARGET because lower-profile weighted charges remain.
+```
+
+Next action:
+
+```text
+  insert T_36<=4 into the exact weighted-kernel ledger, preserve root,
+  orientation, stabilizer, and class-pair multiplicities, and identify the
+  largest lower profile that can still exhaust the residual edge budget
+```
