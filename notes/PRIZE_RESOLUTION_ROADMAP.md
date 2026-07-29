@@ -6874,3 +6874,31 @@ DAG delta: one PROVED background node and three edges; no critical status flip
 next route-deciding action: prioritize the smallest p-free cubic cores for
                               unit proofs before any official norm sharding
 ```
+
+**2026-07-29, L1 h=7 cubic `3+3` upstream export:** the proved local
+two-triple exclusion is now available for upstream review as draft PR
+[#1120](https://github.com/przchojecki/rs-mca/pull/1120).  The export is
+intentionally classified `LOCAL_ONLY`: it contributes an exact split-pencil
+HNF stratum theorem but does not claim the missing first-match-to-HNF owner
+bridge or any LIST/MCA row payment.
+
+```text
+local theorem: l1_mersenne_hnf_m8_order_one_cubic_two_triple_exclusion
+local source commit: 3380ea30
+upstream base: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
+PR head: ed4dde53135a01125a47b172c9f239aa247eacbc
+PR state at export: OPEN, DRAFT, MERGEABLE
+upstream files:
+  experimental/notes/l1/l1_m8_h7_order_one_cubic_33_exclusion.md
+  experimental/scripts/verify_l1_m8_h7_order_one_cubic_33_exclusion.py
+proof endpoint: d in {-3/2,-3}; norms 9/4 and 9 contradict mu_8 on all
+                four declared Mersenne characteristics
+replay digest: 8d49e0b87da9b842d4b827b7feae6718e3c0e9628e9a94d33cfc8b49e901c66f
+replay status: pending; local computation is prohibited and Modal is
+               currently spend-blocked
+status_ours: PROVED
+status_his: OPEN_REVIEW
+critical/upstream terminal delta: none
+next upstream bridge: place the HNF cell in an exhaustive source-bound owner
+                      partition before using it as a bankable route cut
+```
