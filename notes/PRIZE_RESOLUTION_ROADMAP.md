@@ -8357,6 +8357,11 @@ verdict: exact route calibration; the zero-remainder construction alone does
 object fence: LIST only; no MCA, U_Q upper payment, or 2^-128 claim
 compute spend: none; proof by Fourier/Ramanujan sums
 replay state: independent DP and Ramanujan verifier sources written, unrun
-next route-deciding action: vendor the exact specialization upstream, then
-                              return to the surviving Pade/first-owner upper
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1123
+  branch: agent/m31-quotient-rotation-spectrum
+  commit: 138695e4
+  state at pin: OPEN, DRAFT, MERGEABLE
+  accepted surface: experimental/experiments.tex plus one agents-log entry
+next route-deciding action: return to the surviving Pade/first-owner upper
 ```
