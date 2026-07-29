@@ -7830,10 +7830,19 @@ the outer stage into exactly two low-dimensional tasks.
   against the four-factor representation and retain the cheaper one. Never
   impose all twelve packet equations simultaneously.
 
+  On the four official characteristics there is a third complete
+  representation from
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split`.
+  Since `p=7 mod 8`, the nine quartics split over `F_p` into eighteen
+  irreducible quadratics; together with the three rational quadratic packets
+  this gives 21 branches whose role equation always has degree two. Benchmark
+  this official-field representation as well. Its square-root choice only
+  swaps signed branch pairs, and its 21 equations are alternatives.
+
   The requested decision is whether every branch in one complete
   representation is unit on `a*B*Q(y)!=0` and the inherited HNF/fiber
-  saturations: either all four high-degree systems or all twelve low-degree
-  systems. PASS requires a
+  saturations: all four rational systems, all twelve rational Galois systems,
+  or all 21 official quadratic Frobenius systems. PASS requires a
   replayable Nullstellensatz or transformation-matrix certificate with
   denominator/content primes checked against every official characteristic.
   FAIL requires an exact retained component or point substituted into the

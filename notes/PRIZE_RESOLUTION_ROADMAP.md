@@ -7203,3 +7203,27 @@ DAG delta: one PROVED background node and three edges; no critical status flip
 next route-deciding action: seek hand reductions packet by packet, then build
                               a proof-producing bounded pilot if still needed
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` official Frobenius split:** the
+official congruence now lowers every role equation to degree two over the
+base field.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split
+official congruence: p=7 mod 8; choose s in F_p with s^2=2
+rational quadratic packets: 3
+rational quartics: 9, each split into two F_p quadratics
+official branch count: 3+2*9=21
+total degree: 21*2=42
+irreducibility: lambda^p=(beta/gamma)lambda; lambda in F_p would force
+                 beta=gamma, forbidden by the ordered-role saturation
+candidate representation: disjunction of 21 systems, never a conjunction
+variables per branch: (g_1,y,r,d)
+equations per branch: l_4,l_5,l_6, conic, one quadratic role equation
+compute spend: none
+compute pre-request: CR-L1-H7-C3-321-GEN now compares complete 4-, 12-, and
+                     21-branch representations before authorizing a route
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: exploit the quadratic role relation by hand in
+                              the triangular coefficient core before compute
+```
