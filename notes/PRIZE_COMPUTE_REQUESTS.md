@@ -10160,8 +10160,10 @@ started because workspace `ac-WIsI8fedhlHGSBu0g8EiyG` had exceeded its spend
 limit. No app id was allocated and no credit was spent. Do not retry on this
 workspace until its spend limit is explicitly restored.
 
-Do not extend the same norm-first enumeration naively to energies five and
-six: their abstract target counts are much larger. First classify realizable
-profile-`(2,10)` low-energy supports using the singleton-support XOR equation
-with two heavy columns, then exact-test only the realized targets. A useful
-independent replay is a direct degree-128 negacyclic resultant implementation.
+Energies five and six no longer require computation. The proved node
+`e1_profile210_m1028_energy56_log_exclusion` uses the integral
+autocorrelation bound `sum |A_d|<=E` and an exact logarithm majorant on
+`-18<x<=12` to put both energies below `1028*p_min`. Do not launch a support
+classifier for them. The only unpromoted norm computation in this request is
+the energy-four certificate above. A useful independent replay is a direct
+degree-128 negacyclic resultant implementation.

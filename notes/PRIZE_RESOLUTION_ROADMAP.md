@@ -8930,3 +8930,23 @@ The norm verifier builds the real minimal polynomial `C_64` and all five
 degree-64 multiplication determinants using stdlib exact integers. No support
 vector is enumerated. The remaining split cofactors are `514` and `1028`
 above `257`; attack `1028` first because its moment window is `V<=12`.
+
+**2026-07-29, profile-(2,10) cofactor-1028 high-energy contraction:** a
+bounded-deviation logarithm estimate removes the two largest live energies
+without computation.
+
+```text
+cofactor-1028 moment window:        E=2,3,4,5,6
+integer autocorrelation bound:      E<=6 => x_u<=2 sum|A_d|<=12
+pointwise majorant:                 log(1+x/18)<=x/18-x^2/925
+energy-five norm bound:             log Norm<=64log(18)-128/185
+exact floor verdict:                Norm<1028*p_min
+remaining cofactor-1028 energies:   E=2,3,4
+```
+
+The endpoint of the majorant is paid by the positive atanh series for
+`log(5/3)` with rational margin `7/44400`; the prize-floor comparison uses
+the cubic lower Taylor polynomial for `exp(128/185)` and exact integer
+cross-multiplication. This cancels the proposed energy-five/six support
+classifier. Promote the exact energy-two/three ledgers and complete the
+queued 8,385-type energy-four exact norm replay; do not enumerate supports.
