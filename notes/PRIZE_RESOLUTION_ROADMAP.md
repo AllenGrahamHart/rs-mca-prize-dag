@@ -7986,3 +7986,44 @@ upstream custody:
 next route-deciding action: inspect whether the role and P_4 filters admit
                               a similarly exact reduction
 ```
+
+**2026-07-29, L1 h=7 exceptional-`J_*=0` role/`P_4` compiler:** the role
+and `P_4` layer is now an exact two-filter extension for each alternative
+official role packet.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler
+fixed role packet:
+  Phi(X,Y)=c_2X^2+c_1XY+c_0Y^2
+  delta_Phi=c_1^2-4c_2c_0, c_0*delta_Phi!=0
+reconstructed role values:
+  R_j=A(3Y_j^2+2xY_j+G_j)
+  S_j=(Y_j-A)V_j-q^2/3
+role filters:
+  L_Phi=18c_0S_j+9c_1R_j+c_0q(b-6)
+  W_Phi=c_0^2(q^2(b-6)^2+144qR_0)-81delta_Phi R_j^2
+bivariate bounds:
+  (total degree,q-degree) <= (12,6), (18,8)
+after q=5bM/T:
+  deg Lhat_Phi<=24, deg What_Phi<=34
+d reconstruction for either ambient root c_0eta^2+c_1eta+c_2=0:
+  d=3(eta R_j-S_j)/q
+exact P_4 payment:
+  27Phi(R_j,S_j+qd/3)+c_0qP_4=U_1d+U_0
+  L_Phi=What_Phi=0 iff U_1=U_0=0
+complete endpoint per role:
+  six coefficient/structural filters plus Lhat_Phi=What_Phi=0
+alternatives: 21 official role packets, each with two eta branches
+retained: every saturation on reconstructed d and all arithmetic lifts
+scope fence: no eight-filter common-root, lift, emptiness, or critical closure
+checker state: source-complete primary and independent audit; AST-only local
+               validation; unexecuted
+checker hashes:
+  verify.py       0128bd70e9f7262450c0b7c87daf1ac69047ef9a3b346777a295d00a8272459d
+  verify_audit.py d18fd47835f4e61fdd153deba53743b2b93cb75b89ec3916250e82ea4dc9049e
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: export the compiler upstream, then decide whether
+                              to add 21 role-specific gcd families to the
+                              unrun packet or attack arithmetic lifts by hand
+```
