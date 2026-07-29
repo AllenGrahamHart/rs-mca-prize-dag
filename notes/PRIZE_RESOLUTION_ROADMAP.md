@@ -7382,3 +7382,22 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: attack the doubly singular coefficient locus by
                               its T=G_2+6D zero/nonzero split
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` doubly-singular quadratic quotient:**
+the conic and each role packet now supply two more linear equations in `d`.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router
+quadratic quotient: d^2=((4x-21)/3)d+4R_0/q from P_4=0
+conic remainder: 9q^2 Conic=N_1d+N_0 mod P_4
+role remainder: 27Phi(R,S_0+qd/3)=U_1d+U_0 mod P_4
+parameter determinant: Xi=N_1U_0-U_1N_0=0
+N_1!=0: reconstruct d=-N_0/N_1
+N_1=0,U_1!=0: retain N_0=0 and reconstruct d=-U_0/U_1
+fully proportional residue: N_1=U_1=N_0=U_0=0, with d retained
+role scope: one of 21 alternative official quadratics at a time
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: inspect the fully proportional role/conic locus;
+                              use T=G_2+6D only inside that final residue
+```
