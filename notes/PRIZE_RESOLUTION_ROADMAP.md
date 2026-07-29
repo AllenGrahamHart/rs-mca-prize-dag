@@ -8023,7 +8023,13 @@ checker hashes:
   verify_audit.py d18fd47835f4e61fdd153deba53743b2b93cb75b89ec3916250e82ea4dc9049e
 compute spend: none
 DAG delta: one PROVED background node and two edges; no critical status flip
-next route-deciding action: export the compiler upstream, then decide whether
-                              to add 21 role-specific gcd families to the
-                              unrun packet or attack arithmetic lifts by hand
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1120
+  commit: ea2bd60abec747ed041493b77a135cd2e9388057
+  combined verifier:
+    b103bf22b73736dd51f97a03db83c07de681a20805448749cd98e96c7e13c7a6
+  export state at pin: OPEN, DRAFT, MERGEABLE
+next route-deciding action: decide whether to add 21 role-specific gcd
+                              families to the unrun packet or attack
+                              arithmetic lifts by hand
 ```
