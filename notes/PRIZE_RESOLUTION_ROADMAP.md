@@ -8328,3 +8328,35 @@ next route-deciding action:
   audit the global Toeplitz/Pade and first-owner frontiers, then select the
   smallest theorem that changes a critical budget rather than one HNF chart
 ```
+
+**2026-07-29, M31 adjacent quotient-rotation spectrum:** the first global-Q
+audit produced an exact direct-list route verdict rather than another
+conditional max-fiber statement.
+
+```text
+node proved: rate_half_m31_adjacent_quotient_rotation_product_spectrum
+upstream source: integrated cyclic quotient-rotation list-floor theorem
+row: Mersenne-31 ordinary LIST stress row, epsilon=2^-100
+(n,k,a+): (2^21,2^20,1116023)
+specialization: c=2^16, N=32, d=1, m=17, s=1911
+exact 32-class product spectrum:
+  16 * 8,287,155
+   8 * 8,286,755
+   5 * 8,286,751
+   3 * 8,286,750
+  total binom(31,17)=265,182,525
+structured lower floor: 8,287,155
+published average floor: 8,286,954
+improvement: 201
+budget: 16,777,215
+remaining headroom: 8,490,060
+two-copy comparison: B*-2M=202,905>0, but distinct product classes do not
+                     share a received-word prefix and cannot be added
+verdict: exact route calibration; the zero-remainder construction alone does
+         not falsify or prove the adjacent row
+object fence: LIST only; no MCA, U_Q upper payment, or 2^-128 claim
+compute spend: none; proof by Fourier/Ramanujan sums
+replay state: independent DP and Ramanujan verifier sources written, unrun
+next route-deciding action: vendor the exact specialization upstream, then
+                              return to the surviving Pade/first-owner upper
+```
