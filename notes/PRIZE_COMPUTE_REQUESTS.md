@@ -10133,8 +10133,8 @@ proof-producing certificate is worth engineering.
 well below `$1` for the energy-four stage; price energies five and six before
 launching them.
 
-The proved route leaves `m=1028=4*257` at autocorrelation energies
-`E in {2,3,4,5,6}`. Exact small screens already show:
+The proved route originally left `m=1028=4*257` at autocorrelation energies
+`E in {2,3,4,5,6}`. Exact small screens showed:
 
 ```text
 E=2: four 257-compatible Galois types, all Norm/1028 above p_max
@@ -10160,10 +10160,12 @@ started because workspace `ac-WIsI8fedhlHGSBu0g8EiyG` had exceeded its spend
 limit. No app id was allocated and no credit was spent. Do not retry on this
 workspace until its spend limit is explicitly restored.
 
-Energies five and six no longer require computation. The proved node
-`e1_profile210_m1028_energy56_log_exclusion` uses the integral
-autocorrelation bound `sum |A_d|<=E` and an exact logarithm majorant on
-`-18<x<=12` to put both energies below `1028*p_min`. Do not launch a support
-classifier for them. The only unpromoted norm computation in this request is
-the energy-four certificate above. A useful independent replay is a direct
-degree-128 negacyclic resultant implementation.
+Energies two, five, and six no longer require computation. The proved nodes
+`e1_profile210_m1028_energy2_log_exclusion` and
+`e1_profile210_m1028_energy56_log_exclusion` use the integral
+autocorrelation bound `sum |A_d|<=E` and exact logarithm bounds to put energy
+two above `1028*p_max` and energies five/six below `1028*p_min`. Do not launch
+support classifiers for them. Promote the 329-type energy-three exact ledger;
+the larger unpromoted computation in this request is the energy-four
+certificate above. A useful independent replay is a direct degree-128
+negacyclic resultant implementation.

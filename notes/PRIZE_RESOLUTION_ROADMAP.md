@@ -8950,3 +8950,21 @@ the cubic lower Taylor polynomial for `exp(128/185)` and exact integer
 cross-multiplication. This cancels the proposed energy-five/six support
 classifier. Promote the exact energy-two/three ledgers and complete the
 queued 8,385-type energy-four exact norm replay; do not enumerate supports.
+
+**2026-07-29, profile-(2,10) cofactor-1028 energy-two exclusion:** the same
+bounded-deviation method, used as a lower bound, removes the bottom energy
+without a norm census.
+
+```text
+energy-two deviation interval:       -4<=x_u<=4
+pointwise minorant:                  log(1+x/18)>=x/18-x^2/549
+global lower bound:                  log Norm>=64log(18)-256/549
+exact ceiling verdict:               Norm>1028*p_max
+remaining cofactor-1028 energies:    E=3,4
+```
+
+The endpoint comparison is the positive atanh series for `log(9/7)`, with
+rational margin `1/23058`; `exp(-256/549)>293/549` then clears the official
+ceiling by exact integer arithmetic. The four exploratory energy-two norms
+are no longer load-bearing. Promote the 329-type exact energy-three ledger
+and the queued 8,385-type exact energy-four ledger to finish cofactor `1028`.
