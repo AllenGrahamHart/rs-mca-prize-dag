@@ -44,3 +44,20 @@ degree-12 action. Thus those outer automorphisms preserve the action class.
 
 Accessed 2026-07-29. No web claim is used in place of the checked finite
 permutation calculation.
+
+## Upstream export
+
+This theorem and its secondary degree-five consumer are exported together in
+draft upstream PR `#1132`:
+
+- PR: `https://github.com/przchojecki/rs-mca/pull/1132`
+- head commit: `c23eb801af8853d0369a72ea8834c84e7a3242f6`
+- theorem-note blob: `cd29c893dceb63283c7a731c9a3c4280fa665c5c`
+- certificate blob: `9e1bd3d89dac6409f148dc134fda46d3bf644c11`
+- verifier blob: `989e6780f29c22acaa5d231ef9f1e54b47255138`
+- certificate payload SHA-256:
+  `456b51c78e837c8a27ffda0b43409c63c88128b254be320723728868db096e6f`
+
+The upstream verifier reconstructs the paired `M12` group of order `95040`
+and rejects `22/22` semantic mutations. The PR is mergeable; its only
+reported status failure at this head is unrelated Vercel authorization.

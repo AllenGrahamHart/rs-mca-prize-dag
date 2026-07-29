@@ -5583,7 +5583,7 @@ degree-12 transverse types without computation.
 new node: rate_half_kb_m12_outer_subdegree_route_cut [PROVED]
 outbound PR: https://github.com/przchojecki/rs-mca/pull/1132 (draft)
 route-cut layer: e368e5c8fc101ae0040b47265c2cd167e70dadd2
-current outbound head: f7a42415bdb24c7e626b76394558bad100c5a874
+current outbound head: c23eb801af8853d0369a72ea8834c84e7a3242f6
 stack parent: PR #1131 head e287c54252c7872e1745c7594cfef62b74a65cf5
 inputs:
   outer F has degree 5, one rational pole of order 5, and five distinct
@@ -5760,6 +5760,11 @@ last `m=12` survivor to the already-deleted degree-five row.
 
 ```text
 new node: rate_half_kb_m12_secondary_degree5_decomposition_exclusion [PROVED]
+outbound custody: draft PR #1132 head c23eb801af8853d0369a72ea8834c84e7a3242f6
+theorem blob: cd29c893dceb63283c7a731c9a3c4280fa665c5c
+certificate blob: 9e1bd3d89dac6409f148dc134fda46d3bf644c11
+verifier blob: 989e6780f29c22acaa5d231ef9f1e54b47255138
+payload SHA-256: 456b51c78e837c8a27ffda0b43409c63c88128b254be320723728868db096e6f
 normalizer theorem:
   identify the five equivalent degree-12 socle actions on X
   a faithful nonregular two-transitive action has trivial Sym(X) centralizer
