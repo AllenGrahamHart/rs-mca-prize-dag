@@ -7337,3 +7337,22 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: seek a hand exclusion in the x=0 linear-d chart;
                               otherwise reduce the generic Delta!=0 branch
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` generic linear-`d` router:** the last
+broad coefficient branch now has an exact one-variable eliminant.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router
+E_6-normalized pair:
+  F_4=G_2H-xQ_6-W
+  F_5=(q-d)DH+JQ_6
+d degrees: both quadratic, with proportional leading coefficients
+exact cancellation: 3(3F_5)+(G_2+6D)(12F_4)=C_1d+C_0
+C_1!=0 chart: d=-C_0/C_1; four equations in (x,Y,q)
+C_1=0 chart: retain C_1=C_0=0 and four residual equations in (x,Y,q,d)
+generic guards: Delta*W!=0; no denominator component discarded
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: inspect the C_1=C_0 exceptional parameter locus
+                              for a hand contradiction before any elimination
+```

@@ -19367,6 +19367,25 @@
    "notes": "Exact chart compiler only. Both singular J-nonzero charts remain open and retain every role and arithmetic-lift obligation."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic linear-d router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the generic determinant chart, E_6 turns the remaining coefficient equations into a quadratic pair in d with an exact linear combination; the nonzero coefficient chart eliminates d and the zero coefficient chart gains two parameter equations.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router/verify.py"
+   ],
+   "notes": "Exact generic chart router only. The four-equation three-variable chart and the exceptional C_1=C_0=0 chart remain open with all role and arithmetic-lift obligations."
+  },
+  {
    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler",
    "title": "L1 Mersenne HNF m=8 order-one cubic three-double affine-color compiler",
    "status": "PROVED",
@@ -36826,6 +36845,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },
