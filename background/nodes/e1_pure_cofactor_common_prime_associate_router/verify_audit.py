@@ -19,14 +19,15 @@ def main() -> None:
     statement = (Path(__file__).with_name("statement.md")).read_text()
     contract = (Path(__file__).with_name("claim_contract.md")).read_text()
     assert "same row and quotient" in statement
-    assert "same quotient\n+   root" in contract
+    assert "same quotient\n   root" in contract
     assert "odd cofactor" in contract
     assert "not only a root of" in contract
-    assert "cyclotomic-unit subgroup is not proved" in contract
+    assert "every such unit is circular" in contract
     assert "mu!=nu" in contract
     assert "not a feasible exhaustive enumeration" in contract
     assert "natural logarithms" in contract
-    assert "No regulator" in contract
+    assert "no regulator" in contract
+    assert "index is now proved to be one" in contract
     assert "367 cap is necessary" in contract
     assert "not sufficient" in contract
     assert 128 * PROFILE_WEIGHT * 367 <= EDGE_CAP

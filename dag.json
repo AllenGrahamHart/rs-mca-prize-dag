@@ -3059,10 +3059,29 @@
    "notes": "EXACT BRANCH EXCLUSION 2026-07-28: forward triple/sign and reverse sign/triple engines agree orbit by orbit on 73175732492 unique radius triples, 585405859936 exact sign tests, 1816625308 below-window vectors, 196 above-window vectors, and zero unresolved. Only the 39936 primitive m16 support orbits remain open."
   },
   {
+   "id": "e1_conductor256_full_unit_circular_basis",
+   "title": "Conductor-256 full-unit circular basis",
+   "status": "PROVED",
+   "closure": "published real class-number theorem, Kummer-Sinnott unit-index theorem, and exact specialization",
+   "refs": [
+    "background/nodes/e1_conductor256_full_unit_circular_basis/statement.md",
+    "background/nodes/e1_conductor256_full_unit_circular_basis/proof.md",
+    "background/nodes/e1_conductor256_full_unit_circular_basis/claim_contract.md",
+    "background/nodes/e1_conductor256_full_unit_circular_basis/dependency_subdag.md",
+    "background/nodes/e1_conductor256_full_unit_circular_basis/audit.md",
+    "background/nodes/e1_conductor256_full_unit_circular_basis/result.md",
+    "background/nodes/e1_conductor256_full_unit_circular_basis/frontier.md",
+    "background/nodes/e1_conductor256_full_unit_circular_basis/source_pin.json",
+    "background/nodes/e1_conductor256_full_unit_circular_basis/verify.py"
+   ],
+   "statement": "Every algebraic unit of Z[zeta_256], modulo mu_256, has a unique exponent vector in the 63 standard real circular units eta_a for odd 3<=a<=127. The full unit log lattice is therefore the explicit integer span of the sine-ratio matrix. This uses the unconditional theorem h(Q(zeta_256)^+)=1 and the prime-power Kummer-Sinnott unit-index formula.",
+   "notes": "EXACT LITERATURE-BACKED LATTICE IDENTIFICATION 2026-07-29: Miller Theorem 2.1 is unconditional at conductor 256. This is a full-unit basis theorem, not the false assertion that the full cyclotomic field has class number one. No regulator estimate, lattice-point count, sparse-associate count, or E1 payment follows."
+  },
+  {
    "id": "e1_pure_cofactor_common_prime_associate_router",
    "title": "E1 pure-cofactor common-prime associate router",
    "status": "PROVED",
-   "closure": "ideal factorization proof",
+   "closure": "ideal factorization, AM-GM reduction, and exact conductor-256 unit-basis theorem",
    "refs": [
     "background/nodes/e1_pure_cofactor_common_prime_associate_router/statement.md",
     "background/nodes/e1_pure_cofactor_common_prime_associate_router/proof.md",
@@ -3077,8 +3096,8 @@
     "background/nodes/e1_pure_cofactor_common_prime_associate_router/verify.py",
     "background/nodes/e1_pure_cofactor_common_prime_associate_router/verify_audit.py"
    ],
-   "statement": "At one fixed prize N=256 reduction root, every collision of absolute norm 2^mu p has principal ideal P_r(1-zeta)^mu. Dividing by the ramified factor gives a generator of P_r, so every two pure-cofactor collisions are normalized unit associates. Fixed-cofactor associates have explicit unit/inverse coefficient boxes and, modulo 256 shifts/signs, inject into an exact AM-GM body in the full rank-63 unit log lattice. The exact maximum-weight profile target is at most 367 such torsion orbits.",
-   "notes": "ANALYTIC AGGREGATE ROUTER 2026-07-29: the current profile-(3,6,S=18) residue has cofactors 2,4,8,16, with only the primitive m=16 support branch live. Cramer-Hadamard gives coefficient bounds 1006,503,251,125; the log body is ||lambda||_1<=2(D+sqrt(128D)), D=log(18^64/(2^mu p)). Each orbit pays 128M_33(3,6) edges; 368 already exceed the complete edge budget. No orbit count, lower-profile payment, E1 image bound, or prize status movement follows."
+   "statement": "At one fixed prize N=256 reduction root, every collision of absolute norm 2^mu p has principal ideal P_r(1-zeta)^mu. Dividing by the ramified factor gives a generator of P_r, so every two pure-cofactor collisions are normalized unit associates. Fixed-cofactor associates have explicit unit/inverse coefficient boxes and, modulo 256 shifts/signs, inject into an exact AM-GM body in the full rank-63 unit log lattice. That lattice has an explicit 63-circular-unit integer basis, and the exact maximum-weight profile target is at most 367 torsion orbits.",
+   "notes": "ANALYTIC AGGREGATE ROUTER 2026-07-29: the current profile-(3,6,S=18) residue has cofactors 2,4,8,16, with only the primitive m=16 support branch live. Cramer-Hadamard gives coefficient bounds 1006,503,251,125; the log body is ||lambda||_1<=2(D+sqrt(128D)), D=log(18^64/(2^mu p)). Miller's unconditional h+=1 theorem and Kummer-Sinnott identify the full lattice with 63 explicit circular units. Each orbit pays 128M_33(3,6) edges; 368 already exceed the complete edge budget. No orbit count, lower-profile payment, E1 image bound, or prize status movement follows."
   },
   {
    "id": "e1_n512_four_singleton_collision_exclusion",
@@ -39828,6 +39847,11 @@
   },
   {
    "from": "e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_conductor256_full_unit_circular_basis",
    "to": "e1_pure_cofactor_common_prime_associate_router",
    "kind": "req"
   },

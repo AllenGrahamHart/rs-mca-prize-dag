@@ -6,6 +6,8 @@
 - The profile-`(3,6,S=18)` cofactor list is exact.
 - Eight complete cofactor exclusions leave `{2,4,8,16}`.
 - The once- and twice-divided `m=16` support branches are empty.
+- At conductor 256, the full algebraic-unit group modulo `mu_256` has the
+  explicit 63-element circular-unit basis in `(PCR8)`.
 
 ## New theorem
 
@@ -15,7 +17,9 @@ has principal ideal `P_r(pi)^mu`.  Dividing by `pi^mu` gives a generator of
 Cramer and Hadamard bound every power-basis coefficient of that unit and its
 inverse by `floor(18^64/(2^mu p))`.
 The conjugate-square AM-GM deficit is exact, and same-cofactor shift/sign
-orbits inject into the full rank-63 unit log lattice inside `(PCR5)`.
+orbits inject into the full rank-63 unit log lattice inside `(PCR5)`. The
+conductor-256 unit-index theorem identifies that lattice exactly with the
+integer span in `(PCR8)`.
 The exact weighted dictionary charges `128M_33(3,6)` edges per log point and
 makes 367 the necessary aggregate orbit cap for this profile.
 
@@ -26,7 +30,8 @@ makes 367 the necessary aggregate orbit cap for this profile.
 2. The cofactor must be a pure power of two.  An odd cofactor contributes
    additional prime ideals and invalidates `(PCR1)`.
 3. Association is by an arbitrary algebraic unit of `R`, not only a root of
-   unity. Membership in the cyclotomic-unit subgroup is not proved.
+   unity. The separate conductor-256 class-number dependency proves that
+   every such unit is circular modulo roots of unity.
 4. The theorem supplies coupling but no cardinality, edge, or image bound.
 5. The profile corollary consumes the listed exclusions; it is not a claim
    that all lower-weight E1 profiles have pure cofactors.
@@ -35,8 +40,9 @@ makes 367 the necessary aggregate orbit cap for this profile.
 7. The box is a finite interface, not a feasible exhaustive enumeration or
    a bound on the number of units inside it.
 8. The logarithmic body uses natural logarithms and the full algebraic-unit
-   lattice. No regulator, minimum vector, cyclotomic-unit index, or lattice
-   point count is imported.
+   lattice. Its circular-unit index is now proved to be one, but no regulator
+   bound, minimum vector, lattice-point count, or sparse-product count is
+   imported.
 9. The 256-to-one statement is only modulo multiplication by roots of unity;
    different log-lattice points may still fail the sparse profile constraints.
 10. The 367 cap is necessary for the complete edge budget, not sufficient:

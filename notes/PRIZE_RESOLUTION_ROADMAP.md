@@ -8577,3 +8577,32 @@ next route-deciding action: count or sharply bound the inverse-pair boxes
                               while retaining both sparse profile products
                               and the exact lower-profile weighted ledger
 ```
+
+**2026-07-29, E1 conductor-256 full-unit circular basis:** the unknown unit
+index in the preceding route is eliminated by a published unconditional
+theorem.
+
+```text
+node proved: e1_conductor256_full_unit_circular_basis
+published inputs:
+  Miller, Acta Arith. 164.4 (2014), Theorem 2.1:
+    h(Q(zeta_256)^+)=1 unconditionally
+  prime-power Kummer-Sinnott unit-index formula:
+    [full units : circular units]=h+
+exact consequence:
+  every u in Z[zeta_256]^x has one unique form modulo mu_256
+    u=product_(a=3,5,...,127) eta_a^x_a, x_a in Z
+  eta_a=zeta^((1-a)/2)(1-zeta^a)/(1-zeta)
+  the full log lattice is the 63-column sine-ratio lattice
+route verdict:
+  the E1 367-orbit target is now an explicit Z^63 sparse-associate count;
+  no unknown finite-index correction or full-unit/circular-unit gap remains
+scope fence:
+  the full cyclotomic class number is not one; no regulator bound,
+  lattice-point count, sparse-product count, lower-profile payment,
+  E1 image bound, row close, or Prize status movement
+compute spend: none; published theorem import and exact specialization
+next route-deciding action: derive certified exponent bounds and combine
+                              them with exact sparse multiplication before
+                              proposing any lattice enumeration
+```

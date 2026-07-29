@@ -98,6 +98,28 @@ one fixed-cofactor collision family is at most the number of points of the
 full unit log lattice in the explicit `L1` body `(PCR5)`. This is a counting
 reduction, not a lattice-point estimate.
 
+The conductor-256 unit-index theorem makes that full lattice explicit. For
+odd `a=3,5,...,127`, put
+
+```text
+eta_a=zeta_256^((1-a)/2)(1-zeta_256^a)/(1-zeta_256).
+```
+
+Every unit has one unique representation
+
+```text
+u=zeta_256^j product_a eta_a^x_a,      j mod 256, x_a in Z,       (PCR8)
+```
+
+and its log vector is the corresponding integer combination of
+
+```text
+lambda_b(eta_a)=2 log |sin(pi*a*b/256)/sin(pi*b/256)|,
+b=1,3,...,127.
+```
+
+This is the full algebraic-unit lattice, not a finite-index surrogate.
+
 Let `T_36(p,r)` be the total number of these 256-element orbits across the
 four residual cofactors. The exact weighted-kernel dictionary gives the
 profile contribution
@@ -135,9 +157,9 @@ all live vectors of this maximum-weight profile at a fixed `(p,r)` satisfy
 support branch remaining at `mu=4`.
 
 This is an aggregate coupling theorem, not a count.  The remaining payment is
-to count or sharply bound the coefficient-box unit associates whose products
-with `pi^mu` have profile `(3,6,S=18)`, jointly with the lower-weight profiles
-in the exact weighted-kernel ledger.
+to count or sharply bound the integer exponent vectors in `(PCR8)` whose
+products with `pi^mu` have profile `(3,6,S=18)`, jointly with the lower-weight
+profiles in the exact weighted-kernel ledger.
 
 ## Falsifier
 

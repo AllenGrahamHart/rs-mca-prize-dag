@@ -124,6 +124,14 @@ a nonzero coefficient vector by those roots gives its 256 distinct
 negacyclic shift/sign associates. Thus shift/sign orbits inject into the
 rank-63 log-lattice points in `(PCR5)`.
 
+The proved dependency `e1_conductor256_full_unit_circular_basis` imports the
+unconditional conductor-256 real class-number theorem and the prime-power
+Kummer-Sinnott unit-index formula. It proves that the 63 displayed real
+circular units form a basis of `R^x/mu_256`, with the stated sine-ratio log
+matrix. Applying that theorem to `u` gives `(PCR8)`. In particular this is an
+exact parametrization of the full lattice just used, not an assumption that
+an arbitrary algebraic unit is circular.
+
 For `(PCR6)`, every vector in profile `(3,6)` has the same dictionary weight
 `M_33(3,6)`. Each torsion orbit contains 256 oriented vectors, so the
 dictionary's factor one half gives `256M/2=128M` unordered collision pairs

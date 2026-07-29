@@ -27,6 +27,7 @@ SUPPLIERS = (
     "e1_prize_n256_s18_profile_36_m32_exclusion",
     "e1_prize_n256_s18_profile_36_m16_one_division_exclusion",
     "e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion",
+    "e1_conductor256_full_unit_circular_basis",
 )
 
 
@@ -62,13 +63,15 @@ def main() -> None:
     assert "unit associates" in statement
     contract = (Path(__file__).with_name("claim_contract.md")).read_text()
     assert "arbitrary algebraic unit" in contract
-    assert "cyclotomic-unit subgroup is not proved" in contract
+    assert "every such unit is circular" in contract
     assert "not a count" in statement
     assert [2013 // 2**mu for mu in range(1, 5)] == [1006, 503, 251, 125]
     assert "floor(18^64/(2^mu p))" in statement
     assert "sqrt(128 D_(mu,p))" in statement
     assert "rank `63`" in statement
     assert "kernel exactly the 256" in statement
+    assert "eta_a=zeta_256^((1-a)/2)" in statement
+    assert "unique representation" in statement
     assert 2 * EDGE_CAP // PROFILE_WEIGHT == 93962
     assert PROFILE_WEIGHT * 93962 <= 2 * EDGE_CAP
     assert PROFILE_WEIGHT * 93963 > 2 * EDGE_CAP

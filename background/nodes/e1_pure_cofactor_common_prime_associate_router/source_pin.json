@@ -24,5 +24,7 @@
   "m16_one_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_m16_one_division_exclusion/statement.md",
   "m16_one_statement_sha256": "7c8fa1cac5d12cfe662b9ce63bf6a7dcf6d32eb4c5005d71a862591531f7ac89",
   "m16_two_statement_file": "background/nodes/e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion/statement.md",
-  "m16_two_statement_sha256": "9ddc1280fb78bf12e4ba4e53096cfec53a1043b5374a4ddc222c0ca91deb55ce"
+  "m16_two_statement_sha256": "9ddc1280fb78bf12e4ba4e53096cfec53a1043b5374a4ddc222c0ca91deb55ce",
+  "unit_basis_statement_file": "background/nodes/e1_conductor256_full_unit_circular_basis/statement.md",
+  "unit_basis_statement_sha256": "bfa334c804af7843399f4ac5d597066ad4fd37948ac30ce896c6aa046991c106"
 }
