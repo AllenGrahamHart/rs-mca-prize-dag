@@ -3451,6 +3451,24 @@
    "notes": "UNIVERSAL PRODUCT CEILING 2026-07-29: repairs the previously implicit E<=17 premise in the profile-(2,10) outer-energy leaf. The closest exact comparison is the 63-lower-entry chamber; the adjacent E=17 envelope remains above threshold. Profile-independent and reusable at (0,18)."
   },
   {
+   "id": "e1_s18_m1028_global_energy_window",
+   "title": "E1 square-mass-18 cofactor-1028 global energy window",
+   "status": "PROVED",
+   "closure": "exact low-energy resultants and sharp two-moment product ceiling",
+   "refs": [
+    "background/nodes/e1_s18_m1028_global_energy_window/statement.md",
+    "background/nodes/e1_s18_m1028_global_energy_window/proof.md",
+    "background/nodes/e1_s18_m1028_global_energy_window/claim_contract.md",
+    "background/nodes/e1_s18_m1028_global_energy_window/dependency_subdag.md",
+    "background/nodes/e1_s18_m1028_global_energy_window/audit.md",
+    "background/nodes/e1_s18_m1028_global_energy_window/result.md",
+    "background/nodes/e1_s18_m1028_global_energy_window/frontier.md",
+    "background/nodes/e1_s18_m1028_global_energy_window/verify.py"
+   ],
+   "statement": "Every conductor-256 square-mass-18 cofactor-1028 prize collision has autocorrelation energy in {2,3,4,5,6}. Energies zero and one fail exact valuation/resultant tests, while the sharp product envelope at E=7 and chamberwise monotonicity exclude every larger energy.",
+   "notes": "UNIVERSAL ENERGY WINDOW 2026-07-29: repairs the previously miswired profile-specific variance premise in all four cofactor-1028 energy leaves. The E=1 Lucas square is 452 mod 1028; 61 exact product chambers close E>=7, with E=6 retained by an adjacent-boundary guard."
+  },
+  {
    "id": "e1_n512_four_singleton_collision_exclusion",
    "title": "N=512 four-singleton E1 collision exclusion",
    "status": "PROVED",
@@ -40397,7 +40415,7 @@
    "kind": "req"
   },
   {
-   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "from": "e1_s18_m1028_global_energy_window",
    "to": "e1_profile210_m1028_energy56_log_exclusion",
    "kind": "req"
   },
@@ -40412,7 +40430,7 @@
    "kind": "req"
   },
   {
-   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "from": "e1_s18_m1028_global_energy_window",
    "to": "e1_profile210_m1028_energy2_log_exclusion",
    "kind": "req"
   },
@@ -40427,7 +40445,7 @@
    "kind": "req"
   },
   {
-   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "from": "e1_s18_m1028_global_energy_window",
    "to": "e1_profile210_m1028_energy3_modular_norm_exclusion",
    "kind": "req"
   },
@@ -40562,7 +40580,7 @@
    "kind": "req"
   },
   {
-   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "from": "e1_s18_m1028_global_energy_window",
    "to": "e1_s18_m1028_energy4_cubic_exclusion",
    "kind": "req"
   },
@@ -40608,6 +40626,21 @@
   },
   {
    "from": "e1_s18_m514_sharp_product_ceiling",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_s18_m1028_global_energy_window",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_s18_m1028_global_energy_window",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m1028_global_energy_window",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   }

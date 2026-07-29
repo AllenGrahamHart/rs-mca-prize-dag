@@ -9135,3 +9135,22 @@ adjacent guard:                      E=17 envelope remains above threshold
 The old profile-(2,10) outer leaf now consumes this theorem instead of the
 profile-(4,2) variance-window node. This both repairs its provenance and
 licenses transport of the surviving `E=5,...,13` route to `(0,18)`.
+
+**2026-07-29, universal cofactor-1028 energy-window repair:** the same
+dependency audit found that the four energy leaves cited a profile-specific
+variance theorem that did not state their `E=2,...,6` premise. The corrected
+profile-independent window is now exact:
+
+```text
+E=0:                                wrong 2-adic norm valuation
+E=1:                                L_32^2 mod 1028 = 452
+E=7 boundary chambers:              61, all below 1028*p_min
+monotonic extension:                every E>=7 excluded
+adjacent E=6 chamber:               above threshold, retained
+global live window:                 E in {2,3,4,5,6}
+```
+
+All energy-two, energy-three, energy-four, and energy-five/six leaves now
+consume this theorem. Thus the profile-(1,14) payment remains valid after a
+strict provenance audit, and the same complete cofactor-1028 exclusion is
+available at `(0,18)`.

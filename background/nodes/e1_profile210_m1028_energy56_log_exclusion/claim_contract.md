@@ -6,7 +6,7 @@
   and the prize field floor.
 - The conductor-256 autocorrelation dictionary supplies the 64 positive
   conjugate squares, their mean, and their second moment.
-- The variance/cofactor window leaves only energies `E=2,...,6` after its
+- The square-mass-18 global energy window leaves only energies `E=2,...,6` after its
   elementary zero- and one-energy exclusions.
 
 ## New proved content

@@ -55,7 +55,7 @@ def main() -> None:
     edges = {(edge["from"], edge["to"], edge["kind"]) for edge in dag["edges"]}
     suppliers = (
         "e1_profile210_split_prime_ideal_router",
-        "e1_prize_n256_s18_variance_cofactor_windows",
+        "e1_s18_m1028_global_energy_window",
         "e1_profile210_m1028_energy2_log_exclusion",
         "e1_profile210_m1028_energy56_log_exclusion",
     )

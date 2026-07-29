@@ -2,7 +2,7 @@
 
 ## Consumed content
 
-- The square-mass-18 variance window supplies the cofactor-1028 energy-four
+- The square-mass-18 global energy window supplies the cofactor-1028 energy-four
   chamber and the conjugate moment identities.
 - The split-prime router supplies local valuation two and complete splitting
   of `257`.

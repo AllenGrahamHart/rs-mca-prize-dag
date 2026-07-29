@@ -6,7 +6,7 @@
   and the official field interval.
 - The conductor-256 autocorrelation dictionary supplies the 64 positive
   conjugate squares and their first two moments.
-- The variance/cofactor window identifies energy two as a live case.
+- The square-mass-18 global energy window identifies energy two as a live case.
 
 ## New proved content
 
