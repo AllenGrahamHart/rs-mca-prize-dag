@@ -7821,8 +7821,19 @@ the outer stage into exactly two low-dimensional tasks.
   Do not include `lambda`, cyclotomic coefficient extensions, or scalar role
   enumeration in a new elimination.
 
-  The requested decision is whether all four systems are unit on
-  `a*B*Q(y)!=0` and the inherited HNF/fiber saturations. PASS requires a
+  There is also an exact lower-degree representation from
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld`.
+  The 42 ordered roles split into three quadratic and nine quartic rational
+  Galois packets. Homogenizing each packet at `lambda=1+R/S` gives an exact
+  **disjunction** of twelve systems, each with a role equation of degree at
+  most four. A pilot should benchmark this twelve-branch representation
+  against the four-factor representation and retain the cheaper one. Never
+  impose all twelve packet equations simultaneously.
+
+  The requested decision is whether every branch in one complete
+  representation is unit on `a*B*Q(y)!=0` and the inherited HNF/fiber
+  saturations: either all four high-degree systems or all twelve low-degree
+  systems. PASS requires a
   replayable Nullstellensatz or transformation-matrix certificate with
   denominator/content primes checked against every official characteristic.
   FAIL requires an exact retained component or point substituted into the

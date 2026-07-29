@@ -7178,3 +7178,25 @@ DAG delta: one PROVED background node and three edges; no critical status flip
 next route-deciding action: seek triangular reductions among l_4,l_5,l_6
                               before posing any four-packet elimination
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` Galois-role weld:** the ordered role
+polynomial has also been split into its individual rational Galois packets,
+lowering every role equation to degree at most four.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld
+Galois action: (a,b) -> (ka,kb), k in {1,3,5,7} modulo 8
+ordered-pair orbits: 3 of size 2 and 9 of size 4
+packet degrees: 2,2,2,4,4,4,4,4,4,4,4,4
+total degree: 3*2+9*4=42
+homogenization: widehat P_j(R,S)=S^e_j P_j(1+R/S)
+candidate representation: disjunction of 12 systems, never a conjunction
+variables per branch: (g_1,y,r,d)
+equations per branch: l_4,l_5,l_6, conic, one degree-<=4 role equation
+compute spend: none
+compute pre-request: CR-L1-H7-C3-321-GEN now offers four high-degree or
+                     twelve low-degree branches; a bounded pilot must choose
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: seek hand reductions packet by packet, then build
+                              a proof-producing bounded pilot if still needed
+```
