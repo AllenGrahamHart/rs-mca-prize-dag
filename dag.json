@@ -19535,7 +19535,7 @@
     "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/upstream_crosswalk.md",
     "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/verify.py"
    ],
-   "notes": "Exact exceptional quadratic router only. The fixed a_2=0 leading chart is discharged by the downstream exceptional-E leading-chart exclusion. The univariate pair, simultaneous affine-coefficient singular chart, structural equations, role-discriminant weld, P_4, and arithmetic-lift obligations remain open."
+   "notes": "Exact exceptional quadratic router only. The fixed a_2=0 leading chart is discharged downstream, and the simultaneous affine-coefficient singular chart is compiled to two quartics. The generic univariate pair, the quartic common-root decision, structural equations, role-discriminant weld, P_4, and arithmetic-lift obligations remain open."
   },
   {
    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler",
@@ -19554,7 +19554,7 @@
     "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/upstream_crosswalk.md",
     "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/verify.py"
    ],
-   "notes": "Exact exceptional structural compiler only. Common roots of the five univariate coefficient/structural filters, the retained S_1=0 and J_*=0 singular charts, the role-discriminant weld, P_4, saturations, and arithmetic-lift obligations remain open; the separate a_2=0 leading chart is discharged downstream."
+   "notes": "Exact exceptional structural compiler only. Common roots of the five univariate coefficient/structural filters, the two-quartic S_1=S_0 endpoint, the retained J_*=0 chart, the role-discriminant weld, P_4, saturations, and arithmetic-lift obligations remain open; the separate a_2=0 leading chart is discharged downstream."
   },
   {
    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion",
@@ -19574,7 +19574,27 @@
     "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/verify.py",
     "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/verify_audit.py"
    ],
-   "notes": "Exact exclusion of the fixed exceptional a_2=0 leading chart only. The generic exceptional endpoint, S_1=S_0=0, J_*=0, role and P_4 equations, saturations, arithmetic lifts, and all other h=7 residues remain open."
+   "notes": "Exact exclusion of the fixed exceptional a_2=0 leading chart only. The generic exceptional endpoint remains open; S_1=S_0=0 is compiled downstream to two quartics, while J_*=0, role and P_4 equations, saturations, arithmetic lifts, and all other h=7 residues also remain."
+  },
+  {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one exceptional-E singular-affine router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the exceptional a_2!=0, S_1=S_0=0 chart, the coefficient-proportionality equations are equivalent to two explicit quartics in z=b^2, with b reconstructed rationally.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/verify.py",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router/verify_audit.py"
+   ],
+   "notes": "Exact two-quartic compiler only. A common-root/ambient-degree verdict for H and K, then F_b=X_*=0, J_*, structural, role, P_4, saturation, and arithmetic-lift obligations remain open."
   },
   {
    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler",
@@ -37165,6 +37185,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

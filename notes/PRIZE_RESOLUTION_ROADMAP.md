@@ -7768,3 +7768,38 @@ next route-deciding action: attack the retained S_1=S_0=0 exceptional chart
                               by hand while the shared gcd packet remains
                               spend-blocked
 ```
+
+**2026-07-29, L1 h=7 exceptional-`E_G` singular-affine router:** the
+simultaneous `S_1=S_0=0` coefficient chart is now an exact two-quartic
+endpoint.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_singular_affine_router
+normalization with z=b^2 and A=1575-247z:
+  S_0=360bE_0
+  S_1=126E_1
+  (z+27)E_1-66bE_0=-3A R
+  R=163b(z+27)-(40z^2+51z-2835)
+unit guard:
+  N(-27)=24948 mod (8191,131071,524287,2147483647)
+        =(375,24948,24948,24948)
+reconstruction:
+  b=N(z)/(163(z+27))
+quartic endpoint:
+  H=N(z)^2-163^2 z(z+27)^2=0
+  K=42A(z)N(z)+163(z+27)^2(-800z^2+8929z-11025)=0
+  deg(H)=deg(K)=4 on every official characteristic
+retained equations: A!=0, F_b=X_*=0, J_* split, structural filters, role,
+                    P_4, saturations, and arithmetic lifts
+scope fence: no common-root, ambient F_(p^2), or emptiness verdict
+checker state: exact polynomial primary and independent prime-field sample
+               audit source-complete; AST-only local validation; unexecuted
+checker hashes:
+  verify.py       f46dded9618644a42b670a8d3d37738ba1a0808eff70f699d29f3c84939628ab
+  verify_audit.py 3c9150abef83dc540529468dfa01c76529f2e0ef3e0af82825848fef42265b76
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: add the quartic common-root/ambient-degree
+                              decision to the existing bounded four-prime
+                              packet without increasing its resource envelope
+```
