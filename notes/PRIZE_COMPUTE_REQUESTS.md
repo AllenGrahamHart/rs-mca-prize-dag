@@ -7715,7 +7715,10 @@ the outer stage into exactly two low-dimensional tasks.
   quadratic degree-eight and degree-fourteen endpoints, the launcher has 16
   rows total. Split by `zeta` only if
   an aggregate row is nonunit. The launcher is ready but remains unexecuted
-  under the current spend block. The source digest is pinned in the roadmap.
+  under the current spend block. Pass `--output PATH` to bank the returned
+  JSON, then validate it with
+  `experiments/prize_resolution/check_l1_m8_h7_low_degree_norm_certificate.py`.
+  The source and checker digests are pinned in the roadmap.
 
   For the `3+2+1` profile, replace the generic remainder by
   `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction`.

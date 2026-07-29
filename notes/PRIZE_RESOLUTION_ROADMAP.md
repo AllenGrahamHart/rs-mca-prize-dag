@@ -6994,13 +6994,17 @@ partial output.
 
 ```text
 launcher: experiments/prize_resolution/l1_m8_h7_low_degree_norm_endpoints_modal.py
-source sha256: 24f5b7e8bc286c71aa4cedf7e03eadcb9a666a69562440068fe87e9c9b5fc3fc
+source sha256: 502c0922832a5aba3e4700d89369f901a8292d72eeb43d1bf2a23258c1ead8b3
+checker: experiments/prize_resolution/check_l1_m8_h7_low_degree_norm_certificate.py
+checker sha256: 60a18a0fcb7ac7d3a9ea3ca545cd12c351fc1866ad0035c760fef5f295251607
 coverage: quadratic F_8/R_2 and cubic P_5/R_12 on all four official primes
 aggregate test: gcd(P,X^(8(p+1))-1) over F_p
 equivalence: unit aggregate gcd iff all eight mu_8 norm-color gcds are unit
 rows: 4 endpoint polynomials * 4 primes = 16
 resources: one container, one CPU, 512 MB, 60-second hard timeout
 partial-output boundary: one JSON row after every completed endpoint/prime
+certificate: local entrypoint writes remote return with launcher digest;
+             checker requires exact source, input, coverage, and 16 unit rows
 launch status: READY, NOT RUN; Modal workspace remains spend-blocked
 critical status delta: none
 next route-deciding action: run after an explicit spend-state change; a unit
