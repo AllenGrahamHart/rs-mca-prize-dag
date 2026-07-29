@@ -7974,6 +7974,15 @@ estimated total cost: still below $0.01
 status: source-complete, AST-only validation, unrun; Modal spend-blocked
 compute spend: none
 DAG delta: none; this consumes the new J-zero structural compiler
-next route-deciding action: bank upstream, then inspect whether the role and
-                              P_4 filters admit a similarly exact reduction
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1120
+  commit: 7ef9a407c23bedc8546427929fba05484cb166d4
+  combined verifier:
+    446123cea29919792b819e5b23459df6a4a8e6f62018b6402debc2bcf06febc0
+  launcher/checker parity:
+    2b33e8c0598283eecb4531df80f052dffe409d25e840c6d519b9d1d0aabb2f70
+    0d07d97174bfca96ec09bd2157fcdaea0a554a961ea954f9eed329a9f48ec61a
+  export state at pin: OPEN, DRAFT, MERGEABLE
+next route-deciding action: inspect whether the role and P_4 filters admit
+                              a similarly exact reduction
 ```
