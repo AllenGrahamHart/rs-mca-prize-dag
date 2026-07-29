@@ -6902,6 +6902,7 @@ local theorems:
   l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_linear_d_router
   l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_double_linear_d_router
   l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_doubly_singular_quadratic_quotient_router
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction
   l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler
   l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula
   l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld
@@ -6909,9 +6910,9 @@ local source commits: 3380ea30, 1c2bfd55, 8d847b9e, e10d4683, 59497c96,
                       44a9d6bb, 0dfd4714, 32b35ed4, f3a355fd, b102cee0,
                       1d9206b9, 98e8685c, 3d5f6274, bdd33eb0, 0cae55cb,
                       6be9ee69, 325c4cd6, 1db48367, e1b1a195, 021caa0a,
-                      fd65c11f, 8e256f5e
+                      fd65c11f, 8e256f5e, 8f4bf3d0
 upstream base: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
-PR head: d8ddbc38cdc06245bf3a78b56a4dfb332dcda6e2
+PR head: eae10ec5ff77d4ced44b154a72904aeaa7c0fe38
 PR state at custody refresh: OPEN, DRAFT, MERGEABLE
 upstream files:
   experimental/notes/l1/l1_m8_h7_order_one_cubic_33_exclusion.md
@@ -6939,12 +6940,14 @@ additional endpoints: P_5 of degree 5 and R_12 of degree 12 for the two
                       second conic/sixth linear eliminant, two rational
                       three-variable charts, and a packet-specific quadratic
                       quotient whose conic/role remainders eliminate d except
-                      on N_1=U_1=N_0=U_0=0; one
+                      on N_1=U_1=N_0=U_0=0; that endpoint reconstructs
+                      R_0,S_0 and leaves F_N, a role-discriminant weld, and
+                      P_4; one
                       seven-shape affine-color equation and four rational
                       three-variable packets for generic 2+2+2
 replay digests:
   8d49e0b87da9b842d4b827b7feae6718e3c0e9628e9a94d33cfc8b49e901c66f
-  ad8bf495f2b6777d6ed431a0125729a09e33f4f40caf03a45079660cbb35c89b
+  4f66ed0d825e051929b321c0067784d78681242db47522ce128f633849dc50e0
 compute-request digest:
   d3b4aacf170e13fecdf36718f8566bd597beacf4965aa1584077dbe61db9f695
 compute-certificate checker digest:
