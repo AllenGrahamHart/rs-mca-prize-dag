@@ -8425,7 +8425,7 @@ replay state: two exact verifier sources written; local arithmetic unrun
 upstream custody:
   PR: https://github.com/przchojecki/rs-mca/pull/1124
   branch: agent/m31-rank7-dense-top-router
-  head commit: 5905db3e0db643ca26d8b50b7ad5dd8fa08f61a8
+  head commit: 59782687874440830bcd3fc71c170d748dd727b1
   theorem commit: 4cd4cf79ef3a9f19dae515c27d2cc4b7126f636b
   state at pin: OPEN, DRAFT, MERGEABLE
   accepted surface: experimental/experiments.tex plus one agents-log entry
@@ -8454,4 +8454,30 @@ scope fence: no source-compatible list counterexample, no refutation of a
 compute spend: none; explicit algebraic construction
 next route-deciding action: classify or pay the one-root-swap pencil after
                               imposing the decorated Pade equation
+```
+
+**2026-07-29, M31 actual-list core-shadow payment:** the one-root-swap
+counterfixture is large only after the received-word semantics are erased.
+
+```text
+node proved: l1_m31_top_neighbor_core_shadow_payment
+fixed degree-4979 core R:
+  every matching top neighbor lies in a_0+span{R X,R}
+  affine-span list cap: 241 words including the anchor
+  actual top-neighbor cap: 240 across all roots and scalar labels
+general core hierarchy:
+  B_r=floor(C(N-k+r+1,r+1)/C(w+r+1,r+1))-1
+  each fixed degree-(t-r) core supports at most B_r neighbors
+dense-anchor consequence:
+  215793*4980 neighbor/core incidences
+  at least ceil(215793*4980/240)=4477705 distinct degree-4979 cores
+route verdict:
+  the 67449-direction one-plane counterfixture is paid for actual lists
+  the live obstruction is cross-core aggregation/ownership
+scope fence: no global core count, local cap 215792, Q=147595 payment,
+             row close, or Prize movement
+compute spend: none; analytic use of the proved affine-span theorem
+replay state: two exact verifier sources written; local arithmetic unrun
+next route-deciding action: combine the core-shadow hierarchy with the
+                              planted/external split and first-owner ledger
 ```

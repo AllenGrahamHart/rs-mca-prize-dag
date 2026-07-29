@@ -21,3 +21,5 @@ replay: symbolic proof and two static exact verifier sources
 
 The route cut belongs with upstream draft PR `#1124`; it prevents the
 projective compression from being misread as an unconditional upper theorem.
+Export custody is head commit
+`59782687874440830bcd3fc71c170d748dd727b1`.
