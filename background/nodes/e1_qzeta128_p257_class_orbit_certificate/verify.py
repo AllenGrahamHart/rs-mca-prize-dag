@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the two-involution conditional class-orbit reduction."""
+"""Verify the proved two-involution class-orbit reduction."""
 
 from __future__ import annotations
 
@@ -60,20 +60,20 @@ def main() -> None:
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
     edges = {(edge["from"], edge["to"], edge["kind"]) for edge in dag["edges"]}
-    assert nodes[PREMISE]["status"] == "CONDITIONAL"
-    assert nodes[J63]["status"] == "TARGET"
+    assert nodes[PREMISE]["status"] == "PROVED"
+    assert nodes[J63]["status"] == "PROVED"
     assert nodes[J65]["status"] == "PROVED"
     assert nodes[REAL_CLASS]["status"] == "PROVED"
-    assert nodes[NODE]["status"] == "CONDITIONAL"
-    assert nodes[CONSUMER]["status"] == "CONDITIONAL"
+    assert nodes[NODE]["status"] == "PROVED"
+    assert nodes[CONSUMER]["status"] == "PROVED"
     assert (PREMISE, NODE, "req") in edges
     assert (REAL_CLASS, NODE, "req") in edges
     assert (NODE, CONSUMER, "req") in edges
 
     print(
         "E1_QZETA128_P257_CLASS_ORBIT_TWO_INVOLUTION_REDUCTION_PASS "
-        "group_order=64 involutions=3 proved_nonprincipality_tests=1 "
-        "open_nonprincipality_tests=1"
+        "group_order=64 involutions=3 proved_nonprincipality_tests=2 "
+        "open_nonprincipality_tests=0"
     )
 
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the conditional two-ideal profile-018 weighted payment."""
+"""Verify the proved two-ideal profile-018 weighted payment."""
 
 from __future__ import annotations
 
@@ -53,9 +53,9 @@ def main() -> None:
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
     edges = {(edge["from"], edge["to"], edge["kind"]) for edge in dag["edges"]}
-    assert nodes[CERT]["status"] == "CONDITIONAL"
-    assert nodes[DESCENT]["status"] == "CONDITIONAL"
-    assert nodes[NODE]["status"] == "CONDITIONAL"
+    assert nodes[CERT]["status"] == "PROVED"
+    assert nodes[DESCENT]["status"] == "PROVED"
+    assert nodes[NODE]["status"] == "PROVED"
     assert nodes[TARGET]["status"] == "TARGET"
     for supplier in SUPPLIERS:
         assert nodes[supplier]["status"] == "PROVED"
@@ -65,7 +65,7 @@ def main() -> None:
 
     print(
         "E1_PROFILE018_TWO_IDEAL_EXACT_WEIGHTED_PAYMENT_PASS "
-        f"conditional_on={CERT} vectors={vector_cap} residual={residual} "
+        f"class_orbit=proved vectors={vector_cap} residual={residual} "
         f"next_cap={next_cap} orbit_allowance={next_cap // ORBIT_SIZE}"
     )
 

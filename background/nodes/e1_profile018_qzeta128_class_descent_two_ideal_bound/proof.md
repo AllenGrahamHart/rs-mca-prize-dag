@@ -1,4 +1,4 @@
-# Conditional proof
+# Proof
 
 Put
 
@@ -47,11 +47,11 @@ occupied primes `Q_s,Q_t` have
            = [N_(L/K)(Q_t)] = [q_(t^2)].          (4)
 ```
 
-Under `e1_qzeta128_p257_class_orbit_certificate`, distinct primes above 257
+By `e1_qzeta128_p257_class_orbit_certificate`, distinct primes above 257
 in `K` have distinct classes. Equation (4) thus forces
 `q_(s^2)=q_(t^2)`, so `s^2=t^2 mod 257` and `t=+/-s`. By (1), only the two
 extensions above one `K`-prime can be occupied. Thus the occupancy is at most
-two. QED conditional on the named certificate.
+two. QED.
 
 The proof never uses the coefficient profile, autocorrelation energy, or the
 ten-profile ledger. Those filters become unnecessary once the certificate is

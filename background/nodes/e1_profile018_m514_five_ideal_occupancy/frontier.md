@@ -8,13 +8,12 @@ live energies:                       5,...,10
 live magnitude profiles:             10
 local parity multiplicity:           2
 payment threshold:                   at most 5 occupied ideals
-class-descent conditional bound:     at most 2 occupied ideals
+class-descent proved bound:          at most 2 occupied ideals
 ```
 
-The profile-independent descent to `Q(zeta_128)` is now complete. Its sole
-open premise is the exact class-orbit certificate for the 64 primes above
-257. Bernstein's published S-unit coordinates predict 64 distinct classes;
-the required independent class-group replay is registered separately.
+The profile-independent descent to `Q(zeta_128)` and its exact class-orbit
+certificate are complete. Bernstein's published S-unit coordinates are no
+longer required.
 Pricing the stronger bound gives 12 full profile orbits and next-profile cap
 1971, rather than the conservative five-ideal cap 329.
 

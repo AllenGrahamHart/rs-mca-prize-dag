@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the exact interface of the conditional two-involution join."""
+"""Verify the exact interface of the proved two-involution join."""
 
 from __future__ import annotations
 
@@ -43,23 +43,23 @@ def main() -> None:
     contract = (node_dir / "claim_contract.md").read_text()
     for text in ("q_63=(257,zeta-57)", "q_65=(257,zeta-248)", "nonprincipal"):
         assert text in statement
-    for text in ("bnfcertify(B,1)", "J_63", "J_65", "p_66"):
+    for text in ("J_63", "J_65", "p_66", "residue obstruction"):
         assert text in contract
 
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
     edges = {(edge["from"], edge["to"], edge["kind"]) for edge in dag["edges"]}
-    assert nodes[NODE]["status"] == "CONDITIONAL"
-    assert nodes[J63]["status"] == "TARGET"
+    assert nodes[NODE]["status"] == "PROVED"
+    assert nodes[J63]["status"] == "PROVED"
     assert nodes[J65]["status"] == "PROVED"
-    assert nodes[CONSUMER]["status"] == "CONDITIONAL"
+    assert nodes[CONSUMER]["status"] == "PROVED"
     assert (J63, NODE, "req") in edges
     assert (J65, NODE, "req") in edges
     assert (NODE, CONSUMER, "req") in edges
 
     print(
         "E1_QZETA128_P257_TWO_INVOLUTION_JOIN_PASS "
-        "roots=64 involutions=3 proved_tests=1 open_tests=1"
+        "roots=64 involutions=3 proved_tests=2 open_tests=0"
     )
 
 

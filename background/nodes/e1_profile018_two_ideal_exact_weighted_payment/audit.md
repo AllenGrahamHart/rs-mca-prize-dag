@@ -9,5 +9,4 @@
 - The residual is recomputed from the pre-profile residual, not by rounding
   the older five-ideal payment.
 - Both sides of the adjacent cap comparison are checked with integers.
-- The node remains conditional solely because the class-orbit certificate is
-  still a target.
+- The class-orbit and class-descent dependencies are both proved.

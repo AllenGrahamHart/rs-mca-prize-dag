@@ -9309,8 +9309,8 @@ The recurrence is an analytic upper bound on symmetric zero-sum triples in
 `Z/2^k Z`; its verifier evaluates only a tiny dynamic table. The same cap
 does not close energy ten, so the next step must add a different constraint.
 
-**2026-07-29, profile-independent class-descent decomposition:** the fixed
-row-prime ideal factorization bypasses every surviving energy profile.
+**2026-07-29, profile-independent class-descent close:** the fixed row-prime
+ideal factorization bypasses every surviving energy profile.
 
 ```text
 upper field L:                       Q(zeta_256)
@@ -9322,7 +9322,7 @@ extensions per lower prime:          2
 published lower class index:         Z/359057
 published Galois multipliers:        -1,29301
 exact modular orbit size:            64
-conditional occupancy bound:         O_514<=2
+proved occupancy bound:              O_514<=2
 required payment bound:              O_514<=5
 profile-(0,18) orbit count:           at most 10+2=12
 profile-(0,18) oriented vectors:      at most 3072
@@ -9341,7 +9341,7 @@ prime class one, and gives the two Galois multipliers. Exact integer
 arithmetic confirms that `{+/-29301^j:0<=j<32}` contains 64 classes. The
 released software does not expose the load-bearing n=64 class computation.
 
-The class-orbit theorem has now been reduced without assuming those printed
+The class-orbit theorem is proved without assuming those printed
 coordinates. The Galois group `(Z/128Z)^x` is a 64-element 2-group with
 exactly three nonidentity involutions `63,65,127`. The proved
 conductor-256 real class-number theorem descends to real class number one at
@@ -9364,23 +9364,35 @@ Dembele identifies the class-number-17 CM field
 polynomial is irreducible modulo 257. This gives a nontrivial Artin symbol at
 every prime above 257, and norm descent proves `q_1q_65` nonprincipal.
 
-For the remaining product put `beta=zeta_128-zeta_128^(-1)`. Both `q_1` and
+For the second product put `beta=zeta_128-zeta_128^(-1)`. Both `q_1` and
 `q_63` contract to
 
 ```text
 p_66=(257,beta-66)
 ```
 
-in the degree-32 fixed field `Q(beta)`. The ambiguous class-number formula
-proves that this cyclic field has odd class number, so nonprincipality of
-`p_66` transfers injectively to `q_1q_63`. Repository discipline now leaves
-exactly this one red prime certificate; the two-involution join and original
-class-orbit node are amber with complete conditional proofs. Do not resume
-the 10-profile search on the serial route before attacking this one-prime
-certificate or finding a genuinely new structural route.
+in the degree-32 fixed field `Q(beta)`.
 
-The stronger bound must be priced directly rather than routed through the
-older five-ideal threshold. The conditional payment leaves residual
+This second test is closed by an explicit Kummer-style certificate. A
+32-term Jacobi-sum product `alpha` satisfies
+
+```text
+(alpha)=(q_1 q_63/(q_127 q_65))^(2*21121).
+```
+
+At `r=5406977=256*21121+1`, the product of the power-residue characters for
+the 32 embeddings `zeta_128 -> u^s`, `s=1,3,...,63`, kills all 31 full-unit
+generators and every `21121`st power, but sends `alpha` to `500235 != 1`.
+Hence `q_1q_63` is nonprincipal. Extension of a hypothetical generator of
+`p_66` would generate `q_1q_63`, so `p_66` is nonprincipal as well. Two
+independent tiny verifiers evaluate the Jacobi sums directly and through
+coefficient polynomials.
+
+Both involution tests, the 64-prime class orbit, the two-ideal descent, and
+the exact profile-(0,18) payment are therefore unconditional.
+
+The stronger bound is priced directly rather than routed through the older
+five-ideal threshold. The proved payment leaves residual
 `515126704564295620156155116913120291239`; exact adjacent comparisons give
 `floor(2R/M_33(4,4))=1971`. Thus the next profile needs at most seven full
 256-vector orbits, not one.
@@ -9388,12 +9400,12 @@ older five-ideal threshold. The conditional payment leaves residual
 Burn-down:
 
 ```text
-result:                              NARROWED
+result:                              CLOSED
 profile-specific live rows:          10 -> bypassed
-occupancy threshold under leaf:      5 -> 2
-next-profile cap under leaf:          329 -> 1971
-proved involution test:              q_1*q_65 via Harbater Artin symbol
-new exact assumptions:               one degree-32 prime nonprincipality test
-live compute request:                CR-E1-QZETA128-P257-CLASS-ORBIT
-next route-deciding action:          certify p_66 nonprincipal
+proved occupancy threshold:          5 -> 2
+proved next-profile cap:             329 -> 1971
+proved involution tests:             q_1*q_65 Harbater; q_1*q_63 residue
+new exact assumptions:               none
+retired compute request:             CR-E1-QZETA128-P257-CLASS-ORBIT
+next route-deciding action:          profile (4,4,S=20), at most 7 orbits
 ```

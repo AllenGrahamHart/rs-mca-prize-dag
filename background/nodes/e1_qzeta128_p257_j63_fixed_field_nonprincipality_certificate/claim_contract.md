@@ -20,12 +20,17 @@ The monic degree-32 defining polynomial `f_63` is pinned in `statement.md`.
 It has 32 distinct roots modulo 257, including 66, as replayed by
 `verify.py`.
 
-## Required certificate
+## Exact certificate
 
-An unconditional nonzero ideal-class coordinate, a nontrivial Artin symbol
-in a certified unramified abelian extension, an exact obstruction to the
-norm equation, or another proof-producing principality test. A complete
-certified class-group calculation is acceptable but not required.
+The Jacobi-sum Stickelberger relation constructs `alpha` with
+
+```text
+(alpha)=(J_63/bar(J_63))^(2*21121).
+```
+
+An explicit residue character at `r=5406977` kills every global unit and
+every `21121`st power but does not kill `alpha`. Hence `J_63`, and therefore
+`p_66`, is nonprincipal.
 
 ## Equivalence to the original test
 
@@ -42,9 +47,9 @@ formula gives a trivial ambiguous class group and hence odd class number.
 Extension to the quadratic field is therefore injective on ideal classes.
 Thus `p_66` is nonprincipal if and only if `q_1q_63` is nonprincipal.
 
-## Nonclaims
+## Dependencies
 
-- The predicted 21121-primary coordinate is evidence, not a certificate.
-- The order of the relevant class-group component alone does not locate
-  `p_66` in that component.
-- A GRH-only or `bnfcertify(B,1)`-only coordinate is insufficient.
+- `e1_qzeta128_p257_j63_stickelberger_relation`.
+- `e1_qzeta128_p257_j63_residue_obstruction`.
+
+No GRH assumption, BNF computation, or predicted class coordinate is used.

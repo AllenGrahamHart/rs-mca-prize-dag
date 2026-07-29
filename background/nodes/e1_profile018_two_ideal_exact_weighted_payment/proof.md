@@ -1,4 +1,4 @@
-# Conditional proof
+# Proof
 
 The proved profile-`(0,18)` router leaves ten pure ideal families and the
 cofactor-514 split families. Under the named class-orbit certificate,
@@ -54,4 +54,4 @@ M_next*1972-2R_after
 ```
 
 Thus `floor(2R_after/M_next)=1971`, and the adjacent cap 1972 is not
-certified by this inference. QED conditional on the class-orbit certificate.
+certified by this inference. QED.

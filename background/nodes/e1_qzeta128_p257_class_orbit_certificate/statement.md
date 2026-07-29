@@ -1,11 +1,10 @@
 # Q(zeta_128) prime-257 class-orbit certificate
 
-- **status:** CONDITIONAL
+- **status:** PROVED
 - **scope:** `K=Q(zeta_128)`, all degree-one primes above 257
 
-Assume the remaining premise of
-`e1_qzeta128_p257_two_involution_nonprincipality_certificate`. For the
-explicit primes
+The node `e1_qzeta128_p257_two_involution_nonprincipality_certificate`
+proves, for the explicit primes
 
 ```text
 q_1 =(257,zeta_128-9),
@@ -15,10 +14,9 @@ q_65=(257,zeta_128-248),
 
 the join proves that both `q_1 q_63` and `q_1 q_65` are nonprincipal. Then
 the 64 prime ideals of `Z[zeta_128]` above 257 have pairwise distinct ideal
-classes. The `q_1q_65` half is now unconditional; only the fixed-field
-certificate transferring to `q_1q_63` remains open.
+classes.
 
-This implication is proved in `proof.md`. It uses the unconditional facts
+The orbit argument is proved in `proof.md`. It uses the unconditional facts
 that the maximal real subfield has class number one and that the class number
 of a 2-power cyclotomic field is odd.
 
@@ -34,8 +32,8 @@ sigma_3(e) = 29301 e.
 
 Here `q_1` is one prime above 257, `sigma_a(zeta_128)=zeta_128^a`, and the
 index is chosen so that `q_1` has class one. The source evidence for these
-exact integers is pinned in `source_evidence.md`, but the conditional proof
-no longer requires them.
+exact integers is pinned in `source_evidence.md`, but the proof does not
+require them.
 
 ## Falsifier
 

@@ -1,10 +1,10 @@
 # Profile-(0,18) two-ideal exact weighted payment
 
-- **status:** CONDITIONAL
+- **status:** PROVED
 - **scope:** binding prize rate-`1/8` row, serial weighted E1 frontier
 
-Assume `e1_qzeta128_p257_class_orbit_certificate`. Then the class-descent
-theorem gives at most two occupied cofactor-514 ideals in profile
+The proved `e1_qzeta128_p257_class_orbit_certificate` and class-descent
+theorem give at most two occupied cofactor-514 ideals in profile
 `(0,18,S=18)`. Together with the ten pure families, this gives
 
 ```text

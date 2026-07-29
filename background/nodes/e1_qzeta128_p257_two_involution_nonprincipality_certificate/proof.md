@@ -1,4 +1,4 @@
-# Conditional proof
+# Proof
 
 The node `e1_qzeta128_p257_j65_harbater_nonprincipality` proves
 
@@ -63,7 +63,6 @@ If `(1)` were principal, ideal norm through the quadratic extension would
 make `p_66^2` principal. Odd class number then makes `p_66` itself
 principal.
 
-The remaining premise says exactly that `p_66` is nonprincipal. Therefore
-`J_63` is nonprincipal, while the Harbater node already proves `J_65`
-nonprincipal. This proves the conjunction conditional on the one fixed-field
-certificate.
+The proved fixed-field certificate says exactly that `p_66` is
+nonprincipal. Therefore `J_63` is nonprincipal, while the Harbater node
+already proves `J_65` nonprincipal. This proves the conjunction. QED.

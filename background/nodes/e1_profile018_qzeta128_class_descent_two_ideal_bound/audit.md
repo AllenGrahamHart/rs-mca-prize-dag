@@ -20,8 +20,7 @@
   norm transports.
 - The proof gives two, stronger than the required five.
 
-## Open dependency
+## Dependency close
 
-The n=64 prime-class orbit has not been independently reconstructed. This
-node remains `CONDITIONAL` even though the published coordinates pass the
-tiny orbit arithmetic.
+The n=64 prime-class orbit is proved by the two-involution route, independent
+of the optional published coordinate ledger.

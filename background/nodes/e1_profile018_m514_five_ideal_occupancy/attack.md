@@ -1,8 +1,7 @@
 # Attack
 
-1. Prove or falsify `e1_qzeta128_p257_class_orbit_certificate`. The published
-   class coordinates imply a two-ideal bound, but the class-group calculation
-   must be replayed unconditionally before promotion.
+1. `e1_qzeta128_p257_class_orbit_certificate` is proved by the
+   two-involution route, so the live occupancy attack is closed.
 2. The former falsifier was six diagonal Galois orbits of actual
    profile-(0,18) polynomials with one exact norm `514p`. The class-descent
    route predicts that even three are impossible. Retain any exact collision

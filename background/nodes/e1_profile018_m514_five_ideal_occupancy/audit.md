@@ -5,8 +5,7 @@
   one class in `Q(zeta_256)`.
 - The descent theorem is profile-independent and therefore covers all ten
   surviving magnitude profiles simultaneously.
-- The exact class-orbit theorem is `CONDITIONAL`; its sole red premise is the
-  two-involution nonprincipality certificate. This node remains conditional
-  until both explicit ideal products are certified nonprincipal.
+- The exact class-orbit theorem and both involution nonprincipality tests are
+  proved.
 - Source evidence for the expected class coordinates is not counted as the
   missing replay.

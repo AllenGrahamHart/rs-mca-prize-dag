@@ -126,7 +126,7 @@ def main() -> None:
     nodes = {node["id"]: node for node in dag["nodes"]}
     edges = {(edge["from"], edge["to"], edge["kind"]) for edge in dag["edges"]}
     assert nodes[NODE]["status"] == "PROVED"
-    assert nodes[JOIN]["status"] == "CONDITIONAL"
+    assert nodes[JOIN]["status"] == "PROVED"
     assert (NODE, JOIN, "req") in edges
 
     print(

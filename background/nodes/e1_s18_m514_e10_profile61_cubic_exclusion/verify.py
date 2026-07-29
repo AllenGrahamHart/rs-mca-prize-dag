@@ -149,7 +149,7 @@ def main() -> None:
     assert (PARENT, NODE, "req") in edges
     for target in TARGETS:
         expected = (
-            "CONDITIONAL"
+            "PROVED"
             if target == "e1_profile018_m514_five_ideal_occupancy"
             else "TARGET"
         )

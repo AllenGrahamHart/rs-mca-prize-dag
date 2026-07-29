@@ -1,10 +1,11 @@
 # Profile-(0,18) class-descent two-ideal bound
 
-- **status:** CONDITIONAL
+- **status:** PROVED
 - **scope:** conductor 256, fixed row prime/root, cofactor 514
 
-Assume `e1_qzeta128_p257_class_orbit_certificate`: the 64 degree-one prime
-ideals above 257 in `Q(zeta_128)` have pairwise distinct ideal classes.
+The proved `e1_qzeta128_p257_class_orbit_certificate` says that the 64
+degree-one prime ideals above 257 in `Q(zeta_128)` have pairwise distinct
+ideal classes.
 
 Then, among the 128 degree-one prime ideals `Q_s` above 257 in
 `Q(zeta_256)`, at most two can occur in principal-ideal factorizations

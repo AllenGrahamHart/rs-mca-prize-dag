@@ -1,6 +1,6 @@
 # Frontier
 
-Conditional on the class-orbit certificate:
+With the class-orbit certificate proved:
 
 ```text
 profile-(0,18) families:             10 pure + at most 2 split

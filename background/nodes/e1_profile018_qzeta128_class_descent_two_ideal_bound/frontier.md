@@ -1,7 +1,6 @@
 # Frontier
 
-The descent proof is complete. The sole open premise is
-`e1_qzeta128_p257_class_orbit_certificate`.
+The descent proof and its class-orbit premise are complete.
 
 Published data predict
 
@@ -13,6 +12,5 @@ sigma_3=29301,
 ord_359057(29301)=32.
 ```
 
-These values produce 64 distinct classes. The remaining task is to replay
-the class ledger unconditionally with a primary certificate and an
-independent exact audit.
+These values produce 64 distinct classes, but the proved two-involution
+route avoids reconstructing the full ledger.

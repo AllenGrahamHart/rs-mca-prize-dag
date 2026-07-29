@@ -1,6 +1,8 @@
 # Q(zeta_128) J_63 fixed-field nonprincipality certificate
 
-- **status:** TARGET
+- **status:** PROVED
+- **closure:** Jacobi-sum Stickelberger relation plus an explicit
+  auxiliary-prime power-residue obstruction
 - **scope:** one degree-one prime in a degree-32 CM field
 
 Put `zeta=zeta_128`, `beta=zeta-zeta^(-1)`, and
@@ -22,11 +24,9 @@ f_63(Y)=Y^32+32Y^30+464Y^28+4032Y^26+23400Y^24+95680Y^22
 Indeed,
 `Res_Z(Z^64+1,Z^2-YZ-1)=f_63(Y)^2`, and `beta` has degree 32.
 
-Produce an unconditional exact certificate that `p_66` is nonprincipal in
-`O_(E_63)`.
+Then `p_66` is nonprincipal in `O_(E_63)`.
 
-This is the complete remaining open premise for the two-involution
-class-orbit reduction. Indeed, `E_63` is the fixed field of
+Indeed, `E_63` is the fixed field of
 `sigma_63(zeta)=-zeta^(-1)`, both `q_1` and `q_63` lie above `p_66`, and the
 ambiguous-class-number calculation proves that `E_63` has odd class number.
 Extension through the quadratic field `Q(zeta_128)/E_63` is therefore

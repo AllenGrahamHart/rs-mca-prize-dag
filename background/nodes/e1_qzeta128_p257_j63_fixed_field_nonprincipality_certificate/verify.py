@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the exact interface of the remaining J_63 fixed-field target."""
+"""Verify the exact interface of the proved J_63 fixed-field certificate."""
 
 from __future__ import annotations
 
@@ -10,6 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 NODE = "e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate"
 JOIN = "e1_qzeta128_p257_two_involution_nonprincipality_certificate"
+OBSTRUCTION = "e1_qzeta128_p257_j63_residue_obstruction"
 
 F63 = {
     32: 1,
@@ -78,21 +79,23 @@ def main() -> None:
     node_dir = ROOT / "background/nodes" / NODE
     statement = (node_dir / "statement.md").read_text()
     contract = (node_dir / "claim_contract.md").read_text()
-    for text in ("E_63=Q(beta)", "p_66=(257,beta-66)", "TARGET"):
+    for text in ("E_63=Q(beta)", "p_66=(257,beta-66)", "PROVED"):
         assert text in statement
-    for text in ("degree-32", "21121", "bnfcertify(B,1)"):
+    for text in ("degree-32", "21121", "r=5406977"):
         assert text in contract
 
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
     edges = {(edge["from"], edge["to"], edge["kind"]) for edge in dag["edges"]}
-    assert nodes[NODE]["status"] == "TARGET"
-    assert nodes[JOIN]["status"] == "CONDITIONAL"
+    assert nodes[NODE]["status"] == "PROVED"
+    assert nodes[OBSTRUCTION]["status"] == "PROVED"
+    assert nodes[JOIN]["status"] == "PROVED"
+    assert (OBSTRUCTION, NODE, "req") in edges
     assert (NODE, JOIN, "req") in edges
 
     print(
         "E1_QZETA128_P257_J63_FIXED_FIELD_INTERFACE_PASS "
-        "degree=32 residue=66 split_roots=32 cyclic_quotient=32 open_tests=1"
+        "degree=32 residue=66 split_roots=32 cyclic_quotient=32 open_tests=0"
     )
 
 

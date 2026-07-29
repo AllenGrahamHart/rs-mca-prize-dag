@@ -3484,13 +3484,13 @@
     "background/nodes/e1_profile018_split_prime_payment_router/verify.py"
    ],
    "statement": "Profile (0,18,S=18) has only ten pure ideal families and 128 possible cofactor-514 families after the complete 1538 and 1028 exclusions. If at most five cofactor-514 ideals are occupied, then 3840 oriented vectors pay the profile and advance the weighted frontier to (4,4,S=20) with cap 329.",
-   "notes": "SERIAL ROUTER 2026-07-29: the implication O_514<=5 -> payment is proved. Class descent now conditionally sharpens the occupancy to O_514<=2; its sole open premise is the Q(zeta_128) prime-257 class-orbit certificate."
+   "notes": "SERIAL ROUTER 2026-07-29: the implication O_514<=5 -> payment is proved. The proved class descent sharpens occupancy to O_514<=2 and gives the exact next-profile cap 1971."
   },
   {
    "id": "e1_profile018_m514_five_ideal_occupancy",
    "title": "E1 profile-(0,18) cofactor-514 five-ideal occupancy",
-   "status": "CONDITIONAL",
-   "closure": "conditional ideal-class descent",
+   "status": "PROVED",
+   "closure": "proved ideal-class descent",
    "refs": [
     "background/nodes/e1_profile018_m514_five_ideal_occupancy/statement.md",
     "background/nodes/e1_profile018_m514_five_ideal_occupancy/proof.md",
@@ -3502,8 +3502,8 @@
     "background/nodes/e1_profile018_m514_five_ideal_occupancy/result.md",
     "experiments/prize_resolution/e1_profile018_m514_low_energy_root_search_modal.py"
    ],
-   "statement": "Assuming the exact Q(zeta_128) prime-257 class-orbit certificate, at most two, hence at most five, of the 128 degree-one ideals above 257 are occupied in one fixed binding-row prime/root fiber.",
-   "notes": "CLASS-DESCENT DECOMPOSITION 2026-07-29: occupied Q_s share one class in Q(zeta_256); ideal norm descends them to equal classes in Q(zeta_128). Pairwise class separation below leaves one lower prime and its two upper extensions. The J_65 involution test is proved; one degree-32 fixed-field prime is the sole open premise."
+   "statement": "At most two, hence at most five, of the 128 degree-one ideals above 257 are occupied in one fixed binding-row prime/root fiber.",
+   "notes": "CLASS-DESCENT CLOSE 2026-07-29: occupied Q_s share one class in Q(zeta_256); ideal norm descends them to equal classes in Q(zeta_128). Proved pairwise class separation below leaves one lower prime and its two upper extensions."
   },
   {
    "id": "e1_qzeta128_p257_j65_harbater_nonprincipality",
@@ -3525,11 +3525,67 @@
    "notes": "HARBATER CLOSE 2026-07-29: Dembele identifies the class-number-17 CM subfield and its Hilbert class field, whose Elkies polynomial is exactly irreducible modulo 257. Norm descent proves J_65 nonprincipal without a degree-64 BNF."
   },
   {
+   "id": "e1_conductor128_full_unit_circular_basis",
+   "title": "Conductor-128 full-unit circular basis",
+   "status": "PROVED",
+   "closure": "Miller descent, Weber oddness, and Kummer-Sinnott unit-index formula",
+   "refs": [
+    "background/nodes/e1_conductor128_full_unit_circular_basis/statement.md",
+    "background/nodes/e1_conductor128_full_unit_circular_basis/proof.md",
+    "background/nodes/e1_conductor128_full_unit_circular_basis/claim_contract.md",
+    "background/nodes/e1_conductor128_full_unit_circular_basis/dependency_subdag.md",
+    "background/nodes/e1_conductor128_full_unit_circular_basis/audit.md",
+    "background/nodes/e1_conductor128_full_unit_circular_basis/result.md",
+    "background/nodes/e1_conductor128_full_unit_circular_basis/source_pin.json",
+    "background/nodes/e1_conductor128_full_unit_circular_basis/verify.py"
+   ],
+   "statement": "Every unit of Z[zeta_128] is a root of unity times a unique product of the 31 standard real circular units eta_a for odd 3<=a<=63.",
+   "notes": "UNIT BASIS 2026-07-29: Miller's unconditional conductor-256 plus-class-number theorem descends to conductor 128 by extension/norm and Weber oddness. Kummer-Sinnott then makes the 31 circular generators the full unit basis."
+  },
+  {
+   "id": "e1_qzeta128_p257_j63_stickelberger_relation",
+   "title": "Q(zeta_128) J_63 Stickelberger relation",
+   "status": "PROVED",
+   "closure": "classical Jacobi-sum factorization and exact integer relation",
+   "refs": [
+    "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/statement.md",
+    "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/proof.md",
+    "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/claim_contract.md",
+    "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/dependency_subdag.md",
+    "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/audit.md",
+    "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/result.md",
+    "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/source_pin.json",
+    "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/verify.py"
+   ],
+   "statement": "An explicit product alpha of 32 Jacobi-sum ratios satisfies (alpha)=(q_1 q_63/(q_127 q_65))^(2*21121).",
+   "notes": "STICKELBERGER CERTIFICATE 2026-07-29: all 64 prime valuations are replayed from complement-carry bits and 32 printed integer coefficients."
+  },
+  {
+   "id": "e1_qzeta128_p257_j63_residue_obstruction",
+   "title": "Q(zeta_128) J_63 residue obstruction",
+   "status": "PROVED",
+   "closure": "explicit auxiliary-prime power-residue character",
+   "refs": [
+    "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/statement.md",
+    "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/proof.md",
+    "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/claim_contract.md",
+    "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/dependency_subdag.md",
+    "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/audit.md",
+    "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/result.md",
+    "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/verify.py",
+    "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/verify_audit.py"
+   ],
+   "statement": "At r=5406977, a product of 32 power-residue characters kills the full unit group and all 21121st powers but sends the explicit Jacobi element alpha to 500235 != 1, proving J_63 nonprincipal.",
+   "notes": "RESIDUE CLOSE 2026-07-29: the verifier directly evaluates 31 unit generators and 32 Jacobi sums at 32 embeddings. The calculation is exact, import-free after the unit and Stickelberger dependencies, and uses no BNF or GRH assumption."
+  },
+  {
    "id": "e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate",
    "title": "Q(zeta_128) J_63 fixed-field nonprincipality certificate",
-   "status": "TARGET",
+   "status": "PROVED",
+   "closure": "Jacobi-sum Stickelberger relation and auxiliary-prime residue obstruction",
    "refs": [
     "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/statement.md",
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/proof.md",
     "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/claim_contract.md",
     "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/attack.md",
     "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/frontier.md",
@@ -3538,14 +3594,14 @@
     "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/result.md",
     "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/verify.py"
    ],
-   "statement": "Certify that (257,zeta_128-zeta_128^(-1)-66) is nonprincipal in the degree-32 fixed field Q(zeta_128-zeta_128^(-1)).",
-   "notes": "SOLE CLASS-ORBIT LEAF 2026-07-29: q_1 and q_63 contract to this prime. The ambiguous class-number formula proves the fixed field has odd class number, so quadratic extension transfers its nonprincipality exactly to J_63."
+   "statement": "The prime (257,zeta_128-zeta_128^(-1)-66) is nonprincipal in the degree-32 fixed field Q(zeta_128-zeta_128^(-1)).",
+   "notes": "FIXED-FIELD CLOSE 2026-07-29: an explicit residue character proves q_1q_63 nonprincipal in Q(zeta_128); a hypothetical lower generator would extend to a generator of that product."
   },
   {
    "id": "e1_qzeta128_p257_two_involution_nonprincipality_certificate",
    "title": "Q(zeta_128) prime-257 two-involution nonprincipality certificate",
-   "status": "CONDITIONAL",
-   "closure": "conditional one-prime fixed-field transfer with J_65 proved",
+   "status": "PROVED",
+   "closure": "J_63 residue obstruction and J_65 Harbater Artin symbol",
    "refs": [
     "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/statement.md",
     "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/proof.md",
@@ -3557,14 +3613,14 @@
     "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/result.md",
     "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/verify.py"
    ],
-   "statement": "Assuming nonprincipality of the degree-32 fixed-field prime (257,zeta_128-zeta_128^(-1)-66), both involution products q_1q_63 and q_1q_65 are nonprincipal in Q(zeta_128).",
-   "notes": "ONE-TEST JOIN 2026-07-29: J_65 is proved by the Harbater Hilbert-class polynomial. The sole open input is the fixed-field prime transferring to J_63."
+   "statement": "Both involution products q_1q_63 and q_1q_65 are nonprincipal in Q(zeta_128).",
+   "notes": "TWO-TEST CLOSE 2026-07-29: J_63 is proved by an explicit Stickelberger/residue obstruction and J_65 by the Harbater Hilbert-class polynomial."
   },
   {
    "id": "e1_qzeta128_p257_class_orbit_certificate",
    "title": "Q(zeta_128) prime-257 class-orbit certificate",
-   "status": "CONDITIONAL",
-   "closure": "conditional two-involution reduction",
+   "status": "PROVED",
+   "closure": "two-involution nonprincipality and 2-group stabilizer argument",
    "refs": [
     "background/nodes/e1_qzeta128_p257_class_orbit_certificate/statement.md",
     "background/nodes/e1_qzeta128_p257_class_orbit_certificate/proof.md",
@@ -3577,14 +3633,14 @@
     "background/nodes/e1_qzeta128_p257_class_orbit_certificate/result.md",
     "background/nodes/e1_qzeta128_p257_class_orbit_certificate/verify.py"
    ],
-   "statement": "Assuming nonprincipality of the two explicit involution products q_1 q_63 and q_1 q_65, the 64 degree-one prime ideals above 257 in Q(zeta_128) have pairwise distinct ideal classes.",
-   "notes": "TWO-INVOLUTION REDUCTION 2026-07-29: real class number one makes conjugation invert classes, Weber oddness removes complex-conjugation stabilizers, and a nontrivial subgroup of the 64-element Galois 2-group contains one of its three involutions. J_65 is proved by the Harbater Artin symbol; only the J_63 fixed-field prime remains open."
+   "statement": "The 64 degree-one prime ideals above 257 in Q(zeta_128) have pairwise distinct ideal classes.",
+   "notes": "CLASS-ORBIT CLOSE 2026-07-29: real class number one makes conjugation invert classes, Weber oddness removes complex-conjugation stabilizers, and the two proved involution tests force the Galois stabilizer to be trivial."
   },
   {
    "id": "e1_profile018_qzeta128_class_descent_two_ideal_bound",
    "title": "Profile-(0,18) class-descent two-ideal bound",
-   "status": "CONDITIONAL",
-   "closure": "conditional proof",
+   "status": "PROVED",
+   "closure": "proved class-orbit certificate and relative ideal norm",
    "refs": [
     "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/statement.md",
     "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/proof.md",
@@ -3595,14 +3651,14 @@
     "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/frontier.md",
     "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/verify.py"
    ],
-   "statement": "If the 64 primes above 257 in Q(zeta_128) have pairwise distinct classes, then a fixed row-prime fiber in Q(zeta_256) contains at most two occupied cofactor-514 ideals.",
-   "notes": "CONDITIONAL THEOREM 2026-07-29: all occupied upper primes share one class; relative ideal norm sends them to one lower class; class separation fixes one lower prime, which has exactly two upper extensions."
+   "statement": "A fixed row-prime fiber in Q(zeta_256) contains at most two occupied cofactor-514 ideals.",
+   "notes": "CLASS-DESCENT CLOSE 2026-07-29: all occupied upper primes share one class; relative ideal norm sends them to one lower class; proved class separation fixes one lower prime, which has exactly two upper extensions."
   },
   {
    "id": "e1_profile018_two_ideal_exact_weighted_payment",
    "title": "Profile-(0,18) two-ideal exact weighted payment",
-   "status": "CONDITIONAL",
-   "closure": "conditional exact weighted payment",
+   "status": "PROVED",
+   "closure": "exact weighted payment after proved two-ideal descent",
    "refs": [
     "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/statement.md",
     "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/proof.md",
@@ -3613,8 +3669,8 @@
     "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/frontier.md",
     "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/verify.py"
    ],
-   "statement": "Assuming the Q(zeta_128) prime-257 class-orbit certificate, profile (0,18,S=18) has at most 3072 oriented vectors, leaves residual 515126704564295620156155116913120291239, and gives next-profile cap 1971.",
-   "notes": "STRONG CONDITIONAL PAYMENT 2026-07-29: class descent reduces the split occupancy from five to two, so the profile has 10+2 full orbits rather than 10+5. Both adjacent cap comparisons are exact."
+   "statement": "Profile (0,18,S=18) has at most 3072 oriented vectors, leaves residual 515126704564295620156155116913120291239, and gives next-profile cap 1971.",
+   "notes": "STRONG PAYMENT CLOSE 2026-07-29: proved class descent reduces the split occupancy from five to two, so the profile has 10+2 full orbits rather than 10+5. Both adjacent cap comparisons are exact."
   },
   {
    "id": "e1_profile018_galois_norm_occupancy_dictionary",
@@ -40997,6 +41053,21 @@
    "from": "e1_profile018_m514_five_ideal_occupancy",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
+  },
+  {
+   "from": "e1_conductor128_full_unit_circular_basis",
+   "to": "e1_qzeta128_p257_j63_residue_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_qzeta128_p257_j63_stickelberger_relation",
+   "to": "e1_qzeta128_p257_j63_residue_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_qzeta128_p257_j63_residue_obstruction",
+   "to": "e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate",
+   "kind": "req"
   },
   {
    "from": "e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate",

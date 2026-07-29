@@ -10226,11 +10226,10 @@ Interpretation is deliberately narrow:
 - six equal exact official-prime quotients in distinct diagonal Galois orbits
   would be a true falsifier.
 
-## CR-E1-QZETA128-P257-CLASS-ORBIT: remaining J_63 fixed-field certificate
+## CR-E1-QZETA128-P257-CLASS-ORBIT: J_63 fixed-field certificate - CLOSED
 
-**Status:** ROUTE-DECIDING PRE-REQUEST; NO LAUNCH AUTHORIZED. The Modal
-workspace remains over its spend limit, and the cost of unconditional
-certification has not been piloted.
+**Status:** RESOLVED LOCALLY; DO NOT LAUNCH. The exact Jacobi-sum residue
+certificate supersedes the proposed degree-32 BNF computation.
 
 ### Mathematical decision and interface
 
@@ -10265,25 +10264,27 @@ The repository verifies that it has 32 distinct roots modulo 257 and that 66
 is one of them. It is obtained from
 `Res_Z(Z^64+1,Z^2-YZ-1)=f_E63(Y)^2`.
 
-Certify unconditionally that `p_66` is nonprincipal in the degree-32 field
-`E_63`. Exact contraction gives
+The repository now certifies unconditionally that `p_66` is nonprincipal in
+the degree-32 field `E_63`. Exact contraction gives
 `p_66 O_(Q(zeta_128))=q_1q_63`; the ambiguous class-number calculation proves
 that `E_63` has odd class number, so this transfer is injective on ideal
 classes.
 
-PASS proves the last premise of
-`e1_qzeta128_p257_two_involution_nonprincipality_certificate`; the proved
-2-group reduction then promotes the 64-prime class orbit, class descent, and
-the exact profile-018 payment. FAIL supplies a principal generator and proves
-that the corresponding involution fixes the base-prime class.
+The certificate proves the last premise of
+`e1_qzeta128_p257_two_involution_nonprincipality_certificate`; the 2-group
+reduction promotes the 64-prime class orbit, class descent, and exact
+profile-018 payment.
 
-Published coordinates predict that `[p_66]`, equivalently `[q_1q_63]`, is
-nonzero in the 21121-primary component. This selects the test but is not
-accepted as its proof.
+The proof constructs a 32-term Jacobi product `alpha` with
+`(alpha)=(q_1q_63/(q_127q_65))^(2*21121)`. At
+`r=5406977=256*21121+1`, a product of 32 power-residue characters kills the
+full unit group and all `21121`st powers but maps `alpha` to `500235 != 1`.
+Direct-character-sum and coefficient-polynomial verifiers agree.
 
-### Required primary packet
+### Superseded historical primary packet
 
-Use Sage/PARI, Hecke, or Magma with proof/unconditional certification enabled:
+The following BNF packet is no longer requested. It remains a possible
+independent audit only:
 
 1. construct `E_63` and its full ring of integers;
 2. construct `p_66` and check that roots 9 and 57 both give fixed-field
@@ -10315,25 +10316,21 @@ that is nonzero on `p_66`. `subcyclopclgp(128,21121)` can rigorously certify
 the relevant minus-part size, but does not locate this ideal and is
 insufficient alone. A class group computed under GRH is `INCOMPLETE`.
 
-### Independent audit
+### Independent audit - satisfied
 
-Replay the nonprincipality test in a different CAS/algorithm. Prefer an
-exported exact relation matrix with principal-ideal witnesses and an
-independently checked Smith form. A stronger full 64-coordinate replay
-remains acceptable but is no longer required.
+The primary verifier evaluates every Jacobi sum directly at all auxiliary
+embeddings. The audit independently builds coefficient polynomials and
+re-evaluates them. Both obtain `Psi(alpha)=500235`.
 
 ### Resource law
 
-Pilot one container only, with a hard five-minute wall timeout, at most 8 GiB
-RAM, and a conservative charge below `$1`. Print peak RAM, CPU time, relation
-count, and certification stage before shutdown. Do not fan out. If the pilot
-cannot finish or cannot bound a complete run below the protocol limits,
-retain the checkpoint and convert this entry into an upstream contributor
-request.
+No container launch is authorized or needed. Both exact verifiers run in
+well under one second with negligible memory.
 
 Semantics:
 
-- `PASS`: unconditional `p_66` nonprincipality plus independent exact audit;
+- `PASS`: achieved - unconditional `p_66` nonprincipality plus independent
+  exact audit;
 - `FAIL`: an exact principal generator for `p_66`;
 - `INCOMPLETE`: timeout, GRH-only output, unresolved principality, or one
   implementation only; evidence with no DAG status change.

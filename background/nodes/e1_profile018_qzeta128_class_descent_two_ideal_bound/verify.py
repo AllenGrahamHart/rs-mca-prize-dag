@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the conditional class-descent implication and source arithmetic."""
+"""Verify the proved class-descent implication and source arithmetic."""
 
 from __future__ import annotations
 
@@ -80,17 +80,17 @@ def main() -> None:
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
     edges = {(edge["from"], edge["to"], edge["kind"]) for edge in dag["edges"]}
-    assert nodes[CERT]["status"] == "CONDITIONAL"
+    assert nodes[CERT]["status"] == "PROVED"
     assert nodes[DICTIONARY]["status"] == "PROVED"
-    assert nodes[NODE]["status"] == "CONDITIONAL"
-    assert nodes[CONSUMER]["status"] == "CONDITIONAL"
+    assert nodes[NODE]["status"] == "PROVED"
+    assert nodes[CONSUMER]["status"] == "PROVED"
     assert (CERT, NODE, "req") in edges
     assert (DICTIONARY, NODE, "req") in edges
     assert (NODE, CONSUMER, "req") in edges
 
     print(
         "E1_PROFILE018_QZETA128_CLASS_DESCENT_TWO_IDEAL_BOUND_PASS "
-        "conditional_on=class_orbit_certificate lower_classes=64 upper_fiber=2"
+        "class_orbit=proved lower_classes=64 upper_fiber=2"
     )
 
 

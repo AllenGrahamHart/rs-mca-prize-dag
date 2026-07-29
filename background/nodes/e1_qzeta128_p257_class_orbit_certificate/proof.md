@@ -1,4 +1,4 @@
-# Conditional proof
+# Proof
 
 Put
 
@@ -82,7 +82,8 @@ interchanged gives
 63 in H  iff  [q_1 q_65]=1.                          (6)
 ```
 
-The open premise says both products in `(5)--(6)` are nonprincipal, so
+The proved two-involution node says both products in `(5)--(6)` are
+nonprincipal, so
 neither 63 nor 65 lies in `H`. It also implies `x` is nontrivial. If 127 lay
 in `H`, then `(3)` would give `x=x^(-1)`, hence `x^2=1`; oddness of `h(K)`
 would force `x=1`, a contradiction. Thus none of the three involutions in
@@ -91,5 +92,4 @@ would force `x=1`, a contradiction. Thus none of the three involutions in
 Every nontrivial subgroup of the finite 2-group `G` contains an element of
 order two. Therefore `H` is trivial. The orbit of `x` consequently has
 `|G|=64` elements. Since `G` acts transitively on the 64 primes above 257,
-their ideal classes are pairwise distinct. QED conditional on the two
-nonprincipality tests.
+their ideal classes are pairwise distinct. QED.
