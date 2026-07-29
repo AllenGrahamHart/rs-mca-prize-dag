@@ -15,6 +15,8 @@ The profile-independent descent to `Q(zeta_128)` is now complete. Its sole
 open premise is the exact class-orbit certificate for the 64 primes above
 257. Bernstein's published S-unit coordinates predict 64 distinct classes;
 the required independent class-group replay is registered separately.
+Pricing the stronger bound gives 12 full profile orbits and next-profile cap
+1971, rather than the conservative five-ideal cap 329.
 
 The Hermite moment refinement removed `(9;1,2,0)` and `(11;7,1,0)`, and the
 cubic relation refinements removed `(10;6,1,0)`, `(11;11,0,0)`, and

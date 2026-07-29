@@ -9324,6 +9324,10 @@ published Galois multipliers:        -1,29301
 exact modular orbit size:            64
 conditional occupancy bound:         O_514<=2
 required payment bound:              O_514<=5
+profile-(0,18) orbit count:           at most 10+2=12
+profile-(0,18) oriented vectors:      at most 3072
+next profile/cap:                     (4,4,S=20) / 1971
+next full-orbit allowance:            7
 ```
 
 For fixed `P_r`, every occupied `Q_s` satisfies
@@ -9342,12 +9346,19 @@ five-ideal target are amber conditional on that leaf. Do not resume the
 10-profile search on the serial route; first obtain an unconditional primary
 class-group certificate and an independent exact replay.
 
+The stronger bound must be priced directly rather than routed through the
+older five-ideal threshold. The conditional payment leaves residual
+`515126704564295620156155116913120291239`; exact adjacent comparisons give
+`floor(2R/M_33(4,4))=1971`. Thus the next profile needs at most seven full
+256-vector orbits, not one.
+
 Burn-down:
 
 ```text
 result:                              NARROWED
 profile-specific live rows:          10 -> bypassed
 occupancy threshold under leaf:      5 -> 2
+next-profile cap under leaf:          329 -> 1971
 new exact assumptions:               one class-orbit certificate
 live compute request:                CR-E1-QZETA128-P257-CLASS-ORBIT
 next route-deciding action:          certify/replay the 64-prime class orbit

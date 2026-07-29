@@ -10238,9 +10238,10 @@ Certify that the 64 degree-one primes above 257 in
 `K=Q(zeta_128)=Q[x]/(x^64+1)` have pairwise distinct ideal classes. PASS
 proves `e1_qzeta128_p257_class_orbit_certificate`, which promotes the
 conditional class-descent theorem and sharpens profile-018 cofactor-514
-occupancy from five to two. FAIL supplies either a defect in the published
-class coordinates or two equal-class primes and returns the route to the
-profile-specific occupancy ledger.
+occupancy from five to two. The exact conditional payment then raises the
+next profile's oriented-vector cap from 329 to 1971. FAIL supplies either a
+defect in the published class coordinates or two equal-class primes and
+returns the route to the profile-specific occupancy ledger.
 
 The finite completeness router is the Galois identity
 

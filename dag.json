@@ -3541,6 +3541,24 @@
    "notes": "CONDITIONAL THEOREM 2026-07-29: all occupied upper primes share one class; relative ideal norm sends them to one lower class; class separation fixes one lower prime, which has exactly two upper extensions."
   },
   {
+   "id": "e1_profile018_two_ideal_exact_weighted_payment",
+   "title": "Profile-(0,18) two-ideal exact weighted payment",
+   "status": "CONDITIONAL",
+   "closure": "conditional exact weighted payment",
+   "refs": [
+    "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/statement.md",
+    "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/proof.md",
+    "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/claim_contract.md",
+    "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/dependency_subdag.md",
+    "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/audit.md",
+    "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/result.md",
+    "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/frontier.md",
+    "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/verify.py"
+   ],
+   "statement": "Assuming the Q(zeta_128) prime-257 class-orbit certificate, profile (0,18,S=18) has at most 3072 oriented vectors, leaves residual 515126704564295620156155116913120291239, and gives next-profile cap 1971.",
+   "notes": "STRONG CONDITIONAL PAYMENT 2026-07-29: class descent reduces the split occupancy from five to two, so the profile has 10+2 full orbits rather than 10+5. Both adjacent cap comparisons are exact."
+  },
+  {
    "id": "e1_profile018_galois_norm_occupancy_dictionary",
    "title": "E1 profile-(0,18) Galois/norm occupancy dictionary",
    "status": "PROVED",
@@ -40936,6 +40954,31 @@
    "from": "e1_profile018_qzeta128_class_descent_two_ideal_bound",
    "to": "e1_profile018_m514_five_ideal_occupancy",
    "kind": "req"
+  },
+  {
+   "from": "e1_profile018_split_prime_payment_router",
+   "to": "e1_profile018_two_ideal_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile018_galois_norm_occupancy_dictionary",
+   "to": "e1_profile018_two_ideal_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_low_square_mass_weighted_kernel_dictionary",
+   "to": "e1_profile018_two_ideal_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile018_qzeta128_class_descent_two_ideal_bound",
+   "to": "e1_profile018_two_ideal_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile018_two_ideal_exact_weighted_payment",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
   },
   {
    "from": "e1_profile018_split_prime_payment_router",
