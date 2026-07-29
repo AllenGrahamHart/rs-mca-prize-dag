@@ -5787,9 +5787,43 @@ nonclaims:
   no close for another degree, owner, carrier/data bridge, charge, u2,
   cap 68, endpoint, adjacent certificate, or KoalaBear row close
 next route-deciding action:
-  seek a forced secondary block system at m=10, then m=6; otherwise impose
-  the actual source-star incidence on the smallest surviving outer type
+  seek a forced secondary block system at m=6; otherwise impose the actual
+  source-star incidence on the smallest surviving outer type
 compute spend: tiny exact finite block and field arithmetic only
+```
+
+**2026-07-29, inner-degree-10 Scott-strip lower-degree route:** all four
+degree-10 transverse types route strictly to smaller decomposition rows.
+
+```text
+new node: rate_half_kb_m10_scott_strip_lower_degree_router [PROVED]
+terminal degree-10 catalogue:
+  A5, S5; five A6 almost-simple extensions; A10, S10
+  simple socles A5, A6, A10; subdegrees 1,3,6 or 1,9
+kernel-free audit:
+  only A5 and S5 can fit through the order-120 outer point stabilizer
+  N=1 then forces the global A6 or S6 action on 60 point/two-subset flags
+  exact subdegree rows contain 1,2,3,6,12 but no 4, contradiction
+nontrivial-kernel route:
+  [N,N] is subdirect in six simple socles
+  Scott supports have common size t in {1,2,3,6}
+  t=1 gives a 10-point orbit in another block, contradicting |Delta|=4
+  all socle automorphisms are realized on ten points and centralizers vanish
+  synchronized columns in each strip give inner degree t in {2,3,6}
+route consequence:
+  m=10 has no terminal producer; its four types route strictly downward
+  global independent transverse frontier: 22 -> 18 types
+  live independent decomposition degrees: 2,3,4,6
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  endpoints may still admit degree-10 decompositions; no close for another
+  degree, owner, carrier/data bridge, charge, u2, cap 68, endpoint,
+  adjacent certificate, or KoalaBear row close
+next route-deciding action:
+  classify the degree-6 block kernel and Scott supports; if no strict route
+  survives, impose the actual source-star incidence on its smallest type
+compute spend: exact 720-permutation flag audit under tiny RAMguard; no Modal
 ```
 
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter

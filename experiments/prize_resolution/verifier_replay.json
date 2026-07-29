@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/verify.py",
-      "seconds": 0.02259,
+      "script": "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/verify.py",
+      "seconds": 0.024624,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M12_SECONDARY_DEGREE5_DECOMPOSITION_EXCLUSION_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M10_SCOTT_STRIP_LOWER_DEGREE_ROUTER_PASS\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/verify_audit.py",
-      "seconds": 0.021717,
+      "script": "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/verify_audit.py",
+      "seconds": 0.03864,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M12_SECONDARY_DEGREE5_DECOMPOSITION_EXCLUSION_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M10_SCOTT_STRIP_LOWER_DEGREE_ROUTER_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

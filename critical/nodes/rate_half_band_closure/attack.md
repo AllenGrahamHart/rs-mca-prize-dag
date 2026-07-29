@@ -154,6 +154,18 @@ the deployed-field degree-five theorem already excludes. Thus all five
 frontier drops from 23 to 22 types, and the live degrees are
 `2,3,4,6,10`. No owner charge moves.
 
+The PROVED `rate_half_kb_m10_scott_strip_lower_degree_router` removes inner
+degree `10` as a terminal producer. The nine primitive degree-10 groups have
+simple socle `A5`, `A6`, or `A10`. A trivial block-kernel projection forces
+the exact `A6` or `S6` degree-60 point/two-subset flag action, whose complete
+subdegree list has no four. Otherwise Scott strips in the six original
+blocks have common size `1,2,3,6`; size one gives a forbidden ten-point
+orbit, while the other sizes preserve synchronized column blocks and force
+a second decomposition of inner degree `2`, `3`, or `6`. Thus all four
+`m=10` transverse types route strictly downward. The independent frontier
+drops from 22 to 18 types in live degrees `2,3,4,6`. Endpoints are not
+claimed to lack every degree-10 decomposition, and no owner charge moves.
+
 ## Banked range
 
 Put
