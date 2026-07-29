@@ -8099,6 +8099,15 @@ validation: AST-only for all four sources; DAG, harness, joint protocol,
             orbit census, and manifest passed; arithmetic remains unrun
 compute/resource delta: none; existing spend-blocked request unchanged
 DAG delta: one PROVED background node and three edges; no critical status flip
-next route-deciding action: export the generated-field theorem and packet
-                              semantics, then reconsider 21 role families
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1120
+  commit: dae288582936d6d96a77235e91199189af1d04f1
+  combined verifier:
+    0c11e7f6275f81986f0f0e5df294c1498e6e7d8ac7be09cd5f9b828f978dbde7
+  launcher/checker parity:
+    59bb96e395c4eac8ada98417bc7e68f59c905cb7dcfec9219aad71578097119b
+    d25dc17b956ace1f4faa97acc533fe99492089658eb5b103bcfc70711667a609
+  export state at pin: OPEN, DRAFT, MERGEABLE
+next route-deciding action: reconsider 21 role families against the exact
+                              degree-1/2/4/8 survivor interface
 ```
