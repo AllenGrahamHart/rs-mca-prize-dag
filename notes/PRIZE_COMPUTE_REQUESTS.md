@@ -10178,3 +10178,38 @@ The only unpromoted computation in this request is the energy-four
 certificate above. Reuse the modular engine rather than the slower Bareiss
 fleet. A useful independent replay is a direct degree-128 negacyclic
 resultant implementation.
+
+## E1 profile-(0,18) joint low-energy/root falsification probe
+
+**Status:** staged, blocked by the Modal workspace spend limit. **Do not
+launch until the limit is explicitly restored.**
+
+The active weighted route needs at most five occupied cofactor-514 ideals.
+The proved singleton-completion no-go shows that local multiplicity one and
+`F(s)=0 mod 257` alone admit all 128 ideals. The first useful experiment must
+therefore impose the all-singleton realization and live energy window
+simultaneously.
+
+Staged launcher:
+
+```text
+~/.venvs/modal/bin/modal run \
+  experiments/prize_resolution/e1_profile018_m514_low_energy_root_search_modal.py \
+  --shards 16 --seconds 55
+```
+
+Resource cap: 16 containers, one CPU and 256 MiB each, at most 55 search
+seconds per shard under a 70-second hard timeout. This is under 15 aggregate
+CPU-minutes and is intended to remain well below `$1`; verify current Modal
+pricing before launch. Every shard returns its best state even with no hit,
+and canonical hits are retained in the final JSON.
+
+Interpretation is deliberately narrow:
+
+- a hit proves that the joint realization/root/energy gate is nonempty;
+- no hit is heuristic evidence only and proves no emptiness statement;
+- neither outcome proves or refutes five-ideal occupancy;
+- exact resultant computation and grouping by `p=Norm/514` is a separate
+  second stage, authorized only after genuine canonical low-energy hits;
+- six equal exact official-prime quotients in distinct diagonal Galois orbits
+  would be a true falsifier.

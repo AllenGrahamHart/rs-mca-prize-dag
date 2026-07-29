@@ -19,3 +19,8 @@
 Any substantial computation belongs on Modal after budget authorization.
 It must stream partial results and retain exact witnesses within the recorded
 cost cap.
+
+The staged launcher is
+`experiments/prize_resolution/e1_profile018_m514_low_energy_root_search_modal.py`.
+It is not an occupancy verifier: a hit proves only that the first joint
+realization/root/energy gate is nonempty.
