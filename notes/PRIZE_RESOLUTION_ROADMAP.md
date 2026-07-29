@@ -6909,7 +6909,7 @@ proof endpoint: d in {-3/2,-3}; norms 9/4 and 9 contradict mu_8 on all
 additional endpoints: P_5 of degree 5 and R_12 of degree 12 for the two
                       exceptional 2+2+2 slopes; one degree-42 symbolic role
                       polynomial for the four-variable 3+2+1 core; one
-                      five-shape affine-color equation for generic 2+2+2
+                      seven-shape affine-color equation for generic 2+2+2
 replay digests:
   8d49e0b87da9b842d4b827b7feae6718e3c0e9628e9a94d33cfc8b49e901c66f
   c2b0faa609239f7ab10b3c4198abb584eb2fd20b10600c6bc2fa47d5a2f7e24b
@@ -7062,8 +7062,13 @@ affine invariants: P=e_2-e_1^2/3,
 safe equation: Res_lambda(Lambda_321,
                27(lambda^2-lambda+1)^3 Q^2
                +((lambda+1)(2lambda-1)(lambda-2))^2 P^3)=0
-characteristic-zero squarefree color shapes: 5
-shape gaps: (1,1,6), (1,2,5), (1,3,4), (2,2,4), (2,3,3)
+characteristic-zero squarefree color shapes: 7
+shape gaps: (1,1,6), (1,2,5), (1,5,2), (1,3,4), (1,4,3),
+            (2,2,4), (2,3,3)
+explicit invariant polynomial:
+  (T+50)(T^2-224T-578)(T^2-4T+54)(125T^2-2404T+13448)
+repair: an initial five-shape draft incorrectly merged the two scalene
+        reflection pairs; reflection conjugates their affine invariants
 generic branch after b elimination: four equations in (x,q,d)
 compute spend: none
 DAG delta: one PROVED background node and three edges; no critical status flip

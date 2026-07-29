@@ -45,16 +45,24 @@ of a group of order eight. This gives seven oriented cyclic gap classes:
 (2,3,3).
 ```
 
-Reversing orientation pairs the second and third classes and the fourth
-and fifth classes. The remaining five classes are exactly (TAC4). They are
-distinct affine-similarity types: under the complex embedding their three
-side lengths are the chord lengths indexed respectively by those gaps, and
-the five resulting unordered side-length ratios are distinct. Since
-`Q^2/P^3` is the complete depressed-cubic invariant of an unordered
-three-point affine configuration, the primitive squarefree color form has
-exactly five characteristic-zero factors. The full product is Galois
-invariant, so its primitive model has rational, hence after clearing content
-integer, coefficients.
+Reflection does not identify the two scalene pairs for a complex affine map:
+it conjugates their depressed-cubic invariant. Direct substitution in (1)
+gives the seven values
+
+```text
+gap type                 T=-27Q^2/P^3
+(1,1,6)                  112-81 sqrt(2)
+(2,3,3)                  112+81 sqrt(2)
+(2,2,4)                  -50
+(1,2,5), (1,5,2)         2 +/- 5 sqrt(-2)
+(1,3,4), (1,4,3)         (1202 +/- 486 sqrt(-1))/125.   (4)
+```
+
+These values are pairwise distinct. Their rational minimal factors are
+exactly the four factors in (TAC5), proving that the primitive squarefree
+color form has degree seven and proving (TAC5)--(TAC6). The full product is
+Galois invariant, so its primitive model has rational, hence after clearing
+content integer, coefficients.
 
 Finally, since `R` is monic, the root formula gives
 
@@ -63,7 +71,7 @@ Res_T(R(T),Z-f(T))=product_i (Z-f(u_i)).             (3)
 ```
 
 Its printed coefficients are therefore the elementary symmetric functions
-of the three translated values. Formula (TAC6) centers those values, so
+of the three translated values. Formula (TAC8) centers those values, so
 (TAC3) is expressible through `s_1,s_2,s_3,U,V` only. The triangular
 identities (TSC2) and the scaling (TLR1) give the claimed equation in the
 existing core variables. Off (TLR9), (TLR5) has nonzero `b` coefficient;
