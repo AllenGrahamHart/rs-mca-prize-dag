@@ -189,7 +189,7 @@ def main() -> None:
     )
     if nodes[NODE]["status"] != "PROVED":
         raise RuntimeError("router status drift")
-    if nodes[OCCUPANCY]["status"] != "TARGET" or nodes[TARGET]["status"] != "TARGET":
+    if nodes[OCCUPANCY]["status"] != "CONDITIONAL" or nodes[TARGET]["status"] != "TARGET":
         raise RuntimeError("target status drift")
     for supplier in suppliers:
         if nodes[supplier]["status"] != "PROVED":

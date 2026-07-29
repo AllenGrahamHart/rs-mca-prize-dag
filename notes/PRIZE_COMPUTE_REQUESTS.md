@@ -10181,10 +10181,18 @@ resultant implementation.
 
 ## E1 profile-(0,18) joint low-energy/root falsification probe
 
-**Status:** staged, blocked by the Modal workspace spend limit. **Do not
-launch until the limit is explicitly restored.**
+**Status:** superseded by class descent. **Do not launch on the serial
+route.**
 
 The active weighted route needs at most five occupied cofactor-514 ideals.
+The conditional class-descent theorem now gives at most two from one exact
+`Q(zeta_128)` class-orbit certificate, without enumerating collision
+profiles. The route-deciding compute is therefore
+`CR-E1-QZETA128-P257-CLASS-ORBIT` below.
+
+Historical rationale follows. It remains useful only as an adversarial audit
+if compute is donated after the class certificate is replayed.
+
 The proved singleton-completion no-go shows that local multiplicity one and
 `F(s)=0 mod 257` alone admit all 128 ideals. The first useful experiment must
 therefore impose the all-singleton realization and live energy window
@@ -10217,3 +10225,96 @@ Interpretation is deliberately narrow:
   second stage, authorized only after genuine canonical low-energy hits;
 - six equal exact official-prime quotients in distinct diagonal Galois orbits
   would be a true falsifier.
+
+## CR-E1-QZETA128-P257-CLASS-ORBIT: exact class-descent certificate
+
+**Status:** ROUTE-DECIDING PRE-REQUEST; NO LAUNCH AUTHORIZED. The Modal
+workspace remains over its spend limit, and the cost of unconditional
+certification has not been piloted.
+
+### Mathematical decision and interface
+
+Certify that the 64 degree-one primes above 257 in
+`K=Q(zeta_128)=Q[x]/(x^64+1)` have pairwise distinct ideal classes. PASS
+proves `e1_qzeta128_p257_class_orbit_certificate`, which promotes the
+conditional class-descent theorem and sharpens profile-018 cofactor-514
+occupancy from five to two. FAIL supplies either a defect in the published
+class coordinates or two equal-class primes and returns the route to the
+profile-specific occupancy ledger.
+
+The finite completeness router is the Galois identity
+
+```text
+(Z/128Z)^x = { +/-3^j : 0<=j<32 }.
+```
+
+Thus one base-prime coordinate and the actions of `sigma_-1,sigma_3` cover
+all 64 primes. Published expected output is
+
+```text
+Cl(K) = Z/359057,
+[q_1] = 1,
+sigma_-1(e) = -e,
+sigma_3(e) = 29301e,
+#{+/-29301^j mod 359057}=64.
+```
+
+The source and exact hashes are pinned at
+`background/nodes/e1_qzeta128_p257_class_orbit_certificate/source_evidence.md`.
+
+### Required primary packet
+
+Use Sage/Pari, Hecke, or Magma with proof/unconditional certification enabled:
+
+1. construct `K` and its full ring of integers;
+2. certify the class-group invariant factors;
+3. factor 257 and identify a transcript-pinned base prime;
+4. compute its class coordinate and the two Galois action multipliers;
+5. emit all 64 coordinates, exact relation/certification data, software
+   versions, commands, and immutable hashes.
+
+The direct PARI/GP primary is:
+
+```text
+B = bnfinit(x^64+1,1);
+bnfcertify(B) == 1;
+P = idealprimedec(B,257);
+C = apply(Q -> bnfisprincipal(B,Q,0),P);
+```
+
+The packet must check `#P=64`, the invariant factors `B.cyc`, and pairwise
+distinct entries of `C`. The default `bnfcertify(B)` is required;
+`bnfcertify(B,1)` only certifies that the computed class group is a quotient
+and is not sufficient. Pin the PARI version and the official function
+contracts for `bnfcertify` and `bnfisprincipal` in the transcript:
+
+```text
+https://pari.math.u-bordeaux.fr/dochtml/html-stable/General_number_fields.html
+```
+
+The run must checkpoint before the final certification stage and retain the
+uncertified relation matrix or class coordinates on timeout. A class group
+computed under GRH is `INCOMPLETE`, not PASS.
+
+### Independent audit
+
+Replay in a different CAS/algorithm. Prefer an exported exact relation matrix
+with principal-ideal witnesses and an independently checked Smith form, so
+the audit does not call the primary class-group routine. Check every claimed
+ideal relation and all 64 prime coordinates exactly. Host-side tiny checks may
+verify only the modular orbit after the proof-producing packet exists.
+
+### Resource law
+
+Pilot one container only, with a hard five-minute wall timeout, at most 8 GiB
+RAM, and a conservative charge below `$1`. Print peak RAM, CPU time, relation
+count, and certification stage before shutdown. Do not fan out. If the pilot
+cannot finish or cannot bound a complete run below the protocol limits, retain
+the checkpoint and convert this entry into an upstream contributor request.
+
+Semantics:
+
+- `PASS`: unconditional primary certificate plus independent exact audit;
+- `FAIL`: a replayable contradictory class relation or equal-class prime pair;
+- `INCOMPLETE`: timeout, GRH-only output, missing action coordinate, or one
+  implementation only; evidence with no DAG status change.

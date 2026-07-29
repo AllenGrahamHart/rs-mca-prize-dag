@@ -9308,3 +9308,47 @@ live cofactor-514 magnitude rows:     11 -> 10
 The recurrence is an analytic upper bound on symmetric zero-sum triples in
 `Z/2^k Z`; its verifier evaluates only a tiny dynamic table. The same cap
 does not close energy ten, so the next step must add a different constraint.
+
+**2026-07-29, profile-independent class-descent decomposition:** the fixed
+row-prime ideal factorization bypasses every surviving energy profile.
+
+```text
+upper field L:                       Q(zeta_256)
+lower field K:                       Q(zeta_128)
+[L:K]:                               2
+upper primes above 257:              128
+lower primes above 257:              64
+extensions per lower prime:          2
+published lower class index:         Z/359057
+published Galois multipliers:        -1,29301
+exact modular orbit size:            64
+conditional occupancy bound:         O_514<=2
+required payment bound:              O_514<=5
+```
+
+For fixed `P_r`, every occupied `Q_s` satisfies
+`(alpha)=P_r(1-zeta_256)Q_s`, so all occupied upper primes have one ideal
+class. Relative ideal norm sends them to one class in `K`. If the 64 lower
+primes above 257 have pairwise distinct classes, only one lower prime occurs,
+and it has exactly two upper extensions.
+
+Bernstein's pinned S-unit talk prints the exact class index, assigns the base
+prime class one, and gives the two Galois multipliers. Exact integer
+arithmetic confirms that `{+/-29301^j:0<=j<32}` contains 64 classes. The
+released software does not expose the load-bearing n=64 class computation,
+so repository discipline leaves one red certificate:
+`e1_qzeta128_p257_class_orbit_certificate`. The descent theorem and the
+five-ideal target are amber conditional on that leaf. Do not resume the
+10-profile search on the serial route; first obtain an unconditional primary
+class-group certificate and an independent exact replay.
+
+Burn-down:
+
+```text
+result:                              NARROWED
+profile-specific live rows:          10 -> bypassed
+occupancy threshold under leaf:      5 -> 2
+new exact assumptions:               one class-orbit certificate
+live compute request:                CR-E1-QZETA128-P257-CLASS-ORBIT
+next route-deciding action:          certify/replay the 64-prime class orbit
+```

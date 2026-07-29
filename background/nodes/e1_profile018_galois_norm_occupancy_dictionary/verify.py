@@ -60,7 +60,7 @@ def main() -> None:
     edges = {(edge["from"], edge["to"], edge["kind"]) for edge in dag["edges"]}
     if nodes[NODE]["status"] != "PROVED":
         raise RuntimeError("dictionary status drift")
-    if nodes[OCCUPANCY]["status"] != "TARGET" or nodes[TARGET]["status"] != "TARGET":
+    if nodes[OCCUPANCY]["status"] != "CONDITIONAL" or nodes[TARGET]["status"] != "TARGET":
         raise RuntimeError("target status drift")
     for supplier in (ROUTER, IDEALS):
         if nodes[supplier]["status"] != "PROVED":

@@ -100,7 +100,12 @@ def main() -> None:
         assert nodes[parent]["status"] == "PROVED"
         assert (parent, NODE, "req") in edges
     for target in TARGETS:
-        assert nodes[target]["status"] == "TARGET"
+        expected = (
+            "CONDITIONAL"
+            if target == "e1_profile018_m514_five_ideal_occupancy"
+            else "TARGET"
+        )
+        assert nodes[target]["status"] == expected
         assert (NODE, target, "ev") in edges
 
     print(
