@@ -19788,6 +19788,23 @@
    "notes": "Exact p-free necessary router for collision-free cubic colors. No distance packet is declared empty and all assignment, norm, cyclotomic, and inner filters remain open."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router",
+   "title": "L1 Mersenne HNF m=8 order-one cubic four/five-color value router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For four- or five-color cubic packets, let M be the squarefree missing-color product and D the excess-multiplicity product. The exact identity Res_W(L,X-E)M=(X^8-1)D yields 35 cyclic packets for 2+1+1+1+1, 35 for 3+1+1+1, and 54 for 2+2+1+1, for 124 p-free systems total.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router/verify.py"
+   ],
+   "notes": "Exact p-free necessary router for all four/five-color cubic profiles. None of the 124 systems is declared empty and assignment, norm, cyclotomic, and inner filters remain open."
+  },
+  {
    "id": "dli_wcl_ell4_weight11_quintic_divisor_descent",
    "title": "WCL (4,11) quintic-divisor descent",
    "status": "PROVED",
@@ -36368,6 +36385,21 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_color_degree_barrier",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

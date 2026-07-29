@@ -7667,6 +7667,23 @@ the outer stage into exactly two low-dimensional tasks.
   norm equation; preserve partial generators and dimensions after each
   60-second shard. Do not launch on the current spend-blocked account.
 
+  **Contributor request CR-L1-H7-C3-45COL:** consume
+  `l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router`. Build
+  the generic value resultant once, then enumerate canonical cyclic orbits
+  of `(M,D)` for the three profiles with counts `35`, `35`, and `54`. Impose
+
+  ```text
+  V_E(X)M(X)=(X^8-1)D(X)
+  ```
+
+  coefficientwise with the h=7 conic. Process the 35-packet profiles first
+  and checkpoint every ideal; process the 54-packet two-double profile only
+  after confirming the half-turn orbit normalization. Saturate by
+  `gcd(M,D)=1`, squarefreeness of `M`, `lc(E)*disc(L)`, and exact fiber
+  subresultants. Use 60-second shards, preserve partial generators, and do
+  not add row/norm equations until a p-free component survives. Do not
+  launch on the current spend-blocked account.
+
   Before the large torsion or remainder equations, shard by `zeta in mu_m`
   and substitute
 

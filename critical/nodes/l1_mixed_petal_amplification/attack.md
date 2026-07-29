@@ -789,6 +789,13 @@
   `Res_W(L,X-E)M_delta=X^8-1`. Retain the squarefree value-resultant
   saturation; this identity is invalid on every repeated-color profile.
 
+- Complete the cubic multiplicity router with
+  `l1_mersenne_hnf_m8_order_one_cubic_four_five_color_value_router`. For
+  four or five colors use `V_E M=(X^8-1)D`, where `M` is the missing-color
+  product and `D` is the excess-multiplicity product. Work with the exact
+  orbit counts `35,35,54`; preserve coprimality of `M,D` and exact fiber
+  subresultants.
+
 - More generally consume
   `l1_mersenne_hnf_order_one_color_degree_barrier`. The pointwise degree-`d`
   color equations define curves of degrees `d` and `d+1`, so `H<=d(d+1)`.
