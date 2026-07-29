@@ -1,4 +1,4 @@
-# proof: e1 N'=256 density bound (Pro W3, verified)
+# Retired proof attempt: E1 N'=256 density bound
 
 The WEAKENED density target (o(1)-sparsity, not zero-survivor) is delivered by a
 bad-prime union bound over the norm divisors.

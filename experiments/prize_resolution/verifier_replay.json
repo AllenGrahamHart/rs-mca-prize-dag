@@ -8,11 +8,11 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_prize_n256_s18_profile_exclusion/verify.py",
-      "seconds": 0.08536,
+      "script": "background/nodes/e1_conductor256_character_diagonal_exponent_router/verify.py",
+      "seconds": 0.018805,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_PRIZE_N256_S18_PROFILE_EXCLUSION_PASS eligible=271 residual=270 next=(3,6,18) cap=93962 checks=40\n"
+      "stdout_tail": "E1_CONDUCTOR256_CHARACTER_DIAGONAL_EXPONENT_ROUTER_PASS checks=6\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

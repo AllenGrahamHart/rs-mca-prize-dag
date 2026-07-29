@@ -1,4 +1,4 @@
-# proof: e1_folded_no_vector_certificate_128_payload (Modal fpylll, named field)
+# Retired proof attempt: E1 folded no-vector certificate N'=128
 
 Over the named field p = 562949953421383*2^200 + 1 (250-bit, Pocklington-prime,
 p = 1 mod 256), zeta = primitive 128th root, the folded kernel lattice

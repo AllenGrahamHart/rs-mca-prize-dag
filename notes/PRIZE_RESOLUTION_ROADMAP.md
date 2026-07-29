@@ -8610,6 +8610,36 @@ next route-deciding action: derive certified exponent bounds and combine
                               proposing any lattice enumeration
 ```
 
+**2026-07-29, E1 character-diagonal exponent router:** the requested
+preflight is now theorem-level and requires no numerical search.
+
+```text
+node proved: e1_conductor256_character_diagonal_exponent_router
+group coordinate:
+  G=(Z/256Z)^x/{+-1}=<5>, |G|=64
+  extend the 63 basis exponents to one zero-sum integer vector xi on G
+exact log map:
+  lambda_s=sum_t xi_t f_(s+t)
+  Fourier(lambda)_j=kappa_j Fourier(xi)_(-j)
+  f_t=2log|sin(pi*5^t/256)|
+nonvanishing:
+  every kappa_j, 1<=j<=63, is nonzero because the complete unit-log basis
+  has rank 63; floating-point separation is not a premise
+fixed-cofactor consequence:
+  the AM-GM radius R gives explicit Fourier, L2, coordinate, and weighted
+  ellipsoid bounds on the unique integer exponent vector
+complete successor filter:
+  certified outward kappa intervals + exact u/u^(-1) coefficient boxes +
+  exact sparse multiplication in Z[X]/(X^128+1)
+scope fence:
+  no exponent enumeration, 367-orbit payment, lower-profile payment, E1
+  image bound, row close, or Prize status movement
+compute spend: none
+next route-deciding action: obtain a certified eigenvalue interval table and
+                              count projection; authorize enumeration only
+                              if the exact sparse branch-and-bound is cheap
+```
+
 **2026-07-29, L1 balanced-pencil anchor determinant atlas:** the global
 primitive exact shell now has an exact list-side bridge to the BC
 split-pencil hierarchy.

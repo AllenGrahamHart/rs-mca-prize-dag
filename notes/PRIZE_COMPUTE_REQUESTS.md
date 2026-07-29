@@ -10042,3 +10042,34 @@ verifiers and build a product/modular contraction. A generic census over all
 588318 low-cofactor support orbits and broad energy windows is out of scope;
 record it only as an external contributor request if no analytic contraction
 is found.
+
+#### CR-E1-PROFILE-36-CHARACTER-ELLIPSOID: certified sparse-associate preflight
+
+**Status:** PROOF REDUCTION COMPLETE; NO ENUMERATION AUTHORIZED.
+
+The proved `e1_conductor256_character_diagonal_exponent_router` replaces an
+unbounded rank-63 unit search by one finite character-diagonal exponent
+region for each fixed cofactor. A first implementation must do only the
+following:
+
+```text
+1. certify outward intervals for all 63 nontrivial Fourier eigenvalues;
+2. derive the exact conservative integer coordinate box and weighted
+   ellipsoid for each live (p,mu) row;
+3. implement exact circular-unit multiplication and inversion in
+   Z[X]/(X^128+1);
+4. apply the cofactor boxes 1006,503,251,125 before the anchor product;
+5. retain only exact profile-(3,6,S=18) products;
+6. print a branch-and-bound node count, peak-RAM estimate, and dollar ceiling.
+```
+
+A floating-point FFT may guide subdivision but cannot accept or reject a
+vector. Every boundary comparison uses directed intervals, and every
+retained vector is replayed by exact ring arithmetic. The first pilot must
+stop after the interval table and count projection; it may not enumerate the
+full box. If the projection is not conservatively under five minutes and
+`$1`, package the exact interval table, subdivision order, atomic checkpoint
+format, and independent checker as an external contributor request. PASS of
+the eventual enumeration requires a complete torsion-orbit count across
+`mu=1,2,3,4` and comparison with `367`; it still does not pay lower-weight
+profiles. No Modal credit is allocated by this entry.

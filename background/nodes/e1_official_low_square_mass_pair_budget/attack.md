@@ -48,8 +48,9 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
 7. Falsify with a pinned row and enough exact weighted edges to exceed the
    table, not a single collision vector.
 8. On the residual `(3,6,S=18)` profile, consume
-   `e1_pure_cofactor_common_prime_associate_router` before any further norm
-   classification. Fix one row root and one normalized prime generator `g`;
+   `e1_pure_cofactor_common_prime_associate_router` and then
+   `e1_conductor256_character_diagonal_exponent_router` before any further
+   norm classification. Fix one row root and one normalized prime generator `g`;
    every residual vector is `pi^mu u g`, with `mu in {1,2,3,4}` and `u` an
    algebraic unit of `Z[zeta_256]`. In each fixed-cofactor branch, consume the exact
    coefficient boxes for both `u` and `u^(-1)` and retain the negacyclic
@@ -59,8 +60,10 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
    quotient roots without the Galois transport. The alternative exact count
    is in the full rank-63 unit log lattice inside the router's AM-GM body;
    any regulator or packing argument must apply to that full lattice. The
-   exact profile target is at most 367 points modulo `mu_256`; retain all
-   lower-profile charges after paying it.
+   The character router gives the complete finite exponent ellipsoid; first
+   certify its 63 eigenvalue intervals and price exact sparse
+   branch-and-bound. The exact profile target is at most 367 points modulo
+   `mu_256`; retain all lower-profile charges after paying it.
 
 No broad local or Modal census is authorized. Large exact relation searches
 must be recorded as external compute requests with partial-result output.
