@@ -7546,3 +7546,22 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: obtain a proof-producing factorization of U and
                               the gcd content of (R_1,R_0)
 ```
+
+**2026-07-29, L1 h=7 fully-proportional quotient compute packet:** the next
+route decision is source-complete but deliberately unrun.
+
+```text
+request: CR-L1-H7-C3-321-FPQ-QUOTIENT
+launcher: experiments/prize_resolution/l1_m8_h7_cubic_321_fully_proportional_q_quotient_modal.py
+checker: experiments/prize_resolution/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
+work: factor degree-at-most-58 U over four official fields; certify
+      gcd(R_1,R_0), the a_2=0 chart, and all degree-1/2 eligible factors
+limits: one CPU, 512 MB, 60 seconds per prime, at most four containers,
+        no retries, atomic partial output
+estimated cost: below $0.01
+status: source-complete, syntax-only validation, unrun
+launch gate: Modal workspace spend-blocked; explicit spend-access change
+             required before launch
+closure fence: returned factors are candidates until every structural, role,
+               P_4, saturation, and arithmetic-lift equation is replayed
+```

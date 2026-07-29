@@ -7884,6 +7884,45 @@ the outer stage into exactly two low-dimensional tasks.
   run exists because the current Modal workspace is spend-blocked. Do not
   launch until spend access changes explicitly.
 
+  **Pre-request CR-L1-H7-C3-321-FPQ-QUOTIENT:** the final fully proportional
+  generic coefficient pair is now a quadratic in `q` plus a compatibility
+  polynomial of `q`-degree at most six. Consume
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router`.
+  Its exact recurrence leaves `R_1(b)q+R_0(b)` modulo `F_b`; off the two
+  printed singular charts it reconstructs `q` and leaves
+
+  ```text
+  U(b)=a_2R_0^2-a_1R_0R_1+a_0R_1^2,
+  deg U<=58.
+  ```
+
+  The source-complete packet is
+
+  ```text
+  experiments/prize_resolution/l1_m8_h7_cubic_321_fully_proportional_q_quotient_modal.py
+  sha256 3d188f70b21bc60990fceda4478e5d9b2d316e50a9c0c154bf39803224bd8cb6
+
+  experiments/prize_resolution/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
+  sha256 02900581a1574e7edcca6424a1fc816e957b9b182b18ae2c197aeebba6469f4f
+  ```
+
+  It runs one independent one-CPU, 512 MB, 60-second task per official prime,
+  with at most four containers and no retries. The driver atomically rewrites
+  the output after every returned prime, so a timeout or task failure leaves
+  a checkable partial certificate. Each row must provide a complete
+  factorization of `U`, extended-Euclidean certificates for
+  `gcd(R_1,R_0)` and for the fixed `a_2=0` chart, and the complete list of
+  degree-one/two factors eligible for `b` in the ambient quadratic field.
+  The checker independently reconstructs all source polynomials, verifies
+  factor multiplication and both Bezout identities, and accepts partial
+  packets unless `--require-complete` is requested.
+
+  The four small degree-58 factorizations should cost below `$0.01`. This
+  request gives route data, not a chamber closure: every eligible factor must
+  still be substituted into the reconstructed structural, role, `P_4`, and
+  arithmetic-lift equations. No launch is authorized while the Modal
+  workspace is spend-blocked; wait for an explicit spend-access change.
+
   The requested decision is whether every branch in one complete
   representation is unit on `a*B*Q(y)!=0` and the inherited HNF/fiber
   saturations: all four rational systems, all twelve rational Galois systems,
