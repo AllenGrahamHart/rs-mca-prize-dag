@@ -19481,6 +19481,25 @@
    "notes": "Exact coefficient router only. The bivariate compatibility equations, doubly exceptional chart, role-discriminant weld, P_4, and arithmetic-lift obligations remain open."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional coefficient bivariate compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The fully proportional coefficient router clears to explicit bivariate polynomials; generically its compatibility polynomial has total degree at most 12 and q-degree at most 6, while every exceptional denominator chart remains explicit.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler/verify.py"
+   ],
+   "notes": "Exact denominator-free compiler only. The generic and exceptional bivariate ideals, substituted structural equations, role-discriminant weld, P_4, and arithmetic-lift obligations remain open."
+  },
+  {
    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler",
    "title": "L1 Mersenne HNF m=8 order-one cubic three-double affine-color compiler",
    "status": "PROVED",
@@ -37000,6 +37019,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

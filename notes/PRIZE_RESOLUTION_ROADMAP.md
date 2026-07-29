@@ -7481,3 +7481,29 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: simplify the generic bivariate compatibility
                               and the E_G=0 exceptional endpoint by hand
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` coefficient bivariate compiler:** the
+rational router now has compact denominator-free endpoints.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler
+cleared polynomials:
+  F_*=D_*K_*-30bQ_*
+  J_*=150bQ_*-3D_*^2-5PD_*
+  Theta_*=5E_GD_*^2L_*-6J_*F_*
+exact generic endpoint:
+  F_b(b^2,q)=Theta_*(b,q)=0, E_G!=0
+  G_2=-F_*/(600bE_G)
+exceptional endpoint:
+  F_b=E_G=X_*=0, X_*=Q_*-24D_*q^2
+  J_*!=0 reconstructs G_2=-D_*^2L_*/(720bJ_*)
+final coefficient residue:
+  F_b=E_G=X_*=J_*=L_*=0 with G_2 retained
+degree ledger:
+  deg(Theta_*)<=12, deg_q(Theta_*)<=6, deg_q(F_b)=2
+scope fence: the structural, role, P_4, and arithmetic-lift equations remain
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: factor or eliminate the small pair
+                              (F_b,Theta_*) with proof-producing evidence
+```
