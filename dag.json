@@ -3433,6 +3433,24 @@
    "notes": "EXACT PROFILE-(1,14) PAYMENT 2026-07-29: the complete cofactor-1028 energy partition is empty, while all 128 possible cofactor-514 ideals are conservatively charged. The weighted frontier advances unconditionally to (0,18,S=18). No E1 close or Prize movement."
   },
   {
+   "id": "e1_s18_m514_sharp_product_ceiling",
+   "title": "E1 square-mass-18 cofactor-514 sharp product ceiling",
+   "status": "PROVED",
+   "closure": "sharp two-moment product extremum and exact rational certificate",
+   "refs": [
+    "background/nodes/e1_s18_m514_sharp_product_ceiling/statement.md",
+    "background/nodes/e1_s18_m514_sharp_product_ceiling/proof.md",
+    "background/nodes/e1_s18_m514_sharp_product_ceiling/claim_contract.md",
+    "background/nodes/e1_s18_m514_sharp_product_ceiling/dependency_subdag.md",
+    "background/nodes/e1_s18_m514_sharp_product_ceiling/audit.md",
+    "background/nodes/e1_s18_m514_sharp_product_ceiling/result.md",
+    "background/nodes/e1_s18_m514_sharp_product_ceiling/frontier.md",
+    "background/nodes/e1_s18_m514_sharp_product_ceiling/verify.py"
+   ],
+   "statement": "Every conductor-256 square-mass-18 cofactor-514 prize collision has autocorrelation energy at most 17. At E=18, all 57 feasible two-level product chambers lie below 514 times the prize field floor, and chamberwise monotonicity excludes every larger energy.",
+   "notes": "UNIVERSAL PRODUCT CEILING 2026-07-29: repairs the previously implicit E<=17 premise in the profile-(2,10) outer-energy leaf. The closest exact comparison is the 63-lower-entry chamber; the adjacent E=17 envelope remains above threshold. Profile-independent and reusable at (0,18)."
+  },
+  {
    "id": "e1_n512_four_singleton_collision_exclusion",
    "title": "N=512 four-singleton E1 collision exclusion",
    "status": "PROVED",
@@ -40434,7 +40452,7 @@
    "kind": "req"
   },
   {
-   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "from": "e1_s18_m514_sharp_product_ceiling",
    "to": "e1_profile210_m514_outer_energy_log_exclusion",
    "kind": "req"
   },
@@ -40575,6 +40593,21 @@
   },
   {
    "from": "e1_profile114_exact_weighted_payment",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_s18_m514_sharp_product_ceiling",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_s18_m514_sharp_product_ceiling",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m514_sharp_product_ceiling",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   }

@@ -75,7 +75,7 @@ def main() -> None:
     edges = {(edge["from"], edge["to"], edge["kind"]) for edge in dag["edges"]}
     suppliers = (
         "e1_profile210_split_prime_ideal_router",
-        "e1_prize_n256_s18_variance_cofactor_windows",
+        "e1_s18_m514_sharp_product_ceiling",
     )
     if nodes[NODE]["status"] != "PROVED" or nodes[TARGET]["status"] != "TARGET":
         raise RuntimeError("DAG status drift")

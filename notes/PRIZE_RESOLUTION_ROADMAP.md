@@ -9117,3 +9117,21 @@ argument is hidden in this payment. The serial frontier is now `(0,18)`. Its
 inherited ten pure families account for 2,560 vectors; because a complete
 shift/sign orbit has 256 vectors, at most five of the 128 cofactor-514 ideal
 families may survive if this profile is to fit below cap 3,994.
+
+**2026-07-29, universal cofactor-514 product ceiling:** dependency audit of
+the new frontier found that the older outer-energy leaf cited `E<=17` without
+wiring a theorem that actually stated it. The missing result is now proved
+profile-independently.
+
+```text
+fixed boundary energy:               E=18, V=36
+feasible two-level chambers:         57
+closest chamber:                     j=63 lower entries
+exact verdict:                       max product < 514*p_min
+monotonic extension:                 every E>=18 excluded
+adjacent guard:                      E=17 envelope remains above threshold
+```
+
+The old profile-(2,10) outer leaf now consumes this theorem instead of the
+profile-(4,2) variance-window node. This both repairs its provenance and
+licenses transport of the surviving `E=5,...,13` route to `(0,18)`.
