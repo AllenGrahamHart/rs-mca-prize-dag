@@ -6916,9 +6916,9 @@ local source commits: 3380ea30, 1c2bfd55, 8d847b9e, e10d4683, 59497c96,
                       1d9206b9, 98e8685c, 3d5f6274, bdd33eb0, 0cae55cb,
                       6be9ee69, 325c4cd6, 1db48367, e1b1a195, 021caa0a,
                       fd65c11f, 8e256f5e, 8f4bf3d0, eff918d0, f8e9854b,
-                      49d1b7af, 806fa2b8, 81d1e850, cc5169fd
+                      49d1b7af, 806fa2b8, 81d1e850, cc5169fd, 46c7f677
 upstream base: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
-PR head: c0883d7506ec79590e977b6a113c96b45e4ccfd3
+PR head: 13254405b05c2abb8ed656a57d7df11c7fe30d45
 PR state at custody refresh: OPEN, DRAFT, MERGEABLE
 upstream files:
   experimental/notes/l1/l1_m8_h7_order_one_cubic_33_exclusion.md
@@ -6973,7 +6973,7 @@ additional endpoints: P_5 of degree 5 and R_12 of degree 12 for the two
                       three-variable packets for generic 2+2+2
 replay digests:
   8d49e0b87da9b842d4b827b7feae6718e3c0e9628e9a94d33cfc8b49e901c66f
-  a2daa235ea78400a65737aa0b32166390dab0c5d2b85d679d8cd155d5b196474
+  b81b96313de8fff28e90abf3f3739758ceb26642c4373688eb9807a93acde887
 compute-request digest:
   d3b4aacf170e13fecdf36718f8566bd597beacf4965aa1584077dbe61db9f695
 compute-certificate checker digest:
