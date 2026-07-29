@@ -9290,3 +9290,21 @@ The proof counts `EEE` and `EOO` relation types separately for all six odd
 values of `o`; no lag-set enumeration or coefficient realization enters. The
 former `{1,...,11,15}` route-cut witness is still a valid warning about the
 pre-norm screens, but its whole magnitude profile is now analytically dead.
+
+**2026-07-29, all-unit energy-eleven close:** recursively pricing the even
+part of the relation support through the `2`-power filtration sharpens the
+one-step parity count.
+
+```text
+profile:                              (E;n1,n2,n3)=(11;11,0,0)
+top odd-lag cases:                    o in {1,3,5,7,9,11}
+dyadic recursive relation cap:        M3<=384
+cubic Hermite contacts:               17,37
+certified verdict:                    Norm<514*p_min
+live energies:                        5,...,10
+live cofactor-514 magnitude rows:     11 -> 10
+```
+
+The recurrence is an analytic upper bound on symmetric zero-sum triples in
+`Z/2^k Z`; its verifier evaluates only a tiny dynamic table. The same cap
+does not close energy ten, so the next step must add a different constraint.

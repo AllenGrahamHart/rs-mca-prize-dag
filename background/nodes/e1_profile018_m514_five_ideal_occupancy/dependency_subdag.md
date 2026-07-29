@@ -13,6 +13,8 @@ e1_s18_m514_e10_profile61_cubic_exclusion [PROVED]
     --ev--> e1_profile018_m514_five_ideal_occupancy [TARGET]
 e1_s18_m514_e12_all_unit_parity_cubic_exclusion [PROVED]
     --ev--> e1_profile018_m514_five_ideal_occupancy [TARGET]
+e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion [PROVED]
+    --ev--> e1_profile018_m514_five_ideal_occupancy [TARGET]
 e1_profile018_e12_root_parity_screen_no_go [PROVED]
     --ev--> e1_profile018_m514_five_ideal_occupancy [TARGET]
 

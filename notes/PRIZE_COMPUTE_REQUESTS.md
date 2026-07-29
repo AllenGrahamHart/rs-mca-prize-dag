@@ -10188,8 +10188,8 @@ The active weighted route needs at most five occupied cofactor-514 ideals.
 The proved singleton-completion no-go shows that local multiplicity one and
 `F(s)=0 mod 257` alone admit all 128 ideals. The first useful experiment must
 therefore impose the all-singleton realization and live energy window
-`E=5,...,11` simultaneously. The all-unit energy-twelve profile is excluded
-analytically and must not be retained.
+`E=5,...,10` simultaneously. The all-unit energy-eleven and energy-twelve
+profiles are excluded analytically and must not be retained.
 
 Staged launcher:
 
