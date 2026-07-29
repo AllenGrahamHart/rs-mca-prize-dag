@@ -5648,6 +5648,40 @@ next route-deciding action:
 compute spend: 120-permutation exact local replay under tiny RAMguard; no Modal
 ```
 
+**2026-07-29, inner-degree-12 outer normal forms:** the six live geometric
+outer families now have explicit polynomial representatives, eliminating
+arbitrary quintic discovery from this row.
+
+```text
+new node: rate_half_kb_m12_outer_normal_form_compiler [PROVED]
+r2 dihedral form:
+  D5(x,a)=x^5-5a*x^3+5a^2*x
+  divided difference splits over sqrt(5) into the two r=2 conics
+r4 rigid forms:
+  A5 (3),(2,2): x^3(12x^2-15(1+t)x+20t), 3t^2+4t+3=0
+  A5 (3),(3): x^3(6x^2-15x+10)
+  S5 (2),(3,2): x^3(x-1)^2
+  S5 (2),(4): x^4(5-4x)
+r4 one-parameter form:
+  S5 (2),(2),(2,2): x^2(x-1)^2(2x-5t), on the profile's open locus
+proof engines:
+  genus-zero D5 Galois closure and explicit invariant fields
+  exact derivative integration and repeated-critical-value equations
+scope fence:
+  forms are geometric affine normalizations; no challenge-field coefficient
+  descent or endpoint-record membership is inferred
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  no family deletion or realization, owner, carrier/data bridge, charge,
+  m12, u2, cap 68, endpoint, or row close
+next route-deciding action:
+  derive a fail-closed challenge-field affine-equivalence classifier for the
+  actual outer coefficients recovered from the canonical <A,N0> pencil;
+  then impose split zeros and actual quartic/source-star incidence
+compute spend: exact rational/quadratic-field identities under tiny RAMguard
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

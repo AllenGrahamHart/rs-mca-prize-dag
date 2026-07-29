@@ -110,6 +110,15 @@ most one. Exact tame degree-five branch-cycle enumeration leaves five rows:
 and genus-three profiles are excluded. The five rows and the separate
 dihedral `r=2` survivor remain unpaid; no owner charge moves.
 
+The PROVED `rate_half_kb_m12_outer_normal_form_compiler` removes arbitrary
+outer-quintic search. Geometrically, the dihedral row is a Dickson quintic
+`x^5-5a*x^3+5a^2*x`; four `r=4` branch profiles have rigid printed forms,
+and the last is the one-parameter family `x^2(x-1)^2(2x-5t)`. This is a
+geometric affine classification, not challenge-field coefficient descent.
+The next exact endpoint test must compile the outer coefficients from the
+canonical `<A,N0>` pencil, certify any required descent, and then impose the
+actual quartic/source-star incidence. No owner charge moves.
+
 ## Banked range
 
 Put
