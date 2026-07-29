@@ -40,4 +40,20 @@ The independent verifier reconstructs entries 40--43 as explicit
 permutation groups of orders 7200, 14400, 14400, and 28800, then checks
 the endpoint, degree-six, and intermediate degree-five subgroup indices.
 
+## Upstream review custody
+
+The reviewer-facing packet is pinned in draft PR #1132:
+
+- PR: https://github.com/przchojecki/rs-mca/pull/1132
+- Commit: `30be68b9421ba37155499d52a0635fa7b10ae3b2`
+- Theorem-note blob: `0135c1f76e01cac07c958356dc5b5a1056d85432`
+- Certificate blob: `af5fd87a5c28f3b021fc05971a665e6d92f978af`
+- Verifier blob: `4df203a90a682d2a1ab7e36f7f98221b7db40592`
+- Certificate payload SHA-256:
+  `b34e096730f3d93644c283f95d65f622100d6868e9882ed2b901fa109b3d6116`
+
+The upstream theorem has the same scope as this node: every inner-degree-six
+producer dies through degree five or routes to degree two, with no
+destination payment or K3/KoalaBear closure.
+
 Accessed 2026-07-29. No network access is required by either verifier.

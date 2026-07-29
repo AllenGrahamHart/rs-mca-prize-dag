@@ -5836,6 +5836,11 @@ degree-six transverse types die through degree five or route to degree two.
 
 ```text
 new node: rate_half_kb_m6_scott_cartesian_degree2_router [PROVED]
+outbound custody: draft PR #1132 head 30be68b9421ba37155499d52a0635fa7b10ae3b2
+theorem blob: 0135c1f76e01cac07c958356dc5b5a1056d85432
+certificate blob: af5fd87a5c28f3b021fc05971a665e6d92f978af
+verifier blob: 4df203a90a682d2a1ab7e36f7f98221b7db40592
+payload SHA-256: b34e096730f3d93644c283f95d65f622100d6868e9882ed2b901fa109b3d6116
 kernel-free classification:
   45 transitive degree-10 groups -> order divisible by 600 -> entries 40..45
   A10 and S10 point stabilizers have no primitive degree-6 quotient
