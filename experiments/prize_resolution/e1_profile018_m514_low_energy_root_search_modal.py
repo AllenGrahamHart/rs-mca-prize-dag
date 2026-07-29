@@ -22,6 +22,7 @@ TERMS = 18
 FREE_TERMS = TERMS - 1
 MAX_ENERGY = 12
 MAX_HITS = 64
+EXCLUDED_MAGNITUDE_PROFILES = {(9, 1, 2, 0), (11, 7, 1, 0)}
 HERE = Path(__file__).resolve()
 ROOT = Path("/repo") if Path("/repo").is_dir() else HERE.parents[2]
 
@@ -78,6 +79,16 @@ def autocorrelation(state: dict[int, int]) -> tuple[int, ...]:
 def energy(state: dict[int, int]) -> tuple[int, tuple[int, ...]]:
     correlation = autocorrelation(state)
     return sum(value * value for value in correlation), correlation
+
+
+def magnitude_profile(correlation: tuple[int, ...]) -> tuple[int, int, int, int]:
+    energy_value = sum(value * value for value in correlation)
+    return (
+        energy_value,
+        sum(abs(value) == 1 for value in correlation),
+        sum(abs(value) == 2 for value in correlation),
+        sum(abs(value) == 3 for value in correlation),
+    )
 
 
 def canonical(state: dict[int, int]) -> tuple[tuple[int, int], ...]:
@@ -172,7 +183,11 @@ def search(seed: int, seconds: float) -> dict[str, object]:
             best_energy = candidate_energy
             best_state = candidate
             best_correlation = candidate_correlation
-        if candidate_energy <= MAX_ENERGY:
+        if (
+            candidate_energy <= MAX_ENERGY
+            and magnitude_profile(candidate_correlation)
+            not in EXCLUDED_MAGNITUDE_PROFILES
+        ):
             key = canonical(candidate)
             hits.setdefault(
                 key,
@@ -222,6 +237,7 @@ def main(
     payload = {
         "schema": "e1-profile018-m514-low-energy-root-search-v1",
         "source_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+        "excluded_magnitude_profiles": sorted(EXCLUDED_MAGNITUDE_PROFILES),
         "shards": shards,
         "seconds": seconds,
         "rows": rows,

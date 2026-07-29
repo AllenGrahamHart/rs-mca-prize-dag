@@ -4,8 +4,10 @@
    polynomials with the same exact norm `514p`, where `p` is an
    official-admissible prime. Six modular/autocorrelation candidates defeat
    only an intermediate filter; they do not kill the stated threshold.
-2. Screen the 15 signed magnitude profiles by the fixed-root trace equation
+2. Screen the 13 surviving signed magnitude profiles by the fixed-root trace equation
    `18+sum_d A_d(s^d+s^-d)=0 mod 257` and local multiplicity two.
+   The Hermite moment exclusion has already removed `(9;1,2,0)` and
+   `(11;7,1,0)`; do not enumerate them.
    The proved singleton-completion no-go shows that `F(s)=0` plus local
    multiplicity one, without the low-energy gate, admits all 128 ideals.
 3. Impose coefficient realization for 18 distinct signed singleton terms;

@@ -3497,8 +3497,8 @@
     "background/nodes/e1_profile018_m514_five_ideal_occupancy/dependency_subdag.md",
     "experiments/prize_resolution/e1_profile018_m514_low_energy_root_search_modal.py"
    ],
-   "statement": "For one fixed binding-row prime and quotient root, at most five of the 128 degree-one ideals above 257 are occupied by a profile-(0,18,S=18), cofactor-514 collision in the proved 15-profile middle-energy ledger.",
-   "notes": "FALSIFY-FIRST TARGET 2026-07-29: six certified occupied ideals refute the threshold and force a ledger repair. Screen autocorrelation, fixed-root, parity, realization, and exact norm in that order; do not count squared-magnitude roots as occupied F-ideals."
+   "statement": "For one fixed binding-row prime and quotient root, at most five of the 128 degree-one ideals above 257 are occupied by a profile-(0,18,S=18), cofactor-514 collision in the proved 13-profile refined middle-energy ledger.",
+   "notes": "FALSIFY-FIRST TARGET 2026-07-29: six certified occupied ideals refute the threshold and force a ledger repair. The Hermite moment refinement removed (9;1,2,0) and (11;7,1,0). Screen autocorrelation, fixed-root, parity, realization, and exact norm in that order; do not count squared-magnitude roots as occupied F-ideals."
   },
   {
    "id": "e1_profile018_galois_norm_occupancy_dictionary",
@@ -21174,6 +21174,24 @@
     "background/nodes/l1_m31_source_head_infinity_owner_route_cut/verify_audit.py"
    ],
    "notes": "Interface route cut only. It rules out direct reuse of the existing infinity-coordinate recurrence as an all-head owner, not a stronger coupled source theorem."
+  },
+  {
+   "id": "e1_s18_m514_hermite_two_profile_exclusion",
+   "title": "E1 square-mass-18 cofactor-514 Hermite two-profile exclusion",
+   "status": "PROVED",
+   "closure": "quadratic Hermite moment majorants with exact endpoint comparisons",
+   "statement": "A profile-independent quadratic Hermite majorant puts cofactor-514 autocorrelation profiles (9;1,2,0) and (11;7,1,0) strictly below the prize field floor. Thirteen magnitude profiles remain.",
+   "refs": [
+    "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/statement.md",
+    "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/proof.md",
+    "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/claim_contract.md",
+    "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/dependency_subdag.md",
+    "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/audit.md",
+    "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/result.md",
+    "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/frontier.md",
+    "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/verify.py"
+   ],
+   "notes": "ANALYTIC REFINEMENT 2026-07-29: exact cross-multiplied Hermite bounds remove two live magnitude rows without support enumeration. The five-ideal occupancy threshold remains open."
   }
  ],
  "edges": [
@@ -40824,6 +40842,26 @@
   },
   {
    "from": "e1_profile018_mod257_singleton_completion_no_go",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_m514_parity_trace_cap",
+   "to": "e1_s18_m514_hermite_two_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_s18_m514_hermite_two_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m514_hermite_two_profile_exclusion",
+   "to": "e1_profile018_m514_five_ideal_occupancy",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_s18_m514_hermite_two_profile_exclusion",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   }

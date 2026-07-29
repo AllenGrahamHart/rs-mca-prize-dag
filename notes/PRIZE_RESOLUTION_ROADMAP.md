@@ -9208,3 +9208,22 @@ Thus a root/local screen cannot remove any split ideal in principle. Do not
 fund a computation at that gate alone. The first selective object must couple
 the root equation to low-energy all-singleton realization, then exact
 norm/official-prime multiplicity.
+
+**2026-07-29, cofactor-514 Hermite profile refinement:** a
+profile-independent quadratic Hermite majorant improves the middle-energy
+ledger without support enumeration. For deviations of mean zero, variance
+`v`, and upper bound `M`, interpolation at `-v/M` and `M` reduces the norm
+bound to the exact two-point distribution with those moments. Exact integer
+cross-multiplication removes
+
+```text
+(E;n1,n2,n3)=(9;1,2,0):             M=10, v=18
+(E;n1,n2,n3)=(11;7,1,0):            M=18, v=22
+live cofactor-514 magnitude rows:    15 -> 13
+```
+
+The occupancy threshold remains five ideals. The next analytic boundary is
+the all-unit energy-twelve row. Its continuous two-moment envelope misses the
+field-floor comparison slightly, so a further close must spend a discrete
+trace, local-multiplicity, or fixed-root constraint rather than repeat the
+same moment inequality.

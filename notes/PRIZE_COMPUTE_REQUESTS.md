@@ -10209,6 +10209,8 @@ Interpretation is deliberately narrow:
 - a hit proves that the joint realization/root/energy gate is nonempty;
 - no hit is heuristic evidence only and proves no emptiness statement;
 - neither outcome proves or refutes five-ideal occupancy;
+- the retained-hit filter omits the analytically excluded magnitude profiles
+  `(9;1,2,0)` and `(11;7,1,0)` while allowing the annealer to traverse them;
 - exact resultant computation and grouping by `p=Norm/514` is a separate
   second stage, authorized only after genuine canonical low-energy hits;
 - six equal exact official-prime quotients in distinct diagonal Galois orbits
