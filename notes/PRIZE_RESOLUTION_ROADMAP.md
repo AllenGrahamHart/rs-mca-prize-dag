@@ -7294,9 +7294,12 @@ P_W(q)=A(q)^2(q^3+126q^2+5364q+87480)
 P_C(q)=A(q)^4*Conic(q,-144q/A(q))                  degree 10, leader 35
 official decision: gcd_Fp(P_W,P_C), four primes
 compute spend: none
-compute pre-request: CR-L1-H7-C3-321-J0-GCD; expected under $1, but launcher
-                     and checker are not written and Modal is spend-blocked
+compute request: CR-L1-H7-C3-321-J0-GCD; source-pinned 0.125-CPU/128 MB/30 s
+                 single-container launcher and independent checker written
+launcher sha256: 39ccbf6493dc3a421935dbbd0b1e31e761c4e13b2c3f48eaa3c6b87d44a987e0
+checker sha256:  a653511eb927b1627258d7c2e25e6b46439827140d1fabab743a2404e771469c
+run status: unrun; Modal spend-blocked, no execution authorized
 DAG delta: one PROVED background node and two edges; no critical status flip
-next route-deciding action: write a source-pinned extended-gcd certificate
-                              packet; launch only after spend access returns
+next route-deciding action: continue the Delta!=0 and singular J!=0 hand
+                              branches; launch this packet only after access
 ```

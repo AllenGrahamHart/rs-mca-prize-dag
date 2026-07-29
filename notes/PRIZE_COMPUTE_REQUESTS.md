@@ -7862,10 +7862,27 @@ the outer stage into exactly two low-dimensional tasks.
   complete monic gcd and its roots/factors, with `d=-144q/A(q)` replayed in
   `(F_J,F_W,Conic)` before applying `E_6` and role filters.
 
+  The source-pinned packet is now written:
+
+  ```text
+  experiments/prize_resolution/l1_m8_h7_cubic_321_singular_j0_gcd_modal.py
+  sha256 39ccbf6493dc3a421935dbbd0b1e31e761c4e13b2c3f48eaa3c6b87d44a987e0
+
+  experiments/prize_resolution/check_l1_m8_h7_cubic_321_singular_j0_gcd_certificate.py
+  sha256 a653511eb927b1627258d7c2e25e6b46439827140d1fabab743a2404e771469c
+  ```
+
+  Launch with `modal run ...gcd_modal.py --output PATH`; validate with the
+  checker, adding `--require-all-unit` for a chamber-exclusion certificate.
+  The checker independently reconstructs `P_W,P_C`, verifies monic
+  divisibility and the emitted Bezout identity, and accepts exact HIT rows
+  without misclassifying them as closure.
+
   This subrequest should cost far below one dollar: four gcds of degrees 7
-  and 10 in one 128 MB, 30-second, single-container job. It is not yet
-  launch-ready because no source-pinned launcher or independent certificate
-  checker has been written, and the current Modal workspace is spend-blocked.
+  and 10 in one 0.125-CPU, 128 MB, 30-second, single-container job. Source,
+  checker, timeout, memory, and cost ceiling are ready; no measured pilot or
+  run exists because the current Modal workspace is spend-blocked. Do not
+  launch until spend access changes explicitly.
 
   The requested decision is whether every branch in one complete
   representation is unit on `a*B*Q(y)!=0` and the inherited HNF/fiber
@@ -7878,10 +7895,12 @@ the outer stage into exactly two low-dimensional tasks.
   cleared ideals and hashes before elimination and checkpoint every retained
   factor.
 
-  This is a **pre-request** only. No proof-producing launcher, independent
-  checker, measured pilot, or cost ceiling exists, and the current Modal
-  workspace is spend-blocked. A raw Groebner transcript is route evidence,
-  not a closure certificate.
+  The broad 4/12/21-system request remains a **pre-request** only: no
+  proof-producing launcher, independent checker, measured pilot, or cost
+  ceiling exists for those multivariate ideals, and the current Modal
+  workspace is spend-blocked. The narrow `J=0` gcd subrequest above is
+  source-complete but unrun. A raw Groebner transcript is route evidence, not
+  a closure certificate.
 
   **Contributor request CR-L1-H7-C3-INJ:** consume
   `l1_mersenne_hnf_m8_order_one_cubic_collision_free_value_router`. Build
