@@ -19246,6 +19246,23 @@
    "notes": "Exact necessary color compiler only. The full homogeneous resultant is the safe equation; its primitive characteristic-zero squarefree radical has the printed degree-seven polynomial. Reflection does not merge the two scalene conjugate pairs. No unit verdict is supplied."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-double affine-invariant formula",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The depressed-cubic invariants of the three-double value map have the closed formulas (AIF5). The seven m=8 affine color values therefore split into four explicit rational homogeneous factors, and each generic branch is a rational system in (x,q,d) after eliminating b.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula/verify.py"
+   ],
+   "notes": "Exact formula and packet compiler only. Four rational factors represent seven geometric color values; no unit verdict, base-field color assignment, or outer/inner packet witness is claimed."
+  },
+  {
    "id": "l1_mersenne_hnf_order_zero_linear_color_exclusion",
    "title": "L1 Mersenne HNF order-zero linear-color exclusion",
    "status": "PROVED",
@@ -36564,6 +36581,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

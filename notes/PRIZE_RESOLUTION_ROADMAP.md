@@ -7072,6 +7072,32 @@ repair: an initial five-shape draft incorrectly merged the two scalene
 generic branch after b elimination: four equations in (x,q,d)
 compute spend: none
 DAG delta: one PROVED background node and three edges; no critical status flip
-next route-deciding action: expand only the five-factor color radical, then
+next route-deciding action: expand only the four-factor color radical, then
                               eliminate the overdetermined generic core
+```
+
+**2026-07-29, L1 h=7 cubic `2+2+2` affine-invariant formula:** the repaired
+seven-shape color layer is now explicit in the three-variable HNF core; no
+value resultant or individual fiber root remains.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula
+centered source variables:
+  p=b-12
+  eta=-xp-q(d+2)/6
+  ell=x^2+q/6-2p/3
+target invariants:
+  P=ell^2p+6x ell eta-(4/3)x^2p^2
+  Q=-8x^3(eta^2+2p^3/27)-4x^2 ell p eta
+    -(4/3)x ell^2p^2+ell^3 eta
+rational color factors: 4, representing 7 geometric values
+generic b elimination:
+  alpha=-(q-d)x(x^2+q/6)
+  beta=(q-d)B_5+6dG
+  b=-beta/alpha
+retained variables per rational color factor: (x,q,d)
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: reduce the four explicit color factors modulo
+                              the conic and the two generic compatibilities
 ```
