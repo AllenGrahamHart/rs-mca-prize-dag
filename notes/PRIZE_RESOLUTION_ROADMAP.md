@@ -5582,7 +5582,8 @@ degree-12 transverse types without computation.
 ```text
 new node: rate_half_kb_m12_outer_subdegree_route_cut [PROVED]
 outbound PR: https://github.com/przchojecki/rs-mca/pull/1132 (draft)
-outbound head: e368e5c8fc101ae0040b47265c2cd167e70dadd2
+route-cut layer: e368e5c8fc101ae0040b47265c2cd167e70dadd2
+current outbound head: f7a42415bdb24c7e626b76394558bad100c5a874
 stack parent: PR #1131 head e287c54252c7872e1745c7594cfef62b74a65cf5
 inputs:
   outer F has degree 5, one rational pole of order 5, and five distinct
@@ -5654,6 +5655,10 @@ arbitrary quintic discovery from this row.
 
 ```text
 new node: rate_half_kb_m12_outer_normal_form_compiler [PROVED]
+outbound custody: draft PR #1132 head f7a42415bdb24c7e626b76394558bad100c5a874
+theorem blob: 5a36de4a27d80d5a885aa0751db9fc37d9744aab
+certificate blob: 8e0ecd7f5b008900ada67dbf80848e8dbbff8416
+payload SHA-256: 7eb4f4053f90cb4ca0d0f3379fa3f8f33522ae0ec9b3dc67f5c7e602150d22f0
 r2 dihedral form:
   D5(x,a)=x^5-5a*x^3+5a^2*x
   divided difference splits over sqrt(5) into the two r=2 conics
