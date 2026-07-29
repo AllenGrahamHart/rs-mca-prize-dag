@@ -8425,7 +8425,8 @@ replay state: two exact verifier sources written; local arithmetic unrun
 upstream custody:
   PR: https://github.com/przchojecki/rs-mca/pull/1124
   branch: agent/m31-rank7-dense-top-router
-  commit: 4cd4cf79ef3a9f19dae515c27d2cc4b7126f636b
+  head commit: 5905db3e0db643ca26d8b50b7ad5dd8fa08f61a8
+  theorem commit: 4cd4cf79ef3a9f19dae515c27d2cc4b7126f636b
   state at pin: OPEN, DRAFT, MERGEABLE
   accepted surface: experimental/experiments.tex plus one agents-log entry
   validation: git diff --check; static proof review only

@@ -23,5 +23,5 @@ The object is the growing-cofactor decorated version of the primitive
 shift-pair interface. A transport to the active bare-support `U_SP` requires
 an explicit owner/coalescing theorem.
 
-Export custody: upstream draft PR `#1124`, commit
-`4cd4cf79ef3a9f19dae515c27d2cc4b7126f636b`, mergeable at the recorded pin.
+Export custody: upstream draft PR `#1124`, head commit
+`5905db3e0db643ca26d8b50b7ad5dd8fa08f61a8`, mergeable at the recorded pin.
