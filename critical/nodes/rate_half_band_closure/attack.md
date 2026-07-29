@@ -55,11 +55,26 @@ degree five is deleted and the live necessary set is
 {2,3,4,6,10,12,30}.
 ```
 
-The next local theorem is a coefficient-field and witness-data adapter that
-excludes or assigns a first-match owner to each of these seven rows. None of
-the structural cuts moves the owner ledger, proves `u=2` empty, establishes
-cap `68`, or closes the KoalaBear row. Do not treat geometric decomposability
-or local divisor preservation alone as source-field descent or ownership.
+Upstream PR `#1130`, replayed in the PROVED source-pencil compiler, closes the
+endpoint coefficient-field ambiguity: two rational active fibers give a
+target transform of `h` and the corresponding outer map over `F_(p^6)`.
+It also routes every degree-30 map through inner degree six. Thus the
+distinct live necessary set is
+
+```text
+{2,3,4,6,10,12}.
+```
+
+Degree 12 has one canonical pencil `<A,N_0>` and one exact six-dimensional
+membership test. Degree two has a challenge-field deck involution; if a
+future same-record bridge places it on the prime-field carrier, the only
+projective carrier folds are power-pair or fixed-point-free reciprocal-pair.
+
+The next local theorem must exclude or assign a first-match owner to each of
+these six rows by descending witness data and chronology from the endpoint
+parameter line to the evaluation carrier. None of the structural cuts moves
+the owner ledger, proves `u=2` empty, establishes cap `68`, or closes the
+KoalaBear row. The parameter line and carrier remain distinct.
 
 ## Banked range
 

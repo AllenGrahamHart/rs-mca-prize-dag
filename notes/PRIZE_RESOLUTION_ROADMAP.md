@@ -5495,6 +5495,46 @@ next route-deciding action:
   coefficient-field descent and constrain the bidegree-(4,4) component
 ```
 
+**2026-07-29, upstream PR #1130 source-pencil harvest:** the independently
+opened successor overlaps the local divisor and degree-five proofs and adds
+four bankable structural reductions. Its scope was audited against the
+endpoint/carrier distinction before import.
+
+```text
+upstream PR: https://github.com/przchojecki/rs-mca/pull/1130
+head: a14a05d9ba80068133e93e2fa77d6d1dc8828829
+parent: 59c4449ca0f5cee929dd39fc7b5ae8b0a33877f4
+theorem blob: e15b77679b7dbc0bb28cf5642a04bb4c71e61429
+certificate blob: 911bac3c1c5d1b4cd9822c59939d60e832b7ef23
+payload SHA-256: 638190df24415e5609fa9c2f50dde8fd22bd150f60e7bef5cd1496cb22d75b4e
+local node: rate_half_kb_decomposition_source_pencil_compiler [PROVED]
+relation:
+  OVERLAP on divisor pullback and degree-five deletion
+  ADDITIVE on source-pencil equivalence, challenge-field descent,
+  degree-30-to-6 refinement, canonical degree-12 compiler, and degree-two
+  deck/carrier-stabilizer gates
+banked consequences:
+  h and the outer map admit models over F_(p^6) after target normalization
+  every source profile is one coprime degree-m binary pencil certificate
+  degree 30 factors through degree 6 and is not a separate row
+  degree 12 has one canonical pencil and one six-dimensional membership test
+  the degree-two deck involution lies in PGL_2(F_(p^6))
+  conditional carrier projectivities are kappa*x or kappa/x only
+result: distinct live degrees {2,3,4,6,10,12}
+ledger movement: zero
+scope fence:
+  endpoint parameters are not evaluation coordinates; carrier cardinality
+  and projectivity results remain conditional on a same-record bridge
+nonclaims:
+  no carrier bridge, received-data or slope descent, owner, payment, u2
+  close, cap 68, adjacent certificate, endpoint movement, or row close
+next route-deciding action:
+  derive witness-data/chronology descent from the actual bidegree-(4,4)
+  component; use the canonical degree-12 test and degree-two deck gate as
+  fail-closed endpoints rather than reconstructing arbitrary maps
+compute spend: none; finite arithmetic replayed locally under RAMguard
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

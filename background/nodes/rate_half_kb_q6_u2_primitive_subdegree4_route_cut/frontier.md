@@ -2,10 +2,12 @@
 
 The divisor-pullback child proves that every row preserves the local active
 and source sets as complete fiber divisors, and the deployed-field cyclic
-argument excludes inner degree five. The live degrees are
+argument excludes inner degree five. The source-pencil compiler descends a
+target transform to the challenge field and routes degree 30 to degree six.
+The distinct live degrees are
 
 ```text
-2,3,4,6,10,12,30.
+2,3,4,6,10,12.
 ```
 
 For each live row, recover the block map from the actual component and either:
