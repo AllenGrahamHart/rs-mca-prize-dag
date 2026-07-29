@@ -6894,14 +6894,15 @@ local theorems:
   l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler
   l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld
   l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld
+  l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split
   l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler
   l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_invariant_formula
   l1_mersenne_hnf_m8_order_one_cubic_three_double_quadratic_quotient_weld
 local source commits: 3380ea30, 1c2bfd55, 8d847b9e, e10d4683, 59497c96,
                       44a9d6bb, 0dfd4714, 32b35ed4, f3a355fd, b102cee0,
-                      1d9206b9, 98e8685c, 3d5f6274
+                      1d9206b9, 98e8685c, 3d5f6274, bdd33eb0
 upstream base: b13de8113a03f06b6fc22bbd2f289a8abcdf7e95
-PR head: 552bc92bb00136af08de313b44116ec25399179e
+PR head: 2a603e074210307c30492b42af50b623057001d8
 PR state at custody refresh: OPEN, DRAFT, MERGEABLE
 upstream files:
   experimental/notes/l1/l1_m8_h7_order_one_cubic_33_exclusion.md
@@ -6916,12 +6917,13 @@ additional endpoints: P_5 of degree 5 and R_12 of degree 12 for the two
                       exceptional 2+2+2 slopes; one degree-42 symbolic role
                       polynomial for the four-variable 3+2+1 core, split
                       either into four high-degree or twelve degree-at-most-
-                      four Galois branches; one
+                      four Galois branches, and on official fields into 21
+                      irreducible quadratic Frobenius branches; one
                       seven-shape affine-color equation and four rational
                       three-variable packets for generic 2+2+2
 replay digests:
   8d49e0b87da9b842d4b827b7feae6718e3c0e9628e9a94d33cfc8b49e901c66f
-  f1b942208d4bbe086a8ad7c363136579e146bc6cd4bb15d9daeaff849aa25c2d
+  979f2b4f892b9ccd5d278e6fb441acc62df5708c81a5e4b06167da836393d64f
 compute-request digest:
   d3b4aacf170e13fecdf36718f8566bd597beacf4965aa1584077dbe61db9f695
 compute-certificate checker digest:
