@@ -4,10 +4,11 @@
    polynomials with the same exact norm `514p`, where `p` is an
    official-admissible prime. Six modular/autocorrelation candidates defeat
    only an intermediate filter; they do not kill the stated threshold.
-2. Screen the 13 surviving signed magnitude profiles by the fixed-root trace equation
+2. Screen the 12 surviving signed magnitude profiles by the fixed-root trace equation
    `18+sum_d A_d(s^d+s^-d)=0 mod 257` and local multiplicity two.
    The Hermite moment exclusion has already removed `(9;1,2,0)` and
-   `(11;7,1,0)`; do not enumerate them.
+   `(11;7,1,0)`, and the cubic relation exclusion has removed `(10;6,1,0)`;
+   do not enumerate them.
    The explicit `{1,...,11,15}` energy-twelve target survives root, parity,
    positivity, and cubic-moment screens, so this stage cannot close the route.
    The proved singleton-completion no-go shows that `F(s)=0` plus local

@@ -9,6 +9,8 @@ e1_profile018_mod257_singleton_completion_no_go [PROVED]
     --ev--> e1_profile018_m514_five_ideal_occupancy [TARGET]
 e1_s18_m514_hermite_two_profile_exclusion [PROVED]
     --ev--> e1_profile018_m514_five_ideal_occupancy [TARGET]
+e1_s18_m514_e10_profile61_cubic_exclusion [PROVED]
+    --ev--> e1_profile018_m514_five_ideal_occupancy [TARGET]
 e1_profile018_e12_root_parity_screen_no_go [PROVED]
     --ev--> e1_profile018_m514_five_ideal_occupancy [TARGET]
 

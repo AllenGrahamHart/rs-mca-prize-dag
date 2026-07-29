@@ -9251,3 +9251,24 @@ is below `p_min`. This is not an 18-singleton coefficient realization. The
 example proves that the first genuinely selective gates are integral
 singleton spectral-factor realization and exact norm; either may be applied
 first when the candidate representation makes it cheaper.
+
+**2026-07-29, energy-ten profile-(6,1) cubic close:** the discrete signed
+relation ledger improves the generic third-moment bound just enough to remove
+one more cofactor-514 shape.
+
+```text
+profile:                              (E;n1,n2,n3)=(10;6,1,0)
+nested-layer sizes:                   14,2
+generic layer bound:                  |M3|<=268
+signed relation divisibility:         M3=0 mod 6
+exact usable cap:                     M3<=264
+cubic Hermite contacts:               33/2,65/2
+certified verdict:                    Norm<514*p_min
+live cofactor-514 magnitude rows:     13 -> 12
+```
+
+This is profile-independent and uses no coefficient realization or support
+enumeration. The occupancy threshold remains five ideals. The remaining
+generic layer bounds all miss the field floor, so another moment-only pass
+must add genuinely sharper additive information rather than replay this
+relaxation.

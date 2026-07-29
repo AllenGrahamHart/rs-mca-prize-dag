@@ -22,7 +22,11 @@ TERMS = 18
 FREE_TERMS = TERMS - 1
 MAX_ENERGY = 12
 MAX_HITS = 64
-EXCLUDED_MAGNITUDE_PROFILES = {(9, 1, 2, 0), (11, 7, 1, 0)}
+EXCLUDED_MAGNITUDE_PROFILES = {
+    (9, 1, 2, 0),
+    (10, 6, 1, 0),
+    (11, 7, 1, 0),
+}
 HERE = Path(__file__).resolve()
 ROOT = Path("/repo") if Path("/repo").is_dir() else HERE.parents[2]
 

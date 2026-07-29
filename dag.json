@@ -3497,8 +3497,8 @@
     "background/nodes/e1_profile018_m514_five_ideal_occupancy/dependency_subdag.md",
     "experiments/prize_resolution/e1_profile018_m514_low_energy_root_search_modal.py"
    ],
-   "statement": "For one fixed binding-row prime and quotient root, at most five of the 128 degree-one ideals above 257 are occupied by a profile-(0,18,S=18), cofactor-514 collision in the proved 13-profile refined middle-energy ledger.",
-   "notes": "FALSIFY-FIRST TARGET 2026-07-29: six certified occupied ideals refute the threshold and force a ledger repair. The Hermite moment refinement removed (9;1,2,0) and (11;7,1,0), while the explicit energy-twelve target proves the joint autocorrelation/root/parity/positivity screen nonempty. Coefficient realization and exact norm are the first selective gates; do not count squared-magnitude roots as occupied F-ideals."
+   "statement": "For one fixed binding-row prime and quotient root, at most five of the 128 degree-one ideals above 257 are occupied by a profile-(0,18,S=18), cofactor-514 collision in the proved 12-profile refined middle-energy ledger.",
+   "notes": "FALSIFY-FIRST TARGET 2026-07-29: six certified occupied ideals refute the threshold and force a ledger repair. The Hermite and cubic moment refinements removed (9;1,2,0), (10;6,1,0), and (11;7,1,0), while the explicit energy-twelve target proves the joint autocorrelation/root/parity/positivity screen nonempty. Coefficient realization and exact norm are the first selective gates; do not count squared-magnitude roots as occupied F-ideals."
   },
   {
    "id": "e1_profile018_galois_norm_occupancy_dictionary",
@@ -21210,6 +21210,24 @@
     "background/nodes/e1_profile018_e12_root_parity_screen_no_go/verify.py"
    ],
    "notes": "ROUTE CUT 2026-07-29: this is a signed autocorrelation target, not an 18-singleton spectral factor. Its exact resultant shows that norm is selective even though the preceding necessary screens are not."
+  },
+  {
+   "id": "e1_s18_m514_e10_profile61_cubic_exclusion",
+   "title": "E1 square-mass-18 cofactor-514 energy-ten profile-(6,1) cubic exclusion",
+   "status": "PROVED",
+   "closure": "signed-relation divisibility and cubic Hermite norm majorant",
+   "statement": "The cofactor-514 magnitude profile (E;n1,n2,n3)=(10;6,1,0) has nested-layer bound |M3|<=268 and signed relation divisibility M3=0 mod 6, hence M3<=264. A global cubic Hermite majorant puts its norm below the prize field floor. Twelve magnitude profiles remain.",
+   "refs": [
+    "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/statement.md",
+    "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/proof.md",
+    "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/claim_contract.md",
+    "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/dependency_subdag.md",
+    "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/audit.md",
+    "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/result.md",
+    "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/frontier.md",
+    "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/verify.py"
+   ],
+   "notes": "ANALYTIC REFINEMENT 2026-07-29: the six-divisibility of the signed cubic relation index supplies the four-unit improvement that the relaxed layer bound lacked. The five-ideal occupancy threshold remains open."
   }
  ],
  "edges": [
@@ -40880,6 +40898,21 @@
   },
   {
    "from": "e1_s18_m514_hermite_two_profile_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_s18_m514_hermite_two_profile_exclusion",
+   "to": "e1_s18_m514_e10_profile61_cubic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m514_e10_profile61_cubic_exclusion",
+   "to": "e1_profile018_m514_five_ideal_occupancy",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_s18_m514_e10_profile61_cubic_exclusion",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   },
