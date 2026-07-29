@@ -5797,6 +5797,11 @@ degree-10 transverse types route strictly to smaller decomposition rows.
 
 ```text
 new node: rate_half_kb_m10_scott_strip_lower_degree_router [PROVED]
+outbound custody: draft PR #1132 head 412bc68f1dcb6ac3924d6445146417f3c713ef89
+theorem blob: 13645fac5d116ec90ebbd5f1254d74b9715f83be
+certificate blob: 6e49093fdb9d9e55b45c55265eb3cc0c0e65e8c9
+verifier blob: 9f12c4e749b3ab147b2374943c3d9b56c2c90697
+payload SHA-256: 66117d7ba207a66606fc4ae4770a2b314b3510066be7af734b4e579d028ce1d1
 terminal degree-10 catalogue:
   A5, S5; five A6 almost-simple extensions; A10, S10
   simple socles A5, A6, A10; subdegrees 1,3,6 or 1,9
