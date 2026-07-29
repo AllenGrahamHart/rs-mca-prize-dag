@@ -6902,3 +6902,20 @@ critical/upstream terminal delta: none
 next upstream bridge: place the HNF cell in an exhaustive source-bound owner
                       partition before using it as a bankable route cut
 ```
+
+**2026-07-29, L1 h=7 cubic `2+2+2` linear remainder reduction:** the
+four-variable symmetric core now has a proof-only branch decomposition before
+any Groebner or norm work.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction
+scaled variables: q=dr, x=dU-3, b=d^2s_2, d
+coefficient shape: one quadratic D_b plus two affine-linear remainders in b
+fifth-remainder slope: -x(x^2+q/6)
+exceptional branches: x=0 and q=-6x^2
+generic branch: b determined; three variables remain before color sharding
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: classify the two exceptional p-free branches,
+                              then form the generic three-variable eliminant
+```

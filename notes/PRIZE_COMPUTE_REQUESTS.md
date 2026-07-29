@@ -7638,6 +7638,17 @@ the outer stage into exactly two low-dimensional tasks.
   polynomials and their degrees even if the ideal is nonunit; those are the
   portable handoff, not a raw Groebner transcript.
 
+  The exact next compiler is now
+  `l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction`.
+  Use its scaled variables `(x,b,q,d)` and retain `D_b=0`. The reduced fifth
+  and sixth coefficient equations are affine-linear in `b`; the former has
+  slope `-x(x^2+q/6)`. Classify the two exceptional branches `x=0` and
+  `q=-6x^2` first. On the generic branch solve the fifth equation for `b`,
+  substitute into both `D_b` and the sixth remainder, and eliminate only
+  `(x,q,d)`. A determinant of the two linear remainders is not a complete
+  replacement for the equations. Return factorizations and saturation
+  factors branch by branch before any color or official-row sharding.
+
   For the `3+2+1` profile, replace the generic remainder by
   `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction`.
   Parameterize monic cubics `F,G`, impose `FG=L_(r,d)`, and compare the three

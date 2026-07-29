@@ -19754,6 +19754,23 @@
    "notes": "Exact coefficient compiler only. Square counts equations and variables but is not a dimension or unit-ideal verdict; all color, norm, Frobenius, cyclotomic, and inner filters remain open."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-double linear remainder reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "With q=dr, a=dU, b=d^2s_2, and x=a-3, the h=7 cubic 2+2+2 core consists of the residual conic, one quadratic D_b in b, and two equations affine-linear in b after exact reduction modulo D_b. The fifth-equation slope is -x(x^2+q/6), separating the exceptional branches x=0 and q=-6x^2 from a generic three-variable elimination.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction/verify.py"
+   ],
+   "notes": "Exact polynomial-remainder reduction only. No generic or exceptional branch is declared empty; all color, norm, Frobenius, cyclotomic, and inner filters remain open."
+  },
+  {
    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction",
    "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one factor reduction",
    "status": "PROVED",
@@ -36360,6 +36377,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

@@ -776,6 +776,15 @@
   coefficient equations, and the h=7 conic. Do not interpret "square" as a
   dimension verdict; classify or eliminate this core before color sharding.
 
+- Refine that core with
+  `l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction`.
+  In the scaled variables `(x,b,q,d)`, keep the quadratic `D_b` and reduce
+  both later coefficient equations modulo it. Attack `x=0` and
+  `q=-6x^2` first; off those loci the fifth equation solves for `b`, so use
+  the resulting three-variable generic elimination. Do not use only the
+  determinant of the two linear remainders, and do not add color or norm
+  shards before this p-free branch classification.
+
 - On the `3+2+1` profile, consume
   `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction`.
   Use the triple fiber as the cubic factor `F`, its complement `G`, and the
