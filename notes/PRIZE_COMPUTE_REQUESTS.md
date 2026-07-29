@@ -7630,6 +7630,14 @@ the outer stage into exactly two low-dimensional tasks.
   ratio; eliminate symmetric functions of the `u_i` before any Groebner
   basis. Keep the generic remainder only as an independent audit.
 
+  The symmetric elimination is now printed in
+  `l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler`.
+  Generate `s_1,V,s_3` from (TSC2), substitute into (TSC4)--(TSC6), clear
+  `2*3*d*(r-1)` with inherited saturation retained, and classify the four
+  equations in `(U,s_2,r,d)` before adding a color ratio. Record the cleared
+  polynomials and their degrees even if the ideal is nonunit; those are the
+  portable handoff, not a raw Groebner transcript.
+
   Before the large torsion or remainder equations, shard by `zeta in mu_m`
   and substitute
 

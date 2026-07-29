@@ -769,6 +769,13 @@
   impose the scale-free color ratio. Enumerate color order only at that last
   equation; do not carry a generic cubic `E` through the factor census.
 
+- Then consume
+  `l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler`.
+  Replace `(u_1,u_2,u_3,V,s_3)` by the printed triangular symmetric
+  elimination. The p-free core has only `(U,s_2,r,d)`, the three cleared
+  coefficient equations, and the h=7 conic. Do not interpret "square" as a
+  dimension verdict; classify or eliminate this core before color sharding.
+
 - More generally consume
   `l1_mersenne_hnf_order_one_color_degree_barrier`. The pointwise degree-`d`
   color equations define curves of degrees `d` and `d+1`, so `H<=d(d+1)`.
