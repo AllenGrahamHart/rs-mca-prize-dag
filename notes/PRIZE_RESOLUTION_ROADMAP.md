@@ -7047,3 +7047,24 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: eliminate the common-quadratic core once with
                               symbolic lambda and Lambda_321(lambda)=0
 ```
+
+**2026-07-29, L1 h=7 cubic `2+2+2` affine-color compiler:** the symmetric
+three-double core now includes its previously deferred color equation without
+restoring the three individual double-fiber parameters.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler
+ordered color input: Lambda_321(lambda), degree 42 before squarefree merging
+affine invariants: P=e_2-e_1^2/3,
+                   Q=e_3-e_1e_2/3+2e_1^3/27
+safe equation: Res_lambda(Lambda_321,
+               27(lambda^2-lambda+1)^3 Q^2
+               +((lambda+1)(2lambda-1)(lambda-2))^2 P^3)=0
+characteristic-zero squarefree color shapes: 5
+shape gaps: (1,1,6), (1,2,5), (1,3,4), (2,2,4), (2,3,3)
+generic branch after b elimination: four equations in (x,q,d)
+compute spend: none
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: expand only the five-factor color radical, then
+                              eliminate the overdetermined generic core
+```
