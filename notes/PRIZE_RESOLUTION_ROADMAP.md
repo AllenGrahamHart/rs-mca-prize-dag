@@ -7131,3 +7131,24 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: seek hand factors in the four welded systems;
                               prepare bounded remote elimination only if not
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` role-factor compiler:** the repaired
+affine-shape calculation also factors the second three-color profile's
+ordered role input over the rationals.
+
+```text
+node proved: l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler
+A=lambda^2-lambda+1
+B=(lambda+1)(2lambda-1)(lambda-2)
+role factors:
+  B^2+50A^3                                      degree 6
+  B^4-224B^2A^3-578A^6                          degree 12
+  B^4-4B^2A^3+54A^6                             degree 12
+  125B^4-2404B^2A^3+13448A^6                    degree 12
+product degree: 42, proportional to Lambda_321
+packet count: 4 rational packets preserving all ordered roles
+compute spend: none
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: run the common-quadratic elimination separately
+                              on these four low-degree role factors
+```
