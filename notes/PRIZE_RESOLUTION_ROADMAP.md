@@ -8717,3 +8717,36 @@ next route-deciding action: seek a received-word/Pade priority map that
                               coalesces determinant owners across D, or a
                               route cut proving such coalescence impossible
 ```
+
+**2026-07-29, E1 certified character-spectrum preflight and route cut:** the
+finite rank-63 unit body is now numerically certified, and its generic
+enumeration is decisively unpriced.
+
+```text
+node proved: e1_conductor256_character_eigenvalue_preflight
+certification:
+  directed Decimal intervals only; Machin pi, Taylor sin/cos, atanh log
+  no library transcendental, FFT, optional package, Modal, or floating accept
+spectrum digest at 30 outward decimal places:
+  6ee33c37477a58c92a087cd7dcf3c128d148a2c8d08887141ff79367aa9efb8d
+spectral bounds:
+  min |kappa_j|>1.7627; max |kappa_j|<24.292
+  sum |kappa_j|^-1<6.556; sum |kappa_j|^-2<1.090
+uniform prize body:
+  D<7.539, R<77.202, max |xi_t|<=7, sum xi_t^2<=101
+exact coarse zero-sum envelope:
+  16616854517524950208619690062355423946568371 > 2^143
+weighted-ellipsoid route cut:
+  all balanced 0,+-1 vectors with up to five signs of each type lie inside
+  38482585013041 explicit exponent vectors before sparse algebra
+route verdict:
+  reject coordinate-, L2-, and ellipsoid-first enumeration
+  next theorem/generator must consume beta=u alpha and alpha=u^-1 beta
+  as sparse profile equations before generating the unit-lattice body
+scope fence:
+  no associate count, 367-orbit payment, lower-profile payment, E1 image
+  bound, row close, or Prize movement
+compute spend: none; verifier runs under one second with tiny RAM
+next route-deciding action: derive support propagation or a coefficient
+                              recurrence from the two sparse product equations
+```

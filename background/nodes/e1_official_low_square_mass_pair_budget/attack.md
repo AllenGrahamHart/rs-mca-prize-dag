@@ -60,9 +60,13 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
    quotient roots without the Galois transport. The alternative exact count
    is in the full rank-63 unit log lattice inside the router's AM-GM body;
    any regulator or packing argument must apply to that full lattice. The
-   The character router gives the complete finite exponent ellipsoid; first
-   certify its 63 eigenvalue intervals and price exact sparse
-   branch-and-bound. The exact profile target is at most 367 points modulo
+   character router and certified eigenvalue preflight give `|xi_t|<=7` and
+   `sum xi_t^2<=101`, but the resulting zero-sum envelope has more than
+   `2^143` points and the weighted ellipsoid already contains over
+   `3.8*10^13` explicit sparse points. Generic exponent enumeration is
+   rejected. Make the exact sparse product and inverse equations the first
+   generator, or prove a support-propagation classification before proposing
+   computation. The exact profile target is at most 367 points modulo
    `mu_256`; retain all lower-profile charges after paying it.
 
 No broad local or Modal census is authorized. Large exact relation searches

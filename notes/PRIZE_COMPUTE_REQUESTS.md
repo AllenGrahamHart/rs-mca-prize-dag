@@ -10045,18 +10045,18 @@ is found.
 
 #### CR-E1-PROFILE-36-CHARACTER-ELLIPSOID: certified sparse-associate preflight
 
-**Status:** PROOF REDUCTION COMPLETE; NO ENUMERATION AUTHORIZED.
+**Status:** PREFLIGHT COMPLETE; GENERIC ENUMERATION REJECTED.
 
 The proved `e1_conductor256_character_diagonal_exponent_router` replaces an
 unbounded rank-63 unit search by one finite character-diagonal exponent
-region for each fixed cofactor. A first implementation must do only the
-following:
+region for each fixed cofactor. A certified tiny implementation has completed
+steps 1--2 below. Any future implementation must begin at step 3:
 
 ```text
-1. certify outward intervals for all 63 nontrivial Fourier eigenvalues;
-2. derive the exact conservative integer coordinate box and weighted
-   ellipsoid for each live (p,mu) row;
-3. implement exact circular-unit multiplication and inversion in
+1. DONE: certify outward intervals for all 63 nontrivial Fourier eigenvalues;
+2. DONE: derive the conservative integer coordinate and Euclidean envelopes;
+3. implement a **sparse-first** circular-unit multiplication and inversion
+   recurrence in
    Z[X]/(X^128+1);
 4. apply the cofactor boxes 1006,503,251,125 before the anchor product;
 5. retain only exact profile-(3,6,S=18) products;
@@ -10065,11 +10065,15 @@ following:
 
 A floating-point FFT may guide subdivision but cannot accept or reject a
 vector. Every boundary comparison uses directed intervals, and every
-retained vector is replayed by exact ring arithmetic. The first pilot must
-stop after the interval table and count projection; it may not enumerate the
-full box. If the projection is not conservatively under five minutes and
-`$1`, package the exact interval table, subdivision order, atomic checkpoint
-format, and independent checker as an external contributor request. PASS of
+retained vector is replayed by exact ring arithmetic. The completed
+projection gives `|xi_t|<=7`, `sum xi_t^2<=101`, exactly
+`16616854517524950208619690062355423946568371` coarse zero-sum vectors, and
+at least `38,482,585,013,041` explicit vectors inside the weighted ellipsoid.
+Therefore coordinate-, Euclidean-, and ellipsoid-first enumeration are all
+rejected; no fleet request should merely scale them up. A new request becomes
+admissible only after an algebraic sparse-product/inverse recurrence has a
+conservative state count under the limits, or after a small pilot establishes
+early pruning independent of floating point. PASS of
 the eventual enumeration requires a complete torsion-orbit count across
 `mu=1,2,3,4` and comparison with `367`; it still does not pay lower-weight
 profiles. No Modal credit is allocated by this entry.
