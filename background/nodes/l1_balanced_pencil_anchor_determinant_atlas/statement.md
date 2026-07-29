@@ -75,6 +75,30 @@ For a codeword point `N=WP`, `(DA4c)` is the global Pade identity
 W(P-P_0)=gamma Delta_0 L_0.                           (DA4e)
 ```
 
+Euclidean-divide
+
+```text
+Delta_0J=Q_Delta W_0+R_Delta,       deg R_Delta<omega. (DA4f)
+```
+
+Then the monic condition forces
+
+```text
+T=1-Q_Delta,       W_Delta=W_0+R_Delta.               (DA4g)
+```
+
+The complete exact shell has the one-parameter-polynomial bijection
+
+```text
+exact shell at m
+  <-> {Delta in F[Z]_(<=s-1):
+       W_Delta|Omega,
+       gcd(Delta,1-Q_Delta)=1}.                        (DA4h)
+```
+
+For every split point in `(DA4h)`, divisibility `W_Delta|N_Delta` is
+automatic; the gcd is precisely the complete-agreement/content guard.
+
 ## Exact neighbor certificate
 
 For a distinct exact member put
@@ -162,7 +186,8 @@ program: `j=0` is a paid projective pencil, while `j>=1` is a
 dimension-at-most-`j+1` split linear system with an exact root-matroid basis
 ledger. Equations `(DA4b)--(DA4e)` coalesce all owner charts into one
 received-word-dependent Pade family; they do not bound the realized gcd
-strata of that family.
+strata of that family. Equation `(DA4h)` is the sharpened global target: a
+primitive split-divisor count in one fixed quotient/remainder graph.
 
 ## Falsifier
 

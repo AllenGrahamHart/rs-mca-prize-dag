@@ -16,3 +16,8 @@ The Bezout-dual formula `W(P-P_0)=gamma Delta_0L_0` is the direct
 arbitrary-word Pade interface requested by upstream's list-interior lane.
 It proves that all fixed-owner pencils are gcd strata of one affine family;
 it does not supply the row-sharp maximum over that family.
+
+The quotient/remainder form `(DA4h)` is the exact arbitrary-word
+`U_list_int` atom in anchor coordinates. It is a primitive split-divisor
+graph, not the fixed-column locator-prefix Q atom; a row-sharp theorem for
+this graph or a proved transport to Q is still required.

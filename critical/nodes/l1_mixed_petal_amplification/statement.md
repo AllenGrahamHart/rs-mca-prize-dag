@@ -1324,6 +1324,23 @@ Thus all common-complement owners are exact gcd strata inside one
 received-word Pade family, and every fixed-owner quotient is the explicit
 remainder graph `Y=X+rem_X((R/gamma)J)`.
 
+More globally, if
+
+```text
+Delta_0J=Q_Delta W_0+R_Delta,
+```
+
+then the complete exact shell is bijective to
+
+```text
+{Delta_0 in F[Z]_(<=s-1):
+ W_0+R_Delta divides Omega,
+ gcd(Delta_0,1-Q_Delta)=1}.
+```
+
+Split numerator divisibility is automatic. The gcd is exactly the
+complete-agreement/content guard.
+
 The `j=0` chamber is precisely a paid one-parameter moving-root pencil. This
 does not promote L1: the possible common-complement owners can be
 exponentially numerous, and growing `j` remains unaggregated. The missing

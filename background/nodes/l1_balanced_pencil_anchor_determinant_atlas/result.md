@@ -9,6 +9,13 @@ W(P-P_0)=gamma Delta_0L_0,
 W=Delta_0J mod W_0,       gcd(J,W_0)=1.
 ```
 
+Writing `Delta_0J=Q_Delta W_0+R_Delta` gives the exact shell bijection
+
+```text
+Delta_0  <->  W_Delta=W_0+R_Delta,
+W_Delta|Omega,       gcd(Delta_0,1-Q_Delta)=1.
+```
+
 For every neighbor,
 
 ```text

@@ -929,3 +929,8 @@
   `W(P-P_0)=gamma Delta_0L_0` and the unit residue multiplier
   `W=Delta_0J mod W_0` as the global Pade chart; do not rebuild one affine
   pencil independently for every gcd owner.
+  Equivalently, Euclidean-divide `Delta_0J` by `W_0` and attack the single
+  primitive split graph
+  `W_Delta=W_0+R_Delta`, `gcd(Delta_0,1-Q_Delta)=1`. This is the exact
+  arbitrary-word interior atom. It is not the fixed-column locator-Q atom
+  until a row-sharp map transport is proved.

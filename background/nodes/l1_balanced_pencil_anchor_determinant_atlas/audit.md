@@ -19,6 +19,14 @@
   whole monic coefficient body, stronger than the exact-neighbor argument.
 - Cancelling the fixed owner in that congruence gives the remainder graph
   `(DA7a)`; monicity supplies the added `X` term.
+- Euclidean quotient/remainder against monic `W_0` forces
+  `T=1-Q_Delta`; this is an identity, not a choice of normalization.
+- The anchor/dual coefficient transformation is unimodular, so it preserves
+  the coefficient-content ideal. The exact guard is therefore precisely
+  `gcd(Delta,1-Q_Delta)=1`.
+- For a split `W_Delta`, the common gcd with `W_0` cancels from `Delta`, and
+  the remaining denominator divides `L_0`. This proves automatic numerator
+  divisibility in `(DA4h)`.
 - The deficiency identities have been checked in both coordinate systems:
   `j=k-1-deg G` and `h=w+1+j`.
 - The quotient system contains `X=W_0/D`, which is nonzero on all anchor

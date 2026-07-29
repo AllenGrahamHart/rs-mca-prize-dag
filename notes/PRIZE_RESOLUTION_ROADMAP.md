@@ -8620,6 +8620,11 @@ global Pade transport:
   choose the Bezout-dual denominator J with gcd(J,W_0)=1
   W(P-P_0)=gamma Delta_0L_0 and W=Delta_0J mod W_0
   every owner is one gcd stratum of this single affine family
+global exact-shell normal form:
+  Delta_0J=Q_Delta W_0+R_Delta
+  W_Delta=W_0+R_Delta
+  exact iff W_Delta|Omega and gcd(Delta_0,1-Q_Delta)=1
+  split numerator divisibility is automatic
 exact owner recovery:
   Delta_0=(D/gamma)R
   D=gcd(W_0,W)=gcd(Delta_0,W_0)
@@ -8633,7 +8638,8 @@ fixed-D payment:
 route verdict:
   coefficient multiplicity, owner ambiguity, and fixed-owner split
   multiplicity are closed exactly
-  the live theorem is aggregate coalescence across D and growing j
+  all owners are represented in one primitive quotient/remainder graph
+  the live theorem is a row-sharp count or typed transport of that graph
 scope fence:
   the number C(omega,s-1-j) of possible D owners can be exponential;
   no row reserve, L1 status, or Prize status movement
