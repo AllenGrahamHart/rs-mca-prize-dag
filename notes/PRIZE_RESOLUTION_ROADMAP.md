@@ -7908,6 +7908,15 @@ estimated total cost: still below $0.01
 status: source-complete, AST-only validation, unrun; Modal spend-blocked
 compute spend: none
 DAG delta: none; this consumes the new J-zero affine router
-next route-deciding action: bank the router upstream, then continue exact
-                              hand elimination while all Modal work waits
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1120
+  commit: 38b4c8b5dc08143ee7d284bd0e53b8197175ce64
+  combined verifier:
+    bb5af22c100f06117b1a9165c0afaad86f09576e697571ae8c0bc7e6f75bef13
+  launcher/checker parity:
+    85ec64690ef625ec3f1e4f1815b95064ad85698d36e4a07826aa9ad6f51827ab
+    b89c741dbe723d8ee49992f437b6973f9f0559e4cd68105428de24a72e0aef46
+  export state at pin: OPEN, DRAFT, MERGEABLE
+next route-deciding action: continue exact hand elimination on the retained
+                              h=7 endpoint while all Modal work waits
 ```
