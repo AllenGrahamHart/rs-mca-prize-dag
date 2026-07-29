@@ -934,3 +934,7 @@
   `W_Delta=W_0+R_Delta`, `gcd(Delta_0,1-Q_Delta)=1`. This is the exact
   arbitrary-word interior atom. It is not the fixed-column locator-Q atom
   until a row-sharp map transport is proved.
+  At each fixed owner, minimize the root-matroid ceiling with the rank-free
+  local Johnson packing
+  `binom(m,j+1)/binom(w+1+j,j+1)` before retaining it. Do not assume either
+  bound dominates for all realized ranks.

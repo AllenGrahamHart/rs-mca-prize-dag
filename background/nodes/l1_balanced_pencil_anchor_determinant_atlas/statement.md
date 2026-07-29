@@ -165,11 +165,23 @@ one-parameter moving-root payment
 |C_D|<=floor(m/(w+1)).                                  (DA11)
 ```
 
+Independently of `r_D`, exact codeword distance gives the fixed-owner
+packing
+
+```text
+|C_D| <= floor( binom(m,j+1)/binom(w+1+j,j+1) ).       (DA11a)
+```
+
+Use the minimum of `(DA10)` and `(DA11a)`; they coincide when `j=0`.
+
 Summing only this proved fixed-owner bound gives
 
 ```text
 N_j <= binom(omega,s-1-j)
-       max_(1<=r<=j+1) floor(binom(m,r)/(w+j-r+2)),     (DA12)
+       min{
+         floor(binom(m,j+1)/binom(w+1+j,j+1)),
+         max_(1<=r<=j+1) floor(binom(m,r)/(w+j-r+2))
+       },                                               (DA12)
 ```
 
 where `N_j` is the number of neighbors with common-agreement deficiency

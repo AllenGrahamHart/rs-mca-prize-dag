@@ -198,5 +198,25 @@ anchor's `m` agreement points. Counting the available `r_D`-subsets proves
 
 which is `(DA10)`. For `j=0`, `(DA9)` forces `r_D=1` and `(11)` gives
 `h=w+1`, proving `(DA11)`. Finally there are
-`binom(omega,s-1-j)` possible degree-`s-1-j` divisors of `W_0`; summing
-`(DA10)` and maximizing over the permitted `r_D` proves `(DA12)`. QED.
+`binom(omega,s-1-j)` possible degree-`s-1-j` divisors of `W_0`.
+
+For the rank-free fixed-owner payment, take two distinct neighbors in
+`C_D`. Their degree-below-`k` codewords agree with each other on at most
+`k-1` domain points. Since both individual agreement sets have size `m`,
+their complement locators satisfy
+
+```text
+deg gcd(W_1,W_2)<=n-2m+k-1=s-1.                      (15)
+```
+
+Writing `W_i=DY_i` and `deg D=s-1-j` gives
+
+```text
+deg gcd(Y_1,Y_2)<=j.                                  (16)
+```
+
+Every `Y_i` is an `h=w+1+j` subset of the anchor's `m` agreement points.
+Consequently no `(j+1)`-subset belongs to two different `Y_i`. Counting
+these subsets proves `(DA11a)`. Summing the minimum of `(DA10)` and
+`(DA11a)` over the possible `D`, and maximizing the former over its unknown
+realized rank, proves `(DA12)`. QED.

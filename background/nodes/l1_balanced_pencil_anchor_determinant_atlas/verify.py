@@ -81,11 +81,13 @@ def main() -> None:
     assert "Y=X+rem_X((R/gamma)J)" in statement
     assert "W_Delta=W_0+R_Delta" in statement
     assert "gcd(Delta,1-Q_Delta)=1" in statement
+    assert "binom(m,j+1)/binom(w+1+j,j+1)" in statement
     assert "|C_D| <= floor( binom(m,r_D)/(h-r_D+1) )" in statement
     assert "may be exponential" in statement
     assert "A loopless rank-`r` matroid" in proof
     assert "form a unimodular basis" in proof
     assert "as ideals of `F[Z]`" in proof
+    assert "deg gcd(Y_1,Y_2)<=j" in proof
 
     print(f"L1_BALANCED_PENCIL_ANCHOR_DETERMINANT_ATLAS_PASS checks={checks}")
 

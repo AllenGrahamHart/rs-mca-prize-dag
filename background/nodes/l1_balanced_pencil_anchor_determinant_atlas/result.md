@@ -27,5 +27,6 @@ At common-agreement deficiency `j`, fixing the recovered common complement
 puts all neighbors in a split linear system of projective dimension at most
 `j+1`, with quotient remainder graph `Y=X+rem_X((R/gamma)J)`. Its exact
 root-matroid basis ledger gives `(DA10)`. The `j=0` chamber is Przemek's
-one-parameter moving-root pencil. Aggregate ownership across the possible
-common complements remains open.
+one-parameter moving-root pencil. Exact codeword distance independently gives
+the rank-free fixed-owner ceiling `(DA11a)`; the two bounds are minimized.
+Aggregate ownership across the possible common complements remains open.

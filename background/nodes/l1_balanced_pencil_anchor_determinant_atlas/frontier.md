@@ -6,6 +6,9 @@ The theorem removes three possible ambiguities from the global L1 route:
 2. common-complement ownership: `D=gcd(Delta_0,W_0)` is canonical;
 3. fixed-owner split multiplicity: `(DA10)` pays it by root-matroid bases.
 
+The rank-free local Johnson payment `(DA11a)` supplies a second exact
+fixed-owner ceiling; each chart uses the better of the two.
+
 The Bezout-dual identity also places every owner in one global Pade family;
 the owners are exact gcd strata of `Delta_0` against `W_0`, not unrelated
 charts.

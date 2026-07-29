@@ -26,6 +26,10 @@ form `W_Delta=W_0+R_Delta`. The unimodular coefficient change identifies
 exactness with `gcd(Delta,1-Q_Delta)=1`, yielding the exact bijection
 `(DA4h)`.
 
+The fixed-owner family also obeys `(DA11a)` by the ordinary RS intersection
+bound on two distinct exact codewords. This bound is independent of the
+realized projective rank and is minimized with `(DA10)`.
+
 ## Guards
 
 1. The shell is in the balanced band `2m<=n+k-1`; equivalently `s>=1`.

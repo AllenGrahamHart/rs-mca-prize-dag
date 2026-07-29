@@ -1313,6 +1313,14 @@ injection gives the exact per-owner ceiling
 floor(binom(m,r)/(w+j-r+2)),       1<=r<=j+1.
 ```
 
+Exact codeword distance gives the independent rank-free per-owner ceiling
+
+```text
+floor(binom(m,j+1)/binom(w+1+j,j+1)).
+```
+
+Every owner uses the better of the two bounds.
+
 A Bezout-dual module vector gives the stronger global interface
 
 ```text

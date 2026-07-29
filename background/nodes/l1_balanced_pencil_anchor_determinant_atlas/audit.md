@@ -35,6 +35,11 @@
   line spanned by the locator. No generic-rank assumption is imported.
 - `(DA10)` counts each independent root basis only once. It does not count
   all root subsets as independent.
+- `(DA11a)` uses all `(j+1)`-subsets for a different reason: two exact
+  neighbor codewords cannot share more than `k-1` agreements, so their
+  fixed-owner quotient root sets intersect in at most `j` points.
+- Neither fixed-owner bound dominates uniformly; the theorem retains their
+  minimum rather than silently assuming full projective rank.
 - The exponential factor in `(DA12)` is printed rather than hidden. This is
   a bridge and a fixed-owner payment, not an L1 closure.
 - No local large computation or Modal run is used.

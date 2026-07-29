@@ -8634,6 +8634,9 @@ fixed-D payment:
   Y=X+rem_X((R/gamma)J)
   root-matroid bases give
     |C_D|<=floor(C(m,r)/(h-r+1))
+  exact codeword distance independently gives
+    |C_D|<=floor(C(m,j+1)/C(h,j+1))
+  use the smaller bound
   j=0 specializes to floor(m/(w+1)), the one-pencil moving-root cap
 route verdict:
   coefficient multiplicity, owner ambiguity, and fixed-owner split
