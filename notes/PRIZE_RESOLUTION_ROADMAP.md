@@ -7834,7 +7834,16 @@ estimated total cost: still below $0.01
 status: source-complete, AST-only validation, unrun; Modal spend-blocked
 compute spend: none
 DAG delta: none; this consumes the existing singular-affine router
-next route-deciding action: consume only after an explicit spend-access
-                              change; meanwhile export the exact router and
-                              request extension upstream
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1120
+  commit: 9ddfb6ac70d8e2e1fcc4660ae204510c51b333a8
+  combined verifier:
+    82feb2820f1539b9c3da69ebbfbf0c6b84bfede5ae357303dc828d4d3cfabd0a
+  launcher/checker parity:
+    06e941be7bd231d993a63ebb83c0855f0798524a10e86249e9796f9b7a02f3c0
+    9174a04da730f47d594c65dbc0f0d8d20aaa8a064cc225c51ef69e68d6baf1de
+  export state at pin: OPEN, DRAFT, MERGEABLE
+next route-deciding action: consume the packet only after an explicit
+                              spend-access change; meanwhile attack the
+                              retained exceptional J_*=0 chart by hand
 ```
