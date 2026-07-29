@@ -5384,6 +5384,37 @@ next route-deciding action: continue direct E17/V34 descent while watching
                             the stack for a global owner/payment theorem
 ```
 
+**2026-07-29, KoalaBear K3 coarse-invariant route cut:** upstream PR #1122
+settles which part of the 405-case equality wall cannot close by abstract
+incidence alone.
+
+```text
+upstream source: PR https://github.com/przchojecki/rs-mca/pull/1122
+head: c93988e829e73d2f85db0eb33769bf677935afae
+status at pin: OPEN, READY FOR REVIEW
+exact abstract fixture:
+  69 records, carrier size 1894736, support 981105
+  affine/secant rank 8, full vertex-function rank 9
+  minimum pair secant distance 1053746
+  minimum directed exchange 121284
+  all 3280 projective ternary directions have distance at least 1052958
+  60 canonical bounded circuits, no singleton atoms, all printed
+  restriction-rank inequalities
+route verdict:
+  those pairwise/ternary/exchange/rank/circuit consequences do not imply
+  cap 68 and are not source-bound owner evidence
+load-bearing successor:
+  use the full arbitrary-coefficient GRS-span distance, actual split
+  locators/source quotient/cocycle, primitive Hilbert-Burch module, or a
+  same-record active owner while classifying the 405 live conic cases
+scope fence:
+  abstract fixture only; no GRS embedding, received line, slope, partition,
+  charge, row atom, endpoint, local DAG status, or Prize movement
+independent replay:
+  Python PASS checks=960747; optimized Python PASS; mutations 42/42 rejected
+compute spend: none; local exact replay used under RAMguard, peak input 76 KiB
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every
