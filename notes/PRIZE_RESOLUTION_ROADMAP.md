@@ -7360,3 +7360,22 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: inspect the C_1=C_0 exceptional parameter locus
                               for a hand contradiction before any elimination
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` generic double-linear-`d` router:** the
+conic and sixth coefficient provide a second exact linear eliminant.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_double_linear_d_router
+quartic cancellation: R_3=(720E_6+q Conic)/2 has degree 3 in d
+quadratic reduction: R_2=R_3-44dP_4
+second linear equation: 3R_2+(12q+366-176x)P_4=M_1d+M_0
+first linear equation: C_1d+C_0=0
+parameter determinant: Omega=C_1M_0-M_1C_0=0
+C_1!=0: reconstruct d=-C_0/C_1 in three variables
+C_1=0,M_1!=0: retain C_0=0 and reconstruct d=-M_0/M_1
+doubly singular residue: C_1=M_1=C_0=M_0=0, with d retained
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: attack the doubly singular coefficient locus by
+                              its T=G_2+6D zero/nonzero split
+```

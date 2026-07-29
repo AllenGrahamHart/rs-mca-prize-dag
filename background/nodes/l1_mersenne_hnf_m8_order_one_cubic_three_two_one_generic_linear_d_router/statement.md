@@ -90,8 +90,8 @@ C_1=C_0=P_4=E_6=Conic=Phi=0                         (GLD10)
 ```
 
 in `(x,Y,q,d)`, together with `Delta*W!=0` and every inherited saturation.
-The two additional equations `C_1=C_0=0` are independent of `d`; no
-division by their vanishing coefficient is made.
+The replacement equations `C_1=C_0=0` are independent of `d`; no division
+by their vanishing coefficient is made.
 
 Fixed numerical denominators may be cleared because every official
 characteristic exceeds five. No unit, emptiness, norm, Frobenius-converse,
