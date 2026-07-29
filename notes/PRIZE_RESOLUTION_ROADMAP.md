@@ -9011,3 +9011,21 @@ tails, with rational margins `776/5736675` and `56987/30028800`. Exact
 exponential comparisons pay the official interval. The next cofactor-514
 step is a fixed-root mod-257 screen by integral autocorrelation shape; do not
 enumerate coefficient supports before that target-level reduction.
+
+**2026-07-29, cofactor-514 middle-shape router:** the nine-energy window is
+now partitioned by autocorrelation magnitudes and filtered before any lag
+census.
+
+```text
+integral magnitude profiles before:   32
+energy-five sparse profile removed:   (1,1,0), above p_max
+high-middle L1 boundaries removed:    (9,3),(10,6),(11,7),(12,10),(13,11)
+integral magnitude profiles after:    17
+E=12 and E=13 survivors:              all-unit only
+```
+
+One common high-middle deficit `69/50` and five exact atanh endpoint margins
+pay the downward-closed `L1` classes; the sparse energy-five profile uses a
+separate lower envelope. Next impose local multiplicity two and the fixed
+primitive-root equation modulo 257 on these 17 shape families. This is still
+an autocorrelation-target problem, not a coefficient-support census.

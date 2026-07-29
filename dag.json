@@ -3322,6 +3322,24 @@
    "notes": "ANALYTIC COFACTOR-514 CONTRACTION 2026-07-29: rational atanh margins and exact exponential comparisons remove nine of eighteen energy values without a support or norm census. Energies 5 through 13 and all 128 prime ideals above 257 remain; no E1 close or Prize movement."
   },
   {
+   "id": "e1_profile210_m514_middle_shape_log_router",
+   "title": "E1 profile-(2,10) cofactor-514 middle-shape logarithm router",
+   "status": "PROVED",
+   "closure": "exact shape-sensitive bounded-deviation logarithm bounds",
+   "refs": [
+    "background/nodes/e1_profile210_m514_middle_shape_log_router/statement.md",
+    "background/nodes/e1_profile210_m514_middle_shape_log_router/proof.md",
+    "background/nodes/e1_profile210_m514_middle_shape_log_router/claim_contract.md",
+    "background/nodes/e1_profile210_m514_middle_shape_log_router/dependency_subdag.md",
+    "background/nodes/e1_profile210_m514_middle_shape_log_router/audit.md",
+    "background/nodes/e1_profile210_m514_middle_shape_log_router/result.md",
+    "background/nodes/e1_profile210_m514_middle_shape_log_router/frontier.md",
+    "background/nodes/e1_profile210_m514_middle_shape_log_router/verify.py"
+   ],
+   "statement": "Among the 32 integral autocorrelation magnitude profiles in the live cofactor-514 energy window 5 through 13, exact shape-sensitive logarithm bounds exclude 15 and leave the printed 17-profile ledger. In particular energies 12 and 13 are reduced to their all-unit profiles.",
+   "notes": "MIDDLE-SHAPE ROUTER 2026-07-29: one sparse energy-five profile lies above the field ceiling and five downward-closed L1 classes lie below the field floor. The proof uses rational atanh and exponential bounds only. Signed lags, local multiplicity, mod-257 compatibility, and support realizability remain; no E1 close or Prize movement."
+  },
+  {
    "id": "e1_n512_four_singleton_collision_exclusion",
    "title": "N=512 four-singleton E1 collision exclusion",
    "status": "PROVED",
@@ -40329,6 +40347,21 @@
   },
   {
    "from": "e1_profile210_m514_outer_energy_log_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_m514_outer_energy_log_exclusion",
+   "to": "e1_profile210_m514_middle_shape_log_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_profile210_m514_middle_shape_log_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m514_middle_shape_log_router",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   }
