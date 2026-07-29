@@ -19677,6 +19677,26 @@
    "notes": "Exact field-of-definition router only. No factorization was run; common-gcd, role, saturation, arithmetic-lift, other-shape, and critical closure obligations remain open."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one J-zero outer-lift compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "A retained J-zero role candidate has a finite exact outer replay in F_(p^8): reconstruct its normalized cubic color polynomial, check one norm and one degree-six pointwise Frobenius congruence, and full P|W^(8(p+1))-1 follows.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/verify.py",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler/verify_audit.py"
+   ],
+   "notes": "Exact outer-lift compiler only. Common roots, guards, norm/pointwise outcomes, the separate inner lift, other h=7 shapes, and the critical target remain open."
+  },
+  {
    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler",
    "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional structural-consistency compiler",
    "status": "PROVED",
@@ -37320,6 +37340,36 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

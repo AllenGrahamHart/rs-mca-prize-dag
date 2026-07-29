@@ -8157,3 +8157,40 @@ next route-deciding action: when spend access is explicitly restored, run
                               and replay all four rows; meanwhile attack the
                               remaining saturation/lift interface by hand
 ```
+
+**2026-07-29, L1 h=7 J-zero outer-lift compiler:** a retained official role
+candidate now has one exact finite outer replay rather than four vague lift
+labels.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler
+field: K=F_(p^8); eta and mu_8 lie in its quadratic subfield
+normalized role enumeration:
+  (beta,gamma) in (mu_8\{1})^2, beta!=gamma,
+  eta=(beta-1)/(gamma-beta)                         at most 42 pairs
+reconstruction:
+  Q=W^2+(g_1+y)W+v
+  G=Q(W)(W-y)
+  F=G+aQ+B
+  L=FG
+  E_norm=1+(beta-1)F/B
+exact color values: 1 on F, beta on Q, gamma at y
+outer replay:
+  zeta=d^(p+1), zeta^8=1
+  W^(p+1)=tau E_norm mod L for some tau in mu_8
+consequence:
+  P=(W+1/d)L divides W^(8(p+1))-1
+  c^p=1+zeta/d
+complexity: modular powering only modulo degree-six L; no degree-n object
+scope fence: no common-root, guard, norm, or congruence outcome; no inner
+             lift; no other h=7 shape; no critical status flip
+checker state: primary and independent audit sources written; AST-only
+               local validation; unexecuted
+checker hashes:
+  verify.py       da75ed3e542d03bc03f97e2c0038eb03f003e871d806152f5ee8c90a6b1c3c5e
+  verify_audit.py a40dcd461807ab3fbdb1ee8b16c1e2776c99b2db0f6321b2487fb6645a138191
+compute spend: none
+DAG delta: one PROVED background node and six edges; no critical status flip
+next route-deciding action: compile the full inherited guard product into
+                              per-factor and per-role rejection reasons
+```

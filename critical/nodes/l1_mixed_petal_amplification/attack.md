@@ -878,3 +878,15 @@
   polynomial `F(d)` and test its gcd with `X^(p+1)-zeta` for the eight
   colors on each official row. This is 32 tiny gcd packets, not a generic
   elimination. Keep the collision-free and one-repeat chambers separate.
+
+- For a retained exceptional-`J_*=0` cubic `3+2+1` role factor, consume
+  `l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler`.
+  Work in the proved generated field `F_(p^8)`, match the role root against
+  at most 42 normalized ordered color pairs, and reconstruct the normalized
+  cubic color polynomial from `F,G,B`. Check the inherited guards, one norm
+  `d^(p+1) in mu_8`, and one assignment-preserving congruence
+  `W^(p+1)=tau E mod L` for `tau in mu_8`. These imply the full outer
+  divisibility `P|W^(8(p+1))-1`; do not construct a degree-`n` remainder or
+  rerun a separate reciprocal surrogate. A retained candidate still owes
+  the independent global inner lift. This compiler is not an emptiness
+  result and does not apply to the other h=7 shapes.
