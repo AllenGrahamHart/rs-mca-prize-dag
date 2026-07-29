@@ -3503,24 +3503,44 @@
     "experiments/prize_resolution/e1_profile018_m514_low_energy_root_search_modal.py"
    ],
    "statement": "Assuming the exact Q(zeta_128) prime-257 class-orbit certificate, at most two, hence at most five, of the 128 degree-one ideals above 257 are occupied in one fixed binding-row prime/root fiber.",
-   "notes": "CLASS-DESCENT DECOMPOSITION 2026-07-29: occupied Q_s share one class in Q(zeta_256); ideal norm descends them to equal classes in Q(zeta_128). Pairwise class separation below leaves one lower prime and its two upper extensions. The class-orbit replay is the sole open premise."
+   "notes": "CLASS-DESCENT DECOMPOSITION 2026-07-29: occupied Q_s share one class in Q(zeta_256); ideal norm descends them to equal classes in Q(zeta_128). Pairwise class separation below leaves one lower prime and its two upper extensions. Two explicit nonprincipality tests are the sole open premise."
+  },
+  {
+   "id": "e1_qzeta128_p257_two_involution_nonprincipality_certificate",
+   "title": "Q(zeta_128) prime-257 two-involution nonprincipality certificate",
+   "status": "TARGET",
+   "refs": [
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/statement.md",
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/claim_contract.md",
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/dependency_subdag.md",
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/attack.md",
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/frontier.md",
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/audit.md",
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/result.md",
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/verify.py"
+   ],
+   "statement": "Unconditionally certify that the explicit ideals (257,zeta-9)(257,zeta-57) and (257,zeta-9)(257,zeta-248) are both nonprincipal in Q(zeta_128).",
+   "notes": "MINIMUM CLASS-ORBIT LEAF 2026-07-29: these two tests exclude the two non-complex involutions in (Z/128Z)^x. Published coordinates predict detection in the 21121- and 17-primary class components, but an unconditional exact replay remains open."
   },
   {
    "id": "e1_qzeta128_p257_class_orbit_certificate",
    "title": "Q(zeta_128) prime-257 class-orbit certificate",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
+   "closure": "conditional two-involution reduction",
    "refs": [
     "background/nodes/e1_qzeta128_p257_class_orbit_certificate/statement.md",
+    "background/nodes/e1_qzeta128_p257_class_orbit_certificate/proof.md",
     "background/nodes/e1_qzeta128_p257_class_orbit_certificate/claim_contract.md",
     "background/nodes/e1_qzeta128_p257_class_orbit_certificate/source_evidence.md",
     "background/nodes/e1_qzeta128_p257_class_orbit_certificate/dependency_subdag.md",
     "background/nodes/e1_qzeta128_p257_class_orbit_certificate/attack.md",
     "background/nodes/e1_qzeta128_p257_class_orbit_certificate/frontier.md",
     "background/nodes/e1_qzeta128_p257_class_orbit_certificate/audit.md",
-    "background/nodes/e1_qzeta128_p257_class_orbit_certificate/result.md"
+    "background/nodes/e1_qzeta128_p257_class_orbit_certificate/result.md",
+    "background/nodes/e1_qzeta128_p257_class_orbit_certificate/verify.py"
    ],
-   "statement": "Unconditionally certify that the 64 degree-one prime ideals above 257 in Q(zeta_128) have pairwise distinct ideal classes.",
-   "notes": "EXACT CERTIFICATE LEAF 2026-07-29: Bernstein's pinned S-unit talk prints Cl=Z/359057, base-prime class 1, and Galois multipliers -1 and 29301. Tiny arithmetic verifies that these data give 64 distinct classes, but the class-group calculation has not yet received the required independent replay."
+   "statement": "Assuming nonprincipality of the two explicit involution products q_1 q_63 and q_1 q_65, the 64 degree-one prime ideals above 257 in Q(zeta_128) have pairwise distinct ideal classes.",
+   "notes": "TWO-INVOLUTION REDUCTION 2026-07-29: real class number one makes conjugation invert classes, Weber oddness removes complex-conjugation stabilizers, and a nontrivial subgroup of the 64-element Galois 2-group contains one of its three involutions. The exact open premise is only two nonprincipality tests."
   },
   {
    "id": "e1_profile018_qzeta128_class_descent_two_ideal_bound",
@@ -40939,6 +40959,16 @@
    "from": "e1_profile018_m514_five_ideal_occupancy",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
+  },
+  {
+   "from": "e1_qzeta128_p257_two_involution_nonprincipality_certificate",
+   "to": "e1_qzeta128_p257_class_orbit_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "e1_conductor256_full_unit_circular_basis",
+   "to": "e1_qzeta128_p257_class_orbit_certificate",
+   "kind": "req"
   },
   {
    "from": "e1_qzeta128_p257_class_orbit_certificate",

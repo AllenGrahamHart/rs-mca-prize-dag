@@ -53,7 +53,7 @@ def main() -> None:
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
     edges = {(edge["from"], edge["to"], edge["kind"]) for edge in dag["edges"]}
-    assert nodes[CERT]["status"] == "TARGET"
+    assert nodes[CERT]["status"] == "CONDITIONAL"
     assert nodes[DESCENT]["status"] == "CONDITIONAL"
     assert nodes[NODE]["status"] == "CONDITIONAL"
     assert nodes[TARGET]["status"] == "TARGET"

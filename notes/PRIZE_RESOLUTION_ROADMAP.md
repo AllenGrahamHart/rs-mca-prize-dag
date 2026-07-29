@@ -9339,12 +9339,29 @@ and it has exactly two upper extensions.
 Bernstein's pinned S-unit talk prints the exact class index, assigns the base
 prime class one, and gives the two Galois multipliers. Exact integer
 arithmetic confirms that `{+/-29301^j:0<=j<32}` contains 64 classes. The
-released software does not expose the load-bearing n=64 class computation,
-so repository discipline leaves one red certificate:
-`e1_qzeta128_p257_class_orbit_certificate`. The descent theorem and the
-five-ideal target are amber conditional on that leaf. Do not resume the
-10-profile search on the serial route; first obtain an unconditional primary
-class-group certificate and an independent exact replay.
+released software does not expose the load-bearing n=64 class computation.
+
+The class-orbit theorem has now been reduced without assuming those printed
+coordinates. The Galois group `(Z/128Z)^x` is a 64-element 2-group with
+exactly three nonidentity involutions `63,65,127`. The proved
+conductor-256 real class-number theorem descends to real class number one at
+conductor 128 by extension/norm and Weber oddness, so complex conjugation
+acts by class inversion. It is therefore enough to prove that the two
+explicit ideals
+
+```text
+(257,zeta_128-9)(257,zeta_128-57),
+(257,zeta_128-9)(257,zeta_128-248)
+```
+
+are nonprincipal. They exclude involutions 65 and 63; either also makes the
+base class nontrivial, while odd class number excludes involution 127. Every
+nontrivial stabilizer would contain an involution. Thus repository discipline
+now leaves the narrower red certificate
+`e1_qzeta128_p257_two_involution_nonprincipality_certificate`; the original
+class-orbit node is amber with a complete conditional proof. Do not resume
+the 10-profile search on the serial route; first obtain unconditional primary
+and independent certificates for these two products.
 
 The stronger bound must be priced directly rather than routed through the
 older five-ideal threshold. The conditional payment leaves residual
@@ -9359,7 +9376,7 @@ result:                              NARROWED
 profile-specific live rows:          10 -> bypassed
 occupancy threshold under leaf:      5 -> 2
 next-profile cap under leaf:          329 -> 1971
-new exact assumptions:               one class-orbit certificate
+new exact assumptions:               two nonprincipality tests in one leaf
 live compute request:                CR-E1-QZETA128-P257-CLASS-ORBIT
-next route-deciding action:          certify/replay the 64-prime class orbit
+next route-deciding action:          certify q_1*q_63 and q_1*q_65 nonprincipal
 ```
