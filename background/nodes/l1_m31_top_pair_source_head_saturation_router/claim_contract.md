@@ -8,6 +8,8 @@
 - Every head fiber has at most `458,812` members.
 - A violating proper family uses at least five head values and has at least
   `1,699,117` full-degree source members.
+- The original dense anchor forces at least `71,643,276` distinct colored
+  core cells.
 - One full-degree anchor has at least `107,897` top neighbors and the stated
   core and colored-core shadow floors.
 

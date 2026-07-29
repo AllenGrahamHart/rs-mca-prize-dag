@@ -17,6 +17,9 @@ fiber_cap = numerator // denominator
 assert 4 * fiber_cap < M0 <= 5 * fiber_cap
 assert M0 - fiber_cap == 1_699_117
 
+dense_anchor_degree = 215_793
+assert dense_anchor_degree * t // 15 == 71_643_276
+
 anchor_degree = 107_897
 assert 20 * (anchor_degree - 1) <= M0 - 1 < 20 * anchor_degree
 assert (anchor_degree + 13) // 14 == 7_707
@@ -26,5 +29,6 @@ assert anchor_degree * t // 15 == 35_821_804
 print(
     "L1_M31_TOP_PAIR_SOURCE_HEAD_SATURATION_PASS "
     f"fiber_cap={fiber_cap} full_head_floor={M0-fiber_cap} "
-    f"anchor_degree={anchor_degree}"
+    f"dense_colored_core_floor={dense_anchor_degree*t//15} "
+    f"full_head_anchor_degree={anchor_degree}"
 )

@@ -13,4 +13,6 @@
    intersection `t-1`, not `t`.
 6. The line cap for a fixed `(core,head)` pair is `15`; the anchor is not on
    that translated line, so no subtraction is made.
-7. All large floors are lower bounds on spread. None is an upper payment.
+7. The `71,643,276` colored-core floor uses the original `215,793` dense
+   anchor and does not require the anchor itself to have nonzero head.
+8. All large floors are lower bounds on spread. None is an upper payment.

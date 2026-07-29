@@ -79,7 +79,20 @@ deg b_i=g-q_i-w-1=deg G_i-w-1,
 deg f_i=d-1.
 ```
 
-## 3. A nonzero-head dense anchor
+## 3. Dense and nonzero-head anchors
+
+The original dense-top predecessor supplies an anchor of degree at least
+`215793`. For a fixed degree-`4979` core `R` and fixed neighbor head
+`gamma_j`, the scalar in `(HS2)` is fixed. Writing the direction as
+`R(X-alpha)` puts all such neighbors in one affine codeword line. The
+affine-span line cap is `15`; the anchor is not on this translated line.
+Double counting the `4980` cores of each neighbor therefore gives
+
+```text
+215793*4980/15=71643276
+```
+
+distinct `(R,gamma_j)` pairs around that anchor.
 
 The dense-top predecessor gives more than `C(M,2)/10` top edges. Every top
 edge has at least one nonzero-head endpoint. Hence the sum of top degrees
@@ -99,10 +112,7 @@ ceil(107897/14)=7707 directions,
 ceil(107897*4980/240)=2238863 degree-4979 cores.
 ```
 
-For a fixed degree-`4979` core `R` and fixed neighbor head `gamma_j`, the
-scalar in `(HS2)` is fixed. Writing the direction as `R(X-alpha)` puts all
-such neighbors in one affine codeword line. The affine-span line cap is
-`15`. Double counting neighbor/core incidences therefore gives
+Applying the same colored-core count to this nonzero-head anchor gives
 
 ```text
 107897*4980/15=35821804

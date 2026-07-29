@@ -22,4 +22,4 @@ replay: symbolic proof and two exact verifier sources; local arithmetic unrun
 This extends upstream draft PR `#1124` after its geometry-only route cut. It
 uses upstream `thm:affine-span-list` as the actual-list payment and leaves the
 cross-core aggregate open. Export custody is head commit
-`09a6d37344bb0c9e34289a992373c814e72c846c`.
+`36721bfb8538bef480048db627d0ea726f8a69f0`.

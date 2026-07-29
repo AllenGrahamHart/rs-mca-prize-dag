@@ -71,9 +71,16 @@ M0-458812=1699117                                   (HS4)
 members have `gamma_i!=0`, equivalently `deg f_i=d-1` and
 `deg b_i=deg G_i-w-1`.
 
-Moreover one nonzero-head anchor has at least `107897` top neighbors. It
-forces at least `2238863` degree-`4979` cores and at least `35821804`
-distinct `(core, neighbor-head-value)` pairs.
+Moreover the original dense-top anchor, with no condition on its own head,
+forces at least
+
+```text
+215793*4980/15=71643276
+```
+
+distinct `(core, neighbor-head-value)` pairs. Separately, one nonzero-head
+anchor has at least `107897` top neighbors. It forces at least `2238863`
+degree-`4979` cores and at least `35821804` colored core pairs.
 
 ## Scope
 

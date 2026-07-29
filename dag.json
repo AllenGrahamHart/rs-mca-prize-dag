@@ -20642,7 +20642,7 @@
    "title": "M31 top-pair source-head saturation router",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "Every maximal-overlap pair in the M31 proper-G zero-excess terminal saturates the reduced source determinant: A_i b_j-A_j b_i=(gamma_j-gamma_i)gcd(H_i,H_j), so top edges join distinct source-head values. Every head fiber has at most 458812 members. A violating family therefore uses at least five head values, has at least 1699117 full-head members, and has one full-head anchor with at least 107897 top neighbors.",
+   "statement": "Every maximal-overlap pair in the M31 proper-G zero-excess terminal saturates the reduced source determinant: A_i b_j-A_j b_i=(gamma_j-gamma_i)gcd(H_i,H_j), so top edges join distinct source-head values. Every head fiber has at most 458812 members. A violating family therefore uses at least five head values, has at least 1699117 full-head members, and its dense anchor forces at least 71643276 colored core cells.",
    "refs": [
     "background/nodes/l1_m31_top_pair_source_head_saturation_router/statement.md",
     "background/nodes/l1_m31_top_pair_source_head_saturation_router/proof.md",
@@ -20656,6 +20656,26 @@
     "background/nodes/l1_m31_top_pair_source_head_saturation_router/verify_audit.py"
    ],
    "notes": "Exact source-sensitive top-edge coloring and spread reduction only. It does not aggregate head fibers, supply first-owner add-back, pay Q=147595, or move a Prize endpoint."
+  },
+  {
+   "id": "l1_m31_source_head_infinity_owner_route_cut",
+   "title": "M31 source-head infinity-owner route cut",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The source head is the extended-RS evaluation-at-infinity functional, but the existing full-projective-line deletion recurrence pays only one fixed infinity label. It cannot aggregate all head fibers, and the current head/core/cell caps alone admit arbitrary abstract neighbor mass.",
+   "refs": [
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/statement.md",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/proof.md",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/claim_contract.md",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/dependency_subdag.md",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/audit.md",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/result.md",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/lineage.md",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/upstream_crosswalk.md",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/verify.py",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/verify_audit.py"
+   ],
+   "notes": "Interface route cut only. It rules out direct reuse of the existing infinity-coordinate recurrence as an all-head owner, not a stronger coupled source theorem."
   }
  ],
  "edges": [
@@ -39711,6 +39731,16 @@
   },
   {
    "from": "l1_m31_top_pair_source_head_saturation_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m31_top_pair_source_head_saturation_router",
+   "to": "l1_m31_source_head_infinity_owner_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m31_source_head_infinity_owner_route_cut",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }

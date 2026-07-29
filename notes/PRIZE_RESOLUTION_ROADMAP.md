@@ -8425,7 +8425,7 @@ replay state: two exact verifier sources written; local arithmetic unrun
 upstream custody:
   PR: https://github.com/przchojecki/rs-mca/pull/1124
   branch: agent/m31-rank7-dense-top-router
-  head commit: 09a6d37344bb0c9e34289a992373c814e72c846c
+  head commit: 36721bfb8538bef480048db627d0ea726f8a69f0
   theorem commit: 4cd4cf79ef3a9f19dae515c27d2cc4b7126f636b
   state at pin: OPEN, DRAFT, MERGEABLE
   accepted surface: experimental/experiments.tex plus one agents-log entry
@@ -8478,7 +8478,7 @@ scope fence: no global core count, local cap 215792, Q=147595 payment,
              row close, or Prize movement
 compute spend: none; analytic use of the proved affine-span theorem
 replay state: two exact verifier sources written; local arithmetic unrun
-upstream custody: PR #1124 head 09a6d37344bb0c9e34289a992373c814e72c846c
+upstream custody: PR #1124 head 36721bfb8538bef480048db627d0ea726f8a69f0
 next route-deciding action: combine the core-shadow hierarchy with the
                               planted/external split and first-owner ledger
 ```
@@ -8498,6 +8498,8 @@ head-fiber cap:
 dangerous-family consequences:
   at least five head values
   at least 1699117 members with deg f_i=d-1
+  the original 215793-neighbor anchor forces 71643276
+  distinct (core,neighbor-head) pairs
   one nonzero-head anchor has at least 107897 top neighbors
   that anchor forces 2238863 degree-4979 cores and 35821804
   distinct (core,neighbor-head) pairs
@@ -8508,7 +8510,34 @@ scope fence: no head-spectrum bound, owner add-back, Q=147595 payment,
              row close, or Prize movement
 compute spend: none; analytic source-degree saturation
 replay state: two exact verifier sources written; local arithmetic unrun
-upstream custody: PR #1124 head 09a6d37344bb0c9e34289a992373c814e72c846c
+upstream custody: PR #1124 head 36721bfb8538bef480048db627d0ea726f8a69f0
 next route-deciding action: test the active head/projective-line owner for
                               disjoint coverage of the colored core shadow
+```
+
+**2026-07-29, M31 source-head infinity-owner route cut:** the source head is
+the extended-RS evaluation-at-infinity functional, but this does not activate
+the existing deletion owner.
+
+```text
+node proved: l1_m31_source_head_infinity_owner_route_cut
+exact interface:
+  fixing gamma is one affine hyperplane / one infinity label
+  the deletion recurrence counts agreements with one fixed received label
+route verdict:
+  one recurrence run pays at most one gamma fiber
+  changing the infinity label changes the received word
+  separate runs cannot be summed as one first-match ledger
+abstract no-go witness:
+  assign every neighbor a private head and 4980 private cores
+  head/core/colored-cell loads are all 1 for arbitrary neighbor mass
+scope fence:
+  no actual source counterexample and no obstruction to a new coupled
+  finite/infinity or Pade owner theorem
+compute spend: none; functional and incidence audit
+upstream custody: PR #1124 head 36721bfb8538bef480048db627d0ea726f8a69f0
+next route-deciding action: derive a source-sensitive aggregate from the
+                              complete reduced-determinant/Pade family, or
+                              leave M31 rank seven and attack another live
+                              critical target with a closing interface
 ```

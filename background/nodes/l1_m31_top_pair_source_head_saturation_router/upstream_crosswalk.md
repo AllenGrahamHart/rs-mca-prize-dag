@@ -12,7 +12,7 @@ architecture: M31_RANK7_PROPER_G_ZERO_EXCESS_INCIDENCE_ROUTE_CUT_V1
 atom_or_cell: source-head colored primitive top-shift aggregate
 quantifier: every actual top pair and every head fiber in the violating proper zero-excess class
 projection_and_unit: distinct LIST codewords per received word
-claimed_bound: at least five head values, at least 1699117 full-head members, and one full-head anchor with 107897 top neighbors
+claimed_bound: at least five head values, at least 1699117 full-head members, 71643276 colored core cells around the dense anchor, and one full-head anchor with 107897 top neighbors
 status: PROVED LOCAL
 impact: ROUTE REDUCTION
 falsifier: failure of determinant saturation, head coloring, constant-weight cap, or colored-core incidence
@@ -20,6 +20,6 @@ replay: symbolic proof and two exact verifier sources; local arithmetic unrun
 ```
 
 Exported in upstream draft PR `#1124`, head commit
-`09a6d37344bb0c9e34289a992373c814e72c846c`. It uses the source notation and
+`36721bfb8538bef480048db627d0ea726f8a69f0`. It uses the source notation and
 reduced determinant of upstream PR `#1113` rather than replacing them with a
 support-only model.
