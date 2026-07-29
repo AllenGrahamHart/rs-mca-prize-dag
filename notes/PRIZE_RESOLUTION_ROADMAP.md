@@ -6767,3 +6767,21 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: attack the two remaining three-color cubic
                               partitions, 3+2+1 and 2+2+2
 ```
+
+**2026-07-29, L1 h=7 cubic three-color router:** the remaining cubic packets
+with exactly three colors now have a seven-orbit bounded interface.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router
+raw color triples: C(8,3)=56
+cyclic color orbits: 7
+exact profiles: 3+2+1 and 2+2+2
+profile cores after role sharding: 7*(6+1)=49
+carrying equations: h=7 conic; six value-remainder coefficients;
+                    three nonempty-fiber resultants; exact subresultants
+row equations: adjoin d^(p+1)=zeta only to retained p-free components
+compute spend: none; contributor packet CR-L1-H7-C3-3COL recorded
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: derive hand eliminants from the three-color
+                              remainder before requesting any large run
+```

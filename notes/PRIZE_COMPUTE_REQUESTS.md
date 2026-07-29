@@ -7596,6 +7596,26 @@ the outer stage into exactly two low-dimensional tasks.
   chamber empty from the unused `W^2` coefficient and the base-field norm
   obstruction. Every other cubic partition remains open.
 
+  **Contributor request CR-L1-H7-C3-3COL:** consume
+  `l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router`. Start
+  with the seven p-free color-set representatives in (TCR1). For each one,
+  construct the monic HNF sextic `L_(r,d)`, a generic exact cubic `E`, the
+  six coefficients of
+
+  ```text
+  rem_L product_(j in T)(E-omega^j),
+  ```
+
+  and the three nonempty-fiber resultants. Saturate by the HNF denominators,
+  `d*(d+1)*r*(r-1)*g(1)*disc(L)*lc(E)`, and classify dimensions before any
+  official-row norm equation. If a color-set core survives, split it into
+  the six ordered `3+2+1` profiles and the one `2+2+2` profile using exact
+  subresultant degree; only then shard retained components by four rows and
+  eight norm colors. This is at most 49 profile cores before row sharding,
+  not 56 triples times root assignments. Use 60-second shards, emit partial
+  ideals/components after every packet, and report estimated cost before a
+  larger continuation. Do not launch on the current spend-blocked account.
+
   Before the large torsion or remainder equations, shard by `zeta in mu_m`
   and substitute
 

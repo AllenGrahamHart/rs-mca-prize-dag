@@ -755,6 +755,14 @@
   official row. Delete the complete cubic multiplicity-`3+3` chamber and
   retire `CR-L1-H7-C3-33`; no norm gcd is required.
 
+- For the remaining cubic packets using exactly three colors, consume
+  `l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router`. Work
+  with the seven cyclic color-set representatives, not all 56 triples or
+  root assignments. Impose the six value-remainder coefficients and all
+  three nonempty-fiber resultants, then split only into `3+2+1` and
+  `2+2+2` by exact subresultant degree. Apply the assignment-preserving
+  Frobenius equations only to retained components.
+
 - More generally consume
   `l1_mersenne_hnf_order_one_color_degree_barrier`. The pointwise degree-`d`
   color equations define curves of degrees `d` and `d+1`, so `H<=d(d+1)`.
