@@ -8,11 +8,11 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_profile36_exact_weighted_payment/verify.py",
-      "seconds": 0.172786,
+      "script": "background/nodes/e1_profile210_split_prime_ideal_router/verify.py",
+      "seconds": 0.113041,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_PROFILE36_EXACT_WEIGHTED_PAYMENT_PASS profiles=271 charge=709758113888498314287146042668908462080 residual=64417827807586372161179904588832830040487 next_profile=2,10,18 residual_oriented_cap=104955\n"
+      "stdout_tail": "E1_PROFILE210_SPLIT_PRIME_IDEAL_ROUTER_PASS valuations=10 raw=14 live=13 pure=10 split_ideal_families=384 maximum_orbits=394 charge=61906644187645781406222007093836433195008\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

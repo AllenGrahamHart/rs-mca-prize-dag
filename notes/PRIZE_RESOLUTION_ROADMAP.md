@@ -8884,3 +8884,30 @@ derive the `(2,10)` cofactor/prime-ideal partition, spend the existing height
 collapse on each pure cofactor, and keep split primes above `257` and `769`
 as separate associate families. No support-12 census is authorized before
 that partition is priced.
+
+**2026-07-29, profile-(2,10) split-prime router:** local valuation and ideal
+factorization now isolate the lower profile's true obstruction.
+
+```text
+local valuations:                 mu=1,...,10
+exact cofactors:                  2,4,8,16,32,64,128,256,512,1024,
+                                  514,1028,1538
+pure ideal families:              10
+split ideal families:             3*128=384
+height payment per family:        at most one 256-vector orbit
+coarse total:                     T_210<=394, |D_210|<=100864
+coarse profile edge charge:       61906644187645781406222007093836433195008
+```
+
+The three split branches correspond to one prime above `257` or `769` in
+addition to the fixed row prime. They cannot be merged before that prime
+ideal is fixed. The all-occupied envelope consumes about 96.1% of the
+residual budget and is therefore diagnostic, not a final payment.
+
+Next action:
+
+```text
+  bound split-prime occupancy by coupling F(r)=0 mod p with F(s)=0 mod q,
+  or by a resultant/ideal argument; do not enumerate all support-12 vectors
+  before fixing (m,Q_s)
+```

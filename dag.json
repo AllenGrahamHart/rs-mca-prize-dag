@@ -363,8 +363,8 @@
     "background/nodes/e1_official_low_square_mass_pair_budget/attack.md",
     "background/nodes/e1_official_low_square_mass_pair_budget/frontier.md"
    ],
-   "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 65127585921474870475467050631501738502567, about 1.714K; maximum low-mass collision degree three is sufficient. The weighted-kernel dictionary gives E_low=(1/2)sum_d M_ell(a(d),b(d)). The maximum profile (3,6,S=18) is now paid at most 709758113888498314287146042668908462080 edges; the residual budget is 64417827807586372161179904588832830040487 and the next profile is (2,10,S=18). The Plotkin compiler then forces more than B* values.",
-   "attack_surface": "derive the exact cofactor and prime-ideal partition for (2,10,S=18), including the newly possible valuation mu=7; spend the proved height collapse separately on each pure cofactor family, retain distinct split-prime ideals above 257 and 769, and preserve orientation, stabilizer, and class-pair multiplicities in the residual weighted ledger",
+   "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 65127585921474870475467050631501738502567, about 1.714K; maximum low-mass collision degree three is sufficient. The weighted-kernel dictionary gives E_low=(1/2)sum_d M_ell(a(d),b(d)). The maximum profile (3,6,S=18) is paid exactly at its four-orbit upper bound. For the next profile (2,10,S=18), ten pure and 384 split-prime ideal families give the coarse cap T_210<=394; the remaining obstruction is to sharpen split-prime occupancy while retaining the later-profile weighted ledger. The Plotkin compiler then forces more than B* values.",
+   "attack_surface": "bound occupancy of the 384 profile-(2,10) split-prime families by coupling F(r)=0 mod p with F(s)=0 mod 257 or 769, or by a resultant/ideal argument; do not merge distinct Q_s or launch an unpartitioned support-12 census, and preserve orientation, stabilizer, and class-pair multiplicities in the residual weighted ledger",
    "falsifier": "an admissible row whose exact unordered low-mass collision-pair count exceeds its printed budget, or a multiplicity/type error in a claimed count"
   },
   {
@@ -3209,6 +3209,24 @@
    ],
    "statement": "On the binding prize rate-1/8 row, profile (3,6,S=18) contributes at most 709758113888498314287146042668908462080 unordered collision pairs. The residual edge budget is 64417827807586372161179904588832830040487; the largest remaining profile is (2,10,S=18), and 104955 is the tight uniform sufficient cap on all remaining oriented vectors.",
    "notes": "EXACT MAXIMUM-PROFILE PAYMENT 2026-07-29: the ledger restores 256 oriented vectors per shift/sign orbit and the dictionary's division by two. Exact enumeration ranks all 271 eligible profiles and identifies (2,10,S=18) next. This pays no lower profile and causes no E1 close or Prize movement."
+  },
+  {
+   "id": "e1_profile210_split_prime_ideal_router",
+   "title": "E1 profile-(2,10) split-prime ideal router",
+   "status": "PROVED",
+   "closure": "local valuation census, residue-degree sieve, and ideal factorization",
+   "refs": [
+    "background/nodes/e1_profile210_split_prime_ideal_router/statement.md",
+    "background/nodes/e1_profile210_split_prime_ideal_router/proof.md",
+    "background/nodes/e1_profile210_split_prime_ideal_router/claim_contract.md",
+    "background/nodes/e1_profile210_split_prime_ideal_router/dependency_subdag.md",
+    "background/nodes/e1_profile210_split_prime_ideal_router/audit.md",
+    "background/nodes/e1_profile210_split_prime_ideal_router/result.md",
+    "background/nodes/e1_profile210_split_prime_ideal_router/frontier.md",
+    "background/nodes/e1_profile210_split_prime_ideal_router/verify.py"
+   ],
+   "statement": "On the binding prize row, every profile-(2,10,S=18) collision has one of ten pure power-of-two cofactors or one of 514, 1028, and 1538. The latter expose one of 128 primes above 257 or 769. Every fixed ideal family contains at most one 256-vector shift/sign orbit, so T_210<=394, |D_210|<=100864, and the coarse edge charge is at most 61906644187645781406222007093836433195008.",
+   "notes": "SPLIT-PRIME FRONTIER 2026-07-29: exact Hasse-derivative enumeration gives mu=1,...,10 and the residue-degree sieve leaves thirteen cofactors. The ten pure families are paid; the remaining problem is occupancy of 384 distinct split-prime families, not unit multiplicity. Charging all 384 is too expensive for the later-profile ledger. No E1 close or Prize movement."
   },
   {
    "id": "e1_n512_four_singleton_collision_exclusion",
@@ -40093,6 +40111,41 @@
   },
   {
    "from": "e1_profile36_exact_weighted_payment",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile36_exact_weighted_payment",
+   "to": "e1_profile210_split_prime_ideal_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "e1_profile210_split_prime_ideal_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_profile210_split_prime_ideal_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_conductor256_full_unit_circular_basis",
+   "to": "e1_profile210_split_prime_ideal_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_high_cofactor_schinzel_height_collapse",
+   "to": "e1_profile210_split_prime_ideal_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_cofactor2_smyth_height_collapse",
+   "to": "e1_profile210_split_prime_ideal_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   }

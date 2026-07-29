@@ -76,10 +76,12 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
    enumerate this profile again.
 10. Attack `(2,10,S=18)`, the largest remaining profile. Its dictionary
    weight is `1227527050040565145269313275179180544`, and the residual
-   uniform cap is `104955`. Prove the local cofactor and prime-ideal
-   partition before counting: `mu=7` is now possible, pure power-of-two
-   cofactors inherit the height collapse one ideal family at a time, and
-   distinct primes above `257` or `769` must not be merged. Retain the exact
+   uniform cap is `104955`. The local cofactor and prime-ideal partition is
+   now proved: `mu=7` is possible, ten pure families cost at most ten orbits,
+   and the three split cofactors expose 384 distinct primes above `257` or
+   `769`. Do not merge them. Bound their occupancy by coupling the reductions
+   `F(r)=0 mod p` and `F(s)=0 mod q`; the coarse all-occupied charge leaves
+   only 4,350 uniform vectors for every later profile. Retain the exact
    weighted ledger across all later profiles.
 
 No broad local or Modal census is authorized. Large exact relation searches

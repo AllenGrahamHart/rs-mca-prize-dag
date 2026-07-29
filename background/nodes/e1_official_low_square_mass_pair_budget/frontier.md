@@ -182,3 +182,11 @@ vectors. No further exponent-lattice or sparse-product enumeration of
 `(3,6,S=18)` is authorized. The next structural interface is the ideal
 partition for `(2,10)`, including its newly possible local valuation
 `mu=7` and the split-prime cofactor families.
+
+That partition is now proved. The exact cofactor list has ten pure powers of
+two and `514,1028,1538`. Height collapse pays each fixed ideal family by one
+orbit, giving `T_210<=394`, but 384 of those families come from independent
+primes above `257` or `769`. Charging all of them leaves only 4,350 uniform
+vectors for every later profile. The live question is therefore the joint
+occupancy of the split-prime families under `F(r)=0 mod p` and
+`F(s)=0 mod q`, not the unit multiplicity inside one family.
