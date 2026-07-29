@@ -5,9 +5,13 @@
   `(Z/128Z)^x`.
 - The two ideals are products of distinct degree-one primes, each of norm
   `257^2`.
-- A principal generator for either product is a genuine falsifier of the
-  downstream pairwise-class claim, not merely a failure of this route.
+- `J_65` is closed by a published Hilbert-class-field theorem plus an exact
+  modulo-257 irreducibility replay.
+- `J_63` remains open, but its exact fixed-field representative is now one
+  degree-32 prime with residue 66.
+- A principal generator for `J_63` is a genuine falsifier of the downstream
+  pairwise-class claim, not merely a failure of this route.
 - The target concerns ideal principality in the full CM field, not in its
   maximal real subfield.
-- No nonprincipality computation has yet been replayed under the repository
-  protocol, so the node remains `TARGET`.
+- A class-number computation without the coordinate of the remaining prime
+  is insufficient, so the node remains `CONDITIONAL`.

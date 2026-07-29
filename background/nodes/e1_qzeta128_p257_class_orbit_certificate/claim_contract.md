@@ -9,10 +9,14 @@ The 64 degree-one prime ideals above 257 in
 
 Their ideal classes are pairwise distinct.
 
-## Exact open premise
+## Conditional dependency
 
 `e1_qzeta128_p257_two_involution_nonprincipality_certificate`: the two
 explicit ideals `q_1 q_63` and `q_1 q_65` are nonprincipal.
+
+Its `q_1q_65` assertion is proved. Its sole open premise is the degree-32
+fixed-field nonprincipality certificate for the prime of residue 66
+transferring to `q_1q_63`.
 
 ## Proved and published inputs
 
@@ -35,7 +39,8 @@ discharge of the premise, but is no longer required.
 ## Nonclaims
 
 - The published slide is evidence, not the required replay.
-- Nonprincipality of only one of the two explicit products is insufficient.
+- The proved `q_1q_65` product alone is insufficient; the remaining
+  `q_1q_63` product is still required.
 - GRH-conditional class-group output is insufficient for an unconditional
   prize proof.
 

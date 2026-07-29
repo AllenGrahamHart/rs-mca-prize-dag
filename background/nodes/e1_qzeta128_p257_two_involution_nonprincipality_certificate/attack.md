@@ -1,19 +1,17 @@
 # Attack
 
-Primary route:
+The `J_65` half is closed. Primary route for `J_63`:
 
-1. construct `K=Q[x]/(x^64+1)` and the three transcript-pinned primes;
-2. form `J_63` and `J_65` by exact ideal multiplication;
-3. certify both ideals nonprincipal unconditionally;
-4. retain the exact relation matrix, class-character data, or other
-   proof-producing obstruction used for each test.
+1. construct the degree-32 fixed field
+   `Q(zeta_128-zeta_128^(-1))` and `p_66=(257,beta-66)`;
+2. certify `p_66` nonprincipal unconditionally;
+3. retain the exact relation matrix, class-character data, or other
+   proof-producing obstruction used for the test.
 
 The full PARI route may use `bnfinit`, `bnfisprincipal`, and the default
 `bnfcertify(B)`. A more focused cyclotomic route may instead certify a
-nonzero 21121-primary image of `J_63` and a nonzero 17-primary image of
-`J_65`; the published class coordinates predict precisely those two
-obstructions. `subcyclopclgp(128,p)` rigorously determines the minus
-`p`-part but does not by itself locate either ideal in that part.
+nonzero 21121-primary image of `p_66`. `subcyclopclgp(128,21121)` rigorously
+determines the relevant minus part but does not by itself locate this ideal.
 
 The independent route must use a different CAS/algorithm or replay exported
 exact relation and principal-witness data without invoking the primary

@@ -3503,14 +3503,52 @@
     "experiments/prize_resolution/e1_profile018_m514_low_energy_root_search_modal.py"
    ],
    "statement": "Assuming the exact Q(zeta_128) prime-257 class-orbit certificate, at most two, hence at most five, of the 128 degree-one ideals above 257 are occupied in one fixed binding-row prime/root fiber.",
-   "notes": "CLASS-DESCENT DECOMPOSITION 2026-07-29: occupied Q_s share one class in Q(zeta_256); ideal norm descends them to equal classes in Q(zeta_128). Pairwise class separation below leaves one lower prime and its two upper extensions. Two explicit nonprincipality tests are the sole open premise."
+   "notes": "CLASS-DESCENT DECOMPOSITION 2026-07-29: occupied Q_s share one class in Q(zeta_256); ideal norm descends them to equal classes in Q(zeta_128). Pairwise class separation below leaves one lower prime and its two upper extensions. The J_65 involution test is proved; one degree-32 fixed-field prime is the sole open premise."
+  },
+  {
+   "id": "e1_qzeta128_p257_j65_harbater_nonprincipality",
+   "title": "Q(zeta_128) J_65 Harbater nonprincipality",
+   "status": "PROVED",
+   "closure": "published Hilbert-class field plus exact modulo-257 Frobenius replay",
+   "refs": [
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/statement.md",
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/proof.md",
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/claim_contract.md",
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/source_evidence.md",
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/dependency_subdag.md",
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/audit.md",
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/result.md",
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/frontier.md",
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/verify.py"
+   ],
+   "statement": "The ideal (257,zeta_128-9)(257,zeta_128-248) is nonprincipal. Its descended prime has nontrivial Artin symbol because the published degree-17 Hilbert-class polynomial is irreducible modulo 257.",
+   "notes": "HARBATER CLOSE 2026-07-29: Dembele identifies the class-number-17 CM subfield and its Hilbert class field, whose Elkies polynomial is exactly irreducible modulo 257. Norm descent proves J_65 nonprincipal without a degree-64 BNF."
+  },
+  {
+   "id": "e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate",
+   "title": "Q(zeta_128) J_63 fixed-field nonprincipality certificate",
+   "status": "TARGET",
+   "refs": [
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/statement.md",
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/claim_contract.md",
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/attack.md",
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/frontier.md",
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/dependency_subdag.md",
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/audit.md",
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/result.md",
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/verify.py"
+   ],
+   "statement": "Certify that (257,zeta_128-zeta_128^(-1)-66) is nonprincipal in the degree-32 fixed field Q(zeta_128-zeta_128^(-1)).",
+   "notes": "SOLE CLASS-ORBIT LEAF 2026-07-29: q_1 and q_63 contract to this prime. The ambiguous class-number formula proves the fixed field has odd class number, so quadratic extension transfers its nonprincipality exactly to J_63."
   },
   {
    "id": "e1_qzeta128_p257_two_involution_nonprincipality_certificate",
    "title": "Q(zeta_128) prime-257 two-involution nonprincipality certificate",
-   "status": "TARGET",
+   "status": "CONDITIONAL",
+   "closure": "conditional one-prime fixed-field transfer with J_65 proved",
    "refs": [
     "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/statement.md",
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/proof.md",
     "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/claim_contract.md",
     "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/dependency_subdag.md",
     "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/attack.md",
@@ -3519,8 +3557,8 @@
     "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/result.md",
     "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/verify.py"
    ],
-   "statement": "Unconditionally certify that the explicit ideals (257,zeta-9)(257,zeta-57) and (257,zeta-9)(257,zeta-248) are both nonprincipal in Q(zeta_128).",
-   "notes": "MINIMUM CLASS-ORBIT LEAF 2026-07-29: these two tests exclude the two non-complex involutions in (Z/128Z)^x. Published coordinates predict detection in the 21121- and 17-primary class components, but an unconditional exact replay remains open."
+   "statement": "Assuming nonprincipality of the degree-32 fixed-field prime (257,zeta_128-zeta_128^(-1)-66), both involution products q_1q_63 and q_1q_65 are nonprincipal in Q(zeta_128).",
+   "notes": "ONE-TEST JOIN 2026-07-29: J_65 is proved by the Harbater Hilbert-class polynomial. The sole open input is the fixed-field prime transferring to J_63."
   },
   {
    "id": "e1_qzeta128_p257_class_orbit_certificate",
@@ -3540,7 +3578,7 @@
     "background/nodes/e1_qzeta128_p257_class_orbit_certificate/verify.py"
    ],
    "statement": "Assuming nonprincipality of the two explicit involution products q_1 q_63 and q_1 q_65, the 64 degree-one prime ideals above 257 in Q(zeta_128) have pairwise distinct ideal classes.",
-   "notes": "TWO-INVOLUTION REDUCTION 2026-07-29: real class number one makes conjugation invert classes, Weber oddness removes complex-conjugation stabilizers, and a nontrivial subgroup of the 64-element Galois 2-group contains one of its three involutions. The exact open premise is only two nonprincipality tests."
+   "notes": "TWO-INVOLUTION REDUCTION 2026-07-29: real class number one makes conjugation invert classes, Weber oddness removes complex-conjugation stabilizers, and a nontrivial subgroup of the 64-element Galois 2-group contains one of its three involutions. J_65 is proved by the Harbater Artin symbol; only the J_63 fixed-field prime remains open."
   },
   {
    "id": "e1_profile018_qzeta128_class_descent_two_ideal_bound",
@@ -40959,6 +40997,16 @@
    "from": "e1_profile018_m514_five_ideal_occupancy",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
+  },
+  {
+   "from": "e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate",
+   "to": "e1_qzeta128_p257_two_involution_nonprincipality_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "e1_qzeta128_p257_j65_harbater_nonprincipality",
+   "to": "e1_qzeta128_p257_two_involution_nonprincipality_certificate",
+   "kind": "req"
   },
   {
    "from": "e1_qzeta128_p257_two_involution_nonprincipality_certificate",

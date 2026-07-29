@@ -10,6 +10,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 NODE = "e1_qzeta128_p257_class_orbit_certificate"
 PREMISE = "e1_qzeta128_p257_two_involution_nonprincipality_certificate"
+J63 = "e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate"
+J65 = "e1_qzeta128_p257_j65_harbater_nonprincipality"
 REAL_CLASS = "e1_conductor256_full_unit_circular_basis"
 CONSUMER = "e1_profile018_qzeta128_class_descent_two_ideal_bound"
 
@@ -58,7 +60,9 @@ def main() -> None:
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
     edges = {(edge["from"], edge["to"], edge["kind"]) for edge in dag["edges"]}
-    assert nodes[PREMISE]["status"] == "TARGET"
+    assert nodes[PREMISE]["status"] == "CONDITIONAL"
+    assert nodes[J63]["status"] == "TARGET"
+    assert nodes[J65]["status"] == "PROVED"
     assert nodes[REAL_CLASS]["status"] == "PROVED"
     assert nodes[NODE]["status"] == "CONDITIONAL"
     assert nodes[CONSUMER]["status"] == "CONDITIONAL"
@@ -68,7 +72,8 @@ def main() -> None:
 
     print(
         "E1_QZETA128_P257_CLASS_ORBIT_TWO_INVOLUTION_REDUCTION_PASS "
-        "group_order=64 involutions=3 open_nonprincipality_tests=2"
+        "group_order=64 involutions=3 proved_nonprincipality_tests=1 "
+        "open_nonprincipality_tests=1"
     )
 
 

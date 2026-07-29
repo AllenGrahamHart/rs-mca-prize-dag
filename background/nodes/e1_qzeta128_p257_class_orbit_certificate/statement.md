@@ -3,8 +3,8 @@
 - **status:** CONDITIONAL
 - **scope:** `K=Q(zeta_128)`, all degree-one primes above 257
 
-Assume
-`e1_qzeta128_p257_two_involution_nonprincipality_certificate`: for the
+Assume the remaining premise of
+`e1_qzeta128_p257_two_involution_nonprincipality_certificate`. For the
 explicit primes
 
 ```text
@@ -13,8 +13,10 @@ q_63=(257,zeta_128-57),
 q_65=(257,zeta_128-248),
 ```
 
-both `q_1 q_63` and `q_1 q_65` are nonprincipal. Then the 64 prime ideals of
-`Z[zeta_128]` above 257 have pairwise distinct ideal classes.
+the join proves that both `q_1 q_63` and `q_1 q_65` are nonprincipal. Then
+the 64 prime ideals of `Z[zeta_128]` above 257 have pairwise distinct ideal
+classes. The `q_1q_65` half is now unconditional; only the fixed-field
+certificate transferring to `q_1q_63` remains open.
 
 This implication is proved in `proof.md`. It uses the unconditional facts
 that the maximal real subfield has class number one and that the class number

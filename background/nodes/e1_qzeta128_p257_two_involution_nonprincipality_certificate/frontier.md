@@ -1,14 +1,13 @@
 # Frontier
 
-The former 64-coordinate class-group replay has been reduced to two exact
-nonprincipality tests:
+The former 64-coordinate class-group replay has been reduced to one open
+degree-32 nonprincipality test:
 
 ```text
-(257,zeta-9)(257,zeta-57)   nonprincipal,
-(257,zeta-9)(257,zeta-248)  nonprincipal.
+(257,zeta_128-zeta_128^(-1)-66)   nonprincipal.
 ```
 
-Published coordinates predict that the first is detected by the 21121-part
-and the second by the 17-part of the class group. The proof does not depend
-on those predicted coordinates; any unconditional exact obstruction to
-principality is acceptable.
+The `J_65`/17-primary half is proved by the Harbater Hilbert-class field.
+Published coordinates predict that the remaining prime is detected by the
+21121-part. The proof does not depend on that predicted coordinate; any
+unconditional exact obstruction to principality is acceptable.

@@ -66,5 +66,7 @@ The same coordinates predict the new minimum certificate. Since
 ```
 
 the classes of `q_1 q_65` and `q_1 q_63` are predicted to be nonzero and to
-lie respectively in the 17-primary and 21121-primary components. These
-predictions motivate the two-test target; they do not prove it.
+lie respectively in the 17-primary and 21121-primary components. The first
+prediction is now proved independently by the Harbater/Hilbert-class-field
+node. The second motivates the sole remaining fixed-field target; it does not
+prove it.

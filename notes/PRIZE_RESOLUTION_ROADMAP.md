@@ -9356,12 +9356,28 @@ explicit ideals
 
 are nonprincipal. They exclude involutions 65 and 63; either also makes the
 base class nontrivial, while odd class number excludes involution 127. Every
-nontrivial stabilizer would contain an involution. Thus repository discipline
-now leaves the narrower red certificate
-`e1_qzeta128_p257_two_involution_nonprincipality_certificate`; the original
-class-orbit node is amber with a complete conditional proof. Do not resume
-the 10-profile search on the serial route; first obtain unconditional primary
-and independent certificates for these two products.
+nontrivial stabilizer would contain an involution.
+
+The 17-primary product `q_1q_65` is now proved nonprincipal without a BNF.
+Dembele identifies the class-number-17 CM field
+`E=Q(i(zeta_64+zeta_64^(-1)))` and its Hilbert class field; his exact Elkies
+polynomial is irreducible modulo 257. This gives a nontrivial Artin symbol at
+every prime above 257, and norm descent proves `q_1q_65` nonprincipal.
+
+For the remaining product put `beta=zeta_128-zeta_128^(-1)`. Both `q_1` and
+`q_63` contract to
+
+```text
+p_66=(257,beta-66)
+```
+
+in the degree-32 fixed field `Q(beta)`. The ambiguous class-number formula
+proves that this cyclic field has odd class number, so nonprincipality of
+`p_66` transfers injectively to `q_1q_63`. Repository discipline now leaves
+exactly this one red prime certificate; the two-involution join and original
+class-orbit node are amber with complete conditional proofs. Do not resume
+the 10-profile search on the serial route before attacking this one-prime
+certificate or finding a genuinely new structural route.
 
 The stronger bound must be priced directly rather than routed through the
 older five-ideal threshold. The conditional payment leaves residual
@@ -9376,7 +9392,8 @@ result:                              NARROWED
 profile-specific live rows:          10 -> bypassed
 occupancy threshold under leaf:      5 -> 2
 next-profile cap under leaf:          329 -> 1971
-new exact assumptions:               two nonprincipality tests in one leaf
+proved involution test:              q_1*q_65 via Harbater Artin symbol
+new exact assumptions:               one degree-32 prime nonprincipality test
 live compute request:                CR-E1-QZETA128-P257-CLASS-ORBIT
-next route-deciding action:          certify q_1*q_63 and q_1*q_65 nonprincipal
+next route-deciding action:          certify p_66 nonprincipal
 ```

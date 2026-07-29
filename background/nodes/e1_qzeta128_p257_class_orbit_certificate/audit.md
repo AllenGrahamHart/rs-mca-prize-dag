@@ -10,7 +10,6 @@
   integer arithmetic.
 - Real class number one is derived from the proved conductor-256 theorem by
   extension/norm and Weber oddness; it is not assumed from the slide.
-- Both explicit ideal products must be nonprincipal. One test alone leaves
-  one non-complex involution available.
-- No nonprincipality computation has been replayed under the repository
-  protocol; the node therefore remains `CONDITIONAL`.
+- Both explicit ideal products must be nonprincipal. The Harbater proof
+  closes `q_1q_65`; the fixed-field certificate for `q_1q_63` remains open.
+- The node therefore remains `CONDITIONAL` on exactly one prime.

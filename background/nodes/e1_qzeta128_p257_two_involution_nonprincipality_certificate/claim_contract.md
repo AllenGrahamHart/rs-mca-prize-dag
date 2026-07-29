@@ -12,20 +12,30 @@ J_63=q_1 q_63,
 J_65=q_1 q_65.
 ```
 
-## Direct claim
+## Conditional claim
 
 `J_63` and `J_65` are both nonprincipal.
 
-## Required certificate
+## Proved input
 
-An acceptable packet supplies, for each ideal, an unconditional exact class
-coordinate, an explicit nonzero image under a certified ideal-class
-character, or another proof-producing nonprincipality obstruction. The
-primary computation and an independently implemented exact audit must agree.
+`e1_qzeta128_p257_j65_harbater_nonprincipality` proves `J_65`
+nonprincipal by an exact Hilbert-class-field Artin symbol.
+
+## Exact open premise
+
+`e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate` asks for
+nonprincipality of the prime
+
+```text
+p_66=(257,zeta_128-zeta_128^(-1)-66)
+```
+
+in the degree-32 fixed field of `sigma_63`. The proof in `proof.md` transfers
+that certificate to `J_63`.
 
 It is not necessary to determine the complete class group, its complete
-Galois action, or all 64 prime coordinates. A complete certified class-group
-calculation remains an acceptable stronger packet.
+Galois action, all 64 prime coordinates, or to test `J_65` again. A complete
+certified class-group calculation remains an acceptable stronger packet.
 
 ## Nonclaims
 
@@ -33,9 +43,10 @@ calculation remains an acceptable stronger packet.
 - `bnfcertify(B,1)` alone is insufficient: it certifies only that the true
   class group is a quotient of the computed group, so a computed nonzero
   coordinate may disappear in that quotient.
-- The published `359057,29301` ledger is evidence, not this certificate.
-- Nonprincipality of only one of the two ideals is insufficient for the
-  two-involution reduction.
+- The published `359057,29301` ledger is evidence, not the remaining
+  certificate.
+- `J_65` alone is insufficient for the two-involution reduction; `J_63`
+  remains required.
 
 ## Consumer
 

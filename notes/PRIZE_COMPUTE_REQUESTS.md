@@ -10226,7 +10226,7 @@ Interpretation is deliberately narrow:
 - six equal exact official-prime quotients in distinct diagonal Galois orbits
   would be a true falsifier.
 
-## CR-E1-QZETA128-P257-CLASS-ORBIT: two-involution class-descent certificate
+## CR-E1-QZETA128-P257-CLASS-ORBIT: remaining J_63 fixed-field certificate
 
 **Status:** ROUTE-DECIDING PRE-REQUEST; NO LAUNCH AUTHORIZED. The Modal
 workspace remains over its spend limit, and the cost of unconditional
@@ -10234,121 +10234,106 @@ certification has not been piloted.
 
 ### Mathematical decision and interface
 
-In `K=Q(zeta_128)=Q[x]/(x^64+1)`, put
+The original 17-primary test is closed:
 
 ```text
-q_1 =(257,zeta_128-9),
-q_63=(257,zeta_128-57),
-q_65=(257,zeta_128-248).
+J_65=(257,zeta_128-9)(257,zeta_128-248)
 ```
 
-Certify unconditionally that `q_1 q_63` and `q_1 q_65` are both
-nonprincipal. PASS proves
+is nonprincipal by `e1_qzeta128_p257_j65_harbater_nonprincipality`.
+Dembele's published Hilbert-class-field polynomial is irreducible modulo
+257. Do not recompute this half.
+
+Put
+
+```text
+beta=zeta_128-zeta_128^(-1),
+E_63=Q(beta),
+p_66=(257,beta-66).
+```
+
+Use the exact defining polynomial
+
+```text
+f_E63=Y^32+32Y^30+464Y^28+4032Y^26+23400Y^24+95680Y^22
+      +283360Y^20+615296Y^18+980628Y^16+1136960Y^14
+      +940576Y^12+537472Y^10+201552Y^8+45696Y^6
+      +5440Y^4+256Y^2+2.
+```
+
+The repository verifies that it has 32 distinct roots modulo 257 and that 66
+is one of them. It is obtained from
+`Res_Z(Z^64+1,Z^2-YZ-1)=f_E63(Y)^2`.
+
+Certify unconditionally that `p_66` is nonprincipal in the degree-32 field
+`E_63`. Exact contraction gives
+`p_66 O_(Q(zeta_128))=q_1q_63`; the ambiguous class-number calculation proves
+that `E_63` has odd class number, so this transfer is injective on ideal
+classes.
+
+PASS proves the last premise of
 `e1_qzeta128_p257_two_involution_nonprincipality_certificate`; the proved
-2-group reduction then promotes `e1_qzeta128_p257_class_orbit_certificate`,
-the class-descent theorem, and the exact profile-018 payment. Occupancy
-sharpens from five ideals to two and the next profile's oriented-vector cap
-rises from 329 to 1971. FAIL on either product supplies a principal generator
-and proves that the corresponding involution fixes the base-prime class, so
-the 64-class orbit claim itself is false and the route returns to the
-profile-specific occupancy ledger.
+2-group reduction then promotes the 64-prime class orbit, class descent, and
+the exact profile-018 payment. FAIL supplies a principal generator and proves
+that the corresponding involution fixes the base-prime class.
 
-The finite completeness router is the Galois identity
-
-```text
-(Z/128Z)^x = { +/-3^j : 0<=j<32 }.
-```
-
-The Galois group has exactly three nonidentity involutions `63,65,127`.
-Real class number one makes `127` act by inversion, and Weber oddness removes
-that stabilizer once the base-prime class is nontrivial. The two products
-above test the remaining involutions exactly. Published expected output is
-
-```text
-Cl(K) = Z/359057,
-[q_1] = 1,
-sigma_-1(e) = -e,
-sigma_3(e) = 29301e,
-#{+/-29301^j mod 359057}=64.
-```
-
-The source and exact hashes are pinned at
-`background/nodes/e1_qzeta128_p257_class_orbit_certificate/source_evidence.md`.
-
-The published coordinates predict
-
-```text
-[q_1 q_63] in the nonzero 21121-primary component,
-[q_1 q_65] in the nonzero 17-primary component.
-```
-
-These predictions select the tests but are not accepted as their proof.
+Published coordinates predict that `[p_66]`, equivalently `[q_1q_63]`, is
+nonzero in the 21121-primary component. This selects the test but is not
+accepted as its proof.
 
 ### Required primary packet
 
-Use Sage/Pari, Hecke, or Magma with proof/unconditional certification enabled:
+Use Sage/PARI, Hecke, or Magma with proof/unconditional certification enabled:
 
-1. construct `K` and its full ring of integers;
-2. construct the three transcript-pinned degree-one primes and check their
-   residue roots `9,57,248`;
-3. multiply the two exact ideal products;
-4. certify both products nonprincipal unconditionally;
-5. emit their exact nonzero class coordinates, certified class-character
-   images, or another proof-producing obstruction, together with software
-   versions, commands, relation data, and immutable hashes.
+1. construct `E_63` and its full ring of integers;
+2. construct `p_66` and check that roots 9 and 57 both give fixed-field
+   residue 66;
+3. certify `p_66` nonprincipal unconditionally;
+4. emit its exact nonzero class coordinate, certified class-character image,
+   or another proof-producing obstruction, together with software versions,
+   commands, relation data, and immutable hashes.
 
-The direct PARI/GP primary is:
+A direct PARI/GP primary should use a defining polynomial and integral basis
+for the degree-32 fixed field, followed by:
 
 ```text
-B = bnfinit(x^64+1,1);
+B = bnfinit(f_E63,1);
 bnfcertify(B) == 1;
 P = idealprimedec(B,257);
-\\ identify q_1,q_63,q_65 by their exact residue roots
-\\ test bnfisprincipal(B,idealmul(B,q_1,q_63),0)
-\\ test bnfisprincipal(B,idealmul(B,q_1,q_65),0)
+\\ identify p_66 by beta=66 in its residue field
+\\ test bnfisprincipal(B,p_66,0)
 ```
 
-The packet must check `#P=64`, the three prime identities, and two nonzero
-certified class coordinates. If this BNF route is used, the default
-`bnfcertify(B)` is required. `bnfcertify(B,1)` only certifies that the true
-class group is a quotient of the computed group; it does not prove that a
-computed nonzero coordinate survives and is therefore insufficient for
-nonprincipality. Pin the PARI version and the official function contracts for
-`bnfcertify` and `bnfisprincipal` in the transcript:
+The packet must check `#P=32`, the fixed-field identity, and one nonzero
+certified class coordinate. The default `bnfcertify(B)` is required.
+`bnfcertify(B,1)` only certifies that the true class group is a quotient of
+the computed group and is insufficient for nonprincipality. Pin the PARI
+version and official function contracts.
 
-```text
-https://pari.math.u-bordeaux.fr/dochtml/html-stable/General_number_fields.html
-```
-
-An alternative focused route may construct certified ideal-class characters
-that are nonzero on the two products. PARI's
-`subcyclopclgp(128,17)` and `subcyclopclgp(128,21121)` can rigorously certify
-the relevant minus-part sizes, but those outputs alone do not locate the
-three ideals and are insufficient. The run must checkpoint before final
-certification and retain relation/class-character data on timeout. A class
-group computed under GRH is `INCOMPLETE`, not PASS.
+An alternative focused route may construct a certified ideal-class character
+that is nonzero on `p_66`. `subcyclopclgp(128,21121)` can rigorously certify
+the relevant minus-part size, but does not locate this ideal and is
+insufficient alone. A class group computed under GRH is `INCOMPLETE`.
 
 ### Independent audit
 
-Replay both nonprincipality tests in a different CAS/algorithm. Prefer an
+Replay the nonprincipality test in a different CAS/algorithm. Prefer an
 exported exact relation matrix with principal-ideal witnesses and an
-independently checked Smith form, so the audit does not call the primary
-class-group routine. A stronger full 64-coordinate replay remains acceptable
-but is no longer required. Host-side tiny checks may verify only the ideal
-labels and group-theoretic reduction after the proof-producing packet exists.
+independently checked Smith form. A stronger full 64-coordinate replay
+remains acceptable but is no longer required.
 
 ### Resource law
 
 Pilot one container only, with a hard five-minute wall timeout, at most 8 GiB
 RAM, and a conservative charge below `$1`. Print peak RAM, CPU time, relation
 count, and certification stage before shutdown. Do not fan out. If the pilot
-cannot finish or cannot bound a complete run below the protocol limits, retain
-the checkpoint and convert this entry into an upstream contributor request.
+cannot finish or cannot bound a complete run below the protocol limits,
+retain the checkpoint and convert this entry into an upstream contributor
+request.
 
 Semantics:
 
-- `PASS`: both unconditional nonprincipality certificates plus independent
-  exact audit;
-- `FAIL`: an exact principal generator for either product;
-- `INCOMPLETE`: timeout, GRH-only output, one unresolved product, or one
+- `PASS`: unconditional `p_66` nonprincipality plus independent exact audit;
+- `FAIL`: an exact principal generator for `p_66`;
+- `INCOMPLETE`: timeout, GRH-only output, unresolved principality, or one
   implementation only; evidence with no DAG status change.
