@@ -350,6 +350,8 @@ alpha=pi^mu u g,       mu in {1,2,3,4},       (g)=P_r.
 ```
 
 Thus all retained vectors at one fixed row root are normalized generators of
-the same principal reduction prime and differ by cyclotomic units. This is a
-bounded-associate problem, not a collection of independent norm events. No
-associate count or weighted edge payment is yet proved.
+the same principal reduction prime and differ by cyclotomic units. Within one
+cofactor, both the unit and its inverse have explicit coefficient bounds
+`1006,503,251,125`. This is a bounded-associate problem, not a collection of
+independent norm events. No associate count or weighted edge payment is yet
+proved.

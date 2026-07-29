@@ -51,9 +51,12 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
    `e1_pure_cofactor_common_prime_associate_router` before any further norm
    classification. Fix one row root and one normalized prime generator `g`;
    every residual vector is `pi^mu u g`, with `mu in {1,2,3,4}` and `u` a
-   cyclotomic unit. Seek a height, coefficient, or packing bound on these
-   bounded associates. Do not replace arbitrary units by roots of unity and
-   do not merge different quotient roots without the Galois transport.
+   cyclotomic unit. In each fixed-cofactor branch, consume the exact
+   coefficient boxes for both `u` and `u^(-1)` and retain the negacyclic
+   inverse equation. Seek a height, coefficient, or packing bound on these
+   bounded associates. Do not replace arbitrary units by roots of unity,
+   enumerate the raw box, or merge different quotient roots without the
+   Galois transport.
 
 No broad local or Modal census is authorized. Large exact relation searches
 must be recorded as external compute requests with partial-result output.

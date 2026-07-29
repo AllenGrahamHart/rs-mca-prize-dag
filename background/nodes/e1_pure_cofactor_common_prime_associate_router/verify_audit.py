@@ -20,7 +20,9 @@ def main() -> None:
     assert "same quotient\n+   root" in contract
     assert "odd cofactor" in contract
     assert "not only a root of unity" in contract
-    checks += 4
+    assert "mu!=nu" in contract
+    assert "not a feasible exhaustive enumeration" in contract
+    checks += 6
 
     # Ideal-norm mutation controls: an odd residual factor cannot disappear,
     # and changing the root changes the selected prime ideal.

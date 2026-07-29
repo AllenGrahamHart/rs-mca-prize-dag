@@ -12,5 +12,10 @@
   `2^mu c`, so normalized values need not generate `P_r`.
 - The associate family is not identified with the 256 roots of unity.  A
   bounded-unit count remains a genuine theorem obligation.
+- The coefficient box uses the multiplication matrix of `alpha`, whose
+  columns are norm-preserving negacyclic shifts. Reversing `alpha,beta`
+  independently supplies the inverse-unit box.
+- The uniform constants use only the already proved exact floor
+  `floor(18^64/p_min)=2013`; no floating-point estimate is used.
+- The Cramer box is asserted only when the two cofactors agree.
 - No verifier or TeX build requires significant RAM; no Modal job is used.
-

@@ -58,7 +58,9 @@ def main() -> None:
     assert "m in {2,4,8,16}" in statement
     assert "arbitrary cyclotomic unit" in statement
     assert "not a count" in statement
-    checks += 3
+    assert [2013 // 2**mu for mu in range(1, 5)] == [1006, 503, 251, 125]
+    assert "floor(18^64/(2^mu p))" in statement
+    checks += 5
 
     print(
         "E1_PURE_COFACTOR_COMMON_PRIME_ASSOCIATE_ROUTER_PASS "
@@ -68,4 +70,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

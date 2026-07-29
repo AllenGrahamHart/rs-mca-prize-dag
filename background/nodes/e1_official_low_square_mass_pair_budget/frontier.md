@@ -136,6 +136,7 @@ alpha=pi^mu u g,       mu in {1,2,3,4},       (g)=P_r,
 ```
 
 for one prime generator `g` and a cyclotomic unit `u`. This is the selected
-non-computational interface for the profile. A bounded-unit associate count
-or height theorem is still required, and lower-weight profiles still enter
-the exact weighted sum.
+non-computational interface for the profile. In a fixed cofactor, both `u`
+and `u^(-1)` have power-basis coefficient bounds `1006,503,251,125` for
+`mu=1,2,3,4`. A bounded-unit associate count or height theorem is still
+required, and lower-weight profiles still enter the exact weighted sum.

@@ -3077,8 +3077,8 @@
     "background/nodes/e1_pure_cofactor_common_prime_associate_router/verify.py",
     "background/nodes/e1_pure_cofactor_common_prime_associate_router/verify_audit.py"
    ],
-   "statement": "At one fixed prize N=256 reduction root, every collision of absolute norm 2^mu p has principal ideal P_r(1-zeta)^mu. Dividing by the ramified factor gives a generator of P_r, so every two pure-cofactor collisions are normalized unit associates. The current profile-(3,6,S=18) residue has cofactors 2,4,8,16, with only the primitive m=16 support branch live.",
-   "notes": "ANALYTIC AGGREGATE ROUTER 2026-07-29: the result couples all live maximum-weight profile vectors at one row/root into one bounded unit-associate family. It proves no associate count, weighted edge budget, E1 image bound, or prize status movement."
+   "statement": "At one fixed prize N=256 reduction root, every collision of absolute norm 2^mu p has principal ideal P_r(1-zeta)^mu. Dividing by the ramified factor gives a generator of P_r, so every two pure-cofactor collisions are normalized unit associates. In a fixed cofactor, Cramer-Hadamard bounds both unit and inverse power-basis coefficients by 1006,503,251,125 for cofactors 2,4,8,16.",
+   "notes": "ANALYTIC AGGREGATE ROUTER 2026-07-29: the current profile-(3,6,S=18) residue has cofactors 2,4,8,16, with only the primitive m=16 support branch live. The result couples each fixed-cofactor row/root branch into a finite bounded unit/inverse family but proves no associate count, weighted edge budget, E1 image bound, or prize status movement."
   },
   {
    "id": "e1_n512_four_singleton_collision_exclusion",

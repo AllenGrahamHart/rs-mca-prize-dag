@@ -39,6 +39,32 @@ Thus same-row pure-power-of-two cofactor collisions are not independent
 principal-norm events: after removing their exact ramified factor at two,
 they are unit associates generating the one fixed reduction prime.
 
+There is also an exact coefficient box inside each fixed cofactor. If
+`mu=nu`, write the unique power-basis representatives
+
+```text
+u=sum_(j=0)^127 u_j zeta_256^j,
+u^(-1)=sum_(j=0)^127 v_j zeta_256^j.
+```
+
+Because both collision vectors have coefficient square mass `18`,
+
+```text
+max_j(|u_j|,|v_j|) <= floor(18^64/(2^mu p)).           (PCR3)
+```
+
+Uniformly over the prize interval this gives
+
+| `mu` | cofactor | coefficient bound |
+|---:|---:|---:|
+| 1 | 2 | 1006 |
+| 2 | 4 | 503 |
+| 3 | 8 | 251 |
+| 4 | 16 | 125 |
+
+Thus a fixed-cofactor branch is a finite bounded inverse-pair problem in
+`Z[X]/(X^128+1)`, not an unbounded unit-group search.
+
 For the currently surviving prize `N=256`, profile `(3,6,S=18)` branches,
 the proved cofactor exclusions leave only
 
@@ -52,7 +78,7 @@ all live vectors of this maximum-weight profile at a fixed `(p,r)` satisfy
 support branch remaining at `mu=4`.
 
 This is an aggregate coupling theorem, not a count.  The remaining payment is
-to bound the number of coefficient-bounded unit associates whose products
+to count or sharply bound the coefficient-box unit associates whose products
 with `pi^mu` have profile `(3,6,S=18)`, jointly with the lower-weight profiles
 in the exact weighted-kernel ledger.
 
@@ -61,4 +87,3 @@ in the exact weighted-kernel ledger.
 Two same-root collisions of pure cofactor whose normalized principal ideals
 are distinct, or a live profile-`(3,6)` cofactor outside `{2,4,8,16}` after
 all stated exclusions are consumed.
-

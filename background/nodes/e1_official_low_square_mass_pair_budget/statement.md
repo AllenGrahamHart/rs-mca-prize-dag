@@ -45,8 +45,10 @@ m in {2,4,8,16}
 and, after division by the exact power of `1-zeta_256`, all such values are
 unit associates generating the same reduction prime ideal. Thus this
 profile's vectors must be counted as one bounded unit-associate family, not
-as unrelated norm-divisibility events. No bound on that family is yet
-proved.
+as unrelated norm-divisibility events. Within a fixed cofactor, the unit and
+its inverse have explicit power-basis coefficient bounds
+`1006,503,251,125` for cofactors `2,4,8,16`. No count of that finite family is
+yet proved.
 
 ## Falsifier
 

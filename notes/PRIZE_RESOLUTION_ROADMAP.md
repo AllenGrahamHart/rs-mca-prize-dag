@@ -8555,14 +8555,18 @@ fixed row/root factorization:
   alpha/(1-zeta_256)^mu generates P_r
 same-row consequence:
   every two normalized survivors differ by a cyclotomic unit
+fixed-cofactor Cramer-Hadamard box:
+  max coefficient of u and u^(-1) <= 1006,503,251,125
+  for cofactors 2,4,8,16 respectively
 route verdict:
-  residual maximum-weight vectors are one bounded unit-associate family,
-  not unrelated norm-divisibility events
+  residual maximum-weight vectors are finite bounded unit/inverse families,
+  not unrelated norm-divisibility events or an unbounded unit search
 scope fence:
   no associate count, weighted edge budget, E1 image bound, row close,
   or Prize status movement
 compute spend: none; ideal factorization proof
-next route-deciding action: derive a coefficient/height/packing bound for
-                              pi^mu u g in profile (3,6,S=18), while retaining
-                              the exact lower-profile weighted ledger
+next route-deciding action: count or sharply bound the inverse-pair boxes
+                              under U*V=1 mod X^128+1 and the two sparse
+                              profile products, while retaining the exact
+                              lower-profile weighted ledger
 ```
