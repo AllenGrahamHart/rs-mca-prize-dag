@@ -902,3 +902,13 @@
   each factor/eta/color candidate and retain named rejection reasons. This
   is not a guard outcome: passing candidates still owe the norm, degree-six
   outer congruence, and independent inner lift.
+
+- Before expanding another colored-Frobenius subchart, consume
+  `l1_mersenne_hnf_payoff_scope_router`. The post-atlas minimum-width ledger
+  has 42 row/degree obligations: `4` at `m=4,h=2`, `24` at
+  `m=8,h=2,...,7`, and `14` at `m=16,h=2,...,15`. Full `h=7` and `h=15`
+  closures remove only five cells, while the exceptional J-zero cubic
+  `3+2+1` chart alone removes none. Treat a proper subchart as bankable local
+  algebra, not a critical close. Even ownership of the complete `t=p`
+  residual only advances the generic packing width to `p+1`; wider exchanges
+  and the Toeplitz/Pade or aggregate first-owner payment remain live.

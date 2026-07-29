@@ -20515,6 +20515,27 @@
    "attack_surface": "The Delta certificate: show the ideal (R_0..R_9) in Z[e_2,e_4,e_6,e_8,e_9,e_10] has no characteristic-zero point and extract Delta. Symbolic Y^1024 mod G blows up, so prefer the clean symmetric-function form recorded on the (4,9) node.",
    "falsifier": "A monic quintic E and nonzero e_9 over an admissible field with G = E(Y)^2 - e_9^2 Y dividing Y^1024-1 whose reconstruction yields a genuine reduced weight-10 relation satisfying the ell=4 window -- i.e. a live (4,10) vanisher.",
    "notes": "Minted 2026-07-27. The parity dichotomy flagged (4,10) as obstructed (gcd(10,2048)=2) and predicted it would need a sub-tuple router in the style of the closed (2,5)/(2,6). The resolution is simpler: even weights need no dilation at all, because the window conditions alone deliver the normal form and e_9 != 0 comes free from reducedness. Subtraction check clean at b13de811."
+  },
+  {
+   "id": "l1_mersenne_hnf_payoff_scope_router",
+   "title": "L1 Mersenne HNF payoff-scope router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "After the official atlas, maximal-value, broad-row, and m=4,h=3 exclusions, the nine Mersenne minimum-width rows retain exactly 42 (m,h,row) obligations: 4 at m=4,h=2, 24 at m=8,h=2..7, and 14 at m=16,h=2..15. Complete h=7 and h=15 closures remove only five cells; the exceptional J-zero cubic 3+2+1 chart alone removes none. Even complete ownership of the t=p residual advances the generic packing width only to p+1, with unfloored cap ratio (n-a+p)/p<m+2<=18, so wider exchanges and global L1 payment remain open.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/result.md",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/lineage.md",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/verify.py",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/verify_audit.py",
+    "notes/L1_HNF_PAYOFF_LADDER.md"
+   ],
+   "notes": "Exact scope and payoff ledger only. It proves no new HNF emptiness, survivor, owner payment, wider-width bound, or critical status change."
   }
  ],
  "edges": [
@@ -39431,6 +39452,61 @@
   {
    "from": "e1_official_low_square_mass_pair_budget",
    "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_official_checkpoint_characteristic_atlas",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_official_max_split_value_complement_census",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_official_broad_checkpoint_frobenius_periodicity_exclusion",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_checkpoint_embedded_m2_family",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_official_emptiness",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_coarse_pfree_tame_tail_distance_upgrade",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_coarse_pfree_wronskian_distance_packing",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_zero_reciprocal_elimination",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m16_order_zero_reciprocal_elimination",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_payoff_scope_router",
+   "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   }
  ]

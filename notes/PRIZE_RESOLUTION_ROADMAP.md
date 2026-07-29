@@ -8294,3 +8294,37 @@ upstream custody: not exported; PR #1120 contains the historical role-only
 next route-deciding action: add normalized color matching and the exact
                               degree-six outer replay to guard survivors
 ```
+
+**2026-07-29, colored-Frobenius HNF payoff correction:** Fable WAVE-32's
+scope objection is valid. The HNF lane is finite, but its connection to the
+critical L1 budget is much narrower than its node count suggests.
+
+```text
+node proved: l1_mersenne_hnf_payoff_scope_router
+post-router t=p obligation lattice:
+  m=4:  4 rows * {h=2}       = 4 cells
+  m=8:  4 rows * {h=2,...,7} = 24 cells
+  m=16: 1 row  * {h=2,...,15}= 14 cells
+  total                         42 cells
+embedded-family compatibility: 23 even cells; 19 odd cells
+complete next-to-maximal payoff:
+  h=7 on four rows plus h=15 on one row gives 42 -> 37
+current J-zero cubic 3+2+1 payoff:
+  no complete row/degree cell until every sibling order-one chart is paid
+full t=p residual payoff:
+  owner-pruned minimum width p -> p+1 only
+  unfloored generic packing improvement=(n-a+p)/p<m+2<=18
+scope fence:
+  no wider exchange, arbitrary-target Toeplitz/Pade section, aggregate
+  first-owner sum, L1 close, or prize status change
+dedicated strategy note: notes/L1_HNF_PAYOFF_LADDER.md
+compute spend: none
+validation: proof and replay sources written; arithmetic replay not run
+priority correction:
+  do not extend the J-zero packet merely because another finite compiler is
+  available; require a plausible full-cell close or independent upstream
+  split-pencil value
+next route-deciding action:
+  audit the global Toeplitz/Pade and first-owner frontiers, then select the
+  smallest theorem that changes a critical budget rather than one HNF chart
+```
