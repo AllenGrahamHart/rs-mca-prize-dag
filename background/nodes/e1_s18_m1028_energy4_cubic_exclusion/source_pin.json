@@ -1,0 +1,10 @@
+{
+  "schema": "e1-s18-m1028-energy4-cubic-source-pin-v1",
+  "script": "experiments/prize_resolution/e1_m1028_e4_third_moment_screen.py",
+  "script_sha256": "58899fb2cd23ed7370baa4c82399c4ed4ec7d8eee6f2ae2021e386b37fba91f2",
+  "result": "experiments/prize_resolution/e1_m1028_e4_third_moment_screen_result.json",
+  "result_sha256": "b4e50fe2565be620d66316727ecc0d7555282242e0638491e17d98c1ce427a4b",
+  "ledger_digest": "401203ca53dbd51a859b702767576b50aca05c73216194120a60eff251d1d442",
+  "types": 8385,
+  "maximum_cubic_index": 24
+}

@@ -3394,6 +3394,27 @@
    "notes": "SERIAL PAYMENT TRIGGER 2026-07-29: all transport and payment arithmetic is proved, but the node does not assert the energy-four certificate empty. The single-container CRT job is now the cheapest serial E1 obligation. Cofactor-514 work is optional before that trigger; no E1 close or Prize movement."
   },
   {
+   "id": "e1_s18_m1028_energy4_cubic_exclusion",
+   "title": "E1 square-mass-18 cofactor-1028 energy-four cubic exclusion",
+   "status": "PROVED",
+   "closure": "complete finite-field type screen and cubic logarithm bound",
+   "refs": [
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/statement.md",
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/proof.md",
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/claim_contract.md",
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/dependency_subdag.md",
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/audit.md",
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/result.md",
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/frontier.md",
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/source_pin.json",
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/verify.py",
+    "experiments/prize_resolution/e1_m1028_e4_third_moment_screen.py",
+    "experiments/prize_resolution/e1_m1028_e4_third_moment_screen_result.json"
+   ],
+   "statement": "No conductor-256 square-mass-18 collision with local valuation two and cofactor 1028 has autocorrelation energy four. The complete 8385-type fixed-root screen has cubic index at most 24, and the global cubic logarithm bound forces every exact norm below 1028 times the prize field floor.",
+   "notes": "ANALYTIC ENERGY-FOUR CLOSE 2026-07-29: ordered-triple and additive-relation engines agree on the complete cubic-index distribution, digest 401203ca53dbd51a859b702767576b50aca05c73216194120a60eff251d1d442. The 8385-resultant Modal job is superseded. This closes the last cofactor-1028 energy when combined with existing leaves; no direct Prize movement until the profile payment is promoted."
+  },
+  {
    "id": "e1_n512_four_singleton_collision_exclusion",
    "title": "N=512 four-singleton E1 collision exclusion",
    "status": "PROVED",
@@ -40496,6 +40517,21 @@
   },
   {
    "from": "e1_profile114_split_prime_payment_router",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_s18_m1028_energy4_cubic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "e1_s18_m1028_energy4_cubic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m1028_energy4_cubic_exclusion",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   }

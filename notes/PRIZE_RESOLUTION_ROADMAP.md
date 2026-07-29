@@ -9081,3 +9081,21 @@ The transport is legitimate because the consumed norm proofs depend on
 square mass, local valuation, and autocorrelation, not on the split
 `18=4a+b`. The revised one-container CRT job is therefore serial-path compute.
 Do not spend serial effort finishing cofactor `514` before this certificate.
+
+**2026-07-29, cofactor-1028 energy-four analytic close:** the proposed 8,385
+exact resultants collapse to one cubic conjugate-moment inequality.
+
+```text
+multiplicity-four lag sets:          134720
+mod-257 compatible signed types:     8385
+cubic moment:                        sum x_u^3=64K
+exact compatible maximum:            K=24
+global logarithm deficit:            512/729
+official verdict:                    Norm<1028*p_min for every type
+```
+
+The finite screen uses two independent exact formulas for `K`; the compatible
+ledger digest is
+`401203ca53dbd51a859b702767576b50aca05c73216194120a60eff251d1d442`.
+The one-container Modal norm job is superseded and should not be launched.
+Consume this close immediately in the profile-(1,14) payment.

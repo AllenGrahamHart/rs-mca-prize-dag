@@ -10129,14 +10129,13 @@ No fleet expansion is authorized. A single completed pilot decides whether the
 proof-producing certificate is worth engineering.
 ## E1 profile-(2,10), cofactor-1028 low-energy certification
 
-**Priority:** high. **Local execution:** forbidden. **Expected Modal cost:**
-well below `$1` for the energy-four stage.
+**Status:** superseded by proof. **Do not launch.**
 
-This is now serial-path compute, not merely optional profile-`(2,10)` slack.
-The proved `e1_profile114_split_prime_payment_router` shows that an empty
-certificate removes cofactor `1028` for profile `(1,14,S=18)`, reduces that
-profile to 35,328 oriented vectors below its 39,193 cap, and advances the E1
-ledger to `(0,18,S=18)` with cap 3,994.
+The proved node `e1_s18_m1028_energy4_cubic_exclusion` replaced all 8,385
+resultants by a complete cubic-moment screen. Its maximum cubic index is 24,
+which gives the exact norm deficit `512/729` and puts every type below
+`1028*p_min`. The launcher may be retained as an optional independent audit,
+but it is no longer authorized serial-path compute.
 
 The proved route originally left `m=1028=4*257` at autocorrelation energies
 `E in {2,3,4,5,6}`. Exact small screens showed:
@@ -10147,7 +10146,7 @@ E=3: 329 compatible types, all exact Norm/1028 above p_max
 E=4: 8,385 compatible types, all diagnostic log norms below p_min
 ```
 
-Run
+Historical launcher command, no longer required:
 
 ```text
 ~/.venvs/modal/bin/modal run \
