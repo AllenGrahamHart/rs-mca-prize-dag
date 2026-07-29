@@ -7905,10 +7905,10 @@ the outer stage into exactly two low-dimensional tasks.
 
   ```text
   experiments/prize_resolution/l1_m8_h7_cubic_321_fully_proportional_q_quotient_modal.py
-  sha256 2b33e8c0598283eecb4531df80f052dffe409d25e840c6d519b9d1d0aabb2f70
+  sha256 4490ec4cfdbbf36c45c4bdaa50177b1e8b26879ab513822d20af1e644702e56a
 
   experiments/prize_resolution/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
-  sha256 0d07d97174bfca96ec09bd2157fcdaea0a554a961ea954f9eed329a9f48ec61a
+  sha256 f1074ddb54f89bee37c2f89bf086b76c4d4a017745968c27937339ccf11a89b3
   ```
 
   It runs one independent one-CPU, 512 MB, 60-second task per official prime,
@@ -7917,7 +7917,9 @@ the outer stage into exactly two low-dimensional tasks.
   a checkable partial certificate. Each row must provide a complete
   factorization of `U`, extended-Euclidean certificates for
   `gcd(rho_1,rho_0)` and for the fixed `a_2=0` chart, and the complete list of
-  degree-one/two factors eligible for `b` in the ambient quadratic field. It
+  complete factor list for `b`, plus the degree-one/two subset as an explicit
+  quadratic-subfield diagnostic. The dependency chain does not bound the
+  field degree of `b`, so the latter subset is never a global closure test. It
   also reconstructs the primitive integer numerators `Z_D,Z_Q,Z_R`, checks
   their proved total-degree bounds `18,10,15`, computes each `Zhat_i mod U`
   without allowing intermediate degree above 57, and emits a four-polynomial
@@ -7930,16 +7932,16 @@ the outer stage into exactly two low-dimensional tasks.
   `V_E`, and emits an independently checked five-way Bezout certificate.
   Finally it reconstructs the degree-four singular-affine pair `H,K`, emits
   a pairwise Bezout gcd certificate, factors that gcd, flags every factor
-  lying on the separately excluded `A=1575-247z=0` chart, and lists exactly
-  the remaining irreducible factors of degree at most two. Those and only
-  those factors can have roots in the ambient quadratic field. The checker
-  independently reconstructs `A,H,K`, checks the gcd and factorization, and
-  recomputes the guard and ambient-degree classifications.
+  lying on the separately excluded `A=1575-247z=0` chart, lists every
+  remaining legal factor regardless of degree, and separately lists the
+  degree-one/two factors. The checker independently reconstructs `A,H,K`,
+  checks the gcd and factorization, and recomputes both classifications.
   It also reconstructs the `J_*=L_*=0` coefficient-and-structural filters
   `Bhat,Ehat,Fhat,Xhat,Zhat_D^j,Zhat_R^j` of degrees at most
   `6,7,10,11,24,16`, emits a six-way Bezout certificate for their common
   gcd, factors that monic gcd, flags every factor dividing the proved
-  denominator `T`, and lists exactly the remaining degree-one/two factors.
+  denominator `T`, lists every remaining legal factor, and separately lists
+  the degree-one/two factors.
   The checker independently reconstructs all seven source polynomials,
   verifies the six-way Bezout identity and complete factorization, and
   recomputes the `T` guard and ambient-degree classifications.
@@ -7953,14 +7955,15 @@ the outer stage into exactly two low-dimensional tasks.
   the Modal workspace is spend-blocked. A unit exceptional five-way gcd
   likewise excludes the `a_2*S_1*J_*!=0` exceptional chart; a nonunit gcd or
   `V_E_IDENTICALLY_ZERO` remains open. For the singular-affine chart,
-  `ambient_status=EMPTY` excludes the chart even when the polynomial gcd has
-  only higher-degree or `A=0` factors; `ambient_status=HIT` returns the exact
-  eligible factors for the retained `F_b=X_*=0` and downstream filters. This
-  extension adds no containers, CPUs, memory, retries, or timeout. For the
-  `J_*=0` endpoint, `ambient_status=EMPTY` excludes the complete coefficient
-  and structural chart; `HIT` returns only non-`T` factors for role, `P_4`,
-  saturation, and lift replay; `IDENTICALLY_ZERO_FAMILY` is explicitly
-  inconclusive. Wait for an explicit spend-access change.
+  `global_status=EMPTY` excludes the chart only when the gcd has no non-`A`
+  factor; higher-degree factors remain live. `quadratic_subfield_status` is
+  diagnostic and cannot close the chart without a separate descent theorem.
+  This extension adds no containers, CPUs, memory, retries, or timeout. For
+  the `J_*=0` endpoint, `global_status=EMPTY` excludes the complete
+  coefficient-and-structural chart only when no non-`T` factor remains;
+  `HIT` returns every non-`T` factor for role, `P_4`, saturation, and lift
+  replay. `IDENTICALLY_ZERO_FAMILY` is explicitly inconclusive. Wait for an
+  explicit spend-access change.
 
   The requested decision is whether every branch in one complete
   representation is unit on `a*B*Q(y)!=0` and the inherited HNF/fiber

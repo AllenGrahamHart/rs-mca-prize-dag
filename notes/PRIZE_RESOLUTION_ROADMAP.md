@@ -7580,7 +7580,8 @@ request: CR-L1-H7-C3-321-FPQ-QUOTIENT
 launcher: experiments/prize_resolution/l1_m8_h7_cubic_321_fully_proportional_q_quotient_modal.py
 checker: experiments/prize_resolution/check_l1_m8_h7_cubic_321_fully_proportional_q_quotient_certificate.py
 work: factor degree-at-most-58 U over four official fields; certify
-      gcd(rho_1,rho_0), the a_2=0 chart, all degree-1/2 eligible factors,
+      gcd(rho_1,rho_0), the a_2=0 chart, every factor and the diagnostic
+      degree-1/2 subset,
       gcd(U,Zhat_D,Zhat_Q,Zhat_R) by a four-way Bezout identity, and
       gcd(V_E,X_E,Zhat_D^e,Zhat_Q^e,Zhat_R^e) by a five-way identity;
       also certify and factor gcd(H,K) for the S_1=S_0 singular chart,
@@ -7809,8 +7810,7 @@ next route-deciding action: add the quartic common-root/ambient-degree
 
 **2026-07-29, L1 h=7 exceptional singular-affine packet extension:** the
 existing unrun four-prime request now decides whether the two-quartic endpoint
-has any root in the ambient quadratic field away from the closed leading
-chart.
+has any algebraic root away from the closed leading chart.
 
 ```text
 source additions: primitive integer coefficient tables for
@@ -7819,10 +7819,10 @@ certificate: pairwise Bezout identity for gcd(H,K), followed by a complete
              irreducible factorization of the monic gcd
 guard classification: flag every factor dividing A; these belong to the
                       separately proved exceptional leading-chart exclusion
-ambient classification: retain exactly non-A irreducible factors of degree
-                        at most two over F_p
-EMPTY meaning: no root exists in F_(p^2) on the declared A!=0 chart
-HIT meaning: the listed factors alone continue to b reconstruction,
+legal classification: retain every non-A irreducible factor, at any degree
+quadratic diagnostic: separately list the degree-at-most-two legal factors
+EMPTY meaning: no algebraic root exists on the declared A!=0 chart
+HIT meaning: every listed legal factor continues to b reconstruction,
              F_b=X_*=0, J_*, structural, role, P_4, saturation, and lifts
 launcher:
   06e941be7bd231d993a63ebb83c0855f0798524a10e86249e9796f9b7a02f3c0
@@ -7893,9 +7893,10 @@ the ambient endpoint.
 ```text
 guard classification: every irreducible gcd factor dividing T is marked
                       t_zero_factor and excluded from the legal chart
-ambient classification: retain exactly non-T factors of degree at most two
-EMPTY meaning: no legal coefficient root exists in F_(p^2)
-HIT meaning: listed factors continue to G_2, structural, role, P_4,
+legal classification: retain every non-T factor, at any degree
+quadratic diagnostic: separately list the degree-at-most-two legal factors
+EMPTY meaning: no legal algebraic coefficient root exists
+HIT meaning: every listed legal factor continues to G_2, structural, role, P_4,
              saturation, and arithmetic-lift replay
 IDENTICALLY_ZERO_FAMILY meaning: inconclusive, never closure
 launcher:
@@ -7960,14 +7961,14 @@ same exact gcd/factor certificate.
 ```text
 family: Bhat,Ehat,Fhat,Xhat,Zhat_D^j,Zhat_R^j
 certificate: six-way Bezout identity, complete monic-gcd factorization,
-             T-zero guard classification, ambient degree classification
-EMPTY meaning: no legal coefficient-and-structural root exists in F_(p^2)
-HIT meaning: listed factors alone continue to role, P_4, saturations, lifts
+             T-zero guard classification, and quadratic-subfield diagnostic
+EMPTY meaning: no legal algebraic coefficient-and-structural root exists
+HIT meaning: every listed legal factor continues to role, P_4, saturations, lifts
 IDENTICALLY_ZERO_FAMILY meaning: inconclusive, never closure
 launcher:
-  2b33e8c0598283eecb4531df80f052dffe409d25e840c6d519b9d1d0aabb2f70
+  4490ec4cfdbbf36c45c4bdaa50177b1e8b26879ab513822d20af1e644702e56a
 checker:
-  0d07d97174bfca96ec09bd2157fcdaea0a554a961ea954f9eed329a9f48ec61a
+  f1074ddb54f89bee37c2f89bf086b76c4d4a017745968c27937339ccf11a89b3
 resource delta: none; four one-CPU, 512 MB, 60-second tasks, no retries,
                 atomic partial output
 estimated total cost: still below $0.01
@@ -7980,8 +7981,8 @@ upstream custody:
   combined verifier:
     446123cea29919792b819e5b23459df6a4a8e6f62018b6402debc2bcf06febc0
   launcher/checker parity:
-    2b33e8c0598283eecb4531df80f052dffe409d25e840c6d519b9d1d0aabb2f70
-    0d07d97174bfca96ec09bd2157fcdaea0a554a961ea954f9eed329a9f48ec61a
+    4490ec4cfdbbf36c45c4bdaa50177b1e8b26879ab513822d20af1e644702e56a
+    f1074ddb54f89bee37c2f89bf086b76c4d4a017745968c27937339ccf11a89b3
   export state at pin: OPEN, DRAFT, MERGEABLE
 next route-deciding action: inspect whether the role and P_4 filters admit
                               a similarly exact reduction
@@ -8032,4 +8033,30 @@ upstream custody:
 next route-deciding action: decide whether to add 21 role-specific gcd
                               families to the unrun packet or attack
                               arithmetic lifts by hand
+```
+
+**2026-07-29, L1 h=7 certificate field-scope correction:** the unrun
+fully-proportional packet no longer treats the role field as the coefficient
+field.
+
+```text
+audited distinction: each official role root eta lies in F_(p^2), but no
+                     dependency proves b in F_(p^2)
+unsafe old rule: discard every common-gcd factor of degree greater than two
+sound global rule: discard only factors on an already excluded guard chart;
+                   global EMPTY means no legal factor remains at any degree
+diagnostic retained: degree-one/two legal factors are reported separately as
+                     the quadratic-subfield subset
+singular guard: A=1575-247z
+J-zero guard: T=-280b^2+2241b+3465
+IDENTICALLY_ZERO_FAMILY: remains inconclusive
+launcher:
+  4490ec4cfdbbf36c45c4bdaa50177b1e8b26879ab513822d20af1e644702e56a
+checker:
+  f1074ddb54f89bee37c2f89bf086b76c4d4a017745968c27937339ccf11a89b3
+validation: AST-only; arithmetic packet remains unrun and spend-blocked
+compute/resource delta: none
+DAG delta: none; this repairs certificate semantics, not a mathematical close
+next route-deciding action: export the correction before extending the packet
+                              to 21 role-specific families
 ```
