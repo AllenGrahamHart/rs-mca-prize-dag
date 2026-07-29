@@ -5720,6 +5720,40 @@ next route-deciding action:
 compute spend: exact modular arithmetic only under tiny RAMguard
 ```
 
+**2026-07-29, inner-degree-12 diagonal-socle route cut:** composition
+monodromy removes the full Dickson branch and exposes a synchronized
+one-point-per-outer-block structure on every actual survivor.
+
+```text
+new node: rate_half_kb_m12_diagonal_socle_route_cut [PROVED]
+terminal degree-12 catalogue:
+  M11, M12, PSL2(11), PGL2(11), A12, S12
+  simple socles M11, M12, PSL2(11), A12; every action has subdegrees 1,11
+block-kernel theorem:
+  N = kernel on the five outer blocks
+  [N,N] projects onto every simple inner socle
+  Scott strips + primitive degree-five block action give S^5 or full diagonal S
+  S^5 gives a 12-point orbit in every other block, contradicting |Delta|=4
+cross-action audit:
+  equivalent actions give point-stabilizer orbits 1,11
+  paired ATLAS M12 12a/12b generators reconstruct order 95040
+  the order-7920 12a stabilizer is transitive on 12b
+route consequence:
+  every block met by Delta contributes exactly one synchronized fixed point
+  |Delta|=4 therefore forces outer subdegree r=4
+  r=2 Dickson is deleted; the five r=4 normal forms remain
+  in the M12 case all five block actions have the same action class
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  no r4-family deletion, source-star close, owner, carrier/data bridge,
+  charge, m12, u2, cap 68, endpoint, adjacent certificate, or row close
+next route-deciding action:
+  impose the synchronized diagonal point across all five outer fibers on
+  the canonical <A,N0> pencil and actual source-star divisor
+compute spend: 95,040-element exact permutation replay, under tiny RAMguard
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

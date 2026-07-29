@@ -107,8 +107,9 @@ most three, so Riemann-Hurwitz forces the outer component to have genus at
 most one. Exact tame degree-five branch-cycle enumeration leaves five rows:
 `A5` profiles `(3),(2,2)` and `(3),(3)`, and `S5` profiles `(2),(3,2)`,
 `(2),(4)`, and `(2),(2),(2,2)`. Tame polynomial `AGL(1,5)` and the genus-two
-and genus-three profiles are excluded. The five rows and the separate
-dihedral `r=2` survivor remain unpaid; no owner charge moves.
+and genus-three profiles are excluded. The five rows remain unpaid; the
+separate dihedral `r=2` survivor is deleted by the later diagonal-socle cut.
+No owner charge moves.
 
 The PROVED `rate_half_kb_m12_outer_normal_form_compiler` removes arbitrary
 outer-quintic search. Geometrically, the dihedral row is a Dickson quintic
@@ -125,7 +126,21 @@ arithmetic monodromy to equal geometric monodromy, so every outer component
 is defined over `K`. It also gives `K`-affine normalizations for the rigid
 `A5 (3),(2,2)`, `S5 (3,2),(2)`, and `S5 (4),(2)` forms. Only three descent
 twists remain: Dickson, `A5 (3),(3)`, and the one-parameter `S5` family.
-No family is deleted and no owner charge moves.
+This descent argument alone deletes no family; the later diagonal-socle cut
+removes Dickson. No owner charge moves.
+
+The PROVED `rate_half_kb_m12_diagonal_socle_route_cut` uses the composition
+monodromy rather than more coefficient casework. The derived block kernel
+is a subdirect product of five nonabelian simple degree-12 socles. Scott's
+lemma and the primitive degree-five block action make it either independent
+or one full twisted diagonal. The actual size-four non-same-fiber suborbit
+excludes independence. Exact cross-action orbits, including the two
+outer-automorphism-related `M12` actions, then force that suborbit to contain
+one synchronized point in each of four outer blocks. Hence `r=2` is empty
+and only `(r,delta)=(4,12)` survives. The exact `m=12` frontier is now the
+five printed `r=4` families with a synchronized diagonal correspondence;
+the global transverse frontier drops from 24 to 23 types. None of the five
+families is yet deleted or owned, and no charge moves.
 
 ## Banked range
 
