@@ -19538,6 +19538,25 @@
    "notes": "Exact exceptional quadratic router only. The univariate pair, simultaneous affine-coefficient singular chart, fixed leading-coefficient chart, structural equations, role-discriminant weld, P_4, and arithmetic-lift obligations remain open."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one exceptional-E structural-consistency compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the generic exceptional E_G=0 chart, all original structural definitions are equivalent to three explicit rational consistency equations; their cleared bivariate numerators have degrees at most 27, 13, and 21 and become univariate after the exceptional q reconstruction.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler/verify.py"
+   ],
+   "notes": "Exact exceptional structural compiler only. Common roots of the five univariate coefficient/structural filters, three retained singular coefficient charts, the role-discriminant weld, P_4, saturations, and arithmetic-lift obligations remain open."
+  },
+  {
    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler",
    "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional structural-consistency compiler",
    "status": "PROVED",
@@ -37106,6 +37125,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

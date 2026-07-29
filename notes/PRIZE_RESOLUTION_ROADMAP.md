@@ -7662,3 +7662,33 @@ compute spend: none
 DAG delta: none; this is a proof-producing request for the existing endpoint
 next route-deciding action: run only after an explicit spend-access change
 ```
+
+**2026-07-29, L1 h=7 exceptional-`E_G` structural compiler:** the generic
+part of the exceptional coefficient chart is now reattached to every
+original structural definition.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_structural_consistency_compiler
+scope: E_G=0 and a_2*S_1*J_*!=0
+reconstructions:
+  D_e=D_*/(3600b), Q_e=Q_*/(72D_*)
+  G_e=-D_*^2L_*/(720bJ_*), H_e=ell-G_e
+  Y_e=(ell-2G_e)/A-x, V_e=G_e+xY_e+Y_e^2
+structural filters:
+  Z_D^e=Num(D_e-Y_eV_e)
+  Z_Q^e=Num(Q_e-A G_e-x ell+20+8q/3+D_e)
+  Z_R^e=Num(R_e-G_e(ell-G_e)+xQ_e+(A+x)D_e
+            +15+23q/4+q^2/8)
+degree ledger:
+  deg(Z_D^e)<=27, deg(Z_Q^e)<=13, deg(Z_R^e)<=21
+exceptional q reconstruction:
+  Zhat_i^e=S_1^deg_q(Z_i^e) Z_i^e(b,-S_0/S_1)
+complete coefficient/structural endpoint:
+  V_E=X_E=Zhat_D^e=Zhat_Q^e=Zhat_R^e=0
+retained charts: S_1=0, a_2=0, and J_*=0; role, P_4, saturations,
+                 and arithmetic lifts also remain
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: build a bounded five-way gcd packet for the
+                              exceptional generic chart
+```
