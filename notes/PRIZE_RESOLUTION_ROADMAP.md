@@ -7154,3 +7154,24 @@ DAG delta: one PROVED background node and three edges; no critical status flip
 next route-deciding action: run the common-quadratic elimination separately
                               on these four low-degree role factors
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` role weld:** the role variable is now
+eliminated before any p-free classification.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld
+R=a(3y^2+2g_1y+g_2)
+S=B
+lambda=1+R/S
+homogeneous role inputs:
+  A_0=S^2+RS+R^2
+  B_0=(2S+R)(S+2R)(R-S)
+welded packets: the four role factors with (A,B) replaced by (A_0,B_0)
+variables per packet: (g_1,y,r,d)
+equations per packet: l_4,l_5,l_6, conic, one homogeneous role factor
+equivalence: exact on R*S!=0 and inherited exact-fiber saturations
+compute spend: none
+DAG delta: one PROVED background node and three edges; no critical status flip
+next route-deciding action: seek triangular reductions among l_4,l_5,l_6
+                              before posing any four-packet elimination
+```
