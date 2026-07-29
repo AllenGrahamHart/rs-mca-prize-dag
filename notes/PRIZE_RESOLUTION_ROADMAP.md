@@ -5754,6 +5754,39 @@ next route-deciding action:
 compute spend: 95,040-element exact permutation replay, under tiny RAMguard
 ```
 
+**2026-07-29, inner-degree-12 closure by secondary degree five:** the full
+diagonal socle automatically preserves a second block system, reducing the
+last `m=12` survivor to the already-deleted degree-five row.
+
+```text
+new node: rate_half_kb_m12_secondary_degree5_decomposition_exclusion [PROVED]
+normalizer theorem:
+  identify the five equivalent degree-12 socle actions on X
+  a faithful nonregular two-transitive action has trivial Sym(X) centralizer
+  every g normalizing diagonal S acts as (x,i) -> (n_g(x),pi_g(i))
+secondary block system:
+  twelve synchronized columns C_x, each of size five
+  monodromy/intermediate-field correspondence gives an inner-degree-5 factor
+contradiction:
+  the existing deployed-field degree-five exclusion quantifies over every
+  geometric decomposition of the endpoint map
+  fifth-power injectivity forbids its complete five-point rational fibers
+route consequence:
+  all five r4 normal-form families are deleted
+  m=12 is fully closed
+  global transverse frontier: 23 -> 22 types
+  live decomposition degrees: 2,3,4,6,10
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  no close for another degree, owner, carrier/data bridge, charge, u2,
+  cap 68, endpoint, adjacent certificate, or KoalaBear row close
+next route-deciding action:
+  seek a forced secondary block system at m=10, then m=6; otherwise impose
+  the actual source-star incidence on the smallest surviving outer type
+compute spend: tiny exact finite block and field arithmetic only
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

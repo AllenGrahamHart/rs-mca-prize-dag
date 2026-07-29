@@ -142,6 +142,18 @@ five printed `r=4` families with a synchronized diagonal correspondence;
 the global transverse frontier drops from 24 to 23 types. None of the five
 families is yet deleted or owned, and no charge moves.
 
+The PROVED
+`rate_half_kb_m12_secondary_degree5_decomposition_exclusion` closes the
+remaining branch. Equivariant identification of the five equal degree-12
+socle actions makes every normalizer element act by one common permutation
+on their 12-point coordinate: the action centralizer is trivial. Hence the
+degree-60 monodromy preserves twelve secondary blocks of size five. This
+forces an inner-degree-five decomposition of the same endpoint map, which
+the deployed-field degree-five theorem already excludes. Thus all five
+`r=4` families are empty, `m=12` is fully closed, the global transverse
+frontier drops from 23 to 22 types, and the live degrees are
+`2,3,4,6,10`. No owner charge moves.
+
 ## Banked range
 
 Put
