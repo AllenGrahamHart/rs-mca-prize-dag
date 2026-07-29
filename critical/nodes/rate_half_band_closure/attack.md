@@ -101,6 +101,15 @@ fifth-power map, contradicting fifth-power injectivity on `F_(p^6)`. Thus
 only `(r,delta)=(2,24),(4,12)` survive at `m=12`, and the global transverse
 frontier drops from 26 to 24 types. No owner charge moves.
 
+The PROVED `rate_half_kb_m12_r4_low_genus_branch_profile_reduction` sharpens
+the `r=4,delta=12` survivor. The actual component has normalization genus at
+most three, so Riemann-Hurwitz forces the outer component to have genus at
+most one. Exact tame degree-five branch-cycle enumeration leaves five rows:
+`A5` profiles `(3),(2,2)` and `(3),(3)`, and `S5` profiles `(2),(3,2)`,
+`(2),(4)`, and `(2),(2),(2,2)`. Tame polynomial `AGL(1,5)` and the genus-two
+and genus-three profiles are excluded. The five rows and the separate
+dihedral `r=2` survivor remain unpaid; no owner charge moves.
+
 ## Banked range
 
 Put

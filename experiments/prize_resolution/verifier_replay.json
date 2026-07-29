@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/verify.py",
-      "seconds": 0.020146,
+      "script": "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/verify.py",
+      "seconds": 0.21158,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M12_OUTER_SUBDEGREE_ROUTE_CUT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M12_R4_LOW_GENUS_BRANCH_PROFILE_REDUCTION_PASS\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/verify_audit.py",
-      "seconds": 0.014927,
+      "script": "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/verify_audit.py",
+      "seconds": 0.028589,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M12_OUTER_SUBDEGREE_ROUTE_CUT_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M12_R4_LOW_GENUS_BRANCH_PROFILE_REDUCTION_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

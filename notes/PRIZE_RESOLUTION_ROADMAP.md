@@ -5609,6 +5609,45 @@ next route-deciding action:
 compute spend: none; exact field arithmetic only under RAMguard
 ```
 
+**2026-07-29, inner-degree-12 r4 low-genus reduction:** the remaining
+one-orbit degree-five outer component is no longer a generic quintic
+correspondence. A normalization-genus bound and complete tame branch-cycle
+ledger leave five exact rows.
+
+```text
+new node: rate_half_kb_m12_r4_low_genus_branch_profile_reduction [PROVED]
+input type: (m,r,delta)=(12,4,12)
+actual-curve genus:
+  H0 has bidegree (2,4) and is birational to Gamma, hence g(Gamma)<=3
+  Gamma->C has degree 12, hence Riemann-Hurwitz forces g(C)<=1
+outer polynomial ledger:
+  infinity branch cycle (5), finite branch indices sum to 4
+  off-diagonal normalization is the 20-sheet ordered-pair orbit
+complete low-genus profiles:
+  A5: (3),(2,2), genus 0
+  A5: (3),(3), genus 1
+  S5: (2),(3,2), genus 0
+  S5: (2),(4), genus 0
+  S5: (2),(2),(2,2), genus 1
+route cuts:
+  tame polynomial AGL(1,5) absent
+  S5 profiles (2),(2),(3) and four copies of (2) have genus 2 and 3
+  and are impossible
+exact replay:
+  all 120 permutations of S5; 310 admissible ordered two-transitive tuples
+  independent explicit representatives and ordered-pair index audit
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  no deletion or realization of the five profiles; r2 untouched; no r4,
+  m12, owner, carrier/data bridge, charge, u2, cap 68, endpoint, or row close
+next route-deciding action:
+  normalize the genus-zero two-finite-branch rows to rigid polynomial forms;
+  use the genus-one degree-12 cover and source-pole divisor on the other two;
+  attack the dihedral r2 survivor separately
+compute spend: 120-permutation exact local replay under tiny RAMguard; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every
