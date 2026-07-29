@@ -8801,3 +8801,31 @@ next route-deciding action:
   run the single capped L1 pilot only after Modal spend access is restored;
   otherwise derive exact sparse coefficient propagation in the contracted box
 ```
+
+**2026-07-29, E1 high-cofactor Schinzel collapse:** a sharp entropy bound
+beats the universal height floor for three of the four residual cofactors.
+
+```text
+node proved: e1_high_cofactor_schinzel_height_collapse
+for m=4,8,16:
+  D=log(18^64/(m p))<6.845
+sharp 64-coordinate entropy lemma:
+  D<6.845 => sum|log z_a|<30.645
+same-cofactor unit ratio:
+  ||lambda(u)||1<61.29
+Schinzel lower bound for non-torsion real units:
+  ||lambda(u)||1=256h(u)>=128log(phi)>61.595
+conclusion:
+  each of m=4,8,16 has at most one 256-element shift/sign orbit
+  T_36 <= T_36,m=2+3
+  necessary residual maximum-profile fallback: T_36,m=2<=364
+route verdict:
+  concentrate every further associate attack on cofactor 2; do not recount
+  the three analytically collapsed branches
+scope fence:
+  no cofactor-2 payment, lower-profile payment, E1 close, or Prize movement
+compute spend: none; 63 directed entropy cases plus exact-rational replay
+next route-deciding action:
+  seek a cofactor-2-specific log improvement or sparse product invariant;
+  the general Schinzel comparison misses only this branch
+```

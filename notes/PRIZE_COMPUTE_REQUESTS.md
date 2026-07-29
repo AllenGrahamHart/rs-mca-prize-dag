@@ -10066,9 +10066,11 @@ steps 1--2 below. Any future implementation must begin at step 3:
 A floating-point FFT may guide subdivision but cannot accept or reject a
 vector. Every boundary comparison uses directed intervals, and every
 retained vector is replayed by exact ring arithmetic. The completed
-projection gives `|xi_t|<=7`, `sum xi_t^2<=101`, exactly
+preflight gives `|xi_t|<=7`, `sum xi_t^2<=101`, exactly
 `16616854517524950208619690062355423946568371` coarse zero-sum vectors, and
 at least `38,482,585,013,041` explicit vectors inside the weighted ellipsoid.
+The subsequent inverse-kernel theorem sharpens the live body to
+`|xi_t|<=3`, `sum|xi_t|<=60` while retaining the Euclidean bound.
 Therefore coordinate-, Euclidean-, and ellipsoid-first enumeration are all
 rejected; no fleet request should merely scale them up. A new request becomes
 admissible only after an algebraic sparse-product/inverse recurrence has a
@@ -10098,6 +10100,9 @@ largest-absolute coordinate at index zero. One two-CPU, 2-GiB container is
 capped at 280 seconds; HiGHS is capped at 240 seconds and prints the incumbent,
 dual bound, gap, node count, and a 70-decimal recomputation before shutdown.
 The projected charge is cents, not dollars.
+
+The proved Schinzel-height collapse now pays cofactors `4,8,16` without this
+probe, so its only live E1 payoff is the residual cofactor-`2` family.
 
 The first launch attempt on 2026-07-29 started no container and incurred no
 compute. Modal returned

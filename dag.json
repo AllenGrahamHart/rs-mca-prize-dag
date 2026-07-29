@@ -3155,6 +3155,25 @@
    "notes": "CERTIFIED SEARCH CONTRACTION 2026-07-29: directed inversion of all 63 nonzero character eigenvalue rectangles retains their phases and improves the coordinate box from [-7,7] to [-3,3], with an additional even integer L1 budget 60. The weighted ellipsoid still contains at least 38 trillion vectors, so generic enumeration remains rejected. No associate count, 367-orbit payment, lower-profile payment, E1 close, or Prize movement."
   },
   {
+   "id": "e1_high_cofactor_schinzel_height_collapse",
+   "title": "E1 high-cofactor Schinzel height collapse",
+   "status": "PROVED",
+   "closure": "sharp entropy bound plus Schinzel's totally real height theorem",
+   "refs": [
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/statement.md",
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/proof.md",
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/claim_contract.md",
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/dependency_subdag.md",
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/audit.md",
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/result.md",
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/frontier.md",
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/verify.py",
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/verify_audit.py"
+   ],
+   "statement": "At one fixed prize row and primitive quotient root, each profile-(3,6,S=18) cofactor branch 4, 8, or 16 contains at most one negacyclic shift/sign orbit. The exact deficit is below 6.845; a sharp entropy extremum bounds every associate log L1 below 61.29, while Schinzel's theorem forces every non-torsion real unit above 128 log(phi)>61.595. Hence the three branches contribute at most three orbits in total.",
+   "notes": "ANALYTIC ASSOCIATE COLLAPSE 2026-07-29: all 63 entropy side sizes are certified independently by directed Decimal and exact-rational atanh arithmetic. The cofactor-2 branch remains open, as do all lower-profile weighted charges. No collision existence/emptiness, E1 close, or Prize movement."
+  },
+  {
    "id": "e1_n512_four_singleton_collision_exclusion",
    "title": "N=512 four-singleton E1 collision exclusion",
    "status": "PROVED",
@@ -39977,6 +39996,26 @@
   },
   {
    "from": "e1_conductor256_inverse_kernel_contraction",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_pure_cofactor_common_prime_associate_router",
+   "to": "e1_high_cofactor_schinzel_height_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "e1_conductor256_full_unit_circular_basis",
+   "to": "e1_high_cofactor_schinzel_height_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "e1_conductor256_character_eigenvalue_preflight",
+   "to": "e1_high_cofactor_schinzel_height_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "e1_high_cofactor_schinzel_height_collapse",
    "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   }

@@ -60,14 +60,21 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
    quotient roots without the Galois transport. The alternative exact count
    is in the full rank-63 unit log lattice inside the router's AM-GM body;
    any regulator or packing argument must apply to that full lattice. The
-   character router and certified eigenvalue preflight give `|xi_t|<=7` and
-   `sum xi_t^2<=101`, but the resulting zero-sum envelope has more than
-   `2^143` points and the weighted ellipsoid already contains over
+   character router, certified preflight, and inverse-kernel contraction give
+   `|xi_t|<=3`, `sum|xi_t|<=60`, and `sum xi_t^2<=101`. The earlier coarse
+   zero-sum envelope has more than `2^143` points, and even the weighted
+   ellipsoid already contains over
    `3.8*10^13` explicit sparse points. Generic exponent enumeration is
    rejected. Make the exact sparse product and inverse equations the first
    generator, or prove a support-propagation classification before proposing
    computation. The exact profile target is at most 367 points modulo
    `mu_256`; retain all lower-profile charges after paying it.
+9. Consume `e1_high_cofactor_schinzel_height_collapse` before any associate
+   search. It pays the `m=4,8,16` multiplicities analytically at most one
+   torsion orbit each. Restrict every subsequent unit search to `m=2`; its
+   necessary maximum-profile fallback is at most 364 orbits after charging
+   the possible three high-cofactor orbits. Do not confuse this with the
+   complete weighted budget, which still includes lower profiles.
 
 No broad local or Modal census is authorized. Large exact relation searches
 must be recorded as external compute requests with partial-result output.

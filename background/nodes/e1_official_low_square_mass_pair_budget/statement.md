@@ -47,12 +47,19 @@ unit associates generating the same reduction prime ideal. Thus this
 profile's vectors must be counted as one bounded unit-associate family, not
 as unrelated norm-divisibility events. Within a fixed cofactor, the unit and
 its inverse have explicit power-basis coefficient bounds
-`1006,503,251,125` for cofactors `2,4,8,16`. No count of that finite family is
-yet proved. Modulo the 256 negacyclic shift/sign associates, the same family
+`1006,503,251,125` for cofactors `2,4,8,16`. The router itself does not count
+that finite family. Modulo the 256 negacyclic shift/sign associates, it
 injects into an explicit `L1` body in the full rank-63 algebraic-unit log
 lattice. The exact profile charge makes 367 the necessary total orbit cap;
 368 such orbits already exceed the complete edge budget. This does not pay
 the lower-weight profiles.
+
+The proved high-cofactor Schinzel collapse now shows that the branches
+`m=4,8,16` contribute at most one shift/sign orbit each. Thus all unresolved
+associate multiplicity in this maximum-weight profile is concentrated in
+cofactor `m=2`. Charging the possible three high-cofactor orbits leaves the
+necessary fallback cap `364` for the cofactor-`2` family. This still is not
+sufficient for the complete pair budget because lower profiles remain.
 
 ## Falsifier
 

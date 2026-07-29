@@ -1,7 +1,10 @@
 # Frontier
 
-The numerical spectrum is no longer open.  Do not spend compute refining its
-precision or enumerating the `2^143` coarse body.
+The numerical spectrum is no longer open. The inverse-kernel theorem has
+also sharpened the live exponent body to `|xi_t|<=3`, `sum|xi_t|<=60`, and
+the Schinzel-height theorem has paid cofactors `4,8,16`. Do not spend compute
+refining the spectrum, enumerating the `2^143` coarse body, or recounting
+those three cofactors.
 
 The next positive theorem must start from the exact equation
 
@@ -25,5 +28,6 @@ Promising admissible outputs are:
 3. a sparse-first branch-and-bound whose complete state count, peak RAM,
    wall time, and cost are conservatively below the repository limits.
 
-Any surviving maximum-weight count must still be summed across four
-cofactors and combined with the lower-profile weighted ledger.
+Any surviving maximum-weight count is now concentrated in cofactor `2`, with
+the possible three high-cofactor torsion orbits added back, and must still be
+combined with the lower-profile weighted ledger.
