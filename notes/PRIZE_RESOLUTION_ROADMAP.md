@@ -8365,3 +8365,30 @@ upstream custody:
   accepted surface: experimental/experiments.tex plus one agents-log entry
 next route-deciding action: return to the surviving Pade/first-owner upper
 ```
+
+**2026-07-29, M31 rank-seven two-block incidence router:** retaining both
+agreement blocks replaces the weak nineteen-slice picture by a collective
+middle-band locator terminal.
+
+```text
+node proved: l1_m31_rank7_zero_excess_two_block_incidence_router
+source terminal: Q=147595, k=4981, proper-G zero-excess mass
+exact support profile per member:
+  planted q_i; external 72428-q_i
+pairwise total intersection: at most 4980
+constant-weight tail caps:
+  q_i<=4980   -> aggregate mass <=40
+  q_i>=67448  -> aggregate mass <=7
+dangerous-class consequence:
+  at least 2157882 distinct locators with 4981<=q_i<=67447
+exact mean-degree inequality:
+  (N Q-M m g)^2 <= gE(MN(m-t)+M^2(Nt-m^2))
+  Nt-m^2=898676
+  forbidden mass implies 23945<Q/M<24860
+scope fence: no middle-band upper bound, Q=147595 payment, v4 atom,
+             higher-rank theorem, row close, or Prize status change
+compute spend: none; proof is analytic
+replay state: two exact verifier sources written; local arithmetic unrun
+next route-deciding action: attack the distinct middle-band locator family
+                              through a whole-family Pade/first-owner theorem
+```
