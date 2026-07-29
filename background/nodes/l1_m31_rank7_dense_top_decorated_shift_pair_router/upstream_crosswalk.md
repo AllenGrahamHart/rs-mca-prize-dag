@@ -22,3 +22,6 @@ replay: two exact-integer verifier sources; local arithmetic unrun
 The object is the growing-cofactor decorated version of the primitive
 shift-pair interface. A transport to the active bare-support `U_SP` requires
 an explicit owner/coalescing theorem.
+
+Export custody: upstream draft PR `#1124`, commit
+`4cd4cf79ef3a9f19dae515c27d2cc4b7126f636b`, mergeable at the recorded pin.
