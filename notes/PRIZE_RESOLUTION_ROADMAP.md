@@ -8988,3 +8988,20 @@ ceiling, and five prior Bareiss norms independently check the resultant
 recurrence. The replay uses about 17 MiB and 1.5 seconds locally. Replace the
 queued 60-container energy-four Bareiss plan with the same modular engine;
 the remaining 8,385 types should fit one low-memory, sub-minute Modal worker.
+
+**2026-07-29, profile-(2,10) cofactor-514 outer-window contraction:** exact
+logarithm bounds remove both ends of the wider split-prime branch.
+
+```text
+initial moment window:                E=0,...,17
+energy zero:                          wrong 2-adic valuation
+low logarithm minorant:               E=1,...,4 => Norm>514*p_max
+high endpoint majorant:               E=14,...,17 => Norm<514*p_min
+remaining cofactor-514 energies:      E=5,...,13
+```
+
+Both endpoint logarithms use two-term positive atanh sums plus geometric
+tails, with rational margins `776/5736675` and `56987/30028800`. Exact
+exponential comparisons pay the official interval. The next cofactor-514
+step is a fixed-root mod-257 screen by integral autocorrelation shape; do not
+enumerate coefficient supports before that target-level reduction.
