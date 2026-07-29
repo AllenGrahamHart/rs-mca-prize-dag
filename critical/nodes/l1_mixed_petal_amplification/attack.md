@@ -740,6 +740,13 @@
   degree-two endpoint; retain the degree-eight two-antipodal endpoint as its
   cheaper specialized check.
 
+- For every fixed `m=8` univariate norm endpoint, consume
+  `l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler`. Replace the eight
+  color-fiber gcds on one prime by the single aggregate gcd against
+  `X^(8(p+1))-1`. A unit aggregate row proves all eight color rows unit; a
+  nonunit row is only a router and must be split by `zeta` before packet
+  reconstruction. Do not interpret an aggregate hit as an HNF witness.
+
 - At cubic color degree, first consume
   `l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction`. If exactly two
   colors are used three times each, their full cubic fibers factor `L` and

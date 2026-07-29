@@ -19195,6 +19195,23 @@
    ]
   },
   {
+   "id": "l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler",
+   "title": "L1 Mersenne HNF m=8 aggregate norm-gcd compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For an official m=8 row and P in F_p[X], unit gcd of P with X^(8(p+1))-1 over F_p is equivalent to unit gcds of P with X^(p+1)-zeta for every zeta in mu_8 after base extension. Thus each fixed norm endpoint needs four aggregate prime rows rather than 32 color rows.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler/verify.py"
+   ],
+   "notes": "Exact replay-granularity theorem only. It supplies no gcd verdict; every nonunit aggregate row must be split by norm color and filtered."
+  },
+  {
    "id": "l1_mersenne_hnf_order_zero_linear_color_exclusion",
    "title": "L1 Mersenne HNF order-zero linear-color exclusion",
    "status": "PROVED",
@@ -36043,6 +36060,16 @@
   },
   {
    "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+   "to": "l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },

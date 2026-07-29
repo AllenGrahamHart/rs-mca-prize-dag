@@ -7006,3 +7006,19 @@ critical status delta: none
 next route-deciding action: run after an explicit spend-state change; a unit
                               certificate closes both exceptional branches
 ```
+
+**2026-07-29, L1 m=8 aggregate norm-gcd compiler:** the low-degree launcher
+now rests on an explicit proof artifact rather than an undocumented shard
+shortcut.
+
+```text
+node proved: l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler
+identity: product_zeta (X^(p+1)-zeta)=X^(8(p+1))-1
+certificate equivalence: unit aggregate gcd iff all eight color gcds unit
+compression: 32 rows -> 4 rows per fixed endpoint polynomial
+hit rule: split by zeta; aggregate nonunit is not a packet witness
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: retain the 16-row launcher unchanged; execute
+                              only after an explicit Modal spend-state change
+```

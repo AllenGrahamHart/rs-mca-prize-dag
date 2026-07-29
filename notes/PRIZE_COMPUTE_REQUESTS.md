@@ -7568,7 +7568,8 @@ the outer stage into exactly two low-dimensional tasks.
   The aggregate alternative is the shared launcher
   `experiments/prize_resolution/l1_m8_h7_low_degree_norm_endpoints_modal.py`.
   Its four `q2_pair_degree8` rows replace the 32 individual color packets;
-  split by `zeta` only if an aggregate gcd is nonunit.
+  split by `zeta` only if an aggregate gcd is nonunit. The equivalence is
+  proved by `l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler`.
 
   **Cheap exact request CR-L1-H7-Q2-ALL:** consume
   `l1_mersenne_hnf_m8_order_one_quadratic_hnf_intersection`. Construct the
@@ -7707,8 +7708,10 @@ the outer stage into exactly two low-dimensional tasks.
   ```
 
   over `F_p`; a unit result is equivalent to all eight individual gcds being
-  unit after adjoining `mu_8`. There are exactly eight rows total: two
-  cubic endpoint polynomials times four official primes. Together with the
+  unit after adjoining `mu_8`, by
+  `l1_mersenne_hnf_m8_aggregate_norm_gcd_compiler`. There are exactly eight
+  rows total: two cubic endpoint polynomials times four official primes.
+  Together with the
   quadratic degree-eight and degree-fourteen endpoints, the launcher has 16
   rows total. Split by `zeta` only if
   an aggregate row is nonunit. The launcher is ready but remains unexecuted
