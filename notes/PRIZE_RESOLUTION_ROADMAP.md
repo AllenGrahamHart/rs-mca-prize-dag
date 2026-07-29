@@ -7602,3 +7602,31 @@ DAG delta: one PROVED background node and two edges; no critical status flip
 next route-deciding action: obtain proof-producing gcds for (V,X_E) and the
                               simultaneous singular coefficient charts
 ```
+
+**2026-07-29, L1 h=7 cubic `3+2+1` generic structural compiler:** the
+coefficient-only endpoint is now reattached to every original structural
+definition before any root can be accepted.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler
+reconstructions:
+  D_c=D_*/(3600b), Q_c=Q_*/(72D_*), G_c=-F_*/(600bE_G)
+  H_c=ell-G_c, Y_c=(ell-2G_c)/A-x, V_c=G_c+xY_c+Y_c^2
+three structural filters:
+  Z_D=Num(D_c-Y_cV_c)
+  Z_Q=Num(Q_c-A G_c-x ell+20+8q/3+D_c)
+  Z_R=Num(R_c-G_c(ell-G_c)+xQ_c+(A+x)D_c
+          +15+23q/4+q^2/8)
+degree ledger:
+  deg(Z_D)<=18, deg(Z_Q)<=10, deg(Z_R)<=15
+generic q reconstruction:
+  Zhat_i(b)=rho_1^deg_q(Z_i) Z_i(b,-rho_0/rho_1)
+complete coefficient/structural endpoint:
+  U=Zhat_D=Zhat_Q=Zhat_R=0
+scope fence: role-discriminant, P_4, saturations, and arithmetic lifts remain;
+             no common-root or emptiness verdict
+compute spend: none
+DAG delta: one PROVED background node and two edges; no critical status flip
+next route-deciding action: extend the factor packet to certify common gcds
+                              with the three structural filters
+```

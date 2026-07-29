@@ -19538,6 +19538,25 @@
    "notes": "Exact exceptional quadratic router only. The univariate pair, simultaneous affine-coefficient singular chart, fixed leading-coefficient chart, structural equations, role-discriminant weld, P_4, and arithmetic-lift obligations remain open."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional structural-consistency compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "After the generic coefficient reconstructions, all original structural definitions are equivalent to three explicit rational consistency equations; their cleared bivariate numerators have degrees at most 18, 10, and 15 and become univariate filters after the q-quotient reconstruction.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler/verify.py"
+   ],
+   "notes": "Exact structural compiler only. Common roots of the four univariate coefficient/structural filters, the role-discriminant weld, P_4, saturations, and arithmetic-lift obligations remain open."
+  },
+  {
    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler",
    "title": "L1 Mersenne HNF m=8 order-one cubic three-double affine-color compiler",
    "status": "PROVED",
@@ -37087,6 +37106,16 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },
