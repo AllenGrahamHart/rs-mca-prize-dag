@@ -19,6 +19,22 @@ actions have the same subdegrees.
 Accessed 2026-07-29. Catalogue completeness is the pinned classification
 input.
 
+## Upstream custody
+
+The import-free export is pinned to PR `#1132` at
+`d4063dcd9c56835c3916ef792e263ea720a4d397`:
+
+```text
+note blob:        41dc0c3dd72bc9bc2f7d2759ba3c6ac64491cb08
+verifier blob:    774a2da946399dc28966e8f300ac9a17e6fed27b
+certificate blob: 50d17f218bfa7d3acb211c946db0c025b9a98944
+payload SHA-256:  fe8141810501fd7b3762a378210609177185972ec706bf9ac943fa398bd82d39
+```
+
+The certificate binds four parent terminals by exact commit, Git blob, and
+canonical payload, reconstructs both degree-30 projective actions, and
+rejects 21 of 21 hostile mutations.
+
 ## Imported local geometry
 
 The source lift uses the proved actual-component facts already vendored in

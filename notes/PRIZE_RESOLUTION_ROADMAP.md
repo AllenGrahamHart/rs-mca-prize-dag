@@ -6163,6 +6163,14 @@ normal form.
 
 ```text
 new node: rate_half_kb_m2_v4_outer_recurrence_router [PROVED]
+upstream custody:
+  PR #1132 head: d4063dcd9c56835c3916ef792e263ea720a4d397
+  note/verifier/certificate blobs:
+    41dc0c3dd72bc9bc2f7d2759ba3c6ac64491cb08
+    774a2da946399dc28966e8f300ac9a17e6fed27b
+    50d17f218bfa7d3acb211c946db0c025b9a98944
+  certificate payload:
+    fe8141810501fd7b3762a378210609177185972ec706bf9ac943fa398bd82d39
 incoming types:
   (r,delta)=(2,4),(4,2),(8,1)
 V4 stabilizer law:
