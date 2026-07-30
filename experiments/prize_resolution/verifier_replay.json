@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/verify.py",
-      "seconds": 0.074335,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/verify.py",
+      "seconds": 0.037137,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_R4_COORDINATE_COLORED_QUOTIENT_RESULTANT_COMPILER_PASS pair_checks=8 quotient_color_degree=2\n"
+      "stdout_tail": "RATE_HALF_KB_M2_R4_COORDINATE_K_FIBER_VIETA_RANK_COMPILER_PASS fibers=5 positive_rows=10 negative_rows=10 ramified_positive=2\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/verify_audit.py",
-      "seconds": 0.013471,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/verify_audit.py",
+      "seconds": 0.024113,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_R4_COORDINATE_COLORED_QUOTIENT_RESULTANT_COMPILER_AUDIT_PASS quotient_quadratics=15\n"
+      "stdout_tail": "RATE_HALF_KB_M2_R4_COORDINATE_K_FIBER_VIETA_RANK_COMPILER_AUDIT_PASS deck_checks=5 rational_rank_gates=5\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

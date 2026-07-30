@@ -1294,3 +1294,34 @@ R_J~K_5^2c,       cR_I~R_7^2.
 Thus the coordinate branch is an explicit univariate norm-factorization
 problem in eight or seven source coefficients plus a two-fiber choice.
 Universal inconsistency remains open.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler` now couples
+those coefficient spaces to the five actual `J-J` stars over `K`. For a
+source lift `[r:s]` above `kappa=[u:v]` carrying edge `{a,b}`, the
+homogeneous quotient record
+
+```text
+p=ab,       q=r*s*(a+b)
+```
+
+is unchanged by deck transport. The positive
+form must satisfy, at all five `kappa`,
+
+```text
+A_0=pA_2,       u*v B_1=-qA_2,
+```
+
+and the negative form must satisfy
+
+```text
+B_0=pB_2,       A_1=-qB_2.
+```
+
+These are exact `10 x 8` and `10 x 7` homogeneous kernel gates with
+nonvanishing leading values. Each parity has a five-by-five determinant
+obstruction; the negative products also have a four-column rank-three
+gate. The negative parity also excludes a ramified common-`K` value.
+Apply these small tests before the quotient-resultant identities.
+No determinant is yet proved nonzero for every admissible star packet, so
+the coordinate orientation remains open and no owner charge moves.

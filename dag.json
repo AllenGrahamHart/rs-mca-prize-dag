@@ -19089,6 +19089,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler",
+   "title": "KoalaBear m2 r4 coordinate K-fiber Vieta-rank compiler",
+   "status": "PROVED",
+   "closure": "quotient-invariant five-edge coordinates and exact 10-row Vieta kernel gates in both coordinate parity spaces",
+   "statement": "For a common-K quotient point [u:v] with source lift [r:s], the selected J-edge has deck-independent homogeneous coordinates p=ab and q=rs(a+b). The positive 8-parameter source form satisfies A_0=p A_2 and uv B_1=-q A_2; the negative 7-parameter form satisfies B_0=p B_2 and A_1=-q B_2. Across five fibers these are exact 10 x 8 and 10 x 7 kernel gates with leading support. The negative branch excludes ramified K values. Each branch has a five-by-five determinant obstruction, and the negative products have an additional rank-three gate. This is not an orientation deletion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_full_v4_source_genus_drop",
    "title": "KoalaBear m2 r2 full-V4 source genus drop",
    "status": "PROVED",
@@ -37667,6 +37686,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

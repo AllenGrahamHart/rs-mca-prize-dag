@@ -10997,3 +10997,47 @@ This is now a pair of univariate resultant equations in the existing eight-
 or seven-dimensional source spaces plus a two-fiber choice. Solve these
 systems before any generic coordinate endpoint search. No orientation is
 deleted and no compute spend or ledger payment was used.
+
+## 2026-07-30 KoalaBear coordinate K-fiber Vieta-rank compiler
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler` inserts the
+five actual common-`K` stars into the coordinate coefficient system. If a
+a source lift `[r:s]` above `kappa=[u:v]` carries the `J`-edge `{a,b}`,
+then
+
+```text
+p_kappa=ab,       q_kappa=r*s*(a+b)
+```
+
+is independent of the deck-point choice. Vieta gives an exact `10 x 8`
+positive kernel gate
+
+```text
+A_0(kappa)=p_kappa A_2(kappa),
+u*v B_1(kappa)=-q_kappa A_2(kappa),
+```
+
+and an exact `10 x 7` negative gate
+
+```text
+B_0(kappa)=p_kappa B_2(kappa),
+A_1(kappa)=-q_kappa B_2(kappa).
+```
+
+Leading values must be nonzero at all five fibers; in particular the
+negative branch excludes ramified common-`K` values. Each parity branch has
+a five-by-five determinant obstruction, and the negative edge products
+must also lie on one degree-`(1,1)` rational function, equivalently a
+five-by-four matrix has rank at most three. Apply these cheap exact tests
+before solving the colored quotient-resultant system. They delete any
+failing supplied star packet but do not yet prove universal failure. No
+compute spend or ledger payment was used.
+
+Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
+`780520c4399815451f30a28ec22bdff075629242`, note/verifier/certificate
+blobs `f86109bbabbe1a0448e91178492651d4081d2397`,
+`0a2405f848b6d032de3f77e81882ee7f04a38e0a`, and
+`be6e9aaef8a3f215e61fc5f3719b50dc584fdb0f`, with canonical payload
+`ba77d21b4da577dcb4eafc375d36e4df18644c6c284cf0e53a3350c4011d8a85`.
+The verifier rejects 34 of 34 hostile mutations.
