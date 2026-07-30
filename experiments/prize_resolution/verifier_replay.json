@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m4_s6_652_pair_quotient_normal_form/verify.py",
-      "seconds": 6.654704,
+      "script": "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/verify.py",
+      "seconds": 7.607295,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M4_S6_652_PAIR_QUOTIENT_NORMAL_FORM_PASS\nRATE_HALF_KB_M4_S6_652_PAIR_QUOTIENT_MUTATIONS_12_OF_12_REJECTED\n"
+      "stdout_tail": "RATE_HALF_KB_M4_S6_562_PAIR_QUOTIENT_NORMAL_FORM_PASS\nRATE_HALF_KB_M4_S6_562_PAIR_QUOTIENT_MUTATIONS_13_OF_13_REJECTED\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m4_s6_652_pair_quotient_normal_form/verify_audit.py",
-      "seconds": 1.364913,
+      "script": "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/verify_audit.py",
+      "seconds": 0.081738,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M4_S6_652_PAIR_QUOTIENT_NORMAL_FORM_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M4_S6_562_PAIR_QUOTIENT_NORMAL_FORM_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

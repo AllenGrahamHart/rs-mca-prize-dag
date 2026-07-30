@@ -5983,6 +5983,40 @@ compute spend: exact degree-six polynomial arithmetic under local RAMguard;
                no Modal
 ```
 
+**Same-day second rigid `m=4` normal form:** the rational `S6 [5,6,2]`
+companion has now been normalized through the cubic adjoints of its
+unordered-pair quintic.
+
+```text
+new node: rate_half_kb_m4_s6_562_pair_quotient_normal_form [PROVED]
+BelyiDB pin:
+  commit 7d5b899b0741ebd505363f7f811e5737e906abee
+  blob   94cff64a36672ba6bde9e6cbc1fa251230aa8001
+normalization route:
+  pair-remainder determinant -> irreducible plane quintic
+  singular-scheme cubic adjoints plus one infinitely-near tangent
+  exact resultant -> five fixed factors and one moving (1,5) factor
+  moving point -> degree-15 rational map
+branch fibers:
+  zero:     (5,5,5)
+  one:      (6,3,3,2,1)
+  infinity: (2,2,2,2,2,2,1,1,1)
+challenge-field result:
+  order-five divisor = one Q-point plus two Q(sqrt(5))-points
+  all split over F_(2130706433^6); pole descent cannot delete this passport
+verification:
+  primary exact adjoint/resultant reconstruction; 13/13 mutations rejected
+  independent Fraction replay: exact, 0.08 seconds, about 12 MB
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims: no split active fiber, quartic source-star incidence, m4 deletion,
+           owner, endpoint, adjacent certificate, or KoalaBear row close
+next action:
+  construct the remaining A6 [5,4,2] rigid pair quotient over its quadratic
+  coefficient field, then impose the shared active-fiber/source-star gates
+compute spend: exact low-degree arithmetic under local RAMguard; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

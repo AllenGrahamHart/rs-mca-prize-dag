@@ -213,6 +213,15 @@ even-degree KoalaBear field. Pole descent cannot delete this row; its fixed
 active fiber and quartic source-star incidence remain open, as do the other
 two rigid passports and the four-point family. No owner charge moves.
 
+The PROVED `rate_half_kb_m4_s6_562_pair_quotient_normal_form` constructs a
+second rigid row, `S6:(5.1,2.2.2,3.2.1)`, from a cubic-adjoint pencil on its
+unordered-pair quintic. Its exact branch fibers are `(5,5,5)`,
+`(6,3,3,2,1)`, and `(2,2,2,2,2,2,1,1,1)`. The order-five points consist of
+one rational point and two points over `Q(sqrt(5))`, hence also split over the
+even-degree KoalaBear field. Two of the three rigid maps are now explicit;
+the `A6` rigid cover, four-point family, active-fiber test, and quartic
+source-star incidence remain open. No owner charge moves.
+
 ## Banked range
 
 Put
