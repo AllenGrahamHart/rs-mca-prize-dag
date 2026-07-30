@@ -121,6 +121,21 @@ be deleted by another factorization or genus argument. The next attack must
 substitute the six order-five pole fibers and complete source locators into
 the printed one-parameter normal forms. No owner charge moves.
 
+The PROVED
+`rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier` retains
+and then removes the relative second-endpoint ambiguity. If `Z=ell(Z_0)`
+and `d^2=a+2`, equality of the two quadratic source subextensions forces
+
+```text
+ell^(-1)({2,b})=roots(z^2-b*d*z+b^2+d^2-4).
+```
+
+The values at the standard branch points are `(b-d)^2` and `(b+d)^2`.
+Hence the rational source regime is exactly `b^2=a+2`, while its complement
+is the elliptic regime. Both remain possible; the common degree-30 function,
+six pole fibers, and source locators are the next live equations. No owner
+charge moves.
+
 The PROVED `rate_half_kb_m12_outer_normal_form_compiler` removes arbitrary
 outer-quintic search. Geometrically, the dihedral row is a Dickson quintic
 `x^5-5a*x^3+5a^2*x`; four `r=4` branch profiles have rigid printed forms,

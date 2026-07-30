@@ -6523,6 +6523,36 @@ next action:
 compute spend: exact degree-four derivatives and square classes; no Modal
 ```
 
+**Same-day residual source-cover twist classifier:** the relative second
+endpoint is no longer an untracked Mobius parameter at the branch level.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier [PROVED]
+standard coordinates:
+  u(r)=1/r, v(r)=lambda/r, mu^2=lambda
+  a=lambda+lambda^-1, d=mu+mu^-1, d^2=a+2
+  Z_0=r/mu+mu/r, actual Z=ell(Z_0)
+quadratic-cover square class:
+  m(Y(r))m(Y(vr))=(Z_0-d)^2/Q_b(Z_0)
+  Q_b(z)=z^2-b*d*z+b^2+d^2-4
+  W^2=m(ell(Z_0))
+forced twist:
+  ell^-1({2,b})=roots(Q_b)
+branch evaluations:
+  Q_b(2)=(b-d)^2, Q_b(-2)=(b+d)^2
+genus classifier:
+  g(source)=0 iff b^2=a+2
+  g(source)=1 iff b^2!=a+2
+DAG delta: one PROVED source-cover classifier; critical target unchanged
+ledger movement: zero
+nonclaims: no common degree-30 function, six-pole/source realization,
+           n=3/n=6 deletion, m2 close, owner, charge, or Prize close
+next action:
+  impose the same degree-30 outer function on both reflection quotients and
+  then pull the six order-five poles through the forced twist
+compute spend: exact quadratic square classes only; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every
