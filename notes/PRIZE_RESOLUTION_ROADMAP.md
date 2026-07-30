@@ -11267,8 +11267,26 @@ is unique; the negative form is rejected by one linear image-plane equation
 or is unique, modulo source-deck conjugation. The five pure multisets have
 exactly `2,2,4,2,2` compatible internal assignments. Every source-line
 packet is therefore a finite list of at most eight source-deck pairs, with
-no coefficient parameter left. The route-deciding calculation is now to
-evaluate `(KBQ2-2)` and the remaining source rows on those forms.
+no coefficient parameter left.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate`
+extracts a cheaper necessary condition from the first colored quotient.
+For `q=P_(J_1)`, `G=U^2-WV^2`, forced label `w`, and the two mixed common-`K`
+labels `k_1,k_2`, every reconstructed actual form satisfies
+
+```text
+Res_T(q,G) ~ (W-w)^4 ((W-k_1)(W-k_2))^2.           (KBQS-1)
+```
+
+The target quadratic is `tau^*q` in the aligned branch and
+`tau^*chi_Omega` in the near-aligned branch. This is only a necessary
+`J_1`-slice prefilter, but it replaces a degree-six partial resultant by one
+quadratic-versus-quartic resultant. A light exact `F_1009` aligned fixture
+tests `24` internal-pair/sign choices, reconstructs `12` positive forms, and
+finds zero `(KBQS-1)` survivors. The route-deciding calculation is now to
+factor the symbolic `(KBQS-1)` mismatches before evaluating `(KBQ2-2)` and
+the remaining source rows on any exceptional forms.
 
 ### Compute request CR-KB-C2-112-QR-ELIM
 
@@ -11279,8 +11297,9 @@ of `w`, do the following:
 
 1. Substitute `(KBOI-2)--(KBOI-3)` and the unique internal-star
    reconstruction `(KBSR-2)--(KBSR-4)` into `H=U+XV`.
-2. Compute the coefficient residuals, with independent projective scalars,
-   of
+2. First compute and factor the coefficient residuals of `(KBQS-1)`. Only
+   its exceptional locus proceeds to the coefficient residuals, with
+   independent projective scalars, of
 
    ```text
    Res_T(P_J,H) ~ K_5^2 chi_Omega,
@@ -11295,9 +11314,7 @@ of `w`, do the following:
 
 There are at most `2 x 2 x 5 x 2=40` independent shards. Each shard should
 write partial factors before a `60 s` timeout; larger Gröbner or resultant
-runs can be contributed independently. A light `F_1009` aligned sanity
-fixture satisfying the incidence equation tested `12` internal assignments,
-reconstructed `6`, and found `0` first-quotient survivors. That datum is
+runs can be contributed independently. The local `F_1009` datum above is
 evidence only, not a deletion or a substitute for saturation.
 
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit

@@ -19146,6 +19146,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) source-line q-slice resultant gate",
+   "status": "PROVED",
+   "closure": "necessary degree-eight q-slice resultant identity for every reconstructed saturated source-line candidate",
+   "statement": "For every saturated source-line diagonal (1,1,2) packet, put q=P_(J_1), let w be the forced-square quotient label, and let k_1,k_2 be the two remaining common-K labels carrying the four mixed stars. Every actual reconstructed candidate satisfies Res_T(q,U^2-WV^2) proportional to (W-w)^4((W-k_1)(W-k_2))^2. The target quadratic is tau^*q in the aligned branch and tau^*chi_Omega in the near-aligned branch. Failure rejects one finite candidate, but passing is not sufficient for either full colored quotient identity.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
    "title": "KoalaBear m2 universal source-row interpolation compiler",
    "status": "PROVED",
@@ -43211,6 +43230,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
    "to": "rate_half_band_closure",
    "kind": "ev"
   }

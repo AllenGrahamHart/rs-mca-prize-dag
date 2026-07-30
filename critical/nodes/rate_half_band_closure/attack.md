@@ -1411,6 +1411,24 @@ classified packet has at most eight source-deck candidate pairs. Evaluate
 the aligned or near-aligned quotient identities on those candidates; do not
 carry a free coefficient family into the next stage.
 
+The first quotient calculation has a smaller exact prefilter. Put
+`q=P_(J_1)`, `G=U^2-WV^2`, and let `k_1,k_2` be the two remaining common-`K`
+labels carrying the four mixed stars. At either root of `q`, the forced
+square contributes `(W-w)^2`, while its two incidences among the four mixed
+stars contribute two further roots. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate`
+therefore forces
+
+```text
+Res_T(q,G) ~ (W-w)^4 ((W-k_1)(W-k_2))^2.
+```
+
+The target quadratic is `tau^*q` in the aligned branch and
+`tau^*chi_Omega` in the near-aligned branch. Test this degree-eight identity
+on each reconstructed form before forming either degree-six partial
+resultant. A light split `F_1009` fixture reconstructs twelve positive forms
+and rejects all twelve here; this is evidence only, not a generic deletion.
+
 The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
 the smaller shared actual-component gate. For twelve projective source-row
 quartics `q_i`, stack a `9 x 12` degree-two evaluation parity check across
