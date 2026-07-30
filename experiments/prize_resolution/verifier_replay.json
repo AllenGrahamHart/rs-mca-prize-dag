@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m4_adjacency_genus_exclusion/verify.py",
-      "seconds": 0.041832,
+      "script": "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/verify.py",
+      "seconds": 0.017825,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M4_ADJACENCY_GENUS_EXCLUSION_PASS\nRATE_HALF_KB_M4_ADJACENCY_GENUS_MUTATIONS_12_OF_12_REJECTED\n"
+      "stdout_tail": "RATE_HALF_KB_M3_PRIMITIVE_OUTER_DEGREE2_ROUTER_PASS\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m4_adjacency_genus_exclusion/verify_audit.py",
-      "seconds": 0.022015,
+      "script": "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/verify_audit.py",
+      "seconds": 0.042532,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M4_ADJACENCY_GENUS_BURNSIDE_AUDIT_PASS\nRATE_HALF_KB_M4_ADJACENCY_GENUS_FOUR_OF_FOUR_EXCLUDED\n"
+      "stdout_tail": "RATE_HALF_KB_M3_PRIMITIVE_OUTER_DEGREE2_ROUTER_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

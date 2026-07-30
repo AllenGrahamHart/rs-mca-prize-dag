@@ -243,6 +243,17 @@ degree two. Riemann--Hurwitz would require source genus at least
 the complete independent `m=4` row is empty, and the frontier drops from
 nine to eight types: three at `m=2` and five at `m=3`. No owner charge moves.
 
+The PROVED `rate_half_kb_m3_primitive_outer_degree2_router` removes all five
+degree-three types as independent producers. The complete primitive
+degree-20 catalogue is `PSL(2,19),PGL(2,19),A20,S20`; every row is
+two-transitive with subdegrees `1,19`, so none supports
+`r in {2,3,4,6,12}`. The outer map therefore decomposes. Its proper right
+factor gives inner degree `6,12,15`, or `30`; the existing closures and
+routers make each destination impossible or furnish an inner-degree-two
+decomposition. An endpoint may still have an additional degree-three
+decomposition, but it is not independent. The live independent frontier is
+the three `m=2` types `(r,delta)=(2,4),(4,2),(8,1)`. No owner charge moves.
+
 ## Banked range
 
 Put

@@ -6108,6 +6108,46 @@ next action:
 compute spend: below one second under tiny RAMguard; no Modal
 ```
 
+**Same-day inner-degree-three primitive-outer router:** every `m=3`
+producer is impossible or comes with an inner-degree-two decomposition.
+
+```text
+new node: rate_half_kb_m3_primitive_outer_degree2_router [PROVED]
+incoming m3 types:
+  (r,delta)=(2,6),(3,4),(4,3),(6,2),(12,1)
+outer degree: 20
+complete primitive catalogue:
+  PSL(2,19), PGL(2,19), A20, S20
+  all four subdegree rows are [1,19]
+consequence:
+  no primitive outer map can support any incoming r
+  every outer map has a proper right factor d in {2,4,5,10}
+composite destinations:
+  d=2  -> inner degree 6  -> degree 2 or impossible
+  d=4  -> inner degree 12 -> empty
+  d=5  -> inner degree 15 -> excluded source profile
+  d=10 -> inner degree 30 -> degree 6 -> degree 2 or impossible
+route consequence:
+  m3 is not an independent producer; no m3 nonexistence is claimed
+  global independent transverse frontier: 8 -> 3 types
+  live types: m2 with (r,delta)=(2,4),(4,2),(8,1)
+classification custody:
+  GAP PrimGrp commit 5612e113d50ac23a7d10945383936e20440b4e14
+  PRIMGRP[20] exact bytes 342
+  SHA-256 cbc9ca7fda9b0de36a4034a4d59e24bb6c07aff0e54458604990919583007133
+verification:
+  primary exact catalogue/factor/destination audit
+  independent PSL(2,19),PGL(2,19) projective-line reconstruction
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims: no m2 deletion, m3 nonexistence, owner, charge, u2, endpoint,
+           adjacent certificate, KoalaBear row, or MCA close
+next action:
+  analyze the forced coarser block systems of an m2 producer together with
+  the actual quartic/source-star incidence; primitive degree30 is impossible
+compute spend: below one second under tiny RAMguard; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every
