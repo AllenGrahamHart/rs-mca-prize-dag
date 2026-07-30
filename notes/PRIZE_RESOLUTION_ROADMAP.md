@@ -11536,10 +11536,19 @@ Full leading-zero ideals are classified separately. Direct/resultant and
 independent fraction-free/subresultant paths reproduce every support and
 candidate basis modulo `p=2130706433`.
 
-This closes exactly 7 of the 18 affine positive charts. The swapped square
-and mixed allocations in the other reciprocal-pair orbit, the moving-moving
-template, both negative factor loci, and the projective `w=0` boundary
-remain open; do not infer a near-aligned deletion from these seven charts.
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion`
+closes the swapped square allocation `c->1/d,d->1/b`. The four
+linear-by-quadratic branch pairs project only to standard collision support,
+fibers forcing `b=1/2`, or fibers forcing the excluded `c=+/-1` loci.
+The only nonstandard line-degeneration factor also forces `b=1/2`.
+Direct/resultant and independent fraction-free/subresultant paths reproduce
+the supports and saturated candidate bases modulo `p=2130706433`.
+
+This closes exactly 8 of the 18 affine positive charts. The mixed allocation
+in the other reciprocal-pair orbit, the moving-moving template, both
+negative factor loci, and the projective `w=0` boundary remain open; do not
+infer a near-aligned deletion from these eight charts.
 
 There is a cheaper common gate before those allocation splits. Write
 

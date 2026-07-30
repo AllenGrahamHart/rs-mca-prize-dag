@@ -1512,9 +1512,15 @@ deployed prime. The PROVED
 then treats `xi=b` and the square allocation `c->1/b,d->1/d`. Its
 four product-branch pairs have only collision support or explicit fibers
 forcing `b=1/2`; an independent fraction-free/subresultant replay gives
-the same result modulo the deployed prime. These results delete 7 of the 18
-affine positive charts; the other two allocations in this relative orbit,
-moving-moving template, negative loci, and `w=0` boundary remain.
+the same result modulo the deployed prime. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion`
+closes the swapped allocation `c->1/d,d->1/b`. Its extra projected
+fibers force `b=1/2` or the excluded inversion-fixed loci `c=+/-1`, and
+the only nonstandard line-degeneration component also forces `b=1/2`.
+Direct/resultant and fraction-free/subresultant paths agree modulo the
+deployed prime. These results delete 8 of the 18 affine positive charts;
+the mixed allocation in this relative orbit, moving-moving template,
+negative loci, and `w=0` boundary remain.
 
 The aligned positive sign has also resisted a broader exact falsifier sweep.
 The seeded standard-library replay
