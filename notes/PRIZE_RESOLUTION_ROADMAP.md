@@ -11115,6 +11115,20 @@ therefore one quotient system, not a search over arbitrary four-edge
 divisors. The `c=2` rows remain the preferred next target because their
 crossing support is smaller.
 
+The `c=2` capacity ledger is now exact enough to expose coefficient
+equations. With `J_0=J intersect tau(J)` and
+`J_1=J intersect tau(I)`, the `(2,0,2)` row forces degrees four on `J_0`
+and two on `J_1`. Its unique common-`K` quartic transported outside `K`
+is the square `P_(J_1)^2`, while the product of the other four quartics is
+`P_(J_0)^4`. In the `(1,1,2)` row, both the aligned case and the
+near-aligned case with `tau(eta) in K` force
+`R_(tau(eta)) ~ P_(J_1)^2` and saturate the two `J_1` labels. The unique
+exception has `L!=I` and `eta,tau(eta) in J_0`, with total `J_1` incidence
+between six and eight. The next low-compute step is therefore algebraic:
+substitute the forced square fiber into `G=U^2-WV^2`, impose the resulting
+coefficient minors, and combine them with the four-fiber fourth-power
+identity. A reciprocal square fiber alone is not a contradiction.
+
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
 `fb9c0eaf2bce8b3f9fc6f4ca152618b528327a5a`, note/verifier/certificate
 blobs `77073e7e880ec5ff085e486ef07d7d8f67531f51`,

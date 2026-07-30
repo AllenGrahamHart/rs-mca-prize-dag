@@ -29,6 +29,10 @@ def main() -> None:
             "transport cut")
     require("L != I" in statement and "Q_J(W) ~ K_5(W)^2 chi(W)" in statement,
             "maximal-mixing quotient cut")
+    require("R_(k_*) ~ P_(J_1)^2" in statement,
+            "minimal-mixing square fiber")
+    require("6 <= sum_(j in J_1)d_j <= 8" in statement,
+            "minimal-mixing exceptional row")
 
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
@@ -67,9 +71,19 @@ def main() -> None:
     require(2 * 5 + 2 == 12 and 2 * 7 - 2 == 12,
             "descended resultant degrees")
 
+    # In the (2,0,2) row, four internally transported K quartics saturate
+    # the 4-by-4 J_0 capacity. The remaining quartic has multiplicities
+    # (2,2) on J_1. In the saturated (1,1,2) rows the J_1 lower bound is 8.
+    require(4 * 4 == 4 * 4, "c2 noncrossing saturation")
+    require(20 - 16 == 2 * 2, "c2 crossing degree")
+    require(4 + 2 + 2 == 2 * 4, "c2 second-row saturation")
+    require(3 * 2 == 6 and 6 <= 2 * 4,
+            "c2 exceptional interval")
+
     print(
         "RATE_HALF_KB_M2_R4_DIAGONAL_FACET_MIXING_OBSTRUCTION_PASS "
-        f"mixing_rows={len(rows)} crossing_counts=2,4,6 c6_J_count=2"
+        f"mixing_rows={len(rows)} crossing_counts=2,4,6 c6_J_count=2 "
+        "c2_square_cases=2"
     )
 
 

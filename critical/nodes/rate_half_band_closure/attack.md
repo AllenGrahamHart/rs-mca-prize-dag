@@ -1243,6 +1243,25 @@ Q_J ~ K_5^2 chi,       chi Q_I ~ R_7^2.
 Thus arbitrary four-edge enumeration is unnecessary in `c=6`. Attack this
 single quotient system or the stronger `c=2` support rows next.
 
+The minimally mixed rows now have an exact capacity refinement. Put
+`J_0=J intersect tau(J)` and `J_1=J intersect tau(I)`, of sizes four and
+two. In the `(a,b,c)=(2,0,2)` row the four common-`K` quartics transported
+inside `K` saturate the `4 x 4` noncrossing incidence capacity. Consequently
+
+```text
+d_j=4 (j in J_0),       d_j=2 (j in J_1),
+R_k* ~ P_(J_1)^2,       product_(k in K_0) R_k ~ P_(J_0)^4,
+```
+
+where `K_0=K intersect tau(K)` and `k*` is the remaining common-`K` label.
+For `(1,1,2)`, the same capacity argument gives
+`R_(tau(eta)) ~ P_(J_1)^2` and degree four at both labels of `J_1` whenever
+`L=I` or `tau(eta) in K`. The sole unsaturated orbit has `L!=I` and
+`eta,tau(eta) in J_0`; there only
+`6 <= sum_(j in J_1) d_j <= 8` remains. The next coefficient attack should
+feed the forced square fiber and the four-fiber fourth-power identity into
+the source norm equation; it must retain that exceptional `(1,1,2)` orbit.
+
 The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
 the smaller shared actual-component gate. For twelve projective source-row
 quartics `q_i`, stack a `9 x 12` degree-two evaluation parity check across

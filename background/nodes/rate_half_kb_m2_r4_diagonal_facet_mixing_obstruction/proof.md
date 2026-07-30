@@ -121,4 +121,49 @@ The right sides are deck invariant, so the left sides descend uniquely to
 binary forms `Q_J,Q_I` on the `W`-line. Faithfulness of pullback by the
 surjective quadratic map gives exactly `(KBDM-7)`. This uses no lift of the
 diagonal automorphism to the source `X`-line, and hence applies to both
-source-subfield branches. QED.
+source-subfield branches.
+
+## 5. The minimally mixed rows
+
+Assume `c=2`, so `|J_0|=4` and `|J_1|=2`. The universal component-color
+cut gives
+
+```text
+2<=d_j<=4 for every j in J,       sum_(j in J)d_j=20. (7)
+```
+
+First let `(a,b)=(2,0)`. The four labels of
+`K_0=K intersect tau(K)` lie in two internal `K` orbits. By `(KBDM-4)`,
+their four quartics contribute sixteen roots in `J_0`. The four labels of
+`J_0` have total `K`-incidence capacity sixteen, so each has degree four
+and no root of the remaining quartic `R_(k_*)` lies in `J_0`. All four of
+its roots lie in the two-label set `J_1`. Each of its two quadratic stars
+is reduced, hence is exactly `P_(J_1)` projectively. This proves the square
+identity in `(KBDM-8)`. Equation `(7)` then forces degree two on both
+labels of `J_1`. Multiplying the four `K_0` quartics gives degree sixteen
+with every `J_0` root of multiplicity four, proving the product identity.
+
+Now let `(a,b)=(1,1)`. One internal `K` orbit contributes eight roots in
+`J_0`. The label `tau(xi) in K` supplies the remaining internal-I edge.
+
+If `L=I`, then `xi=eta`, so `R_(tau(eta))` has all four roots in `J_1`.
+The other two noninternal labels of `K` transport to `L^c` and contribute
+at least two `J_1` roots each. Thus the two labels of `J_1` receive at least
+eight `K` incidences. Their total capacity is eight, so all inequalities are
+equalities: both degrees are four, the eta-paired quartic is
+`P_(J_1)^2`, and each `L^c`-transported quartic has exactly two `J_1`
+roots.
+
+Suppose instead `L!=I`. Then `xi in L^c`. If `tau(eta) in K`, its quartic
+contributes four `J_1` roots, while the `K` labels transported to `xi` and
+to the remaining crossing label in `L^c` contribute at least two each.
+The same capacity-eight argument proves `(KBDM-9)`.
+
+Finally suppose `tau(eta) notin K`. Since `xi` is internally paired with a
+label of `K`, the two labels of `I` crossing to `J` are the other two labels
+of `K`. Hence a `J` label is crossing exactly when it is paired to one of
+those labels. The hypothesis therefore puts both `eta` and `tau(eta)` in
+`J_0`. The three non-`K` destinations of common-`K` labels are all in
+`L^c`, and `(KBDM-4)` contributes at least two `J_1` roots from each. This
+gives the lower bound six in `(KBDM-10)`; the upper bound eight is the two
+row capacities from `(7)`. QED.

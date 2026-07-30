@@ -97,6 +97,34 @@ Hence the aligned `c=6` row is deleted and the near-aligned survivor has
 an exact quotient-resultant interface in both diagonal source-subfield
 branches.
 
+The minimally mixed rows also sharpen. Let `d_j` be the incidence degree of
+`j in J` among the ten common-`K` stars, and let `P_S` denote the locator of
+a label set `S`.
+
+If `(a,b,c)=(2,0,2)`, put `K_0=K intersect tau(K)` and let
+`k_*` be the unique label in `K minus K_0`. Then
+
+```text
+d_j=4 for j in J_0,       d_j=2 for j in J_1,
+R_(k_*) ~ P_(J_1)^2,
+product_(k in K_0) R_k ~ P_(J_0)^4.                (KBDM-8)
+```
+
+If `(a,b,c)=(1,1,2)` and either `L=I` or `tau(eta) in K`, then
+
+```text
+d_j=4 for j in J_1,
+R_(tau(eta)) ~ P_(J_1)^2,                          (KBDM-9)
+```
+
+and every common-`K` quartic transported to `L^c` has exactly two roots in
+`J_1`. The only `c=2` case not covered by this saturation is
+
+```text
+(a,b)=(1,1),       L!=I,       eta,tau(eta) in J_0,
+6 <= sum_(j in J_1)d_j <= 8.                       (KBDM-10)
+```
+
 This theorem deletes the partition-preserving diagonal subcase and replaces
 it by five exact mixing signatures. It does not delete all five signatures,
 the source-line or biquadratic branch, the diagonal orientation, the full
@@ -107,4 +135,5 @@ order-two type, an owner, payment, row, or Prize result.
 An actual diagonal component with `tau(I)=I`; a fixed-point-free involution
 whose orbit data lie outside `(KBDM-3)`; a common-`K` fiber quartic violating
 `(KBDM-4)`; an aligned `c=6` component; or a maximally mixed component whose
-colored divisor or descended partial resultants violate `(KBDM-5)--(KBDM-7)`.
+colored divisor or descended partial resultants violate `(KBDM-5)--(KBDM-7)`;
+or a minimally mixed packet violating `(KBDM-8)--(KBDM-10)`.

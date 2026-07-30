@@ -23,3 +23,11 @@
    `psi` fibers. This is not a general diagonal deck-invariance claim.
 9. Descent of the partial resultants follows from their proved divisor
    identities; no individual-star transport or source-line lift is used.
+10. The `c=2` degree pins use the proved universal bound `2<=d_j<=4`;
+    without the component-color cut, the crossing-label saturation would
+    not follow.
+11. A quartic supported on the two-label set `J_1` is `P_(J_1)^2` because
+    its two quadratic component stars are reduced. Repeated roots occur
+    across the two stars, not within either star.
+12. The exceptional `(1,1,2)` near-aligned row is retained explicitly;
+    the interval `6<=sum_(J_1)d_j<=8` is not promoted to equality.

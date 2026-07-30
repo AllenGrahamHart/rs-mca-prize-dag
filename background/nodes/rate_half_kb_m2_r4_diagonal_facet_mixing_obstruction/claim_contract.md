@@ -6,7 +6,8 @@
 - **Output:** exclusion of `tau(I)=I`, the five exact crossing-orbit rows
   `(KBDM-3)`, the transported common-`K` root restrictions `(KBDM-4)`, and
   deletion of aligned `c=6` with the near-aligned quotient-resultant system
-  `(KBDM-5)--(KBDM-7)`.
+  `(KBDM-5)--(KBDM-7)`, plus the minimally mixed degree and square-fiber
+  pins `(KBDM-8)--(KBDM-10)`.
 - **Deletion interface:** every proposed diagonal packet whose endpoint
   involution preserves `I | J`, or whose surviving mixing row violates
   `(KBDM-3)--(KBDM-4)`, is deleted.

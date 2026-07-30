@@ -11,3 +11,10 @@ The aligned `c=6` row is gone. For its near-aligned survivor, use the proved
 quotient identities `(KBDM-7)` directly: its colored quadratic is the
 positive reciprocal locator of the pair `{xi,tau(xi)}`. Do not enumerate
 arbitrary four-edge colored divisors in this row.
+
+For `c=2`, begin with `(a,b)=(2,0)`: impose the forced square fiber
+`R_(k_*)~P_(J_1)^2` and the four-fiber norm
+`product_(K_0)R_k~P_(J_0)^4` on the reciprocal norm or split-resolvent
+branch. Then treat the saturated `(1,1)` rows. Keep the exceptional
+near-aligned row with `eta,tau(eta) in J_0` separate; it has only the
+crossing-incidence interval `6..8`.
