@@ -1204,3 +1204,24 @@ and in lifted diagonal coordinates the right side is `A(X^2)^2`. Apply
 this source gate before endpoint interpolation or resolvent work. Passing
 still requires exact degree, irreducibility, deck distinction, branch
 symmetry, and endpoint realization. No orientation or owner is closed.
+
+The PROVED `rate_half_kb_m2_r4_coordinate_coefficient_normal_form` now
+compiles the coordinate branch after that shared gate. Geometrically
+normalize `tau(T)=-T`, `b(X)=-X`, and `W=X^2`. The preserving lift forces
+exactly
+
+```text
+H=A_2(W)T^2+A_0(W)+XT B_1(W)                    (dimension 8),
+```
+
+or
+
+```text
+H=T A_1(W)+X(B_2(W)T^2+B_0(W))                  (dimension 7).
+```
+
+The odd-`X` part must be nonzero because the source component and its deck
+conjugate are distinct. In either sign the endpoint is the quadratic norm
+`G=U^2-WV^2` and is even in `T`. The coordinate orientation is therefore
+at two explicit coefficient spaces, not a generic interpolation problem;
+universal failure remains open and no owner charge moves.

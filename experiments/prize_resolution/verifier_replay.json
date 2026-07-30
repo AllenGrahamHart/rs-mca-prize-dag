@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/verify.py",
-      "seconds": 0.03605,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_coefficient_normal_form/verify.py",
+      "seconds": 0.049533,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_R4_SOURCE_ROW_INTERPOLATION_COMPILER_PASS rows=45 cols=12\n"
+      "stdout_tail": "RATE_HALF_KB_M2_R4_COORDINATE_COEFFICIENT_NORMAL_FORM_PASS source_dims=8,7\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/verify_audit.py",
-      "seconds": 0.023109,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_coefficient_normal_form/verify_audit.py",
+      "seconds": 0.021733,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_R4_SOURCE_ROW_INTERPOLATION_COMPILER_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M2_R4_COORDINATE_COEFFICIENT_NORMAL_FORM_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

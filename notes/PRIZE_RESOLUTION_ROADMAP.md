@@ -10879,3 +10879,20 @@ draft PR `przchojecki/rs-mca#1132`, commit
 `bbdab9cb571c6c6bfcdd477598aa38f4f69b43e0c3480da28b74a725faab8e33`.
 The verifier rejects 15 of 15 hostile mutations; the only PR check failure
 at the pin is unrelated Vercel authorization.
+
+## 2026-07-30 KoalaBear coordinate coefficient normal form
+
+The PROVED `rate_half_kb_m2_r4_coordinate_coefficient_normal_form` uses the
+coordinate preserving lift to normalize `tau(T)=-T`, `b(X)=-X`. The two
+source eigenspaces are explicitly
+
+```text
+A_2(W)T^2+A_0(W)+XT B_1(W)                         (dimension 8),
+T A_1(W)+X(B_2(W)T^2+B_0(W))                       (dimension 7).
+```
+
+Deck distinction forces the odd-`X` part to be nonzero, and the endpoint
+norm is even in `T`. Route the two exact coordinate `K`-fiber degree
+profiles through the `45 x 12` source gate and then these two forms. Exact
+degree, irreducibility, common-five facets, and outer-factor divisibility
+remain. No compute spend or ledger payment was used.
