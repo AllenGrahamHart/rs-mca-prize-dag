@@ -1,11 +1,15 @@
-# KoalaBear m2 r4 source-row interpolation compiler
+# KoalaBear m2 universal source-row interpolation compiler
 
 - **status:** PROVED
-- **scope:** every actual `(m,r,delta)=(2,4,2)` source component
+- **scope:** every actual residual `Q=6,s=6,u=2` source component, including
+  stabilizer types `(m,r,delta)=(2,2,4),(2,4,2),(2,8,1)`
 - **dependencies:** `rate_half_kb_m2_v4_outer_recurrence_router` and the
   branch-independent saturation clause of
   `rate_half_kb_q6_u2_complete_source_conic_exclusion`
 - **consumer:** `rate_half_band_closure`
+
+The node ID retains `m2_r4` for compatibility, but no step below uses an
+order-two stabilizer or the value `r=4`.
 
 Let `alpha_1,...,alpha_12` be the distinct source labels and let
 `[q_i(X)]` be the projective nonzero binary quartic row divisors proposed
@@ -53,8 +57,8 @@ Res_T(A,H)=constant * A(X^2)^2.                    (KBSI-5)
 Passing this compiler constructs only a source biform. Exact T-degree two,
 X-degree four, irreducibility, distinct deck conjugate, branch-specific
 symmetry, endpoint norm/resolvent, and the outer self-correspondence remain
-separate checks. No orientation, order-two type, trivial type, owner,
-payment, row, or Prize result is closed.
+separate checks. No orientation, stabilizer type, owner, payment, row, or
+Prize result is closed.
 
 ## Falsifier
 

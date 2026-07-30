@@ -18976,10 +18976,10 @@
   },
   {
    "id": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
-   "title": "KoalaBear m2 r4 source-row interpolation compiler",
+   "title": "KoalaBear m2 universal source-row interpolation compiler",
    "status": "PROVED",
    "closure": "full-support 45-by-12 source-row interpolation kernel and complete-source square resultant",
-   "statement": "For twelve projective nonzero binary quartic row divisors on the source labels, form the 45 x 12 matrix obtained by stacking a 9 x 12 parity check for degree-at-most-two evaluation across the five quartic coefficients. The rows come from a unique biform H of bidegree at most (2,4) exactly when this matrix has a full-support kernel. Every actual complete-source packet also satisfies product_i q_i proportional to B^2 and Res_T(A,H) proportional to B^2, or A(X^2)^2 in lifted diagonal coordinates. This is an exact shared deletion compiler, not a universal exclusion.",
+   "statement": "For every residual inner-degree-two stabilizer type, form from its twelve projective nonzero binary quartic row divisors the 45 x 12 matrix obtained by stacking a 9 x 12 parity check for degree-at-most-two evaluation across the five quartic coefficients. The rows come from a unique biform H of bidegree at most (2,4) exactly when this matrix has a full-support kernel. Every actual complete-source packet also satisfies product_i q_i proportional to B^2 and Res_T(A,H) proportional to B^2, or A(X^2)^2 in lifted diagonal coordinates. This is a stabilizer-independent exact deletion compiler, not a universal exclusion; the m2_r4 ID is retained for compatibility.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/statement.md",
     "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/proof.md",

@@ -10921,3 +10921,15 @@ Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
 `10aab60bb33cc508cd7601e2a819b8d4144dc80e`, with canonical payload
 `e9938cade2f481c98f0899f2b67971cabbe8df5fa74c0f5518b9f24c0d8513c7`.
 The verifier rejects 11 of 11 hostile mutations.
+
+## 2026-07-30 KoalaBear universal source-row scope repair
+
+The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` has a
+legacy order-two identifier, but its proof is stabilizer-independent. The
+upstream source reduction supplies an irreducible bidegree-`(2,4)` source
+form, twelve nonzero quartic rows, and complete-source saturation for every
+residual `Q=6,s=6,u=2` component before conic invariance is introduced.
+Therefore the `45 x 12` full-support kernel and invariant square-resultant
+tests apply to the full-V4, order-two, and trivial-stabilizer types. This
+repairs the scope needed by the five-profile trivial-branch program; it
+does not assert that any profile fails the kernel gate.

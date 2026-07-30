@@ -9,3 +9,6 @@
    identity and includes ramification multiplicity.
 5. `B=A(X^2)` is used only in the geometric source-line coordinates where
    `psi=X^2`; the invariant statement is `Res_T(A,H) proportional B^2`.
+6. The interpolation and invariant resultant arguments use no component
+   stabilizer. The parent source reduction supplies the same bidegree,
+   nonzero-row, and saturation hypotheses for all residual `m=2` types.
