@@ -2,33 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 3,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m4_a6_542_pair_quotient_normal_form/verify.py",
-      "seconds": 64.115919,
+      "script": "background/nodes/rate_half_kb_m4_adjacency_genus_exclusion/verify.py",
+      "seconds": 0.041832,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M4_A6_542_PAIR_QUOTIENT_NORMAL_FORM_PASS\nRATE_HALF_KB_M4_A6_542_PAIR_QUOTIENT_MUTATIONS_17_OF_17_REJECTED\n"
+      "stdout_tail": "RATE_HALF_KB_M4_ADJACENCY_GENUS_EXCLUSION_PASS\nRATE_HALF_KB_M4_ADJACENCY_GENUS_MUTATIONS_12_OF_12_REJECTED\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m4_a6_542_pair_quotient_normal_form/verify_audit.py",
-      "seconds": 1.188909,
+      "script": "background/nodes/rate_half_kb_m4_adjacency_genus_exclusion/verify_audit.py",
+      "seconds": 0.022015,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M4_A6_542_PAIR_QUOTIENT_AUDIT_PASS\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m4_a6_542_pair_quotient_normal_form/verify_elimination.py",
-      "seconds": 137.047411,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "rank=8 pivots= (0, 1, 2, 3, 4, 5, 6, 7)\nresultant degrees: 15 5\nfactor rows: [(1, 0, 1), (1, 0, 1), (1, 0, 2), (1, 0, 2), (1, 0, 4), (1, 0, 4), (1, 5, 1)]\nz-resultant degrees: 15 5\nz-factor rows: [(1, 0, 1), (1, 0, 2), (1, 0, 2), (1, 0, 4), (1, 0, 5), (1, 5, 1)]\nmoving coordinates match frozen normal form\nRATE_HALF_KB_M4_A6_542_PAIR_QUOTIENT_ELIMINATION_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M4_ADJACENCY_GENUS_BURNSIDE_AUDIT_PASS\nRATE_HALF_KB_M4_ADJACENCY_GENUS_FOUR_OF_FOUR_EXCLUDED\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

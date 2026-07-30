@@ -232,6 +232,17 @@ three rigid maps are now explicit and pole descent deletes none of them.
 Attack their fixed active fibers and quartic source-star incidences next;
 the four-point family remains separate. No owner charge moves.
 
+The PROVED `rate_half_kb_m4_adjacency_genus_exclusion` supersedes that
+incidence search for deletion. The unique `r=8` orbital is the connected
+120-sheet action on ordered adjacent two-subsets. Its genera in the three
+rigid passports and the four-point family are respectively `3,6,4,13`.
+The actual source normalization is birational to a bidegree-`(2,4)` curve,
+so has genus at most three, while its map to the outer orbital has separable
+degree two. Riemann--Hurwitz would require source genus at least
+`5,11,7,25`. Thus all four passports are impossible for an actual endpoint,
+the complete independent `m=4` row is empty, and the frontier drops from
+nine to eight types: three at `m=2` and five at `m=3`. No owner charge moves.
+
 ## Banked range
 
 Put

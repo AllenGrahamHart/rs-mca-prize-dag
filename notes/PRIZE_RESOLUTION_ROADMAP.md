@@ -6062,6 +6062,44 @@ next action:
 compute spend: bounded exact local algebra under RAMguard; no Modal
 ```
 
+**Same-day complete `m=4` adjacency-genus exclusion:** the outer orbital
+itself has too much genus to be the degree-two image of the actual source
+component in every retained passport.
+
+```text
+new node: rate_half_kb_m4_adjacency_genus_exclusion [PROVED]
+source geometry:
+  actual outgoing component bidegree (2,4), normalization genus <=3
+  birational endpoint self-correspondence component Gamma
+  sole m4 type (r,delta)=(8,2), so deg(Gamma->C)=2
+outer orbital:
+  ordered adjacent two-subsets of six letters, degree 15*8=120
+  A6 and S6 both transitive; point-stabilizer subdegrees [1,6,8]
+passport index/genus rows:
+  S6 [6,5,2]:             index 244, genus 3, source lower bound 5
+  S6 [5,6,2]:             index 250, genus 6, source lower bound 11
+  A6 [5,4,2]:             index 246, genus 4, source lower bound 7
+  S6 four-point family:   index 264, genus 13, source lower bound 25
+contradiction:
+  p=2130706433 is odd, hence the degree-two map is separable
+  Riemann--Hurwitz gives g(Gamma)>=2g(C)-1>3 in every row
+route consequence:
+  complete independent m4 row is empty
+  global independent transverse frontier: 9 -> 8 types
+  live types: three at m=2 and five at m=3
+verification:
+  direct induced-permutation producer plus 12/12 hostile mutations rejected
+  independent bit-mask/Burnside fixed-power audit, four of four excluded
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims: no m2/m3 deletion, owner, carrier/data bridge, charge, u2,
+           endpoint cap, adjacent certificate, KoalaBear row, or MCA close
+next action:
+  transport this closure upstream, then attack the eight m2/m3 types using
+  actual quartic/source-star incidence rather than source-only rank tests
+compute spend: below one second under tiny RAMguard; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every
