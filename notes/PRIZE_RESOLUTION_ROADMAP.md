@@ -6406,6 +6406,14 @@ now one canonical pullback equation, not an arbitrary quartic interpolation.
 
 ```text
 new node: rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin [PROVED]
+upstream custody:
+  PR #1132 head: 3efe818561509dcc6f2ae792f2ed1d22c7d317ae
+  note/verifier/certificate blobs:
+    135c1f300fda1dab365b8a287c5f01f620f2fd20
+    2c69f75ef87aa084a9c868dee304b235db06db1c
+    8df504a15307d229a9c3de2bb876be89819853cb
+  certificate payload:
+    ba9783671d9d91bbd345ebaeec4b894d96be9d8d20f1ccc7d7ee1c5847bf6c81
 input: either surviving n=3 or n=6 full-V4 profile
 sibling correspondence:
   v is the deck involution of C->P1_Z
@@ -6438,6 +6446,14 @@ coordinate is now retained, reducing each residual factor to one parameter.
 
 ```text
 new node: rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form [PROVED]
+upstream custody:
+  PR #1132 head: 3efe818561509dcc6f2ae792f2ed1d22c7d317ae
+  note/verifier/certificate blobs:
+    135c1f300fda1dab365b8a287c5f01f620f2fd20
+    2c69f75ef87aa084a9c868dee304b235db06db1c
+    8df504a15307d229a9c3de2bb876be89819853cb
+  certificate payload:
+    ba9783671d9d91bbd345ebaeec4b894d96be9d8d20f1ccc7d7ee1c5847bf6c81
 standard dihedral sibling conic:
   x^2+y^2-a*x*y+(a^2-4)=0
   a=-1 for n=3; a=1 for n=6
