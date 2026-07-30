@@ -1195,6 +1195,35 @@ the actual irreducibility and separability hypotheses. These replace a
 generic `25`-coefficient endpoint search by two exact low-dimensional
 tests. Universal failure is not proved, and no owner charge moves.
 
+The PROVED
+`rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction` removes a tempting
+but false diagonal simplification. The endpoint involution cannot preserve
+the source-facet partition `I | J`. If `c` labels cross from either six-set
+to the other, then
+
+```text
+c in {2,4,6}.
+```
+
+Writing `a` for the number of involution pairs inside the common five-set
+`K`, and `b` for whether the unique `xi in I minus K` is paired into `K`,
+the exact remaining orbit rows are
+
+```text
+(a,b,c)=(2,0,2),(1,1,2),(1,0,4),(0,1,4),(0,0,6).
+```
+
+The proof uses only whole-fiber quartic transport. If the involution
+preserved `I`, oddness of `|K|=5` would pair one `k in K` with `xi`; four
+`J` roots would then transport to a fiber supporting either zero `J` roots
+(`xi=eta`) or at most two (a one-exchange fiber). This is impossible.
+Moreover, a `K` quartic transported to `K` uses only noncrossing `J` labels,
+one transported to `eta` uses only crossing `J` labels, and one transported
+to `L^c` uses at least two crossing labels. This applies to both branches of
+the source-subfield dichotomy. Attack the five rows separately, starting at
+`c=2`; do not impose the coordinate branch's `I,J` invariance or colored
+quotient descent. No full diagonal or owner close follows yet.
+
 The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
 the smaller shared actual-component gate. For twelve projective source-row
 quartics `q_i`, stack a `9 x 12` degree-two evaluation parity check across

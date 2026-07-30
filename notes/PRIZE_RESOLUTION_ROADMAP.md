@@ -11070,3 +11070,30 @@ blobs `750e243ea10a14fd1bd98bfa0ac45d3d5d673304`,
 `2678444d55eaa80ed2fdd43fe745bb3748acf80c`, with canonical payload
 `c064cf1971e08427b266de1f9768e98f11562998c09b8e8e828cf89cff48f297`.
 The verifier rejects 38 of 38 hostile mutations.
+
+## 2026-07-30 KoalaBear diagonal facet-mixing obstruction
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction` deletes the
+partition-preserving subcase of the diagonal order-two orientation. It is a
+whole-fiber theorem, so it applies before the source-line/biquadratic split.
+The fixed-point-free endpoint involution has exactly `c=2,4,6` crossings
+between `I` and `J`, and its action on the common five-set has five exact
+orbit rows:
+
+```text
+(a,b,c)=(2,0,2),(1,1,2),(1,0,4),(0,1,4),(0,0,6).
+```
+
+Here `a` counts involution pairs internal to `K`, while `b` records whether
+the unique label of `I minus K` is paired into `K`. The common-`K` quartics
+also split their roots between crossing and noncrossing `J` labels according
+to whether the source label transports to `K`, `eta`, or `L^c`.
+
+This changes the next diagonal action. A coordinate-style reciprocal
+`I,J` locator descent is unavailable, and should not be attempted. Split the
+8/7-dimensional norm equations and the biquadratic resolvent route by the
+five rows, beginning with `c=2`, where four labels on each side remain
+noncrossing and the transported support restrictions are strongest. A row
+is closed only by inconsistency with the actual interpolation, exact degree,
+irreducibility, deck distinction, and outer-factor interfaces.

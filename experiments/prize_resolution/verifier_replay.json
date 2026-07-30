@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/verify.py",
-      "seconds": 0.038883,
+      "script": "background/nodes/rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction/verify.py",
+      "seconds": 0.031883,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_R4_COORDINATE_TRANSPOSE_TRANSPORT_PASS endpoint_checks=4 subgroup_checks=4\n"
+      "stdout_tail": "RATE_HALF_KB_M2_R4_DIAGONAL_FACET_MIXING_OBSTRUCTION_PASS mixing_rows=5 crossing_counts=2,4,6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/verify_audit.py",
-      "seconds": 0.015338,
+      "script": "background/nodes/rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction/verify_audit.py",
+      "seconds": 0.04018,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_R4_COORDINATE_TRANSPOSE_TRANSPORT_AUDIT_PASS divided_difference_terms=1830\n"
+      "stdout_tail": "RATE_HALF_KB_M2_R4_DIAGONAL_FACET_MIXING_OBSTRUCTION_AUDIT_PASS matchings=10395 preserving_deleted=225 mixing_rows=5\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
