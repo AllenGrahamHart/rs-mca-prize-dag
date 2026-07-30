@@ -19089,6 +19089,24 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence",
+   "title": "KoalaBear m2 r2 degree-three geometric realization fence",
+   "status": "PROVED",
+   "closure": "explicit b=-1 genus-zero source component realizing the common cubic function, six poles, coefficient quartic, and complete source locators",
+   "statement": "The sole residual full-V4 n=3 profile has an explicit complete geometric model at a=b=-1. A printed bidegree-(2,4) source component realizes the non-diagonal D3 correspondence, a degree-30 common function with six order-five poles, the special rational coefficient quartic, genus-zero source passport, exact star graph, and complete-source saturation. Therefore geometry alone cannot delete n=3; the next obstruction must use the fixed active endpoint pencil or construct a chronology-valid recurrent owner/payment.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/proof.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/audit.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/result.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/frontier.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/verify.py",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/verify_audit.py"
+   ]
+  },
+  {
    "id": "l1_m31_semantic_owner_profile_regression",
    "title": "M31 line-profile compiler and semantic owner regression",
    "status": "PROVED",
@@ -37392,6 +37410,21 @@
   },
   {
    "from": "rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier",
+   "to": "rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion",
+   "to": "rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

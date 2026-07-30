@@ -146,6 +146,16 @@ source-cover branch pair, with nonzero KoalaBear resultants. Thus `n=6` is
 empty and `n=3` is the sole residual full-V4 dihedral profile. The full-V4
 type, owner, and payment remain open.
 
+The PROVED
+`rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence` shows that
+the last profile cannot be deleted by piling on more abstract geometry. At
+`a=b=-1` there is an explicit genus-zero bidegree-`(2,4)` source component
+realizing the common cubic right factor, six order-five poles, special
+coefficient quartic, exact star graph, and complete-source saturation. This
+is not a deployed endpoint record, but it proves that the next obstruction
+must use the fixed active pencil or produce a chronology-valid recurrent
+owner/payment. No ledger quantity moves.
+
 The PROVED `rate_half_kb_m12_outer_normal_form_compiler` removes arbitrary
 outer-quintic search. Geometrically, the dihedral row is a Dickson quintic
 `x^5-5a*x^3+5a^2*x`; four `r=4` branch profiles have rigid printed forms,

@@ -6598,6 +6598,35 @@ next action:
 compute spend: exact binary-sextic coefficients and 7x7 resultants; no Modal
 ```
 
+**Same-day degree-three geometric realization fence:** the sole residual
+profile survives every abstract geometric gate simultaneously.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence [PROVED]
+special parameter: a=b=-1, d=-1, ell=identity, source genus zero
+explicit maps:
+  D3(y)=y^3-3y
+  h(t)=(t^2+2)/(1-t^2)
+  psi(x)=2/(x^2+1)
+  H(t,x)=2(x^2+1)t^2-2x(x^2+3)t+(x^2+1)^2
+exact realization:
+  H and H(t,-x) pull back the non-diagonal D3 correspondence
+  the coefficient map is birational to Q_(-1,-1)
+  any two generic D3 pole fibers give six order-five poles
+  all twelve row quartics divide the degree-24 complete source form
+  sum_alpha div(H(alpha,x))=2 div(B)
+result:
+  common-function/pole/quartic/genus/star/source geometry cannot delete n=3
+  the next gate is the fixed active endpoint pencil or recurrent owner
+DAG delta: one PROVED route-fence node; critical target unchanged
+ledger movement: zero
+nonclaims: no deployed endpoint producer, owner, payment, m2/K3/row close
+next action:
+  compare the fixed KoalaBear source pencil with the special b=-1 model;
+  if compatible, compile the induced degree-six same-record first owner
+compute spend: exact rational identities only; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every
