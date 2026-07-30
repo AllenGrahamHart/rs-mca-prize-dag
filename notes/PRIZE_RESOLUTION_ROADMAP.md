@@ -6528,6 +6528,14 @@ endpoint is no longer an untracked Mobius parameter at the branch level.
 
 ```text
 new node: rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier [PROVED]
+upstream custody:
+  PR #1132 head: 4b722a5f3a03ea3074441553438e212b074de0db
+  note/verifier/certificate blobs:
+    838c595a8aa1ff9f9c597a8004ab4e9ebcf64953
+    9050899a11af3b30f246bdc882a61c8890797565
+    715c980aaf20ad2e6d5075ac3cd1da2903af7e79
+  certificate payload:
+    ec4c0ff7938e4176ba8d5f2a889201b5d683635538a28bed90d86240d4e67313
 standard coordinates:
   u(r)=1/r, v(r)=lambda/r, mu^2=lambda
   a=lambda+lambda^-1, d=mu+mu^-1, d^2=a+2
