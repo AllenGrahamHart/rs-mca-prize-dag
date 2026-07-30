@@ -11253,27 +11253,28 @@ does not create a separate coefficient attack. Every saturated source-line
 before the aligned or near-aligned quotient identity.
 
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
-`2b7fa7d31fac73f3b7bd2aa9dd5f55c5e3844c22`, note/verifier/certificate
-blobs `a1e14d6652687af8eb42b23f3c13feb1c510002e`,
-`56e1d5fbc0fb30c8024c3689128c90fd1e190c65`, and
-`fd9b4372e4a467b17d54f662169e9d75970206d0`, with canonical payload
-`50d33764080e90fce4c75f74836f51897fbc5d1f2f20cbca2e65b659ef582468`.
+`b19ae81742844071adcc1b6d7344b2f13d481775`, note/verifier/certificate
+blobs `7d06a35d087f3422c235bc27e4d280866e16fb85`,
+`97efe5ba9ccdbf74818c6d983dc52d3067087f3b`, and
+`6d6b96dceaed853660fa4d1c64717aa2606a32ee`, with canonical payload
+`fea1c3f3f414067746329ef0ab65882c826e2f1cc34cf756433b0d549ed9fedb`.
 Its verifier classifies all `10,395` fixed-point-free matchings, including
 the `120/600` maximally mixed split and all three near-aligned `c=2`
 matching classes, checks the exact ramified/unramified source-line ranks,
 minor signs, the ramified and full `(2,0,2)` defect exclusions, and the
 saturated `(1,1,2)` classifier, checks `2700/900` aligned/near quotient
 rows, checks the `12` admissible internal edge pairs and exact odd-part
-incidence map, and rejects `98` of `98` hostile mutations. The latest
-extension report is `przchojecki/rs-mca#1132` comment `5131393696`.
+incidence map, verifies the ramified `(2,2)` order allocation and repaired
+`4/3` dimensions, and rejects `106` of `106` hostile mutations. The latest
+extension report is `przchojecki/rs-mca#1132` comment `5131513706`.
 
 ### Work-cycle burn-down: diagonal c2 square fibers
 
 ```text
 starting local pin:       670c3dc5 (pre-c2 capacity refinement)
-ending local theorem pin: e133e40f6eb2054d9d368a7b3b6208b87df8c564
+ending local theorem pin: a3054003fe8080940443d641fbefc4aa1fe89c66
 canonical prize pin:      11cea27b (unchanged)
-ending upstream pin:      2b7fa7d31fac73f3b7bd2aa9dd5f55c5e3844c22
+ending upstream pin:      b19ae81742844071adcc1b6d7344b2f13d481775
 node attacked:            rate_half_band_closure via diagonal c=2
 result:                   NARROWED + EXPORTED
 DAG delta:                +7 PROVED nodes, +22 edges; target status unchanged
