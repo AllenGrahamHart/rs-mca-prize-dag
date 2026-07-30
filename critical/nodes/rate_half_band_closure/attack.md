@@ -1481,7 +1481,7 @@ Thus no aligned negative candidate passes `(KBQS-1)`. The aligned source-line
 attack retains only the positive sign. Both signs remain in the near-aligned
 branch because its target is `tau^*chi_Omega`, not `tau^*q`.
 
-Six deployed-field near-aligned positive charts are now deleted. The PROVED
+Seven deployed-field near-aligned positive charts are now deleted. The PROVED
 `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion`
 normalizes `a=xi=2`, takes the fixed-moving template with `eta=c`, and assigns
 the two residual squares to `1/2` over `c` and `1/d` over `d`. All four
@@ -1507,9 +1507,14 @@ deletes both square allocations in that reciprocal-`xi` orbit. Its direct
 leading-zero points lie on `z=1`, and its remaining exceptional audit fiber
 forces collisions; the swapped exceptional geometry is unchanged. All
 sixteen pair/allocation replays pass in characteristic zero and modulo the
-deployed prime. These results delete 6 of the 18 affine positive charts; the
-other reciprocal-pair orbit, moving-moving template, negative loci, and
-`w=0` boundary remain.
+deployed prime. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion`
+then treats `xi=b` and the square allocation `c->1/b,d->1/d`. Its
+four product-branch pairs have only collision support or explicit fibers
+forcing `b=1/2`; an independent fraction-free/subresultant replay gives
+the same result modulo the deployed prime. These results delete 7 of the 18
+affine positive charts; the other two allocations in this relative orbit,
+moving-moving template, negative loci, and `w=0` boundary remain.
 
 The aligned positive sign has also resisted a broader exact falsifier sweep.
 The seeded standard-library replay

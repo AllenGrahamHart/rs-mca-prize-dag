@@ -194,9 +194,16 @@ retries; raw artifact storage is separate.
   every leading-zero branch, an independent opposite-variable audit, and
   exact replay modulo `p=2130706433`. Its exceptional support is either a
   collision, inversion-fixed, or on the excluded `z=1` locus.
-- **Immediate unresolved input:** process the three allocations in the other
-  reciprocal-pair orbit. Retain the explicit finite-chart saturations before
-  moving to moving-moving templates and the negative `B/C` loci.
+- **Banked other-xi direct square chart:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion`
+  treats `xi=b` and `c->1/b,d->1/d`. Four product-branch pairs,
+  every linear leading-zero fiber, a direct/resultant path, and an independent
+  fraction-free/subresultant path have only forbidden support in
+  characteristic zero and modulo the deployed prime.
+- **Immediate unresolved input:** process the swapped square and mixed
+  allocations in the other reciprocal-pair orbit. Retain the explicit
+  finite-chart saturations before moving to moving-moving templates and the
+  negative `B/C` loci.
 - **Required output:** for every chart, either a unit/collision-only exact
   elimination certificate or an explicit algebraic survivor with `b,z`, and
   `lambda_scale` reconstructed and all label inequalities checked. Every
@@ -204,7 +211,7 @@ retries; raw artifact storage is separate.
   is not realization.
 - **PASS:** mint a scoped PROVED near-positive or near-negative exclusion node
   after all charts and isolated leading branches in that scope are covered.
-  Six of the 18 affine positive charts now satisfy this contract.
+  Seven of the 18 affine positive charts now satisfy this contract.
 - **INCOMPLETE:** curve factors, pairwise resultants, or generic-field gcds
   alone are narrowing evidence.
 - **Authorization:** external pre-request for the remaining chart queue.

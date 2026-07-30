@@ -11525,10 +11525,21 @@ component. Independent direct/resultant and fraction-free/Bezout replays
 cover all four endpoint-line pairs in both allocations, including exact
 reduction modulo `p=2130706433`.
 
-This closes exactly 6 of the 18 affine positive charts. The other
-reciprocal-pair orbit, the moving-moving template, both negative factor loci,
-and the projective `w=0` boundary remain open; do not infer a near-aligned
-deletion from these six closed charts.
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion`
+closes the first square allocation in the remaining relative orbit. Choose
+`xi=b` and assign the residual squares `c->1/b,d->1/d`. The two
+product conditions split into two quadratic branches over `c` and two
+linear branches over `d`. Across the four pairs, the only noncollision
+projected fibers are empty or force `b=1/2` (two also force `cd=1`).
+Full leading-zero ideals are classified separately. Direct/resultant and
+independent fraction-free/subresultant paths reproduce every support and
+candidate basis modulo `p=2130706433`.
+
+This closes exactly 7 of the 18 affine positive charts. The swapped square
+and mixed allocations in the other reciprocal-pair orbit, the moving-moving
+template, both negative factor loci, and the projective `w=0` boundary
+remain open; do not infer a near-aligned deletion from these seven charts.
 
 There is a cheaper common gate before those allocation splits. Write
 
