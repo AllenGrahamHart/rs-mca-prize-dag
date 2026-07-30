@@ -6363,6 +6363,36 @@ next action:
 compute spend: exact four-point coset and integer defect arithmetic; no Modal
 ```
 
+**Same-day residual dihedral star-graph rigidity:** the two surviving
+factor degrees have unique complete-source graph shapes up to relabeling.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity [PROVED]
+input: n=3 or n=6 inside the full-V4 (m,r,delta)=(2,2,4) row
+generic dihedral incidence:
+  reflection quotient incidence is C_(2n)
+  every Z value sees a distinct adjacent pair of Y values
+source orientation law:
+  a:(T,X)->(tau(T),b(X))
+  c eta c^-1=eta*a
+  if D_w uses {t,s},{tau(t),tau(s)}, then D_(tau(w)) uses
+  {t,tau(s)},{tau(t),s}
+complete graph:
+  n=3: two disjoint K_(2,2,2)
+  n=6: two-point blow-up of C_6
+  all 24 source-star weights are one
+  every one of the 12 source labels has degree four
+  complete-source defect is exactly zero
+DAG delta: one PROVED rigidity node; critical target unchanged
+ledger movement: zero
+nonclaims: no n=3 or n=6 existence/deletion, m2 type close, owner, charge,
+           u2, endpoint, adjacent certificate, KoalaBear row, or MCA close
+next action:
+  solve the birational-quartic coefficient realization problem for these
+  two exact graphs, using the quadratic source fibers and V4 branch passport
+compute spend: exact D3/D6 coset and 24-edge graph arithmetic; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

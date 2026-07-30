@@ -311,6 +311,18 @@ units to four possible star vertices. Their minimum defect is four, above
 the global budget three. The full-V4 factor frontier is now `n=3,6`; both
 remain open and no owner charge moves.
 
+The PROVED
+`rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity` fixes the exact
+source-star shape of both survivors. The source-cover relation
+`c eta c^(-1)=eta*a` makes the two endpoint lifts over each `Z` value use
+complementary cross-edge orientations. Thus `n=3` gives two disjoint
+`K_(2,2,2)` graphs and `n=6` gives the two-point blow-up of `C_6`. In both
+cases all 24 star weights are one, the defect is zero, and every source row
+has degree four. Further defect counting is therefore exhausted: the live
+problem is whether either prescribed graph can be realized by the residual
+birational quartic coefficient map and its genus-zero/genus-one V4 branch
+passport. No owner charge moves.
+
 ## Banked range
 
 Put
