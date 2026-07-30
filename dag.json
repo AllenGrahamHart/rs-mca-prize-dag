@@ -19070,6 +19070,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler",
+   "title": "KoalaBear m2 r4 coordinate colored-quotient resultant compiler",
+   "status": "PROVED",
+   "closure": "deck descent of the colored quartic and explicit cubic-norm resultants in the coordinate parity spaces",
+   "statement": "In the coordinate order-two orientation, the four colored roots form the pullback c(W) of a squarefree quotient quadratic, hence are the complete edge pairs at two right pole-graph vertices. Writing P_S(T)=p_S(T^2), the positive partial resultants are Res_Y(p_S,(A_2Y+A_0)^2-WYB_1^2), and the negative partial resultants are Res_Y(p_S,W(B_2Y+B_0)^2-YA_1^2). They equal K_5^2 c and R_7^2/c in the exact cleared sense. This is an explicit 8/7-dimensional univariate compiler, not an orientation deletion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_full_v4_source_genus_drop",
    "title": "KoalaBear m2 r2 full-V4 source genus drop",
    "status": "PROVED",
@@ -37635,6 +37654,21 @@
    "from": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
    "to": "rate_half_kb_m2_u2_colored_source_resultant_split_compiler",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_u2_colored_source_resultant_split_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
+   "to": "rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_u2_colored_source_resultant_split_compiler",

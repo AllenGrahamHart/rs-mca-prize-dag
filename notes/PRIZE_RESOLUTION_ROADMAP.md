@@ -10975,3 +10975,25 @@ directly from the same quartic. This compresses twelve row-product choices
 to one four-edge divisor and two exact resultant equations. Classify these
 quartics jointly with the `45 x 12` source gate and the coordinate/diagonal
 coefficient forms. No compute spend or ledger payment was used.
+
+## 2026-07-30 KoalaBear coordinate quotient-resultant compiler
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler`
+specializes the colored split to the coordinate parity spaces. Star
+transport makes `C_H` deck invariant, so `C_H(X)=c(X^2)` for a squarefree
+quadratic `c`; its four edges are the two complete incident-edge pairs at
+two right pole-graph vertices. Since `I,J` are invariant under
+`tau(T)=-T`, write `P_S(T)=p_S(T^2)`. The two parity systems use
+
+```text
+Phi_+=(A_2Y+A_0)^2-WYB_1^2,
+Phi_-=W(B_2Y+B_0)^2-YA_1^2,
+R_S=Res_Y(p_S,Phi_epsilon),
+R_J~K_5^2c,       cR_I~R_7^2.
+```
+
+This is now a pair of univariate resultant equations in the existing eight-
+or seven-dimensional source spaces plus a two-fiber choice. Solve these
+systems before any generic coordinate endpoint search. No orientation is
+deleted and no compute spend or ledger payment was used.

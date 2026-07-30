@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/verify.py",
-      "seconds": 0.031499,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/verify.py",
+      "seconds": 0.074335,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_U2_COLORED_SOURCE_RESULTANT_SPLIT_COMPILER_PASS J_degree=24 I_degree=24 color_degree=4\n"
+      "stdout_tail": "RATE_HALF_KB_M2_R4_COORDINATE_COLORED_QUOTIENT_RESULTANT_COMPILER_PASS pair_checks=8 quotient_color_degree=2\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/verify_audit.py",
-      "seconds": 0.016912,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/verify_audit.py",
+      "seconds": 0.013471,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_U2_COLORED_SOURCE_RESULTANT_SPLIT_COMPILER_AUDIT_PASS colored_divisors=495\n"
+      "stdout_tail": "RATE_HALF_KB_M2_R4_COORDINATE_COLORED_QUOTIENT_RESULTANT_COMPILER_AUDIT_PASS quotient_quadratics=15\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

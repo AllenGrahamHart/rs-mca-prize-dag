@@ -1235,7 +1235,7 @@ trivial-stabilizer `(r,delta)=(8,1)` type, has
 (J-J,I-I,I-J)=(10,10,4).
 ```
 
-On the six `J` labels, the ten stars over `K` have exactly one of
+On the six `J` labels, the ten stars over `K` initially have exactly one of
 
 ```text
 (0,4,4,4,4,4), (1,3,4,4,4,4), (2,2,4,4,4,4),
@@ -1244,6 +1244,53 @@ On the six `J` labels, the ten stars over `K` have exactly one of
 
 This uses no stabilizer symmetry. The coordinate involution retains its
 stronger two-profile conclusion, while the diagonal and trivial types do
-not inherit it. The trivial type should now be attacked by these five
-profiles plus the `45 x 12` source gate and defect budget. No type or owner
-is closed.
+not inherit it.
+
+The later PROVED
+`rate_half_kb_m2_u2_universal_component_color_profile_cut` imports the
+exact Corollary 9.28 color law. A degree-two component colors four edges of
+the two-regular pole graph, and `c_j=4-d_j` is the colored degree of its
+left vertex. Thus `c_j<=2`; the deficit partitions `4` and `3+1` are
+impossible. The universal list is now exactly
+
+```text
+(2,2,4,4,4,4), (2,3,3,4,4,4), (3,3,3,3,4,4).
+```
+
+Every `J` label occurs at least twice over `K`. The coordinate branch keeps
+only the first and third rows; diagonal and trivial branches retain all
+three.
+
+The PROVED
+`rate_half_kb_m2_u2_colored_source_resultant_split_compiler` packages the
+four simple colored roots as one squarefree quartic `C_H`. If `D_K` is the
+degree-ten pullback over `K`, `D_R=B/D_K`, and `P_I,P_J` are the two label
+sextics, every residual component satisfies
+
+```text
+Res_T(P_J,H) ~ D_K^2 C_H,
+C_H Res_T(P_I,H) ~ D_R^2,
+c_j=deg gcd(C_H,bZ_j).
+```
+
+The next attack should classify these four-edge divisors jointly with the
+`45 x 12` source gate and branch coefficient forms. Do not enumerate the
+two deleted profiles or treat twelve source rows as independent. No type
+or owner is closed.
+
+For the coordinate orientation, the PROVED
+`rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler` carries
+this one step further. The colored divisor is deck invariant, hence
+`C_H(X)=c(X^2)` for a squarefree quadratic `c`, selecting two complete right
+pole-graph fibers. With `P_S(T)=p_S(T^2)`, the two parity systems are
+
+```text
+Phi_+=(A_2Y+A_0)^2-WYB_1^2,
+Phi_-=W(B_2Y+B_0)^2-YA_1^2,
+R_S=Res_Y(p_S,Phi_epsilon),
+R_J~K_5^2c,       cR_I~R_7^2.
+```
+
+Thus the coordinate branch is an explicit univariate norm-factorization
+problem in eight or seven source coefficients plus a two-fiber choice.
+Universal inconsistency remains open.
