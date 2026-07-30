@@ -165,18 +165,15 @@ retries; raw artifact storage is separate.
   chart. Negative forms must first lie on the proved fixed-moving `B=0` or
   moving-moving `B*C=0` reconstruction loci.
 - **Banked first chart:**
-  `critical/nodes/rate_half_band_closure/notes/kb_c2_112_near_fixed_xi_square.py`
+  PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion`
   treats fixed-moving, common endpoint `xi=2`, and the square allocation
-  `(c -> 1/2, d -> 1/d)`. Only its endpoint reduction is banked: each of the
-  four line pairs leaves one bidegree `(3,3)` curve after collision factors.
-  The former middle eliminants are retracted because the helper extracted
-  only the exact monomial coefficient of `b`, not its full coefficient in
-  `QQ[c,d]`, and therefore substituted a false constant value for `b`. The
-  corrected helper (SHA-256
-  `830d49882c8183a94442f62862ec9d4a0f5d483466ecb2f1abe4072b04f98860`)
-  emits INCOMPLETE. Both left lines have nonunit leading-coefficient-zero
-  branches. Recompute all four generic middle ideals and audit both full
-  exceptional branches before claiming this chart.
+  `(c -> 1/2, d -> 1/d)` over the deployed KoalaBear field. Four correct
+  generic line-pair eliminations and both full leading-zero branches are
+  covered by independent resultant and Bezout replays, including exact
+  reduction modulo `p=2130706433`. The former middle eliminants remain
+  retracted because they extracted only the exact monomial coefficient of
+  `b`; both current checkers carry a regression fence for that error.
 - **Immediate unresolved input:** the swapped square allocation in that same
   chart has four endpoint curves of bidegrees `(3,2),(2,2),(3,2),(2,2)`.
   First impose the normalization-free constant/leading gate `(KBNEAR-CL)`;
@@ -189,9 +186,9 @@ retries; raw artifact storage is separate.
   `lambda_scale` reconstructed and all label inequalities checked. Every
   survivor advances to both full identities `(KBQ2-2)`; q-slice passage alone
   is not realization.
-- **PASS:** mint the appropriate PROVED near-positive or near-negative
-  exclusion node only after all its charts and isolated leading branches are
-  covered.
+- **PASS:** mint a scoped PROVED near-positive or near-negative exclusion node
+  after all charts and isolated leading branches in that scope are covered.
+  One of the 18 affine positive charts now satisfies this contract.
 - **INCOMPLETE:** curve factors, pairwise resultants, or generic-field gcds
   alone are narrowing evidence.
 - **Authorization:** external pre-request for the remaining chart queue.

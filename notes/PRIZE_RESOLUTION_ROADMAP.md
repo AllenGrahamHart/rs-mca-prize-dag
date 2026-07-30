@@ -11453,15 +11453,27 @@ nonunit leading-coefficient-zero branch. Their exact grevlex bases have shape
 and `612b21285163848790e6bc472de53e82e3598ce15d6fa2cf3014bcb73e87deda`.
 The corrected endpoint helper SHA-256 is
 `830d49882c8183a94442f62862ec9d4a0f5d483466ecb2f1abe4072b04f98860`.
-The generic middle ideal and both exceptional branches must be classified
-from scratch before this chart can be promoted.
+The repaired direct-normalization route now classifies the generic middle
+ideal and both exceptional branches. The PROVED node
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion`
+covers all four endpoint-line pairs over the deployed KoalaBear field. Their
+two resultant gcds have squarefree support only at
+`d in {2,1,-1,1/2}`. The two full leading-coefficient-zero loci have the
+same collision support plus `(c,d)=(1/5,7/5)` or
+`(-5/7,55/53)`; both extras force `5cd-4c-4d+5=0`, hence `z=1`.
 
-A separate direct-normalization one-off, using the full rational `b(c,d)`
-rather than the retracted constants, processes generic sign pair `(0,0)` by
-two resultants and a univariate gcd in about `27 s`. Its gcd has support only
-at `d in {2,1,-1,1/2}`. This is useful route evidence but not yet banked:
-the direct checker is not committed, the other three generic pairs and both
-leading branches remain, and no deletion claim follows.
+The primary helper uses a direct matrix inverse and resultants; its two
+left-line shards finish in about `35 s`. The independently written audit
+uses a fraction-free DomainMatrix solve, Bezout denominators over
+`QQ(d)[c]`, and exceptional elimination in the opposite variable; its two
+left-line batches are split into four pair shards to remain below `60 s`
+under host load. Both clear coefficient denominators and
+recheck squarefree support modulo `p=2130706433`, proving exclusion over
+`F_(p^6)`, and both carry a mutation fence for the retracted coefficient API
+error. Their SHA-256 hashes are
+`7d3892fddcb4ab95f1fd6f6fa58127cf77c72c024e3272fab9511152df27db93`
+and `96036a63c54b94beab3ce6d33b0237c6c78b7e9208ea37a770c00171159dcde5`.
+This closes exactly one of the 18 affine positive charts.
 
 For the swapped square allocation in the same normalized template, the two
 endpoint lines reduce the four sign pairs to curves of bidegree `(3,2)`,
