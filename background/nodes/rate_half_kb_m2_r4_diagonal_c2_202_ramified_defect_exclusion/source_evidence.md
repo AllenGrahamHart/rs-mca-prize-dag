@@ -16,15 +16,15 @@
 
 The theorem is vendored into the diagonal source-facet packet in draft PR
 `przchojecki/rs-mca#1132` at commit
-`5b8a8dfe12af2236fe28665ff6fc66f54322a4a7`:
+`ddfae529bf6e5fdee5e8b4810b9e034d617d2290`:
 
 ```text
-note blob:        d69e5c6673a5bff7f181e84dcc10c56a9e1dc71a
-verifier blob:    16dcab7f81e033b4f0a40b947ccdd3edc3cfc049
-certificate blob: 96c0fd785bec2f761336893db251a349ee2b4e74
-payload SHA-256:  ca878fb3aa4e41ab5b7184413decdb50522716fd70267ddd529dc37d57d9bce6
+note blob:        ba1cf54af98edae0941b40522022733eb4f32bdc
+verifier blob:    f29d8b0a5db575075c802f9b99ce259313f0e151
+certificate blob: c5c0a9e508514abbd721b2d6cd87f1e98ba16d05
+payload SHA-256:  f0a7dc4fd1d7f099aefaac879914aad504a11fc4b9d858cbcd95cdd7b6a93dbb
 ```
 
 The upstream replay exhausts all `1,287` six-vertex occupancies, certifies
-the defect floor four against budget three, and rejects `69` of `69` hostile
-mutations across the complete packet.
+the defect floor four against budget three, includes the full-row
+strengthening, and rejects `74` of `74` hostile mutations across the packet.
