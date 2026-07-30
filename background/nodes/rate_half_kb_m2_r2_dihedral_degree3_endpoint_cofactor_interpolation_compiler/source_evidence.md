@@ -10,16 +10,17 @@
 - New interpolation proof and split-field deleting fixture are reconstructed
   locally.
 - Outbound custody: draft PR `https://github.com/przchojecki/rs-mca/pull/1132`,
-  theorem commit `2f11adb0d7971dd1b9f386b92d3520d0f344d409`.
-- Upstream note blob: `56cff6f1891949ea690272a6bcfb6ba481eb4014`.
-- Upstream verifier blob: `7b778dd1c2f9fa7a31405040fda7c34f1ee3162f`.
-- Upstream certificate blob: `0cae10be98fa6fb30aff01a3d82c97d3d14f7c90`.
+  theorem commit `a20c117f02b920fd306affac43c078e127953f5b`.
+- Upstream note blob: `5da9cd9140d004078e80d1d4a0a64268413f551f`.
+- Upstream verifier blob: `fe916a625502b02b50e386224aabe151fee7eb32`.
+- Upstream certificate blob: `6503c0f322a22e4c921f260fe3eb3ca3794fa806`.
 - Canonical certificate payload SHA-256:
-  `c3d18d3bd47908726021a4b05964b45610ebe454355629494b4fdfcc356c63fc`.
+  `2c3ee72d90e410378ab64b8c329ef30568d34889917919cb9a401f45959f454a`.
 - The fail-closed upstream replay binds the exact geometric parent and
   rejects 24 of 24 hostile mutations.
 
-The fail-closed upstream replay now also reconstructs the six canonical
-square holonomies and rejects 26 of 26 hostile mutations. The upstream PR
-remains provisional until review. Local `PROVED` rests on the in-tree proof
-and independent replay, not on merge status.
+The fail-closed upstream replay now also binds the exact complete
+gain-flatness criterion, reconstructs the six canonical square holonomies,
+and rejects 27 of 27 hostile mutations. The upstream PR remains provisional
+until review. Local `PROVED` rests on the in-tree proof and independent
+replay, not on merge status.
