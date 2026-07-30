@@ -11252,6 +11252,24 @@ does not create a separate coefficient attack. Every saturated source-line
 `(1,1,2)` record now passes through the same four sign/orbit incidence tests
 before the aligned or near-aligned quotient identity.
 
+The remaining `U` coefficients are now reconstructed by one internal star
+pair. On the forced-square space `S_epsilon(w,q)`, evaluation at the
+internal label `z` has zero kernel: otherwise reciprocity would factor
+`U=chi_z(W)R(T)` and force `q=P_(J_1)` to be a reciprocal endpoint
+eigenform, contrary to `tau(J_1) subset I`. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction`
+makes this a `3 x 3` isomorphism for the positive sign and an injective
+two-plane for the negative sign.
+
+Given internal edges `e,f`, their pinned odd-part difference fixes the
+relative star scalars and therefore fixes `U(T,z)`. The positive source form
+is unique; the negative form is rejected by one linear image-plane equation
+or is unique, modulo source-deck conjugation. The five pure multisets have
+exactly `2,2,4,2,2` compatible internal assignments. Every source-line
+packet is therefore a finite list of at most eight source-deck pairs, with
+no coefficient parameter left. The route-deciding calculation is now to
+evaluate `(KBQ2-2)` and the remaining source rows on those forms.
+
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
 `b19ae81742844071adcc1b6d7344b2f13d481775`, note/verifier/certificate
 blobs `7d06a35d087f3422c235bc27e4d280866e16fb85`,
@@ -11277,13 +11295,14 @@ canonical prize pin:      11cea27b (unchanged)
 ending upstream pin:      b19ae81742844071adcc1b6d7344b2f13d481775
 node attacked:            rate_half_band_closure via diagonal c=2
 result:                   NARROWED + EXPORTED
-DAG delta:                +7 PROVED nodes, +22 edges; target status unchanged
+DAG delta:                +8 PROVED nodes, +25 edges; target status unchanged
 upstream delta:           c2 capacity, linear cut, 202 deletion, 112 classifier,
                           source-line quotient descent, odd-part incidence,
-                          and ramified coefficient repair in PR #1132
+                          ramified coefficient repair, and internal-star
+                          reconstruction in PR #1132
 delta-star movement:      none
 new assumptions:          none; (1,1,2) ramified and biquadratic survivors retained
 live compute requests:    none
-next route-deciding step: evaluate the four odd-part incidence tests on
-                          every aligned/near source-line record
+next route-deciding step: evaluate quotient resultants on at most eight
+                          reconstructed source-deck pairs per packet
 ```

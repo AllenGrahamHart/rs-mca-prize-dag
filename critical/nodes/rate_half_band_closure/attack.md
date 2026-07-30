@@ -1393,6 +1393,24 @@ with `w=0`. All saturated source-line `(1,1,2)` packets now use the same
 four-case pre-interpolation gate; source ramification remains geometrically
 possible but no longer needs a separate coefficient route.
 
+The internal stars now remove the remaining continuous coefficient freedom.
+Let `S_epsilon(w,q)` be the reciprocal `U` space cut by
+`U(T,w) in <q>`. Evaluation at the internal label `z` is injective: a
+kernel element would be `chi_z(W)R(T)`, forcing `q` to be a reciprocal
+endpoint eigenform, impossible because `tau(J_1)` lies in `I`. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction`
+therefore gives a `3 x 3` isomorphism in the positive sign and a two-plane
+embedding in the negative sign.
+
+For a compatible internal edge pair `e,f`, the pinned `V(T,z)` fixes their
+relative scalars and hence the target value `U(T,z)`. The positive sign has
+one reconstructed source form; the negative sign has one linear rejection
+test and otherwise one form, all modulo source-deck conjugation. The five
+labeled pure multisets admit `2,2,4,2,2` internal assignments. Thus each
+classified packet has at most eight source-deck candidate pairs. Evaluate
+the aligned or near-aligned quotient identities on those candidates; do not
+carry a free coefficient family into the next stage.
+
 The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
 the smaller shared actual-component gate. For twelve projective source-row
 quartics `q_i`, stack a `9 x 12` degree-two evaluation parity check across
