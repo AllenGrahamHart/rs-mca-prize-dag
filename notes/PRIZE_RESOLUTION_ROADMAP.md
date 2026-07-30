@@ -11318,11 +11318,11 @@ runs can be contributed independently. The local `F_1009` datum above is
 evidence only, not a deletion or a substitute for saturation.
 
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
-`cbb3aa26cbbd34dbacd284424a16f29518d7d242`, note/verifier/certificate
-blobs `88a0bd2a19913fdf689968d38628ded7c7645aed`,
-`e0fe717b09701c6ec66674df37456ff8a9888a0d`, and
-`668246f6f97196848179d38f70136eceb37a43d1`, with canonical payload
-`b290c08228370fad83a8f91ae47684e6a1f53a49104b545135f526075173c472`.
+`e6bde40cbb2e438a8a7faca333a34d8a7681c6b3`, note/verifier/certificate
+blobs `a4e476ec50acca029868abc546396fca81afa97f3`,
+`c3e011c7c31360d04dfa59ac2712928d341e6240`, and
+`ed855d2ee936bdfcfc61937d449ec151227c0224`, with canonical payload
+`66b83997ed25269d8d79e5d77291dcb3638835356cb895b827f90c9f287a86cf`.
 Its verifier classifies all `10,395` fixed-point-free matchings, including
 the `120/600` maximally mixed split and all three near-aligned `c=2`
 matching classes, checks the exact ramified/unramified source-line ranks,
@@ -11331,26 +11331,27 @@ saturated `(1,1,2)` classifier, checks `2700/900` aligned/near quotient
 rows, checks the `12` admissible internal edge pairs and exact odd-part
 incidence map, verifies the ramified `(2,2)` order allocation and repaired
 `4/3` dimensions, checks the `2,2,2,2,4` finite reconstruction and maximum
-eight source-deck pairs, and rejects `114` of `114` hostile mutations. The
-latest extension report is `przchojecki/rs-mca#1132` comment `5131648473`.
+eight source-deck pairs, checks all three q-slice incidence patterns, and
+rejects `118` of `118` hostile mutations. The latest extension report is
+`przchojecki/rs-mca#1132` comment `5131961677`.
 
 ### Work-cycle burn-down: diagonal c2 square fibers
 
 ```text
 starting local pin:       670c3dc5 (pre-c2 capacity refinement)
-ending local theorem pin: 80045e37cfee303187e1ce8fc6639f4311350c24
+ending local theorem pin: 0d9990c030978339e15c1d930275e14ffb3be5bd
 canonical prize pin:      11cea27b (unchanged)
-ending upstream pin:      cbb3aa26cbbd34dbacd284424a16f29518d7d242
+ending upstream pin:      e6bde40cbb2e438a8a7faca333a34d8a7681c6b3
 node attacked:            rate_half_band_closure via diagonal c=2
 result:                   NARROWED + EXPORTED
-DAG delta:                +8 PROVED nodes, +25 edges; target status unchanged
+DAG delta:                +9 PROVED nodes, +28 edges; target status unchanged
 upstream delta:           c2 capacity, linear cut, 202 deletion, 112 classifier,
                           source-line quotient descent, odd-part incidence,
-                          ramified coefficient repair, and internal-star
-                          reconstruction in PR #1132
+                          ramified coefficient repair, internal-star
+                          reconstruction, and q-slice resultant in PR #1132
 delta-star movement:      none
 new assumptions:          none; (1,1,2) ramified and biquadratic survivors retained
 live compute requests:    CR-KB-C2-112-QR-ELIM (external/deferred; 40 shards)
-next route-deciding step: evaluate quotient resultants on at most eight
+next route-deciding step: factor the q-slice mismatch on at most eight
                           reconstructed source-deck pairs per packet
 ```
