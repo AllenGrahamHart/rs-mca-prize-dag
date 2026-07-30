@@ -18,15 +18,15 @@
 
 Vendored as a shared `K3` source-component interface with the diagonal
 branch compilers in draft PR `przchojecki/rs-mca#1132` at
-`6127f7c4c315428507ad05ba814c0b540edc7ac7`:
+`c88438d7109cf7acd7caebaf006f21c776b74d74`:
 
 ```text
-note blob:        a58381fe3d80f9a604197b7c5eea3c6ef6bc4b5c
-verifier blob:    b88c1ab56ee8a4a5a0a091f563697417c75ef51d
-certificate blob: 3b0f45160567a4b5d1aef6ee9d8e556782b5a043
-payload SHA-256:  bbdab9cb571c6c6bfcdd477598aa38f4f69b43e0c3480da28b74a725faab8e33
+note blob:        f58c2ea9cea88dfc6be637e9f1f14e86e8862cc6
+verifier blob:    7cc4eb6e0560ca5c587f91623dc407892a07e2ca
+certificate blob: 033043e7a0969ea9f98207567b890b10e3077271
+payload SHA-256:  f0b751301e56989bf6fbf19cf15e5ff8faa0d7d86e76278306950a488cdf5156
 ```
 
-The verifier independently replays the `45 x 12` kernel and rejects 15 of
-15 hostile packet mutations. The sole PR check failure at this pin is
+The verifier independently replays the `45 x 12` kernel and rejects 18 of
+18 hostile packet mutations. The sole PR check failure at this pin is
 unrelated Vercel deployment authorization.

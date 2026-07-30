@@ -10872,12 +10872,12 @@ resolvent, and the outer factor identity. No compute spend was used.
 
 Upstream custody for the three source-subfield/coefficient interfaces is
 draft PR `przchojecki/rs-mca#1132`, commit
-`6127f7c4c315428507ad05ba814c0b540edc7ac7`, note/verifier/certificate blobs
-`a58381fe3d80f9a604197b7c5eea3c6ef6bc4b5c`,
-`b88c1ab56ee8a4a5a0a091f563697417c75ef51d`, and
-`3b0f45160567a4b5d1aef6ee9d8e556782b5a043`, with canonical payload
-`bbdab9cb571c6c6bfcdd477598aa38f4f69b43e0c3480da28b74a725faab8e33`.
-The verifier rejects 15 of 15 hostile mutations; the only PR check failure
+`c88438d7109cf7acd7caebaf006f21c776b74d74`, note/verifier/certificate blobs
+`f58c2ea9cea88dfc6be637e9f1f14e86e8862cc6`,
+`7cc4eb6e0560ca5c587f91623dc407892a07e2ca`, and
+`033043e7a0969ea9f98207567b890b10e3077271`, with canonical payload
+`f0b751301e56989bf6fbf19cf15e5ff8faa0d7d86e76278306950a488cdf5156`.
+The verifier rejects 18 of 18 hostile mutations; the only PR check failure
 at the pin is unrelated Vercel authorization.
 
 ## 2026-07-30 KoalaBear coordinate coefficient normal form
