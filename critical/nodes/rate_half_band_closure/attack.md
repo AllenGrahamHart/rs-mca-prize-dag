@@ -1112,10 +1112,16 @@ The two route-deciding actions are:
 2. derive the preserving source lift and facet signature for the diagonal
    orientation `S=<tau x tau>`.
 
-The transposed coordinate orientation is equivalent only after the endpoint
-roles and source presentation are transported explicitly; do not silently
-identify it with the proved coordinate packet. The trivial-stabilizer type
-also remains open. No owner or payment moves.
+The later PROVED
+`rate_half_kb_m2_r4_coordinate_transpose_transport` performs the required
+transport explicitly. Axis transposition preserves `f(T)=f(W)` and sends
+a `<1 x tau>` component to a `<tau x 1>` component. Its source equation is
+not the old equation transposed: endpoint roles are renamed and the degree-
+two source reduction is rerun on the new second projection, producing a
+fresh primed record. The complete coordinate compiler chain then applies
+to that record. Thus the two coordinate subgroups are one deletion route;
+only coordinate and diagonal geometry need independent order-two attacks.
+The trivial-stabilizer type also remains open. No owner or payment moves.
 
 ## 2026-07-30 KoalaBear diagonal whole-fiber compiler
 

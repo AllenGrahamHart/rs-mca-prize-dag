@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/verify.py",
-      "seconds": 0.037137,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/verify.py",
+      "seconds": 0.038883,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_R4_COORDINATE_K_FIBER_VIETA_RANK_COMPILER_PASS fibers=5 positive_rows=10 negative_rows=10 ramified_positive=2\n"
+      "stdout_tail": "RATE_HALF_KB_M2_R4_COORDINATE_TRANSPOSE_TRANSPORT_PASS endpoint_checks=4 subgroup_checks=4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/verify_audit.py",
-      "seconds": 0.024113,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/verify_audit.py",
+      "seconds": 0.015338,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_R4_COORDINATE_K_FIBER_VIETA_RANK_COMPILER_AUDIT_PASS deck_checks=5 rational_rank_gates=5\n"
+      "stdout_tail": "RATE_HALF_KB_M2_R4_COORDINATE_TRANSPOSE_TRANSPORT_AUDIT_PASS divided_difference_terms=1830\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

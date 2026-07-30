@@ -10770,8 +10770,10 @@ constraints. This is a method fence:
 those ledgers are jointly consistent and cannot by themselves exclude the
 coordinate orientation. The next coordinate attack must use the actual
 interpolation/coefficient equations. In parallel, derive rather than assume
-the source lift for `<tau x tau>`. The transposed coordinate subgroup and
-the trivial-stabilizer type remain open, and no owner/payment ledger changes.
+the source lift for `<tau x tau>`. The later transpose-transport theorem
+routes `<1 x tau>` through a fresh `<tau x 1>` source record, so it is no
+longer an independent geometry campaign. The trivial-stabilizer type remains
+open, and no owner/payment ledger changes.
 
 ## 2026-07-30 KoalaBear diagonal interpolation interface
 
@@ -11041,3 +11043,30 @@ blobs `f86109bbabbe1a0448e91178492651d4081d2397`,
 `be6e9aaef8a3f215e61fc5f3719b50dc584fdb0f`, with canonical payload
 `ba77d21b4da577dcb4eafc375d36e4df18644c6c284cf0e53a3350c4011d8a85`.
 The verifier rejects 34 of 34 hostile mutations.
+
+## 2026-07-30 KoalaBear coordinate-transpose transport
+
+The PROVED `rate_half_kb_m2_r4_coordinate_transpose_transport` resolves
+the source-presentation warning around the third order-two subgroup.
+The endpoint self-correspondence `f(T)=f(W)` is invariant under
+`(T,W)->(W,T)`, which conjugates `<1 x tau>` to `<tau x 1>`. For the
+transposed component, rename the endpoint roles and rerun the degree-two
+source reduction on the new second projection. This produces fresh primed
+data `H',psi',b',I',J',L',K'`; it does not identify the old source form
+with its formal transpose. The complete coordinate source-facet, 8/7-
+dimensional parity, colored-resultant, and Vieta-rank chain applies to the
+primed packet.
+
+The order-two type now has only two independent geometric routes:
+coordinate, covering both coordinate subgroups, and diagonal. A universal
+coordinate packet exclusion will delete both coordinate subgroups. No
+orientation is yet deleted, and no compute spend or ledger payment was
+used.
+
+Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
+`f109a36bbf510075571b2f0a871cb6ca4420ce19`, note/verifier/certificate
+blobs `750e243ea10a14fd1bd98bfa0ac45d3d5d673304`,
+`5208cbdcbc3efbdd3770997134aef88472a291f3`, and
+`2678444d55eaa80ed2fdd43fe745bb3748acf80c`, with canonical payload
+`c064cf1971e08427b266de1f9768e98f11562998c09b8e8e828cf89cff48f297`.
+The verifier rejects 38 of 38 hostile mutations.
