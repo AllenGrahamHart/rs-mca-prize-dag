@@ -5917,6 +5917,14 @@ passports.
 
 ```text
 new node: rate_half_kb_m4_a6s6_genus_zero_passport_reduction [PROVED]
+upstream custody:
+  PR #1132 head: 4e33c7be8b3b29848e0ceb8fd7f50dce45fb2eed
+  note/certificate/verifier blobs:
+    4aeeebd65f321fcdfe070b6c78f4ce0ca1c501be
+    c9be4609a28f4c4b89c099e09a359f833dbf7e1b
+    beb62c55287279d095e7162fa2ac2da9ac211fec
+  certificate payload:
+    c9cfbbf394e479f93d8d8378d886331c8afbbaf338e6fc6b21f55e3e1c485fd7
 Riemann--Hurwitz: total index 28; mandatory 5^3 pole costs 12
 complete S6 class table: 11 classes reconstructed from all 720 permutations
 parity-compatible residual index-16 budgets: 9
