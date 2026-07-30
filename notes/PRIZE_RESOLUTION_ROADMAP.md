@@ -6487,6 +6487,14 @@ and genus are now completely classified and delete no allowed parameter.
 
 ```text
 new node: rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas [PROVED]
+upstream custody:
+  PR #1132 head: 4cdfa41a1de1360155e3d350a5fe3ec99e9fe94b
+  note/verifier/certificate blobs:
+    89eb066c787a5c8556151d3acc6d7a39ca00e129
+    4af7f4298064d1b62d526f83f150666f1df6f658
+    1355c5acace3f031194abf67b227d657132c12b7
+  certificate payload:
+    e402c17bf8f4757f5b534f3b1a9da5faebafe6ac60956a4849f27f66202b96de
 input: Q_(a,b), a in {-1,1}, b notin {-2,2}
 quadratic-in-X form, X=S^2:
   discriminant=P^2(alpha P^2+beta)
