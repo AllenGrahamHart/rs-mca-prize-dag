@@ -18899,6 +18899,485 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "title": "KoalaBear m2 r4 coordinate-order-two source-facet signature",
+   "status": "PROVED",
+   "closure": "exact source-facet census, endpoint-involution pair profiles, and a defect-zero abstract route fence",
+   "statement": "For an actual (m,r,delta)=(2,4,2) component stabilized by tau x 1, the 24 complete-source stars have exact census (J-J,I-I,I-J)=(10,10,4); the endpoint involution preserves I and J; and the five complete K fibers have pair degrees (4,4),(4,4),(2,2) or (4,4),(3,3),(3,3). An explicit aligned L=I abstract assignment realizes all facet containments, involution symmetry, source degrees, pole degrees, four component-color edges, and defect zero. Thus these ledgers alone do not delete the coordinate orientation; actual interpolation/coefficient equations are still required.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/result.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler",
+   "title": "KoalaBear m2 r4 diagonal fiber-resultant interpolation compiler",
+   "status": "PROVED",
+   "closure": "whole-quadratic-fiber diagonal transport, exact facet/product divisors, and a full-support 35-by-12 interpolation kernel",
+   "statement": "For an actual (m,r,delta)=(2,4,2) component stabilized by tau x tau, multiplying the two quadratic source-component fibers over each psi-fiber gives twelve split quartics R_p. They obey diagonal projective transport, the exact K/eta/one-exchange facet supports, and product_p R_p proportional to A^4. These projective quartics interpolate to a biform of bidegree at most (4,4) exactly when a printed 35 x 12 matrix has a full-support kernel. This is an exact deletion compiler, not a proof of universal kernel failure or subgroup/type exclusion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy",
+   "title": "KoalaBear m2 r4 diagonal source-subfield dichotomy",
+   "status": "PROVED",
+   "closure": "exhaustive source-line-lift versus biquadratic-cover split, reciprocal coefficient normal form, and exact low-genus V4 passports",
+   "statement": "For an actual diagonal-order-two component, the diagonal automorphism sends the quadratic source intermediate field K(X) either to itself or to a distinct quadratic intermediate field. In the first case it descends to a source-line involution; geometrically b=-X, s=1/X, psi=X^2, tau=1/Z, and the bidegree-(2,4) source equation lies in an 8- or 7-dimensional reciprocal eigenspace. In the second case the quartic W-projection is a V4 cover; tame Riemann-Hurwitz forces source genus 0 with passport eta,eta',mu or genus 1 with passport eta,eta,eta',eta'. Neither branch is deleted.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction",
+   "title": "KoalaBear m2 r4 diagonal facet-mixing obstruction",
+   "status": "PROVED",
+   "closure": "exclusion of partition-preserving diagonal transport and an exact five-row crossing-orbit census",
+   "statement": "For every actual diagonal-order-two component, the fixed-point-free endpoint involution tau must mix the invariant-coordinate six-set I with J=I^c. If c is the number of crossing labels then c is 2, 4, or 6, and the number a of tau-pairs inside the common five-set K together with the indicator b that I\\K pairs into K has exactly five possible rows: (2,0,2), (1,1,2), (1,0,4), (0,1,4), (0,0,6). Whole-fiber K quartics have explicit support restrictions in J intersect tau(J) and J intersect tau(I). The aligned c=6 row is impossible; in the near-aligned c=6 survivor the four colored roots are exactly two complete reciprocal source fibers and the partial resultants descend to an exact quotient system. In c=2, the (2,0,2) row has exact degrees 4^4 on noncrossing J and 2^2 on crossing J, a forced square K fiber, and a fourth-power four-fiber product; the (1,1,2) row has analogous saturation except for one explicit near-aligned noncrossing-eta subcase. This deletes the partition-preserving and aligned c=6 subcases, not all mixing rows or the orientation.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler",
+   "title": "KoalaBear m2 r4 diagonal branch coefficient compiler",
+   "status": "PROVED",
+   "closure": "reciprocal quadratic-norm normal form for the source-line branch and split cubic-resolvent test for the biquadratic branch",
+   "statement": "In the diagonal source-line branch, compatible coordinates give H=U+XV and G=U^2-WV^2, where U and V have bidegrees at most (2,2) and (2,1), obey one common reciprocal sign, and occupy source spaces of dimensions 8 and 7. The endpoint G is always positive reciprocal. In the non-lifting branch, the monic endpoint quartic over K(W) has a completely split cubic resolvent and square discriminant; for an irreducible separable quartic, resolvent splitting is equivalent to V4 Galois group. These are exact branch-deletion tests, not universal exclusions.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut",
+   "title": "KoalaBear m2 r4 diagonal c2 square-fiber linear cut",
+   "status": "PROVED",
+   "closure": "exact rank-four unramified and rank-two ramified coefficient cuts from the saturated c2 square fiber",
+   "statement": "In the source-line branch of every saturated c=2 diagonal row, the forced square fiber has an exact ramification dichotomy. At an unramified source orbit, both U(T,w) and V(T,w) lie in the line spanned by the printed endpoint quadratic P_J1; these four independent linear conditions cut the reciprocal source spaces from dimensions 8/7 to 4/3, and all three coefficient minors share the reciprocal source-orbit quadratic with explicit linear quotients. At the ramified orbit {0,infinity}, only the relevant value of U is constrained, giving rank two and dimensions 6/5. This is a linear reduction, not a branch or row deletion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion",
+   "title": "KoalaBear m2 r4 diagonal c2 (2,0,2) ramified-defect exclusion",
+   "status": "PROVED",
+   "closure": "exclusion of the ramified source-line square fiber in the diagonal (2,0,2) row by the complete-source defect budget",
+   "statement": "In the source-line branch of the diagonal (a,b,c)=(2,0,2) row, the forced square common-K fiber cannot be the ramified orbit of W=X^2. The two reciprocal ramified fibers contribute two distinct doubled star vertices, while the eight reduced stars over the remaining four common-K labels occupy at most six J_0 edges; their defect costs are at least two and two, contradicting the complete-source budget three. Hence every surviving source-line packet in this row has the unramified 4/3-dimensional coefficient cut. The row and biquadratic branch remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion",
+   "title": "KoalaBear m2 r4 diagonal c2 (2,0,2) defect exclusion",
+   "status": "PROVED",
+   "closure": "complete deletion of the diagonal (2,0,2) crossing-orbit row by reciprocal square vertices and the complete-source defect budget",
+   "statement": "Every actual diagonal (a,b,c)=(2,0,2) packet contradicts the complete-source defect budget. The forced square common-K quartic and its reciprocal partner give two distinct doubled star vertices, costing defect two. The four remaining common-K quartics give eight reduced stars on at most six J_0 edges, costing at least two more. Thus total defect is at least four against budget three. This deletes the row in both source-subfield branches and with or without source ramification; four diagonal mixing rows remain.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+   "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) saturated-defect classifier",
+   "status": "PROVED",
+   "closure": "exact one-unit defect ledger and finite edge-packet census for the saturated diagonal (1,1,2) cases",
+   "statement": "In every saturated diagonal (1,1,2) packet, the reciprocal square vertices have weight exactly two and consume two of the three source-defect units. The remaining common-K stars are four J_0-J_0 and four J_0-J_1 edges, with each J_1 degree two beyond the square and at most one repeated edge. The J_0 profiles are exactly (2,2,4,4), (2,3,3,4), and (3,3,3,3). There are 1560 labeled packets in 123 matching-preserving orbits; source-line star equivariance leaves 96 labeled packets in 12 orbits. These are attack lists, not realized components or a row deletion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) source-line colored quotient compiler",
+   "status": "PROVED",
+   "closure": "exact two-fiber colored-divisor descent and partial-resultant quotient system for saturated source-line (1,1,2) packets",
+   "statement": "In every saturated source-line diagonal (1,1,2) packet, the four mixed common-K stars transport to all four universal I-J stars. They form exactly two complete unramified source fibers over Omega=tau(K_Lc), so C_H is proportional to chi_Omega(psi). Here Omega=J_1 in the aligned case and Omega={xi,ell} in the near-aligned case with tau(eta) in K. The partial resultants descend to Q_J proportional to K_5^2 chi_Omega and chi_Omega Q_I proportional to R_7^2. This is a quotient compiler, not a packet or row deletion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate",
+   "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) source-line odd-part incidence gate",
+   "status": "PROVED",
+   "closure": "internal-orbit unramified common-root gate and explicit odd-part incidence map for unramified forced-square packets",
+   "statement": "In every saturated source-line diagonal (1,1,2) packet, the unique internal common-K orbit is unramified and the two pure stars over either fiber share exactly one J_0 endpoint a, forcing U(a,z)=V(a,z)=0. If the forced square orbit w is also unramified, deck distinction and the square cut uniquely pin the projective odd part V. The internal label must then equal one explicit rational value z=-N_epsilon(a)/D_epsilon(a), with nonzero denominator, for one sign and one J_0 orbit. This is an exact deletion gate, not a packet or row deletion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
+   "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) ramified complete-source repair",
+   "status": "PROVED",
+   "closure": "complete-source multiplicity repair of the ramified square-fiber coefficient cut from 6/5 to 4/3",
+   "statement": "For a saturated source-line diagonal (1,1,2) packet whose forced square orbit is source-ramified, complete-source row divisibility caps each of the two square-root rows at order two while local saturation requires total order four. Both orders are exactly two, forcing V(T,0) to be a nonzero multiple of q=P_(J_1). The ramified coefficient cut therefore has rank four and dimensions 4/3, and the common odd-part incidence map applies. This repairs the ramified coefficient escape but does not delete a packet or row.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) source-line internal-star reconstruction",
+   "status": "PROVED",
+   "closure": "injective two-fiber reconstruction reducing every classified source-line packet to at most eight source-deck candidate pairs",
+   "statement": "For every saturated source-line diagonal (1,1,2) packet, evaluation at the internal common-K label is injective on the forced-square reciprocal U space. It is a 3-by-3 isomorphism in the positive sign and a two-plane embedding in the negative sign. The pinned odd part and a compatible internal pure-edge pair determine the target U value, so each sign yields at most one source form modulo deck conjugation. Each classified pure multiset has at most four internal assignments, hence at most eight source-deck candidate pairs and no continuous coefficient family.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) source-line q-slice resultant gate",
+   "status": "PROVED",
+   "closure": "necessary degree-eight q-slice resultant identity for every reconstructed saturated source-line candidate",
+   "statement": "For every saturated source-line diagonal (1,1,2) packet, put q=P_(J_1), let w be the forced-square quotient label, and let k_1,k_2 be the two remaining common-K labels carrying the four mixed stars. Every actual reconstructed candidate satisfies Res_T(q,U^2-WV^2) proportional to (W-w)^4((W-k_1)(W-k_2))^2. The target quadratic is tau^*q in the aligned branch and tau^*chi_Omega in the near-aligned branch. Failure rejects one finite candidate, but passing is not sufficient for either full colored quotient identity.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
+   "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) negative reconstruction factor gate",
+   "status": "PROVED",
+   "closure": "two normalized negative reconstruction templates with exact B and BC exceptional factor loci",
+   "statement": "For every saturated source-line diagonal (1,1,2) packet, the twelve compatible negative internal-edge assignments form eight fixed-moving and four moving-moving templates. After normalizing the common endpoint to 2, their augmented reconstruction determinants factor exactly as a proved nonzero prefactor times A^2 B and A B C, respectively. The incidence identity z+1=(1+w)A/E and fixed-point-free label conditions force A nonzero. Thus negative candidates exist only on B=0, or additionally C=0 in the moving-moving template; those exceptional loci remain for the q-slice and full quotient gates.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion",
+   "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) aligned negative q-slice exclusion",
+   "status": "PROVED",
+   "closure": "the aligned saturated source-line negative sign is empty by two q-slice coefficient mismatches",
+   "statement": "For every saturated source-line diagonal (1,1,2) packet in the aligned branch Omega=J_1, the negative reconstruction factor gate and b-inversion reduce every retained negative template to B=0. After exact reconstruction, the constant coefficient of the monic q-slice mismatch is (cd-1)(cd+1)/(c^2 d^2), so passage forces cd=-1. On that specialization the difference of the W and W^3 mismatch coefficients is 4(c^2-1)/c=-A, contradicting the proved A!=0. Hence no aligned negative candidate passes the necessary q-slice gate; positive and near-aligned candidates remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive fixed-xi direct-square exclusion",
+   "status": "PROVED",
+   "closure": "the deployed-field positive near-aligned fixed-moving xi=a direct-square allocation chart is empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize the positive near-aligned fixed-moving chart by a=xi=2, eta=c, ell=d and w=1/c, and allocate the residual over c to (W-1/2)^2 and the residual over d to (W-1/d)^2. The four generic endpoint-line pairs have resultant gcd support only at d in {2,1,-1,1/2}. Each of the two left-line leading-coefficient-zero loci is supported on the same collisions plus one point on 5cd-4c-4d+5=0, equivalently z=1. Exact reduction modulo p=2130706433 preserves these supports, so this one necessary q-slice chart is empty; every other allocation, xi orbit, template, sign, and the w=0 boundary remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/verify_left1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/verify_audit_left1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/verify_audit_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/verify_audit_left1_right1.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
+   "title": "KoalaBear m2 universal source-row interpolation compiler",
+   "status": "PROVED",
+   "closure": "full-support 45-by-12 source-row interpolation kernel and complete-source square resultant",
+   "statement": "For every residual inner-degree-two stabilizer type, form from its twelve projective nonzero binary quartic row divisors the 45 x 12 matrix obtained by stacking a 9 x 12 parity check for degree-at-most-two evaluation across the five quartic coefficients. The rows come from a unique biform H of bidegree at most (2,4) exactly when this matrix has a full-support kernel. Every actual complete-source packet also satisfies product_i q_i proportional to B^2 and Res_T(A,H) proportional to B^2, or A(X^2)^2 in lifted diagonal coordinates. This is a stabilizer-independent exact deletion compiler, not a universal exclusion; the m2_r4 ID is retained for compatibility.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
+   "title": "KoalaBear m2 r4 coordinate coefficient normal form",
+   "status": "PROVED",
+   "closure": "two exhaustive 8/7-dimensional parity source forms, nonzero deck-odd part, and even endpoint quadratic norm",
+   "statement": "For an actual component stabilized by tau x 1, geometric coordinates tau(T)=-T and b(X)=-X make the bidegree-(2,4) source equation an eigenform under (T,X)->(-T,-X). The positive form is A_2(W)T^2+A_0(W)+XTB_1(W), of dimension 8; the negative form is TA_1(W)+X(B_2(W)T^2+B_0(W)), of dimension 7. Deck distinction requires nonzero odd-X part, and the endpoint norm G=U^2-WV^2 is even in T. This is an exact coordinate-branch coefficient test, not a universal exclusion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_coefficient_normal_form/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_coefficient_normal_form/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_coefficient_normal_form/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_coefficient_normal_form/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_coefficient_normal_form/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_coefficient_normal_form/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_coefficient_normal_form/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_coefficient_normal_form/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_coefficient_normal_form/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_coefficient_normal_form/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_u2_universal_source_facet_census",
+   "title": "KoalaBear m2 u2 universal source-facet census",
+   "status": "PROVED",
+   "closure": "stabilizer-independent (10,10,4) star census and five exhaustive K-fiber degree profiles",
+   "statement": "Every actual degree-two source component in the order-two or trivial-stabilizer inner-degree-two rows has exact star census (J-J,I-I,I-J)=(10,10,4). The ten J-J stars over the five common K fibers have total degree 20 on the six J labels and, up to permutation, exactly one of five profiles: (0,4,4,4,4,4), (1,3,4,4,4,4), (2,2,4,4,4,4), (2,3,3,4,4,4), or (3,3,3,3,4,4). No stabilizer symmetry is used; the coordinate orientation narrows this list separately. No packet or type is deleted.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/statement.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/proof.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/audit.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/result.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/frontier.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/verify.py",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_u2_universal_component_color_profile_cut",
+   "title": "KoalaBear m2 u2 universal component-color profile cut",
+   "status": "PROVED",
+   "closure": "four-edge component color class cuts five universal K-fiber profiles to three",
+   "statement": "For every residual degree-two source component, the four J incidences outside the common K fibers are exactly the left colored degrees of its four-edge color class in the two-regular pole graph. Hence every outside-K deficit is at most two and the universal K-fiber degree profile is exactly one of (2,2,4,4,4,4), (2,3,3,4,4,4), or (3,3,3,3,4,4). The first two prior five-profile cases are impossible and every J label occurs over K. No surviving profile or stabilizer type is deleted.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/statement.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/proof.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/audit.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/result.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/frontier.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/verify.py",
+    "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_u2_colored_source_resultant_split_compiler",
+   "title": "KoalaBear m2 u2 colored source-resultant split compiler",
+   "status": "PROVED",
+   "closure": "one squarefree colored quartic and two exact I/J partial-resultant identities",
+   "statement": "Every residual degree-two source component has a squarefree quartic colored pole divisor C_H in the L^c pullback. If D_K is the pullback over the common five-set, D_R=B/D_K, and P_I,P_J are the two source-label sextics, then Res_T(P_J,H) is proportional to D_K^2 C_H and C_H Res_T(P_I,H) is proportional to D_R^2. The outside-K deficits are deg gcd(C_H,bZ_j). This is an exact stabilizer-independent compiler, not a component or type deletion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler",
+   "title": "KoalaBear m2 r4 coordinate colored-quotient resultant compiler",
+   "status": "PROVED",
+   "closure": "deck descent of the colored quartic and explicit cubic-norm resultants in the coordinate parity spaces",
+   "statement": "In the coordinate order-two orientation, the four colored roots form the pullback c(W) of a squarefree quotient quadratic, hence are the complete edge pairs at two right pole-graph vertices. Writing P_S(T)=p_S(T^2), the positive partial resultants are Res_Y(p_S,(A_2Y+A_0)^2-WYB_1^2), and the negative partial resultants are Res_Y(p_S,W(B_2Y+B_0)^2-YA_1^2). They equal K_5^2 c and R_7^2/c in the exact cleared sense. This is an explicit 8/7-dimensional univariate compiler, not an orientation deletion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler",
+   "title": "KoalaBear m2 r4 coordinate K-fiber Vieta-rank compiler",
+   "status": "PROVED",
+   "closure": "quotient-invariant five-edge coordinates and exact 10-row Vieta kernel gates in both coordinate parity spaces",
+   "statement": "For a common-K quotient point [u:v] with source lift [r:s], the selected J-edge has deck-independent homogeneous coordinates p=ab and q=rs(a+b). The positive 8-parameter source form satisfies A_0=p A_2 and uv B_1=-q A_2; the negative 7-parameter form satisfies B_0=p B_2 and A_1=-q B_2. Across five fibers these are exact 10 x 8 and 10 x 7 kernel gates with leading support. The negative branch excludes ramified K values. Each branch has a five-by-five determinant obstruction, and the negative products have an additional rank-three gate. This is not an orientation deletion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_transpose_transport",
+   "title": "KoalaBear m2 r4 coordinate-transpose transport",
+   "status": "PROVED",
+   "closure": "endpoint-axis transport of the transposed coordinate subgroup to a fresh source record in the proved coordinate chain",
+   "statement": "The endpoint self-correspondence f(T)=f(W) is invariant under transposition. Thus every actual order-two component with stabilizer <1 x tau> transposes to an actual component with stabilizer <tau x 1>. After exchanging endpoint roles, one must rerun the degree-two source reduction on the new second projection; the resulting primed source record satisfies the complete coordinate source-facet, parity, colored-resultant, and Vieta-rank chain. Hence the two coordinate subgroups are one existence/deletion route, while their source presentations are not identified and the diagonal route remains separate.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_full_v4_source_genus_drop",
    "title": "KoalaBear m2 r2 full-V4 source genus drop",
    "status": "PROVED",
@@ -19124,6 +19603,63 @@
     "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/frontier.md",
     "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/verify.py",
     "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_q6_s6_common_five_outgoing_fiber_pin",
+   "title": "KoalaBear Q6 s6 common-five outgoing-fiber pin",
+   "status": "PROVED",
+   "closure": "pinned source-facet vertical-divisor formulas and exact six-label horizontal fibers",
+   "statement": "In every actual graph-free Q=6,s=6 equality-wall source packet, there is a six-label invariant-coordinate set I and a five-label set K contained in I such that, above either point of every source fiber indexed by k in K, the horizontal roots of the whole outgoing factor are exactly the six labels outside I. Every outgoing irreducible component has its horizontal roots there contained in I^c. This is a source-fiber identity, not a component deletion or owner payment.",
+   "refs": [
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/statement.md",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/proof.md",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/claim_contract.md",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/source_evidence.md",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/dependency_subdag.md",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/audit.md",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/result.md",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/frontier.md",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/verify.py",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion",
+   "title": "KoalaBear m2 r2 degree-three source-facet exclusion",
+   "status": "PROVED",
+   "closure": "common-five source-facet identity plus the exact cubic source-star independence number",
+   "statement": "In the residual full-V4 n=3 profile, the source-star graph is two disjoint K_(2,2,2) graphs, and the two stars above the complete coordinate fiber indexed by a label k have endpoint union N_G(k). The common-five source-facet theorem supplies K subset I with |K|=5 and forces N_G(k) subset I^c for every k in K, so K is independent. But the graph has independence number 2+2=4. Hence the actual n=3 component is impossible.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r2_dihedral_full_v4_exclusion",
+   "title": "KoalaBear m2 r2 full-V4 exclusion",
+   "status": "PROVED",
+   "closure": "exhaustive dihedral factor-degree split and four proved degree exclusions",
+   "statement": "Every actual full-V4 (m,r,delta)=(2,2,4) component has Dickson/Chebyshev outer factor degree n in {2,3,5,6}. The degree-two source-star, degree-three source-facet, degree-five source-star, and degree-six common-pole theorems exclude all four values. Therefore this full-V4 component type is empty. The order-two and trivial stabilizer types (r,delta)=(4,2),(8,1) remain open; no owner, row, or Prize result is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/verify_audit.py"
    ]
   },
   {
@@ -37304,6 +37840,181 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_q6_s6_common_five_outgoing_fiber_pin",
+   "to": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_q6_s6_common_five_outgoing_fiber_pin",
+   "to": "rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_u2_colored_source_resultant_split_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy",
+   "to": "rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_q6_u2_complete_source_conic_exclusion",
+   "to": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_q6_s6_common_five_outgoing_fiber_pin",
+   "to": "rate_half_kb_m2_u2_universal_source_facet_census",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
+   "to": "rate_half_kb_m2_u2_universal_source_facet_census",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_u2_universal_source_facet_census",
+   "to": "rate_half_kb_m2_u2_universal_component_color_profile_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_u2_universal_component_color_profile_cut",
+   "to": "rate_half_kb_m2_u2_colored_source_resultant_split_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
+   "to": "rate_half_kb_m2_u2_colored_source_resultant_split_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_u2_colored_source_resultant_split_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
+   "to": "rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
+   "to": "rate_half_kb_m2_r4_coordinate_transpose_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_transpose_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_transpose_transport",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_u2_colored_source_resultant_split_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_u2_universal_component_color_profile_cut",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_u2_universal_source_facet_census",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_q6_u2_complete_source_conic_exclusion",
    "to": "rate_half_kb_m2_r2_full_v4_source_genus_drop",
    "kind": "req"
@@ -37460,6 +38171,51 @@
   },
   {
    "from": "rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_q6_s6_common_five_outgoing_fiber_pin",
+   "to": "rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity",
+   "to": "rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_outer_factor_reduction",
+   "to": "rate_half_kb_m2_r2_dihedral_full_v4_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion",
+   "to": "rate_half_kb_m2_r2_dihedral_full_v4_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion",
+   "to": "rate_half_kb_m2_r2_dihedral_full_v4_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
+   "to": "rate_half_kb_m2_r2_dihedral_full_v4_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion",
+   "to": "rate_half_kb_m2_r2_dihedral_full_v4_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_full_v4_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
@@ -42411,6 +43167,186 @@
   {
    "from": "e1_profile44_local_norm_route_fence",
    "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_u2_colored_source_resultant_split_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion",
+   "to": "rate_half_band_closure",
    "kind": "ev"
   }
  ]

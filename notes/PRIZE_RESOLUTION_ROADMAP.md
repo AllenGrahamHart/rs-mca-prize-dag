@@ -10673,8 +10673,14 @@ instead imports the actual endpoint source presentation. It proves that
 `H | M` is equivalent to a full-support kernel of one explicit `38 x 12`
 matrix. A deterministic `F_47` fixture with the exact `s=6` locator
 ownership and four-edge component color fails the gate by a rank-twelve
-minor of determinant `7`. This is a deleting fixture and an exact universal
-compiler, not a deployed-row deletion.
+minor of determinant `7`. The two interpolation identities also induce an
+exact multiplicative transport on every source-star edge; every cycle must
+have holonomy one. The fixture's six canonical square holonomies are
+`11,26,17,2,41,31 mod 47`, all nonidentity, giving a local deletion witness.
+Retaining all three pair gains in each of the 24 star/owner triples gives an
+exact converse: a full-support kernel exists if and only if the resulting
+12-vertex gain multigraph is flat. This is a deleting fixture and an exact
+universal compiler, not a deployed-row deletion.
 
 Burn-down:
 
@@ -10686,6 +10692,916 @@ vague active-pencil gate:            replaced by exact full-support kernel
 pinned admissible packets deleted:   one
 new assumptions:                     none
 live compute requests:               none
-next route-deciding action:          classify s=6 ownership orbits and
-                                     exclude every full-support kernel over K
+next route-deciding action:          prove universal gain-graph nonflatness,
+                                     falling back to full stacked rank over K
+```
+
+## 2026-07-29 KoalaBear full-V4 source-facet close
+
+The gain-flatness action above is superseded for the full-V4 type by a
+stronger source-facet contradiction.
+
+The pinned equality-wall theorem at upstream commit
+`44542e91e459364a521870ed2ebde7f6fe5055bf`, theorem blob
+`356ff4b47d0bb429d11ea10382762a6e95b5ce24`, proves that the graph-free
+`Q=6,s=6` packet has a six-set `I` and a five-set `K subset I` such that
+the horizontal root set of the whole outgoing factor above every point over
+`k in K` is exactly `I^c`. This narrow consequence is banked as the PROVED
+`rate_half_kb_q6_s6_common_five_outgoing_fiber_pin`.
+
+For the residual `n=3` full-V4 component, the exact source-star graph is
+`K_(2,2,2) disjoint_union K_(2,2,2)`. The two stars over the complete
+coordinate fiber of `k` jointly have a four-endpoint set `U_k`, the
+complement of one deck pair `P_k`. Component divisibility forces
+`U_k subset I^c`. Since `k in K subset I` and lies in the same common-pole
+six-set, `k in P_k`, so `U_k=N_G(k)`. This retains the relative endpoint
+twist rather than setting it to one. Hence `N_G(k) subset I^c` for all
+five `k in K`, making `K` independent. This contradicts
+`alpha(G)=4` and proves
+`rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion`.
+
+Together with the prior `n=2,5,6` exclusions, the exhaustive outer-degree
+split now proves
+`rate_half_kb_m2_r2_dihedral_full_v4_exclusion`: the actual
+`(m,r,delta)=(2,2,4)` type is empty.
+
+Burn-down:
+
+```text
+result:                              FULL-V4 TYPE CLOSED
+critical status delta:               none
+m=2 stabilizer types:                3 -> 2
+deleted type:                        (r,delta)=(2,4)
+remaining types:                     (r,delta)=(4,2),(8,1)
+owner/payment delta:                 none
+new assumptions:                     none
+field computation:                   none
+retained audit compiler:             endpoint cofactor/gain flatness
+next route-deciding action:          classify the order-two stabilizer type
+```
+
+Upstream custody: draft PR `przchojecki/rs-mca#1132`, commit
+`2b0acfe0cc382fd5b399960b435887c6b20e3f82`, canonical certificate payload
+`f48a46f22bc15098f5fc566e6f009d76afa4751c4fd4b4b8edaf481e619c5a01`.
+The only reported check failure at the pin is unrelated Vercel deployment
+authorization.
+
+## 2026-07-29 KoalaBear coordinate-order-two route boundary
+
+The PROVED
+`rate_half_kb_m2_r4_order2_coordinate_source_facet_signature` handles the
+coordinate subgroup `<tau x 1>` of the surviving order-two type. It forces
+the exact component-star census
+
+```text
+(J-J,I-I,I-J)=(10,10,4),
+```
+
+forces the endpoint involution to preserve `I` and `J=I^c`, and leaves only
+the two `K`-fiber pair-degree profiles
+
+```text
+(4,4),(4,4),(2,2),       (4,4),(3,3),(3,3).
+```
+
+In the allowed aligned subcase `L=I`, an exact defect-zero abstract fixture
+realizes all current facet, symmetry, degree, pole-graph, and component-color
+constraints. This is a method fence:
+those ledgers are jointly consistent and cannot by themselves exclude the
+coordinate orientation. The next coordinate attack must use the actual
+interpolation/coefficient equations. In parallel, derive rather than assume
+the source lift for `<tau x tau>`. The later transpose-transport theorem
+routes `<1 x tau>` through a fresh `<tau x 1>` source record, so it is no
+longer an independent geometry campaign. The trivial-stabilizer type remains
+open, and no owner/payment ledger changes.
+
+## 2026-07-30 KoalaBear diagonal interpolation interface
+
+The diagonal subgroup `<tau x tau>` has a separate exact compiler. The
+PROVED
+`rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler` forms
+one split quartic `R_p` from the two component stars over each quadratic
+`psi` fiber. Diagonal stabilization transports these quartics
+projectively, their product is `A^4`, and their factors retain all three
+source-facet classes. They come from a bidegree-at-most-`(4,4)` endpoint
+biform if and only if a concrete `35 x 12` matrix has a full-support
+kernel.
+
+This replaces the unsafe idea of transporting individual stars: the
+diagonal automorphism need not descend to the source `X`-line. The next
+diagonal result should prove universal kernel failure or reconstruct the
+unique interpolated biform and impose the outer factor identity. No
+subgroup, owner, or payment is closed by the compiler itself.
+
+Upstream custody: draft PR `przchojecki/rs-mca#1132`, commit
+`77b0971ebb443efd8487ee3809cd988ba183d00c`, canonical certificate payload
+`96c47c813c41f4b268b9826ed4866e14d44c5a8187487266a3de6f550cbbf6b6`.
+The packet combines the coordinate and diagonal interfaces and rejects
+17 of 17 hostile mutations.
+
+The complete facet/defect-only diagonal classifier is registered as
+`CR-K3-M2-R4-DIAGONAL-FACET-SAT`. It requires a canonical completeness
+router and proof-producing UNSAT certificates across both `I/L` cases,
+all four pole-cycle types, ramification, and every endpoint involution.
+The partial aligned `4+2` pilot is evidence only and causes no DAG move.
+Do not spend additional laptop or Modal budget on unlabeled search shards.
+
+## 2026-07-30 KoalaBear diagonal source-subfield dichotomy
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy` replaces the
+remaining diagonal source-descent ambiguity by two exhaustive branches.
+If the diagonal automorphism preserves `K(X)`, it gives a genuine
+source-line involution and, geometrically,
+
+```text
+b(X)=-X, s(X)=1/X, psi(X)=X^2, tau(Z)=1/Z,
+T^2 X^4 H(1/T,1/X)=+/-H(T,X).
+```
+
+The reciprocal source coefficient spaces have dimensions eight and seven;
+the common-five facets may now be imposed with individual-star transport.
+If `K(X)` is not preserved, its conjugate is a second rational quadratic
+subfield and the quartic `W` projection is biquadratic. Exact tame
+Riemann--Hurwitz leaves only source genus zero with three inertia types, or
+source genus one with two branch values of each of two inertia types.
+
+This is a route split, not a deletion. Next attack the reciprocal
+coefficient forms in the lifting branch and the two low-genus `V4`
+passports in the non-lifting branch. The whole-fiber interpolation compiler
+remains mandatory in both. No compute spend was used.
+
+## 2026-07-30 KoalaBear diagonal branch coefficient compiler
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler` converts the
+source-subfield split into executable algebra. In the lifting branch,
+
+```text
+H=U+XV,       G=U^2-WV^2,
+deg U<=(2,2), deg V<=(2,1),
+```
+
+with a common reciprocal sign on `U,V`. The two source parameter spaces
+have dimensions eight and seven, and `G` is always positive reciprocal.
+In the non-lifting branch, the endpoint quartic over `K(W)` must have a
+completely split cubic resolvent; for the actual irreducible separable
+quartic this is equivalent to its `V4` deck group.
+
+Next substitute the three exact source-facet classes into the reciprocal
+norm, and combine the split resolvent with the two low-genus passports.
+Clear denominators and preserve irreducibility and outer-factor side
+conditions. No computation or ledger payment was used.
+
+## 2026-07-30 KoalaBear source-row interpolation gate
+
+The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` is the
+shared first algebraic gate for all surviving order-two orientations.
+Twelve projective row quartics come from a unique
+bidegree-at-most-`(2,4)` source form exactly when a concrete `45 x 12`
+matrix has a full-support kernel. Complete-source saturation additionally
+gives
+
+```text
+product_i q_i ~ B^2,       Res_T(A,H) ~ B^2,
+```
+
+or `A(X^2)^2` in the lifted diagonal normal form. This is strictly earlier
+and smaller than reconstructing a generic endpoint biform. Route every
+coordinate or diagonal source-facet survivor through it first, then impose
+exact degree, irreducibility, deck distinction, reciprocal norm or split
+resolvent, and the outer factor identity. No compute spend was used.
+
+Upstream custody for the three source-subfield/coefficient interfaces is
+draft PR `przchojecki/rs-mca#1132`, commit
+`c88438d7109cf7acd7caebaf006f21c776b74d74`, note/verifier/certificate blobs
+`f58c2ea9cea88dfc6be637e9f1f14e86e8862cc6`,
+`7cc4eb6e0560ca5c587f91623dc407892a07e2ca`, and
+`033043e7a0969ea9f98207567b890b10e3077271`, with canonical payload
+`f0b751301e56989bf6fbf19cf15e5ff8faa0d7d86e76278306950a488cdf5156`.
+The verifier rejects 18 of 18 hostile mutations; the only PR check failure
+at the pin is unrelated Vercel authorization.
+
+## 2026-07-30 KoalaBear coordinate coefficient normal form
+
+The PROVED `rate_half_kb_m2_r4_coordinate_coefficient_normal_form` uses the
+coordinate preserving lift to normalize `tau(T)=-T`, `b(X)=-X`. The two
+source eigenspaces are explicitly
+
+```text
+A_2(W)T^2+A_0(W)+XT B_1(W)                         (dimension 8),
+T A_1(W)+X(B_2(W)T^2+B_0(W))                       (dimension 7).
+```
+
+Deck distinction forces the odd-`X` part to be nonzero, and the endpoint
+norm is even in `T`. Route the two exact coordinate `K`-fiber degree
+profiles through the `45 x 12` source gate and then these two forms. Exact
+degree, irreducibility, common-five facets, and outer-factor divisibility
+remain. No compute spend or ledger payment was used.
+
+## 2026-07-30 KoalaBear universal m2 source-facet census
+
+The PROVED `rate_half_kb_m2_u2_universal_source_facet_census` observes that
+the `(10,10,4)` category count precedes every stabilizer argument. It holds
+for coordinate, diagonal, and trivial-stabilizer degree-two components.
+The ten `K`-fiber `J-J` stars initially have one of five exhaustive integer
+degree profiles:
+
+```text
+(0,4,4,4,4,4), (1,3,4,4,4,4), (2,2,4,4,4,4),
+(2,3,3,4,4,4), (3,3,3,3,4,4).
+```
+
+This gives the first exact source-facet interface for the residual
+`(r,delta)=(8,1)` trivial-stabilizer type. The later component-color cut
+removes the first two profiles before the shared `45 x 12` source gate is
+applied, without importing the coordinate involution pairing. No
+computation or ledger payment was used.
+
+Upstream custody for the base mixing obstruction is draft PR
+`przchojecki/rs-mca#1132`, commit
+`de237ba4d6ffd03bddc3d3daa7e94d0dee06eedf`, note/verifier/certificate blobs
+`a1a84452ddcd2f407eefb89bea0ef6a710e9f5d2`,
+`91a61152be9bb639f720554f080c01d424c5ecc8`, and
+`2c8625cd0f2e51809a2696d4a69eb54fb3ec91e4`, with canonical payload
+`49131c6962e551c529d0681427ef9fee0eb10ea2bb42ffa5f46db3c63710ca8c`.
+The verifier pins the complete-source and source-facet parents and rejects
+28 of 28 hostile mutations.
+
+## 2026-07-30 KoalaBear universal source-row scope repair
+
+The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` has a
+legacy order-two identifier, but its proof is stabilizer-independent. The
+upstream source reduction supplies an irreducible bidegree-`(2,4)` source
+form, twelve nonzero quartic rows, and complete-source saturation for every
+residual `Q=6,s=6,u=2` component before conic invariance is introduced.
+Therefore the `45 x 12` full-support kernel and invariant square-resultant
+tests apply to the full-V4, order-two, and trivial-stabilizer types. This
+repairs the scope needed by the five-profile trivial-branch program; it
+does not assert that any profile fails the kernel gate.
+
+## 2026-07-30 KoalaBear universal component-color profile cut
+
+The PROVED
+`rate_half_kb_m2_u2_universal_component_color_profile_cut` combines the
+five-profile census with Corollary 9.28's exact component edge coloring.
+A source-degree-two component colors exactly four edges of the two-regular
+pole graph. Its outside-`K` deficit `c_j=4-d_j` is precisely the colored
+degree of the left vertex `j`, so `c_j<=2`. The two deficit partitions
+`4` and `3+1` are impossible, leaving exactly
+
+```text
+(2,2,4,4,4,4), (2,3,3,4,4,4), (3,3,3,3,4,4).
+```
+
+Thus every `J` label occurs at least twice over `K`, including in the
+trivial-stabilizer branch. The coordinate involution already removes the
+middle row; diagonal and trivial packets retain all three until further
+facet or coefficient constraints are imposed. No compute spend or ledger
+payment was used.
+
+## 2026-07-30 KoalaBear colored partial-resultant split
+
+The PROVED
+`rate_half_kb_m2_u2_colored_source_resultant_split_compiler` packages the
+four colored pole roots as one squarefree quartic `C_H`. With `D_K` the
+degree-ten pullback over the common five-set, `D_R=B/D_K`, and `P_I,P_J`
+the two source-label sextics, every residual degree-two component satisfies
+
+```text
+Res_T(P_J,H) ~ D_K^2 C_H,
+C_H Res_T(P_I,H) ~ D_R^2.
+```
+
+Moreover `c_j=deg gcd(C_H,bZ_j)`, so the three surviving profiles are read
+directly from the same quartic. This compresses twelve row-product choices
+to one four-edge divisor and two exact resultant equations. Classify these
+quartics jointly with the `45 x 12` source gate and the coordinate/diagonal
+coefficient forms. No compute spend or ledger payment was used.
+
+## 2026-07-30 KoalaBear coordinate quotient-resultant compiler
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler`
+specializes the colored split to the coordinate parity spaces. Star
+transport makes `C_H` deck invariant, so `C_H(X)=c(X^2)` for a squarefree
+quadratic `c`; its four edges are the two complete incident-edge pairs at
+two right pole-graph vertices. Since `I,J` are invariant under
+`tau(T)=-T`, write `P_S(T)=p_S(T^2)`. The two parity systems use
+
+```text
+Phi_+=(A_2Y+A_0)^2-WYB_1^2,
+Phi_-=W(B_2Y+B_0)^2-YA_1^2,
+R_S=Res_Y(p_S,Phi_epsilon),
+R_J~K_5^2c,       cR_I~R_7^2.
+```
+
+This is now a pair of univariate resultant equations in the existing eight-
+or seven-dimensional source spaces plus a two-fiber choice. Solve these
+systems before any generic coordinate endpoint search. No orientation is
+deleted and no compute spend or ledger payment was used.
+
+## 2026-07-30 KoalaBear coordinate K-fiber Vieta-rank compiler
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler` inserts the
+five actual common-`K` stars into the coordinate coefficient system. If a
+a source lift `[r:s]` above `kappa=[u:v]` carries the `J`-edge `{a,b}`,
+then
+
+```text
+p_kappa=ab,       q_kappa=r*s*(a+b)
+```
+
+is independent of the deck-point choice. Vieta gives an exact `10 x 8`
+positive kernel gate
+
+```text
+A_0(kappa)=p_kappa A_2(kappa),
+u*v B_1(kappa)=-q_kappa A_2(kappa),
+```
+
+and an exact `10 x 7` negative gate
+
+```text
+B_0(kappa)=p_kappa B_2(kappa),
+A_1(kappa)=-q_kappa B_2(kappa).
+```
+
+Leading values must be nonzero at all five fibers; in particular the
+negative branch excludes ramified common-`K` values. Each parity branch has
+a five-by-five determinant obstruction, and the negative edge products
+must also lie on one degree-`(1,1)` rational function, equivalently a
+five-by-four matrix has rank at most three. Apply these cheap exact tests
+before solving the colored quotient-resultant system. They delete any
+failing supplied star packet but do not yet prove universal failure. No
+compute spend or ledger payment was used.
+
+Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
+`780520c4399815451f30a28ec22bdff075629242`, note/verifier/certificate
+blobs `f86109bbabbe1a0448e91178492651d4081d2397`,
+`0a2405f848b6d032de3f77e81882ee7f04a38e0a`, and
+`be6e9aaef8a3f215e61fc5f3719b50dc584fdb0f`, with canonical payload
+`ba77d21b4da577dcb4eafc375d36e4df18644c6c284cf0e53a3350c4011d8a85`.
+The verifier rejects 34 of 34 hostile mutations.
+
+## 2026-07-30 KoalaBear coordinate-transpose transport
+
+The PROVED `rate_half_kb_m2_r4_coordinate_transpose_transport` resolves
+the source-presentation warning around the third order-two subgroup.
+The endpoint self-correspondence `f(T)=f(W)` is invariant under
+`(T,W)->(W,T)`, which conjugates `<1 x tau>` to `<tau x 1>`. For the
+transposed component, rename the endpoint roles and rerun the degree-two
+source reduction on the new second projection. This produces fresh primed
+data `H',psi',b',I',J',L',K'`; it does not identify the old source form
+with its formal transpose. The complete coordinate source-facet, 8/7-
+dimensional parity, colored-resultant, and Vieta-rank chain applies to the
+primed packet.
+
+The order-two type now has only two independent geometric routes:
+coordinate, covering both coordinate subgroups, and diagonal. A universal
+coordinate packet exclusion will delete both coordinate subgroups. No
+orientation is yet deleted, and no compute spend or ledger payment was
+used.
+
+Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
+`f109a36bbf510075571b2f0a871cb6ca4420ce19`, note/verifier/certificate
+blobs `750e243ea10a14fd1bd98bfa0ac45d3d5d673304`,
+`5208cbdcbc3efbdd3770997134aef88472a291f3`, and
+`2678444d55eaa80ed2fdd43fe745bb3748acf80c`, with canonical payload
+`c064cf1971e08427b266de1f9768e98f11562998c09b8e8e828cf89cff48f297`.
+The verifier rejects 38 of 38 hostile mutations.
+
+## 2026-07-30 KoalaBear diagonal facet-mixing obstruction
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction` deletes the
+partition-preserving subcase of the diagonal order-two orientation. It is a
+whole-fiber theorem, so it applies before the source-line/biquadratic split.
+The fixed-point-free endpoint involution has exactly `c=2,4,6` crossings
+between `I` and `J`, and its action on the common five-set has five exact
+orbit rows:
+
+```text
+(a,b,c)=(2,0,2),(1,1,2),(1,0,4),(0,1,4),(0,0,6).
+```
+
+Here `a` counts involution pairs internal to `K`, while `b` records whether
+the unique label of `I minus K` is paired into `K`. The common-`K` quartics
+also split their roots between crossing and noncrossing `J` labels according
+to whether the source label transports to `K`, `eta`, or `L^c`.
+
+This changes the next diagonal action. A coordinate-style reciprocal
+`I,J` locator descent is unavailable, and should not be attempted. Split the
+8/7-dimensional norm equations and the biquadratic resolvent route by the
+five rows, beginning with `c=2`, where four labels on each side remain
+noncrossing and the transported support restrictions are strongest. A row
+is closed only by inconsistency with the actual interpolation, exact degree,
+irreducibility, deck distinction, and outer-factor interfaces.
+
+The maximally mixed row sharpens further. The aligned case `L=I` is
+impossible. In the near-aligned survivor, `eta` pairs into `K` and
+`xi=I minus K` pairs with one label `ell in J intersect L^c`; the four
+colored roots are exactly the two complete source fibers over `xi,ell`.
+Their quotient locator `chi` is positive reciprocal, and both partial
+resultants descend to
+
+```text
+Q_J ~ K_5^2 chi,       chi Q_I ~ R_7^2.
+```
+
+This is valid in both diagonal source-subfield branches. The `c=6` attack is
+therefore one quotient system, not a search over arbitrary four-edge
+divisors. The `c=2` rows remain the preferred next target because their
+crossing support is smaller.
+
+The `c=2` capacity ledger is now exact enough to expose coefficient
+equations. With `J_0=J intersect tau(J)` and
+`J_1=J intersect tau(I)`, the `(2,0,2)` row forces degrees four on `J_0`
+and two on `J_1`. Its unique common-`K` quartic transported outside `K`
+is the square `P_(J_1)^2`, while the product of the other four quartics is
+`P_(J_0)^4`. In the `(1,1,2)` row, both the aligned case and the
+near-aligned case with `tau(eta) in K` force
+`R_(tau(eta)) ~ P_(J_1)^2` and saturate the two `J_1` labels. The unique
+exception has `L!=I` and `eta,tau(eta) in J_0`, with total `J_1` incidence
+between six and eight. The next low-compute step is therefore algebraic:
+substitute the forced square fiber into `G=U^2-WV^2`, impose the resulting
+coefficient minors, and combine them with the four-fiber fourth-power
+identity. A reciprocal square fiber alone is not a contradiction.
+
+That coefficient substitution is now exact in the source-line branch. The
+PROVED `rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut` separates
+the forced source orbit according to deck ramification. Off the branch
+values of `W=X^2`, both star equations force `U(T,w)` and `V(T,w)` into
+the fixed line spanned by `P_(J_1)`. The four independent linear equations
+reduce the `epsilon=+1/-1` spaces from `8/7` to `4/3`, and their three
+coefficient minors have the exact common reciprocal quadratic and linear
+quotients printed in `(KBC2-5)`. At the ramified orbit `{0,infinity}`, only
+one value of `U` is visible; the rank is two and dimensions `6/5` remain.
+This ramified escape is genuine at the present interface and must not be
+folded into the unramified minor calculation. Priority is now (i) seek an
+exact exclusion of a common-`K` branch-value label, then (ii) apply the
+four-fiber identity and `45 x 12` interpolation gate to the `4/3`-parameter
+unramified forms.
+
+The first ramified escape is now gone. In the `(2,0,2)` source-line row,
+the two reciprocal ramified fibers would contribute two distinct doubled
+star vertices, costing two units of complete-source defect. The four
+remaining common-`K` labels are then unramified and contribute eight reduced
+stars on the six possible edges of `J_0`; balancing eight units over six
+vertices costs at least two more. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion` therefore
+gets defect at least four against the budget three. Every surviving
+source-line `(2,0,2)` packet lies in the `4/3`-dimensional unramified
+coefficient locus. The biquadratic source-cover branch and the ramified
+possibility in `(1,1,2)` are not affected.
+
+The same defect ledger closes more than the ramified subcase. In every
+source-subfield branch, the square `P_(J_1)^2` consists of two identical
+reduced stars, and its whole-fiber reciprocal partner is a second square on
+the two crossing `I` labels. These are distinct doubled vertices and cost
+defect two. Together with the exact two-unit floor from the eight `J_0`
+stars, every `(2,0,2)` packet has defect at least four. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion` therefore deletes the
+entire orbit row, not merely its ramified source-line branch. The diagonal
+mixing frontier drops from five rows to four:
+
+```text
+(1,1,2), (1,0,4), (0,1,4), (0,0,6).
+```
+
+Next attack the saturated `(1,1,2)` square-fiber cases with the one remaining
+defect unit, while retaining the exceptional unsaturated orbit.
+
+That saturated frontier is now finite and exact. The two reciprocal square
+vertices have weight exactly two, so only one global collision remains
+available. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier` forces four
+pure `J_0-J_0` and four mixed `J_0-J_1` common-`K` edges, each `J_1` label
+used twice, with at most one repetition. The `J_0` profile is one of
+`(2,2,4,4),(2,3,3,4),(3,3,3,3)`. There are `1,560` labeled multiset packets
+in `123` orbits under matching-preserving relabeling. In the source-line
+branch, individual-star transport leaves only `96` labeled packets in `12`
+orbits and forces all four mixed edges distinct. These counts are
+combinatorial admissibility, not component realization. Route the twelve
+source-line orbits through the coefficient/interpolation gate, the 123
+branch-independent packets through the split resolvent, and keep the
+exceptional `(KBDM-10)` orbit outside both queues.
+
+The twelve source-line orbits now share one exact quotient compiler. For
+`K_Lc={k in K: tau(k) in L^c}` and `Omega=tau(K_Lc)`, the four distinct
+mixed common-`K` stars transport to all four universal `I-J` stars. Hence
+`|Omega|=2`, both quotient fibers are unramified, and the PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler`
+gives
+
+```text
+C_H ~ chi_Omega(psi),
+Q_J ~ K_5^2 chi_Omega,       chi_Omega Q_I ~ R_7^2.
+```
+
+The quotient is explicit: `Omega=J_1` when `L=I`, while
+`Omega={xi,ell}` in the near-aligned case with `tau(eta) in K`; no
+`tau`-invariance of the latter pair is asserted. This replaces an arbitrary
+squarefree-quartic search by two printed quadratic cases. Next combine the
+aligned and near-aligned quotient systems separately with the exact `4/3`
+or `6/5` reciprocal coefficient cuts. The biquadratic branch and exceptional
+unsaturated orbit remain outside this reduction.
+
+The internal common-`K` orbit now gives a scalar pre-interpolation test.
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate`
+shows that this orbit cannot be source-ramified: its two ramified fibers
+would spend at least two pure-edge collision units against the one-unit
+residue. At either unramified fiber the two pure stars are distinct and
+share exactly one `J_0` endpoint `a`, so `U(a,z)=V(a,z)=0`.
+
+If the forced square orbit `w` is unramified, `V!=0` by source-deck
+distinction and `V(T,w)~P_(J_1)(T)` pins the full reciprocal odd part.
+For `q=q_0+q_1T+q_2T^2` and sign `epsilon`, define
+
+```text
+F=q_0-epsilon*w*q_2,       G=epsilon*q_2-w*q_0,
+M=q_1(1-epsilon*w),
+N_epsilon(a)=F+Ma+epsilon*G*a^2,
+D_epsilon(a)=G+epsilon*Ma+epsilon*F*a^2.
+```
+
+The denominator is nonzero and every survivor obeys
+`z=-N_epsilon(a)/D_epsilon(a)`. Thus each aligned or near-aligned
+unramified record has four cheap exact tests, from two signs and two `J_0`
+orbits, before interpolation. A passing record retains only two/one affine
+`U` parameters after normalizing `V` and imposing `U(a,z)=0`. The
+forced-ramified source branch remains open.
+
+The apparent forced-ramified coefficient branch is now repaired by the
+complete-source row ledger. At a ramified forced fiber, only the two rows
+indexed by `Root(q)=J_1` vanish. Each row divides `B/z_i` and therefore has
+order at most two at the double source pole, while local saturation requires
+their total order to be four. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair`
+forces the allocation `(2,2)`, which is equivalent to
+
+```text
+U(T,0) in <q>,       V(T,0) in <q> minus {0}.
+```
+
+Thus the ramified source spaces also have dimensions `4/3`, and `(KBOI-3)`
+applies with `w=0`. Geometric source ramification remains possible, but it
+does not create a separate coefficient attack. Every saturated source-line
+`(1,1,2)` record now passes through the same four sign/orbit incidence tests
+before the aligned or near-aligned quotient identity.
+
+The remaining `U` coefficients are now reconstructed by one internal star
+pair. On the forced-square space `S_epsilon(w,q)`, evaluation at the
+internal label `z` has zero kernel: otherwise reciprocity would factor
+`U=chi_z(W)R(T)` and force `q=P_(J_1)` to be a reciprocal endpoint
+eigenform, contrary to `tau(J_1) subset I`. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction`
+makes this a `3 x 3` isomorphism for the positive sign and an injective
+two-plane for the negative sign.
+
+Given internal edges `e,f`, their pinned odd-part difference fixes the
+relative star scalars and therefore fixes `U(T,z)`. The positive source form
+is unique; the negative form is rejected by one linear image-plane equation
+or is unique, modulo source-deck conjugation. The five pure multisets have
+exactly `2,2,4,2,2` compatible internal assignments. Every source-line
+packet is therefore a finite list of at most eight source-deck pairs, with
+no coefficient parameter left.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate`
+extracts a cheaper necessary condition from the first colored quotient.
+For `q=P_(J_1)`, `G=U^2-WV^2`, forced label `w`, and the two mixed common-`K`
+labels `k_1,k_2`, every reconstructed actual form satisfies
+
+```text
+Res_T(q,G) ~ (W-w)^4 ((W-k_1)(W-k_2))^2.           (KBQS-1)
+```
+
+The target quadratic is `tau^*q` in the aligned branch and
+`tau^*chi_Omega` in the near-aligned branch. This is only a necessary
+`J_1`-slice prefilter, but it replaces a degree-six partial resultant by one
+quadratic-versus-quartic resultant. A light exact `F_1009` aligned fixture
+tests `24` internal-pair/sign choices, reconstructs `12` positive forms, and
+finds zero `(KBQS-1)` survivors. The route-deciding calculation is now to
+factor the symbolic `(KBQS-1)` mismatches before evaluating `(KBQ2-2)` and
+the remaining source rows on any exceptional forms.
+
+The negative sign has an additional exact reduction. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate`
+uses the endpoint normalization
+
+```text
+J_0={2,1/2,b,1/b},       q=(T-c)(T-d)
+```
+
+and classifies the twelve internal assignments as `8` fixed-moving plus `4`
+moving-moving templates. Their negative image-plane determinants factor as
+a proved nonzero prefactor times `A^2 B` and `A B C`, respectively. The exact
+incidence identity `z+1=(1+w)A/E`, together with `E!=0`, `w!=-1`, and
+`z!=-1`, excludes the apparent `A=0` locus. Negative candidates therefore
+exist only on `B=0`, or additionally `C=0` in the moving-moving template.
+The next aligned calculation should substitute those two genuine loci
+before `(KBQS-1)`; positive candidates go directly to `(KBQS-1)`.
+
+That aligned negative calculation is now closed. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion`
+uses `b->1/b` to represent the moving `C=0` locus by `B=0`. For both
+normalized templates, the monic q-slice mismatch has
+
+```text
+m_0=(cd-1)(cd+1)/(c^2 d^2).
+```
+
+The proved `cd!=1` forces `cd=-1`; on that specialization
+`m_1-m_3=4(c^2-1)/c=-A!=0`. Hence the aligned negative sign is empty. The
+live source-line calculations are now the aligned positive sign and both
+near-aligned signs, with the latter using the actual `tau^*chi_Omega`
+target.
+
+A seeded exact aligned-positive sweep now tests all twelve internal
+assignments on `100` fixtures across `F_1009,F_1013,F_1019,F_1021,F_1031`.
+It reconstructs `1,188/1,200` assignments, skips `12` only for label
+collisions, and finds zero `(KBQS-1)` survivors. This strengthens the
+deletion conjecture but is not a generic proof. A local positive constant-
+coefficient symbolic solve exceeded the `tiny` RAM ceiling before finishing;
+do not repeat that SymPy expression route. An external implementation should
+use rational-function domains or modular interpolation and emit the constant
+mismatch before any full resultant.
+
+The reduced exact slice route is successful. At `(c,d)=(3,7)` and `(4,6)`,
+the fixed-moving full q-slice ideal is zero-dimensional and its lex
+eliminant is exactly supported on `w=+/-1`. For moving-moving, use the
+invariant `s=b+1/b`; both slice eliminants add two rational `w` roots, but
+their reconstructed traces are exactly `s=+2,-2`, so `b=+/-1`. Every slice
+survivor is therefore inadmissible. The direct moving `(b,w)` Groebner step
+timed out at `60 s`, while invariant reduction finishes in under sixteen
+seconds. These are exact slices, not a generic certificate.
+
+The generic reconstruction has now been compressed without the failed
+four-variable cancellation tree. Put
+
+```text
+p=cd,                    t=-(c+d),
+q(T)=T^2+tT+p,
+alpha=q(2)=p+2t+4,       beta=4q(1/2)=4p+2t+1.
+```
+
+Then the internal quotient label is the single fraction
+
+```text
+z=(w*beta-alpha)/(beta-w*alpha).
+```
+
+Fraction-free Cramer reconstruction reduces the fixed-moving source form to
+five polynomials with `42--54` terms and the moving-moving form to five with
+`82--101` terms. After division by `(W-w)^2`, each endpoint residual is a
+quadratic. Unique factorization leaves exactly three target allocations:
+the two residuals receive the same inverse root twice, the opposite inverse
+root twice, or one copy of each root. Thus the aligned-positive saturation is
+exactly twelve small cases: two internal-edge templates, three allocations,
+and unramified versus repaired `w=0` residual formulas. Moving cases close
+under `b->1/b`; any trace reduction must also transport the normalization
+variable and is not yet banked. An independent exact
+`5 x 5` matrix solve at `(c,d,b,w)=(3,7,5,11)` checks each template's
+fraction-free coefficient vector projectively.
+
+The first implementation of this reduction exposed an important audit catch.
+Its primitive polynomial vector satisfied `U_hat=lambda*U`, but the norm
+calculation paired `U_hat` with the unscaled odd part `V`. Therefore the minor
+gcds, FLINT endpoint factors, and hashes printed from that implementation are
+**retracted**; no DAG node or status depended on them. In particular, the
+previously printed endpoint bidegrees `(4,4)`, `(15,13)`, and `(34,28)` are not
+evidence about the actual q-slice ideal.
+
+The corrected `kb_c2_112_positive_qslice_symmetric.py` retains the exact
+relative scale as a variable `lambda_scale`. If `lambda=L/D`, each ideal has
+four residual-allocation equations plus `D*lambda_scale-L=0`, in variables
+`(b,w,lambda_scale,p,t)`. The helper independently checks both reconstructed
+templates against an exact `5 x 5` solve and then checks all three residual
+coefficients at both roots by direct division of `U^2-WV^2`. All three
+allocations in each of the four template/ramification cells generate under
+the `60 s` tiny-RAMguard cap. These twelve raw ideals are a strict algebraic
+narrowing, **not a deletion theorem**; comprehensive saturated specialization
+remains external work. Do not resurrect the unscaled minor or FLINT route.
+
+The near-aligned target has a separate useful specialization. Write
+`J_1={eta,ell}` and orient `eta=c,ell=d`. Then
+
+```text
+w=tau(eta)=1/c,
+chi_mix=(W-tau(xi))(W-1/d).
+```
+
+Thus the positive near-aligned q-slice has one fewer free parameter than the
+aligned system. A light `F_1009` superset probe over twenty fixtures, both
+orientations of `{eta,ell}`, all four possible `xi in J_0`, all twelve
+internal pairs, and both signs made `3,840` attempts. It reconstructed `1,896`
+positive candidates and found no q-slice survivor; the generic negative
+attempts correctly missed their codimension-one reconstruction loci. This is
+evidence only.
+
+After the common endpoint is normalized to `a=2`, the matching centralizer
+has only three relative `xi` orbits: `xi=a`, `xi=tau(a)=1/2`, or `xi` in the
+other reciprocal pair, where `b->1/b` identifies its two labels. Together
+with two internal templates and three residual allocations, the unramified
+positive queue has `3*2*3=18` affine charts, not four independent `xi`
+choices. The repaired `w=0` branch is a separate projective boundary
+(`eta=infinity` in this orientation); it is not represented by substituting
+`w=1/c` in a monic finite-root `q` and must be homogenized separately.
+
+One characteristic-zero chart has an exact endpoint reduction. Normalize the
+common internal endpoint and `xi` to `2`, use the fixed-moving template, and
+allocate the residual over `c` to `(W-1/2)^2` and that over `d` to
+`(W-1/d)^2`. Each constant-to-leading equation splits into two lines in `b`,
+and their four pairwise resultants have one residual bidegree `(3,3)` curve
+after removing `c=1`, `cd=1`, and `5cd-4c-4d+5=0`.
+
+The first attempted middle-coefficient elimination was invalid. It used
+`Poly(..., b, c, d).coeff_monomial(b)` as the full coefficient of `b`, but
+that API returns only the coefficient of the exact monomial
+`b*c^0*d^0`. Consequently it substituted the spurious constants `b=3` or
+`b=-1` instead of the rational function obtained from the selected endpoint
+line. The following formerly printed lex eliminants are **retracted**:
+
+```text
+(0,0): (d-2)^8 (d-1)^4 (d+1)^5 (2d-1)^9
+(0,1): (d-2)^5 (d-1)^6 (d+1)^4 (2d-1)^8
+         (d^2-9d+2)^2
+(1,0): (d-2)^9 (d-1)^4 (d+1)^4 (d+2)^2 (2d-1)^9
+(1,1): (d-2)^8 (d-1)^6 (d+1)^4 (2d-1)^8
+         (d^2+3d-2)^2.
+```
+
+The formerly printed survivor bases are likewise **retracted**:
+
+```text
+<2c+d-9, d^2-9d+2>,
+<2c+1, d+2>,
+<2c-d-3, d^2+3d-2>.
+```
+
+None of these outputs, their old replay timings, or the old helper hash is
+evidence for chart deletion. The endpoint-resultant factors `c=1`, `cd=1`,
+and `5cd-4c-4d+5=0` remain valid; the last gives `z=1` from the positive
+incidence formula. The helper now extracts the full coefficient by
+differentiating in `b` and emits INCOMPLETE. Both left endpoint lines have a
+nonunit leading-coefficient-zero branch. Their exact grevlex bases have shape
+`[(5,13),(5,13),(4,13),(4,13),(4,13)]` (degree, terms) and SHA-256 digests
+`e3d8d866c94df2c4dbc8481b17d469d55986497ff8600e6e2cdd61f5c8ee3da3`
+and `612b21285163848790e6bc472de53e82e3598ce15d6fa2cf3014bcb73e87deda`.
+The corrected endpoint helper SHA-256 is
+`830d49882c8183a94442f62862ec9d4a0f5d483466ecb2f1abe4072b04f98860`.
+The repaired direct-normalization route now classifies the generic middle
+ideal and both exceptional branches. The PROVED node
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion`
+covers all four endpoint-line pairs over the deployed KoalaBear field. Their
+two resultant gcds have squarefree support only at
+`d in {2,1,-1,1/2}`. The two full leading-coefficient-zero loci have the
+same collision support plus `(c,d)=(1/5,7/5)` or
+`(-5/7,55/53)`; both extras force `5cd-4c-4d+5=0`, hence `z=1`.
+
+The primary helper uses a direct matrix inverse and resultants; its two
+left-line shards finish in about `35 s`. The independently written audit
+uses a fraction-free DomainMatrix solve, Bezout denominators over
+`QQ(d)[c]`, and exceptional elimination in the opposite variable; its two
+left-line batches are split into four pair shards to remain below `60 s`
+under host load. Both clear coefficient denominators and
+recheck squarefree support modulo `p=2130706433`, proving exclusion over
+`F_(p^6)`, and both carry a mutation fence for the retracted coefficient API
+error. Their SHA-256 hashes are
+`7d3892fddcb4ab95f1fd6f6fa58127cf77c72c024e3272fab9511152df27db93`
+and `96036a63c54b94beab3ce6d33b0237c6c78b7e9208ea37a770c00171159dcde5`.
+This closes exactly one of the 18 affine positive charts.
+
+For the swapped square allocation in the same normalized template, the two
+endpoint lines reduce the four sign pairs to curves of bidegree `(3,2)`,
+`(2,2)`, `(3,2)`, and `(2,2)` after the same collision factors are removed.
+The first middle-coefficient elimination exceeded the `60 s` local cap.
+These four small curves, the mixed allocation, the other `xi` orbit, the
+moving-moving template, and both negative factor loci remain open; do not
+infer a near-aligned deletion from the one closed chart.
+
+There is a cheaper common gate before those allocation splits. Write
+
+```text
+U(r,W)=L_r W^2 + ... + C_r,
+kappa_1=tau(xi)=1/xi,       kappa_2=tau(ell)=1/d.
+```
+
+The residual at `r` has leading coefficient `L_r^2` and constant coefficient
+`C_r^2/w^2`. Comparing the constant-to-leading ratio of the product q-slice
+with `((W-kappa_1)(W-kappa_2))^2` gives, in characteristic zero,
+
+```text
+C_c C_d = +/- w^2 kappa_1 kappa_2 L_c L_d,
+c^2 xi d C_c C_d = +/- L_c L_d.                  (KBNEAR-CL)
+```
+
+Actual target degree makes all divided factors nonzero. This condition uses
+only `U`, so it eliminates both `V` and `lambda_scale`; it is quadratic in
+`b` for fixed-moving and quartic for moving-moving. Factor `(KBNEAR-CL)` and
+intersect its components with the two remaining q-slice coefficients before
+performing any four-variable elimination.
+
+### Compute request CR-KB-C2-112-POS-QS-SAT
+
+Prove the twelve-case parametric saturation above without expanding the full
+quotient resultants. Normalize the common endpoint to `2` and work with the
+banked fraction-free reconstruction over `Q[p,t,b,w,lambda_scale]`.
+
+1. For each of the three UFD allocations in the fixed-moving template,
+   saturate by `L*D`, the printed reconstruction denominators, and exact
+   label-collision factors. Do the unramified and `w=0` residual formulas
+   separately; retain `D*lambda_scale-L=0` until normalization is audited.
+2. Repeat for moving-moving after closing under `b->1/b`; carry the induced
+   `lambda_scale` transformation before rewriting in `s=b+1/b`. Do not infer
+   completeness from a generic field gcd: discharge every endpoint curve and
+   isolated specialization in `(p,t)`.
+3. Return a compact Bezout, comprehensive-Gröbner, subresultant, or modular-
+   interpolation certificate
+   with degree bounds and an independent exact checker. Do not use a generic
+   four-variable SymPy `cancel` tree; that local representation exceeded the
+   RAMguard ceiling. The checker must reconstruct the twelve fraction-free
+   ideals from `(p,t,b,w,lambda_scale)`, replay the direct residual audit, and
+   reject deletion if any noncollision endpoint specialization remains.
+
+Either certificate deletes the aligned positive sign by fixed-point-free
+labels and, together with the aligned negative theorem, removes the whole
+aligned source-line branch. A surviving admissible component instead proceeds
+to the two full quotient identities.
+
+### Compute request CR-KB-C2-112-QR-ELIM
+
+This is the deferred exact-CAS version of that calculation; no run is
+currently funded or launched. For the aligned positive sign and each
+near-aligned sign,
+one of the five labeled pure multisets, and generic/ramified specialization
+of `w`, do the following:
+
+1. Substitute `(KBOI-2)--(KBOI-3)` and the unique internal-star
+   reconstruction `(KBSR-2)--(KBSR-4)` into `H=U+XV`.
+2. First compute and factor the coefficient residuals of `(KBQS-1)`. Only
+   its exceptional locus proceeds to the coefficient residuals, with
+   independent projective scalars, of
+
+   ```text
+   Res_T(P_J,H) ~ K_5^2 chi_Omega,
+   chi_Omega Res_T(P_I,H) ~ R_7^2.
+   ```
+
+3. Clear only the printed nonzero denominators and saturate by label
+   distinctness, `J_0 intersect J_1=empty`, nonzero star scalars, and exact
+   source degree. Do not saturate by a conjectural genericity factor.
+4. Return either a unit ideal/factor certificate deleting the shard, or the
+   exact exceptional factor locus with a replayable witness assignment.
+
+There are at most `3 x 5 x 2=30` independent shards. Each shard should
+write partial factors before a `60 s` timeout; larger Gröbner or resultant
+runs can be contributed independently. The local `F_1009` datum above is
+evidence only, not a deletion or a substitute for saturation.
+
+Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
+`c2edcfa5cbfb8a41e7dea04ae1b34325c90ed5dc`, note/verifier/certificate
+blobs `cc315015998cf9ab0ecf2970c13f1e27f1f132d6`,
+`e810f286d5b67d19660c3c382501a690e3e76fb0`, and
+`844b7885620bf10fe19336f3acd7866cf1d9a204`, with canonical payload
+`8f768cfded349dc3dd40cf6214ffe980c69ff18ae2d8c209e63b4307767429d2`.
+Its verifier classifies all `10,395` fixed-point-free matchings, including
+the `120/600` maximally mixed split and all three near-aligned `c=2`
+matching classes, checks the exact ramified/unramified source-line ranks,
+minor signs, the ramified and full `(2,0,2)` defect exclusions, and the
+saturated `(1,1,2)` classifier, checks `2700/900` aligned/near quotient
+rows, checks the `12` admissible internal edge pairs and exact odd-part
+incidence map, verifies the ramified `(2,2)` order allocation and repaired
+`4/3` dimensions, checks the `2,2,2,2,4` finite reconstruction and maximum
+eight source-deck pairs, checks all three q-slice incidence patterns and the
+`8+4` negative determinant templates, excludes the spurious `A=0` locus,
+deletes the aligned negative sign on eight exact full-matrix fixtures, and
+rejects `129` of `129` hostile mutations. The latest extension report is
+`przchojecki/rs-mca#1132` comment `5132707876`.
+
+### Work-cycle burn-down: diagonal c2 square fibers
+
+```text
+starting local pin:       670c3dc5 (pre-c2 capacity refinement)
+ending local theorem pin: 43541fc31451ca5f27bf51b2ba80ddb161feccde
+canonical prize pin:      11cea27b (unchanged)
+ending upstream pin:      c2edcfa5cbfb8a41e7dea04ae1b34325c90ed5dc
+node attacked:            rate_half_band_closure via diagonal c=2
+result:                   NARROWED + EXPORTED
+DAG delta:                +11 PROVED nodes, +33 edges; target status unchanged
+upstream delta:           c2 capacity, linear cut, 202 deletion, 112 classifier,
+                          source-line quotient descent, odd-part incidence,
+                          ramified coefficient repair, internal-star
+                          reconstruction, q-slice resultant, and negative
+                          factor/aligned-exclusion loci in PR #1132
+delta-star movement:      none
+new assumptions:          none; (1,1,2) ramified and biquadratic survivors retained
+live compute requests:    CR-KB-C2-112-POS-QS-SAT (external; 12 ideals) and
+                          CR-KB-C2-112-QR-ELIM (external/deferred; 30 shards)
+next route-deciding step: complete the twelve-case aligned-positive
+                          specialization certificate, or attack both
+                          near-aligned signs with their actual target
 ```

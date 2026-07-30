@@ -122,6 +122,80 @@ it should link this ledger as future work rather than solicit the computation.
 Cost estimates are conservative ceilings and must include failed shards and
 retries; raw artifact storage is separate.
 
+### Pre-request CR-KB-C2-112-POS-QS-SAT: aligned positive q-slice saturation
+
+- **Decision:** delete or exhibit an admissible survivor in the aligned
+  positive saturated source-line `(1,1,2)` branch of `rate_half_band_closure`.
+- **Complete algebraic input:** twelve fraction-free five-equation ideals:
+  fixed-moving or moving-moving internal edges, three UFD allocations of the
+  two residual quadratics, and unramified or repaired `w=0`. The endpoint
+  roots occur only through `p=cd,t=-(c+d)`. Four equations impose the chosen
+  allocation and `D*lambda_scale-L=0` restores the exact relative U/V scale.
+- **Banked generator:**
+  `critical/nodes/rate_half_band_closure/notes/kb_c2_112_positive_qslice_symmetric.py`.
+- **Required output:** a comprehensive Gröbner/Bezout/subresultant certificate
+  after saturation by `L*D`, exactly the printed denominators, and collision
+  factors, plus a dependency-free exact checker. Generic-field gcds, pairwise
+  resultants, and numerical slices are incomplete.
+- **Known pilot:** the generator replays all three allocations in each of the
+  four template/ramification cells under the `60 s` tiny-RAMguard cap. Its
+  independent exact audit checks the relative reconstruction scale and all
+  endpoint residual coefficients. The earlier unscaled minor/FLINT pilot and
+  its hashes are retracted and must not be reused.
+- **PASS:** mint a PROVED aligned-positive q-slice exclusion node; together
+  with the existing aligned-negative theorem, delete the complete aligned
+  source-line branch.
+- **SURVIVOR:** replay it independently, then route it to both full quotient
+  identities; do not repair the deletion claim by genericity.
+- **INCOMPLETE:** evidence only; no DAG status change.
+- **Authorization:** external pre-request. No reliable wall-time/cost ceiling
+  or compact certificate emitter exists yet, so do not launch it on the
+  remaining local Modal balance.
+
+### Pre-request CR-KB-C2-112-NEAR-QS-ELIM: near-aligned q-slice elimination
+
+- **Decision:** delete or exhibit an admissible reconstructed source form in
+  the near-aligned saturated source-line `(1,1,2)` branch.
+- **Exact specialization:** orient `J_1={eta,ell}` as `(c,d)`. The forced
+  square is `w=1/c`, while the residual target roots are `tau(xi)` and `1/d`.
+  Retain the exact `lambda_scale` normalization from the corrected positive
+  generator. There are three relative `xi` orbits after fixing the common
+  endpoint, two internal templates, and three residual allocations, hence 18
+  affine positive charts. Treat repaired `w=0` in a separate homogeneous
+  chart. Negative forms must first lie on the proved fixed-moving `B=0` or
+  moving-moving `B*C=0` reconstruction loci.
+- **Banked first chart:**
+  PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion`
+  treats fixed-moving, common endpoint `xi=2`, and the square allocation
+  `(c -> 1/2, d -> 1/d)` over the deployed KoalaBear field. Four correct
+  generic line-pair eliminations and both full leading-zero branches are
+  covered by independent resultant and Bezout replays, including exact
+  reduction modulo `p=2130706433`. The former middle eliminants remain
+  retracted because they extracted only the exact monomial coefficient of
+  `b`; both current checkers carry a regression fence for that error.
+- **Immediate unresolved input:** the swapped square allocation in that same
+  chart has four endpoint curves of bidegrees `(3,2),(2,2),(3,2),(2,2)`.
+  First impose the normalization-free constant/leading gate `(KBNEAR-CL)`;
+  then impose both remaining coefficients and saturate by the printed
+  incidence, line-leading, label-collision, and normalization factors. Then
+  process the mixed allocation, the other `xi` orbit, moving-moving, and the
+  negative `B/C` loci.
+- **Required output:** for every chart, either a unit/collision-only exact
+  elimination certificate or an explicit algebraic survivor with `b,z`, and
+  `lambda_scale` reconstructed and all label inequalities checked. Every
+  survivor advances to both full identities `(KBQ2-2)`; q-slice passage alone
+  is not realization.
+- **PASS:** mint a scoped PROVED near-positive or near-negative exclusion node
+  after all charts and isolated leading branches in that scope are covered.
+  One of the 18 affine positive charts now satisfies this contract.
+- **INCOMPLETE:** curve factors, pairwise resultants, or generic-field gcds
+  alone are narrowing evidence.
+- **Authorization:** external pre-request for the remaining chart queue.
+  Modal is currently blocked by the workspace spend limit. Local work is
+  restricted to one `60 s` tiny-RAMguard shard at a time and must stop if host
+  memory pressure returns; do not launch unpriced remote work.
+
 ## Upstream handoff convention
 
 When one of these requests is included in a PR to Przemek's repository, copy
@@ -10334,3 +10408,91 @@ Semantics:
 - `FAIL`: an exact principal generator for `p_66`;
 - `INCOMPLETE`: timeout, GRH-only output, unresolved principality, or one
   implementation only; evidence with no DAG status change.
+
+## CR-K3-M2-R4-DIAGONAL-FACET-SAT: order-two whole-fiber defect classifier
+
+**Status:** REQUEST DESIGN; not authorized for local or Modal execution
+until the completeness router and proof-producing backend below exist.
+This is a contributor request for the `K3` exact second-moment/source-facet
+frontier, not a paid local fleet.
+
+### Mathematical decision
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler` gives
+the correct necessary symmetry for the diagonal stabilizer
+`<tau x tau>`. For each quotient source label `p`, the two quadratic
+component stars form a quartic divisor `R_p` and
+
+```text
+[R_bar(p)]=[tau^*R_p].
+```
+
+The automorphism need not preserve the source `X`-line. Therefore the
+four root incidences over one complete `psi` fiber are transported as a
+multiset and may be repartitioned into the two destination stars.
+Individual-star transport is forbidden in this request.
+
+Decide whether there exists any abstract packet satisfying all of:
+
+1. the two source-label cases from Corollary 9.25,
+   `L=I` or `|L intersect I|=5`, with
+   `K subset I intersect L` and `|K|=5`;
+2. one of the four complete two-regular pole-graph cycle types
+   `6`, `4+2`, `3+3`, `2+2+2`, including every labeled
+   diagonal-free graph and every canonical facet bijection
+   `I -> L^c` up to a proved relabeling action;
+3. one two-subset component star in each of the 24 divisor slots, with
+   repeated slots allowed exactly as required by ramified degree-two
+   fibers;
+4. the `K`, `eta in L minus K`, and paired one-exchange facet
+   containments of Corollary 9.27;
+5. source degree four at every one of the twelve labels;
+6. exactly four component-colored pole edges;
+7. complete-source defect at most three; and
+8. one fixed-point-free endpoint involution `bar` such that the
+   four-incidence multiset over `bar(p)` is the `bar`-image of the
+   multiset over `p`.
+
+### Proof-producing output
+
+A positive result must emit one canonical JSON survivor containing
+`I,L,K`, the facet bijection, pole graph, endpoint involution, all 24
+stars with divisor-slot multiplicities, color assignment, degree vector,
+defect, and the twelve whole-fiber transport checks. The independent
+checker must reconstruct every item from the raw records.
+
+A negative result must emit an independently checkable UNSAT certificate
+for every canonical stratum. Preferred formats are DRAT/LRAT with a pinned
+SAT encoder and a second checker, or a smaller exact case certificate whose
+completeness proof is readable without trusting the enumerator. A no-hit
+search, optimizer lower bound without a proof object, or one labeled graph
+does not promote a node.
+
+If every stratum is UNSAT, the diagonal order-two orientation is deleted
+before the `35 x 12` interpolation gate. If a survivor exists, it becomes
+the sole input to that exact matrix gate and prevents further
+facet/defect-only work.
+
+### Pilot and resource law
+
+A RAMguard pilot on 2026-07-30 fixed the aligned `L=I` case and one
+`4+2` pole graph. An exact suffix-pruned check found no defect-at-most-three
+survivor among the first 3,000 of 10,395 endpoint involutions before the
+30-second hard stop. One isolated feasible involution was proved by complete
+local enumeration to have minimum defect six. These are route-selection
+observations only: the remaining involutions, other labeled graphs,
+misaligned case, and other cycle types were not checked.
+
+Do not resume this as repeated laptop shards. Before external launch:
+
+1. prove the canonical-orbit router covers all labeled `I,L,K`, facet,
+   graph, ramification, and involution data;
+2. make the encoder resumable per canonical stratum;
+3. cap each worker at one CPU and 512 MiB;
+4. measure one complete stratum and publish the projected aggregate cost;
+5. require compact proof artifacts and deterministic independent replay.
+
+The expected computation is finite and small-memory, but no dollar estimate
+is accepted until the canonical router and one proof-producing pilot are
+measured. Large raw enumeration without certificates is out of scope.
