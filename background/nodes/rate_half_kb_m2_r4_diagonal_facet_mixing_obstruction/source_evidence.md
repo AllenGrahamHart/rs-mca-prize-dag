@@ -17,13 +17,13 @@ The complete mixing, maximally mixed quotient, and minimally mixed capacity
 theorem is vendored as an extension of the exact KoalaBear order-two
 source-interface packet in draft
 PR `przchojecki/rs-mca#1132` at commit
-`7f084f2dd27fea2b0a231cc690fc70bdd25e0609`:
+`2b7fa7d31fac73f3b7bd2aa9dd5f55c5e3844c22`:
 
 ```text
-note blob:        41bfa82cae8f3804e4287bd51da6d55c3872683a
-verifier blob:    10cab32a0eba904164e26322374235c17d16e1ca
-certificate blob: 7fb875dba06cd2a40854bf9e4415ff4c0acf3b64
-payload SHA-256:  f1b0339b6b70a9f1055ba0910a53713712348b36d1b9e94ab7fd22d14f8a502b
+note blob:        a1e14d6652687af8eb42b23f3c13feb1c510002e
+verifier blob:    56e1d5fbc0fb30c8024c3689128c90fd1e190c65
+certificate blob: fd9b4372e4a467b17d54f662169e9d75970206d0
+payload SHA-256:  50d33764080e90fce4c75f74836f51897fbc5d1f2f20cbca2e65b659ef582468
 ```
 
 The upstream verifier classifies all `10,395` fixed-point-free label
@@ -35,4 +35,5 @@ checks the exact degree/square-fiber/capacity pins, the downstream
 ramification-aware source-line cut, and the `(2,0,2)` ramified-defect
 exclusion and its branch-independent full-row strengthening, and the
 saturated `(1,1,2)` classifier and its source-line colored quotient
-compiler. It rejects `90` of `90` hostile mutations.
+and odd-part incidence compilers. It rejects `98` of `98` hostile
+mutations.

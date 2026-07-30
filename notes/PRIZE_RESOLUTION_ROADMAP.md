@@ -11235,26 +11235,27 @@ orbits, before interpolation. A passing record retains only two/one affine
 forced-ramified source branch remains open.
 
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
-`7f084f2dd27fea2b0a231cc690fc70bdd25e0609`, note/verifier/certificate
-blobs `41bfa82cae8f3804e4287bd51da6d55c3872683a`,
-`10cab32a0eba904164e26322374235c17d16e1ca`, and
-`7fb875dba06cd2a40854bf9e4415ff4c0acf3b64`, with canonical payload
-`f1b0339b6b70a9f1055ba0910a53713712348b36d1b9e94ab7fd22d14f8a502b`.
+`2b7fa7d31fac73f3b7bd2aa9dd5f55c5e3844c22`, note/verifier/certificate
+blobs `a1e14d6652687af8eb42b23f3c13feb1c510002e`,
+`56e1d5fbc0fb30c8024c3689128c90fd1e190c65`, and
+`fd9b4372e4a467b17d54f662169e9d75970206d0`, with canonical payload
+`50d33764080e90fce4c75f74836f51897fbc5d1f2f20cbca2e65b659ef582468`.
 Its verifier classifies all `10,395` fixed-point-free matchings, including
 the `120/600` maximally mixed split and all three near-aligned `c=2`
 matching classes, checks the exact ramified/unramified source-line ranks,
 minor signs, the ramified and full `(2,0,2)` defect exclusions, and the
 saturated `(1,1,2)` classifier, checks `2700/900` aligned/near quotient
-rows, and rejects `90` of `90` hostile mutations. The extension report is
-`przchojecki/rs-mca#1132` comment `5131156444`.
+rows, checks the `12` admissible internal edge pairs and exact odd-part
+incidence map, and rejects `98` of `98` hostile mutations. The latest
+extension report is `przchojecki/rs-mca#1132` comment `5131393696`.
 
 ### Work-cycle burn-down: diagonal c2 square fibers
 
 ```text
 starting local pin:       670c3dc5 (pre-c2 capacity refinement)
-ending local theorem pin: 623eff354b0e844e265ba947cf857d37c1e6b1ae
+ending local theorem pin: e133e40f6eb2054d9d368a7b3b6208b87df8c564
 canonical prize pin:      11cea27b (unchanged)
-ending upstream pin:      7f084f2dd27fea2b0a231cc690fc70bdd25e0609
+ending upstream pin:      2b7fa7d31fac73f3b7bd2aa9dd5f55c5e3844c22
 node attacked:            rate_half_band_closure via diagonal c=2
 result:                   NARROWED + EXPORTED
 DAG delta:                +6 PROVED nodes, +19 edges; target status unchanged
