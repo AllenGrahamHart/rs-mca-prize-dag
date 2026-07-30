@@ -10803,3 +10803,28 @@ router and proof-producing UNSAT certificates across both `I/L` cases,
 all four pole-cycle types, ramification, and every endpoint involution.
 The partial aligned `4+2` pilot is evidence only and causes no DAG move.
 Do not spend additional laptop or Modal budget on unlabeled search shards.
+
+## 2026-07-30 KoalaBear diagonal source-subfield dichotomy
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy` replaces the
+remaining diagonal source-descent ambiguity by two exhaustive branches.
+If the diagonal automorphism preserves `K(X)`, it gives a genuine
+source-line involution and, geometrically,
+
+```text
+b(X)=-X, s(X)=1/X, psi(X)=X^2, tau(Z)=1/Z,
+T^2 X^4 H(1/T,1/X)=+/-H(T,X).
+```
+
+The reciprocal source coefficient spaces have dimensions eight and seven;
+the common-five facets may now be imposed with individual-star transport.
+If `K(X)` is not preserved, its conjugate is a second rational quadratic
+subfield and the quartic `W` projection is biquadratic. Exact tame
+Riemann--Hurwitz leaves only source genus zero with three inertia types, or
+source genus one with two branch values of each of two inertia types.
+
+This is a route split, not a deletion. Next attack the reciprocal
+coefficient forms in the lifting branch and the two low-genus `V4`
+passports in the non-lifting branch. The whole-fiber interpolation compiler
+remains mandatory in both. No compute spend was used.

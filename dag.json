@@ -18937,6 +18937,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy",
+   "title": "KoalaBear m2 r4 diagonal source-subfield dichotomy",
+   "status": "PROVED",
+   "closure": "exhaustive source-line-lift versus biquadratic-cover split, reciprocal coefficient normal form, and exact low-genus V4 passports",
+   "statement": "For an actual diagonal-order-two component, the diagonal automorphism sends the quadratic source intermediate field K(X) either to itself or to a distinct quadratic intermediate field. In the first case it descends to a source-line involution; geometrically b=-X, s=1/X, psi=X^2, tau=1/Z, and the bidegree-(2,4) source equation lies in an 8- or 7-dimensional reciprocal eigenspace. In the second case the quartic W-projection is a V4 cover; tame Riemann-Hurwitz forces source genus 0 with passport eta,eta',mu or genus 1 with passport eta,eta,eta',eta'. Neither branch is deleted.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_full_v4_source_genus_drop",
    "title": "KoalaBear m2 r2 full-V4 source genus drop",
    "status": "PROVED",
@@ -37425,6 +37444,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

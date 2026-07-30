@@ -1147,3 +1147,26 @@ reduced to a finite exact kernel gate followed, for survivors only, by
 irreducibility and the outer self-correspondence factor identity. Prove
 universal kernel failure or reconstruct and attack the unique surviving
 biform; do not reuse the stronger coordinate-star equation.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy` now resolves that
+descent ambiguity exactly. If the diagonal automorphism preserves the
+quadratic source intermediate field, it descends to a source-line
+involution and admits the geometric normal form
+
+```text
+b(X)=-X,       s(X)=1/X,       psi(X)=X^2,
+tau(Z)=1/Z,
+T^2 X^4 H(1/T,1/X)=+/-H(T,X).
+```
+
+The two source coefficient eigenspaces have dimensions eight and seven,
+and individual-star transport is valid in this branch. If the intermediate
+field is not preserved, its conjugate is a second rational quadratic
+subfield; the quartic `W` projection is then a `V4` cover. Tame
+Riemann--Hurwitz leaves exactly genus zero with branch inertia
+`eta,eta',mu=eta eta'`, or genus one with inertia
+`eta,eta,eta',eta'`. This function-field `V4` is not the deleted full
+ambient-stabilizer type. The diagonal route is now two explicit algebraic
+branches rather than an unresolved source-lift question; neither branch is
+yet deleted and no owner charge moves.
