@@ -10934,3 +10934,23 @@ Therefore the `45 x 12` full-support kernel and invariant square-resultant
 tests apply to the full-V4, order-two, and trivial-stabilizer types. This
 repairs the scope needed by the five-profile trivial-branch program; it
 does not assert that any profile fails the kernel gate.
+
+## 2026-07-30 KoalaBear universal component-color profile cut
+
+The PROVED
+`rate_half_kb_m2_u2_universal_component_color_profile_cut` combines the
+five-profile census with Corollary 9.28's exact component edge coloring.
+A source-degree-two component colors exactly four edges of the two-regular
+pole graph. Its outside-`K` deficit `c_j=4-d_j` is precisely the colored
+degree of the left vertex `j`, so `c_j<=2`. The two deficit partitions
+`4` and `3+1` are impossible, leaving exactly
+
+```text
+(2,2,4,4,4,4), (2,3,3,4,4,4), (3,3,3,3,4,4).
+```
+
+Thus every `J` label occurs at least twice over `K`, including in the
+trivial-stabilizer branch. The coordinate involution already removes the
+middle row; diagonal and trivial packets retain all three until further
+facet or coefficient constraints are imposed. No compute spend or ledger
+payment was used.

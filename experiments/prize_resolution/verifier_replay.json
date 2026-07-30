@@ -2,14 +2,30 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 4,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/verify.py",
+      "seconds": 0.037729,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_KB_M2_U2_UNIVERSAL_COMPONENT_COLOR_PROFILE_CUT_PASS profiles=3\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/verify_audit.py",
+      "seconds": 0.020285,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_KB_M2_U2_UNIVERSAL_COMPONENT_COLOR_PROFILE_CUT_AUDIT_PASS cycle_types=4 profiles=3\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/verify.py",
-      "seconds": 0.04435,
+      "seconds": 0.036742,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_KB_M2_U2_UNIVERSAL_SOURCE_FACET_CENSUS_PASS profiles=5\n"
@@ -17,7 +33,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/verify_audit.py",
-      "seconds": 0.02345,
+      "seconds": 0.024128,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_KB_M2_U2_UNIVERSAL_SOURCE_FACET_CENSUS_AUDIT_PASS\n"
