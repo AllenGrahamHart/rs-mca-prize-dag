@@ -1461,6 +1461,26 @@ locus is inadmissible and generic negative assignments are already deleted.
 Apply the q-slice only to the genuine `B=0` and `C=0` loci; positive
 candidates remain a separate direct q-slice calculation.
 
+In the aligned branch, even those negative loci are empty. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion`
+uses `b->1/b` to identify the moving `C` locus with `B=0`. If `m_j` are the
+coefficients of the monic residual q-slice mismatch, exact reconstruction
+gives
+
+```text
+m_0=(cd-1)(cd+1)/(c^2 d^2).
+```
+
+Since `cd!=1`, passage forces `cd=-1`; there
+
+```text
+m_1-m_3=4(c^2-1)/c=-A!=0.
+```
+
+Thus no aligned negative candidate passes `(KBQS-1)`. The aligned source-line
+attack retains only the positive sign. Both signs remain in the near-aligned
+branch because its target is `tau^*chi_Omega`, not `tau^*q`.
+
 The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
 the smaller shared actual-component gate. For twelve projective source-row
 quartics `q_i`, stack a `9 x 12` degree-two evaluation parity check across

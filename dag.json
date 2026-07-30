@@ -19184,6 +19184,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion",
+   "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) aligned negative q-slice exclusion",
+   "status": "PROVED",
+   "closure": "the aligned saturated source-line negative sign is empty by two q-slice coefficient mismatches",
+   "statement": "For every saturated source-line diagonal (1,1,2) packet in the aligned branch Omega=J_1, the negative reconstruction factor gate and b-inversion reduce every retained negative template to B=0. After exact reconstruction, the constant coefficient of the monic q-slice mismatch is (cd-1)(cd+1)/(c^2 d^2), so passage forces cd=-1. On that specialization the difference of the W and W^3 mismatch coefficients is 4(c^2-1)/c=-A, contradicting the proved A!=0. Hence no aligned negative candidate passes the necessary q-slice gate; positive and near-aligned candidates remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
    "title": "KoalaBear m2 universal source-row interpolation compiler",
    "status": "PROVED",
@@ -43274,6 +43293,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   }

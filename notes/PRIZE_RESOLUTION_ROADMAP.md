@@ -11305,10 +11305,26 @@ exist only on `B=0`, or additionally `C=0` in the moving-moving template.
 The next aligned calculation should substitute those two genuine loci
 before `(KBQS-1)`; positive candidates go directly to `(KBQS-1)`.
 
+That aligned negative calculation is now closed. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion`
+uses `b->1/b` to represent the moving `C=0` locus by `B=0`. For both
+normalized templates, the monic q-slice mismatch has
+
+```text
+m_0=(cd-1)(cd+1)/(c^2 d^2).
+```
+
+The proved `cd!=1` forces `cd=-1`; on that specialization
+`m_1-m_3=4(c^2-1)/c=-A!=0`. Hence the aligned negative sign is empty. The
+live source-line calculations are now the aligned positive sign and both
+near-aligned signs, with the latter using the actual `tau^*chi_Omega`
+target.
+
 ### Compute request CR-KB-C2-112-QR-ELIM
 
 This is the deferred exact-CAS version of that calculation; no run is
-currently funded or launched. For each aligned/near-aligned branch, sign,
+currently funded or launched. For the aligned positive sign and each
+near-aligned sign,
 one of the five labeled pure multisets, and generic/ramified specialization
 of `w`, do the following:
 
@@ -11329,17 +11345,17 @@ of `w`, do the following:
 4. Return either a unit ideal/factor certificate deleting the shard, or the
    exact exceptional factor locus with a replayable witness assignment.
 
-There are at most `2 x 2 x 5 x 2=40` independent shards. Each shard should
+There are at most `3 x 5 x 2=30` independent shards. Each shard should
 write partial factors before a `60 s` timeout; larger Gröbner or resultant
 runs can be contributed independently. The local `F_1009` datum above is
 evidence only, not a deletion or a substitute for saturation.
 
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
-`34f74fece1f9a54f73b04c31932c899465d40a89`, note/verifier/certificate
-blobs `d1f93e975a149dac6b9acc530dc6268a59550279`,
-`6725a86eda538d38a1414ce8933cdeee67ed89e0`, and
-`f70c6c4e8861db9231459fb5e9576943730d564`, with canonical payload
-`a919a052d67da8a35bec299ffaa1b0f22974d0b543cf05cbcb09e5d504db450e`.
+`fa40cba826cde6d6650be907eb678e35bece301c`, note/verifier/certificate
+blobs `de2af755db29db4690eef20beb189e695a6e123a`,
+`a01b25d3d61c03f59a4e229ed646ad4b1c692784`, and
+`644f2d186880cb411117ed3aa8a6a40a96d54b55`, with canonical payload
+`14fed959f081050228575a4b1d16b027c4343e330ae45872982862e6ad58e6bf`.
 Its verifier classifies all `10,395` fixed-point-free matchings, including
 the `120/600` maximally mixed split and all three near-aligned `c=2`
 matching classes, checks the exact ramified/unramified source-line ranks,
@@ -11349,9 +11365,9 @@ rows, checks the `12` admissible internal edge pairs and exact odd-part
 incidence map, verifies the ramified `(2,2)` order allocation and repaired
 `4/3` dimensions, checks the `2,2,2,2,4` finite reconstruction and maximum
 eight source-deck pairs, checks all three q-slice incidence patterns and the
-`8+4` negative determinant templates, and rejects `123` of `123` hostile
-mutations. The latest extension report is `przchojecki/rs-mca#1132` comment
-`5132157247`.
+`8+4` negative determinant templates, excludes the spurious `A=0` locus,
+and rejects `124` of `124` hostile mutations. The latest extension report is
+`przchojecki/rs-mca#1132` comment `5132360554`.
 
 ### Work-cycle burn-down: diagonal c2 square fibers
 
@@ -11362,7 +11378,7 @@ canonical prize pin:      11cea27b (unchanged)
 ending upstream pin:      fa40cba826cde6d6650be907eb678e35bece301c
 node attacked:            rate_half_band_closure via diagonal c=2
 result:                   NARROWED + EXPORTED
-DAG delta:                +10 PROVED nodes, +30 edges; target status unchanged
+DAG delta:                +11 PROVED nodes, +33 edges; target status unchanged
 upstream delta:           c2 capacity, linear cut, 202 deletion, 112 classifier,
                           source-line quotient descent, odd-part incidence,
                           ramified coefficient repair, internal-star
@@ -11370,7 +11386,7 @@ upstream delta:           c2 capacity, linear cut, 202 deletion, 112 classifier,
                           factor loci in PR #1132
 delta-star movement:      none
 new assumptions:          none; (1,1,2) ramified and biquadratic survivors retained
-live compute requests:    CR-KB-C2-112-QR-ELIM (external/deferred; 40 shards)
-next route-deciding step: factor the q-slice mismatch on positive forms and
-                          the retained negative B/C loci
+live compute requests:    CR-KB-C2-112-QR-ELIM (external/deferred; 30 shards)
+next route-deciding step: factor the aligned positive q-slice mismatch and
+                          both near-aligned signs with their actual target
 ```
