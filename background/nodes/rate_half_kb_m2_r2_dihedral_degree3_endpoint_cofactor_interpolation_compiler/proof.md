@@ -78,6 +78,31 @@ product_(j=0)^(r-1) rho_(a_j->a_(j+1))
 
 This proves the local necessary holonomy condition.
 
+For the complete criterion, retain all three labels in
+`S_x={a,b,c}`. For any ordered pair `u,v`, eliminating the third label
+`r` from the two local equations gives exactly `(KBM3I-5)`. Hence a
+full-support kernel supplies a vertex potential `w` whose ratio on every
+gain edge is the printed gain. Products around closed walks telescope, so
+the gain multigraph is flat.
+
+Conversely, suppose the gain multigraph is flat. In each connected component
+choose one label and assign it an arbitrary nonzero weight. Transporting
+that weight along a path defines all other weights; closed-walk flatness
+makes the definition path-independent. Every gain is nonzero, so the
+resulting weights have full support. At each root `x`, the edge relations
+on the triangle `S_x` put
+
+```text
+(w_i E_i(x))_(i in S_x)
+```
+
+in the one-dimensional kernel of the two rows
+`(1)_(i in S_x)` and `(alpha_i)_(i in S_x)`. The two sums in
+`(KBM3I-3)` therefore vanish at `x`. Each sum has degree at most 18 and
+the residual generic-pole profile has 24 distinct complete-source roots, so
+both sums vanish identically. This proves the exact gain-flatness
+equivalence.
+
 ## 3. Pinned deleting fixture
 
 Work over `F_47` with the geometric model from the parent node. Its two

@@ -69,6 +69,8 @@ def main() -> None:
     dag = (ROOT / "dag.json").read_text()
     require("unique interpolant" in proof, "interpolation proof")
     require("Star-edge holonomy" in proof, "holonomy proof")
+    require("gain-flatness" in proof and "Conversely, suppose the gain multigraph is flat" in proof,
+            "flatness converse")
     require("does not prove that every admissible locator ownership" in statement, "nonclaim")
     require("rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler" in dag,
             "DAG node")

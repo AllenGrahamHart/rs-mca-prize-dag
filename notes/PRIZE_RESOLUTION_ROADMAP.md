@@ -10677,8 +10677,10 @@ minor of determinant `7`. The two interpolation identities also induce an
 exact multiplicative transport on every source-star edge; every cycle must
 have holonomy one. The fixture's six canonical square holonomies are
 `11,26,17,2,41,31 mod 47`, all nonidentity, giving a local deletion witness.
-This is a deleting fixture and an exact universal compiler, not a
-deployed-row deletion.
+Retaining all three pair gains in each of the 24 star/owner triples gives an
+exact converse: a full-support kernel exists if and only if the resulting
+12-vertex gain multigraph is flat. This is a deleting fixture and an exact
+universal compiler, not a deployed-row deletion.
 
 Burn-down:
 
@@ -10690,6 +10692,6 @@ vague active-pencil gate:            replaced by exact full-support kernel
 pinned admissible packets deleted:   one
 new assumptions:                     none
 live compute requests:               none
-next route-deciding action:          prove universal nonflat star holonomy,
-                                     falling back to full-support rank over K
+next route-deciding action:          prove universal gain-graph nonflatness,
+                                     falling back to full stacked rank over K
 ```

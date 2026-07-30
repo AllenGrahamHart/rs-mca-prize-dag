@@ -7,8 +7,12 @@ transport around the six canonical `K_(2,2)` squares. Proving that one cycle
 has nonidentity holonomy for every ownership excludes every full-support
 kernel.
 
-A universal stacked full-rank theorem is sufficient but stronger than
-necessary: sparse kernels are already excluded by nonzero source weights.
+If the six star squares are flat, build the complete gain multigraph from
+the 24 star/owner triples and seek any nonflat short cycle. By the exact
+flatness equivalence, this decides the full-support kernel without forming
+the dense matrix. A universal stacked full-rank theorem is sufficient but
+stronger than necessary: sparse kernels are already excluded by nonzero
+source weights.
 
 If a full-support kernel survives, reconstruct its bidegree-`(9,18)`
 cofactor and test the fixed active divisor and block fibers. If that also

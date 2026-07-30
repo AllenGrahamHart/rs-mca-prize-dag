@@ -70,6 +70,28 @@ rho_(a->b)(x)=
 and every directed star-graph cycle must have transport product one. This
 holonomy condition is necessary, though not asserted sufficient.
 
+The complete local form is exact. For each root `x`, let
+
+```text
+S_x={a,b,c}
+```
+
+be its two star labels and locator owner. For any distinct `u,v in S_x`,
+let `r` be the third label and put
+
+```text
+rho^x_(u->v)=
+ -[(alpha_u-alpha_r)E_u(x)]/[(alpha_v-alpha_r)E_v(x)].
+                                                               (KBM3I-5)
+```
+
+Form the gain multigraph on the twelve labels by inserting the three labeled
+edges of every triple `S_x`. Then `(KBM3I-3)` has a full-support solution
+if and only if this gain multigraph is flat: the gain product along every
+closed walk is one. Thus one nonflat cycle is a complete no-kernel
+certificate. The star-only cycle test above is a convenient necessary
+subfamily; it need not by itself decide every ownership.
+
 The pinned split specialization over `F_47`, with cubic pole values `7,18`,
 contains an exact `s=6` locator ownership, six invariant coordinate
 quadratics, the required two-regular noninvariant pole graph, and exactly
@@ -85,11 +107,11 @@ standard `K_(2,2)` square transports in the two `K_(2,2,2)` components are
 so none is one. Hence that fully admissible abstract source/locator packet
 is not an endpoint component.
 
-This theorem does not prove that every admissible locator ownership has
-full rank. It deletes the pinned packet and replaces the vague "fixed active
-pencil" obstruction by the exact full-support kernel gate `(KBM3I-3)`. It
-constructs no owner, moves no payment, and closes no `m=2` type, K3,
-KoalaBear row, or Prize problem.
+This theorem does not prove that every admissible locator ownership has a
+nonflat gain graph or full rank. It deletes the pinned packet and replaces
+the vague "fixed active pencil" obstruction by the exact full-support
+kernel/flatness gate `(KBM3I-3)--(KBM3I-5)`. It constructs no owner, moves
+no payment, and closes no `m=2` type, K3, KoalaBear row, or Prize problem.
 
 ## Falsifier
 
