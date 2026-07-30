@@ -6368,6 +6368,14 @@ factor degrees have unique complete-source graph shapes up to relabeling.
 
 ```text
 new node: rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity [PROVED]
+upstream custody:
+  PR #1132 head: 06a0dcb152687db4017484b215ed851bae52f1f2
+  note/verifier/certificate blobs:
+    11a974bf417dacdc3366c284f5f96f738137cf12
+    7ad80b2d6a457cffb233f371b0f8751244e9138a
+    c842c89b0d4978a12d4ede3d12fc040de6d11741
+  certificate payload:
+    63f6387bba81e51e0a49f409645e9493b3f128f6ab9d119be2dcc64da766b1d4
 input: n=3 or n=6 inside the full-V4 (m,r,delta)=(2,2,4) row
 generic dihedral incidence:
   reflection quotient incidence is C_(2n)
