@@ -5878,6 +5878,14 @@ primitive degree-15 catalogue removes three of the four outer types.
 
 ```text
 new node: rate_half_kb_m4_outer_a6s6_route_cut [PROVED]
+upstream custody:
+  PR #1132 head: d7232a30a5cca4a42330422415da71f06a7c5a31
+  note/certificate/verifier blobs:
+    13fd38f97fb7087df88fe7c212020933b409d191
+    bb130d089d1ca7c0fcab04b65f66de773952ceb2
+    06854e72fe35720052505c543d86bcf587f61017
+  certificate payload:
+    61a8db82285f22393fc2af6c1d35224d79587fa150009270d42ac33972557485
 incoming m4 types: (1,16),(2,8),(4,4),(8,2)
 primitive degree-15 catalogue:
   A7, PSL(4,2), A15, S15 have nontrivial subdegree 14
