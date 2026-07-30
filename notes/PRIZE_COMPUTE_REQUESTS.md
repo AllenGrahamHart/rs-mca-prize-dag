@@ -159,8 +159,11 @@ retries; raw artifact storage is separate.
 - **Exact specialization:** orient `J_1={eta,ell}` as `(c,d)`. The forced
   square is `w=1/c`, while the residual target roots are `tau(xi)` and `1/d`.
   Retain the exact `lambda_scale` normalization from the corrected positive
-  generator. Negative forms must first lie on the proved fixed-moving `B=0`
-  or moving-moving `B*C=0` reconstruction loci.
+  generator. There are three relative `xi` orbits after fixing the common
+  endpoint, two internal templates, and three residual allocations, hence 18
+  affine positive charts. Treat repaired `w=0` in a separate homogeneous
+  chart. Negative forms must first lie on the proved fixed-moving `B=0` or
+  moving-moving `B*C=0` reconstruction loci.
 - **Banked first chart:**
   `critical/nodes/rate_half_band_closure/notes/kb_c2_112_near_fixed_xi_square.py`
   treats fixed-moving, common endpoint `xi=2`, and the square allocation

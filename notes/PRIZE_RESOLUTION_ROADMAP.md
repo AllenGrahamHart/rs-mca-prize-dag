@@ -11402,6 +11402,15 @@ positive candidates and found no q-slice survivor; the generic negative
 attempts correctly missed their codimension-one reconstruction loci. This is
 evidence only.
 
+After the common endpoint is normalized to `a=2`, the matching centralizer
+has only three relative `xi` orbits: `xi=a`, `xi=tau(a)=1/2`, or `xi` in the
+other reciprocal pair, where `b->1/b` identifies its two labels. Together
+with two internal templates and three residual allocations, the unramified
+positive queue has `3*2*3=18` affine charts, not four independent `xi`
+choices. The repaired `w=0` branch is a separate projective boundary
+(`eta=infinity` in this orientation); it is not represented by substituting
+`w=1/c` in a monic finite-root `q` and must be homogenized separately.
+
 One characteristic-zero chart is now exactly classified. Normalize the
 common internal endpoint and `xi` to `2`, use the fixed-moving template, and
 allocate the residual over `c` to `(W-1/2)^2` and that over `d` to
