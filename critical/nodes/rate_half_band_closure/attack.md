@@ -1375,6 +1375,24 @@ After a passing test and normalization of `V`, only two/one affine `U`
 parameters remain in the positive/negative signs. The forced-ramified
 branch remains a separate attack.
 
+Complete-source multiplicity removes that coefficient escape. In the
+forced-ramified branch, orient the source orbit as `W=X^2=0`. The two rows
+indexed by the roots of `q=P_(J_1)` are the only rows vanishing at `X=0`.
+Each divides `B/z_i`, so its order is at most two; local saturation requires
+their total order to be four. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair`
+therefore forces both row orders to equal two and hence
+
+```text
+U(T,0) in <q>,       V(T,0) in <q> minus {0}.
+```
+
+The ramified cut consequently has rank four and dimensions `4/3`, not the
+square-only `6/5`. The odd-part formula and incidence value `z=-N/D` apply
+with `w=0`. All saturated source-line `(1,1,2)` packets now use the same
+four-case pre-interpolation gate; source ramification remains geometrically
+possible but no longer needs a separate coefficient route.
+
 The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
 the smaller shared actual-component gate. For twelve projective source-row
 quartics `q_i`, stack a `9 x 12` degree-two evaluation parity check across

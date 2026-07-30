@@ -11234,6 +11234,24 @@ orbits, before interpolation. A passing record retains only two/one affine
 `U` parameters after normalizing `V` and imposing `U(a,z)=0`. The
 forced-ramified source branch remains open.
 
+The apparent forced-ramified coefficient branch is now repaired by the
+complete-source row ledger. At a ramified forced fiber, only the two rows
+indexed by `Root(q)=J_1` vanish. Each row divides `B/z_i` and therefore has
+order at most two at the double source pole, while local saturation requires
+their total order to be four. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair`
+forces the allocation `(2,2)`, which is equivalent to
+
+```text
+U(T,0) in <q>,       V(T,0) in <q> minus {0}.
+```
+
+Thus the ramified source spaces also have dimensions `4/3`, and `(KBOI-3)`
+applies with `w=0`. Geometric source ramification remains possible, but it
+does not create a separate coefficient attack. Every saturated source-line
+`(1,1,2)` record now passes through the same four sign/orbit incidence tests
+before the aligned or near-aligned quotient identity.
+
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
 `2b7fa7d31fac73f3b7bd2aa9dd5f55c5e3844c22`, note/verifier/certificate
 blobs `a1e14d6652687af8eb42b23f3c13feb1c510002e`,
@@ -11258,13 +11276,13 @@ canonical prize pin:      11cea27b (unchanged)
 ending upstream pin:      2b7fa7d31fac73f3b7bd2aa9dd5f55c5e3844c22
 node attacked:            rate_half_band_closure via diagonal c=2
 result:                   NARROWED + EXPORTED
-DAG delta:                +6 PROVED nodes, +19 edges; target status unchanged
+DAG delta:                +7 PROVED nodes, +22 edges; target status unchanged
 upstream delta:           c2 capacity, linear cut, 202 deletion, 112 classifier,
-                          source-line quotient descent, and odd-part incidence
-                          gate in PR #1132
+                          source-line quotient descent, odd-part incidence,
+                          and ramified coefficient repair in PR #1132
 delta-star movement:      none
 new assumptions:          none; (1,1,2) ramified and biquadratic survivors retained
 live compute requests:    none
 next route-deciding step: evaluate the four odd-part incidence tests on
-                          aligned/near records; attack forced ramification
+                          every aligned/near source-line record
 ```
