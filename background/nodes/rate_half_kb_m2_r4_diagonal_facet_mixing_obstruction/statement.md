@@ -3,8 +3,9 @@
 - **status:** PROVED
 - **scope:** every actual diagonal-order-two component
   `S=<tau x tau>` in the residual `(m,r,delta)=(2,4,2)` row
-- **dependency:**
-  `rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler`
+- **dependencies:**
+  `rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler` and
+  `rate_half_kb_m2_u2_colored_source_resultant_split_compiler`
 - **consumer:** `rate_half_band_closure`
 
 Let `D` be the twelve source-label set, let `I` be the invariant-coordinate
@@ -65,6 +66,37 @@ Here `L=K union {eta}` is the invariant-fiber image six-set. The second
 line includes the aligned case `L=I`, where `eta=xi`. In the last line the
 remaining at most two roots lie in `J_0`.
 
+The maximally mixed row has a further exact reduction. If `c=6`, then
+
+```text
+L != I,       tau(eta) in K,
+ell:=tau(xi) in J intersect L^c.                   (KBDM-5)
+```
+
+Both stars above `xi` and both stars above `ell` are `I-J`; every other
+`L^c` star is `I-I`. Equivalently, the four colored roots are exactly the
+two complete source fibers over `xi` and `ell`. Thus the colored quartic
+descends through `W=psi(X)`:
+
+```text
+C_H(X) ~ chi(psi(X)),
+div(chi)={xi,ell},       [tau^*chi]=[chi].          (KBDM-6)
+```
+
+The binary quadratic `chi` is squarefree and lies in the positive
+`tau`-eigenspace; in coordinates `tau(W)=1/W` it is reciprocal. If
+`K_5(W)` and `R_7(W)` are the locators on `K` and its seven-label
+complement, the two partial resultants descend to forms `Q_J,Q_I` with
+
+```text
+Q_J(W) ~ K_5(W)^2 chi(W),
+chi(W) Q_I(W) ~ R_7(W)^2.                          (KBDM-7)
+```
+
+Hence the aligned `c=6` row is deleted and the near-aligned survivor has
+an exact quotient-resultant interface in both diagonal source-subfield
+branches.
+
 This theorem deletes the partition-preserving diagonal subcase and replaces
 it by five exact mixing signatures. It does not delete all five signatures,
 the source-line or biquadratic branch, the diagonal orientation, the full
@@ -73,5 +105,6 @@ order-two type, an owner, payment, row, or Prize result.
 ## Falsifier
 
 An actual diagonal component with `tau(I)=I`; a fixed-point-free involution
-whose orbit data lie outside `(KBDM-3)`; or a common-`K` fiber quartic
-violating the corresponding support restriction in `(KBDM-4)`.
+whose orbit data lie outside `(KBDM-3)`; a common-`K` fiber quartic violating
+`(KBDM-4)`; an aligned `c=6` component; or a maximally mixed component whose
+colored divisor or descended partial resultants violate `(KBDM-5)--(KBDM-7)`.

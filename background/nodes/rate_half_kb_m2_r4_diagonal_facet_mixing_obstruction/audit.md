@@ -16,3 +16,10 @@
    retain both possibilities for whether `xi` is paired into `K`.
 6. No claim is made that any of the five mixing signatures is realizable or
    impossible.
+7. For `c=6`, `tau` swaps `I,J`. The two one-exchange capacities force the
+   paired `xi,ell` quartics to have `2+2` `J` roots, while the other four
+   `L^c` quartics have none.
+8. The colored divisor descends in this row because it contains two complete
+   `psi` fibers. This is not a general diagonal deck-invariance claim.
+9. Descent of the partial resultants follows from their proved divisor
+   identities; no individual-star transport or source-line lift is used.

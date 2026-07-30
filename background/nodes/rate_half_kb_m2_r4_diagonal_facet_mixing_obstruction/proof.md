@@ -65,4 +65,60 @@ the two component stars in the paired one-exchange facets. Each facet has
 only one `J` label and is reduced, so each quadratic star contains at most
 one `J` root. Thus at most two of the quartic's four roots lie in `J`.
 Pulling back by `tau` says that at most two roots of `R_k` lie in `J_0`,
-and hence at least two lie in `J_1`. This proves `(KBDM-4)`. QED.
+and hence at least two lie in `J_1`. This proves `(KBDM-4)`.
+
+## 4. The maximally mixed row
+
+Assume `c=6`, so `tau(I)=J` and `tau(J)=I`. If `L=I`, then `eta=xi`.
+The quartic `R_eta` is supported on `I`, so its transport is supported on
+`J`. But `tau(eta) in J=L^c`, where a whole-fiber quartic has at most two
+`J` roots. This contradiction proves `L!=I`. Hence
+
+```text
+L=K disjoint_union {eta},       eta in J,
+L^c={xi} disjoint_union (J minus {eta}).            (3)
+```
+
+Now `tau(eta) in I`. It cannot equal `xi`: transporting the four `I` roots
+of `R_eta` would give four `J` roots over the one-exchange label `xi`.
+Therefore `tau(eta) in K`. Since `tau` is fixed-point-free, `xi` is paired
+with a label
+
+```text
+ell=tau(xi) in J minus {eta} subset L^c.            (4)
+```
+
+Let `z` be the number of `J` roots of `R_xi`. The one-exchange capacity
+gives `z<=2`. Since `tau` swaps `I` and `J`, the number of `J` roots of
+`R_ell` is `4-z`; its one-exchange capacity gives `4-z<=2`. Thus `z=2`,
+and both quartics have exactly two `J` roots. Their two reduced quadratic
+stars each contain at most one `J` root, so all four stars are `I-J`.
+
+The remaining four labels of `K` are paired with the remaining four labels
+of `J minus {eta,ell}`. Their `J`-supported quartics transport to quartics
+supported entirely on `I`, so every remaining `L^c` star is `I-I`. The
+universal component-color theorem identifies the four `I-J` incidences with
+the four simple colored roots. Consequently
+
+```text
+C_H=psi^*({xi}+{ell})                              (5)
+```
+
+as a reduced divisor. This proves `(KBDM-5)--(KBDM-6)`. The pair
+`{xi,ell}` is one `tau` orbit, so its binary locator `chi` is projectively
+`tau`-invariant. With the standard reciprocal lift, the two linear factors
+are exchanged and their product has positive eigenvalue.
+
+Finally write `D_K=psi^*K_5` and `D_R=psi^*R_7`. Substitution of `(5)` in
+the universal colored partial-resultant identities gives
+
+```text
+Res_T(P_J,H) ~ psi^*(K_5^2 chi),
+psi^*chi Res_T(P_I,H) ~ psi^*(R_7^2).              (6)
+```
+
+The right sides are deck invariant, so the left sides descend uniquely to
+binary forms `Q_J,Q_I` on the `W`-line. Faithfulness of pullback by the
+surjective quadratic map gives exactly `(KBDM-7)`. This uses no lift of the
+diagonal automorphism to the source `X`-line, and hence applies to both
+source-subfield branches. QED.

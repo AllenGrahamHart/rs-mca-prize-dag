@@ -1224,6 +1224,25 @@ the source-subfield dichotomy. Attack the five rows separately, starting at
 `c=2`; do not impose the coordinate branch's `I,J` invariance or colored
 quotient descent. No full diagonal or owner close follows yet.
 
+The same theorem closes the aligned maximally mixed row. If `c=6`, then
+`tau` swaps `I,J`; transporting the `eta` quartic rules out `L=I`. In the
+near-aligned survivor,
+
+```text
+tau(eta) in K,       ell=tau(xi) in J intersect L^c.
+```
+
+Exactly the four stars above `xi,ell` are `I-J`; all other `L^c` stars are
+`I-I`. Hence the colored divisor is the pullback of the positive reciprocal
+quadratic `chi` on `{xi,ell}`, and the universal partial resultants descend:
+
+```text
+Q_J ~ K_5^2 chi,       chi Q_I ~ R_7^2.
+```
+
+Thus arbitrary four-edge enumeration is unnecessary in `c=6`. Attack this
+single quotient system or the stronger `c=2` support rows next.
+
 The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
 the smaller shared actual-component gate. For twelve projective source-row
 quartics `q_i`, stack a `9 x 12` degree-two evaluation parity check across

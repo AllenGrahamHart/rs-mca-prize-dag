@@ -10918,7 +10918,8 @@ removes the first two profiles before the shared `45 x 12` source gate is
 applied, without importing the coordinate involution pairing. No
 computation or ledger payment was used.
 
-Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
+Upstream custody for the base mixing obstruction is draft PR
+`przchojecki/rs-mca#1132`, commit
 `de237ba4d6ffd03bddc3d3daa7e94d0dee06eedf`, note/verifier/certificate blobs
 `a1a84452ddcd2f407eefb89bea0ef6a710e9f5d2`,
 `91a61152be9bb639f720554f080c01d424c5ecc8`, and
@@ -11098,6 +11099,22 @@ noncrossing and the transported support restrictions are strongest. A row
 is closed only by inconsistency with the actual interpolation, exact degree,
 irreducibility, deck distinction, and outer-factor interfaces.
 
+The maximally mixed row sharpens further. The aligned case `L=I` is
+impossible. In the near-aligned survivor, `eta` pairs into `K` and
+`xi=I minus K` pairs with one label `ell in J intersect L^c`; the four
+colored roots are exactly the two complete source fibers over `xi,ell`.
+Their quotient locator `chi` is positive reciprocal, and both partial
+resultants descend to
+
+```text
+Q_J ~ K_5^2 chi,       chi Q_I ~ R_7^2.
+```
+
+This is valid in both diagonal source-subfield branches. The `c=6` attack is
+therefore one quotient system, not a search over arbitrary four-edge
+divisors. The `c=2` rows remain the preferred next target because their
+crossing support is smaller.
+
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
 `1adfe06c6982ce6b2afc677f3f40fa5355bcf8bd`, note/verifier/certificate
 blobs `3f0cf8c8e1ac9c964f4650b97c925d12c7c00b89`,
@@ -11105,4 +11122,5 @@ blobs `3f0cf8c8e1ac9c964f4650b97c925d12c7c00b89`,
 `6614682ad1f6c4c3c6c6f80ef484ed6bffa324fd`, with canonical payload
 `e5d3705f96c3fe141e3ed87c3d4901e7528b4297c9b92b5d014918ad5f9d4112`.
 Its verifier classifies all `10,395` fixed-point-free matchings and rejects
-`44` of `44` hostile mutations.
+`44` of `44` hostile mutations. The maximally mixed quotient extension is
+not yet included at this pin.

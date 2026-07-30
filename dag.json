@@ -18960,7 +18960,7 @@
    "title": "KoalaBear m2 r4 diagonal facet-mixing obstruction",
    "status": "PROVED",
    "closure": "exclusion of partition-preserving diagonal transport and an exact five-row crossing-orbit census",
-   "statement": "For every actual diagonal-order-two component, the fixed-point-free endpoint involution tau must mix the invariant-coordinate six-set I with J=I^c. If c is the number of crossing labels then c is 2, 4, or 6, and the number a of tau-pairs inside the common five-set K together with the indicator b that I\\K pairs into K has exactly five possible rows: (2,0,2), (1,1,2), (1,0,4), (0,1,4), (0,0,6). Whole-fiber K quartics have explicit support restrictions in J intersect tau(J) and J intersect tau(I). This deletes the partition-preserving diagonal subcase, not all mixing rows or the orientation.",
+   "statement": "For every actual diagonal-order-two component, the fixed-point-free endpoint involution tau must mix the invariant-coordinate six-set I with J=I^c. If c is the number of crossing labels then c is 2, 4, or 6, and the number a of tau-pairs inside the common five-set K together with the indicator b that I\\K pairs into K has exactly five possible rows: (2,0,2), (1,1,2), (1,0,4), (0,1,4), (0,0,6). Whole-fiber K quartics have explicit support restrictions in J intersect tau(J) and J intersect tau(I). The aligned c=6 row is impossible; in the near-aligned c=6 survivor the four colored roots are exactly two complete reciprocal source fibers and the partial resultants descend to an exact quotient system. This deletes the partition-preserving and aligned c=6 subcases, not all mixing rows or the orientation.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction/statement.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction/proof.md",
@@ -37644,6 +37644,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_u2_colored_source_resultant_split_compiler",
    "to": "rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction",
    "kind": "req"
   },

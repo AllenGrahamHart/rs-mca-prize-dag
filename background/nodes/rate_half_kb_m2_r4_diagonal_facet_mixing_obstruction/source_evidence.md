@@ -5,14 +5,17 @@
   `[R_tau(y)]=[tau^*R_y]`, and the exact `K`, `eta`, and `L^c` supports.
 - The common-five relation `K subset I intersect L`, with all three set
   sizes printed, is already part of that proved parent interface.
+- `rate_half_kb_m2_u2_colored_source_resultant_split_compiler` supplies the
+  four simple colored roots and the exact two partial-resultant identities.
 - The mixing contradiction, orbit census, and transported support cuts are
   proved locally. They use no field enumeration, genericity assumption, or
   source-line lift.
 
 ## Upstream custody
 
-Vendored as an extension of the exact KoalaBear order-two source-interface
-packet in draft PR `przchojecki/rs-mca#1132` at commit
+The base mixing obstruction `(KBDM-1)--(KBDM-4)` is vendored as an extension
+of the exact KoalaBear order-two source-interface packet in draft PR
+`przchojecki/rs-mca#1132` at commit
 `1adfe06c6982ce6b2afc677f3f40fa5355bcf8bd`:
 
 ```text
@@ -25,3 +28,5 @@ payload SHA-256:  e5d3705f96c3fe141e3ed87c3d4901e7528b4297c9b92b5d014918ad5f9d41
 The upstream verifier classifies all `10,395` fixed-point-free label
 matchings, deletes all `225` partition-preserving matchings, retains exactly
 the five printed mixing rows, and rejects `44` of `44` hostile mutations.
+The later maximally mixed reduction `(KBDM-5)--(KBDM-7)` is not yet included
+at this pin.
