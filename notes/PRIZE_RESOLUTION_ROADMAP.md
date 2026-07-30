@@ -6207,6 +6207,39 @@ next action:
 compute spend: below one second under RAMguard; no Modal
 ```
 
+**Same-day full-V4 source-genus drop:** the `(r,delta)=(2,4)` row can no
+longer use source genus two or three.
+
+```text
+new node: rate_half_kb_m2_r2_full_v4_source_genus_drop [PROVED]
+input: full V4 stabilizer in the m2 r2 row
+source involutions:
+  eta = deck involution of Gamma->P1_X
+  a   = lift of tau x 1, acting as (tau,b)
+  c   = lift of 1 x tau
+degree-four source cover:
+  Gamma->P1_W has deck group <eta,a>=V4
+conjugation:
+  c fixes a
+  c cannot fix eta without factoring the coefficient map through a
+  quadratic source quotient, which is the excluded line/conic branch
+  therefore c eta c^-1=eta*a
+tame fixed-point result:
+  #Fix(eta)=#Fix(eta*a)=2g+2
+  #Fix(a)=2-2g
+  admissible rows: (g,#Fix(a))=(0,2),(1,0)
+route consequence:
+  source genus 2 and 3 are empty in (r,delta)=(2,4)
+DAG delta: one PROVED narrowing node; critical target unchanged
+ledger movement: zero
+nonclaims: no rational/elliptic deletion, outer passport, owner, carrier,
+           data/slope bridge, u2, endpoint, adjacent certificate, or row
+next action:
+  derive an actual-source genus lower bound or classify the rational and
+  elliptic bidegree-(2,2) outer correspondences
+compute spend: exact finite group/fixed-point arithmetic only; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

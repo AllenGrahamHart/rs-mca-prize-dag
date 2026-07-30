@@ -269,6 +269,17 @@ attack must break this recurrent tower with the actual equivariant source
 equations or produce a same-record owner; another abstract decomposition
 cycle does not move the frontier. No owner charge moves.
 
+The PROVED `rate_half_kb_m2_r2_full_v4_source_genus_drop` sharpens the
+full-V4 `(r,delta)=(2,4)` row. The source projection gives an involution
+`eta`, while the diagonal endpoint/source-deck lift `a` makes the degree-four
+map to `W` a V4 cover. The second endpoint involution conjugates `eta` to
+`eta*a`; the alternative would factor the quartic coefficient map through
+a quadratic source quotient and return to the excluded line/conic branch.
+Tame fixed-point Riemann-Hurwitz leaves exactly source genus zero with two
+fixed points of `a`, or source genus one with none. Genus two and three are
+impossible. Neither rational nor elliptic regime is yet deleted, and the
+other two `m=2` types are unchanged. No owner charge moves.
+
 ## Banked range
 
 Put
