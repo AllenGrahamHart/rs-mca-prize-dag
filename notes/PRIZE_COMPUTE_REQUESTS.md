@@ -168,10 +168,11 @@ retries; raw artifact storage is separate.
   eliminants; three apparent extras force `cd=1`.
 - **Immediate unresolved input:** the swapped square allocation in that same
   chart has four endpoint curves of bidegrees `(3,2),(2,2),(3,2),(2,2)`.
-  Impose both middle coefficients and saturate by the printed incidence,
-  line-leading, label-collision, and normalization factors. Then process the
-  mixed allocation, the other `xi` orbit, moving-moving, and the negative
-  `B/C` loci.
+  First impose the normalization-free constant/leading gate `(KBNEAR-CL)`;
+  then impose both remaining coefficients and saturate by the printed
+  incidence, line-leading, label-collision, and normalization factors. Then
+  process the mixed allocation, the other `xi` orbit, moving-moving, and the
+  negative `B/C` loci.
 - **Required output:** for every chart, either a unit/collision-only exact
   elimination certificate or an explicit algebraic survivor with `b,z`, and
   `lambda_scale` reconstructed and all label inequalities checked. Every

@@ -11446,6 +11446,28 @@ These four small curves, the mixed allocation, the other `xi` orbit, the
 moving-moving template, and both negative factor loci remain open; do not
 infer a near-aligned deletion from the one closed chart.
 
+There is a cheaper common gate before those allocation splits. Write
+
+```text
+U(r,W)=L_r W^2 + ... + C_r,
+kappa_1=tau(xi)=1/xi,       kappa_2=tau(ell)=1/d.
+```
+
+The residual at `r` has leading coefficient `L_r^2` and constant coefficient
+`C_r^2/w^2`. Comparing the constant-to-leading ratio of the product q-slice
+with `((W-kappa_1)(W-kappa_2))^2` gives, in characteristic zero,
+
+```text
+C_c C_d = +/- w^2 kappa_1 kappa_2 L_c L_d,
+c^2 xi d C_c C_d = +/- L_c L_d.                  (KBNEAR-CL)
+```
+
+Actual target degree makes all divided factors nonzero. This condition uses
+only `U`, so it eliminates both `V` and `lambda_scale`; it is quadratic in
+`b` for fixed-moving and quartic for moving-moving. Factor `(KBNEAR-CL)` and
+intersect its components with the two remaining q-slice coefficients before
+performing any four-variable elimination.
+
 ### Compute request CR-KB-C2-112-POS-QS-SAT
 
 Prove the twelve-case parametric saturation above without expanding the full
