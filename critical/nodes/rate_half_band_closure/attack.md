@@ -222,6 +222,16 @@ even-degree KoalaBear field. Two of the three rigid maps are now explicit;
 the `A6` rigid cover, four-point family, active-fiber test, and quartic
 source-star incidence remain open. No owner charge moves.
 
+The PROVED `rate_half_kb_m4_a6_542_pair_quotient_normal_form` constructs the
+third rigid row, `A6:(5.1,2.2.1.1,4.2)`, over
+`Q(nu)`, `nu^2-nu+4=0`. Its exact branch fibers are `(5,5,5)`,
+`(4,4,4,2,1)`, and `(2,2,2,2,2,2,1,1,1)`. Both coefficient-field
+embeddings already lie in the KoalaBear base field, and the order-five
+linear-plus-quadratic divisor is distinct and split over `F_(p^6)`. All
+three rigid maps are now explicit and pole descent deletes none of them.
+Attack their fixed active fibers and quartic source-star incidences next;
+the four-point family remains separate. No owner charge moves.
+
 ## Banked range
 
 Put

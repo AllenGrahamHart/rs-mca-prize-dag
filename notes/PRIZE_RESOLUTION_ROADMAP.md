@@ -6017,6 +6017,43 @@ next action:
 compute spend: exact low-degree arithmetic under local RAMguard; no Modal
 ```
 
+**Same-day third rigid `m=4` normal form:** the `A6 [5,4,2]` companion over
+`Q(nu)`, `nu^2-nu+4=0`, has now been normalized through both cubic-adjoint
+eliminations of its unordered-pair quintic.
+
+```text
+new node: rate_half_kb_m4_a6_542_pair_quotient_normal_form [PROVED]
+BelyiDB pin:
+  commit 7d5b899b0741ebd505363f7f811e5737e906abee
+  blob   55e23bc1ef1d939329a5a6b377d03c07f0ac9f2d
+normalization route:
+  pair-remainder determinant -> irreducible plane quintic over Q(nu)
+  rank-eight cubic-adjoint conditions with two tangent constraints
+  y- and z-resultants -> unique moving (1,5) factors
+  moving coordinates -> degree-15 A6 two-subset map
+branch fibers:
+  zero:     (5,5,5)
+  one:      (4,4,4,2,1)
+  infinity: (2,2,2,2,2,2,1,1,1)
+challenge-field result:
+  nu has both roots in F_2130706433
+  the linear-plus-quadratic order-five divisor is distinct for both roots
+  all three points lie in F_(p^2), hence in F_(p^6)
+  pole descent cannot delete this passport
+verification:
+  primary exact reconstruction plus 17/17 hostile mutations rejected
+  independent Fraction Q(nu)[u] replay of T and T-1
+  separate exact adjoint-resultant derivation audit
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims: no split active fiber, quartic source-star incidence, m4 deletion,
+           owner, endpoint, adjacent certificate, or KoalaBear row close
+next action:
+  impose the shared active-fiber/source-star gates on all three rigid maps;
+  treat the four-point S6 Hurwitz family as the remaining geometric family
+compute spend: bounded exact local algebra under RAMguard; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every
