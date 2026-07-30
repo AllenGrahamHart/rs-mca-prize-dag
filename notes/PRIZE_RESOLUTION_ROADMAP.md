@@ -11411,12 +11411,19 @@ choices. The repaired `w=0` branch is a separate projective boundary
 (`eta=infinity` in this orientation); it is not represented by substituting
 `w=1/c` in a monic finite-root `q` and must be homogenized separately.
 
-One characteristic-zero chart is now exactly classified. Normalize the
+One characteristic-zero chart has an exact endpoint reduction. Normalize the
 common internal endpoint and `xi` to `2`, use the fixed-moving template, and
 allocate the residual over `c` to `(W-1/2)^2` and that over `d` to
-`(W-1/d)^2`. Each constant-to-leading equation splits into two lines in `b`.
-The four line pairings have the following lex eliminants after the two middle
-coefficients are imposed:
+`(W-1/d)^2`. Each constant-to-leading equation splits into two lines in `b`,
+and their four pairwise resultants have one residual bidegree `(3,3)` curve
+after removing `c=1`, `cd=1`, and `5cd-4c-4d+5=0`.
+
+The first attempted middle-coefficient elimination was invalid. It used
+`Poly(..., b, c, d).coeff_monomial(b)` as the full coefficient of `b`, but
+that API returns only the coefficient of the exact monomial
+`b*c^0*d^0`. Consequently it substituted the spurious constants `b=3` or
+`b=-1` instead of the rational function obtained from the selected endpoint
+line. The following formerly printed lex eliminants are **retracted**:
 
 ```text
 (0,0): (d-2)^8 (d-1)^4 (d+1)^5 (2d-1)^9
@@ -11427,7 +11434,7 @@ coefficients are imposed:
          (d^2+3d-2)^2.
 ```
 
-The three extra factors have exact survivor bases
+The formerly printed survivor bases are likewise **retracted**:
 
 ```text
 <2c+d-9, d^2-9d+2>,
@@ -11435,25 +11442,26 @@ The three extra factors have exact survivor bases
 <2c-d-3, d^2+3d-2>.
 ```
 
-Each forces `cd=1`; the latter two also force `b=-1`, and all force the
-excluded normalization `lambda_scale=0` (equivalently `z=-1` in these
-coordinates). The possible vanishing leading coefficient of either left
-`b`-line has unit ideal, so no isolated branch was discarded. The other
-endpoint-resultant factors are `c=1`, `cd=1`, and
-`5cd-4c-4d+5=0`; the last gives `z=1` from the positive incidence formula.
-Hence this single near square-allocation chart is empty. The four-shard helper
-`kb_c2_112_near_fixed_xi_square.py` banks the calculation. Its integrated
-replay now completes under the `60 s` tiny-RAMguard cap, one process per
-shard: `(0,0)` in `34 s` with degree `26` and no survivor, `(0,1)` in `30 s`
-with degree `27` and only `cd=1`, `(1,0)` in about `30 s` with degree `28`
-and only `cd=1`, and `(1,1)` in about `30 s` with degree `30` and only
-`cd=1`. The helper SHA-256 is
-`071ce9502e3a5c3700c20d837e38ce672588212724f28691564b659903d374ac`;
-the corrected symmetric generator SHA-256 is
-`bc5f958f834d978b2bb2e054cafd8ee47f46469b26c9798257f10436cc8eb45d`.
-This is still narrowed evidence rather than a promoted theorem: the
-Groebner elimination is load-bearing and protocol section 9 requires an
-independently written checker before a PROVED node can be minted.
+None of these outputs, their old replay timings, or the old helper hash is
+evidence for chart deletion. The endpoint-resultant factors `c=1`, `cd=1`,
+and `5cd-4c-4d+5=0` remain valid; the last gives `z=1` from the positive
+incidence formula. The helper now extracts the full coefficient by
+differentiating in `b` and emits INCOMPLETE. Both left endpoint lines have a
+nonunit leading-coefficient-zero branch. Their exact grevlex bases have shape
+`[(5,13),(5,13),(4,13),(4,13),(4,13)]` (degree, terms) and SHA-256 digests
+`e3d8d866c94df2c4dbc8481b17d469d55986497ff8600e6e2cdd61f5c8ee3da3`
+and `612b21285163848790e6bc472de53e82e3598ce15d6fa2cf3014bcb73e87deda`.
+The corrected endpoint helper SHA-256 is
+`830d49882c8183a94442f62862ec9d4a0f5d483466ecb2f1abe4072b04f98860`.
+The generic middle ideal and both exceptional branches must be classified
+from scratch before this chart can be promoted.
+
+A separate direct-normalization one-off, using the full rational `b(c,d)`
+rather than the retracted constants, processes generic sign pair `(0,0)` by
+two resultants and a univariate gcd in about `27 s`. Its gcd has support only
+at `d in {2,1,-1,1/2}`. This is useful route evidence but not yet banked:
+the direct checker is not committed, the other three generic pairs and both
+leading branches remain, and no deletion claim follows.
 
 For the swapped square allocation in the same normalized template, the two
 endpoint lines reduce the four sign pairs to curves of bidegree `(3,2)`,

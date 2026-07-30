@@ -167,12 +167,16 @@ retries; raw artifact storage is separate.
 - **Banked first chart:**
   `critical/nodes/rate_half_band_closure/notes/kb_c2_112_near_fixed_xi_square.py`
   treats fixed-moving, common endpoint `xi=2`, and the square allocation
-  `(c -> 1/2, d -> 1/d)`. Its four exact sign shards have only collision
-  eliminants; three apparent extras force `cd=1`. All four primary shards
-  replay locally under the `60 s` tiny-RAMguard cap. The source SHA-256 is
-  `071ce9502e3a5c3700c20d837e38ce672588212724f28691564b659903d374ac`.
-  This chart is not yet theorem-grade because its load-bearing Groebner
-  elimination still needs an independently written checker.
+  `(c -> 1/2, d -> 1/d)`. Only its endpoint reduction is banked: each of the
+  four line pairs leaves one bidegree `(3,3)` curve after collision factors.
+  The former middle eliminants are retracted because the helper extracted
+  only the exact monomial coefficient of `b`, not its full coefficient in
+  `QQ[c,d]`, and therefore substituted a false constant value for `b`. The
+  corrected helper (SHA-256
+  `830d49882c8183a94442f62862ec9d4a0f5d483466ecb2f1abe4072b04f98860`)
+  emits INCOMPLETE. Both left lines have nonunit leading-coefficient-zero
+  branches. Recompute all four generic middle ideals and audit both full
+  exceptional branches before claiming this chart.
 - **Immediate unresolved input:** the swapped square allocation in that same
   chart has four endpoint curves of bidegrees `(3,2),(2,2),(3,2),(2,2)`.
   First impose the normalization-free constant/leading gate `(KBNEAR-CL)`;
