@@ -1481,6 +1481,14 @@ Thus no aligned negative candidate passes `(KBQS-1)`. The aligned source-line
 attack retains only the positive sign. Both signs remain in the near-aligned
 branch because its target is `tau^*chi_Omega`, not `tau^*q`.
 
+The aligned positive sign has also resisted a broader exact falsifier sweep.
+The seeded standard-library replay
+`notes/kb_c2_112_positive_qslice_sweep.py` tests all twelve internal
+assignments on twenty fixtures at each of five primes. It reconstructs
+`1,188` of `1,200` assignments, skips `12` only for endpoint-label
+collisions, and finds zero `(KBQS-1)` survivors. This is evidence only: no
+generic positive deletion or exceptional-locus classification is claimed.
+
 The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
 the smaller shared actual-component gate. For twelve projective source-row
 quartics `q_i`, stack a `9 x 12` degree-two evaluation parity check across

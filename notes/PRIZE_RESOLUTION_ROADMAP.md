@@ -11320,6 +11320,16 @@ live source-line calculations are now the aligned positive sign and both
 near-aligned signs, with the latter using the actual `tau^*chi_Omega`
 target.
 
+A seeded exact aligned-positive sweep now tests all twelve internal
+assignments on `100` fixtures across `F_1009,F_1013,F_1019,F_1021,F_1031`.
+It reconstructs `1,188/1,200` assignments, skips `12` only for label
+collisions, and finds zero `(KBQS-1)` survivors. This strengthens the
+deletion conjecture but is not a generic proof. A local positive constant-
+coefficient symbolic solve exceeded the `tiny` RAM ceiling before finishing;
+do not repeat that SymPy expression route. An external implementation should
+use rational-function domains or modular interpolation and emit the constant
+mismatch before any full resultant.
+
 ### Compute request CR-KB-C2-112-QR-ELIM
 
 This is the deferred exact-CAS version of that calculation; no run is
