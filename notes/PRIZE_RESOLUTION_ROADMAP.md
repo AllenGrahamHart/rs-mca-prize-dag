@@ -10658,3 +10658,34 @@ Do not launch the raw profile vector census locally or on Modal. Any external
 compute proposal must first quotient shift/sign and conductor symmetries,
 stratify by autocorrelation energy, stream exact resultants, and carry a
 declared subproblem/cost ledger in `notes/PRIZE_COMPUTE_REQUESTS.md`.
+
+## 2026-07-29 KoalaBear cubic endpoint-cofactor narrowing
+
+Starting pins were local `623ab5fa`, canonical prize `0b90fc9b`, and
+upstream K3 PR head `fce150e3323ce37f261b21c19685f4613552dd42`. The
+residual full-V4 `n=3` geometric model automatically induces a decomposable
+inner-degree-six map, so the terminal `m=6` router cannot be invoked without
+cycling back to the same degree-two right component.
+
+The new PROVED
+`rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler`
+instead imports the actual endpoint source presentation. It proves that
+`H | M` is equivalent to a full-support kernel of one explicit `38 x 12`
+matrix. A deterministic `F_47` fixture with the exact `s=6` locator
+ownership and four-edge component color fails the gate by a rank-twelve
+minor of determinant `7`. This is a deleting fixture and an exact universal
+compiler, not a deployed-row deletion.
+
+Burn-down:
+
+```text
+result:                              NARROWED
+critical status delta:               none
+owner/payment delta:                 none
+vague active-pencil gate:            replaced by exact full-support kernel
+pinned admissible packets deleted:   one
+new assumptions:                     none
+live compute requests:               none
+next route-deciding action:          classify s=6 ownership orbits and
+                                     exclude every full-support kernel over K
+```

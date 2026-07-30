@@ -156,6 +156,20 @@ is not a deployed endpoint record, but it proves that the next obstruction
 must use the fixed active pencil or produce a chronology-valid recurrent
 owner/payment. No ledger quantity moves.
 
+The PROVED
+`rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler`
+now makes the first actual-record gate exact. If `H` is the residual
+bidegree-`(2,4)` component and `E_i=B/(z_i H(alpha_i,X))`, divisibility of
+the endpoint source form by `H` is equivalent to a full-support kernel of
+the `38 x 12` matrix with columns `(E_i,alpha_i E_i)`. A pinned split-field
+packet satisfies the exact `s=6` invariant/noninvariant locator ownership,
+two-regular pole graph, and four-edge component-color conditions, but its
+stacked matrix has rank twelve. Thus abstract star/locator realizability no
+longer suffices. The remaining `n=3` task is to exclude a full-support
+kernel for every admissible ownership over the deployed field, or
+reconstruct a surviving cofactor and route its actual block record to a
+chronology-valid owner. No ledger quantity moves.
+
 The PROVED `rate_half_kb_m12_outer_normal_form_compiler` removes arbitrary
 outer-quintic search. Geometrically, the dihedral row is a Dickson quintic
 `x^5-5a*x^3+5a^2*x`; four `r=4` branch profiles have rigid printed forms,
