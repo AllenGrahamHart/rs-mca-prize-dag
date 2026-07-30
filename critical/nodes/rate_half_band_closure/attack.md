@@ -1346,6 +1346,35 @@ the aligned quotient `chi=P_(J_1)` and the near-aligned quotient
 `chi=P_{xi,ell}`, combining each with the existing `4/3` or `6/5`
 square-fiber coefficient cut. No packet is deleted yet.
 
+The internal pure orbit supplies a second source-line gate before full
+interpolation. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate`
+first deletes source ramification of the unique internal common-`K` orbit:
+ramification would create two doubled pure-edge vertices against the one
+remaining defect unit. Over either unramified fiber its two pure stars are
+distinct but cannot be disjoint, so they share one endpoint `a in J_0` and
+
+```text
+U(a,z)=V(a,z)=0.
+```
+
+When the forced square orbit `w` is unramified, deck distinction makes the
+odd part nonzero, and its projective class is uniquely determined by the
+sign and `q=P_(J_1)`. Writing `q=q_0+q_1T+q_2T^2`, set
+
+```text
+F=q_0-epsilon*w*q_2,  G=epsilon*q_2-w*q_0,
+M=q_1(1-epsilon*w),
+N=F+Ma+epsilon*G*a^2,
+D=G+epsilon*Ma+epsilon*F*a^2.
+```
+
+Then `D!=0` and the internal label must satisfy `z=-N/D`. Test these two
+signs and two `J_0` orbits before constructing an interpolation matrix.
+After a passing test and normalization of `V`, only two/one affine `U`
+parameters remain in the positive/negative signs. The forced-ramified
+branch remains a separate attack.
+
 The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
 the smaller shared actual-component gate. For twelve projective source-row
 quartics `q_i`, stack a `9 x 12` degree-two evaluation parity check across

@@ -11208,6 +11208,32 @@ aligned and near-aligned quotient systems separately with the exact `4/3`
 or `6/5` reciprocal coefficient cuts. The biquadratic branch and exceptional
 unsaturated orbit remain outside this reduction.
 
+The internal common-`K` orbit now gives a scalar pre-interpolation test.
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate`
+shows that this orbit cannot be source-ramified: its two ramified fibers
+would spend at least two pure-edge collision units against the one-unit
+residue. At either unramified fiber the two pure stars are distinct and
+share exactly one `J_0` endpoint `a`, so `U(a,z)=V(a,z)=0`.
+
+If the forced square orbit `w` is unramified, `V!=0` by source-deck
+distinction and `V(T,w)~P_(J_1)(T)` pins the full reciprocal odd part.
+For `q=q_0+q_1T+q_2T^2` and sign `epsilon`, define
+
+```text
+F=q_0-epsilon*w*q_2,       G=epsilon*q_2-w*q_0,
+M=q_1(1-epsilon*w),
+N_epsilon(a)=F+Ma+epsilon*G*a^2,
+D_epsilon(a)=G+epsilon*Ma+epsilon*F*a^2.
+```
+
+The denominator is nonzero and every survivor obeys
+`z=-N_epsilon(a)/D_epsilon(a)`. Thus each aligned or near-aligned
+unramified record has four cheap exact tests, from two signs and two `J_0`
+orbits, before interpolation. A passing record retains only two/one affine
+`U` parameters after normalizing `V` and imposing `U(a,z)=0`. The
+forced-ramified source branch remains open.
+
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
 `7f084f2dd27fea2b0a231cc690fc70bdd25e0609`, note/verifier/certificate
 blobs `41bfa82cae8f3804e4287bd51da6d55c3872683a`,
@@ -11231,12 +11257,13 @@ canonical prize pin:      11cea27b (unchanged)
 ending upstream pin:      7f084f2dd27fea2b0a231cc690fc70bdd25e0609
 node attacked:            rate_half_band_closure via diagonal c=2
 result:                   NARROWED + EXPORTED
-DAG delta:                +5 PROVED nodes, +16 edges; target status unchanged
+DAG delta:                +6 PROVED nodes, +19 edges; target status unchanged
 upstream delta:           c2 capacity, linear cut, 202 deletion, 112 classifier,
-                          and source-line quotient descent in PR #1132
+                          source-line quotient descent, and odd-part incidence
+                          gate in PR #1132
 delta-star movement:      none
 new assumptions:          none; (1,1,2) ramified and biquadratic survivors retained
 live compute requests:    none
-next route-deciding step: attack the aligned and near-aligned quotient
-                          systems; route the 123 universal packets separately
+next route-deciding step: evaluate the four odd-part incidence tests on
+                          aligned/near records; attack forced ramification
 ```
