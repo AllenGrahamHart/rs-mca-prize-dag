@@ -341,6 +341,13 @@ only for bounded orchestration or verifier batches known to stay below 1 GiB.
 Do not run exploratory enumeration, large CAS elimination, broad compilation,
 or memory-uncertain computation locally.
 
+In every writable agent clone, disable Git's detached automatic repack with
+`git config gc.auto 0`. An automatic `git gc`, `git repack`, or
+`git pack-objects` child can outlive the RAMguard-wrapped command that spawned
+it. If Git prints an auto-packing notice, inspect the process table at once.
+Run repository maintenance only as a deliberate, foreground RAMguard command
+with a measured bound; never alter this setting in a read-only source tree.
+
 Modal is permitted only when all of these hold:
 
 1. the task is route-deciding for a named node or pre-registered falsifier;

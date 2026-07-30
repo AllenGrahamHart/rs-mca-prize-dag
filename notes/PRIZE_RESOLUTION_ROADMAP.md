@@ -5384,6 +5384,1257 @@ next route-deciding action: continue direct E17/V34 descent while watching
                             the stack for a global owner/payment theorem
 ```
 
+**2026-07-29, KoalaBear K3 coarse-invariant route cut:** upstream PR #1122
+settles which part of the 405-case equality wall cannot close by abstract
+incidence alone.
+
+```text
+upstream source: PR https://github.com/przchojecki/rs-mca/pull/1122
+head: c93988e829e73d2f85db0eb33769bf677935afae
+status at pin: OPEN, READY FOR REVIEW
+exact abstract fixture:
+  69 records, carrier size 1894736, support 981105
+  affine/secant rank 8, full vertex-function rank 9
+  minimum pair secant distance 1053746
+  minimum directed exchange 121284
+  all 3280 projective ternary directions have distance at least 1052958
+  60 canonical bounded circuits, no singleton atoms, all printed
+  restriction-rank inequalities
+route verdict:
+  those pairwise/ternary/exchange/rank/circuit consequences do not imply
+  cap 68 and are not source-bound owner evidence
+load-bearing successor:
+  use the full arbitrary-coefficient GRS-span distance, actual split
+  locators/source quotient/cocycle, primitive Hilbert-Burch module, or a
+  same-record active owner while classifying the 405 live conic cases
+scope fence:
+  abstract fixture only; no GRS embedding, received line, slope, partition,
+  charge, row atom, endpoint, local DAG status, or Prize movement
+independent replay:
+  Python PASS checks=960747; optimized Python PASS; mutations 42/42 rejected
+compute spend: none; local exact replay used under RAMguard, peak input 76 KiB
+```
+
+**2026-07-29, KoalaBear Q6 u2 conic and primitive-monodromy harvest:**
+upstream PRs #1128 and #1129 turn the `Q=6,s=6,u=2` geometric residual into
+one finite functional-decomposition problem. Both scoped theorems were
+audited, replayed locally with independent tiny verifiers, and imported as
+PROVED route evidence. They do not move the owner ledger.
+
+```text
+source reduction: 44542e91e459364a521870ed2ebde7f6fe5055bf
+manual integration pin: 0f7476f0fcbc5d1a1d3eed0c03221aaa48f5767d
+
+PR #1128 head: ad109774f7d9bc320e7e0c046ba83471f39d5cd9
+theorem blob: bd4ca8c756c22f6f475cb06c142de4c981d6b320
+payload SHA-256: 30a5d45895957f774ef972118e227fa54522fc27a48ee0e2a99a0d5a012a5451
+banked theorem:
+  twelve degree-four source divisors saturate 2 div(B)
+  conic invariance excludes reciprocal, D4, and D5 profiles
+  complete Q6 u2 conic-image branch empty
+
+PR #1129 head: 59c4449ca0f5cee929dd39fc7b5ae8b0a33877f4
+theorem blob: 5d0ec0315fca34de80c22983b76bbafa12dd5661
+payload SHA-256: 21a8ca7800745c2c94876d48473801e84f4d9c8f9e6ce5b53e8b8bd66b699962
+banked theorem:
+  residual birational quartic implies monodromy subdegree four
+  none of the nine primitive degree-60 groups has subdegree four
+  residual endpoint map is functionally decomposable
+  exact possible inner degrees: 2,3,4,5,6,10,12,30
+
+local nodes:
+  rate_half_kb_q6_u2_complete_source_conic_exclusion [PROVED]
+  rate_half_kb_q6_u2_primitive_subdegree4_route_cut [PROVED]
+local consumer: rate_half_band_closure [evidence edges only]
+ledger movement: zero
+nonclaims: no domain-compatible quotient owner, descent of a decomposition,
+           u2 closure, cap 68, first-match payment, adjacent certificate,
+           official-row close, or endpoint movement
+next theorem:
+  construct the eight-degree domain-compatible decomposition adapter; for
+  each inner degree either prove incompatibility with the source divisor and
+  pole data or assign an exact first-match owner and charge
+compute policy:
+  classification is already finite and paid; begin symbolically from pole
+  partitions and source-field descent, with no broad enumeration
+```
+
+**2026-07-29, KoalaBear decomposition divisor adapter and degree-five
+deletion:** direct symbolic continuation of the PR #1129 route cut proves
+that geometric decomposability already preserves the local active and source
+divisors, then eliminates one of the eight degree rows over the deployed
+field.
+
+```text
+parent: rate_half_kb_q6_u2_primitive_subdegree4_route_cut [PROVED]
+new nodes:
+  rate_half_kb_degree60_decomposition_divisor_adapter [PROVED]
+  rate_half_kb_degree5_decomposition_exclusion [PROVED]
+endpoint divisor: div(f)=D_act-5 D_src
+active consequence:
+  every outer zero is simple and unramified under h
+  D_act is exactly 60/m complete m-point fibers in F_(p^6)
+source consequence:
+  order-five outer poles pull back to unramified m-point source fibers
+  simple outer poles pull back to m/5 source points of index five
+degree-five row:
+  two index-five points contribute 8=2*5-2, exhausting Riemann-Hurwitz
+  after a deployed-field domain normalization, h-fiber equality is x^5=y^5
+  p=2130706433=3 mod 5 and p^6=4 mod 5
+  gcd(5,p^6-1)=1, so fifth power is injective on P1(F_(p^6))
+  contradiction with a complete five-point rational active fiber
+result: inner degree 5 CLOSED; live degrees {2,3,4,6,10,12,30}
+DAG delta: two PROVED nodes and evidence only toward rate_half_band_closure
+ledger movement: zero
+nonclaims: no coefficient-field descent for the seven rows, full deployed
+           evaluation-domain quotient, witness-data descent, same-record
+           owner, charge, u2 close, cap 68, adjacent certificate, or row close
+compute spend: none; exact integer replays only under RAMguard
+next route-deciding action:
+  exploit the one- or two-fiber source profiles for m=6 and m=12 to test
+  coefficient-field descent and constrain the bidegree-(4,4) component
+```
+
+**2026-07-29, upstream PR #1130 source-pencil harvest:** the independently
+opened successor overlaps the local divisor and degree-five proofs and adds
+four bankable structural reductions. Its scope was audited against the
+endpoint/carrier distinction before import.
+
+```text
+upstream PR: https://github.com/przchojecki/rs-mca/pull/1130
+head: a14a05d9ba80068133e93e2fa77d6d1dc8828829
+parent: 59c4449ca0f5cee929dd39fc7b5ae8b0a33877f4
+theorem blob: e15b77679b7dbc0bb28cf5642a04bb4c71e61429
+certificate blob: 911bac3c1c5d1b4cd9822c59939d60e832b7ef23
+payload SHA-256: 638190df24415e5609fa9c2f50dde8fd22bd150f60e7bef5cd1496cb22d75b4e
+local node: rate_half_kb_decomposition_source_pencil_compiler [PROVED]
+relation:
+  OVERLAP on divisor pullback and degree-five deletion
+  ADDITIVE on source-pencil equivalence, challenge-field descent,
+  degree-30-to-6 refinement, canonical degree-12 compiler, and degree-two
+  deck/carrier-stabilizer gates
+banked consequences:
+  h and the outer map admit models over F_(p^6) after target normalization
+  every source profile is one coprime degree-m binary pencil certificate
+  degree 30 factors through degree 6 and is not a separate row
+  degree 12 has one canonical pencil and one six-dimensional membership test
+  the degree-two deck involution lies in PGL_2(F_(p^6))
+  conditional carrier projectivities are kappa*x or kappa/x only
+result: distinct live degrees {2,3,4,6,10,12}
+ledger movement: zero
+scope fence:
+  endpoint parameters are not evaluation coordinates; carrier cardinality
+  and projectivity results remain conditional on a same-record bridge
+nonclaims:
+  no carrier bridge, received-data or slope descent, owner, payment, u2
+  close, cap 68, adjacent certificate, endpoint movement, or row close
+next route-deciding action:
+  derive witness-data/chronology descent from the actual bidegree-(4,4)
+  component; use the canonical degree-12 test and degree-two deck gate as
+  fail-closed endpoints rather than reconstructing arbitrary maps
+compute spend: none; finite arithmetic replayed locally under RAMguard
+```
+
+**2026-07-29, upstream PR #1131 rank/transverse harvest:** the next stacked
+packet compiles all six source profiles and proves that the actual quartic
+cannot remain inside a terminal inner fiber. It identifies the precise
+source-coupled outer theorem now required.
+
+```text
+upstream PR: https://github.com/przchojecki/rs-mca/pull/1131
+head: e287c54252c7872e1745c7594cfef62b74a65cf5
+parent: a14a05d9ba80068133e93e2fa77d6d1dc8828829
+theorem blob: b4a69440c518f22189ec2060cb3a3a500a23e724
+certificate blob: 5c16c7884b349d7e474b8dfc1267ab357ef0d477
+payload SHA-256: 6d4bc83e40e491f02f7d265b021628ffb7d52b1978c0655f83e5a9d3e0a9f4bb
+local node: rate_half_kb_source_pencil_rank_transverse_compiler [PROVED]
+per-record source templates: 32099; explicitly not a global endpoint census
+exact compiler:
+  source rank two
+  active symmetric-power membership
+  special degree-12 49x5 rank-five / 44-syndrome gate
+same-fiber route:
+  strict proper right factors first
+  primitive degrees 2,3,4,6,10,12 have no subdegree four
+  terminal bidegree-(4,4) component cannot lie in h(T)=h(W)
+transverse terminal:
+  delta*r=4m, delta<=m^2, r<=60/m-1
+  26 exact (m,r,delta) types
+route fence:
+  source/active divisor controls survive for indecomposable m=2,3
+  another source-only rank calculation cannot close the branch
+ledger movement: zero
+nonclaims:
+  no global endpoint census, transverse-row deletion, actual-component
+  realization of controls, carrier bridge, owner, charge, u2 close, cap 68,
+  adjacent certificate, endpoint movement, or row close
+next route-deciding action:
+  impose the inherited quartic/source-star incidence on the 26 transverse
+  rows and terminate each by contradiction, strict coarser decomposition,
+  or chronology-valid carrier/data/slope ownership
+compute spend: none; exact integer replays only under RAMguard
+```
+
+**2026-07-29, direct inner-degree-12 outer cut:** challenge-field splitting
+and the primitive degree-five subdegree list remove two of the four
+degree-12 transverse types without computation.
+
+```text
+new node: rate_half_kb_m12_outer_subdegree_route_cut [PROVED]
+outbound PR: https://github.com/przchojecki/rs-mca/pull/1132 (draft)
+route-cut layer: e368e5c8fc101ae0040b47265c2cd167e70dadd2
+current outbound head: c23eb801af8853d0369a72ea8834c84e7a3242f6
+stack parent: PR #1131 head e287c54252c7872e1745c7594cfef62b74a65cf5
+inputs:
+  outer F has degree 5, one rational pole of order 5, and five distinct
+  rational simple zeros
+  initial transverse rows (r,delta)=(1,48),(2,24),(3,16),(4,12)
+r=3:
+  impossible; primitive degree-five groups have subdegrees 1,2,4 only
+r=1:
+  gives a nontrivial deck graph, hence a cyclic degree-five cover
+  unique pole and second branch point are rational
+  normalized F=a*x^5+b over F_(p^6)
+  gcd(5,p^6-1)=1 forbids five distinct rational zeros
+result:
+  live m=12 rows (2,24),(4,12)
+  global transverse count 26 -> 24
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  no deletion of r=2 or r=4, m12 close, owner, charge, u2 close, cap 68,
+  adjacent certificate, endpoint movement, or row close
+next route-deciding action:
+  apply the canonical degree-12 source pencil and 21-vertex source-star bound
+  to the dihedral r=2 and one-orbit r=4 survivors
+compute spend: none; exact field arithmetic only under RAMguard
+```
+
+**2026-07-29, inner-degree-12 r4 low-genus reduction:** the remaining
+one-orbit degree-five outer component is no longer a generic quintic
+correspondence. A normalization-genus bound and complete tame branch-cycle
+ledger leave five exact rows.
+
+```text
+new node: rate_half_kb_m12_r4_low_genus_branch_profile_reduction [PROVED]
+input type: (m,r,delta)=(12,4,12)
+actual-curve genus:
+  H0 has bidegree (2,4) and is birational to Gamma, hence g(Gamma)<=3
+  Gamma->C has degree 12, hence Riemann-Hurwitz forces g(C)<=1
+outer polynomial ledger:
+  infinity branch cycle (5), finite branch indices sum to 4
+  off-diagonal normalization is the 20-sheet ordered-pair orbit
+complete low-genus profiles:
+  A5: (3),(2,2), genus 0
+  A5: (3),(3), genus 1
+  S5: (2),(3,2), genus 0
+  S5: (2),(4), genus 0
+  S5: (2),(2),(2,2), genus 1
+route cuts:
+  tame polynomial AGL(1,5) absent
+  S5 profiles (2),(2),(3) and four copies of (2) have genus 2 and 3
+  and are impossible
+exact replay:
+  all 120 permutations of S5; 310 admissible ordered two-transitive tuples
+  independent explicit representatives and ordered-pair index audit
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  no deletion or realization of the five profiles; r2 untouched; no r4,
+  m12, owner, carrier/data bridge, charge, u2, cap 68, endpoint, or row close
+next route-deciding action:
+  normalize the genus-zero two-finite-branch rows to rigid polynomial forms;
+  use the genus-one degree-12 cover and source-pole divisor on the other two;
+  attack the dihedral r2 survivor separately
+compute spend: 120-permutation exact local replay under tiny RAMguard; no Modal
+```
+
+**2026-07-29, inner-degree-12 outer normal forms:** the six live geometric
+outer families now have explicit polynomial representatives, eliminating
+arbitrary quintic discovery from this row.
+
+```text
+new node: rate_half_kb_m12_outer_normal_form_compiler [PROVED]
+outbound custody: draft PR #1132 head f7a42415bdb24c7e626b76394558bad100c5a874
+theorem blob: 5a36de4a27d80d5a885aa0751db9fc37d9744aab
+certificate blob: 8e0ecd7f5b008900ada67dbf80848e8dbbff8416
+payload SHA-256: 7eb4f4053f90cb4ca0d0f3379fa3f8f33522ae0ec9b3dc67f5c7e602150d22f0
+r2 dihedral form:
+  D5(x,a)=x^5-5a*x^3+5a^2*x
+  divided difference splits over sqrt(5) into the two r=2 conics
+r4 rigid forms:
+  A5 (3),(2,2): x^3(12x^2-15(1+t)x+20t), 3t^2+4t+3=0
+  A5 (3),(3): x^3(6x^2-15x+10)
+  S5 (2),(3,2): x^3(x-1)^2
+  S5 (2),(4): x^4(5-4x)
+r4 one-parameter form:
+  S5 (2),(2),(2,2): x^2(x-1)^2(2x-5t), on the profile's open locus
+proof engines:
+  genus-zero D5 Galois closure and explicit invariant fields
+  exact derivative integration and repeated-critical-value equations
+scope fence:
+  forms are geometric affine normalizations; no challenge-field coefficient
+  descent or endpoint-record membership is inferred
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  no family deletion or realization, owner, carrier/data bridge, charge,
+  m12, u2, cap 68, endpoint, or row close
+next route-deciding action:
+  derive a fail-closed challenge-field affine-equivalence classifier for the
+  actual outer coefficients recovered from the canonical <A,N0> pencil;
+  then impose split zeros and actual quartic/source-star incidence
+compute spend: exact rational/quadratic-field identities under tiny RAMguard
+```
+
+**2026-07-29, inner-degree-12 split-fiber arithmetic descent:** the actual
+split simple zero fiber removes the constant-field ambiguity and descends
+three of the five `r=4` normalizations all the way to `K`.
+
+```text
+new node: rate_half_kb_m12_split_fiber_arithmetic_descent [PROVED]
+arithmetic monodromy:
+  F^(-1)(0) is five distinct K-points, so rational-fiber Frobenius is identity
+  identity lies in the arithmetic Frobenius coset, hence G_ar=G_geom
+  every geometric outer component is defined over K
+K-affine normal forms:
+  A5 (3),(2,2)
+  S5 (3,2),(2)
+  S5 (4),(2)
+A5 ratio descent:
+  3t^2+4t+3=0 has discriminant -20
+  every prime-field element is square in the even extension F_(p^6)
+  a nonsplit critical pair would force t=1/t, but t is not +/-1
+exact remaining twist list:
+  Dickson D5
+  A5 (3),(3)
+  S5 one-parameter (2),(2),(2,2)
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  no family deletion or realization, twist classifier, source-star close,
+  owner, carrier/data bridge, charge, m12, u2, cap 68, endpoint, or row close
+next route-deciding action:
+  compile coefficient invariants for the three twists; substitute the three
+  descended rigid forms into the canonical pencil and source-star equations
+compute spend: exact modular arithmetic only under tiny RAMguard
+```
+
+**2026-07-29, inner-degree-12 diagonal-socle route cut:** composition
+monodromy removes the full Dickson branch and exposes a synchronized
+one-point-per-outer-block structure on every actual survivor.
+
+```text
+new node: rate_half_kb_m12_diagonal_socle_route_cut [PROVED]
+terminal degree-12 catalogue:
+  M11, M12, PSL2(11), PGL2(11), A12, S12
+  simple socles M11, M12, PSL2(11), A12; every action has subdegrees 1,11
+block-kernel theorem:
+  N = kernel on the five outer blocks
+  [N,N] projects onto every simple inner socle
+  Scott strips + primitive degree-five block action give S^5 or full diagonal S
+  S^5 gives a 12-point orbit in every other block, contradicting |Delta|=4
+cross-action audit:
+  equivalent actions give point-stabilizer orbits 1,11
+  paired ATLAS M12 12a/12b generators reconstruct order 95040
+  the order-7920 12a stabilizer is transitive on 12b
+route consequence:
+  every block met by Delta contributes exactly one synchronized fixed point
+  |Delta|=4 therefore forces outer subdegree r=4
+  r=2 Dickson is deleted; the five r=4 normal forms remain
+  in the M12 case all five block actions have the same action class
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  no r4-family deletion, source-star close, owner, carrier/data bridge,
+  charge, m12, u2, cap 68, endpoint, adjacent certificate, or row close
+next route-deciding action:
+  impose the synchronized diagonal point across all five outer fibers on
+  the canonical <A,N0> pencil and actual source-star divisor
+compute spend: 95,040-element exact permutation replay, under tiny RAMguard
+```
+
+**2026-07-29, inner-degree-12 closure by secondary degree five:** the full
+diagonal socle automatically preserves a second block system, reducing the
+last `m=12` survivor to the already-deleted degree-five row.
+
+```text
+new node: rate_half_kb_m12_secondary_degree5_decomposition_exclusion [PROVED]
+outbound custody: draft PR #1132 head c23eb801af8853d0369a72ea8834c84e7a3242f6
+theorem blob: cd29c893dceb63283c7a731c9a3c4280fa665c5c
+certificate blob: 9e1bd3d89dac6409f148dc134fda46d3bf644c11
+verifier blob: 989e6780f29c22acaa5d231ef9f1e54b47255138
+payload SHA-256: 456b51c78e837c8a27ffda0b43409c63c88128b254be320723728868db096e6f
+normalizer theorem:
+  identify the five equivalent degree-12 socle actions on X
+  a faithful nonregular two-transitive action has trivial Sym(X) centralizer
+  every g normalizing diagonal S acts as (x,i) -> (n_g(x),pi_g(i))
+secondary block system:
+  twelve synchronized columns C_x, each of size five
+  monodromy/intermediate-field correspondence gives an inner-degree-5 factor
+contradiction:
+  the existing deployed-field degree-five exclusion quantifies over every
+  geometric decomposition of the endpoint map
+  fifth-power injectivity forbids its complete five-point rational fibers
+route consequence:
+  all five r4 normal-form families are deleted
+  m=12 is fully closed
+  global transverse frontier: 23 -> 22 types
+  live decomposition degrees: 2,3,4,6,10
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  no close for another degree, owner, carrier/data bridge, charge, u2,
+  cap 68, endpoint, adjacent certificate, or KoalaBear row close
+next route-deciding action:
+  seek a forced secondary block system at m=6; otherwise impose the actual
+  source-star incidence on the smallest surviving outer type
+compute spend: tiny exact finite block and field arithmetic only
+```
+
+**2026-07-29, inner-degree-10 Scott-strip lower-degree route:** all four
+degree-10 transverse types route strictly to smaller decomposition rows.
+
+```text
+new node: rate_half_kb_m10_scott_strip_lower_degree_router [PROVED]
+outbound custody: draft PR #1132 head 412bc68f1dcb6ac3924d6445146417f3c713ef89
+theorem blob: 13645fac5d116ec90ebbd5f1254d74b9715f83be
+certificate blob: 6e49093fdb9d9e55b45c55265eb3cc0c0e65e8c9
+verifier blob: 9f12c4e749b3ab147b2374943c3d9b56c2c90697
+payload SHA-256: 66117d7ba207a66606fc4ae4770a2b314b3510066be7af734b4e579d028ce1d1
+terminal degree-10 catalogue:
+  A5, S5; five A6 almost-simple extensions; A10, S10
+  simple socles A5, A6, A10; subdegrees 1,3,6 or 1,9
+kernel-free audit:
+  only A5 and S5 can fit through the order-120 outer point stabilizer
+  N=1 then forces the global A6 or S6 action on 60 point/two-subset flags
+  exact subdegree rows contain 1,2,3,6,12 but no 4, contradiction
+nontrivial-kernel route:
+  [N,N] is subdirect in six simple socles
+  Scott supports have common size t in {1,2,3,6}
+  t=1 gives a 10-point orbit in another block, contradicting |Delta|=4
+  all socle automorphisms are realized on ten points and centralizers vanish
+  synchronized columns in each strip give inner degree t in {2,3,6}
+route consequence:
+  m=10 has no terminal producer; its four types route strictly downward
+  global independent transverse frontier: 22 -> 18 types
+  live independent decomposition degrees: 2,3,4,6
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  endpoints may still admit degree-10 decompositions; no close for another
+  degree, owner, carrier/data bridge, charge, u2, cap 68, endpoint,
+  adjacent certificate, or KoalaBear row close
+next route-deciding action:
+  classify the degree-6 block kernel and Scott supports; if no strict route
+  survives, impose the actual source-star incidence on its smallest type
+compute spend: exact 720-permutation flag audit under tiny RAMguard; no Modal
+```
+
+**2026-07-29, inner-degree-6 Scott-Cartesian degree-two route:** all six
+degree-six transverse types die through degree five or route to degree two.
+
+```text
+new node: rate_half_kb_m6_scott_cartesian_degree2_router [PROVED]
+outbound custody: draft PR #1132 head 30be68b9421ba37155499d52a0635fa7b10ae3b2
+theorem blob: 0135c1f76e01cac07c958356dc5b5a1056d85432
+certificate blob: af5fd87a5c28f3b021fc05971a665e6d92f978af
+verifier blob: 4df203a90a682d2a1ab7e36f7f98221b7db40592
+payload SHA-256: b34e096730f3d93644c283f95d65f622100d6868e9882ed2b901fa109b3d6116
+kernel-free classification:
+  45 transitive degree-10 groups -> order divisible by 600 -> entries 40..45
+  A10 and S10 point stabilizers have no primitive degree-6 quotient
+  four wreath cases have exact endpoint/intermediate indices 6 and 5
+nontrivial-kernel route:
+  degree-6 socles are A5 or A6 with subdegrees 1,5
+  Scott twists refine into uniform permutation-compatible classes
+  the actual four-point orbit forces compatible class size 5 or 10
+  size 5 is the excluded degree-five row
+  size 10 puts the four-point orbit in one degree-10 column fiber
+  primitive degree-10 subdegrees exclude 4, so the column map factors
+  proper right-factor degrees are 2 or 5; only degree 2 survives
+route consequence:
+  m=6 has no independent terminal producer
+  global independent transverse frontier: 18 -> 12 types
+  live independent decomposition degrees: 2,3,4
+exact audit:
+  explicit groups of orders 7200,14400,14400,28800
+  endpoint stabilizers 720,1440,1440,2880
+  intermediate subgroup index 5 in every case
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  no degree-two deletion or payment, owner, carrier/data bridge, charge,
+  u2, cap 68, endpoint, adjacent certificate, or KoalaBear row close
+next route-deciding action:
+  classify degree 4 using the actual quartic suborbit before any endpoint
+  record expansion
+compute spend: four exact groups, maximum order 28800, under tiny RAMguard;
+               no Modal
+```
+
+**2026-07-29, inner-degree-4 outer A6/S6 route cut:** the complete
+primitive degree-15 catalogue removes three of the four outer types.
+
+```text
+new node: rate_half_kb_m4_outer_a6s6_route_cut [PROVED]
+upstream custody:
+  PR #1132 head: d7232a30a5cca4a42330422415da71f06a7c5a31
+  note/certificate/verifier blobs:
+    13fd38f97fb7087df88fe7c212020933b409d191
+    bb130d089d1ca7c0fcab04b65f66de773952ceb2
+    06854e72fe35720052505c543d86bcf587f61017
+  certificate payload:
+    61a8db82285f22393fc2af6c1d35224d79587fa150009270d42ac33972557485
+incoming m4 types: (1,16),(2,8),(4,4),(8,2)
+primitive degree-15 catalogue:
+  A7, PSL(4,2), A15, S15 have nontrivial subdegree 14
+  A6 and S6 on two-subsets have nontrivial subdegrees 6,8
+proper-factor route:
+  r in {1,2,4} forces outer degree 15 to decompose
+  right-factor degree 3 or 5 gives endpoint inner degree 12 or 20
+  degree 12 is closed; degree 20 violates the source/RH profile
+survivor:
+  (r,delta)=(8,2), outer monodromy A6 or S6 on 15 two-subsets
+  a five-cycle has cycle type 5^3, so the pole profile is compatible
+route consequence:
+  global independent transverse frontier: 12 -> 9 types
+  live types: three at m=2, five at m=3, one at m=4
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  the A6/S6 survivor is not deleted or paid; no owner, bridge, charge,
+  u2, cap 68, endpoint, adjacent certificate, or KoalaBear row close
+next route-deciding action:
+  classify genus-zero A6/S6 degree-15 branch cycles with the printed 5^3
+  pole cycle before imposing split source-star incidence
+compute spend: exact 720-permutation two-subset audit; no Modal
+```
+
+**Same-day `m=4` genus-zero passport reduction:** the remaining outer
+`A6/S6` type is reduced from arbitrary degree-15 maps to four exact geometric
+passports.
+
+```text
+new node: rate_half_kb_m4_a6s6_genus_zero_passport_reduction [PROVED]
+upstream custody:
+  PR #1132 head: 4e33c7be8b3b29848e0ceb8fd7f50dce45fb2eed
+  note/certificate/verifier blobs:
+    4aeeebd65f321fcdfe070b6c78f4ce0ca1c501be
+    c9be4609a28f4c4b89c099e09a359f833dbf7e1b
+    beb62c55287279d095e7162fa2ac2da9ac211fec
+  certificate payload:
+    c9cfbbf394e479f93d8d8378d886331c8afbbaf338e6fc6b21f55e3e1c485fd7
+Riemann--Hurwitz: total index 28; mandatory 5^3 pole costs 12
+complete S6 class table: 11 classes reconstructed from all 720 permutations
+parity-compatible residual index-16 budgets: 9
+product-one generation census:
+  five rows generate only order 60 or 120 and are deleted
+  four rows generate the required order 360 or 720
+retained three-point passports:
+  A6: 5.1,2.2.1.1,4.2
+  S6: 5.1,2.1.1.1.1,6
+  S6: 5.1,2.2.2,3.2.1
+retained four-point passport:
+  S6: 5.1,2.1.1.1.1,2.2.1.1,2.2.2
+A6 split-class audit: both 5-cycle classes agree
+primary mutations: 12/12 rejected
+independent audit: exact agreement on all tuple counts and subgroup orders
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims: no challenge-field descent, split-fiber payment, source-star
+           incidence, m4 deletion, owner, endpoint, or KoalaBear row close
+next route-deciding action:
+  construct/classify the three rigid covers and test split zero/pole fibers
+  plus quartic source-star incidence before the four-point Hurwitz family
+compute spend: below one second under tiny RAMguard; no Modal
+```
+
+**Same-day first rigid `m=4` normal form:** the rational `S6 [6,5,2]`
+degree-six companion has now been normalized in its unordered-pair quotient.
+
+```text
+new node: rate_half_kb_m4_s6_652_pair_quotient_normal_form [PROVED]
+BelyiDB pin:
+  commit 7d5b899b0741ebd505363f7f811e5737e906abee
+  blob   454b284b8d09d855b1fde5c86dac2c28859f0f67
+pair-curve route:
+  quadratic-divisor remainder determinant -> irreducible plane quintic
+  projection from its rational triple point -> one rational conic
+  exact conic parametrization -> degree-15 rational map
+branch fibers:
+  zero:     (6,6,3)
+  one:      (5,5,5)
+  infinity: (2,2,2,2,1,1,1,1,1,1,1)
+challenge-field result:
+  order-five points = -77, 22+33sqrt(5), 22-33sqrt(5)
+  all split over F_(2130706433^6); pole descent cannot delete this passport
+verification:
+  primary exact reconstruction plus 12/12 hostile mutations rejected
+  independent Fraction polynomial/rational-function replay
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims: no split active fiber, quartic source-star incidence, m4 deletion,
+           owner, endpoint, adjacent certificate, or KoalaBear row close
+next action:
+  construct the rigid S6 [5,6,2] and A6 [5,4,2] pair quotients, then impose
+  the same-record active-fiber/source-star conditions in all three forms
+compute spend: exact degree-six polynomial arithmetic under local RAMguard;
+               no Modal
+```
+
+**Same-day second rigid `m=4` normal form:** the rational `S6 [5,6,2]`
+companion has now been normalized through the cubic adjoints of its
+unordered-pair quintic.
+
+```text
+new node: rate_half_kb_m4_s6_562_pair_quotient_normal_form [PROVED]
+BelyiDB pin:
+  commit 7d5b899b0741ebd505363f7f811e5737e906abee
+  blob   94cff64a36672ba6bde9e6cbc1fa251230aa8001
+normalization route:
+  pair-remainder determinant -> irreducible plane quintic
+  singular-scheme cubic adjoints plus one infinitely-near tangent
+  exact resultant -> five fixed factors and one moving (1,5) factor
+  moving point -> degree-15 rational map
+branch fibers:
+  zero:     (5,5,5)
+  one:      (6,3,3,2,1)
+  infinity: (2,2,2,2,2,2,1,1,1)
+challenge-field result:
+  order-five divisor = one Q-point plus two Q(sqrt(5))-points
+  all split over F_(2130706433^6); pole descent cannot delete this passport
+verification:
+  primary exact adjoint/resultant reconstruction; 13/13 mutations rejected
+  independent Fraction replay: exact, 0.08 seconds, about 12 MB
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims: no split active fiber, quartic source-star incidence, m4 deletion,
+           owner, endpoint, adjacent certificate, or KoalaBear row close
+next action:
+  construct the remaining A6 [5,4,2] rigid pair quotient over its quadratic
+  coefficient field, then impose the shared active-fiber/source-star gates
+compute spend: exact low-degree arithmetic under local RAMguard; no Modal
+```
+
+**Same-day third rigid `m=4` normal form:** the `A6 [5,4,2]` companion over
+`Q(nu)`, `nu^2-nu+4=0`, has now been normalized through both cubic-adjoint
+eliminations of its unordered-pair quintic.
+
+```text
+new node: rate_half_kb_m4_a6_542_pair_quotient_normal_form [PROVED]
+BelyiDB pin:
+  commit 7d5b899b0741ebd505363f7f811e5737e906abee
+  blob   55e23bc1ef1d939329a5a6b377d03c07f0ac9f2d
+upstream custody:
+  PR #1132 head: d5c0dc793bc5092561fd43021a52748f17874f72
+  note/verifier/certificate blobs:
+    6cadaf6cebc4c831be0d88d565c1a103bcb3ac84
+    e725fde8875e74d8a2122bc777763167905dbe2a
+    8d5c4c18728a2d6ae572f34c91f79147ce9251df
+  certificate payload:
+    efa96d466a38a43f365e9132ddbbad94b258fd7cfdb613f7e92472529ed66420
+normalization route:
+  pair-remainder determinant -> irreducible plane quintic over Q(nu)
+  rank-eight cubic-adjoint conditions with two tangent constraints
+  y- and z-resultants -> unique moving (1,5) factors
+  moving coordinates -> degree-15 A6 two-subset map
+branch fibers:
+  zero:     (5,5,5)
+  one:      (4,4,4,2,1)
+  infinity: (2,2,2,2,2,2,1,1,1)
+challenge-field result:
+  nu has both roots in F_2130706433
+  the linear-plus-quadratic order-five divisor is distinct for both roots
+  all three points lie in F_(p^2), hence in F_(p^6)
+  pole descent cannot delete this passport
+verification:
+  primary exact reconstruction plus 17/17 hostile mutations rejected
+  independent Fraction Q(nu)[u] replay of T and T-1
+  separate exact adjoint-resultant derivation audit
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims: no split active fiber, quartic source-star incidence, m4 deletion,
+           owner, endpoint, adjacent certificate, or KoalaBear row close
+next action:
+  impose the shared active-fiber/source-star gates on all three rigid maps;
+  treat the four-point S6 Hurwitz family as the remaining geometric family
+compute spend: bounded exact local algebra under RAMguard; no Modal
+```
+
+**Same-day complete `m=4` adjacency-genus exclusion:** the outer orbital
+itself has too much genus to be the degree-two image of the actual source
+component in every retained passport.
+
+```text
+new node: rate_half_kb_m4_adjacency_genus_exclusion [PROVED]
+upstream custody:
+  PR #1132 head: b60dcda4bc84453aa72c4185c72b351fa345ea40
+  note/verifier/certificate blobs:
+    899729ccf9632d8df1fe12537fb30e6d02af643b
+    a51ccce251177a68645c475044b3768777ca4ee5
+    a0b2c8ec260da35ffdefa5a29c7aa5496af5cc79
+  certificate payload:
+    a0bc909a9e05c097440d318f5fe7aed052387507723fc1f3337172d3e5db7428
+source geometry:
+  actual outgoing component bidegree (2,4), normalization genus <=3
+  birational endpoint self-correspondence component Gamma
+  sole m4 type (r,delta)=(8,2), so deg(Gamma->C)=2
+outer orbital:
+  ordered adjacent two-subsets of six letters, degree 15*8=120
+  A6 and S6 both transitive; point-stabilizer subdegrees [1,6,8]
+passport index/genus rows:
+  S6 [6,5,2]:             index 244, genus 3, source lower bound 5
+  S6 [5,6,2]:             index 250, genus 6, source lower bound 11
+  A6 [5,4,2]:             index 246, genus 4, source lower bound 7
+  S6 four-point family:   index 264, genus 13, source lower bound 25
+contradiction:
+  p=2130706433 is odd, hence the degree-two map is separable
+  Riemann--Hurwitz gives g(Gamma)>=2g(C)-1>3 in every row
+route consequence:
+  complete independent m4 row is empty
+  global independent transverse frontier: 9 -> 8 types
+  live types: three at m=2 and five at m=3
+verification:
+  direct induced-permutation producer plus 12/12 hostile mutations rejected
+  independent bit-mask/Burnside fixed-power audit, four of four excluded
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims: no m2/m3 deletion, owner, carrier/data bridge, charge, u2,
+           endpoint cap, adjacent certificate, KoalaBear row, or MCA close
+next action:
+  transport this closure upstream, then attack the eight m2/m3 types using
+  actual quartic/source-star incidence rather than source-only rank tests
+compute spend: below one second under tiny RAMguard; no Modal
+```
+
+**Same-day inner-degree-three primitive-outer router:** every `m=3`
+producer is impossible or comes with an inner-degree-two decomposition.
+
+```text
+new node: rate_half_kb_m3_primitive_outer_degree2_router [PROVED]
+upstream custody:
+  PR #1132 head: bf173815d0a51d880c94c833be125769715f2c49
+  note/verifier/certificate blobs:
+    77b9a0cd08a71fbcce3d2a37151010c3f24fb80a
+    c1684fd20cf6d7a7a81d83d1c4b2fec18b1eb136
+    24f406d8bdb72d8562c91b28890eae59befd6d91
+  certificate payload:
+    0f7c0134c723875d66dd19d96f9c68c7299079b5560e63780910afc6d86f21d4
+incoming m3 types:
+  (r,delta)=(2,6),(3,4),(4,3),(6,2),(12,1)
+outer degree: 20
+complete primitive catalogue:
+  PSL(2,19), PGL(2,19), A20, S20
+  all four subdegree rows are [1,19]
+consequence:
+  no primitive outer map can support any incoming r
+  every outer map has a proper right factor d in {2,4,5,10}
+composite destinations:
+  d=2  -> inner degree 6  -> degree 2 or impossible
+  d=4  -> inner degree 12 -> empty
+  d=5  -> inner degree 15 -> excluded source profile
+  d=10 -> inner degree 30 -> degree 6 -> degree 2 or impossible
+route consequence:
+  m3 is not an independent producer; no m3 nonexistence is claimed
+  global independent transverse frontier: 8 -> 3 types
+  live types: m2 with (r,delta)=(2,4),(4,2),(8,1)
+classification custody:
+  GAP PrimGrp commit 5612e113d50ac23a7d10945383936e20440b4e14
+  PRIMGRP[20] exact bytes 342
+  SHA-256 cbc9ca7fda9b0de36a4034a4d59e24bb6c07aff0e54458604990919583007133
+verification:
+  primary exact catalogue/factor/destination audit
+  independent PSL(2,19),PGL(2,19) projective-line reconstruction
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims: no m2 deletion, m3 nonexistence, owner, charge, u2, endpoint,
+           adjacent certificate, KoalaBear row, or MCA close
+next action:
+  analyze the forced coarser block systems of an m2 producer together with
+  the actual quartic/source-star incidence; primitive degree30 is impossible
+compute spend: below one second under tiny RAMguard; no Modal
+```
+
+**Same-day inner-degree-two V4 outer-recurrence router:** the three live
+types now have exact deck stabilizers and no primitive outer branch, while
+the actual coordinate-stabilized source rows acquire a stricter defect
+normal form.
+
+```text
+new node: rate_half_kb_m2_v4_outer_recurrence_router [PROVED]
+upstream custody:
+  PR #1132 head: d4063dcd9c56835c3916ef792e263ea720a4d397
+  note/verifier/certificate blobs:
+    41dc0c3dd72bc9bc2f7d2759ba3c6ac64491cb08
+    774a2da946399dc28966e8f300ac9a17e6fed27b
+    50d17f218bfa7d3acb211c946db0c025b9a98944
+  certificate payload:
+    fe8141810501fd7b3762a378210609177185972ec706bf9ac943fa398bd82d39
+incoming types:
+  (r,delta)=(2,4),(4,2),(8,1)
+V4 stabilizer law:
+  delta=|Stab_V4(Gamma)|
+  (2,4): full V4
+  (4,2): one of three order-two subgroups
+  (8,1): trivial stabilizer
+complete primitive degree-30 catalogue:
+  PSL(2,29), PGL(2,29), A30, S30
+  all four subdegree rows are [1,29]
+outer consequence:
+  every outer map has a proper right factor d in {2,3,5,6,10,15}
+  endpoint destinations m'=4,6,10,12,20,30
+  every destination is impossible or recurrent to m=2
+source refinement when tau x 1 stabilizes Gamma:
+  preserving source lift is (T,X)->(tau(T),b(X))
+  q_i is supported away from both z_i and z_bar(i)
+  source-star weights are equivariant
+  the weight-three defect type is impossible
+  with d double vertices and e fixed matching vertices:
+    0<=e<=d<=3 and e=d mod 2
+classification custody:
+  GAP PrimGrp commit 5612e113d50ac23a7d10945383936e20440b4e14
+  PRIMGRP[30] exact bytes 344
+  SHA-256 1a923cc8f4428ec22864109cdc60d0c87326e8939cc1d72d217d22df2a4b8da0
+DAG delta: one PROVED router; critical target unchanged
+ledger movement: zero
+nonclaims: no m2 deletion, owner, carrier/data/slope bridge, u2, endpoint,
+           adjacent certificate, KoalaBear row, or MCA close
+next action:
+  write the actual source-coupled equations in the three stabilizer normal
+  forms and break the recurrent decomposition tower; do not count another
+  return to m2 as progress
+compute spend: below one second under RAMguard; no Modal
+```
+
+**Same-day full-V4 source-genus drop:** the `(r,delta)=(2,4)` row can no
+longer use source genus two or three.
+
+```text
+new node: rate_half_kb_m2_r2_full_v4_source_genus_drop [PROVED]
+upstream custody:
+  PR #1132 head: f6bc4a2b2a6a5b3bba98f24a520c67ca3373dbbb
+  note/verifier/certificate blobs:
+    d9bafcc62f9c806e0ece3fa9eba4ccb7522b9707
+    6b103e5033a70edb9233d097fcf6f51b0526e129
+    83e82b826ddfa2f5377e99f439be5f00900507c6
+  certificate payload:
+    9a2ea090568600356f27f3174aee6d08414217b26dbb8f7922931c64a151122f
+input: full V4 stabilizer in the m2 r2 row
+source involutions:
+  eta = deck involution of Gamma->P1_X
+  a   = lift of tau x 1, acting as (tau,b)
+  c   = lift of 1 x tau
+degree-four source cover:
+  Gamma->P1_W has deck group <eta,a>=V4
+conjugation:
+  c fixes a
+  c cannot fix eta without factoring the coefficient map through a
+  quadratic source quotient, which is the excluded line/conic branch
+  therefore c eta c^-1=eta*a
+tame fixed-point result:
+  #Fix(eta)=#Fix(eta*a)=2g+2
+  #Fix(a)=2-2g
+  admissible rows: (g,#Fix(a))=(0,2),(1,0)
+route consequence:
+  source genus 2 and 3 are empty in (r,delta)=(2,4)
+DAG delta: one PROVED narrowing node; critical target unchanged
+ledger movement: zero
+nonclaims: no rational/elliptic deletion, outer passport, owner, carrier,
+           data/slope bridge, u2, endpoint, adjacent certificate, or row
+next action:
+  derive an actual-source genus lower bound or classify the rational and
+  elliptic bidegree-(2,2) outer correspondences
+compute spend: exact finite group/fixed-point arithmetic only; no Modal
+```
+
+**Same-day r2 dihedral outer-factor reduction:** both source-genus regimes
+have rational outer component and a finite four-degree factor list.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_outer_factor_reduction [PROVED]
+upstream custody:
+  PR #1132 theorem commit: b264da9d3309b7b42ab81a1481778d9d92ca8926
+  note/verifier/certificate blobs:
+    dc78b8209e263b8cf982fae4e340c84e1c225372
+    a4a4156ac4057f3892145851771cc44fc0cec157
+    4e389740170515d668ad1057488a484fb43cd104
+  certificate payload:
+    7f85c8e4bf9c1f324a705058992cd2e082a990feeb648f37189ba78d72df831c
+outer genus:
+  source g=0 -> C=P1 directly
+  source g=1 -> a is a two-torsion translation; c and ac are reflections
+                with four fixed points; V4 quotient C=P1
+outer factor:
+  the two degree-two projections of C have distinct involutions u,v
+  <u,v>=D_n is finite because it fixes F(Y)=F(Z)
+  F=G composed q_n, q_n a geometric Dickson/Chebyshev map, n|30
+six-pole sieve:
+  n=2: three generic order-five G poles
+  n=3: two generic order-five G poles
+  n=5: one generic order-five pole plus one simple totally ramified pole
+  n=6: one generic order-five G pole
+  n=10,15,30: impossible
+source-to-outer branch passports:
+  source g=0: inertia a,c,ac over three branch values
+  source g=1: inertia c,c,ac,ac over four branch values
+DAG delta: one PROVED finite reduction; critical target unchanged
+ledger movement: zero
+nonclaims: no n=2,3,5,6 deletion, locator realization, owner, carrier,
+           data/slope bridge, u2, endpoint, adjacent certificate, or row
+next action:
+  impose the actual source and active locator divisors on the four dihedral
+  factors; do not count their return to m2 as progress
+compute spend: exact degree and tame ramification arithmetic only; no Modal
+```
+
+**Same-day degree-five dihedral source-star exclusion:** the exceptional
+totally ramified pole profile is incompatible with the complete source
+defect budget.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion [PROVED]
+upstream custody:
+  PR #1132 head: fe2a549c8de1de34e5ea331ff4c410145207e381
+  note/verifier/certificate blobs:
+    68ec312696ae2b6afc12f538e3583a8f032c58b9
+    31c3f896c65baf642181405d07f320cf75e5a27f
+    ba27da451743fd198efd4b335a0983ed030acbb5
+  certificate payload:
+    1b711c1cde8f0652ce5e713513955ecdc1789e9fd62c361bca00ae05c9b4c287
+input: n=5 inside the full-V4 (m,r,delta)=(2,2,4) row
+dihedral pole profile:
+  one generic order-five pole of G
+  one simple pole of G at the common totally ramified quotient value
+source bridge:
+  div(B)=psi^*(sum_i [alpha_i])
+  h^-1(z_0)={w_+,w_-}, h^-1(y_0)={t_+,t_-}
+  D_w=psi^*[w] has degree two for each w
+star consequence:
+  every point of D_(w_+) and D_(w_-) has star {t_+,t_-}
+  total forced weight is 2+2=4
+  complete-source defect gives maximum star weight three
+result: n=5 is empty; surviving full-V4 factor degrees are {2,3,6}
+DAG delta: one PROVED subcase exclusion; critical target unchanged
+ledger movement: zero
+nonclaims: no n=2,3,6 deletion, other m2 type, owner, charge, u2,
+           endpoint, adjacent certificate, KoalaBear row, or MCA close
+next action:
+  impose the induced two-, three-, and six-cycle incidence on the actual
+  source-star equations; do not treat recurrence as endpoint nonexistence
+compute spend: exact degree-four weight arithmetic only; no Modal
+```
+
+**Same-day degree-two dihedral source-star exclusion:** regular V4 coset
+incidence forces more repeated source-star mass than the quartic budget.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion [PROVED]
+upstream custody:
+  PR #1132 head: 36ed2ac28176fb583cbf15d16f8074b6e8a48de8
+  note/verifier/certificate blobs:
+    0850c2fc84a9c26bc09b8bdd32425caab0e85bf8
+    af95670ec46b4054335e09eee54b98e36eb73150
+    a6705b3507014434052c4c5e63209fae2d566038
+  certificate payload:
+    c3771a0386e955b87f6ec9f4256d9569fb5e9459036653f790691851be0f2a89
+input: n=2 inside the full-V4 (m,r,delta)=(2,2,4) row
+one generic G-pole:
+  q_u fiber has Y-values y_0,y_1
+  q_v fiber has Z-values z_0,z_1
+  regular D_2=V4 incidence is K_(2,2)
+source cross-edge lemma:
+  each z has two unramified endpoint lifts w
+  each D_w=psi^*[w] is reduced of degree two
+  the diagonal lift forces one H-root over each y-value on each source sheet
+weight consequence:
+  2 Z-values * 2 endpoint lifts * 2 source units = 8 units
+  only 2*2=4 cross star vertices are available
+  min sum_v binom(w_v,2)=4, attained only at (2,2,2,2)
+  complete-source defect budget is 3
+result: n=2 is empty; surviving full-V4 factor degrees are {3,6}
+DAG delta: one PROVED subcase exclusion; critical target unchanged
+ledger movement: zero
+nonclaims: no n=3,6 deletion, other m2 type, owner, charge, u2,
+           endpoint, adjacent certificate, KoalaBear row, or MCA close
+next action:
+  analyze orientation compatibility around the n=3 and n=6 incidence
+  cycles; the four-vertex pigeonhole no longer applies
+compute spend: exact four-point coset and integer defect arithmetic; no Modal
+```
+
+**Same-day residual dihedral star-graph rigidity:** the two surviving
+factor degrees have unique complete-source graph shapes up to relabeling.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity [PROVED]
+upstream custody:
+  PR #1132 head: 06a0dcb152687db4017484b215ed851bae52f1f2
+  note/verifier/certificate blobs:
+    11a974bf417dacdc3366c284f5f96f738137cf12
+    7ad80b2d6a457cffb233f371b0f8751244e9138a
+    c842c89b0d4978a12d4ede3d12fc040de6d11741
+  certificate payload:
+    63f6387bba81e51e0a49f409645e9493b3f128f6ab9d119be2dcc64da766b1d4
+input: n=3 or n=6 inside the full-V4 (m,r,delta)=(2,2,4) row
+generic dihedral incidence:
+  reflection quotient incidence is C_(2n)
+  every Z value sees a distinct adjacent pair of Y values
+source orientation law:
+  a:(T,X)->(tau(T),b(X))
+  c eta c^-1=eta*a
+  if D_w uses {t,s},{tau(t),tau(s)}, then D_(tau(w)) uses
+  {t,tau(s)},{tau(t),s}
+complete graph:
+  n=3: two disjoint K_(2,2,2)
+  n=6: two-point blow-up of C_6
+  all 24 source-star weights are one
+  every one of the 12 source labels has degree four
+  complete-source defect is exactly zero
+DAG delta: one PROVED rigidity node; critical target unchanged
+ledger movement: zero
+nonclaims: no n=3 or n=6 existence/deletion, m2 type close, owner, charge,
+           u2, endpoint, adjacent certificate, KoalaBear row, or MCA close
+next action:
+  solve the birational-quartic coefficient realization problem for these
+  two exact graphs, using the quadratic source fibers and V4 branch passport
+compute spend: exact D3/D6 coset and 24-edge graph arithmetic; no Modal
+```
+
+**Same-day residual coefficient-quartic pin:** the source realization is
+now one canonical pullback equation, not an arbitrary quartic interpolation.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin [PROVED]
+upstream custody:
+  PR #1132 head: 3efe818561509dcc6f2ae792f2ed1d22c7d317ae
+  note/verifier/certificate blobs:
+    135c1f300fda1dab365b8a287c5f01f620f2fd20
+    2c69f75ef87aa084a9c868dee304b235db06db1c
+    8df504a15307d229a9c3de2bb876be89819853cb
+  certificate payload:
+    ba9783671d9d91bbd345ebaeec4b894d96be9d8d20f1ccc7d7ee1c5847bf6c81
+input: either surviving n=3 or n=6 full-V4 profile
+sibling correspondence:
+  v is the deck involution of C->P1_Z
+  p -> (Y(p),Y(vp)) is birational onto a symmetric (2,2) curve K
+endpoint normalization: h(t)=t^2, tau(t)=-t
+write:
+  sigma=y_0+y_1, pi=y_0*y_1
+  k=A*pi^2+B*sigma*pi+C*(sigma^2-2*pi)+D*pi+E*sigma+F
+source unordered-pair coordinates:
+  S=t+s, P=t*s
+  sigma=S^2-2P, pi=P^2
+exact coefficient image:
+  Q(S,P)=k(S^2-2P,P^2)
+  Q=A P^4+B S^2P^2-2B P^3+C S^4-4C S^2P
+    +(2C+D)P^2+E S^2-2E P+F
+actual-existence consequence:
+  Q has degree four and equals the irreducible rational coefficient quartic
+DAG delta: one PROVED equation pin; critical target unchanged
+ledger movement: zero
+nonclaims: no n=3 or n=6 existence/deletion, m2 type close, owner, charge,
+           u2, endpoint, adjacent certificate, KoalaBear row, or MCA close
+next action:
+  classify the total-delta-three singular locus and V4 branch passports of
+  this six-coefficient quartic, then specialize to D3 and D6
+compute spend: symbolic degree-four identity only; no Modal
+```
+
+**Same-day residual one-parameter normal form:** the relative endpoint
+coordinate is now retained, reducing each residual factor to one parameter.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form [PROVED]
+upstream custody:
+  PR #1132 head: 3efe818561509dcc6f2ae792f2ed1d22c7d317ae
+  note/verifier/certificate blobs:
+    135c1f300fda1dab365b8a287c5f01f620f2fd20
+    2c69f75ef87aa084a9c868dee304b235db06db1c
+    8df504a15307d229a9c3de2bb876be89819853cb
+  certificate payload:
+    ba9783671d9d91bbd345ebaeec4b894d96be9d8d20f1ccc7d7ee1c5847bf6c81
+standard dihedral sibling conic:
+  x^2+y^2-a*x*y+(a^2-4)=0
+  a=-1 for n=3; a=1 for n=6
+source branch-place gate:
+  the pullback h(T)=Y has exactly two branch places in both source-genus rows
+  therefore exactly one branch value of h lies in Br(Y)={2,-2}
+  normalize that value to 2 and call the other b, with b notin {2,-2}
+target transport:
+  m(x)=(x-2)/(x-b), then m composed h=t^2
+explicit sibling coefficients:
+  A=(a-2)(a-b^2+2)
+  B=-(a-2)(2a-b^2-2b+4)
+  C=(a-b)^2
+  D=4a^2-a*b^2-4a*b-4a+16b-16
+  E=-2(a-2)(a-b)
+  F=(a-2)^2
+result:
+  substitute these into the canonical Q(S,P); one parameter b remains
+DAG delta: one PROVED normal-form node; critical target unchanged
+ledger movement: zero
+nonclaims: no irreducibility for arbitrary b, n=3/n=6 deletion, m2 close,
+           owner, charge, u2, endpoint, KoalaBear row, or MCA close
+next action:
+  classify geometric reducibility in b and impose the six pole fibers and
+  exact source locators on the irreducible locus
+compute spend: exact symbolic coordinate transport only; no Modal
+```
+
+**Same-day residual quartic singularity atlas:** coefficient factorization
+and genus are now completely classified and delete no allowed parameter.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas [PROVED]
+upstream custody:
+  PR #1132 head: 4cdfa41a1de1360155e3d350a5fe3ec99e9fe94b
+  note/verifier/certificate blobs:
+    89eb066c787a5c8556151d3acc6d7a39ca00e129
+    4af7f4298064d1b62d526f83f150666f1df6f658
+    1355c5acace3f031194abf67b227d657132c12b7
+  certificate payload:
+    e402c17bf8f4757f5b534f3b1a9da5faebafe6ac60956a4849f27f66202b96de
+input: Q_(a,b), a in {-1,1}, b notin {-2,2}
+quadratic-in-X form, X=S^2:
+  discriminant=P^2(alpha P^2+beta)
+  alpha=(a-2)(a+2)(b-2)^3(b+2)
+  beta=-4(a+2)(a-b)(b-2)^3
+constant term:
+  M=(a-2)(P+1)^2 N(P)
+  disc(N)=4(a+2)(b-2)^2
+generic b!=a:
+  Q is geometrically irreducible
+  singularities: (0,-1) and P=0, S^2=(a-2)/(a-b)
+  all three are ordinary nodes; total delta=3
+special b=a:
+  Q remains geometrically irreducible
+  one node at (0,-1), one tacnode of delta two at [1:0:0]
+result:
+  every allowed coefficient quartic is rational and geometrically viable
+  coefficient factorization/genus delete no b
+DAG delta: one PROVED atlas node; critical target unchanged
+ledger movement: zero
+nonclaims: no six-pole/source realization, n=3/n=6 deletion, m2 close,
+           owner, charge, u2, endpoint, KoalaBear row, or MCA close
+next action:
+  parameterize Q_(a,b) and impose the six order-five pole fibers, degree-24
+  source locator, and twelve quartic row divisors
+compute spend: exact degree-four derivatives and square classes; no Modal
+```
+
+**Same-day residual source-cover twist classifier:** the relative second
+endpoint is no longer an untracked Mobius parameter at the branch level.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier [PROVED]
+upstream custody:
+  PR #1132 head: 4b722a5f3a03ea3074441553438e212b074de0db
+  note/verifier/certificate blobs:
+    838c595a8aa1ff9f9c597a8004ab4e9ebcf64953
+    9050899a11af3b30f246bdc882a61c8890797565
+    715c980aaf20ad2e6d5075ac3cd1da2903af7e79
+  certificate payload:
+    ec4c0ff7938e4176ba8d5f2a889201b5d683635538a28bed90d86240d4e67313
+standard coordinates:
+  u(r)=1/r, v(r)=lambda/r, mu^2=lambda
+  a=lambda+lambda^-1, d=mu+mu^-1, d^2=a+2
+  Z_0=r/mu+mu/r, actual Z=ell(Z_0)
+quadratic-cover square class:
+  m(Y(r))m(Y(vr))=(Z_0-d)^2/Q_b(Z_0)
+  Q_b(z)=z^2-b*d*z+b^2+d^2-4
+  W^2=m(ell(Z_0))
+forced twist:
+  ell^-1({2,b})=roots(Q_b)
+branch evaluations:
+  Q_b(2)=(b-d)^2, Q_b(-2)=(b+d)^2
+genus classifier:
+  g(source)=0 iff b^2=a+2
+  g(source)=1 iff b^2!=a+2
+DAG delta: one PROVED source-cover classifier; critical target unchanged
+ledger movement: zero
+nonclaims: no common degree-30 function, six-pole/source realization,
+           n=3/n=6 deletion, m2 close, owner, charge, or Prize close
+next action:
+  impose the same degree-30 outer function on both reflection quotients and
+  then pull the six order-five poles through the forced twist
+compute spend: exact quadratic square classes only; no Modal
+```
+
+**Same-day degree-six common-pole exclusion:** the common degree-30 pole
+divisor deletes one of the two residual dihedral profiles.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion [PROVED]
+upstream custody:
+  PR #1132 head: 5bcb2b2bd0158912cb7319ef386ca2523db5436d
+  note/verifier/certificate blobs:
+    d7a3183be7e0524b5bf6174f4c9fb6ff2b57f30f
+    ef144522020aa9f4ffdf5da08af7fbf77b002aeb
+    b6c821cdf89c0e82461ff53216e7a83ac8087ff5
+  certificate payload:
+    224fbbaf75c0aa830c7fab8e6024a51d3454d7ce3a6260184041983806f1e3fd
+input:
+  n=6, so all six poles are one generic fiber of each Dickson-six quotient
+  source-cover branch pair ell^-1({2,b})=roots(z^2-b*d*z+b^2-1), d^2=3
+pole-sextic atlas:
+  coincident involutions -> ell=+/-z, plus +/-3/(2z) only at c=27/8
+  distinct commuting involutions -> c=27/8, but no second Dickson-six fiber
+  order-three involutions -> c=756/125 and ell=+/-g_t,+/-g_t^2,
+                              g_t=t(z+t)/(t-3z), 5t^2+27=0
+twist elimination:
+  reciprocal resultant=22371648 !=0 mod 2130706433
+  order-three primitive norm=71132574457861006005
+                             =1274367339 mod 2130706433 !=0
+result:
+  n=6 is empty; n=3 is the sole residual full-V4 dihedral factor profile
+DAG delta: one PROVED deletion node; critical target unchanged
+ledger movement: zero
+nonclaims: no n=3 construction/deletion, m2 close, owner, payment, K3,
+           endpoint, KoalaBear row, or Prize close
+next action:
+  classify six points that are two generic D3 fibers in both forced endpoint
+  coordinates, then impose the common degree-ten outer and source locators
+compute spend: exact binary-sextic coefficients and 7x7 resultants; no Modal
+```
+
+**Same-day degree-three geometric realization fence:** the sole residual
+profile survives every abstract geometric gate simultaneously.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence [PROVED]
+upstream custody:
+  PR #1132 head: fce150e3323ce37f261b21c19685f4613552dd42
+  note/verifier/certificate blobs:
+    f989c078611e31965e49c84c16eebd8f5ee47de7
+    ea2650fb3fc0b33f2d191559476ec6f7fa9b3ac2
+    7adf13b9e343c51d96cdc7c8878cf5bba15c618c
+  certificate payload:
+    a7f42b038261ea137b2246987dcc398bdddbf807ede6ff46f70429d5a44b2be5
+special parameter: a=b=-1, d=-1, ell=identity, source genus zero
+explicit maps:
+  D3(y)=y^3-3y
+  h(t)=(t^2+2)/(1-t^2)
+  psi(x)=2/(x^2+1)
+  H(t,x)=2(x^2+1)t^2-2x(x^2+3)t+(x^2+1)^2
+exact realization:
+  H and H(t,-x) pull back the non-diagonal D3 correspondence
+  the coefficient map is birational to Q_(-1,-1)
+  any two generic D3 pole fibers give six order-five poles
+  all twelve row quartics divide the degree-24 complete source form
+  sum_alpha div(H(alpha,x))=2 div(B)
+result:
+  common-function/pole/quartic/genus/star/source geometry cannot delete n=3
+  the next gate is the fixed active endpoint pencil or recurrent owner
+DAG delta: one PROVED route-fence node; critical target unchanged
+ledger movement: zero
+nonclaims: no deployed endpoint producer, owner, payment, m2/K3/row close
+next action:
+  compare the fixed KoalaBear source pencil with the special b=-1 model;
+  if compatible, compile the induced degree-six same-record first owner
+compute spend: exact rational identities only; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every
@@ -8136,9 +9387,15 @@ aggregate semantics:
 HIT obligations: reconstructed-variable saturations, both eta roots where
                  applicable, and arithmetic lifts
 launcher:
-  c5ccd14b02e0b0119fbcbbaa20f7eae7214716c13a2e9b8158cce50674bb51af
+  421ef85dbe2f6a5154c348999de3cb79df182cb903d308ba3247575b3c3c2b16
 checker:
-  92b6d6d9e42b15a9c476aea154bfabc57b652a5d54d203c15c79036f09051643
+  e42629a472339216a8dca3532b43300cb34202f539312458e7adca523bd2e61f
+guard extension:
+  for each official-field factor reduce every named guard to
+  u(b)eta+v(b) modulo c_0eta^2+c_1eta+c_2
+  exact statuses: BOTH_ETA_BRANCHES / ONE_ETA_BRANCH / ALL_ETA_REJECTED
+  individual quotient remainders and quadratic norms preserve rejection
+  reasons; the aggregate guard product is checked independently
 validation: AST-only; packet arithmetic remains unrun
 resource delta: none; four one-CPU, 512 MB, 60-second tasks, no retries,
                 atomic partial output; completion time is unmeasured
@@ -8153,6 +9410,10 @@ upstream custody:
     c5ccd14b02e0b0119fbcbbaa20f7eae7214716c13a2e9b8158cce50674bb51af
     92b6d6d9e42b15a9c476aea154bfabc57b652a5d54d203c15c79036f09051643
   export state at pin: OPEN, DRAFT, MERGEABLE
+  current custody audit:
+    PR #1120 was closed after manual consolidation at upstream commit
+    0f7476f0; the written local algebra was retained, but the PR-local unrun
+    launcher/checker packet was intentionally not imported into main
 next route-deciding action: when spend access is explicitly restored, run
                               and replay all four rows; meanwhile attack the
                               remaining saturation/lift interface by hand
@@ -8191,6 +9452,1240 @@ checker hashes:
   verify_audit.py a40dcd461807ab3fbdb1ee8b16c1e2776c99b2db0f6321b2487fb6645a138191
 compute spend: none
 DAG delta: one PROVED background node and six edges; no critical status flip
+upstream custody:
+  predecessor: PR #1120 was manually consolidated at upstream 0f7476f0 and
+               closed before this theorem was exported
+  follow-up PR: https://github.com/przchojecki/rs-mca/pull/1121
+  upstream-base: 93fba1be3f3299b0ba4708d88715377bbb656e45
+  export commit: 55d3812bb1dc7a23f8573cbb9ec4f5b16aa5ed40
+  accepted surface: experimental/experiments.tex plus the required
+                    experimental/agents-log.md coordination entry
+  validation: git diff --check; static proof review only, no TeX or
+              arithmetic execution
+  export state at pin: OPEN, DRAFT, MERGEABLE
 next route-deciding action: compile the full inherited guard product into
                               per-factor and per-role rejection reasons
+```
+
+**2026-07-29, L1 h=7 J-zero exact guard compiler:** the retained role
+interface no longer carries an unspecified bundle of saturations.
+
+```text
+node proved: l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler
+scaled factors:
+  Qhat=X^2+(x+Y_j)X+V_j
+  Ghat=Qhat(X)(X-Y_j)
+  Fhat=Ghat+A Qhat+S_c
+  Lhat=Fhat Ghat=d^6 L(X/d)
+role identities:
+  S_c=eta R_j, lambda=1+eta^(-1), R_j=A Qhat(Y_j)
+collapsed common-quadratic guard:
+  a B (lambda-1) Q(y)=R_j^2/d^6
+exact-fiber identities:
+  disc(Ghat)=disc(Qhat)Qhat(Y_j)^2
+  Res(Ghat,Fhat)=lambda S_c^3
+  disc(Lhat)=disc(Fhat)disc(Qhat)Qhat(Y_j)^2
+             *lambda^2*S_c^6
+residual exact-fiber test: disc(Qhat)*disc(Fhat)!=0
+split/constant tests: Lhat(-1)!=0 and K_6=Lhat(0)!=0
+finite algebraic ledger:
+  b(b+3)D_*T*q*d(d+1)(q-d)*Delta*W*K_6*R_j
+  *eta(eta+1)*disc(Qhat)*disc(Fhat)*Lhat(-1) != 0
+semantics: evaluate after each b/eta/color reconstruction in F_(p^8);
+           reject a zero entry with its exact named reason
+scope fence: no common-root or guard outcome; no norm/congruence outcome;
+             no inner lift, other shape, or critical status flip
+checker state: primary symbolic and independent exact-rational sources
+               written; AST-only local validation; unexecuted
+checker hashes:
+  verify.py       1b09c4d4871b8a315f84de3b090555fce98f21de5d133b8f8e3705f2edd9278b
+  verify_audit.py 137e467c42b8639eb73b024f3f214698edb665b3ec5774d572ad56d403cb006e
+compute spend: none
+DAG delta: one PROVED background node and six edges; no critical status flip
+upstream custody: not yet exported; prefer a small follow-up after PR #1121
+                   is triaged
+next route-deciding action: compile the degree-six outer replay for every
+                              guard-surviving eta/color branch, without
+                              launching while spend is blocked
+```
+
+**2026-07-29, L1 h=7 J-zero guard packet extension:** the source-complete
+role packet now consumes the proved guard compiler without constructing an
+extension field or selecting roots.
+
+```text
+candidate algebra:
+  A_f=F_p[b]/(f), f one eligible irreducible degree 1,2,4,8
+  eta relation c_0eta^2+c_1eta+c_2=0
+per guard:
+  reduce to u(b)eta+v(b) in A_f[eta]
+  norm=v^2-(c_1/c_0)uv+(c_2/c_0)u^2
+  PASS       norm!=0: both eta branches pass
+  ONE_FAIL   norm=0 but (u,v)!=(0,0): exactly one branch fails
+  BOTH_FAIL  u=v=0: both branches fail
+aggregate:
+  multiply all guard residues in the same quadratic algebra
+  BOTH_ETA_BRANCHES / ONE_ETA_BRANCH / ALL_ETA_REJECTED
+  row summary remains INCONCLUSIVE if any eight-filter family is
+  identically zero
+launcher:
+  421ef85dbe2f6a5154c348999de3cb79df182cb903d308ba3247575b3c3c2b16
+checker:
+  e42629a472339216a8dca3532b43300cb34202f539312458e7adca523bd2e61f
+checker scope: independently regenerate all guard templates, reductions,
+               norms, factor ledgers, and role/row summaries
+validation: AST-only; no source polynomial, factorization, or guard arithmetic
+            executed locally
+resource delta: none; same four one-CPU, 512 MB, 60-second tasks, no retries
+completion time: unmeasured; a 60-second miss returns partial rows only
+compute spend: none; Modal remains spend-blocked
+DAG delta: none; no result exists
+upstream custody: not exported; PR #1120 contains the historical role-only
+                   hashes and was already manually consolidated
+next route-deciding action: add normalized color matching and the exact
+                              degree-six outer replay to guard survivors
+```
+
+**2026-07-29, colored-Frobenius HNF payoff correction:** Fable WAVE-32's
+scope objection is valid. The HNF lane is finite, but its connection to the
+critical L1 budget is much narrower than its node count suggests.
+
+```text
+node proved: l1_mersenne_hnf_payoff_scope_router
+post-router t=p obligation lattice:
+  m=4:  4 rows * {h=2}       = 4 cells
+  m=8:  4 rows * {h=2,...,7} = 24 cells
+  m=16: 1 row  * {h=2,...,15}= 14 cells
+  total                         42 cells
+embedded-family compatibility: 23 even cells; 19 odd cells
+complete next-to-maximal payoff:
+  h=7 on four rows plus h=15 on one row gives 42 -> 37
+current J-zero cubic 3+2+1 payoff:
+  no complete row/degree cell until every sibling order-one chart is paid
+full t=p residual payoff:
+  owner-pruned minimum width p -> p+1 only
+  unfloored generic packing improvement=(n-a+p)/p<m+2<=18
+scope fence:
+  no wider exchange, arbitrary-target Toeplitz/Pade section, aggregate
+  first-owner sum, L1 close, or prize status change
+dedicated strategy note: notes/L1_HNF_PAYOFF_LADDER.md
+compute spend: none
+validation: proof and replay sources written; arithmetic replay not run
+priority correction:
+  do not extend the J-zero packet merely because another finite compiler is
+  available; require a plausible full-cell close or independent upstream
+  split-pencil value
+next route-deciding action:
+  audit the global Toeplitz/Pade and first-owner frontiers, then select the
+  smallest theorem that changes a critical budget rather than one HNF chart
+```
+
+**2026-07-29, M31 adjacent quotient-rotation spectrum:** the first global-Q
+audit produced an exact direct-list route verdict rather than another
+conditional max-fiber statement.
+
+```text
+node proved: rate_half_m31_adjacent_quotient_rotation_product_spectrum
+upstream source: integrated cyclic quotient-rotation list-floor theorem
+row: Mersenne-31 ordinary LIST stress row, epsilon=2^-100
+(n,k,a+): (2^21,2^20,1116023)
+specialization: c=2^16, N=32, d=1, m=17, s=1911
+exact 32-class product spectrum:
+  16 * 8,287,155
+   8 * 8,286,755
+   5 * 8,286,751
+   3 * 8,286,750
+  total binom(31,17)=265,182,525
+structured lower floor: 8,287,155
+published average floor: 8,286,954
+improvement: 201
+budget: 16,777,215
+remaining headroom: 8,490,060
+two-copy comparison: B*-2M=202,905>0, but distinct product classes do not
+                     share a received-word prefix and cannot be added
+verdict: exact route calibration; the zero-remainder construction alone does
+         not falsify or prove the adjacent row
+object fence: LIST only; no MCA, U_Q upper payment, or 2^-128 claim
+compute spend: none; proof by Fourier/Ramanujan sums
+replay state: independent DP and Ramanujan verifier sources written, unrun
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1123
+  branch: agent/m31-quotient-rotation-spectrum
+  commit: b6619f20f55beb9183bb0e9d591d0630c8e3f306
+  state at pin: OPEN, READY FOR REVIEW
+  accepted surface: experimental/experiments.tex, one agents-log entry, and
+                    one stdlib-only dual replay
+  replay: direct subset-product DP and independent Ramanujan-sum spectrum
+          both PASS under ordinary and optimized Python
+next route-deciding action: return to the surviving Pade/first-owner upper
+```
+
+**2026-07-29, M31 rank-seven two-block incidence router:** retaining both
+agreement blocks replaces the weak nineteen-slice picture by a collective
+middle-band locator terminal.
+
+```text
+node proved: l1_m31_rank7_zero_excess_two_block_incidence_router
+source terminal: Q=147595, k=4981, proper-G zero-excess mass
+exact support profile per member:
+  planted q_i; external 72428-q_i
+pairwise total intersection: at most 4980
+constant-weight tail caps:
+  q_i<=4980   -> aggregate mass <=40
+  q_i>=67448  -> aggregate mass <=7
+dangerous-class consequence:
+  at least 2157882 distinct locators with 4981<=q_i<=67447
+exact mean-degree inequality:
+  (N Q-M m g)^2 <= gE(MN(m-t)+M^2(Nt-m^2))
+  Nt-m^2=898676
+  forbidden mass implies 23945<Q/M<24860
+scope fence: no middle-band upper bound, Q=147595 payment, v4 atom,
+             higher-rank theorem, row close, or Prize status change
+compute spend: none; proof is analytic
+replay state: two exact verifier sources written; local arithmetic unrun
+next route-deciding action: attack the distinct middle-band locator family
+                              through a whole-family Pade/first-owner theorem
+```
+
+**2026-07-29, M31 dense primitive decorated top-shift router:** the
+middle-band terminal forces a local high-degree object rather than merely a
+large aggregate.
+
+```text
+node proved: l1_m31_rank7_dense_top_decorated_shift_pair_router
+exact-weight pair deficit:
+  D <= (M^2(Nt-m^2)/N+M(m-t))/2
+  Nt-m^2=898676
+at forbidden mass:
+  more than 10% of all pairs have intersection exactly t=4980
+  one member has at least 215793 top neighbors
+top pair normal form:
+  L_i=J A, L_j=J B, deg J=4980, deg A=deg B=w+1=67448
+  A C_i-B C_j=c!=0
+automatic guard:
+  gcd(C_i,C_j)=1, so the counted edges are primitive decorated pairs
+projective compression:
+  one difference direction has at most 15 line members / 14 neighbors
+  forbidden mass forces at least ceil(215793/14)=15414 distinct monic
+  degree-4980 divisors of the anchor support locator in the 6D direction
+  space
+exact sufficient successor:
+  prove a source-bound local neighbor cap <=215792, or the equivalent
+  fixed-support projective divisor-direction cap <=15413
+scope fence: no such upper cap, upstream atom, Q=147595 payment, higher-rank
+             theorem, row close, or Prize status movement
+compute spend: none; proof is analytic
+replay state: two exact verifier sources written; local arithmetic unrun
+upstream custody:
+  PR: https://github.com/przchojecki/rs-mca/pull/1124
+  branch: agent/m31-rank7-dense-top-router
+  head commit: 36721bfb8538bef480048db627d0ea726f8a69f0
+  theorem commit: 4cd4cf79ef3a9f19dae515c27d2cc4b7126f636b
+  state at pin: OPEN, DRAFT, MERGEABLE
+  accepted surface: experimental/experiments.tex plus one agents-log entry
+  validation: git diff --check; static proof review only
+next route-deciding action: attack the first-above-threshold primitive
+                              decorated equation with the Pade owner data
+```
+
+**2026-07-29, M31 fixed-support divisor-cap falsifier:** projective
+compression does not by itself supply the successor upper theorem.
+
+```text
+node proved: l1_m31_fixed_support_divisor_direction_cap_route_cut
+construction:
+  choose a degree-4979 divisor R of the degree-72428 anchor locator
+  V=span{R X,R,1,X,X^2,X^3} is 6D and common-zero-free
+  J_a=R(X-a) over every remaining anchor root
+exact projective divisor count: 72428-4979=67449
+route verdict:
+  universal geometry-only cap 15413 is false
+  fixed-support/projective-code methods cannot close the terminal alone
+surviving load-bearing data:
+  actual received-word realization and A C_i-B C_j=c!=0 decorations
+scope fence: no source-compatible list counterexample, no refutation of a
+             target-sensitive cap, no row or Prize movement
+compute spend: none; explicit algebraic construction
+next route-deciding action: classify or pay the one-root-swap pencil after
+                              imposing the decorated Pade equation
+```
+
+**2026-07-29, M31 actual-list core-shadow payment:** the one-root-swap
+counterfixture is large only after the received-word semantics are erased.
+
+```text
+node proved: l1_m31_top_neighbor_core_shadow_payment
+fixed degree-4979 core R:
+  every matching top neighbor lies in a_0+span{R X,R}
+  affine-span list cap: 241 words including the anchor
+  actual top-neighbor cap: 240 across all roots and scalar labels
+general core hierarchy:
+  B_r=floor(C(N-k+r+1,r+1)/C(w+r+1,r+1))-1
+  each fixed degree-(t-r) core supports at most B_r neighbors
+dense-anchor consequence:
+  215793*4980 neighbor/core incidences
+  at least ceil(215793*4980/240)=4477705 distinct degree-4979 cores
+route verdict:
+  the 67449-direction one-plane counterfixture is paid for actual lists
+  the live obstruction is cross-core aggregation/ownership
+scope fence: no global core count, local cap 215792, Q=147595 payment,
+             row close, or Prize movement
+compute spend: none; analytic use of the proved affine-span theorem
+replay state: two exact verifier sources written; local arithmetic unrun
+upstream custody: PR #1124 head 36721bfb8538bef480048db627d0ea726f8a69f0
+next route-deciding action: combine the core-shadow hierarchy with the
+                              planted/external split and first-owner ledger
+```
+
+**2026-07-29, M31 source-head saturation:** maximal overlap saturates the
+proper-`G` reduced determinant on every top edge.
+
+```text
+node proved: l1_m31_top_pair_source_head_saturation_router
+top-pair source identity:
+  A_i b_j-A_j b_i=(gamma_j-gamma_i) gcd(H_i,H_j)
+  a_j-a_i=(gamma_j-gamma_i) C_ij gcd(H_i,H_j)/L_S
+  gamma_i=[X^(d-1)]f_i, and every top edge has gamma_i!=gamma_j
+head-fiber cap:
+  same-head supports have intersection at most 4979
+  Cauchy cap = floor(1053557*67449/154881)=458812
+dangerous-family consequences:
+  at least five head values
+  at least 1699117 members with deg f_i=d-1
+  the original 215793-neighbor anchor forces 71643276
+  distinct (core,neighbor-head) pairs
+  one nonzero-head anchor has at least 107897 top neighbors
+  that anchor forces 2238863 degree-4979 cores and 35821804
+  distinct (core,neighbor-head) pairs
+route verdict:
+  top-pair decoration is now a source-head difference, not a free scalar
+  the live theorem is cross-head/core ownership or aggregation
+scope fence: no head-spectrum bound, owner add-back, Q=147595 payment,
+             row close, or Prize movement
+compute spend: none; analytic source-degree saturation
+replay state: two exact verifier sources written; local arithmetic unrun
+upstream custody: PR #1124 head 36721bfb8538bef480048db627d0ea726f8a69f0
+next route-deciding action: test the active head/projective-line owner for
+                              disjoint coverage of the colored core shadow
+```
+
+**2026-07-29, M31 source-head infinity-owner route cut:** the source head is
+the extended-RS evaluation-at-infinity functional, but this does not activate
+the existing deletion owner.
+
+```text
+node proved: l1_m31_source_head_infinity_owner_route_cut
+exact interface:
+  fixing gamma is one affine hyperplane / one infinity label
+  the deletion recurrence counts agreements with one fixed received label
+route verdict:
+  one recurrence run pays at most one gamma fiber
+  changing the infinity label changes the received word
+  separate runs cannot be summed as one first-match ledger
+abstract no-go witness:
+  assign every neighbor a private head and 4980 private cores
+  head/core/colored-cell loads are all 1 for arbitrary neighbor mass
+scope fence:
+  no actual source counterexample and no obstruction to a new coupled
+  finite/infinity or Pade owner theorem
+compute spend: none; functional and incidence audit
+upstream custody: PR #1124 head 36721bfb8538bef480048db627d0ea726f8a69f0
+next route-deciding action: derive a source-sensitive aggregate from the
+                              complete reduced-determinant/Pade family, or
+                              leave M31 rank seven and attack another live
+                              critical target with a closing interface
+```
+
+**2026-07-29, E1 pure-cofactor common-prime associate router:** the completed
+profile-`(3,6,S=18)` cofactor campaign has a new non-computational aggregate
+interface.
+
+```text
+node proved: e1_pure_cofactor_common_prime_associate_router
+current residual cofactors: 2,4,8,16
+m=16 residual: primitive multiplicity-four support only
+fixed row/root factorization:
+  (alpha)=P_r(1-zeta_256)^mu
+  alpha/(1-zeta_256)^mu generates P_r
+same-row consequence:
+  every two normalized survivors differ by an algebraic unit of Z[zeta_256]
+fixed-cofactor Cramer-Hadamard box:
+  max coefficient of u and u^(-1) <= 1006,503,251,125
+  for cofactors 2,4,8,16 respectively
+shift/sign quotient:
+  256 torsion associates per orbit
+  remaining classes inject into the full rank-63 unit log lattice
+  ||lambda||_1 <= 2(D+sqrt(128D)), D=log(18^64/(2^mu p))
+exact maximum-weight target:
+  at most 367 log-lattice points across mu=1,2,3,4
+  368 orbits already exceed the complete edge budget
+route verdict:
+  residual maximum-weight vectors are finite bounded unit/inverse families,
+  not unrelated norm-divisibility events or an unbounded unit search
+scope fence:
+  no associate count, lower-profile payment, E1 image bound, row close,
+  or Prize status movement
+compute spend: none; ideal factorization proof
+next route-deciding action: count or sharply bound the inverse-pair boxes
+                              or the equivalent full-unit log-lattice body,
+                              while retaining both sparse profile products
+                              and the exact lower-profile weighted ledger
+```
+
+**2026-07-29, E1 conductor-256 full-unit circular basis:** the unknown unit
+index in the preceding route is eliminated by a published unconditional
+theorem.
+
+```text
+node proved: e1_conductor256_full_unit_circular_basis
+published inputs:
+  Miller, Acta Arith. 164.4 (2014), Theorem 2.1:
+    h(Q(zeta_256)^+)=1 unconditionally
+  prime-power Kummer-Sinnott unit-index formula:
+    [full units : circular units]=h+
+exact consequence:
+  every u in Z[zeta_256]^x has one unique form modulo mu_256
+    u=product_(a=3,5,...,127) eta_a^x_a, x_a in Z
+  eta_a=zeta^((1-a)/2)(1-zeta^a)/(1-zeta)
+  the full log lattice is the 63-column sine-ratio lattice
+route verdict:
+  the E1 367-orbit target is now an explicit Z^63 sparse-associate count;
+  no unknown finite-index correction or full-unit/circular-unit gap remains
+scope fence:
+  the full cyclotomic class number is not one; no regulator bound,
+  lattice-point count, sparse-product count, lower-profile payment,
+  E1 image bound, row close, or Prize status movement
+compute spend: none; published theorem import and exact specialization
+next route-deciding action: derive certified exponent bounds and combine
+                              them with exact sparse multiplication before
+                              proposing any lattice enumeration
+```
+
+**2026-07-29, E1 character-diagonal exponent router:** the requested
+preflight is now theorem-level and requires no numerical search.
+
+```text
+node proved: e1_conductor256_character_diagonal_exponent_router
+group coordinate:
+  G=(Z/256Z)^x/{+-1}=<5>, |G|=64
+  extend the 63 basis exponents to one zero-sum integer vector xi on G
+exact log map:
+  lambda_s=sum_t xi_t f_(s+t)
+  Fourier(lambda)_j=kappa_j Fourier(xi)_(-j)
+  f_t=2log|sin(pi*5^t/256)|
+nonvanishing:
+  every kappa_j, 1<=j<=63, is nonzero because the complete unit-log basis
+  has rank 63; floating-point separation is not a premise
+fixed-cofactor consequence:
+  the AM-GM radius R gives explicit Fourier, L2, coordinate, and weighted
+  ellipsoid bounds on the unique integer exponent vector
+complete successor filter:
+  certified outward kappa intervals + exact u/u^(-1) coefficient boxes +
+  exact sparse multiplication in Z[X]/(X^128+1)
+scope fence:
+  no exponent enumeration, 367-orbit payment, lower-profile payment, E1
+  image bound, row close, or Prize status movement
+compute spend: none
+next route-deciding action: obtain a certified eigenvalue interval table and
+                              count projection; authorize enumeration only
+                              if the exact sparse branch-and-bound is cheap
+```
+
+**2026-07-29, L1 balanced-pencil anchor determinant atlas:** the global
+primitive exact shell now has an exact list-side bridge to the BC
+split-pencil hierarchy.
+
+```text
+node proved: l1_balanced_pencil_anchor_determinant_atlas
+fixed-anchor coordinate:
+  Delta_0=A_0B-B_0A is an affine bijection from the monic balanced
+  coefficient body to F[Z]_(<=s-1)
+global Pade transport:
+  choose the Bezout-dual denominator J with gcd(J,W_0)=1
+  W(P-P_0)=gamma Delta_0L_0 and W=Delta_0J mod W_0
+  every owner is one gcd stratum of this single affine family
+global exact-shell normal form:
+  Delta_0J=Q_Delta W_0+R_Delta
+  W_Delta=W_0+R_Delta
+  exact iff W_Delta|Omega and gcd(Delta_0,1-Q_Delta)=1
+  split numerator divisibility is automatic
+exact owner recovery:
+  Delta_0=(D/gamma)R
+  D=gcd(W_0,W)=gcd(Delta_0,W_0)
+  j=s-1-deg D=k-1-deg G, h=w+1+j, deg R<=j
+fixed-D payment:
+  neighbor quotients lie in projective dimension r<=j+1
+  Y=X+rem_X((R/gamma)J)
+  root-matroid bases give
+    |C_D|<=floor(C(m,r)/(h-r+1))
+  exact codeword distance independently gives
+    |C_D|<=floor(C(m,j+1)/C(h,j+1))
+  use the smaller bound
+  j=0 specializes to floor(m/(w+1)), the one-pencil moving-root cap
+route verdict:
+  coefficient multiplicity, owner ambiguity, and fixed-owner split
+  multiplicity are closed exactly
+  all owners are represented in one primitive quotient/remainder graph
+  the live theorem is a row-sharp count or typed transport of that graph
+scope fence:
+  the number C(omega,s-1-j) of possible D owners can be exponential;
+  no row reserve, L1 status, or Prize status movement
+compute spend: none; exact module determinant and matroid proof
+upstream custody:
+  PR #1125, ready for review, head a663e68df61a49a30289ea148e6f23624b447c89
+next route-deciding action: seek a received-word/Pade priority map that
+                              coalesces determinant owners across D, or a
+                              route cut proving such coalescence impossible
+```
+
+**2026-07-29, E1 certified character-spectrum preflight and route cut:** the
+finite rank-63 unit body is now numerically certified, and its generic
+enumeration is decisively unpriced.
+
+```text
+node proved: e1_conductor256_character_eigenvalue_preflight
+certification:
+  directed Decimal intervals only; Machin pi, Taylor sin/cos, atanh log
+  no library transcendental, FFT, optional package, Modal, or floating accept
+spectrum digest at 30 outward decimal places:
+  6ee33c37477a58c92a087cd7dcf3c128d148a2c8d08887141ff79367aa9efb8d
+spectral bounds:
+  min |kappa_j|>1.7627; max |kappa_j|<24.292
+  sum |kappa_j|^-1<6.556; sum |kappa_j|^-2<1.090
+uniform prize body:
+  D<7.539, R<77.202, max |xi_t|<=7, sum xi_t^2<=101
+exact coarse zero-sum envelope:
+  16616854517524950208619690062355423946568371 > 2^143
+weighted-ellipsoid route cut:
+  all balanced 0,+-1 vectors with up to five signs of each type lie inside
+  38482585013041 explicit exponent vectors before sparse algebra
+route verdict:
+  reject coordinate-, L2-, and ellipsoid-first enumeration
+  next theorem/generator must consume beta=u alpha and alpha=u^-1 beta
+  as sparse profile equations before generating the unit-lattice body
+scope fence:
+  no associate count, 367-orbit payment, lower-profile payment, E1 image
+  bound, row close, or Prize movement
+compute spend: none; verifier runs under one second with tiny RAM
+next route-deciding action: derive support propagation or a coefficient
+                              recurrence from the two sparse product equations
+```
+
+**2026-07-29, E1 exact-L1 route probe prepared; Modal launch blocked:** the
+stronger height shortcut is now a concrete finite optimization problem, but it
+has produced no numerical evidence and no theorem.
+
+```text
+launcher: experiments/prize_resolution/e1_conductor256_l1_svp_modal.py
+problem:
+  minimize ||T xi||_1 over nonzero zero-sum xi in Z^64
+  -7<=xi_t<=7, with cyclic/sign symmetry fixed exactly
+resource cap:
+  one container, 2 CPU, 2 GiB, 240 solver seconds, 280 hard seconds
+proof status:
+  exploratory floating MILP only; every claimed lower bound needs a separate
+  rational proof certificate
+route payoff:
+  optimum >77.202 would make fixed-cofactor associates torsion-only;
+  a vector <=77.202 would redirect work to exact sparse products
+launch outcome:
+  no container started and no credit spent;
+  workspace ac-WIsI8fedhlHGSBu0g8EiyG reported exceeded spend limit
+next action:
+  run this one pilot only after the workspace is enabled; do not expand it
+  into a fleet
+```
+
+**2026-07-29, E1 inverse-kernel exponent contraction:** Fourier inversion now
+uses the phases discarded by the first spectral triangle bound.
+
+```text
+node proved: e1_conductor256_inverse_kernel_contraction
+inverse kernel:
+  q_r=(1/64)sum_(j=1)^63 exp(-2*pi*i*j*r/64)/kappa_j
+certified operator bounds on sum lambda=0:
+  half range(q)<0.044700
+  sum |q_r|<0.802
+prize-radius consequence:
+  max |xi_t|<3.451, sum |xi_t|<61.92
+integer contraction:
+  max |xi_t|<=3, sum |xi_t|<=60, with sum xi_t^2<=101 retained
+route verdict:
+  feed all three bounds to sparse-first exact multiplication and the one
+  capped MILP probe; generic ellipsoid-first enumeration remains rejected
+scope fence:
+  no shortest-unit theorem, associate count, 367-orbit payment,
+  lower-profile payment, E1 close, or Prize movement
+compute spend: none; 64-by-63 directed interval arithmetic with tiny RAM
+next route-deciding action:
+  run the single capped L1 pilot only after Modal spend access is restored;
+  otherwise derive exact sparse coefficient propagation in the contracted box
+```
+
+**2026-07-29, E1 high-cofactor Schinzel collapse:** a sharp entropy bound
+beats the universal height floor for three of the four residual cofactors.
+
+```text
+node proved: e1_high_cofactor_schinzel_height_collapse
+for m=4,8,16:
+  D=log(18^64/(m p))<6.845
+sharp 64-coordinate entropy lemma:
+  D<6.845 => sum|log z_a|<30.645
+same-cofactor unit ratio:
+  ||lambda(u)||1<61.29
+Schinzel lower bound for non-torsion real units:
+  ||lambda(u)||1=256h(u)>=128log(phi)>61.595
+conclusion:
+  each of m=4,8,16 has at most one 256-element shift/sign orbit
+  T_36 <= T_36,m=2+3
+  necessary residual maximum-profile fallback: T_36,m=2<=364
+route verdict:
+  concentrate every further associate attack on cofactor 2; do not recount
+  the three analytically collapsed branches
+scope fence:
+  no cofactor-2 payment, lower-profile payment, E1 close, or Prize movement
+compute spend: none; 63 directed entropy cases plus exact-rational replay
+next route-deciding action:
+  seek a cofactor-2-specific log improvement or sparse product invariant;
+  the general Schinzel comparison misses only this branch
+```
+
+**2026-07-29, E1 cofactor-2 Smyth collapse:** the field-specific height route
+closes the last associate family without enumeration.
+
+```text
+cofactor-2 deficit:                  D<7.539
+certified entropy implication:       P<12.2
+same-cofactor pair upper:             ||lambda(u)||_1<63.878
+Smyth second-value lower:             ||lambda(u)||_1>256log(1.29)
+                                      >65.188407
+all four pure cofactors:              T_36(p,r)<=4
+```
+
+Smyth's least normalized measure `sqrt(phi)` cannot occur in
+`Q(zeta_256)^+`: equality would put the Mahler measure `phi^(d/2)` in that
+field and hence force `sqrt(5)` into a field unramified outside `2`. Exact
+rational signs for `X^4-X^3-3X^2+X+1` certify that the second normalized
+measure exceeds `1.29`. Directed Decimal and exact-rational atanh verifiers
+agree on all 63 entropy side sizes and certificate digest
+`ee3e59acdfed6536189c3ff18476a7c657e279729e0c906ef627c4224c245cb8`.
+
+Effect:
+
+```text
+  the maximum-profile associate multiplicity is complete;
+  no exponent-lattice or sparse-product census is needed for (3,6,S=18);
+  E1 remains TARGET because lower-profile weighted charges remain.
+```
+
+Next action:
+
+```text
+  insert T_36<=4 into the exact weighted-kernel ledger, preserve root,
+  orientation, stabilizer, and class-pair multiplicities, and identify the
+  largest lower profile that can still exhaust the residual edge budget
+```
+
+**2026-07-29, exact profile-(3,6) E1 payment:** the four-orbit theorem is now
+converted back to the official unordered edge ledger.
+
+```text
+profile-(3,6) maximum oriented vectors:  4*256=1024
+profile-(3,6) exact edge charge:          709758113888498314287146042668908462080
+binding residual edge budget:            64417827807586372161179904588832830040487
+next profile:                             (2,10,S=18)
+next dictionary weight:                  1227527050040565145269313275179180544
+tight residual uniform vector cap:       104955
+```
+
+The payment restores the full 256-vector shift/sign orbit and the
+dictionary's oriented-to-unordered factor. The next route is structural:
+derive the `(2,10)` cofactor/prime-ideal partition, spend the existing height
+collapse on each pure cofactor, and keep split primes above `257` and `769`
+as separate associate families. No support-12 census is authorized before
+that partition is priced.
+
+**2026-07-29, profile-(2,10) split-prime router:** local valuation and ideal
+factorization now isolate the lower profile's true obstruction.
+
+```text
+local valuations:                 mu=1,...,10
+exact cofactors:                  2,4,8,16,32,64,128,256,512,1024,
+                                  514,1028,1538
+pure ideal families:              10
+split ideal families:             3*128=384
+height payment per family:        at most one 256-vector orbit
+coarse total:                     T_210<=394, |D_210|<=100864
+coarse profile edge charge:       61906644187645781406222007093836433195008
+```
+
+The three split branches correspond to one prime above `257` or `769` in
+addition to the fixed row prime. They cannot be merged before that prime
+ideal is fixed. The all-occupied envelope consumes about 96.1% of the
+residual budget and is therefore diagnostic, not a final payment.
+
+Next action:
+
+```text
+  bound split-prime occupancy by coupling F(r)=0 mod p with F(s)=0 mod q,
+  or by a resultant/ideal argument; do not enumerate all support-12 vectors
+  before fixing (m,Q_s)
+```
+
+**2026-07-29, profile-(2,10) cofactor-1538 close:** the largest split rational
+prime is removed without a coefficient-support census.
+
+```text
+sharp moment threshold:            m=1538 => V<=4
+V=0:                               wrong 2-adic norm valuation
+V=2:                               L_64 mod 1538=2
+V=4 finite-field screen:           640 hits over 128 roots mod 769
+diagonal Galois types:              5
+exact real-cyclotomic norm verdict: every Norm/1538 below p_min
+profile-(2,10) envelope:            394 -> 266 orbits
+oriented vectors:                   100864 -> 68096
+```
+
+The norm verifier builds the real minimal polynomial `C_64` and all five
+degree-64 multiplication determinants using stdlib exact integers. No support
+vector is enumerated. The remaining split cofactors are `514` and `1028`
+above `257`; attack `1028` first because its moment window is `V<=12`.
+
+**2026-07-29, profile-(2,10) cofactor-1028 high-energy contraction:** a
+bounded-deviation logarithm estimate removes the two largest live energies
+without computation.
+
+```text
+cofactor-1028 moment window:        E=2,3,4,5,6
+integer autocorrelation bound:      E<=6 => x_u<=2 sum|A_d|<=12
+pointwise majorant:                 log(1+x/18)<=x/18-x^2/925
+energy-five norm bound:             log Norm<=64log(18)-128/185
+exact floor verdict:                Norm<1028*p_min
+remaining cofactor-1028 energies:   E=2,3,4
+```
+
+The endpoint of the majorant is paid by the positive atanh series for
+`log(5/3)` with rational margin `7/44400`; the prize-floor comparison uses
+the cubic lower Taylor polynomial for `exp(128/185)` and exact integer
+cross-multiplication. This cancels the proposed energy-five/six support
+classifier. Promote the exact energy-two/three ledgers and complete the
+queued 8,385-type energy-four exact norm replay; do not enumerate supports.
+
+**2026-07-29, profile-(2,10) cofactor-1028 energy-two exclusion:** the same
+bounded-deviation method, used as a lower bound, removes the bottom energy
+without a norm census.
+
+```text
+energy-two deviation interval:       -4<=x_u<=4
+pointwise minorant:                  log(1+x/18)>=x/18-x^2/549
+global lower bound:                  log Norm>=64log(18)-256/549
+exact ceiling verdict:               Norm>1028*p_max
+remaining cofactor-1028 energies:    E=3,4
+```
+
+The endpoint comparison is the positive atanh series for `log(9/7)`, with
+rational margin `1/23058`; `exp(-256/549)>293/549` then clears the official
+ceiling by exact integer arithmetic. The four exploratory energy-two norms
+are no longer load-bearing. Promote the 329-type exact energy-three ledger
+and the queued 8,385-type exact energy-four ledger to finish cofactor `1028`.
+
+**2026-07-29, profile-(2,10) cofactor-1028 energy-three close:** a modular
+resultant engine promotes the complete 329-type ledger with low local cost.
+
+```text
+signed lag triples screened:         C(63,3)*8
+local/mod-257 compatible types:      329
+CRT primes:                          9 exact 31-bit primes
+CRT modulus bits / norm bits:        279 / at most 267
+exact quotient range:                110037709021719095415927105791028375912712994655842773868558710185217329606913
+                                      ..120963671460232983862280624800699787448990635276721201666721603772949806841601
+official verdict:                    all 329 above p_max
+remaining cofactor-1028 energy:      E=4
+```
+
+Trial division proves the CRT primes, AM-GM supplies the reconstruction
+ceiling, and five prior Bareiss norms independently check the resultant
+recurrence. The replay uses about 17 MiB and 1.5 seconds locally. Replace the
+queued 60-container energy-four Bareiss plan with the same modular engine;
+the remaining 8,385 types should fit one low-memory, sub-minute Modal worker.
+
+The queued launcher has now been revised accordingly: 60 checkpointed
+first-lag calls are serialized through one 512 MiB container, and every norm
+is reconstructed by the certified nine-prime CRT engine. The prior rejected
+launch allocated no container and spent no credit; do not retry until the
+workspace spend limit is restored.
+
+**2026-07-29, profile-(2,10) cofactor-514 outer-window contraction:** exact
+logarithm bounds remove both ends of the wider split-prime branch.
+
+```text
+initial moment window:                E=0,...,17
+energy zero:                          wrong 2-adic valuation
+low logarithm minorant:               E=1,...,4 => Norm>514*p_max
+high endpoint majorant:               E=14,...,17 => Norm<514*p_min
+remaining cofactor-514 energies:      E=5,...,13
+```
+
+Both endpoint logarithms use two-term positive atanh sums plus geometric
+tails, with rational margins `776/5736675` and `56987/30028800`. Exact
+exponential comparisons pay the official interval. The next cofactor-514
+step is a fixed-root mod-257 screen by integral autocorrelation shape; do not
+enumerate coefficient supports before that target-level reduction.
+
+**2026-07-29, cofactor-514 middle-shape router:** the nine-energy window is
+now partitioned by autocorrelation magnitudes and filtered before any lag
+census.
+
+```text
+integral magnitude profiles before:   32
+energy-five sparse profile removed:   (1,1,0), above p_max
+high-middle L1 boundaries removed:    (9,3),(10,6),(11,7),(12,10),(13,11)
+integral magnitude profiles after:    17
+E=12 and E=13 survivors:              all-unit only
+```
+
+One common high-middle deficit `69/50` and five exact atanh endpoint margins
+pay the downward-closed `L1` classes; the sparse energy-five profile uses a
+separate lower envelope. Next impose local multiplicity two and the fixed
+primitive-root equation modulo 257 on these 17 shape families. This is still
+an autocorrelation-target problem, not a coefficient-support census.
+
+**2026-07-29, cofactor-514 parity and distinct-trace cap:** two more magnitude
+profiles close without finite-field enumeration.
+
+```text
+E=8 all-even profile:                parity multiplicity contradiction
+E=13 all-unit trace cap:             x_u<2551/100
+certified logarithm deficit:         683/500
+E=13 verdict:                        Norm<514*p_min
+remaining magnitude profiles:       15
+```
+
+The trace cap uses the 13 largest distinct folded traces, rational Machin
+bounds `333/106<pi<355/113`, and a quartic cosine majorant. The remaining
+profiles occupy energies 5 through 12. Continue with the local lag-parity and
+fixed-root mod-257 equations; energy 13 no longer needs a census.
+
+**2026-07-29, exact profile-(2,10) E1 payment:** the weighted ledger can move
+inward without waiting for complete split-cofactor emptiness.
+
+```text
+profile-(2,10) oriented envelope:    68096
+exact profile charge:                41794840999781162066129578393300739162112
+new residual edge budget:            22622986807805210095050326195532090878375
+next profile:                         (1,14,S=18)
+next dictionary weight:               1154418456451360735963226152798543872
+tight residual oriented cap:          39193
+```
+
+This charge includes all 128 possible `514` ideals and all 128 possible
+`1028` ideals. Their continuing refinements can add slack but are no longer
+on the serial path. The active E1 frontier is now the local cofactor and
+prime-ideal partition for `(1,14,S=18)`; retain the exact aggregate residual
+across every later profile.
+
+**2026-07-29, profile-(1,14) split-prime payment router:** the new active
+profile inherits the square-mass-18 cofactor machinery, and the serial
+obligation collapses to the queued energy-four certificate.
+
+```text
+coarse cofactors / orbits:           13 / 394
+after profile-invariant m=1538:      266 orbits
+m=1028 after analytic/exact leaves:  E=4 only
+if E=4 is empty:                     138 orbits, 35328 vectors
+current oriented cap:                39193
+triggered next profile/cap:          (0,18,S=18) / 3994
+```
+
+The transport is legitimate because the consumed norm proofs depend on
+square mass, local valuation, and autocorrelation, not on the split
+`18=4a+b`. The revised one-container CRT job is therefore serial-path compute.
+Do not spend serial effort finishing cofactor `514` before this certificate.
+
+**2026-07-29, cofactor-1028 energy-four analytic close:** the proposed 8,385
+exact resultants collapse to one cubic conjugate-moment inequality.
+
+```text
+multiplicity-four lag sets:          134720
+mod-257 compatible signed types:     8385
+cubic moment:                        sum x_u^3=64K
+exact compatible maximum:            K=24
+global logarithm deficit:            512/729
+official verdict:                    Norm<1028*p_min for every type
+```
+
+The finite screen uses two independent exact formulas for `K`; the compatible
+ledger digest is
+`401203ca53dbd51a859b702767576b50aca05c73216194120a60eff251d1d442`.
+The one-container Modal norm job is superseded and should not be launched.
+Consume this close immediately in the profile-(1,14) payment.
+
+**2026-07-29, exact profile-(1,14) E1 payment:** the analytic energy-four
+close discharges the router's only pending premise.
+
+```text
+profile-(1,14) oriented envelope:    35328
+exact profile charge:                20391647614756836040054426763033478955008
+new residual edge budget:            2231339193048374054995899432498611923367
+next profile:                         (0,18,S=18)
+next dictionary weight:               1117325838856821897682125205459304448
+tight residual oriented cap:          3994
+```
+
+All 128 cofactor-514 ideals are charged, so no unfinished cofactor-514
+argument is hidden in this payment. The serial frontier is now `(0,18)`. Its
+inherited ten pure families account for 2,560 vectors; because a complete
+shift/sign orbit has 256 vectors, at most five of the 128 cofactor-514 ideal
+families may survive if this profile is to fit below cap 3,994.
+
+**2026-07-29, universal cofactor-514 product ceiling:** dependency audit of
+the new frontier found that the older outer-energy leaf cited `E<=17` without
+wiring a theorem that actually stated it. The missing result is now proved
+profile-independently.
+
+```text
+fixed boundary energy:               E=18, V=36
+feasible two-level chambers:         57
+closest chamber:                     j=63 lower entries
+exact verdict:                       max product < 514*p_min
+monotonic extension:                 every E>=18 excluded
+adjacent guard:                      E=17 envelope remains above threshold
+```
+
+The old profile-(2,10) outer leaf now consumes this theorem instead of the
+profile-(4,2) variance-window node. This both repairs its provenance and
+licenses transport of the surviving `E=5,...,13` route to `(0,18)`.
+
+**2026-07-29, universal cofactor-1028 energy-window repair:** the same
+dependency audit found that the four energy leaves cited a profile-specific
+variance theorem that did not state their `E=2,...,6` premise. The corrected
+profile-independent window is now exact:
+
+```text
+E=0:                                wrong 2-adic norm valuation
+E=1:                                L_32^2 mod 1028 = 452
+E=7 boundary chambers:              61, all below 1028*p_min
+monotonic extension:                every E>=7 excluded
+adjacent E=6 chamber:               above threshold, retained
+global live window:                 E in {2,3,4,5,6}
+```
+
+All energy-two, energy-three, energy-four, and energy-five/six leaves now
+consume this theorem. Thus the profile-(1,14) payment remains valid after a
+strict provenance audit, and the same complete cofactor-1028 exclusion is
+available at `(0,18)`.
+
+**2026-07-29, profile-(0,18) exact router:** eighteen singleton exponents
+again realize every allowed local valuation one through ten. After the
+repaired global exclusions, only ten pure families and the 128 cofactor-514
+ideals remain.
+
+```text
+current profile/cap:                 (0,18,S=18) / 3994
+live cofactor-514 shapes:            15 at E=5,...,12
+pure-family charge:                  10 complete orbits
+maximum split occupancy to pay:     5 ideals
+threshold vectors:                  15*256=3840
+threshold charge:                   2145265610605098043549680394481864540160
+threshold residual:                 86073582443276011446219038016747383207
+next profile/cap:                    (4,4,S=20) / 329
+```
+
+The new exact red is `e1_profile018_m514_five_ideal_occupancy`. Attack it
+falsification-first: six genuinely occupied `F`-ideals kill the threshold.
+Autocorrelation roots alone are not occupied ideals; parity, all-singleton
+realization, and exact norm/row compatibility must remain distinct gates.
+
+**2026-07-29, exact Galois/norm occupancy dictionary:** diagonal Galois action
+turns the five-ideal red into a cleaner exact norm-multiplicity problem.
+
+```text
+fixed-row occupied ideals O_514(p,r)
+  = diagonal Galois orbits of actual profile-(0,18) collisions
+    with exact norm 514p
+```
+
+Regularity gives one representative of each Galois orbit in every row-root
+fiber; same-ideal height collapse makes its `Q_s` label injective. Therefore
+the count is independent of `r`. A true falsifier is six realizable Galois
+orbits sharing one exact official-admissible prime quotient, not six
+mod-257/autocorrelation hits. Use the latter only to reject intermediate
+proof routes.
+
+**2026-07-29, mod-257 singleton-completion no-go:** the isolated finite-field
+gate is provably nonselective for the active all-singleton profile.
+
+```text
+(e,sign) -> sign*3^e mod 257:       bijection onto F_257^*
+explicit support:                    {0,...,15,17,78}
+local multiplicity:                  1
+root:                                F(3)=0 mod 257
+Galois transports:                   all 128 primitive roots
+example energy:                      1478, outside the live window
+```
+
+Thus a root/local screen cannot remove any split ideal in principle. Do not
+fund a computation at that gate alone. The first selective object must couple
+the root equation to low-energy all-singleton realization, then exact
+norm/official-prime multiplicity.
+
+**2026-07-29, cofactor-514 Hermite profile refinement:** a
+profile-independent quadratic Hermite majorant improves the middle-energy
+ledger without support enumeration. For deviations of mean zero, variance
+`v`, and upper bound `M`, interpolation at `-v/M` and `M` reduces the norm
+bound to the exact two-point distribution with those moments. Exact integer
+cross-multiplication removes
+
+```text
+(E;n1,n2,n3)=(9;1,2,0):             M=10, v=18
+(E;n1,n2,n3)=(11;7,1,0):            M=18, v=22
+live cofactor-514 magnitude rows:    15 -> 13
+```
+
+The occupancy threshold remains five ideals. The next analytic boundary is
+the all-unit energy-twelve row. Its continuous two-moment envelope misses the
+field-floor comparison slightly, so a further close must spend a discrete
+trace, local-multiplicity, or fixed-root constraint rather than repeat the
+same moment inequality.
+
+**2026-07-29, energy-twelve root/parity route cut:** even the combined
+autocorrelation-level necessary screen is nonempty. The explicit target
+
+```text
+D={1,...,11,15},                    A_d=+1 on D
+energy/profile:                     (12;12,0,0)
+local parity multiplicity:          2
+primitive root modulo 257:          148=3^59
+uniform unit-circle floor:           Y>=4
+cubic relation index:               K=378
+```
+
+survives energy, local parity, factor-257, positivity, and cubic-moment
+checks. Its exact real-cyclotomic norm is divisible by 514, but the quotient
+
+```text
+81586655821452087305363431809893675164014023805430622462841107305845289913087
+```
+
+is below `p_min`. This is not an 18-singleton coefficient realization. The
+example proves that the first genuinely selective gates are integral
+singleton spectral-factor realization and exact norm; either may be applied
+first when the candidate representation makes it cheaper.
+
+**2026-07-29, energy-ten profile-(6,1) cubic close:** the discrete signed
+relation ledger improves the generic third-moment bound just enough to remove
+one more cofactor-514 shape.
+
+```text
+profile:                              (E;n1,n2,n3)=(10;6,1,0)
+nested-layer sizes:                   14,2
+generic layer bound:                  |M3|<=268
+signed relation divisibility:         M3=0 mod 6
+exact usable cap:                     M3<=264
+cubic Hermite contacts:               33/2,65/2
+certified verdict:                    Norm<514*p_min
+live cofactor-514 magnitude rows:     13 -> 12
+```
+
+This is profile-independent and uses no coefficient realization or support
+enumeration. The occupancy threshold remains five ideals. The remaining
+generic layer bounds all miss the field floor, so another moment-only pass
+must add genuinely sharper additive information rather than replay this
+relaxation.
+
+**2026-07-29, all-unit energy-twelve close:** the local multiplicity condition
+supplies the additive information missing from the relaxed layer bound.
+
+```text
+profile:                              (E;n1,n2,n3)=(12;12,0,0)
+local parity consequence:             odd number o of odd positive lags
+parity-split relation cap:             M3<=510
+cubic Hermite contacts:               17,40
+certified verdict:                    Norm<514*p_min
+live energies:                        5,...,11
+live cofactor-514 magnitude rows:     12 -> 11
+```
+
+The proof counts `EEE` and `EOO` relation types separately for all six odd
+values of `o`; no lag-set enumeration or coefficient realization enters. The
+former `{1,...,11,15}` route-cut witness is still a valid warning about the
+pre-norm screens, but its whole magnitude profile is now analytically dead.
+
+**2026-07-29, all-unit energy-eleven close:** recursively pricing the even
+part of the relation support through the `2`-power filtration sharpens the
+one-step parity count.
+
+```text
+profile:                              (E;n1,n2,n3)=(11;11,0,0)
+top odd-lag cases:                    o in {1,3,5,7,9,11}
+dyadic recursive relation cap:        M3<=384
+cubic Hermite contacts:               17,37
+certified verdict:                    Norm<514*p_min
+live energies:                        5,...,10
+live cofactor-514 magnitude rows:     11 -> 10
+```
+
+The recurrence is an analytic upper bound on symmetric zero-sum triples in
+`Z/2^k Z`; its verifier evaluates only a tiny dynamic table. The same cap
+does not close energy ten, so the next step must add a different constraint.
+
+**2026-07-29, profile-independent class-descent close:** the fixed row-prime
+ideal factorization bypasses every surviving energy profile.
+
+```text
+upper field L:                       Q(zeta_256)
+lower field K:                       Q(zeta_128)
+[L:K]:                               2
+upper primes above 257:              128
+lower primes above 257:              64
+extensions per lower prime:          2
+published lower class index:         Z/359057
+published Galois multipliers:        -1,29301
+exact modular orbit size:            64
+proved occupancy bound:              O_514<=2
+required payment bound:              O_514<=5
+profile-(0,18) orbit count:           at most 10+2=12
+profile-(0,18) oriented vectors:      at most 3072
+next profile/cap:                     (4,4,S=20) / 1971
+next full-orbit allowance:            7
+```
+
+For fixed `P_r`, every occupied `Q_s` satisfies
+`(alpha)=P_r(1-zeta_256)Q_s`, so all occupied upper primes have one ideal
+class. Relative ideal norm sends them to one class in `K`. If the 64 lower
+primes above 257 have pairwise distinct classes, only one lower prime occurs,
+and it has exactly two upper extensions.
+
+Bernstein's pinned S-unit talk prints the exact class index, assigns the base
+prime class one, and gives the two Galois multipliers. Exact integer
+arithmetic confirms that `{+/-29301^j:0<=j<32}` contains 64 classes. The
+released software does not expose the load-bearing n=64 class computation.
+
+The class-orbit theorem is proved without assuming those printed
+coordinates. The Galois group `(Z/128Z)^x` is a 64-element 2-group with
+exactly three nonidentity involutions `63,65,127`. The proved
+conductor-256 real class-number theorem descends to real class number one at
+conductor 128 by extension/norm and Weber oddness, so complex conjugation
+acts by class inversion. It is therefore enough to prove that the two
+explicit ideals
+
+```text
+(257,zeta_128-9)(257,zeta_128-57),
+(257,zeta_128-9)(257,zeta_128-248)
+```
+
+are nonprincipal. They exclude involutions 65 and 63; either also makes the
+base class nontrivial, while odd class number excludes involution 127. Every
+nontrivial stabilizer would contain an involution.
+
+The 17-primary product `q_1q_65` is now proved nonprincipal without a BNF.
+Dembele identifies the class-number-17 CM field
+`E=Q(i(zeta_64+zeta_64^(-1)))` and its Hilbert class field; his exact Elkies
+polynomial is irreducible modulo 257. This gives a nontrivial Artin symbol at
+every prime above 257, and norm descent proves `q_1q_65` nonprincipal.
+
+For the second product put `beta=zeta_128-zeta_128^(-1)`. Both `q_1` and
+`q_63` contract to
+
+```text
+p_66=(257,beta-66)
+```
+
+in the degree-32 fixed field `Q(beta)`.
+
+This second test is closed by an explicit Kummer-style certificate. A
+32-term Jacobi-sum product `alpha` satisfies
+
+```text
+(alpha)=(q_1 q_63/(q_127 q_65))^(2*21121).
+```
+
+At `r=5406977=256*21121+1`, the product of the power-residue characters for
+the 32 embeddings `zeta_128 -> u^s`, `s=1,3,...,63`, kills all 31 full-unit
+generators and every `21121`st power, but sends `alpha` to `500235 != 1`.
+Hence `q_1q_63` is nonprincipal. Extension of a hypothetical generator of
+`p_66` would generate `q_1q_63`, so `p_66` is nonprincipal as well. Two
+independent tiny verifiers evaluate the Jacobi sums directly and through
+coefficient polynomials.
+
+Both involution tests, the 64-prime class orbit, the two-ideal descent, and
+the exact profile-(0,18) payment are therefore unconditional.
+
+The stronger bound is priced directly rather than routed through the older
+five-ideal threshold. The proved payment leaves residual
+`515126704564295620156155116913120291239`; exact adjacent comparisons give
+`floor(2R/M_33(4,4))=1971`. Thus the next profile needs at most seven full
+256-vector orbits, not one.
+
+Burn-down:
+
+```text
+result:                              CLOSED
+profile-specific live rows:          10 -> bypassed
+proved occupancy threshold:          5 -> 2
+proved next-profile cap:             329 -> 1971
+proved involution tests:             q_1*q_65 Harbater; q_1*q_63 residue
+new exact assumptions:               none
+retired compute request:             CR-E1-QZETA128-P257-CLASS-ORBIT
+next route-deciding action:          profile (4,4,S=20), at most 7 orbits
+```
+
+The first route decision at that profile is now exact. Four singleton
+coefficients give the complete relevant local valuation set
+
+```text
+{1,2,3,4,5,6,8,9,10,12,16,17,18,20}.
+```
+
+The square-mass-20 field floor is much weaker than at square mass 18:
+
+```text
+m<=floor(20^64/(B_P 2^128))=1707433.
+```
+
+Local reciprocity and the global residue-degree condition leave `1133`
+necessary-sieve cofactor values, including all fourteen pure powers of two.
+This is not evidence for 1133 collisions; it is a certified method fence.
+The former ideal-family router cannot reach seven without an additional
+profile-specific exclusion. The selected positive routes are now:
+
+1. classify the low-autocorrelation profile-`(4,4)` supports and exact
+   conductor-256 resultants;
+2. prove collective ideal occupancy across different cofactors; or
+3. replace the serial cap by a mixed weighted payment.
+
+Do not launch the raw profile vector census locally or on Modal. Any external
+compute proposal must first quotient shift/sign and conductor symmetries,
+stratify by autocorrelation energy, stream exact resultants, and carry a
+declared subproblem/cost ledger in `notes/PRIZE_COMPUTE_REQUESTS.md`.
+
+## 2026-07-29 KoalaBear cubic endpoint-cofactor narrowing
+
+Starting pins were local `623ab5fa`, canonical prize `0b90fc9b`, and
+upstream K3 PR head `fce150e3323ce37f261b21c19685f4613552dd42`. The
+residual full-V4 `n=3` geometric model automatically induces a decomposable
+inner-degree-six map, so the terminal `m=6` router cannot be invoked without
+cycling back to the same degree-two right component.
+
+The new PROVED
+`rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler`
+instead imports the actual endpoint source presentation. It proves that
+`H | M` is equivalent to a full-support kernel of one explicit `38 x 12`
+matrix. A deterministic `F_47` fixture with the exact `s=6` locator
+ownership and four-edge component color fails the gate by a rank-twelve
+minor of determinant `7`. This is a deleting fixture and an exact universal
+compiler, not a deployed-row deletion.
+
+Burn-down:
+
+```text
+result:                              NARROWED
+critical status delta:               none
+owner/payment delta:                 none
+vague active-pencil gate:            replaced by exact full-support kernel
+pinned admissible packets deleted:   one
+new assumptions:                     none
+live compute requests:               none
+next route-deciding action:          classify s=6 ownership orbits and
+                                     exclude every full-support kernel over K
 ```

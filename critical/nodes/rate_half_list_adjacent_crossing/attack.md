@@ -1,5 +1,13 @@
 # Attack surface
 
+- Consume `rate_half_m31_adjacent_quotient_rotation_product_spectrum` before
+  proposing the zero-remainder quotient-rotation family as an adjacent M31
+  counterexample. At `(n,k,a)=(2^21,2^20,1116023)`, its exact maximum product
+  class is `8,287,155`, only 201 above the average-floor theorem and still
+  `8,490,060` below the auxiliary `2^-100` budget. A stronger lower route
+  must merge genuinely different prefix families in one received word or use
+  another construction; multiplying product-class counts is invalid.
+
 The complete branches `B*=1,2` are closed at `a_L=3n/4` by the proved
 low-budget exact-crossing theorem. On the remaining branches `B*>=3`, the
 unsafe side at the prize-max razor row is already proved by

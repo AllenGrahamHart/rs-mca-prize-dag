@@ -363,8 +363,8 @@
     "background/nodes/e1_official_low_square_mass_pair_budget/attack.md",
     "background/nodes/e1_official_low_square_mass_pair_budget/frontier.md"
    ],
-   "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 65127585921474870475467050631501738502567, about 1.714K; maximum low-mass collision degree three is sufficient. The weighted-kernel dictionary gives E_low=(1/2)sum_d M_ell(a(d),b(d)); after the prize field floor removes S=16, at most 69541 oriented vectors is a stronger uniform sufficient condition. The Plotkin compiler then forces more than B* values.",
-   "attack_surface": "prove the exact weighted folded-kernel budget, the stronger 69541 oriented-vector cap on the binding row, or maximum collision degree three; the leading (4,2,S=18) profile now has only cofactors 2 and 4, so attack m=4 before m=2 and retain exact orientations, stabilizers, and class-pair multiplicities",
+   "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 65127585921474870475467050631501738502567, about 1.714K; maximum low-mass collision degree three is sufficient. The weighted-kernel dictionary gives E_low=(1/2)sum_d M_ell(a(d),b(d)). The maximum profile (3,6,S=18) is paid exactly at its four-orbit upper bound. For the next profile (2,10,S=18), cofactor 1538 is now excluded and the coarse envelope is T_210<=266; the remaining split-prime cofactors are 514 and 1028 above 257. The Plotkin compiler then forces more than B* values.",
+   "attack_surface": "attack the profile-(2,10) cofactor-1028 branch through its universal V<=12 window, using finite-field autocorrelation types and exact real-cyclotomic norms before any support census; then treat 514, never merge distinct Q_s, and preserve orientation, stabilizer, and class-pair multiplicities in the residual weighted ledger",
    "falsifier": "an admissible row whose exact unordered low-mass collision-pair count exceeds its printed budget, or a multiplicity/type error in a claimed count"
   },
   {
@@ -3057,6 +3057,675 @@
    ],
    "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 16 is impossible when the six-singleton support lies in one parity class but not one residue class modulo four. A complete 9080-orbit once-divided atlas, an exact square-norm contraction, and dual complete radius engines place all 1816625504 product-live vectors outside the prize interval.",
    "notes": "EXACT BRANCH EXCLUSION 2026-07-28: forward triple/sign and reverse sign/triple engines agree orbit by orbit on 73175732492 unique radius triples, 585405859936 exact sign tests, 1816625308 below-window vectors, 196 above-window vectors, and zero unresolved. Only the 39936 primitive m16 support orbits remain open."
+  },
+  {
+   "id": "e1_conductor256_full_unit_circular_basis",
+   "title": "Conductor-256 full-unit circular basis",
+   "status": "PROVED",
+   "closure": "published real class-number theorem, Kummer-Sinnott unit-index theorem, and exact specialization",
+   "refs": [
+    "background/nodes/e1_conductor256_full_unit_circular_basis/statement.md",
+    "background/nodes/e1_conductor256_full_unit_circular_basis/proof.md",
+    "background/nodes/e1_conductor256_full_unit_circular_basis/claim_contract.md",
+    "background/nodes/e1_conductor256_full_unit_circular_basis/dependency_subdag.md",
+    "background/nodes/e1_conductor256_full_unit_circular_basis/audit.md",
+    "background/nodes/e1_conductor256_full_unit_circular_basis/result.md",
+    "background/nodes/e1_conductor256_full_unit_circular_basis/frontier.md",
+    "background/nodes/e1_conductor256_full_unit_circular_basis/source_pin.json",
+    "background/nodes/e1_conductor256_full_unit_circular_basis/verify.py"
+   ],
+   "statement": "Every algebraic unit of Z[zeta_256], modulo mu_256, has a unique exponent vector in the 63 standard real circular units eta_a for odd 3<=a<=127. The full unit log lattice is therefore the explicit integer span of the sine-ratio matrix. This uses the unconditional theorem h(Q(zeta_256)^+)=1 and the prime-power Kummer-Sinnott unit-index formula.",
+   "notes": "EXACT LITERATURE-BACKED LATTICE IDENTIFICATION 2026-07-29: Miller Theorem 2.1 is unconditional at conductor 256. This is a full-unit basis theorem, not the false assertion that the full cyclotomic field has class number one. No regulator estimate, lattice-point count, sparse-associate count, or E1 payment follows."
+  },
+  {
+   "id": "e1_pure_cofactor_common_prime_associate_router",
+   "title": "E1 pure-cofactor common-prime associate router",
+   "status": "PROVED",
+   "closure": "ideal factorization, AM-GM reduction, and exact conductor-256 unit-basis theorem",
+   "refs": [
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/statement.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/proof.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/claim_contract.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/dependency_subdag.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/audit.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/result.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/frontier.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/lineage.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/upstream_crosswalk.md",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/source_pin.json",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/verify.py",
+    "background/nodes/e1_pure_cofactor_common_prime_associate_router/verify_audit.py"
+   ],
+   "statement": "At one fixed prize N=256 reduction root, every collision of absolute norm 2^mu p has principal ideal P_r(1-zeta)^mu. Dividing by the ramified factor gives a generator of P_r, so every two pure-cofactor collisions are normalized unit associates. Fixed-cofactor associates have explicit unit/inverse coefficient boxes and, modulo 256 shifts/signs, inject into an exact AM-GM body in the full rank-63 unit log lattice. That lattice has an explicit 63-circular-unit integer basis, and the exact maximum-weight profile target is at most 367 torsion orbits.",
+   "notes": "ANALYTIC AGGREGATE ROUTER 2026-07-29: the current profile-(3,6,S=18) residue has cofactors 2,4,8,16, with only the primitive m=16 support branch live. Cramer-Hadamard gives coefficient bounds 1006,503,251,125; the log body is ||lambda||_1<=2(D+sqrt(128D)), D=log(18^64/(2^mu p)). Miller's unconditional h+=1 theorem and Kummer-Sinnott identify the full lattice with 63 explicit circular units. Each orbit pays 128M_33(3,6) edges; 368 already exceed the complete edge budget. No orbit count, lower-profile payment, E1 image bound, or prize status movement follows."
+  },
+  {
+   "id": "e1_conductor256_character_diagonal_exponent_router",
+   "title": "Conductor-256 character-diagonal exponent router",
+   "status": "PROVED",
+   "closure": "finite-group Fourier diagonalization and exact exponent bounds",
+   "refs": [
+    "background/nodes/e1_conductor256_character_diagonal_exponent_router/statement.md",
+    "background/nodes/e1_conductor256_character_diagonal_exponent_router/proof.md",
+    "background/nodes/e1_conductor256_character_diagonal_exponent_router/claim_contract.md",
+    "background/nodes/e1_conductor256_character_diagonal_exponent_router/dependency_subdag.md",
+    "background/nodes/e1_conductor256_character_diagonal_exponent_router/audit.md",
+    "background/nodes/e1_conductor256_character_diagonal_exponent_router/result.md",
+    "background/nodes/e1_conductor256_character_diagonal_exponent_router/frontier.md",
+    "background/nodes/e1_conductor256_character_diagonal_exponent_router/verify.py"
+   ],
+   "statement": "The full conductor-256 circular-unit log map is a cyclic convolution on (Z/256Z)^x/{+-1}. Its 63 nontrivial character eigenvalues are explicit and nonzero. The fixed-cofactor E1 AM-GM body therefore gives certified Fourier, Euclidean, coordinate, and weighted-ellipsoid bounds on the unique integer exponent vector, reducing every associate family to a finite exact sparse-multiplication search.",
+   "notes": "ANALYTIC SEARCH COMPILER 2026-07-29: extends the 63 basis exponents to one zero-sum 64-vector and diagonalizes by the characters of the cyclic group generated by 5. Nonvanishing follows from full log-lattice rank, not floating point. The packet prints a complete finite exponent region but no orbit count; exact inverse-pair coefficient and profile multiplication tests remain mandatory. No E1 or Prize status movement."
+  },
+  {
+   "id": "e1_conductor256_character_eigenvalue_preflight",
+   "title": "Conductor-256 character eigenvalue preflight",
+   "status": "PROVED",
+   "closure": "directed interval arithmetic and exact finite dynamic programming",
+   "refs": [
+    "background/nodes/e1_conductor256_character_eigenvalue_preflight/statement.md",
+    "background/nodes/e1_conductor256_character_eigenvalue_preflight/proof.md",
+    "background/nodes/e1_conductor256_character_eigenvalue_preflight/claim_contract.md",
+    "background/nodes/e1_conductor256_character_eigenvalue_preflight/dependency_subdag.md",
+    "background/nodes/e1_conductor256_character_eigenvalue_preflight/audit.md",
+    "background/nodes/e1_conductor256_character_eigenvalue_preflight/result.md",
+    "background/nodes/e1_conductor256_character_eigenvalue_preflight/frontier.md",
+    "background/nodes/e1_conductor256_character_eigenvalue_preflight/verify.py"
+   ],
+   "statement": "All 63 nontrivial character eigenvalues of the conductor-256 unit-log convolution have certified outward intervals. On the universal prize envelope every exponent vector satisfies max |xi_t|<=7 and sum xi_t^2<=101, but the coarse zero-sum body has more than 2^143 points and the weighted ellipsoid contains at least 38482585013041 explicit sparse points. Generic ellipsoid-first enumeration is therefore rejected in favor of sparse-product/inverse classification.",
+   "notes": "CERTIFIED PREFLIGHT AND ROUTE CUT 2026-07-29: Machin/Taylor/atanh directed arithmetic gives spectrum digest 6ee33c37477a58c92a087cd7dcf3c128d148a2c8d08887141ff79367aa9efb8d, min magnitude >1.7627, max <24.292, D<7.539, and R<77.202. Exact DP counts 16616854517524950208619690062355423946568371 coarse vectors. No associate count, lower-profile payment, E1 image bound, or Prize movement."
+  },
+  {
+   "id": "e1_conductor256_inverse_kernel_contraction",
+   "title": "Conductor-256 inverse-kernel contraction",
+   "status": "PROVED",
+   "closure": "directed interval arithmetic and Fourier inversion",
+   "refs": [
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/statement.md",
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/proof.md",
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/claim_contract.md",
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/dependency_subdag.md",
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/audit.md",
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/result.md",
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/frontier.md",
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/verify.py",
+    "background/nodes/e1_conductor256_inverse_kernel_contraction/verify_audit.py"
+   ],
+   "statement": "The certified inverse character kernel has half-range below 0.044700 and L1 norm below 0.802 on the zero-sum log hyperplane. Combined with the strict prize radius, every live conductor-256 fixed-cofactor exponent vector satisfies max |xi_t|<=3 and sum |xi_t|<=60.",
+   "notes": "CERTIFIED SEARCH CONTRACTION 2026-07-29: directed inversion of all 63 nonzero character eigenvalue rectangles retains their phases and improves the coordinate box from [-7,7] to [-3,3], with an additional even integer L1 budget 60. The weighted ellipsoid still contains at least 38 trillion vectors, so generic enumeration remains rejected. No associate count, 367-orbit payment, lower-profile payment, E1 close, or Prize movement."
+  },
+  {
+   "id": "e1_high_cofactor_schinzel_height_collapse",
+   "title": "E1 high-cofactor Schinzel height collapse",
+   "status": "PROVED",
+   "closure": "sharp entropy bound plus Schinzel's totally real height theorem",
+   "refs": [
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/statement.md",
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/proof.md",
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/claim_contract.md",
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/dependency_subdag.md",
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/audit.md",
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/result.md",
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/frontier.md",
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/verify.py",
+    "background/nodes/e1_high_cofactor_schinzel_height_collapse/verify_audit.py"
+   ],
+   "statement": "At one fixed prize row and primitive quotient root, each profile-(3,6,S=18) cofactor branch 4, 8, or 16 contains at most one negacyclic shift/sign orbit. The exact deficit is below 6.845; a sharp entropy extremum bounds every associate log L1 below 61.29, while Schinzel's theorem forces every non-torsion real unit above 128 log(phi)>61.595. Hence the three branches contribute at most three orbits in total.",
+   "notes": "ANALYTIC ASSOCIATE COLLAPSE 2026-07-29: all 63 entropy side sizes are certified independently by directed Decimal and exact-rational atanh arithmetic. The cofactor-2 branch remains open, as do all lower-profile weighted charges. No collision existence/emptiness, E1 close, or Prize movement."
+  },
+  {
+   "id": "e1_cofactor2_smyth_height_collapse",
+   "title": "E1 cofactor-2 Smyth height collapse",
+   "status": "PROVED",
+   "closure": "sharp entropy bound plus Smyth's totally real measure spectrum",
+   "refs": [
+    "background/nodes/e1_cofactor2_smyth_height_collapse/statement.md",
+    "background/nodes/e1_cofactor2_smyth_height_collapse/proof.md",
+    "background/nodes/e1_cofactor2_smyth_height_collapse/claim_contract.md",
+    "background/nodes/e1_cofactor2_smyth_height_collapse/dependency_subdag.md",
+    "background/nodes/e1_cofactor2_smyth_height_collapse/audit.md",
+    "background/nodes/e1_cofactor2_smyth_height_collapse/result.md",
+    "background/nodes/e1_cofactor2_smyth_height_collapse/frontier.md",
+    "background/nodes/e1_cofactor2_smyth_height_collapse/verify.py",
+    "background/nodes/e1_cofactor2_smyth_height_collapse/verify_audit.py"
+   ],
+   "statement": "At one fixed prize row and primitive quotient root, the profile-(3,6,S=18) cofactor-2 branch contains at most one negacyclic shift/sign orbit. Its associate log L1 is below 63.878, while Smyth's second normalized totally real Mahler value gives every non-torsion conductor-256 real unit log L1 greater than 256 log(1.29)>65.188. The least Smyth value is excluded because it would force Q(sqrt(5)) into a field unramified outside 2.",
+   "notes": "FIELD-SPECIFIC ASSOCIATE COLLAPSE 2026-07-29: directed Decimal and exact-rational atanh engines agree on all 63 entropy cases and digest ee3e59acdfed6536189c3ff18476a7c657e279729e0c906ef627c4224c245cb8. Exact polynomial signs certify the beta_2 measure threshold. Combined with the high-cofactor node, T_36(p,r)<=4. Lower-profile weighted charges remain; no E1 close or Prize movement."
+  },
+  {
+   "id": "e1_profile36_exact_weighted_payment",
+   "title": "E1 profile-(3,6) exact weighted payment",
+   "status": "PROVED",
+   "closure": "exact integer ledger",
+   "refs": [
+    "background/nodes/e1_profile36_exact_weighted_payment/statement.md",
+    "background/nodes/e1_profile36_exact_weighted_payment/proof.md",
+    "background/nodes/e1_profile36_exact_weighted_payment/claim_contract.md",
+    "background/nodes/e1_profile36_exact_weighted_payment/dependency_subdag.md",
+    "background/nodes/e1_profile36_exact_weighted_payment/audit.md",
+    "background/nodes/e1_profile36_exact_weighted_payment/result.md",
+    "background/nodes/e1_profile36_exact_weighted_payment/frontier.md",
+    "background/nodes/e1_profile36_exact_weighted_payment/verify.py"
+   ],
+   "statement": "On the binding prize rate-1/8 row, profile (3,6,S=18) contributes at most 709758113888498314287146042668908462080 unordered collision pairs. The residual edge budget is 64417827807586372161179904588832830040487; the largest remaining profile is (2,10,S=18), and 104955 is the tight uniform sufficient cap on all remaining oriented vectors.",
+   "notes": "EXACT MAXIMUM-PROFILE PAYMENT 2026-07-29: the ledger restores 256 oriented vectors per shift/sign orbit and the dictionary's division by two. Exact enumeration ranks all 271 eligible profiles and identifies (2,10,S=18) next. This pays no lower profile and causes no E1 close or Prize movement."
+  },
+  {
+   "id": "e1_profile210_split_prime_ideal_router",
+   "title": "E1 profile-(2,10) split-prime ideal router",
+   "status": "PROVED",
+   "closure": "local valuation census, residue-degree sieve, and ideal factorization",
+   "refs": [
+    "background/nodes/e1_profile210_split_prime_ideal_router/statement.md",
+    "background/nodes/e1_profile210_split_prime_ideal_router/proof.md",
+    "background/nodes/e1_profile210_split_prime_ideal_router/claim_contract.md",
+    "background/nodes/e1_profile210_split_prime_ideal_router/dependency_subdag.md",
+    "background/nodes/e1_profile210_split_prime_ideal_router/audit.md",
+    "background/nodes/e1_profile210_split_prime_ideal_router/result.md",
+    "background/nodes/e1_profile210_split_prime_ideal_router/frontier.md",
+    "background/nodes/e1_profile210_split_prime_ideal_router/verify.py"
+   ],
+   "statement": "On the binding prize row, every profile-(2,10,S=18) collision has one of ten pure power-of-two cofactors or one of 514, 1028, and 1538. The latter expose one of 128 primes above 257 or 769. Every fixed ideal family contains at most one 256-vector shift/sign orbit, so T_210<=394, |D_210|<=100864, and the coarse edge charge is at most 61906644187645781406222007093836433195008.",
+   "notes": "SPLIT-PRIME FRONTIER 2026-07-29: exact Hasse-derivative enumeration gives mu=1,...,10 and the residue-degree sieve leaves thirteen cofactors. The ten pure families are paid; the remaining problem is occupancy of 384 distinct split-prime families, not unit multiplicity. Charging all 384 is too expensive for the later-profile ledger. No E1 close or Prize movement."
+  },
+  {
+   "id": "e1_profile210_m1538_collision_exclusion",
+   "title": "E1 profile-(2,10) cofactor-1538 collision exclusion",
+   "status": "PROVED",
+   "closure": "sharp moment envelope, finite-field orbit screen, and exact real-cyclotomic norms",
+   "refs": [
+    "background/nodes/e1_profile210_m1538_collision_exclusion/statement.md",
+    "background/nodes/e1_profile210_m1538_collision_exclusion/proof.md",
+    "background/nodes/e1_profile210_m1538_collision_exclusion/claim_contract.md",
+    "background/nodes/e1_profile210_m1538_collision_exclusion/dependency_subdag.md",
+    "background/nodes/e1_profile210_m1538_collision_exclusion/audit.md",
+    "background/nodes/e1_profile210_m1538_collision_exclusion/result.md",
+    "background/nodes/e1_profile210_m1538_collision_exclusion/frontier.md",
+    "background/nodes/e1_profile210_m1538_collision_exclusion/verify.py"
+   ],
+   "statement": "No binding-row profile-(2,10,S=18) collision has cofactor 1538. The sharp moment envelope forces V<=4; V=0,2 are impossible, and the V=4 branch reduces to five Galois types whose exact real-cyclotomic norm quotients all lie below the prize field floor. Hence the profile envelope drops from 394 to 266 shift/sign orbits and from 100864 to 68096 oriented vectors.",
+   "notes": "EXACT SPLIT-PRIME EXCLUSION 2026-07-29: a 640-hit finite-field screen over all primitive roots modulo 769 canonicalizes to five types. Stdlib Bareiss determinants recompute all five degree-64 norms. No support-vector enumeration, heuristic primality, E1 close, or Prize movement. The remaining split cofactors are 514 and 1028 above 257."
+  },
+  {
+   "id": "e1_profile210_m1028_energy56_log_exclusion",
+   "title": "E1 profile-(2,10) cofactor-1028 energy-five/six exclusion",
+   "status": "PROVED",
+   "closure": "bounded-deviation logarithm majorant with exact rational margins",
+   "refs": [
+    "background/nodes/e1_profile210_m1028_energy56_log_exclusion/statement.md",
+    "background/nodes/e1_profile210_m1028_energy56_log_exclusion/proof.md",
+    "background/nodes/e1_profile210_m1028_energy56_log_exclusion/claim_contract.md",
+    "background/nodes/e1_profile210_m1028_energy56_log_exclusion/dependency_subdag.md",
+    "background/nodes/e1_profile210_m1028_energy56_log_exclusion/audit.md",
+    "background/nodes/e1_profile210_m1028_energy56_log_exclusion/result.md",
+    "background/nodes/e1_profile210_m1028_energy56_log_exclusion/frontier.md",
+    "background/nodes/e1_profile210_m1028_energy56_log_exclusion/verify.py"
+   ],
+   "statement": "No binding-row profile-(2,10,S=18) collision with cofactor 1028 has autocorrelation energy five or six. Integer autocorrelations bound every conjugate deviation by 12; a rationally certified quadratic logarithm majorant then forces the norm below 1028 times the prize field floor. The live energy set contracts to {2,3,4}.",
+   "notes": "ANALYTIC LOW-ENERGY CONTRACTION 2026-07-29: the proof uses exact atanh and exponential rational bounds, not a support or norm census. It removes the proposed energy-five/six compute campaign. Energies two through four and all 128 prime ideals above 257 remain; no E1 close or Prize movement."
+  },
+  {
+   "id": "e1_profile210_m1028_energy2_log_exclusion",
+   "title": "E1 profile-(2,10) cofactor-1028 energy-two exclusion",
+   "status": "PROVED",
+   "closure": "bounded-deviation logarithm minorant with exact rational margins",
+   "refs": [
+    "background/nodes/e1_profile210_m1028_energy2_log_exclusion/statement.md",
+    "background/nodes/e1_profile210_m1028_energy2_log_exclusion/proof.md",
+    "background/nodes/e1_profile210_m1028_energy2_log_exclusion/claim_contract.md",
+    "background/nodes/e1_profile210_m1028_energy2_log_exclusion/dependency_subdag.md",
+    "background/nodes/e1_profile210_m1028_energy2_log_exclusion/audit.md",
+    "background/nodes/e1_profile210_m1028_energy2_log_exclusion/result.md",
+    "background/nodes/e1_profile210_m1028_energy2_log_exclusion/frontier.md",
+    "background/nodes/e1_profile210_m1028_energy2_log_exclusion/verify.py"
+   ],
+   "statement": "No binding-row profile-(2,10,S=18) collision with cofactor 1028 has autocorrelation energy two. The deviation bound |x_u|<=4 and a rationally certified logarithm minorant force the norm above 1028 times the official field ceiling. Combined with the energy-five/six leaf, only energies three and four remain.",
+   "notes": "ANALYTIC ENERGY-TWO EXCLUSION 2026-07-29: the proof uses an exact atanh tail and integer field-ceiling comparison, not the four exploratory energy-two norms. Energies three and four and all 128 prime ideals above 257 remain; no E1 close or Prize movement."
+  },
+  {
+   "id": "e1_profile210_m1028_energy3_modular_norm_exclusion",
+   "title": "E1 profile-(2,10) cofactor-1028 energy-three exclusion",
+   "status": "PROVED",
+   "closure": "complete finite-field type census and exact CRT resultants",
+   "refs": [
+    "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/statement.md",
+    "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/proof.md",
+    "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/claim_contract.md",
+    "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/dependency_subdag.md",
+    "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/audit.md",
+    "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/result.md",
+    "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/frontier.md",
+    "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/source_pin.json",
+    "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/verify.py",
+    "experiments/prize_resolution/e1_profile210_m1028_e3_modular_norm.py",
+    "experiments/prize_resolution/e1_profile210_m1028_e3_modular_norm_result.json"
+   ],
+   "statement": "No binding-row profile-(2,10,S=18) collision with cofactor 1028 has autocorrelation energy three. The complete local-multiplicity-four and mod-257 screen leaves 329 signed Galois types; exact CRT resultants put every Norm/1028 quotient above the official field ceiling. In combination with the other energy leaves, only energy four remains.",
+   "notes": "EXACT ENERGY-THREE EXCLUSION 2026-07-29: nine trial-division-certified 31-bit primes reconstruct each norm uniquely below the AM-GM ceiling. The engine reproduces five independent Bareiss norms, and the 329-row ledger digest is d462adc241981e2e3aa9747a5ba582808d8ebf505e2df6a86fdad2df52a7d3cc. Energy four and all 128 prime ideals above 257 remain; no E1 close or Prize movement."
+  },
+  {
+   "id": "e1_profile210_m514_outer_energy_log_exclusion",
+   "title": "E1 profile-(2,10) cofactor-514 outer-energy exclusion",
+   "status": "PROVED",
+   "closure": "exact bounded-deviation logarithm bounds",
+   "refs": [
+    "background/nodes/e1_profile210_m514_outer_energy_log_exclusion/statement.md",
+    "background/nodes/e1_profile210_m514_outer_energy_log_exclusion/proof.md",
+    "background/nodes/e1_profile210_m514_outer_energy_log_exclusion/claim_contract.md",
+    "background/nodes/e1_profile210_m514_outer_energy_log_exclusion/dependency_subdag.md",
+    "background/nodes/e1_profile210_m514_outer_energy_log_exclusion/audit.md",
+    "background/nodes/e1_profile210_m514_outer_energy_log_exclusion/result.md",
+    "background/nodes/e1_profile210_m514_outer_energy_log_exclusion/frontier.md",
+    "background/nodes/e1_profile210_m514_outer_energy_log_exclusion/verify.py"
+   ],
+   "statement": "No binding-row profile-(2,10,S=18) collision with cofactor 514 has autocorrelation energy 0 through 4 or 14 through 17. Exact bounded-deviation logarithm bounds put the low energies above the official field ceiling and the high energies below the field floor. Only energies 5 through 13 remain.",
+   "notes": "ANALYTIC COFACTOR-514 CONTRACTION 2026-07-29: rational atanh margins and exact exponential comparisons remove nine of eighteen energy values without a support or norm census. Energies 5 through 13 and all 128 prime ideals above 257 remain; no E1 close or Prize movement."
+  },
+  {
+   "id": "e1_profile210_m514_middle_shape_log_router",
+   "title": "E1 profile-(2,10) cofactor-514 middle-shape logarithm router",
+   "status": "PROVED",
+   "closure": "exact shape-sensitive bounded-deviation logarithm bounds",
+   "refs": [
+    "background/nodes/e1_profile210_m514_middle_shape_log_router/statement.md",
+    "background/nodes/e1_profile210_m514_middle_shape_log_router/proof.md",
+    "background/nodes/e1_profile210_m514_middle_shape_log_router/claim_contract.md",
+    "background/nodes/e1_profile210_m514_middle_shape_log_router/dependency_subdag.md",
+    "background/nodes/e1_profile210_m514_middle_shape_log_router/audit.md",
+    "background/nodes/e1_profile210_m514_middle_shape_log_router/result.md",
+    "background/nodes/e1_profile210_m514_middle_shape_log_router/frontier.md",
+    "background/nodes/e1_profile210_m514_middle_shape_log_router/verify.py"
+   ],
+   "statement": "Among the 32 integral autocorrelation magnitude profiles in the live cofactor-514 energy window 5 through 13, exact shape-sensitive logarithm bounds exclude 15 and leave the printed 17-profile ledger. In particular energies 12 and 13 are reduced to their all-unit profiles.",
+   "notes": "MIDDLE-SHAPE ROUTER 2026-07-29: one sparse energy-five profile lies above the field ceiling and five downward-closed L1 classes lie below the field floor. The proof uses rational atanh and exponential bounds only. Signed lags, local multiplicity, mod-257 compatibility, and support realizability remain; no E1 close or Prize movement."
+  },
+  {
+   "id": "e1_profile210_m514_parity_trace_cap",
+   "title": "E1 profile-(2,10) cofactor-514 parity and trace cap",
+   "status": "PROVED",
+   "closure": "local parity multiplicity and distinct-conjugate trace bound",
+   "refs": [
+    "background/nodes/e1_profile210_m514_parity_trace_cap/statement.md",
+    "background/nodes/e1_profile210_m514_parity_trace_cap/proof.md",
+    "background/nodes/e1_profile210_m514_parity_trace_cap/claim_contract.md",
+    "background/nodes/e1_profile210_m514_parity_trace_cap/dependency_subdag.md",
+    "background/nodes/e1_profile210_m514_parity_trace_cap/audit.md",
+    "background/nodes/e1_profile210_m514_parity_trace_cap/result.md",
+    "background/nodes/e1_profile210_m514_parity_trace_cap/frontier.md",
+    "background/nodes/e1_profile210_m514_parity_trace_cap/verify.py"
+   ],
+   "statement": "Local multiplicity two excludes the all-even energy-eight cofactor-514 profile, and a rationally certified distinct-trace cap excludes the sole energy-thirteen all-unit profile below the field floor. Fifteen magnitude profiles remain.",
+   "notes": "PARITY/TRACE REFINEMENT 2026-07-29: Machin arctangent bounds and a quartic cosine majorant prove the uniform 2551/100 trace cap; an exact logarithm envelope then clears 514*p_min. Signed lag configurations in the other 15 profiles remain; no E1 close or Prize movement."
+  },
+  {
+   "id": "e1_profile210_exact_weighted_payment",
+   "title": "E1 profile-(2,10) exact weighted payment",
+   "status": "PROVED",
+   "closure": "exact integer ledger",
+   "refs": [
+    "background/nodes/e1_profile210_exact_weighted_payment/statement.md",
+    "background/nodes/e1_profile210_exact_weighted_payment/proof.md",
+    "background/nodes/e1_profile210_exact_weighted_payment/claim_contract.md",
+    "background/nodes/e1_profile210_exact_weighted_payment/dependency_subdag.md",
+    "background/nodes/e1_profile210_exact_weighted_payment/audit.md",
+    "background/nodes/e1_profile210_exact_weighted_payment/result.md",
+    "background/nodes/e1_profile210_exact_weighted_payment/frontier.md",
+    "background/nodes/e1_profile210_exact_weighted_payment/verify.py"
+   ],
+   "statement": "On the binding prize row, profile (2,10,S=18) contributes at most 41794840999781162066129578393300739162112 unordered collision pairs. The residual edge budget is 22622986807805210095050326195532090878375; the next maximum profile is (1,14,S=18), and 39193 is the tight uniform sufficient cap on all remaining oriented vectors.",
+   "notes": "EXACT PROFILE-(2,10) PAYMENT 2026-07-29: the ledger charges all 266 possible ideal families, including every still-open 514 and 1028 family. The weighted frontier advances unconditionally to (1,14,S=18); the unfinished split-cofactor work is optional slack. No E1 close or Prize movement."
+  },
+  {
+   "id": "e1_profile114_split_prime_payment_router",
+   "title": "E1 profile-(1,14) split-prime payment router",
+   "status": "PROVED",
+   "closure": "local cofactor census, profile-invariant norm transport, and exact payment trigger",
+   "refs": [
+    "background/nodes/e1_profile114_split_prime_payment_router/statement.md",
+    "background/nodes/e1_profile114_split_prime_payment_router/proof.md",
+    "background/nodes/e1_profile114_split_prime_payment_router/claim_contract.md",
+    "background/nodes/e1_profile114_split_prime_payment_router/dependency_subdag.md",
+    "background/nodes/e1_profile114_split_prime_payment_router/audit.md",
+    "background/nodes/e1_profile114_split_prime_payment_router/result.md",
+    "background/nodes/e1_profile114_split_prime_payment_router/frontier.md",
+    "background/nodes/e1_profile114_split_prime_payment_router/verify.py"
+   ],
+   "statement": "Profile (1,14,S=18) has the same thirteen cofactors, at most 266 ideal orbits after the profile-invariant cofactor-1538 exclusion, and cofactor 1028 only at energy four. Exact emptiness of the queued 8385-type energy-four certificate would leave 138 orbits and 35328 oriented vectors, pay the profile under cap 39193, and advance to (0,18,S=18) with cap 3994.",
+   "notes": "SERIAL PAYMENT TRIGGER 2026-07-29: all transport and payment arithmetic is proved, but the node does not assert the energy-four certificate empty. The single-container CRT job is now the cheapest serial E1 obligation. Cofactor-514 work is optional before that trigger; no E1 close or Prize movement."
+  },
+  {
+   "id": "e1_s18_m1028_energy4_cubic_exclusion",
+   "title": "E1 square-mass-18 cofactor-1028 energy-four cubic exclusion",
+   "status": "PROVED",
+   "closure": "complete finite-field type screen and cubic logarithm bound",
+   "refs": [
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/statement.md",
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/proof.md",
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/claim_contract.md",
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/dependency_subdag.md",
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/audit.md",
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/result.md",
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/frontier.md",
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/source_pin.json",
+    "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/verify.py",
+    "experiments/prize_resolution/e1_m1028_e4_third_moment_screen.py",
+    "experiments/prize_resolution/e1_m1028_e4_third_moment_screen_result.json"
+   ],
+   "statement": "No conductor-256 square-mass-18 collision with local valuation two and cofactor 1028 has autocorrelation energy four. The complete 8385-type fixed-root screen has cubic index at most 24, and the global cubic logarithm bound forces every exact norm below 1028 times the prize field floor.",
+   "notes": "ANALYTIC ENERGY-FOUR CLOSE 2026-07-29: ordered-triple and additive-relation engines agree on the complete cubic-index distribution, digest 401203ca53dbd51a859b702767576b50aca05c73216194120a60eff251d1d442. The 8385-resultant Modal job is superseded. This closes the last cofactor-1028 energy when combined with existing leaves; no direct Prize movement until the profile payment is promoted."
+  },
+  {
+   "id": "e1_profile114_exact_weighted_payment",
+   "title": "E1 profile-(1,14) exact weighted payment",
+   "status": "PROVED",
+   "closure": "exact integer ledger after the cofactor-1028 exclusion",
+   "refs": [
+    "background/nodes/e1_profile114_exact_weighted_payment/statement.md",
+    "background/nodes/e1_profile114_exact_weighted_payment/proof.md",
+    "background/nodes/e1_profile114_exact_weighted_payment/claim_contract.md",
+    "background/nodes/e1_profile114_exact_weighted_payment/dependency_subdag.md",
+    "background/nodes/e1_profile114_exact_weighted_payment/audit.md",
+    "background/nodes/e1_profile114_exact_weighted_payment/result.md",
+    "background/nodes/e1_profile114_exact_weighted_payment/frontier.md",
+    "background/nodes/e1_profile114_exact_weighted_payment/verify.py"
+   ],
+   "statement": "On the binding prize row, profile (1,14,S=18) contributes at most 20391647614756836040054426763033478955008 unordered collision pairs. The residual edge budget is 2231339193048374054995899432498611923367; the next maximum profile is (0,18,S=18), and 3994 is the tight uniform sufficient cap on all remaining oriented vectors.",
+   "notes": "EXACT PROFILE-(1,14) PAYMENT 2026-07-29: the complete cofactor-1028 energy partition is empty, while all 128 possible cofactor-514 ideals are conservatively charged. The weighted frontier advances unconditionally to (0,18,S=18). No E1 close or Prize movement."
+  },
+  {
+   "id": "e1_s18_m514_sharp_product_ceiling",
+   "title": "E1 square-mass-18 cofactor-514 sharp product ceiling",
+   "status": "PROVED",
+   "closure": "sharp two-moment product extremum and exact rational certificate",
+   "refs": [
+    "background/nodes/e1_s18_m514_sharp_product_ceiling/statement.md",
+    "background/nodes/e1_s18_m514_sharp_product_ceiling/proof.md",
+    "background/nodes/e1_s18_m514_sharp_product_ceiling/claim_contract.md",
+    "background/nodes/e1_s18_m514_sharp_product_ceiling/dependency_subdag.md",
+    "background/nodes/e1_s18_m514_sharp_product_ceiling/audit.md",
+    "background/nodes/e1_s18_m514_sharp_product_ceiling/result.md",
+    "background/nodes/e1_s18_m514_sharp_product_ceiling/frontier.md",
+    "background/nodes/e1_s18_m514_sharp_product_ceiling/verify.py"
+   ],
+   "statement": "Every conductor-256 square-mass-18 cofactor-514 prize collision has autocorrelation energy at most 17. At E=18, all 57 feasible two-level product chambers lie below 514 times the prize field floor, and chamberwise monotonicity excludes every larger energy.",
+   "notes": "UNIVERSAL PRODUCT CEILING 2026-07-29: repairs the previously implicit E<=17 premise in the profile-(2,10) outer-energy leaf. The closest exact comparison is the 63-lower-entry chamber; the adjacent E=17 envelope remains above threshold. Profile-independent and reusable at (0,18)."
+  },
+  {
+   "id": "e1_s18_m1028_global_energy_window",
+   "title": "E1 square-mass-18 cofactor-1028 global energy window",
+   "status": "PROVED",
+   "closure": "exact low-energy resultants and sharp two-moment product ceiling",
+   "refs": [
+    "background/nodes/e1_s18_m1028_global_energy_window/statement.md",
+    "background/nodes/e1_s18_m1028_global_energy_window/proof.md",
+    "background/nodes/e1_s18_m1028_global_energy_window/claim_contract.md",
+    "background/nodes/e1_s18_m1028_global_energy_window/dependency_subdag.md",
+    "background/nodes/e1_s18_m1028_global_energy_window/audit.md",
+    "background/nodes/e1_s18_m1028_global_energy_window/result.md",
+    "background/nodes/e1_s18_m1028_global_energy_window/frontier.md",
+    "background/nodes/e1_s18_m1028_global_energy_window/verify.py"
+   ],
+   "statement": "Every conductor-256 square-mass-18 cofactor-1028 prize collision has autocorrelation energy in {2,3,4,5,6}. Energies zero and one fail exact valuation/resultant tests, while the sharp product envelope at E=7 and chamberwise monotonicity exclude every larger energy.",
+   "notes": "UNIVERSAL ENERGY WINDOW 2026-07-29: repairs the previously miswired profile-specific variance premise in all four cofactor-1028 energy leaves. The E=1 Lucas square is 452 mod 1028; 61 exact product chambers close E>=7, with E=6 retained by an adjacent-boundary guard."
+  },
+  {
+   "id": "e1_profile018_split_prime_payment_router",
+   "title": "E1 profile-(0,18) split-prime payment router",
+   "status": "PROVED",
+   "closure": "local cofactor census, profile-invariant exclusions, and exact payment threshold",
+   "refs": [
+    "background/nodes/e1_profile018_split_prime_payment_router/statement.md",
+    "background/nodes/e1_profile018_split_prime_payment_router/proof.md",
+    "background/nodes/e1_profile018_split_prime_payment_router/claim_contract.md",
+    "background/nodes/e1_profile018_split_prime_payment_router/dependency_subdag.md",
+    "background/nodes/e1_profile018_split_prime_payment_router/audit.md",
+    "background/nodes/e1_profile018_split_prime_payment_router/result.md",
+    "background/nodes/e1_profile018_split_prime_payment_router/frontier.md",
+    "background/nodes/e1_profile018_split_prime_payment_router/verify.py"
+   ],
+   "statement": "Profile (0,18,S=18) has only ten pure ideal families and 128 possible cofactor-514 families after the complete 1538 and 1028 exclusions. If at most five cofactor-514 ideals are occupied, then 3840 oriented vectors pay the profile and advance the weighted frontier to (4,4,S=20) with cap 329.",
+   "notes": "SERIAL ROUTER 2026-07-29: the implication O_514<=5 -> payment is proved. The proved class descent sharpens occupancy to O_514<=2 and gives the exact next-profile cap 1971."
+  },
+  {
+   "id": "e1_profile018_m514_five_ideal_occupancy",
+   "title": "E1 profile-(0,18) cofactor-514 five-ideal occupancy",
+   "status": "PROVED",
+   "closure": "proved ideal-class descent",
+   "refs": [
+    "background/nodes/e1_profile018_m514_five_ideal_occupancy/statement.md",
+    "background/nodes/e1_profile018_m514_five_ideal_occupancy/proof.md",
+    "background/nodes/e1_profile018_m514_five_ideal_occupancy/claim_contract.md",
+    "background/nodes/e1_profile018_m514_five_ideal_occupancy/attack.md",
+    "background/nodes/e1_profile018_m514_five_ideal_occupancy/frontier.md",
+    "background/nodes/e1_profile018_m514_five_ideal_occupancy/dependency_subdag.md",
+    "background/nodes/e1_profile018_m514_five_ideal_occupancy/audit.md",
+    "background/nodes/e1_profile018_m514_five_ideal_occupancy/result.md",
+    "experiments/prize_resolution/e1_profile018_m514_low_energy_root_search_modal.py"
+   ],
+   "statement": "At most two, hence at most five, of the 128 degree-one ideals above 257 are occupied in one fixed binding-row prime/root fiber.",
+   "notes": "CLASS-DESCENT CLOSE 2026-07-29: occupied Q_s share one class in Q(zeta_256); ideal norm descends them to equal classes in Q(zeta_128). Proved pairwise class separation below leaves one lower prime and its two upper extensions."
+  },
+  {
+   "id": "e1_qzeta128_p257_j65_harbater_nonprincipality",
+   "title": "Q(zeta_128) J_65 Harbater nonprincipality",
+   "status": "PROVED",
+   "closure": "published Hilbert-class field plus exact modulo-257 Frobenius replay",
+   "refs": [
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/statement.md",
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/proof.md",
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/claim_contract.md",
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/source_evidence.md",
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/dependency_subdag.md",
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/audit.md",
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/result.md",
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/frontier.md",
+    "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/verify.py"
+   ],
+   "statement": "The ideal (257,zeta_128-9)(257,zeta_128-248) is nonprincipal. Its descended prime has nontrivial Artin symbol because the published degree-17 Hilbert-class polynomial is irreducible modulo 257.",
+   "notes": "HARBATER CLOSE 2026-07-29: Dembele identifies the class-number-17 CM subfield and its Hilbert class field, whose Elkies polynomial is exactly irreducible modulo 257. Norm descent proves J_65 nonprincipal without a degree-64 BNF."
+  },
+  {
+   "id": "e1_conductor128_full_unit_circular_basis",
+   "title": "Conductor-128 full-unit circular basis",
+   "status": "PROVED",
+   "closure": "Miller descent, Weber oddness, and Kummer-Sinnott unit-index formula",
+   "refs": [
+    "background/nodes/e1_conductor128_full_unit_circular_basis/statement.md",
+    "background/nodes/e1_conductor128_full_unit_circular_basis/proof.md",
+    "background/nodes/e1_conductor128_full_unit_circular_basis/claim_contract.md",
+    "background/nodes/e1_conductor128_full_unit_circular_basis/dependency_subdag.md",
+    "background/nodes/e1_conductor128_full_unit_circular_basis/audit.md",
+    "background/nodes/e1_conductor128_full_unit_circular_basis/result.md",
+    "background/nodes/e1_conductor128_full_unit_circular_basis/source_pin.json",
+    "background/nodes/e1_conductor128_full_unit_circular_basis/verify.py"
+   ],
+   "statement": "Every unit of Z[zeta_128] is a root of unity times a unique product of the 31 standard real circular units eta_a for odd 3<=a<=63.",
+   "notes": "UNIT BASIS 2026-07-29: Miller's unconditional conductor-256 plus-class-number theorem descends to conductor 128 by extension/norm and Weber oddness. Kummer-Sinnott then makes the 31 circular generators the full unit basis."
+  },
+  {
+   "id": "e1_qzeta128_p257_j63_stickelberger_relation",
+   "title": "Q(zeta_128) J_63 Stickelberger relation",
+   "status": "PROVED",
+   "closure": "classical Jacobi-sum factorization and exact integer relation",
+   "refs": [
+    "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/statement.md",
+    "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/proof.md",
+    "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/claim_contract.md",
+    "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/dependency_subdag.md",
+    "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/audit.md",
+    "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/result.md",
+    "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/source_pin.json",
+    "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/verify.py"
+   ],
+   "statement": "An explicit product alpha of 32 Jacobi-sum ratios satisfies (alpha)=(q_1 q_63/(q_127 q_65))^(2*21121).",
+   "notes": "STICKELBERGER CERTIFICATE 2026-07-29: all 64 prime valuations are replayed from complement-carry bits and 32 printed integer coefficients."
+  },
+  {
+   "id": "e1_qzeta128_p257_j63_residue_obstruction",
+   "title": "Q(zeta_128) J_63 residue obstruction",
+   "status": "PROVED",
+   "closure": "explicit auxiliary-prime power-residue character",
+   "refs": [
+    "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/statement.md",
+    "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/proof.md",
+    "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/claim_contract.md",
+    "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/dependency_subdag.md",
+    "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/audit.md",
+    "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/result.md",
+    "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/verify.py",
+    "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/verify_audit.py"
+   ],
+   "statement": "At r=5406977, a product of 32 power-residue characters kills the full unit group and all 21121st powers but sends the explicit Jacobi element alpha to 500235 != 1, proving J_63 nonprincipal.",
+   "notes": "RESIDUE CLOSE 2026-07-29: the verifier directly evaluates 31 unit generators and 32 Jacobi sums at 32 embeddings. The calculation is exact, import-free after the unit and Stickelberger dependencies, and uses no BNF or GRH assumption."
+  },
+  {
+   "id": "e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate",
+   "title": "Q(zeta_128) J_63 fixed-field nonprincipality certificate",
+   "status": "PROVED",
+   "closure": "Jacobi-sum Stickelberger relation and auxiliary-prime residue obstruction",
+   "refs": [
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/statement.md",
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/proof.md",
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/claim_contract.md",
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/attack.md",
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/frontier.md",
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/dependency_subdag.md",
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/audit.md",
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/result.md",
+    "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/verify.py"
+   ],
+   "statement": "The prime (257,zeta_128-zeta_128^(-1)-66) is nonprincipal in the degree-32 fixed field Q(zeta_128-zeta_128^(-1)).",
+   "notes": "FIXED-FIELD CLOSE 2026-07-29: an explicit residue character proves q_1q_63 nonprincipal in Q(zeta_128); a hypothetical lower generator would extend to a generator of that product."
+  },
+  {
+   "id": "e1_qzeta128_p257_two_involution_nonprincipality_certificate",
+   "title": "Q(zeta_128) prime-257 two-involution nonprincipality certificate",
+   "status": "PROVED",
+   "closure": "J_63 residue obstruction and J_65 Harbater Artin symbol",
+   "refs": [
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/statement.md",
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/proof.md",
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/claim_contract.md",
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/dependency_subdag.md",
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/attack.md",
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/frontier.md",
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/audit.md",
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/result.md",
+    "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/verify.py"
+   ],
+   "statement": "Both involution products q_1q_63 and q_1q_65 are nonprincipal in Q(zeta_128).",
+   "notes": "TWO-TEST CLOSE 2026-07-29: J_63 is proved by an explicit Stickelberger/residue obstruction and J_65 by the Harbater Hilbert-class polynomial."
+  },
+  {
+   "id": "e1_qzeta128_p257_class_orbit_certificate",
+   "title": "Q(zeta_128) prime-257 class-orbit certificate",
+   "status": "PROVED",
+   "closure": "two-involution nonprincipality and 2-group stabilizer argument",
+   "refs": [
+    "background/nodes/e1_qzeta128_p257_class_orbit_certificate/statement.md",
+    "background/nodes/e1_qzeta128_p257_class_orbit_certificate/proof.md",
+    "background/nodes/e1_qzeta128_p257_class_orbit_certificate/claim_contract.md",
+    "background/nodes/e1_qzeta128_p257_class_orbit_certificate/source_evidence.md",
+    "background/nodes/e1_qzeta128_p257_class_orbit_certificate/dependency_subdag.md",
+    "background/nodes/e1_qzeta128_p257_class_orbit_certificate/attack.md",
+    "background/nodes/e1_qzeta128_p257_class_orbit_certificate/frontier.md",
+    "background/nodes/e1_qzeta128_p257_class_orbit_certificate/audit.md",
+    "background/nodes/e1_qzeta128_p257_class_orbit_certificate/result.md",
+    "background/nodes/e1_qzeta128_p257_class_orbit_certificate/verify.py"
+   ],
+   "statement": "The 64 degree-one prime ideals above 257 in Q(zeta_128) have pairwise distinct ideal classes.",
+   "notes": "CLASS-ORBIT CLOSE 2026-07-29: real class number one makes conjugation invert classes, Weber oddness removes complex-conjugation stabilizers, and the two proved involution tests force the Galois stabilizer to be trivial."
+  },
+  {
+   "id": "e1_profile018_qzeta128_class_descent_two_ideal_bound",
+   "title": "Profile-(0,18) class-descent two-ideal bound",
+   "status": "PROVED",
+   "closure": "proved class-orbit certificate and relative ideal norm",
+   "refs": [
+    "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/statement.md",
+    "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/proof.md",
+    "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/claim_contract.md",
+    "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/dependency_subdag.md",
+    "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/audit.md",
+    "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/result.md",
+    "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/frontier.md",
+    "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/verify.py"
+   ],
+   "statement": "A fixed row-prime fiber in Q(zeta_256) contains at most two occupied cofactor-514 ideals.",
+   "notes": "CLASS-DESCENT CLOSE 2026-07-29: all occupied upper primes share one class; relative ideal norm sends them to one lower class; proved class separation fixes one lower prime, which has exactly two upper extensions."
+  },
+  {
+   "id": "e1_profile018_two_ideal_exact_weighted_payment",
+   "title": "Profile-(0,18) two-ideal exact weighted payment",
+   "status": "PROVED",
+   "closure": "exact weighted payment after proved two-ideal descent",
+   "refs": [
+    "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/statement.md",
+    "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/proof.md",
+    "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/claim_contract.md",
+    "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/dependency_subdag.md",
+    "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/audit.md",
+    "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/result.md",
+    "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/frontier.md",
+    "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/verify.py"
+   ],
+   "statement": "Profile (0,18,S=18) has at most 3072 oriented vectors, leaves residual 515126704564295620156155116913120291239, and gives next-profile cap 1971.",
+   "notes": "STRONG PAYMENT CLOSE 2026-07-29: proved class descent reduces the split occupancy from five to two, so the profile has 10+2 full orbits rather than 10+5. Both adjacent cap comparisons are exact."
+  },
+  {
+   "id": "e1_profile44_local_norm_route_fence",
+   "title": "E1 profile-(4,4) local-norm route fence",
+   "status": "PROVED",
+   "closure": "exact Hasse census, norm ceiling, and residue-degree sieve",
+   "refs": [
+    "background/nodes/e1_profile44_local_norm_route_fence/statement.md",
+    "background/nodes/e1_profile44_local_norm_route_fence/proof.md",
+    "background/nodes/e1_profile44_local_norm_route_fence/claim_contract.md",
+    "background/nodes/e1_profile44_local_norm_route_fence/dependency_subdag.md",
+    "background/nodes/e1_profile44_local_norm_route_fence/audit.md",
+    "background/nodes/e1_profile44_local_norm_route_fence/result.md",
+    "background/nodes/e1_profile44_local_norm_route_fence/frontier.md",
+    "background/nodes/e1_profile44_local_norm_route_fence/verify.py",
+    "background/nodes/e1_profile44_local_norm_route_fence/verify_audit.py"
+   ],
+   "statement": "At profile (4,4,S=20), the exact relevant local valuations are {1,2,3,4,5,6,8,9,10,12,16,17,18,20}, the cofactor is at most 1707433 and has form 2^mu(1+256t), and the residue-degree sieve leaves 1133 necessary-sieve values. Fourteen pure branches already survive against a seven-orbit allowance, so the local ideal-router extension is not a closing method.",
+   "notes": "ROUTE FENCE 2026-07-29: this is not a collision lower bound. A profile-specific norm/resultant, collective occupancy, or mixed weighted payment is still required."
+  },
+  {
+   "id": "e1_profile018_galois_norm_occupancy_dictionary",
+   "title": "E1 profile-(0,18) Galois/norm occupancy dictionary",
+   "status": "PROVED",
+   "closure": "exact diagonal-Galois fiber dictionary",
+   "refs": [
+    "background/nodes/e1_profile018_galois_norm_occupancy_dictionary/statement.md",
+    "background/nodes/e1_profile018_galois_norm_occupancy_dictionary/proof.md",
+    "background/nodes/e1_profile018_galois_norm_occupancy_dictionary/claim_contract.md",
+    "background/nodes/e1_profile018_galois_norm_occupancy_dictionary/dependency_subdag.md",
+    "background/nodes/e1_profile018_galois_norm_occupancy_dictionary/audit.md",
+    "background/nodes/e1_profile018_galois_norm_occupancy_dictionary/result.md",
+    "background/nodes/e1_profile018_galois_norm_occupancy_dictionary/frontier.md",
+    "background/nodes/e1_profile018_galois_norm_occupancy_dictionary/verify.py"
+   ],
+   "statement": "For fixed official p and primitive row root r, the number of occupied cofactor-514 ideals above 257 equals the number of diagonal Galois orbits of profile-(0,18) shift/sign collision orbits with exact norm 514p. Thus the five-ideal target is exactly a norm-multiplicity-at-most-five claim and is independent of r.",
+   "notes": "EXACT DICTIONARY 2026-07-29: regular Galois action gives one representative per fixed row-root fiber; the common-ideal height theorem makes the map to Q_s injective. Six modular candidates are not a falsifier; six realizable Galois orbits with the same official prime quotient are."
+  },
+  {
+   "id": "e1_profile018_mod257_singleton_completion_no_go",
+   "title": "E1 profile-(0,18) mod-257 singleton-completion no-go",
+   "status": "PROVED",
+   "closure": "exact finite-field bijection and explicit adversarial family",
+   "refs": [
+    "background/nodes/e1_profile018_mod257_singleton_completion_no_go/statement.md",
+    "background/nodes/e1_profile018_mod257_singleton_completion_no_go/proof.md",
+    "background/nodes/e1_profile018_mod257_singleton_completion_no_go/claim_contract.md",
+    "background/nodes/e1_profile018_mod257_singleton_completion_no_go/dependency_subdag.md",
+    "background/nodes/e1_profile018_mod257_singleton_completion_no_go/audit.md",
+    "background/nodes/e1_profile018_mod257_singleton_completion_no_go/result.md",
+    "background/nodes/e1_profile018_mod257_singleton_completion_no_go/frontier.md",
+    "background/nodes/e1_profile018_mod257_singleton_completion_no_go/verify.py"
+   ],
+   "statement": "Oriented singleton values biject with F_257^*. The explicit support {0,...,15,17,78} has 18 singleton terms, local multiplicity one, and a root at 3 mod 257; Galois transport supplies every primitive root. Hence root plus local-valuation screening alone removes none of the 128 split ideals.",
+   "notes": "NO-GO FENCE 2026-07-29: the explicit family has energy 1478, so it is not a live collision or a falsifier. Any useful occupancy proof must couple the root equation to E=5,...,12 realization and exact norm multiplicity."
   },
   {
    "id": "e1_n512_four_singleton_collision_exclusion",
@@ -10007,6 +10676,26 @@
     "background/nodes/dli_wcl_ell2_weight4_newton_exclusion/statement.md",
     "critical/nodes/dli_prime_weighted_large_block_support/DLI_CLOSE_PINNED.md"
    ]
+  },
+  {
+   "id": "l1_balanced_pencil_anchor_determinant_atlas",
+   "title": "L1 balanced-pencil anchor determinant atlas",
+   "status": "PROVED",
+   "closure": "exact interpolation-module determinant identity and root-matroid basis packing",
+   "refs": [
+    "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/statement.md",
+    "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/proof.md",
+    "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/claim_contract.md",
+    "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/dependency_subdag.md",
+    "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/audit.md",
+    "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/result.md",
+    "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/frontier.md",
+    "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/lineage.md",
+    "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/upstream_crosswalk.md",
+    "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/verify.py"
+   ],
+   "statement": "For one exact anchor in a balanced interpolation-module split pencil, the coefficient determinant Delta_0=A_0B-B_0A is an affine coordinate on the complete monic coefficient body. A Bezout-dual vector gives W(P-P_0)=gamma Delta_0L_0 and W=Delta_0J mod W_0 with gcd(J,W_0)=1. If Delta_0J=Q_Delta W_0+R_Delta, the complete exact shell is exactly the primitive split graph W_Delta=W_0+R_Delta, W_Delta|Omega, gcd(Delta_0,1-Q_Delta)=1. Every common-complement owner is one gcd stratum of this family. At deficiency j and fixed owner, the neighbor locators lie in projective dimension at most j+1 and obey both the root-matroid ceiling |C_D|<=floor(C(m,r)/(w+j-r+2)) and the rank-free local Johnson ceiling |C_D|<=floor(C(m,j+1)/C(w+1+j,j+1)). The j=0 stratum is the one-parameter moving-root pencil. A row-sharp count or typed Q transport remains open.",
+   "notes": "EXACT L1/BC BRIDGE 2026-07-29. This pays fixed common-complement charts and removes coefficient multiplicity, but supplies no global owner coalescence, finite-row reserve fit, or L1 promotion."
   },
   {
    "id": "l1_mixed_petal_amplification",
@@ -17783,6 +18472,661 @@
    ]
   },
   {
+   "id": "rate_half_kb_q6_u2_complete_source_conic_exclusion",
+   "title": "KoalaBear Q6 u2 complete-source conic exclusion",
+   "status": "PROVED",
+   "closure": "divisor saturation plus exact orbit-profile exclusion",
+   "statement": "In the proved KoalaBear equality-wall source reduction, every actual irreducible Q=6,s=6,u=2 conic-image component is impossible. Twelve nonzero source quartics divide the degree-24 complete source form B; the degree-two source pencil forces their divisor sum to equal 2 div(B). Conic invariance then excludes the reciprocal, D4, and D5 profiles. This closes only the conic structural branch: it supplies no owner, distinct-slope count, cap 68, row payment, or endpoint movement.",
+   "refs": [
+    "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/statement.md",
+    "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/proof.md",
+    "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/audit.md",
+    "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/result.md",
+    "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/verify.py",
+    "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
+   "title": "KoalaBear Q6 u2 primitive-subdegree-four route cut",
+   "status": "PROVED",
+   "closure": "primitive-group classification plus pole and Riemann-Hurwitz ledger",
+   "statement": "After the proved line and conic exclusions, a residual actual KoalaBear Q=6,s=6,u=2 birational-quartic component would give subdegree four in the geometric monodromy of a degree-60 endpoint map. None of the nine primitive degree-60 groups has subdegree four, so the map is functionally decomposable. Exact pole and Riemann-Hurwitz constraints leave inner degrees {2,3,4,5,6,10,12,30}. This is a finite route cut, not a quotient owner, u2 close, cap 68, row payment, or endpoint movement.",
+   "refs": [
+    "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/statement.md",
+    "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/proof.md",
+    "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/claim_contract.md",
+    "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/source_evidence.md",
+    "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/dependency_subdag.md",
+    "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/audit.md",
+    "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/result.md",
+    "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/frontier.md",
+    "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/verify.py",
+    "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_degree60_decomposition_divisor_adapter",
+   "title": "KoalaBear degree-60 decomposition divisor adapter",
+   "status": "PROVED",
+   "closure": "exact zero and pole divisor pullback",
+   "statement": "For every residual geometric decomposition f=F composed h of the KoalaBear degree-60 endpoint f=V_act/A^5, the reduced 60-point active divisor is exactly a union of complete unramified h-fibers and the reduced 12-point source divisor has the exact fiber and ramification profile prescribed by the eight-row pole ladder. This proves local active/source set preservation only; it supplies no coefficient-field descent, full evaluation-domain quotient, witness-data descent, owner, charge, cap 68, u2 close, or row close.",
+   "refs": [
+    "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/statement.md",
+    "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/proof.md",
+    "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/claim_contract.md",
+    "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/source_evidence.md",
+    "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/dependency_subdag.md",
+    "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/audit.md",
+    "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/result.md",
+    "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/frontier.md",
+    "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/verify.py",
+    "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_degree5_decomposition_exclusion",
+   "title": "KoalaBear degree-five decomposition exclusion",
+   "status": "PROVED",
+   "closure": "Riemann-Hurwitz saturation plus deployed-field cyclotomic exclusion",
+   "statement": "The inner-degree-five row of the KoalaBear degree-60 endpoint decomposition is impossible. Its two index-five source points exhaust Riemann-Hurwitz, making the inner map geometrically a fifth-power map with deployed-field domain normalization. Since p=2130706433 is 3 mod 5, gcd(5,p^6-1)=1 and fifth power is injective on P1(F_(p^6)), contradicting the required complete fiber of five distinct rational active roots. The remaining necessary degrees are 2,3,4,6,10,12,30; no owner, charge, cap 68, u2 close, or row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_degree5_decomposition_exclusion/statement.md",
+    "background/nodes/rate_half_kb_degree5_decomposition_exclusion/proof.md",
+    "background/nodes/rate_half_kb_degree5_decomposition_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_degree5_decomposition_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_degree5_decomposition_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_degree5_decomposition_exclusion/audit.md",
+    "background/nodes/rate_half_kb_degree5_decomposition_exclusion/result.md",
+    "background/nodes/rate_half_kb_degree5_decomposition_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_degree5_decomposition_exclusion/verify.py",
+    "background/nodes/rate_half_kb_degree5_decomposition_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_decomposition_source_pencil_compiler",
+   "title": "KoalaBear decomposition source-pencil compiler",
+   "status": "PROVED",
+   "closure": "homogeneous source-pencil equivalence and challenge-field descent",
+   "statement": "Every residual KoalaBear endpoint decomposition is equivalent to one coprime binary source pencil containing the complete source locators and fifth powers of exceptional locators, with V_act in its outer symmetric power. Two rational active fibers descend a target transform of the inner map and the outer map to F_(2130706433^6). Degree 30 factors through degree six; degree 12 has one canonical six-dimensional membership test; and the degree-two deck involution is challenge-field rational. Conditional on a missing same-record bridge, a prime-field carrier-stabilizing projectivity is power or reciprocal type. The distinct live degrees are 2,3,4,6,10,12; no owner, charge, u2 close, cap 68, or row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/statement.md",
+    "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/proof.md",
+    "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/audit.md",
+    "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/result.md",
+    "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/frontier.md",
+    "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/verify.py",
+    "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "PR #1130 KoalaBear degree-60 decomposition source-fiber adapter",
+    "relation": "OVERLAP_AND_ADDITIVE"
+   }
+  },
+  {
+   "id": "rate_half_kb_source_pencil_rank_transverse_compiler",
+   "title": "KoalaBear source-pencil rank and transverse compiler",
+   "status": "PROVED",
+   "closure": "exact rank compiler plus primitive-subdegree same-fiber exclusion",
+   "statement": "For each supplied KoalaBear endpoint record, the six live decomposition profiles have 32,099 canonical source templates with exact source-rank and active-syndrome gates; this is per record, not a global census. After strict right-factor routing, no terminal inner degree 2,3,4,6,10,12 has primitive monodromy subdegree four, so the actual bidegree-(4,4) component is not same-fiber. Every survivor is one of 26 transverse types satisfying delta*r=4m, delta<=m^2, r<=60/m-1. Source-only controls survive at degrees two and three; no transverse deletion, owner, charge, u2 close, cap 68, or row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/statement.md",
+    "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/proof.md",
+    "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/audit.md",
+    "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/result.md",
+    "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/frontier.md",
+    "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/verify.py",
+    "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "PR #1131 KoalaBear degree-60 source-pencil rank compiler",
+    "relation": "IDENTICAL_AT_PRINTED_SCOPE"
+   }
+  },
+  {
+   "id": "rate_half_kb_m12_outer_subdegree_route_cut",
+   "title": "KoalaBear m12 outer-subdegree route cut",
+   "status": "PROVED",
+   "closure": "primitive degree-five subdegrees plus challenge-field cyclic exclusion",
+   "statement": "At inner degree 12, the outer degree-five map has one challenge-field-rational pole of order five and five distinct challenge-field-rational simple zeros. Primitive degree-five monodromy excludes transverse outer subdegree three. Subdegree one would make the cover cyclic and hence, after rational normalization, a fifth-power map; fifth-power injectivity on F_(2130706433^6) contradicts five distinct rational zeros. Thus only (r,delta)=(2,24),(4,12) survive, reducing the global transverse frontier from 26 to 24 types. No m12 close, owner, charge, u2 close, cap 68, or row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/statement.md",
+    "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/proof.md",
+    "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/claim_contract.md",
+    "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/source_evidence.md",
+    "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/audit.md",
+    "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/result.md",
+    "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/frontier.md",
+    "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/verify.py",
+    "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m12_r4_low_genus_branch_profile_reduction",
+   "title": "KoalaBear m12 r4 low-genus branch-profile reduction",
+   "status": "PROVED",
+   "closure": "Riemann-Hurwitz genus cut plus complete tame degree-five branch-cycle enumeration",
+   "statement": "For the inner-degree-12 transverse type (r,delta)=(4,12), the actual component's birational bidegree-(2,4) model has normalization genus at most three. Riemann-Hurwitz forces the outer component to have genus at most one. Complete tame S_5 branch-cycle enumeration leaves exactly five profiles: A5 with (3),(2,2) or (3),(3), and S5 with (2),(3,2), (2),(4), or (2),(2),(2,2). Tame polynomial AGL(1,5) and the genus-two and genus-three profiles are impossible. No surviving profile, r4, m12, owner, charge, u2, cap 68, or row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/statement.md",
+    "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/proof.md",
+    "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/claim_contract.md",
+    "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/source_evidence.md",
+    "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/audit.md",
+    "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/result.md",
+    "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/frontier.md",
+    "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/verify.py",
+    "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m12_outer_normal_form_compiler",
+   "title": "KoalaBear m12 outer normal-form compiler",
+   "status": "PROVED",
+   "closure": "dihedral invariant-field normal form plus exact critical-value integration",
+   "statement": "Every surviving inner-degree-12 outer map is geometrically affine-equivalent to one of six explicit polynomial families. The r=2 row is a Dickson quintic with two printed quadratic divided-difference factors. Four r=4 profiles have rigid normal forms and the fifth has one parameter. This is a geometric classification only: no family deletion, challenge-field coefficient descent, owner, charge, m12, u2, cap 68, or row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/statement.md",
+    "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/proof.md",
+    "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/audit.md",
+    "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/result.md",
+    "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/verify.py",
+    "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m12_split_fiber_arithmetic_descent",
+   "title": "KoalaBear m12 split-fiber arithmetic descent",
+   "status": "PROVED",
+   "closure": "identity Frobenius on the split zero fiber and explicit critical-point descent",
+   "statement": "The five distinct K-rational simple outer zeros force arithmetic monodromy to equal geometric monodromy, so every geometric outer component descends to K. The rigid A5 (3),(2,2), S5 (3,2),(2), and S5 (4),(2) normal forms admit K-affine normalizations. The unresolved descent boundary is exactly the Dickson, A5 (3),(3), and one-parameter S5 twist families. No family deletion, owner, charge, m12, u2, cap 68, or row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/statement.md",
+    "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/proof.md",
+    "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/claim_contract.md",
+    "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/source_evidence.md",
+    "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/audit.md",
+    "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/result.md",
+    "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/frontier.md",
+    "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/verify.py",
+    "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m12_diagonal_socle_route_cut",
+   "title": "KoalaBear m12 diagonal-socle route cut",
+   "status": "PROVED",
+   "closure": "Scott strip dichotomy plus exact degree-12 cross-action audit",
+   "statement": "For the degree-60 composition with five blocks of size twelve, the derived block kernel is a subdirect product of the nonabelian simple inner socles. Prime-degree block primitivity and Scott's lemma leave independent or full-diagonal socle; the actual size-four non-same-fiber suborbit excludes independence. Exact degree-12 action and exceptional M12 cross-action orbits then force one point in each of four projected blocks. Thus only (r,delta)=(4,12) survives and the r=2 Dickson branch is empty. No r4 family, owner, charge, m12, u2, cap 68, or row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/statement.md",
+    "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/proof.md",
+    "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/claim_contract.md",
+    "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/source_evidence.md",
+    "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/audit.md",
+    "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/result.md",
+    "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/frontier.md",
+    "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/verify.py",
+    "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m12_secondary_degree5_decomposition_exclusion",
+   "title": "KoalaBear m12 secondary degree-five decomposition exclusion",
+   "status": "PROVED",
+   "closure": "trivial-centralizer Cartesian block system plus deployed degree-five exclusion",
+   "statement": "The full diagonal simple socle on the five degree-12 blocks has trivial permutation centralizer, so every monodromy normalizer acts by one common 12-point permutation across the blocks. It preserves twelve secondary blocks of size five, forcing an inner-degree-five decomposition of the endpoint map. The proved deployed-field degree-five exclusion rules this out. Hence the complete m12 branch is empty and the live decomposition degrees are 2,3,4,6,10. No other degree, owner, charge, u2, cap 68, or row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/result.md",
+    "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m10_scott_strip_lower_degree_router",
+   "title": "KoalaBear m10 Scott-strip lower-degree router",
+   "status": "PROVED",
+   "closure": "kernel-free flag exclusion plus Scott-strip synchronized-column routing",
+   "statement": "For an inner-degree-10 terminal, a trivial block-kernel projection forces the exact A6 or S6 action on sixty point/two-subset flags, neither of which has subdegree four. Otherwise the derived block kernel is subdirect in six copies of A5, A6, or A10. Scott strips have common support size 1,2,3,6; size one contradicts the actual transverse quartic suborbit, while sizes 2,3,6 preserve synchronized column blocks and force a second geometric decomposition of that inner degree. Thus every m10 producer routes strictly to m=2,3,6, leaving 18 independent transverse types in degrees 2,3,4,6. This is routing, not nonexistence of every degree-10 decomposition, and no owner, charge, u2, cap 68, or row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/statement.md",
+    "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/proof.md",
+    "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/claim_contract.md",
+    "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/source_evidence.md",
+    "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/audit.md",
+    "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/result.md",
+    "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/frontier.md",
+    "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/verify.py",
+    "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m6_scott_cartesian_degree2_router",
+   "title": "KoalaBear m6 Scott-Cartesian degree-two router",
+   "status": "PROVED",
+   "closure": "kernel-free wreath intermediate blocks plus Scott-compatible column routing",
+   "statement": "For an inner-degree-six terminal, a trivial ten-block kernel leaves four wreath actions whose primitive degree-six chains all have an index-five intermediate subgroup; A10 and S10 have no such point-stabilizer quotient. Otherwise Scott-compatible synchronized classes have size five or ten. Size five is already excluded; size ten puts the actual four-point orbit in one degree-ten column fiber, forcing that map to factor to inner degree two or five. Thus every m6 producer dies or routes to m2, leaving 12 independent transverse types in degrees 2,3,4. No degree-two deletion, owner, charge, u2, cap 68, or row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/statement.md",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/proof.md",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/claim_contract.md",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/source_evidence.md",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/audit.md",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/result.md",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/frontier.md",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/verify.py",
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m4_outer_a6s6_route_cut",
+   "title": "KoalaBear m4 outer A6/S6 route cut",
+   "status": "PROVED",
+   "closure": "primitive degree-15 subdegree classification plus proper-factor routing",
+   "statement": "For an inner-degree-four terminal, the outer degree-15 correspondence types are (r,delta)=(1,16),(2,8),(4,4),(8,2). The complete primitive degree-15 catalogue has no nontrivial subdegree 1,2,4; those types force a proper outer factor of degree 3 or 5 and hence impossible endpoint inner degree 12 or 20. Only (8,2) survives, with outer monodromy A6 or S6 on two-subsets. The independent transverse frontier has nine types. No survivor deletion, owner, charge, u2, cap 68, or row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/statement.md",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/proof.md",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/claim_contract.md",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/source_evidence.md",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/audit.md",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/result.md",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/frontier.md",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/verify.py",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m4_a6s6_genus_zero_passport_reduction",
+   "title": "KoalaBear m4 A6/S6 genus-zero passport reduction",
+   "status": "PROVED",
+   "closure": "complete degree-15 two-subset class budget plus product-one generation census",
+   "statement": "For the surviving inner-degree-four outer map with A6 or S6 two-subset monodromy and a mandatory 5^3 pole cycle, exactly four geometric genus-zero passports remain: one A6 and three S6 rows. Three are three-point covers and one is a four-point cover. Five other index-compatible rows generate only proper groups of order 60 or 120. Challenge-field descent, split fibers, quartic source-star incidence, and the surviving m4 type remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/statement.md",
+    "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/proof.md",
+    "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/claim_contract.md",
+    "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/source_evidence.md",
+    "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/audit.md",
+    "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/result.md",
+    "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/frontier.md",
+    "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/verify.py",
+    "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m4_s6_652_pair_quotient_normal_form",
+   "title": "KoalaBear m4 S6 (6,5,2) pair-quotient normal form",
+   "status": "PROVED",
+   "closure": "exact unordered-pair resolvent normalization plus challenge-field pole descent",
+   "statement": "The rigid passport S6:5.1,2.1.1.1.1,6 has an explicit rational degree-15 normal form obtained as the unordered-pair quotient of the pinned BelyiDB degree-six companion. Its fibers are (6,6,3), (5,5,5), and (2,2,2,2,1,1,1,1,1,1,1). Its order-five fiber consists of -77 and 22 plus or minus 33 sqrt(5), so the required three-point pole divisor splits over F_(2130706433^6). No split active fiber, quartic source-star incidence, m4 deletion, owner charge, endpoint, or row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m4_s6_652_pair_quotient_normal_form/statement.md",
+    "background/nodes/rate_half_kb_m4_s6_652_pair_quotient_normal_form/proof.md",
+    "background/nodes/rate_half_kb_m4_s6_652_pair_quotient_normal_form/claim_contract.md",
+    "background/nodes/rate_half_kb_m4_s6_652_pair_quotient_normal_form/source_evidence.md",
+    "background/nodes/rate_half_kb_m4_s6_652_pair_quotient_normal_form/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m4_s6_652_pair_quotient_normal_form/audit.md",
+    "background/nodes/rate_half_kb_m4_s6_652_pair_quotient_normal_form/result.md",
+    "background/nodes/rate_half_kb_m4_s6_652_pair_quotient_normal_form/frontier.md",
+    "background/nodes/rate_half_kb_m4_s6_652_pair_quotient_normal_form/verify.py",
+    "background/nodes/rate_half_kb_m4_s6_652_pair_quotient_normal_form/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m4_s6_562_pair_quotient_normal_form",
+   "title": "KoalaBear m4 S6 (5,6,2) pair-quotient normal form",
+   "status": "PROVED",
+   "closure": "exact cubic-adjoint normalization of the unordered-pair curve plus challenge-field pole descent",
+   "statement": "The rigid passport S6:5.1,2.2.2,3.2.1 has an explicit rational degree-15 normal form obtained from the cubic-adjoint pencil on the unordered-pair curve of the pinned BelyiDB degree-six companion. Its fibers are (5,5,5), (6,3,3,2,1), and (2,2,2,2,2,2,1,1,1). Its order-five fiber has one rational point and two points over Q(sqrt(5)), so the required three-point pole divisor splits over F_(2130706433^6). No split active fiber, quartic source-star incidence, m4 deletion, owner charge, endpoint, or row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/statement.md",
+    "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/proof.md",
+    "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/claim_contract.md",
+    "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/source_evidence.md",
+    "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/audit.md",
+    "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/result.md",
+    "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/frontier.md",
+    "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/verify.py",
+    "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m4_a6_542_pair_quotient_normal_form",
+   "title": "KoalaBear m4 A6 (5,4,2) pair-quotient normal form",
+   "status": "PROVED",
+   "closure": "exact cubic-adjoint normalization over the quadratic coefficient field plus challenge-field pole descent",
+   "statement": "The rigid passport A6:5.1,2.2.1.1,4.2 has an explicit degree-15 normal form over Q(nu), nu^2-nu+4=0, obtained from the cubic-adjoint pencil on the unordered-pair curve of the pinned BelyiDB degree-six companion. Its fibers are (5,5,5), (4,4,4,2,1), and (2,2,2,2,2,2,1,1,1). Both coefficient-field embeddings lie in the KoalaBear base field, and its linear-plus-quadratic order-five divisor splits over F_(2130706433^6). No split active fiber, quartic source-star incidence, m4 deletion, owner charge, endpoint, or row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m4_a6_542_pair_quotient_normal_form/statement.md",
+    "background/nodes/rate_half_kb_m4_a6_542_pair_quotient_normal_form/proof.md",
+    "background/nodes/rate_half_kb_m4_a6_542_pair_quotient_normal_form/claim_contract.md",
+    "background/nodes/rate_half_kb_m4_a6_542_pair_quotient_normal_form/source_evidence.md",
+    "background/nodes/rate_half_kb_m4_a6_542_pair_quotient_normal_form/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m4_a6_542_pair_quotient_normal_form/audit.md",
+    "background/nodes/rate_half_kb_m4_a6_542_pair_quotient_normal_form/result.md",
+    "background/nodes/rate_half_kb_m4_a6_542_pair_quotient_normal_form/frontier.md",
+    "background/nodes/rate_half_kb_m4_a6_542_pair_quotient_normal_form/verify.py",
+    "background/nodes/rate_half_kb_m4_a6_542_pair_quotient_normal_form/verify_audit.py",
+    "background/nodes/rate_half_kb_m4_a6_542_pair_quotient_normal_form/verify_elimination.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m4_adjacency_genus_exclusion",
+   "title": "KoalaBear m4 adjacency-genus exclusion",
+   "status": "PROVED",
+   "closure": "ordered-adjacency orbital genus calculation plus separable degree-two Riemann-Hurwitz contradiction",
+   "statement": "The unique r=8 outer component for the surviving inner-degree-four route is the connected 120-sheet ordered-adjacency orbital of A6 or S6 on two-subsets. Across the four exhaustive passports its genera are 3, 6, 4, and 13. The actual source normalization has genus at most 3 and maps separably with degree 2 to this orbital component, forcing source genus at least 5, 11, 7, or 25. Thus all four passports and the complete m=4 transverse row are empty; the independent frontier consists of the three m=2 and five m=3 types. No owner charge or prize row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m4_adjacency_genus_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m4_adjacency_genus_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m4_adjacency_genus_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m4_adjacency_genus_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m4_adjacency_genus_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m4_adjacency_genus_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m4_adjacency_genus_exclusion/result.md",
+    "background/nodes/rate_half_kb_m4_adjacency_genus_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m4_adjacency_genus_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m4_adjacency_genus_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m3_primitive_outer_degree2_router",
+   "title": "KoalaBear m3 primitive-outer degree-two router",
+   "status": "PROVED",
+   "closure": "complete primitive degree-20 subdegree exclusion plus exact composite-destination routing",
+   "statement": "For each of the five inner-degree-three transverse types, an indecomposable outer degree-20 map would require a primitive group with subdegree 2, 3, 4, 6, or 12. The complete primitive degree-20 catalogue consists of PSL(2,19), PGL(2,19), A20, and S20, all with subdegrees 1,19. Thus the outer map decomposes; its proper right-factor destinations have inner degree 6,12,15,30, and the proved routers make each impossible or furnish an inner-degree-two decomposition. Inner degree three is not an independent producer, leaving the three m=2 types. No m3 nonexistence or owner charge is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/statement.md",
+    "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/proof.md",
+    "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/claim_contract.md",
+    "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/source_evidence.md",
+    "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/audit.md",
+    "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/result.md",
+    "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/frontier.md",
+    "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/verify.py",
+    "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "title": "KoalaBear m2 V4 outer-recurrence router",
+   "status": "PROVED",
+   "closure": "exact V4 component-stabilizer law, complete primitive degree-30 exclusion, recurrence ledger, and coordinate-stabilized source-star parity",
+   "statement": "For the three residual inner-degree-two transverse types, h x h is the V4 quotient and delta is exactly the order of the setwise stabilizer of the actual bidegree-(4,4) component: full V4 for (r,delta)=(2,4), one of three order-two subgroups for (4,2), and trivial for (8,1). The complete primitive degree-30 catalogue has only subdegrees 1,29, so every outer map decomposes; all proper-factor destinations are impossible or recurrent to m=2. If tau x 1 stabilizes the component, the actual source lift is (tau,b), paired source rows avoid both paired locators, and the source-star weight-three defect is impossible. No m2 type, owner charge, or prize row is closed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/statement.md",
+    "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/proof.md",
+    "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/audit.md",
+    "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/result.md",
+    "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/frontier.md",
+    "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/verify.py",
+    "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r2_full_v4_source_genus_drop",
+   "title": "KoalaBear m2 r2 full-V4 source genus drop",
+   "status": "PROVED",
+   "closure": "source V4 deck group, conic-factorization alternative, and tame fixed-point Riemann-Hurwitz",
+   "statement": "In the full-V4 (m,r,delta)=(2,2,4) row, let eta be the source-projection involution and a,c the two endpoint coordinate involutions. The degree-four W map has deck group <eta,a>. Conjugation by c fixes a and must exchange eta with eta*a: fixing eta would make the quartic coefficient map factor through a quadratic source quotient and return to the excluded line/conic branch. Tame V4 Riemann-Hurwitz then gives g(Gamma)=0 with two fixed points of a, or g(Gamma)=1 with none. Genus two and three are impossible; neither remaining regime is deleted or paid.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r2_full_v4_source_genus_drop/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_full_v4_source_genus_drop/proof.md",
+    "background/nodes/rate_half_kb_m2_r2_full_v4_source_genus_drop/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r2_full_v4_source_genus_drop/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r2_full_v4_source_genus_drop/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r2_full_v4_source_genus_drop/audit.md",
+    "background/nodes/rate_half_kb_m2_r2_full_v4_source_genus_drop/result.md",
+    "background/nodes/rate_half_kb_m2_r2_full_v4_source_genus_drop/frontier.md",
+    "background/nodes/rate_half_kb_m2_r2_full_v4_source_genus_drop/verify.py",
+    "background/nodes/rate_half_kb_m2_r2_full_v4_source_genus_drop/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r2_dihedral_outer_factor_reduction",
+   "title": "KoalaBear m2 r2 dihedral outer-factor reduction",
+   "status": "PROVED",
+   "closure": "elliptic involution quotient, two-degree projection dihedral theorem, and exact six-pole ramification sieve",
+   "statement": "In the full-V4 (m,r,delta)=(2,2,4) row, the outer bidegree-(2,2) component is rational even when the source normalization is elliptic. Its two degree-two projections generate a finite dihedral group, so the outer degree-30 map has a geometric Dickson/Chebyshev right factor. The six distinct order-five poles restrict its degree to n=2,3,5,6. The source-to-outer V4 cover has branch inertia a,c,ac in source genus zero and c,c,ac,ac in source genus one. No surviving factor degree, owner charge, or prize row is closed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/proof.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/audit.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/result.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/frontier.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/verify.py",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
+   "title": "KoalaBear m2 r2 dihedral degree-five source-star exclusion",
+   "status": "PROVED",
+   "closure": "totally ramified dihedral pole fiber, complete source pullback identity, and quartic star-defect contradiction",
+   "statement": "In the full-V4 (m,r,delta)=(2,2,4) row, the degree-five Dickson/Chebyshev factor profile is impossible. Its simple outer pole at the totally ramified value forces the two source pullbacks over one endpoint fiber to contribute total weight four to one matching source-star vertex, contradicting the proved maximum weight three. The surviving dihedral factor degrees are n=2,3,6. No other m=2 type, owner charge, or prize row is closed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion",
+   "title": "KoalaBear m2 r2 dihedral degree-two source-star exclusion",
+   "status": "PROVED",
+   "closure": "regular D2 coset incidence, normalized source cross-edge lemma, and exact four-vertex defect floor",
+   "statement": "In the full-V4 (m,r,delta)=(2,2,4) row, the degree-two Dickson/Chebyshev factor profile is impossible. At one generic pole of the outer map, regular D2=V4 incidence makes both Z values see the same two Y values. Their endpoint and complete-source lifts force eight star units onto four cross vertices, whose minimum defect is four, above the proved budget three. Together with the degree-five exclusion, the surviving factor degrees are n=3,6. No m=2 type, owner charge, or prize row is closed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity",
+   "title": "KoalaBear m2 r2 residual dihedral star-graph rigidity",
+   "status": "PROVED",
+   "closure": "regular D3/D6 coset incidence, full-V4 orientation exchange, and exact complete-source graph reconstruction",
+   "statement": "In every surviving full-V4 n=3 or n=6 dihedral profile, the second endpoint lift exchanges the two cross-edge orientations over each Z value. The complete source-star graph is therefore two disjoint K_(2,2,2) graphs for n=3 or the two-point blow-up of C_6 for n=6. All 24 star weights are one, the defect is zero, and every source row has degree four. This proves rigidity, not existence or deletion of either profile.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/proof.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/audit.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/result.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/frontier.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/verify.py",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin",
+   "title": "KoalaBear m2 r2 residual coefficient-quartic pin",
+   "status": "PROVED",
+   "closure": "symmetric sibling correspondence, exact quadratic pullback substitution, and irreducible degree-four equality",
+   "statement": "For either surviving full-V4 dihedral profile, normalize the endpoint quadratic as h(t)=t^2 and write k(sigma,pi)=0 for the symmetric bidegree-(2,2) sibling correspondence between the two Y values above one Z value. In unordered source-root coordinates S=t+s and P=ts, the residual birational coefficient image is exactly the canonical plane quartic k(S^2-2P,P^2)=0. This pins the realization equation but does not construct or delete n=3 or n=6.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/proof.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/audit.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/result.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/frontier.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/verify.py",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form",
+   "title": "KoalaBear m2 r2 residual one-parameter quartic normal form",
+   "status": "PROVED",
+   "closure": "standard D3/D6 sibling conic, exact source branch-place count, and explicit target-coordinate transport",
+   "statement": "Every surviving full-V4 n=3 or n=6 coefficient quartic is geometrically equivalent to an explicit one-parameter family Q_(a,b), where a=-1 or 1 respectively and b is the second endpoint branch value after the unique aligned branch value is normalized to 2. The six sibling coefficients are printed polynomial functions of a,b. Actual irreducibility and source realization remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form/proof.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form/audit.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form/result.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form/frontier.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form/verify.py",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas",
+   "title": "KoalaBear m2 r2 residual quartic singularity atlas",
+   "status": "PROVED",
+   "closure": "quadratic-function-field square classes, exact Hessian determinants, and plane-quartic delta ledger",
+   "statement": "For a=-1 or 1 and every allowed b outside {-2,2}, the residual quartic Q_(a,b) is geometrically irreducible and rational. For b!=a it has exactly three ordinary nodes; for b=a it has one ordinary node and one tacnode of delta two. Thus coefficient factorization and genus delete no residual parameter.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas/proof.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas/audit.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas/result.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas/frontier.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas/verify.py",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier",
+   "title": "KoalaBear m2 r2 residual source-cover twist classifier",
+   "status": "PROVED",
+   "closure": "exact quadratic square-class matching, relative endpoint branch preimages, and V4 passport branch counts",
+   "statement": "For an actual residual Q_(a,b), retain the projective twist between the standard and actual second endpoint coordinates. Equality of the coefficient quotient and endpoint source covers forces the two preimages of the endpoint branch values to be the roots of z^2-b*d*z+b^2+d^2-4, where d^2=a+2. Consequently the source genus is zero exactly when b^2=a+2 and one otherwise. Both regimes remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion",
+   "title": "KoalaBear m2 r2 dihedral degree-six common-pole exclusion",
+   "status": "PROVED",
+   "closure": "exact projective automorphism atlas for a common unramified Dickson-six pole fiber plus source-cover twist resultants",
+   "statement": "In the residual full-V4 n=6 profile, the six poles of the common degree-30 function would be one generic fiber of both degree-six dihedral quotients. The two fixed-point-free internal involutions yield only coincident, V4, or S3 matching structures. Exact binary-sextic comparison reduces these to the standard normalizer and the exceptional fibers c=27/8 and c=756/125; none is compatible with the forced source-cover branch quadratic. Thus n=6 is empty and only n=3 remains in the full-V4 dihedral frontier.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence",
+   "title": "KoalaBear m2 r2 degree-three geometric realization fence",
+   "status": "PROVED",
+   "closure": "explicit b=-1 genus-zero source component realizing the common cubic function, six poles, coefficient quartic, and complete source locators",
+   "statement": "The sole residual full-V4 n=3 profile has an explicit complete geometric model at a=b=-1. A printed bidegree-(2,4) source component realizes the non-diagonal D3 correspondence, a degree-30 common function with six order-five poles, the special rational coefficient quartic, genus-zero source passport, exact star graph, and complete-source saturation. Therefore geometry alone cannot delete n=3; the next obstruction must use the fixed active endpoint pencil or construct a chronology-valid recurrent owner/payment.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/proof.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/audit.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/result.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/frontier.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/verify.py",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler",
+   "title": "KoalaBear m2 r2 degree-three endpoint-cofactor interpolation compiler",
+   "status": "PROVED",
+   "closure": "exact Lagrange cofactor divisibility criterion plus one admissible split-field locator-packet deletion",
+   "statement": "For the sole residual full-V4 n=3 component, divisibility of the actual endpoint form by the bidegree-(2,4) component is equivalent to a full-support kernel in an explicit 38-by-12 stacked source-cofactor matrix. A pinned F_47 specialization satisfies the exact s=6 locator ownership, two-regular pole graph, and four-edge component-color conditions but has a nonzero rank-12 minor, so that abstract packet is not an endpoint component. Universal exclusion of all admissible ownerships remains open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/verify_audit.py"
+   ]
+  },
+  {
    "id": "l1_m31_semantic_owner_profile_regression",
    "title": "M31 line-profile compiler and semantic owner regression",
    "status": "PROVED",
@@ -19697,6 +21041,26 @@
    "notes": "Exact outer-lift compiler only. Common roots, guards, norm/pointwise outcomes, the separate inner lift, other h=7 shapes, and the critical target remain open."
   },
   {
+   "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler",
+   "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one J-zero guard compiler",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On a retained J-zero role/eta/color branch, every named denominator, HNF, role, exact-fiber, and split-root guard reduces to one explicit finite ledger in F_(p^8); the common-quadratic saturation is R_j^2/d^6 and exact fibers require only two scaled discriminants.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler/statement.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler/proof.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler/audit.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler/result.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler/lineage.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler/verify.py",
+    "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler/verify_audit.py"
+   ],
+   "notes": "Exact guard compiler only. Common-root and guard outcomes, norm/pointwise outcomes, the separate inner lift, other h=7 shapes, and the critical target remain open."
+  },
+  {
    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_structural_consistency_compiler",
    "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional structural-consistency compiler",
    "status": "PROVED",
@@ -20495,6 +21859,257 @@
    "attack_surface": "The Delta certificate: show the ideal (R_0..R_9) in Z[e_2,e_4,e_6,e_8,e_9,e_10] has no characteristic-zero point and extract Delta. Symbolic Y^1024 mod G blows up, so prefer the clean symmetric-function form recorded on the (4,9) node.",
    "falsifier": "A monic quintic E and nonzero e_9 over an admissible field with G = E(Y)^2 - e_9^2 Y dividing Y^1024-1 whose reconstruction yields a genuine reduced weight-10 relation satisfying the ell=4 window -- i.e. a live (4,10) vanisher.",
    "notes": "Minted 2026-07-27. The parity dichotomy flagged (4,10) as obstructed (gcd(10,2048)=2) and predicted it would need a sub-tuple router in the style of the closed (2,5)/(2,6). The resolution is simpler: even weights need no dilation at all, because the window conditions alone deliver the normal form and e_9 != 0 comes free from reducedness. Subtraction check clean at b13de811."
+  },
+  {
+   "id": "l1_mersenne_hnf_payoff_scope_router",
+   "title": "L1 Mersenne HNF payoff-scope router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "After the official atlas, maximal-value, broad-row, and m=4,h=3 exclusions, the nine Mersenne minimum-width rows retain exactly 42 (m,h,row) obligations: 4 at m=4,h=2, 24 at m=8,h=2..7, and 14 at m=16,h=2..15. Complete h=7 and h=15 closures remove only five cells; the exceptional J-zero cubic 3+2+1 chart alone removes none. Even complete ownership of the t=p residual advances the generic packing width only to p+1, with unfloored cap ratio (n-a+p)/p<m+2<=18, so wider exchanges and global L1 payment remain open.",
+   "refs": [
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/statement.md",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/proof.md",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/claim_contract.md",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/dependency_subdag.md",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/audit.md",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/result.md",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/lineage.md",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/upstream_crosswalk.md",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/verify.py",
+    "background/nodes/l1_mersenne_hnf_payoff_scope_router/verify_audit.py",
+    "notes/L1_HNF_PAYOFF_LADDER.md"
+   ],
+   "notes": "Exact scope and payoff ledger only. It proves no new HNF emptiness, survivor, owner payment, wider-width bound, or critical status change."
+  },
+  {
+   "id": "rate_half_m31_adjacent_quotient_rotation_product_spectrum",
+   "title": "M31 adjacent quotient-rotation product spectrum",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the auxiliary Mersenne-31 ordinary-list stress row (n,k,a)=(2^21,2^20,1116023), the d=1 cyclic quotient-rotation construction has exact 32-class product spectrum: 16 classes of size 8287155, 8 of size 8286755, 5 of size 8286751, and 3 of size 8286750. Thus it gives a structured lower floor 8287155, sharpening the average floor by 201, but remains 8490060 below the 2^-100 budget 16777215 and cannot alone decide the adjacent row.",
+   "refs": [
+    "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/statement.md",
+    "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/proof.md",
+    "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/claim_contract.md",
+    "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/dependency_subdag.md",
+    "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/audit.md",
+    "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/result.md",
+    "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/lineage.md",
+    "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/upstream_crosswalk.md",
+    "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/verify.py",
+    "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/verify_audit.py"
+   ],
+   "notes": "Exact direct-list lower construction and route calibration only. This auxiliary 2^-100 result is not a 2^-128 Prize row, a U_Q upper payment, an MCA statement, or an adjacent safety proof."
+  },
+  {
+   "id": "l1_m31_rank7_zero_excess_two_block_incidence_router",
+   "title": "M31 rank-seven zero-excess two-block incidence router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In the M31 Q=147595 rank-seven normalized-label residual, every zero-excess proper-G member has planted/external support sizes q and 72428-q, and two distinct members have total support intersection at most 4980. Consequently the complete q<=4980 tail has at most 40 members, the q>=67448 tail has at most 7, and any violating proper mass contains at least 2157882 distinct locators with 4981<=q<=67447. Its mean q satisfies an exact quadratic confinement, in particular 23945<mean(q)<24860.",
+   "refs": [
+    "background/nodes/l1_m31_rank7_zero_excess_two_block_incidence_router/statement.md",
+    "background/nodes/l1_m31_rank7_zero_excess_two_block_incidence_router/proof.md",
+    "background/nodes/l1_m31_rank7_zero_excess_two_block_incidence_router/claim_contract.md",
+    "background/nodes/l1_m31_rank7_zero_excess_two_block_incidence_router/dependency_subdag.md",
+    "background/nodes/l1_m31_rank7_zero_excess_two_block_incidence_router/audit.md",
+    "background/nodes/l1_m31_rank7_zero_excess_two_block_incidence_router/result.md",
+    "background/nodes/l1_m31_rank7_zero_excess_two_block_incidence_router/lineage.md",
+    "background/nodes/l1_m31_rank7_zero_excess_two_block_incidence_router/upstream_crosswalk.md",
+    "background/nodes/l1_m31_rank7_zero_excess_two_block_incidence_router/verify.py",
+    "background/nodes/l1_m31_rank7_zero_excess_two_block_incidence_router/verify_audit.py"
+   ],
+   "notes": "Exact local route reduction only. It proves no middle-band upper bound, Q=147595 payment, v4 atom, M31 row closure, higher-rank theorem, MCA result, or Prize endpoint movement."
+  },
+  {
+   "id": "l1_m31_rank7_dense_top_decorated_shift_pair_router",
+   "title": "M31 rank-seven dense top decorated shift-pair router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every forbidden M31 Q=147595 proper-G zero-excess class has more than one tenth of all member pairs at maximal combined intersection 4980. Hence one member has at least 215793 neighbors satisfying the primitive decorated top-stratum identity A C_i-B C_j=c!=0 with deg A=deg B=w+1=67448 and gcd(C_i,C_j)=1. At most 14 neighbors share a projective difference direction, so at least 15414 monic degree-4980 divisors of the anchor support locator lie in the six-dimensional direction space. A local cap 215792 or fixed-support divisor cap 15413 eliminates the terminal.",
+   "refs": [
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/statement.md",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/proof.md",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/claim_contract.md",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/dependency_subdag.md",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/audit.md",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/result.md",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/lineage.md",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/upstream_crosswalk.md",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/verify.py",
+    "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/verify_audit.py"
+   ],
+   "notes": "Exact local successor theorem only. It proves the forced lower degree in the primitive decorated top stratum, not the excluding upper cap, an upstream atom, a row closure, or a Prize result."
+  },
+  {
+   "id": "l1_m31_fixed_support_divisor_direction_cap_route_cut",
+   "title": "M31 fixed-support divisor-direction cap route cut",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For the M31 residual constants m=72428 and t=4980, a six-dimensional common-zero-free polynomial space contains 67449 projectively distinct monic degree-t divisors of one fixed degree-m split locator: choose a degree-(t-1) divisor R and use R(X-a) over every remaining root inside span{RX,R,1,X,X^2,X^3}. Thus a universal fixed-support divisor cap 15413 is false unless it retains received-word/Pade realizability.",
+   "refs": [
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/statement.md",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/proof.md",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/claim_contract.md",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/dependency_subdag.md",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/audit.md",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/result.md",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/lineage.md",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/upstream_crosswalk.md",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/verify.py",
+    "background/nodes/l1_m31_fixed_support_divisor_direction_cap_route_cut/verify_audit.py"
+   ],
+   "notes": "Exact algebraic route cut only. The construction is not a received-word list, does not satisfy the decorated neighbor equations, and proves no row lower or upper bound."
+  },
+  {
+   "id": "l1_m31_top_neighbor_core_shadow_payment",
+   "title": "M31 top-neighbor core-shadow payment",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For the M31 dense top-neighbor terminal, every fixed degree-(4980-r) divisor core supports at most floor(C(1053557-4981+r+1,r+1)/C(67447+r+1,r+1))-1 actual top neighbors. In particular a degree-4979 one-root-swap core supports at most 240 neighbors. Therefore an anchor with 215793 top neighbors realizes at least 4477705 distinct degree-4979 cores.",
+   "refs": [
+    "background/nodes/l1_m31_top_neighbor_core_shadow_payment/statement.md",
+    "background/nodes/l1_m31_top_neighbor_core_shadow_payment/proof.md",
+    "background/nodes/l1_m31_top_neighbor_core_shadow_payment/claim_contract.md",
+    "background/nodes/l1_m31_top_neighbor_core_shadow_payment/dependency_subdag.md",
+    "background/nodes/l1_m31_top_neighbor_core_shadow_payment/audit.md",
+    "background/nodes/l1_m31_top_neighbor_core_shadow_payment/result.md",
+    "background/nodes/l1_m31_top_neighbor_core_shadow_payment/lineage.md",
+    "background/nodes/l1_m31_top_neighbor_core_shadow_payment/upstream_crosswalk.md",
+    "background/nodes/l1_m31_top_neighbor_core_shadow_payment/verify.py",
+    "background/nodes/l1_m31_top_neighbor_core_shadow_payment/verify_audit.py"
+   ],
+   "notes": "Exact actual-list fixed-core payment and shadow floor only. It does not aggregate across cores, prove the local excluding cap, pay Q=147595, or move a Prize endpoint."
+  },
+  {
+   "id": "l1_m31_top_pair_source_head_saturation_router",
+   "title": "M31 top-pair source-head saturation router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every maximal-overlap pair in the M31 proper-G zero-excess terminal saturates the reduced source determinant: A_i b_j-A_j b_i=(gamma_j-gamma_i)gcd(H_i,H_j), so top edges join distinct source-head values. Every head fiber has at most 458812 members. A violating family therefore uses at least five head values, has at least 1699117 full-head members, and its dense anchor forces at least 71643276 colored core cells.",
+   "refs": [
+    "background/nodes/l1_m31_top_pair_source_head_saturation_router/statement.md",
+    "background/nodes/l1_m31_top_pair_source_head_saturation_router/proof.md",
+    "background/nodes/l1_m31_top_pair_source_head_saturation_router/claim_contract.md",
+    "background/nodes/l1_m31_top_pair_source_head_saturation_router/dependency_subdag.md",
+    "background/nodes/l1_m31_top_pair_source_head_saturation_router/audit.md",
+    "background/nodes/l1_m31_top_pair_source_head_saturation_router/result.md",
+    "background/nodes/l1_m31_top_pair_source_head_saturation_router/lineage.md",
+    "background/nodes/l1_m31_top_pair_source_head_saturation_router/upstream_crosswalk.md",
+    "background/nodes/l1_m31_top_pair_source_head_saturation_router/verify.py",
+    "background/nodes/l1_m31_top_pair_source_head_saturation_router/verify_audit.py"
+   ],
+   "notes": "Exact source-sensitive top-edge coloring and spread reduction only. It does not aggregate head fibers, supply first-owner add-back, pay Q=147595, or move a Prize endpoint."
+  },
+  {
+   "id": "l1_m31_source_head_infinity_owner_route_cut",
+   "title": "M31 source-head infinity-owner route cut",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "The source head is the extended-RS evaluation-at-infinity functional, but the existing full-projective-line deletion recurrence pays only one fixed infinity label. It cannot aggregate all head fibers, and the current head/core/cell caps alone admit arbitrary abstract neighbor mass.",
+   "refs": [
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/statement.md",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/proof.md",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/claim_contract.md",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/dependency_subdag.md",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/audit.md",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/result.md",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/lineage.md",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/upstream_crosswalk.md",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/verify.py",
+    "background/nodes/l1_m31_source_head_infinity_owner_route_cut/verify_audit.py"
+   ],
+   "notes": "Interface route cut only. It rules out direct reuse of the existing infinity-coordinate recurrence as an all-head owner, not a stronger coupled source theorem."
+  },
+  {
+   "id": "e1_s18_m514_hermite_two_profile_exclusion",
+   "title": "E1 square-mass-18 cofactor-514 Hermite two-profile exclusion",
+   "status": "PROVED",
+   "closure": "quadratic Hermite moment majorants with exact endpoint comparisons",
+   "statement": "A profile-independent quadratic Hermite majorant puts cofactor-514 autocorrelation profiles (9;1,2,0) and (11;7,1,0) strictly below the prize field floor. Thirteen magnitude profiles remain.",
+   "refs": [
+    "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/statement.md",
+    "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/proof.md",
+    "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/claim_contract.md",
+    "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/dependency_subdag.md",
+    "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/audit.md",
+    "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/result.md",
+    "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/frontier.md",
+    "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/verify.py"
+   ],
+   "notes": "ANALYTIC REFINEMENT 2026-07-29: exact cross-multiplied Hermite bounds remove two live magnitude rows without support enumeration. The five-ideal occupancy threshold remains open."
+  },
+  {
+   "id": "e1_profile018_e12_root_parity_screen_no_go",
+   "title": "E1 profile-(0,18) energy-12 root/parity screen no-go",
+   "status": "PROVED",
+   "closure": "explicit positive autocorrelation witness",
+   "statement": "The all-unit lag set {1,...,11,15} has energy 12, exact parity multiplicity two, a primitive root 148 modulo 257, a uniform positive conjugate-square floor four, and cubic index 378. Thus the autocorrelation/root/parity/positivity screen is nonempty. Its exact norm quotient by 514 is below the official floor.",
+   "refs": [
+    "background/nodes/e1_profile018_e12_root_parity_screen_no_go/statement.md",
+    "background/nodes/e1_profile018_e12_root_parity_screen_no_go/proof.md",
+    "background/nodes/e1_profile018_e12_root_parity_screen_no_go/claim_contract.md",
+    "background/nodes/e1_profile018_e12_root_parity_screen_no_go/dependency_subdag.md",
+    "background/nodes/e1_profile018_e12_root_parity_screen_no_go/audit.md",
+    "background/nodes/e1_profile018_e12_root_parity_screen_no_go/result.md",
+    "background/nodes/e1_profile018_e12_root_parity_screen_no_go/frontier.md",
+    "background/nodes/e1_profile018_e12_root_parity_screen_no_go/verify.py"
+   ],
+   "notes": "ROUTE CUT 2026-07-29: this is a signed autocorrelation target, not an 18-singleton spectral factor. Its exact resultant shows that norm is selective even though the preceding necessary screens are not."
+  },
+  {
+   "id": "e1_s18_m514_e10_profile61_cubic_exclusion",
+   "title": "E1 square-mass-18 cofactor-514 energy-ten profile-(6,1) cubic exclusion",
+   "status": "PROVED",
+   "closure": "signed-relation divisibility and cubic Hermite norm majorant",
+   "statement": "The cofactor-514 magnitude profile (E;n1,n2,n3)=(10;6,1,0) has nested-layer bound |M3|<=268 and signed relation divisibility M3=0 mod 6, hence M3<=264. A global cubic Hermite majorant puts its norm below the prize field floor. Twelve magnitude profiles remain.",
+   "refs": [
+    "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/statement.md",
+    "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/proof.md",
+    "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/claim_contract.md",
+    "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/dependency_subdag.md",
+    "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/audit.md",
+    "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/result.md",
+    "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/frontier.md",
+    "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/verify.py"
+   ],
+   "notes": "ANALYTIC REFINEMENT 2026-07-29: the six-divisibility of the signed cubic relation index supplies the four-unit improvement that the relaxed layer bound lacked. The five-ideal occupancy threshold remains open."
+  },
+  {
+   "id": "e1_s18_m514_e12_all_unit_parity_cubic_exclusion",
+   "title": "E1 square-mass-18 cofactor-514 energy-twelve all-unit exclusion",
+   "status": "PROVED",
+   "closure": "parity-split relation cap and cubic Hermite norm majorant",
+   "statement": "Exact local parity forces an odd number of odd lags in the all-unit energy-twelve profile. Splitting signed cubic relations into EEE and EOO types gives M3<=510, and a global cubic Hermite majorant puts every such norm below the prize field floor. Eleven magnitude profiles remain.",
+   "refs": [
+    "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/statement.md",
+    "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/proof.md",
+    "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/claim_contract.md",
+    "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/dependency_subdag.md",
+    "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/audit.md",
+    "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/result.md",
+    "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/frontier.md",
+    "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/verify.py"
+   ],
+   "notes": "ANALYTIC REFINEMENT 2026-07-29: parity-split additive counting closes the former all-unit boundary without lag enumeration. The five-ideal occupancy threshold remains open on eleven rows at E=5,...,11."
+  },
+  {
+   "id": "e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion",
+   "title": "E1 square-mass-18 cofactor-514 energy-eleven all-unit exclusion",
+   "status": "PROVED",
+   "closure": "dyadic relation recursion and cubic Hermite norm majorant",
+   "statement": "A dyadic recursion for symmetric zero-sum relations, restricted by exact local parity, gives M3<=384 for the all-unit energy-eleven profile. A global cubic Hermite majorant puts every such norm below the prize field floor. Ten magnitude profiles remain.",
+   "refs": [
+    "background/nodes/e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion/statement.md",
+    "background/nodes/e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion/proof.md",
+    "background/nodes/e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion/claim_contract.md",
+    "background/nodes/e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion/dependency_subdag.md",
+    "background/nodes/e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion/audit.md",
+    "background/nodes/e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion/result.md",
+    "background/nodes/e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion/frontier.md",
+    "background/nodes/e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion/verify.py"
+   ],
+   "notes": "ANALYTIC REFINEMENT 2026-07-29: recursively pricing the even support closes energy eleven without lag enumeration. The five-ideal occupancy threshold remains open on ten rows at E=5,...,10."
   }
  ],
  "edges": [
@@ -35220,6 +36835,21 @@
   },
   {
    "from": "l1_exact_shell_balanced_shifted_lattice_reduction",
+   "to": "l1_balanced_pencil_anchor_determinant_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "l1_split_pencil_content_exact_shell_descent",
+   "to": "l1_balanced_pencil_anchor_determinant_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "l1_balanced_pencil_anchor_determinant_atlas",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_exact_shell_balanced_shifted_lattice_reduction",
    "to": "l1_boundary_shifted_lattice_affine_q_cell",
    "kind": "req"
   },
@@ -35400,6 +37030,471 @@
   },
   {
    "from": "rate_half_kb_v4_tangent_source_atom",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_q6_u2_complete_source_conic_exclusion",
+   "to": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_q6_u2_complete_source_conic_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
+   "to": "rate_half_kb_degree60_decomposition_divisor_adapter",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_degree60_decomposition_divisor_adapter",
+   "to": "rate_half_kb_degree5_decomposition_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_degree60_decomposition_divisor_adapter",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_degree5_decomposition_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_degree60_decomposition_divisor_adapter",
+   "to": "rate_half_kb_decomposition_source_pencil_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_degree5_decomposition_exclusion",
+   "to": "rate_half_kb_decomposition_source_pencil_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_decomposition_source_pencil_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_decomposition_source_pencil_compiler",
+   "to": "rate_half_kb_source_pencil_rank_transverse_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_source_pencil_rank_transverse_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_source_pencil_rank_transverse_compiler",
+   "to": "rate_half_kb_m12_outer_subdegree_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m12_outer_subdegree_route_cut",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m12_outer_subdegree_route_cut",
+   "to": "rate_half_kb_m12_diagonal_socle_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m12_diagonal_socle_route_cut",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m12_diagonal_socle_route_cut",
+   "to": "rate_half_kb_m12_secondary_degree5_decomposition_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_degree5_decomposition_exclusion",
+   "to": "rate_half_kb_m12_secondary_degree5_decomposition_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m12_secondary_degree5_decomposition_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_source_pencil_rank_transverse_compiler",
+   "to": "rate_half_kb_m10_scott_strip_lower_degree_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m10_scott_strip_lower_degree_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_source_pencil_rank_transverse_compiler",
+   "to": "rate_half_kb_m6_scott_cartesian_degree2_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_degree5_decomposition_exclusion",
+   "to": "rate_half_kb_m6_scott_cartesian_degree2_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m6_scott_cartesian_degree2_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_source_pencil_rank_transverse_compiler",
+   "to": "rate_half_kb_m4_outer_a6s6_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m12_secondary_degree5_decomposition_exclusion",
+   "to": "rate_half_kb_m4_outer_a6s6_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m4_outer_a6s6_route_cut",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m4_outer_a6s6_route_cut",
+   "to": "rate_half_kb_m4_a6s6_genus_zero_passport_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m4_a6s6_genus_zero_passport_reduction",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m4_a6s6_genus_zero_passport_reduction",
+   "to": "rate_half_kb_m4_s6_652_pair_quotient_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m4_s6_652_pair_quotient_normal_form",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m4_a6s6_genus_zero_passport_reduction",
+   "to": "rate_half_kb_m4_s6_562_pair_quotient_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m4_s6_562_pair_quotient_normal_form",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m4_a6s6_genus_zero_passport_reduction",
+   "to": "rate_half_kb_m4_a6_542_pair_quotient_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m4_a6_542_pair_quotient_normal_form",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
+   "to": "rate_half_kb_m4_adjacency_genus_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_source_pencil_rank_transverse_compiler",
+   "to": "rate_half_kb_m4_adjacency_genus_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m4_a6s6_genus_zero_passport_reduction",
+   "to": "rate_half_kb_m4_adjacency_genus_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m4_adjacency_genus_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m4_adjacency_genus_exclusion",
+   "to": "rate_half_kb_m3_primitive_outer_degree2_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
+   "to": "rate_half_kb_m3_primitive_outer_degree2_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_decomposition_source_pencil_compiler",
+   "to": "rate_half_kb_m3_primitive_outer_degree2_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m6_scott_cartesian_degree2_router",
+   "to": "rate_half_kb_m3_primitive_outer_degree2_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m12_secondary_degree5_decomposition_exclusion",
+   "to": "rate_half_kb_m3_primitive_outer_degree2_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m3_primitive_outer_degree2_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
+   "to": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_source_pencil_rank_transverse_compiler",
+   "to": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_decomposition_source_pencil_compiler",
+   "to": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m4_adjacency_genus_exclusion",
+   "to": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m6_scott_cartesian_degree2_router",
+   "to": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m10_scott_strip_lower_degree_router",
+   "to": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m12_secondary_degree5_decomposition_exclusion",
+   "to": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m3_primitive_outer_degree2_router",
+   "to": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_q6_u2_complete_source_conic_exclusion",
+   "to": "rate_half_kb_m2_r2_full_v4_source_genus_drop",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
+   "to": "rate_half_kb_m2_r2_full_v4_source_genus_drop",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r2_full_v4_source_genus_drop",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_full_v4_source_genus_drop",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_degree60_decomposition_divisor_adapter",
+   "to": "rate_half_kb_m2_r2_dihedral_outer_factor_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_full_v4_source_genus_drop",
+   "to": "rate_half_kb_m2_r2_dihedral_outer_factor_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_outer_factor_reduction",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_outer_factor_reduction",
+   "to": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
+   "to": "rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion",
+   "to": "rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity",
+   "to": "rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin",
+   "to": "rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form",
+   "to": "rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas",
+   "to": "rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_outer_factor_reduction",
+   "to": "rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier",
+   "to": "rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier",
+   "to": "rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion",
+   "to": "rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
+   "to": "rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence",
+   "to": "rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m12_outer_subdegree_route_cut",
+   "to": "rate_half_kb_m12_r4_low_genus_branch_profile_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m12_r4_low_genus_branch_profile_reduction",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m12_outer_subdegree_route_cut",
+   "to": "rate_half_kb_m12_outer_normal_form_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m12_r4_low_genus_branch_profile_reduction",
+   "to": "rate_half_kb_m12_outer_normal_form_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m12_outer_normal_form_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m12_outer_normal_form_compiler",
+   "to": "rate_half_kb_m12_split_fiber_arithmetic_descent",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m12_split_fiber_arithmetic_descent",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
@@ -37370,6 +39465,36 @@
   },
   {
    "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_j0_role_p4_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_outer_lift_compiler",
+   "to": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler",
    "to": "l1_mixed_petal_amplification",
    "kind": "ev"
   },
@@ -39381,6 +41506,911 @@
   {
    "from": "e1_official_low_square_mass_pair_budget",
    "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_official_checkpoint_characteristic_atlas",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_official_max_split_value_complement_census",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_official_broad_checkpoint_frobenius_periodicity_exclusion",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_checkpoint_embedded_m2_family",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m4_h3_official_emptiness",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_coarse_pfree_tame_tail_distance_upgrade",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_coarse_pfree_wronskian_distance_packing",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_zero_reciprocal_elimination",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m16_order_zero_reciprocal_elimination",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler",
+   "to": "l1_mersenne_hnf_payoff_scope_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_mersenne_hnf_payoff_scope_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_cyclic_rotated_prefix_floor",
+   "to": "rate_half_m31_adjacent_quotient_rotation_product_spectrum",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_m31_adjacent_quotient_rotation_product_spectrum",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_m31_adjacent_quotient_rotation_product_spectrum",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m31_rank7_zero_excess_two_block_incidence_router",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m31_rank7_zero_excess_two_block_incidence_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m31_rank7_zero_excess_two_block_incidence_router",
+   "to": "l1_m31_rank7_dense_top_decorated_shift_pair_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m31_rank7_dense_top_decorated_shift_pair_router",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m31_rank7_dense_top_decorated_shift_pair_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m31_rank7_dense_top_decorated_shift_pair_router",
+   "to": "l1_m31_fixed_support_divisor_direction_cap_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m31_fixed_support_divisor_direction_cap_route_cut",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m31_rank7_dense_top_decorated_shift_pair_router",
+   "to": "l1_m31_top_neighbor_core_shadow_payment",
+   "kind": "req"
+  },
+  {
+   "from": "upstream_gfv4_affine_span_list_compiler",
+   "to": "l1_m31_top_neighbor_core_shadow_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m31_fixed_support_divisor_direction_cap_route_cut",
+   "to": "l1_m31_top_neighbor_core_shadow_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m31_top_neighbor_core_shadow_payment",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m31_rank7_dense_top_decorated_shift_pair_router",
+   "to": "l1_m31_top_pair_source_head_saturation_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m31_top_neighbor_core_shadow_payment",
+   "to": "l1_m31_top_pair_source_head_saturation_router",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m31_top_pair_source_head_saturation_router",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_m31_top_pair_source_head_saturation_router",
+   "to": "l1_m31_source_head_infinity_owner_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "l1_m31_source_head_infinity_owner_route_cut",
+   "to": "l1_mixed_petal_amplification",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_low_square_mass_weighted_kernel_dictionary",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_cofactor_windows",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1538_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1024_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m1028_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m512_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m514_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m256_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m64_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m32_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m16_one_division_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_conductor256_full_unit_circular_basis",
+   "to": "e1_pure_cofactor_common_prime_associate_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_pure_cofactor_common_prime_associate_router",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_pure_cofactor_common_prime_associate_router",
+   "to": "e1_conductor256_character_diagonal_exponent_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_conductor256_character_diagonal_exponent_router",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_conductor256_character_diagonal_exponent_router",
+   "to": "e1_conductor256_character_eigenvalue_preflight",
+   "kind": "req"
+  },
+  {
+   "from": "e1_conductor256_character_eigenvalue_preflight",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_conductor256_character_eigenvalue_preflight",
+   "to": "e1_conductor256_inverse_kernel_contraction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_conductor256_inverse_kernel_contraction",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_pure_cofactor_common_prime_associate_router",
+   "to": "e1_high_cofactor_schinzel_height_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "e1_conductor256_full_unit_circular_basis",
+   "to": "e1_high_cofactor_schinzel_height_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "e1_conductor256_character_eigenvalue_preflight",
+   "to": "e1_high_cofactor_schinzel_height_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "e1_high_cofactor_schinzel_height_collapse",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_high_cofactor_schinzel_height_collapse",
+   "to": "e1_cofactor2_smyth_height_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "e1_conductor256_full_unit_circular_basis",
+   "to": "e1_cofactor2_smyth_height_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "e1_cofactor2_smyth_height_collapse",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_low_square_mass_weighted_kernel_dictionary",
+   "to": "e1_profile36_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_exclusion",
+   "to": "e1_profile36_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_high_cofactor_schinzel_height_collapse",
+   "to": "e1_profile36_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_cofactor2_smyth_height_collapse",
+   "to": "e1_profile36_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile36_exact_weighted_payment",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile36_exact_weighted_payment",
+   "to": "e1_profile210_split_prime_ideal_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_pair_feasible_prime_field_reduction",
+   "to": "e1_profile210_split_prime_ideal_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_profile210_split_prime_ideal_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_conductor256_full_unit_circular_basis",
+   "to": "e1_profile210_split_prime_ideal_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_high_cofactor_schinzel_height_collapse",
+   "to": "e1_profile210_split_prime_ideal_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_cofactor2_smyth_height_collapse",
+   "to": "e1_profile210_split_prime_ideal_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_profile210_m1538_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_profile_36_sharp_product_window",
+   "to": "e1_profile210_m1538_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_n256_s18_variance_cofactor_windows",
+   "to": "e1_profile210_m1538_collision_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1538_collision_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_profile210_m1028_energy56_log_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m1028_global_energy_window",
+   "to": "e1_profile210_m1028_energy56_log_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1028_energy56_log_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_profile210_m1028_energy2_log_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m1028_global_energy_window",
+   "to": "e1_profile210_m1028_energy2_log_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1028_energy2_log_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_profile210_m1028_energy3_modular_norm_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m1028_global_energy_window",
+   "to": "e1_profile210_m1028_energy3_modular_norm_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1028_energy2_log_exclusion",
+   "to": "e1_profile210_m1028_energy3_modular_norm_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1028_energy56_log_exclusion",
+   "to": "e1_profile210_m1028_energy3_modular_norm_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1028_energy3_modular_norm_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_profile210_m514_outer_energy_log_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m514_sharp_product_ceiling",
+   "to": "e1_profile210_m514_outer_energy_log_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m514_outer_energy_log_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_m514_outer_energy_log_exclusion",
+   "to": "e1_profile210_m514_middle_shape_log_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_profile210_m514_middle_shape_log_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m514_middle_shape_log_router",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_m514_middle_shape_log_router",
+   "to": "e1_profile210_m514_parity_trace_cap",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_profile210_m514_parity_trace_cap",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m514_parity_trace_cap",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile36_exact_weighted_payment",
+   "to": "e1_profile210_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_low_square_mass_weighted_kernel_dictionary",
+   "to": "e1_profile210_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_profile210_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1538_collision_exclusion",
+   "to": "e1_profile210_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_exact_weighted_payment",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_exact_weighted_payment",
+   "to": "e1_profile114_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_profile114_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1538_collision_exclusion",
+   "to": "e1_profile114_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1028_energy2_log_exclusion",
+   "to": "e1_profile114_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1028_energy3_modular_norm_exclusion",
+   "to": "e1_profile114_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1028_energy56_log_exclusion",
+   "to": "e1_profile114_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_low_square_mass_weighted_kernel_dictionary",
+   "to": "e1_profile114_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile114_split_prime_payment_router",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_s18_m1028_energy4_cubic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m1028_global_energy_window",
+   "to": "e1_s18_m1028_energy4_cubic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m1028_energy4_cubic_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_exact_weighted_payment",
+   "to": "e1_profile114_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_low_square_mass_weighted_kernel_dictionary",
+   "to": "e1_profile114_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile114_split_prime_payment_router",
+   "to": "e1_profile114_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m1028_energy4_cubic_exclusion",
+   "to": "e1_profile114_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile114_exact_weighted_payment",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_s18_m514_sharp_product_ceiling",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_s18_m514_sharp_product_ceiling",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m514_sharp_product_ceiling",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "collision_norm_criterion",
+   "to": "e1_s18_m1028_global_energy_window",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_s18_m1028_global_energy_window",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m1028_global_energy_window",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile114_exact_weighted_payment",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1538_collision_exclusion",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m1028_global_energy_window",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1028_energy2_log_exclusion",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1028_energy3_modular_norm_exclusion",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m1028_energy4_cubic_exclusion",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m1028_energy56_log_exclusion",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m514_sharp_product_ceiling",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m514_outer_energy_log_exclusion",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m514_middle_shape_log_router",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_m514_parity_trace_cap",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_low_square_mass_weighted_kernel_dictionary",
+   "to": "e1_profile018_split_prime_payment_router",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile018_split_prime_payment_router",
+   "to": "e1_profile018_m514_five_ideal_occupancy",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile018_split_prime_payment_router",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile018_m514_five_ideal_occupancy",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_conductor128_full_unit_circular_basis",
+   "to": "e1_qzeta128_p257_j63_residue_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_qzeta128_p257_j63_stickelberger_relation",
+   "to": "e1_qzeta128_p257_j63_residue_obstruction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_qzeta128_p257_j63_residue_obstruction",
+   "to": "e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate",
+   "to": "e1_qzeta128_p257_two_involution_nonprincipality_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "e1_qzeta128_p257_j65_harbater_nonprincipality",
+   "to": "e1_qzeta128_p257_two_involution_nonprincipality_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "e1_qzeta128_p257_two_involution_nonprincipality_certificate",
+   "to": "e1_qzeta128_p257_class_orbit_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "e1_conductor256_full_unit_circular_basis",
+   "to": "e1_qzeta128_p257_class_orbit_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "e1_qzeta128_p257_class_orbit_certificate",
+   "to": "e1_profile018_qzeta128_class_descent_two_ideal_bound",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile018_galois_norm_occupancy_dictionary",
+   "to": "e1_profile018_qzeta128_class_descent_two_ideal_bound",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile018_qzeta128_class_descent_two_ideal_bound",
+   "to": "e1_profile018_m514_five_ideal_occupancy",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile018_split_prime_payment_router",
+   "to": "e1_profile018_two_ideal_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile018_galois_norm_occupancy_dictionary",
+   "to": "e1_profile018_two_ideal_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_low_square_mass_weighted_kernel_dictionary",
+   "to": "e1_profile018_two_ideal_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile018_qzeta128_class_descent_two_ideal_bound",
+   "to": "e1_profile018_two_ideal_exact_weighted_payment",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile018_two_ideal_exact_weighted_payment",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile018_split_prime_payment_router",
+   "to": "e1_profile018_galois_norm_occupancy_dictionary",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile210_split_prime_ideal_router",
+   "to": "e1_profile018_galois_norm_occupancy_dictionary",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile018_galois_norm_occupancy_dictionary",
+   "to": "e1_profile018_m514_five_ideal_occupancy",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile018_galois_norm_occupancy_dictionary",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile018_split_prime_payment_router",
+   "to": "e1_profile018_mod257_singleton_completion_no_go",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile018_mod257_singleton_completion_no_go",
+   "to": "e1_profile018_m514_five_ideal_occupancy",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile018_mod257_singleton_completion_no_go",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_m514_parity_trace_cap",
+   "to": "e1_s18_m514_hermite_two_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_s18_m514_hermite_two_profile_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m514_hermite_two_profile_exclusion",
+   "to": "e1_profile018_m514_five_ideal_occupancy",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_s18_m514_hermite_two_profile_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_s18_m514_hermite_two_profile_exclusion",
+   "to": "e1_s18_m514_e10_profile61_cubic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m514_e10_profile61_cubic_exclusion",
+   "to": "e1_profile018_m514_five_ideal_occupancy",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_s18_m514_e10_profile61_cubic_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_m514_parity_trace_cap",
+   "to": "e1_s18_m514_e12_all_unit_parity_cubic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_s18_m514_e12_all_unit_parity_cubic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m514_e12_all_unit_parity_cubic_exclusion",
+   "to": "e1_profile018_m514_five_ideal_occupancy",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_s18_m514_e12_all_unit_parity_cubic_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile210_m514_parity_trace_cap",
+   "to": "e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion",
+   "to": "e1_profile018_m514_five_ideal_occupancy",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile018_split_prime_payment_router",
+   "to": "e1_profile018_e12_root_parity_screen_no_go",
+   "kind": "req"
+  },
+  {
+   "from": "e1_s18_m514_hermite_two_profile_exclusion",
+   "to": "e1_profile018_e12_root_parity_screen_no_go",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile018_e12_root_parity_screen_no_go",
+   "to": "e1_profile018_m514_five_ideal_occupancy",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile018_e12_root_parity_screen_no_go",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_n256_local_norm_cofactor_collapse",
+   "to": "e1_profile44_local_norm_route_fence",
+   "kind": "req"
+  },
+  {
+   "from": "e1_prize_field_floor_even_norm_exclusion",
+   "to": "e1_profile44_local_norm_route_fence",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile44_local_norm_route_fence",
+   "to": "e1_official_low_square_mass_pair_budget",
    "kind": "ev"
   }
  ]

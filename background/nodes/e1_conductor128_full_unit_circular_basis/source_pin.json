@@ -1,0 +1,16 @@
+{
+  "miller": {
+    "author": "John C. Miller",
+    "title": "Class numbers of totally real fields and applications to the Weber class number problem",
+    "journal": "Acta Arithmetica 164.4 (2014), 381-397",
+    "doi": "10.4064/aa164-4-4",
+    "imported_result": "Theorem 2.1: h(Q(zeta_256+zeta_256^(-1)))=1"
+  },
+  "sinnott": {
+    "author": "Warren Sinnott",
+    "title": "On the Stickelberger ideal and the circular units of a cyclotomic field",
+    "journal": "Annals of Mathematics 108 (1978), 107-134",
+    "doi": "10.2307/1970932",
+    "imported_result": "prime-power circular-unit index formula"
+  }
+}

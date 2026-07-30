@@ -1,0 +1,9 @@
+{
+  "schema": "e1-profile210-m1028-e3-source-pin-v1",
+  "script": "experiments/prize_resolution/e1_profile210_m1028_e3_modular_norm.py",
+  "script_sha256": "4e0d837414ad03cf221914078828e864c148742abca89b9ecae766ed1faf9c66",
+  "result": "experiments/prize_resolution/e1_profile210_m1028_e3_modular_norm_result.json",
+  "result_sha256": "ba8a7a920800d163d660376b8f9d4c735cbd894215f1e839e0c68f8797c5f2a8",
+  "ledger_digest": "d462adc241981e2e3aa9747a5ba582808d8ebf505e2df6a86fdad2df52a7d3cc",
+  "types": 329
+}

@@ -2,17 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 1,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/e1_prize_n256_s18_profile_exclusion/verify.py",
-      "seconds": 0.08536,
+      "script": "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/verify.py",
+      "seconds": 0.024977,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "E1_PRIZE_N256_S18_PROFILE_EXCLUSION_PASS eligible=271 residual=270 next=(3,6,18) cap=93962 checks=40\n"
+      "stdout_tail": "RATE_HALF_KB_M2_R2_DIHEDRAL_DEGREE3_ENDPOINT_COFACTOR_INTERPOLATION_COMPILER_PASS\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/verify_audit.py",
+      "seconds": 0.022819,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_KB_M2_R2_DIHEDRAL_DEGREE3_ENDPOINT_COFACTOR_INTERPOLATION_COMPILER_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

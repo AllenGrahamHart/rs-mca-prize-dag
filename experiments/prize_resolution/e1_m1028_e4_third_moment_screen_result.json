@@ -1,0 +1,22 @@
+{
+  "distribution": {
+    "-36": 1,
+    "-30": 1,
+    "-24": 13,
+    "-18": 38,
+    "-12": 478,
+    "-6": 704,
+    "0": 5860,
+    "6": 755,
+    "12": 477,
+    "18": 45,
+    "24": 13
+  },
+  "high_count": 0,
+  "high_types": [],
+  "ledger_digest": "401203ca53dbd51a859b702767576b50aca05c73216194120a60eff251d1d442",
+  "maximum_cubic_index": 24,
+  "multiplicity_four_lag_sets": 134720,
+  "schema": "e1-m1028-e4-third-moment-screen-v1",
+  "types": 8385
+}

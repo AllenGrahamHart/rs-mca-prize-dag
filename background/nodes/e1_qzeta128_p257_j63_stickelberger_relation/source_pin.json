@@ -1,0 +1,15 @@
+{
+  "short_basis": {
+    "authors": "Olivier Bernard and Radan Kucera",
+    "title": "A short basis of the Stickelberger ideal of a cyclotomic field",
+    "arxiv": "2109.13329",
+    "url": "https://arxiv.org/abs/2109.13329",
+    "imported_result": "explicit prime-power short Stickelberger elements motivating the 32 Jacobi pairs"
+  },
+  "factorization": {
+    "author": "Lawrence C. Washington",
+    "title": "Introduction to Cyclotomic Fields, second edition",
+    "series": "Graduate Texts in Mathematics 83, Springer, 1997",
+    "imported_result": "classical Stickelberger factorization of Gauss and Jacobi sums"
+  }
+}

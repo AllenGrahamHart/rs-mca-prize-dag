@@ -339,3 +339,22 @@ windows. A dual exact affine/XOR classifier removes all five `m=1538`
 chambers, leaving eleven cofactors. The next two short interfaces are
 `m=1024,1028`, both with `V<=34`. This reduction is proved but does not yet
 pay the aggregate edge ledger.
+
+The completed cofactor chain has since reduced that profile to
+`m in {2,4,8,16}`; at `m=16`, only the primitive multiplicity-four support
+branch remains. The proved pure-cofactor associate router adds the exact
+same-row coupling
+
+```text
+alpha=pi^mu u g,       mu in {1,2,3,4},       (g)=P_r.
+```
+
+Thus all retained vectors at one fixed row root are normalized generators of
+the same principal reduction prime and differ by algebraic units. Within one
+cofactor, both the unit and its inverse have explicit coefficient bounds
+`1006,503,251,125`. Modulo the 256 roots of unity, each branch also injects
+into an explicit body in the full rank-63 unit log lattice. This is a
+bounded-associate problem, not a collection of independent norm events. No
+associate count or weighted edge payment is yet proved. The exact
+maximum-weight target is at most 367 lattice points modulo `mu_256`; 368
+already exceed the complete edge budget before lower profiles are charged.

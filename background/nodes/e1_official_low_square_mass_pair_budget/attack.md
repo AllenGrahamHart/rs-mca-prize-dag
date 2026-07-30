@@ -47,6 +47,54 @@ Start with prize rate `1/8`, where `N=256`, `ell=33`, and `S<=66`.
    one edge, and do not rerun any closed cofactor.
 7. Falsify with a pinned row and enough exact weighted edges to exceed the
    table, not a single collision vector.
+8. On the residual `(3,6,S=18)` profile, consume
+   `e1_pure_cofactor_common_prime_associate_router` and then
+   `e1_conductor256_character_diagonal_exponent_router` before any further
+   norm classification. Fix one row root and one normalized prime generator `g`;
+   every residual vector is `pi^mu u g`, with `mu in {1,2,3,4}` and `u` an
+   algebraic unit of `Z[zeta_256]`. In each fixed-cofactor branch, consume the exact
+   coefficient boxes for both `u` and `u^(-1)` and retain the negacyclic
+   inverse equation. Seek a height, coefficient, or packing bound on these
+   bounded associates. Do not replace arbitrary units by roots of unity or
+   by the cyclotomic-unit subgroup, enumerate the raw box, or merge different
+   quotient roots without the Galois transport. The alternative exact count
+   is in the full rank-63 unit log lattice inside the router's AM-GM body;
+   any regulator or packing argument must apply to that full lattice. The
+   character router, certified preflight, and inverse-kernel contraction give
+   `|xi_t|<=3`, `sum|xi_t|<=60`, and `sum xi_t^2<=101`. The earlier coarse
+   zero-sum envelope has more than `2^143` points, and even the weighted
+   ellipsoid already contains over
+   `3.8*10^13` explicit sparse points. Generic exponent enumeration is
+   rejected. Make the exact sparse product and inverse equations the first
+   generator, or prove a support-propagation classification before proposing
+   computation. The exact profile target is at most 367 points modulo
+   `mu_256`; retain all lower-profile charges after paying it.
+9. Consume both `e1_high_cofactor_schinzel_height_collapse` and
+   `e1_cofactor2_smyth_height_collapse` before any associate search. They pay
+   all four `m=2,4,8,16` multiplicities analytically at most one torsion orbit
+   each, so `T_36(p,r)<=4`. The exact weighted payment is now proved; do not
+   enumerate this profile again.
+10. Attack `(2,10,S=18)`, the largest remaining profile. Its dictionary
+   weight is `1227527050040565145269313275179180544`, and the residual
+   uniform cap is `104955`. The local cofactor and prime-ideal partition is
+   now proved: `mu=7` is possible, ten pure families cost at most ten orbits,
+   and the three split cofactors expose 384 distinct primes above `257` or
+   `769`. Do not merge them. Bound their occupancy by coupling the reductions
+   `F(r)=0 mod p` and `F(s)=0 mod q`; the coarse all-occupied charge leaves
+   only 4,350 uniform vectors for every later profile. Retain the exact
+   weighted ledger across all later profiles.
+11. Consume `e1_profile210_m1538_collision_exclusion`: the `769` branch is
+   empty after a sharp `V<=4` reduction and five exact norm checks. Restrict
+   the split-prime attack to `514` and `1028` above `257`; the current profile
+   envelope is `T_210<=266`. Consume
+   `e1_profile210_exact_weighted_payment`: charging all 266 families leaves
+   residual edge budget
+   `22622986807805210095050326195532090878375`, so the weighted frontier
+   advances to `(1,14,S=18)` with oriented cap `39193`. Further `514` and
+   `1028` work is optional slack and must not block the new profile.
+12. Attack `(1,14,S=18)` by deriving its local cofactor and prime-ideal
+   partition before any support census. Preserve the exact residual ledger;
+   do not replace the 39,193-vector aggregate cap by a per-profile guess.
 
 No broad local or Modal census is authorized. Large exact relation searches
 must be recorded as external compute requests with partial-result output.

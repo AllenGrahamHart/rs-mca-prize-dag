@@ -34,6 +34,63 @@ On the binding prize rate-`1/8` row, the weaker uniform sufficient statement
 is `|D_p(33)|<=69541`, with oriented, non-orbit-normalized vectors. The exact
 weighted sum remains the actual target.
 
+For the current maximum-weight profile `(3,6,S=18)`, the proved pure-cofactor
+associate router supplies an additional exact coupling. At one fixed prize
+row and quotient root, every still-live collision has cofactor
+
+```text
+m in {2,4,8,16}
+```
+
+and, after division by the exact power of `1-zeta_256`, all such values are
+unit associates generating the same reduction prime ideal. Thus this
+profile's vectors must be counted as one bounded unit-associate family, not
+as unrelated norm-divisibility events. Within a fixed cofactor, the unit and
+its inverse have explicit power-basis coefficient bounds
+`1006,503,251,125` for cofactors `2,4,8,16`. The router itself does not count
+that finite family. Modulo the 256 negacyclic shift/sign associates, it
+injects into an explicit `L1` body in the full rank-63 algebraic-unit log
+lattice. The exact profile charge makes 367 the necessary total orbit cap;
+368 such orbits already exceed the complete edge budget. This does not pay
+the lower-weight profiles.
+
+The high-cofactor Schinzel collapse and the cofactor-`2` Smyth collapse now
+show that every branch `m=2,4,8,16` contributes at most one shift/sign orbit.
+Thus the entire maximum-weight profile contributes at most four such orbits
+at one fixed row and quotient root. This is far below its former necessary
+cap `367`, but is not sufficient for the complete pair budget because lower
+profiles remain.
+
+The exact weighted payment for those four possible orbits is
+
+```text
+709758113888498314287146042668908462080.
+```
+
+After subtracting it, `(2,10,S=18)` is the largest remaining profile and the
+residual uniform sufficient cap is `104955` oriented vectors. The exact
+weighted sum remains the actual target.
+
+The profile-`(2,10)` ideal router first gives ten pure and 384 split-prime
+families, one orbit each. Exact moment and resultant analysis then excludes
+the full `m=1538` branch, leaving at most `266` orbits and `68096` oriented
+vectors. The remaining split-prime cofactors are `514` and `1028`, both above
+`257`.
+
+Subsequent exact payments close profiles `(2,10)`, `(1,14)`, and `(0,18)`
+inside the serial weighted ledger. The current residual is
+
+```text
+515126704564295620156155116913120291239,
+```
+
+and the next dictionary profile is `(4,4,S=20)`, with a sharp cap of `1971`
+oriented vectors, hence at most seven complete 256-vector shift/sign orbits.
+Its exact local-norm route fence leaves fourteen possible local valuations
+and `1133` cofactor values after all current necessary sieves. This does not
+count collisions, but it rules out a direct reuse of the former
+one-orbit-per-ideal-family strategy as a closing argument.
+
 ## Falsifier
 
 An admissible row whose exact unordered low-mass collision-pair count exceeds
