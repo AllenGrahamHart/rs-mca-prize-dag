@@ -6212,6 +6212,14 @@ longer use source genus two or three.
 
 ```text
 new node: rate_half_kb_m2_r2_full_v4_source_genus_drop [PROVED]
+upstream custody:
+  PR #1132 head: f6bc4a2b2a6a5b3bba98f24a520c67ca3373dbbb
+  note/verifier/certificate blobs:
+    d9bafcc62f9c806e0ece3fa9eba4ccb7522b9707
+    6b103e5033a70edb9233d097fcf6f51b0526e129
+    83e82b826ddfa2f5377e99f439be5f00900507c6
+  certificate payload:
+    9a2ea090568600356f27f3174aee6d08414217b26dbb8f7922931c64a151122f
 input: full V4 stabilizer in the m2 r2 row
 source involutions:
   eta = deck involution of Gamma->P1_X
