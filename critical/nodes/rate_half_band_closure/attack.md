@@ -1429,6 +1429,31 @@ on each reconstructed form before forming either degree-six partial
 resultant. A light split `F_1009` fixture reconstructs twelve positive forms
 and rejects all twelve here; this is evidence only, not a generic deletion.
 
+The negative reconstruction plane also factors before the q-slice. Normalize
+the common internal endpoint to `2` by an endpoint coordinate change
+commuting with inversion, and write
+
+```text
+J_0={2,1/2,b,1/b},       q=(T-c)(T-d).
+```
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate`
+classifies the twelve negative assignments as eight fixed-moving and four
+moving-moving templates. After removing only proved nonzero collision and
+incidence-denominator factors, their augmented determinants vanish exactly
+on
+
+```text
+fixed-moving:  A B=0,
+moving-moving: A B C=0,
+```
+
+for the three explicit low-degree factors `(KBNF-2)`. Thus generic negative
+assignments are already deleted. Apply the q-slice only to those three
+exceptional factor loci; positive candidates remain a separate direct
+q-slice calculation.
+
 The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
 the smaller shared actual-component gate. For twelve projective source-row
 quartics `q_i`, stack a `9 x 12` degree-two evaluation parity check across

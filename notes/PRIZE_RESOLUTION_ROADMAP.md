@@ -11288,6 +11288,22 @@ finds zero `(KBQS-1)` survivors. The route-deciding calculation is now to
 factor the symbolic `(KBQS-1)` mismatches before evaluating `(KBQ2-2)` and
 the remaining source rows on any exceptional forms.
 
+The negative sign has an additional exact reduction. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate`
+uses the endpoint normalization
+
+```text
+J_0={2,1/2,b,1/b},       q=(T-c)(T-d)
+```
+
+and classifies the twelve internal assignments as `8` fixed-moving plus `4`
+moving-moving templates. Their negative image-plane determinants factor as
+a proved nonzero prefactor times `A^2 B` and `A B C`, respectively, for the
+three explicit low-degree polynomials `(KBNF-2)`. Negative candidates off
+`AB=0` or `ABC=0` are deleted. The next aligned calculation should therefore
+substitute the `A/B/C` loci before `(KBQS-1)`; positive candidates go
+directly to `(KBQS-1)`.
+
 ### Compute request CR-KB-C2-112-QR-ELIM
 
 This is the deferred exact-CAS version of that calculation; no run is

@@ -19165,6 +19165,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
+   "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) negative reconstruction factor gate",
+   "status": "PROVED",
+   "closure": "two normalized negative reconstruction templates with exact AB and ABC exceptional factor loci",
+   "statement": "For every saturated source-line diagonal (1,1,2) packet, the twelve compatible negative internal-edge assignments form eight fixed-moving and four moving-moving templates. After normalizing the common endpoint to 2, their augmented reconstruction determinants factor exactly as a proved nonzero prefactor times A^2 B and A B C, respectively. Thus negative candidates exist only on AB=0 or ABC=0; those exceptional loci remain for the q-slice and full quotient gates.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
    "title": "KoalaBear m2 universal source-row interpolation compiler",
    "status": "PROVED",
@@ -43245,6 +43264,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
    "to": "rate_half_band_closure",
    "kind": "ev"
   }
