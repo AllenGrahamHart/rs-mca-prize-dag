@@ -11,8 +11,10 @@ bidegrees gives, up to a nonzero scalar,
 G(T,psi(X))=H(T,X) H(T,b(X)).                       (1)
 ```
 
-Evaluation at either point of `psi^(-1)(alpha_p)` proves that the right
-side of `(KBDI-1)` is projectively `G(T,alpha_p)`. It is nonzero because
+Restricting (1) to the degree-two fiber divisor over `alpha_p` proves that
+the right side of `(KBDI-1)` is projectively `G(T,alpha_p)`. At a
+ramification point the two factors coincide, with multiplicity two. It is
+nonzero because
 `Gamma` has no vertical fiber. Each factor is a quadratic whose divisor is
 the component star at that coordinate pole, so `R_p` is split and its two
 factors obey the exact horizontal facets.

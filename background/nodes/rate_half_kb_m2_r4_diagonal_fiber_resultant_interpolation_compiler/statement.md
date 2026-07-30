@@ -8,11 +8,14 @@
 - **consumer:** `rate_half_band_closure`
 
 Let `H(T,X)` define the actual bidegree-`(2,4)` source component, let
-`b` be the deck involution of `psi(X)`, and write
+`b` be the deck involution of `psi(X)`, and write the degree-two fiber
+divisor as
 
 ```text
-psi^(-1)(alpha_p)={x_p,b(x_p)}.
+psi^*[alpha_p]=[x_p]+[b(x_p)].
 ```
+
+The two points may coincide at a ramification point.
 
 The fiber resultant
 
@@ -34,7 +37,7 @@ fiber.
 
 Here `tau^*` is pullback on binary quartics, including the homogenizing
 factor of the projective involution. The common-five source facets give
-the exact support constraints:
+the exact support constraints, counted with divisor multiplicity:
 
 - `p in K`: both quadratic factors of `R_p` are supported on `J=I^c`;
 - `p=eta`, where `eta` is the unique label in `L minus K`: both are

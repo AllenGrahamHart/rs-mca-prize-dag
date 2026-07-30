@@ -15,10 +15,10 @@
 
 The diagonal compiler and the companion coordinate source-facet result are
 exported together in draft PR `przchojecki/rs-mca#1132` at
-`ff133334419f0f1244ae2ab3cbbea515cc33031d`:
+`77b0971ebb443efd8487ee3809cd988ba183d00c`:
 
 ```text
-note blob:        6302221c51e404f6aa0c0e7f471873e42102e9e6
+note blob:        a74eb30e46d8941c1cc4c598b2fdff6a3daad657
 verifier blob:    8c1fd1318b180f27a3114a3a3beedd7e2ed3efbd
 certificate blob: c0f6f9496e4bf43b60358133372ce47bc9b5c8dd
 payload SHA-256:  96c47c813c41f4b268b9826ed4866e14d44c5a8187487266a3de6f550cbbf6b6

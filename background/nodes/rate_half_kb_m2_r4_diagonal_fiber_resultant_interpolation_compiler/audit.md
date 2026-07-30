@@ -4,7 +4,8 @@
    source-deck fibers. No descent to the `X`-line is assumed.
 2. `eta` belongs to `L minus K`; the proof does not identify `L` with
    `I`.
-3. Ramified quadratic fibers are counted by divisor multiplicity.
+3. Ramified quadratic fibers are counted by divisor multiplicity. In
+   particular `R_p=H(T,x_p)^2` when `x_p=b(x_p)`.
 4. The interpolation scalars are required to have full support, because
    each projective fiber form is nonzero.
 5. Passing the matrix gate constructs a biform only. Irreducibility and
