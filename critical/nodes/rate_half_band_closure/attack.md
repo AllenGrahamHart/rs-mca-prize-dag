@@ -1170,3 +1170,21 @@ Riemann--Hurwitz leaves exactly genus zero with branch inertia
 ambient-stabilizer type. The diagonal route is now two explicit algebraic
 branches rather than an unresolved source-lift question; neither branch is
 yet deleted and no owner charge moves.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler` turns both
+branches into coefficient equations. In the lifting branch, write
+
+```text
+H(T,X)=U(T,X^2)+X V(T,X^2),
+G(T,W)=U(T,W)^2-WV(T,W)^2,
+deg U<=(2,2), deg V<=(2,1).
+```
+
+The two forms obey one common reciprocal sign, leaving eight or seven
+source coefficients; the endpoint biform is positive reciprocal in either
+case. In the non-lifting branch, the monic endpoint quartic over `K(W)` has
+a completely split cubic resolvent, equivalently `V4` Galois group under
+the actual irreducibility and separability hypotheses. These replace a
+generic `25`-coefficient endpoint search by two exact low-dimensional
+tests. Universal failure is not proved, and no owner charge moves.

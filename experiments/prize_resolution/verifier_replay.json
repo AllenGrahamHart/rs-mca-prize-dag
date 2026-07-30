@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/verify.py",
-      "seconds": 0.043885,
+      "script": "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/verify.py",
+      "seconds": 0.038898,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_R4_DIAGONAL_SOURCE_SUBFIELD_DICHOTOMY_PASS reciprocal_dims=8,7 passports=2\n"
+      "stdout_tail": "RATE_HALF_KB_M2_R4_DIAGONAL_BRANCH_COEFFICIENT_COMPILER_PASS source_dims=8,7 resolvent_rows=3\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy/verify_audit.py",
-      "seconds": 0.026507,
+      "script": "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/verify_audit.py",
+      "seconds": 0.024278,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_R4_DIAGONAL_SOURCE_SUBFIELD_DICHOTOMY_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M2_R4_DIAGONAL_BRANCH_COEFFICIENT_COMPILER_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

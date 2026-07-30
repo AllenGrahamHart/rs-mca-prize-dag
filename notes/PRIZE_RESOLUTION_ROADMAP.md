@@ -10828,3 +10828,25 @@ This is a route split, not a deletion. Next attack the reciprocal
 coefficient forms in the lifting branch and the two low-genus `V4`
 passports in the non-lifting branch. The whole-fiber interpolation compiler
 remains mandatory in both. No compute spend was used.
+
+## 2026-07-30 KoalaBear diagonal branch coefficient compiler
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler` converts the
+source-subfield split into executable algebra. In the lifting branch,
+
+```text
+H=U+XV,       G=U^2-WV^2,
+deg U<=(2,2), deg V<=(2,1),
+```
+
+with a common reciprocal sign on `U,V`. The two source parameter spaces
+have dimensions eight and seven, and `G` is always positive reciprocal.
+In the non-lifting branch, the endpoint quartic over `K(W)` must have a
+completely split cubic resolvent; for the actual irreducible separable
+quartic this is equivalent to its `V4` deck group.
+
+Next substitute the three exact source-facet classes into the reciprocal
+norm, and combine the split resolvent with the two low-genus passports.
+Clear denominators and preserve irreducibility and outer-factor side
+conditions. No computation or ledger payment was used.
