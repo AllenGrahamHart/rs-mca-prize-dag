@@ -10915,12 +10915,13 @@ the shared `45 x 12` source gate and defect budget without importing the
 coordinate involution pairing. No computation or ledger payment was used.
 
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
-`b7590fde858fd2432934e7c8f39d14310cab5936`, note/verifier/certificate blobs
-`a265a56b9e1ef3c3c4dd41dc3a5353f749560295`,
-`8674615437ce3433340a61641422b66e57ea0315`, and
-`10aab60bb33cc508cd7601e2a819b8d4144dc80e`, with canonical payload
-`e9938cade2f481c98f0899f2b67971cabbe8df5fa74c0f5518b9f24c0d8513c7`.
-The verifier rejects 11 of 11 hostile mutations.
+`788012a0daaf32e8eec0186a599c0ced42d28749`, note/verifier/certificate blobs
+`e9420deaeaa1ec9fbf30094af13ad5a8d72cf45e`,
+`0dff47b2b24eb25ccc5e252ce704c9315633b0d5`, and
+`602744282e3b009c615ce89b497f31f79804228c`, with canonical payload
+`a72b8699c4eccc7b5428c78ca539733eec6ac2055dbfa73c8b7d508bba7ed3bf`.
+The verifier pins the complete-source parent and rejects 16 of 16 hostile
+mutations.
 
 ## 2026-07-30 KoalaBear universal source-row scope repair
 
