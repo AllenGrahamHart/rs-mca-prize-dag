@@ -206,9 +206,13 @@ retries; raw artifact storage is separate.
   every line-degeneration fiber, and independent resultant/subresultant
   paths have only collision or inversion-fixed support over characteristic
   zero and the deployed characteristic.
-- **Immediate unresolved input:** process the mixed allocation in the other
-  reciprocal-pair orbit. Retain the explicit finite-chart saturations before
-  moving to moving-moving templates and the negative `B/C` loci.
+- **Primary mixed-chart narrowing complete:** the other-orbit mixed
+  allocation now has an exact four-component-pair classification with only
+  forbidden `F_(p^6)` points. This is not yet PROVED.
+- **Immediate unresolved input:** convert that mixed classification to
+  pinned fail-closed shards and produce an independent fraction-free audit.
+  Retain the explicit finite-chart saturations before moving to
+  moving-moving templates and the negative `B/C` loci.
 - **Required output:** for every chart, either a unit/collision-only exact
   elimination certificate or an explicit algebraic survivor with `b,z`, and
   `lambda_scale` reconstructed and all label inequalities checked. Every

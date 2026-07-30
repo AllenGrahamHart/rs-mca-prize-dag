@@ -1522,6 +1522,15 @@ deployed prime. These results delete 8 of the 18 affine positive charts;
 the mixed allocation in this relative orbit, moving-moving template,
 negative loci, and `w=0` boundary remain.
 
+The remaining mixed allocation in this relative orbit now has a complete
+primary deployed-field narrowing in
+`notes/kb_c2_112_near_moving_xi_mixed_frontier_20260730.md`. Its four
+cubic conditions split into two residual components at each q-root. All
+four component pairs have been reduced to exact `F_(p^6)` fibers, and every
+reconstructed point is collision, inversion-fixed, finite-incidence, or on
+`z=1`. This is strong closure evidence, not chart 9: fail-closed assertion
+shards and an independent fraction-free replay remain mandatory.
+
 The aligned positive sign has also resisted a broader exact falsifier sweep.
 The seeded standard-library replay
 `notes/kb_c2_112_positive_qslice_sweep.py` tests all twelve internal
