@@ -11116,11 +11116,11 @@ divisors. The `c=2` rows remain the preferred next target because their
 crossing support is smaller.
 
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
-`1adfe06c6982ce6b2afc677f3f40fa5355bcf8bd`, note/verifier/certificate
-blobs `3f0cf8c8e1ac9c964f4650b97c925d12c7c00b89`,
-`e3888ea1d1423da1a1458cd69447cb63abb9914e`, and
-`6614682ad1f6c4c3c6c6f80ef484ed6bffa324fd`, with canonical payload
-`e5d3705f96c3fe141e3ed87c3d4901e7528b4297c9b92b5d014918ad5f9d4112`.
-Its verifier classifies all `10,395` fixed-point-free matchings and rejects
-`44` of `44` hostile mutations. The maximally mixed quotient extension is
-not yet included at this pin.
+`fb9c0eaf2bce8b3f9fc6f4ca152618b528327a5a`, note/verifier/certificate
+blobs `77073e7e880ec5ff085e486ef07d7d8f67531f51`,
+`6734571cdb9452f404b21535cff30c0fc90db100`, and
+`53bf1a5b18689a766cd924ee853c3b306ab2d987`, with canonical payload
+`d12f7dccbca0236ccd21482de28c44f5e6399de70fddeb5e10b17d3eb6560755`.
+Its verifier classifies all `10,395` fixed-point-free matchings, including
+the `120/600` maximally mixed split, and rejects `50` of `50` hostile
+mutations.
