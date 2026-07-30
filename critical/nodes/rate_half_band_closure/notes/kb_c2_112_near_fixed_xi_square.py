@@ -63,6 +63,7 @@ def main():
     symmetric = load_symmetric()
     ((p, t, b, w), odd, coefficients, (z_numerator, z_denominator),
      relative_scale) = symmetric.reconstruct_fraction_free("fixed-moving")
+    print(f"pair={args.left},{args.right} stage=reconstruction", flush=True)
     c, d, scale = sp.symbols("c d lambda_scale", nonzero=True)
     f, g, m = odd
     x0, _, x2, x3, _ = coefficients
@@ -108,6 +109,10 @@ def main():
             raise RuntimeError("endpoint condition did not split into two b-lines")
         endpoint_factors.append(local)
         collision_factors.append(discarded)
+        print(
+            f"pair={args.left},{args.right} stage=endpoint_{len(endpoint_factors)}",
+            flush=True,
+        )
 
     # The discarded factors are q-root/J0 collisions or cd=1.
     allowed_discarded = {
