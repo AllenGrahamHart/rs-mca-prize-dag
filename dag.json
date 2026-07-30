@@ -18899,6 +18899,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "title": "KoalaBear m2 r4 coordinate-order-two source-facet signature",
+   "status": "PROVED",
+   "closure": "exact source-facet census, endpoint-involution pair profiles, and a defect-zero abstract route fence",
+   "statement": "For an actual (m,r,delta)=(2,4,2) component stabilized by tau x 1, the 24 complete-source stars have exact census (J-J,I-I,I-J)=(10,10,4); the endpoint involution preserves I and J; and the five complete K fibers have pair degrees (4,4),(4,4),(2,2) or (4,4),(3,3),(3,3). An explicit aligned L=I abstract assignment realizes all facet containments, involution symmetry, source degrees, pole degrees, four component-color edges, and defect zero. Thus these ledgers alone do not delete the coordinate orientation; actual interpolation/coefficient equations are still required.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/result.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_order2_coordinate_source_facet_signature/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_full_v4_source_genus_drop",
    "title": "KoalaBear m2 r2 full-V4 source genus drop",
    "status": "PROVED",
@@ -37357,6 +37376,21 @@
   },
   {
    "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_q6_s6_common_five_outgoing_fiber_pin",
+   "to": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

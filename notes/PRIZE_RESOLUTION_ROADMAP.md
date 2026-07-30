@@ -10745,3 +10745,30 @@ Upstream custody: draft PR `przchojecki/rs-mca#1132`, commit
 `f48a46f22bc15098f5fc566e6f009d76afa4751c4fd4b4b8edaf481e619c5a01`.
 The only reported check failure at the pin is unrelated Vercel deployment
 authorization.
+
+## 2026-07-29 KoalaBear coordinate-order-two route boundary
+
+The PROVED
+`rate_half_kb_m2_r4_order2_coordinate_source_facet_signature` handles the
+coordinate subgroup `<tau x 1>` of the surviving order-two type. It forces
+the exact component-star census
+
+```text
+(J-J,I-I,I-J)=(10,10,4),
+```
+
+forces the endpoint involution to preserve `I` and `J=I^c`, and leaves only
+the two `K`-fiber pair-degree profiles
+
+```text
+(4,4),(4,4),(2,2),       (4,4),(3,3),(3,3).
+```
+
+In the allowed aligned subcase `L=I`, an exact defect-zero abstract fixture
+realizes all current facet, symmetry, degree, pole-graph, and component-color
+constraints. This is a method fence:
+those ledgers are jointly consistent and cannot by themselves exclude the
+coordinate orientation. The next coordinate attack must use the actual
+interpolation/coefficient equations. In parallel, derive rather than assume
+the source lift for `<tau x tau>`. The transposed coordinate subgroup and
+the trivial-stabilizer type remain open, and no owner/payment ledger changes.
