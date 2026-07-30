@@ -20,10 +20,10 @@
 
 Vendored as a direct refinement of the universal source-facet packet in
 draft PR `przchojecki/rs-mca#1132` at commit
-`e0ef6ca0cc64465f3b73d3f324efa9cc294eebb5`. The immutable
+`3000bb6bb384302ad72d960ac60ebc7b440dd8ab`. The immutable
 note/verifier/certificate blobs are
-`02322ebba4847b072a5856e02d3bcfc3f0590b26`,
-`10888f6d5996c04cd635939731cacecb5c170937`, and
-`d2c681b33918ff1490dfa5b8388295a422b56ca7`, with canonical payload
-`17b8e640ed4e8e55f81864067c50dc40db86798abbc90bd58f3472eae098b902`.
-The verifier pins Corollary 9.28 and rejects 20 of 20 hostile mutations.
+`04015b26fee58fdc16c093adbc91dd3053b77ae6`,
+`d053e14f13736b3d970acee3858253a1382b8732`, and
+`ab5eaf2e4ef44a58005554344187f550f92b5d41`, with canonical payload
+`677782fc5ad5f028595f4b71b3383252bc104fd8cbf569c58ade300383421461`.
+The verifier pins Corollary 9.28 and rejects 24 of 24 hostile mutations.
