@@ -10739,3 +10739,9 @@ field computation:                   none
 retained audit compiler:             endpoint cofactor/gain flatness
 next route-deciding action:          classify the order-two stabilizer type
 ```
+
+Upstream custody: draft PR `przchojecki/rs-mca#1132`, commit
+`2b0acfe0cc382fd5b399960b435887c6b20e3f82`, canonical certificate payload
+`f48a46f22bc15098f5fc566e6f009d76afa4751c4fd4b4b8edaf481e619c5a01`.
+The only reported check failure at the pin is unrelated Vercel deployment
+authorization.
