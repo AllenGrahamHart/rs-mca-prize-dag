@@ -11145,11 +11145,31 @@ four-fiber identity and `45 x 12` interpolation gate to the `4/3`-parameter
 unramified forms.
 
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
-`d09fc0685b3a63161f2f2d4dae7c0e0f7564e1c3`, note/verifier/certificate
-blobs `0a67e129f92335a2e99022b158e0b772138faa15`,
-`034bfba69ed0a704ae98e5361cad32dc3824e320`, and
-`c3217f62359d32443bb025e2d59ecf62a198ada0`, with canonical payload
-`f554b899de646525028323282e95d600d7293eb49d04098e5be185508c30174f`.
+`03deba0082443172e4eaeec928ede14420cb7e8a`, note/verifier/certificate
+blobs `c89716bf63bf5bb7575b9aa72a3b5e653879080b`,
+`31eafd59c99a4f78162bebeb065c0b81cb4bbb34`, and
+`f24855ce68ddcd4a034efdb24ded9cc875cfffd8`, with canonical payload
+`0d1fa37ac4dc443ea19a00b2cad9bb3a6a37a1710c3f9ccd59b46609e2f6f1a6`.
 Its verifier classifies all `10,395` fixed-point-free matchings, including
 the `120/600` maximally mixed split and all three near-aligned `c=2`
-matching classes, and rejects `56` of `56` hostile mutations.
+matching classes, checks the exact ramified/unramified source-line ranks and
+minor signs, and rejects `64` of `64` hostile mutations.
+
+### Work-cycle burn-down: diagonal c2 square fibers
+
+```text
+starting local pin:       670c3dc5 (pre-c2 capacity refinement)
+ending local theorem pin: 30c4a8a44f25caf37567b589146f52503bca72dc
+canonical prize pin:      11cea27b (unchanged)
+ending upstream pin:      03deba0082443172e4eaeec928ede14420cb7e8a
+node attacked:            rate_half_band_closure via diagonal c=2
+result:                   NARROWED + EXPORTED
+DAG delta:                +1 PROVED node, +3 edges; target status unchanged
+upstream delta:           c2 capacity and source-line linear cuts added to PR #1132
+delta-star movement:      none
+new assumptions:          none; ramified and biquadratic escapes retained
+live compute requests:    none
+next route-deciding step: exclude the ramified common-K source orbit, or
+                          apply the 4/3-parameter forms to the fourth-power
+                          product and 45 x 12 interpolation gate
+```
