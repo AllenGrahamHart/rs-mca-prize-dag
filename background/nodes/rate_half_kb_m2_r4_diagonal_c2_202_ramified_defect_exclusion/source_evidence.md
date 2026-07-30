@@ -14,5 +14,17 @@
 
 ## Upstream custody
 
-Not yet vendored. The intended destination is the same diagonal source-facet
-packet in draft PR `przchojecki/rs-mca#1132`.
+The theorem is vendored into the diagonal source-facet packet in draft PR
+`przchojecki/rs-mca#1132` at commit
+`5b8a8dfe12af2236fe28665ff6fc66f54322a4a7`:
+
+```text
+note blob:        d69e5c6673a5bff7f181e84dcc10c56a9e1dc71a
+verifier blob:    16dcab7f81e033b4f0a40b947ccdd3edc3cfc049
+certificate blob: 96c0fd785bec2f761336893db251a349ee2b4e74
+payload SHA-256:  ca878fb3aa4e41ab5b7184413decdb50522716fd70267ddd529dc37d57d9bce6
+```
+
+The upstream replay exhausts all `1,287` six-vertex occupancies, certifies
+the defect floor four against budget three, and rejects `69` of `69` hostile
+mutations across the complete packet.

@@ -17,13 +17,13 @@ The complete mixing, maximally mixed quotient, and minimally mixed capacity
 theorem is vendored as an extension of the exact KoalaBear order-two
 source-interface packet in draft
 PR `przchojecki/rs-mca#1132` at commit
-`03deba0082443172e4eaeec928ede14420cb7e8a`:
+`5b8a8dfe12af2236fe28665ff6fc66f54322a4a7`:
 
 ```text
-note blob:        c89716bf63bf5bb7575b9aa72a3b5e653879080b
-verifier blob:    31eafd59c99a4f78162bebeb065c0b81cb4bbb34
-certificate blob: f24855ce68ddcd4a034efdb24ded9cc875cfffd8
-payload SHA-256:  0d1fa37ac4dc443ea19a00b2cad9bb3a6a37a1710c3f9ccd59b46609e2f6f1a6
+note blob:        d69e5c6673a5bff7f181e84dcc10c56a9e1dc71a
+verifier blob:    16dcab7f81e033b4f0a40b947ccdd3edc3cfc049
+certificate blob: 96c0fd785bec2f761336893db251a349ee2b4e74
+payload SHA-256:  ca878fb3aa4e41ab5b7184413decdb50522716fd70267ddd529dc37d57d9bce6
 ```
 
 The upstream verifier classifies all `10,395` fixed-point-free label
@@ -31,6 +31,6 @@ matchings, deletes all `225` partition-preserving matchings, retains exactly
 the five printed mixing rows, deletes aligned `c=6` and the `120` forbidden
 near-aligned `eta-xi` matchings, retains `600` near-aligned quotient
 matchings, and records all three near-aligned `c=2` matching classes. It
-checks the exact degree/square-fiber/capacity pins and the downstream
-ramification-aware source-line cut, and rejects `64` of `64`
-hostile mutations.
+checks the exact degree/square-fiber/capacity pins, the downstream
+ramification-aware source-line cut, and the `(2,0,2)` ramified-defect
+exclusion, and rejects `69` of `69` hostile mutations.

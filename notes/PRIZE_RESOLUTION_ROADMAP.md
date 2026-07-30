@@ -11157,31 +11157,32 @@ coefficient locus. The biquadratic source-cover branch and the ramified
 possibility in `(1,1,2)` are not affected.
 
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
-`03deba0082443172e4eaeec928ede14420cb7e8a`, note/verifier/certificate
-blobs `c89716bf63bf5bb7575b9aa72a3b5e653879080b`,
-`31eafd59c99a4f78162bebeb065c0b81cb4bbb34`, and
-`f24855ce68ddcd4a034efdb24ded9cc875cfffd8`, with canonical payload
-`0d1fa37ac4dc443ea19a00b2cad9bb3a6a37a1710c3f9ccd59b46609e2f6f1a6`.
+`5b8a8dfe12af2236fe28665ff6fc66f54322a4a7`, note/verifier/certificate
+blobs `d69e5c6673a5bff7f181e84dcc10c56a9e1dc71a`,
+`16dcab7f81e033b4f0a40b947ccdd3edc3cfc049`, and
+`96c0fd785bec2f761336893db251a349ee2b4e74`, with canonical payload
+`ca878fb3aa4e41ab5b7184413decdb50522716fd70267ddd529dc37d57d9bce6`.
 Its verifier classifies all `10,395` fixed-point-free matchings, including
 the `120/600` maximally mixed split and all three near-aligned `c=2`
-matching classes, checks the exact ramified/unramified source-line ranks and
-minor signs, and rejects `64` of `64` hostile mutations.
+matching classes, checks the exact ramified/unramified source-line ranks,
+minor signs, and `(2,0,2)` defect exclusion, and rejects `69` of `69`
+hostile mutations.
 
 ### Work-cycle burn-down: diagonal c2 square fibers
 
 ```text
 starting local pin:       670c3dc5 (pre-c2 capacity refinement)
-ending local theorem pin: 30c4a8a44f25caf37567b589146f52503bca72dc
+ending local theorem pin: 9d31dd05ad53f079ef41a4cc05cc479e241f768b
 canonical prize pin:      11cea27b (unchanged)
-ending upstream pin:      03deba0082443172e4eaeec928ede14420cb7e8a
+ending upstream pin:      5b8a8dfe12af2236fe28665ff6fc66f54322a4a7
 node attacked:            rate_half_band_closure via diagonal c=2
 result:                   NARROWED + EXPORTED
-DAG delta:                +1 PROVED node, +3 edges; target status unchanged
-upstream delta:           c2 capacity and source-line linear cuts added to PR #1132
+DAG delta:                +2 PROVED nodes, +6 edges; target status unchanged
+upstream delta:           c2 capacity, linear cut, and 202 ramified deletion in PR #1132
 delta-star movement:      none
 new assumptions:          none; ramified and biquadratic escapes retained
 live compute requests:    none
-next route-deciding step: exclude the ramified common-K source orbit, or
-                          apply the 4/3-parameter forms to the fourth-power
-                          product and 45 x 12 interpolation gate
+next route-deciding step: classify reciprocal J_0 star occupancies and apply
+                          the 4/3-parameter forms to the fourth-power product
+                          and 45 x 12 interpolation gate
 ```
