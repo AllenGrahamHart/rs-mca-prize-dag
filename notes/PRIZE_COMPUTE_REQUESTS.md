@@ -126,28 +126,22 @@ retries; raw artifact storage is separate.
 
 - **Decision:** delete or exhibit an admissible survivor in the aligned
   positive saturated source-line `(1,1,2)` branch of `rate_half_band_closure`.
-- **Complete algebraic input:** twelve fraction-free ideals: fixed-moving or
-  moving-moving internal edges, three UFD allocations of the two residual
-  quadratics, and unramified or repaired `w=0`. The endpoint roots occur only
-  through `p=cd,t=-(c+d)`; moving cases reduce through `s=b+1/b`.
-- **Banked generators:**
-  `critical/nodes/rate_half_band_closure/notes/kb_c2_112_positive_qslice_symmetric.py`
-  and the optional python-FLINT specialization driver beside it.
+- **Complete algebraic input:** twelve fraction-free five-equation ideals:
+  fixed-moving or moving-moving internal edges, three UFD allocations of the
+  two residual quadratics, and unramified or repaired `w=0`. The endpoint
+  roots occur only through `p=cd,t=-(c+d)`. Four equations impose the chosen
+  allocation and `D*lambda_scale-L=0` restores the exact relative U/V scale.
+- **Banked generator:**
+  `critical/nodes/rate_half_band_closure/notes/kb_c2_112_positive_qslice_symmetric.py`.
 - **Required output:** a comprehensive Gröbner/Bezout/subresultant certificate
-  after saturation by exactly the printed denominators and collision factors,
-  plus a dependency-free exact checker. Generic-field gcds, pairwise
+  after saturation by `L*D`, exactly the printed denominators, and collision
+  factors, plus a dependency-free exact checker. Generic-field gcds, pairwise
   resultants, and numerical slices are incomplete.
-- **Known pilot:** each fraction-free reconstruction/minor case completes
-  locally in under `30 s` and `256 MiB`. Comprehensive elimination of the
-  first fixed-moving allocation exceeded the `60 s` local cap; its first
-  pairwise endpoint resultant has noncollision factors of bidegrees `(4,4)`,
-  `(15,13)`, and `(34,28)`, so those specializations must be retained until
-  the full ideal eliminates them. With `python-flint` installed, run
-  `kb_c2_112_positive_qslice_flint.py fixed-moving same`; its default
-  normalized constraint pair `(0,1)` reproduces those factors with SHA-256
-  digests `7e924277de088814c7244e7e42df2d8a493412b18d684089983579cbcfc755f2`,
-  `5292bb14e8e603e6881fc4525b0d5e909d394056056c646b3b234cf34c0995c1`,
-  and `90a36900d7afa8613c9106166b6166239c327464566874a8d9415bb3441dc4f2`.
+- **Known pilot:** the generator replays all three allocations in each of the
+  four template/ramification cells under the `60 s` tiny-RAMguard cap. Its
+  independent exact audit checks the relative reconstruction scale and all
+  endpoint residual coefficients. The earlier unscaled minor/FLINT pilot and
+  its hashes are retracted and must not be reused.
 - **PASS:** mint a PROVED aligned-positive q-slice exclusion node; together
   with the existing aligned-negative theorem, delete the complete aligned
   source-line branch.

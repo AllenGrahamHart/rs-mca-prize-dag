@@ -11362,44 +11362,51 @@ the two residuals receive the same inverse root twice, the opposite inverse
 root twice, or one copy of each root. Thus the aligned-positive saturation is
 exactly twelve small cases: two internal-edge templates, three allocations,
 and unramified versus repaired `w=0` residual formulas. Moving cases close
-under `b->1/b` and reduce to quadratics in `s=b+1/b`. An independent exact
+under `b->1/b`; any trace reduction must also transport the normalization
+variable and is not yet banked. An independent exact
 `5 x 5` matrix solve at `(c,d,b,w)=(3,7,5,11)` checks each template's
 fraction-free coefficient vector projectively.
 
-All twelve cases have bounded exact coefficient and minor generators in
-`kb_c2_112_positive_qslice_symmetric.py`. Their generic minors recover only
-fixed-label/collision factors in the tested reductions, and the ramified
-specializations expose the same collision loci. This is a strict algebraic
-narrowing, **not a deletion theorem**: a multivariate gcd does not exclude
-isolated simultaneous zeros of the quotient minors. An exact FLINT follow-up
-confirms that warning. Even the first fixed-moving/same-root pairwise endpoint
-resultant contains noncollision factors of bidegrees `(4,4)`, `(15,13)`, and
-`(34,28)` before all constraints are imposed. Local comprehensive elimination
-did not finish inside `60 s`; do not promote the positive sign from the minor
-gcds or repeat generic SymPy Gröbner runs. With `python-flint` installed, the
-default `kb_c2_112_positive_qslice_flint.py fixed-moving same` invocation
-replays that normalized constraint-pair pilot.
+The first implementation of this reduction exposed an important audit catch.
+Its primitive polynomial vector satisfied `U_hat=lambda*U`, but the norm
+calculation paired `U_hat` with the unscaled odd part `V`. Therefore the minor
+gcds, FLINT endpoint factors, and hashes printed from that implementation are
+**retracted**; no DAG node or status depended on them. In particular, the
+previously printed endpoint bidegrees `(4,4)`, `(15,13)`, and `(34,28)` are not
+evidence about the actual q-slice ideal.
+
+The corrected `kb_c2_112_positive_qslice_symmetric.py` retains the exact
+relative scale as a variable `lambda_scale`. If `lambda=L/D`, each ideal has
+four residual-allocation equations plus `D*lambda_scale-L=0`, in variables
+`(b,w,lambda_scale,p,t)`. The helper independently checks both reconstructed
+templates against an exact `5 x 5` solve and then checks all three residual
+coefficients at both roots by direct division of `U^2-WV^2`. All three
+allocations in each of the four template/ramification cells generate under
+the `60 s` tiny-RAMguard cap. These twelve raw ideals are a strict algebraic
+narrowing, **not a deletion theorem**; comprehensive saturated specialization
+remains external work. Do not resurrect the unscaled minor or FLINT route.
 
 ### Compute request CR-KB-C2-112-POS-QS-SAT
 
 Prove the twelve-case parametric saturation above without expanding the full
-quotient resultants. Normalize the common endpoint to `2` and work directly
-over `Q(p,t)` with the banked fraction-free reconstruction.
+quotient resultants. Normalize the common endpoint to `2` and work with the
+banked fraction-free reconstruction over `Q[p,t,b,w,lambda_scale]`.
 
 1. For each of the three UFD allocations in the fixed-moving template,
-   saturate by the printed reconstruction denominators and exact label-
-   collision factors. Do the unramified and `w=0` residual formulas
-   separately.
-2. Repeat for moving-moving after closing under `b->1/b` and rewriting in
-   `s=b+1/b`. Do not infer completeness from a generic field gcd: discharge
-   every endpoint curve and isolated specialization in `(p,t)`.
+   saturate by `L*D`, the printed reconstruction denominators, and exact
+   label-collision factors. Do the unramified and `w=0` residual formulas
+   separately; retain `D*lambda_scale-L=0` until normalization is audited.
+2. Repeat for moving-moving after closing under `b->1/b`; carry the induced
+   `lambda_scale` transformation before rewriting in `s=b+1/b`. Do not infer
+   completeness from a generic field gcd: discharge every endpoint curve and
+   isolated specialization in `(p,t)`.
 3. Return a compact Bezout, comprehensive-Gröbner, subresultant, or modular-
    interpolation certificate
    with degree bounds and an independent exact checker. Do not use a generic
    four-variable SymPy `cancel` tree; that local representation exceeded the
    RAMguard ceiling. The checker must reconstruct the twelve fraction-free
-   ideals from `(p,t,b,w)` and reject deletion if any noncollision endpoint
-   specialization remains.
+   ideals from `(p,t,b,w,lambda_scale)`, replay the direct residual audit, and
+   reject deletion if any noncollision endpoint specialization remains.
 
 Either certificate deletes the aligned positive sign by fixed-point-free
 labels and, together with the aligned negative theorem, removes the whole
