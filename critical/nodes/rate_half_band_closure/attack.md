@@ -204,6 +204,15 @@ through challenge-field split fibers and the quartic source-star incidence;
 do not enumerate arbitrary degree-15 maps. The `m=4` type and all owner
 charges remain open.
 
+The PROVED `rate_half_kb_m4_s6_652_pair_quotient_normal_form` constructs the
+rigid `S6:(5.1,2.1.1.1.1,6)` row exactly. It normalizes the unordered-pair
+resolvent of the pinned degree-six companion to a rational degree-15 map with
+fibers `(6,6,3)`, `(5,5,5)`, and `(2,2,2,2,1,1,1,1,1,1,1)`. The order-five
+fiber is `{-77,22+33sqrt(5),22-33sqrt(5)}` and therefore splits over the
+even-degree KoalaBear field. Pole descent cannot delete this row; its fixed
+active fiber and quartic source-star incidence remain open, as do the other
+two rigid passports and the four-point family. No owner charge moves.
+
 ## Banked range
 
 Put

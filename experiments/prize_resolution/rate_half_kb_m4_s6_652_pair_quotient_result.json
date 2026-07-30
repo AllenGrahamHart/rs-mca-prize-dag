@@ -1,0 +1,101 @@
+{
+  "challenge_field": {
+    "all_base_field_units_square": true,
+    "extension_degree": 6,
+    "p": 2130706433,
+    "pole_coordinate_linear": "u+77",
+    "pole_coordinate_quadratic": "u**2 - 44*u - 4961",
+    "pole_fiber_splits": true,
+    "pole_points": [
+      "-77",
+      "22+33*sqrt(5)",
+      "22-33*sqrt(5)"
+    ],
+    "pole_quadratic_discriminant": 21780
+  },
+  "companion": {
+    "degree": 6,
+    "denominator": "(11*x - 8)**2*(2854995*x**4 + 4088832*x**3 + 4088832*x**2 + 2883584*x + 1048576)/345454395",
+    "label": "6T16-[6,5,2]-6-51-21111-g0",
+    "numerator": "625*x**6/624",
+    "one_profile": [
+      5,
+      1
+    ],
+    "pole_profile": [
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "zero_profile": [
+      6
+    ]
+  },
+  "conclusion": {
+    "passport": "S6: 5.1,2.1.1.1.1,6",
+    "terminal": "M4_S6_652_RIGID_PAIR_QUOTIENT_AND_POLE_DESCENT"
+  },
+  "pair_curve": {
+    "conic": "w^2=3025*m^2-2816*m+1024",
+    "discriminant": "1048576*m**2*(11*m + 16)**4*(3025*m**2 - 2816*m + 1024)",
+    "equation": "-4194304*y**5 + 7434240*y**3*z**2 + 16777216*y**3*z + 6814720*y**2*z**3 + 2635380*y*z**4 - 14868480*y*z**3 - 12582912*y*z**2 + 483153*z**5 - 6814720*z**4",
+    "m_of_u": "-64*(u + 44)/((u - 55)*(u + 55))",
+    "projected_degree": 2,
+    "projection": "z=m*y",
+    "w_of_u": "-32*(u**2 + 88*u + 3025)/((u - 55)*(u + 55))",
+    "y_of_u": "-192*(u - 55)*(u + 44)*(u + 55)**2/(u**5 + 55*u**4 - 9680*u**3 - 425920*u**2 + 28623155*u + 1257325157)",
+    "z_of_u": "12288*(u + 44)**2*(u + 55)/(u**5 + 55*u**4 - 9680*u**3 - 425920*u**2 + 28623155*u + 1257325157)"
+  },
+  "payload_sha256": "a4c759cde4aeadebed438edd9433040676aae1a4ae2280cec471101d124d30b2",
+  "producer": {
+    "path": "experiments/prize_resolution/rate_half_kb_m4_s6_652_pair_quotient.py",
+    "sha256": "bb5dd9b28ce05b140193a19a787d5cfac85969e841dd09f6211fc1d894817ccf"
+  },
+  "quotient": {
+    "degree": 15,
+    "denominator": "(u + 143)*(u**4 + 176*u**3 + 14520*u**2 + 660176*u + 12576619)**2*(u**6 - 330*u**5 + 22143*u**4 + 3380740*u**3 - 372423117*u**2 - 39333485730*u - 870224422859)",
+    "fiber_infinity": [
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "fiber_one": [
+      5,
+      5,
+      5
+    ],
+    "fiber_zero": [
+      6,
+      6,
+      3
+    ],
+    "numerator": "-9566429400000*(u + 44)**6*(u + 55)**3",
+    "numerator_minus_denominator": "-(u + 77)**5*(u**2 - 44*u - 4961)**5",
+    "quartic": "u**4 + 176*u**3 + 14520*u**2 + 660176*u + 12576619",
+    "sextic": "u**6 - 330*u**5 + 22143*u**4 + 3380740*u**3 - 372423117*u**2 - 39333485730*u - 870224422859",
+    "total_branch_index": 28
+  },
+  "schema": "rate_half_kb_m4_s6_652_pair_quotient_v1",
+  "scope_fence": [
+    "no completely split unramified active fiber",
+    "no quartic source-star incidence",
+    "no m4 type deletion",
+    "no owner, ledger, endpoint, or KoalaBear row closure"
+  ],
+  "source": {
+    "blob": "454b284b8d09d855b1fde5c86dac2c28859f0f67",
+    "commit": "7d5b899b0741ebd505363f7f811e5737e906abee",
+    "path": "belyi_db/6/6T16-[6,5,2]-6-51-21111-g0.m",
+    "repository": "michaelmusty/BelyiDB"
+  }
+}
