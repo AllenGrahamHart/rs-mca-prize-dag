@@ -179,12 +179,16 @@ retries; raw artifact storage is separate.
   interchanged. Four generic pair certificates and two exceptional-line
   classifications have only forbidden support; independent opposite-variable
   elimination and exact reduction modulo `p=2130706433` confirm them.
-- **Immediate unresolved input:** process the mixed allocation in this same
-  normalized template. First impose the normalization-free constant/leading
-  gate `(KBNEAR-CL)`; then impose both remaining coefficients and saturate by
-  the printed incidence, line-leading, label-collision, and normalization
-  factors. Then process the other `xi` orbits, moving-moving templates, and
-  the negative `B/C` loci.
+- **Banked mixed chart:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion`
+  treats the same template with both distinct target roots on both residuals.
+  Degree-96 and degree-186 projection certificates have collision-only common
+  support, independently in both projection directions and modulo the
+  deployed characteristic.
+- **Immediate unresolved input:** process the other relative `xi` orbits,
+  retaining the same three allocation split and explicit finite-chart
+  saturations. Then process moving-moving templates and the negative `B/C`
+  loci.
 - **Required output:** for every chart, either a unit/collision-only exact
   elimination certificate or an explicit algebraic survivor with `b,z`, and
   `lambda_scale` reconstructed and all label inequalities checked. Every
@@ -192,7 +196,7 @@ retries; raw artifact storage is separate.
   is not realization.
 - **PASS:** mint a scoped PROVED near-positive or near-negative exclusion node
   after all charts and isolated leading branches in that scope are covered.
-  Two of the 18 affine positive charts now satisfy this contract.
+  Three of the 18 affine positive charts now satisfy this contract.
 - **INCOMPLETE:** curve factors, pairwise resultants, or generic-field gcds
   alone are narrowing evidence.
 - **Authorization:** external pre-request for the remaining chart queue.

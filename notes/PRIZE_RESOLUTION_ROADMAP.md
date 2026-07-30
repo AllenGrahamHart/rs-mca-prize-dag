@@ -11487,11 +11487,26 @@ adds
 which forces `5cd-4c-4d+5=0`, hence `z=1`. An independently written
 fraction-free/Bezout audit eliminates exceptional branches in the opposite
 variable and obtains the same conclusion. Both implementations replay the
-certificates modulo `p=2130706433`. This closes exactly 2 of the 18 affine
-positive charts. The mixed allocation, the other `xi` orbit, the
-moving-moving template, both negative factor loci, and the projective
+certificates modulo `p=2130706433`.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion`
+closes the third allocation in this normalized template. Both residuals have
+the distinct roots `1/2,1/d`. Their four conditions are quadratic in `b` and
+the two within-fiber resultants share one bidegree-`(8,6)` residual curve.
+Projecting that curve against the two cross-product and three cross-sum
+factors gives degree-96 and degree-186 certificates with squarefree gcd
+
+```text
+(d-2)(d-1)(2d-1).
+```
+
+The independent fraction-free audit projects in the opposite variable and
+gets `(c-2)(c-1)(2c-1)`. Both paths replay modulo `p=2130706433`. This closes
+exactly 3 of the 18 affine positive charts. The other relative `xi` orbits,
+the moving-moving template, both negative factor loci, and the projective
 `w=0` boundary remain open; do not infer a near-aligned deletion from these
-two closed charts.
+three closed charts.
 
 There is a cheaper common gate before those allocation splits. Write
 
