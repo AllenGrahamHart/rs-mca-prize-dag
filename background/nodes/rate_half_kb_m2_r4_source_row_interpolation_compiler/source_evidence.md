@@ -31,8 +31,8 @@ payload SHA-256:  f0b751301e56989bf6fbf19cf15e5ff8faa0d7d86e76278306950a488cdf51
 The verifier independently replays the `45 x 12` kernel and rejects 18 of
 18 hostile packet mutations. The universal quantifier is separately pinned
 in the same draft PR by the source-facet packet at commit
-`3000bb6bb384302ad72d960ac60ebc7b440dd8ab`, canonical payload
-`677782fc5ad5f028595f4b71b3383252bc104fd8cbf569c58ade300383421461`;
+`de237ba4d6ffd03bddc3d3daa7e94d0dee06eedf`, canonical payload
+`49131c6962e551c529d0681427ef9fee0eb10ea2bb42ffa5f46db3c63710ca8c`;
 that verifier binds the independent complete-source and source-facet
-parents and rejects 24 of 24 hostile mutations. The sole PR check failure
+parents and rejects 28 of 28 hostile mutations. The sole PR check failure
 at this pin is unrelated Vercel deployment authorization.

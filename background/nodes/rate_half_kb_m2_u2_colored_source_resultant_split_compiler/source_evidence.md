@@ -20,11 +20,11 @@
 
 Vendored in the universal source-interface packet in draft PR
 `przchojecki/rs-mca#1132` at commit
-`3000bb6bb384302ad72d960ac60ebc7b440dd8ab`. The immutable
+`de237ba4d6ffd03bddc3d3daa7e94d0dee06eedf`. The immutable
 note/verifier/certificate blobs are
-`04015b26fee58fdc16c093adbc91dd3053b77ae6`,
-`d053e14f13736b3d970acee3858253a1382b8732`, and
-`ab5eaf2e4ef44a58005554344187f550f92b5d41`, with canonical payload
-`677782fc5ad5f028595f4b71b3383252bc104fd8cbf569c58ade300383421461`.
-The verifier replays all 495 four-root divisors and rejects 24 of 24 hostile
+`a1a84452ddcd2f407eefb89bea0ef6a710e9f5d2`,
+`91a61152be9bb639f720554f080c01d424c5ecc8`, and
+`2c8625cd0f2e51809a2696d4a69eb54fb3ec91e4`, with canonical payload
+`49131c6962e551c529d0681427ef9fee0eb10ea2bb42ffa5f46db3c63710ca8c`.
+The verifier replays all 495 four-root divisors and rejects 28 of 28 hostile
 mutations.
