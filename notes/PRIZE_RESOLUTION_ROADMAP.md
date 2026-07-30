@@ -6401,6 +6401,38 @@ next action:
 compute spend: exact D3/D6 coset and 24-edge graph arithmetic; no Modal
 ```
 
+**Same-day residual coefficient-quartic pin:** the source realization is
+now one canonical pullback equation, not an arbitrary quartic interpolation.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin [PROVED]
+input: either surviving n=3 or n=6 full-V4 profile
+sibling correspondence:
+  v is the deck involution of C->P1_Z
+  p -> (Y(p),Y(vp)) is birational onto a symmetric (2,2) curve K
+endpoint normalization: h(t)=t^2, tau(t)=-t
+write:
+  sigma=y_0+y_1, pi=y_0*y_1
+  k=A*pi^2+B*sigma*pi+C*(sigma^2-2*pi)+D*pi+E*sigma+F
+source unordered-pair coordinates:
+  S=t+s, P=t*s
+  sigma=S^2-2P, pi=P^2
+exact coefficient image:
+  Q(S,P)=k(S^2-2P,P^2)
+  Q=A P^4+B S^2P^2-2B P^3+C S^4-4C S^2P
+    +(2C+D)P^2+E S^2-2E P+F
+actual-existence consequence:
+  Q has degree four and equals the irreducible rational coefficient quartic
+DAG delta: one PROVED equation pin; critical target unchanged
+ledger movement: zero
+nonclaims: no n=3 or n=6 existence/deletion, m2 type close, owner, charge,
+           u2, endpoint, adjacent certificate, KoalaBear row, or MCA close
+next action:
+  classify the total-delta-three singular locus and V4 branch passports of
+  this six-coefficient quartic, then specialize to D3 and D6
+compute spend: symbolic degree-four identity only; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

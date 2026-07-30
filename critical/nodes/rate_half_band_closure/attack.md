@@ -323,6 +323,24 @@ problem is whether either prescribed graph can be realized by the residual
 birational quartic coefficient map and its genus-zero/genus-one V4 branch
 passport. No owner charge moves.
 
+The PROVED
+`rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin` removes the
+remaining arbitrary interpolation. Let `K` be the symmetric bidegree-`(2,2)`
+sibling relation between the two `Y` values above one `Z` value. After
+normalizing `h(t)=t^2`, if `k(sigma,pi)=0` is its equation in elementary
+symmetric endpoint coordinates, then the residual coefficient image is
+exactly
+
+```text
+k(S^2-2P,P^2)=0,       S=t+s, P=ts.
+```
+
+Actual existence forces this canonical pullback to be the irreducible
+rational plane quartic. The live full-V4 task is therefore a symbolic
+singularity and V4 branch-passport classification in the six coefficients
+of `k`, followed by the `D_3` and `D_6` specializations. No owner charge
+moves.
+
 ## Banked range
 
 Put
