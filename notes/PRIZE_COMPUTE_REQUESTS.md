@@ -164,8 +164,7 @@ retries; raw artifact storage is separate.
   affine positive charts. Treat repaired `w=0` in a separate homogeneous
   chart. Negative forms must first lie on the proved fixed-moving `B=0` or
   moving-moving `B*C=0` reconstruction loci.
-- **Banked first chart:**
-  PROVED node
+- **Banked direct-square chart:** PROVED node
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion`
   treats fixed-moving, common endpoint `xi=2`, and the square allocation
   `(c -> 1/2, d -> 1/d)` over the deployed KoalaBear field. Four correct
@@ -174,13 +173,18 @@ retries; raw artifact storage is separate.
   reduction modulo `p=2130706433`. The former middle eliminants remain
   retracted because they extracted only the exact monomial coefficient of
   `b`; both current checkers carry a regression fence for that error.
-- **Immediate unresolved input:** the swapped square allocation in that same
-  chart has four endpoint curves of bidegrees `(3,2),(2,2),(3,2),(2,2)`.
-  First impose the normalization-free constant/leading gate `(KBNEAR-CL)`;
-  then impose both remaining coefficients and saturate by the printed
-  incidence, line-leading, label-collision, and normalization factors. Then
-  process the mixed allocation, the other `xi` orbit, moving-moving, and the
-  negative `B/C` loci.
+- **Banked swapped-square chart:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion`
+  treats the same normalized fixed-moving template with target roots
+  interchanged. Four generic pair certificates and two exceptional-line
+  classifications have only forbidden support; independent opposite-variable
+  elimination and exact reduction modulo `p=2130706433` confirm them.
+- **Immediate unresolved input:** process the mixed allocation in this same
+  normalized template. First impose the normalization-free constant/leading
+  gate `(KBNEAR-CL)`; then impose both remaining coefficients and saturate by
+  the printed incidence, line-leading, label-collision, and normalization
+  factors. Then process the other `xi` orbits, moving-moving templates, and
+  the negative `B/C` loci.
 - **Required output:** for every chart, either a unit/collision-only exact
   elimination certificate or an explicit algebraic survivor with `b,z`, and
   `lambda_scale` reconstructed and all label inequalities checked. Every
@@ -188,7 +192,7 @@ retries; raw artifact storage is separate.
   is not realization.
 - **PASS:** mint a scoped PROVED near-positive or near-negative exclusion node
   after all charts and isolated leading branches in that scope are covered.
-  One of the 18 affine positive charts now satisfies this contract.
+  Two of the 18 affine positive charts now satisfy this contract.
 - **INCOMPLETE:** curve factors, pairwise resultants, or generic-field gcds
   alone are narrowing evidence.
 - **Authorization:** external pre-request for the remaining chart queue.

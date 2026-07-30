@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Replay independent endpoint-line pair (0,1)."""
+"""Replay primary endpoint-line pair (0,1)."""
 
 import hashlib
 import runpy
@@ -9,9 +9,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 HELPER = (ROOT / "critical/nodes/rate_half_band_closure/notes/"
-          "kb_c2_112_near_fixed_xi_square_direct_audit.py")
-EXPECTED = "54b993280c506bc85976aaebd746b388c6ebb0ecbcb032bc513a96708310465f"
+          "kb_c2_112_near_fixed_xi_square_direct.py")
+EXPECTED = "d42b13b0cff26e448ad93e9925ce0e4283797d03c8a2f4d630175dddd457e5f3"
 if hashlib.sha256(HELPER.read_bytes()).hexdigest() != EXPECTED:
-    raise RuntimeError("audit helper hash")
+    raise RuntimeError("primary helper hash")
 sys.argv = [str(HELPER), "0", "1"]
 runpy.run_path(str(HELPER), run_name="__main__")

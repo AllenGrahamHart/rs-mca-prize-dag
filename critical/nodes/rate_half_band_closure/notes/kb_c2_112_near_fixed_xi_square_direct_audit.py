@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Independent Bezout audit for the direct near square-chart exclusion.
+"""Independent Bezout audit for near square-chart exclusions.
 
 This checker does not import the primary implementation.  It obtains the
 source coefficients by a fraction-free DomainMatrix solve.  On each generic
 endpoint curve it computes two Bezout identities over Q(d)[c]; the gcd of
 their cleared denominators has only forbidden label roots.  Exceptional left
 lines are eliminated in d, the opposite direction from the primary check.
+The ``--swap`` flag interchanges the two assigned residual roots.
 """
 
 from __future__ import annotations
@@ -67,6 +68,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("left", type=int, choices=(0, 1))
     parser.add_argument("right", type=int, choices=(0, 1))
+    parser.add_argument("--swap", action="store_true")
     args = parser.parse_args()
 
     b, c, d = sp.symbols("b c d", nonzero=True)
@@ -141,7 +143,12 @@ def main() -> None:
     finite_z_factor = (
         4 * c**2 * d - 2 * c**2 - 3 * c * d + 3 * c + 2 * d - 4
     )
-    for root, wanted in ((c, sp.Rational(1, 2)), (d, 1 / d)):
+    targets = (
+        ((c, 1 / d), (d, sp.Rational(1, 2)))
+        if args.swap else
+        ((c, sp.Rational(1, 2)), (d, 1 / d))
+    )
+    for root, wanted in targets:
         top, middle, bottom = residual_coefficients(root)
         ratio_condition = sp.cancel(bottom - wanted**2 * top)
         middle_condition = sp.cancel(middle + 2 * wanted * top)
@@ -185,10 +192,11 @@ def main() -> None:
         canonical(c * d - 1, c, d),
         canonical(5 * c * d - 4 * c - 4 * d + 5, c, d),
     }
+    if args.swap:
+        known.update({canonical(d - 1, c, d), canonical(d + 1, c, d)})
     forbidden_d = sp.Poly(
         (d - 2) * (d - 1) * (d + 1) * (2 * d - 1), d, domain=sp.QQ
     ).monic()
-    forbidden_d_mod = reduce_mod(forbidden_d, d, characteristic)
     for right_index in (args.right,):
         right_line = line_pairs[1][right_index]
         endpoint_elimination = sp.resultant(
@@ -201,21 +209,29 @@ def main() -> None:
         ]
         curves = [value for value in factors
                   if value.monic().as_expr() not in known]
-        check(len(factors) == 4 and len(curves) == 1,
+        expected_factor_count = 5 if args.swap else 4
+        check(len(factors) == expected_factor_count and len(curves) == 1,
               "audit endpoint curve")
         denominators = [
             clear_bezout_denominator(curves[0], middle, c, d)
             for middle in middle_polynomials
         ]
         common = sp.gcd(*denominators).monic()
-        check(common.sqf_part().monic() == forbidden_d,
+        expected_generic = forbidden_d
+        if args.swap and (args.left, right_index) == (1, 0):
+            expected_generic = sp.Poly(
+                (d - 1) * (d + 1) * (2 * d - 1), d, domain=sp.QQ
+            ).monic()
+        check(common.sqf_part().monic() == expected_generic,
               "audit generic noncollision support")
         modular_denominators = [
             reduce_mod(value, d, characteristic)
             for value in denominators
         ]
         modular_common = sp.gcd(*modular_denominators).monic()
-        check(modular_common.sqf_part().monic() == forbidden_d_mod,
+        check(
+            modular_common.sqf_part().monic()
+            == reduce_mod(expected_generic, d, characteristic),
               "audit KoalaBear generic support")
         print(
             f"audit_stage=generic pair={args.left},{right_index} "
@@ -224,16 +240,22 @@ def main() -> None:
             flush=True,
         )
 
-    exceptional_c = (
-        sp.Rational(1, 5) if args.left == 0 else sp.Rational(-5, 7)
-    )
     opposite = sp.Poly(
         sp.resultant(lead, constant, d), c, domain=sp.QQ
     ).primitive()[1]
     forbidden_c = sp.Poly(
         (c - 2) * (c - 1) * (c + 1) * (2 * c - 1), c, domain=sp.QQ
     )
-    if args.left == 0:
+    if args.swap and args.left == 0:
+        exceptional_factor = 7 * c**2 - 22 * c + 7
+        expected_support = (
+            forbidden_c * sp.Poly(exceptional_factor, c, domain=sp.QQ)
+        )
+    elif args.swap:
+        expected_support = (
+            forbidden_c * sp.Poly((c + 2) * (2 * c + 1), c, domain=sp.QQ)
+        )
+    elif args.left == 0:
         expected_support = forbidden_c * sp.Poly(5 * c - 1, c, domain=sp.QQ)
     else:
         expected_support = (
@@ -246,7 +268,28 @@ def main() -> None:
         == reduce_mod(expected_support, c, characteristic),
         "audit KoalaBear exceptional support",
     )
-    if args.left == 1:
+    if args.swap and args.left == 0:
+        exceptional_basis = sp.groebner(
+            [lead, constant, exceptional_factor], c, d, order="lex"
+        )
+        check(
+            exceptional_basis.reduce(5 * c * d - 4 * c - 4 * d + 5)[1] == 0,
+            "audit swapped exceptional component",
+        )
+    elif args.swap:
+        for special_c, expected_d in (
+            (sp.Rational(-1, 2), d - 2),
+            (sp.Rational(-2), 2 * d - 1),
+        ):
+            d_gcd = sp.gcd(
+                sp.Poly(lead.subs(c, special_c), d, domain=sp.QQ),
+                sp.Poly(constant.subs(c, special_c), d, domain=sp.QQ),
+            ).monic()
+            check(
+                d_gcd == sp.Poly(expected_d, d, domain=sp.QQ).monic(),
+                "audit swapped exceptional fiber",
+            )
+    elif args.left == 1:
         minus_half = sp.Rational(-1, 2)
         d_gcd = sp.gcd(
             sp.Poly(lead.subs(c, minus_half), d, domain=sp.QQ),
@@ -254,17 +297,24 @@ def main() -> None:
         ).monic()
         expected = sp.Poly((d - 2) * (2 * d - 1), d, domain=sp.QQ).monic()
         check(d_gcd == expected, "audit c=-1/2 fiber")
-    extra_d = sp.Rational(7, 5) if args.left == 0 else sp.Rational(55, 53)
-    check(sp.cancel(
-        (5 * c * d - 4 * c - 4 * d + 5).subs(
-            {c: exceptional_c, d: extra_d}
+    if not args.swap:
+        exceptional_c = (
+            sp.Rational(1, 5) if args.left == 0 else sp.Rational(-5, 7)
         )
-    ) == 0, "audit exceptional z=1 point")
+        extra_d = (
+            sp.Rational(7, 5) if args.left == 0 else sp.Rational(55, 53)
+        )
+        check(sp.cancel(
+            (5 * c * d - 4 * c - 4 * d + 5).subs(
+                {c: exceptional_c, d: extra_d}
+            )
+        ) == 0, "audit exceptional z=1 point")
 
     print(
         "KB_C2_112_NEAR_FIXED_XI_SQUARE_DIRECT_AUDIT_PASS "
         f"pair={args.left},{args.right} generic_pairs=1 "
         "opposite_exception_elimination=true "
+        f"allocation={'swapped' if args.swap else 'direct'} "
         f"characteristic={characteristic} mutation_catches=1"
     )
 

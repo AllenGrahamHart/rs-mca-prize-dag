@@ -11471,17 +11471,27 @@ under host load. Both clear coefficient denominators and
 recheck squarefree support modulo `p=2130706433`, proving exclusion over
 `F_(p^6)`, and both carry a mutation fence for the retracted coefficient API
 error. Their SHA-256 hashes are
-`7d3892fddcb4ab95f1fd6f6fa58127cf77c72c024e3272fab9511152df27db93`
-and `96036a63c54b94beab3ce6d33b0237c6c78b7e9208ea37a770c00171159dcde5`.
-This closes exactly one of the 18 affine positive charts.
+`d42b13b0cff26e448ad93e9925ce0e4283797d03c8a2f4d630175dddd457e5f3`
+and `54b993280c506bc85976aaebd746b388c6ebb0ecbcb032bc513a96708310465f`.
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion`
+closes the swapped square allocation in the same normalized template. Its
+four generic endpoint-line pairs again have only forbidden squarefree gcd
+support. One exceptional left-line locus has only that support; the other
+adds
 
-For the swapped square allocation in the same normalized template, the two
-endpoint lines reduce the four sign pairs to curves of bidegree `(3,2)`,
-`(2,2)`, `(3,2)`, and `(2,2)` after the same collision factors are removed.
-The first middle-coefficient elimination exceeded the `60 s` local cap.
-These four small curves, the mixed allocation, the other `xi` orbit, the
-moving-moving template, and both negative factor loci remain open; do not
-infer a near-aligned deletion from the one closed chart.
+```text
+7c+17d-30=0,       17d^2-38d+17=0,
+```
+
+which forces `5cd-4c-4d+5=0`, hence `z=1`. An independently written
+fraction-free/Bezout audit eliminates exceptional branches in the opposite
+variable and obtains the same conclusion. Both implementations replay the
+certificates modulo `p=2130706433`. This closes exactly 2 of the 18 affine
+positive charts. The mixed allocation, the other `xi` orbit, the
+moving-moving template, both negative factor loci, and the projective
+`w=0` boundary remain open; do not infer a near-aligned deletion from these
+two closed charts.
 
 There is a cheaper common gate before those allocation splits. Write
 

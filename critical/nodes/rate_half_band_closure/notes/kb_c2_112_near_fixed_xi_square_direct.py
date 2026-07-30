@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Direct exact exclusion of one near-aligned positive square chart.
+"""Direct exact exclusion of near-aligned positive square charts.
 
 The chart has ``a=xi=2``, ``eta=c``, ``ell=d``, and ``w=1/c``.  It uses the
-fixed-moving internal template and assigns the residual over c to
-``(W-1/2)^2`` and the residual over d to ``(W-1/d)^2``.  A direct 5 by 5 solve
-keeps U and V in the same normalization.  Resultant gcds cover the four
-generic endpoint-line pairs; separate base resultants cover the two loci on
-which the selected left line vanishes identically in b.
+fixed-moving internal template.  By default it assigns the residual over c
+to ``(W-1/2)^2`` and the residual over d to ``(W-1/d)^2``; ``--swap``
+interchanges those assignments.  A direct 5 by 5 solve keeps U and V in the
+same normalization. Resultant gcds cover the generic endpoint-line pairs;
+separate base resultants cover loci on which the selected left line vanishes
+identically in b.
 """
 
 from __future__ import annotations
@@ -57,6 +58,8 @@ def evaluation(point):
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("left", type=int, choices=(0, 1))
+    parser.add_argument("right", type=int, choices=(0, 1), nargs="?")
+    parser.add_argument("--swap", action="store_true")
     args = parser.parse_args()
     b, c, d = sp.symbols("b c d", nonzero=True)
     characteristic = 2130706433
@@ -93,15 +96,16 @@ def main() -> None:
         at_w[1] - t * at_w[2],
         *at_z,
     )
-    determinant = sp.cancel(matrix.det(method="domain-ge"))
     reconstruction_factor = 5 * c * d - 4 * c - 4 * d + 5
-    expected_determinant = sp.cancel(
-        3 * (c - 2)**2 * (c - 1)**5 * (c + 1)**5
-        * (2 * c - 1)**2 * (d - 2)**2 * (2 * d - 1)**2
-        * (c * d - 1)**2 * reconstruction_factor / (c**4 * h**6)
-    )
-    require(sp.cancel(determinant - expected_determinant) == 0,
-            "reconstruction determinant")
+    if not args.swap:
+        determinant = sp.cancel(matrix.det(method="domain-ge"))
+        expected_determinant = sp.cancel(
+            3 * (c - 2)**2 * (c - 1)**5 * (c + 1)**5
+            * (2 * c - 1)**2 * (d - 2)**2 * (2 * d - 1)**2
+            * (c * d - 1)**2 * reconstruction_factor / (c**4 * h**6)
+        )
+        require(sp.cancel(determinant - expected_determinant) == 0,
+                "reconstruction determinant")
 
     rhs = sp.Matrix([0, 0, *target])
     solution = [sp.cancel(value) for value in matrix.inv(method="DM") * rhs]
@@ -114,9 +118,10 @@ def main() -> None:
         u2 = x2 + root * x3 + root**2 * x0
         v0 = f + root * m + root**2 * g
         v1 = g + root * m + root**2 * f
-        require(sp.cancel(u0 + w * u1 + w**2 * u2) == 0,
-                "forced U square root")
-        require(sp.cancel(v0 + w * v1) == 0, "forced V square root")
+        if not args.swap:
+            require(sp.cancel(u0 + w * u1 + w**2 * u2) == 0,
+                    "forced U square root")
+            require(sp.cancel(v0 + w * v1) == 0, "forced V square root")
         leading = sp.cancel(u2**2)
         linear = sp.cancel(2 * u1 * u2 - v1**2 + 2 * w * leading)
         constant = sp.cancel(u0**2 / w**2)
@@ -124,7 +129,12 @@ def main() -> None:
 
     endpoint_lines = []
     middle_equations = []
-    for root, target_root in ((c, sp.Rational(1, 2)), (d, 1 / d)):
+    targets = (
+        ((c, 1 / d), (d, sp.Rational(1, 2)))
+        if args.swap else
+        ((c, sp.Rational(1, 2)), (d, 1 / d))
+    )
+    for root, target_root in targets:
         leading, linear, constant = residual(root)
         endpoint = sp.cancel(constant - target_root**2 * leading)
         middle = sp.cancel(linear + 2 * target_root * leading)
@@ -152,10 +162,11 @@ def main() -> None:
         monic(c * d - 1, c, d),
         monic(reconstruction_factor, c, d),
     }
+    if args.swap:
+        known_endpoint.update({monic(d - 1, c, d), monic(d + 1, c, d)})
     collision_d = sp.Poly(
         (d - 2) * (d - 1) * (d + 1) * (2 * d - 1), d, domain=sp.QQ
     ).monic()
-    collision_d_mod = reduce_mod(collision_d, d, characteristic)
     generic_rows = []
     for left_index in (args.left,):
         left = endpoint_lines[0][left_index]
@@ -174,7 +185,9 @@ def main() -> None:
                 sp.Poly(numerator, c, d, domain=sp.QQ).primitive()[1]
             )
 
-        for right_index, right in enumerate(endpoint_lines[1]):
+        right_indices = (args.right,) if args.right is not None else (0, 1)
+        for right_index in right_indices:
+            right = endpoint_lines[1][right_index]
             endpoint_resultant = sp.resultant(left.as_expr(), right.as_expr(), b)
             factors = [
                 sp.Poly(factor, c, d, domain=sp.QQ)
@@ -185,7 +198,8 @@ def main() -> None:
                 factor for factor in factors
                 if factor.monic().as_expr() not in known_endpoint
             ]
-            require(len(factors) == 4 and len(curves) == 1,
+            expected_factor_count = 5 if args.swap else 4
+            require(len(factors) == expected_factor_count and len(curves) == 1,
                     "endpoint resultant split")
             curve = curves[0]
             resultants = [
@@ -196,14 +210,21 @@ def main() -> None:
                 for middle in substituted_middle
             ]
             common = sp.gcd(*resultants).monic()
-            require(common.sqf_part().monic() == collision_d,
+            expected_generic = collision_d
+            if args.swap and (left_index, right_index) == (1, 0):
+                expected_generic = sp.Poly(
+                    (d - 1) * (d + 1) * (2 * d - 1), d, domain=sp.QQ
+                ).monic()
+            require(common.sqf_part().monic() == expected_generic,
                     "generic branch has noncollision support")
             modular_resultants = [
                 reduce_mod(value, d, characteristic)
                 for value in resultants
             ]
             modular_common = sp.gcd(*modular_resultants).monic()
-            require(modular_common.sqf_part().monic() == collision_d_mod,
+            require(
+                modular_common.sqf_part().monic()
+                == reduce_mod(expected_generic, d, characteristic),
                     "KoalaBear generic branch has noncollision support")
             generic_rows.append(
                 (left_index, right_index, tuple(value.degree() for value in resultants),
@@ -217,10 +238,6 @@ def main() -> None:
             )
 
     exceptional_rows = []
-    exceptional_data = (
-        (sp.Rational(7, 5), sp.Rational(1, 5), 5 * d - 7),
-        (sp.Rational(55, 53), sp.Rational(-5, 7), 53 * d - 55),
-    )
     for left_index in (args.left,):
         left = endpoint_lines[0][left_index]
         lead = sp.diff(left.as_expr(), b)
@@ -228,10 +245,22 @@ def main() -> None:
         base_resultant = sp.Poly(
             sp.resultant(lead, constant, c), d, domain=sp.QQ
         ).primitive()[1]
-        extra_d, extra_c, extra_factor = exceptional_data[left_index]
-        expected_support = sp.Poly(
-            collision_d.as_expr() * extra_factor, d, domain=sp.QQ
-        ).monic()
+        if args.swap and left_index == 0:
+            extra_factor = 17 * d**2 - 38 * d + 17
+            expected_support = sp.Poly(
+                collision_d.as_expr() * extra_factor, d, domain=sp.QQ
+            ).monic()
+        elif args.swap:
+            expected_support = collision_d
+        else:
+            exceptional_data = (
+                (sp.Rational(7, 5), sp.Rational(1, 5), 5 * d - 7),
+                (sp.Rational(55, 53), sp.Rational(-5, 7), 53 * d - 55),
+            )
+            extra_d, extra_c, extra_factor = exceptional_data[left_index]
+            expected_support = sp.Poly(
+                collision_d.as_expr() * extra_factor, d, domain=sp.QQ
+            ).monic()
         require(base_resultant.sqf_part().monic() == expected_support,
                 "exceptional base support")
         modular_base = reduce_mod(
@@ -242,29 +271,44 @@ def main() -> None:
         )
         require(modular_base == modular_expected,
                 "KoalaBear exceptional base support")
-        c_gcd = sp.gcd(
-            sp.Poly(lead.subs(d, extra_d), c, domain=sp.QQ),
-            sp.Poly(constant.subs(d, extra_d), c, domain=sp.QQ),
-        ).monic()
-        require(c_gcd == sp.Poly(c - extra_c, c, domain=sp.QQ).monic(),
-                "exceptional extra fiber")
-        require(sp.cancel(reconstruction_factor.subs({c: extra_c, d: extra_d})) == 0,
-                "exceptional extra is z=1")
+        extra_description = "none"
+        if args.swap and left_index == 0:
+            extra_basis = sp.groebner(
+                [lead, constant, extra_factor], c, d, order="lex"
+            )
+            require(extra_basis.reduce(reconstruction_factor)[1] == 0,
+                    "swapped exceptional component is not z=1")
+            extra_description = "quadratic-z=1"
+        elif not args.swap:
+            c_gcd = sp.gcd(
+                sp.Poly(lead.subs(d, extra_d), c, domain=sp.QQ),
+                sp.Poly(constant.subs(d, extra_d), c, domain=sp.QQ),
+            ).monic()
+            require(c_gcd == sp.Poly(c - extra_c, c, domain=sp.QQ).monic(),
+                    "exceptional extra fiber")
+            require(sp.cancel(
+                reconstruction_factor.subs({c: extra_c, d: extra_d})
+            ) == 0, "exceptional extra is z=1")
+            extra_description = f"({extra_c},{extra_d})"
         exceptional_rows.append(
             (left_index, base_resultant.degree(), digest_polynomial(base_resultant))
         )
         print(
             f"stage=exception left={left_index} degree={base_resultant.degree()} "
-            f"extra=({extra_c},{extra_d}) digest={digest_polynomial(base_resultant)}",
+            f"extra={extra_description} digest={digest_polynomial(base_resultant)}",
             flush=True,
         )
 
-    require(len(generic_rows) == 2 and len(exceptional_rows) == 1,
+    expected_generic_rows = 1 if args.right is not None else 2
+    require(len(generic_rows) == expected_generic_rows
+            and len(exceptional_rows) == 1,
             "coverage accounting")
     print(
         "KB_C2_112_NEAR_FIXED_XI_SQUARE_DIRECT_PASS "
-        f"left={args.left} generic_pairs=2 exceptional_left_lines=1 "
-        f"residual_allocation=direct-square characteristic={characteristic} "
+        f"left={args.left} right={args.right if args.right is not None else 'all'} "
+        f"generic_pairs={expected_generic_rows} exceptional_left_lines=1 "
+        f"residual_allocation={'swapped-square' if args.swap else 'direct-square'} "
+        f"characteristic={characteristic} "
         "mutation_catches=1"
     )
 

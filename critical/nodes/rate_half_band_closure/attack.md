@@ -1481,15 +1481,18 @@ Thus no aligned negative candidate passes `(KBQS-1)`. The aligned source-line
 attack retains only the positive sign. Both signs remain in the near-aligned
 branch because its target is `tau^*chi_Omega`, not `tau^*q`.
 
-One deployed-field near-aligned positive chart is now also deleted. The
-PROVED
+Two deployed-field near-aligned positive charts are now deleted. The PROVED
 `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion`
 normalizes `a=xi=2`, takes the fixed-moving template with `eta=c`, and assigns
 the two residual squares to `1/2` over `c` and `1/d` over `d`. All four
 generic endpoint-line pairs have only collision support; the two leading-zero
 loci add only points with `z=1`. Independent resultant and Bezout replays
-verify the same support modulo the KoalaBear characteristic. This deletes
-only one of the 18 affine positive charts; the other allocations, relative
+verify the same support modulo the KoalaBear characteristic. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion`
+interchanges the two target roots and gives the same collision-only generic
+support. Its sole additional exceptional component forces the same excluded
+`z=1` locus, with an independent opposite-variable audit. These results
+delete 2 of the 18 affine positive charts; the mixed allocation, relative
 `xi` orbits, moving-moving template, negative loci, and `w=0` boundary remain.
 
 The aligned positive sign has also resisted a broader exact falsifier sweep.
