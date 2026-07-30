@@ -1116,3 +1116,34 @@ The transposed coordinate orientation is equivalent only after the endpoint
 roles and source presentation are transported explicitly; do not silently
 identify it with the proved coordinate packet. The trivial-stabilizer type
 also remains open. No owner or payment moves.
+
+## 2026-07-30 KoalaBear diagonal whole-fiber compiler
+
+The diagonal orientation now has a correct source interface. The PROVED
+`rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler`
+multiplies the two quadratic stars over each complete `psi` fiber. The
+resulting twelve split quartics `R_p` obey
+
+```text
+[R_bar(p)]=[tau^* R_p],            product_p R_p(T) ~ A(T)^4,
+```
+
+and retain the exact `K`, `eta in L minus K`, and one-exchange facet
+supports. These are whole-fiber statements. The diagonal normalization
+automorphism need not descend to the `X`-line, so individual-star
+equivariance is not available.
+
+Writing the quartic coefficients as `r_(p,a)` and taking a `7 x 12`
+parity check `P` for degree-at-most-four evaluation at the source labels
+gives the exact matrix
+
+```text
+M_(s,a),p=P_(s,p) r_(p,a),          M has size 35 x 12.
+```
+
+A full-support kernel is equivalent to interpolation by a
+bidegree-at-most-`(4,4)` endpoint biform. The diagonal branch is therefore
+reduced to a finite exact kernel gate followed, for survivors only, by
+irreducibility and the outer self-correspondence factor identity. Prove
+universal kernel failure or reconstruct and attack the unique surviving
+biform; do not reuse the stronger coordinate-star equation.

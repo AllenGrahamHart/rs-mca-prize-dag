@@ -10772,3 +10772,21 @@ coordinate orientation. The next coordinate attack must use the actual
 interpolation/coefficient equations. In parallel, derive rather than assume
 the source lift for `<tau x tau>`. The transposed coordinate subgroup and
 the trivial-stabilizer type remain open, and no owner/payment ledger changes.
+
+## 2026-07-30 KoalaBear diagonal interpolation interface
+
+The diagonal subgroup `<tau x tau>` has a separate exact compiler. The
+PROVED
+`rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler` forms
+one split quartic `R_p` from the two component stars over each quadratic
+`psi` fiber. Diagonal stabilization transports these quartics
+projectively, their product is `A^4`, and their factors retain all three
+source-facet classes. They come from a bidegree-at-most-`(4,4)` endpoint
+biform if and only if a concrete `35 x 12` matrix has a full-support
+kernel.
+
+This replaces the unsafe idea of transporting individual stars: the
+diagonal automorphism need not descend to the source `X`-line. The next
+diagonal result should prove universal kernel failure or reconstruct the
+unique interpolated biform and impose the outer factor identity. No
+subgroup, owner, or payment is closed by the compiler itself.

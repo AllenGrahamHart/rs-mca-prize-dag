@@ -18918,6 +18918,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler",
+   "title": "KoalaBear m2 r4 diagonal fiber-resultant interpolation compiler",
+   "status": "PROVED",
+   "closure": "whole-quadratic-fiber diagonal transport, exact facet/product divisors, and a full-support 35-by-12 interpolation kernel",
+   "statement": "For an actual (m,r,delta)=(2,4,2) component stabilized by tau x tau, multiplying the two quadratic source-component fibers over each psi-fiber gives twelve split quartics R_p. They obey diagonal projective transport, the exact K/eta/one-exchange facet supports, and product_p R_p proportional to A^4. These projective quartics interpolate to a biform of bidegree at most (4,4) exactly when a printed 35 x 12 matrix has a full-support kernel. This is an exact deletion compiler, not a proof of universal kernel failure or subgroup/type exclusion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_full_v4_source_genus_drop",
    "title": "KoalaBear m2 r2 full-V4 source genus drop",
    "status": "PROVED",
@@ -37391,6 +37410,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_q6_s6_common_five_outgoing_fiber_pin",
+   "to": "rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
