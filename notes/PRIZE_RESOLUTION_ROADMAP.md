@@ -11443,9 +11443,17 @@ endpoint-resultant factors are `c=1`, `cd=1`, and
 `5cd-4c-4d+5=0`; the last gives `z=1` from the positive incidence formula.
 Hence this single near square-allocation chart is empty. The four-shard helper
 `kb_c2_112_near_fixed_xi_square.py` banks the calculation. Its integrated
-replay was stopped when host availability fell to `110 MiB` with swap full;
-the separate exact shard calculations above completed before that condition,
-so retain this as narrowed evidence rather than a promoted theorem.
+replay now completes under the `60 s` tiny-RAMguard cap, one process per
+shard: `(0,0)` in `34 s` with degree `26` and no survivor, `(0,1)` in `30 s`
+with degree `27` and only `cd=1`, `(1,0)` in about `30 s` with degree `28`
+and only `cd=1`, and `(1,1)` in about `30 s` with degree `30` and only
+`cd=1`. The helper SHA-256 is
+`071ce9502e3a5c3700c20d837e38ce672588212724f28691564b659903d374ac`;
+the corrected symmetric generator SHA-256 is
+`bc5f958f834d978b2bb2e054cafd8ee47f46469b26c9798257f10436cc8eb45d`.
+This is still narrowed evidence rather than a promoted theorem: the
+Groebner elimination is load-bearing and protocol section 9 requires an
+independently written checker before a PROVED node can be minted.
 
 For the swapped square allocation in the same normalized template, the two
 endpoint lines reduce the four sign pairs to curves of bidegree `(3,2)`,

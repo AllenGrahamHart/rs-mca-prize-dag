@@ -168,7 +168,11 @@ retries; raw artifact storage is separate.
   `critical/nodes/rate_half_band_closure/notes/kb_c2_112_near_fixed_xi_square.py`
   treats fixed-moving, common endpoint `xi=2`, and the square allocation
   `(c -> 1/2, d -> 1/d)`. Its four exact sign shards have only collision
-  eliminants; three apparent extras force `cd=1`.
+  eliminants; three apparent extras force `cd=1`. All four primary shards
+  replay locally under the `60 s` tiny-RAMguard cap. The source SHA-256 is
+  `071ce9502e3a5c3700c20d837e38ce672588212724f28691564b659903d374ac`.
+  This chart is not yet theorem-grade because its load-bearing Groebner
+  elimination still needs an independently written checker.
 - **Immediate unresolved input:** the swapped square allocation in that same
   chart has four endpoint curves of bidegrees `(3,2),(2,2),(3,2),(2,2)`.
   First impose the normalization-free constant/leading gate `(KBNEAR-CL)`;
@@ -186,8 +190,10 @@ retries; raw artifact storage is separate.
   covered.
 - **INCOMPLETE:** curve factors, pairwise resultants, or generic-field gcds
   alone are narrowing evidence.
-- **Authorization:** external pre-request. Local symbolic work is paused while
-  host memory is critically low; do not launch Modal without renewed budget.
+- **Authorization:** external pre-request for the remaining chart queue.
+  Modal is currently blocked by the workspace spend limit. Local work is
+  restricted to one `60 s` tiny-RAMguard shard at a time and must stop if host
+  memory pressure returns; do not launch unpriced remote work.
 
 ## Upstream handoff convention
 
