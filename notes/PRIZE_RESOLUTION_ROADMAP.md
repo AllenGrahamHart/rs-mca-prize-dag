@@ -6561,6 +6561,35 @@ next action:
 compute spend: exact quadratic square classes only; no Modal
 ```
 
+**Same-day degree-six common-pole exclusion:** the common degree-30 pole
+divisor deletes one of the two residual dihedral profiles.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion [PROVED]
+input:
+  n=6, so all six poles are one generic fiber of each Dickson-six quotient
+  source-cover branch pair ell^-1({2,b})=roots(z^2-b*d*z+b^2-1), d^2=3
+pole-sextic atlas:
+  coincident involutions -> ell=+/-z, plus +/-3/(2z) only at c=27/8
+  distinct commuting involutions -> c=27/8, but no second Dickson-six fiber
+  order-three involutions -> c=756/125 and ell=+/-g_t,+/-g_t^2,
+                              g_t=t(z+t)/(t-3z), 5t^2+27=0
+twist elimination:
+  reciprocal resultant=22371648 !=0 mod 2130706433
+  order-three primitive norm=71132574457861006005
+                             =1274367339 mod 2130706433 !=0
+result:
+  n=6 is empty; n=3 is the sole residual full-V4 dihedral factor profile
+DAG delta: one PROVED deletion node; critical target unchanged
+ledger movement: zero
+nonclaims: no n=3 construction/deletion, m2 close, owner, payment, K3,
+           endpoint, KoalaBear row, or Prize close
+next action:
+  classify six points that are two generic D3 fibers in both forced endpoint
+  coordinates, then impose the common degree-ten outer and source locators
+compute spend: exact binary-sextic coefficients and 7x7 resultants; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

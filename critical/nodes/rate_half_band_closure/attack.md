@@ -136,6 +136,16 @@ is the elliptic regime. Both remain possible; the common degree-30 function,
 six pole fibers, and source locators are the next live equations. No owner
 charge moves.
 
+The PROVED
+`rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion` now imposes the
+common six-pole divisor in the `n=6` branch. Two generic Dickson-six fiber
+structures would put two fixed-point-free involutions on the same six-point
+set. Their complete projective atlas consists of the standard normalizer and
+the exceptional fibers `c=27/8,756/125`; every case contradicts the forced
+source-cover branch pair, with nonzero KoalaBear resultants. Thus `n=6` is
+empty and `n=3` is the sole residual full-V4 dihedral profile. The full-V4
+type, owner, and payment remain open.
+
 The PROVED `rate_half_kb_m12_outer_normal_form_compiler` removes arbitrary
 outer-quintic search. Geometrically, the dihedral row is a Dickson quintic
 `x^5-5a*x^3+5a^2*x`; four `r=4` branch profiles have rigid printed forms,
