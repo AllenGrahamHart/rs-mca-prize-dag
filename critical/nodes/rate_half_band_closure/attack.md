@@ -192,6 +192,18 @@ profile does not delete it. The independent frontier has nine types: three
 at `m=2`, five at `m=3`, and this single `m=4` survivor. No owner charge
 moves.
 
+The PROVED
+`rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form`
+performs that specialization without conflating endpoint coordinates. In a
+standard dihedral coordinate the sibling conic is
+`x^2+y^2-a*x*y+(a^2-4)=0`, with `a=-1` for `n=3` and `a=1` for `n=6`.
+The source V4 passport proves that exactly one branch value of `h` is a
+projection branch value. Normalize it to `2` and call the other `b`; the
+six coefficients of the canonical quartic are then explicit polynomials
+in `(a,b)`. Thus each residual profile is a one-variable irreducibility and
+source-realization problem, not a six-coefficient quartic classification.
+No owner charge moves.
+
 The PROVED `rate_half_kb_m4_a6s6_genus_zero_passport_reduction` exhausts the
 survivor's branch-cycle classes. Riemann--Hurwitz leaves residual index 16
 after the mandatory `5^3` pole. Nine parity-compatible class budgets exist,

@@ -6433,6 +6433,39 @@ next action:
 compute spend: symbolic degree-four identity only; no Modal
 ```
 
+**Same-day residual one-parameter normal form:** the relative endpoint
+coordinate is now retained, reducing each residual factor to one parameter.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form [PROVED]
+standard dihedral sibling conic:
+  x^2+y^2-a*x*y+(a^2-4)=0
+  a=-1 for n=3; a=1 for n=6
+source branch-place gate:
+  the pullback h(T)=Y has exactly two branch places in both source-genus rows
+  therefore exactly one branch value of h lies in Br(Y)={2,-2}
+  normalize that value to 2 and call the other b, with b notin {2,-2}
+target transport:
+  m(x)=(x-2)/(x-b), then m composed h=t^2
+explicit sibling coefficients:
+  A=(a-2)(a-b^2+2)
+  B=-(a-2)(2a-b^2-2b+4)
+  C=(a-b)^2
+  D=4a^2-a*b^2-4a*b-4a+16b-16
+  E=-2(a-2)(a-b)
+  F=(a-2)^2
+result:
+  substitute these into the canonical Q(S,P); one parameter b remains
+DAG delta: one PROVED normal-form node; critical target unchanged
+ledger movement: zero
+nonclaims: no irreducibility for arbitrary b, n=3/n=6 deletion, m2 close,
+           owner, charge, u2, endpoint, KoalaBear row, or MCA close
+next action:
+  classify geometric reducibility in b and impose the six pole fibers and
+  exact source locators on the irreducible locus
+compute spend: exact symbolic coordinate transport only; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every
