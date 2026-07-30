@@ -10790,3 +10790,9 @@ diagonal automorphism need not descend to the source `X`-line. The next
 diagonal result should prove universal kernel failure or reconstruct the
 unique interpolated biform and impose the outer factor identity. No
 subgroup, owner, or payment is closed by the compiler itself.
+
+Upstream custody: draft PR `przchojecki/rs-mca#1132`, commit
+`ff133334419f0f1244ae2ab3cbbea515cc33031d`, canonical certificate payload
+`96c47c813c41f4b268b9826ed4866e14d44c5a8187487266a3de6f550cbbf6b6`.
+The packet combines the coordinate and diagonal interfaces and rejects
+17 of 17 hostile mutations.
