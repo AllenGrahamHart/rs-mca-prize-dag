@@ -29,9 +29,10 @@ def reciprocal_reduce(expression, b, w, trace):
 
 
 def mismatch_slice(template, c_value, d_value, full, saturate, lex_audit,
-                   moving_invariant_audit):
+                   moving_invariant_audit, symbolic_d):
     a = sp.Rational(2)
-    c, d = sp.Rational(c_value), sp.Rational(d_value)
+    c = sp.Rational(c_value)
+    d = sp.Symbol("d", nonzero=True) if symbolic_d else sp.Rational(d_value)
     b, w, W = sp.symbols("b w W", nonzero=True)
     q0, q1 = c * d, -(c + d)
     f, g, m = q0 - w, 1 - w * q0, q1 * (1 - w)
@@ -309,13 +310,15 @@ def main():
     parser.add_argument("--saturate", action="store_true")
     parser.add_argument("--lex-audit", action="store_true")
     parser.add_argument("--moving-invariant-audit", action="store_true")
+    parser.add_argument("--symbolic-d", action="store_true")
     args = parser.parse_args()
     mismatch_slice(args.template, args.c, args.d,
                    args.full or args.saturate or args.lex_audit
                    or args.moving_invariant_audit,
                    args.saturate,
                    args.lex_audit,
-                   args.moving_invariant_audit)
+                   args.moving_invariant_audit,
+                   args.symbolic_d)
 
 
 if __name__ == "__main__":

@@ -11355,7 +11355,9 @@ coefficients after exact reconstruction.
 3. Return a compact Bezout, subresultant, or modular-interpolation certificate
    with degree bounds and an independent exact checker. Do not use a generic
    four-variable SymPy `cancel` tree; that local representation exceeded the
-   RAMguard ceiling.
+   RAMguard ceiling. Even the `c=3`, symbolic-`d` lift reached the forced
+   solve but not the constant factorization before its `60 s` cap; use the
+   cheap two-numeric-endpoint slices only as interpolation data.
 
 Either certificate deletes the aligned positive sign by fixed-point-free
 labels and, together with the aligned negative theorem, removes the whole
