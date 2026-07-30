@@ -11270,6 +11270,36 @@ packet is therefore a finite list of at most eight source-deck pairs, with
 no coefficient parameter left. The route-deciding calculation is now to
 evaluate `(KBQ2-2)` and the remaining source rows on those forms.
 
+### Compute request CR-KB-C2-112-QR-ELIM
+
+This is the deferred exact-CAS version of that calculation; no run is
+currently funded or launched. For each aligned/near-aligned branch, sign,
+one of the five labeled pure multisets, and generic/ramified specialization
+of `w`, do the following:
+
+1. Substitute `(KBOI-2)--(KBOI-3)` and the unique internal-star
+   reconstruction `(KBSR-2)--(KBSR-4)` into `H=U+XV`.
+2. Compute the coefficient residuals, with independent projective scalars,
+   of
+
+   ```text
+   Res_T(P_J,H) ~ K_5^2 chi_Omega,
+   chi_Omega Res_T(P_I,H) ~ R_7^2.
+   ```
+
+3. Clear only the printed nonzero denominators and saturate by label
+   distinctness, `J_0 intersect J_1=empty`, nonzero star scalars, and exact
+   source degree. Do not saturate by a conjectural genericity factor.
+4. Return either a unit ideal/factor certificate deleting the shard, or the
+   exact exceptional factor locus with a replayable witness assignment.
+
+There are at most `2 x 2 x 5 x 2=40` independent shards. Each shard should
+write partial factors before a `60 s` timeout; larger Gröbner or resultant
+runs can be contributed independently. A light `F_1009` aligned sanity
+fixture satisfying the incidence equation tested `12` internal assignments,
+reconstructed `6`, and found `0` first-quotient survivors. That datum is
+evidence only, not a deletion or a substitute for saturation.
+
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
 `cbb3aa26cbbd34dbacd284424a16f29518d7d242`, note/verifier/certificate
 blobs `88a0bd2a19913fdf689968d38628ded7c7645aed`,
@@ -11303,7 +11333,7 @@ upstream delta:           c2 capacity, linear cut, 202 deletion, 112 classifier,
                           reconstruction in PR #1132
 delta-star movement:      none
 new assumptions:          none; (1,1,2) ramified and biquadratic survivors retained
-live compute requests:    none
+live compute requests:    CR-KB-C2-112-QR-ELIM (external/deferred; 40 shards)
 next route-deciding step: evaluate quotient resultants on at most eight
                           reconstructed source-deck pairs per packet
 ```
