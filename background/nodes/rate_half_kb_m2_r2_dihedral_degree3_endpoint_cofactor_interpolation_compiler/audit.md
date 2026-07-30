@@ -8,6 +8,9 @@
    claim is inserted into the interpolation argument.
 4. The `F_47` packet satisfies the exact `s=6` locator ownership and
    four-edge component-color checks, but is only one specialization.
+5. The local transport is only a necessary condition. The primary and
+   independent verifiers reconstruct all six canonical square products;
+   no claimed universal ownership exclusion is inferred from the fixture.
 5. Rank 12 deletes that packet only. Sampling other packets is evidence and
    is not promoted to a universal theorem.
 6. No owner charge or critical status moves.

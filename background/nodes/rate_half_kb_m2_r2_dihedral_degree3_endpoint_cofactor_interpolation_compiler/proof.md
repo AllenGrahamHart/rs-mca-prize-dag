@@ -51,7 +51,34 @@ bidegree-`(9,18)` cofactor. This proves necessity and sufficiency.
 Taking coefficients of the two degree-18 identities gives the printed
 `38 x 12` matrix criterion.
 
-## 2. Pinned deleting fixture
+## 2. Star-edge holonomy
+
+Let `x` be a simple root of `B`. Complete-source saturation gives exactly
+two labels `a,b` for which `H_a(x)=H_b(x)=0`, and the locator partition gives
+a unique label `c` for which `z_c(x)=0`. Locator avoidance says that `a,b,c`
+are distinct. Consequently `E_i(x)` vanishes unless `i` is one of `a,b,c`,
+while each of `E_a(x),E_b(x),E_c(x)` is nonzero.
+
+Evaluate both identities `(KBM3I-3)` at `x` and subtract `alpha_c` times the
+first from the second. The `c` term disappears and the result is exactly
+`(KBM3I-4)`. Since the labels, weights, and displayed cofactor values are
+all nonzero in the required differences, solving for `w_b/w_a` gives the
+printed edge transport. Around a directed cycle
+
+```text
+a_0 -> a_1 -> ... -> a_r=a_0
+```
+
+the transport product telescopes as
+
+```text
+product_(j=0)^(r-1) rho_(a_j->a_(j+1))
+ =product_(j=0)^(r-1) w_(a_(j+1))/w_(a_j)=1.       (4)
+```
+
+This proves the local necessary holonomy condition.
+
+## 3. Pinned deleting fixture
 
 Work over `F_47` with the geometric model from the parent node. Its two
 generic cubic pole values are `7` and `18`. The twelve source labels are
@@ -109,6 +136,23 @@ with determinant
 7 mod 47.
 ```
 
-The stacked matrix therefore has rank 12 and no kernel at all. By the exact
-equivalence above, this admissible abstract packet cannot divide an endpoint
-form of `(KBM3I-1)`. QED.
+There is already a local obstruction. The source deck pairs split the two
+star components into the parts
+
+```text
+(0,11)|(2,9)|(4,7),       (1,10)|(3,8)|(5,6).
+```
+
+Orient each of the three standard `K_(2,2)` squares in each component by
+taking the first entry in the first part, the first entry in the second,
+then the two second entries. Direct evaluation of the transport formula
+gives
+
+```text
+11,26,17 and 2,41,31 mod 47.                       (5)
+```
+
+Every value in `(5)` differs from one, so any one of these squares rules out
+a full-support kernel. Independently, the stacked matrix has rank 12 and no
+kernel at all. By the exact equivalence above, this admissible abstract
+packet cannot divide an endpoint form of `(KBM3I-1)`. QED.

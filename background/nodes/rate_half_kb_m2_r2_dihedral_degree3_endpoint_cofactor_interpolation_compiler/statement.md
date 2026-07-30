@@ -45,13 +45,45 @@ vector of `(E_i,alpha_i E_i)` has a kernel vector with all twelve entries
 nonzero. This is an exact necessary-and-sufficient actual-component gate,
 not merely a necessary rank heuristic.
 
+There is also a local cycle form of the obstruction. At a simple root `x`
+of `B`, write
+
+```text
+star(x)={a,b},       x in div(z_c).
+```
+
+Locator avoidance gives `c notin {a,b}`. Any full-support solution of
+`(KBM3I-3)` must obey
+
+```text
+(alpha_a-alpha_c)w_a E_a(x)
+ +(alpha_b-alpha_c)w_b E_b(x)=0.                  (KBM3I-4)
+```
+
+Thus the directed star edge `a -> b` at `x` carries the nonzero transport
+
+```text
+rho_(a->b)(x)=
+ -[(alpha_a-alpha_c)E_a(x)]/[(alpha_b-alpha_c)E_b(x)],
+```
+
+and every directed star-graph cycle must have transport product one. This
+holonomy condition is necessary, though not asserted sufficient.
+
 The pinned split specialization over `F_47`, with cubic pole values `7,18`,
 contains an exact `s=6` locator ownership, six invariant coordinate
 quadratics, the required two-regular noninvariant pole graph, and exactly
 four edges carried by the degree-two component. Its first 19-row block has
 rank 11, but its stacked interpolation matrix has rank 12; the minor on
-rows `0,...,10,19` has determinant `7 mod 47`. Hence that fully admissible
-abstract source/locator packet is not an endpoint component.
+rows `0,...,10,19` has determinant `7 mod 47`. More locally, the six
+standard `K_(2,2)` square transports in the two `K_(2,2,2)` components are
+
+```text
+11,26,17 and 2,41,31 mod 47,
+```
+
+so none is one. Hence that fully admissible abstract source/locator packet
+is not an endpoint component.
 
 This theorem does not prove that every admissible locator ownership has
 full rank. It deletes the pinned packet and replaces the vague "fixed active
@@ -63,4 +95,4 @@ KoalaBear row, or Prize problem.
 
 An actual factorization `M=HN` for which `(KBM3I-3)` fails, a full-support
 kernel that does not interpolate a bidegree-`(9,18)` cofactor, or failure of
-the pinned determinant.
+the pinned determinant or square-holonomy values.

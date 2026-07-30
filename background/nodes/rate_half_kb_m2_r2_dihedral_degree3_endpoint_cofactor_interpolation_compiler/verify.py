@@ -227,6 +227,64 @@ def build_fixture() -> tuple[list[list[int]], list[list[int]]]:
     return first, second
 
 
+def verify_square_holonomy(first: list[list[int]]) -> None:
+    cofactors = [
+        [first[degree][label] for degree in range(19)]
+        for label in range(12)
+    ]
+    owner_by_root = {
+        root: owner
+        for owner, roots in enumerate(OWNED)
+        for root in roots
+    }
+    edge_root: dict[frozenset[int], int] = {}
+    for root in X_ROOTS:
+        labels = [
+            label for label, alpha in enumerate(ALPHAS)
+            if evaluate(component_poly(alpha), root) == 0
+        ]
+        edge = frozenset(labels)
+        require(len(edge) == 2 and edge not in edge_root, "distinct star edge")
+        edge_root[edge] = root
+
+    def transport(source: int, target: int) -> int:
+        root = edge_root[frozenset((source, target))]
+        owner = owner_by_root[root]
+        require(owner not in (source, target), "transport locator avoidance")
+        numerator = (
+            -(ALPHAS[source] - ALPHAS[owner])
+            * evaluate(cofactors[source], root)
+        ) % P
+        denominator = (
+            (ALPHAS[target] - ALPHAS[owner])
+            * evaluate(cofactors[target], root)
+        ) % P
+        require(numerator != 0 and denominator != 0, "nonzero edge transport")
+        return numerator * inverse(denominator) % P
+
+    components = [
+        [(0, 11), (2, 9), (4, 7)],
+        [(1, 10), (3, 8), (5, 6)],
+    ]
+    products: list[int] = []
+    for component in components:
+        for first_part, second_part in (
+            (component[0], component[1]),
+            (component[0], component[2]),
+            (component[1], component[2]),
+        ):
+            cycle = [
+                first_part[0], second_part[0],
+                first_part[1], second_part[1],
+            ]
+            product = 1
+            for index, source in enumerate(cycle):
+                product = product * transport(source, cycle[(index + 1) % 4]) % P
+            products.append(product)
+    require(products == [11, 26, 17, 2, 41, 31], "canonical square holonomies")
+    require(all(product != 1 for product in products), "nontrivial square holonomies")
+
+
 def main() -> None:
     statement = (NODE / "statement.md").read_text()
     contract = (NODE / "claim_contract.md").read_text()
@@ -247,6 +305,7 @@ def main() -> None:
     require(matrix_rank(stacked)[0] == 12, "stacked full rank")
     selected = list(range(11)) + [19]
     require(determinant([stacked[row] for row in selected]) == 7, "pinned minor")
+    verify_square_holonomy(first)
     print("RATE_HALF_KB_M2_R2_DIHEDRAL_DEGREE3_ENDPOINT_COFACTOR_INTERPOLATION_COMPILER_PASS")
 
 
