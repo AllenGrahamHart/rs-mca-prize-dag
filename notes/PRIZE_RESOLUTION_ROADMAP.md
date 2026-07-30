@@ -6026,6 +6026,14 @@ new node: rate_half_kb_m4_a6_542_pair_quotient_normal_form [PROVED]
 BelyiDB pin:
   commit 7d5b899b0741ebd505363f7f811e5737e906abee
   blob   55e23bc1ef1d939329a5a6b377d03c07f0ac9f2d
+upstream custody:
+  PR #1132 head: d5c0dc793bc5092561fd43021a52748f17874f72
+  note/verifier/certificate blobs:
+    6cadaf6cebc4c831be0d88d565c1a103bcb3ac84
+    e725fde8875e74d8a2122bc777763167905dbe2a
+    8d5c4c18728a2d6ae572f34c91f79147ce9251df
+  certificate payload:
+    efa96d466a38a43f365e9132ddbbad94b258fd7cfdb613f7e92472529ed66420
 normalization route:
   pair-remainder determinant -> irreducible plane quintic over Q(nu)
   rank-eight cubic-adjoint conditions with two tangent constraints
