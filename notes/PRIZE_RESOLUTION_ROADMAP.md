@@ -11129,6 +11129,21 @@ substitute the forced square fiber into `G=U^2-WV^2`, impose the resulting
 coefficient minors, and combine them with the four-fiber fourth-power
 identity. A reciprocal square fiber alone is not a contradiction.
 
+That coefficient substitution is now exact in the source-line branch. The
+PROVED `rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut` separates
+the forced source orbit according to deck ramification. Off the branch
+values of `W=X^2`, both star equations force `U(T,w)` and `V(T,w)` into
+the fixed line spanned by `P_(J_1)`. The four independent linear equations
+reduce the `epsilon=+1/-1` spaces from `8/7` to `4/3`, and their three
+coefficient minors have the exact common reciprocal quadratic and linear
+quotients printed in `(KBC2-5)`. At the ramified orbit `{0,infinity}`, only
+one value of `U` is visible; the rank is two and dimensions `6/5` remain.
+This ramified escape is genuine at the present interface and must not be
+folded into the unramified minor calculation. Priority is now (i) seek an
+exact exclusion of a common-`K` branch-value label, then (ii) apply the
+four-fiber identity and `45 x 12` interpolation gate to the `4/3`-parameter
+unramified forms.
+
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
 `d09fc0685b3a63161f2f2d4dae7c0e0f7564e1c3`, note/verifier/certificate
 blobs `0a67e129f92335a2e99022b158e0b772138faa15`,

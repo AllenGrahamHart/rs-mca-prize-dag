@@ -1262,6 +1262,26 @@ For `(1,1,2)`, the same capacity argument gives
 feed the forced square fiber and the four-fiber fourth-power identity into
 the source norm equation; it must retain that exceptional `(1,1,2)` orbit.
 
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut` performs the first
+such substitution in the source-line branch and exposes a necessary
+ramification split. For an unramified forced fiber `w`, both quadratic
+stars equal `P_(J_1)`, so
+
+```text
+U(T,w), V(T,w) in <P_(J_1)>.
+```
+
+These are four independent linear conditions: the reciprocal source spaces
+drop from dimensions `8/7` to exactly `4/3`. Moreover, the three coefficient
+minors of the `U,V` coefficient vectors share the reciprocal source-orbit
+quadratic `chi_w`, with explicit paired linear quotients. At the ramified
+orbit `{0,infinity}`, however, the two stars coincide; only the applicable
+value of `U` is constrained, the cut has rank two, and dimensions `6/5`
+remain. Thus the earlier blanket minor argument is invalid at ramification.
+Attack that weaker branch first, then insert the `4/3` parametrization and
+the four-fiber fourth-power identity into the source interpolation gate.
+
 The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
 the smaller shared actual-component gate. For twelve projective source-row
 quartics `q_i`, stack a `9 x 12` degree-two evaluation parity check across
