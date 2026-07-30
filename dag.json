@@ -19013,6 +19013,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion",
+   "title": "KoalaBear m2 r4 diagonal c2 (2,0,2) ramified-defect exclusion",
+   "status": "PROVED",
+   "closure": "exclusion of the ramified source-line square fiber in the diagonal (2,0,2) row by the complete-source defect budget",
+   "statement": "In the source-line branch of the diagonal (a,b,c)=(2,0,2) row, the forced square common-K fiber cannot be the ramified orbit of W=X^2. The two reciprocal ramified fibers contribute two distinct doubled star vertices, while the eight reduced stars over the remaining four common-K labels occupy at most six J_0 edges; their defect costs are at least two and two, contradicting the complete-source budget three. Hence every surviving source-line packet in this row has the unramified 4/3-dimensional coefficient cut. The row and biquadratic branch remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
    "title": "KoalaBear m2 universal source-row interpolation compiler",
    "status": "PROVED",
@@ -42968,6 +42987,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   }

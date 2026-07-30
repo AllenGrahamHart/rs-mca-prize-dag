@@ -11144,6 +11144,18 @@ exact exclusion of a common-`K` branch-value label, then (ii) apply the
 four-fiber identity and `45 x 12` interpolation gate to the `4/3`-parameter
 unramified forms.
 
+The first ramified escape is now gone. In the `(2,0,2)` source-line row,
+the two reciprocal ramified fibers would contribute two distinct doubled
+star vertices, costing two units of complete-source defect. The four
+remaining common-`K` labels are then unramified and contribute eight reduced
+stars on the six possible edges of `J_0`; balancing eight units over six
+vertices costs at least two more. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion` therefore
+gets defect at least four against the budget three. Every surviving
+source-line `(2,0,2)` packet lies in the `4/3`-dimensional unramified
+coefficient locus. The biquadratic source-cover branch and the ramified
+possibility in `(1,1,2)` are not affected.
+
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
 `03deba0082443172e4eaeec928ede14420cb7e8a`, note/verifier/certificate
 blobs `c89716bf63bf5bb7575b9aa72a3b5e653879080b`,

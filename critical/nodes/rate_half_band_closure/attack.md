@@ -1282,6 +1282,18 @@ remain. Thus the earlier blanket minor argument is invalid at ramification.
 Attack that weaker branch first, then insert the `4/3` parametrization and
 the four-fiber fourth-power identity into the source interpolation gate.
 
+For `(a,b,c)=(2,0,2)`, that ramified branch is now deleted. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion` combines the
+square fiber with the complete-source defect budget. The two reciprocal
+branch fibers are distinct doubled star vertices and cost defect two. The
+other four common-`K` fibers are unramified and supply eight reduced
+`J_0-J_0` stars on at most six edges, whose balanced defect floor is two.
+The resulting defect at least four contradicts the budget three. Therefore
+the source-line `(2,0,2)` row is unconditionally in the `4/3`-dimensional
+unramified locus. This does not apply to the source-cover branch or delete
+the row; the next source-line step is the reciprocal occupancy and
+four-fiber interpolation calculation.
+
 The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
 the smaller shared actual-component gate. For twelve projective source-row
 quartics `q_i`, stack a `9 x 12` degree-two evaluation parity check across
