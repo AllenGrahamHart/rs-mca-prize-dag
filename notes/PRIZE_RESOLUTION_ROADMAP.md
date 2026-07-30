@@ -11271,11 +11271,11 @@ no coefficient parameter left. The route-deciding calculation is now to
 evaluate `(KBQ2-2)` and the remaining source rows on those forms.
 
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
-`b19ae81742844071adcc1b6d7344b2f13d481775`, note/verifier/certificate
-blobs `7d06a35d087f3422c235bc27e4d280866e16fb85`,
-`97efe5ba9ccdbf74818c6d983dc52d3067087f3b`, and
-`6d6b96dceaed853660fa4d1c64717aa2606a32ee`, with canonical payload
-`fea1c3f3f414067746329ef0ab65882c826e2f1cc34cf756433b0d549ed9fedb`.
+`cbb3aa26cbbd34dbacd284424a16f29518d7d242`, note/verifier/certificate
+blobs `88a0bd2a19913fdf689968d38628ded7c7645aed`,
+`e0fe717b09701c6ec66674df37456ff8a9888a0d`, and
+`668246f6f97196848179d38f70136eceb37a43d1`, with canonical payload
+`b290c08228370fad83a8f91ae47684e6a1f53a49104b545135f526075173c472`.
 Its verifier classifies all `10,395` fixed-point-free matchings, including
 the `120/600` maximally mixed split and all three near-aligned `c=2`
 matching classes, checks the exact ramified/unramified source-line ranks,
@@ -11283,16 +11283,17 @@ minor signs, the ramified and full `(2,0,2)` defect exclusions, and the
 saturated `(1,1,2)` classifier, checks `2700/900` aligned/near quotient
 rows, checks the `12` admissible internal edge pairs and exact odd-part
 incidence map, verifies the ramified `(2,2)` order allocation and repaired
-`4/3` dimensions, and rejects `106` of `106` hostile mutations. The latest
-extension report is `przchojecki/rs-mca#1132` comment `5131513706`.
+`4/3` dimensions, checks the `2,2,2,2,4` finite reconstruction and maximum
+eight source-deck pairs, and rejects `114` of `114` hostile mutations. The
+latest extension report is `przchojecki/rs-mca#1132` comment `5131648473`.
 
 ### Work-cycle burn-down: diagonal c2 square fibers
 
 ```text
 starting local pin:       670c3dc5 (pre-c2 capacity refinement)
-ending local theorem pin: a3054003fe8080940443d641fbefc4aa1fe89c66
+ending local theorem pin: 80045e37cfee303187e1ce8fc6639f4311350c24
 canonical prize pin:      11cea27b (unchanged)
-ending upstream pin:      b19ae81742844071adcc1b6d7344b2f13d481775
+ending upstream pin:      cbb3aa26cbbd34dbacd284424a16f29518d7d242
 node attacked:            rate_half_band_closure via diagonal c=2
 result:                   NARROWED + EXPORTED
 DAG delta:                +8 PROVED nodes, +25 edges; target status unchanged
