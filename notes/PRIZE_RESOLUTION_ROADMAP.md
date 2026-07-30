@@ -10695,3 +10695,44 @@ live compute requests:               none
 next route-deciding action:          prove universal gain-graph nonflatness,
                                      falling back to full stacked rank over K
 ```
+
+## 2026-07-29 KoalaBear full-V4 source-facet close
+
+The gain-flatness action above is superseded for the full-V4 type by a
+stronger source-facet contradiction.
+
+The pinned equality-wall theorem at upstream commit
+`44542e91e459364a521870ed2ebde7f6fe5055bf`, theorem blob
+`356ff4b47d0bb429d11ea10382762a6e95b5ce24`, proves that the graph-free
+`Q=6,s=6` packet has a six-set `I` and a five-set `K subset I` such that
+the horizontal root set of the whole outgoing factor above every point over
+`k in K` is exactly `I^c`. This narrow consequence is banked as the PROVED
+`rate_half_kb_q6_s6_common_five_outgoing_fiber_pin`.
+
+For the residual `n=3` full-V4 component, the exact source-star graph is
+`K_(2,2,2) disjoint_union K_(2,2,2)`. The two stars over the complete
+coordinate fiber of `k` jointly have endpoint set `N_G(k)`. Component
+divisibility and the source-facet identity force `N_G(k) subset I^c` for
+all five `k in K`, making `K` independent. This contradicts
+`alpha(G)=4` and proves
+`rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion`.
+
+Together with the prior `n=2,5,6` exclusions, the exhaustive outer-degree
+split now proves
+`rate_half_kb_m2_r2_dihedral_full_v4_exclusion`: the actual
+`(m,r,delta)=(2,2,4)` type is empty.
+
+Burn-down:
+
+```text
+result:                              FULL-V4 TYPE CLOSED
+critical status delta:               none
+m=2 stabilizer types:                3 -> 2
+deleted type:                        (r,delta)=(2,4)
+remaining types:                     (r,delta)=(4,2),(8,1)
+owner/payment delta:                 none
+new assumptions:                     none
+field computation:                   none
+retained audit compiler:             endpoint cofactor/gain flatness
+next route-deciding action:          classify the order-two stabilizer type
+```

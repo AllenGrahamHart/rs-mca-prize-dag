@@ -18723,9 +18723,9 @@
     "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/result.md",
     "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/frontier.md",
     "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/verify.py",
-   "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/verify_audit.py"
-  ]
- },
+    "background/nodes/rate_half_kb_m10_scott_strip_lower_degree_router/verify_audit.py"
+   ]
+  },
   {
    "id": "rate_half_kb_m6_scott_cartesian_degree2_router",
    "title": "KoalaBear m6 Scott-Cartesian degree-two router",
@@ -18742,9 +18742,9 @@
     "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/result.md",
     "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/frontier.md",
     "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/verify.py",
-   "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/verify_audit.py"
-  ]
- },
+    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/verify_audit.py"
+   ]
+  },
   {
    "id": "rate_half_kb_m4_outer_a6s6_route_cut",
    "title": "KoalaBear m4 outer A6/S6 route cut",
@@ -19124,6 +19124,63 @@
     "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/frontier.md",
     "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/verify.py",
     "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_q6_s6_common_five_outgoing_fiber_pin",
+   "title": "KoalaBear Q6 s6 common-five outgoing-fiber pin",
+   "status": "PROVED",
+   "closure": "pinned source-facet vertical-divisor formulas and exact six-label horizontal fibers",
+   "statement": "In every actual graph-free Q=6,s=6 equality-wall source packet, there is a six-label invariant-coordinate set I and a five-label set K contained in I such that, above either point of every source fiber indexed by k in K, the horizontal roots of the whole outgoing factor are exactly the six labels outside I. Every outgoing irreducible component has its horizontal roots there contained in I^c. This is a source-fiber identity, not a component deletion or owner payment.",
+   "refs": [
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/statement.md",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/proof.md",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/claim_contract.md",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/source_evidence.md",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/dependency_subdag.md",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/audit.md",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/result.md",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/frontier.md",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/verify.py",
+    "background/nodes/rate_half_kb_q6_s6_common_five_outgoing_fiber_pin/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion",
+   "title": "KoalaBear m2 r2 degree-three source-facet exclusion",
+   "status": "PROVED",
+   "closure": "common-five source-facet identity plus the exact cubic source-star independence number",
+   "statement": "In the residual full-V4 n=3 profile, the source-star graph is two disjoint K_(2,2,2) graphs, and the two stars above the complete coordinate fiber indexed by a label k have endpoint union N_G(k). The common-five source-facet theorem supplies K subset I with |K|=5 and forces N_G(k) subset I^c for every k in K, so K is independent. But the graph has independence number 2+2=4. Hence the actual n=3 component is impossible.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r2_dihedral_full_v4_exclusion",
+   "title": "KoalaBear m2 r2 full-V4 exclusion",
+   "status": "PROVED",
+   "closure": "exhaustive dihedral factor-degree split and four proved degree exclusions",
+   "statement": "Every actual full-V4 (m,r,delta)=(2,2,4) component has Dickson/Chebyshev outer factor degree n in {2,3,5,6}. The degree-two source-star, degree-three source-facet, degree-five source-star, and degree-six common-pole theorems exclude all four values. Therefore this full-V4 component type is empty. The order-two and trivial stabilizer types (r,delta)=(4,2),(8,1) remain open; no owner, row, or Prize result is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/verify_audit.py"
    ]
   },
   {
@@ -37460,6 +37517,51 @@
   },
   {
    "from": "rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_q6_s6_common_five_outgoing_fiber_pin",
+   "to": "rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity",
+   "to": "rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_outer_factor_reduction",
+   "to": "rate_half_kb_m2_r2_dihedral_full_v4_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion",
+   "to": "rate_half_kb_m2_r2_dihedral_full_v4_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion",
+   "to": "rate_half_kb_m2_r2_dihedral_full_v4_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
+   "to": "rate_half_kb_m2_r2_dihedral_full_v4_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion",
+   "to": "rate_half_kb_m2_r2_dihedral_full_v4_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r2_dihedral_full_v4_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
