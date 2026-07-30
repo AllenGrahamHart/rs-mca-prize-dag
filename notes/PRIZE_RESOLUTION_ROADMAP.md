@@ -6566,6 +6566,14 @@ divisor deletes one of the two residual dihedral profiles.
 
 ```text
 new node: rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion [PROVED]
+upstream custody:
+  PR #1132 head: 5bcb2b2bd0158912cb7319ef386ca2523db5436d
+  note/verifier/certificate blobs:
+    d7a3183be7e0524b5bf6174f4c9fb6ff2b57f30f
+    ef144522020aa9f4ffdf5da08af7fbf77b002aeb
+    b6c821cdf89c0e82461ff53216e7a83ac8087ff5
+  certificate payload:
+    224fbbaf75c0aa830c7fab8e6024a51d3454d7ce3a6260184041983806f1e3fd
 input:
   n=6, so all six poles are one generic fiber of each Dickson-six quotient
   source-cover branch pair ell^-1({2,b})=roots(z^2-b*d*z+b^2-1), d^2=3
