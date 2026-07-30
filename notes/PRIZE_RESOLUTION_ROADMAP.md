@@ -6325,6 +6325,36 @@ next action:
 compute spend: exact degree-four weight arithmetic only; no Modal
 ```
 
+**Same-day degree-two dihedral source-star exclusion:** regular V4 coset
+incidence forces more repeated source-star mass than the quartic budget.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion [PROVED]
+input: n=2 inside the full-V4 (m,r,delta)=(2,2,4) row
+one generic G-pole:
+  q_u fiber has Y-values y_0,y_1
+  q_v fiber has Z-values z_0,z_1
+  regular D_2=V4 incidence is K_(2,2)
+source cross-edge lemma:
+  each z has two unramified endpoint lifts w
+  each D_w=psi^*[w] is reduced of degree two
+  the diagonal lift forces one H-root over each y-value on each source sheet
+weight consequence:
+  2 Z-values * 2 endpoint lifts * 2 source units = 8 units
+  only 2*2=4 cross star vertices are available
+  min sum_v binom(w_v,2)=4, attained only at (2,2,2,2)
+  complete-source defect budget is 3
+result: n=2 is empty; surviving full-V4 factor degrees are {3,6}
+DAG delta: one PROVED subcase exclusion; critical target unchanged
+ledger movement: zero
+nonclaims: no n=3,6 deletion, other m2 type, owner, charge, u2,
+           endpoint, adjacent certificate, KoalaBear row, or MCA close
+next action:
+  analyze orientation compatibility around the n=3 and n=6 incidence
+  cycles; the four-vertex pigeonhole no longer applies
+compute spend: exact four-point coset and integer defect arithmetic; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

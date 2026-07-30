@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/verify.py",
-      "seconds": 0.019763,
+      "script": "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/verify.py",
+      "seconds": 0.019098,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_R2_DIHEDRAL_DEGREE5_SOURCE_STAR_EXCLUSION_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M2_R2_DIHEDRAL_DEGREE2_SOURCE_STAR_EXCLUSION_PASS\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/verify_audit.py",
-      "seconds": 0.013851,
+      "script": "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/verify_audit.py",
+      "seconds": 0.011742,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_R2_DIHEDRAL_DEGREE5_SOURCE_STAR_EXCLUSION_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M2_R2_DIHEDRAL_DEGREE2_SOURCE_STAR_EXCLUSION_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

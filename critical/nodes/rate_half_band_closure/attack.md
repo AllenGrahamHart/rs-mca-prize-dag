@@ -299,8 +299,17 @@ source pullback identity gives two degree-two source-parameter divisors over
 the corresponding endpoint source pair, and every one of their four units
 lands on the same matching source-star vertex. This contradicts the proved
 maximum star weight three. The full-V4 row is therefore reduced to
-`n=2,3,6`; all three generic-pole profiles remain open and no owner charge
-moves.
+`n=2,3,6`. This child alone does not constrain their generic-pole incidence.
+
+The PROVED
+`rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion` deletes `n=2`.
+At one generic pole of `G`, regular `D_2=V4` incidence is `K_(2,2)`: both
+`Z` values see the same two `Y` values. The normalized source map and
+diagonal lift force each source sheet to choose a cross edge between their
+two endpoint source pairs. The two `Z` values therefore contribute eight
+units to four possible star vertices. Their minimum defect is four, above
+the global budget three. The full-V4 factor frontier is now `n=3,6`; both
+remain open and no owner charge moves.
 
 ## Banked range
 
