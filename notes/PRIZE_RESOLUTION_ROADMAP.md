@@ -11502,11 +11502,22 @@ factors gives degree-96 and degree-186 certificates with squarefree gcd
 ```
 
 The independent fraction-free audit projects in the opposite variable and
-gets `(c-2)(c-1)(2c-1)`. Both paths replay modulo `p=2130706433`. This closes
-exactly 3 of the 18 affine positive charts. The other relative `xi` orbits,
+gets `(c-2)(c-1)(2c-1)`. Both paths replay modulo `p=2130706433`.
+
+The same exact route closes the mixed allocation in the reciprocal relative
+orbit `xi=tau(a)`. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion`
+replaces the target roots `1/2,1/d` by `2,1/d`. The four quadratic cores keep
+the same degrees, the within-fiber residual curve remains bidegree `(8,6)`,
+and the product/sum projections again have degrees 96 and 186. Their direct
+and opposite squarefree gcds are the same forbidden supports as above, in
+characteristic zero and modulo `p=2130706433`.
+
+This closes exactly 4 of the 18 affine positive charts. The two square
+allocations in the reciprocal-`xi` orbit, the other reciprocal-pair orbit,
 the moving-moving template, both negative factor loci, and the projective
 `w=0` boundary remain open; do not infer a near-aligned deletion from these
-three closed charts.
+four closed charts.
 
 There is a cheaper common gate before those allocation splits. Write
 

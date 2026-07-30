@@ -1481,7 +1481,7 @@ Thus no aligned negative candidate passes `(KBQS-1)`. The aligned source-line
 attack retains only the positive sign. Both signs remain in the near-aligned
 branch because its target is `tau^*chi_Omega`, not `tau^*q`.
 
-Three deployed-field near-aligned positive charts are now deleted. The PROVED
+Four deployed-field near-aligned positive charts are now deleted. The PROVED
 `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion`
 normalizes `a=xi=2`, takes the fixed-moving template with `eta=c`, and assigns
 the two residual squares to `1/2` over `c` and `1/d` over `d`. All four
@@ -1497,9 +1497,14 @@ assigns both distinct target roots to both residuals. After explicit
 collision and boundary factors are removed, degree-96 and degree-186
 projection certificates have only forbidden common support. A fraction-free
 audit proves the opposite projection and both paths replay modulo the
-KoalaBear characteristic. These results delete 3 of the 18 affine positive
-charts; the other relative `xi` orbits, moving-moving template, negative
-loci, and `w=0` boundary remain.
+KoalaBear characteristic. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion`
+repeats the mixed allocation for `xi=tau(a)`, where the target root is `2`.
+Its direct and fraction-free opposite projections again have only forbidden
+common support, including modulo the deployed characteristic. These results
+delete 4 of the 18 affine positive charts; the two square allocations in the
+reciprocal-`xi` orbit, the other reciprocal-pair orbit, moving-moving
+template, negative loci, and `w=0` boundary remain.
 
 The aligned positive sign has also resisted a broader exact falsifier sweep.
 The seeded standard-library replay

@@ -19272,6 +19272,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive reciprocal-xi mixed exclusion",
+   "status": "PROVED",
+   "closure": "the deployed-field positive near-aligned fixed-moving xi=tau(a) mixed residual-allocation chart is empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize the positive near-aligned fixed-moving chart by a=2, xi=1/2, eta=c, ell=d and w=1/c, and require both residual quadratics to be proportional to (W-2)(W-1/d). After explicit forbidden factors are removed, the within-fiber resultants share one bidegree-(8,6) curve. Projecting its intersections with the two cross-product and three cross-sum factors gives degree-96 and degree-186 univariate certificates whose squarefree gcd is (d-2)(d-1)(2d-1). An independent fraction-free opposite projection gives (c-2)(c-1)(2c-1). Both identities persist modulo p=2130706433, so this necessary q-slice chart is empty; the other fourteen affine positive charts, projective boundary, and negative loci remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
    "title": "KoalaBear m2 universal source-row interpolation compiler",
    "status": "PROVED",
@@ -43422,6 +43441,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   }
