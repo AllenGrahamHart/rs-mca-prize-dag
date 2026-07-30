@@ -11330,6 +11330,38 @@ do not repeat that SymPy expression route. An external implementation should
 use rational-function domains or modular interpolation and emit the constant
 mismatch before any full resultant.
 
+The reduced exact slice route is successful. At `(c,d)=(3,7)` and `(4,6)`,
+the fixed-moving full q-slice ideal is zero-dimensional and its lex
+eliminant is exactly supported on `w=+/-1`. For moving-moving, use the
+invariant `s=b+1/b`; both slice eliminants add two rational `w` roots, but
+their reconstructed traces are exactly `s=+2,-2`, so `b=+/-1`. Every slice
+survivor is therefore inadmissible. The direct moving `(b,w)` Groebner step
+timed out at `60 s`, while invariant reduction finishes in under sixteen
+seconds. These are exact slices, not a generic certificate.
+
+### Compute request CR-KB-C2-112-POS-QS-SAT
+
+Prove the parametric saturation suggested by those slices without expanding
+the full quotient resultants. Normalize the common endpoint to `2`, keep
+`c,d` symbolic, and form the four aligned positive q-slice mismatch
+coefficients after exact reconstruction.
+
+1. In the fixed-moving template, saturate by every printed reconstruction
+   denominator and label-collision factor and certify that the residual ideal
+   forces `w^2-1=0`.
+2. In the moving-moving template, first rewrite every reciprocal numerator in
+   `s=b+1/b`; certify that the saturated residual ideal forces
+   `(w^2-1)(s^2-4)=0`.
+3. Return a compact Bezout, subresultant, or modular-interpolation certificate
+   with degree bounds and an independent exact checker. Do not use a generic
+   four-variable SymPy `cancel` tree; that local representation exceeded the
+   RAMguard ceiling.
+
+Either certificate deletes the aligned positive sign by fixed-point-free
+labels and, together with the aligned negative theorem, removes the whole
+aligned source-line branch. A surviving admissible component instead proceeds
+to the two full quotient identities.
+
 ### Compute request CR-KB-C2-112-QR-ELIM
 
 This is the deferred exact-CAS version of that calculation; no run is

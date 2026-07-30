@@ -1489,6 +1489,19 @@ assignments on twenty fixtures at each of five primes. It reconstructs
 collisions, and finds zero `(KBQS-1)` survivors. This is evidence only: no
 generic positive deletion or exceptional-locus classification is claimed.
 
+Two exact characteristic-zero slices expose the likely generic positive
+certificate. The bounded script
+`notes/kb_c2_112_positive_qslice_constant_slice.py` computes the full monic
+q-slice mismatch at `(c,d)=(3,7)` and `(4,6)`. In the fixed-moving template,
+the zero-dimensional lex eliminant is supported exactly on
+`(w-1)^5(w+1)^2`. In the moving-moving template, first pass to the invariant
+`s=b+1/b`; the two eliminants have the same fixed-point factors plus two
+linear factors, and those extra roots reconstruct with `s=+2,-2`. Thus every
+slice survivor has `w=+/-1` or `b=+/-1` and is inadmissible. The raw moving
+Groebner calculation timed out at `60 s`; the invariant-coordinate version
+finishes in under sixteen seconds. This is two-slice evidence, not a generic
+deletion.
+
 The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
 the smaller shared actual-component gate. For twelve projective source-row
 quartics `q_i`, stack a `9 x 12` degree-two evaluation parity check across
