@@ -10796,3 +10796,10 @@ Upstream custody: draft PR `przchojecki/rs-mca#1132`, commit
 `96c47c813c41f4b268b9826ed4866e14d44c5a8187487266a3de6f550cbbf6b6`.
 The packet combines the coordinate and diagonal interfaces and rejects
 17 of 17 hostile mutations.
+
+The complete facet/defect-only diagonal classifier is registered as
+`CR-K3-M2-R4-DIAGONAL-FACET-SAT`. It requires a canonical completeness
+router and proof-producing UNSAT certificates across both `I/L` cases,
+all four pole-cycle types, ramification, and every endpoint involution.
+The partial aligned `4+2` pilot is evidence only and causes no DAG move.
+Do not spend additional laptop or Modal budget on unlabeled search shards.

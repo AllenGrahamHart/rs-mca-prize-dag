@@ -10334,3 +10334,91 @@ Semantics:
 - `FAIL`: an exact principal generator for `p_66`;
 - `INCOMPLETE`: timeout, GRH-only output, unresolved principality, or one
   implementation only; evidence with no DAG status change.
+
+## CR-K3-M2-R4-DIAGONAL-FACET-SAT: order-two whole-fiber defect classifier
+
+**Status:** REQUEST DESIGN; not authorized for local or Modal execution
+until the completeness router and proof-producing backend below exist.
+This is a contributor request for the `K3` exact second-moment/source-facet
+frontier, not a paid local fleet.
+
+### Mathematical decision
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler` gives
+the correct necessary symmetry for the diagonal stabilizer
+`<tau x tau>`. For each quotient source label `p`, the two quadratic
+component stars form a quartic divisor `R_p` and
+
+```text
+[R_bar(p)]=[tau^*R_p].
+```
+
+The automorphism need not preserve the source `X`-line. Therefore the
+four root incidences over one complete `psi` fiber are transported as a
+multiset and may be repartitioned into the two destination stars.
+Individual-star transport is forbidden in this request.
+
+Decide whether there exists any abstract packet satisfying all of:
+
+1. the two source-label cases from Corollary 9.25,
+   `L=I` or `|L intersect I|=5`, with
+   `K subset I intersect L` and `|K|=5`;
+2. one of the four complete two-regular pole-graph cycle types
+   `6`, `4+2`, `3+3`, `2+2+2`, including every labeled
+   diagonal-free graph and every canonical facet bijection
+   `I -> L^c` up to a proved relabeling action;
+3. one two-subset component star in each of the 24 divisor slots, with
+   repeated slots allowed exactly as required by ramified degree-two
+   fibers;
+4. the `K`, `eta in L minus K`, and paired one-exchange facet
+   containments of Corollary 9.27;
+5. source degree four at every one of the twelve labels;
+6. exactly four component-colored pole edges;
+7. complete-source defect at most three; and
+8. one fixed-point-free endpoint involution `bar` such that the
+   four-incidence multiset over `bar(p)` is the `bar`-image of the
+   multiset over `p`.
+
+### Proof-producing output
+
+A positive result must emit one canonical JSON survivor containing
+`I,L,K`, the facet bijection, pole graph, endpoint involution, all 24
+stars with divisor-slot multiplicities, color assignment, degree vector,
+defect, and the twelve whole-fiber transport checks. The independent
+checker must reconstruct every item from the raw records.
+
+A negative result must emit an independently checkable UNSAT certificate
+for every canonical stratum. Preferred formats are DRAT/LRAT with a pinned
+SAT encoder and a second checker, or a smaller exact case certificate whose
+completeness proof is readable without trusting the enumerator. A no-hit
+search, optimizer lower bound without a proof object, or one labeled graph
+does not promote a node.
+
+If every stratum is UNSAT, the diagonal order-two orientation is deleted
+before the `35 x 12` interpolation gate. If a survivor exists, it becomes
+the sole input to that exact matrix gate and prevents further
+facet/defect-only work.
+
+### Pilot and resource law
+
+A RAMguard pilot on 2026-07-30 fixed the aligned `L=I` case and one
+`4+2` pole graph. An exact suffix-pruned check found no defect-at-most-three
+survivor among the first 3,000 of 10,395 endpoint involutions before the
+30-second hard stop. One isolated feasible involution was proved by complete
+local enumeration to have minimum defect six. These are route-selection
+observations only: the remaining involutions, other labeled graphs,
+misaligned case, and other cycle types were not checked.
+
+Do not resume this as repeated laptop shards. Before external launch:
+
+1. prove the canonical-orbit router covers all labeled `I,L,K`, facet,
+   graph, ramification, and involution data;
+2. make the encoder resumable per canonical stratum;
+3. cap each worker at one CPU and 512 MiB;
+4. measure one complete stratum and publish the projected aggregate cost;
+5. require compact proof artifacts and deterministic independent replay.
+
+The expected computation is finite and small-memory, but no dollar estimate
+is accepted until the canonical router and one proof-producing pilot are
+measured. Large raw enumeration without certificates is out of scope.
