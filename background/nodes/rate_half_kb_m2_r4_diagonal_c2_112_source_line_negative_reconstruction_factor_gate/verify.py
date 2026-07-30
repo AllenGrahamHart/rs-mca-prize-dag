@@ -52,7 +52,7 @@ def evaluation(point):
     ]
 
 
-def augmented_determinant(template, b, c, d, w):
+def incidence_label(c, d, w):
     a = F(2)
     q0, q1 = c * d, -(c + d)
     f = q0 + w
@@ -61,7 +61,16 @@ def augmented_determinant(template, b, c, d, w):
     numerator = f + m * a - g * a * a
     denominator = g - m * a - f * a * a
     require(denominator, "incidence denominator")
-    z = -numerator / denominator
+    return -numerator / denominator
+
+
+def augmented_determinant(template, b, c, d, w):
+    a = F(2)
+    q0, q1 = c * d, -(c + d)
+    f = q0 + w
+    g = -1 - w * q0
+    m = q1 * (1 + w)
+    z = incidence_label(c, d, w)
     vz = [f + g * z, m * (1 - z), -(g + f * z)]
     l1 = vz[2]
     l0 = vz[1] + a * l1
@@ -104,7 +113,7 @@ def printed_factor(template, b, c, d, w):
 def main() -> None:
     statement = (NODE / "statement.md").read_text()
     require("- **status:** PROVED" in statement, "status")
-    require("F: A B=0" in statement and "M: A B C=0" in statement,
+    require("F: B=0" in statement and "M: B C=0" in statement,
             "survivor loci")
 
     dag = json.loads((ROOT / "dag.json").read_text())
@@ -126,20 +135,28 @@ def main() -> None:
             require(observed, f"{template} generic nonzero fixture")
             checked += 1
 
-    # Each retained factor locus has a noncollision rational witness.
+    # The apparent A locus is inadmissible; B and C have noncollision witnesses.
     a_locus = (F(5), F(3), F(7, 11), F(7))
     b_locus = (F(-17), F(3), F(7), F(5))
     c_locus = (F(-1, 17), F(3), F(7), F(5))
     require(augmented_determinant("fixed-moving", *a_locus) == 0,
-            "A locus retained")
+            "A determinant locus")
+    require(incidence_label(*a_locus[1:]) == -1,
+            "A locus excluded by fixed internal label")
     require(augmented_determinant("fixed-moving", *b_locus) == 0,
             "B locus retained")
     require(augmented_determinant("moving-moving", *c_locus) == 0,
             "C locus retained")
+    for name, fixture in (("B", b_locus), ("C", c_locus)):
+        b, c, d, w = fixture
+        z = incidence_label(c, d, w)
+        labels = (F(2), F(1, 2), b, 1 / b, c, 1 / c,
+                  d, 1 / d, w, 1 / w, z, 1 / z)
+        require(len(set(labels)) == 12, f"{name} witness distinctness")
 
     print(
         "RATE_HALF_KB_M2_R4_DIAGONAL_C2_112_SOURCE_LINE_NEGATIVE_RECONSTRUCTION_FACTOR_GATE_PASS "
-        f"factor_fixtures={checked} templates=8+4 survivor_factors=AB/ABC"
+        f"factor_fixtures={checked} templates=8+4 survivor_factors=B/BC"
     )
 
 

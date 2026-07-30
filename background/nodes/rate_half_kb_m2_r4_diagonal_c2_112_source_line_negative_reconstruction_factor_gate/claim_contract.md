@@ -5,8 +5,8 @@
   saturated source-line packet.
 - **Output:** one of two normalized templates and its exact augmented
   determinant factorization.
-- **Deletion interface:** reject template `F` when `AB!=0`, and template
-  `M` when `ABC!=0`.
-- **Non-output:** no nonvanishing theorem for `A,B,C`, positive-sign
+- **Deletion interface:** reject template `F` when `B!=0`, and template
+  `M` when `BC!=0`.
+- **Non-output:** no nonvanishing theorem for `B,C`, positive-sign
   deletion, quotient sufficiency, realization, owner, payment, row, or Prize
   close.

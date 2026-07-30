@@ -1440,19 +1440,26 @@ J_0={2,1/2,b,1/b},       q=(T-c)(T-d).
 The PROVED
 `rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate`
 classifies the twelve negative assignments as eight fixed-moving and four
-moving-moving templates. After removing only proved nonzero collision and
-incidence-denominator factors, their augmented determinants vanish exactly
-on
+moving-moving templates. Their augmented determinants factor as `A^2 B` and
+`A B C`. The same incidence formula gives
 
 ```text
-fixed-moving:  A B=0,
-moving-moving: A B C=0,
+z+1=(1+w)A/E.
 ```
 
-for the three explicit low-degree factors `(KBNF-2)`. Thus generic negative
-assignments are already deleted. Apply the q-slice only to those three
-exceptional factor loci; positive candidates remain a separate direct
-q-slice calculation.
+Here `E!=0`, while the fixed-point-free internal orbit and source label give
+`z!=-1` and `w!=-1`; hence `A!=0`. After removing only proved nonzero
+collision and incidence factors, the determinants vanish exactly on
+
+```text
+fixed-moving:  B=0,
+moving-moving: B C=0,
+```
+
+for the explicit low-degree factors `(KBNF-2)`. Thus the apparent `A=0`
+locus is inadmissible and generic negative assignments are already deleted.
+Apply the q-slice only to the genuine `B=0` and `C=0` loci; positive
+candidates remain a separate direct q-slice calculation.
 
 The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
 the smaller shared actual-component gate. For twelve projective source-row

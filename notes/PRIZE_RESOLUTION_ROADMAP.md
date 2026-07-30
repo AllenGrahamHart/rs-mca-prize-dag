@@ -11298,11 +11298,12 @@ J_0={2,1/2,b,1/b},       q=(T-c)(T-d)
 
 and classifies the twelve internal assignments as `8` fixed-moving plus `4`
 moving-moving templates. Their negative image-plane determinants factor as
-a proved nonzero prefactor times `A^2 B` and `A B C`, respectively, for the
-three explicit low-degree polynomials `(KBNF-2)`. Negative candidates off
-`AB=0` or `ABC=0` are deleted. The next aligned calculation should therefore
-substitute the `A/B/C` loci before `(KBQS-1)`; positive candidates go
-directly to `(KBQS-1)`.
+a proved nonzero prefactor times `A^2 B` and `A B C`, respectively. The exact
+incidence identity `z+1=(1+w)A/E`, together with `E!=0`, `w!=-1`, and
+`z!=-1`, excludes the apparent `A=0` locus. Negative candidates therefore
+exist only on `B=0`, or additionally `C=0` in the moving-moving template.
+The next aligned calculation should substitute those two genuine loci
+before `(KBQS-1)`; positive candidates go directly to `(KBQS-1)`.
 
 ### Compute request CR-KB-C2-112-QR-ELIM
 
@@ -11371,5 +11372,5 @@ delta-star movement:      none
 new assumptions:          none; (1,1,2) ramified and biquadratic survivors retained
 live compute requests:    CR-KB-C2-112-QR-ELIM (external/deferred; 40 shards)
 next route-deciding step: factor the q-slice mismatch on positive forms and
-                          the retained negative A/B/C loci
+                          the retained negative B/C loci
 ```

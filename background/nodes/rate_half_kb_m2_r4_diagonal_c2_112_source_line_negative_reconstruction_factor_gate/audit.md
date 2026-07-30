@@ -6,7 +6,7 @@
    assumption.
 3. `cd-1!=0` uses `tau(J_1) subset I`, not an imported coordinate-branch
    invariance statement.
-4. Vanishing of `A`, `B`, or `C` is retained. None is divided out or called
-   degenerate without a separate proof.
+4. `A` is removed only through the exact identity
+   `z+1=(1+w)A/E`; `B` and `C` are retained without genericity assumptions.
 5. The factor theorem concerns only the negative reconstruction plane. It
    does not test `(KBQS-1)` or either full quotient identity.

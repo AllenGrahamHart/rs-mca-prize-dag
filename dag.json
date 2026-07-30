@@ -19168,8 +19168,8 @@
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
    "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) negative reconstruction factor gate",
    "status": "PROVED",
-   "closure": "two normalized negative reconstruction templates with exact AB and ABC exceptional factor loci",
-   "statement": "For every saturated source-line diagonal (1,1,2) packet, the twelve compatible negative internal-edge assignments form eight fixed-moving and four moving-moving templates. After normalizing the common endpoint to 2, their augmented reconstruction determinants factor exactly as a proved nonzero prefactor times A^2 B and A B C, respectively. Thus negative candidates exist only on AB=0 or ABC=0; those exceptional loci remain for the q-slice and full quotient gates.",
+   "closure": "two normalized negative reconstruction templates with exact B and BC exceptional factor loci",
+   "statement": "For every saturated source-line diagonal (1,1,2) packet, the twelve compatible negative internal-edge assignments form eight fixed-moving and four moving-moving templates. After normalizing the common endpoint to 2, their augmented reconstruction determinants factor exactly as a proved nonzero prefactor times A^2 B and A B C, respectively. The incidence identity z+1=(1+w)A/E and fixed-point-free label conditions force A nonzero. Thus negative candidates exist only on B=0, or additionally C=0 in the moving-moving template; those exceptional loci remain for the q-slice and full quotient gates.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/statement.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate/proof.md",

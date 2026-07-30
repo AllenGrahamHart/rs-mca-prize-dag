@@ -22,6 +22,15 @@ D_-(2)=-E.                                         (1)
 Thus `z=-N_-(2)/D_-(2)` has denominator `E`, which is nonzero by the
 odd-incidence theorem.
 
+Direct subtraction gives
+
+```text
+D_-(2)-N_-(2)=-(1+w)A.
+```
+
+Since `D_-(2)=-E`, this is `(KBNF-3)`. The labels `w` and `z` are not fixed
+by inversion, so `w!=-1` and `z!=-1`. Therefore `A!=0`.
+
 Use the negative reciprocal basis
 
 ```text
@@ -62,4 +71,5 @@ The roots `c,d` are disjoint from `{2,1/2}`, so the first four factors of
 template denominators express distinctness inside `J_0`, and `E!=0` by
 `(1)`. The reconstruction theorem gives rank four for the coefficient
 matrix, so augmented-determinant vanishing is necessary and sufficient.
-Removing the proved nonzero factors from `(4)` gives `(KBNF-4)`. QED.
+Removing the proved nonzero factors, including `A`, from `(4)` gives
+`(KBNF-5)`. QED.

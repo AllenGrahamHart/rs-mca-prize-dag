@@ -37,34 +37,42 @@ The incidence denominator gives `E!=0`. Label distinctness, absence of
 `tau`-fixed labels, and `tau(J_1) subset I` give `Pi!=0`, as well as
 `2b-1!=0` in template `F` and `(b-1)(b+1)!=0` in template `M`.
 
+The internal incidence label also satisfies
+
+```text
+z+1=(1+w)A/E.                                      (KBNF-3)
+```
+
+The internal orbit is fixed-point-free and `w!=-1`, so `A!=0`.
+
 For the negative reciprocal source space, append the target value
 `U(T,z)` from the two internal stars to the two forced-line equations. The
 resulting `5 x 5` augmented reconstruction determinant is exactly
 
 ```text
 Delta_F=-6 Pi A^2 B / ((2b-1)E^5),
-Delta_M= 6 Pi A B C / (((b-1)(b+1))E^5).          (KBNF-3)
+Delta_M= 6 Pi A B C / (((b-1)(b+1))E^5).          (KBNF-4)
 ```
 
 The coefficient matrix has rank four by internal-evaluation injectivity.
 Consequently a negative candidate exists exactly on
 
 ```text
-F: A B=0,
-M: A B C=0.                                       (KBNF-4)
+F: B=0,
+M: B C=0.                                         (KBNF-5)
 ```
 
 Off these printed hypersurfaces the negative sign is deleted before the
 `q`-slice or full quotient resultants. On them the unique reconstructed
 candidate must still pass those gates.
 
-This theorem does not assert that `A`, `B`, or `C` is always nonzero, or
-that a candidate on their union is realizable. It deletes no positive
+This theorem does not assert that `B` or `C` is always nonzero, or that a
+candidate on their union is realizable. It deletes no positive
 candidate, full packet, branch, `(1,1,2)` row, owner, payment, row, or Prize
 result.
 
 ## Falsifier
 
 A compatible negative assignment outside the two templates, failure of the
-determinant identities `(KBNF-3)`, or a negative reconstruction off the
-factor loci `(KBNF-4)`.
+determinant identities `(KBNF-4)`, or a negative reconstruction off the
+factor loci `(KBNF-5)`.

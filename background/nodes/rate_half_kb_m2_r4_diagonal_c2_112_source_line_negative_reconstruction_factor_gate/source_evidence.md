@@ -5,10 +5,12 @@
 - `critical/nodes/rate_half_band_closure/notes/kb_c2_112_aligned_symbolic.py`
   performs the bounded four-variable determinant expansion after the
   endpoint normalization `a=2`. Both templates finish in under three
-  seconds under the `tiny` RAMguard profile and reproduce `(KBNF-3)`.
+  seconds under the `tiny` RAMguard profile and reproduce `(KBNF-4)`.
 - `verify.py` independently evaluates the original augmented determinant
-  and printed rational factors on exact rational fixtures; `verify_audit.py`
-  independently classifies all twelve edge assignments as `8+4`.
+  and printed rational factors on exact rational fixtures, verifies that
+  `A=0` forces `z=-1`, and retains distinct-label witnesses on `B=0` and
+  `C=0`; `verify_audit.py` independently classifies all twelve edge
+  assignments as `8+4`.
 
 ## Upstream custody
 
@@ -23,6 +25,7 @@ certificate blob: f70c6c4e8861db9231459fb5e9576943730d564
 payload SHA-256:  a919a052d67da8a35bec299ffaa1b0f22974d0b543cf05cbcb09e5d504db450e
 ```
 
-The upstream standard-library replay checks four generic determinant
-fixtures, witnesses all three retained factor loci, and rejects `123` of
-`123` hostile mutations. The extension report is PR comment `5132157247`.
+The pinned upstream packet predates the `A=0` admissibility correction: its
+determinant identities remain valid, but its survivor report retains the
+spurious fixed-point locus. Corrected upstream custody is recorded after the
+replacement packet is pushed.
