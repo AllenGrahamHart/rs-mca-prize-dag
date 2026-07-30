@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/verify.py",
-      "seconds": 0.017825,
+      "script": "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/verify.py",
+      "seconds": 0.027281,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M3_PRIMITIVE_OUTER_DEGREE2_ROUTER_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M2_V4_OUTER_RECURRENCE_ROUTER_PASS\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/verify_audit.py",
-      "seconds": 0.042532,
+      "script": "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/verify_audit.py",
+      "seconds": 0.18424,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M3_PRIMITIVE_OUTER_DEGREE2_ROUTER_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M2_V4_OUTER_RECURRENCE_ROUTER_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

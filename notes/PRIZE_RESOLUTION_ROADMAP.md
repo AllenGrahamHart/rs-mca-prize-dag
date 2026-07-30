@@ -6156,6 +6156,49 @@ next action:
 compute spend: below one second under tiny RAMguard; no Modal
 ```
 
+**Same-day inner-degree-two V4 outer-recurrence router:** the three live
+types now have exact deck stabilizers and no primitive outer branch, while
+the actual coordinate-stabilized source rows acquire a stricter defect
+normal form.
+
+```text
+new node: rate_half_kb_m2_v4_outer_recurrence_router [PROVED]
+incoming types:
+  (r,delta)=(2,4),(4,2),(8,1)
+V4 stabilizer law:
+  delta=|Stab_V4(Gamma)|
+  (2,4): full V4
+  (4,2): one of three order-two subgroups
+  (8,1): trivial stabilizer
+complete primitive degree-30 catalogue:
+  PSL(2,29), PGL(2,29), A30, S30
+  all four subdegree rows are [1,29]
+outer consequence:
+  every outer map has a proper right factor d in {2,3,5,6,10,15}
+  endpoint destinations m'=4,6,10,12,20,30
+  every destination is impossible or recurrent to m=2
+source refinement when tau x 1 stabilizes Gamma:
+  preserving source lift is (T,X)->(tau(T),b(X))
+  q_i is supported away from both z_i and z_bar(i)
+  source-star weights are equivariant
+  the weight-three defect type is impossible
+  with d double vertices and e fixed matching vertices:
+    0<=e<=d<=3 and e=d mod 2
+classification custody:
+  GAP PrimGrp commit 5612e113d50ac23a7d10945383936e20440b4e14
+  PRIMGRP[30] exact bytes 344
+  SHA-256 1a923cc8f4428ec22864109cdc60d0c87326e8939cc1d72d217d22df2a4b8da0
+DAG delta: one PROVED router; critical target unchanged
+ledger movement: zero
+nonclaims: no m2 deletion, owner, carrier/data/slope bridge, u2, endpoint,
+           adjacent certificate, KoalaBear row, or MCA close
+next action:
+  write the actual source-coupled equations in the three stabilizer normal
+  forms and break the recurrent decomposition tower; do not count another
+  return to m2 as progress
+compute spend: below one second under RAMguard; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

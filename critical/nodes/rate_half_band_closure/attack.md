@@ -254,6 +254,21 @@ decomposition. An endpoint may still have an additional degree-three
 decomposition, but it is not independent. The live independent frontier is
 the three `m=2` types `(r,delta)=(2,4),(4,2),(8,1)`. No owner charge moves.
 
+The PROVED `rate_half_kb_m2_v4_outer_recurrence_router` now removes the
+primitive-outer ambiguity without pretending to close those three rows.
+For the quadratic deck group `V4`, the restriction degree `delta` is the
+setwise stabilizer order of the actual component. Thus the three types are
+respectively full-V4, order-two, and trivial-stabilizer cases. The complete
+primitive degree-30 catalogue has only subdegrees `1,29`, so every outer map
+decomposes; the complete proper-factor ledger either dies in a proved row or
+returns to `m=2`. In every case containing the first-coordinate deck
+involution, including all of `(2,4)`, the source lift is the diagonal
+endpoint/source-deck involution, paired source rows avoid both paired
+locators, and the weight-three source-star defect is impossible. The next
+attack must break this recurrent tower with the actual equivariant source
+equations or produce a same-record owner; another abstract decomposition
+cycle does not move the frontier. No owner charge moves.
+
 ## Banked range
 
 Put
