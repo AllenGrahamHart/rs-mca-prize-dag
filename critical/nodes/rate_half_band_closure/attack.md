@@ -1188,3 +1188,19 @@ a completely split cubic resolvent, equivalently `V4` Galois group under
 the actual irreducibility and separability hypotheses. These replace a
 generic `25`-coefficient endpoint search by two exact low-dimensional
 tests. Universal failure is not proved, and no owner charge moves.
+
+The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
+the smaller shared actual-component gate. For twelve projective source-row
+quartics `q_i`, stack a `9 x 12` degree-two evaluation parity check across
+their five coefficients. A full-support kernel of the resulting
+`45 x 12` matrix is equivalent to a unique bidegree-at-most-`(2,4)` source
+biform `H` with those row divisors. Every actual packet also satisfies
+
+```text
+product_i q_i ~ B^2,       Res_T(A,H) ~ B^2,
+```
+
+and in lifted diagonal coordinates the right side is `A(X^2)^2`. Apply
+this source gate before endpoint interpolation or resolvent work. Passing
+still requires exact degree, irreducibility, deck distinction, branch
+symmetry, and endpoint realization. No orientation or owner is closed.

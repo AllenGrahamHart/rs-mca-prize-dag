@@ -10850,3 +10850,22 @@ Next substitute the three exact source-facet classes into the reciprocal
 norm, and combine the split resolvent with the two low-genus passports.
 Clear denominators and preserve irreducibility and outer-factor side
 conditions. No computation or ledger payment was used.
+
+## 2026-07-30 KoalaBear source-row interpolation gate
+
+The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` is the
+shared first algebraic gate for all surviving order-two orientations.
+Twelve projective row quartics come from a unique
+bidegree-at-most-`(2,4)` source form exactly when a concrete `45 x 12`
+matrix has a full-support kernel. Complete-source saturation additionally
+gives
+
+```text
+product_i q_i ~ B^2,       Res_T(A,H) ~ B^2,
+```
+
+or `A(X^2)^2` in the lifted diagonal normal form. This is strictly earlier
+and smaller than reconstructing a generic endpoint biform. Route every
+coordinate or diagonal source-facet survivor through it first, then impose
+exact degree, irreducibility, deck distinction, reciprocal norm or split
+resolvent, and the outer factor identity. No compute spend was used.
