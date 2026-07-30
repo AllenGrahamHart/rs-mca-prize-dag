@@ -6330,6 +6330,14 @@ incidence forces more repeated source-star mass than the quartic budget.
 
 ```text
 new node: rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion [PROVED]
+upstream custody:
+  PR #1132 head: 36ed2ac28176fb583cbf15d16f8074b6e8a48de8
+  note/verifier/certificate blobs:
+    0850c2fc84a9c26bc09b8bdd32425caab0e85bf8
+    af95670ec46b4054335e09eee54b98e36eb73150
+    a6705b3507014434052c4c5e63209fae2d566038
+  certificate payload:
+    c3771a0386e955b87f6ec9f4256d9569fb5e9459036653f790691851be0f2a89
 input: n=2 inside the full-V4 (m,r,delta)=(2,2,4) row
 one generic G-pole:
   q_u fiber has Y-values y_0,y_1
