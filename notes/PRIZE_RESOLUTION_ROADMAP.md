@@ -6603,6 +6603,14 @@ profile survives every abstract geometric gate simultaneously.
 
 ```text
 new node: rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence [PROVED]
+upstream custody:
+  PR #1132 head: fce150e3323ce37f261b21c19685f4613552dd42
+  note/verifier/certificate blobs:
+    f989c078611e31965e49c84c16eebd8f5ee47de7
+    ea2650fb3fc0b33f2d191559476ec6f7fa9b3ac2
+    7adf13b9e343c51d96cdc7c8878cf5bba15c618c
+  certificate payload:
+    a7f42b038261ea137b2246987dcc398bdddbf807ede6ff46f70429d5a44b2be5
 special parameter: a=b=-1, d=-1, ell=identity, source genus zero
 explicit maps:
   D3(y)=y^3-3y
