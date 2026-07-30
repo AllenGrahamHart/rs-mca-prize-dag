@@ -1050,6 +1050,12 @@ the two component stars over that complete fiber with the four endpoints
 G=K_(2,2,2) disjoint_union K_(2,2,2).
 ```
 
+This identification does not set the relative endpoint twist to one.
+Before the facet constraint, the four endpoints are `U_k`, the complement
+of one deck pair `P_k` in the relevant six-label component. Since
+`k in I` and `U_k subset I^c`, one has `k notin U_k`; common-pole
+membership then forces `k in P_k`, and only then `U_k=N_G(k)`.
+
 Since the component divides `F_out`, `N_G(k) subset I^c` for every
 `k in K`. Thus `K` would be independent, but `alpha(G)=2+2=4`. The PROVED
 `rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion` therefore

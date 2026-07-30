@@ -6,5 +6,7 @@
   `rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity`.
 - Its proof reconstructs the regular `D_3` quotient incidence and the
   two cross-edge orientations over every complete coordinate fiber.
+- The omitted-pair argument retains the relative second-endpoint projective
+  twist; no coordinate alignment is imported.
 - The contradiction is local and combinatorial; it uses no computation or
   unproved carrier identification.

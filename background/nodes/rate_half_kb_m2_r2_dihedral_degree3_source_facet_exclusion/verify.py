@@ -18,7 +18,8 @@ def main() -> None:
     proof = (NODE / "proof.md").read_text()
     require("- **status:** PROVED" in statement, "status")
     require("independent five-set" in statement, "contradiction")
-    require("D_3(y)-D_3(z)" in proof, "cubic incidence")
+    require("relative second-endpoint projective twist" in proof, "twist fence")
+    require("U_k=N_G(k)" in proof, "omitted-pair identification")
 
     components = [
         [{0, 1}, {2, 3}, {4, 5}],

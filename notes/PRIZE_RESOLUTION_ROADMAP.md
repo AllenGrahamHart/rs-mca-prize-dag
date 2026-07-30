@@ -10711,9 +10711,12 @@ the horizontal root set of the whole outgoing factor above every point over
 
 For the residual `n=3` full-V4 component, the exact source-star graph is
 `K_(2,2,2) disjoint_union K_(2,2,2)`. The two stars over the complete
-coordinate fiber of `k` jointly have endpoint set `N_G(k)`. Component
-divisibility and the source-facet identity force `N_G(k) subset I^c` for
-all five `k in K`, making `K` independent. This contradicts
+coordinate fiber of `k` jointly have a four-endpoint set `U_k`, the
+complement of one deck pair `P_k`. Component divisibility forces
+`U_k subset I^c`. Since `k in K subset I` and lies in the same common-pole
+six-set, `k in P_k`, so `U_k=N_G(k)`. This retains the relative endpoint
+twist rather than setting it to one. Hence `N_G(k) subset I^c` for all
+five `k in K`, making `K` independent. This contradicts
 `alpha(G)=4` and proves
 `rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion`.
 
