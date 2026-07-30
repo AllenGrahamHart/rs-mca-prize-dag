@@ -11130,11 +11130,11 @@ coefficient minors, and combine them with the four-fiber fourth-power
 identity. A reciprocal square fiber alone is not a contradiction.
 
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
-`fb9c0eaf2bce8b3f9fc6f4ca152618b528327a5a`, note/verifier/certificate
-blobs `77073e7e880ec5ff085e486ef07d7d8f67531f51`,
-`6734571cdb9452f404b21535cff30c0fc90db100`, and
-`53bf1a5b18689a766cd924ee853c3b306ab2d987`, with canonical payload
-`d12f7dccbca0236ccd21482de28c44f5e6399de70fddeb5e10b17d3eb6560755`.
+`d09fc0685b3a63161f2f2d4dae7c0e0f7564e1c3`, note/verifier/certificate
+blobs `0a67e129f92335a2e99022b158e0b772138faa15`,
+`034bfba69ed0a704ae98e5361cad32dc3824e320`, and
+`c3217f62359d32443bb025e2d59ecf62a198ada0`, with canonical payload
+`f554b899de646525028323282e95d600d7293eb49d04098e5be185508c30174f`.
 Its verifier classifies all `10,395` fixed-point-free matchings, including
-the `120/600` maximally mixed split, and rejects `50` of `50` hostile
-mutations.
+the `120/600` maximally mixed split and all three near-aligned `c=2`
+matching classes, and rejects `56` of `56` hostile mutations.
