@@ -2,6 +2,7 @@
 
 - **status:** PROVED
 - **scope:** five residual inner-degree-three transverse types
+- **upstream:** PR `#1132`, head `bf173815d0a51d880c94c833be125769715f2c49`
 - **dependencies:** `rate_half_kb_m4_adjacency_genus_exclusion`,
   `rate_half_kb_q6_u2_primitive_subdegree4_route_cut`,
   `rate_half_kb_decomposition_source_pencil_compiler`,

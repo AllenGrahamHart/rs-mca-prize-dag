@@ -6113,6 +6113,14 @@ producer is impossible or comes with an inner-degree-two decomposition.
 
 ```text
 new node: rate_half_kb_m3_primitive_outer_degree2_router [PROVED]
+upstream custody:
+  PR #1132 head: bf173815d0a51d880c94c833be125769715f2c49
+  note/verifier/certificate blobs:
+    77b9a0cd08a71fbcce3d2a37151010c3f24fb80a
+    c1684fd20cf6d7a7a81d83d1c4b2fec18b1eb136
+    24f406d8bdb72d8562c91b28890eae59befd6d91
+  certificate payload:
+    0f7c0134c723875d66dd19d96f9c68c7299079b5560e63780910afc6d86f21d4
 incoming m3 types:
   (r,delta)=(2,6),(3,4),(4,3),(6,2),(12,1)
 outer degree: 20

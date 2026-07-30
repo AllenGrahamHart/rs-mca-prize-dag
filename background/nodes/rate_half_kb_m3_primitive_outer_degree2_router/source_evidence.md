@@ -17,3 +17,18 @@ projective-line actions locally.
 
 Accessed 2026-07-29. The source hash pins classification completeness; the
 finite projective action claims are replayed without GAP.
+
+## Upstream custody
+
+The import-free export is pinned to PR `#1132` at
+`bf173815d0a51d880c94c833be125769715f2c49`:
+
+```text
+note blob:        77b9a0cd08a71fbcce3d2a37151010c3f24fb80a
+verifier blob:    c1684fd20cf6d7a7a81d83d1c4b2fec18b1eb136
+certificate blob: 24f406d8bdb72d8562c91b28890eae59befd6d91
+payload SHA-256:  0f7c0134c723875d66dd19d96f9c68c7299079b5560e63780910afc6d86f21d4
+```
+
+The verifier binds five parent terminals by Git blob and canonical payload,
+reconstructs both projective actions, and rejects 18 of 18 mutations.
