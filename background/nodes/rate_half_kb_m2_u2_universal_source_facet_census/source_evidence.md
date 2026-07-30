@@ -12,12 +12,12 @@
 ## Upstream custody
 
 Vendored to draft PR `przchojecki/rs-mca#1132` at commit
-`788012a0daaf32e8eec0186a599c0ced42d28749`. The immutable note, verifier,
+`e0ef6ca0cc64465f3b73d3f324efa9cc294eebb5`. The immutable note, verifier,
 and certificate blob OIDs are respectively
-`e9420deaeaa1ec9fbf30094af13ad5a8d72cf45e`,
-`0dff47b2b24eb25ccc5e252ce704c9315633b0d5`, and
-`602744282e3b009c615ce89b497f31f79804228c`; the canonical certificate
+`02322ebba4847b072a5856e02d3bcfc3f0590b26`,
+`10888f6d5996c04cd635939731cacecb5c170937`, and
+`d2c681b33918ff1490dfa5b8388295a422b56ca7`; the canonical certificate
 payload is
-`a72b8699c4eccc7b5428c78ca539733eec6ac2055dbfa73c8b7d508bba7ed3bf`.
-The upstream verifier pins the independent complete-source parent and
-rejects all 16 hostile mutations.
+`17b8e640ed4e8e55f81864067c50dc40db86798abbc90bd58f3472eae098b902`.
+The upstream verifier pins the independent complete-source and source-facet
+parents and rejects all 20 hostile mutations.

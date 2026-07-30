@@ -18,5 +18,12 @@
 
 ## Upstream custody
 
-Not yet vendored. It is a direct refinement of the universal source-facet
-packet in draft PR `przchojecki/rs-mca#1132`.
+Vendored as a direct refinement of the universal source-facet packet in
+draft PR `przchojecki/rs-mca#1132` at commit
+`e0ef6ca0cc64465f3b73d3f324efa9cc294eebb5`. The immutable
+note/verifier/certificate blobs are
+`02322ebba4847b072a5856e02d3bcfc3f0590b26`,
+`10888f6d5996c04cd635939731cacecb5c170937`, and
+`d2c681b33918ff1490dfa5b8388295a422b56ca7`, with canonical payload
+`17b8e640ed4e8e55f81864067c50dc40db86798abbc90bd58f3472eae098b902`.
+The verifier pins Corollary 9.28 and rejects 20 of 20 hostile mutations.
