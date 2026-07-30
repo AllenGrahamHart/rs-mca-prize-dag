@@ -6248,6 +6248,38 @@ next action:
 compute spend: exact finite group/fixed-point arithmetic only; no Modal
 ```
 
+**Same-day r2 dihedral outer-factor reduction:** both source-genus regimes
+have rational outer component and a finite four-degree factor list.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_outer_factor_reduction [PROVED]
+outer genus:
+  source g=0 -> C=P1 directly
+  source g=1 -> a is a two-torsion translation; c and ac are reflections
+                with four fixed points; V4 quotient C=P1
+outer factor:
+  the two degree-two projections of C have distinct involutions u,v
+  <u,v>=D_n is finite because it fixes F(Y)=F(Z)
+  F=G composed q_n, q_n a geometric Dickson/Chebyshev map, n|30
+six-pole sieve:
+  n=2: three generic order-five G poles
+  n=3: two generic order-five G poles
+  n=5: one generic order-five pole plus one simple totally ramified pole
+  n=6: one generic order-five G pole
+  n=10,15,30: impossible
+source-to-outer branch passports:
+  source g=0: inertia a,c,ac over three branch values
+  source g=1: inertia c,c,ac,ac over four branch values
+DAG delta: one PROVED finite reduction; critical target unchanged
+ledger movement: zero
+nonclaims: no n=2,3,5,6 deletion, locator realization, owner, carrier,
+           data/slope bridge, u2, endpoint, adjacent certificate, or row
+next action:
+  impose the actual source and active locator divisors on the four dihedral
+  factors; do not count their return to m2 as progress
+compute spend: exact degree and tame ramification arithmetic only; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

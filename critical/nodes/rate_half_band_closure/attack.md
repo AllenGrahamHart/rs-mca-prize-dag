@@ -280,6 +280,18 @@ fixed points of `a`, or source genus one with none. Genus two and three are
 impossible. Neither rational nor elliptic regime is yet deleted, and the
 other two `m=2` types are unchanged. No owner charge moves.
 
+The PROVED `rate_half_kb_m2_r2_dihedral_outer_factor_reduction` makes the
+outer component rational in both remaining source-genus regimes. Its two
+degree-two projections generate a finite dihedral group inside the deck
+group of the common degree-60 function, forcing a geometric
+Dickson/Chebyshev right factor of the outer map. The six distinct order-five
+poles leave exactly factor degrees `n=2,3,5,6`; the exceptional `n=5` row
+uses one generic order-five pole and the one totally ramified point over a
+simple pole. The full-V4 source cover has branch inertia `a,c,ac` in genus
+zero and `c,c,ac,ac` in genus one. None of the four factor degrees is yet
+deleted; impose the actual source/active locators rather than repeat their
+decomposition recurrence. No owner charge moves.
+
 ## Banked range
 
 Put
