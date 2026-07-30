@@ -11188,6 +11188,26 @@ source-line orbits through the coefficient/interpolation gate, the 123
 branch-independent packets through the split resolvent, and keep the
 exceptional `(KBDM-10)` orbit outside both queues.
 
+The twelve source-line orbits now share one exact quotient compiler. For
+`K_Lc={k in K: tau(k) in L^c}` and `Omega=tau(K_Lc)`, the four distinct
+mixed common-`K` stars transport to all four universal `I-J` stars. Hence
+`|Omega|=2`, both quotient fibers are unramified, and the PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler`
+gives
+
+```text
+C_H ~ chi_Omega(psi),
+Q_J ~ K_5^2 chi_Omega,       chi_Omega Q_I ~ R_7^2.
+```
+
+The quotient is explicit: `Omega=J_1` when `L=I`, while
+`Omega={xi,ell}` in the near-aligned case with `tau(eta) in K`; no
+`tau`-invariance of the latter pair is asserted. This replaces an arbitrary
+squarefree-quartic search by two printed quadratic cases. Next combine the
+aligned and near-aligned quotient systems separately with the exact `4/3`
+or `6/5` reciprocal coefficient cuts. The biquadratic branch and exceptional
+unsaturated orbit remain outside this reduction.
+
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
 `3584deccfc92aa4b1c1125b40017eabd15167079`, note/verifier/certificate
 blobs `20559b894d129dfe1094a0b3dac70ed1f8d595da`,
@@ -11209,11 +11229,12 @@ canonical prize pin:      11cea27b (unchanged)
 ending upstream pin:      3584deccfc92aa4b1c1125b40017eabd15167079
 node attacked:            rate_half_band_closure via diagonal c=2
 result:                   NARROWED + EXPORTED
-DAG delta:                +4 PROVED nodes, +13 edges; target status unchanged
-upstream delta:           c2 capacity, linear cut, 202 deletion, and 112 classifier in PR #1132
+DAG delta:                +5 PROVED nodes, +16 edges; target status unchanged
+upstream delta:           c2 capacity, linear cut, 202 deletion, 112 classifier,
+                          and source-line quotient descent in PR #1132
 delta-star movement:      none
 new assumptions:          none; (1,1,2) ramified and biquadratic survivors retained
 live compute requests:    none
-next route-deciding step: route the 12 source-line and 123 universal 112
-                          packets through algebraic gates; retain exception
+next route-deciding step: attack the aligned and near-aligned quotient
+                          systems; route the 123 universal packets separately
 ```

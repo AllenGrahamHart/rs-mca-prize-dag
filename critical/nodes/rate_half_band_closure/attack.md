@@ -1320,6 +1320,32 @@ attack lists, not realized survivors. Apply interpolation to the twelve
 source-line orbits and the split resolvent to the branch-independent list;
 keep `(KBDM-10)` separate.
 
+The source-line list has a stronger exact quotient reduction. For a
+saturated `(1,1,2)` packet put
+
+```text
+K_Lc={k in K: tau(k) in L^c},       Omega=tau(K_Lc).
+```
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler`
+uses individual-star transport and exhaustion of the four universal `I-J`
+stars to show that `|Omega|=2` and
+
+```text
+C_H ~ chi_Omega(psi),
+Q_J ~ K_5^2 chi_Omega,       chi_Omega Q_I ~ R_7^2.
+```
+
+Both `Omega` fibers are unramified. In the aligned row `Omega=J_1`; in the
+near-aligned row with `tau(eta) in K`, `Omega={xi,ell}`, where `ell` is the
+other crossing label in `J intersect L^c`. The latter pair need not be a
+`tau` orbit. Thus the twelve source-line classes do not require arbitrary
+four-root colored-divisor enumeration. Split their algebraic attack into
+the aligned quotient `chi=P_(J_1)` and the near-aligned quotient
+`chi=P_{xi,ell}`, combining each with the existing `4/3` or `6/5`
+square-fiber coefficient cut. No packet is deleted yet.
+
 The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
 the smaller shared actual-component gate. For twelve projective source-row
 quartics `q_i`, stack a `9 x 12` degree-two evaluation parity check across
