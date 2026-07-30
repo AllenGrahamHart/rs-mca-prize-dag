@@ -180,6 +180,18 @@ dies or routes to `m=2`. The independent frontier drops from 18 to 12 types
 in live degrees `2,3,4`. Degree two is not deleted or paid, and no owner
 charge moves.
 
+The PROVED `rate_half_kb_m4_outer_a6s6_route_cut` removes three of the four
+inner-degree-`4` types. For an indecomposable outer degree-`15` map, the
+complete primitive catalogue has nontrivial subdegrees `14`, except for
+the `A6,S6` two-subset actions with subdegrees `6,8`. Hence `r=1,2,4`
+force a proper outer right factor of degree `3` or `5`, which gives the
+endpoint an impossible inner degree `12` or `20`. Only
+`(r,delta)=(8,2)` survives, with outer monodromy `A6` or `S6` on the
+15 two-subsets of six points. A five-cycle acts as `5^3`, so the pole
+profile does not delete it. The independent frontier has nine types: three
+at `m=2`, five at `m=3`, and this single `m=4` survivor. No owner charge
+moves.
+
 ## Banked range
 
 Put

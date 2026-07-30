@@ -18742,7 +18742,26 @@
     "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/result.md",
     "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/frontier.md",
     "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/verify.py",
-    "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/verify_audit.py"
+   "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/verify_audit.py"
+  ]
+ },
+  {
+   "id": "rate_half_kb_m4_outer_a6s6_route_cut",
+   "title": "KoalaBear m4 outer A6/S6 route cut",
+   "status": "PROVED",
+   "closure": "primitive degree-15 subdegree classification plus proper-factor routing",
+   "statement": "For an inner-degree-four terminal, the outer degree-15 correspondence types are (r,delta)=(1,16),(2,8),(4,4),(8,2). The complete primitive degree-15 catalogue has no nontrivial subdegree 1,2,4; those types force a proper outer factor of degree 3 or 5 and hence impossible endpoint inner degree 12 or 20. Only (8,2) survives, with outer monodromy A6 or S6 on two-subsets. The independent transverse frontier has nine types. No survivor deletion, owner, charge, u2, cap 68, or row close is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/statement.md",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/proof.md",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/claim_contract.md",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/source_evidence.md",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/audit.md",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/result.md",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/frontier.md",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/verify.py",
+    "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/verify_audit.py"
    ]
   },
   {
@@ -36769,6 +36788,21 @@
   },
   {
    "from": "rate_half_kb_m6_scott_cartesian_degree2_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_source_pencil_rank_transverse_compiler",
+   "to": "rate_half_kb_m4_outer_a6s6_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m12_secondary_degree5_decomposition_exclusion",
+   "to": "rate_half_kb_m4_outer_a6s6_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m4_outer_a6s6_route_cut",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

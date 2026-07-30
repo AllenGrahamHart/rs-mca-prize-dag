@@ -5873,6 +5873,36 @@ compute spend: four exact groups, maximum order 28800, under tiny RAMguard;
                no Modal
 ```
 
+**2026-07-29, inner-degree-4 outer A6/S6 route cut:** the complete
+primitive degree-15 catalogue removes three of the four outer types.
+
+```text
+new node: rate_half_kb_m4_outer_a6s6_route_cut [PROVED]
+incoming m4 types: (1,16),(2,8),(4,4),(8,2)
+primitive degree-15 catalogue:
+  A7, PSL(4,2), A15, S15 have nontrivial subdegree 14
+  A6 and S6 on two-subsets have nontrivial subdegrees 6,8
+proper-factor route:
+  r in {1,2,4} forces outer degree 15 to decompose
+  right-factor degree 3 or 5 gives endpoint inner degree 12 or 20
+  degree 12 is closed; degree 20 violates the source/RH profile
+survivor:
+  (r,delta)=(8,2), outer monodromy A6 or S6 on 15 two-subsets
+  a five-cycle has cycle type 5^3, so the pole profile is compatible
+route consequence:
+  global independent transverse frontier: 12 -> 9 types
+  live types: three at m=2, five at m=3, one at m=4
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims:
+  the A6/S6 survivor is not deleted or paid; no owner, bridge, charge,
+  u2, cap 68, endpoint, adjacent certificate, or KoalaBear row close
+next route-deciding action:
+  classify genus-zero A6/S6 degree-15 branch cycles with the printed 5^3
+  pole cycle before imposing split source-star incidence
+compute spend: exact 720-permutation two-subset audit; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

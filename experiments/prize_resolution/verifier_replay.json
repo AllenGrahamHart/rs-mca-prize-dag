@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/verify.py",
-      "seconds": 0.021761,
+      "script": "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/verify.py",
+      "seconds": 0.021606,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M6_SCOTT_CARTESIAN_DEGREE2_ROUTER_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M4_OUTER_A6S6_ROUTE_CUT_PASS\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m6_scott_cartesian_degree2_router/verify_audit.py",
-      "seconds": 0.361648,
+      "script": "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/verify_audit.py",
+      "seconds": 0.016344,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M6_SCOTT_CARTESIAN_DEGREE2_ROUTER_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M4_OUTER_A6S6_ROUTE_CUT_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

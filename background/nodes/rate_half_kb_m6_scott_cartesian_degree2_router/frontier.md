@@ -1,14 +1,14 @@
 # Frontier
 
-Inner degree six is no longer an independent producer. The transverse
-frontier has 12 types:
+Inner degree six is no longer an independent producer. The downstream
+degree-four outer route cut removes three of the four `m=4` types, leaving
+nine transverse types:
 
 ```text
 m=2: (r,delta)=(2,4),(4,2),(8,1)
 m=3: (r,delta)=(2,6),(3,4),(4,3),(6,2),(12,1)
-m=4: (r,delta)=(1,16),(2,8),(4,4),(8,2)
+m=4: (r,delta)=(8,2), outer monodromy A6 or S6 on two-subsets
 ```
 
-The next route-deciding target is `m=4`. Its four types should be tested
-first for a direct primitive/kernel block reduction using the actual
-quartic suborbit, before any endpoint-record expansion.
+Attack the sole degree-four survivor by exact genus-zero branch cycles and
+the inherited split pole, split zero, and quartic source-star data.
