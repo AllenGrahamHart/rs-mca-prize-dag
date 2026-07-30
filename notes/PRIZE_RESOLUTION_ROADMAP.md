@@ -6068,6 +6068,14 @@ component in every retained passport.
 
 ```text
 new node: rate_half_kb_m4_adjacency_genus_exclusion [PROVED]
+upstream custody:
+  PR #1132 head: b60dcda4bc84453aa72c4185c72b351fa345ea40
+  note/verifier/certificate blobs:
+    899729ccf9632d8df1fe12537fb30e6d02af643b
+    a51ccce251177a68645c475044b3768777ca4ee5
+    a0b2c8ec260da35ffdefa5a29c7aa5496af5cc79
+  certificate payload:
+    a0bc909a9e05c097440d318f5fe7aed052387507723fc1f3337172d3e5db7428
 source geometry:
   actual outgoing component bidegree (2,4), normalization genus <=3
   birational endpoint self-correspondence component Gamma

@@ -2,6 +2,7 @@
 
 - **status:** PROVED
 - **scope:** sole surviving inner-degree-four transverse type
+- **upstream:** PR `#1132`, head `b60dcda4bc84453aa72c4185c72b351fa345ea40`
 - **dependencies:** `rate_half_kb_q6_u2_primitive_subdegree4_route_cut`,
   `rate_half_kb_source_pencil_rank_transverse_compiler`,
   `rate_half_kb_m4_a6s6_genus_zero_passport_reduction`
