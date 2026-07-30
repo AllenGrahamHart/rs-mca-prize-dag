@@ -188,10 +188,15 @@ retries; raw artifact storage is separate.
 - **Banked reciprocal-xi mixed chart:** PROVED node
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion`
   applies the same dual-projection certificate to target roots `2,1/d`.
-- **Immediate unresolved input:** process the two square allocations in the
-  reciprocal-`xi` orbit, then the other reciprocal-pair orbit. Retain the
-  explicit finite-chart saturations before moving to moving-moving templates
-  and the negative `B/C` loci.
+- **Banked reciprocal-xi square charts:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions`
+  covers both square allocations with all eight generic endpoint-line pairs,
+  every leading-zero branch, an independent opposite-variable audit, and
+  exact replay modulo `p=2130706433`. Its exceptional support is either a
+  collision, inversion-fixed, or on the excluded `z=1` locus.
+- **Immediate unresolved input:** process the three allocations in the other
+  reciprocal-pair orbit. Retain the explicit finite-chart saturations before
+  moving to moving-moving templates and the negative `B/C` loci.
 - **Required output:** for every chart, either a unit/collision-only exact
   elimination certificate or an explicit algebraic survivor with `b,z`, and
   `lambda_scale` reconstructed and all label inequalities checked. Every
@@ -199,7 +204,7 @@ retries; raw artifact storage is separate.
   is not realization.
 - **PASS:** mint a scoped PROVED near-positive or near-negative exclusion node
   after all charts and isolated leading branches in that scope are covered.
-  Four of the 18 affine positive charts now satisfy this contract.
+  Six of the 18 affine positive charts now satisfy this contract.
 - **INCOMPLETE:** curve factors, pairwise resultants, or generic-field gcds
   alone are narrowing evidence.
 - **Authorization:** external pre-request for the remaining chart queue.

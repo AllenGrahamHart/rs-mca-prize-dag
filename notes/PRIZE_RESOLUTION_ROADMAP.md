@@ -11513,11 +11513,22 @@ and the product/sum projections again have degrees 96 and 186. Their direct
 and opposite squarefree gcds are the same forbidden supports as above, in
 characteristic zero and modulo `p=2130706433`.
 
-This closes exactly 4 of the 18 affine positive charts. The two square
-allocations in the reciprocal-`xi` orbit, the other reciprocal-pair orbit,
-the moving-moving template, both negative factor loci, and the projective
-`w=0` boundary remain open; do not infer a near-aligned deletion from these
-four closed charts.
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions`
+closes both square allocations in the same reciprocal relative orbit. For
+the direct allocation, the generic resultant gcd again has support only at
+`d in {2,1,-1,1/2}`. Its leading-zero branches add the two points
+`(c,d)=(5,5/7),(-7/5,53/55)`, both on the excluded `z=1` locus, and one
+`c=-2` audit fiber forcing `d=2` or `1/2`. The swapped allocation has the
+same forbidden support and the previously classified quadratic `z=1`
+component. Independent direct/resultant and fraction-free/Bezout replays
+cover all four endpoint-line pairs in both allocations, including exact
+reduction modulo `p=2130706433`.
+
+This closes exactly 6 of the 18 affine positive charts. The other
+reciprocal-pair orbit, the moving-moving template, both negative factor loci,
+and the projective `w=0` boundary remain open; do not infer a near-aligned
+deletion from these six closed charts.
 
 There is a cheaper common gate before those allocation splits. Write
 
