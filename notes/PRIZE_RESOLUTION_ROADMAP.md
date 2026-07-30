@@ -11209,24 +11209,26 @@ or `6/5` reciprocal coefficient cuts. The biquadratic branch and exceptional
 unsaturated orbit remain outside this reduction.
 
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
-`3584deccfc92aa4b1c1125b40017eabd15167079`, note/verifier/certificate
-blobs `20559b894d129dfe1094a0b3dac70ed1f8d595da`,
-`73be19232ad839ac1be4fadc7c7d8cefd30a66f7`, and
-`e82f08722dd2bfba564b51a25d3e7f4d6e692c67`, with canonical payload
-`22e3cc5c5100d2b90e6487b6216fc8e5c0d6cd3f5eeefef90bac325643cbcd71`.
+`7f084f2dd27fea2b0a231cc690fc70bdd25e0609`, note/verifier/certificate
+blobs `41bfa82cae8f3804e4287bd51da6d55c3872683a`,
+`10cab32a0eba904164e26322374235c17d16e1ca`, and
+`7fb875dba06cd2a40854bf9e4415ff4c0acf3b64`, with canonical payload
+`f1b0339b6b70a9f1055ba0910a53713712348b36d1b9e94ab7fd22d14f8a502b`.
 Its verifier classifies all `10,395` fixed-point-free matchings, including
 the `120/600` maximally mixed split and all three near-aligned `c=2`
 matching classes, checks the exact ramified/unramified source-line ranks,
 minor signs, the ramified and full `(2,0,2)` defect exclusions, and the
-saturated `(1,1,2)` classifier, and rejects `83` of `83` hostile mutations.
+saturated `(1,1,2)` classifier, checks `2700/900` aligned/near quotient
+rows, and rejects `90` of `90` hostile mutations. The extension report is
+`przchojecki/rs-mca#1132` comment `5131156444`.
 
 ### Work-cycle burn-down: diagonal c2 square fibers
 
 ```text
 starting local pin:       670c3dc5 (pre-c2 capacity refinement)
-ending local theorem pin: 7eb3d2d9f8ed13fd44f54e646d0edc90d2748bba
+ending local theorem pin: 623eff354b0e844e265ba947cf857d37c1e6b1ae
 canonical prize pin:      11cea27b (unchanged)
-ending upstream pin:      3584deccfc92aa4b1c1125b40017eabd15167079
+ending upstream pin:      7f084f2dd27fea2b0a231cc690fc70bdd25e0609
 node attacked:            rate_half_band_closure via diagonal c=2
 result:                   NARROWED + EXPORTED
 DAG delta:                +5 PROVED nodes, +16 edges; target status unchanged
