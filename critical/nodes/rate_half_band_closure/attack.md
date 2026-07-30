@@ -1225,3 +1225,25 @@ conjugate are distinct. In either sign the endpoint is the quadratic norm
 `G=U^2-WV^2` and is even in `T`. The coordinate orientation is therefore
 at two explicit coefficient spaces, not a generic interpolation problem;
 universal failure remains open and no owner charge moves.
+
+The PROVED `rate_half_kb_m2_u2_universal_source_facet_census` extracts the
+stabilizer-independent part of the coordinate argument. Every surviving
+degree-two source component, including the previously unstructured
+trivial-stabilizer `(r,delta)=(8,1)` type, has
+
+```text
+(J-J,I-I,I-J)=(10,10,4).
+```
+
+On the six `J` labels, the ten stars over `K` have exactly one of
+
+```text
+(0,4,4,4,4,4), (1,3,4,4,4,4), (2,2,4,4,4,4),
+(2,3,3,4,4,4), (3,3,3,3,4,4).
+```
+
+This uses no stabilizer symmetry. The coordinate involution retains its
+stronger two-profile conclusion, while the diagonal and trivial types do
+not inherit it. The trivial type should now be attacked by these five
+profiles plus the `45 x 12` source gate and defect budget. No type or owner
+is closed.

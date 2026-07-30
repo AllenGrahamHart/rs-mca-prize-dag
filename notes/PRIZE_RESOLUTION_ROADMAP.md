@@ -10896,3 +10896,20 @@ norm is even in `T`. Route the two exact coordinate `K`-fiber degree
 profiles through the `45 x 12` source gate and then these two forms. Exact
 degree, irreducibility, common-five facets, and outer-factor divisibility
 remain. No compute spend or ledger payment was used.
+
+## 2026-07-30 KoalaBear universal m2 source-facet census
+
+The PROVED `rate_half_kb_m2_u2_universal_source_facet_census` observes that
+the `(10,10,4)` category count precedes every stabilizer argument. It holds
+for coordinate, diagonal, and trivial-stabilizer degree-two components.
+The ten `K`-fiber `J-J` stars have one of five exhaustive degree profiles:
+
+```text
+(0,4,4,4,4,4), (1,3,4,4,4,4), (2,2,4,4,4,4),
+(2,3,3,4,4,4), (3,3,3,3,4,4).
+```
+
+This gives the first exact source-facet interface for the residual
+`(r,delta)=(8,1)` trivial-stabilizer type. Route those five profiles through
+the shared `45 x 12` source gate and defect budget without importing the
+coordinate involution pairing. No computation or ledger payment was used.

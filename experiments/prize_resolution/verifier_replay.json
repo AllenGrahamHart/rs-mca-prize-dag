@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_coefficient_normal_form/verify.py",
-      "seconds": 0.049533,
+      "script": "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/verify.py",
+      "seconds": 0.04435,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_R4_COORDINATE_COEFFICIENT_NORMAL_FORM_PASS source_dims=8,7\n"
+      "stdout_tail": "RATE_HALF_KB_M2_U2_UNIVERSAL_SOURCE_FACET_CENSUS_PASS profiles=5\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_coefficient_normal_form/verify_audit.py",
-      "seconds": 0.021733,
+      "script": "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/verify_audit.py",
+      "seconds": 0.02345,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_R4_COORDINATE_COEFFICIENT_NORMAL_FORM_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M2_U2_UNIVERSAL_SOURCE_FACET_CENSUS_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

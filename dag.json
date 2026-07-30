@@ -19013,6 +19013,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_u2_universal_source_facet_census",
+   "title": "KoalaBear m2 u2 universal source-facet census",
+   "status": "PROVED",
+   "closure": "stabilizer-independent (10,10,4) star census and five exhaustive K-fiber degree profiles",
+   "statement": "Every actual degree-two source component in the order-two or trivial-stabilizer inner-degree-two rows has exact star census (J-J,I-I,I-J)=(10,10,4). The ten J-J stars over the five common K fibers have total degree 20 on the six J labels and, up to permutation, exactly one of five profiles: (0,4,4,4,4,4), (1,3,4,4,4,4), (2,2,4,4,4,4), (2,3,3,4,4,4), or (3,3,3,3,4,4). No stabilizer symmetry is used; the coordinate orientation narrows this list separately. No packet or type is deleted.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/statement.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/proof.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/audit.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/result.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/frontier.md",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/verify.py",
+    "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_full_v4_source_genus_drop",
    "title": "KoalaBear m2 r2 full-V4 source genus drop",
    "status": "PROVED",
@@ -37551,6 +37570,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_q6_s6_common_five_outgoing_fiber_pin",
+   "to": "rate_half_kb_m2_u2_universal_source_facet_census",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
+   "to": "rate_half_kb_m2_u2_universal_source_facet_census",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_u2_universal_source_facet_census",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
