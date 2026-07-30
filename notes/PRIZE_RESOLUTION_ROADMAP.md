@@ -11386,6 +11386,66 @@ the `60 s` tiny-RAMguard cap. These twelve raw ideals are a strict algebraic
 narrowing, **not a deletion theorem**; comprehensive saturated specialization
 remains external work. Do not resurrect the unscaled minor or FLINT route.
 
+The near-aligned target has a separate useful specialization. Write
+`J_1={eta,ell}` and orient `eta=c,ell=d`. Then
+
+```text
+w=tau(eta)=1/c,
+chi_mix=(W-tau(xi))(W-1/d).
+```
+
+Thus the positive near-aligned q-slice has one fewer free parameter than the
+aligned system. A light `F_1009` superset probe over twenty fixtures, both
+orientations of `{eta,ell}`, all four possible `xi in J_0`, all twelve
+internal pairs, and both signs made `3,840` attempts. It reconstructed `1,896`
+positive candidates and found no q-slice survivor; the generic negative
+attempts correctly missed their codimension-one reconstruction loci. This is
+evidence only.
+
+One characteristic-zero chart is now exactly classified. Normalize the
+common internal endpoint and `xi` to `2`, use the fixed-moving template, and
+allocate the residual over `c` to `(W-1/2)^2` and that over `d` to
+`(W-1/d)^2`. Each constant-to-leading equation splits into two lines in `b`.
+The four line pairings have the following lex eliminants after the two middle
+coefficients are imposed:
+
+```text
+(0,0): (d-2)^8 (d-1)^4 (d+1)^5 (2d-1)^9
+(0,1): (d-2)^5 (d-1)^6 (d+1)^4 (2d-1)^8
+         (d^2-9d+2)^2
+(1,0): (d-2)^9 (d-1)^4 (d+1)^4 (d+2)^2 (2d-1)^9
+(1,1): (d-2)^8 (d-1)^6 (d+1)^4 (2d-1)^8
+         (d^2+3d-2)^2.
+```
+
+The three extra factors have exact survivor bases
+
+```text
+<2c+d-9, d^2-9d+2>,
+<2c+1, d+2>,
+<2c-d-3, d^2+3d-2>.
+```
+
+Each forces `cd=1`; the latter two also force `b=-1`, and all force the
+excluded normalization `lambda_scale=0` (equivalently `z=-1` in these
+coordinates). The possible vanishing leading coefficient of either left
+`b`-line has unit ideal, so no isolated branch was discarded. The other
+endpoint-resultant factors are `c=1`, `cd=1`, and
+`5cd-4c-4d+5=0`; the last gives `z=1` from the positive incidence formula.
+Hence this single near square-allocation chart is empty. The four-shard helper
+`kb_c2_112_near_fixed_xi_square.py` banks the calculation. Its integrated
+replay was stopped when host availability fell to `110 MiB` with swap full;
+the separate exact shard calculations above completed before that condition,
+so retain this as narrowed evidence rather than a promoted theorem.
+
+For the swapped square allocation in the same normalized template, the two
+endpoint lines reduce the four sign pairs to curves of bidegree `(3,2)`,
+`(2,2)`, `(3,2)`, and `(2,2)` after the same collision factors are removed.
+The first middle-coefficient elimination exceeded the `60 s` local cap.
+These four small curves, the mixed allocation, the other `xi` orbit, the
+moving-moving template, and both negative factor loci remain open; do not
+infer a near-aligned deletion from the one closed chart.
+
 ### Compute request CR-KB-C2-112-POS-QS-SAT
 
 Prove the twelve-case parametric saturation above without expanding the full

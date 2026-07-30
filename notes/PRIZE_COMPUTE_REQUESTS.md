@@ -152,6 +152,39 @@ retries; raw artifact storage is separate.
   or compact certificate emitter exists yet, so do not launch it on the
   remaining local Modal balance.
 
+### Pre-request CR-KB-C2-112-NEAR-QS-ELIM: near-aligned q-slice elimination
+
+- **Decision:** delete or exhibit an admissible reconstructed source form in
+  the near-aligned saturated source-line `(1,1,2)` branch.
+- **Exact specialization:** orient `J_1={eta,ell}` as `(c,d)`. The forced
+  square is `w=1/c`, while the residual target roots are `tau(xi)` and `1/d`.
+  Retain the exact `lambda_scale` normalization from the corrected positive
+  generator. Negative forms must first lie on the proved fixed-moving `B=0`
+  or moving-moving `B*C=0` reconstruction loci.
+- **Banked first chart:**
+  `critical/nodes/rate_half_band_closure/notes/kb_c2_112_near_fixed_xi_square.py`
+  treats fixed-moving, common endpoint `xi=2`, and the square allocation
+  `(c -> 1/2, d -> 1/d)`. Its four exact sign shards have only collision
+  eliminants; three apparent extras force `cd=1`.
+- **Immediate unresolved input:** the swapped square allocation in that same
+  chart has four endpoint curves of bidegrees `(3,2),(2,2),(3,2),(2,2)`.
+  Impose both middle coefficients and saturate by the printed incidence,
+  line-leading, label-collision, and normalization factors. Then process the
+  mixed allocation, the other `xi` orbit, moving-moving, and the negative
+  `B/C` loci.
+- **Required output:** for every chart, either a unit/collision-only exact
+  elimination certificate or an explicit algebraic survivor with `b,z`, and
+  `lambda_scale` reconstructed and all label inequalities checked. Every
+  survivor advances to both full identities `(KBQ2-2)`; q-slice passage alone
+  is not realization.
+- **PASS:** mint the appropriate PROVED near-positive or near-negative
+  exclusion node only after all its charts and isolated leading branches are
+  covered.
+- **INCOMPLETE:** curve factors, pairwise resultants, or generic-field gcds
+  alone are narrowing evidence.
+- **Authorization:** external pre-request. Local symbolic work is paused while
+  host memory is critically low; do not launch Modal without renewed budget.
+
 ## Upstream handoff convention
 
 When one of these requests is included in a PR to Przemek's repository, copy
