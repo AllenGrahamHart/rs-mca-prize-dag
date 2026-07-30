@@ -10902,7 +10902,8 @@ remain. No compute spend or ledger payment was used.
 The PROVED `rate_half_kb_m2_u2_universal_source_facet_census` observes that
 the `(10,10,4)` category count precedes every stabilizer argument. It holds
 for coordinate, diagonal, and trivial-stabilizer degree-two components.
-The ten `K`-fiber `J-J` stars have one of five exhaustive degree profiles:
+The ten `K`-fiber `J-J` stars initially have one of five exhaustive integer
+degree profiles:
 
 ```text
 (0,4,4,4,4,4), (1,3,4,4,4,4), (2,2,4,4,4,4),
@@ -10910,9 +10911,10 @@ The ten `K`-fiber `J-J` stars have one of five exhaustive degree profiles:
 ```
 
 This gives the first exact source-facet interface for the residual
-`(r,delta)=(8,1)` trivial-stabilizer type. Route those five profiles through
-the shared `45 x 12` source gate and defect budget without importing the
-coordinate involution pairing. No computation or ledger payment was used.
+`(r,delta)=(8,1)` trivial-stabilizer type. The later component-color cut
+removes the first two profiles before the shared `45 x 12` source gate is
+applied, without importing the coordinate involution pairing. No
+computation or ledger payment was used.
 
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
 `e0ef6ca0cc64465f3b73d3f324efa9cc294eebb5`, note/verifier/certificate blobs
@@ -10954,3 +10956,22 @@ trivial-stabilizer branch. The coordinate involution already removes the
 middle row; diagonal and trivial packets retain all three until further
 facet or coefficient constraints are imposed. No compute spend or ledger
 payment was used.
+
+## 2026-07-30 KoalaBear colored partial-resultant split
+
+The PROVED
+`rate_half_kb_m2_u2_colored_source_resultant_split_compiler` packages the
+four colored pole roots as one squarefree quartic `C_H`. With `D_K` the
+degree-ten pullback over the common five-set, `D_R=B/D_K`, and `P_I,P_J`
+the two source-label sextics, every residual degree-two component satisfies
+
+```text
+Res_T(P_J,H) ~ D_K^2 C_H,
+C_H Res_T(P_I,H) ~ D_R^2.
+```
+
+Moreover `c_j=deg gcd(C_H,bZ_j)`, so the three surviving profiles are read
+directly from the same quartic. This compresses twelve row-product choices
+to one four-edge divisor and two exact resultant equations. Classify these
+quartics jointly with the `45 x 12` source gate and the coordinate/diagonal
+coefficient forms. No compute spend or ledger payment was used.

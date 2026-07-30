@@ -2,41 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 4,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/verify.py",
-      "seconds": 0.037729,
+      "script": "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/verify.py",
+      "seconds": 0.031499,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_U2_UNIVERSAL_COMPONENT_COLOR_PROFILE_CUT_PASS profiles=3\n"
+      "stdout_tail": "RATE_HALF_KB_M2_U2_COLORED_SOURCE_RESULTANT_SPLIT_COMPILER_PASS J_degree=24 I_degree=24 color_degree=4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/verify_audit.py",
-      "seconds": 0.020285,
+      "script": "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/verify_audit.py",
+      "seconds": 0.016912,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_U2_UNIVERSAL_COMPONENT_COLOR_PROFILE_CUT_AUDIT_PASS cycle_types=4 profiles=3\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/verify.py",
-      "seconds": 0.036742,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_U2_UNIVERSAL_SOURCE_FACET_CENSUS_PASS profiles=5\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_u2_universal_source_facet_census/verify_audit.py",
-      "seconds": 0.024128,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_U2_UNIVERSAL_SOURCE_FACET_CENSUS_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M2_U2_COLORED_SOURCE_RESULTANT_SPLIT_COMPILER_AUDIT_PASS colored_divisors=495\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

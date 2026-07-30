@@ -19051,6 +19051,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_u2_colored_source_resultant_split_compiler",
+   "title": "KoalaBear m2 u2 colored source-resultant split compiler",
+   "status": "PROVED",
+   "closure": "one squarefree colored quartic and two exact I/J partial-resultant identities",
+   "statement": "Every residual degree-two source component has a squarefree quartic colored pole divisor C_H in the L^c pullback. If D_K is the pullback over the common five-set, D_R=B/D_K, and P_I,P_J are the two source-label sextics, then Res_T(P_J,H) is proportional to D_K^2 C_H and C_H Res_T(P_I,H) is proportional to D_R^2. The outside-K deficits are deg gcd(C_H,bZ_j). This is an exact stabilizer-independent compiler, not a component or type deletion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_u2_colored_source_resultant_split_compiler/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_full_v4_source_genus_drop",
    "title": "KoalaBear m2 r2 full-V4 source genus drop",
    "status": "PROVED",
@@ -37606,6 +37625,21 @@
    "from": "rate_half_kb_m2_u2_universal_source_facet_census",
    "to": "rate_half_kb_m2_u2_universal_component_color_profile_cut",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_u2_universal_component_color_profile_cut",
+   "to": "rate_half_kb_m2_u2_colored_source_resultant_split_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
+   "to": "rate_half_kb_m2_u2_colored_source_resultant_split_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_u2_colored_source_resultant_split_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_u2_universal_component_color_profile_cut",
