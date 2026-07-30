@@ -19051,6 +19051,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+   "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) saturated-defect classifier",
+   "status": "PROVED",
+   "closure": "exact one-unit defect ledger and finite edge-packet census for the saturated diagonal (1,1,2) cases",
+   "statement": "In every saturated diagonal (1,1,2) packet, the reciprocal square vertices have weight exactly two and consume two of the three source-defect units. The remaining common-K stars are four J_0-J_0 and four J_0-J_1 edges, with each J_1 degree two beyond the square and at most one repeated edge. The J_0 profiles are exactly (2,2,4,4), (2,3,3,4), and (3,3,3,3). There are 1560 labeled packets in 123 matching-preserving orbits; source-line star equivariance leaves 96 labeled packets in 12 orbits. These are attack lists, not realized components or a row deletion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
    "title": "KoalaBear m2 universal source-row interpolation compiler",
    "status": "PROVED",
@@ -43036,6 +43055,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
    "to": "rate_half_band_closure",
    "kind": "ev"
   }

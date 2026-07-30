@@ -1305,6 +1305,21 @@ in both source-subfield branches. Remove `(2,0,2)` from the diagonal census;
 four rows remain. The next defect attack is `(1,1,2)`, starting with its
 saturated square-fiber cases and keeping the printed exceptional orbit.
 
+The saturated `(1,1,2)` cases now have an exact defect classifier. The
+PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier` shows that
+the reciprocal square vertices have weight exactly two and consume two
+defect units. The remaining common-`K` stars are four `J_0-J_0` and four
+`J_0-J_1` edges, with each `J_1` label used twice and at most one repeated
+edge. The possible `J_0` profiles are only
+`(2,2,4,4),(2,3,3,4),(3,3,3,3)`. Exact enumeration leaves `1,560` labeled
+packets in `123` matching-preserving orbits. Source-line star equivariance
+cuts this to `96` labeled packets in `12` orbits; its four mixed edges are
+distinct and transport to all four universal `I-J` stars. These are finite
+attack lists, not realized survivors. Apply interpolation to the twelve
+source-line orbits and the split resolvent to the branch-independent list;
+keep `(KBDM-10)` separate.
+
 The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
 the smaller shared actual-component gate. For twelve projective source-row
 quartics `q_i`, stack a `9 x 12` degree-two evaluation parity check across

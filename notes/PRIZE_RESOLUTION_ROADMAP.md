@@ -11173,6 +11173,21 @@ mixing frontier drops from five rows to four:
 Next attack the saturated `(1,1,2)` square-fiber cases with the one remaining
 defect unit, while retaining the exceptional unsaturated orbit.
 
+That saturated frontier is now finite and exact. The two reciprocal square
+vertices have weight exactly two, so only one global collision remains
+available. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier` forces four
+pure `J_0-J_0` and four mixed `J_0-J_1` common-`K` edges, each `J_1` label
+used twice, with at most one repetition. The `J_0` profile is one of
+`(2,2,4,4),(2,3,3,4),(3,3,3,3)`. There are `1,560` labeled multiset packets
+in `123` orbits under matching-preserving relabeling. In the source-line
+branch, individual-star transport leaves only `96` labeled packets in `12`
+orbits and forces all four mixed edges distinct. These counts are
+combinatorial admissibility, not component realization. Route the twelve
+source-line orbits through the coefficient/interpolation gate, the 123
+branch-independent packets through the split resolvent, and keep the
+exceptional `(KBDM-10)` orbit outside both queues.
+
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
 `ddfae529bf6e5fdee5e8b4810b9e034d617d2290`, note/verifier/certificate
 blobs `ba1cf54af98edae0941b40522022733eb4f32bdc`,
