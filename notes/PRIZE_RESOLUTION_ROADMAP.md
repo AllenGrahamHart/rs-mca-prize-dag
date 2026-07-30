@@ -5911,6 +5911,37 @@ next route-deciding action:
 compute spend: exact 720-permutation two-subset audit; no Modal
 ```
 
+**Same-day `m=4` genus-zero passport reduction:** the remaining outer
+`A6/S6` type is reduced from arbitrary degree-15 maps to four exact geometric
+passports.
+
+```text
+new node: rate_half_kb_m4_a6s6_genus_zero_passport_reduction [PROVED]
+Riemann--Hurwitz: total index 28; mandatory 5^3 pole costs 12
+complete S6 class table: 11 classes reconstructed from all 720 permutations
+parity-compatible residual index-16 budgets: 9
+product-one generation census:
+  five rows generate only order 60 or 120 and are deleted
+  four rows generate the required order 360 or 720
+retained three-point passports:
+  A6: 5.1,2.2.1.1,4.2
+  S6: 5.1,2.1.1.1.1,6
+  S6: 5.1,2.2.2,3.2.1
+retained four-point passport:
+  S6: 5.1,2.1.1.1.1,2.2.1.1,2.2.2
+A6 split-class audit: both 5-cycle classes agree
+primary mutations: 12/12 rejected
+independent audit: exact agreement on all tuple counts and subgroup orders
+DAG delta: one PROVED evidence node; critical target unchanged
+ledger movement: zero
+nonclaims: no challenge-field descent, split-fiber payment, source-star
+           incidence, m4 deletion, owner, endpoint, or KoalaBear row close
+next route-deciding action:
+  construct/classify the three rigid covers and test split zero/pole fibers
+  plus quartic source-star incidence before the four-point Hurwitz family
+compute spend: below one second under tiny RAMguard; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

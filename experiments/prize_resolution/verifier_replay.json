@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/verify.py",
-      "seconds": 0.021606,
+      "script": "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/verify.py",
+      "seconds": 0.231978,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M4_OUTER_A6S6_ROUTE_CUT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M4_A6S6_GENUS_ZERO_PASSPORT_REDUCTION_PASS\nRATE_HALF_KB_M4_A6S6_GENUS_ZERO_PASSPORT_MUTATIONS_12_OF_12_REJECTED\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m4_outer_a6s6_route_cut/verify_audit.py",
-      "seconds": 0.016344,
+      "script": "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/verify_audit.py",
+      "seconds": 0.246782,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M4_OUTER_A6S6_ROUTE_CUT_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_KB_M4_A6S6_GENUS_ZERO_PASSPORT_REDUCTION_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

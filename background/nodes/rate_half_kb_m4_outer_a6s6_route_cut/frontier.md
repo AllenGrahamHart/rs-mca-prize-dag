@@ -8,7 +8,9 @@ m=3: (r,delta)=(2,6),(3,4),(4,3),(6,2),(12,1)
 m=4: (r,delta)=(8,2), outer monodromy A6 or S6 on two-subsets
 ```
 
-Attack the sole `m=4` survivor through genus-zero branch cycles with one
-printed `5^3` pole cycle and the inherited three split pole points, fifteen
-split zero points, and quartic source-star correspondence. Do not search
-arbitrary degree-15 maps.
+The proved child
+`rate_half_kb_m4_a6s6_genus_zero_passport_reduction` cuts the sole `m=4`
+survivor to four exact geometric passports: three rigid three-point covers
+and one four-point `S6` cover. Attack those through the inherited three split
+pole points, fifteen split zero points, and quartic source-star
+correspondence. Do not search arbitrary degree-15 maps.

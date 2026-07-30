@@ -192,6 +192,18 @@ profile does not delete it. The independent frontier has nine types: three
 at `m=2`, five at `m=3`, and this single `m=4` survivor. No owner charge
 moves.
 
+The PROVED `rate_half_kb_m4_a6s6_genus_zero_passport_reduction` exhausts the
+survivor's branch-cycle classes. Riemann--Hurwitz leaves residual index 16
+after the mandatory `5^3` pole. Nine parity-compatible class budgets exist,
+but exact product-one enumeration shows five generate only `A5` or `S5`.
+Exactly four geometric passports remain: the three-point rows
+`A6:(5.1,2.2.1.1,4.2)`, `S6:(5.1,2.1.1.1.1,6)`, and
+`S6:(5.1,2.2.2,3.2.1)`, plus the four-point row
+`S6:(5.1,2.1.1.1.1,2.2.1.1,2.2.2)`. Attack the rigid three-point rows first
+through challenge-field split fibers and the quartic source-star incidence;
+do not enumerate arbitrary degree-15 maps. The `m=4` type and all owner
+charges remain open.
+
 ## Banked range
 
 Put
