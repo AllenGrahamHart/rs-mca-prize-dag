@@ -11156,6 +11156,23 @@ source-line `(2,0,2)` packet lies in the `4/3`-dimensional unramified
 coefficient locus. The biquadratic source-cover branch and the ramified
 possibility in `(1,1,2)` are not affected.
 
+The same defect ledger closes more than the ramified subcase. In every
+source-subfield branch, the square `P_(J_1)^2` consists of two identical
+reduced stars, and its whole-fiber reciprocal partner is a second square on
+the two crossing `I` labels. These are distinct doubled vertices and cost
+defect two. Together with the exact two-unit floor from the eight `J_0`
+stars, every `(2,0,2)` packet has defect at least four. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion` therefore deletes the
+entire orbit row, not merely its ramified source-line branch. The diagonal
+mixing frontier drops from five rows to four:
+
+```text
+(1,1,2), (1,0,4), (0,1,4), (0,0,6).
+```
+
+Next attack the saturated `(1,1,2)` square-fiber cases with the one remaining
+defect unit, while retaining the exceptional unsaturated orbit.
+
 Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
 `5b8a8dfe12af2236fe28665ff6fc66f54322a4a7`, note/verifier/certificate
 blobs `d69e5c6673a5bff7f181e84dcc10c56a9e1dc71a`,

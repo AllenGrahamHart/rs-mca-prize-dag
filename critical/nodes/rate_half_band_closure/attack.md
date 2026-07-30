@@ -1294,6 +1294,17 @@ unramified locus. This does not apply to the source-cover branch or delete
 the row; the next source-line step is the reciprocal occupancy and
 four-fiber interpolation calculation.
 
+The defect argument actually deletes the whole `(2,0,2)` row. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion` observes that the
+forced square quartic always gives one doubled `J_1-J_1` star vertex, while
+whole-fiber transport gives a distinct doubled `I-I` vertex at its paired
+label. This costs defect two without any source-line lift or unramifiedness.
+The eight `J_0-J_0` stars still cost at least two on their six possible
+edges. Hence every packet has defect at least four against budget three,
+in both source-subfield branches. Remove `(2,0,2)` from the diagonal census;
+four rows remain. The next defect attack is `(1,1,2)`, starting with its
+saturated square-fiber cases and keeping the printed exceptional orbit.
+
 The PROVED `rate_half_kb_m2_r4_source_row_interpolation_compiler` supplies
 the smaller shared actual-component gate. For twelve projective source-row
 quartics `q_i`, stack a `9 x 12` degree-two evaluation parity check across

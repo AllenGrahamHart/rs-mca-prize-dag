@@ -19032,6 +19032,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion",
+   "title": "KoalaBear m2 r4 diagonal c2 (2,0,2) defect exclusion",
+   "status": "PROVED",
+   "closure": "complete deletion of the diagonal (2,0,2) crossing-orbit row by reciprocal square vertices and the complete-source defect budget",
+   "statement": "Every actual diagonal (a,b,c)=(2,0,2) packet contradicts the complete-source defect budget. The forced square common-K quartic and its reciprocal partner give two distinct doubled star vertices, costing defect two. The four remaining common-K quartics give eight reduced stars on at most six J_0 edges, costing at least two more. Thus total defect is at least four against budget three. This deletes the row in both source-subfield branches and with or without source ramification; four diagonal mixing rows remain.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
    "title": "KoalaBear m2 universal source-row interpolation compiler",
    "status": "PROVED",
@@ -43002,6 +43021,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   }
