@@ -6253,6 +6253,14 @@ have rational outer component and a finite four-degree factor list.
 
 ```text
 new node: rate_half_kb_m2_r2_dihedral_outer_factor_reduction [PROVED]
+upstream custody:
+  PR #1132 theorem commit: b264da9d3309b7b42ab81a1481778d9d92ca8926
+  note/verifier/certificate blobs:
+    dc78b8209e263b8cf982fae4e340c84e1c225372
+    a4a4156ac4057f3892145851771cc44fc0cec157
+    4e389740170515d668ad1057488a484fb43cd104
+  certificate payload:
+    7f85c8e4bf9c1f324a705058992cd2e082a990feeb648f37189ba78d72df831c
 outer genus:
   source g=0 -> C=P1 directly
   source g=1 -> a is a two-torsion translation; c and ac are reflections
@@ -6286,6 +6294,14 @@ defect budget.
 
 ```text
 new node: rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion [PROVED]
+upstream custody:
+  PR #1132 head: fe2a549c8de1de34e5ea331ff4c410145207e381
+  note/verifier/certificate blobs:
+    68ec312696ae2b6afc12f538e3583a8f032c58b9
+    31c3f896c65baf642181405d07f320cf75e5a27f
+    ba27da451743fd198efd4b335a0983ed030acbb5
+  certificate payload:
+    1b711c1cde8f0652ce5e713513955ecdc1789e9fd62c361bca00ae05c9b4c287
 input: n=5 inside the full-V4 (m,r,delta)=(2,2,4) row
 dihedral pole profile:
   one generic order-five pole of G
