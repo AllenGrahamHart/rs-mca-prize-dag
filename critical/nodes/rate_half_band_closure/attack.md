@@ -288,9 +288,19 @@ Dickson/Chebyshev right factor of the outer map. The six distinct order-five
 poles leave exactly factor degrees `n=2,3,5,6`; the exceptional `n=5` row
 uses one generic order-five pole and the one totally ramified point over a
 simple pole. The full-V4 source cover has branch inertia `a,c,ac` in genus
-zero and `c,c,ac,ac` in genus one. None of the four factor degrees is yet
-deleted; impose the actual source/active locators rather than repeat their
-decomposition recurrence. No owner charge moves.
+zero and `c,c,ac,ac` in genus one. This parent reduction alone does not
+delete a factor degree. No owner charge moves.
+
+The PROVED
+`rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion` deletes the
+exceptional `n=5` profile. At the common totally ramified dihedral value,
+the two reflection quotients each have one source-pole value. The complete
+source pullback identity gives two degree-two source-parameter divisors over
+the corresponding endpoint source pair, and every one of their four units
+lands on the same matching source-star vertex. This contradicts the proved
+maximum star weight three. The full-V4 row is therefore reduced to
+`n=2,3,6`; all three generic-pole profiles remain open and no owner charge
+moves.
 
 ## Banked range
 

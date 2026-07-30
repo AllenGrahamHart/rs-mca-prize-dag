@@ -6280,6 +6280,35 @@ next action:
 compute spend: exact degree and tame ramification arithmetic only; no Modal
 ```
 
+**Same-day degree-five dihedral source-star exclusion:** the exceptional
+totally ramified pole profile is incompatible with the complete source
+defect budget.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion [PROVED]
+input: n=5 inside the full-V4 (m,r,delta)=(2,2,4) row
+dihedral pole profile:
+  one generic order-five pole of G
+  one simple pole of G at the common totally ramified quotient value
+source bridge:
+  div(B)=psi^*(sum_i [alpha_i])
+  h^-1(z_0)={w_+,w_-}, h^-1(y_0)={t_+,t_-}
+  D_w=psi^*[w] has degree two for each w
+star consequence:
+  every point of D_(w_+) and D_(w_-) has star {t_+,t_-}
+  total forced weight is 2+2=4
+  complete-source defect gives maximum star weight three
+result: n=5 is empty; surviving full-V4 factor degrees are {2,3,6}
+DAG delta: one PROVED subcase exclusion; critical target unchanged
+ledger movement: zero
+nonclaims: no n=2,3,6 deletion, other m2 type, owner, charge, u2,
+           endpoint, adjacent certificate, KoalaBear row, or MCA close
+next action:
+  impose the induced two-, three-, and six-cycle incidence on the actual
+  source-star equations; do not treat recurrence as endpoint nonexistence
+compute spend: exact degree-four weight arithmetic only; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every
