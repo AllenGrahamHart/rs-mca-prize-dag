@@ -16,16 +16,16 @@
 
 The theorem is vendored into the diagonal source-facet packet in draft PR
 `przchojecki/rs-mca#1132` at commit
-`34f74fece1f9a54f73b04c31932c899465d40a89`:
+`fa40cba826cde6d6650be907eb678e35bece301c`:
 
 ```text
-note blob:        d1f93e975a149dac6b9acc530dc6268a59550279
-verifier blob:    6725a86eda538d38a1414ce8933cdeee67ed89e0
-certificate blob: f70c6c4e8861db9231459fb5e9576943730d564
-payload SHA-256:  a919a052d67da8a35bec299ffaa1b0f22974d0b543cf05cbcb09e5d504db450e
+note blob:        de2af755db29db4690eef20beb189e695a6e123a
+verifier blob:    a01b25d3d61c03f59a4e229ed646ad4b1c692784
+certificate blob: 644f2d186880cb411117ed3aa8a6a40a96d54b55
+payload SHA-256:  14fed959f081050228575a4b1d16b027c4343e330ae45872982862e6ad58e6bf
 ```
 
-The pinned upstream packet predates the `A=0` admissibility correction: its
-determinant identities remain valid, but its survivor report retains the
-spurious fixed-point locus. Corrected upstream custody is recorded after the
-replacement packet is pushed.
+The upstream standard-library replay checks four generic determinant
+fixtures, excludes the apparent `A=0` locus, retains distinct-label witnesses
+on `B=0` and `C=0`, and rejects `124` of `124` hostile mutations. The
+correction report is PR comment `5132360554`.

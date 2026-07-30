@@ -11357,9 +11357,9 @@ mutations. The latest extension report is `przchojecki/rs-mca#1132` comment
 
 ```text
 starting local pin:       670c3dc5 (pre-c2 capacity refinement)
-ending local theorem pin: eae904eec48f1f09d027bd83ea0d51816b9502a6
+ending local theorem pin: 24b4682367ae289cea3dd24e2fbf56d473f95963
 canonical prize pin:      11cea27b (unchanged)
-ending upstream pin:      34f74fece1f9a54f73b04c31932c899465d40a89
+ending upstream pin:      fa40cba826cde6d6650be907eb678e35bece301c
 node attacked:            rate_half_band_closure via diagonal c=2
 result:                   NARROWED + EXPORTED
 DAG delta:                +10 PROVED nodes, +30 edges; target status unchanged
