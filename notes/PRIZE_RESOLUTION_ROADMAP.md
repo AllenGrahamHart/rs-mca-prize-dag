@@ -11097,3 +11097,12 @@ five rows, beginning with `c=2`, where four labels on each side remain
 noncrossing and the transported support restrictions are strongest. A row
 is closed only by inconsistency with the actual interpolation, exact degree,
 irreducibility, deck distinction, and outer-factor interfaces.
+
+Upstream custody is draft PR `przchojecki/rs-mca#1132`, commit
+`1adfe06c6982ce6b2afc677f3f40fa5355bcf8bd`, note/verifier/certificate
+blobs `3f0cf8c8e1ac9c964f4650b97c925d12c7c00b89`,
+`e3888ea1d1423da1a1458cd69447cb63abb9914e`, and
+`6614682ad1f6c4c3c6c6f80ef484ed6bffa324fd`, with canonical payload
+`e5d3705f96c3fe141e3ed87c3d4901e7528b4297c9b92b5d014918ad5f9d4112`.
+Its verifier classifies all `10,395` fixed-point-free matchings and rejects
+`44` of `44` hostile mutations.
