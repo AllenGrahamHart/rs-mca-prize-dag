@@ -6482,6 +6482,39 @@ next action:
 compute spend: exact symbolic coordinate transport only; no Modal
 ```
 
+**Same-day residual quartic singularity atlas:** coefficient factorization
+and genus are now completely classified and delete no allowed parameter.
+
+```text
+new node: rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas [PROVED]
+input: Q_(a,b), a in {-1,1}, b notin {-2,2}
+quadratic-in-X form, X=S^2:
+  discriminant=P^2(alpha P^2+beta)
+  alpha=(a-2)(a+2)(b-2)^3(b+2)
+  beta=-4(a+2)(a-b)(b-2)^3
+constant term:
+  M=(a-2)(P+1)^2 N(P)
+  disc(N)=4(a+2)(b-2)^2
+generic b!=a:
+  Q is geometrically irreducible
+  singularities: (0,-1) and P=0, S^2=(a-2)/(a-b)
+  all three are ordinary nodes; total delta=3
+special b=a:
+  Q remains geometrically irreducible
+  one node at (0,-1), one tacnode of delta two at [1:0:0]
+result:
+  every allowed coefficient quartic is rational and geometrically viable
+  coefficient factorization/genus delete no b
+DAG delta: one PROVED atlas node; critical target unchanged
+ledger movement: zero
+nonclaims: no six-pole/source realization, n=3/n=6 deletion, m2 close,
+           owner, charge, u2, endpoint, KoalaBear row, or MCA close
+next action:
+  parameterize Q_(a,b) and impose the six order-five pole fibers, degree-24
+  source locator, and twelve quartic row divisors
+compute spend: exact degree-four derivatives and square classes; no Modal
+```
+
 **2026-07-28, E17 cutoff-free route and V=34 endpoint close:** odd diameter
 parity reduces the chamber to the one/five-odd atlas. A complete dual census,
 the proper-conductor theorem, and dual exact odd-part resultants close every

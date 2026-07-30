@@ -111,6 +111,16 @@ and genus-three profiles are excluded. The five rows remain unpaid; the
 separate dihedral `r=2` survivor is deleted by the later diagonal-socle cut.
 No owner charge moves.
 
+The PROVED
+`rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas` closes the
+coefficient-geometry audit. Every allowed `Q_(a,b)` is geometrically
+irreducible and rational. For `b!=a` it has three ordinary nodes; at `b=a`
+two move to infinity and form one tacnode, while the third node remains.
+The total delta is always three. Therefore no allowed residual parameter can
+be deleted by another factorization or genus argument. The next attack must
+substitute the six order-five pole fibers and complete source locators into
+the printed one-parameter normal forms. No owner charge moves.
+
 The PROVED `rate_half_kb_m12_outer_normal_form_compiler` removes arbitrary
 outer-quintic search. Geometrically, the dihedral row is a Dickson quintic
 `x^5-5a*x^3+5a^2*x`; four `r=4` branch profiles have rigid printed forms,
