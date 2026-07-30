@@ -11339,25 +11339,67 @@ survivor is therefore inadmissible. The direct moving `(b,w)` Groebner step
 timed out at `60 s`, while invariant reduction finishes in under sixteen
 seconds. These are exact slices, not a generic certificate.
 
+The generic reconstruction has now been compressed without the failed
+four-variable cancellation tree. Put
+
+```text
+p=cd,                    t=-(c+d),
+q(T)=T^2+tT+p,
+alpha=q(2)=p+2t+4,       beta=4q(1/2)=4p+2t+1.
+```
+
+Then the internal quotient label is the single fraction
+
+```text
+z=(w*beta-alpha)/(beta-w*alpha).
+```
+
+Fraction-free Cramer reconstruction reduces the fixed-moving source form to
+five polynomials with `42--54` terms and the moving-moving form to five with
+`82--101` terms. After division by `(W-w)^2`, each endpoint residual is a
+quadratic. Unique factorization leaves exactly three target allocations:
+the two residuals receive the same inverse root twice, the opposite inverse
+root twice, or one copy of each root. Thus the aligned-positive saturation is
+exactly twelve small cases: two internal-edge templates, three allocations,
+and unramified versus repaired `w=0` residual formulas. Moving cases close
+under `b->1/b` and reduce to quadratics in `s=b+1/b`. An independent exact
+`5 x 5` matrix solve at `(c,d,b,w)=(3,7,5,11)` checks each template's
+fraction-free coefficient vector projectively.
+
+All twelve cases have bounded exact coefficient and minor generators in
+`kb_c2_112_positive_qslice_symmetric.py`. Their generic minors recover only
+fixed-label/collision factors in the tested reductions, and the ramified
+specializations expose the same collision loci. This is a strict algebraic
+narrowing, **not a deletion theorem**: a multivariate gcd does not exclude
+isolated simultaneous zeros of the quotient minors. An exact FLINT follow-up
+confirms that warning. Even the first fixed-moving/same-root pairwise endpoint
+resultant contains noncollision factors of bidegrees `(4,4)`, `(15,13)`, and
+`(34,28)` before all constraints are imposed. Local comprehensive elimination
+did not finish inside `60 s`; do not promote the positive sign from the minor
+gcds or repeat generic SymPy Gröbner runs. With `python-flint` installed, the
+default `kb_c2_112_positive_qslice_flint.py fixed-moving same` invocation
+replays that normalized constraint-pair pilot.
+
 ### Compute request CR-KB-C2-112-POS-QS-SAT
 
-Prove the parametric saturation suggested by those slices without expanding
-the full quotient resultants. Normalize the common endpoint to `2`, keep
-`c,d` symbolic, and form the four aligned positive q-slice mismatch
-coefficients after exact reconstruction.
+Prove the twelve-case parametric saturation above without expanding the full
+quotient resultants. Normalize the common endpoint to `2` and work directly
+over `Q(p,t)` with the banked fraction-free reconstruction.
 
-1. In the fixed-moving template, saturate by every printed reconstruction
-   denominator and label-collision factor and certify that the residual ideal
-   forces `w^2-1=0`.
-2. In the moving-moving template, first rewrite every reciprocal numerator in
-   `s=b+1/b`; certify that the saturated residual ideal forces
-   `(w^2-1)(s^2-4)=0`.
-3. Return a compact Bezout, subresultant, or modular-interpolation certificate
+1. For each of the three UFD allocations in the fixed-moving template,
+   saturate by the printed reconstruction denominators and exact label-
+   collision factors. Do the unramified and `w=0` residual formulas
+   separately.
+2. Repeat for moving-moving after closing under `b->1/b` and rewriting in
+   `s=b+1/b`. Do not infer completeness from a generic field gcd: discharge
+   every endpoint curve and isolated specialization in `(p,t)`.
+3. Return a compact Bezout, comprehensive-Gröbner, subresultant, or modular-
+   interpolation certificate
    with degree bounds and an independent exact checker. Do not use a generic
    four-variable SymPy `cancel` tree; that local representation exceeded the
-   RAMguard ceiling. Even the `c=3`, symbolic-`d` lift reached the forced
-   solve but not the constant factorization before its `60 s` cap; use the
-   cheap two-numeric-endpoint slices only as interpolation data.
+   RAMguard ceiling. The checker must reconstruct the twelve fraction-free
+   ideals from `(p,t,b,w)` and reject deletion if any noncollision endpoint
+   specialization remains.
 
 Either certificate deletes the aligned positive sign by fixed-point-free
 labels and, together with the aligned negative theorem, removes the whole
@@ -11431,7 +11473,9 @@ upstream delta:           c2 capacity, linear cut, 202 deletion, 112 classifier,
                           factor/aligned-exclusion loci in PR #1132
 delta-star movement:      none
 new assumptions:          none; (1,1,2) ramified and biquadratic survivors retained
-live compute requests:    CR-KB-C2-112-QR-ELIM (external/deferred; 30 shards)
-next route-deciding step: factor the aligned positive q-slice mismatch and
-                          both near-aligned signs with their actual target
+live compute requests:    CR-KB-C2-112-POS-QS-SAT (external; 12 ideals) and
+                          CR-KB-C2-112-QR-ELIM (external/deferred; 30 shards)
+next route-deciding step: complete the twelve-case aligned-positive
+                          specialization certificate, or attack both
+                          near-aligned signs with their actual target
 ```
