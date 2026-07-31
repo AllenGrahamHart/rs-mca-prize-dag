@@ -10709,6 +10709,13 @@ one-parameter antipodal cells.  The first product-minor cut deletes
 cells and `M1,M2,M3` remain.  Product-map and second-weld elimination must
 start from this six-cell ledger, not labeled assignments.
 
+The constrained cells are now fully compiled: `X2,N1` use one reciprocal
+quartic in `M` plus a quadratic in `c`, and `L1` uses degrees `2 x 4` with a
+linear locator.  Their total common-`K` cap is 24, with exact witnesses.
+External work should not eliminate them again; carry them into complete
+source-facet/seven-fiber assembly.  Only `M1,M2,M3` still need common-`K`
+product/q classification.
+
 Suggested pilot: one canonical packet stratum, one CPU, at most 512 MiB,
 60 seconds, deterministic partial output, and no parallel fleet.  Modular
 reconnaissance is evidence only; universal deletion requires symbolic or

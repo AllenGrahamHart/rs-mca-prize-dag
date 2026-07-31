@@ -2033,3 +2033,25 @@ Substitute the cubic relation before eliminating the first three cells.
 Keep the remaining squared weld explicit and treat `M1,M2,M3` separately;
 one unsaturated six-cell ideal would reintroduce the deleted collision
 components.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier`
+finishes `X2,N1,L1`.  The first two share
+
+```text
+P_8(M)=M^4+8M^3-2M^2+8M+1=0
+```
+
+and have the sign-specific quadratic
+
+```text
+(c^2+1)(M+1)^2 +/- c(M-1)^2=0.
+```
+
+Cell `L1` has `M^2=-1`, `2c^4+3c^2+2=0`, and
+`3L=4c^3+2c-M`.  These equations are equivalent to all remaining common-`K`
+product minors and the second squared weld under the exact guards.  Each
+cell contributes at most eight candidates, and guard-passing finite-field
+witnesses prove all three common-`K` interfaces are nonempty.  Replay these
+24 candidates only during seven-fiber completion; the unresolved
+common-`K` work is now exactly `M1,M2,M3`.

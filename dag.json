@@ -20436,6 +20436,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop 433 constrained product-q classifier",
+   "status": "PROVED",
+   "closure": "exact zero-dimensional common-K product and q ledgers of degrees eight in each of cells X2, N1, and L1",
+   "statement": "After b=-c^3, cells X2 and N1 share the reciprocal quartic P_8(M)=M^4+8M^3-2M^2+8M+1 and have sign-specific quadratic equations (c^2+1)(M+1)^2 +/- c(M-1)^2=0. Cell L1 has M^2+1=0, 2c^4+3c^2+2=0, and 3L=4c^3+2c-M. These equations are equivalent to all common-K product minors and the second squared q weld under the exact guards, yielding at most 24 candidates. Guard-passing finite-field witnesses show every cell is nonempty.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
    "title": "KoalaBear m2 r2 dihedral degree-five source-star exclusion",
    "status": "PROVED",
@@ -39166,6 +39186,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
