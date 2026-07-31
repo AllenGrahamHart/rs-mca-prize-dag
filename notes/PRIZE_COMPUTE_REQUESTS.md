@@ -10984,6 +10984,11 @@ complete.  Their exact bases contain the forbidden coordinate `e`, after
 435 S-pairs in each cubic component.  These are guard-saturated deletions,
 not raw unit ideals.  The accepted frontier is 74.
 
+The two opposite-parity forced-`EF+/-` cells are complete too: their 17-term
+systems again finish with the forbidden equation `e=0` after 435 S-pairs in
+both components.  Only two forced-loop `S1` cells remain in common sign row
+`(1,1)`, and the accepted frontier is 72.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs

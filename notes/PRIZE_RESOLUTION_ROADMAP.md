@@ -13174,3 +13174,22 @@ accepted frontier:        74 cells, down from 76
 Modal status:             no launch and no cost
 next route-deciding step: opposite-parity forced-EF cells
 ```
+
+### Work-cycle burn-down: one-loop 442 tau-minus forced EF
+
+```text
+starting local pin:       e9ab426d (tau-plus forced-EF exclusions)
+ending local theorem pin: current tau-minus forced-EF exclusions
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / final two rational S1 cells in common row
+result:                   PROVED both guarded product cells are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; two exact subcase deletions)
+sparse systems:           3 equations, 17 (d,e) monomials each
+certificates:             completed basis contains e after 435 S-pairs
+representative S1 row:    8 of 10 cells deleted; 2 forced-loop remain
+accepted frontier:        72 cells, down from 74
+Modal status:             no launch and no cost
+next route-deciding step: split forced-loop quadratic extension
+```

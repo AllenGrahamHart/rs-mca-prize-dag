@@ -2706,3 +2706,10 @@ deletes both forced-`EF+/-` cells in the `tau_1=+1` parity of common sign row
 completed basis contains `e=0` in both cubic components.  This is a guarded,
 not raw-unit, deletion because target representatives are nonzero.  The
 accepted frontier is 74.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion`
+does the same for `tau_1=-1`.  Its systems have 17 terms and again finish
+with the forbidden guard equation `e=0` after 435 S-pairs.  Thus eight of ten
+`S1` cells in common sign row `(1,1)` are deleted; only its two forced-loop
+cells remain.  The accepted four-row frontier is 72.
