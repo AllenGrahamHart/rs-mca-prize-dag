@@ -2825,3 +2825,20 @@ For either parity, the three equations have twelve monomials.  Both cubic
 components complete after 190 S-pairs with monic `e^2`, contradicting
 `e!=0`.  Transport both guarded deletions and reduce the
 frontier from 16 to 8; only two forced-internal parity cells remain per row.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion`
+deletes the final two `S0` parities in every row.  After `de=m`, clear the
+admissible factor `d^2` to obtain
+
+```text
+(dX-cmZ)(X-cfZ)(X+mZ)(X^2-d^2f^2Z^2)
+(dX-tau_0*mfZ).
+```
+
+For either parity, the three equations have fourteen monomials.  Both
+components complete after 406 S-pairs with monic `f`, contradicting the
+nonzero outside guard.  Transport gives all eight final deletions.  Thus all
+24 `S0`, 40 `S1`, and 16 `S2` cells are empty: the accepted 80-cell product
+frontier for common orbit `[9,10,12,13]` is closed.  Do not run its q or
+interpolation stages; return to the other common matching orbits.

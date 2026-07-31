@@ -13356,3 +13356,24 @@ remaining product cells:  S0 forced-internal=2 per common sign row
 Modal status:             no launch and no cost
 next route-deciding step: final S0 forced-internal parity pair
 ```
+
+### Work-cycle burn-down: one-loop 442 final S0 / 80-cell product close
+
+```text
+starting local pin:       0d64c65f (all-row S0 forced-EF exclusions)
+ending local theorem pin: current final S0 / common-orbit product close
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / final S0 type and full invariant frontier
+result:                   PROVED all 80 product cells are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-orbit subcase close)
+residual system:          3 equations, 14 (d,f) monomials each
+certificates:             basis contains f after 406 S-pairs in all 4 runs
+cell accounting:          S0=24, S1=40, S2=16; all deleted
+accepted frontier:        0 cells, down from 8 (and from original 80)
+scope closed:             common orbit [9,10,12,13], nonloop singleton
+obsolete stages:          product matching, outside q, full interpolation
+Modal status:             no launch and no cost
+next route-deciding step: inspect other one-loop 442 common matching orbits
+```

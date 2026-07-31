@@ -11046,6 +11046,13 @@ denominator-cleared twelve-term equations complete after 190 S-pairs with
 `e^2=0` in all four parity/component runs, contradicting `e!=0`.  The
 accepted frontier is eight: only two forced-internal parity cells per row.
 
+Both forced-internal `S0` parity cells are retired in every common row.
+Their fourteen-term equations complete after 406 S-pairs with `f=0` in all
+four parity/component runs, contradicting the nonzero outside guard.  This
+closes all `24+40+16=80` invariant-product cells for common orbit
+`[9,10,12,13]`.  Do not request another product, q-placement, or
+interpolation task for this orbit; determine the next live common orbit.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs
