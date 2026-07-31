@@ -13215,3 +13215,24 @@ Modal status:             no launch and no cost
 next route-deciding step: prove common-sign transport, otherwise begin one
                           explicitly pinned S0 or S2 representative cell
 ```
+
+### Work-cycle burn-down: one-loop 442 S1 common-sign transport
+
+```text
+starting local pin:       102fbf9e (representative forced-loop exclusions)
+ending local theorem pin: current all-row S1 product transport
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / common root-sign transport
+result:                   PROVED all 40 S1 product cells are empty
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase transport)
+component identity:       exact c,m triples agree in all 8 row/components
+loop square class:        -m nonsquare in both components for every row
+transported certificates: 8 rational plus 2 forced-loop cells per row
+accepted frontier:        40 cells, down from 70
+remaining product cells:  S0=6 and S2=4 in each common sign row
+Modal status:             no launch and no cost
+next route-deciding step: compile one pinned S0 or S2 sparse system; product
+                          transport does not cover source q or interpolation
+```

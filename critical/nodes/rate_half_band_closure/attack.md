@@ -2725,3 +2725,16 @@ components.  Thus all ten `S1` cells in common sign row `(1,1)` are empty
 at product level and the accepted four-row frontier is 70.  No deletion is
 transported to another common sign row, and the `S0`, `S2`, outside-`q`, and
 interpolation tasks remain live.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport`
+now supplies the missing all-row transport at product level.  Under the
+canonical maps to both cubic components, the exact coefficient triples of
+`c` and `m` are identical in all four common root-sign rows.  Every `S1`
+binary-sextic action and residual forced-record form is a polynomial in
+`b,c,m` and its outside parity; the loop tower is uniformly
+`theta^2=-m`.  Hence the ten representative-row exclusions transport
+coefficient for coefficient to the other three rows.  Delete all forty
+`S1` product cells and reduce the accepted frontier from 70 to 40: six
+`S0` and four `S2` cells remain in each row.  This does not transport the
+source-root or `q` equations.

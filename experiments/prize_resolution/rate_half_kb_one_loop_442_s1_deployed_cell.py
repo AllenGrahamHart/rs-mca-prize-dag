@@ -2,6 +2,7 @@
 """Build one deployed S1 forced-DE sextic cell in two outside variables."""
 
 import argparse
+import functools
 import importlib.util
 import math
 from pathlib import Path
@@ -27,6 +28,11 @@ SELECTOR = importlib.util.module_from_spec(SELECTOR_SPEC)
 SELECTOR_SPEC.loader.exec_module(SELECTOR)
 P = MATE.PARENT.PRIME
 IOTA = MATE.PARENT.IOTA
+
+
+@functools.lru_cache(maxsize=4)
+def common_data(epsilon_1, epsilon_2):
+    return MATE.quotient_data(epsilon_1, epsilon_2)
 
 
 def poly_add(left, right):
@@ -64,7 +70,8 @@ def binary_mul(left, right):
     return output
 
 
-def build(alpha_sign=1, cell="forced-de", delta_sign=-1, ef_sign=1):
+def build(alpha_sign=1, cell="forced-de", delta_sign=-1, ef_sign=1,
+          epsilon_1=1, epsilon_2=1):
     if alpha_sign not in (-1, 1):
         raise ValueError("alpha_sign must be +/-1")
     if delta_sign not in (-1, 1):
@@ -73,7 +80,11 @@ def build(alpha_sign=1, cell="forced-de", delta_sign=-1, ef_sign=1):
         raise ValueError("ef_sign must be +/-1")
     if cell not in ("forced-de", "forced-ce", "forced-ef"):
         raise ValueError("unsupported cell")
-    b, r, t, d_c, vector, polynomial, matrix = MATE.quotient_data(1, 1)
+    if epsilon_1 not in (-1, 1) or epsilon_2 not in (-1, 1):
+        raise ValueError("common signs must be +/-1")
+    b, r, t, d_c, vector, polynomial, matrix = common_data(
+        epsilon_1, epsilon_2
+    )
     d, s = sp.symbols("d s")
     x = r**2
     a_poly = x**2-6*x+1
@@ -226,10 +237,12 @@ def main():
                         default="forced-de")
     parser.add_argument("--delta-sign", type=int, choices=(-1, 1), default=-1)
     parser.add_argument("--ef-sign", type=int, choices=(-1, 1), default=1)
+    parser.add_argument("--epsilon-1", type=int, choices=(-1, 1), default=1)
+    parser.add_argument("--epsilon-2", type=int, choices=(-1, 1), default=1)
     arguments = parser.parse_args()
     variables, common_basis, equations, _ = build(
         arguments.alpha_sign, arguments.cell, arguments.delta_sign,
-        arguments.ef_sign,
+        arguments.ef_sign, arguments.epsilon_1, arguments.epsilon_2,
     )
     d, s, t, r, b = variables
     profiles = []
@@ -250,6 +263,7 @@ def main():
         f"S1_DEPLOYED_CELL_BUILT cell={arguments.cell} "
         f"alpha_sign={arguments.alpha_sign} delta_sign={arguments.delta_sign} "
         f"ef_sign={arguments.ef_sign} "
+        f"common_signs={arguments.epsilon_1},{arguments.epsilon_2} "
         f"profiles={profiles}", flush=True
     )
     if not arguments.groebner:

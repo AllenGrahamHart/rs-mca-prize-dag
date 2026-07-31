@@ -10999,6 +10999,16 @@ empty, and the accepted frontier is 70.  Do not request another `(1,1)`
 `S1` computation.  The next useful task is a proof of common-sign transport
 or a separately pinned cell in another row; `S0` and `S2` also remain live.
 
+Common-sign product transport is now PROVED, so no `S1` computation in any
+of the four common rows should be requested.  Exact component reduction
+shows that the reconstructed `c` and `m` coefficient triples are identical
+in all eight row/component pairs.  The rational and forced-loop `S1`
+systems are therefore coefficient-identical to the ten representative-row
+systems.  All forty `S1` cells are empty and the accepted frontier is 40,
+consisting of six `S0` and four `S2` cells per row.  This retirement applies
+only to product invariance; source-root, `q`, and interpolation tasks are not
+transported.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs

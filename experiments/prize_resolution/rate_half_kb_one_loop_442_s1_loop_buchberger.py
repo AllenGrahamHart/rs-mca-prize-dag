@@ -82,8 +82,10 @@ def escale(scalar, value):
     return embed(SOLVER.scale(scalar, value))
 
 
-def common_values(component):
-    b, r, t, d_c, vector, polynomial, matrix = BUILDER.MATE.quotient_data(1, 1)
+def common_values(component, epsilon_1=1, epsilon_2=1):
+    b, r, t, d_c, vector, polynomial, matrix = BUILDER.common_data(
+        epsilon_1, epsilon_2
+    )
     x = r**2
     a_poly = x**2-6*x+1
     b_poly = (x+1)**2
@@ -99,7 +101,9 @@ def common_values(component):
         multiplication = BUILDER.SELECTOR.as_lists(matrix(expression))
         coordinates = tuple(multiplication[index][0]
                             for index in range(BUILDER.SELECTOR.SIZE))
-        return SOLVER.project(coordinates, SOLVER.CUBICS[component])
+        return SOLVER.project(
+            coordinates, SOLVER.CUBICS[component], epsilon_1, epsilon_2
+        )
 
     return project_value(c_value), project_value(mate_value)
 
@@ -256,9 +260,9 @@ def buchberger(equations, modulus, square):
     return basis
 
 
-def build_equations(component, delta_sign):
+def build_equations(component, delta_sign, epsilon_1=1, epsilon_2=1):
     modulus = SOLVER.CUBICS[component]
-    c_base, mate_base = common_values(component)
+    c_base, mate_base = common_values(component, epsilon_1, epsilon_2)
     square = SOLVER.neg(mate_base)
     legendre = SOLVER.power(square, (Q3-1)//2, modulus)
     if legendre != SOLVER.neg(BONE):
@@ -332,11 +336,14 @@ def build_equations(component, delta_sign):
     return modulus, square, equations
 
 
-def solve(component, delta_sign):
-    modulus, square, equations = build_equations(component, delta_sign)
+def solve(component, delta_sign, epsilon_1=1, epsilon_2=1):
+    modulus, square, equations = build_equations(
+        component, delta_sign, epsilon_1, epsilon_2
+    )
     print(
         "S1_LOOP_COMPONENT_BUILT "
         f"component={component} delta_sign={delta_sign} "
+        f"common_signs={epsilon_1},{epsilon_2} "
         f"terms={tuple(len(equation) for equation in equations)} "
         f"leaders={tuple(leading(equation)[0] for equation in equations)}",
         flush=True,
@@ -348,11 +355,17 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("component", type=int, choices=(0, 1))
     parser.add_argument("--delta-sign", type=int, choices=(-1, 1), required=True)
+    parser.add_argument("--epsilon-1", type=int, choices=(-1, 1), default=1)
+    parser.add_argument("--epsilon-2", type=int, choices=(-1, 1), default=1)
     arguments = parser.parse_args()
-    _, basis = solve(arguments.component, arguments.delta_sign)
+    _, basis = solve(
+        arguments.component, arguments.delta_sign,
+        arguments.epsilon_1, arguments.epsilon_2,
+    )
     print(
         "S1_LOOP_COMPONENT_RESULT "
         f"component={arguments.component} delta_sign={arguments.delta_sign} "
+        f"common_signs={arguments.epsilon_1},{arguments.epsilon_2} "
         f"unit={basis == [{(0, 0): EONE}]} basis={len(basis)}",
         flush=True,
     )

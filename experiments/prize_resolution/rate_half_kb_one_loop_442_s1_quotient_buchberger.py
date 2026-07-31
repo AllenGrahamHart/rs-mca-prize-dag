@@ -78,8 +78,41 @@ def inverse(value, modulus):
     return power(value, P**3-2, modulus)
 
 
-@functools.lru_cache(maxsize=2)
-def projected_basis(modulus):
+@functools.lru_cache(maxsize=None)
+def projected_basis(modulus, epsilon_1=1, epsilon_2=1):
+    if (epsilon_1, epsilon_2) != (1, 1):
+        b, c, r, t = BUILDER.sp.symbols("b c r t")
+        cubic, product, weld, _ = BUILDER.MATE.PARENT.common_generators(
+            epsilon_1, epsilon_2, b, c, r, t
+        )
+        factor = b**3+modulus[2]*b**2+modulus[1]*b+modulus[0]
+        basis = BUILDER.sp.groebner(
+            (cubic, factor, product, weld), t, r, b,
+            order="lex", method="f5b", modulus=P,
+        )
+
+        def project_expression(expression):
+            remainder = BUILDER.sp.Poly(
+                basis.reduce(expression)[1], t, r, b, modulus=P
+            )
+            coordinates = [0, 0, 0]
+            for powers, coefficient in remainder.terms():
+                if powers[0] or powers[1] or powers[2] > 2:
+                    raise RuntimeError(
+                        f"non-cubic projection {epsilon_1},{epsilon_2}: "
+                        f"{remainder.as_expr()}"
+                    )
+                coordinates[powers[2]] = int(coefficient) % P
+            return tuple(coordinates)
+
+        values = tuple(project_expression(expression) for expression in (
+            BUILDER.sp.Integer(1), b, b**2, r, b*r, t
+        ))
+        if values[:3] != (ONE, B_ELEMENT,
+                          multiply(B_ELEMENT, B_ELEMENT, modulus)):
+            raise RuntimeError("common quotient cubic basis")
+        return values
+
     r_numerator = (-1 % P, (IOTA+1) % P, -1 % P)
     r_denominator = (1, (IOTA-1) % P, 1)
     r_value = multiply(r_numerator, inverse(r_denominator, modulus), modulus)
@@ -117,9 +150,11 @@ def projected_basis(modulus):
     return (ONE, B_ELEMENT, b_squared, r_value, br_value, t_value)
 
 
-def project(coordinates, modulus):
+def project(coordinates, modulus, epsilon_1=1, epsilon_2=1):
     value = ZERO
-    for scalar, element in zip(coordinates, projected_basis(modulus)):
+    for scalar, element in zip(
+        coordinates, projected_basis(modulus, epsilon_1, epsilon_2)
+    ):
         value = add(value, scale(scalar, element))
     return value
 
@@ -247,29 +282,34 @@ def buchberger(equations, modulus):
     return basis
 
 
-def component_equations(matrix_equations, modulus):
+def component_equations(matrix_equations, modulus, epsilon_1=1, epsilon_2=1):
     equations = []
     for equation in matrix_equations:
         projected = {}
         for powers, matrix in equation.items():
             coordinates = tuple(matrix[index][0]
                                 for index in range(BUILDER.SELECTOR.SIZE))
-            projected[powers] = project(coordinates, modulus)
+            projected[powers] = project(
+                coordinates, modulus, epsilon_1, epsilon_2
+            )
         equations.append(clean(projected))
     return equations
 
 
 def solve_component(component, alpha_sign=1, cell="forced-de", delta_sign=-1,
-                    ef_sign=1):
+                    ef_sign=1, epsilon_1=1, epsilon_2=1):
     _, _, _, matrix_equations = BUILDER.build(
-        alpha_sign, cell, delta_sign, ef_sign
+        alpha_sign, cell, delta_sign, ef_sign, epsilon_1, epsilon_2
     )
     modulus = CUBICS[component]
-    equations = component_equations(matrix_equations, modulus)
+    equations = component_equations(
+        matrix_equations, modulus, epsilon_1, epsilon_2
+    )
     print(
         "S1_QUOTIENT_COMPONENT_BUILT "
         f"component={component} cell={cell} alpha_sign={alpha_sign} "
         f"delta_sign={delta_sign} ef_sign={ef_sign} "
+        f"common_signs={epsilon_1},{epsilon_2} "
         f"terms={tuple(len(equation) for equation in equations)} "
         f"leaders={tuple(leading(equation)[0] for equation in equations)}",
         flush=True,
@@ -285,16 +325,20 @@ def main():
                         default="forced-de")
     parser.add_argument("--delta-sign", type=int, choices=(-1, 1), default=-1)
     parser.add_argument("--ef-sign", type=int, choices=(-1, 1), default=1)
+    parser.add_argument("--epsilon-1", type=int, choices=(-1, 1), default=1)
+    parser.add_argument("--epsilon-2", type=int, choices=(-1, 1), default=1)
     arguments = parser.parse_args()
     _, basis = solve_component(
         arguments.component, arguments.alpha_sign,
         arguments.cell, arguments.delta_sign, arguments.ef_sign,
+        arguments.epsilon_1, arguments.epsilon_2,
     )
     print(
         "S1_QUOTIENT_COMPONENT_RESULT "
         f"component={arguments.component} cell={arguments.cell} "
         f"alpha_sign={arguments.alpha_sign} delta_sign={arguments.delta_sign} "
         f"ef_sign={arguments.ef_sign} "
+        f"common_signs={arguments.epsilon_1},{arguments.epsilon_2} "
         f"unit={basis == [{(0, 0): ONE}]} "
         f"basis={len(basis)}",
         flush=True,
