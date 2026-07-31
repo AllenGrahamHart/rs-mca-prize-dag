@@ -13397,3 +13397,23 @@ Modal status:             no launch and no cost
 next route-deciding step: compile its product involution/outside mate;
                           common orbit [4,5,7,8] remains unclassified
 ```
+
+### Work-cycle burn-down: cells 3/6 product involution
+
+```text
+starting local pin:       31b5df69 (cells 3/6 finite common classifier)
+ending local theorem pin: current cells 3/6 product involution compiler
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / finite AB-singleton outside product action
+result:                   PROVED unique involution and forced outside mate
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact product compiler)
+quadratic collapse:       4c^2=5b+6 with 2b^2+3b+2=0
+determinant:              four common-product guard factors
+forced mate:              m=(18-5b)/22; denominator resultant 176
+outside interface:        one m plus three involution pairs
+Modal status:             no launch and no cost
+next route-deciding step: compile S0/S1/S2 product templates over the
+                          quadratic b algebra
+```

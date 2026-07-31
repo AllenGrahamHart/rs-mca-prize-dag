@@ -2861,3 +2861,20 @@ There are four guarded packets in each root-sign row and sixteen total in
 the deployed field.  Thus `[3,6]` is finite but live.  Compile its product
 involution and outside mate next; the only common matching orbit still
 unclassified is `[4,5,7,8]`.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler`
+compresses the next product layer.  Every one of the sixteen common packets
+also has `4c^2=5b+6`.  The pairs `(-b^2,-b)` and `(c,-c)` determine
+
+```text
+Gamma=b(b+1), Alpha=-(b^3+c^2), Beta=-b(b+1)c^2,
+det=(b-c)(b+c)(b^2-c)(b^2+c),
+m=iota(b)=(18-5b)/22.
+```
+
+The determinant is a product guard and the mate denominator has resultant
+`176` against `2b^2+3b+2`.  Therefore every outside product cell must
+contain `m` and split its other six values into three involution pairs.
+Compile these templates directly over the quadratic `b` algebra; do not
+carry the sixteen source-root packets into the product stage.
