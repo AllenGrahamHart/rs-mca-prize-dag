@@ -11829,8 +11829,7 @@ starting local pin:       0e24d318 (saturated 112 export record)
 ending local theorem pin: unchanged; experimental router only
 canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
 node/workboard attacked:  K3 / aligned positive unramified c2(1,1,2)
-cells attacked:           all fixed-moving allocations plus moving/same
-                          (4 of 6)
+cells attacked:           all 6 fixed-moving and moving-moving allocations
 result:                   NARROWED; no deletion and no survivor
 DAG delta:                none
 critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
@@ -11839,12 +11838,12 @@ exact movement:           quadratic-in-b compiler now completes; same/swap
                           linear component excluded; reciprocal quartic,
                           cubic, quintic, and mixed linear rank components
                           reduced to finite kernel-conic norms; exact
-                          reciprocal trace descent narrows moving/same to
-                          forbidden linear support plus a degree-160 norm
+                          reciprocal trace descent narrows moving same/swap/
+                          mixed to forbidden linear support plus norms of
+                          degrees 160/26/1224
 unresolved fixed cells:   finite norm/denominator support and off-common
                           intersections, followed by original-equation replay
-unresolved sibling cells: moving-moving swap and mixed
-next route-deciding step: transfer the trace compiler to those two cells,
-                          then build one finite-specialization router shared
-                          by all fixed and moving norms
+unresolved sibling cells: none at the generic-component stage
+next route-deciding step: build one finite-specialization and off-common-
+                          intersection router shared by all six cells
 ```

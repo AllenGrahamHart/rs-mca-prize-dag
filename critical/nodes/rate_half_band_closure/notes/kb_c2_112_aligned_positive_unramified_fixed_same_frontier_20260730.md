@@ -103,8 +103,8 @@ the kernel conic generically and leaves a degree-`116` norm in `t`.
 
 Thus all three fixed-moving cells have been reduced to finite specialization
 support plus finite intersections among noncommon projection factors.  The
-separate moving trace router now narrows moving-moving `same`; `swap` and
-`mixed` remain uncompiled.
+separate moving trace router now narrows all three moving-moving cells as
+well.
 
 ## Replay
 

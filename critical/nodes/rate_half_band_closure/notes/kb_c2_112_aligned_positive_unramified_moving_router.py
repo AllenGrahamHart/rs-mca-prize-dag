@@ -36,6 +36,31 @@ CONFIGS = {
             "387dfb97236370156a6206b386279185a476f77906ebac04e9bb2414b4a28303",
         ),
     },
+    "swap": {
+        "cache": HERE / "kb_c2_112_aligned_positive_unramified_moving_swap_minors.json",
+        "conic_cache": HERE / "kb_c2_112_aligned_positive_unramified_moving_swap_conic.json",
+        "cache_sha256": "cafb0e48b2be45a98e72dbe5a1689f3ffe9a6bda64e685ea152873af48ab3d86",
+        "conic_cache_sha256": "aacf8976e2fe3933055fb8e7d1a90d2b176dad8699ce37cbf2c0f7f3d6fd521e",
+        "residual_digests": (
+            "26452db131405a042769b8ec06338d97184fb3b5cb2b3a3b9916d5075d93fe42",
+            "2b35a062187051891c9208b055a11af76df40c473cde2375ef5afcbe2b6a426c",
+            "77a57e7fe1829d13e7a80e27abb651c1db28ac7887d29dbe26a3a86d277873a3",
+            "15f984e753ce2f35ef8effee17f7fbbff340fd1bd3883249cb424f12178669ed",
+        ),
+    },
+    "mixed": {
+        "cache": HERE / "kb_c2_112_aligned_positive_unramified_moving_mixed_minors.json",
+        "conic_cache": HERE / "kb_c2_112_aligned_positive_unramified_moving_mixed_conic.json",
+        "cache_sha256": "799e8feb8f89fee7bf7dab30c3e1e4522380bb490f350a5c93f48f6ff19d3565",
+        "conic_cache_sha256": "639a9eeacf175fbfa2e427ca8ad6c3dae1110f658bf4edbe7e3136f2c1748880",
+        "component_digest": "9b318c946825ce375fc493b90aa2699b8aebf6868bf552e9a1e8419a66d134b5",
+        "residual_digests": (
+            "19368af4bc1c045ef91c8246c0dab28af41c94e2b8942f9c1818ffe1a7255773",
+            "d1cef76a2057ab469fc5541ba04f361acb9c726e117475f6beb0fa6b82a2f87e",
+            "2f1944962810dfd8588bb030d7e0bd565fa0abced32efc9fc9447bd97aa2ecce",
+            "40050000690c16beb7de39ee38803e9055eaf645d6d1d79d306fbc6a1a6e80a4",
+        ),
+    },
 }
 
 
@@ -143,13 +168,28 @@ def same_cubic(p, t):
     )
 
 
+def flint_component_expression(polynomial, p, t):
+    expression = sp.Integer(0)
+    for monomial, coefficient in polynomial.to_dict().items():
+        require(
+            monomial[0] == 0 and monomial[3] == 0,
+            "component variable support",
+        )
+        expression += int(coefficient) * p**monomial[1] * t**monomial[2]
+    return expression
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--allocation", choices=tuple(CONFIGS), required=True)
     parser.add_argument("--pair", choices=("01", "02", "03", "all"), default="all")
     parser.add_argument("--factor", action="store_true")
     parser.add_argument("--linear-component", action="store_true")
-    parser.add_argument("--cubic-component", action="store_true")
+    parser.add_argument("--component", action="store_true")
+    parser.add_argument(
+        "--cubic-component", action="store_true", help=argparse.SUPPRESS
+    )
+    parser.add_argument("--component-resultant-screen", action="store_true")
     args = parser.parse_args()
 
     require(flint.__version__ == "0.9.0", "python-flint version")
@@ -191,37 +231,128 @@ def main() -> None:
         compiler.emit_factorization(
             admissible_support, "linear_minor_conic_gcd", context
         )
-        expected = t**3 * (t + 1) * (t + 4) * (w - 1)
-        compiler.require_associate(
-            admissible_support, expected, "moving linear exclusion support"
-        )
+        if args.allocation in ("same", "swap", "mixed"):
+            t_power = {"same": 3, "swap": 2, "mixed": 4}[args.allocation]
+            expected = t**t_power * (t + 1) * (t + 4) * (w - 1)
+            compiler.require_associate(
+                admissible_support,
+                expected,
+                "moving linear exclusion support",
+            )
+            print(
+                "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_"
+                f"LINEAR_EXCLUSION_PASS allocation={args.allocation} "
+                "component=4*p+5*t+4 "
+                "support=w-1,discriminant,q(1)",
+                flush=True,
+            )
+        return
+    if args.component_resultant_screen:
+        require(args.allocation == "mixed", "resultant screen is pinned to mixed")
+        first_projection = residuals[0].resultant(residuals[1], 3)
+        _, factors = first_projection.factor()
+        candidates = [
+            factor for factor, exponent in factors
+            if exponent == 1
+            and compiler.polynomial_digest(factor)
+            == CONFIGS[args.allocation]["component_digest"]
+        ]
+        require(len(candidates) == 1, "unique configured component")
+        component = candidates[0]
+        conic = load_conic(compiler, context, args.allocation)
+        _, conic_factors = conic.factor()
+        conic_residuals = [
+            factor for factor, exponent in conic_factors
+            if len(factor.to_dict()) > 100 and exponent == 1
+        ]
+        require(len(conic_residuals) == 1, "unique kernel-conic residual")
+        conic_residual = conic_residuals[0]
         print(
-            "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_LINEAR_EXCLUSION_PASS "
-            "allocation=same component=4*p+5*t+4 "
-            "support=w-1,discriminant,q(1)",
+            "mixed_component_resultant=START "
+            f"minor_terms={len(residuals[0].to_dict())} "
+            f"conic_terms={len(conic_residual.to_dict())} "
+            f"conic_degrees={conic_residual.degrees()}",
             flush=True,
         )
+        resultant = residuals[0].resultant(conic_residual, 3)
+        require(not resultant.is_zero(), "zero minor-conic resultant")
+        _, remainder = divmod(resultant, component)
+        print(
+            "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_"
+            "COMPONENT_RESULTANT_SCREEN_PASS allocation=mixed "
+            f"component_divides={str(remainder.is_zero()).lower()} "
+            f"terms={len(resultant.to_dict())} degrees={resultant.degrees()} "
+            f"digest={compiler.polynomial_digest(resultant)}",
+            flush=True,
+        )
+        if not remainder.is_zero():
+            norm = component.resultant(resultant, 1)
+            require(not norm.is_zero(), "zero component-conic norm")
+            print(
+                "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_"
+                "COMPONENT_RESULTANT_NORM_PASS allocation=mixed "
+                f"terms={len(norm.to_dict())} degrees={norm.degrees()} "
+                f"digest={compiler.polynomial_digest(norm)}",
+                flush=True,
+            )
+            compiler.emit_factorization(
+                norm, "mixed_component_conic_norm", context
+            )
         return
-    if args.cubic_component:
+    if args.component or args.cubic_component:
         trace_symbol, p_symbol, t_symbol, w_symbol = sp.symbols(
             "trace p t w"
         )
-        component_expression = same_cubic(p_symbol, t_symbol)
-        component = compiler.sympy_to_flint(
-            sp.Poly(
-                component_expression,
-                trace_symbol,
-                p_symbol,
-                t_symbol,
-                w_symbol,
-            ),
-            context,
-        )
+        if args.allocation == "same":
+            component_expression = same_cubic(p_symbol, t_symbol)
+            component_name = "reciprocal-cubic"
+            component = compiler.sympy_to_flint(
+                sp.Poly(
+                    component_expression,
+                    trace_symbol,
+                    p_symbol,
+                    t_symbol,
+                    w_symbol,
+                ),
+                context,
+            )
+        elif args.allocation == "swap":
+            component_expression = p_symbol * t_symbol + 5 * p_symbol + t_symbol
+            component_name = "bilinear"
+            component = compiler.sympy_to_flint(
+                sp.Poly(
+                    component_expression,
+                    trace_symbol,
+                    p_symbol,
+                    t_symbol,
+                    w_symbol,
+                ),
+                context,
+            )
+        else:
+            require(args.allocation == "mixed", "component router allocation")
+            first_projection = residuals[0].resultant(residuals[1], 3)
+            _, factors = first_projection.factor()
+            candidates = [
+                factor for factor, exponent in factors
+                if exponent == 1
+                and compiler.polynomial_digest(factor)
+                == CONFIGS[args.allocation]["component_digest"]
+            ]
+            require(len(candidates) == 1, "unique configured component")
+            component = candidates[0]
+            component_expression = flint_component_expression(
+                component, p_symbol, t_symbol
+            )
+            component_name = "degree-twelve"
         for right in (1, 2, 3):
             projection = residuals[0].resultant(residuals[right], 3)
             quotient, remainder = divmod(projection, component)
-            require(remainder.is_zero(), "missing cubic projection factor")
-            require(not (quotient % component).is_zero(), "cubic multiplicity")
+            require(remainder.is_zero(), "missing configured projection factor")
+            require(
+                not (quotient % component).is_zero(),
+                "configured component multiplicity",
+            )
         extension = FiniteExtension(
             sp.Poly(
                 component_expression,
@@ -248,11 +379,11 @@ def main() -> None:
                 ),
                 extension,
             )
-        require(len(common) == 2, "cubic common root is not linear")
+        require(len(common) == 2, "component common root is not linear")
         root = -common[0]
         print(
-            "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_CUBIC_ROOT_PASS "
-            f"allocation=same degree=1 "
+            "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_COMPONENT_ROOT_PASS "
+            f"allocation={args.allocation} component={component_name} degree=1 "
             f"digest={compiler.extension_polynomial_digest(common)}",
             flush=True,
         )
@@ -271,7 +402,7 @@ def main() -> None:
         conic_value = evaluate_extension_polynomial(
             conic_extension, root, extension
         )
-        require(conic_value != extension.zero, "cubic lies on kernel conic")
+        require(conic_value != extension.zero, "component lies on kernel conic")
         numerator, denominator = extension_value_numerator(
             conic_value, p_symbol
         )
@@ -286,15 +417,16 @@ def main() -> None:
             context,
         )
         norm = component.resultant(numerator_flint, 1)
-        require(not norm.is_zero(), "zero cubic kernel-conic norm")
+        require(not norm.is_zero(), "zero component kernel-conic norm")
         print(
-            "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_CUBIC_CONIC_PASS "
+            "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_COMPONENT_CONIC_PASS "
+            f"allocation={args.allocation} component={component_name} "
             "generic_conic_root=false "
             f"norm_terms={len(norm.to_dict())} degrees={norm.degrees()} "
             f"digest={compiler.polynomial_digest(norm)}",
             flush=True,
         )
-        compiler.emit_factorization(norm, "cubic_conic_norm", context)
+        compiler.emit_factorization(norm, "component_conic_norm", context)
         denominator_flint = compiler.sympy_to_flint(
             sp.Poly(
                 denominator,
@@ -306,7 +438,7 @@ def main() -> None:
             context,
         )
         compiler.emit_factorization(
-            denominator_flint, "cubic_conic_denominator", context
+            denominator_flint, "component_conic_denominator", context
         )
         return
     pairs = ("01", "02", "03") if args.pair == "all" else (args.pair,)

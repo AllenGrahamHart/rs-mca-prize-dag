@@ -165,10 +165,12 @@ retries; raw artifact storage is separate.
   nontrivial divisorial components reduce to degree-`496`, degree-`225`, and
   degree-`48` kernel-conic norms; the mixed linear rank curve adds a
   degree-`116` norm.  Exact reciprocal trace descent now also narrows the
-  moving-moving `same` cell: its linear component is entirely forbidden and
-  its reciprocal cubic leaves a degree-`160` kernel-conic norm with two
-  denominator factors.  The finite specializations, off-common projection
-  intersections, and moving-moving `swap` and `mixed` cells remain open.
+  moving-moving cells.  Their linear components are entirely forbidden;
+  their remaining common components leave degree-`160`, degree-`26`, and
+  degree-`1224` conic norms for `same`, `swap`, and `mixed`, respectively.
+  The degree-12 mixed component is screened without a function-field gcd.
+  The finite specializations and off-common projection intersections in all
+  six cells remain open.
 - **PASS:** mint a PROVED aligned-positive unramified q-slice exclusion node;
   together with the ramified and aligned-negative theorems, delete the
   complete aligned source-line branch.

@@ -66,6 +66,10 @@ Its generated caches are:
 ```text
 moving_same_minors.json  f5c8285e2d93064f509ecb3ecfad98bb49eb1357777e39e968d06ce769eaba97
 moving_same_conic.json   e754fecd9711b5119e4603d45848d601cb894c1c2b357b696c243b8e4439ca72
+moving_swap_minors.json  cafb0e48b2be45a98e72dbe5a1689f3ffe9a6bda64e685ea152873af48ab3d86
+moving_swap_conic.json   aacf8976e2fe3933055fb8e7d1a90d2b176dad8699ce37cbf2c0f7f3d6fd521e
+moving_mixed_minors.json 799e8feb8f89fee7bf7dab30c3e1e4522380bb490f350a5c93f48f6ff19d3565
+moving_mixed_conic.json  639a9eeacf175fbfa2e427ca8ad6c3dae1110f658bf4edbe7e3136f2c1748880
 ```
 
 Replay the component checks serially under both local guards:
@@ -79,16 +83,44 @@ tools/ramguard tiny -- timeout --foreground --signal=TERM --kill-after=5s 60s \
 tools/ramguard tiny -- timeout --foreground --signal=TERM --kill-after=5s 60s \
   /home/u2470931/.venvs/prize-flint/bin/python \
   critical/nodes/rate_half_band_closure/notes/kb_c2_112_aligned_positive_unramified_moving_router.py \
-  --allocation same --cubic-component
+  --allocation same --component
 ```
 
 ## Remaining close
 
-1. Classify the cubic norm and denominator specializations, including rank
-   drops and leading-coefficient exceptions.
+1. Classify every fixed and moving norm and denominator specialization,
+   including rank drops and leading-coefficient exceptions.
 2. Classify finite intersections among noncommon projection factors.
 3. Replay every surviving determinant point in all four trace equations and
    the complete forbidden product.
-4. Transfer the same trace compiler to moving-moving `swap` and `mixed`.
+4. Convert the resulting empty finite ledger into one saturated unit-ideal
+   certificate before changing the DAG.
+
+## Sibling transfer
+
+The identical trace compiler now completes the other two moving allocations.
+For `swap`, the linear component has forbidden support
+`t^2(t+1)(t+4)(w-1)`.  Its only nonboundary common component is
+
+```text
+p*t + 5*p + t = 0.
+```
+
+The common determinant root on this curve misses the conic generically and
+leaves a degree-`26` norm plus the denominator specialization `t=-5`.
+
+For `mixed`, the common projection support consists of open factors, `p=0`,
+`4*p+5*t+4`, and one irreducible 91-term component of bidegree `(12,12)`
+with deployed-field digest
+`9b318c946825ce375fc493b90aa2699b8aebf6868bf552e9a1e8419a66d134b5`.
+On the linear component, a further rank curve occurs in the minors, but its
+gcd with the conic is only the forbidden support
+`t^4(t+1)(t+4)(w-1)`.  On the degree-12 component, the resultant of one
+residual minor with the conic is not divisible by the component.  Their
+finite intersection is bounded by a degree-`1224` norm in `t`, factored into
+38 printed factors.
+
+Thus all six aligned-positive unramified cells have exact finite frontiers.
+No cell is yet deleted.
 
 No DAG node or status changes on this evidence.
