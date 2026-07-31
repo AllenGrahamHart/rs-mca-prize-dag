@@ -12214,3 +12214,24 @@ Modal status:             no launch and no cost
 next route-deciding step: impose all product minors and the second weld on
                           the nine cells with exact saturation
 ```
+
+### Work-cycle burn-down: 433 product-minor cell cut
+
+```text
+starting local pin:       aad92a63 (433 label atlas)
+ending local theorem pin: current 433 product-minor PROVED packet
+canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+node/workboard attacked:  K3 / negative (4,3,3) common-K products
+result:                   PROVED three-cell deletion and three-cell pin
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; narrowing evidence only)
+deleted cells:            X1, N2, Z1 by nonzero maximal minors
+forced relation:          b=-c^3 on X2, N1, L1
+exact residual:           six cells: constrained X2/N1/L1 plus M1/M2/M3
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: substitute b=-c^3 in the first three cells and
+                          combine remaining minors with the second weld;
+                          handle M1/M2/M3 as separate saturated ideals
+```

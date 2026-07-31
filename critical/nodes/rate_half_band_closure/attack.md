@@ -2017,3 +2017,19 @@ its q failure without enumeration.  The next direct calculation should use
 products `(-1,-c^2,b,-b,bc)` on `(A,C,+,-,BC)`, impose all five Mobius
 minors and the one remaining weld on each of the nine cells, and saturate by
 label and signed-pair distinctness.  Do not return to the 240 labeled atlas.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut`
+performs the first such pass with two transparent maximal minors.  Cells
+`X1,N2,Z1` are impossible because the minor is a product of nonzero label
+and signed-pair differences.  Cells `X2,N1,L1` force `b=-c^3`.  The exact
+frontier is therefore six cells:
+
+```text
+X2,N1,L1 on b=-c^3;       M1,M2,M3 pending further minors.
+```
+
+Substitute the cubic relation before eliminating the first three cells.
+Keep the remaining squared weld explicit and treat `M1,M2,M3` separately;
+one unsaturated six-cell ideal would reintroduce the deleted collision
+components.

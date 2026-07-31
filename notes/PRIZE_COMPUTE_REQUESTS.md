@@ -10704,8 +10704,10 @@ must start from those rows and their two PROVED q-compatible orientation
 classes, then compile the `eta` plus six `L^c` records.  Do not spend compute
 rediscovering either common-`K` products or q signs.  The 240-row `(4,3,3)`
 two-loop atlas is also superseded at the label level: `(KB43-3)` gives nine
-one-parameter antipodal cells.  Its product-map and second-weld elimination
-remain open and should start from those cells, not labeled assignments.
+one-parameter antipodal cells.  The first product-minor cut deletes
+`X1,N2,Z1` and forces `b=-c^3` on `X2,N1,L1`; only those three constrained
+cells and `M1,M2,M3` remain.  Product-map and second-weld elimination must
+start from this six-cell ledger, not labeled assignments.
 
 Suggested pilot: one canonical packet stratum, one CPU, at most 512 MiB,
 60 seconds, deterministic partial output, and no parallel fleet.  Modular
