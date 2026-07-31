@@ -2257,3 +2257,19 @@ all 30 `DF` sign/matching cases.  Therefore all six cells over
 `H8-L,tau=-1` are empty.  The live `442` frontier is five common rows, 30
 cells, and matching cap 390.  Do not carry this common row into full
 interpolation; test singleton-placement transport to `H8-M,tau=-1` next.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8m_minus_transport_exclusion`
+performs that transport.  Loop exchange `A <-> B` followed by normalization
+acts by
+
+```text
+b'=1/b,       c'=-c/b,       (D',E',F')=-(D,E,F)/b.
+```
+
+It sends the `H8-L` label tuple to `H8-M`, scales every common and outside
+product by `b^-2`, preserves `sigma` and each forced type, and is involutive.
+The `H8-M` forced product is `b'^2`, exactly the scaled image of `1`.
+Therefore all six `H8-M,tau=-1` cells are empty.  The live `442` frontier is
+four rows, 24 cells, and matching cap 312.  Analyze only the two positive-
+sign eighth-root rows and two sixth-root rows next.

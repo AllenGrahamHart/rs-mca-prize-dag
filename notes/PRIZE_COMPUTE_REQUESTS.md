@@ -10759,6 +10759,11 @@ audit close every matching.  The entire common row is dead.  The accepted
 `442` compute frontier is now five rows, 30 cells, matching cap 390.  Any
 worker retaining `H8-L,tau=-1` is using an obsolete frontier.
 
+The equal-degree loop exchange now also PROVES `H8-M,tau=-1` empty; no
+compute is needed for that row.  The accepted `442` frontier is four rows,
+24 cells, matching cap 312.  External workers must exclude both negative-
+sign eighth-root singleton placements.
+
 The 240-row `(4,3,3)`
 two-loop atlas is also superseded at the label level: `(KB43-3)` gives nine
 one-parameter antipodal cells.  The first product-minor cut deletes

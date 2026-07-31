@@ -12553,3 +12553,28 @@ Modal status:             no launch and no cost
 next route-deciding step: test transport to H8-M,tau=-1, then apply the
                           intrinsic descent to the tau=+1 eighth-root rows
 ```
+
+### Work-cycle burn-down: H8-M-minus transport exclusion
+
+```text
+starting local pin:       29d3d657 (H8-L-minus common-row exclusion)
+ending local theorem pin: current H8-M-minus PROVED transport exclusion
+canonical prize pin:      14dc1db5f4ec64a2dcba31c65d79716f58090945
+node/workboard attacked:  K3 / negative 442 second H8 singleton placement
+result:                   PROVED transport of all six cells to an empty row
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; second complete-product row deleted)
+parameter transport:      b'=1/b, c'=-c/b, l'=l
+product transport:        common and outside products uniformly scale by
+                          b^-2 under D,E,F -> -(D,E,F)/b
+forced product:           H8-M p_xi=b'^2, image of H8-L p_xi=1
+coverage:                 both sigma signs and all three forced types;
+                          transformation is involutive
+442 frontier:             5 -> 4 rows, 30 -> 24 cells,
+                          matching cap 390 -> 312
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: derive the tau=+1 eighth-root descent and test
+                          whether the same loop exchange transports H8-L/M
+```
