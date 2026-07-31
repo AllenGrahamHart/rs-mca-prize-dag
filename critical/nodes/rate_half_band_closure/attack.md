@@ -2548,3 +2548,19 @@ remains.  Each sign row has rank-six standard basis
 `2^19`, so reconstruct `c` inside this quotient without a saturation case.
 Reduce the 105 outside templates as multiplication/rank calculations in
 these rank-six algebras.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler`
+also removes both rational layers.  Besides the `c` norm `2^19`, the forced
+mate denominator has norm `652=4*163` in every sign row.  In the
+representative basis,
+
+```text
+c=-1+b-b^2/2+(i-1)r/4+(1-i)t/4,
+163m=(50-54i)+(87+54i)b-(126+54i)b^2
+     +(30+12i)r+(-54+54i)br+(12+30i)t.
+```
+
+Evaluate forced-value equations by six-coordinate multiplication first.
+Only if such an equation has a nontrivial quotient should the fifteen
+residual pairings be expanded.
