@@ -55,8 +55,9 @@ def main() -> None:
     require("- **status:** PROVED" in statement, "status")
     require("(KBNP-1)" in statement and "a^2+bc != 0" in statement, "gate")
     require("(KBNP-3)" in statement and "every odd field" in statement, "symbolic cut")
+    require("(KBNP-4)" in statement and "genuinely quadratic" in statement, "positive split")
     require("necessary, not sufficient" in (NODE / "audit.md").read_text(), "scope")
-    require("nonclaim" in contract and "No positive-parity packet" in statement, "nonclaim")
+    require("nonclaim" in contract and "both Prize" in statement, "nonclaim")
     require("conjugating" in (NODE / "source_evidence.md").read_text(), "source")
 
     dag = json.loads((ROOT / "dag.json").read_text())
@@ -86,7 +87,8 @@ def main() -> None:
 
     print(
         "RATE_HALF_KB_M2_R4_COORDINATE_NEGATIVE_PAIRED_PRODUCT_PASS "
-        "tested=5040 survivors=0 witness_minor=12 symbolic_fixture=deleted"
+        "tested=5040 survivors=0 witness_minor=12 symbolic_fixture=deleted "
+        "positive_linear=covered"
     )
 
 

@@ -33,6 +33,13 @@ kernel vector for the six rows in `(KBNP-1)`, proving the rank gate.  The
 parent injectivity theorem makes all twelve product values distinct, so none
 of the six displayed orbits is fixed.
 
+The same argument applies to a positive packet whenever the reduced ratio
+`F=A_0/A_2` has degree one.  If that ratio has degree zero, every edge has
+one fixed product; the parent defect argument forces an edge of weight at
+least four and defect at least six.  Thus an actual positive packet with
+reduced degree at most one must be in the degree-one case and obey the same
+paired-product gate.  Its contrapositive is `(KBNP-4)`.
+
 Suppose two rows come from `(u,-u)` and `(v,-v)`.  Their equations in
 `(KBNP-2)` are
 
@@ -55,7 +62,8 @@ For the exact defect-zero fixture, use signed pair representatives
 Distinct signed pairs give `A^2!=B^2`, and all labels are nonzero.  The
 fourth and fifth pairs invoke `(KBNP-3)`, while the first has sum
 `D(E+F)!=0` because `E!=-F`.  This contradiction deletes the fixture in
-negative parity over every odd field.
+negative parity and in the positive reduced-degree-at-most-one locus over
+every odd field.
 
 For the independent finite regression, use signed pair representatives
 `1,4,5,6,7,9,13` in `F_29`.  Exact enumeration of their 5,040 ordered choices

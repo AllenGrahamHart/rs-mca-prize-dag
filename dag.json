@@ -20219,10 +20219,10 @@
   },
   {
    "id": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
-   "title": "KoalaBear m2 r4 coordinate negative paired-product involution gate",
+   "title": "KoalaBear m2 r4 coordinate linear-product paired involution gate",
    "status": "PROVED",
-   "closure": "one coefficient-free 6 x 3 paired-product involution gate and a symbolic negative-parity deletion of the defect-zero fixture",
-   "statement": "For every negative coordinate packet, conjugating source negation by the injective Mobius edge-product map gives one projective involution on product values. If (y_i,z_i) are the products at the six source-label pairs, the rows [y_i z_i,-(y_i+z_i),-1] have rank at most two and a nonsingular trace-zero kernel. Two antisymmetric pairs (u,-u),(v,-v) with u^2!=v^2 force all six pairs to be antisymmetric. This symbolically deletes the exact defect-zero fixture over every odd field; a 5,040-case F_29 census independently replays the cut. Other packet graphs and the negative orientation remain open.",
+   "closure": "one coefficient-free 6 x 3 paired-product involution gate, a symbolic fixture deletion, and a positive linear-product branch cut",
+   "statement": "For every negative coordinate packet, and every positive packet whose product ratio reduces to degree at most one, conjugating source negation by the nonconstant Mobius edge-product map gives one projective involution on product values. If (y_i,z_i) are the products at the six source-label pairs, the rows [y_i z_i,-(y_i+z_i),-1] have rank at most two. Two antisymmetric pairs (u,-u),(v,-v) with u^2!=v^2 force all six pairs to be antisymmetric. This symbolically deletes the exact fixture over every odd field in both in-scope lanes. Any remaining positive realization has genuinely quadratic product ratio. Other packet graphs and the coordinate orientation remain open.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/statement.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/proof.md",
@@ -20254,6 +20254,26 @@
     "background/nodes/rate_half_kb_m2_r2_full_v4_source_genus_drop/frontier.md",
     "background/nodes/rate_half_kb_m2_r2_full_v4_source_genus_drop/verify.py",
     "background/nodes/rate_half_kb_m2_r2_full_v4_source_genus_drop/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "title": "KoalaBear m2 r4 coordinate negative loop-budget gate",
+   "status": "PROVED",
+   "closure": "at most two antipodal common-K edge orbits in negative parity and a five-skeleton exact remainder",
+   "statement": "Every antipodal common-K J-edge makes q=0 and hence forces a root of the degree-at-most-two form A_1. Three loop fibers would force A_1=0, contradicting the nonzero q equation at a required nonloop edge. Therefore negative parity has at most two K loops. The seven injective pair-multiplicity skeletons reduce exactly to five, and one or two loops pin the corresponding factors of A_1. The five survivors and the coordinate orientation remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/verify_audit.py"
    ]
   },
   {
@@ -38891,6 +38911,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

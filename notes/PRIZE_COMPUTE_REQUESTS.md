@@ -10670,15 +10670,16 @@ proof-producing classifier should:
    pole-graph colors, and defect at most three;
 2. form the exact `12 x 6` positive and `12 x 4` negative product matrices;
    for negative parity first apply the `6 x 3` paired-product involution
-   matrix from `(KBNP-1)`;
+   matrix from `(KBNP-1)`; apply the same gate to positive kernels whose
+   ratio `A_0/A_2` reduces to degree at most one;
 3. emit a nonzero maximal-minor certificate for each deleted packet orbit;
 4. emit every survivor with its exact product-map kernel and leading-support
    values, then lift only those survivors to the complete `q` system;
 5. independently replay packet completeness, canonical-orbit ownership, and
    every minor from compact artifacts.
 
-The negative lane starts from only the seven injective common-`K` skeletons
-in `(KBCV-6)`.  Apply the symbolic `(KBNP-3)` rule before any minors: two
+The negative lane now starts from only the five loop-budget survivors in
+`(KBNL-2)`.  Apply the symbolic `(KBNP-3)` rule before any minors: two
 distinct antisymmetric product pairs force every pair to be antisymmetric
 and already delete the banked defect-zero fixture.  The positive lane must
 use all twelve rows: the exact

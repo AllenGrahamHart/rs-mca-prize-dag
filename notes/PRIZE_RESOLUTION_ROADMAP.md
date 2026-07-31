@@ -12048,6 +12048,8 @@ exact reduction:          six source-label product pairs must be free
                           orbits of one PGL2 involution; 6x3 rank <=2
 symbolic deletion:        two distinct antisymmetric pairs force all pair
                           sums zero; defect-zero fixture contradicts this
+positive branch cut:      same gate deletes the fixture whenever A0/A2
+                          reduces to degree <=1; survivors are degree 2
 fixture replay:           deletion valid over every odd field; 0/5040 F29
                           assignments and printed minor 12 audit it
 scope:                    other packet graphs remain; seven canonical
@@ -12057,4 +12059,27 @@ Modal status:             no launch and no cost
 next route-deciding step: enumerate canonical complete packets for the
                           seven negative skeletons and apply paired-product
                           minors before full Mobius/q equations
+```
+
+### Work-cycle burn-down: negative loop-budget gate
+
+```text
+starting local pin:       7970640c (paired-product involution gate)
+ending local theorem pin: current negative loop-budget PROVED packet
+canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+node/workboard attacked:  K3 / coordinate negative K-fiber q equations
+result:                   PROVED universal three-loop exclusion
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; narrowing evidence only)
+mechanism:                every loop forces a root of deg<=2 A1; three
+                          roots force A1=0 and contradict a nonloop q row
+negative frontier:        7 injective multiplicity skeletons -> 5, with
+                          loop strata 0,1,1,2,2
+factor pin:               two-loop A1 fixed up to scale; one-loop A1 has
+                          one fixed factor
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: classify complete packets in the five surviving
+                          skeletons, starting with the pinned two-loop rows
 ```

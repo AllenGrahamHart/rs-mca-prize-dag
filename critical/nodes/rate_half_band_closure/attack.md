@@ -1910,5 +1910,21 @@ every pair sum to vanish.  The exact defect-zero fixture contains
 symbolically deleted in negative parity over every odd field.  The zero
 survivors among all 5,040 signed-square assignments in `F_29` and the printed
 minor 12 are independent regressions.  Apply the same gate to every other
-canonical completion of the seven negative `K` skeletons before the full
-Mobius and `q` systems.
+canonical negative completion retained by the later loop-budget cut before
+the full Mobius and `q` systems.
+
+The same theorem covers positive packets whenever `A_0/A_2` reduces to
+degree at most one.  The constant branch violates defect three; the Mobius
+branch obeys the paired-product gate.  Hence the printed fixture is also
+deleted on the positive linear-product locus, and any remaining positive
+realization must have genuinely quadratic product ratio.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate` then uses the
+sum half of the Vieta system.  Every antipodal common-`K` edge has `q=0`
+and forces one root of the quadratic `A_1`.  Three loop fibers force
+`A_1=0`, contradicting the required nonzero `q B_2` at a nonloop edge.
+Thus negative parity has at most two `K` loops, and the seven injective
+multiplicity skeletons reduce exactly to five, in loop strata
+`0,1,1,2,2`.  In the two-loop strata `A_1` is already fixed up to scale.
+Use these factor pins before the remaining full-product or `q` equations.
