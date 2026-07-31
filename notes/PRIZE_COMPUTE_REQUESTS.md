@@ -10705,18 +10705,23 @@ classes, then compile the `eta` plus six `L^c` records.  Do not spend compute
 rediscovering either common-`K` products or q signs.  The 240-row `(4,3,3)`
 two-loop atlas is also superseded at the label level: `(KB43-3)` gives nine
 one-parameter antipodal cells.  The first product-minor cut deletes
-`X1,N2,Z1` and forces `b=-c^3` on `X2,N1,L1`; only those three constrained
-cells and `M1,M2,M3` remain.  Product-map and second-weld elimination must
-start from this six-cell ledger, not labeled assignments.
+`X1,N2,Z1` and forces `b=-c^3` on `X2,N1,L1`.  At that intermediate stage,
+only those three constrained cells and `M1,M2,M3` remained; the subsequent
+paragraphs record their completed common-`K` classification.  Any replay
+must use these symbolic ledgers, not the original labeled assignments.
 
 The constrained cells are now fully compiled: `X2,N1` use one reciprocal
 quartic in `M` plus a quadratic in `c`, and `L1` uses degrees `2 x 4` with a
 linear locator.  Their total common-`K` cap is 24, with exact witnesses.
 External work should not eliminate them again; carry them into complete
 source-facet/seven-fiber assembly.  `M1` is now PROVED empty by a raw-boundary
-resultant and an exact two-stage interior ideal certificate.  Only `M2,M3`
-still need common-`K` product/q classification; external work must start
-from those two cells and retain separate chart-boundary certificates.
+resultant and an exact two-stage interior ideal certificate.  `M2,M3` are
+also fully compiled: both use one shared reciprocal sextic followed by a
+signed quadratic and a linear locator, with cap 12 per cell.  Thus all nine
+`(4,3,3)` common-`K` cells are classified; the five surviving ledgers have
+aggregate cap 48.  External work must start from those finite ledgers and
+construct `eta` plus the six complementary source-fiber records.  Do not
+spend compute on any common-`K` cell elimination.
 
 Suggested pilot: one canonical packet stratum, one CPU, at most 512 MiB,
 60 seconds, deterministic partial output, and no parallel fleet.  Modular

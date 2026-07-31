@@ -12279,3 +12279,26 @@ next route-deciding step: classify M2 and M3 with separate affine-chart
                           boundary audits, then assemble all surviving 433
                           rows across eta and the six complement fibers
 ```
+
+### Work-cycle burn-down: 433 M2/M3 product-q classifier
+
+```text
+starting local pin:       25a22df5 (433 M1 exclusion)
+ending local theorem pin: current M2/M3 classifier PROVED packet
+canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+node/workboard attacked:  K3 / negative 433 cells M2,M3
+result:                   PROVED exact shared finite classification
+DAG delta:                +1 PROVED background node, +4 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; narrowing evidence only)
+shared eliminant:         reciprocal sextic P6 of degree 6
+per-cell locator:         one signed quadratic in b and one linear c row
+geometric cap:            12 per cell; guard-passing F41 witnesses in both
+complete 433 frontier:    4 empty cells, 5 finite ledgers, aggregate cap 48
+independent audit:        guarded saturation has unique univariate row P6
+new assumptions:          none beyond parent guards and odd characteristic
+Modal status:             no launch and no cost
+next route-deciding step: construct eta plus six complement-fiber records
+                          for the five 433 ledgers and apply paired-product
+                          involution before the remaining q equations
+```

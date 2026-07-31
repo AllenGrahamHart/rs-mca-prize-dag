@@ -2022,11 +2022,11 @@ The PROVED
 `rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut`
 performs the first such pass with two transparent maximal minors.  Cells
 `X1,N2,Z1` are impossible because the minor is a product of nonzero label
-and signed-pair differences.  Cells `X2,N1,L1` force `b=-c^3`.  The exact
-frontier is therefore six cells:
+and signed-pair differences.  Cells `X2,N1,L1` force `b=-c^3`.  At this
+intermediate cut, the exact frontier was six cells:
 
 ```text
-X2,N1,L1 on b=-c^3;       M1,M2,M3 pending further minors.
+X2,N1,L1 on b=-c^3;       M1,M2,M3 then pending further minors.
 ```
 
 Substitute the cubic relation before eliminating the first three cells.
@@ -2068,3 +2068,26 @@ one squared weld.  A first exact integral ideal certificate forces
 Thus only `M2,M3` remain at the `(4,3,3)` common-`K` interface.  Analyze
 their Mobius charts separately, including every chart boundary; do not carry
 `M1` into seven-fiber assembly or ask external compute to rediscover it.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_product_q_classifier`
+finishes those last cells.  With `epsilon=-1` for `M2` and `+1` for `M3`,
+both are controlled by the same reciprocal sextic
+
+```text
+P_6(M)=M^6+2M^5+7M^4-4M^3+7M^2+2M+1,
+```
+
+followed by one signed quadratic for `b` and one linear locator for `c`.
+Exact elimination deletes every other factor as a label or signed-pair
+collision, and an independent guard saturation returns `P_6` as its unique
+univariate row.  The converse reductions and guard-passing `F_41` examples
+show that each cell is a genuine common-`K` interface with at most twelve
+geometric candidates.
+
+The full `(4,3,3)` common-`K` frontier is therefore complete: four cells are
+empty and `X2,N1,L1,M2,M3` have aggregate cap 48 before Galois
+identification.  The next work is no longer common-`K` elimination.  Build
+the `eta` and six `L^c` records for these five ledgers, apply the paired
+source-label involution, and retain only complete-packet survivors for the
+remaining q equations.
