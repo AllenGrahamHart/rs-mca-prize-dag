@@ -12103,3 +12103,26 @@ Modal status:             no launch and no cost
 next route-deciding step: classify signed assignments in the two two-loop
                           skeletons through the 3x3 gate and leading support
 ```
+
+### Work-cycle burn-down: two-loop product-to-q weld
+
+```text
+starting local pin:       04357d75 (loop-stratified q compiler)
+ending local theorem pin: current two-loop weld PROVED packet
+canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+node/workboard attacked:  K3 / coordinate negative two-loop strata
+result:                   PROVED product/sum equivalence compiler
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; compiler evidence only)
+product reconstruction:   five rows have exact rank 3 and fix B2 up to scale
+q reduction:              two denominator-free scalar welds are necessary
+                          and sufficient for all five common-K sum equations
+raw signed atlases:       960 rows for (1,1,0;1,1,1), 240 rows for
+                          (1,0,1;2,0,1), before canonical symmetries
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: factor the weld residuals on the two signed
+                          atlases or retain exact survivors through all 12
+                          complete product/q rows
+```

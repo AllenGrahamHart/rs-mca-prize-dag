@@ -10689,6 +10689,12 @@ assignment in that fixed family survives the complete product matrix.
 Within the negative lane, shard first by loop count and use `(KBNQ-3)`.
 The two loop-count-two skeletons require only signed `3 x 3` q determinants;
 do not send their already-consumed loop rows to a generic `10 x 7` kernel.
+After the product matrix passes, replace that determinant by `(KBNW-2)`:
+the unique rank-three Mobius kernel fixes `B_2`, and two scalar product-to-q
+welds are necessary and sufficient for all five common-fiber sum rows.  The
+two labeled signed atlases have raw sizes 960 and 240.  Canonicalization must
+retain edge-orbit orientations, and a negative answer must certify the
+product minors or weld residuals for every orbit rather than report no hits.
 
 Suggested pilot: one canonical packet stratum, one CPU, at most 512 MiB,
 60 seconds, deterministic partial output, and no parallel fleet.  Modular

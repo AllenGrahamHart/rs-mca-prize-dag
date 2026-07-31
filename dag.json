@@ -20316,6 +20316,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop product-to-q weld",
+   "status": "PROVED",
+   "closure": "rank-three Mobius product reconstruction and two scalar welds equivalent to the five common-K sum equations in the two-loop stratum",
+   "statement": "In either negative two-loop skeleton, the five common-K product rows have rank exactly three and uniquely reconstruct the Mobius denominator B_2 projectively. For either loop anchor h and nonloop labels i,j, the sum equations are equivalent to the denominator-free weld q_i R(j)(h-i)(p_h-p_j)=q_j R(i)(h-j)(p_h-p_i). Two such welds against one fixed nonloop label are necessary and sufficient for all five common-K sum equations. The signed skeleton classification and complement fibers remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
    "title": "KoalaBear m2 r2 dihedral degree-five source-star exclusion",
    "status": "PROVED",
@@ -38956,6 +38976,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

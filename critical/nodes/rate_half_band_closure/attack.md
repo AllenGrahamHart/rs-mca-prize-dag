@@ -1944,3 +1944,23 @@ form a square determinant of size `5-ell`.  Thus the loop strata have exact
 smallest direct target: classify their signed cross-edge assignments through
 the `3 x 3` determinant, retain leading support, and only then apply the
 complete product and paired-involution gates.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld` couples
+the two halves rather than treating that `3 x 3` determinant in isolation.
+On either two-loop skeleton, the five product rows have rank exactly three
+and determine the Mobius denominator `D=B_2` projectively.  If `h` is either
+loop and `i,j` are nonloops, the residual sum equations are equivalent to
+
+```text
+q_i R(j)(h-i)(p_h-p_j)=q_j R(i)(h-j)(p_h-p_i).
+```
+
+Two instances against one fixed nonloop reconstruct all five common-`K`
+sum rows.  Apply the product rank and leading-support gate first, then these
+two scalar welds.  The next proof-producing atlas has only 960 labeled
+signed assignments in skeleton `(1,1,0;1,1,1)` and 240 in
+`(1,0,1;2,0,1)` before source and profile symmetries.  A no-hit search is
+not a proof: a universal deletion must print symbolic factors or a complete
+canonical certificate with every distinctness/support saturation.  Any
+survivor still needs the other seven fibers and paired-product gate.
