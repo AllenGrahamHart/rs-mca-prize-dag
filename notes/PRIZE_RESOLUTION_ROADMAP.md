@@ -12606,3 +12606,31 @@ Modal status:             no launch and no cost
 next route-deciding step: eliminate the six cells on each quadratic H6 row;
                           keep tau signs separate and use exact local norms
 ```
+
+### Work-cycle burn-down: H6 and complete 442 product exclusion
+
+```text
+starting local pin:       524057b5 (positive H8 row exclusion)
+ending local theorem pin: current H6/complete 442 PROVED exclusion
+canonical prize pin:      14dc1db5f4ec64a2dcba31c65d79716f58090945
+node/workboard attacked:  K3 / negative 442 final H6 rows
+result:                   PROVED empty complete-product frontier for the
+                          entire (4,4,2) two-loop skeleton
+DAG delta:                +1 PROVED background node, +5 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; one complete skeleton closed)
+forced product:           p_xi=-b on both H6 rows
+DF cells:                 impossible because -DF=b repeats a common product
+opposite-sign cells:      24 representative resultant chains have nonzero
+                          deployed norms in two elimination orders
+aligned cells:            four representative ideals are unit; the other
+                          20 force a^2=b^2 and violate product injectivity
+independent audit:        48 direct deployed-field ideals, including 24
+                          collision saturations, are all unit
+442 frontier:             2 -> 0 rows, 12 -> 0 cells, cap 156 -> 0
+new assumptions:          none in deployed characteristic
+Modal status:             no launch and no cost
+next route-deciding step: remove 442 from the complete-source frontier and
+                          attack the 20 M2/M3 invariant cells while extending
+                          the outside compiler to X2/N1/L1
+```

@@ -2298,3 +2298,24 @@ and transports the complete deletion to `H8-M`.  The live `442` frontier is
 therefore only `H6,tau=+/-1`: two rows, 12 invariant cells, and cap 156.
 Reduce these two quadratic row algebras directly; do not enumerate or
 interpolate any H8 packet.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h6_complete_product_exclusion`
+closes the remaining rows and therefore the entire `(4,4,2)` skeleton.  On
+both H6 rows the protected forced product simplifies to `p_xi=-b`.  A
+forced `DF` then leaves `-DF=b`, repeating the common singleton product.
+For the two colored forced types, opposite `sigma=-tau` cells have nonzero
+exact factor norms.  In aligned `sigma=tau` cells, every mixed-matching ideal
+is unit or forces
+
+```text
+a^2=b^2,
+```
+
+so the other colored product is `+/-b` and repeats either the common value
+`b` or the forced value `-b`.  A direct 48-ideal deployed-field audit,
+including 24 collision saturations, is independently unit throughout.
+Hence no `442` cell reaches complete interpolation.  Remove this skeleton
+from downstream work.  Continue with the 20 invariant cells already routed
+over `M2/M3`, and build the missing outside forced-mate/invariance compiler
+for the separate exact `X2/N1/L1` common-`K` ledgers.

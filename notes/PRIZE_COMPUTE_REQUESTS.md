@@ -10773,6 +10773,18 @@ H8 row is using an obsolete frontier.  These remaining rows have quadratic
 base algebras and should be attempted symbolically before requesting any
 container fleet.
 
+The two H6 rows are now PROVED empty too, so the accepted `(4,4,2)` compute
+frontier is empty.  The forced value `-b` either causes an immediate `DF`
+product collision or reduces every aligned colored matching to the collision
+divisor `a^2=b^2`; the opposite-sign cells have nonzero exact norms.  A
+48-ideal deployed-field audit confirms the guarded deletion.  No external
+worker should launch a `442` cell, matching, q-orientation, or interpolation
+task.  The next already-routed negative two-loop compute frontier, if
+symbolic work does not close it first, is the 20 invariant cells over
+`M2/M3`.  The other three surviving `(4,3,3)` common-`K` ledgers
+`X2/N1/L1` first require their own exact outside forced-mate/invariance
+compiler and must not be folded into that 20-cell count.
+
 The 240-row `(4,3,3)`
 two-loop atlas is also superseded at the label level: `(KB43-3)` gives nine
 one-parameter antipodal cells.  The first product-minor cut deletes
