@@ -6,7 +6,7 @@ Pinned exact sources:
 unramified compiler
 988e60a010ea2793049505b5e9b0ff6d5c28b300e4a00a4b8a3724849ede09f0
 
-moving router
+moving router at closure commit `2cb1206a`
 1309bd5e7366ce9852fd0f7f030059d0ecafa2685370b8935af19665e7bcf933
 
 moving swap minor cache
@@ -17,5 +17,7 @@ aacf8976e2fe3933055fb8e7d1a90d2b176dad8699ce37cbf2c0f7f3d6fd521e
 ```
 
 The cache payloads pin the corrected q-slice generator hash and all decoded
-polynomial digests. The router reconstructs resultants and finite fields from
-the payloads; no captured console output is trusted as a certificate.
+polynomial digests. The historical router hash identifies the closure
+snapshot; `verify_exact.py` replays the current compatible router and checks
+all three terminal PASS contracts. No captured console output is trusted as
+a certificate.

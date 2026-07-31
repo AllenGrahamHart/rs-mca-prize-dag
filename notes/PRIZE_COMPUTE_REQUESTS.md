@@ -169,9 +169,9 @@ retries; raw artifact storage is separate.
   their remaining common components leave degree-`160`, degree-`26`, and
   degree-`1224` conic norms for `same`, `swap`, and `mixed`, respectively.
   The degree-12 mixed component is screened without a function-field gcd.
-  The moving `swap` finite and off-common ledgers are now fully replayed and
-  mint a PROVED cell exclusion. The finite specializations and off-common
-  projection intersections in the other five cells remain open.
+  The moving `swap` and `same` finite and off-common ledgers are now fully
+  replayed and mint PROVED cell exclusions. The finite specializations and
+  off-common projection intersections in the other four cells remain open.
 - **PASS:** mint PROVED aligned-positive unramified q-slice exclusion nodes;
   together with the ramified and aligned-negative theorems, delete the
   complete aligned source-line branch.

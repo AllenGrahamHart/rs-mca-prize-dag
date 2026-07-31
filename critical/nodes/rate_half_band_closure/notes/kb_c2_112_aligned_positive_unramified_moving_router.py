@@ -35,6 +35,11 @@ CONFIGS = {
             "5053d388c9fd2374f9c2f88c0a856c6af6a3074fa8a892353f5f54913f520262",
             "387dfb97236370156a6206b386279185a476f77906ebac04e9bb2414b4a28303",
         ),
+        "off_common_digests": (
+            "a3882e8bb2c445e70b9f594d4ddf2beadd2e2ffd64bf973e682f35908b0018f5",
+            "123228f02b6bf1687d4c37f3bc2fa36418ec860bb38d65a3bbc565b729050802",
+            "3991528db1a1f476582e3d5814df421f8fb968410f0a8994d786c54334bf5fca",
+        ),
     },
     "swap": {
         "cache": HERE / "kb_c2_112_aligned_positive_unramified_moving_swap_minors.json",
@@ -394,7 +399,10 @@ def main() -> None:
     )
     residuals = load_residuals(compiler, context, args.allocation)
     if args.off_common_screen:
-        require(args.allocation == "swap", "off-common screen is pinned to swap")
+        require(
+            "off_common_digests" in CONFIGS[args.allocation],
+            "off-common screen allocation",
+        )
         configured = CONFIGS[args.allocation]["off_common_digests"]
         off_common = []
         for right, digest in zip((1, 2, 3), configured):
@@ -416,7 +424,7 @@ def main() -> None:
         common_norm = first_norm.gcd(second_norm)
         print(
             "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_"
-            "OFF_COMMON_SCREEN_PASS allocation=swap "
+            f"OFF_COMMON_SCREEN_PASS allocation={args.allocation} "
             f"terms={len(common_norm.to_dict())} "
             f"degrees={common_norm.degrees()} "
             f"digest={compiler.polynomial_digest(common_norm)}",
@@ -512,21 +520,41 @@ def main() -> None:
                         f"status={status}",
                         flush=True,
                     )
-            require(
-                not unresolved_candidates,
-                f"off-common survivors: {unresolved_candidates}",
-            )
-            require(
-                p_candidates == boundary_candidates,
-                "off-common candidate accounting",
-            )
-            print(
-                "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_"
-                "SWAP_OFF_COMMON_FINITE_REPLAY_PASS "
-                f"t_factors={len(norm_factors)} "
-                f"p_candidates={p_candidates} boundary={boundary_candidates}",
-                flush=True,
-            )
+            if args.allocation == "swap":
+                require(
+                    not unresolved_candidates,
+                    f"off-common survivors: {unresolved_candidates}",
+                )
+                require(
+                    p_candidates == boundary_candidates,
+                    "off-common candidate accounting",
+                )
+                print(
+                    "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_"
+                    "SWAP_OFF_COMMON_FINITE_REPLAY_PASS "
+                    f"t_factors={len(norm_factors)} "
+                    f"p_candidates={p_candidates} "
+                    f"boundary={boundary_candidates}",
+                    flush=True,
+                )
+            else:
+                require(
+                    not unresolved_candidates,
+                    f"off-common survivors: {unresolved_candidates}",
+                )
+                require(
+                    p_candidates == boundary_candidates,
+                    "off-common candidate accounting",
+                )
+                print(
+                    "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_"
+                    "OFF_COMMON_FINITE_REPLAY_PASS "
+                    f"allocation={args.allocation} "
+                    f"t_factors={len(norm_factors)} "
+                    f"p_candidates={p_candidates} "
+                    f"boundary={boundary_candidates}",
+                    flush=True,
+                )
         return
     if args.linear_component:
         trace, _, t, w = context.gens()
@@ -578,17 +606,43 @@ def main() -> None:
             )
         return
     if args.component_resultant_screen:
-        require(args.allocation == "mixed", "resultant screen is pinned to mixed")
-        first_projection = residuals[0].resultant(residuals[1], 3)
-        _, factors = first_projection.factor()
-        candidates = [
-            factor for factor, exponent in factors
-            if exponent == 1
-            and compiler.polynomial_digest(factor)
-            == CONFIGS[args.allocation]["component_digest"]
-        ]
-        require(len(candidates) == 1, "unique configured component")
-        component = candidates[0]
+        trace_symbol, p_symbol, t_symbol, w_symbol = sp.symbols(
+            "trace p t w"
+        )
+        if args.allocation == "same":
+            component = compiler.sympy_to_flint(
+                sp.Poly(
+                    same_cubic(p_symbol, t_symbol),
+                    trace_symbol,
+                    p_symbol,
+                    t_symbol,
+                    w_symbol,
+                ),
+                context,
+            )
+        elif args.allocation == "swap":
+            component = compiler.sympy_to_flint(
+                sp.Poly(
+                    p_symbol * t_symbol + 5 * p_symbol + t_symbol,
+                    trace_symbol,
+                    p_symbol,
+                    t_symbol,
+                    w_symbol,
+                ),
+                context,
+            )
+        else:
+            require(args.allocation == "mixed", "component screen allocation")
+            first_projection = residuals[0].resultant(residuals[1], 3)
+            _, factors = first_projection.factor()
+            candidates = [
+                factor for factor, exponent in factors
+                if exponent == 1
+                and compiler.polynomial_digest(factor)
+                == CONFIGS[args.allocation]["component_digest"]
+            ]
+            require(len(candidates) == 1, "unique configured component")
+            component = candidates[0]
         conic = load_conic(compiler, context, args.allocation)
         _, conic_factors = conic.factor()
         conic_residuals = [
@@ -598,7 +652,7 @@ def main() -> None:
         require(len(conic_residuals) == 1, "unique kernel-conic residual")
         conic_residual = conic_residuals[0]
         print(
-            "mixed_component_resultant=START "
+            f"component_resultant=START allocation={args.allocation} "
             f"minor_terms={len(residuals[0].to_dict())} "
             f"conic_terms={len(conic_residual.to_dict())} "
             f"conic_degrees={conic_residual.degrees()}",
@@ -609,7 +663,7 @@ def main() -> None:
         _, remainder = divmod(resultant, component)
         print(
             "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_"
-            "COMPONENT_RESULTANT_SCREEN_PASS allocation=mixed "
+            f"COMPONENT_RESULTANT_SCREEN_PASS allocation={args.allocation} "
             f"component_divides={str(remainder.is_zero()).lower()} "
             f"terms={len(resultant.to_dict())} degrees={resultant.degrees()} "
             f"digest={compiler.polynomial_digest(resultant)}",
@@ -620,14 +674,169 @@ def main() -> None:
             require(not norm.is_zero(), "zero component-conic norm")
             print(
                 "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_"
-                "COMPONENT_RESULTANT_NORM_PASS allocation=mixed "
+                f"COMPONENT_RESULTANT_NORM_PASS allocation={args.allocation} "
                 f"terms={len(norm.to_dict())} degrees={norm.degrees()} "
                 f"digest={compiler.polynomial_digest(norm)}",
                 flush=True,
             )
-            compiler.emit_factorization(
-                norm, "mixed_component_conic_norm", context
+            norm_factors = compiler.emit_factorization(
+                norm, "component_direct_conic_norm", context
             )
+            if args.finite_replay:
+                _, exact_equations = compiler.build_cell(
+                    "moving-moving", args.allocation
+                )
+                exact_context = flint.nmod_mpoly_ctx.get(
+                    ("trace", "p", "t", "w"),
+                    DEPLOYED_PRIME,
+                    "lex",
+                )
+                flint_equations = [
+                    compiler.sympy_to_flint(equation, exact_context)
+                    for equation in exact_equations
+                ]
+                empty_count = 0
+                boundary_count = 0
+                rank_candidates = 0
+                survivors = []
+                for index, (factor, _) in enumerate(norm_factors):
+                    modulus = univariate_modulus(factor, 2)
+                    field = flint.fq_default_ctx(
+                        modulus=modulus, fq_type="FQ_NMOD"
+                    )
+                    t_value = field.gen()
+                    polynomial_context = flint.fq_default_poly_ctx(field)
+                    p_gcd = evaluate_as_p_polynomial(
+                        component, t_value, polynomial_context
+                    ).gcd(evaluate_as_p_polynomial(
+                        resultant, t_value, polynomial_context
+                    ))
+                    _, p_factors = p_gcd.factor()
+                    statuses = []
+                    for p_factor, _ in p_factors:
+                        if p_factor.degree() != 1:
+                            survivors.append((
+                                index, p_factor.degree(), -1, -1
+                            ))
+                            statuses.append(f"P{p_factor.degree()}")
+                            continue
+                        p_value = -p_factor[0] / p_factor[1]
+                        base_forbidden = (
+                            p_value * (p_value - 1)
+                            * (p_value - t_value + 1)
+                            * (p_value + t_value + 1)
+                            * (p_value + 2 * t_value + 4)
+                            * (4 * p_value + 2 * t_value + 1)
+                            * (5 * p_value + 4 * t_value + 5)
+                            * (t_value**2 - 4 * p_value)
+                        )
+                        if base_forbidden == field.zero():
+                            statuses.append("BOUNDARY")
+                            boundary_count += 1
+                            continue
+                        w_gcd = evaluate_ptw_polynomial(
+                            residuals[0],
+                            p_value,
+                            t_value,
+                            polynomial_context,
+                        )
+                        for polynomial in (*residuals[1:], conic_residual):
+                            w_gcd = w_gcd.gcd(evaluate_ptw_polynomial(
+                                polynomial,
+                                p_value,
+                                t_value,
+                                polynomial_context,
+                            ))
+                        _, w_factors = w_gcd.factor()
+                        if w_gcd.degree() == 0:
+                            empty_count += 1
+                            statuses.append("EMPTY")
+                            continue
+                        rank_candidates += 1
+                        if w_gcd.degree() != 1:
+                            survivors.append((
+                                index, p_factor.degree(), w_gcd.degree(), -1
+                            ))
+                            statuses.append(f"UNROUTED_W{w_gcd.degree()}")
+                            continue
+                        w_value = -w_gcd[0] / w_gcd[1]
+                        scale_denominator = (
+                            p_value * w_value - 4 * p_value
+                            + 2 * t_value * w_value - 2 * t_value
+                            + 4 * w_value - 1
+                        )
+                        if (
+                            w_value * (w_value - 1) * (w_value + 1)
+                            * scale_denominator
+                        ) == field.zero():
+                            boundary_count += 1
+                            statuses.append("W_BOUNDARY")
+                            continue
+                        trace_gcd = evaluate_trace_polynomial(
+                            flint_equations[0],
+                            p_value,
+                            t_value,
+                            w_value,
+                            polynomial_context,
+                        )
+                        for equation in flint_equations[1:]:
+                            trace_gcd = trace_gcd.gcd(
+                                evaluate_trace_polynomial(
+                                    equation,
+                                    p_value,
+                                    t_value,
+                                    w_value,
+                                    polynomial_context,
+                                )
+                            )
+                        if trace_gcd.degree() == 0:
+                            empty_count += 1
+                            statuses.append("ORIGINAL_EQUATIONS_EMPTY")
+                            continue
+                        trace = polynomial_context.gen()
+                        endpoint_orbit_collision = (
+                            p_value * (trace**2 - 2)
+                            + t_value * (1 + p_value) * trace
+                            + 1 + t_value**2 + p_value**2
+                        )
+                        trace_forbidden = (
+                            (trace - 2) * (trace + 2) * (2 * trace - 5)
+                            * endpoint_orbit_collision
+                        )
+                        forbidden_gcd = trace_gcd.gcd(trace_forbidden)
+                        if forbidden_gcd.degree() == trace_gcd.degree():
+                            boundary_count += 1
+                            statuses.append("TRACE_BOUNDARY")
+                        else:
+                            survivors.append((
+                                index,
+                                p_factor.degree(),
+                                w_gcd.degree(),
+                                trace_gcd.degree(),
+                            ))
+                            statuses.append(
+                                f"SURVIVOR_TRACE{trace_gcd.degree()}"
+                            )
+                    print(
+                        f"component_finite_factor={index} "
+                        f"t_degree={modulus.degree()} "
+                        f"p_gcd_degree={p_gcd.degree()} "
+                        f"status={','.join(statuses) or 'EMPTY'}",
+                        flush=True,
+                    )
+                require(
+                    not survivors,
+                    f"direct component survivors: {survivors}",
+                )
+                print(
+                    "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_"
+                    "DIRECT_FINITE_COMPONENT_REPLAY_PASS "
+                    f"allocation={args.allocation} "
+                    f"factors={len(norm_factors)} "
+                    f"rank_candidates={rank_candidates} "
+                    f"empty={empty_count} boundary={boundary_count}",
+                    flush=True,
+                )
         return
     if args.component or args.cubic_component:
         trace_symbol, p_symbol, t_symbol, w_symbol = sp.symbols(

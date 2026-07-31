@@ -11830,8 +11830,8 @@ ending local theorem pin: current moving-swap PROVED packet
 canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
 node/workboard attacked:  K3 / aligned positive unramified c2(1,1,2)
 cells attacked:           all 6 fixed-moving and moving-moving allocations
-result:                   moving-moving swap PROVED; five cells narrowed
-DAG delta:                +1 PROVED background evidence node, +3 edges
+result:                   moving same/swap PROVED; four cells narrowed
+DAG delta:                +2 PROVED background evidence nodes, +6 edges
 critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
                           (unchanged; the new edge is evidence, not req)
 new assumptions:          none
@@ -11844,7 +11844,7 @@ exact movement:           quadratic-in-b compiler now completes; same/swap
                           degrees 160/26/1224
 unresolved fixed cells:   finite norm/denominator support and off-common
                           intersections, followed by original-equation replay
-unresolved sibling cells: fixed same/swap/mixed; moving same/mixed
+unresolved sibling cells: fixed same/swap/mixed; moving mixed
 next route-deciding step: transfer the successful finite-extension and
-                          off-common router to the remaining five cells
+                          off-common router to the remaining four cells
 ```

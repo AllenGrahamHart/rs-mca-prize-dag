@@ -1490,11 +1490,10 @@ each internal template, unique factorization leaves the `same`, `swap`, and
 forbidden saturation over `F_2130706433`. The moving equations are reciprocal
 quartics in `b`; after exact descent to `s=b+1/b`, all three corresponding
 saturations are also unit. Thus the complete aligned `w=0` branch is deleted
-after combining the negative theorem. The PROVED
-`rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion`
-now also deletes the unramified moving-moving swapped allocation by exact
-trace-minor, conic, finite-extension, and off-common replay. The other five
-aligned positive unramified cells remain open.
+after combining the negative theorem. The PROVED moving `swap` and moving
+`same` unramified q-slice exclusions now also delete those two allocations by
+exact trace-minor, conic, finite-extension, and off-common replay. The other
+four aligned positive unramified cells remain open.
 
 The PROVED
 `rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion`
@@ -1643,7 +1642,7 @@ infinity. Three fixed-moving saturations, two moving trace saturations, and
 both signs of the moving other-xi constant gate are unit over the deployed
 field. Thus the positive near-aligned queue is complete. Combined with the
 near-negative theorem, the entire near-aligned source-line branch is empty.
-Five aligned positive unramified cells and other packet/assembly obligations
+Four aligned positive unramified cells and other packet/assembly obligations
 remain.
 
 The aligned positive sign has also resisted a broader exact falsifier sweep.
