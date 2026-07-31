@@ -10738,6 +10738,21 @@ only `B-D,C-E,D-E,D-F(+/-),E-F(+/-)`, with one of the five internal signed
 types assigned to `eta`.  A worker that generates arbitrary outside
 multigraphs is outside the accepted request.
 
+The accepted paired-product input is now exactly 20 invariant-form cells:
+`M2/M3`, `tau=+/-1`, and five possible forced-`xi` edge types.  In each,
+remove the forced product from `{bD,cE,tau DE,+/-DF,+/-EF}` and impose
+projective invariance of the residual binary sextic under the printed
+product involution, plus fixed-point and distinctness saturation.  This
+replaces 300 perfect matchings.  The variables `D,E,F` are independent
+horizontal coordinates; any worker substituting powers of the quotient
+coordinate `M` is invalid and its output must be rejected.
+
+If exact saturation or full-interpolation elimination for all 20 cells is
+too expensive for the campaign budget, shard one cell per task with a hard
+runtime/memory declaration, deterministic partial output, and a compact
+certificate for every unit ideal or survivor component.  No such fleet is
+authorized locally at present.
+
 Suggested pilot: one canonical packet stratum, one CPU, at most 512 MiB,
 60 seconds, deterministic partial output, and no parallel fleet.  Modular
 reconnaissance is evidence only; universal deletion requires symbolic or

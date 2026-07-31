@@ -2129,3 +2129,24 @@ other four internal types and the two colored attachments lie in `L^c`.
 Combine these five `eta` choices with the forced `xi` location/product and
 the three bilinear involution rows; do not enumerate arbitrary degree-four
 source multigraphs.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_product_invariance_router`
+then removes explicit perfect-matching enumeration.  After sign gauge the
+outside product multiset is
+
+```text
+{bD,cE,tau DE,DF,-DF,EF,-EF},       tau=+/-1,
+```
+
+where `D,E,F` are horizontal `T` coordinates and are independent of the
+quotient `W` coordinate `M`.  For each of five possible `xi` edge types,
+remove its forced value and require the residual binary sextic to be
+projectively invariant under the explicit product involution and coprime to
+its fixed-point quadratic.  This yields exactly 20 cells across `M2/M3` and
+both `tau` signs, replacing 300 sign-gauged perfect matchings.
+
+Attack these invariant cells before full interpolation.  Do not substitute
+`D,E,F={1,M,M^2}`: the coefficient normal form normalizes the `T` and
+source/quotient projectivities independently, so that tempting resultant is
+not typed.
