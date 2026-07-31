@@ -2167,3 +2167,24 @@ with one of the five internal signed types at `eta`.  Lift the six exact
 common-`K` product rows through this multiset by the same forced-mate and
 invariant-binary-form strategy; do not enumerate arbitrary `(4,4,2)` source
 graphs.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler`
+now performs the forced-mate step on all six q-compatible common rows.  The
+two antipodal pairs already in `K` determine one nonsingular product
+involution by an exact row cross product.  The singleton's mate is `xi=-1`
+on `H6` and `xi=-l` on either `H8` locus, with product
+
+```text
+H6:   b(b l^2+b-l^2+2l-1)/(b l^2-2bl+b-l^2-1),
+H8-L: b(2b l^2+2b-l^2+2l-1)/(b l^2-2bl+b-2l^2-2),
+H8-M: b(b l^2-2bl+b-2l^2-2)/(2b l^2+2b-l^2+2l-1).
+```
+
+The numerator and denominator norms are exactly `1,49,784,8464`; hence the
+fractions are finite and nonzero in deployed characteristic.  The forced
+singleton pair and the three residual outside pairs obey the same
+row-specific bilinear involution.  Build the invariant-binary-sextic router
+from these scalar gates and the unique outside edge multiset.  Do not
+recompute Mobius kernels or enumerate the fifteen residual perfect
+matchings separately.

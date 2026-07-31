@@ -20576,6 +20576,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop 442 outside-product involution compiler",
+   "status": "PROVED",
+   "closure": "six-row forced outside product and paired-product involution compiler outside characteristics 2,7,23",
+   "statement": "For each of the six q-compatible (4,4,2) common-product rows, the two antipodal pairs in K determine one nonsingular product involution. The missing label xi is -1 on H6 and -l on H8; its product is an explicit finite nonzero rational function protected by exact norms 1,49,784,8464 in deployed characteristic. The remaining three outside antipodal pairs obey the same row-specific bilinear equation.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
    "title": "KoalaBear m2 r2 dihedral degree-five source-star exclusion",
    "status": "PROVED",
@@ -39441,6 +39461,36 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_edge_skeleton_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

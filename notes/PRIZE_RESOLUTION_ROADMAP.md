@@ -12288,7 +12288,7 @@ ending local theorem pin: current M2/M3 classifier PROVED packet
 canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
 node/workboard attacked:  K3 / negative 433 cells M2,M3
 result:                   PROVED exact shared finite classification
-DAG delta:                +1 PROVED background node, +4 req, +1 ev edge
+DAG delta:                +1 PROVED background node, +5 req, +1 ev edge
 critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
                           (unchanged; narrowing evidence only)
 shared eliminant:         reciprocal sextic P6 of degree 6
@@ -12399,4 +12399,30 @@ Modal status:             no launch and no cost
 next route-deciding step: derive forced outside mate/involution data for the
                           six exact 442 common-product rows, then apply an
                           invariant-binary-form router before interpolation
+```
+
+### Work-cycle burn-down: 442 outside-product involution compiler
+
+```text
+starting local pin:       a000e289 (442 complete-edge skeleton)
+ending local theorem pin: current 442 outside-product PROVED compiler
+canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+node/workboard attacked:  K3 / negative 442 complete-source lift
+result:                   PROVED six-row forced mate and residual scalar gate
+DAG delta:                +1 PROVED background node, +4 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; route-boundary evidence only)
+source-set pin:           xi=-1 on H6; xi=-l on both H8 loci
+forced product:           three printed rational forms, checked by all 60
+                          homogeneous candidate-row maximal minors
+protected norms:          1,49,784,8464; deployed characteristic avoids
+                          the exact exceptional set {2,7,23}
+paired-product reduction: two K pairs fix the involution; singleton plus
+                          three outside pairs obey one bilinear equation
+new assumptions:          none in deployed characteristic beyond exact
+                          parent injectivity and source-facet scope
+Modal status:             no launch and no cost
+next route-deciding step: combine the forced product with the five possible
+                          xi edge types and sign gauge, then impose residual
+                          binary-sextic invariance before full interpolation
 ```

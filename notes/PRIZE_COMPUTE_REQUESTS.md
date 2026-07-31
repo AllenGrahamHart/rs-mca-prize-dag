@@ -10710,6 +10710,15 @@ internal types are `D-E,+/-D-F,+/-E-F`, one of which is `eta`.  Any future
 worker must combine this multiset with the six common-`K` product rows and
 their two q orientations; arbitrary outside graph enumeration is obsolete.
 
+The forced outside mate is now also PROVED for all six rows.  It is `-1` on
+`H6` and `-l` on `H8`, with a printed product fraction whose protected norms
+are `1,49,784,8464`; the two common pairs fix one explicit bilinear product
+involution controlling the forced pair and the three residual pairs.  A
+worker must start from this compiler, remove the forced value from the
+seven-product outside multiset, and test one invariant binary sextic per
+sign-gauged cell.  Re-solving a common Mobius map or enumerating fifteen
+perfect matchings per row is outside the accepted request.
+
 The 240-row `(4,3,3)`
 two-loop atlas is also superseded at the label level: `(KB43-3)` gives nine
 one-parameter antipodal cells.  The first product-minor cut deletes
