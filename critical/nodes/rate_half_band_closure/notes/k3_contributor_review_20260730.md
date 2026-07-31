@@ -60,3 +60,21 @@ documented in `dead_ends/`); residual = the `2+2+2` frontier (324/10) plus
 the decomposition rows `{2,3,4,6,10,12}` under the wave-33 narrowing, with
 the 26→24 transverse types at m=12. Three agents interleaved: Scott
 (#1122–#1131, #1133), our Codex (#1132), this review.
+
+## Addendum 2026-07-31 — the 112 coordination gap, surfaced and commented
+
+Scott's #1140 compiles all 36 aligned-positive q-slice systems freshly
+(`ALL_CELLS_UNCLASSIFIED`, zero citations of our lane); #1141 deletes
+F02/F03 from that atlas. Our #1132 export had already excluded the
+aligned-positive ramified slices (6 unit ideals) with printed residual
+`remaining_unramified=6, deep_cases=17`. Neither stack consumes the other —
+the first genuine coordination failure between the forks.
+
+Maintainer approved a cross-reference comment; posted on #1140
+(issuecomment-5146556389): states our coverage and residual with replay
+line, explicitly does NOT assert cell-for-cell identity (the partitions
+differ: his 12x3 vs our ramified/unramified/projective), proposes a mapping
+row in either direction, and frames overlap as free cross-verification.
+Watch: whether the atlas note gains the mapping, and whether F02/F03 land in
+our printed residual (which would make #1141 a continuation, not a
+re-derivation).
