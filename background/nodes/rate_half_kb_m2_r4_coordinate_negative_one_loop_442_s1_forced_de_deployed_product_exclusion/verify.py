@@ -40,10 +40,10 @@ def factor_audit():
                 for factor in factors), "cubic irreducibility")
 
 
-def solve_quietly(component):
+def solve_quietly(component, alpha_sign=1):
     transcript = io.StringIO()
     with contextlib.redirect_stdout(transcript):
-        equations, basis = SOLVER.solve_component(component)
+        equations, basis = SOLVER.solve_component(component, alpha_sign)
     require(tuple(len(equation) for equation in equations) == (25, 25, 25),
             "sparse profiles")
     require(basis == [{(0, 0): SOLVER.ONE}], "unit ideal")

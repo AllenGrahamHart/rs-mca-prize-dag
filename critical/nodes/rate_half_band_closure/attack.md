@@ -2682,3 +2682,11 @@ fields, and exact Buchberger reduction reaches `1` after 79 S-pairs in each.
 This is a raw unit ideal, so no guard saturation is needed.  Reduce the live
 outside product frontier from 80 to 79 cells; do not transport the deletion
 to another common sign row or forced record without a separate replay.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion`
+replays the other `S1` parity.  Its only factor change is
+`dX+cmZ -> dX-cmZ`; both cubic components again reach `1` after 79 S-pairs.
+Therefore both forced-`DE/DF` parity cells are empty in common sign row
+`(1,1)`, and the accepted frontier is 78.  The other three common sign rows
+remain untransported.

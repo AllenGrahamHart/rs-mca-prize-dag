@@ -13116,3 +13116,23 @@ Modal status:             no launch and no cost
 next route-deciding step: replay one symmetry-adjacent canonical cell or
                           prove a transport on common/outside sign rows
 ```
+
+### Work-cycle burn-down: one-loop 442 opposite S1 parity
+
+```text
+starting local pin:       c0a43911 (first deployed S1 forced-DE exclusion)
+ending local theorem pin: current opposite-parity exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / second forced-DE parity cell
+result:                   PROVED raw product-invariance ideal is unit
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase deletion)
+factor change:            dX+cmZ becomes dX-cmZ
+certificate:              unit after 79 S-pairs in both cubic components
+accepted frontier:        78 cells, down from 79
+common sign scope:        only (epsilon_1,epsilon_2)=(1,1)
+Modal status:             no launch and no cost
+next route-deciding step: another forced-record type in the same common row
+                          or a proved common-sign transport
+```

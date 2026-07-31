@@ -64,7 +64,9 @@ def binary_mul(left, right):
     return output
 
 
-def build():
+def build(alpha_sign=1):
+    if alpha_sign not in (-1, 1):
+        raise ValueError("alpha_sign must be +/-1")
     b, r, t, d_c, vector, polynomial, matrix = MATE.quotient_data(1, 1)
     d, s = sp.symbols("d s")
     x = r**2
@@ -126,7 +128,9 @@ def build():
         (d_power, s_power): value
     }
     factors = (
-        (monomial(1, 0), constant(SELECTOR.mul(c_matrix, mate_matrix))),
+        (monomial(1, 0), constant(SELECTOR.scale(
+            alpha_sign, SELECTOR.mul(c_matrix, mate_matrix)
+        ))),
         (constant(SELECTOR.IDENTITY), monomial(1, 1, c_matrix)),
         (constant(SELECTOR.IDENTITY), monomial(2, 0)),
         (constant(SELECTOR.IDENTITY), monomial(2, 1,
@@ -178,8 +182,9 @@ def build():
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--groebner", action="store_true")
+    parser.add_argument("--alpha-sign", type=int, choices=(-1, 1), default=1)
     arguments = parser.parse_args()
-    variables, common_basis, equations, _ = build()
+    variables, common_basis, equations, _ = build(arguments.alpha_sign)
     d, s, t, r, b = variables
     profiles = []
     for equation in equations:
@@ -195,7 +200,10 @@ def main():
             min(power[1] for power in outside_support),
         ))
     profiles = tuple(profiles)
-    print(f"S1_DEPLOYED_CELL_BUILT profiles={profiles}", flush=True)
+    print(
+        f"S1_DEPLOYED_CELL_BUILT alpha_sign={arguments.alpha_sign} "
+        f"profiles={profiles}", flush=True
+    )
     if not arguments.groebner:
         return
 

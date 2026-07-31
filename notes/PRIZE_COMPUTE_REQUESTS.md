@@ -10968,6 +10968,12 @@ is now 79 cells.  External workers may reuse the checked sparse builder and
 cubic-field solver on another canonical cell, but must pin its common signs,
 outside signs, and forced record explicitly.
 
+The opposite `S1` parity for the same forced-`DE/DF` type is also complete:
+changing the first sparse factor from `dX+cmZ` to `dX-cmZ` again gives the
+unit ideal after 79 S-pairs in both cubic components.  The accepted frontier
+is 78.  Do not request either parity of this forced type in common sign row
+`(1,1)`.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs

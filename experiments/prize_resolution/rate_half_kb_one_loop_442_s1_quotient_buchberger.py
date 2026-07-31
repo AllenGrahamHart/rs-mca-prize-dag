@@ -259,13 +259,13 @@ def component_equations(matrix_equations, modulus):
     return equations
 
 
-def solve_component(component):
-    _, _, _, matrix_equations = BUILDER.build()
+def solve_component(component, alpha_sign=1):
+    _, _, _, matrix_equations = BUILDER.build(alpha_sign)
     modulus = CUBICS[component]
     equations = component_equations(matrix_equations, modulus)
     print(
         "S1_QUOTIENT_COMPONENT_BUILT "
-        f"component={component} "
+        f"component={component} alpha_sign={alpha_sign} "
         f"terms={tuple(len(equation) for equation in equations)} "
         f"leaders={tuple(leading(equation)[0] for equation in equations)}",
         flush=True,
@@ -276,11 +276,13 @@ def solve_component(component):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("component", type=int, choices=(0, 1))
+    parser.add_argument("--alpha-sign", type=int, choices=(-1, 1), default=1)
     arguments = parser.parse_args()
-    _, basis = solve_component(arguments.component)
+    _, basis = solve_component(arguments.component, arguments.alpha_sign)
     print(
         "S1_QUOTIENT_COMPONENT_RESULT "
-        f"component={arguments.component} unit={basis == [{(0, 0): ONE}]} "
+        f"component={arguments.component} alpha_sign={arguments.alpha_sign} "
+        f"unit={basis == [{(0, 0): ONE}]} "
         f"basis={len(basis)}",
         flush=True,
     )
