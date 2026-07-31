@@ -13437,3 +13437,22 @@ remaining product cells:  S0=6 and S1=10 canonical cells
 Modal status:             no launch and no cost
 next route-deciding step: bounded S0/S1 sparse passes
 ```
+
+### Work-cycle burn-down: cells 3/6 S0 product close
+
+```text
+starting local pin:       d2f2d0d8 (cells 3/6 complete S2 exclusion)
+ending local theorem pin: current cells 3/6 complete S0 exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / loop-free split-colored skeleton
+result:                   PROVED all 6 canonical S0 cells are empty
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact skeleton deletion)
+raw units:                forced colored, 11 terms, 29 S-pairs
+guarded deletions:        forced EF/internal, 190/406 S-pairs
+transport:                both b roots/parities checked; c sign gauged
+remaining product cells:  exactly 10 canonical S1 cells
+Modal status:             no launch and no cost
+next route-deciding step: eight rational S1 cells, then two forced loops
+```

@@ -2888,3 +2888,13 @@ forced-`EF` basis contains `e^2`; these contradict nonzero outside
 representatives.  The systems use only `c^2`, so `c -> -c` transports
 the certificates to every common packet.  Continue with the six `S0` and
 ten `S1` forced-record cells; no `S2` q or interpolation work remains.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion`
+also deletes all six canonical `S0` cells.  In both `b` rows and both
+parities, forced colored is a raw unit after 29 S-pairs, forced `EF`
+contains `s^2` after 190, and forced internal contains `s` after 406.
+The latter variable is a nonzero outside representative.  Simultaneously
+flipping the two colored outside signs transports `c -> -c` without
+changing parity.  Thus only the ten `S1` product cells remain for common
+orbit `[3,6]`.
