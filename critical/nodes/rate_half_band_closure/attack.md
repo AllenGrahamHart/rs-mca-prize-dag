@@ -2898,3 +2898,20 @@ The latter variable is a nonzero outside representative.  Simultaneously
 flipping the two colored outside signs transports `c -> -c` without
 changing parity.  Thus only the ten `S1` product cells remain for common
 orbit `[3,6]`.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion`
+closes those final ten cells.  Forced internal and colored cells are raw
+units after 79 and 56 S-pairs.  All four forced-`EF` bases contain the
+nonzero representative `s` after 435 pairs.  The two forced-loop cells
+need no extension because
+
+```text
+101399882^2=-893470876,       592085280^2=-1479361290,
+```
+
+and their 17-term systems are raw units after 55/57 pairs.  Both `b` rows
+and the exact `c`-sign transport are covered.  Hence all
+`S0=6,S1=10,S2=4` canonical product cells are empty and common orbit
+`[3,6]` is retired.  Do not run q or interpolation.  The sole
+unclassified one-loop 442 common orbit is now `[4,5,7,8]`.

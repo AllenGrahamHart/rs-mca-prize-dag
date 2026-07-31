@@ -10,6 +10,7 @@ ROWS = (
     (1608564875, 181785890, 893470876),
     (1587494773, 449324246, 1479361290),
 )
+LOOP_ROOTS = (101399882, 592085280)
 
 
 def clean(polynomial):
@@ -85,7 +86,7 @@ def action_matrix(alpha, beta, gamma):
     return action
 
 
-def factors_for(cell, c_value, mate, alpha_sign, delta_sign, ef_sign):
+def factors_for(cell, c_value, mate, theta, alpha_sign, delta_sign, ef_sign):
     c_inverse = pow(c_value, -1, P)
     mate_over_c = mate*c_inverse % P
     if cell == "forced-de":
@@ -114,6 +115,14 @@ def factors_for(cell, c_value, mate, alpha_sign, delta_sign, ef_sign):
             (constant(1), monomial(2, 0)),
             (constant(1), monomial(1, 1)),
             (constant(1), constant(mate)),
+        )
+    if cell == "s1-forced-loop":
+        return (
+            (constant(1), monomial(1, 0, c_value)),
+            (constant(1), monomial(0, 1, c_value)),
+            (constant(1), monomial(1, 0, theta)),
+            (constant(1), monomial(0, 1, -delta_sign*theta)),
+            (constant(1), {}, monomial(2, 2, -1)),
         )
     if cell == "s2-forced-colored":
         return (
@@ -175,7 +184,8 @@ def equations(row, cell, alpha_sign=1, delta_sign=-1, ef_sign=1):
     action = action_matrix(alpha, beta, gamma)
     coefficients = [constant(1)]
     for factor in factors_for(
-        cell, c_value, mate, alpha_sign, delta_sign, ef_sign
+        cell, c_value, mate, LOOP_ROOTS[row],
+        alpha_sign, delta_sign, ef_sign
     ):
         coefficients = binary_mul(coefficients, factor)
     if len(coefficients) != 7:
@@ -302,6 +312,7 @@ def main():
     parser.add_argument("--row", type=int, choices=(0, 1), required=True)
     parser.add_argument("--cell", choices=(
         "forced-de", "forced-ce", "forced-ef",
+        "s1-forced-loop",
         "s2-forced-colored", "s2-forced-df", "s2-forced-ef",
         "s2-forced-loop", "s0-forced-colored", "s0-forced-ef",
         "s0-forced-internal",

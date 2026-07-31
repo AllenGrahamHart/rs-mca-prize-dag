@@ -13456,3 +13456,23 @@ remaining product cells:  exactly 10 canonical S1 cells
 Modal status:             no launch and no cost
 next route-deciding step: eight rational S1 cells, then two forced loops
 ```
+
+### Work-cycle burn-down: cells 3/6 S1 and product-orbit close
+
+```text
+starting local pin:       222c9fa0 (cells 3/6 complete S0 exclusion)
+ending local theorem pin: current S1 / complete product-orbit close
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / final split-colored loop skeleton
+result:                   PROVED all 10 S1 and all 20 product cells empty
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-orbit product close)
+rational raw units:       internal/colored, 79/56 S-pairs
+guarded cells:            four forced EF, s=0 after 435 S-pairs
+forced loops:             -m square in base field; units after 55/57 pairs
+complete census:          S0=6, S1=10, S2=4; all empty
+obsolete stages:          outside q and full interpolation for [3,6]
+Modal status:             no launch and no cost
+next route-deciding step: classify sole common orbit [4,5,7,8]
+```
