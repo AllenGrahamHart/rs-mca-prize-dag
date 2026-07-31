@@ -1583,6 +1583,18 @@ subresultant audit. Thus 16 of 18 affine positive charts are closed. Only
 the swapped and mixed moving-moving other-xi allocations remain, together
 with negative loci and the `w=0` boundary.
 
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion`
+closes the swapped chart. Here the reciprocal `c` side leaves three
+nonstandard parent components, while the nonreciprocal `d` product splits
+into two cubic branches leaving two. Complete characteristic-zero and
+deployed-prime factorization of the six `3x2` pair projections retains ten
+linear, nine quadratic, one cubic, and two sextic factors. All 22 full
+four-core forbidden saturations are unit in both a direct/resultant primary
+and an independent fraction-free/terminal-subresultant audit. Thus 17 of 18
+affine positive charts are closed. Only the mixed moving-moving other-xi
+allocation remains, together with negative loci and the `w=0` boundary.
+
 The aligned positive sign has also resisted a broader exact falsifier sweep.
 The seeded standard-library replay
 `notes/kb_c2_112_positive_qslice_sweep.py` tests all twelve internal

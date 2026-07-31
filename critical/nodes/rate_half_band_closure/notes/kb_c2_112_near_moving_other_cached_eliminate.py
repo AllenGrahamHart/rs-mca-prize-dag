@@ -71,7 +71,11 @@ def main() -> None:
             "7a7743ce53fe8f77",
         }
         parents = []
-        if args.root == "c":
+        branch_root = (
+            (args.allocation == "square-xi" and args.root == "c")
+            or (args.allocation == "square-ell" and args.root == "d")
+        )
+        if branch_root:
             branches = []
             for factor, exponent in sp.factor_list(cores["product"].as_expr())[1]:
                 if exponent != 1:

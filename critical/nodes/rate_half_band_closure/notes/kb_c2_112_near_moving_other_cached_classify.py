@@ -45,22 +45,42 @@ def load_cores(allocation, root, cache_dir, b, c, d, primary):
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("allocation", choices=("square-xi",))
-    parser.add_argument("index", type=int, choices=range(8))
+    parser.add_argument("allocation", choices=("square-xi", "square-ell"))
+    parser.add_argument("index", type=int)
     parser.add_argument("--cache-dir", type=Path, default=Path("/tmp"))
     args = parser.parse_args()
     primary = load_primary()
     b, c, d, inverse = sp.symbols("b c d inverse")
-    candidates = (
-        "d - 53820732",
-        "d**2 - 193204367*d - 98068426",
-        "d + 261596606",
-        "d + 982346495",
-        "d - 1020436165",
-        "d - 901544254",
-        "d + 583634928",
-        "d - 583634934",
-    )
+    candidates = {
+        "square-xi": (
+            "d - 53820732",
+            "d**2 - 193204367*d - 98068426",
+            "d + 261596606", "d + 982346495",
+            "d - 1020436165", "d - 901544254",
+            "d + 583634928", "d - 583634934",
+        ),
+        "square-ell": (
+            "d - 594504303", "d - 538097078",
+            "d**2 - 568598655*d - 374354523",
+            "d**6 - 642577042*d**5 + 588486998*d**4 + 926294591*d**3 + 679398950*d**2 - 111286545*d - 26700929",
+            "d + 251370115", "d - 299352588",
+            "d + 579618345", "d + 996338454",
+            "d + 583634928", "d - 583634934",
+            "d**2 + 16458322*d - 979475259",
+            "d**2 + 699968870*d - 224576527",
+            "d**2 + 703795947*d - 753996681",
+            "d**2 + 957200620*d + 246061440",
+            "d**2 - 97750688*d + 1",
+            "d - 499377018", "d - 151267790",
+            "d**3 - 414708410*d**2 + 399639044*d - 799507796",
+            "d**2 + 462837669*d + 643446795",
+            "d**2 + 1033375787*d - 244556338",
+            "d**2 - 748014748*d + 1",
+            "d**6 + 52868123*d**5 + 322738914*d**4 - 848385901*d**3 + 322738914*d**2 + 52868123*d + 1",
+        ),
+    }[args.allocation]
+    if not 0 <= args.index < len(candidates):
+        raise RuntimeError("candidate index")
     key = candidates[args.index]
     candidate = sp.Poly(
         sp.sympify(key, locals={"d": d}), d, modulus=CHARACTERISTIC
