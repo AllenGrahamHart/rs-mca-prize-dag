@@ -10945,6 +10945,12 @@ only as an audit.  They must not add a proportionality scalar or coefficient
 minors.  The accepted workload is eighty cells times three scalar
 conditions before outside sums and interpolation.
 
+The row choice is now fixed as well.  The PROVED uniform-row selector shows
+that `E_0,E_1,E_2` are independent in all four common sign quotients; their
+`(h_0,h_1,h_2)` minor has deployed multiplication norm `1133299039`.
+Workers should use those three equations exactly and should not spend a
+shard selecting or row-reducing coefficient equations.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs

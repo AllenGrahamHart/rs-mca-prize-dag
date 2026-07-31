@@ -2642,3 +2642,16 @@ equations have rank three, so the accepted outside product frontier is now
 eighty cells with three independent scalar conditions each.  Keep all seven
 coefficient equations for audit; do not introduce `lambda`, minors, or
 matching variables.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector`
+fixes the independent equations uniformly.  In all four rank-six common
+sign quotients, the coefficient minor of rows and columns `(0,1,2)` has
+multiplication norm
+
+```text
+1133299039 mod 2130706433,
+```
+
+so it is a unit.  Therefore evaluate exactly `E_0,E_1,E_2` in every one of
+the eighty cells.  No per-row rank calculation remains.
