@@ -19510,6 +19510,60 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive moving-moving tau-xi orbit exclusion",
+   "status": "PROVED",
+   "closure": "all three deployed-field positive near-aligned moving-moving xi=tau(a) residual-root allocations are empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize a=2, eta=c, ell=d and w=1/c, and use moving-moving source edges {2,b},{2,1/b}. For xi=tau(a), assign the residual roots as c->{2,2},d->{1/d,1/d}; c->{1/d,1/d},d->{2,2}; or c,d->{2,1/d}. Exact reciprocal trace reduction leaves respectively 3x3, 3x2, and 1x1 nonstandard parent component pairs. Complete characteristic-zero and modular routers retain exactly 15, 4, and 10 residue-degree-dividing-six factors, and all 29 have unit forbidden saturations. A direct/resultant primary and no-import fraction-free/subresultant audit agree. Thus all three charts and the full xi=tau(a) moving-moving orbit are empty; the other three moving-moving affine positive charts, projective boundary, and negative loci remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_runner.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_runner.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_trace.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_classify_low.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_classify_high.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_ell_source.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_ell_trace.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_ell_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_ell_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_ell_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_ell_classify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_mixed_source.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_mixed_trace.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_mixed_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_mixed_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_mixed_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_mixed_classify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_classify_low.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_classify_high.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_ell_source.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_ell_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_ell_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_ell_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_ell_classify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_mixed_source.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_mixed_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_mixed_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_mixed_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_mixed_classify.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
    "title": "KoalaBear m2 universal source-row interpolation compiler",
    "status": "PROVED",
@@ -43780,6 +43834,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   }

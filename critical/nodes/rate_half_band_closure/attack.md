@@ -1557,7 +1557,19 @@ five quadratic, and one cubic factor relevant to `F_(p^6)`; all ten have
 unit forbidden saturations. The other irreducible degrees are 5, 7, and 29.
 The direct/resultant and independent source/subresultant paths agree. Thus 12
 of the 18 affine positive charts are closed, the full `xi=a` orbit is done,
-and six moving-moving charts, negative loci, and the `w=0` boundary remain.
+and six moving-moving charts remained at that checkpoint.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion`
+closes the next three charts at once. For the distinguished residual root
+`2`, the square-xi, square-ell, and mixed allocations leave respectively
+`3x3`, `3x2`, and `1x1` nonstandard parent component routers. Their complete
+deployed-field sieves retain 15, 4, and 10 factors of residue degree dividing
+six. All 29 forbidden saturations are unit in both the direct/resultant
+primary and the no-import fraction-free/terminal-subresultant audit. Thus 15
+of the 18 affine positive charts are closed. Only the three moving-moving
+allocations in the other relative-xi orbit remain, together with negative
+loci and the `w=0` boundary.
 
 The aligned positive sign has also resisted a broader exact falsifier sweep.
 The seeded standard-library replay

@@ -11585,11 +11585,21 @@ degree-128 projection has four linear, five quadratic, and one cubic factor
 whose degrees divide six; all ten have unit forbidden saturation. The
 remaining irreducible degrees 5, 7, and 29 cannot enter `F_(p^6)`.
 
-This closes exactly 12 of the 18 affine positive charts. The remaining six
-are all moving-moving: all three allocations in each of the reciprocal and
-other-`xi` orbits. Both negative factor loci and the projective `w=0`
-boundary also remain open; do not infer a broader near-aligned deletion from
-these twelve charts.
+At that checkpoint, exactly 12 of the 18 affine positive charts were closed.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion`
+now closes the three moving-moving allocations in the reciprocal
+`xi=tau(a)` orbit. Its square-xi, square-ell, and mixed routers have
+respectively `3x3`, `3x2`, and `1x1` nonstandard component pairs and retain
+exactly 15, 4, and 10 modular factors whose residue degrees divide six. All
+29 factors have unit forbidden saturation in both a direct/resultant primary
+and a no-import fraction-free/terminal-subresultant audit.
+
+This closes exactly 15 of the 18 affine positive charts. The remaining three
+are the moving-moving allocations in the other relative-xi orbit. Both
+negative factor loci and the projective `w=0` boundary also remain open; do
+not infer a broader near-aligned deletion from these fifteen charts.
 
 There is a cheaper common gate before those allocation splits. Write
 
@@ -11622,8 +11632,9 @@ banked fraction-free reconstruction over `Q[p,t,b,w,lambda_scale]`.
 1. Treat the nine fixed-moving affine charts as banked certificates; do not
    recompute them. The projective `w=0` formulas remain separate and must
    retain `D*lambda_scale-L=0` until normalization is audited.
-2. Continue the remaining six moving-moving charts after closing under
-   `b->1/b`; carry the induced
+2. Treat the three reciprocal-`xi` moving-moving charts as banked exact
+   certificates. Continue the remaining three other-`xi` moving-moving
+   charts after closing under `b->1/b`; carry the induced
    `lambda_scale` transformation before rewriting in `s=b+1/b`. Do not infer
    completeness from a generic field gcd: discharge every endpoint curve and
    isolated specialization in `(p,t)`.

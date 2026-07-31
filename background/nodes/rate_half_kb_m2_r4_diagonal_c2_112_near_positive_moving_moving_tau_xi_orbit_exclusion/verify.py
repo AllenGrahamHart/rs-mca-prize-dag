@@ -1,16 +1,14 @@
 #!/usr/bin/env python3
-"""Verify the moving-moving a-xi square-ell contract and one primary shard."""
-import hashlib, json, os, runpy, sys
+"""Verify the tau-xi orbit contract and square-xi source shard."""
+import json
 from pathlib import Path
+
+from verify_runner import run
 
 NODE = Path(__file__).resolve().parent
 ROOT = NODE.parents[2]
-HELPER = ROOT / "critical/nodes/rate_half_band_closure/notes/kb_c2_112_near_moving_template_probe.py"
-EXPECTED = "deb385db95bf5737a7eef419af359714829c19b5a92a63d087f0fc3451afd32c"
-if hashlib.sha256(HELPER.read_bytes()).hexdigest() != EXPECTED:
-    raise RuntimeError("primary helper hash")
 statement = (NODE / "statement.md").read_text()
-if "- **status:** PROVED" not in statement or "other seven moving-moving" not in statement:
+if "- **status:** PROVED" not in statement or "15 of the 18" not in statement:
     raise RuntimeError("statement contract")
 dag = json.loads((ROOT / "dag.json").read_text())
 nodes = {node["id"]: node for node in dag["nodes"]}
@@ -25,6 +23,4 @@ if not all((parent, NODE.name, "req") in edges for parent in parents):
     raise RuntimeError("DAG dependencies")
 if (NODE.name, "rate_half_band_closure", "ev") not in edges:
     raise RuntimeError("DAG consumer")
-mode = os.environ.get("MOVING_A_SQUARE_ELL_PRIMARY_MODE", "cores")
-sys.argv = [str(HELPER), "a", "square-ell", mode, "--prove"]
-runpy.run_path(str(HELPER), run_name="__main__")
+run("square-xi", "cores")

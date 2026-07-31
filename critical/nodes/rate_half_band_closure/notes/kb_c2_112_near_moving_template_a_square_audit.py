@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Independent audit for the moving-moving a/square-xi near chart.
+"""Independent audit for the configured moving-moving near charts.
 
 This file does not import the primary certificate.  It reconstructs the source
 with ``DomainMatrix.solve_den``, checks the reciprocal trace lift directly, and
@@ -184,6 +184,18 @@ def build_trace_cores(allocation, fraction_free):
             "c": (sp.Rational(1, 2), 1 / d),
             "d": (sp.Rational(1, 2), 1 / d),
         },
+        "tau-square-xi": {
+            "c": (sp.Integer(2), sp.Integer(2)),
+            "d": (1 / d, 1 / d),
+        },
+        "tau-square-ell": {
+            "c": (1 / d, 1 / d),
+            "d": (sp.Integer(2), sp.Integer(2)),
+        },
+        "tau-mixed": {
+            "c": (sp.Integer(2), 1 / d),
+            "d": (sp.Integer(2), 1 / d),
+        },
     }[allocation]
     incidence = sp.Poly(
         4*c**2*d - 2*c**2 - 3*c*d + 3*c + 2*d - 4,
@@ -207,6 +219,24 @@ def build_trace_cores(allocation, fraction_free):
             ("c", "sum"): ((4, 12, 9), 634, 0, "61250edd35fc0302"),
             ("d", "product"): ((4, 6, 7), 264, 2, "3d61fea968400cdc"),
             ("d", "sum"): ((4, 10, 9), 534, 0, "7365d626fc5dc28f"),
+        },
+        "tau-square-xi": {
+            ("c", "product"): ((4, 8, 6), 299, 2, "358028760cd7cba0"),
+            ("c", "sum"): ((4, 12, 8), 569, 0, "9f5ab54f14b259c8"),
+            ("d", "product"): ((4, 6, 8), 284, 2, "72568ee71be7f479"),
+            ("d", "sum"): ((4, 10, 9), 532, 0, "48c4bf1306aae34b"),
+        },
+        "tau-square-ell": {
+            ("c", "product"): ((4, 8, 8), 380, 2, "a3c2f655933d7fa4"),
+            ("c", "sum"): ((4, 12, 9), 632, 0, "f9448c2c1e47ba1b"),
+            ("d", "product"): ((4, 5, 6), 194, 2, "eb61169143695dcb"),
+            ("d", "sum"): ((4, 9, 8), 434, 0, "1dc3011fa04a0715"),
+        },
+        "tau-mixed": {
+            ("c", "product"): ((4, 8, 7), 344, 2, "7989027e9c1d34fd"),
+            ("c", "sum"): ((4, 12, 9), 632, 0, "2e50b8c81db25ee2"),
+            ("d", "product"): ((4, 6, 7), 264, 2, "54ced314ef2e355e"),
+            ("d", "sum"): ((4, 10, 9), 529, 0, "0c28c5e953424d27"),
         },
     }[allocation]
     cores = {}
@@ -268,6 +298,24 @@ def build_trace_cores(allocation, fraction_free):
             ("d", "product"): ((2, 6, 7), 160, "886ca4ba23104dc5"),
             ("d", "sum"): ((2, 10, 9), 322, "14d50a46ac8b6b61"),
         },
+        "tau-square-xi": {
+            ("c", "product"): ((2, 8, 6), 181, "05c2e7899b89ec0e"),
+            ("c", "sum"): ((2, 12, 8), 343, "c627b196276df586"),
+            ("d", "product"): ((2, 6, 8), 172, "f0bba9bf4f23b8d2"),
+            ("d", "sum"): ((2, 10, 9), 321, "2414ff4e8cdee299"),
+        },
+        "tau-square-ell": {
+            ("c", "product"): ((2, 8, 8), 230, "162035e9c06a96e0"),
+            ("c", "sum"): ((2, 12, 9), 381, "a4fe8c32d48892ac"),
+            ("d", "product"): ((2, 5, 6), 118, "5d8fbd6b0b3f749d"),
+            ("d", "sum"): ((2, 9, 8), 262, "5e2df8c7faca28bc"),
+        },
+        "tau-mixed": {
+            ("c", "product"): ((2, 8, 7), 208, "b3fe3e2204921ff2"),
+            ("c", "sum"): ((2, 12, 9), 381, "c3cb520e5c94e733"),
+            ("d", "product"): ((2, 6, 7), 160, "788ff68c772c7958"),
+            ("d", "sum"): ((2, 10, 9), 319, "4e3f87d61395b853"),
+        },
     }[allocation]
     traces = {}
     for key, core in cores.items():
@@ -313,6 +361,33 @@ def expected_candidates(allocation):
             "d**2 - 976215692*d - 769168004",
             "d**3 - 508355909*d**2 - 775758617*d - 253189537",
         },
+        "tau-square-xi": {
+            "d + 106794058", "d + 472591055", "d + 751936539",
+            "d + 968675331", "d - 112328292", "d - 751936540",
+            "d**2 + 873862820*d - 938750153",
+            "d**2 - 115060132*d - 38123999",
+            "d**2 - 39960892*d - 577320431",
+            "d**2 - 52838916*d - 177726665",
+            "d**2 - 788966473*d - 260552146",
+            "d**3 + 69073660*d**2 + 695812805*d + 749056474",
+            "d**3 + 795807504*d**2 + 857533792*d - 778305301",
+            "d**3 - 227601447*d**2 + 901721623*d + 765319207",
+            "d**6 - 526590285*d**5 - 338851861*d**4 + 901768255*d**3 - 959127521*d**2 - 859850676*d - 880995540",
+        },
+        "tau-square-ell": {
+            "d + 439834256", "d + 774802338",
+            "d - 315962789", "d - 62994143",
+        },
+        "tau-mixed": {
+            "d + 578766404", "d + 759603263", "d + 966474073",
+            "d - 759603297",
+            "d**2 + 525578422*d - 72234227",
+            "d**2 + 658649332*d - 339877203",
+            "d**2 + 932678459*d - 657765408",
+            "d**2 - 965058281*d + 468185120",
+            "d**2 - 414271596*d - 574170164",
+            "d**3 + 121291852*d**2 + 279898868*d + 117308433",
+        },
     }[allocation]
 
 
@@ -323,11 +398,14 @@ def main() -> None:
         "classify", "classify-low", "classify-high",
     ))
     parser.add_argument(
-        "--allocation", choices=("square-xi", "square-ell", "mixed"),
+        "--allocation", choices=(
+            "square-xi", "square-ell", "mixed",
+            "tau-square-xi", "tau-square-ell", "tau-mixed",
+        ),
         default="square-xi",
     )
     args = parser.parse_args()
-    if args.allocation == "square-xi":
+    if args.allocation in ("square-xi", "tau-square-xi"):
         check(args.mode != "classify", "square-xi audit uses bounded shards")
     else:
         check(args.mode not in ("classify-low", "classify-high"),
@@ -336,6 +414,9 @@ def main() -> None:
         "square-xi": "A_SQUARE",
         "square-ell": "A_SQUARE_ELL",
         "mixed": "A_MIXED",
+        "tau-square-xi": "TAU_SQUARE",
+        "tau-square-ell": "TAU_SQUARE_ELL",
+        "tau-mixed": "TAU_MIXED",
     }[args.allocation]
     fraction_free = args.mode in ("source", "trace")
     (b, c, d, s), traces = build_trace_cores(args.allocation, fraction_free)
@@ -401,6 +482,57 @@ def main() -> None:
                 "07c011183de4549a": 1,
             }),
         },
+        "tau-square-xi": {
+            "c": ("1c20140f6e4a7549", {
+                "6a515ecf832aff78": 2, "e31255d5e81e2509": 2,
+                "4aa033e0505df8f1": 4, "73c55ff149852dee": 4,
+                "dbe56c4d43b264a2": 4, "cb4fd487538b0eff": 4,
+                "477785c532483181": 12, "7a7743ce53fe8f77": 12,
+                "3abdced663de96c0": 1, "4c11afeb6140b7c8": 1,
+                "681ae7138c057bce": 1,
+            }),
+            "d": ("43a8347e92f7f81d", {
+                "6a515ecf832aff78": 8, "e31255d5e81e2509": 8,
+                "19d832b1f64387da": 2, "9622b8845f94fd73": 1,
+                "4975135dd6af0fc0": 4, "dbe56c4d43b264a2": 4,
+                "824f64bb4a05a043": 4, "cb4fd487538b0eff": 4,
+                "477785c532483181": 8, "c7aea723bf6f84a1": 1,
+                "dbac8f34560fc4e3": 1,
+            }),
+        },
+        "tau-square-ell": {
+            "c": ("4b4738172d468601", {
+                "4aa033e0505df8f1": 4, "6a515ecf832aff78": 4,
+                "e31255d5e81e2509": 4, "73c55ff149852dee": 4,
+                "19d832b1f64387da": 2, "dbe56c4d43b264a2": 4,
+                "cb4fd487538b0eff": 4, "477785c532483181": 12,
+                "7a7743ce53fe8f77": 12, "90db6ed8f237340f": 1,
+                "39a8eb9fc1019be9": 1, "4805246499888132": 1,
+            }),
+            "d": ("48395b300501d597", {
+                "4aa033e0505df8f1": 1, "6a515ecf832aff78": 8,
+                "e31255d5e81e2509": 8, "4975135dd6af0fc0": 2,
+                "dbe56c4d43b264a2": 4, "824f64bb4a05a043": 4,
+                "cb4fd487538b0eff": 4, "477785c532483181": 8,
+                "0274d6ca7d3e45b7": 1, "7d2994700e23736a": 1,
+            }),
+        },
+        "tau-mixed": {
+            "c": ("610f5b1189c150ce", {
+                "6a515ecf832aff78": 2, "e31255d5e81e2509": 2,
+                "4aa033e0505df8f1": 4, "73c55ff149852dee": 4,
+                "19d832b1f64387da": 2, "dbe56c4d43b264a2": 4,
+                "cb4fd487538b0eff": 4, "477785c532483181": 12,
+                "7a7743ce53fe8f77": 12, "5db5e5fa2e141e59": 1,
+            }),
+            "d": ("8173c0db21c9e654", {
+                "6a515ecf832aff78": 8, "e31255d5e81e2509": 8,
+                "19d832b1f64387da": 2, "4975135dd6af0fc0": 4,
+                "dbe56c4d43b264a2": 4, "824f64bb4a05a043": 4,
+                "cb4fd487538b0eff": 4, "477785c532483181": 8,
+                "70ab1987477282b1": 1,
+            }),
+        },
     }[args.allocation]
 
     def parent(root_name):
@@ -426,6 +558,18 @@ def main() -> None:
                 "c": {"067a3b42540bb240"},
                 "d": {"07c011183de4549a"},
             },
+            "tau-square-xi": {
+                "c": {"3abdced663de96c0", "4c11afeb6140b7c8", "681ae7138c057bce"},
+                "d": {"9622b8845f94fd73", "c7aea723bf6f84a1", "dbac8f34560fc4e3"},
+            },
+            "tau-square-ell": {
+                "c": {"90db6ed8f237340f", "39a8eb9fc1019be9", "4805246499888132"},
+                "d": {"0274d6ca7d3e45b7", "7d2994700e23736a"},
+            },
+            "tau-mixed": {
+                "c": {"5db5e5fa2e141e59"},
+                "d": {"70ab1987477282b1"},
+            },
         }[args.allocation][root_name]
         forbidden_parent = {
             "square-xi": {
@@ -441,6 +585,24 @@ def main() -> None:
                       c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1),
             },
             "mixed": {
+                "c": (d - 1, d + 1, d - 2, 2*d - 1, d,
+                      c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1, c + 1),
+                "d": (d - 1, d + 1, d, c - 2,
+                      c*d - 1, 2*c - 1, 5*c*d - 4*c - 4*d + 5, c - 1),
+            },
+            "tau-square-xi": {
+                "c": (d - 1, d + 1, d - 2, 2*d - 1,
+                      c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1, c + 1),
+                "d": (d - 1, d + 1, d, c - 2,
+                      c*d - 1, 2*c - 1, 5*c*d - 4*c - 4*d + 5, c - 1),
+            },
+            "tau-square-ell": {
+                "c": (d - 2, d - 1, d + 1, 2*d - 1, d,
+                      c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1, c + 1),
+                "d": (d - 2, d - 1, d + 1, c - 2, 2*c - 1,
+                      c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1),
+            },
+            "tau-mixed": {
                 "c": (d - 1, d + 1, d - 2, 2*d - 1, d,
                       c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1, c + 1),
                 "d": (d - 1, d + 1, d, c - 2,
@@ -561,6 +723,79 @@ def main() -> None:
                     "c23e461afce62a1f": 1,
                 }),
             },
+            "tau-square-xi": {
+                (0, 0): ("3ad4140400e9ce65", {
+                    "3e8b7ae50a0eb368": 1, "bc3da4bcdb93303f": 1,
+                    "b8907990ebf04ed3": 1, "f93c38ef339888a3": 3,
+                }),
+                (0, 1): ("928fca15913ce5e7", {
+                    "b8907990ebf04ed3": 1, "bc3da4bcdb93303f": 2,
+                    "f93c38ef339888a3": 3, "3e8b7ae50a0eb368": 4,
+                }),
+                (0, 2): ("817d4efb72deb513", {
+                    "f93c38ef339888a3": 2, "b8907990ebf04ed3": 2,
+                    "3e8b7ae50a0eb368": 5, "52920a909c99bab6": 1,
+                }),
+                (1, 0): ("7e6ad36b97b4c04e", {
+                    "3e8b7ae50a0eb368": 1, "b8907990ebf04ed3": 1,
+                    "f93c38ef339888a3": 2, "dcc2356ca0e24715": 1,
+                }),
+                (1, 1): ("45e52720c83dbfe6", {
+                    "b8907990ebf04ed3": 1, "f93c38ef339888a3": 2,
+                    "3e8b7ae50a0eb368": 3, "9dec099865fa548f": 1,
+                }),
+                (1, 2): ("d597519a1517686e", {
+                    "f93c38ef339888a3": 2, "b8907990ebf04ed3": 2,
+                    "3e8b7ae50a0eb368": 5, "f12098462849824b": 1,
+                }),
+                (2, 0): ("8bf944afdda7cc06", {
+                    "bc3da4bcdb93303f": 1, "f93c38ef339888a3": 2,
+                    "3e8b7ae50a0eb368": 2, "b8907990ebf04ed3": 2,
+                    "94c23a24a8038259": 1,
+                }),
+                (2, 1): ("c1c0cb27616f1047", {
+                    "f93c38ef339888a3": 2, "bc3da4bcdb93303f": 2,
+                    "b8907990ebf04ed3": 2, "3e8b7ae50a0eb368": 7,
+                    "f2a25c156aa0a61e": 1,
+                }),
+                (2, 2): ("3a86abd59214a759", {
+                    "b8907990ebf04ed3": 4, "f93c38ef339888a3": 6,
+                    "3e8b7ae50a0eb368": 10, "bfd0f39529b5700a": 1,
+                }),
+            },
+            "tau-square-ell": {
+                (0, 0): ("7fd36498e8377b5b", {
+                    "f93c38ef339888a3": 2, "3e8b7ae50a0eb368": 2,
+                }),
+                (0, 1): ("319a50d2845ae1eb", {
+                    "f93c38ef339888a3": 2, "3e8b7ae50a0eb368": 2,
+                    "b8907990ebf04ed3": 2, "b81870c975e426d3": 2,
+                }),
+                (1, 0): ("3ddbb93873503afe", {
+                    "f93c38ef339888a3": 2, "3e8b7ae50a0eb368": 3,
+                    "d0a7ef78715814e9": 1,
+                }),
+                (1, 1): ("3963fb6b9c4b5b28", {
+                    "f93c38ef339888a3": 2, "b8907990ebf04ed3": 2,
+                    "3e8b7ae50a0eb368": 3, "f00a0692b7d41f5c": 1,
+                }),
+                (2, 0): ("e972eec91546dea1", {
+                    "f93c38ef339888a3": 2, "3e8b7ae50a0eb368": 5,
+                    "1aa419972f5e45f9": 1,
+                }),
+                (2, 1): ("3fb19be3040f83d8", {
+                    "b8907990ebf04ed3": 4, "3e8b7ae50a0eb368": 5,
+                    "f93c38ef339888a3": 6, "c1dc268787c493ae": 1,
+                }),
+            },
+            "tau-mixed": {
+                (0, 0): ("6c0e718979cba2e1", {
+                    "b8907990ebf04ed3": 16, "f93c38ef339888a3": 24,
+                    "3e8b7ae50a0eb368": 30, "badaaa15f719fc0a": 1,
+                    "db2acfdd67aea0a8": 1, "2ec31dcc2a54fbf4": 1,
+                    "249f7b73ad53d5ee": 1,
+                }),
+            },
         }[args.allocation]
         wanted = {
             "square-xi": {
@@ -574,6 +809,18 @@ def main() -> None:
             "mixed": {
                 "c": ("067a3b42540bb240",),
                 "d": ("07c011183de4549a",),
+            },
+            "tau-square-xi": {
+                "c": ("3abdced663de96c0", "4c11afeb6140b7c8", "681ae7138c057bce"),
+                "d": ("9622b8845f94fd73", "c7aea723bf6f84a1", "dbac8f34560fc4e3"),
+            },
+            "tau-square-ell": {
+                "c": ("90db6ed8f237340f", "39a8eb9fc1019be9", "4805246499888132"),
+                "d": ("0274d6ca7d3e45b7", "7d2994700e23736a"),
+            },
+            "tau-mixed": {
+                "c": ("5db5e5fa2e141e59",),
+                "d": ("70ab1987477282b1",),
             },
         }[args.allocation]
         components = {}
