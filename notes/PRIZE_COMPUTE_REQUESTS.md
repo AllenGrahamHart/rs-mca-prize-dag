@@ -10974,6 +10974,11 @@ unit ideal after 79 S-pairs in both cubic components.  The accepted frontier
 is 78.  Do not request either parity of this forced type in common sign row
 `(1,1)`.
 
+Both forced-`CE/CF` parity cells in common sign row `(1,1)` are now complete
+as well.  Their three equations have 23 terms and reach the unit ideal after
+56 S-pairs in each cubic component.  The accepted frontier is 76; these two
+cells should not be requested again.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs

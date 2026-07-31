@@ -64,9 +64,13 @@ def binary_mul(left, right):
     return output
 
 
-def build(alpha_sign=1):
+def build(alpha_sign=1, cell="forced-de", delta_sign=-1):
     if alpha_sign not in (-1, 1):
         raise ValueError("alpha_sign must be +/-1")
+    if delta_sign not in (-1, 1):
+        raise ValueError("delta_sign must be +/-1")
+    if cell not in ("forced-de", "forced-ce"):
+        raise ValueError("unsupported cell")
     b, r, t, d_c, vector, polynomial, matrix = MATE.quotient_data(1, 1)
     d, s = sp.symbols("d s")
     x = r**2
@@ -82,7 +86,9 @@ def build(alpha_sign=1):
     mate_value = polynomial(mate_coordinates % P)
 
     b_matrix = SELECTOR.as_lists(matrix(b))
-    c_matrix = SELECTOR.as_lists(matrix(c_value))
+    c_multiplication = matrix(c_value)
+    c_matrix = SELECTOR.as_lists(c_multiplication)
+    c_inverse = SELECTOR.as_lists(c_multiplication.inv_mod(P))
     mate_matrix = SELECTOR.as_lists(matrix(mate_value))
     b_squared = SELECTOR.mul(b_matrix, b_matrix)
     alpha = SELECTOR.neg(SELECTOR.mul(
@@ -127,17 +133,35 @@ def build(alpha_sign=1):
     monomial = lambda d_power, s_power, value=SELECTOR.IDENTITY: {
         (d_power, s_power): value
     }
-    factors = (
-        (monomial(1, 0), constant(SELECTOR.scale(
-            alpha_sign, SELECTOR.mul(c_matrix, mate_matrix)
-        ))),
-        (constant(SELECTOR.IDENTITY), monomial(1, 1, c_matrix)),
-        (constant(SELECTOR.IDENTITY), monomial(2, 0)),
-        (constant(SELECTOR.IDENTITY), monomial(2, 1,
-                                               SELECTOR.neg(SELECTOR.IDENTITY))),
-        (constant(SELECTOR.IDENTITY), {},
-         monomial(0, 2, SELECTOR.neg(SELECTOR.mul(mate_matrix, mate_matrix)))),
-    )
+    if cell == "forced-de":
+        factors = (
+            (monomial(1, 0), constant(SELECTOR.scale(
+                alpha_sign, SELECTOR.mul(c_matrix, mate_matrix)
+            ))),
+            (constant(SELECTOR.IDENTITY), monomial(1, 1, c_matrix)),
+            (constant(SELECTOR.IDENTITY), monomial(2, 0)),
+            (constant(SELECTOR.IDENTITY), monomial(
+                2, 1, SELECTOR.neg(SELECTOR.IDENTITY)
+            )),
+            (constant(SELECTOR.IDENTITY), {}, monomial(
+                0, 2, SELECTOR.neg(SELECTOR.mul(mate_matrix, mate_matrix))
+            )),
+        )
+    else:
+        mate_over_c = SELECTOR.mul(mate_matrix, c_inverse)
+        factors = (
+            (constant(SELECTOR.IDENTITY), monomial(0, 1, c_matrix)),
+            (constant(SELECTOR.IDENTITY), monomial(2, 0)),
+            (constant(SELECTOR.IDENTITY), monomial(
+                1, 0, SELECTOR.neg(mate_over_c)
+            )),
+            (constant(SELECTOR.IDENTITY), monomial(
+                1, 1, SELECTOR.scale(-delta_sign, SELECTOR.IDENTITY)
+            )),
+            (constant(SELECTOR.IDENTITY), {}, monomial(
+                0, 2, SELECTOR.neg(SELECTOR.mul(mate_over_c, mate_over_c))
+            )),
+        )
     coefficients = [constant(SELECTOR.IDENTITY)]
     for factor in factors:
         coefficients = binary_mul(coefficients, factor)
@@ -183,8 +207,13 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--groebner", action="store_true")
     parser.add_argument("--alpha-sign", type=int, choices=(-1, 1), default=1)
+    parser.add_argument("--cell", choices=("forced-de", "forced-ce"),
+                        default="forced-de")
+    parser.add_argument("--delta-sign", type=int, choices=(-1, 1), default=-1)
     arguments = parser.parse_args()
-    variables, common_basis, equations, _ = build(arguments.alpha_sign)
+    variables, common_basis, equations, _ = build(
+        arguments.alpha_sign, arguments.cell, arguments.delta_sign
+    )
     d, s, t, r, b = variables
     profiles = []
     for equation in equations:
@@ -201,7 +230,8 @@ def main():
         ))
     profiles = tuple(profiles)
     print(
-        f"S1_DEPLOYED_CELL_BUILT alpha_sign={arguments.alpha_sign} "
+        f"S1_DEPLOYED_CELL_BUILT cell={arguments.cell} "
+        f"alpha_sign={arguments.alpha_sign} delta_sign={arguments.delta_sign} "
         f"profiles={profiles}", flush=True
     )
     if not arguments.groebner:

@@ -2690,3 +2690,11 @@ replays the other `S1` parity.  Its only factor change is
 Therefore both forced-`DE/DF` parity cells are empty in common sign row
 `(1,1)`, and the accepted frontier is 78.  The other three common sign rows
 remain untransported.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion`
+deletes both forced-`CE/CF` parity cells in the same common sign row.  The
+forced equation `-ce=m` fixes `e=-m/c`; each parity gives three 23-term
+equations, and both cubic components reach `1` after 56 S-pairs.  Four of
+the ten `S1` cells in row `(1,1)` are now deleted.  The accepted four-row
+frontier is 76.

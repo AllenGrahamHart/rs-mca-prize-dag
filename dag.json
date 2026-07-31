@@ -20722,6 +20722,28 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S1 forced-colored deployed product exclusion",
+   "status": "PROVED",
+   "closure": "unit product-invariance ideals for both forced-CE/CF parity cells in the representative common sign row",
+   "statement": "In common sign row (1,1), force the colored S1 record CE with canonical signs alpha=beta=gamma=-1 and delta=+/-1. The equation -ce=m fixes e=-m/c, and the printed residual sextic has uniform coefficient equations with 23 outside monomials. For both delta signs and both irreducible cubic common components, exact Buchberger reduction reaches 1 after 56 S-pairs. Thus both forced-colored parity cells are empty; four of ten S1 cells in this common row are deleted and the accepted four-row product frontier falls from 78 to 76. No common-sign transport or other forced-type deletion is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
    "title": "KoalaBear m2 r4 coordinate negative two-loop product-to-q weld",
    "status": "PROVED",
@@ -40193,6 +40215,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

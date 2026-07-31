@@ -40,14 +40,18 @@ def factor_audit():
                 for factor in factors), "cubic irreducibility")
 
 
-def solve_quietly(component, alpha_sign=1):
+def solve_quietly(component, alpha_sign=1, cell="forced-de", delta_sign=-1,
+                  expected_terms=(25, 25, 25), expected_pairs=79):
     transcript = io.StringIO()
     with contextlib.redirect_stdout(transcript):
-        equations, basis = SOLVER.solve_component(component, alpha_sign)
-    require(tuple(len(equation) for equation in equations) == (25, 25, 25),
+        equations, basis = SOLVER.solve_component(
+            component, alpha_sign, cell, delta_sign
+        )
+    require(tuple(len(equation) for equation in equations) == expected_terms,
             "sparse profiles")
     require(basis == [{(0, 0): SOLVER.ONE}], "unit ideal")
-    require("BUCHBERGER_UNIT pairs=79" in transcript.getvalue(), "pair count")
+    require(f"BUCHBERGER_UNIT pairs={expected_pairs}" in transcript.getvalue(),
+            "pair count")
 
 
 def main():
