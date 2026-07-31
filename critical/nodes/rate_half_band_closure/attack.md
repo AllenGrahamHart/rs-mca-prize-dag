@@ -1928,3 +1928,19 @@ Thus negative parity has at most two `K` loops, and the seven injective
 multiplicity skeletons reduce exactly to five, in loop strata
 `0,1,1,2,2`.  In the two-loop strata `A_1` is already fixed up to scale.
 Use these factor pins before the remaining full-product or `q` equations.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler`
+packages those residual equations without redundant loop rows.  If
+`R_Lambda` is the locator of the `ell=0,1,2` loop fibers, write
+`A_1=R_Lambda C`.  On the nonloop fibers the rows
+
+```text
+[R(kappa),R(kappa)kappa,...,R(kappa)kappa^(2-ell),q,qkappa]
+```
+
+form a square determinant of size `5-ell`.  Thus the loop strata have exact
+`5 x 5`, `4 x 4`, and `3 x 3` gates.  The two-loop skeletons are now the
+smallest direct target: classify their signed cross-edge assignments through
+the `3 x 3` determinant, retain leading support, and only then apply the
+complete product and paired-involution gates.

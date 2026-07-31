@@ -20296,6 +20296,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler",
+   "title": "KoalaBear m2 r4 coordinate negative loop-stratified q compiler",
+   "status": "PROVED",
+   "closure": "exact square common-K q determinants of sizes five, four, and three in the negative loop strata",
+   "statement": "For a negative packet with ell=0,1,2 antipodal common-K fibers, their locator R_Lambda divides A_1. Writing A_1=R_Lambda C, the 5-ell nonloop q equations form a square (5-ell)-by-(5-ell) matrix in the 3-ell coefficients of C and two coefficients of B_2. Its determinant must vanish and its kernel must keep B_2 nonzero on all K. Thus the two-loop rows reduce to explicit 3 x 3 signed determinants. This is a compiler, not a skeleton or orientation deletion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
    "title": "KoalaBear m2 r2 dihedral degree-five source-star exclusion",
    "status": "PROVED",
@@ -38921,6 +38941,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

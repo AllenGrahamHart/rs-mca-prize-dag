@@ -10686,6 +10686,10 @@ use all twelve rows: the exact
 defect-zero fixture has 140 of 5,040 `F_29` separator survivors, although no
 assignment in that fixed family survives the complete product matrix.
 
+Within the negative lane, shard first by loop count and use `(KBNQ-3)`.
+The two loop-count-two skeletons require only signed `3 x 3` q determinants;
+do not send their already-consumed loop rows to a generic `10 x 7` kernel.
+
 Suggested pilot: one canonical packet stratum, one CPU, at most 512 MiB,
 60 seconds, deterministic partial output, and no parallel fleet.  Modular
 reconnaissance is evidence only; universal deletion requires symbolic or

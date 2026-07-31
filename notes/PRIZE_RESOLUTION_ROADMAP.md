@@ -12083,3 +12083,23 @@ Modal status:             no launch and no cost
 next route-deciding step: classify complete packets in the five surviving
                           skeletons, starting with the pinned two-loop rows
 ```
+
+### Work-cycle burn-down: loop-stratified negative q compiler
+
+```text
+starting local pin:       38431202 (negative loop-budget gate)
+ending local theorem pin: current loop-stratified q PROVED packet
+canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+node/workboard attacked:  K3 / coordinate negative residual q systems
+result:                   PROVED minimal square determinant compiler
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; compiler evidence only)
+determinant sizes:        loop count 0/1/2 -> 5x5 / 4x4 / 3x3
+two-loop reduction:       A1 fixed up to scale; three nonloop q rows and
+                          linear B2 form one exact 3x3 gate
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: classify signed assignments in the two two-loop
+                          skeletons through the 3x3 gate and leading support
+```
