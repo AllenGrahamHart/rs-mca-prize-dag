@@ -323,7 +323,9 @@ def main():
     parser.add_argument("--alpha-sign", type=int, choices=(-1, 1), default=1)
     parser.add_argument("--cell", choices=("forced-de", "forced-ce", "forced-ef",
                                             "s2-forced-colored", "s2-forced-df",
-                                            "s2-forced-ef", "s2-forced-loop"),
+                                            "s2-forced-ef", "s2-forced-loop",
+                                            "s0-forced-colored", "s0-forced-ef",
+                                            "s0-forced-internal"),
                         default="forced-de")
     parser.add_argument("--delta-sign", type=int, choices=(-1, 1), default=-1)
     parser.add_argument("--ef-sign", type=int, choices=(-1, 1), default=1)

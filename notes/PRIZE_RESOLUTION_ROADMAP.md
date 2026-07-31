@@ -13316,3 +13316,23 @@ remaining product cells:  S0=6 in each common sign row; S1=S2=0
 Modal status:             no launch and no cost
 next route-deciding step: first pinned rational S0 forced-record orbit
 ```
+
+### Work-cycle burn-down: one-loop 442 S0 forced colored
+
+```text
+starting local pin:       5bea7700 (complete S2 product close)
+ending local theorem pin: current all-row S0 forced-colored exclusions
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / first S0 forced-record type, both parities
+result:                   PROVED all 8 cells are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase deletion)
+residual system:          3 equations, 11 (d,f) monomials each
+certificates:             raw unit after 29 S-pairs in all 4 runs
+transport:                exact common b,c,m identity
+accepted frontier:        16 cells, down from 24
+remaining product cells:  S0 forced-EF=2 and forced-internal=2 per row
+Modal status:             no launch and no cost
+next route-deciding step: S0 forced-EF parity pair
+```

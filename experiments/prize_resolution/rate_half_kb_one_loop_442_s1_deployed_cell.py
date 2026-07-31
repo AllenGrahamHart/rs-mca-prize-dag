@@ -80,7 +80,8 @@ def build(alpha_sign=1, cell="forced-de", delta_sign=-1, ef_sign=1,
         raise ValueError("ef_sign must be +/-1")
     if cell not in ("forced-de", "forced-ce", "forced-ef",
                     "s2-forced-colored", "s2-forced-df", "s2-forced-ef",
-                    "s2-forced-loop"):
+                    "s2-forced-loop", "s0-forced-colored", "s0-forced-ef",
+                    "s0-forced-internal"):
         raise ValueError("unsupported cell")
     if epsilon_1 not in (-1, 1) or epsilon_2 not in (-1, 1):
         raise ValueError("common signs must be +/-1")
@@ -230,7 +231,7 @@ def build(alpha_sign=1, cell="forced-de", delta_sign=-1, ef_sign=1,
             )),
             (constant(SELECTOR.IDENTITY), constant(mate_matrix)),
         )
-    else:
+    elif cell == "s2-forced-loop":
         c_squared = SELECTOR.mul(c_matrix, c_matrix)
         factors = (
             (constant(SELECTOR.IDENTITY), {}, monomial(
@@ -241,6 +242,55 @@ def build(alpha_sign=1, cell="forced-de", delta_sign=-1, ef_sign=1,
             )),
             (constant(SELECTOR.IDENTITY), {}, monomial(
                 0, 2, mate_matrix
+            )),
+        )
+    elif cell == "s0-forced-colored":
+        mate_over_c = SELECTOR.mul(mate_matrix, c_inverse)
+        mate_over_c_squared = SELECTOR.mul(mate_over_c, mate_over_c)
+        factors = (
+            (constant(SELECTOR.IDENTITY), monomial(
+                0, 1, SELECTOR.neg(c_matrix)
+            )),
+            (constant(SELECTOR.IDENTITY), {}, monomial(
+                2, 0, SELECTOR.neg(mate_over_c_squared)
+            )),
+            (constant(SELECTOR.IDENTITY), {}, monomial(
+                2, 2, SELECTOR.neg(SELECTOR.IDENTITY)
+            )),
+            (constant(SELECTOR.IDENTITY), monomial(
+                0, 1, SELECTOR.scale(-alpha_sign, mate_over_c)
+            )),
+        )
+    elif cell == "s0-forced-ef":
+        c_mate = SELECTOR.mul(c_matrix, mate_matrix)
+        mate_squared = SELECTOR.mul(mate_matrix, mate_matrix)
+        factors = (
+            (constant(SELECTOR.IDENTITY), monomial(
+                0, 1, SELECTOR.neg(c_matrix)
+            )),
+            (monomial(0, 1), constant(
+                SELECTOR.scale(-alpha_sign, c_mate)
+            )),
+            (constant(SELECTOR.IDENTITY), {}, monomial(
+                2, 2, SELECTOR.neg(SELECTOR.IDENTITY)
+            )),
+            (monomial(0, 2), {}, monomial(
+                2, 0, SELECTOR.neg(mate_squared)
+            )),
+        )
+    else:
+        c_mate = SELECTOR.mul(c_matrix, mate_matrix)
+        factors = (
+            (monomial(1, 0), constant(SELECTOR.neg(c_mate))),
+            (constant(SELECTOR.IDENTITY), monomial(
+                0, 1, SELECTOR.neg(c_matrix)
+            )),
+            (constant(SELECTOR.IDENTITY), constant(mate_matrix)),
+            (constant(SELECTOR.IDENTITY), {}, monomial(
+                2, 2, SELECTOR.neg(SELECTOR.IDENTITY)
+            )),
+            (monomial(1, 0), monomial(
+                0, 1, SELECTOR.scale(-alpha_sign, mate_matrix)
             )),
         )
     coefficients = [constant(SELECTOR.IDENTITY)]
@@ -290,7 +340,9 @@ def main():
     parser.add_argument("--alpha-sign", type=int, choices=(-1, 1), default=1)
     parser.add_argument("--cell", choices=("forced-de", "forced-ce", "forced-ef",
                                             "s2-forced-colored", "s2-forced-df",
-                                            "s2-forced-ef", "s2-forced-loop"),
+                                            "s2-forced-ef", "s2-forced-loop",
+                                            "s0-forced-colored", "s0-forced-ef",
+                                            "s0-forced-internal"),
                         default="forced-de")
     parser.add_argument("--delta-sign", type=int, choices=(-1, 1), default=-1)
     parser.add_argument("--ef-sign", type=int, choices=(-1, 1), default=1)

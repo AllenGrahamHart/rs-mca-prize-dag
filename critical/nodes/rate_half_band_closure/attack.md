@@ -2795,3 +2795,18 @@ Its three seven-term equations reach the raw unit ideal after seven S-pairs
 in both components.  Transport gives the same result in every common row.
 All sixteen `S2` cells are now empty at product level.  Reduce the accepted
 frontier from 28 to 24, consisting exactly of six `S0` cells per row.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion`
+deletes both parities of the forced-`CE/CF` type in every row.  With
+`alpha=beta=1`, `gamma=tau_0`, and `CE=m`, the residual form is
+
+```text
+(X-cfZ)(X^2-(m/c)^2d^2Z^2)(X^2-d^2f^2Z^2)
+(X-tau_0(m/c)fZ).
+```
+
+For either parity, the three equations have eleven monomials and reach the
+raw unit ideal after 29 S-pairs in both components.  The common-product
+identity transports both deletions.  Reduce the frontier from 24 to 16;
+two forced-`EF` and two forced-internal `S0` cells remain per row.

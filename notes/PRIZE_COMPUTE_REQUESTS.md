@@ -11036,6 +11036,11 @@ seven-term equations reach the raw unit ideal after seven S-pairs in both
 cubic components.  Do not request any `S2` product cell.  The accepted
 frontier is 24, all six `S0` cells in each common row.
 
+Both forced-colored `S0` parity cells are retired in every common row.
+Their three equations have eleven terms and reach the raw unit ideal after
+29 S-pairs for both parities and both cubic components.  The accepted
+frontier is 16: two forced-`EF` and two forced-internal `S0` cells per row.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs
