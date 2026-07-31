@@ -2738,3 +2738,16 @@ coefficient for coefficient to the other three rows.  Delete all forty
 `S1` product cells and reduce the accepted frontier from 70 to 40: six
 `S0` and four `S2` cells remain in each row.  This does not transport the
 source-root or `q` equations.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion`
+deletes the first `S2` orbit in all four rows.  Forcing `sigma*cd=m` leaves
+
+```text
+(X+mZ)(X+e^2 Z)(X^2-(m/c)^2 f^2 Z^2)(X^2-e^2 f^2 Z^2).
+```
+
+The three equations have seven monomials and reach the raw unit ideal after
+seven S-pairs in both cubic components.  The forced sign disappears and the
+all-row `b,c,m` identity transports the certificate.  Reduce the accepted
+frontier from 40 to 36; six `S0` and three `S2` cells remain per row.

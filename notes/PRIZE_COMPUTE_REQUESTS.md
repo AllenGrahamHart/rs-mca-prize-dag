@@ -11009,6 +11009,13 @@ consisting of six `S0` and four `S2` cells per row.  This retirement applies
 only to product invariance; source-root, `q`, and interpolation tasks are not
 transported.
 
+The forced-colored `S2` cell is also retired in every common sign row.
+Forcing `sigma*cd=m` produces three seven-term equations; both cubic
+components reach the raw unit ideal after seven S-pairs.  The forced sign
+disappears and the all-row common-product identity transports the result.
+Do not request this cell.  The accepted frontier is 36: six `S0` and three
+`S2` cells per row.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs

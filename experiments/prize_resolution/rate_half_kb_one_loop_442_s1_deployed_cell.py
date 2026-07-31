@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build one deployed S1 forced-DE sextic cell in two outside variables."""
+"""Build a deployed one-loop 442 forced-record cell in two variables."""
 
 import argparse
 import functools
@@ -78,7 +78,8 @@ def build(alpha_sign=1, cell="forced-de", delta_sign=-1, ef_sign=1,
         raise ValueError("delta_sign must be +/-1")
     if ef_sign not in (-1, 1):
         raise ValueError("ef_sign must be +/-1")
-    if cell not in ("forced-de", "forced-ce", "forced-ef"):
+    if cell not in ("forced-de", "forced-ce", "forced-ef",
+                    "s2-forced-colored"):
         raise ValueError("unsupported cell")
     if epsilon_1 not in (-1, 1) or epsilon_2 not in (-1, 1):
         raise ValueError("common signs must be +/-1")
@@ -175,7 +176,7 @@ def build(alpha_sign=1, cell="forced-de", delta_sign=-1, ef_sign=1,
                 0, 2, SELECTOR.neg(SELECTOR.mul(mate_over_c, mate_over_c))
             )),
         )
-    else:
+    elif cell == "forced-ef":
         factors = (
             (monomial(0, 1), constant(SELECTOR.scale(
                 ef_sign, SELECTOR.mul(c_matrix, mate_matrix)
@@ -187,6 +188,20 @@ def build(alpha_sign=1, cell="forced-de", delta_sign=-1, ef_sign=1,
             (constant(SELECTOR.IDENTITY), monomial(2, 0)),
             (constant(SELECTOR.IDENTITY), monomial(1, 1)),
             (constant(SELECTOR.IDENTITY), constant(mate_matrix)),
+        )
+    else:
+        mate_over_c = SELECTOR.mul(mate_matrix, c_inverse)
+        factors = (
+            (constant(SELECTOR.IDENTITY), constant(mate_matrix)),
+            (constant(SELECTOR.IDENTITY), monomial(2, 0)),
+            (constant(SELECTOR.IDENTITY), {}, monomial(
+                0, 2, SELECTOR.neg(SELECTOR.mul(
+                    mate_over_c, mate_over_c
+                ))
+            )),
+            (constant(SELECTOR.IDENTITY), {}, monomial(
+                2, 2, SELECTOR.neg(SELECTOR.IDENTITY)
+            )),
         )
     coefficients = [constant(SELECTOR.IDENTITY)]
     for factor in factors:
@@ -233,7 +248,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--groebner", action="store_true")
     parser.add_argument("--alpha-sign", type=int, choices=(-1, 1), default=1)
-    parser.add_argument("--cell", choices=("forced-de", "forced-ce", "forced-ef"),
+    parser.add_argument("--cell", choices=("forced-de", "forced-ce", "forced-ef",
+                                            "s2-forced-colored"),
                         default="forced-de")
     parser.add_argument("--delta-sign", type=int, choices=(-1, 1), default=-1)
     parser.add_argument("--ef-sign", type=int, choices=(-1, 1), default=1)

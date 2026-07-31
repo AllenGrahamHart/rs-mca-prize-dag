@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run a small two-variable Buchberger pass in each cubic common component."""
+"""Run a sparse forced-record pass in each cubic common component."""
 
 import argparse
 import functools
@@ -321,7 +321,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("component", type=int, choices=(0, 1))
     parser.add_argument("--alpha-sign", type=int, choices=(-1, 1), default=1)
-    parser.add_argument("--cell", choices=("forced-de", "forced-ce", "forced-ef"),
+    parser.add_argument("--cell", choices=("forced-de", "forced-ce", "forced-ef",
+                                            "s2-forced-colored"),
                         default="forced-de")
     parser.add_argument("--delta-sign", type=int, choices=(-1, 1), default=-1)
     parser.add_argument("--ef-sign", type=int, choices=(-1, 1), default=1)
