@@ -12126,3 +12126,48 @@ next route-deciding step: factor the weld residuals on the two signed
                           atlases or retain exact survivors through all 12
                           complete product/q rows
 ```
+
+### Work-cycle burn-down: 442 antipodal-label classifier
+
+```text
+starting local pin:       9378b371 (two-loop product-q weld)
+ending local theorem pin: current 442 label-classifier PROVED packet
+canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+node/workboard attacked:  K3 / negative (4,4,2) two-loop skeleton
+result:                   PROVED universal label-locus classification
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; narrowing evidence only)
+new monomial gates:       k_B^2=k_AB*k_AC and k_A^2=k_AB*k_BC
+matching collapse:        15 antipodal cells -> one sixth-root and two
+                          eighth-root exceptional loci
+F29 consequence:          fixed banked K-set has zero role survivors by the
+                          theorem; 1,188,000-row reconnaissance is obsolete
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: impose all five product minors on the three loci
+```
+
+### Work-cycle burn-down: 442 exceptional-product classifier
+
+```text
+starting local pin:       current 442 label-classifier packet
+ending local theorem pin: current 442 product-classifier PROVED packet
+canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+node/workboard attacked:  K3 / negative (4,4,2) exceptional loci
+result:                   PROVED exact six-row Mobius product ledger
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; narrowing evidence only)
+normalized variables:     A=1, b=B/A, c=C/A, tau=+/-1
+exact frontier:           3 label loci x 2 sign orbits; one quadratic b
+                          equation and one linear c equation per row
+geometric packet cap:     at most 12 before Galois identification
+route boundary:           all six rows are nonempty; common-K product data
+                          cannot delete the skeleton
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: resolve q orientations on the six rows, then
+                          compile eta plus six L^c records and apply the
+                          paired-product involution gate
+```

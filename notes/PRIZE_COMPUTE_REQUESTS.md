@@ -10696,6 +10696,15 @@ two labeled signed atlases have raw sizes 960 and 240.  Canonicalization must
 retain edge-orbit orientations, and a negative answer must certify the
 product minors or weld residuals for every orbit rather than report no hits.
 
+The 960-row `(4,4,2)` atlas is now superseded by two PROVED symbolic
+classifiers.  Its common-`K` survivors lie on only three antipodal label
+loci, and all product-rank survivors are the six quadratic-linear rows
+`(KB4P-3)--(KB4P-5)`, at most twelve geometric packets.  An external worker
+must start from those rows, check q orientations, and compile the `eta` plus
+six `L^c` records.  Do not spend compute rediscovering the common-`K`
+classification.  The 240-row `(4,3,3)` two-loop atlas has not yet received
+the analogous symbolic reduction.
+
 Suggested pilot: one canonical packet stratum, one CPU, at most 512 MiB,
 60 seconds, deterministic partial output, and no parallel fleet.  Modular
 reconnaissance is evidence only; universal deletion requires symbolic or

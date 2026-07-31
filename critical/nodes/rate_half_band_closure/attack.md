@@ -1964,3 +1964,31 @@ signed assignments in skeleton `(1,1,0;1,1,1)` and 240 in
 not a proof: a universal deletion must print symbolic factors or a complete
 canonical certificate with every distinctness/support saturation.  Any
 survivor still needs the other seven fibers and paired-product gate.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier`
+removes the 960-case atlas for the `(4,4,2)` row.  Shared-loop cancellation
+forces
+
+```text
+k_B^2=k_AB*k_AC,       k_A^2=k_AB*k_BC.
+```
+
+After normalizing by `k_AB`, the labels are `{1,l,m,m^2,l^2}`.  The exact
+fifteen-cell antipodal matching table leaves only one scaled sixth-root
+hexagon and two eighth-root six-subsets, distinguished by which loop label
+is the missing-point singleton.  The banked `F_29` five-set lies off all
+three loci, so its complete no-survivor result follows symbolically and no
+further fixed-`F_29` enumeration is useful.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier`
+then imposes all five Mobius product minors on those loci.  Normalize the
+`J` pairs by `A=1`; the only edge-sign invariant is
+`tau=sign(AB)sign(AC)sign(BC)`.  Each of the six locus/sign rows reduces to
+one quadratic for `b=B/A` and one linear formula for `c=C/A`.  Thus the
+entire `(4,4,2)` common-`K` product frontier has at most twelve geometric
+packets.  All six algebraic rows are nonempty, so the branch cannot be
+deleted at common `K`.  Check their two signed q welds, then construct the
+`eta` and six `L^c` records and apply the paired source-label involution.
+Do not reopen generic label, edge-sign, or `b,c` enumeration.
