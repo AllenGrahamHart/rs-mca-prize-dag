@@ -1537,9 +1537,18 @@ primitive conditions are reciprocal in `b` and reduce exactly through
 modular factors of degrees dividing six: six linear, five quadratic, three
 cubic, and one sextic. Saturating each factor with all four trace equations
 by the full forbidden product gives the unit ideal. Direct/resultant and
-no-import fraction-free/subresultant certificates agree. Thus 10 of the 18
-affine positive charts are closed; eight moving-moving charts, negative loci,
-and the `w=0` boundary remain.
+no-import fraction-free/subresultant certificates agree.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion`
+closes the swapped square allocation `c->1/d,d->1/2`. Its reciprocal trace
+forms have three nonstandard parent components over `c` and two over `d`.
+The six pair projections leave two irreducible degree-nine factors and one
+irreducible degree-five factor, none of which meets `F_(p^6)`, plus four
+linear fibers. All four linear fibers have unit forbidden saturation in the
+direct/resultant and independent fraction-free/subresultant paths. Thus 11
+of the 18 affine positive charts are closed; seven moving-moving charts,
+negative loci, and the `w=0` boundary remain.
 
 The aligned positive sign has also resisted a broader exact falsifier sweep.
 The seeded standard-library replay

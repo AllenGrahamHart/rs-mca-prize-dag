@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the moving-moving a-xi square contract and one primary shard."""
+"""Verify the moving-moving a-xi square-ell contract and one primary shard."""
 import hashlib, json, os, runpy, sys
 from pathlib import Path
 
@@ -10,7 +10,7 @@ EXPECTED = "05055af688d8c9fe33a698965c9e7c69600053a1681f86af2af155ad7e1cb04c"
 if hashlib.sha256(HELPER.read_bytes()).hexdigest() != EXPECTED:
     raise RuntimeError("primary helper hash")
 statement = (NODE / "statement.md").read_text()
-if "- **status:** PROVED" not in statement or "other eight moving-moving" not in statement:
+if "- **status:** PROVED" not in statement or "other seven moving-moving" not in statement:
     raise RuntimeError("statement contract")
 dag = json.loads((ROOT / "dag.json").read_text())
 nodes = {node["id"]: node for node in dag["nodes"]}
@@ -25,6 +25,6 @@ if not all((parent, NODE.name, "req") in edges for parent in parents):
     raise RuntimeError("DAG dependencies")
 if (NODE.name, "rate_half_band_closure", "ev") not in edges:
     raise RuntimeError("DAG consumer")
-mode = os.environ.get("MOVING_A_SQUARE_PRIMARY_MODE", "cores")
-sys.argv = [str(HELPER), "a", "square-xi", mode, "--prove"]
+mode = os.environ.get("MOVING_A_SQUARE_ELL_PRIMARY_MODE", "cores")
+sys.argv = [str(HELPER), "a", "square-ell", mode, "--prove"]
 runpy.run_path(str(HELPER), run_name="__main__")

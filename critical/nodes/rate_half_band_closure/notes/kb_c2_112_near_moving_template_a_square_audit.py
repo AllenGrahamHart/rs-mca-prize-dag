@@ -96,7 +96,7 @@ def factor_map(polynomial: sp.Poly, *variables):
     }
 
 
-def build_trace_cores():
+def build_trace_cores(allocation):
     b, c, d, s = sp.symbols("b c d s", nonzero=True)
     a = sp.Rational(2)
     w = 1 / c
@@ -167,19 +167,33 @@ def build_trace_cores():
 
     residuals = {"c": residual(c), "d": residual(d)}
     targets = {
-        "c": (sp.Rational(1, 2), sp.Rational(1, 2)),
-        "d": (1 / d, 1 / d),
-    }
+        "square-xi": {
+            "c": (sp.Rational(1, 2), sp.Rational(1, 2)),
+            "d": (1 / d, 1 / d),
+        },
+        "square-ell": {
+            "c": (1 / d, 1 / d),
+            "d": (sp.Rational(1, 2), sp.Rational(1, 2)),
+        },
+    }[allocation]
     incidence = sp.Poly(
         4*c**2*d - 2*c**2 - 3*c*d + 3*c + 2*d - 4,
         b, c, d, domain=sp.QQ,
     )
     expected_cores = {
-        ("c", "product"): ((4, 8, 6), 299, 2, "5b27d4da822910b2"),
-        ("c", "sum"): ((4, 12, 8), 567, 0, "f5399a196459bb4f"),
-        ("d", "product"): ((4, 6, 8), 284, 2, "72568ee71be7f479"),
-        ("d", "sum"): ((4, 10, 9), 532, 0, "48c4bf1306aae34b"),
-    }
+        "square-xi": {
+            ("c", "product"): ((4, 8, 6), 299, 2, "5b27d4da822910b2"),
+            ("c", "sum"): ((4, 12, 8), 567, 0, "f5399a196459bb4f"),
+            ("d", "product"): ((4, 6, 8), 284, 2, "72568ee71be7f479"),
+            ("d", "sum"): ((4, 10, 9), 532, 0, "48c4bf1306aae34b"),
+        },
+        "square-ell": {
+            ("c", "product"): ((4, 8, 8), 380, 2, "a3c2f655933d7fa4"),
+            ("c", "sum"): ((4, 12, 9), 632, 0, "f9448c2c1e47ba1b"),
+            ("d", "product"): ((4, 5, 6), 194, 2, "a9568da9b73746f3"),
+            ("d", "sum"): ((4, 9, 8), 432, 0, "34219e7d8f958227"),
+        },
+    }[allocation]
     cores = {}
     for root_name in ("c", "d"):
         leading, middle, constant = residuals[root_name]
@@ -221,11 +235,19 @@ def build_trace_cores():
             cores[(root_name, kind)] = core
 
     expected_traces = {
-        ("c", "product"): ((2, 8, 6), 181, "736a52293558c61d"),
-        ("c", "sum"): ((2, 12, 8), 342, "3164f186a76328f5"),
-        ("d", "product"): ((2, 6, 8), 172, "f0bba9bf4f23b8d2"),
-        ("d", "sum"): ((2, 10, 9), 321, "2414ff4e8cdee299"),
-    }
+        "square-xi": {
+            ("c", "product"): ((2, 8, 6), 181, "736a52293558c61d"),
+            ("c", "sum"): ((2, 12, 8), 342, "3164f186a76328f5"),
+            ("d", "product"): ((2, 6, 8), 172, "f0bba9bf4f23b8d2"),
+            ("d", "sum"): ((2, 10, 9), 321, "2414ff4e8cdee299"),
+        },
+        "square-ell": {
+            ("c", "product"): ((2, 8, 8), 230, "162035e9c06a96e0"),
+            ("c", "sum"): ((2, 12, 9), 381, "a4fe8c32d48892ac"),
+            ("d", "product"): ((2, 5, 6), 118, "a204237915868784"),
+            ("d", "sum"): ((2, 9, 8), 261, "02be6fc5511268da"),
+        },
+    }[allocation]
     traces = {}
     for key, core in cores.items():
         trace = reciprocal_trace_audit(core, b, c, d, s)
@@ -241,8 +263,9 @@ def build_trace_cores():
     return (b, c, d, s), traces
 
 
-def expected_candidates():
+def expected_candidates(allocation):
     return {
+        "square-xi": {
         "d + 74714126", "d + 783212335", "d + 814817488",
         "d - 348744034", "d - 556359354", "d - 729277070",
         "d**2 + 1039740829*d + 86175119",
@@ -253,21 +276,37 @@ def expected_candidates():
         "d**3 + 467633272*d**2 + 328512070*d - 616337488",
         "d**3 - 407003079*d**2 - 685969478*d - 455850759",
         "d**3 - 55590487*d**2 - 1051050935*d + 972440423",
-        "d**6 - 52037947*d**5 + 785177430*d**4 - 219206024*d**3 + 764602150*d**2 - 367395446*d - 783155787",
-    }
+            "d**6 - 52037947*d**5 + 785177430*d**4 - 219206024*d**3 + 764602150*d**2 - 367395446*d - 783155787",
+        },
+        "square-ell": {
+            "d + 119912127", "d + 12573110",
+            "d - 581055016", "d - 760966584",
+        },
+    }[allocation]
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("mode", choices=(
         "source", "trace", "parent-c", "parent-d", "pairs",
-        "classify-low", "classify-high",
+        "classify", "classify-low", "classify-high",
     ))
+    parser.add_argument(
+        "--allocation", choices=("square-xi", "square-ell"),
+        default="square-xi",
+    )
     args = parser.parse_args()
-    (b, c, d, s), traces = build_trace_cores()
+    if args.allocation == "square-xi":
+        check(args.mode != "classify", "square-xi audit uses bounded shards")
+    else:
+        check(args.mode not in ("classify-low", "classify-high"),
+              "square-ell audit uses one classification shard")
+    label = "A_SQUARE" if args.allocation == "square-xi" else "A_SQUARE_ELL"
+    (b, c, d, s), traces = build_trace_cores(args.allocation)
     if args.mode in ("source", "trace"):
         print(
-            "KB_C2_112_NEAR_MOVING_TEMPLATE_A_SQUARE_"
+            "KB_C2_112_NEAR_MOVING_TEMPLATE_"
+            f"{label}_"
             f"{args.mode.upper()}_AUDIT_PASS fraction_free_source=true "
             "reciprocal_lift=true",
             flush=True,
@@ -275,23 +314,42 @@ def main() -> None:
         return
 
     expected_resultants = {
-        "c": ("830a8747ce80372c", {
-            "6a515ecf832aff78": 2, "e31255d5e81e2509": 2,
-            "4aa033e0505df8f1": 4, "73c55ff149852dee": 4,
-            "dbe56c4d43b264a2": 4, "cb4fd487538b0eff": 4,
-            "477785c532483181": 12, "7a7743ce53fe8f77": 12,
-            "fb37b983fcfb060a": 1, "9396ced8aa4cfa67": 1,
-            "21ee8a55421c92a9": 1,
-        }),
-        "d": ("43a8347e92f7f81d", {
-            "6a515ecf832aff78": 8, "e31255d5e81e2509": 8,
-            "19d832b1f64387da": 2, "9622b8845f94fd73": 1,
-            "4975135dd6af0fc0": 4, "dbe56c4d43b264a2": 4,
-            "824f64bb4a05a043": 4, "cb4fd487538b0eff": 4,
-            "477785c532483181": 8, "c7aea723bf6f84a1": 1,
-            "dbac8f34560fc4e3": 1,
-        }),
-    }
+        "square-xi": {
+            "c": ("830a8747ce80372c", {
+                "6a515ecf832aff78": 2, "e31255d5e81e2509": 2,
+                "4aa033e0505df8f1": 4, "73c55ff149852dee": 4,
+                "dbe56c4d43b264a2": 4, "cb4fd487538b0eff": 4,
+                "477785c532483181": 12, "7a7743ce53fe8f77": 12,
+                "fb37b983fcfb060a": 1, "9396ced8aa4cfa67": 1,
+                "21ee8a55421c92a9": 1,
+            }),
+            "d": ("43a8347e92f7f81d", {
+                "6a515ecf832aff78": 8, "e31255d5e81e2509": 8,
+                "19d832b1f64387da": 2, "9622b8845f94fd73": 1,
+                "4975135dd6af0fc0": 4, "dbe56c4d43b264a2": 4,
+                "824f64bb4a05a043": 4, "cb4fd487538b0eff": 4,
+                "477785c532483181": 8, "c7aea723bf6f84a1": 1,
+                "dbac8f34560fc4e3": 1,
+            }),
+        },
+        "square-ell": {
+            "c": ("4b4738172d468601", {
+                "4aa033e0505df8f1": 4, "6a515ecf832aff78": 4,
+                "e31255d5e81e2509": 4, "73c55ff149852dee": 4,
+                "19d832b1f64387da": 2, "dbe56c4d43b264a2": 4,
+                "cb4fd487538b0eff": 4, "477785c532483181": 12,
+                "7a7743ce53fe8f77": 12, "90db6ed8f237340f": 1,
+                "39a8eb9fc1019be9": 1, "4805246499888132": 1,
+            }),
+            "d": ("7f225ae889ff6913", {
+                "73c55ff149852dee": 1, "6a515ecf832aff78": 8,
+                "e31255d5e81e2509": 8, "824f64bb4a05a043": 2,
+                "4975135dd6af0fc0": 4, "dbe56c4d43b264a2": 4,
+                "cb4fd487538b0eff": 4, "477785c532483181": 8,
+                "c753072a5bf68171": 1, "6ba62bd34c05e0ff": 1,
+            }),
+        },
+    }[args.allocation]
 
     def parent(root_name):
         value = terminal_subresultant(
@@ -304,21 +362,29 @@ def main() -> None:
         check(factor_map(value, c, d) == wanted_factors,
               f"parent factor census {root_name}")
         selected = {
-            "c": {
-                "fb37b983fcfb060a", "9396ced8aa4cfa67",
-                "21ee8a55421c92a9",
+            "square-xi": {
+                "c": {"fb37b983fcfb060a", "9396ced8aa4cfa67", "21ee8a55421c92a9"},
+                "d": {"9622b8845f94fd73", "c7aea723bf6f84a1", "dbac8f34560fc4e3"},
             },
-            "d": {
-                "9622b8845f94fd73", "c7aea723bf6f84a1",
-                "dbac8f34560fc4e3",
+            "square-ell": {
+                "c": {"90db6ed8f237340f", "39a8eb9fc1019be9", "4805246499888132"},
+                "d": {"c753072a5bf68171", "6ba62bd34c05e0ff"},
             },
-        }[root_name]
+        }[args.allocation][root_name]
         forbidden_parent = {
-            "c": (d - 1, d + 1, d - 2, 2*d - 1,
-                  c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1, c + 1),
-            "d": (d - 1, d + 1, d, c - 2,
-                  c*d - 1, 2*c - 1, 5*c*d - 4*c - 4*d + 5, c - 1),
-        }[root_name]
+            "square-xi": {
+                "c": (d - 1, d + 1, d - 2, 2*d - 1,
+                      c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1, c + 1),
+                "d": (d - 1, d + 1, d, c - 2,
+                      c*d - 1, 2*c - 1, 5*c*d - 4*c - 4*d + 5, c - 1),
+            },
+            "square-ell": {
+                "c": (d - 2, d - 1, d + 1, 2*d - 1, d,
+                      c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1, c + 1),
+                "d": (2*d - 1, d - 1, d + 1, 2*c - 1, c - 2,
+                      c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1),
+            },
+        }[args.allocation][root_name]
         forbidden_digests = {
             digest(sp.Poly(factor, c, d, domain=sp.QQ))
             for factor in forbidden_parent
@@ -333,16 +399,22 @@ def main() -> None:
         root_name = args.mode[-1]
         parent(root_name)
         print(
-            "KB_C2_112_NEAR_MOVING_TEMPLATE_A_SQUARE_"
+            "KB_C2_112_NEAR_MOVING_TEMPLATE_"
+            f"{label}_"
             f"PARENT_{root_name.upper()}_AUDIT_PASS terminal_subresultant=true",
             flush=True,
         )
         return
 
-    candidate_keys = expected_candidates()
-    if args.mode in ("classify-low", "classify-high"):
+    candidate_keys = expected_candidates(args.allocation)
+    if args.mode in ("classify", "classify-low", "classify-high"):
         ordered = sorted(candidate_keys)
-        selected = ordered[:10] if args.mode == "classify-low" else ordered[10:]
+        if args.mode == "classify-low":
+            selected = ordered[:10]
+        elif args.mode == "classify-high":
+            selected = ordered[10:]
+        else:
+            selected = ordered
         candidates = {
             key: sp.Poly(
                 sp.sympify(key, locals={"d": d}), d, modulus=CHARACTERISTIC
@@ -351,49 +423,82 @@ def main() -> None:
         }
     else:
         expected_pairs = {
-            (0, 0): ("1f08ddfc48ccd364", {
-                "f93c38ef339888a3": 1, "3e8b7ae50a0eb368": 1,
-                "bc3da4bcdb93303f": 1, "b8907990ebf04ed3": 3,
-            }),
-            (0, 1): ("7b1a60698f1d453d", {
-                "f93c38ef339888a3": 1, "bc3da4bcdb93303f": 2,
-                "b8907990ebf04ed3": 3, "3e8b7ae50a0eb368": 4,
-            }),
-            (0, 2): ("7baa9d358b67c4b3", {
-                "f93c38ef339888a3": 2, "b8907990ebf04ed3": 2,
-                "3e8b7ae50a0eb368": 5, "f5607dc060a8b24c": 1,
-            }),
-            (1, 0): ("266373746bf5a434", {
-                "f93c38ef339888a3": 1, "3e8b7ae50a0eb368": 1,
-                "b8907990ebf04ed3": 2, "35a1079ff1c3092b": 1,
-            }),
-            (1, 1): ("9088c346e4574364", {
-                "f93c38ef339888a3": 1, "b8907990ebf04ed3": 2,
-                "3e8b7ae50a0eb368": 3, "0d86b3fdadf538f8": 1,
-            }),
-            (1, 2): ("801c3e3307141c22", {
-                "f93c38ef339888a3": 2, "b8907990ebf04ed3": 2,
-                "3e8b7ae50a0eb368": 5, "8fb853f59f7d6c72": 1,
-            }),
-            (2, 0): ("259d7f61b4116377", {
-                "bc3da4bcdb93303f": 1, "f93c38ef339888a3": 2,
-                "3e8b7ae50a0eb368": 2, "b8907990ebf04ed3": 2,
-                "c89ad00032ecc4af": 1,
-            }),
-            (2, 1): ("2e12bb9e81d5076a", {
-                "f93c38ef339888a3": 2, "bc3da4bcdb93303f": 2,
-                "b8907990ebf04ed3": 2, "3e8b7ae50a0eb368": 7,
-                "e6d74fc277bac3f6": 1,
-            }),
-            (2, 2): ("4a842f51757132b7", {
-                "f93c38ef339888a3": 4, "b8907990ebf04ed3": 6,
-                "3e8b7ae50a0eb368": 10, "f8d3ce8d2ca2936b": 1,
-            }),
-        }
+            "square-xi": {
+                (0, 0): ("1f08ddfc48ccd364", {
+                    "f93c38ef339888a3": 1, "3e8b7ae50a0eb368": 1,
+                    "bc3da4bcdb93303f": 1, "b8907990ebf04ed3": 3,
+                }),
+                (0, 1): ("7b1a60698f1d453d", {
+                    "f93c38ef339888a3": 1, "bc3da4bcdb93303f": 2,
+                    "b8907990ebf04ed3": 3, "3e8b7ae50a0eb368": 4,
+                }),
+                (0, 2): ("7baa9d358b67c4b3", {
+                    "f93c38ef339888a3": 2, "b8907990ebf04ed3": 2,
+                    "3e8b7ae50a0eb368": 5, "f5607dc060a8b24c": 1,
+                }),
+                (1, 0): ("266373746bf5a434", {
+                    "f93c38ef339888a3": 1, "3e8b7ae50a0eb368": 1,
+                    "b8907990ebf04ed3": 2, "35a1079ff1c3092b": 1,
+                }),
+                (1, 1): ("9088c346e4574364", {
+                    "f93c38ef339888a3": 1, "b8907990ebf04ed3": 2,
+                    "3e8b7ae50a0eb368": 3, "0d86b3fdadf538f8": 1,
+                }),
+                (1, 2): ("801c3e3307141c22", {
+                    "f93c38ef339888a3": 2, "b8907990ebf04ed3": 2,
+                    "3e8b7ae50a0eb368": 5, "8fb853f59f7d6c72": 1,
+                }),
+                (2, 0): ("259d7f61b4116377", {
+                    "bc3da4bcdb93303f": 1, "f93c38ef339888a3": 2,
+                    "3e8b7ae50a0eb368": 2, "b8907990ebf04ed3": 2,
+                    "c89ad00032ecc4af": 1,
+                }),
+                (2, 1): ("2e12bb9e81d5076a", {
+                    "f93c38ef339888a3": 2, "bc3da4bcdb93303f": 2,
+                    "b8907990ebf04ed3": 2, "3e8b7ae50a0eb368": 7,
+                    "e6d74fc277bac3f6": 1,
+                }),
+                (2, 2): ("4a842f51757132b7", {
+                    "f93c38ef339888a3": 4, "b8907990ebf04ed3": 6,
+                    "3e8b7ae50a0eb368": 10, "f8d3ce8d2ca2936b": 1,
+                }),
+            },
+            "square-ell": {
+                (0, 0): ("cacf0935414003b8", {
+                    "3e8b7ae50a0eb368": 2, "b8907990ebf04ed3": 2,
+                }),
+                (0, 1): ("673e881e67dbe000", {
+                    "f93c38ef339888a3": 2, "3e8b7ae50a0eb368": 2,
+                    "b8907990ebf04ed3": 2, "47202e4cec41c165": 2,
+                }),
+                (1, 0): ("69f68b152fb0fb7e", {
+                    "b8907990ebf04ed3": 2, "3e8b7ae50a0eb368": 3,
+                    "b2323407968c3731": 1,
+                }),
+                (1, 1): ("e68bf89ec438dd41", {
+                    "f93c38ef339888a3": 2, "b8907990ebf04ed3": 2,
+                    "3e8b7ae50a0eb368": 3, "ec928b551828440d": 1,
+                }),
+                (2, 0): ("c76ed153d004aadf", {
+                    "b8907990ebf04ed3": 2, "3e8b7ae50a0eb368": 5,
+                    "1bfe0ebb9889813a": 1,
+                }),
+                (2, 1): ("9c685995254fb8b6", {
+                    "f93c38ef339888a3": 4, "3e8b7ae50a0eb368": 5,
+                    "b8907990ebf04ed3": 6, "279f89e289adc46e": 1,
+                }),
+            },
+        }[args.allocation]
         wanted = {
-            "c": ("fb37b983fcfb060a", "9396ced8aa4cfa67", "21ee8a55421c92a9"),
-            "d": ("9622b8845f94fd73", "c7aea723bf6f84a1", "dbac8f34560fc4e3"),
-        }
+            "square-xi": {
+                "c": ("fb37b983fcfb060a", "9396ced8aa4cfa67", "21ee8a55421c92a9"),
+                "d": ("9622b8845f94fd73", "c7aea723bf6f84a1", "dbac8f34560fc4e3"),
+            },
+            "square-ell": {
+                "c": ("90db6ed8f237340f", "39a8eb9fc1019be9", "4805246499888132"),
+                "d": ("c753072a5bf68171", "6ba62bd34c05e0ff"),
+            },
+        }[args.allocation]
         components = {}
         for root_name in ("c", "d"):
             value = parent(root_name)
@@ -410,8 +515,8 @@ def main() -> None:
             str(sp.Poly(value, d, modulus=CHARACTERISTIC).monic().as_expr())
             for value in (d - 2, d - 1, d + 1, 2*d - 1)
         }
-        for left_index in range(3):
-            for right_index in range(3):
+        for left_index in range(len(components["c"])):
+            for right_index in range(len(components["d"])):
                 projection = terminal_subresultant(
                     components["c"][left_index],
                     components["d"][right_index],
@@ -437,8 +542,9 @@ def main() -> None:
                         candidates[key] = polynomial
         check(set(candidates) == candidate_keys, "candidate router coverage")
         print(
-            "KB_C2_112_NEAR_MOVING_TEMPLATE_A_SQUARE_PAIRS_AUDIT_PASS "
-            "terminal_subresultant=true characteristic=2130706433 candidates=15",
+            "KB_C2_112_NEAR_MOVING_TEMPLATE_"
+            f"{label}_PAIRS_AUDIT_PASS terminal_subresultant=true "
+            f"characteristic=2130706433 candidates={len(candidates)}",
             flush=True,
         )
         return
@@ -476,7 +582,8 @@ def main() -> None:
         )
     check(sp.isprime(CHARACTERISTIC), "audit characteristic is not prime")
     print(
-        "KB_C2_112_NEAR_MOVING_TEMPLATE_A_SQUARE_"
+        "KB_C2_112_NEAR_MOVING_TEMPLATE_"
+        f"{label}_"
         f"{args.mode.replace('-', '_').upper()}_AUDIT_PASS "
         f"characteristic={CHARACTERISTIC} candidates={len(candidates)} "
         "forbidden_saturation=true",

@@ -9,5 +9,5 @@
 - Audit SHA-256:
   `6089c8949252316c8d3bd73a3f2b1d899deb793758db827a58bb18e98759eebb`
 - Characteristic: `2130706433`; target field degree: `6`.
-- All proof modes are exact and deterministic. They run serially through
-  `ramguard tiny` with a 60-second wall limit and use no Modal credit.
+- All proof modes are exact, deterministic, serial, and bounded by 60 seconds
+  under `ramguard tiny`; no Modal credit is used.

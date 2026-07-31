@@ -11569,11 +11569,19 @@ complete collision, inversion-fixed, reciprocal, `z=1`, and finite-incidence
 divisor. A direct/resultant primary and no-import fraction-free/subresultant
 audit agree.
 
-This closes exactly 10 of the 18 affine positive charts. The remaining eight
-are all moving-moving: the other two `xi=a` allocations and all three
-allocations in each of the reciprocal and other-`xi` orbits. Both negative
-factor loci and the projective `w=0` boundary also remain open; do not infer
-a broader near-aligned deletion from these ten charts.
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion`
+also closes the swapped square allocation `c->1/d,d->1/2`. Its three-by-two
+parent router has six pair projections. Modulo the deployed prime, two
+degree-nine factors and one degree-five factor are irrelevant to
+`F_(p^6)`; the only relevant nonstandard support is four linear fibers, each
+with unit forbidden saturation in both implementations.
+
+This closes exactly 11 of the 18 affine positive charts. The remaining seven
+are all moving-moving: the `xi=a` mixed allocation and all three allocations
+in each of the reciprocal and other-`xi` orbits. Both negative factor loci
+and the projective `w=0` boundary also remain open; do not infer a broader
+near-aligned deletion from these eleven charts.
 
 There is a cheaper common gate before those allocation splits. Write
 
@@ -11606,7 +11614,7 @@ banked fraction-free reconstruction over `Q[p,t,b,w,lambda_scale]`.
 1. Treat the nine fixed-moving affine charts as banked certificates; do not
    recompute them. The projective `w=0` formulas remain separate and must
    retain `D*lambda_scale-L=0` until normalization is audited.
-2. Continue the remaining eight moving-moving charts after closing under
+2. Continue the remaining seven moving-moving charts after closing under
    `b->1/b`; carry the induced
    `lambda_scale` transformation before rewriting in `s=b+1/b`. Do not infer
    completeness from a generic field gcd: discharge every endpoint curve and

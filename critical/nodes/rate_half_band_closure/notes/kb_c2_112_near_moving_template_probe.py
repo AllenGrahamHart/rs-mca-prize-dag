@@ -105,14 +105,24 @@ def main() -> None:
     )
     parser.add_argument("--prove", action="store_true")
     args = parser.parse_args()
+    proof_chart = (args.xi, args.allocation)
+    proof_label = {
+        ("a", "square-xi"): "A_SQUARE",
+        ("a", "square-ell"): "A_SQUARE_ELL",
+    }.get(proof_chart)
     if args.prove:
         require(
-            (args.xi, args.allocation) == ("a", "square-xi")
-            and args.mode in {
-                "cores", "trace", "c", "d", "pairs",
-                "classify-low", "classify-high",
-            },
-            "proof mode is pinned to a/square-xi certificate stages",
+            (
+                proof_chart == ("a", "square-xi")
+                and args.mode in {
+                    "cores", "trace", "c", "d", "pairs",
+                    "classify-low", "classify-high",
+                }
+            ) or (
+                proof_chart == ("a", "square-ell")
+                and args.mode in {"cores", "trace", "c", "d", "pairs", "classify"}
+            ),
+            "proof mode is not configured for this chart/stage",
         )
 
     b, c, d, s = sp.symbols("b c d s", nonzero=True)
@@ -217,11 +227,19 @@ def main() -> None:
             )
     if args.prove:
         expected_cores = {
-            ("c", "product"): ((4, 8, 6), 299, 2, "5b27d4da822910b2"),
-            ("c", "sum"): ((4, 12, 8), 567, 0, "f5399a196459bb4f"),
-            ("d", "product"): ((4, 6, 8), 284, 2, "72568ee71be7f479"),
-            ("d", "sum"): ((4, 10, 9), 532, 0, "48c4bf1306aae34b"),
-        }
+            ("a", "square-xi"): {
+                ("c", "product"): ((4, 8, 6), 299, 2, "5b27d4da822910b2"),
+                ("c", "sum"): ((4, 12, 8), 567, 0, "f5399a196459bb4f"),
+                ("d", "product"): ((4, 6, 8), 284, 2, "72568ee71be7f479"),
+                ("d", "sum"): ((4, 10, 9), 532, 0, "48c4bf1306aae34b"),
+            },
+            ("a", "square-ell"): {
+                ("c", "product"): ((4, 8, 8), 380, 2, "a3c2f655933d7fa4"),
+                ("c", "sum"): ((4, 12, 9), 632, 0, "f9448c2c1e47ba1b"),
+                ("d", "product"): ((4, 5, 6), 194, 2, "a9568da9b73746f3"),
+                ("d", "sum"): ((4, 9, 8), 432, 0, "34219e7d8f958227"),
+            },
+        }[proof_chart]
         for key, (degrees, terms, incidence_power, wanted_digest) \
                 in expected_cores.items():
             value = cores[key]
@@ -249,7 +267,8 @@ def main() -> None:
     if args.mode == "cores":
         if args.prove:
             print(
-                "KB_C2_112_NEAR_MOVING_TEMPLATE_A_SQUARE_SOURCE_PRIMARY_PASS",
+                "KB_C2_112_NEAR_MOVING_TEMPLATE_"
+                f"{proof_label}_SOURCE_PRIMARY_PASS",
                 flush=True,
             )
         return
@@ -271,11 +290,19 @@ def main() -> None:
         traces[key] = trace
     if args.prove:
         expected_traces = {
-            ("c", "product"): ((2, 8, 6), 181, "736a52293558c61d"),
-            ("c", "sum"): ((2, 12, 8), 342, "3164f186a76328f5"),
-            ("d", "product"): ((2, 6, 8), 172, "f0bba9bf4f23b8d2"),
-            ("d", "sum"): ((2, 10, 9), 321, "2414ff4e8cdee299"),
-        }
+            ("a", "square-xi"): {
+                ("c", "product"): ((2, 8, 6), 181, "736a52293558c61d"),
+                ("c", "sum"): ((2, 12, 8), 342, "3164f186a76328f5"),
+                ("d", "product"): ((2, 6, 8), 172, "f0bba9bf4f23b8d2"),
+                ("d", "sum"): ((2, 10, 9), 321, "2414ff4e8cdee299"),
+            },
+            ("a", "square-ell"): {
+                ("c", "product"): ((2, 8, 8), 230, "162035e9c06a96e0"),
+                ("c", "sum"): ((2, 12, 9), 381, "a4fe8c32d48892ac"),
+                ("d", "product"): ((2, 5, 6), 118, "a204237915868784"),
+                ("d", "sum"): ((2, 9, 8), 261, "02be6fc5511268da"),
+            },
+        }[proof_chart]
         for key, (degrees, terms, wanted_digest) in expected_traces.items():
             value = traces[key]
             require(
@@ -288,25 +315,32 @@ def main() -> None:
     if args.mode == "trace":
         if args.prove:
             print(
-                "KB_C2_112_NEAR_MOVING_TEMPLATE_A_SQUARE_TRACE_PRIMARY_PASS",
+                "KB_C2_112_NEAR_MOVING_TEMPLATE_"
+                f"{proof_label}_TRACE_PRIMARY_PASS",
                 flush=True,
             )
         return
 
     characteristic = 2130706433
     expected_candidate_keys = {
-        "d + 74714126", "d + 783212335", "d + 814817488",
-        "d - 348744034", "d - 556359354", "d - 729277070",
-        "d**2 + 1039740829*d + 86175119",
-        "d**2 + 418943894*d - 885630125",
-        "d**2 + 475218768*d - 951068643",
-        "d**2 + 65043334*d - 628088389",
-        "d**2 + 814568104*d + 175500178",
-        "d**3 + 467633272*d**2 + 328512070*d - 616337488",
-        "d**3 - 407003079*d**2 - 685969478*d - 455850759",
-        "d**3 - 55590487*d**2 - 1051050935*d + 972440423",
-        "d**6 - 52037947*d**5 + 785177430*d**4 - 219206024*d**3 + 764602150*d**2 - 367395446*d - 783155787",
-    }
+        ("a", "square-xi"): {
+            "d + 74714126", "d + 783212335", "d + 814817488",
+            "d - 348744034", "d - 556359354", "d - 729277070",
+            "d**2 + 1039740829*d + 86175119",
+            "d**2 + 418943894*d - 885630125",
+            "d**2 + 475218768*d - 951068643",
+            "d**2 + 65043334*d - 628088389",
+            "d**2 + 814568104*d + 175500178",
+            "d**3 + 467633272*d**2 + 328512070*d - 616337488",
+            "d**3 - 407003079*d**2 - 685969478*d - 455850759",
+            "d**3 - 55590487*d**2 - 1051050935*d + 972440423",
+            "d**6 - 52037947*d**5 + 785177430*d**4 - 219206024*d**3 + 764602150*d**2 - 367395446*d - 783155787",
+        },
+        ("a", "square-ell"): {
+            "d + 119912127", "d + 12573110",
+            "d - 581055016", "d - 760966584",
+        },
+    }[proof_chart]
 
     def within_components(root_name):
         resultant = sp.Poly(
@@ -338,28 +372,47 @@ def main() -> None:
             flush=True,
         )
         if args.prove:
-            expected_resultants = {
-                "c": "830a8747ce80372c",
-                "d": "43a8347e92f7f81d",
-            }
-            expected_factors = {
-                "c": {
-                    "6a515ecf832aff78": 2, "e31255d5e81e2509": 2,
-                    "4aa033e0505df8f1": 4, "73c55ff149852dee": 4,
-                    "dbe56c4d43b264a2": 4, "cb4fd487538b0eff": 4,
-                    "477785c532483181": 12, "7a7743ce53fe8f77": 12,
-                    "fb37b983fcfb060a": 1, "9396ced8aa4cfa67": 1,
-                    "21ee8a55421c92a9": 1,
-                },
-                "d": {
-                    "6a515ecf832aff78": 8, "e31255d5e81e2509": 8,
-                    "19d832b1f64387da": 2, "9622b8845f94fd73": 1,
-                    "4975135dd6af0fc0": 4, "dbe56c4d43b264a2": 4,
-                    "824f64bb4a05a043": 4, "cb4fd487538b0eff": 4,
-                    "477785c532483181": 8, "c7aea723bf6f84a1": 1,
-                    "dbac8f34560fc4e3": 1,
-                },
-            }
+            expected_resultants, expected_factors = {
+                ("a", "square-xi"): ({
+                    "c": "830a8747ce80372c", "d": "43a8347e92f7f81d",
+                }, {
+                    "c": {
+                        "6a515ecf832aff78": 2, "e31255d5e81e2509": 2,
+                        "4aa033e0505df8f1": 4, "73c55ff149852dee": 4,
+                        "dbe56c4d43b264a2": 4, "cb4fd487538b0eff": 4,
+                        "477785c532483181": 12, "7a7743ce53fe8f77": 12,
+                        "fb37b983fcfb060a": 1, "9396ced8aa4cfa67": 1,
+                        "21ee8a55421c92a9": 1,
+                    },
+                    "d": {
+                        "6a515ecf832aff78": 8, "e31255d5e81e2509": 8,
+                        "19d832b1f64387da": 2, "9622b8845f94fd73": 1,
+                        "4975135dd6af0fc0": 4, "dbe56c4d43b264a2": 4,
+                        "824f64bb4a05a043": 4, "cb4fd487538b0eff": 4,
+                        "477785c532483181": 8, "c7aea723bf6f84a1": 1,
+                        "dbac8f34560fc4e3": 1,
+                    },
+                }),
+                ("a", "square-ell"): ({
+                    "c": "4b4738172d468601", "d": "7f225ae889ff6913",
+                }, {
+                    "c": {
+                        "4aa033e0505df8f1": 4, "6a515ecf832aff78": 4,
+                        "e31255d5e81e2509": 4, "73c55ff149852dee": 4,
+                        "19d832b1f64387da": 2, "dbe56c4d43b264a2": 4,
+                        "cb4fd487538b0eff": 4, "477785c532483181": 12,
+                        "7a7743ce53fe8f77": 12, "90db6ed8f237340f": 1,
+                        "39a8eb9fc1019be9": 1, "4805246499888132": 1,
+                    },
+                    "d": {
+                        "73c55ff149852dee": 1, "6a515ecf832aff78": 8,
+                        "e31255d5e81e2509": 8, "824f64bb4a05a043": 2,
+                        "4975135dd6af0fc0": 4, "dbe56c4d43b264a2": 4,
+                        "cb4fd487538b0eff": 4, "477785c532483181": 8,
+                        "c753072a5bf68171": 1, "6ba62bd34c05e0ff": 1,
+                    },
+                }),
+            }[proof_chart]
             require(
                 digest(resultant) == expected_resultants[root_name],
                 f"moving within digest {root_name}",
@@ -370,21 +423,29 @@ def main() -> None:
                 f"moving within factor census {root_name}",
             )
             selected = {
-                "c": {
-                    "fb37b983fcfb060a", "9396ced8aa4cfa67",
-                    "21ee8a55421c92a9",
+                ("a", "square-xi"): {
+                    "c": {"fb37b983fcfb060a", "9396ced8aa4cfa67", "21ee8a55421c92a9"},
+                    "d": {"9622b8845f94fd73", "c7aea723bf6f84a1", "dbac8f34560fc4e3"},
                 },
-                "d": {
-                    "9622b8845f94fd73", "c7aea723bf6f84a1",
-                    "dbac8f34560fc4e3",
+                ("a", "square-ell"): {
+                    "c": {"90db6ed8f237340f", "39a8eb9fc1019be9", "4805246499888132"},
+                    "d": {"c753072a5bf68171", "6ba62bd34c05e0ff"},
                 },
-            }[root_name]
+            }[proof_chart][root_name]
             forbidden_parent = {
-                "c": (d - 1, d + 1, d - 2, 2*d - 1,
-                      c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1, c + 1),
-                "d": (d - 1, d + 1, d, c - 2,
-                      c*d - 1, 2*c - 1, 5*c*d - 4*c - 4*d + 5, c - 1),
-            }[root_name]
+                ("a", "square-xi"): {
+                    "c": (d - 1, d + 1, d - 2, 2*d - 1,
+                          c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1, c + 1),
+                    "d": (d - 1, d + 1, d, c - 2,
+                          c*d - 1, 2*c - 1, 5*c*d - 4*c - 4*d + 5, c - 1),
+                },
+                ("a", "square-ell"): {
+                    "c": (d - 2, d - 1, d + 1, 2*d - 1, d,
+                          c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1, c + 1),
+                    "d": (2*d - 1, d - 1, d + 1, 2*c - 1, c - 2,
+                          c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1),
+                },
+            }[proof_chart][root_name]
             forbidden_digests = {
                 digest(sp.Poly(value, c, d, domain=sp.QQ))
                 for value in forbidden_parent
@@ -399,18 +460,35 @@ def main() -> None:
         within_components(args.mode)
         if args.prove:
             print(
-                "KB_C2_112_NEAR_MOVING_TEMPLATE_A_SQUARE_"
+                "KB_C2_112_NEAR_MOVING_TEMPLATE_"
+                f"{proof_label}_"
                 f"PARENT_{args.mode.upper()}_PRIMARY_PASS",
                 flush=True,
             )
         return
 
-    if (args.xi, args.allocation) != ("a", "square-xi"):
-        raise RuntimeError("pair modes are pinned only for a/square-xi")
-    wanted = {
-        "c": ("fb37b983fcfb060a", "9396ced8aa4cfa67", "21ee8a55421c92a9"),
-        "d": ("9622b8845f94fd73", "c7aea723bf6f84a1", "dbac8f34560fc4e3"),
+    wanted_by_chart = {
+        ("a", "square-xi"): {
+            "c": (
+                "fb37b983fcfb060a", "9396ced8aa4cfa67",
+                "21ee8a55421c92a9",
+            ),
+            "d": (
+                "9622b8845f94fd73", "c7aea723bf6f84a1",
+                "dbac8f34560fc4e3",
+            ),
+        },
+        ("a", "square-ell"): {
+            "c": (
+                "90db6ed8f237340f", "39a8eb9fc1019be9",
+                "4805246499888132",
+            ),
+            "d": ("c753072a5bf68171", "6ba62bd34c05e0ff"),
+        },
     }
+    if (args.xi, args.allocation) not in wanted_by_chart:
+        raise RuntimeError("pair modes are not configured for this chart")
+    wanted = wanted_by_chart[(args.xi, args.allocation)]
     direct_classification = args.mode in ("classify-low", "classify-high")
     deployed_candidates = {}
     if direct_classification:
@@ -438,11 +516,15 @@ def main() -> None:
                 by_digest[value] for value in wanted[root_name]
             ]
         pair_indices = (
-            [(left, right) for left in range(3) for right in range(3)]
+            [
+                (left, right)
+                for left in range(len(components["c"]))
+                for right in range(len(components["d"]))
+            ]
             if args.mode in ("pairs", "classify")
             else [(int(args.mode[-2]), int(args.mode[-1]))]
         )
-    expected_pairs = {
+    square_xi_pairs = {
         (0, 0): ("1f08ddfc48ccd364", {
             "f93c38ef339888a3": 1, "3e8b7ae50a0eb368": 1,
             "bc3da4bcdb93303f": 1, "b8907990ebf04ed3": 3,
@@ -482,6 +564,35 @@ def main() -> None:
             "3e8b7ae50a0eb368": 10, "f8d3ce8d2ca2936b": 1,
         }),
     }
+    square_ell_pairs = {
+        (0, 0): ("cacf0935414003b8", {
+            "3e8b7ae50a0eb368": 2, "b8907990ebf04ed3": 2,
+        }),
+        (0, 1): ("673e881e67dbe000", {
+            "f93c38ef339888a3": 2, "3e8b7ae50a0eb368": 2,
+            "b8907990ebf04ed3": 2, "47202e4cec41c165": 2,
+        }),
+        (1, 0): ("69f68b152fb0fb7e", {
+            "b8907990ebf04ed3": 2, "3e8b7ae50a0eb368": 3,
+            "b2323407968c3731": 1,
+        }),
+        (1, 1): ("e68bf89ec438dd41", {
+            "f93c38ef339888a3": 2, "b8907990ebf04ed3": 2,
+            "3e8b7ae50a0eb368": 3, "ec928b551828440d": 1,
+        }),
+        (2, 0): ("c76ed153d004aadf", {
+            "b8907990ebf04ed3": 2, "3e8b7ae50a0eb368": 5,
+            "1bfe0ebb9889813a": 1,
+        }),
+        (2, 1): ("9c685995254fb8b6", {
+            "f93c38ef339888a3": 4, "3e8b7ae50a0eb368": 5,
+            "b8907990ebf04ed3": 6, "279f89e289adc46e": 1,
+        }),
+    }
+    expected_pairs = {
+        ("a", "square-xi"): square_xi_pairs,
+        ("a", "square-ell"): square_ell_pairs,
+    }[proof_chart]
     for left_index, right_index in pair_indices:
         left = components["c"][left_index]
         right = components["d"][right_index]
@@ -541,8 +652,9 @@ def main() -> None:
             "moving deployed candidate coverage",
         )
         print(
-            "KB_C2_112_NEAR_MOVING_TEMPLATE_A_SQUARE_PAIRS_PRIMARY_PASS "
-            "characteristic=2130706433 candidates=15",
+            "KB_C2_112_NEAR_MOVING_TEMPLATE_"
+            f"{proof_label}_PAIRS_PRIMARY_PASS "
+            f"characteristic=2130706433 candidates={len(deployed_candidates)}",
             flush=True,
         )
     if args.mode not in ("classify", "classify-low", "classify-high"):
@@ -614,17 +726,19 @@ def main() -> None:
             )
     if args.prove:
         expected_shard = sorted(expected_candidate_keys)
-        expected_shard = (
-            expected_shard[:10]
-            if args.mode == "classify-low"
-            else expected_shard[10:]
-        )
+        if proof_chart == ("a", "square-xi"):
+            expected_shard = (
+                expected_shard[:10]
+                if args.mode == "classify-low"
+                else expected_shard[10:]
+            )
         require(
             set(deployed_candidates) == set(expected_shard),
             "moving deployed candidate shard coverage",
         )
         print(
-            "KB_C2_112_NEAR_MOVING_TEMPLATE_A_SQUARE_"
+            "KB_C2_112_NEAR_MOVING_TEMPLATE_"
+            f"{proof_label}_"
             f"{args.mode.replace('-', '_').upper()}_PRIMARY_PASS "
             f"characteristic=2130706433 candidates={len(deployed_candidates)}",
             flush=True,
