@@ -22,7 +22,7 @@ from sympy.polys.agca.extensions import FiniteExtension
 DEPLOYED_PRIME = 2130706433
 HERE = Path(__file__).resolve().parent
 COMPILER = HERE / "kb_c2_112_aligned_positive_unramified_flint.py"
-COMPILER_SHA256 = "da94223d972a3f994eef8e6af65c293ef589d3d502787b9506f826fee79dafc9"
+COMPILER_SHA256 = "988e60a010ea2793049505b5e9b0ff6d5c28b300e4a00a4b8a3724849ede09f0"
 CONFIGS = {
     "same": {
         "cache": HERE / "kb_c2_112_aligned_positive_unramified_fixed_same_minors.json",

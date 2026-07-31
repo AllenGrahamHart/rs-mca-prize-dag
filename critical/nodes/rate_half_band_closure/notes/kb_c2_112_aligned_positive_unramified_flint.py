@@ -86,7 +86,7 @@ def sympy_to_flint(poly: sp.Poly, context):
     return context.from_dict(terms)
 
 
-def sympy_b_coefficients_to_flint(poly: sp.Poly, context):
+def sympy_orbit_coefficients_to_flint(poly: sp.Poly, context):
     integer_poly = poly.clear_denoms(convert=True)[1].primitive()[1]
     coefficients = []
     for exponent in (2, 1, 0):
@@ -97,6 +97,23 @@ def sympy_b_coefficients_to_flint(poly: sp.Poly, context):
         }
         coefficients.append(context.from_dict(terms))
     return coefficients
+
+
+def trace_reduce(poly: sp.Poly, b, trace, remaining_variables):
+    """Descend a reciprocal quartic in b through trace=b+b^-1."""
+    coefficient_ring = sp.QQ.poly_ring(*remaining_variables)
+    as_b = sp.Poly(poly.as_expr(), b, domain=coefficient_ring)
+    require(as_b.degree() == 4, "moving orbit degree")
+    require(
+        all(as_b.nth(index) == as_b.nth(4 - index) for index in range(5)),
+        "moving equation is not reciprocal after scale elimination",
+    )
+    reduced = sp.expand(
+        as_b.nth(4).as_expr() * (trace**2 - 2)
+        + as_b.nth(3).as_expr() * trace
+        + as_b.nth(2).as_expr()
+    )
+    return sp.Poly(reduced, trace, *remaining_variables, domain=sp.QQ).primitive()[1]
 
 
 def polynomial_digest(poly) -> str:
@@ -319,13 +336,30 @@ def build_cell(template: str, allocation: str):
             flush=True,
         )
     require(len(reduced) == 4, "equation count")
-    require(all(poly.degree(b) <= 2 for poly in reduced), "quadratic b gate")
+    if template == "moving-moving":
+        trace = sp.Symbol("trace")
+        reduced = [
+            trace_reduce(poly, b, trace, (p, t, w)) for poly in reduced
+        ]
+        ring_variables = (trace, p, t, w)
+        for index, poly in enumerate(reduced):
+            print(
+                f"trace_equation={index} total_degree={poly.total_degree()} "
+                f"trace_degree={poly.degree(trace)} terms={len(poly.terms())}",
+                flush=True,
+            )
+    require(
+        all(poly.degree(ring_variables[0]) <= 2 for poly in reduced),
+        "quadratic orbit-coordinate gate",
+    )
     return ring_variables, reduced
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("template", choices=("fixed-moving",))
+    parser.add_argument(
+        "template", choices=("fixed-moving", "moving-moving")
+    )
     parser.add_argument(
         "--allocation", choices=("same", "swap", "mixed"), required=True
     )
@@ -369,7 +403,7 @@ def main() -> None:
             or args.quartic_component or args.dump_minor_cache
             or args.dump_conic_cache):
         coefficient_rows = [
-            sympy_b_coefficients_to_flint(equation, context)
+            sympy_orbit_coefficients_to_flint(equation, context)
             for equation in equations
         ]
         if args.dump_conic_cache:
