@@ -11752,6 +11752,25 @@ deletes the aligned negative sign on eight exact full-matrix fixtures, and
 rejects `129` of `129` hostile mutations. The latest extension report is
 `przchojecki/rs-mca#1132` comment `5132707876`.
 
+The next exact extension is now upstream at
+`543db66fa66793690651a5f81ea90b8f8f81e66c` in the same draft PR, with
+review comment `5141858340`. Its new fail-closed packet
+`kb_mca_v4_m2_u2_saturated_112_q_slice_exclusions_v1` pins the cumulative
+parent above and independently banks:
+
+- the complete near-aligned negative q-slice deletion, including `w=0`;
+- all six aligned-positive forced-ramified template/allocation unit ideals;
+- all seven near-positive homogeneous projective-boundary unit ideals; and
+- the resulting complete aligned forced-ramified source-line deletion after
+  combination with the parent aligned-negative theorem.
+
+Its default verifier rejects `11/11` hostile mutations. The `17` exact deep
+cases are hash-pinned, serial, and individually capped at `60 s`; all were
+replayed under the `256 MB` RAMguard profile. The packet deliberately does
+not import the separately proved 18-cell near-positive affine ledger and
+therefore does not book the full near-aligned branch upstream. The six
+aligned-positive unramified cells remain the source-line q-slice frontier.
+
 ### Work-cycle burn-down: diagonal c2 square fibers
 
 ```text
@@ -11774,4 +11793,31 @@ live compute requests:    CR-KB-C2-112-POS-QS-SAT (external; 12 ideals) and
 next route-deciding step: complete the twelve-case aligned-positive
                           specialization certificate, or attack both
                           near-aligned signs with their actual target
+```
+
+### Work-cycle burn-down: saturated 112 q-slice export
+
+```text
+starting local pin:       a9360582d536d326451bf32e3ebbd6f7a118b1eb
+ending local theorem pin: a9360582d536d326451bf32e3ebbd6f7a118b1eb
+canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+upstream main pin:        93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream PR head:         543db66fa66793690651a5f81ea90b8f8f81e66c (#1132)
+node/workboard attacked:  K3 / saturated diagonal c=2 (1,1,2) source line
+result:                   EXPORTED
+DAG delta:                none; local nodes were already PROVED
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved (unchanged)
+upstream terminal delta:  near-negative sign empty; aligned positive w=0
+                          empty; near-positive projective boundary empty;
+                          complete aligned forced-ramified branch empty
+delta-star movement:      none
+new assumptions:          none
+crosswalk validation:     green before export; no local edge changed
+live compute requests:    CR-KB-C2-112-POS-QS-SAT, now exactly six
+                          aligned-positive unramified cells; generic local
+                          SymPy elimination retired after measured timeout
+next route-deciding step: either build a bounded modular-interpolation or
+                          dedicated quadratic-resultant emitter for one
+                          unramified cell, or move to another critical child
+                          rather than repeat the failed generic CAS route
 ```
