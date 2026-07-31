@@ -11016,6 +11016,13 @@ disappears and the all-row common-product identity transports the result.
 Do not request this cell.  The accepted frontier is 36: six `S0` and three
 `S2` cells per row.
 
+The forced-`EF` `S2` cell is retired in every common row as well.  Its
+denominator-cleared equations have seven terms and complete after 28
+S-pairs with `e^2=0` in both cubic components.  This contradicts the
+required nonzero outside representative, so it is a guard-saturated
+deletion rather than a raw unit ideal.  The accepted frontier is 32: six
+`S0` and two `S2` cells per row.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs

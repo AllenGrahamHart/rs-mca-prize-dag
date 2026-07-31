@@ -79,7 +79,7 @@ def build(alpha_sign=1, cell="forced-de", delta_sign=-1, ef_sign=1,
     if ef_sign not in (-1, 1):
         raise ValueError("ef_sign must be +/-1")
     if cell not in ("forced-de", "forced-ce", "forced-ef",
-                    "s2-forced-colored"):
+                    "s2-forced-colored", "s2-forced-df", "s2-forced-ef"):
         raise ValueError("unsupported cell")
     if epsilon_1 not in (-1, 1) or epsilon_2 not in (-1, 1):
         raise ValueError("common signs must be +/-1")
@@ -189,7 +189,7 @@ def build(alpha_sign=1, cell="forced-de", delta_sign=-1, ef_sign=1,
             (constant(SELECTOR.IDENTITY), monomial(1, 1)),
             (constant(SELECTOR.IDENTITY), constant(mate_matrix)),
         )
-    else:
+    elif cell == "s2-forced-colored":
         mate_over_c = SELECTOR.mul(mate_matrix, c_inverse)
         factors = (
             (constant(SELECTOR.IDENTITY), constant(mate_matrix)),
@@ -202,6 +202,32 @@ def build(alpha_sign=1, cell="forced-de", delta_sign=-1, ef_sign=1,
             (constant(SELECTOR.IDENTITY), {}, monomial(
                 2, 2, SELECTOR.neg(SELECTOR.IDENTITY)
             )),
+        )
+    elif cell == "s2-forced-df":
+        c_squared = SELECTOR.mul(c_matrix, c_matrix)
+        mate_squared = SELECTOR.mul(mate_matrix, mate_matrix)
+        factors = (
+            (constant(SELECTOR.IDENTITY), {}, monomial(
+                2, 0, SELECTOR.neg(c_squared)
+            )),
+            (constant(SELECTOR.IDENTITY), monomial(0, 2)),
+            (constant(SELECTOR.IDENTITY), constant(mate_matrix)),
+            (monomial(2, 0), {}, monomial(
+                0, 2, SELECTOR.neg(mate_squared)
+            )),
+        )
+    else:
+        c_squared = SELECTOR.mul(c_matrix, c_matrix)
+        mate_squared = SELECTOR.mul(mate_matrix, mate_matrix)
+        factors = (
+            (constant(SELECTOR.IDENTITY), {}, monomial(
+                2, 0, SELECTOR.neg(c_squared)
+            )),
+            (constant(SELECTOR.IDENTITY), monomial(0, 2)),
+            (monomial(0, 2), {}, monomial(
+                2, 0, SELECTOR.neg(mate_squared)
+            )),
+            (constant(SELECTOR.IDENTITY), constant(mate_matrix)),
         )
     coefficients = [constant(SELECTOR.IDENTITY)]
     for factor in factors:
@@ -249,7 +275,8 @@ def main():
     parser.add_argument("--groebner", action="store_true")
     parser.add_argument("--alpha-sign", type=int, choices=(-1, 1), default=1)
     parser.add_argument("--cell", choices=("forced-de", "forced-ce", "forced-ef",
-                                            "s2-forced-colored"),
+                                            "s2-forced-colored", "s2-forced-df",
+                                            "s2-forced-ef"),
                         default="forced-de")
     parser.add_argument("--delta-sign", type=int, choices=(-1, 1), default=-1)
     parser.add_argument("--ef-sign", type=int, choices=(-1, 1), default=1)

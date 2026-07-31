@@ -2751,3 +2751,18 @@ The three equations have seven monomials and reach the raw unit ideal after
 seven S-pairs in both cubic components.  The forced sign disappears and the
 all-row `b,c,m` identity transports the certificate.  Reduce the accepted
 frontier from 40 to 36; six `S0` and three `S2` cells remain per row.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion`
+deletes the forced-`EF` `S2` orbit in every row.  Clearing the admissible
+denominator after `sigma*ef=m` gives
+
+```text
+(X^2-c^2d^2Z^2)(X+e^2Z)(e^2X^2-m^2d^2Z^2)(X+mZ).
+```
+
+Its three seven-term equations complete after 28 S-pairs with the monic
+basis element `e^2` in both cubic components.  Since outside representatives
+are nonzero, this is a guarded deletion, not a raw unit ideal.  Transport it
+using the common `b,c,m` identity and reduce the frontier from 36 to 32;
+six `S0` and two `S2` cells remain per row.
