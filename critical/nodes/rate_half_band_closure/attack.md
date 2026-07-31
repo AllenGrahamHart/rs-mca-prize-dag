@@ -2842,3 +2842,22 @@ nonzero outside guard.  Transport gives all eight final deletions.  Thus all
 24 `S0`, 40 `S1`, and 16 `S2` cells are empty: the accepted 80-cell product
 frontier for common orbit `[9,10,12,13]` is closed.  Do not run its q or
 interpolation stages; return to the other common matching orbits.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier`
+now classifies common orbit `[3,6]`.  In a representative cell the
+`AB+` record is the singleton, the loop pairs with `AB-`, and the two
+`AC` records pair.  After the guarded product reconstruction, one q weld
+is linear in `t`.  Substitution and direct `b` elimination leave exactly
+
+```text
+r^2=-epsilon_2*i,       2b^2+3b+2=0,
+t=(-epsilon_1*i*r^2-2r-epsilon_1*i)
+  /(r^2+2epsilon_1*i*r+1),
+c=b(bU-V)/(bV-U).
+```
+
+There are four guarded packets in each root-sign row and sixteen total in
+the deployed field.  Thus `[3,6]` is finite but live.  Compile its product
+involution and outside mate next; the only common matching orbit still
+unclassified is `[4,5,7,8]`.
