@@ -10703,7 +10703,9 @@ loci, and all product-rank survivors are the six quadratic-linear rows
 must start from those rows and their two PROVED q-compatible orientation
 classes, then compile the `eta` plus six `L^c` records.  Do not spend compute
 rediscovering either common-`K` products or q signs.  The 240-row `(4,3,3)`
-two-loop atlas has not yet received the analogous symbolic reduction.
+two-loop atlas is also superseded at the label level: `(KB43-3)` gives nine
+one-parameter antipodal cells.  Its product-map and second-weld elimination
+remain open and should start from those cells, not labeled assignments.
 
 Suggested pilot: one canonical packet stratum, one CPU, at most 512 MiB,
 60 seconds, deterministic partial output, and no parallel fleet.  Modular

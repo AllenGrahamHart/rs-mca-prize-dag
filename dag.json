@@ -20396,6 +20396,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop 433 antipodal-label atlas",
+   "status": "PROVED",
+   "closure": "one multiplicative K-label identity and an exact nine-cell antipodal atlas for the negative 433 two-loop skeleton",
+   "statement": "In the negative (4,3,3) two-loop skeleton, shared-loop cancellation between the two signed AB edge types forces k_C^2=k_+k_-. After normalizing by k_+, the labels are {1,M,M^2,L,Z}. Requiring two antipodal pairs and one singleton leaves exactly nine of fifteen matching cells, each with one K parameter. The other six force label collisions. Product-map and second-weld classification remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
    "title": "KoalaBear m2 r2 dihedral degree-five source-star exclusion",
    "status": "PROVED",
@@ -39096,6 +39116,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

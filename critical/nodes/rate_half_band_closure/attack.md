@@ -2000,3 +2000,20 @@ orientation triples satisfy both welds, and either reconstructs all five
 common-fiber Vieta rows.  Therefore construct the `eta` and six `L^c`
 records next and apply the paired source-label involution.
 Do not reopen generic label, edge-sign, or `b,c` enumeration.
+
+For the second two-loop skeleton, the PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas`
+applies the weld to the doubled signed `AB` pair.  If `k_+,k_-` carry the
+two products and `k_C` is the other loop label, then
+
+```text
+k_C^2=k_+*k_-.
+```
+
+Normalize by `k_+`.  The labels are `{1,M,M^2,L,Z}`; the exact fifteen-cell
+antipodal table retains nine one-parameter cells and deletes six collision
+cells.  The banked `F_29` five-set lies off every retained cell, explaining
+its q failure without enumeration.  The next direct calculation should use
+products `(-1,-c^2,b,-b,bc)` on `(A,C,+,-,BC)`, impose all five Mobius
+minors and the one remaining weld on each of the nine cells, and saturate by
+label and signed-pair distinctness.  Do not return to the 240 labeled atlas.
