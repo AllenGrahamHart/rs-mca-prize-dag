@@ -47,6 +47,11 @@ CONFIGS = {
             "77a57e7fe1829d13e7a80e27abb651c1db28ac7887d29dbe26a3a86d277873a3",
             "15f984e753ce2f35ef8effee17f7fbbff340fd1bd3883249cb424f12178669ed",
         ),
+        "off_common_digests": (
+            "bd7f29ac722c6a42084e9a65f6c687daf9cef0d13d121ce129e7ce606fd28d92",
+            "8abd5c5c46bd6380dce7581bf0b2c681ab58d48a664693ee9055ea97fe0c3fce",
+            "e5d10f1a8637f850e6dacf0a94de67047ec5330cdbd80a475dbdc586a50665cd",
+        ),
     },
     "mixed": {
         "cache": HERE / "kb_c2_112_aligned_positive_unramified_moving_mixed_minors.json",
@@ -179,6 +184,194 @@ def flint_component_expression(polynomial, p, t):
     return expression
 
 
+def univariate_modulus(polynomial, variable_index: int):
+    degree = polynomial.degrees()[variable_index]
+    coefficients = [0 for _ in range(degree + 1)]
+    for monomial, coefficient in polynomial.to_dict().items():
+        require(
+            all(
+                exponent == 0
+                for index, exponent in enumerate(monomial)
+                if index != variable_index
+            ),
+            "non-univariate norm factor",
+        )
+        coefficients[monomial[variable_index]] = int(coefficient)
+    return flint.fmpz_mod_poly_ctx(DEPLOYED_PRIME)(coefficients)
+
+
+def evaluate_ptw_polynomial(polynomial, p_value, t_value, polynomial_context):
+    coefficients = [
+        p_value * 0
+        for _ in range(polynomial.degrees()[3] + 1)
+    ]
+    for monomial, coefficient in polynomial.to_dict().items():
+        require(monomial[0] == 0, "unexpected trace term in determinant cache")
+        coefficients[monomial[3]] += (
+            int(coefficient)
+            * p_value**monomial[1]
+            * t_value**monomial[2]
+        )
+    return polynomial_context(coefficients)
+
+
+def evaluate_trace_polynomial(
+        polynomial, p_value, t_value, w_value, polynomial_context):
+    coefficients = [
+        p_value * 0
+        for _ in range(polynomial.degrees()[0] + 1)
+    ]
+    for monomial, coefficient in polynomial.to_dict().items():
+        coefficients[monomial[0]] += (
+            int(coefficient)
+            * p_value**monomial[1]
+            * t_value**monomial[2]
+            * w_value**monomial[3]
+        )
+    return polynomial_context(coefficients)
+
+
+def evaluate_as_p_polynomial(polynomial, t_value, polynomial_context):
+    coefficients = [
+        t_value * 0
+        for _ in range(polynomial.degrees()[1] + 1)
+    ]
+    for monomial, coefficient in polynomial.to_dict().items():
+        require(
+            monomial[0] == 0 and monomial[3] == 0,
+            "unexpected variable in endpoint projection",
+        )
+        coefficients[monomial[1]] += (
+            int(coefficient) * t_value**monomial[2]
+        )
+    return polynomial_context(coefficients)
+
+
+def finite_swap_replay(
+        compiler, residuals, conic, equations, norm_factors):
+    empty = 0
+    boundary = 0
+    rank_candidates = 0
+    survivors = []
+    for index, (factor, _) in enumerate(norm_factors):
+        modulus = univariate_modulus(factor, 2)
+        field = flint.fq_default_ctx(
+            modulus=modulus, fq_type="FQ_NMOD"
+        )
+        t_value = field.gen()
+        denominator = t_value + 5
+        if denominator == field.zero():
+            # On t=-5 the component p(t+5)+t equals -5, so it is empty.
+            boundary += 1
+            print(
+                "finite_factor=" f"{index} degree={modulus.degree()} "
+                "status=COMPONENT_DENOMINATOR_EMPTY",
+                flush=True,
+            )
+            continue
+        p_value = -t_value / denominator
+        base_forbidden = (
+            p_value * (p_value - 1)
+            * (p_value - t_value + 1) * (p_value + t_value + 1)
+            * (p_value + 2 * t_value + 4)
+            * (4 * p_value + 2 * t_value + 1)
+            * (5 * p_value + 4 * t_value + 5)
+            * (t_value**2 - 4 * p_value)
+        )
+        if base_forbidden == field.zero():
+            boundary += 1
+            print(
+                f"finite_factor={index} degree={modulus.degree()} "
+                "status=BASE_BOUNDARY",
+                flush=True,
+            )
+            continue
+        polynomial_context = flint.fq_default_poly_ctx(field)
+        common = evaluate_ptw_polynomial(
+            residuals[0], p_value, t_value, polynomial_context
+        )
+        for polynomial in (*residuals[1:], conic):
+            common = common.gcd(evaluate_ptw_polynomial(
+                polynomial, p_value, t_value, polynomial_context
+            ))
+        if common.degree() == 0:
+            empty += 1
+            status = "EMPTY"
+        else:
+            rank_candidates += 1
+            require(common.degree() == 1, "nonlinear finite w candidate")
+            w_value = -common[0] / common[1]
+            scale_denominator = (
+                p_value * w_value - 4 * p_value
+                + 2 * t_value * w_value - 2 * t_value
+                + 4 * w_value - 1
+            )
+            w_forbidden = (
+                w_value * (w_value - 1) * (w_value + 1)
+                * scale_denominator
+            )
+            if w_forbidden == field.zero():
+                boundary += 1
+                status = "W_BOUNDARY"
+            else:
+                trace_gcd = evaluate_trace_polynomial(
+                    equations[0],
+                    p_value,
+                    t_value,
+                    w_value,
+                    polynomial_context,
+                )
+                for equation in equations[1:]:
+                    trace_gcd = trace_gcd.gcd(evaluate_trace_polynomial(
+                        equation,
+                        p_value,
+                        t_value,
+                        w_value,
+                        polynomial_context,
+                    ))
+                if trace_gcd.degree() == 0:
+                    empty += 1
+                    status = "ORIGINAL_EQUATIONS_EMPTY"
+                else:
+                    trace = polynomial_context.gen()
+                    endpoint_orbit_collision = (
+                        p_value * (trace**2 - 2)
+                        + t_value * (1 + p_value) * trace
+                        + 1 + t_value**2 + p_value**2
+                    )
+                    trace_forbidden = (
+                        (trace - 2) * (trace + 2) * (2 * trace - 5)
+                        * endpoint_orbit_collision
+                    )
+                    forbidden_gcd = trace_gcd.gcd(trace_forbidden)
+                    if forbidden_gcd.degree() == trace_gcd.degree():
+                        boundary += 1
+                        status = "TRACE_BOUNDARY"
+                    else:
+                        survivors.append((
+                            index,
+                            modulus.degree(),
+                            common.degree(),
+                            trace_gcd.degree(),
+                        ))
+                        status = (
+                            "SURVIVOR_W_TRACE_DEGREES_"
+                            f"{common.degree()}_{trace_gcd.degree()}"
+                        )
+        print(
+            f"finite_factor={index} degree={modulus.degree()} status={status}",
+            flush=True,
+        )
+    require(not survivors, f"finite swap survivors: {survivors}")
+    print(
+        "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_"
+        "SWAP_FINITE_COMPONENT_REPLAY_PASS "
+        f"factors={len(norm_factors)} rank_candidates={rank_candidates} "
+        f"empty={empty} boundary={boundary}",
+        flush=True,
+    )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--allocation", choices=tuple(CONFIGS), required=True)
@@ -190,6 +383,8 @@ def main() -> None:
         "--cubic-component", action="store_true", help=argparse.SUPPRESS
     )
     parser.add_argument("--component-resultant-screen", action="store_true")
+    parser.add_argument("--finite-replay", action="store_true")
+    parser.add_argument("--off-common-screen", action="store_true")
     args = parser.parse_args()
 
     require(flint.__version__ == "0.9.0", "python-flint version")
@@ -198,6 +393,141 @@ def main() -> None:
         ("trace", "p", "t", "w"), DEPLOYED_PRIME, "lex"
     )
     residuals = load_residuals(compiler, context, args.allocation)
+    if args.off_common_screen:
+        require(args.allocation == "swap", "off-common screen is pinned to swap")
+        configured = CONFIGS[args.allocation]["off_common_digests"]
+        off_common = []
+        for right, digest in zip((1, 2, 3), configured):
+            projection = residuals[0].resultant(residuals[right], 3)
+            _, factors = projection.factor()
+            candidates = [
+                factor for factor, exponent in factors
+                if exponent == 1
+                and compiler.polynomial_digest(factor) == digest
+            ]
+            require(len(candidates) == 1, "unique off-common cofactor")
+            off_common.append(candidates[0])
+        first_norm = off_common[0].resultant(off_common[1], 1)
+        second_norm = off_common[0].resultant(off_common[2], 1)
+        require(
+            not first_norm.is_zero() and not second_norm.is_zero(),
+            "zero off-common projection resultant",
+        )
+        common_norm = first_norm.gcd(second_norm)
+        print(
+            "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_"
+            "OFF_COMMON_SCREEN_PASS allocation=swap "
+            f"terms={len(common_norm.to_dict())} "
+            f"degrees={common_norm.degrees()} "
+            f"digest={compiler.polynomial_digest(common_norm)}",
+            flush=True,
+        )
+        norm_factors = compiler.emit_factorization(
+            common_norm, "off_common_norm_gcd", context
+        )
+        if args.finite_replay:
+            p_candidates = 0
+            boundary_candidates = 0
+            unresolved_candidates = []
+            conic = load_conic(compiler, context, args.allocation)
+            _, conic_factors = conic.factor()
+            conic_residuals = [
+                factor for factor, exponent in conic_factors
+                if len(factor.to_dict()) > 100 and exponent == 1
+            ]
+            require(len(conic_residuals) == 1, "unique kernel-conic residual")
+            conic_residual = conic_residuals[0]
+            for index, (factor, _) in enumerate(norm_factors):
+                modulus = univariate_modulus(factor, 2)
+                field = flint.fq_default_ctx(
+                    modulus=modulus, fq_type="FQ_NMOD"
+                )
+                t_value = field.gen()
+                polynomial_context = flint.fq_default_poly_ctx(field)
+                p_gcd = evaluate_as_p_polynomial(
+                    off_common[0], t_value, polynomial_context
+                )
+                for polynomial in off_common[1:]:
+                    p_gcd = p_gcd.gcd(evaluate_as_p_polynomial(
+                        polynomial, t_value, polynomial_context
+                    ))
+                _, p_factors = p_gcd.factor()
+                print(
+                    f"off_common_factor={index} t_degree={modulus.degree()} "
+                    f"p_gcd_degree={p_gcd.degree()} "
+                    f"p_factor_degrees="
+                    f"{','.join(str(item.degree()) for item, _ in p_factors) or '-'}",
+                    flush=True,
+                )
+                for p_index, (p_factor, _) in enumerate(p_factors):
+                    p_candidates += 1
+                    if p_factor.degree() != 1:
+                        unresolved_candidates.append((
+                            index, p_index, p_factor.degree(), "p"
+                        ))
+                        print(
+                            f"off_common_factor={index} p_factor={p_index} "
+                            f"status=UNROUTED_P_DEGREE_{p_factor.degree()}",
+                            flush=True,
+                        )
+                        continue
+                    p_value = -p_factor[0] / p_factor[1]
+                    base_forbidden = (
+                        p_value * (p_value - 1)
+                        * (p_value - t_value + 1)
+                        * (p_value + t_value + 1)
+                        * (p_value + 2 * t_value + 4)
+                        * (4 * p_value + 2 * t_value + 1)
+                        * (5 * p_value + 4 * t_value + 5)
+                        * (t_value**2 - 4 * p_value)
+                    )
+                    if base_forbidden == field.zero():
+                        boundary_candidates += 1
+                        status = "BASE_BOUNDARY"
+                    else:
+                        w_gcd = evaluate_ptw_polynomial(
+                            residuals[0],
+                            p_value,
+                            t_value,
+                            polynomial_context,
+                        )
+                        for polynomial in (*residuals[1:], conic_residual):
+                            w_gcd = w_gcd.gcd(evaluate_ptw_polynomial(
+                                polynomial,
+                                p_value,
+                                t_value,
+                                polynomial_context,
+                            ))
+                        _, w_factors = w_gcd.factor()
+                        status = (
+                            f"W_GCD_{w_gcd.degree()}_FACTOR_DEGREES_"
+                            f"{','.join(str(item.degree()) for item, _ in w_factors) or '-'}"
+                        )
+                        if w_gcd.degree() > 0:
+                            unresolved_candidates.append((
+                                index, p_index, w_gcd.degree(), "w"
+                            ))
+                    print(
+                        f"off_common_factor={index} p_factor={p_index} "
+                        f"status={status}",
+                        flush=True,
+                    )
+            require(
+                not unresolved_candidates,
+                f"off-common survivors: {unresolved_candidates}",
+            )
+            require(
+                p_candidates == boundary_candidates,
+                "off-common candidate accounting",
+            )
+            print(
+                "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_"
+                "SWAP_OFF_COMMON_FINITE_REPLAY_PASS "
+                f"t_factors={len(norm_factors)} "
+                f"p_candidates={p_candidates} boundary={boundary_candidates}",
+                flush=True,
+            )
+        return
     if args.linear_component:
         trace, _, t, w = context.gens()
         inverse_four = pow(4, -1, DEPLOYED_PRIME)
@@ -426,7 +756,9 @@ def main() -> None:
             f"digest={compiler.polynomial_digest(norm)}",
             flush=True,
         )
-        compiler.emit_factorization(norm, "component_conic_norm", context)
+        norm_factors = compiler.emit_factorization(
+            norm, "component_conic_norm", context
+        )
         denominator_flint = compiler.sympy_to_flint(
             sp.Poly(
                 denominator,
@@ -440,6 +772,25 @@ def main() -> None:
         compiler.emit_factorization(
             denominator_flint, "component_conic_denominator", context
         )
+        if args.finite_replay:
+            require(args.allocation == "swap", "finite replay is pinned to swap")
+            _, exact_equations = compiler.build_cell(
+                "moving-moving", args.allocation
+            )
+            exact_context = flint.nmod_mpoly_ctx.get(
+                ("trace", "p", "t", "w"), DEPLOYED_PRIME, "lex"
+            )
+            flint_equations = [
+                compiler.sympy_to_flint(equation, exact_context)
+                for equation in exact_equations
+            ]
+            finite_swap_replay(
+                compiler,
+                residuals,
+                conic_residual,
+                flint_equations,
+                norm_factors,
+            )
         return
     pairs = ("01", "02", "03") if args.pair == "all" else (args.pair,)
     projections = []

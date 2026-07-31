@@ -11826,13 +11826,14 @@ next route-deciding step: either build a bounded modular-interpolation or
 
 ```text
 starting local pin:       0e24d318 (saturated 112 export record)
-ending local theorem pin: unchanged; experimental router only
+ending local theorem pin: current moving-swap PROVED packet
 canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
 node/workboard attacked:  K3 / aligned positive unramified c2(1,1,2)
 cells attacked:           all 6 fixed-moving and moving-moving allocations
-result:                   NARROWED; no deletion and no survivor
-DAG delta:                none
+result:                   moving-moving swap PROVED; five cells narrowed
+DAG delta:                +1 PROVED background evidence node, +3 edges
 critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; the new edge is evidence, not req)
 new assumptions:          none
 exact movement:           quadratic-in-b compiler now completes; same/swap
                           linear component excluded; reciprocal quartic,
@@ -11843,7 +11844,7 @@ exact movement:           quadratic-in-b compiler now completes; same/swap
                           degrees 160/26/1224
 unresolved fixed cells:   finite norm/denominator support and off-common
                           intersections, followed by original-equation replay
-unresolved sibling cells: none at the generic-component stage
-next route-deciding step: build one finite-specialization and off-common-
-                          intersection router shared by all six cells
+unresolved sibling cells: fixed same/swap/mixed; moving same/mixed
+next route-deciding step: transfer the successful finite-extension and
+                          off-common router to the remaining five cells
 ```

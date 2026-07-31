@@ -121,6 +121,11 @@ finite intersection is bounded by a degree-`1224` norm in `t`, factored into
 38 printed factors.
 
 Thus all six aligned-positive unramified cells have exact finite frontiers.
-No cell is yet deleted.
+The moving-moving `swap` component and off-common ledgers have since been
+fully replayed: four of six component norm factors are boundary-supported,
+the other two fail the original equations, and all eight off-common endpoint
+candidates are boundary-supported. The corresponding PROVED node deletes
+that cell. The other five cells remain narrowed but open.
 
-No DAG node or status changes on this evidence.
+The generic evidence in this note alone changes no status; the separate
+moving-swap node carries the complete deletion contract.
