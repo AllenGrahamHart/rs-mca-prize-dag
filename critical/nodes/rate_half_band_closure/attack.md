@@ -2532,3 +2532,19 @@ For each `S0,S1,S2`, choose which outside value is `m` and partition the
 other six into three `Phi=0` pairs.  This is only `7*15=105` matching
 templates per skeleton before symmetry and quotient reduction; use this
 finite list rather than arbitrary source placements.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier`
+sharpens the common quotient before that enumeration.  Both cubic factors
+of the degree-12 `b` gate force `t=+/-ir`, hence the forbidden label equality
+`t^2=-r^2`, in every sign row.  Only
+
+```text
+S(b)=b^6-2b^5+7b^4-8b^3+7b^2-2b+1
+```
+
+remains.  Each sign row has rank-six standard basis
+`{1,b,b^2,r,br,t}`.  The `c`-denominator multiplication determinant is
+`2^19`, so reconstruct `c` inside this quotient without a saturation case.
+Reduce the 105 outside templates as multiplication/rank calculations in
+these rank-six algebras.
