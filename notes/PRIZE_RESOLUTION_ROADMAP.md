@@ -11545,18 +11545,18 @@ The only nonstandard line-degeneration factor also forces `b=1/2`.
 Direct/resultant and independent fraction-free/subresultant paths reproduce
 the supports and saturated candidate bases modulo `p=2130706433`.
 
-This closes exactly 8 of the 18 affine positive charts. The mixed allocation
-in the other reciprocal-pair orbit, the moving-moving template, both
-negative factor loci, and the projective `w=0` boundary remain open; do not
-infer a near-aligned deletion from these eight charts.
-
-The mixed allocation in this last fixed-moving relative orbit has advanced
-to a complete primary candidate classification; see
-`critical/nodes/rate_half_band_closure/notes/kb_c2_112_near_moving_xi_mixed_frontier_20260730.md`.
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion`
+also closes the mixed allocation in this last fixed-moving relative orbit.
 Its low/low, low/high, high/low, and high/high component pairs have only
-forbidden `F_(p^6)` points after exact residue-degree filtering and quotient
-reconstruction. It is not yet chart 9: the exploratory paths must become
-fail-closed assertion shards and receive an independent fraction-free audit.
+forbidden `F_(p^6)` points after complete residue-degree filtering. A
+direct/resultant primary and no-import fraction-free/subresultant audit use
+independent field reconstruction engines.
+
+This closes exactly 9 of the 18 affine positive charts. The moving-moving
+template, other affine allocations, both negative factor loci, and the
+projective `w=0` boundary remain open; do not infer a broader near-aligned
+deletion from these nine charts.
 
 There is a cheaper common gate before those allocation splits. Write
 

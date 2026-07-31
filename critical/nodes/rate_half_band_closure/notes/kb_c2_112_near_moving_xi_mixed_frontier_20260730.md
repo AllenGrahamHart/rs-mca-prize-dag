@@ -1,6 +1,7 @@
 # Moving-xi mixed chart: exact deployed-field frontier
 
-**Status:** exact primary narrowing evidence; not yet a PROVED node.
+**Status:** superseded by the PROVED scoped exclusion
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion`.
 
 Normalize `a=2`, `xi=b`, `(eta,ell)=(c,d)`, and `w=1/c`. Assign the two
 distinct residual roots `1/b,1/d` at both q-roots. The four primitive
@@ -50,7 +51,9 @@ checks, not required by the cross-product coverage above.
 ## Artifact
 
 `kb_c2_112_near_moving_xi_mixed.py`, SHA-256
-`d56f6c5878572bb11d9c50a9cc119767545e15d25bad9b68afcd5d8e155c7701`.
+`f31d379b481be10be48683994764a9635baac341f375f5c0a8d67dfa1ea9483d`;
+independent audit `kb_c2_112_near_moving_xi_mixed_audit.py`, SHA-256
+`37c91621450aaf70f7cf98ee37a943a694a904139d9c5cc7e49fbb037778e9fe`.
 Every completed mode ran serially under `ramguard tiny` and a 60-second wall
 limit. The direct high/high resultants were deliberately abandoned after
 both characteristic-zero and modular attempts reached that limit; the
@@ -58,12 +61,9 @@ cross-product route makes them unnecessary.
 
 ## Promotion gate
 
-Do not count this as chart 9 yet. Promotion requires:
-
-1. replace exploratory output with pinned, fail-closed assertions for every
-   component digest, modular factor census, field gcd, and forbidden point;
-2. shard the assertions so every verifier remains below 60 seconds;
-3. add a no-import fraction-free source reconstruction and an independent
-   component/factor audit;
-4. replay both paths modulo `p`, pin hashes, and only then mint the scoped
-   PROVED mixed-chart node.
+Fulfilled on 2026-07-30. The primary has pinned fail-closed component,
+factor, Frobenius-gcd, and forbidden-point assertions. The no-import audit
+uses fraction-free source reconstruction, terminal subresultants, modular
+subresultants, and an independently written residue-field specialization of
+all four core equations. Both paths are sharded below 60 seconds and replay
+modulo `p`.

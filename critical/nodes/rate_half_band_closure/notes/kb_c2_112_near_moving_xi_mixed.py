@@ -251,36 +251,7 @@ def fp2_frobenius_six_gcd(
     ]
     d_root = (0, 1)
     half = (pow(2, -1, modulus), 0)
-    field_points = []
-    for c_root in c_roots:
-        lead_value = evaluate(relation_lead, c_root, d_root)
-        constant_value = evaluate(relation_constant, c_root, d_root)
-        if lead_value == zero:
-            quadratic_values = [
-                evaluate(value, c_root, d_root)
-                for value in quadratic_coefficients
-            ]
-            quadratic_polynomial = pmonic(quadratic_values)
-            b_fixed = psub(
-                ppowmod(x_polynomial, modulus**2, quadratic_polynomial),
-                x_polynomial,
-            )
-            b_common = pgcd(quadratic_polynomial, b_fixed)
-            b_factors = []
-            if len(b_common) > 1:
-                split_linear(b_common, b_factors)
-            field_points.append({
-                "c": c_root,
-                "linear_b_lead_zero": True,
-                "linear_b_constant_zero": constant_value == zero,
-                "quadratic_b_degree": len(quadratic_polynomial) - 1,
-                "quadratic_b_fp2_degree": len(b_common) - 1,
-                "quadratic_b_roots": [
-                    fsub(zero, factor[0]) for factor in b_factors
-                ],
-            })
-            continue
-        b_root = fmul(fsub(zero, constant_value), finv(lead_value))
+    def forbidden_flags(b_root, c_root, d_root):
         reconstruction = fadd(
             fsub(
                 fsub(fmul((5, 0), fmul(c_root, d_root)),
@@ -302,26 +273,68 @@ def fp2_frobenius_six_gcd(
             ),
             fsub(fmul((2, 0), d_root), (4, 0)),
         )
+        return {
+            "b=0": b_root == zero,
+            "b=2": b_root == (2, 0),
+            "b=1/2": b_root == half,
+            "b=+/-1": b_root in ((1, 0), (modulus - 1, 0)),
+            "c=+/-1": c_root in ((1, 0), (modulus - 1, 0)),
+            "d=+/-1": d_root in ((1, 0), (modulus - 1, 0)),
+            "b=c": b_root == c_root,
+            "b=d": b_root == d_root,
+            "c=d": c_root == d_root,
+            "bc=1": fmul(b_root, c_root) == one,
+            "bd=1": fmul(b_root, d_root) == one,
+            "cd=1": fmul(c_root, d_root) == one,
+            "z=1": reconstruction == zero,
+            "finite-incidence": incidence == zero,
+        }
+
+    field_points = []
+    for c_root in c_roots:
+        lead_value = evaluate(relation_lead, c_root, d_root)
+        constant_value = evaluate(relation_constant, c_root, d_root)
+        if lead_value == zero:
+            quadratic_values = [
+                evaluate(value, c_root, d_root)
+                for value in quadratic_coefficients
+            ]
+            quadratic_polynomial = pmonic(quadratic_values)
+            b_fixed = psub(
+                ppowmod(x_polynomial, modulus**2, quadratic_polynomial),
+                x_polynomial,
+            )
+            b_common = pgcd(quadratic_polynomial, b_fixed)
+            b_factors = []
+            if len(b_common) > 1:
+                split_linear(b_common, b_factors)
+            b_roots = [fsub(zero, factor[0]) for factor in b_factors]
+            field_points.append({
+                "c": c_root,
+                "linear_b_lead_zero": True,
+                "linear_b_constant_zero": constant_value == zero,
+                "quadratic_b_degree": len(quadratic_polynomial) - 1,
+                "quadratic_b_fp2_degree": len(b_common) - 1,
+                "quadratic_b_roots": b_roots,
+                "quadratic_b_points": [
+                    {
+                        "b": b_root,
+                        "c": c_root,
+                        "d": d_root,
+                        "forbidden": forbidden_flags(
+                            b_root, c_root, d_root
+                        ),
+                    }
+                    for b_root in b_roots
+                ],
+            })
+            continue
+        b_root = fmul(fsub(zero, constant_value), finv(lead_value))
         field_points.append({
             "b": b_root,
             "c": c_root,
             "d": d_root,
-            "forbidden": {
-                "b=0": b_root == zero,
-                "b=2": b_root == (2, 0),
-                "b=1/2": b_root == half,
-                "b=+/-1": b_root in ((1, 0), (modulus - 1, 0)),
-                "c=+/-1": c_root in ((1, 0), (modulus - 1, 0)),
-                "d=+/-1": d_root in ((1, 0), (modulus - 1, 0)),
-                "b=c": b_root == c_root,
-                "b=d": b_root == d_root,
-                "c=d": c_root == d_root,
-                "bc=1": fmul(b_root, c_root) == one,
-                "bd=1": fmul(b_root, d_root) == one,
-                "cd=1": fmul(c_root, d_root) == one,
-                "z=1": reconstruction == zero,
-                "finite-incidence": incidence == zero,
-            },
+            "forbidden": forbidden_flags(b_root, c_root, d_root),
         })
     payload = repr(common).encode("ascii")
     return {
@@ -587,6 +600,29 @@ def fpn_field_fiber(
                 ),
                 (5,) + zero[1:],
             )
+            incidence = fadd(
+                fsub(
+                    fadd(
+                        fsub(
+                            fmul(
+                                (4,) + zero[1:],
+                                fmul(fmul(c_root, c_root), d_root),
+                            ),
+                            fmul(
+                                (2,) + zero[1:], fmul(c_root, c_root)
+                            ),
+                        ),
+                        fmul((3,) + zero[1:], c_root),
+                    ),
+                    fmul(
+                        (3,) + zero[1:], fmul(c_root, d_root)
+                    ),
+                ),
+                fsub(
+                    fmul((2,) + zero[1:], d_root),
+                    (4,) + zero[1:],
+                ),
+            )
             half = (pow(2, -1, modulus),) + zero[1:]
             points.append({
                 "b": b_root,
@@ -609,6 +645,7 @@ def fpn_field_fiber(
                     "bd=1": fmul(b_root, d_root) == one,
                     "cd=1": fmul(c_root, d_root) == one,
                     "z=1": reconstruction == zero,
+                    "finite-incidence": incidence == zero,
                 },
             })
     return {
@@ -628,7 +665,7 @@ def main() -> None:
     parser.add_argument(
         "resultant",
         choices=(
-            "c", "d", "product", "sum",
+            "c", "d", "product", "sum", "low00",
             "within00", "within01", "within10", "within11",
             "within11mod",
             "fiber-d17", "fiber-q3",
@@ -643,6 +680,7 @@ def main() -> None:
             "field-hp1-r0", "field-hp1-r1", "field-hp1-s6",
         ),
     )
+    parser.add_argument("--prove", action="store_true")
     args = parser.parse_args()
 
     direct = load_direct()
@@ -728,6 +766,28 @@ def main() -> None:
                 flush=True,
             )
 
+    expected_cores = {
+        ("c", "product"): ((3, 6, 5), 154, "5117a5676cc0bdb9"),
+        ("c", "sum"): ((3, 10, 7), 341, "b052e13bbf0f28fe"),
+        ("d", "product"): ((3, 6, 5), 150, "70cb7c16ac2f1e3e"),
+        ("d", "sum"): ((3, 10, 7), 341, "0ed07280609cd604"),
+    }
+    if args.prove:
+        for key, (degrees, terms, wanted_digest) in expected_cores.items():
+            polynomial = cores[key]
+            direct.require(
+                tuple(polynomial.degree(x) for x in (b, c, d)) == degrees,
+                f"mixed core degrees {key}",
+            )
+            direct.require(
+                len(polynomial.terms()) == terms,
+                f"mixed core term count {key}",
+            )
+            direct.require(
+                digest(polynomial) == wanted_digest,
+                f"mixed core digest {key}",
+            )
+
     field_candidates = {
         "field-w01-l": d - 616787200,
         "field-w01-q0": d**2 - 746249270 * d - 422041203,
@@ -800,6 +860,18 @@ def main() -> None:
         d_candidate = sp.Poly(
             field_candidates[args.resultant], d, modulus=characteristic
         )
+        if args.prove:
+            candidate_factors = sp.factor_list(
+                d_candidate.monic().as_expr(), modulus=characteristic
+            )[1]
+            direct.require(
+                len(candidate_factors) == 1
+                and candidate_factors[0][1] == 1
+                and sp.Poly(
+                    candidate_factors[0][0], d, modulus=characteristic
+                ).monic() == d_candidate.monic(),
+                "field candidate is not pinned irreducible support",
+            )
         basis_is_unit = (
             len(basis.polys) == 1 and basis.polys[0].as_expr() == 1
         )
@@ -947,13 +1019,106 @@ def main() -> None:
                             "finite-incidence": incidence == 0,
                         },
                     })
+        if args.prove:
+            for point in field_points:
+                if "c_factor_degree" in point:
+                    direct.require(
+                        6 % point["c_factor_degree"] != 0,
+                        "unclassified c factor can enter F_(p^6)",
+                    )
+                elif "b_factor_degree" in point:
+                    direct.require(
+                        6 % point["b_factor_degree"] != 0,
+                        "unclassified b factor can enter F_(p^6)",
+                    )
+                else:
+                    direct.require(
+                        any(point["forbidden"].values()),
+                        "admissible prime-field mixed point",
+                    )
+            if extension_points is not None:
+                if "relative_degree_three_part" in extension_points:
+                    direct.require(
+                        extension_points["relative_degree_three_part"] == 0,
+                        "unclassified relative-degree-three c support",
+                    )
+                    direct.require(
+                        extension_points["gcd_degree"]
+                        == extension_points["fp2_degree"],
+                        "F_(p^6) c support exceeds F_(p^2) support",
+                    )
+                    direct.require(
+                        extension_points["fp2_degree"]
+                        == len(extension_points["fp2_linear_factors"]),
+                        "incomplete F_(p^2) c splitting",
+                    )
+                    for point in extension_points["fp2_points"]:
+                        if point.get("linear_b_lead_zero"):
+                            direct.require(
+                                point["linear_b_constant_zero"],
+                                "degenerate b relation has nonzero constant",
+                            )
+                            direct.require(
+                                point["quadratic_b_fp2_degree"]
+                                == len(point["quadratic_b_roots"]),
+                                "incomplete F_(p^2) b splitting",
+                            )
+                            direct.require(
+                                all(
+                                    any(entry["forbidden"].values())
+                                    for entry in point["quadratic_b_points"]
+                                ),
+                                "admissible F_(p^2) mixed point",
+                            )
+                        else:
+                            direct.require(
+                                any(point["forbidden"].values()),
+                                "admissible F_(p^2) mixed point",
+                            )
+                else:
+                    direct.require(
+                        extension_points["c_relative_extension_degree"] == 0,
+                        "unclassified relative c support",
+                    )
+                    direct.require(
+                        extension_points["c_field_gcd_degree"]
+                        == extension_points["c_base_field_degree"],
+                        "target-field c support exceeds base-field support",
+                    )
+                    direct.require(
+                        extension_points["c_base_field_degree"]
+                        == extension_points["c_linear_factors"],
+                        "incomplete base-field c splitting",
+                    )
+                    direct.require(
+                        all(
+                            entry["target_degree"] == entry["base_degree"]
+                            and entry["relative_degree"] == 0
+                            for entry in extension_points["relative_b_degrees"]
+                        ),
+                        "unclassified relative b support",
+                    )
+                    direct.require(
+                        all(
+                            any(point["forbidden"].values())
+                            for point in extension_points["points"]
+                        ),
+                        "admissible extension-field mixed point",
+                    )
         print(
             f"stage=mixed_field_fiber fiber={args.resultant} "
             f"basis={records} points={field_points} "
             f"extension={extension_points}",
             flush=True,
         )
-        print("INCOMPLETE moving-xi mixed field fiber classified")
+        if args.prove:
+            print(
+                "KB_C2_112_NEAR_MOVING_XI_MIXED_FIELD_PRIMARY_PASS "
+                f"fiber={args.resultant} characteristic={characteristic}",
+                flush=True,
+            )
+        else:
+            print("INCOMPLETE moving-xi mixed field fiber classified")
         return
 
     high_cross = {
@@ -1052,7 +1217,81 @@ def main() -> None:
             f"factors={[(sp.Poly(value, d, modulus=characteristic).degree(), exponent, str(sp.Poly(value, d, modulus=characteristic).as_expr()) if sp.Poly(value, d, modulus=characteristic).degree() <= 6 else None) for value, exponent in factors]}",
             flush=True,
         )
-        print("INCOMPLETE moving-xi mixed high-cross support")
+        if args.prove:
+            expected_projection = {
+                "high-p0": (44, "6970b9ab5bbc89f6"),
+                "high-p1": (282, "883a93b7debea09a"),
+            }[args.resultant]
+            direct.require(
+                (projection.degree(), digest(projection))
+                == expected_projection,
+                "high-cross projection pin",
+            )
+            expected_factor_census = {
+                "high-p0": [
+                    (1, 1), (1, 2), (1, 10),
+                    (2, 1), (2, 1), (2, 2),
+                    (4, 1), (5, 1), (7, 1), (7, 1),
+                ],
+                "high-p1": [
+                    (1, 1), (1, 14), (1, 26), (1, 40), (1, 42),
+                    (2, 1), (2, 1), (3, 1), (3, 1), (4, 1),
+                    (6, 1), (7, 1), (7, 1), (8, 1), (11, 1),
+                    (12, 1), (17, 1), (25, 1), (52, 1),
+                ],
+            }[args.resultant]
+            direct.require(
+                sorted(
+                    (sp.Poly(value, d, modulus=characteristic).degree(), exponent)
+                    for value, exponent in factors
+                ) == expected_factor_census,
+                "high-cross modular factor census",
+            )
+            candidate_names = {
+                "high-p0": (
+                    "field-hp0-l0", "field-hp0-l1",
+                    "field-hp0-q0", "field-hp0-q1", "field-hp0-q2",
+                ),
+                "high-p1": (
+                    "field-hp1-l0", "field-hp1-q0", "field-hp1-q1",
+                    "field-hp1-r0", "field-hp1-r1", "field-hp1-s6",
+                ),
+            }[args.resultant]
+            standard = {
+                "high-p0": (2*d - 1,),
+                "high-p1": (d + 1, d - 2, d - 1, 2*d - 1),
+            }[args.resultant]
+            actual_relevant = {
+                str(sp.Poly(
+                    value, d, modulus=characteristic
+                ).monic().as_expr())
+                for value, _ in factors
+                if 6 % sp.Poly(
+                    value, d, modulus=characteristic
+                ).degree() == 0
+            }
+            expected_relevant = {
+                str(sp.Poly(
+                    field_candidates[name], d, modulus=characteristic
+                ).monic().as_expr())
+                for name in candidate_names
+            } | {
+                str(sp.Poly(
+                    value, d, modulus=characteristic
+                ).monic().as_expr())
+                for value in standard
+            }
+            direct.require(
+                actual_relevant == expected_relevant,
+                "high-cross relevant-field coverage",
+            )
+            print(
+                "KB_C2_112_NEAR_MOVING_XI_MIXED_HIGH_ROUTER_PRIMARY_PASS "
+                f"factor={args.resultant} characteristic={characteristic}",
+                flush=True,
+            )
+        else:
+            print("INCOMPLETE moving-xi mixed high-cross support")
         return
 
     if args.resultant in ("high-g00", "high-g01", "high-g10", "high-g11"):
@@ -1259,6 +1498,7 @@ def main() -> None:
                         "d": d_value,
                         "multiplicities": (b_exponent, c_exponent),
                         "forbidden": {
+                            "b=0": b_value == 0,
                             "b=2": b_value == 2,
                             "b=1/2": b_value == half,
                             "b=+/-1": b_value in (1, characteristic - 1),
@@ -1336,28 +1576,253 @@ def main() -> None:
                     modulus=characteristic,
                 )
                 c_factors = sp.factor_list(specialized.as_expr())[1]
-                deployed_points.append({
-                    "d": d_value,
-                    "d_multiplicity": d_exponent,
-                    "c_factors": [
-                        {
-                            "degree": sp.Poly(
-                                factor, c, modulus=characteristic
-                            ).degree(),
-                            "multiplicity": exponent,
-                            "expression": str(sp.Poly(
-                                factor, c, modulus=characteristic
-                            ).as_expr()),
-                        }
-                        for factor, exponent in c_factors
-                    ],
-                })
+                for c_factor, c_exponent in c_factors:
+                    c_polynomial = sp.Poly(
+                        c_factor, c, modulus=characteristic
+                    )
+                    if c_polynomial.degree() != 1:
+                        deployed_points.append({
+                            "d": d_value,
+                            "d_multiplicity": d_exponent,
+                            "c_factor_degree": c_polynomial.degree(),
+                            "c_multiplicity": c_exponent,
+                        })
+                        continue
+                    c_coefficients = [
+                        int(value) % characteristic
+                        for value in c_polynomial.all_coeffs()
+                    ]
+                    c_value = (
+                        -c_coefficients[1]
+                        * pow(c_coefficients[0], -1, characteristic)
+                    ) % characteristic
+                    b_polynomials = [
+                        sp.Poly(
+                            polynomial.as_expr().subs(
+                                {c: c_value, d: d_value}
+                            ),
+                            b,
+                            modulus=characteristic,
+                        )
+                        for polynomial in cores.values()
+                    ]
+                    b_common = b_polynomials[0]
+                    for polynomial in b_polynomials[1:]:
+                        b_common = sp.gcd(b_common, polynomial)
+                    for b_factor, b_exponent in sp.factor_list(
+                        b_common.monic().as_expr(), modulus=characteristic
+                    )[1]:
+                        b_polynomial = sp.Poly(
+                            b_factor, b, modulus=characteristic
+                        )
+                        if b_polynomial.degree() != 1:
+                            deployed_points.append({
+                                "d": d_value,
+                                "c": c_value,
+                                "b_factor_degree": b_polynomial.degree(),
+                            })
+                            continue
+                        b_coefficients = [
+                            int(value) % characteristic
+                            for value in b_polynomial.all_coeffs()
+                        ]
+                        b_value = (
+                            -b_coefficients[1]
+                            * pow(b_coefficients[0], -1, characteristic)
+                        ) % characteristic
+                        reconstruction = (
+                            5 * c_value * d_value - 4 * c_value
+                            - 4 * d_value + 5
+                        ) % characteristic
+                        incidence = (
+                            4 * c_value**2 * d_value - 2 * c_value**2
+                            - 3 * c_value * d_value + 3 * c_value
+                            + 2 * d_value - 4
+                        ) % characteristic
+                        deployed_points.append({
+                            "b": b_value,
+                            "c": c_value,
+                            "d": d_value,
+                            "forbidden": {
+                                "b=0": b_value == 0,
+                                "b=2": b_value == 2,
+                                "b=1/2": b_value
+                                == pow(2, -1, characteristic),
+                                "b=+/-1": b_value
+                                in (1, characteristic - 1),
+                                "c=+/-1": c_value
+                                in (1, characteristic - 1),
+                                "d=+/-1": d_value
+                                in (1, characteristic - 1),
+                                "b=c": b_value == c_value,
+                                "b=d": b_value == d_value,
+                                "c=d": c_value == d_value,
+                                "bc=1": b_value * c_value
+                                % characteristic == 1,
+                                "bd=1": b_value * d_value
+                                % characteristic == 1,
+                                "cd=1": c_value * d_value
+                                % characteristic == 1,
+                                "z=1": reconstruction == 0,
+                                "finite-incidence": incidence == 0,
+                            },
+                        })
+        if args.prove:
+            expected_basis_digests = {
+                "fiber-d17": (
+                    "4d9d2a110916bbbc", "f4176ec64ec70eeb",
+                    "1112bf25a4d60f8d", "e0b60c673d1afd30",
+                    "00b3344163d157e9",
+                ),
+                "fiber-q3": (
+                    "66acb4174d2b1613", "ac5e5114e88baaf4",
+                    "10366ba4b178c83e", "1e1ab07e0aff920d",
+                ),
+            }[args.resultant]
+            direct.require(
+                tuple(record["digest"] for record in records)
+                == expected_basis_digests,
+                "low/low candidate basis digest census",
+            )
+            for point in deployed_points:
+                if "c_factor_degree" in point:
+                    direct.require(
+                        6 % point["c_factor_degree"] != 0,
+                        "unclassified low/low c factor enters F_(p^6)",
+                    )
+                elif "b_factor_degree" in point:
+                    direct.require(
+                        6 % point["b_factor_degree"] != 0,
+                        "unclassified low/low b factor enters F_(p^6)",
+                    )
+                elif "fp2_frobenius_six" in point:
+                    extension = point["fp2_frobenius_six"]
+                    direct.require(
+                        extension["relative_degree_three_part"] == 0
+                        and extension["gcd_degree"] == extension["fp2_degree"]
+                        and extension["fp2_degree"]
+                        == len(extension["fp2_linear_factors"]),
+                        "incomplete low/low F_(p^2) c classification",
+                    )
+                    for entry in extension["fp2_points"]:
+                        if entry.get("linear_b_lead_zero"):
+                            direct.require(
+                                entry["linear_b_constant_zero"]
+                                and entry["quadratic_b_fp2_degree"]
+                                == len(entry["quadratic_b_roots"])
+                                and all(
+                                    any(item["forbidden"].values())
+                                    for item in entry["quadratic_b_points"]
+                                ),
+                                "incomplete low/low F_(p^2) b classification",
+                            )
+                        else:
+                            direct.require(
+                                any(entry["forbidden"].values()),
+                                "admissible low/low F_(p^2) point",
+                            )
+                else:
+                    direct.require(
+                        any(point["forbidden"].values()),
+                        "admissible low/low prime-field point",
+                    )
         print(
             f"stage=mixed_fiber fiber={args.resultant[6:]} "
             f"basis={records} deployed_points={deployed_points}",
             flush=True,
         )
-        print("INCOMPLETE moving-xi mixed fiber classified")
+        if args.prove:
+            print(
+                "KB_C2_112_NEAR_MOVING_XI_MIXED_LOW_FIELD_PRIMARY_PASS "
+                f"fiber={args.resultant} characteristic=2130706433",
+                flush=True,
+            )
+        else:
+            print("INCOMPLETE moving-xi mixed fiber classified")
+        return
+
+    if args.resultant == "low00":
+        low_c = sp.Poly(
+            2*c**3*d**2 - 5*c**3*d + 2*c**3
+            - 14*c**2*d**2 + 11*c**2*d - 2*c**2
+            + 4*c*d**2 + 5*c*d - 8*c + 2*d**2 - 11*d + 14,
+            c,
+            d,
+            domain=sp.QQ,
+        )
+        low_d = sp.Poly(
+            2*c**3*d**2 - 2*c**3 - 19*c**2*d**2
+            + 6*c**2*d + 7*c**2 + 13*c*d**2 - 13*c
+            - 2*d**2 - 6*d + 14,
+            c,
+            d,
+            domain=sp.QQ,
+        )
+        projection = sp.Poly(
+            sp.resultant(low_c.as_expr(), low_d.as_expr(), c),
+            d,
+            domain=sp.QQ,
+        ).primitive()[1]
+        factors = [
+            (sp.Poly(value, d, domain=sp.QQ).primitive()[1], exponent)
+            for value, exponent in sp.factor_list(projection.as_expr())[1]
+        ]
+        print(
+            "stage=low_low_projection "
+            f"degree={projection.degree()} digest={digest(projection)} "
+            f"factors={[(str(value.as_expr()), exponent) for value, exponent in factors]}",
+            flush=True,
+        )
+        if args.prove:
+            direct.require(
+                digest(low_c) == "bed4496a0af11b8c"
+                and digest(low_d) == "8d63799ea7b1c3fc",
+                "low/low component digests",
+            )
+            direct.require(
+                projection.degree() == 12
+                and digest(projection) == "0a919d544c404dbc",
+                "low/low projection digest",
+            )
+            expected = {
+                digest(sp.Poly(d - 2, d, domain=sp.QQ)): 1,
+                digest(sp.Poly(2*d - 1, d, domain=sp.QQ)): 1,
+                digest(sp.Poly(19*d - 17, d, domain=sp.QQ)): 1,
+                digest(sp.Poly(d - 1, d, domain=sp.QQ)): 3,
+                digest(sp.Poly(d + 1, d, domain=sp.QQ)): 3,
+                digest(sp.Poly(
+                    2*d**3 - 19*d**2 + 19*d - 14,
+                    d,
+                    domain=sp.QQ,
+                )): 1,
+            }
+            direct.require(
+                {digest(value): exponent for value, exponent in factors}
+                == expected,
+                "low/low characteristic-zero factor census",
+            )
+            characteristic = 2130706433
+            modular = sp.Poly(
+                projection.as_expr(), d, modulus=characteristic
+            ).monic()
+            modular_factors = sp.factor_list(
+                modular.as_expr(), modulus=characteristic
+            )[1]
+            direct.require(
+                sorted(
+                    (sp.Poly(value, d, modulus=characteristic).degree(), exponent)
+                    for value, exponent in modular_factors
+                ) == [(1, 1), (1, 1), (1, 1), (1, 1),
+                      (1, 3), (1, 3), (2, 1)],
+                "low/low deployed modular factor census",
+            )
+            print(
+                "KB_C2_112_NEAR_MOVING_XI_MIXED_LOW_ROUTER_PRIMARY_PASS "
+                f"characteristic={characteristic}",
+                flush=True,
+            )
+        else:
+            print("INCOMPLETE moving-xi mixed low/low support")
         return
 
     pairs = {
@@ -1398,6 +1863,17 @@ def main() -> None:
             right_index = int(args.resultant[-1])
         left = components["c"][left_index]
         right = components["d"][right_index]
+        if args.prove:
+            expected_component_digests = {
+                (0, 0): ("bed4496a0af11b8c", "8d63799ea7b1c3fc"),
+                (0, 1): ("bed4496a0af11b8c", "39ad8e659560b1b1"),
+                (1, 0): ("842d5d9a084f107e", "8d63799ea7b1c3fc"),
+                (1, 1): ("842d5d9a084f107e", "39ad8e659560b1b1"),
+            }[(left_index, right_index)]
+            direct.require(
+                (digest(left), digest(right)) == expected_component_digests,
+                "within-component digest pair",
+            )
         print(
             "stage=within_components "
             f"pair={left_index},{right_index} "
@@ -1480,7 +1956,75 @@ def main() -> None:
                 f"factors={[(sp.Poly(value, d, modulus=2130706433).degree(), exponent, str(sp.Poly(value, d, modulus=2130706433).as_expr()) if sp.Poly(value, d, modulus=2130706433).degree() <= 6 else None) for value, exponent in modular_factors]}",
                 flush=True,
             )
-            print("INCOMPLETE moving-xi mixed degree-40 field support classified")
+            if args.prove:
+                expected_projection = {
+                    (0, 1): (74, "f3a12aa7b6f6df31", "995db6566e31698c"),
+                    (1, 0): (74, "dc1340ad1ecc496b", "e364442d07376273"),
+                }[(left_index, right_index)]
+                direct.require(
+                    (projection.degree(), digest(projection), digest(candidate))
+                    == expected_projection,
+                    "mixed degree-40 projection pins",
+                )
+                expected_qq = {
+                    digest(sp.Poly(d + 1, d, domain=sp.QQ)): 4,
+                    digest(sp.Poly(d - 2, d, domain=sp.QQ)): 8,
+                    digest(sp.Poly(2*d - 1, d, domain=sp.QQ)): 10,
+                    digest(sp.Poly(d - 1, d, domain=sp.QQ)): 12,
+                    expected_projection[2]: 1,
+                }
+                direct.require(
+                    {record["digest"]: record["multiplicity"]
+                     for record in records} == expected_qq,
+                    "mixed degree-40 characteristic-zero factor census",
+                )
+                expected_degrees = {
+                    (0, 1): [1, 2, 2, 4, 4, 27],
+                    (1, 0): [1, 1, 6, 32],
+                }[(left_index, right_index)]
+                actual_degrees = sorted(
+                    sp.Poly(value, d, modulus=2130706433).degree()
+                    for value, exponent in modular_factors
+                    for _ in range(exponent)
+                )
+                direct.require(
+                    actual_degrees == expected_degrees,
+                    "mixed degree-40 modular factor census",
+                )
+                candidate_names = {
+                    (0, 1): (
+                        "field-w01-l", "field-w01-q0", "field-w01-q1",
+                    ),
+                    (1, 0): (
+                        "field-w10-l0", "field-w10-l1", "field-w10-s6",
+                    ),
+                }[(left_index, right_index)]
+                actual_relevant = {
+                    str(sp.Poly(
+                        value, d, modulus=2130706433
+                    ).monic().as_expr())
+                    for value, _ in modular_factors
+                    if 6 % sp.Poly(
+                        value, d, modulus=2130706433
+                    ).degree() == 0
+                }
+                expected_relevant = {
+                    str(sp.Poly(
+                        field_candidates[name], d, modulus=2130706433
+                    ).monic().as_expr())
+                    for name in candidate_names
+                }
+                direct.require(
+                    actual_relevant == expected_relevant,
+                    "mixed degree-40 relevant-field coverage",
+                )
+                print(
+                    "KB_C2_112_NEAR_MOVING_XI_MIXED_DEGREE40_ROUTER_PRIMARY_PASS "
+                    f"pair={left_index},{right_index} characteristic=2130706433",
+                    flush=True,
+                )
+            else:
+                print("INCOMPLETE moving-xi mixed degree-40 field support classified")
             return
         print("INCOMPLETE moving-xi mixed within intersection factored")
         return
@@ -1515,7 +2059,68 @@ def main() -> None:
         f"stage=resultant_factored pair={args.resultant} factors={records}",
         flush=True,
     )
-    print("INCOMPLETE moving-xi mixed resultant factored")
+    if args.prove and args.resultant in ("c", "d", "product"):
+        expected_resultant = {
+            "c": ((48, 36), 1695, "497875a2420d1711"),
+            "d": ((48, 36), 1695, "67d9beffee34fed1"),
+            "product": ((36, 29), 977, "f3c414f60e67c7c5"),
+        }[args.resultant]
+        direct.require(
+            ((resultant.degree(c), resultant.degree(d)),
+             len(resultant.terms()), digest(resultant)) == expected_resultant,
+            "mixed parent resultant pin",
+        )
+        expected_factors = {
+            "c": {
+                "4aa033e0505df8f1": 4,
+                "73c55ff149852dee": 4,
+                "19d832b1f64387da": 2,
+                "dbe56c4d43b264a2": 4,
+                "cb4fd487538b0eff": 4,
+                "7a7743ce53fe8f77": 8,
+                "477785c532483181": 10,
+                "bed4496a0af11b8c": 2,
+                "842d5d9a084f107e": 1,
+            },
+            "d": {
+                "6a515ecf832aff78": 4,
+                "e31255d5e81e2509": 4,
+                "19d832b1f64387da": 2,
+                "4975135dd6af0fc0": 4,
+                "7a7743ce53fe8f77": 4,
+                "dbe56c4d43b264a2": 4,
+                "824f64bb4a05a043": 4,
+                "cb4fd487538b0eff": 4,
+                "477785c532483181": 6,
+                "8d63799ea7b1c3fc": 2,
+                "39ad8e659560b1b1": 1,
+            },
+            "product": {
+                "6a515ecf832aff78": 2,
+                "e31255d5e81e2509": 2,
+                "19d832b1f64387da": 1,
+                "7a7743ce53fe8f77": 1,
+                "824f64bb4a05a043": 2,
+                "a4ef916fb9e856d1": 3,
+                "477785c532483181": 5,
+                "dbe56c4d43b264a2": 5,
+                "cb4fd487538b0eff": 7,
+                "ddb8e78f19e438e9": 1,
+                "9274da18c1badf2f": 1,
+            },
+        }[args.resultant]
+        direct.require(
+            {record["digest"]: record["multiplicity"] for record in records}
+            == expected_factors,
+            "mixed parent factor census",
+        )
+        print(
+            "KB_C2_112_NEAR_MOVING_XI_MIXED_PARENT_PRIMARY_PASS "
+            f"pair={args.resultant}",
+            flush=True,
+        )
+    else:
+        print("INCOMPLETE moving-xi mixed resultant factored")
 
 
 if __name__ == "__main__":

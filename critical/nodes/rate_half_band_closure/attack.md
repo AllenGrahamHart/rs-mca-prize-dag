@@ -1518,18 +1518,16 @@ closes the swapped allocation `c->1/d,d->1/b`. Its extra projected
 fibers force `b=1/2` or the excluded inversion-fixed loci `c=+/-1`, and
 the only nonstandard line-degeneration component also forces `b=1/2`.
 Direct/resultant and fraction-free/subresultant paths agree modulo the
-deployed prime. These results delete 8 of the 18 affine positive charts;
-the mixed allocation in this relative orbit, moving-moving template,
-negative loci, and `w=0` boundary remain.
-
-The remaining mixed allocation in this relative orbit now has a complete
-primary deployed-field narrowing in
-`notes/kb_c2_112_near_moving_xi_mixed_frontier_20260730.md`. Its four
+deployed prime. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion`
+closes the remaining mixed allocation in this relative orbit. Its four
 cubic conditions split into two residual components at each q-root. All
-four component pairs have been reduced to exact `F_(p^6)` fibers, and every
+four component pairs have complete exact `F_(p^6)` fiber routers, and every
 reconstructed point is collision, inversion-fixed, finite-incidence, or on
-`z=1`. This is strong closure evidence, not chart 9: fail-closed assertion
-shards and an independent fraction-free replay remain mandatory.
+`z=1`. Fail-closed primary shards and a no-import
+fraction-free/subresultant audit agree. These results delete 9 of the 18
+affine positive charts; the moving-moving template, other affine
+allocations, negative loci, and `w=0` boundary remain.
 
 The aligned positive sign has also resisted a broader exact falsifier sweep.
 The seeded standard-library replay
