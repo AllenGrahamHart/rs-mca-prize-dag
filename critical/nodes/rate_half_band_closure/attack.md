@@ -2091,3 +2091,23 @@ identification.  The next work is no longer common-`K` elimination.  Build
 the `eta` and six `L^c` records for these five ledgers, apply the paired
 source-label involution, and retain only complete-packet survivors for the
 remaining q equations.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_433_outside_product_involution_compiler`
+supplies the first exact outside record for `M2,M3`.  Their two internal
+antipodal `K` pairs determine one explicit nonsingular projective involution
+on products.  The singleton is `M`, so antipodality of `I` forces
+`xi=I minus K=-M`, and the common-`K` Mobius map gives
+
+```text
+p_xi = epsilon b[b(M-1)^2-epsilon(M+1)^2]
+       /[b(M+1)^2-epsilon(M-1)^2].
+```
+
+Both numerator and denominator are protected on the exact classifier by
+iterated resultant `2^32`.  The singleton pair and the remaining three
+wholly outside antipodal pairs obey one printed bilinear involution equation.
+Thus a completion search must split aligned `xi=eta` from unaligned
+`xi in L^c`, assign edge types to the forced `p_xi`, and enforce only those
+three scalar rows before full twelve-label interpolation.  Do not rebuild a
+generic `6 x 3` paired-product determinant.

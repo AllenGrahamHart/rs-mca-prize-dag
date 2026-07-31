@@ -10723,6 +10723,14 @@ aggregate cap 48.  External work must start from those finite ledgers and
 construct `eta` plus the six complementary source-fiber records.  Do not
 spend compute on any common-`K` cell elimination.
 
+For `M2,M3`, apply the PROVED outside-product compiler before enumerating
+edge types.  It forces `xi=-M`, gives `p_xi` as an explicit rational function
+whose numerator and denominator have resultant `2^32`, and fixes one
+nonsingular bilinear involution for the singleton pair plus the three wholly
+outside antipodal pairs.  Shard aligned `xi=eta` from unaligned `xi in L^c`
+and, in the latter, colored from uncolored `xi`.  Only survivors of these
+scalar gates should enter the full twelve-row Mobius interpolation.
+
 Suggested pilot: one canonical packet stratum, one CPU, at most 512 MiB,
 60 seconds, deterministic partial output, and no parallel fleet.  Modular
 reconnaissance is evidence only; universal deletion requires symbolic or
