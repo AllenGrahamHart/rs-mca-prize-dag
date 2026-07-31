@@ -10652,3 +10652,36 @@ gives one defect-two positive rank-seven witness and shows that its forced
 colored quadratic is unsupported. A future launch is useful only as a
 complete census of this fixed label packet, not as discovery of the first
 witness.
+
+## CR-K3-M2-R4-COORDINATE-COMPLETE-PRODUCT: canonical packet classifier
+
+**Status:** EXTERNAL/DEFERRED.  Do not launch while the Modal workspace spend
+limit is active.  No cost estimate is accepted until one canonical stratum
+is measured; aggregate cost must remain below the campaign ceiling or be
+explicitly reauthorized.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler` replaces the
+five-`K` determinant search by complete twelve-fiber product gates.  A
+proof-producing classifier should:
+
+1. canonically enumerate complete coordinate source-facet packets, including
+   `I,L,K,eta`, the two paired degree profiles, all six complement records,
+   pole-graph colors, and defect at most three;
+2. form the exact `12 x 6` positive and `12 x 4` negative product matrices;
+3. emit a nonzero maximal-minor certificate for each deleted packet orbit;
+4. emit every survivor with its exact product-map kernel and leading-support
+   values, then lift only those survivors to the complete `q` system;
+5. independently replay packet completeness, canonical-orbit ownership, and
+   every minor from compact artifacts.
+
+The negative lane starts from only the seven injective common-`K` skeletons
+in `(KBCV-6)`.  The positive lane must use all twelve rows: the exact
+defect-zero fixture has 140 of 5,040 `F_29` separator survivors, although no
+assignment in that fixed family survives the complete product matrix.
+
+Suggested pilot: one canonical packet stratum, one CPU, at most 512 MiB,
+60 seconds, deterministic partial output, and no parallel fleet.  Modular
+reconnaissance is evidence only; universal deletion requires symbolic or
+proof-producing certificates whose saturations include distinct labels,
+nonzero leading support, and the source-facet side conditions.

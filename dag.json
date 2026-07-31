@@ -20178,6 +20178,27 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "title": "KoalaBear m2 r4 coordinate complete-fiber Vieta compiler",
+   "status": "PROVED",
+   "closure": "exact twelve-fiber Vieta systems, square-root-free complete product-rank gates, a seven-skeleton negative injectivity cut, and a separator-only route cut",
+   "statement": "Every actual coordinate packet has twelve deck-paired source-fiber edge records over K union {eta} union L^c. The positive and negative parity forms satisfy exact 24 x 8 and 24 x 7 Vieta systems. Their product halves give rank-at-most-five and rank-at-most-three matrices; positive parity must satisfy one 6 x 6 K+eta determinant. The negative ratio is a nonconstant injective Mobius map, cutting the 14 common-K pair-multiplicity skeletons to seven. Complete-system survivors realize all 24 stars, making forced colored support and the companion quotient identity consequences. The original F_29 profile-only witness fails the positive separator, while an exact defect-zero fixture census finds 140 separator survivors but no complete-product survivor among 5,040 assignments. This is not a universal orientation deletion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/verify_fixture_census.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_transpose_transport",
    "title": "KoalaBear m2 r4 coordinate-transpose transport",
    "status": "PROVED",
@@ -38820,6 +38841,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

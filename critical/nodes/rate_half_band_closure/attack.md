@@ -1854,3 +1854,40 @@ identity also fails at `W=xi`. This is a small-characteristic route cut, not
 a deployed-field packet or orientation deletion. The next exact classifier
 must retain rank survivors through forced colored support and the companion
 quotient identity.
+
+## 2026-07-30 coordinate complete-fiber Vieta reduction
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler` removes an
+unnecessary nonlinear step from the coordinate search.  A complete packet
+has twelve deck-paired source-fiber edge records over
+`Omega=K union {eta} union L^c`, not only the five common-`K` records.  The
+same Vieta calculation gives exact `24 x 8` positive and `24 x 7` negative
+linear systems.  Their square-root-free product halves are
+
+```text
+rank[-p v^2,-p uv,-p u^2,v^2,uv,u^2]_(Omega)<=5,
+rank[-p v,-p u,v,u]_(Omega)<=3.
+```
+
+Positive parity therefore has a first nonvacuous `6 x 6` determinant on
+`K union {eta}`.  It rejects the earlier profile-only `F_29` witness with
+determinant ten, explaining the failed companion identity without computing
+a resultant.  The separator is not by itself universal: on the exact
+defect-zero source-facet fixture, 140 of the 5,040 assignments of six signed
+square-pairs in `F_29` pass the six-row gate with leading support.  None
+passes after the six `L^c` rows are appended.  These finite counts are route
+evidence for one fixture, not a deployed-field exclusion.
+
+Negative parity is sharper.  Its product ratio `B_0/B_2` cannot be constant
+without forcing an edge of weight at least four and defect at least six.
+It is therefore an injective Mobius map, so all twelve edge products are
+distinct.  The 14 common-`K` pair-multiplicity skeletons reduce exactly to
+seven: three in profile `(4,4,2)` and four in profile `(4,3,3)`.
+
+The next coordinate classifier should enumerate canonical complete
+source-facet packets, apply the complete product matrices first, and retain
+only their kernels for the full `q` equations.  Forced colored support and
+the companion quotient identity then follow from realizing all 24 stars and
+should be replayed as independent audits.  Do not return to profile-only or
+`K+eta`-only determinant searches.
