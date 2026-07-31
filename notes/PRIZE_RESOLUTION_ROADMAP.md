@@ -12406,7 +12406,7 @@ next route-deciding step: derive forced outside mate/involution data for the
 ```text
 starting local pin:       a000e289 (442 complete-edge skeleton)
 ending local theorem pin: current 442 outside-product PROVED compiler
-canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+canonical prize pin:      14dc1db5f4ec64a2dcba31c65d79716f58090945
 node/workboard attacked:  K3 / negative 442 complete-source lift
 result:                   PROVED six-row forced mate and residual scalar gate
 DAG delta:                +1 PROVED background node, +4 req, +1 ev edge
@@ -12432,7 +12432,7 @@ next route-deciding step: combine the forced product with the three xi
 ```text
 starting local pin:       679d2068 (442 outside-product compiler)
 ending local theorem pin: current 36-cell PROVED invariance router
-canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+canonical prize pin:      14dc1db5f4ec64a2dcba31c65d79716f58090945
 node/workboard attacked:  K3 / negative 442 outside product matching
 result:                   PROVED division-free finite algebraic router
 DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
@@ -12452,4 +12452,28 @@ Modal status:             no launch and no cost
 next route-deciding step: exact saturation of the 36 invariant cells, then
                           full twelve-label interpolation on survivors;
                           shard externally if beyond the local budget
+```
+
+### Work-cycle burn-down: canonical WAVE-35 harvest
+
+```text
+starting local pin:       fd3c80e6 (442 invariant-product router)
+canonical prize pin:      14dc1db5f4ec64a2dcba31c65d79716f58090945
+harvested scope:          Fable WAVE-35 audit and all-contributor K3 review
+canonical theorem:        c2(1,1,2) source-line complete exclusion; 96
+                          labeled packets in 12 matching-preserving orbits
+                          are exhausted by the audited chart partition
+verification provenance: 73/73 wave verifiers and six repo validators PASS;
+                          corrected helper hash pinned by the wave audit
+DAG comparison:           local graph is a strict canonical superset by
+                          seven newer nodes and 31 newer edges; no shared
+                          node payload differs and no canonical edge is lost
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; c2 is a terminal band sub-branch)
+upstream review:          conic exclusion independently replayed; degree-5
+                          correction and m-divides-2^21 misuse fence retained
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: continue the negative coordinate two-loop cells;
+                          do not reopen the now-terminal c2 source-line
 ```
