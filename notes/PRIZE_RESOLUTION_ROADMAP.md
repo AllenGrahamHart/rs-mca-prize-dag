@@ -12694,3 +12694,25 @@ canonical coordination:  WAVE-36 has integrated the branch through 8b5ab50b;
 next route-deciding step: recompute the live negative-coordinate skeleton
                           census after deleting both 442 and 433
 ```
+
+### Work-cycle burn-down: negative one-loop product-q weld
+
+```text
+starting local pin:       51d0d975 (WAVE-36 merge after complete 433 close)
+ending local theorem pin: current one-loop PROVED product-q weld
+canonical prize pin:      48037b6172f6f2959c2596e64a7b61c34f81c38e
+node/workboard attacked:  K3 / remaining negative-coordinate census
+result:                   PROVED common two-equation interface for both
+                          one-loop skeletons
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact compiler only)
+live negative skeletons:  one zero-loop 433; one-loop 442; one-loop 433
+exact identity:           w_s=q_s/(p_h-p_s)=D(h)C(s)/Delta with deg C<=1
+replacement gate:         four-row affine-line rank <=2; two cleared 3 x 3
+                          determinants are necessary and sufficient
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: compile the signed one-loop common-K atlases using
+                          the two scalar welds; keep zero-loop separate
+```

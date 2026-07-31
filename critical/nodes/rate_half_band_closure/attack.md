@@ -2366,3 +2366,28 @@ multiplication matrix independently replay all cases.  Together with the
 empty.  Remove both `442` and `433` from downstream work and recompute the
 remaining negative-coordinate source skeletons before starting any new
 interpolation or q computation.
+
+After that deletion, the negative coordinate frontier consists of the
+zero-loop `(4,3,3)` skeleton `(0,0,0;2,2,1)` and the one-loop skeletons
+
+```text
+(4,4,2): (0,1,0;2,2,0),
+(4,3,3): (1,0,0;1,1,2).
+```
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld` supplies a
+common exact interface for the latter two.  If `h` is the loop label and
+`p=N/D` is the reconstructed Mobius product map, then on each of the four
+nonloops
+
+```text
+w_s=q_s/(p_h-p_s)=D(h)C(s)/Delta,       deg C<=1.
+```
+
+Thus the four rows `[1,s,w_s]` have rank at most two.  After clearing the
+nonzero product differences, two `3 x 3` scalar welds against fixed
+nonloop anchors are necessary and sufficient for all five common-`K` sum
+equations.  Build the two signed one-loop atlases through these welds before
+constructing any of the seven complementary source records.  Treat the
+zero-loop row separately through its degree-two interpolation condition.

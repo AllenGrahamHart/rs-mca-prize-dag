@@ -20316,6 +20316,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop product-to-q weld",
+   "status": "PROVED",
+   "closure": "affine-line product-q weld equivalent to the five common-K sum equations in both one-loop skeletons",
+   "statement": "In either negative one-loop skeleton, reconstruct the nonconstant Mobius product map p=N/D and let h be the loop label. On the four nonloops, the values w_s=q_s/(p_h-p_s) are samples of one affine-linear function, so the rows [1,s,w_s] have rank at most two. Two denominator-cleared 3 x 3 scalar welds against fixed nonloop anchors are necessary and sufficient for all five common-K sum equations after the product gate. The signed atlases and complement fibers remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
    "title": "KoalaBear m2 r4 coordinate negative two-loop product-to-q weld",
    "status": "PROVED",
@@ -39452,6 +39472,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
