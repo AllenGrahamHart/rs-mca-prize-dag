@@ -10732,6 +10732,19 @@ If the 36 exact saturations are too costly, shard one cell per external
 task with explicit memory/runtime limits and compact unit-ideal or survivor
 certificates.  No local fleet is authorized.
 
+The first 72 matching templates are now deleted symbolically: in forced
+`cD` and `sigma DE` cells, the two unsigned residual products cannot pair.
+Any external worker must skip those three matchings in each of the 24
+affected cells, leaving cap 468 across all cells.
+
+A bounded 30-shard pilot for `H8-L,tau=-1,xi=cD` is stored at
+`critical/nodes/rate_half_band_closure/notes/kb_442_h8l_minus_cd_pairing_modal.py`.
+Each shard uses one CPU, 512 MiB, and timeout 60 seconds, with explicit
+partial `ERROR` rows.  The 2026-07-30 launch was rejected before any
+container started because the Modal workspace had exceeded its spend limit;
+cost was zero and no computational result was claimed.  This request may be
+replayed externally after skipping the three already-proved templates.
+
 The 240-row `(4,3,3)`
 two-loop atlas is also superseded at the label level: `(KB43-3)` gives nine
 one-parameter antipodal cells.  The first product-minor cut deletes

@@ -12477,3 +12477,28 @@ Modal status:             no launch and no cost
 next route-deciding step: continue the negative coordinate two-loop cells;
                           do not reopen the now-terminal c2 source-line
 ```
+
+### Work-cycle burn-down: 442 signed-pair matching-template exclusion
+
+```text
+starting local pin:       ee9ff1da (canonical WAVE-35 merge)
+ending local theorem pin: current signed-pair template PROVED exclusion
+canonical prize pin:      14dc1db5f4ec64a2dcba31c65d79716f58090945
+node/workboard attacked:  K3 / negative 442 invariant-product cells
+result:                   PROVED universal negation/reciprocal template cut
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; subcase narrowing only)
+affected cells:           24 forced-cD or forced-DE cells
+matching deletion:        unsigned residual pair impossible; three of 15
+                          matchings deleted per cell, 72 total
+exact obstruction:        negation contradicts common product guards;
+                          reciprocal Alpha zeros have protected norms
+                          30625,18225,49,2401
+residual matching cap:    540 -> 468; no whole invariant cell yet deleted
+Modal status:             30-shard, 60-second, 512-MiB pilot rejected before
+                          launch by workspace spend limit; cost zero
+new assumptions:          none in deployed characteristic
+next route-deciding step: classify mixed matching templates symbolically;
+                          treat forced-DF cells as a separate residual form
+```

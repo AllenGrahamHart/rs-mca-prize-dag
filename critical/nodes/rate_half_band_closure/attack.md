@@ -2206,3 +2206,15 @@ fixed-point avoidance, gives exactly 36 cells across the six common rows.
 This replaces 540 sign-gauged perfect matchings.  Saturate these cells before
 full interpolation, keeping `D,E,F` independent of the quotient coordinate
 `l`; carry the two q orientations only for product survivors.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion`
+gives the first universal cut inside those cells.  For forced type `cD` or
+`sigma DE`, the residual products have form `{a,q,+/-x,+/-y}`.  The two
+unsigned values `a,q` cannot pair: the three matchings left on the two signed
+pairs force either product negation or a reciprocal involution.  Negation
+contradicts a common product pair and injectivity; reciprocity would require
+`Alpha=0`, excluded by row norms `30625,18225,49,2401` in deployed
+characteristic.  This removes 72 of 540 matching subcases.  Continue with
+the twelve mixed templates per affected cell and treat forced `DF`
+separately; this is not yet a whole-cell deletion.

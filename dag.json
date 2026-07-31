@@ -20616,6 +20616,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop 442 signed-pair matching-template exclusion",
+   "status": "PROVED",
+   "closure": "negation and reciprocal cuts delete 72 signed-pair matching templates",
+   "statement": "In every 442 invariant-product cell with forced xi type cD or sigma DE, the two unsigned residual values cannot form one involution pair. The three possible matchings of the remaining two complete signed pairs would force either product negation, contradicting common-product injectivity, or Alpha=0, excluded by exact protected norms 30625,18225,49,2401 in deployed characteristic. Exactly 72 of 540 matching subcases are deleted.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
    "title": "KoalaBear m2 r2 dihedral degree-five source-star exclusion",
    "status": "PROVED",
@@ -39531,6 +39551,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
