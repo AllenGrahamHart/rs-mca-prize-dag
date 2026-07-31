@@ -12171,3 +12171,25 @@ next route-deciding step: resolve q orientations on the six rows, then
                           compile eta plus six L^c records and apply the
                           paired-product involution gate
 ```
+
+### Work-cycle burn-down: 442 q-orientation lift
+
+```text
+starting local pin:       843c2bd4 (442 product frontier)
+ending local theorem pin: current 442 q-orientation PROVED packet
+canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+node/workboard attacked:  K3 / negative (4,4,2) common-K q signs
+result:                   PROVED common-K survival and orientation count
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; route-boundary evidence only)
+sign cube:                exactly 2 of 8 cross-edge orientation triples
+                          satisfy both welds for every injective product root
+consequence:              all five common-K Vieta rows reconstruct; no
+                          further common-K algebra can delete the six rows
+new assumptions:          none beyond the parent geometric/injective scope
+Modal status:             no launch and no cost
+next route-deciding step: combine the two orientation classes with the
+                          source-facet completion and compile eta plus six
+                          L^c records through the paired-product gate
+```

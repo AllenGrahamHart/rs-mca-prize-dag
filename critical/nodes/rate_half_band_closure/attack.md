@@ -1989,6 +1989,14 @@ then imposes all five Mobius product minors on those loci.  Normalize the
 one quadratic for `b=B/A` and one linear formula for `c=C/A`.  Thus the
 entire `(4,4,2)` common-`K` product frontier has at most twelve geometric
 packets.  All six algebraic rows are nonempty, so the branch cannot be
-deleted at common `K`.  Check their two signed q welds, then construct the
-`eta` and six `L^c` records and apply the paired source-label involution.
+deleted at common `K`.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift`
+also closes the remaining common-`K` sign question.  The two squared label
+identities each have sign `+/-1`; after choosing the `AB` orbit orientation,
+the `AC` and `BC` orientations are uniquely forced.  Exactly two of eight
+orientation triples satisfy both welds, and either reconstructs all five
+common-fiber Vieta rows.  Therefore construct the `eta` and six `L^c`
+records next and apply the paired source-label involution.
 Do not reopen generic label, edge-sign, or `b,c` enumeration.
