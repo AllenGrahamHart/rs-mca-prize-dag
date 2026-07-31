@@ -12811,3 +12811,26 @@ next route-deciding step: test the three retained branches against the
                           one-loop q weld/full interpolation; classify the
                           four nonloop-singleton common matching orbits
 ```
+
+### Work-cycle burn-down: one-loop 442 opposite-pair common orbit
+
+```text
+starting local pin:       8c9a8135 (aligned outside-product router)
+ending local theorem pin: current opposite-pair exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / one-loop 442 nonloop singleton atlas
+result:                   PROVED complete deletion of cells [11,14]
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase deletion)
+product reduction:        one equation linear in c; denominator-zero branch
+                          forces r^4=1 and a source-label collision
+q reduction:              four sign rows factor into guarded terms, linear
+                          label collisions, and r^2=+/-i
+final contradiction:      r^2=+/-i forces c=1 in the product equation
+common-atlas frontier:    three nonloop-singleton orbits remain
+new assumptions:          none in deployed characteristic
+Modal status:             no launch and no cost
+next route-deciding step: inspect cells [3,6], [4,5,7,8], and
+                          [9,10,12,13] for the next sparse q factor
+```

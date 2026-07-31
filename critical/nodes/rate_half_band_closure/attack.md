@@ -2466,3 +2466,14 @@ witnesses show that `S1` and `S2` are genuine product-level survivors, so
 do not delete them.  Apply the one-loop q weld and full interpolation only
 to these three routed branches.  Four common matching orbits with a
 nonloop singleton remain an independent classification task.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion`
+deletes one of those four orbits, namely cells `[11,14]`.  In a normalized
+cell the `AB` records form an antipodal source pair, the loop is paired with
+the nonsingleton `AC` record, and the other `AC` record is the singleton.
+The product equation is linear in `c`.  Its coefficient-zero branch forces
+`r^4=1`; on the regular branch, one q weld leaves only linear label
+collisions or `r^2=+/-i`, and the latter forces `c=1`.  All four root-sign
+classes are empty.  The nonloop-singleton frontier is now the three orbits
+`[3,6]`, `[4,5,7,8]`, and `[9,10,12,13]`.
