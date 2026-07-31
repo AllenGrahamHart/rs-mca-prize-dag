@@ -20657,6 +20657,27 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S1 forced-DE F41 product witness",
+   "status": "PROVED",
+   "closure": "exact guarded F41 product-invariant witness and complete two-variable census for one canonical S1 cell",
+   "statement": "On the common F41 witness b=10,c=5,r=12,t=30, take the S1 singleton signs (1,-1,-1,1) and outside representatives (d,e,f)=(15,7,18). The forced DE product equals the mate m=18; all twelve common and outside products are distinct; and the six residual products form involution pairs (35,24),(33,38),(21,3). All seven sextic eigenvalue equations vanish. Exhausting the 1600 nonzero (d,s) pairs with e=-m/d and f=sd leaves this as the unique guarded invariant pair. This is a characteristic-41 product route cut, not a deployed-field, outside-q, or interpolation survivor.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_forced_de_scan.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
    "title": "KoalaBear m2 r4 coordinate negative two-loop product-to-q weld",
    "status": "PROVED",
@@ -40063,6 +40084,31 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

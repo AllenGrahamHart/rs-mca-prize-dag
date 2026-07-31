@@ -10951,6 +10951,15 @@ that `E_0,E_1,E_2` are independent in all four common sign quotients; their
 Workers should use those three equations exactly and should not spend a
 shard selecting or row-reducing coefficient equations.
 
+One caution is now exact.  The canonical `S1` forced-`DE` cell has a guarded
+product-invariant `F_41` realization `(d,e,f)=(15,7,18)` on the printed
+common witness, with all twelve products distinct.  A complete 1,600-pair
+scan finds it uniquely.  Therefore a characteristic-independent
+product-only contradiction does not exist for this cell.  Deployed shards
+remain useful, but any deployed product survivor must be handed to the
+seven outside source-fiber/`q` assignment; product survival is not packet
+survival.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs

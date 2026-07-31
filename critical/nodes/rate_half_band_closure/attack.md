@@ -2655,3 +2655,20 @@ multiplication norm
 
 so it is a unit.  Therefore evaluate exactly `E_0,E_1,E_2` in every one of
 the eighty cells.  No per-row rank calculation remains.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness`
+is a route cut against a characteristic-independent product-only deletion.
+On the common `F_41` witness, the canonical `S1` sign row with forced `DE`
+has the guarded realization
+
+```text
+(d,e,f)=(15,7,18),
+residual pairs=(35,24),(33,38),(21,3).
+```
+
+All seven sextic equations vanish, and the complete 1,600-pair scan finds
+this as the unique guarded invariant realization.  This does not establish
+a deployed survivor.  Continue with the deployed forced-mate plus
+`E_0,E_1,E_2` system, then require an explicit seven-fiber source placement
+before claiming any outside-`q` conclusion.
