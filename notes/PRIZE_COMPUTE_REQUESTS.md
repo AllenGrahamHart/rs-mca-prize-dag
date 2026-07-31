@@ -10731,6 +10731,13 @@ outside antipodal pairs.  Shard aligned `xi=eta` from unaligned `xi in L^c`
 and, in the latter, colored from uncolored `xi`.  Only survivors of these
 scalar gates should enter the full twelve-row Mobius interpolation.
 
+The outside signed-pair graph is also PROVED unique.  There are no outside
+loops; the two colored `I-J` records attach to distinct `I` pairs, and the
+five internal multiplicities are `(1,2,2)`.  Up to pair names, enumerate
+only `B-D,C-E,D-E,D-F(+/-),E-F(+/-)`, with one of the five internal signed
+types assigned to `eta`.  A worker that generates arbitrary outside
+multigraphs is outside the accepted request.
+
 Suggested pilot: one canonical packet stratum, one CPU, at most 512 MiB,
 60 seconds, deterministic partial output, and no parallel fleet.  Modular
 reconnaissance is evidence only; universal deletion requires symbolic or

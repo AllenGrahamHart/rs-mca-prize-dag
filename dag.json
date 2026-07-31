@@ -20516,6 +20516,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop 433 complete-edge skeleton classifier",
+   "status": "PROVED",
+   "closure": "unique loop-free outside signed-pair skeleton with colored attachments split across two I pairs",
+   "statement": "Every complete negative (4,3,3) two-loop packet has no outside antipodal I-I edge. Its two colored I-J orbits attach to distinct I antipodal pairs, and its five internal I-I orbit multiplicities are uniquely (1,2,2). Thus, up to pair labels, the outside types are B-D,C-E,D-E,both D-F signs,both E-F signs; one internal signed type occupies eta and the other six records occupy L complement.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
    "title": "KoalaBear m2 r2 dihedral degree-five source-star exclusion",
    "status": "PROVED",
@@ -39321,6 +39341,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_outside_product_involution_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

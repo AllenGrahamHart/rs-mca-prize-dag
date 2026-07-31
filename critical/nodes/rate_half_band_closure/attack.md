@@ -2111,3 +2111,21 @@ Thus a completion search must split aligned `xi=eta` from unaligned
 `xi in L^c`, assign edge types to the forced `p_xi`, and enforce only those
 three scalar rows before full twelve-label interpolation.  Do not rebuild a
 generic `6 x 3` paired-product determinant.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier`
+also removes the outside graph search for every surviving `(4,3,3)` cell.
+The two common loops already use both roots of the quadratic `A_1`, so no
+outside `I-I` record can be antipodal.  Degree four and product injectivity
+then force the two colored `I-J` records to attach to distinct `I` pairs;
+up to names the seven outside edge types are
+
+```text
+B-D, C-E, D-E, D-F(+), D-F(-), E-F(+), E-F(-).
+```
+
+Exactly one of the five internal signed types is the `eta` record.  The
+other four internal types and the two colored attachments lie in `L^c`.
+Combine these five `eta` choices with the forced `xi` location/product and
+the three bilinear involution rows; do not enumerate arbitrary degree-four
+source multigraphs.
