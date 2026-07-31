@@ -1,5 +1,6 @@
 # Frontier
 
-For each of the eighty canonical cells, impose the forced-value equation and
-coefficient proportionality in `(KB41BI-2)` inside the rank-six common
-quotient.  Do not enumerate residual perfect matchings.
+The PROVED binary-sextic eigenvalue compiler supersedes unknown-scalar
+coefficient proportionality.  For each of the eighty canonical cells,
+impose its rank-three equation `H(M)=Delta^3 H` inside the rank-six common
+quotient.  Do not introduce a scalar or enumerate residual matchings.

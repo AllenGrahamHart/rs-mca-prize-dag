@@ -10932,6 +10932,19 @@ H(Alpha X+Beta Z,Gamma X-Alpha Z) and H(X,Z)
 
 and must not enumerate residual perfect matchings.
 
+The unknown-scalar formulation is now also obsolete.  The PROVED
+binary-sextic eigenvalue compiler forces the exact identity
+
+```text
+H(M(X,Z))=Delta^3 H(X,Z),  Delta=Alpha^2+Beta*Gamma.
+```
+
+Its seven coefficient equations have rank three.  External workers should
+reduce three independent equations per canonical cell and retain all seven
+only as an audit.  They must not add a proportionality scalar or coefficient
+minors.  The accepted workload is eighty cells times three scalar
+conditions before outside sums and interpolation.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs

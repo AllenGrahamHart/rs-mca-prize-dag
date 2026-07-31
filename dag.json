@@ -20616,6 +20616,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 outside binary-sextic eigenvalue compiler",
+   "status": "PROVED",
+   "closure": "forced Delta-cubed eigenvalue and rank-three coefficient test for residual sextic invariance",
+   "statement": "Let M be the explicit trace-zero product involution and Delta=Alpha^2+Beta Gamma. For a fixed-point-free residual binary sextic H, projective invariance is equivalent to the exact identity H(M(X,Z))=Delta^3 H(X,Z); the negative eigenvalue would force both projective fixed points to be roots. The seven printed division-free coefficient equations have rank three. Thus each of the eighty canonical cells requires only three independent scalar conditions. Cell evaluation, outside sums, and interpolation remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
    "title": "KoalaBear m2 r4 coordinate negative two-loop product-to-q weld",
    "status": "PROVED",
@@ -39987,6 +40007,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

@@ -2626,3 +2626,19 @@ total: 20 per common row, 80 over all four rows.
 
 The 804 matching orbits remain a completeness audit but are no longer the
 compute frontier.  Evaluate the eighty invariant-form cells directly.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler`
+removes the proportionality scalar as well.  With
+`Delta=Alpha^2+Beta*Gamma`, fixed-point freedom forces
+
+```text
+H(Alpha X+Beta Z,Gamma X-Alpha Z)=Delta^3 H(X,Z).
+```
+
+The alternative eigenvalue `-Delta^3` would put both projective fixed points
+among the residual roots.  The resulting seven division-free coefficient
+equations have rank three, so the accepted outside product frontier is now
+eighty cells with three independent scalar conditions each.  Keep all seven
+coefficient equations for audit; do not introduce `lambda`, minors, or
+matching variables.
