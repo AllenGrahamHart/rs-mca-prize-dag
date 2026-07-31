@@ -13,7 +13,7 @@ ROOT = NODE.parents[2]
 NODE_ID = NODE.name
 HELPER = (ROOT / "critical/nodes/rate_half_band_closure/notes/"
           "kb_c2_112_near_fixed_xi_square_direct.py")
-EXPECTED = "7d3892fddcb4ab95f1fd6f6fa58127cf77c72c024e3272fab9511152df27db93"
+EXPECTED = "d42b13b0cff26e448ad93e9925ce0e4283797d03c8a2f4d630175dddd457e5f3"
 
 
 def require(condition, message):
@@ -37,5 +37,5 @@ parents = {
 require(all((parent, NODE_ID, "req") in edges for parent in parents),
         "DAG dependencies")
 require((NODE_ID, "rate_half_band_closure", "ev") in edges, "DAG consumer")
-sys.argv = [str(HELPER), "0"]
+sys.argv = [str(HELPER), "0", "0"]
 runpy.run_path(str(HELPER), run_name="__main__")

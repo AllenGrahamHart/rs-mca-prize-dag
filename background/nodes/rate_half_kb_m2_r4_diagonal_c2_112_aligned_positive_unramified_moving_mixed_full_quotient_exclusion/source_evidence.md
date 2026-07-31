@@ -1,0 +1,30 @@
+# Source evidence
+
+```text
+unramified compiler
+988e60a010ea2793049505b5e9b0ff6d5c28b300e4a00a4b8a3724849ede09f0
+
+moving router at closure snapshot
+43db5631bd1963a1076eab2cce8e9d204d0025936c54f85ea52c959202bf1788
+
+moving mixed minor cache
+799e8feb8f89fee7bf7dab30c3e1e4522380bb490f350a5c93f48f6ff19d3565
+
+moving mixed conic cache
+639a9eeacf175fbfa2e427ca8ad6c3dae1110f658bf4edbe7e3136f2c1748880
+
+survivor certificate
+c02e649960b35e3d264472c3c1aa69cfd71d48930df8844c281b901b3e5a5f36
+
+independent survivor verifier
+827acb466db855cb991c6c18605dde9bc2ac9568817d7e9438792fc8e62bd551
+
+full quotient norm probe
+c2aa5fb72baab967ea57518e07d251d3c13ed3d14761742327d18435916c4572
+
+twelve-way off-common replay
+ba65b7c8ff3e8efad1415431489e2b23154b03667b0028e73d3cb396e9133653
+```
+
+The exact wrapper regenerates the survivor JSON byte-for-byte before using
+the independent verifier and quotient probe.

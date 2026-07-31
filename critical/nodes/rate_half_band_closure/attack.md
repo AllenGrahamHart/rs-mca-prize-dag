@@ -1478,19 +1478,203 @@ m_1-m_3=4(c^2-1)/c=-A!=0.
 ```
 
 Thus no aligned negative candidate passes `(KBQS-1)`. The aligned source-line
-attack retains only the positive sign. Both signs remain in the near-aligned
-branch because its target is `tau^*chi_Omega`, not `tau^*q`.
+attack retains only the positive sign. At this checkpoint both signs remained
+in the near-aligned branch because its target is `tau^*chi_Omega`, not
+`tau^*q`.
 
-One deployed-field near-aligned positive chart is now also deleted. The
-PROVED
+The aligned positive forced-ramified branch is also empty. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion`
+keeps the repaired `w=0` equations and the exact relative `U/V` scale. For
+each internal template, unique factorization leaves the `same`, `swap`, and
+`mixed` residual allocations. All three fixed-moving ideals have unit full
+forbidden saturation over `F_2130706433`. The moving equations are reciprocal
+quartics in `b`; after exact descent to `s=b+1/b`, all three corresponding
+saturations are also unit. Thus the complete aligned `w=0` branch is deleted
+after combining the negative theorem. The PROVED moving `swap` and moving
+`same` unramified q-slice exclusions delete those two allocations by exact
+trace-minor, conic, finite-extension, and off-common replay. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion`
+handles the third moving allocation without asserting a false q-slice
+deletion. Its degree-12 component has four exact q-slice points over degrees
+`3,3,7,7`. The degree-7 points do not embed in the deployed degree-six field;
+both reciprocal orientations over each degree-3 trace reproduce `(KBQS-1)`
+but fail both normed identities derived from `(KBQ2-2)`. All twelve
+off-common cofactor combinations are boundary-supported. Hence all three
+moving-moving allocations are closed and exactly the three fixed-moving
+aligned positive unramified cells remain at that checkpoint. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion`
+then closes fixed-same. Its direct reciprocal-quartic norm has 28 factors;
+deployed-field replay leaves four base-field q-slice points, and all four
+fail both normed identities from `(KBQ2-2)`. Its two off-common cofactor
+branches give seven distinct endpoints, all boundary-supported. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion`
+then closes fixed-swap. Its degree-333 direct norm has 26 factors; exact
+deployed-field replay leaves one quadratic-field q-slice point, which
+reproduces `(KBQS-1)` but fails both normed identities from `(KBQ2-2)`. The
+two off-common combinations give nine distinct endpoints, all boundary.
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion`
+then closes the final cell. Its reciprocal degree-five component leaves four
+quadratic-field q-slice points, all rejected by both full quotient norms. The
+mixed-only linear rank curve is empty after replay of its complete degree-116
+raw-kernel norm, and all twenty off-common combinations are boundary. Thus
+all six aligned positive unramified allocations are closed; only later
+packet/source-row assembly obligations remain on this route.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion`
+also removes the negative sign from the near-aligned branch. The negative
+factor gate and `b->1/b` reduce both internal templates to `B=0`; exact
+reconstruction gives the same `z,V` and opposite `U`, hence the same
+`G=U^2-WV^2`. Its monic residual quartic has constant one, so passage to the
+near target forces `(xi*d)^2=1`. The plus branch is a label collision. On the
+minus branch, exact projections for `xi=2`, `xi=1/2`, and `xi=b` reconstruct
+only forbidden endpoint labels, collisions, or `w=+/-1`. Direct deployed-prime
+saturation is unit in all three rows. This deletion includes the negative
+forced-ramified locus `w=0`; it does not address the positive homogenized
+boundary.
+
+Seven deployed-field near-aligned positive charts are now deleted. The PROVED
 `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion`
 normalizes `a=xi=2`, takes the fixed-moving template with `eta=c`, and assigns
 the two residual squares to `1/2` over `c` and `1/d` over `d`. All four
 generic endpoint-line pairs have only collision support; the two leading-zero
 loci add only points with `z=1`. Independent resultant and Bezout replays
-verify the same support modulo the KoalaBear characteristic. This deletes
-only one of the 18 affine positive charts; the other allocations, relative
-`xi` orbits, moving-moving template, negative loci, and `w=0` boundary remain.
+verify the same support modulo the KoalaBear characteristic. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion`
+interchanges the two target roots and gives the same collision-only generic
+support. Its sole additional exceptional component forces the same excluded
+`z=1` locus, with an independent opposite-variable audit. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion`
+assigns both distinct target roots to both residuals. After explicit
+collision and boundary factors are removed, degree-96 and degree-186
+projection certificates have only forbidden common support. A fraction-free
+audit proves the opposite projection and both paths replay modulo the
+KoalaBear characteristic. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion`
+repeats the mixed allocation for `xi=tau(a)`, where the target root is `2`.
+Its direct and fraction-free opposite projections again have only forbidden
+common support, including modulo the deployed characteristic. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions`
+deletes both square allocations in that reciprocal-`xi` orbit. Its direct
+leading-zero points lie on `z=1`, and its remaining exceptional audit fiber
+forces collisions; the swapped exceptional geometry is unchanged. All
+sixteen pair/allocation replays pass in characteristic zero and modulo the
+deployed prime. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion`
+then treats `xi=b` and the square allocation `c->1/b,d->1/d`. Its
+four product-branch pairs have only collision support or explicit fibers
+forcing `b=1/2`; an independent fraction-free/subresultant replay gives
+the same result modulo the deployed prime. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion`
+closes the swapped allocation `c->1/d,d->1/b`. Its extra projected
+fibers force `b=1/2` or the excluded inversion-fixed loci `c=+/-1`, and
+the only nonstandard line-degeneration component also forces `b=1/2`.
+Direct/resultant and fraction-free/subresultant paths agree modulo the
+deployed prime. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion`
+closes the remaining mixed allocation in this relative orbit. Its four
+cubic conditions split into two residual components at each q-root. All
+four component pairs have complete exact `F_(p^6)` fiber routers, and every
+reconstructed point is collision, inversion-fixed, finite-incidence, or on
+`z=1`. Fail-closed primary shards and a no-import
+fraction-free/subresultant audit agree. These results delete all 9
+fixed-moving affine positive charts.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion`
+closes the first moving-moving chart. Normalize `a=xi=2`, use source edges
+`{2,b},{2,1/b}`, and assign residual squares `c->1/2,d->1/d`. The four
+primitive conditions are reciprocal in `b` and reduce exactly through
+`s=b+1/b`. Their three-by-three component router leaves 15 nonstandard
+modular factors of degrees dividing six: six linear, five quadratic, three
+cubic, and one sextic. Saturating each factor with all four trace equations
+by the full forbidden product gives the unit ideal. Direct/resultant and
+no-import fraction-free/subresultant certificates agree.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion`
+closes the swapped square allocation `c->1/d,d->1/2`. Its reciprocal trace
+forms have three nonstandard parent components over `c` and two over `d`.
+The six pair projections leave two irreducible degree-nine factors and one
+irreducible degree-five factor, none of which meets `F_(p^6)`, plus four
+linear fibers. All four linear fibers have unit forbidden saturation in the
+direct/resultant and independent fraction-free/subresultant paths.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion`
+closes the mixed allocation `c,d->{1/2,1/d}`. After reciprocal trace
+reduction, each parent has one nonstandard component and their sole
+projection has degree 128. Its complete modular census leaves four linear,
+five quadratic, and one cubic factor relevant to `F_(p^6)`; all ten have
+unit forbidden saturations. The other irreducible degrees are 5, 7, and 29.
+The direct/resultant and independent source/subresultant paths agree. Thus 12
+of the 18 affine positive charts are closed, the full `xi=a` orbit is done,
+and six moving-moving charts remained at that checkpoint.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion`
+closes the next three charts at once. For the distinguished residual root
+`2`, the square-xi, square-ell, and mixed allocations leave respectively
+`3x3`, `3x2`, and `1x1` nonstandard parent component routers. Their complete
+deployed-field sieves retain 15, 4, and 10 factors of residue degree dividing
+six. All 29 forbidden saturations are unit in both the direct/resultant
+primary and the no-import fraction-free/terminal-subresultant audit. Thus 15
+of the 18 affine positive charts are closed. Only the three moving-moving
+allocations in the other relative-xi orbit remain, together with negative
+loci and the `w=0` boundary.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion`
+closes the first of those three charts. The nonreciprocal `c` product splits
+into two cubic branches, whose sum-resultants leave two nonstandard parent
+components; the reciprocal `d` side leaves three. Complete factorization of
+all six pair projections retains seven linear and one quadratic deployed
+fiber. All eight full four-core forbidden saturations are unit in a
+direct/resultant primary and an independent fraction-free/terminal-
+subresultant audit. Thus 16 of 18 affine positive charts are closed. Only
+the swapped and mixed moving-moving other-xi allocations remain, together
+with negative loci and the `w=0` boundary.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion`
+closes the swapped chart. Here the reciprocal `c` side leaves three
+nonstandard parent components, while the nonreciprocal `d` product splits
+into two cubic branches leaving two. Complete characteristic-zero and
+deployed-prime factorization of the six `3x2` pair projections retains ten
+linear, nine quadratic, one cubic, and two sextic factors. All 22 full
+four-core forbidden saturations are unit in both a direct/resultant primary
+and an independent fraction-free/terminal-subresultant audit. Thus 17 of 18
+affine positive charts are closed. Only the mixed moving-moving other-xi
+allocation remains, together with negative loci and the `w=0` boundary.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion`
+closes that final affine-positive chart. The product-ratio minus gate splits
+into two linear branches and one reciprocal-quadratic branch; their 22
+candidate fibers all have unit full four-core forbidden saturation. The
+ratio-plus reciprocal quartic is handled in the trace coordinate
+`s=b+1/b`: four independent generic pair gates have common projection
+degree 352, while the leading-coefficient boundary has projection degree
+772. Complete residue-field reconstruction leaves no admissible fiber in
+either chart. A direct SymPy/FLINT primary and an independent no-import
+fraction-free audit agree. Thus all 18 affine positive charts are closed.
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion`
+closes the distinct homogeneous endpoint boundary. Orienting
+`eta=infinity` gives `w=0` and `q_hom=Y(T-dY)`. The projective q-slice is the
+product of the finite `T=d` residual and the `T^4` coefficient residual at
+infinity. Three fixed-moving saturations, two moving trace saturations, and
+both signs of the moving other-xi constant gate are unit over the deployed
+field. Thus the positive near-aligned queue is complete. Combined with the
+near-negative theorem, the entire near-aligned source-line branch is empty.
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion` now
+composes the defect census, aligned/near quotient partition, and all 25
+sign/cell/boundary exclusion theorems. Its checker pins all 32 compiler and
+theorem prerequisites. Therefore the complete saturated diagonal
+`c2(1,1,2)` source-line branch is empty. The residual assembly frontier is
+the coordinate and source-cover orientations, not another source-line cell.
 
 The aligned positive sign has also resisted a broader exact falsifier sweep.
 The seeded standard-library replay
@@ -1649,3 +1833,238 @@ gate. The negative parity also excludes a ramified common-`K` value.
 Apply these small tests before the quotient-resultant identities.
 No determinant is yet proved nonzero for every admissible star packet, so
 the coordinate orientation remains open and no owner charge moves.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut` shows why
+the word "before" is load-bearing. Over `F_29`, an exact aligned abstract
+packet simultaneously has the allowed `(2,2),(4,4),(4,4)` paired profile,
+a diagonal-free two-regular pole graph, all facet and deck transport laws,
+four colored edges, defect two, and a geometrically irreducible positive
+source form with full leading support whose `10 x 8` Vieta matrix has rank
+seven. Thus profile, defect, irreducibility, and the determinant alone do not
+form a universal exclusion interface. For this packet the `J`-resultant
+forces
+
+```text
+c_0(W)=W^2-7W+9=(W-13)(W-23),
+```
+
+whose roots lie outside the six allowed `J` labels; the companion `I`
+identity also fails at `W=xi`. This is a small-characteristic route cut, not
+a deployed-field packet or orientation deletion. The next exact classifier
+must retain rank survivors through forced colored support and the companion
+quotient identity.
+
+## 2026-07-30 coordinate complete-fiber Vieta reduction
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler` removes an
+unnecessary nonlinear step from the coordinate search.  A complete packet
+has twelve deck-paired source-fiber edge records over
+`Omega=K union {eta} union L^c`, not only the five common-`K` records.  The
+same Vieta calculation gives exact `24 x 8` positive and `24 x 7` negative
+linear systems.  Their square-root-free product halves are
+
+```text
+rank[-p v^2,-p uv,-p u^2,v^2,uv,u^2]_(Omega)<=5,
+rank[-p v,-p u,v,u]_(Omega)<=3.
+```
+
+Positive parity therefore has a first nonvacuous `6 x 6` determinant on
+`K union {eta}`.  It rejects the earlier profile-only `F_29` witness with
+determinant ten, explaining the failed companion identity without computing
+a resultant.  The separator is not by itself universal: on the exact
+defect-zero source-facet fixture, 140 of the 5,040 assignments of six signed
+square-pairs in `F_29` pass the six-row gate with leading support.  None
+passes after the six `L^c` rows are appended.  These finite counts are route
+evidence for one fixture, not a deployed-field exclusion.
+
+Negative parity is sharper.  Its product ratio `B_0/B_2` cannot be constant
+without forcing an edge of weight at least four and defect at least six.
+It is therefore an injective Mobius map, so all twelve edge products are
+distinct.  The 14 common-`K` pair-multiplicity skeletons reduce exactly to
+seven: three in profile `(4,4,2)` and four in profile `(4,3,3)`.
+
+The next coordinate classifier should enumerate canonical complete
+source-facet packets, apply the complete product matrices first, and retain
+only their kernels for the full `q` equations.  Forced colored support and
+the companion quotient identity then follow from realizing all 24 stars and
+should be replayed as independent audits.  Do not return to profile-only or
+`K+eta`-only determinant searches.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate`
+adds the first complete-packet gate specific to negative parity.  Conjugate
+source negation by the injective Mobius product map.  If `(y_i,z_i)` are the
+edge products at the six source-label pairs, they are free orbits of one
+projective involution and therefore
+
+```text
+rank [y_i z_i,-(y_i+z_i),-1]_(i=1,...,6)<=2.
+```
+
+This is a coefficient-free `6 x 3` test.  Two distinct antisymmetric product
+pairs `(u,-u),(v,-v)` force the common involution to be negation, hence force
+every pair sum to vanish.  The exact defect-zero fixture contains
+`(AC,-AC),(BC,-BC)` but also `(DE,DF)` with nonzero sum.  It is therefore
+symbolically deleted in negative parity over every odd field.  The zero
+survivors among all 5,040 signed-square assignments in `F_29` and the printed
+minor 12 are independent regressions.  Apply the same gate to every other
+canonical negative completion retained by the later loop-budget cut before
+the full Mobius and `q` systems.
+
+The same theorem covers positive packets whenever `A_0/A_2` reduces to
+degree at most one.  The constant branch violates defect three; the Mobius
+branch obeys the paired-product gate.  Hence the printed fixture is also
+deleted on the positive linear-product locus, and any remaining positive
+realization must have genuinely quadratic product ratio.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate` then uses the
+sum half of the Vieta system.  Every antipodal common-`K` edge has `q=0`
+and forces one root of the quadratic `A_1`.  Three loop fibers force
+`A_1=0`, contradicting the required nonzero `q B_2` at a nonloop edge.
+Thus negative parity has at most two `K` loops, and the seven injective
+multiplicity skeletons reduce exactly to five, in loop strata
+`0,1,1,2,2`.  In the two-loop strata `A_1` is already fixed up to scale.
+Use these factor pins before the remaining full-product or `q` equations.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler`
+packages those residual equations without redundant loop rows.  If
+`R_Lambda` is the locator of the `ell=0,1,2` loop fibers, write
+`A_1=R_Lambda C`.  On the nonloop fibers the rows
+
+```text
+[R(kappa),R(kappa)kappa,...,R(kappa)kappa^(2-ell),q,qkappa]
+```
+
+form a square determinant of size `5-ell`.  Thus the loop strata have exact
+`5 x 5`, `4 x 4`, and `3 x 3` gates.  The two-loop skeletons are now the
+smallest direct target: classify their signed cross-edge assignments through
+the `3 x 3` determinant, retain leading support, and only then apply the
+complete product and paired-involution gates.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld` couples
+the two halves rather than treating that `3 x 3` determinant in isolation.
+On either two-loop skeleton, the five product rows have rank exactly three
+and determine the Mobius denominator `D=B_2` projectively.  If `h` is either
+loop and `i,j` are nonloops, the residual sum equations are equivalent to
+
+```text
+q_i R(j)(h-i)(p_h-p_j)=q_j R(i)(h-j)(p_h-p_i).
+```
+
+Two instances against one fixed nonloop reconstruct all five common-`K`
+sum rows.  Apply the product rank and leading-support gate first, then these
+two scalar welds.  The next proof-producing atlas has only 960 labeled
+signed assignments in skeleton `(1,1,0;1,1,1)` and 240 in
+`(1,0,1;2,0,1)` before source and profile symmetries.  A no-hit search is
+not a proof: a universal deletion must print symbolic factors or a complete
+canonical certificate with every distinctness/support saturation.  Any
+survivor still needs the other seven fibers and paired-product gate.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier`
+removes the 960-case atlas for the `(4,4,2)` row.  Shared-loop cancellation
+forces
+
+```text
+k_B^2=k_AB*k_AC,       k_A^2=k_AB*k_BC.
+```
+
+After normalizing by `k_AB`, the labels are `{1,l,m,m^2,l^2}`.  The exact
+fifteen-cell antipodal matching table leaves only one scaled sixth-root
+hexagon and two eighth-root six-subsets, distinguished by which loop label
+is the missing-point singleton.  The banked `F_29` five-set lies off all
+three loci, so its complete no-survivor result follows symbolically and no
+further fixed-`F_29` enumeration is useful.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier`
+then imposes all five Mobius product minors on those loci.  Normalize the
+`J` pairs by `A=1`; the only edge-sign invariant is
+`tau=sign(AB)sign(AC)sign(BC)`.  Each of the six locus/sign rows reduces to
+one quadratic for `b=B/A` and one linear formula for `c=C/A`.  Thus the
+entire `(4,4,2)` common-`K` product frontier has at most twelve geometric
+packets.  All six algebraic rows are nonempty, so the branch cannot be
+deleted at common `K`.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift`
+also closes the remaining common-`K` sign question.  The two squared label
+identities each have sign `+/-1`; after choosing the `AB` orbit orientation,
+the `AC` and `BC` orientations are uniquely forced.  Exactly two of eight
+orientation triples satisfy both welds, and either reconstructs all five
+common-fiber Vieta rows.  Therefore construct the `eta` and six `L^c`
+records next and apply the paired source-label involution.
+Do not reopen generic label, edge-sign, or `b,c` enumeration.
+
+For the second two-loop skeleton, the PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas`
+applies the weld to the doubled signed `AB` pair.  If `k_+,k_-` carry the
+two products and `k_C` is the other loop label, then
+
+```text
+k_C^2=k_+*k_-.
+```
+
+Normalize by `k_+`.  The labels are `{1,M,M^2,L,Z}`; the exact fifteen-cell
+antipodal table retains nine one-parameter cells and deletes six collision
+cells.  The banked `F_29` five-set lies off every retained cell, explaining
+its q failure without enumeration.  The next direct calculation should use
+products `(-1,-c^2,b,-b,bc)` on `(A,C,+,-,BC)`, impose all five Mobius
+minors and the one remaining weld on each of the nine cells, and saturate by
+label and signed-pair distinctness.  Do not return to the 240 labeled atlas.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut`
+performs the first such pass with two transparent maximal minors.  Cells
+`X1,N2,Z1` are impossible because the minor is a product of nonzero label
+and signed-pair differences.  Cells `X2,N1,L1` force `b=-c^3`.  The exact
+frontier is therefore six cells:
+
+```text
+X2,N1,L1 on b=-c^3;       M1,M2,M3 pending further minors.
+```
+
+Substitute the cubic relation before eliminating the first three cells.
+Keep the remaining squared weld explicit and treat `M1,M2,M3` separately;
+one unsaturated six-cell ideal would reintroduce the deleted collision
+components.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier`
+finishes `X2,N1,L1`.  The first two share
+
+```text
+P_8(M)=M^4+8M^3-2M^2+8M+1=0
+```
+
+and have the sign-specific quadratic
+
+```text
+(c^2+1)(M+1)^2 +/- c(M-1)^2=0.
+```
+
+Cell `L1` has `M^2=-1`, `2c^4+3c^2+2=0`, and
+`3L=4c^3+2c-M`.  These equations are equivalent to all remaining common-`K`
+product minors and the second squared weld under the exact guards.  Each
+cell contributes at most eight candidates, and guard-passing finite-field
+witnesses prove all three common-`K` interfaces are nonempty.  Replay these
+24 candidates only during seven-fiber completion; the unresolved
+common-`K` work is now exactly `M1,M2,M3`.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion`
+deletes `M1` without suppressing an affine-chart boundary.  On `b+R=0`,
+the five raw product minors force `M=R^3` and `c=MR^2`; the remaining weld
+would require both `R^6+1=0` and `R^5-R+2=0`, whose resultant is `4`.
+On `b+R!=0`, the normalized Mobius chart leaves two product equations and
+one squared weld.  A first exact integral ideal certificate forces
+`T=MR+3M+5R^2+3R+4=0` under actual guards, while adjoining `T` gives
+`b^2(b+1)^2=0`, contradicting distinct nonzero signed `A,B` pairs.
+Thus only `M2,M3` remain at the `(4,3,3)` common-`K` interface.  Analyze
+their Mobius charts separately, including every chart boundary; do not carry
+`M1` into seven-fiber assembly or ask external compute to rediscover it.

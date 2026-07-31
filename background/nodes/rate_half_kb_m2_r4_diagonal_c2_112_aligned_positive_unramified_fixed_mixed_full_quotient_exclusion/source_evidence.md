@@ -1,0 +1,37 @@
+# Source evidence
+
+```text
+unramified compiler
+988e60a010ea2793049505b5e9b0ff6d5c28b300e4a00a4b8a3724849ede09f0
+
+fixed quartic router
+412c96175f61cf83b4964d3d6f7df8a75c310c20bf2aa70c4d4d3d03b2ee898e
+
+fixed direct router
+8b3fd59b19fa2317f18278de3bc92615af2ae134e4b1ffddd55d2e75188891e6
+
+fixed mixed minor cache
+b44414abc54949c3a111e15a012bd6e96e060f1c9a3b81172ab05ffe7d2dcfb2
+
+fixed mixed conic cache
+4f091eee7d93b05939cb15303befc75f0b37628112496ac8b5c703f9b2acafd5
+
+fixed mixed component-pair cache
+8510195c58cedb3b1759bf182113be5f820ed5157a5d0c20b11fa63ef2ada08e
+
+fixed mixed degree-five survivor certificate
+8ec4e97be7cf2adebe40a450ada0b385268686f44566ca520c964896e53fffe9
+
+fixed mixed degree-five full quotient probe
+0b516fcdbf890854faec25a5fbff315096c056de4fc91d1fa4b386e801686ede
+
+fixed mixed linear router
+97ad3cc0199365e0304e065148fc1256b2c2fd8eb43914ace22767538fd2f148
+
+fixed off-common router
+d75a8ae2ee7a8b25a98d515cae54e76acf7fc9cafe7763b461dcc45b7af53a1a
+```
+
+The degree-five verifier regenerates its survivor certificate byte-for-byte.
+The linear verifier uses the raw conic cache and the off-common verifier
+reclassifies all 20 residual triples from the pinned minor cache.

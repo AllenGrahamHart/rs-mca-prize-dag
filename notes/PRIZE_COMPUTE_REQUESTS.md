@@ -122,7 +122,7 @@ it should link this ledger as future work rather than solicit the computation.
 Cost estimates are conservative ceilings and must include failed shards and
 retries; raw artifact storage is separate.
 
-### Pre-request CR-KB-C2-112-POS-QS-SAT: aligned positive q-slice saturation
+### Resolved CR-KB-C2-112-POS-QS-SAT: aligned positive q-slice saturation
 
 - **Decision:** delete or exhibit an admissible survivor in the aligned
   positive saturated source-line `(1,1,2)` branch of `rate_half_band_closure`.
@@ -134,25 +134,70 @@ retries; raw artifact storage is separate.
 - **Banked generator:**
   `critical/nodes/rate_half_band_closure/notes/kb_c2_112_positive_qslice_symmetric.py`.
 - **Required output:** a comprehensive Gröbner/Bezout/subresultant certificate
-  after saturation by `L*D`, exactly the printed denominators, and collision
-  factors, plus a dependency-free exact checker. Generic-field gcds, pairwise
-  resultants, and numerical slices are incomplete.
-- **Known pilot:** the generator replays all three allocations in each of the
-  four template/ramification cells under the `60 s` tiny-RAMguard cap. Its
-  independent exact audit checks the relative reconstruction scale and all
-  endpoint residual coefficients. The earlier unscaled minor/FLINT pilot and
-  its hashes are retracted and must not be reused.
-- **PASS:** mint a PROVED aligned-positive q-slice exclusion node; together
-  with the existing aligned-negative theorem, delete the complete aligned
-  source-line branch.
+  for the six remaining unramified ideals after saturation by `L*D`, exactly
+  the printed denominators, and collision factors, plus a dependency-free
+  exact checker. Generic-field gcds, pairwise resultants, and numerical slices
+  are incomplete.
+- **Banked close:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion`
+  closes all six repaired `w=0` cells. It retains the exact scale, audits the
+  raw norm independently, descends moving reciprocity to `s=b+1/b`, and gives
+  six unit full-forbidden saturations over `F_2130706433`. The earlier
+  unscaled minor/FLINT pilot and its hashes remain retracted.
+- **Bounded local pilot (2026-07-30):** the fixed-moving unramified `same`
+  cell generates four scale-substituted equations of shapes
+  `(degree,terms)=(16,870),(16,900),(13,396),(13,405)` after exact removal of
+  `w^2(p-1)^2`. Both the direct deployed-field full saturation and the first
+  quadratic-in-`b` scale-free resultant reached the hard `60 s`
+  `ramguard tiny` limit without a certificate. Do not rerun this SymPy
+  representation unchanged; use modular interpolation, a dedicated
+  quadratic-resultant emitter, or contributed compute with streaming partial
+  factors.
+- **Dedicated-FLINT update (2026-07-30):** the corrected quadratic compiler
+  now emits three star resultants, four factored coefficient minors, and the
+  first projection cascade in about `21 s` under the same `256 MB / 60 s`
+  envelope.  The common linear projection component is exactly excluded by
+  forbidden support.  The common reciprocal quartic is generically rank two
+  but fails the kernel-conic condition; its exceptions are reduced to a
+  printed degree-`496` norm in `t` plus four denominator factors.  See
+  `kb_c2_112_aligned_positive_unramified_fixed_same_frontier_20260730.md`.
+  The same router now narrows all three fixed-moving allocations.  Their
+  nontrivial divisorial components reduce to degree-`496`, degree-`225`, and
+  degree-`48` kernel-conic norms; the mixed linear rank curve adds a
+  degree-`116` norm.  Exact reciprocal trace descent now also narrows the
+  moving-moving cells.  Their linear components are entirely forbidden;
+  their remaining common components leave degree-`160`, degree-`26`, and
+  degree-`1224` conic norms for `same`, `swap`, and `mixed`, respectively.
+  The degree-12 mixed component is screened without a function-field gcd.
+  The moving `swap` and `same` finite and off-common ledgers are fully
+  replayed and mint PROVED q-slice exclusions. Moving `mixed` has four exact
+  q-slice points over degrees `3,3,7,7`; only the two degree-3 traces embed in
+  the deployed field, and all four reciprocal orientations fail both full
+  colored quotient norms. Its twelve off-common combinations are boundary,
+  so a separate PROVED full-quotient node closes that cell. Fixed `same`
+  subsequently leaves four base-field q-slice points on its direct quartic;
+  all four fail both full quotient norms, while both off-common branches are
+  boundary. A separate PROVED node closes fixed `same`. Fixed `swap` leaves
+  one quadratic-field point on its degree-333 direct norm; it also fails
+  both full quotient norms, while all nine off-common endpoints are boundary.
+  A separate PROVED node closes fixed `swap`. Fixed `mixed` leaves four
+  quadratic-field q-slice points on its degree-338 direct norm; all fail both
+  full quotient norms. Its complete degree-116 raw linear-rank norm is empty,
+  and its 20 off-common combinations give five boundary endpoints. A third
+  PROVED node closes fixed `mixed`; all six unramified allocations are done.
+- **PASS:** mint PROVED aligned-positive unramified full-quotient exclusion
+  nodes;
+  together with the ramified and aligned-negative theorems, delete the
+  complete aligned source-line branch.
 - **SURVIVOR:** replay it independently, then route it to both full quotient
   identities; do not repair the deletion claim by genericity.
 - **INCOMPLETE:** evidence only; no DAG status change.
-- **Authorization:** external pre-request. No reliable wall-time/cost ceiling
-  or compact certificate emitter exists yet, so do not launch it on the
-  remaining local Modal balance.
+- **Authorization:** resolved locally; no external or Modal request remains.
+- **Branch close:** the PROVED complete source-line exclusion composes all 32
+  census/compiler/cell prerequisites. The residual `c2(1,1,2)` frontier is
+  coordinate and source-cover assembly, not another saturation computation.
 
-### Pre-request CR-KB-C2-112-NEAR-QS-ELIM: near-aligned q-slice elimination
+### Resolved CR-KB-C2-112-NEAR-QS-ELIM: near-aligned q-slice elimination
 
 - **Decision:** delete or exhibit an admissible reconstructed source form in
   the near-aligned saturated source-line `(1,1,2)` branch.
@@ -164,8 +209,7 @@ retries; raw artifact storage is separate.
   affine positive charts. Treat repaired `w=0` in a separate homogeneous
   chart. Negative forms must first lie on the proved fixed-moving `B=0` or
   moving-moving `B*C=0` reconstruction loci.
-- **Banked first chart:**
-  PROVED node
+- **Banked direct-square chart:** PROVED node
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion`
   treats fixed-moving, common endpoint `xi=2`, and the square allocation
   `(c -> 1/2, d -> 1/d)` over the deployed KoalaBear field. Four correct
@@ -174,27 +218,75 @@ retries; raw artifact storage is separate.
   reduction modulo `p=2130706433`. The former middle eliminants remain
   retracted because they extracted only the exact monomial coefficient of
   `b`; both current checkers carry a regression fence for that error.
-- **Immediate unresolved input:** the swapped square allocation in that same
-  chart has four endpoint curves of bidegrees `(3,2),(2,2),(3,2),(2,2)`.
-  First impose the normalization-free constant/leading gate `(KBNEAR-CL)`;
-  then impose both remaining coefficients and saturate by the printed
-  incidence, line-leading, label-collision, and normalization factors. Then
-  process the mixed allocation, the other `xi` orbit, moving-moving, and the
-  negative `B/C` loci.
-- **Required output:** for every chart, either a unit/collision-only exact
-  elimination certificate or an explicit algebraic survivor with `b,z`, and
-  `lambda_scale` reconstructed and all label inequalities checked. Every
-  survivor advances to both full identities `(KBQ2-2)`; q-slice passage alone
-  is not realization.
-- **PASS:** mint a scoped PROVED near-positive or near-negative exclusion node
-  after all charts and isolated leading branches in that scope are covered.
-  One of the 18 affine positive charts now satisfies this contract.
-- **INCOMPLETE:** curve factors, pairwise resultants, or generic-field gcds
-  alone are narrowing evidence.
-- **Authorization:** external pre-request for the remaining chart queue.
-  Modal is currently blocked by the workspace spend limit. Local work is
-  restricted to one `60 s` tiny-RAMguard shard at a time and must stop if host
-  memory pressure returns; do not launch unpriced remote work.
+- **Banked swapped-square chart:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion`
+  treats the same normalized fixed-moving template with target roots
+  interchanged. Four generic pair certificates and two exceptional-line
+  classifications have only forbidden support; independent opposite-variable
+  elimination and exact reduction modulo `p=2130706433` confirm them.
+- **Banked mixed chart:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion`
+  treats the same template with both distinct target roots on both residuals.
+  Degree-96 and degree-186 projection certificates have collision-only common
+  support, independently in both projection directions and modulo the
+  deployed characteristic.
+- **Banked reciprocal-xi mixed chart:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion`
+  applies the same dual-projection certificate to target roots `2,1/d`.
+- **Banked reciprocal-xi square charts:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions`
+  covers both square allocations with all eight generic endpoint-line pairs,
+  every leading-zero branch, an independent opposite-variable audit, and
+  exact replay modulo `p=2130706433`. Its exceptional support is either a
+  collision, inversion-fixed, or on the excluded `z=1` locus.
+- **Banked other-xi direct square chart:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion`
+  treats `xi=b` and `c->1/b,d->1/d`. Four product-branch pairs,
+  every linear leading-zero fiber, a direct/resultant path, and an independent
+  fraction-free/subresultant path have only forbidden support in
+  characteristic zero and modulo the deployed prime.
+- **Banked other-xi swapped square chart:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion`
+  treats `c->1/d,d->1/b`. Four linear-by-quadratic branch pairs,
+  every line-degeneration fiber, and independent resultant/subresultant
+  paths have only collision or inversion-fixed support over characteristic
+  zero and the deployed characteristic.
+- **Banked other-xi mixed chart:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion`
+  has a complete four-component-pair classification with only forbidden
+  `F_(p^6)` points, fail-closed primary shards, and an independent
+  fraction-free/subresultant residue-field audit.
+- **Banked moving-moving a-xi square chart:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion`
+  reduces the four reciprocal conditions through `s=b+1/b`, exhausts all
+  nine parent-component pairs, and gives unit forbidden saturations for all
+  15 nonstandard modular factors whose degrees divide six. Independent
+  direct/resultant and fraction-free/subresultant certificates agree.
+- **Banked moving-moving a-xi square-ell chart:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion`
+  exhausts its six parent-component pairs. Irreducible degrees five and nine
+  cannot enter `F_(p^6)`; all four retained linear fibers have unit forbidden
+  saturations in independent direct/resultant and fraction-free/subresultant
+  paths.
+- **Banked moving-moving a-xi mixed chart:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion`
+  reduces to one nonstandard parent-component pair. Its complete modular
+  router retains four linear, five quadratic, and one cubic factor, all with
+  unit forbidden saturation; irreducible degrees 5, 7, and 29 cannot enter
+  `F_(p^6)`. This completes the moving-moving `xi=a` orbit.
+- **Resolution:** all 18 affine-positive charts are PROVED empty. The PROVED
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion`
+  removes both negative templates, including forced ramification. The PROVED
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion`
+  treats `q_hom=Y(T-dY)` directly and closes all seven positive homogeneous
+  cells by full deployed-field saturation.
+- **DAG effect:** the complete near-aligned source-line branch is empty by
+  the necessary q-slice gate. Its evidence is banked under
+  `rate_half_band_closure`; no target status changes without the remaining
+  packet/source-row assembly.
+- **Retirement:** do not request or fund further near-q-slice chart
+  elimination. Preserve the checkers and move compute requests to the six
+  aligned positive unramified cells or to a proved assembly interface.
 
 ## Upstream handoff convention
 
@@ -10496,3 +10588,138 @@ Do not resume this as repeated laptop shards. Before external launch:
 The expected computation is finite and small-memory, but no dollar estimate
 is accepted until the canonical router and one proof-producing pilot are
 measured. Large raw enumeration without certificates is out of scope.
+
+## CR-K3-M2-R4-COORDINATE-VIETA-F29: signed-edge gate falsifier
+
+**Status:** BLOCKED BEFORE START by the Modal workspace spend limit on
+2026-07-30. No app id was allocated and no credit was spent. Do not retry
+until the workspace limit is restored. One container only; no fleet.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler` supplies exact
+`10 x 8` positive and `10 x 7` negative common-`K` kernel gates. Before a
+large symbolic elimination, test whether those gates can already be made
+universally nonzero from the two allowed coordinate degree profiles.
+
+The pilot fixes the exact field/configuration
+
+```text
+F_29,
+I={+/-1,+/-4,+/-9},
+J={+/-2,+/-3,+/-5},
+xi=-9=20,
+K=I minus {xi}={1,28,4,25,9}.
+```
+
+All five `K` values are squares. Exhaust the `15^5` ordered assignments of
+the three antipodal edge orbits and the six nonantipodal edge orbits with
+both lift orientations. Retain exactly the proved pair-degree profiles
+`(4,4,2)` and `(4,3,3)` up to pair permutation and exact duplicate-edge
+defect at most three. For every retained packet,
+reconstruct the two exact Vieta matrices, require nonvanishing leading
+support and a nonzero odd part, and test every aligned squarefree quadratic
+`c` supported on two `J` labels against both full quotient identities.
+
+Launcher:
+
+```text
+tools/ramguard modal -- ~/.venvs/modal/bin/modal run \
+  critical/nodes/rate_half_band_closure/notes/kb_coordinate_vieta_f29_falsifier_modal.py
+```
+
+Resource cap: one CPU, 256 MiB, a 60-second hard container timeout, and an
+internal 52-second partial-output deadline. Conservative cost is below
+`$0.01`, hence below the campaign `$1` ceiling. The worker returns the first
+exact positive/negative gate witnesses, complete counters, and any full
+quotient witness. The independent local checker is
+`verify_kb_coordinate_vieta_f29_witness.py`.
+
+Semantics:
+
+- `PASS` with a gate witness: exact falsification of any claim that the
+  printed degree profiles alone force the corresponding determinant nonzero;
+- `PASS` with a full quotient witness: stronger small-characteristic route
+  falsifier requiring side-condition and liftability analysis;
+- complete no-witness output: exact only for this fixed `F_29` label packet,
+  evidence only for the universal coordinate branch;
+- timeout: partial evidence only, with counters and any retained witnesses;
+- no outcome closes or refutes the deployed-field coordinate orientation.
+
+The blocked pilot has already been superseded for route selection by the
+hand-constructed and independently replayed PROVED node
+`rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut`. That node
+gives one defect-two positive rank-seven witness and shows that its forced
+colored quadratic is unsupported. A future launch is useful only as a
+complete census of this fixed label packet, not as discovery of the first
+witness.
+
+## CR-K3-M2-R4-COORDINATE-COMPLETE-PRODUCT: canonical packet classifier
+
+**Status:** EXTERNAL/DEFERRED.  Do not launch while the Modal workspace spend
+limit is active.  No cost estimate is accepted until one canonical stratum
+is measured; aggregate cost must remain below the campaign ceiling or be
+explicitly reauthorized.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler` replaces the
+five-`K` determinant search by complete twelve-fiber product gates.  A
+proof-producing classifier should:
+
+1. canonically enumerate complete coordinate source-facet packets, including
+   `I,L,K,eta`, the two paired degree profiles, all six complement records,
+   pole-graph colors, and defect at most three;
+2. form the exact `12 x 6` positive and `12 x 4` negative product matrices;
+   for negative parity first apply the `6 x 3` paired-product involution
+   matrix from `(KBNP-1)`; apply the same gate to positive kernels whose
+   ratio `A_0/A_2` reduces to degree at most one;
+3. emit a nonzero maximal-minor certificate for each deleted packet orbit;
+4. emit every survivor with its exact product-map kernel and leading-support
+   values, then lift only those survivors to the complete `q` system;
+5. independently replay packet completeness, canonical-orbit ownership, and
+   every minor from compact artifacts.
+
+The negative lane now starts from only the five loop-budget survivors in
+`(KBNL-2)`.  Apply the symbolic `(KBNP-3)` rule before any minors: two
+distinct antisymmetric product pairs force every pair to be antisymmetric
+and already delete the banked defect-zero fixture.  The positive lane must
+use all twelve rows: the exact
+defect-zero fixture has 140 of 5,040 `F_29` separator survivors, although no
+assignment in that fixed family survives the complete product matrix.
+
+Within the negative lane, shard first by loop count and use `(KBNQ-3)`.
+The two loop-count-two skeletons require only signed `3 x 3` q determinants;
+do not send their already-consumed loop rows to a generic `10 x 7` kernel.
+After the product matrix passes, replace that determinant by `(KBNW-2)`:
+the unique rank-three Mobius kernel fixes `B_2`, and two scalar product-to-q
+welds are necessary and sufficient for all five common-fiber sum rows.  The
+two labeled signed atlases have raw sizes 960 and 240.  Canonicalization must
+retain edge-orbit orientations, and a negative answer must certify the
+product minors or weld residuals for every orbit rather than report no hits.
+
+The 960-row `(4,4,2)` atlas is now superseded by two PROVED symbolic
+classifiers.  Its common-`K` survivors lie on only three antipodal label
+loci, and all product-rank survivors are the six quadratic-linear rows
+`(KB4P-3)--(KB4P-5)`, at most twelve geometric packets.  An external worker
+must start from those rows and their two PROVED q-compatible orientation
+classes, then compile the `eta` plus six `L^c` records.  Do not spend compute
+rediscovering either common-`K` products or q signs.  The 240-row `(4,3,3)`
+two-loop atlas is also superseded at the label level: `(KB43-3)` gives nine
+one-parameter antipodal cells.  The first product-minor cut deletes
+`X1,N2,Z1` and forces `b=-c^3` on `X2,N1,L1`; only those three constrained
+cells and `M1,M2,M3` remain.  Product-map and second-weld elimination must
+start from this six-cell ledger, not labeled assignments.
+
+The constrained cells are now fully compiled: `X2,N1` use one reciprocal
+quartic in `M` plus a quadratic in `c`, and `L1` uses degrees `2 x 4` with a
+linear locator.  Their total common-`K` cap is 24, with exact witnesses.
+External work should not eliminate them again; carry them into complete
+source-facet/seven-fiber assembly.  `M1` is now PROVED empty by a raw-boundary
+resultant and an exact two-stage interior ideal certificate.  Only `M2,M3`
+still need common-`K` product/q classification; external work must start
+from those two cells and retain separate chart-boundary certificates.
+
+Suggested pilot: one canonical packet stratum, one CPU, at most 512 MiB,
+60 seconds, deterministic partial output, and no parallel fleet.  Modular
+reconnaissance is evidence only; universal deletion requires symbolic or
+proof-producing certificates whose saturations include distinct labels,
+nonzero leading support, and the source-facet side conditions.

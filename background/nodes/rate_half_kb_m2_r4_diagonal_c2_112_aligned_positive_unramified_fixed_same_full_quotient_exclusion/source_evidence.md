@@ -1,0 +1,30 @@
+# Source evidence
+
+```text
+unramified compiler
+988e60a010ea2793049505b5e9b0ff6d5c28b300e4a00a4b8a3724849ede09f0
+
+fixed quartic router at closure snapshot
+412c96175f61cf83b4964d3d6f7df8a75c310c20bf2aa70c4d4d3d03b2ee898e
+
+fixed direct router at closure snapshot
+c1689b7d0c82926d341f2a51140f2e96f0889b21c70b58daefb6d5564228f21d
+
+fixed same minor cache
+f9767957f0946595c9e3618a469cdc69ecde3809b7726e1ef5f9061054a6ad2f
+
+fixed same conic cache
+0ba5df80a91444b44c5e8e8e2b5124e68ea7cfd891fca8a448730b973b9e4c00
+
+fixed same survivor certificate
+79369e3c0e39d8525c069e2bb4878b43263fee6ab9ab04065f0ede9cbde5b008
+
+fixed same full quotient probe
+bd1a945e6b09578278d3bfee6b9d7307c2abd365941a8ce143bb4ae390fc40e0
+
+fixed off-common router at closure snapshot
+e92b0f9f5d4fce96ebde1be5e2b7e7bc1fb2d0f482d60fc022ce30cfeee17fc4
+```
+
+The exact verifier regenerates the survivor certificate byte-for-byte before
+the quotient and off-common replays.

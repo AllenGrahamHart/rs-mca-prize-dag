@@ -2,17 +2,15 @@
 
 - Primary exact helper:
   `critical/nodes/rate_half_band_closure/notes/kb_c2_112_near_fixed_xi_square_direct.py`,
-  SHA-256 `7d3892fddcb4ab95f1fd6f6fa58127cf77c72c024e3272fab9511152df27db93`.
+  SHA-256 `d42b13b0cff26e448ad93e9925ce0e4283797d03c8a2f4d630175dddd457e5f3`.
 - Independent exact helper:
   `critical/nodes/rate_half_band_closure/notes/kb_c2_112_near_fixed_xi_square_direct_audit.py`,
-  SHA-256 `96036a63c54b94beab3ce6d33b0237c6c78b7e9208ea37a770c00171159dcde5`.
-- The two primary shards finish in about 35 seconds each; the two independent
-  left-line batches were split into four pair shards after one batch reached
-  the `60 s` cap under host load. Each independent pair shard now finishes
-  below the cap under the `tiny` RAMguard profile.
-- `verify.py` and `verify_left1.py` replay the primary shards.
-  The four `verify_audit*.py` wrappers replay the independently written
-  Bezout pair shards. Each wrapper pins its helper hash.
+  SHA-256 `54b993280c506bc85976aaebd746b388c6ebb0ecbcb032bc513a96708310465f`.
+- Primary and independent work are each split into four endpoint-pair shards
+  after broader batches reached the `60 s` cap under host load. Every pair
+  shard finishes below the cap under the `tiny` RAMguard profile.
+- The four primary `verify*.py` wrappers and four `verify_audit*.py` wrappers
+  pin their shared helper hashes.
 - No floating-point or remote computation is used.
 
 The retracted helper and outputs remain documented in

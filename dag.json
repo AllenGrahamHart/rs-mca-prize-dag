@@ -19203,6 +19203,250 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
+   "title": "KoalaBear c2 (1,1,2) aligned positive ramified q-slice exclusion",
+   "status": "PROVED",
+   "closure": "all six aligned positive forced-ramified q-slice ideals are empty on the admissible open set",
+   "statement": "Normalize J_0={2,1/2,b,1/b}, q(T)=T^2+tT+p, and the forced source branch to w=0. Exact positive reconstruction has two internal templates and three residual UFD allocations. Its relative scales are 3(2b-1)(p-1)(p+2t+4) in fixed-moving and -3(b^2-1)(p-1)(p+2t+4)(5p+4t+5) in moving-moving. After retaining that scale, removing only proved nonzero factors, and saturating by every endpoint, orbit, discriminant, normalization, and reconstruction factor, all three fixed-moving ideals are unit over F_2130706433. The moving equations are reciprocal quartics in b; exact descent to s=b+1/b makes all three corresponding saturated ideals unit. Thus no aligned positive forced-ramified candidate passes the necessary q-slice identity. Combined with the aligned-negative theorem, the complete aligned w=0 branch is empty; aligned positive w!=0 and the near-aligned homogeneous endpoint boundary remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/README.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify_fixed_mixed.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify_fixed_same.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify_fixed_swap.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify_moving_mixed.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify_moving_same.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify_moving_swap.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify_runner.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion",
+   "title": "KoalaBear c2 (1,1,2) aligned positive unramified moving-swap q-slice exclusion",
+   "status": "PROVED",
+   "closure": "the aligned positive unramified moving-moving swapped-allocation q-slice cell is empty",
+   "statement": "Normalize J_0={2,1/2,b,1/b}, q(T)=T^2+tT+p, and trace=b+b^-1 in the aligned positive unramified moving-moving swapped allocation. Exact scale retention and reciprocal trace descent make the four q-slice equations quadratic in trace. Their coefficient-minor projections have only the forbidden linear component 4p+5t+4, the component pt+5p+t, and finite off-common intersections. The linear component is boundary-supported. The second component generically misses the kernel conic; all six exceptional norm factors are replayed over their finite extensions, with four boundary factors and two candidates failing the original equations. The off-common norm has seven factors and eight endpoint candidates, all on the explicit base forbidden product. Hence this cell is empty; the other five aligned-positive unramified cells remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion/README.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion/verify_exact.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion",
+   "title": "KoalaBear c2 (1,1,2) aligned positive unramified moving-same q-slice exclusion",
+   "status": "PROVED",
+   "closure": "the aligned positive unramified moving-moving same-side q-slice cell is empty",
+   "statement": "Normalize J_0={2,1/2,b,1/b}, q(T)=T^2+tT+p, and trace=b+b^-1 in the aligned positive unramified moving-moving same-side allocation. Exact scale retention and reciprocal trace descent make the four q-slice equations quadratic in trace. Their coefficient-minor projections have the forbidden component 4p+5t+4, one reciprocal cubic, and finite off-common intersections. The linear component is boundary-supported. A direct minor-conic resultant on the cubic gives 21 endpoint factors; eight are boundary, eight have no common determinant/conic root, and five fail the original equations. The off-common ledger has seven endpoint factors and seven candidates, all on the base forbidden product. Hence this cell is empty; four aligned-positive unramified sibling cells remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion/README.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion/verify_exact.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
+   "title": "KoalaBear c2 (1,1,2) aligned positive unramified moving-mixed full-quotient exclusion",
+   "status": "PROVED",
+   "closure": "the aligned positive unramified moving-moving mixed allocation has q-slice survivors but none satisfy the full colored quotient identities over the deployed field",
+   "statement": "Normalize J_0={2,1/2,b,1/b}, q(T)=T^2+tT+p, and trace=b+b^-1 in the aligned positive unramified moving-moving mixed allocation. The projection support consists of open factors, the forbidden linear component 4p+5t+4, one irreducible degree-12 component, and twelve finite off-common intersections. The off-common intersections give six boundary endpoints. Exact replay on the degree-12 component leaves four q-slice points over degrees 3,3,7,7. The degree-7 points do not embed in F_(p^6); both orientations above each degree-3 trace reproduce the q-slice but fail both full colored quotient norm identities. Hence the moving-mixed allocation is excluded over the deployed field, while the q-slice itself is not empty and three fixed-moving cells remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/README.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/verify_exact.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/verify_exhaustive.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/verify_survivors.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
+   "title": "KoalaBear c2 (1,1,2) aligned positive unramified fixed-same full-quotient exclusion",
+   "status": "PROVED",
+   "closure": "the aligned positive unramified fixed-moving same allocation has q-slice survivors but none satisfy the full colored quotient identities over the deployed field",
+   "statement": "Normalize J_0={2,1/2,b,1/b} and q(T)=T^2+tT+p in the aligned positive unramified fixed-moving same allocation. The common projection support consists of open factors, the forbidden linear component 4p+5t+4, and one reciprocal quartic. The direct affine minor-conic norm has degree 472 and 28 irreducible factors. Exact deployed-field replay gives 20 endpoint candidates: 12 boundary, four empty, and four base-field q-slice points. All four reproduce the q-slice but fail both full colored quotient norm identities. The two off-common combinations give seven distinct endpoints, all boundary. Hence fixed-same is excluded; fixed-swap and fixed-mixed remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion/README.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion/verify_exact.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion/verify_exhaustive.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion/verify_linear.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
+   "title": "KoalaBear c2 (1,1,2) aligned positive unramified fixed-swap full-quotient exclusion",
+   "status": "PROVED",
+   "closure": "the aligned positive unramified fixed-moving swap allocation has one q-slice survivor but it fails both full colored quotient identities over the deployed field",
+   "statement": "Normalize J_0={2,1/2,b,1/b} and q(T)=T^2+tT+p in the aligned positive unramified fixed-moving swap allocation. The common projection support consists of open factors, the forbidden linear component 4p+5t+4, and one reciprocal cubic. The direct affine minor-conic norm has degree 333 and 26 irreducible factors. Exact deployed-field replay gives 24 endpoint candidates: 12 boundary, eleven empty, and one quadratic-field q-slice point. It reproduces the q-slice but fails both full colored quotient norm identities. The two off-common combinations give nine distinct endpoints, all boundary. Hence fixed-swap is excluded; only fixed-mixed remains open in this packet.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion/README.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion/verify_exact.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion/verify_exhaustive.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion/verify_linear.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
+   "title": "KoalaBear c2 (1,1,2) aligned positive unramified fixed-mixed full-quotient exclusion",
+   "status": "PROVED",
+   "closure": "the final aligned positive unramified fixed-moving mixed allocation has q-slice survivors but none satisfy the full colored quotient identities over the deployed field",
+   "statement": "Normalize J_0={2,1/2,b,1/b} and q(T)=T^2+tT+p in the aligned positive unramified fixed-moving mixed allocation. The reciprocal degree-five component has a degree-338 affine minor-conic norm with 25 factors. Exact replay gives 19 deployed endpoint candidates: nine boundary, six empty, and four quadratic-field q-slice points; all four reproduce the q-slice and fail both full quotient norms. The common linear rank curve has a degree-116 raw-kernel norm with ten factors; exact replay leaves only forbidden w values or no common b. All 20 off-common cofactor triples yield five base-boundary endpoints. The p=0 and repeated-endpoint components are boundary. Hence fixed-mixed is excluded and all six aligned-positive unramified allocations are closed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/README.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/verify_degree5.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/verify_linear.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/verify_off_common.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/verify_quotient.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) complete source-line exclusion",
+   "status": "PROVED",
+   "closure": "all 12 saturated source-line packet orbits are excluded across aligned and near-aligned targets, both signs, every allocation, ramification, and projective boundary",
+   "statement": "The saturated defect classifier leaves exactly 96 labeled source-line c2(1,1,2) packets in 12 matching-preserving orbits. The colored quotient compiler partitions every orbit into aligned or near-aligned targets. In the aligned branch, the negative theorem and the seven positive ramified/unramified cell theorems exclude every candidate. In the near branch, the complete negative theorem, all 18 affine-positive chart exclusions, and the seven-shard projective-boundary theorem exclude every candidate. Hence no saturated diagonal c2(1,1,2) source-line packet exists over F_(2130706433^6); coordinate/source-cover branches and later assembly remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/README.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/verify_coverage.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near-aligned negative q-slice exclusion",
+   "status": "PROVED",
+   "closure": "all near-aligned saturated source-line negative candidates, including forced ramification, fail the q-slice gate",
+   "statement": "Normalize J_0={2,1/2,b,1/b}, q=(T-c)(T-d), and the near target Omega={xi,d} with xi in {2,1/2,b}. The negative factor gate and b-inversion reduce both internal templates to B=0; exact reconstruction gives common z,V and opposite U, hence the same q-slice quartic. Its monic constant is one, so passage forces xi*d=+/-1. The plus branch is a label collision. On the minus branches the xi=2 and xi=1/2 projections reconstruct only w=+/-1. For xi=b, the projection factors as d^2(d-1)^6(d+1)^6(d+2)^4(d^3-6d^2+3d-2)^4; its fibers are d=0,+/-1, b=1/2, or w=+/-1. Exact characteristic-zero projection and direct saturation modulo 2130706433 agree. Thus no admissible near-aligned negative candidate passes the necessary q-slice identity, including w=0; the positive homogenized w=0 boundary and later packet assembly remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/README.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/verify_runner.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/verify_template.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/verify_xi_a.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/verify_xi_other.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/verify_xi_tau.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive projective-boundary exclusion",
+   "status": "PROVED",
+   "closure": "all positive near-aligned homogeneous endpoint-boundary q-slice charts are empty",
+   "statement": "Orient the near-aligned projective boundary by eta=infinity, ell=d, w=tau(eta)=0, and q_hom=Y(T-dY). With common internal endpoint a=2, the repaired odd vector is V=(-d,1+W,-dW) and z=(d-2)/(2-4d). The two q_hom membership equations and three internal-star equations reconstruct U uniquely in both internal templates. The projective q-slice is the product of the residual at T=d and the T^4 coefficient residual at infinity. Full deployed-field saturation is unit for the three fixed-moving xi orbits, for moving-moving xi=2,1/2 after exact b+1/b trace descent, and for both constant-ratio signs in the moving other-xi orbit. These seven shards exhaust the positive homogeneous boundary. Combined with the 18 affine-positive exclusions and complete near-negative theorem, the entire near-aligned source-line branch is empty; aligned positive unramified forms and later packet/source-row assembly remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/README.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_fixed_a.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_fixed_other.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_fixed_tau.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_moving_a.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_moving_other_minus.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_moving_other_plus.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_moving_tau.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_runner.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion",
    "title": "KoalaBear c2 (1,1,2) near positive fixed-xi direct-square exclusion",
    "status": "PROVED",
@@ -19219,10 +19463,564 @@
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/frontier.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/verify.py",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/verify_left1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/verify_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/verify_left1_right1.py",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/verify_audit.py",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/verify_audit_left1.py",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/verify_audit_right1.py",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion/verify_audit_left1_right1.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive fixed-xi swapped-square exclusion",
+   "status": "PROVED",
+   "closure": "the deployed-field positive near-aligned fixed-moving xi=a swapped-square allocation chart is empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize the positive near-aligned fixed-moving chart by a=xi=2, eta=c, ell=d and w=1/c, and allocate the residual over c to (W-1/d)^2 and the residual over d to (W-1/2)^2. The four generic endpoint-line pairs have resultant gcd support only at forbidden collisions or inversion-fixed labels. The only additional left-line leading-coefficient-zero component forces 5cd-4c-4d+5=0, equivalently z=1. Exact reduction modulo p=2130706433 preserves these supports, so this one necessary q-slice chart is empty; the other sixteen affine positive charts, projective boundary, and negative loci remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion/verify_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion/verify_left1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion/verify_left1_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion/verify_audit_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion/verify_audit_left1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion/verify_audit_left1_right1.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive fixed-xi mixed exclusion",
+   "status": "PROVED",
+   "closure": "the deployed-field positive near-aligned fixed-moving xi=a mixed residual-allocation chart is empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize the positive near-aligned fixed-moving chart by a=xi=2, eta=c, ell=d and w=1/c, and require both residual quadratics to be proportional to (W-1/2)(W-1/d). After explicit forbidden factors are removed, the within-fiber resultants share one bidegree-(8,6) curve. Projecting its intersections with the two cross-product and three cross-sum factors gives degree-96 and degree-186 univariate certificates whose squarefree gcd is (d-2)(d-1)(2d-1). An independent fraction-free opposite projection gives (c-2)(c-1)(2c-1). Both identities persist modulo p=2130706433, so this necessary q-slice chart is empty; the other fifteen affine positive charts, projective boundary, and negative loci remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive reciprocal-xi mixed exclusion",
+   "status": "PROVED",
+   "closure": "the deployed-field positive near-aligned fixed-moving xi=tau(a) mixed residual-allocation chart is empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize the positive near-aligned fixed-moving chart by a=2, xi=1/2, eta=c, ell=d and w=1/c, and require both residual quadratics to be proportional to (W-2)(W-1/d). After explicit forbidden factors are removed, the within-fiber resultants share one bidegree-(8,6) curve. Projecting its intersections with the two cross-product and three cross-sum factors gives degree-96 and degree-186 univariate certificates whose squarefree gcd is (d-2)(d-1)(2d-1). An independent fraction-free opposite projection gives (c-2)(c-1)(2c-1). Both identities persist modulo p=2130706433, so this necessary q-slice chart is empty; the other fourteen affine positive charts, projective boundary, and negative loci remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions",
+   "title": "KoalaBear c2 (1,1,2) near positive reciprocal-xi square exclusions",
+   "status": "PROVED",
+   "closure": "both deployed-field positive near-aligned fixed-moving xi=tau(a) square-allocation charts are empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize a=2, xi=1/2, eta=c, ell=d and w=1/c. For both allocations of the doubled target roots 2 and 1/d to the two residual quadratics, all four generic endpoint-line pairs have only collision or inversion-fixed resultant-gcd support. In the direct allocation, the full leading-zero loci add only (c,d)=(5,5/7),(-7/5,53/55) on the excluded z=1 locus and a c=-2 fiber forcing d=2 or 1/2. The swapped allocation has only the previously classified quadratic z=1 component and forbidden support. Independent direct/resultant and fraction-free/Bezout paths reproduce every support modulo p=2130706433. Thus both necessary q-slice charts are empty; the other twelve affine positive charts, projective boundary, and negative loci remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_left1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_left1_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_swap.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_swap_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_swap_left1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_swap_left1_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_audit_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_audit_left1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_audit_left1_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_audit_swap.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_audit_swap_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_audit_swap_left1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_audit_swap_left1_right1.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive other-xi square-xi exclusion",
+   "status": "PROVED",
+   "closure": "the deployed-field positive near-aligned fixed-moving xi=b square allocation c->1/b and d->1/d is empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize a=2, xi=b, eta=c, ell=d and w=1/c. Assign the residual over c to (W-1/b)^2 and the residual over d to (W-1/d)^2. The two product conditions split into two quadratic b-branches over c and two linear b-branches over d. Across all four branch pairs, direct/resultant and independent fraction-free/subresultant projections have only collision support or four explicit extra fibers; every extra fiber is empty or forces b=1/2, and leading-zero branches are classified separately. All support and Groebner-basis statements replay modulo p=2130706433. Thus this necessary q-slice chart is empty; the other eleven affine positive charts, projective boundary, and negative loci remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion/verify_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion/verify_left1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion/verify_left1_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion/verify_audit_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion/verify_audit_left1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion/verify_audit_left1_right1.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive other-xi square-ell exclusion",
+   "status": "PROVED",
+   "closure": "the deployed-field positive near-aligned fixed-moving xi=b square allocation c->1/d and d->1/b is empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize a=2, xi=b, eta=c, ell=d and w=1/c. Assign the residual over c to (W-1/d)^2 and the residual over d to (W-1/b)^2. The product conditions split into two linear b-branches over c and two quadratic b-branches over d. Across all four pairs, direct/resultant and independent fraction-free/subresultant projections have only standard forbidden support or explicit fibers forcing b=1/2 or c=+/-1; every leading-zero branch is classified separately. All support and Groebner-basis statements replay modulo p=2130706433. Thus this necessary q-slice chart is empty; the other ten affine positive charts, projective boundary, and negative loci remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion/verify_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion/verify_left1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion/verify_left1_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion/verify_audit_right1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion/verify_audit_left1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion/verify_audit_left1_right1.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive other-xi mixed exclusion",
+   "status": "PROVED",
+   "closure": "the deployed-field positive near-aligned fixed-moving xi=b mixed allocation c,d->{1/b,1/d} is empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize a=2, xi=b, eta=c, ell=d and w=1/c. Require the residual over each q-root c,d to have the two distinct roots 1/b and 1/d. Exact parent resultants split each root into one low and one high component. The four component pairs have complete characteristic-zero and deployed modular routers; every irreducible factor whose degree divides six is independently reconstructed, and every point is collision, inversion-fixed, reciprocal, z=1, or finite-incidence. Direct/resultant and no-import fraction-free/subresultant certificates agree. Thus this chart is empty; the other nine affine positive charts, projective boundary, and negative loci remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_product_low.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_low_fields.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_w01_router.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_w10_router.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_w01_fields.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_w10_fields.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_hp0_router.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_hp1_router.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_hp0_linear.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_hp0_quadratic01.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_hp0_quadratic2.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_hp1_lowdegree.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_hp1_cubic.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_hp1_sextic.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_product_low.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_w01_router.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_w10_router.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_hp0_router.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_hp1_router.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_low_fields.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_w01_fields.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_w10_fields.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_hp0_linear.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_hp0_quadratic01.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_hp0_quadratic2.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_hp1_lowdegree.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_hp1_cubic.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_hp1_sextic.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive moving-moving a-xi square exclusion",
+   "status": "PROVED",
+   "closure": "the deployed-field positive near-aligned moving-moving xi=a square allocation c->1/2,d->1/d is empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize a=xi=2, eta=c, ell=d and w=1/c, and use moving-moving source edges {2,b},{2,1/b}. Assign the residual over c to (W-1/2)^2 and the residual over d to (W-1/d)^2. The four primitive q-slice equations are reciprocal in b and reduce exactly through s=b+1/b. Their three-by-three parent component pairs have a complete characteristic-zero and modular factor census. All 15 nonstandard irreducible factors whose degree divides six have unit forbidden saturations in both a direct/resultant primary and a no-import fraction-free/subresultant audit. Thus this chart is empty; the other eight moving-moving affine positive charts, projective boundary, and negative loci remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_trace.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_classify_low.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_classify_high.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_audit_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_audit_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_audit_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_audit_classify_low.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_audit_classify_high.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive moving-moving a-xi square-ell exclusion",
+   "status": "PROVED",
+   "closure": "the deployed-field positive near-aligned moving-moving xi=a square allocation c->1/d,d->1/2 is empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize a=xi=2, eta=c, ell=d and w=1/c, and use moving-moving source edges {2,b},{2,1/b}. Assign the residual over c to (W-1/d)^2 and the residual over d to (W-1/2)^2. Exact reciprocal trace reduction leaves three nonstandard parent components over c and two over d. The six pair projections have a complete characteristic-zero and modular factor census. Their degree-five and degree-nine factors cannot meet F_(p^6), and all four remaining nonstandard linear fibers have unit forbidden saturations. A direct/resultant primary and no-import fraction-free/subresultant audit agree. Thus this chart is empty; the other seven moving-moving affine positive charts, projective boundary, and negative loci remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_trace.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_classify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_audit_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_audit_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_audit_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_audit_classify.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive moving-moving a-xi mixed exclusion",
+   "status": "PROVED",
+   "closure": "the deployed-field positive near-aligned moving-moving xi=a mixed allocation c,d->{1/2,1/d} is empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize a=xi=2, eta=c, ell=d and w=1/c, and use moving-moving source edges {2,b},{2,1/b}. Assign both residuals the roots {1/2,1/d}. Exact reciprocal trace reduction leaves one nonstandard parent component on each side and one degree-128 pair projection. Its complete modular factorization has four linear, five quadratic, and one cubic relevant factor; all ten have unit forbidden saturations. The remaining irreducible degrees 5, 7, and 29 cannot meet F_(p^6). A direct/resultant primary and a no-import source/subresultant audit agree. Thus this chart and the full xi=a orbit are empty; the other six moving-moving affine positive charts, projective boundary, and negative loci remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/verify_trace.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/verify_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/verify_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/verify_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/verify_classify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/verify_audit_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/verify_audit_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/verify_audit_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion/verify_audit_classify.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive moving-moving tau-xi orbit exclusion",
+   "status": "PROVED",
+   "closure": "all three deployed-field positive near-aligned moving-moving xi=tau(a) residual-root allocations are empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize a=2, eta=c, ell=d and w=1/c, and use moving-moving source edges {2,b},{2,1/b}. For xi=tau(a), assign the residual roots as c->{2,2},d->{1/d,1/d}; c->{1/d,1/d},d->{2,2}; or c,d->{2,1/d}. Exact reciprocal trace reduction leaves respectively 3x3, 3x2, and 1x1 nonstandard parent component pairs. Complete characteristic-zero and modular routers retain exactly 15, 4, and 10 residue-degree-dividing-six factors, and all 29 have unit forbidden saturations. A direct/resultant primary and no-import fraction-free/subresultant audit agree. Thus all three charts and the full xi=tau(a) moving-moving orbit are empty; the other three moving-moving affine positive charts, projective boundary, and negative loci remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_runner.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_runner.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_trace.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_classify_low.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_classify_high.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_ell_source.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_ell_trace.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_ell_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_ell_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_ell_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_square_ell_classify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_mixed_source.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_mixed_trace.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_mixed_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_mixed_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_mixed_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_tau_mixed_classify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_classify_low.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_classify_high.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_ell_source.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_ell_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_ell_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_ell_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_square_ell_classify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_mixed_source.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_mixed_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_mixed_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_mixed_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion/verify_audit_tau_mixed_classify.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive moving-moving other-xi square-xi exclusion",
+   "status": "PROVED",
+   "closure": "the deployed-field positive near-aligned moving-moving xi=b square allocation c->1/b,d->1/d is empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize a=2, xi=b, eta=c, ell=d and w=1/c, and use moving-moving source edges {2,b},{2,1/b}. Assign the residual over c to (W-1/b)^2 and the residual over d to (W-1/d)^2. The nonreciprocal c product splits into two cubic branches whose sum-resultants leave two nonstandard parent components; reciprocal trace reduction leaves three components over d. The six pair projections have a complete characteristic-zero and modular census with exactly seven linear and one quadratic relevant factor. All eight have unit forbidden saturations. A direct/resultant primary and no-import fraction-free/terminal-subresultant audit agree. Thus this chart is empty; the swapped and mixed moving-moving affine positive charts, projective boundary, and negative loci remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/data/README.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/data/kb_c2_112_other_square-xi_c_cores.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/data/kb_c2_112_other_square-xi_d_cores.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/data/kb_c2_112_other_square-xi_c_components.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/data/kb_c2_112_other_square-xi_d_components.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_runner.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_source_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_components_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_components_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_pair00.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_pair01.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_pair02.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_pair10.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_pair11.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_pair12.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_classify0.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_classify1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_classify2.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_classify3.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_classify4.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_classify5.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_classify6.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_classify7.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_source_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_components_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_components_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_pair00.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_pair01.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_pair02.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_pair10.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_pair11.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_pair12.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_classify0.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_classify1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_classify2.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_classify3.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_classify4.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_classify5.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_classify6.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_classify7.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive moving-moving other-xi square-ell exclusion",
+   "status": "PROVED",
+   "closure": "the deployed-field positive near-aligned moving-moving xi=b swapped square allocation c->1/d,d->1/b is empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize a=2, xi=b, eta=c, ell=d and w=1/c, and use moving-moving source edges {2,b},{2,1/b}. Assign the residual over c to (W-1/d)^2 and the residual over d to (W-1/b)^2. Reciprocal trace reduction leaves three nonstandard components over c; the nonreciprocal d product splits into two cubic branches whose sum-resultants leave two components. The six pair projections have complete characteristic-zero and modular censuses with exactly 22 factors of residue degree dividing six. All 22 have unit forbidden saturations. A direct/resultant primary and no-import fraction-free/terminal-subresultant audit agree. Thus this chart is empty; only the mixed moving-moving affine positive chart in this orbit, projective boundary, and negative loci remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/data/README.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/data/kb_c2_112_other_square-ell_c_components.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/data/kb_c2_112_other_square-ell_c_cores.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/data/kb_c2_112_other_square-ell_d_components.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/data/kb_c2_112_other_square-ell_d_cores.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify0.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify10.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify11.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify12.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify13.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify14.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify15.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify16.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify17.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify18.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify19.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify2.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify20.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify21.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify3.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify4.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify5.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify6.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify7.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify8.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_classify9.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_components_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_components_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_pair00.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_pair01.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_pair10.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_pair11.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_pair20.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_pair21.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_audit_source_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify0.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify1.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify10.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify11.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify12.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify13.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify14.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify15.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify16.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify17.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify18.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify19.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify2.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify20.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify21.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify3.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify4.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify5.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify6.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify7.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify8.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_classify9.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_components_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_components_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_pair00.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_pair01.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_pair10.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_pair11.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_pair20.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_pair21.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_runner.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion/verify_source_d.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive moving-moving other-xi mixed exclusion",
+   "status": "PROVED",
+   "closure": "the deployed-field positive near-aligned moving-moving xi=b mixed allocation c,d->{1/b,1/d} is empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize a=2, xi=b, eta=c, ell=d and w=1/c, and use moving-moving source edges {2,b},{2,1/b}. Requiring both residual root multisets to equal {1/b,1/d}, the product-ratio minus gate splits into two linear and one reciprocal-quadratic branch; all 22 candidate fibers have unit full four-core forbidden saturation. The plus gate is a reciprocal quartic. In the trace coordinate s=b+1/b, four independent generic pair gates have common projection degree 352, and the q=0 leading-coefficient boundary has common projection degree 772. Complete residue-field reconstruction leaves no admissible fiber. A direct SymPy/FLINT primary and an independent no-import fraction-free audit agree. Thus this chart is empty and all 18 affine positive near-aligned charts are closed; negative loci, the w=0 boundary, and other packet and assembly obligations remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/README.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_c_cores.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_d_cores.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_affine_fibers.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_affine_mod_gcd.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_boundary_equations.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_boundary_fibers.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_boundary_linear.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_boundary_mod_gcd.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_cross_mod_projection.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_equations.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_product-d_mod_projection.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_product_c_d_equations.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_product_c_d_raw_equations.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_product_c_d_system.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_product_d_equations.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_product_d_raw_equations.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_product_d_system.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_product_equations.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_product_mod_projection.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_product_raw_equations.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_product_system.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_product_trace.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_sums_mod_projection.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_system.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_quartic_trace.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/data/kb_c2_112_other_mixed_ratio_gates.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify00.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify01.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify02.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify03.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify04.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify05.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify06.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify07.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify08.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify09.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify10.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify11.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify12.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify13.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify14.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify15.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify16.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify17.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify18.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify19.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify20.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_classify21.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_runner.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion/verify_source.py"
    ]
   },
   {
@@ -19359,6 +20157,48 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut",
+   "title": "KoalaBear coordinate Vieta profile-only F29 route cut",
+   "status": "PROVED",
+   "closure": "an exact defect-two geometrically irreducible aligned source-facet packet over F_29 survives the positive Vieta rank gate but is deleted by its forced colored quotient quadratic",
+   "statement": "Over F_29 there is a complete aligned abstract coordinate source-facet packet with the allowed paired K-degree profile (2,2),(4,4),(4,4), source degree four, four colored edges, defect two, and a geometrically irreducible positive bidegree-(2,4) source form whose 10 x 8 Vieta matrix has rank seven with full leading support. Its J-resultant forces c(W)=W^2-7W+9 with roots 13,23 outside the J support, and the companion I identity also fails. Thus profile/defect/irreducibility plus the determinant are not a sufficient universal exclusion interface; this is a route cut, not a deployed-field packet or orientation deletion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/certificate.json",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "title": "KoalaBear m2 r4 coordinate complete-fiber Vieta compiler",
+   "status": "PROVED",
+   "closure": "exact twelve-fiber Vieta systems, square-root-free complete product-rank gates, a seven-skeleton negative injectivity cut, and a separator-only route cut",
+   "statement": "Every actual coordinate packet has twelve deck-paired source-fiber edge records over K union {eta} union L^c. The positive and negative parity forms satisfy exact 24 x 8 and 24 x 7 Vieta systems. Their product halves give rank-at-most-five and rank-at-most-three matrices; positive parity must satisfy one 6 x 6 K+eta determinant. The negative ratio is a nonconstant injective Mobius map, cutting the 14 common-K pair-multiplicity skeletons to seven. Complete-system survivors realize all 24 stars, making forced colored support and the companion quotient identity consequences. The original F_29 profile-only witness fails the positive separator, while an exact defect-zero fixture census finds 140 separator survivors but no complete-product survivor among 5,040 assignments. This is not a universal orientation deletion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler/verify_fixture_census.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_transpose_transport",
    "title": "KoalaBear m2 r4 coordinate-transpose transport",
    "status": "PROVED",
@@ -19375,6 +20215,26 @@
     "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/frontier.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/verify.py",
     "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+   "title": "KoalaBear m2 r4 coordinate linear-product paired involution gate",
+   "status": "PROVED",
+   "closure": "one coefficient-free 6 x 3 paired-product involution gate, a symbolic fixture deletion, and a positive linear-product branch cut",
+   "statement": "For every negative coordinate packet, and every positive packet whose product ratio reduces to degree at most one, conjugating source negation by the nonconstant Mobius edge-product map gives one projective involution on product values. If (y_i,z_i) are the products at the six source-label pairs, the rows [y_i z_i,-(y_i+z_i),-1] have rank at most two. Two antisymmetric pairs (u,-u),(v,-v) with u^2!=v^2 force all six pairs to be antisymmetric. This symbolically deletes the exact fixture over every odd field in both in-scope lanes. Any remaining positive realization has genuinely quadratic product ratio. Other packet graphs and the coordinate orientation remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/verify_audit.py"
    ]
   },
   {
@@ -19397,6 +20257,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "title": "KoalaBear m2 r4 coordinate negative loop-budget gate",
+   "status": "PROVED",
+   "closure": "at most two antipodal common-K edge orbits in negative parity and a five-skeleton exact remainder",
+   "statement": "Every antipodal common-K J-edge makes q=0 and hence forces a root of the degree-at-most-two form A_1. Three loop fibers would force A_1=0, contradicting the nonzero q equation at a required nonloop edge. Therefore negative parity has at most two K loops. The seven injective pair-multiplicity skeletons reduce exactly to five, and one or two loops pin the corresponding factors of A_1. The five survivors and the coordinate orientation remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_dihedral_outer_factor_reduction",
    "title": "KoalaBear m2 r2 dihedral outer-factor reduction",
    "status": "PROVED",
@@ -19413,6 +20293,186 @@
     "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/frontier.md",
     "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/verify.py",
     "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler",
+   "title": "KoalaBear m2 r4 coordinate negative loop-stratified q compiler",
+   "status": "PROVED",
+   "closure": "exact square common-K q determinants of sizes five, four, and three in the negative loop strata",
+   "statement": "For a negative packet with ell=0,1,2 antipodal common-K fibers, their locator R_Lambda divides A_1. Writing A_1=R_Lambda C, the 5-ell nonloop q equations form a square (5-ell)-by-(5-ell) matrix in the 3-ell coefficients of C and two coefficients of B_2. Its determinant must vanish and its kernel must keep B_2 nonzero on all K. Thus the two-loop rows reduce to explicit 3 x 3 signed determinants. This is a compiler, not a skeleton or orientation deletion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop product-to-q weld",
+   "status": "PROVED",
+   "closure": "rank-three Mobius product reconstruction and two scalar welds equivalent to the five common-K sum equations in the two-loop stratum",
+   "statement": "In either negative two-loop skeleton, the five common-K product rows have rank exactly three and uniquely reconstruct the Mobius denominator B_2 projectively. For either loop anchor h and nonloop labels i,j, the sum equations are equivalent to the denominator-free weld q_i R(j)(h-i)(p_h-p_j)=q_j R(i)(h-j)(p_h-p_i). Two such welds against one fixed nonloop label are necessary and sufficient for all five common-K sum equations. The signed skeleton classification and complement fibers remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop 442 antipodal-label classifier",
+   "status": "PROVED",
+   "closure": "two multiplicative K-label identities and a three-locus sixth/eighth-root classification for the negative 442 two-loop skeleton",
+   "statement": "In the negative (4,4,2) two-loop skeleton, shared-loop endpoint cancellation in the product-to-q weld forces k_B^2=k_AB k_AC and k_A^2=k_AB k_BC. After normalizing by k_AB, the labels are {1,l,m,m^2,l^2}. Requiring two antipodal pairs and one singleton leaves exactly three loci: one scaled sixth-root hexagon and two placements in a scaled eighth-root six-subset. The three loci remain open; all other signed placements are deleted.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop 442 exceptional-product classifier",
+   "status": "PROVED",
+   "closure": "six exact quadratic-linear common-K product rows on the sixth/eighth-root exceptional label loci",
+   "statement": "Normalize the three signed J-pair representatives by A=1 and let tau be the product of the three cross-edge signs. On the sixth-root and two eighth-root K-label loci, all five negative Mobius product minors vanish exactly on six printed rows: one quadratic equation for b=B/A and one linear equation for c=C/A for each locus and tau sign. Hence at most twelve normalized geometric common-K product packets remain. All six rows are geometrically nonempty; q signs and the seven complement fibers remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop 442 q-orientation lift",
+   "status": "PROVED",
+   "closure": "exactly two q-compatible orientation triples over every injective root of the six 442 product rows",
+   "statement": "For every injective geometric root of the six negative (4,4,2) common-K product rows, the two antipodal label identities make the shared-loop lift ratios square to one. Of the eight assignments of the three cross-edge deck orbits to source lifts, exactly two satisfy both q welds. Either reconstructs all five common-K sum equations. Thus common-K q orientation deletes no product root; complete source-facet orientation and the other seven fibers remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop 433 antipodal-label atlas",
+   "status": "PROVED",
+   "closure": "one multiplicative K-label identity and an exact nine-cell antipodal atlas for the negative 433 two-loop skeleton",
+   "statement": "In the negative (4,3,3) two-loop skeleton, shared-loop cancellation between the two signed AB edge types forces k_C^2=k_+k_-. After normalizing by k_+, the labels are {1,M,M^2,L,Z}. Requiring two antipodal pairs and one singleton leaves exactly nine of fifteen matching cells, each with one K parameter. The other six force label collisions. Product-map and second-weld classification remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop 433 product-minor cell cut",
+   "status": "PROVED",
+   "closure": "three of nine antipodal cells deleted and the relation b=-c^3 forced on three of six survivors by explicit product minors",
+   "statement": "On the nine negative (4,3,3) antipodal label cells, exact 4 x 4 product minors delete X1, N2, and Z1. A second minor forces b=-c^3 on X2, N1, and L1. Thus the common-K product frontier has six cells: those three constrained cells and M1, M2, M3 pending further minors. The second q weld and complete packet remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop 433 constrained product-q classifier",
+   "status": "PROVED",
+   "closure": "exact zero-dimensional common-K product and q ledgers of degrees eight in each of cells X2, N1, and L1",
+   "statement": "After b=-c^3, cells X2 and N1 share the reciprocal quartic P_8(M)=M^4+8M^3-2M^2+8M+1 and have sign-specific quadratic equations (c^2+1)(M+1)^2 +/- c(M-1)^2=0. Cell L1 has M^2+1=0, 2c^4+3c^2+2=0, and 3L=4c^3+2c-M. These equations are equivalent to all common-K product minors and the second squared q weld under the exact guards, yielding at most 24 candidates. Guard-passing finite-field witnesses show every cell is nonempty.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop 433 M1 product-q exclusion",
+   "status": "PROVED",
+   "closure": "raw-boundary resultant plus two-stage interior ideal contradiction deleting common-K cell M1",
+   "statement": "In cell M1, split on b+R. On b+R=0 the five raw product minors force M=R^3 and c=MR^2; the squared weld conflicts with R^6+1 by resultant 4. On b+R nonzero the exact Mobius chart leaves E1,E2,Q, whose integral ideal contains the nonzero guard factor times T=MR+3M+5R^2+3R+4; after adjoining T it contains b^2(b+1)^2. Actual distinctness deletes both branches. Thus M1 is empty; only M2,M3 remain unclassified at common K.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/verify_audit.py"
    ]
   },
   {
@@ -37985,6 +39045,201 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
    "to": "rate_half_kb_m2_r4_coordinate_transpose_transport",
    "kind": "req"
@@ -43346,6 +44601,536 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   }
