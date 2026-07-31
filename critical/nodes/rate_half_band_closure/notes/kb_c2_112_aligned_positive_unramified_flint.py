@@ -326,7 +326,9 @@ def build_cell(template: str, allocation: str):
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("template", choices=("fixed-moving",))
-    parser.add_argument("--allocation", choices=("same",), required=True)
+    parser.add_argument(
+        "--allocation", choices=("same", "swap", "mixed"), required=True
+    )
     parser.add_argument(
         "--pair",
         choices=("01", "02", "03", "12", "13", "23", "star", "all"),
@@ -340,6 +342,11 @@ def main() -> None:
     parser.add_argument("--dump-minor-cache", type=Path)
     parser.add_argument("--dump-conic-cache", type=Path)
     args = parser.parse_args()
+    require(
+        args.allocation == "same"
+        or not args.quartic_component,
+        "quartic router is pinned to the same allocation",
+    )
 
     require(flint.__version__ == "0.9.0", "python-flint version")
     ring_variables, equations = build_cell(args.template, args.allocation)
@@ -489,6 +496,54 @@ def main() -> None:
             emit_factorization(
                 common_minor, "linear_component_minor_gcd", context
             )
+            if args.allocation == "mixed":
+                mixed_curve_expression = (
+                    4 * t_generator**3 * w_generator**2
+                    + 22 * t_generator**3 * w_generator
+                    + 99 * t_generator**3
+                    + 124 * t_generator**2 * w_generator**2
+                    + 200 * t_generator**2 * w_generator
+                    + 76 * t_generator**2
+                    + 320 * t_generator * w_generator**2
+                    + 160 * t_generator * w_generator
+                    - 160 * t_generator
+                    + 128 * w_generator**2 - 128
+                )
+                mixed_curve = mixed_curve_expression
+                require_associate(
+                    common_minor,
+                    t_generator**2 * (t_generator + 1)
+                    * (t_generator + 4) * (w_generator - 1)
+                    * mixed_curve,
+                    "mixed linear common-minor support",
+                )
+                first, second = coefficient_rows[:2]
+                kernel = (
+                    first[1] * second[2] - first[2] * second[1],
+                    first[2] * second[0] - first[0] * second[2],
+                    first[0] * second[1] - first[1] * second[0],
+                )
+                conic = kernel[0] * kernel[2] - kernel[1]**2
+                conic_specialized = conic.compose(
+                    b_generator, p_value, t_generator, w_generator
+                )
+                curve_gcd = mixed_curve.gcd(conic_specialized)
+                require(curve_gcd.is_constant(),
+                        "mixed linear curve lies on kernel conic")
+                norm = mixed_curve.resultant(conic_specialized, 3)
+                require(not norm.is_zero(), "zero mixed linear conic norm")
+                print(
+                    "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_FLINT_"
+                    "MIXED_LINEAR_CONIC_TEST_PASS generic_conic_root=false "
+                    f"norm_terms={len(norm.to_dict())} "
+                    f"degrees={norm.degrees()} "
+                    f"digest={polynomial_digest(norm)}",
+                    flush=True,
+                )
+                emit_factorization(
+                    norm, "mixed_linear_conic_norm", context
+                )
+                return
             expected_common_minor = (
                 t_generator**3 * (t_generator + 1) * (t_generator + 4)
                 * (w_generator - 1)

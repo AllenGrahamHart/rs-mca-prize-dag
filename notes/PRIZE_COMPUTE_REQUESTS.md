@@ -161,8 +161,11 @@ retries; raw artifact storage is separate.
   but fails the kernel-conic condition; its exceptions are reduced to a
   printed degree-`496` norm in `t` plus four denominator factors.  See
   `kb_c2_112_aligned_positive_unramified_fixed_same_frontier_20260730.md`.
-  This narrows one cell only: the finite quartic specializations, off-common
-  projection intersections, and the other five cells remain open.
+  The same router now narrows all three fixed-moving allocations.  Their
+  nontrivial divisorial components reduce to degree-`496`, degree-`225`, and
+  degree-`48` kernel-conic norms; the mixed linear rank curve adds a
+  degree-`116` norm.  The finite specializations, off-common projection
+  intersections, and all three moving-moving cells remain open.
 - **PASS:** mint a PROVED aligned-positive unramified q-slice exclusion node;
   together with the ramified and aligned-negative theorems, delete the
   complete aligned source-line branch.

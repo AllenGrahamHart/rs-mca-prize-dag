@@ -1,8 +1,10 @@
 # Aligned positive unramified fixed-moving/same frontier
 
-Status: **NARROWED, not deleted**.  This note concerns one of the six open
-aligned-positive unramified `c2(1,1,2)` q-slice cells.  It uses the corrected
-relative `U/V` scale from `kb_c2_112_positive_qslice_symmetric.py` throughout.
+Status: **NARROWED, not deleted**.  The primary calculation below concerns
+the fixed-moving `same` cell; the sibling section records the transfer to all
+three fixed-moving allocations among the six open aligned-positive
+unramified `c2(1,1,2)` q-slice cells.  Every calculation uses the corrected
+relative `U/V` scale from `kb_c2_112_positive_qslice_symmetric.py`.
 
 ## Exact reduction
 
@@ -72,6 +74,37 @@ quartic root has a nonzero norm of degree `496` in `t`.  The norm factors into
 22 printed factors; four denominator factors are printed separately.  These
 finite specializations are not yet classified.
 
+## Sibling transfer
+
+The same quadratic/minor compiler completes for fixed-moving `swap` and
+`mixed` within 22 seconds under the same guard.
+
+For `swap`, the common linear component `4*p+5*t+4=0` has exactly the same
+forbidden-support proof as `same`.  The second common component is the
+reciprocal cubic
+
+```text
+16*p^3 + 204*p^2*t + 804*p^2
+ + 165*p*t^2 + 948*p*t + 804*p
+ + 20*t^3 + 165*t^2 + 204*t + 16 = 0.
+```
+
+All four minors share a linear `w` root on this cubic, but its kernel misses
+the `b`-conic generically.  The exceptional support is a degree-`225` norm
+in `t` with two separately printed denominator factors.
+
+For `mixed`, one common component is `t^2-4*p=0`, hence a repeated endpoint
+fiber.  The nontrivial common component is a 21-term reciprocal degree-five
+polynomial.  Again all four minors share its `w` root, while the kernel-conic
+test fails generically; its exceptional support is a degree-`48` norm with
+no denominator.  On the additional common linear component
+`4*p+5*t+4=0`, the residual rank curve is quadratic in `w`; it also misses
+the kernel conic generically and leaves a degree-`116` norm in `t`.
+
+Thus all three fixed-moving cells have been reduced to finite specialization
+support plus finite intersections among noncommon projection factors.  No
+moving-moving cell has yet been compiled by this router.
+
 ## Replay
 
 All commands are serial and must retain both resource guards.
@@ -89,20 +122,21 @@ tools/ramguard tiny -- timeout --foreground --signal=TERM --kill-after=5s 60s \
   critical/nodes/rate_half_band_closure/notes/kb_c2_112_aligned_positive_unramified_quartic_pair01.json
 ```
 
-The two generated input caches are independently reproducible with the
+The generated input caches are independently reproducible with the
 compiler's `--dump-minor-cache` and `--dump-conic-cache` modes.  The quartic
-pair cache is produced by the router's `--pair 01 --dump-gcd` mode.  Every
-cache and decoded polynomial is hash-pinned.
+or cubic pair caches are produced by the router's `--pair 01 --dump-gcd`
+mode; mixed uses the cheaper `--pair 23`.  Every cache and decoded polynomial
+is hash-pinned.
 
 ## Remaining close
 
-1. Classify every kernel-conic norm and denominator specialization on the
-   quartic, retaining rank-drop and leading-coefficient exceptions.
-2. Classify finite intersections among the noncommon factors of the three
-   `(p,t)` projections.
+1. Classify every fixed-cell kernel-conic norm and denominator
+   specialization, retaining rank-drop and leading-coefficient exceptions.
+2. Classify finite intersections among the noncommon factors of each cell's
+   three `(p,t)` projections.
 3. Replay every surviving determinant point in all four original quadratic
    equations and the full forbidden product.
-4. Repeat the resulting compact router for fixed-moving `swap` and `mixed`,
-   then for the three moving-moving cells.
+4. Compile and route the three moving-moving cells after transporting the
+   normalization through the reciprocal trace descent.
 
 No DAG node or status changes on the evidence in this note.
