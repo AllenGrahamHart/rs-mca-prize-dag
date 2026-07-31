@@ -10719,6 +10719,19 @@ seven-product outside multiset, and test one invariant binary sextic per
 sign-gauged cell.  Re-solving a common Mobius map or enumerating fifteen
 perfect matchings per row is outside the accepted request.
 
+The accepted `442` paired-product input is exactly 36 invariant-form cells:
+six common rows, `sigma=+/-1`, and three forced-`xi` location orbits.  The
+seven products are `{cD,cE,sigma DE,+/-DF,+/-EF}`.  Remove the forced value,
+then impose projective invariance of the residual binary sextic under the
+printed row involution, product distinctness, and fixed-point exclusion.
+Carry both q orientations only after a product cell survives.  The
+horizontal variables `D,E,F` are independent of `l`; any task identifying
+them with powers of `l` must be rejected.
+
+If the 36 exact saturations are too costly, shard one cell per external
+task with explicit memory/runtime limits and compact unit-ideal or survivor
+certificates.  No local fleet is authorized.
+
 The 240-row `(4,3,3)`
 two-loop atlas is also superseded at the label level: `(KB43-3)` gives nine
 one-parameter antipodal cells.  The first product-minor cut deletes

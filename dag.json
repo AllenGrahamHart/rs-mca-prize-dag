@@ -20596,6 +20596,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop 442 complete-product invariance router",
+   "status": "PROVED",
+   "closure": "36-cell invariant-binary-sextic router for complete 442 paired products",
+   "statement": "After exact sign gauge and the residual D-E exchange, the seven outside products are {cD,cE,sigma DE,+/-DF,+/-EF}, and the forced xi location has three canonical edge types. For each of six common rows, two sigma signs, and three xi types, remove the forced value and require the residual binary sextic to be invariant under the exact product involution and coprime to its fixed-point quadratic. This exhausts the paired-product lift in 36 cells, replacing 540 sign-gauged perfect matchings while keeping endpoint and quotient coordinates independent.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
    "title": "KoalaBear m2 r2 dihedral degree-five source-star exclusion",
    "status": "PROVED",
@@ -39491,6 +39511,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

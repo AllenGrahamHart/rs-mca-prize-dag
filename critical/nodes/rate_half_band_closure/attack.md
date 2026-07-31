@@ -2188,3 +2188,21 @@ row-specific bilinear involution.  Build the invariant-binary-sextic router
 from these scalar gates and the unique outside edge multiset.  Do not
 recompute Mobius kernels or enumerate the fifteen residual perfect
 matchings separately.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router`
+also completes the finite paired-product routing.  Sign gauge gives
+
+```text
+{cD,cE,sigma DE,DF,-DF,EF,-EF},       sigma=+/-1.
+```
+
+The residual `D <-> E` and `F -> -F` symmetry reduces the forced-`xi`
+location to three types: a colored `cD`, the internal `sigma DE`, or one of
+the four doubled signed types represented by `DF`.  Removing that forced
+value and requiring invariance of the residual binary sextic under the
+row-specific product involution, together with squarefreeness and
+fixed-point avoidance, gives exactly 36 cells across the six common rows.
+This replaces 540 sign-gauged perfect matchings.  Saturate these cells before
+full interpolation, keeping `D,E,F` independent of the quotient coordinate
+`l`; carry the two q orientations only for product survivors.

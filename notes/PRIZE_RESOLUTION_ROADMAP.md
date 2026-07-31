@@ -12422,7 +12422,34 @@ paired-product reduction: two K pairs fix the involution; singleton plus
 new assumptions:          none in deployed characteristic beyond exact
                           parent injectivity and source-facet scope
 Modal status:             no launch and no cost
-next route-deciding step: combine the forced product with the five possible
-                          xi edge types and sign gauge, then impose residual
+next route-deciding step: combine the forced product with the three xi
+                          location orbits and sign gauge, then impose residual
                           binary-sextic invariance before full interpolation
+```
+
+### Work-cycle burn-down: 442 complete-product invariance router
+
+```text
+starting local pin:       679d2068 (442 outside-product compiler)
+ending local theorem pin: current 36-cell PROVED invariance router
+canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+node/workboard attacked:  K3 / negative 442 outside product matching
+result:                   PROVED division-free finite algebraic router
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; route-boundary evidence only)
+sign gauge:               8 singleton sign rows -> sigma=+/-1
+location symmetry:        seven xi occurrences -> three orbits of sizes
+                          2,1,4 under D/E exchange and F sign
+matching compression:     residual six products encoded by one invariant
+                          binary sextic, replacing 15 matchings per cell
+exact cell count:         6 common rows x 2 sigma x 3 xi types = 36
+guard interface:          21 proportionality minors, product squarefreeness,
+                          and coprimality with the fixed-point quadratic
+typing fence:             D,E,F are T coordinates independent of quotient l
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: exact saturation of the 36 invariant cells, then
+                          full twelve-label interpolation on survivors;
+                          shard externally if beyond the local budget
 ```
