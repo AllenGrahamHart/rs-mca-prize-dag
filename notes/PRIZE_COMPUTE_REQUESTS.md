@@ -174,16 +174,19 @@ retries; raw artifact storage is separate.
   q-slice points over degrees `3,3,7,7`; only the two degree-3 traces embed in
   the deployed field, and all four reciprocal orientations fail both full
   colored quotient norms. Its twelve off-common combinations are boundary,
-  so a separate PROVED full-quotient node closes that cell. Only the three
-  fixed-moving unramified cells remain open.
+  so a separate PROVED full-quotient node closes that cell. Fixed `same`
+  subsequently leaves four base-field q-slice points on its direct quartic;
+  all four fail both full quotient norms, while both off-common branches are
+  boundary. A separate PROVED node closes fixed `same`. Only fixed `swap`
+  and fixed `mixed` remain open.
 - **PASS:** mint PROVED aligned-positive unramified q-slice exclusion nodes;
   together with the ramified and aligned-negative theorems, delete the
   complete aligned source-line branch.
 - **SURVIVOR:** replay it independently, then route it to both full quotient
   identities; do not repair the deletion claim by genericity.
 - **INCOMPLETE:** evidence only; no DAG status change.
-- **Authorization:** external pre-request narrowed to the three fixed-moving
-  unramified cells. No
+- **Authorization:** external pre-request narrowed to the fixed-moving
+  unramified `swap` and `mixed` cells. No
   reliable wall-time/cost ceiling or compact certificate emitter exists yet,
   so do not launch them on the remaining local Modal balance.
 

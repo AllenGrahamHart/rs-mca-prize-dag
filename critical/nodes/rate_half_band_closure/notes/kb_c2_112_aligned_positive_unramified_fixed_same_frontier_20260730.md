@@ -1,6 +1,6 @@
 # Aligned positive unramified fixed-moving/same frontier
 
-Status: **NARROWED, not deleted**.  The primary calculation below concerns
+Status: **SUPERSEDED: fixed-same is closed**. The primary calculation below concerns
 the fixed-moving `same` cell; the sibling section records the transfer to all
 three fixed-moving allocations among the six open aligned-positive
 unramified `c2(1,1,2)` q-slice cells.  Every calculation uses the corrected
@@ -106,6 +106,13 @@ support plus finite intersections among noncommon projection factors.  The
 separate moving trace router now narrows all three moving-moving cells as
 well.
 
+The same cell has since been completed. Its direct affine minor-conic norm
+has degree 472 and 28 factors. Exact deployed-field replay leaves four
+base-field q-slice points; each reproduces the q-slice control and fails both
+full quotient norms. The `2 x 1 x 1` off-common support gives seven distinct
+endpoints, all boundary. A separate PROVED node closes fixed-same. Fixed-swap
+and fixed-mixed remain open.
+
 ## Replay
 
 All commands are serial and must retain both resource guards.
@@ -131,13 +138,12 @@ is hash-pinned.
 
 ## Remaining close
 
-1. Classify every fixed-cell kernel-conic norm and denominator
+1. Classify the fixed-swap and fixed-mixed kernel-conic norms and denominator
    specialization, retaining rank-drop and leading-coefficient exceptions.
 2. Classify finite intersections among the noncommon factors of each cell's
    three `(p,t)` projections.
 3. Replay every surviving determinant point in all four original quadratic
    equations and the full forbidden product.
-4. Compile and route the three moving-moving cells after transporting the
-   normalization through the reciprocal trace descent.
+4. Apply both full quotient norms to any deployed q-slice survivors.
 
 No DAG node or status changes on the evidence in this note.
