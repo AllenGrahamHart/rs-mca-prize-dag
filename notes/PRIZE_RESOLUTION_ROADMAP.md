@@ -13417,3 +13417,23 @@ Modal status:             no launch and no cost
 next route-deciding step: compile S0/S1/S2 product templates over the
                           quadratic b algebra
 ```
+
+### Work-cycle burn-down: cells 3/6 S2 product close
+
+```text
+starting local pin:       820c9ab2 (cells 3/6 product involution)
+ending local theorem pin: current cells 3/6 complete S2 exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / concentrated-colored outside skeleton
+result:                   PROVED all S2 product cells are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact skeleton deletion)
+sparse systems:           3 equations, 7 monomials in every cell
+raw units:                forced colored and forced loop, 7 S-pairs
+guarded deletions:        forced DF and EF, bases contain d^2/e^2
+transport:                both b roots checked; c sign squares out
+remaining product cells:  S0=6 and S1=10 canonical cells
+Modal status:             no launch and no cost
+next route-deciding step: bounded S0/S1 sparse passes
+```

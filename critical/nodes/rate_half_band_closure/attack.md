@@ -2878,3 +2878,13 @@ The determinant is a product guard and the mate denominator has resultant
 contain `m` and split its other six values into three involution pairs.
 Compile these templates directly over the quadratic `b` algebra; do not
 carry the sixteen source-root packets into the product stage.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion`
+deletes the entire `S2` product skeleton over this common orbit.  In both
+`b` rows the forced-colored and forced-loop systems are raw units after
+seven S-pairs.  The forced-`DF` basis contains `d^2,e^2`, and the
+forced-`EF` basis contains `e^2`; these contradict nonzero outside
+representatives.  The systems use only `c^2`, so `c -> -c` transports
+the certificates to every common packet.  Continue with the six `S0` and
+ten `S1` forced-record cells; no `S2` q or interpolation work remains.
