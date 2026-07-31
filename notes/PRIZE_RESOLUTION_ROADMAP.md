@@ -12738,3 +12738,30 @@ Modal status:             no launch and no cost
 next route-deciding step: compile signed common-K atlases, beginning with
                           one-loop 442 and preserving all source-root signs
 ```
+
+### Work-cycle burn-down: one-loop 442 loop-singleton atlas
+
+```text
+starting local pin:       d5b71b39 (zero-loop product-q weld)
+ending local theorem pin: current aligned classifier/crossed exclusion
+canonical prize pin:      16c2e92f (coordination note after WAVE-36)
+node/workboard attacked:  K3 / negative one-loop 442 common-K atlas
+result:                   PROVED complete classification of both
+                          loop-singleton matching orbits
+DAG delta:                +2 PROVED background nodes, +4 req, +2 ev edges
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase classification)
+symmetry reduction:       15 matching cells -> six orbits under B/C sign
+                          swaps; all four root-sign classes normalized
+aligned orbit:            exactly two guarded finite families, one cubic-
+                          root and one two-point twelfth-root locus
+crossed orbit:            empty by resultant -2(b^2-1)
+one-loop 442 frontier:    loop-singleton sector complete; four matching
+                          orbits with a nonloop singleton remain
+new assumptions:          none in deployed characteristic
+Modal status:             no launch and no cost
+resource note:            monolithic saturation was rejected at 60 seconds;
+                          sparse factor routing gives sub-second certificates
+next route-deciding step: apply the outside paired-product gate to the two
+                          finite families while classifying the four orbits
+```

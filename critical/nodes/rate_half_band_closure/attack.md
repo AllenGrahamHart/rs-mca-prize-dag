@@ -2406,3 +2406,27 @@ determinants obtained by adjoining the remaining labels are necessary and
 sufficient for all five sum equations.  Hence every live negative skeleton
 now has exactly two scalar common-`K` q welds after product reconstruction.
 The next step is a signed atlas, not another generic determinant compiler.
+
+The first one-loop `(4,4,2)` atlas sector is now exact.  Under the two target
+representative sign swaps, the fifteen source matching cells form six
+orbits.  The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier`
+treats the orbit where the loop is the singleton and the `AB` and `AC`
+signed pairs each occupy one source antipodal pair.  Its common-`K` frontier
+is exactly
+
+```text
+A: r^2+r+1=0,  b=ir,   c=ir^2, t^2=c;
+B: ib^2+b-i=0, c=-1/b, r=-i/b, t^2=-b.
+```
+
+Both are guarded finite families, not deleted cells.  Carry them next into
+the outside paired-product gate.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion`
+deletes the other loop-singleton orbit, in which both source antipodal pairs
+mix `AB` and `AC` products.  Two ideal consequences have guarded resultant
+`-2(b^2-1)`, contradicting target distinctness.  Thus the loop-singleton
+sector is complete: two finite aligned families survive and the crossed
+orbit is empty.  Four nonloop-singleton matching orbits remain to classify.

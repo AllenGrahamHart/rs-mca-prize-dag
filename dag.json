@@ -20356,6 +20356,46 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 aligned-pair classifier",
+   "status": "PROVED",
+   "closure": "exact two-family classification of the aligned-pair one-loop 442 common-K matching orbit",
+   "statement": "In the one-loop 442 matching orbit where the loop label is the singleton and each doubled signed product pair occupies one source antipodal pair, the complete product gate and two q welds leave exactly two guarded families. One has r^2+r+1=0, b=ir, c=ir^2, t^2=c; the other has ib^2+b-i=0, c=-1/b, r=-i/b, t^2=-b. Target representative changes cover all four square-root sign classes. Both families survive common-K and still need the seven complementary fibers.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 crossed-pair exclusion",
+   "status": "PROVED",
+   "closure": "complete deletion of the crossed-pair one-loop 442 common-K matching orbit",
+   "statement": "When the one-loop label is the singleton and both source antipodal pairs mix an AB product with an AC product, the product minors and two q welds imply b(br+b-ir+i)=0 and c(b(r-1)+i(r+1))=0. After the nonzero guards, their r-resultant is -2(b^2-1), contradicting odd characteristic and target distinctness. Target representative changes cover both crossed matchings and every root-sign class, so the whole orbit is empty.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
    "title": "KoalaBear m2 r4 coordinate negative two-loop product-to-q weld",
    "status": "PROVED",
@@ -39522,6 +39562,36 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
