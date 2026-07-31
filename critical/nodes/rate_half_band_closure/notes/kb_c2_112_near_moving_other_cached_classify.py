@@ -45,7 +45,9 @@ def load_cores(allocation, root, cache_dir, b, c, d, primary):
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("allocation", choices=("square-xi", "square-ell"))
+    parser.add_argument(
+        "allocation", choices=("square-xi", "square-ell", "mixed")
+    )
     parser.add_argument("index", type=int)
     parser.add_argument("--cache-dir", type=Path, default=Path("/tmp"))
     args = parser.parse_args()
@@ -78,6 +80,23 @@ def main() -> None:
             "d**2 - 748014748*d + 1",
             "d**6 + 52868123*d**5 + 322738914*d**4 - 848385901*d**3 + 322738914*d**2 + 52868123*d + 1",
         ),
+        "mixed": (
+            "d - 814817489", "d - 783212336",
+            "d + 204450215",
+            "d**2 + 789879454*d + 82723665",
+            "d + 710235477", "d + 152359007", "d + 506691192",
+            "d**2 - 185559879*d - 988128217",
+            "d + 136159215", "d + 137914370",
+            "d + 773535750", "d - 1033497818",
+            "d - 773535752", "d - 70784153",
+            "d + 231959116", "d + 833394101",
+            "d**2 + 72236946*d + 480334988",
+            "d**2 + 307529315*d + 88673483",
+            "d**2 + 349791372*d + 686936261",
+            "d**2 + 583377876*d - 781526165",
+            "d**3 - 404702624*d**2 - 606457571*d + 293107194",
+            "d**6 + 1050209485*d**5 + 485933422*d**4 - 170239540*d**3 + 890733766*d**2 + 922536397*d + 640345259",
+        ),
     }[args.allocation]
     if not 0 <= args.index < len(candidates):
         raise RuntimeError("candidate index")
@@ -91,6 +110,20 @@ def main() -> None:
             args.allocation, root, args.cache_dir, b, c, d, primary
         )
         cores.extend(by_kind[kind].as_expr() for kind in ("product", "sum"))
+    if args.allocation == "mixed" and candidate.degree() >= 3:
+        coefficient_ring = sp.GF(CHARACTERISTIC).poly_ring(b, c)
+        divisor = sp.Poly(
+            candidate.as_expr(), d, domain=coefficient_ring
+        )
+        cores = [
+            sp.Poly(value, d, domain=coefficient_ring).prem(divisor).as_expr()
+            for value in cores
+        ]
+        print(
+            f"stage=candidate_reduce degree={candidate.degree()} "
+            f"terms={[len(sp.Poly(value, b, c, d, modulus=CHARACTERISTIC).terms()) for value in cores]}",
+            flush=True,
+        )
     print(f"stage=cache_load candidate={key!r}", flush=True)
     basis = sp.groebner(
         [*cores, candidate.as_expr()],

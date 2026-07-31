@@ -1595,6 +1595,20 @@ and an independent fraction-free/terminal-subresultant audit. Thus 17 of 18
 affine positive charts are closed. Only the mixed moving-moving other-xi
 allocation remains, together with negative loci and the `w=0` boundary.
 
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion`
+closes that final affine-positive chart. The product-ratio minus gate splits
+into two linear branches and one reciprocal-quadratic branch; their 22
+candidate fibers all have unit full four-core forbidden saturation. The
+ratio-plus reciprocal quartic is handled in the trace coordinate
+`s=b+1/b`: four independent generic pair gates have common projection
+degree 352, while the leading-coefficient boundary has projection degree
+772. Complete residue-field reconstruction leaves no admissible fiber in
+either chart. A direct SymPy/FLINT primary and an independent no-import
+fraction-free audit agree. Thus all 18 affine positive charts are closed.
+The negative reconstruction loci and homogenized `w=0` boundary remain,
+together with the other packet and assembly obligations of the target.
+
 The aligned positive sign has also resisted a broader exact falsifier sweep.
 The seeded standard-library replay
 `notes/kb_c2_112_positive_qslice_sweep.py` tests all twelve internal

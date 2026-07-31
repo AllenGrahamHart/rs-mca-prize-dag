@@ -51,6 +51,9 @@ def main() -> None:
             "subparent-c", "subparent-d", "modparent-c", "modparent-d",
             "cache-c", "cache-d",
             "traceparent-d",
+            "mixed-gate", "cache-mixed-gate",
+            "mixed-ratio-gate", "cache-mixed-ratio-gate",
+            "mixed-ratio-sign",
         ),
     )
     args = parser.parse_args()
@@ -96,7 +99,9 @@ def main() -> None:
         for value in matrix.inv(method="DM") * sp.Matrix([0, 0, *target])
     ]
 
-    def residual(root):
+    residual_coefficients = {}
+
+    def residual(root_name, root):
         x0, x1, x2, x3, x4 = coefficients
         even0 = sp.cancel(x0 + root * x3 + root**2 * x2)
         even1 = sp.cancel(x1 + root * x4 + root**2 * x1)
@@ -107,6 +112,7 @@ def main() -> None:
             2 * even1 * even2 - local_odd1**2 + 2 * w * leading
         )
         constant = sp.cancel(even0**2 / w**2)
+        residual_coefficients[root_name] = (even0, even2)
         return leading, middle, constant
 
     kappa_xi = 1 / b
@@ -136,7 +142,7 @@ def main() -> None:
     elif args.mode.endswith("-d"):
         roots = (("d", d),)
     for root_name, root in roots:
-        leading, middle, constant = residual(root)
+        leading, middle, constant = residual(root_name, root)
         root_targets = targets[root_name]
         equations = {
             "product": constant - leading * root_targets[0] * root_targets[1],
@@ -161,6 +167,141 @@ def main() -> None:
                 flush=True,
             )
     if args.mode == "cores":
+        return
+
+    if args.mode == "mixed-ratio-sign":
+        if args.allocation != "mixed":
+            raise RuntimeError("ratio sign is mixed-only")
+        even0_c, even2_c = residual_coefficients["c"]
+        even0_d, even2_d = residual_coefficients["d"]
+        ratio_product = sp.cancel(
+            even0_c * even0_d / (even2_c * even2_d)
+        )
+        numerator, denominator = sp.fraction(ratio_product)
+        numerator_poly = sp.Poly(
+            numerator, b, c, d, domain=sp.QQ
+        ).primitive()[1]
+        denominator_poly = sp.Poly(
+            denominator, b, c, d, domain=sp.QQ
+        ).primitive()[1]
+        print(
+            f"stage=mixed_ratio_sign numerator_degrees="
+            f"{tuple(numerator_poly.degree(x) for x in (b,c,d))} "
+            f"numerator_terms={len(numerator_poly.terms())} "
+            f"numerator_factors={[(str(factor), exponent) for factor, exponent in sp.factor_list(numerator_poly.as_expr())[1]]} "
+            f"denominator_degrees={tuple(denominator_poly.degree(x) for x in (b,c,d))} "
+            f"denominator_terms={len(denominator_poly.terms())} "
+            f"denominator_factors={[(str(factor), exponent) for factor, exponent in sp.factor_list(denominator_poly.as_expr())[1]]}",
+            flush=True,
+        )
+        return
+
+    if args.mode in ("mixed-gate", "cache-mixed-gate"):
+        if args.allocation != "mixed":
+            raise RuntimeError("constant-leading gate is mixed-only")
+        constant_c, leading_c = residual_coefficients["c"]
+        constant_d, leading_d = residual_coefficients["d"]
+        gates = {}
+        for sign in (-1, 1):
+            gate = primary.numerator_poly(
+                c**2 * b * d * constant_c * constant_d
+                + sign * leading_c * leading_d,
+                b, c, d,
+            )
+            core = gate
+            incidence_power = 0
+            while True:
+                quotient, remainder = core.div(incidence)
+                if not remainder.is_zero:
+                    break
+                core = quotient.primitive()[1]
+                incidence_power += 1
+            if incidence_power != 2:
+                raise RuntimeError("mixed gate incidence power")
+            gates[str(sign)] = core
+            print(
+                f"stage=mixed_gate sign={sign:+d} "
+                f"degrees={tuple(core.degree(x) for x in (b,c,d))} "
+                f"terms={len(core.terms())} incidence_power={incidence_power} "
+                f"digest={primary.digest(core)}",
+                flush=True,
+            )
+        if args.mode == "cache-mixed-gate":
+            args.cache_dir.mkdir(parents=True, exist_ok=True)
+            cache = args.cache_dir / "kb_c2_112_other_mixed_gates.json"
+            payload = {
+                "allocation": "mixed",
+                "polynomials": {
+                    sign: [
+                        [list(monomial), str(coefficient)]
+                        for monomial, coefficient in value.terms()
+                    ]
+                    for sign, value in gates.items()
+                },
+                "digests": {
+                    sign: primary.digest(value)
+                    for sign, value in gates.items()
+                },
+            }
+            cache.write_text(json.dumps(payload, sort_keys=True))
+            print(
+                f"stage=mixed_gate_cache path={cache} bytes={cache.stat().st_size} "
+                f"digests={payload['digests']}",
+                flush=True,
+            )
+        return
+
+    if args.mode in ("mixed-ratio-gate", "cache-mixed-ratio-gate"):
+        if args.allocation != "mixed":
+            raise RuntimeError("ratio gate is mixed-only")
+        constant_c, leading_c = residual_coefficients["c"]
+        constant_d, leading_d = residual_coefficients["d"]
+        ratios = {}
+        for sign in (-1, 1):
+            ratio = primary.numerator_poly(
+                constant_c * leading_d + sign * constant_d * leading_c,
+                b, c, d,
+            )
+            core = ratio
+            incidence_power = 0
+            while True:
+                quotient, remainder = core.div(incidence)
+                if not remainder.is_zero:
+                    break
+                core = quotient.primitive()[1]
+                incidence_power += 1
+            ratios[str(sign)] = core
+            print(
+                f"stage=mixed_ratio_gate sign={sign:+d} "
+                f"degrees={tuple(core.degree(x) for x in (b,c,d))} "
+                f"terms={len(core.terms())} incidence_power={incidence_power} "
+                f"digest={primary.digest(core)} "
+                f"factors={factor_records(core, b, c, d)}",
+                flush=True,
+            )
+        if args.mode == "cache-mixed-ratio-gate":
+            args.cache_dir.mkdir(parents=True, exist_ok=True)
+            cache = args.cache_dir / "kb_c2_112_other_mixed_ratio_gates.json"
+            payload = {
+                "allocation": "mixed",
+                "polynomials": {
+                    sign: [
+                        [list(monomial), str(coefficient)]
+                        for monomial, coefficient in value.terms()
+                    ]
+                    for sign, value in ratios.items()
+                },
+                "digests": {
+                    sign: primary.digest(value)
+                    for sign, value in ratios.items()
+                },
+            }
+            cache.write_text(json.dumps(payload, sort_keys=True))
+            print(
+                f"stage=mixed_ratio_gate_cache path={cache} "
+                f"bytes={cache.stat().st_size} digests={payload['digests']}",
+                flush=True,
+            )
         return
 
     if args.mode.startswith("cache"):
