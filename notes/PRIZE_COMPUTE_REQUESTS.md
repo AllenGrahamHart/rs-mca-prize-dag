@@ -10841,9 +10841,18 @@ Universal elimination of the two intrinsic horizontal variables gives 75
 matching obstructions; all 300 sign/base evaluations are units in the exact
 deployed rank-twelve quotient algebra.  Alternate projection and
 multiplication-matrix audits replay every case.  Do not launch an `M2/M3`
-product, interpolation, or q task.  The only live `(4,3,3)` common-`K`
-ledgers are `X2,N1,L1`, and no external saturation should start until their
-outside forced-mate/invariance compiler has fixed the valid cell interface.
+product, interpolation, or q task.
+
+The constrained `X2,N1,L1` cells are now PROVED empty as well.  Their exact
+outside compiler gives three rank-eight base algebras, finite nonzero forced
+products, and nonsingular bilinear product involutions.  The same 75
+universal matching templates give 450/450 unit obstructions, independently
+replayed by alternate projections and rank-eight multiplication matrices.
+Thus the complete `(4,3,3)` paired-product frontier is empty.  No external
+worker should launch a `433` cell, matching, q-orientation, or interpolation
+task.  Together with the preceding `442` close, both currently compiled
+negative two-loop skeletons are obsolete compute targets; recompute the live
+coordinate skeleton census before posing another campaign.
 
 Suggested pilot: one canonical packet stratum, one CPU, at most 512 MiB,
 60 seconds, deterministic partial output, and no parallel fleet.  Modular

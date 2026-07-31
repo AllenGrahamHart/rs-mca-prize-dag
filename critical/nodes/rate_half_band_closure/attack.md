@@ -2337,3 +2337,32 @@ all cases independently.  Therefore `M2,M3` do not reach full interpolation
 or remaining q equations.  The live `(4,3,3)` frontier is now only the
 constrained common-`K` ledgers `X2,N1,L1`, which still need their own outside
 forced-mate/invariance compiler.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler`
+supplies that missing interface.  In all three rows `b=-c^3`; exact
+candidate-row minors force
+
+```text
+X2: p=(-2M^3c+3M^3-16M^2c+24M^2+6Mc-9M-36c+32)/22,
+N1: p=( 2M^3c+3M^3+16M^2c+24M^2-6Mc-9M+36c+32)/22,
+L1: p=(3c^2+10)/8.
+```
+
+The two common antipodal product pairs compile a nonsingular bilinear
+involution `Gamma yz-Alpha(y+z)-Beta=0` in each exact rank-eight base
+algebra.  All protected constants and the determinant
+`Alpha^2+Gamma Beta` are deployed-field units.  This defines exactly 30
+cells (`3` ledgers, two outside signs, five forced-product types) without a
+false base-field rationality cut.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion`
+deletes all 30 cells.  The same 75 universal residual matching templates as
+the `M2/M3` theorem evaluate to 450 units in the three rank-eight quotient
+algebras.  A second projection order and full rank of every `8 x 8`
+multiplication matrix independently replay all cases.  Together with the
+`M2/M3` parent, the entire `(4,3,3)` complete paired-product skeleton is
+empty.  Remove both `442` and `433` from downstream work and recompute the
+remaining negative-coordinate source skeletons before starting any new
+interpolation or q computation.

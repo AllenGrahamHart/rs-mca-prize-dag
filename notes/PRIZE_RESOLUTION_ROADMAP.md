@@ -12663,3 +12663,34 @@ resource note:            generic four-variable Groebner exceeded 60 seconds;
 next route-deciding step: compile the forced outside mate and invariant
                           product cells for X2,N1,L1
 ```
+
+### Work-cycle burn-down: constrained and complete 433 product exclusion
+
+```text
+starting local pin:       8b5ab50b (M2/M3 product exclusion)
+ending local theorem pin: current constrained 433 PROVED compiler/exclusion
+canonical prize pin:      48037b6172f6f2959c2596e64a7b61c34f81c38e
+node/workboard attacked:  K3 / negative 433 constrained X2/N1/L1 cells
+result:                   PROVED deletion of all 30 constrained cells and
+                          therefore the complete (4,3,3) product skeleton
+DAG delta:                +2 PROVED background nodes, +7 req, +2 ev edges
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; one complete skeleton closed)
+exact compiler:           three rank-eight quotient algebras; three forced
+                          products; three nonsingular product involutions
+matching compiler:        five residual forms x 15 matchings = 75 universal
+                          templates shared with the M2/M3 theorem
+primary certificate:      450/450 sign/base/template obstructions are units
+                          by quadratic norm and degree-four gcd
+independent audit:        alternate projection for all templates; 450/450
+                          multiplication matrices have rank eight
+433 frontier:             X2/N1/L1 30 -> 0 cells; complete skeleton empty
+new assumptions:          none in deployed characteristic
+Modal status:             no launch and no cost
+resource note:            DF/EF audits partitioned into five-matching shards;
+                          every process completed below the 60-second limit
+canonical coordination:  WAVE-36 has integrated the branch through 8b5ab50b;
+                          merge its audit/normalization after banking this step
+next route-deciding step: recompute the live negative-coordinate skeleton
+                          census after deleting both 442 and 433
+```
