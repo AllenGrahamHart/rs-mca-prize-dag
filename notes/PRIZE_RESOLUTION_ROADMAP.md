@@ -12634,3 +12634,32 @@ next route-deciding step: remove 442 from the complete-source frontier and
                           attack the 20 M2/M3 invariant cells while extending
                           the outside compiler to X2/N1/L1
 ```
+
+### Work-cycle burn-down: 433 M2/M3 complete-product exclusion
+
+```text
+starting local pin:       fe0adb78 (complete 442 product exclusion)
+ending local theorem pin: current M2/M3 PROVED product exclusion
+canonical prize pin:      14dc1db5f4ec64a2dcba31c65d79716f58090945
+node/workboard attacked:  K3 / negative 433 routed invariant cells
+result:                   PROVED deletion of all 20 M2/M3 cells
+DAG delta:                +1 PROVED background node, +4 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; two common-K ledgers closed downstream)
+base algebra:             deployed rank 12 over P6(M) and the epsilon-signed
+                          quadratic in b; c and p are exact quotient elements
+matching compiler:        five residual forms x 15 perfect matchings = 75
+                          universal two-variable resultant templates
+primary certificate:      60 first-projection plus 15 rerouted obstructions;
+                          300/300 quotient elements are units by norm/gcd
+independent audit:        second projection for all 75 templates; 300/300
+                          multiplication matrices have rank 12
+433 routed frontier:      M2/M3 20 -> 0 cells
+live 433 frontier:        X2,N1,L1 only; no outside compiler exists yet
+new assumptions:          none in deployed characteristic
+Modal status:             no launch and no cost
+resource note:            generic four-variable Groebner exceeded 60 seconds;
+                          quotient evaluation replays in bounded shards
+next route-deciding step: compile the forced outside mate and invariant
+                          product cells for X2,N1,L1
+```

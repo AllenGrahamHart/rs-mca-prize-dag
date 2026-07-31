@@ -2319,3 +2319,21 @@ Hence no `442` cell reaches complete interpolation.  Remove this skeleton
 from downstream work.  Continue with the 20 invariant cells already routed
 over `M2/M3`, and build the missing outside forced-mate/invariance compiler
 for the separate exact `X2/N1/L1` common-`K` ledgers.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion`
+now closes those 20 routed cells.  Expressing the seven products through
+`X=bD,Y=cE,U=DF` leaves two intrinsic variables for each forced type.  The
+75 universal matching eliminations are evaluated in the exact deployed
+rank-twelve algebra
+
+```text
+F_p[M,b]/(P6,4b^2+epsilon A(M)b+4).
+```
+
+All 300 `epsilon x tau x forced-type x matching` obstructions are units.
+A second projection order and `12 x 12` multiplication-matrix ranks replay
+all cases independently.  Therefore `M2,M3` do not reach full interpolation
+or remaining q equations.  The live `(4,3,3)` frontier is now only the
+constrained common-`K` ledgers `X2,N1,L1`, which still need their own outside
+forced-mate/invariance compiler.

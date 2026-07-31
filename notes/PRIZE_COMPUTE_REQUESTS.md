@@ -10836,6 +10836,15 @@ runtime/memory declaration, deterministic partial output, and a compact
 certificate for every unit ideal or survivor component.  No such fleet is
 authorized locally at present.
 
+The 20 `M2/M3` cells are now PROVED empty and this request is obsolete.
+Universal elimination of the two intrinsic horizontal variables gives 75
+matching obstructions; all 300 sign/base evaluations are units in the exact
+deployed rank-twelve quotient algebra.  Alternate projection and
+multiplication-matrix audits replay every case.  Do not launch an `M2/M3`
+product, interpolation, or q task.  The only live `(4,3,3)` common-`K`
+ledgers are `X2,N1,L1`, and no external saturation should start until their
+outside forced-mate/invariance compiler has fixed the valid cell interface.
+
 Suggested pilot: one canonical packet stratum, one CPU, at most 512 MiB,
 60 seconds, deterministic partial output, and no parallel fleet.  Modular
 reconnaissance is evidence only; universal deletion requires symbolic or
