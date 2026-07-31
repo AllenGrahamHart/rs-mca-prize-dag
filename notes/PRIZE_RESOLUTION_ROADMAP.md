@@ -12881,3 +12881,25 @@ Modal status:             no launch and no cost
 next route-deciding step: apply outside products to this finite quotient or
                           classify common orbit [3,6]
 ```
+
+### Work-cycle burn-down: one-loop 442 finite-orbit involution
+
+```text
+starting local pin:       af009831 (nonloop degree-12 common gate)
+ending local theorem pin: current explicit involution compiler
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / cells [9,10,12,13] outside interface
+result:                   PROVED unique involution and forced singleton mate
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase compiler)
+involution determinant:   2b^2(b-1)(b+c)(b^2-c), entirely guarded
+outside reduction:        one forced value plus three bilinear Phi pairs
+template bound:           7*15=105 per skeleton before symmetry
+new assumptions:          none
+Modal status:             no launch and no cost
+resource note:            generic Groebner attempts for [3,6] and
+                          [4,5,7,8] hit the 60-second local cap and stopped
+next route-deciding step: enumerate the 105 matching templates over the
+                          finite common quotient and delete by exact norms
+```

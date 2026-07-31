@@ -2510,3 +2510,25 @@ The full resultant is `-2^56 b^24(b-1)^12(b+1)^12 G(b)` in every sign
 row.  Thus there are at most 72 raw common triples per row before guards.
 The `F_41` witness lies on the sextic factor.  Apply outside products to
 this finite quotient; do not repeat a generic four-variable common solve.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler`
+now supplies the outside interface for that quotient.  The common pairs
+`(-b^2,b)` and `(-b,-c)` determine
+
+```text
+Phi(Y,Z)=(c+2b-b^2)YZ+b(c+b^2)(Y+Z)
+         -b^2(c-b^2-2bc).
+```
+
+Its determinant is the guarded unit
+`2b^2(b-1)(b+c)(b^2-c)`.  The common singleton `c` has forced outside mate
+
+```text
+m=-b(b^3+3b^2c-bc+c^2)/(b^3-b^2c+3bc+c^2).
+```
+
+For each `S0,S1,S2`, choose which outside value is `m` and partition the
+other six into three `Phi=0` pairs.  This is only `7*15=105` matching
+templates per skeleton before symmetry and quotient reduction; use this
+finite list rather than arbitrary source placements.
