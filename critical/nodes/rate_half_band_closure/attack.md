@@ -2235,3 +2235,25 @@ theorem already deletes the other three.  Both cells are empty, leaving 34
 `442` invariant cells and matching cap 444.  Apply this one-parameter
 method next to the `sigma DE` and `DF` forced types; do not carry the deleted
 colored cells into full interpolation.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8l_minus_complete_product_exclusion`
+finishes that program.  Forced `sigma DE` has residual form
+
+```text
+(a,sigma c^2/a,+/-x,+/-sigma c^2 x/a^2),
+```
+
+and forced `DF` has form
+
+```text
+(a,q,sigma aq/c^2,-1,+/-q/a).
+```
+
+Factor-by-factor norms delete every ordinary matching.  Six projected `DF`
+chains at indices `6,7,8` are not survivors: their full ideals are unit over
+the deployed field, and an alternate resultant chain independently deletes
+all 30 `DF` sign/matching cases.  Therefore all six cells over
+`H8-L,tau=-1` are empty.  The live `442` frontier is five common rows, 30
+cells, and matching cap 390.  Do not carry this common row into full
+interpolation; test singleton-placement transport to `H8-M,tau=-1` next.

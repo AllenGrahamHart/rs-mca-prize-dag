@@ -12528,3 +12528,28 @@ Modal status:             no launch and no cost; prior blocked pilot is now
 next route-deciding step: apply the same descent to forced sigma-DE and DF
                           types, then test H8-L/H8-M transport symmetries
 ```
+
+### Work-cycle burn-down: H8-L-minus complete-product exclusion
+
+```text
+starting local pin:       e140ebb6 (H8-L-minus colored-cell cut)
+ending local theorem pin: current H8-L-minus PROVED common-row exclusion
+canonical prize pin:      14dc1db5f4ec64a2dcba31c65d79716f58090945
+node/workboard attacked:  K3 / negative 442 H8-L-minus remaining cells
+result:                   PROVED deletion of all four remaining cells and
+                          therefore the complete common row
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; one complete-product row deleted)
+forced-DE residual:       (a,sigma c^2/a,+/-x,+/-sigma c^2 x/a^2)
+forced-DF residual:       (a,q,sigma aq/c^2,-1,+/-q/a)
+exact certificate:        factor norms delete every ordinary matching; six
+                          projected DF degeneracies are deployed-field unit
+                          ideals; alternate chain covers all 30 DF cases
+442 frontier:             34 -> 30 cells, 6 -> 5 common rows,
+                          matching cap 444 -> 390
+new assumptions:          none in deployed characteristic
+Modal status:             no launch and no cost
+next route-deciding step: test transport to H8-M,tau=-1, then apply the
+                          intrinsic descent to the tau=+1 eighth-root rows
+```
