@@ -2430,3 +2430,20 @@ mix `AB` and `AC` products.  Two ideal consequences have guarded resultant
 `-2(b^2-1)`, contradicting target distinctness.  Thus the loop-singleton
 sector is complete: two finite aligned families survive and the crossed
 orbit is empty.  Four nonloop-singleton matching orbits remain to classify.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier`
+also fixes the outside graph before either surviving family is expanded.
+One common loop permits at most one outside loop.  The two colored records
+and five internal records solve the degree equations in exactly three
+orbits:
+
+```text
+S0: split colored, no loop, internal multiplicities (2,2,1);
+S1: split colored, loop on the uncolored pair, internal (1,1,2);
+S2: concentrated colored, loop on another pair, internal (0,2,2).
+```
+
+Exactly one internal type occupies `eta`.  Apply the paired-product gate to
+the two finite aligned families across only these three skeletons and their
+finite `eta` choices; do not enumerate arbitrary outside multigraphs.

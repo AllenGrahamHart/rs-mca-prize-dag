@@ -12765,3 +12765,25 @@ resource note:            monolithic saturation was rejected at 60 seconds;
 next route-deciding step: apply the outside paired-product gate to the two
                           finite families while classifying the four orbits
 ```
+
+### Work-cycle burn-down: one-loop 442 outside skeletons
+
+```text
+starting local pin:       654bf610 (loop-singleton common-K atlas)
+ending local theorem pin: current one-loop 442 PROVED edge classifier
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / one-loop 442 complementary source records
+result:                   PROVED exhaustive three-orbit outside graph census
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact compiler only)
+ordered census:           12 degree solutions -> orbit sizes 3,3,6
+outside loop budget:      at most one, from the remaining linear factor of
+                          A_1 after its common-loop root
+skeletons:                loop-free split; split plus uncolored loop;
+                          concentrated colored plus loop on another pair
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: compile paired products for the two finite common
+                          families over these three skeletons and eta choices
+```
