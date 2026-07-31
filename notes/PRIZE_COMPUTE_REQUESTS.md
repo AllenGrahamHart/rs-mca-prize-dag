@@ -144,6 +144,15 @@ retries; raw artifact storage is separate.
   raw norm independently, descends moving reciprocity to `s=b+1/b`, and gives
   six unit full-forbidden saturations over `F_2130706433`. The earlier
   unscaled minor/FLINT pilot and its hashes remain retracted.
+- **Bounded local pilot (2026-07-30):** the fixed-moving unramified `same`
+  cell generates four scale-substituted equations of shapes
+  `(degree,terms)=(16,870),(16,900),(13,396),(13,405)` after exact removal of
+  `w^2(p-1)^2`. Both the direct deployed-field full saturation and the first
+  quadratic-in-`b` scale-free resultant reached the hard `60 s`
+  `ramguard tiny` limit without a certificate. Do not rerun this SymPy
+  representation unchanged; use modular interpolation, a dedicated
+  quadratic-resultant emitter, or contributed compute with streaming partial
+  factors.
 - **PASS:** mint a PROVED aligned-positive unramified q-slice exclusion node;
   together with the ramified and aligned-negative theorems, delete the
   complete aligned source-line branch.
