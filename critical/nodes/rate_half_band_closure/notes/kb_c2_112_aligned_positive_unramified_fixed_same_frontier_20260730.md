@@ -1,6 +1,7 @@
 # Aligned positive unramified fixed-moving/same frontier
 
-Status: **SUPERSEDED: fixed-same and fixed-swap are closed**. The primary calculation below concerns
+Status: **SUPERSEDED: all three fixed-moving cells are closed**. The primary
+calculation below concerns
 the fixed-moving `same` cell; the sibling section records the transfer to all
 three fixed-moving allocations among the six open aligned-positive
 unramified `c2(1,1,2)` q-slice cells.  Every calculation uses the corrected
@@ -113,7 +114,11 @@ full quotient norms. The `2 x 1 x 1` off-common support gives seven distinct
 endpoints, all boundary. A separate PROVED node closes fixed-same. Fixed-swap
 is now also closed: its degree-333 direct norm has 26 factors and leaves one
 quadratic-field q-slice point, which fails both full quotient norms; its nine
-off-common endpoints are all boundary. Only fixed-mixed remains open.
+off-common endpoints are all boundary. Fixed-mixed is now closed as well:
+four quadratic-field points on its degree-five component fail both full
+quotient norms, its complete degree-116 linear-rank norm has no survivor,
+and all 20 off-common cofactor combinations are boundary. All six
+aligned-positive unramified allocations are closed.
 
 ## Replay
 
@@ -140,12 +145,6 @@ is hash-pinned.
 
 ## Remaining close
 
-1. Classify the fixed-mixed kernel-conic norms and denominator
-   specialization, retaining rank-drop and leading-coefficient exceptions.
-2. Classify finite intersections among the noncommon factors of each cell's
-   three `(p,t)` projections.
-3. Replay every surviving determinant point in all four original quadratic
-   equations and the full forbidden product.
-4. Apply both full quotient norms to any deployed q-slice survivors.
-
-No DAG node or status changes on the evidence in this note.
+No allocation cell remains in this frontier. The remaining
+`rate_half_band_closure` work is the packet/source-row assembly recorded in
+the parent attack plan. Separate PROVED nodes carry each exact cell closure.

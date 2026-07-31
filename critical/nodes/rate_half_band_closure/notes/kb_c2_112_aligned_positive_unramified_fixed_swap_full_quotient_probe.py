@@ -37,9 +37,9 @@ def load_module(path: Path, digest: str, name: str):
     return module
 
 
-def run_record(base, source, helpers, record):
+def run_record(base, source, helpers, record, allocation="swap"):
     modulus = flint.fmpz_mod_poly_ctx(DEPLOYED_PRIME)(record["modulus"])
-    require(modulus.degree() == 2, "fixed-swap survivor field degree")
+    require(modulus.degree() == 2, f"fixed-{allocation} survivor field degree")
     field = flint.fq_default_ctx(modulus=modulus, fq_type="FQ_NMOD")
     t_value = field(record["t"])
     p_value = field(record["p"])
@@ -129,9 +129,12 @@ def run_record(base, source, helpers, record):
         )
     except RuntimeError:
         second_pass = False
-    require(not (first_pass and second_pass), "fixed-swap full quotient survivor")
+    require(
+        not (first_pass and second_pass),
+        f"fixed-{allocation} full quotient survivor",
+    )
     print(
-        f"fixed_swap_survivor={record['factor_index']} q_slice=PASS "
+        f"fixed_{allocation}_survivor={record['factor_index']} q_slice=PASS "
         f"first_quotient_norm={str(first_pass).upper()} "
         f"second_quotient_norm={str(second_pass).upper()}",
         flush=True,

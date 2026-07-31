@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import importlib.util
+import itertools
 from pathlib import Path
 
 import flint
@@ -51,6 +52,38 @@ OFF_COMMON_CONFIGS = {
     "same": (SAME_FACTOR_DIGESTS, SAME_COMMON_OR_OPEN_DIGESTS),
     "swap": (SWAP_FACTOR_DIGESTS, SWAP_COMMON_OR_OPEN_DIGESTS),
 }
+MIXED_FACTOR_DIGESTS = (
+    (
+        "27dc2c568e0ef0ca4fc4b03d4d117cfd636cc7ed48f7c52053556f13c9ca3632",
+        "ff63832304d9161ac8508901af890abf8bc2b7259e34cb941a4727ca7e1388c1",
+        "0fd5b3c3ae63816fc90416a9d403b03abca94a138aaa547fc972b36e2dc3c6ce",
+        "60be59c7b280160d57e3df7cb5b1ec6bd6bd40f2ca1f73ccbc0b4cfeeccf3626",
+        "22e9eb93d67950eb03bbd5e60061598618dad415462c07e3738d7cef260ecc23",
+    ),
+    (
+        "b02512c083274778475e6ccaeb49a80f2e7d85f940cf5aa7e61b63e01e57fbe7",
+        "332174450bb8b701dea1bfeeb7de3291e8b9a97251d7807aa23f295ec6a9a730",
+        "8f8e77a6ed34abccd39ec13efdfffd4e34afef8bc07900630a743ffc0468873b",
+        "106bae7e5d7ca5e88c4c39b7477e807ddcff8b0ac4eaffc1f990364c2168d132",
+    ),
+    ("700d00d959e88a9639cc878b78de4261502dd5dd4c9f02de1754916a7cd77348",),
+)
+MIXED_COMMON_OR_OPEN_DIGESTS = {
+    "fb4eb943d5c1108596e2199a57fecaff32c3c94bb13305773054123f1b74d0a5",
+    "3f902abdd53c17c8139ff2b0606f8e79ec9c5686b9c673fa145f83cb673f6d52",
+    "de39723065f2a73569050f7290d326610ebfc5f4d9e4f6db969be30d5c414de9",
+    "544274fb97120d080da62a45b251927b63f70bd19285d3b60ad8c17f8f861d35",
+    "74192520e1f5f028cb2ff733e206f8084a5aa920ed5985ff94f44e8c33f02718",
+    "108ffdd9fa92bdeaba39a5fb2560e9155ed60e7e040f89be4d94ec3a3dc5348e",
+    "e33a2320f3a6377c5e39cc0a8aa7b5dc151ef561324c66d2decf32b46935a909",
+    "8cec5db42e9f38668aa4f9afe928bb9adf9610c3b59f1789f26f7759802ba26e",
+    "d54e40904960bcd20c2da066128d71124ade633fe8e4ab65360cba361dbb7fcd",
+    "f87faf4fa44b76fd9d8854ff630cfda98653a46e6d5fa69da86a7600c0e9e6ba",
+}
+OFF_COMMON_CONFIGS["mixed"] = (
+    MIXED_FACTOR_DIGESTS,
+    MIXED_COMMON_OR_OPEN_DIGESTS,
+)
 
 
 def require(condition: bool, message: str) -> None:
@@ -141,10 +174,9 @@ def main() -> None:
         )
         for projection, digests in zip(projections, factor_digests)
     ]
-    middle = factor_sets[1][0]
-    right = factor_sets[2][0]
     endpoint_candidates = {}
-    for left_index, left in enumerate(factor_sets[0]):
+    for branch_index, (left, middle, right) in enumerate(
+            itertools.product(*factor_sets)):
         left_middle_norm = left.resultant(middle, 1)
         left_right_norm = left.resultant(right, 1)
         require(
@@ -156,7 +188,7 @@ def main() -> None:
         print(
             "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_FIXED_"
             f"OFF_COMMON_SCREEN_PASS allocation={args.allocation} "
-            f"branch={left_index} "
+            f"branch={branch_index} "
             f"terms={len(common_norm.to_dict())} degrees={common_norm.degrees()} "
             f"factor_degrees="
             f"{','.join(str(item.degrees()[2]) for item, _ in norm_factors) or '-'} "
@@ -199,13 +231,6 @@ def main() -> None:
 
     moving_router = load_moving_router()
     conic = router.load_conic_cache(compiler, context, config)
-    _, conic_factors = conic.factor()
-    conic_residuals = [
-        factor for factor, exponent in conic_factors
-        if len(factor.to_dict()) > 100 and exponent == 1
-    ]
-    require(len(conic_residuals) == 1, "unique kernel-conic residual")
-    conic_residual = conic_residuals[0]
     boundary = 0
     empty = 0
     w_candidates = []
@@ -227,7 +252,7 @@ def main() -> None:
             w_gcd = moving_router.evaluate_ptw_polynomial(
                 residuals[0], p_value, t_value, polynomial_context
             )
-            for polynomial in (*residuals[1:], conic_residual):
+            for polynomial in (*residuals[1:], conic):
                 w_gcd = w_gcd.gcd(moving_router.evaluate_ptw_polynomial(
                     polynomial, p_value, t_value, polynomial_context
                 ))

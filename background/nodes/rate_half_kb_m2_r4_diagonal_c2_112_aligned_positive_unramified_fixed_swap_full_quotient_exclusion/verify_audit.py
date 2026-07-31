@@ -19,7 +19,7 @@ EXPECTED = {
     "kb_c2_112_aligned_positive_unramified_fixed_swap_survivors.json":
         "30519893654add8a06c5bc56413363eb48aeed9b457ca0eb1797a2119f40843f",
     "kb_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_probe.py":
-        "4be1d2b0d2ba0998f2821d4658c50612953c75122b0743fe58583c629f02e96e",
+        "0f750b5486a32db2df33c56b41c80d99d3c67eee21f0a74e8507159166efb775",
 }
 
 

@@ -51,7 +51,9 @@ def load_moving_router():
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--allocation", choices=("same", "swap"), default="same")
+    parser.add_argument(
+        "--allocation", choices=("same", "swap", "mixed"), default="same"
+    )
     parser.add_argument("--factor", action="store_true")
     parser.add_argument("--finite-replay", action="store_true")
     parser.add_argument("--dump-survivors", type=Path)
@@ -77,16 +79,30 @@ def main() -> None:
     conic_residual = conic_residuals[0]
 
     b_symbol, p_symbol, t_symbol, w_symbol = router.sp.symbols("b p t w")
-    component = compiler.sympy_to_flint(
-        router.sp.Poly(
-            router.component_expression(args.allocation, p_symbol, t_symbol),
-            b_symbol,
-            p_symbol,
-            t_symbol,
-            w_symbol,
-        ),
-        context,
+    component_expression = router.component_expression(
+        args.allocation, p_symbol, t_symbol
     )
+    if component_expression is None:
+        projection = residuals[0].resultant(residuals[1], 3)
+        _, projection_factors = projection.factor()
+        candidates = [
+            factor for factor, exponent in projection_factors
+            if exponent == 1
+            and compiler.polynomial_digest(factor) == config["component_digest"]
+        ]
+        require(len(candidates) == 1, "unique configured component")
+        component = candidates[0]
+    else:
+        component = compiler.sympy_to_flint(
+            router.sp.Poly(
+                component_expression,
+                b_symbol,
+                p_symbol,
+                t_symbol,
+                w_symbol,
+            ),
+            context,
+        )
     resultant = residuals[0].resultant(conic_residual, 3)
     require(not resultant.is_zero(), "zero minor-conic resultant")
     _, remainder = divmod(resultant, component)

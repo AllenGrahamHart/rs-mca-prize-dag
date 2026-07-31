@@ -19347,6 +19347,31 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
+   "title": "KoalaBear c2 (1,1,2) aligned positive unramified fixed-mixed full-quotient exclusion",
+   "status": "PROVED",
+   "closure": "the final aligned positive unramified fixed-moving mixed allocation has q-slice survivors but none satisfy the full colored quotient identities over the deployed field",
+   "statement": "Normalize J_0={2,1/2,b,1/b} and q(T)=T^2+tT+p in the aligned positive unramified fixed-moving mixed allocation. The reciprocal degree-five component has a degree-338 affine minor-conic norm with 25 factors. Exact replay gives 19 deployed endpoint candidates: nine boundary, six empty, and four quadratic-field q-slice points; all four reproduce the q-slice and fail both full quotient norms. The common linear rank curve has a degree-116 raw-kernel norm with ten factors; exact replay leaves only forbidden w values or no common b. All 20 off-common cofactor triples yield five base-boundary endpoints. The p=0 and repeated-endpoint components are boundary. Hence fixed-mixed is excluded and all six aligned-positive unramified allocations are closed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/README.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/verify_degree5.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/verify_linear.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/verify_off_common.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion/verify_quotient.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
    "title": "KoalaBear c2 (1,1,2) near-aligned negative q-slice exclusion",
    "status": "PROVED",
@@ -44429,6 +44454,26 @@
  },
  {
   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
+  "to": "rate_half_band_closure",
+  "kind": "ev"
+ },
+ {
+  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
+  "kind": "req"
+ },
+ {
+  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
+  "kind": "req"
+ },
+ {
+  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
+  "kind": "req"
+ },
+ {
+  "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
   "to": "rate_half_band_closure",
   "kind": "ev"
  },

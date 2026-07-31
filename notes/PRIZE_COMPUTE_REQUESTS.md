@@ -122,7 +122,7 @@ it should link this ledger as future work rather than solicit the computation.
 Cost estimates are conservative ceilings and must include failed shards and
 retries; raw artifact storage is separate.
 
-### Pre-request CR-KB-C2-112-POS-QS-SAT: aligned positive q-slice saturation
+### Resolved CR-KB-C2-112-POS-QS-SAT: aligned positive q-slice saturation
 
 - **Decision:** delete or exhibit an admissible survivor in the aligned
   positive saturated source-line `(1,1,2)` branch of `rate_half_band_closure`.
@@ -180,17 +180,19 @@ retries; raw artifact storage is separate.
   boundary. A separate PROVED node closes fixed `same`. Fixed `swap` leaves
   one quadratic-field point on its degree-333 direct norm; it also fails
   both full quotient norms, while all nine off-common endpoints are boundary.
-  A separate PROVED node closes fixed `swap`. Only fixed `mixed` remains.
-- **PASS:** mint PROVED aligned-positive unramified q-slice exclusion nodes;
+  A separate PROVED node closes fixed `swap`. Fixed `mixed` leaves four
+  quadratic-field q-slice points on its degree-338 direct norm; all fail both
+  full quotient norms. Its complete degree-116 raw linear-rank norm is empty,
+  and its 20 off-common combinations give five boundary endpoints. A third
+  PROVED node closes fixed `mixed`; all six unramified allocations are done.
+- **PASS:** mint PROVED aligned-positive unramified full-quotient exclusion
+  nodes;
   together with the ramified and aligned-negative theorems, delete the
   complete aligned source-line branch.
 - **SURVIVOR:** replay it independently, then route it to both full quotient
   identities; do not repair the deletion claim by genericity.
 - **INCOMPLETE:** evidence only; no DAG status change.
-- **Authorization:** external pre-request narrowed to the fixed-moving
-  unramified `mixed` cell. No
-  reliable wall-time/cost ceiling or compact certificate emitter exists yet,
-  so do not launch them on the remaining local Modal balance.
+- **Authorization:** resolved locally; no external or Modal request remains.
 
 ### Resolved CR-KB-C2-112-NEAR-QS-ELIM: near-aligned q-slice elimination
 

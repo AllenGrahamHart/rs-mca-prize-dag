@@ -11921,3 +11921,29 @@ remaining aligned cells:  fixed-moving mixed only
 next route-deciding step: classify both fixed-mixed common components and
                           their off-common projection grid
 ```
+
+### Work-cycle burn-down: fixed-mixed full quotient close
+
+```text
+starting local pin:       000417d8 (fixed-swap full quotient close)
+ending local theorem pin: current fixed-mixed PROVED packet
+canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+node/workboard attacked:  K3 / aligned positive unramified c2(1,1,2)
+cell attacked:            fixed-moving mixed allocation
+result:                   PROVED by complete common/off-common replay
+DAG delta:                +1 PROVED background evidence node, +4 edges
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; the new edge is evidence, not req)
+degree-five ledger:       degree-338 norm, 25 factors; 19 deployed endpoint
+                          candidates -> 9 boundary, 6 empty, 4 q-slice points
+full quotient route:      all 4 quadratic-field points reproduce KBQS-1 and
+                          fail both normed colored quotient identities
+linear-rank route:        raw degree-116 norm, 10 factors; 4 base-boundary
+                          fields, 9 forbidden w values, 3 empty b fibers
+off-common route:         5 x 4 x 1 residual grid -> 5 distinct endpoints,
+                          all on the base boundary
+new assumptions:          none
+aligned cell ledger:      all six positive unramified allocations closed
+next route-deciding step: audit the parent packet/source-row assembly and
+                          promote the strongest newly discharged subclaim
+```
