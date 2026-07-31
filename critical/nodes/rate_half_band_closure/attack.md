@@ -1478,8 +1478,22 @@ m_1-m_3=4(c^2-1)/c=-A!=0.
 ```
 
 Thus no aligned negative candidate passes `(KBQS-1)`. The aligned source-line
-attack retains only the positive sign. Both signs remain in the near-aligned
-branch because its target is `tau^*chi_Omega`, not `tau^*q`.
+attack retains only the positive sign. At this checkpoint both signs remained
+in the near-aligned branch because its target is `tau^*chi_Omega`, not
+`tau^*q`.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion`
+also removes the negative sign from the near-aligned branch. The negative
+factor gate and `b->1/b` reduce both internal templates to `B=0`; exact
+reconstruction gives the same `z,V` and opposite `U`, hence the same
+`G=U^2-WV^2`. Its monic residual quartic has constant one, so passage to the
+near target forces `(xi*d)^2=1`. The plus branch is a label collision. On the
+minus branch, exact projections for `xi=2`, `xi=1/2`, and `xi=b` reconstruct
+only forbidden endpoint labels, collisions, or `w=+/-1`. Direct deployed-prime
+saturation is unit in all three rows. This deletion includes the negative
+forced-ramified locus `w=0`; it does not address the positive homogenized
+boundary.
 
 Seven deployed-field near-aligned positive charts are now deleted. The PROVED
 `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion`
@@ -1606,8 +1620,8 @@ degree 352, while the leading-coefficient boundary has projection degree
 772. Complete residue-field reconstruction leaves no admissible fiber in
 either chart. A direct SymPy/FLINT primary and an independent no-import
 fraction-free audit agree. Thus all 18 affine positive charts are closed.
-The negative reconstruction loci and homogenized `w=0` boundary remain,
-together with the other packet and assembly obligations of the target.
+The positive homogenized `w=0` boundary remains, together with the other
+packet and assembly obligations of the target.
 
 The aligned positive sign has also resisted a broader exact falsifier sweep.
 The seeded standard-library replay
