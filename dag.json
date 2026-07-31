@@ -20416,6 +20416,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 aligned outside-product router",
+   "status": "PROVED",
+   "closure": "exact paired-product routing of the two aligned common-K families across all three outside skeletons",
+   "statement": "The common product pairs (b,-b) and (c,-c) force the global product involution to be negation, so the outside mate of -b^2 is b^2 and the other six products form three negation pairs. This deletes the loop-free S0 skeleton. In S1 the forced value must be one of the singleton DE or DF products, leaving two exact signed branches and the quartic d^4=-alpha beta gamma delta b^2 c^2. In S2 the forced value must be the loop, so -e^2=b^2. S1 and S2 have guarded finite product-level witnesses; outside q equations and full interpolation remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
    "title": "KoalaBear m2 r4 coordinate negative two-loop product-to-q weld",
    "status": "PROVED",
@@ -39632,6 +39652,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

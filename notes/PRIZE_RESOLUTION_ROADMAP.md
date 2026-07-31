@@ -12787,3 +12787,27 @@ Modal status:             no launch and no cost
 next route-deciding step: compile paired products for the two finite common
                           families over these three skeletons and eta choices
 ```
+
+### Work-cycle burn-down: one-loop 442 aligned outside products
+
+```text
+starting local pin:       7e26b12a (one-loop 442 outside skeleton census)
+ending local theorem pin: current aligned outside-product router
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / aligned one-loop 442 complement products
+result:                   PROVED exact product routing over S0,S1,S2
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase routing)
+forced involution:        negation, from common pairs (b,-b),(c,-c)
+S0:                       deleted universally
+S1:                       two forced singleton-edge branches, with quartic
+                          d^4=-alpha beta gamma delta b^2 c^2
+S2:                       one forced-loop branch -e^2=b^2
+survivor evidence:        guarded F_73 product witnesses for S1 and S2
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: test the three retained branches against the
+                          one-loop q weld/full interpolation; classify the
+                          four nonloop-singleton common matching orbits
+```

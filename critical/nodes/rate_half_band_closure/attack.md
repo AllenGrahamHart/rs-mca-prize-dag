@@ -2447,3 +2447,22 @@ S2: concentrated colored, loop on another pair, internal (0,2,2).
 Exactly one internal type occupies `eta`.  Apply the paired-product gate to
 the two finite aligned families across only these three skeletons and their
 finite `eta` choices; do not enumerate arbitrary outside multigraphs.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router`
+performs that product step without expanding arbitrary source placements.
+The two common pairs `(b,-b)` and `(c,-c)` force the product involution to
+be negation, so the missing mate of the common singleton `-b^2` is `b^2`.
+The other six outside products must form three negation pairs.  This deletes
+`S0` outright.  It reduces `S1` to two branches, according as the forced
+product is the singleton `DE` or `DF` edge, and both obey
+
+```text
+d^4=-alpha*beta*gamma*delta*b^2*c^2.
+```
+
+It reduces `S2` to the forced-loop equation `-e^2=b^2`.  Guarded `F_73`
+witnesses show that `S1` and `S2` are genuine product-level survivors, so
+do not delete them.  Apply the one-loop q weld and full interpolation only
+to these three routed branches.  Four common matching orbits with a
+nonloop singleton remain an independent classification task.
