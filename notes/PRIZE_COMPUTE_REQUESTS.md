@@ -10898,6 +10898,21 @@ common sign row, or `2100` over all four sextic rows, before quotienting by
 the residual unsigned skeleton automorphisms.  A worker that expands the
 original 25 sign cells is obsolete.
 
+The residual template quotient is also now PROVED.  Simultaneous action on
+the sign cell, forced record, full-pair members, and residual matching gives
+
+```text
+S0: 840 raw -> 64 canonical,
+S1: 1680 raw -> 114 canonical,
+S2: 105 raw -> 23 canonical.
+```
+
+The accepted compute cap is therefore 201 templates per common sign row and
+804 over all four sextic rows.  The orbit-size distributions and a complete
+enumerator are in the template-orbit classifier node.  External workers
+must consume its deterministic representatives; the former 2,100-row cap
+is obsolete.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs

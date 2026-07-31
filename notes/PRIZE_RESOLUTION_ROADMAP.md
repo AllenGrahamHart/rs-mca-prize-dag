@@ -12991,3 +12991,23 @@ Modal status:             no launch and no cost
 next route-deciding step: quotient the 105 templates by the residual
                           E/F skeleton automorphisms in S0 and S1
 ```
+
+### Work-cycle burn-down: one-loop 442 outside template orbits
+
+```text
+starting local pin:       43bcc432 (outside sign-orbit classifier)
+ending local theorem pin: current outside template-orbit classifier
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / forced-record and matching symmetries
+result:                   PROVED exact canonical template census
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact combinatorial classifier)
+raw/canonical:            S0 840/64; S1 1680/114; S2 105/23
+accepted cap:             201 per common sign row; 804 over four rows
+orbit audit:              weighted orbit sizes recover all 2625 raw rows
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: emit deterministic representatives for the 201
+                          orbits and shard only those on external compute
+```

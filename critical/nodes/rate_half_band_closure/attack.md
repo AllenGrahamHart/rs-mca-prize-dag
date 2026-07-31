@@ -2590,3 +2590,18 @@ Thus each common sign row has five signed outside cells, not 25.  The
 forced/matching cap is `5*105=525` per common row and `2100` across all four
 sextic rows before unsigned skeleton automorphisms.  Use these parity cells
 in every external or symbolic continuation.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier`
+also quotients the forced-record/matching choices by the valid `E/F`
+skeleton automorphisms and by their action on full signed-pair members.  The
+exact canonical counts per common sign row are
+
+```text
+S0: 64,       S1: 114,       S2: 23,
+total: 201.
+```
+
+The four-row cap is therefore 804, down from 10,500 raw signed templates.
+Emit and evaluate one deterministic representative per orbit; never expand
+the raw sign cells or all 2,625 templates per common row.

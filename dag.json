@@ -20576,6 +20576,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 outside template-orbit classifier",
+   "status": "PROVED",
+   "closure": "201 canonical forced-value/matching templates per common sign row",
+   "statement": "Act simultaneously on signed outside cells, the forced record, and the residual perfect matching by target representative signs and valid unsigned skeleton automorphisms. The 840 raw S0 templates form 64 orbits, the 1680 raw S1 templates form 114, and the 105 raw S2 templates form 23. Thus there are 201 canonical templates per common sign row and 804 over the four sextic rows. Product realization remains open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
    "title": "KoalaBear m2 r4 coordinate negative two-loop product-to-q weld",
    "status": "PROVED",
@@ -39912,6 +39932,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
