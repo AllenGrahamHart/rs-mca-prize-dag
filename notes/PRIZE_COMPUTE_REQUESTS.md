@@ -223,8 +223,14 @@ retries; raw artifact storage is separate.
   cannot enter `F_(p^6)`; all four retained linear fibers have unit forbidden
   saturations in independent direct/resultant and fraction-free/subresultant
   paths.
+- **Banked moving-moving a-xi mixed chart:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion`
+  reduces to one nonstandard parent-component pair. Its complete modular
+  router retains four linear, five quadratic, and one cubic factor, all with
+  unit forbidden saturation; irreducible degrees 5, 7, and 29 cannot enter
+  `F_(p^6)`. This completes the moving-moving `xi=a` orbit.
 - **Immediate unresolved input:** retain the explicit finite-chart
-  saturations while moving through the remaining seven moving-moving affine
+  saturations while moving through the remaining six moving-moving affine
   allocations and the negative `B/C` loci.
 - **Required output:** for every chart, either a unit/collision-only exact
   elimination certificate or an explicit algebraic survivor with `b,z`, and
@@ -233,7 +239,7 @@ retries; raw artifact storage is separate.
   is not realization.
 - **PASS:** mint a scoped PROVED near-positive or near-negative exclusion node
   after all charts and isolated leading branches in that scope are covered.
-  Eleven of the 18 affine positive charts now satisfy this contract.
+  Twelve of the 18 affine positive charts now satisfy this contract.
 - **INCOMPLETE:** curve factors, pairwise resultants, or generic-field gcds
   alone are narrowing evidence.
 - **Authorization:** external pre-request for the remaining chart queue.

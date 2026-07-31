@@ -109,6 +109,7 @@ def main() -> None:
     proof_label = {
         ("a", "square-xi"): "A_SQUARE",
         ("a", "square-ell"): "A_SQUARE_ELL",
+        ("a", "mixed"): "A_MIXED",
     }.get(proof_chart)
     if args.prove:
         require(
@@ -120,6 +121,9 @@ def main() -> None:
                 }
             ) or (
                 proof_chart == ("a", "square-ell")
+                and args.mode in {"cores", "trace", "c", "d", "pairs", "classify"}
+            ) or (
+                proof_chart == ("a", "mixed")
                 and args.mode in {"cores", "trace", "c", "d", "pairs", "classify"}
             ),
             "proof mode is not configured for this chart/stage",
@@ -239,6 +243,12 @@ def main() -> None:
                 ("d", "product"): ((4, 5, 6), 194, 2, "a9568da9b73746f3"),
                 ("d", "sum"): ((4, 9, 8), 432, 0, "34219e7d8f958227"),
             },
+            ("a", "mixed"): {
+                ("c", "product"): ((4, 8, 7), 344, 2, "35eb7004118a99f6"),
+                ("c", "sum"): ((4, 12, 9), 634, 0, "61250edd35fc0302"),
+                ("d", "product"): ((4, 6, 7), 264, 2, "3d61fea968400cdc"),
+                ("d", "sum"): ((4, 10, 9), 534, 0, "7365d626fc5dc28f"),
+            },
         }[proof_chart]
         for key, (degrees, terms, incidence_power, wanted_digest) \
                 in expected_cores.items():
@@ -302,6 +312,12 @@ def main() -> None:
                 ("d", "product"): ((2, 5, 6), 118, "a204237915868784"),
                 ("d", "sum"): ((2, 9, 8), 261, "02be6fc5511268da"),
             },
+            ("a", "mixed"): {
+                ("c", "product"): ((2, 8, 7), 208, "c4cd8952673f0927"),
+                ("c", "sum"): ((2, 12, 9), 382, "bcea0eb05a3f0389"),
+                ("d", "product"): ((2, 6, 7), 160, "886ca4ba23104dc5"),
+                ("d", "sum"): ((2, 10, 9), 322, "14d50a46ac8b6b61"),
+            },
         }[proof_chart]
         for key, (degrees, terms, wanted_digest) in expected_traces.items():
             value = traces[key]
@@ -322,7 +338,7 @@ def main() -> None:
         return
 
     characteristic = 2130706433
-    expected_candidate_keys = {
+    candidate_keys_by_chart = {
         ("a", "square-xi"): {
             "d + 74714126", "d + 783212335", "d + 814817488",
             "d - 348744034", "d - 556359354", "d - 729277070",
@@ -340,7 +356,18 @@ def main() -> None:
             "d + 119912127", "d + 12573110",
             "d - 581055016", "d - 760966584",
         },
-    }[proof_chart]
+        ("a", "mixed"): {
+            "d + 297646746", "d + 733504963", "d + 759603263",
+            "d - 759603297",
+            "d**2 - 171385344*d + 948574701",
+            "d**2 - 21371382*d + 884638303",
+            "d**2 - 690600778*d + 771988056",
+            "d**2 - 955875534*d + 740291898",
+            "d**2 - 976215692*d - 769168004",
+            "d**3 - 508355909*d**2 - 775758617*d - 253189537",
+        },
+    }
+    expected_candidate_keys = candidate_keys_by_chart.get(proof_chart, set())
 
     def within_components(root_name):
         resultant = sp.Poly(
@@ -412,6 +439,24 @@ def main() -> None:
                         "c753072a5bf68171": 1, "6ba62bd34c05e0ff": 1,
                     },
                 }),
+                ("a", "mixed"): ({
+                    "c": "ff275ab748f48780", "d": "345a2353ff8883f5",
+                }, {
+                    "c": {
+                        "6a515ecf832aff78": 2, "e31255d5e81e2509": 2,
+                        "4aa033e0505df8f1": 4, "73c55ff149852dee": 4,
+                        "19d832b1f64387da": 2, "dbe56c4d43b264a2": 4,
+                        "cb4fd487538b0eff": 4, "477785c532483181": 12,
+                        "7a7743ce53fe8f77": 12, "067a3b42540bb240": 1,
+                    },
+                    "d": {
+                        "6a515ecf832aff78": 8, "e31255d5e81e2509": 8,
+                        "19d832b1f64387da": 2, "4975135dd6af0fc0": 4,
+                        "dbe56c4d43b264a2": 4, "824f64bb4a05a043": 4,
+                        "cb4fd487538b0eff": 4, "477785c532483181": 8,
+                        "07c011183de4549a": 1,
+                    },
+                }),
             }[proof_chart]
             require(
                 digest(resultant) == expected_resultants[root_name],
@@ -431,6 +476,10 @@ def main() -> None:
                     "c": {"90db6ed8f237340f", "39a8eb9fc1019be9", "4805246499888132"},
                     "d": {"c753072a5bf68171", "6ba62bd34c05e0ff"},
                 },
+                ("a", "mixed"): {
+                    "c": {"067a3b42540bb240"},
+                    "d": {"07c011183de4549a"},
+                },
             }[proof_chart][root_name]
             forbidden_parent = {
                 ("a", "square-xi"): {
@@ -444,6 +493,12 @@ def main() -> None:
                           c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1, c + 1),
                     "d": (2*d - 1, d - 1, d + 1, 2*c - 1, c - 2,
                           c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1),
+                },
+                ("a", "mixed"): {
+                    "c": (d - 1, d + 1, d - 2, 2*d - 1, d,
+                          c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1, c + 1),
+                    "d": (d - 1, d + 1, d, c - 2,
+                          c*d - 1, 2*c - 1, 5*c*d - 4*c - 4*d + 5, c - 1),
                 },
             }[proof_chart][root_name]
             forbidden_digests = {
@@ -484,6 +539,10 @@ def main() -> None:
                 "4805246499888132",
             ),
             "d": ("c753072a5bf68171", "6ba62bd34c05e0ff"),
+        },
+        ("a", "mixed"): {
+            "c": ("067a3b42540bb240",),
+            "d": ("07c011183de4549a",),
         },
     }
     if (args.xi, args.allocation) not in wanted_by_chart:
@@ -589,10 +648,22 @@ def main() -> None:
             "b8907990ebf04ed3": 6, "279f89e289adc46e": 1,
         }),
     }
+    mixed_pairs = {
+        (0, 0): ("70f26589e602e699", {
+            "f93c38ef339888a3": 16,
+            "b8907990ebf04ed3": 24,
+            "3e8b7ae50a0eb368": 30,
+            "badaaa15f719fc0a": 1,
+            "7c38bfaa7ed117b9": 1,
+            "ddc62481be50cdd9": 1,
+            "c23e461afce62a1f": 1,
+        }),
+    }
     expected_pairs = {
         ("a", "square-xi"): square_xi_pairs,
         ("a", "square-ell"): square_ell_pairs,
-    }[proof_chart]
+        ("a", "mixed"): mixed_pairs,
+    }.get(proof_chart, {})
     for left_index, right_index in pair_indices:
         left = components["c"][left_index]
         right = components["d"][right_index]

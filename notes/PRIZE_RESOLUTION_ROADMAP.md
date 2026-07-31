@@ -11577,11 +11577,19 @@ degree-nine factors and one degree-five factor are irrelevant to
 `F_(p^6)`; the only relevant nonstandard support is four linear fibers, each
 with unit forbidden saturation in both implementations.
 
-This closes exactly 11 of the 18 affine positive charts. The remaining seven
-are all moving-moving: the `xi=a` mixed allocation and all three allocations
-in each of the reciprocal and other-`xi` orbits. Both negative factor loci
-and the projective `w=0` boundary also remain open; do not infer a broader
-near-aligned deletion from these eleven charts.
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion`
+closes the mixed allocation `c,d->{1/2,1/d}` and completes the `xi=a` orbit.
+Its reciprocal trace parents have one nonstandard component each. Their sole
+degree-128 projection has four linear, five quadratic, and one cubic factor
+whose degrees divide six; all ten have unit forbidden saturation. The
+remaining irreducible degrees 5, 7, and 29 cannot enter `F_(p^6)`.
+
+This closes exactly 12 of the 18 affine positive charts. The remaining six
+are all moving-moving: all three allocations in each of the reciprocal and
+other-`xi` orbits. Both negative factor loci and the projective `w=0`
+boundary also remain open; do not infer a broader near-aligned deletion from
+these twelve charts.
 
 There is a cheaper common gate before those allocation splits. Write
 
@@ -11614,7 +11622,7 @@ banked fraction-free reconstruction over `Q[p,t,b,w,lambda_scale]`.
 1. Treat the nine fixed-moving affine charts as banked certificates; do not
    recompute them. The projective `w=0` formulas remain separate and must
    retain `D*lambda_scale-L=0` until normalization is audited.
-2. Continue the remaining seven moving-moving charts after closing under
+2. Continue the remaining six moving-moving charts after closing under
    `b->1/b`; carry the induced
    `lambda_scale` transformation before rewriting in `s=b+1/b`. Do not infer
    completeness from a generic field gcd: discharge every endpoint curve and

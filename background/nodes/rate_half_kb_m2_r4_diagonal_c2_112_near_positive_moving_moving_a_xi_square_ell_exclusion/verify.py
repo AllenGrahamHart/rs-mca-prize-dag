@@ -6,7 +6,7 @@ from pathlib import Path
 NODE = Path(__file__).resolve().parent
 ROOT = NODE.parents[2]
 HELPER = ROOT / "critical/nodes/rate_half_band_closure/notes/kb_c2_112_near_moving_template_probe.py"
-EXPECTED = "05055af688d8c9fe33a698965c9e7c69600053a1681f86af2af155ad7e1cb04c"
+EXPECTED = "9dc035d731e36f2d118bdfd4fcc2091c24dccd8f04cecf3425d528beb7a55ccc"
 if hashlib.sha256(HELPER.read_bytes()).hexdigest() != EXPECTED:
     raise RuntimeError("primary helper hash")
 statement = (NODE / "statement.md").read_text()

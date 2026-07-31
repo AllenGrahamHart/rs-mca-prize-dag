@@ -1546,9 +1546,18 @@ forms have three nonstandard parent components over `c` and two over `d`.
 The six pair projections leave two irreducible degree-nine factors and one
 irreducible degree-five factor, none of which meets `F_(p^6)`, plus four
 linear fibers. All four linear fibers have unit forbidden saturation in the
-direct/resultant and independent fraction-free/subresultant paths. Thus 11
-of the 18 affine positive charts are closed; seven moving-moving charts,
-negative loci, and the `w=0` boundary remain.
+direct/resultant and independent fraction-free/subresultant paths.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion`
+closes the mixed allocation `c,d->{1/2,1/d}`. After reciprocal trace
+reduction, each parent has one nonstandard component and their sole
+projection has degree 128. Its complete modular census leaves four linear,
+five quadratic, and one cubic factor relevant to `F_(p^6)`; all ten have
+unit forbidden saturations. The other irreducible degrees are 5, 7, and 29.
+The direct/resultant and independent source/subresultant paths agree. Thus 12
+of the 18 affine positive charts are closed, the full `xi=a` orbit is done,
+and six moving-moving charts, negative loci, and the `w=0` boundary remain.
 
 The aligned positive sign has also resisted a broader exact falsifier sweep.
 The seeded standard-library replay

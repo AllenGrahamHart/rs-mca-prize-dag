@@ -96,7 +96,7 @@ def factor_map(polynomial: sp.Poly, *variables):
     }
 
 
-def build_trace_cores(allocation):
+def build_trace_cores(allocation, fraction_free):
     b, c, d, s = sp.symbols("b c d s", nonzero=True)
     a = sp.Rational(2)
     w = 1 / c
@@ -133,19 +133,24 @@ def build_trace_cores(allocation):
         *at_z,
     )
     rhs = sp.Matrix([0, 0, *target])
-    domain_matrix = DomainMatrix.from_Matrix(matrix)
-    domain_rhs = DomainMatrix.from_Matrix(rhs)
-    domain_matrix, domain_rhs = domain_matrix.unify(domain_rhs, fmt="dense")
-    numerator, denominator = domain_matrix.solve_den(domain_rhs)
-    check(
-        domain_matrix.matmul(numerator) == domain_rhs.scalarmul(denominator),
-        "fraction-free source identity",
-    )
-    denominator_expression = domain_matrix.domain.to_sympy(denominator)
-    coefficients = [
-        sp.cancel(value / denominator_expression)
-        for value in numerator.to_Matrix()
-    ]
+    if fraction_free:
+        domain_matrix = DomainMatrix.from_Matrix(matrix)
+        domain_rhs = DomainMatrix.from_Matrix(rhs)
+        domain_matrix, domain_rhs = domain_matrix.unify(domain_rhs, fmt="dense")
+        numerator, denominator = domain_matrix.solve_den(domain_rhs)
+        check(
+            domain_matrix.matmul(numerator) == domain_rhs.scalarmul(denominator),
+            "fraction-free source identity",
+        )
+        denominator_expression = domain_matrix.domain.to_sympy(denominator)
+        coefficients = [
+            sp.cancel(value / denominator_expression)
+            for value in numerator.to_Matrix()
+        ]
+    else:
+        coefficients = [
+            sp.cancel(value) for value in matrix.inv(method="DM") * rhs
+        ]
 
     def residual(root):
         x0, x1, x2, x3, x4 = coefficients
@@ -175,6 +180,10 @@ def build_trace_cores(allocation):
             "c": (1 / d, 1 / d),
             "d": (sp.Rational(1, 2), sp.Rational(1, 2)),
         },
+        "mixed": {
+            "c": (sp.Rational(1, 2), 1 / d),
+            "d": (sp.Rational(1, 2), 1 / d),
+        },
     }[allocation]
     incidence = sp.Poly(
         4*c**2*d - 2*c**2 - 3*c*d + 3*c + 2*d - 4,
@@ -192,6 +201,12 @@ def build_trace_cores(allocation):
             ("c", "sum"): ((4, 12, 9), 632, 0, "f9448c2c1e47ba1b"),
             ("d", "product"): ((4, 5, 6), 194, 2, "a9568da9b73746f3"),
             ("d", "sum"): ((4, 9, 8), 432, 0, "34219e7d8f958227"),
+        },
+        "mixed": {
+            ("c", "product"): ((4, 8, 7), 344, 2, "35eb7004118a99f6"),
+            ("c", "sum"): ((4, 12, 9), 634, 0, "61250edd35fc0302"),
+            ("d", "product"): ((4, 6, 7), 264, 2, "3d61fea968400cdc"),
+            ("d", "sum"): ((4, 10, 9), 534, 0, "7365d626fc5dc28f"),
         },
     }[allocation]
     cores = {}
@@ -247,6 +262,12 @@ def build_trace_cores(allocation):
             ("d", "product"): ((2, 5, 6), 118, "a204237915868784"),
             ("d", "sum"): ((2, 9, 8), 261, "02be6fc5511268da"),
         },
+        "mixed": {
+            ("c", "product"): ((2, 8, 7), 208, "c4cd8952673f0927"),
+            ("c", "sum"): ((2, 12, 9), 382, "bcea0eb05a3f0389"),
+            ("d", "product"): ((2, 6, 7), 160, "886ca4ba23104dc5"),
+            ("d", "sum"): ((2, 10, 9), 322, "14d50a46ac8b6b61"),
+        },
     }[allocation]
     traces = {}
     for key, core in cores.items():
@@ -282,6 +303,16 @@ def expected_candidates(allocation):
             "d + 119912127", "d + 12573110",
             "d - 581055016", "d - 760966584",
         },
+        "mixed": {
+            "d + 297646746", "d + 733504963", "d + 759603263",
+            "d - 759603297",
+            "d**2 - 171385344*d + 948574701",
+            "d**2 - 21371382*d + 884638303",
+            "d**2 - 690600778*d + 771988056",
+            "d**2 - 955875534*d + 740291898",
+            "d**2 - 976215692*d - 769168004",
+            "d**3 - 508355909*d**2 - 775758617*d - 253189537",
+        },
     }[allocation]
 
 
@@ -292,7 +323,7 @@ def main() -> None:
         "classify", "classify-low", "classify-high",
     ))
     parser.add_argument(
-        "--allocation", choices=("square-xi", "square-ell"),
+        "--allocation", choices=("square-xi", "square-ell", "mixed"),
         default="square-xi",
     )
     args = parser.parse_args()
@@ -301,8 +332,13 @@ def main() -> None:
     else:
         check(args.mode not in ("classify-low", "classify-high"),
               "square-ell audit uses one classification shard")
-    label = "A_SQUARE" if args.allocation == "square-xi" else "A_SQUARE_ELL"
-    (b, c, d, s), traces = build_trace_cores(args.allocation)
+    label = {
+        "square-xi": "A_SQUARE",
+        "square-ell": "A_SQUARE_ELL",
+        "mixed": "A_MIXED",
+    }[args.allocation]
+    fraction_free = args.mode in ("source", "trace")
+    (b, c, d, s), traces = build_trace_cores(args.allocation, fraction_free)
     if args.mode in ("source", "trace"):
         print(
             "KB_C2_112_NEAR_MOVING_TEMPLATE_"
@@ -349,6 +385,22 @@ def main() -> None:
                 "c753072a5bf68171": 1, "6ba62bd34c05e0ff": 1,
             }),
         },
+        "mixed": {
+            "c": ("ff275ab748f48780", {
+                "6a515ecf832aff78": 2, "e31255d5e81e2509": 2,
+                "4aa033e0505df8f1": 4, "73c55ff149852dee": 4,
+                "19d832b1f64387da": 2, "dbe56c4d43b264a2": 4,
+                "cb4fd487538b0eff": 4, "477785c532483181": 12,
+                "7a7743ce53fe8f77": 12, "067a3b42540bb240": 1,
+            }),
+            "d": ("345a2353ff8883f5", {
+                "6a515ecf832aff78": 8, "e31255d5e81e2509": 8,
+                "19d832b1f64387da": 2, "4975135dd6af0fc0": 4,
+                "dbe56c4d43b264a2": 4, "824f64bb4a05a043": 4,
+                "cb4fd487538b0eff": 4, "477785c532483181": 8,
+                "07c011183de4549a": 1,
+            }),
+        },
     }[args.allocation]
 
     def parent(root_name):
@@ -370,6 +422,10 @@ def main() -> None:
                 "c": {"90db6ed8f237340f", "39a8eb9fc1019be9", "4805246499888132"},
                 "d": {"c753072a5bf68171", "6ba62bd34c05e0ff"},
             },
+            "mixed": {
+                "c": {"067a3b42540bb240"},
+                "d": {"07c011183de4549a"},
+            },
         }[args.allocation][root_name]
         forbidden_parent = {
             "square-xi": {
@@ -383,6 +439,12 @@ def main() -> None:
                       c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1, c + 1),
                 "d": (2*d - 1, d - 1, d + 1, 2*c - 1, c - 2,
                       c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1),
+            },
+            "mixed": {
+                "c": (d - 1, d + 1, d - 2, 2*d - 1, d,
+                      c*d - 1, 5*c*d - 4*c - 4*d + 5, c - 1, c + 1),
+                "d": (d - 1, d + 1, d, c - 2,
+                      c*d - 1, 2*c - 1, 5*c*d - 4*c - 4*d + 5, c - 1),
             },
         }[args.allocation][root_name]
         forbidden_digests = {
@@ -488,6 +550,17 @@ def main() -> None:
                     "b8907990ebf04ed3": 6, "279f89e289adc46e": 1,
                 }),
             },
+            "mixed": {
+                (0, 0): ("70f26589e602e699", {
+                    "f93c38ef339888a3": 16,
+                    "b8907990ebf04ed3": 24,
+                    "3e8b7ae50a0eb368": 30,
+                    "badaaa15f719fc0a": 1,
+                    "7c38bfaa7ed117b9": 1,
+                    "ddc62481be50cdd9": 1,
+                    "c23e461afce62a1f": 1,
+                }),
+            },
         }[args.allocation]
         wanted = {
             "square-xi": {
@@ -497,6 +570,10 @@ def main() -> None:
             "square-ell": {
                 "c": ("90db6ed8f237340f", "39a8eb9fc1019be9", "4805246499888132"),
                 "d": ("c753072a5bf68171", "6ba62bd34c05e0ff"),
+            },
+            "mixed": {
+                "c": ("067a3b42540bb240",),
+                "d": ("07c011183de4549a",),
             },
         }[args.allocation]
         components = {}
