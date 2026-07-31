@@ -12834,3 +12834,28 @@ Modal status:             no launch and no cost
 next route-deciding step: inspect cells [3,6], [4,5,7,8], and
                           [9,10,12,13] for the next sparse q factor
 ```
+
+### Work-cycle burn-down: one-loop 442 nonloop cubic gate
+
+```text
+starting local pin:       2f006548 (opposite-pair orbit exclusion)
+ending local theorem pin: current nonloop-singleton cubic-root gate
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / one-loop 442 cells [9,10,12,13]
+result:                   PROVED four sign-dependent cubic root rows
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase reduction)
+product reduction:        regular rational reconstruction of c; singular
+                          denominator branch deleted by a label collision
+q reduction:              one weld fixes r to a printed degree-three row
+survivor evidence:        guarded F_41 full common-K witness
+common-atlas frontier:    cubic quotient solve plus orbits [3,6] and
+                          [4,5,7,8]
+new assumptions:          none in deployed characteristic
+Modal status:             no launch and no cost
+resource note:            a broader small-field scan was stopped at the
+                          60-second local cap after recording partial rows
+next route-deciding step: reduce the remaining common equation pair in the
+                          cubic quotient or find a shorter factor in [3,6]
+```

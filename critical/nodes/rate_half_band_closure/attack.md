@@ -2477,3 +2477,20 @@ The product equation is linear in `c`.  Its coefficient-zero branch forces
 collisions or `r^2=+/-i`, and the latter forces `c=1`.  All four root-sign
 classes are empty.  The nonloop-singleton frontier is now the three orbits
 `[3,6]`, `[4,5,7,8]`, and `[9,10,12,13]`.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate`
+handles the first exact layer of `[9,10,12,13]`.  In a normalized cell,
+the loop is paired with one `AB` record, the other `AB` record is paired
+with the nonsingleton `AC` record, and the other `AC` record is the
+singleton.  The regular product equation reconstructs `c`; its missing
+denominator branch forces a label collision.  One q weld then forces
+
+```text
+P_(e1,e2)(r)=r^3+(2e1e2+e1*i)r^2+(-1-2e2*i)r-e1*i=0.
+```
+
+This gives at most three `r` values per sign row.  A guarded `F_41` packet
+satisfies both common product minors and q welds, so the orbit is genuinely
+live.  Reduce the remaining product/q pair in these rank-three quotient
+algebras; do not attempt to delete the orbit from the cubic gate alone.
