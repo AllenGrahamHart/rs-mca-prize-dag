@@ -11553,10 +11553,27 @@ forbidden `F_(p^6)` points after complete residue-degree filtering. A
 direct/resultant primary and no-import fraction-free/subresultant audit use
 independent field reconstruction engines.
 
-This closes exactly 9 of the 18 affine positive charts. The moving-moving
-template, other affine allocations, both negative factor loci, and the
-projective `w=0` boundary remain open; do not infer a broader near-aligned
-deletion from these nine charts.
+This closes exactly all 9 fixed-moving affine positive charts.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion`
+then closes the first moving-moving chart. For `a=xi=2` and source edges
+`{2,b},{2,1/b}`, the square allocation `c->1/2,d->1/d` gives four
+reciprocal conditions. The exact substitution `s=b+1/b` reduces their
+`b`-degree from four to trace degree two. Three nonstandard parent components
+on each side produce nine exhaustive pair projections. Their deployed
+factorization has exactly 15 nonstandard irreducible factors whose degrees
+divide six: six linear, five quadratic, three cubic, and one sextic. Each
+factor has unit saturation against all four trace equations away from the
+complete collision, inversion-fixed, reciprocal, `z=1`, and finite-incidence
+divisor. A direct/resultant primary and no-import fraction-free/subresultant
+audit agree.
+
+This closes exactly 10 of the 18 affine positive charts. The remaining eight
+are all moving-moving: the other two `xi=a` allocations and all three
+allocations in each of the reciprocal and other-`xi` orbits. Both negative
+factor loci and the projective `w=0` boundary also remain open; do not infer
+a broader near-aligned deletion from these ten charts.
 
 There is a cheaper common gate before those allocation splits. Write
 
@@ -11586,11 +11603,11 @@ Prove the twelve-case parametric saturation above without expanding the full
 quotient resultants. Normalize the common endpoint to `2` and work with the
 banked fraction-free reconstruction over `Q[p,t,b,w,lambda_scale]`.
 
-1. For each of the three UFD allocations in the fixed-moving template,
-   saturate by `L*D`, the printed reconstruction denominators, and exact
-   label-collision factors. Do the unramified and `w=0` residual formulas
-   separately; retain `D*lambda_scale-L=0` until normalization is audited.
-2. Repeat for moving-moving after closing under `b->1/b`; carry the induced
+1. Treat the nine fixed-moving affine charts as banked certificates; do not
+   recompute them. The projective `w=0` formulas remain separate and must
+   retain `D*lambda_scale-L=0` until normalization is audited.
+2. Continue the remaining eight moving-moving charts after closing under
+   `b->1/b`; carry the induced
    `lambda_scale` transformation before rewriting in `s=b+1/b`. Do not infer
    completeness from a generic field gcd: discharge every endpoint curve and
    isolated specialization in `(p,t)`.

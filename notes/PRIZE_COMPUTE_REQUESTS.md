@@ -211,9 +211,15 @@ retries; raw artifact storage is separate.
   has a complete four-component-pair classification with only forbidden
   `F_(p^6)` points, fail-closed primary shards, and an independent
   fraction-free/subresultant residue-field audit.
+- **Banked moving-moving a-xi square chart:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion`
+  reduces the four reciprocal conditions through `s=b+1/b`, exhausts all
+  nine parent-component pairs, and gives unit forbidden saturations for all
+  15 nonstandard modular factors whose degrees divide six. Independent
+  direct/resultant and fraction-free/subresultant certificates agree.
 - **Immediate unresolved input:** retain the explicit finite-chart
-  saturations while moving to the moving-moving templates, remaining affine
-  allocations, and the negative `B/C` loci.
+  saturations while moving through the remaining eight moving-moving affine
+  allocations and the negative `B/C` loci.
 - **Required output:** for every chart, either a unit/collision-only exact
   elimination certificate or an explicit algebraic survivor with `b,z`, and
   `lambda_scale` reconstructed and all label inequalities checked. Every
@@ -221,7 +227,7 @@ retries; raw artifact storage is separate.
   is not realization.
 - **PASS:** mint a scoped PROVED near-positive or near-negative exclusion node
   after all charts and isolated leading branches in that scope are covered.
-  Nine of the 18 affine positive charts now satisfy this contract.
+  Ten of the 18 affine positive charts now satisfy this contract.
 - **INCOMPLETE:** curve factors, pairwise resultants, or generic-field gcds
   alone are narrowing evidence.
 - **Authorization:** external pre-request for the remaining chart queue.

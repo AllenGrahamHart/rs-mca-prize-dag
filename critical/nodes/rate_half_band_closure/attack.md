@@ -1525,9 +1525,21 @@ cubic conditions split into two residual components at each q-root. All
 four component pairs have complete exact `F_(p^6)` fiber routers, and every
 reconstructed point is collision, inversion-fixed, finite-incidence, or on
 `z=1`. Fail-closed primary shards and a no-import
-fraction-free/subresultant audit agree. These results delete 9 of the 18
-affine positive charts; the moving-moving template, other affine
-allocations, negative loci, and `w=0` boundary remain.
+fraction-free/subresultant audit agree. These results delete all 9
+fixed-moving affine positive charts.
+
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion`
+closes the first moving-moving chart. Normalize `a=xi=2`, use source edges
+`{2,b},{2,1/b}`, and assign residual squares `c->1/2,d->1/d`. The four
+primitive conditions are reciprocal in `b` and reduce exactly through
+`s=b+1/b`. Their three-by-three component router leaves 15 nonstandard
+modular factors of degrees dividing six: six linear, five quadratic, three
+cubic, and one sextic. Saturating each factor with all four trace equations
+by the full forbidden product gives the unit ideal. Direct/resultant and
+no-import fraction-free/subresultant certificates agree. Thus 10 of the 18
+affine positive charts are closed; eight moving-moving charts, negative loci,
+and the `w=0` boundary remain.
 
 The aligned positive sign has also resisted a broader exact falsifier sweep.
 The seeded standard-library replay

@@ -19424,6 +19424,36 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion",
+   "title": "KoalaBear c2 (1,1,2) near positive moving-moving a-xi square exclusion",
+   "status": "PROVED",
+   "closure": "the deployed-field positive near-aligned moving-moving xi=a square allocation c->1/2,d->1/d is empty",
+   "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize a=xi=2, eta=c, ell=d and w=1/c, and use moving-moving source edges {2,b},{2,1/b}. Assign the residual over c to (W-1/2)^2 and the residual over d to (W-1/d)^2. The four primitive q-slice equations are reciprocal in b and reduce exactly through s=b+1/b. Their three-by-three parent component pairs have a complete characteristic-zero and modular factor census. All 15 nonstandard irreducible factors whose degree divides six have unit forbidden saturations in both a direct/resultant primary and a no-import fraction-free/subresultant audit. Thus this chart is empty; the other eight moving-moving affine positive charts, projective boundary, and negative loci remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_trace.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_classify_low.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_classify_high.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_audit_parent_c.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_audit_parent_d.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_audit_pairs.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_audit_classify_low.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion/verify_audit_classify_high.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
    "title": "KoalaBear m2 universal source-row interpolation compiler",
    "status": "PROVED",
@@ -43649,6 +43679,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   }
