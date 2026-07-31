@@ -13011,3 +13011,26 @@ Modal status:             no launch and no cost
 next route-deciding step: emit deterministic representatives for the 201
                           orbits and shard only those on external compute
 ```
+
+### Work-cycle burn-down: one-loop 442 binary-sextic invariance
+
+```text
+starting local pin:       e74cf069 (outside template-orbit classifier)
+ending local theorem pin: current binary-sextic invariance compiler
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / residual matching elimination
+result:                   PROVED invariant-form equivalence and forced-cell
+                          orbit census
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase compiler)
+equivalence:              three involution pairs iff residual binary sextic
+                          is projectively invariant
+forced cells:             S0=6, S1=10, S2=4 per common row
+accepted frontier:        20 per row; 80 across four sextic rows
+superseded audit:         201/804 residual matching orbits remain correct
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: compile coefficient-invariance equations for one
+                          canonical cell and time one external CAS pilot
+```

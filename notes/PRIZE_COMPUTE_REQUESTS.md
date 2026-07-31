@@ -10913,6 +10913,25 @@ enumerator are in the template-orbit classifier node.  External workers
 must consume its deterministic representatives; the former 2,100-row cap
 is obsolete.
 
+The residual matching endpoint is now itself obsolete.  The PROVED binary-
+sextic compiler replaces fifteen matchings by one invariant-form test after
+the forced record is removed.  Quotienting signed forced records gives
+
+```text
+S0: 6 cells,       S1: 10 cells,       S2: 4 cells
+```
+
+per common sign row.  The accepted frontier is twenty invariant-form cells
+per row and eighty over all four sextic rows.  The 804 matching orbits remain
+an independent completeness audit only.  External workers must impose
+coefficient proportionality of
+
+```text
+H(Alpha X+Beta Z,Gamma X-Alpha Z) and H(X,Z)
+```
+
+and must not enumerate residual perfect matchings.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs

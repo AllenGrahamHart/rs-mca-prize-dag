@@ -2605,3 +2605,24 @@ total: 201.
 The four-row cap is therefore 804, down from 10,500 raw signed templates.
 Emit and evaluate one deterministic representative per orbit; never expand
 the raw sign cells or all 2,625 templates per common row.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler`
+supersedes residual matching enumeration.  After removing the forced mate,
+put the other six products into the binary sextic `H`.  The residual values
+form three product-involution pairs exactly when
+
+```text
+H(Alpha X+Beta Z,Gamma X-Alpha Z)=lambda H(X,Z).
+```
+
+Product injectivity rules out fixed residual roots, so invariance is also
+sufficient.  Quotienting only the signed forced-record cells leaves
+
+```text
+S0: 6,       S1: 10,       S2: 4,
+total: 20 per common row, 80 over all four rows.
+```
+
+The 804 matching orbits remain a completeness audit but are no longer the
+compute frontier.  Evaluate the eighty invariant-form cells directly.
