@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+from verify_runner import run
+
+run(["moving-moving", "--xi", "tau-a"])

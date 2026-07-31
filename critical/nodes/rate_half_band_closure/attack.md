@@ -1631,9 +1631,17 @@ degree 352, while the leading-coefficient boundary has projection degree
 772. Complete residue-field reconstruction leaves no admissible fiber in
 either chart. A direct SymPy/FLINT primary and an independent no-import
 fraction-free audit agree. Thus all 18 affine positive charts are closed.
-The near-aligned positive homogeneous endpoint boundary remains, together
-with the other packet and assembly obligations of the target. It is distinct
-from the aligned forced-source `w=0` branch deleted above.
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion`
+closes the distinct homogeneous endpoint boundary. Orienting
+`eta=infinity` gives `w=0` and `q_hom=Y(T-dY)`. The projective q-slice is the
+product of the finite `T=d` residual and the `T^4` coefficient residual at
+infinity. Three fixed-moving saturations, two moving trace saturations, and
+both signs of the moving other-xi constant gate are unit over the deployed
+field. Thus the positive near-aligned queue is complete. Combined with the
+near-negative theorem, the entire near-aligned source-line branch is empty.
+The aligned positive unramified system and other packet/assembly obligations
+remain.
 
 The aligned positive sign has also resisted a broader exact falsifier sweep.
 The seeded standard-library replay

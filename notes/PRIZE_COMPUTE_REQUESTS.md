@@ -154,7 +154,7 @@ retries; raw artifact storage is separate.
   reliable wall-time/cost ceiling or compact certificate emitter exists yet,
   so do not launch them on the remaining local Modal balance.
 
-### Pre-request CR-KB-C2-112-NEAR-QS-ELIM: near-aligned q-slice elimination
+### Resolved CR-KB-C2-112-NEAR-QS-ELIM: near-aligned q-slice elimination
 
 - **Decision:** delete or exhibit an admissible reconstructed source form in
   the near-aligned saturated source-line `(1,1,2)` branch.
@@ -231,23 +231,19 @@ retries; raw artifact storage is separate.
   router retains four linear, five quadratic, and one cubic factor, all with
   unit forbidden saturation; irreducible degrees 5, 7, and 29 cannot enter
   `F_(p^6)`. This completes the moving-moving `xi=a` orbit.
-- **Immediate unresolved input:** retain the explicit finite-chart
-  saturations while moving through the remaining six moving-moving affine
-  allocations and the negative `B/C` loci.
-- **Required output:** for every chart, either a unit/collision-only exact
-  elimination certificate or an explicit algebraic survivor with `b,z`, and
-  `lambda_scale` reconstructed and all label inequalities checked. Every
-  survivor advances to both full identities `(KBQ2-2)`; q-slice passage alone
-  is not realization.
-- **PASS:** mint a scoped PROVED near-positive or near-negative exclusion node
-  after all charts and isolated leading branches in that scope are covered.
-  Twelve of the 18 affine positive charts now satisfy this contract.
-- **INCOMPLETE:** curve factors, pairwise resultants, or generic-field gcds
-  alone are narrowing evidence.
-- **Authorization:** external pre-request for the remaining chart queue.
-  Modal is currently blocked by the workspace spend limit. Local work is
-  restricted to one `60 s` tiny-RAMguard shard at a time and must stop if host
-  memory pressure returns; do not launch unpriced remote work.
+- **Resolution:** all 18 affine-positive charts are PROVED empty. The PROVED
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion`
+  removes both negative templates, including forced ramification. The PROVED
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion`
+  treats `q_hom=Y(T-dY)` directly and closes all seven positive homogeneous
+  cells by full deployed-field saturation.
+- **DAG effect:** the complete near-aligned source-line branch is empty by
+  the necessary q-slice gate. Its evidence is banked under
+  `rate_half_band_closure`; no target status changes without the remaining
+  packet/source-row assembly.
+- **Retirement:** do not request or fund further near-q-slice chart
+  elimination. Preserve the checkers and move compute requests to the six
+  aligned positive unramified cells or to a proved assembly interface.
 
 ## Upstream handoff convention
 

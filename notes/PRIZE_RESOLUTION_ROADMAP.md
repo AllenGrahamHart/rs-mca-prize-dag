@@ -11417,6 +11417,13 @@ choices. The repaired `w=0` branch is a separate projective boundary
 (`eta=infinity` in this orientation); it is not represented by substituting
 `w=1/c` in a monic finite-root `q` and must be homogenized separately.
 
+That homogeneous chart is now closed. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion`
+uses `q_hom=Y(T-dY)`, reconstructs `U` from its two q-membership and three
+internal-star equations, and evaluates the q-slice at `d` and infinity. Its
+three fixed-moving cells, two moving trace cells, and two moving other-xi
+sign cells all have unit full-forbidden saturation over the deployed field.
+
 One characteristic-zero chart has an exact endpoint reduction. Normalize the
 common internal endpoint and `xi` to `2`, use the fixed-moving template, and
 allocate the residual over `c` to `(W-1/2)^2` and that over `d` to
@@ -11634,6 +11641,16 @@ This closes exactly 17 of the 18 affine positive charts. The sole remaining
 affine positive chart is the mixed moving-moving allocation in the other
 relative-xi orbit. Both negative factor loci and the projective `w=0`
 boundary remain open.
+
+The later PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion`
+closes that eighteenth affine chart. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion`
+removes both negative templates, including their ramified locus. Combined
+with the projective theorem above, no near-aligned source-line candidate
+survives the necessary q-slice gate. Retire the near-q-slice compute request;
+the live local choices are the aligned positive unramified system and the
+remaining packet/source-row assembly.
 
 There is a cheaper common gate before those allocation splits. Write
 
