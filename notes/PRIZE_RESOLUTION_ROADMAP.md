@@ -13193,3 +13193,25 @@ accepted frontier:        72 cells, down from 74
 Modal status:             no launch and no cost
 next route-deciding step: split forced-loop quadratic extension
 ```
+
+### Work-cycle burn-down: one-loop 442 forced-loop S1 cells
+
+```text
+starting local pin:       33a776a8 (tau-minus forced-EF exclusions)
+ending local theorem pin: current forced-loop S1 exclusions
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / final two S1 cells in common row (1,1)
+result:                   PROVED both raw product ideals are unit
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; two exact subcase deletions)
+field split:              two cubic common fields, then theta^2=-m
+nonsquare audit:          -m is nonsquare in both cubic components
+sparse systems:           3 equations, 17 (e,f) monomials each
+certificates:             unit after 57/55 S-pairs for delta=-1/+1
+representative S1 row:    all 10 cells deleted at product level
+accepted frontier:        70 cells, down from 72
+Modal status:             no launch and no cost
+next route-deciding step: prove common-sign transport, otherwise begin one
+                          explicitly pinned S0 or S2 representative cell
+```

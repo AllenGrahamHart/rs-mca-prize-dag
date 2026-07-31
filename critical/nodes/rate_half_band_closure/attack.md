@@ -2713,3 +2713,15 @@ does the same for `tau_1=-1`.  Its systems have 17 terms and again finish
 with the forbidden guard equation `e=0` after 435 S-pairs.  Thus eight of ten
 `S1` cells in common sign row `(1,1)` are deleted; only its two forced-loop
 cells remain.  The accepted four-row frontier is 72.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion`
+deletes those last two representative-row `S1` cells.  Forcing `-d^2=m`
+requires the genuine quadratic extension `theta^2=-m` of each cubic common
+component; `-m` is a nonsquare in both.  The two parity systems each have
+three 17-term equations.  Exact tower-field Buchberger reduction reaches
+`1` after 57 S-pairs for `delta=-1` and 55 for `delta=+1`, in both cubic
+components.  Thus all ten `S1` cells in common sign row `(1,1)` are empty
+at product level and the accepted four-row frontier is 70.  No deletion is
+transported to another common sign row, and the `S0`, `S2`, outside-`q`, and
+interpolation tasks remain live.

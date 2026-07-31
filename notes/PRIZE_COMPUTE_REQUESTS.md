@@ -10989,6 +10989,16 @@ systems again finish with the forbidden equation `e=0` after 435 S-pairs in
 both components.  Only two forced-loop `S1` cells remain in common sign row
 `(1,1)`, and the accepted frontier is 72.
 
+The two forced-loop `S1` cells in common sign row `(1,1)` are now complete
+as well.  The forced equation `-d^2=m` is handled over the genuine quadratic
+extension `theta^2=-m` of each cubic common component; nonsquareness of
+`-m` is checked in both.  Each parity gives three 17-term equations.  Their
+exact tower-field bases contain `1` after 57 S-pairs for `delta=-1` and 55
+for `delta=+1`.  All ten `S1` cells in the representative row are therefore
+empty, and the accepted frontier is 70.  Do not request another `(1,1)`
+`S1` computation.  The next useful task is a proof of common-sign transport
+or a separately pinned cell in another row; `S0` and `S2` also remain live.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs
