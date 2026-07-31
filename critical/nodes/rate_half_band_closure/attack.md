@@ -1506,8 +1506,13 @@ aligned positive unramified cells remain at that checkpoint. The PROVED
 then closes fixed-same. Its direct reciprocal-quartic norm has 28 factors;
 deployed-field replay leaves four base-field q-slice points, and all four
 fail both normed identities from `(KBQ2-2)`. Its two off-common cofactor
-branches give seven distinct endpoints, all boundary-supported. Thus only
-fixed-swap and fixed-mixed remain in the aligned positive unramified packet.
+branches give seven distinct endpoints, all boundary-supported. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion`
+then closes fixed-swap. Its degree-333 direct norm has 26 factors; exact
+deployed-field replay leaves one quadratic-field q-slice point, which
+reproduces `(KBQS-1)` but fails both normed identities from `(KBQ2-2)`. The
+two off-common combinations give nine distinct endpoints, all boundary.
+Thus only fixed-mixed remains in the aligned positive unramified packet.
 
 The PROVED
 `rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion`
@@ -1656,7 +1661,7 @@ infinity. Three fixed-moving saturations, two moving trace saturations, and
 both signs of the moving other-xi constant gate are unit over the deployed
 field. Thus the positive near-aligned queue is complete. Combined with the
 near-negative theorem, the entire near-aligned source-line branch is empty.
-Two fixed-moving aligned positive unramified cells and other packet/assembly obligations
+One fixed-moving aligned positive unramified cell and other packet/assembly obligations
 remain.
 
 The aligned positive sign has also resisted a broader exact falsifier sweep.

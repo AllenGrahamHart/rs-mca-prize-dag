@@ -36,6 +36,21 @@ SAME_COMMON_OR_OPEN_DIGESTS = {
     "e33a2320f3a6377c5e39cc0a8aa7b5dc151ef561324c66d2decf32b46935a909",
     "f87faf4fa44b76fd9d8854ff630cfda98653a46e6d5fa69da86a7600c0e9e6ba",
 }
+SWAP_FACTOR_DIGESTS = (
+    (
+        "078c1dc07f88af11758d4dd78d6e9f06c393f97255719b8800bfc9a10fd0b32b",
+        "ade45d1739e1b5181393246dbb5abb9865229b3dcb8e51c78422c4ad60d85aef",
+    ),
+    ("12bcb389853295f9a1a5db28626ed1078c24b331588d12dc6f895ae404e69cc8",),
+    ("1d336ad19fd079bce56500b6c78b5d7b91ebe0a7a902e6dceb3c212b22979780",),
+)
+SWAP_COMMON_OR_OPEN_DIGESTS = SAME_COMMON_OR_OPEN_DIGESTS | {
+    "ec6358a79eddf8196b83a23ef63dbc172af0d11544c2e5bfa90e220c30ac346e",
+}
+OFF_COMMON_CONFIGS = {
+    "same": (SAME_FACTOR_DIGESTS, SAME_COMMON_OR_OPEN_DIGESTS),
+    "swap": (SWAP_FACTOR_DIGESTS, SWAP_COMMON_OR_OPEN_DIGESTS),
+}
 
 
 def require(condition: bool, message: str) -> None:
@@ -112,18 +127,19 @@ def main() -> None:
     )
     if args.factor:
         compiler.emit_factorization(common, "projection_gcd", context)
-    if args.allocation != "same":
-        require(not args.finite_replay, "finite replay currently pinned to same")
+    if args.allocation not in OFF_COMMON_CONFIGS:
+        require(not args.finite_replay, "finite replay not configured")
         return
 
+    factor_digests, common_or_open_digests = OFF_COMMON_CONFIGS[args.allocation]
     factor_sets = [
         select_factors(
             projection,
             digests,
-            SAME_COMMON_OR_OPEN_DIGESTS,
+            common_or_open_digests,
             compiler,
         )
-        for projection, digests in zip(projections, SAME_FACTOR_DIGESTS)
+        for projection, digests in zip(projections, factor_digests)
     ]
     middle = factor_sets[1][0]
     right = factor_sets[2][0]
@@ -139,7 +155,8 @@ def main() -> None:
         _, norm_factors = common_norm.factor()
         print(
             "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_FIXED_"
-            f"OFF_COMMON_SCREEN_PASS allocation=same branch={left_index} "
+            f"OFF_COMMON_SCREEN_PASS allocation={args.allocation} "
+            f"branch={left_index} "
             f"terms={len(common_norm.to_dict())} degrees={common_norm.degrees()} "
             f"factor_degrees="
             f"{','.join(str(item.degrees()[2]) for item, _ in norm_factors) or '-'} "
@@ -172,6 +189,7 @@ def main() -> None:
                 require(p_degree == 1, "unrouted deployed p extension")
                 p_value = -p_factor[0] / p_factor[1]
                 key = (
+                    tuple(int(value) for value in modulus),
                     tuple(int(value) for value in t_value.to_list()),
                     tuple(int(value) for value in p_value.to_list()),
                 )
@@ -228,12 +246,15 @@ def main() -> None:
         print(f"endpoint_candidate={index} status={status}", flush=True)
     print(
         "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_FIXED_"
-        f"OFF_COMMON_FINITE_REPLAY_PASS allocation=same "
+        f"OFF_COMMON_FINITE_REPLAY_PASS allocation={args.allocation} "
         f"endpoints={len(endpoint_candidates)} boundary={boundary} "
         f"minor_conic_empty={empty} w_candidates={len(w_candidates)}",
         flush=True,
     )
-    require(not w_candidates, f"fixed-same off-common w candidates: {w_candidates}")
+    require(
+        not w_candidates,
+        f"fixed-{args.allocation} off-common w candidates: {w_candidates}",
+    )
 
 
 if __name__ == "__main__":

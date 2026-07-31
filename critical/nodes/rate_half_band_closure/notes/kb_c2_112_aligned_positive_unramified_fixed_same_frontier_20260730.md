@@ -1,6 +1,6 @@
 # Aligned positive unramified fixed-moving/same frontier
 
-Status: **SUPERSEDED: fixed-same is closed**. The primary calculation below concerns
+Status: **SUPERSEDED: fixed-same and fixed-swap are closed**. The primary calculation below concerns
 the fixed-moving `same` cell; the sibling section records the transfer to all
 three fixed-moving allocations among the six open aligned-positive
 unramified `c2(1,1,2)` q-slice cells.  Every calculation uses the corrected
@@ -111,7 +111,9 @@ has degree 472 and 28 factors. Exact deployed-field replay leaves four
 base-field q-slice points; each reproduces the q-slice control and fails both
 full quotient norms. The `2 x 1 x 1` off-common support gives seven distinct
 endpoints, all boundary. A separate PROVED node closes fixed-same. Fixed-swap
-and fixed-mixed remain open.
+is now also closed: its degree-333 direct norm has 26 factors and leaves one
+quadratic-field q-slice point, which fails both full quotient norms; its nine
+off-common endpoints are all boundary. Only fixed-mixed remains open.
 
 ## Replay
 
@@ -138,7 +140,7 @@ is hash-pinned.
 
 ## Remaining close
 
-1. Classify the fixed-swap and fixed-mixed kernel-conic norms and denominator
+1. Classify the fixed-mixed kernel-conic norms and denominator
    specialization, retaining rank-drop and leading-coefficient exceptions.
 2. Classify finite intersections among the noncommon factors of each cell's
    three `(p,t)` projections.
