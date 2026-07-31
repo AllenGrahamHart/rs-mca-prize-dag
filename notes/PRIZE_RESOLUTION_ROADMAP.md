@@ -12502,3 +12502,29 @@ new assumptions:          none in deployed characteristic
 next route-deciding step: classify mixed matching templates symbolically;
                           treat forced-DF cells as a separate residual form
 ```
+
+### Work-cycle burn-down: H8-L-minus colored-xi cell exclusion
+
+```text
+starting local pin:       b8b2fae5 (442 signed-pair template cut)
+ending local theorem pin: current H8-L-minus PROVED cell exclusion
+canonical prize pin:      14dc1db5f4ec64a2dcba31c65d79716f58090945
+node/workboard attacked:  K3 / negative 442 H8-L-minus forced-cD cells
+result:                   PROVED deletion of both sigma signs
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; complete-product cells deleted)
+univariate descent:       P4(b)=b^4-2b^3+b^2-2b+1; c and involution become
+                          rational functions of b, forced product equals 1
+intrinsic residual:       (a,sigma a/c^2,+/-x,+/-ax)
+matching coverage:        3 parent template cuts plus 12 mixed matchings;
+                          six representatives per sign under F -> -F
+exact certificate:        every obstruction factor has nonzero P4 norm;
+                          independent audit uses a different resultant chain
+442 frontier:             36 -> 34 cells; matching cap 468 -> 444
+new assumptions:          none in deployed characteristic
+Modal status:             no launch and no cost; prior blocked pilot is now
+                          obsolete for discovery
+next route-deciding step: apply the same descent to forced sigma-DE and DF
+                          types, then test H8-L/H8-M transport symmetries
+```

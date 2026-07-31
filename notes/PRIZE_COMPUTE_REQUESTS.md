@@ -10745,6 +10745,13 @@ container started because the Modal workspace had exceeded its spend limit;
 cost was zero and no computational result was claimed.  This request may be
 replayed externally after skipping the three already-proved templates.
 
+That pilot target is now closed symbolically and must not be replayed for
+discovery.  The common row descends to one quartic `P4(b)` and the residual
+cell to two intrinsic variables; exact factor norms delete all 15 matchings
+for both `sigma` signs.  The live `442` compute frontier has 34 cells and
+matching cap 444.  Reuse the univariate descent for forced `sigma DE` and
+`DF`; do not spend containers on the deleted `xi=cD` cells.
+
 The 240-row `(4,3,3)`
 two-loop atlas is also superseded at the label level: `(KB43-3)` gives nine
 one-parameter antipodal cells.  The first product-minor cut deletes

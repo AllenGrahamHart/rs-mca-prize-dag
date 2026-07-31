@@ -2218,3 +2218,20 @@ contradicts a common product pair and injectivity; reciprocity would require
 characteristic.  This removes 72 of 540 matching subcases.  Continue with
 the twelve mixed templates per affected cell and treat forced `DF`
 separately; this is not yet a whole-cell deletion.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8l_minus_cd_cell_exclusion`
+completes the first two cells.  On `H8-L,tau=-1`, the common row descends to
+
+```text
+P4(b)=b^4-2b^3+b^2-2b+1,
+c=(b-2)(b^2+1)/b,       p_xi=1,
+```
+
+and the forced-`cD` residual products become
+`(a,sigma a/c^2,+/-x,+/-ax)`.  Exact intrinsic resultants and independent
+factor norms delete all twelve mixed matchings for each `sigma`; the parent
+theorem already deletes the other three.  Both cells are empty, leaving 34
+`442` invariant cells and matching cap 444.  Apply this one-parameter
+method next to the `sigma DE` and `DF` forced types; do not carry the deleted
+colored cells into full interpolation.
