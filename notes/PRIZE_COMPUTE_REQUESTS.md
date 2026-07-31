@@ -11041,6 +11041,11 @@ Their three equations have eleven terms and reach the raw unit ideal after
 29 S-pairs for both parities and both cubic components.  The accepted
 frontier is 16: two forced-`EF` and two forced-internal `S0` cells per row.
 
+Both forced-`EF` `S0` parity cells are retired in every common row.  Their
+denominator-cleared twelve-term equations complete after 190 S-pairs with
+`e^2=0` in all four parity/component runs, contradicting `e!=0`.  The
+accepted frontier is eight: only two forced-internal parity cells per row.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs

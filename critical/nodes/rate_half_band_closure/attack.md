@@ -2810,3 +2810,18 @@ For either parity, the three equations have eleven monomials and reach the
 raw unit ideal after 29 S-pairs in both components.  The common-product
 identity transports both deletions.  Reduce the frontier from 24 to 16;
 two forced-`EF` and two forced-internal `S0` cells remain per row.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion`
+deletes both forced-`EF` parities in every row.  After `tau_0*ef=m`, clear
+the admissible factor `e^3` to obtain
+
+```text
+(X-ceZ)(eX-tau_0*cmZ)(X^2-d^2e^2Z^2)
+(e^2X^2-m^2d^2Z^2).
+```
+
+For either parity, the three equations have twelve monomials.  Both cubic
+components complete after 190 S-pairs with monic `e^2`, contradicting
+`e!=0`.  Transport both guarded deletions and reduce the
+frontier from 16 to 8; only two forced-internal parity cells remain per row.
