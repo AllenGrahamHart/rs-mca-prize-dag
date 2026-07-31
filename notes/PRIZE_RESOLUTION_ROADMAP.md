@@ -11601,6 +11601,20 @@ are the moving-moving allocations in the other relative-xi orbit. Both
 negative factor loci and the projective `w=0` boundary also remain open; do
 not infer a broader near-aligned deletion from these fifteen charts.
 
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion`
+now closes the square-xi allocation `c->1/b,d->1/d` in the final orbit. The
+nonreciprocal side splits into two cubic product branches and two
+nonstandard parent components; the reciprocal side has three components.
+The resulting six projections retain exactly seven linear and one quadratic
+deployed fiber, all excluded by full four-core saturation in direct and
+independent fraction-free/subresultant paths.
+
+This closes exactly 16 of the 18 affine positive charts. The remaining two
+are the swapped and mixed moving-moving allocations in the other relative-xi
+orbit. Both negative factor loci and the projective `w=0` boundary remain
+open.
+
 There is a cheaper common gate before those allocation splits. Write
 
 ```text
@@ -11632,9 +11646,9 @@ banked fraction-free reconstruction over `Q[p,t,b,w,lambda_scale]`.
 1. Treat the nine fixed-moving affine charts as banked certificates; do not
    recompute them. The projective `w=0` formulas remain separate and must
    retain `D*lambda_scale-L=0` until normalization is audited.
-2. Treat the three reciprocal-`xi` moving-moving charts as banked exact
-   certificates. Continue the remaining three other-`xi` moving-moving
-   charts after closing under `b->1/b`; carry the induced
+2. Treat the three reciprocal-`xi` charts and the other-`xi` square-xi chart
+   as banked exact certificates. Continue the remaining two other-`xi`
+   moving-moving charts after closing under `b->1/b`; carry the induced
    `lambda_scale` transformation before rewriting in `s=b+1/b`. Do not infer
    completeness from a generic field gcd: discharge every endpoint curve and
    isolated specialization in `(p,t)`.

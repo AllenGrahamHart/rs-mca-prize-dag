@@ -1571,6 +1571,18 @@ of the 18 affine positive charts are closed. Only the three moving-moving
 allocations in the other relative-xi orbit remain, together with negative
 loci and the `w=0` boundary.
 
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion`
+closes the first of those three charts. The nonreciprocal `c` product splits
+into two cubic branches, whose sum-resultants leave two nonstandard parent
+components; the reciprocal `d` side leaves three. Complete factorization of
+all six pair projections retains seven linear and one quadratic deployed
+fiber. All eight full four-core forbidden saturations are unit in a
+direct/resultant primary and an independent fraction-free/terminal-
+subresultant audit. Thus 16 of 18 affine positive charts are closed. Only
+the swapped and mixed moving-moving other-xi allocations remain, together
+with negative loci and the `w=0` boundary.
+
 The aligned positive sign has also resisted a broader exact falsifier sweep.
 The seeded standard-library replay
 `notes/kb_c2_112_positive_qslice_sweep.py` tests all twelve internal
