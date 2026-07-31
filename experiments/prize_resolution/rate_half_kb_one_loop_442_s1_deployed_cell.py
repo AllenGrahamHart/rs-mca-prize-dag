@@ -64,12 +64,14 @@ def binary_mul(left, right):
     return output
 
 
-def build(alpha_sign=1, cell="forced-de", delta_sign=-1):
+def build(alpha_sign=1, cell="forced-de", delta_sign=-1, ef_sign=1):
     if alpha_sign not in (-1, 1):
         raise ValueError("alpha_sign must be +/-1")
     if delta_sign not in (-1, 1):
         raise ValueError("delta_sign must be +/-1")
-    if cell not in ("forced-de", "forced-ce"):
+    if ef_sign not in (-1, 1):
+        raise ValueError("ef_sign must be +/-1")
+    if cell not in ("forced-de", "forced-ce", "forced-ef"):
         raise ValueError("unsupported cell")
     b, r, t, d_c, vector, polynomial, matrix = MATE.quotient_data(1, 1)
     d, s = sp.symbols("d s")
@@ -147,7 +149,7 @@ def build(alpha_sign=1, cell="forced-de", delta_sign=-1):
                 0, 2, SELECTOR.neg(SELECTOR.mul(mate_matrix, mate_matrix))
             )),
         )
-    else:
+    elif cell == "forced-ce":
         mate_over_c = SELECTOR.mul(mate_matrix, c_inverse)
         factors = (
             (constant(SELECTOR.IDENTITY), monomial(0, 1, c_matrix)),
@@ -161,6 +163,19 @@ def build(alpha_sign=1, cell="forced-de", delta_sign=-1):
             (constant(SELECTOR.IDENTITY), {}, monomial(
                 0, 2, SELECTOR.neg(SELECTOR.mul(mate_over_c, mate_over_c))
             )),
+        )
+    else:
+        factors = (
+            (monomial(0, 1), constant(SELECTOR.scale(
+                ef_sign, SELECTOR.mul(c_matrix, mate_matrix)
+            ))),
+            (monomial(0, 1), monomial(
+                1, 0, SELECTOR.scale(-delta_sign*ef_sign, mate_matrix)
+            )),
+            (constant(SELECTOR.IDENTITY), monomial(0, 1, c_matrix)),
+            (constant(SELECTOR.IDENTITY), monomial(2, 0)),
+            (constant(SELECTOR.IDENTITY), monomial(1, 1)),
+            (constant(SELECTOR.IDENTITY), constant(mate_matrix)),
         )
     coefficients = [constant(SELECTOR.IDENTITY)]
     for factor in factors:
@@ -207,12 +222,14 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--groebner", action="store_true")
     parser.add_argument("--alpha-sign", type=int, choices=(-1, 1), default=1)
-    parser.add_argument("--cell", choices=("forced-de", "forced-ce"),
+    parser.add_argument("--cell", choices=("forced-de", "forced-ce", "forced-ef"),
                         default="forced-de")
     parser.add_argument("--delta-sign", type=int, choices=(-1, 1), default=-1)
+    parser.add_argument("--ef-sign", type=int, choices=(-1, 1), default=1)
     arguments = parser.parse_args()
     variables, common_basis, equations, _ = build(
-        arguments.alpha_sign, arguments.cell, arguments.delta_sign
+        arguments.alpha_sign, arguments.cell, arguments.delta_sign,
+        arguments.ef_sign,
     )
     d, s, t, r, b = variables
     profiles = []
@@ -232,6 +249,7 @@ def main():
     print(
         f"S1_DEPLOYED_CELL_BUILT cell={arguments.cell} "
         f"alpha_sign={arguments.alpha_sign} delta_sign={arguments.delta_sign} "
+        f"ef_sign={arguments.ef_sign} "
         f"profiles={profiles}", flush=True
     )
     if not arguments.groebner:

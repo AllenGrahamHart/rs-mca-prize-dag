@@ -10979,6 +10979,11 @@ as well.  Their three equations have 23 terms and reach the unit ideal after
 56 S-pairs in each cubic component.  The accepted frontier is 76; these two
 cells should not be requested again.
 
+The two `tau_1=+1` forced-`EF+/-` cells in common row `(1,1)` are also
+complete.  Their exact bases contain the forbidden coordinate `e`, after
+435 S-pairs in each cubic component.  These are guard-saturated deletions,
+not raw unit ideals.  The accepted frontier is 74.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs

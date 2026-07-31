@@ -259,16 +259,17 @@ def component_equations(matrix_equations, modulus):
     return equations
 
 
-def solve_component(component, alpha_sign=1, cell="forced-de", delta_sign=-1):
+def solve_component(component, alpha_sign=1, cell="forced-de", delta_sign=-1,
+                    ef_sign=1):
     _, _, _, matrix_equations = BUILDER.build(
-        alpha_sign, cell, delta_sign
+        alpha_sign, cell, delta_sign, ef_sign
     )
     modulus = CUBICS[component]
     equations = component_equations(matrix_equations, modulus)
     print(
         "S1_QUOTIENT_COMPONENT_BUILT "
         f"component={component} cell={cell} alpha_sign={alpha_sign} "
-        f"delta_sign={delta_sign} "
+        f"delta_sign={delta_sign} ef_sign={ef_sign} "
         f"terms={tuple(len(equation) for equation in equations)} "
         f"leaders={tuple(leading(equation)[0] for equation in equations)}",
         flush=True,
@@ -280,18 +281,20 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("component", type=int, choices=(0, 1))
     parser.add_argument("--alpha-sign", type=int, choices=(-1, 1), default=1)
-    parser.add_argument("--cell", choices=("forced-de", "forced-ce"),
+    parser.add_argument("--cell", choices=("forced-de", "forced-ce", "forced-ef"),
                         default="forced-de")
     parser.add_argument("--delta-sign", type=int, choices=(-1, 1), default=-1)
+    parser.add_argument("--ef-sign", type=int, choices=(-1, 1), default=1)
     arguments = parser.parse_args()
     _, basis = solve_component(
         arguments.component, arguments.alpha_sign,
-        arguments.cell, arguments.delta_sign,
+        arguments.cell, arguments.delta_sign, arguments.ef_sign,
     )
     print(
         "S1_QUOTIENT_COMPONENT_RESULT "
         f"component={arguments.component} cell={arguments.cell} "
         f"alpha_sign={arguments.alpha_sign} delta_sign={arguments.delta_sign} "
+        f"ef_sign={arguments.ef_sign} "
         f"unit={basis == [{(0, 0): ONE}]} "
         f"basis={len(basis)}",
         flush=True,

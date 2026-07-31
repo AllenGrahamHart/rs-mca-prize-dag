@@ -2698,3 +2698,11 @@ forced equation `-ce=m` fixes `e=-m/c`; each parity gives three 23-term
 equations, and both cubic components reach `1` after 56 S-pairs.  Four of
 the ten `S1` cells in row `(1,1)` are now deleted.  The accepted four-row
 frontier is 76.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion`
+deletes both forced-`EF+/-` cells in the `tau_1=+1` parity of common sign row
+`(1,1)`.  After `f=sigma*m/e`, each three-equation system has 19 terms.  Its
+completed basis contains `e=0` in both cubic components.  This is a guarded,
+not raw-unit, deletion because target representatives are nonzero.  The
+accepted frontier is 74.
