@@ -12859,3 +12859,25 @@ resource note:            a broader small-field scan was stopped at the
 next route-deciding step: reduce the remaining common equation pair in the
                           cubic quotient or find a shorter factor in [3,6]
 ```
+
+### Work-cycle burn-down: one-loop 442 nonloop degree-12 gate
+
+```text
+starting local pin:       ecc2e172 (nonloop cubic-root gate)
+ending local theorem pin: current nonloop degree-12 b gate
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / cells [9,10,12,13] finite common solve
+result:                   PROVED explicit degree-12 b condition
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase reduction)
+certificate:              direct t-resultant then cubic r-resultant; no
+                          singleton leading coefficient is inverted
+resultant:                -2^56 b^24(b-1)^12(b+1)^12 G(b)
+raw common bound:         at most 72 (r,b,t) triples per sign row
+survivor evidence:        F_41 witness b=10 lies on the sextic factor
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: apply outside products to this finite quotient or
+                          classify common orbit [3,6]
+```

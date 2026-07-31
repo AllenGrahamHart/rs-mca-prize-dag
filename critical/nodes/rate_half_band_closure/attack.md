@@ -2494,3 +2494,19 @@ This gives at most three `r` values per sign row.  A guarded `F_41` packet
 satisfies both common product minors and q welds, so the orbit is genuinely
 live.  Reduce the remaining product/q pair in these rank-three quotient
 algebras; do not attempt to delete the orbit from the cubic gate alone.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate`
+finishes that common-parameter reduction without dividing by the singleton
+equations.  Their direct `t`-resultant, followed by the parent cubic
+`r`-resultant, forces
+
+```text
+G(b)=(b^3-b^2-b-1)(b^3+b^2+b-1)
+     (b^6-2b^5+7b^4-8b^3+7b^2-2b+1)=0.
+```
+
+The full resultant is `-2^56 b^24(b-1)^12(b+1)^12 G(b)` in every sign
+row.  Thus there are at most 72 raw common triples per row before guards.
+The `F_41` witness lies on the sextic factor.  Apply outside products to
+this finite quotient; do not repeat a generic four-variable common solve.
