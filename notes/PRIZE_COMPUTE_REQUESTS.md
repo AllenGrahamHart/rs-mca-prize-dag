@@ -169,16 +169,21 @@ retries; raw artifact storage is separate.
   their remaining common components leave degree-`160`, degree-`26`, and
   degree-`1224` conic norms for `same`, `swap`, and `mixed`, respectively.
   The degree-12 mixed component is screened without a function-field gcd.
-  The moving `swap` and `same` finite and off-common ledgers are now fully
-  replayed and mint PROVED cell exclusions. The finite specializations and
-  off-common projection intersections in the other four cells remain open.
+  The moving `swap` and `same` finite and off-common ledgers are fully
+  replayed and mint PROVED q-slice exclusions. Moving `mixed` has four exact
+  q-slice points over degrees `3,3,7,7`; only the two degree-3 traces embed in
+  the deployed field, and all four reciprocal orientations fail both full
+  colored quotient norms. Its twelve off-common combinations are boundary,
+  so a separate PROVED full-quotient node closes that cell. Only the three
+  fixed-moving unramified cells remain open.
 - **PASS:** mint PROVED aligned-positive unramified q-slice exclusion nodes;
   together with the ramified and aligned-negative theorems, delete the
   complete aligned source-line branch.
 - **SURVIVOR:** replay it independently, then route it to both full quotient
   identities; do not repair the deletion claim by genericity.
 - **INCOMPLETE:** evidence only; no DAG status change.
-- **Authorization:** external pre-request for the six unramified cells. No
+- **Authorization:** external pre-request narrowed to the three fixed-moving
+  unramified cells. No
   reliable wall-time/cost ceiling or compact certificate emitter exists yet,
   so do not launch them on the remaining local Modal balance.
 

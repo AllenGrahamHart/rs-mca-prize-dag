@@ -1,7 +1,7 @@
 # Aligned positive unramified moving-moving/same frontier
 
-Status: **NARROWED, not deleted**.  This is the first of the three open
-moving-moving `c2(1,1,2)` source-line q-slice cells.  All calculations retain
+Status: **SUPERSEDED: all moving-moving allocations are closed**.  This was
+the first of the three moving-moving `c2(1,1,2)` source-line cells. All calculations retain
 the corrected relative `U/V` scale and use exact arithmetic over the deployed
 prime `2130706433`.
 
@@ -121,14 +121,21 @@ finite intersection is bounded by a degree-`1224` norm in `t`, factored into
 38 printed factors.
 
 Thus all six aligned-positive unramified cells have exact finite frontiers.
-The moving-moving `swap` and `same` component and off-common ledgers have
-since been fully replayed. For `swap`, four of six component norm factors are
+The moving-moving `swap` and `same` component and off-common ledgers were
+then fully replayed. For `swap`, four of six component norm factors are
 boundary-supported, the other two fail the original equations, and all eight
 off-common endpoint candidates are boundary-supported. For `same`, the
 direct norm has 21 factors: eight boundary, eight empty at the four-minor
 conic gate, and five failing the original equations; all seven off-common
 candidates are boundary-supported. Separate PROVED nodes delete both cells.
-The other four cells remain narrowed but open.
+
+The mixed q-slice is not empty: its direct component has four exact points
+over degrees `3,3,7,7`. The degree-7 points do not embed in `F_(p^6)`, and
+all four reciprocal orientations over the two degree-3 traces fail both full
+quotient norms after first reproducing the q-slice control. Its twelve
+off-common cofactor intersections reduce to six boundary endpoints. The
+separate PROVED full-quotient node therefore closes mixed. Exactly the three
+fixed-moving cells remain open.
 
 The generic evidence in this note alone changes no status; the separate
 moving-swap node carries the complete deletion contract.

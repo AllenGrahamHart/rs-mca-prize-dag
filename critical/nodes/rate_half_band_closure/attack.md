@@ -1491,9 +1491,17 @@ forbidden saturation over `F_2130706433`. The moving equations are reciprocal
 quartics in `b`; after exact descent to `s=b+1/b`, all three corresponding
 saturations are also unit. Thus the complete aligned `w=0` branch is deleted
 after combining the negative theorem. The PROVED moving `swap` and moving
-`same` unramified q-slice exclusions now also delete those two allocations by
-exact trace-minor, conic, finite-extension, and off-common replay. The other
-four aligned positive unramified cells remain open.
+`same` unramified q-slice exclusions delete those two allocations by exact
+trace-minor, conic, finite-extension, and off-common replay. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion`
+handles the third moving allocation without asserting a false q-slice
+deletion. Its degree-12 component has four exact q-slice points over degrees
+`3,3,7,7`. The degree-7 points do not embed in the deployed degree-six field;
+both reciprocal orientations over each degree-3 trace reproduce `(KBQS-1)`
+but fail both normed identities derived from `(KBQ2-2)`. All twelve
+off-common cofactor combinations are boundary-supported. Hence all three
+moving-moving allocations are closed and exactly the three fixed-moving
+aligned positive unramified cells remain open.
 
 The PROVED
 `rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion`
@@ -1642,7 +1650,7 @@ infinity. Three fixed-moving saturations, two moving trace saturations, and
 both signs of the moving other-xi constant gate are unit over the deployed
 field. Thus the positive near-aligned queue is complete. Combined with the
 near-negative theorem, the entire near-aligned source-line branch is empty.
-Four aligned positive unramified cells and other packet/assembly obligations
+Three fixed-moving aligned positive unramified cells and other packet/assembly obligations
 remain.
 
 The aligned positive sign has also resisted a broader exact falsifier sweep.

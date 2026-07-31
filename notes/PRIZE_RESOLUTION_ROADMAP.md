@@ -11848,3 +11848,28 @@ unresolved sibling cells: fixed same/swap/mixed; moving mixed
 next route-deciding step: transfer the successful finite-extension and
                           off-common router to the remaining four cells
 ```
+
+### Work-cycle burn-down: moving-mixed full quotient close
+
+```text
+starting local pin:       2d988aba (moving-same q-slice close)
+ending local theorem pin: current moving-mixed PROVED packet
+canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+node/workboard attacked:  K3 / aligned positive unramified c2(1,1,2)
+cell attacked:            moving-moving mixed allocation
+result:                   PROVED by q-slice plus full quotient norms
+DAG delta:                +1 PROVED background evidence node, +4 edges
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; the new edge is evidence, not req)
+scope correction:         q-slice deletion is false; four exact points remain
+deployed-field route:     degree-7 traces do not embed in F_(p^6); both
+                          orientations above each degree-3 trace fail both
+                          normed full colored quotient identities
+off-common route:         all 12 residual cofactor combinations reduce to
+                          6 distinct endpoints, all on the base boundary
+new assumptions:          none
+remaining aligned cells:  fixed-moving same/swap/mixed only
+next route-deciding step: transfer the full-quotient norm test to any
+                          fixed-moving q-slice survivors while completing
+                          their finite component and off-common ledgers
+```

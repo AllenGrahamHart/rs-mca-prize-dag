@@ -390,6 +390,7 @@ def main() -> None:
     parser.add_argument("--component-resultant-screen", action="store_true")
     parser.add_argument("--finite-replay", action="store_true")
     parser.add_argument("--off-common-screen", action="store_true")
+    parser.add_argument("--dump-survivors", type=Path)
     args = parser.parse_args()
 
     require(flint.__version__ == "0.9.0", "python-flint version")
@@ -699,6 +700,7 @@ def main() -> None:
                 boundary_count = 0
                 rank_candidates = 0
                 survivors = []
+                survivor_records = []
                 for index, (factor, _) in enumerate(norm_factors):
                     modulus = univariate_modulus(factor, 2)
                     field = flint.fq_default_ctx(
@@ -808,12 +810,50 @@ def main() -> None:
                             boundary_count += 1
                             statuses.append("TRACE_BOUNDARY")
                         else:
+                            trace_value = -trace_gcd[0] / trace_gcd[1]
+                            equation_values = [
+                                evaluate_trace_polynomial(
+                                    equation,
+                                    p_value,
+                                    t_value,
+                                    w_value,
+                                    polynomial_context,
+                                )(trace_value)
+                                for equation in flint_equations
+                            ]
+                            require(
+                                all(value == field.zero()
+                                    for value in equation_values),
+                                "survivor equation replay",
+                            )
                             survivors.append((
                                 index,
                                 p_factor.degree(),
                                 w_gcd.degree(),
                                 trace_gcd.degree(),
                             ))
+                            survivor_records.append({
+                                "factor_index": index,
+                                "modulus": [int(value) for value in modulus],
+                                "t": [int(value) for value in t_value.to_list()],
+                                "p": [int(value) for value in p_value.to_list()],
+                                "w": [int(value) for value in w_value.to_list()],
+                                "trace": [
+                                    int(value) for value in trace_value.to_list()
+                                ],
+                                "base_forbidden": [
+                                    int(value)
+                                    for value in base_forbidden.to_list()
+                                ],
+                                "scale_denominator": [
+                                    int(value)
+                                    for value in scale_denominator.to_list()
+                                ],
+                                "trace_forbidden": [
+                                    int(value)
+                                    for value in trace_forbidden(trace_value).to_list()
+                                ],
+                            })
                             statuses.append(
                                 f"SURVIVOR_TRACE{trace_gcd.degree()}"
                             )
@@ -824,10 +864,33 @@ def main() -> None:
                         f"status={','.join(statuses) or 'EMPTY'}",
                         flush=True,
                     )
-                require(
-                    not survivors,
-                    f"direct component survivors: {survivors}",
-                )
+                if survivors and args.dump_survivors:
+                    payload = {
+                        "schema": "kb-c2-112-aligned-positive-moving-survivors-v1",
+                        "prime": DEPLOYED_PRIME,
+                        "allocation": args.allocation,
+                        "cache_sha256": CONFIGS[args.allocation]["cache_sha256"],
+                        "conic_cache_sha256": CONFIGS[args.allocation][
+                            "conic_cache_sha256"
+                        ],
+                        "direct_norm_digest": compiler.polynomial_digest(norm),
+                        "survivors": survivor_records,
+                    }
+                    encoded = json.dumps(
+                        payload, sort_keys=True, separators=(",", ":")
+                    ) + "\n"
+                    args.dump_survivors.write_text(encoded, encoding="ascii")
+                    print(
+                        "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_"
+                        "DIRECT_COMPONENT_SURVIVORS_PASS "
+                        f"allocation={args.allocation} count={len(survivors)} "
+                        f"path={args.dump_survivors} "
+                        f"sha256={hashlib.sha256(encoded.encode('ascii')).hexdigest()}",
+                        flush=True,
+                    )
+                    return
+                require(not survivors,
+                        f"direct component survivors: {survivors}")
                 print(
                     "KB_C2_112_ALIGNED_POSITIVE_UNRAMIFIED_MOVING_"
                     "DIRECT_FINITE_COMPONENT_REPLAY_PASS "
