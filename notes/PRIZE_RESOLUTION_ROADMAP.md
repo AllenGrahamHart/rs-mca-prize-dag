@@ -11363,7 +11363,8 @@ root twice, or one copy of each root. Thus the aligned-positive saturation is
 exactly twelve small cases: two internal-edge templates, three allocations,
 and unramified versus repaired `w=0` residual formulas. Moving cases close
 under `b->1/b`; any trace reduction must also transport the normalization
-variable and is not yet banked. An independent exact
+variable. The repaired `w=0` trace transport is now banked by the theorem
+below. An independent exact
 `5 x 5` matrix solve at `(c,d,b,w)=(3,7,5,11)` checks each template's
 fraction-free coefficient vector projectively.
 
@@ -11382,9 +11383,14 @@ four residual-allocation equations plus `D*lambda_scale-L=0`, in variables
 templates against an exact `5 x 5` solve and then checks all three residual
 coefficients at both roots by direct division of `U^2-WV^2`. All three
 allocations in each of the four template/ramification cells generate under
-the `60 s` tiny-RAMguard cap. These twelve raw ideals are a strict algebraic
-narrowing, **not a deletion theorem**; comprehensive saturated specialization
-remains external work. Do not resurrect the unscaled minor or FLINT route.
+the `60 s` tiny-RAMguard cap. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion`
+now closes all six repaired `w=0` ideals by full deployed-field saturation.
+It independently audits the raw norm and proves the moving equations are
+reciprocal quartics before descending to `s=b+1/b`. The six unramified raw
+ideals remain a strict algebraic narrowing, **not a deletion theorem**;
+their comprehensive saturated specialization remains external work. Do not
+resurrect the unscaled minor or FLINT route.
 
 The near-aligned target has a separate useful specialization. Write
 `J_1={eta,ell}` and orient `eta=c,ell=d`. Then
@@ -11653,31 +11659,31 @@ performing any four-variable elimination.
 
 ### Compute request CR-KB-C2-112-POS-QS-SAT
 
-Prove the twelve-case parametric saturation above without expanding the full
-quotient resultants. Normalize the common endpoint to `2` and work with the
-banked fraction-free reconstruction over `Q[p,t,b,w,lambda_scale]`.
+Prove the six remaining unramified parametric saturations above without
+expanding the full quotient resultants. Normalize the common endpoint to `2`
+and work with the banked fraction-free reconstruction over
+`Q[p,t,b,w,lambda_scale]`.
 
-1. Treat the nine fixed-moving affine charts as banked certificates; do not
-   recompute them. The projective `w=0` formulas remain separate and must
-   retain `D*lambda_scale-L=0` until normalization is audited.
-2. Treat the three reciprocal-`xi` charts and both other-`xi` square charts
-   as banked exact certificates. Continue the remaining other-`xi` mixed
-   moving-moving chart after closing under `b->1/b`; carry the induced
-   `lambda_scale` transformation before rewriting in `s=b+1/b`. Do not infer
-   completeness from a generic field gcd: discharge every endpoint curve and
-   isolated specialization in `(p,t)`.
+1. Treat the six repaired `w=0` cells as banked PROVED certificates; do not
+   recompute them. Their checker retains `D*lambda_scale-L=0`, audits the
+   normalization, and performs the moving trace descent exactly.
+2. Continue the six `w!=0` cells: two internal templates times `same`, `swap`,
+   and `mixed`. Carry the induced `lambda_scale` transformation before any
+   rewrite in `s=b+1/b`. Do not infer completeness from a generic field gcd:
+   discharge every endpoint curve and isolated specialization in `(p,t,w)`.
 3. Return a compact Bezout, comprehensive-Gröbner, subresultant, or modular-
    interpolation certificate
    with degree bounds and an independent exact checker. Do not use a generic
    four-variable SymPy `cancel` tree; that local representation exceeded the
-   RAMguard ceiling. The checker must reconstruct the twelve fraction-free
-   ideals from `(p,t,b,w,lambda_scale)`, replay the direct residual audit, and
-   reject deletion if any noncollision endpoint specialization remains.
+   RAMguard ceiling. The checker must reconstruct the six unramified
+   fraction-free ideals from `(p,t,b,w,lambda_scale)`, replay the direct
+   residual audit, and reject deletion if any noncollision endpoint
+   specialization remains.
 
-Either certificate deletes the aligned positive sign by fixed-point-free
-labels and, together with the aligned negative theorem, removes the whole
-aligned source-line branch. A surviving admissible component instead proceeds
-to the two full quotient identities.
+Either certificate deletes the remaining aligned positive unramified sign
+and, together with the ramified and aligned-negative theorems, removes the
+whole aligned source-line branch. A surviving admissible component instead
+proceeds to the two full quotient identities.
 
 ### Compute request CR-KB-C2-112-QR-ELIM
 

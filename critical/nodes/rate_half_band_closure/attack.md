@@ -1482,6 +1482,17 @@ attack retains only the positive sign. At this checkpoint both signs remained
 in the near-aligned branch because its target is `tau^*chi_Omega`, not
 `tau^*q`.
 
+The aligned positive forced-ramified branch is also empty. The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion`
+keeps the repaired `w=0` equations and the exact relative `U/V` scale. For
+each internal template, unique factorization leaves the `same`, `swap`, and
+`mixed` residual allocations. All three fixed-moving ideals have unit full
+forbidden saturation over `F_2130706433`. The moving equations are reciprocal
+quartics in `b`; after exact descent to `s=b+1/b`, all three corresponding
+saturations are also unit. Thus the complete aligned `w=0` branch is deleted
+after combining the negative theorem. The aligned positive unramified system
+remains open.
+
 The PROVED
 `rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion`
 also removes the negative sign from the near-aligned branch. The negative
@@ -1620,8 +1631,9 @@ degree 352, while the leading-coefficient boundary has projection degree
 772. Complete residue-field reconstruction leaves no admissible fiber in
 either chart. A direct SymPy/FLINT primary and an independent no-import
 fraction-free audit agree. Thus all 18 affine positive charts are closed.
-The positive homogenized `w=0` boundary remains, together with the other
-packet and assembly obligations of the target.
+The near-aligned positive homogeneous endpoint boundary remains, together
+with the other packet and assembly obligations of the target. It is distinct
+from the aligned forced-source `w=0` branch deleted above.
 
 The aligned positive sign has also resisted a broader exact falsifier sweep.
 The seeded standard-library replay

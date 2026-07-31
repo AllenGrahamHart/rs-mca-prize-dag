@@ -19203,6 +19203,34 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
+   "title": "KoalaBear c2 (1,1,2) aligned positive ramified q-slice exclusion",
+   "status": "PROVED",
+   "closure": "all six aligned positive forced-ramified q-slice ideals are empty on the admissible open set",
+   "statement": "Normalize J_0={2,1/2,b,1/b}, q(T)=T^2+tT+p, and the forced source branch to w=0. Exact positive reconstruction has two internal templates and three residual UFD allocations. Its relative scales are 3(2b-1)(p-1)(p+2t+4) in fixed-moving and -3(b^2-1)(p-1)(p+2t+4)(5p+4t+5) in moving-moving. After retaining that scale, removing only proved nonzero factors, and saturating by every endpoint, orbit, discriminant, normalization, and reconstruction factor, all three fixed-moving ideals are unit over F_2130706433. The moving equations are reciprocal quartics in b; exact descent to s=b+1/b makes all three corresponding saturated ideals unit. Thus no aligned positive forced-ramified candidate passes the necessary q-slice identity. Combined with the aligned-negative theorem, the complete aligned w=0 branch is empty; aligned positive w!=0 and the near-aligned homogeneous endpoint boundary remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/README.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify_fixed_mixed.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify_fixed_same.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify_fixed_swap.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify_moving_mixed.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify_moving_same.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify_moving_swap.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion/verify_runner.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
    "title": "KoalaBear c2 (1,1,2) near-aligned negative q-slice exclusion",
    "status": "PROVED",
@@ -44151,6 +44179,21 @@
  },
  {
   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
+  "to": "rate_half_band_closure",
+  "kind": "ev"
+ },
+ {
+  "from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
+  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
+  "kind": "req"
+ },
+ {
+  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
+  "kind": "req"
+ },
+ {
+  "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
   "to": "rate_half_band_closure",
   "kind": "ev"
  }

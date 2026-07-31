@@ -134,23 +134,25 @@ retries; raw artifact storage is separate.
 - **Banked generator:**
   `critical/nodes/rate_half_band_closure/notes/kb_c2_112_positive_qslice_symmetric.py`.
 - **Required output:** a comprehensive Gröbner/Bezout/subresultant certificate
-  after saturation by `L*D`, exactly the printed denominators, and collision
-  factors, plus a dependency-free exact checker. Generic-field gcds, pairwise
-  resultants, and numerical slices are incomplete.
-- **Known pilot:** the generator replays all three allocations in each of the
-  four template/ramification cells under the `60 s` tiny-RAMguard cap. Its
-  independent exact audit checks the relative reconstruction scale and all
-  endpoint residual coefficients. The earlier unscaled minor/FLINT pilot and
-  its hashes are retracted and must not be reused.
-- **PASS:** mint a PROVED aligned-positive q-slice exclusion node; together
-  with the existing aligned-negative theorem, delete the complete aligned
-  source-line branch.
+  for the six remaining unramified ideals after saturation by `L*D`, exactly
+  the printed denominators, and collision factors, plus a dependency-free
+  exact checker. Generic-field gcds, pairwise resultants, and numerical slices
+  are incomplete.
+- **Banked close:** PROVED node
+  `rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion`
+  closes all six repaired `w=0` cells. It retains the exact scale, audits the
+  raw norm independently, descends moving reciprocity to `s=b+1/b`, and gives
+  six unit full-forbidden saturations over `F_2130706433`. The earlier
+  unscaled minor/FLINT pilot and its hashes remain retracted.
+- **PASS:** mint a PROVED aligned-positive unramified q-slice exclusion node;
+  together with the ramified and aligned-negative theorems, delete the
+  complete aligned source-line branch.
 - **SURVIVOR:** replay it independently, then route it to both full quotient
   identities; do not repair the deletion claim by genericity.
 - **INCOMPLETE:** evidence only; no DAG status change.
-- **Authorization:** external pre-request. No reliable wall-time/cost ceiling
-  or compact certificate emitter exists yet, so do not launch it on the
-  remaining local Modal balance.
+- **Authorization:** external pre-request for the six unramified cells. No
+  reliable wall-time/cost ceiling or compact certificate emitter exists yet,
+  so do not launch them on the remaining local Modal balance.
 
 ### Pre-request CR-KB-C2-112-NEAR-QS-ELIM: near-aligned q-slice elimination
 
