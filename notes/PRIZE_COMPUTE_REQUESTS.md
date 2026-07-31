@@ -11029,6 +11029,13 @@ seven-term equations complete after 28 S-pairs with both `d^2=0` and
 `d!=0`.  This is guard-saturated, not raw-unit.  The accepted frontier is
 28: six `S0` and one forced-loop `S2` cell per row.
 
+The forced-loop `S2` cell is retired in every common row, completing the
+`S2` product close.  Once `-e^2=m` is forced, all six residual products form
+three signed pairs, so no quadratic extension is needed.  The three
+seven-term equations reach the raw unit ideal after seven S-pairs in both
+cubic components.  Do not request any `S2` product cell.  The accepted
+frontier is 24, all six `S0` cells in each common row.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs

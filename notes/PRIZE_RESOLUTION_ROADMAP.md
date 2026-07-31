@@ -13296,3 +13296,23 @@ remaining product cells:  S0=6 and S2 forced-loop=1 per common sign row
 Modal status:             no launch and no cost
 next route-deciding step: S2 forced-loop quadratic extension
 ```
+
+### Work-cycle burn-down: one-loop 442 S2 forced loop and S2 close
+
+```text
+starting local pin:       7fb1b41b (all-row S2 forced-DF exclusion)
+ending local theorem pin: current all-row S2 forced-loop / S2 close
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / final S2 forced-record orbit
+result:                   PROVED all 16 S2 product cells are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase close)
+root simplification:      e^2=-m; three residual full signed pairs
+residual system:          3 equations, 7 (d,f) monomials each
+certificates:             raw unit after 7 S-pairs in both components
+accepted frontier:        24 cells, down from 28
+remaining product cells:  S0=6 in each common sign row; S1=S2=0
+Modal status:             no launch and no cost
+next route-deciding step: first pinned rational S0 forced-record orbit
+```

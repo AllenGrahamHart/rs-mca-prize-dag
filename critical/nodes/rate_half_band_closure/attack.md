@@ -2781,3 +2781,17 @@ elements `d^2` and `e^2`.  This contradicts the required `d!=0` guard.
 Transport the guarded deletion using the common product data and reduce the
 frontier from 32 to 28; six `S0` and one forced-loop `S2` cell remain per
 row.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion`
+deletes the last `S2` orbit in every row.  Forcing `-e^2=m` leaves three
+full signed pairs, so the square-root choice disappears and the residual is
+
+```text
+(X^2-c^2d^2Z^2)(X^2-d^2f^2Z^2)(X^2+m f^2Z^2).
+```
+
+Its three seven-term equations reach the raw unit ideal after seven S-pairs
+in both components.  Transport gives the same result in every common row.
+All sixteen `S2` cells are now empty at product level.  Reduce the accepted
+frontier from 28 to 24, consisting exactly of six `S0` cells per row.
