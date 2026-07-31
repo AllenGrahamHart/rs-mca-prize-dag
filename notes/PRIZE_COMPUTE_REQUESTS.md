@@ -10883,8 +10883,20 @@ and the common singleton `c` has one forced outside mate `m`.  For each
 fixed signed outside cell, choose one of seven products to equal `m` and one
 of fifteen perfect matchings of the other six products.  The raw edge-sign
 counts before target-sign symmetry are `S0=8`, `S1=16`, and `S2=1`; hence
-`105` templates per signed cell, not per unsigned skeleton.  Derive and
-print the target-representative sign orbits before scheduling a fleet.
+`105` templates per signed cell, not per unsigned skeleton.
+
+The target-representative sign quotient is now PROVED and must be used:
+
+```text
+S0: two parity cells tau_0=alpha beta gamma,
+S1: two parity cells tau_1=alpha beta gamma delta,
+S2: one cell.
+```
+
+Therefore the accepted cap is five signed cells and `525` templates per
+common sign row, or `2100` over all four sextic rows, before quotienting by
+the residual unsigned skeleton automorphisms.  A worker that expands the
+original 25 sign cells is obsolete.
 
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs

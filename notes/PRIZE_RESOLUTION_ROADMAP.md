@@ -12968,3 +12968,26 @@ external handoff:         PRIZE_COMPUTE_REQUESTS records exact sharding,
 next route-deciding step: derive target-sign orbit reduction by hand, or
                           shard exact templates on contributor compute
 ```
+
+### Work-cycle burn-down: one-loop 442 outside sign orbits
+
+```text
+starting local pin:       f6f41129 (outside compute handoff)
+ending local theorem pin: current outside sign-orbit classifier
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / signed outside skeleton cells
+result:                   PROVED exact five-cell sign quotient per common row
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact combinatorial classifier)
+S0:                       two size-four orbits indexed by alpha beta gamma
+S1:                       two size-eight orbits indexed by
+                          alpha beta gamma delta
+S2:                       one cell
+template cap:             525 per common row; 2100 over four common rows,
+                          before unsigned skeleton automorphisms
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: quotient the 105 templates by the residual
+                          E/F skeleton automorphisms in S0 and S1
+```

@@ -2575,3 +2575,18 @@ Do not run a local template sweep.  The external request in
 `notes/PRIZE_COMPUTE_REQUESTS.md` records the sharding and certificate
 requirements; symbolic sign-orbit reduction remains the preferred next
 step.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier`
+performs that reduction.  Sign changes of `D,E,F` leave exactly
+
+```text
+S0: tau_0=alpha*beta*gamma in {+1,-1};
+S1: tau_1=alpha*beta*gamma*delta in {+1,-1};
+S2: one cell.
+```
+
+Thus each common sign row has five signed outside cells, not 25.  The
+forced/matching cap is `5*105=525` per common row and `2100` across all four
+sextic rows before unsigned skeleton automorphisms.  Use these parity cells
+in every external or symbolic continuation.
