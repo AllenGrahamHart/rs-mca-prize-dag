@@ -12256,3 +12256,26 @@ Modal status:             no launch and no cost
 next route-deciding step: classify M1,M2,M3; carry the 24 compiled rows only
                           into complete source-facet/seven-fiber assembly
 ```
+
+### Work-cycle burn-down: 433 M1 product-q exclusion
+
+```text
+starting local pin:       2e1a05ef (433 constrained-cell classifier)
+ending local theorem pin: current M1 exclusion PROVED packet
+canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+node/workboard attacked:  K3 / negative 433 cell M1
+result:                   PROVED exact deletion with full chart coverage
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; narrowing evidence only)
+boundary branch:          b+R=0 raw minors force M=R^3, c=MR^2; weld
+                          obstruction has exact resultant 4
+interior branch:          exact Mobius equations force T=0, then
+                          b^2(b+1)^2=0 under integral ideal certificates
+433 common-K residual:    only M2,M3; M1 must not enter later assembly
+new assumptions:          none beyond parent guards and odd characteristic
+Modal status:             no launch and no cost
+next route-deciding step: classify M2 and M3 with separate affine-chart
+                          boundary audits, then assemble all surviving 433
+                          rows across eta and the six complement fibers
+```

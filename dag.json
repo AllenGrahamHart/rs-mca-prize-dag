@@ -20456,6 +20456,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop 433 M1 product-q exclusion",
+   "status": "PROVED",
+   "closure": "raw-boundary resultant plus two-stage interior ideal contradiction deleting common-K cell M1",
+   "statement": "In cell M1, split on b+R. On b+R=0 the five raw product minors force M=R^3 and c=MR^2; the squared weld conflicts with R^6+1 by resultant 4. On b+R nonzero the exact Mobius chart leaves E1,E2,Q, whose integral ideal contains the nonzero guard factor times T=MR+3M+5R^2+3R+4; after adjoining T it contains b^2(b+1)^2. Actual distinctness deletes both branches. Thus M1 is empty; only M2,M3 remain unclassified at common K.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
    "title": "KoalaBear m2 r2 dihedral degree-five source-star exclusion",
    "status": "PROVED",
@@ -39201,6 +39221,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

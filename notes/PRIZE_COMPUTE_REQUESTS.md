@@ -10713,8 +10713,10 @@ The constrained cells are now fully compiled: `X2,N1` use one reciprocal
 quartic in `M` plus a quadratic in `c`, and `L1` uses degrees `2 x 4` with a
 linear locator.  Their total common-`K` cap is 24, with exact witnesses.
 External work should not eliminate them again; carry them into complete
-source-facet/seven-fiber assembly.  Only `M1,M2,M3` still need common-`K`
-product/q classification.
+source-facet/seven-fiber assembly.  `M1` is now PROVED empty by a raw-boundary
+resultant and an exact two-stage interior ideal certificate.  Only `M2,M3`
+still need common-`K` product/q classification; external work must start
+from those two cells and retain separate chart-boundary certificates.
 
 Suggested pilot: one canonical packet stratum, one CPU, at most 512 MiB,
 60 seconds, deterministic partial output, and no parallel fleet.  Modular

@@ -2055,3 +2055,16 @@ cell contributes at most eight candidates, and guard-passing finite-field
 witnesses prove all three common-`K` interfaces are nonempty.  Replay these
 24 candidates only during seven-fiber completion; the unresolved
 common-`K` work is now exactly `M1,M2,M3`.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion`
+deletes `M1` without suppressing an affine-chart boundary.  On `b+R=0`,
+the five raw product minors force `M=R^3` and `c=MR^2`; the remaining weld
+would require both `R^6+1=0` and `R^5-R+2=0`, whose resultant is `4`.
+On `b+R!=0`, the normalized Mobius chart leaves two product equations and
+one squared weld.  A first exact integral ideal certificate forces
+`T=MR+3M+5R^2+3R+4=0` under actual guards, while adjoining `T` gives
+`b^2(b+1)^2=0`, contradicting distinct nonzero signed `A,B` pairs.
+Thus only `M2,M3` remain at the `(4,3,3)` common-`K` interface.  Analyze
+their Mobius charts separately, including every chart boundary; do not carry
+`M1` into seven-fiber assembly or ask external compute to rediscover it.
