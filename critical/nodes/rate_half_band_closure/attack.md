@@ -2391,3 +2391,18 @@ nonloop anchors are necessary and sufficient for all five common-`K` sum
 equations.  Build the two signed one-loop atlases through these welds before
 constructing any of the seven complementary source records.  Treat the
 zero-loop row separately through its degree-two interpolation condition.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld` makes
+that last condition equally explicit.  Reconstruct `D` from the rank-three
+Mobius product rows and put `v_s=q_sD(s)`.  Then
+
+```text
+rank [1,s,s^2,v_s]_(s in K)<=3.
+```
+
+Any three distinct labels determine the quadratic `-A_1`; the two `4 x 4`
+determinants obtained by adjoining the remaining labels are necessary and
+sufficient for all five sum equations.  Hence every live negative skeleton
+now has exactly two scalar common-`K` q welds after product reconstruction.
+The next step is a signed atlas, not another generic determinant compiler.
