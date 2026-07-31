@@ -10702,7 +10702,15 @@ loci, and all product-rank survivors are the six quadratic-linear rows
 `(KB4P-3)--(KB4P-5)`, at most twelve geometric packets.  An external worker
 must start from those rows and their two PROVED q-compatible orientation
 classes, then compile the `eta` plus six `L^c` records.  Do not spend compute
-rediscovering either common-`K` products or q signs.  The 240-row `(4,3,3)`
+rediscovering either common-`K` products or q signs.
+
+The `(4,4,2)` outside graph is also PROVED unique and loop-free.  Its two
+colored records are `C-D,C-E` with distinct `I` attachments, and its five
+internal types are `D-E,+/-D-F,+/-E-F`, one of which is `eta`.  Any future
+worker must combine this multiset with the six common-`K` product rows and
+their two q orientations; arbitrary outside graph enumeration is obsolete.
+
+The 240-row `(4,3,3)`
 two-loop atlas is also superseded at the label level: `(KB43-3)` gives nine
 one-parameter antipodal cells.  The first product-minor cut deletes
 `X1,N2,Z1` and forces `b=-c^3` on `X2,N1,L1`.  At that intermediate stage,

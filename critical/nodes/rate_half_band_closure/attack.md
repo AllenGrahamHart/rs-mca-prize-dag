@@ -2150,3 +2150,20 @@ Attack these invariant cells before full interpolation.  Do not substitute
 `D,E,F={1,M,M^2}`: the coefficient normal form normalizes the `T` and
 source/quotient projectivities independently, so that tempting resultant is
 not typed.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_edge_skeleton_classifier`
+gives the parallel complete-source reduction for `(4,4,2)`.  Its two common
+loops also spend both roots of `A_1`, so every outside loop is impossible.
+Both colored deficits come from the degree-two `C` pair, but product
+injectivity forces them to attach to distinct `I` pairs.  Up to names the
+outside types are
+
+```text
+C-D, C-E, D-E, D-F(+), D-F(-), E-F(+), E-F(-),
+```
+
+with one of the five internal signed types at `eta`.  Lift the six exact
+common-`K` product rows through this multiset by the same forced-mate and
+invariant-binary-form strategy; do not enumerate arbitrary `(4,4,2)` source
+graphs.
