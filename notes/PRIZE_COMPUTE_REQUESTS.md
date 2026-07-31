@@ -10764,6 +10764,15 @@ compute is needed for that row.  The accepted `442` frontier is four rows,
 24 cells, matching cap 312.  External workers must exclude both negative-
 sign eighth-root singleton placements.
 
+Both positive-sign eighth-root rows are now PROVED empty as well.  Exact
+quartic factor norms, six deployed-field unit ideals, and a 54-case
+alternate resultant audit close `H8-L,tau=+1`; positive loop exchange closes
+`H8-M,tau=+1`.  The accepted `442` compute frontier is only the two H6 rows,
+12 invariant cells, and matching cap 156.  Any external worker retaining an
+H8 row is using an obsolete frontier.  These remaining rows have quadratic
+base algebras and should be attempted symbolically before requesting any
+container fleet.
+
 The 240-row `(4,3,3)`
 two-loop atlas is also superseded at the label level: `(KB43-3)` gives nine
 one-parameter antipodal cells.  The first product-minor cut deletes

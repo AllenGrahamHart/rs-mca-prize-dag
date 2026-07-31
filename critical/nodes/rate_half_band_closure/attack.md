@@ -2273,3 +2273,28 @@ The `H8-M` forced product is `b'^2`, exactly the scaled image of `1`.
 Therefore all six `H8-M,tau=-1` cells are empty.  The live `442` frontier is
 four rows, 24 cells, and matching cap 312.  Analyze only the two positive-
 sign eighth-root rows and two sixth-root rows next.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8_positive_complete_product_exclusion`
+deletes both positive-sign eighth-root rows.  The `H8-L` row descends to
+
+```text
+P+(b)=b^4-2b^3-5b^2-2b+1,
+c=(-b^2+3b+3)/2,
+p_xi=(5b^3-16b^2+8b+8)/23.
+```
+
+For all three forced types, exact intrinsic resultants cover both `sigma`
+signs.  The only six zero primary projections are unit ideals over the
+deployed field, and a second projection order independently has nonzero
+deployed norms in all 54 retained sign/matching cases.  Positive loop
+exchange acts by
+
+```text
+b'=1/b,       c'=c/b,       (D',E',F')=(D,E,F)/b
+```
+
+and transports the complete deletion to `H8-M`.  The live `442` frontier is
+therefore only `H6,tau=+/-1`: two rows, 12 invariant cells, and cap 156.
+Reduce these two quadratic row algebras directly; do not enumerate or
+interpolate any H8 packet.

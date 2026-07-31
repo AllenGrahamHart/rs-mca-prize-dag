@@ -12578,3 +12578,31 @@ Modal status:             no launch and no cost
 next route-deciding step: derive the tau=+1 eighth-root descent and test
                           whether the same loop exchange transports H8-L/M
 ```
+
+### Work-cycle burn-down: H8-positive complete-product exclusion
+
+```text
+starting local pin:       81b3611e (H8-M-minus transport exclusion)
+ending local theorem pin: current H8-positive PROVED row exclusion
+canonical prize pin:      14dc1db5f4ec64a2dcba31c65d79716f58090945
+node/workboard attacked:  K3 / negative 442 positive-sign H8 rows
+result:                   PROVED deletion of both positive H8 placements
+DAG delta:                +1 PROVED background node, +5 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; two complete-product rows deleted)
+univariate descent:       P+(b)=b^4-2b^3-5b^2-2b+1, with exact rational
+                          locator and forced product over Q[b]/(P+)
+intrinsic coverage:       cD and DE use six representatives per sign; DF
+                          uses all 15 matchings per sign
+exact certificate:        every ordinary factor norm is deployed-nonzero;
+                          six projected DF degeneracies are unit ideals
+independent audit:        alternate resultant order covers all 54 retained
+                          sign/matching cases with deployed-nonzero norms
+positive transport:       b'=1/b, c'=c/b, D/E/F -> D/E/F divided by b;
+                          all common/outside products scale by b^-2
+442 frontier:             4 -> 2 rows, 24 -> 12 cells, cap 312 -> 156
+new assumptions:          none in deployed characteristic
+Modal status:             no launch and no cost
+next route-deciding step: eliminate the six cells on each quadratic H6 row;
+                          keep tau signs separate and use exact local norms
+```
