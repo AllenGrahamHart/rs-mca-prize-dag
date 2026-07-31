@@ -10859,3 +10859,59 @@ Suggested pilot: one canonical packet stratum, one CPU, at most 512 MiB,
 reconnaissance is evidence only; universal deletion requires symbolic or
 proof-producing certificates whose saturations include distinct labels,
 nonzero leading support, and the source-facet side conditions.
+
+## Request: negative one-loop 442 sextic outside templates
+
+The live common orbit `[9,10,12,13]` is now reduced to four rank-six sextic
+quotients.  The two cubic factors of the former degree-12 gate are PROVED
+empty.  In each live sign row the standard basis is
+
+```text
+{1,b,b^2,r,br,t},
+S(b)=b^6-2b^5+7b^4-8b^3+7b^2-2b+1,
+Norm(D_c)=2^19,       Norm(D_m)=652.
+```
+
+The explicit product involution is
+
+```text
+Phi(Y,Z)=(c+2b-b^2)YZ+b(c+b^2)(Y+Z)
+         -b^2(c-b^2-2bc),
+```
+
+and the common singleton `c` has one forced outside mate `m`.  For each
+fixed signed outside cell, choose one of seven products to equal `m` and one
+of fifteen perfect matchings of the other six products.  The raw edge-sign
+counts before target-sign symmetry are `S0=8`, `S1=16`, and `S2=1`; hence
+`105` templates per signed cell, not per unsigned skeleton.  Derive and
+print the target-representative sign orbits before scheduling a fleet.
+
+One local pilot has already been attempted and must not be interpreted as a
+survivor.  It used common signs `(+,+)`, `S1` signs
+`(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs
+
+```text
+(CE,DF),       (CF,-EF),       (DD,EF).
+```
+
+The six common basis equations plus four outside equations reached the
+60-second `ramguard tiny` cap before producing a Groebner basis.  No local
+or Modal fleet is authorized.
+
+An external run should shard one symmetry-reduced
+`(common-sign row, signed skeleton cell, forced edge, residual matching)`
+per task.  Every task must:
+
+1. print its identifiers and equation degrees before elimination;
+2. enforce a declared wall and memory cap and emit deterministic partial
+   status on timeout;
+3. return a compact unit-ideal certificate, or a guarded survivor ideal with
+   dimension, basis, and all denominator/distinctness norms;
+4. keep product-level survivors separate from outside sum and full
+   interpolation claims; and
+5. include an independently replayable reduction or multiplication-matrix
+   audit before any DAG node is promoted.
+
+Prefer a CAS with efficient finite-field quotient and elimination support
+over generic SymPy Groebner.  A pilot should use one task only; estimate its
+cost from that result before requesting parallel capacity.

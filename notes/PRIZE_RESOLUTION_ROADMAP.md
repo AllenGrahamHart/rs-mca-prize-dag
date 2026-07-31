@@ -12947,3 +12947,24 @@ Modal status:             no launch and no cost
 next route-deciding step: screen forced-value equations in S0,S1,S2 before
                           expanding residual involution matchings
 ```
+
+### Work-cycle burn-down: one-loop 442 outside-template pilot
+
+```text
+starting local pin:       35950faf (sextic mate-coordinate compiler)
+ending local theorem pin: no new theorem; bounded route decision recorded
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / first exact S1 outside template
+pilot cell:               common signs (+,+); S1 edge signs (+,-,-,+);
+                          forced DE; pairs (CE,DF),(CF,-EF),(DD,EF)
+result:                   six common basis equations plus four outside
+                          equations hit the 60-second local cap
+mathematical conclusion:  none; timeout is not evidence of survival
+resource decision:        no local sweep and no Modal launch
+count correction:         105 matchings per fixed signed skeleton cell;
+                          raw edge-sign counts are S0=8,S1=16,S2=1
+external handoff:         PRIZE_COMPUTE_REQUESTS records exact sharding,
+                          partial output, and certificate requirements
+next route-deciding step: derive target-sign orbit reduction by hand, or
+                          shard exact templates on contributor compute
+```

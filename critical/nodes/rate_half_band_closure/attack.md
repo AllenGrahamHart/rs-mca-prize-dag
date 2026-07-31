@@ -2528,10 +2528,12 @@ Its determinant is the guarded unit
 m=-b(b^3+3b^2c-bc+c^2)/(b^3-b^2c+3bc+c^2).
 ```
 
-For each `S0,S1,S2`, choose which outside value is `m` and partition the
-other six into three `Phi=0` pairs.  This is only `7*15=105` matching
-templates per skeleton before symmetry and quotient reduction; use this
-finite list rather than arbitrary source placements.
+For each fixed signed cell of `S0,S1,S2`, choose which outside value is `m`
+and partition the other six into three `Phi=0` pairs.  This is
+`7*15=105` matching templates per signed skeleton cell before symmetry and
+quotient reduction.  First quotient the `8,16,1` raw edge-sign choices of
+`S0,S1,S2` by target representative changes; use the resulting finite list
+rather than arbitrary source placements.
 
 The PROVED
 `rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier`
@@ -2564,3 +2566,12 @@ c=-1+b-b^2/2+(i-1)r/4+(1-i)t/4,
 Evaluate forced-value equations by six-coordinate multiplication first.
 Only if such an equation has a nontrivial quotient should the fifteen
 residual pairings be expanded.
+
+A first exact `S1` pilot used the representative common sign row, signs
+`(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE`, and residual pairs
+`(CE,DF),(CF,-EF),(DD,EF)`.  The six common basis equations plus four
+outside equations reached the 60-second local cap before a Groebner basis.
+Do not run a local template sweep.  The external request in
+`notes/PRIZE_COMPUTE_REQUESTS.md` records the sharding and certificate
+requirements; symbolic sign-orbit reduction remains the preferred next
+step.
