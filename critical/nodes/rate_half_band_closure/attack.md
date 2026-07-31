@@ -1891,3 +1891,24 @@ only their kernels for the full `q` equations.  Forced colored support and
 the companion quotient identity then follow from realizing all 24 stars and
 should be replayed as independent audits.  Do not return to profile-only or
 `K+eta`-only determinant searches.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate`
+adds the first complete-packet gate specific to negative parity.  Conjugate
+source negation by the injective Mobius product map.  If `(y_i,z_i)` are the
+edge products at the six source-label pairs, they are free orbits of one
+projective involution and therefore
+
+```text
+rank [y_i z_i,-(y_i+z_i),-1]_(i=1,...,6)<=2.
+```
+
+This is a coefficient-free `6 x 3` test.  Two distinct antisymmetric product
+pairs `(u,-u),(v,-v)` force the common involution to be negation, hence force
+every pair sum to vanish.  The exact defect-zero fixture contains
+`(AC,-AC),(BC,-BC)` but also `(DE,DF)` with nonzero sum.  It is therefore
+symbolically deleted in negative parity over every odd field.  The zero
+survivors among all 5,040 signed-square assignments in `F_29` and the printed
+minor 12 are independent regressions.  Apply the same gate to every other
+canonical completion of the seven negative `K` skeletons before the full
+Mobius and `q` systems.
