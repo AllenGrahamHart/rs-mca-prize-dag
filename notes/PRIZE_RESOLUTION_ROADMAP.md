@@ -11821,3 +11821,27 @@ next route-deciding step: either build a bounded modular-interpolation or
                           unramified cell, or move to another critical child
                           rather than repeat the failed generic CAS route
 ```
+
+### Work-cycle burn-down: aligned unramified determinant router
+
+```text
+starting local pin:       0e24d318 (saturated 112 export record)
+ending local theorem pin: unchanged; experimental router only
+canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+node/workboard attacked:  K3 / aligned positive unramified c2(1,1,2)
+cell attacked:            fixed-moving / same allocation (1 of 6)
+result:                   NARROWED; no deletion and no survivor
+DAG delta:                none
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+new assumptions:          none
+exact movement:           quadratic-in-b compiler now completes; common
+                          linear determinant component excluded; common
+                          reciprocal quartic reduced to finite conic-norm
+                          and denominator specializations
+unresolved in cell:       quartic finite support and off-common projection
+                          intersections, followed by original-equation replay
+unresolved sibling cells: fixed swap/mixed and all 3 moving-moving cells
+next route-deciding step: classify the finite fixed/same support if a compact
+                          specialization router emerges; otherwise transfer
+                          the determinant compiler to a second allocation
+```

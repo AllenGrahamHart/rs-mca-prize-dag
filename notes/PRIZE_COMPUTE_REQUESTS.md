@@ -153,6 +153,16 @@ retries; raw artifact storage is separate.
   representation unchanged; use modular interpolation, a dedicated
   quadratic-resultant emitter, or contributed compute with streaming partial
   factors.
+- **Dedicated-FLINT update (2026-07-30):** the corrected quadratic compiler
+  now emits three star resultants, four factored coefficient minors, and the
+  first projection cascade in about `21 s` under the same `256 MB / 60 s`
+  envelope.  The common linear projection component is exactly excluded by
+  forbidden support.  The common reciprocal quartic is generically rank two
+  but fails the kernel-conic condition; its exceptions are reduced to a
+  printed degree-`496` norm in `t` plus four denominator factors.  See
+  `kb_c2_112_aligned_positive_unramified_fixed_same_frontier_20260730.md`.
+  This narrows one cell only: the finite quartic specializations, off-common
+  projection intersections, and the other five cells remain open.
 - **PASS:** mint a PROVED aligned-positive unramified q-slice exclusion node;
   together with the ramified and aligned-negative theorems, delete the
   complete aligned source-line branch.
