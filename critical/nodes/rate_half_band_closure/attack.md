@@ -1833,3 +1833,24 @@ gate. The negative parity also excludes a ramified common-`K` value.
 Apply these small tests before the quotient-resultant identities.
 No determinant is yet proved nonzero for every admissible star packet, so
 the coordinate orientation remains open and no owner charge moves.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut` shows why
+the word "before" is load-bearing. Over `F_29`, an exact aligned abstract
+packet simultaneously has the allowed `(2,2),(4,4),(4,4)` paired profile,
+a diagonal-free two-regular pole graph, all facet and deck transport laws,
+four colored edges, defect two, and a geometrically irreducible positive
+source form with full leading support whose `10 x 8` Vieta matrix has rank
+seven. Thus profile, defect, irreducibility, and the determinant alone do not
+form a universal exclusion interface. For this packet the `J`-resultant
+forces
+
+```text
+c_0(W)=W^2-7W+9=(W-13)(W-23),
+```
+
+whose roots lie outside the six allowed `J` labels; the companion `I`
+identity also fails at `W=xi`. This is a small-characteristic route cut, not
+a deployed-field packet or orientation deletion. The next exact classifier
+must retain rank survivors through forced colored support and the companion
+quotient identity.

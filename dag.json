@@ -20157,6 +20157,27 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut",
+   "title": "KoalaBear coordinate Vieta profile-only F29 route cut",
+   "status": "PROVED",
+   "closure": "an exact defect-two geometrically irreducible aligned source-facet packet over F_29 survives the positive Vieta rank gate but is deleted by its forced colored quotient quadratic",
+   "statement": "Over F_29 there is a complete aligned abstract coordinate source-facet packet with the allowed paired K-degree profile (2,2),(4,4),(4,4), source degree four, four colored edges, defect two, and a geometrically irreducible positive bidegree-(2,4) source form whose 10 x 8 Vieta matrix has rank seven with full leading support. Its J-resultant forces c(W)=W^2-7W+9 with roots 13,23 outside the J support, and the companion I identity also fails. Thus profile/defect/irreducibility plus the determinant are not a sufficient universal exclusion interface; this is a route cut, not a deployed-field packet or orientation deletion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/certificate.json",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_transpose_transport",
    "title": "KoalaBear m2 r4 coordinate-transpose transport",
    "status": "PROVED",
@@ -38779,6 +38800,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

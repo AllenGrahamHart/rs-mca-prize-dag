@@ -10588,3 +10588,67 @@ Do not resume this as repeated laptop shards. Before external launch:
 The expected computation is finite and small-memory, but no dollar estimate
 is accepted until the canonical router and one proof-producing pilot are
 measured. Large raw enumeration without certificates is out of scope.
+
+## CR-K3-M2-R4-COORDINATE-VIETA-F29: signed-edge gate falsifier
+
+**Status:** BLOCKED BEFORE START by the Modal workspace spend limit on
+2026-07-30. No app id was allocated and no credit was spent. Do not retry
+until the workspace limit is restored. One container only; no fleet.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler` supplies exact
+`10 x 8` positive and `10 x 7` negative common-`K` kernel gates. Before a
+large symbolic elimination, test whether those gates can already be made
+universally nonzero from the two allowed coordinate degree profiles.
+
+The pilot fixes the exact field/configuration
+
+```text
+F_29,
+I={+/-1,+/-4,+/-9},
+J={+/-2,+/-3,+/-5},
+xi=-9=20,
+K=I minus {xi}={1,28,4,25,9}.
+```
+
+All five `K` values are squares. Exhaust the `15^5` ordered assignments of
+the three antipodal edge orbits and the six nonantipodal edge orbits with
+both lift orientations. Retain exactly the proved pair-degree profiles
+`(4,4,2)` and `(4,3,3)` up to pair permutation and exact duplicate-edge
+defect at most three. For every retained packet,
+reconstruct the two exact Vieta matrices, require nonvanishing leading
+support and a nonzero odd part, and test every aligned squarefree quadratic
+`c` supported on two `J` labels against both full quotient identities.
+
+Launcher:
+
+```text
+tools/ramguard modal -- ~/.venvs/modal/bin/modal run \
+  critical/nodes/rate_half_band_closure/notes/kb_coordinate_vieta_f29_falsifier_modal.py
+```
+
+Resource cap: one CPU, 256 MiB, a 60-second hard container timeout, and an
+internal 52-second partial-output deadline. Conservative cost is below
+`$0.01`, hence below the campaign `$1` ceiling. The worker returns the first
+exact positive/negative gate witnesses, complete counters, and any full
+quotient witness. The independent local checker is
+`verify_kb_coordinate_vieta_f29_witness.py`.
+
+Semantics:
+
+- `PASS` with a gate witness: exact falsification of any claim that the
+  printed degree profiles alone force the corresponding determinant nonzero;
+- `PASS` with a full quotient witness: stronger small-characteristic route
+  falsifier requiring side-condition and liftability analysis;
+- complete no-witness output: exact only for this fixed `F_29` label packet,
+  evidence only for the universal coordinate branch;
+- timeout: partial evidence only, with counters and any retained witnesses;
+- no outcome closes or refutes the deployed-field coordinate orientation.
+
+The blocked pilot has already been superseded for route selection by the
+hand-constructed and independently replayed PROVED node
+`rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut`. That node
+gives one defect-two positive rank-seven witness and shows that its forced
+colored quadratic is unsupported. A future launch is useful only as a
+complete census of this fixed label packet, not as discovery of the first
+witness.
