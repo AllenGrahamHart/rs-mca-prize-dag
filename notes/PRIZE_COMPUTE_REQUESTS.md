@@ -193,6 +193,9 @@ retries; raw artifact storage is separate.
   identities; do not repair the deletion claim by genericity.
 - **INCOMPLETE:** evidence only; no DAG status change.
 - **Authorization:** resolved locally; no external or Modal request remains.
+- **Branch close:** the PROVED complete source-line exclusion composes all 32
+  census/compiler/cell prerequisites. The residual `c2(1,1,2)` frontier is
+  coordinate and source-cover assembly, not another saturation computation.
 
 ### Resolved CR-KB-C2-112-NEAR-QS-ELIM: near-aligned q-slice elimination
 

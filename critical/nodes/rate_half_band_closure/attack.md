@@ -1668,8 +1668,13 @@ infinity. Three fixed-moving saturations, two moving trace saturations, and
 both signs of the moving other-xi constant gate are unit over the deployed
 field. Thus the positive near-aligned queue is complete. Combined with the
 near-negative theorem, the entire near-aligned source-line branch is empty.
-No fixed-moving aligned positive unramified cell remains. Other
-packet/assembly obligations remain.
+The PROVED
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion` now
+composes the defect census, aligned/near quotient partition, and all 25
+sign/cell/boundary exclusion theorems. Its checker pins all 32 compiler and
+theorem prerequisites. Therefore the complete saturated diagonal
+`c2(1,1,2)` source-line branch is empty. The residual assembly frontier is
+the coordinate and source-cover orientations, not another source-line cell.
 
 The aligned positive sign has also resisted a broader exact falsifier sweep.
 The seeded standard-library replay

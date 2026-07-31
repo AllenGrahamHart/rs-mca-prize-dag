@@ -11947,3 +11947,27 @@ aligned cell ledger:      all six positive unramified allocations closed
 next route-deciding step: audit the parent packet/source-row assembly and
                           promote the strongest newly discharged subclaim
 ```
+
+### Work-cycle burn-down: complete c2(1,1,2) source-line exclusion
+
+```text
+starting local pin:       525aa1a6 (fixed-mixed full quotient close)
+ending local theorem pin: current complete source-line PROVED packet
+canonical prize pin:      1b2c2ee46951ef5031e100b21f4edd1eeb24b177
+node/workboard attacked:  K3 / c2(1,1,2) source-line assembly
+result:                   PROVED by exhaustive composition
+DAG delta:                +1 PROVED background node, +32 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; the new edge is evidence, not req)
+source-line census:       96 labeled packets / 12 matching-preserving orbits
+quotient partition:       aligned or near-aligned, with no third case
+aligned coverage:         1 negative + 1 ramified positive + 6 unramified
+                          positive cells
+near coverage:            complete negative + 18 affine-positive charts +
+                          7 homogeneous boundary shards
+explicit prerequisites:  32/32 PROVED and checked against DAG req edges
+new assumptions:          none
+residual c2 frontier:     coordinate and source-cover orientations only
+next route-deciding step: attack the coordinate five-fiber Vieta-rank
+                          determinant before full quotient resultants
+```
