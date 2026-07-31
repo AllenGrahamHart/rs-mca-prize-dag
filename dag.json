@@ -45475,360 +45475,360 @@
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion",
    "kind": "req"
   },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion",
-  "to": "rate_half_band_closure",
-  "kind": "ev"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion",
-  "to": "rate_half_band_closure",
-  "kind": "ev"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion",
-  "to": "rate_half_band_closure",
-  "kind": "ev"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
-  "to": "rate_half_band_closure",
-  "kind": "ev"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
-  "to": "rate_half_band_closure",
-  "kind": "ev"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion",
-  "to": "rate_half_band_closure",
-  "kind": "ev"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion",
-  "to": "rate_half_band_closure",
-  "kind": "ev"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
-  "to": "rate_half_band_closure",
-  "kind": "ev"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
-  "to": "rate_half_band_closure",
-  "kind": "ev"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
-  "to": "rate_half_band_closure",
-  "kind": "ev"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
-  "to": "rate_half_band_closure",
-  "kind": "ev"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-  "to": "rate_half_band_closure",
-  "kind": "ev"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
-  "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion",
-  "kind": "req"
- },
- {
-  "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion",
-  "to": "rate_half_band_closure",
-  "kind": "ev"
- }
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  }
  ]
 }
