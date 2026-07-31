@@ -2766,3 +2766,18 @@ basis element `e^2` in both cubic components.  Since outside representatives
 are nonzero, this is a guarded deletion, not a raw unit ideal.  Transport it
 using the common `b,c,m` identity and reduce the frontier from 36 to 32;
 six `S0` and two `S2` cells remain per row.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion`
+deletes the forced-`DF` `S2` orbit in every row.  Clearing `d^2` after
+`sigma*df=m` gives
+
+```text
+(X^2-c^2d^2Z^2)(X+e^2Z)(X+mZ)(d^2X^2-m^2e^2Z^2).
+```
+
+Both cubic-component bases complete after 28 S-pairs and contain the monic
+elements `d^2` and `e^2`.  This contradicts the required `d!=0` guard.
+Transport the guarded deletion using the common product data and reduce the
+frontier from 32 to 28; six `S0` and one forced-loop `S2` cell remain per
+row.

@@ -13276,3 +13276,23 @@ remaining product cells:  S0=6 and S2=2 in each common sign row
 Modal status:             no launch and no cost
 next route-deciding step: rational S2 forced-DF cell
 ```
+
+### Work-cycle burn-down: one-loop 442 S2 forced DF
+
+```text
+starting local pin:       a820697f (all-row S2 forced-EF exclusion)
+ending local theorem pin: current all-row S2 forced-DF exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / final rational S2 forced-record orbit
+result:                   PROVED guard-empty in all four common rows
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase deletion)
+residual system:          3 equations, 7 (d,e) monomials each
+certificates:             basis contains d^2,e^2 after 28 S-pairs
+deletion type:            guard saturation, not raw unit ideal
+accepted frontier:        28 cells, down from 32
+remaining product cells:  S0=6 and S2 forced-loop=1 per common sign row
+Modal status:             no launch and no cost
+next route-deciding step: S2 forced-loop quadratic extension
+```

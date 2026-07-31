@@ -11023,6 +11023,12 @@ required nonzero outside representative, so it is a guard-saturated
 deletion rather than a raw unit ideal.  The accepted frontier is 32: six
 `S0` and two `S2` cells per row.
 
+The forced-`DF` `S2` cell is retired in every common row.  Its three
+seven-term equations complete after 28 S-pairs with both `d^2=0` and
+`e^2=0` in each cubic component, contradicting the forced denominator guard
+`d!=0`.  This is guard-saturated, not raw-unit.  The accepted frontier is
+28: six `S0` and one forced-loop `S2` cell per row.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs
