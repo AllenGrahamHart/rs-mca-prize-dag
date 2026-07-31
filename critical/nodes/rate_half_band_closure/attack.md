@@ -2672,3 +2672,13 @@ this as the unique guarded invariant realization.  This does not establish
 a deployed survivor.  Continue with the deployed forced-mate plus
 `E_0,E_1,E_2` system, then require an explicit seven-fiber source placement
 before claiming any outside-`q` conclusion.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion`
+deletes that same canonical cell in the deployed characteristic.  After
+`e=-m/d`, `f=sd`, its residual sextic gives three 25-term equations over the
+rank-six common algebra.  The algebra splits into two irreducible cubic
+fields, and exact Buchberger reduction reaches `1` after 79 S-pairs in each.
+This is a raw unit ideal, so no guard saturation is needed.  Reduce the live
+outside product frontier from 80 to 79 cells; do not transport the deletion
+to another common sign row or forced record without a separate replay.

@@ -10960,6 +10960,14 @@ remain useful, but any deployed product survivor must be handed to the
 seven outside source-fiber/`q` assignment; product survival is not packet
 survival.
 
+The representative deployed `S1` forced-`DE` task is complete and should no
+longer be requested.  Sparse quotient multiplication gives three 25-term
+polynomials; splitting the common algebra into its two irreducible cubic
+fields gives the unit ideal after 79 S-pairs in each.  The accepted frontier
+is now 79 cells.  External workers may reuse the checked sparse builder and
+cubic-field solver on another canonical cell, but must pin its common signs,
+outside signs, and forced record explicitly.
+
 One local pilot has already been attempted and must not be interpreted as a
 survivor.  It used common signs `(+,+)`, `S1` signs
 `(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs

@@ -13095,3 +13095,24 @@ Modal status:             no launch and no cost
 next route-deciding step: solve the deployed forced-mate plus E_0,E_1,E_2
                           system, then compile seven-fiber q placement
 ```
+
+### Work-cycle burn-down: one-loop 442 first deployed cell
+
+```text
+starting local pin:       5efc1a29 (S1 F41 product route cut)
+ending local theorem pin: current deployed S1 forced-DE exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / first deployed canonical outside cell
+result:                   PROVED raw product-invariance ideal is the unit ideal
+DAG delta:                +1 PROVED background node, +4 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase deletion)
+sparse system:            3 equations, 25 (d,s) monomials each
+common decomposition:     two irreducible cubic fields of total rank 6
+certificate:              unit after 79 S-pairs in each component
+accepted frontier:        79 cells, down from 80
+resource path:            sparse quotient arithmetic; 17 seconds/component
+Modal status:             no launch and no cost
+next route-deciding step: replay one symmetry-adjacent canonical cell or
+                          prove a transport on common/outside sign rows
+```
