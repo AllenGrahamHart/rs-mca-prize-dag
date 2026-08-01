@@ -96,3 +96,21 @@ CONDITIONAL GO under the dossier's discipline, with sequencing:
 Reusable across the lane: the trap fixture, the exact-threshold rule, and
 the seam discipline all apply to any future C1 packet-owner extension
 (Brief 1's optional Phase 4) as well.
+
+> **[SUPERSEDED IN PART 2026-08-01 — Pro's adversarial self-audit,
+> verified on our side, RETIRES the Bellman/owner spine adopted above.]**
+> The 32-wise trap at the ADMISSIBLE prime q = 3*2^41+1 (33 moment-curve
+> forms, every proper subtower exactly iid, full product q > 2^21 via one
+> support-33 circuit) kills finite-depth/bounded-support/low-degree
+> routes outright; the four-wise trap, circuit explosion (C(33,12) =
+> 354,817,320), continuation amplification (2^31 from a probability-1/2
+> owner), and rank-descriptor collision retire the rest. Bellman is
+> demoted to a checker; ownership to bookkeeping; descriptor-collision
+> PASS is one-sided; the C2R2 14.53% margin is proxy evidence only. The
+> replacement currency is GLOBAL CROSS-JUNCTION NULLITY
+> (R = E q^delta, delta = sum local ranks - global rank — exact in the
+> linear prototype), with C2'' as a weighted nullity tail theorem and
+> fundamental-circuit owners numbering exactly delta. Conditional
+> exploratory GO for NUL0-NUL4 only; the 32-wise trap is a
+> required-to-trip mutation in every future compiler. See
+> `BRIEF2_ADVERSARIAL_AUDIT_SUMMARY.md`.
