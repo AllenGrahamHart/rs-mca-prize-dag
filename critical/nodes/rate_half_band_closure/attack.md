@@ -3227,3 +3227,15 @@ These four lanes have genuine rank-deficient multiplicative systems; do not
 infer their deletion from sampled exponent representatives.  Reduce the
 first outside squared-sum residual modulo those family ideals next.  Colored
 `eta/L^c` placement is deferred until a family survives that exact cut.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion`
+performs that exact cut.  Every isolated Smith assignment in the four
+residual lanes fails the first outside sum row.  The 192 collision-free
+rank-deficient product systems, each with two common q records, give 384
+polynomial ideals.  Appending at most the first three cleared squared-sum
+residuals makes every ideal the unit ideal over `F_p`; this excludes the
+free parameter over the algebraic closure, not only on sampled extension
+exponents.  Therefore the entire negative zero-loop `(4,3,3)` skeleton is
+closed.  Remove it from the coordinate frontier and return to the next live
+profile/parity sector.

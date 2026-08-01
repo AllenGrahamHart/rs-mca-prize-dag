@@ -15,6 +15,8 @@ import importlib.util
 import itertools
 from pathlib import Path
 
+import sympy as sp
+
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -308,6 +310,78 @@ def common_data(cell, record):
         for label, value in zip(labels, qd)
     ), "common q replay")
     return labels, (d0, d1, n0, n1), (a0, a1, a2)
+
+
+def outside_squared_sum_residuals(cell, record, name, form_index):
+    """Return cleared necessary Vieta residuals in F_p[D,E,F]."""
+    b, c = record[2], record[3]
+    products = tuple(PRODUCT.product_forms(name, b, c))[form_index]
+    edges = tuple(edge_forms(name, b, c))[form_index]
+    _, mobius, quadratic = common_data(cell, record)
+    d0, d1, n0, n1 = mobius
+    a0, a1, a2 = quadratic
+    residuals = []
+    for product, (left, right) in zip(products, edges):
+        label = sp.cancel((n0 - product * d0) / (product * d1 - n1))
+        denominator = d0 + d1 * label
+        numerator = a0 + a1 * label + a2 * label**2
+        residual = sp.together(
+            numerator**2 - label * (left + right)**2 * denominator**2
+        ).as_numer_denom()[0]
+        residuals.append(
+            sp.Poly(residual, *PRODUCT.VARIABLES, modulus=P).as_expr()
+        )
+    return tuple(residuals)
+
+
+def unit_ideal(equations):
+    basis = sp.groebner(equations, *PRODUCT.VARIABLES, modulus=P)
+    return len(basis.polys) == 1 and basis.polys[0].total_degree() == 0
+
+
+def family_vieta_cut(cell, packet_index, name, families=None):
+    """Prove or retain every collision-free multiplicative family."""
+    packets = PRODUCT.PACKETS if cell == 2 else BC_PRODUCT.PACKETS[cell]
+    b, c = packets[packet_index]
+    if families is None:
+        _, families = product_assignments(cell, packet_index, name)
+    unresolved = tuple(family for family in families if family[4] == "unresolved")
+    if not unresolved:
+        return {"tests": 0, "kill_rows": {}, "survivors": ()}
+    require(cell != 2, "old orbit has no unresolved product family")
+    mate, relation = BC_PRODUCT.involution(cell, b, c)
+    forms = tuple(PRODUCT.product_forms(name, b, c))
+    records = tuple(record for record in COMMON_RECORDS[cell]
+                    if record[2:4] == (b, c))
+    kill_rows = {}
+    survivors = []
+    tests = 0
+    for form_index, forced_index, matching_index, _, _ in unresolved:
+        equations = list(BC_PRODUCT.polynomial_equations(
+            forms[form_index], forced_index,
+            PRODUCT.MATCHINGS[matching_index], mate, relation,
+        ))
+        for record_index, record in enumerate(records):
+            tests += 1
+            routed = list(equations)
+            killed = None
+            for row_index, residual in enumerate(
+                outside_squared_sum_residuals(cell, record, name, form_index)
+            ):
+                routed.append(residual)
+                if unit_ideal(routed):
+                    killed = row_index
+                    kill_rows[killed] = kill_rows.get(killed, 0) + 1
+                    break
+            if killed is None:
+                survivors.append((
+                    form_index, forced_index, matching_index, record_index,
+                ))
+    return {
+        "tests": tests,
+        "kill_rows": kill_rows,
+        "survivors": tuple(survivors),
+    }
 
 
 def complete_vieta(cell, record, name, form_index, logs):
