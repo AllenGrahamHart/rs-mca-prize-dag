@@ -20356,6 +20356,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 433 complete-edge skeleton classifier",
+   "status": "PROVED",
+   "closure": "exact three-orbit classification of complete one-loop 433 outside edge skeletons",
+   "statement": "Every complete negative one-loop 433 packet has one of exactly twelve labeled outside edge skeletons, in three S_3-orbits. Representatives S0, S1, S2 respectively have no outside loop with split colored attachments, one loop on the uncolored pair with split attachments, or one loop with both colored attachments concentrated on another pair. The theorem gives the exact signed seven-product forms and eta/L^c location split.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion",
    "title": "KoalaBear m2 r4 coordinate negative one-loop 433 aligned loop-singleton exclusion",
    "status": "PROVED",
@@ -20393,6 +20413,26 @@
     "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/lineage.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/verify.py",
     "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 433 AB/AC complete-product exclusion",
+   "status": "PROVED",
+   "closure": "complete paired-product deletion of one-loop 433 matching orbit 3/6",
+   "statement": "The sixteen common packets in one-loop 433 cells 3 and 6 determine two deployed product involutions and forced singleton mates. Across every signed S0, S1, and S2 outside skeleton, every forced record, and all fifteen residual matchings, the resulting ideal in the three outside representatives is the unit ideal. Direct cell-3 and target-exchanged cell-6 replay checks 11760 raw ideals, so matching orbit 3/6 has no complete paired-product lift.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/verify_audit.py"
    ]
   },
   {
@@ -40386,6 +40426,26 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
    "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion",
    "kind": "req"
@@ -40412,6 +40472,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

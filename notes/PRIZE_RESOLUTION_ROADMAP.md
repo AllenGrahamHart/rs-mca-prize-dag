@@ -13594,3 +13594,24 @@ Modal status:             no launch and no cost
 next route-deciding step: outside-test these 16 packets; route common
                           orbits [4,5,7,8], [9,10,12,13], [11,14]
 ```
+
+### Work-cycle burn-down: one-loop 433 cells 3/6 complete exclusion
+
+```text
+starting local pin:       7413aaef (cells 3/6 common finite classifier)
+ending local theorem pin: current complete-product exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / one-loop 433 complete outside lift
+result:                   PROVED matching orbit [3,6] is empty
+DAG delta:                +2 PROVED background nodes, +6 req, +2 ev edges
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact packet-subcase deletion)
+outside skeletons:        12 labeled solutions / 3 orbits S0,S1,S2
+common target tuples:     2; forced mates 673740240,443602659
+product cells:            3360 + 6720 + 1680 = 11760 unit ideals
+independent replay:       reverse variable order, direct cell-6 transport
+outside q required:       no
+Modal status:             no launch and no cost
+next route-deciding step: common orbits [4,5,7,8], [9,10,12,13],
+                          and [11,14]
+```

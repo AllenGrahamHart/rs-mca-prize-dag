@@ -3035,3 +3035,26 @@ packets.  All sixteen satisfy the original common equations and guards.
 They now require exact outside completion or exclusion; do not delete this
 orbit at the common stage.  The other live common orbits are
 `[4,5,7,8]`, `[9,10,12,13]`, and `[11,14]`.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier`
+reduces every complete one-loop 433 outside graph to three exact orbits:
+loop-free split-colored `S0`, split-colored `S1` with a loop on the
+uncolored pair, and concentrated-colored `S2` with one outside loop.  The
+bounded degree ledger has twelve labeled solutions in orbit sizes `3,3,6`.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion`
+then closes cells `[3,6]`.  Their sixteen common packets have only two
+target-product tuples.  The common pairs determine the product involution
+and force singleton mates `673740240` and `443602659`.  Across both cells,
+all outside signs, seven forced-record choices, and fifteen residual
+matchings, exact Groebner reduction gives
+
+```text
+S0: 3360 unit ideals, S1: 6720, S2: 1680; total 11760.
+```
+
+The reverse variable order reproduces the census.  No outside q equations
+are needed.  Delete `[3,6]`; the remaining live one-loop 433 common orbits
+are `[4,5,7,8]`, `[9,10,12,13]`, and `[11,14]`.
