@@ -11263,6 +11263,16 @@ quotient-compatible generic `std` still exhausted 190 seconds
 (`ap-uG1IwuZNXrj32LwEaDaO5b`).  The manually target-free presentation is
 worse: cut sizes are 769, 78,105, 43,634, and 58,964 terms
 (`ap-XvpdSEjqpJgkteo3AudUPb`).
+The `BE` endpoint polynomial now factors exactly as a guarded unit times
+`(z-t)R_b(z)` with `degree_z R_b=3`, total degree 14, and 120 terms.  The
+known root `z=t` is forbidden for the outside edge.  Replacing the colored
+product row by `R_b` did not make the combined generic basis finish
+(`ap-OEAvKJxyhQn0ulMiNUF8Yq`), so use the cubic only after signed-pair
+decomposition.
+The signed pair by itself has common-quotient dimension five, basis size
+twelve, and only four 96/240-term generators, yet generic `std` still timed
+out (`ap-cGvpVPiwsv1wiGLv3z4FHK`).  This rules out “drop the colored row and
+retry the same algorithm” as the requested contribution.
 
 Requested contribution:
 

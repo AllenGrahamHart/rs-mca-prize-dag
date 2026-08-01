@@ -3442,4 +3442,10 @@ bounded Modal caps.  Compute the generic common-curve basis first, reduce
 the signed pair as a regular chain before appending the colored third edge.
 The saturated qring has basis size twelve; its six sparse unsquared
 generators have only 96/240 terms but generic `std` still hit 190 seconds.
+The colored endpoint polynomial factors exactly as guarded unit times
+`(z-t)R_b(z)`, where `R_b` is cubic in `z` (total degree 14, 120 terms);
+outside/common distinctness removes `z=t`.
+Even the isolated four-row `DE+/DE-` subsystem hit the 190-second generic
+`std` cap (`ap-cGvpVPiwsv1wiGLv3z4FHK`), so request a regular-chain or
+subresultant component ledger rather than another basis.
 Do not retry expanded squared-sum, six-record, or larger generic bases.

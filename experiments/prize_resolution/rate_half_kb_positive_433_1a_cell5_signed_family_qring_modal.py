@@ -60,17 +60,51 @@ def test_family(payload):
     beta = -t * (1+b) * sum(
         a2[index] * t**(2*index) for index in range(3)
     )
+    source = sp.symbols("z2")
+    endpoint_quotient = None
+    if family == "E":
+        source_label = source**2
+        source_denominator = sum(
+            a2[index] * source_label**index for index in range(3)
+        )
+        source_numerator = sum(
+            a0[index] * source_label**index for index in range(3)
+        )
+        source_q = source*beta*(source_label-1)
+        endpoint = sp.expand(
+            delta*(b**2*source_denominator+source_numerator)+b*source_q
+        )
+        endpoint_quotient, endpoint_remainder = sp.div(
+            sp.Poly(endpoint, source, *base_variables, modulus=PRIME),
+            sp.Poly(
+                2*b*t*(t**2-1)*(source-t),
+                source, *base_variables, modulus=PRIME,
+            ),
+        )
+        if not endpoint_remainder.is_zero:
+            raise RuntimeError("known BE endpoint factor")
+        endpoint_quotient = endpoint_quotient.monic().as_expr()
 
     def singular(expression):
         return str(sp.Poly(
             sp.expand(expression), *base_variables, modulus=PRIME
         ).as_expr()).replace("**", "^")
 
+    def singular_source(expression):
+        return str(sp.Poly(
+            sp.expand(expression), source, *base_variables, modulus=PRIME
+        ).as_expr()).replace("**", "^")
+
     scale = "b" if family == "E" else "c"
-    quotient_variables = (
-        "z0,z1,z2,y,v,t,r,c,b" if presentation == "unsquared"
-        else "z0,z1,z2,t,r,c,b"
-    )
+    if presentation == "pair":
+        quotient_variables = "z0,z1,y,v,t,r,c,b"
+        source_count = 2
+    elif presentation in {"unsquared", "endpoint"}:
+        quotient_variables = "z0,z1,z2,y,v,t,r,c,b"
+        source_count = 3
+    else:
+        quotient_variables = "z0,z1,z2,t,r,c,b"
+        source_count = 3
     program = [
         f"ring L={PRIME},(s,t,r,c,b),(dp(1),dp(4));",
         "option(redSB);",
@@ -90,19 +124,38 @@ def test_family(payload):
         f"poly delta={singular(delta)};",
         f"poly beta={singular(beta)};",
     ]
-    for index in range(3):
+    for index in range(source_count):
         program.extend((
             f"poly D{index}=d0+d1*z{index}^2+d2*z{index}^4;",
             f"poly N{index}=n0+n1*z{index}^2+n2*z{index}^4;",
             f"poly Q{index}=z{index}*beta*(z{index}^2-1);",
         ))
-    if presentation == "unsquared":
+    if presentation == "pair":
+        cuts = (
+            "N0-y*v*D0",
+            "Q0+(y+v)*delta*D0",
+            "N1+y*v*D1",
+            "Q1+(y-v)*delta*D1",
+        )
+    elif presentation == "unsquared":
         cuts = (
             "N0-y*v*D0",
             "Q0+(y+v)*delta*D0",
             "N1+y*v*D1",
             "Q1+(y-v)*delta*D1",
             f"N2-{scale}*v*D2",
+            f"Q2+({scale}+v)*delta*D2",
+        )
+    elif presentation == "endpoint":
+        if endpoint_quotient is None:
+            raise RuntimeError("endpoint presentation is implemented for E")
+        program.append(f"poly endpoint={singular_source(endpoint_quotient)};")
+        cuts = (
+            "N0-y*v*D0",
+            "Q0+(y+v)*delta*D0",
+            "N1+y*v*D1",
+            "Q1+(y-v)*delta*D1",
+            "endpoint",
             f"Q2+({scale}+v)*delta*D2",
         )
     else:
@@ -163,12 +216,16 @@ def test_family(payload):
 
 
 @app.local_entrypoint()
-def main(families: str = "E,F", presentation: str = "unsquared"):
+def main(families: str = "E,F", presentation: str = "endpoint"):
     selected = tuple(value for value in families.split(",") if value)
     if not selected or not set(selected) <= {"E", "F"}:
         raise ValueError("families must contain E and/or F")
-    if presentation not in {"unsquared", "target-free"}:
-        raise ValueError("presentation must be unsquared or target-free")
+    if presentation not in {"pair", "endpoint", "unsquared", "target-free"}:
+        raise ValueError(
+            "presentation must be pair, endpoint, unsquared, or target-free"
+        )
+    if presentation == "endpoint" and "F" in selected:
+        raise ValueError("endpoint presentation is currently implemented for E")
     print(json.dumps({
         "scope": (
             "fixed cell-5/sign-row saturated common-qring pilot; no outside "

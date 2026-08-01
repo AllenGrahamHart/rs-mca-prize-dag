@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
-"""Verify the target-free unsquared signed-family identities."""
+"""Verify target-free signed-family identities and the BE endpoint factor."""
+
+import importlib.util
+from pathlib import Path
 
 import sympy as sp
+
+
+DIRECTORY = Path(__file__).resolve().parent
+SPARSE = DIRECTORY / "rate_half_kb_positive_433_1a_cell5_sparse_edge_probe.py"
 
 
 def require(condition, message):
@@ -60,11 +67,44 @@ def verify():
     require(all(sp.cancel(left-right) == 0
                 for left, right in zip(residuals, cleared_residuals)),
             "converse reconstruction identities")
+    endpoint = verify_be_endpoint_factor()
     return {
         "cut_count": len(cuts),
         "source_slot_count": 3,
         "target_variables_eliminated": 2,
         "families": ("DE+/DE-/BE", "DF+/DF-/CF"),
+        "be_endpoint": endpoint,
+    }
+
+
+def verify_be_endpoint_factor():
+    specification = importlib.util.spec_from_file_location("sparse", SPARSE)
+    sparse = importlib.util.module_from_spec(specification)
+    specification.loader.exec_module(sparse)
+    a2, a0, _, _, _ = sparse.sparse_product_kernel()
+    b, c, r, t, z = sp.symbols("b c r t z")
+
+    def evaluate(coefficients, value):
+        return sum(coefficients[index]*value**index for index in range(3))
+
+    delta = t**2*(t**2-1)
+    beta = -t*(1+b)*evaluate(a2, t**2)
+    endpoint = sp.expand(
+        delta*(b**2*evaluate(a2, z**2)+evaluate(a0, z**2))
+        + b*z*beta*(z**2-1)
+    )
+    variables = (z, t, r, c, b)
+    quotient, remainder = sp.div(
+        sp.Poly(endpoint, *variables, modulus=sparse.PRIME),
+        sp.Poly(2*b*t*(t**2-1)*(z-t), *variables, modulus=sparse.PRIME),
+    )
+    require(remainder.is_zero, "BE endpoint exact factor")
+    quotient = quotient.monic()
+    require(quotient.degree(z) == 3, "BE endpoint cubic")
+    return {
+        "source_degree": quotient.degree(z),
+        "total_degree": quotient.total_degree(),
+        "terms": len(quotient.terms()),
     }
 
 
@@ -73,7 +113,8 @@ def main():
     print(
         "RATE_HALF_KB_POSITIVE_433_1A_SIGNED_FAMILY_TARGET_FREE_PASS "
         f"cuts={result['cut_count']} slots={result['source_slot_count']} "
-        f"targets_eliminated={result['target_variables_eliminated']}"
+        f"targets_eliminated={result['target_variables_eliminated']} "
+        f"be_cubic_terms={result['be_endpoint']['terms']}"
     )
 
 

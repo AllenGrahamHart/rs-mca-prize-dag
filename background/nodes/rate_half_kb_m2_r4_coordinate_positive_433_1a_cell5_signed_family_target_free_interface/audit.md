@@ -11,3 +11,6 @@
 6. Direct, scalar-resultant, product-coordinate, and target-free Groebner
    pilots all hit bounded Modal caps; do not retry them without staged common-
    curve normal forms.
+7. The endpoint cubic is exact only after the guarded factor
+   `2bt(t^2-1)(z-t)` is removed.  The outside/common source-distinctness guard
+   justifies removing `z-t`; it is not inferred from the factorization.

@@ -52,6 +52,29 @@ Q_0^2 D_1^2-Q_1^2 D_0^2
 The same theorem holds for `DF+`, `DF-`, `CF` after replacing `(d,e,b)`
 by `(d,f,c)` and replacing `b` by `c` in `(KBSF-6)--(KBSF-7)`.
 
+There is an additional exact simplification for the `BE` row.  Define its
+endpoint polynomial
+
+```text
+E_b(z)=Delta[b^2 D(z^2)+N(z^2)]+b Q(z).          (KBSF-8)
+```
+
+In this cell it factors over the deployed field as
+
+```text
+E_b(z)=2bt(t^2-1)(z-t) R_b(z),                   (KBSF-9)
+```
+
+where `R_b` has degree three in `z`, total degree fourteen, and 120 terms.
+The root `z=t` is the already-used common `AB+1` incidence.  Therefore an
+outside `BE` root `z_2`, guarded distinct from `t`, satisfies its product
+and unsquared-sum rows with target root `e` if and only if
+
+```text
+R_b(z_2)=0,
+Q_2+(b+e) Delta D_2=0.                           (KBSF-10)
+```
+
 This removes both target variables while preserving the unsquared Vieta
 signs.  It does not prove the seven-variable guarded system empty, impose
 source-slot distinctness, delete cell 5 or `433-1a -> O0b`, close K3, a

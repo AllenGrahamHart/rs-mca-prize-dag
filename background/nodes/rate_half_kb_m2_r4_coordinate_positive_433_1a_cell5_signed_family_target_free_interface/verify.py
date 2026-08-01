@@ -34,6 +34,11 @@ def main():
     require(result["cut_count"] == 4, "cut count")
     require(result["source_slot_count"] == 3, "source slots")
     require(result["target_variables_eliminated"] == 2, "target variables")
+    require(result["be_endpoint"] == {
+        "source_degree": 3,
+        "total_degree": 14,
+        "terms": 120,
+    }, "BE endpoint factor")
 
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
@@ -46,7 +51,7 @@ def main():
             "consumer edge")
     print(
         "RATE_HALF_KB_POSITIVE_433_1A_CELL5_SIGNED_FAMILY_VERIFY_PASS "
-        "cuts=4 families=2 route=open"
+        "cuts=4 families=2 be_cubic=120 route=open"
     )
 
 

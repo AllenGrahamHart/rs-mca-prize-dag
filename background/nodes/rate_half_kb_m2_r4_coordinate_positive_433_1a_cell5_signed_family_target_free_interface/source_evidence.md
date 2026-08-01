@@ -15,3 +15,11 @@
   source and two target variables.  Its six unsquared generators have
   `(degree,terms)=(15,96),(18,240)` repeated three times; quotient-compatible
   `std` timed out at 190 seconds in `ap-uG1IwuZNXrj32LwEaDaO5b`.
+- Replacing the colored product row by the exact endpoint cubic gives a
+  degree-14, 120-term generator but the combined basis still hit the same
+  cap in `ap-OEAvKJxyhQn0ulMiNUF8Yq`; this is an algorithm boundary, not a
+  survivor.
+- Isolating only `DE+` and `DE-` leaves common-quotient dimension five,
+  basis size twelve, and four 96/240-term unsquared generators.  Generic
+  `std` still hit 190 seconds in `ap-cGvpVPiwsv1wiGLv3z4FHK`; the next
+  required method is component decomposition, not a longer basis run.

@@ -14590,11 +14590,17 @@ staged quotient pilot:    saturated common qring dim 6 / basis 12 after
                           degree 15 / 96 terms, unsquared sum generators
                           degree 18 / 240 terms; std hit 190-second cap
 staged Modal app:         ap-uG1IwuZNXrj32LwEaDaO5b
+BE endpoint factor:       unit * (z-t) * R_b(z), degree_z R_b=3,
+                          total degree 14, 120 terms; z=t is common
+endpoint qring app:       ap-OEAvKJxyhQn0ulMiNUF8Yq (combined std timeout)
+signed-pair-only app:     ap-cGvpVPiwsv1wiGLv3z4FHK; quotient dim 5,
+                          basis 12, four 96/240-term rows, std timeout
 compute decision:         no larger fleet and no memory escalation
 nonclaim:                 neither signed-family system is proved empty;
                           no cell, route, K3 row, or Prize close
 next route-deciding step: triangularize/factor the signed DE pair first,
-                          then append BE; avoid another generic basis
+                          then append only R_b and the BE sum row; avoid
+                          another generic basis
 ```
 
 ### Upstream export: K3 positive coordinate reduction
