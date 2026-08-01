@@ -97,11 +97,12 @@ standing item #260's queued jobs re-screen under this rule.)
 
 ### Current operational cap (2026-07-22)
 
-The maintainer has now imposed a concurrent spend cap because only about `$3`
-of Modal credit remains. A self-authorized launch must satisfy every rule
-above **and** have a conservative total cost below `$1`. Thus the operative
-test is the intersection of the five-minute and sub-`$1` ceilings, not either
-ceiling alone. Runs costing tens or hundreds of dollars are out of scope.
+The monthly Modal allowance has refreshed to about `$30`. A self-authorized
+launch must still satisfy every rule above **and** have a conservative total
+cost below `$1` unless the maintainer explicitly approves more. Thus the
+operative test remains the intersection of the five-minute and sub-`$1`
+ceilings, not either ceiling alone. Runs costing tens or hundreds of dollars
+are out of scope.
 Valuable runs exceeding either ceiling, or lacking a reliable cost estimate,
 must be recorded here and copied into the corresponding upstream PR as
 requests for contributors with available compute.
@@ -11291,3 +11292,34 @@ Do not increase the generic standard-basis cap, run both families in
 parallel, expand the four target-free cuts ambiently, or fan out over the
 267 matching representatives.  The desired output is a component ledger,
 not a longer timeout.
+
+### 2026-08-01 finite-algebra refinement
+
+The common compiler now accepts an explicit `(prime,iota)` and recomputes
+all modular normalization at that prime.  This repairs an invalid discovery
+shortcut that reduced polynomials already made monic modulo the deployed
+prime.  The only banked small-field results below use a genuine square root
+of `-1` in the probe field.
+
+At `p=65521`, `iota=24297`, the saturated generic cell-5 fiber over
+`F_p(t)` has dimension zero, basis size six, vector dimension four, and one
+minimal component (`ap-9rQUOuge1TNoa1ufF3u9MR`).  FGLM gives a three-element
+lex basis whose primitive `b` polynomial is a reciprocal quartic.  Direct
+coefficient reversal and the lifted substitution `u=b+b^{-1}` independently
+verify its descent to a quadratic (`ap-KCxeFPbJGAalI2aKR9nxem`).
+
+After eliminating `r,c`, the signed `DE+`,`DE-` pair is one reciprocal
+quartic plus four cuts of `(degree,terms)=(9,24),(8,32),(9,24),(8,32)`.
+A four-minute `slimgb` pilot still timed out
+(`ap-F0mNsrUqkAmnr1ADk2V20i`).  Do not rerun that basis with a larger cap.
+Instead, derive the reciprocal quartic and trace-quadratic directly over the
+deployed chart, and compute subresultants or norms after the quadratic trace
+descent.  Only then append the residual `BE` cubic and sum row.
+
+Singular 4.3.1 cannot lift this function-field workflow directly to the
+deployed characteristic: its backend rejects characteristics above `2^29`
+after the 12-element affine basis is computed
+(`ap-JwQiY0HAW4TvF01vmVmtPj`).  A contributed implementation must use a
+different exact finite-algebra backend or symbolic identities checked in the
+deployed polynomial ring.  The `F_65521` result is evidence and a shape
+compiler, not a deployed-field theorem.

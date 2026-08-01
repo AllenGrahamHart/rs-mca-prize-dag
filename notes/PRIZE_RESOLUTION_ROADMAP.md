@@ -14603,6 +14603,38 @@ next route-deciding step: triangularize/factor the signed DE pair first,
                           another generic basis
 ```
 
+### Work-cycle evidence: cell-5 reciprocal finite algebra
+
+```text
+compiler repair:          common Vieta compiler now accepts explicit
+                          (prime,iota); cross-prime reduction of polynomials
+                          already normalized modulo the deployed prime is
+                          forbidden
+valid probe field:        F_65521, iota=24297, iota^2=-1
+generic common fiber:     dimension 0, basis 6, vector dimension 4,
+                          one minimal component
+lex finite algebra:       three generators; primitive b polynomial is a
+                          reciprocal quartic
+descent certificate:      coefficient reversal and lifted u=b+b^-1
+                          substitution both reduce the quartic to a
+                          quadratic trace equation
+exact Modal apps:         ap-9rQUOuge1TNoa1ufF3u9MR,
+                          ap-KCxeFPbJGAalI2aKR9nxem
+finite signed pair:       reciprocal quartic plus cuts
+                          (degree,terms)=
+                          (9,24),(8,32),(9,24),(8,32)
+bounded endpoint:         slimgb timed out at 240 seconds;
+                          ap-F0mNsrUqkAmnr1ADk2V20i
+deployed backend fence:   affine common basis 12 computes, but Singular
+                          function fields reject p>2^29;
+                          ap-JwQiY0HAW4TvF01vmVmtPj
+nonclaim:                 probe-field shape only; no deployed signed-pair,
+                          colored edge, route, row, or Prize close
+next route-deciding step: derive the reciprocal trace quadratic over the
+                          deployed chart, take subresultants/norms there,
+                          then append only R_b and the BE sum row
+```
+
 ### Upstream export: K3 positive coordinate reduction
 
 ```text

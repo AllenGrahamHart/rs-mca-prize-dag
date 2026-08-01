@@ -3449,3 +3449,19 @@ Even the isolated four-row `DE+/DE-` subsystem hit the 190-second generic
 `std` cap (`ap-cGvpVPiwsv1wiGLv3z4FHK`), so request a regular-chain or
 subresultant component ledger rather than another basis.
 Do not retry expanded squared-sum, six-record, or larger generic bases.
+
+The first finite-algebra implementation sharpens this request.  The common
+compiler now recomputes at an explicit `(prime,iota)`; reducing equations
+already normalized modulo the deployed prime is forbidden.  On the valid
+probe field `F_65521`, `iota=24297`, the saturated generic fiber is one
+degree-four component.  Its three-element lex basis has a reciprocal quartic
+in `b`, verified both by coefficient reversal and by a quadratic lift through
+`b+b^{-1}`.  Eliminating `r,c` leaves four signed-pair cuts with
+`(degree,terms)=(9,24),(8,32),(9,24),(8,32)`, but `slimgb` still hit a
+240-second cap.  This is probe-field evidence only.
+
+Next prove the reciprocal trace descent in the deployed chart and compute
+factor-by-factor subresultants or norms there, then append the residual `BE`
+cubic and sum row.  Singular's function-field backend cannot be used directly
+at `p=2130706433` because it rejects characteristics above `2^29`; use
+symbolic identities or a different exact finite-algebra backend.

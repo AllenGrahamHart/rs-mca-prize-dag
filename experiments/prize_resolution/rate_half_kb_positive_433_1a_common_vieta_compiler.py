@@ -60,17 +60,17 @@ def cell_orbits():
     return tuple(orbits)
 
 
-def primitive(expression, variables):
-    polynomial = sp.Poly(sp.expand(expression), *variables, modulus=PRIME)
+def primitive(expression, variables, prime=PRIME):
+    polynomial = sp.Poly(sp.expand(expression), *variables, modulus=prime)
     if polynomial.is_zero:
         return sp.Integer(0)
     return polynomial.monic().as_expr()
 
 
-def strip_factors(expression, factors, variables):
-    polynomial = sp.Poly(expression, *variables, modulus=PRIME)
+def strip_factors(expression, factors, variables, prime=PRIME):
+    polynomial = sp.Poly(expression, *variables, modulus=prime)
     for factor in factors:
-        divisor = sp.Poly(factor, *variables, modulus=PRIME)
+        divisor = sp.Poly(factor, *variables, modulus=prime)
         if divisor.total_degree() == 0:
             continue
         while True:
@@ -83,15 +83,22 @@ def strip_factors(expression, factors, variables):
     return polynomial.monic().as_expr()
 
 
-def compile_cell(cell_index, epsilon_1, epsilon_2, strip_fast=False):
+def compile_cell(
+    cell_index,
+    epsilon_1,
+    epsilon_2,
+    strip_fast=False,
+    prime=PRIME,
+    iota=IOTA,
+):
     b, c, r, t = sp.symbols("b c r t")
     variables = (t, r, c, b)
     singleton, matching = cells()[cell_index]
     roots = [None] * 5
     roots[matching[0][0]] = sp.Integer(1)
-    roots[matching[0][1]] = epsilon_1 * IOTA
+    roots[matching[0][1]] = epsilon_1 * iota
     roots[matching[1][0]] = r
-    roots[matching[1][1]] = epsilon_2 * IOTA * r
+    roots[matching[1][1]] = epsilon_2 * iota * r
     roots[singleton] = t
     labels = tuple(sp.expand(root**2) for root in roots)
     products = (-c**2, b, b, -b, c)
@@ -114,7 +121,9 @@ def compile_cell(cell_index, epsilon_1, epsilon_2, strip_fast=False):
     equations = []
     for left, right in itertools.combinations(range(1, 5), 2):
         matrix = sp.Matrix.vstack(*base, sum_rows[left], sum_rows[right])
-        equations.append(primitive(matrix.det(method="domain-ge"), variables))
+        equations.append(primitive(
+            matrix.det(method="domain-ge"), variables, prime=prime
+        ))
     if strip_fast:
         source_guards = [
             labels[left] - labels[right]
@@ -124,7 +133,12 @@ def compile_cell(cell_index, epsilon_1, epsilon_2, strip_fast=False):
             r, t, b, c, b - 1, b + 1, c - 1, c + 1, b - c, b + c,
         ]
         equations = [
-            strip_factors(equation, [*target_guards, *source_guards], variables)
+            strip_factors(
+                equation,
+                [*target_guards, *source_guards],
+                variables,
+                prime=prime,
+            )
             for equation in equations
         ]
     return variables, tuple(equations), {

@@ -23,3 +23,18 @@
   basis size twelve, and four 96/240-term unsquared generators.  Generic
   `std` still hit 190 seconds in `ap-cGvpVPiwsv1wiGLv3z4FHK`; the next
   required method is component decomposition, not a longer basis run.
+- `experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_signed_family_decomposition_modal.py`
+  recomputes the chart at the selected prime instead of reducing polynomials
+  already normalized modulo the deployed prime.  Over `F_65521` it certifies
+  one degree-four generic component (`ap-9rQUOuge1TNoa1ufF3u9MR`) and a
+  reciprocal quartic with an exact quadratic trace lift
+  (`ap-KCxeFPbJGAalI2aKR9nxem`).
+- The resulting finite signed-pair system has cut ledgers
+  `(9,24),(8,32),(9,24),(8,32)` but its `slimgb` computation timed out at
+  240 seconds in `ap-F0mNsrUqkAmnr1ADk2V20i`.  The sealed telemetry is
+  `experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_signed_family_decomposition_result.json`.
+  These statements are exact over the probe field only.
+- A deployed-characteristic replay reaches the 12-element affine common
+  basis, then Singular rejects the function-field remap because
+  `2130706433 > 2^29` (`ap-JwQiY0HAW4TvF01vmVmtPj`).  This is a backend
+  limit, not algebraic evidence.

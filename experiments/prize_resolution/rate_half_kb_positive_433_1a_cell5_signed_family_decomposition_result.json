@@ -1,0 +1,39 @@
+{
+  "compiler": "rate_half_kb_positive_433_1a_cell5_signed_family_decomposition_modal.py",
+  "deployed_backend_boundary": {
+    "affine_basis_size": 12,
+    "app_id": "ap-JwQiY0HAW4TvF01vmVmtPj",
+    "reason": "Singular 4.3.1 function fields reject characteristic above 2^29",
+    "status": "UNSUPPORTED_AFTER_AFFINE_BASIS"
+  },
+  "finite_pair": {
+    "app_id": "ap-F0mNsrUqkAmnr1ADk2V20i",
+    "cut_degree_terms": [[9, 24], [8, 32], [9, 24], [8, 32]],
+    "method": "slimgb",
+    "status": "TIMEOUT",
+    "timeout_seconds": 240
+  },
+  "generic_component": {
+    "app_id": "ap-9rQUOuge1TNoa1ufF3u9MR",
+    "basis_size": 6,
+    "component_count": 1,
+    "dimension": 0,
+    "vector_dimension": 4
+  },
+  "lex_finite_algebra": {
+    "app_id": "ap-KCxeFPbJGAalI2aKR9nxem",
+    "basis_size": 3,
+    "primitive_degree": 4,
+    "primitive_variable": "b",
+    "quadratic_trace_lift_check": true,
+    "reciprocal_check": true,
+    "vector_dimension": 4
+  },
+  "probe_field": {
+    "iota": 24297,
+    "iota_square": -1,
+    "prime": 65521
+  },
+  "scope": "Exact evidence over F_65521(t) only; no deployed-field, signed-pair emptiness, colored-edge, route, row, or Prize conclusion.",
+  "schema": "rate-half-kb-positive-433-1a-cell5-finite-algebra-v1"
+}
