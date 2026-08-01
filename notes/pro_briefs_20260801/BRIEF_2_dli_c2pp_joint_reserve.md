@@ -76,6 +76,25 @@ i.e., is `2^21` secretly `sum of a short explicit series` rather than an
 empirical headroom? The measured margins (first-round audit) are far from
 tight, which is consistent with a short-series explanation.
 
+> **[CORRECTION 2026-08-01 — three updates from the Pro dossier's stress
+> test, audited and accepted on our side.]** (1) Route 3 (row-family
+> finiteness) is DEAD — the official row family is universal
+> (`official_row_primes_pinning`); finiteness lives in witness types,
+> never in primes. (2) Route 1 is SHARPENED: the type enumeration cannot
+> be the observed theta=2 k-classes (accident status flips under harmless
+> regrouping — exact 51/50 fixture — and the classifier branch runs in
+> binary64, confirmed at `m1_dli_m1_tower_census_modal.py:571`); it must
+> be a canonical owner grammar on concrete paths, stable under arbitrary
+> prefix tilt. (3) The sharpest question above is REFINED to its sound
+> form: exact tilted increments `g_m = Z_(m+1)/Z_m` + a Bellman
+> supersolution — no cancellation entitlement without an exact sign
+> identity, and NO pairwise/adjacent/one-junction inference: 33 pairwise-
+> exactly-independent mean-one factors can have 33-fold product 2^22
+> (the F_2^11 trap, verified exhaustively). Also: C2'' has survived TWO
+> recorded rounds (M1 + C2R2 2026-07-13), not one. See
+> `responses/BRIEF2_PRO_DOSSIER.md` and
+> `responses/BRIEF2_DOSSIER_AUDIT.md`.
+
 ## Guards
 
 - The absolute-weight, unique-first-ownership accounting is normative;
