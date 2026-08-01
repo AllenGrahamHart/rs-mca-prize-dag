@@ -3314,3 +3314,16 @@ forbidden common root and is not a deletion or survival certificate.  The
 next closure attempt should eliminate these seven labels lane by lane,
 starting with a bounded small-prime probe and escalating only if it reveals
 a low-degree exact route.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler`
+removes each outside quotient witness explicitly.  On the generic product
+branch, one edge gives a 22-term degree-six resultant.  The branch where
+the quadratic product coefficient vanishes is not discarded: it is an
+exact linear-root degree-five cut, while the further constant branch is
+guard-impossible.  Complete `F_13` and `F_17` probes found no seven-record
+lane survivors, and a 45-second near-complete `F_19` probe found none, but
+these are heuristic route evidence only.  Use the observed maximum of two
+realized edges in 442 and four in 433 at `F_17` to search for a small
+unit-ideal subset of eliminants.  Every resultant candidate must still be
+back-substituted through the forbidden-root saturation.

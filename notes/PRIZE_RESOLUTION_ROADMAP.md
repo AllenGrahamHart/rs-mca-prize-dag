@@ -13999,3 +13999,27 @@ next route-deciding step: bounded small-prime elimination probe on all
                           eight lanes; promote only a reproducible exact
                           low-degree cut or a fully saturated deletion
 ```
+
+### Work-cycle burn-down: positive three-loop outside-edge eliminant
+
+```text
+starting local pin:       a84d61b7 (signed outside-Vieta atlas)
+ending local theorem pin: current outside-edge eliminant compiler
+canonical prize pin:      026d8be7
+node/workboard attacked:  K3 / positive three-loop quotient elimination
+result:                   PROVED generic and degree-drop edge eliminants
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; positive subcase compiler)
+generic cut:              22 terms, total coefficient degree 6
+linear degree drop:       exact cleared evaluation, degree 5
+constant degree drop:     deleted by loop-pair and leading guards
+small-prime evidence:     F13 0/82,368; F17 0/2,897,280;
+                          F19 0/9,048,960 partial target assignments
+evidence fence:           no small-prime result promoted to characteristic
+                          zero or official-row emptiness
+Modal status:             no launch and no cost
+next route-deciding step: seek a saturated unit-ideal certificate from a
+                          small subset of the seven target-edge eliminants,
+                          treating 442 and 433 separately
+```
