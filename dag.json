@@ -20774,6 +20774,27 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
+   "title": "KoalaBear m2 r4 positive 433-1a/O0b signed-edge atlas",
+   "status": "PROVED",
+   "closure": "exact two-lane target-sign gauge atlas for the saturated-defect 433-1a to O0b residual route",
+   "statement": "The residual route 433-1a to O0b spends all defect three. Its multiplicity-three common pair splits 2+1 and its outside multiplicity-two pairs split 1+1. Target-sign gauge leaves exactly one five-cycle sign invariant, hence two lanes with twelve explicit target product and squared-sum records each. Source quotient placement and algebraic feasibility remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_o0b_signed_edge_atlas.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
    "title": "KoalaBear m2 r4 coordinate negative one-loop 433 complete-edge skeleton classifier",
    "status": "PROVED",
@@ -41265,6 +41286,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

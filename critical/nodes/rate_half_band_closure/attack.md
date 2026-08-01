@@ -3362,3 +3362,16 @@ thirteen representative routes remain.  Compile algebra only for the
 printed route table, beginning with the unique saturated-defect route
 `433-1a -> O0b`.  Do not interpret route survival as realizability or the
 thirteen representatives as a labeled-packet count.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas`
+compiles that first route's target data.  The common loop and the `2+1`
+split of its multiplicity-three `AB` pair spend all defect three, forcing
+the outside `DE` and `DF` multiplicity-two pairs to split between opposite
+signed types.  After normalizing the deficient colored attachments to
+`B-E,C-F`, the remaining active signs form the five-cycle
+`A-B-E-F-C-A`.  Target-sign gauge leaves only its product
+`sigma in {+1,-1}`.  Hence there are two lanes with twelve explicit target
+product/squared-sum records each.  The next task is source-quotient
+placement and the corresponding complete positive `24 x 8` Vieta kernels,
+not another unconstrained sign search.

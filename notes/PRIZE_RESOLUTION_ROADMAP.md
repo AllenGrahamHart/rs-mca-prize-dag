@@ -14142,3 +14142,39 @@ next route-deciding step: compile complete positive Vieta/product rows for
                           433-1a -> O0b, then use bounded finite-field
                           probes only if they distinguish an exact route
 ```
+
+### Work-cycle compilation: positive 433-1a/O0b signed atlas
+
+```text
+starting local pin:       fbf51c33 (residual loop workboard)
+ending local theorem pin: current saturated-route signed atlas
+canonical prize pin:      52b59cba (Fable changes are DLI/C1-disjoint)
+node/workboard attacked:  K3 / positive coordinate 433-1a -> O0b
+result:                   PROVED exact two-lane target-sign atlas
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase compilation)
+defect ledger:            loop 1 + AB split debit 2 = full budget 3
+forced signed pairs:      AB 2+1; DE 1+1; DF 1+1
+gauge quotient:           32 raw signs -> 2 orbits of size 16
+lane invariant:           product on A-B-E-F-C-A
+compiled target rows:     12 product/squared-sum records per lane
+local compute discipline: finite sign action below one second/tiny
+Modal status:             no launch and no cost
+next route-deciding step: classify source quotient placements, then build
+                          the complete positive 24 x 8 Vieta kernels
+```
+
+### Work-cycle outbound custody: global positive loop cap
+
+```text
+outbound PR:              https://github.com/przchojecki/rs-mca/pull/1143
+outbound exact head:      4569b506d7c86b3b7fbca5b22701ef83988e76e8
+PR title:                 [K3] Cap positive coordinate loops and compile
+                          residual workboard
+exported strengthening:   total loop cap one across all 12 complete fibers;
+                          5 live common orbits / 7 labeled common rows;
+                          13 necessary residual graph routes
+certificate replay:       34/34 hostile mutations rejected under tiny RAM
+review state:             DRAFT; K3 and the KoalaBear row remain open
+```
