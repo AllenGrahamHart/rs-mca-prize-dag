@@ -25132,6 +25132,18 @@
     "background/nodes/rate_half_list_cyclic_budget_staircase/proof.md",
     "background/nodes/rate_half_list_cyclic_budget_staircase/verify.py"
    ]
+  },
+  {
+   "id": "dli_c1_l1_block_owner_ledger",
+   "title": "L=1 four-coordinate block-owner ledger: C1-ZERO is exactly '64 structured targets attract at most 3+1/q excess weighted relation mass over Haar'",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At L=1 (N=256, omega of exact order 512), partition coordinates into 64 four-blocks; with K_j the weighted ternary difference fibre, kappa_j the block difference measure (mass 16, kappa_j(0)=1 by the banked weight<=4 exclusions), A_j = new first-owner relation mass at block j, the exact telescoping identity holds: Z - 2^256/q = 1 - 1/q + sum_j (A_j - 15*2^(4j)/q). Hence C1-ZERO at L=1 is EXACTLY equivalent to sum_j (A_j - 15*2^(4j)/q) <= 3 + 1/q: the 64 structured four-bit targets may attract at most ~3 units of weighted relation mass beyond Haar. This is an exact accounting identity localizing the inverse-flatness mystery; it bounds nothing, and does not prove C1-ZERO, SWIF-4, CERP, L>1, or either Prize result. Provenance: Pro inverse-flatness strategy (notes/pro_briefs_20260801/responses/blackhole/), audited and replayed 2026-08-01 (verifier: 64-block replay at q=7681, exact rationals).",
+   "refs": [
+    "background/nodes/dli_c1_l1_block_owner_ledger/statement.md",
+    "background/nodes/dli_c1_l1_block_owner_ledger/proof.md",
+    "background/nodes/dli_c1_l1_block_owner_ledger/verify.py"
+   ]
   }
  ],
  "edges": [
@@ -47808,6 +47820,11 @@
   {
    "from": "rate_half_list_cyclic_budget_staircase",
    "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_c1_l1_block_owner_ledger",
+   "to": "dli_c1r3_gated_envelope_bound",
    "kind": "ev"
   }
  ]
