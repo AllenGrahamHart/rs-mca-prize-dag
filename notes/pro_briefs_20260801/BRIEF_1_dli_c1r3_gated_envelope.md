@@ -103,6 +103,20 @@ theorem for the gated official rows and a complexity bound making the DP
 verdict per row a certified decision procedure.** If both exist, this whole
 head converts to an m2-style program overnight.
 
+> **[CORRECTION 2026-08-01 — route 3 is REFUTED by the Pro dossier's
+> stress test, audited and accepted on our side.]** The official row
+> family is universal, not finite: `official_row_primes_pinning` (PROVED)
+> denies any hidden finite list, and even under the `q < 2^256` cap the
+> progression `q = 1 + k*2^41` has `2^215 - 1` candidates while the
+> round-2 DP is `Theta(q)` in state (>= 2^44 bytes at the smallest
+> official scale). The finiteness that exists is in WITNESS TYPES, never
+> in primes. The corrected conversion is the consumer-exact zero-window
+> theorem **C1-ZERO / SWIF-4** (variance form + cyclotomic-ideal geometry
+> + the new 256-basis block orbit), composed with the ten
+> `dli_wcl_slot_*` leaves and the Newton exclusion. See
+> `responses/BRIEF1_PRO_DOSSIER.md` and
+> `responses/BRIEF1_DOSSIER_AUDIT.md`.
+
 ## Guards
 
 - Exact rationals only; the DP census path is the reference implementation.
