@@ -20666,6 +20666,27 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas",
+   "title": "KoalaBear m2 r4 positive three-loop signed outside-Vieta atlas",
+   "status": "PROVED",
+   "closure": "eight exhaustive signed lanes with seven exact guarded outside Vieta edge systems each",
+   "statement": "The unique split-colored outside skeleton has two sign-gauge orbits distinguished by one cycle product. Combined with four common placements, this gives exactly eight signed lanes. Every lane has seven explicit target product/squared-sum records, and each outside fiber is equivalent under saturation guards to one quadratic product equation and one quartic squared-sum equation.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_three_loop_signed_outside_vieta_atlas.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
    "title": "KoalaBear m2 r4 coordinate negative one-loop 433 complete-edge skeleton classifier",
    "status": "PROVED",
@@ -41057,6 +41078,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

@@ -3300,3 +3300,17 @@ all of total degree six.  Hence there are four, not merely two,
 common-residual lanes to test.  For each lane compute the guarded kernel,
 then apply the same unique outside skeleton; do not identify root-high and
 root-low during target normalization.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas`
+now makes that outside step finite.  Target-sign gauge leaves one binary
+cycle invariant, so the four common lanes become exactly eight signed
+lanes.  Each lane has seven product/squared-sum records on outside signed
+pairs `d,e,f`.  For each edge, solve the quadratic product polynomial
+`P_p(w)` together with the quartic squared-sum polynomial `Q_p,s(w)`.
+Saturate by the five common labels, pairwise outside-label differences,
+leading support, and target collisions.  A bare resultant can vanish at a
+forbidden common root and is not a deletion or survival certificate.  The
+next closure attempt should eliminate these seven labels lane by lane,
+starting with a bounded small-prime probe and escalating only if it reveals
+a low-degree exact route.
