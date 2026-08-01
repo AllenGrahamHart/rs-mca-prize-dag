@@ -250,6 +250,20 @@ static int product_at_source(const int kernel[COLS], int label) {
                inverse_table[denominator]);
 }
 
+static int record_has_relaxed_vieta_lift(
+    const int kernel[COLS],
+    int product,
+    int sum_squared
+) {
+    for (int label = 1; label < prime; ++label) {
+        int denominator = evaluate_quadratic(kernel, label);
+        if (!denominator || product_at_source(kernel, label) != product) continue;
+        if (source_sum_squared_passes(
+                kernel, label, denominator, sum_squared)) return 1;
+    }
+    return 0;
+}
+
 static int pair_records_with_sums_recursive(
     const int *values,
     const int *sum_squared,
@@ -317,9 +331,12 @@ static uint64_t outside_product_completions(
     const int kernel[COLS],
     const int common_labels[5],
     uint64_t *pair_masks,
+    uint64_t feasible_relaxed_subsets[2],
+    uint64_t *relaxed_completions,
     uint64_t *sum_completions,
     uint64_t *all_sum_completions,
     int example[9],
+    int relaxed_example[9],
     int sum_example[9],
     int all_sum_example[9]
 ) {
@@ -327,6 +344,7 @@ static uint64_t outside_product_completions(
     const int *numerator = kernel + 3;
     int xi_label = mod_i64(-singleton_label);
     int xi_denominator = evaluate_quadratic(denominator, xi_label);
+    *relaxed_completions = 0;
     *sum_completions = 0;
     *all_sum_completions = 0;
     if (!xi_denominator) return 0;
@@ -364,6 +382,29 @@ static uint64_t outside_product_completions(
                     mul(mod_i64(b + e), mod_i64(b + e)),
                     mul(mod_i64(c + f), mod_i64(c + f)),
                 };
+                int relaxed_mask = 0;
+                for (int index = 0; index < 7; ++index) {
+                    if (record_has_relaxed_vieta_lift(
+                            kernel, outside[index], sum_squared[index]))
+                        relaxed_mask |= 1 << index;
+                }
+                for (int subset = relaxed_mask;; subset = (subset - 1) & relaxed_mask) {
+                    feasible_relaxed_subsets[subset / 64]
+                        |= UINT64_C(1) << (subset % 64);
+                    if (subset == 0) break;
+                }
+                int passes_relaxed = relaxed_mask == 127;
+                if (passes_relaxed) {
+                    ++*relaxed_completions;
+                    if (relaxed_example[0] < 0) {
+                        relaxed_example[0] = b;
+                        relaxed_example[1] = c;
+                        relaxed_example[2] = d;
+                        relaxed_example[3] = e;
+                        relaxed_example[4] = f;
+                        relaxed_example[5] = cycle_sign;
+                    }
+                }
                 int passes = 0, passes_sum = 0, passes_all_sums = 0;
                 for (int xi_index = 0; xi_index < 7 && !passes_all_sums;
                      ++xi_index) {
@@ -526,6 +567,9 @@ int main(int argc, char **argv) {
     uint64_t pivot_counts[4] = {0, 0, 0, 0};
     uint64_t rank_histogram[9] = {0};
     uint64_t outside_nonunique_kernel = 0;
+    uint64_t feasible_relaxed_subsets[2] = {0, 0};
+    uint64_t common_points_with_relaxed_vieta = 0;
+    uint64_t outside_relaxed_vieta_completions = 0;
     uint64_t common_points_with_outside = 0;
     uint64_t outside_target_completions = 0;
     uint64_t common_points_with_mate_sum = 0;
@@ -533,6 +577,7 @@ int main(int argc, char **argv) {
     uint64_t common_points_with_all_sums = 0;
     uint64_t outside_all_sum_target_completions = 0;
     int outside_example[9] = {-1, -1, -1, -1, -1, -1, -1, -1, -1};
+    int relaxed_vieta_example[9] = {-1, -1, -1, -1, -1, -1, -1, -1, -1};
     int mate_sum_example[9] = {-1, -1, -1, -1, -1, -1, -1, -1, -1};
     int all_sum_example[9] = {-1, -1, -1, -1, -1, -1, -1, -1, -1};
     uint64_t *pair_masks = outside_mode
@@ -601,14 +646,19 @@ int main(int argc, char **argv) {
                         if (!unique_kernel_vector(10, matrix, kernel)) {
                             ++outside_nonunique_kernel;
                         } else {
+                            uint64_t relaxed_completions = 0;
                             uint64_t sum_completions = 0, all_sum_completions = 0;
                             uint64_t completions = outside_product_completions(
                                 b, c, cycle_sign, alignment,
                                 labels[cells[cell_index][0]],
-                                kernel, labels, pair_masks, &sum_completions,
-                                &all_sum_completions, outside_example,
+                                kernel, labels, pair_masks,
+                                feasible_relaxed_subsets, &relaxed_completions,
+                                &sum_completions, &all_sum_completions,
+                                outside_example, relaxed_vieta_example,
                                 mate_sum_example, all_sum_example
                             );
+                            outside_relaxed_vieta_completions += relaxed_completions;
+                            if (relaxed_completions) ++common_points_with_relaxed_vieta;
                             outside_target_completions += completions;
                             if (completions) ++common_points_with_outside;
                             outside_mate_sum_target_completions += sum_completions;
@@ -629,6 +679,10 @@ int main(int argc, char **argv) {
         "\"zero_branch\":%llu,\"pivot_counts\":[%llu,%llu,%llu,%llu],"
         "\"outside_mode\":%d,\"cycle_sign\":%d,\"alignment\":%d,"
         "\"outside_nonunique_kernel\":%llu,"
+        "\"feasible_relaxed_subset_words\":[%llu,%llu],"
+        "\"common_points_with_relaxed_vieta\":%llu,"
+        "\"outside_relaxed_vieta_completions\":%llu,"
+        "\"relaxed_vieta_example\":[%d,%d,%d,%d,%d,%d,%d,%d,%d],"
         "\"common_points_with_outside\":%llu,"
         "\"outside_target_completions\":%llu,"
         "\"outside_example\":[%d,%d,%d,%d,%d,%d,%d,%d,%d],"
@@ -653,6 +707,15 @@ int main(int argc, char **argv) {
         cycle_sign,
         alignment,
         (unsigned long long)outside_nonunique_kernel,
+        (unsigned long long)feasible_relaxed_subsets[0],
+        (unsigned long long)feasible_relaxed_subsets[1],
+        (unsigned long long)common_points_with_relaxed_vieta,
+        (unsigned long long)outside_relaxed_vieta_completions,
+        relaxed_vieta_example[0], relaxed_vieta_example[1],
+        relaxed_vieta_example[2], relaxed_vieta_example[3],
+        relaxed_vieta_example[4], relaxed_vieta_example[5],
+        relaxed_vieta_example[6], relaxed_vieta_example[7],
+        relaxed_vieta_example[8],
         (unsigned long long)common_points_with_outside,
         (unsigned long long)outside_target_completions,
         outside_example[0], outside_example[1], outside_example[2],

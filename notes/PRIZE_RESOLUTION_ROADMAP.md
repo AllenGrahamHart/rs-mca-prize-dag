@@ -14565,6 +14565,34 @@ next route-deciding step: reduce the four universal product equations on
                           any squared-sum equation
 ```
 
+### Work-cycle theorem: positive 433-1a signed-family target-free interface
+
+```text
+starting local pin:       8327d927 (cell-5 denominator branch excluded)
+ending local theorem pin: current signed-family target-free interface
+node/workboard attacked:  K3 / cell-5 outside unsquared Vieta rows
+result:                   PROVED exact target elimination for two families
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+E family:                 DE+, DE-, BE on arbitrary source roots z0,z1,z2
+F family:                 DF+, DF-, CF; identical with b replaced by c
+compiler:                 four target-free equations in three source roots
+information gain:         eliminates two target roots and preserves the
+                          unsquared q signs lost by squared-sum resultants
+finite-field evidence:    no independent seven-record completion among
+                          368 F17 or 1,072 F29 common survivors
+Modal evidence apps:      ap-kFi1MWruL9asXhwnUqi5US,
+                          ap-oEfa1ita3OEaMxXD5yKsxH
+bounded negative pilots:  direct six-lift, scalar-resultant, product-
+                          coordinate, unsquared, and target-free ambient
+                          bases did not complete under 180-240 second caps
+compute decision:         no larger fleet and no memory escalation
+nonclaim:                 neither signed-family system is proved empty;
+                          no cell, route, K3 row, or Prize close
+next route-deciding step: compute the generic common-curve basis first,
+                          normal-form the four cuts independently, then
+                          form one guarded saturated ideal
+```
+
 ### Upstream export: K3 positive coordinate reduction
 
 ```text

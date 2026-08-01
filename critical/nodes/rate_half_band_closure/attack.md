@@ -3427,3 +3427,17 @@ The PROVED exceptional-branch child saturates
 `a0=a1=L1=L2=0` by all 22 translated guards and obtains the unit ideal.
 Hence only the generic ratio curve remains.  It does not yet contain the
 universal outside equations, so this is not a cell or route deletion.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface`
+now preserves the unsquared Vieta information while eliminating target
+roots.  For arbitrary source roots `z0,z1,z2`, the `DE+/DE-/BE` records are
+equivalent on the denominator guards to four printed equations in the
+three values of `F` and the unsquared sum map; `DF+/DF-/CF` is the same
+system with `b` replaced by `c`.  Exact `F_17` and `F_29` probes found no
+seven-record completion even after dropping matching, mate, and source-
+distinctness constraints, but this is evidence only.  Raw direct,
+resultant, product-coordinate, and target-free Groebner presentations hit
+bounded Modal caps.  Compute the generic common-curve basis first, reduce
+the four signed-family cuts separately to normal form, and only then form a
+saturated ideal.  Do not retry expanded squared-sum or six-record bases.
