@@ -3184,3 +3184,15 @@ points fail a guard.
 Types `Z0,Z1,Z4` have respectively `48,128,64` guarded raw product
 certificates per `(b,c)` row, so the frontier moves to their quotient-label
 placement and q interpolation.  Do not spend outside-q work on `Z2/Z3`.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier`
+finishes the common atlas.  Cell `12` has four packets in every sign row;
+cells `13,14` have four in each same-sign row and none in opposite-sign
+rows, for 32 packets across `[12],[13],[14]`.  The product determinants
+split into six explicit branches, all rational solve losses are audited,
+and every admitted tuple passes the original equations and guard.  Combined
+with the prior orbit classifiers, all 15 matching cells are now exact: 64
+common packets total, 32 in `[2,5,6,9]`, 32 in `[12,13,14]`, and none in
+the remaining eight cells.  Next compile outside product involutions on the
+new 32 packets while continuing quotient/q work on the live old orbit.
