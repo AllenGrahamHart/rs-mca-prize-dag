@@ -3162,3 +3162,13 @@ transport gives exactly 32 packets across the four cells.  This orbit is
 live and now requires the complete outside edge/product gate.  Separately,
 the common atlas still has singleton-`BC+` cells `[12],[13],[14]` to
 classify.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier`
+now gives the exact outside edge domain for every zero-loop 433 common
+packet.  Allowing the at-most-two outside roots of the nonzero quadratic
+`A_1` yields 21 labeled degree solutions in five permutation types.  Three
+are the familiar at-most-one-loop types; the two new types have two outside
+loops.  The five types compile every signed outside product form.  Apply
+them to the 32 packets in `[2,5,6,9]`, forcing the common singleton mate
+before any outside q computation.
