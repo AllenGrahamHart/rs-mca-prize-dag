@@ -14103,7 +14103,7 @@ ending local theorem pin: current ramified-loop multiplicity exclusion
 canonical prize pin:      026d8be7
 node/workboard attacked:  K3 / positive coordinate loop counts 2 and 3
 result:                   PROVED global positive loop cap one
-DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+DAG delta:                +1 PROVED background node, +4 req, +1 ev edge
 critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
                           (unchanged; exact subcase deletion)
 local left order:         2 (two antipodal rows, each simple)
@@ -14117,4 +14117,28 @@ local compute discipline: two exact chart samples and symbolic tangents
 Modal status:             no launch and no cost
 next route-deciding step: rebuild the positive workboard with only
                           zero-loop and narrowed one-loop rows
+```
+
+### Work-cycle compilation: positive residual loop workboard
+
+```text
+starting local pin:       5ad0d704 (global positive loop cap)
+ending local theorem pin: current residual-loop workboard compiler
+canonical prize pin:      ffaf4e9b
+node/workboard attacked:  K3 / positive coordinate graph frontier
+result:                   PROVED exact necessary residual route table
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase compilation)
+common census:            10 orbits -> 5 live orbits / 7 labeled rows
+new deletion:             442 (001;400), defect 1+4=5 > budget 3
+outside census:           2 loop-free + 4 one-loop graph orbits
+routed frontier:          13 common/outside representative records
+first algebra lane:       433-1a -> O0b (defect budget saturated,
+                          unique outside graph)
+local compute discipline: bounded integer census below one second/tiny
+Modal status:             no launch and no cost
+next route-deciding step: compile complete positive Vieta/product rows for
+                          433-1a -> O0b, then use bounded finite-field
+                          probes only if they distinguish an exact route
 ```

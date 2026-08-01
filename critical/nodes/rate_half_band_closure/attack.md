@@ -3349,3 +3349,16 @@ the unique zero of linear `B_1`, giving a global loop cap of one.  This
 deletes every positive two- and three-loop 442/433 row.  Remove those rows
 from the coordinate workboard.  A surviving one-common-loop row has no
 outside loop; a zero-common-loop row has at most one outside loop.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard` composes
+that global cap with the exact collision-defect ledger.  Of the ten common
+skeleton orbits, all four multi-loop rows disappear and the 442 row
+`(001;400)` has unavoidable defect `1+4=5`, above the budget three.  Exactly
+five common orbits and seven labeled common skeletons remain.  The outside
+degree equations have two loop-free and four one-loop graph orbits; after
+adding common/outside defect and enforcing the global loop cap, exactly
+thirteen representative routes remain.  Compile algebra only for the
+printed route table, beginning with the unique saturated-defect route
+`433-1a -> O0b`.  Do not interpret route survival as realizability or the
+thirteen representatives as a labeled-packet count.
