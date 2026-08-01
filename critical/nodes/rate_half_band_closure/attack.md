@@ -3260,3 +3260,20 @@ orbits in each of profiles 442 and 433.  Two-loop rows use at least one
 ramified value; three-loop rows use both.  Attack the three-loop rows first,
 where both quotient labels are pinned, while retaining cross multiplicities
 three and four on the genuinely quadratic product-ratio branch.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier`
+finishes the combinatorial completion of those two three-loop rows.  The
+three common loops occupy both ramified quotient values and the sole root of
+`B_1`, so no outside loop exists.  The raw outside degree equations have two
+orbits, represented by colored/incidence data
+
+```text
+(0,0,2;3,1,1),       (0,1,1;2,2,1).
+```
+
+The common loops already spend defect three.  Multiplicity three repeats a
+signed cross type and adds defect two, deleting the first orbit.  Thus the
+second is the unique complete edge skeleton up to naming.  Compile its
+signed products and apply the full positive rank-five product map next; no
+other positive three-loop source graph needs interpolation.
