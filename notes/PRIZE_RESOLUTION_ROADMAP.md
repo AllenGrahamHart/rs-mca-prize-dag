@@ -14542,6 +14542,29 @@ next route-deciding step: close or parameterize the explicit a0=a1 branch,
                           adding the seven squared-sum equations
 ```
 
+### Work-cycle theorem: positive 433-1a cell-5 exceptional branch
+
+```text
+starting local pin:       211cef79 (cell-5 ratio-chart compiler)
+ending local theorem pin: current exceptional-branch exclusion
+node/workboard attacked:  K3 / cell-5 ratio denominator branch
+result:                   PROVED fully guarded deployed-field unit ideal
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+branch equations:         a0=a1=L1=L2=0
+equation shapes:          terms 14,14,40,40; degrees 8,9,10,12
+translated guards:        22, including bx+-1 and x+-1
+certificate:              dim=-1, basis size 1, basis element 1
+exact Modal replay:       ap-3F20Ny5s1zwnMDofj3uxEP
+consequence:              every admissible survivor has a1!=0 and
+                          b=-a0/a1; only the generic two-eliminant common
+                          curve remains in this fixed cell/sign/chart
+nonclaim:                 no outside equation or unsquared q sign imposed;
+                          no cell, route, row, or Prize close
+next route-deciding step: reduce the four universal product equations on
+                          the generic (x,r,t) common curve before adding
+                          any squared-sum equation
+```
+
 ### Upstream export: K3 positive coordinate reduction
 
 ```text

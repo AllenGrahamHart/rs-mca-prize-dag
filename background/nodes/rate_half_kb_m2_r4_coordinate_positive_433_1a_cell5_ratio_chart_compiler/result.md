@@ -9,5 +9,6 @@ exceptional:  a0=a1=0 plus the two remaining quadratics.
 ```
 
 The generic eliminants have `244` and `340` terms, replacing the failed raw
-four-variable exact basis attempt.  The exceptional branch and every outside
-condition remain open.
+four-variable exact basis attempt.  This theorem retained the exceptional
+branch; its proved child now deletes that branch.  Every outside condition
+remains open.

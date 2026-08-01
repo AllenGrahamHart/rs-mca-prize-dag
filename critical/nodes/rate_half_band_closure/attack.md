@@ -3423,5 +3423,7 @@ sign row `(-1,-1)`, atomizing the guards removes a residual unit `t-r` that
 whole-quadratic fast stripping missed.  With `x=c/b`, the localized `C1`
 equations have degrees `1,2,2` in `b`.  On `a1!=0`, reconstruct
 `b=-a0/a1` and retain two equations in `(x,r,t)` with 244 and 340 terms.
-Keep the exact exceptional branch `a0=a1=0`; neither branch yet contains
-the universal outside equations, so this is not a cell or route deletion.
+The PROVED exceptional-branch child saturates
+`a0=a1=L1=L2=0` by all 22 translated guards and obtains the unit ideal.
+Hence only the generic ratio curve remains.  It does not yet contain the
+universal outside equations, so this is not a cell or route deletion.
