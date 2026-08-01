@@ -20456,6 +20456,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 complete exclusion",
+   "status": "PROVED",
+   "closure": "complete deletion of every negative one-loop 442 matching cell and outside skeleton",
+   "statement": "The six disjoint common matching orbits [0], [1,2], [3,6], [4,5,7,8], [9,10,12,13], and [11,14] cover all fifteen cells. Their terminal parents respectively delete the aligned loop-q branches, crossed common cells, all AB product cells, mixed common cells, all eighty AC-sextic product cells, and opposite-pair common cells, including every sign transport and retained outside skeleton. Therefore no complete negative one-loop (4,4,2) packet exists.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion",
    "title": "KoalaBear m2 r4 coordinate negative one-loop 442 nonloop-singleton opposite-pair exclusion",
    "status": "PROVED",
@@ -40392,6 +40412,41 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

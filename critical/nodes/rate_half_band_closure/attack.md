@@ -2959,3 +2959,21 @@ forced product `b^2`.  Thus the aligned orbit is empty and no nonloop
 outside q row is needed.  Compose this with the crossed and four
 nonloop-singleton orbit dispositions to close the complete one-loop 442
 matching atlas.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion`
+performs that composition.  The exact orbit ledger is
+
+```text
+[0] | [1,2] | [3,6] | [4,5,7,8] | [9,10,12,13] | [11,14].
+```
+
+It is a disjoint cover of all fifteen common matching cells.  The six
+terminal parents delete, in order, the aligned q survivors, crossed common
+cells, the complete AB product orbit, mixed common cells, the complete
+80-cell sextic product orbit, and opposite-pair common cells.  All target
+and root-sign transports are included in those parents.  Therefore the
+negative one-loop `(4,4,2)` packet is now closed and should be removed from
+the live coordinate workboard.  Continue with negative one-loop `(4,3,3)`
+or the zero-loop packet; this composition does not close the whole
+coordinate orientation.
