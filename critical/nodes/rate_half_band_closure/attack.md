@@ -2977,3 +2977,26 @@ negative one-loop `(4,4,2)` packet is now closed and should be removed from
 the live coordinate workboard.  Continue with negative one-loop `(4,3,3)`
 or the zero-loop packet; this composition does not close the whole
 coordinate orientation.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion`
+starts the remaining one-loop 433 atlas.  Normalize cell `0` by
+
+```text
+products=(-1,b,c,bc,-bc),
+pairs=AB:AC and BC+:BC-.
+```
+
+For all four root-sign rows, the q-weld resultant forces `bc=+/-i` and
+then fixes `r` linearly.  Product elimination in `x=t^2` leaves four
+quartics related by signs and conjugation.  In deployed characteristic
+they split into eight irreducible quadratics; their four discriminants
+
+```text
+2130641919, 66911228, 2063795205, 64514
+```
+
+are all nonsquares.  Thus cell `0` is empty before any outside work.  A
+constant-memory `F_29/F_41` reconnaissance scan found only cells `11/14`
+live at `F_29` and no live cells at `F_41`; use that only to prioritize the
+five remaining target-sign orbits, not as a deployed proof.

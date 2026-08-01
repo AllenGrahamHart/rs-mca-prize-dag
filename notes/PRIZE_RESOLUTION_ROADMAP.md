@@ -13536,3 +13536,23 @@ Modal status:             no launch and no cost
 next route-deciding step: re-census coordinate frontier, then attack
                           negative one-loop 433 or zero-loop
 ```
+
+### Work-cycle burn-down: one-loop 433 aligned cell exclusion
+
+```text
+starting local pin:       1abfb132 (complete negative one-loop 442 close)
+ending local theorem pin: current one-loop 433 cell-0 exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / negative one-loop (4,3,3) common atlas
+result:                   PROVED matching cell 0 is empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact packet-subcase deletion)
+q route:                  bc=+/-i, then eight linear r branches
+product route:            four quartics in b after x=t^2 elimination
+deployed obstruction:     eight irreducible quadratics, 4 nonsquare discs
+small-field recon:        F29 only cells 11/14 live; F41 frontier empty
+Modal status:             no launch and no cost
+next route-deciding step: exact classifiers for the five remaining
+                          one-loop 433 target-sign matching orbits
+```
