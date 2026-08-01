@@ -20376,6 +20376,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 433 complete exclusion",
+   "status": "PROVED",
+   "closure": "complete deletion of all fifteen negative one-loop 433 matching cells",
+   "statement": "The fifteen common matching cells partition as [0] | [1,2] | [3,6] | [4,5,7,8] | [9,10,12,13] | [11,14]. Five orbits are empty at the common product/q stage. Orbit 3/6 has exactly sixteen deployed common packets, all deleted at the necessary complete paired-product gate. Hence no complete negative one-loop 433 packet exists.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion",
    "title": "KoalaBear m2 r4 coordinate negative one-loop 433 aligned loop-singleton exclusion",
    "status": "PROVED",
@@ -20493,6 +20513,26 @@
     "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion/lineage.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion/verify.py",
     "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 433 opposite-pair exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed-field deletion of one-loop 433 common matching cells 11/14",
+   "statement": "For representative cell 11, exact static/moving product-q elimination has four linear projections per sign row and one irreducible quadratic and quartic. In both the ordinary square route and lost moving-q coefficient route, every linear candidate forces b=0 or b=-1. The nonlinear factors have no deployed roots. Target sign transport covers cell 14, so the final opposite-pair orbit is empty.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/verify_audit.py"
    ]
   },
   {
@@ -40486,6 +40526,41 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
    "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion",
    "kind": "req"
@@ -40577,6 +40652,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

@@ -3088,3 +3088,25 @@ constant, so the projection is false.  Independent Rabin tests cover all
 eight quadratic and four quintic sign-row factors.  Target exchange/sign
 transports cover `10,12,13`.  The sole live one-loop 433 common orbit is now
 `[11,14]`.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion`
+deletes the final orbit `[11,14]`.  Its ordinary square route and lost
+moving-q coefficient route have the same four linear projections per sign
+row.  Every exact candidate gcd forces `b=0` or `b=-1`; the remaining
+quadratic and quartic are irreducible.  A full Rabin audit includes the
+quartic's possible quadratic splitting.  Target sign transport covers
+cell `14`.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion`
+composes the terminal partition
+
+```text
+[0] | [1,2] | [3,6] | [4,5,7,8] | [9,10,12,13] | [11,14].
+```
+
+It is a disjoint cover of all fifteen cells.  Five orbits die at the common
+stage and `[3,6]` dies at the complete paired-product gate.  The negative
+one-loop `(4,3,3)` sector is now fully closed; continue with the remaining
+zero-loop or other coordinate sectors.
