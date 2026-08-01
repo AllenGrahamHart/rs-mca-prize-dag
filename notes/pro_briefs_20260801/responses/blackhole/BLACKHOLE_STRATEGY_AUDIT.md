@@ -94,3 +94,28 @@ window. Adopted revisions:
 5. Lambda-rigidity theorem attempt — only after 2-4.
 No official-field computation before steps 1-4; no engine selection
 (weighted BSG / entropy / switching) before the pilots.
+
+> **[SUPERSEDED IN PART 2026-08-01 (same day) — Pro's adversarial
+> self-audit, verified on our side, RETIRES the central proof spine
+> adopted above.]** Killed with exact fixtures: CERP-512 is
+> pigeonhole-vacuous without an activity guarantee (every admissible row
+> has a qualitative packet); packet presence is not the currency (the
+> q=50177 packet is harmless once, dangerous to 5.12 after four product
+> copies); inverse-LO/BSG is blind at the saturated scale (1+2^-213 at
+> the gate bottom); an eight-wise-independent 20-factor code trap has
+> global/iid ratio 8 (weight-<=8 exclusion + low-moment matching is NOT
+> flatness); adjacent GAP overlap can travel forever (window model,
+> density 1/3, no invariance); and — most damaging — dyadic-block
+> Cayley-Hamilton is TAUTOLOGICAL: #blocks = 256/b = phi(512/b) at every
+> dyadic b, so the companion module returns only the universal
+> omega^256=-1 with Res(X^64+1, Phi_128)=0. Booleanisation is a separate
+> unproved theorem; the L=1 gate surplus (32 bits) vanishes at the top
+> level. SURVIVES: the owner ledger (minted), the adversarial packet
+> census, exact q-independent certificate discipline. REPLACEMENT
+> (minted): `dli_c1_doubling_coboundary_identity` — the binary alphabet
+> selects DOUBLING, not lambda=omega^4: A(C)=D(2C)/D(C) exactly, cycle
+> products = 1, small-orbit resultant router, exact-flatness rows
+> explained (q=257). The open core is now the large-orbit exponential
+> moment of the discrete derivative of L. See
+> `ADVERSARIAL_AUDIT_SUMMARY.md` and
+> `verify_adversarial_audit_inverse_flatness.py` (replayed, PASS).
