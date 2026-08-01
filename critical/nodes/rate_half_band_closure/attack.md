@@ -3133,3 +3133,20 @@ singular-q branches are independently exhausted; the only nonguard
 projections have zero product denominator and nonzero numerator.  Thus the
 complete orbit `[0,4,7,11]` is empty.  Continue with the five remaining
 zero-loop matching orbits before constructing outside records.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion`
+deletes the next orbit `[1,3,8,10]`.  In representative cell `1`, product
+compatibility is again linear in `c` and `x=t^2`, while safe even-factor
+division preserves the q system's affine linearity in `(t,r)`.  Three sign
+rows have no deployed root of their degree-14/18 eliminants.  The `(+,+)`
+row has two projections, but both force
+
+```text
+y=1605884903,       X_den=0,       X_num!=0.
+```
+
+Lost linear-`c` and product branches contain only guards; the singular-q
+branch adds only those same false projections.  Thus eight of fifteen
+zero-loop matching cells are now empty.  Continue with `[2,5,6,9]` and the
+three singleton-`BC+` cells `[12],[13],[14]`.

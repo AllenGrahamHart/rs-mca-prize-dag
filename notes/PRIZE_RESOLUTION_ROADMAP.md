@@ -13700,3 +13700,23 @@ Modal status:             no launch and no cost
 next route-deciding step: classify zero-loop orbits [1,3,8,10],
                           [2,5,6,9], [12], [13], [14]
 ```
+
+### Work-cycle burn-down: zero-loop 433 second matching orbit
+
+```text
+starting local pin:       537411a3 (first zero-loop four-cell exclusion)
+ending local theorem pin: current second four-cell PROVED exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / negative zero-loop 433 common atlas
+result:                   PROVED cells [1,3,8,10] are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-subcase deletion)
+generic certificate:      three rootless sign rows; two false product
+                          projections in (+,+)
+branch audit:             all c/x/q singular branches guarded or false
+zero-loop frontier:       8/15 cells deleted; [2,5,6,9],[12],[13],[14]
+                          remain
+Modal status:             no launch and no cost
+next route-deciding step: classify orbit [2,5,6,9]
+```

@@ -3,6 +3,7 @@
 
 import argparse
 import importlib.util
+import itertools
 from pathlib import Path
 
 import sympy as sp
@@ -108,12 +109,13 @@ def base_points(polynomials, y, b):
     return tuple(points), (len(basis.polys), eliminant.degree(), base_b.degree())
 
 
-def reconstruct(epsilon_1, epsilon_2, b_roots, trace=False, route=None):
+def reconstruct(epsilon_1, epsilon_2, b_roots, trace=False, route=None,
+                cell_index=0):
     if route is None:
-        route = compile_route(epsilon_1, epsilon_2)
+        route = compile_route(epsilon_1, epsilon_2, cell_index=cell_index)
     y, b = route["variables"]
     (t, r, c, b_original), original_equations, guard, _ = BASE.compile_cell(
-        0, epsilon_1, epsilon_2
+        cell_index, epsilon_1, epsilon_2
     )
     packets = []
     for b_value in b_roots:
@@ -215,10 +217,27 @@ def reconstruct(epsilon_1, epsilon_2, b_roots, trace=False, route=None):
     return tuple(packets)
 
 
-def compile_route(epsilon_1, epsilon_2):
-    (t, r, c, b), equations, _, _ = BASE.compile_cell(
-        0, epsilon_1, epsilon_2, strip_fast=True
+def compile_route(epsilon_1, epsilon_2, cell_index=0):
+    (t, r, c, b), equations, _, metadata = BASE.compile_cell(
+        cell_index, epsilon_1, epsilon_2, strip_fast=(cell_index == 0)
     )
+    if cell_index != 0:
+        _, _, _, labels, _, _, denominator = metadata
+        d0, d1 = denominator
+        safe_factors = [
+            b, c, b-1, b+1, c-1, c+1, b-c, b+c,
+        ]
+        safe_factors.extend(
+            labels[left]-labels[right]
+            for left, right in itertools.combinations(range(5), 2)
+        )
+        safe_factors.extend(d0+d1*label for label in labels)
+        equations = tuple(
+            BASE.BASE.strip_factors(
+                equation, safe_factors, (t, r, c, b)
+            )
+            for equation in equations
+        )
     x, y = sp.symbols("x y")
     parity_equations = tuple(
         parity_reduce(equation, t, r, x, y, c, b)
@@ -353,6 +372,7 @@ def branch_certificates(route):
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--cell", type=int, choices=range(15), default=0)
     parser.add_argument("--epsilon-1", type=int, choices=(-1, 1), required=True)
     parser.add_argument("--epsilon-2", type=int, choices=(-1, 1), required=True)
     parser.add_argument("--dump", action="store_true")
@@ -364,10 +384,14 @@ def main():
     parser.add_argument("--trace", action="store_true")
     parser.add_argument("--branch-audit", action="store_true")
     arguments = parser.parse_args()
-    route = compile_route(arguments.epsilon_1, arguments.epsilon_2)
+    route = compile_route(
+        arguments.epsilon_1, arguments.epsilon_2,
+        cell_index=arguments.cell,
+    )
     variables = route["variables"]
     print(
-        "KB_ZERO_LOOP_433_CELL0_ROUTE "
+        "KB_ZERO_LOOP_433_ROUTE "
+        f"cell={arguments.cell} "
         f"eps={arguments.epsilon_1},{arguments.epsilon_2}",
         flush=True,
     )
@@ -383,7 +407,7 @@ def main():
     if arguments.b_root:
         packets = reconstruct(
             arguments.epsilon_1, arguments.epsilon_2, arguments.b_root,
-            trace=arguments.trace, route=route,
+            trace=arguments.trace, route=route, cell_index=arguments.cell,
         )
         print(
             "KB_ZERO_LOOP_433_CELL0_PACKETS "
