@@ -13826,3 +13826,26 @@ Modal status:             no launch and no cost
 next route-deciding step: reconstruct A1 and place eta/L^c only on the
                           retained nine cell/type pairs and old Z0/Z1/Z4
 ```
+
+### Work-cycle burn-down: zero-loop 433 complete-Vieta router
+
+```text
+starting local pin:       0a6f1f15 (canonical merge after product routers)
+ending local theorem pin: current complete-Vieta exclusion router
+canonical prize pin:      973473e1
+node/workboard attacked:  K3 / negative zero-loop 433 outside sums
+result:                   PROVED full old-orbit deletion plus five new
+                          BC-singleton cell/type deletions
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact coordinate subcase deletion)
+field model:              F_p[X]/(X^6+X+6), g=X^1768759633, g^M=3
+isolated Vieta tests:      6528, all failing on the first outside row
+collision families:       384 systems, all guard-forced
+deleted common orbit:     [2,5,6,9] (all 32 common packets)
+additional deletions:     12/Z4; 13/Z1,Z3; 14/Z1,Z3
+exact residual frontier:  12/Z2, 12/Z3, 13/Z2, 14/Z2
+Modal status:             no launch and no cost
+next route-deciding step: reduce the first outside squared-sum residual
+                          modulo the unresolved one-parameter family ideals
+```

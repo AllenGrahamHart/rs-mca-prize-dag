@@ -20511,7 +20511,28 @@
     "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/check.py",
     "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/verify.py",
     "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/verify_live.py",
-    "experiments/prize_resolution/rate_half_kb_zero_loop_433_bc_product_probe.py"
+   "experiments/prize_resolution/rate_half_kb_zero_loop_433_bc_product_probe.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router",
+   "title": "KoalaBear m2 r4 coordinate negative zero-loop 433 complete-Vieta exclusion router",
+   "status": "PROVED",
+   "closure": "complete negative Vieta replay deletes the old four-cell orbit and five BC-singleton product lanes",
+   "statement": "In the exact field model F_p[X]/(X^6+X+6), complete negative Vieta replay deletes every product-live type over common cells 2,5,6,9, type Z4 over cell 12, and types Z1,Z3 over cells 13 and 14. The exhaustive census contains 6528 isolated common-record/product tests and 384 positive-dimensional systems with forced guard collisions. The residual zero-loop 433 frontier is exactly 12/Z2, 12/Z3, 13/Z2, and 14/Z2.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_zero_loop_433_complete_vieta_probe.py"
    ]
   },
   {
@@ -40781,6 +40802,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

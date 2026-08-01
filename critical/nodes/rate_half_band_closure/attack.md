@@ -3208,3 +3208,22 @@ certificates.  The retained product frontier is exactly
 `12:{Z2,Z3,Z4}`, `13:{Z1,Z2,Z3}`, and `14:{Z1,Z2,Z3}`; each retained type
 has a guarded representative product certificate.  Only these nine
 cell/type pairs should enter quotient placement and outside q work.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router`
+now composes both product ledgers with all twelve negative Vieta rows in the
+explicit model `F_p[X]/(X^6+X+6)`.  Inverting the common Mobius product map
+forces each outside quotient label, and the squared sum row is independent
+of the deck-root sign.  Exhaustive replay deletes all live `Z0,Z1,Z4`
+products in `[2,5,6,9]`, so that entire 32-packet common orbit is empty.  It
+also deletes `12/Z4`, `13/Z1`, `13/Z3`, `14/Z1`, and `14/Z3`.  The exact
+zero-loop 433 frontier is now only
+
+```text
+12/Z2, 12/Z3, 13/Z2, 14/Z2.
+```
+
+These four lanes have genuine rank-deficient multiplicative systems; do not
+infer their deletion from sampled exponent representatives.  Reduce the
+first outside squared-sum residual modulo those family ideals next.  Colored
+`eta/L^c` placement is deferred until a family survives that exact cut.
