@@ -3239,3 +3239,12 @@ free parameter over the algebraic closure, not only on sampled extension
 exponents.  Therefore the entire negative zero-loop `(4,3,3)` skeleton is
 closed.  Remove it from the coordinate frontier and return to the next live
 profile/parity sector.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_complete_exclusion` now composes
+the exact loop-budget partition.  Its five rows are one-loop/two-loop 442
+and zero-loop/one-loop/two-loop 433.  The terminal exclusions above delete
+all five, so no negative-parity coordinate-order-two packet exists.  Remove
+the entire negative coordinate orientation from the `(2,4,2)` workboard.
+The next coordinate work is positive parity; diagonal and trivial-stabilizer
+orientations remain separate and are not affected by this composition.
