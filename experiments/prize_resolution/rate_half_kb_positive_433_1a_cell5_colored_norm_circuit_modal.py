@@ -68,7 +68,7 @@ def analyze(payload):
         return str(sp.Poly(sp.expand(expression), *variables, modulus=prime)
                    .as_expr()).replace("**", "^")
 
-    declarations = [
+    pair_declarations = [
         f"poly f0={singular(projection)};",
         f"poly f1={singular(r_equation)};",
         f"poly f2={singular(c_equation)};",
@@ -85,9 +85,18 @@ def analyze(payload):
         "poly n1=ncoef0+ncoef1*z1^2+ncoef2*z1^4;",
         "poly q0=z0*beta*(z0^2-1);",
         "poly q1=z1*beta*(z1^2-1);",
-        "poly g3=n1*d0+n0*d1;",
-        "poly g4=q0*d1-q1*d0+2*e*delta*d0*d1;",
-        "poly g5=delta*n0+e*q0+e^2*delta*d0;",
+        "poly hd0=dd0-d0;",
+        "poly hd1=dd1-d1;",
+        "poly hn0=nn0-n0;",
+        "poly hn1=nn1-n1;",
+        "poly hqsource0=qq0-q0;",
+        "poly hqsource1=qq1-q1;",
+        "poly g3=nn1*dd0+nn0*dd1;",
+        "poly g4=qq0*dd1-qq1*dd0+2*e*delta*dd0*dd1;",
+        "poly g5=delta*nn0+e*qq0+e^2*delta*dd0;",
+        "poly hguard=s*cLeading-1;",
+    ]
+    norm_declarations = [
         "poly hA=aa-(ncoef2-b*e*dcoef2);",
         "poly hB=bb-(ncoef1-b*e*dcoef1);",
         "poly hC=cc-(ncoef0-b*e*dcoef0);",
@@ -102,14 +111,35 @@ def analyze(payload):
         "poly hr0=rr0-(v4*(-bb^2*cc+aa*cc^2)"
         "+v3*aa*bb*cc-v2*aa^2*cc+v0*aa^3);",
         "poly hnorm=aa*rr0^2-bb*rr0*rr1+cc*rr1^2;",
-        "poly hguard=s*cLeading-1;",
     ]
     equations = (
-        "f0", "f1", "f2", "g3", "g4", "g5", "hA", "hB", "hC",
-        "hq0", "hq1", "hq2", "hq3", "hq4", "hr0", "hr1", "hnorm",
-        "hguard",
+        "f0", "f1", "f2", "hd0", "hd1", "hn0", "hn1", "hqsource0",
+        "hqsource1", "g3", "g4", "g5", "hA", "hB", "hC", "hq0",
+        "hq1", "hq2", "hq3", "hq4", "hr0", "hr1", "hnorm", "hguard",
     )
-    if stage == "ledger":
+    pair_equations = (
+        "f0", "f1", "f2", "hd0", "hd1", "hn0", "hn1", "hqsource0",
+        "hqsource1", "g3", "g4", "g5", "hguard",
+    )
+    if stage == "pair-ledger":
+        body = (
+            'print("SIGNED_PAIR_CIRCUIT_LEDGER");',
+            *(f"print(deg({name})); print(size({name}));"
+              for name in pair_equations),
+        )
+        expected = "SIGNED_PAIR_CIRCUIT_LEDGER"
+    elif stage in {"pair-basis", "pair-dp-basis"}:
+        body = (
+            f"ideal J={','.join(pair_equations)};",
+            'print("SIGNED_PAIR_CIRCUIT_INPUT");',
+            "print(dim(J)); print(size(J));",
+            "ideal G=slimgb(J);",
+            'print("SIGNED_PAIR_CIRCUIT_BASIS");',
+            "print(dim(G)); print(size(G));",
+            'if (reduce(1,G)==0) { print("UNIT"); } else { print("NONUNIT"); }',
+        )
+        expected = "SIGNED_PAIR_CIRCUIT_BASIS"
+    elif stage == "ledger":
         body = (
             'print("COLORED_NORM_CIRCUIT_LEDGER");',
             *(f"print(deg({name})); print(size({name}));" for name in equations),
@@ -127,16 +157,31 @@ def analyze(payload):
         )
         expected = "COLORED_NORM_CIRCUIT_BASIS"
     else:
-        raise ValueError("stage must be ledger or basis")
+        raise ValueError(
+            "stage must be pair-ledger, pair-basis, pair-dp-basis, ledger, "
+            "or basis"
+        )
 
-    program = "\n".join((
-        (
+    if stage.startswith("pair-"):
+        order = "dp" if stage == "pair-dp-basis" else "(dp(9),dp(5))"
+        ring = (
             f"ring R={prime},"
-            "(aa,bb,cc,v0,v1,v2,v3,v4,rr0,rr1,r,c,s,e,z0,z1,b,t),"
-            "(dp(13),dp(5));"
-        ),
+            "(dd0,dd1,nn0,nn1,qq0,qq1,r,c,s,e,z0,z1,b,t),"
+            f"{order};"
+        )
+        active_declarations = pair_declarations
+    else:
+        ring = (
+            f"ring R={prime},"
+            "(aa,bb,cc,v0,v1,v2,v3,v4,rr0,rr1,"
+            "dd0,dd1,nn0,nn1,qq0,qq1,r,c,s,e,z0,z1,b,t),"
+            "(dp(19),dp(5));"
+        )
+        active_declarations = [*pair_declarations, *norm_declarations]
+    program = "\n".join((
+        ring,
         "option(redSB);",
-        *declarations,
+        *active_declarations,
         *body,
         "quit;",
     ))
@@ -182,12 +227,17 @@ def analyze(payload):
 
 
 @app.local_entrypoint()
-def main(charts: str = "2", stage: str = "ledger"):
+def main(charts: str = "2", stage: str = "pair-ledger"):
     indices = [int(value) for value in charts.split(",")]
     if any(value not in {2, 3, 4, 5} for value in indices):
         raise ValueError("charts must be a comma-separated subset of 2,3,4,5")
-    if stage not in {"ledger", "basis"}:
-        raise ValueError("stage must be ledger or basis")
+    if stage not in {
+        "pair-ledger", "pair-basis", "pair-dp-basis", "ledger", "basis",
+    }:
+        raise ValueError(
+            "stage must be pair-ledger, pair-basis, pair-dp-basis, ledger, "
+            "or basis"
+        )
     for result in analyze.map(
         [f"{stage}:{index}" for index in indices], order_outputs=True
     ):

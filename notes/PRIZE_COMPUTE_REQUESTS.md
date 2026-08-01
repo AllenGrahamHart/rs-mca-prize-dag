@@ -11359,3 +11359,22 @@ the colored circuit again, triangularize the `769/4502/240` signed pair over
 the rank-four reciprocal algebra, and append the colored norm only to its
 component ledger.  Do not parallelize the same combined basis over charts
 3--5.
+
+The pair arithmetic circuit is smaller still: its six evaluation definitions
+have at most 97 terms, its three signed-pair equations have `2,4,5` terms,
+and its chart guard has nine terms (`ap-39oTPQR9XZaltpf0xAuYX8`).  Removing
+all unused colored variables does not make either the elimination-block or
+total-degree Singular basis finish at 240 seconds
+(`ap-gysnK6QVGTEyVrlr64Rt7T`, `ap-9StDk2Yi93vpdKOnsgEft7`).
+
+A direct SymPy implementation over `GF(2130706433)(t)` correctly detects the
+rank-four primitive and denominator gcd certificates; SymPy's `invert` has a
+false zero-divisor failure on the quadratic `c` denominator, repaired by
+explicit `gcdex`.  Even with monomial-by-monomial degree-four reduction, the
+six common coefficients do not finish within the five-minute wrapper
+(`ap-xEl0f94ZLQjaPWCxVelMaE`, `ap-KVgOXwaAAJCZ3oNWUuC5Sf`).  Do not retry
+this SymPy coefficient engine unchanged.  The requested computation is now
+precise: implement the same four-generator system over
+`GF(p)(t)[b]/(P)` in Nemo/FLINT/Magma (or another efficient rational-function
+backend), return the signed-pair regular-chain/component ledger, and only
+then append the compact colored norm.

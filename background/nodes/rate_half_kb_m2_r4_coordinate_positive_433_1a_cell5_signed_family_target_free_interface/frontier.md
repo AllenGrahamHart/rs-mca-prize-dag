@@ -42,3 +42,9 @@ still times out at 240 seconds.  Its only large relation is the reconstructed
 signed-pair cut with 4,502 terms.  Return to the signed pair alone: introduce
 auxiliaries for its six `D,N,Q` evaluations, obtain a component ledger over
 the rank-four reciprocal algebra, and append the colored norm only afterward.
+
+That pair circuit now has evaluation definitions bounded by 97 terms and
+terminal equations of only `2,4,5` terms, but both Singular orders time out.
+A direct SymPy `GF(p)(t)` quotient also exceeds the bounded cap during
+coefficient reduction.  Port the exact four-generator quotient calculation
+to Nemo/FLINT/Magma; do not increase either failed backend's cap.

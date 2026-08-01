@@ -3479,3 +3479,11 @@ circuit keeps every colored definition below 758 terms, yet the combined
 basis still times out.  Therefore triangularize the signed pair alone over
 the rank-four reciprocal algebra; append the compact colored norm only to
 its finite components.  Do not fan the combined timeout to the other charts.
+
+The signed-pair arithmetic circuit itself is now minimal at this level: six
+evaluation definitions have at most 97 terms, and the three pair equations
+have `2,4,5` terms.  Both block and total-degree Singular bases still time
+out, while a custom SymPy `GF(p)(t)[b]/(P)` implementation stalls in
+rational-function coefficient reduction.  The next compute request is an
+efficient Nemo/FLINT/Magma regular-chain ledger for exactly four generators
+`P,g3,g4,g5`; no larger ambient or longer-cap rerun is justified.

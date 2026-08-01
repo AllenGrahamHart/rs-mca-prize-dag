@@ -14657,6 +14657,14 @@ norm-circuit outcome:     exact sparse circuit succeeds, definitions <=757
 revised next step:        triangularize DE+/DE- alone over the rank-four
                           reciprocal algebra, then append the norm only to
                           surviving finite components
+pair-circuit fence:       evaluation definitions <=97 terms, pair equations
+                          2/4/5 terms; both block and total-degree Singular
+                          bases time out at 240s
+function-field fence:     SymPy GF(p)(t) denominator gcds are valid (use
+                          gcdex, not broken invert), but degree-four
+                          coefficient reduction exceeds the 5m wrapper
+backend handoff:          implement the four-generator pair system in
+                          Nemo/FLINT/Magma and return a regular-chain ledger
 ```
 
 ### Upstream export: K3 positive coordinate reduction
