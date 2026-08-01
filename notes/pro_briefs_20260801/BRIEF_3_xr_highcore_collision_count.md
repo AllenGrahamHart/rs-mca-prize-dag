@@ -105,3 +105,21 @@ witness-injection shape; nobody has written the witness family for P-A1.
   `xr_smallcore_spread_count` and the node's `dependency_subdag.md`).
 - Related banked instruments: F5 P9 W-collision identity (background),
   LineRay affine-core theorem, `xr_lowcore_near_k_difference_packing`.
+
+> **[CORRECTION 2026-08-01 — from the Pro dossier's stress test, audited
+> and accepted.]** (1) Route 1 as stated ("counting rational points on an
+> explicit bounded-degree variety") is REFUTED: over a 256-bit admissible
+> field even an affine line exceeds the 8n^3 budget by ~130 bits — every
+> terminal cell must be empty, zero-dimensional with a q-free degree
+> bound, or uniquely reconstructed from an n-indexed support key.
+> (2) Route 2's core-sharing-graph half is REFUTED: a greedy induced
+> matching produces 2^758 / 2^494 / 2^309 isolated two-slope components
+> (d_C=0) satisfying every support-only condition on the RowC rows —
+> support structure cannot bound component counts; RS realization is
+> mandatory. The witness-charging half survives as the dossier's
+> payment-key rule (q-free n-indexed keys with printed multiplicity).
+> Also fenced: Maxwell surplus does not force rank two (F_5 span{I_3});
+> the extension collision ledger is compatibility, not a count (2^134
+> abstract records at the first RowC shell); and pathwise P-A2 laws do
+> not control breadth (a 34-transition binary tree beats 16n^3). See
+> `responses/BRIEF3_PRO_DOSSIER.md` and `responses/BRIEF3_DOSSIER_AUDIT.md`.
