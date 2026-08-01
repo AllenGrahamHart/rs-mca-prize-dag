@@ -11327,3 +11327,35 @@ after the 12-element affine basis is computed
 different exact finite-algebra backend or symbolic identities checked in the
 deployed polynomial ring.  The `F_65521` result is evidence and a shape
 compiler, not a deployed-field theorem.
+
+### 2026-08-01 deployed colored-chart backend fence
+
+Do not expand the target-free square cut at the deployed prime.  The
+factored Singular assignment enters a backend capped at `2^29`; the Python
+route expands other cuts to 58,964 terms before any basis step
+(`ap-WHPxRTl9RMJGjEtD328bNO`).
+
+The equivalent unsquared system with explicit `d,e` compiles cleanly with
+signed-equation term counts `96,240,96,240,120,240` and a nine-term chart
+guard (`ap-ixMbNHMyuEwVxEDbYXAUsT`).  Chart 2 nevertheless timed out after
+240 seconds (`ap-UcfpDVxgnQOjNOoqELThke`); do not fan this basis to the other
+three charts.  Algebraically eliminating `d` lowers the `DE+/DE-` ledger to
+`769,4502,240` terms, but Singular rejects the deployed cubic-edge resultant
+(`ap-EnuadAiVWmVBrNOExVkFDX`).
+
+The next implementation should reuse the already-PROVED 22-term
+quadratic-quartic edge norm.  Encode its coefficient definitions and norm as
+a sparse auxiliary-variable circuit, or compute the one low-degree
+resultant in a backend that supports `p=2130706433`.  Do not request a longer
+generic basis.
+
+The sparse norm circuit has now been implemented.  Its deployed chart-2
+ledger has common equations `19,19,24` terms, reconstructed signed-pair
+equations `769,4502,240`, and colored norm definitions bounded by 757 terms
+with final pseudo-remainder/norm equations of `6,7,3` terms
+(`ap-UygmUkG2dtvijTgXIIx5Xs`).  The combined circuit still timed out at 240
+seconds (`ap-RMLTMaMIIjpqLWjEKaJ4ps`).  This localizes the next task: remove
+the colored circuit again, triangularize the `769/4502/240` signed pair over
+the rank-four reciprocal algebra, and append the colored norm only to its
+component ledger.  Do not parallelize the same combined basis over charts
+3--5.

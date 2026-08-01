@@ -3469,3 +3469,13 @@ residual `BE` cubic and sum row.  Singular's function-field backend cannot be
 used directly at `p=2130706433` because it rejects characteristics above
 `2^29`; use ordinary block elimination or a different exact finite-algebra
 backend.
+
+The first deployed four-chart implementation confirms that direct expansion
+is not the route.  The equivalent unsquared system compiles with signed rows
+of `96/240/96/240/120/240` terms, but chart-2 `slimgb` times out at 240
+seconds.  Eliminating `d` gives a `769/4502/240` signed-pair ledger.  Replacing
+the colored edge by the PROVED compact norm and retaining its arithmetic
+circuit keeps every colored definition below 758 terms, yet the combined
+basis still times out.  Therefore triangularize the signed pair alone over
+the rank-four reciprocal algebra; append the compact colored norm only to
+its finite components.  Do not fan the combined timeout to the other charts.

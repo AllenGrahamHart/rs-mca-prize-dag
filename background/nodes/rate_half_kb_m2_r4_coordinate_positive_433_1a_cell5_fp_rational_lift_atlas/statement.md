@@ -10,6 +10,17 @@ X(F_p) -> {(b,t) in F_p^2 : P(b,t)=0}
 
 is injective.
 
+The reciprocal polynomial has degree exactly four in `b` on every guarded
+deployed-field point.  Indeed its leading coefficient satisfies
+
+```text
+A0(t)=(t+1)C(t),
+C(t)=t^3-33423359t^2-33423357t-1,                (KBL-0)
+```
+
+where `t=-1` is guarded and `C` has no root in `F_p` by the certificate
+below.
+
 More explicitly, the elimination basis contains one equation
 
 ```text

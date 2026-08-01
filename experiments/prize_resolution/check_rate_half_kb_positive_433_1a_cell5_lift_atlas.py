@@ -52,6 +52,7 @@ eliminant = sp.Poly(cover.polys[-1], t, modulus=P).monic()
 cubic = tpoly(DATA["exceptional_cubic"]).monic()
 guard_factor = tpoly((t - I) * (t + I)**2)
 assert (guard_factor * cubic).monic() == eliminant
+assert tpoly(A0) == tpoly(t + 1) * cubic
 
 def multiply_mod(left, right):
     return (left * right).rem(cubic)
@@ -77,5 +78,6 @@ assert poly(DATA["r_chart"]["constant"]).degree(b) >= 0
 
 print(
     "RATE_HALF_KB_POSITIVE_433_1A_CELL5_LIFT_ATLAS_PASS "
-    "c_charts=4 exceptional_degree=3 fp_roots=0 r_guard_unit=1"
+    "c_charts=4 exceptional_degree=3 fp_roots=0 r_guard_unit=1 "
+    "projection_rank=4"
 )

@@ -5,6 +5,11 @@ printed `r` equation and four printed equations linear in `c`.  Since
 `t^2+1` is a source-label collision guard, `(KBL-1)` uniquely determines `r`
 at every point of `X`.
 
+Direct coefficient arithmetic gives `(KBL-0)`.  The argument below proves
+that `C` has no deployed-field root, while `t=-1` is a source-label collision.
+Thus `A0` is nonzero and the reciprocal projection has degree exactly four
+in `b` at every guarded deployed-field point.
+
 Let `L_2,...,L_5` denote the four `c` coefficients.  Exact deployed-field
 reduction gives
 

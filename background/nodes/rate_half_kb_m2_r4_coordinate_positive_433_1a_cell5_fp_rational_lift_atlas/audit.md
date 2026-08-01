@@ -6,3 +6,5 @@
 4. The residual cubic is excluded by an explicit Frobenius/Bezout
    certificate, not by an unverified factorization label.
 5. No signed-family, colored-edge, route, row, K3, or Prize close is claimed.
+6. Rank four is asserted only on guarded deployed-field points; no flat
+   family over the full affine `t`-line is claimed.

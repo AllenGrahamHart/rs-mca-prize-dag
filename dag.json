@@ -21129,8 +21129,8 @@
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas",
    "title": "KoalaBear positive 433-1a cell-5 deployed rational lift atlas",
    "status": "PROVED",
-   "closure": "guarded deployed-field common points reconstruct uniquely from the reciprocal plane projection",
-   "statement": "Every guarded deployed-field common point in cell 5, sign row (-1,-1), has r given by one guard-unit linear formula and c given by at least one of four linear formulas over (b,t). Their simultaneous denominator locus is t=+-i plus a cubic certified to have no F_p root. This is injective reconstruction only, not surjectivity of the plane projection or a signed-family, route, row, K3, or Prize close.",
+   "closure": "rank-four reciprocal projection and unique reconstruction of guarded deployed-field common points",
+   "statement": "In cell 5, sign row (-1,-1), the reciprocal projection has degree exactly four in b at every guarded deployed-field point. Every guarded common point has r given by one guard-unit linear formula and c given by at least one of four linear formulas over (b,t). Their simultaneous denominator locus is t=+-i plus a cubic certified to have no F_p root. This is injective reconstruction only, not surjectivity of the plane projection or a signed-family, route, row, K3, or Prize close.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/statement.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/proof.md",

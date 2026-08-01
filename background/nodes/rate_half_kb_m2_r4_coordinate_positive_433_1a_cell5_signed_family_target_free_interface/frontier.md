@@ -34,3 +34,11 @@ subresultants or finite-algebra norms branchwise.  Singular 4.3.1 cannot
 perform the analogous function-field remap at the deployed characteristic
 because its backend caps the characteristic at `2^29`; do not retry that
 backend or another generic standard basis.
+
+The equivalent unsquared `d,e` system compiles sparsely at the deployed
+prime, and the colored `BE` edge now has an exact auxiliary-variable norm
+circuit with definitions bounded by 757 terms.  The combined chart-2 circuit
+still times out at 240 seconds.  Its only large relation is the reconstructed
+signed-pair cut with 4,502 terms.  Return to the signed pair alone: introduce
+auxiliaries for its six `D,N,Q` evaluations, obtain a component ledger over
+the rank-four reciprocal algebra, and append the colored norm only afterward.

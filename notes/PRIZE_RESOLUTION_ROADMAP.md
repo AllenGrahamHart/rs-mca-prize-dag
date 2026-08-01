@@ -14641,6 +14641,22 @@ deployed lift theorem:    one guard-unit r formula; four c charts; their
 next route-deciding step: reduce the target-free cuts on the four c charts,
                           take subresultants/norms there, then append only
                           R_b and the BE sum row
+latest compute fence:     unsquared direct equations compile at
+                          96/240/96/240/120/240 terms but chart-2 slimgb
+                          times out at 240s; reconstructed DE is
+                          769/4502/240 terms and Singular rejects the
+                          deployed cubic-edge resultant backend
+next implementation:     reuse the PROVED 22-term quadratic-quartic norm as
+                          a sparse auxiliary-variable circuit; do not expand
+                          the 58,964-term target-free presentation
+norm-circuit outcome:     exact sparse circuit succeeds, definitions <=757
+                          terms and terminal equations 6/7/3 terms, but the
+                          combined chart-2 basis still times out at 240s;
+                          ap-UygmUkG2dtvijTgXIIx5Xs,
+                          ap-RMLTMaMIIjpqLWjEKaJ4ps
+revised next step:        triangularize DE+/DE- alone over the rank-four
+                          reciprocal algebra, then append the norm only to
+                          surviving finite components
 ```
 
 ### Upstream export: K3 positive coordinate reduction
