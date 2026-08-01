@@ -21126,6 +21126,29 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas",
+   "title": "KoalaBear positive 433-1a cell-5 deployed rational lift atlas",
+   "status": "PROVED",
+   "closure": "guarded deployed-field common points reconstruct uniquely from the reciprocal plane projection",
+   "statement": "Every guarded deployed-field common point in cell 5, sign row (-1,-1), has r given by one guard-unit linear formula and c given by at least one of four linear formulas over (b,t). Their simultaneous denominator locus is t=+-i plus a cubic certified to have no F_p root. This is injective reconstruction only, not surjectivity of the plane projection or a signed-family, route, row, K3, or Prize close.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_signed_family_decomposition_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_lift_atlas_result.json",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_lift_atlas.py"
+   ]
+  },
+  {
    "id": "dli_c1_256_block_basis_factorization",
    "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
    "status": "PROVED",
@@ -41878,6 +41901,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

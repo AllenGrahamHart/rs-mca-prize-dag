@@ -8,8 +8,10 @@ w^2 = -48(t^2-(2i/3)t-1),
 ```
 
 recover the two trace branches `u`, and only then lift `b` through
-`b^2-u b+1=0`.  Derive fraction-free formulas for `r,c` on these branches and
-reduce the signed `DE+`,`DE-` rows before appending the residual `BE` cubic.
+`b^2-u b+1=0`.  The deployed `F_p` rational-lift child now reconstructs
+`r,c` injectively from `(b,t)` using one `r` chart and four `c` charts.
+Reduce the signed `DE+`,`DE-` rows chartwise before appending the residual
+`BE` cubic.
 
 Do not rerun generic standard bases or Singular function fields at the
 deployed characteristic.

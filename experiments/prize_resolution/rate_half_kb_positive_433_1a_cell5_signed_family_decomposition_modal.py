@@ -162,6 +162,38 @@ def analyze(characteristic, method):
             "print(deg(cResultant)); print(size(cResultant)); print(cResultant);",
             "print(deg(rResultant)); print(size(rResultant)); print(rResultant);",
         ]
+    elif method == "deployed-lift-atlas":
+        body = [
+            f"ring Z={characteristic},(r,c,b,t),(dp(2),dp(2));",
+            "option(redSB);",
+            "ideal H=std(imap(R,G));",
+            "ideal EC=std(eliminate(H,r));",
+            'print("DEPLOYED_C_LINEAR_ATLAS");',
+            "for (int j=1; j<=size(EC); j++)",
+            "{",
+            "  poly cj=diff(EC[j],c);",
+            "  if ((cj!=0) && (diff(cj,c)==0))",
+            "  {",
+            '    print("C_LINEAR_INDEX"); print(j);',
+            "    print(deg(EC[j])); print(size(EC[j]));",
+            '    print("C_LEADING"); print(cj);',
+            '    print("C_CONSTANT"); print(subst(EC[j],c,0));',
+            "  }",
+            "}",
+            "ideal ER2=std(eliminate(H,c));",
+            'print("DEPLOYED_R_LINEAR_ATLAS");',
+            "for (int k=1; k<=size(ER2); k++)",
+            "{",
+            "  poly rk=diff(ER2[k],r);",
+            "  if ((rk!=0) && (diff(rk,r)==0))",
+            "  {",
+            '    print("R_LINEAR_INDEX"); print(k);',
+            "    print(deg(ER2[k])); print(size(ER2[k]));",
+            '    print("R_LEADING"); print(rk);',
+            '    print("R_CONSTANT"); print(subst(ER2[k],r,0));',
+            "  }",
+            "}",
+        ]
     else:
         body = [
             f"ring K=({characteristic},t),(r,c,b),dp;",
@@ -282,9 +314,9 @@ def analyze(characteristic, method):
         "method": method,
         "program_sha256": hashlib.sha256(program.encode()).hexdigest(),
         "scope": (
-            "relation-preserving cell-5 common finite algebra and optional "
-            "signed-pair pilot; no source-guard saturation, colored edge, "
-            "route, row, or Prize conclusion"
+            "fully source-guard-saturated cell-5 common finite algebra and "
+            "optional signed-pair pilot; no colored edge, route, row, or "
+            "Prize conclusion"
         ),
     }
     timeout = 240 if method == "finite-pair" else 120
@@ -310,6 +342,7 @@ def analyze(characteristic, method):
         "deployed-eliminate": "DEPLOYED_RECIPROCAL",
         "deployed-lifts": "DEPLOYED_R_LIFT",
         "deployed-lift-denominators": "DEPLOYED_LIFT_DENOMINATORS",
+        "deployed-lift-atlas": "DEPLOYED_R_LINEAR_ATLAS",
         "generic-basis": "GENERIC_BASIS",
         "generic-minass": "GENERIC_COMPONENT_COUNT",
         "lex": "LEX_LEDGER",
@@ -339,14 +372,17 @@ def main(characteristic: int = SMALL_CHART_PRIME, method: str = "lex"):
         )
     if characteristic == DEPLOYED_PRIME and method not in {
         "affine-basis", "deployed-eliminate", "deployed-lifts",
+        "deployed-lift-atlas",
         "deployed-lift-denominators",
     }:
         raise ValueError(
             "Singular function fields require characteristic below 2^29; "
-            "only affine-basis is supported at the deployed prime"
+            "only deployed ordinary-ring modes are supported at the deployed "
+            "prime"
         )
     methods = {
         "affine-basis", "deployed-eliminate", "deployed-lifts",
+        "deployed-lift-atlas",
         "deployed-lift-denominators", "generic-basis",
         "generic-minass", "lex", "finite-pair",
     }

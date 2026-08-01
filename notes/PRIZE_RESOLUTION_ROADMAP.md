@@ -14634,7 +14634,11 @@ deployed theorem:         one 19-term reciprocal quartic in (b,t), exact
                           quadratic trace descent, discriminant square
                           factors times t^2-(2i/3)t-1;
                           ap-D4GXYWOVhTEiEfabnKO9Ht
-next route-deciding step: recover fraction-free r,c over the trace conic,
+deployed lift theorem:    one guard-unit r formula; four c charts; their
+                          simultaneous exceptional locus is t=+-i plus an
+                          irreducible cubic with no F_p root;
+                          ap-3hVthJkmosYTdYTQ4Kc91v
+next route-deciding step: reduce the target-free cuts on the four c charts,
                           take subresultants/norms there, then append only
                           R_b and the BE sum row
 ```

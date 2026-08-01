@@ -11314,10 +11314,11 @@ A four-minute `slimgb` pilot still timed out
 (`ap-F0mNsrUqkAmnr1ADk2V20i`).  Do not rerun that basis with a larger cap.
 Ordinary deployed block elimination subsequently produced the exact 19-term
 reciprocal quartic and trace quadratic
-(`ap-D4GXYWOVhTEiEfabnKO9Ht`), now banked as a PROVED child.  Recover
-fraction-free `r,c` formulas over its residual conic and compute
-subresultants or norms there.  Only then append the residual `BE` cubic and
-sum row.
+(`ap-D4GXYWOVhTEiEfabnKO9Ht`), now banked as a PROVED child.  A second exact
+run (`ap-3hVthJkmosYTdYTQ4Kc91v`) gives one guard-unit `r` formula and four
+`c` charts; their simultaneous exceptional cubic has no deployed-field
+root.  Compute the signed cuts separately on those four rational charts.
+Only then append the residual `BE` cubic and sum row.
 
 Singular 4.3.1 cannot lift this function-field workflow directly to the
 deployed characteristic: its backend rejects characteristics above `2^29`

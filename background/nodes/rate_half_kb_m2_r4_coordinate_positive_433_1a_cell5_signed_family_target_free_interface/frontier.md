@@ -26,9 +26,10 @@ then leaves one reciprocal quartic and four signed-pair cuts with
 240-second `slimgb` cap.  This is probe-field evidence, not a deployed-field
 theorem.
 
-The deployed reciprocal quartic and trace-quadratic descent are now PROVED by
-`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic`.
-Recover fraction-free `r,c` formulas over its residual trace conic and take
+The deployed reciprocal quartic, trace-quadratic descent, and `F_p` rational
+lift atlas are now PROVED.  The latter gives one guard-unit `r` formula and
+four `c` charts whose simultaneous exceptional cubic has no deployed-field
+root.  Reduce the target-free cuts separately on those four charts and take
 subresultants or finite-algebra norms branchwise.  Singular 4.3.1 cannot
 perform the analogous function-field remap at the deployed characteristic
 because its backend caps the characteristic at `2^29`; do not retry that

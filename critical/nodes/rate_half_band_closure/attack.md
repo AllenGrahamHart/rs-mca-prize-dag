@@ -3460,9 +3460,11 @@ in `b`, verified both by coefficient reversal and by a quadratic lift through
 `(degree,terms)=(9,24),(8,32),(9,24),(8,32)`, but `slimgb` still hit a
 240-second cap.  This is probe-field evidence only.
 
-The PROVED reciprocal-trace child now supplies the deployed equation and its
-residual conic.  Recover fraction-free `r,c` formulas over that conic and
-compute factor-by-factor subresultants or norms there, then append the
+The PROVED reciprocal-trace and rational-lift children now supply the
+deployed equation, residual conic, one guard-unit `r` formula, and a
+four-chart `c` atlas.  The only simultaneous `c`-denominator branch outside
+the source guards is a cubic with no `F_p` root.  Compute the target-free
+cuts chartwise by subresultants or finite-algebra norms, then append the
 residual `BE` cubic and sum row.  Singular's function-field backend cannot be
 used directly at `p=2130706433` because it rejects characteristics above
 `2^29`; use ordinary block elimination or a different exact finite-algebra
