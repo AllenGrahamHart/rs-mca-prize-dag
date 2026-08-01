@@ -11082,3 +11082,61 @@ per task.  Every task must:
 Prefer a CAS with efficient finite-field quotient and elimination support
 over generic SymPy Groebner.  A pilot should use one task only; estimate its
 cost from that result before requesting parallel capacity.
+
+## CR-KB-POS3-SAT: positive three-loop parametric saturation
+
+**Status:** deferred theorem/algorithm and donated-compute request.  It is
+not authorized for local or Modal execution.  The local exact compilers and
+small-field pilots are complete; a raw point search is not requested.
+
+**Target:** the eight signed lanes under the open critical node
+`rate_half_band_closure`, specifically positive coordinate parity in the
+residual KoalaBear `(m,r,delta)=(2,4,2)` row.
+
+**Pinned inputs:**
+
+- `rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas`:
+  four loop-placement residuals `R_442,L`, `R_442,H`, `R_433,L`,
+  `R_433,H`;
+- `rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas`:
+  two cycle signs and seven target records per placement;
+- `rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler`:
+  the 22-term generic edge resultant and exact linear-product degree drop;
+- `experiments/prize_resolution/rate_half_kb_positive_three_loop_fixed_kernel_groebner_probe.py`:
+  four deterministic `F_17` algebraic-closure fixtures.  Seven of eight raw
+  full ideals are units; the eighth has basis
+  `d^2-4,e+1,f+1` and becomes a unit after target-collision saturation.
+
+**Requested sharding:** one task for each
+`(442/433, root-low/root-high, cycle sign)` lane.  Do not combine lanes in a
+single basis computation.
+
+For one lane, a worker should:
+
+1. construct a primitive common-kernel vector from the `4 x 4` matrix
+   cofactors and impose the corresponding common residual;
+2. substitute that vector into the six noncycle edge eliminants, then append
+   the selected cycle-sign eliminant;
+3. split or saturate the generic `A!=0`, linear `A=0,B!=0`, and impossible
+   constant branches without dividing away a degree drop;
+4. saturate by `beta`, leading support at all five common labels, the common
+   source-label differences, all six target-square differences, every
+   outside/common root difference, and pairwise outside-root differences;
+5. return either an exact unit-ideal/Nullstellensatz certificate or a
+   positive-dimensional/zero-dimensional survivor basis with every guard
+   norm and an original-row back-substitution witness.
+
+**Acceptance standard:** a modular unit basis alone is route evidence, not a
+theorem.  Promotion requires either an exact rational/integer certificate or
+a modular reconstruction with independently replayed characteristic and
+denominator bounds covering the official field.  A survivor must include
+the seven guarded quotient roots, not only seven vanishing scalar
+resultants.
+
+**Pilot and cost gate:** first run exactly one 433 lane, because three of the
+four fixed fixtures die before the cycle edge and this is the best candidate
+for a short certificate.  Print input term counts, maximum basis size,
+peak memory, wall time, and certificate size.  Estimate all eight tasks from
+that pilot before parallel launch.  If the pilot exceeds its declared cap,
+return the partial basis and do not retry at a larger cap without maintainer
+approval.

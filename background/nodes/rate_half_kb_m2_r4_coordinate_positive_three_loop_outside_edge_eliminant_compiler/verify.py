@@ -19,6 +19,10 @@ PROBE = ROOT / (
     "experiments/prize_resolution/"
     "rate_half_kb_positive_three_loop_small_prime_probe.py"
 )
+FIXED_GROEBNER = ROOT / (
+    "experiments/prize_resolution/"
+    "rate_half_kb_positive_three_loop_fixed_kernel_groebner_probe.py"
+)
 
 
 def require(condition, message):
@@ -49,6 +53,17 @@ def main():
     )
     require("prime=13 timed_out=0 survivors=0" in replay.stdout,
             "F13 route replay")
+    fixed_replay = subprocess.run(
+        ["python3", str(FIXED_GROEBNER)],
+        check=True,
+        capture_output=True,
+        text=True,
+        timeout=15,
+    )
+    require(
+        "raw_full_units=7/8 saturated_full_units=8/8" in fixed_replay.stdout,
+        "fixed-kernel saturation replay",
+    )
 
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
@@ -68,7 +83,8 @@ def main():
     require("does not make a bare" in statement, "scope fence")
     print(
         "RATE_HALF_KB_POSITIVE_THREE_LOOP_EDGE_ELIMINANT_VERIFY_PASS "
-        "generic_terms=22 generic_degree=6 linear_degree=5 f13_survivors=0"
+        "generic_terms=22 generic_degree=6 linear_degree=5 "
+        "f13_survivors=0 fixed_saturated_units=8/8"
     )
 
 

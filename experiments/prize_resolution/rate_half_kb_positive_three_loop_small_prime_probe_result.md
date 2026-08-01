@@ -31,3 +31,20 @@ characteristics, and the probe tests the complete Vieta graph rather than
 all source-component conditions.  Its value is the repeated stronger
 failure mode: no tested assignment even realizes all seven records before
 the pairwise-label matching gate.
+
+The separate fixed-kernel Groebner probe works over the algebraic closure of
+`F_17`, not only at rational points.  It checks one admissible kernel in each
+common placement orbit.  The six noncycle edges already generate the unit
+ideal for root-high 442 and both 433 fixtures.  Root-low 442 leaves a
+nonunit six-edge ideal.  Its positive cycle sign gives the unit ideal; its
+negative cycle sign leaves exactly
+
+```text
+d^2=4,       e=f=-1,
+```
+
+which collides with the common target square-pairs `b^2=4` and `1`.
+Saturating by all six target-pair collision guards deletes it.  Thus seven
+of eight raw fixture/sign ideals and all eight saturated fixture/sign ideals
+are empty.  This remains fixed-kernel evidence, not a parametric lane
+deletion.

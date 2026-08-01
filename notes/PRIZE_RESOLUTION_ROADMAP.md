@@ -14023,3 +14023,25 @@ next route-deciding step: seek a saturated unit-ideal certificate from a
                           small subset of the seven target-edge eliminants,
                           treating 442 and 433 separately
 ```
+
+### Work-cycle route evidence: fixed-kernel outside ideals
+
+```text
+starting local pin:       6931f736 (outside-edge eliminant compiler)
+canonical prize pin:      026d8be7
+probe scope:              one admissible F17 kernel per common placement
+algebraic scope:          Groebner ideals over algebraic closure, not only
+                          F17 rational-point enumeration
+six-edge raw units:       3/4 fixtures (442 root-high; both 433)
+seven-edge raw units:     7/8 fixture/sign lanes
+remaining raw basis:      442 root-low, negative cycle:
+                          d^2=4, e=f=-1
+guard result:             target-square collisions with b^2=4 and 1
+saturated units:          8/8 fixture/sign lanes
+proof status:             heuristic fixed-kernel evidence only
+new external request:     CR-KB-POS3-SAT in PRIZE_COMPUTE_REQUESTS.md
+Modal status:             no launch and no cost
+next theorem step:        lift the six-plus-cycle computation over each
+                          parametric common residual lane and return exact
+                          saturation certificates
+```

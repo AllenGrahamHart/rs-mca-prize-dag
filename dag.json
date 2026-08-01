@@ -20705,6 +20705,7 @@
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/verify.py",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/verify_audit.py",
     "experiments/prize_resolution/rate_half_kb_positive_three_loop_outside_edge_eliminant.py",
+    "experiments/prize_resolution/rate_half_kb_positive_three_loop_fixed_kernel_groebner_probe.py",
     "experiments/prize_resolution/rate_half_kb_positive_three_loop_small_prime_probe.py",
     "experiments/prize_resolution/rate_half_kb_positive_three_loop_small_prime_probe_result.md"
    ]
