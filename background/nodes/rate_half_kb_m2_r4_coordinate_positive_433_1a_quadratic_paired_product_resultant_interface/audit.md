@@ -23,3 +23,7 @@
 8. Two single-case exact aligned eliminations timed out under explicit
    caps.  They justify avoiding raw Groebner fanout and prove no
    mathematical nonexistence statement.
+9. Near-aligned finite-field runs are `ap-WmRDAbdJ2aYTgHG83lIHP8`,
+   `ap-k9y0M76KmbUE4qf16AhLNz`, and
+   `ap-3u9hr5P3djUL4LhW10TZHm`.  Their empty small-prime rows and three
+   `F_29` lanes are evidence only.

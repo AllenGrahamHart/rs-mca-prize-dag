@@ -11183,6 +11183,10 @@ resultants exhausted the 180-second function cap in
 The exact `F_29` aligned probe with the missing-mate sum retains only 8
 common points and 16 target triples in role cell `5`, cycle `+1`
 (`ap-zH5YzdeJ1cG4hfyK6Q9eTJ`); this prioritizes but does not delete cells.
+The near-aligned probe retains 32 common points and 64 target triples in
+cells `4/-`, `5/+`, and `12/-` at `F_29`, while `F_13/F_17` are empty
+(`ap-3u9hr5P3djUL4LhW10TZHm`, `ap-WmRDAbdJ2aYTgHG83lIHP8`,
+`ap-k9y0M76KmbUE4qf16AhLNz`).  These also prioritize rather than delete.
 
 **Cost gate:** estimate the symmetry-reduced orbit count and run one case
 with basis-size, peak-memory, wall-time, and partial-basis telemetry.  Do

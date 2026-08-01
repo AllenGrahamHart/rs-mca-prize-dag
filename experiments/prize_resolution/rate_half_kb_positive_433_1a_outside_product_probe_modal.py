@@ -26,7 +26,7 @@ image = modal.Image.debian_slim().apt_install("gcc").add_local_file(
 
 @app.function(image=image, cpu=0.5, memory=256, timeout=60, max_containers=72)
 def probe_case(case):
-    prime, cell, epsilon_1, epsilon_2, cycle_sign = case
+    prime, cell, epsilon_1, epsilon_2, cycle_sign, alignment = case
     compiler = subprocess.run(
         ["gcc", "-O3", "-std=c11", REMOTE_SOURCE, "-o", REMOTE_BINARY],
         capture_output=True,
@@ -39,7 +39,7 @@ def probe_case(case):
     try:
         process = subprocess.run(
             [REMOTE_BINARY, str(prime), str(cell), str(epsilon_1),
-             str(epsilon_2), str(cycle_sign)],
+             str(epsilon_2), str(cycle_sign), str(alignment)],
             capture_output=True,
             text=True,
             timeout=40,
@@ -53,9 +53,13 @@ def probe_case(case):
 
 
 @app.local_entrypoint()
-def main(prime: int = 29):
+def main(prime: int = 29, alignment: str = "aligned"):
+    alignment_codes = {"aligned": 0, "near": 1}
+    if alignment not in alignment_codes:
+        raise ValueError("alignment must be 'aligned' or 'near'")
     cases = tuple(itertools.product(
-        (prime,), CELL_ORBIT_REPRESENTATIVES, (-1, 1), (-1, 1), (-1, 1)
+        (prime,), CELL_ORBIT_REPRESENTATIVES, (-1, 1), (-1, 1), (-1, 1),
+        (alignment_codes[alignment],)
     ))
     results = list(probe_case.map(cases))
     completed = [row for row in results if row["status"] == "COMPLETE"]
@@ -96,6 +100,7 @@ def main(prime: int = 29):
     print(json.dumps({
         "app": APP_NAME,
         "prime": prime,
+        "alignment": alignment,
         "case_count": len(results),
         "status_counts": dict(Counter(row["status"] for row in results)),
         "total_common_support_survivors": sum(
@@ -116,7 +121,7 @@ def main(prime: int = 29):
         "summaries": summaries,
         "noncomplete": [row for row in results if row["status"] != "COMPLETE"],
         "scope": (
-            f"F{prime} aligned xi=eta necessary quadratic paired-product "
+            f"F{prime} {alignment} necessary quadratic paired-product "
             "completion with the squared missing-mate sum; target/source "
             "choices are finite-field relaxations; no remaining outside "
             "sum, deployed-field, route, K3, or Prize conclusion"

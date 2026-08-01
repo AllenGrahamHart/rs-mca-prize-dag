@@ -73,3 +73,38 @@ frontier falls from `48` common points and `160` target triples to `8` and
 source choices; the six other outside sum rows are not imposed.
 
 Clean replay: `ap-zH5YzdeJ1cG4hfyK6Q9eTJ` (72/72 cases complete).
+
+## Near-aligned refinement
+
+The near-aligned mode places `xi` at a record distinct from the internal
+`eta` record, removes the forced `xi` record, and pairs the remaining six
+records over the three unused source deck pairs.  It imposes the same
+squared sum at `xi`.
+
+```text
+prime  common/cycle survivors  product points  product triples  sum points  sum triples
+13                         48               0                0           0            0
+17                        368               0                0           0            0
+29                       1072              88              288          32           64
+```
+
+The `F_29` missing-mate-sum survivors are exactly:
+
+```text
+cell  cycle sign  common points  target triples
+4             -1             16              32
+5             +1              8              16
+12            -1              8              16
+```
+
+All 72 cases at each prime completed.  Modal runs:
+
+```text
+F13  ap-WmRDAbdJ2aYTgHG83lIHP8
+F17  ap-k9y0M76KmbUE4qf16AhLNz
+F29  ap-3u9hr5P3djUL4LhW10TZHm
+```
+
+These are exact counts for the finite-field relaxation only.  In
+particular, `F_13/F_17` emptiness does not delete a deployed-field cell, and
+the `F_29` survivors have not passed the other six outside sum rows.

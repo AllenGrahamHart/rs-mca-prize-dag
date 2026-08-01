@@ -233,13 +233,13 @@ static int internal_sum_squared(
 
 static int missing_mate_sum_passes(
     const int kernel[COLS],
-    int eta_label,
-    int eta_denominator,
+    int xi_label,
+    int xi_denominator,
     int sum_squared
 ) {
-    int b1 = mod_i64(kernel[6] + (int64_t)kernel[7] * eta_label);
-    int left = mul(eta_label, mul(b1, b1));
-    int right = mul(sum_squared, mul(eta_denominator, eta_denominator));
+    int b1 = mod_i64(kernel[6] + (int64_t)kernel[7] * xi_label);
+    int left = mul(xi_label, mul(b1, b1));
+    int right = mul(sum_squared, mul(xi_denominator, xi_denominator));
     return left == right;
 }
 
@@ -247,22 +247,23 @@ static uint64_t outside_product_completions(
     int b,
     int c,
     int cycle_sign,
+    int alignment,
     int singleton_label,
     const int kernel[COLS],
     const int common_labels[5],
     uint64_t *pair_masks,
     uint64_t *sum_completions,
-    int example[8],
-    int sum_example[8]
+    int example[9],
+    int sum_example[9]
 ) {
     const int *denominator = kernel;
     const int *numerator = kernel + 3;
-    int eta_label = mod_i64(-singleton_label);
-    int eta_denominator = evaluate_quadratic(denominator, eta_label);
+    int xi_label = mod_i64(-singleton_label);
+    int xi_denominator = evaluate_quadratic(denominator, xi_label);
     *sum_completions = 0;
-    if (!eta_denominator) return 0;
-    int mate = mul(evaluate_quadratic(numerator, eta_label),
-                   inverse_table[eta_denominator]);
+    if (!xi_denominator) return 0;
+    int mate = mul(evaluate_quadratic(numerator, xi_label),
+                   inverse_table[xi_denominator]);
     build_product_pair_masks(kernel, common_labels, pair_masks);
 
     uint64_t completions = 0;
@@ -282,41 +283,57 @@ static uint64_t outside_product_completions(
                     mod_i64((int64_t)cycle_sign * e * f),
                 };
                 int colored[2] = {mul(b, e), mul(c, f)};
+                int outside[7] = {
+                    internal[0], internal[1], internal[2], internal[3],
+                    internal[4], colored[0], colored[1],
+                };
+                int sum_squared[7] = {
+                    internal_sum_squared(d, e, f, cycle_sign, 0),
+                    internal_sum_squared(d, e, f, cycle_sign, 1),
+                    internal_sum_squared(d, e, f, cycle_sign, 2),
+                    internal_sum_squared(d, e, f, cycle_sign, 3),
+                    internal_sum_squared(d, e, f, cycle_sign, 4),
+                    mul(mod_i64(b + e), mod_i64(b + e)),
+                    mul(mod_i64(c + f), mod_i64(c + f)),
+                };
                 int passes = 0, passes_sum = 0;
-                for (int eta_index = 0; eta_index < 5 && !passes_sum; ++eta_index) {
-                    if (internal[eta_index] != mate) continue;
-                    int records[6], used = 0;
-                    for (int index = 0; index < 5; ++index) {
-                        if (index != eta_index) records[used++] = internal[index];
-                    }
-                    records[used++] = colored[0];
-                    records[used++] = colored[1];
-                    if (pair_records_recursive(records, 6, 0, pair_masks)) {
-                        passes = 1;
-                        if (example[0] < 0) {
-                            example[0] = b;
-                            example[1] = c;
-                            example[2] = d;
-                            example[3] = e;
-                            example[4] = f;
-                            example[5] = mate;
-                            example[6] = eta_index;
-                            example[7] = cycle_sign;
+                for (int xi_index = 0; xi_index < 7 && !passes_sum; ++xi_index) {
+                    if (outside[xi_index] != mate) continue;
+                    for (int eta_index = 0; eta_index < 5 && !passes_sum;
+                         ++eta_index) {
+                        if ((alignment == 0) != (eta_index == xi_index)) continue;
+                        int records[6], used = 0;
+                        for (int index = 0; index < 7; ++index) {
+                            if (index != xi_index) records[used++] = outside[index];
                         }
-                        if (missing_mate_sum_passes(
-                                kernel, eta_label, eta_denominator,
-                                internal_sum_squared(
-                                    d, e, f, cycle_sign, eta_index))) {
-                            passes_sum = 1;
-                            if (sum_example[0] < 0) {
-                                sum_example[0] = b;
-                                sum_example[1] = c;
-                                sum_example[2] = d;
-                                sum_example[3] = e;
-                                sum_example[4] = f;
-                                sum_example[5] = mate;
-                                sum_example[6] = eta_index;
-                                sum_example[7] = cycle_sign;
+                        if (pair_records_recursive(records, 6, 0, pair_masks)) {
+                            passes = 1;
+                            if (example[0] < 0) {
+                                example[0] = b;
+                                example[1] = c;
+                                example[2] = d;
+                                example[3] = e;
+                                example[4] = f;
+                                example[5] = mate;
+                                example[6] = eta_index;
+                                example[7] = xi_index;
+                                example[8] = cycle_sign;
+                            }
+                            if (missing_mate_sum_passes(
+                                    kernel, xi_label, xi_denominator,
+                                    sum_squared[xi_index])) {
+                                passes_sum = 1;
+                                if (sum_example[0] < 0) {
+                                    sum_example[0] = b;
+                                    sum_example[1] = c;
+                                    sum_example[2] = d;
+                                    sum_example[3] = e;
+                                    sum_example[4] = f;
+                                    sum_example[5] = mate;
+                                    sum_example[6] = eta_index;
+                                    sum_example[7] = xi_index;
+                                    sum_example[8] = cycle_sign;
+                                }
                             }
                         }
                     }
@@ -385,18 +402,20 @@ static void sum_row(int row[COLS], int label, int q_value) {
 }
 
 int main(int argc, char **argv) {
-    if (argc != 5 && argc != 6) {
-        fprintf(stderr, "usage: %s PRIME CELL EPSILON1 EPSILON2 [CYCLE_SIGN]\n", argv[0]);
+    if (argc != 5 && argc != 6 && argc != 7) {
+        fprintf(stderr, "usage: %s PRIME CELL EPSILON1 EPSILON2 [CYCLE_SIGN [ALIGNMENT]]\n", argv[0]);
         return 2;
     }
     prime = atoi(argv[1]);
     int cell_index = atoi(argv[2]);
     int epsilon1 = atoi(argv[3]);
     int epsilon2 = atoi(argv[4]);
-    int outside_mode = argc == 6;
+    int outside_mode = argc >= 6;
     int cycle_sign = outside_mode ? atoi(argv[5]) : 0;
+    int alignment = argc == 7 ? atoi(argv[6]) : 0;
     if (prime >= 256 || prime <= 5 || (prime - 1) / 2 > 64
-        || cell_index < 0 || cell_index >= 15) return 2;
+        || cell_index < 0 || cell_index >= 15
+        || (alignment != 0 && alignment != 1)) return 2;
     for (int value = 1; value < prime; ++value) {
         inverse_table[value] = power(value, prime - 2);
     }
@@ -423,8 +442,8 @@ int main(int argc, char **argv) {
     uint64_t outside_target_completions = 0;
     uint64_t common_points_with_mate_sum = 0;
     uint64_t outside_mate_sum_target_completions = 0;
-    int outside_example[8] = {-1, -1, -1, -1, -1, -1, -1, -1};
-    int mate_sum_example[8] = {-1, -1, -1, -1, -1, -1, -1, -1};
+    int outside_example[9] = {-1, -1, -1, -1, -1, -1, -1, -1, -1};
+    int mate_sum_example[9] = {-1, -1, -1, -1, -1, -1, -1, -1, -1};
     uint64_t *pair_masks = outside_mode
         ? calloc((size_t)prime * prime, sizeof(uint64_t)) : NULL;
     if (outside_mode && !pair_masks) return 3;
@@ -493,7 +512,7 @@ int main(int argc, char **argv) {
                         } else {
                             uint64_t sum_completions = 0;
                             uint64_t completions = outside_product_completions(
-                                b, c, cycle_sign,
+                                b, c, cycle_sign, alignment,
                                 labels[cells[cell_index][0]],
                                 kernel, labels, pair_masks, &sum_completions,
                                 outside_example, mate_sum_example
@@ -514,14 +533,14 @@ int main(int argc, char **argv) {
         "\"iota\":%d,\"admissible\":%llu,\"base_rank_six\":%llu,"
         "\"rank_survivors\":%llu,\"support_survivors\":%llu,"
         "\"zero_branch\":%llu,\"pivot_counts\":[%llu,%llu,%llu,%llu],"
-        "\"outside_mode\":%d,\"cycle_sign\":%d,"
+        "\"outside_mode\":%d,\"cycle_sign\":%d,\"alignment\":%d,"
         "\"outside_nonunique_kernel\":%llu,"
         "\"common_points_with_outside\":%llu,"
         "\"outside_target_completions\":%llu,"
-        "\"outside_example\":[%d,%d,%d,%d,%d,%d,%d,%d],"
+        "\"outside_example\":[%d,%d,%d,%d,%d,%d,%d,%d,%d],"
         "\"common_points_with_mate_sum\":%llu,"
         "\"outside_mate_sum_target_completions\":%llu,"
-        "\"mate_sum_example\":[%d,%d,%d,%d,%d,%d,%d,%d],"
+        "\"mate_sum_example\":[%d,%d,%d,%d,%d,%d,%d,%d,%d],"
         "\"rank_histogram\":[%llu,%llu,%llu,%llu,%llu,%llu,%llu,%llu,%llu]}\n",
         prime, cell_index, epsilon1, epsilon2, iota,
         (unsigned long long)admissible,
@@ -535,17 +554,18 @@ int main(int argc, char **argv) {
         (unsigned long long)pivot_counts[3],
         outside_mode,
         cycle_sign,
+        alignment,
         (unsigned long long)outside_nonunique_kernel,
         (unsigned long long)common_points_with_outside,
         (unsigned long long)outside_target_completions,
         outside_example[0], outside_example[1], outside_example[2],
         outside_example[3], outside_example[4], outside_example[5],
-        outside_example[6], outside_example[7],
+        outside_example[6], outside_example[7], outside_example[8],
         (unsigned long long)common_points_with_mate_sum,
         (unsigned long long)outside_mate_sum_target_completions,
         mate_sum_example[0], mate_sum_example[1], mate_sum_example[2],
         mate_sum_example[3], mate_sum_example[4], mate_sum_example[5],
-        mate_sum_example[6], mate_sum_example[7],
+        mate_sum_example[6], mate_sum_example[7], mate_sum_example[8],
         (unsigned long long)rank_histogram[0],
         (unsigned long long)rank_histogram[1],
         (unsigned long long)rank_histogram[2],

@@ -14372,6 +14372,13 @@ scope correction:         finite probe is aligned xi=eta only; no
 mate-sum refinement:      second F29 run cuts 48 common points / 160 target
                           triples to 8 / 16, all cell 5 and cycle +1
 mate-sum Modal run:       ap-zH5YzdeJ1cG4hfyK6Q9eTJ (72/72 complete)
+near-aligned evidence:    F13 0/48, F17 0/368 product completions;
+                          F29 88/1072 product points -> 32/1072 after sum
+near F29 lanes:           cell 4 cycle -, cell 5 cycle +, cell 12 cycle -;
+                          64 target triples total
+near Modal runs:          ap-WmRDAbdJ2aYTgHG83lIHP8,
+                          ap-k9y0M76KmbUE4qf16AhLNz,
+                          ap-3u9hr5P3djUL4LhW10TZHm
 compute boundary:         direct and reduced-resultant single-case
                           Singular pilots timed out at 130/180 seconds;
                           no raw Groebner fanout

@@ -9,7 +9,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/verify.py",
-      "seconds": 0.051922,
+      "seconds": 0.048229,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "positive 433-1a quadratic paired-product interface verified\n"
@@ -17,7 +17,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/verify_audit.py",
-      "seconds": 0.030525,
+      "seconds": 0.026613,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "positive 433-1a paired-product audit verified\n"
