@@ -3058,3 +3058,15 @@ S0: 3360 unit ideals, S1: 6720, S2: 1680; total 11760.
 The reverse variable order reproduces the census.  No outside q equations
 are needed.  Delete `[3,6]`; the remaining live one-loop 433 common orbits
 are `[4,5,7,8]`, `[9,10,12,13]`, and `[11,14]`.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion`
+deletes the next orbit `[4,5,7,8]` at the common stage.  In representative
+cell `4`, both q welds are linear in the singleton root.  Product elimination
+is linear in `c`, and the protected square equation is independent of `c`.
+After lost-degree branches reduce to guards, the four root-sign resultants
+are squares of four irreducible cubics over the deployed field.  An
+independent Frobenius/gcd audit confirms no cubic has a base-field root.
+Target sign, target exchange, and their composition cover cells `5,7,8`.
+The live one-loop 433 common frontier is now only `[9,10,12,13]` and
+`[11,14]`.

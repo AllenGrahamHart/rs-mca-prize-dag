@@ -13615,3 +13615,22 @@ Modal status:             no launch and no cost
 next route-deciding step: common orbits [4,5,7,8], [9,10,12,13],
                           and [11,14]
 ```
+
+### Work-cycle burn-down: one-loop 433 mixed-orbit exclusion
+
+```text
+starting local pin:       5b048adc (cells 3/6 complete exclusion)
+ending local theorem pin: current cells 4/5/7/8 common exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / one-loop 433 mixed matching orbit
+result:                   PROVED orbit [4,5,7,8] is empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-subcase deletion)
+route:                    linear q, linear-c product, protected t^2
+terminal obstruction:     4 irreducible deployed-field cubics
+independent replay:       Frobenius/gcd gives 0 base-field roots
+outside work required:    none
+Modal status:             no launch and no cost
+next route-deciding step: common orbits [9,10,12,13] and [11,14]
+```
