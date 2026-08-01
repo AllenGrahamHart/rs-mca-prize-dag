@@ -20436,6 +20436,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 aligned loop-q exclusion",
+   "status": "PROVED",
+   "closure": "complete outside-loop q deletion of both aligned common families",
+   "statement": "The five common rows determine F(W)=b/W and A_1 proportional to (W-c)(W-i) in aligned family A, and F(W)=bW with A_1 proportional to (W+b)(W-i) in family B. The common loop uses the first root. Every product-level S1 or S2 survivor has one outside loop, whose zero q value and nonzero B_2 force the second root W=i. Its product F(i)=r in A or ib in B contradicts respectively the routed S1 quartic or S2 forced-loop product. Thus all aligned product survivors are empty before the other outside q rows or full interpolation.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion",
    "title": "KoalaBear m2 r4 coordinate negative one-loop 442 nonloop-singleton opposite-pair exclusion",
    "status": "PROVED",
@@ -40352,6 +40372,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

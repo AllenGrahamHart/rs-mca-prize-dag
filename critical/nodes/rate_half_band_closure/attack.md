@@ -2939,3 +2939,23 @@ source guard.  All four sign rows and cells `[4,5,7,8]` are empty.  The
 only remaining one-loop 442 work is the aligned loop-singleton family:
 its surviving product cells still require the q weld and full
 interpolation.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion`
+closes that final family before a full outside interpolation.  The common
+Vieta rows compile to
+
+```text
+A: F(W)=b/W, A_1 proportional to (W-c)(W-i),
+B: F(W)=bW,  A_1 proportional to (W+b)(W-i).
+```
+
+The common loop occupies `W=c` or `W=-b`.  Every retained `S1/S2`
+skeleton has one outside loop, so `q=0` and pointwise `B_2!=0` force its
+label to the other root `W=i`.  Its product is therefore `r` in family A
+or `ib` in family B.  For `S1`, this contradicts
+`d^4=-alpha*beta*gamma*delta*b^2c^2`; for `S2`, it contradicts the
+forced product `b^2`.  Thus the aligned orbit is empty and no nonloop
+outside q row is needed.  Compose this with the crossed and four
+nonloop-singleton orbit dispositions to close the complete one-loop 442
+matching atlas.

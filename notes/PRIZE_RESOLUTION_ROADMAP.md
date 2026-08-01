@@ -13496,3 +13496,23 @@ Modal status:             no launch and no cost
 next route-deciding step: aligned loop-singleton surviving product cells;
                           apply q weld, then full interpolation
 ```
+
+### Work-cycle burn-down: aligned loop-singleton q close
+
+```text
+starting local pin:       c2442c67 (final nonloop common-orbit exclusion)
+ending local theorem pin: current aligned outside-loop q exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / aligned one-loop 442 product survivors
+result:                   PROVED S1-DE, S1-DF, and S2 are empty
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact aligned-orbit deletion)
+common q numerators:      (W-c)(W-i) and (W+b)(W-i)
+forced second loop:       W=i, product r or i*b
+contradiction:            S1 quartic ledger or S2 forced product
+obsolete stages:          six outside nonloop q rows and full interpolation
+Modal status:             no launch and no cost
+next route-deciding step: compose all six matching-orbit dispositions into
+                          a complete one-loop 442 exclusion
+```
