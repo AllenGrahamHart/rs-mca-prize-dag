@@ -20799,7 +20799,7 @@
    "title": "KoalaBear m2 r4 positive 433-1a common Vieta minor compiler",
    "status": "PROVED",
    "closure": "exact fifteen-cell, sixty-sign-row common matching atlas with six guarded Vieta minors per principal row",
-   "statement": "The positive 433-1a common records admit exactly fifteen singleton/pair matching cells and four source-root sign rows per cell; swapping the duplicate AB+ roles gives nine role orbits. On the base-rank-six stratum, the 10 x 8 common Vieta matrix has a kernel exactly when six explicit 8 x 8 minors vanish. All 360 deployed-field minors are compiled; their solution sets and the base-rank-drop branch remain open.",
+   "statement": "The positive 433-1a common records admit exactly fifteen singleton/pair matching cells and four source-root sign rows per cell; swapping the duplicate AB+ roles gives nine role orbits. On the base-rank-six stratum, the 10 x 8 common Vieta matrix has a kernel exactly when six explicit 8 x 8 minors vanish. All 360 deployed-field minors are compiled and admissible-guard stripping reduces their degrees from 18..23 to 6..12; their solution sets and the base-rank-drop branch remain open.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/statement.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/proof.md",
@@ -20814,6 +20814,26 @@
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/verify_audit.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1a_common_vieta_compiler.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1a_common_vieta_compiler_modal.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction",
+   "title": "KoalaBear m2 r4 positive 433-1a common Vieta pivot-chart reduction",
+   "status": "PROVED",
+   "closure": "exact four-chart three-minor cover plus retained all-zero quotient-image branch",
+   "statement": "On the rank-six base stratum, quotienting the four nonloop sum rows gives four vectors in dimension two. Common rank at most seven is exactly the union of the all-zero-image branch and four nonzero-pivot charts, each cut out by the three pair minors incident to its pivot. The base-rank-drop branch and all chart solution sets remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/verify_audit.py"
    ]
   },
   {
@@ -41343,6 +41363,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

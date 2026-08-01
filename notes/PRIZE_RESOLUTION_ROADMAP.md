@@ -14235,6 +14235,24 @@ next route-deciding step: compile four pivot charts plus the all-zero-image
                           ideals before adding outside rows
 ```
 
+### Work-cycle theorem: positive 433-1a common pivot charts
+
+```text
+starting local pin:       bafa14c7 (guard-stripped common minors)
+ending local theorem pin: current exact pivot-chart reduction
+node/workboard attacked:  K3 / positive 433-1a common rank condition
+result:                   PROVED four-chart rank-one cover
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+principal geometry:       four vectors in a two-dimensional quotient
+nonzero charts:           4, each with exactly 3 incident minors
+degenerate branch:        all four quotient images zero, retained
+base-rank-drop branch:    retained outside theorem scope
+compute discipline:       proof is exact linear algebra; no Modal launch
+next route-deciding step: classify the nine role-orbit representatives by
+                          small-prime chart dimension, then reserve exact
+                          elimination for route-distinguishing charts
+```
+
 ### Work-cycle outbound custody: global positive loop cap
 
 ```text
