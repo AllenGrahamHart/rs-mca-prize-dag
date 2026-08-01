@@ -103,3 +103,23 @@ list — and the board's machinery takes over.
   pre-registered; proposals should state what would fire it.
 - Constants explicit everywhere; "sufficiently large p" without a bound
   does not compose with official rows (which pin `p` families exactly).
+
+> **[CORRECTION + ANSWER 2026-08-01 — from the Pro dossier, audited and
+> accepted.]** (1) The "max-to-mean/period-norm" framing above (inherited
+> from the node statement) is NOT the executable target: the magnitude
+> theory is largely banked, and the live residue is the SIGNED WEIGHTED
+> PARITY ALIGNMENT of epsilon_c = (-1)^(K_c+U_c) against exp(S_c) after
+> corrected structural-drift subtraction. Exact fence: balanced signs with
+> modulus max/mean 3/2 can still have normalized alignment sqrt(N/5) >
+> 2^15 — sign-only and magnitude-only theorems are insufficient. A
+> consumer-exact sibling (f2_weighted_parity_alignment) is endorsed,
+> minted after the PP5.0 seam theorem. (2) Our sharpest question is
+> ANSWERED: per-rung 2^(n_r/3) suffices under pessimistic log-additive
+> composition (732,996,567,040 of the 1.05e12 bits; n_r/2 fails;
+> theta* = 0.4775) — square-root cancellation may be unnecessary, pending
+> the seam. One contraction bit per 43 moving coordinates clears the
+> campaign proxy. (3) The requested literature re-sweep found one genuine
+> post-sweep item (Cornelissen-Hokken-Ringeling, June 2026 revision):
+> method lead only — its fixed-k error is vacuous at tower shape and it
+> treats Mahler magnitude, not parity. See
+> `responses/BRIEF5_PRO_DOSSIER.md` and `responses/BRIEF5_DOSSIER_AUDIT.md`.
