@@ -12,7 +12,7 @@ NODE_ID = (
     "quadratic_paired_product_resultant_interface"
 )
 PARENTS = {
-    "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate",
+    "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
     "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
     "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
 }
@@ -99,6 +99,15 @@ def main():
         q = tuple(((-1) ** i) * (a0[i] - z * a2[i])
                   for i in range(3))
         require(resultant_formula(p, q) == 0, "forced deck-pair cut")
+
+    for source_root in map(Fraction, (1, 2, 3, 4)):
+        xi = source_root**2
+        target_sum = Fraction(7)
+        denominator = evaluate(a2, xi)
+        q_value = source_root * target_sum
+        b1_value = -(q_value * denominator) / xi
+        require(xi * b1_value**2 == target_sum**2 * denominator**2,
+                "squared sum identity")
 
     matchings = tuple(perfect_matchings(range(6)))
     require(len(matchings) == 15 and len(set(matchings)) == 15,

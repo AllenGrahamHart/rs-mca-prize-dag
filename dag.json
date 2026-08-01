@@ -20901,11 +20901,31 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
+   "title": "KoalaBear m2 r4 positive 433-1a common-kernel uniqueness",
+   "status": "PROVED",
+   "closure": "global exclusion of the zero quotient-image branch and uniqueness of every common-survivor coefficient kernel",
+   "statement": "Global base rank six and the final two sum-row columns prove that every nonloop quotient image is nonzero. Hence the degenerate Z branch is empty, every common survivor has rank seven, all four pivot charts apply, and the full coefficient kernel is unique up to scale.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
    "title": "KoalaBear m2 r4 positive 433-1a quadratic paired-product resultant interface",
    "status": "PROVED",
-   "closure": "unique common quadratic product map, forced missing-mate equation, and exhaustive three-resultant outside-product ledger",
-   "statement": "Every principal positive 433-1a to O0b survivor has a unique quadratic rational product map. The singleton's missing mate forces one outside product, and the remaining six records satisfy three explicit quadratic resultants in an exhaustive 525-case ledger per common row and cycle sign. Resultant survival, outside sums, and route deletion remain open.",
+   "closure": "unique full common kernel, forced missing-mate product and squared-sum equations, and exhaustive three-resultant outside ledger",
+   "statement": "Every principal positive 433-1a to O0b survivor has a unique full coefficient kernel. The singleton's missing mate forces one outside product and one square-root-free sum equation, while the remaining six records satisfy three explicit quadratic resultants in an exhaustive 525-case ledger per common row and cycle sign. Resultant survival, six outside sums, and route deletion remain open.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/statement.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/proof.md",
@@ -41506,8 +41526,23 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",

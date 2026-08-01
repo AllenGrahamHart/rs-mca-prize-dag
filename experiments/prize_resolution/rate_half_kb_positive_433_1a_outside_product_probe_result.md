@@ -11,7 +11,7 @@ products occupy that record, and asks whether the remaining six target
 products can be assigned to three distinct unused antipodal source-label
 pairs.  Target representatives and unused source pairs range over the
 whole small field, so survival is only a necessary relaxed completion.
-Outside sum rows are not imposed.
+The original three runs imposed no outside sum row.
 
 ## Exact counts
 
@@ -53,3 +53,23 @@ the 180-second Modal function cap (`ap-ZAFf2iYtIe9hzMCa6lMD0g`).
 
 These timeouts reject a raw all-case Groebner fanout as the next route.
 They do not imply that the ideal is nonunit or that any packet exists.
+
+## Missing-mate sum refinement
+
+The common loop and any nonloop common sum row reconstruct the full common
+coefficient kernel.  A second exact `F_29` run also imposed the
+square-root-free sum equation at the aligned missing mate.  It retained
+only:
+
+```text
+cell  cycle sign  common points  target triples
+5             +1              8              16
+```
+
+Every product survivor in cell `5`, cycle `-1`, and in both signs of cell
+`12` fails this first outside sum equation.  Thus the aggregate aligned
+frontier falls from `48` common points and `160` target triples to `8` and
+`16`.  This remains finite-field evidence under the same relaxed target and
+source choices; the six other outside sum rows are not imposed.
+
+Clean replay: `ap-zH5YzdeJ1cG4hfyK6Q9eTJ` (72/72 cases complete).

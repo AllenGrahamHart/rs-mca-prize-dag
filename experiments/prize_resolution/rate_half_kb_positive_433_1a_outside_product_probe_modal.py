@@ -78,9 +78,19 @@ def main(prime: int = 29):
             "outside_target_completions": sum(
                 row["outside_target_completions"] for row in rows
             ),
+            "common_points_with_mate_sum": sum(
+                row["common_points_with_mate_sum"] for row in rows
+            ),
+            "outside_mate_sum_target_completions": sum(
+                row["outside_mate_sum_target_completions"] for row in rows
+            ),
             "first_example": next(
                 (row["outside_example"] for row in rows
                  if row["outside_example"][0] >= 0), None
+            ),
+            "first_mate_sum_example": next(
+                (row["mate_sum_example"] for row in rows
+                 if row["mate_sum_example"][0] >= 0), None
             ),
         })
     print(json.dumps({
@@ -97,12 +107,18 @@ def main(prime: int = 29):
         "total_outside_target_completions": sum(
             row["outside_target_completions"] for row in completed
         ),
+        "total_common_points_with_mate_sum": sum(
+            row["common_points_with_mate_sum"] for row in completed
+        ),
+        "total_outside_mate_sum_target_completions": sum(
+            row["outside_mate_sum_target_completions"] for row in completed
+        ),
         "summaries": summaries,
         "noncomplete": [row for row in results if row["status"] != "COMPLETE"],
         "scope": (
             f"F{prime} aligned xi=eta necessary quadratic paired-product "
-            "completion only; target/source choices are finite-field "
-            "relaxations; no outside sum, deployed-field, route, K3, or "
-            "Prize conclusion"
+            "completion with the squared missing-mate sum; target/source "
+            "choices are finite-field relaxations; no remaining outside "
+            "sum, deployed-field, route, K3, or Prize conclusion"
         ),
     }, sort_keys=True))

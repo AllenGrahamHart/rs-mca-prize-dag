@@ -14352,14 +14352,14 @@ review state:             DRAFT; K3 and the KoalaBear row remain open
 starting local pin:       d8dc40e6 (global common product-base rank)
 ending local theorem pin: current quadratic paired-product interface
 node/workboard attacked:  K3 / positive 433-1a outside products
-result:                   PROVED exact necessary outside-product compiler
+result:                   PROVED exact necessary product/sum compiler
 DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
-common product map:       unique quadratic ratio A0/A2 in every cell
+common coefficient map:   unique full A2,A0,B1 kernel in every cell
 forced source label:      xi=-M, distinct from eta unless L=I
 outside case ledger:      5 eta choices * 7 xi records * 15 matchings
                           = 525 cases per common row and cycle sign
-equations per case:       one missing-mate product equation plus three
-                          explicit quadratic resultants
+equations per case:       missing-mate product and squared-sum equations
+                          plus three explicit quadratic resultants
 aligned finite evidence:  F13 0/48, F17 0/368, F29 48/1072 relaxed
                           common/cycle survivors admit a completion
 F29 localization:         only role cells 5 and 12 survive; 160 target
@@ -14368,10 +14368,34 @@ Modal runs:               ap-GbxO9Tzy9FDXWd2iXX7urQ,
                           ap-qsdj1fpjiAdp2fcONyLWT9,
                           ap-AfDUnxANc4VDtbuKAv219S
 scope correction:         finite probe is aligned xi=eta only; no
-                          near-aligned or outside-sum conclusion
+                          near-aligned conclusion
+mate-sum refinement:      second F29 run cuts 48 common points / 160 target
+                          triples to 8 / 16, all cell 5 and cycle +1
+mate-sum Modal run:       ap-zH5YzdeJ1cG4hfyK6Q9eTJ (72/72 complete)
 compute boundary:         direct and reduced-resultant single-case
                           Singular pilots timed out at 130/180 seconds;
                           no raw Groebner fanout
 next route-deciding step: quotient eta/xi/matching symmetries and append
-                          the forced-mate sum row before exact elimination
+                          one remaining outside sum before elimination
+```
+
+### Work-cycle theorem: positive 433-1a common-kernel uniqueness
+
+```text
+starting local pin:       827a319c (quadratic outside-product compiler)
+ending local theorem pin: current common-kernel uniqueness theorem
+node/workboard attacked:  K3 / positive 433-1a common rank branches
+result:                   PROVED zero-image branch empty and kernel unique
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge;
+                          paired-product dependency rerouted through child
+base rank:                six globally by parent theorem
+nonloop quotient images:  all four nonzero because the last-two-column
+                          determinant is lambda0*lambda_i*(lambda_i-lambda0)
+common survivor rank:     exactly seven
+coefficient kernel:       one-dimensional A2,A0,B1 line
+pivot consequence:        every survivor lies in all four charts
+computation:              none; direct two-column linear algebra
+branch deletion:          both base-rank drop and all-zero image are gone
+next route-deciding step: substitute the unique kernel into missing-mate
+                          product/sum cuts before residual resultants
 ```

@@ -11152,7 +11152,7 @@ of one aligned case already exhausted 130-second and 180-second caps.
 
 **Pinned inputs:**
 
-- the global product-base rank certificate and its signed maximal cofactors;
+- the common-kernel uniqueness theorem and its full `A_2,A_0,B_1` vector;
 - the quadratic paired-product resultant interface, including the separate
   `eta` and missing-mate `xi` choices;
 - the two signed `O0b` target lanes;
@@ -11165,11 +11165,12 @@ eta/xi/matching group action and print canonical orbit representatives.
 
 For one canonical representative:
 
-1. substitute the missing-mate product equation before elimination;
+1. substitute the missing-mate product and squared-sum equations before
+   elimination;
 2. impose the three quadratic resultants without introducing source-root
    variables unless the resultant survivor must be lifted;
-3. append at least the outside sum row at `xi` before running a standard
-   basis;
+3. append at least one of the six remaining outside sum rows before running
+   a standard basis;
 4. saturate all common/outside leading-support, source-label, target-pair,
    and denominator guards;
 5. return a replayable unit certificate or a guarded lifted survivor with
@@ -11179,6 +11180,9 @@ For one canonical representative:
 seconds in Modal run `ap-E6pJY7vJcqMmRTbdjiXkQ9`.  Three reduced quadratic
 resultants exhausted the 180-second function cap in
 `ap-ZAFf2iYtIe9hzMCa6lMD0g`.  These are failed algorithms, not survivors.
+The exact `F_29` aligned probe with the missing-mate sum retains only 8
+common points and 16 target triples in role cell `5`, cycle `+1`
+(`ap-zH5YzdeJ1cG4hfyK6Q9eTJ`); this prioritizes but does not delete cells.
 
 **Cost gate:** estimate the symmetry-reduced orbit count and run one case
 with basis-size, peak-memory, wall-time, and partial-basis telemetry.  Do

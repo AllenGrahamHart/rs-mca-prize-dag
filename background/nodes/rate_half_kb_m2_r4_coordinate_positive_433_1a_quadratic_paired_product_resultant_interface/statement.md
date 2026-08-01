@@ -4,7 +4,7 @@
 - **scope:** every principal common survivor of the positive route
   `433-1a -> O0b`
 - **dependencies:**
-  `rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate`,
+  `rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness`,
   `rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas`,
   and `rate_half_kb_m2_r4_order2_coordinate_source_facet_signature`
 - **consumer:** `rate_half_band_closure`
@@ -15,13 +15,13 @@ Let the five common quotient labels be two deck pairs and a singleton,
 K={lambda,-lambda,mu,-mu,M},       xi=-M.          (KBPQI-1)
 ```
 
-For one of the fifteen matching cells, let `P` be its `5 x 6` common
-product matrix.  The global base-rank theorem gives `rank P=5`.  Its signed
-maximal cofactors therefore give, uniquely up to a common nonzero scalar,
+For one of the fifteen matching cells, common-kernel uniqueness gives,
+uniquely up to a common nonzero scalar,
 
 ```text
 A_2(W)=d_0+d_1 W+d_2 W^2,
 A_0(W)=e_0+e_1 W+e_2 W^2,
+B_1(W)=beta_0+beta_1 W,
 F(W)=A_0(W)/A_2(W).                                (KBPQI-2)
 ```
 
@@ -68,13 +68,25 @@ necessary case ledger
                                                                (KBPQI-6)
 ```
 
-The ledger may be pruned by equality in `(KBPQI-3)`, leading support,
-source-label distinctness, and the three resultants before any outside sum
-row is constructed.
+If the target record `x=epsilon uv` at `xi` has squared target sum
+
+```text
+s_x^2=u^2+v^2+2x,
+```
+
+then the sum half of the Vieta equation supplies the square-root-free cut
+
+```text
+xi B_1(xi)^2-s_x^2 A_2(xi)^2=0.                   (KBPQI-7)
+```
+
+The ledger may be pruned by `(KBPQI-3)`, `(KBPQI-7)`, leading support,
+source-label distinctness, and the three resultants before any of the six
+remaining outside sum rows is constructed.
 
 This theorem does not claim that a resultant survivor lifts to three
-distinct unused source deck pairs, satisfies an outside sum row, is
-realizable, or deletes either alignment branch.  It does not close
+distinct unused source deck pairs, satisfies the six remaining outside sum
+rows, is realizable, or deletes either alignment branch.  It does not close
 `433-1a -> O0b`, positive coordinate parity, K3, a Prize row, or either
 Prize result.
 
@@ -83,4 +95,4 @@ Prize result.
 An actual principal `433-1a -> O0b` packet whose common product map is not
 `(KBPQI-2)`, whose missing mate violates `(KBPQI-3)`, whose residual
 outside records admit no ledger case in `(KBPQI-6)`, or whose actual deck
-pair violates `(KBPQI-4)`.
+pair violates `(KBPQI-4)` or missing-mate sum violates `(KBPQI-7)`.

@@ -7,12 +7,13 @@ The common product matrix has rows
   1,lambda_j,lambda_j^2].                         (1)
 ```
 
-Its rank is five by the global product-base theorem.  The six signed
+Its rank is five by the common-kernel theorem.  The six signed
 maximal cofactors therefore span its one-dimensional kernel.  Writing that
 kernel vector as the coefficients of `A_2,A_0` makes (1) exactly
 `A_0(lambda_j)=p_j A_2(lambda_j)`, proving `(KBPQI-2)` on the common
-labels.  The complete-fiber Vieta theorem applies the same coefficient
-vector at all twelve labels and supplies `A_2(kappa)!=0` there.
+labels.  Common-kernel uniqueness fixes `B_1` at the same scale.  The
+complete-fiber Vieta theorem applies this coefficient vector at all twelve
+labels and supplies `A_2(kappa)!=0` there.
 
 The source-facet theorem makes the six-set `I` deck invariant.  Since its
 intersection with `L` is the five-set `(KBPQI-1)`, the sixth member is the
@@ -39,4 +40,16 @@ perfect matchings, each satisfying `(KBPQI-4)`.  There are five possible
 internal `eta` records, seven possible `xi` records, and fifteen perfect
 matchings of six objects, proving `(KBPQI-6)`.  The aligned case permits
 the `eta` and `xi` choices to name the same internal record; in the
-near-aligned case they name distinct source records. QED.
+near-aligned case they name distinct source records.
+
+Finally choose a source square root `z_xi` above `xi` and let `s_x` be the
+target-root sum at its star.  The invariant sum record is
+`q_xi=z_xi s_x`, so `q_xi^2=xi s_x^2`.  The positive Vieta sum equation is
+
+```text
+xi B_1(xi)+q_xi A_2(xi)=0.
+```
+
+Squaring and dividing by the nonzero source label `xi` gives exactly
+`(KBPQI-7)`.  This equation is independent of the choice of source square
+root and target-edge orientation. QED.
