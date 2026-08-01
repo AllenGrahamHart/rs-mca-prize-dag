@@ -67,7 +67,23 @@ def primitive(expression, variables):
     return polynomial.monic().as_expr()
 
 
-def compile_cell(cell_index, epsilon_1, epsilon_2):
+def strip_factors(expression, factors, variables):
+    polynomial = sp.Poly(expression, *variables, modulus=PRIME)
+    for factor in factors:
+        divisor = sp.Poly(factor, *variables, modulus=PRIME)
+        if divisor.total_degree() == 0:
+            continue
+        while True:
+            quotient, remainder = sp.div(polynomial, divisor)
+            if not remainder.is_zero:
+                break
+            polynomial = quotient
+    if polynomial.is_zero:
+        return sp.Integer(0)
+    return polynomial.monic().as_expr()
+
+
+def compile_cell(cell_index, epsilon_1, epsilon_2, strip_fast=False):
     b, c, r, t = sp.symbols("b c r t")
     variables = (t, r, c, b)
     singleton, matching = cells()[cell_index]
@@ -99,6 +115,18 @@ def compile_cell(cell_index, epsilon_1, epsilon_2):
     for left, right in itertools.combinations(range(1, 5), 2):
         matrix = sp.Matrix.vstack(*base, sum_rows[left], sum_rows[right])
         equations.append(primitive(matrix.det(method="domain-ge"), variables))
+    if strip_fast:
+        source_guards = [
+            labels[left] - labels[right]
+            for left, right in itertools.combinations(range(5), 2)
+        ]
+        target_guards = [
+            r, t, b, c, b - 1, b + 1, c - 1, c + 1, b - c, b + c,
+        ]
+        equations = [
+            strip_factors(equation, [*target_guards, *source_guards], variables)
+            for equation in equations
+        ]
     return variables, tuple(equations), {
         "singleton": singleton,
         "matching": matching,
@@ -120,15 +148,32 @@ def polynomial_summary(expression, variables):
     }
 
 
+def gcd_summary(equations, variables):
+    polynomials = [sp.Poly(value, *variables, modulus=PRIME) for value in equations]
+    common = polynomials[0]
+    for polynomial in polynomials[1:]:
+        common = common.gcd(polynomial)
+    common = common.monic()
+    text = str(common.as_expr())
+    return {
+        "total_degree": common.total_degree(),
+        "terms": len(common.terms()),
+        "sha256": hashlib.sha256(text.encode()).hexdigest(),
+    }
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--cell", type=int, choices=range(15), required=True)
     parser.add_argument("--epsilon-1", type=int, choices=(-1, 1), required=True)
     parser.add_argument("--epsilon-2", type=int, choices=(-1, 1), required=True)
+    parser.add_argument("--strip-fast", action="store_true")
+    parser.add_argument("--gcd-summary", action="store_true")
     parser.add_argument("--dump", action="store_true")
     arguments = parser.parse_args()
     variables, equations, metadata = compile_cell(
-        arguments.cell, arguments.epsilon_1, arguments.epsilon_2
+        arguments.cell, arguments.epsilon_1, arguments.epsilon_2,
+        strip_fast=arguments.strip_fast,
     )
     output = {
         "cell": arguments.cell,
@@ -140,9 +185,12 @@ def main():
         "matrix_shape": [10, 8],
         "base_rank_guard": 6,
         "minor_count": len(equations),
+        "mode": "stripped" if arguments.strip_fast else "raw",
         "minor_summaries": [
             polynomial_summary(equation, variables) for equation in equations
         ],
+        "joint_gcd_summary": gcd_summary(equations, variables)
+        if arguments.strip_fast and arguments.gcd_summary else None,
     }
     print(json.dumps(output, sort_keys=True), flush=True)
     if arguments.dump:

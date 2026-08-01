@@ -62,9 +62,14 @@ def main():
     require("rank B=6" in statement and "rank B<6" in statement,
             "rank guard and branch")
     require("360 minors total" in statement, "compiled count")
+    require("localization-preserving reduction" in statement,
+            "guard-stripped scope")
+    require("10:168" in statement and "term range `16..88`" in statement,
+            "stripped census")
     print(
         "RATE_HALF_KB_POSITIVE_433_1A_COMMON_VIETA_MINOR_VERIFY_PASS "
-        "cells=15 role_orbits=9 sign_rows=60 minors=360 degree=18,20,21,23"
+        "cells=15 role_orbits=9 sign_rows=60 minors=360 "
+        "raw_degree=18,20,21,23 stripped_degree=6..12"
     )
 
 

@@ -63,8 +63,24 @@ vanish, where `i,j` run over the four nonloop rows.
 Over the deployed field `p=2130706433`, exact symbolic compilation
 completed all sixty rows: 360 minors total, with degree histogram
 `18:156, 20:16, 21:180, 23:8`, term range `64..240`, and 110 distinct
-polynomial digests.  The separate branch `rank B<6` is retained and is
-not deleted by `(KBPCM-4)`.
+polynomial digests.  On the admissible open stratum, strip every repeated
+factor drawn from the ten source-label differences and
+
+```text
+r,t,b,c,b-1,b+1,c-1,c+1,b-c,b+c.                 (KBPCM-5)
+```
+
+All sixty stripped rows also compile exactly.  Their 360 minors have degree
+histogram
+
+```text
+6:4, 7:12, 8:40, 9:16, 10:168, 11:112, 12:8,
+```
+
+term range `16..88`, and 110 distinct polynomial digests.  This is a
+localization-preserving reduction, not a solution of the minor systems.
+The separate branch `rank B<6` is retained and is not deleted by
+`(KBPCM-4)`.
 
 This theorem does not solve the six-minor systems, assign the seven
 outside fibers, impose their Vieta rows, prove either sign lane realizable
@@ -74,5 +90,6 @@ prove either Prize result.
 ## Falsifier
 
 An actual principal-stratum common packet outside the fifteen matching
-cells or violating `(KBPCM-3)--(KBPCM-4)`, or a compiled row not matching
-its direct `10 x 8` determinant.
+cells or violating `(KBPCM-3)--(KBPCM-4)`, a guard in `(KBPCM-5)` vanishing
+on an admissible packet, or a compiled row not matching its direct
+`10 x 8` determinant.

@@ -27,6 +27,10 @@ equivalent to every pair being dependent, which is exactly the six
 determinants `(KBPCM-4)`.  If `rank B<6`, pairwise minors alone need not be
 sufficient, so that branch is explicitly separated.
 
-The checker enumerates the fifteen cells and duplicate-role action.  The
-Modal compiler constructs each determinant directly over the deployed
-field and reports all sixty cases complete. QED.
+The factors in `(KBPCM-5)` are nonzero on the admissible stratum: `r,t`
+and the target representatives are nonzero, the three target antipodal
+pairs are distinct, and the five source quotient labels are distinct.
+Polynomial division therefore preserves the localized zero set.  The
+checker enumerates the fifteen cells and duplicate-role action.  The Modal
+compiler constructs each determinant directly over the deployed field and
+reports all sixty raw and all sixty stripped cases complete. QED.

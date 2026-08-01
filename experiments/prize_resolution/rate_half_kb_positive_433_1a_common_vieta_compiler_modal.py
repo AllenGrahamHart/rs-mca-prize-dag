@@ -23,21 +23,29 @@ image = (
 )
 
 
-@app.function(image=image, cpu=0.5, memory=768, timeout=60, max_containers=60)
+@app.function(image=image, cpu=0.5, memory=768, timeout=240, max_containers=100)
 def compile_case(case):
-    cell, epsilon_1, epsilon_2 = case
+    mode, cell, epsilon_1, epsilon_2 = case
+    command = [
+        "python3", REMOTE_SOURCE, "--cell", str(cell),
+        "--epsilon-1", str(epsilon_1), "--epsilon-2", str(epsilon_2),
+    ]
+    if mode in ("stripped", "gcd"):
+        command.append("--strip-fast")
+    if mode == "gcd":
+        command.append("--gcd-summary")
     try:
         process = subprocess.run(
-            ["python3", REMOTE_SOURCE, "--cell", str(cell),
-             "--epsilon-1", str(epsilon_1), "--epsilon-2", str(epsilon_2)],
+            command,
             capture_output=True,
             text=True,
-            timeout=50,
+            timeout=220,
         )
     except subprocess.TimeoutExpired as error:
         return {
             "cell": cell,
             "epsilon": [epsilon_1, epsilon_2],
+            "mode": mode,
             "status": "TIMEOUT",
             "stdout": error.stdout or "",
             "stderr": error.stderr or "",
@@ -46,35 +54,67 @@ def compile_case(case):
         return {
             "cell": cell,
             "epsilon": [epsilon_1, epsilon_2],
+            "mode": mode,
             "status": "ERROR",
             "stdout": process.stdout,
             "stderr": process.stderr,
         }
-    return {"status": "COMPLETE", **json.loads(process.stdout)}
+    result = json.loads(process.stdout)
+    result["mode"] = mode
+    return {"status": "COMPLETE", **result}
 
 
 @app.local_entrypoint()
-def main():
-    cases = tuple(itertools.product(range(15), (-1, 1), (-1, 1)))
+def main(remaining_only: bool = False):
+    if remaining_only:
+        cases = tuple(itertools.product(("gcd",), range(3, 12), (-1, 1), (-1, 1)))
+    else:
+        cases = tuple(itertools.product(("raw", "stripped"), range(15), (-1, 1), (-1, 1)))
     results = list(compile_case.map(cases))
+    mode_summaries = {}
+    for mode in ("raw", "stripped", "gcd"):
+        completed = [
+            row for row in results
+            if row["status"] == "COMPLETE" and row["mode"] == mode
+        ]
+        summaries = [
+            summary
+            for row in completed
+            for summary in row["minor_summaries"]
+        ]
+        row_unique_histogram = Counter(
+            str(len({summary["sha256"] for summary in row["minor_summaries"]}))
+            for row in completed
+        )
+        gcd_summaries = [
+            row["joint_gcd_summary"]
+            for row in completed
+            if row.get("joint_gcd_summary") is not None
+        ]
+        mode_summaries[mode] = {
+            "completed_cases": len(completed),
+            "minor_count": len(summaries),
+            "minor_degree_histogram": dict(Counter(
+                str(summary["total_degree"]) for summary in summaries
+            )),
+            "minimum_terms": min((summary["terms"] for summary in summaries), default=None),
+            "maximum_terms": max((summary["terms"] for summary in summaries), default=None),
+            "unique_minor_digests": len({summary["sha256"] for summary in summaries}),
+            "within_row_unique_histogram": dict(row_unique_histogram),
+            "joint_gcd_degree_histogram": dict(Counter(
+                str(summary["total_degree"]) for summary in gcd_summaries
+            )),
+            "joint_gcd_maximum_terms": max(
+                (summary["terms"] for summary in gcd_summaries), default=None
+            ),
+        }
     completed = [row for row in results if row["status"] == "COMPLETE"]
-    summaries = [
-        summary
-        for row in completed
-        for summary in row["minor_summaries"]
-    ]
     print(json.dumps({
         "app": APP_NAME,
         "case_count": len(results),
         "status_counts": dict(Counter(row["status"] for row in results)),
         "cell_orbits": completed[0]["cell_orbits"] if completed else [],
-        "minor_count": len(summaries),
-        "minor_degree_histogram": dict(Counter(
-            str(summary["total_degree"]) for summary in summaries
-        )),
-        "minimum_terms": min((summary["terms"] for summary in summaries), default=None),
-        "maximum_terms": max((summary["terms"] for summary in summaries), default=None),
-        "unique_minor_digests": len({summary["sha256"] for summary in summaries}),
+        "modes": mode_summaries,
         "noncomplete_cases": [
             {key: row.get(key) for key in ("cell", "epsilon", "status", "stderr")}
             for row in results if row["status"] != "COMPLETE"

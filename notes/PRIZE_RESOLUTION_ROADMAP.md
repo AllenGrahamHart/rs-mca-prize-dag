@@ -14212,6 +14212,29 @@ next route-deciding step: guard-strip and reduce the six-minor ideals by
                           the nine role orbits before outside attachment
 ```
 
+### Work-cycle reduction: positive 433-1a common Vieta minors
+
+```text
+local compiler pin:      cadaf9bc (raw common Vieta compiler)
+node/workboard attacked: K3 / positive 433-1a common minor systems
+result:                  PROVED exact admissible-guard reduction
+DAG delta:               none (strengthened existing PROVED node)
+raw minors:              degree 18..23 / 64..240 terms
+stripped minors:         degree 6..12 / 16..88 terms
+stripped histogram:      6:4, 7:12, 8:40, 9:16, 10:168,
+                          11:112, 12:8
+all-row Modal run:       ap-rLz9QWatn3oqLIS2EFulCr (60/60 stripped)
+gcd evidence:            32/60 exact rows have joint gcd one;
+                          28 rows timed out even at 220 seconds
+gcd runs:                ap-rVdUeiw77uxNVUWZhNYPqF,
+                          ap-pomv4nCcFPgOGLY1EkrD45
+compute decision:        stop generic gcd; use the exact rank-two quotient
+                          chart cover and three-minor systems
+next route-deciding step: compile four pivot charts plus the all-zero-image
+                          branch, then test representative three-equation
+                          ideals before adding outside rows
+```
+
 ### Work-cycle outbound custody: global positive loop cap
 
 ```text
