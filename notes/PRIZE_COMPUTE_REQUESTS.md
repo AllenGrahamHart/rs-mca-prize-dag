@@ -11199,3 +11199,33 @@ with basis-size, peak-memory, wall-time, and partial-basis telemetry.  Do
 not fan out unless that pilot has a plausible total budget and improves on
 the known timeout.  Exact sparse elimination, triangular decomposition, or
 finite-algebra methods are preferred over generic lexicographic Groebner.
+
+### 2026-08-01 target-free refinement
+
+The surviving `F_29` cell-5/cycle-`+1` lifts use two matching templates.
+For both templates the target representatives `d,e,f` now eliminate
+exactly, leaving three product-chain equations and one compact squared-sum
+cut in the common rational maps `F,H` and source deck labels `u,v,w`.  See
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler`.
+The finite-field observation does not prove these two templates exhaustive.
+
+The deployed-field cell-5 common chart is not finite: after exact guard
+localization it has dimension one and a 23-element degree-order standard
+basis (`ap-3NNIpulALnODMHqWkGTzM3`).  Direct expansion of either compact
+target-free cut timed out (`ap-hiw5WgQAWd21qUlGGxugnw`), and an unsaturated
+ambient seven-variable type-A standard basis hit 120 seconds
+(`ap-5LekROrgmIeQwn2fIpVvVy`).
+
+A useful contributed run should therefore:
+
+1. ingest or reconstruct the 23-element localized common-curve basis;
+2. compute a function-field, regular-chain, or quotient-ring presentation
+   of that curve without expanding the target-free cuts ambiently;
+3. reduce the three product-chain equations first, then append the single
+   compact sum cut;
+4. saturate source-pair distinctness and leading support only after the
+   reduced system is zero-dimensional;
+5. return a replayable unit certificate or a guarded original-row witness.
+
+Do not rerun the ambient `dp` basis at a larger cap and do not fan out over
+the formal `525` cases before an exact symmetry quotient is printed.

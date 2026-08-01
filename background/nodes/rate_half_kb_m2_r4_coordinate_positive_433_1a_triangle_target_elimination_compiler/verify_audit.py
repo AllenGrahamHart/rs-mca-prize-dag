@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit scope for positive 433-1a common-kernel uniqueness."""
+"""Audit scope for the positive 433-1a triangle target compiler."""
 
 from pathlib import Path
 
@@ -16,14 +16,11 @@ def main():
         for name in ("statement.md", "proof.md", "claim_contract.md", "audit.md")
     )
     for marker in (
-        "rank B=6", "all-zero", "rank exactly seven",
-        "one-dimensional", "KBPCU-4", "division-free",
-        "generic matching-cell point", "does not",
+        "Template A", "Template B", "KBTEC-4A", "KBTEC-4B",
+        "not assert", "not proof input", "algorithm boundary",
     ):
         require(marker in text, f"missing marker {marker}")
-    require("lambda_0 lambda_i (lambda_i-lambda_0)" in text,
-            "determinant pin")
-    print("positive 433-1a common-kernel uniqueness audit verified")
+    print("positive 433-1a triangle target elimination audit verified")
 
 
 if __name__ == "__main__":

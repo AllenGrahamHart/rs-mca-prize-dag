@@ -10,3 +10,5 @@
    theorem, but is not inferred for every algebraic minor-system point.
 5. The earlier `F_13/F_17/F_29` observation that all four images were
    nonzero is now an exact theorem and is not proof input.
+6. Reconstruction `(KBPCU-4)` scales `A_2,A_0` together and never divides
+   by `Delta_i`, `q_i`, or `A_2(lambda_i)`.

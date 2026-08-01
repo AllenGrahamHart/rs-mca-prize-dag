@@ -17,4 +17,25 @@ rank at most seven, adjoining any one `Q_i` to `B` gives rank seven, so the
 full matrix has rank exactly seven.  An `8`-column rank-seven matrix has a
 one-dimensional kernel.  Finally, the pivot-chart theorem says that a
 rank-one span of four nonzero quotient images satisfies every incident
-three-minor chart, proving the remaining claims. QED.
+three-minor chart.
+
+The loop sum equation is `lambda_0 B_1(lambda_0)=0`; its nonzero label
+forces `B_1(lambda_0)=0`.  For nonloop row `i`, the sum equation is
+
+```text
+lambda_i B_1(lambda_i)+q_i A_2(lambda_i)=0.
+```
+
+Substitution of `(KBPCU-4)` gives
+
+```text
+-lambda_i q_i A_2(lambda_i)(lambda_i-lambda_0)
++q_i Delta_i A_2(lambda_i)=0.
+```
+
+The product equations are preserved because `A_2,A_0` receive the same
+scale.  Here `Delta_i!=0` by nonzero distinct source labels.  Since the
+product-kernel block `(A_2,A_0)` is nonzero, its common scaling by
+`Delta_i` proves that the reconstructed full vector is nonzero even when
+`A_2(lambda_i)=0`.  Kernel uniqueness proves that it is the common kernel
+and that all four choices of `i` agree projectively. QED.

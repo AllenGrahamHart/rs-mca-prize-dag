@@ -42,6 +42,25 @@ its coefficient kernel is one-dimensional, and the survivor lies in all
 four pivot charts simultaneously.  Thus the forms `A_2,A_0,B_1` are unique
 up to one common nonzero scalar before outside rows are appended.
 
+They also have a division-free reconstruction.  Let `(A_2,A_0)` be any
+nonzero signed-maximal-cofactor kernel of the five product rows.  For any
+nonloop common row `i`, put
+
+```text
+Delta_i=lambda_i(lambda_i-lambda_0),
+q_i=z_i s_i,
+
+A_2_tilde(W)=Delta_i A_2(W),
+A_0_tilde(W)=Delta_i A_0(W),
+B_1_tilde(W)=-q_i A_2(lambda_i)(W-lambda_0).      (KBPCU-4)
+```
+
+Here `Delta_i` is supported and nonzero.  The displayed vector is nonzero
+because its `A_2,A_0` block is the nonzero product kernel scaled by
+`Delta_i`; no nonvanishing claim about `A_2(lambda_i)` is needed.  The three
+displayed forms span the unique full common kernel.  Any of the four
+nonloop rows gives the same projective coefficient vector.
+
 This theorem does not solve a pivot chart, prove leading support for an
 arbitrary algebraic chart point, append an outside row, delete
 `433-1a -> O0b`, close positive coordinate parity, K3, a Prize row, or
@@ -51,4 +70,4 @@ either Prize result.
 
 An admissible matching-cell point with `rank B<6`, a nonloop quotient image
 equal to zero, or a rank-at-most-seven common survivor with kernel dimension
-other than one.
+other than one or violating `(KBPCU-4)`.

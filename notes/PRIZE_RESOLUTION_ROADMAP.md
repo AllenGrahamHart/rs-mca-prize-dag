@@ -14435,3 +14435,44 @@ next route-deciding step: substitute common cofactors into a small symmetry-
                           invariant subset of the seven scalar cuts and seek
                           a saturated symbolic unit certificate
 ```
+
+### Work-cycle theorem: positive 433-1a target-free triangle cuts
+
+```text
+starting local pin:       a75efa79 (complete one-edge scalar compiler)
+ending local theorem pin: current triangle target-elimination compiler
+node/workboard attacked:  K3 / positive 433-1a complete outside Vieta
+result:                   PROVED two exact target-free matching templates
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+template A products:      (de,-df), (-de,cf), (df,be), with ef at xi
+template B products:      (de,cf), (-de,df), (-df,be), with ef at xi
+eliminated variables:     d,e,f disappear from three product-chain
+                          equations and one compact squared-sum equation
+nonclaim:                 templates A/B are not yet a deployed-field
+                          exhaustive matching classification or exclusions
+next route-deciding step: quotient the 525-case ledger by exact symmetries;
+                          reduce target-free systems in the localized common
+                          curve ring before any saturation or ambient basis
+```
+
+### Work-cycle evidence: positive 433-1a common-curve boundary
+
+```text
+specialized edge pilot:   44/56 product terms; 441..1122 sum terms;
+                          all four expansions timed out at 75 seconds
+sparse cell-5 pilot:      product terms reduced to 28/40, sum side unchanged;
+                          expansion still timed out
+F29 residual trace:       32 aligned/near target triples across all root
+                          signs; every product lift passes 0/6 residual sums
+matching support:         exactly target templates A and B in that trace
+deployed common chart:    localized dimension 1, basis size 23, vdim=-1
+ambient type-A system:    seven-variable dp basis hit 120-second cap
+Modal runs:               ap-L6jmDq6TmutoMId17LuGB0,
+                          ap-D6qITfQuoEmOY4DuAhsi7F,
+                          ap-3rKm0cMDPrCQBq9glyA83m,
+                          ap-3NNIpulALnODMHqWkGTzM3,
+                          ap-5LekROrgmIeQwn2fIpVvVy
+compute decision:         stop raw resultant and ambient Groebner retries;
+                          use the localized common-curve coordinate ring or
+                          function field and retain compact product chains
+```
