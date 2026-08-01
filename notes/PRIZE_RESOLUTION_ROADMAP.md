@@ -14049,26 +14049,27 @@ next theorem step:        lift the six-plus-cycle computation over each
 ### Work-cycle outbound custody: positive three-loop compiler
 
 ```text
-local theorem head:       ef982682 (fixed-kernel saturation probes)
-canonical prize pin:      026d8be7
+local theorem head:       03ccd732 (multi-loop multiplicity exclusion)
+canonical prize pin:      ffaf4e9b
 upstream parent:          PR #1132 at 543db66f
 outbound PR:              https://github.com/przchojecki/rs-mca/pull/1143
-outbound exact head:      d9dea9f304340dd5ad309b9470edd9298dbeea07
-review boundary:          two commits stacked on the exact #1132 head
-export status:            DRAFT / exact compiler / no lane deletion
+outbound exact head:      32b2b582b050dce97f873d848c52bb6831a43b3b
+review boundary:          atlas + multiplicity theorem; withdrawn norm and
+                          its revert cancel explicitly in draft history
+export status:            DRAFT / positive loop counts 2,3 PROVED empty
 exported claims:          ten common skeleton orbits; unique three-loop
                           outside graph; four common determinant lanes;
                           eight signed seven-edge systems; 22-term generic
-                          and exact degree-drop one-edge eliminants; one
-                          degree-(2,2) target-neighbor norm with compact
-                          433 and 442 gates
+                          and exact degree-drop one-edge eliminants; local
+                          complete-source orders 2 versus 4; positive
+                          two-/three-loop exclusion and one-loop narrowing
 certificate replay:       29/29 hostile mutations rejected under tiny RAM
-evidence excluded:        small-prime and fixed-kernel probes are not part
-                          of the upstream theorem claim
-DAG delta:                none; outbound custody of five PROVED subnodes
-next route-deciding step: exact parametric saturation of the eight lanes,
-                          or a transverse producer/owner theorem that
-                          subsumes the coordinate-positive local branch
+route correction:         ordinary neighbor norm retracted; no compressed
+                          norm or empirical probe enters the theorem
+DAG delta:                outbound custody of multiplicity exclusion plus
+                          exact atlas compilers
+next route-deciding step: positive zero-loop and narrowed one-loop rows;
+                          do not run superseded three-loop saturation
 ```
 
 ### Work-cycle route retraction: positive three-loop neighbor norm
