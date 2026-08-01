@@ -112,3 +112,36 @@ in `notes/OPUS5_WORKER_GOAL.md` widened accordingly.
 
 Access failures to retry: the ABF and CS25 PDFs (Cloudflare 403 throughout), and
 the Mattarei 2007 paper (blocker (iii) above).
+
+## Addendum 2026-08-01 — OpenAI "Ten Advances" release (model: Astra)
+
+Released today: ten decade-open results, EACH with a Lean 4 certificate +
+independent checker (github.com/openai/ten-proofs; paper
+cdn.openai.com/pdf/ten-proofs-oai.pdf). Triage against our 24 targets:
+
+- **#2 Binary/spherical codes** ("classical upper bounds for FIXED-DISTANCE
+  binary and spherical codes improved by exponential factors"): the one
+  lane-adjacent item. Regime mismatch on first read — fixed d, n->inf,
+  binary/spherical, LP/Fourier technology (the Ch.1 Cohn-Elkies machinery) —
+  vs our exact-integer q-ary regimes (Johnson at d~n, near-K packing,
+  RS lists at 256-bit q). Cannot break our fences (those are explicit GV
+  constructions; upper bounds live above them). Cannot obviously pay the
+  crossing's safe side (binary != q-ary RS at radius beyond Johnson; and our
+  pairwise-only fence limits what any Delsarte-LP-style import can do).
+  VERDICT: method-only candidate; a deep read is queued for the Pro thread
+  if the crossing's primitive-envelope work ever reaches for LP technology.
+- **#7 CVP hardness** (n^(1/400)-factor via 3SAT, "consequences for binary
+  decoding"): complexity-theoretic hardness; no bearing on our
+  unconditional counting/existence targets. NO-GO.
+- **#8 Ehrhart volume** ((n+1)^n/n! sharp): convex geometry; thematic
+  neighbor of the Brief-5 mod-2 Ehrhart parity idea only. NO-GO.
+- Remainder (sphere packing LP rate, non-sofic, Connes, permanent, quantum
+  repetition, Ramsey, compactness/degeneracy): no overlap. NO-GO.
+
+**Calibration note (the real payload):** several of the ten are
+counterexample constructions, and all ten carry machine certificates —
+strong evidence that (a) current-generation models can close decade-open
+problems of comparable shape to our mystery heads, and (b) construction
+search (exactly our falsifier-first campaigns: engineered resonance primes,
+SWIF kill lines, descriptor collisions) is where models are demonstrably
+strongest. The Lean-certificate bar matches our deferred-Lean endgame plan.
