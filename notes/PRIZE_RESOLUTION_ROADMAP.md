@@ -13634,3 +13634,23 @@ outside work required:    none
 Modal status:             no launch and no cost
 next route-deciding step: common orbits [9,10,12,13] and [11,14]
 ```
+
+### Work-cycle burn-down: one-loop 433 BC mixed-orbit exclusion
+
+```text
+starting local pin:       64a50a5e (cells 4/5/7/8 common exclusion)
+ending local theorem pin: current cells 9/10/12/13 common exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / one-loop 433 BC-singleton orbit
+result:                   PROVED orbit [9,10,12,13] is empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-subcase deletion)
+route:                    static/moving product-q elimination
+terminal factors:         4 false linear branches, 8 irreducible
+                          quadratics, 4 irreducible quintics
+independent replay:       Rabin irreducibility for all nonlinear factors
+outside work required:    none
+Modal status:             no launch and no cost
+next route-deciding step: final one-loop 433 common orbit [11,14]
+```

@@ -3070,3 +3070,21 @@ independent Frobenius/gcd audit confirms no cubic has a base-field root.
 Target sign, target exchange, and their composition cover cells `5,7,8`.
 The live one-loop 433 common frontier is now only `[9,10,12,13]` and
 `[11,14]`.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion`
+deletes `[9,10,12,13]`.  Representative cell `9` has one moving and one
+static row in each of the product and q halves.  The exact terminal
+factorization in each root-sign row has degrees/multiplicities
+
+```text
+(1,2), (2,1), (2,2), (5,2).
+```
+
+Every nonlinear factor is irreducible over the deployed field.  At each
+linear root, the candidate gcd in `b` forces the `t^2` coefficient of the
+original product row to vanish while remaining coprime to its nonzero
+constant, so the projection is false.  Independent Rabin tests cover all
+eight quadratic and four quintic sign-row factors.  Target exchange/sign
+transports cover `10,12,13`.  The sole live one-loop 433 common orbit is now
+`[11,14]`.

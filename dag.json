@@ -20456,6 +20456,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 433 BC mixed-pair exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed-field deletion of one-loop 433 common matching orbit 9/10/12/13",
+   "statement": "For representative cell 9, one product row is linear in x=t^2 and one is static; one q row is quadratic in t and one is static. Exact guarded elimination leaves one false linear projection branch, eight irreducible quadratic sign-row factors, and four irreducible quintics. At every linear root the candidate b-gcd forces the x coefficient to zero while the product constant stays nonzero. Target exchange and sign transports cover cells 10, 12, and 13, so the whole orbit is empty.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion",
    "title": "KoalaBear m2 r4 coordinate negative one-loop 433 mixed-pair exclusion",
    "status": "PROVED",
@@ -40527,6 +40547,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
