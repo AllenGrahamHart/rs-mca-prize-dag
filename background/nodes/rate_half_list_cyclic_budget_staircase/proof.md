@@ -46,10 +46,9 @@ statement, replayed by `verify.py`.
 
 ## Monotonicity and tier selection
 
-`C(N-1, N/2+1)` grows superexponentially in `N` while the divisor `N`
-grows linearly, so `Lambda` is strictly increasing along the listed dyadic
-orders (verified exactly). The agreement `k + 2n/N - 1` is strictly
-decreasing in `N`. Hence for a given `B*`, every tier with
+The six exact printed values of `Lambda` are strictly increasing along the
+listed dyadic orders, as replayed by `verify.py`.  The agreement
+`k + 2n/N - 1` is strictly decreasing in `N`. Hence for a given `B*`, every tier with
 `Lambda(N_0) > B*` applies, and the smallest such `N_0` gives the highest
 certified unsafe agreement; the budget intervals in the statement are
 exactly the intervals on which each `N_0` is that smallest order. QED.

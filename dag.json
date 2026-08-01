@@ -20402,6 +20402,751 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative zero-loop 433 aligned doubled-pair finite classifier",
+   "status": "PROVED",
+   "closure": "exact deployed-field classification of 32 common packets in zero-loop orbit 2/5/6/9",
+   "statement": "Zero-loop common cell 2 has exactly eight guarded deployed-field packets: four in each same-sign root row and none in either opposite-sign row. Exact lost-branch elimination and original-equation replay make the census exhaustive. Target sign and exchange transport the packets through cells 2,5,6,9, giving exactly 32 common packets requiring outside completion or exclusion.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/check.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/verify_positive_opposite.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/verify_negative_opposite.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/verify_negative_same.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative zero-loop 433 complete-edge skeleton classifier",
+   "status": "PROVED",
+   "closure": "exact five-orbit and 21-labeled-cell outside edge census for every zero-loop 433 completion",
+   "statement": "Every complete negative zero-loop 433 packet has one of exactly five outside edge skeletons. The degree equations have 21 labeled solutions in permutation orbits of sizes 6,3,3,3,6; the two types beyond the one-loop census are exactly the configurations with two outside loops.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier/check.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier/verify.py",
+    "experiments/prize_resolution/rate_half_kb_zero_loop_433_outside_skeleton_census.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router",
+   "title": "KoalaBear m2 r4 coordinate negative zero-loop 433 product-skeleton router",
+   "status": "PROVED",
+   "closure": "complete deployed-extension product gate deletes outside skeletons Z2 and Z3 and routes guarded Z0/Z1/Z4 survivors",
+   "statement": "Over every one of the 32 finite common packets, exact Smith-normal-form enumeration modulo 2130706433^6-1 and injectivity guards delete outside skeletons Z2 and Z3. Z0, Z1, and Z4 have guarded necessary product certificates and therefore proceed to quotient placement and q interpolation.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router/check.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router/verify_live.py",
+    "experiments/prize_resolution/rate_half_kb_zero_loop_433_cell2_product_probe.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative zero-loop 433 BC-singleton finite classifier",
+   "status": "PROVED",
+   "closure": "exact 32-packet deployed common classification of singleton-BC cells 12/13/14 and exact 64-packet full zero-loop common atlas",
+   "statement": "Zero-loop common cell 12 has four guarded packets in each root-sign row. Cells 13 and 14 have four packets in each same-sign row and none in opposite-sign rows. All product branches and solve losses are exhausted, giving 32 packets in these cells and exactly 64 packets in the full 15-cell common atlas.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/check.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/verify_cell12.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/verify_cell13.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/verify_cell14.py",
+    "experiments/prize_resolution/rate_half_kb_zero_loop_433_cell12_router.py",
+    "experiments/prize_resolution/rate_half_kb_zero_loop_433_cell1314_router.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router",
+   "title": "KoalaBear m2 r4 coordinate negative zero-loop 433 BC-singleton product router",
+   "status": "PROVED",
+   "closure": "complete deployed-extension product exclusions for six outside cell/type pairs over all 32 BC-singleton common packets",
+   "statement": "Exact extension-group Smith enumeration deletes outside types Z0 and Z1 over cell 12, and types Z0 and Z4 over each of cells 13 and 14. Every free family in a deleted type has a collision certificate. The nine complementary cell/type pairs have guarded necessary product certificates and proceed to quotient/q constraints.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/check.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/verify_live.py",
+    "experiments/prize_resolution/rate_half_kb_zero_loop_433_bc_product_probe.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router",
+   "title": "KoalaBear m2 r4 coordinate negative zero-loop 433 complete-Vieta exclusion router",
+   "status": "PROVED",
+   "closure": "complete negative Vieta replay deletes the old four-cell orbit and five BC-singleton product lanes",
+   "statement": "In the exact field model F_p[X]/(X^6+X+6), complete negative Vieta replay deletes every product-live type over common cells 2,5,6,9, type Z4 over cell 12, and types Z1,Z3 over cells 13 and 14. The exhaustive census contains 6528 isolated common-record/product tests and 384 positive-dimensional systems with forced guard collisions. The residual zero-loop 433 frontier is exactly 12/Z2, 12/Z3, 13/Z2, and 14/Z2.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_zero_loop_433_complete_vieta_probe.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative zero-loop 433 complete exclusion",
+   "status": "PROVED",
+   "closure": "complete deletion of all negative zero-loop 433 common packets and product families",
+   "statement": "The four residual product-complete lanes 12/Z2, 12/Z3, 13/Z2, and 14/Z2 are empty. Every isolated guarded Smith assignment fails an outside squared-sum row, while 384 exact family/common-record ideals become the unit ideal after at most three outside rows. Hence no complete negative zero-loop 433 packet exists over the deployed field.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/check.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/verify_cell12_z2.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/verify_cell12_z3.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/verify_cell13.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/verify_cell14.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_zero_loop_433_complete_vieta_probe.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_complete_exclusion",
+   "title": "KoalaBear m2 r4 negative coordinate orientation complete exclusion",
+   "status": "PROVED",
+   "closure": "exhaustive composition of all five negative coordinate skeleton exclusions",
+   "statement": "The negative loop-budget gate leaves exactly five coordinate skeletons: one-loop and two-loop 442, and zero-loop, one-loop, and two-loop 433. Their five terminal complete exclusions are all proved. Hence no negative-parity coordinate-order-two packet exists in the residual KoalaBear (2,4,2) row.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_complete_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
+   "title": "KoalaBear m2 r4 positive coordinate loop-ramification gate",
+   "status": "PROVED",
+   "closure": "positive common-loop nonrepetition, ramification pins, and exact ten-orbit degree census",
+   "statement": "Every positive coordinate packet has a nonzero linear odd coefficient B_1 and uses each common antipodal target-edge type at most once. At most one loop is nonramified; every two-loop row uses a quotient branch value and every three-loop row uses both. The two degree profiles reduce exactly to ten orbits and thirteen labeled skeletons without assuming product injectivity.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_loop_skeleton_census.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier",
+   "title": "KoalaBear m2 r4 positive coordinate three-loop complete-edge skeleton classifier",
+   "status": "PROVED",
+   "closure": "unique no-outside-loop split-colored edge skeleton for both positive three-loop profiles",
+   "statement": "Every positive three-loop coordinate packet has no outside loop. Up to naming its two colored outside records attach to distinct signed pairs and its five internal records have multiplicities (2,2,1). The competing concentrated-colored (3,1,1) skeleton necessarily adds defect two after the three common loops have spent the full defect budget, so it is impossible.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_three_loop_outside_skeleton_census.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler",
+   "title": "KoalaBear m2 r4 positive coordinate three-loop common-kernel compiler",
+   "status": "PROVED",
+   "closure": "exact guarded four-by-four common Vieta kernel and representative 442/433 residual factors",
+   "statement": "After normalizing the three positive common loops to quotient labels 0, infinity, and 1, their product rows determine A_0 from A_2 and the nonzero linear form B_1 is beta(W-1). The two remaining common edges give an exact 4 x 4 kernel on (d_0,d_1,d_2,beta). Representative 442 and 433 placements have one explicit nonguard determinant factor each; no residual impossibility or outside interpolation is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_three_loop_common_kernel.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas",
+   "title": "KoalaBear m2 r4 positive coordinate three-loop common-placement atlas",
+   "status": "PROVED",
+   "closure": "four exhaustive positive three-loop common placement orbits with exact degree-six residual cuts",
+   "statement": "Each positive three-loop profile has exactly two common loop-placement orbits, according as the unique B_1-root loop carries a high- or low-degree target pair. The 442 double edge has opposite signed types, while the 433 tree absorbs both edge signs. All four guarded common-kernel determinants factor into collision guards and one explicit degree-six residual.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_three_loop_common_placement_atlas.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas",
+   "title": "KoalaBear m2 r4 positive three-loop signed outside-Vieta atlas",
+   "status": "PROVED",
+   "closure": "eight exhaustive signed lanes with seven exact guarded outside Vieta edge systems each",
+   "statement": "The unique split-colored outside skeleton has two sign-gauge orbits distinguished by one cycle product. Combined with four common placements, this gives exactly eight signed lanes. Every lane has seven explicit target product/squared-sum records, and each outside fiber is equivalent under saturation guards to one quadratic product equation and one quartic squared-sum equation.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_three_loop_signed_outside_vieta_atlas.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler",
+   "title": "KoalaBear m2 r4 positive three-loop outside-edge eliminant compiler",
+   "status": "PROVED",
+   "closure": "exact 22-term generic outside-edge resultant and retained linear-product degree-drop branch",
+   "statement": "For every one of the 56 signed outside edge records, the quadratic product row and quartic squared-sum row admit an explicit 22-term degree-six resultant after eliminating the quotient label. When the product quadratic drops to linear, an exact degree-five cleared evaluation replaces the generic formula; the further constant branch is guard-impossible. Common-label and collision saturations remain mandatory.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_three_loop_outside_edge_eliminant.py",
+    "experiments/prize_resolution/rate_half_kb_positive_three_loop_fixed_kernel_groebner_probe.py",
+    "experiments/prize_resolution/rate_half_kb_positive_three_loop_small_prime_probe.py",
+    "experiments/prize_resolution/rate_half_kb_positive_three_loop_small_prime_probe_result.md"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler",
+   "title": "KoalaBear m2 r4 positive three-loop target-neighbor norm compiler",
+   "status": "REFUTED",
+   "closure": "refuted weld between an ordinary source-root resultant and the divisor-weighted target-incidence product at ramified loops",
+   "statement": "The two printed degree-(2,2) resultant identities and the separate target-neighbor graph tables are valid, but their proposed identification is not a consequence of the common-lane hypotheses: ordinary roots of H(r,X) do not manually double a ramified loop incidence. An admissible F_13 root-low 433 common kernel gives resultant norm N(1)=8 while the claimed graph product is bc=6. The compressed 433/442 gates must not be used.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_three_loop_neighbor_norm.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion",
+   "title": "KoalaBear m2 r4 positive ramified-loop multiplicity exclusion",
+   "status": "PROVED",
+   "closure": "local complete-source order 2 versus order 4 and the ordinary Vieta sum row force a global positive loop cap of one",
+   "statement": "At a ramified positive antipodal star where B_1 is nonzero, exactly the two antipodal target rows vanish and each has local order one, whereas the complete-source square requires order four at the doubled branch fiber. Hence every ramified loop is the B_1 zero; the ordinary Vieta sum row gives the same condition at every nonramified loop. Since B_1 is nonzero linear, a positive packet has at most one loop over all twelve complete fibers. Every two-/three-common-loop row is empty, a one-common-loop row has no outside loop, and a zero-common-loop row has at most one outside loop.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_ramified_loop_multiplicity_exclusion.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard",
+   "title": "KoalaBear m2 r4 positive residual loop workboard",
+   "status": "PROVED",
+   "closure": "exact global-loop and defect reduction to five live common orbits and thirteen necessary common/outside routes",
+   "statement": "The positive coordinate common census has exactly five live orbits and seven labeled skeletons after the global loop cap and defect budget. The outside degree equations have two loop-free and four one-loop graph orbits; composing loop and defect debits leaves exactly thirteen necessary representative routes. Survival is not algebraic realizability.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_residual_loop_workboard.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
+   "title": "KoalaBear m2 r4 positive 433-1a/O0b signed-edge atlas",
+   "status": "PROVED",
+   "closure": "exact two-lane target-sign gauge atlas for the saturated-defect 433-1a to O0b residual route",
+   "statement": "The residual route 433-1a to O0b spends all defect three. Its multiplicity-three common pair splits 2+1 and its outside multiplicity-two pairs split 1+1. Target-sign gauge leaves exactly one five-cycle sign invariant, hence two lanes with twelve explicit target product and squared-sum records each. Source quotient placement and algebraic feasibility remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_o0b_signed_edge_atlas.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "title": "KoalaBear m2 r4 positive 433-1a common Vieta minor compiler",
+   "status": "PROVED",
+   "closure": "exact fifteen-cell, sixty-sign-row common matching atlas with six guarded Vieta minors per principal row",
+   "statement": "The positive 433-1a common records admit exactly fifteen singleton/pair matching cells and four source-root sign rows per cell; swapping the duplicate AB+ roles gives nine role orbits. On the base-rank-six stratum, the 10 x 8 common Vieta matrix has a kernel exactly when six explicit 8 x 8 minors vanish. All 360 deployed-field minors are compiled and admissible-guard stripping reduces their degrees from 18..23 to 6..12; their solution sets and the base-rank-drop branch remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_common_vieta_compiler.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_common_vieta_compiler_modal.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction",
+   "title": "KoalaBear m2 r4 positive 433-1a common Vieta pivot-chart reduction",
+   "status": "PROVED",
+   "closure": "exact four-chart three-minor cover plus retained all-zero quotient-image branch",
+   "statement": "On the rank-six base stratum, quotienting the four nonloop sum rows gives four vectors in dimension two. Common rank at most seven is exactly the union of the all-zero-image branch and four nonzero-pivot charts, each cut out by the three pair minors incident to its pivot. The base-rank-drop branch and all chart solution sets remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1a product-base rank three-orbit exclusion",
+   "status": "PROVED",
+   "closure": "exact product-rank-five and base-rank-six certificates for common cells 0, 11, and 14",
+   "statement": "On the admissible deployed-field stratum, exact maximal-minor guard certificates prove product-block rank five in common matching cells 0, 11, and 14. The loop sum row is independent, so their six-row bases have rank six and their base-rank-drop branches are empty. Six role orbits and every principal chart remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_product_base_rank_compiler.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_product_base_rank_compiler_modal.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1a product-base rank five-orbit exclusion",
+   "status": "PROVED",
+   "closure": "exact product-rank-five and base-rank-six certificates for five of nine common role orbits",
+   "statement": "Exact two-minor identities extend product-rank-five and base-rank-six coverage to role orbits [4,7] and [5,8]. Together with the prior singleton theorem, base-rank drop is empty in [0], [4,7], [5,8], [11], and [14], leaving four role orbits open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate",
+   "title": "KoalaBear m2 r4 positive 433-1a global product-base rank certificate",
+   "status": "PROVED",
+   "closure": "exact product-rank-five and base-rank-six certificate in all fifteen common matching cells",
+   "statement": "Hand factor identities and three deployed-field localized Singular unit-ideal certificates prove that the five common product rows have rank five in every matching cell. The loop row is independent, so the six-row base has rank six globally and the base-rank-drop branch of 433-1a to O0b is empty. Principal charts and outside rows remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_product_base_rank_singular_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_product_base_rank_singular_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
+   "title": "KoalaBear m2 r4 positive 433-1a common-kernel uniqueness",
+   "status": "PROVED",
+   "closure": "global exclusion of the zero quotient-image branch and uniqueness of every common-survivor coefficient kernel",
+   "statement": "Global base rank six and the final two sum-row columns prove that every nonloop quotient image is nonzero. Hence the degenerate Z branch is empty, every common survivor has rank seven, all four pivot charts apply, and the full coefficient kernel is unique up to scale.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "title": "KoalaBear m2 r4 positive 433-1a quadratic paired-product resultant interface",
+   "status": "PROVED",
+   "closure": "unique full common kernel and exhaustive outside product/squared-sum source-pair lift ledger",
+   "statement": "Every principal positive 433-1a to O0b survivor has a unique full coefficient kernel. The singleton's missing mate forces one product and one square-root-free sum equation, while the remaining six records split over three distinct source deck pairs satisfying explicit product and squared-sum lift systems in an exhaustive 525-case ledger per common row and cycle sign. Universal deployed-field exclusion and route deletion remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_common_chart_probe.c",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_product_probe_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_product_singular_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_product_probe_result.md"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler",
+   "title": "KoalaBear m2 r4 positive 433-1a outside-edge eliminant compiler",
+   "status": "PROVED",
+   "closure": "exact generic and degree-drop scalar eliminants for all seven outside product/squared-sum records",
+   "statement": "Each positive 433-1a outside record has an explicit 22-term degree-six scalar eliminant on the generic quadratic-product branch and an exact cleared cut on the linear branch; the constant product branch is impossible from distinct supported common products. Joint seven-edge incompatibility remains open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_edge_eliminant.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler",
+   "title": "KoalaBear m2 r4 positive 433-1a triangle target elimination compiler",
+   "status": "PROVED",
+   "closure": "complete four-binomial target-product chains and compact squared-sum cuts for two positive outside matching templates",
+   "statement": "For each of two explicitly oriented positive 433-1a residual matching templates with missing-mate product ef, the outside representatives d,e,f eliminate completely. Every actual lift satisfies four target-free product-chain identities and one compact squared-sum identity in the common maps F,H and three source deck labels.  The added cross relation repairs the original three-equation necessary subideal.  Template exhaustiveness and route deletion remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_sum_failure_trace.c",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_sum_failure_trace_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_triangle_cut_result.md"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient",
+   "title": "KoalaBear m2 r4 positive 433-1a outside-case symmetry quotient",
+   "status": "PROVED",
+   "closure": "exact residual target-gauge quotient of the formal eta/xi/perfect-matching ledger",
+   "statement": "For each fixed positive 433-1a common row and cycle sign, the 525 formal outside eta/xi/matching cases have a faithful residual target-gauge group of order two and exactly 39 aligned plus 228 near-aligned orbits.  The EF missing-mate subledger has 39 orbits; the two current target-free templates are gauge partners and cover five.  Formal orbit survival is not algebraic realizability, and no route is deleted.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_case_symmetry.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_case_symmetry_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler",
+   "title": "KoalaBear m2 r4 positive 433-1a universal target elimination compiler",
+   "status": "PROVED",
+   "closure": "exact four-binomial product and seven-row squared-sum elimination of all outside target representatives in every formal case",
+   "statement": "For every formal positive 433-1a outside case, four universal binomials are necessary and sufficient for the seven target products, with explicit reconstruction of d,e,f, and seven cleared equations give all target squared sums.  Relabeling this one system compiles all 267 target-gauge representatives and repairs the missing cross relation in the earlier triangle templates.  Source-system emptiness and route deletion remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_universal_target_elimination.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_universal_target_elimination_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler",
+   "title": "KoalaBear m2 r4 positive 433-1a cell-5 ratio-chart compiler",
+   "status": "PROVED",
+   "closure": "exact deployed-field generic and exceptional ratio-chart decomposition of the cell-5 common curve",
+   "statement": "On deployed-field cell 5 with root signs (-1,-1), atomic guard localization and x=c/b turn the three common C1 minors into one linear and two quadratic equations in b.  Away from the retained a1=0 branch, b=-a0/a1 and two exact cleared equations in x,r,t are necessary and sufficient.  Outside equations, route deletion, K3, and both Prize results remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_ratio_compiler.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_ratio_compiler_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_ratio_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion",
+   "title": "KoalaBear positive 433-1a cell-5 ratio exceptional-branch exclusion",
+   "status": "PROVED",
+   "closure": "deployed-field saturated unit-ideal deletion of the ratio denominator branch",
+   "statement": "For deployed-field cell 5, signs (-1,-1), chart C1, the fully guarded exceptional ratio branch a0=a1=L1=L2=0 has saturated standard basis {1}. Hence every admissible common survivor lies on a1!=0 and the generic two-eliminant ratio presentation. No outside equation, cell, route, K3 row, or Prize result is closed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_ratio_exceptional_compiler.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_ratio_exceptional_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_ratio_exceptional_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface",
+   "title": "KoalaBear positive 433-1a cell-5 signed-family target-free interface",
+   "status": "PROVED",
+   "closure": "exact target elimination for two unsquared signed three-record families",
+   "statement": "In deployed-field cell 5, signs (-1,-1), each of the signed families DE+/DE-/BE and DF+/DF-/CF is equivalent on the guarded stratum to four explicit target-free equations in three source roots. The compiler eliminates both target roots while preserving unsquared Vieta signs. No source system, cell, route, K3 row, or Prize result is closed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_signed_family_target_free.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_signed_family_qring_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_common_chart_probe.c",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_product_probe_modal.py"
+   ]
+  },
+  {
+   "id": "dli_c1_256_block_basis_factorization",
+   "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On every official-shape C1 level (N=256L, omega of exact order 512L), writing y=a+256b and theta=omega^256 (exact order 2L), the a-th L-column block of the odd-moment matrix is A_a=D_a F with D_a=diag(omega^((2j+1)a)) and F the Vandermonde matrix on the L distinct odd powers of theta (the roots of X^L+1). All 256 blocks are bases of F_q^L. Consequences: the Boolean subset-sum distribution is the 256-fold convolution of uniform measures on full-size 2^L parallelepipeds A_a{0,1}^L; each block Fourier vector C_a=A_a^T lambda is EXACTLY uniform (exact iid L-coordinate block marginals); and D_a=D_1^a gives C_a=M^a C_0 with M=F^T D_1 F^(-T), so all cross-block spectral dependence rides one deterministic 256-step linear orbit. Not claimed: joint independence, any mixing/expansion property of M, any bound on E-1, C1-ZERO/SWIF-4, any role of the v_2(q-1)>=41 gate, non-official aspects, or either Prize result. Provenance: Brief-1 Pro dossier (notes/pro_briefs_20260801/responses/), audited and replayed 2026-08-01.",
+   "refs": [
+    "background/nodes/dli_c1_256_block_basis_factorization/statement.md",
+    "background/nodes/dli_c1_256_block_basis_factorization/proof.md",
+    "background/nodes/dli_c1_256_block_basis_factorization/verify.py"
+   ]
+  },
+  {
+   "id": "dli_c1_l1_block_owner_ledger",
+   "title": "L=1 four-coordinate block-owner ledger: C1-ZERO is exactly '64 structured targets attract at most 3+1/q excess weighted relation mass over Haar'",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At L=1 (N=256, omega of exact order 512), partition coordinates into 64 four-blocks; with K_j the weighted ternary difference fibre, kappa_j the block difference measure (mass 16, kappa_j(0)=1 by the banked weight<=4 exclusions), A_j = new first-owner relation mass at block j, the exact telescoping identity holds: Z - 2^256/q = 1 - 1/q + sum_j (A_j - 15*2^(4j)/q). Hence C1-ZERO at L=1 is EXACTLY equivalent to sum_j (A_j - 15*2^(4j)/q) <= 3 + 1/q: the 64 structured four-bit targets may attract at most ~3 units of weighted relation mass beyond Haar. This is an exact accounting identity localizing the inverse-flatness mystery; it bounds nothing, and does not prove C1-ZERO, SWIF-4, CERP, L>1, or either Prize result. Provenance: Pro inverse-flatness strategy (notes/pro_briefs_20260801/responses/blackhole/), audited and replayed 2026-08-01 (verifier: 64-block replay at q=7681, exact rationals).",
+   "refs": [
+    "background/nodes/dli_c1_l1_block_owner_ledger/statement.md",
+    "background/nodes/dli_c1_l1_block_owner_ledger/proof.md",
+    "background/nodes/dli_c1_l1_block_owner_ledger/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_cyclic_budget_staircase",
+   "title": "Six field-independent unsafe tiers from the cyclic rotated prefix floor",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the official rate-half row, instantiating the cyclic rotated-prefix floor at d=1 and s=c-1 for quotient orders 8,16,32,64,128,256 gives six exact field-independent budget-indexed unsafe agreements. The first five tiers strictly improve the prior cap-uniform lower frontier on their intervals and the N_0=256 tier recovers it. No safe-side or exact-crossing claim is made.",
+   "refs": [
+    "background/nodes/rate_half_list_cyclic_budget_staircase/statement.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/proof.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/claim_contract.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/source_evidence.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/dependency_subdag.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/audit.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/result.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/frontier.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/lineage.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/verify.py",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
    "title": "KoalaBear m2 r4 coordinate negative one-loop 433 complete-edge skeleton classifier",
    "status": "PROVED",
@@ -25108,42 +25853,6 @@
     "background/nodes/e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion/verify.py"
    ],
    "notes": "ANALYTIC REFINEMENT 2026-07-29: recursively pricing the even support closes energy eleven without lag enumeration. The five-ideal occupancy threshold remains open on ten rows at E=5,...,10."
-  },
-  {
-   "id": "dli_c1_256_block_basis_factorization",
-   "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
-   "status": "PROVED",
-   "closure": "proof",
-   "statement": "On every official-shape C1 level (N=256L, omega of exact order 512L), writing y=a+256b and theta=omega^256 (exact order 2L), the a-th L-column block of the odd-moment matrix is A_a=D_a F with D_a=diag(omega^((2j+1)a)) and F the Vandermonde matrix on the L distinct odd powers of theta (the roots of X^L+1). All 256 blocks are bases of F_q^L. Consequences: the Boolean subset-sum distribution is the 256-fold convolution of uniform measures on full-size 2^L parallelepipeds A_a{0,1}^L; each block Fourier vector C_a=A_a^T lambda is EXACTLY uniform (exact iid L-coordinate block marginals); and D_a=D_1^a gives C_a=M^a C_0 with M=F^T D_1 F^(-T), so all cross-block spectral dependence rides one deterministic 256-step linear orbit. Not claimed: joint independence, any mixing/expansion property of M, any bound on E-1, C1-ZERO/SWIF-4, any role of the v_2(q-1)>=41 gate, non-official aspects, or either Prize result. Provenance: Brief-1 Pro dossier (notes/pro_briefs_20260801/responses/), audited and replayed 2026-08-01.",
-   "refs": [
-    "background/nodes/dli_c1_256_block_basis_factorization/statement.md",
-    "background/nodes/dli_c1_256_block_basis_factorization/proof.md",
-    "background/nodes/dli_c1_256_block_basis_factorization/verify.py"
-   ]
-  },
-  {
-   "id": "rate_half_list_cyclic_budget_staircase",
-   "title": "Six field-independent unsafe tiers from the cyclic rotated prefix floor at d=1: the budget-indexed lower staircase for the rate-half list crossing",
-   "status": "PROVED",
-   "closure": "proof",
-   "statement": "Instantiating the PROVED rate_half_cyclic_rotated_prefix_floor at d=1, s=c-1 for each dyadic quotient order N_0 in {8,16,32,64,128,256}: whenever B* < Lambda(N_0) = ceil(C(N_0-1,N_0/2+1)/N_0) (field-independent), the ordinary worst list obeys L_1(k+2n/N_0-1) > B* on every admissible rate-half row. Exact counts 3 / 313 / 8,286,954 / ~2^53 / ~2^116 / >2^242. Consequences: for 1<=B*<=2 the unsafe frontier reaches 3n/4-1; for 3<=B*<=312 it reaches 5n/8-1; six tiers partition the full budget range down to the banked cap-uniform k+2^34-1. Strictly raises the certified unsafe frontier U(q) on five budget intervals over the previously recorded single cap-uniform value. Not claimed: any safe-side bound, the crossing location, the d>=2 fieldwise optimizer, or either Prize result. Provenance: Brief-6 Pro dossier (notes/pro_briefs_20260801/responses/), audited and replayed 2026-08-01.",
-   "refs": [
-    "background/nodes/rate_half_list_cyclic_budget_staircase/statement.md",
-    "background/nodes/rate_half_list_cyclic_budget_staircase/proof.md",
-    "background/nodes/rate_half_list_cyclic_budget_staircase/verify.py"
-   ]
-  },
-  {
-   "id": "dli_c1_l1_block_owner_ledger",
-   "title": "L=1 four-coordinate block-owner ledger: C1-ZERO is exactly '64 structured targets attract at most 3+1/q excess weighted relation mass over Haar'",
-   "status": "PROVED",
-   "closure": "proof",
-   "statement": "At L=1 (N=256, omega of exact order 512), partition coordinates into 64 four-blocks; with K_j the weighted ternary difference fibre, kappa_j the block difference measure (mass 16, kappa_j(0)=1 by the banked weight<=4 exclusions), A_j = new first-owner relation mass at block j, the exact telescoping identity holds: Z - 2^256/q = 1 - 1/q + sum_j (A_j - 15*2^(4j)/q). Hence C1-ZERO at L=1 is EXACTLY equivalent to sum_j (A_j - 15*2^(4j)/q) <= 3 + 1/q: the 64 structured four-bit targets may attract at most ~3 units of weighted relation mass beyond Haar. This is an exact accounting identity localizing the inverse-flatness mystery; it bounds nothing, and does not prove C1-ZERO, SWIF-4, CERP, L>1, or either Prize result. Provenance: Pro inverse-flatness strategy (notes/pro_briefs_20260801/responses/blackhole/), audited and replayed 2026-08-01 (verifier: 64-block replay at q=7681, exact rationals).",
-   "refs": [
-    "background/nodes/dli_c1_l1_block_owner_ledger/statement.md",
-    "background/nodes/dli_c1_l1_block_owner_ledger/proof.md",
-    "background/nodes/dli_c1_l1_block_owner_ledger/verify.py"
-   ]
   },
   {
    "id": "dli_c1_doubling_coboundary_identity",
@@ -32052,11 +32761,6 @@
   {
    "from": "petal_g1_k4_scale_reserve",
    "to": "petal_small_scale_staircase_census",
-   "kind": "ev"
-  },
-  {
-   "from": "petal_descent_classification_bridge",
-   "to": "petal_g1_k4_scale_reserve",
    "kind": "ev"
   },
   {
@@ -40630,6 +41334,556 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h6_complete_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_c1_256_block_basis_factorization",
+   "to": "dli_c1r3_gated_envelope_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_newton_short_window_exclusion",
+   "to": "dli_c1_l1_block_owner_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_weight3_ambient_exclusion",
+   "to": "dli_c1_l1_block_owner_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_weight4_ambient_exclusion",
+   "to": "dli_c1_l1_block_owner_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "dli_c1_l1_block_owner_ledger",
+   "to": "dli_c1r3_gated_envelope_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_cyclic_rotated_prefix_floor",
+   "to": "rate_half_list_cyclic_budget_staircase",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_cyclic_budget_staircase",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
    "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
    "kind": "req"
@@ -47817,26 +49071,6 @@
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion",
    "to": "rate_half_band_closure",
-   "kind": "ev"
-  },
-  {
-   "from": "dli_c1_256_block_basis_factorization",
-   "to": "dli_c1r3_gated_envelope_bound",
-   "kind": "ev"
-  },
-  {
-   "from": "rate_half_cyclic_rotated_prefix_floor",
-   "to": "rate_half_list_cyclic_budget_staircase",
-   "kind": "req"
-  },
-  {
-   "from": "rate_half_list_cyclic_budget_staircase",
-   "to": "rate_half_list_adjacent_crossing",
-   "kind": "ev"
-  },
-  {
-   "from": "dli_c1_l1_block_owner_ledger",
-   "to": "dli_c1r3_gated_envelope_bound",
    "kind": "ev"
   },
   {

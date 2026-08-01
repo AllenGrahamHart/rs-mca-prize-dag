@@ -1,0 +1,18 @@
+{
+  "branch": "a0=a1=L1=L2=0",
+  "cell": 5,
+  "epsilon": [-1, -1],
+  "equation_shapes": [
+    {"degree": 8, "terms": 14},
+    {"degree": 9, "terms": 14},
+    {"degree": 10, "terms": 40},
+    {"degree": 12, "terms": 40}
+  ],
+  "field": 2130706433,
+  "guard_count": 22,
+  "iota": 16711679,
+  "program_sha256": "95fb3e586fcfe959b3fd76f4027a2633456946618b60b9e3f33179e16f166cc3",
+  "status": "COMPLETE",
+  "stderr": "",
+  "stdout": "EXCEPTIONAL\n-1\n1\n0\nBEGIN_BASIS\nG[1]=1\nEND_BASIS\n"
+}

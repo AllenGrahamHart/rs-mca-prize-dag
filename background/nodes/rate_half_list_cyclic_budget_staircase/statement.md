@@ -51,9 +51,10 @@ Lambda(64) <= B* <= Lambda(128)-1  :  L_1(33n/64 - 1) > B*,
 Lambda(128) <= B* < 2^128          :  L_1(k + 2^34 - 1) > B*.
 ```
 
-Every tier strictly raises the certified unsafe frontier `U(q)` above the
-previously recorded cap-uniform value `k + 2^34 - 1` on its budget
-interval; on `1 <= B* <= 312` the lower frontier reaches `5n/8 - 1` or
+The first five tiers strictly raise the certified unsafe frontier `U(q)`
+above the previously recorded cap-uniform value `k + 2^34 - 1` on their
+budget intervals.  The `N_0=256` tier recovers that banked cap-uniform
+value.  On `1 <= B* <= 312` the lower frontier reaches `5n/8 - 1` or
 `3n/4 - 1`.
 
 This theorem does not prove any safe-side bound, does not locate the

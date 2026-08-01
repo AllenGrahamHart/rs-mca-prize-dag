@@ -209,3 +209,11 @@ First research target: the B*=3 two-sided chamber compiler
 `notes/pro_briefs_20260801/responses/verify_brief6_rhl_adj_program_arithmetic.py`).
 Route fences now exact: packing dies at 127-vs-128 from full; pairwise-only
 = Johnson; no field census (2^215 progression).
+## [2026-08-01] Budget staircase banked
+
+`rate_half_list_cyclic_budget_staircase` proves six field-independent
+unsafe tiers from quotient orders `8..256`.  The first five raise the
+certified unsafe frontier on their budget intervals; `N_0=256` recovers the
+banked cap tier.  This remains one-sided.  The executable target is a
+certificate-producing safe/unsafe pair, and any bisection requires a total
+decision oracle: `UNKNOWN` is never `UNSAFE`.

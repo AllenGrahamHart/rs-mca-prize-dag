@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction/verify.py",
-      "seconds": 0.032524,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/verify.py",
+      "seconds": 0.687939,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_R4_DIAGONAL_FACET_MIXING_OBSTRUCTION_PASS mixing_rows=5 crossing_counts=2,4,6 c6_J_count=2\n"
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1A_CELL5_SIGNED_FAMILY_VERIFY_PASS cuts=4 families=2 be_cubic=120 route=open\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction/verify_audit.py",
-      "seconds": 0.039339,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/verify_audit.py",
+      "seconds": 0.030706,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_M2_R4_DIAGONAL_FACET_MIXING_OBSTRUCTION_AUDIT_PASS matchings=10395 preserving_deleted=225 mixing_rows=5 c6_near=600 c6_eta_xi_deleted=120\n"
+      "stdout_tail": "positive 433-1a cell-5 signed-family scope audit verified\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

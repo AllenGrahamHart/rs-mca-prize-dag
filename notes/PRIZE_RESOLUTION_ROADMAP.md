@@ -13720,3 +13720,964 @@ zero-loop frontier:       8/15 cells deleted; [2,5,6,9],[12],[13],[14]
 Modal status:             no launch and no cost
 next route-deciding step: classify orbit [2,5,6,9]
 ```
+
+### Work-cycle burn-down: zero-loop 433 finite doubled-pair orbit
+
+```text
+starting local pin:       37be856d (second zero-loop orbit exclusion)
+ending local theorem pin: current 32-packet PROVED classifier
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / negative zero-loop 433 common atlas
+result:                   PROVED exact finite classifier for [2,5,6,9]
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-subcase classification)
+cell-2 census:            4 packets in (+,+), 4 in (-,-), 0 opposite
+transported census:       32 common packets across four matching cells
+branch audit:             every omitted projection guarded or false
+zero-loop frontier:       outside product gate for 32 packets plus common
+                          cells [12],[13],[14]
+Modal status:             no launch and no cost
+next route-deciding step: compile complete outside edge/product gate for
+                          the 32 packets; do not run outside q first
+```
+
+### Work-cycle burn-down: zero-loop 433 outside edge census
+
+```text
+starting local pin:       7f897490 (32-packet common classifier)
+ending local theorem pin: current five-orbit outside skeleton theorem
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / negative zero-loop 433 outside completion
+result:                   PROVED exact complete-edge skeleton classifier
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase decomposition)
+outside degree census:    21 labeled cells in 5 permutation orbits
+orbit sizes:              6,3,3,3,6
+new versus one-loop:      exactly two two-outside-loop skeletons
+Modal status:             no launch and no cost
+next route-deciding step: force the singleton involution mate and test the
+                          five signed product skeletons on 8 representatives
+```
+
+### Work-cycle burn-down: zero-loop 433 product-skeleton router
+
+```text
+starting local pin:       ddba4e20 (five outside skeletons)
+ending local theorem pin: current deployed-extension product router
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / negative zero-loop 433 outside products
+result:                   PROVED Z2/Z3 complete-product exclusions
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; two exact subcase deletions)
+field arithmetic:         multiplicative exponents modulo p^6-1
+common involution:        y*z=-c^2; singleton mate=-c^2/b
+deleted types:            Z2, Z3 on all 32 common packets
+live necessary types:     Z0, Z1, Z4 with guarded product certificates
+family audit:             every Z2 rank-two family forces a collision
+Modal status:             no launch and no cost
+next route-deciding step: reconstruct A1 and assign eta/L^c labels for
+                          live Z0/Z1/Z4 before outside q interpolation
+```
+
+### Work-cycle burn-down: complete zero-loop 433 common atlas
+
+```text
+starting local pin:       5c9f0165 (old-orbit product router)
+ending local theorem pin: current BC-singleton finite classifier
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / negative zero-loop 433 common atlas
+result:                   PROVED exact cells 12/13/14 classifier
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; full common-subcase classification)
+cell 12:                  16 packets, four in every sign row
+cells 13 and 14:          8 packets each, opposite-sign rows empty
+new packet total:         32
+full 15-cell atlas:       exactly 64 common packets
+empty matching cells:     8
+live matching cells:      [2,5,6,9],[12],[13],[14]
+Modal status:             no launch and no cost
+next route-deciding step: product-route the new 32 packets; in parallel,
+                          quotient/q-route live Z0/Z1/Z4 on the old orbit
+```
+
+### Work-cycle burn-down: BC-singleton product router
+
+```text
+starting local pin:       9b812132 (full common-atlas classifier)
+ending local theorem pin: current BC-singleton product router
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / negative zero-loop 433 outside products
+result:                   PROVED six cell/type product exclusions
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact outside-subcase deletion)
+cell 12 deleted:          Z0, Z1
+cell 13 deleted:          Z0, Z4
+cell 14 deleted:          Z0, Z4
+retained cell/types:      12:{Z2,Z3,Z4}; 13:{Z1,Z2,Z3};
+                          14:{Z1,Z2,Z3}
+field arithmetic:         exact logs modulo p^6-1
+family audit:             all deleted free families force collisions
+Modal status:             no launch and no cost
+next route-deciding step: reconstruct A1 and place eta/L^c only on the
+                          retained nine cell/type pairs and old Z0/Z1/Z4
+```
+
+### Work-cycle burn-down: zero-loop 433 complete-Vieta router
+
+```text
+starting local pin:       0a6f1f15 (canonical merge after product routers)
+ending local theorem pin: current complete-Vieta exclusion router
+canonical prize pin:      973473e1
+node/workboard attacked:  K3 / negative zero-loop 433 outside sums
+result:                   PROVED full old-orbit deletion plus five new
+                          BC-singleton cell/type deletions
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact coordinate subcase deletion)
+field model:              F_p[X]/(X^6+X+6), g=X^1768759633, g^M=3
+isolated Vieta tests:      6528, all failing on the first outside row
+collision families:       384 systems, all guard-forced
+deleted common orbit:     [2,5,6,9] (all 32 common packets)
+additional deletions:     12/Z4; 13/Z1,Z3; 14/Z1,Z3
+exact residual frontier:  12/Z2, 12/Z3, 13/Z2, 14/Z2
+Modal status:             no launch and no cost
+next route-deciding step: reduce the first outside squared-sum residual
+                          modulo the unresolved one-parameter family ideals
+```
+
+### Work-cycle burn-down: complete negative zero-loop 433 exclusion
+
+```text
+starting local pin:       2686877d (finite complete-Vieta router)
+ending local theorem pin: current zero-loop 433 complete exclusion
+canonical prize pin:      973473e1
+node/workboard attacked:  K3 / residual zero-loop product families
+result:                   PROVED no complete negative zero-loop 433 packet
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; one coordinate profile fully closed)
+residual lanes closed:    12/Z2, 12/Z3, 13/Z2, 14/Z2
+free product systems:     192, each tested against two common q records
+unit-ideal certificates:  384 over F_p, hence over its algebraic closure
+maximum outside rows:     1 for 12/Z2; 2 for 12/Z3; 3 for 13/14-Z2
+local compute discipline: four verifier shards, each below 60 seconds
+Modal status:             no launch and no cost
+next route-deciding step: refresh the coordinate census and attack the next
+                          live negative profile or positive orientation
+```
+
+### Work-cycle burn-down: negative coordinate orientation closure
+
+```text
+starting local pin:       eebe4ac1 (zero-loop 433 complete exclusion)
+ending local theorem pin: current negative-coordinate aggregate exclusion
+canonical prize pin:      973473e1
+node/workboard attacked:  K3 / coordinate-order-two negative parity
+result:                   PROVED no negative coordinate-order-two packet
+DAG delta:                +1 PROVED background node, +6 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; one full orientation closed)
+exhaustive rows:          one/two-loop 442; zero/one/two-loop 433
+terminal exclusions:     5/5 PROVED
+new coordinate frontier: positive parity only
+noncoordinate frontier:  diagonal and trivial stabilizer remain separate
+Modal status:             no launch and no cost
+next route-deciding step: audit the positive-coordinate sub-DAG and select
+                          its smallest terminally closable orbit
+```
+
+### Work-cycle burn-down: positive coordinate loop-ramification gate
+
+```text
+starting local pin:       c3da5f67 (negative coordinate closure)
+ending local theorem pin: current positive loop-ramification gate
+canonical prize pin:      973473e1
+node/workboard attacked:  K3 / coordinate-order-two positive parity
+result:                   PROVED exact ten-orbit positive skeleton census
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; positive orientation decomposition)
+loop-type cap:            each antipodal target edge occurs at most once
+odd coefficient:          B1 nonzero; at most one nonramified loop
+degree census:            13 labeled skeletons in 10 equal-degree orbits
+ramification pins:        two-loop >=1 branch value; three-loop both
+injectivity discipline:   no positive product-injectivity assumption
+Modal status:             no launch and no cost
+next route-deciding step: attack three-loop 442/433 rows first using both
+                          pinned ramified quotient fibers
+```
+
+### Work-cycle burn-down: positive three-loop outside edge classifier
+
+```text
+starting local pin:       74c708eb (positive loop-ramification gate)
+ending local theorem pin: current three-loop edge classifier
+canonical prize pin:      973473e1
+node/workboard attacked:  K3 / positive three-loop complete source graph
+result:                   PROVED unique outside skeleton up to naming
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; positive subcase classification)
+raw outside census:       6 labeled records in 2 S3 orbits
+deleted orbit:            colored concentrated, m=(3,1,1), extra defect 2
+surviving orbit:          colored split, m=(2,2,1), orbit size 3
+outside loops:            none
+Modal status:             no launch and no cost
+next route-deciding step: compile signed products for the unique skeleton
+                          and impose the complete positive rank-five map
+```
+
+### Work-cycle burn-down: positive three-loop common-kernel compiler
+
+```text
+starting local pin:       12b0125a (positive three-loop edge classifier)
+ending local theorem pin: current three-loop common-kernel compiler
+canonical prize pin:      973473e1
+node/workboard attacked:  K3 / positive three-loop common Vieta rows
+result:                   PROVED exact guarded 4 x 4 common kernel
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; positive subcase compiler)
+loop normalization:       W=0,infinity,1; B1=beta(W-1)
+representative cuts:      one degree-six residual each for 442 and 433
+admissibility discipline: det=0 is not promoted without beta/A2 guards
+local compute discipline: exact symbolic expansion under tiny RAM guard
+Modal status:             no launch and no cost
+next route-deciding step: enumerate loop-placement/sign orbits, retain
+                          admissible common kernels, and append the seven
+                          outside product/sum resultants for r=(0,1,1),
+                          m=(2,2,1)
+```
+
+### Work-cycle burn-down: positive three-loop common-placement atlas
+
+```text
+starting local pin:       cff0b426 (three-loop common-kernel compiler)
+ending local theorem pin: current common-placement atlas
+canonical prize pin:      973473e1
+node/workboard attacked:  K3 / positive three-loop loop placements
+result:                   PROVED four exhaustive guarded residual lanes
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; positive subcase atlas)
+442 placement orbits:     root-low and root-high
+433 placement orbits:     root-low and root-high
+sign discipline:          442 opposite double edge; 433 tree absorption
+residual degrees:         6,6,6,6
+local compute discipline: four exact expansions under tiny RAM guard
+Modal status:             no launch and no cost
+next route-deciding step: compile the guarded outside-edge ideal once,
+                          instantiate it on all seven signed edges of the
+                          unique outside skeleton, and attack each of the
+                          four common residual lanes
+```
+
+### Work-cycle burn-down: positive three-loop signed outside-Vieta atlas
+
+```text
+starting local pin:       b29c1efc (four-orbit common-placement atlas)
+ending local theorem pin: current signed outside-Vieta atlas
+canonical prize pin:      026d8be7
+node/workboard attacked:  K3 / full positive three-loop Vieta graph
+result:                   PROVED eight exhaustive guarded signed lanes
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; positive subcase compiler)
+outside sign orbits:      2, distinguished by one cycle product
+complete lanes:           4 common placements x 2 signs = 8
+outside records:          7 per lane, 56 total
+edge equations:           degree <=2 product and <=4 squared sum
+saturation discipline:    common labels, pairwise labels, leading support,
+                          and target collisions remain explicit
+Modal status:             no launch and no cost
+next route-deciding step: bounded small-prime elimination probe on all
+                          eight lanes; promote only a reproducible exact
+                          low-degree cut or a fully saturated deletion
+```
+
+### Work-cycle burn-down: positive three-loop outside-edge eliminant
+
+```text
+starting local pin:       a84d61b7 (signed outside-Vieta atlas)
+ending local theorem pin: current outside-edge eliminant compiler
+canonical prize pin:      026d8be7
+node/workboard attacked:  K3 / positive three-loop quotient elimination
+result:                   PROVED generic and degree-drop edge eliminants
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; positive subcase compiler)
+generic cut:              22 terms, total coefficient degree 6
+linear degree drop:       exact cleared evaluation, degree 5
+constant degree drop:     deleted by loop-pair and leading guards
+small-prime evidence:     F13 0/82,368; F17 0/2,897,280;
+                          F19 0/9,048,960 partial target assignments
+evidence fence:           no small-prime result promoted to characteristic
+                          zero or official-row emptiness
+Modal status:             no launch and no cost
+next route-deciding step: seek a saturated unit-ideal certificate from a
+                          small subset of the seven target-edge eliminants,
+                          treating 442 and 433 separately
+```
+
+### Work-cycle route evidence: fixed-kernel outside ideals
+
+```text
+starting local pin:       6931f736 (outside-edge eliminant compiler)
+canonical prize pin:      026d8be7
+probe scope:              one admissible F17 kernel per common placement
+algebraic scope:          Groebner ideals over algebraic closure, not only
+                          F17 rational-point enumeration
+six-edge raw units:       3/4 fixtures (442 root-high; both 433)
+seven-edge raw units:     7/8 fixture/sign lanes
+remaining raw basis:      442 root-low, negative cycle:
+                          d^2=4, e=f=-1
+guard result:             target-square collisions with b^2=4 and 1
+saturated units:          8/8 fixture/sign lanes
+proof status:             heuristic fixed-kernel evidence only
+new external request:     CR-KB-POS3-SAT in PRIZE_COMPUTE_REQUESTS.md
+Modal status:             no launch and no cost
+next theorem step:        lift the six-plus-cycle computation over each
+                          parametric common residual lane and return exact
+                          saturation certificates
+```
+
+### Work-cycle outbound custody: positive three-loop compiler
+
+```text
+local theorem head:       03ccd732 (multi-loop multiplicity exclusion)
+canonical prize pin:      ffaf4e9b
+upstream parent:          PR #1132 at 543db66f
+outbound PR:              https://github.com/przchojecki/rs-mca/pull/1143
+outbound exact head:      32b2b582b050dce97f873d848c52bb6831a43b3b
+review boundary:          atlas + multiplicity theorem; withdrawn norm and
+                          its revert cancel explicitly in draft history
+export status:            DRAFT / positive loop counts 2,3 PROVED empty
+exported claims:          ten common skeleton orbits; unique three-loop
+                          outside graph; four common determinant lanes;
+                          eight signed seven-edge systems; 22-term generic
+                          and exact degree-drop one-edge eliminants; local
+                          complete-source orders 2 versus 4; positive
+                          two-/three-loop exclusion and one-loop narrowing
+certificate replay:       29/29 hostile mutations rejected under tiny RAM
+route correction:         ordinary neighbor norm retracted; no compressed
+                          norm or empirical probe enters the theorem
+DAG delta:                outbound custody of multiplicity exclusion plus
+                          exact atlas compilers
+next route-deciding step: positive zero-loop and narrowed one-loop rows;
+                          do not run superseded three-loop saturation
+```
+
+### Work-cycle route retraction: positive three-loop neighbor norm
+
+```text
+starting local pin:       fd38a7da (upstream custody receipt)
+ending local theorem pin: exact neighbor-norm weld refutation
+canonical prize pin:      026d8be7
+node/workboard attacked:  K3 / positive three-loop low-variable elimination
+result:                   REFUTED ordinary-resultant/graph-incidence weld
+DAG delta:                prior node changed PROVED -> REFUTED
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase compiler)
+surviving facts:          two degree-(2,2) resultant identities exact;
+                          24-edge graph tables exact separately
+falsifier:                F13 433 root-low common kernel (2,3,2,3;4,7,6,1)
+observed/claimed:         ordinary N(1)=8; weighted graph product bc=6
+cause:                    ordinary root multiplicity was welded to doubled
+                          ramified divisor incidence
+local compute discipline: exact symbolic replay below one second under tiny
+Modal status:             no launch and no cost
+next route-deciding step: use complete-source local multiplicity instead;
+                          do not use any compressed norm gate
+```
+
+### Work-cycle burn-down: positive ramified-loop multiplicity
+
+```text
+starting local pin:       91b0d1f1 (neighbor-norm audit)
+ending local theorem pin: current ramified-loop multiplicity exclusion
+canonical prize pin:      026d8be7
+node/workboard attacked:  K3 / positive coordinate loop counts 2 and 3
+result:                   PROVED global positive loop cap one
+DAG delta:                +1 PROVED background node, +4 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase deletion)
+local left order:         2 (two antipodal rows, each simple)
+complete-square order:    4 (ramified source divisor doubled, then squared)
+placement composition:    every ell=2,3 case has a ramified loop where
+                          the nonzero linear B1 does not vanish
+closed rows:              positive 442/433 with common loop count 2 or 3
+narrowed rows:            one common loop => no outside loop;
+                          zero common loops => at most one outside loop
+local compute discipline: two exact chart samples and symbolic tangents
+Modal status:             no launch and no cost
+next route-deciding step: rebuild the positive workboard with only
+                          zero-loop and narrowed one-loop rows
+```
+
+### Work-cycle compilation: positive residual loop workboard
+
+```text
+starting local pin:       5ad0d704 (global positive loop cap)
+ending local theorem pin: current residual-loop workboard compiler
+canonical prize pin:      ffaf4e9b
+node/workboard attacked:  K3 / positive coordinate graph frontier
+result:                   PROVED exact necessary residual route table
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase compilation)
+common census:            10 orbits -> 5 live orbits / 7 labeled rows
+new deletion:             442 (001;400), defect 1+4=5 > budget 3
+outside census:           2 loop-free + 4 one-loop graph orbits
+routed frontier:          13 common/outside representative records
+first algebra lane:       433-1a -> O0b (defect budget saturated,
+                          unique outside graph)
+local compute discipline: bounded integer census below one second/tiny
+Modal status:             no launch and no cost
+next route-deciding step: compile complete positive Vieta/product rows for
+                          433-1a -> O0b, then use bounded finite-field
+                          probes only if they distinguish an exact route
+```
+
+### Work-cycle compilation: positive 433-1a/O0b signed atlas
+
+```text
+starting local pin:       fbf51c33 (residual loop workboard)
+ending local theorem pin: current saturated-route signed atlas
+canonical prize pin:      52b59cba (Fable changes are DLI/C1-disjoint)
+node/workboard attacked:  K3 / positive coordinate 433-1a -> O0b
+result:                   PROVED exact two-lane target-sign atlas
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase compilation)
+defect ledger:            loop 1 + AB split debit 2 = full budget 3
+forced signed pairs:      AB 2+1; DE 1+1; DF 1+1
+gauge quotient:           32 raw signs -> 2 orbits of size 16
+lane invariant:           product on A-B-E-F-C-A
+compiled target rows:     12 product/squared-sum records per lane
+local compute discipline: finite sign action below one second/tiny
+Modal status:             no launch and no cost
+next route-deciding step: classify source quotient placements, then build
+                          the complete positive 24 x 8 Vieta kernels
+```
+
+### Work-cycle evidence: positive 433-1a/O0b complete products
+
+```text
+local theorem pin:        7fa87094 (two signed target lanes)
+experiment scope:         aligned order-14 subgroup fixture only
+primes:                   29, 43, 71, 113
+cycle signs:              -1,+1 at every prime
+target assignments:       5040 per prime/sign
+common row placements:    296640--302400 distinct per case
+six-fiber survivors:      11598--33199 per case
+complete product result:  0 survivors in all 8 cases
+nearest multiset overlap: 5/6 at p=29,43; 4/6 at p=71; 3/6 at p=113
+moment diagnostic:        no case matches through e1,...,e4
+proof status:             exact finite fixture evidence, not universal
+Modal runs:               ap-M9gh2mPNg6cBLSyIyQcIM8,
+                          ap-JjNfWGTF3R7CdJlZyrGpKQ,
+                          ap-DOi4tbfs0TgGBL5lEl52m7
+Modal cost discipline:    <=0.5 CPU / 256 MB / <16 sec per container;
+                          estimated total well below $0.01
+next theorem target:      derive a low-order complete-product moment
+                          obstruction; do not universalize the toy fixture
+```
+
+### Work-cycle compilation: positive 433-1a common Vieta minors
+
+```text
+local signed-atlas pin:   7fa87094
+node/workboard attacked:  K3 / positive 433-1a common source placement
+result:                   PROVED exact guarded common minor compiler
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase compilation)
+matching atlas:           15 cells / 9 duplicate-role orbits
+source-root rows:         4 per cell, 60 total
+common matrix:            10 x 8
+principal reduction:      rank-six base + 6 pair minors
+compiled minors:          360 total / 110 distinct digests
+degree histogram:         18:156, 20:16, 21:180, 23:8
+term range:               64..240
+rank-drop discipline:     rank B<6 retained as separate branch
+Modal run:                ap-2OEQV8TIEVVVaamf9JSLkl (60/60 complete)
+Modal cost discipline:    0.5 CPU / 768 MB / <60 sec per case;
+                          low-cost symbolic compilation
+next route-deciding step: guard-strip and reduce the six-minor ideals by
+                          the nine role orbits before outside attachment
+```
+
+### Work-cycle reduction: positive 433-1a common Vieta minors
+
+```text
+local compiler pin:      cadaf9bc (raw common Vieta compiler)
+node/workboard attacked: K3 / positive 433-1a common minor systems
+result:                  PROVED exact admissible-guard reduction
+DAG delta:               none (strengthened existing PROVED node)
+raw minors:              degree 18..23 / 64..240 terms
+stripped minors:         degree 6..12 / 16..88 terms
+stripped histogram:      6:4, 7:12, 8:40, 9:16, 10:168,
+                          11:112, 12:8
+all-row Modal run:       ap-rLz9QWatn3oqLIS2EFulCr (60/60 stripped)
+gcd evidence:            32/60 exact rows have joint gcd one;
+                          28 rows timed out even at 220 seconds
+gcd runs:                ap-rVdUeiw77uxNVUWZhNYPqF,
+                          ap-pomv4nCcFPgOGLY1EkrD45
+compute decision:        stop generic gcd; use the exact rank-two quotient
+                          chart cover and three-minor systems
+next route-deciding step: compile four pivot charts plus the all-zero-image
+                          branch, then test representative three-equation
+                          ideals before adding outside rows
+```
+
+### Work-cycle theorem: positive 433-1a common pivot charts
+
+```text
+starting local pin:       bafa14c7 (guard-stripped common minors)
+ending local theorem pin: current exact pivot-chart reduction
+node/workboard attacked:  K3 / positive 433-1a common rank condition
+result:                   PROVED four-chart rank-one cover
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+principal geometry:       four vectors in a two-dimensional quotient
+nonzero charts:           4, each with exactly 3 incident minors
+degenerate branch:        all four quotient images zero, retained
+base-rank-drop branch:    retained outside theorem scope
+compute discipline:       proof is exact linear algebra; no Modal launch
+next route-deciding step: classify the nine role-orbit representatives by
+                          small-prime chart dimension, then reserve exact
+                          elimination for route-distinguishing charts
+```
+
+### Work-cycle evidence: positive 433-1a common chart census
+
+```text
+Modal run:                ap-ACj6NrEeLp83CuFGIHoKj2
+scope:                    nine role-orbit representatives, four root-sign
+                          rows each, exact F13/F17/F29 point counts
+admissible points:        92,160 / 580,608 / 10,782,720
+supported survivors:     24 / 184 / 536
+nonempty sign rows:       12/36 / 32/36 / 28/36
+base rank:                six at all 11,455,488 admissible points
+zero quotient branch:     absent from every tested point
+pivot behavior:           all four images nonzero at every survivor
+strategic verdict:        common principal charts are genuinely populated;
+                          append outside rows for universal route deletion
+proof status:             finite-field evidence only
+```
+
+### Work-cycle theorem: positive 433-1a product-base rank
+
+```text
+starting local pin:       cf702f86 (common pivot-chart reduction)
+ending local theorem pin: current three-orbit base-rank exclusion
+node/workboard attacked:  K3 / positive 433-1a base-rank-drop branch
+result:                   PROVED rank B=6 in cells 0,11,14
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+cell 11:                  one maximal minor is an admissible-guard product
+cell 0:                   b=-c^2 forced, then another minor is a guard product
+cell 14:                  b=c^2 forced; two minors imply
+                          (c^2-1)(r^4-1)=0, impossible
+remaining base branch:    six of nine role orbits
+Modal certificates:       ap-1pnBNqVtUDfkcXvEFSzz6u,
+                          ap-EQ4ZDJQzW6F8G6bAP3KfBj,
+                          ap-iLurIeMQTcy8CJvRB0WRL7
+next route-deciding step: attack degree-six base minors in cells 4/5 while
+                          compiling the outside-row interface for principal
+                          common survivors
+```
+
+### Work-cycle theorem: positive 433-1a five-orbit product rank
+
+```text
+starting local pin:       79eecb41 (three-orbit base-rank exclusion)
+ending local theorem pin: current five-orbit base-rank exclusion
+node/workboard attacked:  K3 / positive 433-1a base-rank-drop branch
+result:                   PROVED rank B=6 in five of nine role orbits
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+new closed orbits:        [4,7] and [5,8]
+cell 4 identity:          determinant 8(R-1)(T-1)(R+T), all guards
+cell 5 identity:          eliminant B*C*(c+1)^2, all guards
+total closed orbits:      [0], [4,7], [5,8], [11], [14]
+remaining base branch:    [1,2], [3,6], [9,10], [12,13]
+Modal equation dumps:     ap-Q44CKyZwfaZG9ehYgPTwwU,
+                          ap-XXOEEJUIdsi3UbCP4l7uX4
+next route-deciding step: attack degree-seven cells [3,6], then the three
+                          degree-nine-only role orbits
+```
+
+### Work-cycle theorem: positive 433-1a global product-base rank
+
+```text
+starting local pin:       61896de5 (five-orbit base-rank exclusion)
+ending local theorem pin: current global base-rank certificate
+node/workboard attacked:  K3 / positive 433-1a base-rank-drop branch
+result:                   PROVED rank P=5 and rank B=6 in all 15 cells
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+cell [3,6]:               factor split; residual determinant is a guard
+                          product, exceptional factor branch gives a unit
+cells [1,2]:              localized deployed-field unit ideal
+cells [9,10]:             localized deployed-field unit ideal
+cells [12,13]:            localized deployed-field unit ideal
+Singular replay:          ap-BAjOEqhrDgulBTrCY3YLpq
+terminal output:          UNIT / basis size 1 / first basis element 1
+input custody:            three canonical program hashes plus all eighteen
+                          equation hashes stored in result JSON
+branch deletion:          base-rank drop is globally empty for 433-1a/O0b
+next route-deciding step: append seven outside rows to the principal common
+                          charts; both target cycle signs remain
+```
+
+### Work-cycle outbound custody: global positive loop cap
+
+```text
+outbound PR:              https://github.com/przchojecki/rs-mca/pull/1143
+outbound exact head:      4569b506d7c86b3b7fbca5b22701ef83988e76e8
+PR title:                 [K3] Cap positive coordinate loops and compile
+                          residual workboard
+exported strengthening:   total loop cap one across all 12 complete fibers;
+                          5 live common orbits / 7 labeled common rows;
+                          13 necessary residual graph routes
+certificate replay:       34/34 hostile mutations rejected under tiny RAM
+review state:             DRAFT; K3 and the KoalaBear row remain open
+```
+
+### Work-cycle theorem: positive 433-1a quadratic paired products
+
+```text
+starting local pin:       d8dc40e6 (global common product-base rank)
+ending local theorem pin: current quadratic paired-product interface
+node/workboard attacked:  K3 / positive 433-1a outside products
+result:                   PROVED exact necessary product/sum compiler
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+common coefficient map:   unique full A2,A0,B1 kernel in every cell
+forced source label:      xi=-M, distinct from eta unless L=I
+outside case ledger:      5 eta choices * 7 xi records * 15 matchings
+                          = 525 cases per common row and cycle sign
+equations per case:       missing-mate product and squared-sum equations
+                          plus three explicit quadratic resultants
+aligned finite evidence:  F13 0/48, F17 0/368, F29 48/1072 relaxed
+                          common/cycle survivors admit a completion
+F29 localization:         only role cells 5 and 12 survive; 160 target
+                          triples across the 48 common points
+Modal runs:               ap-GbxO9Tzy9FDXWd2iXX7urQ,
+                          ap-qsdj1fpjiAdp2fcONyLWT9,
+                          ap-AfDUnxANc4VDtbuKAv219S
+scope correction:         finite probe is aligned xi=eta only; no
+                          near-aligned conclusion
+mate-sum refinement:      second F29 run cuts 48 common points / 160 target
+                          triples to 8 / 16, all cell 5 and cycle +1
+mate-sum Modal run:       ap-zH5YzdeJ1cG4hfyK6Q9eTJ (72/72 complete)
+near-aligned evidence:    F13 0/48, F17 0/368 product completions;
+                          F29 88/1072 product points -> 32/1072 after sum
+near F29 lanes:           cell 4 cycle -, cell 5 cycle +, cell 12 cycle -;
+                          64 target triples total
+near Modal runs:          ap-WmRDAbdJ2aYTgHG83lIHP8,
+                          ap-k9y0M76KmbUE4qf16AhLNz,
+                          ap-3u9hr5P3djUL4LhW10TZHm
+complete squared sums:    0 aligned and 0 near-aligned F29 completions
+all-sum Modal runs:       ap-8dCdvjclUG5u1lmLxpkQGM,
+                          ap-TabMc9Ck6pc6dVnLk4h6kY
+compute boundary:         direct and reduced-resultant single-case
+                          Singular pilots timed out at 130/180 seconds;
+                          no raw Groebner fanout
+next route-deciding step: quotient eta/xi/matching symmetries and prove a
+                          symbolic obstruction for the three lifted
+                          product/squared-sum source-pair systems
+```
+
+### Work-cycle theorem: positive 433-1a common-kernel uniqueness
+
+```text
+starting local pin:       827a319c (quadratic outside-product compiler)
+ending local theorem pin: current common-kernel uniqueness theorem
+node/workboard attacked:  K3 / positive 433-1a common rank branches
+result:                   PROVED zero-image branch empty and kernel unique
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge;
+                          paired-product dependency rerouted through child
+base rank:                six globally by parent theorem
+nonloop quotient images:  all four nonzero because the last-two-column
+                          determinant is lambda0*lambda_i*(lambda_i-lambda0)
+common survivor rank:     exactly seven
+coefficient kernel:       one-dimensional A2,A0,B1 line
+pivot consequence:        every survivor lies in all four charts
+computation:              none; direct two-column linear algebra
+branch deletion:          both base-rank drop and all-zero image are gone
+next route-deciding step: substitute the unique kernel into missing-mate
+                          and complete residual product/squared-sum cuts
+```
+
+### Work-cycle theorem: positive 433-1a outside-edge eliminants
+
+```text
+starting local pin:       0dbd3d29 (common-kernel uniqueness)
+ending local theorem pin: current outside-edge eliminant compiler
+node/workboard attacked:  K3 / positive 433-1a complete outside Vieta
+result:                   PROVED one-edge scalar eliminant with all degree
+                          branches for each of seven outside records
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+product polynomial:       A0(w)-p A2(w), degree at most two
+sum polynomial:           w B1(w)^2-s^2 A2(w)^2, degree at most four
+generic cut:              22-term degree-six resultant in abstract
+                          coefficients, compact quadratic-algebra norm
+linear degree drop:       exact B^4 Q(-C/B) ledger
+constant degree drop:     impossible because common products b and -b
+                          are distinct and supported
+retained guards:          common/denominator roots, repeated roots, three
+                          source deck pairs, unsquared q signs
+computation:              exact integer-polynomial checker plus independent
+                          80-case finite-field norm/linear audit
+next route-deciding step: substitute common cofactors into a small symmetry-
+                          invariant subset of the seven scalar cuts and seek
+                          a saturated symbolic unit certificate
+```
+
+### Work-cycle theorem: positive 433-1a target-free triangle cuts
+
+```text
+starting local pin:       a75efa79 (complete one-edge scalar compiler)
+ending local theorem pin: current triangle target-elimination compiler
+node/workboard attacked:  K3 / positive 433-1a complete outside Vieta
+result:                   PROVED two exact target-free matching templates
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+template A products:      (de,-df), (-de,cf), (df,be), with ef at xi
+template B products:      (de,cf), (-de,df), (-df,be), with ef at xi
+eliminated variables:     d,e,f disappear from four product-chain
+                          equations and one compact squared-sum equation
+initial audit repair:     a fourth independent cross relation linking
+                          DE/DF to BE/CF was missing; repaired chains have
+                          four equations and complete product elimination
+nonclaim:                 templates A/B are not yet a deployed-field
+                          exhaustive matching classification or exclusions
+next route-deciding step: quotient the 525-case ledger by exact symmetries;
+                          reduce target-free systems in the localized common
+                          curve ring before any saturation or ambient basis
+```
+
+### Work-cycle theorem: positive 433-1a outside-case symmetry quotient
+
+```text
+starting local pin:       2992611f (two target-free triangle templates)
+ending local theorem pin: current outside-case symmetry quotient
+node/workboard attacked:  K3 / positive 433-1a formal outside ledger
+result:                   PROVED exact residual target-gauge quotient
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+faithful stabilizer:      order two, induced by d -> -d
+aligned ledger:           75 labeled cases, 3 fixed, 39 orbits
+near-aligned ledger:      450 labeled cases, 6 fixed, 228 orbits
+total formal quotient:    267 orbits per common row and cycle sign
+missing-mate EF:          9 aligned + 30 near = 39 orbits
+template coverage:        A and B are gauge partners; together they cover
+                          1 aligned + 4 near = 5 EF orbits
+retained EF census:       34 formal orbits lie outside the two triangle
+                          templates, before the universal compiler below
+nonclaim:                 formal orbit survival is not algebraic survival;
+                          no alignment branch or route is deleted
+next route-deciding step: compile the common target-monomial kernel shared
+                          by all 267 representatives
+```
+
+### Work-cycle theorem: positive 433-1a universal target elimination
+
+```text
+starting local pin:       984a6be9 (outside-case symmetry quotient)
+ending local theorem pin: current universal target elimination compiler
+node/workboard attacked:  K3 / positive 433-1a target variables
+result:                   PROVED exact elimination of d,e,f for every
+                          formal outside case
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge;
+                          two-template statement repaired in place
+universal product ideal:  four binomials; necessary and sufficient
+explicit reconstruction: e=BE/b, f=CF/c, d=b*DE+/BE
+universal sum compiler:   seven cleared squared-sum equations
+formal case coverage:     deterministic relabeling compiles all 267
+                          target-gauge representatives
+template repair:          A/B each lacked the independent cross relation;
+                          both now have complete four-binomial chains
+compute consequence:      no 34-case EF target-template derivation and no
+                          target exponent-lattice fleet are needed
+retained problem:          substitute F,H in guarded common-curve rings,
+                          preserve source distinctness and unsquared q signs,
+                          and prove the resulting source systems empty
+next route-deciding step: reconstruct the 23-element cell-5 localized
+                          common-curve basis as a function-field or regular-
+                          chain presentation, then reduce the universal
+                          product equations before the sum equations
+```
+
+The raw-basis instruction above has now been superseded by the exact ratio
+compiler below.  Do not retry the 23-element ambient presentation.
+
+### Work-cycle theorem: positive 433-1a cell-5 ratio chart
+
+```text
+starting local pin:       70092b67 (universal target elimination)
+ending local theorem pin: current cell-5 ratio-chart compiler
+node/workboard attacked:  K3 / positive 433-1a common source curve
+result:                   PROVED exact deployed-field generic/exceptional
+                          decomposition of cell 5, signs (-1,-1), chart C1
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+atomic localization:      fast strip left unit t-r; exact localization
+                          removes it from the first minor only
+localized chart:          degrees 10,10,11; terms 28,40,40
+ratio coordinate:         x=c/b, with b^2 removed as a guarded unit
+degrees in b:             1,2,2
+generic reconstruction:  b=-a0/a1
+generic source equations: variables (x,r,t), degrees 24,25,
+                          terms 244,340
+retained branch:          a0=a1=0 together with both quadratic equations
+exact Modal replay:       ap-8LmPtWmoIdCkKSKaH5gHGz
+discovery-only runs:      split-prime Q(i) reconstruction
+                          ap-Pwoi9QdYWKfq9z4NfUflbE; exact determinant and
+                          generic exact-basis attempts timed out
+nonclaim:                 outside equations and unsquared q signs are not
+                          imposed; no cell, route, row, or Prize close
+next route-deciding step: close or parameterize the explicit a0=a1 branch,
+                          then reduce the four universal product equations
+                          on the generic two-eliminant source curve before
+                          adding the seven squared-sum equations
+```
+
+### Work-cycle theorem: positive 433-1a cell-5 exceptional branch
+
+```text
+starting local pin:       211cef79 (cell-5 ratio-chart compiler)
+ending local theorem pin: current exceptional-branch exclusion
+node/workboard attacked:  K3 / cell-5 ratio denominator branch
+result:                   PROVED fully guarded deployed-field unit ideal
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+branch equations:         a0=a1=L1=L2=0
+equation shapes:          terms 14,14,40,40; degrees 8,9,10,12
+translated guards:        22, including bx+-1 and x+-1
+certificate:              dim=-1, basis size 1, basis element 1
+exact Modal replay:       ap-3F20Ny5s1zwnMDofj3uxEP
+consequence:              every admissible survivor has a1!=0 and
+                          b=-a0/a1; only the generic two-eliminant common
+                          curve remains in this fixed cell/sign/chart
+nonclaim:                 no outside equation or unsquared q sign imposed;
+                          no cell, route, row, or Prize close
+next route-deciding step: reduce the four universal product equations on
+                          the generic (x,r,t) common curve before adding
+                          any squared-sum equation
+```
+
+### Work-cycle theorem: positive 433-1a signed-family target-free interface
+
+```text
+starting local pin:       8327d927 (cell-5 denominator branch excluded)
+ending local theorem pin: current signed-family target-free interface
+node/workboard attacked:  K3 / cell-5 outside unsquared Vieta rows
+result:                   PROVED exact target elimination for two families
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+E family:                 DE+, DE-, BE on arbitrary source roots z0,z1,z2
+F family:                 DF+, DF-, CF; identical with b replaced by c
+compiler:                 four target-free equations in three source roots
+information gain:         eliminates two target roots and preserves the
+                          unsquared q signs lost by squared-sum resultants
+finite-field evidence:    no independent seven-record completion among
+                          368 F17 or 1,072 F29 common survivors
+Modal evidence apps:      ap-kFi1MWruL9asXhwnUqi5US,
+                          ap-oEfa1ita3OEaMxXD5yKsxH
+bounded negative pilots:  direct six-lift, scalar-resultant, product-
+                          coordinate, unsquared, and target-free ambient
+                          bases did not complete under 180-240 second caps
+staged quotient pilot:    saturated common qring dim 6 / basis 12 after
+                          adjoining z0,z1,z2,d,e; product generators
+                          degree 15 / 96 terms, unsquared sum generators
+                          degree 18 / 240 terms; std hit 190-second cap
+staged Modal app:         ap-uG1IwuZNXrj32LwEaDaO5b
+BE endpoint factor:       unit * (z-t) * R_b(z), degree_z R_b=3,
+                          total degree 14, 120 terms; z=t is common
+endpoint qring app:       ap-OEAvKJxyhQn0ulMiNUF8Yq (combined std timeout)
+signed-pair-only app:     ap-cGvpVPiwsv1wiGLv3z4FHK; quotient dim 5,
+                          basis 12, four 96/240-term rows, std timeout
+compute decision:         no larger fleet and no memory escalation
+nonclaim:                 neither signed-family system is proved empty;
+                          no cell, route, K3 row, or Prize close
+next route-deciding step: triangularize/factor the signed DE pair first,
+                          then append only R_b and the BE sum row; avoid
+                          another generic basis
+```
+
+### Upstream export: K3 positive coordinate reduction
+
+```text
+upstream PR:              przchojecki/rs-mca #1143 (draft)
+exported commit:          d4b8d5fa
+exported scope:           global product-base rank, unique common kernel,
+                          525-case necessary outside ledger, one-edge cuts,
+                          and the first two target-free triangle templates
+exact remote replay:      all three Singular unit cells passed in clean
+                          Modal app ap-Iz1TrNvOrldVFaJExtbKt8
+scope fence:              PR explicitly leaves 433-1a, K3, KoalaBear, and
+                          both Prize results open
+next export candidate:    the proved 267-orbit quotient, universal target
+                          compiler, and fourth-binomial template repair
+```
+
+### Work-cycle evidence: positive 433-1a common-curve boundary
+
+```text
+specialized edge pilot:   44/56 product terms; 441..1122 sum terms;
+                          all four expansions timed out at 75 seconds
+sparse cell-5 pilot:      product terms reduced to 28/40, sum side unchanged;
+                          expansion still timed out
+F29 residual trace:       32 aligned/near target triples across all root
+                          signs; every product lift passes 0/6 residual sums
+matching support:         exactly target templates A and B in that trace
+deployed common chart:    localized dimension 1, basis size 23, vdim=-1
+ambient type-A system:    seven-variable dp basis hit 120-second cap
+Modal runs:               ap-L6jmDq6TmutoMId17LuGB0,
+                          ap-D6qITfQuoEmOY4DuAhsi7F,
+                          ap-3rKm0cMDPrCQBq9glyA83m,
+                          ap-3NNIpulALnODMHqWkGTzM3,
+                          ap-5LekROrgmIeQwn2fIpVvVy
+compute decision:         stop raw resultant and ambient Groebner retries;
+                          use the proved x=c/b ratio chart and retain compact
+                          product chains; do not retry the exact ambient basis
+```
+
+### Canonical harvest: DLI C1 block basis and LIST unsafe staircase
+
+```text
+canonical pins:           52b59cba (DLI), fc98abfb (LIST)
+harvested nodes:          dli_c1_256_block_basis_factorization [PROVED]
+                          rate_half_list_cyclic_budget_staircase [PROVED]
+DLI exact gain:           256 invertible D_a F blocks; exact iid block
+                          marginals; dependence isolated to C_a=M^a C_0
+DLI retained problem:     mixing/anti-concentration of one deterministic
+                          256-step orbit, not marginal iid behavior
+LIST exact gain:          six field-independent unsafe tiers; first five
+                          improve the cap floor, final tier recovers it
+LIST retained problem:    safe-side certificates / total decision oracle
+import repairs:           final LIST tier is equality, not strict gain;
+                          finite monotonicity uses exact values, not a false
+                          superexponential-growth assertion
+critical census effect:   none; both are proved evidence into open heads
+```
+
+### Canonical harvest: DLI C1 L=1 block-owner ledger
+
+```text
+canonical pin:            38cb4d50
+harvested node:           dli_c1_l1_block_owner_ledger [PROVED]
+dependency repair:        Newton weights <=2 plus official ambient
+                          exclusions at weights 3 and 4 are explicit reqs
+exact identity:           Z-2^256/q = 1-1/q
+                          + sum_(j<64)(A_j-15*2^(4j)/q)
+C1-ZERO equivalence:      aggregate excess attraction <= 3+1/q
+scope correction:         telescoping in the printed A_j form uses
+                          kappa_j(0)=1; it is exact on the official stratum
+                          after the wired exclusions, not hypothesis-free
+retained problem:          no A_j or aggregate bound; no C1-ZERO close
+strategy update:           test engineered weight-9/10 resonance primes
+                          before treating literal SWIF-4 as the theorem
+proposed but unproved:     CERP-512, lambda-rigidity, resonance-prime sieve
+next route-deciding step: exact owner-trajectory compiler at small
+                          order-512 analogues, followed by spike/diffuse
+                          classification if the ledger resists falsification
+```

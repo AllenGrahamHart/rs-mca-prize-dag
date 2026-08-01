@@ -11082,3 +11082,212 @@ per task.  Every task must:
 Prefer a CAS with efficient finite-field quotient and elimination support
 over generic SymPy Groebner.  A pilot should use one task only; estimate its
 cost from that result before requesting parallel capacity.
+
+## CR-KB-POS3-SAT: positive three-loop parametric saturation
+
+**Status:** deferred theorem/algorithm and donated-compute request.  It is
+not authorized for local or Modal execution.  The local exact compilers and
+small-field pilots are complete; a raw point search is not requested.
+
+**Target:** the eight signed lanes under the open critical node
+`rate_half_band_closure`, specifically positive coordinate parity in the
+residual KoalaBear `(m,r,delta)=(2,4,2)` row.
+
+**Pinned inputs:**
+
+- `rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas`:
+  four loop-placement residuals `R_442,L`, `R_442,H`, `R_433,L`,
+  `R_433,H`;
+- `rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas`:
+  two cycle signs and seven target records per placement;
+- `rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler`:
+  the 22-term generic edge resultant and exact linear-product degree drop;
+- `experiments/prize_resolution/rate_half_kb_positive_three_loop_fixed_kernel_groebner_probe.py`:
+  four deterministic `F_17` algebraic-closure fixtures.  Seven of eight raw
+  full ideals are units; the eighth has basis
+  `d^2-4,e+1,f+1` and becomes a unit after target-collision saturation.
+
+**Requested sharding:** one task for each
+`(442/433, root-low/root-high, cycle sign)` lane.  Do not combine lanes in a
+single basis computation.
+
+For one lane, a worker should:
+
+1. construct a primitive common-kernel vector from the `4 x 4` matrix
+   cofactors and impose the corresponding common residual;
+2. substitute that vector into the six noncycle edge eliminants, then append
+   the selected cycle-sign eliminant;
+3. split or saturate the generic `A!=0`, linear `A=0,B!=0`, and impossible
+   constant branches without dividing away a degree drop;
+4. saturate by `beta`, leading support at all five common labels, the common
+   source-label differences, all six target-square differences, every
+   outside/common root difference, and pairwise outside-root differences;
+5. return either an exact unit-ideal/Nullstellensatz certificate or a
+   positive-dimensional/zero-dimensional survivor basis with every guard
+   norm and an original-row back-substitution witness.
+
+**Acceptance standard:** a modular unit basis alone is route evidence, not a
+theorem.  Promotion requires either an exact rational/integer certificate or
+a modular reconstruction with independently replayed characteristic and
+denominator bounds covering the official field.  A survivor must include
+the seven guarded quotient roots, not only seven vanishing scalar
+resultants.
+
+**Pilot and cost gate:** first run exactly one 433 lane, because three of the
+four fixed fixtures die before the cycle edge and this is the best candidate
+for a short certificate.  Print input term counts, maximum basis size,
+peak memory, wall time, and certificate size.  Estimate all eight tasks from
+that pilot before parallel launch.  If the pilot exceeds its declared cap,
+return the partial basis and do not retry at a larger cap without maintainer
+approval.
+
+## CR-KB-POS433-QPAIR: positive 433-1a quadratic outside-product systems
+
+**Status:** deferred algorithm/certificate request.  Do not launch a raw
+case fleet.  The exact interface is proved locally, but two representations
+of one aligned case already exhausted 130-second and 180-second caps.
+
+**Target:** the positive `433-1a -> O0b` route under
+`rate_half_band_closure`.
+
+**Pinned inputs:**
+
+- the common-kernel uniqueness theorem and its full `A_2,A_0,B_1` vector;
+- the quadratic paired-product resultant interface, including the separate
+  `eta` and missing-mate `xi` choices;
+- the seven-record outside-edge eliminant compiler, including generic,
+  linear, and impossible-constant degree branches;
+- the two signed `O0b` target lanes;
+- the exact fifteen-cell common Vieta atlas and four pivot charts.
+
+Each common row and cycle sign has a formal `5*7*15=525` outside-product
+ledger.  This is not the requested shard count.  The residual target-sign
+quotient is now exact: after the signed-edge gauge, the faithful stabilizer
+has order two (`d -> -d`) and gives 39 aligned plus 228 near-aligned formal
+orbits per common row and cycle sign.  The sealed certificate prints all
+267 representatives.  The `EF` missing-mate subledger has 39 orbits; the
+current A/B templates are gauge partners and cover five.  A subsequent
+exact target-monomial calculation supersedes the proposed 34-template
+fleet: all 267 representatives are relabelings of one universal system with
+four necessary-and-sufficient product binomials, seven cleared squared-sum
+equations, and explicit reconstruction of `d,e,f`.  Duplicate-role and
+common-root-sign quotients are not yet composed.
+
+A useful contribution should substitute this universal target compiler in
+the guarded common-curve coordinate rings and quotient the resulting source
+systems.  Do not derive more target-specific triangle templates.
+
+For one canonical representative:
+
+1. substitute the missing-mate product and squared-sum equations before
+   elimination;
+2. impose the three quadratic resultants without introducing source-root
+   variables unless the resultant survivor must be lifted;
+3. append at least one of the six remaining outside sum rows before running
+   a standard basis;
+4. saturate all common/outside leading-support, source-label, target-pair,
+   and denominator guards;
+5. return a replayable unit certificate or a guarded lifted survivor with
+   all twelve original product/sum rows checked.
+
+**Known pilot boundary:** direct source-pair variables timed out after 130
+seconds in Modal run `ap-E6pJY7vJcqMmRTbdjiXkQ9`.  Three reduced quadratic
+resultants exhausted the 180-second function cap in
+`ap-ZAFf2iYtIe9hzMCa6lMD0g`.  These are failed algorithms, not survivors.
+The exact `F_29` aligned probe with the missing-mate sum retains only 8
+common points and 16 target triples in role cell `5`, cycle `+1`
+(`ap-zH5YzdeJ1cG4hfyK6Q9eTJ`); this prioritizes but does not delete cells.
+The near-aligned probe retains 32 common points and 64 target triples in
+cells `4/-`, `5/+`, and `12/-` at `F_29`, while `F_13/F_17` are empty
+(`ap-3u9hr5P3djUL4LhW10TZHm`, `ap-WmRDAbdJ2aYTgHG83lIHP8`,
+`ap-k9y0M76KmbUE4qf16AhLNz`).  These also prioritize rather than delete.
+Complete squared-sum `F_29` replays then delete every aligned and near-
+aligned relaxation survivor (`ap-8dCdvjclUG5u1lmLxpkQGM`,
+`ap-TabMc9Ck6pc6dVnLk4h6kY`).  Do not request more small-prime sweeps; the
+open task is a deployed-field symbolic certificate for the lifted systems.
+
+**Cost gate:** estimate the symmetry-reduced orbit count and run one case
+with basis-size, peak-memory, wall-time, and partial-basis telemetry.  Do
+not fan out unless that pilot has a plausible total budget and improves on
+the known timeout.  Exact sparse elimination, triangular decomposition, or
+finite-algebra methods are preferred over generic lexicographic Groebner.
+
+### 2026-08-01 target-free refinement
+
+The surviving `F_29` cell-5/cycle-`+1` lifts use two matching templates.
+For both templates the target representatives `d,e,f` now eliminate
+exactly.  The first version listed three necessary product-chain equations;
+an exact lattice audit added the missing independent cross relation, so the
+repaired chain has four product equations and one compact squared-sum cut in
+the common rational maps `F,H` and source deck labels `u,v,w`.  See
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler`.
+The finite-field observation does not prove these two templates exhaustive.
+
+The deployed-field cell-5 common chart is not finite: after exact guard
+localization it has dimension one and a 23-element degree-order standard
+basis (`ap-3NNIpulALnODMHqWkGTzM3`).  Direct expansion of either compact
+target-free cut timed out (`ap-hiw5WgQAWd21qUlGGxugnw`), and an unsaturated
+ambient seven-variable type-A standard basis hit 120 seconds
+(`ap-5LekROrgmIeQwn2fIpVvVy`).
+
+A useful contributed run should therefore:
+
+1. ingest or reconstruct the 23-element localized common-curve basis;
+2. compute a function-field, regular-chain, or quotient-ring presentation
+   of that curve without expanding the target-free cuts ambiently;
+3. reduce the four product-chain equations first, then append the single
+   compact sum cut;
+4. saturate source-pair distinctness and leading support only after the
+   reduced system is zero-dimensional;
+5. return a replayable unit certificate or a guarded original-row witness.
+
+Do not rerun the ambient `dp` basis at a larger cap and do not fan out over
+the 267 formal symmetry representatives.  The target exponent lattice is
+already complete and universal; work on common-curve/source-system
+quotients instead.
+
+### 2026-08-01 signed-family regular-chain request
+
+The PROVED cell-5 signed-family interface now eliminates the target roots
+exactly.  For `DE+/DE-/BE` it gives four target-free unsquared equations in
+three source roots; `DF+/DF-/CF` is identical with `b` replaced by `c`.
+Exact relaxed probes found no independent seven-record Vieta completion
+among 368 `F_17` or 1,072 `F_29` common survivors
+(`ap-kFi1MWruL9asXhwnUqi5US`, `ap-oEfa1ita3OEaMxXD5yKsxH`).
+
+The corrected saturated common quotient has dimension six and basis size
+twelve after adjoining three source roots and two target roots.  In that
+quotient the six original unsquared generators are sparse: each product row
+has degree 15 and 96 terms, and each sum row degree 18 and 240 terms.  A
+quotient-compatible generic `std` still exhausted 190 seconds
+(`ap-uG1IwuZNXrj32LwEaDaO5b`).  The manually target-free presentation is
+worse: cut sizes are 769, 78,105, 43,634, and 58,964 terms
+(`ap-XvpdSEjqpJgkteo3AudUPb`).
+The `BE` endpoint polynomial now factors exactly as a guarded unit times
+`(z-t)R_b(z)` with `degree_z R_b=3`, total degree 14, and 120 terms.  The
+known root `z=t` is forbidden for the outside edge.  Replacing the colored
+product row by `R_b` did not make the combined generic basis finish
+(`ap-OEAvKJxyhQn0ulMiNUF8Yq`), so use the cubic only after signed-pair
+decomposition.
+The signed pair by itself has common-quotient dimension five, basis size
+twelve, and only four 96/240-term generators, yet generic `std` still timed
+out (`ap-cGvpVPiwsv1wiGLv3z4FHK`).  This rules out “drop the colored row and
+retry the same algorithm” as the requested contribution.
+
+Requested contribution:
+
+1. ingest the saturated projected common ideal, not the unsaturated
+   three-minor ideal;
+2. triangularize only the signed `DE+`,`DE-` pair first, preferably by a
+   regular chain, subresultant sequence, or factor-by-factor norm;
+3. report dimensions and guard norms for every component before appending
+   `BE`;
+4. append the colored edge only to surviving signed-pair components, then
+   saturate `Delta D_0D_1D_2`, source collisions, and common/outside labels;
+5. return a unit certificate or an original unsquared-row witness;
+6. repeat for the `DF` family only if the first family survives.
+
+Do not increase the generic standard-basis cap, run both families in
+parallel, expand the four target-free cuts ambiently, or fan out over the
+267 matching representatives.  The desired output is a component ledger,
+not a longer timeout.
