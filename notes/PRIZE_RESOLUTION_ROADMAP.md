@@ -13556,3 +13556,21 @@ Modal status:             no launch and no cost
 next route-deciding step: exact classifiers for the five remaining
                           one-loop 433 target-sign matching orbits
 ```
+
+### Work-cycle burn-down: one-loop 433 crossed loop-singleton close
+
+```text
+starting local pin:       6cbc6b70 (one-loop 433 aligned cell exclusion)
+ending local theorem pin: current crossed cells 1/2 q exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / one-loop 433 loop-singleton sector
+result:                   PROVED cells 1 and 2 are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-subcase deletion)
+q equations:              linear in r after printed guard stripping
+q resultants:             b(c^2-1) or c(b^2-1)
+loop-singleton frontier:  cells 0/1/2 all empty
+Modal status:             no launch and no cost
+next route-deciding step: four nonloop-singleton matching orbits
+```

@@ -20376,6 +20376,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 433 crossed loop-singleton exclusion",
+   "status": "PROVED",
+   "closure": "complete q-only deletion of one-loop 433 common matching cells 1/2",
+   "statement": "In crossed loop-singleton cells 1 and 2, strip only the explicit source/target guards from the two one-loop q welds. In all eight cell/root-sign rows the residual equations are linear in r. Their resultant is b(c^2-1) when the root signs agree and c(b^2-1) when they differ, up to a nonzero field scalar. Product injectivity and target distinctness forbid every factor, so both cells are empty before product or outside interpolation.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier",
    "title": "KoalaBear m2 r4 coordinate negative one-loop 442 aligned-pair classifier",
    "status": "PROVED",
@@ -40357,6 +40377,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

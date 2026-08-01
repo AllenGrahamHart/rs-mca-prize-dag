@@ -3000,3 +3000,20 @@ are all nonsquares.  Thus cell `0` is empty before any outside work.  A
 constant-memory `F_29/F_41` reconnaissance scan found only cells `11/14`
 live at `F_29` and no live cells at `F_41`; use that only to prioritize the
 five remaining target-sign orbits, not as a deployed proof.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion`
+deletes the other two loop-singleton cells.  Cells `1,2` cross `AB/AC`
+against the two `BC` products.  After exact guard stripping, both q welds
+are linear in `r`, with resultant
+
+```text
+same root signs:       b(c^2-1),
+opposite root signs:   c(b^2-1).
+```
+
+Every factor is a product-zero or target-collision guard.  This q-only
+argument covers both crossed cells and all eight sign rows.  Consequently
+the complete loop-singleton sector `[0,1,2]` is empty; the live one-loop
+433 common frontier consists only of the four nonloop-singleton matching
+orbits.
