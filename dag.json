@@ -21097,6 +21097,7 @@
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/verify.py",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/verify_audit.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1a_signed_family_target_free.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_signed_family_qring_modal.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1a_common_chart_probe.c",
     "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_product_probe_modal.py"
    ]

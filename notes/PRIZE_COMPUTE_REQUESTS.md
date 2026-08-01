@@ -11245,3 +11245,39 @@ Do not rerun the ambient `dp` basis at a larger cap and do not fan out over
 the 267 formal symmetry representatives.  The target exponent lattice is
 already complete and universal; work on common-curve/source-system
 quotients instead.
+
+### 2026-08-01 signed-family regular-chain request
+
+The PROVED cell-5 signed-family interface now eliminates the target roots
+exactly.  For `DE+/DE-/BE` it gives four target-free unsquared equations in
+three source roots; `DF+/DF-/CF` is identical with `b` replaced by `c`.
+Exact relaxed probes found no independent seven-record Vieta completion
+among 368 `F_17` or 1,072 `F_29` common survivors
+(`ap-kFi1MWruL9asXhwnUqi5US`, `ap-oEfa1ita3OEaMxXD5yKsxH`).
+
+The corrected saturated common quotient has dimension six and basis size
+twelve after adjoining three source roots and two target roots.  In that
+quotient the six original unsquared generators are sparse: each product row
+has degree 15 and 96 terms, and each sum row degree 18 and 240 terms.  A
+quotient-compatible generic `std` still exhausted 190 seconds
+(`ap-uG1IwuZNXrj32LwEaDaO5b`).  The manually target-free presentation is
+worse: cut sizes are 769, 78,105, 43,634, and 58,964 terms
+(`ap-XvpdSEjqpJgkteo3AudUPb`).
+
+Requested contribution:
+
+1. ingest the saturated projected common ideal, not the unsaturated
+   three-minor ideal;
+2. triangularize only the signed `DE+`,`DE-` pair first, preferably by a
+   regular chain, subresultant sequence, or factor-by-factor norm;
+3. report dimensions and guard norms for every component before appending
+   `BE`;
+4. append the colored edge only to surviving signed-pair components, then
+   saturate `Delta D_0D_1D_2`, source collisions, and common/outside labels;
+5. return a unit certificate or an original unsquared-row witness;
+6. repeat for the `DF` family only if the first family survives.
+
+Do not increase the generic standard-basis cap, run both families in
+parallel, expand the four target-free cuts ambiently, or fan out over the
+267 matching representatives.  The desired output is a component ledger,
+not a longer timeout.

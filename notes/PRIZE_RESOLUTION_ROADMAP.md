@@ -14585,12 +14585,16 @@ Modal evidence apps:      ap-kFi1MWruL9asXhwnUqi5US,
 bounded negative pilots:  direct six-lift, scalar-resultant, product-
                           coordinate, unsquared, and target-free ambient
                           bases did not complete under 180-240 second caps
+staged quotient pilot:    saturated common qring dim 6 / basis 12 after
+                          adjoining z0,z1,z2,d,e; product generators
+                          degree 15 / 96 terms, unsquared sum generators
+                          degree 18 / 240 terms; std hit 190-second cap
+staged Modal app:         ap-uG1IwuZNXrj32LwEaDaO5b
 compute decision:         no larger fleet and no memory escalation
 nonclaim:                 neither signed-family system is proved empty;
                           no cell, route, K3 row, or Prize close
-next route-deciding step: compute the generic common-curve basis first,
-                          normal-form the four cuts independently, then
-                          form one guarded saturated ideal
+next route-deciding step: triangularize/factor the signed DE pair first,
+                          then append BE; avoid another generic basis
 ```
 
 ### Upstream export: K3 positive coordinate reduction

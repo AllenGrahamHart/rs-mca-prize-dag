@@ -3439,5 +3439,7 @@ seven-record completion even after dropping matching, mate, and source-
 distinctness constraints, but this is evidence only.  Raw direct,
 resultant, product-coordinate, and target-free Groebner presentations hit
 bounded Modal caps.  Compute the generic common-curve basis first, reduce
-the four signed-family cuts separately to normal form, and only then form a
-saturated ideal.  Do not retry expanded squared-sum or six-record bases.
+the signed pair as a regular chain before appending the colored third edge.
+The saturated qring has basis size twelve; its six sparse unsquared
+generators have only 96/240 terms but generic `std` still hit 190 seconds.
+Do not retry expanded squared-sum, six-record, or larger generic bases.
