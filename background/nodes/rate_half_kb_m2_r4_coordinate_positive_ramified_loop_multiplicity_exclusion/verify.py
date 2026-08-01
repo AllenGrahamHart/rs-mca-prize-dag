@@ -16,6 +16,7 @@ SCRIPT = ROOT / (
 PARENTS = (
     "rate_half_kb_m2_r4_source_row_interpolation_compiler",
     "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
+    "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
     "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
 )
 
@@ -36,6 +37,9 @@ def main():
         "loop_placements_deleted": 4,
         "loop_counts_deleted": (2, 3),
         "one_loop_ramified_requires_b1_zero": True,
+        "maximum_total_loops": 1,
+        "outside_allowance_with_zero_common_loops": 1,
+        "outside_allowance_with_one_common_loop": 0,
     }, "multiplicity replay")
 
     dag = json.loads((ROOT / "dag.json").read_text())
@@ -49,11 +53,11 @@ def main():
         require((parent, NODE_ID, "req") in edges, f"dependency {parent}")
     require((NODE_ID, "rate_half_band_closure", "ev") in edges, "consumer")
     statement = (NODE / "statement.md").read_text()
-    require("ell_positive <= 1" in statement, "loop cap")
+    require("ell_positive,total <= 1" in statement, "loop cap")
     require("does not treat positive zero-loop" in statement, "scope fence")
     print(
         "RATE_HALF_KB_POSITIVE_RAMIFIED_LOOP_MULTIPLICITY_VERIFY_PASS "
-        "local_order=2 required_order=4 loop_counts=2,3"
+        "local_order=2 required_order=4 loop_counts=2,3 total_loop_cap=1"
     )
 
 

@@ -3343,8 +3343,9 @@ turns that audit catch into the correct direct theorem.  At a ramified
 positive loop where `B_1` is nonzero, only the two antipodal target rows
 vanish and each has local order one, so their resultant product has order
 two.  The complete-source square requires order four at the doubled branch
-fiber.  The contradiction, combined with the positive loop-placement
-census and the unique zero of linear `B_1`, deletes every positive two- and
-three-loop 442/433 row.  Remove those rows from the coordinate workboard.
-The surviving positive frontier is zero-loop plus one-loop, with any
-ramified one-loop forced to be the zero of `B_1`.
+fiber.  At every ordinary loop the Vieta sum row also forces `B_1=0`.
+Therefore every positive loop across all twelve complete fibers occupies
+the unique zero of linear `B_1`, giving a global loop cap of one.  This
+deletes every positive two- and three-loop 442/433 row.  Remove those rows
+from the coordinate workboard.  A surviving one-common-loop row has no
+outside loop; a zero-common-loop row has at most one outside loop.

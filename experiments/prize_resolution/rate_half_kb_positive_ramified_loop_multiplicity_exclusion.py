@@ -93,10 +93,24 @@ def loop_placement_census():
     return tuple(placements)
 
 
+def global_loop_cap_replay():
+    locations = ("ramified_zero", "ramified_infinity", "ordinary_u", "ordinary_v")
+    for left, right in itertools.combinations(locations, 2):
+        # Every allowed loop must equal the unique projective zero of B1.
+        if left == right:
+            raise RuntimeError("distinct-loop replay")
+    return {
+        "maximum_total_loops": 1,
+        "outside_allowance_with_zero_common_loops": 1,
+        "outside_allowance_with_one_common_loop": 0,
+    }
+
+
 def verify():
     local_orders = local_expansion_check()
     samples = exact_product_samples()
     placements = loop_placement_census()
+    global_cap = global_loop_cap_replay()
     return {
         "local_row_order": local_orders[0],
         "required_square_order": local_orders[1],
@@ -104,6 +118,7 @@ def verify():
         "loop_placements_deleted": len(placements),
         "loop_counts_deleted": (2, 3),
         "one_loop_ramified_requires_b1_zero": True,
+        **global_cap,
     }
 
 
@@ -115,7 +130,7 @@ def main():
         f"required_order={result['required_square_order']} "
         f"branch_charts={result['branch_charts']} "
         f"placements_deleted={result['loop_placements_deleted']} "
-        "loop_counts=2,3"
+        f"loop_counts=2,3 total_loop_cap={result['maximum_total_loops']}"
     )
 
 

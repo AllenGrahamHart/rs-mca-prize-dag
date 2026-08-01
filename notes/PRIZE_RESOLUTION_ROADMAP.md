@@ -14102,7 +14102,7 @@ starting local pin:       91b0d1f1 (neighbor-norm audit)
 ending local theorem pin: current ramified-loop multiplicity exclusion
 canonical prize pin:      026d8be7
 node/workboard attacked:  K3 / positive coordinate loop counts 2 and 3
-result:                   PROVED all positive two-/three-loop rows empty
+result:                   PROVED global positive loop cap one
 DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
 critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
                           (unchanged; exact subcase deletion)
@@ -14110,8 +14110,9 @@ local left order:         2 (two antipodal rows, each simple)
 complete-square order:    4 (ramified source divisor doubled, then squared)
 placement composition:    every ell=2,3 case has a ramified loop where
                           the nonzero linear B1 does not vanish
-closed rows:              positive 442/433 with loop count 2 or 3
-narrowed row:             a ramified positive one-loop is the B1 zero
+closed rows:              positive 442/433 with common loop count 2 or 3
+narrowed rows:            one common loop => no outside loop;
+                          zero common loops => at most one outside loop
 local compute discipline: two exact chart samples and symbolic tangents
 Modal status:             no launch and no cost
 next route-deciding step: rebuild the positive workboard with only

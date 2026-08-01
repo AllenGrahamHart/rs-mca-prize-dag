@@ -7,3 +7,4 @@
 5. The infinity branch is checked in its reciprocal local coordinate after homogeneous reversal.
 6. For two ramified loops, `B_1` may vanish at one branch; the other branch supplies the contradiction.
 7. The theorem deletes loop counts two and three, not all positive parity.
+8. The final cap is global across all twelve complete fibers, not only the five common fibers.

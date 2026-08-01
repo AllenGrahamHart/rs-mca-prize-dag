@@ -38,13 +38,22 @@ has order four, contradiction.  At `W=infinity`, use the local coordinate
 is again `(KBPRM-1)`, with the leading coefficients of `D,E,B_1`; the same
 order-two versus order-four contradiction applies.
 
-It remains to apply this local obstruction to the loop census.  The parent
-ramification gate proves that `B_1` is a nonzero projective linear form,
-every nonramified loop is its zero, a two-loop packet uses at least one
-branch value, and a three-loop packet uses both branch values.  In a
+For any of the twelve complete fibers away from ramification, the positive
+Vieta sum equation has nonzero source lift and `A_2`, so an antipodal star
+forces `B_1=0`.  At ramification the local contradiction just proved makes
+`B_1=0` necessary as well.  The parent proves that `B_1` is a nonzero
+projective linear form, hence has one zero.  Distinct complete fibers have
+distinct quotient labels, so at most one can be a loop.  This proves the
+global form of `(KBPRM-4)`.
+
+For completeness, apply it to the earlier common-loop census.  The parent
+also proves that a two-loop packet uses at least one branch value and a
+three-loop packet uses both branch values.  In a
 two-loop packet with one ordinary loop, that ordinary loop consumes the
 unique zero, so `B_1` is nonzero at the ramified loop.  With two ramified
 loops, a linear form can vanish at at most one of them.  A three-loop packet
 has one ordinary and both ramified loops, so `B_1` is nonzero at both
 branches.  Every case contradicts the local result.  This proves
-`(KBPRM-4)` and the one-loop narrowing. QED.
+the two- and three-common-loop exclusions directly.  If there is one
+common loop, the global cap forbids every outside loop; if there is no
+common loop, at most one outside loop remains. QED.
