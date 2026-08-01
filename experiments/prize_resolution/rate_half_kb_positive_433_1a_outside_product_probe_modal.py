@@ -88,6 +88,12 @@ def main(prime: int = 29, alignment: str = "aligned"):
             "outside_mate_sum_target_completions": sum(
                 row["outside_mate_sum_target_completions"] for row in rows
             ),
+            "common_points_with_all_sums": sum(
+                row["common_points_with_all_sums"] for row in rows
+            ),
+            "outside_all_sum_target_completions": sum(
+                row["outside_all_sum_target_completions"] for row in rows
+            ),
             "first_example": next(
                 (row["outside_example"] for row in rows
                  if row["outside_example"][0] >= 0), None
@@ -95,6 +101,10 @@ def main(prime: int = 29, alignment: str = "aligned"):
             "first_mate_sum_example": next(
                 (row["mate_sum_example"] for row in rows
                  if row["mate_sum_example"][0] >= 0), None
+            ),
+            "first_all_sum_example": next(
+                (row["all_sum_example"] for row in rows
+                 if row["all_sum_example"][0] >= 0), None
             ),
         })
     print(json.dumps({
@@ -118,12 +128,19 @@ def main(prime: int = 29, alignment: str = "aligned"):
         "total_outside_mate_sum_target_completions": sum(
             row["outside_mate_sum_target_completions"] for row in completed
         ),
+        "total_common_points_with_all_sums": sum(
+            row["common_points_with_all_sums"] for row in completed
+        ),
+        "total_outside_all_sum_target_completions": sum(
+            row["outside_all_sum_target_completions"] for row in completed
+        ),
         "summaries": summaries,
         "noncomplete": [row for row in results if row["status"] != "COMPLETE"],
         "scope": (
             f"F{prime} {alignment} necessary quadratic paired-product "
             "completion with the squared missing-mate sum; target/source "
-            "choices are finite-field relaxations; no remaining outside "
-            "sum, deployed-field, route, K3, or Prize conclusion"
+            "choices are finite-field relaxations; all residual squared "
+            "sum rows are also counted; no deployed-field, route, K3, or "
+            "Prize conclusion"
         ),
     }, sort_keys=True))

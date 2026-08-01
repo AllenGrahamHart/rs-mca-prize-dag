@@ -80,13 +80,28 @@ then the sum half of the Vieta equation supplies the square-root-free cut
 xi B_1(xi)^2-s_x^2 A_2(xi)^2=0.                   (KBPQI-7)
 ```
 
-The ledger may be pruned by `(KBPQI-3)`, `(KBPQI-7)`, leading support,
-source-label distinctness, and the three resultants before any of the six
-remaining outside sum rows is constructed.
+The ledger may first be pruned by `(KBPQI-3)`, `(KBPQI-7)`, leading
+support, source-label distinctness, and the three resultants.  The six
+remaining outside sum rows then refine the surviving pair lifts as follows.
 
-This theorem does not claim that a resultant survivor lifts to three
-distinct unused source deck pairs, satisfies the six remaining outside sum
-rows, is realizable, or deletes either alignment branch.  It does not close
+More exactly, if a residual target pair `(y,z)` with squared target sums
+`s_y^2,s_z^2` is assigned to the unused source deck pair
+`{kappa,-kappa}`, it must satisfy
+
+```text
+P_y(kappa)=Q_z(kappa)=0,
+kappa B_1(kappa)^2-s_y^2 A_2(kappa)^2=0,
+-kappa B_1(-kappa)^2-s_z^2 A_2(-kappa)^2=0.       (KBPQI-8)
+```
+
+The three residual pairs use three distinct source deck pairs disjoint from
+`K`.  Equations `(KBPQI-7)--(KBPQI-8)` compile all seven outside squared-
+sum rows without choosing signs of source square roots.
+
+This theorem does not claim that a bare resultant survivor lifts to three
+distinct unused source deck pairs, that squared-sum survival lifts to all
+unsquared `q` rows, that a survivor is realizable, or that either alignment
+branch is empty.  It does not close
 `433-1a -> O0b`, positive coordinate parity, K3, a Prize row, or either
 Prize result.
 
@@ -95,4 +110,5 @@ Prize result.
 An actual principal `433-1a -> O0b` packet whose common product map is not
 `(KBPQI-2)`, whose missing mate violates `(KBPQI-3)`, whose residual
 outside records admit no ledger case in `(KBPQI-6)`, or whose actual deck
-pair violates `(KBPQI-4)` or missing-mate sum violates `(KBPQI-7)`.
+pair violates `(KBPQI-4)`, missing-mate sum violates `(KBPQI-7)`, or
+residual lifted pair violates `(KBPQI-8)`.

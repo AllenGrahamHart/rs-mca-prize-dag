@@ -108,3 +108,29 @@ F29  ap-3u9hr5P3djUL4LhW10TZHm
 These are exact counts for the finite-field relaxation only.  In
 particular, `F_13/F_17` emptiness does not delete a deployed-field cell, and
 the `F_29` survivors have not passed the other six outside sum rows.
+
+## Complete squared-sum filter
+
+A final `F_29` replay retained the same source-pair assignment and imposed
+the squared Vieta sum equation at both labels of each of the three residual
+deck pairs.  It therefore tested all seven outside product and squared-sum
+records against the unique common kernel.  The result was empty in both
+placement branches:
+
+```text
+alignment     mate-sum points/triples  all-sum points/triples
+aligned                         8/16                     0/0
+near-aligned                   32/64                     0/0
+```
+
+Modal runs:
+
+```text
+aligned       ap-8dCdvjclUG5u1lmLxpkQGM
+near-aligned  ap-TabMc9Ck6pc6dVnLk4h6kY
+```
+
+The target/source choices are still finite-field relaxations and the sum
+rows are squared.  Thus emptiness is strong route evidence, not a deployed-
+field proof.  No further small-prime probe is currently requested; the next
+task is a symbolic obstruction for the exact lifted systems.

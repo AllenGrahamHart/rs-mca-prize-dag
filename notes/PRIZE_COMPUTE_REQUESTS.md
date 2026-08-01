@@ -11155,6 +11155,8 @@ of one aligned case already exhausted 130-second and 180-second caps.
 - the common-kernel uniqueness theorem and its full `A_2,A_0,B_1` vector;
 - the quadratic paired-product resultant interface, including the separate
   `eta` and missing-mate `xi` choices;
+- the seven-record outside-edge eliminant compiler, including generic,
+  linear, and impossible-constant degree branches;
 - the two signed `O0b` target lanes;
 - the exact fifteen-cell common Vieta atlas and four pivot charts.
 
@@ -11187,6 +11189,10 @@ The near-aligned probe retains 32 common points and 64 target triples in
 cells `4/-`, `5/+`, and `12/-` at `F_29`, while `F_13/F_17` are empty
 (`ap-3u9hr5P3djUL4LhW10TZHm`, `ap-WmRDAbdJ2aYTgHG83lIHP8`,
 `ap-k9y0M76KmbUE4qf16AhLNz`).  These also prioritize rather than delete.
+Complete squared-sum `F_29` replays then delete every aligned and near-
+aligned relaxation survivor (`ap-8dCdvjclUG5u1lmLxpkQGM`,
+`ap-TabMc9Ck6pc6dVnLk4h6kY`).  Do not request more small-prime sweeps; the
+open task is a deployed-field symbolic certificate for the lifted systems.
 
 **Cost gate:** estimate the symmetry-reduced orbit count and run one case
 with basis-size, peak-memory, wall-time, and partial-basis telemetry.  Do

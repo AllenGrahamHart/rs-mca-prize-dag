@@ -8,4 +8,5 @@
 - The source-facet theorem supplies the singleton mate, three residual deck
   pairs, and the internal `eta` location.
 - The C/Modal probe independently tests the aligned finite-field
-  specialization; it is supporting evidence rather than proof input.
+  and near-aligned finite-field specializations through all seven squared-
+  sum rows; it is supporting evidence rather than proof input.

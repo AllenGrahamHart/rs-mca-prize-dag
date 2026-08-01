@@ -27,3 +27,7 @@
    `ap-k9y0M76KmbUE4qf16AhLNz`, and
    `ap-3u9hr5P3djUL4LhW10TZHm`.  Their empty small-prime rows and three
    `F_29` lanes are evidence only.
+10. Full squared-sum `F_29` replays are
+    `ap-8dCdvjclUG5u1lmLxpkQGM` (aligned) and
+    `ap-TabMc9Ck6pc6dVnLk4h6kY` (near-aligned).  Both are empty, but
+    squaring and small characteristic forbid promotion to route deletion.

@@ -52,4 +52,10 @@ xi B_1(xi)+q_xi A_2(xi)=0.
 
 Squaring and dividing by the nonzero source label `xi` gives exactly
 `(KBPQI-7)`.  This equation is independent of the choice of source square
-root and target-edge orientation. QED.
+root and target-edge orientation.
+
+Apply the same argument at `kappa` and `-kappa` for each of the three
+residual source deck pairs.  Their product equations are precisely
+`P_y(kappa)=Q_z(kappa)=0`; their squared sum equations are the last two
+rows of `(KBPQI-8)`.  Source-label distinctness makes the three deck pairs
+distinct and disjoint from the common set. QED.

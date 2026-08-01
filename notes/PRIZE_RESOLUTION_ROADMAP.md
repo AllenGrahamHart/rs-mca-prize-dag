@@ -14379,11 +14379,15 @@ near F29 lanes:           cell 4 cycle -, cell 5 cycle +, cell 12 cycle -;
 near Modal runs:          ap-WmRDAbdJ2aYTgHG83lIHP8,
                           ap-k9y0M76KmbUE4qf16AhLNz,
                           ap-3u9hr5P3djUL4LhW10TZHm
+complete squared sums:    0 aligned and 0 near-aligned F29 completions
+all-sum Modal runs:       ap-8dCdvjclUG5u1lmLxpkQGM,
+                          ap-TabMc9Ck6pc6dVnLk4h6kY
 compute boundary:         direct and reduced-resultant single-case
                           Singular pilots timed out at 130/180 seconds;
                           no raw Groebner fanout
-next route-deciding step: quotient eta/xi/matching symmetries and append
-                          one remaining outside sum before elimination
+next route-deciding step: quotient eta/xi/matching symmetries and prove a
+                          symbolic obstruction for the three lifted
+                          product/squared-sum source-pair systems
 ```
 
 ### Work-cycle theorem: positive 433-1a common-kernel uniqueness
@@ -14404,5 +14408,30 @@ pivot consequence:        every survivor lies in all four charts
 computation:              none; direct two-column linear algebra
 branch deletion:          both base-rank drop and all-zero image are gone
 next route-deciding step: substitute the unique kernel into missing-mate
-                          product/sum cuts before residual resultants
+                          and complete residual product/squared-sum cuts
+```
+
+### Work-cycle theorem: positive 433-1a outside-edge eliminants
+
+```text
+starting local pin:       0dbd3d29 (common-kernel uniqueness)
+ending local theorem pin: current outside-edge eliminant compiler
+node/workboard attacked:  K3 / positive 433-1a complete outside Vieta
+result:                   PROVED one-edge scalar eliminant with all degree
+                          branches for each of seven outside records
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+product polynomial:       A0(w)-p A2(w), degree at most two
+sum polynomial:           w B1(w)^2-s^2 A2(w)^2, degree at most four
+generic cut:              22-term degree-six resultant in abstract
+                          coefficients, compact quadratic-algebra norm
+linear degree drop:       exact B^4 Q(-C/B) ledger
+constant degree drop:     impossible because common products b and -b
+                          are distinct and supported
+retained guards:          common/denominator roots, repeated roots, three
+                          source deck pairs, unsquared q signs
+computation:              exact integer-polynomial checker plus independent
+                          80-case finite-field norm/linear audit
+next route-deciding step: substitute common cofactors into a small symmetry-
+                          invariant subset of the seven scalar cuts and seek
+                          a saturated symbolic unit certificate
 ```

@@ -20924,8 +20924,8 @@
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
    "title": "KoalaBear m2 r4 positive 433-1a quadratic paired-product resultant interface",
    "status": "PROVED",
-   "closure": "unique full common kernel, forced missing-mate product and squared-sum equations, and exhaustive three-resultant outside ledger",
-   "statement": "Every principal positive 433-1a to O0b survivor has a unique full coefficient kernel. The singleton's missing mate forces one outside product and one square-root-free sum equation, while the remaining six records satisfy three explicit quadratic resultants in an exhaustive 525-case ledger per common row and cycle sign. Resultant survival, six outside sums, and route deletion remain open.",
+   "closure": "unique full common kernel and exhaustive outside product/squared-sum source-pair lift ledger",
+   "statement": "Every principal positive 433-1a to O0b survivor has a unique full coefficient kernel. The singleton's missing mate forces one product and one square-root-free sum equation, while the remaining six records split over three distinct source deck pairs satisfying explicit product and squared-sum lift systems in an exhaustive 525-case ledger per common row and cycle sign. Universal deployed-field exclusion and route deletion remain open.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/statement.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/proof.md",
@@ -20942,6 +20942,27 @@
     "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_product_probe_modal.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_product_singular_modal.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_product_probe_result.md"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler",
+   "title": "KoalaBear m2 r4 positive 433-1a outside-edge eliminant compiler",
+   "status": "PROVED",
+   "closure": "exact generic and degree-drop scalar eliminants for all seven outside product/squared-sum records",
+   "statement": "Each positive 433-1a outside record has an explicit 22-term degree-six scalar eliminant on the generic quadratic-product branch and an exact cleared cut on the linear branch; the constant product branch is impossible from distinct supported common products. Joint seven-edge incompatibility remains open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_edge_eliminant.py"
    ]
   },
   {
@@ -41556,6 +41577,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

@@ -19,7 +19,8 @@ def main():
 
     for marker in (
         "xi=eta", "xi in L^c", "necessary", "not asserted sufficient",
-        "outside sum", "525", "degree-drop", "KBPQI-7", "does not close",
+        "outside sum", "525", "degree-drop", "KBPQI-7", "KBPQI-8",
+        "does not close",
     ):
         require(marker in combined, f"missing scope marker: {marker}")
     require("five internal" in combined, "eta location fence")
