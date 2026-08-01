@@ -3110,3 +3110,26 @@ It is a disjoint cover of all fifteen cells.  Five orbits die at the common
 stage and `[3,6]` dies at the complete paired-product gate.  The negative
 one-loop `(4,3,3)` sector is now fully closed; continue with the remaining
 zero-loop or other coordinate sectors.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion`
+starts the zero-loop signed atlas.  Normalize products and sums as
+
+```text
+(b,-b,c,-c,bc),       (1+b,1-b,1+c,1-c,b+c).
+```
+
+The target sign/exchange group partitions the fifteen matching cells as
+
+```text
+[0,4,7,11] | [1,3,8,10] | [2,5,6,9] | [12] | [13] | [14].
+```
+
+For representative cell `0`, ratio-preserving product reduction is linear
+in `c` and `x=t^2`; the two quadratic q welds are affine-linear in `(t,r)`
+after `y=r^2`.  Exact lex/Frobenius elimination in all four root-sign rows
+leaves no guarded deployed packet.  Lost linear-`c`, product-solve, and
+singular-q branches are independently exhausted; the only nonguard
+projections have zero product denominator and nonzero numerator.  Thus the
+complete orbit `[0,4,7,11]` is empty.  Continue with the five remaining
+zero-loop matching orbits before constructing outside records.

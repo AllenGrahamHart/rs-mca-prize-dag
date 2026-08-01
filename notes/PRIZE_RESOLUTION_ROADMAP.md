@@ -13675,3 +13675,28 @@ Modal status:             no launch and no cost
 next route-deciding step: re-census remaining coordinate sectors, then
                           attack negative zero-loop or next live profile
 ```
+
+### Work-cycle burn-down: zero-loop 433 first matching orbit
+
+```text
+starting local pin:       407c3a5e (complete one-loop 433 exclusion)
+ending local theorem pin: current zero-loop four-cell PROVED exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / negative zero-loop 433 common atlas
+result:                   PROVED cells [0,4,7,11] are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-subcase deletion)
+symmetry census:          six target-sign/exchange orbits on 15 cells
+exact route:              linear-c product, linear-x product, affine 2 x 2
+                          q system, protected t^2/r^2 equations
+terminal certificate:     degree-20 b eliminants plus Frobenius root gcds;
+                          every projected root is guarded or false
+branch audit:             lost c/x and singular-q loci exhausted in all
+                          four root-sign rows
+normalization repair:     Cramer ratios preserve relative constants; no
+                          independent monic scaling of numerator/denominator
+Modal status:             no launch and no cost
+next route-deciding step: classify zero-loop orbits [1,3,8,10],
+                          [2,5,6,9], [12], [13], [14]
+```
