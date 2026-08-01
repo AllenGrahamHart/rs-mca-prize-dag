@@ -3289,3 +3289,14 @@ one printed degree-six residual `R_442` or `R_433`.  Do not treat residual
 vanishing as packet existence: first retain only kernels with `beta!=0` and
 `A_2` nonzero on all common fibers.  Then append the seven outside
 product/sum resultants for the unique split-colored skeleton.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas`
+removes the remaining common-placement ambiguity.  Branch interchange and
+the equal-degree target swaps leave two orbits per profile: the `B_1` root
+carries a high- or low-degree target pair.  The four exact determinants are
+now collision guards times `R_442,L`, `R_442,H`, `R_433,L`, or `R_433,H`,
+all of total degree six.  Hence there are four, not merely two,
+common-residual lanes to test.  For each lane compute the guarded kernel,
+then apply the same unique outside skeleton; do not identify root-high and
+root-low during target normalization.

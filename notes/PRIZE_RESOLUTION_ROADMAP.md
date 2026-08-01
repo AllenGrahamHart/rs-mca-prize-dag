@@ -13953,3 +13953,26 @@ next route-deciding step: enumerate loop-placement/sign orbits, retain
                           outside product/sum resultants for r=(0,1,1),
                           m=(2,2,1)
 ```
+
+### Work-cycle burn-down: positive three-loop common-placement atlas
+
+```text
+starting local pin:       cff0b426 (three-loop common-kernel compiler)
+ending local theorem pin: current common-placement atlas
+canonical prize pin:      973473e1
+node/workboard attacked:  K3 / positive three-loop loop placements
+result:                   PROVED four exhaustive guarded residual lanes
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; positive subcase atlas)
+442 placement orbits:     root-low and root-high
+433 placement orbits:     root-low and root-high
+sign discipline:          442 opposite double edge; 433 tree absorption
+residual degrees:         6,6,6,6
+local compute discipline: four exact expansions under tiny RAM guard
+Modal status:             no launch and no cost
+next route-deciding step: compile the guarded outside-edge ideal once,
+                          instantiate it on all seven signed edges of the
+                          unique outside skeleton, and attack each of the
+                          four common residual lanes
+```
