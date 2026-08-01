@@ -13,7 +13,15 @@ equalities in `(KBTEC-3A)`.  Their two remaining products give
 F(-v)F(-w)=(cf)(be)=bc(ef)=bc F(xi),
 ```
 
-which proves the third.  Since all representatives are nonzero,
+which proves the third.  The cross relation is
+
+```text
+b F(u)F(-v)=b(de)(cf)=bcdef
+             =c(df)(be)=c F(w)F(-w),
+```
+
+which proves the fourth product identity.  Since all representatives are
+nonzero,
 
 ```text
 d^2=-yz/x,       e^2=-xy/z.
@@ -42,6 +50,13 @@ The three oriented product pairs give the first two identities in
 F(-u)F(-w)=(cf)(be)=bc F(xi).
 ```
 
+The retained cross relation is
+
+```text
+b F(u)F(-u)=b(de)(cf)=bcdef
+             =c(df)(be)=c F(-v)F(-w).
+```
+
 Now `f=z/c`, `e=cx/z`, and `d=yz/(cx)`.  Hence
 
 ```text
@@ -51,4 +66,7 @@ Now `f=z/c`, `e=cx/z`, and `d=yz/(cx)`.  Hence
 Equating this to `H(u)` and clearing the nonzero denominator gives
 `(KBTEC-4B)`.  Substitution of `F=A_0/A_2` and
 `H=W B_1^2/A_2^2` makes both cuts polynomial after multiplication by the
-supported denominator product. QED.
+supported denominator product.  Conversely, the four product relations
+are the complete target-product elimination: recover
+`e=be/b`, `f=cf/c`, and `d=b(de)/(be)`; the cross relation gives the same
+`df`, while the terminal relation gives `ef`. QED.

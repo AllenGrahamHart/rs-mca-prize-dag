@@ -14446,8 +14446,11 @@ result:                   PROVED two exact target-free matching templates
 DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
 template A products:      (de,-df), (-de,cf), (df,be), with ef at xi
 template B products:      (de,cf), (-de,df), (-df,be), with ef at xi
-eliminated variables:     d,e,f disappear from three product-chain
+eliminated variables:     d,e,f disappear from four product-chain
                           equations and one compact squared-sum equation
+initial audit repair:     a fourth independent cross relation linking
+                          DE/DF to BE/CF was missing; repaired chains have
+                          four equations and complete product elimination
 nonclaim:                 templates A/B are not yet a deployed-field
                           exhaustive matching classification or exclusions
 next route-deciding step: quotient the 525-case ledger by exact symmetries;
@@ -14470,12 +14473,40 @@ total formal quotient:    267 orbits per common row and cycle sign
 missing-mate EF:          9 aligned + 30 near = 39 orbits
 template coverage:        A and B are gauge partners; together they cover
                           1 aligned + 4 near = 5 EF orbits
-retained EF frontier:     34 formal orbits lack target-free sum compilers
+retained EF census:       34 formal orbits lie outside the two triangle
+                          templates, before the universal compiler below
 nonclaim:                 formal orbit survival is not algebraic survival;
                           no alignment branch or route is deleted
-next route-deciding step: group the 267 representatives by target-monomial
-                          exponent lattice and compile a small complete
-                          family of target-free product-chain templates
+next route-deciding step: compile the common target-monomial kernel shared
+                          by all 267 representatives
+```
+
+### Work-cycle theorem: positive 433-1a universal target elimination
+
+```text
+starting local pin:       984a6be9 (outside-case symmetry quotient)
+ending local theorem pin: current universal target elimination compiler
+node/workboard attacked:  K3 / positive 433-1a target variables
+result:                   PROVED exact elimination of d,e,f for every
+                          formal outside case
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge;
+                          two-template statement repaired in place
+universal product ideal:  four binomials; necessary and sufficient
+explicit reconstruction: e=BE/b, f=CF/c, d=b*DE+/BE
+universal sum compiler:   seven cleared squared-sum equations
+formal case coverage:     deterministic relabeling compiles all 267
+                          target-gauge representatives
+template repair:          A/B each lacked the independent cross relation;
+                          both now have complete four-binomial chains
+compute consequence:      no 34-case EF target-template derivation and no
+                          target exponent-lattice fleet are needed
+retained problem:          substitute F,H in guarded common-curve rings,
+                          preserve source distinctness and unsquared q signs,
+                          and prove the resulting source systems empty
+next route-deciding step: reconstruct the 23-element cell-5 localized
+                          common-curve basis as a function-field or regular-
+                          chain presentation, then reduce the universal
+                          product equations before the sum equations
 ```
 
 ### Upstream export: K3 positive coordinate reduction
@@ -14490,7 +14521,8 @@ exact remote replay:      all three Singular unit cells passed in clean
                           Modal app ap-Iz1TrNvOrldVFaJExtbKt8
 scope fence:              PR explicitly leaves 433-1a, K3, KoalaBear, and
                           both Prize results open
-next export candidate:    the proved 267-orbit quotient after local audit
+next export candidate:    the proved 267-orbit quotient, universal target
+                          compiler, and fourth-binomial template repair
 ```
 
 ### Work-cycle evidence: positive 433-1a common-curve boundary

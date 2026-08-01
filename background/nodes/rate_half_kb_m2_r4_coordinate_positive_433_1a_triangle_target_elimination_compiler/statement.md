@@ -33,7 +33,8 @@ Then every actual lift satisfies the target-free product chain
 ```text
 F(v)=-F(u),
 F(w)=-F(-u),
-F(-v)F(-w)=bc F(xi),                               (KBTEC-3A)
+F(-v)F(-w)=bc F(xi),
+b F(u)F(-v)=c F(w)F(-w).                          (KBTEC-3A)
 ```
 
 and the single squared-sum row at `u` is exactly
@@ -43,7 +44,11 @@ H(u) F(xi) F(-u)
  + F(u)(F(-u)-F(xi))^2 = 0.                        (KBTEC-4A)
 ```
 
-Thus `(KBTEC-3A)--(KBTEC-4A)` eliminate `d,e,f` completely.
+Thus `(KBTEC-3A)--(KBTEC-4A)` eliminate `d,e,f` completely.  The fourth
+product identity is the cross-ratio relation linking the `DE/DF` records
+to the colored `BE/CF` records; the first version of this compiler omitted
+it and therefore recorded only a necessary subideal of the full target-
+product elimination.
 
 ## Template B
 
@@ -60,7 +65,8 @@ Then every actual lift satisfies
 ```text
 F(v)=-F(u),
 F(w)=-F(-v),
-F(-u)F(-w)=bc F(xi),                               (KBTEC-3B)
+F(-u)F(-w)=bc F(xi),
+b F(u)F(-u)=c F(-v)F(-w).                         (KBTEC-3B)
 ```
 
 and the squared-sum row at `u` is exactly

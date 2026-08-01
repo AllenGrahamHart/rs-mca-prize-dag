@@ -1,0 +1,96 @@
+{
+  "compiled_case_maps": {
+    "aligned_count": 39,
+    "near_count": 228,
+    "sha256": "f5af4327509aec2f87c70e6e2877931fa285dfa9f999c50affb2d493a7d6ec38"
+  },
+  "conclusion": {
+    "formal_case_count_compiled": 267,
+    "outside_source_systems_proved_empty": false,
+    "route_deleted": false,
+    "target_variables_d_e_f_eliminated_exactly": true
+  },
+  "cycle_sign_replays": [
+    {
+      "cycle_sign": -1,
+      "product_relation_count": 4,
+      "reconstruction": {
+        "d": "b*DE+/BE",
+        "e": "BE/b",
+        "f": "CF/c"
+      },
+      "squared_sum_relation_count": 7
+    },
+    {
+      "cycle_sign": 1,
+      "product_relation_count": 4,
+      "reconstruction": {
+        "d": "b*DE+/BE",
+        "e": "BE/b",
+        "f": "CF/c"
+      },
+      "squared_sum_relation_count": 7
+    }
+  ],
+  "explicit_target_reconstruction": {
+    "d": "b*DE+/BE",
+    "e": "BE/b",
+    "f": "CF/c",
+    "guards": [
+      "b",
+      "c",
+      "DE+",
+      "DF+",
+      "EF",
+      "BE",
+      "CF"
+    ]
+  },
+  "nonclaims": [
+    "the four product relations do not impose the source rational map F",
+    "the seven sum relations do not impose source-pair distinctness or unsquared q signs",
+    "no formal case, alignment branch, 433-1a route, K3 row, or Prize result is closed"
+  ],
+  "payload_sha256": "6d29fb4033b47072f8c3de2029a601ca6605b3e7e95546b442ba9784638ef657",
+  "schema": "rate-half-kb-positive-433-1a-universal-target-elimination-v1",
+  "scope": "all seven target product and squared-sum records for every formal outside case; source/common equations and route emptiness remain open",
+  "triangle_template_repair": {
+    "A_record_to_slot": {
+      "BE": "-w",
+      "CF": "-v",
+      "DE+": "u",
+      "DE-": "v",
+      "DF+": "w",
+      "DF-": "-u",
+      "EF": "xi"
+    },
+    "B_record_to_slot": {
+      "BE": "-w",
+      "CF": "-u",
+      "DE+": "u",
+      "DE-": "v",
+      "DF+": "-v",
+      "DF-": "w",
+      "EF": "xi"
+    },
+    "missing_cross_relations": {
+      "A": "b*F(u)*F(-v)-c*F(w)*F(-w)=0",
+      "B": "b*F(u)*F(-u)-c*F(-v)*F(-w)=0"
+    }
+  },
+  "universal_product_relations": [
+    "DE-+DE+=0",
+    "DF-+DF+=0",
+    "BE*CF-sigma*b*c*EF=0",
+    "b*DE+*CF-c*DF+*BE=0"
+  ],
+  "universal_squared_sum_relations": {
+    "BE": "b^2*H(BE)-(b^2+BE)^2=0",
+    "CF": "c^2*H(CF)-(c^2+CF)^2=0",
+    "DE+": "b^2*BE^2*H(DE+)-(b^2*DE++BE^2)^2=0",
+    "DE-": "b^2*BE^2*H(DE-)-(b^2*DE+-BE^2)^2=0",
+    "DF+": "c^2*CF^2*H(DF+)-(c^2*DF++CF^2)^2=0",
+    "DF-": "c^2*CF^2*H(DF-)-(c^2*DF+-CF^2)^2=0",
+    "EF": "b^2*c^2*H(EF)-(c*BE+sigma*b*CF)^2=0"
+  }
+}

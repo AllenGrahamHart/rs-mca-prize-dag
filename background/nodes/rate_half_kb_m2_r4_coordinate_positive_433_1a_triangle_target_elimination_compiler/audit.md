@@ -10,3 +10,8 @@
 4. The `F_29` trace motivated the two templates but is not proof input.
 5. A raw seven-variable standard-basis timeout is an algorithm boundary,
    not a survivor and not an emptiness certificate.
+6. The original three-equation product chain omitted the independent
+   relation between `DE/DF` and `BE/CF`.  Both templates now include that
+   fourth relation.  Explicit reconstruction of `d,e,f` proves that the
+   repaired four-binomial chain is the complete target-product
+   elimination, not merely a necessary projection.

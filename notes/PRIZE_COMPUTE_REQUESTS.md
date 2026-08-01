@@ -11166,13 +11166,16 @@ quotient is now exact: after the signed-edge gauge, the faithful stabilizer
 has order two (`d -> -d`) and gives 39 aligned plus 228 near-aligned formal
 orbits per common row and cycle sign.  The sealed certificate prints all
 267 representatives.  The `EF` missing-mate subledger has 39 orbits; the
-current A/B templates are gauge partners and cover five, leaving 34 without
-target-free sum compilers.  Duplicate-role and common-root-sign quotients
-are not yet composed.
+current A/B templates are gauge partners and cover five.  A subsequent
+exact target-monomial calculation supersedes the proposed 34-template
+fleet: all 267 representatives are relabelings of one universal system with
+four necessary-and-sufficient product binomials, seven cleared squared-sum
+equations, and explicit reconstruction of `d,e,f`.  Duplicate-role and
+common-root-sign quotients are not yet composed.
 
-A useful contribution must group these 267 representatives by
-target-monomial exponent lattice and compile a small complete family of
-target-free product-chain templates before selecting algebra shards.
+A useful contribution should substitute this universal target compiler in
+the guarded common-curve coordinate rings and quotient the resulting source
+systems.  Do not derive more target-specific triangle templates.
 
 For one canonical representative:
 
@@ -11213,8 +11216,10 @@ finite-algebra methods are preferred over generic lexicographic Groebner.
 
 The surviving `F_29` cell-5/cycle-`+1` lifts use two matching templates.
 For both templates the target representatives `d,e,f` now eliminate
-exactly, leaving three product-chain equations and one compact squared-sum
-cut in the common rational maps `F,H` and source deck labels `u,v,w`.  See
+exactly.  The first version listed three necessary product-chain equations;
+an exact lattice audit added the missing independent cross relation, so the
+repaired chain has four product equations and one compact squared-sum cut in
+the common rational maps `F,H` and source deck labels `u,v,w`.  See
 `rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler`.
 The finite-field observation does not prove these two templates exhaustive.
 
@@ -11230,12 +11235,13 @@ A useful contributed run should therefore:
 1. ingest or reconstruct the 23-element localized common-curve basis;
 2. compute a function-field, regular-chain, or quotient-ring presentation
    of that curve without expanding the target-free cuts ambiently;
-3. reduce the three product-chain equations first, then append the single
+3. reduce the four product-chain equations first, then append the single
    compact sum cut;
 4. saturate source-pair distinctness and leading support only after the
    reduced system is zero-dimensional;
 5. return a replayable unit certificate or a guarded original-row witness.
 
 Do not rerun the ambient `dp` basis at a larger cap and do not fan out over
-the 267 formal symmetry representatives.  First quotient their monomial
-exponent lattices and print the resulting target-free template families.
+the 267 formal symmetry representatives.  The target exponent lattice is
+already complete and universal; work on common-curve/source-system
+quotients instead.

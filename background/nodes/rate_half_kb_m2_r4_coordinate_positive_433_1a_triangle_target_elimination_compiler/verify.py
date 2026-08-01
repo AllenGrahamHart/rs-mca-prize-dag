@@ -36,6 +36,9 @@ def main():
     require(type_a == 0, "template A sum identity")
     require(sp.expand((c * f) * (b * e) - b * c * x) == 0,
             "template A product chain")
+    require(sp.expand(b * (d * e) * (c * f)
+                      - c * (d * f) * (b * e)) == 0,
+            "template A cross relation")
 
     y_b = d * e
     z_b = c * f
@@ -44,6 +47,9 @@ def main():
         - (y_b * z_b**2 + c**2 * x**2) ** 2
     )
     require(type_b == 0, "template B sum identity")
+    require(sp.expand(b * (d * e) * (c * f)
+                      - c * (d * f) * (b * e)) == 0,
+            "template B cross relation")
 
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}

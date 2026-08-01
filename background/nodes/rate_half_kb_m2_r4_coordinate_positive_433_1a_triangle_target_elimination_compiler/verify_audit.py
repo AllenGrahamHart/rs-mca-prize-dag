@@ -17,7 +17,8 @@ def main():
     )
     for marker in (
         "Template A", "Template B", "KBTEC-4A", "KBTEC-4B",
-        "not assert", "not proof input", "algorithm boundary",
+        "cross relation", "four-binomial", "not assert", "not proof input",
+        "algorithm boundary",
     ):
         require(marker in text, f"missing marker {marker}")
     print("positive 433-1a triangle target elimination audit verified")
