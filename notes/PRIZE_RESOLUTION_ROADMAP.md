@@ -14253,6 +14253,44 @@ next route-deciding step: classify the nine role-orbit representatives by
                           elimination for route-distinguishing charts
 ```
 
+### Work-cycle evidence: positive 433-1a common chart census
+
+```text
+Modal run:                ap-ACj6NrEeLp83CuFGIHoKj2
+scope:                    nine role-orbit representatives, four root-sign
+                          rows each, exact F13/F17/F29 point counts
+admissible points:        92,160 / 580,608 / 10,782,720
+supported survivors:     24 / 184 / 536
+nonempty sign rows:       12/36 / 32/36 / 28/36
+base rank:                six at all 11,455,488 admissible points
+zero quotient branch:     absent from every tested point
+pivot behavior:           all four images nonzero at every survivor
+strategic verdict:        common principal charts are genuinely populated;
+                          append outside rows for universal route deletion
+proof status:             finite-field evidence only
+```
+
+### Work-cycle theorem: positive 433-1a product-base rank
+
+```text
+starting local pin:       cf702f86 (common pivot-chart reduction)
+ending local theorem pin: current three-orbit base-rank exclusion
+node/workboard attacked:  K3 / positive 433-1a base-rank-drop branch
+result:                   PROVED rank B=6 in cells 0,11,14
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+cell 11:                  one maximal minor is an admissible-guard product
+cell 0:                   b=-c^2 forced, then another minor is a guard product
+cell 14:                  b=c^2 forced; two minors imply
+                          (c^2-1)(r^4-1)=0, impossible
+remaining base branch:    six of nine role orbits
+Modal certificates:       ap-1pnBNqVtUDfkcXvEFSzz6u,
+                          ap-EQ4ZDJQzW6F8G6bAP3KfBj,
+                          ap-iLurIeMQTcy8CJvRB0WRL7
+next route-deciding step: attack degree-six base minors in cells 4/5 while
+                          compiling the outside-row interface for principal
+                          common survivors
+```
+
 ### Work-cycle outbound custody: global positive loop cap
 
 ```text
