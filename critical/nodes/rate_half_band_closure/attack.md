@@ -3172,3 +3172,15 @@ are the familiar at-most-one-loop types; the two new types have two outside
 loops.  The five types compile every signed outside product form.  Apply
 them to the 32 packets in `[2,5,6,9]`, forcing the common singleton mate
 before any outside q computation.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router`
+executes that complete product gate over `F_(2130706433^6)`.  On every one
+of the four distinct common `(b,c)` rows the involution collapses to
+`y z=-c^2`.  Exact exponent-Smith enumeration deletes `Z2` and `Z3` after
+target/product injectivity: all 16 `Z2` rank-two families per common
+`(b,c)` row have forced collision certificates, and all isolated `Z2/Z3`
+points fail a guard.
+Types `Z0,Z1,Z4` have respectively `48,128,64` guarded raw product
+certificates per `(b,c)` row, so the frontier moves to their quotient-label
+placement and q interpolation.  Do not spend outside-q work on `Z2/Z3`.
