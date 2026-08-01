@@ -7,6 +7,6 @@ charts; reserve exact elimination for route-distinguishing representatives.
 Keep source/target guards and the nonzero pivot explicit.
 
 The small-field census found principal survivors and no `Z` point.  Product
-minor certificates now close base-rank drop in cells `0,11,14`; retain it
-only in the other six role orbits.  Append outside rows to the surviving
-principal charts rather than presuming common-stage emptiness.
+minor certificates now close base-rank drop in five role orbits; retain it
+only in `[1,2]`, `[3,6]`, `[9,10]`, and `[12,13]`.  Append outside rows to
+the surviving principal charts rather than presuming common-stage emptiness.

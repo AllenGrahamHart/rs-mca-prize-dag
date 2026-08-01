@@ -14291,6 +14291,25 @@ next route-deciding step: attack degree-six base minors in cells 4/5 while
                           common survivors
 ```
 
+### Work-cycle theorem: positive 433-1a five-orbit product rank
+
+```text
+starting local pin:       79eecb41 (three-orbit base-rank exclusion)
+ending local theorem pin: current five-orbit base-rank exclusion
+node/workboard attacked:  K3 / positive 433-1a base-rank-drop branch
+result:                   PROVED rank B=6 in five of nine role orbits
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+new closed orbits:        [4,7] and [5,8]
+cell 4 identity:          determinant 8(R-1)(T-1)(R+T), all guards
+cell 5 identity:          eliminant B*C*(c+1)^2, all guards
+total closed orbits:      [0], [4,7], [5,8], [11], [14]
+remaining base branch:    [1,2], [3,6], [9,10], [12,13]
+Modal equation dumps:     ap-Q44CKyZwfaZG9ehYgPTwwU,
+                          ap-XXOEEJUIdsi3UbCP4l7uX4
+next route-deciding step: attack degree-seven cells [3,6], then the three
+                          degree-nine-only role orbits
+```
+
 ### Work-cycle outbound custody: global positive loop cap
 
 ```text

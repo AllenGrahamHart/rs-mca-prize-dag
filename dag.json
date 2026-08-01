@@ -20859,6 +20859,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1a product-base rank five-orbit exclusion",
+   "status": "PROVED",
+   "closure": "exact product-rank-five and base-rank-six certificates for five of nine common role orbits",
+   "statement": "Exact two-minor identities extend product-rank-five and base-rank-six coverage to role orbits [4,7] and [5,8]. Together with the prior singleton theorem, base-rank drop is empty in [0], [4,7], [5,8], [11], and [14], leaving four role orbits open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
    "title": "KoalaBear m2 r4 coordinate negative one-loop 433 complete-edge skeleton classifier",
    "status": "PROVED",
@@ -41405,6 +41425,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
