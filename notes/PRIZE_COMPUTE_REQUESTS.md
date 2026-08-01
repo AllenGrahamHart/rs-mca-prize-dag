@@ -11312,9 +11312,12 @@ After eliminating `r,c`, the signed `DE+`,`DE-` pair is one reciprocal
 quartic plus four cuts of `(degree,terms)=(9,24),(8,32),(9,24),(8,32)`.
 A four-minute `slimgb` pilot still timed out
 (`ap-F0mNsrUqkAmnr1ADk2V20i`).  Do not rerun that basis with a larger cap.
-Instead, derive the reciprocal quartic and trace-quadratic directly over the
-deployed chart, and compute subresultants or norms after the quadratic trace
-descent.  Only then append the residual `BE` cubic and sum row.
+Ordinary deployed block elimination subsequently produced the exact 19-term
+reciprocal quartic and trace quadratic
+(`ap-D4GXYWOVhTEiEfabnKO9Ht`), now banked as a PROVED child.  Recover
+fraction-free `r,c` formulas over its residual conic and compute
+subresultants or norms there.  Only then append the residual `BE` cubic and
+sum row.
 
 Singular 4.3.1 cannot lift this function-field workflow directly to the
 deployed characteristic: its backend rejects characteristics above `2^29`

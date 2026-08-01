@@ -3460,8 +3460,10 @@ in `b`, verified both by coefficient reversal and by a quadratic lift through
 `(degree,terms)=(9,24),(8,32),(9,24),(8,32)`, but `slimgb` still hit a
 240-second cap.  This is probe-field evidence only.
 
-Next prove the reciprocal trace descent in the deployed chart and compute
-factor-by-factor subresultants or norms there, then append the residual `BE`
-cubic and sum row.  Singular's function-field backend cannot be used directly
-at `p=2130706433` because it rejects characteristics above `2^29`; use
-symbolic identities or a different exact finite-algebra backend.
+The PROVED reciprocal-trace child now supplies the deployed equation and its
+residual conic.  Recover fraction-free `r,c` formulas over that conic and
+compute factor-by-factor subresultants or norms there, then append the
+residual `BE` cubic and sum row.  Singular's function-field backend cannot be
+used directly at `p=2130706433` because it rejects characteristics above
+`2^29`; use ordinary block elimination or a different exact finite-algebra
+backend.

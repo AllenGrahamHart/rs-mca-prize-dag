@@ -83,6 +83,85 @@ def analyze(characteristic, method):
     ]
     if method == "affine-basis":
         body = ['print("AFFINE_BASIS"); print(G);']
+    elif method == "deployed-eliminate":
+        body = [
+            f"ring Z={characteristic},(r,c,b,t),(dp(2),dp(2));",
+            "option(redSB);",
+            "ideal H=std(imap(R,G));",
+            'print("DEPLOYED_BLOCK_BASIS"); print(dim(H)); print(size(H));',
+            "ideal J=eliminate(H,r*c);",
+            "ideal GJ=std(J);",
+            'print("DEPLOYED_BT_ELIMINATION");',
+            "print(dim(GJ)); print(size(GJ));",
+            "for (int i=1; i<=size(GJ); i++)",
+            "{",
+            "  print(deg(GJ[i])); print(size(GJ[i]));",
+            "}",
+            "poly bpoly=GJ[1];",
+        ]
+        for index in range(5):
+            derivative = "bpoly"
+            for _ in range(index):
+                derivative = f"diff({derivative},b)"
+            body.extend((
+                f"poly coefficient{index}=subst({derivative},b,0)"
+                f"/{math.factorial(index)};",
+            ))
+        body.extend((
+            (
+                "poly reciprocal4=coefficient0*b^4+coefficient1*b^3"
+                "+coefficient2*b^2+coefficient3*b+coefficient4;"
+            ),
+            (
+                "poly quadratic_lift=coefficient0*(b^4+2*b^2+1)"
+                "+coefficient1*(b^3+b)"
+                "+(coefficient2-2*coefficient0)*b^2;"
+            ),
+            'print("DEPLOYED_RECIPROCAL");',
+            "print(reciprocal4-bpoly==0); print(quadratic_lift-bpoly==0);",
+            'print("DEPLOYED_BPOLY"); print(bpoly);',
+        ))
+    elif method == "deployed-lifts":
+        body = [
+            f"ring Z={characteristic},(r,c,b,t),(dp(2),dp(2));",
+            "option(redSB);",
+            "ideal H=std(imap(R,G));",
+            'print("DEPLOYED_BLOCK_BASIS"); print(dim(H)); print(size(H));',
+            "ideal EC=std(eliminate(H,r));",
+            'print("DEPLOYED_C_LIFT"); print(dim(EC)); print(size(EC));',
+            "for (int j=1; j<=size(EC); j++)",
+            "{ print(deg(EC[j])); print(size(EC[j])); }",
+            "print(EC);",
+            "ideal ER2=std(eliminate(H,c));",
+            'print("DEPLOYED_R_LIFT"); print(dim(ER2)); print(size(ER2));',
+            "for (int k=1; k<=size(ER2); k++)",
+            "{ print(deg(ER2[k])); print(size(ER2[k])); }",
+            "print(ER2);",
+        ]
+    elif method == "deployed-lift-denominators":
+        body = [
+            f"ring Z={characteristic},(r,c,b,t),(dp(2),dp(2));",
+            "option(redSB);",
+            "ideal H=std(imap(R,G));",
+            "ideal BT=std(eliminate(H,r*c));",
+            "poly bpoly=BT[1];",
+            "ideal EC=std(eliminate(H,r));",
+            "ideal ER2=std(eliminate(H,c));",
+            "poly cEquation=EC[2];",
+            "poly rEquation=ER2[2];",
+            "poly cLeading=diff(cEquation,c);",
+            "poly rLeading=diff(rEquation,r);",
+            "poly cConstant=subst(cEquation,c,0);",
+            "poly rConstant=subst(rEquation,r,0);",
+            'print("DEPLOYED_LIFT_LINEARITY");',
+            "print(cEquation-c*cLeading-cConstant==0);",
+            "print(rEquation-r*rLeading-rConstant==0);",
+            "poly cResultant=resultant(bpoly,cLeading,b);",
+            "poly rResultant=resultant(bpoly,rLeading,b);",
+            'print("DEPLOYED_LIFT_DENOMINATORS");',
+            "print(deg(cResultant)); print(size(cResultant)); print(cResultant);",
+            "print(deg(rResultant)); print(size(rResultant)); print(rResultant);",
+        ]
     else:
         body = [
             f"ring K=({characteristic},t),(r,c,b),dp;",
@@ -228,6 +307,9 @@ def analyze(characteristic, method):
         }
     expected = {
         "affine-basis": "AFFINE_BASIS",
+        "deployed-eliminate": "DEPLOYED_RECIPROCAL",
+        "deployed-lifts": "DEPLOYED_R_LIFT",
+        "deployed-lift-denominators": "DEPLOYED_LIFT_DENOMINATORS",
         "generic-basis": "GENERIC_BASIS",
         "generic-minass": "GENERIC_COMPONENT_COUNT",
         "lex": "LEX_LEDGER",
@@ -255,13 +337,18 @@ def main(characteristic: int = SMALL_CHART_PRIME, method: str = "lex"):
         raise ValueError(
             "small characteristic must be odd, below 2^29, and 1 mod 4"
         )
-    if characteristic == DEPLOYED_PRIME and method != "affine-basis":
+    if characteristic == DEPLOYED_PRIME and method not in {
+        "affine-basis", "deployed-eliminate", "deployed-lifts",
+        "deployed-lift-denominators",
+    }:
         raise ValueError(
             "Singular function fields require characteristic below 2^29; "
             "only affine-basis is supported at the deployed prime"
         )
     methods = {
-        "affine-basis", "generic-basis", "generic-minass", "lex", "finite-pair"
+        "affine-basis", "deployed-eliminate", "deployed-lifts",
+        "deployed-lift-denominators", "generic-basis",
+        "generic-minass", "lex", "finite-pair",
     }
     if method not in methods:
         raise ValueError(f"method must be one of {sorted(methods)}")

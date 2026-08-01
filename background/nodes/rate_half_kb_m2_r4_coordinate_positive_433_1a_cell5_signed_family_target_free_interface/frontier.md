@@ -26,9 +26,10 @@ then leaves one reciprocal quartic and four signed-pair cuts with
 240-second `slimgb` cap.  This is probe-field evidence, not a deployed-field
 theorem.
 
-Next derive the reciprocal quartic and its trace-quadratic descent directly
-over the deployed chart, then take subresultants or finite-algebra norms in
-that quadratic presentation.  Singular 4.3.1 cannot perform the analogous
-function-field remap at the deployed characteristic because its backend caps
-the characteristic at `2^29`; do not retry that backend or another generic
-standard basis.
+The deployed reciprocal quartic and trace-quadratic descent are now PROVED by
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic`.
+Recover fraction-free `r,c` formulas over its residual trace conic and take
+subresultants or finite-algebra norms branchwise.  Singular 4.3.1 cannot
+perform the analogous function-field remap at the deployed characteristic
+because its backend caps the characteristic at `2^29`; do not retry that
+backend or another generic standard basis.

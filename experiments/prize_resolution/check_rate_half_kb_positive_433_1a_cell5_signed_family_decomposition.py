@@ -4,6 +4,8 @@
 import json
 from pathlib import Path
 
+import sympy as sp
+
 
 DIRECTORY = Path(__file__).parent
 RESULT = DIRECTORY / (
@@ -51,6 +53,41 @@ def main():
     require(boundary["affine_basis_size"] == 12, "deployed affine basis")
     require("2^29" in boundary["reason"], "backend fence")
 
+    deployed = payload["deployed_trace_quadratic"]
+    p = 2130706433
+    i = 16711679
+    b, t = sp.symbols("b t")
+    a0 = t**4 - 2*i*t**3 - 4*i*t**2 - 2*i*t - 1
+    a1 = -8*i*(t**4 + 1)
+    a2 = -2*t**4 + 4*i*t**3 - 24*i*t**2 + 4*i*t + 2
+    polynomial = sp.Poly(
+        a0*(b**4 + 1) + a1*(b**3 + b) + a2*b**2,
+        b, t, modulus=p,
+    )
+    require(polynomial.total_degree() == 8, "deployed total degree")
+    require(len(polynomial.terms()) == 19, "deployed terms")
+    require(deployed["elimination_generator_count"] == 1, "elimination count")
+    require(deployed["reciprocal_check"], "deployed reciprocal")
+    require(deployed["quadratic_trace_lift_check"], "deployed trace lift")
+
+    u = sp.symbols("u")
+    trace_quadratic = a0*u**2 + a1*u + (a2 - 2*a0)
+    lifted = sp.together(b**2 * trace_quadratic.subs(u, b + 1/b))
+    require(
+        sp.Poly(lifted - polynomial.as_expr(), b, t, modulus=p).is_zero,
+        "fraction-free trace lift",
+    )
+    discriminant = sp.expand(a1**2 - 4*a0*(a2 - 2*a0))
+    expected_discriminant = sp.expand(
+        -48*(t-i)**2*(t+i)**4*(t**2 - 2*i*pow(3, -1, p)*t - 1)
+    )
+    require(
+        sp.Poly(
+            discriminant - expected_discriminant, t, modulus=p
+        ).is_zero,
+        "deployed discriminant",
+    )
+
     launcher = LAUNCHER.read_text()
     common = COMMON.read_text()
     for token in (
@@ -58,6 +95,7 @@ def main():
         "iota=iota",
         "reciprocal4-bpoly==0",
         "quadratic_lift-bpoly==0",
+        "DEPLOYED_BPOLY",
         'timeout = 240 if method == "finite-pair" else 120',
     ):
         require(token in launcher, f"launcher token: {token}")
@@ -65,7 +103,8 @@ def main():
 
     print(
         "RATE_HALF_KB_POSITIVE_433_1A_CELL5_FINITE_ALGEBRA_PASS "
-        "probe=65521 degree=4 components=1 cuts=24/32 scope=evidence"
+        "deployed_trace=quadratic probe=65521 degree=4 components=1 "
+        "cuts=24/32"
     )
 
 

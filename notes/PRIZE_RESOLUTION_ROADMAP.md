@@ -14630,9 +14630,13 @@ deployed backend fence:   affine common basis 12 computes, but Singular
                           ap-JwQiY0HAW4TvF01vmVmtPj
 nonclaim:                 probe-field shape only; no deployed signed-pair,
                           colored edge, route, row, or Prize close
-next route-deciding step: derive the reciprocal trace quadratic over the
-                          deployed chart, take subresultants/norms there,
-                          then append only R_b and the BE sum row
+deployed theorem:         one 19-term reciprocal quartic in (b,t), exact
+                          quadratic trace descent, discriminant square
+                          factors times t^2-(2i/3)t-1;
+                          ap-D4GXYWOVhTEiEfabnKO9Ht
+next route-deciding step: recover fraction-free r,c over the trace conic,
+                          take subresultants/norms there, then append only
+                          R_b and the BE sum row
 ```
 
 ### Upstream export: K3 positive coordinate reduction

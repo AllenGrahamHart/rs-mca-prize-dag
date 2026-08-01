@@ -38,3 +38,8 @@
   basis, then Singular rejects the function-field remap because
   `2130706433 > 2^29` (`ap-JwQiY0HAW4TvF01vmVmtPj`).  This is a backend
   limit, not algebraic evidence.
+- The ordinary block-elimination replacement succeeds at the deployed prime.
+  PROVED node
+  `rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic`
+  gives the one-generator reciprocal projection and its residual trace conic
+  (`ap-D4GXYWOVhTEiEfabnKO9Ht`).

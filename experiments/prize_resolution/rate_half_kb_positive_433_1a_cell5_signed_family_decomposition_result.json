@@ -6,6 +6,16 @@
     "reason": "Singular 4.3.1 function fields reject characteristic above 2^29",
     "status": "UNSUPPORTED_AFTER_AFFINE_BASIS"
   },
+  "deployed_trace_quadratic": {
+    "app_id": "ap-D4GXYWOVhTEiEfabnKO9Ht",
+    "discriminant_factor": "-48*(t-iota)^2*(t+iota)^4*(t^2-(2*iota/3)*t-1)",
+    "elimination_generator_count": 1,
+    "polynomial": "b^4*t^4-33423358*b^4*t^3-133693432*b^3*t^4-66846716*b^4*t^2-2*b^2*t^4-33423358*b^4*t+66846716*b^2*t^3-133693432*b*t^4-b^4-401080296*b^2*t^2+t^4-133693432*b^3+66846716*b^2*t-33423358*t^3+2*b^2-66846716*t^2-133693432*b-33423358*t-1",
+    "quadratic_trace_lift_check": true,
+    "reciprocal_check": true,
+    "terms": 19,
+    "total_degree": 8
+  },
   "finite_pair": {
     "app_id": "ap-F0mNsrUqkAmnr1ADk2V20i",
     "cut_degree_terms": [[9, 24], [8, 32], [9, 24], [8, 32]],
@@ -34,6 +44,6 @@
     "iota_square": -1,
     "prime": 65521
   },
-  "scope": "Exact evidence over F_65521(t) only; no deployed-field, signed-pair emptiness, colored-edge, route, row, or Prize conclusion.",
+  "scope": "The deployed trace-quadratic projection is exact; the component and finite-pair telemetry is over F_65521(t). No signed-pair emptiness, colored-edge, route, row, or Prize conclusion.",
   "schema": "rate-half-kb-positive-433-1a-cell5-finite-algebra-v1"
 }
