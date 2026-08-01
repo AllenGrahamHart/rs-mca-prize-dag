@@ -95,3 +95,24 @@ draft, the cycle's last Gate-0; (2) the four-path exact toy compiler
 lattice case compiler), not four fleets. The first contributor brief
 (F2-FIRST-DESCENT-ALIGNMENT-1/3, §23) is adopted verbatim as the eventual
 ask — issued only after PP5.0 certifies the 1/3 exponent closes the seam.
+
+> **[SUPERSEDED IN PART 2026-08-01 — Pro's adversarial self-audit,
+> verified on our side, RETIRES the bounded-carry/block-contraction spine
+> adopted above.]** Exact fixtures: hidden modulation w = 1 + 2^(-m/6)eps
+> saturates 2^(m/3) with all proper marginals flat (the 1/3 target
+> demands excluding 2^(-n/6)-scale joint bias — invisible to every local
+> test); full-cube parity cancels exactly yet is CONSTANT on each Hamming
+> slice (sqrt(C(60,30)) ~ 2^28 — full-window theorems are useless at
+> fixed b); the exact carry automaton needs ALL 2p ~ 2^32 states
+> (Myhill-Nerode, no translation stabilizer) so PP5.4 becomes a
+> reachable-sumset theorem request; pairings need 2^(-m/6) weight
+> accuracy; chambers hit order-p complexity; order-two sector flatness
+> does not transport; coherent sectors cost sqrt(s); unit drift costs
+> 2^20. The 43-coordinate calibration survives only as consumer
+> arithmetic, not as evidence of a local witness. SALVAGE (not minted —
+> the F2 bijection is the unproven seam): diagonalize the carry exactly
+> (dense odd-mode DFT, logarithmic L1), state-free product of local mode
+> multipliers, balance x phase-spread contraction per mode; the new
+> central black hole is the B-RESOLVED SLICE COEFFICIENT THEOREM.
+> Exploratory GO for F2A.0-F2A.4 only. See
+> `BRIEF5_ADVERSARIAL_AUDIT_SUMMARY.md`.
