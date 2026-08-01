@@ -99,6 +99,20 @@ obstruction to closing the middle range is precisely the multiplicity
 control when differences share residual geometry — a statement a fresh
 combinatorial eye may recognize as a known design-theory lemma.
 
+> **[CORRECTION 2026-08-01 — both suggestions above are REFUTED by the
+> Pro dossier's stress test, audited and accepted on our side.]**
+> (1) No support-only ("known design-theory") lemma can close P-B: greedy
+> Sidon families satisfying every set-system condition of P-B exceed the
+> `8n^3` budget by >270 bits with all difference multiplicities one — the
+> missing theorem must use RS realization (syndrome line, degree-<K
+> selection, first-match, genericity). (2) Multiplicity `<= 2` cannot
+> compose on RowC 1/4: the banked wide+near-K bands already consume
+> exactly `791/1024 > 1/2` of the Cauchy baseline. See
+> `responses/BRIEF4_PRO_DOSSIER.md` and `responses/BRIEF4_DOSSIER_AUDIT.md`
+> — the corrected first target is the RS-specific producer
+> `D_* <= N^2(M-1)` (or its weighted/rectangle variants), gated behind the
+> PP4.0-PP4.3 pilot program before any fleet campaign.
+
 ## Pointers
 
 - Node: `critical/nodes/xr_lowcore_spread_heart/`.
