@@ -14165,6 +14165,53 @@ next route-deciding step: classify source quotient placements, then build
                           the complete positive 24 x 8 Vieta kernels
 ```
 
+### Work-cycle evidence: positive 433-1a/O0b complete products
+
+```text
+local theorem pin:        7fa87094 (two signed target lanes)
+experiment scope:         aligned order-14 subgroup fixture only
+primes:                   29, 43, 71, 113
+cycle signs:              -1,+1 at every prime
+target assignments:       5040 per prime/sign
+common row placements:    296640--302400 distinct per case
+six-fiber survivors:      11598--33199 per case
+complete product result:  0 survivors in all 8 cases
+nearest multiset overlap: 5/6 at p=29,43; 4/6 at p=71; 3/6 at p=113
+moment diagnostic:        no case matches through e1,...,e4
+proof status:             exact finite fixture evidence, not universal
+Modal runs:               ap-M9gh2mPNg6cBLSyIyQcIM8,
+                          ap-JjNfWGTF3R7CdJlZyrGpKQ,
+                          ap-DOi4tbfs0TgGBL5lEl52m7
+Modal cost discipline:    <=0.5 CPU / 256 MB / <16 sec per container;
+                          estimated total well below $0.01
+next theorem target:      derive a low-order complete-product moment
+                          obstruction; do not universalize the toy fixture
+```
+
+### Work-cycle compilation: positive 433-1a common Vieta minors
+
+```text
+local signed-atlas pin:   7fa87094
+node/workboard attacked:  K3 / positive 433-1a common source placement
+result:                   PROVED exact guarded common minor compiler
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase compilation)
+matching atlas:           15 cells / 9 duplicate-role orbits
+source-root rows:         4 per cell, 60 total
+common matrix:            10 x 8
+principal reduction:      rank-six base + 6 pair minors
+compiled minors:          360 total / 110 distinct digests
+degree histogram:         18:156, 20:16, 21:180, 23:8
+term range:               64..240
+rank-drop discipline:     rank B<6 retained as separate branch
+Modal run:                ap-2OEQV8TIEVVVaamf9JSLkl (60/60 complete)
+Modal cost discipline:    0.5 CPU / 768 MB / <60 sec per case;
+                          low-cost symbolic compilation
+next route-deciding step: guard-strip and reduce the six-minor ideals by
+                          the nine role orbits before outside attachment
+```
+
 ### Work-cycle outbound custody: global positive loop cap
 
 ```text

@@ -3375,3 +3375,26 @@ signed types.  After normalizing the deficient colored attachments to
 product/squared-sum records each.  The next task is source-quotient
 placement and the corresponding complete positive `24 x 8` Vieta kernels,
 not another unconstrained sign search.
+
+The bounded order-14 product probe gives a route cut for that next step but
+not a theorem on the universal row.  Over each of `F_29,F_43,F_71,F_113`,
+both cycle signs, all `7P6` target assignments, and all distinct common
+product placements, thousands of `K+eta` separator survivors remain but
+none passes the complete twelve-row product multiset.  Even after allowing
+arbitrary `eta` internal type and arbitrary `L^c` assignment, no candidate
+matches the first four elementary symmetric rows.  Use this to seek a
+low-order complete-product moment obstruction for aligned placements; do
+not infer universal `433-1a -> O0b` deletion from the finite fixtures.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler`
+now resolves the universal common source-placement bookkeeping.  The five
+common labels are two opposite pairs and one singleton, giving fifteen
+role cells and four source-root sign rows per cell; the duplicate `AB+`
+records quotient the role cells to nine orbits.  On the rank-six base
+stratum, each positive `10 x 8` common Vieta system is equivalent to six
+explicit `8 x 8` minors.  All sixty rows and 360 minors compile over the
+deployed field, with degrees at most 23 and at most 240 terms.  Factor and
+guard-strip the 110 distinct minors by role orbit.  Keep the base-rank-drop
+branch separate, and do not treat compilation as a common-stage survivor
+or deletion.

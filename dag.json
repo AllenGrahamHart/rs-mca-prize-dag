@@ -20795,6 +20795,28 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "title": "KoalaBear m2 r4 positive 433-1a common Vieta minor compiler",
+   "status": "PROVED",
+   "closure": "exact fifteen-cell, sixty-sign-row common matching atlas with six guarded Vieta minors per principal row",
+   "statement": "The positive 433-1a common records admit exactly fifteen singleton/pair matching cells and four source-root sign rows per cell; swapping the duplicate AB+ roles gives nine role orbits. On the base-rank-six stratum, the 10 x 8 common Vieta matrix has a kernel exactly when six explicit 8 x 8 minors vanish. All 360 deployed-field minors are compiled; their solution sets and the base-rank-drop branch remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_common_vieta_compiler.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_common_vieta_compiler_modal.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
    "title": "KoalaBear m2 r4 coordinate negative one-loop 433 complete-edge skeleton classifier",
    "status": "PROVED",
@@ -41301,6 +41323,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
