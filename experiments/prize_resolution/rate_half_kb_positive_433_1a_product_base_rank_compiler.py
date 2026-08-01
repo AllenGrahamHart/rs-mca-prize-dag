@@ -145,8 +145,8 @@ def compile_cell(cell_index, dump=False):
             if sp.Poly(value, *variables, modulus=PRIME).total_degree() == 0
         ],
     }
-    if cell_index in (0, 14):
-        substitution = {b: -c**2 if cell_index == 0 else c**2}
+    if cell_index in (0, 3, 14):
+        substitution = {b: -c**2 if cell_index in (0, 3) else c**2}
         specialized_guards = [
             sp.expand(value.subs(substitution))
             for value in [*source_guards, *target_guards]

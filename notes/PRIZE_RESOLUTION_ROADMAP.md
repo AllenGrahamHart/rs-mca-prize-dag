@@ -14310,6 +14310,28 @@ next route-deciding step: attack degree-seven cells [3,6], then the three
                           degree-nine-only role orbits
 ```
 
+### Work-cycle theorem: positive 433-1a global product-base rank
+
+```text
+starting local pin:       61896de5 (five-orbit base-rank exclusion)
+ending local theorem pin: current global base-rank certificate
+node/workboard attacked:  K3 / positive 433-1a base-rank-drop branch
+result:                   PROVED rank P=5 and rank B=6 in all 15 cells
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+cell [3,6]:               factor split; residual determinant is a guard
+                          product, exceptional factor branch gives a unit
+cells [1,2]:              localized deployed-field unit ideal
+cells [9,10]:             localized deployed-field unit ideal
+cells [12,13]:            localized deployed-field unit ideal
+Singular replay:          ap-BAjOEqhrDgulBTrCY3YLpq
+terminal output:          UNIT / basis size 1 / first basis element 1
+input custody:            three canonical program hashes plus all eighteen
+                          equation hashes stored in result JSON
+branch deletion:          base-rank drop is globally empty for 433-1a/O0b
+next route-deciding step: append seven outside rows to the principal common
+                          charts; both target cycle signs remain
+```
+
 ### Work-cycle outbound custody: global positive loop cap
 
 ```text

@@ -1,0 +1,45 @@
+{
+  "app": "rs-mca-positive-433-1a-product-base-singular",
+  "modal_run": "ap-BAjOEqhrDgulBTrCY3YLpq",
+  "field": 2130706433,
+  "scope": "localized product-block rank-drop ideals only",
+  "cells": {
+    "1": {
+      "program_sha256": "b44b7d5d118c71e4b31f5eb924ff58e730ad65040356734c5fc2e2b234c4877f",
+      "equation_sha256": [
+        "aa40ebeb50ea66defa4bc1fb9c2ab256b2e197620cf0e024aaf4e0cc5f853bb5",
+        "c93d8cd53522b65dd959e2db325d1d95b4faad0a53e34dd5dd6f6fe283698883",
+        "076a75253978fc4272e969002e126a4c61b40b2472b5edac6efa9d999ffa46b7",
+        "749b9992062094575988709f56ec0ec4ba0190d6f01f7f27e17301d6499d86b8",
+        "4f3a0a4dcd229096ff8b5173d38d124bf94d62884ba958d4618512d13cc33811",
+        "cda590dea89094272ab00c211eaf497d3c592e05e048816b7a5b89bb1ba371a1"
+      ],
+      "singular_output": ["UNIT", "1", "1"]
+    },
+    "9": {
+      "program_sha256": "9bdc3ae4b02cde6a94af9ddcb818a365bedd98c2d268ce4f974b8c40c2f93a19",
+      "equation_sha256": [
+        "c2769f66a8fd0f9df4945d0272f3dc6e119d7880d238bc5a278967a0642a995e",
+        "994c4381ad3685f0796a19e84ac504e5ab3f2f7be1fa8d3e05f803ad410a82ea",
+        "ba4b9985dc28dafc251c3ffd122d2c7517038bdcc5b16ceb4b153937062dce28",
+        "f1d4cdce484e7507df769a8c52a1c9724ae07520ec27fa8fc66689ad740e0616",
+        "e6a1046881a764ce197181b9c7487a668c3ac40593d183b99c6e0e37f85d7b41",
+        "dccb663ef4d498a03693528fcf625f6451fc5f1e21e1f32ce2d9546b3a958fee"
+      ],
+      "singular_output": ["UNIT", "1", "1"]
+    },
+    "12": {
+      "program_sha256": "49bbb74fd711594b850810347f107aacecb6188233bb9427499c9250ee924b06",
+      "equation_sha256": [
+        "d334c132615b1ad03d84f362236a1acaeb1f861763dd2376633af3d64c1d47b2",
+        "99792205bce111b288be3d90c0432f5e8aa84074befae174095645d624e15b59",
+        "9887f0be6c856fd969e0bba63fc33c585963b348d5e2b1ac59f9710a5a3e7b1a",
+        "8a5ad1b0dcca5cb2c5136b761ce3007e1cc38c7d3dc5c7d53a83f1b163c6e448",
+        "c38688cfa77f360e057c6088fc0676ddaf3faecfa9c53fa2130c4d25ead3bf19",
+        "98ae78b1925223c68443fd7c22085877fe2e944f4132540cfee8938e700f8f42"
+      ],
+      "singular_output": ["UNIT", "1", "1"]
+    }
+  },
+  "nonclaim": "No principal common chart, outside-row system, route, K3, row, or Prize result is decided."
+}
