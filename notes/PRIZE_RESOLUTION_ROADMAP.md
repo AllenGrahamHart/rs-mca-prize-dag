@@ -13931,3 +13931,25 @@ Modal status:             no launch and no cost
 next route-deciding step: compile signed products for the unique skeleton
                           and impose the complete positive rank-five map
 ```
+
+### Work-cycle burn-down: positive three-loop common-kernel compiler
+
+```text
+starting local pin:       12b0125a (positive three-loop edge classifier)
+ending local theorem pin: current three-loop common-kernel compiler
+canonical prize pin:      973473e1
+node/workboard attacked:  K3 / positive three-loop common Vieta rows
+result:                   PROVED exact guarded 4 x 4 common kernel
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; positive subcase compiler)
+loop normalization:       W=0,infinity,1; B1=beta(W-1)
+representative cuts:      one degree-six residual each for 442 and 433
+admissibility discipline: det=0 is not promoted without beta/A2 guards
+local compute discipline: exact symbolic expansion under tiny RAM guard
+Modal status:             no launch and no cost
+next route-deciding step: enumerate loop-placement/sign orbits, retain
+                          admissible common kernels, and append the seven
+                          outside product/sum resultants for r=(0,1,1),
+                          m=(2,2,1)
+```

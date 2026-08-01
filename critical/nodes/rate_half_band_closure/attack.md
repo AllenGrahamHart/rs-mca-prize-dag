@@ -3277,3 +3277,15 @@ signed cross type and adds defect two, deleting the first orbit.  Thus the
 second is the unique complete edge skeleton up to naming.  Compile its
 signed products and apply the full positive rank-five product map next; no
 other positive three-loop source graph needs interpolation.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler`
+compresses the five common Vieta fibers before that outside computation.
+Normalize the branch loops and unique nonbranch loop to `W=0,infinity,1`.
+The loop rows determine `A_0`, `B_1=beta(W-1)`, and the two nonloop fibers
+give one exact `4 x 4` matrix on `(d_0,d_1,d_2,beta)`.  In representative
+442 and 433 placements its determinant is a product of collision guards and
+one printed degree-six residual `R_442` or `R_433`.  Do not treat residual
+vanishing as packet existence: first retain only kernels with `beta!=0` and
+`A_2` nonzero on all common fibers.  Then append the seven outside
+product/sum resultants for the unique split-colored skeleton.
