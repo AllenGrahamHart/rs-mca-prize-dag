@@ -14509,6 +14509,39 @@ next route-deciding step: reconstruct the 23-element cell-5 localized
                           product equations before the sum equations
 ```
 
+The raw-basis instruction above has now been superseded by the exact ratio
+compiler below.  Do not retry the 23-element ambient presentation.
+
+### Work-cycle theorem: positive 433-1a cell-5 ratio chart
+
+```text
+starting local pin:       70092b67 (universal target elimination)
+ending local theorem pin: current cell-5 ratio-chart compiler
+node/workboard attacked:  K3 / positive 433-1a common source curve
+result:                   PROVED exact deployed-field generic/exceptional
+                          decomposition of cell 5, signs (-1,-1), chart C1
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+atomic localization:      fast strip left unit t-r; exact localization
+                          removes it from the first minor only
+localized chart:          degrees 10,10,11; terms 28,40,40
+ratio coordinate:         x=c/b, with b^2 removed as a guarded unit
+degrees in b:             1,2,2
+generic reconstruction:  b=-a0/a1
+generic source equations: variables (x,r,t), degrees 24,25,
+                          terms 244,340
+retained branch:          a0=a1=0 together with both quadratic equations
+exact Modal replay:       ap-8LmPtWmoIdCkKSKaH5gHGz
+discovery-only runs:      split-prime Q(i) reconstruction
+                          ap-Pwoi9QdYWKfq9z4NfUflbE; exact determinant and
+                          generic exact-basis attempts timed out
+nonclaim:                 outside equations and unsquared q signs are not
+                          imposed; no cell, route, row, or Prize close
+next route-deciding step: close or parameterize the explicit a0=a1 branch,
+                          then reduce the four universal product equations
+                          on the generic two-eliminant source curve before
+                          adding the seven squared-sum equations
+```
+
 ### Upstream export: K3 positive coordinate reduction
 
 ```text
@@ -14543,8 +14576,8 @@ Modal runs:               ap-L6jmDq6TmutoMId17LuGB0,
                           ap-3NNIpulALnODMHqWkGTzM3,
                           ap-5LekROrgmIeQwn2fIpVvVy
 compute decision:         stop raw resultant and ambient Groebner retries;
-                          use the localized common-curve coordinate ring or
-                          function field and retain compact product chains
+                          use the proved x=c/b ratio chart and retain compact
+                          product chains; do not retry the exact ambient basis
 ```
 
 ### Canonical harvest: DLI C1 block basis and LIST unsafe staircase

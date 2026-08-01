@@ -1,0 +1,52 @@
+{
+  "atomic_guard_count": 22,
+  "cell": 5,
+  "chart": "C1 minors 12,13,14",
+  "coefficient_ledgers": [
+    [
+      {"degree": 8, "sha256": "99bb296427f5c7621c6213d1a5e469ac7a08c3d070796310987881c924b097c1", "terms": 14},
+      {"degree": 9, "sha256": "9187ac11fa076cc82e3b77a35a781b72f4ee75461dc4554dce09ab5f1c204538", "terms": 14}
+    ],
+    [
+      {"degree": 7, "sha256": "0f0be8dd9fced93199b2764a3498f5a987a08c576486c9d1dc52d868935f4e00", "terms": 10},
+      {"degree": 8, "sha256": "83f44fe84116964370a78c5f22ca8707a37fe173a4c5f98d8f68cd71553b4314", "terms": 20},
+      {"degree": 8, "sha256": "6b67fb62e42ea4743409ab6c031e524f81885f820c9e9f8e692f3db976f6f55b", "terms": 10}
+    ],
+    [
+      {"degree": 7, "sha256": "3f7dacb4b48540aeb3630e420652c68a516e07168687e3a84bdc2824fa371e64", "terms": 10},
+      {"degree": 9, "sha256": "07a9cd7c744fe982e6777d7774d66a02b26aa8b5c67b90346dfe70341d96f0ca", "terms": 20},
+      {"degree": 10, "sha256": "c505f8e231d5b723258200f06ecaa896ebe7743e1c4b56dbe287ba5f0931fb91", "terms": 10}
+    ]
+  ],
+  "conclusion": {
+    "denominator_branch_closed": false,
+    "deployed_cell5_chart_reduced_exactly": true,
+    "generic_source_variables": ["x", "r", "t"],
+    "outside_equations_imposed": false,
+    "route_deleted": false
+  },
+  "degrees_in_b": [1, 2, 2],
+  "epsilon": [-1, -1],
+  "exceptional_branch": "a0=a1=0",
+  "field": 2130706433,
+  "generic_eliminants": [
+    {"degree": 24, "sha256": "73d5903ee413982a3bc3f98afe16b980edd2303121295743bd0d4b39b2cfb71d", "terms": 244},
+    {"degree": 25, "sha256": "f365882173d4689a1f44b910391dfbf23743f51730631e2c089dd953e1ba5c37", "terms": 340}
+  ],
+  "generic_reconstruction": "b=-a0/a1",
+  "iota": 16711679,
+  "labels": ["1", "t^2", "r^2", "-r^2", "-1"],
+  "linear_coefficients": {
+    "a0": {"degree": 8, "sha256": "99bb296427f5c7621c6213d1a5e469ac7a08c3d070796310987881c924b097c1", "terms": 14},
+    "a1": {"degree": 9, "sha256": "9187ac11fa076cc82e3b77a35a781b72f4ee75461dc4554dce09ab5f1c204538", "terms": 14}
+  },
+  "localized_chart": [
+    {"degree": 10, "sha256": "14aeeed5df1b542420ef72b0a51e178c2c7f453e3c52b537eddba13ada305207", "terms": 28},
+    {"degree": 10, "sha256": "df625b492d096b8cab63870d2cde6c2ba36ecbbb0e185674631b75baca5e2a5f", "terms": 40},
+    {"degree": 11, "sha256": "60dd504a701819b297a5a0280d2971021eede294ecaee49840c63b099d84f831", "terms": 40}
+  ],
+  "payload_sha256": "c151d70e07ce72f75945c4d96b7405272a2ddc1ba0c1ad2fe32d8c007fad4e66",
+  "ratio_coordinate": "x=c/b",
+  "removed_atomic_guard_factors": [["-r + t"], [], []],
+  "removed_unit": "b^2"
+}

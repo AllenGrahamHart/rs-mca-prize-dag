@@ -3398,3 +3398,30 @@ deployed field, with degrees at most 23 and at most 240 terms.  Factor and
 guard-strip the 110 distinct minors by role orbit.  Keep the base-rank-drop
 branch separate, and do not treat compilation as a common-stage survivor
 or deletion.
+
+The PROVED global product-base and common-kernel descendants remove both
+rank ambiguities.  The product base has rank five and the six-row base has
+rank six in all fifteen role cells; every admissible common survivor has
+rank exactly seven and one coefficient-kernel line.  Therefore each
+survivor lies in all four pivot charts.  Use this unique kernel for outside
+substitution; do not retain a base-rank-drop or zero-image branch.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler`
+removes the outside target variables uniformly.  Four binomials are
+necessary and sufficient for all seven signed products and explicitly
+reconstruct `d,e,f`; seven further cleared equations compile all squared
+sums.  This one system relabels to all 267 formal target-gauge cases.  No
+case-specific target-template fleet is needed.  The remaining problem is
+source-side: substitute the common rational maps, keep source guards and
+unsquared signs, and prove the resulting systems empty.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler`
+gives the first compact common-curve interface.  In deployed-field cell 5,
+sign row `(-1,-1)`, atomizing the guards removes a residual unit `t-r` that
+whole-quadratic fast stripping missed.  With `x=c/b`, the localized `C1`
+equations have degrees `1,2,2` in `b`.  On `a1!=0`, reconstruct
+`b=-a0/a1` and retain two equations in `(x,r,t)` with 244 and 340 terms.
+Keep the exact exceptional branch `a0=a1=0`; neither branch yet contains
+the universal outside equations, so this is not a cell or route deletion.
