@@ -1,0 +1,14 @@
+# Source evidence
+
+The six required parents are:
+
+- `rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion`;
+- `rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion`;
+- `rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion`;
+- `rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion`;
+- `rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion`;
+- `rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion`.
+
+The verifier imports the canonical common-atlas cell generator and checks
+the exact disjoint cover.  The independent audit uses a separately printed
+fifteen-entry ownership ledger.

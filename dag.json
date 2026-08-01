@@ -20316,6 +20316,1072 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop product-to-q weld",
+   "status": "PROVED",
+   "closure": "affine-line product-q weld equivalent to the five common-K sum equations in both one-loop skeletons",
+   "statement": "In either negative one-loop skeleton, reconstruct the nonconstant Mobius product map p=N/D and let h be the loop label. On the four nonloops, the values w_s=q_s/(p_h-p_s) are samples of one affine-linear function, so the rows [1,s,w_s] have rank at most two. Two denominator-cleared 3 x 3 scalar welds against fixed nonloop anchors are necessary and sufficient for all five common-K sum equations after the product gate. The signed atlases and complement fibers remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld",
+   "title": "KoalaBear m2 r4 coordinate negative zero-loop product-to-q weld",
+   "status": "PROVED",
+   "closure": "quadratic-interpolation product-q weld equivalent to the five common-K sum equations in the zero-loop skeleton",
+   "statement": "In the negative zero-loop 433 skeleton, reconstruct the nonconstant Mobius product map p=N/D. The five values v_s=q_sD(s) are samples of one quadratic polynomial, so the rows [1,s,s^2,v_s] have rank at most three. After fixing any three common-K labels, two 4 x 4 determinant welds are necessary and sufficient for all five common-K sum equations. The signed atlas and complement fibers remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative zero-loop 433 doubled-singleton mixed-pair exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed-field deletion of zero-loop 433 common matching orbit 0/4/7/11",
+   "statement": "Normalize the zero-loop products as (b,-b,c,-c,bc). In common cell 0, exact ratio-preserving product and quadratic-q elimination has no guarded base-field packet in any root-sign row; all generic projections and every lost linear-c, product-solve, and singular-q branch are false or guarded. Target sign and exchange transport the exclusion to cells 4,7,11.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion/check.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion/verify_negative_same.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion/verify_negative_opposite.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative zero-loop 433 doubled-singleton opposite-pair exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed-field deletion of zero-loop 433 common matching orbit 1/3/8/10",
+   "statement": "In zero-loop common cell 1, exact ratio-preserving product and quadratic-q elimination has no guarded base-field packet in any root-sign row. The only generic projections force a zero product denominator with nonzero numerator, and exact lost-branch elimination adds no valid point. Target sign and exchange transport the exclusion to cells 3,8,10.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/check.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/verify_positive_opposite.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/verify_negative_opposite.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/verify_negative_same.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 433 complete-edge skeleton classifier",
+   "status": "PROVED",
+   "closure": "exact three-orbit classification of complete one-loop 433 outside edge skeletons",
+   "statement": "Every complete negative one-loop 433 packet has one of exactly twelve labeled outside edge skeletons, in three S_3-orbits. Representatives S0, S1, S2 respectively have no outside loop with split colored attachments, one loop on the uncolored pair with split attachments, or one loop with both colored attachments concentrated on another pair. The theorem gives the exact signed seven-product forms and eta/L^c location split.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 433 complete exclusion",
+   "status": "PROVED",
+   "closure": "complete deletion of all fifteen negative one-loop 433 matching cells",
+   "statement": "The fifteen common matching cells partition as [0] | [1,2] | [3,6] | [4,5,7,8] | [9,10,12,13] | [11,14]. Five orbits are empty at the common product/q stage. Orbit 3/6 has exactly sixteen deployed common packets, all deleted at the necessary complete paired-product gate. Hence no complete negative one-loop 433 packet exists.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 433 aligned loop-singleton exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed-field deletion of one-loop 433 common matching cell 0",
+   "statement": "Normalize common cell 0 with products (-1,b,c,bc,-bc) and source antipodal pairs AB:AC and BC+:BC-. In every root-sign row the two q welds force bc=+/-i and one linear value of r. Product elimination in x=t^2 then leaves one of four guarded quartics. Over F_2130706433 those quartics factor into eight irreducible quadratics whose four discriminants all have Euler value -1. Hence cell 0 has no deployed-field common packet.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 433 crossed loop-singleton exclusion",
+   "status": "PROVED",
+   "closure": "complete q-only deletion of one-loop 433 common matching cells 1/2",
+   "statement": "In crossed loop-singleton cells 1 and 2, strip only the explicit source/target guards from the two one-loop q welds. In all eight cell/root-sign rows the residual equations are linear in r. Their resultant is b(c^2-1) when the root signs agree and c(b^2-1) when they differ, up to a nonzero field scalar. Product injectivity and target distinctness forbid every factor, so both cells are empty before product or outside interpolation.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 433 AB/AC complete-product exclusion",
+   "status": "PROVED",
+   "closure": "complete paired-product deletion of one-loop 433 matching orbit 3/6",
+   "statement": "The sixteen common packets in one-loop 433 cells 3 and 6 determine two deployed product involutions and forced singleton mates. Across every signed S0, S1, and S2 outside skeleton, every forced record, and all fifteen residual matchings, the resulting ideal in the three outside representatives is the unit ideal. Direct cell-3 and target-exchanged cell-6 replay checks 11760 raw ideals, so matching orbit 3/6 has no complete paired-product lift.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 433 AB/AC finite classifier",
+   "status": "PROVED",
+   "closure": "exact deployed-field classification of one-loop 433 common matching cells 3/6",
+   "statement": "For the negative one-loop 433 AB/AC singleton orbit, exact guarded product and q elimination leaves precisely eight common packets in cell 3 over F_2130706433. Target exchange b<->c with the corresponding root-sign transport gives precisely eight packets in cell 6. The printed sixteen packets satisfy all original product minors, q welds, and guards; outside realizability remains open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 433 BC mixed-pair exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed-field deletion of one-loop 433 common matching orbit 9/10/12/13",
+   "statement": "For representative cell 9, one product row is linear in x=t^2 and one is static; one q row is quadratic in t and one is static. Exact guarded elimination leaves one false linear projection branch, eight irreducible quadratic sign-row factors, and four irreducible quintics. At every linear root the candidate b-gcd forces the x coefficient to zero while the product constant stays nonzero. Target exchange and sign transports cover cells 10, 12, and 13, so the whole orbit is empty.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 433 mixed-pair exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed-field deletion of one-loop 433 common matching orbit 4/5/7/8",
+   "statement": "For representative common cell 4, exact guard stripping makes both q welds linear in the singleton root. Product compatibility in its square is linear in c, and the protected square equation is independent of c. Eliminating c and the remaining target parameter leaves, in each root-sign row, the square of one irreducible deployed-field cubic after source guards. Target sign change and B/C exchange transport the exclusion to cells 5, 7, and 8, so the whole orbit is empty at the common stage.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 433 opposite-pair exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed-field deletion of one-loop 433 common matching cells 11/14",
+   "statement": "For representative cell 11, exact static/moving product-q elimination has four linear projections per sign row and one irreducible quadratic and quartic. In both the ordinary square route and lost moving-q coefficient route, every linear candidate forces b=0 or b=-1. The nonlinear factors have no deployed roots. Target sign transport covers cell 14, so the final opposite-pair orbit is empty.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 aligned-pair classifier",
+   "status": "PROVED",
+   "closure": "exact two-family classification of the aligned-pair one-loop 442 common-K matching orbit",
+   "statement": "In the one-loop 442 matching orbit where the loop label is the singleton and each doubled signed product pair occupies one source antipodal pair, the complete product gate and two q welds leave exactly two guarded families. One has r^2+r+1=0, b=ir, c=ir^2, t^2=c; the other has ib^2+b-i=0, c=-1/b, r=-i/b, t^2=-b. Target representative changes cover all four square-root sign classes. Both families survive common-K and still need the seven complementary fibers.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 crossed-pair exclusion",
+   "status": "PROVED",
+   "closure": "complete deletion of the crossed-pair one-loop 442 common-K matching orbit",
+   "statement": "When the one-loop label is the singleton and both source antipodal pairs mix an AB product with an AC product, the product minors and two q welds imply b(br+b-ir+i)=0 and c(b(r-1)+i(r+1))=0. After the nonzero guards, their r-resultant is -2(b^2-1), contradicting odd characteristic and target distinctness. Target representative changes cover both crossed matchings and every root-sign class, so the whole orbit is empty.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 complete-edge skeleton classifier",
+   "status": "PROVED",
+   "closure": "three-orbit classification of every complete one-loop 442 outside edge skeleton",
+   "statement": "The two colored outside records meet the deficient C pair, while the five internal records meet three I pairs of degree four. The single common loop permits at most one outside loop. Solving the guarded degree equations leaves exactly three skeleton orbits: loop-free split-colored with internal multiplicities (2,2,1); split-colored with one loop on the uncolored pair and internal (1,1,2); or concentrated-colored with one loop on another pair and internal (0,2,2). Product and q realization remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 aligned outside-product router",
+   "status": "PROVED",
+   "closure": "exact paired-product routing of the two aligned common-K families across all three outside skeletons",
+   "statement": "The common product pairs (b,-b) and (c,-c) force the global product involution to be negation, so the outside mate of -b^2 is b^2 and the other six products form three negation pairs. This deletes the loop-free S0 skeleton. In S1 the forced value must be one of the singleton DE or DF products, leaving two exact signed branches and the quartic d^4=-alpha beta gamma delta b^2 c^2. In S2 the forced value must be the loop, so -e^2=b^2. S1 and S2 have guarded finite product-level witnesses; outside q equations and full interpolation remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 aligned loop-q exclusion",
+   "status": "PROVED",
+   "closure": "complete outside-loop q deletion of both aligned common families",
+   "statement": "The five common rows determine F(W)=b/W and A_1 proportional to (W-c)(W-i) in aligned family A, and F(W)=bW with A_1 proportional to (W+b)(W-i) in family B. The common loop uses the first root. Every product-level S1 or S2 survivor has one outside loop, whose zero q value and nonzero B_2 force the second root W=i. Its product F(i)=r in A or ib in B contradicts respectively the routed S1 quartic or S2 forced-loop product. Thus all aligned product survivors are empty before the other outside q rows or full interpolation.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 complete exclusion",
+   "status": "PROVED",
+   "closure": "complete deletion of every negative one-loop 442 matching cell and outside skeleton",
+   "statement": "The six disjoint common matching orbits [0], [1,2], [3,6], [4,5,7,8], [9,10,12,13], and [11,14] cover all fifteen cells. Their terminal parents respectively delete the aligned loop-q branches, crossed common cells, all AB product cells, mixed common cells, all eighty AC-sextic product cells, and opposite-pair common cells, including every sign transport and retained outside skeleton. Therefore no complete negative one-loop (4,4,2) packet exists.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 nonloop-singleton opposite-pair exclusion",
+   "status": "PROVED",
+   "closure": "complete deletion of the cells 11/14 nonloop-singleton common-K matching orbit",
+   "statement": "Normalize the orbit with AC+ singleton, AB products on one source antipodal pair, and the loop paired with AC-. The product equation is (r^4+2br^2+1)c=b(br^4+b+2r^2); its denominator-zero branch forces r^4=1 and a label collision. After solving for c, one q weld factors in all four root-sign classes into guarded terms, two linear label-collision factors, and r^2=+/-i. The last factor forces c=1 in the product equation. Thus cells 11 and 14 are empty in every sign class.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 nonloop-singleton cubic-root gate",
+   "status": "PROVED",
+   "closure": "four explicit cubic root rows for the cells 9/10/12/13 common-K matching orbit",
+   "statement": "Normalize with AC+ singleton, the loop paired with AB+, and AB- paired with AC-. The regular product equation reconstructs c=b(bA+B)/(bB+A), where A=r^4-6r^2+1 and B=(r^2+1)^2; its denominator-zero branch forces a label collision. One q weld then forces r^3+(2e1e2+e1 i)r^2+(-1-2e2 i)r-e1 i=0 in root-sign row (e1,e2). Target sign swaps cover cells 9,10,12,13. A guarded F_41 common-K witness survives, so the remaining common equations and outside fibers stay open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 AB-singleton finite classifier",
+   "status": "PROVED",
+   "closure": "exact sixteen-packet common-K classification of cells 3/6",
+   "statement": "Normalize cells 3/6 with roots (1,t,e1 i,r,e2 i r), labels (1,t^2,-1,r^2,-r^2), and products (-b^2,b,-b,c,-c). The guarded common product equations and q welds hold exactly when r^2=-e2 i, 2b^2+3b+2=0, t=(-e1 i r^2-2r-e1 i)/(r^2+2e1 i r+1), and c=b(bU-V)/(bV-U), where U=r^2t^2-3r^2+3t^2-1 and V=(r^2-1)(t^2+1). Both denominators are guarded. There are four packets per root-sign row and sixteen total; outside realization remains open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 nonloop-singleton degree-12 gate",
+   "status": "PROVED",
+   "closure": "finite degree-12 b gate for every cubic-root row in the cells 9/10/12/13 orbit",
+   "statement": "After the parent cubic gate and safe c reconstruction, take the direct t-resultant of the remaining product minor and q weld. Its resultant with the sign-dependent r cubic is -2^56 b^24(b-1)^12(b+1)^12 times G(b), where G=(b^3-b^2-b-1)(b^3+b^2+b-1)(b^6-2b^5+7b^4-8b^3+7b^2-2b+1). Hence every guarded common packet has G(b)=0, giving at most 72 raw (r,b,t) triples per sign row. The F_41 witness lies on the sextic factor; outside realization remains open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 AB-singleton product involution compiler",
+   "status": "PROVED",
+   "closure": "unique product involution and forced outside mate for the finite cells 3/6 common orbit",
+   "statement": "On the finite cells 3/6 common atlas, 2b^2+3b+2=0 and 4c^2=5b+6. The common product pairs (-b^2,-b) and (c,-c) determine the unique involution Phi(Y,Z)=Gamma YZ-Alpha(Y+Z)-Beta with Gamma=b(b+1), Alpha=-(b^3+c^2), and Beta=-b(b+1)c^2. Its determinant is (b-c)(b+c)(b^2-c)(b^2+c), a common-product guard. The outside mate of singleton b is m=(18-5b)/22. Every outside multiset must contain m and partition its other six values into three Phi pairs; outside template realization remains open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 nonloop-singleton explicit involution compiler",
+   "status": "PROVED",
+   "closure": "unique explicit product involution and forced singleton mate for the finite cells 9/10/12/13 common orbit",
+   "statement": "The common product pairs (-b^2,b) and (-b,-c) determine the unique involution Phi(Y,Z)=Gamma YZ-Alpha(Y+Z)-Beta, where Gamma=c+2b-b^2, Alpha=-b(c+b^2), and Beta=b^2(c-b^2-2bc). Its determinant is 2b^2(b-1)(b+c)(b^2-c), a guarded unit. The outside mate of common singleton c is -b(b^3+3b^2c-bc+c^2)/(b^3-b^2c+3bc+c^2). Each outside skeleton must contain this value and partition its other six products into three Phi pairs; outside sums and interpolation remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 AB-singleton S2 product exclusion",
+   "status": "PROVED",
+   "closure": "complete S2 outside-product deletion over the finite cells 3/6 common orbit",
+   "statement": "For each of the two deployed b roots, remove the forced mate from the seven S2 products and impose binary-sextic invariance under the cells 3/6 product involution. The forced-colored and forced-loop systems are raw unit ideals after seven S-pairs. The forced-DF basis contains d^2 and e^2, while the forced-EF basis contains e^2, contradicting nonzero outside guards. Changing c to -c leaves the systems unchanged. Hence every S2 product cell over all sixteen common packets is empty; S0 and S1 remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 nonloop-singleton sextic quotient classifier",
+   "status": "PROVED",
+   "closure": "deletion of both cubic b factors and rank-six compilation of the live sextic common quotient",
+   "statement": "In every sign row, either cubic factor b^3-b^2-b-1 or b^3+b^2+b-1 forces t^2=-r^2 and a common-label collision. The only live degree-12 factor is S=b^6-2b^5+7b^4-8b^3+7b^2-2b+1. After safe c reconstruction, each sextic sign row has standard monomial basis {1,b,b^2,r,br,t}, hence rank six. Multiplication by the c denominator has determinant 2^19 in every row, so no denominator component is hidden. Outside realization remains open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 AB-singleton S0 product exclusion",
+   "status": "PROVED",
+   "closure": "complete S0 outside-product deletion over the finite cells 3/6 common orbit",
+   "statement": "For each deployed b root and both S0 parities, impose residual sextic invariance after removing the forced mate. The forced-colored systems are raw units after 29 S-pairs. The forced-EF bases contain the square of a nonzero outside representative after 190 S-pairs, and the forced-internal bases contain that representative after 406 S-pairs. An explicit c-sign/outside-sign transport covers both c signs. Thus every S0 product cell is empty; together with S2, only S1 remains for this common orbit.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 nonloop-singleton sextic mate-coordinate compiler",
+   "status": "PROVED",
+   "closure": "denominator-free rank-six coordinates for c and the forced singleton mate in every live sextic sign row",
+   "statement": "In all four rank-six sextic common quotients, the c-reconstruction denominator has norm 2^19 and the singleton-mate denominator has norm 652=4*163. In the representative basis {1,b,b^2,r,br,t}, c=-1+b-b^2/2+(i-1)r/4+(1-i)t/4, while 163m=(50-54i)+(87+54i)b-(126+54i)b^2+(30+12i)r+(-54+54i)br+(12+30i)t. Thus outside forced-value and involution templates require only six-coordinate arithmetic, with no rational branch.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 AB-singleton S1 product exclusion",
+   "status": "PROVED",
+   "closure": "complete outside-product deletion of the cells 3/6 common matching orbit",
+   "statement": "In both deployed b rows, the two forced-internal and two forced-colored S1 cells are raw units after 79 and 56 S-pairs. The four forced-EF bases contain a nonzero outside representative after 435 S-pairs. Since -m is a deployed square in both rows, the two forced-loop systems are base-field raw units after 55 and 57 S-pairs. Explicit c-sign and loop-root sign transports cover every common packet. Thus all ten S1 cells, and with the parent S0/S2 closes all twenty canonical product cells, are empty; orbit 3/6 is retired before q/interpolation.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 nonloop-singleton mixed-pair exclusion",
+   "status": "PROVED",
+   "closure": "complete common-stage deletion of cells 4/5/7/8",
+   "statement": "For the final nonloop-singleton common matching orbit, product reconstruction and the first q weld split every guarded packet into rt+1=0 or rt-epsilon_1*i(r+t)-1=0. Exact branchwise resultants in all four sign rows leave only source-label collisions, r=0, or b in {0,+1,-1}; hence cells 4/5/7/8 are empty. This finishes the nonloop-singleton common atlas but does not close the surviving aligned loop-singleton families.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 outside sign-orbit classifier",
+   "status": "PROVED",
+   "closure": "five outside signed skeleton cells per fixed common sign row",
+   "statement": "Outside representative sign changes reduce the eight S0 sign assignments to two orbits indexed by alpha beta gamma, and the sixteen S1 assignments to two orbits indexed by alpha beta gamma delta; S2 has one sign cell. Thus 25 raw cells become five per common sign row. At 105 forced-value/matching templates per signed cell, the pre-automorphism cap is 525 per common row and 2100 over the four sextic common rows. Product realization remains open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 outside template-orbit classifier",
+   "status": "PROVED",
+   "closure": "201 canonical forced-value/matching templates per common sign row",
+   "statement": "Act simultaneously on signed outside cells, the forced record, and the residual perfect matching by target representative signs and valid unsigned skeleton automorphisms. The 840 raw S0 templates form 64 orbits, the 1680 raw S1 templates form 114, and the 105 raw S2 templates form 23. Thus there are 201 canonical templates per common sign row and 804 over the four sextic rows. Product realization remains open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 outside binary-sextic invariance compiler",
+   "status": "PROVED",
+   "closure": "binary-sextic replacement of residual matchings and twenty canonical forced-record cells per common row",
+   "statement": "After choosing the outside record equal to the forced mate m, let H be the binary sextic of the six residual distinct products. They split into three pairs under the explicit trace-zero involution M iff H(M(X,Z)) is proportional to H(X,Z); injectivity rules out fixed roots. Quotienting signed forced records by representative changes and skeleton automorphisms leaves 6 S0, 10 S1, and 4 S2 invariant cells. Thus only twenty cells per common row and eighty over four sextic rows require evaluation; the 804 matching census is superseded computationally.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 outside binary-sextic eigenvalue compiler",
+   "status": "PROVED",
+   "closure": "forced Delta-cubed eigenvalue and rank-three coefficient test for residual sextic invariance",
+   "statement": "Let M be the explicit trace-zero product involution and Delta=Alpha^2+Beta Gamma. For a fixed-point-free residual binary sextic H, projective invariance is equivalent to the exact identity H(M(X,Z))=Delta^3 H(X,Z); the negative eigenvalue would force both projective fixed points to be roots. The seven printed division-free coefficient equations have rank three. Thus each of the eighty canonical cells requires only three independent scalar conditions. Cell evaluation, outside sums, and interpolation remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 outside binary-sextic uniform-row selector",
+   "status": "PROVED",
+   "closure": "uniform coefficient rows zero through two for all four sextic common sign quotients",
+   "statement": "Let E_l be the seven coefficient equations of the binary-sextic eigenvalue compiler. In each of the four deployed rank-six common quotients, the coefficient minor of rows E_0,E_1,E_2 on h_0,h_1,h_2 has multiplication norm 1133299039 modulo 2130706433 and is therefore a unit. Since the full system has rank three, E_0=E_1=E_2=0 is equivalent to all seven equations uniformly. Forced-record evaluation, outside sums, and interpolation remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_sextic_row_selector.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S1 forced-DE F41 product witness",
+   "status": "PROVED",
+   "closure": "exact guarded F41 product-invariant witness and complete two-variable census for one canonical S1 cell",
+   "statement": "On the common F41 witness b=10,c=5,r=12,t=30, take the S1 singleton signs (1,-1,-1,1) and outside representatives (d,e,f)=(15,7,18). The forced DE product equals the mate m=18; all twelve common and outside products are distinct; and the six residual products form involution pairs (35,24),(33,38),(21,3). All seven sextic eigenvalue equations vanish. Exhausting the 1600 nonzero (d,s) pairs with e=-m/d and f=sd leaves this as the unique guarded invariant pair. This is a characteristic-41 product route cut, not a deployed-field, outside-q, or interpolation survivor.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_forced_de_scan.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S1 forced-DE deployed product exclusion",
+   "status": "PROVED",
+   "closure": "unit product-invariance ideal for one specified deployed S1 forced-DE canonical cell",
+   "statement": "In common sign row (1,1), outside skeleton S1 with singleton signs (1,-1,-1,1), and forced record DE, substitute e=-m/d and f=sd. The scaled residual sextic J is printed in the node. Its uniform coefficient equations E_0,E_1,E_2 each have 25 outside monomials in the rank-six common quotient. The deployed sextic common algebra splits into two printed irreducible cubic fields; exact two-variable Buchberger reduction reaches 1 after 79 S-pairs in each. Thus this canonical cell is empty before guards, reducing the accepted product frontier from 80 to 79. Other cells, outside q, and interpolation remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S1 forced-DE opposite-parity deployed product exclusion",
+   "status": "PROVED",
+   "closure": "unit product-invariance ideal for the opposite-parity forced-DE/DF cell in the representative common sign row",
+   "statement": "In common sign row (1,1), take the tau_1=-1 S1 cell with singleton signs (-1,-1,-1,1) and forced record DE. Relative to the first deployed forced-DE exclusion, only the CE sign changes, replacing the first scaled sextic factor by dX-cmZ. The three uniform equations again have 25 outside monomials, and exact Buchberger reduction reaches 1 after 79 S-pairs in both cubic common components. Thus both forced-DE/DF parity cells are empty in this common sign row and the accepted product frontier falls from 79 to 78. No transport to another common sign row is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S1 forced-colored deployed product exclusion",
+   "status": "PROVED",
+   "closure": "unit product-invariance ideals for both forced-CE/CF parity cells in the representative common sign row",
+   "statement": "In common sign row (1,1), force the colored S1 record CE with canonical signs alpha=beta=gamma=-1 and delta=+/-1. The equation -ce=m fixes e=-m/c, and the printed residual sextic has uniform coefficient equations with 23 outside monomials. For both delta signs and both irreducible cubic common components, exact Buchberger reduction reaches 1 after 56 S-pairs. Thus both forced-colored parity cells are empty; four of ten S1 cells in this common row are deleted and the accepted four-row product frontier falls from 78 to 76. No common-sign transport or other forced-type deletion is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S1 forced-EF tau-plus guarded product exclusion",
+   "status": "PROVED",
+   "closure": "guard-saturated deletion of both tau-plus forced-EF cells in the representative common sign row",
+   "statement": "In common sign row (1,1), take canonical S1 signs alpha=beta=gamma=delta=-1 and force either EF+ or EF-. Writing sigma ef=m, substituting f=sigma m/e, and scaling by e^2 gives the printed residual sextic. The three uniform equations have 19 outside monomials. In both cubic common components and for both sigma signs, exact Buchberger reduction completes after 435 S-pairs with a basis containing e=0. Since target representatives are nonzero, both cells are guard-empty. The accepted product frontier falls from 76 to 74; opposite parity and forced loops remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S1 forced-EF tau-minus guarded product exclusion",
+   "status": "PROVED",
+   "closure": "guard-saturated deletion of both tau-minus forced-EF cells in the representative common sign row",
+   "statement": "In common sign row (1,1), take canonical S1 signs alpha=beta=gamma=-1, delta=+1 and force either EF+ or EF-. Substituting f=sigma m/e and scaling by e^2 gives the printed residual sextic. The three uniform equations have 17 outside monomials. In both cubic common components and for both sigma signs, exact Buchberger reduction completes after 435 S-pairs with a basis containing e=0. Thus both cells are guard-empty. All eight rational forced-record S1 cells in this common row are deleted; only two forced-loop cells remain, and the accepted frontier falls from 74 to 72.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S1 forced-loop deployed product exclusion",
+   "status": "PROVED",
+   "closure": "raw unit-ideal deletion of both forced-loop S1 cells in the representative common sign row",
+   "statement": "In common sign row (1,1), force the S1 loop product -d^2=m. The element -m is a nonsquare in each cubic common component, so adjoining theta with theta^2=-m gives two genuine degree-six fields. For both outside parity signs, the three uniform sextic equations have 17 monomials and exact Buchberger reduction reaches the unit ideal in both fields, after 57 S-pairs for delta=-1 and 55 for delta=+1. Thus the final two S1 cells in this row are empty, all ten representative-row S1 cells are deleted, and the accepted four-row frontier falls from 72 to 70.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_loop_buchberger.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S1 common-sign product transport",
+   "status": "PROVED",
+   "closure": "coefficient-identical transport of all ten S1 product-cell exclusions across the four common sign rows",
+   "statement": "Under the canonical maps from every common root-sign row to either deployed cubic component K_j, the reconstructed common values c and forced mate m have the same exact coefficient triples. The product involution, the eight rational forced-record S1 residual sextics, and the two forced-loop sextics depend only on b,c,m and outside parity; the loop extension theta^2=-m also has the same nonsquare class. Hence the ten representative-row product exclusions transport coefficient for coefficient to all four rows. All forty S1 cells are empty and the accepted invariant-cell frontier falls from 70 to 40, leaving six S0 and four S2 cells per row.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_common_sign_product_transport.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_loop_buchberger.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S2 forced-colored deployed product exclusion",
+   "status": "PROVED",
+   "closure": "raw unit-ideal deletion of the forced-colored S2 cell in all four common sign rows",
+   "statement": "In S2, forcing sigma*c*d=m leaves the residual binary sextic (X+mZ)(X+e^2 Z)(X^2-(m/c)^2 f^2 Z^2)(X^2-e^2 f^2 Z^2). The forced sign disappears. Its three uniform coefficient equations each have seven monomials, and exact Buchberger reduction reaches the unit ideal after seven S-pairs in both cubic common components. The exact common b,c,m data are identical across all four root-sign rows, so all four forced-colored S2 cells are empty and the accepted invariant-cell frontier falls from 40 to 36.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_common_sign_product_transport.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S2 forced-EF guarded product exclusion",
+   "status": "PROVED",
+   "closure": "guard-saturated deletion of the forced-EF S2 cell in all four common sign rows",
+   "statement": "In S2, force sigma*e*f=m and clear the admissible denominator by multiplying the residual sextic by e^2. The resulting polynomial form is (X^2-c^2d^2Z^2)(X+e^2Z)(e^2X^2-m^2d^2Z^2)(X+mZ). Its three uniform equations each have seven monomials. In both cubic common components, exact Buchberger reduction completes after 28 S-pairs with the monic basis element e^2, contradicting the guard e!=0. The common product data are identical across all four rows, so all four forced-EF S2 cells are empty and the accepted frontier falls from 36 to 32.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_common_sign_product_transport.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S2 forced-DF guarded product exclusion",
+   "status": "PROVED",
+   "closure": "guard-saturated deletion of the forced-DF S2 cell in all four common sign rows",
+   "statement": "In S2, force sigma*d*f=m and clear the admissible denominator by multiplying the residual sextic by d^2. The resulting polynomial form is (X^2-c^2d^2Z^2)(X+e^2Z)(X+mZ)(d^2X^2-m^2e^2Z^2). Its three uniform equations each have seven monomials. In both cubic common components, exact Buchberger reduction completes after 28 S-pairs with the monic basis elements d^2 and e^2, contradicting the guard d!=0. The common product data are identical across all four rows, so all four forced-DF S2 cells are empty and the accepted frontier falls from 32 to 28.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_common_sign_product_transport.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S2 forced-loop deployed product exclusion",
+   "status": "PROVED",
+   "closure": "raw unit-ideal deletion of the forced-loop S2 cell in all four common sign rows and complete S2 product close",
+   "statement": "In S2, forcing the loop record -e^2=m leaves three full signed pairs, so the square-root choice disappears and the residual sextic is (X^2-c^2d^2Z^2)(X^2-d^2f^2Z^2)(X^2+m f^2Z^2). Its three uniform equations each have seven monomials, and exact Buchberger reduction reaches the unit ideal after seven S-pairs in both cubic common components. The common product data are identical across all four rows. Thus all four forced-loop cells, and together with the preceding exclusions all sixteen S2 product cells, are empty. The accepted frontier falls from 28 to 24 and consists only of S0 cells.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_common_sign_product_transport.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S0 forced-colored deployed product exclusion",
+   "status": "PROVED",
+   "closure": "raw unit-ideal deletion of both forced-colored S0 parity cells in all four common sign rows",
+   "statement": "Choose canonical S0 signs alpha=beta=1 and gamma=tau_0. Forcing CE=m gives the residual sextic (X-cfZ)(X^2-(m/c)^2d^2Z^2)(X^2-d^2f^2Z^2)(X-tau_0(m/c)fZ). For either parity, its three uniform equations each have eleven monomials. Exact Buchberger reduction reaches the unit ideal after 29 S-pairs in both cubic common components. The common product data are identical across all four rows, so all eight forced-colored S0 cells are empty and the accepted frontier falls from 24 to 16.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_common_sign_product_transport.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S0 forced-EF guarded product exclusion",
+   "status": "PROVED",
+   "closure": "guard-saturated deletion of both forced-EF S0 parity cells in all four common sign rows",
+   "statement": "Choose alpha=beta=1, gamma=tau_0 and force tau_0*e*f=m. Clearing the admissible denominator gives (X-ceZ)(eX-tau_0*cmZ)(X^2-d^2e^2Z^2)(e^2X^2-m^2d^2Z^2). For either parity, the three equations each have twelve monomials. In both cubic components exact Buchberger reduction completes after 190 S-pairs with the monic basis element e^2, contradicting e!=0. The common product data are identical across all four rows, so all eight forced-EF S0 cells are empty and the accepted frontier falls from 16 to 8.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_common_sign_product_transport.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S0 forced-internal guarded product exclusion",
+   "status": "PROVED",
+   "closure": "guard-saturated deletion of both forced-internal S0 parity cells in all four rows and complete 80-cell product close",
+   "statement": "Choose alpha=beta=1, gamma=tau_0 and force d*e=m. Clearing the admissible denominator gives (dX-cmZ)(X-cfZ)(X+mZ)(X^2-d^2f^2Z^2)(dX-tau_0*mfZ). For either parity, the three equations each have fourteen monomials. In both cubic components exact Buchberger reduction completes after 406 S-pairs with the monic basis element f, contradicting f!=0. The common product data are identical across all four rows. Thus all eight forced-internal S0 cells, all twenty-four S0 cells, and together with the preceding S1/S2 closes all eighty invariant-product cells in this common orbit are empty. Its accepted product frontier falls from 8 to 0.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py",
+    "experiments/prize_resolution/rate_half_kb_one_loop_442_common_sign_product_transport.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
    "title": "KoalaBear m2 r4 coordinate negative two-loop product-to-q weld",
    "status": "PROVED",
@@ -20581,6 +21647,54 @@
     "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/verify_audit_ef_0_4.py",
     "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/verify_audit_ef_5_9.py",
     "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/verify_audit_ef_10_14.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop 433 constrained outside-product involution compiler",
+   "status": "PROVED",
+   "closure": "exact forced products and nonsingular product involutions for the X2/N1/L1 common rows",
+   "statement": "The three constrained 433 common rows X2, N1, and L1 have exact rank-eight base algebras. Candidate-row minors force one finite nonzero missing product in each row, and the two antipodal pairs compile an exact nonsingular bilinear product involution. This supplies all thirty sign/forced-type cells without imposing a false base-field rationality condition.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion",
+   "title": "KoalaBear m2 r4 coordinate negative two-loop 433 constrained complete-product exclusion",
+   "status": "PROVED",
+   "closure": "all thirty X2/N1/L1 product cells deleted and the full 433 paired-product skeleton closed",
+   "statement": "The five forced-product types have 75 universal residual matching templates. Evaluating them at X2, N1, and L1 and both outside signs gives 450 unit obstructions in exact rank-eight quotient algebras. Alternate projections and multiplication-matrix ranks replay every case. Together with the M2/M3 exclusion, the entire 433 complete paired-product skeleton is impossible.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/certificate.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/audit_runner.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/verify_audit.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/verify_audit_df_0_4.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/verify_audit_df_5_9.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/verify_audit_df_10_14.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/verify_audit_ef_0_4.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/verify_audit_ef_5_9.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/verify_audit_ef_10_14.py"
    ]
   },
   {
@@ -39409,6 +40523,881 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
    "kind": "req"
   },
@@ -39634,6 +41623,51 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

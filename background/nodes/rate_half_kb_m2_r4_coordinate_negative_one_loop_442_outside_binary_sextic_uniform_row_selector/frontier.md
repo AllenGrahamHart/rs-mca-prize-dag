@@ -1,0 +1,8 @@
+# Frontier
+
+Emit the residual sextic for one canonical forced-record cell and reduce
+only `E_0,E_1,E_2` together with the forced-mate equation.  Keep the other
+four coefficient equations as a post-solve audit.
+
+The first deployed `S1` forced-`DE` cell is now PROVED empty.  Continue from
+the remaining 79 canonical cells and reuse the sparse cubic-field solver.

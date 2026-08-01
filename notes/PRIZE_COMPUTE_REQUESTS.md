@@ -10841,12 +10841,244 @@ Universal elimination of the two intrinsic horizontal variables gives 75
 matching obstructions; all 300 sign/base evaluations are units in the exact
 deployed rank-twelve quotient algebra.  Alternate projection and
 multiplication-matrix audits replay every case.  Do not launch an `M2/M3`
-product, interpolation, or q task.  The only live `(4,3,3)` common-`K`
-ledgers are `X2,N1,L1`, and no external saturation should start until their
-outside forced-mate/invariance compiler has fixed the valid cell interface.
+product, interpolation, or q task.
+
+The constrained `X2,N1,L1` cells are now PROVED empty as well.  Their exact
+outside compiler gives three rank-eight base algebras, finite nonzero forced
+products, and nonsingular bilinear product involutions.  The same 75
+universal matching templates give 450/450 unit obstructions, independently
+replayed by alternate projections and rank-eight multiplication matrices.
+Thus the complete `(4,3,3)` paired-product frontier is empty.  No external
+worker should launch a `433` cell, matching, q-orientation, or interpolation
+task.  Together with the preceding `442` close, both currently compiled
+negative two-loop skeletons are obsolete compute targets; recompute the live
+coordinate skeleton census before posing another campaign.
 
 Suggested pilot: one canonical packet stratum, one CPU, at most 512 MiB,
 60 seconds, deterministic partial output, and no parallel fleet.  Modular
 reconnaissance is evidence only; universal deletion requires symbolic or
 proof-producing certificates whose saturations include distinct labels,
 nonzero leading support, and the source-facet side conditions.
+
+## Request: negative one-loop 442 sextic outside templates
+
+The live common orbit `[9,10,12,13]` is now reduced to four rank-six sextic
+quotients.  The two cubic factors of the former degree-12 gate are PROVED
+empty.  In each live sign row the standard basis is
+
+```text
+{1,b,b^2,r,br,t},
+S(b)=b^6-2b^5+7b^4-8b^3+7b^2-2b+1,
+Norm(D_c)=2^19,       Norm(D_m)=652.
+```
+
+The explicit product involution is
+
+```text
+Phi(Y,Z)=(c+2b-b^2)YZ+b(c+b^2)(Y+Z)
+         -b^2(c-b^2-2bc),
+```
+
+and the common singleton `c` has one forced outside mate `m`.  For each
+fixed signed outside cell, choose one of seven products to equal `m` and one
+of fifteen perfect matchings of the other six products.  The raw edge-sign
+counts before target-sign symmetry are `S0=8`, `S1=16`, and `S2=1`; hence
+`105` templates per signed cell, not per unsigned skeleton.
+
+The target-representative sign quotient is now PROVED and must be used:
+
+```text
+S0: two parity cells tau_0=alpha beta gamma,
+S1: two parity cells tau_1=alpha beta gamma delta,
+S2: one cell.
+```
+
+Therefore the accepted cap is five signed cells and `525` templates per
+common sign row, or `2100` over all four sextic rows, before quotienting by
+the residual unsigned skeleton automorphisms.  A worker that expands the
+original 25 sign cells is obsolete.
+
+The residual template quotient is also now PROVED.  Simultaneous action on
+the sign cell, forced record, full-pair members, and residual matching gives
+
+```text
+S0: 840 raw -> 64 canonical,
+S1: 1680 raw -> 114 canonical,
+S2: 105 raw -> 23 canonical.
+```
+
+The accepted compute cap is therefore 201 templates per common sign row and
+804 over all four sextic rows.  The orbit-size distributions and a complete
+enumerator are in the template-orbit classifier node.  External workers
+must consume its deterministic representatives; the former 2,100-row cap
+is obsolete.
+
+The residual matching endpoint is now itself obsolete.  The PROVED binary-
+sextic compiler replaces fifteen matchings by one invariant-form test after
+the forced record is removed.  Quotienting signed forced records gives
+
+```text
+S0: 6 cells,       S1: 10 cells,       S2: 4 cells
+```
+
+per common sign row.  The accepted frontier is twenty invariant-form cells
+per row and eighty over all four sextic rows.  The 804 matching orbits remain
+an independent completeness audit only.  External workers must impose
+coefficient proportionality of
+
+```text
+H(Alpha X+Beta Z,Gamma X-Alpha Z) and H(X,Z)
+```
+
+and must not enumerate residual perfect matchings.
+
+The unknown-scalar formulation is now also obsolete.  The PROVED
+binary-sextic eigenvalue compiler forces the exact identity
+
+```text
+H(M(X,Z))=Delta^3 H(X,Z),  Delta=Alpha^2+Beta*Gamma.
+```
+
+Its seven coefficient equations have rank three.  External workers should
+reduce three independent equations per canonical cell and retain all seven
+only as an audit.  They must not add a proportionality scalar or coefficient
+minors.  The accepted workload is eighty cells times three scalar
+conditions before outside sums and interpolation.
+
+The row choice is now fixed as well.  The PROVED uniform-row selector shows
+that `E_0,E_1,E_2` are independent in all four common sign quotients; their
+`(h_0,h_1,h_2)` minor has deployed multiplication norm `1133299039`.
+Workers should use those three equations exactly and should not spend a
+shard selecting or row-reducing coefficient equations.
+
+One caution is now exact.  The canonical `S1` forced-`DE` cell has a guarded
+product-invariant `F_41` realization `(d,e,f)=(15,7,18)` on the printed
+common witness, with all twelve products distinct.  A complete 1,600-pair
+scan finds it uniquely.  Therefore a characteristic-independent
+product-only contradiction does not exist for this cell.  Deployed shards
+remain useful, but any deployed product survivor must be handed to the
+seven outside source-fiber/`q` assignment; product survival is not packet
+survival.
+
+The representative deployed `S1` forced-`DE` task is complete and should no
+longer be requested.  Sparse quotient multiplication gives three 25-term
+polynomials; splitting the common algebra into its two irreducible cubic
+fields gives the unit ideal after 79 S-pairs in each.  The accepted frontier
+is now 79 cells.  External workers may reuse the checked sparse builder and
+cubic-field solver on another canonical cell, but must pin its common signs,
+outside signs, and forced record explicitly.
+
+The opposite `S1` parity for the same forced-`DE/DF` type is also complete:
+changing the first sparse factor from `dX+cmZ` to `dX-cmZ` again gives the
+unit ideal after 79 S-pairs in both cubic components.  The accepted frontier
+is 78.  Do not request either parity of this forced type in common sign row
+`(1,1)`.
+
+Both forced-`CE/CF` parity cells in common sign row `(1,1)` are now complete
+as well.  Their three equations have 23 terms and reach the unit ideal after
+56 S-pairs in each cubic component.  The accepted frontier is 76; these two
+cells should not be requested again.
+
+The two `tau_1=+1` forced-`EF+/-` cells in common row `(1,1)` are also
+complete.  Their exact bases contain the forbidden coordinate `e`, after
+435 S-pairs in each cubic component.  These are guard-saturated deletions,
+not raw unit ideals.  The accepted frontier is 74.
+
+The two opposite-parity forced-`EF+/-` cells are complete too: their 17-term
+systems again finish with the forbidden equation `e=0` after 435 S-pairs in
+both components.  Only two forced-loop `S1` cells remain in common sign row
+`(1,1)`, and the accepted frontier is 72.
+
+The two forced-loop `S1` cells in common sign row `(1,1)` are now complete
+as well.  The forced equation `-d^2=m` is handled over the genuine quadratic
+extension `theta^2=-m` of each cubic common component; nonsquareness of
+`-m` is checked in both.  Each parity gives three 17-term equations.  Their
+exact tower-field bases contain `1` after 57 S-pairs for `delta=-1` and 55
+for `delta=+1`.  All ten `S1` cells in the representative row are therefore
+empty, and the accepted frontier is 70.  Do not request another `(1,1)`
+`S1` computation.  The next useful task is a proof of common-sign transport
+or a separately pinned cell in another row; `S0` and `S2` also remain live.
+
+Common-sign product transport is now PROVED, so no `S1` computation in any
+of the four common rows should be requested.  Exact component reduction
+shows that the reconstructed `c` and `m` coefficient triples are identical
+in all eight row/component pairs.  The rational and forced-loop `S1`
+systems are therefore coefficient-identical to the ten representative-row
+systems.  All forty `S1` cells are empty and the accepted frontier is 40,
+consisting of six `S0` and four `S2` cells per row.  This retirement applies
+only to product invariance; source-root, `q`, and interpolation tasks are not
+transported.
+
+The forced-colored `S2` cell is also retired in every common sign row.
+Forcing `sigma*cd=m` produces three seven-term equations; both cubic
+components reach the raw unit ideal after seven S-pairs.  The forced sign
+disappears and the all-row common-product identity transports the result.
+Do not request this cell.  The accepted frontier is 36: six `S0` and three
+`S2` cells per row.
+
+The forced-`EF` `S2` cell is retired in every common row as well.  Its
+denominator-cleared equations have seven terms and complete after 28
+S-pairs with `e^2=0` in both cubic components.  This contradicts the
+required nonzero outside representative, so it is a guard-saturated
+deletion rather than a raw unit ideal.  The accepted frontier is 32: six
+`S0` and two `S2` cells per row.
+
+The forced-`DF` `S2` cell is retired in every common row.  Its three
+seven-term equations complete after 28 S-pairs with both `d^2=0` and
+`e^2=0` in each cubic component, contradicting the forced denominator guard
+`d!=0`.  This is guard-saturated, not raw-unit.  The accepted frontier is
+28: six `S0` and one forced-loop `S2` cell per row.
+
+The forced-loop `S2` cell is retired in every common row, completing the
+`S2` product close.  Once `-e^2=m` is forced, all six residual products form
+three signed pairs, so no quadratic extension is needed.  The three
+seven-term equations reach the raw unit ideal after seven S-pairs in both
+cubic components.  Do not request any `S2` product cell.  The accepted
+frontier is 24, all six `S0` cells in each common row.
+
+Both forced-colored `S0` parity cells are retired in every common row.
+Their three equations have eleven terms and reach the raw unit ideal after
+29 S-pairs for both parities and both cubic components.  The accepted
+frontier is 16: two forced-`EF` and two forced-internal `S0` cells per row.
+
+Both forced-`EF` `S0` parity cells are retired in every common row.  Their
+denominator-cleared twelve-term equations complete after 190 S-pairs with
+`e^2=0` in all four parity/component runs, contradicting `e!=0`.  The
+accepted frontier is eight: only two forced-internal parity cells per row.
+
+Both forced-internal `S0` parity cells are retired in every common row.
+Their fourteen-term equations complete after 406 S-pairs with `f=0` in all
+four parity/component runs, contradicting the nonzero outside guard.  This
+closes all `24+40+16=80` invariant-product cells for common orbit
+`[9,10,12,13]`.  Do not request another product, q-placement, or
+interpolation task for this orbit; determine the next live common orbit.
+
+One local pilot has already been attempted and must not be interpreted as a
+survivor.  It used common signs `(+,+)`, `S1` signs
+`(alpha,beta,gamma,delta)=(1,-1,-1,1)`, forced `DE=m`, and residual pairs
+
+```text
+(CE,DF),       (CF,-EF),       (DD,EF).
+```
+
+The six common basis equations plus four outside equations reached the
+60-second `ramguard tiny` cap before producing a Groebner basis.  No local
+or Modal fleet is authorized.
+
+An external run should shard one symmetry-reduced
+`(common-sign row, signed skeleton cell, forced edge, residual matching)`
+per task.  Every task must:
+
+1. print its identifiers and equation degrees before elimination;
+2. enforce a declared wall and memory cap and emit deterministic partial
+   status on timeout;
+3. return a compact unit-ideal certificate, or a guarded survivor ideal with
+   dimension, basis, and all denominator/distinctness norms;
+4. keep product-level survivors separate from outside sum and full
+   interpolation claims; and
+5. include an independently replayable reduction or multiplication-matrix
+   audit before any DAG node is promoted.
+
+Prefer a CAS with efficient finite-field quotient and elimination support
+over generic SymPy Groebner.  A pilot should use one task only; estimate its
+cost from that result before requesting parallel capacity.

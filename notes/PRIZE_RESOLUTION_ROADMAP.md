@@ -12663,3 +12663,1060 @@ resource note:            generic four-variable Groebner exceeded 60 seconds;
 next route-deciding step: compile the forced outside mate and invariant
                           product cells for X2,N1,L1
 ```
+
+### Work-cycle burn-down: constrained and complete 433 product exclusion
+
+```text
+starting local pin:       8b5ab50b (M2/M3 product exclusion)
+ending local theorem pin: current constrained 433 PROVED compiler/exclusion
+canonical prize pin:      48037b6172f6f2959c2596e64a7b61c34f81c38e
+node/workboard attacked:  K3 / negative 433 constrained X2/N1/L1 cells
+result:                   PROVED deletion of all 30 constrained cells and
+                          therefore the complete (4,3,3) product skeleton
+DAG delta:                +2 PROVED background nodes, +7 req, +2 ev edges
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; one complete skeleton closed)
+exact compiler:           three rank-eight quotient algebras; three forced
+                          products; three nonsingular product involutions
+matching compiler:        five residual forms x 15 matchings = 75 universal
+                          templates shared with the M2/M3 theorem
+primary certificate:      450/450 sign/base/template obstructions are units
+                          by quadratic norm and degree-four gcd
+independent audit:        alternate projection for all templates; 450/450
+                          multiplication matrices have rank eight
+433 frontier:             X2/N1/L1 30 -> 0 cells; complete skeleton empty
+new assumptions:          none in deployed characteristic
+Modal status:             no launch and no cost
+resource note:            DF/EF audits partitioned into five-matching shards;
+                          every process completed below the 60-second limit
+canonical coordination:  WAVE-36 has integrated the branch through 8b5ab50b;
+                          merge its audit/normalization after banking this step
+next route-deciding step: recompute the live negative-coordinate skeleton
+                          census after deleting both 442 and 433
+```
+
+### Work-cycle burn-down: negative one-loop product-q weld
+
+```text
+starting local pin:       51d0d975 (WAVE-36 merge after complete 433 close)
+ending local theorem pin: current one-loop PROVED product-q weld
+canonical prize pin:      48037b6172f6f2959c2596e64a7b61c34f81c38e
+node/workboard attacked:  K3 / remaining negative-coordinate census
+result:                   PROVED common two-equation interface for both
+                          one-loop skeletons
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact compiler only)
+live negative skeletons:  one zero-loop 433; one-loop 442; one-loop 433
+exact identity:           w_s=q_s/(p_h-p_s)=D(h)C(s)/Delta with deg C<=1
+replacement gate:         four-row affine-line rank <=2; two cleared 3 x 3
+                          determinants are necessary and sufficient
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: compile the signed one-loop common-K atlases using
+                          the two scalar welds; keep zero-loop separate
+```
+
+### Work-cycle burn-down: negative zero-loop product-q weld
+
+```text
+starting local pin:       8a8169eb (one-loop product-q weld)
+ending local theorem pin: current zero-loop PROVED product-q weld
+canonical prize pin:      48037b6172f6f2959c2596e64a7b61c34f81c38e
+node/workboard attacked:  K3 / remaining negative zero-loop 433 row
+result:                   PROVED two-equation common-K interface
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact compiler only)
+exact identity:           v_s=q_sD(s) is a quadratic evaluation in s
+replacement gate:         five-row rank <=3; two 4 x 4 determinants after
+                          three fixed interpolation anchors
+combined frontier:        all three live negative skeletons now require two
+                          scalar q welds after product reconstruction
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: compile signed common-K atlases, beginning with
+                          one-loop 442 and preserving all source-root signs
+```
+
+### Work-cycle burn-down: one-loop 442 loop-singleton atlas
+
+```text
+starting local pin:       d5b71b39 (zero-loop product-q weld)
+ending local theorem pin: current aligned classifier/crossed exclusion
+canonical prize pin:      16c2e92f (coordination note after WAVE-36)
+node/workboard attacked:  K3 / negative one-loop 442 common-K atlas
+result:                   PROVED complete classification of both
+                          loop-singleton matching orbits
+DAG delta:                +2 PROVED background nodes, +4 req, +2 ev edges
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase classification)
+symmetry reduction:       15 matching cells -> six orbits under B/C sign
+                          swaps; all four root-sign classes normalized
+aligned orbit:            exactly two guarded finite families, one cubic-
+                          root and one two-point twelfth-root locus
+crossed orbit:            empty by resultant -2(b^2-1)
+one-loop 442 frontier:    loop-singleton sector complete; four matching
+                          orbits with a nonloop singleton remain
+new assumptions:          none in deployed characteristic
+Modal status:             no launch and no cost
+resource note:            monolithic saturation was rejected at 60 seconds;
+                          sparse factor routing gives sub-second certificates
+next route-deciding step: apply the outside paired-product gate to the two
+                          finite families while classifying the four orbits
+```
+
+### Work-cycle burn-down: one-loop 442 outside skeletons
+
+```text
+starting local pin:       654bf610 (loop-singleton common-K atlas)
+ending local theorem pin: current one-loop 442 PROVED edge classifier
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / one-loop 442 complementary source records
+result:                   PROVED exhaustive three-orbit outside graph census
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact compiler only)
+ordered census:           12 degree solutions -> orbit sizes 3,3,6
+outside loop budget:      at most one, from the remaining linear factor of
+                          A_1 after its common-loop root
+skeletons:                loop-free split; split plus uncolored loop;
+                          concentrated colored plus loop on another pair
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: compile paired products for the two finite common
+                          families over these three skeletons and eta choices
+```
+
+### Work-cycle burn-down: one-loop 442 aligned outside products
+
+```text
+starting local pin:       7e26b12a (one-loop 442 outside skeleton census)
+ending local theorem pin: current aligned outside-product router
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / aligned one-loop 442 complement products
+result:                   PROVED exact product routing over S0,S1,S2
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase routing)
+forced involution:        negation, from common pairs (b,-b),(c,-c)
+S0:                       deleted universally
+S1:                       two forced singleton-edge branches, with quartic
+                          d^4=-alpha beta gamma delta b^2 c^2
+S2:                       one forced-loop branch -e^2=b^2
+survivor evidence:        guarded F_73 product witnesses for S1 and S2
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: test the three retained branches against the
+                          one-loop q weld/full interpolation; classify the
+                          four nonloop-singleton common matching orbits
+```
+
+### Work-cycle burn-down: one-loop 442 opposite-pair common orbit
+
+```text
+starting local pin:       8c9a8135 (aligned outside-product router)
+ending local theorem pin: current opposite-pair exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / one-loop 442 nonloop singleton atlas
+result:                   PROVED complete deletion of cells [11,14]
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase deletion)
+product reduction:        one equation linear in c; denominator-zero branch
+                          forces r^4=1 and a source-label collision
+q reduction:              four sign rows factor into guarded terms, linear
+                          label collisions, and r^2=+/-i
+final contradiction:      r^2=+/-i forces c=1 in the product equation
+common-atlas frontier:    three nonloop-singleton orbits remain
+new assumptions:          none in deployed characteristic
+Modal status:             no launch and no cost
+next route-deciding step: inspect cells [3,6], [4,5,7,8], and
+                          [9,10,12,13] for the next sparse q factor
+```
+
+### Work-cycle burn-down: one-loop 442 nonloop cubic gate
+
+```text
+starting local pin:       2f006548 (opposite-pair orbit exclusion)
+ending local theorem pin: current nonloop-singleton cubic-root gate
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / one-loop 442 cells [9,10,12,13]
+result:                   PROVED four sign-dependent cubic root rows
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase reduction)
+product reduction:        regular rational reconstruction of c; singular
+                          denominator branch deleted by a label collision
+q reduction:              one weld fixes r to a printed degree-three row
+survivor evidence:        guarded F_41 full common-K witness
+common-atlas frontier:    cubic quotient solve plus orbits [3,6] and
+                          [4,5,7,8]
+new assumptions:          none in deployed characteristic
+Modal status:             no launch and no cost
+resource note:            a broader small-field scan was stopped at the
+                          60-second local cap after recording partial rows
+next route-deciding step: reduce the remaining common equation pair in the
+                          cubic quotient or find a shorter factor in [3,6]
+```
+
+### Work-cycle burn-down: one-loop 442 nonloop degree-12 gate
+
+```text
+starting local pin:       ecc2e172 (nonloop cubic-root gate)
+ending local theorem pin: current nonloop degree-12 b gate
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / cells [9,10,12,13] finite common solve
+result:                   PROVED explicit degree-12 b condition
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase reduction)
+certificate:              direct t-resultant then cubic r-resultant; no
+                          singleton leading coefficient is inverted
+resultant:                -2^56 b^24(b-1)^12(b+1)^12 G(b)
+raw common bound:         at most 72 (r,b,t) triples per sign row
+survivor evidence:        F_41 witness b=10 lies on the sextic factor
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: apply outside products to this finite quotient or
+                          classify common orbit [3,6]
+```
+
+### Work-cycle burn-down: one-loop 442 finite-orbit involution
+
+```text
+starting local pin:       af009831 (nonloop degree-12 common gate)
+ending local theorem pin: current explicit involution compiler
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / cells [9,10,12,13] outside interface
+result:                   PROVED unique involution and forced singleton mate
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase compiler)
+involution determinant:   2b^2(b-1)(b+c)(b^2-c), entirely guarded
+outside reduction:        one forced value plus three bilinear Phi pairs
+template bound:           7*15=105 per skeleton before symmetry
+new assumptions:          none
+Modal status:             no launch and no cost
+resource note:            generic Groebner attempts for [3,6] and
+                          [4,5,7,8] hit the 60-second local cap and stopped
+next route-deciding step: enumerate the 105 matching templates over the
+                          finite common quotient and delete by exact norms
+```
+
+### Work-cycle burn-down: one-loop 442 sextic quotient
+
+```text
+starting local pin:       31e4ce78 (finite-orbit involution compiler)
+ending local theorem pin: current sextic common-quotient classifier
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / cells [9,10,12,13] factor shards
+result:                   PROVED two cubic-factor deletions and rank-six
+                          compilation of the sole live sextic factor
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase classification)
+cubic factors:            both force t^2=-r^2 in all four sign rows
+live quotient:            S(b)=b^6-2b^5+7b^4-8b^3+7b^2-2b+1
+standard basis:           {1,b,b^2,r,br,t}, rank six
+c denominator norm:       2^19 in every sign row
+new assumptions:          none in deployed characteristic
+Modal status:             no launch and no cost
+resource note:            the unsplit degree-12 ideal hit 60 seconds; the
+                          degree-3/3/6 shards completed within policy
+next route-deciding step: reduce forced-value outside templates in the
+                          four rank-six sextic quotients
+```
+
+### Work-cycle burn-down: one-loop 442 sextic mate coordinates
+
+```text
+starting local pin:       e8534c31 (sextic common-quotient classifier)
+ending local theorem pin: current sextic mate-coordinate compiler
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / finite outside forced-value interface
+result:                   PROVED denominator-free c and mate coordinates
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase compiler)
+denominator norms:        Norm(D_c)=2^19; Norm(D_m)=652=4*163
+representative output:    six small Gaussian coordinate coefficients for
+                          each of c and the forced mate m
+new assumptions:          none in deployed characteristic
+Modal status:             no launch and no cost
+next route-deciding step: screen forced-value equations in S0,S1,S2 before
+                          expanding residual involution matchings
+```
+
+### Work-cycle burn-down: one-loop 442 outside-template pilot
+
+```text
+starting local pin:       35950faf (sextic mate-coordinate compiler)
+ending local theorem pin: no new theorem; bounded route decision recorded
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / first exact S1 outside template
+pilot cell:               common signs (+,+); S1 edge signs (+,-,-,+);
+                          forced DE; pairs (CE,DF),(CF,-EF),(DD,EF)
+result:                   six common basis equations plus four outside
+                          equations hit the 60-second local cap
+mathematical conclusion:  none; timeout is not evidence of survival
+resource decision:        no local sweep and no Modal launch
+count correction:         105 matchings per fixed signed skeleton cell;
+                          raw edge-sign counts are S0=8,S1=16,S2=1
+external handoff:         PRIZE_COMPUTE_REQUESTS records exact sharding,
+                          partial output, and certificate requirements
+next route-deciding step: derive target-sign orbit reduction by hand, or
+                          shard exact templates on contributor compute
+```
+
+### Work-cycle burn-down: one-loop 442 outside sign orbits
+
+```text
+starting local pin:       f6f41129 (outside compute handoff)
+ending local theorem pin: current outside sign-orbit classifier
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / signed outside skeleton cells
+result:                   PROVED exact five-cell sign quotient per common row
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact combinatorial classifier)
+S0:                       two size-four orbits indexed by alpha beta gamma
+S1:                       two size-eight orbits indexed by
+                          alpha beta gamma delta
+S2:                       one cell
+template cap:             525 per common row; 2100 over four common rows,
+                          before unsigned skeleton automorphisms
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: quotient the 105 templates by the residual
+                          E/F skeleton automorphisms in S0 and S1
+```
+
+### Work-cycle burn-down: one-loop 442 outside template orbits
+
+```text
+starting local pin:       43bcc432 (outside sign-orbit classifier)
+ending local theorem pin: current outside template-orbit classifier
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / forced-record and matching symmetries
+result:                   PROVED exact canonical template census
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact combinatorial classifier)
+raw/canonical:            S0 840/64; S1 1680/114; S2 105/23
+accepted cap:             201 per common sign row; 804 over four rows
+orbit audit:              weighted orbit sizes recover all 2625 raw rows
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: emit deterministic representatives for the 201
+                          orbits and shard only those on external compute
+```
+
+### Work-cycle burn-down: one-loop 442 binary-sextic invariance
+
+```text
+starting local pin:       e74cf069 (outside template-orbit classifier)
+ending local theorem pin: current binary-sextic invariance compiler
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / residual matching elimination
+result:                   PROVED invariant-form equivalence and forced-cell
+                          orbit census
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase compiler)
+equivalence:              three involution pairs iff residual binary sextic
+                          is projectively invariant
+forced cells:             S0=6, S1=10, S2=4 per common row
+accepted frontier:        20 per row; 80 across four sextic rows
+superseded audit:         201/804 residual matching orbits remain correct
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: compile coefficient-invariance equations for one
+                          canonical cell and time one external CAS pilot
+```
+
+### Work-cycle burn-down: one-loop 442 sextic eigenvalue
+
+```text
+starting local pin:       061ac3ad (binary-sextic invariance compiler)
+ending local theorem pin: current sextic eigenvalue compiler
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / residual product invariance
+result:                   PROVED fixed eigenvalue and rank-three linear test
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase compiler)
+eigenvalue:               lambda=Delta^3; negative branch has fixed roots
+coefficient system:       7 division-free equations of rank 3
+accepted workload:        80 cells times 3 independent scalar conditions
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: emit one canonical cell's residual coefficients
+                          and reduce the rank-three equations exactly
+```
+
+### Work-cycle burn-down: one-loop 442 uniform sextic rows
+
+```text
+starting local pin:       9b79a7f8 (sextic eigenvalue compiler)
+ending local theorem pin: current uniform-row selector
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / finite common-quotient interface
+result:                   PROVED E_0,E_1,E_2 are uniform in all sign rows
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase compiler)
+unit minor:               rows=(0,1,2), columns=(0,1,2)
+deployed norm:            1133299039 mod 2130706433 in all four rows
+accepted workload:        forced mate plus E_0,E_1,E_2 per cell
+new assumptions:          none
+Modal status:             no launch and no cost
+next route-deciding step: compile and reduce one canonical S1 forced-DE
+                          residual sextic
+```
+
+### Work-cycle burn-down: one-loop 442 S1 product route cut
+
+```text
+starting local pin:       5c795ad2 (uniform sextic rows)
+ending local theorem pin: current S1 forced-DE F41 witness
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / first canonical outside product cell
+result:                   PROVED guarded product-invariant F41 realization
+DAG delta:                +1 PROVED background node, +4 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact route-cut fixture)
+witness:                  d=15, e=7, f=18; forced DE=m=18
+residual pairs:           (35,24), (33,38), (21,3)
+finite census:            1 guarded survivor among 40^2 nonzero (d,s)
+route decision:           no characteristic-independent product-only cut
+new assumptions:          none; scope is explicitly F41
+Modal status:             no launch and no cost
+next route-deciding step: solve the deployed forced-mate plus E_0,E_1,E_2
+                          system, then compile seven-fiber q placement
+```
+
+### Work-cycle burn-down: one-loop 442 first deployed cell
+
+```text
+starting local pin:       5efc1a29 (S1 F41 product route cut)
+ending local theorem pin: current deployed S1 forced-DE exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / first deployed canonical outside cell
+result:                   PROVED raw product-invariance ideal is the unit ideal
+DAG delta:                +1 PROVED background node, +4 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase deletion)
+sparse system:            3 equations, 25 (d,s) monomials each
+common decomposition:     two irreducible cubic fields of total rank 6
+certificate:              unit after 79 S-pairs in each component
+accepted frontier:        79 cells, down from 80
+resource path:            sparse quotient arithmetic; 17 seconds/component
+Modal status:             no launch and no cost
+next route-deciding step: replay one symmetry-adjacent canonical cell or
+                          prove a transport on common/outside sign rows
+```
+
+### Work-cycle burn-down: one-loop 442 opposite S1 parity
+
+```text
+starting local pin:       c0a43911 (first deployed S1 forced-DE exclusion)
+ending local theorem pin: current opposite-parity exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / second forced-DE parity cell
+result:                   PROVED raw product-invariance ideal is unit
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase deletion)
+factor change:            dX+cmZ becomes dX-cmZ
+certificate:              unit after 79 S-pairs in both cubic components
+accepted frontier:        78 cells, down from 79
+common sign scope:        only (epsilon_1,epsilon_2)=(1,1)
+Modal status:             no launch and no cost
+next route-deciding step: another forced-record type in the same common row
+                          or a proved common-sign transport
+```
+
+### Work-cycle burn-down: one-loop 442 forced colored cells
+
+```text
+starting local pin:       693f6b98 (both forced-DE parity deletions)
+ending local theorem pin: current forced-colored parity exclusions
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / two forced-CE/CF parity cells
+result:                   PROVED both raw product ideals are unit
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; two exact subcase deletions)
+sparse systems:           3 equations, 23 (d,f) monomials each
+certificates:             unit after 56 S-pairs in all 4 parity/components
+representative S1 row:    4 of 10 cells deleted
+accepted frontier:        76 cells, down from 78
+Modal status:             no launch and no cost
+next route-deciding step: rational forced-EF type or common-sign transport
+```
+
+### Work-cycle burn-down: one-loop 442 tau-plus forced EF
+
+```text
+starting local pin:       e819e7c4 (forced-colored deletions)
+ending local theorem pin: current tau-plus forced-EF exclusions
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / two forced-EF sign cells
+result:                   PROVED both guarded product cells are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; two exact subcase deletions)
+sparse systems:           3 equations, 19 (d,e) monomials each
+certificates:             completed basis contains e after 435 S-pairs
+deletion type:            guard saturation, not raw unit ideal
+accepted frontier:        74 cells, down from 76
+Modal status:             no launch and no cost
+next route-deciding step: opposite-parity forced-EF cells
+```
+
+### Work-cycle burn-down: one-loop 442 tau-minus forced EF
+
+```text
+starting local pin:       e9ab426d (tau-plus forced-EF exclusions)
+ending local theorem pin: current tau-minus forced-EF exclusions
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / final two rational S1 cells in common row
+result:                   PROVED both guarded product cells are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; two exact subcase deletions)
+sparse systems:           3 equations, 17 (d,e) monomials each
+certificates:             completed basis contains e after 435 S-pairs
+representative S1 row:    8 of 10 cells deleted; 2 forced-loop remain
+accepted frontier:        72 cells, down from 74
+Modal status:             no launch and no cost
+next route-deciding step: split forced-loop quadratic extension
+```
+
+### Work-cycle burn-down: one-loop 442 forced-loop S1 cells
+
+```text
+starting local pin:       33a776a8 (tau-minus forced-EF exclusions)
+ending local theorem pin: current forced-loop S1 exclusions
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / final two S1 cells in common row (1,1)
+result:                   PROVED both raw product ideals are unit
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; two exact subcase deletions)
+field split:              two cubic common fields, then theta^2=-m
+nonsquare audit:          -m is nonsquare in both cubic components
+sparse systems:           3 equations, 17 (e,f) monomials each
+certificates:             unit after 57/55 S-pairs for delta=-1/+1
+representative S1 row:    all 10 cells deleted at product level
+accepted frontier:        70 cells, down from 72
+Modal status:             no launch and no cost
+next route-deciding step: prove common-sign transport, otherwise begin one
+                          explicitly pinned S0 or S2 representative cell
+```
+
+### Work-cycle burn-down: one-loop 442 S1 common-sign transport
+
+```text
+starting local pin:       102fbf9e (representative forced-loop exclusions)
+ending local theorem pin: current all-row S1 product transport
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / common root-sign transport
+result:                   PROVED all 40 S1 product cells are empty
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase transport)
+component identity:       exact c,m triples agree in all 8 row/components
+loop square class:        -m nonsquare in both components for every row
+transported certificates: 8 rational plus 2 forced-loop cells per row
+accepted frontier:        40 cells, down from 70
+remaining product cells:  S0=6 and S2=4 in each common sign row
+Modal status:             no launch and no cost
+next route-deciding step: compile one pinned S0 or S2 sparse system; product
+                          transport does not cover source q or interpolation
+```
+
+### Work-cycle burn-down: one-loop 442 S2 forced-colored cell
+
+```text
+starting local pin:       16607e14 (all-row S1 product transport)
+ending local theorem pin: current all-row S2 forced-colored exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / smallest remaining S2 forced-record orbit
+result:                   PROVED the cell is empty in all four common rows
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase deletion)
+residual system:          3 equations, 7 (e,f) monomials each
+certificates:             raw unit after 7 S-pairs in both components
+transport:                forced sign squares out; common b,c,m are uniform
+accepted frontier:        36 cells, down from 40
+remaining product cells:  S0=6 and S2=3 in each common sign row
+Modal status:             no launch and no cost
+next route-deciding step: another rational S2 forced record
+```
+
+### Work-cycle burn-down: one-loop 442 S2 forced EF
+
+```text
+starting local pin:       b42cb2f7 (all-row S2 forced-colored exclusion)
+ending local theorem pin: current all-row S2 forced-EF exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / rational S2 forced-EF orbit
+result:                   PROVED guard-empty in all four common rows
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase deletion)
+residual system:          3 equations, 7 (d,e) monomials each
+certificates:             completed basis contains e^2 after 28 S-pairs
+deletion type:            guard saturation, not raw unit ideal
+accepted frontier:        32 cells, down from 36
+remaining product cells:  S0=6 and S2=2 in each common sign row
+Modal status:             no launch and no cost
+next route-deciding step: rational S2 forced-DF cell
+```
+
+### Work-cycle burn-down: one-loop 442 S2 forced DF
+
+```text
+starting local pin:       a820697f (all-row S2 forced-EF exclusion)
+ending local theorem pin: current all-row S2 forced-DF exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / final rational S2 forced-record orbit
+result:                   PROVED guard-empty in all four common rows
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase deletion)
+residual system:          3 equations, 7 (d,e) monomials each
+certificates:             basis contains d^2,e^2 after 28 S-pairs
+deletion type:            guard saturation, not raw unit ideal
+accepted frontier:        28 cells, down from 32
+remaining product cells:  S0=6 and S2 forced-loop=1 per common sign row
+Modal status:             no launch and no cost
+next route-deciding step: S2 forced-loop quadratic extension
+```
+
+### Work-cycle burn-down: one-loop 442 S2 forced loop and S2 close
+
+```text
+starting local pin:       7fb1b41b (all-row S2 forced-DF exclusion)
+ending local theorem pin: current all-row S2 forced-loop / S2 close
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / final S2 forced-record orbit
+result:                   PROVED all 16 S2 product cells are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase close)
+root simplification:      e^2=-m; three residual full signed pairs
+residual system:          3 equations, 7 (d,f) monomials each
+certificates:             raw unit after 7 S-pairs in both components
+accepted frontier:        24 cells, down from 28
+remaining product cells:  S0=6 in each common sign row; S1=S2=0
+Modal status:             no launch and no cost
+next route-deciding step: first pinned rational S0 forced-record orbit
+```
+
+### Work-cycle burn-down: one-loop 442 S0 forced colored
+
+```text
+starting local pin:       5bea7700 (complete S2 product close)
+ending local theorem pin: current all-row S0 forced-colored exclusions
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / first S0 forced-record type, both parities
+result:                   PROVED all 8 cells are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase deletion)
+residual system:          3 equations, 11 (d,f) monomials each
+certificates:             raw unit after 29 S-pairs in all 4 runs
+transport:                exact common b,c,m identity
+accepted frontier:        16 cells, down from 24
+remaining product cells:  S0 forced-EF=2 and forced-internal=2 per row
+Modal status:             no launch and no cost
+next route-deciding step: S0 forced-EF parity pair
+```
+
+### Work-cycle burn-down: one-loop 442 S0 forced EF
+
+```text
+starting local pin:       f23b2b89 (all-row S0 forced-colored exclusions)
+ending local theorem pin: current all-row S0 forced-EF exclusions
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / second S0 forced-record type, both parities
+result:                   PROVED all 8 cells are guard-empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase deletion)
+residual system:          3 equations, 12 (d,e) monomials each
+certificates:             basis contains e^2 after 190 S-pairs
+deletion type:            guard saturation on e!=0
+accepted frontier:        8 cells, down from 16
+remaining product cells:  S0 forced-internal=2 per common sign row
+Modal status:             no launch and no cost
+next route-deciding step: final S0 forced-internal parity pair
+```
+
+### Work-cycle burn-down: one-loop 442 final S0 / 80-cell product close
+
+```text
+starting local pin:       0d64c65f (all-row S0 forced-EF exclusions)
+ending local theorem pin: current final S0 / common-orbit product close
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / final S0 type and full invariant frontier
+result:                   PROVED all 80 product cells are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-orbit subcase close)
+residual system:          3 equations, 14 (d,f) monomials each
+certificates:             basis contains f after 406 S-pairs in all 4 runs
+cell accounting:          S0=24, S1=40, S2=16; all deleted
+accepted frontier:        0 cells, down from 8 (and from original 80)
+scope closed:             common orbit [9,10,12,13], nonloop singleton
+obsolete stages:          product matching, outside q, full interpolation
+Modal status:             no launch and no cost
+next route-deciding step: inspect other one-loop 442 common matching orbits
+```
+
+### Work-cycle burn-down: one-loop 442 cells 3/6 finite classifier
+
+```text
+starting local pin:       c80e4744 (cells 9/10/12/13 product close)
+ending local theorem pin: current cells 3/6 finite common classifier
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / AB-singleton one-loop 442 common orbit
+result:                   PROVED exact 16-packet deployed common atlas
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact subcase classification)
+sparse route:             product reconstructs c; first q weld is linear t
+finite equations:         r^2=-epsilon_2*i and 2b^2+3b+2=0
+converse:                 4 guarded packets per sign row, 16 total
+orbit status:             finite and live, not deleted
+Modal status:             no launch and no cost
+next route-deciding step: compile its product involution/outside mate;
+                          common orbit [4,5,7,8] remains unclassified
+```
+
+### Work-cycle burn-down: cells 3/6 product involution
+
+```text
+starting local pin:       31b5df69 (cells 3/6 finite common classifier)
+ending local theorem pin: current cells 3/6 product involution compiler
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / finite AB-singleton outside product action
+result:                   PROVED unique involution and forced outside mate
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact product compiler)
+quadratic collapse:       4c^2=5b+6 with 2b^2+3b+2=0
+determinant:              four common-product guard factors
+forced mate:              m=(18-5b)/22; denominator resultant 176
+outside interface:        one m plus three involution pairs
+Modal status:             no launch and no cost
+next route-deciding step: compile S0/S1/S2 product templates over the
+                          quadratic b algebra
+```
+
+### Work-cycle burn-down: cells 3/6 S2 product close
+
+```text
+starting local pin:       820c9ab2 (cells 3/6 product involution)
+ending local theorem pin: current cells 3/6 complete S2 exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / concentrated-colored outside skeleton
+result:                   PROVED all S2 product cells are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact skeleton deletion)
+sparse systems:           3 equations, 7 monomials in every cell
+raw units:                forced colored and forced loop, 7 S-pairs
+guarded deletions:        forced DF and EF, bases contain d^2/e^2
+transport:                both b roots checked; c sign squares out
+remaining product cells:  S0=6 and S1=10 canonical cells
+Modal status:             no launch and no cost
+next route-deciding step: bounded S0/S1 sparse passes
+```
+
+### Work-cycle burn-down: cells 3/6 S0 product close
+
+```text
+starting local pin:       d2f2d0d8 (cells 3/6 complete S2 exclusion)
+ending local theorem pin: current cells 3/6 complete S0 exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / loop-free split-colored skeleton
+result:                   PROVED all 6 canonical S0 cells are empty
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact skeleton deletion)
+raw units:                forced colored, 11 terms, 29 S-pairs
+guarded deletions:        forced EF/internal, 190/406 S-pairs
+transport:                both b roots/parities checked; c sign gauged
+remaining product cells:  exactly 10 canonical S1 cells
+Modal status:             no launch and no cost
+next route-deciding step: eight rational S1 cells, then two forced loops
+```
+
+### Work-cycle burn-down: cells 3/6 S1 and product-orbit close
+
+```text
+starting local pin:       222c9fa0 (cells 3/6 complete S0 exclusion)
+ending local theorem pin: current S1 / complete product-orbit close
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / final split-colored loop skeleton
+result:                   PROVED all 10 S1 and all 20 product cells empty
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-orbit product close)
+rational raw units:       internal/colored, 79/56 S-pairs
+guarded cells:            four forced EF, s=0 after 435 S-pairs
+forced loops:             -m square in base field; units after 55/57 pairs
+complete census:          S0=6, S1=10, S2=4; all empty
+obsolete stages:          outside q and full interpolation for [3,6]
+Modal status:             no launch and no cost
+next route-deciding step: classify sole common orbit [4,5,7,8]
+```
+
+### Work-cycle burn-down: cells 4/5/7/8 common-orbit exclusion
+
+```text
+starting local pin:       c7dd0eeb (cells 3/6 product-orbit close)
+ending local theorem pin: current cells 4/5/7/8 common exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / final nonloop-singleton common orbit
+result:                   PROVED all four cells are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-orbit deletion)
+product reconstruction:  c=-b(bA+B)/(bB+A)
+q split:                  rt+1 or rt-epsilon_1*i(r+t)-1
+branch resultants:        only source guards or b=1
+nonloop common atlas:     complete; every orbit deleted or product-closed
+Modal status:             no launch and no cost
+next route-deciding step: aligned loop-singleton surviving product cells;
+                          apply q weld, then full interpolation
+```
+
+### Work-cycle burn-down: aligned loop-singleton q close
+
+```text
+starting local pin:       c2442c67 (final nonloop common-orbit exclusion)
+ending local theorem pin: current aligned outside-loop q exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / aligned one-loop 442 product survivors
+result:                   PROVED S1-DE, S1-DF, and S2 are empty
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact aligned-orbit deletion)
+common q numerators:      (W-c)(W-i) and (W+b)(W-i)
+forced second loop:       W=i, product r or i*b
+contradiction:            S1 quartic ledger or S2 forced product
+obsolete stages:          six outside nonloop q rows and full interpolation
+Modal status:             no launch and no cost
+next route-deciding step: compose all six matching-orbit dispositions into
+                          a complete one-loop 442 exclusion
+```
+
+### Work-cycle burn-down: complete negative one-loop 442 close
+
+```text
+starting local pin:       1e9cf1ef (aligned outside-loop q exclusion)
+ending local theorem pin: current complete one-loop 442 composition
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / negative one-loop (4,4,2) packet
+result:                   PROVED complete packet is empty
+DAG delta:                +1 PROVED background node, +6 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact packet-subcase close)
+common coverage:          15/15 cells in six disjoint matching orbits
+terminal product closes:  20 AB cells and 80 AC-sextic cells
+terminal common closes:   aligned/crossed/mixed/opposite orbits
+remaining 442 work:       none in negative one-loop sector
+Modal status:             no launch and no cost
+next route-deciding step: re-census coordinate frontier, then attack
+                          negative one-loop 433 or zero-loop
+```
+
+### Work-cycle burn-down: one-loop 433 aligned cell exclusion
+
+```text
+starting local pin:       1abfb132 (complete negative one-loop 442 close)
+ending local theorem pin: current one-loop 433 cell-0 exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / negative one-loop (4,3,3) common atlas
+result:                   PROVED matching cell 0 is empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact packet-subcase deletion)
+q route:                  bc=+/-i, then eight linear r branches
+product route:            four quartics in b after x=t^2 elimination
+deployed obstruction:     eight irreducible quadratics, 4 nonsquare discs
+small-field recon:        F29 only cells 11/14 live; F41 frontier empty
+Modal status:             no launch and no cost
+next route-deciding step: exact classifiers for the five remaining
+                          one-loop 433 target-sign matching orbits
+```
+
+### Work-cycle burn-down: one-loop 433 crossed loop-singleton close
+
+```text
+starting local pin:       6cbc6b70 (one-loop 433 aligned cell exclusion)
+ending local theorem pin: current crossed cells 1/2 q exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / one-loop 433 loop-singleton sector
+result:                   PROVED cells 1 and 2 are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-subcase deletion)
+q equations:              linear in r after printed guard stripping
+q resultants:             b(c^2-1) or c(b^2-1)
+loop-singleton frontier:  cells 0/1/2 all empty
+Modal status:             no launch and no cost
+next route-deciding step: four nonloop-singleton matching orbits
+```
+
+### Work-cycle burn-down: one-loop 433 AB/AC finite classifier
+
+```text
+starting local pin:       92593656 (complete loop-singleton sector close)
+ending local theorem pin: current cells 3/6 finite classifier
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / one-loop 433 nonloop-singleton sector
+result:                   PROVED exact 16-packet common classification
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-subcase classifier)
+cell 3:                   4 sign rows x 2 deployed b roots = 8 packets
+cell 6:                   8 target-exchanged packets
+independent replay:       all product minors, q welds, and guards pass
+outside status:           open; packets are not deleted
+Modal status:             no launch and no cost
+next route-deciding step: outside-test these 16 packets; route common
+                          orbits [4,5,7,8], [9,10,12,13], [11,14]
+```
+
+### Work-cycle burn-down: one-loop 433 cells 3/6 complete exclusion
+
+```text
+starting local pin:       7413aaef (cells 3/6 common finite classifier)
+ending local theorem pin: current complete-product exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / one-loop 433 complete outside lift
+result:                   PROVED matching orbit [3,6] is empty
+DAG delta:                +2 PROVED background nodes, +6 req, +2 ev edges
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact packet-subcase deletion)
+outside skeletons:        12 labeled solutions / 3 orbits S0,S1,S2
+common target tuples:     2; forced mates 673740240,443602659
+product cells:            3360 + 6720 + 1680 = 11760 unit ideals
+independent replay:       reverse variable order, direct cell-6 transport
+outside q required:       no
+Modal status:             no launch and no cost
+next route-deciding step: common orbits [4,5,7,8], [9,10,12,13],
+                          and [11,14]
+```
+
+### Work-cycle burn-down: one-loop 433 mixed-orbit exclusion
+
+```text
+starting local pin:       5b048adc (cells 3/6 complete exclusion)
+ending local theorem pin: current cells 4/5/7/8 common exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / one-loop 433 mixed matching orbit
+result:                   PROVED orbit [4,5,7,8] is empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-subcase deletion)
+route:                    linear q, linear-c product, protected t^2
+terminal obstruction:     4 irreducible deployed-field cubics
+independent replay:       Frobenius/gcd gives 0 base-field roots
+outside work required:    none
+Modal status:             no launch and no cost
+next route-deciding step: common orbits [9,10,12,13] and [11,14]
+```
+
+### Work-cycle burn-down: one-loop 433 BC mixed-orbit exclusion
+
+```text
+starting local pin:       64a50a5e (cells 4/5/7/8 common exclusion)
+ending local theorem pin: current cells 9/10/12/13 common exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / one-loop 433 BC-singleton orbit
+result:                   PROVED orbit [9,10,12,13] is empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-subcase deletion)
+route:                    static/moving product-q elimination
+terminal factors:         4 false linear branches, 8 irreducible
+                          quadratics, 4 irreducible quintics
+independent replay:       Rabin irreducibility for all nonlinear factors
+outside work required:    none
+Modal status:             no launch and no cost
+next route-deciding step: final one-loop 433 common orbit [11,14]
+```
+
+### Work-cycle burn-down: complete negative one-loop 433 close
+
+```text
+starting local pin:       25ea6f3e (cells 9/10/12/13 exclusion)
+ending local theorem pin: current complete one-loop 433 exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / final one-loop 433 orbit and composition
+result:                   PROVED cells [11,14] empty; complete sector empty
+DAG delta:                +2 PROVED background nodes, +8 req, +2 ev edges
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; complete coordinate sub-sector close)
+terminal atlas:           [0]|[1,2]|[3,6]|[4,5,7,8]|
+                          [9,10,12,13]|[11,14]
+final orbit route:        16 guarded linear projections plus irreducible
+                          degree-2/4 factors
+composition:              15/15 cells have terminal deletion
+Modal status:             no launch and no cost
+next route-deciding step: re-census remaining coordinate sectors, then
+                          attack negative zero-loop or next live profile
+```
+
+### Work-cycle burn-down: zero-loop 433 first matching orbit
+
+```text
+starting local pin:       407c3a5e (complete one-loop 433 exclusion)
+ending local theorem pin: current zero-loop four-cell PROVED exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / negative zero-loop 433 common atlas
+result:                   PROVED cells [0,4,7,11] are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-subcase deletion)
+symmetry census:          six target-sign/exchange orbits on 15 cells
+exact route:              linear-c product, linear-x product, affine 2 x 2
+                          q system, protected t^2/r^2 equations
+terminal certificate:     degree-20 b eliminants plus Frobenius root gcds;
+                          every projected root is guarded or false
+branch audit:             lost c/x and singular-q loci exhausted in all
+                          four root-sign rows
+normalization repair:     Cramer ratios preserve relative constants; no
+                          independent monic scaling of numerator/denominator
+Modal status:             no launch and no cost
+next route-deciding step: classify zero-loop orbits [1,3,8,10],
+                          [2,5,6,9], [12], [13], [14]
+```
+
+### Work-cycle burn-down: zero-loop 433 second matching orbit
+
+```text
+starting local pin:       537411a3 (first zero-loop four-cell exclusion)
+ending local theorem pin: current second four-cell PROVED exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / negative zero-loop 433 common atlas
+result:                   PROVED cells [1,3,8,10] are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-subcase deletion)
+generic certificate:      three rootless sign rows; two false product
+                          projections in (+,+)
+branch audit:             all c/x/q singular branches guarded or false
+zero-loop frontier:       8/15 cells deleted; [2,5,6,9],[12],[13],[14]
+                          remain
+Modal status:             no launch and no cost
+next route-deciding step: classify orbit [2,5,6,9]
+```
