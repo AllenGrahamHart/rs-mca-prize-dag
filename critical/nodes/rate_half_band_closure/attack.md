@@ -3196,3 +3196,15 @@ with the prior orbit classifiers, all 15 matching cells are now exact: 64
 common packets total, 32 in `[2,5,6,9]`, 32 in `[12,13,14]`, and none in
 the remaining eight cells.  Next compile outside product involutions on the
 new 32 packets while continuing quotient/q work on the live old orbit.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router`
+applies the complete product gate to those 32 packets.  Their common
+involutions are respectively negation, reciprocal product `bc`, and
+reciprocal product `-bc`.  Exact extension-log enumeration deletes
+`12:{Z0,Z1}`, `13:{Z0,Z4}`, and `14:{Z0,Z4}` over every distinct product
+row.  All cell-12 `Z0` free families have target-square collision
+certificates.  The retained product frontier is exactly
+`12:{Z2,Z3,Z4}`, `13:{Z1,Z2,Z3}`, and `14:{Z1,Z2,Z3}`; each retained type
+has a guarded representative product certificate.  Only these nine
+cell/type pairs should enter quotient placement and outside q work.

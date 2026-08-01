@@ -13803,3 +13803,26 @@ Modal status:             no launch and no cost
 next route-deciding step: product-route the new 32 packets; in parallel,
                           quotient/q-route live Z0/Z1/Z4 on the old orbit
 ```
+
+### Work-cycle burn-down: BC-singleton product router
+
+```text
+starting local pin:       9b812132 (full common-atlas classifier)
+ending local theorem pin: current BC-singleton product router
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / negative zero-loop 433 outside products
+result:                   PROVED six cell/type product exclusions
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact outside-subcase deletion)
+cell 12 deleted:          Z0, Z1
+cell 13 deleted:          Z0, Z4
+cell 14 deleted:          Z0, Z4
+retained cell/types:      12:{Z2,Z3,Z4}; 13:{Z1,Z2,Z3};
+                          14:{Z1,Z2,Z3}
+field arithmetic:         exact logs modulo p^6-1
+family audit:             all deleted free families force collisions
+Modal status:             no launch and no cost
+next route-deciding step: reconstruct A1 and place eta/L^c only on the
+                          retained nine cell/type pairs and old Z0/Z1/Z4
+```

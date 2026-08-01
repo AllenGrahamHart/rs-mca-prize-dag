@@ -20493,6 +20493,28 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router",
+   "title": "KoalaBear m2 r4 coordinate negative zero-loop 433 BC-singleton product router",
+   "status": "PROVED",
+   "closure": "complete deployed-extension product exclusions for six outside cell/type pairs over all 32 BC-singleton common packets",
+   "statement": "Exact extension-group Smith enumeration deletes outside types Z0 and Z1 over cell 12, and types Z0 and Z4 over each of cells 13 and 14. Every free family in a deleted type has a collision certificate. The nine complementary cell/type pairs have guarded necessary product certificates and proceed to quotient/q constraints.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/check.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router/verify_live.py",
+    "experiments/prize_resolution/rate_half_kb_zero_loop_433_bc_product_probe.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
    "title": "KoalaBear m2 r4 coordinate negative one-loop 433 complete-edge skeleton classifier",
    "status": "PROVED",
@@ -40739,6 +40761,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
