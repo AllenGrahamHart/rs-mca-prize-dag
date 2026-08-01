@@ -3327,3 +3327,17 @@ these are heuristic route evidence only.  Use the observed maximum of two
 realized edges in 442 and four in 433 at `F_17` to search for a small
 unit-ideal subset of eliminants.  Every resultant candidate must still be
 back-substituted through the forbidden-root saturation.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler`
+supplies a lower-variable exact prefilter before that saturation.  Taking
+the norm over the four source rows incident to target `r` gives one
+quadratic-over-quadratic function `mathcal_N(r^2)` equal to the product of
+its four target neighbors.  The four placement tables show that a 433
+common kernel determines both colored outside labels `e,f`; each signed 433
+lane is reduced to three norm equations in the sole remaining target `d`.
+For 442 the kernel determines `ef`, followed by three norm equations in
+`d,e,f`.  Clear the norm denominators and reduce these compact systems
+modulo each common residual before requesting a seven-label Groebner basis.
+A norm survivor is not a packet: it must still reconstruct seven distinct
+guarded quotient roots in the original Vieta system.
