@@ -1,7 +1,7 @@
 # Frontier
 
-Classify placements of the sole common loop relative to the two quotient
-branch values and assign the four remaining common edges to the other
-common source fibers.  For each placement and `sigma`, compile the positive
-`24 x 8` complete-fiber Vieta matrix before considering a finite-field
-probe.
+The fifteen common placements and their unique quadratic product maps are
+compiled.  Apply the paired-product resultant interface separately to
+aligned `xi=eta` and near-aligned `xi in L^c`, then append the outside sum
+row at the forced missing mate.  A full `24 x 8` matrix remains the final
+audit, not the first elimination representation.

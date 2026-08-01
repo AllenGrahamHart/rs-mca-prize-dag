@@ -113,12 +113,14 @@ def compile_cell(cell_index, dump=False):
         for product, label in zip(products, labels)
     ]
     matrix = sp.Matrix(rows)
-    raw = tuple(
-        monic(matrix[:, [column for column in range(6) if column != omitted]].det(
+    kernel_cofactors = tuple(
+        (-1) ** omitted
+        * matrix[:, [column for column in range(6) if column != omitted]].det(
             method="domain-ge"
-        ), variables)
+        )
         for omitted in range(6)
     )
+    raw = tuple(monic(value, variables) for value in kernel_cofactors)
     source_guards = [
         labels[left] - labels[right]
         for left, right in itertools.combinations(range(5), 2)
@@ -180,6 +182,9 @@ def compile_cell(cell_index, dump=False):
     if dump:
         output["stripped_expressions"] = [str(value) for value in stripped]
         output["stripped_ledgers"] = stripped_ledgers
+        output["kernel_cofactor_expressions"] = [
+            str(sp.expand(value)) for value in kernel_cofactors
+        ]
     return output
 
 

@@ -20901,6 +20901,30 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "title": "KoalaBear m2 r4 positive 433-1a quadratic paired-product resultant interface",
+   "status": "PROVED",
+   "closure": "unique common quadratic product map, forced missing-mate equation, and exhaustive three-resultant outside-product ledger",
+   "statement": "Every principal positive 433-1a to O0b survivor has a unique quadratic rational product map. The singleton's missing mate forces one outside product, and the remaining six records satisfy three explicit quadratic resultants in an exhaustive 525-case ledger per common row and cycle sign. Resultant survival, outside sums, and route deletion remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_common_chart_probe.c",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_product_probe_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_product_singular_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_product_probe_result.md"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
    "title": "KoalaBear m2 r4 coordinate negative one-loop 433 complete-edge skeleton classifier",
    "status": "PROVED",
@@ -41477,6 +41501,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

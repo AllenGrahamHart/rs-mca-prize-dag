@@ -11140,3 +11140,48 @@ peak memory, wall time, and certificate size.  Estimate all eight tasks from
 that pilot before parallel launch.  If the pilot exceeds its declared cap,
 return the partial basis and do not retry at a larger cap without maintainer
 approval.
+
+## CR-KB-POS433-QPAIR: positive 433-1a quadratic outside-product systems
+
+**Status:** deferred algorithm/certificate request.  Do not launch a raw
+case fleet.  The exact interface is proved locally, but two representations
+of one aligned case already exhausted 130-second and 180-second caps.
+
+**Target:** the positive `433-1a -> O0b` route under
+`rate_half_band_closure`.
+
+**Pinned inputs:**
+
+- the global product-base rank certificate and its signed maximal cofactors;
+- the quadratic paired-product resultant interface, including the separate
+  `eta` and missing-mate `xi` choices;
+- the two signed `O0b` target lanes;
+- the exact fifteen-cell common Vieta atlas and four pivot charts.
+
+Each common row and cycle sign has a formal `5*7*15=525` outside-product
+ledger.  This is not the requested shard count.  A useful contribution must
+first compute the target-sign, duplicate-role, deck-orientation, and
+eta/xi/matching group action and print canonical orbit representatives.
+
+For one canonical representative:
+
+1. substitute the missing-mate product equation before elimination;
+2. impose the three quadratic resultants without introducing source-root
+   variables unless the resultant survivor must be lifted;
+3. append at least the outside sum row at `xi` before running a standard
+   basis;
+4. saturate all common/outside leading-support, source-label, target-pair,
+   and denominator guards;
+5. return a replayable unit certificate or a guarded lifted survivor with
+   all twelve original product/sum rows checked.
+
+**Known pilot boundary:** direct source-pair variables timed out after 130
+seconds in Modal run `ap-E6pJY7vJcqMmRTbdjiXkQ9`.  Three reduced quadratic
+resultants exhausted the 180-second function cap in
+`ap-ZAFf2iYtIe9hzMCa6lMD0g`.  These are failed algorithms, not survivors.
+
+**Cost gate:** estimate the symmetry-reduced orbit count and run one case
+with basis-size, peak-memory, wall-time, and partial-basis telemetry.  Do
+not fan out unless that pilot has a plausible total budget and improves on
+the known timeout.  Exact sparse elimination, triangular decomposition, or
+finite-algebra methods are preferred over generic lexicographic Groebner.

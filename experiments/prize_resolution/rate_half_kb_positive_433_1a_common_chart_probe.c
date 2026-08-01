@@ -117,6 +117,168 @@ static int leading_support_exists(
     return 1;
 }
 
+static int unique_kernel_vector(
+    int rows,
+    const int input[MAX_ROWS][COLS],
+    int vector[COLS]
+) {
+    int matrix[MAX_ROWS][COLS];
+    int pivots[COLS];
+    int pivot_column_for_row[COLS];
+    memcpy(matrix, input, sizeof(matrix));
+    int rank = rref(rows, matrix, pivots);
+    if (rank != COLS - 1) return 0;
+    int pivot_row = 0, free_column = -1;
+    for (int column = 0; column < COLS; ++column) {
+        if (pivots[column]) {
+            pivot_column_for_row[pivot_row++] = column;
+        } else {
+            free_column = column;
+        }
+    }
+    memset(vector, 0, COLS * sizeof(int));
+    vector[free_column] = 1;
+    for (int row = 0; row < rank; ++row) {
+        vector[pivot_column_for_row[row]] = mod_i64(-matrix[row][free_column]);
+    }
+    return 1;
+}
+
+static int evaluate_quadratic(const int coefficients[3], int point) {
+    return mod_i64(coefficients[0] + (int64_t)coefficients[1] * point
+                   + (int64_t)coefficients[2] * mul(point, point));
+}
+
+static int same_antipodal_pair(int left, int right) {
+    return left == right || left == mod_i64(-right);
+}
+
+static void build_product_pair_masks(
+    const int kernel[COLS],
+    const int common_labels[5],
+    uint64_t *pair_masks
+) {
+    memset(pair_masks, 0, (size_t)prime * prime * sizeof(uint64_t));
+    const int *denominator = kernel;
+    const int *numerator = kernel + 3;
+    int half = (prime - 1) / 2;
+    for (int point = 1; point <= half; ++point) {
+        int used = 0;
+        for (int index = 0; index < 5; ++index) {
+            if (same_antipodal_pair(point, common_labels[index])) {
+                used = 1;
+                break;
+            }
+        }
+        if (used) continue;
+        int opposite = mod_i64(-point);
+        int denominator_left = evaluate_quadratic(denominator, point);
+        int denominator_right = evaluate_quadratic(denominator, opposite);
+        if (!denominator_left || !denominator_right) continue;
+        int left = mul(evaluate_quadratic(numerator, point),
+                       inverse_table[denominator_left]);
+        int right = mul(evaluate_quadratic(numerator, opposite),
+                        inverse_table[denominator_right]);
+        uint64_t bit = UINT64_C(1) << (point - 1);
+        pair_masks[left * prime + right] |= bit;
+        pair_masks[right * prime + left] |= bit;
+    }
+}
+
+static int pair_records_recursive(
+    const int *values,
+    int count,
+    uint64_t used_source_pairs,
+    const uint64_t *pair_masks
+) {
+    if (count == 0) return 1;
+    int remaining[6];
+    for (int partner = 1; partner < count; ++partner) {
+        uint64_t available = pair_masks[values[0] * prime + values[partner]]
+                             & ~used_source_pairs;
+        if (!available) continue;
+        int used = 0;
+        for (int index = 1; index < count; ++index) {
+            if (index != partner) remaining[used++] = values[index];
+        }
+        while (available) {
+            uint64_t bit = available & (~available + 1);
+            if (pair_records_recursive(remaining, count - 2,
+                                       used_source_pairs | bit, pair_masks)) {
+                return 1;
+            }
+            available ^= bit;
+        }
+    }
+    return 0;
+}
+
+static uint64_t outside_product_completions(
+    int b,
+    int c,
+    int cycle_sign,
+    int singleton_label,
+    const int kernel[COLS],
+    const int common_labels[5],
+    uint64_t *pair_masks,
+    int example[8]
+) {
+    const int *denominator = kernel;
+    const int *numerator = kernel + 3;
+    int eta_label = mod_i64(-singleton_label);
+    int eta_denominator = evaluate_quadratic(denominator, eta_label);
+    if (!eta_denominator) return 0;
+    int mate = mul(evaluate_quadratic(numerator, eta_label),
+                   inverse_table[eta_denominator]);
+    build_product_pair_masks(kernel, common_labels, pair_masks);
+
+    uint64_t completions = 0;
+    for (int d = 1; d < prime; ++d) {
+        if (same_antipodal_pair(d, 1) || same_antipodal_pair(d, b)
+            || same_antipodal_pair(d, c)) continue;
+        for (int e = 1; e < prime; ++e) {
+            if (same_antipodal_pair(e, 1) || same_antipodal_pair(e, b)
+                || same_antipodal_pair(e, c) || same_antipodal_pair(e, d)) continue;
+            for (int f = 1; f < prime; ++f) {
+                if (same_antipodal_pair(f, 1) || same_antipodal_pair(f, b)
+                    || same_antipodal_pair(f, c) || same_antipodal_pair(f, d)
+                    || same_antipodal_pair(f, e)) continue;
+                int internal[5] = {
+                    mul(d, e), mod_i64(-(int64_t)d * e),
+                    mul(d, f), mod_i64(-(int64_t)d * f),
+                    mod_i64((int64_t)cycle_sign * e * f),
+                };
+                int colored[2] = {mul(b, e), mul(c, f)};
+                int passes = 0;
+                for (int eta_index = 0; eta_index < 5 && !passes; ++eta_index) {
+                    if (internal[eta_index] != mate) continue;
+                    int records[6], used = 0;
+                    for (int index = 0; index < 5; ++index) {
+                        if (index != eta_index) records[used++] = internal[index];
+                    }
+                    records[used++] = colored[0];
+                    records[used++] = colored[1];
+                    if (pair_records_recursive(records, 6, 0, pair_masks)) {
+                        passes = 1;
+                        if (example[0] < 0) {
+                            example[0] = b;
+                            example[1] = c;
+                            example[2] = d;
+                            example[3] = e;
+                            example[4] = f;
+                            example[5] = mate;
+                            example[6] = eta_index;
+                            example[7] = cycle_sign;
+                        }
+                    }
+                }
+                if (passes) ++completions;
+            }
+        }
+    }
+    return completions;
+}
+
 static void build_cells(int cells[15][5]) {
     int index = 0;
     for (int singleton = 0; singleton < 5; ++singleton) {
@@ -173,15 +335,18 @@ static void sum_row(int row[COLS], int label, int q_value) {
 }
 
 int main(int argc, char **argv) {
-    if (argc != 5) {
-        fprintf(stderr, "usage: %s PRIME CELL EPSILON1 EPSILON2\n", argv[0]);
+    if (argc != 5 && argc != 6) {
+        fprintf(stderr, "usage: %s PRIME CELL EPSILON1 EPSILON2 [CYCLE_SIGN]\n", argv[0]);
         return 2;
     }
     prime = atoi(argv[1]);
     int cell_index = atoi(argv[2]);
     int epsilon1 = atoi(argv[3]);
     int epsilon2 = atoi(argv[4]);
-    if (prime >= 256 || prime <= 5 || cell_index < 0 || cell_index >= 15) return 2;
+    int outside_mode = argc == 6;
+    int cycle_sign = outside_mode ? atoi(argv[5]) : 0;
+    if (prime >= 256 || prime <= 5 || (prime - 1) / 2 > 64
+        || cell_index < 0 || cell_index >= 15) return 2;
     for (int value = 1; value < prime; ++value) {
         inverse_table[value] = power(value, prime - 2);
     }
@@ -203,6 +368,13 @@ int main(int argc, char **argv) {
     uint64_t support_survivors = 0, zero_branch = 0;
     uint64_t pivot_counts[4] = {0, 0, 0, 0};
     uint64_t rank_histogram[9] = {0};
+    uint64_t outside_nonunique_kernel = 0;
+    uint64_t common_points_with_outside = 0;
+    uint64_t outside_target_completions = 0;
+    int outside_example[8] = {-1, -1, -1, -1, -1, -1, -1, -1};
+    uint64_t *pair_masks = outside_mode
+        ? calloc((size_t)prime * prime, sizeof(uint64_t)) : NULL;
+    if (outside_mode && !pair_masks) return 3;
 
     for (int b = 1; b < prime; ++b) {
         if (b == 1 || b == prime - 1) continue;
@@ -261,6 +433,20 @@ int main(int argc, char **argv) {
                         }
                     }
                     if (!pivot_mask) ++zero_branch;
+                    if (outside_mode) {
+                        int kernel[COLS];
+                        if (!unique_kernel_vector(10, matrix, kernel)) {
+                            ++outside_nonunique_kernel;
+                        } else {
+                            uint64_t completions = outside_product_completions(
+                                b, c, cycle_sign,
+                                labels[cells[cell_index][0]],
+                                kernel, labels, pair_masks, outside_example
+                            );
+                            outside_target_completions += completions;
+                            if (completions) ++common_points_with_outside;
+                        }
+                    }
                 }
             }
         }
@@ -271,6 +457,11 @@ int main(int argc, char **argv) {
         "\"iota\":%d,\"admissible\":%llu,\"base_rank_six\":%llu,"
         "\"rank_survivors\":%llu,\"support_survivors\":%llu,"
         "\"zero_branch\":%llu,\"pivot_counts\":[%llu,%llu,%llu,%llu],"
+        "\"outside_mode\":%d,\"cycle_sign\":%d,"
+        "\"outside_nonunique_kernel\":%llu,"
+        "\"common_points_with_outside\":%llu,"
+        "\"outside_target_completions\":%llu,"
+        "\"outside_example\":[%d,%d,%d,%d,%d,%d,%d,%d],"
         "\"rank_histogram\":[%llu,%llu,%llu,%llu,%llu,%llu,%llu,%llu,%llu]}\n",
         prime, cell_index, epsilon1, epsilon2, iota,
         (unsigned long long)admissible,
@@ -282,6 +473,14 @@ int main(int argc, char **argv) {
         (unsigned long long)pivot_counts[1],
         (unsigned long long)pivot_counts[2],
         (unsigned long long)pivot_counts[3],
+        outside_mode,
+        cycle_sign,
+        (unsigned long long)outside_nonunique_kernel,
+        (unsigned long long)common_points_with_outside,
+        (unsigned long long)outside_target_completions,
+        outside_example[0], outside_example[1], outside_example[2],
+        outside_example[3], outside_example[4], outside_example[5],
+        outside_example[6], outside_example[7],
         (unsigned long long)rank_histogram[0],
         (unsigned long long)rank_histogram[1],
         (unsigned long long)rank_histogram[2],
@@ -292,5 +491,6 @@ int main(int argc, char **argv) {
         (unsigned long long)rank_histogram[7],
         (unsigned long long)rank_histogram[8]
     );
+    free(pair_masks);
     return 0;
 }

@@ -14345,3 +14345,33 @@ exported strengthening:   total loop cap one across all 12 complete fibers;
 certificate replay:       34/34 hostile mutations rejected under tiny RAM
 review state:             DRAFT; K3 and the KoalaBear row remain open
 ```
+
+### Work-cycle theorem: positive 433-1a quadratic paired products
+
+```text
+starting local pin:       d8dc40e6 (global common product-base rank)
+ending local theorem pin: current quadratic paired-product interface
+node/workboard attacked:  K3 / positive 433-1a outside products
+result:                   PROVED exact necessary outside-product compiler
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+common product map:       unique quadratic ratio A0/A2 in every cell
+forced source label:      xi=-M, distinct from eta unless L=I
+outside case ledger:      5 eta choices * 7 xi records * 15 matchings
+                          = 525 cases per common row and cycle sign
+equations per case:       one missing-mate product equation plus three
+                          explicit quadratic resultants
+aligned finite evidence:  F13 0/48, F17 0/368, F29 48/1072 relaxed
+                          common/cycle survivors admit a completion
+F29 localization:         only role cells 5 and 12 survive; 160 target
+                          triples across the 48 common points
+Modal runs:               ap-GbxO9Tzy9FDXWd2iXX7urQ,
+                          ap-qsdj1fpjiAdp2fcONyLWT9,
+                          ap-AfDUnxANc4VDtbuKAv219S
+scope correction:         finite probe is aligned xi=eta only; no
+                          near-aligned or outside-sum conclusion
+compute boundary:         direct and reduced-resultant single-case
+                          Singular pilots timed out at 130/180 seconds;
+                          no raw Groebner fanout
+next route-deciding step: quotient eta/xi/matching symmetries and append
+                          the forced-mate sum row before exact elimination
+```
