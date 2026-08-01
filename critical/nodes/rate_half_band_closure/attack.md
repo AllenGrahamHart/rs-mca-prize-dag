@@ -2915,3 +2915,27 @@ and the exact `c`-sign transport are covered.  Hence all
 `S0=6,S1=10,S2=4` canonical product cells are empty and common orbit
 `[3,6]` is retired.  Do not run q or interpolation.  The sole
 unclassified one-loop 442 common orbit is now `[4,5,7,8]`.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion`
+deletes that final nonloop common orbit.  In a cell `4` representative,
+product reconstruction gives
+
+```text
+A=r^2t^2-1, B=r^2-t^2, c=-b(bA+B)/(bB+A),
+```
+
+and the first q weld splits into `Q0: rt+1=0` and
+`Q1: rt-epsilon_1*i(r+t)-1=0`.  For `Q0`, direct elimination has
+
+```text
+r^2(r^2+1)^2(r^2-1)^3
+  (r^2+epsilon_2*i)(r^2-epsilon_2*i)^3;
+```
+
+the final two factors force `b=1`.  For `Q1`, the resultant is
+`r^2(r+epsilon_1*i)(r+epsilon_1*epsilon_2)`.  Every root is therefore a
+source guard.  All four sign rows and cells `[4,5,7,8]` are empty.  The
+only remaining one-loop 442 work is the aligned loop-singleton family:
+its surviving product cells still require the q weld and full
+interpolation.

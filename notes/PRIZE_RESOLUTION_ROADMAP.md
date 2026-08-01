@@ -13476,3 +13476,23 @@ obsolete stages:          outside q and full interpolation for [3,6]
 Modal status:             no launch and no cost
 next route-deciding step: classify sole common orbit [4,5,7,8]
 ```
+
+### Work-cycle burn-down: cells 4/5/7/8 common-orbit exclusion
+
+```text
+starting local pin:       c7dd0eeb (cells 3/6 product-orbit close)
+ending local theorem pin: current cells 4/5/7/8 common exclusion
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / final nonloop-singleton common orbit
+result:                   PROVED all four cells are empty
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-orbit deletion)
+product reconstruction:  c=-b(bA+B)/(bB+A)
+q split:                  rt+1 or rt-epsilon_1*i(r+t)-1
+branch resultants:        only source guards or b=1
+nonloop common atlas:     complete; every orbit deleted or product-closed
+Modal status:             no launch and no cost
+next route-deciding step: aligned loop-singleton surviving product cells;
+                          apply q weld, then full interpolation
+```
