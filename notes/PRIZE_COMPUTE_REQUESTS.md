@@ -11161,9 +11161,18 @@ of one aligned case already exhausted 130-second and 180-second caps.
 - the exact fifteen-cell common Vieta atlas and four pivot charts.
 
 Each common row and cycle sign has a formal `5*7*15=525` outside-product
-ledger.  This is not the requested shard count.  A useful contribution must
-first compute the target-sign, duplicate-role, deck-orientation, and
-eta/xi/matching group action and print canonical orbit representatives.
+ledger.  This is not the requested shard count.  The residual target-sign
+quotient is now exact: after the signed-edge gauge, the faithful stabilizer
+has order two (`d -> -d`) and gives 39 aligned plus 228 near-aligned formal
+orbits per common row and cycle sign.  The sealed certificate prints all
+267 representatives.  The `EF` missing-mate subledger has 39 orbits; the
+current A/B templates are gauge partners and cover five, leaving 34 without
+target-free sum compilers.  Duplicate-role and common-root-sign quotients
+are not yet composed.
+
+A useful contribution must group these 267 representatives by
+target-monomial exponent lattice and compile a small complete family of
+target-free product-chain templates before selecting algebra shards.
 
 For one canonical representative:
 
@@ -11228,4 +11237,5 @@ A useful contributed run should therefore:
 5. return a replayable unit certificate or a guarded original-row witness.
 
 Do not rerun the ambient `dp` basis at a larger cap and do not fan out over
-the formal `525` cases before an exact symmetry quotient is printed.
+the 267 formal symmetry representatives.  First quotient their monomial
+exponent lattices and print the resulting target-free template families.

@@ -14455,6 +14455,44 @@ next route-deciding step: quotient the 525-case ledger by exact symmetries;
                           curve ring before any saturation or ambient basis
 ```
 
+### Work-cycle theorem: positive 433-1a outside-case symmetry quotient
+
+```text
+starting local pin:       2992611f (two target-free triangle templates)
+ending local theorem pin: current outside-case symmetry quotient
+node/workboard attacked:  K3 / positive 433-1a formal outside ledger
+result:                   PROVED exact residual target-gauge quotient
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+faithful stabilizer:      order two, induced by d -> -d
+aligned ledger:           75 labeled cases, 3 fixed, 39 orbits
+near-aligned ledger:      450 labeled cases, 6 fixed, 228 orbits
+total formal quotient:    267 orbits per common row and cycle sign
+missing-mate EF:          9 aligned + 30 near = 39 orbits
+template coverage:        A and B are gauge partners; together they cover
+                          1 aligned + 4 near = 5 EF orbits
+retained EF frontier:     34 formal orbits lack target-free sum compilers
+nonclaim:                 formal orbit survival is not algebraic survival;
+                          no alignment branch or route is deleted
+next route-deciding step: group the 267 representatives by target-monomial
+                          exponent lattice and compile a small complete
+                          family of target-free product-chain templates
+```
+
+### Upstream export: K3 positive coordinate reduction
+
+```text
+upstream PR:              przchojecki/rs-mca #1143 (draft)
+exported commit:          d4b8d5fa
+exported scope:           global product-base rank, unique common kernel,
+                          525-case necessary outside ledger, one-edge cuts,
+                          and the first two target-free triangle templates
+exact remote replay:      all three Singular unit cells passed in clean
+                          Modal app ap-Iz1TrNvOrldVFaJExtbKt8
+scope fence:              PR explicitly leaves 433-1a, K3, KoalaBear, and
+                          both Prize results open
+next export candidate:    the proved 267-orbit quotient after local audit
+```
+
 ### Work-cycle evidence: positive 433-1a common-curve boundary
 
 ```text

@@ -20989,6 +20989,28 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient",
+   "title": "KoalaBear m2 r4 positive 433-1a outside-case symmetry quotient",
+   "status": "PROVED",
+   "closure": "exact residual target-gauge quotient of the formal eta/xi/perfect-matching ledger",
+   "statement": "For each fixed positive 433-1a common row and cycle sign, the 525 formal outside eta/xi/matching cases have a faithful residual target-gauge group of order two and exactly 39 aligned plus 228 near-aligned orbits.  The EF missing-mate subledger has 39 orbits; the two current target-free templates are gauge partners and cover five.  Formal orbit survival is not algebraic realizability, and no route is deleted.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_case_symmetry.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_case_symmetry_result.json"
+   ]
+  },
+  {
    "id": "dli_c1_256_block_basis_factorization",
    "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
    "status": "PROVED",
@@ -41660,6 +41682,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

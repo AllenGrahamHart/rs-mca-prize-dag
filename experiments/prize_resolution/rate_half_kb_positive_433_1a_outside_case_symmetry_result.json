@@ -1,0 +1,5142 @@
+{
+  "gauge_stabilizer": {
+    "faithful_record_action_size": 2,
+    "global_sign_kernel_size": 2,
+    "nontrivial_action": "DE+<->DE-, DF+<->DF-, EF/BE/CF fixed",
+    "raw_vertex_sign_stabilizer_size": 4
+  },
+  "internal_eta_records": [
+    "DE+",
+    "DE-",
+    "DF+",
+    "DF-",
+    "EF"
+  ],
+  "ledger": {
+    "aligned": {
+      "fixed_cases": 3,
+      "labeled_cases": 75,
+      "orbits": 39
+    },
+    "near": {
+      "fixed_cases": 6,
+      "labeled_cases": 450,
+      "orbits": 228
+    },
+    "total": {
+      "labeled_cases": 525,
+      "orbits": 267
+    }
+  },
+  "missing_mate_EF": {
+    "aligned_labeled_cases": 15,
+    "aligned_orbits": 9,
+    "current_templates": {
+      "A_and_B_are_one_gauge_orbit": true,
+      "aligned_orbits": 1,
+      "near_orbits": 4,
+      "total_orbits": 5,
+      "uncovered_orbits": 34
+    },
+    "near_labeled_cases": 60,
+    "near_orbits": 30,
+    "total_orbits": 39
+  },
+  "nonclaims": [
+    "the 267 formal orbits are not algebraic survivor counts",
+    "duplicate-role and common-root-sign quotients are not composed here",
+    "the two current EF templates cover only five of 39 formal EF orbits",
+    "no outside system, alignment branch, 433-1a route, K3 row, or Prize result is closed"
+  ],
+  "payload_sha256": "c990fd69efd43b0b1d6ed548488e7d76fd26a36c6a9a1e987cf97613f4d3782f",
+  "records": [
+    "DE+",
+    "DE-",
+    "DF+",
+    "DF-",
+    "EF",
+    "BE",
+    "CF"
+  ],
+  "representatives": {
+    "aligned": [
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF-",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF-",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF-",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 1,
+        "xi": "EF"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 1,
+        "xi": "EF"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 1,
+        "xi": "EF"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      }
+    ],
+    "near": [
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF-",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF-",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF-",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DE+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF-"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "EF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "DF+",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "DF-",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "CF"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DE+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF-",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF-",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF-",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "BE",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "BE"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "CF"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "DF+"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 1,
+        "xi": "BE"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 1,
+        "xi": "BE"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF-",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "EF",
+            "CF"
+          ]
+        ],
+        "orbit_size": 1,
+        "xi": "BE"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "CF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "CF"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "BE"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 1,
+        "xi": "CF"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DE-"
+          ],
+          [
+            "DF+",
+            "EF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "DF-"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 1,
+        "xi": "CF"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF-",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF+"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF-",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "DF+"
+          ],
+          [
+            "EF",
+            "BE"
+          ]
+        ],
+        "orbit_size": 1,
+        "xi": "CF"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "EF"
+          ],
+          [
+            "DF+",
+            "BE"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "DF-"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "EF"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      },
+      {
+        "eta": "EF",
+        "matching": [
+          [
+            "DE+",
+            "EF"
+          ],
+          [
+            "DE-",
+            "BE"
+          ],
+          [
+            "DF+",
+            "DF-"
+          ]
+        ],
+        "orbit_size": 2,
+        "xi": "CF"
+      }
+    ]
+  },
+  "schema": "rate-half-kb-positive-433-1a-outside-case-symmetry-v1",
+  "scope": "formal outside eta/xi/matching cases per fixed common row and cycle sign; no algebraic realizability or route conclusion"
+}
