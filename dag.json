@@ -20582,6 +20582,27 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
+   "title": "KoalaBear m2 r4 positive coordinate loop-ramification gate",
+   "status": "PROVED",
+   "closure": "positive common-loop nonrepetition, ramification pins, and exact ten-orbit degree census",
+   "statement": "Every positive coordinate packet has a nonzero linear odd coefficient B_1 and uses each common antipodal target-edge type at most once. At most one loop is nonramified; every two-loop row uses a quotient branch value and every three-loop row uses both. The two degree profiles reduce exactly to ten orbits and thirteen labeled skeletons without assuming product injectivity.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_loop_skeleton_census.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
    "title": "KoalaBear m2 r4 coordinate negative one-loop 433 complete-edge skeleton classifier",
    "status": "PROVED",
@@ -40913,6 +40934,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

@@ -3248,3 +3248,15 @@ all five, so no negative-parity coordinate-order-two packet exists.  Remove
 the entire negative coordinate orientation from the `(2,4,2)` workboard.
 The next coordinate work is positive parity; diagonal and trivial-stabilizer
 orientations remain separate and are not affected by this composition.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate` gives the
+first positive-parity workboard.  Defect three forbids repeating one
+antipodal target-edge type.  The positive odd coefficient `B_1` is nonzero
+and linear, so at most one common loop lies away from the two ramified
+quotient values.  Solving the degree equations without assuming product
+injectivity leaves exactly ten orbits and thirteen labeled skeletons: five
+orbits in each of profiles 442 and 433.  Two-loop rows use at least one
+ramified value; three-loop rows use both.  Attack the three-loop rows first,
+where both quotient labels are pinned, while retaining cross multiplicities
+three and four on the genuinely quadratic product-ratio branch.
