@@ -20396,6 +20396,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier",
+   "title": "KoalaBear m2 r4 coordinate negative one-loop 433 AB/AC finite classifier",
+   "status": "PROVED",
+   "closure": "exact deployed-field classification of one-loop 433 common matching cells 3/6",
+   "statement": "For the negative one-loop 433 AB/AC singleton orbit, exact guarded product and q elimination leaves precisely eight common packets in cell 3 over F_2130706433. Target exchange b<->c with the corresponding root-sign transport gives precisely eight packets in cell 6. The printed sixteen packets satisfy all original product minors, q welds, and guards; outside realizability remains open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier",
    "title": "KoalaBear m2 r4 coordinate negative one-loop 442 aligned-pair classifier",
    "status": "PROVED",
@@ -40392,6 +40412,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+   "to": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

@@ -3017,3 +3017,21 @@ argument covers both crossed cells and all eight sign rows.  Consequently
 the complete loop-singleton sector `[0,1,2]` is empty; the live one-loop
 433 common frontier consists only of the four nonloop-singleton matching
 orbits.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier`
+classifies the first nonloop-singleton orbit, cells `[3,6]`.  In cell `3`,
+product elimination gives `c` rationally in `(b,r)`; q compatibility and
+the protected `t^2` equation reduce the guarded locus to one linear root of
+a quartic in `r` for each sign row.  The remaining `b` equation is
+
+```text
+b^2+278278958b+1=0.
+```
+
+Its two deployed roots, combined with four `(r,t)` sign rows, give exactly
+eight cell-`3` packets.  Target exchange transports these to eight cell-`6`
+packets.  All sixteen satisfy the original common equations and guards.
+They now require exact outside completion or exclusion; do not delete this
+orbit at the common stage.  The other live common orbits are
+`[4,5,7,8]`, `[9,10,12,13]`, and `[11,14]`.

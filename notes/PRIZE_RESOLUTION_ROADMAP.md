@@ -13574,3 +13574,23 @@ loop-singleton frontier:  cells 0/1/2 all empty
 Modal status:             no launch and no cost
 next route-deciding step: four nonloop-singleton matching orbits
 ```
+
+### Work-cycle burn-down: one-loop 433 AB/AC finite classifier
+
+```text
+starting local pin:       92593656 (complete loop-singleton sector close)
+ending local theorem pin: current cells 3/6 finite classifier
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / one-loop 433 nonloop-singleton sector
+result:                   PROVED exact 16-packet common classification
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-subcase classifier)
+cell 3:                   4 sign rows x 2 deployed b roots = 8 packets
+cell 6:                   8 target-exchanged packets
+independent replay:       all product minors, q welds, and guards pass
+outside status:           open; packets are not deleted
+Modal status:             no launch and no cost
+next route-deciding step: outside-test these 16 packets; route common
+                          orbits [4,5,7,8], [9,10,12,13], [11,14]
+```
