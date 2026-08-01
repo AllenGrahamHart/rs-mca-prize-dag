@@ -21076,6 +21076,27 @@
    ]
   },
   {
+   "id": "dli_c1_l1_block_owner_ledger",
+   "title": "DLI C1 L=1 four-coordinate block-owner ledger",
+   "status": "PROVED",
+   "closure": "exact Haar-relative 64-block telescoping identity",
+   "statement": "On every official L=1 C1 row, the proved absence of internal signed relations of weight at most four makes each four-coordinate block kernel have zero mass one and nonzero mass fifteen. The exact convolution ledger gives Z-2^256/q = 1-1/q + sum_j(A_j-15*2^(4j)/q), so C1-ZERO is equivalent to aggregate excess attraction at most 3+1/q. This localizes but does not bound the inverse-flatness excess and proves no C1, DLI, or Prize close.",
+   "refs": [
+    "background/nodes/dli_c1_l1_block_owner_ledger/statement.md",
+    "background/nodes/dli_c1_l1_block_owner_ledger/proof.md",
+    "background/nodes/dli_c1_l1_block_owner_ledger/claim_contract.md",
+    "background/nodes/dli_c1_l1_block_owner_ledger/source_evidence.md",
+    "background/nodes/dli_c1_l1_block_owner_ledger/dependency_subdag.md",
+    "background/nodes/dli_c1_l1_block_owner_ledger/audit.md",
+    "background/nodes/dli_c1_l1_block_owner_ledger/result.md",
+    "background/nodes/dli_c1_l1_block_owner_ledger/frontier.md",
+    "background/nodes/dli_c1_l1_block_owner_ledger/lineage.md",
+    "background/nodes/dli_c1_l1_block_owner_ledger/verify.py",
+    "background/nodes/dli_c1_l1_block_owner_ledger/verify_audit.py",
+    "experiments/prize_resolution/dli_c1_l1_block_owner_ledger_modal.py"
+   ]
+  },
+  {
    "id": "rate_half_list_cyclic_budget_staircase",
    "title": "Six field-independent unsafe tiers from the cyclic rotated prefix floor",
    "status": "PROVED",
@@ -41767,6 +41788,26 @@
   },
   {
    "from": "dli_c1_256_block_basis_factorization",
+   "to": "dli_c1r3_gated_envelope_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_newton_short_window_exclusion",
+   "to": "dli_c1_l1_block_owner_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_weight3_ambient_exclusion",
+   "to": "dli_c1_l1_block_owner_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_weight4_ambient_exclusion",
+   "to": "dli_c1_l1_block_owner_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "dli_c1_l1_block_owner_ledger",
    "to": "dli_c1r3_gated_envelope_bound",
    "kind": "ev"
   },

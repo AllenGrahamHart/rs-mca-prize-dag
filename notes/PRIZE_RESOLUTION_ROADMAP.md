@@ -14598,3 +14598,25 @@ import repairs:           final LIST tier is equality, not strict gain;
                           superexponential-growth assertion
 critical census effect:   none; both are proved evidence into open heads
 ```
+
+### Canonical harvest: DLI C1 L=1 block-owner ledger
+
+```text
+canonical pin:            38cb4d50
+harvested node:           dli_c1_l1_block_owner_ledger [PROVED]
+dependency repair:        Newton weights <=2 plus official ambient
+                          exclusions at weights 3 and 4 are explicit reqs
+exact identity:           Z-2^256/q = 1-1/q
+                          + sum_(j<64)(A_j-15*2^(4j)/q)
+C1-ZERO equivalence:      aggregate excess attraction <= 3+1/q
+scope correction:         telescoping in the printed A_j form uses
+                          kappa_j(0)=1; it is exact on the official stratum
+                          after the wired exclusions, not hypothesis-free
+retained problem:          no A_j or aggregate bound; no C1-ZERO close
+strategy update:           test engineered weight-9/10 resonance primes
+                          before treating literal SWIF-4 as the theorem
+proposed but unproved:     CERP-512, lambda-rigidity, resonance-prime sieve
+next route-deciding step: exact owner-trajectory compiler at small
+                          order-512 analogues, followed by spike/diffuse
+                          classification if the ledger resists falsification
+```

@@ -18,3 +18,20 @@ Fourier marginal is exactly iid, but all cross-block dependence lies on the
 single deterministic orbit `C_a=M^aC_0`.  Future attacks must analyze that
 orbit; marginal iid estimates, prime censuses, q-sized dynamic programs,
 and top-level `v_2` surplus arguments do not address the remaining claim.
+
+## [2026-08-01] The L=1 block-owner ledger localizes the black hole
+
+`dli_c1_l1_block_owner_ledger` proves, using the wired official exclusions
+of block relations of weight at most four, that C1-ZERO at `L=1` is exactly
+
+```text
+sum_(j<64) [A_j-15*2^(4j)/q] <= 3+1/q.
+```
+
+Here `A_j` is the weighted mass of earlier differences landing on the next
+four-coordinate target set.  This is an accounting identity, not an excess
+bound.  Literal SWIF-4 should not be the sole theorem target: weight-9/10
+resonances can perturb individual block contractions while the aggregate
+budget may remain valid.  Falsify those resonance channels first, then seek
+a bounded-complexity resonance-packet theorem only if diffuse excess
+survives.
