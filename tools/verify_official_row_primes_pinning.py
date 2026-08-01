@@ -16,7 +16,10 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-NODE = ROOT / "critical" / "nodes" / "official_row_primes_pinning"
+# 2026-08-01 forced path correction (wave 37): the node moved to background/
+# in the 2026-07-26 critical-surface reorganization (0948b9c4); the validator
+# kept the old critical/ path and has been failing silently since.
+NODE = ROOT / "background" / "nodes" / "official_row_primes_pinning"
 CERT = NODE / "official_row_primes_reframe.json"
 PROOF = NODE / "proof.md"
 

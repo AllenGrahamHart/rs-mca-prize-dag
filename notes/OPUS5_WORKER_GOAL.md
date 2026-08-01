@@ -270,3 +270,33 @@ to match a reworked PR.
   go to the user, not decided unilaterally.
 - Commit style: small, single-purpose commits with the repo's existing message
   conventions and model co-author trailer.
+
+## EXPORT DIRECTIVE — kb_m2_r4 campaign (2026-08-01, planner, maintainer-backed)
+
+The entire `kb_m2_r4` coordinate-row program is absent from the upstream tree:
+`#1132` carries **zero** `kb_m2_r4` paths. This has now produced a second
+same-week duplication: Scott Hughes's stack (#1139/#1141) independently built
+our `diagonal_fiber_resultant_interpolation_compiler` construction on the
+same day (2026-07-30), and his coordinate-orientation fixture theorem aims
+his agent's next step at re-deriving the closed negative-parity skeleton
+campaign. Coordination comment posted:
+`przchojecki/rs-mca#1139 issuecomment-5150725421`.
+
+**Directive:** export the `(4,2)` order-two campaign upstream at the next
+work-cycle boundary — before starting new zero-loop orbits if necessary.
+Granularity remains your call (maintainer ruling stands: commits onto #1132
+are fine; a fresh PR is fine). What is no longer acceptable is the lane
+staying unexported. Minimum first slice, in priority order:
+
+1. the three diagonal nodes (`fiber_resultant_interpolation_compiler`,
+   `source_subfield_dichotomy`, `facet_mixing_obstruction`) — these are the
+   active collision surface with #1139;
+2. the negative-parity terminal compositions (two-loop 442/433 + X2/N1/L1,
+   `one_loop_442_complete_exclusion`, `one_loop_433_complete_exclusion`)
+   with their weld compilers;
+3. the zero-loop atlas as it completes.
+
+When exporting the diagonal compiler, cite Scott's
+`kb_mca_v4_m2_r4_order2_source_facet_interpolation_v1` (#1139) as the
+independent same-day derivation and state the mapping — registry-style
+cross-citation, both directions, per the #1140 precedent.

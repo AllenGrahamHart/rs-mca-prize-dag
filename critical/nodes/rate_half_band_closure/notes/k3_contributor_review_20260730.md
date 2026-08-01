@@ -60,3 +60,48 @@ documented in `dead_ends/`); residual = the `2+2+2` frontier (324/10) plus
 the decomposition rows `{2,3,4,6,10,12}` under the wave-33 narrowing, with
 the 26→24 transverse types at m=12. Three agents interleaved: Scott
 (#1122–#1131, #1133), our Codex (#1132), this review.
+
+## Addendum 2026-07-31 — the 112 coordination gap, surfaced and commented
+
+Scott's #1140 compiles all 36 aligned-positive q-slice systems freshly
+(`ALL_CELLS_UNCLASSIFIED`, zero citations of our lane); #1141 deletes
+F02/F03 from that atlas. Our #1132 export had already excluded the
+aligned-positive ramified slices (6 unit ideals) with printed residual
+`remaining_unramified=6, deep_cases=17`. Neither stack consumes the other —
+the first genuine coordination failure between the forks.
+
+Maintainer approved a cross-reference comment; posted on #1140
+(issuecomment-5146556389): states our coverage and residual with replay
+line, explicitly does NOT assert cell-for-cell identity (the partitions
+differ: his 12x3 vs our ramified/unramified/projective), proposes a mapping
+row in either direction, and frames overlap as free cross-verification.
+Watch: whether the atlas note gains the mapping, and whether F02/F03 land in
+our printed residual (which would make #1141 a continuation, not a
+re-derivation).
+
+## Addendum 2026-08-01 — the order-two row collision (#1139/#1141)
+
+Scott's codex has entered the `(m,r,delta)=(2,4,2)` order-two type
+(`kb_mca_v4_m2_r4_order2_source_facet_interpolation_v1`, base #1139, also
+carried by #1141). Established against the PR heads:
+
+- **Diagonal-orientation duplication, second of its kind.** His split-quartic
+  fiber-product + diagonal-transport + interpolation-kernel construction
+  (`35 x 12` matrix, full-support kernel condition) is the same theorem as
+  our `rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler`.
+  Both sides built it on 2026-07-30, hours apart, independently — the same
+  failure mode as the 112 atlas (#1140), caused by the same asymmetry: his
+  material ships upstream immediately, our `kb_m2_r4` campaign has never
+  been exported (zero such paths in #1132).
+- **His coordinate-orientation fixture is complementary:** the exact facet
+  census `(10,10,4)` plus a defect-zero abstract fixture proving counting
+  alone cannot delete the coordinate orientation. This is a theorem we do
+  not have and should consume; it also predicts his agent's next move is
+  algebraic deletion — the campaign our worker has already completed for
+  negative parity (two-loop, one-loop 442+433, zero-loop 8/15 as of wave 37).
+- **He consumes our full-V4 export correctly** — evidence the disposition
+  loop rewards whatever we actually ship.
+
+Watch: whether his agent starts deleting coordinate-orientation cells
+(= re-deriving waves 33-37); whether #1139's facet census gains a mapping to
+our source-line c2 orbits; export status of `kb_m2_r4` (ours) as the fix.
