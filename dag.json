@@ -20989,6 +20989,46 @@
    ]
   },
   {
+   "id": "dli_c1_256_block_basis_factorization",
+   "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On every official-shape C1 level (N=256L, omega of exact order 512L), writing y=a+256b and theta=omega^256 (exact order 2L), the a-th L-column block is A_a=D_a F with F Vandermonde on the odd powers of theta. All 256 blocks are bases; each block Fourier vector is exactly uniform with iid coordinates; and all cross-block dependence is the deterministic orbit C_a=M^a C_0. Joint independence, orbit mixing, any excess bound, and either Prize result remain open.",
+   "refs": [
+    "background/nodes/dli_c1_256_block_basis_factorization/statement.md",
+    "background/nodes/dli_c1_256_block_basis_factorization/proof.md",
+    "background/nodes/dli_c1_256_block_basis_factorization/claim_contract.md",
+    "background/nodes/dli_c1_256_block_basis_factorization/source_evidence.md",
+    "background/nodes/dli_c1_256_block_basis_factorization/dependency_subdag.md",
+    "background/nodes/dli_c1_256_block_basis_factorization/audit.md",
+    "background/nodes/dli_c1_256_block_basis_factorization/result.md",
+    "background/nodes/dli_c1_256_block_basis_factorization/frontier.md",
+    "background/nodes/dli_c1_256_block_basis_factorization/lineage.md",
+    "background/nodes/dli_c1_256_block_basis_factorization/verify.py",
+    "background/nodes/dli_c1_256_block_basis_factorization/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_list_cyclic_budget_staircase",
+   "title": "Six field-independent unsafe tiers from the cyclic rotated prefix floor",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the official rate-half row, instantiating the cyclic rotated-prefix floor at d=1 and s=c-1 for quotient orders 8,16,32,64,128,256 gives six exact field-independent budget-indexed unsafe agreements. The first five tiers strictly improve the prior cap-uniform lower frontier on their intervals and the N_0=256 tier recovers it. No safe-side or exact-crossing claim is made.",
+   "refs": [
+    "background/nodes/rate_half_list_cyclic_budget_staircase/statement.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/proof.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/claim_contract.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/source_evidence.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/dependency_subdag.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/audit.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/result.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/frontier.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/lineage.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/verify.py",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
    "title": "KoalaBear m2 r4 coordinate negative one-loop 433 complete-edge skeleton classifier",
    "status": "PROVED",
@@ -41621,6 +41661,21 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler",
    "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_c1_256_block_basis_factorization",
+   "to": "dli_c1r3_gated_envelope_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_cyclic_rotated_prefix_floor",
+   "to": "rate_half_list_cyclic_budget_staircase",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_cyclic_budget_staircase",
+   "to": "rate_half_list_adjacent_crossing",
    "kind": "ev"
   },
   {

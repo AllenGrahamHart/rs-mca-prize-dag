@@ -14476,3 +14476,22 @@ compute decision:         stop raw resultant and ambient Groebner retries;
                           use the localized common-curve coordinate ring or
                           function field and retain compact product chains
 ```
+
+### Canonical harvest: DLI C1 block basis and LIST unsafe staircase
+
+```text
+canonical pins:           52b59cba (DLI), fc98abfb (LIST)
+harvested nodes:          dli_c1_256_block_basis_factorization [PROVED]
+                          rate_half_list_cyclic_budget_staircase [PROVED]
+DLI exact gain:           256 invertible D_a F blocks; exact iid block
+                          marginals; dependence isolated to C_a=M^a C_0
+DLI retained problem:     mixing/anti-concentration of one deterministic
+                          256-step orbit, not marginal iid behavior
+LIST exact gain:          six field-independent unsafe tiers; first five
+                          improve the cap floor, final tier recovers it
+LIST retained problem:    safe-side certificates / total decision oracle
+import repairs:           final LIST tier is equality, not strict gain;
+                          finite monotonicity uses exact values, not a false
+                          superexponential-growth assertion
+critical census effect:   none; both are proved evidence into open heads
+```

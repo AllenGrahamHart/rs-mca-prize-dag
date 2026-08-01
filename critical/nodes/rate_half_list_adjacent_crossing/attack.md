@@ -192,3 +192,12 @@ The registered `CR-002-C2CELL-COLL-RF` screen tested all `4,495,442`
 progression moduli by the forty-step recurrence and found no hit. Do not
 rerun it or allocate reciprocal selected-antipodal packets. Continue with
 the fixed-field, degree-deficient, or non-selected-antipodal shards.
+
+## [2026-08-01] Budget staircase banked
+
+`rate_half_list_cyclic_budget_staircase` proves six field-independent
+unsafe tiers from quotient orders `8..256`.  The first five raise the
+certified unsafe frontier on their budget intervals; `N_0=256` recovers the
+banked cap tier.  This remains one-sided.  The executable target is a
+certificate-producing safe/unsafe pair, and any bisection requires a total
+decision oracle: `UNKNOWN` is never `UNSAFE`.

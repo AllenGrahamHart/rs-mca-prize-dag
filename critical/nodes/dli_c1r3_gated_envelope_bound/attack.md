@@ -9,3 +9,12 @@
    cancellation.
 4. Gated L=2: a proof-side level-uniformity argument is the only route
    (exact reach is impossible).
+
+## [2026-08-01] The 256-basis factorisation is banked as evidence
+
+`dli_c1_256_block_basis_factorization` proves that every official level's
+odd-moment matrix consists of 256 invertible blocks `A_a=D_aF`.  Each block
+Fourier marginal is exactly iid, but all cross-block dependence lies on the
+single deterministic orbit `C_a=M^aC_0`.  Future attacks must analyze that
+orbit; marginal iid estimates, prime censuses, q-sized dynamic programs,
+and top-level `v_2` surplus arguments do not address the remaining claim.
