@@ -13720,3 +13720,24 @@ zero-loop frontier:       8/15 cells deleted; [2,5,6,9],[12],[13],[14]
 Modal status:             no launch and no cost
 next route-deciding step: classify orbit [2,5,6,9]
 ```
+
+### Work-cycle burn-down: zero-loop 433 finite doubled-pair orbit
+
+```text
+starting local pin:       37be856d (second zero-loop orbit exclusion)
+ending local theorem pin: current 32-packet PROVED classifier
+canonical prize pin:      16c2e92f
+node/workboard attacked:  K3 / negative zero-loop 433 common atlas
+result:                   PROVED exact finite classifier for [2,5,6,9]
+DAG delta:                +1 PROVED background node, +2 req, +1 ev edge
+critical orbit:           179 PROVED / 38 CONDITIONAL / 24 unproved
+                          (unchanged; exact common-subcase classification)
+cell-2 census:            4 packets in (+,+), 4 in (-,-), 0 opposite
+transported census:       32 common packets across four matching cells
+branch audit:             every omitted projection guarded or false
+zero-loop frontier:       outside product gate for 32 packets plus common
+                          cells [12],[13],[14]
+Modal status:             no launch and no cost
+next route-deciding step: compile complete outside edge/product gate for
+                          the 32 packets; do not run outside q first
+```

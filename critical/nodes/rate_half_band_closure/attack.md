@@ -3150,3 +3150,15 @@ Lost linear-`c` and product branches contain only guards; the singular-q
 branch adds only those same false projections.  Thus eight of fifteen
 zero-loop matching cells are now empty.  Continue with `[2,5,6,9]` and the
 three singleton-`BC+` cells `[12],[13],[14]`.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier`
+classifies the last doubled-singleton orbit `[2,5,6,9]`.  Representative
+cell `2` has exactly eight guarded deployed common packets: four in each
+same-sign root row and none in either opposite-sign row.  Every admitted
+tuple passes the original product/q equations and guard; all other generic
+and singular projections are guarded or have `X_den=0,X_num!=0`.  Target
+transport gives exactly 32 packets across the four cells.  This orbit is
+live and now requires the complete outside edge/product gate.  Separately,
+the common atlas still has singleton-`BC+` cells `[12],[13],[14]` to
+classify.
