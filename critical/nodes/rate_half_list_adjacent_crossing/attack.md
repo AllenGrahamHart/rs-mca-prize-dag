@@ -192,3 +192,20 @@ The registered `CR-002-C2CELL-COLL-RF` screen tested all `4,495,442`
 progression moduli by the forty-step recurrence and found no hit. Do not
 rerun it or allocate reciprocal selected-antipodal packets. Continue with
 the fixed-field, degree-deficient, or non-selected-antipodal shards.
+
+## [2026-08-01] Budget staircase banked; contract correction recorded
+
+`rate_half_list_cyclic_budget_staircase` (PROVED, background, ev into this
+node) instantiates the cyclic floor at d=1, s=c-1 across dyadic quotient
+orders 8..256: six field-independent unsafe tiers, raising the certified
+unsafe frontier U(q) on five budget intervals (B* <= 2: 3n/4-1;
+3 <= B* <= 312: 5n/8-1; ...; cap tier k+2^34-1 unchanged). Contract
+correction (Pro dossier, audited): the literal adjacent-crossing display is
+monotonicity-trivial — the node's open content is the CERTIFICATE-PRODUCING
+pair (row-computable agreement + checkable safe/unsafe certificates), and
+any bisection needs a TOTAL decision oracle (UNKNOWN is never UNSAFE).
+First research target: the B*=3 two-sided chamber compiler
+(REALIZE/EXCLUDE, coarse 8-cell completeness cross-check banked in
+`notes/pro_briefs_20260801/responses/verify_brief6_rhl_adj_program_arithmetic.py`).
+Route fences now exact: packing dies at 127-vs-128 from full; pairwise-only
+= Johnson; no field census (2^215 progression).

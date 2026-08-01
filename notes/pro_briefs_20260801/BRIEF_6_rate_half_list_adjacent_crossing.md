@@ -111,3 +111,17 @@ construction.
 - Scope transport: `list_large_m_scope_closure` (PROVED).
 - Battlefield context: `critical/nodes/rate_half_band_closure/statement.md`
   (the corrected history is recorded inline there).
+
+> **[CORRECTION + UPGRADE 2026-08-01 — from the Pro dossier, audited and
+> accepted.]** (1) The literal (RHL-ADJ) display above is TRIVIALLY TRUE
+> by monotonicity (L_1 integer-valued, nonincreasing, L_1(n+1)=0); the
+> open content is the certificate-producing contract — a row-computable
+> agreement with an independently checkable safe certificate and a
+> same-received-word unsafe certificate. (2) The "sharpest question"
+> bisection is sound only over a TOTAL decision oracle: failure of an
+> upper-bound method is UNKNOWN, never UNSAFE. (3) UPGRADE: the banked
+> cyclic floor already yields a six-tier field-independent unsafe
+> staircase (e.g. 3 <= B* <= 312 gives L_1(5n/8-1) > B*) — now minted as
+> `background/nodes/rate_half_list_cyclic_budget_staircase/` (PROVED).
+> See `responses/BRIEF6_PRO_DOSSIER.md` and
+> `responses/BRIEF6_DOSSIER_AUDIT.md`.

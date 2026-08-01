@@ -25120,6 +25120,18 @@
     "background/nodes/dli_c1_256_block_basis_factorization/proof.md",
     "background/nodes/dli_c1_256_block_basis_factorization/verify.py"
    ]
+  },
+  {
+   "id": "rate_half_list_cyclic_budget_staircase",
+   "title": "Six field-independent unsafe tiers from the cyclic rotated prefix floor at d=1: the budget-indexed lower staircase for the rate-half list crossing",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Instantiating the PROVED rate_half_cyclic_rotated_prefix_floor at d=1, s=c-1 for each dyadic quotient order N_0 in {8,16,32,64,128,256}: whenever B* < Lambda(N_0) = ceil(C(N_0-1,N_0/2+1)/N_0) (field-independent), the ordinary worst list obeys L_1(k+2n/N_0-1) > B* on every admissible rate-half row. Exact counts 3 / 313 / 8,286,954 / ~2^53 / ~2^116 / >2^242. Consequences: for 1<=B*<=2 the unsafe frontier reaches 3n/4-1; for 3<=B*<=312 it reaches 5n/8-1; six tiers partition the full budget range down to the banked cap-uniform k+2^34-1. Strictly raises the certified unsafe frontier U(q) on five budget intervals over the previously recorded single cap-uniform value. Not claimed: any safe-side bound, the crossing location, the d>=2 fieldwise optimizer, or either Prize result. Provenance: Brief-6 Pro dossier (notes/pro_briefs_20260801/responses/), audited and replayed 2026-08-01.",
+   "refs": [
+    "background/nodes/rate_half_list_cyclic_budget_staircase/statement.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/proof.md",
+    "background/nodes/rate_half_list_cyclic_budget_staircase/verify.py"
+   ]
   }
  ],
  "edges": [
@@ -47786,6 +47798,16 @@
   {
    "from": "dli_c1_256_block_basis_factorization",
    "to": "dli_c1r3_gated_envelope_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_cyclic_rotated_prefix_floor",
+   "to": "rate_half_list_cyclic_budget_staircase",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_list_cyclic_budget_staircase",
+   "to": "rate_half_list_adjacent_crossing",
    "kind": "ev"
   }
  ]
