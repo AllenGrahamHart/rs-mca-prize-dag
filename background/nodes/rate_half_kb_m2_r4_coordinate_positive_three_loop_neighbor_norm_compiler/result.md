@@ -1,6 +1,5 @@
 # Result
 
-PROVED.  Every positive three-loop lane has one degree-`(2,2)` target-square
-neighbor norm.  It determines both colored labels in profile 433 and their
-product in profile 442, replacing seven independent edge searches by three
-433 norm equations or one colored-product plus three 442 norm equations.
+REFUTED.  The ordinary source-root resultant norm is not the
+divisor-weighted target-neighbor norm at ramified loops.  Exact common data
+over `F_13` gives `8` versus the claimed graph value `6`.

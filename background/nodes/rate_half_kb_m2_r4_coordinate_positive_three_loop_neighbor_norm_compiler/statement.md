@@ -1,96 +1,70 @@
-# KoalaBear m2 r4 positive three-loop neighbor-norm compiler
+# KoalaBear m2 r4 positive three-loop neighbor-norm weld
 
-- **status:** PROVED
-- **scope:** all eight signed positive coordinate three-loop lanes
-- **dependencies:**
+- **status:** REFUTED
+- **scope:** the proposed ordinary-resultant/target-incidence weld
+- **dependencies tested:**
   `rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler`,
   `rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas`,
   and `rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas`
-- **consumer:** `rate_half_band_closure`
+- **consumer:** none; retained as a falsified-route certificate
 
-Write the positive source form as
-
-```text
-H(T,X)=D(W)T^2+E(W)+XT B(W),       W=X^2,          (KBP3N-1)
-```
-
-where `D=A_2`, `E=A_0`, and `B=B_1=beta(W-1)` in the three-loop
-normalization.  For a target square `U`, define
+Write
 
 ```text
-N_num(U)=Res_W(E, U D^2-W B^2),
-N_den(U)=Res_W(D, E^2-U W B^2),
-mathcal_N(U)=N_num(U)/N_den(U).                     (KBP3N-2)
+H(T,X)=D(W)T^2+E(W)+XT B(W),       W=X^2,
+P(U)=Res_W(E,U D^2-WB^2),
+Q(U)=Res_W(D,E^2-UWB^2).                           (KBP3N-R1)
 ```
 
-Both resultants have degree at most two in `U`.  Let `r` be any of the six
-nonzero signed-pair representatives and let `t_1,...,t_4` be its four
-target neighbors, with source-fiber and edge multiplicities retained.  The
-complete-fiber leading-support guard gives `N_den(r^2)!=0`, and
+The two algebraic identities
 
 ```text
-product_(j=1)^4 t_j=mathcal_N(r^2).                (KBP3N-3)
+Res_X(H(r,X),E(X^2))=r^4P(r^2),
+Res_X(H(r,X),D(X^2))=Q(r^2)                        (KBP3N-R2)
 ```
 
-For the four common placements, target-edge incidence gives the exact
-tables below; `sigma in {+1,-1}` is the outside cycle sign.
+are valid, and `P,Q` have degree at most two in `U`.  The separate signed
+target-incidence tables are also valid graph computations.  The refuted
+step identified their ratio with the divisor-weighted four-neighbor
+product:
 
 ```text
-442 root low:
- N(1)=-b^2, N(b^2)=-b^2, N(c^2)=c^2ef,
- N(d^2)=e^2f^2,
- N(e^2)=-sigma c d^2f, N(f^2)=-sigma c d^2e.
-
-442 root high:
- N(1)=-c^2, N(b^2)=b^2ef, N(c^2)=-c^2,
- N(d^2)=e^2f^2,
- N(e^2)=-sigma b d^2f, N(f^2)=-sigma b d^2e.
-
-433 root low:
- N(1)=bc, N(b^2)=b^2e, N(c^2)=c^2f,
- N(d^2)=e^2f^2,
- N(e^2)=-sigma b d^2f, N(f^2)=-sigma c d^2e.
-
-433 root high:
- N(1)=ce, N(b^2)=b^2cf, N(c^2)=bc^2,
- N(d^2)=e^2f^2,
- N(e^2)=-sigma d^2f, N(f^2)=-sigma b d^2e.       (KBP3N-4)
+P(r^2)/Q(r^2) = product of the four graph neighbors of r. (REFUTED)
+                                                               (KBP3N-R3)
 ```
 
-Here `N(U)` abbreviates `mathcal_N(U)`.  Consequently, the common kernel
-already determines both colored labels in either 433 placement:
+Ordinary roots of `H(r,X)` do not manually double a ramified source-loop
+incidence.  Thus `(KBP3N-R2)` cannot be welded to a graph table that counts
+the branch fiber with divisor multiplicity.
+
+## Exact counterexample
+
+Over `F_13`, in the 433 root-low common placement, take
 
 ```text
-433 root low:   e=N(b^2)/b^2,       f=N(c^2)/c^2;
-433 root high:  e=N(1)/c,           f=N(b^2)/(b^2c). (KBP3N-5)
+(b,c,x,y)=(2,3,2,3),       (d_0,d_1,d_2,beta)=(4,7,6,1).
 ```
 
-After (KBP3N-5), a 433 lane has the three necessary equations in the sole
-remaining outside target `d`:
+The kernel satisfies both common product/sum records, `beta!=0`, and common
+leading support.  The ordinary resultant ratio is
 
 ```text
-N(d^2)=e^2f^2,
-N(e^2)=-sigma a d^2f,
-N(f^2)=-sigma a' d^2e,                              (KBP3N-6)
+P(U)=6+4U^2,       Q(U)=4+7U^2,
+P(1)/Q(1)=8 mod 13.                                (KBP3N-R4)
 ```
 
-with `(a,a')=(b,c)` in root-low and `(1,b)` in root-high.  In 442 the
-common kernel determines the colored product
+The proposed root-low graph weld instead gives `bc=6 mod 13` at target
+`1`.  Hence `8!=6` refutes `(KBP3N-R3)` on the exact admissible common
+locus.  The former compressed 433/442 norm gates must not be used.
 
-```text
-ef=N(c^2)/c^2       (root low),
-ef=N(b^2)/b^2       (root high),                    (KBP3N-7)
-```
-
-followed by the last three rows of its table in (KBP3N-4).
-
-These norm equations are necessary aggregate consequences of the complete
-Vieta system.  They do not reconstruct the seven distinct outside quotient
-labels, enforce their saturation, prove any lane empty, delete positive
-parity or an orientation, close K3, or prove either Prize result.
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion`
+repairs the route at the correct divisor level: the same order mismatch,
+combined with the complete-source square, excludes all positive two- and
+three-loop packets directly.
 
 ## Falsifier
 
-An actual complete three-loop packet with `N_den(r^2)=0`, failure of
-`(KBP3N-3)`, a fifth placement table, or an edge multiset whose four-neighbor
-products differ from `(KBP3N-4)`.
+The fixture `(KBP3N-R4)` is the falsifier.  A repair would require a
+divisor-weighted norm with explicit branch corrections; it is unnecessary
+for the now-closed two-/three-loop rows.

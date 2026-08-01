@@ -1,7 +1,9 @@
 # Dependency sub-DAG
 
 ```text
-coordinate complete-fiber Vieta --------+
-common-placement atlas -----------------+--> target-neighbor norm compiler --ev--> band closure
-signed outside-Vieta atlas -------------+
+complete-fiber Vieta ----------+
+common-placement atlas --------+--> ordinary/resultant graph weld [REFUTED]
+signed outside-Vieta atlas ----+
+
+source-row complete square + local ramification --> multiplicity replacement [PROVED]
 ```

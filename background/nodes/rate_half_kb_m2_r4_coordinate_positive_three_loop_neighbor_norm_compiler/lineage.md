@@ -1,6 +1,7 @@
 # Lineage
 
-The outside-edge eliminant treats seven quotient labels separately.  This
-compiler instead takes the norm over the four source rows incident to one
-target.  It is a strict low-variable prefilter: exact and useful for
-elimination, but weaker than the original saturated lane system.
+This route tried to aggregate seven outside Vieta rows by taking an
+ordinary resultant over roots of `H(r,X)`.  A finite-field common fixture
+showed that this root norm does not carry the extra divisor multiplicity of
+a ramified graph loop.  The failed weld led directly to the stronger local
+complete-source multiplicity exclusion.

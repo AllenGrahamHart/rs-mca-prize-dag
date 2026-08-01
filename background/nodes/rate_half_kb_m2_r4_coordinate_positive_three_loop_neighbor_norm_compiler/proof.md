@@ -1,65 +1,28 @@
-# Proof
+# Refutation proof
 
-Fix a nonzero target `r` and set
+The identities `(KBP3N-R2)` follow by multiplying `H(r,X)` at the two
+lifts `X,-X` over a root of `E` or `D`; the symbolic checker still verifies
+them exactly.  They concern ordinary polynomial resultants.
 
-```text
-F_r(X)=H(r,X)=r^2D(X^2)+E(X^2)+rX B(X^2).          (1)
-```
-
-Its four roots, counted on the source divisor, are the four source points
-whose component edge is incident to `r`.  If `t` is the other target root
-at one of them, Vieta gives
+For the displayed `F_13` fixture, loop interpolation gives
 
 ```text
-t=E(X^2)/(rD(X^2)).                                (2)
+D(W)=4+7W+6W^2,       E(W)=9+5W+2W^2,
+B(W)=W-1.
 ```
 
-The complete-fiber leading-support condition makes every denominator in
-(2) nonzero.
-
-For a root `W` of `E`, multiply (1) at the two source lifts `X` and `-X`:
+At `(x,p,s)=(2,2,3)` and `(3,3,4)`, direct substitution gives
 
 ```text
-F_r(X)F_r(-X)=r^2[r^2D(W)^2-WB(W)^2].              (3)
+E(x^2)=pD(x^2),       xB(x^2)+sD(x^2)=0,
 ```
 
-Taking resultants first over the two lifts and then over the two roots of
-`E` gives
+and similarly at `y`; `D` is nonzero on the four guarded common values.
+Evaluating the exact resultants in `(KBP3N-R1)` gives `(KBP3N-R4)`, so the
+ordinary norm at `U=1` is `8`.
 
-```text
-Res_X(F_r,E(X^2))=r^4 Res_W(E,r^2D^2-WB^2).        (4)
-```
-
-The same calculation at a root of `D` gives
-
-```text
-Res_X(F_r,D(X^2))=Res_W(D,E^2-r^2WB^2).            (5)
-```
-
-The ratio of the left sides of (4) and (5), divided by `r^4`, is exactly
-the product of (2) over the four roots of `F_r`.  Equations (4)--(5) prove
-`(KBP3N-2)--(KBP3N-3)`.  Since `D,E` have degree two, each right-hand
-resultant is the product of two affine-linear expressions in `U=r^2`, so
-its `U`-degree is at most two.  The polynomial identities also retain a
-source point at infinity by homogeneous specialization.
-
-It remains to compute the target-neighbor products.  Every common loop
-contributes the antipodal edge twice.  Each nonloop signed edge orbit
-`(u,epsilon v)` contributes the two edges
-
-```text
-(u,epsilon v),       (-u,-epsilon v).              (6)
-```
-
-Insert the two common nonloop orbits for each placement and the seven
-outside orbits
-
-```text
-a e, a' f, de,-de,df,-df,sigma ef.                 (7)
-```
-
-Every one of the twelve signed targets then has degree four.  Multiplying
-the four neighbors of the positive representative gives exactly the four
-tables in `(KBP3N-4)`.  Solving their colored rows gives
-`(KBP3N-5)--(KBP3N-7)`.  The checker independently rebuilds all 24 edge
-occurrences in each of the eight lanes and verifies every product. QED.
+The signed 433 root-low incidence graph has two divisor copies of the
+ramified antipodal edge at target `1`, together with neighbors `b,c`; its
+printed product is `bc=6`.  These values differ in `F_13`.  The former
+proof's sentence equating roots of `H(r,X)` with the divisor-weighted graph
+multiset was therefore invalid at ramification. QED (refutation).

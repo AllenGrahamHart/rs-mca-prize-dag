@@ -20713,9 +20713,9 @@
   {
    "id": "rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler",
    "title": "KoalaBear m2 r4 positive three-loop target-neighbor norm compiler",
-   "status": "PROVED",
-   "closure": "degree-(2,2) target-neighbor norm and compressed 433/442 lane equations",
-   "statement": "Taking the norm over the four source rows incident to one target gives an exact quadratic-over-quadratic function of its square. The four common placements have explicit neighbor-product tables. In profile 433 the common kernel determines both colored outside labels and leaves three equations in the uncolored target; in profile 442 it determines their product and leaves three further norm equations. These are necessary prefilters and do not replace quotient-label saturation.",
+   "status": "REFUTED",
+   "closure": "refuted weld between an ordinary source-root resultant and the divisor-weighted target-incidence product at ramified loops",
+   "statement": "The two printed degree-(2,2) resultant identities and the separate target-neighbor graph tables are valid, but their proposed identification is not a consequence of the common-lane hypotheses: ordinary roots of H(r,X) do not manually double a ramified loop incidence. An admissible F_13 root-low 433 common kernel gives resultant norm N(1)=8 while the claimed graph product is bc=6. The compressed 433/442 gates must not be used.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/statement.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/proof.md",
@@ -20729,6 +20729,27 @@
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/verify.py",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/verify_audit.py",
     "experiments/prize_resolution/rate_half_kb_positive_three_loop_neighbor_norm.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion",
+   "title": "KoalaBear m2 r4 positive ramified-loop multiplicity exclusion",
+   "status": "PROVED",
+   "closure": "local complete-source order 2 versus order 4 excludes every positive two- and three-loop coordinate packet",
+   "statement": "At a ramified positive antipodal star where B_1 is nonzero, exactly the two antipodal target rows vanish and each has local order one, whereas the complete-source square requires order four at the doubled branch fiber. Hence no such packet exists. The positive loop census then excludes every two- and three-loop row and forces any surviving ramified one-loop row to place its loop at the unique zero of B_1.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_ramified_loop_multiplicity_exclusion.py"
    ]
   },
   {
@@ -41178,6 +41199,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

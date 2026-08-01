@@ -1,7 +1,8 @@
 # Audit
 
-1. The norm is a ratio of full resultants, not evaluation at sampled source labels.
-2. `N_den(r^2)!=0` comes from leading support on all four incident source rows; it is not silently divided away.
-3. Loops occur twice in the target edge multiset, including ramified source fibers by divisor multiplicity.
-4. All four placements and both cycle signs are rebuilt independently; no 433 assignment is identified with another by target naming.
-5. The compact norm gate is necessary only.  It does not certify seven distinct quotient roots or any saturation.
+1. The universal resultant identities remain true; the refuted content is their target-incidence interpretation.
+2. The counterexample is an admissible common kernel, not an asserted complete packet.
+3. Common leading support is checked at `W=0,1,x^2,y^2`, and the evaluated norm denominator at `U=1` is nonzero.
+4. Ramified graph incidence uses divisor multiplicity; ordinary polynomial root multiplicity is a different object.
+5. No compressed 433 or 442 equation from the old weld remains authorized.
+6. The replacement theorem does not rely on the refuted norm.

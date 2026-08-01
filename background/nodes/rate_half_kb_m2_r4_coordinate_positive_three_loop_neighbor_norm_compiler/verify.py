@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the positive three-loop target-neighbor norm compiler."""
+"""Verify the exact refutation of the positive three-loop neighbor norm weld."""
 
 import importlib.util
 import json
@@ -25,36 +25,29 @@ def main():
     module = importlib.util.module_from_spec(specification)
     specification.loader.exec_module(module)
     result = module.verify()
-    require(result == {
-        "numerator_u_degree": 2,
-        "denominator_u_degree": 2,
-        "placements": 4,
-        "lanes": 8,
-        "target_degree": 4,
-        "profile_433_colored_values_determined": True,
-        "profile_442_colored_product_determined": True,
-    }, "neighbor norm replay")
+    require(result["numerator_u_degree"] == 2, "numerator degree")
+    require(result["denominator_u_degree"] == 2, "denominator degree")
+    require(result["placements"] == 4 and result["lanes"] == 8, "coverage")
+    require(result["resultant_identities_valid"], "true identity")
+    require(result["graph_tables_valid"], "true graph tables")
+    require(not result["resultant_graph_weld_valid"], "refuted weld")
+    require(result["counterexample"] == {
+        "prime": 13,
+        "placement": "433_root_low",
+        "kernel": (4, 7, 6, 1),
+        "observed_norm_at_one": 8,
+        "claimed_neighbor_product": 6,
+    }, "counterexample replay")
 
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
-    require(nodes[NODE_ID]["status"] == "PROVED", "DAG status")
-    edges = {
-        (edge["from"], edge["to"], edge.get("kind", "req"))
-        for edge in dag["edges"]
-    }
-    for parent in (
-        "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
-        "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas",
-        "rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas",
-    ):
-        require((parent, NODE_ID, "req") in edges, f"dependency {parent}")
-    require((NODE_ID, "rate_half_band_closure", "ev") in edges, "consumer")
+    require(nodes[NODE_ID]["status"] == "REFUTED", "DAG status")
     statement = (NODE / "statement.md").read_text()
-    require("degree at most two" in statement, "degree claim")
-    require("do not reconstruct" in statement, "scope fence")
+    require("8!=6" in statement, "falsifier")
+    require("must not be used" in statement, "scope fence")
     print(
-        "RATE_HALF_KB_POSITIVE_THREE_LOOP_NEIGHBOR_NORM_VERIFY_PASS "
-        "norm_degree=2/2 placements=4 lanes=8"
+        "RATE_HALF_KB_POSITIVE_THREE_LOOP_NEIGHBOR_NORM_REFUTATION_PASS "
+        "prime=13 placement=433_root_low observed=8 claimed=6"
     )
 
 

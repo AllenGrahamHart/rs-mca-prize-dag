@@ -169,6 +169,68 @@ def compressed_gates():
     }
 
 
+def weld_counterexample(numerator, denominator):
+    """Admissible common-kernel fixture where the graph/resultant weld fails."""
+    prime = 13
+    b, c, x, y = 2, 3, 2, 3
+    d_values = (4, 7, 6)
+    beta_value = 1
+    d0_value, d1_value, d2_value = d_values
+    e_values = (
+        -d0_value,
+        (1 - c**2) * d0_value - c**2 * d1_value + (b**2 - c**2) * d2_value,
+        -b**2 * d2_value,
+    )
+
+    def evaluate(coefficients, value):
+        return sum(coefficient * value**index for index, coefficient in enumerate(coefficients)) % prime
+
+    for source, product, target_sum in ((x, b, 1 + b), (y, c, 1 + c)):
+        w = source**2
+        d_at_w = evaluate(d_values, w)
+        e_at_w = evaluate(e_values, w)
+        b_at_w = beta_value * (w - 1) % prime
+        if (e_at_w - product * d_at_w) % prime:
+            raise RuntimeError("counterexample product row")
+        if (source * b_at_w + target_sum * d_at_w) % prime:
+            raise RuntimeError("counterexample sum row")
+    if any(evaluate(d_values, value) == 0 for value in (0, 1, x**2, y**2)):
+        raise RuntimeError("counterexample leading support")
+
+    symbols = {
+        sp.Symbol("d0"): d0_value,
+        sp.Symbol("d1"): d1_value,
+        sp.Symbol("d2"): d2_value,
+        sp.Symbol("e0"): e_values[0],
+        sp.Symbol("e1"): e_values[1],
+        sp.Symbol("e2"): e_values[2],
+        sp.Symbol("beta"): beta_value,
+    }
+    U = sp.Symbol("U")
+    p_coefficients = [
+        int(sp.Poly(numerator, U).coeff_monomial(U**index).subs(symbols)) % prime
+        for index in range(3)
+    ]
+    q_coefficients = [
+        int(sp.Poly(denominator, U).coeff_monomial(U**index).subs(symbols)) % prime
+        for index in range(3)
+    ]
+    q_at_one = evaluate(q_coefficients, 1)
+    if q_at_one == 0:
+        raise RuntimeError("counterexample norm denominator")
+    observed = evaluate(p_coefficients, 1) * pow(q_at_one, prime - 2, prime) % prime
+    expected = b * c % prime
+    if observed == expected or (observed, expected) != (8, 6):
+        raise RuntimeError("counterexample weld")
+    return {
+        "prime": prime,
+        "placement": "433_root_low",
+        "kernel": (4, 7, 6, 1),
+        "observed_norm_at_one": observed,
+        "claimed_neighbor_product": expected,
+    }
+
+
 def verify():
     numerator, denominator = verify_resultant_norm()
     lanes = {}
@@ -182,24 +244,30 @@ def verify():
     gates = compressed_gates()
     if len(lanes) != 8 or len(gates) != 4:
         raise RuntimeError("lane coverage")
+    counterexample = weld_counterexample(numerator, denominator)
     return {
         "numerator_u_degree": sp.degree(numerator, sp.Symbol("U")),
         "denominator_u_degree": sp.degree(denominator, sp.Symbol("U")),
         "placements": len(gates),
         "lanes": len(lanes),
         "target_degree": 4,
-        "profile_433_colored_values_determined": True,
-        "profile_442_colored_product_determined": True,
+        "resultant_identities_valid": True,
+        "graph_tables_valid": True,
+        "resultant_graph_weld_valid": False,
+        "counterexample": counterexample,
     }
 
 
 def main():
     result = verify()
     print(
-        "RATE_HALF_KB_POSITIVE_THREE_LOOP_NEIGHBOR_NORM_PASS "
+        "RATE_HALF_KB_POSITIVE_THREE_LOOP_NEIGHBOR_NORM_REFUTED "
         f"norm_degree={result['numerator_u_degree']}/"
         f"{result['denominator_u_degree']} placements={result['placements']} "
-        f"lanes={result['lanes']} target_degree={result['target_degree']}"
+        f"lanes={result['lanes']} counterexample_prime="
+        f"{result['counterexample']['prime']} observed="
+        f"{result['counterexample']['observed_norm_at_one']} claimed="
+        f"{result['counterexample']['claimed_neighbor_product']}"
     )
 
 

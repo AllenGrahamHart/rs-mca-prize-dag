@@ -1,5 +1,5 @@
 # Source evidence
 
-- The complete-fiber Vieta compiler supplies the four incident source roots, their target neighbors, and leading support.
-- The common-placement and signed outside atlases supply all eight exact 24-edge target multisets.
-- `experiments/prize_resolution/rate_half_kb_positive_three_loop_neighbor_norm.py` verifies both universal resultant identities, the degree-`(2,2)` norm, and every neighbor-product table.
+- The experiment preserves exact symbolic replay of the two true resultant identities and all separate graph tables.
+- It also verifies the `F_13` common product/sum rows, leading support, resultant coefficients, and `8!=6` weld failure.
+- The complete-source multiplicity replacement identifies why the two separately true computations cannot be equated at a ramified loop.

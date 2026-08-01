@@ -2,8 +2,9 @@
 
 | field | content |
 |---|---|
-| status | PROVED |
-| claim | The four-neighbor product of target `r` is the printed degree-`(2,2)` resultant ratio `mathcal_N(r^2)`, with the exact eight-lane tables and compressed 433/442 gates. |
-| assumptions | Positive three-loop common normalization, complete-fiber Vieta equations, leading support, four placement atlas, and signed outside graph. |
-| retained difficulty | Solve the compact norm gates, then reconstruct and saturate all seven distinct outside quotient labels. |
-| nonclaim | No norm-gate sufficiency, lane deletion, parity/orientation/type close, K3 payment, row threshold, or Prize result. |
+| status | REFUTED |
+| refuted claim | The ordinary degree-`(2,2)` resultant ratio equals the divisor-weighted target-neighbor product in positive three-loop lanes. |
+| surviving facts | The two resultant identities and their degree bounds are algebraically correct; the target-incidence tables are separately correct. |
+| falsifier | `F_13`, 433 root-low, `(b,c,x,y)=(2,3,2,3)`, kernel `(4,7,6,1)`: ordinary norm `8`, claimed graph product `6`. |
+| replacement | `rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion` applies the complete-source square at the correct local divisor order. |
+| nonclaim | The falsifier is not a complete packet and does not contradict the new direct exclusion. |

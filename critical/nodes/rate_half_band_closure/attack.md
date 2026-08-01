@@ -3328,16 +3328,23 @@ realized edges in 442 and four in 433 at `F_17` to search for a small
 unit-ideal subset of eliminants.  Every resultant candidate must still be
 back-substituted through the forbidden-root saturation.
 
-The PROVED
+The REFUTED
 `rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler`
-supplies a lower-variable exact prefilter before that saturation.  Taking
-the norm over the four source rows incident to target `r` gives one
-quadratic-over-quadratic function `mathcal_N(r^2)` equal to the product of
-its four target neighbors.  The four placement tables show that a 433
-common kernel determines both colored outside labels `e,f`; each signed 433
-lane is reduced to three norm equations in the sole remaining target `d`.
-For 442 the kernel determines `ef`, followed by three norm equations in
-`d,e,f`.  Clear the norm denominators and reduce these compact systems
-modulo each common residual before requesting a seven-label Groebner basis.
-A norm survivor is not a packet: it must still reconstruct seven distinct
-guarded quotient roots in the original Vieta system.
+must not be used as a prefilter.  Its two ordinary resultant identities and
+the separate graph tables are true, but their ramified-incidence weld is
+false.  The exact `F_13` 433 root-low common kernel
+`(b,c,x,y;d_0,d_1,d_2,beta)=(2,3,2,3;4,7,6,1)` gives ordinary norm `8`
+at target `1`, while the divisor-weighted graph table claims `bc=6`.
+Retract the compressed 433/442 equations and any downstream inference.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion`
+turns that audit catch into the correct direct theorem.  At a ramified
+positive loop where `B_1` is nonzero, only the two antipodal target rows
+vanish and each has local order one, so their resultant product has order
+two.  The complete-source square requires order four at the doubled branch
+fiber.  The contradiction, combined with the positive loop-placement
+census and the unique zero of linear `B_1`, deletes every positive two- and
+three-loop 442/433 row.  Remove those rows from the coordinate workboard.
+The surviving positive frontier is zero-loop plus one-loop, with any
+ramified one-loop forced to be the zero of `B_1`.
