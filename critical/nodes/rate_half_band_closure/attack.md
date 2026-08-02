@@ -3883,3 +3883,19 @@ root-sign symmetry closes all four rows of `[11]` without colored equations.
 The positive frontier is now one representative / eight raw rows:
 `[9,10]`.  Compact cell 9, whose exact lex basis has size eleven; a closure
 transports to cell 10.
+
+That final orbit is now closed by the PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell9_signed_pair_guard_factorization_exclusion`.
+Its complete plane-reduced resultant satisfies
+
+```text
+R=0 => N0 D0^5 (w0+1)(w0-t^2)^2(rd^2w0-rn^2)=0.
+```
+
+The degree-2344 leading norm has only `t=0,+/-1,+/-i` as deployed roots.
+Those are exactly the roots of every omitted compact-kernel scale, and the
+original localized common ideal is unit at all five values.  Exact source
+and duplicate-role symmetry therefore closes all eight rows of `[9,10]`
+without colored equations.  No positive `433-1a` common-orbit
+representative remains.  Audit the route aggregation before promoting a
+broader K3 or rate-half claim.

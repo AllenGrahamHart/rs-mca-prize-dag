@@ -15492,3 +15492,34 @@ next route step:          compact one of cells 9,11,12,14 and test the same
                           complete signed-pair guard factorization
 nonclaim:                 no positive-route, K3, LIST, MCA, or Prize closure
 ```
+
+### Work-cycle theorem: cell-9 signed-pair guard factorization
+
+```text
+compact common plane:    bidegree (4,8), 45 terms
+normalized kernel:       b-degree <=3; exact B1(-W)=-B1(W)
+raw resultant:           degrees (16,18,482), 146243 terms
+plane-reduced resultant: degrees (16,3,587), 36876 terms
+plane quotient product:  N0*D0^5*(w0+1)*(w0-t^2)^2
+                          *(rd^2*w0-rn^2)
+guard representative:    degrees (16,3,271), 17156 terms
+exact identity:           c16*R-r16*C=0 modulo P
+leading norm:             degree 2344, 2153 terms
+norm factorization:       5 linear, 2 irreducible quadratic,
+                          3 irreducible cubic factors
+norm and scale roots:     t=0,+/-1,+/-i only
+scale replay:             all five original localized common ideals unit
+result:                   necessary signed pair empty without colored cuts
+symmetry consequence:    all eight rows of orbit [9,10] PROVED excluded
+frontier delta:           one representative / 8 raw rows -> zero
+remaining positive
+common orbits:            none
+main certificate hash:    f899bd41a8bbdb394a6af4b8288abbf737c5e2825e86dff5fb8dee2c2334759b
+scale certificate hash:   1b043263a418b23e4ae98b8b0a18f929de08a8ee3aabb178fe5db8047480c6b8
+Modal apps:               ap-D3bc9co3BBMgw6yLZEsK1a,
+                          ap-vukOuXgaAxc0B61i6QK5i9,
+                          ap-CjgJIQhLQCfLgFXd6MZO6o
+next route step:          audit exact positive-route aggregation, then move
+                          to the next unresolved rate-half route
+nonclaim:                 no K3, LIST, MCA, or Prize closure
+```
