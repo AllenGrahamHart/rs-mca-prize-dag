@@ -3866,7 +3866,20 @@ again factors only into original guards.  Exact source and duplicate-role
 symmetry therefore closes all eight rows of `[12,13]` without colored
 equations.
 
-The positive frontier is now two representatives / 12 raw rows: `[9,10]`
-and `[11]`.  Compact cell 11 next, whose exact lex basis has size ten, and
-test its complete signed-pair guard factorization before introducing colored
-equations.
+The positive frontier then had two representatives / 12 raw rows.  The
+PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion`
+closes `[11]`.  Its complete plane-reduced resultant satisfies
+
+```text
+R=0 => N0 D0^5 (w0-t^2)^2 (rd^2w0-rn^2)(rd^2w0+rn^2)=0.
+```
+
+The degree-2664 leading norm has one proper non-scale fiber, whose twelve
+displayed roots are all original guards.  Every root of every omitted
+compact scale gives the unit ideal in the original common system.  Exact
+root-sign symmetry closes all four rows of `[11]` without colored equations.
+
+The positive frontier is now one representative / eight raw rows:
+`[9,10]`.  Compact cell 9, whose exact lex basis has size eleven; a closure
+transports to cell 10.

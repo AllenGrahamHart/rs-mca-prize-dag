@@ -15364,6 +15364,38 @@ next route step:          profile remaining signed-pair projections for the
 nonclaim:                 no positive-route, K3, LIST, MCA, or Prize closure
 ```
 
+### Work-cycle theorem: cell-11 signed-pair guard factorization
+
+```text
+compact common plane:    bidegree (4,8), 45 terms
+normalized kernel:       b-degree <=3; exact B1(-W)=-B1(W)
+raw resultant:           degrees (16,18,562), 172159 terms
+plane-reduced resultant: degrees (16,3,667), 42316 terms
+plane quotient product:  N0*D0^5*(w0-t^2)^2
+                          *(rd^2*w0-rn^2)*(rd^2*w0+rn^2)
+guard representative:    degrees (16,3,361), 23004 terms
+exact identity:           c16*R-r16*C=0 modulo P
+leading norm:             degree 2664, 2473 terms
+norm factorization:       10 linear, 2 irreducible cubic,
+                          1 irreducible septic
+proper norm fiber:        t=989155728, two deployed b lifts;
+                          all 12 displayed w0 roots guarded
+other non-scale fibers:   t=33199819,67070255; only b=-1
+scale roots:              seven values; every original common chart unit
+result:                   necessary signed pair empty without colored cuts
+symmetry consequence:    all four rows of orbit [11] PROVED excluded
+frontier delta:           two representatives / 12 raw rows ->
+                          one representative / 8 raw rows
+remaining orbit:          [9,10]
+main certificate hash:    52511345706c352233de5a50f0695c45e95e9564b2f512a419d76ec503093edf
+scale certificate hash:   228ffcf9ffa7937e4524691c44df54f8eaf7ad018e35d47438101470ff05cc57
+Modal apps:               ap-uERzHa6ORzJ94FeUzoVDQK,
+                          ap-Ae5V0SLvQ7V16RfkASbnDG,
+                          ap-Ko0JH1J21SFkAkmTGcM02d
+next route step:          compact cell 9, final positive representative
+nonclaim:                 no positive-route, K3, LIST, MCA, or Prize closure
+```
+
 ### Work-cycle theorem: cell-12 signed-pair guard factorization
 
 ```text
