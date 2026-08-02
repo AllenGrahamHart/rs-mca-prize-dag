@@ -1,0 +1,560 @@
+{
+  "artifact_sha256": {
+    "rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_2.txt": "af0c74a85dcb83c3245f5a93045206a431e06019fbbd3d690621d010fd9af10c",
+    "rate_half_kb_positive_433_1a_cell4_pair_w1_reconstruction_constant_factor_1.txt": "42f5512ae03c3037cc1520b3a5a4bb28d3cb6efff397cd4d948b72e036776419",
+    "rate_half_kb_positive_433_1a_cell4_pair_w1_reconstruction_linear_factor_0.txt": "14113f117c5096205e5b95cfe5b569ab28a89f8d8b4e14e22603650c85f46c6c",
+    "rate_half_kb_positive_433_1a_cell4_plane_kernel_flint_result.json": "26cc881846361a6f85d270dc436784991109f67982122b40cc4bbf75235e410e"
+  },
+  "degree_bound": 4,
+  "evaluation_rank": 15,
+  "field": 2130706433,
+  "monomials": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      0
+    ]
+  ],
+  "points": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      0
+    ]
+  ],
+  "rows": [
+    {
+      "combination_shape": {
+        "degrees": [
+          9,
+          3,
+          181
+        ],
+        "terms": 7176,
+        "total_degree": 188
+      },
+      "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_0_0.txt",
+      "file_sha256": "cc62bbaf7dd18be55e251ed5f5882bdfb04a588ee10dd56cce5d7e837a32e62f",
+      "point": [
+        0,
+        0
+      ],
+      "resultant_sha256": "954e4b862c0e7cb6f782adc320aa3dcbfcbaa8426e9b6f5f93882a994b5572fc",
+      "resultant_shape": {
+        "degrees": [
+          36,
+          0,
+          736
+        ],
+        "terms": 26913,
+        "total_degree": 752
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "combination_shape": {
+        "degrees": [
+          13,
+          3,
+          284
+        ],
+        "terms": 15832,
+        "total_degree": 294
+      },
+      "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_0_1.txt",
+      "file_sha256": "d8870f26882f212c9449849a3612ab74769879b3f608e3b8b9410dbee78910bb",
+      "point": [
+        0,
+        1
+      ],
+      "resultant_sha256": "df1f3468d88aab4f8964270798f0d7a30764e73b07d5c64d1e7b7812e330c5f8",
+      "resultant_shape": {
+        "degrees": [
+          52,
+          0,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "combination_shape": {
+        "degrees": [
+          9,
+          3,
+          181
+        ],
+        "terms": 7176,
+        "total_degree": 188
+      },
+      "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_1_0.txt",
+      "file_sha256": "f452cb6f5aa42059f8bc10c6a451681722e0a061c21be4c008119bf59d94a56f",
+      "point": [
+        1,
+        0
+      ],
+      "resultant_sha256": "7039ce4d0f9a6cf5158274a1cfd93b247af8943f7012d29c149c993e02c6c1cf",
+      "resultant_shape": {
+        "degrees": [
+          36,
+          0,
+          736
+        ],
+        "terms": 26913,
+        "total_degree": 752
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "combination_shape": {
+        "degrees": [
+          13,
+          3,
+          284
+        ],
+        "terms": 15832,
+        "total_degree": 294
+      },
+      "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_0_2.txt",
+      "file_sha256": "2a176683458a1f29912cd3f2bd0ba30f1e4dd79b1870ff6b383c00b019c08c2c",
+      "point": [
+        0,
+        2
+      ],
+      "resultant_sha256": "e87318f4780d7be8ffe423f7c09d7b170f7dc8adedb73e9592444f69365c12ef",
+      "resultant_shape": {
+        "degrees": [
+          52,
+          0,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "combination_shape": {
+        "degrees": [
+          13,
+          3,
+          284
+        ],
+        "terms": 15832,
+        "total_degree": 294
+      },
+      "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_1_1.txt",
+      "file_sha256": "5993dbe87471ff8ecb33d7f476fb86d6c7ec879013460c87990df1f764cac2a0",
+      "point": [
+        1,
+        1
+      ],
+      "resultant_sha256": "1c597fcaf750941731b9577ee6e7b7972d588f0e6f3750a3ff3f82df3317221a",
+      "resultant_shape": {
+        "degrees": [
+          52,
+          0,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "combination_shape": {
+        "degrees": [
+          9,
+          3,
+          181
+        ],
+        "terms": 7176,
+        "total_degree": 188
+      },
+      "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_2_0.txt",
+      "file_sha256": "1f5a71ce424bfe989b23ad3dafc07b0021a55fed79c0beca11a3d4e7c29c5331",
+      "point": [
+        2,
+        0
+      ],
+      "resultant_sha256": "6c6a47ff6b66cf7b197ed0a943d67c6500bf976987b7b270f2684623cd51ad5c",
+      "resultant_shape": {
+        "degrees": [
+          36,
+          0,
+          736
+        ],
+        "terms": 26913,
+        "total_degree": 752
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "combination_shape": {
+        "degrees": [
+          13,
+          3,
+          284
+        ],
+        "terms": 15832,
+        "total_degree": 294
+      },
+      "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_0_3.txt",
+      "file_sha256": "86ee54e6bac43d15f0c94e3d7a1e2567a89718444bde8281d506f470ddc17513",
+      "point": [
+        0,
+        3
+      ],
+      "resultant_sha256": "06c4a5f86844154798f9e971d376f33b17426671fa049ac25e4338c418eb02b9",
+      "resultant_shape": {
+        "degrees": [
+          52,
+          0,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "combination_shape": {
+        "degrees": [
+          13,
+          3,
+          284
+        ],
+        "terms": 15832,
+        "total_degree": 294
+      },
+      "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_1_2.txt",
+      "file_sha256": "78d02fc46c764a1d85a9a6dca81fc032ae6714b6195f23581dfe5fa5248446d6",
+      "point": [
+        1,
+        2
+      ],
+      "resultant_sha256": "11baf3636cbc543eb6d4a2b6135e7acd7d46b25af8f0e9be9759edd903e4871e",
+      "resultant_shape": {
+        "degrees": [
+          52,
+          0,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "combination_shape": {
+        "degrees": [
+          13,
+          3,
+          284
+        ],
+        "terms": 15832,
+        "total_degree": 294
+      },
+      "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_2_1.txt",
+      "file_sha256": "e3fa1568c3d72e71ce911bd4adeaca27bc094b889fb73844cec0f8d1ab8caba4",
+      "point": [
+        2,
+        1
+      ],
+      "resultant_sha256": "4f05be096ffacaac618d7fb3a1a159f27dd2dfb0618922e3268b9aec39f2cd74",
+      "resultant_shape": {
+        "degrees": [
+          52,
+          0,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "combination_shape": {
+        "degrees": [
+          9,
+          3,
+          181
+        ],
+        "terms": 7176,
+        "total_degree": 188
+      },
+      "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_3_0.txt",
+      "file_sha256": "f9028a1f6119ef2e08f17643aeeab769b5e7b1ed275ac4b3e54253347aeb587f",
+      "point": [
+        3,
+        0
+      ],
+      "resultant_sha256": "dff3cf35225089f0b50eb9c4dbc64a60809a8ce8bc6eaf4166e54bd1076d29e5",
+      "resultant_shape": {
+        "degrees": [
+          36,
+          0,
+          736
+        ],
+        "terms": 26913,
+        "total_degree": 752
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "combination_shape": {
+        "degrees": [
+          13,
+          3,
+          284
+        ],
+        "terms": 15832,
+        "total_degree": 294
+      },
+      "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_0_4.txt",
+      "file_sha256": "630a50d3be81a5bc0506c6cd966b8a8e6078f436061dde27e82eacce389a3323",
+      "point": [
+        0,
+        4
+      ],
+      "resultant_sha256": "5441154f3dfe24bd5bbc270ec7666d88ccb8ab7cd707e069bf154e9a65bbdaa2",
+      "resultant_shape": {
+        "degrees": [
+          52,
+          0,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "combination_shape": {
+        "degrees": [
+          13,
+          3,
+          284
+        ],
+        "terms": 15832,
+        "total_degree": 294
+      },
+      "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_1_3.txt",
+      "file_sha256": "3a0ae3cc6e576db28c67ed7d26bd6a7bb495612129d3ff228bade8ce239d6aac",
+      "point": [
+        1,
+        3
+      ],
+      "resultant_sha256": "e19efbcb48b99536c9abd10a9709079f8bd9658d51df6f1424bdf9f07d23d7b6",
+      "resultant_shape": {
+        "degrees": [
+          52,
+          0,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "combination_shape": {
+        "degrees": [
+          13,
+          3,
+          284
+        ],
+        "terms": 15832,
+        "total_degree": 294
+      },
+      "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_2_2.txt",
+      "file_sha256": "ab7f582d94e849958508aeaabf1fefade4deafd57904c2c1ee160cde7389c1ac",
+      "point": [
+        2,
+        2
+      ],
+      "resultant_sha256": "9ca2176c66ac29fe00b028f0e1d8e18670a716d6eab1833218d584d72907e269",
+      "resultant_shape": {
+        "degrees": [
+          52,
+          0,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "combination_shape": {
+        "degrees": [
+          13,
+          3,
+          284
+        ],
+        "terms": 15832,
+        "total_degree": 294
+      },
+      "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_3_1.txt",
+      "file_sha256": "75d827d0c2e3520dbffd65965b66f274bf1950758cde29e63ee8e6dabc77d160",
+      "point": [
+        3,
+        1
+      ],
+      "resultant_sha256": "2fb091f96b5709c0d7e51f9dbec3436895e61c02229900908d79e0712c3042c6",
+      "resultant_shape": {
+        "degrees": [
+          52,
+          0,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "combination_shape": {
+        "degrees": [
+          9,
+          3,
+          181
+        ],
+        "terms": 7176,
+        "total_degree": 188
+      },
+      "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_4_0.txt",
+      "file_sha256": "1bc89033cb7003652b07d08355c064f32cbfb85dc450401a4de546aab58be678",
+      "point": [
+        4,
+        0
+      ],
+      "resultant_sha256": "994aa6eca676a0020d44d8e539fa087673606fc0d87105f4ca7c7b60096488b4",
+      "resultant_shape": {
+        "degrees": [
+          36,
+          0,
+          736
+        ],
+        "terms": 26913,
+        "total_degree": 752
+      },
+      "status": "COMPLETE"
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1a-cell4-pair-exceptional-b-resultant-ledger-v1",
+  "scope": "Fifteen exact unisolvent evaluations of Res_b(plane,L+sM+uF); simultaneous vanishing is equivalent, away from the plane-leading guard, to a common algebraic root of plane,L,M,F. No unit, deployed-point, colored, orbit, or Prize claim.",
+  "status": "COMPLETE"
+}

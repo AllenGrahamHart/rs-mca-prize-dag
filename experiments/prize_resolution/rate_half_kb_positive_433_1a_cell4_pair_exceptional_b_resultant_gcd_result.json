@@ -1,0 +1,598 @@
+{
+  "result": {
+    "common": {
+      "content": 1,
+      "factors": [
+        {
+          "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_common_factor_0.txt",
+          "file_sha256": "f57497ad04c2cec181cf9761087f78ea731e2cf3f484e53b25b756fb9e509e9e",
+          "multiplicity": 14,
+          "sha256": "38efd4f84091e638453ba3a6d22c4e0f4902bf5e017d0f2cc2a20572a689f880",
+          "shape": {
+            "degrees": [
+              0,
+              3
+            ],
+            "terms": 4,
+            "total_degree": 3
+          }
+        },
+        {
+          "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_common_factor_1.txt",
+          "file_sha256": "a364fe2fef82e60d75bfd677baf9963de961fcd55ba4959d74094853ea2f5cec",
+          "multiplicity": 26,
+          "sha256": "7249db31e68d9e7d4265322fee1935c3e3fcff0fcabfab3527d3f0680598a051",
+          "shape": {
+            "degrees": [
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          }
+        },
+        {
+          "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_common_factor_2.txt",
+          "file_sha256": "75ec300f31c08f816651e0b09895f16ae9b7c50f9c60a57e2a947dfce887334e",
+          "multiplicity": 42,
+          "sha256": "7bc1c4c890af336bb972949da974b939a2114894978386462d5faa9f09adbece",
+          "shape": {
+            "degrees": [
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          }
+        },
+        {
+          "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_common_factor_3.txt",
+          "file_sha256": "7ea2e436f791ca6acb03fb35f27de6c9cbde33c4a921ff1d78f633164efbffbb",
+          "multiplicity": 62,
+          "sha256": "2582a9e126854a6445d667fce513c504f26b1cfbfe3d4ac631b7fe85b20cdca4",
+          "shape": {
+            "degrees": [
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          }
+        },
+        {
+          "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_common_factor_4.txt",
+          "file_sha256": "cdaef80ec09f5135a467e368be3a44b5db0e0fed2592cefcd097a7872f2b4332",
+          "multiplicity": 90,
+          "sha256": "cb4fa1b78ab6c231170f0163dfdc67e0e7cf795a2fca68021bfb0bec110eff02",
+          "shape": {
+            "degrees": [
+              0,
+              3
+            ],
+            "terms": 4,
+            "total_degree": 3
+          }
+        },
+        {
+          "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_common_factor_5.txt",
+          "file_sha256": "a9e9434fdc1e0aaf42a34cce677083f9ca22d043da14536fc863ba10f6abe5f2",
+          "multiplicity": 228,
+          "sha256": "6096afd0276352ba1e4a073fbbf296c04d59afb643442e9db877175030aa933a",
+          "shape": {
+            "degrees": [
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          }
+        },
+        {
+          "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_common_factor_6.txt",
+          "file_sha256": "4001b13396f0ac9a3f5621ec4d958eb944d570f87ad36bff9259819dc7519a85",
+          "multiplicity": 2,
+          "sha256": "d7a8a758ecd4adaa7c1f4e2f680523de319ddb2b0b2ee5a082073c3278167fb0",
+          "shape": {
+            "degrees": [
+              8,
+              12
+            ],
+            "terms": 97,
+            "total_degree": 16
+          }
+        }
+      ],
+      "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_common.txt",
+      "file_sha256": "20ef38a520b960c299cfd956633508433a12152b352b3a97cf4f68ff132b19ae",
+      "sha256": "8bde8a57253c20751cc2d5e24a9f5a921693c5348b1088a4ba6c72a59a19b89c",
+      "shape": {
+        "degrees": [
+          16,
+          694
+        ],
+        "terms": 11743,
+        "total_degree": 702
+      }
+    },
+    "gcd_steps": [
+      {
+        "shape": {
+          "degrees": [
+            16,
+            696
+          ],
+          "terms": 11777,
+          "total_degree": 704
+        },
+        "through_index": 1
+      },
+      {
+        "shape": {
+          "degrees": [
+            16,
+            694
+          ],
+          "terms": 11743,
+          "total_degree": 702
+        },
+        "through_index": 2
+      },
+      {
+        "shape": {
+          "degrees": [
+            16,
+            694
+          ],
+          "terms": 11743,
+          "total_degree": 702
+        },
+        "through_index": 3
+      },
+      {
+        "shape": {
+          "degrees": [
+            16,
+            694
+          ],
+          "terms": 11743,
+          "total_degree": 702
+        },
+        "through_index": 4
+      },
+      {
+        "shape": {
+          "degrees": [
+            16,
+            694
+          ],
+          "terms": 11743,
+          "total_degree": 702
+        },
+        "through_index": 5
+      },
+      {
+        "shape": {
+          "degrees": [
+            16,
+            694
+          ],
+          "terms": 11743,
+          "total_degree": 702
+        },
+        "through_index": 6
+      },
+      {
+        "shape": {
+          "degrees": [
+            16,
+            694
+          ],
+          "terms": 11743,
+          "total_degree": 702
+        },
+        "through_index": 7
+      },
+      {
+        "shape": {
+          "degrees": [
+            16,
+            694
+          ],
+          "terms": 11743,
+          "total_degree": 702
+        },
+        "through_index": 8
+      },
+      {
+        "shape": {
+          "degrees": [
+            16,
+            694
+          ],
+          "terms": 11743,
+          "total_degree": 702
+        },
+        "through_index": 9
+      },
+      {
+        "shape": {
+          "degrees": [
+            16,
+            694
+          ],
+          "terms": 11743,
+          "total_degree": 702
+        },
+        "through_index": 10
+      },
+      {
+        "shape": {
+          "degrees": [
+            16,
+            694
+          ],
+          "terms": 11743,
+          "total_degree": 702
+        },
+        "through_index": 11
+      },
+      {
+        "shape": {
+          "degrees": [
+            16,
+            694
+          ],
+          "terms": 11743,
+          "total_degree": 702
+        },
+        "through_index": 12
+      },
+      {
+        "shape": {
+          "degrees": [
+            16,
+            694
+          ],
+          "terms": 11743,
+          "total_degree": 702
+        },
+        "through_index": 13
+      },
+      {
+        "shape": {
+          "degrees": [
+            16,
+            694
+          ],
+          "terms": 11743,
+          "total_degree": 702
+        },
+        "through_index": 14
+      }
+    ],
+    "primitive_rows": [
+      {
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_0_0.txt",
+        "file_sha256": "047cc5c094780132c19272e3097cf8b2ef3efd6f9eebe70b0a8211fa65092cd5",
+        "sha256": "15aa1f04c7c81f185a47fabd868bbadb8b21df89e14601ca49df19418d38e90b",
+        "shape": {
+          "degrees": [
+            20,
+            42
+          ],
+          "terms": 779,
+          "total_degree": 50
+        }
+      },
+      {
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_0_1.txt",
+        "file_sha256": "ea80da20d5cfece29bcb0738b9b226f2fae69a7fe9f178000fbf888a2ee6af29",
+        "sha256": "a2acb028b7a28a8503c42e8937926a9c2cca781ba2b31ce4f690036946329e2f",
+        "shape": {
+          "degrees": [
+            36,
+            454
+          ],
+          "terms": 16653,
+          "total_degree": 474
+        }
+      },
+      {
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_1_0.txt",
+        "file_sha256": "bc4d5ec397171595c1f5b33d6ff8dc90a677e8f75d0b70e8d7715316233f616f",
+        "sha256": "13b1a8fdbfac3b91a89906cb3643f68bc1c4e16c51088031012af28ca1446401",
+        "shape": {
+          "degrees": [
+            20,
+            42
+          ],
+          "terms": 779,
+          "total_degree": 50
+        }
+      },
+      {
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_0_2.txt",
+        "file_sha256": "c84bcac0ad680740f4bbcd153c73322d011317e4ad5f5c83cbd376315c2286ab",
+        "sha256": "c9428541c9e25f832fec2f7d9797c264f87552c870a69fd7256f8c85b81ca2bf",
+        "shape": {
+          "degrees": [
+            36,
+            454
+          ],
+          "terms": 16653,
+          "total_degree": 474
+        }
+      },
+      {
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_1_1.txt",
+        "file_sha256": "2c7b51cba9421299e17d3b575b1c83beecb7d0633343fd56761fe386b612ec66",
+        "sha256": "c7e58e7754fbf2fe3ec535f59ca639c70d4f2a9b009474b01c31a9a5d2755eed",
+        "shape": {
+          "degrees": [
+            36,
+            454
+          ],
+          "terms": 16653,
+          "total_degree": 474
+        }
+      },
+      {
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_2_0.txt",
+        "file_sha256": "1b04d89a37c409a9d59bb4b37adc85dcbf0a77d5f867f84147feb684897fcc74",
+        "sha256": "3d4be2d0988966dc05a87e4fbf1deba3f29cbe97f52392f07eb6071cb5f98e68",
+        "shape": {
+          "degrees": [
+            20,
+            42
+          ],
+          "terms": 779,
+          "total_degree": 50
+        }
+      },
+      {
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_0_3.txt",
+        "file_sha256": "4812b7c3aca5cc949bccd1a75d3b3fbdcb09c3213f1a64de2b4da7712d4396aa",
+        "sha256": "804a66a6ebf6eea8633fe2392b159ff1c45301562a36035c0c041519b0a102ae",
+        "shape": {
+          "degrees": [
+            36,
+            454
+          ],
+          "terms": 16653,
+          "total_degree": 474
+        }
+      },
+      {
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_1_2.txt",
+        "file_sha256": "61115a0ac8a21b9227c806b4c7a13e41fd68c4a6d73c4447814385d7852f8c3a",
+        "sha256": "98bf3834100a63c5359f0c68e1ed8825d6256fcabff62d75fb6b523d9e30f6d4",
+        "shape": {
+          "degrees": [
+            36,
+            454
+          ],
+          "terms": 16653,
+          "total_degree": 474
+        }
+      },
+      {
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_2_1.txt",
+        "file_sha256": "6f5853e36a9498b6f9880dca8e2ef26e685985a9f67ffe890a661e4a915d5dfa",
+        "sha256": "a25268c11977937fb9b37031baa8acaabffb8fdb919d6eb240bc0f1c2116f7c0",
+        "shape": {
+          "degrees": [
+            36,
+            454
+          ],
+          "terms": 16653,
+          "total_degree": 474
+        }
+      },
+      {
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_3_0.txt",
+        "file_sha256": "9a3fb80664f67f20d972d27f2e210021b318e0457ef9a76470e8073b6638ca37",
+        "sha256": "4b0afac6bd2956846d80266756a8fbb25970772cd49518a94f3821058ee3bd45",
+        "shape": {
+          "degrees": [
+            20,
+            42
+          ],
+          "terms": 779,
+          "total_degree": 50
+        }
+      },
+      {
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_0_4.txt",
+        "file_sha256": "f5a3c222031e2eac96e756ac7aa7dfa21fb9524d07c621a50659e954aaa1b226",
+        "sha256": "bf9631790c04270b2c9b26586ace1b93ee54df0ad3675809bd48eb4a047c502c",
+        "shape": {
+          "degrees": [
+            36,
+            454
+          ],
+          "terms": 16653,
+          "total_degree": 474
+        }
+      },
+      {
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_1_3.txt",
+        "file_sha256": "f0516f612c0990e90d4f72022ab1a06e9dc26153dbf9ba3ba90ea549d67e39e2",
+        "sha256": "3f8938f8c669f3c375c31b18efadf71e765a79d8c5a964bb01ca8825adc5df0b",
+        "shape": {
+          "degrees": [
+            36,
+            454
+          ],
+          "terms": 16653,
+          "total_degree": 474
+        }
+      },
+      {
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_2_2.txt",
+        "file_sha256": "2df07a3ca00959bb916ee72b7ea06debf97f1ea4351c2af9650801cccbb9c19b",
+        "sha256": "c9950d8fc923f63241b9e9f6c8ef1fbc8dec0c6dba4a75a00f3b22d70354d961",
+        "shape": {
+          "degrees": [
+            36,
+            454
+          ],
+          "terms": 16653,
+          "total_degree": 474
+        }
+      },
+      {
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_3_1.txt",
+        "file_sha256": "019845b91924c6abaa3deeee4adc830ccd0e559b3b71412352e085408a45039c",
+        "sha256": "ecf55f6fc148759639aa633f396e748126d148da70e1e130f3e6f79e0302e35f",
+        "shape": {
+          "degrees": [
+            36,
+            454
+          ],
+          "terms": 16653,
+          "total_degree": 474
+        }
+      },
+      {
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_4_0.txt",
+        "file_sha256": "a5d6284fd099350707b8c9d7696f986a41399ca6d25ef1fdaba83be4918b1f43",
+        "sha256": "afaf365e6f6ee1d1adfb6fac581fc136a50f45e09eb84ee321c14bbd8509c163",
+        "shape": {
+          "degrees": [
+            20,
+            42
+          ],
+          "terms": 779,
+          "total_degree": 50
+        }
+      }
+    ],
+    "source_shapes": [
+      {
+        "degrees": [
+          36,
+          736
+        ],
+        "terms": 26913,
+        "total_degree": 752
+      },
+      {
+        "degrees": [
+          52,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      {
+        "degrees": [
+          36,
+          736
+        ],
+        "terms": 26913,
+        "total_degree": 752
+      },
+      {
+        "degrees": [
+          52,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      {
+        "degrees": [
+          52,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      {
+        "degrees": [
+          36,
+          736
+        ],
+        "terms": 26913,
+        "total_degree": 752
+      },
+      {
+        "degrees": [
+          52,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      {
+        "degrees": [
+          52,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      {
+        "degrees": [
+          52,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      {
+        "degrees": [
+          36,
+          736
+        ],
+        "terms": 26913,
+        "total_degree": 752
+      },
+      {
+        "degrees": [
+          52,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      {
+        "degrees": [
+          52,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      {
+        "degrees": [
+          52,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      {
+        "degrees": [
+          52,
+          1148
+        ],
+        "terms": 60451,
+        "total_degree": 1176
+      },
+      {
+        "degrees": [
+          36,
+          736
+        ],
+        "terms": 26913,
+        "total_degree": 752
+      }
+    ],
+    "status": "COMPLETE"
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell4-pair-exceptional-b-resultant-gcd-v1",
+  "scope": "Exact common-gcd removal from the fifteen unisolvent resultant evaluations; no unit, point, colored, orbit, or Prize claim.",
+  "source_archive_sha256": "fe4a266328c14d6ba5625d2900589cbc1f87e6a669631f1104c78784d6fbd009",
+  "source_ledger_sha256": "0a6dda18b50b781f43c18fd1c2227c06780b957ce9bc64bffb96071aff16615a"
+}

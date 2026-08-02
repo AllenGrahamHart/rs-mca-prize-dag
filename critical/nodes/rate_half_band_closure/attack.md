@@ -3767,3 +3767,25 @@ dimension.  On `L!=0`, reconstruct
 `w1=-tM/L` and append the colored equations after every reduction by the
 plane and `F`.  Do not treat the necessary factor `F` as a sufficient pair
 solution and do not return to the global four-equation basis.
+
+The exceptional coefficient chart is now decomposed by the PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition`.
+For `R_(s,u)=Res_b(P,L+sM+uF)`, the fifteen simplex evaluations
+`s,u>=0`, `s+u<=4` have rank 15 and common gcd
+
+```text
+U(t)H(w0,t)^2,
+```
+
+where `H` is irreducible of bidegree `(8,12)`.  The deployed roots of `U`
+are only original guard zeros; its other factors are irreducible cubics.  The
+fifteen primitive quotients leave a degree-470 algebra, but its degree-105
+`t` eliminant factors only over `t=0,+/-1,+/-i` and one irreducible cubic.
+Thus the residual has no admissible deployed point and `H` is the sole
+surviving exceptional projection.  Modulo `H`, exact pseudo-Euclidean
+division gives a generic linear common divisor `A(w0,t)b+B(w0,t)` of
+`P,L,M,F`.
+
+Treat `H` as a genuine separate curve.  Classify the quotient-leading and
+`A=0` loci, then append the signed-pair root and colored equations on the
+generic lift.  Do not infer that every `H` point is realized.

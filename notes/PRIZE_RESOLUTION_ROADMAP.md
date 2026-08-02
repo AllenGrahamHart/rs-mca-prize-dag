@@ -15266,6 +15266,34 @@ nonclaim:                 necessary projection only; no [4,7], route, K3,
                           LIST, MCA, or Prize closure
 ```
 
+### Work-cycle theorem: cell-4 exceptional coefficient projection
+
+```text
+exceptional chart:        plane=P=0, live factor F=0, L=M=0
+interpolation family:     R_(s,u)=Res_b(P,L+sM+uF), total degree <=4
+evaluation ledger:        15 simplex points, exact rank 15
+common gcd:               U(t)*H(w0,t)^2
+H:                        irreducible bidegree (8,12), 97 terms
+U deployed roots:         only t=+/-1,+/-i; two other factors irreducible
+primitive residual:       dimension 0, degree 470 after all 15 quotients
+lex basis:                17 elements; t eliminant degree 105, 93 terms
+t factorization:          t^13(t+i)^4*C3^5(t-i)^11(t+1)^18(t-1)^44
+residual decision:        no admissible F_2130706433 point
+surviving projection:     H=0 only
+generic b lift:           A(w0,t)b+B(w0,t), degrees (7,1,688);
+                          plane,L,M,F all have zero remainder modulo H
+result hashes:            0a6dda18b50b781f43c18fd1c2227c06780b957ce9bc64bffb96071aff16615a
+                          14ff20605cca740d77a0b958f1f9f0213bdf0ea51fdb6d186010440516ec3fe8
+                          97a2e4a1a2604d8d1aed0ab0055efd9658e02cc45d36a677d707913cccc723d7
+                          b43f5564881d58c5b49066e933c107b6c70a7242ee51393dd038e27a7e006491
+                          9fb8910e89aa959f5af9b87546244c7b86a65cf1b5e796e09120655dc5033077
+                          889fe454c5864fba61940264892404e840cec34317b3659f8a3ffa6bcc3b8a23
+next route step:          leading exceptions, then signed-pair and colored
+                          equations on the H lift
+nonclaim:                 H is necessary, not sufficient; no [4,7], route,
+                          K3, LIST, MCA, or Prize closure
+```
+
 ### Work-cycle theorem: cell-3 exceptional scale-chart exclusion
 
 ```text

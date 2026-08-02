@@ -21741,6 +21741,43 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition",
+   "title": "KoalaBear positive 433-1a cell-4 exceptional coefficient projection decomposition",
+   "status": "PROVED",
+   "closure": "exact unisolvent resultant decomposition, residual deployed-point exclusion, and generic H-curve b lift",
+   "statement": "For the cell-4 exceptional coefficient chart L=M=0, fifteen unisolvent evaluations of Res_b(P,L+sM+uF) have common gcd U(t)H(w0,t)^2, where all deployed roots of U are original guard zeros and H is irreducible of bidegree (8,12). The fifteen primitive quotients form a degree-470 residual algebra whose degree-105 t eliminant has only guard linear roots and one irreducible cubic, so it has no admissible deployed point. Every admissible exceptional projection therefore lies on H. Modulo H, P,L,M,F share an exact generic linear b divisor. Leading-scale exceptions, signed-pair sufficiency, and colored equations remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_ledger_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_ledger_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_sources.tar.gz",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_gcd_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_gcd_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_common_factor_6.txt",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_sources.tar.gz",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_sequence_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_sequence_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_lex_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_lex_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_tpoly.txt",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_tpoly_factor_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_tpoly_factor_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_b_gcd_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_b_gcd_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_b_gcd_polynomial.txt"
+   ]
+  },
+  {
    "id": "dli_c1_256_block_basis_factorization",
    "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
    "status": "PROVED",
@@ -42953,6 +42990,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
