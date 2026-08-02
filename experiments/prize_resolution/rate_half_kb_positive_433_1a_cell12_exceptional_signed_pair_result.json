@@ -1,0 +1,212 @@
+{
+  "result": {
+    "all_deployed_roots_guarded": true,
+    "b_polynomial": "x^2 + 2121031960*x + 1",
+    "b_roots": [
+      816507220,
+      1323873686
+    ],
+    "field": 2130706433,
+    "rows": [
+      {
+        "all_deployed_roots_guarded": true,
+        "b": 816507220,
+        "c": 1391037005,
+        "factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "owners": [
+              "w0-r^2"
+            ],
+            "polynomial": "w0 + 1578457985"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "owners": [
+              "N0"
+            ],
+            "polynomial": "w0 + 1348284269"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "owners": [
+              "w0+1"
+            ],
+            "polynomial": "w0 + 1"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "owners": [
+              "N0"
+            ],
+            "polynomial": "w0 + 477388995"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "owners": [
+              "w0+r^2"
+            ],
+            "polynomial": "w0 + 552248448"
+          },
+          {
+            "degree": 2,
+            "multiplicity": 5,
+            "owners": [
+              "D0"
+            ],
+            "polynomial": "w0^2 + 1037973343*w0 + 179858942"
+          }
+        ],
+        "kernel": {
+          "a0": [
+            1678477329,
+            526319794,
+            1872180062
+          ],
+          "a2": [
+            751979788,
+            1106567907,
+            1159765833
+          ],
+          "b1": [
+            740133353,
+            1390573080
+          ]
+        },
+        "product_shape": {
+          "degrees": [
+            2,
+            2
+          ],
+          "terms": 9,
+          "total_degree": 4
+        },
+        "r": 558459069,
+        "resultant_sha256": "01cf520b8fce442701ebd85b97253d1efc0d00c8bb4d085d3c72b01e5fe674f5",
+        "resultant_shape": {
+          "degrees": [
+            0,
+            16
+          ],
+          "terms": 17,
+          "total_degree": 16
+        },
+        "square_shape": {
+          "degrees": [
+            4,
+            4
+          ],
+          "terms": 25,
+          "total_degree": 8
+        }
+      },
+      {
+        "all_deployed_roots_guarded": true,
+        "b": 1323873686,
+        "c": 671823740,
+        "factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "owners": [
+              "w0-r^2"
+            ],
+            "polynomial": "w0 + 1578457985"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "owners": [
+              "w0+1"
+            ],
+            "polynomial": "w0 + 1"
+          },
+          {
+            "degree": 2,
+            "multiplicity": 1,
+            "owners": [
+              "N0"
+            ],
+            "polynomial": "w0^2 + 1037973343*w0 + 179858942"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "owners": [
+              "w0+r^2"
+            ],
+            "polynomial": "w0 + 552248448"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 5,
+            "owners": [
+              "D0"
+            ],
+            "polynomial": "w0 + 1348284269"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 5,
+            "owners": [
+              "D0"
+            ],
+            "polynomial": "w0 + 477388995"
+          }
+        ],
+        "kernel": {
+          "a0": [
+            1070087477,
+            1541368555,
+            256736158
+          ],
+          "a2": [
+            696585991,
+            1311611805,
+            559466421
+          ],
+          "b1": [
+            694590163,
+            1436116270
+          ]
+        },
+        "product_shape": {
+          "degrees": [
+            2,
+            2
+          ],
+          "terms": 9,
+          "total_degree": 4
+        },
+        "r": 558459069,
+        "resultant_sha256": "dbd5da7c2bc2db5e28ad8c8961ecf58e9f6d77d2ba6699c6e69ea5bd6bdbb497",
+        "resultant_shape": {
+          "degrees": [
+            0,
+            16
+          ],
+          "terms": 17,
+          "total_degree": 16
+        },
+        "square_shape": {
+          "degrees": [
+            4,
+            4
+          ],
+          "terms": 25,
+          "total_degree": 8
+        }
+      }
+    ],
+    "source_charts_sha256": "8a69f8415e358c240cfcbbd7650676922988360ddae1b2b04f768ca3774bd2e1",
+    "status": "COMPLETE",
+    "t": 1117681606
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell12-exceptional-signed-pair-v1",
+  "scope": "Exact unnormalized common-kernel and complete signed-pair resultant replay at every deployed point of the sole proper cell-12 exceptional scale fiber; no orbit or Prize claim."
+}

@@ -1,0 +1,38 @@
+=== hunt N=32 w=16 ===
+{"N": 32, "twoN": 64, "w": 16, "target_law_prediction": "5341156734071209984", "restarts_done": 19442, "seconds": 230.0, "best_found_norm_exact": "15217367133662920708", "best_bareiss": "15217367133662920708", "best_is_primitive": true, "best_over_target_ratio": 2.849077061639367, "n_strict_beats": 19169, "REFUTES_CONJECTURE": true}
+=== hunt N=32 w=15 ===
+Traceback (most recent call last):
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/hunt.py", line 141, in <module>
+    main()
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/hunt.py", line 119, in main
+    n_beats[0] += 1
+    ^^^^^^^
+NameError: name 'n_beats' is not defined. Did you mean: 'beats'?
+FAILED 32 15
+=== hunt N=32 w=14 ===
+Traceback (most recent call last):
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/hunt.py", line 141, in <module>
+    main()
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/hunt.py", line 119, in main
+    n_beats[0] += 1
+    ^^^^^^^
+NameError: name 'n_beats' is not defined. Did you mean: 'beats'?
+FAILED 32 14
+=== hunt N=32 w=13 ===
+{"N": 32, "twoN": 64, "w": 13, "target_law_prediction": "604793599934583361", "restarts_done": 40000, "seconds": 220.9, "best_found_norm_exact": "604793599934583361", "best_bareiss": "604793599934583361", "best_is_primitive": false, "best_over_target_ratio": 1.0, "n_strict_beats": 0, "REFUTES_CONJECTURE": false}
+=== hunt N=32 w=12 ===
+{"N": 32, "twoN": 64, "w": 12, "target_law_prediction": "117228382536325636", "restarts_done": 40000, "seconds": 170.2, "best_found_norm_exact": "146712587620147264", "best_bareiss": "146712587620147264", "best_is_primitive": true, "best_over_target_ratio": 1.2515108069045082, "n_strict_beats": 166, "REFUTES_CONJECTURE": true}
+=== hunt N=64 w=7 ===
+{"N": 64, "twoN": 128, "w": 7, "target_law_prediction": "1104427674243920646305299201", "restarts_done": 4654, "seconds": 230.0, "best_found_norm_exact": "566977372488557307219621121", "best_bareiss": "566977372488557307219621121", "best_is_primitive": false, "best_over_target_ratio": 0.5133675891241171, "n_strict_beats": 0, "REFUTES_CONJECTURE": false}
+=== hunt N=64 w=8 ===
+{"N": 64, "twoN": 128, "w": 8, "target_law_prediction": "47474308632323863464483717136", "restarts_done": 1876, "seconds": 230.0, "best_found_norm_exact": "47474308632323863464483717136", "best_bareiss": "47474308632323863464483717136", "best_is_primitive": false, "best_over_target_ratio": 1.0, "n_strict_beats": 0, "REFUTES_CONJECTURE": false}
+=== hunt N=64 w=9 ===
+{"N": 64, "twoN": 128, "w": 9, "target_law_prediction": "2301619141096101839813550846721", "restarts_done": 1832, "seconds": 230.0, "best_found_norm_exact": "1484546123162756888784034356481", "best_bareiss": "1484546123162756888784034356481", "best_is_primitive": false, "best_over_target_ratio": 0.6450007721328606, "n_strict_beats": 0, "REFUTES_CONJECTURE": false}
+=== hunt N=64 w=10 ===
+{"N": 64, "twoN": 128, "w": 10, "target_law_prediction": "51178457861841741792166689945616", "restarts_done": 1438, "seconds": 230.0, "best_found_norm_exact": "51178457861841741792166689945616", "best_bareiss": "51178457861841741792166689945616", "best_is_primitive": false, "best_over_target_ratio": 1.0, "n_strict_beats": 0, "REFUTES_CONJECTURE": false}
+=== hunt N=128 w=4 ===
+{"N": 128, "twoN": 256, "w": 4, "target_law_prediction": "4743480741674980702700443299789930496", "restarts_done": 1293, "seconds": 230.1, "best_found_norm_exact": "4743480741674980702700443299789930496", "best_bareiss": "4743480741674980702700443299789930496", "best_is_primitive": false, "best_over_target_ratio": 1.0, "n_strict_beats": 0, "REFUTES_CONJECTURE": false}
+=== hunt N=128 w=5 ===
+{"N": 128, "twoN": 256, "w": 5, "target_law_prediction": "37608910510519071039902074217516707306379521", "restarts_done": 712, "seconds": 230.3, "best_found_norm_exact": "37608910510519071039902074217516707306379521", "best_bareiss": "37608910510519071039902074217516707306379521", "best_is_primitive": false, "best_over_target_ratio": 1.0, "n_strict_beats": 0, "REFUTES_CONJECTURE": false}
+=== hunt N=128 w=6 ===
+{"N": 128, "twoN": 256, "w": 6, "target_law_prediction": "9892201202510488880834903224968047565840171728896", "restarts_done": 452, "seconds": 230.2, "best_found_norm_exact": "9892082352555026450839678066754329626218083123456", "best_bareiss": "9892082352555026450839678066754329626218083123456", "best_is_primitive": false, "best_over_target_ratio": 0.9999879854894751, "n_strict_beats": 0, "REFUTES_CONJECTURE": false}

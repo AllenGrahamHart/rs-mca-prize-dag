@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "guard_trivial": true,
+      "program_sha256": "fa3e047594fd318130045af162a007456e917bbe4b651b7b17fffbb1e7c10d4f",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n-1\n1\nUNIT=1\nEND_CHART\n",
+      "t": 0,
+      "unit": true
+    },
+    {
+      "guard_trivial": true,
+      "program_sha256": "20d6c59397b8a208c2fa6401ba9d23906033a2061751fd95c3a57c5626e29315",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n-1\n1\nUNIT=1\nEND_CHART\n",
+      "t": 1,
+      "unit": true
+    },
+    {
+      "guard_trivial": true,
+      "program_sha256": "cdda3be358f242bf272cf8beaacdc73c4d5d2fb349dce6aefde9e8507b865367",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n-1\n1\nUNIT=1\nEND_CHART\n",
+      "t": 16711679,
+      "unit": true
+    },
+    {
+      "guard_trivial": false,
+      "program_sha256": "885ba42475403fcd960733b517e29d1eae90652393731bca293481f8ae280b43",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n0\n5\nUNIT=0\nG[1]=t+1013024827\nG[2]=r-558459069\nG[3]=c+40350282b-460157884\nG[4]=b2-9674473b+1\nG[5]=u-804018985b+98948155\nEND_CHART\n",
+      "t": 1117681606,
+      "unit": false
+    },
+    {
+      "guard_trivial": true,
+      "program_sha256": "713711579e4ac8e701d19d18e94c81615972a4dd4677128d194368cc56b582ca",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n-1\n1\nUNIT=1\nEND_CHART\n",
+      "t": 2113994754,
+      "unit": true
+    },
+    {
+      "guard_trivial": true,
+      "program_sha256": "fdb118392efa9bfc2b71e19d72d38745f6c35ccedc693e76f4e8aad386baeaee",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n-1\n1\nUNIT=1\nEND_CHART\n",
+      "t": 2130706432,
+      "unit": true
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1a-cell12-exceptional-common-charts-v1",
+  "scope": "Exact original-common-ideal decisions at every deployed linear root of the cell-12 chart scales; no outside, orbit, or Prize claim.",
+  "source_factor_sha256": "5f78ea3741ba8ec4ca6e484196293313ed37c73e6de50598c37d341dec545e3f"
+}

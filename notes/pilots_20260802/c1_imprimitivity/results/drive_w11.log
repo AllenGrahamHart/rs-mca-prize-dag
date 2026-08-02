@@ -1,0 +1,114 @@
+=== N=32 w=11 part 0/6 ===
+Traceback (most recent call last):
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 131, in <module>
+    rec = scan(a.N, a.w, int(a.target), a.part, a.nparts, a.outdir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 41, in scan
+    reps = np.load(rp) if os.path.exists(rp) else affine_reps(N, w)
+                                                  ^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 129, in affine_reps
+    chunk = np.unique(canon_rot(m, N))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/.local/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py", line 294, in unique
+    ret = _unique1d(ar, return_index, return_inverse, return_counts,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/.local/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py", line 371, in _unique1d
+    if (hash_unique := _unique_hash(ar_)) is not NotImplemented:
+                       ^^^^^^^^^^^^^^^^^
+MemoryError
+FAILED 0
+=== N=32 w=11 part 1/6 ===
+Traceback (most recent call last):
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 131, in <module>
+    rec = scan(a.N, a.w, int(a.target), a.part, a.nparts, a.outdir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 41, in scan
+    reps = np.load(rp) if os.path.exists(rp) else affine_reps(N, w)
+                                                  ^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 129, in affine_reps
+    chunk = np.unique(canon_rot(m, N))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/.local/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py", line 294, in unique
+    ret = _unique1d(ar, return_index, return_inverse, return_counts,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/.local/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py", line 371, in _unique1d
+    if (hash_unique := _unique_hash(ar_)) is not NotImplemented:
+                       ^^^^^^^^^^^^^^^^^
+MemoryError
+FAILED 1
+=== N=32 w=11 part 2/6 ===
+Traceback (most recent call last):
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 131, in <module>
+    rec = scan(a.N, a.w, int(a.target), a.part, a.nparts, a.outdir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 41, in scan
+    reps = np.load(rp) if os.path.exists(rp) else affine_reps(N, w)
+                                                  ^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 129, in affine_reps
+    chunk = np.unique(canon_rot(m, N))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/.local/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py", line 294, in unique
+    ret = _unique1d(ar, return_index, return_inverse, return_counts,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/.local/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py", line 371, in _unique1d
+    if (hash_unique := _unique_hash(ar_)) is not NotImplemented:
+                       ^^^^^^^^^^^^^^^^^
+MemoryError
+FAILED 2
+=== N=32 w=11 part 3/6 ===
+Traceback (most recent call last):
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 131, in <module>
+    rec = scan(a.N, a.w, int(a.target), a.part, a.nparts, a.outdir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 41, in scan
+    reps = np.load(rp) if os.path.exists(rp) else affine_reps(N, w)
+                                                  ^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 129, in affine_reps
+    chunk = np.unique(canon_rot(m, N))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/.local/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py", line 294, in unique
+    ret = _unique1d(ar, return_index, return_inverse, return_counts,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/.local/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py", line 371, in _unique1d
+    if (hash_unique := _unique_hash(ar_)) is not NotImplemented:
+                       ^^^^^^^^^^^^^^^^^
+MemoryError
+FAILED 3
+=== N=32 w=11 part 4/6 ===
+Traceback (most recent call last):
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 131, in <module>
+    rec = scan(a.N, a.w, int(a.target), a.part, a.nparts, a.outdir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 41, in scan
+    reps = np.load(rp) if os.path.exists(rp) else affine_reps(N, w)
+                                                  ^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 129, in affine_reps
+    chunk = np.unique(canon_rot(m, N))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/.local/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py", line 294, in unique
+    ret = _unique1d(ar, return_index, return_inverse, return_counts,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/.local/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py", line 371, in _unique1d
+    if (hash_unique := _unique_hash(ar_)) is not NotImplemented:
+                       ^^^^^^^^^^^^^^^^^
+MemoryError
+FAILED 4
+=== N=32 w=11 part 5/6 ===
+Traceback (most recent call last):
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 131, in <module>
+    rec = scan(a.N, a.w, int(a.target), a.part, a.nparts, a.outdir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 41, in scan
+    reps = np.load(rp) if os.path.exists(rp) else affine_reps(N, w)
+                                                  ^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 129, in affine_reps
+    chunk = np.unique(canon_rot(m, N))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/.local/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py", line 294, in unique
+    ret = _unique1d(ar, return_index, return_inverse, return_counts,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/.local/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py", line 371, in _unique1d
+    if (hash_unique := _unique_hash(ar_)) is not NotImplemented:
+                       ^^^^^^^^^^^^^^^^^
+MemoryError
+FAILED 5

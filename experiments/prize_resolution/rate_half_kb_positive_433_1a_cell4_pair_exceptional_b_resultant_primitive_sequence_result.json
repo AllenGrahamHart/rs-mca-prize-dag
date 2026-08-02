@@ -1,0 +1,157 @@
+{
+  "result": {
+    "base_points": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "completed_stages": 11,
+    "extra_points": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "field": 2130706433,
+    "points": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "program_sha256": "8d91bf897351ff566709c4768304b74953719af9b1f2021af28f3b6a3eec3c82",
+    "source_sha256": {
+      "0_0": "15aa1f04c7c81f185a47fabd868bbadb8b21df89e14601ca49df19418d38e90b",
+      "0_1": "a2acb028b7a28a8503c42e8937926a9c2cca781ba2b31ce4f690036946329e2f",
+      "0_2": "c9428541c9e25f832fec2f7d9797c264f87552c870a69fd7256f8c85b81ca2bf",
+      "0_3": "804a66a6ebf6eea8633fe2392b159ff1c45301562a36035c0c041519b0a102ae",
+      "0_4": "bf9631790c04270b2c9b26586ace1b93ee54df0ad3675809bd48eb4a047c502c",
+      "1_0": "13b1a8fdbfac3b91a89906cb3643f68bc1c4e16c51088031012af28ca1446401",
+      "1_1": "c7e58e7754fbf2fe3ec535f59ca639c70d4f2a9b009474b01c31a9a5d2755eed",
+      "1_2": "98bf3834100a63c5359f0c68e1ed8825d6256fcabff62d75fb6b523d9e30f6d4",
+      "1_3": "3f8938f8c669f3c375c31b18efadf71e765a79d8c5a964bb01ca8825adc5df0b",
+      "2_0": "3d4be2d0988966dc05a87e4fbf1deba3f29cbe97f52392f07eb6071cb5f98e68",
+      "2_1": "a25268c11977937fb9b37031baa8acaabffb8fdb919d6eb240bc0f1c2116f7c0",
+      "2_2": "c9950d8fc923f63241b9e9f6c8ef1fbc8dec0c6dba4a75a00f3b22d70354d961",
+      "3_0": "4b0afac6bd2956846d80266756a8fbb25970772cd49518a94f3821058ee3bd45",
+      "3_1": "ecf55f6fc148759639aa633f396e748126d148da70e1e130f3e6f79e0302e35f",
+      "4_0": "afaf365e6f6ee1d1adfb6fac581fc136a50f45e09eb84ee321c14bbd8509c163"
+    },
+    "status": "COMPLETE",
+    "stderr": "",
+    "stdout": "BEGIN_INPUT\n50\n779\n474\n16653\nEND_INPUT\nBEGIN_STAGE_0\n0\n31\n528\nEND_STAGE_0\nBEGIN_STAGE_1_0_1\n0\n30\n472\nUNIT=0\nEND_STAGE_1_0_1\nBEGIN_STAGE_2_0_2\n0\n30\n472\nUNIT=0\nEND_STAGE_2_0_2\nBEGIN_STAGE_3_1_1\n0\n29\n471\nUNIT=0\nEND_STAGE_3_1_1\nBEGIN_STAGE_4_0_3\n0\n29\n471\nUNIT=0\nEND_STAGE_4_0_3\nBEGIN_STAGE_5_1_2\n0\n29\n471\nUNIT=0\nEND_STAGE_5_1_2\nBEGIN_STAGE_6_2_1\n0\n29\n470\nUNIT=0\nEND_STAGE_6_2_1\nBEGIN_STAGE_7_0_4\n0\n29\n470\nUNIT=0\nEND_STAGE_7_0_4\nBEGIN_STAGE_8_1_3\n0\n29\n470\nUNIT=0\nEND_STAGE_8_1_3\nBEGIN_STAGE_9_2_2\n0\n29\n470\nUNIT=0\nEND_STAGE_9_2_2\nBEGIN_STAGE_10_3_1\n0\n29\n470\nUNIT=0\nEND_STAGE_10_3_1\nEND_SEQUENCE\n",
+    "unit": false
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell4-pair-exceptional-b-resultant-primitive-sequence-v1",
+  "scope": "Exact sequential ideal refinement by all fifteen primitive unisolvent resultant evaluations. Unit excludes every residual projection outside the common gcd; nonunit or timeout records only completed stages and makes no common-root, colored, orbit, or Prize claim.",
+  "source_archive_sha256": "4c123e2cfa036e849c3dc482964aa75461ba7befabf9b094efe6eb0bf6234dfd"
+}

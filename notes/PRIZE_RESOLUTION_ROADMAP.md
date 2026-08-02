@@ -15147,3 +15147,348 @@ next route step:          triangularize [3,6], then attempt the same
 nonclaim:                 no deletion of the six remaining representatives,
                           positive route, K3, Prize rows, LIST, or MCA
 ```
+
+### Work-cycle theorem: cell-3 genus-three plane-kernel reduction
+
+```text
+cell/orbit/field:         cell 3 representing [3,6], F_2130706433
+best lex basis:           7 elements in order (c,r,b,t)
+plane eliminant:          palindromic bidegree (4,4), 25 terms
+quotient discriminant:   48(t+510119941)(t+899209895)
+                          (t+16711679)^2(t-16711679)^4
+conic base point:         (t,Y)=(1,66846712)
+normalization:            y^2=R_8(s), R_8 square-free degree 8
+geometry:                 genus 3 on the explicit open chart
+second-cover factors:     five distinct linear factors plus one irreducible
+                          cubic; denominator factors have multiplicity 2
+kernel plane model:       all eight coefficients have b-degree <=3,
+                          t-degree <=22, and B1(W)=b10(1-W)
+scale ledger:             denominator degree 48; first common scale degree 12;
+                          16 plane pseudo-division powers; second common scale
+                          degree 84; every zero locus remains exceptional
+target-free compiler:     four exact DE+/DE-/BE equations, pseudo-step counts
+                          3,9,7,7
+bounded basis verdict:    TIMEOUT at 250s; neither unit nor nonunit
+scout hash:               5448d98da4033a2a589a201223eb687b83bfabb3de24699d9b1c96c36401a340
+geometry hashes:          d36e63493bcca128c18293f298a614df51fd8449e1cd06b6a1e3cd0da3151550
+                          64f655da9e5c286ed2849d2ae3d12056acbed7b12e07d98be15221db0b248c42
+kernel hashes:            afa3829dec518a9000d65cfcca5ec7632980986086f53ce5de6f2eaf12f06b48
+                          4e36308e9e5d062f9c60280057b961c8181d0edb2406831cfaae7be76c7a2a0a
+target-free hash:         9816c4eaa0ed2761c752e4fef276c6282f93ed4550d7d40e66d77d73768feb4d
+next route step:          finite exceptional charts plus signed-pair
+                          component decomposition; no longer rerun global bases
+remaining frontier:      six representatives / 40 raw rows
+nonclaim:                 no [3,6] exclusion, route, K3, LIST, MCA, or Prize
+```
+
+Postscript route fences: the squared `w2=z2^2` presentation expands the
+second plane-reduced colored cut to 321284 terms and is retired.  The direct
+unsquared resultant on 23532- and 30276-term cuts reached a bounded
+300-second cap and is also retired.  No truth value is inferred.  Future
+cell-3 work begins with the signed-pair component resultant in `w0,w1`, then
+adds the colored equations componentwise.
+
+### Work-cycle theorem: cell-4 genus-one plane-kernel reduction
+
+```text
+cell/orbit/field:         cell 4 representing [4,7], F_2130706433
+remaining lex scout:     best basis sizes for cells 4,9,11,12,14 are
+                          7,11,10,9,8 in order (c,r,b,t)
+plane eliminant:          palindromic bidegree (4,4), 21 terms
+quotient discriminant:   48(t+510119941)(t+899209895)
+                          (t-16711679)^2(t+16711679)^4
+conic base point:         (t,Y)=(1,66846712)
+second cover:             numerator scalar times
+                          (s-66846716)(s+4)^2(cubic irreducible)
+geometry:                 square-free branch degree 4, hence genus 1
+kernel plane model:       all eight coefficients have b-degree <=3,
+                          t-degree <=18, and B1(W)=b10(1-W)
+scale ledger:             denominator degree 45; first common scale degree 20;
+                          9 plane pseudo-division powers; second common scale
+                          degree 49; all zero loci remain exceptional
+target-free compiler:     exact DE+/DE-/BE equations with term counts
+                          1716,10724,20508,26388
+bounded basis verdict:    TIMEOUT at 250s; neither unit nor nonunit
+lex/profile hashes:       13a82e809774880ccaf2b89d5dd62cbb4995533ecde59619db2ac65443bee172
+                          4b3f973743288f2bf742ce359121d40b1e6ef7075f674be321c297eea9de7441
+cover/kernel hashes:      b6468e2c8916d4cf26d2d2824ff84694f808e83989e00db1c620a75c275ab494
+                          26cc881846361a6f85d270dc436784991109f67982122b40cc4bbf75235e410e
+next route step:          exceptional-scale ledger plus componentwise signed
+                          pair decomposition on the main genus-one chart
+remaining frontier:      six representatives / 40 raw rows
+nonclaim:                 no [4,7] exclusion, route, K3, LIST, MCA, or Prize
+```
+
+### Work-cycle theorem: cell-4 exceptional scale-chart exclusion
+
+```text
+factored scales:          r/c denominators, combined denominator scale,
+                          first/second common scales, plane leading term
+base-field roots:         0,1,16711679,2113994754,2130706432
+nonlinear factors:        one irreducible cubic, occurring with multiplicities
+                          1 and 3 in two scales; no F_p roots
+guard identity:           every root zeros t(1-t^2)(1+t^2)
+result:                   every exceptional cell-4 chart PROVED empty in the
+                          original common localization; same for cell 7
+result hash:              9bf203fb4c0260ea391cf4f7b5d874d6a256c1d48d51d4a33a0a3823331458dc
+Modal app:                ap-18wq2lHYzMItqgihB1Y2z5
+next route step:          main genus-one chart only: signed-pair components,
+                          then colored equations componentwise
+remaining frontier:      six representatives / 40 raw rows
+nonclaim:                 no [4,7] exclusion, route, K3, LIST, MCA, or Prize
+```
+
+### Work-cycle theorem: cell-4 signed-pair projection and reconstruction
+
+```text
+squared labels:           w0=z0^2, w1=z1^2
+pair degrees in w1:      quadratic DE product / quartic DE square
+primitive projection:    scalar*(w0+1)^2*(w0-t^2)*F(w0,b,t)
+guard factors:            w0=-1 and w0=t^2, both forbidden source labels
+live factor F:            irreducible; degrees (13,3,284), 15792 terms
+pseudo-remainder:         three w1 steps, exactly linear
+resultant identity:       Res(P,R)=lc(P)^3 Res(P,S)
+plane compaction:         nine equal reductions; common scale
+                          (t-1)^5(t+1)^7(t+i)^45(t-i)^49
+common coefficient gcd:  w0+1, also forbidden
+primitive relation:       L(w0,b,t)w1+tM(w0,b,t)=0
+L/M factors:              distinct irreducibles, degrees (9,3,181) and
+                          (9,3,180), 7176 and 7136 terms
+generic consequence:      w1=-tM/L on L!=0
+exceptional obligation:   plane=L=M=0, then colored equations componentwise
+artifact hashes:          462bebfdc3ae53c7dbf189205732573469b6771cfb05f999b90603a492b986db
+                          8158cce478bd8085e01bc78a4f87be144b5893025382d3585a9b2346455965a7
+                          8ce61fe34937f099a67eecbf9038758bc61076568fc3b254fd9393747ab949f9
+Modal apps:               ap-3Z5dAlg93aDTOnk9hTm4YY,
+                          ap-Tdc7rrNjKqjah79jbWilqQ,
+                          ap-tKmjuTuliptsZoY7DZUSqQ
+nonclaim:                 necessary projection only; no [4,7], route, K3,
+                          LIST, MCA, or Prize closure
+```
+
+### Work-cycle theorem: cell-4 exceptional coefficient projection
+
+```text
+exceptional chart:        plane=P=0, live factor F=0, L=M=0
+interpolation family:     R_(s,u)=Res_b(P,L+sM+uF), total degree <=4
+evaluation ledger:        15 simplex points, exact rank 15
+common gcd:               U(t)*H(w0,t)^2
+H:                        irreducible bidegree (8,12), 97 terms
+U deployed roots:         only t=+/-1,+/-i; two other factors irreducible
+primitive residual:       dimension 0, degree 470 after all 15 quotients
+lex basis:                17 elements; t eliminant degree 105, 93 terms
+t factorization:          t^13(t+i)^4*C3^5(t-i)^11(t+1)^18(t-1)^44
+residual decision:        no admissible F_2130706433 point
+surviving projection:     H=0 only
+generic b lift:           A(w0,t)b+B(w0,t), degrees (7,1,688);
+                          plane,L,M,F all have zero remainder modulo H
+result hashes:            0a6dda18b50b781f43c18fd1c2227c06780b957ce9bc64bffb96071aff16615a
+                          14ff20605cca740d77a0b958f1f9f0213bdf0ea51fdb6d186010440516ec3fe8
+                          97a2e4a1a2604d8d1aed0ab0055efd9658e02cc45d36a677d707913cccc723d7
+                          b43f5564881d58c5b49066e933c107b6c70a7242ee51393dd038e27a7e006491
+                          9fb8910e89aa959f5af9b87546244c7b86a65cf1b5e796e09120655dc5033077
+                          889fe454c5864fba61940264892404e840cec34317b3659f8a3ffa6bcc3b8a23
+next route step:          leading exceptions, then signed-pair and colored
+                          equations on the H lift
+nonclaim:                 H is necessary, not sufficient; no [4,7], route,
+                          K3, LIST, MCA, or Prize closure
+```
+
+### Work-cycle theorem: cell-3 exceptional scale-chart exclusion
+
+```text
+field/chart:              F_2130706433, every scale zero omitted by the
+                          compact cell-3 plane-kernel model
+factored scales:          r/c denominators, combined denominator scale,
+                          first/second common scales, plane leading term
+base-field scale roots:   0,1,16711679,1288361599,2113994754,2130706432
+common-fiber decisions:   five unit ideals; sole proper fiber at
+                          t=1288361599
+proper fiber:             b^2-891442763b+1=0, exactly two deployed points
+outside decision:         necessary signed DE+/DE- ideal is unit at both
+                          points after all source and denominator guards
+result:                   every exceptional scale chart PROVED excluded;
+                          source symmetry gives the same for cell 6
+factor/chart hashes:      02cbc9d6cc95d6f8d3ac7782fa2e9fdccbb9b5d035f420a4df3588e57b0b192c
+                          4c158d2fec9b71a291be4c444e303b0ecd51c9529811b0dc3ebbb8c086b4abc3
+point/outside hashes:     22eb1b5514c73edc29c86731514b922740592389a02ac8e4c42cef234b6e5d13
+                          77b1000da7dddc789a4b328f9d5036fbf37cbda8d5878a6a78c84e1300ca0f91
+Modal apps:               ap-LuYfRSlmXjmFEbEAhY1TO6,
+                          ap-eyw7b2nJCrvkfQDCIZSanI,
+                          ap-zbu8gp7UAUEPfpE5v0Gkig,
+                          ap-YwIhdUejULrSv18vIbD1oS
+next route step:          main genus-three chart only: signed-pair components
+                          in w0,w1 before any colored elimination
+remaining frontier:      six representatives / 40 raw rows
+nonclaim:                 no [3,6] exclusion, route, K3, LIST, MCA, or Prize
+```
+
+### Work-cycle theorem: cell-4 exceptional reconstruction colored exclusion
+
+```text
+exceptional chart:        P=F=L=M=H=0, including every lift scale
+colored reduction:        T(t)*x^4*C(w0,t), with x forced nonzero
+C shape:                  bidegree (7,2047), 16368 terms
+coefficient eliminant:    degree 16248, 16021 terms
+deployed Frobenius gcd:   degree 15, all roots classified
+generic candidates:       every signed-pair lift has D0=0
+content roots:            two admissible values; H has no deployed w0 root
+scale atlas:              six pseudo-subresultant scales, 19 (t,w0) points;
+                          original replay leaves no b or only D0=0
+result:                   entire L=M=0 chart PROVED excluded in [4,7]
+next route step:          main F=0 component only
+nonclaim:                 no main-chart, orbit, route, K3, or Prize closure
+```
+
+### Work-cycle theorem: cell-4 main projection guard factorization
+
+```text
+live projection:          F(w0,b,t), degrees (13,3,284)
+plane quotient product:  C=(t^2+1)^42*N0*D0^5*(rd^2*w0-rn^2)
+C shape:                  degrees (13,3,200), 11088 terms
+exact identity:           c13*F-f13*C=0 modulo P
+leading norm:             degree 1124, 1125 terms
+deployed norm roots:      t=+/-1,+/-i only, all original guards
+nonlinear norm factors:   one irreducible quadratic, four irreducible cubics
+contradiction factors:    N0 nonzero product record; D0 denominator guard;
+                          rd^2*w0-rn^2 source-pair disjointness guard
+result:                   main signed pair empty without colored elimination
+symmetry consequence:    all eight rows of orbit [4,7] PROVED excluded
+frontier delta:           six representatives / 40 raw rows ->
+                          five representatives / 32 raw rows
+remaining orbits:         [3,6], [9,10], [11], [12,13], [14]
+certificate hash:         0772e51e34f71820af3e6bbddb9a53b2466093ebc31b922db39d8acca1b171ad
+Modal app:                ap-r6UXd9Y4mVPXtEcj4WIZEr
+next route step:          profile remaining signed-pair projections for the
+                          same guard-factorization before colored elimination
+nonclaim:                 no positive-route, K3, LIST, MCA, or Prize closure
+```
+
+### Work-cycle theorem: cell-11 signed-pair guard factorization
+
+```text
+compact common plane:    bidegree (4,8), 45 terms
+normalized kernel:       b-degree <=3; exact B1(-W)=-B1(W)
+raw resultant:           degrees (16,18,562), 172159 terms
+plane-reduced resultant: degrees (16,3,667), 42316 terms
+plane quotient product:  N0*D0^5*(w0-t^2)^2
+                          *(rd^2*w0-rn^2)*(rd^2*w0+rn^2)
+guard representative:    degrees (16,3,361), 23004 terms
+exact identity:           c16*R-r16*C=0 modulo P
+leading norm:             degree 2664, 2473 terms
+norm factorization:       10 linear, 2 irreducible cubic,
+                          1 irreducible septic
+proper norm fiber:        t=989155728, two deployed b lifts;
+                          all 12 displayed w0 roots guarded
+other non-scale fibers:   t=33199819,67070255; only b=-1
+scale roots:              seven values; every original common chart unit
+result:                   necessary signed pair empty without colored cuts
+symmetry consequence:    all four rows of orbit [11] PROVED excluded
+frontier delta:           two representatives / 12 raw rows ->
+                          one representative / 8 raw rows
+remaining orbit:          [9,10]
+main certificate hash:    52511345706c352233de5a50f0695c45e95e9564b2f512a419d76ec503093edf
+scale certificate hash:   228ffcf9ffa7937e4524691c44df54f8eaf7ad018e35d47438101470ff05cc57
+Modal apps:               ap-uERzHa6ORzJ94FeUzoVDQK,
+                          ap-Ae5V0SLvQ7V16RfkASbnDG,
+                          ap-Ko0JH1J21SFkAkmTGcM02d
+next route step:          compact cell 9, final positive representative
+nonclaim:                 no positive-route, K3, LIST, MCA, or Prize closure
+```
+
+### Work-cycle theorem: cell-12 signed-pair guard factorization
+
+```text
+compact common plane:    bidegree (4,8), 17 terms, leading coefficient t^4
+normalized kernel:       b-degree <=3; exact B1(-W)=-B1(W)
+raw resultant:           degrees (16,18,592), 153761 terms
+plane-reduced resultant: degrees (16,3,672), 36236 terms
+plane quotient product:  N0*D0^5*(w0+1)
+                          *(rd^2*w0-rn^2)*(rd^2*w0+rn^2)^2
+guard representative:    degrees (16,3,346), 14204 terms
+exact identity:           c16*R-r16*C=0 modulo P
+leading norm:             degree 2432, 1621 terms
+norm factorization:       8 linear, 3 irreducible cubic,
+                          1 irreducible decic
+non-scale norm fibers:    t=1419755025,1992261782; four deployed b lifts;
+                          all 20 displayed w0 roots guarded
+scale roots:              0,1,+/-i,-1,1117681606
+proper scale fiber:       t=1117681606; exactly two deployed common points;
+                          unnormalized degree-16 raw resultants fully guarded
+result:                   necessary signed pair empty without colored cuts
+symmetry consequence:    all eight rows of orbit [12,13] PROVED excluded
+frontier delta:           three representatives / 20 raw rows ->
+                          two representatives / 12 raw rows
+remaining orbits:         [9,10], [11]
+main certificate hash:    fc61880b1462555ebd3a1f938d67202e3f11b4d4765f68eaf4c293ed224084b9
+exception hash:           f345fd24f879010d23ef0e311671d929d601c31c973f621751e188b5cab5f2d4
+Modal apps:               ap-EbrvovPV91G3WJjjbb8NCn,
+                          ap-VrfGfcTR8PEvmET1VuBBpM,
+                          ap-3BtLcD62hjTYIUjH76RrNG,
+                          ap-vdLoOhyLORRSfEaTsCVFMT
+next route step:          compact cell 11 and test its complete signed-pair
+                          guard factorization
+nonclaim:                 no positive-route, K3, LIST, MCA, or Prize closure
+```
+
+### Work-cycle theorem: cell-14 signed-pair guard factorization
+
+```text
+compact common plane:    bidegree (4,8), 17 terms, leading coefficient t^4
+normalized kernel:       b-degree <=3; exact B1(-W)=-B1(W)
+raw resultant:           degrees (16,18,672), 179183 terms
+plane-reduced resultant: degrees (16,3,752), 41556 terms
+plane quotient product:  N0*D0^5*(w0+1)^2
+                          *(rd^2*w0-rn^2)*(rd^2*w0+rn^2)
+guard representative:    degrees (16,3,340), 15580 terms
+exact identity:           c16*R-r16*C=0 modulo P
+leading norm:             degree 2752, 1929 terms
+norm factorization:       8 linear, 4 irreducible cubic,
+                          1 irreducible quintic, 1 irreducible sextic
+proper norm fiber:        t=1742551715, two deployed b lifts;
+                          all 8 displayed w0 roots guarded
+compact scale roots:      t=0,+/-1,+/-i only; all original guards and
+                          independently unit in the saturated common ideal
+result:                   necessary signed pair empty without colored cuts
+symmetry consequence:    all four rows of orbit [14] PROVED excluded
+frontier delta:           four representatives / 24 raw rows ->
+                          three representatives / 20 raw rows
+remaining orbits:         [9,10], [11], [12,13]
+main certificate hash:    e3ff4a2acd58a42e299791962ae0d5f53849bc8a36efb852526bc937db7fc70f
+scale certificate hash:   1bdb31ed7b90d8456eb6e080f28f8405a6104a0b007d6716d2a510314e6b7638
+Modal apps:               ap-EMRYX198f3NnRuzD0nnwHd,
+                          ap-Spns6GLJ4M6pRznVs9AwR3,
+                          ap-CA8IVaeARZylj4IAy5VUsm
+next route step:          compact cell 12 and test its complete signed-pair
+                          guard factorization
+nonclaim:                 no positive-route, K3, LIST, MCA, or Prize closure
+```
+
+### Work-cycle theorem: cell-3 signed-pair guard factorization
+
+```text
+pair equations:           degrees 2 and 4 in w1
+raw resultant:            degrees (16,18,471), 151031 terms
+plane-reduced resultant:  degrees (16,3,531), 35876 terms
+plane quotient product:  N0*D0^5*(w0+1)*(w0-t^2)*(rd^2*w0-rn^2)^2
+guard representative:    degrees (16,3,258), 17380 terms
+exact identity:           c16*R-r16*C=0 modulo P
+leading norm:             degree 2104, 2101 terms
+norm factorization:       10 linear, 3 irreducible quadratic,
+                          3 irreducible cubic factors
+prior-scale roots:        0,+/-1,+/-i,1288361599
+new zero-resultant lifts: t=33199819,67070255; only b=-1, an original guard
+remaining norm fibers:    t=253393149,486122301; four deployed b lifts;
+                          all 24 distinct displayed w0 roots hit N0, D0,
+                          w0=-1, w0=t^2, or w0=r^2
+result:                   necessary signed pair empty without colored cuts
+symmetry consequence:    all eight rows of orbit [3,6] PROVED excluded
+frontier delta:           five representatives / 32 raw rows ->
+                          four representatives / 24 raw rows
+remaining orbits:         [9,10], [11], [12,13], [14]
+certificate hash:         b604908d97a7d7588392236c962f490d600479dadd0cd69eea47b318f0bb5269
+Modal app:                ap-9EiBFM8D498BpAMEN33KN2
+next route step:          compact one of cells 9,11,12,14 and test the same
+                          complete signed-pair guard factorization
+nonclaim:                 no positive-route, K3, LIST, MCA, or Prize closure
+```

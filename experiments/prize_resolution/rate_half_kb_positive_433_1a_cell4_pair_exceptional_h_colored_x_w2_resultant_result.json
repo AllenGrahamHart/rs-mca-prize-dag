@@ -1,0 +1,130 @@
+{
+  "equation_summary": {
+    "first_color": {
+      "pseudo_steps": 6,
+      "sha256": "6261c9c92369e103f3cb2bd6c0fdf6e5d8c4e106ba96a828006b540868790355",
+      "shape": {
+        "degrees": [
+          1,
+          2,
+          2,
+          2,
+          3,
+          78
+        ],
+        "terms": 8824,
+        "total_degree": 84
+      }
+    },
+    "second_color": {
+      "pseudo_steps": 7,
+      "sha256": "68654a4a57f7cc6223ff9fff766f3124cc560b7d465fbb07aa2cc3ced8a1a74a",
+      "shape": {
+        "degrees": [
+          0,
+          4,
+          0,
+          0,
+          3,
+          64
+        ],
+        "terms": 1284,
+        "total_degree": 70
+      }
+    }
+  },
+  "result": {
+    "content_sha256": "cef2027f5023c73769901ac1d2cb846749eedae2d538e60957f4e8b3432b1e67",
+    "content_shape": {
+      "degrees": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        199
+      ],
+      "terms": 199,
+      "total_degree": 199
+    },
+    "equations": {
+      "first_color": {
+        "pseudo_steps": 6,
+        "sha256": "6261c9c92369e103f3cb2bd6c0fdf6e5d8c4e106ba96a828006b540868790355",
+        "shape": {
+          "degrees": [
+            1,
+            2,
+            2,
+            2,
+            3,
+            78
+          ],
+          "terms": 8824,
+          "total_degree": 84
+        }
+      },
+      "second_color": {
+        "pseudo_steps": 7,
+        "sha256": "68654a4a57f7cc6223ff9fff766f3124cc560b7d465fbb07aa2cc3ced8a1a74a",
+        "shape": {
+          "degrees": [
+            0,
+            4,
+            0,
+            0,
+            3,
+            64
+          ],
+          "terms": 1284,
+          "total_degree": 70
+        }
+      }
+    },
+    "polynomial_file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_x_w2_resultant_polynomial.txt",
+    "polynomial_file_sha256": "aba13c28567529ffbd9ce82db3fe0bef69cc923d85df5c6c50a88c3d2e0e5443",
+    "primitive_sha256": "d5d9e18fdcc7900499583981783ed8093a1859b7ff9d14200731abf835e6ae79",
+    "primitive_shape": {
+      "degrees": [
+        4,
+        0,
+        8,
+        8,
+        3,
+        300
+      ],
+      "terms": 177540,
+      "total_degree": 311
+    },
+    "projected_pseudo_steps": 15,
+    "projected_shape": {
+      "degrees": [
+        4,
+        0,
+        8,
+        8,
+        3,
+        499
+      ],
+      "terms": 308220,
+      "total_degree": 510
+    },
+    "resultant_shape": {
+      "degrees": [
+        4,
+        0,
+        8,
+        8,
+        18,
+        439
+      ],
+      "terms": 1275945,
+      "total_degree": 465
+    },
+    "status": "COMPLETE"
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell4-pair-exceptional-h-colored-x-w2-resultant-v1",
+  "scope": "Necessary colored elimination retaining x=q1D0-q0D1: one quadratic and one quartic equation in w2. Squaring and projection may add solutions; no H-component, point, orbit, or Prize claim.",
+  "source_plane_sha256": "26cc881846361a6f85d270dc436784991109f67982122b40cc4bbf75235e410e",
+  "status": "COMPLETE"
+}

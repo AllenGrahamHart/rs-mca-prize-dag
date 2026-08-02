@@ -1,0 +1,67 @@
+{
+  "result": {
+    "content": 1,
+    "factors": [
+      {
+        "degree": 1,
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_tpoly_factor_0.txt",
+        "file_sha256": "fe8edeeb98cc6d3b93cf2d57000254b84bd9eba34b4df7ce4b87db8b937b7703",
+        "multiplicity": 13,
+        "root": 0,
+        "sha256": "e3b98a4da31a127d4bde6e43033f66ba274cab0eb7eb1c70ec41402bf6273dd8",
+        "terms": 1
+      },
+      {
+        "degree": 1,
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_tpoly_factor_1.txt",
+        "file_sha256": "7ea2e436f791ca6acb03fb35f27de6c9cbde33c4a921ff1d78f633164efbffbb",
+        "multiplicity": 4,
+        "root": 2113994754,
+        "sha256": "2582a9e126854a6445d667fce513c504f26b1cfbfe3d4ac631b7fe85b20cdca4",
+        "terms": 2
+      },
+      {
+        "degree": 3,
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_tpoly_factor_2.txt",
+        "file_sha256": "f57497ad04c2cec181cf9761087f78ea731e2cf3f484e53b25b756fb9e509e9e",
+        "multiplicity": 5,
+        "sha256": "38efd4f84091e638453ba3a6d22c4e0f4902bf5e017d0f2cc2a20572a689f880",
+        "terms": 4
+      },
+      {
+        "degree": 1,
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_tpoly_factor_3.txt",
+        "file_sha256": "a9e9434fdc1e0aaf42a34cce677083f9ca22d043da14536fc863ba10f6abe5f2",
+        "multiplicity": 11,
+        "root": 16711679,
+        "sha256": "6096afd0276352ba1e4a073fbbf296c04d59afb643442e9db877175030aa933a",
+        "terms": 2
+      },
+      {
+        "degree": 1,
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_tpoly_factor_4.txt",
+        "file_sha256": "a364fe2fef82e60d75bfd677baf9963de961fcd55ba4959d74094853ea2f5cec",
+        "multiplicity": 18,
+        "root": 2130706432,
+        "sha256": "7249db31e68d9e7d4265322fee1935c3e3fcff0fcabfab3527d3f0680598a051",
+        "terms": 2
+      },
+      {
+        "degree": 1,
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_tpoly_factor_5.txt",
+        "file_sha256": "75ec300f31c08f816651e0b09895f16ae9b7c50f9c60a57e2a947dfce887334e",
+        "multiplicity": 44,
+        "root": 1,
+        "sha256": "7bc1c4c890af336bb972949da974b939a2114894978386462d5faa9f09adbece",
+        "terms": 2
+      }
+    ],
+    "field": 2130706433,
+    "source_degree": 105,
+    "source_terms": 93,
+    "status": "COMPLETE"
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell4-pair-exceptional-b-resultant-primitive-tpoly-factor-v1",
+  "scope": "Exact deployed-field factorization of the primitive residual t eliminant; absence of non-guard linear factors excludes deployed residual points, but makes no common-curve, colored, orbit, or Prize claim.",
+  "source_sha256": "61e012bdf97ce9db9109e6756c5d4f087b4ce011334293d63bb2aa5f7009dbcf"
+}

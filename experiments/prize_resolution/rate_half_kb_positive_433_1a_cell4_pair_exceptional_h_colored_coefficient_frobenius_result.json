@@ -1,0 +1,153 @@
+{
+  "artifact_sha256": {
+    "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_common_factor_6.txt": "4001b13396f0ac9a3f5621ec4d958eb944d570f87ad36bff9259819dc7519a85",
+    "rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_x_reduce_polynomial.txt": "1c7c089c9d506f8724109498dd049033c69b196e7e2df813cfc3d74606439bc5"
+  },
+  "result": {
+    "base_field_root_gcd": {
+      "content": 1,
+      "degree": 15,
+      "factors": [
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+          "text": "x"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "sha256": "73ab271b72c6fba1567e00c2ab2d020e7146789b9d49939f99044185c4365b67",
+          "text": "x + 132205463"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "sha256": "be92ab66d28d0486de0c24987dc11a1de3239f1880b9c2c2264485476aa660cc",
+          "text": "x + 421702356"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "sha256": "0f42ad4cc70a217239f459fffb8e04c01d109cddacbf68a73c0fe645a5986c31",
+          "text": "x + 899209895"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "sha256": "e39cfbe5cff9af6643a9328d6ed0c053eb39b5b34d3f434c7ef7f74be360a60c",
+          "text": "x + 1554661883"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "sha256": "14e65093a780e1ec8dfb0702f07a64b273c02bae3e3b1eac9debd944b1d827d7",
+          "text": "x + 63790444"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "sha256": "8f79af18dd8666202bbf7b95f265d524f56da0645281a9dd234238eb9137e06b",
+          "text": "x + 2080868308"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "sha256": "f880502d819ac1fbee06cc3e480c694287e92d5da56ff1bcf309b865e21895f0",
+          "text": "x + 510119941"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "sha256": "f8dcccb1d9905990c26c8356be4669eefc77f3e0375468997e8e83eca72ab39d",
+          "text": "x + 16711679"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "sha256": "712d42077cbed744a8fd9a93d5a95558a684dfaa4a6b672c12350e58d9c5080f",
+          "text": "x + 1538037136"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "sha256": "1e536842a48e520a92356abc88ebcd8c13857137a46410daf1a54e35356da1a1",
+          "text": "x + 2113994754"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "sha256": "f75abc8846a65f1208e896c78336ded5c48e6558c3286f74c10337de98b4f8d5",
+          "text": "x + 1701702612"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "sha256": "b086acdeadc41f8dad68a4eab925bdf614d69b9870846225d26176071cc292a5",
+          "text": "x + 468581661"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "sha256": "62fac464391c2829c1d941fc6f550ec2dc6c7fd5d560caa848e27f05122d0284",
+          "text": "x + 2130706432"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+          "text": "x + 1"
+        }
+      ],
+      "sha256": "98f3a060d45d7326dcd7fc2b4e8e76821404670fbfb21714c0c40cfe9eacbb9d"
+    },
+    "coefficient_sha256": "e71dff2741cb89dfdfa09f116b665ce61f6e247c5d231e65934e8f5083b1f45c",
+    "coefficient_shape": {
+      "degrees": [
+        0,
+        7,
+        2047
+      ],
+      "terms": 16368,
+      "total_degree": 2051
+    },
+    "colored_shape": {
+      "degrees": [
+        4,
+        7,
+        2047
+      ],
+      "terms": 16368,
+      "total_degree": 2055
+    },
+    "eliminant_file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_coefficient_t_eliminant.txt",
+    "eliminant_file_sha256": "c4146853e9324d56717b24d28aef8367f8317861e2ae4df748cc4081c092408c",
+    "eliminant_sha256": "ad625d91b4ed1f1ee7ac41f2eda6550fc052cac1e098f620cfa6587d7ed43f70",
+    "eliminant_shape": {
+      "degrees": [
+        0,
+        0,
+        16248
+      ],
+      "terms": 16021,
+      "total_degree": 16248
+    },
+    "field": 2130706433,
+    "frobenius_remainder_degree": 16247,
+    "h_shape": {
+      "degrees": [
+        0,
+        8,
+        12
+      ],
+      "terms": 97,
+      "total_degree": 16
+    },
+    "status": "COMPLETE",
+    "x_degrees": [
+      4
+    ]
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell4-pair-exceptional-h-colored-coefficient-frobenius-v1",
+  "scope": "Exact deployed-field root test for the coefficient C in the generic necessary colored projection x^4 C(w0,t), restricted to H. The nonzero-x deduction, discarded content fibers, pseudo-division leading charts, lifts, orbit, and Prize claims remain separate."
+}

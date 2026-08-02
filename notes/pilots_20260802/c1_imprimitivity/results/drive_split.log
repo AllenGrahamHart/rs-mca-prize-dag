@@ -1,0 +1,10 @@
+=== split N=32 w=2..6 ===
+{"w": 2, "imprimitive": "65536", "primitive": "2"}
+{"w": 3, "imprimitive": "43046721", "primitive": "4870849"}
+{"w": 4, "imprimitive": "1475789056", "primitive": "1416317956"}
+{"w": 5, "imprimitive": "78310985281", "primitive": "45925775809"}
+{"w": 6, "imprimitive": "1773467504656", "primitive": "1773462177794"}
+=== split N=32 w=7..7 ===
+{"w": 7, "imprimitive": "33232930569601", "primitive": "23725169980801"}
+=== split N=32 w=8..8 ===
+{"w": 8, "imprimitive": "217885999165444", "primitive": "165680351969344"}

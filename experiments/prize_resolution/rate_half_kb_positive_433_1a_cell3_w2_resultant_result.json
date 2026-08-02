@@ -1,0 +1,63 @@
+{
+  "cut_summary": {
+    "product_sha256": "41596b7d1394d21ee51705fe011f9804110d41e64dbadcc07f9ed48172d6af29",
+    "pseudo_steps": [
+      7,
+      17
+    ],
+    "raw_shapes": [
+      {
+        "degrees": [
+          2,
+          4,
+          4,
+          10,
+          66
+        ],
+        "terms": 41190,
+        "total_degree": 83
+      },
+      {
+        "degrees": [
+          4,
+          8,
+          8,
+          20,
+          132
+        ],
+        "terms": 1033157,
+        "total_degree": 166
+      }
+    ],
+    "reduced_shapes": [
+      {
+        "degrees": [
+          2,
+          4,
+          4,
+          3,
+          94
+        ],
+        "terms": 23532,
+        "total_degree": 104
+      },
+      {
+        "degrees": [
+          4,
+          8,
+          8,
+          3,
+          200
+        ],
+        "terms": 321284,
+        "total_degree": 218
+      }
+    ],
+    "sum_sha256": "6cb80e1440b5f3396f24c858b4091b9f57c53eec4b593b0f6ccc3cf761b7f9d6"
+  },
+  "error": "TypeError(\"'flint.types.fmpz_mod_mpoly.fmpz_mod_mpoly_ctx' object is not callable\")",
+  "schema": "rate-half-kb-positive-433-1a-cell3-w2-resultant-v1",
+  "scope": "Necessary colored-source-square elimination on the main cell-3 plane chart; no unit, orbit, route, K3, or Prize claim.",
+  "source_plane_sha256": "4e36308e9e5d062f9c60280057b961c8181d0edb2406831cfaae7be76c7a2a0a",
+  "status": "REMOTE_ERROR"
+}

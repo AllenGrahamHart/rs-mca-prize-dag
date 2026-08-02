@@ -1,0 +1,374 @@
+{
+  "artifact_sha256": {
+    "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_common_factor_6.txt": "4001b13396f0ac9a3f5621ec4d958eb944d570f87ad36bff9259819dc7519a85",
+    "rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_2.txt": "af0c74a85dcb83c3245f5a93045206a431e06019fbbd3d690621d010fd9af10c",
+    "rate_half_kb_positive_433_1a_cell4_pair_w1_reconstruction_constant_factor_1.txt": "42f5512ae03c3037cc1520b3a5a4bb28d3cb6efff397cd4d948b72e036776419",
+    "rate_half_kb_positive_433_1a_cell4_pair_w1_reconstruction_linear_factor_0.txt": "14113f117c5096205e5b95cfe5b569ab28a89f8d8b4e14e22603650c85f46c6c",
+    "rate_half_kb_positive_433_1a_cell4_plane_kernel_flint_result.json": "26cc881846361a6f85d270dc436784991109f67982122b40cc4bbf75235e410e"
+  },
+  "result": {
+    "candidate_content": {
+      "content": 1,
+      "factors": [
+        {
+          "multiplicity": 1,
+          "sha256": "e3b98a4da31a127d4bde6e43033f66ba274cab0eb7eb1c70ec41402bf6273dd8",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              1
+            ],
+            "terms": 1,
+            "total_degree": 1
+          },
+          "text": "t"
+        },
+        {
+          "multiplicity": 4,
+          "sha256": "06041316a90d7dea2478a0fca98564e97d49e4a9bc2adc425ee354257dce9e0f",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              2
+            ],
+            "terms": 3,
+            "total_degree": 2
+          },
+          "text": "t^2 + 1457968268*t + 1019305654"
+        },
+        {
+          "multiplicity": 4,
+          "sha256": "94769970e7d3fe589eba148c0792f489d90fa799088999797af54ee4b18c8b00",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              3
+            ],
+            "terms": 4,
+            "total_degree": 3
+          },
+          "text": "t^3 + 622603126*t^2 + 1463338870*t + 1228312035"
+        },
+        {
+          "multiplicity": 8,
+          "sha256": "38efd4f84091e638453ba3a6d22c4e0f4902bf5e017d0f2cc2a20572a689f880",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              3
+            ],
+            "terms": 4,
+            "total_degree": 3
+          },
+          "text": "t^3 + 2097283074*t^2 + 2097283076*t + 2130706432"
+        },
+        {
+          "multiplicity": 12,
+          "sha256": "7249db31e68d9e7d4265322fee1935c3e3fcff0fcabfab3527d3f0680598a051",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          },
+          "text": "t + 1"
+        },
+        {
+          "multiplicity": 25,
+          "sha256": "2582a9e126854a6445d667fce513c504f26b1cfbfe3d4ac631b7fe85b20cdca4",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          },
+          "text": "t + 16711679"
+        },
+        {
+          "multiplicity": 30,
+          "sha256": "7bc1c4c890af336bb972949da974b939a2114894978386462d5faa9f09adbece",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          },
+          "text": "t + 2130706432"
+        },
+        {
+          "multiplicity": 67,
+          "sha256": "6096afd0276352ba1e4a073fbbf296c04d59afb643442e9db877175030aa933a",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          },
+          "text": "t + 2113994754"
+        }
+      ],
+      "sha256": "15e5f8c46c9f64df7433301f3e50010f165046615ff2e2db52c6f2cc74c00967",
+      "shape": {
+        "degrees": [
+          0,
+          0,
+          179
+        ],
+        "terms": 179,
+        "total_degree": 179
+      }
+    },
+    "candidate_file": "rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_b_gcd_polynomial.txt",
+    "candidate_file_sha256": "3a3275986281c23a6e175958acbbb5557822832a8cf1b734dedd517444625651",
+    "candidate_h_steps": 14,
+    "candidate_sha256": "cf8d552c9f91a6b5554ab5939780dfcfae4d9c8a14ee8d33307b483747243831",
+    "candidate_shape": {
+      "degrees": [
+        7,
+        1,
+        688
+      ],
+      "terms": 10992,
+      "total_degree": 693
+    },
+    "candidate_steps": 2,
+    "divisibility": {
+      "constant": {
+        "coefficients": [
+          {
+            "degree": 0,
+            "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "shape": {
+              "degrees": [
+                -1,
+                -1,
+                -1
+              ],
+              "terms": 0,
+              "total_degree": -1
+            },
+            "zero_mod_h": true
+          }
+        ],
+        "h_steps": 21,
+        "leading_shape": {
+          "degrees": [
+            7,
+            0,
+            688
+          ],
+          "terms": 5496,
+          "total_degree": 692
+        },
+        "remainder_shape": {
+          "degrees": [
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "total_degree": -1
+        },
+        "steps": 3
+      },
+      "linear": {
+        "coefficients": [
+          {
+            "degree": 0,
+            "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "shape": {
+              "degrees": [
+                -1,
+                -1,
+                -1
+              ],
+              "terms": 0,
+              "total_degree": -1
+            },
+            "zero_mod_h": true
+          }
+        ],
+        "h_steps": 21,
+        "leading_shape": {
+          "degrees": [
+            7,
+            0,
+            688
+          ],
+          "terms": 5496,
+          "total_degree": 692
+        },
+        "remainder_shape": {
+          "degrees": [
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "total_degree": -1
+        },
+        "steps": 3
+      },
+      "live": {
+        "coefficients": [
+          {
+            "degree": 0,
+            "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "shape": {
+              "degrees": [
+                -1,
+                -1,
+                -1
+              ],
+              "terms": 0,
+              "total_degree": -1
+            },
+            "zero_mod_h": true
+          }
+        ],
+        "h_steps": 21,
+        "leading_shape": {
+          "degrees": [
+            7,
+            0,
+            688
+          ],
+          "terms": 5496,
+          "total_degree": 692
+        },
+        "remainder_shape": {
+          "degrees": [
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "total_degree": -1
+        },
+        "steps": 3
+      },
+      "plane": {
+        "coefficients": [
+          {
+            "degree": 0,
+            "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "shape": {
+              "degrees": [
+                -1,
+                -1,
+                -1
+              ],
+              "terms": 0,
+              "total_degree": -1
+            },
+            "zero_mod_h": true
+          }
+        ],
+        "h_steps": 21,
+        "leading_shape": {
+          "degrees": [
+            7,
+            0,
+            688
+          ],
+          "terms": 5496,
+          "total_degree": 692
+        },
+        "remainder_shape": {
+          "degrees": [
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "total_degree": -1
+        },
+        "steps": 4
+      }
+    },
+    "field": 2130706433,
+    "h_leading_shape": {
+      "degrees": [
+        0,
+        0,
+        8
+      ],
+      "terms": 9,
+      "total_degree": 8
+    },
+    "h_shape": {
+      "degrees": [
+        8,
+        0,
+        12
+      ],
+      "terms": 97,
+      "total_degree": 16
+    },
+    "linear_leading_shape": {
+      "degrees": [
+        7,
+        0,
+        197
+      ],
+      "terms": 1568,
+      "total_degree": 201
+    },
+    "quadratic": {
+      "content_shape": {
+        "degrees": [
+          0,
+          0,
+          182
+        ],
+        "terms": 183,
+        "total_degree": 182
+      },
+      "h_steps": 7,
+      "shape": {
+        "degrees": [
+          7,
+          2,
+          276
+        ],
+        "terms": 6600,
+        "total_degree": 282
+      },
+      "steps": 2
+    },
+    "quadratic_leading_shape": {
+      "degrees": [
+        7,
+        0,
+        276
+      ],
+      "terms": 2200,
+      "total_degree": 280
+    },
+    "source_h_steps": {
+      "constant": 2,
+      "linear": 2,
+      "live": 6,
+      "plane": 0
+    },
+    "status": "COMPLETE"
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell4-pair-exceptional-h-b-gcd-v3",
+  "scope": "Exact linear b-subresultant over the exceptional H projection and coefficientwise H-divisibility tests for plane,L,M,F. Leading/content exceptional loci and deployed points remain separate; no colored, orbit, or Prize claim."
+}

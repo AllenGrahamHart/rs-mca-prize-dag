@@ -1,0 +1,1846 @@
+{
+  "artifact_sha256": {
+    "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_common_factor_6.txt": "4001b13396f0ac9a3f5621ec4d958eb944d570f87ad36bff9259819dc7519a85",
+    "rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_2.txt": "af0c74a85dcb83c3245f5a93045206a431e06019fbbd3d690621d010fd9af10c",
+    "rate_half_kb_positive_433_1a_cell4_pair_w1_reconstruction_constant_factor_1.txt": "42f5512ae03c3037cc1520b3a5a4bb28d3cb6efff397cd4d948b72e036776419",
+    "rate_half_kb_positive_433_1a_cell4_pair_w1_reconstruction_linear_factor_0.txt": "14113f117c5096205e5b95cfe5b569ab28a89f8d8b4e14e22603650c85f46c6c",
+    "rate_half_kb_positive_433_1a_cell4_plane_kernel_flint_result.json": "26cc881846361a6f85d270dc436784991109f67982122b40cc4bbf75235e410e"
+  },
+  "result": {
+    "exceptional_point_count": 19,
+    "field": 2130706433,
+    "h_shape": {
+      "degrees": [
+        8,
+        0,
+        12
+      ],
+      "terms": 97,
+      "total_degree": 16
+    },
+    "replay_rows": [
+      {
+        "b_rows": [],
+        "common_b_degree": 4,
+        "common_b_factors": [
+          {
+            "degree": 2,
+            "multiplicity": 1,
+            "sha256": "d86248f3e66efd9b3789485c1402949d800b7df8761a8f0f48b13efa36dcfe85"
+          },
+          {
+            "degree": 2,
+            "multiplicity": 1,
+            "sha256": "73309b88eab6b93c89554b12ef2129640fbf809de5b0babbcdd9803f62971685"
+          }
+        ],
+        "common_b_sha256": "221614293c02af7947daa2024d6d152ac3a3bb958ec837bdd735a4fb2fa80702",
+        "t": 0,
+        "t_guard": true,
+        "w0": 0
+      },
+      {
+        "b_rows": [
+          {
+            "b": 583634928,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": false,
+            "w0_source_guard": true,
+            "w1_rows": []
+          },
+          {
+            "b": 1547071499,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": false,
+            "w0_source_guard": true,
+            "w1_rows": []
+          },
+          {
+            "b": 2130706432,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": false,
+            "w0_source_guard": true,
+            "w1_rows": []
+          }
+        ],
+        "common_b_degree": 4,
+        "common_b_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 583634928,
+            "sha256": "e8d5e4fb1e8632143961189ffff818e90b38a37c038fd7fb779767178edbfd0b"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 1547071499,
+            "sha256": "3143cb2783467792f6e81e6b4bfe579a048166421817d6def06afc7af34e51c8"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "root": 2130706432,
+            "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+          }
+        ],
+        "common_b_sha256": "339dc144bfb348760406a9e591c56dc51c9978ce8a0be5a0a1eaccccbdde2a7b",
+        "t": 1,
+        "t_guard": true,
+        "w0": 1
+      },
+      {
+        "b_rows": [
+          {
+            "b": 583634928,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": false,
+            "w0_source_guard": true,
+            "w1_rows": []
+          },
+          {
+            "b": 1547071499,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": false,
+            "w0_source_guard": true,
+            "w1_rows": []
+          },
+          {
+            "b": 2130706432,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": false,
+            "w0_source_guard": true,
+            "w1_rows": []
+          }
+        ],
+        "common_b_degree": 4,
+        "common_b_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 583634928,
+            "sha256": "e8d5e4fb1e8632143961189ffff818e90b38a37c038fd7fb779767178edbfd0b"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 1547071499,
+            "sha256": "3143cb2783467792f6e81e6b4bfe579a048166421817d6def06afc7af34e51c8"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "root": 2130706432,
+            "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+          }
+        ],
+        "common_b_sha256": "339dc144bfb348760406a9e591c56dc51c9978ce8a0be5a0a1eaccccbdde2a7b",
+        "t": 1,
+        "t_guard": true,
+        "w0": 2130706432
+      },
+      {
+        "b_rows": [
+          {
+            "b": 0,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": true,
+            "w0_source_guard": true,
+            "w1_rows": []
+          }
+        ],
+        "common_b_degree": 2,
+        "common_b_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "root": 0,
+            "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+          }
+        ],
+        "common_b_sha256": "5b029881cc5d477a4a820b1c0e64e624919e22ac8d02cfec5da7281c503d08f6",
+        "t": 16711679,
+        "t_guard": true,
+        "w0": 0
+      },
+      {
+        "b_rows": [
+          {
+            "b": 0,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": true,
+            "w0_source_guard": false,
+            "w1_rows": []
+          }
+        ],
+        "common_b_degree": 2,
+        "common_b_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "root": 0,
+            "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+          }
+        ],
+        "common_b_sha256": "5b029881cc5d477a4a820b1c0e64e624919e22ac8d02cfec5da7281c503d08f6",
+        "t": 16711679,
+        "t_guard": true,
+        "w0": 3
+      },
+      {
+        "b_rows": [
+          {
+            "b": 0,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": true,
+            "w0_source_guard": false,
+            "w1_rows": []
+          }
+        ],
+        "common_b_degree": 2,
+        "common_b_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "root": 0,
+            "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+          }
+        ],
+        "common_b_sha256": "5b029881cc5d477a4a820b1c0e64e624919e22ac8d02cfec5da7281c503d08f6",
+        "t": 16711679,
+        "t_guard": true,
+        "w0": 710235478
+      },
+      {
+        "b_rows": [
+          {
+            "b": 0,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": true,
+            "w0_source_guard": true,
+            "w1_rows": []
+          }
+        ],
+        "common_b_degree": 2,
+        "common_b_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "root": 0,
+            "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+          }
+        ],
+        "common_b_sha256": "5b029881cc5d477a4a820b1c0e64e624919e22ac8d02cfec5da7281c503d08f6",
+        "t": 16711679,
+        "t_guard": true,
+        "w0": 2130706432
+      },
+      {
+        "b_rows": [],
+        "common_b_degree": 2,
+        "common_b_factors": [
+          {
+            "degree": 2,
+            "multiplicity": 1,
+            "sha256": "fcc212ef8b6a42464652ae7d48b9bdb706727c58fee1425e996e31d9cc67f824"
+          }
+        ],
+        "common_b_sha256": "fcc212ef8b6a42464652ae7d48b9bdb706727c58fee1425e996e31d9cc67f824",
+        "t": 49838125,
+        "t_guard": false,
+        "w0": 748662742
+      },
+      {
+        "b_rows": [
+          {
+            "b": 69782930,
+            "d0_zero": true,
+            "k_zero": false,
+            "n0_zero": false,
+            "pair_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 2081051073,
+                "sha256": "9ddc358b2456271868c9b10103d4141880ea304678501a7f604daafebe4a69bb"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 932310079,
+                "sha256": "21132f30473427f02a1fe4f3f7af860b30c00de8a2df45e8b46b5ada858987d2"
+              }
+            ],
+            "pair_gcd_degree": 2,
+            "pair_gcd_sha256": "0f58577a860f4107f853c13c5e54915b49d487756a3fc9e34cd6e79f40c94048",
+            "r_denominator_zero": false,
+            "w0_source_guard": false,
+            "w1_rows": [
+              {
+                "d1_zero": true,
+                "n1_zero": false,
+                "w1": 932310079,
+                "w1_source_guard": false
+              },
+              {
+                "d1_zero": true,
+                "n1_zero": false,
+                "w1": 2081051073,
+                "w1_source_guard": false
+              }
+            ]
+          }
+        ],
+        "common_b_degree": 1,
+        "common_b_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 69782930,
+            "sha256": "e0768e7b6720891d0c6f72f9b2c1446bb505bd4b73e96a45ee3091fbc5e6bd30"
+          }
+        ],
+        "common_b_sha256": "e0768e7b6720891d0c6f72f9b2c1446bb505bd4b73e96a45ee3091fbc5e6bd30",
+        "t": 429003821,
+        "t_guard": false,
+        "w0": 932310079
+      },
+      {
+        "b_rows": [
+          {
+            "b": 795179772,
+            "d0_zero": true,
+            "k_zero": false,
+            "n0_zero": false,
+            "pair_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 1945521921,
+                "sha256": "ef8c0a93fbe625d7de18071479c49f916352191b70054414173e59e8fc46b119"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 1827698385,
+                "sha256": "6aea261b3f420a8faaceecc7a1f89d90779644fb7915072e67bc85c983b43ea2"
+              }
+            ],
+            "pair_gcd_degree": 2,
+            "pair_gcd_sha256": "58062d1d065b152a80d695ae94fc88908fefbf5e0e8cf57170208a1e492b18df",
+            "r_denominator_zero": false,
+            "w0_source_guard": false,
+            "w1_rows": [
+              {
+                "d1_zero": true,
+                "n1_zero": false,
+                "w1": 1827698385,
+                "w1_source_guard": false
+              },
+              {
+                "d1_zero": true,
+                "n1_zero": false,
+                "w1": 1945521921,
+                "w1_source_guard": false
+              }
+            ]
+          }
+        ],
+        "common_b_degree": 1,
+        "common_b_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 795179772,
+            "sha256": "3b3015c234016557b1153fab2462554249aedac509f9fcd6581cfb8dc526f196"
+          }
+        ],
+        "common_b_sha256": "3b3015c234016557b1153fab2462554249aedac509f9fcd6581cfb8dc526f196",
+        "t": 592669297,
+        "t_guard": false,
+        "w0": 1827698385
+      },
+      {
+        "b_rows": [],
+        "common_b_degree": 2,
+        "common_b_factors": [
+          {
+            "degree": 2,
+            "multiplicity": 1,
+            "sha256": "53d74232dc1ad364aa9da95e80c6261dd4620928d26bcf37b0f7c0e86eb3337d"
+          }
+        ],
+        "common_b_sha256": "53d74232dc1ad364aa9da95e80c6261dd4620928d26bcf37b0f7c0e86eb3337d",
+        "t": 1662124772,
+        "t_guard": false,
+        "w0": 634812145
+      },
+      {
+        "b_rows": [
+          {
+            "b": 101519150,
+            "d0_zero": true,
+            "k_zero": false,
+            "n0_zero": false,
+            "pair_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 1899692109,
+                "sha256": "10d6ad5b3febbf0b0454ad97053eefcc34f1c80a721142b20ceb93320efd1568"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 90676153,
+                "sha256": "18b8a4d1c7db3ee5581bf8827a624654ff56e59ab59616ae146585bbcf479e54"
+              }
+            ],
+            "pair_gcd_degree": 2,
+            "pair_gcd_sha256": "a4b53c1b16841015b33a1ffed470ba9899c48e8be5114ce5fb5056b2a53693aa",
+            "r_denominator_zero": false,
+            "w0_source_guard": false,
+            "w1_rows": [
+              {
+                "d1_zero": true,
+                "n1_zero": false,
+                "w1": 90676153,
+                "w1_source_guard": false
+              },
+              {
+                "d1_zero": true,
+                "n1_zero": false,
+                "w1": 1899692109,
+                "w1_source_guard": false
+              }
+            ]
+          }
+        ],
+        "common_b_degree": 1,
+        "common_b_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 101519150,
+            "sha256": "c259c1384c7280877348a64355bd42fb39886bcb4a89abdf8d9156e8ee556daa"
+          }
+        ],
+        "common_b_sha256": "c259c1384c7280877348a64355bd42fb39886bcb4a89abdf8d9156e8ee556daa",
+        "t": 1998500970,
+        "t_guard": false,
+        "w0": 1899692109
+      },
+      {
+        "b_rows": [
+          {
+            "b": 1392580720,
+            "d0_zero": true,
+            "k_zero": false,
+            "n0_zero": false,
+            "pair_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 1858850136,
+                "sha256": "edd7f931e577e6f9ff462723e26bb85700a7f606265076a184aee0cd01f4896b"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 1081146305,
+                "sha256": "72edd2424c1f9713decd77084fec35b3e589fa1cdafcdd0cf8f31c8727668c16"
+              }
+            ],
+            "pair_gcd_degree": 2,
+            "pair_gcd_sha256": "c0cd9ec5476b4b182cd076584882a118cb25d2807b944989ed97af6e54383575",
+            "r_denominator_zero": false,
+            "w0_source_guard": false,
+            "w1_rows": [
+              {
+                "d1_zero": true,
+                "n1_zero": false,
+                "w1": 1081146305,
+                "w1_source_guard": false
+              },
+              {
+                "d1_zero": true,
+                "n1_zero": false,
+                "w1": 1858850136,
+                "w1_source_guard": false
+              }
+            ]
+          }
+        ],
+        "common_b_degree": 1,
+        "common_b_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 1392580720,
+            "sha256": "3dea682c67dd8ed0112671932641fdf4b8a1c5484aae034ce69390af6e829bc1"
+          }
+        ],
+        "common_b_sha256": "3dea682c67dd8ed0112671932641fdf4b8a1c5484aae034ce69390af6e829bc1",
+        "t": 2066915989,
+        "t_guard": false,
+        "w0": 1858850136
+      },
+      {
+        "b_rows": [
+          {
+            "b": 0,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": true,
+            "w0_source_guard": false,
+            "w1_rows": []
+          }
+        ],
+        "common_b_degree": 2,
+        "common_b_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "root": 0,
+            "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+          }
+        ],
+        "common_b_sha256": "5b029881cc5d477a4a820b1c0e64e624919e22ac8d02cfec5da7281c503d08f6",
+        "t": 2113994754,
+        "t_guard": true,
+        "w0": 2113994754
+      },
+      {
+        "b_rows": [
+          {
+            "b": 0,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": true,
+            "w0_source_guard": true,
+            "w1_rows": []
+          }
+        ],
+        "common_b_degree": 2,
+        "common_b_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "root": 0,
+            "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+          }
+        ],
+        "common_b_sha256": "5b029881cc5d477a4a820b1c0e64e624919e22ac8d02cfec5da7281c503d08f6",
+        "t": 2113994754,
+        "t_guard": true,
+        "w0": 2130706432
+      },
+      {
+        "b_rows": [
+          {
+            "b": 1,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": false,
+            "w0_source_guard": true,
+            "w1_rows": []
+          },
+          {
+            "b": 2130706432,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": false,
+            "w0_source_guard": true,
+            "w1_rows": []
+          }
+        ],
+        "common_b_degree": 4,
+        "common_b_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "root": 1,
+            "sha256": "62fac464391c2829c1d941fc6f550ec2dc6c7fd5d560caa848e27f05122d0284"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "root": 2130706432,
+            "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+          }
+        ],
+        "common_b_sha256": "2356ce266be153d123e1457f7ad7a6c3bdd84e5269ee0edd61311ee297f980c6",
+        "t": 2130706432,
+        "t_guard": true,
+        "w0": 1
+      },
+      {
+        "b_rows": [
+          {
+            "b": 2130706432,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": false,
+            "w0_source_guard": false,
+            "w1_rows": []
+          }
+        ],
+        "common_b_degree": 2,
+        "common_b_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "root": 2130706432,
+            "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+          }
+        ],
+        "common_b_sha256": "51501ac0e469bc9f7a9a04ab13baa6035af27b2819dbd13fa136c86d46008c27",
+        "t": 2130706432,
+        "t_guard": true,
+        "w0": 1237295248
+      },
+      {
+        "b_rows": [
+          {
+            "b": 2130706432,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": false,
+            "w0_source_guard": false,
+            "w1_rows": []
+          }
+        ],
+        "common_b_degree": 2,
+        "common_b_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "root": 2130706432,
+            "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+          }
+        ],
+        "common_b_sha256": "51501ac0e469bc9f7a9a04ab13baa6035af27b2819dbd13fa136c86d46008c27",
+        "t": 2130706432,
+        "t_guard": true,
+        "w0": 1851103879
+      },
+      {
+        "b_rows": [
+          {
+            "b": 1,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": false,
+            "w0_source_guard": true,
+            "w1_rows": []
+          },
+          {
+            "b": 2130706432,
+            "d0_zero": true,
+            "k_zero": true,
+            "n0_zero": true,
+            "pair_factors": [],
+            "pair_gcd_degree": -1,
+            "pair_gcd_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "r_denominator_zero": false,
+            "w0_source_guard": true,
+            "w1_rows": []
+          }
+        ],
+        "common_b_degree": 4,
+        "common_b_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "root": 1,
+            "sha256": "62fac464391c2829c1d941fc6f550ec2dc6c7fd5d560caa848e27f05122d0284"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "root": 2130706432,
+            "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+          }
+        ],
+        "common_b_sha256": "2356ce266be153d123e1457f7ad7a6c3bdd84e5269ee0edd61311ee297f980c6",
+        "t": 2130706432,
+        "t_guard": true,
+        "w0": 2130706432
+      }
+    ],
+    "scale_rows": [
+      {
+        "base_field_t_degree": 1,
+        "base_field_t_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 16711679,
+            "sha256": "1e536842a48e520a92356abc88ebcd8c13857137a46410daf1a54e35356da1a1"
+          }
+        ],
+        "name": "h_leading",
+        "point_rows": [
+          {
+            "common_degree": 6,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 3,
+                "sha256": "66dab73035be82c9a60cce9b2b1c06d799242493f1d81da1c59b832cbf8cbae4"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 710235478,
+                "sha256": "08699ee0c8e6c7e2e1fc15b8040cd63ca6b12df31fa94afdcc55ca9fc24bce71"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 0,
+                "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              }
+            ],
+            "common_sha256": "b40026cebc028293cf6e0cb286d8a611ba1806b5c32abf2e33455dcff2377294",
+            "t": 16711679,
+            "t_guard": true
+          }
+        ],
+        "resultant_degree": 64,
+        "sha256": "0f7387c821e5e173bf5d3717fb221e63525a3f488b1c7ead9c519ebbccd51322",
+        "shape": {
+          "degrees": [
+            0,
+            0,
+            8
+          ],
+          "terms": 9,
+          "total_degree": 8
+        }
+      },
+      {
+        "base_field_t_degree": 8,
+        "base_field_t_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 0,
+            "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 1998500970,
+            "sha256": "73ab271b72c6fba1567e00c2ab2d020e7146789b9d49939f99044185c4365b67"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 2066915989,
+            "sha256": "14e65093a780e1ec8dfb0702f07a64b273c02bae3e3b1eac9debd944b1d827d7"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 1,
+            "sha256": "62fac464391c2829c1d941fc6f550ec2dc6c7fd5d560caa848e27f05122d0284"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 592669297,
+            "sha256": "712d42077cbed744a8fd9a93d5a95558a684dfaa4a6b672c12350e58d9c5080f"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 2113994754,
+            "sha256": "f8dcccb1d9905990c26c8356be4669eefc77f3e0375468997e8e83eca72ab39d"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 2130706432,
+            "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 16711679,
+            "sha256": "1e536842a48e520a92356abc88ebcd8c13857137a46410daf1a54e35356da1a1"
+          }
+        ],
+        "name": "linear_leading",
+        "point_rows": [
+          {
+            "common_degree": 4,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 4,
+                "root": 0,
+                "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+              }
+            ],
+            "common_sha256": "b5d15c510169ad7cf2bc6385fe486d22d427ae6284138eb2d8251038df554d93",
+            "t": 0,
+            "t_guard": true
+          },
+          {
+            "common_degree": 8,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 4,
+                "root": 1,
+                "sha256": "62fac464391c2829c1d941fc6f550ec2dc6c7fd5d560caa848e27f05122d0284"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 4,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              }
+            ],
+            "common_sha256": "605ea66ef26b8f6cc0e9fbf8437ce3156920f77c028e94e00726ab75dda1f64c",
+            "t": 1,
+            "t_guard": true
+          },
+          {
+            "common_degree": 6,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 3,
+                "sha256": "66dab73035be82c9a60cce9b2b1c06d799242493f1d81da1c59b832cbf8cbae4"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 710235478,
+                "sha256": "08699ee0c8e6c7e2e1fc15b8040cd63ca6b12df31fa94afdcc55ca9fc24bce71"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 0,
+                "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              }
+            ],
+            "common_sha256": "b40026cebc028293cf6e0cb286d8a611ba1806b5c32abf2e33455dcff2377294",
+            "t": 16711679,
+            "t_guard": true
+          },
+          {
+            "common_degree": 1,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 1827698385,
+                "sha256": "6aea261b3f420a8faaceecc7a1f89d90779644fb7915072e67bc85c983b43ea2"
+              }
+            ],
+            "common_sha256": "6aea261b3f420a8faaceecc7a1f89d90779644fb7915072e67bc85c983b43ea2",
+            "t": 592669297,
+            "t_guard": false
+          },
+          {
+            "common_degree": 1,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 1899692109,
+                "sha256": "10d6ad5b3febbf0b0454ad97053eefcc34f1c80a721142b20ceb93320efd1568"
+              }
+            ],
+            "common_sha256": "10d6ad5b3febbf0b0454ad97053eefcc34f1c80a721142b20ceb93320efd1568",
+            "t": 1998500970,
+            "t_guard": false
+          },
+          {
+            "common_degree": 1,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 1858850136,
+                "sha256": "edd7f931e577e6f9ff462723e26bb85700a7f606265076a184aee0cd01f4896b"
+              }
+            ],
+            "common_sha256": "edd7f931e577e6f9ff462723e26bb85700a7f606265076a184aee0cd01f4896b",
+            "t": 2066915989,
+            "t_guard": false
+          },
+          {
+            "common_degree": 8,
+            "common_factors": [
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "sha256": "64b48e0b166418f45b149144cd7e6775adc5e7f25a4440daa207eedb552ef296"
+              },
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "sha256": "69d67650ba24a89c3ee3c9a1ac0aec20808bddb9f68962b5db72bb6162b3de40"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2113994754,
+                "sha256": "f8dcccb1d9905990c26c8356be4669eefc77f3e0375468997e8e83eca72ab39d"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              }
+            ],
+            "common_sha256": "7a660ae755a9d6fb54c0c4985e8bdc27122063bfca9c3ff44e41793b68be8d97",
+            "t": 2113994754,
+            "t_guard": true
+          },
+          {
+            "common_degree": 4,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 1,
+                "sha256": "62fac464391c2829c1d941fc6f550ec2dc6c7fd5d560caa848e27f05122d0284"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              }
+            ],
+            "common_sha256": "2356ce266be153d123e1457f7ad7a6c3bdd84e5269ee0edd61311ee297f980c6",
+            "t": 2130706432,
+            "t_guard": true
+          }
+        ],
+        "resultant_degree": 1648,
+        "sha256": "cad2cbea0c39fb406f5bdc449473a7f0c0d18c25a3a93e8b88ba66ea924e1871",
+        "shape": {
+          "degrees": [
+            7,
+            0,
+            197
+          ],
+          "terms": 1568,
+          "total_degree": 201
+        }
+      },
+      {
+        "base_field_t_degree": 3,
+        "base_field_t_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 1,
+            "sha256": "62fac464391c2829c1d941fc6f550ec2dc6c7fd5d560caa848e27f05122d0284"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 2113994754,
+            "sha256": "f8dcccb1d9905990c26c8356be4669eefc77f3e0375468997e8e83eca72ab39d"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 16711679,
+            "sha256": "1e536842a48e520a92356abc88ebcd8c13857137a46410daf1a54e35356da1a1"
+          }
+        ],
+        "name": "quadratic_content",
+        "point_rows": [
+          {
+            "common_degree": 8,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 4,
+                "root": 1,
+                "sha256": "62fac464391c2829c1d941fc6f550ec2dc6c7fd5d560caa848e27f05122d0284"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 4,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              }
+            ],
+            "common_sha256": "605ea66ef26b8f6cc0e9fbf8437ce3156920f77c028e94e00726ab75dda1f64c",
+            "t": 1,
+            "t_guard": true
+          },
+          {
+            "common_degree": 6,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 3,
+                "sha256": "66dab73035be82c9a60cce9b2b1c06d799242493f1d81da1c59b832cbf8cbae4"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 710235478,
+                "sha256": "08699ee0c8e6c7e2e1fc15b8040cd63ca6b12df31fa94afdcc55ca9fc24bce71"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 0,
+                "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              }
+            ],
+            "common_sha256": "b40026cebc028293cf6e0cb286d8a611ba1806b5c32abf2e33455dcff2377294",
+            "t": 16711679,
+            "t_guard": true
+          },
+          {
+            "common_degree": 8,
+            "common_factors": [
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "sha256": "64b48e0b166418f45b149144cd7e6775adc5e7f25a4440daa207eedb552ef296"
+              },
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "sha256": "69d67650ba24a89c3ee3c9a1ac0aec20808bddb9f68962b5db72bb6162b3de40"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2113994754,
+                "sha256": "f8dcccb1d9905990c26c8356be4669eefc77f3e0375468997e8e83eca72ab39d"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              }
+            ],
+            "common_sha256": "7a660ae755a9d6fb54c0c4985e8bdc27122063bfca9c3ff44e41793b68be8d97",
+            "t": 2113994754,
+            "t_guard": true
+          }
+        ],
+        "resultant_degree": 1456,
+        "sha256": "49a18716a17c09011623bc1f4105d0b66cb0a322a995a968922e80d624d95cf7",
+        "shape": {
+          "degrees": [
+            0,
+            0,
+            182
+          ],
+          "terms": 183,
+          "total_degree": 182
+        }
+      },
+      {
+        "base_field_t_degree": 6,
+        "base_field_t_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 0,
+            "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 429003821,
+            "sha256": "f75abc8846a65f1208e896c78336ded5c48e6558c3286f74c10337de98b4f8d5"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 1,
+            "sha256": "62fac464391c2829c1d941fc6f550ec2dc6c7fd5d560caa848e27f05122d0284"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 2113994754,
+            "sha256": "f8dcccb1d9905990c26c8356be4669eefc77f3e0375468997e8e83eca72ab39d"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 2130706432,
+            "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 16711679,
+            "sha256": "1e536842a48e520a92356abc88ebcd8c13857137a46410daf1a54e35356da1a1"
+          }
+        ],
+        "name": "quadratic_leading",
+        "point_rows": [
+          {
+            "common_degree": 4,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 4,
+                "root": 0,
+                "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+              }
+            ],
+            "common_sha256": "b5d15c510169ad7cf2bc6385fe486d22d427ae6284138eb2d8251038df554d93",
+            "t": 0,
+            "t_guard": true
+          },
+          {
+            "common_degree": 7,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 4,
+                "root": 1,
+                "sha256": "62fac464391c2829c1d941fc6f550ec2dc6c7fd5d560caa848e27f05122d0284"
+              }
+            ],
+            "common_sha256": "d0dc3e63b8f5accdd4a105fd34541cd54e37ebc73bc2e0c8688313258d1af34c",
+            "t": 1,
+            "t_guard": true
+          },
+          {
+            "common_degree": 6,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 3,
+                "sha256": "66dab73035be82c9a60cce9b2b1c06d799242493f1d81da1c59b832cbf8cbae4"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 710235478,
+                "sha256": "08699ee0c8e6c7e2e1fc15b8040cd63ca6b12df31fa94afdcc55ca9fc24bce71"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 0,
+                "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              }
+            ],
+            "common_sha256": "b40026cebc028293cf6e0cb286d8a611ba1806b5c32abf2e33455dcff2377294",
+            "t": 16711679,
+            "t_guard": true
+          },
+          {
+            "common_degree": 1,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 932310079,
+                "sha256": "21132f30473427f02a1fe4f3f7af860b30c00de8a2df45e8b46b5ada858987d2"
+              }
+            ],
+            "common_sha256": "21132f30473427f02a1fe4f3f7af860b30c00de8a2df45e8b46b5ada858987d2",
+            "t": 429003821,
+            "t_guard": false
+          },
+          {
+            "common_degree": 4,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2113994754,
+                "sha256": "f8dcccb1d9905990c26c8356be4669eefc77f3e0375468997e8e83eca72ab39d"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              }
+            ],
+            "common_sha256": "63920693025834bb15659a165d08f26f6b4e60819e2c0970073c13d3c23a2bf2",
+            "t": 2113994754,
+            "t_guard": true
+          },
+          {
+            "common_degree": 4,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 1,
+                "sha256": "62fac464391c2829c1d941fc6f550ec2dc6c7fd5d560caa848e27f05122d0284"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              }
+            ],
+            "common_sha256": "2356ce266be153d123e1457f7ad7a6c3bdd84e5269ee0edd61311ee297f980c6",
+            "t": 2130706432,
+            "t_guard": true
+          }
+        ],
+        "resultant_degree": 2264,
+        "sha256": "9cb2fd8ab9cbd1c736a72f1a22ba1e5fbaf3aba4bcb695d680c8b88395a6c18b",
+        "shape": {
+          "degrees": [
+            7,
+            0,
+            276
+          ],
+          "terms": 2200,
+          "total_degree": 280
+        }
+      },
+      {
+        "base_field_t_degree": 5,
+        "base_field_t_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 0,
+            "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 1,
+            "sha256": "62fac464391c2829c1d941fc6f550ec2dc6c7fd5d560caa848e27f05122d0284"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 2113994754,
+            "sha256": "f8dcccb1d9905990c26c8356be4669eefc77f3e0375468997e8e83eca72ab39d"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 2130706432,
+            "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 16711679,
+            "sha256": "1e536842a48e520a92356abc88ebcd8c13857137a46410daf1a54e35356da1a1"
+          }
+        ],
+        "name": "candidate_content",
+        "point_rows": [
+          {
+            "common_degree": 8,
+            "common_factors": [
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "sha256": "e30232dcc3a5addc27ec301fa1bf13f72aacddb2a5eb3421be15c815d7e6f9f3"
+              },
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "sha256": "dd06ea49c2ebcbbd79d79deda8eb783bf4bd5984e584a8de0e70a7583c01aac1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 4,
+                "root": 0,
+                "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+              }
+            ],
+            "common_sha256": "4a1afe6d178629a5b727d170148d146c9a9ac3bdaf6475bb3b39d984173c7ab8",
+            "t": 0,
+            "t_guard": true
+          },
+          {
+            "common_degree": 8,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 4,
+                "root": 1,
+                "sha256": "62fac464391c2829c1d941fc6f550ec2dc6c7fd5d560caa848e27f05122d0284"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 4,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              }
+            ],
+            "common_sha256": "605ea66ef26b8f6cc0e9fbf8437ce3156920f77c028e94e00726ab75dda1f64c",
+            "t": 1,
+            "t_guard": true
+          },
+          {
+            "common_degree": 6,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 3,
+                "sha256": "66dab73035be82c9a60cce9b2b1c06d799242493f1d81da1c59b832cbf8cbae4"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 710235478,
+                "sha256": "08699ee0c8e6c7e2e1fc15b8040cd63ca6b12df31fa94afdcc55ca9fc24bce71"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 0,
+                "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              }
+            ],
+            "common_sha256": "b40026cebc028293cf6e0cb286d8a611ba1806b5c32abf2e33455dcff2377294",
+            "t": 16711679,
+            "t_guard": true
+          },
+          {
+            "common_degree": 8,
+            "common_factors": [
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "sha256": "64b48e0b166418f45b149144cd7e6775adc5e7f25a4440daa207eedb552ef296"
+              },
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "sha256": "69d67650ba24a89c3ee3c9a1ac0aec20808bddb9f68962b5db72bb6162b3de40"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2113994754,
+                "sha256": "f8dcccb1d9905990c26c8356be4669eefc77f3e0375468997e8e83eca72ab39d"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              }
+            ],
+            "common_sha256": "7a660ae755a9d6fb54c0c4985e8bdc27122063bfca9c3ff44e41793b68be8d97",
+            "t": 2113994754,
+            "t_guard": true
+          },
+          {
+            "common_degree": 8,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 1851103879,
+                "sha256": "762b6a66d723ade256126f9aff39bc629e3bd6730d9e3a74148d36ebf9596f85"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 1237295248,
+                "sha256": "e31402035d0b7efbea07a719eb24ec54f9cf7ada272e78ee20ae0095efd39ee4"
+              },
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "sha256": "d7faaad4018468e20bde7d0c40c141081e61aef916c3d64d227ba7dd96481c2a"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 1,
+                "sha256": "62fac464391c2829c1d941fc6f550ec2dc6c7fd5d560caa848e27f05122d0284"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              }
+            ],
+            "common_sha256": "71bdbe7c566a660a6e8945eb6391d5728d6393f46a23133c74ba460996e63282",
+            "t": 2130706432,
+            "t_guard": true
+          }
+        ],
+        "resultant_degree": 1432,
+        "sha256": "15e5f8c46c9f64df7433301f3e50010f165046615ff2e2db52c6f2cc74c00967",
+        "shape": {
+          "degrees": [
+            0,
+            0,
+            179
+          ],
+          "terms": 179,
+          "total_degree": 179
+        }
+      },
+      {
+        "base_field_t_degree": 13,
+        "base_field_t_factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 0,
+            "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 1998500970,
+            "sha256": "73ab271b72c6fba1567e00c2ab2d020e7146789b9d49939f99044185c4365b67"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 1231496538,
+            "sha256": "0f42ad4cc70a217239f459fffb8e04c01d109cddacbf68a73c0fe645a5986c31"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 2066915989,
+            "sha256": "14e65093a780e1ec8dfb0702f07a64b273c02bae3e3b1eac9debd944b1d827d7"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 49838125,
+            "sha256": "8f79af18dd8666202bbf7b95f265d524f56da0645281a9dd234238eb9137e06b"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 1620586492,
+            "sha256": "f880502d819ac1fbee06cc3e480c694287e92d5da56ff1bcf309b865e21895f0"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 2113994754,
+            "sha256": "f8dcccb1d9905990c26c8356be4669eefc77f3e0375468997e8e83eca72ab39d"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 592669297,
+            "sha256": "712d42077cbed744a8fd9a93d5a95558a684dfaa4a6b672c12350e58d9c5080f"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 16711679,
+            "sha256": "1e536842a48e520a92356abc88ebcd8c13857137a46410daf1a54e35356da1a1"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 429003821,
+            "sha256": "f75abc8846a65f1208e896c78336ded5c48e6558c3286f74c10337de98b4f8d5"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 1662124772,
+            "sha256": "b086acdeadc41f8dad68a4eab925bdf614d69b9870846225d26176071cc292a5"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 1,
+            "sha256": "62fac464391c2829c1d941fc6f550ec2dc6c7fd5d560caa848e27f05122d0284"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "root": 2130706432,
+            "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+          }
+        ],
+        "name": "candidate_leading_A",
+        "point_rows": [
+          {
+            "common_degree": 4,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 4,
+                "root": 0,
+                "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+              }
+            ],
+            "common_sha256": "b5d15c510169ad7cf2bc6385fe486d22d427ae6284138eb2d8251038df554d93",
+            "t": 0,
+            "t_guard": true
+          },
+          {
+            "common_degree": 7,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 4,
+                "root": 1,
+                "sha256": "62fac464391c2829c1d941fc6f550ec2dc6c7fd5d560caa848e27f05122d0284"
+              }
+            ],
+            "common_sha256": "d0dc3e63b8f5accdd4a105fd34541cd54e37ebc73bc2e0c8688313258d1af34c",
+            "t": 1,
+            "t_guard": true
+          },
+          {
+            "common_degree": 5,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 3,
+                "sha256": "66dab73035be82c9a60cce9b2b1c06d799242493f1d81da1c59b832cbf8cbae4"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 710235478,
+                "sha256": "08699ee0c8e6c7e2e1fc15b8040cd63ca6b12df31fa94afdcc55ca9fc24bce71"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 0,
+                "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+              }
+            ],
+            "common_sha256": "5ea4d2973d8f20d8e00b715ba6aba7dd28228f68a4d503542d184261afa2f3fa",
+            "t": 16711679,
+            "t_guard": true
+          },
+          {
+            "common_degree": 2,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 748662742,
+                "sha256": "71e12cdbd54d3e0bc229b489efc41a03997d19a5273a9603458a8000e90d1085"
+              }
+            ],
+            "common_sha256": "991a28359f3f0f2552b30af1a620459f307a3dc0c5f13378ac782c2dcfe34a7b",
+            "t": 49838125,
+            "t_guard": false
+          },
+          {
+            "common_degree": 1,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 932310079,
+                "sha256": "21132f30473427f02a1fe4f3f7af860b30c00de8a2df45e8b46b5ada858987d2"
+              }
+            ],
+            "common_sha256": "21132f30473427f02a1fe4f3f7af860b30c00de8a2df45e8b46b5ada858987d2",
+            "t": 429003821,
+            "t_guard": false
+          },
+          {
+            "common_degree": 1,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 1827698385,
+                "sha256": "6aea261b3f420a8faaceecc7a1f89d90779644fb7915072e67bc85c983b43ea2"
+              }
+            ],
+            "common_sha256": "6aea261b3f420a8faaceecc7a1f89d90779644fb7915072e67bc85c983b43ea2",
+            "t": 592669297,
+            "t_guard": false
+          },
+          {
+            "common_degree": 4,
+            "common_factors": [
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "sha256": "6830f90fcb84bd79d2462e0138aa5770239473c4a318fd8c1dd91afb504825c5"
+              },
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "sha256": "1abbd47f410a6deaf2cb8cfcf59adda73cf12ef6f6cb67851a5ba8301e03b77c"
+              }
+            ],
+            "common_sha256": "f73195f8863198b7b92a1a1c9328bb52248026a64818fff7d48e7f8a64f216b8",
+            "t": 1231496538,
+            "t_guard": false
+          },
+          {
+            "common_degree": 4,
+            "common_factors": [
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "sha256": "5bcdb69b8bb138dd171ce5c04f89449b4520dde9336f42447deaa03a97d154ff"
+              },
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "sha256": "1dfa1b0b914a110e68ad16c13513af1ab2e9443ee5899c0580b44c312d084129"
+              }
+            ],
+            "common_sha256": "4432cd3e6a6faed61d71b9e7626dc6365f5b62a52de49eddab5ed70470ef85dd",
+            "t": 1620586492,
+            "t_guard": false
+          },
+          {
+            "common_degree": 2,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 634812145,
+                "sha256": "0daf7c1b382a0274047c385fda5c5f24f952c7a5f8ceeae1438f42dce55f285f"
+              }
+            ],
+            "common_sha256": "e182a33c609c49ae6026a623c7565408c358424204e2ffe0f7b2a2464874ff76",
+            "t": 1662124772,
+            "t_guard": false
+          },
+          {
+            "common_degree": 1,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 1899692109,
+                "sha256": "10d6ad5b3febbf0b0454ad97053eefcc34f1c80a721142b20ceb93320efd1568"
+              }
+            ],
+            "common_sha256": "10d6ad5b3febbf0b0454ad97053eefcc34f1c80a721142b20ceb93320efd1568",
+            "t": 1998500970,
+            "t_guard": false
+          },
+          {
+            "common_degree": 1,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "root": 1858850136,
+                "sha256": "edd7f931e577e6f9ff462723e26bb85700a7f606265076a184aee0cd01f4896b"
+              }
+            ],
+            "common_sha256": "edd7f931e577e6f9ff462723e26bb85700a7f606265076a184aee0cd01f4896b",
+            "t": 2066915989,
+            "t_guard": false
+          },
+          {
+            "common_degree": 4,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2113994754,
+                "sha256": "f8dcccb1d9905990c26c8356be4669eefc77f3e0375468997e8e83eca72ab39d"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              }
+            ],
+            "common_sha256": "63920693025834bb15659a165d08f26f6b4e60819e2c0970073c13d3c23a2bf2",
+            "t": 2113994754,
+            "t_guard": true
+          },
+          {
+            "common_degree": 4,
+            "common_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 1,
+                "sha256": "62fac464391c2829c1d941fc6f550ec2dc6c7fd5d560caa848e27f05122d0284"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "root": 2130706432,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360"
+              }
+            ],
+            "common_sha256": "2356ce266be153d123e1457f7ad7a6c3bdd84e5269ee0edd61311ee297f980c6",
+            "t": 2130706432,
+            "t_guard": true
+          }
+        ],
+        "resultant_degree": 5520,
+        "sha256": "96eb5a0b78fd5b5eb472685ce4194b75d28f1ec8930913b1b7c4446156905b5f",
+        "shape": {
+          "degrees": [
+            7,
+            0,
+            688
+          ],
+          "terms": 5496,
+          "total_degree": 692
+        }
+      }
+    ],
+    "status": "COMPLETE"
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell4-pair-exceptional-h-subresultant-scale-atlas-v1",
+  "scope": "Exact deployed-field atlas of every leading coefficient and content scale used in the H-component pseudo-subresultant chain, with direct original P,L,M,F and squared-pair replay at every base-field scale-zero point. Unsquared colored equations, other charts, orbit, and Prize claims remain separate."
+}

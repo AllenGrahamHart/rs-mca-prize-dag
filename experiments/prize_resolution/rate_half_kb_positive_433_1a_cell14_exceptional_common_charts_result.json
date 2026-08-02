@@ -1,0 +1,52 @@
+{
+  "rows": [
+    {
+      "guard_trivial": true,
+      "program_sha256": "1e37b2422fb2716652984b58c1ab3e8c504623542f2d612fed145a080c137e61",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n-1\n1\nUNIT=1\nEND_CHART\n",
+      "t": 0,
+      "unit": true
+    },
+    {
+      "guard_trivial": true,
+      "program_sha256": "f30aafe1c37bbbc9b4d80fd62c290fefe7051d5abbb9dc6693bda2b67436647f",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n-1\n1\nUNIT=1\nEND_CHART\n",
+      "t": 1,
+      "unit": true
+    },
+    {
+      "guard_trivial": true,
+      "program_sha256": "7d7bd1f57de3f7c60fb65791738508ca1bdcf292d30297fc8bc817c3d089c74f",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n-1\n1\nUNIT=1\nEND_CHART\n",
+      "t": 16711679,
+      "unit": true
+    },
+    {
+      "guard_trivial": true,
+      "program_sha256": "d5521abb4e7b88b2dfb308f4d6a8984b2bec6720bb153af94ad2f3bceb1e5def",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n-1\n1\nUNIT=1\nEND_CHART\n",
+      "t": 2113994754,
+      "unit": true
+    },
+    {
+      "guard_trivial": true,
+      "program_sha256": "5708d8bd46b001143958cd0fd17fd9aa4573e15ca05f99159821493e178d5706",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n-1\n1\nUNIT=1\nEND_CHART\n",
+      "t": 2130706432,
+      "unit": true
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1a-cell14-exceptional-common-charts-v1",
+  "scope": "Exact original-common-ideal decisions at every deployed linear root of the cell-14 chart scales; no outside, orbit, or Prize claim.",
+  "source_factor_sha256": "1bdb31ed7b90d8456eb6e080f28f8405a6104a0b007d6716d2a510314e6b7638"
+}

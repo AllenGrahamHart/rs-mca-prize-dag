@@ -21593,6 +21593,362 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction",
+   "title": "KoalaBear positive 433-1a cell-3 genus-three plane-kernel reduction",
+   "status": "PROVED",
+   "closure": "exact genus-three birational model and compact plane-quartic common kernel",
+   "statement": "On an explicit guard and scale chart of the deployed cell-3 common curve, the 25-term palindromic bidegree-(4,4) eliminant is birational to a genus-three hyperelliptic curve whose degree-eight branch polynomial factors as five distinct linear factors and one irreducible cubic. Exact FLINT denominator clearing and pseudo-division give all eight A2,A0,B1 coefficients with b-degree at most 3 and t-degree at most 22, with B1(W)=b10(1-W). Exceptional scales are delegated to a separate child node, and the compiled target-free DE+/DE-/BE basis timed out without a unit or nonunit conclusion. Thus cells 3 and 6 remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_common_triangle_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_common_triangle_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_palindromic_profile_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_palindromic_profile_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_conic_cover_profile_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_conic_cover_profile_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_kernel_reduction_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_kernel_reduction_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_plane_kernel_flint_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_plane_kernel_flint_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_plane_target_free_family_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_plane_target_free_family_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_w2_resultant_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_w2_resultant_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_z2_resultant_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_z2_resultant_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion",
+   "title": "KoalaBear positive 433-1a cell-3 exceptional scale-chart exclusion",
+   "status": "PROVED",
+   "closure": "exact deployed-field exceptional-scale and necessary signed-pair exclusion",
+   "statement": "Every deployed-field zero of a denominator, projective scale, projected scale, or plane-leading coefficient omitted by the compact cell-3 chart is incompatible with a complete packet. The six scale roots give five guard-empty common fibers and one zero-dimensional fiber with exactly two deployed points; at each point the guard-saturated necessary DE+/DE- pair ideal is the unit ideal. Source symmetry transports the conclusion to cell 6. The main genus-three chart and orbit [3,6] remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_exceptional_scale_factor_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_exceptional_scale_factor_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_exceptional_common_charts_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_exceptional_common_charts_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_exceptional_point_lift_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_exceptional_point_lift_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_exceptional_outside_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_exceptional_outside_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction",
+   "title": "KoalaBear positive 433-1a cell-4 genus-one plane-kernel reduction",
+   "status": "PROVED",
+   "closure": "exact genus-one normalization and compact plane-quartic common kernel",
+   "statement": "On an explicit guard and scale chart of the deployed cell-4 common curve, a 21-term palindromic bidegree-(4,4) eliminant is birational to a genus-one double cover with square-free branch degree four. Exact FLINT denominator clearing and pseudo-division give all eight A2,A0,B1 coefficients with b-degree at most 3 and t-degree at most 18, with B1(W)=b10(1-W). Exceptional scales remain separate, and the compiled target-free DE+/DE-/BE basis timed out without a unit or nonunit conclusion. Thus cells 4 and 7 remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_remaining_lex_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_remaining_lex_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_remaining_palindromic_profile_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_remaining_palindromic_profile_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_conic_cover_profile_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_conic_cover_profile_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_kernel_reduction_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_kernel_reduction_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_plane_kernel_flint_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_plane_kernel_flint_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_plane_target_free_family_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_plane_target_free_family_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion",
+   "title": "KoalaBear positive 433-1a cell-4 exceptional scale-chart exclusion",
+   "status": "PROVED",
+   "closure": "exact deployed-field scale factorization and original-guard exclusion",
+   "statement": "Every deployed-field zero of a denominator, removed common scale, or plane-leading coefficient omitted by the compact cell-4 chart is one of 0, plus or minus 1, or plus or minus sqrt(-1). Each zeros the original common guard t(1-t^2)(1+t^2), while all remaining scale factors are irreducible cubics. Hence no admissible common point lies on an exceptional chart; source symmetry transports the result to cell 7. The main genus-one chart and orbit [4,7] remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_exceptional_scale_factor_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_exceptional_scale_factor_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction",
+   "title": "KoalaBear positive 433-1a cell-4 signed-pair projection and reconstruction",
+   "status": "PROVED",
+   "closure": "exact necessary signed-pair component factorization and generic linear reconstruction",
+   "statement": "On the guarded main cell-4 plane chart, eliminating w1 from the necessary signed DE+/DE- pair gives exactly two forbidden-label factors and one irreducible live factor of degrees (13,3,284) in (w0,b,t). A three-step pseudo-remainder sequence, followed by nine plane reductions and cancellation only of original guard factors, gives L(w0,b,t)w1+tM(w0,b,t)=0 with distinct irreducible L,M of degrees (9,3,181) and (9,3,180). Thus w1 is reconstructed wherever L is nonzero; the exceptional L=M=0 coefficient chart and colored equations remain open, with no dimensional claim. Source symmetry transports the reduction to cell 7.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_w1_resultant_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_w1_resultant_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_w1_resultant_polynomial.txt",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_0.txt",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_1.txt",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_2.txt",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_w1_reconstruction_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_w1_reconstruction_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition",
+   "title": "KoalaBear positive 433-1a cell-4 exceptional coefficient projection decomposition",
+   "status": "PROVED",
+   "closure": "exact unisolvent resultant decomposition, residual deployed-point exclusion, and generic H-curve b lift",
+   "statement": "For the cell-4 exceptional coefficient chart L=M=0, fifteen unisolvent evaluations of Res_b(P,L+sM+uF) have common gcd U(t)H(w0,t)^2, where all deployed roots of U are original guard zeros and H is irreducible of bidegree (8,12). The fifteen primitive quotients form a degree-470 residual algebra whose degree-105 t eliminant has only guard linear roots and one irreducible cubic, so it has no admissible deployed point. Every admissible exceptional projection therefore lies on H. Modulo H, P,L,M,F share an exact generic linear b divisor. Leading-scale exceptions, signed-pair sufficiency, and colored equations remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_ledger_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_ledger_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_sources.tar.gz",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_gcd_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_gcd_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_common_factor_6.txt",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_sources.tar.gz",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_sequence_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_sequence_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_lex_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_lex_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_tpoly.txt",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_tpoly_factor_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_primitive_tpoly_factor_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_b_gcd_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_b_gcd_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_b_gcd_polynomial.txt"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion",
+   "title": "KoalaBear positive 433-1a cell-4 exceptional reconstruction colored exclusion",
+   "status": "PROVED",
+   "closure": "exact colored Frobenius ledger plus complete content and subresultant-scale replay",
+   "statement": "On the cell-4 exceptional signed-pair reconstruction chart L=M=0, the residual away from H is already excluded. On the generic H lift, necessary colored elimination gives T(t)x^4C(w0,t)=0, with x nonzero on every guarded signed pair. The degree-16248 resultant Res_w0(H,C) has a degree-15 Frobenius root gcd. Its generic deployed candidates all have D0=0. The two admissible roots of T have no H(F_p) point. All 19 deployed points on the six pseudo-subresultant scale loci are replayed from the original P,L,M,F equations; each is absent, guarded, or has D0=0. Hence L=M=0 is empty for the necessary DE+/DE-/BE family in cells 4 and 7. The main L!=0 component remains open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_x_w2_resultant_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_x_w2_resultant_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_x_w2_resultant_polynomial.txt",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_x_reduce_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_x_reduce_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_x_reduce_polynomial.txt",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_coefficient_frobenius_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_coefficient_frobenius_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_coefficient_t_eliminant.txt",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_candidate_atlas_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_candidate_atlas_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_content_fiber_replay_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_content_fiber_replay_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_subresultant_scale_atlas_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_subresultant_scale_atlas_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion",
+   "title": "KoalaBear positive 433-1a cell-4 main projection guard-factorization exclusion",
+   "status": "PROVED",
+   "closure": "exact plane-quotient guard factorization and complete leading-norm root exclusion",
+   "statement": "On the compact cell-4 plane, repeated exact pseudo-reduction gives C congruent (t^2+1)^42 N0 D0^5 (rd^2 w0-rn^2). Cross multiplication by the leading w0 coefficients proves c13 F-f13 C=0 modulo the plane. The exact norm Res_b(P,f13) has only the guarded base-field roots t=+/-1,+/-i; its remaining quadratic and cubic factors are irreducible. Thus F=0 forces N0D0(rd^2w0-rn^2)=0, contradicting original product, denominator, or source-pair guards. Exceptional scales and exact symmetry then exclude all eight rows in orbit [4,7]. Five positive representatives / 32 raw rows remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_main_projection_guard_factorization_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_main_projection_guard_factorization_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion",
+   "title": "KoalaBear positive 433-1a cell-3 signed-pair guard-factorization exclusion",
+   "status": "PROVED",
+   "closure": "exact complete signed-pair plane-quotient factorization plus leading-norm exception atlas",
+   "statement": "The complete cell-3 necessary signed-pair resultant R has degrees (16,3,531). In the compact plane quotient it is proportional to N0 D0^5 (w0+1)(w0-t^2)(rd^2w0-rn^2)^2. The leading norm has ten base-field roots: six are covered by the proved exceptional-scale theorem, two lift only to the original guard b+1=0, and every deployed w0 root over the other two lies on a printed product, denominator, or source-label guard. Thus no signed pair exists; exact symmetry excludes all eight rows in orbit [3,6]. Four positive representatives / 24 raw rows remain.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_signed_pair_guard_factorization_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_signed_pair_guard_factorization_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion",
+   "title": "KoalaBear positive 433-1a cell-14 signed-pair guard-factorization exclusion",
+   "status": "PROVED",
+   "closure": "exact compact-kernel factorization, complete signed-pair quotient identity, and exceptional-scale atlas",
+   "statement": "The complete cell-14 necessary signed-pair resultant has degrees (16,3,752). In the compact plane quotient it is proportional to N0 D0^5 (w0+1)^2 (rd^2w0-rn^2)(rd^2w0+rn^2). Exact factorization and specialization exclude every deployed leading-norm exception. All omitted compact-kernel scales have only the original t=0,+/-1,+/-i guards as base-field roots, independently replayed as unit common ideals. Thus exact symmetry excludes all four rows of orbit [14]. Three positive representatives / 20 raw rows remain.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell14_kernel_reduction_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell14_kernel_reduction_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell14_plane_kernel_flint_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell14_plane_kernel_flint_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell14_signed_pair_guard_factorization_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell14_signed_pair_guard_factorization_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell14_exceptional_scale_factor_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell14_exceptional_scale_factor_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell14_exceptional_common_charts_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell14_exceptional_common_charts_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion",
+   "title": "KoalaBear positive 433-1a cell-12 signed-pair guard-factorization exclusion",
+   "status": "PROVED",
+   "closure": "exact compact-kernel factorization, complete leading atlas, and unnormalized proper-scale replay",
+   "statement": "The complete cell-12 necessary signed-pair resultant has degrees (16,3,672). In the compact plane quotient it is proportional to N0 D0^5 (w0+1)(rd^2w0-rn^2)(rd^2w0+rn^2)^2. Exact factorization excludes every non-scale leading exception. Five scale roots are original guards; the sole proper scale fiber has two deployed common points, and its unnormalized raw resultants factor only into original guards. Exact symmetry excludes all eight rows of orbit [12,13]. Two positive representatives / 12 raw rows remain.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell12_kernel_reduction_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell12_kernel_reduction_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell12_plane_kernel_flint_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell12_plane_kernel_flint_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell12_signed_pair_guard_factorization_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell12_signed_pair_guard_factorization_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell12_exceptional_scale_factor_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell12_exceptional_scale_factor_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell12_exceptional_common_charts_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell12_exceptional_common_charts_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell12_exceptional_signed_pair_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell12_exceptional_signed_pair_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion",
+   "title": "KoalaBear positive 433-1a cell-11 signed-pair guard-factorization exclusion",
+   "status": "PROVED",
+   "closure": "exact compact-kernel factorization, complete leading atlas, and original-ideal scale replay",
+   "statement": "The complete cell-11 necessary signed-pair resultant has degrees (16,3,667). In the compact plane quotient it is proportional to N0 D0^5 (w0-t^2)^2 (rd^2w0-rn^2)(rd^2w0+rn^2). Exact factorization excludes every non-scale leading exception. All seven compact-kernel scale roots give the unit ideal in the original localized common system. Exact symmetry excludes all four rows of orbit [11]. One positive representative / eight raw rows remains.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_kernel_reduction_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_kernel_reduction_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_plane_kernel_flint_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_plane_kernel_flint_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_signed_pair_guard_factorization_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_signed_pair_guard_factorization_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_exceptional_scale_factor_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_exceptional_scale_factor_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_exceptional_common_charts_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_exceptional_common_charts_result.json"
+   ]
+  },
+  {
    "id": "dli_c1_256_block_basis_factorization",
    "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
    "status": "PROVED",
@@ -42722,6 +43078,281 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

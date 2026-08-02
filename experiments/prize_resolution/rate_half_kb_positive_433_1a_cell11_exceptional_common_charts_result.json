@@ -1,0 +1,70 @@
+{
+  "rows": [
+    {
+      "guard_trivial": true,
+      "program_sha256": "b2aee13785a1d7efe9a14080d5bb80e704769e7239977d670255cbbbad5842c5",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n-1\n1\nUNIT=1\nEND_CHART\n",
+      "t": 0,
+      "unit": true
+    },
+    {
+      "guard_trivial": true,
+      "program_sha256": "ead161fdbfbab6f64c9496aa55b626bf6011fd1c9f11fa8ba087f13b726ac8bc",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n-1\n1\nUNIT=1\nEND_CHART\n",
+      "t": 1,
+      "unit": true
+    },
+    {
+      "guard_trivial": true,
+      "program_sha256": "bbdd31a48d0019a216cfcb424957fb6d9e0e4d8dae7f7fe96251cb646d80269a",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n-1\n1\nUNIT=1\nEND_CHART\n",
+      "t": 16711679,
+      "unit": true
+    },
+    {
+      "guard_trivial": false,
+      "program_sha256": "9382607cab376a32af195aba9e897796be7583929ed086a72e4153f2ac5c2e37",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n-1\n1\nUNIT=1\nEND_CHART\n",
+      "t": 1231496538,
+      "unit": true
+    },
+    {
+      "guard_trivial": false,
+      "program_sha256": "51a546ad51f3a8d2658fa92ff77a89407a80aedc57d6c4368e32a1a9c23c8edf",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n-1\n1\nUNIT=1\nEND_CHART\n",
+      "t": 1620586492,
+      "unit": true
+    },
+    {
+      "guard_trivial": true,
+      "program_sha256": "198920e97ac2f7ff65983a803fd0fc54409bd7d84aff29619221eccf0555f1e4",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n-1\n1\nUNIT=1\nEND_CHART\n",
+      "t": 2113994754,
+      "unit": true
+    },
+    {
+      "guard_trivial": true,
+      "program_sha256": "2b95a1eb497a20cc2f91818396a188b35297f965acb9550be68ea3d8fb6313c1",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n-1\n1\nUNIT=1\nEND_CHART\n",
+      "t": 2130706432,
+      "unit": true
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1a-cell11-exceptional-common-charts-v1",
+  "scope": "Exact original-common-ideal decisions at every deployed linear root of the cell-11 chart scales; no outside, orbit, or Prize claim.",
+  "source_factor_sha256": "228ffcf9ffa7937e4524691c44df54f8eaf7ad018e35d47438101470ff05cc57"
+}

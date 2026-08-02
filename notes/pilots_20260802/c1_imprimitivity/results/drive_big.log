@@ -1,0 +1,100 @@
+=== N=32 w=10 part 0/2 ===
+{"N": 32, "twoN": 64, "w": 10, "part": 0, "nparts": 2, "n_support_orbits_total": 152748, "n_support_orbits_this_part": 76374, "n_polynomials_scanned": 39103488, "expected_this_part": 39103488, "n_exactly_evaluated": 34880, "n_numerically_suspicious": 6224, "target": "7153912066963203", "max_norm_exact": "7148965172774408", "argmax_f": [1, -1, 0, 0, 0, 1, 1, -1, -1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "argmax_bareiss": "7148965172774408", "n_strictly_above_target": 0, "amgm_ceiling": "10000000000000000", "float_margin": 0.001, "tau": 0.0001, "seconds": 78.56}
+=== N=32 w=10 part 1/2 ===
+{"N": 32, "twoN": 64, "w": 10, "part": 1, "nparts": 2, "n_support_orbits_total": 152748, "n_support_orbits_this_part": 76374, "n_polynomials_scanned": 39103488, "expected_this_part": 39103488, "n_exactly_evaluated": 34456, "n_numerically_suspicious": 5800, "target": "7153912066963203", "max_norm_exact": "7153912066963204", "argmax_f": [1, 0, -1, 0, 1, 0, -1, 0, -1, 0, 1, 0, 1, 0, 0, 0, 0, 0, -1, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, 0, 0, 0], "argmax_bareiss": "7153912066963204", "n_strictly_above_target": 2, "amgm_ceiling": "10000000000000000", "float_margin": 0.001, "tau": 0.0001, "seconds": 71.07}
+=== N=32 w=11 part 0/6 ===
+Traceback (most recent call last):
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 131, in <module>
+    rec = scan(a.N, a.w, int(a.target), a.part, a.nparts, a.outdir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 41, in scan
+    reps = np.load(rp) if os.path.exists(rp) else affine_reps(N, w)
+                                                  ^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 128, in affine_reps
+    acc.append(np.unique(canon_rot(m, N)))
+                         ^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 92, in canon_rot
+    out = masks.copy()
+          ^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 52.7 MiB for an array with shape (6906900,) and data type uint64
+FAILED 0
+=== N=32 w=11 part 1/6 ===
+Traceback (most recent call last):
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 131, in <module>
+    rec = scan(a.N, a.w, int(a.target), a.part, a.nparts, a.outdir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 41, in scan
+    reps = np.load(rp) if os.path.exists(rp) else affine_reps(N, w)
+                                                  ^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 128, in affine_reps
+    acc.append(np.unique(canon_rot(m, N)))
+                         ^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 92, in canon_rot
+    out = masks.copy()
+          ^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 52.7 MiB for an array with shape (6906900,) and data type uint64
+FAILED 1
+=== N=32 w=11 part 2/6 ===
+Traceback (most recent call last):
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 131, in <module>
+    rec = scan(a.N, a.w, int(a.target), a.part, a.nparts, a.outdir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 41, in scan
+    reps = np.load(rp) if os.path.exists(rp) else affine_reps(N, w)
+                                                  ^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 128, in affine_reps
+    acc.append(np.unique(canon_rot(m, N)))
+                         ^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 92, in canon_rot
+    out = masks.copy()
+          ^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 52.7 MiB for an array with shape (6906900,) and data type uint64
+FAILED 2
+=== N=32 w=11 part 3/6 ===
+Traceback (most recent call last):
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 131, in <module>
+    rec = scan(a.N, a.w, int(a.target), a.part, a.nparts, a.outdir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 41, in scan
+    reps = np.load(rp) if os.path.exists(rp) else affine_reps(N, w)
+                                                  ^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 128, in affine_reps
+    acc.append(np.unique(canon_rot(m, N)))
+                         ^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 92, in canon_rot
+    out = masks.copy()
+          ^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 52.7 MiB for an array with shape (6906900,) and data type uint64
+FAILED 3
+=== N=32 w=11 part 4/6 ===
+Traceback (most recent call last):
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 131, in <module>
+    rec = scan(a.N, a.w, int(a.target), a.part, a.nparts, a.outdir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 41, in scan
+    reps = np.load(rp) if os.path.exists(rp) else affine_reps(N, w)
+                                                  ^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 128, in affine_reps
+    acc.append(np.unique(canon_rot(m, N)))
+                         ^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 92, in canon_rot
+    out = masks.copy()
+          ^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 52.7 MiB for an array with shape (6906900,) and data type uint64
+FAILED 4
+=== N=32 w=11 part 5/6 ===
+Traceback (most recent call last):
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 131, in <module>
+    rec = scan(a.N, a.w, int(a.target), a.part, a.nparts, a.outdir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/scan_big.py", line 41, in scan
+    reps = np.load(rp) if os.path.exists(rp) else affine_reps(N, w)
+                                                  ^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 128, in affine_reps
+    acc.append(np.unique(canon_rot(m, N)))
+                         ^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/scripts/affine.py", line 92, in canon_rot
+    out = masks.copy()
+          ^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 52.7 MiB for an array with shape (6906900,) and data type uint64
+FAILED 5

@@ -1,0 +1,96 @@
+{
+ "full_mask_check": {
+  "16": {
+   "python_full": 65535,
+   "numpy_expr": 65535
+  },
+  "32": {
+   "python_full": 4294967295,
+   "numpy_expr": 4294967295
+  },
+  "64": {
+   "python_full": 18446744073709551615,
+   "numpy_expr": 18446744073709551615
+  }
+ },
+ "coverage": {
+  "N16_w4": {
+   "reps_file": "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/results/calib/reps_N16_w04.npy",
+   "n_reps": 29,
+   "random_subsets_tested": 300,
+   "uncovered": 0,
+   "COVERS_ALL": true
+  },
+  "N16_w6": {
+   "reps_file": "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/results/calib/reps_N16_w06.npy",
+   "n_reps": 89,
+   "random_subsets_tested": 300,
+   "uncovered": 0,
+   "COVERS_ALL": true
+  },
+  "N16_w8": {
+   "reps_file": "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/results/calib/reps_N16_w08.npy",
+   "n_reps": 147,
+   "random_subsets_tested": 300,
+   "uncovered": 0,
+   "COVERS_ALL": true
+  },
+  "N32_w4": {
+   "reps_file": null,
+   "n_reps": 110,
+   "random_subsets_tested": 300,
+   "uncovered": 0,
+   "COVERS_ALL": true
+  },
+  "N32_w6": {
+   "reps_file": null,
+   "n_reps": 2297,
+   "random_subsets_tested": 300,
+   "uncovered": 0,
+   "COVERS_ALL": true
+  },
+  "N32_w8": {
+   "reps_file": "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/results/n32/reps_N32_w08.npy",
+   "n_reps": 24816,
+   "random_subsets_tested": 300,
+   "uncovered": 0,
+   "COVERS_ALL": true
+  },
+  "N32_w9": {
+   "reps_file": "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/results/n32/reps_N32_w09.npy",
+   "n_reps": 65751,
+   "random_subsets_tested": 300,
+   "uncovered": 0,
+   "COVERS_ALL": true
+  },
+  "N64_w3": {
+   "reps_file": "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/results/n64/reps_N64_w03.npy",
+   "n_reps": 38,
+   "random_subsets_tested": 300,
+   "uncovered": 0,
+   "COVERS_ALL": true
+  },
+  "N64_w4": {
+   "reps_file": "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/results/n64/reps_N64_w04.npy",
+   "n_reps": 463,
+   "random_subsets_tested": 300,
+   "uncovered": 0,
+   "COVERS_ALL": true
+  },
+  "N64_w5": {
+   "reps_file": "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/results/n64/reps_N64_w05.npy",
+   "n_reps": 5055,
+   "random_subsets_tested": 300,
+   "uncovered": 0,
+   "COVERS_ALL": true
+  },
+  "N64_w6": {
+   "reps_file": "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/c1_imprimitivity/results/n64/reps_N64_w06.npy",
+   "n_reps": 46793,
+   "random_subsets_tested": 300,
+   "uncovered": 0,
+   "COVERS_ALL": true
+  }
+ },
+ "ALL_COVERED": true
+}

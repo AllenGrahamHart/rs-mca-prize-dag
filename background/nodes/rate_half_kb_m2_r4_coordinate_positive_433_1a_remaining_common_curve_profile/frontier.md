@@ -10,6 +10,10 @@ common symmetry representatives covering 40 raw rows remain:
 [3,6], [4,7], [9,10], [11], [12,13], [14].
 ```
 
-Triangularize cell `3` (also representing cell `6`) next.  Seek a compact
-component parametrization and reuse the necessary signed-pair interface
-before considering any outside-case fanout.
+The PROVED child
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction`
+now identifies `[3,6]` as a genus-three hyperelliptic curve on an explicit
+chart and reduces its kernel to one plane quartic with coefficient bidegrees
+at most `(3,22)`.  The orbit remains open.  Decide its finite exceptional
+scale charts, then attack the four compact target-free equations by a
+sequential resultant chain; do not rerun the timed-out global bases.

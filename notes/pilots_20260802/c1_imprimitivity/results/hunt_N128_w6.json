@@ -1,0 +1,1147 @@
+{
+ "N": 128,
+ "twoN": 256,
+ "w": 6,
+ "target_law_prediction": "9892201202510488880834903224968047565840171728896",
+ "restarts_done": 452,
+ "seconds": 230.2,
+ "best_found_f": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  -1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  -1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "best_found_norm_exact": "9892082352555026450839678066754329626218083123456",
+ "best_bareiss": "9892082352555026450839678066754329626218083123456",
+ "best_is_primitive": false,
+ "best_over_target_ratio": 0.9999879854894751,
+ "n_strict_beats": 0,
+ "beats": [],
+ "REFUTES_CONJECTURE": false,
+ "restart_log_scores": [
+  {
+   "restart": 1,
+   "log": 107.709127,
+   "primitive": true
+  },
+  {
+   "restart": 2,
+   "log": 102.28233,
+   "primitive": true
+  },
+  {
+   "restart": 3,
+   "log": 107.71309,
+   "primitive": true
+  },
+  {
+   "restart": 4,
+   "log": 99.078048,
+   "primitive": true
+  },
+  {
+   "restart": 5,
+   "log": 102.643189,
+   "primitive": true
+  },
+  {
+   "restart": 6,
+   "log": 101.911297,
+   "primitive": false
+  },
+  {
+   "restart": 7,
+   "log": 109.288556,
+   "primitive": false
+  },
+  {
+   "restart": 8,
+   "log": 105.327832,
+   "primitive": false
+  },
+  {
+   "restart": 9,
+   "log": 102.676443,
+   "primitive": true
+  },
+  {
+   "restart": 10,
+   "log": 102.86928,
+   "primitive": true
+  },
+  {
+   "restart": 11,
+   "log": 101.949435,
+   "primitive": true
+  },
+  {
+   "restart": 12,
+   "log": 105.97843,
+   "primitive": true
+  },
+  {
+   "restart": 13,
+   "log": 109.720182,
+   "primitive": true
+  },
+  {
+   "restart": 14,
+   "log": 104.560382,
+   "primitive": false
+  },
+  {
+   "restart": 15,
+   "log": 105.452259,
+   "primitive": true
+  },
+  {
+   "restart": 16,
+   "log": 106.424697,
+   "primitive": false
+  },
+  {
+   "restart": 17,
+   "log": 102.966064,
+   "primitive": true
+  },
+  {
+   "restart": 18,
+   "log": 104.203617,
+   "primitive": false
+  },
+  {
+   "restart": 19,
+   "log": 107.106451,
+   "primitive": false
+  },
+  {
+   "restart": 20,
+   "log": 103.038414,
+   "primitive": true
+  },
+  {
+   "restart": 21,
+   "log": 101.949435,
+   "primitive": true
+  },
+  {
+   "restart": 22,
+   "log": 104.560382,
+   "primitive": false
+  },
+  {
+   "restart": 23,
+   "log": 103.26227,
+   "primitive": true
+  },
+  {
+   "restart": 24,
+   "log": 107.709127,
+   "primitive": true
+  },
+  {
+   "restart": 25,
+   "log": 105.452259,
+   "primitive": true
+  },
+  {
+   "restart": 26,
+   "log": 103.26227,
+   "primitive": true
+  },
+  {
+   "restart": 27,
+   "log": 105.348592,
+   "primitive": true
+  },
+  {
+   "restart": 28,
+   "log": 105.976977,
+   "primitive": false
+  },
+  {
+   "restart": 29,
+   "log": 102.874211,
+   "primitive": true
+  },
+  {
+   "restart": 30,
+   "log": 105.201191,
+   "primitive": false
+  },
+  {
+   "restart": 31,
+   "log": 109.720185,
+   "primitive": false
+  },
+  {
+   "restart": 32,
+   "log": 102.467668,
+   "primitive": true
+  },
+  {
+   "restart": 33,
+   "log": 102.874211,
+   "primitive": true
+  },
+  {
+   "restart": 34,
+   "log": 107.952278,
+   "primitive": false
+  },
+  {
+   "restart": 35,
+   "log": 109.737821,
+   "primitive": false
+  },
+  {
+   "restart": 36,
+   "log": 99.834769,
+   "primitive": true
+  },
+  {
+   "restart": 37,
+   "log": 105.97843,
+   "primitive": true
+  },
+  {
+   "restart": 38,
+   "log": 107.71309,
+   "primitive": true
+  },
+  {
+   "restart": 39,
+   "log": 101.791862,
+   "primitive": true
+  },
+  {
+   "restart": 40,
+   "log": 102.819469,
+   "primitive": true
+  },
+  {
+   "restart": 41,
+   "log": 97.977345,
+   "primitive": true
+  },
+  {
+   "restart": 42,
+   "log": 106.215861,
+   "primitive": true
+  },
+  {
+   "restart": 43,
+   "log": 105.97843,
+   "primitive": true
+  },
+  {
+   "restart": 44,
+   "log": 107.950289,
+   "primitive": true
+  },
+  {
+   "restart": 45,
+   "log": 102.86928,
+   "primitive": true
+  },
+  {
+   "restart": 46,
+   "log": 103.747451,
+   "primitive": true
+  },
+  {
+   "restart": 47,
+   "log": 109.737821,
+   "primitive": false
+  },
+  {
+   "restart": 48,
+   "log": 107.696251,
+   "primitive": false
+  },
+  {
+   "restart": 49,
+   "log": 107.643271,
+   "primitive": true
+  },
+  {
+   "restart": 50,
+   "log": 107.71309,
+   "primitive": true
+  },
+  {
+   "restart": 51,
+   "log": 102.819469,
+   "primitive": true
+  },
+  {
+   "restart": 52,
+   "log": 103.174061,
+   "primitive": true
+  },
+  {
+   "restart": 53,
+   "log": 107.047706,
+   "primitive": true
+  },
+  {
+   "restart": 54,
+   "log": 105.97843,
+   "primitive": true
+  },
+  {
+   "restart": 55,
+   "log": 107.643624,
+   "primitive": false
+  },
+  {
+   "restart": 56,
+   "log": 102.182069,
+   "primitive": true
+  },
+  {
+   "restart": 57,
+   "log": 107.950289,
+   "primitive": true
+  },
+  {
+   "restart": 58,
+   "log": 105.452259,
+   "primitive": true
+  },
+  {
+   "restart": 59,
+   "log": 102.874211,
+   "primitive": true
+  },
+  {
+   "restart": 60,
+   "log": 103.638029,
+   "primitive": true
+  },
+  {
+   "restart": 61,
+   "log": 102.966064,
+   "primitive": true
+  },
+  {
+   "restart": 62,
+   "log": 107.643271,
+   "primitive": true
+  },
+  {
+   "restart": 63,
+   "log": 107.71309,
+   "primitive": true
+  },
+  {
+   "restart": 64,
+   "log": 102.365296,
+   "primitive": true
+  },
+  {
+   "restart": 65,
+   "log": 105.567992,
+   "primitive": false
+  },
+  {
+   "restart": 66,
+   "log": 99.546576,
+   "primitive": true
+  },
+  {
+   "restart": 67,
+   "log": 107.71309,
+   "primitive": true
+  },
+  {
+   "restart": 68,
+   "log": 105.348592,
+   "primitive": true
+  },
+  {
+   "restart": 69,
+   "log": 103.390037,
+   "primitive": true
+  },
+  {
+   "restart": 70,
+   "log": 109.720319,
+   "primitive": true
+  },
+  {
+   "restart": 71,
+   "log": 107.898672,
+   "primitive": true
+  },
+  {
+   "restart": 72,
+   "log": 105.308198,
+   "primitive": true
+  },
+  {
+   "restart": 73,
+   "log": 104.232189,
+   "primitive": true
+  },
+  {
+   "restart": 74,
+   "log": 107.917108,
+   "primitive": false
+  },
+  {
+   "restart": 75,
+   "log": 107.898914,
+   "primitive": true
+  },
+  {
+   "restart": 76,
+   "log": 103.038414,
+   "primitive": true
+  },
+  {
+   "restart": 77,
+   "log": 101.501419,
+   "primitive": true
+  },
+  {
+   "restart": 78,
+   "log": 102.512298,
+   "primitive": true
+  },
+  {
+   "restart": 79,
+   "log": 102.586698,
+   "primitive": true
+  },
+  {
+   "restart": 80,
+   "log": 99.626373,
+   "primitive": true
+  },
+  {
+   "restart": 81,
+   "log": 102.992973,
+   "primitive": true
+  },
+  {
+   "restart": 82,
+   "log": 102.467668,
+   "primitive": true
+  },
+  {
+   "restart": 83,
+   "log": 101.861378,
+   "primitive": false
+  },
+  {
+   "restart": 84,
+   "log": 103.264889,
+   "primitive": true
+  },
+  {
+   "restart": 85,
+   "log": 106.215861,
+   "primitive": true
+  },
+  {
+   "restart": 86,
+   "log": 107.643271,
+   "primitive": true
+  },
+  {
+   "restart": 87,
+   "log": 107.643271,
+   "primitive": true
+  },
+  {
+   "restart": 88,
+   "log": 102.881056,
+   "primitive": true
+  },
+  {
+   "restart": 89,
+   "log": 107.70369,
+   "primitive": false
+  },
+  {
+   "restart": 90,
+   "log": 104.203617,
+   "primitive": false
+  },
+  {
+   "restart": 91,
+   "log": 100.698857,
+   "primitive": true
+  },
+  {
+   "restart": 92,
+   "log": 101.374308,
+   "primitive": true
+  },
+  {
+   "restart": 93,
+   "log": 101.378228,
+   "primitive": true
+  },
+  {
+   "restart": 94,
+   "log": 102.812052,
+   "primitive": true
+  },
+  {
+   "restart": 95,
+   "log": 101.541827,
+   "primitive": true
+  },
+  {
+   "restart": 96,
+   "log": 107.950289,
+   "primitive": true
+  },
+  {
+   "restart": 97,
+   "log": 105.348592,
+   "primitive": true
+  },
+  {
+   "restart": 98,
+   "log": 105.023065,
+   "primitive": true
+  },
+  {
+   "restart": 99,
+   "log": 100.698857,
+   "primitive": true
+  },
+  {
+   "restart": 100,
+   "log": 103.890405,
+   "primitive": true
+  },
+  {
+   "restart": 101,
+   "log": 103.255851,
+   "primitive": true
+  },
+  {
+   "restart": 102,
+   "log": 101.949435,
+   "primitive": true
+  },
+  {
+   "restart": 103,
+   "log": 103.86611,
+   "primitive": false
+  },
+  {
+   "restart": 104,
+   "log": 107.950289,
+   "primitive": true
+  },
+  {
+   "restart": 105,
+   "log": 100.904058,
+   "primitive": true
+  },
+  {
+   "restart": 106,
+   "log": 102.535799,
+   "primitive": true
+  },
+  {
+   "restart": 107,
+   "log": 102.852196,
+   "primitive": true
+  },
+  {
+   "restart": 108,
+   "log": 101.541827,
+   "primitive": true
+  },
+  {
+   "restart": 109,
+   "log": 103.255851,
+   "primitive": true
+  },
+  {
+   "restart": 110,
+   "log": 107.047706,
+   "primitive": true
+  },
+  {
+   "restart": 111,
+   "log": 102.881056,
+   "primitive": true
+  },
+  {
+   "restart": 112,
+   "log": 101.039684,
+   "primitive": true
+  },
+  {
+   "restart": 113,
+   "log": 100.622298,
+   "primitive": true
+  },
+  {
+   "restart": 114,
+   "log": 102.942859,
+   "primitive": false
+  },
+  {
+   "restart": 115,
+   "log": 106.215861,
+   "primitive": true
+  },
+  {
+   "restart": 116,
+   "log": 100.904058,
+   "primitive": true
+  },
+  {
+   "restart": 117,
+   "log": 109.720319,
+   "primitive": true
+  },
+  {
+   "restart": 118,
+   "log": 100.904058,
+   "primitive": true
+  },
+  {
+   "restart": 119,
+   "log": 107.047706,
+   "primitive": true
+  },
+  {
+   "restart": 120,
+   "log": 105.308198,
+   "primitive": true
+  },
+  {
+   "restart": 121,
+   "log": 109.288556,
+   "primitive": false
+  },
+  {
+   "restart": 122,
+   "log": 102.732458,
+   "primitive": true
+  },
+  {
+   "restart": 123,
+   "log": 104.232189,
+   "primitive": true
+  },
+  {
+   "restart": 124,
+   "log": 102.819469,
+   "primitive": true
+  },
+  {
+   "restart": 125,
+   "log": 104.225312,
+   "primitive": false
+  },
+  {
+   "restart": 126,
+   "log": 107.716584,
+   "primitive": false
+  },
+  {
+   "restart": 127,
+   "log": 107.696251,
+   "primitive": false
+  },
+  {
+   "restart": 128,
+   "log": 107.073245,
+   "primitive": false
+  },
+  {
+   "restart": 129,
+   "log": 101.059908,
+   "primitive": true
+  },
+  {
+   "restart": 130,
+   "log": 101.257401,
+   "primitive": true
+  },
+  {
+   "restart": 131,
+   "log": 107.898672,
+   "primitive": true
+  },
+  {
+   "restart": 132,
+   "log": 107.898672,
+   "primitive": true
+  },
+  {
+   "restart": 133,
+   "log": 107.643271,
+   "primitive": true
+  },
+  {
+   "restart": 134,
+   "log": 105.39793,
+   "primitive": false
+  },
+  {
+   "restart": 135,
+   "log": 103.255851,
+   "primitive": true
+  },
+  {
+   "restart": 136,
+   "log": 112.815819,
+   "primitive": true
+  },
+  {
+   "restart": 137,
+   "log": 103.390037,
+   "primitive": true
+  },
+  {
+   "restart": 138,
+   "log": 109.737821,
+   "primitive": false
+  },
+  {
+   "restart": 139,
+   "log": 103.255851,
+   "primitive": true
+  },
+  {
+   "restart": 140,
+   "log": 109.288556,
+   "primitive": true
+  },
+  {
+   "restart": 141,
+   "log": 107.047706,
+   "primitive": true
+  },
+  {
+   "restart": 142,
+   "log": 103.890405,
+   "primitive": true
+  },
+  {
+   "restart": 143,
+   "log": 102.992973,
+   "primitive": true
+  },
+  {
+   "restart": 144,
+   "log": 109.720182,
+   "primitive": true
+  },
+  {
+   "restart": 145,
+   "log": 102.182069,
+   "primitive": true
+  },
+  {
+   "restart": 146,
+   "log": 102.874211,
+   "primitive": true
+  },
+  {
+   "restart": 147,
+   "log": 102.992935,
+   "primitive": true
+  },
+  {
+   "restart": 148,
+   "log": 102.643189,
+   "primitive": true
+  },
+  {
+   "restart": 149,
+   "log": 106.424697,
+   "primitive": false
+  },
+  {
+   "restart": 150,
+   "log": 103.747451,
+   "primitive": true
+  },
+  {
+   "restart": 151,
+   "log": 102.524887,
+   "primitive": true
+  },
+  {
+   "restart": 152,
+   "log": 102.966064,
+   "primitive": true
+  },
+  {
+   "restart": 153,
+   "log": 103.677088,
+   "primitive": true
+  },
+  {
+   "restart": 154,
+   "log": 103.390037,
+   "primitive": true
+  },
+  {
+   "restart": 155,
+   "log": 102.262376,
+   "primitive": true
+  },
+  {
+   "restart": 156,
+   "log": 108.093336,
+   "primitive": false
+  },
+  {
+   "restart": 157,
+   "log": 107.709127,
+   "primitive": true
+  },
+  {
+   "restart": 158,
+   "log": 107.709127,
+   "primitive": true
+  },
+  {
+   "restart": 159,
+   "log": 107.71309,
+   "primitive": true
+  },
+  {
+   "restart": 160,
+   "log": 104.232189,
+   "primitive": true
+  },
+  {
+   "restart": 161,
+   "log": 107.709127,
+   "primitive": true
+  },
+  {
+   "restart": 162,
+   "log": 104.203617,
+   "primitive": false
+  },
+  {
+   "restart": 163,
+   "log": 105.579595,
+   "primitive": false
+  },
+  {
+   "restart": 164,
+   "log": 101.541827,
+   "primitive": true
+  },
+  {
+   "restart": 165,
+   "log": 104.20002,
+   "primitive": false
+  },
+  {
+   "restart": 166,
+   "log": 102.881056,
+   "primitive": true
+  },
+  {
+   "restart": 167,
+   "log": 102.306705,
+   "primitive": true
+  },
+  {
+   "restart": 168,
+   "log": 106.215861,
+   "primitive": true
+  },
+  {
+   "restart": 169,
+   "log": 102.687301,
+   "primitive": true
+  },
+  {
+   "restart": 170,
+   "log": 107.70369,
+   "primitive": false
+  },
+  {
+   "restart": 171,
+   "log": 109.288556,
+   "primitive": true
+  },
+  {
+   "restart": 172,
+   "log": 101.262082,
+   "primitive": true
+  },
+  {
+   "restart": 173,
+   "log": 105.308198,
+   "primitive": true
+  },
+  {
+   "restart": 174,
+   "log": 105.97843,
+   "primitive": true
+  },
+  {
+   "restart": 175,
+   "log": 106.424697,
+   "primitive": false
+  },
+  {
+   "restart": 176,
+   "log": 106.215861,
+   "primitive": true
+  },
+  {
+   "restart": 177,
+   "log": 101.242087,
+   "primitive": true
+  },
+  {
+   "restart": 178,
+   "log": 101.239399,
+   "primitive": true
+  },
+  {
+   "restart": 179,
+   "log": 107.709127,
+   "primitive": true
+  },
+  {
+   "restart": 180,
+   "log": 106.424697,
+   "primitive": false
+  },
+  {
+   "restart": 181,
+   "log": 103.824254,
+   "primitive": false
+  },
+  {
+   "restart": 182,
+   "log": 102.687301,
+   "primitive": true
+  },
+  {
+   "restart": 183,
+   "log": 107.71309,
+   "primitive": true
+  },
+  {
+   "restart": 184,
+   "log": 102.819469,
+   "primitive": true
+  },
+  {
+   "restart": 185,
+   "log": 107.71309,
+   "primitive": true
+  },
+  {
+   "restart": 186,
+   "log": 103.677088,
+   "primitive": true
+  },
+  {
+   "restart": 187,
+   "log": 105.327832,
+   "primitive": false
+  },
+  {
+   "restart": 188,
+   "log": 103.390037,
+   "primitive": true
+  },
+  {
+   "restart": 189,
+   "log": 104.249007,
+   "primitive": true
+  },
+  {
+   "restart": 190,
+   "log": 107.71309,
+   "primitive": true
+  },
+  {
+   "restart": 191,
+   "log": 107.898672,
+   "primitive": true
+  },
+  {
+   "restart": 192,
+   "log": 105.308198,
+   "primitive": true
+  },
+  {
+   "restart": 193,
+   "log": 102.793554,
+   "primitive": true
+  },
+  {
+   "restart": 194,
+   "log": 100.352764,
+   "primitive": true
+  },
+  {
+   "restart": 195,
+   "log": 109.720327,
+   "primitive": false
+  },
+  {
+   "restart": 196,
+   "log": 97.68358,
+   "primitive": true
+  },
+  {
+   "restart": 197,
+   "log": 102.643189,
+   "primitive": true
+  },
+  {
+   "restart": 198,
+   "log": 99.027155,
+   "primitive": true
+  },
+  {
+   "restart": 199,
+   "log": 101.762991,
+   "primitive": true
+  },
+  {
+   "restart": 200,
+   "log": 103.255851,
+   "primitive": true
+  }
+ ]
+}

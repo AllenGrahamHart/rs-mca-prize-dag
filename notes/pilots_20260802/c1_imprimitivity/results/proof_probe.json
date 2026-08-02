@@ -1,0 +1,281 @@
+{
+ "lemmaC_exhaustive_N8": {
+  "tested": 6560,
+  "violations": 0,
+  "equalities": 672
+ },
+ "lemmaC_random_N16": {
+  "tested": 3000,
+  "violations": 0
+ },
+ "lemmaC_insufficiency_witness": {
+  "M": 8,
+  "p": [
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "q": [
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "pp*+qq*": [
+   4,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "Norm_M(pp*+qq*)": "65536",
+  "amgm_ceiling_w^M (w=4)": "65536",
+  "maxnorm(M=8,w=4)^2": "38416",
+  "bound_exceeds_target": true
+ },
+ "rotation_identity": {
+  "tested": 120,
+  "violations": 0,
+  "examples": []
+ },
+ "majorization": {
+  "N8_w2": {
+   "imprimitive_optimum": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "imprimitive_max": "16",
+   "n_ternary_tested": 6,
+   "n_NOT_majorizing_the_optimum": 0,
+   "majorization_argument_viable": true,
+   "first_counterexample": null,
+   "counterexample_norm": null
+  },
+  "N8_w3": {
+   "imprimitive_optimum": [
+    1,
+    0,
+    1,
+    0,
+    -1,
+    0,
+    0,
+    0
+   ],
+   "imprimitive_max": "81",
+   "n_ternary_tested": 16,
+   "n_NOT_majorizing_the_optimum": 0,
+   "majorization_argument_viable": true,
+   "first_counterexample": null,
+   "counterexample_norm": null
+  },
+  "N16_w2": {
+   "imprimitive_optimum": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "imprimitive_max": "256",
+   "n_ternary_tested": 8,
+   "n_NOT_majorizing_the_optimum": 0,
+   "majorization_argument_viable": true,
+   "first_counterexample": null,
+   "counterexample_norm": null
+  },
+  "N16_w3": {
+   "imprimitive_optimum": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "imprimitive_max": "6561",
+   "n_ternary_tested": 36,
+   "n_NOT_majorizing_the_optimum": 0,
+   "majorization_argument_viable": true,
+   "first_counterexample": null,
+   "counterexample_norm": null
+  },
+  "N16_w4": {
+   "imprimitive_optimum": [
+    1,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "imprimitive_max": "38416",
+   "n_ternary_tested": 232,
+   "n_NOT_majorizing_the_optimum": 6,
+   "majorization_argument_viable": false,
+   "first_counterexample": [
+    1,
+    0,
+    1,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "counterexample_norm": "37636"
+  },
+  "N16_w5": {
+   "imprimitive_optimum": [
+    1,
+    0,
+    -1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "imprimitive_max": "279841",
+   "n_ternary_tested": 784,
+   "n_NOT_majorizing_the_optimum": 0,
+   "majorization_argument_viable": true,
+   "first_counterexample": null,
+   "counterexample_norm": null
+  },
+  "N16_w6": {
+   "imprimitive_optimum": [
+    1,
+    0,
+    1,
+    0,
+    -1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "imprimitive_max": "1331716",
+   "n_ternary_tested": 2848,
+   "n_NOT_majorizing_the_optimum": 4,
+   "majorization_argument_viable": false,
+   "first_counterexample": [
+    1,
+    1,
+    0,
+    0,
+    -1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "counterexample_norm": "1331714"
+  },
+  "N16_w7": {
+   "imprimitive_optimum": [
+    1,
+    0,
+    1,
+    0,
+    -1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    -1,
+    0,
+    0,
+    0
+   ],
+   "imprimitive_max": "5764801",
+   "n_ternary_tested": 7872,
+   "n_NOT_majorizing_the_optimum": 0,
+   "majorization_argument_viable": true,
+   "first_counterexample": null,
+   "counterexample_norm": null
+  }
+ }
+}

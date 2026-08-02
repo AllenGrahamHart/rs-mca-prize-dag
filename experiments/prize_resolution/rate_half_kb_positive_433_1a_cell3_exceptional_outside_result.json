@@ -1,0 +1,75 @@
+{
+  "rows": [
+    {
+      "coefficients": {
+        "a00": 1351481735,
+        "a01": 572126774,
+        "a02": 1811421751,
+        "a20": 1483644981,
+        "a21": 1187833576,
+        "a22": 1175702875,
+        "b10": 119269317,
+        "b11": 2011437116
+      },
+      "common_labels": [
+        1,
+        246781152,
+        2130706432,
+        180960812,
+        1949745621
+      ],
+      "family": null,
+      "pair": {
+        "program_sha256": "416c444ea0e156b6ca1b8ba73b6745b883e20d9157e1aa4f7bfbd6494a4e5ea9",
+        "status": "COMPLETE",
+        "stderr": "",
+        "stdout": "BEGIN_PAIR\n-1\n1\nUNIT=1\nEND_PAIR\n",
+        "unit": true
+      },
+      "point": {
+        "b": 1068789879,
+        "c": 393847656,
+        "r": 700051530,
+        "t": 1288361599
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "coefficients": {
+        "a00": 1450185075,
+        "a01": 106930149,
+        "a02": 1587354926,
+        "a20": 1079880446,
+        "a21": 1300063211,
+        "a22": 282094263,
+        "b10": 824521289,
+        "b11": 1306185144
+      },
+      "common_labels": [
+        1,
+        246781152,
+        2130706432,
+        180960812,
+        1949745621
+      ],
+      "family": null,
+      "pair": {
+        "program_sha256": "a934dbcff8b1a5180c4dc526372c730b5d6af946d38213c3e5098c5a1b7f6634",
+        "status": "COMPLETE",
+        "stderr": "",
+        "stdout": "BEGIN_PAIR\n-1\n1\nUNIT=1\nEND_PAIR\n",
+        "unit": true
+      },
+      "point": {
+        "b": 1953359317,
+        "c": 159222518,
+        "r": 700051530,
+        "t": 1288361599
+      },
+      "status": "COMPLETE"
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1a-cell3-exceptional-outside-v1",
+  "scope": "Exact necessary DE+/DE- and, if needed, DE+/DE-/BE tests at the two deployed cell-3 exceptional common points; unit excludes only those points.",
+  "source_points_sha256": "22eb1b5514c73edc29c86731514b922740592389a02ac8e4c42cef234b6e5d13"
+}

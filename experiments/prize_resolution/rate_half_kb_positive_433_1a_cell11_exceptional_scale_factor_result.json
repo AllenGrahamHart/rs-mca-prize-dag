@@ -1,0 +1,448 @@
+{
+  "result": {
+    "field": 2130706433,
+    "linear_roots": [
+      {
+        "scales": [
+          "c_denominator",
+          "common_projective_scale",
+          "denominator_scale",
+          "projected_common_scale",
+          "r_denominator"
+        ],
+        "t": 0
+      },
+      {
+        "scales": [
+          "plane_leading_coefficient",
+          "projected_common_scale"
+        ],
+        "t": 1
+      },
+      {
+        "scales": [
+          "c_denominator",
+          "common_projective_scale",
+          "denominator_scale",
+          "projected_common_scale",
+          "r_denominator"
+        ],
+        "t": 16711679
+      },
+      {
+        "scales": [
+          "c_denominator",
+          "denominator_scale",
+          "projected_common_scale"
+        ],
+        "t": 1231496538
+      },
+      {
+        "scales": [
+          "c_denominator",
+          "denominator_scale",
+          "projected_common_scale"
+        ],
+        "t": 1620586492
+      },
+      {
+        "scales": [
+          "c_denominator",
+          "common_projective_scale",
+          "denominator_scale",
+          "projected_common_scale",
+          "r_denominator"
+        ],
+        "t": 2113994754
+      },
+      {
+        "scales": [
+          "plane_leading_coefficient",
+          "projected_common_scale"
+        ],
+        "t": 2130706432
+      }
+    ],
+    "rows": [
+      {
+        "content": 1,
+        "degrees": [
+          0,
+          6
+        ],
+        "factorization": [
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 2,
+            "polynomial": "t",
+            "root": 0,
+            "terms": 1,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 2,
+            "polynomial": "t + 2113994754",
+            "root": 16711679,
+            "terms": 2,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 2,
+            "polynomial": "t + 16711679",
+            "root": 2113994754,
+            "terms": 2,
+            "total_degree": 1
+          }
+        ],
+        "name": "r_denominator"
+      },
+      {
+        "content": 1,
+        "degrees": [
+          0,
+          9
+        ],
+        "factorization": [
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 3,
+            "polynomial": "t",
+            "root": 0,
+            "terms": 1,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 1,
+            "polynomial": "t + 510119941",
+            "root": 1620586492,
+            "terms": 2,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 1,
+            "polynomial": "t + 899209895",
+            "root": 1231496538,
+            "terms": 2,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 2,
+            "polynomial": "t + 2113994754",
+            "root": 16711679,
+            "terms": 2,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 2,
+            "polynomial": "t + 16711679",
+            "root": 2113994754,
+            "terms": 2,
+            "total_degree": 1
+          }
+        ],
+        "name": "c_denominator"
+      },
+      {
+        "content": 1,
+        "degrees": [
+          0,
+          69
+        ],
+        "factorization": [
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 23,
+            "polynomial": "t",
+            "root": 0,
+            "terms": 1,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 3,
+            "polynomial": "t + 510119941",
+            "root": 1620586492,
+            "terms": 2,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 3,
+            "polynomial": "t + 899209895",
+            "root": 1231496538,
+            "terms": 2,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 20,
+            "polynomial": "t + 2113994754",
+            "root": 16711679,
+            "terms": 2,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 20,
+            "polynomial": "t + 16711679",
+            "root": 2113994754,
+            "terms": 2,
+            "total_degree": 1
+          }
+        ],
+        "name": "denominator_scale"
+      },
+      {
+        "content": 1,
+        "degrees": [
+          0,
+          21
+        ],
+        "factorization": [
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 9,
+            "polynomial": "t",
+            "root": 0,
+            "terms": 1,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 6,
+            "polynomial": "t + 2113994754",
+            "root": 16711679,
+            "terms": 2,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 6,
+            "polynomial": "t + 16711679",
+            "root": 2113994754,
+            "terms": 2,
+            "total_degree": 1
+          }
+        ],
+        "name": "common_projective_scale"
+      },
+      {
+        "content": 1,
+        "degrees": [
+          0,
+          8
+        ],
+        "factorization": [
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 1,
+            "polynomial": "t + 2130706432",
+            "root": 1,
+            "terms": 2,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 1,
+            "polynomial": "t + 1",
+            "root": 2130706432,
+            "terms": 2,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              3
+            ],
+            "multiplicity": 1,
+            "polynomial": "t^3 + 2097283076*t^2 + 33423359*t + 1",
+            "terms": 4,
+            "total_degree": 3
+          },
+          {
+            "degrees": [
+              0,
+              3
+            ],
+            "multiplicity": 1,
+            "polynomial": "t^3 + 2097283074*t^2 + 2097283076*t + 2130706432",
+            "terms": 4,
+            "total_degree": 3
+          }
+        ],
+        "name": "plane_leading_coefficient"
+      },
+      {
+        "content": 1,
+        "degrees": [
+          0,
+          185
+        ],
+        "factorization": [
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 11,
+            "polynomial": "t",
+            "root": 0,
+            "terms": 1,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 1,
+            "polynomial": "t + 510119941",
+            "root": 1620586492,
+            "terms": 2,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 1,
+            "polynomial": "t + 899209895",
+            "root": 1231496538,
+            "terms": 2,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 6,
+            "polynomial": "t + 2113994754",
+            "root": 16711679,
+            "terms": 2,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 13,
+            "polynomial": "t + 16711679",
+            "root": 2113994754,
+            "terms": 2,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 19,
+            "polynomial": "t + 1",
+            "root": 2130706432,
+            "terms": 2,
+            "total_degree": 1
+          },
+          {
+            "degrees": [
+              0,
+              3
+            ],
+            "multiplicity": 19,
+            "polynomial": "t^3 + 2097283076*t^2 + 33423359*t + 1",
+            "terms": 4,
+            "total_degree": 3
+          },
+          {
+            "degrees": [
+              0,
+              3
+            ],
+            "multiplicity": 19,
+            "polynomial": "t^3 + 2097283074*t^2 + 2097283076*t + 2130706432",
+            "terms": 4,
+            "total_degree": 3
+          },
+          {
+            "degrees": [
+              0,
+              1
+            ],
+            "multiplicity": 20,
+            "polynomial": "t + 2130706432",
+            "root": 1,
+            "terms": 2,
+            "total_degree": 1
+          }
+        ],
+        "name": "projected_common_scale"
+      }
+    ],
+    "source_plane_sha256": "f705f1e29c151df6956cbb43b4c045425ad7b50678ecd01ed0c06bb3ba062bb4",
+    "status": "COMPLETE"
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell11-exceptional-scale-factor-v1",
+  "scope": "Exact deployed-field factorization of the cell-11 plane-chart exceptional scales; no common-point, outside, orbit, or Prize claim."
+}

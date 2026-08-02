@@ -1,0 +1,336 @@
+{
+  "artifact_sha256": {
+    "rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_2.txt": "af0c74a85dcb83c3245f5a93045206a431e06019fbbd3d690621d010fd9af10c",
+    "rate_half_kb_positive_433_1a_cell4_plane_kernel_flint_result.json": "26cc881846361a6f85d270dc436784991109f67982122b40cc4bbf75235e410e"
+  },
+  "result": {
+    "ambient_division_diagnostic": {
+      "quotient_shape": {
+        "degrees": [
+          -1,
+          -1,
+          -1
+        ],
+        "terms": 0,
+        "total_degree": -1
+      },
+      "remainder_shape": {
+        "degrees": [
+          13,
+          3,
+          200
+        ],
+        "terms": 11088,
+        "total_degree": 210
+      },
+      "remainder_zero": false
+    },
+    "candidate_sha256": "f78456d1baf487788a633e7b1768569d0a4bda67e84565236f1a12396c0f44a8",
+    "candidate_shape": {
+      "degrees": [
+        13,
+        3,
+        200
+      ],
+      "terms": 11088,
+      "total_degree": 210
+    },
+    "d0_shape": {
+      "degrees": [
+        2,
+        3,
+        18
+      ],
+      "terms": 220,
+      "total_degree": 22
+    },
+    "f_leading_norm": {
+      "content": 1221358375,
+      "factors": [
+        {
+          "multiplicity": 6,
+          "sha256": "06041316a90d7dea2478a0fca98564e97d49e4a9bc2adc425ee354257dce9e0f",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              2
+            ],
+            "terms": 3,
+            "total_degree": 2
+          },
+          "text": "t^2 + 1457968268*t + 1019305654"
+        },
+        {
+          "multiplicity": 6,
+          "sha256": "94769970e7d3fe589eba148c0792f489d90fa799088999797af54ee4b18c8b00",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              3
+            ],
+            "terms": 4,
+            "total_degree": 3
+          },
+          "text": "t^3 + 622603126*t^2 + 1463338870*t + 1228312035"
+        },
+        {
+          "multiplicity": 24,
+          "sha256": "38efd4f84091e638453ba3a6d22c4e0f4902bf5e017d0f2cc2a20572a689f880",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              3
+            ],
+            "terms": 4,
+            "total_degree": 3
+          },
+          "text": "t^3 + 2097283074*t^2 + 2097283076*t + 2130706432"
+        },
+        {
+          "multiplicity": 36,
+          "sha256": "7249db31e68d9e7d4265322fee1935c3e3fcff0fcabfab3527d3f0680598a051",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          },
+          "text": "t + 1"
+        },
+        {
+          "multiplicity": 68,
+          "sha256": "7bc1c4c890af336bb972949da974b939a2114894978386462d5faa9f09adbece",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          },
+          "text": "t + 2130706432"
+        },
+        {
+          "multiplicity": 98,
+          "sha256": "2582a9e126854a6445d667fce513c504f26b1cfbfe3d4ac631b7fe85b20cdca4",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          },
+          "text": "t + 16711679"
+        },
+        {
+          "multiplicity": 144,
+          "sha256": "cb4fa1b78ab6c231170f0163dfdc67e0e7cf795a2fca68021bfb0bec110eff02",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              3
+            ],
+            "terms": 4,
+            "total_degree": 3
+          },
+          "text": "t^3 + 2097283076*t^2 + 33423359*t + 1"
+        },
+        {
+          "multiplicity": 388,
+          "sha256": "6096afd0276352ba1e4a073fbbf296c04d59afb643442e9db877175030aa933a",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          },
+          "text": "t + 2113994754"
+        }
+      ],
+      "sha256": "0bb5e2786ff5e518dc802334d2f78d442512e8ea1f503ca41f106895fdc21e64",
+      "shape": {
+        "degrees": [
+          0,
+          0,
+          1124
+        ],
+        "terms": 1125,
+        "total_degree": 1124
+      }
+    },
+    "f_shape": {
+      "degrees": [
+        13,
+        3,
+        284
+      ],
+      "terms": 15792,
+      "total_degree": 294
+    },
+    "field": 2130706433,
+    "identity": "plane-reduced(N0*D0^5*(rd^2*w0-rn^2))=Q(t)*F",
+    "n0_shape": {
+      "degrees": [
+        2,
+        3,
+        18
+      ],
+      "terms": 220,
+      "total_degree": 22
+    },
+    "plane_leading": "t^4 + 2*t^2 + 1",
+    "plane_leading_exponent": 21,
+    "plane_shape": {
+      "degrees": [
+        0,
+        4,
+        4
+      ],
+      "terms": 21,
+      "total_degree": 8
+    },
+    "quotient_ring_cross_identity": {
+      "candidate_leading_sha256": "d62adba3b28a858e2366cbca85918e3336765a650ae5c6c7e29ea0d949a33784",
+      "candidate_leading_shape": {
+        "degrees": [
+          0,
+          3,
+          194
+        ],
+        "terms": 780,
+        "total_degree": 197
+      },
+      "f_leading_sha256": "6182823e255440f80b3ea00d790cc92659f11138c8ce99830ec5abc227ef0447",
+      "f_leading_shape": {
+        "degrees": [
+          0,
+          3,
+          278
+        ],
+        "terms": 1116,
+        "total_degree": 281
+      },
+      "plane_steps": 3,
+      "remainder_zero": true,
+      "verified": true
+    },
+    "reductions": [
+      {
+        "operation": "d0_power_2",
+        "shape": {
+          "degrees": [
+            4,
+            3,
+            48
+          ],
+          "terms": 956,
+          "total_degree": 53
+        },
+        "steps": 3
+      },
+      {
+        "operation": "d0_power_3",
+        "shape": {
+          "degrees": [
+            6,
+            3,
+            78
+          ],
+          "terms": 2164,
+          "total_degree": 84
+        },
+        "steps": 3
+      },
+      {
+        "operation": "d0_power_4",
+        "shape": {
+          "degrees": [
+            8,
+            3,
+            108
+          ],
+          "terms": 3844,
+          "total_degree": 115
+        },
+        "steps": 3
+      },
+      {
+        "operation": "d0_power_5",
+        "shape": {
+          "degrees": [
+            10,
+            3,
+            138
+          ],
+          "terms": 5996,
+          "total_degree": 146
+        },
+        "steps": 3
+      },
+      {
+        "operation": "source_guard",
+        "shape": {
+          "degrees": [
+            1,
+            3,
+            20
+          ],
+          "terms": 94,
+          "total_degree": 23
+        },
+        "steps": 3
+      },
+      {
+        "operation": "n0_times_d0_fifth",
+        "shape": {
+          "degrees": [
+            12,
+            3,
+            168
+          ],
+          "terms": 8620,
+          "total_degree": 177
+        },
+        "steps": 3
+      },
+      {
+        "operation": "times_source_guard",
+        "shape": {
+          "degrees": [
+            13,
+            3,
+            200
+          ],
+          "terms": 11088,
+          "total_degree": 210
+        },
+        "steps": 3
+      }
+    ],
+    "source_guard_shape": {
+      "degrees": [
+        1,
+        3,
+        20
+      ],
+      "terms": 94,
+      "total_degree": 23
+    },
+    "status": "COMPLETE"
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell4-main-guard-factorization-v1",
+  "scope": "Exact plane-quotient factorization of the necessary degree-13 signed-pair projection into N0, D0^5, and the squared source-label guard. Guard invertibility, exceptional plane-leading fibers, orbit transport, and Prize consequences remain separate."
+}

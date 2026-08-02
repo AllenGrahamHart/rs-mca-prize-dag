@@ -1,0 +1,66 @@
+{
+  "artifact_sha256": {
+    "rate_half_kb_positive_433_1a_cell4_pair_exceptional_b_resultant_common_factor_6.txt": "4001b13396f0ac9a3f5621ec4d958eb944d570f87ad36bff9259819dc7519a85",
+    "rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_x_reduce_result.json": "2afa6e219da94cf26131d645d4ad1a67951c45a0436c15e4ae8abfb1e4e6ba21",
+    "rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_2.txt": "af0c74a85dcb83c3245f5a93045206a431e06019fbbd3d690621d010fd9af10c",
+    "rate_half_kb_positive_433_1a_cell4_pair_w1_reconstruction_constant_factor_1.txt": "42f5512ae03c3037cc1520b3a5a4bb28d3cb6efff397cd4d948b72e036776419",
+    "rate_half_kb_positive_433_1a_cell4_pair_w1_reconstruction_linear_factor_0.txt": "14113f117c5096205e5b95cfe5b569ab28a89f8d8b4e14e22603650c85f46c6c",
+    "rate_half_kb_positive_433_1a_cell4_plane_kernel_flint_result.json": "26cc881846361a6f85d270dc436784991109f67982122b40cc4bbf75235e410e"
+  },
+  "result": {
+    "admissible_content_roots": [
+      1231496538,
+      1620586492
+    ],
+    "content_linear_roots": [
+      1,
+      16711679,
+      1231496538,
+      1620586492,
+      2113994754,
+      2130706432
+    ],
+    "field": 2130706433,
+    "rows": [
+      {
+        "h_degree": 8,
+        "h_factors": [
+          {
+            "degree": 2,
+            "multiplicity": 2,
+            "sha256": "6830f90fcb84bd79d2462e0138aa5770239473c4a318fd8c1dd91afb504825c5"
+          },
+          {
+            "degree": 2,
+            "multiplicity": 2,
+            "sha256": "1abbd47f410a6deaf2cb8cfcf59adda73cf12ef6f6cb67851a5ba8301e03b77c"
+          }
+        ],
+        "h_sha256": "1ae5f1ac1d6126039bd26b96828ca9d2e71788e96c032feb654eadc1b94ded93",
+        "t": 1231496538,
+        "w0_rows": []
+      },
+      {
+        "h_degree": 8,
+        "h_factors": [
+          {
+            "degree": 2,
+            "multiplicity": 2,
+            "sha256": "5bcdb69b8bb138dd171ce5c04f89449b4520dde9336f42447deaa03a97d154ff"
+          },
+          {
+            "degree": 2,
+            "multiplicity": 2,
+            "sha256": "1dfa1b0b914a110e68ad16c13513af1ab2e9443ee5899c0580b44c312d084129"
+          }
+        ],
+        "h_sha256": "4ee9f993b6bf9fc540d0ea9a4ac6a428e86683f51b2431ab09e143727dd2a526",
+        "t": 1620586492,
+        "w0_rows": []
+      }
+    ],
+    "status": "COMPLETE"
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell4-pair-exceptional-h-colored-content-fiber-replay-v1",
+  "scope": "Exact replay of every admissible linear t-content fiber removed from the colored H reduction, starting from H and the original P,L,M,F equations before the squared DE+/DE- pair. Unsquared labels, colored BE, unrelated leading charts, orbit, and Prize claims remain separate."
+}

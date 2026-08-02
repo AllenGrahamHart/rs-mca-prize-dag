@@ -1,0 +1,406 @@
+{
+ "T4_parity_Norm_congruent_w_mod_2": {
+  "exhaustive_N8": {
+   "tested": 6560,
+   "violations": 0
+  },
+  "random_N16": {
+   "tested": 400,
+   "violations": 0
+  },
+  "random_N32": {
+   "tested": 400,
+   "violations": 0
+  }
+ },
+ "T5_imprimitive_implies_square": {
+  "random_imprimitive_tested": 600,
+  "violations": 0,
+  "certificate_table": {
+   "2N=8": {
+    "1": {
+     "maxnorm": "1",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "1 vs 2"
+    },
+    "2": {
+     "maxnorm": "4",
+     "is_perfect_square": true,
+     "v2": 2,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "2 vs 2"
+    },
+    "3": {
+     "maxnorm": "9",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "3 vs 2"
+    },
+    "4": {
+     "maxnorm": "8",
+     "is_perfect_square": false,
+     "v2": 3,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": true,
+     "w_vs_half_ring_N/2": "4 vs 2"
+    }
+   },
+   "2N=16": {
+    "1": {
+     "maxnorm": "1",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "1 vs 4"
+    },
+    "2": {
+     "maxnorm": "16",
+     "is_perfect_square": true,
+     "v2": 4,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "2 vs 4"
+    },
+    "3": {
+     "maxnorm": "81",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "3 vs 4"
+    },
+    "4": {
+     "maxnorm": "196",
+     "is_perfect_square": true,
+     "v2": 2,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "4 vs 4"
+    },
+    "5": {
+     "maxnorm": "529",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "5 vs 4"
+    },
+    "6": {
+     "maxnorm": "1154",
+     "is_perfect_square": false,
+     "v2": 1,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": true,
+     "w_vs_half_ring_N/2": "6 vs 4"
+    },
+    "7": {
+     "maxnorm": "2401",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "7 vs 4"
+    },
+    "8": {
+     "maxnorm": "2176",
+     "is_perfect_square": false,
+     "v2": 7,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": true,
+     "w_vs_half_ring_N/2": "8 vs 4"
+    }
+   },
+   "2N=32": {
+    "1": {
+     "maxnorm": "1",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "1 vs 8"
+    },
+    "2": {
+     "maxnorm": "256",
+     "is_perfect_square": true,
+     "v2": 8,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "2 vs 8"
+    },
+    "3": {
+     "maxnorm": "6561",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "3 vs 8"
+    },
+    "4": {
+     "maxnorm": "38416",
+     "is_perfect_square": true,
+     "v2": 4,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "4 vs 8"
+    },
+    "5": {
+     "maxnorm": "279841",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "5 vs 8"
+    },
+    "6": {
+     "maxnorm": "1331716",
+     "is_perfect_square": true,
+     "v2": 2,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "6 vs 8"
+    },
+    "7": {
+     "maxnorm": "5764801",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "7 vs 8"
+    },
+    "8": {
+     "maxnorm": "14760962",
+     "is_perfect_square": false,
+     "v2": 1,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": true,
+     "w_vs_half_ring_N/2": "8 vs 8"
+    },
+    "9": {
+     "maxnorm": "38950081",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "9 vs 8"
+    },
+    "10": {
+     "maxnorm": "84580802",
+     "is_perfect_square": false,
+     "v2": 1,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": true,
+     "w_vs_half_ring_N/2": "10 vs 8"
+    },
+    "11": {
+     "maxnorm": "184497889",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "11 vs 8"
+    },
+    "12": {
+     "maxnorm": "342386306",
+     "is_perfect_square": false,
+     "v2": 1,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": true,
+     "w_vs_half_ring_N/2": "12 vs 8"
+    },
+    "13": {
+     "maxnorm": "777684769",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "13 vs 8"
+    },
+    "14": {
+     "maxnorm": "1040410946",
+     "is_perfect_square": false,
+     "v2": 1,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": true,
+     "w_vs_half_ring_N/2": "14 vs 8"
+    },
+    "15": {
+     "maxnorm": "1612931233",
+     "is_perfect_square": false,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": true,
+     "w_vs_half_ring_N/2": "15 vs 8"
+    },
+    "16": {
+     "maxnorm": "2311094272",
+     "is_perfect_square": false,
+     "v2": 15,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": true,
+     "w_vs_half_ring_N/2": "16 vs 8"
+    }
+   },
+   "2N=64": {
+    "1": {
+     "maxnorm": "1",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "1 vs 16"
+    },
+    "2": {
+     "maxnorm": "65536",
+     "is_perfect_square": true,
+     "v2": 16,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "2 vs 16"
+    },
+    "3": {
+     "maxnorm": "43046721",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "3 vs 16"
+    },
+    "4": {
+     "maxnorm": "1475789056",
+     "is_perfect_square": true,
+     "v2": 8,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "4 vs 16"
+    },
+    "5": {
+     "maxnorm": "78310985281",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "5 vs 16"
+    },
+    "6": {
+     "maxnorm": "1773467504656",
+     "is_perfect_square": true,
+     "v2": 4,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "6 vs 16"
+    },
+    "7": {
+     "maxnorm": "33232930569601",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "7 vs 16"
+    },
+    "8": {
+     "maxnorm": "217885999165444",
+     "is_perfect_square": true,
+     "v2": 2,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "8 vs 16"
+    },
+    "9": {
+     "maxnorm": "1517108809906561",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "9 vs 16"
+    }
+   },
+   "2N=128": {
+    "2": {
+     "maxnorm": "4294967296",
+     "is_perfect_square": true,
+     "v2": 32,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "2 vs 32"
+    },
+    "3": {
+     "maxnorm": "1853020188851841",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "3 vs 32"
+    },
+    "4": {
+     "maxnorm": "2177953337809371136",
+     "is_perfect_square": true,
+     "v2": 16,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "4 vs 32"
+    },
+    "5": {
+     "maxnorm": "6132610415680998648961",
+     "is_perfect_square": true,
+     "v2": 0,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "5 vs 32"
+    },
+    "6": {
+     "maxnorm": "3145186990070779381678336",
+     "is_perfect_square": true,
+     "v2": 8,
+     "argmax_CERTIFIED_PRIMITIVE_by_nonsquare": false,
+     "w_vs_half_ring_N/2": "6 vs 32"
+    }
+   }
+  }
+ },
+ "T3_no_flat_weight_4": {
+  "N=4": {
+   "maxnorm(N,4)": "8",
+   "ceiling_4^(N/2)": "16",
+   "strictly_below_ceiling": true
+  },
+  "N=8": {
+   "maxnorm(N,4)": "196",
+   "ceiling_4^(N/2)": "256",
+   "strictly_below_ceiling": true
+  },
+  "N=16": {
+   "maxnorm(N,4)": "38416",
+   "ceiling_4^(N/2)": "65536",
+   "strictly_below_ceiling": true
+  },
+  "N=32": {
+   "maxnorm(N,4)": "1475789056",
+   "ceiling_4^(N/2)": "4294967296",
+   "strictly_below_ceiling": true
+  },
+  "N=64": {
+   "maxnorm(N,4)": "2177953337809371136",
+   "ceiling_4^(N/2)": "18446744073709551616",
+   "strictly_below_ceiling": true
+  }
+ },
+ "T1_lemmaC": {
+  "lemmaC_exhaustive_N8": {
+   "tested": 6560,
+   "violations": 0,
+   "equalities": 672
+  },
+  "lemmaC_random_N16": {
+   "tested": 3000,
+   "violations": 0
+  },
+  "lemmaC_insufficiency_witness": {
+   "M": 8,
+   "p": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "q": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "pp*+qq*": [
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Norm_M(pp*+qq*)": "65536",
+   "amgm_ceiling_w^M (w=4)": "65536",
+   "maxnorm(M=8,w=4)^2": "38416",
+   "bound_exceeds_target": true
+  }
+ },
+ "T2_rotation_identity": {
+  "tested": 120,
+  "violations": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,80 @@
+{
+  "result": {
+    "conic_base_point": [
+      1,
+      66846712
+    ],
+    "conic_roots": [
+      1620586492,
+      1231496538
+    ],
+    "conic_y_of_s": "(-66846712*s**2 - 534773632*s + 1052770690)/(s**2 - 48)",
+    "denominator_factorization": {
+      "content": 1593843777,
+      "factors": [
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "polynomial": "s + 66846724"
+        },
+        {
+          "degree": 3,
+          "multiplicity": 2,
+          "polynomial": "s**3 - 200540148*s**2 - 8388527*s + 1035993540"
+        }
+      ]
+    },
+    "denominator_shape": {
+      "degree": 8,
+      "terms": 9
+    },
+    "field": 2130706433,
+    "numerator_factorization": {
+      "content": 1728845849,
+      "factors": [
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "polynomial": "s + 4"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "polynomial": "s + 930460291"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "polynomial": "s + 1042373100"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "polynomial": "s - 1064153723"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "polynomial": "s - 997808612"
+        },
+        {
+          "degree": 3,
+          "multiplicity": 1,
+          "polynomial": "s**3 - 66846708*s**2 + 1061158993*s + 1044382147"
+        }
+      ]
+    },
+    "numerator_shape": {
+      "degree": 8,
+      "terms": 9
+    },
+    "parametrization_sha256": "ae4585997537fb0255a094e5df8f8f53cabb12e6d4ecd3e217cdd2dc1a13cbce",
+    "second_discriminant": "(-401860584*s**8 - 593354204*s**7 - 686714461*s**6 + 136191550*s**5 - 1001107280*s**4 - 869335453*s**3 - 329103753*s**2 + 972287293*s - 353773054)/(-536862656*s**8 - 67107836*s**7 - 4718592*s**6 - 1040401223*s**5 - 679855628*s**4 + 755566096*s**3 + 877608595*s**2 + 1024714775*s + 941291075)",
+    "source_profile_sha256": "d36e63493bcca128c18293f298a614df51fd8449e1cd06b6a1e3cd0da3151550",
+    "status": "COMPLETE",
+    "t_of_s": "(s**2 - 133693424*s - 534773680)/(s**2 - 48)",
+    "x_of_s": "(41941755*s**4 + 671074224*s**3 - 218153699*s**2 + 318532845*s + 821087951)/(-1061159041*s**4 + 67107832*s**3 + 939523984*s**2 - 1006650244*s - 889424523)"
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell3-conic-cover-profile-v1",
+  "scope": "Exact deployed-field profile of the remaining b-cover after parametrizing the cell-3 quotient conic; no outside, route, K3, or Prize claim."
+}
