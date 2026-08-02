@@ -1,5 +1,20 @@
 # Proof
 
+The reciprocal-projection theorem sends every guarded common point to
+`P(b,t)=0`.  The rational-lift atlas contains the exact linear equation
+
+```text
+c L_2(b,t)+M_2(b,t)=0.                            (0)
+```
+
+The hash-pinned exact function-field basis packet prints
+`DENOMINATOR_GCD_DEGREES 0,0`.  In its sealed program the second degree is
+computed as `degree(gcd(cLeading,primitive))`, where `cLeading=L_2` and the
+monic `primitive` is `P` in `K[b]`.  Thus `gcd(P,L_2)=1`.  Consequently
+`L_2` is invertible in `K[b]/(P)`, and `(0)` reconstructs
+`c=-M_2/L_2` at every point of the generic common locus.  Hence chart 2 is
+global over `K`; the remaining atlas charts concern only specializations.
+
 The target-free signed-family interface gives, at the `DE+` source root
 `z_0`,
 
@@ -11,7 +26,7 @@ q^2=x beta^2(x-1)^2,       x=z_0^2.              (1)
 Since `e` is nonzero, the product row reconstructs `d=N/(De)`.  Substitution
 in the squared-sum row of `(1)` and clearing the guarded denominator
 `Delta^2 D^2 e^2` gives exactly `(KBGCE-1)`.  Thus every actual
-`DE+/DE-` signed-pair point satisfies `P(e)=0`; retaining only the `DE+`
+`DE+/DE-` signed-pair point satisfies `H(e)=0`; retaining only the `DE+`
 consequence is a valid relaxation.
 
 For the colored `BE` record, the product is `be` and the squared sum is
@@ -29,8 +44,8 @@ The primary exact Euclidean computation returns monic gcds and Bezout
 multipliers `U_j,V_j` satisfying
 
 ```text
-U_j P+V_j C=e^2-1,        j=1,2,3,5,
-U_4 P+V_4 C=1.                                      (2)
+U_j H+V_j C=e^2-1,        j=1,2,3,5,
+U_4 H+V_4 C=1.                                      (2)
 ```
 
 All rational-function coefficients are stored in the hash-pinned packet
@@ -53,4 +68,7 @@ Bezout, gcd, guard, and quotient identities in every finite subfactor.
 
 Finally, target distinctness gives `e^2-1!=0`.  If both necessary equations
 vanished at an admissible point, `(2)` would force either `e^2-1=0` or
-`1=0`, both impossible.  Hence the generic family is empty. QED.
+`1=0`, both impossible.  Thus the necessary `DE+/DE-/BE` triple is empty on
+the entire generic common locus.  Every packet in this cell and sign row
+contains that triple, so the whole generic cell-5 sign row `(-1,-1)` is
+empty. QED.

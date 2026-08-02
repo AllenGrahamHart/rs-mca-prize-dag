@@ -21289,8 +21289,8 @@
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
    "title": "KoalaBear positive 433-1a cell-5 generic signed-pair colored exclusion",
    "status": "PROVED",
-   "closure": "generic chart-2 DE+/DE-/BE family is empty on all five primitive residue fields",
-   "statement": "In the deployed characteristic over F_p(t), the five primitive residue fields of the guard-localized chart-2 squared DE+/DE- algebra have degrees 4,4,4,8,4. Restricting the DE+ necessary polynomial in e and the colored BE outside-edge resultant gives exact gcd e^2-1 on the four quartics and gcd one on the octic. Since e^2-1 is a target-collision guard, no admissible generic chart-2 DE+/DE-/BE realization exists. Rational c charts 3--5, exceptional t fibers, the DF+/DF-/CF analogue, other signs/cells, and every cell, route, K3, row, LIST, or MCA closure remain open.",
+   "closure": "entire generic cell-5 sign row (-1,-1) is empty",
+   "statement": "In the deployed characteristic over F_p(t), the exact identity gcd(P,L_2)=1 makes chart 2 global on the generic common projection. The five primitive residue fields of the guard-localized squared DE+/DE- algebra have degrees 4,4,4,8,4. Restricting the DE+ necessary polynomial in e and the colored BE outside-edge resultant gives exact gcd e^2-1 on the four quartics and gcd one on the octic. Since e^2-1 is a target-collision guard and every packet in this sign row contains DE+, DE-, and BE, the entire generic cell-5 sign row (-1,-1) is empty. Finite exceptional t fibers, other signs and matching cells, and every cell, route, K3, row, LIST, or MCA closure remain open.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/statement.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/proof.md",
@@ -42159,6 +42159,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
    "kind": "req"
   },

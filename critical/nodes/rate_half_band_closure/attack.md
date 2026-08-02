@@ -3496,8 +3496,10 @@ coordinate-map, and guard-unit chain decomposes the generic chart-2 squared
 then appends the colored `BE` necessary resultant.  Exact Bezout identities
 give common gcd `e^2-1` on all four quartics and gcd one on the octic.  Since
 `e^2-1` is a target-collision guard, the generic `DE+/DE-/BE` family is
-empty.  Do not recompute this generic gcd.  The remaining cell-5 tasks are
-rational `c` charts 3--5 and the finite exceptional-`t` ledger.  There is no
-declared `B <-> C` symmetry, but the separate `DF+/DF-/CF` family need not be
-computed if the `DE+/DE-/BE` family is excluded on all four charts.  No cell,
-route, K3, or Prize closure follows yet.
+empty.  The same sealed function-field packet gives `gcd(P,L_2)=1`, where
+`L_2` is the chart-2 coefficient linear in `c`; hence chart 2 covers the
+entire generic common projection.  The whole generic cell-5 sign row
+`(-1,-1)` is therefore empty.  Do not recompute this generic gcd on charts
+3--5, and do not compute the `DF+/DF-/CF` family for this row.  The remaining
+cell-5 tasks are the finite exceptional-`t` ledger and the other sign rows
+and matching cells.  No cell, route, K3, or Prize closure follows yet.

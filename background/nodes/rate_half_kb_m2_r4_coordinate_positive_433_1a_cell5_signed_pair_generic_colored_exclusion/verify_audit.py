@@ -13,10 +13,12 @@ ROOT = HERE.parents[2]
 EXPERIMENTS = ROOT / "experiments/prize_resolution"
 statement = (HERE / "statement.md").read_text()
 contract = (HERE / "claim_contract.md").read_text()
-assert "exceptional" in statement and "`t` fibers" in statement
-assert "`DF+/DF-/CF`" in statement
-assert "charts 3--5" in statement
-assert "exceptional `t`" in contract
+statement_words = " ".join(statement.split())
+contract_words = " ".join(contract.split())
+assert "finite exceptional `t` fibers" in statement_words
+assert "entire generic common locus" in statement_words
+assert "gcd(P,L_2)=1" in statement_words
+assert "Finite exceptional `t` fibers" in contract_words
 
 
 def rejected(checker, payload):
