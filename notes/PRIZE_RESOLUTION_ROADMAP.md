@@ -14809,3 +14809,32 @@ next route-deciding step: compute the exact degree-24 primitive polynomial,
                           factor it over F_p(t), then evaluate source guards
                           and the colored BE norm factor by factor
 ```
+
+### Work-cycle theorem: positive 433-1a primitive residue ledger
+
+```text
+node/workboard attacked:  K3 / cell-5 generic squared signed-pair factors
+result:                   PROVED exact residue-field decomposition
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+primitive element:        ell=x1+2*x0+3*b
+primitive degree:         24; all 25 coefficients nonzero
+coefficient degrees:      numerator <=68, denominator <=48
+primitive packet hash:    8867cfc4f2c4a5accd898382b687e5327f5f4c2cb793dfd34897137d3ffc5f7e
+generic coefficient hash: 9ff9aa0ee5a792f088b9a0b8120e87f8af02b2ce5802596e8b9101a1d38d0e40
+irreducible degrees:      4,4,4,8,4; all multiplicities one
+factor packet hash:       00c4a7f0c90726b91b2310fa184d5eaf0ca3fab2b4d6a6ada1a4e1ae10f75cae
+exact consequence:        product of four quartic fields and one octic
+                          field; five generic components, 24 geometric
+                          points in the squared algebra
+independent audit:        exact standard-library rational product;
+                          t=2 factors squarefree and pairwise coprime
+Modal apps:               ap-oyB5HrYYmeguXMKmqODnsw (primitive),
+                          ap-yP081HXaVybgPvzsNW5FUX (factorization)
+backend fence:            SymPy 1.14 lacks both required fraction-field and
+                          multivariate finite-field factorization; no claim
+                          uses that failed audit
+nonclaim:                 no source lift/count, exceptional-fiber locus,
+                          colored edge, route, K3, or Prize close
+next route-deciding step: express needed source/colored invariants in the
+                          five fields, compute guard norms, then append BE
+```

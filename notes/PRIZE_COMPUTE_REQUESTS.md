@@ -11448,3 +11448,32 @@ The new contributor request begins after radical computation:
    factors.
 
 Do not rerun radical algorithms or infer 24 components from degree 24.
+
+### 2026-08-01 signed-pair primitive residue completion
+
+The primitive polynomial and generic factor ledger are now complete.  Exact
+Krylov elimination in `ap-oyB5HrYYmeguXMKmqODnsw` gives the monic degree-24
+polynomial for `ell=x1+2*x0+3*b`; exact Nemo factorization in
+`ap-yP081HXaVybgPvzsNW5FUX` gives irreducible degrees
+
+```text
+4,4,4,8,4
+```
+
+with every multiplicity one.  A standard-library checker reconstructs the
+full rational-function product exactly and checks a regular pairwise-coprime
+squarefree fiber.  SymPy 1.14 was tested as a second factor backend, but its
+finite-field fraction-field conversion fails and multivariate finite-field
+factorization is unimplemented; that failed audit is not evidence.
+
+The revised contributor request starts in the five residue fields:
+
+1. express the required source-square, collision, chart, and colored
+   invariants as polynomials in `ell` modulo each factor;
+2. compute exact guard norms and the finite exceptional-`t` locus;
+3. evaluate the residual colored `BE` cubic and unsquared sum factor by
+   factor;
+4. return unit gcds/norms or exact surviving residue factors.
+
+Do not recompute the pair quotient, stable rank, radical, primitive
+polynomial, or factorization.
