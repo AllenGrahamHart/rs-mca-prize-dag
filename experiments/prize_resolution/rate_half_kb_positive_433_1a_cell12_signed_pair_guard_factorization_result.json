@@ -1,0 +1,800 @@
+{
+  "result": {
+    "candidate_sha256": "bf5a24cd372d77f3eb929ca09b694819e03224f3f45a56f3cbac7ec2716e72ba",
+    "candidate_shape": {
+      "degrees": [
+        0,
+        16,
+        3,
+        346
+      ],
+      "terms": 14204,
+      "total_degree": 363
+    },
+    "field": 2130706433,
+    "guard_identity": "plane-reduced(N0*D0^5*(w0+1)*(rd^2*w0-rn^2)*(rd^2*w0+rn^2)^2) is proportional to pair resultant",
+    "guard_plane_leading_exponent": 30,
+    "guard_reductions": [
+      {
+        "operation": "d0_power_2",
+        "shape": {
+          "degrees": [
+            0,
+            4,
+            3,
+            68
+          ],
+          "terms": 1059,
+          "total_degree": 74
+        },
+        "steps": 3
+      },
+      {
+        "operation": "d0_power_3",
+        "shape": {
+          "degrees": [
+            0,
+            6,
+            3,
+            110
+          ],
+          "terms": 2377,
+          "total_degree": 117
+        },
+        "steps": 3
+      },
+      {
+        "operation": "d0_power_4",
+        "shape": {
+          "degrees": [
+            0,
+            8,
+            3,
+            152
+          ],
+          "terms": 4212,
+          "total_degree": 162
+        },
+        "steps": 3
+      },
+      {
+        "operation": "d0_power_5",
+        "shape": {
+          "degrees": [
+            0,
+            10,
+            3,
+            194
+          ],
+          "terms": 6555,
+          "total_degree": 206
+        },
+        "steps": 3
+      },
+      {
+        "operation": "r_minus",
+        "shape": {
+          "degrees": [
+            0,
+            1,
+            3,
+            26
+          ],
+          "terms": 34,
+          "total_degree": 27
+        },
+        "steps": 3
+      },
+      {
+        "operation": "r_plus",
+        "shape": {
+          "degrees": [
+            0,
+            1,
+            3,
+            26
+          ],
+          "terms": 34,
+          "total_degree": 27
+        },
+        "steps": 3
+      },
+      {
+        "operation": "r_plus_squared",
+        "shape": {
+          "degrees": [
+            0,
+            2,
+            3,
+            62
+          ],
+          "terms": 137,
+          "total_degree": 64
+        },
+        "steps": 3
+      },
+      {
+        "operation": "n0_times_d0_fifth",
+        "shape": {
+          "degrees": [
+            0,
+            12,
+            3,
+            238
+          ],
+          "terms": 9612,
+          "total_degree": 251
+        },
+        "steps": 3
+      },
+      {
+        "operation": "times_linear_labels",
+        "shape": {
+          "degrees": [
+            0,
+            14,
+            3,
+            274
+          ],
+          "terms": 11572,
+          "total_degree": 289
+        },
+        "steps": 3
+      },
+      {
+        "operation": "times_squared_plus_label",
+        "shape": {
+          "degrees": [
+            0,
+            16,
+            3,
+            346
+          ],
+          "terms": 14204,
+          "total_degree": 363
+        },
+        "steps": 3
+      }
+    ],
+    "leading_exception_atlas": {
+      "all_deployed_roots_guarded": false,
+      "base_field_norm_roots": [
+        0,
+        1,
+        16711679,
+        1117681606,
+        1419755025,
+        1992261782,
+        2113994754,
+        2130706432
+      ],
+      "rows": [
+        {
+          "b_rows": [
+            {
+              "all_deployed_roots_guarded": true,
+              "b": 0,
+              "common_guards": [
+                "b"
+              ],
+              "zero_projected_polynomial": true
+            }
+          ],
+          "common_b_degree": 2,
+          "deployed_b_roots": [
+            0
+          ],
+          "t": 0
+        },
+        {
+          "b_rows": [
+            {
+              "all_deployed_roots_guarded": true,
+              "b": 1,
+              "common_guards": [
+                "b-1"
+              ],
+              "zero_projected_polynomial": true
+            },
+            {
+              "all_deployed_roots_guarded": true,
+              "b": 2130706432,
+              "common_guards": [
+                "b+1"
+              ],
+              "zero_projected_polynomial": true
+            }
+          ],
+          "common_b_degree": 4,
+          "deployed_b_roots": [
+            1,
+            2130706432
+          ],
+          "t": 1
+        },
+        {
+          "b_rows": [
+            {
+              "all_deployed_roots_guarded": true,
+              "b": 1,
+              "common_guards": [
+                "b-1"
+              ],
+              "zero_projected_polynomial": true
+            }
+          ],
+          "common_b_degree": 4,
+          "deployed_b_roots": [
+            1
+          ],
+          "t": 16711679
+        },
+        {
+          "b_rows": [
+            {
+              "all_deployed_roots_guarded": false,
+              "b": 816507220,
+              "common_guards": [],
+              "zero_projected_polynomial": true
+            },
+            {
+              "all_deployed_roots_guarded": false,
+              "b": 1274196281,
+              "common_guards": [],
+              "zero_projected_polynomial": true
+            },
+            {
+              "all_deployed_roots_guarded": false,
+              "b": 1323873686,
+              "common_guards": [],
+              "zero_projected_polynomial": true
+            }
+          ],
+          "common_b_degree": 3,
+          "deployed_b_roots": [
+            816507220,
+            1274196281,
+            1323873686
+          ],
+          "t": 1117681606
+        },
+        {
+          "b_rows": [
+            {
+              "all_deployed_roots_guarded": true,
+              "b": 796602314,
+              "deployed_w0_roots": [
+                {
+                  "guards": [
+                    "N0"
+                  ],
+                  "multiplicity": 1,
+                  "w0": 818658032
+                },
+                {
+                  "guards": [
+                    "w0-r^2"
+                  ],
+                  "multiplicity": 1,
+                  "w0": 391825315
+                },
+                {
+                  "guards": [
+                    "N0"
+                  ],
+                  "multiplicity": 1,
+                  "w0": 417804941
+                },
+                {
+                  "guards": [
+                    "w0+1"
+                  ],
+                  "multiplicity": 1,
+                  "w0": 2130706432
+                },
+                {
+                  "guards": [
+                    "w0+r^2"
+                  ],
+                  "multiplicity": 2,
+                  "w0": 1738881118
+                },
+                {
+                  "guards": [
+                    "D0"
+                  ],
+                  "multiplicity": 5,
+                  "w0": 1818916375
+                }
+              ],
+              "nonlinear_factors": [],
+              "projected_degree": 11,
+              "zero_projected_polynomial": false
+            },
+            {
+              "all_deployed_roots_guarded": true,
+              "b": 1689190397,
+              "deployed_w0_roots": [
+                {
+                  "guards": [
+                    "w0-r^2"
+                  ],
+                  "multiplicity": 1,
+                  "w0": 391825315
+                },
+                {
+                  "guards": [
+                    "w0+1"
+                  ],
+                  "multiplicity": 1,
+                  "w0": 2130706432
+                },
+                {
+                  "guards": [
+                    "N0"
+                  ],
+                  "multiplicity": 1,
+                  "w0": 1818916375
+                },
+                {
+                  "guards": [
+                    "w0+r^2"
+                  ],
+                  "multiplicity": 2,
+                  "w0": 1738881118
+                },
+                {
+                  "guards": [
+                    "D0"
+                  ],
+                  "multiplicity": 5,
+                  "w0": 818658032
+                },
+                {
+                  "guards": [
+                    "D0"
+                  ],
+                  "multiplicity": 5,
+                  "w0": 417804941
+                }
+              ],
+              "nonlinear_factors": [],
+              "projected_degree": 15,
+              "zero_projected_polynomial": false
+            }
+          ],
+          "common_b_degree": 2,
+          "deployed_b_roots": [
+            796602314,
+            1689190397
+          ],
+          "t": 1419755025
+        },
+        {
+          "b_rows": [
+            {
+              "all_deployed_roots_guarded": true,
+              "b": 768470218,
+              "deployed_w0_roots": [
+                {
+                  "guards": [
+                    "w0+1"
+                  ],
+                  "multiplicity": 1,
+                  "w0": 2130706432
+                },
+                {
+                  "guards": [
+                    "w0-r^2"
+                  ],
+                  "multiplicity": 1,
+                  "w0": 243771116
+                },
+                {
+                  "guards": [
+                    "w0+r^2"
+                  ],
+                  "multiplicity": 2,
+                  "w0": 1886935317
+                },
+                {
+                  "guards": [
+                    "D0"
+                  ],
+                  "multiplicity": 5,
+                  "w0": 455036830
+                }
+              ],
+              "nonlinear_factors": [
+                {
+                  "degree": 2,
+                  "multiplicity": 1
+                }
+              ],
+              "projected_degree": 11,
+              "zero_projected_polynomial": false
+            },
+            {
+              "all_deployed_roots_guarded": true,
+              "b": 946258026,
+              "deployed_w0_roots": [
+                {
+                  "guards": [
+                    "N0"
+                  ],
+                  "multiplicity": 1,
+                  "w0": 455036830
+                },
+                {
+                  "guards": [
+                    "w0+1"
+                  ],
+                  "multiplicity": 1,
+                  "w0": 2130706432
+                },
+                {
+                  "guards": [
+                    "w0-r^2"
+                  ],
+                  "multiplicity": 1,
+                  "w0": 243771116
+                },
+                {
+                  "guards": [
+                    "w0+r^2"
+                  ],
+                  "multiplicity": 2,
+                  "w0": 1886935317
+                }
+              ],
+              "nonlinear_factors": [
+                {
+                  "degree": 2,
+                  "multiplicity": 5
+                }
+              ],
+              "projected_degree": 15,
+              "zero_projected_polynomial": false
+            }
+          ],
+          "common_b_degree": 2,
+          "deployed_b_roots": [
+            768470218,
+            946258026
+          ],
+          "t": 1992261782
+        },
+        {
+          "b_rows": [
+            {
+              "all_deployed_roots_guarded": true,
+              "b": 1,
+              "common_guards": [
+                "b-1"
+              ],
+              "zero_projected_polynomial": true
+            }
+          ],
+          "common_b_degree": 4,
+          "deployed_b_roots": [
+            1
+          ],
+          "t": 2113994754
+        },
+        {
+          "b_rows": [
+            {
+              "all_deployed_roots_guarded": false,
+              "b": 583634928,
+              "common_guards": [],
+              "zero_projected_polynomial": true
+            },
+            {
+              "all_deployed_roots_guarded": false,
+              "b": 1547071499,
+              "common_guards": [],
+              "zero_projected_polynomial": true
+            },
+            {
+              "all_deployed_roots_guarded": true,
+              "b": 2130706432,
+              "common_guards": [
+                "b+1"
+              ],
+              "zero_projected_polynomial": true
+            }
+          ],
+          "common_b_degree": 4,
+          "deployed_b_roots": [
+            583634928,
+            1547071499,
+            2130706432
+          ],
+          "t": 2130706432
+        }
+      ]
+    },
+    "plane_leading": "t^4",
+    "plane_shape": {
+      "degrees": [
+        0,
+        0,
+        4,
+        8
+      ],
+      "terms": 17,
+      "total_degree": 10
+    },
+    "product_steps": 3,
+    "projected_leading_norm": {
+      "content": 1486959812,
+      "factors": [
+        {
+          "multiplicity": 812,
+          "sha256": "e3b98a4da31a127d4bde6e43033f66ba274cab0eb7eb1c70ec41402bf6273dd8",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "terms": 1,
+            "total_degree": 1
+          },
+          "text": "t"
+        },
+        {
+          "multiplicity": 6,
+          "sha256": "e4bf8b8e4ca6a50778cdcc5f4657b455ad5c3b1d19299470945cfa920becd33c",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              0,
+              10
+            ],
+            "terms": 11,
+            "total_degree": 10
+          },
+          "text": "t^10 + 1231175336*t^9 + 635723616*t^8 + 405608553*t^7 + 38000941*t^6 + 841321418*t^5 + 996178986*t^4 + 1841554547*t^3 + 1521273255*t^2 + 1996816089*t + 1411413354"
+        },
+        {
+          "multiplicity": 6,
+          "sha256": "037b4793897f28db3f98c0c2b7e737f17d576858319f43dc98f9f1278a0b3542",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          },
+          "text": "t + 138444651"
+        },
+        {
+          "multiplicity": 6,
+          "sha256": "d59faade4e94c86ed1b20f3b7983a666f646bae0241b571e4d6ec7caea101a83",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          },
+          "text": "t + 710951408"
+        },
+        {
+          "multiplicity": 24,
+          "sha256": "cb4fa1b78ab6c231170f0163dfdc67e0e7cf795a2fca68021bfb0bec110eff02",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              0,
+              3
+            ],
+            "terms": 4,
+            "total_degree": 3
+          },
+          "text": "t^3 + 2097283076*t^2 + 33423359*t + 1"
+        },
+        {
+          "multiplicity": 38,
+          "sha256": "38efd4f84091e638453ba3a6d22c4e0f4902bf5e017d0f2cc2a20572a689f880",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              0,
+              3
+            ],
+            "terms": 4,
+            "total_degree": 3
+          },
+          "text": "t^3 + 2097283074*t^2 + 2097283076*t + 2130706432"
+        },
+        {
+          "multiplicity": 112,
+          "sha256": "7bc1c4c890af336bb972949da974b939a2114894978386462d5faa9f09adbece",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          },
+          "text": "t + 2130706432"
+        },
+        {
+          "multiplicity": 144,
+          "sha256": "04d9aac583efed2f1dbbce4ba07a0f9f2caac44da6182c4e9cd9be92064c024c",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          },
+          "text": "t + 1013024827"
+        },
+        {
+          "multiplicity": 144,
+          "sha256": "c8626fae48c2e1b8d9d9e0c236f102986943d47663a12f48463e8ecc343a50f6",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              0,
+              3
+            ],
+            "terms": 4,
+            "total_degree": 3
+          },
+          "text": "t^3 + 1100969928*t^2 + 1611156495*t + 1722212723"
+        },
+        {
+          "multiplicity": 162,
+          "sha256": "7249db31e68d9e7d4265322fee1935c3e3fcff0fcabfab3527d3f0680598a051",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          },
+          "text": "t + 1"
+        },
+        {
+          "multiplicity": 176,
+          "sha256": "2582a9e126854a6445d667fce513c504f26b1cfbfe3d4ac631b7fe85b20cdca4",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          },
+          "text": "t + 16711679"
+        },
+        {
+          "multiplicity": 336,
+          "sha256": "6096afd0276352ba1e4a073fbbf296c04d59afb643442e9db877175030aa933a",
+          "shape": {
+            "degrees": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "terms": 2,
+            "total_degree": 1
+          },
+          "text": "t + 2113994754"
+        }
+      ],
+      "sha256": "321f38bc4059cfe29fd72a8b18f9a90d0e6840ab0f91486bc5ef4574e6a53dda",
+      "shape": {
+        "degrees": [
+          0,
+          0,
+          0,
+          2432
+        ],
+        "terms": 1621,
+        "total_degree": 2432
+      }
+    },
+    "projected_sha256": "9f7babadf7e691f7589bd8f8123208534bf21d9aa8ea6338dbb47d7188ea7607",
+    "projected_shape": {
+      "degrees": [
+        0,
+        16,
+        3,
+        672
+      ],
+      "terms": 36236,
+      "total_degree": 689
+    },
+    "projected_steps": 15,
+    "quotient_ring_cross_identity": {
+      "candidate_leading_sha256": "91f9a676691c2dd39c3ef9c1a7df04970fb2acfa37520214417ae28c03655f9f",
+      "candidate_leading_shape": {
+        "degrees": [
+          0,
+          0,
+          3,
+          345
+        ],
+        "terms": 832,
+        "total_degree": 347
+      },
+      "plane_steps": 3,
+      "projected_leading_sha256": "1253329c6db88f95fb6dadd7a3a757965e8caa0b5b77d0c9e039fd01791047bc",
+      "projected_leading_shape": {
+        "degrees": [
+          0,
+          0,
+          3,
+          671
+        ],
+        "terms": 2128,
+        "total_degree": 673
+      },
+      "remainder_zero": true,
+      "verified": true
+    },
+    "raw_product_shape": {
+      "degrees": [
+        2,
+        2,
+        6,
+        54
+      ],
+      "terms": 2889,
+      "total_degree": 61
+    },
+    "raw_resultant_shape": {
+      "degrees": [
+        0,
+        16,
+        18,
+        592
+      ],
+      "terms": 153761,
+      "total_degree": 619
+    },
+    "raw_square_shape": {
+      "degrees": [
+        4,
+        4,
+        12,
+        108
+      ],
+      "terms": 29657,
+      "total_degree": 123
+    },
+    "square_steps": 9,
+    "status": "COMPLETE"
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell12-signed-pair-guard-factorization-v1",
+  "scope": "Exact compact-plane quotient factorization of the complete necessary cell-12 signed-pair resultant and replay of every leading-norm base-field root. Exceptional compact-kernel scales, orbit, route, and Prize claims remain separate.",
+  "source_plane_sha256": "87777384ffbe0460d4fa9663f55e8589c229c9d64ce785e25ccbb8fb8ef11b78"
+}

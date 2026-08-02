@@ -3851,7 +3851,22 @@ denominator, source-label, or `b=0,+/-1` guards; all scale roots are the
 original `t=0,+/-1,+/-i` guards.  Exact root-sign symmetry closes all four
 rows of `[14]` without colored elimination.
 
-The positive frontier is now three representatives / 20 raw rows:
-`[9,10]`, `[11]`, and `[12,13]`.  Compact cell 12 next, whose exact lex basis
-has size nine, and test the same complete signed-pair guard factorization
-before introducing colored equations.
+The positive frontier then had three representatives / 20 raw rows.  The
+PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion`
+closes `[12,13]`.  Its complete plane-reduced resultant satisfies
+
+```text
+R=0 => N0 D0^5 (w0+1)(rd^2w0-rn^2)(rd^2w0+rn^2)^2=0.
+```
+
+The only proper compact-scale root has exactly two deployed common points;
+direct unnormalized replay of the raw signed-pair resultant at both points
+again factors only into original guards.  Exact source and duplicate-role
+symmetry therefore closes all eight rows of `[12,13]` without colored
+equations.
+
+The positive frontier is now two representatives / 12 raw rows: `[9,10]`
+and `[11]`.  Compact cell 11 next, whose exact lex basis has size ten, and
+test its complete signed-pair guard factorization before introducing colored
+equations.

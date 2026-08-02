@@ -15364,6 +15364,41 @@ next route step:          profile remaining signed-pair projections for the
 nonclaim:                 no positive-route, K3, LIST, MCA, or Prize closure
 ```
 
+### Work-cycle theorem: cell-12 signed-pair guard factorization
+
+```text
+compact common plane:    bidegree (4,8), 17 terms, leading coefficient t^4
+normalized kernel:       b-degree <=3; exact B1(-W)=-B1(W)
+raw resultant:           degrees (16,18,592), 153761 terms
+plane-reduced resultant: degrees (16,3,672), 36236 terms
+plane quotient product:  N0*D0^5*(w0+1)
+                          *(rd^2*w0-rn^2)*(rd^2*w0+rn^2)^2
+guard representative:    degrees (16,3,346), 14204 terms
+exact identity:           c16*R-r16*C=0 modulo P
+leading norm:             degree 2432, 1621 terms
+norm factorization:       8 linear, 3 irreducible cubic,
+                          1 irreducible decic
+non-scale norm fibers:    t=1419755025,1992261782; four deployed b lifts;
+                          all 20 displayed w0 roots guarded
+scale roots:              0,1,+/-i,-1,1117681606
+proper scale fiber:       t=1117681606; exactly two deployed common points;
+                          unnormalized degree-16 raw resultants fully guarded
+result:                   necessary signed pair empty without colored cuts
+symmetry consequence:    all eight rows of orbit [12,13] PROVED excluded
+frontier delta:           three representatives / 20 raw rows ->
+                          two representatives / 12 raw rows
+remaining orbits:         [9,10], [11]
+main certificate hash:    fc61880b1462555ebd3a1f938d67202e3f11b4d4765f68eaf4c293ed224084b9
+exception hash:           f345fd24f879010d23ef0e311671d929d601c31c973f621751e188b5cab5f2d4
+Modal apps:               ap-EbrvovPV91G3WJjjbb8NCn,
+                          ap-VrfGfcTR8PEvmET1VuBBpM,
+                          ap-3BtLcD62hjTYIUjH76RrNG,
+                          ap-vdLoOhyLORRSfEaTsCVFMT
+next route step:          compact cell 11 and test its complete signed-pair
+                          guard factorization
+nonclaim:                 no positive-route, K3, LIST, MCA, or Prize closure
+```
+
 ### Work-cycle theorem: cell-14 signed-pair guard factorization
 
 ```text
