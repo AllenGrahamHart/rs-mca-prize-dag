@@ -3899,3 +3899,18 @@ and duplicate-role symmetry therefore closes all eight rows of `[9,10]`
 without colored equations.  No positive `433-1a` common-orbit
 representative remains.  Audit the route aggregation before promoting a
 broader K3 or rate-half claim.
+
+That aggregation is now complete.  The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion`
+combines the exact two-lane signed atlas, the exact 60-row/ten-representative
+source quotient, and the nine disjoint orbit closures.  The coverage count
+is
+
+```text
+4+8+8+8+8+8+4+8+4=60 raw rows,
+1+2+1+1+1+1+1+1+1=10 representatives.
+```
+
+Hence the complete deployed positive residual route `433-1a -> O0b` is
+empty.  This is a route closure, not a closure of the other coordinate
+routes, K3, or the rate-half band theorem.

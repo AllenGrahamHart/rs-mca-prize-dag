@@ -15523,3 +15523,19 @@ next route step:          audit exact positive-route aggregation, then move
                           to the next unresolved rate-half route
 nonclaim:                 no K3, LIST, MCA, or Prize closure
 ```
+
+### Work-cycle theorem: complete positive 433-1a to O0b route exclusion
+
+```text
+signed target atlas:      exactly 2 cycle-sign lanes
+common atlas:             15 cells x 4 root-sign rows = 60 raw rows
+source quotient:          10 algebraic representatives
+closure nodes:            9 PROVED orbit theorems
+raw-row coverage:         4+8+8+8+8+8+4+8+4 = 60
+representative coverage:  1+2+1+1+1+1+1+1+1 = 10
+cell coverage:            disjoint union {0,...,14}
+result:                   positive residual route 433-1a -> O0b PROVED empty
+next route step:          select a different unresolved rate-half route
+nonclaim:                 no other route, K3, rate-half band, LIST, MCA,
+                          or Prize closure
+```
