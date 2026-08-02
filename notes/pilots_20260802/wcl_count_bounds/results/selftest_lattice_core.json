@@ -1,0 +1,143 @@
+{
+ "det_eq_q_pow_o": [
+  [
+   97,
+   32,
+   [
+    1
+   ],
+   97,
+   97,
+   true
+  ],
+  [
+   97,
+   32,
+   [
+    1,
+    3
+   ],
+   9409,
+   9409,
+   true
+  ],
+  [
+   193,
+   32,
+   [
+    1,
+    3
+   ],
+   37249,
+   37249,
+   true
+  ],
+  [
+   577,
+   32,
+   [
+    1
+   ],
+   577,
+   577,
+   true
+  ],
+  [
+   257,
+   64,
+   [
+    1,
+    3
+   ],
+   66049,
+   66049,
+   true
+  ],
+  [
+   449,
+   32,
+   [
+    1,
+    3,
+    5
+   ],
+   90518849,
+   90518849,
+   true
+  ]
+ ],
+ "det_all_ok": true,
+ "shift_is_lattice_isometry": true,
+ "lll_preserves_det": true,
+ "lll_members": true,
+ "enum_vs_brute_n_brute": 112,
+ "enum_vs_brute_match": true,
+ "enum_vs_brute_sample": [
+  [
+   -1,
+   -1,
+   -1,
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   -1,
+   -1,
+   0,
+   0,
+   -1,
+   0,
+   0,
+   0
+  ],
+  [
+   -1,
+   -1,
+   0,
+   0,
+   0,
+   0,
+   1,
+   -1
+  ]
+ ],
+ "lambda1_sq_97_ell1_M32": 3,
+ "orbit_all_same_norm": true,
+ "orbit_rank": true,
+ "amgm_fence_97_h16_o1": 2,
+ "fast_lll_agrees": [
+  [
+   97,
+   [
+    1
+   ],
+   true,
+   true,
+   3584
+  ],
+  [
+   353,
+   [
+    1
+   ],
+   true,
+   true,
+   944
+  ],
+  [
+   97,
+   [
+    1,
+    3
+   ],
+   true,
+   true,
+   80
+  ]
+ ],
+ "fast_lll_ok": true,
+ "selftest_pass": true
+}

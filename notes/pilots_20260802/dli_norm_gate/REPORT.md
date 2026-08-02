@@ -105,3 +105,15 @@ The artifacts are the record. Additionally: of the 63 deviating rows,
 54 have a banked maxnorm and none satisfies S3's condition; the 9
 n=128 rows leave S3 UNTESTED there (not confirmed). No verdict
 changes.
+
+**[SECOND CORRECTION OF RECORD 2026-08-02, from the WCL count-bounds
+pilot]:** the closing line "the remaining lever is a COUNT bound
+(Minkowski second minimum...)" mis-transfers the lever: in
+RESULTANT_GATE_SUMMARY it was posed for the M-BOUND (multiplicity),
+where it is sound once restated over the ring action; for the
+ZERO-EVENT WCL slots it is structurally wrong (all Z-minima of a
+relation lattice are equal — the shift is a free isometry — and the
+banked 256-bit engineered witness caps every v_2-blind bound at
+kappa <= 1.507 vs the needed 3.97-8.73). Slot closures must be
+v_2-aware (the sparse-certificate route). See
+notes/pilots_20260802/wcl_count_bounds/.

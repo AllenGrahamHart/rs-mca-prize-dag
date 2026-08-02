@@ -1,0 +1,610 @@
+{
+ "A_2N32_ell1": {
+  "label": "2N=32, ell=1",
+  "h": 16,
+  "o": 1,
+  "n_rows": 1522,
+  "radius_sq": 5,
+  "lambda1_sq_hist": {
+   "3": 5,
+   "4": 19,
+   "5": 137,
+   "6": 230,
+   "7": 561,
+   "8": 385,
+   "9": 173,
+   "10": 12
+  },
+  "amgm_fence_hist": {
+   "2": 2,
+   "3": 47,
+   "4": 362,
+   "5": 1111
+  },
+  "amgm_slack_hist": {
+   "0": 21,
+   "1": 202,
+   "2": 619,
+   "3": 480,
+   "4": 188,
+   "5": 12
+  },
+  "amgm_never_exceeds_lambda1": true,
+  "gh_floor_hist": {
+   "2": 14,
+   "3": 102,
+   "4": 439,
+   "5": 967
+  },
+  "lambda1_minus_gh_hist": {
+   "0": 9,
+   "1": 138,
+   "2": 591,
+   "3": 555,
+   "4": 215,
+   "5": 14
+  },
+  "n_census": 160,
+  "census_min_weight_hist": {
+   "3": 5,
+   "4": 19,
+   "5": 136
+  },
+  "census_lambda1_eq_minweight": 160,
+  "census_lambda1_lt_minweight": 0,
+  "minweight_ge_lambda1_always": true,
+  "ternary_counts_multiple_of_2h": true,
+  "n_census_checked_for_orbit": 160,
+  "bit_bands": {
+   "7": {
+    "n": 1,
+    "census": 1,
+    "census_q": [
+     97
+    ],
+    "clean_q": []
+   },
+   "8": {
+    "n": 1,
+    "census": 1,
+    "census_q": [
+     193
+    ],
+    "clean_q": []
+   },
+   "9": {
+    "n": 3,
+    "census": 3,
+    "census_q": [
+     257,
+     353,
+     449
+    ],
+    "clean_q": []
+   },
+   "10": {
+    "n": 5,
+    "census": 5,
+    "census_q": [
+     577,
+     641,
+     673
+    ],
+    "clean_q": []
+   },
+   "11": {
+    "n": 8,
+    "census": 8,
+    "census_q": [
+     1153,
+     1217,
+     1249
+    ],
+    "clean_q": []
+   },
+   "12": {
+    "n": 15,
+    "census": 15,
+    "census_q": [
+     2081,
+     2113,
+     2273
+    ],
+    "clean_q": []
+   },
+   "13": {
+    "n": 28,
+    "census": 24,
+    "census_q": [
+     4129,
+     4289,
+     4481
+    ],
+    "clean_q": [
+     4801,
+     7489,
+     7841
+    ]
+   },
+   "14": {
+    "n": 62,
+    "census": 31,
+    "census_q": [
+     8513,
+     8609,
+     8641
+    ],
+    "clean_q": [
+     8353,
+     8929,
+     9377
+    ]
+   },
+   "15": {
+    "n": 99,
+    "census": 35,
+    "census_q": [
+     16417,
+     16481,
+     16993
+    ],
+    "clean_q": [
+     16673,
+     17377,
+     17569
+    ]
+   },
+   "16": {
+    "n": 189,
+    "census": 21,
+    "census_q": [
+     33857,
+     34273,
+     35201
+    ],
+    "clean_q": [
+     32801,
+     32833,
+     32993
+    ]
+   },
+   "17": {
+    "n": 345,
+    "census": 11,
+    "census_q": [
+     76481,
+     84673,
+     84961
+    ],
+    "clean_q": [
+     65537,
+     65633,
+     65729
+    ]
+   },
+   "18": {
+    "n": 672,
+    "census": 5,
+    "census_q": [
+     134401,
+     140321,
+     143489
+    ],
+    "clean_q": [
+     131297,
+     131489,
+     131617
+    ]
+   },
+   "19": {
+    "n": 94,
+    "census": 0,
+    "census_q": [],
+    "clean_q": [
+     262337,
+     262369,
+     262433
+    ]
+   }
+  },
+  "n_mixed_bands": 6,
+  "mixed_bands": [
+   "13",
+   "14",
+   "15",
+   "16",
+   "17",
+   "18"
+  ],
+  "separation_witness": [
+   {
+    "bits": "13",
+    "q_with_relation": 4129,
+    "q_without_relation": 4801,
+    "v2_with": 5,
+    "v2_without": 6
+   },
+   {
+    "bits": "14",
+    "q_with_relation": 8513,
+    "q_without_relation": 8353,
+    "v2_with": 6,
+    "v2_without": 5
+   },
+   {
+    "bits": "15",
+    "q_with_relation": 16417,
+    "q_without_relation": 16673,
+    "v2_with": 5,
+    "v2_without": 5
+   },
+   {
+    "bits": "16",
+    "q_with_relation": 33857,
+    "q_without_relation": 32801,
+    "v2_with": 6,
+    "v2_without": 5
+   },
+   {
+    "bits": "17",
+    "q_with_relation": 76481,
+    "q_without_relation": 65537,
+    "v2_with": 6,
+    "v2_without": 16
+   },
+   {
+    "bits": "18",
+    "q_with_relation": 134401,
+    "q_without_relation": 131297,
+    "v2_with": 8,
+    "v2_without": 5
+   }
+  ],
+  "v2_hist_all": {
+   "5": 767,
+   "6": 379,
+   "7": 184,
+   "8": 98,
+   "9": 48,
+   "10": 25,
+   "11": 7,
+   "12": 7,
+   "13": 3,
+   "14": 2,
+   "15": 1,
+   "16": 1
+  },
+  "v2_hist_census": {
+   "5": 76,
+   "6": 45,
+   "7": 22,
+   "8": 10,
+   "9": 6,
+   "10": 1
+  },
+  "max_v2_census": 10,
+  "max_v2_all": 16
+ },
+ "C_2N32_ell2": {
+  "label": "2N=32, ell=2",
+  "h": 16,
+  "o": 2,
+  "n_rows": 32,
+  "radius_sq": 8,
+  "lambda1_sq_hist": {
+   "5": 1,
+   "7": 2,
+   "8": 2,
+   "9": 8,
+   "10": 3,
+   "11": 5,
+   "12": 5,
+   "13": 4,
+   "14": 2
+  },
+  "amgm_fence_hist": {
+   "4": 2,
+   "5": 4,
+   "6": 7,
+   "7": 8,
+   "8": 11
+  },
+  "amgm_slack_hist": {
+   "1": 1,
+   "2": 4,
+   "3": 12,
+   "4": 6,
+   "5": 5,
+   "6": 4
+  },
+  "amgm_never_exceeds_lambda1": true,
+  "gh_floor_hist": {
+   "3": 1,
+   "4": 2,
+   "5": 3,
+   "6": 5,
+   "7": 6,
+   "8": 11,
+   "9": 4
+  },
+  "lambda1_minus_gh_hist": {
+   "2": 5,
+   "3": 14,
+   "4": 8,
+   "5": 4,
+   "6": 1
+  },
+  "n_census": 5,
+  "census_min_weight_hist": {
+   "5": 1,
+   "7": 2,
+   "8": 2
+  },
+  "census_lambda1_eq_minweight": 5,
+  "census_lambda1_lt_minweight": 0,
+  "minweight_ge_lambda1_always": true,
+  "ternary_counts_multiple_of_2h": true,
+  "n_census_checked_for_orbit": 5,
+  "bit_bands": {
+   "7": {
+    "n": 1,
+    "census": 1,
+    "census_q": [
+     97
+    ],
+    "clean_q": []
+   },
+   "8": {
+    "n": 1,
+    "census": 1,
+    "census_q": [
+     193
+    ],
+    "clean_q": []
+   },
+   "9": {
+    "n": 3,
+    "census": 2,
+    "census_q": [
+     257,
+     449
+    ],
+    "clean_q": [
+     353
+    ]
+   },
+   "10": {
+    "n": 5,
+    "census": 1,
+    "census_q": [
+     577
+    ],
+    "clean_q": [
+     641,
+     673,
+     769
+    ]
+   },
+   "11": {
+    "n": 8,
+    "census": 0,
+    "census_q": [],
+    "clean_q": [
+     1153,
+     1217,
+     1249
+    ]
+   },
+   "12": {
+    "n": 14,
+    "census": 0,
+    "census_q": [],
+    "clean_q": [
+     2081,
+     2113,
+     2273
+    ]
+   }
+  },
+  "n_mixed_bands": 2,
+  "mixed_bands": [
+   "9",
+   "10"
+  ],
+  "separation_witness": [
+   {
+    "bits": "9",
+    "q_with_relation": 257,
+    "q_without_relation": 353,
+    "v2_with": 8,
+    "v2_without": 5
+   },
+   {
+    "bits": "10",
+    "q_with_relation": 577,
+    "q_without_relation": 641,
+    "v2_with": 6,
+    "v2_without": 7
+   }
+  ],
+  "v2_hist_all": {
+   "5": 16,
+   "6": 8,
+   "7": 5,
+   "8": 3
+  },
+  "v2_hist_census": {
+   "5": 1,
+   "6": 3,
+   "8": 1
+  },
+  "max_v2_census": 8,
+  "max_v2_all": 8
+ },
+ "B_2N16_ell1": {
+  "label": "2N=16, ell=1",
+  "h": 8,
+  "o": 1,
+  "n_rows": 39,
+  "radius_sq": 8,
+  "lambda1_sq_hist": {
+   "3": 1,
+   "4": 1,
+   "5": 6,
+   "6": 3,
+   "7": 13,
+   "8": 5,
+   "9": 9,
+   "10": 1
+  },
+  "amgm_fence_hist": {
+   "3": 1,
+   "4": 4,
+   "5": 8,
+   "6": 11,
+   "7": 15
+  },
+  "amgm_slack_hist": {
+   "0": 7,
+   "1": 19,
+   "2": 11,
+   "3": 2
+  },
+  "amgm_never_exceeds_lambda1": true,
+  "gh_floor_hist": {
+   "1": 1,
+   "2": 5,
+   "3": 14,
+   "4": 19
+  },
+  "lambda1_minus_gh_hist": {
+   "2": 4,
+   "3": 12,
+   "4": 12,
+   "5": 10,
+   "6": 1
+  },
+  "n_census": 11,
+  "census_min_weight_hist": {
+   "3": 1,
+   "4": 1,
+   "5": 5,
+   "6": 2,
+   "7": 2
+  },
+  "census_lambda1_eq_minweight": 10,
+  "census_lambda1_lt_minweight": 1,
+  "minweight_ge_lambda1_always": true,
+  "ternary_counts_multiple_of_2h": true,
+  "n_census_checked_for_orbit": 11,
+  "bit_bands": {
+   "5": {
+    "n": 1,
+    "census": 1,
+    "census_q": [
+     17
+    ],
+    "clean_q": []
+   },
+   "7": {
+    "n": 2,
+    "census": 2,
+    "census_q": [
+     97,
+     113
+    ],
+    "clean_q": []
+   },
+   "8": {
+    "n": 2,
+    "census": 2,
+    "census_q": [
+     193,
+     241
+    ],
+    "clean_q": []
+   },
+   "9": {
+    "n": 6,
+    "census": 4,
+    "census_q": [
+     337,
+     353,
+     401
+    ],
+    "clean_q": [
+     257,
+     449
+    ]
+   },
+   "10": {
+    "n": 9,
+    "census": 2,
+    "census_q": [
+     577,
+     881
+    ],
+    "clean_q": [
+     593,
+     641,
+     673
+    ]
+   },
+   "11": {
+    "n": 15,
+    "census": 0,
+    "census_q": [],
+    "clean_q": [
+     1153,
+     1201,
+     1217
+    ]
+   },
+   "12": {
+    "n": 4,
+    "census": 0,
+    "census_q": [],
+    "clean_q": [
+     2081,
+     2113,
+     2129
+    ]
+   }
+  },
+  "n_mixed_bands": 2,
+  "mixed_bands": [
+   "9",
+   "10"
+  ],
+  "separation_witness": [
+   {
+    "bits": "9",
+    "q_with_relation": 337,
+    "q_without_relation": 257,
+    "v2_with": 4,
+    "v2_without": 8
+   },
+   {
+    "bits": "10",
+    "q_with_relation": 577,
+    "q_without_relation": 593,
+    "v2_with": 6,
+    "v2_without": 4
+   }
+  ],
+  "v2_hist_all": {
+   "4": 19,
+   "5": 9,
+   "6": 6,
+   "7": 3,
+   "8": 2
+  },
+  "v2_hist_census": {
+   "4": 7,
+   "5": 2,
+   "6": 2
+  },
+  "max_v2_census": 6,
+  "max_v2_all": 8
+ }
+}

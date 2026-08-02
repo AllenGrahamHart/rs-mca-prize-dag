@@ -1,0 +1,464 @@
+{
+ "cap_bits": 256,
+ "note": "official q < 2^256, v_2(q-1) >= 41",
+ "slots": [
+  {
+   "slot": [
+    1,
+    5
+   ],
+   "M": 512,
+   "h": 256,
+   "o": 1,
+   "closed": false,
+   "F_unconditional": "293873587705571876992184134305561419454666389193021880377187926569604314863681793212890625",
+   "F_unc_bits": 298,
+   "F_unc_log2_floor_frac": [
+    297,
+    3,
+    16
+   ],
+   "unc_deficit_bits_over_cap": 41,
+   "unc_reachable": false,
+   "F_conditional": "1414430149788231852676288931564393259755477871188002418354492595462286094183104888189441",
+   "F_con_bits": 290,
+   "F_con_log2_floor_frac": [
+    289,
+    8,
+    16
+   ],
+   "con_deficit_bits_over_cap": 33,
+   "con_reachable": false,
+   "con_source": "maxnorm(16,5)^16 = c_5^64 (stable doubling range w<=7)",
+   "con_stable": true,
+   "ternary_set_size": "281905569792",
+   "ternary_set_log2": [
+    38,
+    0,
+    16
+   ],
+   "orbit_size_2h": 512,
+   "heuristic_count_log2": "-218",
+   "heuristic_margin_bits": "218",
+   "heuristic_margin_bits_floor": 218,
+   "sqrt_T": "530947",
+   "L2_shortfall_ratio": "530947/512",
+   "L2_shortfall_bits": 10,
+   "minkowski_guaranteed_r2_at_2p256": 247,
+   "amgm_lambda1sq_lower_bound_at_2p256": 4
+  },
+  {
+   "slot": [
+    1,
+    6
+   ],
+   "M": 512,
+   "h": 256,
+   "o": 1,
+   "closed": false,
+   "F_unconditional": "4011991914547630480065053387702443812690402487741812225955731622655455723258857248542161222254985216",
+   "F_unc_bits": 331,
+   "F_unc_log2_floor_frac": [
+    330,
+    14,
+    16
+   ],
+   "unc_deficit_bits_over_cap": 74,
+   "unc_reachable": false,
+   "F_conditional": "97855644630949962245465927788621265109936358503349855960115304733026930339793114410516093721378816",
+   "F_con_bits": 326,
+   "F_con_log2_floor_frac": [
+    325,
+    8,
+    16
+   ],
+   "con_deficit_bits_over_cap": 69,
+   "con_reachable": false,
+   "con_source": "maxnorm(16,6)^16 = c_6^64 (stable doubling range w<=7)",
+   "con_stable": true,
+   "ternary_set_size": "23586099339264",
+   "ternary_set_log2": [
+    44,
+    6,
+    16
+   ],
+   "orbit_size_2h": 512,
+   "heuristic_count_log2": "-1693/8",
+   "heuristic_margin_bits": "1693/8",
+   "heuristic_margin_bits_floor": 211,
+   "sqrt_T": "4856552",
+   "L2_shortfall_ratio": "607069/64",
+   "L2_shortfall_bits": 13,
+   "minkowski_guaranteed_r2_at_2p256": 247,
+   "amgm_lambda1sq_lower_bound_at_2p256": 4
+  },
+  {
+   "slot": [
+    1,
+    7
+   ],
+   "M": 512,
+   "h": 256,
+   "o": 1,
+   "closed": false,
+   "F_unconditional": "1487815647197611695910312681741273570332356717154798949898498305086387315423300999654757561928633305897036801",
+   "F_unc_bits": 360,
+   "F_unc_log2_floor_frac": [
+    359,
+    5,
+    16
+   ],
+   "unc_deficit_bits_over_cap": 103,
+   "unc_reachable": false,
+   "F_conditional": "1487815647197611695910312681741273570332356717154798949898498305086387315423300999654757561928633305897036801",
+   "F_con_bits": 360,
+   "F_con_log2_floor_frac": [
+    359,
+    5,
+    16
+   ],
+   "con_deficit_bits_over_cap": 103,
+   "con_reachable": false,
+   "con_source": "maxnorm(16,7)^16 = c_7^64 (stable doubling range w<=7)",
+   "con_stable": true,
+   "ternary_set_size": "1684721381376000",
+   "ternary_set_log2": [
+    50,
+    9,
+    16
+   ],
+   "orbit_size_2h": 512,
+   "heuristic_count_log2": "-3287/16",
+   "heuristic_margin_bits": "3287/16",
+   "heuristic_margin_bits_floor": 205,
+   "sqrt_T": "41045357",
+   "L2_shortfall_ratio": "41045357/512",
+   "L2_shortfall_bits": 16,
+   "minkowski_guaranteed_r2_at_2p256": 247,
+   "amgm_lambda1sq_lower_bound_at_2p256": 4
+  },
+  {
+   "slot": [
+    1,
+    8
+   ],
+   "M": 512,
+   "h": 256,
+   "o": 1,
+   "closed": false,
+   "F_unconditional": "39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306816",
+   "F_unc_bits": 385,
+   "F_unc_log2_floor_frac": [
+    384,
+    0,
+    16
+   ],
+   "unc_deficit_bits_over_cap": 128,
+   "unc_reachable": false,
+   "F_conditional": "5079659426475623450902989452694780632831811256746287339498240676303720741206801108367723154636413126267296525910016",
+   "F_con_bits": 382,
+   "F_con_log2_floor_frac": [
+    381,
+    0,
+    16
+   ],
+   "con_deficit_bits_over_cap": 125,
+   "con_reachable": false,
+   "con_source": "maxnorm(32,8)^8 from the c1 hill-climb PROBE (not proved)",
+   "con_stable": false,
+   "ternary_set_size": "104873905990656000",
+   "ternary_set_log2": [
+    56,
+    8,
+    16
+   ],
+   "orbit_size_2h": 512,
+   "heuristic_count_log2": "-399/2",
+   "heuristic_margin_bits": "399/2",
+   "heuristic_margin_bits_floor": 199,
+   "sqrt_T": "323842409",
+   "L2_shortfall_ratio": "323842409/512",
+   "L2_shortfall_bits": 19,
+   "minkowski_guaranteed_r2_at_2p256": 247,
+   "amgm_lambda1sq_lower_bound_at_2p256": 4
+  },
+  {
+   "slot": [
+    2,
+    7
+   ],
+   "M": 1024,
+   "h": 512,
+   "o": 2,
+   "closed": false,
+   "F_unconditional": "1487815647197611695910312681741273570332356717154798949898498305086387315423300999654757561928633305897036801",
+   "F_unc_bits": 360,
+   "F_unc_log2_floor_frac": [
+    359,
+    5,
+    16
+   ],
+   "unc_deficit_bits_over_cap": 103,
+   "unc_reachable": false,
+   "F_conditional": "1487815647197611695910312681741273570332356717154798949898498305086387315423300999654757561928633305897036801",
+   "F_con_bits": 360,
+   "F_con_log2_floor_frac": [
+    359,
+    5,
+    16
+   ],
+   "con_deficit_bits_over_cap": 103,
+   "con_reachable": false,
+   "con_source": "maxnorm(16,7)^16 = c_7^64 (stable doubling range w<=7)",
+   "con_stable": true,
+   "ternary_set_size": "224791787732402176",
+   "ternary_set_log2": [
+    57,
+    10,
+    16
+   ],
+   "orbit_size_2h": 1024,
+   "heuristic_count_log2": "-3635/8",
+   "heuristic_margin_bits": "3635/8",
+   "heuristic_margin_bits_floor": 454,
+   "sqrt_T": "474122123",
+   "L2_shortfall_ratio": "474122123/1024",
+   "L2_shortfall_bits": 18,
+   "minkowski_guaranteed_r2_at_2p256": 487,
+   "amgm_lambda1sq_lower_bound_at_2p256": 4
+  },
+  {
+   "slot": [
+    2,
+    8
+   ],
+   "M": 1024,
+   "h": 512,
+   "o": 2,
+   "closed": false,
+   "F_unconditional": "39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306816",
+   "F_unc_bits": 385,
+   "F_unc_log2_floor_frac": [
+    384,
+    0,
+    16
+   ],
+   "unc_deficit_bits_over_cap": 128,
+   "unc_reachable": false,
+   "F_conditional": "5079659426475623450902989452694780632831811256746287339498240676303720741206801108367723154636413126267296525910016",
+   "F_con_bits": 382,
+   "F_con_log2_floor_frac": [
+    381,
+    0,
+    16
+   ],
+   "con_deficit_bits_over_cap": 125,
+   "con_reachable": false,
+   "con_source": "maxnorm(32,8)^8 from the c1 hill-climb PROBE (not proved)",
+   "con_stable": false,
+   "ternary_set_size": "28379963201215774720",
+   "ternary_set_log2": [
+    64,
+    9,
+    16
+   ],
+   "orbit_size_2h": 1024,
+   "heuristic_count_log2": "-7159/16",
+   "heuristic_margin_bits": "7159/16",
+   "heuristic_margin_bits_floor": 447,
+   "sqrt_T": "5327284786",
+   "L2_shortfall_ratio": "2663642393/512",
+   "L2_shortfall_bits": 22,
+   "minkowski_guaranteed_r2_at_2p256": 487,
+   "amgm_lambda1sq_lower_bound_at_2p256": 4
+  },
+  {
+   "slot": [
+    2,
+    9
+   ],
+   "M": 1024,
+   "h": 512,
+   "o": 2,
+   "closed": false,
+   "F_unconditional": "139008452377144732764939786789661303114218850808529137991604824430036072629766435941001769154109609521811665540548899435521",
+   "F_unc_bits": 406,
+   "F_unc_log2_floor_frac": [
+    405,
+    12,
+    16
+   ],
+   "unc_deficit_bits_over_cap": 149,
+   "unc_reachable": false,
+   "F_conditional": "28062983608075634020780519030199354511766810454669717111786874765388780050091217152076806885753185163996025323728712289281",
+   "F_con_bits": 404,
+   "F_con_log2_floor_frac": [
+    403,
+    7,
+    16
+   ],
+   "con_deficit_bits_over_cap": 147,
+   "con_reachable": false,
+   "con_source": "maxnorm(16,9)^16 -- OUTSIDE the stable range (w >= h/2 at h=16); extrapolation only",
+   "con_stable": false,
+   "ternary_set_size": "3178555878536166768640",
+   "ternary_set_log2": [
+    71,
+    6,
+    16
+   ],
+   "orbit_size_2h": 1024,
+   "heuristic_count_log2": "-3525/8",
+   "heuristic_margin_bits": "3525/8",
+   "heuristic_margin_bits_floor": 440,
+   "sqrt_T": "56378682837",
+   "L2_shortfall_ratio": "56378682837/1024",
+   "L2_shortfall_bits": 25,
+   "minkowski_guaranteed_r2_at_2p256": 487,
+   "amgm_lambda1sq_lower_bound_at_2p256": 4
+  },
+  {
+   "slot": [
+    4,
+    9
+   ],
+   "M": 2048,
+   "h": 1024,
+   "o": 4,
+   "closed": true,
+   "F_unconditional": "139008452377144732764939786789661303114218850808529137991604824430036072629766435941001769154109609521811665540548899435521",
+   "F_unc_bits": 406,
+   "F_unc_log2_floor_frac": [
+    405,
+    12,
+    16
+   ],
+   "unc_deficit_bits_over_cap": 149,
+   "unc_reachable": false,
+   "F_conditional": "28062983608075634020780519030199354511766810454669717111786874765388780050091217152076806885753185163996025323728712289281",
+   "F_con_bits": 404,
+   "F_con_log2_floor_frac": [
+    403,
+    7,
+    16
+   ],
+   "con_deficit_bits_over_cap": 147,
+   "con_reachable": false,
+   "con_source": "maxnorm(16,9)^16 -- OUTSIDE the stable range (w >= h/2 at h=16); extrapolation only",
+   "con_stable": false,
+   "ternary_set_size": "1686149006495512695144448",
+   "ternary_set_log2": [
+    80,
+    7,
+    16
+   ],
+   "orbit_size_2h": 2048,
+   "heuristic_count_log2": "-15097/16",
+   "heuristic_margin_bits": "15097/16",
+   "heuristic_margin_bits_floor": 943,
+   "sqrt_T": "1298518003916",
+   "L2_shortfall_ratio": "324629500979/512",
+   "L2_shortfall_bits": 29,
+   "minkowski_guaranteed_r2_at_2p256": 967,
+   "amgm_lambda1sq_lower_bound_at_2p256": 4
+  },
+  {
+   "slot": [
+    4,
+    10
+   ],
+   "M": 2048,
+   "h": 1024,
+   "o": 4,
+   "closed": false,
+   "F_unconditional": "100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "F_unc_bits": 426,
+   "F_unc_log2_floor_frac": [
+    425,
+    3,
+    16
+   ],
+   "unc_deficit_bits_over_cap": 169,
+   "unc_reachable": false,
+   "F_conditional": "6860389623284523874965549329534119814001681635676588599861074641013504196605491269195675125812473836560782461491765303469735936",
+   "F_con_bits": 422,
+   "F_con_log2_floor_frac": [
+    421,
+    5,
+    16
+   ],
+   "con_deficit_bits_over_cap": 165,
+   "con_reachable": false,
+   "con_source": "maxnorm(16,10)^16 -- OUTSIDE the stable range (w >= h/2 at h=16); extrapolation only",
+   "con_stable": false,
+   "ternary_set_size": "342288248318589077114322944",
+   "ternary_set_log2": [
+    88,
+    2,
+    16
+   ],
+   "orbit_size_2h": 2048,
+   "heuristic_count_log2": "-7487/8",
+   "heuristic_margin_bits": "7487/8",
+   "heuristic_margin_bits_floor": 935,
+   "sqrt_T": "18501033709460",
+   "L2_shortfall_ratio": "4625258427365/512",
+   "L2_shortfall_bits": 33,
+   "minkowski_guaranteed_r2_at_2p256": 967,
+   "amgm_lambda1sq_lower_bound_at_2p256": 4
+  },
+  {
+   "slot": [
+    4,
+    11
+   ],
+   "M": 2048,
+   "h": 1024,
+   "o": 4,
+   "closed": false,
+   "F_unconditional": "19873012250342044933876323243536725795573361572335445760471484541737760392533800435569122898705703960201510224425798062253366862190081",
+   "F_unc_bits": 443,
+   "F_unc_log2_floor_frac": [
+    442,
+    12,
+    16
+   ],
+   "unc_deficit_bits_over_cap": 186,
+   "unc_reachable": false,
+   "F_conditional": "1802446662883148634729171036598905151975226759976846061984984150756369166101718836663837588399696607408626768648017633861220574645761",
+   "F_con_bits": 440,
+   "F_con_log2_floor_frac": [
+    439,
+    5,
+    16
+   ],
+   "con_deficit_bits_over_cap": 183,
+   "con_reachable": false,
+   "con_source": "maxnorm(16,11)^16 -- OUTSIDE the stable range (w >= h/2 at h=16); extrapolation only",
+   "con_stable": false,
+   "ternary_set_size": "63105506144554422580713357312",
+   "ternary_set_log2": [
+    95,
+    10,
+    16
+   ],
+   "orbit_size_2h": 2048,
+   "heuristic_count_log2": "-7427/8",
+   "heuristic_margin_bits": "7427/8",
+   "heuristic_margin_bits_floor": 928,
+   "sqrt_T": "251208093310216",
+   "L2_shortfall_ratio": "31401011663777/256",
+   "L2_shortfall_bits": 36,
+   "minkowski_guaranteed_r2_at_2p256": 967,
+   "amgm_lambda1sq_lower_bound_at_2p256": 4
+  }
+ ],
+ "uniform": {
+  "det_root_h": "q^{1/256} for every slot (det=q^ell, h=256 ell) -- < 2 for q < 2^256",
+  "amgm_fence": "lambda_1^2 >= q^{1/128} < 4 for q < 2^256; = 4 iff q > 3^128",
+  "3pow128_bits": 203,
+  "4pow128_eq_2pow256": true,
+  "cheapest_open_slot_unc_deficit_bits": 41,
+  "cheapest_open_slot_con_deficit_bits": 33
+ }
+}
