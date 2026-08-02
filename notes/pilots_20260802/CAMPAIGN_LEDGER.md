@@ -102,11 +102,18 @@ In flight: `f2_parity_boundary`, `c1_imprimitivity`.
   (H) (Weil-type, unknown) and it is NOT a lane target. The exchange/
   swap route is closed (third refutation). See surfaced item A.5 for
   what replaces it.
-- **b-resolved slice-coefficient theorem (F2)** — draft after the
-  parity-boundary pilot returns; MUST go through a Pro adversarial
-  round before any node. Constraints so far: window-specific,
-  parity-inhomogeneity hypothesis, phase-spread form, log2 C(n,b)
-  normalisation.
+- **b-resolved slice-coefficient theorem (F2)** — boundary pilot
+  BANKED: the hypothesis is (H-spread)/(H-flat) — spectral flatness
+  of the Delta multiset over ALL odd modes — NOT parity
+  (adjacent-pair killer: beta_min = 1/2, eta = 0 exactly, universal,
+  proxy-independent; parity is only the k=p frequency). Coordinator
+  drafts the theorem with BOTH budget variants displayed; **PP5.0 is
+  now load-bearing on the budget choice** (1/3 viable for only ~15%
+  of windows and impossible outside beta in [0.206,0.794]; 1/43
+  clears at 97%+ under flat >= 0.086). Then Pro adversarial round;
+  no node before both. Mutation battery: adjacent-pair, arc-w,
+  few-value, coset-trivial added.
+  (`f2_parity_boundary/{REPORT,FABLE_AUDIT}.md`.)
 - **Imprimitivity conjecture (C1)** — pilot in flight
   (`c1_imprimitivity`); implies the stable-range doubling law.
 - **Crossing lane succinct contract** — coordinator's to draft (from

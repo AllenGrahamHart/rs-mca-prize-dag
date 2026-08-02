@@ -117,3 +117,26 @@ finite target actually demands.
 > (fails at n > 3*log2 p, ~93 coordinates at official scale). Slope
 > caveat: cancellation slopes ride the balanced-weight integer proxy;
 > the structural laws are exact with true weights.
+
+> **[AMENDED AGAIN 2026-08-02 — F2A.5b parity-boundary pilot
+> (`notes/pilots_20260802/f2_parity_boundary/`, 8/8 exact validations,
+> coordinator-replayed).]** The parity-inhomogeneity hypothesis named
+> above is the WRONG invariant: the ADJACENT-PAIR window (Delta
+> concentrated on two adjacent values — guaranteed at every frequency
+> by the exact multiplicity law {1,...,p-1}) is perfectly
+> parity-balanced (beta_min = 1/2) yet has rho_b = 1 EXACTLY (eta = 0,
+> proxy-independent, true weights), because the damage lives at the
+> NEAR-DEAD k=1 mode carrying O(1) DFT mass, not at k=p carrying 1/p.
+> The correct hypothesis is spectral flatness of the Delta multiset
+> over ALL odd modes: (H-spread) via the Cauchy functional
+> Lambda_k(beta), with checkable surrogate (H-flat)
+> max_k |R_k| <= 1 - eta ln2/(beta(1-beta)) — asymptotically sharp
+> (measured 0.993x). Parity = the k=p frequency of this condition:
+> necessary, far from sufficient (off by 25+ bits). Hard ceiling:
+> eta = 1/3 impossible outside beta in [0.206, 0.794]; only ~15% of
+> windows clear 1/3 even under strong flatness, while 97%+ clear 1/43
+> (threshold flat >= 0.086) — **PP5.0 is now load-bearing on WHICH
+> budget the composition law needs; 1/3 vs 1/43 decides whether the
+> slice-coefficient theorem shape is viable.** Startup deficit ~9 bits
+> at official scale. Mutation battery gains: adjacent-pair, arc-w,
+> few-value, coset-trivial (total death), all with exact certificates.
