@@ -3686,3 +3686,24 @@ runs.  Next split the attack into (i) the finite zero loci of the explicit
 denominator/common/leading scales and (ii) a sequential `z2,z1` resultant
 chain on the genus-three chart.  `[3,6]` remains open, and the overall common
 frontier remains six representatives / 40 raw rows.
+
+The exceptional half is now closed.  The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion`
+factors every univariate scale omitted by the compact model.  Their only
+deployed-field roots are
+
+```text
+0, 1, 16711679, 1288361599, 2113994754, 2130706432.
+```
+
+Five intersections with the original guarded common lex ideal are unit.  The
+sixth is a zero-dimensional quadratic fiber with exactly two deployed common
+points.  At each point, the necessary signed `DE+/DE-` pair equations,
+saturated by all source-label and denominator guards, also give the unit
+ideal.  Thus every exceptional scale chart is excluded for cells 3 and 6.
+
+Only the main genus-three chart remains.  Do not repeat the exceptional
+fibers or global standard bases.  Eliminate `z2`, then `z1`, from the sealed
+four target-free equations, pseudo-reducing by `P(b,t)` after each resultant.
+The orbit `[3,6]` and the overall six-representative / 40-row frontier remain
+open until that main-chart calculation is decided.

@@ -53,8 +53,9 @@ b11 = -b10, so B_1(W)=b10(1-W).                  (KBC3-4)
 ```
 
 The denominator scale, both removed common scales, and the sixteenth power of
-the plane leading coefficient are explicit.  Their zero loci are retained as
-separate exceptional charts; this node does not delete them.
+the plane leading coefficient are explicit.  Their zero loci are outside this
+node's open-chart claim and are decided by the separate proved exceptional-
+scale child node.
 
 The four target-free `DE+/DE-/BE` equations have been compiled exactly in the
 compact model.  Their guard-saturated standard-basis run reached its bounded

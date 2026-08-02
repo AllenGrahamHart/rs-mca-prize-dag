@@ -21597,7 +21597,7 @@
    "title": "KoalaBear positive 433-1a cell-3 genus-three plane-kernel reduction",
    "status": "PROVED",
    "closure": "exact genus-three birational model and compact plane-quartic common kernel",
-   "statement": "On an explicit guard and scale chart of the deployed cell-3 common curve, the 25-term palindromic bidegree-(4,4) eliminant is birational to a genus-three hyperelliptic curve whose degree-eight branch polynomial factors as five distinct linear factors and one irreducible cubic. Exact FLINT denominator clearing and pseudo-division give all eight A2,A0,B1 coefficients with b-degree at most 3 and t-degree at most 22, with B1(W)=b10(1-W). Every exceptional scale chart remains live, and the compiled target-free DE+/DE-/BE basis timed out without a unit or nonunit conclusion. Thus cells 3 and 6 remain open.",
+   "statement": "On an explicit guard and scale chart of the deployed cell-3 common curve, the 25-term palindromic bidegree-(4,4) eliminant is birational to a genus-three hyperelliptic curve whose degree-eight branch polynomial factors as five distinct linear factors and one irreducible cubic. Exact FLINT denominator clearing and pseudo-division give all eight A2,A0,B1 coefficients with b-degree at most 3 and t-degree at most 22, with B1(W)=b10(1-W). Exceptional scales are delegated to a separate child node, and the compiled target-free DE+/DE-/BE basis timed out without a unit or nonunit conclusion. Thus cells 3 and 6 remain open.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/statement.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/proof.md",
@@ -21622,6 +21622,34 @@
     "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_plane_kernel_flint_result.json",
     "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_plane_target_free_family_modal.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_plane_target_free_family_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion",
+   "title": "KoalaBear positive 433-1a cell-3 exceptional scale-chart exclusion",
+   "status": "PROVED",
+   "closure": "exact deployed-field exceptional-scale and necessary signed-pair exclusion",
+   "statement": "Every deployed-field zero of a denominator, projective scale, projected scale, or plane-leading coefficient omitted by the compact cell-3 chart is incompatible with a complete packet. The six scale roots give five guard-empty common fibers and one zero-dimensional fiber with exactly two deployed points; at each point the guard-saturated necessary DE+/DE- pair ideal is the unit ideal. Source symmetry transports the conclusion to cell 6. The main genus-three chart and orbit [3,6] remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_exceptional_scale_factor_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_exceptional_scale_factor_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_exceptional_common_charts_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_exceptional_common_charts_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_exceptional_point_lift_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_exceptional_point_lift_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_exceptional_outside_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_exceptional_outside_result.json"
    ]
   },
   {
@@ -42762,6 +42790,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

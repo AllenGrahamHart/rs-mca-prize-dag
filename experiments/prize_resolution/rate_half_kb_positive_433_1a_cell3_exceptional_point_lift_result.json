@@ -1,0 +1,34 @@
+{
+  "result": {
+    "b_roots": [
+      1068789879,
+      1953359317
+    ],
+    "deployed_points": [
+      {
+        "b": 1068789879,
+        "c": 393847656,
+        "r": 700051530,
+        "t": 1288361599
+      },
+      {
+        "b": 1953359317,
+        "c": 159222518,
+        "r": 700051530,
+        "t": 1288361599
+      }
+    ],
+    "discriminant": 164072300,
+    "discriminant_roots": [
+      884569438,
+      1246136995
+    ],
+    "field": 2130706433,
+    "legendre": 1,
+    "quadratic": "b^2-891442763*b+1",
+    "source_charts_sha256": "4c158d2fec9b71a291be4c444e303b0ecd51c9529811b0dc3ebbb8c086b4abc3",
+    "status": "COMPLETE"
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell3-exceptional-point-lift-v1",
+  "scope": "Exact deployed-field lift of the sole nonunit exceptional common algebra; no outside, orbit, or Prize claim."
+}

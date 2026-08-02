@@ -15180,3 +15180,32 @@ next route step:          finite exceptional charts plus a sequential z2,z1
 remaining frontier:      six representatives / 40 raw rows
 nonclaim:                 no [3,6] exclusion, route, K3, LIST, MCA, or Prize
 ```
+
+### Work-cycle theorem: cell-3 exceptional scale-chart exclusion
+
+```text
+field/chart:              F_2130706433, every scale zero omitted by the
+                          compact cell-3 plane-kernel model
+factored scales:          r/c denominators, combined denominator scale,
+                          first/second common scales, plane leading term
+base-field scale roots:   0,1,16711679,1288361599,2113994754,2130706432
+common-fiber decisions:   five unit ideals; sole proper fiber at
+                          t=1288361599
+proper fiber:             b^2-891442763b+1=0, exactly two deployed points
+outside decision:         necessary signed DE+/DE- ideal is unit at both
+                          points after all source and denominator guards
+result:                   every exceptional scale chart PROVED excluded;
+                          source symmetry gives the same for cell 6
+factor/chart hashes:      02cbc9d6cc95d6f8d3ac7782fa2e9fdccbb9b5d035f420a4df3588e57b0b192c
+                          4c158d2fec9b71a291be4c444e303b0ecd51c9529811b0dc3ebbb8c086b4abc3
+point/outside hashes:     22eb1b5514c73edc29c86731514b922740592389a02ac8e4c42cef234b6e5d13
+                          77b1000da7dddc789a4b328f9d5036fbf37cbda8d5878a6a78c84e1300ca0f91
+Modal apps:               ap-LuYfRSlmXjmFEbEAhY1TO6,
+                          ap-eyw7b2nJCrvkfQDCIZSanI,
+                          ap-zbu8gp7UAUEPfpE5v0Gkig,
+                          ap-YwIhdUejULrSv18vIbD1oS
+next route step:          main genus-three chart only: sequential z2,z1
+                          resultants with plane pseudo-reduction
+remaining frontier:      six representatives / 40 raw rows
+nonclaim:                 no [3,6] exclusion, route, K3, LIST, MCA, or Prize
+```
