@@ -1,0 +1,390 @@
+======================================================================================================================
+SCALES
+======================================================================================================================
+case    n    q   K  h  m   A  witnesses  live  per-slope  cand M candGlo    8n^3 testable
+Q3     16   17   4  3  2   7         64    17        3.8       6       6   32768    False
+Q1     16   17   4  2  2   6        471    17       27.7       3       3   32768    False
+Q2     16   97   4  2  2   6         92    49        1.9       3       3   32768    False
+Q7     32   97   8  3  2  11      17542    97      180.8      95      95  262144    False
+Q8     32  193   8  3  2  11       5454   193       28.3     110     110  262144    False
+Q4     32   97   8  2  2  10     665071    97     6856.4      55      55  262144    False
+Q5     32  193   8  2  2  10     334249   193     1731.9      58      58  262144    False
+Q6     32  449   8  2  2  10     144239   449      321.2      60      60  262144    False
+Q10    32   97  16  3  2  19      43927    97      452.9      97      97  262144    False
+Q9     32   97  16  2  2  18    4860173    97    50104.9      89      89  262144    False
+Q12    32  193  16  2  2  18    2442627   193    12656.1     105     105  262144    False
+Q11    32   97   8  5  4  13         85    46        1.8       6       6  262144    False
+
+======================================================================================================================
+K1 COMPARISON TABLE   Glo/live (retention) | budget ratio Glo/8n^3 | class | K1-mech | contrast vs null
+======================================================================================================================
+-- Q3  n=16 q=17 K=4 h=3 m=2 A=7 live=17 |W_z|~3 budget=32768
+   ORD-LEX                   0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  3 greedy=   4 pref= 1 intended1st=2/6
+   ORD-COLEX                 0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  3 greedy=   4 pref= 0 intended1st=2/6
+   ORD-VALEX                 0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  3 greedy=   4 pref= 1 intended1st=1/6
+   ORD-VALCOLEX              0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  3 greedy=   5 pref= 0 intended1st=2/6
+   ORD-ERRLEX                0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  4 greedy=   5 pref= 0 intended1st=1/6
+   ORD-POLYLEX               0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  2 greedy=   6 pref= 0 intended1st=1/6
+   ORD-POLYHI                0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  2 greedy=   5 pref= 0 intended1st=2/6
+   ORD-POLYCENT              0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  2 greedy=   6 pref= 0 intended1st=4/6
+   ORD-CODEWORD              0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  2 greedy=   5 pref= 0 intended1st=2/6
+   ORD-DEGLEX                0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  3 greedy=   4 pref= 1 intended1st=2/6
+   ORD-SLOPEMAJOR            0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  2 greedy=   6 pref= 0 intended1st=1/6
+   ORD-HASH-pb-null-01       0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  3 greedy=   5 pref= 0 intended1st=1/6
+   ORD-HASH-pb-null-02       0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=True  mult=  1 greedy=   6 pref= 0 intended1st=2/6
+
+-- Q1  n=16 q=17 K=4 h=2 m=2 A=6 live=17 |W_z|~27 budget=32768
+   ORD-LEX                   0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x 0.000 | sidon=False mult=  2 greedy=   6 pref= 2 intended1st=0/3
+   ORD-COLEX                 0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x 0.000 | sidon=False mult=  3 greedy=   4 pref= 0 intended1st=1/3
+   ORD-VALEX                 0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x 0.000 | sidon=True  mult=  1 greedy=   6 pref= 1 intended1st=0/3
+   ORD-VALCOLEX              0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x 0.000 | sidon=False mult=  2 greedy=   6 pref= 0 intended1st=0/3
+   ORD-ERRLEX                0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x 0.000 | sidon=False mult=  3 greedy=   4 pref= 0 intended1st=0/3
+   ORD-POLYLEX              12/17   (0.706) |       3/8192 (3.662e-04) | MIXED             | AMBER | x 2.667 | sidon=False mult=  2 greedy=  15 pref= 0 intended1st=0/3
+   ORD-POLYHI                0/17   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x 0.000 | sidon=False mult=  2 greedy=   6 pref= 0 intended1st=1/3
+   ORD-POLYCENT             15/17   (0.882) |     15/32768 (4.578e-04) | MIXED             | AMBER | x 3.333 | sidon=True  mult=  1 greedy=  16 pref= 0 intended1st=0/3
+   ORD-CODEWORD              1/17   (0.059) |      1/32768 (3.052e-05) | SUPPORT-COLLAPSED | GREEN | x 0.222 | sidon=False mult=  2 greedy=   8 pref= 0 intended1st=0/3
+   ORD-DEGLEX                3/17   (0.176) |      3/32768 (9.155e-05) | MIXED             | AMBER | x 0.667 | sidon=False mult=  3 greedy=   8 pref= 0 intended1st=2/3
+   ORD-SLOPEMAJOR           12/17   (0.706) |       3/8192 (3.662e-04) | MIXED             | AMBER | x 2.667 | sidon=False mult=  2 greedy=  15 pref= 0 intended1st=0/3
+   ORD-HASH-pb-null-01       5/17   (0.294) |      5/32768 (1.526e-04) | MIXED             | AMBER | x 1.111 | sidon=True  mult=  1 greedy=  11 pref= 0 intended1st=1/3
+   ORD-HASH-pb-null-02       4/17   (0.235) |       1/8192 (1.221e-04) | MIXED             | AMBER | x 0.889 | sidon=True  mult=  1 greedy=  11 pref= 0 intended1st=0/3
+
+-- Q2  n=16 q=97 K=4 h=2 m=2 A=6 live=49 |W_z|~1 budget=32768
+   ORD-LEX                   0/49   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x 0.000 | sidon=False mult=  6 greedy=  15 pref= 0 intended1st=1/3
+   ORD-COLEX                 1/49   (0.020) |      1/32768 (3.052e-05) | SUPPORT-COLLAPSED | GREEN | x 2.000 | sidon=False mult=  6 greedy=  17 pref= 0 intended1st=2/3
+   ORD-VALEX                 0/49   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x 0.000 | sidon=False mult=  6 greedy=  16 pref= 0 intended1st=1/3
+   ORD-VALCOLEX              0/49   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x 0.000 | sidon=False mult=  5 greedy=  17 pref= 0 intended1st=2/3
+   ORD-ERRLEX                0/49   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x 0.000 | sidon=False mult=  5 greedy=  16 pref= 0 intended1st=1/3
+   ORD-POLYLEX               0/49   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x 0.000 | sidon=False mult=  5 greedy=  16 pref= 0 intended1st=2/3
+   ORD-POLYHI                1/49   (0.020) |      1/32768 (3.052e-05) | SUPPORT-COLLAPSED | GREEN | x 2.000 | sidon=False mult=  6 greedy=  16 pref= 0 intended1st=3/3
+   ORD-POLYCENT              0/49   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x 0.000 | sidon=False mult=  5 greedy=  15 pref= 0 intended1st=3/3
+   ORD-CODEWORD              1/49   (0.020) |      1/32768 (3.052e-05) | SUPPORT-COLLAPSED | GREEN | x 2.000 | sidon=False mult=  4 greedy=  15 pref= 0 intended1st=1/3
+   ORD-DEGLEX                1/49   (0.020) |      1/32768 (3.052e-05) | SUPPORT-COLLAPSED | GREEN | x 2.000 | sidon=False mult=  6 greedy=  15 pref= 0 intended1st=3/3
+   ORD-SLOPEMAJOR            0/49   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x 0.000 | sidon=False mult=  5 greedy=  16 pref= 0 intended1st=2/3
+   ORD-HASH-pb-null-01       0/49   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x 0.000 | sidon=False mult=  6 greedy=  17 pref= 0 intended1st=2/3
+   ORD-HASH-pb-null-02       1/49   (0.020) |      1/32768 (3.052e-05) | SUPPORT-COLLAPSED | GREEN | x 2.000 | sidon=False mult=  6 greedy=  15 pref= 0 intended1st=3/3
+
+-- Q7  n=32 q=97 K=8 h=3 m=2 A=11 live=97 |W_z|~180 budget=262144
+   ORD-LEX                   1/97   (0.010) |     1/262144 (3.815e-06) | SUPPORT-COLLAPSED | GREEN | x 0.013 | sidon=False mult=  6 greedy=  33 pref= 3 intended1st=2/95
+   ORD-COLEX                 4/97   (0.041) |      1/65536 (1.526e-05) | SUPPORT-COLLAPSED | GREEN | x 0.051 | sidon=False mult=  9 greedy=  33 pref= 0 intended1st=2/95
+   ORD-VALEX                 3/97   (0.031) |     3/262144 (1.144e-05) | SUPPORT-COLLAPSED | GREEN | x 0.038 | sidon=False mult=  7 greedy=  38 pref= 1 intended1st=0/95
+   ORD-VALCOLEX              4/97   (0.041) |      1/65536 (1.526e-05) | SUPPORT-COLLAPSED | GREEN | x 0.051 | sidon=False mult=  6 greedy=  45 pref= 0 intended1st=0/95
+   ORD-ERRLEX                3/97   (0.031) |     3/262144 (1.144e-05) | SUPPORT-COLLAPSED | GREEN | x 0.038 | sidon=False mult=  7 greedy=  40 pref= 0 intended1st=0/95
+   ORD-POLYLEX              91/97   (0.938) |    91/262144 (3.471e-04) | HIGH-RETENTION    | RED   | x 1.167 | sidon=False mult=  2 greedy=  94 pref= 0 intended1st=0/95
+   ORD-POLYHI               68/97   (0.701) |     17/65536 (2.594e-04) | MIXED             | AMBER | x 0.872 | sidon=False mult=  2 greedy=  78 pref= 0 intended1st=1/95
+   ORD-POLYCENT             89/97   (0.918) |    89/262144 (3.395e-04) | SIDON-SUPER       | RED   | x 1.141 | sidon=True  mult=  1 greedy=  93 pref= 0 intended1st=0/95
+   ORD-CODEWORD             78/97   (0.804) |    39/131072 (2.975e-04) | MIXED             | AMBER | x 1.000 | sidon=True  mult=  1 greedy=  88 pref= 0 intended1st=0/95
+   ORD-DEGLEX               50/97   (0.515) |    25/131072 (1.907e-04) | MIXED             | AMBER | x 0.641 | sidon=False mult=  2 greedy=  69 pref= 0 intended1st=1/95
+   ORD-SLOPEMAJOR           91/97   (0.938) |    91/262144 (3.471e-04) | HIGH-RETENTION    | RED   | x 1.167 | sidon=False mult=  2 greedy=  94 pref= 0 intended1st=0/95
+   ORD-HASH-pb-null-01      79/97   (0.814) |    79/262144 (3.014e-04) | MIXED             | AMBER | x 1.013 | sidon=True  mult=  1 greedy=  88 pref= 0 intended1st=0/95
+   ORD-HASH-pb-null-02      77/97   (0.794) |    77/262144 (2.937e-04) | MIXED             | AMBER | x 0.987 | sidon=True  mult=  1 greedy=  87 pref= 0 intended1st=0/95
+
+-- Q8  n=32 q=193 K=8 h=3 m=2 A=11 live=193 |W_z|~28 budget=262144
+   ORD-LEX                  26/193  (0.135) |    13/131072 (9.918e-05) | MIXED             | AMBER | x 0.323 | sidon=False mult= 26 greedy=  66 pref= 1 intended1st=12/110
+   ORD-COLEX                20/193  (0.104) |      5/65536 (7.629e-05) | MIXED             | AMBER | x 0.248 | sidon=False mult= 28 greedy=  68 pref= 0 intended1st=11/110
+   ORD-VALEX                20/193  (0.104) |      5/65536 (7.629e-05) | MIXED             | AMBER | x 0.248 | sidon=False mult= 15 greedy=  71 pref= 1 intended1st=4/110
+   ORD-VALCOLEX             15/193  (0.078) |    15/262144 (5.722e-05) | SUPPORT-COLLAPSED | GREEN | x 0.186 | sidon=False mult= 18 greedy=  71 pref= 0 intended1st=0/110
+   ORD-ERRLEX               14/193  (0.073) |     7/131072 (5.341e-05) | SUPPORT-COLLAPSED | GREEN | x 0.174 | sidon=False mult= 24 greedy=  69 pref= 0 intended1st=1/110
+   ORD-POLYLEX             111/193  (0.575) |   111/262144 (4.234e-04) | MIXED             | AMBER | x 1.379 | sidon=False mult=  4 greedy= 156 pref= 0 intended1st=4/110
+   ORD-POLYHI               72/193  (0.373) |      9/32768 (2.747e-04) | MIXED             | AMBER | x 0.894 | sidon=False mult=  5 greedy= 128 pref= 0 intended1st=5/110
+   ORD-POLYCENT            141/193  (0.731) |   141/262144 (5.379e-04) | MIXED             | AMBER | x 1.752 | sidon=False mult=  6 greedy= 171 pref= 0 intended1st=0/110
+   ORD-CODEWORD             70/193  (0.363) |    35/131072 (2.670e-04) | MIXED             | AMBER | x 0.870 | sidon=False mult=  5 greedy= 131 pref= 0 intended1st=5/110
+   ORD-DEGLEX               32/193  (0.166) |       1/8192 (1.221e-04) | MIXED             | AMBER | x 0.398 | sidon=False mult= 20 greedy=  74 pref= 0 intended1st=12/110
+   ORD-SLOPEMAJOR          111/193  (0.575) |   111/262144 (4.234e-04) | MIXED             | AMBER | x 1.379 | sidon=False mult=  4 greedy= 156 pref= 0 intended1st=4/110
+   ORD-HASH-pb-null-01      78/193  (0.404) |    39/131072 (2.975e-04) | MIXED             | AMBER | x 0.969 | sidon=False mult=  6 greedy= 135 pref= 0 intended1st=6/110
+   ORD-HASH-pb-null-02      83/193  (0.430) |    83/262144 (3.166e-04) | MIXED             | AMBER | x 1.031 | sidon=False mult=  4 greedy= 137 pref= 0 intended1st=4/110
+
+-- Q4  n=32 q=97 K=8 h=2 m=2 A=10 live=97 |W_z|~6856 budget=262144
+   ORD-LEX                   3/97   (0.031) |     3/262144 (1.144e-05) | SUPPORT-COLLAPSED | GREEN | x 0.032 | sidon=False mult=  4 greedy=  34 pref= 5 intended1st=0/55
+   ORD-COLEX                 3/97   (0.031) |     3/262144 (1.144e-05) | SUPPORT-COLLAPSED | GREEN | x 0.032 | sidon=False mult=  7 greedy=  39 pref= 0 intended1st=0/55
+   ORD-VALEX                 1/97   (0.010) |     1/262144 (3.815e-06) | SUPPORT-COLLAPSED | GREEN | x 0.011 | sidon=False mult=  6 greedy=  31 pref= 1 intended1st=0/55
+   ORD-VALCOLEX              5/97   (0.052) |     5/262144 (1.907e-05) | SUPPORT-COLLAPSED | GREEN | x 0.053 | sidon=False mult=  8 greedy=  34 pref= 0 intended1st=0/55
+   ORD-ERRLEX                2/97   (0.021) |     1/131072 (7.629e-06) | SUPPORT-COLLAPSED | GREEN | x 0.021 | sidon=False mult=  7 greedy=  43 pref= 0 intended1st=0/55
+   ORD-POLYLEX              97/97   (1.000) |    97/262144 (3.700e-04) | HIGH-RETENTION    | RED   | x 1.032 | sidon=False mult=  3 greedy=  97 pref= 0 intended1st=0/55
+   ORD-POLYHI               84/97   (0.866) |     21/65536 (3.204e-04) | MIXED             | AMBER | x 0.894 | sidon=True  mult=  1 greedy=  91 pref= 0 intended1st=3/55
+   ORD-POLYCENT             97/97   (1.000) |    97/262144 (3.700e-04) | HIGH-RETENTION    | RED   | x 1.032 | sidon=False mult=  2 greedy=  97 pref= 0 intended1st=0/55
+   ORD-CODEWORD             89/97   (0.918) |    89/262144 (3.395e-04) | SIDON-SUPER       | RED   | x 0.947 | sidon=True  mult=  1 greedy=  90 pref= 0 intended1st=0/55
+   ORD-DEGLEX               73/97   (0.753) |    73/262144 (2.785e-04) | MIXED             | AMBER | x 0.777 | sidon=False mult=  2 greedy=  83 pref= 0 intended1st=3/55
+   ORD-SLOPEMAJOR           97/97   (1.000) |    97/262144 (3.700e-04) | HIGH-RETENTION    | RED   | x 1.032 | sidon=False mult=  3 greedy=  97 pref= 0 intended1st=0/55
+   ORD-HASH-pb-null-01      95/97   (0.979) |    95/262144 (3.624e-04) | SIDON-SUPER       | RED   | x 1.011 | sidon=True  mult=  1 greedy=  96 pref= 0 intended1st=0/55
+   ORD-HASH-pb-null-02      93/97   (0.959) |    93/262144 (3.548e-04) | SIDON-SUPER       | RED   | x 0.989 | sidon=True  mult=  1 greedy=  95 pref= 0 intended1st=0/55
+
+-- Q5  n=32 q=193 K=8 h=2 m=2 A=10 live=193 |W_z|~1731 budget=262144
+   ORD-LEX                   9/193  (0.047) |     9/262144 (3.433e-05) | SUPPORT-COLLAPSED | GREEN | x 0.048 | sidon=False mult=  6 greedy=  82 pref= 4 intended1st=0/58
+   ORD-COLEX                 7/193  (0.036) |     7/262144 (2.670e-05) | SUPPORT-COLLAPSED | GREEN | x 0.038 | sidon=False mult= 14 greedy=  87 pref= 0 intended1st=0/58
+   ORD-VALEX                 6/193  (0.031) |     3/131072 (2.289e-05) | SUPPORT-COLLAPSED | GREEN | x 0.032 | sidon=False mult=  6 greedy=  72 pref= 1 intended1st=0/58
+   ORD-VALCOLEX             15/193  (0.078) |    15/262144 (5.722e-05) | SUPPORT-COLLAPSED | GREEN | x 0.081 | sidon=False mult=  9 greedy=  91 pref= 0 intended1st=0/58
+   ORD-ERRLEX                8/193  (0.041) |      1/32768 (3.052e-05) | SUPPORT-COLLAPSED | GREEN | x 0.043 | sidon=False mult= 13 greedy=  87 pref= 0 intended1st=0/58
+   ORD-POLYLEX             193/193  (1.000) |   193/262144 (7.362e-04) | HIGH-RETENTION    | RED   | x 1.038 | sidon=False mult=  3 greedy= 193 pref= 0 intended1st=0/58
+   ORD-POLYHI               52/193  (0.269) |     13/65536 (1.984e-04) | MIXED             | AMBER | x 0.280 | sidon=False mult=  7 greedy= 112 pref= 0 intended1st=4/58
+   ORD-POLYCENT            193/193  (1.000) |   193/262144 (7.362e-04) | HIGH-RETENTION    | RED   | x 1.038 | sidon=False mult=  3 greedy= 193 pref= 0 intended1st=0/58
+   ORD-CODEWORD            187/193  (0.969) |   187/262144 (7.133e-04) | SIDON-SUPER       | RED   | x 1.005 | sidon=True  mult=  1 greedy= 190 pref= 0 intended1st=0/58
+   ORD-DEGLEX               46/193  (0.238) |    23/131072 (1.755e-04) | MIXED             | AMBER | x 0.247 | sidon=False mult= 13 greedy=  91 pref= 0 intended1st=11/58
+   ORD-SLOPEMAJOR          193/193  (1.000) |   193/262144 (7.362e-04) | HIGH-RETENTION    | RED   | x 1.038 | sidon=False mult=  3 greedy= 193 pref= 0 intended1st=0/58
+   ORD-HASH-pb-null-01     185/193  (0.959) |   185/262144 (7.057e-04) | SIDON-SUPER       | RED   | x 0.995 | sidon=True  mult=  1 greedy= 189 pref= 0 intended1st=0/58
+   ORD-HASH-pb-null-02     187/193  (0.969) |   187/262144 (7.133e-04) | SIDON-SUPER       | RED   | x 1.005 | sidon=True  mult=  1 greedy= 190 pref= 0 intended1st=0/58
+
+-- Q6  n=32 q=449 K=8 h=2 m=2 A=10 live=449 |W_z|~321 budget=262144
+   ORD-LEX                   7/449  (0.016) |     7/262144 (2.670e-05) | SUPPORT-COLLAPSED | GREEN | x 0.018 | sidon=False mult= 16 greedy= 164 pref= 3 intended1st=0/60
+   ORD-COLEX                12/449  (0.027) |      3/65536 (4.578e-05) | SUPPORT-COLLAPSED | GREEN | x 0.030 | sidon=False mult= 21 greedy= 173 pref= 0 intended1st=0/60
+   ORD-VALEX                12/449  (0.027) |      3/65536 (4.578e-05) | SUPPORT-COLLAPSED | GREEN | x 0.030 | sidon=False mult= 16 greedy= 153 pref= 1 intended1st=0/60
+   ORD-VALCOLEX             16/449  (0.036) |      1/16384 (6.104e-05) | SUPPORT-COLLAPSED | GREEN | x 0.041 | sidon=False mult= 24 greedy= 188 pref= 0 intended1st=0/60
+   ORD-ERRLEX               11/449  (0.024) |    11/262144 (4.196e-05) | SUPPORT-COLLAPSED | GREEN | x 0.028 | sidon=False mult= 23 greedy= 182 pref= 0 intended1st=0/60
+   ORD-POLYLEX             449/449  (1.000) |   449/262144 (1.713e-03) | HIGH-RETENTION    | RED   | x 1.141 | sidon=False mult=  6 greedy= 449 pref= 0 intended1st=0/60
+   ORD-POLYHI               34/449  (0.076) |    17/131072 (1.297e-04) | SUPPORT-COLLAPSED | GREEN | x 0.086 | sidon=False mult= 37 greedy= 129 pref= 0 intended1st=15/60
+   ORD-POLYCENT            449/449  (1.000) |   449/262144 (1.713e-03) | HIGH-RETENTION    | RED   | x 1.141 | sidon=False mult=  5 greedy= 449 pref= 0 intended1st=0/60
+   ORD-CODEWORD            382/449  (0.851) |   191/131072 (1.457e-03) | MIXED             | AMBER | x 0.971 | sidon=False mult=  2 greedy= 416 pref= 0 intended1st=0/60
+   ORD-DEGLEX               43/449  (0.096) |    43/262144 (1.640e-04) | SUPPORT-COLLAPSED | GREEN | x 0.109 | sidon=False mult= 51 greedy= 128 pref= 0 intended1st=19/60
+   ORD-SLOPEMAJOR          449/449  (1.000) |   449/262144 (1.713e-03) | HIGH-RETENTION    | RED   | x 1.141 | sidon=False mult=  6 greedy= 449 pref= 0 intended1st=0/60
+   ORD-HASH-pb-null-01     392/449  (0.873) |     49/32768 (1.495e-03) | MIXED             | AMBER | x 0.996 | sidon=False mult=  2 greedy= 422 pref= 0 intended1st=0/60
+   ORD-HASH-pb-null-02     395/449  (0.880) |   395/262144 (1.507e-03) | MIXED             | AMBER | x 1.004 | sidon=False mult=  2 greedy= 424 pref= 0 intended1st=0/60
+
+-- Q10  n=32 q=97 K=16 h=3 m=2 A=19 live=97 |W_z|~452 budget=262144
+   ORD-LEX                   4/97   (0.041) |      1/65536 (1.526e-05) | SUPPORT-COLLAPSED | GREEN | x 0.046 | sidon=False mult=  6 greedy=  41 pref= 6 intended1st=1/97
+   ORD-COLEX                 5/97   (0.052) |     5/262144 (1.907e-05) | SUPPORT-COLLAPSED | GREEN | x 0.057 | sidon=False mult=  8 greedy=  39 pref= 0 intended1st=2/97
+   ORD-VALEX                 6/97   (0.062) |     3/131072 (2.289e-05) | SUPPORT-COLLAPSED | GREEN | x 0.069 | sidon=False mult=  6 greedy=  43 pref= 1 intended1st=0/97
+   ORD-VALCOLEX              7/97   (0.072) |     7/262144 (2.670e-05) | SUPPORT-COLLAPSED | GREEN | x 0.080 | sidon=False mult=  5 greedy=  38 pref= 0 intended1st=0/97
+   ORD-ERRLEX                5/97   (0.052) |     5/262144 (1.907e-05) | SUPPORT-COLLAPSED | GREEN | x 0.057 | sidon=False mult=  5 greedy=  43 pref= 0 intended1st=0/97
+   ORD-POLYLEX              93/97   (0.959) |    93/262144 (3.548e-04) | HIGH-RETENTION    | RED   | x 1.069 | sidon=False mult=  3 greedy=  95 pref= 0 intended1st=0/97
+   ORD-POLYHI               76/97   (0.784) |     19/65536 (2.899e-04) | MIXED             | AMBER | x 0.874 | sidon=True  mult=  1 greedy=  82 pref= 0 intended1st=0/97
+   ORD-POLYCENT             93/97   (0.959) |    93/262144 (3.548e-04) | HIGH-RETENTION    | RED   | x 1.069 | sidon=False mult=  2 greedy=  95 pref= 0 intended1st=0/97
+   ORD-CODEWORD             76/97   (0.784) |     19/65536 (2.899e-04) | MIXED             | AMBER | x 0.874 | sidon=True  mult=  1 greedy=  87 pref= 0 intended1st=0/97
+   ORD-DEGLEX               72/97   (0.742) |      9/32768 (2.747e-04) | MIXED             | AMBER | x 0.828 | sidon=True  mult=  1 greedy=  80 pref= 0 intended1st=1/97
+   ORD-SLOPEMAJOR           93/97   (0.959) |    93/262144 (3.548e-04) | HIGH-RETENTION    | RED   | x 1.069 | sidon=False mult=  3 greedy=  95 pref= 0 intended1st=0/97
+   ORD-HASH-pb-null-01      85/97   (0.876) |    85/262144 (3.242e-04) | MIXED             | AMBER | x 0.977 | sidon=False mult=  2 greedy=  91 pref= 0 intended1st=1/97
+   ORD-HASH-pb-null-02      89/97   (0.918) |    89/262144 (3.395e-04) | SIDON-SUPER       | RED   | x 1.023 | sidon=True  mult=  1 greedy=  93 pref= 0 intended1st=0/97
+
+-- Q9  n=32 q=97 K=16 h=2 m=2 A=18 live=97 |W_z|~50104 budget=262144
+   ORD-LEX                   1/97   (0.010) |     1/262144 (3.815e-06) | SUPPORT-COLLAPSED | GREEN | x 0.010 | sidon=False mult=  6 greedy=  40 pref=11 intended1st=0/89
+   ORD-COLEX                 0/97   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x 0.000 | sidon=False mult=  5 greedy=  35 pref= 0 intended1st=0/89
+   ORD-VALEX                 0/97   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x 0.000 | sidon=False mult=  7 greedy=  39 pref= 4 intended1st=0/89
+   ORD-VALCOLEX              2/97   (0.021) |     1/131072 (7.629e-06) | SUPPORT-COLLAPSED | GREEN | x 0.021 | sidon=False mult=  5 greedy=  35 pref= 0 intended1st=0/89
+   ORD-ERRLEX                0/97   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x 0.000 | sidon=False mult=  5 greedy=  36 pref= 0 intended1st=0/89
+   ORD-POLYLEX              97/97   (1.000) |    97/262144 (3.700e-04) | HIGH-RETENTION    | RED   | x 1.000 | sidon=False mult=  2 greedy=  97 pref= 0 intended1st=0/89
+   ORD-POLYHI               93/97   (0.959) |    93/262144 (3.548e-04) | SIDON-SUPER       | RED   | x 0.959 | sidon=True  mult=  1 greedy=  95 pref= 0 intended1st=1/89
+   ORD-POLYCENT             97/97   (1.000) |    97/262144 (3.700e-04) | HIGH-RETENTION    | RED   | x 1.000 | sidon=False mult=  2 greedy=  97 pref= 0 intended1st=0/89
+   ORD-CODEWORD             91/97   (0.938) |    91/262144 (3.471e-04) | SIDON-SUPER       | RED   | x 0.938 | sidon=True  mult=  1 greedy=  93 pref= 0 intended1st=0/89
+   ORD-DEGLEX               97/97   (1.000) |    97/262144 (3.700e-04) | SIDON-SUPER       | RED   | x 1.000 | sidon=True  mult=  1 greedy=  97 pref= 0 intended1st=1/89
+   ORD-SLOPEMAJOR           97/97   (1.000) |    97/262144 (3.700e-04) | HIGH-RETENTION    | RED   | x 1.000 | sidon=False mult=  2 greedy=  97 pref= 0 intended1st=0/89
+   ORD-HASH-pb-null-01      97/97   (1.000) |    97/262144 (3.700e-04) | SIDON-SUPER       | RED   | x 1.000 | sidon=True  mult=  1 greedy=  97 pref= 0 intended1st=0/89
+   ORD-HASH-pb-null-02      97/97   (1.000) |    97/262144 (3.700e-04) | SIDON-SUPER       | RED   | x 1.000 | sidon=True  mult=  1 greedy=  97 pref= 0 intended1st=0/89
+
+-- Q12  n=32 q=193 K=16 h=2 m=2 A=18 live=193 |W_z|~12656 budget=262144
+   ORD-LEX                  11/193  (0.057) |    11/262144 (4.196e-05) | SUPPORT-COLLAPSED | GREEN | x 0.057 | sidon=False mult=  8 greedy=  90 pref=10 intended1st=0/105
+   ORD-COLEX                 6/193  (0.031) |     3/131072 (2.289e-05) | SUPPORT-COLLAPSED | GREEN | x 0.031 | sidon=False mult=  6 greedy=  88 pref= 0 intended1st=0/105
+   ORD-VALEX                11/193  (0.057) |    11/262144 (4.196e-05) | SUPPORT-COLLAPSED | GREEN | x 0.057 | sidon=False mult= 13 greedy=  90 pref= 1 intended1st=0/105
+   ORD-VALCOLEX              8/193  (0.041) |      1/32768 (3.052e-05) | SUPPORT-COLLAPSED | GREEN | x 0.041 | sidon=False mult=  7 greedy=  81 pref= 0 intended1st=0/105
+   ORD-ERRLEX                3/193  (0.016) |     3/262144 (1.144e-05) | SUPPORT-COLLAPSED | GREEN | x 0.016 | sidon=False mult=  7 greedy=  77 pref= 0 intended1st=0/105
+   ORD-POLYLEX             193/193  (1.000) |   193/262144 (7.362e-04) | HIGH-RETENTION    | RED   | x 1.000 | sidon=False mult=  3 greedy= 193 pref= 0 intended1st=0/105
+   ORD-POLYHI              140/193  (0.725) |     35/65536 (5.341e-04) | MIXED             | AMBER | x 0.725 | sidon=False mult=  2 greedy= 167 pref= 0 intended1st=1/105
+   ORD-POLYCENT            193/193  (1.000) |   193/262144 (7.362e-04) | HIGH-RETENTION    | RED   | x 1.000 | sidon=False mult=  3 greedy= 193 pref= 0 intended1st=0/105
+   ORD-CODEWORD            193/193  (1.000) |   193/262144 (7.362e-04) | SIDON-SUPER       | RED   | x 1.000 | sidon=True  mult=  1 greedy= 193 pref= 0 intended1st=0/105
+   ORD-DEGLEX               74/193  (0.383) |    37/131072 (2.823e-04) | MIXED             | AMBER | x 0.383 | sidon=False mult=  8 greedy= 123 pref= 0 intended1st=5/105
+   ORD-SLOPEMAJOR          193/193  (1.000) |   193/262144 (7.362e-04) | HIGH-RETENTION    | RED   | x 1.000 | sidon=False mult=  3 greedy= 193 pref= 0 intended1st=0/105
+   ORD-HASH-pb-null-01     193/193  (1.000) |   193/262144 (7.362e-04) | SIDON-SUPER       | RED   | x 1.000 | sidon=True  mult=  1 greedy= 193 pref= 0 intended1st=0/105
+   ORD-HASH-pb-null-02     193/193  (1.000) |   193/262144 (7.362e-04) | SIDON-SUPER       | RED   | x 1.000 | sidon=True  mult=  1 greedy= 193 pref= 0 intended1st=0/105
+
+-- Q11  n=32 q=97 K=8 h=5 m=4 A=13 live=46 |W_z|~1 budget=262144
+   ORD-LEX                   0/46   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  8 greedy=  15 pref= 0 intended1st=4/6
+   ORD-COLEX                 1/46   (0.022) |     1/262144 (3.815e-06) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult= 10 greedy=  15 pref= 0 intended1st=5/6
+   ORD-VALEX                 0/46   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  8 greedy=  15 pref= 0 intended1st=4/6
+   ORD-VALCOLEX              0/46   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  7 greedy=  14 pref= 0 intended1st=5/6
+   ORD-ERRLEX                0/46   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  6 greedy=  14 pref= 0 intended1st=4/6
+   ORD-POLYLEX               1/46   (0.022) |     1/262144 (3.815e-06) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  8 greedy=  15 pref= 0 intended1st=5/6
+   ORD-POLYHI                2/46   (0.043) |     1/131072 (7.629e-06) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult= 10 greedy=  13 pref= 0 intended1st=6/6
+   ORD-POLYCENT              0/46   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  6 greedy=  15 pref= 0 intended1st=6/6
+   ORD-CODEWORD              0/46   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  7 greedy=  15 pref= 0 intended1st=4/6
+   ORD-DEGLEX                2/46   (0.043) |     1/131072 (7.629e-06) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult= 10 greedy=  15 pref= 0 intended1st=6/6
+   ORD-SLOPEMAJOR            1/46   (0.022) |     1/262144 (3.815e-06) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  8 greedy=  15 pref= 0 intended1st=5/6
+   ORD-HASH-pb-null-01       0/46   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  7 greedy=  16 pref= 0 intended1st=5/6
+   ORD-HASH-pb-null-02       0/46   (0.000) |            0 (0.000e+00) | SUPPORT-COLLAPSED | GREEN | x   nan | sidon=False mult=  7 greedy=  14 pref= 0 intended1st=5/6
+
+======================================================================================================================
+DENSITY TREND (retention; support-keyed should FALL as |W_z| grows)
+======================================================================================================================
+-- rate 1/4, h=2 (m=2)
+   Q4   q=  97 |W_z|~  6856  worst support-keyed=0.052  best-of-polylex/cent=1.000  null=0.969  contrast= 0.053
+   Q5   q= 193 |W_z|~  1731  worst support-keyed=0.078  best-of-polylex/cent=1.000  null=0.964  contrast= 0.081
+   Q6   q= 449 |W_z|~   321  worst support-keyed=0.036  best-of-polylex/cent=1.000  null=0.876  contrast= 0.041
+
+-- rate 1/4, h=3 (m=2)
+   Q7   q=  97 |W_z|~   180  worst support-keyed=0.041  best-of-polylex/cent=0.918  null=0.804  contrast= 0.051
+   Q8   q= 193 |W_z|~    28  worst support-keyed=0.135  best-of-polylex/cent=0.575  null=0.417  contrast= 0.323
+
+-- rate 1/2, h=2 (m=2)
+   Q9   q=  97 |W_z|~ 50104  worst support-keyed=0.021  best-of-polylex/cent=1.000  null=1.000  contrast= 0.021
+   Q12  q= 193 |W_z|~ 12656  worst support-keyed=0.057  best-of-polylex/cent=1.000  null=1.000  contrast= 0.057
+
+-- n=16, rate 1/4
+   Q1   q=  17 |W_z|~    27  worst support-keyed=0.000  best-of-polylex/cent=0.706  null=0.265  contrast= 0.000
+   Q2   q=  97 |W_z|~     1  worst support-keyed=0.020  best-of-polylex/cent=0.000  null=0.010  contrast= 2.000
+   Q3   q=  17 |W_z|~     3  worst support-keyed=0.000  best-of-polylex/cent=0.000  null=0.000  contrast=   nan
+
+======================================================================================================================
+BUDGET TESTABILITY FRONTIER (h = m = 2, the densest split-fibre shape)
+======================================================================================================================
+  n  rate   K   A      8n^3      q_opt               C(n,A)      witnesses     max|Glo|  headroom  need ret testable   half-table
+ 16   1/4   4   6     32768      32801                 8008              0            0     0.000       inf    False          256
+ 16   1/2   8  10     32768      32801                 8008              0            0     0.000       inf    False          256
+ 20   1/4   5   7     64000      64081                77520              1            1     0.000 64000.0000    False         1024
+ 20   1/2  10  12     64000      64081               125970              1            1     0.000 64000.0000    False         1024
+ 24   1/4   6   8    110592     110641               735471              6            6     0.000 18432.0000    False         4096
+ 24   1/2  12  14    110592     110641              1961256             17           17     0.000 6505.4118    False         4096
+ 28   1/4   7   9    175616     175673              6906900             39           39     0.000 4502.9744    False        16384
+ 28   1/2  14  16    175616     175673             30421755            173          173     0.001 1015.1214    False        16384
+ 32   1/4   8  10    262144     262337             64512240            245          245     0.001 1069.9755    False        65536
+ 32   1/2  16  18    262144     262337            471435600           1797         1797     0.007  145.8787    False        65536
+ 36   1/4   9  11    373248     373357            600805296           1609         1609     0.004  231.9751    False       262144
+ 36   1/2  18  20    373248     373357           7307872110          19573        19573     0.052   19.0695    False       262144
+ 40   1/4  10  12    512000     512321           5586853480          10904        10904     0.021   46.9552    False      1048576
+ 40   1/2  20  22    512000     512321         113380261800         221307       221307     0.432    2.3135    False      1048576
+ 44   1/4  11  13    681472     681781          51915526432          76146        76146     0.112    8.9495    False      4194304
+ 44   1/2  22  24    681472    1327217        1761039350070        1326866      1326866     1.947    0.5136     True      4194304
+ 48   1/4  12  14    884736     884881         482320623240         545068       545068     0.616    1.6232    False     16777216
+ 48   1/2  24  26    884736    5233153       27385657281648        5233108      5233108     5.915    0.1691     True     16777216
+ 52   1/4  13  15   1124864    2116973        4481381406320        2116881      2116881     1.882    0.5314     True     67108864
+ 52   1/2  26  28   1124864   20649253      426384982032100       20648930     20648930    18.357    0.0545     True     67108864
+ 56   1/4  14  16   1404928    6453721       41648951840265        6453478      6453478     4.593    0.2177     True    268435456
+ 56   1/2  28  30   1404928   81526649     6646448384109072       81524856     81524856    58.028    0.0172     True    268435456
+ 60   1/4  15  17   1728000   19678081      387221678682300       19677817     19677817    11.388    0.0878     True   1073741824
+ 60   1/2  30  32   1728000  322055941   103719945525634515      322055681    322055681   186.375    0.0054     True   1073741824
+ 64   1/4  16  18   2097152   60014081     3601688791018080       60014062     60014062    28.617    0.0349     True   4294967296
+ 64   1/2  32  34   2097152 1272907073  1620288010530347424     1272903611   1272903611   606.968    0.0016     True   4294967296
+ 68   1/4  17  19   2515456  183075721    33516481089577200      183074418    183074418    72.780    0.0137     True  17179869184
+ 68   1/2  34  36   2515456 5033563729 25336755980333275478     5033562172   5033562172  2001.054    0.0005     True  17179869184
+ 72   1/4  18  20   2985984  558613513   312049055023946856      558613509    558613509   187.079    0.0053     True  68719476736
+ 72   1/2  36  38   2985984 19913857921 396561735952215036840    19913857853  19913857853  6669.111    0.0001     True  68719476736
+
+first testable split-fibre scale: {'n': 44, 'rate': '1/2', 'K': 22, 'A': 24, 'budget_8n3': 681472, 'q_opt': 1327217, 'C_n_A': 1761039350070, 'witnesses_at_q': 1326866, 'max_gamma_lo': 1326866, 'headroom': 1.9470587199474079, 'required_retention': 0.5135951934860039, 'testable': True, 'half_table_entries': 4194304}
+
+======================================================================================================================
+CONCENTRATION OF THE SELECTED SUPPORTS (mechanism evidence, n = 32 only)
+======================================================================================================================
+case  order                  common coords  window  prefix  maxcore   K   A   Glo/live
+Q7    ORD-LEX                            3      32       3        9   8  11    1/97   
+Q7    ORD-COLEX                          0      25       0        9   8  11    4/97   
+Q7    ORD-VALEX                          2      32       1        9   8  11    3/97   
+Q7    ORD-VALCOLEX                       0      32       0        9   8  11    4/97   
+Q7    ORD-ERRLEX                         0      32       0        9   8  11    3/97   
+Q7    ORD-POLYLEX                        0      32       0        8   8  11   91/97   
+Q7    ORD-POLYHI                         0      32       0        9   8  11   68/97   
+Q7    ORD-POLYCENT                       0      32       0        8   8  11   89/97   
+Q7    ORD-CODEWORD                       0      32       0        9   8  11   78/97   
+Q7    ORD-DEGLEX                         0      32       0        9   8  11   50/97   
+Q7    ORD-SLOPEMAJOR                     0      32       0        8   8  11   91/97   
+Q7    ORD-HASH-pb-null-01                0      32       0        9   8  11   79/97   
+Q7    ORD-HASH-pb-null-02                0      32       0        9   8  11   77/97   
+
+Q8    ORD-LEX                            1      32       1        9   8  11   26/193  
+Q8    ORD-COLEX                          0      28       0        9   8  11   20/193  
+Q8    ORD-VALEX                          1      32       1        9   8  11   20/193  
+Q8    ORD-VALCOLEX                       0      32       0        9   8  11   15/193  
+Q8    ORD-ERRLEX                         0      32       0        9   8  11   14/193  
+Q8    ORD-POLYLEX                        0      32       0        9   8  11  111/193  
+Q8    ORD-POLYHI                         0      32       0        9   8  11   72/193  
+Q8    ORD-POLYCENT                       0      32       0        9   8  11  141/193  
+Q8    ORD-CODEWORD                       0      32       0        9   8  11   70/193  
+Q8    ORD-DEGLEX                         0      32       0        9   8  11   32/193  
+Q8    ORD-SLOPEMAJOR                     0      32       0        9   8  11  111/193  
+Q8    ORD-HASH-pb-null-01                0      32       0        9   8  11   78/193  
+Q8    ORD-HASH-pb-null-02                0      32       0        9   8  11   83/193  
+
+Q4    ORD-LEX                            5      32       5        8   8  10    3/97   
+Q4    ORD-COLEX                          0      19       0        8   8  10    3/97   
+Q4    ORD-VALEX                          5      32       1        8   8  10    1/97   
+Q4    ORD-VALCOLEX                       0      29       0        8   8  10    5/97   
+Q4    ORD-ERRLEX                         0      32       0        8   8  10    2/97   
+Q4    ORD-POLYLEX                        0      32       0        7   8  10   97/97   
+Q4    ORD-POLYHI                         0      32       0        8   8  10   84/97   
+Q4    ORD-POLYCENT                       0      32       0        7   8  10   97/97   
+Q4    ORD-CODEWORD                       0      32       0        8   8  10   89/97   
+Q4    ORD-DEGLEX                         0      32       0        8   8  10   73/97   
+Q4    ORD-SLOPEMAJOR                     0      32       0        7   8  10   97/97   
+Q4    ORD-HASH-pb-null-01                0      32       0        8   8  10   95/97   
+Q4    ORD-HASH-pb-null-02                0      32       0        8   8  10   93/97   
+
+Q5    ORD-LEX                            4      32       4        8   8  10    9/193  
+Q5    ORD-COLEX                          0      20       0        8   8  10    7/193  
+Q5    ORD-VALEX                          4      32       1        8   8  10    6/193  
+Q5    ORD-VALCOLEX                       0      32       0        8   8  10   15/193  
+Q5    ORD-ERRLEX                         0      32       0        8   8  10    8/193  
+Q5    ORD-POLYLEX                        0      32       0        7   8  10  193/193  
+Q5    ORD-POLYHI                         0      32       0        8   8  10   52/193  
+Q5    ORD-POLYCENT                       0      32       0        7   8  10  193/193  
+Q5    ORD-CODEWORD                       0      32       0        8   8  10  187/193  
+Q5    ORD-DEGLEX                         0      32       0        8   8  10   46/193  
+Q5    ORD-SLOPEMAJOR                     0      32       0        7   8  10  193/193  
+Q5    ORD-HASH-pb-null-01                0      32       0        8   8  10  185/193  
+Q5    ORD-HASH-pb-null-02                0      32       0        8   8  10  187/193  
+
+Q6    ORD-LEX                            3      32       3        8   8  10    7/449  
+Q6    ORD-COLEX                          0      24       0        8   8  10   12/449  
+Q6    ORD-VALEX                          3      32       1        8   8  10   12/449  
+Q6    ORD-VALCOLEX                       0      32       0        8   8  10   16/449  
+Q6    ORD-ERRLEX                         0      32       0        8   8  10   11/449  
+Q6    ORD-POLYLEX                        0      32       0        7   8  10  449/449  
+Q6    ORD-POLYHI                         0      32       0        8   8  10   34/449  
+Q6    ORD-POLYCENT                       0      32       0        7   8  10  449/449  
+Q6    ORD-CODEWORD                       0      32       0        8   8  10  382/449  
+Q6    ORD-DEGLEX                         0      32       0        8   8  10   43/449  
+Q6    ORD-SLOPEMAJOR                     0      32       0        7   8  10  449/449  
+Q6    ORD-HASH-pb-null-01                0      32       0        8   8  10  392/449  
+Q6    ORD-HASH-pb-null-02                0      32       0        8   8  10  395/449  
+
+Q10   ORD-LEX                            6      32       6       17  16  19    4/97   
+Q10   ORD-COLEX                          0      28       0       17  16  19    5/97   
+Q10   ORD-VALEX                          7      32       1       17  16  19    6/97   
+Q10   ORD-VALCOLEX                       0      32       0       17  16  19    7/97   
+Q10   ORD-ERRLEX                         0      32       0       17  16  19    5/97   
+Q10   ORD-POLYLEX                        0      32       0       16  16  19   93/97   
+Q10   ORD-POLYHI                         0      32       0       17  16  19   76/97   
+Q10   ORD-POLYCENT                       0      32       0       16  16  19   93/97   
+Q10   ORD-CODEWORD                       0      32       0       17  16  19   76/97   
+Q10   ORD-DEGLEX                         0      32       0       17  16  19   72/97   
+Q10   ORD-SLOPEMAJOR                     0      32       0       16  16  19   93/97   
+Q10   ORD-HASH-pb-null-01                0      32       0       17  16  19   85/97   
+Q10   ORD-HASH-pb-null-02                0      32       0       17  16  19   89/97   
+
+Q9    ORD-LEX                           11      32      11       16  16  18    1/97   
+Q9    ORD-COLEX                          0      24       0       16  16  18    0/97   
+Q9    ORD-VALEX                         11      32       4       16  16  18    0/97   
+Q9    ORD-VALCOLEX                       0      32       0       16  16  18    2/97   
+Q9    ORD-ERRLEX                         0      32       0       16  16  18    0/97   
+Q9    ORD-POLYLEX                        0      32       0       14  16  18   97/97   
+Q9    ORD-POLYHI                         0      32       0       16  16  18   93/97   
+Q9    ORD-POLYCENT                       0      32       0       14  16  18   97/97   
+Q9    ORD-CODEWORD                       0      32       0       16  16  18   91/97   
+Q9    ORD-DEGLEX                         0      32       0       15  16  18   97/97   
+Q9    ORD-SLOPEMAJOR                     0      32       0       14  16  18   97/97   
+Q9    ORD-HASH-pb-null-01                0      32       0       14  16  18   97/97   
+Q9    ORD-HASH-pb-null-02                0      32       0       15  16  18   97/97   
+
+Q12   ORD-LEX                           10      32      10       16  16  18   11/193  
+Q12   ORD-COLEX                          0      25       0       16  16  18    6/193  
+Q12   ORD-VALEX                         10      32       1       16  16  18   11/193  
+Q12   ORD-VALCOLEX                       0      32       0       16  16  18    8/193  
+Q12   ORD-ERRLEX                         0      32       0       16  16  18    3/193  
+Q12   ORD-POLYLEX                        0      32       0       15  16  18  193/193  
+Q12   ORD-POLYHI                         0      32       0       16  16  18  140/193  
+Q12   ORD-POLYCENT                       0      32       0       15  16  18  193/193  
+Q12   ORD-CODEWORD                       0      32       0       15  16  18  193/193  
+Q12   ORD-DEGLEX                         0      32       0       16  16  18   74/193  
+Q12   ORD-SLOPEMAJOR                     0      32       0       15  16  18  193/193  
+Q12   ORD-HASH-pb-null-01                0      32       0       15  16  18  193/193  
+Q12   ORD-HASH-pb-null-02                0      32       0       15  16  18  193/193  
+
+Q11   ORD-LEX                            1      32       0        9   8  13    0/46   
+Q11   ORD-COLEX                          1      32       0        9   8  13    1/46   
+Q11   ORD-VALEX                          1      32       0        9   8  13    0/46   
+Q11   ORD-VALCOLEX                       1      32       0        9   8  13    0/46   
+Q11   ORD-ERRLEX                         1      32       0        9   8  13    0/46   
+Q11   ORD-POLYLEX                        1      32       0        9   8  13    1/46   
+Q11   ORD-POLYHI                         1      32       0        9   8  13    2/46   
+Q11   ORD-POLYCENT                       1      32       0        9   8  13    0/46   
+Q11   ORD-CODEWORD                       1      32       0        9   8  13    0/46   
+Q11   ORD-DEGLEX                         1      32       0        9   8  13    2/46   
+Q11   ORD-SLOPEMAJOR                     1      32       0        9   8  13    1/46   
+Q11   ORD-HASH-pb-null-01                1      32       0        9   8  13    0/46   
+Q11   ORD-HASH-pb-null-02                1      32       0        9   8  13    0/46   
+
+
+-> /home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/pb_selector_orders/K1_TABLE.json

@@ -1,0 +1,33 @@
+{
+ "N": 16,
+ "twoN": 32,
+ "w": 5,
+ "slice_size_expected": 21840,
+ "n_polynomials_scanned": 21840,
+ "n_zero_norm": 0,
+ "max_norm": "279841",
+ "argmax_f": [
+  1,
+  0,
+  -1,
+  0,
+  1,
+  0,
+  1,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "argmax_bareiss_check": "279841",
+ "amgm_ceiling_w_pow_N_over_2": "390625",
+ "max_saturates_amgm": false,
+ "n_distinct_norms": 185,
+ "seconds": 0.02,
+ "arithmetic": "exact int64 field-norm descent"
+}

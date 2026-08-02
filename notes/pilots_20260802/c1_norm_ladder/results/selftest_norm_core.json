@@ -1,0 +1,71 @@
+{
+ "selftest": [
+  {
+   "N": 4,
+   "exhaustive": true,
+   "mismatches": 0,
+   "max_abs_norm": "9"
+  },
+  {
+   "N": 8,
+   "exhaustive": true,
+   "mismatches": 0,
+   "max_abs_norm": "2401"
+  },
+  {
+   "N": 16,
+   "random_samples": 200,
+   "bareiss_vs_descent_mismatches": 0,
+   "crt_batch_matches": true,
+   "int64_batch_matches": true
+  },
+  {
+   "N": 32,
+   "random_samples": 200,
+   "bareiss_vs_descent_mismatches": 0,
+   "crt_batch_matches": true
+  }
+ ],
+ "resultant_negative_count_N8": 0,
+ "prior_pilot_70529_certificate": {
+  "f": [
+   1,
+   -1,
+   1,
+   -1,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   -1,
+   0,
+   1,
+   0,
+   0
+  ],
+  "norm_bareiss": "70529",
+  "norm_descent": "70529",
+  "norm_batch_int64": "70529"
+ },
+ "group_orders": {
+  "4": {
+   "|U|": 8,
+   "|G|": 32
+  },
+  "8": {
+   "|U|": 16,
+   "|G|": 128
+  },
+  "16": {
+   "|U|": 32,
+   "|G|": 512
+  },
+  "32": {
+   "|U|": 64,
+   "|G|": 2048
+  }
+ }
+}

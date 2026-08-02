@@ -1,0 +1,104 @@
+{
+ "twoN": 8,
+ "N": 4,
+ "admissibility": "q prime, q = 1 mod 8",
+ "group_orders": {
+  "|U|": 8,
+  "|G|": 32
+ },
+ "max_norm_over_all_nonzero_ternary_f": "9",
+ "n_admissible_primes_in_census": 0,
+ "census": [],
+ "table": [
+  {
+   "w": 1,
+   "n_ternary_f": 8,
+   "n_zero_norm": 0,
+   "max_norm": "1",
+   "argmax_f": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "argmax_bareiss_check": "1",
+   "amgm_ceiling_w_pow_N_over_2": "1",
+   "max_saturates_amgm": true,
+   "n_orbits_U": 1,
+   "n_orbits_U_free_formula": 1,
+   "n_orbits_G": 1,
+   "n_distinct_norms": 1,
+   "distinct_norms": [
+    "1"
+   ]
+  },
+  {
+   "w": 2,
+   "n_ternary_f": 24,
+   "n_zero_norm": 0,
+   "max_norm": "4",
+   "argmax_f": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "argmax_bareiss_check": "4",
+   "amgm_ceiling_w_pow_N_over_2": "4",
+   "max_saturates_amgm": true,
+   "n_orbits_U": 3,
+   "n_orbits_U_free_formula": 3,
+   "n_orbits_G": 2,
+   "n_distinct_norms": 2,
+   "distinct_norms": [
+    "2",
+    "4"
+   ]
+  },
+  {
+   "w": 3,
+   "n_ternary_f": 32,
+   "n_zero_norm": 0,
+   "max_norm": "9",
+   "argmax_f": [
+    1,
+    1,
+    -1,
+    0
+   ],
+   "argmax_bareiss_check": "9",
+   "amgm_ceiling_w_pow_N_over_2": "9",
+   "max_saturates_amgm": true,
+   "n_orbits_U": 4,
+   "n_orbits_U_free_formula": 4,
+   "n_orbits_G": 2,
+   "n_distinct_norms": 2,
+   "distinct_norms": [
+    "1",
+    "9"
+   ]
+  },
+  {
+   "w": 4,
+   "n_ternary_f": 16,
+   "n_zero_norm": 0,
+   "max_norm": "8",
+   "argmax_f": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "argmax_bareiss_check": "8",
+   "amgm_ceiling_w_pow_N_over_2": "16",
+   "max_saturates_amgm": false,
+   "n_orbits_U": 2,
+   "n_orbits_U_free_formula": 2,
+   "n_orbits_G": 1,
+   "n_distinct_norms": 1,
+   "distinct_norms": [
+    "8"
+   ]
+  }
+ ]
+}

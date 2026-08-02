@@ -72,3 +72,21 @@ cores >= K+1 and never exactly K make the gap concrete.
    EMPTY. The prefix data (common blocks of 3/5/6/11 coordinates,
    growing with density) supports it.
 3. The bridge flag blocks FM3's final wording until adjudicated.
+
+> **[SUPERSEDED IN PART 2026-08-02 — selector-orders/K1 pilot
+> (`notes/pilots_20260802/pb_selector_orders/`), coordinator-replayed.]**
+> Item 2's FM3 wording is FALSE as drafted and is WITHDRAWN: at every
+> dense scale the global common block under lex is 3-11 coordinates,
+> always strictly below K, while Gamma_lo collapses anyway — and three
+> support-keyed orders with common block 0 (colex, value-colex,
+> reverse-lex) collapse identically. The operating mechanism is
+> global-block + pairwise birthday over ~q^2/2 slope pairs, not a
+> K-prefix; the exchange target must be re-worded from that mechanism.
+> Item 1 is STRENGTHENED: the A1 fork is one-sided (5/5 support-keyed
+> GREEN vs 3/3 polynomial/codeword-keyed RED, procedural reading RED at
+> the densest point), so PP4.0 should freeze the support-keyed CLASS
+> with lex as canonical representative and explicitly exclude the RED
+> readings. Item 3: the bridge flag was adjudicated the same day
+> (genuine gap, R2 forced — see
+> `notes/pilots_20260802/xr_bridge_semantics/`); FM3 remains blocked
+> only on the joint R2+P-A1 edit landing.

@@ -1,0 +1,454 @@
+{
+ "twoN": 16,
+ "N": 8,
+ "admissibility": "q prime, q = 1 mod 16",
+ "group_orders": {
+  "|U|": 16,
+  "|G|": 128
+ },
+ "max_norm_over_all_nonzero_ternary_f": "2401",
+ "n_admissible_primes_in_census": 11,
+ "census": [
+  {
+   "q": 17,
+   "min_weight": 3,
+   "witness_f": [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "witness_norm": "17",
+   "witness_norm_bareiss": "17",
+   "cofactor": "1"
+  },
+  {
+   "q": 97,
+   "min_weight": 4,
+   "witness_f": [
+    1,
+    1,
+    -1,
+    0,
+    -1,
+    0,
+    0,
+    0
+   ],
+   "witness_norm": "194",
+   "witness_norm_bareiss": "194",
+   "cofactor": "2"
+  },
+  {
+   "q": 113,
+   "min_weight": 5,
+   "witness_f": [
+    1,
+    1,
+    1,
+    -1,
+    -1,
+    0,
+    0,
+    0
+   ],
+   "witness_norm": "113",
+   "witness_norm_bareiss": "113",
+   "cofactor": "1"
+  },
+  {
+   "q": 193,
+   "min_weight": 5,
+   "witness_f": [
+    1,
+    1,
+    1,
+    0,
+    1,
+    -1,
+    0,
+    0
+   ],
+   "witness_norm": "193",
+   "witness_norm_bareiss": "193",
+   "cofactor": "1"
+  },
+  {
+   "q": 241,
+   "min_weight": 5,
+   "witness_f": [
+    1,
+    1,
+    1,
+    -1,
+    0,
+    -1,
+    0,
+    0
+   ],
+   "witness_norm": "241",
+   "witness_norm_bareiss": "241",
+   "cofactor": "1"
+  },
+  {
+   "q": 337,
+   "min_weight": 7,
+   "witness_f": [
+    1,
+    1,
+    1,
+    1,
+    -1,
+    -1,
+    -1,
+    0
+   ],
+   "witness_norm": "337",
+   "witness_norm_bareiss": "337",
+   "cofactor": "1"
+  },
+  {
+   "q": 353,
+   "min_weight": 6,
+   "witness_f": [
+    1,
+    1,
+    1,
+    1,
+    -1,
+    1,
+    0,
+    0
+   ],
+   "witness_norm": "706",
+   "witness_norm_bareiss": "706",
+   "cofactor": "2"
+  },
+  {
+   "q": 401,
+   "min_weight": 5,
+   "witness_f": [
+    1,
+    1,
+    1,
+    -1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "witness_norm": "401",
+   "witness_norm_bareiss": "401",
+   "cofactor": "1"
+  },
+  {
+   "q": 433,
+   "min_weight": 5,
+   "witness_f": [
+    1,
+    1,
+    1,
+    0,
+    -1,
+    1,
+    0,
+    0
+   ],
+   "witness_norm": "433",
+   "witness_norm_bareiss": "433",
+   "cofactor": "1"
+  },
+  {
+   "q": 577,
+   "min_weight": 6,
+   "witness_f": [
+    1,
+    1,
+    1,
+    -1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "witness_norm": "1154",
+   "witness_norm_bareiss": "1154",
+   "cofactor": "2"
+  },
+  {
+   "q": 881,
+   "min_weight": 7,
+   "witness_f": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    -1,
+    1,
+    0
+   ],
+   "witness_norm": "881",
+   "witness_norm_bareiss": "881",
+   "cofactor": "1"
+  }
+ ],
+ "table": [
+  {
+   "w": 1,
+   "n_ternary_f": 16,
+   "n_zero_norm": 0,
+   "max_norm": "1",
+   "argmax_f": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "argmax_bareiss_check": "1",
+   "amgm_ceiling_w_pow_N_over_2": "1",
+   "max_saturates_amgm": true,
+   "n_orbits_U": 1,
+   "n_orbits_U_free_formula": 1,
+   "n_orbits_G": 1,
+   "n_distinct_norms": 1,
+   "distinct_norms": [
+    "1"
+   ]
+  },
+  {
+   "w": 2,
+   "n_ternary_f": 112,
+   "n_zero_norm": 0,
+   "max_norm": "16",
+   "argmax_f": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "argmax_bareiss_check": "16",
+   "amgm_ceiling_w_pow_N_over_2": "16",
+   "max_saturates_amgm": true,
+   "n_orbits_U": 7,
+   "n_orbits_U_free_formula": 7,
+   "n_orbits_G": 3,
+   "n_distinct_norms": 3,
+   "distinct_norms": [
+    "2",
+    "4",
+    "16"
+   ]
+  },
+  {
+   "w": 3,
+   "n_ternary_f": 448,
+   "n_zero_norm": 0,
+   "max_norm": "81",
+   "argmax_f": [
+    1,
+    0,
+    1,
+    0,
+    -1,
+    0,
+    0,
+    0
+   ],
+   "argmax_bareiss_check": "81",
+   "amgm_ceiling_w_pow_N_over_2": "81",
+   "max_saturates_amgm": true,
+   "n_orbits_U": 28,
+   "n_orbits_U_free_formula": 28,
+   "n_orbits_G": 6,
+   "n_distinct_norms": 4,
+   "distinct_norms": [
+    "1",
+    "17",
+    "49",
+    "81"
+   ]
+  },
+  {
+   "w": 4,
+   "n_ternary_f": 1120,
+   "n_zero_norm": 0,
+   "max_norm": "196",
+   "argmax_f": [
+    1,
+    1,
+    0,
+    1,
+    -1,
+    0,
+    0,
+    0
+   ],
+   "argmax_bareiss_check": "196",
+   "amgm_ceiling_w_pow_N_over_2": "256",
+   "max_saturates_amgm": false,
+   "n_orbits_U": 70,
+   "n_orbits_U_free_formula": 70,
+   "n_orbits_G": 12,
+   "n_distinct_norms": 9,
+   "distinct_norms": [
+    "4",
+    "8",
+    "32",
+    "34",
+    "64",
+    "68",
+    "136",
+    "194",
+    "196"
+   ]
+  },
+  {
+   "w": 5,
+   "n_ternary_f": 1792,
+   "n_zero_norm": 0,
+   "max_norm": "529",
+   "argmax_f": [
+    1,
+    1,
+    1,
+    -1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "argmax_bareiss_check": "529",
+   "amgm_ceiling_w_pow_N_over_2": "625",
+   "max_saturates_amgm": false,
+   "n_orbits_U": 112,
+   "n_orbits_U_free_formula": 112,
+   "n_orbits_G": 17,
+   "n_distinct_norms": 11,
+   "distinct_norms": [
+    "1",
+    "17",
+    "49",
+    "97",
+    "113",
+    "193",
+    "241",
+    "289",
+    "401",
+    "433",
+    "529"
+   ]
+  },
+  {
+   "w": 6,
+   "n_ternary_f": 1792,
+   "n_zero_norm": 0,
+   "max_norm": "1154",
+   "argmax_f": [
+    1,
+    1,
+    1,
+    -1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "argmax_bareiss_check": "1154",
+   "amgm_ceiling_w_pow_N_over_2": "1296",
+   "max_saturates_amgm": false,
+   "n_orbits_U": 112,
+   "n_orbits_U_free_formula": 112,
+   "n_orbits_G": 17,
+   "n_distinct_norms": 13,
+   "distinct_norms": [
+    "2",
+    "16",
+    "68",
+    "98",
+    "162",
+    "226",
+    "272",
+    "388",
+    "578",
+    "706",
+    "772",
+    "784",
+    "1154"
+   ]
+  },
+  {
+   "w": 7,
+   "n_ternary_f": 1024,
+   "n_zero_norm": 0,
+   "max_norm": "2401",
+   "argmax_f": [
+    1,
+    1,
+    1,
+    -1,
+    -1,
+    1,
+    -1,
+    0
+   ],
+   "argmax_bareiss_check": "2401",
+   "amgm_ceiling_w_pow_N_over_2": "2401",
+   "max_saturates_amgm": true,
+   "n_orbits_U": 64,
+   "n_orbits_U_free_formula": 64,
+   "n_orbits_G": 10,
+   "n_distinct_norms": 9,
+   "distinct_norms": [
+    "1",
+    "113",
+    "289",
+    "337",
+    "353",
+    "881",
+    "961",
+    "1649",
+    "2401"
+   ]
+  },
+  {
+   "w": 8,
+   "n_ternary_f": 256,
+   "n_zero_norm": 0,
+   "max_norm": "2176",
+   "argmax_f": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    -1,
+    1,
+    1
+   ],
+   "argmax_bareiss_check": "2176",
+   "amgm_ceiling_w_pow_N_over_2": "4096",
+   "max_saturates_amgm": false,
+   "n_orbits_U": 16,
+   "n_orbits_U_free_formula": 16,
+   "n_orbits_G": 3,
+   "n_distinct_norms": 2,
+   "distinct_norms": [
+    "128",
+    "2176"
+   ]
+  }
+ ]
+}

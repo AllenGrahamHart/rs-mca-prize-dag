@@ -1,0 +1,654 @@
+{
+ "router_threshold_T": {
+  "meaning": "if q is admissible and q > T(2N,w) then q carries NO ternary relation of weight <= w (q-independent, exact)",
+  "T": {
+   "8": {
+    "1": "1",
+    "2": "4",
+    "3": "9",
+    "4": "9"
+   },
+   "16": {
+    "1": "1",
+    "2": "16",
+    "3": "81",
+    "4": "196",
+    "5": "529",
+    "6": "1154",
+    "7": "2401",
+    "8": "2401"
+   },
+   "32": {
+    "1": "1",
+    "2": "256",
+    "3": "6561",
+    "4": "38416",
+    "5": "279841",
+    "6": "1331716",
+    "7": "5764801",
+    "8": "14760962",
+    "9": "38950081",
+    "10": "84580802",
+    "11": "184497889",
+    "12": "342386306",
+    "13": "777684769",
+    "14": "1040410946",
+    "15": "1612931233",
+    "16": "2311094272"
+   },
+   "64": {
+    "1": "1",
+    "2": "65536",
+    "3": "43046721",
+    "4": "1475789056",
+    "5": "78310985281",
+    "6": "1773467504656",
+    "7": "33232930569601"
+   }
+  }
+ },
+ "F2_density_2N32": {
+  "sieve_limit": 10000000,
+  "note": "fraction = (# admissible q <= T that carry a weight-<=w relation) / (# admissible q <= T)",
+  "rows": [
+   {
+    "w": 1,
+    "threshold_T": "1",
+    "n_exceptional_primes_min_weight_le_w": 0,
+    "n_admissible_primes_le_T": 0,
+    "exceptional_fraction": null,
+    "exceptional_fraction_ppm_floor": null
+   },
+   {
+    "w": 2,
+    "threshold_T": "256",
+    "n_exceptional_primes_min_weight_le_w": 0,
+    "n_admissible_primes_le_T": 2,
+    "exceptional_fraction": "0",
+    "exceptional_fraction_ppm_floor": 0
+   },
+   {
+    "w": 3,
+    "threshold_T": "6561",
+    "n_exceptional_primes_min_weight_le_w": 5,
+    "n_admissible_primes_le_T": 49,
+    "exceptional_fraction": "5/49",
+    "exceptional_fraction_ppm_floor": 102040
+   },
+   {
+    "w": 4,
+    "threshold_T": "38416",
+    "n_exceptional_primes_min_weight_le_w": 24,
+    "n_admissible_primes_le_T": 259,
+    "exceptional_fraction": "24/259",
+    "exceptional_fraction_ppm_floor": 92664
+   },
+   {
+    "w": 5,
+    "threshold_T": "279841",
+    "n_exceptional_primes_min_weight_le_w": 160,
+    "n_admissible_primes_le_T": 1522,
+    "exceptional_fraction": "80/761",
+    "exceptional_fraction_ppm_floor": 105124
+   },
+   {
+    "w": 6,
+    "threshold_T": "1331716",
+    "n_exceptional_primes_min_weight_le_w": 393,
+    "n_admissible_primes_le_T": 6405,
+    "exceptional_fraction": "131/2135",
+    "exceptional_fraction_ppm_floor": 61358
+   },
+   {
+    "w": 7,
+    "threshold_T": "5764801",
+    "n_exceptional_primes_min_weight_le_w": 1422,
+    "n_admissible_primes_le_T": 24845,
+    "exceptional_fraction": "1422/24845",
+    "exceptional_fraction_ppm_floor": 57234
+   },
+   {
+    "w": 8,
+    "threshold_T": "14760962",
+    "n_exceptional_primes_min_weight_le_w": 2643
+   },
+   {
+    "w": 9,
+    "threshold_T": "38950081",
+    "n_exceptional_primes_min_weight_le_w": 6455
+   },
+   {
+    "w": 10,
+    "threshold_T": "84580802",
+    "n_exceptional_primes_min_weight_le_w": 9486
+   },
+   {
+    "w": 11,
+    "threshold_T": "184497889",
+    "n_exceptional_primes_min_weight_le_w": 15290
+   },
+   {
+    "w": 12,
+    "threshold_T": "342386306",
+    "n_exceptional_primes_min_weight_le_w": 18807
+   },
+   {
+    "w": 13,
+    "threshold_T": "777684769",
+    "n_exceptional_primes_min_weight_le_w": 21811
+   },
+   {
+    "w": 14,
+    "threshold_T": "1040410946",
+    "n_exceptional_primes_min_weight_le_w": 22835
+   },
+   {
+    "w": 15,
+    "threshold_T": "1612931233",
+    "n_exceptional_primes_min_weight_le_w": 23194
+   },
+   {
+    "w": 16,
+    "threshold_T": "2311094272",
+    "n_exceptional_primes_min_weight_le_w": 23194
+   }
+  ]
+ },
+ "census_growth": {
+  "2N=8": {
+   "weights": "1-4 (complete)",
+   "n_primes": 0,
+   "largest": null
+  },
+  "2N=16": {
+   "weights": "1-8 (complete)",
+   "n_primes": 11,
+   "largest": 881,
+   "primes": [
+    17,
+    97,
+    113,
+    193,
+    241,
+    337,
+    353,
+    401,
+    433,
+    577,
+    881
+   ]
+  },
+  "2N=32": {
+   "weights": "1-16 (complete)",
+   "n_primes": 23194,
+   "largest": 1568247649,
+   "smallest": 97
+  },
+  "2N=64": {
+   "weights": "1-6 (partial)",
+   "n_primes": 14441,
+   "largest": 330076815361,
+   "smallest": 193
+  }
+ },
+ "c_w_table": [
+  {
+   "w": 1,
+   "saturates_amgm_from": 4,
+   "stable_from_N": 4,
+   "c_w_exact_when_integer": 1,
+   "law_maxnorm_N_w": "1^(N/4)",
+   "points": {
+    "4": "1",
+    "8": "1",
+    "16": "1",
+    "32": "1",
+    "64": "1"
+   }
+  },
+  {
+   "w": 2,
+   "saturates_amgm_from": 4,
+   "stable_from_N": 4,
+   "c_w_exact_when_integer": 4,
+   "law_maxnorm_N_w": "4^(N/4)",
+   "points": {
+    "4": "4",
+    "8": "16",
+    "16": "256",
+    "32": "65536",
+    "64": "4294967296"
+   }
+  },
+  {
+   "w": 3,
+   "saturates_amgm_from": 4,
+   "stable_from_N": 4,
+   "c_w_exact_when_integer": 9,
+   "law_maxnorm_N_w": "9^(N/4)",
+   "points": {
+    "4": "9",
+    "8": "81",
+    "16": "6561",
+    "32": "43046721",
+    "64": "1853020188851841"
+   }
+  },
+  {
+   "w": 4,
+   "saturates_amgm_from": null,
+   "stable_from_N": 8,
+   "c_w_exact_when_integer": 14,
+   "law_maxnorm_N_w": "196^(N/8)",
+   "points": {
+    "4": "8",
+    "8": "196",
+    "16": "38416",
+    "32": "1475789056"
+   }
+  },
+  {
+   "w": 5,
+   "saturates_amgm_from": null,
+   "stable_from_N": 8,
+   "c_w_exact_when_integer": 23,
+   "law_maxnorm_N_w": "529^(N/8)",
+   "points": {
+    "8": "529",
+    "16": "279841",
+    "32": "78310985281"
+   }
+  },
+  {
+   "w": 6,
+   "saturates_amgm_from": null,
+   "stable_from_N": 8,
+   "c_w_exact_when_integer": null,
+   "law_maxnorm_N_w": "1154^(N/8)",
+   "points": {
+    "8": "1154",
+    "16": "1331716",
+    "32": "1773467504656"
+   }
+  },
+  {
+   "w": 7,
+   "saturates_amgm_from": 8,
+   "stable_from_N": 8,
+   "c_w_exact_when_integer": 49,
+   "law_maxnorm_N_w": "2401^(N/8)",
+   "points": {
+    "8": "2401",
+    "16": "5764801",
+    "32": "33232930569601",
+    "64": "1104427674243920646305299201"
+   }
+  },
+  {
+   "w": 8,
+   "saturates_amgm_from": null,
+   "stable_from_N": null,
+   "c_w_exact_when_integer": null,
+   "law_maxnorm_N_w": null,
+   "points": {
+    "8": "2176",
+    "16": "14760962"
+   }
+  },
+  {
+   "w": 9,
+   "saturates_amgm_from": null,
+   "stable_from_N": null,
+   "c_w_exact_when_integer": 79,
+   "law_maxnorm_N_w": null,
+   "points": {
+    "16": "38950081"
+   }
+  },
+  {
+   "w": 10,
+   "saturates_amgm_from": null,
+   "stable_from_N": null,
+   "c_w_exact_when_integer": null,
+   "law_maxnorm_N_w": null,
+   "points": {
+    "16": "84580802"
+   }
+  },
+  {
+   "w": 11,
+   "saturates_amgm_from": null,
+   "stable_from_N": null,
+   "c_w_exact_when_integer": null,
+   "law_maxnorm_N_w": null,
+   "points": {
+    "16": "184497889"
+   }
+  },
+  {
+   "w": 12,
+   "saturates_amgm_from": null,
+   "stable_from_N": null,
+   "c_w_exact_when_integer": null,
+   "law_maxnorm_N_w": null,
+   "points": {
+    "16": "342386306"
+   }
+  },
+  {
+   "w": 13,
+   "saturates_amgm_from": null,
+   "stable_from_N": null,
+   "c_w_exact_when_integer": null,
+   "law_maxnorm_N_w": null,
+   "points": {
+    "16": "777684769"
+   }
+  },
+  {
+   "w": 14,
+   "saturates_amgm_from": null,
+   "stable_from_N": null,
+   "c_w_exact_when_integer": null,
+   "law_maxnorm_N_w": null,
+   "points": {
+    "16": "1040410946"
+   }
+  },
+  {
+   "w": 15,
+   "saturates_amgm_from": null,
+   "stable_from_N": null,
+   "c_w_exact_when_integer": null,
+   "law_maxnorm_N_w": null,
+   "points": {
+    "16": "1612931233"
+   }
+  },
+  {
+   "w": 16,
+   "saturates_amgm_from": null,
+   "stable_from_N": null,
+   "c_w_exact_when_integer": null,
+   "law_maxnorm_N_w": null,
+   "points": {
+    "16": "2311094272"
+   }
+  }
+ ],
+ "full_weight_anomaly": {
+  "note": "the maximum over ALL nonzero ternary f at weight w = N",
+  "rows": [
+   {
+    "twoN": 8,
+    "N": 4,
+    "w": 4,
+    "max_norm": "8",
+    "factorisation": {
+     "2": 3
+    },
+    "equals_2_pow_N_minus_1_times_P": true,
+    "P": "1",
+    "P_is_admissible": true,
+    "amgm_ceiling": "16",
+    "ratio_to_ceiling": "1/2"
+   },
+   {
+    "twoN": 16,
+    "N": 8,
+    "w": 8,
+    "max_norm": "2176",
+    "factorisation": {
+     "2": 7,
+     "17": 1
+    },
+    "equals_2_pow_N_minus_1_times_P": true,
+    "P": "17",
+    "P_is_admissible": true,
+    "amgm_ceiling": "4096",
+    "ratio_to_ceiling": "17/32"
+   },
+   {
+    "twoN": 32,
+    "N": 16,
+    "w": 16,
+    "max_norm": "2311094272",
+    "factorisation": {
+     "2": 15,
+     "70529": 1
+    },
+    "equals_2_pow_N_minus_1_times_P": true,
+    "P": "70529",
+    "P_is_admissible": true,
+    "amgm_ceiling": "4294967296",
+    "ratio_to_ceiling": "70529/131072"
+   }
+  ]
+ },
+ "orbit_counts": {
+  "8": {
+   "|U|": 8,
+   "|G|": 32,
+   "rows": [
+    {
+     "w": 1,
+     "n_ternary_f": 8,
+     "n_orbits_U": 1,
+     "n_orbits_G": 1
+    },
+    {
+     "w": 2,
+     "n_ternary_f": 24,
+     "n_orbits_U": 3,
+     "n_orbits_G": 2
+    },
+    {
+     "w": 3,
+     "n_ternary_f": 32,
+     "n_orbits_U": 4,
+     "n_orbits_G": 2
+    },
+    {
+     "w": 4,
+     "n_ternary_f": 16,
+     "n_orbits_U": 2,
+     "n_orbits_G": 1
+    }
+   ]
+  },
+  "16": {
+   "|U|": 16,
+   "|G|": 128,
+   "rows": [
+    {
+     "w": 1,
+     "n_ternary_f": 16,
+     "n_orbits_U": 1,
+     "n_orbits_G": 1
+    },
+    {
+     "w": 2,
+     "n_ternary_f": 112,
+     "n_orbits_U": 7,
+     "n_orbits_G": 3
+    },
+    {
+     "w": 3,
+     "n_ternary_f": 448,
+     "n_orbits_U": 28,
+     "n_orbits_G": 6
+    },
+    {
+     "w": 4,
+     "n_ternary_f": 1120,
+     "n_orbits_U": 70,
+     "n_orbits_G": 12
+    },
+    {
+     "w": 5,
+     "n_ternary_f": 1792,
+     "n_orbits_U": 112,
+     "n_orbits_G": 17
+    },
+    {
+     "w": 6,
+     "n_ternary_f": 1792,
+     "n_orbits_U": 112,
+     "n_orbits_G": 17
+    },
+    {
+     "w": 7,
+     "n_ternary_f": 1024,
+     "n_orbits_U": 64,
+     "n_orbits_G": 10
+    },
+    {
+     "w": 8,
+     "n_ternary_f": 256,
+     "n_orbits_U": 16,
+     "n_orbits_G": 3
+    }
+   ]
+  },
+  "32": {
+   "|U|": 32,
+   "|G|": 512,
+   "rows": [
+    {
+     "w": 1,
+     "n_ternary_f": 32,
+     "n_orbits_U": 1,
+     "n_orbits_G": 1
+    },
+    {
+     "w": 2,
+     "n_ternary_f": 480,
+     "n_orbits_U": 15,
+     "n_orbits_G": 4
+    },
+    {
+     "w": 3,
+     "n_ternary_f": 4480,
+     "n_orbits_U": 140,
+     "n_orbits_G": 14
+    },
+    {
+     "w": 4,
+     "n_ternary_f": 29120,
+     "n_orbits_U": 910,
+     "n_orbits_G": 71
+    },
+    {
+     "w": 5,
+     "n_ternary_f": 139776,
+     "n_orbits_U": 4368,
+     "n_orbits_G": 292
+    },
+    {
+     "w": 6,
+     "n_ternary_f": 512512,
+     "n_orbits_U": 16016,
+     "n_orbits_G": 1040
+    },
+    {
+     "w": 7,
+     "n_ternary_f": 1464320,
+     "n_orbits_U": 45760,
+     "n_orbits_G": 2900
+    },
+    {
+     "w": 8,
+     "n_ternary_f": 3294720,
+     "n_orbits_U": 102960,
+     "n_orbits_G": 6506
+    },
+    {
+     "w": 9,
+     "n_ternary_f": 5857280,
+     "n_orbits_U": 183040,
+     "n_orbits_G": 11510
+    },
+    {
+     "w": 10,
+     "n_ternary_f": 8200192,
+     "n_orbits_U": 256256,
+     "n_orbits_G": 16114
+    },
+    {
+     "w": 11,
+     "n_ternary_f": 8945664,
+     "n_orbits_U": 279552,
+     "n_orbits_G": 17556
+    },
+    {
+     "w": 12,
+     "n_ternary_f": 7454720,
+     "n_orbits_U": 232960,
+     "n_orbits_G": 14644
+    },
+    {
+     "w": 13,
+     "n_ternary_f": 4587520,
+     "n_orbits_U": 143360,
+     "n_orbits_G": 9016
+    },
+    {
+     "w": 14,
+     "n_ternary_f": 1966080,
+     "n_orbits_U": 61440,
+     "n_orbits_G": 3880
+    },
+    {
+     "w": 15,
+     "n_ternary_f": 524288,
+     "n_orbits_U": 16384,
+     "n_orbits_G": 1040
+    },
+    {
+     "w": 16,
+     "n_ternary_f": 65536,
+     "n_orbits_U": 2048,
+     "n_orbits_G": 136
+    }
+   ]
+  }
+ },
+ "q_70529": {
+  "found_at_2N32": true,
+  "min_weight": 7,
+  "witness_f": [
+   1,
+   1,
+   1,
+   1,
+   0,
+   -1,
+   0,
+   1,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "Norm_f": "70529",
+  "cofactor": "1",
+  "n_weights_at_which_it_appears": 6,
+  "weights_at_which_it_appears": [
+   7,
+   8,
+   9,
+   12,
+   13,
+   16
+  ],
+  "prior_pilot_min_weight": 7,
+  "agrees_with_prior_pilot": true,
+  "appears_in_2N16_census": false,
+  "appears_in_2N64_w_le_6_census": true,
+  "note": "70529 = 2311094272 / 2^15 is exactly the odd part of the GLOBAL maximum norm at 2N=32 (weight 16)"
+ }
+}

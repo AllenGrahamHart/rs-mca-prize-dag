@@ -1,0 +1,144 @@
+[
+ {
+  "N": 4,
+  "w": 1,
+  "max_global": "1",
+  "max_slice": "1",
+  "max_equal": true,
+  "value_sets_equal": true,
+  "n_global": 8,
+  "n_slice": 1,
+  "slice_size_formula": 1
+ },
+ {
+  "N": 4,
+  "w": 2,
+  "max_global": "4",
+  "max_slice": "4",
+  "max_equal": true,
+  "value_sets_equal": true,
+  "n_global": 24,
+  "n_slice": 6,
+  "slice_size_formula": 6
+ },
+ {
+  "N": 4,
+  "w": 3,
+  "max_global": "9",
+  "max_slice": "9",
+  "max_equal": true,
+  "value_sets_equal": true,
+  "n_global": 32,
+  "n_slice": 12,
+  "slice_size_formula": 12
+ },
+ {
+  "N": 4,
+  "w": 4,
+  "max_global": "8",
+  "max_slice": "8",
+  "max_equal": true,
+  "value_sets_equal": true,
+  "n_global": 16,
+  "n_slice": 8,
+  "slice_size_formula": 8
+ },
+ {
+  "N": 4,
+  "U_action_free_violations": 0,
+  "|U|": 8
+ },
+ {
+  "N": 8,
+  "w": 1,
+  "max_global": "1",
+  "max_slice": "1",
+  "max_equal": true,
+  "value_sets_equal": true,
+  "n_global": 16,
+  "n_slice": 1,
+  "slice_size_formula": 1
+ },
+ {
+  "N": 8,
+  "w": 2,
+  "max_global": "16",
+  "max_slice": "16",
+  "max_equal": true,
+  "value_sets_equal": true,
+  "n_global": 112,
+  "n_slice": 14,
+  "slice_size_formula": 14
+ },
+ {
+  "N": 8,
+  "w": 3,
+  "max_global": "81",
+  "max_slice": "81",
+  "max_equal": true,
+  "value_sets_equal": true,
+  "n_global": 448,
+  "n_slice": 84,
+  "slice_size_formula": 84
+ },
+ {
+  "N": 8,
+  "w": 4,
+  "max_global": "196",
+  "max_slice": "196",
+  "max_equal": true,
+  "value_sets_equal": true,
+  "n_global": 1120,
+  "n_slice": 280,
+  "slice_size_formula": 280
+ },
+ {
+  "N": 8,
+  "w": 5,
+  "max_global": "529",
+  "max_slice": "529",
+  "max_equal": true,
+  "value_sets_equal": true,
+  "n_global": 1792,
+  "n_slice": 560,
+  "slice_size_formula": 560
+ },
+ {
+  "N": 8,
+  "w": 6,
+  "max_global": "1154",
+  "max_slice": "1154",
+  "max_equal": true,
+  "value_sets_equal": true,
+  "n_global": 1792,
+  "n_slice": 672,
+  "slice_size_formula": 672
+ },
+ {
+  "N": 8,
+  "w": 7,
+  "max_global": "2401",
+  "max_slice": "2401",
+  "max_equal": true,
+  "value_sets_equal": true,
+  "n_global": 1024,
+  "n_slice": 448,
+  "slice_size_formula": 448
+ },
+ {
+  "N": 8,
+  "w": 8,
+  "max_global": "2176",
+  "max_slice": "2176",
+  "max_equal": true,
+  "value_sets_equal": true,
+  "n_global": 256,
+  "n_slice": 128,
+  "slice_size_formula": 128
+ },
+ {
+  "N": 8,
+  "U_action_free_violations": 0,
+  "|U|": 16
+ }
+]

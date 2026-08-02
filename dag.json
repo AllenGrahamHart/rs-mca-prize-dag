@@ -26355,6 +26355,18 @@
     "background/nodes/dli_c1_doubling_coboundary_identity/proof.md",
     "background/nodes/dli_c1_doubling_coboundary_identity/verify.py"
    ]
+  },
+  {
+   "id": "dli_c1_ternary_relation_norm_sandwich",
+   "title": "C1 relation-side norm sandwich: doubling embedding squares Norm, AM-GM ceiling w^(N/2), saturating weights {1,2,3,7}, unconditional router threshold",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In Z[x]/(x^N+1), N a power of two, for ternary f of weight w with Norm(f)=Res(f,x^N+1): (i) g(x)->g(x^2) preserves ternariness/weight and squares the norm, so maxnorm(N,w) >= maxnorm(N/2,w)^2; (ii) 1 <= Norm(f) <= w^(N/2) for nonzero f (conjugate-pair product, negacyclic Parseval, AM-GM; positivity from irreducibility of x^N+1); (iii) maxnorm(N,w) = w^(N/2) for w in {1,2,3} at every N >= 4 and w = 7 at every N >= 8, by exhaustive base cases at N=4,8 plus the (i)/(ii) sandwich induction; (iv) any admissible prime q == 1 (mod 2N) with q > w^(N/2) carries no ternary relation of weight <= w (via the banked relation-side resultant router); at 2N=8 the exceptional census is empty (maxnorm 9 < 17). The stable-range doubling law below w = N/2 remains a conjecture (imprimitivity), NOT claimed here. Provenance notes/pilots_20260802/c1_norm_ladder/.",
+   "refs": [
+    "background/nodes/dli_c1_ternary_relation_norm_sandwich/statement.md",
+    "background/nodes/dli_c1_ternary_relation_norm_sandwich/proof.md",
+    "background/nodes/dli_c1_ternary_relation_norm_sandwich/verify.py"
+   ]
   }
  ],
  "edges": [
@@ -49940,6 +49952,11 @@
   },
   {
    "from": "dli_c1_doubling_coboundary_identity",
+   "to": "dli_c1r3_gated_envelope_bound",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_c1_ternary_relation_norm_sandwich",
    "to": "dli_c1r3_gated_envelope_bound",
    "kind": "ev"
   }
