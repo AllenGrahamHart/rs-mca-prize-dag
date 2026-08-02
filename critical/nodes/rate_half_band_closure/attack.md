@@ -3543,3 +3543,31 @@ outside rows after negating their source lifts.  Hence all four rows
 `{5,8} x {-1,+1} x {-1}` are empty.  The first genuinely new
 representative in this role orbit is cell `5`, signs `(-1,+1)`; one such
 row suffices because the same transports cover its other three partners.
+
+That proposed opposite-sign computation is now superseded by the PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion`.
+The source projectivity
+
+```text
+H(T,X) -> X^4 H(T,-1/X)
+```
+
+preserves the positive coefficient normal form, all complete target records,
+and both Vieta equations up to nonzero factors.  In cell `5` it fixes
+`epsilon_1` and sends
+
+```text
+(epsilon_2,r,t) -> (-epsilon_2,-1/r,-1/t).
+```
+
+Together with the prior first-sign and duplicate-role transports, all eight
+rows `{5,8} x {-1,+1} x {-1,+1}` are empty.  Matching cells `5,8` are now
+deleted.  A bounded opposite-sign Modal audit independently recovered the
+predicted reciprocal relation
+
+```text
+P_(-1,+1)(b,t)=-t^4 P_(-1,-1)(b,-1/t),
+```
+
+but it is not load-bearing.  Continue with a different one of the remaining
+eight duplicate-role matching-cell orbits.

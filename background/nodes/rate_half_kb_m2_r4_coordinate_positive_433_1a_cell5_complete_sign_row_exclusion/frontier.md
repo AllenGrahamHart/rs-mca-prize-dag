@@ -1,9 +1,8 @@
 # Frontier
 
-Do not recompute this sign row.  The proved cell-5/8 transport descendant
-already closes cells `5,8`, both `epsilon_1` values, at `epsilon_2=-1`.
-The next representative in this role orbit is `epsilon_2=+1`; attack one
-`epsilon_1` value only, since the same transport handles the other.
+Do not recompute this sign row.  The proved source-reciprocal descendant
+closes both `epsilon_2` values, and duplicate-`AB+` transport closes cell `8`.
+Thus matching cells `5,8` are deleted in every root-sign row.
 
-A cell deletion requires both `epsilon_2` orbits, and the positive route
-still requires every genuinely different matching-cell orbit.
+Move to a genuinely different matching-cell orbit.  The full positive route
+still requires the other eight duplicate-role orbits.

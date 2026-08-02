@@ -14999,3 +14999,30 @@ next representative:     cell 5, signs (-1,+1); epsilon1=+1 and cell 8
 nonclaim:                 no full matching cell, positive route, K3, Prize
                           row, LIST, or MCA closure
 ```
+
+### Work-cycle theorem: positive 433-1a cell-5/8 reciprocal close
+
+```text
+source projectivity:      I(H)(T,X)=X^4 H(T,-1/X)
+coefficient action:       (d0,d1,d2,e0,e1,e2,beta0,beta1)
+                            -> (d2,d1,d0,e2,e1,e0,-beta1,-beta0)
+source-record action:     z -> -1/z, lambda -> 1/lambda,
+                          q -> -q/lambda
+Vieta scaling:            product equation times lambda'^2;
+                          sum equation times -lambda'^3
+cell-5 sign action:       epsilon1 fixed; epsilon2 flipped;
+                          r -> -1/r, t -> -1/t
+exact consequence:        all 8 rows {5,8} x {-1,+1} x {-1,+1} PROVED
+                          empty; matching cells 5 and 8 deleted
+Modal audit:              ap-oIL0BGknaZoWphpSedAn4O (ratio/structure),
+                          ap-4iT5v817EnfrhxKNfdBs4N (deployed atlas)
+audit packet hash:        ec4e9b5fd2cefbc1e6a04698453e47f18f449983fb40f9519526475d8f4c2852
+audit relation:           P_(-1,+1)(b,t)=-t^4 P_(-1,-1)(b,-1/t)
+compute spend:            three bounded 4 GiB calls, each completing in
+                          seconds; comfortably below $1
+next route step:          choose a different one of the remaining eight
+                          duplicate-role matching-cell orbits; first audit
+                          how source projectivities act when LC is not the
+                          same canonical anchor
+nonclaim:                 positive 433-1a route, K3, Prize rows, LIST, MCA
+```
