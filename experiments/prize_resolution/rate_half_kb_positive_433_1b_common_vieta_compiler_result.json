@@ -1,0 +1,7130 @@
+{
+  "app": "rs-mca-positive-433-1b-common-vieta-compiler",
+  "case_count": 120,
+  "rows": [
+    {
+      "base_rank_guard": 6,
+      "cell": 0,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "198c0878cab46738fb5852da60b47a5e40aafb854eb59f8ca9cf6df56b6e602d",
+          "terms": 80,
+          "total_degree": 19
+        },
+        {
+          "sha256": "68c561d7e79826aed09e310f1630dba55f0957282ea09d61a7bf10281cdb096a",
+          "terms": 176,
+          "total_degree": 21
+        },
+        {
+          "sha256": "fcbeb0a18c4763f42130de55eece3f8d65c28139940abe72857707da465a5ba7",
+          "terms": 176,
+          "total_degree": 21
+        },
+        {
+          "sha256": "ce7d5fa563cc2ee6b0253494770d687cb131f00fd6b870b8828498788dc03a59",
+          "terms": 176,
+          "total_degree": 21
+        },
+        {
+          "sha256": "e9504cecf462d699e6b10429b708e0df491b2eee92bd6b1eaee3ebef294963ea",
+          "terms": 176,
+          "total_degree": 21
+        },
+        {
+          "sha256": "1de258d69d230adf6b8d26aefb236e3a085c635d19f4432e909732e94a372e84",
+          "terms": 112,
+          "total_degree": 23
+        }
+      ],
+      "mode": "raw",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 0,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "198c0878cab46738fb5852da60b47a5e40aafb854eb59f8ca9cf6df56b6e602d",
+          "terms": 80,
+          "total_degree": 19
+        },
+        {
+          "sha256": "68c561d7e79826aed09e310f1630dba55f0957282ea09d61a7bf10281cdb096a",
+          "terms": 176,
+          "total_degree": 21
+        },
+        {
+          "sha256": "ed6a4d872771057352ca5bf2db2dedc37fc1ee2bca0cca74629ed3b345772cad",
+          "terms": 176,
+          "total_degree": 21
+        },
+        {
+          "sha256": "ce7d5fa563cc2ee6b0253494770d687cb131f00fd6b870b8828498788dc03a59",
+          "terms": 176,
+          "total_degree": 21
+        },
+        {
+          "sha256": "41cfc559632f5fc2809783a203d4bf70787797bcd99eaea57fdb1002ea604c7c",
+          "terms": 176,
+          "total_degree": 21
+        },
+        {
+          "sha256": "fc31d2ce1e201fcba17e8da998051f4617837165eb16087dd310ce1d6256b5bf",
+          "terms": 112,
+          "total_degree": 23
+        }
+      ],
+      "mode": "raw",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 0,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "3c9e521492138f9778eea9908e0e8b05bcf4ada6386eed7e423ca9d2a1852cef",
+          "terms": 80,
+          "total_degree": 19
+        },
+        {
+          "sha256": "68c561d7e79826aed09e310f1630dba55f0957282ea09d61a7bf10281cdb096a",
+          "terms": 176,
+          "total_degree": 21
+        },
+        {
+          "sha256": "fcbeb0a18c4763f42130de55eece3f8d65c28139940abe72857707da465a5ba7",
+          "terms": 176,
+          "total_degree": 21
+        },
+        {
+          "sha256": "54ad87570ce532299dea4bef9e920fbd3cf0aaac2b3aae5a59b18033761585c1",
+          "terms": 176,
+          "total_degree": 21
+        },
+        {
+          "sha256": "41cfc559632f5fc2809783a203d4bf70787797bcd99eaea57fdb1002ea604c7c",
+          "terms": 176,
+          "total_degree": 21
+        },
+        {
+          "sha256": "1de258d69d230adf6b8d26aefb236e3a085c635d19f4432e909732e94a372e84",
+          "terms": 112,
+          "total_degree": 23
+        }
+      ],
+      "mode": "raw",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 0,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "3c9e521492138f9778eea9908e0e8b05bcf4ada6386eed7e423ca9d2a1852cef",
+          "terms": 80,
+          "total_degree": 19
+        },
+        {
+          "sha256": "68c561d7e79826aed09e310f1630dba55f0957282ea09d61a7bf10281cdb096a",
+          "terms": 176,
+          "total_degree": 21
+        },
+        {
+          "sha256": "ed6a4d872771057352ca5bf2db2dedc37fc1ee2bca0cca74629ed3b345772cad",
+          "terms": 176,
+          "total_degree": 21
+        },
+        {
+          "sha256": "54ad87570ce532299dea4bef9e920fbd3cf0aaac2b3aae5a59b18033761585c1",
+          "terms": 176,
+          "total_degree": 21
+        },
+        {
+          "sha256": "e9504cecf462d699e6b10429b708e0df491b2eee92bd6b1eaee3ebef294963ea",
+          "terms": 176,
+          "total_degree": 21
+        },
+        {
+          "sha256": "fc31d2ce1e201fcba17e8da998051f4617837165eb16087dd310ce1d6256b5bf",
+          "terms": 112,
+          "total_degree": 23
+        }
+      ],
+      "mode": "raw",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 1,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "8c9f347b1a3ec50672367accd5edd47b0f966a659f969ba5e357650fc66189dc",
+          "terms": 192,
+          "total_degree": 22
+        },
+        {
+          "sha256": "1780c1e60123f7ce2ec1548019af67cfc218f585bcd986faa45c24d6d1ec2106",
+          "terms": 144,
+          "total_degree": 19
+        },
+        {
+          "sha256": "92820f811d13975d58d020295516690cbd1f77096eea35371feb04ec01ccdb29",
+          "terms": 192,
+          "total_degree": 21
+        },
+        {
+          "sha256": "609994604d9f325c25f6794cdfa4f346a43ae75e2602d953959dfca55336d171",
+          "terms": 200,
+          "total_degree": 22
+        },
+        {
+          "sha256": "c7c877dd959890b933c2199f9c6265fcf72eae72771e4775fdc73df1f32e13c9",
+          "terms": 144,
+          "total_degree": 24
+        },
+        {
+          "sha256": "ca433d89ab34ce508a812102104ca743743a6d039a4c98059a0c7cda5c8b7536",
+          "terms": 204,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 1,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "8c9f347b1a3ec50672367accd5edd47b0f966a659f969ba5e357650fc66189dc",
+          "terms": 192,
+          "total_degree": 22
+        },
+        {
+          "sha256": "1780c1e60123f7ce2ec1548019af67cfc218f585bcd986faa45c24d6d1ec2106",
+          "terms": 144,
+          "total_degree": 19
+        },
+        {
+          "sha256": "2de4a846d3542f1300aa31fd38e1574792ab8a42b633102061e6607393da410b",
+          "terms": 192,
+          "total_degree": 21
+        },
+        {
+          "sha256": "609994604d9f325c25f6794cdfa4f346a43ae75e2602d953959dfca55336d171",
+          "terms": 200,
+          "total_degree": 22
+        },
+        {
+          "sha256": "b64465cd8a43696f2b2f9f6cfeff22ae07f902876e5d758d60c5d0237b1dac74",
+          "terms": 144,
+          "total_degree": 24
+        },
+        {
+          "sha256": "50271ad74d1e4951f344f293278770e526aa64bb1ac6e5e9aa5881eb1cf9b7ff",
+          "terms": 204,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 1,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "8c9f347b1a3ec50672367accd5edd47b0f966a659f969ba5e357650fc66189dc",
+          "terms": 192,
+          "total_degree": 22
+        },
+        {
+          "sha256": "5926abd0e2c61f4d2fb1085faeb563b83d033eddd8255a27d3f27de498f42e10",
+          "terms": 144,
+          "total_degree": 19
+        },
+        {
+          "sha256": "92820f811d13975d58d020295516690cbd1f77096eea35371feb04ec01ccdb29",
+          "terms": 192,
+          "total_degree": 21
+        },
+        {
+          "sha256": "8916fe773a0eae1c367c2320f79bd8ef311a9de75888b8fb68a8b876d45c343d",
+          "terms": 200,
+          "total_degree": 22
+        },
+        {
+          "sha256": "c7c877dd959890b933c2199f9c6265fcf72eae72771e4775fdc73df1f32e13c9",
+          "terms": 144,
+          "total_degree": 24
+        },
+        {
+          "sha256": "50271ad74d1e4951f344f293278770e526aa64bb1ac6e5e9aa5881eb1cf9b7ff",
+          "terms": 204,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 1,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "8c9f347b1a3ec50672367accd5edd47b0f966a659f969ba5e357650fc66189dc",
+          "terms": 192,
+          "total_degree": 22
+        },
+        {
+          "sha256": "5926abd0e2c61f4d2fb1085faeb563b83d033eddd8255a27d3f27de498f42e10",
+          "terms": 144,
+          "total_degree": 19
+        },
+        {
+          "sha256": "2de4a846d3542f1300aa31fd38e1574792ab8a42b633102061e6607393da410b",
+          "terms": 192,
+          "total_degree": 21
+        },
+        {
+          "sha256": "8916fe773a0eae1c367c2320f79bd8ef311a9de75888b8fb68a8b876d45c343d",
+          "terms": 200,
+          "total_degree": 22
+        },
+        {
+          "sha256": "b64465cd8a43696f2b2f9f6cfeff22ae07f902876e5d758d60c5d0237b1dac74",
+          "terms": 144,
+          "total_degree": 24
+        },
+        {
+          "sha256": "ca433d89ab34ce508a812102104ca743743a6d039a4c98059a0c7cda5c8b7536",
+          "terms": 204,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 2,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "b49b03cac517d6bb540542e0b434260f48cc41dc635fe94d1345a1ff67052865",
+          "terms": 192,
+          "total_degree": 22
+        },
+        {
+          "sha256": "79f76b355a44f5f3914162d2b3738ad57367c67f193b2d7d82655fb8c9dc4d6b",
+          "terms": 200,
+          "total_degree": 21
+        },
+        {
+          "sha256": "071055fe56c78bdc4e444d3e3c0468699b033ebf841012c2a1fe51680553a393",
+          "terms": 144,
+          "total_degree": 19
+        },
+        {
+          "sha256": "e667246822673f697b03d4526bb39f75c8f690b7c44c3a911d66b8fb384d5f63",
+          "terms": 144,
+          "total_degree": 24
+        },
+        {
+          "sha256": "cce789a793d175e751a357b7a1e01326ae08727267e33ae1029632652c933bbb",
+          "terms": 192,
+          "total_degree": 22
+        },
+        {
+          "sha256": "9a8b8123a7f3620acdd796684a8a5243b997f7363e0bee3b67ea71b4cc20417f",
+          "terms": 204,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 2,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "b49b03cac517d6bb540542e0b434260f48cc41dc635fe94d1345a1ff67052865",
+          "terms": 192,
+          "total_degree": 22
+        },
+        {
+          "sha256": "38f8c0553c8164a348665b119e71d01bb55356bf6f0b38f2e516e420a8c1f744",
+          "terms": 200,
+          "total_degree": 21
+        },
+        {
+          "sha256": "071055fe56c78bdc4e444d3e3c0468699b033ebf841012c2a1fe51680553a393",
+          "terms": 144,
+          "total_degree": 19
+        },
+        {
+          "sha256": "f1397e1b624f333c172165336388eadc1f173f73c04ce80afd5e1514cb1c47c7",
+          "terms": 144,
+          "total_degree": 24
+        },
+        {
+          "sha256": "cce789a793d175e751a357b7a1e01326ae08727267e33ae1029632652c933bbb",
+          "terms": 192,
+          "total_degree": 22
+        },
+        {
+          "sha256": "037886cef0295d80a7d38b233473ad0184de2b7be372d724324f78855f4c6080",
+          "terms": 204,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 2,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "b49b03cac517d6bb540542e0b434260f48cc41dc635fe94d1345a1ff67052865",
+          "terms": 192,
+          "total_degree": 22
+        },
+        {
+          "sha256": "79f76b355a44f5f3914162d2b3738ad57367c67f193b2d7d82655fb8c9dc4d6b",
+          "terms": 200,
+          "total_degree": 21
+        },
+        {
+          "sha256": "b59f85121d50d30699501382adf82d4885c33fb79742c838cba8fa758f17f004",
+          "terms": 144,
+          "total_degree": 19
+        },
+        {
+          "sha256": "e667246822673f697b03d4526bb39f75c8f690b7c44c3a911d66b8fb384d5f63",
+          "terms": 144,
+          "total_degree": 24
+        },
+        {
+          "sha256": "38e640e45ba4c62dc2ed89443c3804bc47d1c3cb746f670a0a3239b56cf0054a",
+          "terms": 192,
+          "total_degree": 22
+        },
+        {
+          "sha256": "037886cef0295d80a7d38b233473ad0184de2b7be372d724324f78855f4c6080",
+          "terms": 204,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 2,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "b49b03cac517d6bb540542e0b434260f48cc41dc635fe94d1345a1ff67052865",
+          "terms": 192,
+          "total_degree": 22
+        },
+        {
+          "sha256": "38f8c0553c8164a348665b119e71d01bb55356bf6f0b38f2e516e420a8c1f744",
+          "terms": 200,
+          "total_degree": 21
+        },
+        {
+          "sha256": "b59f85121d50d30699501382adf82d4885c33fb79742c838cba8fa758f17f004",
+          "terms": 144,
+          "total_degree": 19
+        },
+        {
+          "sha256": "f1397e1b624f333c172165336388eadc1f173f73c04ce80afd5e1514cb1c47c7",
+          "terms": 144,
+          "total_degree": 24
+        },
+        {
+          "sha256": "38e640e45ba4c62dc2ed89443c3804bc47d1c3cb746f670a0a3239b56cf0054a",
+          "terms": 192,
+          "total_degree": 22
+        },
+        {
+          "sha256": "9a8b8123a7f3620acdd796684a8a5243b997f7363e0bee3b67ea71b4cc20417f",
+          "terms": 204,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 3,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "da6ab18adfb06b95e1146e6669bdcac13a70315b352a7a224d2e356a79a5d5d1",
+          "terms": 108,
+          "total_degree": 19
+        },
+        {
+          "sha256": "12d38f8c921a27cef261c603abfd7fa18c082d2f8ee895bad200aae49988615e",
+          "terms": 184,
+          "total_degree": 21
+        },
+        {
+          "sha256": "853f9da22a22fcfcf46b09b5c7e7d1bc8b2e9accb806cbd214ac9e9a93db0f3e",
+          "terms": 160,
+          "total_degree": 21
+        },
+        {
+          "sha256": "f999a1f4732ad11c3dce76bc110fbc28e16f0eee8e3a5422af6cd63567a66a6b",
+          "terms": 142,
+          "total_degree": 19
+        },
+        {
+          "sha256": "df4a7afc49da629a86bdd469be393b795e257d11a1418266f046ed001a953442",
+          "terms": 124,
+          "total_degree": 19
+        },
+        {
+          "sha256": "33eb4729a6cb97d8ebe99695850224678579132e008677e0bdc79a347a0ea489",
+          "terms": 100,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 3,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "da6ab18adfb06b95e1146e6669bdcac13a70315b352a7a224d2e356a79a5d5d1",
+          "terms": 108,
+          "total_degree": 19
+        },
+        {
+          "sha256": "12d38f8c921a27cef261c603abfd7fa18c082d2f8ee895bad200aae49988615e",
+          "terms": 184,
+          "total_degree": 21
+        },
+        {
+          "sha256": "a9135cbdb75e190c8a1e7b618701e59a84866c6fb0130e0aff63fb07d065d285",
+          "terms": 160,
+          "total_degree": 21
+        },
+        {
+          "sha256": "f999a1f4732ad11c3dce76bc110fbc28e16f0eee8e3a5422af6cd63567a66a6b",
+          "terms": 142,
+          "total_degree": 19
+        },
+        {
+          "sha256": "5234eec2612ae29e75d32dd077c11860f79ef1e89ec30542d09a85be48bdff53",
+          "terms": 124,
+          "total_degree": 19
+        },
+        {
+          "sha256": "f05cbca8f2af86589507b56dc30fb1ff8df89d209dfffddeb7a5dd592b0bc255",
+          "terms": 100,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 3,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "f6680b8fbc71a3532c17513540656bd429882734b65548dbc57294f7d25b48f4",
+          "terms": 108,
+          "total_degree": 19
+        },
+        {
+          "sha256": "12d38f8c921a27cef261c603abfd7fa18c082d2f8ee895bad200aae49988615e",
+          "terms": 184,
+          "total_degree": 21
+        },
+        {
+          "sha256": "853f9da22a22fcfcf46b09b5c7e7d1bc8b2e9accb806cbd214ac9e9a93db0f3e",
+          "terms": 160,
+          "total_degree": 21
+        },
+        {
+          "sha256": "6cca7c9c038cccfbe712cac8a045ce6e53e96ec26f4b107477c3ad1b0bc47c75",
+          "terms": 142,
+          "total_degree": 19
+        },
+        {
+          "sha256": "5234eec2612ae29e75d32dd077c11860f79ef1e89ec30542d09a85be48bdff53",
+          "terms": 124,
+          "total_degree": 19
+        },
+        {
+          "sha256": "33eb4729a6cb97d8ebe99695850224678579132e008677e0bdc79a347a0ea489",
+          "terms": 100,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 3,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "f6680b8fbc71a3532c17513540656bd429882734b65548dbc57294f7d25b48f4",
+          "terms": 108,
+          "total_degree": 19
+        },
+        {
+          "sha256": "12d38f8c921a27cef261c603abfd7fa18c082d2f8ee895bad200aae49988615e",
+          "terms": 184,
+          "total_degree": 21
+        },
+        {
+          "sha256": "a9135cbdb75e190c8a1e7b618701e59a84866c6fb0130e0aff63fb07d065d285",
+          "terms": 160,
+          "total_degree": 21
+        },
+        {
+          "sha256": "6cca7c9c038cccfbe712cac8a045ce6e53e96ec26f4b107477c3ad1b0bc47c75",
+          "terms": 142,
+          "total_degree": 19
+        },
+        {
+          "sha256": "df4a7afc49da629a86bdd469be393b795e257d11a1418266f046ed001a953442",
+          "terms": 124,
+          "total_degree": 19
+        },
+        {
+          "sha256": "f05cbca8f2af86589507b56dc30fb1ff8df89d209dfffddeb7a5dd592b0bc255",
+          "terms": 100,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 4,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "fa2bf8da85031b58b1fce76f10f362a074bbace55ca316259953d9bb96a7dbcc",
+          "terms": 184,
+          "total_degree": 22
+        },
+        {
+          "sha256": "4e1d131c1f99d788fbf3628bd6be413340cb427f26f8e3afddf853c81092636d",
+          "terms": 178,
+          "total_degree": 18
+        },
+        {
+          "sha256": "68b4bd6d9de8c9b35750f12c1a7132eb931bf5b86d6ff5618a461ccd96a11578",
+          "terms": 176,
+          "total_degree": 22
+        },
+        {
+          "sha256": "7bcd5c10e3bdaba9c1080883a7d799507b7ac3014ac0be3a215be6956c712b8c",
+          "terms": 158,
+          "total_degree": 18
+        },
+        {
+          "sha256": "bb569a87d5b1c6021f8d71b48e43792644462bcc352535e515dff734dc1a88ee",
+          "terms": 140,
+          "total_degree": 22
+        },
+        {
+          "sha256": "b5e6212996f9f43cf2d1812fb9e2eed733a273790a8d2713c51ec7b1526cbe7b",
+          "terms": 154,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 4,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "fa2bf8da85031b58b1fce76f10f362a074bbace55ca316259953d9bb96a7dbcc",
+          "terms": 184,
+          "total_degree": 22
+        },
+        {
+          "sha256": "4e1d131c1f99d788fbf3628bd6be413340cb427f26f8e3afddf853c81092636d",
+          "terms": 178,
+          "total_degree": 18
+        },
+        {
+          "sha256": "f45ec2af266d19f48232667e5e5c99f7fe71a5b4629c98569d1be2e58a712671",
+          "terms": 176,
+          "total_degree": 22
+        },
+        {
+          "sha256": "7bcd5c10e3bdaba9c1080883a7d799507b7ac3014ac0be3a215be6956c712b8c",
+          "terms": 158,
+          "total_degree": 18
+        },
+        {
+          "sha256": "43a5bde6478529b91361813ab0815d0d5ab126739c46aa08a01807961cbd71d8",
+          "terms": 140,
+          "total_degree": 22
+        },
+        {
+          "sha256": "dc6a5c0f910fb99bd65ef19211a7bd667c286cb2e30db96cb56061ee8e01b328",
+          "terms": 154,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 4,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "fa2bf8da85031b58b1fce76f10f362a074bbace55ca316259953d9bb96a7dbcc",
+          "terms": 184,
+          "total_degree": 22
+        },
+        {
+          "sha256": "00807328b9b66eb35c90d48cbb8231872c9a7d8c3e8341a9dd9c0d6605dcc0e7",
+          "terms": 178,
+          "total_degree": 18
+        },
+        {
+          "sha256": "68b4bd6d9de8c9b35750f12c1a7132eb931bf5b86d6ff5618a461ccd96a11578",
+          "terms": 176,
+          "total_degree": 22
+        },
+        {
+          "sha256": "ace79c5a81a14e58342edf8d275ed65d3f84699808d05aa1787010058882ee4a",
+          "terms": 158,
+          "total_degree": 18
+        },
+        {
+          "sha256": "bb569a87d5b1c6021f8d71b48e43792644462bcc352535e515dff734dc1a88ee",
+          "terms": 140,
+          "total_degree": 22
+        },
+        {
+          "sha256": "dc6a5c0f910fb99bd65ef19211a7bd667c286cb2e30db96cb56061ee8e01b328",
+          "terms": 154,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 4,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "fa2bf8da85031b58b1fce76f10f362a074bbace55ca316259953d9bb96a7dbcc",
+          "terms": 184,
+          "total_degree": 22
+        },
+        {
+          "sha256": "00807328b9b66eb35c90d48cbb8231872c9a7d8c3e8341a9dd9c0d6605dcc0e7",
+          "terms": 178,
+          "total_degree": 18
+        },
+        {
+          "sha256": "f45ec2af266d19f48232667e5e5c99f7fe71a5b4629c98569d1be2e58a712671",
+          "terms": 176,
+          "total_degree": 22
+        },
+        {
+          "sha256": "ace79c5a81a14e58342edf8d275ed65d3f84699808d05aa1787010058882ee4a",
+          "terms": 158,
+          "total_degree": 18
+        },
+        {
+          "sha256": "43a5bde6478529b91361813ab0815d0d5ab126739c46aa08a01807961cbd71d8",
+          "terms": 140,
+          "total_degree": 22
+        },
+        {
+          "sha256": "b5e6212996f9f43cf2d1812fb9e2eed733a273790a8d2713c51ec7b1526cbe7b",
+          "terms": 154,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 5,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "7a2d99770fb4d543ee4749426d66e03f85fea51f91d0844ce3a37f22e98ecbc5",
+          "terms": 160,
+          "total_degree": 22
+        },
+        {
+          "sha256": "89c8674c7c057b0ddd04ff48c37c7f4a9a9690fa940982d2a0051e96ae9ae9e8",
+          "terms": 168,
+          "total_degree": 22
+        },
+        {
+          "sha256": "7eb9a9db124ae7f4b024c39d1997c6ead07b3369fc5c02e8722fe55d686a332b",
+          "terms": 132,
+          "total_degree": 18
+        },
+        {
+          "sha256": "43a0f4aeae88b2284a2114f3476bbf19ffdbc5116fd774b0d9bbf48d3c689979",
+          "terms": 124,
+          "total_degree": 22
+        },
+        {
+          "sha256": "94ca6be6c08373825f58feedb707681f4979ff3077048f52b9d027963ec86aa5",
+          "terms": 128,
+          "total_degree": 18
+        },
+        {
+          "sha256": "0eb487c2c95f63f0214ed053a1176232440dba4782c618fedc83b873ecffb1b7",
+          "terms": 132,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 5,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "7a2d99770fb4d543ee4749426d66e03f85fea51f91d0844ce3a37f22e98ecbc5",
+          "terms": 160,
+          "total_degree": 22
+        },
+        {
+          "sha256": "e14b820f92c4291336ce97fef141f8e385ff1159f034d417fdf24bf773e670d1",
+          "terms": 168,
+          "total_degree": 22
+        },
+        {
+          "sha256": "7eb9a9db124ae7f4b024c39d1997c6ead07b3369fc5c02e8722fe55d686a332b",
+          "terms": 132,
+          "total_degree": 18
+        },
+        {
+          "sha256": "493cb0f708613828f9a1e840f3ad01dc11dc18ca937be6ccc0595301141e2cd4",
+          "terms": 124,
+          "total_degree": 22
+        },
+        {
+          "sha256": "94ca6be6c08373825f58feedb707681f4979ff3077048f52b9d027963ec86aa5",
+          "terms": 128,
+          "total_degree": 18
+        },
+        {
+          "sha256": "9fc3d1cde5ac8028e324d53603ee5344f94995bd11c04be24af4a1ec2407255a",
+          "terms": 132,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 5,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "7a2d99770fb4d543ee4749426d66e03f85fea51f91d0844ce3a37f22e98ecbc5",
+          "terms": 160,
+          "total_degree": 22
+        },
+        {
+          "sha256": "89c8674c7c057b0ddd04ff48c37c7f4a9a9690fa940982d2a0051e96ae9ae9e8",
+          "terms": 168,
+          "total_degree": 22
+        },
+        {
+          "sha256": "cc5d03aa57e5e47242b1edfa6794c8694c9574b668204aa942d113230a9afbc9",
+          "terms": 132,
+          "total_degree": 18
+        },
+        {
+          "sha256": "43a0f4aeae88b2284a2114f3476bbf19ffdbc5116fd774b0d9bbf48d3c689979",
+          "terms": 124,
+          "total_degree": 22
+        },
+        {
+          "sha256": "93383158aa34c6fcb862633edba54dde2dcf260413e8a76d569c3f71b6efd1d2",
+          "terms": 128,
+          "total_degree": 18
+        },
+        {
+          "sha256": "9fc3d1cde5ac8028e324d53603ee5344f94995bd11c04be24af4a1ec2407255a",
+          "terms": 132,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 5,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "7a2d99770fb4d543ee4749426d66e03f85fea51f91d0844ce3a37f22e98ecbc5",
+          "terms": 160,
+          "total_degree": 22
+        },
+        {
+          "sha256": "e14b820f92c4291336ce97fef141f8e385ff1159f034d417fdf24bf773e670d1",
+          "terms": 168,
+          "total_degree": 22
+        },
+        {
+          "sha256": "cc5d03aa57e5e47242b1edfa6794c8694c9574b668204aa942d113230a9afbc9",
+          "terms": 132,
+          "total_degree": 18
+        },
+        {
+          "sha256": "493cb0f708613828f9a1e840f3ad01dc11dc18ca937be6ccc0595301141e2cd4",
+          "terms": 124,
+          "total_degree": 22
+        },
+        {
+          "sha256": "93383158aa34c6fcb862633edba54dde2dcf260413e8a76d569c3f71b6efd1d2",
+          "terms": 128,
+          "total_degree": 18
+        },
+        {
+          "sha256": "0eb487c2c95f63f0214ed053a1176232440dba4782c618fedc83b873ecffb1b7",
+          "terms": 132,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 6,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "7c8f105215c2e233bb175de85a6e64507244f62fb1b40e06851d3941f4b0c82a",
+          "terms": 108,
+          "total_degree": 19
+        },
+        {
+          "sha256": "fea6857857cff04978d6ee4a74cab0ba52a305d9ba4be06a2f7374cea1d3c9ca",
+          "terms": 142,
+          "total_degree": 19
+        },
+        {
+          "sha256": "bf6ee0ee4293f2fcc5658b3e8d7c2c2ef049662c6b51448ba6227bfb37b258ad",
+          "terms": 124,
+          "total_degree": 19
+        },
+        {
+          "sha256": "ca623c80305a0e239434def0d86ebc69559f27522d10f2bc5114d1636a38f384",
+          "terms": 184,
+          "total_degree": 21
+        },
+        {
+          "sha256": "e337be1c48638041597a84b7833a6330939b69ebf307e0274341624b968ac89b",
+          "terms": 160,
+          "total_degree": 21
+        },
+        {
+          "sha256": "f8c04e7c340abbb79b352a9e14cb43ce9bd7f16961305ee6df14d232eb94fd34",
+          "terms": 100,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 6,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "7c8f105215c2e233bb175de85a6e64507244f62fb1b40e06851d3941f4b0c82a",
+          "terms": 108,
+          "total_degree": 19
+        },
+        {
+          "sha256": "fea6857857cff04978d6ee4a74cab0ba52a305d9ba4be06a2f7374cea1d3c9ca",
+          "terms": 142,
+          "total_degree": 19
+        },
+        {
+          "sha256": "d79dad240d270626affb3eb1e7e5fa3f42d6b4307a389330d5c26d6a25211e3c",
+          "terms": 124,
+          "total_degree": 19
+        },
+        {
+          "sha256": "ca623c80305a0e239434def0d86ebc69559f27522d10f2bc5114d1636a38f384",
+          "terms": 184,
+          "total_degree": 21
+        },
+        {
+          "sha256": "672faa761df9cfc9c9c259073d463244b09682003165cbd43946aaa9d3522cb3",
+          "terms": 160,
+          "total_degree": 21
+        },
+        {
+          "sha256": "ecfe8cc99e44e5cab568480d0b2c513c8bf79f03902a6625271497139e5624f9",
+          "terms": 100,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 6,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "d066211f13e1807a221a7ba2d88e980a507bd0c99f9a46588595d469f9bd10c7",
+          "terms": 108,
+          "total_degree": 19
+        },
+        {
+          "sha256": "f8176f6802b90561faab63193c7cedfcd6815e04aa585a710f491172c2f8155c",
+          "terms": 142,
+          "total_degree": 19
+        },
+        {
+          "sha256": "d79dad240d270626affb3eb1e7e5fa3f42d6b4307a389330d5c26d6a25211e3c",
+          "terms": 124,
+          "total_degree": 19
+        },
+        {
+          "sha256": "ca623c80305a0e239434def0d86ebc69559f27522d10f2bc5114d1636a38f384",
+          "terms": 184,
+          "total_degree": 21
+        },
+        {
+          "sha256": "e337be1c48638041597a84b7833a6330939b69ebf307e0274341624b968ac89b",
+          "terms": 160,
+          "total_degree": 21
+        },
+        {
+          "sha256": "f8c04e7c340abbb79b352a9e14cb43ce9bd7f16961305ee6df14d232eb94fd34",
+          "terms": 100,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 6,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "d066211f13e1807a221a7ba2d88e980a507bd0c99f9a46588595d469f9bd10c7",
+          "terms": 108,
+          "total_degree": 19
+        },
+        {
+          "sha256": "f8176f6802b90561faab63193c7cedfcd6815e04aa585a710f491172c2f8155c",
+          "terms": 142,
+          "total_degree": 19
+        },
+        {
+          "sha256": "bf6ee0ee4293f2fcc5658b3e8d7c2c2ef049662c6b51448ba6227bfb37b258ad",
+          "terms": 124,
+          "total_degree": 19
+        },
+        {
+          "sha256": "ca623c80305a0e239434def0d86ebc69559f27522d10f2bc5114d1636a38f384",
+          "terms": 184,
+          "total_degree": 21
+        },
+        {
+          "sha256": "672faa761df9cfc9c9c259073d463244b09682003165cbd43946aaa9d3522cb3",
+          "terms": 160,
+          "total_degree": 21
+        },
+        {
+          "sha256": "ecfe8cc99e44e5cab568480d0b2c513c8bf79f03902a6625271497139e5624f9",
+          "terms": 100,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 7,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "6fc09e8164db2b6cc46dfb7f77116a4a6c750f052c840a2ea2fc6f06ef9e37bf",
+          "terms": 184,
+          "total_degree": 22
+        },
+        {
+          "sha256": "8dd302a0b7aff9d02e46f18875c68402e0614432d2f231fb8c8927e5ecaf1212",
+          "terms": 158,
+          "total_degree": 18
+        },
+        {
+          "sha256": "610b3f9f4f25cbbc5d5ed4363d7763fa54998e716a817b9a47feb9746f67ddc5",
+          "terms": 140,
+          "total_degree": 22
+        },
+        {
+          "sha256": "988321ff3687b267ad2038f5ee3162f880dce7edb2e8d801b9ab0310c977c833",
+          "terms": 178,
+          "total_degree": 18
+        },
+        {
+          "sha256": "a8665f59e0a4352f9eecb09c5f9ebedcf60bf3aea37974f7a14b2d219133ad9f",
+          "terms": 176,
+          "total_degree": 22
+        },
+        {
+          "sha256": "aa8d78e2418dd14e6d2eceed5c65be7fa6aaa11a7d1256b7390ef841c0ee87e3",
+          "terms": 154,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 7,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "6fc09e8164db2b6cc46dfb7f77116a4a6c750f052c840a2ea2fc6f06ef9e37bf",
+          "terms": 184,
+          "total_degree": 22
+        },
+        {
+          "sha256": "8dd302a0b7aff9d02e46f18875c68402e0614432d2f231fb8c8927e5ecaf1212",
+          "terms": 158,
+          "total_degree": 18
+        },
+        {
+          "sha256": "7e2be43a58a6edb4b605d4cd43d55e36a26183462b73355446ae908a3e3a32c6",
+          "terms": 140,
+          "total_degree": 22
+        },
+        {
+          "sha256": "988321ff3687b267ad2038f5ee3162f880dce7edb2e8d801b9ab0310c977c833",
+          "terms": 178,
+          "total_degree": 18
+        },
+        {
+          "sha256": "fb1072e8d4f871c5d1419ade44afe85f290d21ca60b610d1557d290517ecc87b",
+          "terms": 176,
+          "total_degree": 22
+        },
+        {
+          "sha256": "2bfef64cbde4fc857654900fb6d06a2d93abcde4ee56aaa446923e9e6784c5f6",
+          "terms": 154,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 7,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "6fc09e8164db2b6cc46dfb7f77116a4a6c750f052c840a2ea2fc6f06ef9e37bf",
+          "terms": 184,
+          "total_degree": 22
+        },
+        {
+          "sha256": "7547513a1cb14d39f0e0804da36e1ef30c71611c54b56171ea723fa0de41b09c",
+          "terms": 158,
+          "total_degree": 18
+        },
+        {
+          "sha256": "610b3f9f4f25cbbc5d5ed4363d7763fa54998e716a817b9a47feb9746f67ddc5",
+          "terms": 140,
+          "total_degree": 22
+        },
+        {
+          "sha256": "48358b91b73469966e42d3bef6e1c57d1c369b6f8b08520e1a4895020514066c",
+          "terms": 178,
+          "total_degree": 18
+        },
+        {
+          "sha256": "a8665f59e0a4352f9eecb09c5f9ebedcf60bf3aea37974f7a14b2d219133ad9f",
+          "terms": 176,
+          "total_degree": 22
+        },
+        {
+          "sha256": "2bfef64cbde4fc857654900fb6d06a2d93abcde4ee56aaa446923e9e6784c5f6",
+          "terms": 154,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 7,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "6fc09e8164db2b6cc46dfb7f77116a4a6c750f052c840a2ea2fc6f06ef9e37bf",
+          "terms": 184,
+          "total_degree": 22
+        },
+        {
+          "sha256": "7547513a1cb14d39f0e0804da36e1ef30c71611c54b56171ea723fa0de41b09c",
+          "terms": 158,
+          "total_degree": 18
+        },
+        {
+          "sha256": "7e2be43a58a6edb4b605d4cd43d55e36a26183462b73355446ae908a3e3a32c6",
+          "terms": 140,
+          "total_degree": 22
+        },
+        {
+          "sha256": "48358b91b73469966e42d3bef6e1c57d1c369b6f8b08520e1a4895020514066c",
+          "terms": 178,
+          "total_degree": 18
+        },
+        {
+          "sha256": "fb1072e8d4f871c5d1419ade44afe85f290d21ca60b610d1557d290517ecc87b",
+          "terms": 176,
+          "total_degree": 22
+        },
+        {
+          "sha256": "aa8d78e2418dd14e6d2eceed5c65be7fa6aaa11a7d1256b7390ef841c0ee87e3",
+          "terms": 154,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 8,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "0b933cd2d59605bbd369f7c8ad9d218a9321576b3254ddac2be8c6914f3ade10",
+          "terms": 160,
+          "total_degree": 22
+        },
+        {
+          "sha256": "714592a439351992574fad8d42f27343cb38cf105de1c81da8efa0aa20dead38",
+          "terms": 124,
+          "total_degree": 22
+        },
+        {
+          "sha256": "03ba85724ddf71bc18c07b5c19c34734734dcbaf5a2a6de6d463054b7d5b7891",
+          "terms": 128,
+          "total_degree": 18
+        },
+        {
+          "sha256": "2c067a995f640ed750508981b950048feabb5dc38083e5b2a5f5f8d64303a28b",
+          "terms": 168,
+          "total_degree": 22
+        },
+        {
+          "sha256": "dc9dd1dc40d360f1413e65b80e082ea144ad92c4ed6c6650881967f70cc166e2",
+          "terms": 132,
+          "total_degree": 18
+        },
+        {
+          "sha256": "903acf3613bf96a5b0ad27bb008343da920481a6b47e1815cba9ae0ca4fa1f3f",
+          "terms": 132,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 8,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "0b933cd2d59605bbd369f7c8ad9d218a9321576b3254ddac2be8c6914f3ade10",
+          "terms": 160,
+          "total_degree": 22
+        },
+        {
+          "sha256": "936d6fd157844ade80b89a150b0190b2f1b6a493d36d48504aceb496b9b7aa01",
+          "terms": 124,
+          "total_degree": 22
+        },
+        {
+          "sha256": "03ba85724ddf71bc18c07b5c19c34734734dcbaf5a2a6de6d463054b7d5b7891",
+          "terms": 128,
+          "total_degree": 18
+        },
+        {
+          "sha256": "1fd834cc611174c9d715bf71c00de3d0af84db3d2c1e8d198dcda1eacd3ab30e",
+          "terms": 168,
+          "total_degree": 22
+        },
+        {
+          "sha256": "dc9dd1dc40d360f1413e65b80e082ea144ad92c4ed6c6650881967f70cc166e2",
+          "terms": 132,
+          "total_degree": 18
+        },
+        {
+          "sha256": "7888213e5cadf16a3286b1328076b4209b1dbf8ca9d38213a9463b24959cf803",
+          "terms": 132,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 8,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "0b933cd2d59605bbd369f7c8ad9d218a9321576b3254ddac2be8c6914f3ade10",
+          "terms": 160,
+          "total_degree": 22
+        },
+        {
+          "sha256": "714592a439351992574fad8d42f27343cb38cf105de1c81da8efa0aa20dead38",
+          "terms": 124,
+          "total_degree": 22
+        },
+        {
+          "sha256": "d8543091266ecc5765ed6d518a1dc215341917b6233711e9113314416c876004",
+          "terms": 128,
+          "total_degree": 18
+        },
+        {
+          "sha256": "2c067a995f640ed750508981b950048feabb5dc38083e5b2a5f5f8d64303a28b",
+          "terms": 168,
+          "total_degree": 22
+        },
+        {
+          "sha256": "2468ba3aec1184925eb30fda036a8b1ad4f7ee98421be1bc5325eef3d01f2334",
+          "terms": 132,
+          "total_degree": 18
+        },
+        {
+          "sha256": "7888213e5cadf16a3286b1328076b4209b1dbf8ca9d38213a9463b24959cf803",
+          "terms": 132,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 8,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "0b933cd2d59605bbd369f7c8ad9d218a9321576b3254ddac2be8c6914f3ade10",
+          "terms": 160,
+          "total_degree": 22
+        },
+        {
+          "sha256": "936d6fd157844ade80b89a150b0190b2f1b6a493d36d48504aceb496b9b7aa01",
+          "terms": 124,
+          "total_degree": 22
+        },
+        {
+          "sha256": "d8543091266ecc5765ed6d518a1dc215341917b6233711e9113314416c876004",
+          "terms": 128,
+          "total_degree": 18
+        },
+        {
+          "sha256": "1fd834cc611174c9d715bf71c00de3d0af84db3d2c1e8d198dcda1eacd3ab30e",
+          "terms": 168,
+          "total_degree": 22
+        },
+        {
+          "sha256": "2468ba3aec1184925eb30fda036a8b1ad4f7ee98421be1bc5325eef3d01f2334",
+          "terms": 132,
+          "total_degree": 18
+        },
+        {
+          "sha256": "903acf3613bf96a5b0ad27bb008343da920481a6b47e1815cba9ae0ca4fa1f3f",
+          "terms": 132,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 9,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "37f961c7291d8e27b23b57fd65bad6a73c6f3474ae3246a7a2aa5adfec0367b9",
+          "terms": 128,
+          "total_degree": 19
+        },
+        {
+          "sha256": "a30dfcc0b0b3729d2da984f9003b27271cc80f8addac55ed59ea68d4a0011b37",
+          "terms": 170,
+          "total_degree": 19
+        },
+        {
+          "sha256": "bfe3376430f640d79cfc1771cecae333b6b8dba3ebe56cb155dab892913dd5f2",
+          "terms": 136,
+          "total_degree": 19
+        },
+        {
+          "sha256": "1b7851830e0011de151d1b96eb8d6fc7efca95a2821f4a755233ee45c28bb266",
+          "terms": 168,
+          "total_degree": 21
+        },
+        {
+          "sha256": "ba82ae79e719c550122d5d5768e5d675e31083bd0b69968bc36eae2f1f9033f9",
+          "terms": 120,
+          "total_degree": 21
+        },
+        {
+          "sha256": "be386ad17311ceb255e500018cb09c91923b2ada2f9a217827befd18b5a973e2",
+          "terms": 180,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 9,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "37f961c7291d8e27b23b57fd65bad6a73c6f3474ae3246a7a2aa5adfec0367b9",
+          "terms": 128,
+          "total_degree": 19
+        },
+        {
+          "sha256": "a30dfcc0b0b3729d2da984f9003b27271cc80f8addac55ed59ea68d4a0011b37",
+          "terms": 170,
+          "total_degree": 19
+        },
+        {
+          "sha256": "50470fcdf3f0566149f9f0d413dee40cf39590b8269c83bb28dafedf24c0731b",
+          "terms": 136,
+          "total_degree": 19
+        },
+        {
+          "sha256": "1b7851830e0011de151d1b96eb8d6fc7efca95a2821f4a755233ee45c28bb266",
+          "terms": 168,
+          "total_degree": 21
+        },
+        {
+          "sha256": "5420672b51fbc558f587717741ec0fe150e8f388186ea7aac7050e5a082237c4",
+          "terms": 120,
+          "total_degree": 21
+        },
+        {
+          "sha256": "06f6dd4a52d97372dfc6da147bf9cfd9fbd444c84732127dda715a90d45439c0",
+          "terms": 180,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 9,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "60683a4d02a353f81a251043f2f01ad86ef090e73d4c232dcbd8943eda7d88f7",
+          "terms": 128,
+          "total_degree": 19
+        },
+        {
+          "sha256": "6360cb14d796b7de73054500bbab94b40790af391f6a744227ccf126ce36e693",
+          "terms": 170,
+          "total_degree": 19
+        },
+        {
+          "sha256": "50470fcdf3f0566149f9f0d413dee40cf39590b8269c83bb28dafedf24c0731b",
+          "terms": 136,
+          "total_degree": 19
+        },
+        {
+          "sha256": "1b7851830e0011de151d1b96eb8d6fc7efca95a2821f4a755233ee45c28bb266",
+          "terms": 168,
+          "total_degree": 21
+        },
+        {
+          "sha256": "ba82ae79e719c550122d5d5768e5d675e31083bd0b69968bc36eae2f1f9033f9",
+          "terms": 120,
+          "total_degree": 21
+        },
+        {
+          "sha256": "be386ad17311ceb255e500018cb09c91923b2ada2f9a217827befd18b5a973e2",
+          "terms": 180,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 9,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "60683a4d02a353f81a251043f2f01ad86ef090e73d4c232dcbd8943eda7d88f7",
+          "terms": 128,
+          "total_degree": 19
+        },
+        {
+          "sha256": "6360cb14d796b7de73054500bbab94b40790af391f6a744227ccf126ce36e693",
+          "terms": 170,
+          "total_degree": 19
+        },
+        {
+          "sha256": "bfe3376430f640d79cfc1771cecae333b6b8dba3ebe56cb155dab892913dd5f2",
+          "terms": 136,
+          "total_degree": 19
+        },
+        {
+          "sha256": "1b7851830e0011de151d1b96eb8d6fc7efca95a2821f4a755233ee45c28bb266",
+          "terms": 168,
+          "total_degree": 21
+        },
+        {
+          "sha256": "5420672b51fbc558f587717741ec0fe150e8f388186ea7aac7050e5a082237c4",
+          "terms": 120,
+          "total_degree": 21
+        },
+        {
+          "sha256": "06f6dd4a52d97372dfc6da147bf9cfd9fbd444c84732127dda715a90d45439c0",
+          "terms": 180,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 10,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "d2a7f2d7b9b2a06b382e7800cb8df4266a3ae530ef538badd1dc6620e437362d",
+          "terms": 128,
+          "total_degree": 19
+        },
+        {
+          "sha256": "c29361ba33a76bc41b00156d0753c59f1a1bb3b3e247332105d11a9c01db50a3",
+          "terms": 168,
+          "total_degree": 21
+        },
+        {
+          "sha256": "ecbaabc1ec841ccec925920b6af876cda9832f739bf4775d696ef9b9388bc358",
+          "terms": 120,
+          "total_degree": 21
+        },
+        {
+          "sha256": "54e6687fc687e319911e9faba472344902d4e2005040a76f071a75a86b12c2e6",
+          "terms": 170,
+          "total_degree": 19
+        },
+        {
+          "sha256": "7eae56197be76cd454fd3e65abefc4d82cd3988bd8bfdecad55db44d5171b40d",
+          "terms": 136,
+          "total_degree": 19
+        },
+        {
+          "sha256": "21913d707717b519a31773496aab0c276e43e5eddf667d369b3b2083e2b5fc6c",
+          "terms": 180,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 10,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "d2a7f2d7b9b2a06b382e7800cb8df4266a3ae530ef538badd1dc6620e437362d",
+          "terms": 128,
+          "total_degree": 19
+        },
+        {
+          "sha256": "c29361ba33a76bc41b00156d0753c59f1a1bb3b3e247332105d11a9c01db50a3",
+          "terms": 168,
+          "total_degree": 21
+        },
+        {
+          "sha256": "2c213db19e37ef81d7ff89a19d740c59cbf1cdd8d3322cd8b7fc24532d4851ca",
+          "terms": 120,
+          "total_degree": 21
+        },
+        {
+          "sha256": "54e6687fc687e319911e9faba472344902d4e2005040a76f071a75a86b12c2e6",
+          "terms": 170,
+          "total_degree": 19
+        },
+        {
+          "sha256": "3228f127e2911a95198f5274b09db7ff03a2236f1744d49540460eb6e0ba39ef",
+          "terms": 136,
+          "total_degree": 19
+        },
+        {
+          "sha256": "9030e201a58d839049b88ca2b5960caf16cab0665ed87edefa039f389f9615e3",
+          "terms": 180,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 10,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "fabb088002b33d4a7c274cc3135436fc6d05077c4f08b802ee09fb45e2f3dbb6",
+          "terms": 128,
+          "total_degree": 19
+        },
+        {
+          "sha256": "c29361ba33a76bc41b00156d0753c59f1a1bb3b3e247332105d11a9c01db50a3",
+          "terms": 168,
+          "total_degree": 21
+        },
+        {
+          "sha256": "ecbaabc1ec841ccec925920b6af876cda9832f739bf4775d696ef9b9388bc358",
+          "terms": 120,
+          "total_degree": 21
+        },
+        {
+          "sha256": "06b517e1d94d9ee13ef06802b7587fdb74b10fc3fc4b8460ebe5a6ca9e6fca15",
+          "terms": 170,
+          "total_degree": 19
+        },
+        {
+          "sha256": "3228f127e2911a95198f5274b09db7ff03a2236f1744d49540460eb6e0ba39ef",
+          "terms": 136,
+          "total_degree": 19
+        },
+        {
+          "sha256": "21913d707717b519a31773496aab0c276e43e5eddf667d369b3b2083e2b5fc6c",
+          "terms": 180,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 10,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "fabb088002b33d4a7c274cc3135436fc6d05077c4f08b802ee09fb45e2f3dbb6",
+          "terms": 128,
+          "total_degree": 19
+        },
+        {
+          "sha256": "c29361ba33a76bc41b00156d0753c59f1a1bb3b3e247332105d11a9c01db50a3",
+          "terms": 168,
+          "total_degree": 21
+        },
+        {
+          "sha256": "2c213db19e37ef81d7ff89a19d740c59cbf1cdd8d3322cd8b7fc24532d4851ca",
+          "terms": 120,
+          "total_degree": 21
+        },
+        {
+          "sha256": "06b517e1d94d9ee13ef06802b7587fdb74b10fc3fc4b8460ebe5a6ca9e6fca15",
+          "terms": 170,
+          "total_degree": 19
+        },
+        {
+          "sha256": "7eae56197be76cd454fd3e65abefc4d82cd3988bd8bfdecad55db44d5171b40d",
+          "terms": 136,
+          "total_degree": 19
+        },
+        {
+          "sha256": "9030e201a58d839049b88ca2b5960caf16cab0665ed87edefa039f389f9615e3",
+          "terms": 180,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 11,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "4b0dce68ce465c7912ac9654a9bada163ffe0b8298b5be8f78e43c236bf690ac",
+          "terms": 104,
+          "total_degree": 22
+        },
+        {
+          "sha256": "fa2532fb6f5cfeeca8a673de80d7b50b1ccbf94d238292ef40b34b2a53ffa4c4",
+          "terms": 168,
+          "total_degree": 22
+        },
+        {
+          "sha256": "e6d3d424be2140177431b665c35a4e4acd73580713328f9119a65d608a8fa535",
+          "terms": 132,
+          "total_degree": 18
+        },
+        {
+          "sha256": "b811c953a27870bc3f050ab05113e2755e60d40aa691816871df3b5a45a585bb",
+          "terms": 168,
+          "total_degree": 22
+        },
+        {
+          "sha256": "a2fef7ef5e8663f41aa276bb09d129ac741ef6aec42b965a337bdad87c61b3cb",
+          "terms": 132,
+          "total_degree": 18
+        },
+        {
+          "sha256": "9238d5efe36d700012ef221878aef18efada2eccff85fe45de7ec4691c0ce302",
+          "terms": 140,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 11,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "93ba7f9347d62a31d69c606d993d9af5b4e15caa49dcce52d81d784f86cbca86",
+          "terms": 104,
+          "total_degree": 22
+        },
+        {
+          "sha256": "fa2532fb6f5cfeeca8a673de80d7b50b1ccbf94d238292ef40b34b2a53ffa4c4",
+          "terms": 168,
+          "total_degree": 22
+        },
+        {
+          "sha256": "e6d3d424be2140177431b665c35a4e4acd73580713328f9119a65d608a8fa535",
+          "terms": 132,
+          "total_degree": 18
+        },
+        {
+          "sha256": "d30e85fa0f081e2d59b3f93e709cc52b34722ea163ba0b7262b2817924bb7ade",
+          "terms": 168,
+          "total_degree": 22
+        },
+        {
+          "sha256": "15f0188dffcaff9b36b9117b38c3f2f468736b58591afecb4b7e803d756cd775",
+          "terms": 132,
+          "total_degree": 18
+        },
+        {
+          "sha256": "9238d5efe36d700012ef221878aef18efada2eccff85fe45de7ec4691c0ce302",
+          "terms": 140,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 11,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "4b0dce68ce465c7912ac9654a9bada163ffe0b8298b5be8f78e43c236bf690ac",
+          "terms": 104,
+          "total_degree": 22
+        },
+        {
+          "sha256": "fa2532fb6f5cfeeca8a673de80d7b50b1ccbf94d238292ef40b34b2a53ffa4c4",
+          "terms": 168,
+          "total_degree": 22
+        },
+        {
+          "sha256": "504e38808a1a849011d1177db3a913c0847dcc3d77aa11bf64c8d157ca448fec",
+          "terms": 132,
+          "total_degree": 18
+        },
+        {
+          "sha256": "b811c953a27870bc3f050ab05113e2755e60d40aa691816871df3b5a45a585bb",
+          "terms": 168,
+          "total_degree": 22
+        },
+        {
+          "sha256": "15f0188dffcaff9b36b9117b38c3f2f468736b58591afecb4b7e803d756cd775",
+          "terms": 132,
+          "total_degree": 18
+        },
+        {
+          "sha256": "47a3a31f97f83219d2c8fd031dddb0729fab500ee8330f471f7e8b25001f3638",
+          "terms": 140,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 11,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "93ba7f9347d62a31d69c606d993d9af5b4e15caa49dcce52d81d784f86cbca86",
+          "terms": 104,
+          "total_degree": 22
+        },
+        {
+          "sha256": "fa2532fb6f5cfeeca8a673de80d7b50b1ccbf94d238292ef40b34b2a53ffa4c4",
+          "terms": 168,
+          "total_degree": 22
+        },
+        {
+          "sha256": "504e38808a1a849011d1177db3a913c0847dcc3d77aa11bf64c8d157ca448fec",
+          "terms": 132,
+          "total_degree": 18
+        },
+        {
+          "sha256": "d30e85fa0f081e2d59b3f93e709cc52b34722ea163ba0b7262b2817924bb7ade",
+          "terms": 168,
+          "total_degree": 22
+        },
+        {
+          "sha256": "a2fef7ef5e8663f41aa276bb09d129ac741ef6aec42b965a337bdad87c61b3cb",
+          "terms": 132,
+          "total_degree": 18
+        },
+        {
+          "sha256": "47a3a31f97f83219d2c8fd031dddb0729fab500ee8330f471f7e8b25001f3638",
+          "terms": 140,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 12,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "e2880827f8b5252f0e01b63f662a5157083cc73978cbda7b44fbed09aa469a2a",
+          "terms": 120,
+          "total_degree": 19
+        },
+        {
+          "sha256": "337cddaf1916c61ccd623743898557de33a9d25358b350823c553c7a5ec72653",
+          "terms": 146,
+          "total_degree": 19
+        },
+        {
+          "sha256": "9558789cb8788889cd3f4c3aafabfd85a07aca842fc7ed321d619651e031e06f",
+          "terms": 132,
+          "total_degree": 19
+        },
+        {
+          "sha256": "6664356ee759228cd1372530ebde04609f70c6e9ee8cc8890c55730065862e2d",
+          "terms": 116,
+          "total_degree": 21
+        },
+        {
+          "sha256": "f0edbe7bff2679b7ab550feb70ec01176b0db66aa3bc533f88b97e8666b473f8",
+          "terms": 152,
+          "total_degree": 21
+        },
+        {
+          "sha256": "6c39c4ead37e1fc2fad30edb3bca017864565671fbf4c47afbae1c2cf5d10db7",
+          "terms": 188,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 12,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "e2880827f8b5252f0e01b63f662a5157083cc73978cbda7b44fbed09aa469a2a",
+          "terms": 120,
+          "total_degree": 19
+        },
+        {
+          "sha256": "6d35b736850582872d6476dcb0635451dd516e1e2b89b6f22465c123737d4d20",
+          "terms": 146,
+          "total_degree": 19
+        },
+        {
+          "sha256": "9558789cb8788889cd3f4c3aafabfd85a07aca842fc7ed321d619651e031e06f",
+          "terms": 132,
+          "total_degree": 19
+        },
+        {
+          "sha256": "02dcf46c9b11c9eb3f238db4a367ff111286030ce2dc6a9c4626fb6a347748f8",
+          "terms": 116,
+          "total_degree": 21
+        },
+        {
+          "sha256": "f0edbe7bff2679b7ab550feb70ec01176b0db66aa3bc533f88b97e8666b473f8",
+          "terms": 152,
+          "total_degree": 21
+        },
+        {
+          "sha256": "8507b48e660a037b5b5c40a2a2f32ada64efb0922153f0e08ab3aa6fc8f18e35",
+          "terms": 188,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 12,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "057bae971933d690f06e08f68d4f23455ef337a5af032a603e260b2bfbfeffcc",
+          "terms": 120,
+          "total_degree": 19
+        },
+        {
+          "sha256": "6d35b736850582872d6476dcb0635451dd516e1e2b89b6f22465c123737d4d20",
+          "terms": 146,
+          "total_degree": 19
+        },
+        {
+          "sha256": "3fc97411688eb8a2fb6f466fc52054229c283f3954921e369f38813effeb1abd",
+          "terms": 132,
+          "total_degree": 19
+        },
+        {
+          "sha256": "6664356ee759228cd1372530ebde04609f70c6e9ee8cc8890c55730065862e2d",
+          "terms": 116,
+          "total_degree": 21
+        },
+        {
+          "sha256": "f0edbe7bff2679b7ab550feb70ec01176b0db66aa3bc533f88b97e8666b473f8",
+          "terms": 152,
+          "total_degree": 21
+        },
+        {
+          "sha256": "6c39c4ead37e1fc2fad30edb3bca017864565671fbf4c47afbae1c2cf5d10db7",
+          "terms": 188,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 12,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "057bae971933d690f06e08f68d4f23455ef337a5af032a603e260b2bfbfeffcc",
+          "terms": 120,
+          "total_degree": 19
+        },
+        {
+          "sha256": "337cddaf1916c61ccd623743898557de33a9d25358b350823c553c7a5ec72653",
+          "terms": 146,
+          "total_degree": 19
+        },
+        {
+          "sha256": "3fc97411688eb8a2fb6f466fc52054229c283f3954921e369f38813effeb1abd",
+          "terms": 132,
+          "total_degree": 19
+        },
+        {
+          "sha256": "02dcf46c9b11c9eb3f238db4a367ff111286030ce2dc6a9c4626fb6a347748f8",
+          "terms": 116,
+          "total_degree": 21
+        },
+        {
+          "sha256": "f0edbe7bff2679b7ab550feb70ec01176b0db66aa3bc533f88b97e8666b473f8",
+          "terms": 152,
+          "total_degree": 21
+        },
+        {
+          "sha256": "8507b48e660a037b5b5c40a2a2f32ada64efb0922153f0e08ab3aa6fc8f18e35",
+          "terms": 188,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 13,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "16aedd2ab9d55e5bf868603df644f447766f444fdb3b20731a1c7ec7aafdad37",
+          "terms": 120,
+          "total_degree": 19
+        },
+        {
+          "sha256": "1877bc1533b348c50febe7f9f0d1bc038a6c69a72799a9ef1c6fff6ad377b378",
+          "terms": 116,
+          "total_degree": 21
+        },
+        {
+          "sha256": "093071be00b4975c09712629967a4a20988889c358449427884263c77477676c",
+          "terms": 152,
+          "total_degree": 21
+        },
+        {
+          "sha256": "9add920268070d725ba05da704fda5b57141d113d095f5983f80ff24cda42e85",
+          "terms": 146,
+          "total_degree": 19
+        },
+        {
+          "sha256": "45eb725f152738ef1c27a378568c4c7d37bac0ac50020a9f94c240bc8fdc0710",
+          "terms": 132,
+          "total_degree": 19
+        },
+        {
+          "sha256": "7face7bec21c4583ae67d182e27123203a3bba124c5490ffcfd097a00591f6ef",
+          "terms": 188,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 13,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "16aedd2ab9d55e5bf868603df644f447766f444fdb3b20731a1c7ec7aafdad37",
+          "terms": 120,
+          "total_degree": 19
+        },
+        {
+          "sha256": "3054c0bcc297792ece877a30590aa47bfebfb99fd923f032d07d6a594c82c6f4",
+          "terms": 116,
+          "total_degree": 21
+        },
+        {
+          "sha256": "093071be00b4975c09712629967a4a20988889c358449427884263c77477676c",
+          "terms": 152,
+          "total_degree": 21
+        },
+        {
+          "sha256": "89c98702f102ec1c2fc8be82d98f72e6c0f7626c2a9bfb449f45afd08996f481",
+          "terms": 146,
+          "total_degree": 19
+        },
+        {
+          "sha256": "45eb725f152738ef1c27a378568c4c7d37bac0ac50020a9f94c240bc8fdc0710",
+          "terms": 132,
+          "total_degree": 19
+        },
+        {
+          "sha256": "377f34fdc248b8b0771a88187d0166942cc09aa95eb8408b2c430cd13b832db7",
+          "terms": 188,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 13,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "284f6bddf5a4574f1e14a50aa79b0c66b8c93037c3be65b05b5e61da64ae405c",
+          "terms": 120,
+          "total_degree": 19
+        },
+        {
+          "sha256": "1877bc1533b348c50febe7f9f0d1bc038a6c69a72799a9ef1c6fff6ad377b378",
+          "terms": 116,
+          "total_degree": 21
+        },
+        {
+          "sha256": "093071be00b4975c09712629967a4a20988889c358449427884263c77477676c",
+          "terms": 152,
+          "total_degree": 21
+        },
+        {
+          "sha256": "89c98702f102ec1c2fc8be82d98f72e6c0f7626c2a9bfb449f45afd08996f481",
+          "terms": 146,
+          "total_degree": 19
+        },
+        {
+          "sha256": "8afd4abb073e219de13baac10f0321d0c4e2dfe62953cecd44feebe199582bce",
+          "terms": 132,
+          "total_degree": 19
+        },
+        {
+          "sha256": "7face7bec21c4583ae67d182e27123203a3bba124c5490ffcfd097a00591f6ef",
+          "terms": 188,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 13,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "284f6bddf5a4574f1e14a50aa79b0c66b8c93037c3be65b05b5e61da64ae405c",
+          "terms": 120,
+          "total_degree": 19
+        },
+        {
+          "sha256": "3054c0bcc297792ece877a30590aa47bfebfb99fd923f032d07d6a594c82c6f4",
+          "terms": 116,
+          "total_degree": 21
+        },
+        {
+          "sha256": "093071be00b4975c09712629967a4a20988889c358449427884263c77477676c",
+          "terms": 152,
+          "total_degree": 21
+        },
+        {
+          "sha256": "9add920268070d725ba05da704fda5b57141d113d095f5983f80ff24cda42e85",
+          "terms": 146,
+          "total_degree": 19
+        },
+        {
+          "sha256": "8afd4abb073e219de13baac10f0321d0c4e2dfe62953cecd44feebe199582bce",
+          "terms": 132,
+          "total_degree": 19
+        },
+        {
+          "sha256": "377f34fdc248b8b0771a88187d0166942cc09aa95eb8408b2c430cd13b832db7",
+          "terms": 188,
+          "total_degree": 21
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 14,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "40af073f9c5c41bae7dd107c13971154c8109577f801cef4cc869bc76433230c",
+          "terms": 112,
+          "total_degree": 22
+        },
+        {
+          "sha256": "35febb932120eb60b7657bb97c7e7d0bb4066c12ca70718aec3ae5b30ab4e3b2",
+          "terms": 150,
+          "total_degree": 18
+        },
+        {
+          "sha256": "d4c6f768aa3d720c4ab7540eac9eed891fd7a11ac207740bda08b47f4328bc61",
+          "terms": 184,
+          "total_degree": 22
+        },
+        {
+          "sha256": "b4369e0f6b91636c9303ffdfc4a059aeeaea6f89fdee5543e483199115e2461a",
+          "terms": 150,
+          "total_degree": 18
+        },
+        {
+          "sha256": "5f1bb55c8c3cba9ab8e65aeea40173fb09549d71ea03bb0c5297835c4d3b1e73",
+          "terms": 184,
+          "total_degree": 22
+        },
+        {
+          "sha256": "631926dc03ead447b2c47a2fb1caa18a4857bdb1d178b54318792591c1783a61",
+          "terms": 154,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 14,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "4865ca829dcfe5314f858fca676975ca5dbc07d4f5e37cacb8a5591ef78d1ed2",
+          "terms": 112,
+          "total_degree": 22
+        },
+        {
+          "sha256": "35febb932120eb60b7657bb97c7e7d0bb4066c12ca70718aec3ae5b30ab4e3b2",
+          "terms": 150,
+          "total_degree": 18
+        },
+        {
+          "sha256": "d4c6f768aa3d720c4ab7540eac9eed891fd7a11ac207740bda08b47f4328bc61",
+          "terms": 184,
+          "total_degree": 22
+        },
+        {
+          "sha256": "3e55459911704d9b1d2356d552a05a16b51a0f8b069b611dfbe7380e009799ce",
+          "terms": 150,
+          "total_degree": 18
+        },
+        {
+          "sha256": "ae86992d6229e55ec2c1a4ba07afd6ab8920ef3042fab098b573cb0f92a8192a",
+          "terms": 184,
+          "total_degree": 22
+        },
+        {
+          "sha256": "631926dc03ead447b2c47a2fb1caa18a4857bdb1d178b54318792591c1783a61",
+          "terms": 154,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 14,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "40af073f9c5c41bae7dd107c13971154c8109577f801cef4cc869bc76433230c",
+          "terms": 112,
+          "total_degree": 22
+        },
+        {
+          "sha256": "e67c2d08256693bbf5334013c135c2204f4287b5f8c2331d762ed2b03a656bfc",
+          "terms": 150,
+          "total_degree": 18
+        },
+        {
+          "sha256": "d4c6f768aa3d720c4ab7540eac9eed891fd7a11ac207740bda08b47f4328bc61",
+          "terms": 184,
+          "total_degree": 22
+        },
+        {
+          "sha256": "3e55459911704d9b1d2356d552a05a16b51a0f8b069b611dfbe7380e009799ce",
+          "terms": 150,
+          "total_degree": 18
+        },
+        {
+          "sha256": "5f1bb55c8c3cba9ab8e65aeea40173fb09549d71ea03bb0c5297835c4d3b1e73",
+          "terms": 184,
+          "total_degree": 22
+        },
+        {
+          "sha256": "60a145c1d3412663fa346706f3fcb6c634f24f6a32b4055a1e3c3170df0a345b",
+          "terms": 154,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 14,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "4865ca829dcfe5314f858fca676975ca5dbc07d4f5e37cacb8a5591ef78d1ed2",
+          "terms": 112,
+          "total_degree": 22
+        },
+        {
+          "sha256": "e67c2d08256693bbf5334013c135c2204f4287b5f8c2331d762ed2b03a656bfc",
+          "terms": 150,
+          "total_degree": 18
+        },
+        {
+          "sha256": "d4c6f768aa3d720c4ab7540eac9eed891fd7a11ac207740bda08b47f4328bc61",
+          "terms": 184,
+          "total_degree": 22
+        },
+        {
+          "sha256": "b4369e0f6b91636c9303ffdfc4a059aeeaea6f89fdee5543e483199115e2461a",
+          "terms": 150,
+          "total_degree": 18
+        },
+        {
+          "sha256": "ae86992d6229e55ec2c1a4ba07afd6ab8920ef3042fab098b573cb0f92a8192a",
+          "terms": 184,
+          "total_degree": 22
+        },
+        {
+          "sha256": "60a145c1d3412663fa346706f3fcb6c634f24f6a32b4055a1e3c3170df0a345b",
+          "terms": 154,
+          "total_degree": 18
+        }
+      ],
+      "mode": "raw",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 0,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "668f65af8674fb979b9e5b0159a3816d48d8787df8db4ada67a3aadecbe5af70",
+          "terms": 20,
+          "total_degree": 9
+        },
+        {
+          "sha256": "0d82a072fe8725fd8c2621838785e3e118878e10e2c9951293df1399b467904b",
+          "terms": 40,
+          "total_degree": 9
+        },
+        {
+          "sha256": "b0f151addb7f88be63bf39b2140ecfec55c37e8440d5cc55423a38246250f40d",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "631faed4672f16db4cba433b7c738d40a82a3534c01a673cd97c1ec9cd19746e",
+          "terms": 40,
+          "total_degree": 9
+        },
+        {
+          "sha256": "f03b4c97a6649d44f487aa36aeed0a108d237f689ff84c21b2a762e45d7eb8ec",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "a5fc5c8fbce9f5c20308c8de81160dce8aaf2f23bfefd998814f33d2fd1b459e",
+          "terms": 28,
+          "total_degree": 8
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 0,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "668f65af8674fb979b9e5b0159a3816d48d8787df8db4ada67a3aadecbe5af70",
+          "terms": 20,
+          "total_degree": 9
+        },
+        {
+          "sha256": "0d82a072fe8725fd8c2621838785e3e118878e10e2c9951293df1399b467904b",
+          "terms": 40,
+          "total_degree": 9
+        },
+        {
+          "sha256": "2c9efa662db255c27c02693455968162d35d9d8ea9d3899c4edde9f3f9b96350",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "631faed4672f16db4cba433b7c738d40a82a3534c01a673cd97c1ec9cd19746e",
+          "terms": 40,
+          "total_degree": 9
+        },
+        {
+          "sha256": "3bb290982ebd5cf18816d444f6a1589b8c92404b1bcc640f4c712543f6a4ce76",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "e7496a53c39e8b13469602e2a57b2baaaa7b69fa1f3e4468746c2b736025c3a2",
+          "terms": 28,
+          "total_degree": 8
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 0,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "6fff158f09561d42ecd40792d12ca128ebfcf0936fcfda8e86c1d490e2cac539",
+          "terms": 20,
+          "total_degree": 9
+        },
+        {
+          "sha256": "0d82a072fe8725fd8c2621838785e3e118878e10e2c9951293df1399b467904b",
+          "terms": 40,
+          "total_degree": 9
+        },
+        {
+          "sha256": "b0f151addb7f88be63bf39b2140ecfec55c37e8440d5cc55423a38246250f40d",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "e2debea0b30fb77751a48d0faf4c39f40dbb8f380e51e1efe83afd0af7340a3c",
+          "terms": 40,
+          "total_degree": 9
+        },
+        {
+          "sha256": "3bb290982ebd5cf18816d444f6a1589b8c92404b1bcc640f4c712543f6a4ce76",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "a5fc5c8fbce9f5c20308c8de81160dce8aaf2f23bfefd998814f33d2fd1b459e",
+          "terms": 28,
+          "total_degree": 8
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 0,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "6fff158f09561d42ecd40792d12ca128ebfcf0936fcfda8e86c1d490e2cac539",
+          "terms": 20,
+          "total_degree": 9
+        },
+        {
+          "sha256": "0d82a072fe8725fd8c2621838785e3e118878e10e2c9951293df1399b467904b",
+          "terms": 40,
+          "total_degree": 9
+        },
+        {
+          "sha256": "2c9efa662db255c27c02693455968162d35d9d8ea9d3899c4edde9f3f9b96350",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "e2debea0b30fb77751a48d0faf4c39f40dbb8f380e51e1efe83afd0af7340a3c",
+          "terms": 40,
+          "total_degree": 9
+        },
+        {
+          "sha256": "f03b4c97a6649d44f487aa36aeed0a108d237f689ff84c21b2a762e45d7eb8ec",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "e7496a53c39e8b13469602e2a57b2baaaa7b69fa1f3e4468746c2b736025c3a2",
+          "terms": 28,
+          "total_degree": 8
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 1,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "45974d6e307fcf561e059c48b715ca36e64843b9e00c207ff4442d1ca0953929",
+          "terms": 44,
+          "total_degree": 10
+        },
+        {
+          "sha256": "6127a45d2a40c782a638484639b12418bd961a36281c44179abaa056906db872",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "db0b2f9259971c360d93a4a11200785ae8aad1c3a21f9a1d6456b2e94a3cd197",
+          "terms": 44,
+          "total_degree": 9
+        },
+        {
+          "sha256": "8e00765d2147bba30c7b735cfcd49a5acd4be8d0dc1c5139db7a70657ecf8572",
+          "terms": 48,
+          "total_degree": 10
+        },
+        {
+          "sha256": "0751549aa4ab7eaaa5b4e8c2424ef681a21f1b07a52c6bab89995378187f782f",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "b9b42cce23d0ee3e9b263ca2a2d50d04f161e866afa64301df086787d38404ad",
+          "terms": 48,
+          "total_degree": 9
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 1,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "45974d6e307fcf561e059c48b715ca36e64843b9e00c207ff4442d1ca0953929",
+          "terms": 44,
+          "total_degree": 10
+        },
+        {
+          "sha256": "6127a45d2a40c782a638484639b12418bd961a36281c44179abaa056906db872",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "db8aed433fe0f806c244e3141e4a1452ab8be83854fdf9a236e2c8ce6a075a58",
+          "terms": 44,
+          "total_degree": 9
+        },
+        {
+          "sha256": "8e00765d2147bba30c7b735cfcd49a5acd4be8d0dc1c5139db7a70657ecf8572",
+          "terms": 48,
+          "total_degree": 10
+        },
+        {
+          "sha256": "a4c402c1a7c836f51073e70b4c88d9fbd5d0609900e38d004231ad676fc90f1b",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "1c79f9d0e5b75a46eea5a0fe5271d6a249048cf55639339e9a806300ebd6e3b8",
+          "terms": 48,
+          "total_degree": 9
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 1,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "45974d6e307fcf561e059c48b715ca36e64843b9e00c207ff4442d1ca0953929",
+          "terms": 44,
+          "total_degree": 10
+        },
+        {
+          "sha256": "e78b0578b812bd1b2a6e20f825b45bdc8da352c3f23399dbf065c6e2521670ff",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "db0b2f9259971c360d93a4a11200785ae8aad1c3a21f9a1d6456b2e94a3cd197",
+          "terms": 44,
+          "total_degree": 9
+        },
+        {
+          "sha256": "504c8811d7231caef262d116113fdc205e559c4175b83607b89796057fccd23d",
+          "terms": 48,
+          "total_degree": 10
+        },
+        {
+          "sha256": "0751549aa4ab7eaaa5b4e8c2424ef681a21f1b07a52c6bab89995378187f782f",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "1c79f9d0e5b75a46eea5a0fe5271d6a249048cf55639339e9a806300ebd6e3b8",
+          "terms": 48,
+          "total_degree": 9
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 1,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "45974d6e307fcf561e059c48b715ca36e64843b9e00c207ff4442d1ca0953929",
+          "terms": 44,
+          "total_degree": 10
+        },
+        {
+          "sha256": "e78b0578b812bd1b2a6e20f825b45bdc8da352c3f23399dbf065c6e2521670ff",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "db8aed433fe0f806c244e3141e4a1452ab8be83854fdf9a236e2c8ce6a075a58",
+          "terms": 44,
+          "total_degree": 9
+        },
+        {
+          "sha256": "504c8811d7231caef262d116113fdc205e559c4175b83607b89796057fccd23d",
+          "terms": 48,
+          "total_degree": 10
+        },
+        {
+          "sha256": "a4c402c1a7c836f51073e70b4c88d9fbd5d0609900e38d004231ad676fc90f1b",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "b9b42cce23d0ee3e9b263ca2a2d50d04f161e866afa64301df086787d38404ad",
+          "terms": 48,
+          "total_degree": 9
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 2,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "2207948d51ea3f3b52652d1bac3c7f922cb662e86adf82b65d6c0a6ffb8dc383",
+          "terms": 44,
+          "total_degree": 10
+        },
+        {
+          "sha256": "11accb95357259e77879c4d135857a067e664b8187dac9dac85b79f1de0ccf90",
+          "terms": 48,
+          "total_degree": 9
+        },
+        {
+          "sha256": "c3a8db91f3773908e8537f481369823f78416685b77a956676675280a151cbfb",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "15c74c2cef3c0c0a26cc50ed54d7b493736d0dc664285541dac97f88ab96fff0",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "ad44be7f1bf24180fbcba9c6f66ad162d99cba9e9bf17c67b2ce2a8b6b5f1b7e",
+          "terms": 44,
+          "total_degree": 10
+        },
+        {
+          "sha256": "81720632fb7e0b4728d199c47e5c8f1011b4ecd92c9b9a05a3a1a5fba9618880",
+          "terms": 48,
+          "total_degree": 9
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 2,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "2207948d51ea3f3b52652d1bac3c7f922cb662e86adf82b65d6c0a6ffb8dc383",
+          "terms": 44,
+          "total_degree": 10
+        },
+        {
+          "sha256": "4d9b0b21d7b40b0178429d95ff5ceb3475beeb4e1e42e668f1640e0a578f0f1b",
+          "terms": 48,
+          "total_degree": 9
+        },
+        {
+          "sha256": "c3a8db91f3773908e8537f481369823f78416685b77a956676675280a151cbfb",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "8e87047b257f7cf0a295352de39cd5d343e68fbcc695164956286d151a36a79c",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "ad44be7f1bf24180fbcba9c6f66ad162d99cba9e9bf17c67b2ce2a8b6b5f1b7e",
+          "terms": 44,
+          "total_degree": 10
+        },
+        {
+          "sha256": "dd1772be6a224e0552d0ed7a5363ca8918a87a29ff12fd59f43727cc11bea670",
+          "terms": 48,
+          "total_degree": 9
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 2,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "2207948d51ea3f3b52652d1bac3c7f922cb662e86adf82b65d6c0a6ffb8dc383",
+          "terms": 44,
+          "total_degree": 10
+        },
+        {
+          "sha256": "11accb95357259e77879c4d135857a067e664b8187dac9dac85b79f1de0ccf90",
+          "terms": 48,
+          "total_degree": 9
+        },
+        {
+          "sha256": "c8733b0838a410a6b222b3e9e7838b1de5849b4437e07b452813965568fd1996",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "15c74c2cef3c0c0a26cc50ed54d7b493736d0dc664285541dac97f88ab96fff0",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "a5f36e01c9416662ec5aae3b599938082143a746eaef657c48e27e2898c82040",
+          "terms": 44,
+          "total_degree": 10
+        },
+        {
+          "sha256": "dd1772be6a224e0552d0ed7a5363ca8918a87a29ff12fd59f43727cc11bea670",
+          "terms": 48,
+          "total_degree": 9
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 2,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "2207948d51ea3f3b52652d1bac3c7f922cb662e86adf82b65d6c0a6ffb8dc383",
+          "terms": 44,
+          "total_degree": 10
+        },
+        {
+          "sha256": "4d9b0b21d7b40b0178429d95ff5ceb3475beeb4e1e42e668f1640e0a578f0f1b",
+          "terms": 48,
+          "total_degree": 9
+        },
+        {
+          "sha256": "c8733b0838a410a6b222b3e9e7838b1de5849b4437e07b452813965568fd1996",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "8e87047b257f7cf0a295352de39cd5d343e68fbcc695164956286d151a36a79c",
+          "terms": 36,
+          "total_degree": 9
+        },
+        {
+          "sha256": "a5f36e01c9416662ec5aae3b599938082143a746eaef657c48e27e2898c82040",
+          "terms": 44,
+          "total_degree": 10
+        },
+        {
+          "sha256": "81720632fb7e0b4728d199c47e5c8f1011b4ecd92c9b9a05a3a1a5fba9618880",
+          "terms": 48,
+          "total_degree": 9
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "LA",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 3,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "7c9670c43a4378d7356f91c28f4d8a8e43bbeade85ec67a202235f5e35acfda8",
+          "terms": 56,
+          "total_degree": 14
+        },
+        {
+          "sha256": "c7fa8a9571a6577083ae383910f54def0fe4c673604d1b0bea93bc9310964726",
+          "terms": 84,
+          "total_degree": 12
+        },
+        {
+          "sha256": "e888028f1cb3175356baa7dfabcabe8a1fe312de434a633850aae8a3f916a037",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "6655aaeeeca69fec4afa66b0647fd7e061f22c41d7eed9db46d10e43eeffb09f",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "1e5e6aa952982ad5289a3bd380ced27f144cc01434ac0ca44e5e7792d77a6d42",
+          "terms": 72,
+          "total_degree": 13
+        },
+        {
+          "sha256": "f84af44594d9168c323b57ce386a87c84a05c1d6cfacb0e50e20ef39ce03f36a",
+          "terms": 64,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 3,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "7c9670c43a4378d7356f91c28f4d8a8e43bbeade85ec67a202235f5e35acfda8",
+          "terms": 56,
+          "total_degree": 14
+        },
+        {
+          "sha256": "c7fa8a9571a6577083ae383910f54def0fe4c673604d1b0bea93bc9310964726",
+          "terms": 84,
+          "total_degree": 12
+        },
+        {
+          "sha256": "9bc05d89244103ad00cb75d26bd6b27d94ababc39d9ac3e4163fbf94b1a2bb0c",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "6655aaeeeca69fec4afa66b0647fd7e061f22c41d7eed9db46d10e43eeffb09f",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "011dcdf6e2e7d5d81199aac2e811e62e0f9d094ea106d3431d131d52d0f23075",
+          "terms": 72,
+          "total_degree": 13
+        },
+        {
+          "sha256": "374dda70f173078c41db0122ae29d409d6217bd2625ba83a1069bf327c970655",
+          "terms": 64,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 3,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "6b431f6d1e4eef8bf50b644e61c14349ba20c4edf7b3a303aa0511133bea99f7",
+          "terms": 56,
+          "total_degree": 14
+        },
+        {
+          "sha256": "c7fa8a9571a6577083ae383910f54def0fe4c673604d1b0bea93bc9310964726",
+          "terms": 84,
+          "total_degree": 12
+        },
+        {
+          "sha256": "e888028f1cb3175356baa7dfabcabe8a1fe312de434a633850aae8a3f916a037",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "3b35f6bb1fbf478ff1422a652084c248cebc19507162ae11816720d0da36c8f3",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "011dcdf6e2e7d5d81199aac2e811e62e0f9d094ea106d3431d131d52d0f23075",
+          "terms": 72,
+          "total_degree": 13
+        },
+        {
+          "sha256": "f84af44594d9168c323b57ce386a87c84a05c1d6cfacb0e50e20ef39ce03f36a",
+          "terms": 64,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 3,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "6b431f6d1e4eef8bf50b644e61c14349ba20c4edf7b3a303aa0511133bea99f7",
+          "terms": 56,
+          "total_degree": 14
+        },
+        {
+          "sha256": "c7fa8a9571a6577083ae383910f54def0fe4c673604d1b0bea93bc9310964726",
+          "terms": 84,
+          "total_degree": 12
+        },
+        {
+          "sha256": "9bc05d89244103ad00cb75d26bd6b27d94ababc39d9ac3e4163fbf94b1a2bb0c",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "3b35f6bb1fbf478ff1422a652084c248cebc19507162ae11816720d0da36c8f3",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "1e5e6aa952982ad5289a3bd380ced27f144cc01434ac0ca44e5e7792d77a6d42",
+          "terms": 72,
+          "total_degree": 13
+        },
+        {
+          "sha256": "374dda70f173078c41db0122ae29d409d6217bd2625ba83a1069bf327c970655",
+          "terms": 64,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 4,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "c914f60efb60289263acde094e5465a5f3d916d3ddcf9fdc57412c8aba81da53",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "157a5059d63e79bd77ccf97db6d7ea4350612c73f2f7ca009d383296721d91a0",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "7eb3ae4050d89a7c10b8bca7536a106c6820441c89f11107517566d47c5ac38a",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "2c7149bb07785021d6280103b88a8684afe29383891c01ba6e4e547dfbb70935",
+          "terms": 96,
+          "total_degree": 12
+        },
+        {
+          "sha256": "06cd9601ea6884dc6089991288efeced62e6abafb9cd3069474b1e308f7b1c8f",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "fdf2af5529cb80c5789dce3a2777af7f16eed553f796db3e9e9a0d232e2c280c",
+          "terms": 96,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 4,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "c914f60efb60289263acde094e5465a5f3d916d3ddcf9fdc57412c8aba81da53",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "157a5059d63e79bd77ccf97db6d7ea4350612c73f2f7ca009d383296721d91a0",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "fc3b8c27f3d877e0b09fcff6a05b6f8605d6b6fdd4f228467d70944bab93d7ad",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "2c7149bb07785021d6280103b88a8684afe29383891c01ba6e4e547dfbb70935",
+          "terms": 96,
+          "total_degree": 12
+        },
+        {
+          "sha256": "fd09b1746cef21b370d49ac9b930b825725fcdfd14ed7bd6df020dbc6c592a0d",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "5d2ec7b8d705159c227a414182ec31906a1517c0b6d5b77555d9f1297ce596b2",
+          "terms": 96,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 4,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "c914f60efb60289263acde094e5465a5f3d916d3ddcf9fdc57412c8aba81da53",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "f718bc62785ffb15f603a5a6bd420cced72e53789b41473fab1dce67bb5c0555",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "7eb3ae4050d89a7c10b8bca7536a106c6820441c89f11107517566d47c5ac38a",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "ca70f2ee526e5ff76fc3dce73edaf3e098d6ffef1089ffb9066fede8177e1bb1",
+          "terms": 96,
+          "total_degree": 12
+        },
+        {
+          "sha256": "06cd9601ea6884dc6089991288efeced62e6abafb9cd3069474b1e308f7b1c8f",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "5d2ec7b8d705159c227a414182ec31906a1517c0b6d5b77555d9f1297ce596b2",
+          "terms": 96,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 4,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "c914f60efb60289263acde094e5465a5f3d916d3ddcf9fdc57412c8aba81da53",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "f718bc62785ffb15f603a5a6bd420cced72e53789b41473fab1dce67bb5c0555",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "fc3b8c27f3d877e0b09fcff6a05b6f8605d6b6fdd4f228467d70944bab93d7ad",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "ca70f2ee526e5ff76fc3dce73edaf3e098d6ffef1089ffb9066fede8177e1bb1",
+          "terms": 96,
+          "total_degree": 12
+        },
+        {
+          "sha256": "fd09b1746cef21b370d49ac9b930b825725fcdfd14ed7bd6df020dbc6c592a0d",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "fdf2af5529cb80c5789dce3a2777af7f16eed553f796db3e9e9a0d232e2c280c",
+          "terms": 96,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 5,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "76c26e2b3585ca0b13182e47f8251a1695c306e3ceeac47ad6de8aeed3256376",
+          "terms": 76,
+          "total_degree": 13
+        },
+        {
+          "sha256": "a1fbbe407972101d66f1590a52bb0dd8c9fddb39709e17d18c73a0c645951f50",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "d270cb8a677daa06a9649d45ee6566184adcb7f6970bd912ddeaa188690b86c9",
+          "terms": 68,
+          "total_degree": 13
+        },
+        {
+          "sha256": "fa7470f50484ae50df76cb5083a29007333b061e3645c0430603733702c76456",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "baaa34981f3e334e0b68f625e26f417be8ee96795877eea9c918bd942c11a0c5",
+          "terms": 76,
+          "total_degree": 12
+        },
+        {
+          "sha256": "1623800db86cd639ec92759c76c933a9cfc32a8b97953f9059d4f58b097426b8",
+          "terms": 76,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 5,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "76c26e2b3585ca0b13182e47f8251a1695c306e3ceeac47ad6de8aeed3256376",
+          "terms": 76,
+          "total_degree": 13
+        },
+        {
+          "sha256": "c6f87a412d411ea61e953dc6a98f486851a094c51543bcfa29263dfc93891cdc",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "d270cb8a677daa06a9649d45ee6566184adcb7f6970bd912ddeaa188690b86c9",
+          "terms": 68,
+          "total_degree": 13
+        },
+        {
+          "sha256": "cfabe62e79aa7115205ddf6b835252322ae9aeaa9a77ef22e40dfd73e82ad592",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "baaa34981f3e334e0b68f625e26f417be8ee96795877eea9c918bd942c11a0c5",
+          "terms": 76,
+          "total_degree": 12
+        },
+        {
+          "sha256": "74bcea09da6ff548e40cf6d0d124c86cffd553c77113ad670c8fcc85c57ecaf7",
+          "terms": 76,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 5,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "76c26e2b3585ca0b13182e47f8251a1695c306e3ceeac47ad6de8aeed3256376",
+          "terms": 76,
+          "total_degree": 13
+        },
+        {
+          "sha256": "a1fbbe407972101d66f1590a52bb0dd8c9fddb39709e17d18c73a0c645951f50",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "bfe20f380a788412aa10df9ca32098b3276a8852cbfbe5f98d362524a2655112",
+          "terms": 68,
+          "total_degree": 13
+        },
+        {
+          "sha256": "fa7470f50484ae50df76cb5083a29007333b061e3645c0430603733702c76456",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "2500db64a3013d026baa2bf07bb8059fd008fc8f6304596be5383ef37a0a2150",
+          "terms": 76,
+          "total_degree": 12
+        },
+        {
+          "sha256": "74bcea09da6ff548e40cf6d0d124c86cffd553c77113ad670c8fcc85c57ecaf7",
+          "terms": 76,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 5,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "76c26e2b3585ca0b13182e47f8251a1695c306e3ceeac47ad6de8aeed3256376",
+          "terms": 76,
+          "total_degree": 13
+        },
+        {
+          "sha256": "c6f87a412d411ea61e953dc6a98f486851a094c51543bcfa29263dfc93891cdc",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "bfe20f380a788412aa10df9ca32098b3276a8852cbfbe5f98d362524a2655112",
+          "terms": 68,
+          "total_degree": 13
+        },
+        {
+          "sha256": "cfabe62e79aa7115205ddf6b835252322ae9aeaa9a77ef22e40dfd73e82ad592",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "2500db64a3013d026baa2bf07bb8059fd008fc8f6304596be5383ef37a0a2150",
+          "terms": 76,
+          "total_degree": 12
+        },
+        {
+          "sha256": "1623800db86cd639ec92759c76c933a9cfc32a8b97953f9059d4f58b097426b8",
+          "terms": 76,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AB",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 6,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "25ae8f3ea66e519414a9534185dd7f9ef1229eefd4443bc9a1d97dd6e2697c80",
+          "terms": 56,
+          "total_degree": 14
+        },
+        {
+          "sha256": "c1c32978879578a7f2fd26f7acddac7737712d1bef490e283707bf05580de55c",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "07a3881f94590d24370e7313146dd96a9a16c5cd42f499ef198eaf9e2959f57b",
+          "terms": 72,
+          "total_degree": 13
+        },
+        {
+          "sha256": "a0a81ce752e9765c1544685afc4634706253d9895b83f5840a6b31cfdc083078",
+          "terms": 84,
+          "total_degree": 12
+        },
+        {
+          "sha256": "e6fd35b4e4b53092312f6c86337b0b6d36e757e0b537727af459ec09c6e8df3b",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "70e27f02dbb176eb8be1fc4aded45f6cc2904b01445db8701071d18a14f0a94e",
+          "terms": 64,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 6,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "25ae8f3ea66e519414a9534185dd7f9ef1229eefd4443bc9a1d97dd6e2697c80",
+          "terms": 56,
+          "total_degree": 14
+        },
+        {
+          "sha256": "c1c32978879578a7f2fd26f7acddac7737712d1bef490e283707bf05580de55c",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "edf4ce7216a8271381cb52034837abcc77ddf5ecad5c194798fd7fa127737f38",
+          "terms": 72,
+          "total_degree": 13
+        },
+        {
+          "sha256": "a0a81ce752e9765c1544685afc4634706253d9895b83f5840a6b31cfdc083078",
+          "terms": 84,
+          "total_degree": 12
+        },
+        {
+          "sha256": "9b2e3d7af0033edefc591cd5341457f2563581008fd504c21322fb43f2432095",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "fde7077fd9bbbb8c7a0539cec6a1a163e1c26499b2462a7bc69aefea69cf1a46",
+          "terms": 64,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 6,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "7e29ff3747abf718798808a37c3949773198435e7bb47e88b106080577e43413",
+          "terms": 56,
+          "total_degree": 14
+        },
+        {
+          "sha256": "95b2baf7d835bf779800f56ecb0303f9ab0337f2da129a13a81bc70198bc05a1",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "edf4ce7216a8271381cb52034837abcc77ddf5ecad5c194798fd7fa127737f38",
+          "terms": 72,
+          "total_degree": 13
+        },
+        {
+          "sha256": "a0a81ce752e9765c1544685afc4634706253d9895b83f5840a6b31cfdc083078",
+          "terms": 84,
+          "total_degree": 12
+        },
+        {
+          "sha256": "e6fd35b4e4b53092312f6c86337b0b6d36e757e0b537727af459ec09c6e8df3b",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "70e27f02dbb176eb8be1fc4aded45f6cc2904b01445db8701071d18a14f0a94e",
+          "terms": 64,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 6,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "7e29ff3747abf718798808a37c3949773198435e7bb47e88b106080577e43413",
+          "terms": 56,
+          "total_degree": 14
+        },
+        {
+          "sha256": "95b2baf7d835bf779800f56ecb0303f9ab0337f2da129a13a81bc70198bc05a1",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "07a3881f94590d24370e7313146dd96a9a16c5cd42f499ef198eaf9e2959f57b",
+          "terms": 72,
+          "total_degree": 13
+        },
+        {
+          "sha256": "a0a81ce752e9765c1544685afc4634706253d9895b83f5840a6b31cfdc083078",
+          "terms": 84,
+          "total_degree": 12
+        },
+        {
+          "sha256": "9b2e3d7af0033edefc591cd5341457f2563581008fd504c21322fb43f2432095",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "fde7077fd9bbbb8c7a0539cec6a1a163e1c26499b2462a7bc69aefea69cf1a46",
+          "terms": 64,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 7,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "e55a37ae8d659e57bba137ffd5985216412ce0830204537ff7026ffb13546552",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "c4523f9dbea6899b7c48653d8a3f8e7b29bda3168f742713719537c6f1df991d",
+          "terms": 96,
+          "total_degree": 12
+        },
+        {
+          "sha256": "4bf40e057eaae96a3af3e60c3adce4b1920aa770c31357387787a826015254f9",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "9a9dd05631377211fc351543e219ab51019cd42212c1ac58c642bcfe6e686498",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "8975c5344415a795fffd0b71833b98d4e293c802007e0153b067ca82c51ae316",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "13066c5c7cd98719dd67f3c9533f57d91dfbf2022d4077e22c35acccda17ab5c",
+          "terms": 96,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 7,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "e55a37ae8d659e57bba137ffd5985216412ce0830204537ff7026ffb13546552",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "c4523f9dbea6899b7c48653d8a3f8e7b29bda3168f742713719537c6f1df991d",
+          "terms": 96,
+          "total_degree": 12
+        },
+        {
+          "sha256": "e4037e4dc7d12b3abe793e6034b1ddaf5d22fb6783d5fd2c35525a289b51aaa5",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "9a9dd05631377211fc351543e219ab51019cd42212c1ac58c642bcfe6e686498",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "d578666b40a349b18c6d015b56de66022f14f7a92b30b53ddd85b7445dbfc04b",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "6e2258d3e685078b377f60b01578c7640de9b61b1f74b94f3337f9230faaa8a4",
+          "terms": 96,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 7,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "e55a37ae8d659e57bba137ffd5985216412ce0830204537ff7026ffb13546552",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "d9ceddf8b00a47365850d9507cd792cecb9defb781ca18078882532c18461841",
+          "terms": 96,
+          "total_degree": 12
+        },
+        {
+          "sha256": "4bf40e057eaae96a3af3e60c3adce4b1920aa770c31357387787a826015254f9",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "68beaa148b9811d26a58ed8ee9f61bb8af3889aeec5d9be0e933adab233d0868",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "8975c5344415a795fffd0b71833b98d4e293c802007e0153b067ca82c51ae316",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "6e2258d3e685078b377f60b01578c7640de9b61b1f74b94f3337f9230faaa8a4",
+          "terms": 96,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 7,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "e55a37ae8d659e57bba137ffd5985216412ce0830204537ff7026ffb13546552",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "d9ceddf8b00a47365850d9507cd792cecb9defb781ca18078882532c18461841",
+          "terms": 96,
+          "total_degree": 12
+        },
+        {
+          "sha256": "e4037e4dc7d12b3abe793e6034b1ddaf5d22fb6783d5fd2c35525a289b51aaa5",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "68beaa148b9811d26a58ed8ee9f61bb8af3889aeec5d9be0e933adab233d0868",
+          "terms": 92,
+          "total_degree": 13
+        },
+        {
+          "sha256": "d578666b40a349b18c6d015b56de66022f14f7a92b30b53ddd85b7445dbfc04b",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "13066c5c7cd98719dd67f3c9533f57d91dfbf2022d4077e22c35acccda17ab5c",
+          "terms": 96,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 8,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "e5729b6a8bdc57e8afb3176fc36d22a25c8fb0c6af5b7fcf4788db2bad48031e",
+          "terms": 76,
+          "total_degree": 13
+        },
+        {
+          "sha256": "55a88b8af143a9f00d7afee458af04381c3c891b2a6897f3784f4d2b22c50d2a",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "760f66770b4aa8b009d4ef1d0b1456392034dee45c2be46f4822fed912634012",
+          "terms": 76,
+          "total_degree": 12
+        },
+        {
+          "sha256": "68e41f66863ad934b1faea3d343858f6ae189cb6c1f4991d7d080cf9613f2f8d",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "a8284adc6ecc61402c30e1f7bc009352130895db1e940ad6c01cc952827d4ef0",
+          "terms": 68,
+          "total_degree": 13
+        },
+        {
+          "sha256": "62321c39ee753b039b0f8c4d7d069d34c87aa3438ad7ad4e5b697e5eaec6f056",
+          "terms": 76,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 8,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "e5729b6a8bdc57e8afb3176fc36d22a25c8fb0c6af5b7fcf4788db2bad48031e",
+          "terms": 76,
+          "total_degree": 13
+        },
+        {
+          "sha256": "c94265b3b4908fdd10b9ddab59ee59a94ce1b0bd20986eb6a2353e050af963e2",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "760f66770b4aa8b009d4ef1d0b1456392034dee45c2be46f4822fed912634012",
+          "terms": 76,
+          "total_degree": 12
+        },
+        {
+          "sha256": "6d07de12d5445e3434c62d3d80065b10e05359bcfe60cd186febe9b2d0f56bef",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "a8284adc6ecc61402c30e1f7bc009352130895db1e940ad6c01cc952827d4ef0",
+          "terms": 68,
+          "total_degree": 13
+        },
+        {
+          "sha256": "fa7dcdaad2da296cde69c23daad7e7c653edf75e53176b2636b558800a078734",
+          "terms": 76,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 8,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "e5729b6a8bdc57e8afb3176fc36d22a25c8fb0c6af5b7fcf4788db2bad48031e",
+          "terms": 76,
+          "total_degree": 13
+        },
+        {
+          "sha256": "55a88b8af143a9f00d7afee458af04381c3c891b2a6897f3784f4d2b22c50d2a",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "3ce3f7edada1127bffb6829bc814adcac0d9ad3ee9a83a3f17446e0ec34de284",
+          "terms": 76,
+          "total_degree": 12
+        },
+        {
+          "sha256": "68e41f66863ad934b1faea3d343858f6ae189cb6c1f4991d7d080cf9613f2f8d",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "c741558e99004df9a6f8380a061b5b68d90266140b50c6f80f123929aceac59f",
+          "terms": 68,
+          "total_degree": 13
+        },
+        {
+          "sha256": "fa7dcdaad2da296cde69c23daad7e7c653edf75e53176b2636b558800a078734",
+          "terms": 76,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 8,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "e5729b6a8bdc57e8afb3176fc36d22a25c8fb0c6af5b7fcf4788db2bad48031e",
+          "terms": 76,
+          "total_degree": 13
+        },
+        {
+          "sha256": "c94265b3b4908fdd10b9ddab59ee59a94ce1b0bd20986eb6a2353e050af963e2",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "3ce3f7edada1127bffb6829bc814adcac0d9ad3ee9a83a3f17446e0ec34de284",
+          "terms": 76,
+          "total_degree": 12
+        },
+        {
+          "sha256": "6d07de12d5445e3434c62d3d80065b10e05359bcfe60cd186febe9b2d0f56bef",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "c741558e99004df9a6f8380a061b5b68d90266140b50c6f80f123929aceac59f",
+          "terms": 68,
+          "total_degree": 13
+        },
+        {
+          "sha256": "62321c39ee753b039b0f8c4d7d069d34c87aa3438ad7ad4e5b697e5eaec6f056",
+          "terms": 76,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "AC",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 9,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "f9b1908ad5f7606e9808f254a0eb50ae28e0465d4b6c0d23c632bad57337036a",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "03c91bdad4346889fa6780056d1060793600c0825e74ef34df72def4b51d6782",
+          "terms": 88,
+          "total_degree": 14
+        },
+        {
+          "sha256": "fcd28b859cee363622c4c8ace06c00e824497bc01618f9d8cc65490a2f88bc9f",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "6253c8556fe42adeafef8307bfadffd3bf90c36fa8cb9a28518f25faa9b19134",
+          "terms": 96,
+          "total_degree": 12
+        },
+        {
+          "sha256": "0be351adae1972ff09d05997e2724bda924a795f99d72f8d961e2932afa3680d",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "1e0c7bc35733f6fd7673a1073191df99094f60ad5d223b3ee8ac9c1b9a121b6e",
+          "terms": 100,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 9,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "f9b1908ad5f7606e9808f254a0eb50ae28e0465d4b6c0d23c632bad57337036a",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "03c91bdad4346889fa6780056d1060793600c0825e74ef34df72def4b51d6782",
+          "terms": 88,
+          "total_degree": 14
+        },
+        {
+          "sha256": "a9d961c198ac66be22982d3635d4ab07f32ae447e31fb781cd7d5d907bad4f81",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "6253c8556fe42adeafef8307bfadffd3bf90c36fa8cb9a28518f25faa9b19134",
+          "terms": 96,
+          "total_degree": 12
+        },
+        {
+          "sha256": "e04bae655ef370866c9ba95a44ca2d70293a79b78583ded6f3979db232612f72",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "d14401ea6a00a9622bd13dedf97ec53c187f9510bcf0aa8fb8971c4d352f08cf",
+          "terms": 100,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 9,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "33b71561059d29f29c3cbf9145b70ac9278d457618ae91b006833e9d0af1d640",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "59513962c58e76a5adc34b7df7a8bb1785ccda395c373cda20dbb17e60c721d3",
+          "terms": 88,
+          "total_degree": 14
+        },
+        {
+          "sha256": "a9d961c198ac66be22982d3635d4ab07f32ae447e31fb781cd7d5d907bad4f81",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "6253c8556fe42adeafef8307bfadffd3bf90c36fa8cb9a28518f25faa9b19134",
+          "terms": 96,
+          "total_degree": 12
+        },
+        {
+          "sha256": "0be351adae1972ff09d05997e2724bda924a795f99d72f8d961e2932afa3680d",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "1e0c7bc35733f6fd7673a1073191df99094f60ad5d223b3ee8ac9c1b9a121b6e",
+          "terms": 100,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 9,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "33b71561059d29f29c3cbf9145b70ac9278d457618ae91b006833e9d0af1d640",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "59513962c58e76a5adc34b7df7a8bb1785ccda395c373cda20dbb17e60c721d3",
+          "terms": 88,
+          "total_degree": 14
+        },
+        {
+          "sha256": "fcd28b859cee363622c4c8ace06c00e824497bc01618f9d8cc65490a2f88bc9f",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "6253c8556fe42adeafef8307bfadffd3bf90c36fa8cb9a28518f25faa9b19134",
+          "terms": 96,
+          "total_degree": 12
+        },
+        {
+          "sha256": "e04bae655ef370866c9ba95a44ca2d70293a79b78583ded6f3979db232612f72",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "d14401ea6a00a9622bd13dedf97ec53c187f9510bcf0aa8fb8971c4d352f08cf",
+          "terms": 100,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 10,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "68ba25445e8fa9cf2abb0f9e40992d3222a6ae739a6d41cf0fd37f688012f281",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "28d02ca0282c50b7d861d4dd76d70949d6f68effeafa689500ca6334c0e78068",
+          "terms": 96,
+          "total_degree": 12
+        },
+        {
+          "sha256": "0065a7f06b120727a61cad042af7d4251eda7acebc065312f37c391eaa55c8c2",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "3f5df464256ba56b7985f0f00bbcdb89aa5affb030bed947b07e556bb6583231",
+          "terms": 88,
+          "total_degree": 14
+        },
+        {
+          "sha256": "d36ae883fd08169fe76097ff52350c30c4e6f3c964132e194cfc37ab2d89b898",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "83cc372413e2a85eb358f6734ecf3bf633bca31617bcfa31cd408ae1b7ee693f",
+          "terms": 100,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 10,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "68ba25445e8fa9cf2abb0f9e40992d3222a6ae739a6d41cf0fd37f688012f281",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "28d02ca0282c50b7d861d4dd76d70949d6f68effeafa689500ca6334c0e78068",
+          "terms": 96,
+          "total_degree": 12
+        },
+        {
+          "sha256": "570e5a534953b912e7179aac1588a282ccf3bee812249e4970b5894fc19f4d55",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "3f5df464256ba56b7985f0f00bbcdb89aa5affb030bed947b07e556bb6583231",
+          "terms": 88,
+          "total_degree": 14
+        },
+        {
+          "sha256": "6923108a4841a334ead86687c9ccf8945f2ba53c056056826f61a09eff8d8fac",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "32deac4479a44e398347825989cfa28651f214813829ad59af18896719222a51",
+          "terms": 100,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 10,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "3cf6732be90badb1227090b7cd37073ce29e89433a60a998528df3d3a342feb1",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "28d02ca0282c50b7d861d4dd76d70949d6f68effeafa689500ca6334c0e78068",
+          "terms": 96,
+          "total_degree": 12
+        },
+        {
+          "sha256": "0065a7f06b120727a61cad042af7d4251eda7acebc065312f37c391eaa55c8c2",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "f940d4031ab5444c47f4fc7ce4ccd9bf147a37fa99ff8a66df00019c7d0565a3",
+          "terms": 88,
+          "total_degree": 14
+        },
+        {
+          "sha256": "6923108a4841a334ead86687c9ccf8945f2ba53c056056826f61a09eff8d8fac",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "83cc372413e2a85eb358f6734ecf3bf633bca31617bcfa31cd408ae1b7ee693f",
+          "terms": 100,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 10,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "3cf6732be90badb1227090b7cd37073ce29e89433a60a998528df3d3a342feb1",
+          "terms": 80,
+          "total_degree": 13
+        },
+        {
+          "sha256": "28d02ca0282c50b7d861d4dd76d70949d6f68effeafa689500ca6334c0e78068",
+          "terms": 96,
+          "total_degree": 12
+        },
+        {
+          "sha256": "570e5a534953b912e7179aac1588a282ccf3bee812249e4970b5894fc19f4d55",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "f940d4031ab5444c47f4fc7ce4ccd9bf147a37fa99ff8a66df00019c7d0565a3",
+          "terms": 88,
+          "total_degree": 14
+        },
+        {
+          "sha256": "d36ae883fd08169fe76097ff52350c30c4e6f3c964132e194cfc37ab2d89b898",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "32deac4479a44e398347825989cfa28651f214813829ad59af18896719222a51",
+          "terms": 100,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 11,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "16801e94731f546623306ab3d6354aff43107ad0de26fcf4e0f0722bcf9f8add",
+          "terms": 68,
+          "total_degree": 13
+        },
+        {
+          "sha256": "3df3176f271b40b7312b1c90017ced107f965111ee4913e3fcaf25945d2862ca",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "bc78c003d128b6dde08c5ef2a372ef99a72c3bc9a53cfa8022eb60f185c29ad4",
+          "terms": 80,
+          "total_degree": 12
+        },
+        {
+          "sha256": "e191328b3117d64bd51302d0211470cb5e55205d3d20a6e434991a727c68b5c6",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "1934879e04ee950fc08d7ee17cf3dd448dee1dedcd0fc634891f08725b9fe9ed",
+          "terms": 80,
+          "total_degree": 12
+        },
+        {
+          "sha256": "aa9f0c7e08460f764122ebbadbf718e5c0cce57edf457db2be3faa31f2d1a24e",
+          "terms": 72,
+          "total_degree": 13
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 11,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "2ab7b0098fe1143cbeaf7ce266196918bd2aa28623a324a63a9950663272374d",
+          "terms": 68,
+          "total_degree": 13
+        },
+        {
+          "sha256": "3df3176f271b40b7312b1c90017ced107f965111ee4913e3fcaf25945d2862ca",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "bc78c003d128b6dde08c5ef2a372ef99a72c3bc9a53cfa8022eb60f185c29ad4",
+          "terms": 80,
+          "total_degree": 12
+        },
+        {
+          "sha256": "9cde5dfcfdd9fda34befbfe23c2489b6155dab47b46c2837d0a4b6c6a4b4a17d",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "78dc751d0c3dedf28c414a24df72a3e130814a8880dcfd5f2ef88614a0ca76a2",
+          "terms": 80,
+          "total_degree": 12
+        },
+        {
+          "sha256": "aa9f0c7e08460f764122ebbadbf718e5c0cce57edf457db2be3faa31f2d1a24e",
+          "terms": 72,
+          "total_degree": 13
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 11,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "16801e94731f546623306ab3d6354aff43107ad0de26fcf4e0f0722bcf9f8add",
+          "terms": 68,
+          "total_degree": 13
+        },
+        {
+          "sha256": "3df3176f271b40b7312b1c90017ced107f965111ee4913e3fcaf25945d2862ca",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "63a64c4ceec4b8ef48f31d104f9da5d8b17e85aafc6aae9b60fc67862532132a",
+          "terms": 80,
+          "total_degree": 12
+        },
+        {
+          "sha256": "e191328b3117d64bd51302d0211470cb5e55205d3d20a6e434991a727c68b5c6",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "78dc751d0c3dedf28c414a24df72a3e130814a8880dcfd5f2ef88614a0ca76a2",
+          "terms": 80,
+          "total_degree": 12
+        },
+        {
+          "sha256": "26094c9ef9c972e3ea2caafab569222a8e355f4bc056cccf48e7e065ae72e65e",
+          "terms": 72,
+          "total_degree": 13
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 11,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "2ab7b0098fe1143cbeaf7ce266196918bd2aa28623a324a63a9950663272374d",
+          "terms": 68,
+          "total_degree": 13
+        },
+        {
+          "sha256": "3df3176f271b40b7312b1c90017ced107f965111ee4913e3fcaf25945d2862ca",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "63a64c4ceec4b8ef48f31d104f9da5d8b17e85aafc6aae9b60fc67862532132a",
+          "terms": 80,
+          "total_degree": 12
+        },
+        {
+          "sha256": "9cde5dfcfdd9fda34befbfe23c2489b6155dab47b46c2837d0a4b6c6a4b4a17d",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "1934879e04ee950fc08d7ee17cf3dd448dee1dedcd0fc634891f08725b9fe9ed",
+          "terms": 80,
+          "total_degree": 12
+        },
+        {
+          "sha256": "26094c9ef9c972e3ea2caafab569222a8e355f4bc056cccf48e7e065ae72e65e",
+          "terms": 72,
+          "total_degree": 13
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC+",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 12,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "b71a3e1c049c2d13632859b682c971c692bf69e4826f56a8a991feeb471a5ccd",
+          "terms": 72,
+          "total_degree": 13
+        },
+        {
+          "sha256": "6e27bd6126906d8fb9277eb5b7c50561aed1ee1afa2e6a3c15ace1361621402a",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "49ece69868583a6e700b4b4bf3bc7eff96736c6ba45a8e224eaedea14d889024",
+          "terms": 68,
+          "total_degree": 14
+        },
+        {
+          "sha256": "1b5766d513ae8b2d313d6a03d531e4784917a2cf42ce4b9e7977410c61244249",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "ce7fe863f84f3ee8a05216bd812956f4c2341a38b22d2f54fbf6bfcc68c2dfb2",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "082dcdca6ce143a783b4a9067e29deeedcc8389380f439690c6c36e771e53e67",
+          "terms": 84,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 12,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "b71a3e1c049c2d13632859b682c971c692bf69e4826f56a8a991feeb471a5ccd",
+          "terms": 72,
+          "total_degree": 13
+        },
+        {
+          "sha256": "f8f0d3a3451939ff3ff08e689ad2a360876f15dcb656da5e8cf2598c7d0a9804",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "49ece69868583a6e700b4b4bf3bc7eff96736c6ba45a8e224eaedea14d889024",
+          "terms": 68,
+          "total_degree": 14
+        },
+        {
+          "sha256": "66973602619d788127b170c589330b7ddead1497a15c2f811b6cfc9569b7c9b8",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "ce7fe863f84f3ee8a05216bd812956f4c2341a38b22d2f54fbf6bfcc68c2dfb2",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "902c266bce17af911170867ef5028382f198d3e9a8ed85954a048b12b0439d86",
+          "terms": 84,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 12,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "d765652f28ff3988241e0c2f4354bfd22afea87b150776103d0d4889a29bbc3b",
+          "terms": 72,
+          "total_degree": 13
+        },
+        {
+          "sha256": "f8f0d3a3451939ff3ff08e689ad2a360876f15dcb656da5e8cf2598c7d0a9804",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "766dd950a9a8b744e9f11a342861455cd4fc5ed6a78a80f7b8934acd149e1ce7",
+          "terms": 68,
+          "total_degree": 14
+        },
+        {
+          "sha256": "1b5766d513ae8b2d313d6a03d531e4784917a2cf42ce4b9e7977410c61244249",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "ce7fe863f84f3ee8a05216bd812956f4c2341a38b22d2f54fbf6bfcc68c2dfb2",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "082dcdca6ce143a783b4a9067e29deeedcc8389380f439690c6c36e771e53e67",
+          "terms": 84,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 12,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "d765652f28ff3988241e0c2f4354bfd22afea87b150776103d0d4889a29bbc3b",
+          "terms": 72,
+          "total_degree": 13
+        },
+        {
+          "sha256": "6e27bd6126906d8fb9277eb5b7c50561aed1ee1afa2e6a3c15ace1361621402a",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "766dd950a9a8b744e9f11a342861455cd4fc5ed6a78a80f7b8934acd149e1ce7",
+          "terms": 68,
+          "total_degree": 14
+        },
+        {
+          "sha256": "66973602619d788127b170c589330b7ddead1497a15c2f811b6cfc9569b7c9b8",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "ce7fe863f84f3ee8a05216bd812956f4c2341a38b22d2f54fbf6bfcc68c2dfb2",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "902c266bce17af911170867ef5028382f198d3e9a8ed85954a048b12b0439d86",
+          "terms": 84,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 13,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "d4aa4ffa145bffd2dc9a18b21d356af2ef0c9bedb92fc925fa7d0bd5c074ad60",
+          "terms": 72,
+          "total_degree": 13
+        },
+        {
+          "sha256": "5c0f9faa617127a1d96cc9f25a4b10e575a56cb56fb6558fc383d3e696f2b550",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "f0a22589a157cfaf9b43e262270daccd7e071433f04bf6de40b108b23f3074de",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "e53799a145b31081ac8a97cacddc5430780549493b738490886decfb545fab24",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "da71141a890e60eee16d60c1c46e97b4cd2f3aeb537cf52e7d31031571c2c0d4",
+          "terms": 68,
+          "total_degree": 14
+        },
+        {
+          "sha256": "e1600f0ee65794710991f2d51ea65d92ca656e2b6dce8d216d46f6f9f248113a",
+          "terms": 84,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 13,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "d4aa4ffa145bffd2dc9a18b21d356af2ef0c9bedb92fc925fa7d0bd5c074ad60",
+          "terms": 72,
+          "total_degree": 13
+        },
+        {
+          "sha256": "04b13d25c8faa743ce665c06061e7d56e33606a99f925dbe71f9a8b4bda7b063",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "f0a22589a157cfaf9b43e262270daccd7e071433f04bf6de40b108b23f3074de",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "87b03ae2b40afa58cbcfe66c1a6d73a2c16077c23a37e30b8704422bdeebfee5",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "da71141a890e60eee16d60c1c46e97b4cd2f3aeb537cf52e7d31031571c2c0d4",
+          "terms": 68,
+          "total_degree": 14
+        },
+        {
+          "sha256": "56afca164fd1fc5760437e9bed970b441a4f880df1f3234dcd72f52e2aa70fea",
+          "terms": 84,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 13,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "6dca5143c0d233e86cdbf186c073307b04a5227b069d8cd4cf673e8955a99eff",
+          "terms": 72,
+          "total_degree": 13
+        },
+        {
+          "sha256": "5c0f9faa617127a1d96cc9f25a4b10e575a56cb56fb6558fc383d3e696f2b550",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "f0a22589a157cfaf9b43e262270daccd7e071433f04bf6de40b108b23f3074de",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "87b03ae2b40afa58cbcfe66c1a6d73a2c16077c23a37e30b8704422bdeebfee5",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "da23e54a3c1c73276a4a2018af53014487c068cebc19cd981b524bcf1f311a6f",
+          "terms": 68,
+          "total_degree": 14
+        },
+        {
+          "sha256": "e1600f0ee65794710991f2d51ea65d92ca656e2b6dce8d216d46f6f9f248113a",
+          "terms": 84,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 13,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "6dca5143c0d233e86cdbf186c073307b04a5227b069d8cd4cf673e8955a99eff",
+          "terms": 72,
+          "total_degree": 13
+        },
+        {
+          "sha256": "04b13d25c8faa743ce665c06061e7d56e33606a99f925dbe71f9a8b4bda7b063",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "f0a22589a157cfaf9b43e262270daccd7e071433f04bf6de40b108b23f3074de",
+          "terms": 72,
+          "total_degree": 12
+        },
+        {
+          "sha256": "e53799a145b31081ac8a97cacddc5430780549493b738490886decfb545fab24",
+          "terms": 84,
+          "total_degree": 13
+        },
+        {
+          "sha256": "da23e54a3c1c73276a4a2018af53014487c068cebc19cd981b524bcf1f311a6f",
+          "terms": 68,
+          "total_degree": 14
+        },
+        {
+          "sha256": "56afca164fd1fc5760437e9bed970b441a4f880df1f3234dcd72f52e2aa70fea",
+          "terms": 84,
+          "total_degree": 12
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 14,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "9821f05f9cc8ab8131d7b20658eef0c668a6befa096477a28e85628813a5a5fc",
+          "terms": 76,
+          "total_degree": 13
+        },
+        {
+          "sha256": "f999dc7547e31ddcbaf9ad963a2e6b6a782d1b92f8ba9418bd72b09e1e3b32f4",
+          "terms": 88,
+          "total_degree": 12
+        },
+        {
+          "sha256": "d5b214ad0aa680b3335faa5f247846f252f2d869c3ab23dc130cdb72c0456686",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "d5ae789e7ddc69aa7c32fc6281cf2e6ba368844c4a14f3e922e7f882390c4139",
+          "terms": 88,
+          "total_degree": 12
+        },
+        {
+          "sha256": "3bb665ddf0d8c3c38e81a1e8e22a09d50665f669e331dcba655464a31c5baf6d",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "7e1e4f7a18ac51997a97afe5e63d31e0d1de3c496a8a688d8acb2b28a1edc44c",
+          "terms": 80,
+          "total_degree": 13
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 14,
+      "cell_count": 15,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "2401fb52e9fbc1d1f43eada1d1616af0165325a78db4b56d9b0c9e941d2faa95",
+          "terms": 76,
+          "total_degree": 13
+        },
+        {
+          "sha256": "f999dc7547e31ddcbaf9ad963a2e6b6a782d1b92f8ba9418bd72b09e1e3b32f4",
+          "terms": 88,
+          "total_degree": 12
+        },
+        {
+          "sha256": "d5b214ad0aa680b3335faa5f247846f252f2d869c3ab23dc130cdb72c0456686",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "ba724063be4289f714f06f98c8add959a92f0981fcb31e123e9561a0914a024b",
+          "terms": 88,
+          "total_degree": 12
+        },
+        {
+          "sha256": "6fc52598cf90e67bf7252a83fc836b51f4234dedd3d4187958f83fd1f399bee3",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "7e1e4f7a18ac51997a97afe5e63d31e0d1de3c496a8a688d8acb2b28a1edc44c",
+          "terms": 80,
+          "total_degree": 13
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 14,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "9821f05f9cc8ab8131d7b20658eef0c668a6befa096477a28e85628813a5a5fc",
+          "terms": 76,
+          "total_degree": 13
+        },
+        {
+          "sha256": "c40b7fb737274461c882ff250e36a16ae9406306106a8b6950713bc8c357d88f",
+          "terms": 88,
+          "total_degree": 12
+        },
+        {
+          "sha256": "d5b214ad0aa680b3335faa5f247846f252f2d869c3ab23dc130cdb72c0456686",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "ba724063be4289f714f06f98c8add959a92f0981fcb31e123e9561a0914a024b",
+          "terms": 88,
+          "total_degree": 12
+        },
+        {
+          "sha256": "3bb665ddf0d8c3c38e81a1e8e22a09d50665f669e331dcba655464a31c5baf6d",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "309482f0e2a754654e5db5adc8f545fa43fe165723e8f115b4abaab7bedcb77b",
+          "terms": 80,
+          "total_degree": 13
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    },
+    {
+      "base_rank_guard": 6,
+      "cell": 14,
+      "cell_count": 15,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "matrix_shape": [
+        10,
+        8
+      ],
+      "minor_count": 6,
+      "minor_summaries": [
+        {
+          "sha256": "2401fb52e9fbc1d1f43eada1d1616af0165325a78db4b56d9b0c9e941d2faa95",
+          "terms": 76,
+          "total_degree": 13
+        },
+        {
+          "sha256": "c40b7fb737274461c882ff250e36a16ae9406306106a8b6950713bc8c357d88f",
+          "terms": 88,
+          "total_degree": 12
+        },
+        {
+          "sha256": "d5b214ad0aa680b3335faa5f247846f252f2d869c3ab23dc130cdb72c0456686",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "d5ae789e7ddc69aa7c32fc6281cf2e6ba368844c4a14f3e922e7f882390c4139",
+          "terms": 88,
+          "total_degree": 12
+        },
+        {
+          "sha256": "6fc52598cf90e67bf7252a83fc836b51f4234dedd3d4187958f83fd1f399bee3",
+          "terms": 88,
+          "total_degree": 13
+        },
+        {
+          "sha256": "309482f0e2a754654e5db5adc8f545fa43fe165723e8f115b4abaab7bedcb77b",
+          "terms": 80,
+          "total_degree": 13
+        }
+      ],
+      "mode": "stripped",
+      "singleton": "BC-",
+      "status": "COMPLETE"
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-common-vieta-compiler-v1",
+  "scope": "Exact raw and guard-stripped common Vieta minor summaries for all 60 433-1b common matching/root-sign rows; no route claim.",
+  "source_sha256": "a956656cba6c884bae665a2439666964ed468dcf9d0466e80cb825e811a6f845",
+  "status_counts": {
+    "COMPLETE": 120
+  },
+  "summaries": {
+    "raw": {
+      "completed_cases": 60,
+      "maximum_terms": 204,
+      "minimum_terms": 80,
+      "minor_count": 360,
+      "minor_degree_histogram": {
+        "18": 72,
+        "19": 84,
+        "21": 104,
+        "22": 88,
+        "23": 4,
+        "24": 8
+      },
+      "unique_minor_digests": 165,
+      "within_row_unique_histogram": {
+        "6": 60
+      }
+    },
+    "stripped": {
+      "completed_cases": 60,
+      "maximum_terms": 100,
+      "minimum_terms": 20,
+      "minor_count": 360,
+      "minor_degree_histogram": {
+        "10": 16,
+        "12": 120,
+        "13": 144,
+        "14": 24,
+        "8": 4,
+        "9": 52
+      },
+      "unique_minor_digests": 165,
+      "within_row_unique_histogram": {
+        "6": 60
+      }
+    }
+  }
+}

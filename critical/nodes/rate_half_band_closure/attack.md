@@ -3883,3 +3883,68 @@ root-sign symmetry closes all four rows of `[11]` without colored equations.
 The positive frontier is now one representative / eight raw rows:
 `[9,10]`.  Compact cell 9, whose exact lex basis has size eleven; a closure
 transports to cell 10.
+
+That final orbit is now closed by the PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell9_signed_pair_guard_factorization_exclusion`.
+Its complete plane-reduced resultant satisfies
+
+```text
+R=0 => N0 D0^5 (w0+1)(w0-t^2)^2(rd^2w0-rn^2)=0.
+```
+
+The degree-2344 leading norm has only `t=0,+/-1,+/-i` as deployed roots.
+Those are exactly the roots of every omitted compact-kernel scale, and the
+original localized common ideal is unit at all five values.  Exact source
+and duplicate-role symmetry therefore closes all eight rows of `[9,10]`
+without colored equations.  No positive `433-1a` common-orbit
+representative remains.  Audit the route aggregation before promoting a
+broader K3 or rate-half claim.
+
+That aggregation is now complete.  The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion`
+combines the exact two-lane signed atlas, the exact 60-row/ten-representative
+source quotient, and the nine disjoint orbit closures.  The coverage count
+is
+
+```text
+4+8+8+8+8+8+4+8+4=60 raw rows,
+1+2+1+1+1+1+1+1+1=10 representatives.
+```
+
+Hence the complete deployed positive residual route `433-1a -> O0b` is
+empty.  This is a route closure, not a closure of the other coordinate
+routes, K3, or the rate-half band theorem.
+
+The next saturated-defect route is now signed exactly.  The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas`
+uses common skeleton `(100;112)` and outside skeleton
+`(002;000;311)`.  The loop costs one and the outside multiplicity-three
+`DE` pair costs two, forcing all other repeated pairs to split.  Seven
+active signs form two independent cycles, so the 128 raw assignments have
+exactly four gauge orbits of size 32.  In canonical form their records are
+
+```text
+common:  -a^2; ab,ac; bc,-bc;
+colored: bf, sigma_c cf;
+outside: de,de,-de; df, sigma_o ef,
+```
+
+with `(sigma_c,sigma_o) in {+/-1}^2`.  Compile common source placements for
+these five common records next, then append the four outside lanes.  Do not
+repeat the sign search.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler`
+now compiles the next source layer.  The five roles
+
+```text
+LA, AB, AC, BC+, BC-
+```
+
+have fifteen assignments to two opposite source pairs and a singleton; no
+role quotient is assumed, so all four root-sign rows give 60 exact systems.
+On base rank six, six `8 x 8` minors are necessary and sufficient.  All 120
+raw/stripped mode rows complete exactly.  Guard stripping reduces the 360
+minors to degrees `8..14` and term range `20..100`, with six distinct
+minors in every row.  Run bounded guard-saturated common ideals next and
+keep base-rank drop separate.

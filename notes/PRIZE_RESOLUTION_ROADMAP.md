@@ -15492,3 +15492,83 @@ next route step:          compact one of cells 9,11,12,14 and test the same
                           complete signed-pair guard factorization
 nonclaim:                 no positive-route, K3, LIST, MCA, or Prize closure
 ```
+
+### Work-cycle theorem: cell-9 signed-pair guard factorization
+
+```text
+compact common plane:    bidegree (4,8), 45 terms
+normalized kernel:       b-degree <=3; exact B1(-W)=-B1(W)
+raw resultant:           degrees (16,18,482), 146243 terms
+plane-reduced resultant: degrees (16,3,587), 36876 terms
+plane quotient product:  N0*D0^5*(w0+1)*(w0-t^2)^2
+                          *(rd^2*w0-rn^2)
+guard representative:    degrees (16,3,271), 17156 terms
+exact identity:           c16*R-r16*C=0 modulo P
+leading norm:             degree 2344, 2153 terms
+norm factorization:       5 linear, 2 irreducible quadratic,
+                          3 irreducible cubic factors
+norm and scale roots:     t=0,+/-1,+/-i only
+scale replay:             all five original localized common ideals unit
+result:                   necessary signed pair empty without colored cuts
+symmetry consequence:    all eight rows of orbit [9,10] PROVED excluded
+frontier delta:           one representative / 8 raw rows -> zero
+remaining positive
+common orbits:            none
+main certificate hash:    f899bd41a8bbdb394a6af4b8288abbf737c5e2825e86dff5fb8dee2c2334759b
+scale certificate hash:   1b043263a418b23e4ae98b8b0a18f929de08a8ee3aabb178fe5db8047480c6b8
+Modal apps:               ap-D3bc9co3BBMgw6yLZEsK1a,
+                          ap-vukOuXgaAxc0B61i6QK5i9,
+                          ap-CjgJIQhLQCfLgFXd6MZO6o
+next route step:          audit exact positive-route aggregation, then move
+                          to the next unresolved rate-half route
+nonclaim:                 no K3, LIST, MCA, or Prize closure
+```
+
+### Work-cycle theorem: complete positive 433-1a to O0b route exclusion
+
+```text
+signed target atlas:      exactly 2 cycle-sign lanes
+common atlas:             15 cells x 4 root-sign rows = 60 raw rows
+source quotient:          10 algebraic representatives
+closure nodes:            9 PROVED orbit theorems
+raw-row coverage:         4+8+8+8+8+8+4+8+4 = 60
+representative coverage:  1+2+1+1+1+1+1+1+1 = 10
+cell coverage:            disjoint union {0,...,14}
+result:                   positive residual route 433-1a -> O0b PROVED empty
+next route step:          select a different unresolved rate-half route
+nonclaim:                 no other route, K3, rate-half band, LIST, MCA,
+                          or Prize closure
+```
+
+### Work-cycle theorem: positive 433-1b to O0a signed-edge atlas
+
+```text
+common skeleton:         (100;112), one loop and split BC pair
+outside skeleton:        (002;000;311), split 2+1 DE pair
+defect:                  1 common + 2 outside = 3 exact
+active sign graph:       6 vertices, 7 edges, cycle rank 2
+raw sign assignments:    128
+target-gauge quotient:   4 orbits of size 32
+lane invariants:         common four-cycle sign, outside triangle sign
+records per lane:        12
+next route step:         compile the common source-placement atlas and
+                          positive Vieta kernels for the five common records
+nonclaim:                 no source placement, route, K3, or Prize closure
+```
+
+### Work-cycle theorem: positive 433-1b common Vieta minors
+
+```text
+common roles:             LA, AB, AC, BC+, BC-
+source shape:             two opposite pairs plus one singleton
+role cells/sign rows:     15 / 60; no role quotient assumed
+common matrix:            10 x 8
+principal rank test:      six exact 8 x 8 minors on base rank 6
+raw compilation:          360 minors, degrees 18..24, terms 80..204
+stripped compilation:     360 minors, degrees 8..14, terms 20..100
+distinct digests:         165 in each mode; six per row
+Modal completion:         120/120, ap-nujRPtkwmYa5HkgpxvpyDZ
+next route step:          bounded guard-saturated common-ideal census;
+                          base-rank drop remains separate
+nonclaim:                 no common-point or route exclusion
+```

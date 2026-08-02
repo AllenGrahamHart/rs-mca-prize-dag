@@ -1,0 +1,452 @@
+{
+  "app": "rs-mca-positive-433-1b-cell0-principal-components",
+  "field": 2130706433,
+  "rows": [
+    {
+      "all_rows_zero": true,
+      "component": "A",
+      "field": 2130706433,
+      "kernel": [
+        {
+          "degree": 0,
+          "expression": "1",
+          "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "terms": 1
+        },
+        {
+          "degree": 3,
+          "expression": "-16711678*b**3 - b**2 + 16711679",
+          "sha256": "9dfc7839def38a56cd15603c5f84f3bbd95aa30a526250631e02645c537424c2",
+          "terms": 3
+        },
+        {
+          "degree": 2,
+          "expression": "-16711679*b**2 + 16711678*b",
+          "sha256": "ca9d09962a3f29bb631037cdd3f478c9f2b6a5c338bf203d5f52a6dc603a7a6e",
+          "terms": 2
+        },
+        {
+          "degree": 3,
+          "expression": "-16711680*b**3 + 16711679*b**2",
+          "sha256": "bcdabb7b0390014a20fea20fdfc0638649bebb9a0ce24f19eadda773c9afd96a",
+          "terms": 2
+        },
+        {
+          "degree": 4,
+          "expression": "-16711679*b**4 - b**2 + 16711680*b",
+          "sha256": "fa2633cffd97613c28dd71b36cbd868ea3518108d3c40407bca3bbbfb080dcd8",
+          "terms": 3
+        },
+        {
+          "degree": 4,
+          "expression": "b**4",
+          "sha256": "7bd5808c974d00666d1572bc93f9377ab8e721297fa90c76b1dd9f7538c6c479",
+          "terms": 1
+        },
+        {
+          "degree": 3,
+          "expression": "33423358*b**3 - 16711678*b**2 - 16711680",
+          "sha256": "fc8e831ac10c6e06605156823e1d67f2d95b5850b232a8afc014c7c6b776449f",
+          "terms": 3
+        },
+        {
+          "degree": 4,
+          "expression": "16711678*b**4 + 16711680*b**2 - 33423358*b",
+          "sha256": "a8603a195c3eb9c5eb550b46de65a584c7ee3a0dec876bcc0cc053d3392185e7",
+          "terms": 3
+        }
+      ],
+      "kernel_common_denominator": "261120*b**11 + 671068160*b**10 - 376006659*b**9 + 1065353209*b**8 - 219340800*b**7 + 538935328*b**6 + 626671669*b**5 + 30*b**4 + 188006400*b**3 + 83558395*b**2 + 8355839*b",
+      "kernel_removed_gcd": {
+        "degree": 17,
+        "expression": "b**17 + 158760962*b**16 - 426115155*b**15 + 217349535*b**14 + 217381162*b**13 + 267188272*b**12 - 17628306*b**11 - 995618013*b**10 - 660925772*b**9 - 33847853*b**8 + 859768419*b**7 - 694840174*b**6 + 166205498*b**5 - 193268*b**4 + 626786965*b**3 + 718667654*b**2 - 1061158985*b + 66846712",
+        "sha256": "19ac7a9f1344e6779bf9e930875fa5d452fc01c99431f35c37f99cc1fa05fd7c",
+        "terms": 18
+      },
+      "relation": {
+        "degree": 4,
+        "expression": "-8355839*b**2*t**2 + b*t**2 - 16711679*b - 8355839",
+        "sha256": "059513393714cf3b184299566979bf4e5384d4c007cd26b78739602b91415e8f",
+        "terms": 4
+      },
+      "row_checks": [
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        }
+      ],
+      "source_sign": -1
+    },
+    {
+      "all_rows_zero": true,
+      "component": "A",
+      "field": 2130706433,
+      "kernel": [
+        {
+          "degree": 0,
+          "expression": "1",
+          "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "terms": 1
+        },
+        {
+          "degree": 3,
+          "expression": "16711680*b**3 - b**2 - 16711679",
+          "sha256": "290f6575672c47f52ac4c1da465c5137c49e5b20f20cdf95da2a45b733e848cc",
+          "terms": 3
+        },
+        {
+          "degree": 2,
+          "expression": "16711679*b**2 - 16711680*b",
+          "sha256": "928e4ab2798fd6307f04e69905c178712d381d2af581779d1d78816ac02ab8b1",
+          "terms": 2
+        },
+        {
+          "degree": 3,
+          "expression": "16711678*b**3 - 16711679*b**2",
+          "sha256": "06308b613a03769b8f5f53b85cdb50db67ae3430f7dfa17626f0bc79cf2bda68",
+          "terms": 2
+        },
+        {
+          "degree": 4,
+          "expression": "16711679*b**4 - b**2 - 16711678*b",
+          "sha256": "0dab2bfbc91b7f478947c61287b984118fdbf6af8b733a3217fb0ac61961b72b",
+          "terms": 3
+        },
+        {
+          "degree": 4,
+          "expression": "b**4",
+          "sha256": "7bd5808c974d00666d1572bc93f9377ab8e721297fa90c76b1dd9f7538c6c479",
+          "terms": 1
+        },
+        {
+          "degree": 3,
+          "expression": "-33423358*b**3 + 16711680*b**2 + 16711678",
+          "sha256": "b1b01afd53bee4baedffaee5656bb3f011855c0d828343681d92d9b3afd4b24e",
+          "terms": 3
+        },
+        {
+          "degree": 4,
+          "expression": "-16711680*b**4 - 16711678*b**2 + 33423358*b",
+          "sha256": "3e1ef68098b2d375470d5b6c252a24880cd736a2f100c83ed1b21d2ad3763c98",
+          "terms": 3
+        }
+      ],
+      "kernel_common_denominator": "-66845696*b**11 - 671068160*b**10 - 23500800*b**9 + 1065353209*b**8 + 752017382*b**7 - 538935328*b**6 + 438681600*b**5 + 30*b**4 + 877346839*b**3 - 83558395*b**2 - 8355840*b",
+      "kernel_removed_gcd": {
+        "degree": 17,
+        "expression": "b**17 - 158760939*b**16 + 426115195*b**15 - 217349956*b**14 - 217383608*b**13 - 267193782*b**12 + 17622864*b**11 + 995617669*b**10 + 660928844*b**9 + 33847490*b**8 - 859771985*b**7 + 694840343*b**6 - 166200270*b**5 + 198406*b**4 - 626784797*b**3 - 718667298*b**2 + 1061158969*b - 66846720",
+        "sha256": "1cd017d0217d1a8d5aa074a52cb78ce40ca6351045cafcfb8bdccafdca4b331f",
+        "terms": 18
+      },
+      "relation": {
+        "degree": 4,
+        "expression": "8355840*b**2*t**2 + b*t**2 + 16711679*b + 8355840",
+        "sha256": "1880107367e9c6ea36c9a369c5f26765b2c6f2e8f979918439ea7cdc4ab1602f",
+        "terms": 4
+      },
+      "row_checks": [
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        }
+      ],
+      "source_sign": 1
+    },
+    {
+      "all_rows_zero": true,
+      "component": "B",
+      "field": 2130706433,
+      "kernel": [
+        {
+          "degree": 2,
+          "expression": "b**2 + 16711678*b",
+          "sha256": "d5f84ef22dc5c4e92ccc9dfe84b707f2a350d64702f4d3b4885bbd6db1b88fe5",
+          "terms": 2
+        },
+        {
+          "degree": 3,
+          "expression": "-16711678*b**3 + 16711679*b**2 - 1",
+          "sha256": "d57887499caf515ec36bfa0d47eff7ad84a1bd6fb24b8f7180bac92b8f5c9f91",
+          "terms": 3
+        },
+        {
+          "degree": 0,
+          "expression": "-16711679",
+          "sha256": "64caaa78c99da0b87f03c6a7a614abd88de5bd3f156743b25e29e79f5383ee29",
+          "terms": 1
+        },
+        {
+          "degree": 4,
+          "expression": "-16711679*b**4",
+          "sha256": "b04c83f37812fc7f9eefabbacdc3b4b0b5a19df4b1fc9b2e50f4ac993b632c24",
+          "terms": 1
+        },
+        {
+          "degree": 4,
+          "expression": "b**4 + 16711679*b**2 - 16711680*b",
+          "sha256": "e006594a7c46097c6184c1df98b7247a9d53f153a5c8de494f12f864420a5824",
+          "terms": 3
+        },
+        {
+          "degree": 3,
+          "expression": "16711680*b**3 - b**2",
+          "sha256": "9e91d9e9df3f612a7a7fd1e8eb6f5c6f570aee253309d93e6ac760dbe3a6a5a2",
+          "terms": 2
+        },
+        {
+          "degree": 4,
+          "expression": "16711678*b**4 - 16711680*b**2 + 2*b",
+          "sha256": "448952a5485c0229ed8de3dcb78925a619e3089a063fb47ff00a2752284024e3",
+          "terms": 3
+        },
+        {
+          "degree": 3,
+          "expression": "-2*b**3 - 16711678*b**2 + 16711680",
+          "sha256": "fce821f1c680e2a27f1d65f748afa2c8d3d7396ec2a06c161f1f92f638d72a22",
+          "terms": 3
+        }
+      ],
+      "kernel_common_denominator": "b**7 - 58490873*b**6 + 889880587*b**5 - 146227200*b**4 - 532676617*b**3 + 576544763*b**2 - 251715585*b + 1044480",
+      "kernel_removed_gcd": {
+        "degree": 18,
+        "expression": "b**18 - 91914227*b**17 + 421953587*b**16 + 447004739*b**15 - 739508268*b**14 - 121159890*b**13 - 154566849*b**12 - 551485483*b**11 + 501317575*b**10 - 175472844*b**9 + 338427685*b**8 - 898220136*b**7 - 639205395*b**6 + 54312961*b**5 - 1065353216*b**4",
+        "sha256": "eda7e653c6f908d74217309da944a5aa7393bfd73e4266176c400d67d8f13954",
+        "terms": 15
+      },
+      "relation": {
+        "degree": 3,
+        "expression": "-8355839*b**2 + b*t**2 - 16711679*b - 8355839*t**2",
+        "sha256": "932b13f7c3e80aa3913b58136fb452089665eeba6c12aed66faddb7bc5adf183",
+        "terms": 4
+      },
+      "row_checks": [
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        }
+      ],
+      "source_sign": -1
+    },
+    {
+      "all_rows_zero": true,
+      "component": "B",
+      "field": 2130706433,
+      "kernel": [
+        {
+          "degree": 2,
+          "expression": "b**2 - 16711680*b",
+          "sha256": "c40a54e27b47b9cd9553ce5604f74eaab854f9fb26bad59c0f080d36bb5ca324",
+          "terms": 2
+        },
+        {
+          "degree": 3,
+          "expression": "16711680*b**3 - 16711679*b**2 - 1",
+          "sha256": "89cf6dae2467faf2882afeb7ebdbf873b71648e11af8748131aca912aa30e9ea",
+          "terms": 3
+        },
+        {
+          "degree": 0,
+          "expression": "16711679",
+          "sha256": "ab0709c17019f3f8425f0970a4b3aa6c4c14e9083b4fc7e326859af7acff0ef3",
+          "terms": 1
+        },
+        {
+          "degree": 4,
+          "expression": "16711679*b**4",
+          "sha256": "ed1f5d5b56cbbdd1f467fbe5be30d7f835485360adf3acca3059665923024a88",
+          "terms": 1
+        },
+        {
+          "degree": 4,
+          "expression": "b**4 - 16711679*b**2 + 16711678*b",
+          "sha256": "4db1da5de8093d000462afabfcf3e688b66e4be4559879c715f11cd91b0cd857",
+          "terms": 3
+        },
+        {
+          "degree": 3,
+          "expression": "-16711678*b**3 - b**2",
+          "sha256": "c17a3717b25d1f59c664a1912ef0bf3bfd6e6d0613d30461f05b64bf5ea47f78",
+          "terms": 2
+        },
+        {
+          "degree": 4,
+          "expression": "-16711680*b**4 + 16711678*b**2 + 2*b",
+          "sha256": "81c2eefc2b86eff04813f6294c3b886084ed4a0f43bdfd4973f75d3ab162bcb1",
+          "terms": 3
+        },
+        {
+          "degree": 3,
+          "expression": "-2*b**3 + 16711680*b**2 - 16711678",
+          "sha256": "8258da8c2f1debe581abfc4b17309495c069d46acb526be61dc30cb855f3b093",
+          "terms": 3
+        }
+      ],
+      "kernel_common_denominator": "b**7 + 58490880*b**6 - 889880587*b**5 - 919126034*b**4 - 532676617*b**3 - 43868160*b**2 + 251715585*b - 267382784",
+      "kernel_removed_gcd": {
+        "degree": 18,
+        "expression": "b**18 + 91914242*b**17 - 421953563*b**16 + 618348408*b**15 + 739507963*b**14 - 944193761*b**13 + 154566573*b**12 + 551485331*b**11 - 501317886*b**10 + 175472415*b**9 - 338427954*b**8 - 167133139*b**7 + 639205409*b**6 + 1011040264*b**5 - 1065353216*b**4",
+        "sha256": "7bcf473b2b7c370c9cfe5c49bcedfb8943182ebf9e88041a58a3b07981f5a774",
+        "terms": 15
+      },
+      "relation": {
+        "degree": 3,
+        "expression": "8355840*b**2 + b*t**2 + 16711679*b + 8355840*t**2",
+        "sha256": "caa9cad9849e623817abdddfc65bc84843be8cadca6add89d2ca36983551b456",
+        "terms": 4
+      },
+      "row_checks": [
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        },
+        {
+          "denominator": "1",
+          "zero": true
+        }
+      ],
+      "source_sign": 1
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell0-principal-components-v2",
+  "scope": "Exact division-free kernels for both equal-sign component families."
+}

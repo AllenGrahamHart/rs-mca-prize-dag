@@ -1,0 +1,1568 @@
+{
+  "rows": [
+    {
+      "basis_size": 1,
+      "cell": 0,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "0a22bc07ebfde446ba48652edf22cf012295223a03957c8cbf83889fdd84bbe0",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 0,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "0f860725ee5a45cb11067c0cbab6879bd5d75ea2214f2a73fab24e9198af3366",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 0,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "602aac7cf4c22e4703e9f27c070a82186f04b20b6223b38e8b95d76a44bf5340",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 0,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "b6371d0205350487a8c2cce57a65d3ca226507f25bb026d2ff387373b0131c2d",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "1af4cca6a6e0b9df195a2b82bc1de497bd6253c712f05959996662d16e59bd32",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "8e5e2e0a0ce19f44ed7611b4d6662a97289fa3f90c82ac353a15d76631c327bc",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "c176f9dc562e41d62580c49a507931e8f67fb13639ac2ddb26fe1a2e9738c392",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "303ce1b5b1322b27bf4329b2fd6b4c363a995ad10ac12cd4ac3b1b700c053e15",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "78b5e0d38f3f3463ff51b48b7c791332ffad796d934be2c7a426659b69769698",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "1da64bc546cdc118def6d4acc3642d77c0af6589844106f36886dc3a6d6fb640",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "3110ac1018916aae665767480e977c99b9653bf07145392bfad53d53e154c01e",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "ff2d0eec384940eb8b7fc7860a2aad656e5bc3eae88e5f8c3d5de9524663e4b3",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 3,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "b6fb80625ae62f7fb0ee4fb7d758f94956b630a7ef263cce68031c921dd5f469",
+      "singleton": "AB",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 3,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "5ab03132ce5708162dd4f8502da1173b71880b275f52f4651052e3bbfac47032",
+      "singleton": "AB",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 3,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "a38856c5daee1d8bb5a2e2830eb720362b69ac971872543b5379344c8b6c52ab",
+      "singleton": "AB",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 3,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "e55fc92cbd46ba8c69a97110a37def4ea5cbbe0aa97752e47916ddc936d1fdeb",
+      "singleton": "AB",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 11,
+      "cell": 4,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "0d36fa8bd2433d27d00cde9c35fac35cc081ee89c43285dda097e49c89142fd2",
+      "singleton": "AB",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=11\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 11,
+      "cell": 4,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "8f9b84a6271db32d03305502211d1ce55f2a4e8d3cf9df5da8314e1f3c2d167c",
+      "singleton": "AB",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=11\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 11,
+      "cell": 4,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "780a6b9bbf53211a2a8c566d82530a4ef7efdfb37fbd516b1b3087a0c0cabcf7",
+      "singleton": "AB",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=11\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 11,
+      "cell": 4,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "7cae3b4699814e200322ce117fea181de54f313e2b0b48ac829f884ddbcc617c",
+      "singleton": "AB",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=11\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 11,
+      "cell": 5,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "bdfc87f206c23aeba51812b17cd7a1f9598eb262b58aa286ad7e91cfa4de6e72",
+      "singleton": "AB",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=11\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 11,
+      "cell": 5,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "bdabde5b0ad2b4112f8948139855016dcfec9352e864a561b6bbc73463ebf37c",
+      "singleton": "AB",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=11\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 11,
+      "cell": 5,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "645d5649d68abf8fd90630c84bd62de96aa2a40dc08db6f6d9a2455eb4e94797",
+      "singleton": "AB",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=11\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 11,
+      "cell": 5,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "e9a6e16a7542794ed2d7cd658a679869cd65c73ca5342222dd90d6976d357f3f",
+      "singleton": "AB",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=11\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 1,
+      "cell": 6,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "d08c25339c9c4bb47009fb0c41796177104829d7eb9b1f21fe6e6a89beaa1958",
+      "singleton": "AC",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 6,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "ce1d994afc262916afe3bcb8868aacba009de684f26a76a1e04d15908ea95a57",
+      "singleton": "AC",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 6,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "5a58cd4b36ab4bb67a277e609de39a4901634479e282ce52c064a72610a33763",
+      "singleton": "AC",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 6,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "BC+",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "4c7b875e1731db7001b309e1f605855f87e776614b758b4e92e9e7dd64f07c2a",
+      "singleton": "AC",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=-1\nSIZE=1\nUNIT=1\nEND_COMMON\n",
+      "unit": true
+    },
+    {
+      "basis_size": 11,
+      "cell": 7,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "fe2f4fa7f3dcace5e50bdb85b55a94ff7678b5de90c52a0873b43ef94473807c",
+      "singleton": "AC",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=11\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 11,
+      "cell": 7,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "948d9aa8e7f6f3ad1128515a4f07fd8530e94d7a9b573ab8ab1ae04cbf374b79",
+      "singleton": "AC",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=11\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 11,
+      "cell": 7,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "a7b0a5a119a8dd11bb94bb2178e3195d6c725fd591b64de402aa37b1a605a979",
+      "singleton": "AC",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=11\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 11,
+      "cell": 7,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "e71df1bf7d1b8ef56da7dd5cc35a02ffa24a5c470d83aa1fa8ddfb4806b8d196",
+      "singleton": "AC",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=11\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 11,
+      "cell": 8,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "12d065cd5602c2db4145a20a7cfc0f75734192543f1ace3085ab8c8224cce554",
+      "singleton": "AC",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=11\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 11,
+      "cell": 8,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "ec82ee842c6358d772708cea7de04242d73fa18e296147027fd3de3ba5005f63",
+      "singleton": "AC",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=11\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 11,
+      "cell": 8,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "0b737dc10f50d26286b328617ff8e2dac720af564f7c88b498f51ca99386fe42",
+      "singleton": "AC",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=11\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 11,
+      "cell": 8,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "ed6f6ff8246390bd43c671e5f5b83a94008b132ee54cc2689642326a187744f1",
+      "singleton": "AC",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=11\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 21,
+      "cell": 9,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "1824ec84f1a9640aec92e5a888b4cfbffc046f4b95e7f551ebd754fb085fbd16",
+      "singleton": "BC+",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=21\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 21,
+      "cell": 9,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "ae09e97d4c076ae1202664c1995ecef163a13eefe4091ee8d8c89a7ed64b99ed",
+      "singleton": "BC+",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=21\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 21,
+      "cell": 9,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "d97371dbe1ccb1daf38df9d0c00b0047cc7872115f882e32ed2dd8e2a0226cf4",
+      "singleton": "BC+",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=21\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 21,
+      "cell": 9,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "af1226ca0feab8ed8069c9203f452e64ff7532a0178412222710aa59235c7bab",
+      "singleton": "BC+",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=21\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 21,
+      "cell": 10,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "445f59dce1c9fd55039c4ce46dfd9bb42e29e449efc50f567c9034f77c72012f",
+      "singleton": "BC+",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=21\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 21,
+      "cell": 10,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "a8c730c3fca9f13229e47de0cf1997ca56f919a76b933bc551d4a7e731e177ad",
+      "singleton": "BC+",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=21\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 21,
+      "cell": 10,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "f962c55f5f757d2a28663b7e3b71abfa071e852a79d75d33596bb0c6fd26dfc4",
+      "singleton": "BC+",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=21\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 21,
+      "cell": 10,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC-"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "1d2b86890e48881641981407d10404e2a9d2a268d6b08af9098459970847a4e2",
+      "singleton": "BC+",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=21\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 21,
+      "cell": 11,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "cd2c81a269d25f8144e6f1bd5a2df81d904c40718dd0f507c08478d6e083177f",
+      "singleton": "BC+",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=21\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 21,
+      "cell": 11,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "77b77e6315d1c16fbe74088105139777af722530743e32101cb531aa8fdd1ace",
+      "singleton": "BC+",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=21\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 21,
+      "cell": 11,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "1b123032b3bd8b3829b6683fa9abffed52d65b41f1f0b2dbf459f223e6a79b1c",
+      "singleton": "BC+",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=21\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 21,
+      "cell": 11,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC-"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "5f187563ebcca394f56c9a82a674ecd8d2520b133a53ea4a52c78bede1c29f7a",
+      "singleton": "BC+",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=21\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 18,
+      "cell": 12,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "87c15b3696c488bcc609f98a100f78b687309a00331c8896ef94e685e895fe76",
+      "singleton": "BC-",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=18\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 18,
+      "cell": 12,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "97bbd192c6b59a57cfd3ee815ed3f98088607b9be5b563f64278962dcf845878",
+      "singleton": "BC-",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=18\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 18,
+      "cell": 12,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "d0fca5e47b106ebf8215908f5d9b7a0c5bc9e61049ba962d14270c2bb8502f4c",
+      "singleton": "BC-",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=18\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 18,
+      "cell": 12,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AB"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "798e5f51c824cd7f03cf22002a6d23f714781e8ca76694dcc8dd6c45853e4f73",
+      "singleton": "BC-",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=18\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 18,
+      "cell": 13,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "e137237d75a49247ba4432873550e071eef2b971eb0b6c828e093ea7a21b308e",
+      "singleton": "BC-",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=18\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 18,
+      "cell": 13,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "8f9e2d093be5951a04ee67c800c1771ed369480733b4e65adfa50b69b9b2d7f2",
+      "singleton": "BC-",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=18\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 18,
+      "cell": 13,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "8a81d3e1749a234f4a987add5572f297a3f356d35e2b28b136d698ff64cde282",
+      "singleton": "BC-",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=18\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 18,
+      "cell": 13,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "AC"
+        ],
+        [
+          "AB",
+          "BC+"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "b05db1ef4728f1829e85cb12a1a94c435b9337e51a9e444dd98f5a0e0f4ff798",
+      "singleton": "BC-",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=18\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 15,
+      "cell": 14,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "8f4e614ad98e74da744fabfa29366e569b420c16c5cb4748e9357f61e299b33b",
+      "singleton": "BC-",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=15\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 15,
+      "cell": 14,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "73782380df707a24cbc6bbefc224fdba319936e40376bb3501d4f4602a5e1fc5",
+      "singleton": "BC-",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=15\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 15,
+      "cell": 14,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "24b6fcd14e22184493b706c9785995cbf91db2f9f7343c0bffa5df81f950b38a",
+      "singleton": "BC-",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=15\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    },
+    {
+      "basis_size": 15,
+      "cell": 14,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "LA",
+          "BC+"
+        ],
+        [
+          "AB",
+          "AC"
+        ]
+      ],
+      "minor_count": 45,
+      "program_sha256": "e265bf5685b02ece0352bd6803356685dc7476fd757e6996a17710d30181a1b8",
+      "singleton": "BC-",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_COMMON\nMINORS=45\nDIM=0\nSIZE=15\nUNIT=0\nEND_COMMON\n",
+      "unit": false
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-rankdrop-common-exact-v2",
+  "scope": "Exact full-common rank-at-most-seven ideals on the product-row rank-at-most-four branch, over the deployed field.",
+  "source_common_sha256": "a956656cba6c884bae665a2439666964ed468dcf9d0466e80cb825e811a6f845",
+  "source_product_sha256": "ee4dcb25877e9101a544ee5896b9bf6890059d6398c78d7562127b0d1c53c293"
+}

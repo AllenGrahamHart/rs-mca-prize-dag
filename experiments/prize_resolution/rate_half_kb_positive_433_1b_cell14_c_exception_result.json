@@ -1,0 +1,72 @@
+{
+  "field": 2130706433,
+  "rows": [
+    {
+      "basis_size": 4,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "open_basis_size": 1,
+      "open_dimension": -1,
+      "open_unit": true,
+      "program_sha256": "f1ba7cabfa558c3aea82da3a7ee773aabf1c79398ea4adbf455f3b1d908a5a9f",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nCLOSURE_DIM=0\nCLOSURE_SIZE=4\nCLOSURE_UNIT=0\nLEX_BEGIN\nK[1]=r2+16711680r+16711679\nK[2]=b-16711680r-16711679\nK[3]=t+16711680r+16711679\nK[4]=c2-33423360cr-33423354c+1\nLEX_END\nOPEN_DIM=-1\nOPEN_SIZE=1\nOPEN_UNIT=1\nEND\n",
+      "unit": false
+    },
+    {
+      "basis_size": 4,
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "open_basis_size": 1,
+      "open_dimension": -1,
+      "open_unit": true,
+      "program_sha256": "232c51fade547453e862cdb61387948307954d1091dfc32c6e52e8239ee343cd",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nCLOSURE_DIM=0\nCLOSURE_SIZE=4\nCLOSURE_UNIT=0\nLEX_BEGIN\nK[1]=r2+16711678r-16711679\nK[2]=b-16711678r+16711679\nK[3]=t-16711678r+16711679\nK[4]=c2-33423356cr+33423362c+1\nLEX_END\nOPEN_DIM=-1\nOPEN_SIZE=1\nOPEN_UNIT=1\nEND\n",
+      "unit": false
+    },
+    {
+      "basis_size": 4,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "open_basis_size": 1,
+      "open_dimension": -1,
+      "open_unit": true,
+      "program_sha256": "d4b96c5cfd7ee805d391ae1ea015a9e4a2bd33867233208de7b889f1664f86c3",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nCLOSURE_DIM=0\nCLOSURE_SIZE=4\nCLOSURE_UNIT=0\nLEX_BEGIN\nK[1]=r2-16711680r+16711679\nK[2]=b+16711680r-16711679\nK[3]=t+16711680r-16711679\nK[4]=c2+33423360cr-33423354c+1\nLEX_END\nOPEN_DIM=-1\nOPEN_SIZE=1\nOPEN_UNIT=1\nEND\n",
+      "unit": false
+    },
+    {
+      "basis_size": 4,
+      "dimension": 0,
+      "epsilon": [
+        1,
+        1
+      ],
+      "open_basis_size": 1,
+      "open_dimension": -1,
+      "open_unit": true,
+      "program_sha256": "5f8fb8d38b17f6f401b0f772518357a18da13dffc84dbd8014c92f19e7d5bff4",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nCLOSURE_DIM=0\nCLOSURE_SIZE=4\nCLOSURE_UNIT=0\nLEX_BEGIN\nK[1]=r2-16711678r-16711679\nK[2]=b+16711678r+16711679\nK[3]=t-16711678r-16711679\nK[4]=c2+33423356cr+33423362c+1\nLEX_END\nOPEN_DIM=-1\nOPEN_SIZE=1\nOPEN_UNIT=1\nEND\n",
+      "unit": false
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell14-c-exception-v1",
+  "scope": "Exact lex atlases for the finite c-denominator exception.",
+  "source_product_sha256": "ee4dcb25877e9101a544ee5896b9bf6890059d6398c78d7562127b0d1c53c293"
+}
