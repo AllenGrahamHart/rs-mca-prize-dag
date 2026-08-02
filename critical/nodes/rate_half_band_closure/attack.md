@@ -3802,7 +3802,25 @@ deployed `(t,w0)` points, and direct replay of the original `P,L,M,F` at each
 point leaves either no deployed `b` or only `D_0=0`.  Thus all of `L=M=0` is
 excluded in cells 4 and 7.
 
-Do not return to `H`, its content fibers, or its scale charts.  The sole
-cell-4 obstruction is now the main `L!=0` component of `F=0`: reconstruct
-`w1=-tM/L` in that function field and append the colored equations before
-projecting.
+Do not return to `H`, its content fibers, or its scale charts.  The former
+main obstruction is now closed by the PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion`.
+In the compact plane quotient, exact pseudo-reduction and a leading-
+coefficient cross identity give
+
+```text
+F=0  =>  N0 D0^5 (rd^2w0-rn^2)=0.
+```
+
+The proportionality-leading norm has only `t=+/-1,+/-i` as deployed roots,
+all original guards; its quadratic and cubic factors are irreducible.  The
+three factors on the right are respectively a nonzero product record, a
+denominator guard, and the source-pair disjointness guard.  Hence the main
+signed pair is empty without colored elimination.  Together with the
+exceptional-scale theorem and exact root-sign/cell symmetry, this closes all
+eight rows of orbit `[4,7]`.
+
+The positive frontier is now five representatives / 32 raw rows:
+`[3,6]`, `[9,10]`, `[11]`, `[12,13]`, and `[14]`.  Before launching a large
+colored elimination on another orbit, profile its signed-pair projection for
+the same low-degree guard-factorization phenomenon.

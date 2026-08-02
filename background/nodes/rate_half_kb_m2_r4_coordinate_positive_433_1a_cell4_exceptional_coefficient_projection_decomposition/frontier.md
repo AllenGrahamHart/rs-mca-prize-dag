@@ -6,5 +6,5 @@ closes `H`, both admissible removed content fibers, every subresultant scale,
 and therefore the entire exceptional chart `L=M=0`.
 
 Do not rerun the ambient four-polynomial basis or any `H` computation.  The
-remaining cell-4 target is the main `L!=0` component of the irreducible
-signed-pair projection `F=0`.
+separate main guard-factorization theorem now excludes the irreducible
+signed-pair projection `F=0`; orbit `[4,7]` is closed.

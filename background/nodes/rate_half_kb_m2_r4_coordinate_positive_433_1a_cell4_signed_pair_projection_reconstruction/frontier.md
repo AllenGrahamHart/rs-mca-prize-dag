@@ -1,11 +1,6 @@
 # Frontier
 
-First test the exceptional reconstruction chart `plane=L=M=0`, retaining all
-original guards and checking deployed-field points if it is nonunit.  On the
-generic chart, substitute `w1=-tM/L` into the colored necessary equations and
-reduce after every operation by the 21-term plane relation and the live factor
-`F`.  Do not rerun the global four-equation basis.
-
-A unit ledger for both charts closes `[4,7]`; any proper exceptional algebraic
-component must be classified for deployed-field points and every omitted
-source/target guard before it is retained or deleted.
+Both descendants are now PROVED.  The exceptional reconstruction child closes
+`L=M=0`; the main guard-factorization child proves that `F=0` forces an
+original product, denominator, or source-pair guard to vanish.  Together with
+the exceptional-scale and symmetry dependencies, orbit `[4,7]` is closed.

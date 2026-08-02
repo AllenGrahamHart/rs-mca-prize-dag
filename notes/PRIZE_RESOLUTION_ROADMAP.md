@@ -15322,3 +15322,44 @@ next route step:          main genus-three chart only: signed-pair components
 remaining frontier:      six representatives / 40 raw rows
 nonclaim:                 no [3,6] exclusion, route, K3, LIST, MCA, or Prize
 ```
+
+### Work-cycle theorem: cell-4 exceptional reconstruction colored exclusion
+
+```text
+exceptional chart:        P=F=L=M=H=0, including every lift scale
+colored reduction:        T(t)*x^4*C(w0,t), with x forced nonzero
+C shape:                  bidegree (7,2047), 16368 terms
+coefficient eliminant:    degree 16248, 16021 terms
+deployed Frobenius gcd:   degree 15, all roots classified
+generic candidates:       every signed-pair lift has D0=0
+content roots:            two admissible values; H has no deployed w0 root
+scale atlas:              six pseudo-subresultant scales, 19 (t,w0) points;
+                          original replay leaves no b or only D0=0
+result:                   entire L=M=0 chart PROVED excluded in [4,7]
+next route step:          main F=0 component only
+nonclaim:                 no main-chart, orbit, route, K3, or Prize closure
+```
+
+### Work-cycle theorem: cell-4 main projection guard factorization
+
+```text
+live projection:          F(w0,b,t), degrees (13,3,284)
+plane quotient product:  C=(t^2+1)^42*N0*D0^5*(rd^2*w0-rn^2)
+C shape:                  degrees (13,3,200), 11088 terms
+exact identity:           c13*F-f13*C=0 modulo P
+leading norm:             degree 1124, 1125 terms
+deployed norm roots:      t=+/-1,+/-i only, all original guards
+nonlinear norm factors:   one irreducible quadratic, four irreducible cubics
+contradiction factors:    N0 nonzero product record; D0 denominator guard;
+                          rd^2*w0-rn^2 source-pair disjointness guard
+result:                   main signed pair empty without colored elimination
+symmetry consequence:    all eight rows of orbit [4,7] PROVED excluded
+frontier delta:           six representatives / 40 raw rows ->
+                          five representatives / 32 raw rows
+remaining orbits:         [3,6], [9,10], [11], [12,13], [14]
+certificate hash:         0772e51e34f71820af3e6bbddb9a53b2466093ebc31b922db39d8acca1b171ad
+Modal app:                ap-r6UXd9Y4mVPXtEcj4WIZEr
+next route step:          profile remaining signed-pair projections for the
+                          same guard-factorization before colored elimination
+nonclaim:                 no positive-route, K3, LIST, MCA, or Prize closure
+```

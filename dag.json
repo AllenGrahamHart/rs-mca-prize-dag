@@ -21813,6 +21813,28 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion",
+   "title": "KoalaBear positive 433-1a cell-4 main projection guard-factorization exclusion",
+   "status": "PROVED",
+   "closure": "exact plane-quotient guard factorization and complete leading-norm root exclusion",
+   "statement": "On the compact cell-4 plane, repeated exact pseudo-reduction gives C congruent (t^2+1)^42 N0 D0^5 (rd^2 w0-rn^2). Cross multiplication by the leading w0 coefficients proves c13 F-f13 C=0 modulo the plane. The exact norm Res_b(P,f13) has only the guarded base-field roots t=+/-1,+/-i; its remaining quadratic and cubic factors are irreducible. Thus F=0 forces N0D0(rd^2w0-rn^2)=0, contradicting original product, denominator, or source-pair guards. Exceptional scales and exact symmetry then exclude all eight rows in orbit [4,7]. Five positive representatives / 32 raw rows remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_main_projection_guard_factorization_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_main_projection_guard_factorization_result.json"
+   ]
+  },
+  {
    "id": "dli_c1_256_block_basis_factorization",
    "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
    "status": "PROVED",
@@ -43065,6 +43087,31 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
