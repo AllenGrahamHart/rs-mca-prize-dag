@@ -1,0 +1,20 @@
+[
+ {
+  "row": "prize 1/4",
+  "log2q_gate_threshold": 209.2571859717424,
+  "log2q_cascade_threshold": 104.62859301005085,
+  "EL_tau_256_bits": 691282979693.9272
+ },
+ {
+  "row": "prize 1/8",
+  "log2q_gate_threshold": 141.9343163603831,
+  "log2q_cascade_threshold": 70.96715819639405,
+  "EL_tau_256_bits": 107801641685.3352
+ },
+ {
+  "row": "prize 1/16",
+  "log2q_gate_threshold": 176.57558990871811,
+  "log2q_cascade_threshold": 88.28779499457376,
+  "EL_tau_256_bits": 200317176361.0841
+ }
+]

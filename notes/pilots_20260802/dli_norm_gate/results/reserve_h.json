@@ -1,0 +1,51 @@
+[
+ {
+  "n": 32,
+  "q": 97,
+  "U": [
+   1
+  ],
+  "o": 1,
+  "n_supports_nonempty": 39202,
+  "rho_min": "0",
+  "rho_max": "97/4",
+  "rho_mean": "156849/156808",
+  "rho_max_over_pred_float": 24.25,
+  "R1_sum_skewcount": 56320,
+  "R1_sum_H_over_phi": "56320",
+  "R1_exact": true,
+  "total_hit": 839424,
+  "global_hit_ratio_times_phi": 1.0734980176883195,
+  "model": {
+   "E_rho_model": "576471/627232",
+   "E_rho_observed": "156849/156808",
+   "E_ratio": 1.088339222614841,
+   "Var_rho_model_meanpart": "3219995025/2569142272",
+   "Var_rho_observed": "505296184455/196709990912",
+   "model_rho_ceiling(all hits solve)": "97/2",
+   "observed_rho_max": "97/4",
+   "ceiling_is_valid_bound": true
+  },
+  "worst_support": {
+   "mask": 67,
+   "indices": [
+    0,
+    1,
+    6
+   ],
+   "size": 3,
+   "skewcount": 2,
+   "hit": 4,
+   "sumH": 4,
+   "rho": "97/4"
+  },
+  "R3_norm_multiset": {
+   "n_classes": 409,
+   "n_ambiguous": 332,
+   "law_survives": false,
+   "largest_spread": "97/4",
+   "compare_L12_difference_multiset": "547 ambiguous of 1064 classes"
+  },
+  "restricted": "supports of size <= 8 only (L12-comparable)"
+ }
+]

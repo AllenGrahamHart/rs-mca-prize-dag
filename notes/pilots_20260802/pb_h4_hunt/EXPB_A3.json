@@ -1,0 +1,76 @@
+{
+ "budget_8n3": 32768,
+ "case": "A3",
+ "count_histogram": {
+  "1": 26082992,
+  "14": 80,
+  "15": 16,
+  "18": 8,
+  "19": 16,
+  "2": 5928304,
+  "21": 16,
+  "3": 965120,
+  "4": 134328,
+  "5": 17296,
+  "6": 7712,
+  "7": 2496,
+  "8": 224,
+  "9": 16
+ },
+ "directions": 9507,
+ "lambda_full": 10.770375457875458,
+ "lambda_lex": 8.616300366300367,
+ "lines": 89451363,
+ "max_count": 21,
+ "max_count_line": [
+  [
+   0,
+   1,
+   1
+  ],
+  [
+   1,
+   0,
+   0
+  ]
+ ],
+ "max_gamma_lo_admissible": 5,
+ "max_gamma_lo_admissible_line": [
+  [
+   1,
+   19,
+   80
+  ],
+  [
+   0,
+   9,
+   66
+  ],
+  5
+ ],
+ "max_gamma_lo_any": 5,
+ "max_gamma_lo_any_line": [
+  [
+   1,
+   19,
+   80
+  ],
+  [
+   0,
+   9,
+   66
+  ],
+  5,
+  false
+ ],
+ "max_gamma_lo_lex_admissible": 4,
+ "mu_mean_witnesses_per_line": 0.4642363694335211,
+ "params": {
+  "A": 11,
+  "K": 8,
+  "h": 3,
+  "n": 16,
+  "q": 97
+ },
+ "subsets": 4368
+}

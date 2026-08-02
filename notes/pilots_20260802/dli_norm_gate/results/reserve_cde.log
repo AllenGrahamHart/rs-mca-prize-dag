@@ -1,0 +1,3 @@
+n=32 q=8353 U=[1]: rho in [0, 8353/32] mean 0.914989 | GT match True | R1 exact True | model E ratio 1.001089472967452 | ceiling valid True
+n=32 q=32801 U=[1]: rho in [0, 32801/64] mean 0.798667 | GT match True | R1 exact True | model E ratio 1.0 | ceiling valid True
+n=32 q=97 U=[1, 3]: rho in [0, 9409/16] mean 1.20417 | GT match False | R1 exact True | model E ratio 1.0001164483260554 | ceiling valid True

@@ -1,0 +1,54 @@
+{
+ "theorem": "sum_{z in F_q} agr(c, u+zv) = q*e(c) + (n-|Z|)",
+ "checks": 4004,
+ "fails": [],
+ "instances": [
+  {
+   "n": 16,
+   "k": 8,
+   "w": 2,
+   "M": 2,
+   "q": 97,
+   "a": 10,
+   "v_zeros_on_H": 2,
+   "distinct_codewords_over_pencil": 681,
+   "duplicates": 0
+  },
+  {
+   "n": 16,
+   "k": 8,
+   "w": 2,
+   "M": 2,
+   "q": 113,
+   "a": 10,
+   "v_zeros_on_H": 2,
+   "distinct_codewords_over_pencil": 791,
+   "duplicates": 0
+  }
+ ],
+ "negative_result": {
+  "claim": "no inequality min_z L(w_z,a) <= f(n) can hold under (k-packing + tangent gate agr<=A + span(u,v) cap C = 0)",
+  "witness": "MC shift pencil; min = C(N,m)/N which is superpolynomial in n",
+  "instances": [
+   {
+    "n": 16,
+    "k": 4,
+    "w": 2,
+    "M": 2,
+    "q": 113,
+    "min_over_pencil": 7,
+    "source": "verify_pencil.py (exhaustive over all q+1 members)"
+   },
+   {
+    "n": 20,
+    "k": 4,
+    "w": 4,
+    "M": 4,
+    "q": 181,
+    "min_over_pencil": 2,
+    "source": "verify_pencil.py (exhaustive over all q+1 members)"
+   }
+  ]
+ },
+ "verdict": "INCIDENCE_PASS"
+}

@@ -85,3 +85,13 @@ oppositely). That adjudication is SURFACED.
 - The self-collision lemma covers the split-fibre recipe only; (H4)
   outside that class is open.
 - Nothing proved about P-B itself; the margins are exact integer facts.
+
+> [AMENDED same day — pb_h4_hunt pilot.] (SF-SELFCOLLISION)'s
+> Gamma_lo = 0 conclusion is a JOINT identity + support-keyed-selector
+> theorem (adjacent partners live at other slopes; uniform selector
+> leaves ~q e^{-nu}, official nu = 3.0 => ~2^187; support-lex 0 at
+> 18/18). K1 remains closed for the class — now verified at the
+> official ratio — but (PB-SUPPLY)'s (H4) clause must state the
+> selector hypothesis, re-coupling K1 to the PP4.0 A1 fork. Also:
+> strip/genericity gates must be stated gauge-invariantly (on
+> (alpha,beta) mod RS_K). See pb_h4_hunt/{REPORT,FABLE_AUDIT}.md.

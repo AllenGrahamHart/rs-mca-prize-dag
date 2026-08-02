@@ -1,0 +1,2 @@
+n=32 q=97 U=[1]: rho in [0, 97/4] mean 0.998536 | GT match True | R1 exact True | model E ratio 1.084273130467163 | ceiling valid True
+n=32 q=193 U=[1]: rho in [0, 193/4] mean 0.997459 | GT match True | R1 exact True | model E ratio 1.0462102553041945 | ceiling valid True

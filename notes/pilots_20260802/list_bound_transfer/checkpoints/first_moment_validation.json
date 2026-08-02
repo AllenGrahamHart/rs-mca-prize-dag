@@ -1,0 +1,52 @@
+[
+ {
+  "n": 16,
+  "k": 4,
+  "a": 6,
+  "q": 17,
+  "trials": 60,
+  "leading_term": 27.709342560553633,
+  "exact_expectation": 16.562234492479224,
+  "measured_mean": 16.916666666666668
+ },
+ {
+  "n": 16,
+  "k": 4,
+  "a": 6,
+  "q": 97,
+  "trials": 60,
+  "leading_term": 0.851100010628122,
+  "exact_expectation": 0.7788718345731047,
+  "measured_mean": 0.8166666666666667
+ },
+ {
+  "n": 16,
+  "k": 4,
+  "a": 7,
+  "q": 17,
+  "trials": 60,
+  "leading_term": 2.3285161815591287,
+  "exact_expectation": 1.449716375945439,
+  "measured_mean": 1.6
+ },
+ {
+  "n": 12,
+  "k": 4,
+  "a": 6,
+  "q": 13,
+  "trials": 60,
+  "leading_term": 5.467455621301775,
+  "exact_expectation": 3.6369578987573767,
+  "measured_mean": 3.75
+ },
+ {
+  "n": 16,
+  "k": 6,
+  "a": 8,
+  "q": 17,
+  "trials": 40,
+  "leading_term": 44.53287197231834,
+  "exact_expectation": 29.011091962672616,
+  "measured_mean": 29.25
+ }
+]

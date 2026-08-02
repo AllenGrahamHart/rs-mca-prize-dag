@@ -1,0 +1,6588 @@
+{
+ "summary": {
+  "stage": "n32_o",
+  "n_rows": 176,
+  "S1_violations": 0,
+  "rows_with_H_nonempty": 9,
+  "rows_deviating_from_1_over_phi": 0,
+  "S3_predicted_exact_but_deviating": 0,
+  "deviating_rows": []
+ },
+ "rows": [
+  {
+   "n": 32,
+   "q": 97,
+   "w": 1,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 9409,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 2,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 9409,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 3,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1024,
+   "sum_m": 1024,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3456,
+    "1": 1024
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 9409,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 4,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 4096,
+   "sum_m": 4608,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 25024,
+    "1": 3584,
+    "2": 512
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 9409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 5,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 64,
+   "n_H_nonempty": 1024,
+   "sum_H": 1024,
+   "n_norm_divisible": 15872,
+   "sum_m": 20480,
+   "S1_identity_holds": true,
+   "S1_lhs": 1024,
+   "S1_rhs": 1024,
+   "max_m": 2,
+   "max_H": 1,
+   "m_hist": {
+    "0": 123904,
+    "1": 11264,
+    "2": 4608
+   },
+   "H_hist": {
+    "0": 138752,
+    "1": 1024
+   },
+   "ratio_num": 64,
+   "ratio_den": 1024,
+   "ratio_times_phi": 1.0,
+   "predicted_1_over_phi_exact": true,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 9409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 6,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 96,
+   "n_H_nonempty": 1536,
+   "sum_H": 1536,
+   "n_norm_divisible": 79360,
+   "sum_m": 86528,
+   "S1_identity_holds": true,
+   "S1_lhs": 1536,
+   "S1_rhs": 1536,
+   "max_m": 2,
+   "max_H": 1,
+   "m_hist": {
+    "0": 433152,
+    "1": 72192,
+    "2": 7168
+   },
+   "H_hist": {
+    "0": 510976,
+    "1": 1536
+   },
+   "ratio_num": 96,
+   "ratio_den": 1536,
+   "ratio_times_phi": 1.0,
+   "predicted_1_over_phi_exact": true,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 9409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 7,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 64,
+   "n_H_nonempty": 1024,
+   "sum_H": 1024,
+   "n_norm_divisible": 239616,
+   "sum_m": 250880,
+   "S1_identity_holds": true,
+   "S1_lhs": 1024,
+   "S1_rhs": 1024,
+   "max_m": 2,
+   "max_H": 1,
+   "m_hist": {
+    "0": 1224704,
+    "1": 228352,
+    "2": 11264
+   },
+   "H_hist": {
+    "0": 1463296,
+    "1": 1024
+   },
+   "ratio_num": 64,
+   "ratio_den": 1024,
+   "ratio_times_phi": 1.0,
+   "predicted_1_over_phi_exact": true,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 9409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 8,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 288,
+   "n_H_nonempty": 4608,
+   "sum_H": 4608,
+   "n_norm_divisible": 499456,
+   "sum_m": 537600,
+   "S1_identity_holds": true,
+   "S1_lhs": 4608,
+   "S1_rhs": 4608,
+   "max_m": 2,
+   "max_H": 1,
+   "m_hist": {
+    "0": 2795264,
+    "1": 461312,
+    "2": 38144
+   },
+   "H_hist": {
+    "0": 3290112,
+    "1": 4608
+   },
+   "ratio_num": 288,
+   "ratio_den": 4608,
+   "ratio_times_phi": 1.0,
+   "predicted_1_over_phi_exact": true,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 9409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 1,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 9409,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 2,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 9409,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 3,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1024,
+   "sum_m": 1024,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3456,
+    "1": 1024
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 9409,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 4,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 4096,
+   "sum_m": 4608,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 25024,
+    "1": 3584,
+    "2": 512
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 9409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 5,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 15872,
+   "sum_m": 20480,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 123904,
+    "1": 11264,
+    "2": 4608
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 9409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 6,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 79360,
+   "sum_m": 86528,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 433152,
+    "1": 72192,
+    "2": 7168
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 9409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 7,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 239616,
+   "sum_m": 250880,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1224704,
+    "1": 228352,
+    "2": 11264
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 9409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 8,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 499456,
+   "sum_m": 537600,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 2795264,
+    "1": 461312,
+    "2": 38144
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 9409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 1,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 37249,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 2,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 37249,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 3,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3968,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 37249,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 4,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 2048,
+   "sum_m": 2048,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 27072,
+    "1": 2048
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 37249,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 5,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 8704,
+   "sum_m": 10240,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 131072,
+    "1": 7168,
+    "2": 1536
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 37249,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 6,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 42752,
+   "sum_m": 44544,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 469760,
+    "1": 40960,
+    "2": 1792
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 37249,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 7,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 96,
+   "n_H_nonempty": 1536,
+   "sum_H": 1536,
+   "n_norm_divisible": 121856,
+   "sum_m": 126976,
+   "S1_identity_holds": true,
+   "S1_lhs": 1536,
+   "S1_rhs": 1536,
+   "max_m": 2,
+   "max_H": 1,
+   "m_hist": {
+    "0": 1342464,
+    "1": 116736,
+    "2": 5120
+   },
+   "H_hist": {
+    "0": 1462784,
+    "1": 1536
+   },
+   "ratio_num": 96,
+   "ratio_den": 1536,
+   "ratio_times_phi": 1.0,
+   "predicted_1_over_phi_exact": true,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 37249,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 8,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 32,
+   "n_H_nonempty": 512,
+   "sum_H": 512,
+   "n_norm_divisible": 259072,
+   "sum_m": 268288,
+   "S1_identity_holds": true,
+   "S1_lhs": 512,
+   "S1_rhs": 512,
+   "max_m": 2,
+   "max_H": 1,
+   "m_hist": {
+    "0": 3035648,
+    "1": 249856,
+    "2": 9216
+   },
+   "H_hist": {
+    "0": 3294208,
+    "1": 512
+   },
+   "ratio_num": 32,
+   "ratio_den": 512,
+   "ratio_times_phi": 1.0,
+   "predicted_1_over_phi_exact": true,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 37249,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 1,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 37249,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 2,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 37249,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 3,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3968,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 37249,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 4,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 2048,
+   "sum_m": 2048,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 27072,
+    "1": 2048
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 37249,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 5,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 8704,
+   "sum_m": 10240,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 131072,
+    "1": 7168,
+    "2": 1536
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 37249,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 6,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 42752,
+   "sum_m": 44544,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 469760,
+    "1": 40960,
+    "2": 1792
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 37249,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 7,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 121856,
+   "sum_m": 126976,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1342464,
+    "1": 116736,
+    "2": 5120
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 37249,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 8,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 259072,
+   "sum_m": 268288,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3035648,
+    "1": 249856,
+    "2": 9216
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 37249,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 1,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 66049,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 2,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 66049,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 3,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3968,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 66049,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 4,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1536,
+   "sum_m": 1536,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 27584,
+    "1": 1536
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 66049,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 5,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 5888,
+   "sum_m": 6144,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 133888,
+    "1": 5632,
+    "2": 256
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 66049,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 6,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 29184,
+   "sum_m": 30208,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 483328,
+    "1": 28160,
+    "2": 1024
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 66049,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 7,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 32,
+   "n_H_nonempty": 512,
+   "sum_H": 512,
+   "n_norm_divisible": 94976,
+   "sum_m": 97792,
+   "S1_identity_holds": true,
+   "S1_lhs": 512,
+   "S1_rhs": 512,
+   "max_m": 2,
+   "max_H": 1,
+   "m_hist": {
+    "0": 1369344,
+    "1": 92160,
+    "2": 2816
+   },
+   "H_hist": {
+    "0": 1463808,
+    "1": 512
+   },
+   "ratio_num": 32,
+   "ratio_den": 512,
+   "ratio_times_phi": 1.0,
+   "predicted_1_over_phi_exact": true,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 66049,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 8,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 32,
+   "n_H_nonempty": 512,
+   "sum_H": 512,
+   "n_norm_divisible": 213504,
+   "sum_m": 220160,
+   "S1_identity_holds": true,
+   "S1_lhs": 512,
+   "S1_rhs": 512,
+   "max_m": 2,
+   "max_H": 1,
+   "m_hist": {
+    "0": 3081216,
+    "1": 206848,
+    "2": 6656
+   },
+   "H_hist": {
+    "0": 3294208,
+    "1": 512
+   },
+   "ratio_num": 32,
+   "ratio_den": 512,
+   "ratio_times_phi": 1.0,
+   "predicted_1_over_phi_exact": true,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 66049,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 1,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 66049,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 2,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 66049,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 3,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3968,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 66049,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 4,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1536,
+   "sum_m": 1536,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 27584,
+    "1": 1536
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 66049,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 5,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 5888,
+   "sum_m": 6144,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 133888,
+    "1": 5632,
+    "2": 256
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 66049,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 6,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 29184,
+   "sum_m": 30208,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 483328,
+    "1": 28160,
+    "2": 1024
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 66049,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 7,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 94976,
+   "sum_m": 97792,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1369344,
+    "1": 92160,
+    "2": 2816
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 66049,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 8,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 213504,
+   "sum_m": 220160,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3081216,
+    "1": 206848,
+    "2": 6656
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 66049,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 353,
+   "w": 1,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 124609,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 353,
+   "w": 2,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 124609,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 353,
+   "w": 3,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3968,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 124609,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 353,
+   "w": 4,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1536,
+   "sum_m": 1536,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 27584,
+    "1": 1536
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 124609,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 353,
+   "w": 5,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 5632,
+   "sum_m": 5632,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 134144,
+    "1": 5632
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 124609,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 353,
+   "w": 6,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 20992,
+   "sum_m": 22528,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 491520,
+    "1": 19456,
+    "2": 1536
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 124609,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 353,
+   "w": 7,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 62976,
+   "sum_m": 64512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1401344,
+    "1": 61440,
+    "2": 1536
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 124609,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 353,
+   "w": 8,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 144128,
+   "sum_m": 147968,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3150592,
+    "1": 140288,
+    "2": 3840
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 124609,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 353,
+   "w": 1,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 124609,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 353,
+   "w": 2,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 124609,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 353,
+   "w": 3,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3968,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 124609,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 353,
+   "w": 4,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1536,
+   "sum_m": 1536,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 27584,
+    "1": 1536
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 124609,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 353,
+   "w": 5,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 5632,
+   "sum_m": 5632,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 134144,
+    "1": 5632
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 124609,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 353,
+   "w": 6,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 20992,
+   "sum_m": 22528,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 491520,
+    "1": 19456,
+    "2": 1536
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 124609,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 353,
+   "w": 7,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 62976,
+   "sum_m": 64512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1401344,
+    "1": 61440,
+    "2": 1536
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 124609,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 353,
+   "w": 8,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 144128,
+   "sum_m": 147968,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3150592,
+    "1": 140288,
+    "2": 3840
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 124609,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 449,
+   "w": 1,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 201601,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 449,
+   "w": 2,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 201601,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 449,
+   "w": 3,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3968,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 201601,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 449,
+   "w": 4,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1536,
+   "sum_m": 1536,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 27584,
+    "1": 1536
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 201601,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 449,
+   "w": 5,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 3072,
+   "sum_m": 3072,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 136704,
+    "1": 3072
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 201601,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 449,
+   "w": 6,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 13824,
+   "sum_m": 13824,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 498688,
+    "1": 13824
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 201601,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 449,
+   "w": 7,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 52736,
+   "sum_m": 55296,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1411584,
+    "1": 50176,
+    "2": 2560
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 201601,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 449,
+   "w": 8,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 32,
+   "n_H_nonempty": 512,
+   "sum_H": 512,
+   "n_norm_divisible": 123904,
+   "sum_m": 126464,
+   "S1_identity_holds": true,
+   "S1_lhs": 512,
+   "S1_rhs": 512,
+   "max_m": 2,
+   "max_H": 1,
+   "m_hist": {
+    "0": 3170816,
+    "1": 121344,
+    "2": 2560
+   },
+   "H_hist": {
+    "0": 3294208,
+    "1": 512
+   },
+   "ratio_num": 32,
+   "ratio_den": 512,
+   "ratio_times_phi": 1.0,
+   "predicted_1_over_phi_exact": true,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 201601,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 449,
+   "w": 1,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 201601,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 449,
+   "w": 2,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 201601,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 449,
+   "w": 3,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3968,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 201601,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 449,
+   "w": 4,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1536,
+   "sum_m": 1536,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 27584,
+    "1": 1536
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 201601,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 449,
+   "w": 5,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 3072,
+   "sum_m": 3072,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 136704,
+    "1": 3072
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 201601,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 449,
+   "w": 6,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 13824,
+   "sum_m": 13824,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 498688,
+    "1": 13824
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 201601,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 449,
+   "w": 7,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 52736,
+   "sum_m": 55296,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1411584,
+    "1": 50176,
+    "2": 2560
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 201601,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 449,
+   "w": 8,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 123904,
+   "sum_m": 126464,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3170816,
+    "1": 121344,
+    "2": 2560
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 201601,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 641,
+   "w": 1,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 410881,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 641,
+   "w": 2,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 410881,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 641,
+   "w": 3,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 4480
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 410881,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 641,
+   "w": 4,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1536,
+   "sum_m": 1536,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 27584,
+    "1": 1536
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 410881,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 641,
+   "w": 5,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1536,
+   "sum_m": 1536,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 138240,
+    "1": 1536
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 410881,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 641,
+   "w": 6,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 9728,
+   "sum_m": 9728,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 502784,
+    "1": 9728
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 410881,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 641,
+   "w": 7,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 42240,
+   "sum_m": 43520,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1422080,
+    "1": 40960,
+    "2": 1280
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 410881,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 641,
+   "w": 8,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 82432,
+   "sum_m": 82944,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3212288,
+    "1": 81920,
+    "2": 512
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 410881,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 641,
+   "w": 1,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 410881,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 641,
+   "w": 2,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 410881,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 641,
+   "w": 3,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 4480
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 410881,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 641,
+   "w": 4,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1536,
+   "sum_m": 1536,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 27584,
+    "1": 1536
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 410881,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 641,
+   "w": 5,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1536,
+   "sum_m": 1536,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 138240,
+    "1": 1536
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 410881,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 641,
+   "w": 6,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 9728,
+   "sum_m": 9728,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 502784,
+    "1": 9728
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 410881,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 641,
+   "w": 7,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 42240,
+   "sum_m": 43520,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1422080,
+    "1": 40960,
+    "2": 1280
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 410881,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 641,
+   "w": 8,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 82432,
+   "sum_m": 82944,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3212288,
+    "1": 81920,
+    "2": 512
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 410881,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 1153,
+   "w": 1,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 1329409,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 1153,
+   "w": 2,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 1329409,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 1153,
+   "w": 3,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 4480
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 1329409,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 1153,
+   "w": 4,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 28608,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 1329409,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 1153,
+   "w": 5,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1536,
+   "sum_m": 1536,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 138240,
+    "1": 1536
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 1329409,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 1153,
+   "w": 6,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 8192,
+   "sum_m": 8192,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 504320,
+    "1": 8192
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 1329409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 1153,
+   "w": 7,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 21760,
+   "sum_m": 22016,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1442560,
+    "1": 21504,
+    "2": 256
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 1329409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 1153,
+   "w": 8,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 39936,
+   "sum_m": 39936,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3254784,
+    "1": 39936
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 1329409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 1153,
+   "w": 1,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 1329409,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 1153,
+   "w": 2,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 1329409,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 1153,
+   "w": 3,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 4480
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 1329409,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 1153,
+   "w": 4,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 28608,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 1329409,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 1153,
+   "w": 5,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1536,
+   "sum_m": 1536,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 138240,
+    "1": 1536
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 1329409,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 1153,
+   "w": 6,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 8192,
+   "sum_m": 8192,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 504320,
+    "1": 8192
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 1329409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 1153,
+   "w": 7,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 21760,
+   "sum_m": 22016,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 2,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1442560,
+    "1": 21504,
+    "2": 256
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 1329409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 1153,
+   "w": 8,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 39936,
+   "sum_m": 39936,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3254784,
+    "1": 39936
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 1329409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 3457,
+   "w": 1,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 11950849,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 3457,
+   "w": 2,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 11950849,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 3457,
+   "w": 3,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 4480
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 11950849,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 3457,
+   "w": 4,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 28608,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 11950849,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 3457,
+   "w": 5,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 139264,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 11950849,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 3457,
+   "w": 6,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 4096,
+   "sum_m": 4096,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 508416,
+    "1": 4096
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 11950849,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 3457,
+   "w": 7,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 3072,
+   "sum_m": 3072,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1461248,
+    "1": 3072
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 11950849,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 3457,
+   "w": 8,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 11776,
+   "sum_m": 11776,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3282944,
+    "1": 11776
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 11950849,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 3457,
+   "w": 1,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 11950849,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 3457,
+   "w": 2,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 11950849,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 3457,
+   "w": 3,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 4480
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 11950849,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 3457,
+   "w": 4,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 28608,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 11950849,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 3457,
+   "w": 5,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 139264,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 11950849,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 3457,
+   "w": 6,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 4096,
+   "sum_m": 4096,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 508416,
+    "1": 4096
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 11950849,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 3457,
+   "w": 7,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 3072,
+   "sum_m": 3072,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1461248,
+    "1": 3072
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 11950849,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 3457,
+   "w": 8,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 11776,
+   "sum_m": 11776,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3282944,
+    "1": 11776
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 11950849,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 7937,
+   "w": 1,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 62995969,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 7937,
+   "w": 2,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 62995969,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 7937,
+   "w": 3,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 4480
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 62995969,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 7937,
+   "w": 4,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 28608,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 62995969,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 7937,
+   "w": 5,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 139776
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 62995969,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 7937,
+   "w": 6,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1024,
+   "sum_m": 1024,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 511488,
+    "1": 1024
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 62995969,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 7937,
+   "w": 7,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1024,
+   "sum_m": 1024,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1463296,
+    "1": 1024
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 62995969,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 7937,
+   "w": 8,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 6656,
+   "sum_m": 6656,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3288064,
+    "1": 6656
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 62995969,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 7937,
+   "w": 1,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 62995969,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 7937,
+   "w": 2,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 62995969,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 7937,
+   "w": 3,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 4480
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 62995969,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 7937,
+   "w": 4,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 28608,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 62995969,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 7937,
+   "w": 5,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 139776
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 62995969,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 7937,
+   "w": 6,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1024,
+   "sum_m": 1024,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 511488,
+    "1": 1024
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 62995969,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 7937,
+   "w": 7,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 1024,
+   "sum_m": 1024,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1463296,
+    "1": 1024
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 62995969,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 7937,
+   "w": 8,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 6656,
+   "sum_m": 6656,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3288064,
+    "1": 6656
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 62995969,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 65537,
+   "w": 1,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 4295098369,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 65537,
+   "w": 2,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 4295098369,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 65537,
+   "w": 3,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 4480
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 4295098369,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 65537,
+   "w": 4,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 29120
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 4295098369,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 65537,
+   "w": 5,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 139776
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 4295098369,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 65537,
+   "w": 6,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 512512
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 4295098369,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 65537,
+   "w": 7,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1464320
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 4295098369,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 65537,
+   "w": 8,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3294720
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 4295098369,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 65537,
+   "w": 1,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 4295098369,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 65537,
+   "w": 2,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 4295098369,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 65537,
+   "w": 3,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 4480
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 4295098369,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 65537,
+   "w": 4,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 29120
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 4295098369,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 65537,
+   "w": 5,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 139776
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 4295098369,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 65537,
+   "w": 6,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 512512
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 4295098369,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 65537,
+   "w": 7,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1464320
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 4295098369,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 65537,
+   "w": 8,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3294720
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 4295098369,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 786433,
+   "w": 1,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 618476863489,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 786433,
+   "w": 2,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 618476863489,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 786433,
+   "w": 3,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 4480
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 618476863489,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 786433,
+   "w": 4,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 29120
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 618476863489,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 786433,
+   "w": 5,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 139776
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 618476863489,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 786433,
+   "w": 6,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 512512
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 618476863489,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 786433,
+   "w": 7,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1464320
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 618476863489,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 786433,
+   "w": 8,
+   "U": [
+    1,
+    3
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3294208,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 618476863489,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 786433,
+   "w": 1,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 32,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 32
+   },
+   "H_hist": {
+    "0": 32
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1,
+    "q^2": 618476863489,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 786433,
+   "w": 2,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 480
+   },
+   "H_hist": {
+    "0": 480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 256,
+    "q^2": 618476863489,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 786433,
+   "w": 3,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 4480,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 4480
+   },
+   "H_hist": {
+    "0": 4480
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 6561,
+    "q^2": 618476863489,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 786433,
+   "w": 4,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 29120,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 29120
+   },
+   "H_hist": {
+    "0": 29120
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 618476863489,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 786433,
+   "w": 5,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 139776,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 139776
+   },
+   "H_hist": {
+    "0": 139776
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 618476863489,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 786433,
+   "w": 6,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 512512,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 512512
+   },
+   "H_hist": {
+    "0": 512512
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 618476863489,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 786433,
+   "w": 7,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 1464320,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 0,
+   "sum_m": 0,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 0,
+   "max_H": 0,
+   "m_hist": {
+    "0": 1464320
+   },
+   "H_hist": {
+    "0": 1464320
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 618476863489,
+    "S3_sufficient": true
+   }
+  },
+  {
+   "n": 32,
+   "q": 786433,
+   "w": 8,
+   "U": [
+    1,
+    3,
+    5
+   ],
+   "phi": 16,
+   "n_vectors": 3294720,
+   "n_solutions": 0,
+   "n_H_nonempty": 0,
+   "sum_H": 0,
+   "n_norm_divisible": 512,
+   "sum_m": 512,
+   "S1_identity_holds": true,
+   "S1_lhs": 0,
+   "S1_rhs": 0,
+   "max_m": 1,
+   "max_H": 0,
+   "m_hist": {
+    "0": 3294208,
+    "1": 512
+   },
+   "H_hist": {
+    "0": 3294720
+   },
+   "ratio_num": 0,
+   "ratio_den": 0,
+   "ratio_times_phi": null,
+   "predicted_1_over_phi_exact": null,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 618476863489,
+    "S3_sufficient": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "checks": [
+  {
+   "name": "norm_cyclotomic == sympy.resultant (exhaustive h=4,6)",
+   "pass": true,
+   "detail": "810 vectors, 0 mismatches"
+  },
+  {
+   "name": "LN3 root criterion + valuation bound",
+   "pass": true,
+   "detail": "[{\"n\": 16, \"q\": 17, \"tested\": 6560, \"criterion_mismatches\": 0, \"valuation_violations\": 0}, {\"n\": 16, \"q\": 97, \"tested\": 6560, \"criterion_mismatches\": 0, \"valuation_violations\": 0}, {\"n\": 16, \"q\": 113, \"tested\": 6560, \"criterion_mismatches\": 0, \"valuation_violations\": 0}, {\"n\": 16, \"q\": 193, \"tested\": 6560, \"criterion_mismatches\": 0, \"valuation_violations\": 0}, {\"n\": 32, \"q\": 97, \"tested\": 4000, \"criterion_mismatches\": 0, \"valuation_violations\": 0}, {\"n\": 32, \"q\": 193, \"tested\": 4000, \"criterion_mismatches\": 0, \"valuation_violations\": 0}]"
+  },
+  {
+   "name": "ID1 junction-0 columns (t=2) are (zeta^i), i in Z/phi(n)",
+   "pass": true,
+   "detail": "so a skew solution is exactly a ternary relation on zeta_n"
+  },
+  {
+   "name": "Galois sigma_u is a signed permutation of {zeta^i}_{i<phi(n)}",
+   "pass": true,
+   "detail": "hence preserves ternariness and weight exactly"
+  }
+ ]
+}

@@ -1,0 +1,4502 @@
+{
+ "predictions": {
+  "Q1": "shift pencil: every member lists the whole MC family; min >= C(N,m)/N",
+  "Q2": "max agreement over pencil is k+w or k+w+1",
+  "Q3": "same-window control pencil: min over P^1 = 0",
+  "Q4": "span(u,v) cap C = 0",
+  "Q5": "joint explanation max measured",
+  "INC": "sum_z agr(c,w_z) = n for all c when v is nowhere zero; lists disjoint when a>n/2"
+ },
+ "experiments": [
+  {
+   "kind": "shift",
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 17,
+   "rp": 10,
+   "N": 8,
+   "m": 5,
+   "mc": 7,
+   "formula": 7,
+   "a": 6,
+   "n2": 256,
+   "members": [
+    {
+     "z": "0",
+     "list_ge_a": 29,
+     "max_agreement": 6
+    },
+    {
+     "z": "1",
+     "list_ge_a": 13,
+     "max_agreement": 7
+    },
+    {
+     "z": "2",
+     "list_ge_a": 17,
+     "max_agreement": 7
+    },
+    {
+     "z": "3",
+     "list_ge_a": 12,
+     "max_agreement": 7
+    },
+    {
+     "z": "4",
+     "list_ge_a": 13,
+     "max_agreement": 7
+    },
+    {
+     "z": "5",
+     "list_ge_a": 14,
+     "max_agreement": 7
+    },
+    {
+     "z": "6",
+     "list_ge_a": 14,
+     "max_agreement": 7
+    },
+    {
+     "z": "7",
+     "list_ge_a": 12,
+     "max_agreement": 7
+    },
+    {
+     "z": "8",
+     "list_ge_a": 18,
+     "max_agreement": 7
+    },
+    {
+     "z": "9",
+     "list_ge_a": 18,
+     "max_agreement": 7
+    },
+    {
+     "z": "10",
+     "list_ge_a": 12,
+     "max_agreement": 7
+    },
+    {
+     "z": "11",
+     "list_ge_a": 14,
+     "max_agreement": 7
+    },
+    {
+     "z": "12",
+     "list_ge_a": 14,
+     "max_agreement": 7
+    },
+    {
+     "z": "13",
+     "list_ge_a": 13,
+     "max_agreement": 7
+    },
+    {
+     "z": "14",
+     "list_ge_a": 12,
+     "max_agreement": 7
+    },
+    {
+     "z": "15",
+     "list_ge_a": 17,
+     "max_agreement": 7
+    },
+    {
+     "z": "16",
+     "list_ge_a": 13,
+     "max_agreement": 7
+    },
+    {
+     "z": "inf",
+     "list_ge_a": 29,
+     "max_agreement": 6
+    }
+   ],
+   "min_list": 12,
+   "max_list": 29,
+   "max_agreement_pencil": 7,
+   "joint_explanation_max": 6
+  },
+  {
+   "kind": "shift",
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 97,
+   "rp": 10,
+   "N": 8,
+   "m": 5,
+   "mc": 7,
+   "formula": 7,
+   "a": 6,
+   "n2": 256,
+   "members": [
+    {
+     "z": "0",
+     "list_ge_a": 9,
+     "max_agreement": 6
+    },
+    {
+     "z": "1",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "2",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "3",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "4",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "5",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "6",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "7",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "8",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "9",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "10",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "11",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "12",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "13",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "14",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "15",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "16",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "17",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "18",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "19",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "20",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "21",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "22",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "23",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "24",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "25",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "26",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "27",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "28",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "29",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "30",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "31",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "32",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "33",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "34",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "35",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "36",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "37",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "38",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "39",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "40",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "41",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "42",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "43",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "44",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "45",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "46",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "47",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "48",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "49",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "50",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "51",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "52",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "53",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "54",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "55",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "56",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "57",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "58",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "59",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "60",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "61",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "62",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "63",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "64",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "65",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "66",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "67",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "68",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "69",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "70",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "71",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "72",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "73",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "74",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "75",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "76",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "77",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "78",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "79",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "80",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "81",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "82",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "83",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "84",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "85",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "86",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "87",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "88",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "89",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "90",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "91",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "92",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "93",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "94",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "95",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "96",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "inf",
+     "list_ge_a": 9,
+     "max_agreement": 6
+    }
+   ],
+   "min_list": 7,
+   "max_list": 9,
+   "max_agreement_pencil": 7,
+   "joint_explanation_max": 6
+  },
+  {
+   "kind": "shift",
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 113,
+   "rp": 10,
+   "N": 8,
+   "m": 5,
+   "mc": 7,
+   "formula": 7,
+   "a": 6,
+   "n2": 256,
+   "members": [
+    {
+     "z": "0",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "1",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "2",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "3",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "4",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "5",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "6",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "7",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "8",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "9",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "10",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "11",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "12",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "13",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "14",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "15",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "16",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "17",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "18",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "19",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "20",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "21",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "22",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "23",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "24",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "25",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "26",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "27",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "28",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "29",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "30",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "31",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "32",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "33",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "34",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "35",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "36",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "37",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "38",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "39",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "40",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "41",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "42",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "43",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "44",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "45",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "46",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "47",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "48",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "49",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "50",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "51",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "52",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "53",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "54",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "55",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "56",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "57",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "58",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "59",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "60",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "61",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "62",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "63",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "64",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "65",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "66",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "67",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "68",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "69",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "70",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "71",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "72",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "73",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "74",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "75",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "76",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "77",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "78",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "79",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "80",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "81",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "82",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "83",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "84",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "85",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "86",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "87",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "88",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "89",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "90",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "91",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "92",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "93",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "94",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "95",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "96",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "97",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "98",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "99",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "100",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "101",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "102",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "103",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "104",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "105",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "106",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "107",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "108",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "109",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "110",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "111",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "112",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "inf",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    }
+   ],
+   "min_list": 7,
+   "max_list": 7,
+   "max_agreement_pencil": 7,
+   "joint_explanation_max": 6
+  },
+  {
+   "kind": "shift",
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 193,
+   "rp": 10,
+   "N": 8,
+   "m": 5,
+   "mc": 7,
+   "formula": 7,
+   "a": 6,
+   "n2": 256,
+   "members": [
+    {
+     "z": "0",
+     "list_ge_a": 9,
+     "max_agreement": 6
+    },
+    {
+     "z": "1",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "2",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "3",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "4",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "5",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "6",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "7",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "8",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "9",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "10",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "11",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "12",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "13",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "14",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "15",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "16",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "17",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "18",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "19",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "20",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "21",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "22",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "23",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "24",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "25",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "26",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "27",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "28",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "29",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "30",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "31",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "32",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "33",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "34",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "35",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "36",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "37",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "38",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "39",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "40",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "41",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "42",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "43",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "44",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "45",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "46",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "47",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "48",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "49",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "50",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "51",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "52",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "53",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "54",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "55",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "56",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "57",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "58",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "59",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "60",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "61",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "62",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "63",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "64",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "65",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "66",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "67",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "68",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "69",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "70",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "71",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "72",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "73",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "74",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "75",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "76",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "77",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "78",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "79",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "80",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "81",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "82",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "83",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "84",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "85",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "86",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "87",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "88",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "89",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "90",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "91",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "92",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "93",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "94",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "95",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "96",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "97",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "98",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "99",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "100",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "101",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "102",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "103",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "104",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "105",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "106",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "107",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "108",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "109",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "110",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "111",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "112",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "113",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "114",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "115",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "116",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "117",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "118",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "119",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "120",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "121",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "122",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "123",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "124",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "125",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "126",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "127",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "128",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "129",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "130",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "131",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "132",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "133",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "134",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "135",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "136",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "137",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "138",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "139",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "140",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "141",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "142",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "143",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "144",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "145",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "146",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "147",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "148",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "149",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "150",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "151",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "152",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "153",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "154",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "155",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "156",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "157",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "158",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "159",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "160",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "161",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "162",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "163",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "164",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "165",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "166",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "167",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "168",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "169",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "170",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "171",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "172",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "173",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "174",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "175",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "176",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "177",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "178",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "179",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "180",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "181",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "182",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "183",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "184",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "185",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "186",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "187",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "188",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "189",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "190",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "191",
+     "list_ge_a": 7,
+     "max_agreement": 6
+    },
+    {
+     "z": "192",
+     "list_ge_a": 7,
+     "max_agreement": 7
+    },
+    {
+     "z": "inf",
+     "list_ge_a": 9,
+     "max_agreement": 6
+    }
+   ],
+   "min_list": 7,
+   "max_list": 9,
+   "max_agreement_pencil": 7,
+   "joint_explanation_max": 6
+  },
+  {
+   "kind": "shift",
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "q": 41,
+   "rp": 12,
+   "N": 5,
+   "m": 3,
+   "mc": 2,
+   "formula": 2,
+   "a": 8,
+   "n2": 400,
+   "members": [
+    {
+     "z": "0",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "1",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "2",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "3",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "4",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "5",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "6",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "7",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "8",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "9",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "10",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "11",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "12",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "13",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "14",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "15",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "16",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "17",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "18",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "19",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "20",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "21",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "22",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "23",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "24",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "25",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "26",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "27",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "28",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "29",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "30",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "31",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "32",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "33",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "34",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "35",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "36",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "37",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "38",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "39",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "40",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "inf",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    }
+   ],
+   "min_list": 2,
+   "max_list": 2,
+   "max_agreement_pencil": 9,
+   "joint_explanation_max": 8
+  },
+  {
+   "kind": "shift",
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "q": 101,
+   "rp": 12,
+   "N": 5,
+   "m": 3,
+   "mc": 2,
+   "formula": 2,
+   "a": 8,
+   "n2": 400,
+   "members": [
+    {
+     "z": "0",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "1",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "2",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "3",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "4",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "5",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "6",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "7",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "8",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "9",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "10",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "11",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "12",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "13",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "14",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "15",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "16",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "17",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "18",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "19",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "20",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "21",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "22",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "23",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "24",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "25",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "26",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "27",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "28",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "29",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "30",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "31",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "32",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "33",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "34",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "35",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "36",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "37",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "38",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "39",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "40",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "41",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "42",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "43",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "44",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "45",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "46",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "47",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "48",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "49",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "50",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "51",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "52",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "53",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "54",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "55",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "56",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "57",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "58",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "59",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "60",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "61",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "62",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "63",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "64",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "65",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "66",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "67",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "68",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "69",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "70",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "71",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "72",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "73",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "74",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "75",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "76",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "77",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "78",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "79",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "80",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "81",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "82",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "83",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "84",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "85",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "86",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "87",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "88",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "89",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "90",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "91",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "92",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "93",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "94",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "95",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "96",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "97",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "98",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "99",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "100",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "inf",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    }
+   ],
+   "min_list": 2,
+   "max_list": 2,
+   "max_agreement_pencil": 9,
+   "joint_explanation_max": 8
+  },
+  {
+   "kind": "shift",
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "q": 181,
+   "rp": 12,
+   "N": 5,
+   "m": 3,
+   "mc": 2,
+   "formula": 2,
+   "a": 8,
+   "n2": 400,
+   "members": [
+    {
+     "z": "0",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "1",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "2",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "3",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "4",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "5",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "6",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "7",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "8",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "9",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "10",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "11",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "12",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "13",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "14",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "15",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "16",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "17",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "18",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "19",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "20",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "21",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "22",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "23",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "24",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "25",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "26",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "27",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "28",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "29",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "30",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "31",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "32",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "33",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "34",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "35",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "36",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "37",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "38",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "39",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "40",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "41",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "42",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "43",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "44",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "45",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "46",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "47",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "48",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "49",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "50",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "51",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "52",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "53",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "54",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "55",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "56",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "57",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "58",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "59",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "60",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "61",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "62",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "63",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "64",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "65",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "66",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "67",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "68",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "69",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "70",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "71",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "72",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "73",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "74",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "75",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "76",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "77",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "78",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "79",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "80",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "81",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "82",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "83",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "84",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "85",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "86",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "87",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "88",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "89",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "90",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "91",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "92",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "93",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "94",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "95",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "96",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "97",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "98",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "99",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "100",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "101",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "102",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "103",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "104",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "105",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "106",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "107",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "108",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "109",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "110",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "111",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "112",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "113",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "114",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "115",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "116",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "117",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "118",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "119",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "120",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "121",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "122",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "123",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "124",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "125",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "126",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "127",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "128",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "129",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "130",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "131",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "132",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "133",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "134",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "135",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "136",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "137",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "138",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "139",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "140",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "141",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "142",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "143",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "144",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "145",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "146",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "147",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "148",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "149",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "150",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "151",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "152",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "153",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "154",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "155",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "156",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "157",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "158",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "159",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "160",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "161",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "162",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "163",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "164",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "165",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "166",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "167",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "168",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "169",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "170",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "171",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "172",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "173",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "174",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "175",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "176",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "177",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "178",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "179",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    },
+    {
+     "z": "180",
+     "list_ge_a": 2,
+     "max_agreement": 9
+    },
+    {
+     "z": "inf",
+     "list_ge_a": 2,
+     "max_agreement": 8
+    }
+   ],
+   "min_list": 2,
+   "max_list": 2,
+   "max_agreement_pencil": 9,
+   "joint_explanation_max": 8
+  },
+  {
+   "kind": "same_window_control",
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 97,
+   "c1": 22,
+   "c2": 47,
+   "a": 6,
+   "members": [
+    {
+     "z": "0",
+     "list_ge_a": 9
+    },
+    {
+     "z": "1",
+     "list_ge_a": 0
+    },
+    {
+     "z": "2",
+     "list_ge_a": 0
+    },
+    {
+     "z": "3",
+     "list_ge_a": 0
+    },
+    {
+     "z": "4",
+     "list_ge_a": 0
+    },
+    {
+     "z": "5",
+     "list_ge_a": 0
+    },
+    {
+     "z": "6",
+     "list_ge_a": 8
+    },
+    {
+     "z": "7",
+     "list_ge_a": 0
+    },
+    {
+     "z": "8",
+     "list_ge_a": 0
+    },
+    {
+     "z": "9",
+     "list_ge_a": 0
+    },
+    {
+     "z": "10",
+     "list_ge_a": 0
+    },
+    {
+     "z": "11",
+     "list_ge_a": 0
+    },
+    {
+     "z": "12",
+     "list_ge_a": 0
+    },
+    {
+     "z": "13",
+     "list_ge_a": 0
+    },
+    {
+     "z": "14",
+     "list_ge_a": 0
+    },
+    {
+     "z": "15",
+     "list_ge_a": 0
+    },
+    {
+     "z": "16",
+     "list_ge_a": 0
+    },
+    {
+     "z": "17",
+     "list_ge_a": 0
+    },
+    {
+     "z": "18",
+     "list_ge_a": 0
+    },
+    {
+     "z": "19",
+     "list_ge_a": 8
+    },
+    {
+     "z": "20",
+     "list_ge_a": 0
+    },
+    {
+     "z": "21",
+     "list_ge_a": 0
+    },
+    {
+     "z": "22",
+     "list_ge_a": 0
+    },
+    {
+     "z": "23",
+     "list_ge_a": 9
+    },
+    {
+     "z": "24",
+     "list_ge_a": 0
+    },
+    {
+     "z": "25",
+     "list_ge_a": 0
+    },
+    {
+     "z": "26",
+     "list_ge_a": 0
+    },
+    {
+     "z": "27",
+     "list_ge_a": 8
+    },
+    {
+     "z": "28",
+     "list_ge_a": 0
+    },
+    {
+     "z": "29",
+     "list_ge_a": 0
+    },
+    {
+     "z": "30",
+     "list_ge_a": 0
+    },
+    {
+     "z": "31",
+     "list_ge_a": 0
+    },
+    {
+     "z": "32",
+     "list_ge_a": 0
+    },
+    {
+     "z": "33",
+     "list_ge_a": 0
+    },
+    {
+     "z": "34",
+     "list_ge_a": 0
+    },
+    {
+     "z": "35",
+     "list_ge_a": 0
+    },
+    {
+     "z": "36",
+     "list_ge_a": 0
+    },
+    {
+     "z": "37",
+     "list_ge_a": 0
+    },
+    {
+     "z": "38",
+     "list_ge_a": 0
+    },
+    {
+     "z": "39",
+     "list_ge_a": 0
+    },
+    {
+     "z": "40",
+     "list_ge_a": 8
+    },
+    {
+     "z": "41",
+     "list_ge_a": 0
+    },
+    {
+     "z": "42",
+     "list_ge_a": 0
+    },
+    {
+     "z": "43",
+     "list_ge_a": 0
+    },
+    {
+     "z": "44",
+     "list_ge_a": 0
+    },
+    {
+     "z": "45",
+     "list_ge_a": 0
+    },
+    {
+     "z": "46",
+     "list_ge_a": 9
+    },
+    {
+     "z": "47",
+     "list_ge_a": 0
+    },
+    {
+     "z": "48",
+     "list_ge_a": 0
+    },
+    {
+     "z": "49",
+     "list_ge_a": 0
+    },
+    {
+     "z": "50",
+     "list_ge_a": 0
+    },
+    {
+     "z": "51",
+     "list_ge_a": 0
+    },
+    {
+     "z": "52",
+     "list_ge_a": 0
+    },
+    {
+     "z": "53",
+     "list_ge_a": 0
+    },
+    {
+     "z": "54",
+     "list_ge_a": 0
+    },
+    {
+     "z": "55",
+     "list_ge_a": 0
+    },
+    {
+     "z": "56",
+     "list_ge_a": 0
+    },
+    {
+     "z": "57",
+     "list_ge_a": 9
+    },
+    {
+     "z": "58",
+     "list_ge_a": 0
+    },
+    {
+     "z": "59",
+     "list_ge_a": 0
+    },
+    {
+     "z": "60",
+     "list_ge_a": 0
+    },
+    {
+     "z": "61",
+     "list_ge_a": 0
+    },
+    {
+     "z": "62",
+     "list_ge_a": 0
+    },
+    {
+     "z": "63",
+     "list_ge_a": 0
+    },
+    {
+     "z": "64",
+     "list_ge_a": 0
+    },
+    {
+     "z": "65",
+     "list_ge_a": 0
+    },
+    {
+     "z": "66",
+     "list_ge_a": 9
+    },
+    {
+     "z": "67",
+     "list_ge_a": 0
+    },
+    {
+     "z": "68",
+     "list_ge_a": 0
+    },
+    {
+     "z": "69",
+     "list_ge_a": 8
+    },
+    {
+     "z": "70",
+     "list_ge_a": 8
+    },
+    {
+     "z": "71",
+     "list_ge_a": 0
+    },
+    {
+     "z": "72",
+     "list_ge_a": 0
+    },
+    {
+     "z": "73",
+     "list_ge_a": 8
+    },
+    {
+     "z": "74",
+     "list_ge_a": 8
+    },
+    {
+     "z": "75",
+     "list_ge_a": 0
+    },
+    {
+     "z": "76",
+     "list_ge_a": 0
+    },
+    {
+     "z": "77",
+     "list_ge_a": 9
+    },
+    {
+     "z": "78",
+     "list_ge_a": 0
+    },
+    {
+     "z": "79",
+     "list_ge_a": 0
+    },
+    {
+     "z": "80",
+     "list_ge_a": 0
+    },
+    {
+     "z": "81",
+     "list_ge_a": 0
+    },
+    {
+     "z": "82",
+     "list_ge_a": 0
+    },
+    {
+     "z": "83",
+     "list_ge_a": 0
+    },
+    {
+     "z": "84",
+     "list_ge_a": 0
+    },
+    {
+     "z": "85",
+     "list_ge_a": 0
+    },
+    {
+     "z": "86",
+     "list_ge_a": 9
+    },
+    {
+     "z": "87",
+     "list_ge_a": 0
+    },
+    {
+     "z": "88",
+     "list_ge_a": 0
+    },
+    {
+     "z": "89",
+     "list_ge_a": 0
+    },
+    {
+     "z": "90",
+     "list_ge_a": 0
+    },
+    {
+     "z": "91",
+     "list_ge_a": 0
+    },
+    {
+     "z": "92",
+     "list_ge_a": 0
+    },
+    {
+     "z": "93",
+     "list_ge_a": 0
+    },
+    {
+     "z": "94",
+     "list_ge_a": 0
+    },
+    {
+     "z": "95",
+     "list_ge_a": 0
+    },
+    {
+     "z": "96",
+     "list_ge_a": 0
+    },
+    {
+     "z": "inf",
+     "list_ge_a": 9
+    }
+   ],
+   "min_list": 0,
+   "max_list": 9
+  },
+  {
+   "kind": "same_window_control",
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "q": 41,
+   "c1": 16,
+   "c2": 10,
+   "a": 8,
+   "members": [
+    {
+     "z": "0",
+     "list_ge_a": 2
+    },
+    {
+     "z": "1",
+     "list_ge_a": 0
+    },
+    {
+     "z": "2",
+     "list_ge_a": 0
+    },
+    {
+     "z": "3",
+     "list_ge_a": 0
+    },
+    {
+     "z": "4",
+     "list_ge_a": 0
+    },
+    {
+     "z": "5",
+     "list_ge_a": 0
+    },
+    {
+     "z": "6",
+     "list_ge_a": 0
+    },
+    {
+     "z": "7",
+     "list_ge_a": 0
+    },
+    {
+     "z": "8",
+     "list_ge_a": 0
+    },
+    {
+     "z": "9",
+     "list_ge_a": 0
+    },
+    {
+     "z": "10",
+     "list_ge_a": 2
+    },
+    {
+     "z": "11",
+     "list_ge_a": 0
+    },
+    {
+     "z": "12",
+     "list_ge_a": 2
+    },
+    {
+     "z": "13",
+     "list_ge_a": 0
+    },
+    {
+     "z": "14",
+     "list_ge_a": 0
+    },
+    {
+     "z": "15",
+     "list_ge_a": 0
+    },
+    {
+     "z": "16",
+     "list_ge_a": 0
+    },
+    {
+     "z": "17",
+     "list_ge_a": 0
+    },
+    {
+     "z": "18",
+     "list_ge_a": 0
+    },
+    {
+     "z": "19",
+     "list_ge_a": 0
+    },
+    {
+     "z": "20",
+     "list_ge_a": 0
+    },
+    {
+     "z": "21",
+     "list_ge_a": 0
+    },
+    {
+     "z": "22",
+     "list_ge_a": 2
+    },
+    {
+     "z": "23",
+     "list_ge_a": 0
+    },
+    {
+     "z": "24",
+     "list_ge_a": 0
+    },
+    {
+     "z": "25",
+     "list_ge_a": 0
+    },
+    {
+     "z": "26",
+     "list_ge_a": 0
+    },
+    {
+     "z": "27",
+     "list_ge_a": 0
+    },
+    {
+     "z": "28",
+     "list_ge_a": 0
+    },
+    {
+     "z": "29",
+     "list_ge_a": 0
+    },
+    {
+     "z": "30",
+     "list_ge_a": 0
+    },
+    {
+     "z": "31",
+     "list_ge_a": 0
+    },
+    {
+     "z": "32",
+     "list_ge_a": 0
+    },
+    {
+     "z": "33",
+     "list_ge_a": 0
+    },
+    {
+     "z": "34",
+     "list_ge_a": 0
+    },
+    {
+     "z": "35",
+     "list_ge_a": 0
+    },
+    {
+     "z": "36",
+     "list_ge_a": 0
+    },
+    {
+     "z": "37",
+     "list_ge_a": 0
+    },
+    {
+     "z": "38",
+     "list_ge_a": 0
+    },
+    {
+     "z": "39",
+     "list_ge_a": 0
+    },
+    {
+     "z": "40",
+     "list_ge_a": 0
+    },
+    {
+     "z": "inf",
+     "list_ge_a": 2
+    }
+   ],
+   "min_list": 0,
+   "max_list": 2
+  }
+ ],
+ "checks": 30,
+ "fails": [],
+ "verdict": "PENCIL_PASS"
+}

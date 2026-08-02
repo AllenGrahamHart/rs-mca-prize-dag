@@ -1,0 +1,22 @@
+{
+ "A": 11,
+ "K": 8,
+ "K_threshold": 8,
+ "a": 4,
+ "collinear": true,
+ "full_distinct_moment_points": 131,
+ "full_family": 210,
+ "full_gamma_lo": 0,
+ "full_max_pair_core": 9,
+ "g": 3,
+ "h": 3,
+ "killers_at_a_different_slope": 10,
+ "m": 2,
+ "n": 24,
+ "q": 241,
+ "sub_family": 10,
+ "sub_gamma_lo_within_subfamily": 10,
+ "sub_is_subset_of_full": true,
+ "sub_max_pair_core": 7,
+ "sub_members_killed_by_full": 10
+}

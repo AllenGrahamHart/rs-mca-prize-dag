@@ -93,3 +93,14 @@ gate must include the (0:1) direction).
 - The sunflower family is verified at d = (h-1)/2 (odd h) only.
 - Hill-climbing was shallow; a structurally different search could
   find a non-sunflower family.
+
+> [AMENDED same day — list_bound_transfer pilot, V1, coordinator-
+> replayed.] The REDUCTION adopted above is RETIRED AS A ROUTE: the
+> reduced single-word list statement is FALSE (first moment at
+> official q: E[L@tau] = 2^(10^11); certified MC construction:
+> 2^130-2^197 at agreement A-1, all pencil members simultaneously —
+> the pencil does not exclude blow-up). Theorem 2 is correct but
+> discards the two-live-slope structure (~2^1.6e12 of it). The
+> occupancy lemma itself STANDS as the target. TOP ADJUDICATION
+> QUEUED: is d = h-1 band or cascade tier — if band, MC refutes the
+> occupancy lemma itself. See list_bound_transfer/{REPORT,FABLE_AUDIT}.

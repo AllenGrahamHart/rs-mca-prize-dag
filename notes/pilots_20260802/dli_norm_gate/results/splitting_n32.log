@@ -1,0 +1,421 @@
+n=32 q=97 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=97 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=97 w=3: sol=64 hit=1024 S1=True maxm=1 ratio*phi=1.0
+n=32 q=97 w=4: sol=288 hit=4096 S1=True maxm=2 ratio*phi=1.125
+n=32 q=97 w=5: sol=1280 hit=15872 S1=True maxm=2 ratio*phi=1.2903225806451613
+n=32 q=97 w=6: sol=5408 hit=79360 S1=True maxm=2 ratio*phi=1.0903225806451613
+n=32 q=97 w=7: sol=15680 hit=239616 S1=True maxm=2 ratio*phi=1.047008547008547
+n=32 q=97 w=8: sol=33600 hit=499456 S1=True maxm=2 ratio*phi=1.0763710917478215
+n=32 q=193 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=193 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=193 w=3: sol=32 hit=512 S1=True maxm=1 ratio*phi=1.0
+n=32 q=193 w=4: sol=128 hit=2048 S1=True maxm=1 ratio*phi=1.0
+n=32 q=193 w=5: sol=640 hit=8704 S1=True maxm=2 ratio*phi=1.1764705882352942
+n=32 q=193 w=6: sol=2784 hit=42752 S1=True maxm=2 ratio*phi=1.0419161676646707
+n=32 q=193 w=7: sol=7936 hit=121856 S1=True maxm=2 ratio*phi=1.0420168067226891
+n=32 q=193 w=8: sol=16768 hit=259072 S1=True maxm=2 ratio*phi=1.0355731225296443
+n=32 q=257 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=257 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=257 w=3: sol=32 hit=512 S1=True maxm=1 ratio*phi=1.0
+n=32 q=257 w=4: sol=96 hit=1536 S1=True maxm=1 ratio*phi=1.0
+n=32 q=257 w=5: sol=384 hit=5888 S1=True maxm=2 ratio*phi=1.0434782608695652
+n=32 q=257 w=6: sol=1888 hit=29184 S1=True maxm=2 ratio*phi=1.0350877192982457
+n=32 q=257 w=7: sol=6112 hit=94976 S1=True maxm=2 ratio*phi=1.0296495956873315
+n=32 q=257 w=8: sol=13760 hit=213504 S1=True maxm=2 ratio*phi=1.0311750599520384
+n=32 q=353 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=353 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=353 w=3: sol=32 hit=512 S1=True maxm=1 ratio*phi=1.0
+n=32 q=353 w=4: sol=96 hit=1536 S1=True maxm=1 ratio*phi=1.0
+n=32 q=353 w=5: sol=352 hit=5632 S1=True maxm=1 ratio*phi=1.0
+n=32 q=353 w=6: sol=1408 hit=20992 S1=True maxm=2 ratio*phi=1.0731707317073171
+n=32 q=353 w=7: sol=4032 hit=62976 S1=True maxm=2 ratio*phi=1.024390243902439
+n=32 q=353 w=8: sol=9248 hit=144128 S1=True maxm=2 ratio*phi=1.0266429840142095
+n=32 q=449 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=449 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=449 w=3: sol=32 hit=512 S1=True maxm=1 ratio*phi=1.0
+n=32 q=449 w=4: sol=96 hit=1536 S1=True maxm=1 ratio*phi=1.0
+n=32 q=449 w=5: sol=192 hit=3072 S1=True maxm=1 ratio*phi=1.0
+n=32 q=449 w=6: sol=864 hit=13824 S1=True maxm=1 ratio*phi=1.0
+n=32 q=449 w=7: sol=3456 hit=52736 S1=True maxm=2 ratio*phi=1.0485436893203883
+n=32 q=449 w=8: sol=7904 hit=123904 S1=True maxm=2 ratio*phi=1.0206611570247934
+n=32 q=577 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=577 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=577 w=3: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=577 w=4: sol=96 hit=1536 S1=True maxm=1 ratio*phi=1.0
+n=32 q=577 w=5: sol=256 hit=4096 S1=True maxm=1 ratio*phi=1.0
+n=32 q=577 w=6: sol=544 hit=8448 S1=True maxm=2 ratio*phi=1.0303030303030303
+n=32 q=577 w=7: sol=2752 hit=44032 S1=True maxm=1 ratio*phi=1.0
+n=32 q=577 w=8: sol=6272 hit=97792 S1=True maxm=2 ratio*phi=1.0261780104712042
+n=32 q=641 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=641 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=641 w=3: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=641 w=4: sol=96 hit=1536 S1=True maxm=1 ratio*phi=1.0
+n=32 q=641 w=5: sol=96 hit=1536 S1=True maxm=1 ratio*phi=1.0
+n=32 q=641 w=6: sol=608 hit=9728 S1=True maxm=1 ratio*phi=1.0
+n=32 q=641 w=7: sol=2720 hit=42240 S1=True maxm=2 ratio*phi=1.0303030303030303
+n=32 q=641 w=8: sol=5184 hit=82432 S1=True maxm=2 ratio*phi=1.0062111801242235
+n=32 q=673 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=673 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=673 w=3: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=673 w=4: sol=64 hit=1024 S1=True maxm=1 ratio*phi=1.0
+n=32 q=673 w=5: sol=224 hit=3584 S1=True maxm=1 ratio*phi=1.0
+n=32 q=673 w=6: sol=640 hit=10240 S1=True maxm=1 ratio*phi=1.0
+n=32 q=673 w=7: sol=2016 hit=32000 S1=True maxm=2 ratio*phi=1.008
+n=32 q=673 w=8: sol=5120 hit=80640 S1=True maxm=2 ratio*phi=1.0158730158730158
+n=32 q=929 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=929 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=929 w=3: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=929 w=4: sol=64 hit=1024 S1=True maxm=1 ratio*phi=1.0
+n=32 q=929 w=5: sol=96 hit=1536 S1=True maxm=1 ratio*phi=1.0
+n=32 q=929 w=6: sol=448 hit=7168 S1=True maxm=1 ratio*phi=1.0
+n=32 q=929 w=7: sol=1856 hit=28672 S1=True maxm=2 ratio*phi=1.0357142857142858
+n=32 q=929 w=8: sol=3328 hit=52992 S1=True maxm=2 ratio*phi=1.0048309178743962
+n=32 q=1153 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=1153 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=1153 w=3: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=1153 w=4: sol=32 hit=512 S1=True maxm=1 ratio*phi=1.0
+n=32 q=1153 w=5: sol=96 hit=1536 S1=True maxm=1 ratio*phi=1.0
+n=32 q=1153 w=6: sol=512 hit=8192 S1=True maxm=1 ratio*phi=1.0
+n=32 q=1153 w=7: sol=1376 hit=21760 S1=True maxm=2 ratio*phi=1.011764705882353
+n=32 q=1153 w=8: sol=2496 hit=39936 S1=True maxm=1 ratio*phi=1.0
+n=32 q=1409 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=1409 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=1409 w=3: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=1409 w=4: sol=32 hit=512 S1=True maxm=1 ratio*phi=1.0
+n=32 q=1409 w=5: sol=128 hit=2048 S1=True maxm=1 ratio*phi=1.0
+n=32 q=1409 w=6: sol=256 hit=4096 S1=True maxm=1 ratio*phi=1.0
+n=32 q=1409 w=7: sol=960 hit=15360 S1=True maxm=1 ratio*phi=1.0
+n=32 q=1409 w=8: sol=2400 hit=38144 S1=True maxm=2 ratio*phi=1.0067114093959733
+n=32 q=2113 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=2113 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=2113 w=3: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=2113 w=4: sol=32 hit=512 S1=True maxm=1 ratio*phi=1.0
+n=32 q=2113 w=5: sol=64 hit=1024 S1=True maxm=1 ratio*phi=1.0
+n=32 q=2113 w=6: sol=64 hit=1024 S1=True maxm=1 ratio*phi=1.0
+n=32 q=2113 w=7: sol=832 hit=13312 S1=True maxm=1 ratio*phi=1.0
+n=32 q=2113 w=8: sol=1952 hit=31232 S1=True maxm=1 ratio*phi=1.0
+n=32 q=3457 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=3457 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=3457 w=3: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=3457 w=4: sol=32 hit=512 S1=True maxm=1 ratio*phi=1.0
+n=32 q=3457 w=5: sol=32 hit=512 S1=True maxm=1 ratio*phi=1.0
+n=32 q=3457 w=6: sol=256 hit=4096 S1=True maxm=1 ratio*phi=1.0
+n=32 q=3457 w=7: sol=192 hit=3072 S1=True maxm=1 ratio*phi=1.0
+n=32 q=3457 w=8: sol=736 hit=11776 S1=True maxm=1 ratio*phi=1.0
+n=32 q=7937 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=7937 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=7937 w=3: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=7937 w=4: sol=32 hit=512 S1=True maxm=1 ratio*phi=1.0
+n=32 q=7937 w=5: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=7937 w=6: sol=64 hit=1024 S1=True maxm=1 ratio*phi=1.0
+n=32 q=7937 w=7: sol=64 hit=1024 S1=True maxm=1 ratio*phi=1.0
+n=32 q=7937 w=8: sol=416 hit=6656 S1=True maxm=1 ratio*phi=1.0
+n=32 q=12289 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=12289 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=12289 w=3: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=12289 w=4: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=12289 w=5: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=12289 w=6: sol=64 hit=1024 S1=True maxm=1 ratio*phi=1.0
+n=32 q=12289 w=7: sol=160 hit=2560 S1=True maxm=1 ratio*phi=1.0
+n=32 q=12289 w=8: sol=192 hit=3072 S1=True maxm=1 ratio*phi=1.0
+n=32 q=40961 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=40961 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=40961 w=3: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=40961 w=4: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=40961 w=5: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=40961 w=6: sol=32 hit=512 S1=True maxm=1 ratio*phi=1.0
+n=32 q=40961 w=7: sol=64 hit=1024 S1=True maxm=1 ratio*phi=1.0
+n=32 q=40961 w=8: sol=64 hit=1024 S1=True maxm=1 ratio*phi=1.0
+n=32 q=65537 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=65537 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=65537 w=3: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=65537 w=4: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=65537 w=5: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=65537 w=6: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=65537 w=7: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=65537 w=8: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=786433 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=786433 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=786433 w=3: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=786433 w=4: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=786433 w=5: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=786433 w=6: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=786433 w=7: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=786433 w=8: sol=32 hit=512 S1=True maxm=1 ratio*phi=1.0
+n=32 q=1179649 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=1179649 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=1179649 w=3: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=1179649 w=4: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=1179649 w=5: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=1179649 w=6: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=1179649 w=7: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=1179649 w=8: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=5767169 w=1: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=5767169 w=2: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=5767169 w=3: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=5767169 w=4: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=5767169 w=5: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=5767169 w=6: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=5767169 w=7: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+n=32 q=5767169 w=8: sol=0 hit=0 S1=True maxm=0 ratio*phi=None
+{
+ "stage": "n32",
+ "n_rows": 160,
+ "S1_violations": 0,
+ "rows_with_H_nonempty": 81,
+ "rows_deviating_from_1_over_phi": 28,
+ "S3_predicted_exact_but_deviating": 0,
+ "deviating_rows": [
+  {
+   "n": 32,
+   "q": 97,
+   "w": 4,
+   "U": [
+    1
+   ],
+   "n_solutions": 288,
+   "n_H_nonempty": 4096,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.125,
+   "S3": {
+    "maxnorm": 38416,
+    "q^2": 9409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 5,
+   "U": [
+    1
+   ],
+   "n_solutions": 1280,
+   "n_H_nonempty": 15872,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.2903225806451613,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 9409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 6,
+   "U": [
+    1
+   ],
+   "n_solutions": 5408,
+   "n_H_nonempty": 79360,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.0903225806451613,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 9409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 7,
+   "U": [
+    1
+   ],
+   "n_solutions": 15680,
+   "n_H_nonempty": 239616,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.047008547008547,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 9409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 97,
+   "w": 8,
+   "U": [
+    1
+   ],
+   "n_solutions": 33600,
+   "n_H_nonempty": 499456,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.0763710917478215,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 9409,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 5,
+   "U": [
+    1
+   ],
+   "n_solutions": 640,
+   "n_H_nonempty": 8704,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.1764705882352942,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 37249,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 6,
+   "U": [
+    1
+   ],
+   "n_solutions": 2784,
+   "n_H_nonempty": 42752,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.0419161676646707,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 37249,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 7,
+   "U": [
+    1
+   ],
+   "n_solutions": 7936,
+   "n_H_nonempty": 121856,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.0420168067226891,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 37249,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 193,
+   "w": 8,
+   "U": [
+    1
+   ],
+   "n_solutions": 16768,
+   "n_H_nonempty": 259072,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.0355731225296443,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 37249,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 5,
+   "U": [
+    1
+   ],
+   "n_solutions": 384,
+   "n_H_nonempty": 5888,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.0434782608695652,
+   "S3": {
+    "maxnorm": 279841,
+    "q^2": 66049,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 6,
+   "U": [
+    1
+   ],
+   "n_solutions": 1888,
+   "n_H_nonempty": 29184,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.0350877192982457,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 66049,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 7,
+   "U": [
+    1
+   ],
+   "n_solutions": 6112,
+   "n_H_nonempty": 94976,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.0296495956873315,
+   "S3": {
+    "maxnorm": 5764801,
+    "q^2": 66049,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 257,
+   "w": 8,
+   "U": [
+    1
+   ],
+   "n_solutions": 13760,
+   "n_H_nonempty": 213504,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.0311750599520384,
+   "S3": {
+    "maxnorm": 14760962,
+    "q^2": 66049,
+    "S3_sufficient": false
+   }
+  },
+  {
+   "n": 32,
+   "q": 353,
+   "w": 6,
+   "U": [
+    1
+   ],
+   "n_solutions": 1408,
+   "n_H_nonempty": 20992,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.0731707317073171,
+   "S3": {
+    "maxnorm": 1331716,
+    "q^2": 124609,
+    "S3_sufficient": false
+   }
+  },
+ 

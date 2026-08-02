@@ -1,0 +1,106 @@
+[
+ {
+  "n": 32,
+  "q": 97,
+  "U": [
+   1
+  ],
+  "o": 1,
+  "n_supports_nonempty": 65535,
+  "rho_min": "0",
+  "rho_max": "97/4",
+  "rho_mean": "2627827/2631680",
+  "rho_max_over_pred_float": 24.25,
+  "R1_sum_skewcount": 443776,
+  "R1_sum_H_over_phi": "443776",
+  "R1_exact": true,
+  "total_hit": 6584576,
+  "global_hit_ratio_times_phi": 1.0783406554955095,
+  "ground_truth": {
+   "n_supports": 65535,
+   "predicted_rho_q^delta": "1",
+   "min_rho": "0",
+   "max_rho": "97/4",
+   "mean_rho": "2627827/2631680",
+   "n_exactly_predicted": 0,
+   "n_zero": 20594,
+   "max_over_pred_float": 24.25
+  },
+  "matches_ground_truth": true,
+  "model": {
+   "E_rho_model": "247205567/268431360",
+   "E_rho_observed": "2627827/2631680",
+   "E_ratio": 1.084273130467163,
+   "Var_rho_model_meanpart": "14854359325097/18764712116224",
+   "Var_rho_observed": "565329611268241/353212720742400",
+   "model_rho_ceiling(all hits solve)": "97/2",
+   "observed_rho_max": "97/4",
+   "ceiling_is_valid_bound": true
+  },
+  "worst_support": {
+   "mask": 67,
+   "indices": [
+    0,
+    1,
+    6
+   ],
+   "size": 3,
+   "skewcount": 2,
+   "hit": 4,
+   "sumH": 4,
+   "rho": "97/4"
+  }
+ },
+ {
+  "n": 32,
+  "q": 193,
+  "U": [
+   1
+  ],
+  "o": 1,
+  "n_supports_nonempty": 65535,
+  "rho_min": "0",
+  "rho_max": "193/4",
+  "rho_mean": "2624993/2631680",
+  "rho_max_over_pred_float": 48.25,
+  "R1_sum_skewcount": 223040,
+  "R1_sum_H_over_phi": "223040",
+  "R1_exact": true,
+  "total_hit": 3425792,
+  "global_hit_ratio_times_phi": 1.0416978030189807,
+  "ground_truth": {
+   "n_supports": 65535,
+   "predicted_rho_q^delta": "1",
+   "min_rho": "0",
+   "max_rho": "193/4",
+   "mean_rho": "2624993/2631680",
+   "n_exactly_predicted": 0,
+   "n_zero": 30234,
+   "max_over_pred_float": 48.25
+  },
+  "matches_ground_truth": true,
+  "model": {
+   "E_rho_model": "127961509/134215680",
+   "E_rho_observed": "2624993/2631680",
+   "E_ratio": 1.0462102553041945,
+   "Var_rho_model_meanpart": "15283513411573/9382356058112",
+   "Var_rho_observed": "4730878324797709/1412850882969600",
+   "model_rho_ceiling(all hits solve)": "193/2",
+   "observed_rho_max": "193/4",
+   "ceiling_is_valid_bound": true
+  },
+  "worst_support": {
+   "mask": 4099,
+   "indices": [
+    0,
+    1,
+    12
+   ],
+   "size": 3,
+   "skewcount": 2,
+   "hit": 4,
+   "sumH": 4,
+   "rho": "193/4"
+  }
+ }
+]

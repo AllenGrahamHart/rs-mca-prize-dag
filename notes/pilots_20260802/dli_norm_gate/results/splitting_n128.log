@@ -1,0 +1,164 @@
+n=128 q=257 w=1: sol=0 hit=0 S1=True maxm=0
+n=128 q=257 w=2: sol=0 hit=0 S1=True maxm=0
+n=128 q=257 w=3: sol=1280 hit=63488 S1=True maxm=4
+n=128 q=257 w=4: sol=39680 hit=2113536 S1=True maxm=4
+n=128 q=641 w=1: sol=0 hit=0 S1=True maxm=0
+n=128 q=641 w=2: sol=0 hit=0 S1=True maxm=0
+n=128 q=641 w=3: sol=512 hit=28672 S1=True maxm=2
+n=128 q=641 w=4: sol=15488 hit=882688 S1=True maxm=4
+n=128 q=769 w=1: sol=0 hit=0 S1=True maxm=0
+n=128 q=769 w=2: sol=0 hit=0 S1=True maxm=0
+n=128 q=769 w=3: sol=384 hit=24576 S1=True maxm=1
+n=128 q=769 w=4: sol=12672 hit=757760 S1=True maxm=2
+n=128 q=3329 w=1: sol=0 hit=0 S1=True maxm=0
+n=128 q=3329 w=2: sol=0 hit=0 S1=True maxm=0
+n=128 q=3329 w=3: sol=0 hit=0 S1=True maxm=0
+n=128 q=3329 w=4: sol=2816 hit=167936 S1=True maxm=2
+n=128 q=12289 w=1: sol=0 hit=0 S1=True maxm=0
+n=128 q=12289 w=2: sol=0 hit=0 S1=True maxm=0
+n=128 q=12289 w=3: sol=0 hit=0 S1=True maxm=0
+n=128 q=12289 w=4: sol=768 hit=49152 S1=True maxm=1
+n=128 q=40961 w=1: sol=0 hit=0 S1=True maxm=0
+n=128 q=40961 w=2: sol=0 hit=0 S1=True maxm=0
+n=128 q=40961 w=3: sol=0 hit=0 S1=True maxm=0
+n=128 q=40961 w=4: sol=256 hit=12288 S1=True maxm=2
+n=128 q=65537 w=1: sol=0 hit=0 S1=True maxm=0
+n=128 q=65537 w=2: sol=0 hit=0 S1=True maxm=0
+n=128 q=65537 w=3: sol=128 hit=4096 S1=True maxm=2
+n=128 q=65537 w=4: sol=768 hit=36864 S1=True maxm=2
+{
+ "stage": "n128",
+ "n_rows": 28,
+ "S1_violations": 0,
+ "rows_with_H_nonempty": 11,
+ "rows_deviating_from_1_over_phi": 9,
+ "S3_predicted_exact_but_deviating": 0,
+ "deviating_rows": [
+  {
+   "n": 128,
+   "q": 257,
+   "w": 3,
+   "U": [
+    1
+   ],
+   "n_solutions": 1280,
+   "n_H_nonempty": 63488,
+   "max_m": 4,
+   "max_H": 4,
+   "ratio_times_phi": 1.2903225806451613,
+   "S3": null
+  },
+  {
+   "n": 128,
+   "q": 257,
+   "w": 4,
+   "U": [
+    1
+   ],
+   "n_solutions": 39680,
+   "n_H_nonempty": 2113536,
+   "max_m": 4,
+   "max_H": 4,
+   "ratio_times_phi": 1.2015503875968991,
+   "S3": null
+  },
+  {
+   "n": 128,
+   "q": 641,
+   "w": 3,
+   "U": [
+    1
+   ],
+   "n_solutions": 512,
+   "n_H_nonempty": 28672,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.1428571428571428,
+   "S3": null
+  },
+  {
+   "n": 128,
+   "q": 641,
+   "w": 4,
+   "U": [
+    1
+   ],
+   "n_solutions": 15488,
+   "n_H_nonempty": 882688,
+   "max_m": 4,
+   "max_H": 4,
+   "ratio_times_phi": 1.122969837587007,
+   "S3": null
+  },
+  {
+   "n": 128,
+   "q": 769,
+   "w": 4,
+   "U": [
+    1
+   ],
+   "n_solutions": 12672,
+   "n_H_nonempty": 757760,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.0702702702702702,
+   "S3": null
+  },
+  {
+   "n": 128,
+   "q": 3329,
+   "w": 4,
+   "U": [
+    1
+   ],
+   "n_solutions": 2816,
+   "n_H_nonempty": 167936,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.0731707317073171,
+   "S3": null
+  },
+  {
+   "n": 128,
+   "q": 40961,
+   "w": 4,
+   "U": [
+    1
+   ],
+   "n_solutions": 256,
+   "n_H_nonempty": 12288,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.3333333333333333,
+   "S3": null
+  },
+  {
+   "n": 128,
+   "q": 65537,
+   "w": 3,
+   "U": [
+    1
+   ],
+   "n_solutions": 128,
+   "n_H_nonempty": 4096,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 2.0,
+   "S3": null
+  },
+  {
+   "n": 128,
+   "q": 65537,
+   "w": 4,
+   "U": [
+    1
+   ],
+   "n_solutions": 768,
+   "n_H_nonempty": 36864,
+   "max_m": 2,
+   "max_H": 2,
+   "ratio_times_phi": 1.3333333333333333,
+   "S3": null
+  }
+ ]
+}

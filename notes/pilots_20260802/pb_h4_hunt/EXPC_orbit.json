@@ -1,0 +1,22 @@
+{
+ "A": 7,
+ "K": 4,
+ "ceiling_slopes_fixed": 10,
+ "distinct_supports": 40,
+ "example_orbit_gamma_lo": 20,
+ "example_orbit_greedy_spread": 20,
+ "example_orbit_is_spread": true,
+ "example_orbit_maxcore": 3,
+ "full_orbits": 2,
+ "h": 3,
+ "mean_supply": 46.11540749553837,
+ "n": 20,
+ "orbit_closed": true,
+ "orbit_rank": 31,
+ "orbits": 2,
+ "q": 41,
+ "rows_for_one_orbit": 60,
+ "spread_full_orbits": 1,
+ "two_r": 32,
+ "witnesses": 40
+}

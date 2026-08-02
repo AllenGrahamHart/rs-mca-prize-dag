@@ -1,0 +1,41 @@
+{
+ "pilot": "dli_norm_gate",
+ "date": "2026-08-02",
+ "pre_registered_before_any_measurement": true,
+ "identification_claim": {
+  "id": "ID1",
+  "text": "At junction 0 with t=2 (o=L_0=1) the C2'' skew-solution space at (n,q) IS the C1 ternary-relation space at (2N=n, q), N=n/2=phi(n): eps in {+-1}^G with sum_{i in G} eps_i zeta_n^i = 0 in F_q is exactly a ternary relation of weight |G| supported on G. Prediction: the set of admissible primes carrying a junction-0 skew solution at n=16 equals the banked C1 2N=16 census {17,97,113,193,241,337,353,401,433,577,881}, and minimal support sizes equal the banked minimal weights.",
+  "prediction": "EXACT MATCH, 11 primes, same minimal weights"
+ },
+ "lemmas_to_prove": {
+  "LN1": "forward: skew solution => q | Norm_{Q(zeta_n)/Q}(alpha). Expect 0 false negatives at every (n,t,q).",
+  "LN2": "o-fold: with U_0={1,3,...} of size o and q == 1 mod n, a solution forces o DISTINCT primes above q to divide alpha, hence q^o | Norm(alpha). Expect 0 false negatives; expect v_q(Norm) >= o at every solution.",
+  "LN3": "root criterion: q | Norm(alpha) <=> exists odd j with alpha(zeta^j)=0 in F_q; and v_q(Norm) >= m(alpha) := #{odd j : alpha(zeta^j)=0}."
+ },
+ "splitting_statistic": {
+  "pre_registered_prediction_from_task": "1/phi(n) of norm-divisible sign patterns are solutions",
+  "pilot_refinement_registered_BEFORE_measuring": {
+   "S1": "EXACT COUNTING IDENTITY: phi(n) * #{alpha in W_w : alpha is a solution} = sum_{alpha in W_w} m(alpha), for every weight w, every admissible q, every n. (Galois acts on ternary weight-w elements by signed basis permutation and simply transitively on the phi(n) primes above q.) Expect EXACT equality, 0 exceptions.",
+   "S2": "ratio_w := #sol_w / #normdiv_w = mbar_w / phi(n) where mbar_w = mean of m over norm-divisible alpha of weight w. Hence ratio_w >= 1/phi(n) ALWAYS, with equality IFF every norm-divisible weight-w alpha has m=1.",
+   "S3": "SUFFICIENT CONDITION FOR EXACT 1/phi(n): if q^2 > maxnorm(phi(n), w) (in particular if q^2 > w^{phi(n)/2}) then m<=1 for all weight-w alpha and ratio_w = 1/phi(n) EXACTLY.",
+   "S4": "Therefore the deviation is NOT a Chebotarev/equidistribution phenomenon and is NOT random: it is exactly the multi-prime (m>=2) population, which is bounded by the AM-GM ceiling. Predict systematic upward deviation (ratio > 1/phi(n)) at small q and exact 1/phi(n) at large q. Predict n=16,q=17 deviates (17^2=289 < maxnorm(8,w) for w>=5) and n=16,q=97,113 do not for the weights where q^2 exceeds maxnorm."
+  }
+ },
+ "ladder_and_ceiling": {
+  "C1_transfer": "ENERGY CEILING: for alpha = sum a_i zeta_n^i in Z[zeta_n], n=2^s, phi=phi(n)=n/2: 1 <= Norm(alpha) <= (sum_i a_i^2)^{phi/2} for alpha != 0. Ternary weight w: Norm <= w^{phi(n)/2}. Predict this transfers verbatim from dli_c1_ternary_relation_norm_sandwich Claim 2 (negacyclic Parseval + AM-GM) since the skew-sum space IS the ternary space.",
+  "router_threshold_o1": "q > s^{phi(n)/2} => no skew solution on any support of size <= s.",
+  "router_threshold_ogeneral": "q^{L_j} > E^{phi(h_j)/2} => no junction-j skew solution of energy E. Official ratio phi(h_j) = h_{j+1} = 256 L_j gives exclusion for E < q^{1/128}.",
+  "official_pricing_prediction": "At official q < 2^256 with v_2(q-1)>=41, n=2^41, t=2^33: exclusion threshold E* = q^{2 L_j / phi(h_j)} = q^{1/128} for j<=32 and q^{1/64} for j=33. At q ~ 2^250: E <= 3 excluded at every junction j<=32, E <= 14 at j=33. Only s=1 excluded by the o=1 (single-constraint) form."
+ },
+ "reserve_test": {
+  "R1": "AGGREGATE: sum over supports G of skewcount(G) = (1/phi(n)) sum over all ternary alpha of m(alpha). Expect EXACT.",
+  "R2": "PER-SUPPORT MODEL (the norm account): skewcount(G) ~ Binomial(normdiv(G), 1/phi(n)) where normdiv(G) = #{eps : q | Norm(alpha_eps)} is q-independent data (the norm multiset of G) intersected with q. Predict: the model reproduces the MEAN exactly and the rho distribution's shape and top of range within a factor ~2, but is NOT deterministic (the norm multiset alone does not determine rho).",
+  "R3": "NORM-MULTISET LAW (the L12 analogue): does the multiset {Norm(alpha_eps) : eps} of a support determine rho? Pre-registered prediction: DIES, but with far fewer ambiguous classes than L12's difference multiset (547/1064).",
+  "R4": "The measured worst-case rho/pred = 588.06 at (n=32,t=3,q=97) must be reproduced as q^o * skewcount / 2^{|G|} with skewcount explained by the multi-prime structure."
+ },
+ "falsifiers": {
+  "F1": "AM-GM ceiling does not transfer to skew sums (unbounded norms at bounded support) -> router threshold fails.",
+  "F2": "splitting statistic deviates from 1/phi(n) systematically -> equidistribution conjecture wrong, characterize bias. NOTE: this pilot pre-registers that F2 WILL fire in the naive form and that the deviation is EXACTLY the m>=2 population (S2/S3), i.e. the correct law is ratio = mbar/phi(n), an identity, not an equidistribution conjecture.",
+  "F3": "the norm account fails to reproduce the measured rho distribution -> the residual has non-arithmetic structure the re-pose missed."
+ }
+}

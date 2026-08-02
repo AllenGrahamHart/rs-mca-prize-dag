@@ -1,0 +1,574 @@
+{
+ "predictions": {
+  "P1": "shell(k+w) indexed exactly by T with e_1..e_{w-1}=0, prod T=gamma; injective",
+  "P2": "ceiling: max agreement of U = X^{n-1}+cX^{k+w-1} is exactly k+w",
+  "P3": "MC family of size C(N,m)/N is contained in the shell (N=n/M, m=r'/M)",
+  "P4": "(16,8,2,2) -> 7, matching crossing pilot large-q w=2 shell",
+  "P5": "accidental excess above MC floor shrinks with q"
+ },
+ "rows": [
+  {
+   "n": 16,
+   "k": 8,
+   "w": 2,
+   "M": 2,
+   "rp": 6,
+   "N": 8,
+   "m": 3,
+   "gcd_m_N": 1,
+   "mc_formula": 7,
+   "uniform": true,
+   "n2": 256,
+   "fields": [
+    {
+     "q": 17,
+     "c": 15,
+     "gamma": 2,
+     "mc_family": 7,
+     "shell_k_plus_w": 29,
+     "total_agr_ge_k_plus_w": 29,
+     "max_agreement": 10,
+     "excess": 22,
+     "profile": {
+      "10": 29
+     }
+    },
+    {
+     "q": 97,
+     "c": 50,
+     "gamma": 47,
+     "mc_family": 7,
+     "shell_k_plus_w": 9,
+     "total_agr_ge_k_plus_w": 9,
+     "max_agreement": 10,
+     "excess": 2,
+     "profile": {
+      "10": 9
+     }
+    },
+    {
+     "q": 113,
+     "c": 69,
+     "gamma": 44,
+     "mc_family": 7,
+     "shell_k_plus_w": 7,
+     "total_agr_ge_k_plus_w": 7,
+     "max_agreement": 10,
+     "excess": 0,
+     "profile": {
+      "10": 7
+     }
+    },
+    {
+     "q": 193,
+     "c": 184,
+     "gamma": 9,
+     "mc_family": 7,
+     "shell_k_plus_w": 9,
+     "total_agr_ge_k_plus_w": 9,
+     "max_agreement": 10,
+     "excess": 2,
+     "profile": {
+      "10": 9
+     }
+    },
+    {
+     "q": 241,
+     "c": 8,
+     "gamma": 233,
+     "mc_family": 7,
+     "shell_k_plus_w": 7,
+     "total_agr_ge_k_plus_w": 7,
+     "max_agreement": 10,
+     "excess": 0,
+     "profile": {
+      "10": 7
+     }
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "rp": 10,
+   "N": 8,
+   "m": 5,
+   "gcd_m_N": 1,
+   "mc_formula": 7,
+   "uniform": true,
+   "n2": 256,
+   "fields": [
+    {
+     "q": 17,
+     "c": 13,
+     "gamma": 4,
+     "mc_family": 7,
+     "shell_k_plus_w": 29,
+     "total_agr_ge_k_plus_w": 29,
+     "max_agreement": 6,
+     "excess": 22,
+     "profile": {
+      "6": 29
+     }
+    },
+    {
+     "q": 97,
+     "c": 22,
+     "gamma": 75,
+     "mc_family": 7,
+     "shell_k_plus_w": 9,
+     "total_agr_ge_k_plus_w": 9,
+     "max_agreement": 6,
+     "excess": 2,
+     "profile": {
+      "6": 9
+     }
+    },
+    {
+     "q": 113,
+     "c": 98,
+     "gamma": 15,
+     "mc_family": 7,
+     "shell_k_plus_w": 7,
+     "total_agr_ge_k_plus_w": 7,
+     "max_agreement": 6,
+     "excess": 0,
+     "profile": {
+      "6": 7
+     }
+    },
+    {
+     "q": 193,
+     "c": 112,
+     "gamma": 81,
+     "mc_family": 7,
+     "shell_k_plus_w": 9,
+     "total_agr_ge_k_plus_w": 9,
+     "max_agreement": 6,
+     "excess": 2,
+     "profile": {
+      "6": 9
+     }
+    },
+    {
+     "q": 241,
+     "c": 177,
+     "gamma": 64,
+     "mc_family": 7,
+     "shell_k_plus_w": 7,
+     "total_agr_ge_k_plus_w": 7,
+     "max_agreement": 6,
+     "excess": 0,
+     "profile": {
+      "6": 7
+     }
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "k": 6,
+   "w": 2,
+   "M": 2,
+   "rp": 8,
+   "N": 8,
+   "m": 4,
+   "gcd_m_N": 4,
+   "mc_formula": null,
+   "uniform": false,
+   "n2": 256,
+   "fields": [
+    {
+     "q": 17,
+     "c": 13,
+     "gamma": 4,
+     "mc_family": 10,
+     "shell_k_plus_w": 50,
+     "total_agr_ge_k_plus_w": 50,
+     "max_agreement": 8,
+     "excess": 40,
+     "profile": {
+      "8": 50
+     }
+    },
+    {
+     "q": 97,
+     "c": 22,
+     "gamma": 75,
+     "mc_family": 10,
+     "shell_k_plus_w": 10,
+     "total_agr_ge_k_plus_w": 10,
+     "max_agreement": 8,
+     "excess": 0,
+     "profile": {
+      "8": 10
+     }
+    },
+    {
+     "q": 113,
+     "c": 98,
+     "gamma": 15,
+     "mc_family": 10,
+     "shell_k_plus_w": 10,
+     "total_agr_ge_k_plus_w": 10,
+     "max_agreement": 8,
+     "excess": 0,
+     "profile": {
+      "8": 10
+     }
+    },
+    {
+     "q": 193,
+     "c": 112,
+     "gamma": 81,
+     "mc_family": 10,
+     "shell_k_plus_w": 10,
+     "total_agr_ge_k_plus_w": 10,
+     "max_agreement": 8,
+     "excess": 0,
+     "profile": {
+      "8": 10
+     }
+    },
+    {
+     "q": 241,
+     "c": 177,
+     "gamma": 64,
+     "mc_family": 10,
+     "shell_k_plus_w": 10,
+     "total_agr_ge_k_plus_w": 10,
+     "max_agreement": 8,
+     "excess": 0,
+     "profile": {
+      "8": 10
+     }
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "rp": 12,
+   "N": 5,
+   "m": 3,
+   "gcd_m_N": 1,
+   "mc_formula": 2,
+   "uniform": true,
+   "n2": 400,
+   "fields": [
+    {
+     "q": 41,
+     "c": 16,
+     "gamma": 25,
+     "mc_family": 2,
+     "shell_k_plus_w": 2,
+     "total_agr_ge_k_plus_w": 2,
+     "max_agreement": 8,
+     "excess": 0,
+     "profile": {
+      "8": 2
+     }
+    },
+    {
+     "q": 61,
+     "c": 58,
+     "gamma": 3,
+     "mc_family": 2,
+     "shell_k_plus_w": 2,
+     "total_agr_ge_k_plus_w": 2,
+     "max_agreement": 8,
+     "excess": 0,
+     "profile": {
+      "8": 2
+     }
+    },
+    {
+     "q": 101,
+     "c": 87,
+     "gamma": 14,
+     "mc_family": 2,
+     "shell_k_plus_w": 2,
+     "total_agr_ge_k_plus_w": 2,
+     "max_agreement": 8,
+     "excess": 0,
+     "profile": {
+      "8": 2
+     }
+    },
+    {
+     "q": 181,
+     "c": 125,
+     "gamma": 56,
+     "mc_family": 2,
+     "shell_k_plus_w": 2,
+     "total_agr_ge_k_plus_w": 2,
+     "max_agreement": 8,
+     "excess": 0,
+     "profile": {
+      "8": 2
+     }
+    },
+    {
+     "q": 241,
+     "c": 205,
+     "gamma": 36,
+     "mc_family": 2,
+     "shell_k_plus_w": 2,
+     "total_agr_ge_k_plus_w": 2,
+     "max_agreement": 8,
+     "excess": 0,
+     "profile": {
+      "8": 2
+     }
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "k": 6,
+   "w": 2,
+   "M": 2,
+   "rp": 12,
+   "N": 10,
+   "m": 6,
+   "gcd_m_N": 2,
+   "mc_formula": null,
+   "uniform": false,
+   "n2": 400,
+   "fields": [
+    {
+     "q": 41,
+     "c": 1,
+     "gamma": 40,
+     "mc_family": 22,
+     "shell_k_plus_w": 166,
+     "total_agr_ge_k_plus_w": 166,
+     "max_agreement": 8,
+     "excess": 144,
+     "profile": {
+      "8": 166
+     }
+    },
+    {
+     "q": 61,
+     "c": 1,
+     "gamma": 60,
+     "mc_family": 22,
+     "shell_k_plus_w": 110,
+     "total_agr_ge_k_plus_w": 110,
+     "max_agreement": 8,
+     "excess": 88,
+     "profile": {
+      "8": 110
+     }
+    },
+    {
+     "q": 101,
+     "c": 1,
+     "gamma": 100,
+     "mc_family": 22,
+     "shell_k_plus_w": 70,
+     "total_agr_ge_k_plus_w": 70,
+     "max_agreement": 8,
+     "excess": 48,
+     "profile": {
+      "8": 70
+     }
+    },
+    {
+     "q": 181,
+     "c": 1,
+     "gamma": 180,
+     "mc_family": 22,
+     "shell_k_plus_w": 66,
+     "total_agr_ge_k_plus_w": 66,
+     "max_agreement": 8,
+     "excess": 44,
+     "profile": {
+      "8": 66
+     }
+    },
+    {
+     "q": 241,
+     "c": 1,
+     "gamma": 240,
+     "mc_family": 22,
+     "shell_k_plus_w": 42,
+     "total_agr_ge_k_plus_w": 42,
+     "max_agreement": 8,
+     "excess": 20,
+     "profile": {
+      "8": 42
+     }
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "k": 6,
+   "w": 3,
+   "M": 3,
+   "rp": 15,
+   "N": 8,
+   "m": 5,
+   "gcd_m_N": 1,
+   "mc_formula": 7,
+   "uniform": true,
+   "n2": 576,
+   "fields": [
+    {
+     "q": 73,
+     "c": 27,
+     "gamma": 27,
+     "mc_family": 7,
+     "shell_k_plus_w": 7,
+     "total_agr_ge_k_plus_w": 7,
+     "max_agreement": 9,
+     "excess": 0,
+     "profile": {
+      "9": 7
+     }
+    },
+    {
+     "q": 97,
+     "c": 22,
+     "gamma": 22,
+     "mc_family": 7,
+     "shell_k_plus_w": 10,
+     "total_agr_ge_k_plus_w": 10,
+     "max_agreement": 9,
+     "excess": 3,
+     "profile": {
+      "9": 10
+     }
+    },
+    {
+     "q": 193,
+     "c": 112,
+     "gamma": 112,
+     "mc_family": 7,
+     "shell_k_plus_w": 7,
+     "total_agr_ge_k_plus_w": 7,
+     "max_agreement": 9,
+     "excess": 0,
+     "profile": {
+      "9": 7
+     }
+    },
+    {
+     "q": 241,
+     "c": 177,
+     "gamma": 177,
+     "mc_family": 7,
+     "shell_k_plus_w": 7,
+     "total_agr_ge_k_plus_w": 7,
+     "max_agreement": 9,
+     "excess": 0,
+     "profile": {
+      "9": 7
+     }
+    },
+    {
+     "q": 313,
+     "c": 25,
+     "gamma": 25,
+     "mc_family": 7,
+     "shell_k_plus_w": 7,
+     "total_agr_ge_k_plus_w": 7,
+     "max_agreement": 9,
+     "excess": 0,
+     "profile": {
+      "9": 7
+     }
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "rp": 12,
+   "N": 9,
+   "m": 6,
+   "gcd_m_N": 3,
+   "mc_formula": null,
+   "uniform": false,
+   "n2": 324,
+   "fields": [
+    {
+     "q": 19,
+     "c": 8,
+     "gamma": 11,
+     "mc_family": 10,
+     "shell_k_plus_w": 54,
+     "total_agr_ge_k_plus_w": 54,
+     "max_agreement": 6,
+     "excess": 44,
+     "profile": {
+      "6": 54
+     }
+    },
+    {
+     "q": 37,
+     "c": 27,
+     "gamma": 10,
+     "mc_family": 10,
+     "shell_k_plus_w": 30,
+     "total_agr_ge_k_plus_w": 30,
+     "max_agreement": 6,
+     "excess": 20,
+     "profile": {
+      "6": 30
+     }
+    },
+    {
+     "q": 73,
+     "c": 9,
+     "gamma": 64,
+     "mc_family": 10,
+     "shell_k_plus_w": 12,
+     "total_agr_ge_k_plus_w": 12,
+     "max_agreement": 6,
+     "excess": 2,
+     "profile": {
+      "6": 12
+     }
+    },
+    {
+     "q": 109,
+     "c": 64,
+     "gamma": 45,
+     "mc_family": 10,
+     "shell_k_plus_w": 18,
+     "total_agr_ge_k_plus_w": 18,
+     "max_agreement": 6,
+     "excess": 8,
+     "profile": {
+      "6": 18
+     }
+    },
+    {
+     "q": 127,
+     "c": 108,
+     "gamma": 19,
+     "mc_family": 10,
+     "shell_k_plus_w": 12,
+     "total_agr_ge_k_plus_w": 12,
+     "max_agreement": 6,
+     "excess": 2,
+     "profile": {
+      "6": 12
+     }
+    }
+   ]
+  }
+ ],
+ "checks": 161,
+ "fails": [],
+ "verdict": "MC_PASS"
+}

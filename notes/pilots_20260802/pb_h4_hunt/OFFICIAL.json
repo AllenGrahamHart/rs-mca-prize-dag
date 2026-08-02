@@ -1,0 +1,704 @@
+[
+ {
+  "A": 261,
+  "K": 256,
+  "budget_8n3": 8589934592,
+  "ceiling_below_budget_bits": 24.418799418075043,
+  "design_ceiling_slopes_fixed": 307,
+  "design_ceiling_slopes_free": 383,
+  "h": 5,
+  "lg_C_nA": 833.4521180822627,
+  "lg_budget": 33.0,
+  "lg_ceiling": 8.581200581924957,
+  "lg_q_L1": 192.29042361645253,
+  "lg_q_pin": 250.0,
+  "n": 1024,
+  "r": 768,
+  "row": "RowC 1/4",
+  "split_fibre": {
+   "F": 256,
+   "a": 65,
+   "lg_family": 204.7069590261846,
+   "lg_nu_at_L1": 1.1756880116273294,
+   "lg_nu_at_pin": 58.8852643951748,
+   "m": 4
+  },
+  "spread_blocks": [
+   {
+    "a": 43,
+    "b": 170,
+    "feasible": false,
+    "lg_family": 134.87255683782692,
+    "lg_feasibility_margin": -726.0841096636915,
+    "m": 6,
+    "q": "L1"
+   },
+   {
+    "a": 43,
+    "b": 170,
+    "feasible": false,
+    "lg_family": 134.87255683782692,
+    "lg_feasibility_margin": -956.9224151978814,
+    "m": 6,
+    "q": "pin"
+   },
+   {
+    "a": 21,
+    "b": 85,
+    "feasible": false,
+    "lg_family": 65.23616374391624,
+    "lg_feasibility_margin": -684.4998768968545,
+    "m": 12,
+    "q": "L1"
+   },
+   {
+    "a": 21,
+    "b": 85,
+    "feasible": false,
+    "lg_family": 65.23616374391624,
+    "lg_feasibility_margin": -915.3381824310444,
+    "m": 12,
+    "q": "pin"
+   },
+   {
+    "a": 4,
+    "b": 15,
+    "feasible": false,
+    "lg_family": 10.414685235807212,
+    "lg_feasibility_margin": -428.080113746558,
+    "m": 65,
+    "q": "L1"
+   },
+   {
+    "a": 4,
+    "b": 15,
+    "feasible": false,
+    "lg_family": 10.414685235807212,
+    "lg_feasibility_margin": -658.9184192807479,
+    "m": 65,
+    "q": "pin"
+   },
+   {
+    "a": 2,
+    "b": 7,
+    "feasible": false,
+    "lg_family": 4.39231742277876,
+    "lg_feasibility_margin": -214.5099373765627,
+    "m": 130,
+    "q": "L1"
+   },
+   {
+    "a": 2,
+    "b": 7,
+    "feasible": false,
+    "lg_family": 4.39231742277876,
+    "lg_feasibility_margin": -445.34824291075256,
+    "m": 130,
+    "q": "pin"
+   },
+   {
+    "a": 1,
+    "b": 3,
+    "feasible": true,
+    "lg_family": 0,
+    "lg_feasibility_margin": 62.70546111573143,
+    "m": 261,
+    "q": "L1"
+   },
+   {
+    "a": 1,
+    "b": 3,
+    "feasible": false,
+    "lg_family": 0,
+    "lg_feasibility_margin": -168.13284441845846,
+    "m": 261,
+    "q": "pin"
+   }
+  ]
+ },
+ {
+  "A": 133,
+  "K": 128,
+  "budget_8n3": 8589934592,
+  "ceiling_below_budget_bits": 24.195868978816684,
+  "design_ceiling_slopes_fixed": 358,
+  "design_ceiling_slopes_free": 447,
+  "h": 5,
+  "lg_C_nA": 565.733559741132,
+  "lg_budget": 33.0,
+  "lg_ceiling": 8.804131021183318,
+  "lg_q_L1": 138.7467119482264,
+  "lg_q_pin": 250.0,
+  "n": 1024,
+  "r": 896,
+  "row": "RowC 1/8",
+  "split_fibre": {
+   "F": 256,
+   "a": 33,
+   "lg_family": 137.98310865038462,
+   "lg_nu_at_L1": 13.602413283550334,
+   "lg_nu_at_pin": 124.85570133532394,
+   "m": 4
+  },
+  "spread_blocks": [
+   {
+    "a": 22,
+    "b": 170,
+    "feasible": false,
+    "lg_family": 91.02880082928277,
+    "lg_feasibility_margin": -511.90926299078694,
+    "m": 6,
+    "q": "L1"
+   },
+   {
+    "a": 22,
+    "b": 170,
+    "feasible": false,
+    "lg_family": 91.02880082928277,
+    "lg_feasibility_margin": -956.9224151978814,
+    "m": 6,
+    "q": "pin"
+   },
+   {
+    "a": 11,
+    "b": 85,
+    "feasible": false,
+    "lg_family": 44.27830087097287,
+    "lg_feasibility_margin": -470.32503022394997,
+    "m": 12,
+    "q": "L1"
+   },
+   {
+    "a": 11,
+    "b": 85,
+    "feasible": false,
+    "lg_family": 44.27830087097287,
+    "lg_feasibility_margin": -915.3381824310444,
+    "m": 12,
+    "q": "pin"
+   },
+   {
+    "a": 4,
+    "b": 31,
+    "feasible": false,
+    "lg_family": 14.941460322459395,
+    "lg_feasibility_margin": -353.4005887193603,
+    "m": 33,
+    "q": "L1"
+   },
+   {
+    "a": 4,
+    "b": 31,
+    "feasible": false,
+    "lg_family": 14.941460322459395,
+    "lg_feasibility_margin": -798.4137409264548,
+    "m": 33,
+    "q": "pin"
+   },
+   {
+    "a": 2,
+    "b": 15,
+    "feasible": false,
+    "lg_family": 6.714245517666126,
+    "lg_feasibility_margin": -210.044274187995,
+    "m": 66,
+    "q": "L1"
+   },
+   {
+    "a": 2,
+    "b": 15,
+    "feasible": false,
+    "lg_family": 6.714245517666126,
+    "lg_feasibility_margin": -655.0574263950894,
+    "m": 66,
+    "q": "pin"
+   },
+   {
+    "a": 1,
+    "b": 7,
+    "feasible": true,
+    "lg_family": 0,
+    "lg_feasibility_margin": 7.939357026168844,
+    "m": 133,
+    "q": "L1"
+   },
+   {
+    "a": 1,
+    "b": 7,
+    "feasible": false,
+    "lg_family": 0,
+    "lg_feasibility_margin": -437.0737951809256,
+    "m": 133,
+    "q": "pin"
+   }
+  ]
+ },
+ {
+  "A": 67,
+  "K": 64,
+  "budget_8n3": 8589934592,
+  "ceiling_below_budget_bits": 23.09461299498187,
+  "design_ceiling_slopes_fixed": 639,
+  "design_ceiling_slopes_free": 959,
+  "h": 3,
+  "lg_C_nA": 352.6872568557989,
+  "lg_budget": 33.0,
+  "lg_ceiling": 9.905387005018131,
+  "lg_q_L1": 160.22908561859964,
+  "lg_q_pin": 250.0,
+  "n": 1024,
+  "r": 960,
+  "row": "RowC 1/16",
+  "split_fibre": {
+   "F": 512,
+   "a": 33,
+   "lg_family": 172.67592651704996,
+   "lg_nu_at_L1": 1.4984200288888871,
+   "lg_nu_at_pin": 91.26933441028922,
+   "m": 2
+  },
+  "spread_blocks": [
+   {
+    "a": 16,
+    "b": 256,
+    "feasible": false,
+    "lg_family": 83.05951932360989,
+    "lg_feasibility_margin": -293.05159667636,
+    "m": 4,
+    "q": "L1"
+   },
+   {
+    "a": 16,
+    "b": 256,
+    "feasible": false,
+    "lg_family": 83.05951932360989,
+    "lg_feasibility_margin": -472.59342543916074,
+    "m": 4,
+    "q": "pin"
+   },
+   {
+    "a": 8,
+    "b": 128,
+    "feasible": false,
+    "lg_family": 40.37885226711065,
+    "lg_feasibility_margin": -262.79692461106697,
+    "m": 8,
+    "q": "L1"
+   },
+   {
+    "a": 8,
+    "b": 128,
+    "feasible": false,
+    "lg_family": 40.37885226711065,
+    "lg_feasibility_margin": -442.3387533738677,
+    "m": 8,
+    "q": "pin"
+   },
+   {
+    "a": 4,
+    "b": 64,
+    "feasible": false,
+    "lg_family": 19.27725107072851,
+    "lg_feasibility_margin": -210.8782370745702,
+    "m": 16,
+    "q": "L1"
+   },
+   {
+    "a": 4,
+    "b": 64,
+    "feasible": false,
+    "lg_family": 19.27725107072851,
+    "lg_feasibility_margin": -390.4200658373709,
+    "m": 16,
+    "q": "pin"
+   },
+   {
+    "a": 2,
+    "b": 31,
+    "feasible": false,
+    "lg_family": 8.861086905995398,
+    "lg_feasibility_margin": -118.87191216365405,
+    "m": 33,
+    "q": "L1"
+   },
+   {
+    "a": 2,
+    "b": 31,
+    "feasible": false,
+    "lg_family": 8.861086905995398,
+    "lg_feasibility_margin": -298.41374092645475,
+    "m": 33,
+    "q": "pin"
+   },
+   {
+    "a": 1,
+    "b": 15,
+    "feasible": true,
+    "lg_family": 0,
+    "lg_feasibility_margin": 28.32219502299112,
+    "m": 67,
+    "q": "L1"
+   },
+   {
+    "a": 1,
+    "b": 15,
+    "feasible": false,
+    "lg_family": 0,
+    "lg_feasibility_margin": -151.2196337398096,
+    "m": 67,
+    "q": "pin"
+   }
+  ]
+ },
+ {
+  "A": 558345748481,
+  "K": 549755813888,
+  "budget_8n3": 85070591730234615865843651857942052864,
+  "ceiling_below_budget_bits": 117.41879941807504,
+  "design_ceiling_slopes_fixed": 383,
+  "design_ceiling_slopes_free": 383,
+  "h": 8589934593,
+  "lg_C_nA": 1797505540612.5042,
+  "lg_budget": 126.0,
+  "lg_ceiling": 8.581200581924957,
+  "lg_q_L1": 209.25718598664355,
+  "lg_q_pin": 255.9,
+  "n": 2199023255552,
+  "r": 1649267441664,
+  "row": "prize 1/4",
+  "split_fibre": {
+   "F": 256,
+   "a": 65,
+   "lg_family": 204.7069590261846,
+   "lg_nu_at_L1": 18.14245038181835,
+   "lg_nu_at_pin": 64.78526439517483,
+   "m": 8589934592
+  },
+  "spread_blocks": [
+   {
+    "a": 64,
+    "b": 255,
+    "feasible": false,
+    "lg_family": 203.15189801117722,
+    "lg_feasibility_margin": -1716417643751.8013,
+    "m": 8589934594,
+    "q": "L1"
+   },
+   {
+    "a": 64,
+    "b": 255,
+    "feasible": false,
+    "lg_family": 203.15189801117722,
+    "lg_feasibility_margin": -2117076365313.3542,
+    "m": 8589934594,
+    "q": "pin"
+   },
+   {
+    "a": 32,
+    "b": 127,
+    "feasible": false,
+    "lg_family": 99.80626313807979,
+    "lg_feasibility_margin": -1652558214909.755,
+    "m": 17179869188,
+    "q": "L1"
+   },
+   {
+    "a": 32,
+    "b": 127,
+    "feasible": false,
+    "lg_family": 99.80626313807979,
+    "lg_feasibility_margin": -2053216936471.3079,
+    "m": 17179869188,
+    "q": "pin"
+   },
+   {
+    "a": 4,
+    "b": 15,
+    "feasible": false,
+    "lg_family": 10.414685235807212,
+    "lg_feasibility_margin": -1047432550033.9584,
+    "m": 139586437120,
+    "q": "L1"
+   },
+   {
+    "a": 4,
+    "b": 15,
+    "feasible": false,
+    "lg_family": 10.414685235807212,
+    "lg_feasibility_margin": -1448091271595.5115,
+    "m": 139586437120,
+    "q": "pin"
+   },
+   {
+    "a": 2,
+    "b": 7,
+    "feasible": false,
+    "lg_family": 4.39231742277876,
+    "lg_feasibility_margin": -590192270819.5032,
+    "m": 279172874240,
+    "q": "L1"
+   },
+   {
+    "a": 2,
+    "b": 7,
+    "feasible": false,
+    "lg_family": 4.39231742277876,
+    "lg_feasibility_margin": -990850992381.0562,
+    "m": 279172874240,
+    "q": "pin"
+   },
+   {
+    "a": 1,
+    "b": 3,
+    "feasible": true,
+    "lg_family": 0,
+    "lg_feasibility_margin": 79.67211757740384,
+    "m": 558345748481,
+    "q": "L1"
+   },
+   {
+    "a": 1,
+    "b": 3,
+    "feasible": false,
+    "lg_family": 0,
+    "lg_feasibility_margin": -400658721481.88086,
+    "m": 558345748481,
+    "q": "pin"
+   }
+  ]
+ },
+ {
+  "A": 283467841537,
+  "K": 274877906944,
+  "budget_8n3": 85070591730234615865843651857942052864,
+  "ceiling_below_budget_bits": 117.19586897881668,
+  "design_ceiling_slopes_fixed": 447,
+  "design_ceiling_slopes_free": 447,
+  "h": 8589934593,
+  "lg_C_nA": 1219206494037.8606,
+  "lg_budget": 126.0,
+  "lg_ceiling": 8.804131021183318,
+  "lg_q_L1": 141.93431637528425,
+  "lg_q_pin": 255.9,
+  "n": 2199023255552,
+  "r": 1924145348608,
+  "row": "prize 1/8",
+  "split_fibre": {
+   "F": 256,
+   "a": 33,
+   "lg_family": 137.98310865038462,
+   "lg_nu_at_L1": 16.790017710608197,
+   "lg_nu_at_pin": 130.75570133532392,
+   "m": 8589934592
+  },
+  "spread_blocks": [
+   {
+    "a": 32,
+    "b": 255,
+    "feasible": false,
+    "lg_family": 135.22660286982287,
+    "lg_feasibility_margin": -1138118597244.4805,
+    "m": 8589934594,
+    "q": "L1"
+   },
+   {
+    "a": 32,
+    "b": 255,
+    "feasible": false,
+    "lg_family": 135.22660286982287,
+    "lg_feasibility_margin": -2117076365313.3542,
+    "m": 8589934594,
+    "q": "pin"
+   },
+   {
+    "a": 16,
+    "b": 127,
+    "feasible": false,
+    "lg_family": 66.14653088818636,
+    "lg_feasibility_margin": -1074259168402.4338,
+    "m": 17179869188,
+    "q": "L1"
+   },
+   {
+    "a": 16,
+    "b": 127,
+    "feasible": false,
+    "lg_family": 66.14653088818636,
+    "lg_feasibility_margin": -2053216936471.3079,
+    "m": 17179869188,
+    "q": "pin"
+   },
+   {
+    "a": 4,
+    "b": 31,
+    "feasible": false,
+    "lg_family": 14.941460322459395,
+    "lg_feasibility_margin": -767443756124.1871,
+    "m": 70866960384,
+    "q": "L1"
+   },
+   {
+    "a": 4,
+    "b": 31,
+    "feasible": false,
+    "lg_family": 14.941460322459395,
+    "lg_feasibility_margin": -1746401524193.0608,
+    "m": 70866960384,
+    "q": "pin"
+   },
+   {
+    "a": 2,
+    "b": 15,
+    "feasible": false,
+    "lg_family": 6.714245517666126,
+    "lg_feasibility_margin": -460820109925.2604,
+    "m": 141733920768,
+    "q": "L1"
+   },
+   {
+    "a": 2,
+    "b": 15,
+    "feasible": false,
+    "lg_family": 6.714245517666126,
+    "lg_feasibility_margin": -1439777877994.1343,
+    "m": 141733920768,
+    "q": "pin"
+   },
+   {
+    "a": 1,
+    "b": 7,
+    "feasible": true,
+    "lg_family": 0,
+    "lg_feasibility_margin": 11.126971249817396,
+    "m": 283467841537,
+    "q": "L1"
+   },
+   {
+    "a": 1,
+    "b": 7,
+    "feasible": false,
+    "lg_family": 0,
+    "lg_feasibility_margin": -978957768057.7468,
+    "m": 283467841537,
+    "q": "pin"
+   }
+  ]
+ },
+ {
+  "A": 141733920769,
+  "K": 137438953472,
+  "budget_8n3": 85070591730234615865843651857942052864,
+  "ceiling_below_budget_bits": 116.09461299498187,
+  "design_ceiling_slopes_fixed": 959,
+  "design_ceiling_slopes_free": 959,
+  "h": 4294967297,
+  "lg_C_nA": 758386384106.4275,
+  "lg_budget": 126.0,
+  "lg_ceiling": 9.905387005018131,
+  "lg_q_L1": 176.57558993852044,
+  "lg_q_pin": 255.9,
+  "n": 2199023255552,
+  "r": 2061584302080,
+  "row": "prize 1/16",
+  "split_fibre": {
+   "F": 512,
+   "a": 33,
+   "lg_family": 172.67592651704996,
+   "lg_nu_at_L1": 17.844924348809684,
+   "lg_nu_at_pin": 97.16933441028925,
+   "m": 4294967296
+  },
+  "spread_blocks": [
+   {
+    "a": 32,
+    "b": 511,
+    "feasible": false,
+    "lg_family": 168.81643879067195,
+    "lg_feasibility_margin": -713541405428.406,
+    "m": 4294967298,
+    "q": "L1"
+   },
+   {
+    "a": 32,
+    "b": 511,
+    "feasible": false,
+    "lg_family": 168.81643879067195,
+    "lg_feasibility_margin": -1054237152416.9541,
+    "m": 4294967298,
+    "q": "pin"
+   },
+   {
+    "a": 16,
+    "b": 255,
+    "feasible": false,
+    "lg_family": 82.9664099192187,
+    "lg_feasibility_margin": -677298487262.4238,
+    "m": 8589934596,
+    "q": "L1"
+   },
+   {
+    "a": 16,
+    "b": 255,
+    "feasible": false,
+    "lg_family": 82.9664099192187,
+    "lg_feasibility_margin": -1017994234250.9719,
+    "m": 8589934596,
+    "q": "pin"
+   },
+   {
+    "a": 4,
+    "b": 62,
+    "feasible": false,
+    "lg_family": 19.089504792198966,
+    "lg_feasibility_margin": -496652918124.3828,
+    "m": 35433480192,
+    "q": "L1"
+   },
+   {
+    "a": 4,
+    "b": 62,
+    "feasible": false,
+    "lg_family": 19.089504792198966,
+    "lg_feasibility_margin": -837348665112.9309,
+    "m": 35433480192,
+    "q": "pin"
+   },
+   {
+    "a": 2,
+    "b": 31,
+    "feasible": false,
+    "lg_family": 8.861086905995398,
+    "lg_feasibility_margin": -306623646158.11285,
+    "m": 70866960384,
+    "q": "L1"
+   },
+   {
+    "a": 2,
+    "b": 31,
+    "feasible": false,
+    "lg_family": 8.861086905995398,
+    "lg_feasibility_margin": -647319393146.661,
+    "m": 70866960384,
+    "q": "pin"
+   },
+   {
+    "a": 1,
+    "b": 15,
+    "feasible": true,
+    "lg_family": 0,
+    "lg_feasibility_margin": 44.668670927828984,
+    "m": 141733920769,
+    "q": "L1"
+   },
+   {
+    "a": 1,
+    "b": 15,
+    "feasible": false,
+    "lg_family": 0,
+    "lg_feasibility_margin": -340695746943.8794,
+    "m": 141733920769,
+    "q": "pin"
+   }
+  ]
+ }
+]

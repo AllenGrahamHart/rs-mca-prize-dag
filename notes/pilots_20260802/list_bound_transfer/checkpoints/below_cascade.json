@@ -1,0 +1,157 @@
+{
+ "predictions": {
+  "C1": "MC shift pencil is above cascade (max joint explanation = a)",
+  "C2": "random pencils: below cascade and min_z L = 0",
+  "C3": "below-cascade hill climbing cannot push min_z L above a small constant",
+  "C4": "KEY LEMMA: no support S is shared by two members unless both u|_S, v|_S in C"
+ },
+ "checks": 26,
+ "fails": [],
+ "runs": [
+  {
+   "kind": "mc_shift",
+   "min": 29,
+   "joint_max": 6,
+   "shared_supports": 7,
+   "above_cascade": true
+  },
+  {
+   "kind": "random",
+   "instances": [
+    {
+     "min": 14,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 17,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 13,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 16,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 20,
+     "joint_max": 6,
+     "shared": 1
+    },
+    {
+     "min": 16,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 13,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 13,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 16,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 15,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 17,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 16,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 18,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 14,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 17,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 14,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 9,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 14,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 16,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 12,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 14,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 15,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 16,
+     "joint_max": 0,
+     "shared": 0
+    },
+    {
+     "min": 16,
+     "joint_max": 6,
+     "shared": 1
+    },
+    {
+     "min": 17,
+     "joint_max": 0,
+     "shared": 0
+    }
+   ]
+  },
+  {
+   "kind": "hill_climb_below_cascade",
+   "best_min": 22,
+   "iterations": 90,
+   "restarts": 4
+  }
+ ],
+ "verdict": "SEARCH_DONE",
+ "c3_supported": true
+}

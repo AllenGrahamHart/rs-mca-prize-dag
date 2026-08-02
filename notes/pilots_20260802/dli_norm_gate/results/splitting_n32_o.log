@@ -1,0 +1,9 @@
+{
+ "stage": "n32_o",
+ "n_rows": 176,
+ "S1_violations": 0,
+ "rows_with_H_nonempty": 9,
+ "rows_deviating_from_1_over_phi": 0,
+ "S3_predicted_exact_but_deviating": 0,
+ "deviating_rows": []
+}
