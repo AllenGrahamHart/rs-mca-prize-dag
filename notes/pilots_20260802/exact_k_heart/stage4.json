@@ -1,0 +1,1351 @@
+{
+ "checks": [
+  {
+   "name": "S4 rank<=Vh n14k5h3q31 rnd0",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 locality n14k5h3q31 rnd0",
+   "ok": true,
+   "info": [
+    12,
+    17
+   ]
+  },
+  {
+   "name": "S4 G0<=2*M0 n14k5h3q31 rnd0",
+   "ok": true,
+   "info": [
+    2,
+    1
+   ]
+  },
+  {
+   "name": "S4 G0<=V n14k5h3q31 rnd0",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 rank<=Vh n14k5h3q31 rnd1",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 locality n14k5h3q31 rnd1",
+   "ok": true,
+   "info": [
+    3,
+    5
+   ]
+  },
+  {
+   "name": "S4 G0<=2*M0 n14k5h3q31 rnd1",
+   "ok": true,
+   "info": [
+    0,
+    0
+   ]
+  },
+  {
+   "name": "S4 G0<=V n14k5h3q31 rnd1",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 rank<=Vh n14k5h3q31 rnd2",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 locality n14k5h3q31 rnd2",
+   "ok": true,
+   "info": [
+    15,
+    17
+   ]
+  },
+  {
+   "name": "S4 G0<=2*M0 n14k5h3q31 rnd2",
+   "ok": true,
+   "info": [
+    5,
+    5
+   ]
+  },
+  {
+   "name": "S4 G0<=V n14k5h3q31 rnd2",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4p planted sunflower alive n14k5h3q31 t0",
+   "ok": true,
+   "info": 3
+  },
+  {
+   "name": "S4p planted sunflower alive n14k5h3q31 t1",
+   "ok": true,
+   "info": 5
+  },
+  {
+   "name": "S4 rank<=Vh n16k6h3q61 rnd0",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 locality n16k6h3q61 rnd0",
+   "ok": true,
+   "info": [
+    6,
+    13
+   ]
+  },
+  {
+   "name": "S4 G0<=2*M0 n16k6h3q61 rnd0",
+   "ok": true,
+   "info": [
+    0,
+    0
+   ]
+  },
+  {
+   "name": "S4 G0<=V n16k6h3q61 rnd0",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 rank<=Vh n16k6h3q61 rnd1",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 locality n16k6h3q61 rnd1",
+   "ok": true,
+   "info": [
+    6,
+    13
+   ]
+  },
+  {
+   "name": "S4 G0<=2*M0 n16k6h3q61 rnd1",
+   "ok": true,
+   "info": [
+    0,
+    0
+   ]
+  },
+  {
+   "name": "S4 G0<=V n16k6h3q61 rnd1",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 rank<=Vh n16k6h3q61 rnd2",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 locality n16k6h3q61 rnd2",
+   "ok": true,
+   "info": [
+    3,
+    5
+   ]
+  },
+  {
+   "name": "S4 G0<=2*M0 n16k6h3q61 rnd2",
+   "ok": true,
+   "info": [
+    0,
+    0
+   ]
+  },
+  {
+   "name": "S4 G0<=V n16k6h3q61 rnd2",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4p planted sunflower alive n16k6h3q61 t0",
+   "ok": true,
+   "info": 8
+  },
+  {
+   "name": "S4p planted sunflower alive n16k6h3q61 t1",
+   "ok": true,
+   "info": 7
+  },
+  {
+   "name": "S4 rank<=Vh n16k5h4q47 rnd0",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 locality n16k5h4q47 rnd0",
+   "ok": true,
+   "info": [
+    4,
+    7
+   ]
+  },
+  {
+   "name": "S4 G0<=2*M0 n16k5h4q47 rnd0",
+   "ok": true,
+   "info": [
+    0,
+    0
+   ]
+  },
+  {
+   "name": "S4 G0<=V n16k5h4q47 rnd0",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 rank<=Vh n16k5h4q47 rnd1",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 locality n16k5h4q47 rnd1",
+   "ok": true,
+   "info": [
+    0,
+    0
+   ]
+  },
+  {
+   "name": "S4 G0<=2*M0 n16k5h4q47 rnd1",
+   "ok": true,
+   "info": [
+    0,
+    0
+   ]
+  },
+  {
+   "name": "S4 G0<=V n16k5h4q47 rnd1",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 rank<=Vh n16k5h4q47 rnd2",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 locality n16k5h4q47 rnd2",
+   "ok": true,
+   "info": [
+    0,
+    0
+   ]
+  },
+  {
+   "name": "S4 G0<=2*M0 n16k5h4q47 rnd2",
+   "ok": true,
+   "info": [
+    0,
+    0
+   ]
+  },
+  {
+   "name": "S4 G0<=V n16k5h4q47 rnd2",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4p planted sunflower alive n16k5h4q47 t0",
+   "ok": true,
+   "info": 2
+  },
+  {
+   "name": "S4p planted sunflower alive n16k5h4q47 t1",
+   "ok": true,
+   "info": 2
+  },
+  {
+   "name": "S4 rank<=Vh n18k6h3q43 rnd0",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 locality n18k6h3q43 rnd0",
+   "ok": true,
+   "info": [
+    23,
+    23
+   ]
+  },
+  {
+   "name": "S4 G0<=2*M0 n18k6h3q43 rnd0",
+   "ok": true,
+   "info": [
+    18,
+    22
+   ]
+  },
+  {
+   "name": "S4 G0<=V n18k6h3q43 rnd0",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 rank<=Vh n18k6h3q43 rnd1",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 locality n18k6h3q43 rnd1",
+   "ok": true,
+   "info": [
+    23,
+    23
+   ]
+  },
+  {
+   "name": "S4 G0<=2*M0 n18k6h3q43 rnd1",
+   "ok": true,
+   "info": [
+    20,
+    29
+   ]
+  },
+  {
+   "name": "S4 G0<=V n18k6h3q43 rnd1",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 rank<=Vh n18k6h3q43 rnd2",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 locality n18k6h3q43 rnd2",
+   "ok": true,
+   "info": [
+    23,
+    23
+   ]
+  },
+  {
+   "name": "S4 G0<=2*M0 n18k6h3q43 rnd2",
+   "ok": true,
+   "info": [
+    13,
+    15
+   ]
+  },
+  {
+   "name": "S4 G0<=V n18k6h3q43 rnd2",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4p planted sunflower alive n18k6h3q43 t0",
+   "ok": true,
+   "info": 16
+  },
+  {
+   "name": "S4p planted sunflower alive n18k6h3q43 t1",
+   "ok": true,
+   "info": 21
+  },
+  {
+   "name": "S4 rank<=Vh n20k6h3q53 rnd0",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 locality n20k6h3q53 rnd0",
+   "ok": true,
+   "info": [
+    27,
+    27
+   ]
+  },
+  {
+   "name": "S4 G0<=2*M0 n20k6h3q53 rnd0",
+   "ok": true,
+   "info": [
+    36,
+    48
+   ]
+  },
+  {
+   "name": "S4 G0<=V n20k6h3q53 rnd0",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 rank<=Vh n20k6h3q53 rnd1",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 locality n20k6h3q53 rnd1",
+   "ok": true,
+   "info": [
+    27,
+    27
+   ]
+  },
+  {
+   "name": "S4 G0<=2*M0 n20k6h3q53 rnd1",
+   "ok": true,
+   "info": [
+    28,
+    50
+   ]
+  },
+  {
+   "name": "S4 G0<=V n20k6h3q53 rnd1",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 rank<=Vh n20k6h3q53 rnd2",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4 locality n20k6h3q53 rnd2",
+   "ok": true,
+   "info": [
+    27,
+    27
+   ]
+  },
+  {
+   "name": "S4 G0<=2*M0 n20k6h3q53 rnd2",
+   "ok": true,
+   "info": [
+    32,
+    52
+   ]
+  },
+  {
+   "name": "S4 G0<=V n20k6h3q53 rnd2",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "S4p planted sunflower alive n20k6h3q53 t0",
+   "ok": true,
+   "info": 32
+  },
+  {
+   "name": "S4p planted sunflower alive n20k6h3q53 t1",
+   "ok": true,
+   "info": 35
+  }
+ ],
+ "fail": 0,
+ "pass": 70,
+ "runs": [
+  {
+   "V": 4,
+   "over": 0,
+   "M0": 1,
+   "Mplus": 1,
+   "N0": 1,
+   "Nplus": 1,
+   "G0": 2,
+   "Gplus": 2,
+   "Lmax": 2,
+   "peeled": 4,
+   "core": 0,
+   "rank": 12,
+   "Vh": 12,
+   "union": 14,
+   "locality": 17,
+   "interprofile": [
+    [
+     3,
+     1
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     5,
+     1
+    ]
+   ],
+   "tag": "n14k5h3q31",
+   "kind": "random",
+   "trial": 0
+  },
+  {
+   "V": 1,
+   "over": 0,
+   "M0": 0,
+   "Mplus": 0,
+   "N0": 0,
+   "Nplus": 0,
+   "G0": 0,
+   "Gplus": 0,
+   "Lmax": 0,
+   "peeled": 1,
+   "core": 0,
+   "rank": 3,
+   "Vh": 3,
+   "union": 8,
+   "locality": 5,
+   "interprofile": [],
+   "tag": "n14k5h3q31",
+   "kind": "random",
+   "trial": 1
+  },
+  {
+   "V": 5,
+   "over": 0,
+   "M0": 5,
+   "Mplus": 6,
+   "N0": 5,
+   "Nplus": 11,
+   "G0": 5,
+   "Gplus": 5,
+   "Lmax": 2,
+   "peeled": 0,
+   "core": 5,
+   "rank": 15,
+   "Vh": 15,
+   "union": 14,
+   "locality": 17,
+   "interprofile": [
+    [
+     3,
+     2
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     5,
+     5
+    ],
+    [
+     6,
+     1
+    ]
+   ],
+   "tag": "n14k5h3q31",
+   "kind": "random",
+   "trial": 2
+  },
+  {
+   "V": 3,
+   "over": 0,
+   "M0": 3,
+   "Mplus": 3,
+   "N0": 1,
+   "Nplus": 1,
+   "G0": 3,
+   "Gplus": 3,
+   "Lmax": 3,
+   "peeled": 3,
+   "core": 0,
+   "rank": 9,
+   "Vh": 9,
+   "union": 14,
+   "locality": 17,
+   "interprofile": [
+    [
+     5,
+     3
+    ]
+   ],
+   "tag": "n14k5h3q31",
+   "kind": "planted_sunflower",
+   "trial": 0,
+   "planted": 3
+  },
+  {
+   "V": 5,
+   "over": 0,
+   "M0": 6,
+   "Mplus": 6,
+   "N0": 4,
+   "Nplus": 4,
+   "G0": 5,
+   "Gplus": 5,
+   "Lmax": 3,
+   "peeled": 5,
+   "core": 0,
+   "rank": 15,
+   "Vh": 15,
+   "union": 14,
+   "locality": 17,
+   "interprofile": [
+    [
+     3,
+     2
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "tag": "n14k5h3q31",
+   "kind": "planted_sunflower",
+   "trial": 1,
+   "planted": 3
+  },
+  {
+   "V": 2,
+   "over": 0,
+   "M0": 0,
+   "Mplus": 0,
+   "N0": 0,
+   "Nplus": 0,
+   "G0": 0,
+   "Gplus": 0,
+   "Lmax": 0,
+   "peeled": 2,
+   "core": 0,
+   "rank": 6,
+   "Vh": 6,
+   "union": 13,
+   "locality": 13,
+   "interprofile": [
+    [
+     5,
+     1
+    ]
+   ],
+   "tag": "n16k6h3q61",
+   "kind": "random",
+   "trial": 0
+  },
+  {
+   "V": 2,
+   "over": 0,
+   "M0": 0,
+   "Mplus": 0,
+   "N0": 0,
+   "Nplus": 0,
+   "G0": 0,
+   "Gplus": 0,
+   "Lmax": 0,
+   "peeled": 2,
+   "core": 0,
+   "rank": 6,
+   "Vh": 6,
+   "union": 13,
+   "locality": 13,
+   "interprofile": [
+    [
+     5,
+     1
+    ]
+   ],
+   "tag": "n16k6h3q61",
+   "kind": "random",
+   "trial": 1
+  },
+  {
+   "V": 1,
+   "over": 1,
+   "M0": 0,
+   "Mplus": 0,
+   "N0": 0,
+   "Nplus": 0,
+   "G0": 0,
+   "Gplus": 0,
+   "Lmax": 0,
+   "peeled": 1,
+   "core": 0,
+   "rank": 3,
+   "Vh": 3,
+   "union": 9,
+   "locality": 5,
+   "interprofile": [],
+   "tag": "n16k6h3q61",
+   "kind": "random",
+   "trial": 2
+  },
+  {
+   "V": 8,
+   "over": 0,
+   "M0": 8,
+   "Mplus": 8,
+   "N0": 6,
+   "Nplus": 6,
+   "G0": 6,
+   "Gplus": 6,
+   "Lmax": 3,
+   "peeled": 0,
+   "core": 8,
+   "rank": 19,
+   "Vh": 24,
+   "union": 16,
+   "locality": 19,
+   "interprofile": [
+    [
+     3,
+     1
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     11
+    ],
+    [
+     6,
+     8
+    ]
+   ],
+   "tag": "n16k6h3q61",
+   "kind": "planted_sunflower",
+   "trial": 0,
+   "planted": 3
+  },
+  {
+   "V": 7,
+   "over": 0,
+   "M0": 9,
+   "Mplus": 9,
+   "N0": 7,
+   "Nplus": 7,
+   "G0": 7,
+   "Gplus": 7,
+   "Lmax": 3,
+   "peeled": 0,
+   "core": 7,
+   "rank": 19,
+   "Vh": 21,
+   "union": 16,
+   "locality": 19,
+   "interprofile": [
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     9
+    ]
+   ],
+   "tag": "n16k6h3q61",
+   "kind": "planted_sunflower",
+   "trial": 1,
+   "planted": 3
+  },
+  {
+   "V": 1,
+   "over": 0,
+   "M0": 0,
+   "Mplus": 0,
+   "N0": 0,
+   "Nplus": 0,
+   "G0": 0,
+   "Gplus": 0,
+   "Lmax": 0,
+   "peeled": 1,
+   "core": 0,
+   "rank": 4,
+   "Vh": 4,
+   "union": 9,
+   "locality": 7,
+   "interprofile": [],
+   "tag": "n16k5h4q47",
+   "kind": "random",
+   "trial": 0
+  },
+  {
+   "V": 0,
+   "over": 0,
+   "M0": 0,
+   "Mplus": 0,
+   "N0": 0,
+   "Nplus": 0,
+   "G0": 0,
+   "Gplus": 0,
+   "Lmax": 0,
+   "peeled": 0,
+   "core": 0,
+   "rank": 0,
+   "Vh": 0,
+   "union": 0,
+   "locality": 0,
+   "interprofile": [],
+   "tag": "n16k5h4q47",
+   "kind": "random",
+   "trial": 1
+  },
+  {
+   "V": 0,
+   "over": 0,
+   "M0": 0,
+   "Mplus": 0,
+   "N0": 0,
+   "Nplus": 0,
+   "G0": 0,
+   "Gplus": 0,
+   "Lmax": 0,
+   "peeled": 0,
+   "core": 0,
+   "rank": 0,
+   "Vh": 0,
+   "union": 0,
+   "locality": 0,
+   "interprofile": [],
+   "tag": "n16k5h4q47",
+   "kind": "random",
+   "trial": 2
+  },
+  {
+   "V": 2,
+   "over": 0,
+   "M0": 1,
+   "Mplus": 1,
+   "N0": 1,
+   "Nplus": 1,
+   "G0": 2,
+   "Gplus": 2,
+   "Lmax": 2,
+   "peeled": 2,
+   "core": 0,
+   "rank": 8,
+   "Vh": 8,
+   "union": 13,
+   "locality": 15,
+   "interprofile": [
+    [
+     5,
+     1
+    ]
+   ],
+   "tag": "n16k5h4q47",
+   "kind": "planted_sunflower",
+   "trial": 0,
+   "planted": 2
+  },
+  {
+   "V": 2,
+   "over": 0,
+   "M0": 1,
+   "Mplus": 1,
+   "N0": 1,
+   "Nplus": 1,
+   "G0": 2,
+   "Gplus": 2,
+   "Lmax": 2,
+   "peeled": 2,
+   "core": 0,
+   "rank": 8,
+   "Vh": 8,
+   "union": 13,
+   "locality": 15,
+   "interprofile": [
+    [
+     5,
+     1
+    ]
+   ],
+   "tag": "n16k5h4q47",
+   "kind": "planted_sunflower",
+   "trial": 1,
+   "planted": 2
+  },
+  {
+   "V": 18,
+   "over": 0,
+   "M0": 22,
+   "Mplus": 31,
+   "N0": 22,
+   "Nplus": 57,
+   "G0": 18,
+   "Gplus": 18,
+   "Lmax": 2,
+   "peeled": 0,
+   "core": 18,
+   "rank": 23,
+   "Vh": 54,
+   "union": 18,
+   "locality": 23,
+   "interprofile": [
+    [
+     2,
+     2
+    ],
+    [
+     3,
+     21
+    ],
+    [
+     4,
+     48
+    ],
+    [
+     5,
+     51
+    ],
+    [
+     6,
+     22
+    ],
+    [
+     7,
+     9
+    ]
+   ],
+   "tag": "n18k6h3q43",
+   "kind": "random",
+   "trial": 0
+  },
+  {
+   "V": 21,
+   "over": 0,
+   "M0": 29,
+   "Mplus": 35,
+   "N0": 29,
+   "Nplus": 71,
+   "G0": 20,
+   "Gplus": 20,
+   "Lmax": 2,
+   "peeled": 0,
+   "core": 21,
+   "rank": 23,
+   "Vh": 63,
+   "union": 18,
+   "locality": 23,
+   "interprofile": [
+    [
+     2,
+     7
+    ],
+    [
+     3,
+     30
+    ],
+    [
+     4,
+     63
+    ],
+    [
+     5,
+     75
+    ],
+    [
+     6,
+     29
+    ],
+    [
+     7,
+     6
+    ]
+   ],
+   "tag": "n18k6h3q43",
+   "kind": "random",
+   "trial": 1
+  },
+  {
+   "V": 14,
+   "over": 0,
+   "M0": 15,
+   "Mplus": 15,
+   "N0": 15,
+   "Nplus": 15,
+   "G0": 13,
+   "Gplus": 13,
+   "Lmax": 2,
+   "peeled": 0,
+   "core": 14,
+   "rank": 23,
+   "Vh": 42,
+   "union": 18,
+   "locality": 23,
+   "interprofile": [
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     13
+    ],
+    [
+     4,
+     33
+    ],
+    [
+     5,
+     29
+    ],
+    [
+     6,
+     15
+    ]
+   ],
+   "tag": "n18k6h3q43",
+   "kind": "random",
+   "trial": 2
+  },
+  {
+   "V": 16,
+   "over": 0,
+   "M0": 25,
+   "Mplus": 29,
+   "N0": 20,
+   "Nplus": 48,
+   "G0": 16,
+   "Gplus": 16,
+   "Lmax": 4,
+   "peeled": 0,
+   "core": 16,
+   "rank": 23,
+   "Vh": 48,
+   "union": 18,
+   "locality": 23,
+   "interprofile": [
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     38
+    ],
+    [
+     5,
+     42
+    ],
+    [
+     6,
+     25
+    ],
+    [
+     7,
+     4
+    ]
+   ],
+   "tag": "n18k6h3q43",
+   "kind": "planted_sunflower",
+   "trial": 0,
+   "planted": 4
+  },
+  {
+   "V": 21,
+   "over": 0,
+   "M0": 38,
+   "Mplus": 43,
+   "N0": 33,
+   "Nplus": 68,
+   "G0": 21,
+   "Gplus": 21,
+   "Lmax": 4,
+   "peeled": 0,
+   "core": 21,
+   "rank": 23,
+   "Vh": 63,
+   "union": 18,
+   "locality": 23,
+   "interprofile": [
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     30
+    ],
+    [
+     4,
+     70
+    ],
+    [
+     5,
+     63
+    ],
+    [
+     6,
+     38
+    ],
+    [
+     7,
+     5
+    ]
+   ],
+   "tag": "n18k6h3q43",
+   "kind": "planted_sunflower",
+   "trial": 1,
+   "planted": 4
+  },
+  {
+   "V": 38,
+   "over": 0,
+   "M0": 48,
+   "Mplus": 58,
+   "N0": 48,
+   "Nplus": 90,
+   "G0": 36,
+   "Gplus": 37,
+   "Lmax": 2,
+   "peeled": 0,
+   "core": 38,
+   "rank": 27,
+   "Vh": 114,
+   "union": 20,
+   "locality": 27,
+   "interprofile": [
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     46
+    ],
+    [
+     3,
+     176
+    ],
+    [
+     4,
+     239
+    ],
+    [
+     5,
+     178
+    ],
+    [
+     6,
+     48
+    ],
+    [
+     7,
+     10
+    ]
+   ],
+   "tag": "n20k6h3q53",
+   "kind": "random",
+   "trial": 0
+  },
+  {
+   "V": 32,
+   "over": 2,
+   "M0": 50,
+   "Mplus": 56,
+   "N0": 50,
+   "Nplus": 78,
+   "G0": 28,
+   "Gplus": 30,
+   "Lmax": 2,
+   "peeled": 0,
+   "core": 32,
+   "rank": 27,
+   "Vh": 96,
+   "union": 20,
+   "locality": 27,
+   "interprofile": [
+    [
+     1,
+     8
+    ],
+    [
+     2,
+     27
+    ],
+    [
+     3,
+     118
+    ],
+    [
+     4,
+     159
+    ],
+    [
+     5,
+     128
+    ],
+    [
+     6,
+     50
+    ],
+    [
+     7,
+     6
+    ]
+   ],
+   "tag": "n20k6h3q53",
+   "kind": "random",
+   "trial": 1
+  },
+  {
+   "V": 34,
+   "over": 0,
+   "M0": 52,
+   "Mplus": 54,
+   "N0": 52,
+   "Nplus": 66,
+   "G0": 32,
+   "Gplus": 33,
+   "Lmax": 2,
+   "peeled": 0,
+   "core": 34,
+   "rank": 27,
+   "Vh": 102,
+   "union": 20,
+   "locality": 27,
+   "interprofile": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     35
+    ],
+    [
+     3,
+     127
+    ],
+    [
+     4,
+     207
+    ],
+    [
+     5,
+     135
+    ],
+    [
+     6,
+     52
+    ],
+    [
+     7,
+     2
+    ]
+   ],
+   "tag": "n20k6h3q53",
+   "kind": "random",
+   "trial": 2
+  },
+  {
+   "V": 32,
+   "over": 1,
+   "M0": 41,
+   "Mplus": 71,
+   "N0": 39,
+   "Nplus": 81,
+   "G0": 31,
+   "Gplus": 32,
+   "Lmax": 3,
+   "peeled": 0,
+   "core": 32,
+   "rank": 27,
+   "Vh": 96,
+   "union": 20,
+   "locality": 27,
+   "interprofile": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     29
+    ],
+    [
+     3,
+     104
+    ],
+    [
+     4,
+     160
+    ],
+    [
+     5,
+     130
+    ],
+    [
+     6,
+     41
+    ],
+    [
+     7,
+     2
+    ],
+    [
+     8,
+     28
+    ]
+   ],
+   "tag": "n20k6h3q53",
+   "kind": "planted_sunflower",
+   "trial": 0,
+   "planted": 4
+  },
+  {
+   "V": 35,
+   "over": 2,
+   "M0": 57,
+   "Mplus": 69,
+   "N0": 50,
+   "Nplus": 92,
+   "G0": 32,
+   "Gplus": 34,
+   "Lmax": 4,
+   "peeled": 0,
+   "core": 35,
+   "rank": 27,
+   "Vh": 105,
+   "union": 20,
+   "locality": 27,
+   "interprofile": [
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     42
+    ],
+    [
+     3,
+     142
+    ],
+    [
+     4,
+     194
+    ],
+    [
+     5,
+     142
+    ],
+    [
+     6,
+     57
+    ],
+    [
+     7,
+     12
+    ]
+   ],
+   "tag": "n20k6h3q53",
+   "kind": "planted_sunflower",
+   "trial": 1,
+   "planted": 4
+  }
+ ]
+}

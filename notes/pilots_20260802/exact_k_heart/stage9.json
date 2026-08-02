@@ -1,0 +1,193 @@
+{
+ "checks": [
+  {
+   "name": "S9 structural regime n24k6h3q9151",
+   "ok": true,
+   "info": -6.000885806931258
+  },
+  {
+   "name": "S9 best == ceiling n24k6h3q9151",
+   "ok": true,
+   "info": [
+    11,
+    11
+   ]
+  },
+  {
+   "name": "S9 ceiling+1 dead n24k6h3q9151",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "S9 structural regime n32k8h3q90887",
+   "ok": true,
+   "info": -6.000487217643929
+  },
+  {
+   "name": "S9 best == ceiling n32k8h3q90887",
+   "ok": true,
+   "info": [
+    15,
+    15
+   ]
+  },
+  {
+   "name": "S9 ceiling+1 dead n32k8h3q90887",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "S9 structural regime n40k10h3q877573",
+   "ok": true,
+   "info": -6.000013541131864
+  },
+  {
+   "name": "S9 best == ceiling n40k10h3q877573",
+   "ok": true,
+   "info": [
+    19,
+    19
+   ]
+  },
+  {
+   "name": "S9 ceiling+1 dead n40k10h3q877573",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "S9 structural regime n48k12h3q8364739",
+   "ok": true,
+   "info": -6.00000422888904
+  },
+  {
+   "name": "S9 best == ceiling n48k12h3q8364739",
+   "ok": true,
+   "info": [
+    23,
+    23
+   ]
+  },
+  {
+   "name": "S9 ceiling+1 dead n48k12h3q8364739",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "S9 structural regime n56k14h3q79194967",
+   "ok": true,
+   "info": -6.000000128691241
+  },
+  {
+   "name": "S9 best == ceiling n56k14h3q79194967",
+   "ok": true,
+   "info": [
+    27,
+    27
+   ]
+  },
+  {
+   "name": "S9 ceiling+1 dead n56k14h3q79194967",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "S9 structural regime n64k16h3q747042313",
+   "ok": true,
+   "info": -6.000000042979181
+  },
+  {
+   "name": "S9 best == ceiling n64k16h3q747042313",
+   "ok": true,
+   "info": [
+    31,
+    31
+   ]
+  },
+  {
+   "name": "S9 ceiling+1 dead n64k16h3q747042313",
+   "ok": true,
+   "info": 0
+  }
+ ],
+ "fail": 0,
+ "pass": 18,
+ "data": {
+  "series": [
+   {
+    "tag": "n24k6h3q9151",
+    "n": 24,
+    "k": 6,
+    "h": 3,
+    "q": 9151,
+    "R": 18,
+    "ceil": 11,
+    "best": 11,
+    "over": 0,
+    "lgE_noise": -6.000885806931258
+   },
+   {
+    "tag": "n32k8h3q90887",
+    "n": 32,
+    "k": 8,
+    "h": 3,
+    "q": 90887,
+    "R": 24,
+    "ceil": 15,
+    "best": 15,
+    "over": 0,
+    "lgE_noise": -6.000487217643929
+   },
+   {
+    "tag": "n40k10h3q877573",
+    "n": 40,
+    "k": 10,
+    "h": 3,
+    "q": 877573,
+    "R": 30,
+    "ceil": 19,
+    "best": 19,
+    "over": 0,
+    "lgE_noise": -6.000013541131864
+   },
+   {
+    "tag": "n48k12h3q8364739",
+    "n": 48,
+    "k": 12,
+    "h": 3,
+    "q": 8364739,
+    "R": 36,
+    "ceil": 23,
+    "best": 23,
+    "over": 0,
+    "lgE_noise": -6.00000422888904
+   },
+   {
+    "tag": "n56k14h3q79194967",
+    "n": 56,
+    "k": 14,
+    "h": 3,
+    "q": 79194967,
+    "R": 42,
+    "ceil": 27,
+    "best": 27,
+    "over": 0,
+    "lgE_noise": -6.000000128691241
+   },
+   {
+    "tag": "n64k16h3q747042313",
+    "n": 64,
+    "k": 16,
+    "h": 3,
+    "q": 747042313,
+    "R": 48,
+    "ceil": 31,
+    "best": 31,
+    "over": 0,
+    "lgE_noise": -6.000000042979181
+   }
+  ],
+  "slope": 0.5,
+  "intercept": -1.0,
+  "theory_slope": 0.5
+ }
+}

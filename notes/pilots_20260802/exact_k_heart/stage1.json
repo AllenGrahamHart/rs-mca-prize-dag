@@ -1,0 +1,678 @@
+{
+ "checks": [
+  {
+   "name": "C1 dimC_S=3 n12k4h3q97",
+   "ok": true,
+   "info": [
+    3,
+    3
+   ]
+  },
+  {
+   "name": "C1b C_S _|_ RS_k n12k4h3q97",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "C2 locator normal form n12k4h3q97",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "C3 core rows empty n12k4h3q97",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n12k4h3q97 z=1,2",
+   "ok": true,
+   "info": [
+    6,
+    6
+   ]
+  },
+  {
+   "name": "C3 core rows empty n12k4h3q97",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n12k4h3q97 z=3,7",
+   "ok": true,
+   "info": [
+    6,
+    6
+   ]
+  },
+  {
+   "name": "C3 core rows empty n12k4h3q97",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n12k4h3q97 z=0,5",
+   "ok": true,
+   "info": [
+    6,
+    6
+   ]
+  },
+  {
+   "name": "C3 core rows empty n12k4h3q97",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n12k4h3q97 z=1,inf",
+   "ok": true,
+   "info": [
+    6,
+    6
+   ]
+  },
+  {
+   "name": "C3 core rows empty n12k4h3q97",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n12k4h3q97 z=0,inf",
+   "ok": true,
+   "info": [
+    6,
+    6
+   ]
+  },
+  {
+   "name": "C5 deg lcm = R n12k4h3q97",
+   "ok": true,
+   "info": [
+    8,
+    8
+   ]
+  },
+  {
+   "name": "C5b support-2 nullity 0 n12k4h3q97",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C1 dimC_S=4 n14k4h4q101",
+   "ok": true,
+   "info": [
+    4,
+    4
+   ]
+  },
+  {
+   "name": "C1b C_S _|_ RS_k n14k4h4q101",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "C2 locator normal form n14k4h4q101",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "C3 core rows empty n14k4h4q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n14k4h4q101 z=1,2",
+   "ok": true,
+   "info": [
+    8,
+    8
+   ]
+  },
+  {
+   "name": "C3 core rows empty n14k4h4q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n14k4h4q101 z=3,7",
+   "ok": true,
+   "info": [
+    8,
+    8
+   ]
+  },
+  {
+   "name": "C3 core rows empty n14k4h4q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n14k4h4q101 z=0,5",
+   "ok": true,
+   "info": [
+    8,
+    8
+   ]
+  },
+  {
+   "name": "C3 core rows empty n14k4h4q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n14k4h4q101 z=1,inf",
+   "ok": true,
+   "info": [
+    8,
+    8
+   ]
+  },
+  {
+   "name": "C3 core rows empty n14k4h4q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n14k4h4q101 z=0,inf",
+   "ok": true,
+   "info": [
+    8,
+    8
+   ]
+  },
+  {
+   "name": "C5 deg lcm = R n14k4h4q101",
+   "ok": true,
+   "info": [
+    10,
+    10
+   ]
+  },
+  {
+   "name": "C5b support-2 nullity 0 n14k4h4q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C1 dimC_S=4 n16k5h4q97",
+   "ok": true,
+   "info": [
+    4,
+    4
+   ]
+  },
+  {
+   "name": "C1b C_S _|_ RS_k n16k5h4q97",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "C2 locator normal form n16k5h4q97",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "C3 core rows empty n16k5h4q97",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n16k5h4q97 z=1,2",
+   "ok": true,
+   "info": [
+    8,
+    8
+   ]
+  },
+  {
+   "name": "C3 core rows empty n16k5h4q97",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n16k5h4q97 z=3,7",
+   "ok": true,
+   "info": [
+    8,
+    8
+   ]
+  },
+  {
+   "name": "C3 core rows empty n16k5h4q97",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n16k5h4q97 z=0,5",
+   "ok": true,
+   "info": [
+    8,
+    8
+   ]
+  },
+  {
+   "name": "C3 core rows empty n16k5h4q97",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n16k5h4q97 z=1,inf",
+   "ok": true,
+   "info": [
+    8,
+    8
+   ]
+  },
+  {
+   "name": "C3 core rows empty n16k5h4q97",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n16k5h4q97 z=0,inf",
+   "ok": true,
+   "info": [
+    8,
+    8
+   ]
+  },
+  {
+   "name": "C5 deg lcm = R n16k5h4q97",
+   "ok": true,
+   "info": [
+    11,
+    11
+   ]
+  },
+  {
+   "name": "C5b support-2 nullity 0 n16k5h4q97",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C1 dimC_S=5 n16k4h5q113",
+   "ok": true,
+   "info": [
+    5,
+    5
+   ]
+  },
+  {
+   "name": "C1b C_S _|_ RS_k n16k4h5q113",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "C2 locator normal form n16k4h5q113",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "C3 core rows empty n16k4h5q113",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n16k4h5q113 z=1,2",
+   "ok": true,
+   "info": [
+    10,
+    10
+   ]
+  },
+  {
+   "name": "C3 core rows empty n16k4h5q113",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n16k4h5q113 z=3,7",
+   "ok": true,
+   "info": [
+    10,
+    10
+   ]
+  },
+  {
+   "name": "C3 core rows empty n16k4h5q113",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n16k4h5q113 z=0,5",
+   "ok": true,
+   "info": [
+    10,
+    10
+   ]
+  },
+  {
+   "name": "C3 core rows empty n16k4h5q113",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n16k4h5q113 z=1,inf",
+   "ok": true,
+   "info": [
+    10,
+    10
+   ]
+  },
+  {
+   "name": "C3 core rows empty n16k4h5q113",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n16k4h5q113 z=0,inf",
+   "ok": true,
+   "info": [
+    10,
+    10
+   ]
+  },
+  {
+   "name": "C5 deg lcm = R n16k4h5q113",
+   "ok": true,
+   "info": [
+    12,
+    12
+   ]
+  },
+  {
+   "name": "C5b support-2 nullity 0 n16k4h5q113",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C1 dimC_S=4 n18k6h4q73",
+   "ok": true,
+   "info": [
+    4,
+    4
+   ]
+  },
+  {
+   "name": "C1b C_S _|_ RS_k n18k6h4q73",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "C2 locator normal form n18k6h4q73",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "C3 core rows empty n18k6h4q73",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n18k6h4q73 z=1,2",
+   "ok": true,
+   "info": [
+    8,
+    8
+   ]
+  },
+  {
+   "name": "C3 core rows empty n18k6h4q73",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n18k6h4q73 z=3,7",
+   "ok": true,
+   "info": [
+    8,
+    8
+   ]
+  },
+  {
+   "name": "C3 core rows empty n18k6h4q73",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n18k6h4q73 z=0,5",
+   "ok": true,
+   "info": [
+    8,
+    8
+   ]
+  },
+  {
+   "name": "C3 core rows empty n18k6h4q73",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n18k6h4q73 z=1,inf",
+   "ok": true,
+   "info": [
+    8,
+    8
+   ]
+  },
+  {
+   "name": "C3 core rows empty n18k6h4q73",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n18k6h4q73 z=0,inf",
+   "ok": true,
+   "info": [
+    8,
+    8
+   ]
+  },
+  {
+   "name": "C5 deg lcm = R n18k6h4q73",
+   "ok": true,
+   "info": [
+    12,
+    12
+   ]
+  },
+  {
+   "name": "C5b support-2 nullity 0 n18k6h4q73",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C1 dimC_S=5 n20k6h5q101",
+   "ok": true,
+   "info": [
+    5,
+    5
+   ]
+  },
+  {
+   "name": "C1b C_S _|_ RS_k n20k6h5q101",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "C2 locator normal form n20k6h5q101",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "C3 core rows empty n20k6h5q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n20k6h5q101 z=1,2",
+   "ok": true,
+   "info": [
+    10,
+    10
+   ]
+  },
+  {
+   "name": "C3 core rows empty n20k6h5q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n20k6h5q101 z=3,7",
+   "ok": true,
+   "info": [
+    10,
+    10
+   ]
+  },
+  {
+   "name": "C3 core rows empty n20k6h5q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n20k6h5q101 z=0,5",
+   "ok": true,
+   "info": [
+    10,
+    10
+   ]
+  },
+  {
+   "name": "C3 core rows empty n20k6h5q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n20k6h5q101 z=1,inf",
+   "ok": true,
+   "info": [
+    10,
+    10
+   ]
+  },
+  {
+   "name": "C3 core rows empty n20k6h5q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n20k6h5q101 z=0,inf",
+   "ok": true,
+   "info": [
+    10,
+    10
+   ]
+  },
+  {
+   "name": "C5 deg lcm = R n20k6h5q101",
+   "ok": true,
+   "info": [
+    14,
+    14
+   ]
+  },
+  {
+   "name": "C5b support-2 nullity 0 n20k6h5q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C1 dimC_S=3 n18k5h3q73",
+   "ok": true,
+   "info": [
+    3,
+    3
+   ]
+  },
+  {
+   "name": "C1b C_S _|_ RS_k n18k5h3q73",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "C2 locator normal form n18k5h3q73",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "C3 core rows empty n18k5h3q73",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n18k5h3q73 z=1,2",
+   "ok": true,
+   "info": [
+    6,
+    6
+   ]
+  },
+  {
+   "name": "C3 core rows empty n18k5h3q73",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n18k5h3q73 z=3,7",
+   "ok": true,
+   "info": [
+    6,
+    6
+   ]
+  },
+  {
+   "name": "C3 core rows empty n18k5h3q73",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n18k5h3q73 z=0,5",
+   "ok": true,
+   "info": [
+    6,
+    6
+   ]
+  },
+  {
+   "name": "C3 core rows empty n18k5h3q73",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n18k5h3q73 z=1,inf",
+   "ok": true,
+   "info": [
+    6,
+    6
+   ]
+  },
+  {
+   "name": "C3 core rows empty n18k5h3q73",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "C4 datum rank 2h n18k5h3q73 z=0,inf",
+   "ok": true,
+   "info": [
+    6,
+    6
+   ]
+  },
+  {
+   "name": "C5 deg lcm = R n18k5h3q73",
+   "ok": true,
+   "info": [
+    13,
+    13
+   ]
+  },
+  {
+   "name": "C5b support-2 nullity 0 n18k5h3q73",
+   "ok": true,
+   "info": 0
+  }
+ ],
+ "fail": 0,
+ "pass": 105
+}

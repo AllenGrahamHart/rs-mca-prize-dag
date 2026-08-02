@@ -1,0 +1,668 @@
+{
+ "checks": [
+  {
+   "name": "R1 no support-2 sum-zero n12k4h3q97",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "R3 nullity 0 at m=3 n12k4h3q97",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "R6 random k-packed rank = Vh n12k4h3q97 V=4",
+   "ok": true,
+   "info": [
+    12,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "R1 no support-2 sum-zero n14k4h4q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "R3 nullity 0 at m=3 n14k4h4q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "R6 random k-packed rank = Vh n14k4h4q101 V=4",
+   "ok": true,
+   "info": [
+    16,
+    16,
+    20
+   ]
+  },
+  {
+   "name": "R1 no support-2 sum-zero n16k5h4q97",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "R3 nullity 0 at m=3 n16k5h4q97",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "R6 random k-packed rank = Vh n16k5h4q97 V=4",
+   "ok": true,
+   "info": [
+    16,
+    16,
+    22
+   ]
+  },
+  {
+   "name": "R1 no support-2 sum-zero n16k4h5q113",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "R3 nullity 0 at m=3 n16k4h5q113",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "R6 random k-packed rank = Vh n16k4h5q113 V=4",
+   "ok": true,
+   "info": [
+    20,
+    20,
+    24
+   ]
+  },
+  {
+   "name": "R1 no support-2 sum-zero n18k6h4q73",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "R3 nullity 0 at m=3 n18k6h4q73",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "R6 random k-packed rank = Vh n18k6h4q73 V=5",
+   "ok": true,
+   "info": [
+    20,
+    20,
+    24
+   ]
+  },
+  {
+   "name": "R1 no support-2 sum-zero n20k6h5q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "R3 nullity 0 at m=3 n20k6h5q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "R6 random k-packed rank = Vh n20k6h5q101 V=4",
+   "ok": true,
+   "info": [
+    20,
+    20,
+    28
+   ]
+  },
+  {
+   "name": "R1 no support-2 sum-zero n20k5h4q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "R3 nullity 0 at m=3 n20k5h4q101",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "R6 random k-packed rank = Vh n20k5h4q101 V=5",
+   "ok": true,
+   "info": [
+    20,
+    20,
+    30
+   ]
+  },
+  {
+   "name": "R1 no support-2 sum-zero n18k4h4q73",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "R3 nullity 0 at m=3 n18k4h4q73",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "R6 random k-packed rank = Vh n18k4h4q73 V=5",
+   "ok": true,
+   "info": [
+    20,
+    20,
+    28
+   ]
+  }
+ ],
+ "fail": 0,
+ "pass": 24,
+ "data": {
+  "n12k4h3q97": {
+   "3": {
+    "nullity": 0,
+    "ncol": 9,
+    "rank": 9,
+    "expect": 9
+   },
+   "4": {
+    "nullity": 0,
+    "ncol": 12,
+    "rank": 12,
+    "expect": 12
+   },
+   "5": {
+    "nullity": 0,
+    "ncol": 15,
+    "rank": 15,
+    "expect": 15
+   },
+   "6": {
+    "nullity": 2,
+    "ncol": 18,
+    "rank": 16,
+    "expect": 18
+   }
+  },
+  "n14k4h4q101": {
+   "3": {
+    "nullity": 0,
+    "ncol": 12,
+    "rank": 12,
+    "expect": 12
+   },
+   "4": {
+    "nullity": 0,
+    "ncol": 16,
+    "rank": 16,
+    "expect": 16
+   },
+   "5": {
+    "nullity": 0,
+    "ncol": 20,
+    "rank": 20,
+    "expect": 20
+   }
+  },
+  "n16k5h4q97": {
+   "3": {
+    "nullity": 0,
+    "ncol": 12,
+    "rank": 12,
+    "expect": 12
+   },
+   "4": {
+    "nullity": 0,
+    "ncol": 16,
+    "rank": 16,
+    "expect": 16
+   },
+   "5": {
+    "nullity": 0,
+    "ncol": 20,
+    "rank": 20,
+    "expect": 20
+   },
+   "6": {
+    "nullity": 2,
+    "ncol": 24,
+    "rank": 22,
+    "expect": 24
+   }
+  },
+  "n16k4h5q113": {
+   "3": {
+    "nullity": 0,
+    "ncol": 15,
+    "rank": 15,
+    "expect": 15
+   }
+  },
+  "n18k6h4q73": {
+   "3": {
+    "nullity": 0,
+    "ncol": 12,
+    "rank": 12,
+    "expect": 12
+   },
+   "4": {
+    "nullity": 0,
+    "ncol": 16,
+    "rank": 16,
+    "expect": 16
+   },
+   "5": {
+    "nullity": 0,
+    "ncol": 20,
+    "rank": 20,
+    "expect": 20
+   },
+   "6": {
+    "nullity": 0,
+    "ncol": 24,
+    "rank": 24,
+    "expect": 24
+   }
+  },
+  "n20k6h5q101": {
+   "3": {
+    "nullity": 0,
+    "ncol": 15,
+    "rank": 15,
+    "expect": 15
+   },
+   "4": {
+    "nullity": 0,
+    "ncol": 20,
+    "rank": 20,
+    "expect": 20
+   },
+   "5": {
+    "nullity": 0,
+    "ncol": 25,
+    "rank": 25,
+    "expect": 25
+   },
+   "6": {
+    "nullity": 2,
+    "ncol": 30,
+    "rank": 28,
+    "expect": 30
+   }
+  },
+  "n20k5h4q101": {
+   "3": {
+    "nullity": 0,
+    "ncol": 12,
+    "rank": 12,
+    "expect": 12
+   },
+   "4": {
+    "nullity": 0,
+    "ncol": 16,
+    "rank": 16,
+    "expect": 16
+   },
+   "5": {
+    "nullity": 0,
+    "ncol": 20,
+    "rank": 20,
+    "expect": 20
+   },
+   "6": {
+    "nullity": 0,
+    "ncol": 24,
+    "rank": 24,
+    "expect": 24
+   }
+  },
+  "n18k4h4q73": {
+   "3": {
+    "nullity": 0,
+    "ncol": 12,
+    "rank": 12,
+    "expect": 12
+   },
+   "4": {
+    "nullity": 0,
+    "ncol": 16,
+    "rank": 16,
+    "expect": 16
+   },
+   "5": {
+    "nullity": 0,
+    "ncol": 20,
+    "rank": 20,
+    "expect": 20
+   },
+   "6": {
+    "nullity": 0,
+    "ncol": 24,
+    "rank": 24,
+    "expect": 24
+   }
+  },
+  "r3_sumzero_hits": [
+   [
+    "n12k4h3q97",
+    40,
+    40
+   ],
+   [
+    "n14k4h4q101",
+    40,
+    40
+   ],
+   [
+    "n16k5h4q97",
+    40,
+    40
+   ],
+   [
+    "n16k4h5q113",
+    40,
+    40
+   ],
+   [
+    "n18k6h4q73",
+    40,
+    32
+   ],
+   [
+    "n20k6h5q101",
+    40,
+    40
+   ],
+   [
+    "n20k5h4q101",
+    40,
+    11
+   ],
+   [
+    "n18k4h4q73",
+    40,
+    20
+   ]
+  ],
+  "r3_profiles": [
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 1,
+    "inter": [
+     3,
+     4,
+     3
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 2,
+    "inter": [
+     4,
+     4,
+     3
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 1,
+    "inter": [
+     4,
+     4,
+     4
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 2,
+    "inter": [
+     4,
+     4,
+     3
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 1,
+    "inter": [
+     3,
+     4,
+     4
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 2,
+    "inter": [
+     4,
+     3,
+     4
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 1,
+    "inter": [
+     4,
+     3,
+     4
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 1,
+    "inter": [
+     4,
+     4,
+     3
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 2,
+    "inter": [
+     4,
+     4,
+     3
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 2,
+    "inter": [
+     4,
+     4,
+     4
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 1,
+    "inter": [
+     2,
+     4,
+     4
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 1,
+    "inter": [
+     3,
+     4,
+     4
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 1,
+    "inter": [
+     3,
+     3,
+     4
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 1,
+    "inter": [
+     4,
+     4,
+     3
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 1,
+    "inter": [
+     4,
+     3,
+     4
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 2,
+    "inter": [
+     4,
+     4,
+     4
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 1,
+    "inter": [
+     4,
+     4,
+     3
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 2,
+    "inter": [
+     4,
+     4,
+     4
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 1,
+    "inter": [
+     3,
+     4,
+     4
+    ]
+   },
+   {
+    "shape": [
+     12,
+     4,
+     3,
+     97
+    ],
+    "nullity": 1,
+    "inter": [
+     4,
+     3,
+     4
+    ]
+   }
+  ]
+ }
+}

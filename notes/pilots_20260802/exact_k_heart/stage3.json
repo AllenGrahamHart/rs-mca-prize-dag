@@ -1,0 +1,834 @@
+{
+ "checks": [
+  {
+   "name": "CS clique exact-k n16k6h3q61 m=2",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n16k6h3q61 m=2",
+   "ok": true,
+   "info": [
+    6,
+    6,
+    12
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n16k6h3q61 m=2",
+   "ok": true,
+   "info": [
+    6,
+    12,
+    12
+   ]
+  },
+  {
+   "name": "CS clique exact-k n16k6h3q61 m=3",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n16k6h3q61 m=3",
+   "ok": true,
+   "info": [
+    9,
+    9,
+    12
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n16k6h3q61 m=3",
+   "ok": true,
+   "info": [
+    9,
+    12,
+    12
+   ]
+  },
+  {
+   "name": "CS clique exact-k n16k6h3q61 m=4",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n16k6h3q61 m=4",
+   "ok": true,
+   "info": [
+    12,
+    12,
+    12
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n16k6h3q61 m=4",
+   "ok": true,
+   "info": [
+    12,
+    12,
+    12
+   ]
+  },
+  {
+   "name": "CS clique exact-k n20k9h3q41 m=2",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n20k9h3q41 m=2",
+   "ok": true,
+   "info": [
+    6,
+    6,
+    12
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n20k9h3q41 m=2",
+   "ok": true,
+   "info": [
+    6,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "CS clique exact-k n20k9h3q41 m=3",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n20k9h3q41 m=3",
+   "ok": true,
+   "info": [
+    9,
+    9,
+    12
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n20k9h3q41 m=3",
+   "ok": true,
+   "info": [
+    9,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "CS clique exact-k n20k9h3q41 m=4",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n20k9h3q41 m=4",
+   "ok": true,
+   "info": [
+    12,
+    12,
+    12
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n20k9h3q41 m=4",
+   "ok": true,
+   "info": [
+    12,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "CS clique exact-k n20k9h3q41 m=5",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n20k9h3q41 m=5",
+   "ok": true,
+   "info": [
+    12,
+    15,
+    12
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n20k9h3q41 m=5",
+   "ok": true,
+   "info": [
+    12,
+    12,
+    15
+   ]
+  },
+  {
+   "name": "CS clique exact-k n20k8h4q43 m=2",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n20k8h4q43 m=2",
+   "ok": true,
+   "info": [
+    8,
+    8,
+    16
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n20k8h4q43 m=2",
+   "ok": true,
+   "info": [
+    8,
+    16,
+    16
+   ]
+  },
+  {
+   "name": "CS clique exact-k n20k8h4q43 m=3",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n20k8h4q43 m=3",
+   "ok": true,
+   "info": [
+    12,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n20k8h4q43 m=3",
+   "ok": true,
+   "info": [
+    12,
+    16,
+    16
+   ]
+  },
+  {
+   "name": "CS clique exact-k n20k8h4q43 m=4",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n20k8h4q43 m=4",
+   "ok": true,
+   "info": [
+    16,
+    16,
+    16
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n20k8h4q43 m=4",
+   "ok": true,
+   "info": [
+    16,
+    16,
+    16
+   ]
+  },
+  {
+   "name": "CS clique exact-k n18k8h3q37 m=2",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n18k8h3q37 m=2",
+   "ok": true,
+   "info": [
+    6,
+    6,
+    12
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n18k8h3q37 m=2",
+   "ok": true,
+   "info": [
+    6,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "CS clique exact-k n18k8h3q37 m=3",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n18k8h3q37 m=3",
+   "ok": true,
+   "info": [
+    9,
+    9,
+    12
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n18k8h3q37 m=3",
+   "ok": true,
+   "info": [
+    9,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "CS clique exact-k n18k8h3q37 m=4",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n18k8h3q37 m=4",
+   "ok": true,
+   "info": [
+    12,
+    12,
+    12
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n18k8h3q37 m=4",
+   "ok": true,
+   "info": [
+    12,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "CS clique exact-k n24k12h3q53 m=2",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n24k12h3q53 m=2",
+   "ok": true,
+   "info": [
+    6,
+    6,
+    12
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n24k12h3q53 m=2",
+   "ok": true,
+   "info": [
+    6,
+    12,
+    18
+   ]
+  },
+  {
+   "name": "CS clique exact-k n24k12h3q53 m=3",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n24k12h3q53 m=3",
+   "ok": true,
+   "info": [
+    9,
+    9,
+    12
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n24k12h3q53 m=3",
+   "ok": true,
+   "info": [
+    9,
+    12,
+    18
+   ]
+  },
+  {
+   "name": "CS clique exact-k n24k12h3q53 m=4",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n24k12h3q53 m=4",
+   "ok": true,
+   "info": [
+    12,
+    12,
+    12
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n24k12h3q53 m=4",
+   "ok": true,
+   "info": [
+    12,
+    12,
+    18
+   ]
+  },
+  {
+   "name": "CS clique exact-k n24k12h3q53 m=5",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n24k12h3q53 m=5",
+   "ok": true,
+   "info": [
+    12,
+    15,
+    12
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n24k12h3q53 m=5",
+   "ok": true,
+   "info": [
+    12,
+    12,
+    18
+   ]
+  },
+  {
+   "name": "CS clique exact-k n24k12h3q53 m=6",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n24k12h3q53 m=6",
+   "ok": true,
+   "info": [
+    12,
+    18,
+    12
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n24k12h3q53 m=6",
+   "ok": true,
+   "info": [
+    12,
+    12,
+    18
+   ]
+  },
+  {
+   "name": "CS clique exact-k n16k5h4q47 m=2",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n16k5h4q47 m=2",
+   "ok": true,
+   "info": [
+    8,
+    8,
+    16
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n16k5h4q47 m=2",
+   "ok": true,
+   "info": [
+    8,
+    16,
+    13
+   ]
+  },
+  {
+   "name": "CS clique exact-k n16k5h4q47 m=3",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "P1 rank=min(mh,4h) n16k5h4q47 m=3",
+   "ok": true,
+   "info": [
+    12,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "P4 locality rank<=2(u-k) n16k5h4q47 m=3",
+   "ok": true,
+   "info": [
+    12,
+    16,
+    13
+   ]
+  }
+ ],
+ "fail": 0,
+ "pass": 60,
+ "data": {
+  "cosunflower": {
+   "n16k6h3q61": {
+    "n": 16,
+    "k": 6,
+    "h": 3,
+    "A": 9,
+    "U": 12,
+    "mmax": 4,
+    "ranks": {
+     "2": {
+      "rank": 6,
+      "Vh": 6,
+      "cap": 12
+     },
+     "3": {
+      "rank": 9,
+      "Vh": 9,
+      "cap": 12
+     },
+     "4": {
+      "rank": 12,
+      "Vh": 12,
+      "cap": 12
+     }
+    },
+    "admissible": {
+     "2": {
+      "good": 8,
+      "tries": 12,
+      "overagree": 4
+     },
+     "3": {
+      "good": 7,
+      "tries": 12,
+      "overagree": 5
+     },
+     "4": {
+      "good": 0,
+      "tries": 12,
+      "overagree": 48
+     }
+    },
+    "solspace": {
+     "2": {
+      "dim": 26,
+      "degen": 20
+     },
+     "3": {
+      "dim": 23,
+      "degen": 20
+     },
+     "4": {
+      "dim": 20,
+      "degen": 20
+     }
+    }
+   },
+   "n20k9h3q41": {
+    "n": 20,
+    "k": 9,
+    "h": 3,
+    "A": 12,
+    "U": 15,
+    "mmax": 5,
+    "ranks": {
+     "2": {
+      "rank": 6,
+      "Vh": 6,
+      "cap": 12
+     },
+     "3": {
+      "rank": 9,
+      "Vh": 9,
+      "cap": 12
+     },
+     "4": {
+      "rank": 12,
+      "Vh": 12,
+      "cap": 12
+     },
+     "5": {
+      "rank": 12,
+      "Vh": 15,
+      "cap": 12
+     }
+    },
+    "admissible": {
+     "2": {
+      "good": 9,
+      "tries": 12,
+      "overagree": 3
+     },
+     "3": {
+      "good": 6,
+      "tries": 12,
+      "overagree": 6
+     },
+     "4": {
+      "good": 0,
+      "tries": 12,
+      "overagree": 48
+     },
+     "5": {
+      "good": 0,
+      "tries": 12,
+      "overagree": 60
+     }
+    },
+    "solspace": {
+     "2": {
+      "dim": 34,
+      "degen": 28
+     },
+     "3": {
+      "dim": 31,
+      "degen": 28
+     },
+     "4": {
+      "dim": 28,
+      "degen": 28
+     },
+     "5": {
+      "dim": 28,
+      "degen": 28
+     }
+    }
+   },
+   "n20k8h4q43": {
+    "n": 20,
+    "k": 8,
+    "h": 4,
+    "A": 12,
+    "U": 16,
+    "mmax": 4,
+    "ranks": {
+     "2": {
+      "rank": 8,
+      "Vh": 8,
+      "cap": 16
+     },
+     "3": {
+      "rank": 12,
+      "Vh": 12,
+      "cap": 16
+     },
+     "4": {
+      "rank": 16,
+      "Vh": 16,
+      "cap": 16
+     }
+    },
+    "admissible": {
+     "2": {
+      "good": 9,
+      "tries": 12,
+      "overagree": 3
+     },
+     "3": {
+      "good": 7,
+      "tries": 12,
+      "overagree": 5
+     },
+     "4": {
+      "good": 0,
+      "tries": 12,
+      "overagree": 48
+     }
+    },
+    "solspace": {
+     "2": {
+      "dim": 32,
+      "degen": 24
+     },
+     "3": {
+      "dim": 28,
+      "degen": 24
+     },
+     "4": {
+      "dim": 24,
+      "degen": 24
+     }
+    }
+   },
+   "n18k8h3q37": {
+    "n": 18,
+    "k": 8,
+    "h": 3,
+    "A": 11,
+    "U": 14,
+    "mmax": 4,
+    "ranks": {
+     "2": {
+      "rank": 6,
+      "Vh": 6,
+      "cap": 12
+     },
+     "3": {
+      "rank": 9,
+      "Vh": 9,
+      "cap": 12
+     },
+     "4": {
+      "rank": 12,
+      "Vh": 12,
+      "cap": 12
+     }
+    },
+    "admissible": {
+     "2": {
+      "good": 9,
+      "tries": 12,
+      "overagree": 3
+     },
+     "3": {
+      "good": 8,
+      "tries": 12,
+      "overagree": 6
+     },
+     "4": {
+      "good": 0,
+      "tries": 12,
+      "overagree": 48
+     }
+    },
+    "solspace": {
+     "2": {
+      "dim": 30,
+      "degen": 24
+     },
+     "3": {
+      "dim": 27,
+      "degen": 24
+     },
+     "4": {
+      "dim": 24,
+      "degen": 24
+     }
+    }
+   },
+   "n24k12h3q53": {
+    "n": 24,
+    "k": 12,
+    "h": 3,
+    "A": 15,
+    "U": 18,
+    "mmax": 6,
+    "ranks": {
+     "2": {
+      "rank": 6,
+      "Vh": 6,
+      "cap": 12
+     },
+     "3": {
+      "rank": 9,
+      "Vh": 9,
+      "cap": 12
+     },
+     "4": {
+      "rank": 12,
+      "Vh": 12,
+      "cap": 12
+     },
+     "5": {
+      "rank": 12,
+      "Vh": 15,
+      "cap": 12
+     },
+     "6": {
+      "rank": 12,
+      "Vh": 18,
+      "cap": 12
+     }
+    },
+    "admissible": {
+     "2": {
+      "good": 10,
+      "tries": 12,
+      "overagree": 2
+     },
+     "3": {
+      "good": 6,
+      "tries": 12,
+      "overagree": 6
+     },
+     "4": {
+      "good": 0,
+      "tries": 12,
+      "overagree": 48
+     },
+     "5": {
+      "good": 0,
+      "tries": 12,
+      "overagree": 60
+     },
+     "6": {
+      "good": 0,
+      "tries": 12,
+      "overagree": 72
+     }
+    },
+    "solspace": {
+     "2": {
+      "dim": 42,
+      "degen": 36
+     },
+     "3": {
+      "dim": 39,
+      "degen": 36
+     },
+     "4": {
+      "dim": 36,
+      "degen": 36
+     },
+     "5": {
+      "dim": 36,
+      "degen": 36
+     },
+     "6": {
+      "dim": 36,
+      "degen": 36
+     }
+    }
+   },
+   "n16k5h4q47": {
+    "n": 16,
+    "k": 5,
+    "h": 4,
+    "A": 9,
+    "U": 13,
+    "mmax": 3,
+    "ranks": {
+     "2": {
+      "rank": 8,
+      "Vh": 8,
+      "cap": 16
+     },
+     "3": {
+      "rank": 12,
+      "Vh": 12,
+      "cap": 16
+     }
+    },
+    "admissible": {
+     "2": {
+      "good": 9,
+      "tries": 12,
+      "overagree": 3
+     },
+     "3": {
+      "good": 6,
+      "tries": 12,
+      "overagree": 6
+     }
+    },
+    "solspace": {
+     "2": {
+      "dim": 24,
+      "degen": 16
+     },
+     "3": {
+      "dim": 20,
+      "degen": 16
+     }
+    }
+   }
+  }
+ }
+}

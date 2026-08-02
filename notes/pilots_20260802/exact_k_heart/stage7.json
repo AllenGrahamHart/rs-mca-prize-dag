@@ -1,0 +1,247 @@
+{
+ "checks": [
+  {
+   "name": "G2 ceiling+1 dead n24k6h3",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "G1 best <= ceiling n24k6h3",
+   "ok": true,
+   "info": [
+    11,
+    11
+   ]
+  },
+  {
+   "name": "G2 ceiling+1 dead n32k8h3",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "G1 best <= ceiling n32k8h3",
+   "ok": true,
+   "info": [
+    15,
+    15
+   ]
+  },
+  {
+   "name": "G2 ceiling+1 dead n40k10h3",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "G1 best <= ceiling n40k10h3",
+   "ok": true,
+   "info": [
+    19,
+    19
+   ]
+  },
+  {
+   "name": "G2 ceiling+1 dead n48k12h3",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "G1 best <= ceiling n48k12h3",
+   "ok": true,
+   "info": [
+    23,
+    23
+   ]
+  },
+  {
+   "name": "G2 ceiling+1 dead n56k14h3",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "G1 best <= ceiling n56k14h3",
+   "ok": true,
+   "info": [
+    27,
+    27
+   ]
+  },
+  {
+   "name": "G2 ceiling+1 dead n64k16h3",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "G1 best <= ceiling n64k16h3",
+   "ok": true,
+   "info": [
+    31,
+    31
+   ]
+  },
+  {
+   "name": "G2 ceiling+1 dead n72k18h3",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "G1 best <= ceiling n72k18h3",
+   "ok": true,
+   "info": [
+    35,
+    35
+   ]
+  },
+  {
+   "name": "G2 ceiling+1 dead n80k20h3",
+   "ok": true,
+   "info": 0
+  },
+  {
+   "name": "G1 best <= ceiling n80k20h3",
+   "ok": true,
+   "info": [
+    39,
+    39
+   ]
+  }
+ ],
+ "fail": 0,
+ "pass": 16,
+ "data": {
+  "g1": [
+   {
+    "tag": "n24k6h3",
+    "n": 24,
+    "k": 6,
+    "h": 3,
+    "R": 18,
+    "ceil": 11,
+    "best": 11,
+    "over_admissible": 0,
+    "graph": {
+     "V": 11,
+     "M0": 25,
+     "N0": 2,
+     "G0": 11
+    }
+   },
+   {
+    "tag": "n32k8h3",
+    "n": 32,
+    "k": 8,
+    "h": 3,
+    "R": 24,
+    "ceil": 15,
+    "best": 15,
+    "over_admissible": 0,
+    "graph": {
+     "V": 15,
+     "M0": 49,
+     "N0": 2,
+     "G0": 15
+    }
+   },
+   {
+    "tag": "n40k10h3",
+    "n": 40,
+    "k": 10,
+    "h": 3,
+    "R": 30,
+    "ceil": 19,
+    "best": 19,
+    "over_admissible": 0,
+    "graph": {
+     "V": 19,
+     "M0": 81,
+     "N0": 2,
+     "G0": 19
+    }
+   },
+   {
+    "tag": "n48k12h3",
+    "n": 48,
+    "k": 12,
+    "h": 3,
+    "R": 36,
+    "ceil": 23,
+    "best": 23,
+    "over_admissible": 0,
+    "graph": {
+     "V": 23,
+     "M0": 121,
+     "N0": 2,
+     "G0": 23
+    }
+   },
+   {
+    "tag": "n56k14h3",
+    "n": 56,
+    "k": 14,
+    "h": 3,
+    "R": 42,
+    "ceil": 27,
+    "best": 27,
+    "over_admissible": 0,
+    "graph": {
+     "V": 27,
+     "M0": 169,
+     "N0": 2,
+     "G0": 27
+    }
+   },
+   {
+    "tag": "n64k16h3",
+    "n": 64,
+    "k": 16,
+    "h": 3,
+    "R": 48,
+    "ceil": 31,
+    "best": 31,
+    "over_admissible": 0,
+    "graph": {
+     "V": 31,
+     "M0": 225,
+     "N0": 2,
+     "G0": 31
+    }
+   },
+   {
+    "tag": "n72k18h3",
+    "n": 72,
+    "k": 18,
+    "h": 3,
+    "R": 54,
+    "ceil": 35,
+    "best": 35,
+    "over_admissible": 0,
+    "graph": {
+     "V": 35,
+     "M0": 289,
+     "N0": 2,
+     "G0": 35
+    }
+   },
+   {
+    "tag": "n80k20h3",
+    "n": 80,
+    "k": 20,
+    "h": 3,
+    "R": 60,
+    "ceil": 39,
+    "best": 39,
+    "over_admissible": 0,
+    "graph": {
+     "V": 39,
+     "M0": 361,
+     "N0": 2,
+     "G0": 39
+    }
+   }
+  ],
+  "fit": {
+   "slope": 0.5,
+   "intercept": -1.0,
+   "predicted_slope": 0.5
+  }
+ }
+}

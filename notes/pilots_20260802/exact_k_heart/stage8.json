@@ -1,0 +1,476 @@
+{
+ "checks": [
+  {
+   "name": "A1 sunflower cap == (n-k)/h  RowC 1/4",
+   "ok": true,
+   "info": [
+    153,
+    153
+   ]
+  },
+  {
+   "name": "A1 ceiling = 2x sunflower (+-1) RowC 1/4",
+   "ok": true,
+   "info": [
+    307,
+    153
+   ]
+  },
+  {
+   "name": "A2 ceiling << 8n^3 RowC 1/4",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "A3 extremal moment << 4n^3 RowC 1/4",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "A4 h is odd (no power-of-two g=h) RowC 1/4",
+   "ok": true,
+   "info": 5
+  },
+  {
+   "name": "A1 sunflower cap == (n-k)/h  RowC 1/8",
+   "ok": true,
+   "info": [
+    179,
+    179
+   ]
+  },
+  {
+   "name": "A1 ceiling = 2x sunflower (+-1) RowC 1/8",
+   "ok": true,
+   "info": [
+    358,
+    179
+   ]
+  },
+  {
+   "name": "A2 ceiling << 8n^3 RowC 1/8",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "A3 extremal moment << 4n^3 RowC 1/8",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "A4 h is odd (no power-of-two g=h) RowC 1/8",
+   "ok": true,
+   "info": 5
+  },
+  {
+   "name": "A1 sunflower cap == (n-k)/h  RowC 1/16",
+   "ok": true,
+   "info": [
+    320,
+    320
+   ]
+  },
+  {
+   "name": "A1 ceiling = 2x sunflower (+-1) RowC 1/16",
+   "ok": true,
+   "info": [
+    639,
+    320
+   ]
+  },
+  {
+   "name": "A2 ceiling << 8n^3 RowC 1/16",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "A3 extremal moment << 4n^3 RowC 1/16",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "A4 h is odd (no power-of-two g=h) RowC 1/16",
+   "ok": true,
+   "info": 3
+  },
+  {
+   "name": "A1 sunflower cap == (n-k)/h  prize 1/4",
+   "ok": true,
+   "info": [
+    191,
+    191
+   ]
+  },
+  {
+   "name": "A1 ceiling = 2x sunflower (+-1) prize 1/4",
+   "ok": true,
+   "info": [
+    383,
+    191
+   ]
+  },
+  {
+   "name": "A2 ceiling << 8n^3 prize 1/4",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "A3 extremal moment << 4n^3 prize 1/4",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "A4 h is odd (no power-of-two g=h) prize 1/4",
+   "ok": true,
+   "info": 8589934593
+  },
+  {
+   "name": "A1 sunflower cap == (n-k)/h  prize 1/8",
+   "ok": true,
+   "info": [
+    223,
+    223
+   ]
+  },
+  {
+   "name": "A1 ceiling = 2x sunflower (+-1) prize 1/8",
+   "ok": true,
+   "info": [
+    447,
+    223
+   ]
+  },
+  {
+   "name": "A2 ceiling << 8n^3 prize 1/8",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "A3 extremal moment << 4n^3 prize 1/8",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "A4 h is odd (no power-of-two g=h) prize 1/8",
+   "ok": true,
+   "info": 8589934593
+  },
+  {
+   "name": "A1 sunflower cap == (n-k)/h  prize 1/16",
+   "ok": true,
+   "info": [
+    479,
+    479
+   ]
+  },
+  {
+   "name": "A1 ceiling = 2x sunflower (+-1) prize 1/16",
+   "ok": true,
+   "info": [
+    959,
+    479
+   ]
+  },
+  {
+   "name": "A2 ceiling << 8n^3 prize 1/16",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "A3 extremal moment << 4n^3 prize 1/16",
+   "ok": true,
+   "info": null
+  },
+  {
+   "name": "A4 h is odd (no power-of-two g=h) prize 1/16",
+   "ok": true,
+   "info": 4294967297
+  }
+ ],
+ "fail": 0,
+ "pass": 30,
+ "rows": [
+  {
+   "name": "RowC 1/4",
+   "n": 1024,
+   "k": 256,
+   "A": 261,
+   "h": 5,
+   "R": 768,
+   "sunflower_cap": 153,
+   "ceiling": 307,
+   "lg_8n3": 33.0,
+   "lg_margin": 24.73790515462982,
+   "extremal_M0": 23409,
+   "lg_M0": 14.514775685385304,
+   "lg_4n3": 32.0,
+   "lg_noise_at_q2p250": -166.5478819177373,
+   "A_over_n": 0.2548828125,
+   "h_over_A": 0.019157088122605363,
+   "k_over_A": 0.9808429118773946
+  },
+  {
+   "name": "RowC 1/8",
+   "n": 1024,
+   "k": 128,
+   "A": 133,
+   "h": 5,
+   "R": 896,
+   "sunflower_cap": 179,
+   "ceiling": 358,
+   "lg_8n3": 33.0,
+   "lg_margin": 24.516184222735745,
+   "extremal_M0": 31862,
+   "lg_M0": 14.959549208230655,
+   "lg_4n3": 32.0,
+   "lg_noise_at_q2p250": -434.266440258868,
+   "A_over_n": 0.1298828125,
+   "h_over_A": 0.03759398496240601,
+   "k_over_A": 0.9624060150375939
+  },
+  {
+   "name": "RowC 1/16",
+   "n": 1024,
+   "k": 64,
+   "A": 67,
+   "h": 3,
+   "R": 960,
+   "sunflower_cap": 320,
+   "ceiling": 639,
+   "lg_8n3": 33.0,
+   "lg_margin": 23.680327879053003,
+   "extremal_M0": 101761,
+   "lg_M0": 16.63482522752974,
+   "lg_4n3": 32.0,
+   "lg_noise_at_q2p250": -147.31274314420108,
+   "A_over_n": 0.0654296875,
+   "h_over_A": 0.04477611940298507,
+   "k_over_A": 0.9552238805970149
+  },
+  {
+   "name": "prize 1/4",
+   "n": 2199023255552,
+   "k": 549755813888,
+   "A": 558345748481,
+   "h": 8589934593,
+   "R": 1649267441664,
+   "sunflower_cap": 191,
+   "ceiling": 383,
+   "lg_8n3": 126.0,
+   "lg_margin": 117.41879941807504,
+   "extremal_M0": 36481,
+   "lg_M0": 15.154857656071497,
+   "lg_4n3": 125.0,
+   "lg_noise_at_q2p250": -349978107387.49585,
+   "A_over_n": 0.25390625000045475,
+   "h_over_A": 0.015384615386378836,
+   "k_over_A": 0.9846153846136212
+  },
+  {
+   "name": "prize 1/8",
+   "n": 2199023255552,
+   "k": 274877906944,
+   "A": 283467841537,
+   "h": 8589934593,
+   "R": 1924145348608,
+   "sunflower_cap": 223,
+   "ceiling": 447,
+   "lg_8n3": 126.0,
+   "lg_margin": 117.19586897881668,
+   "extremal_M0": 49729,
+   "lg_M0": 15.60179979984061,
+   "lg_4n3": 125.0,
+   "lg_noise_at_q2p250": -928277153962.1394,
+   "A_over_n": 0.12890625000045475,
+   "h_over_A": 0.03030303030645114,
+   "k_over_A": 0.9696969696935489
+  },
+  {
+   "name": "prize 1/16",
+   "n": 2199023255552,
+   "k": 137438953472,
+   "A": 141733920769,
+   "h": 4294967297,
+   "R": 2061584302080,
+   "sunflower_cap": 479,
+   "ceiling": 959,
+   "lg_8n3": 126.0,
+   "lg_margin": 116.09461299498187,
+   "extremal_M0": 229441,
+   "lg_M0": 17.80776369147236,
+   "lg_4n3": 125.0,
+   "lg_noise_at_q2p250": -315355439893.5725,
+   "A_over_n": 0.06445312500045475,
+   "h_over_A": 0.030303030309871973,
+   "k_over_A": 0.969696969690128
+  }
+ ],
+ "data": {
+  "a5": [
+   {
+    "n": 16,
+    "k": 6,
+    "h": 3,
+    "q": 61,
+    "A": 9,
+    "lgE": 1.643783729363971
+   },
+   {
+    "n": 18,
+    "k": 6,
+    "h": 3,
+    "q": 43,
+    "A": 9,
+    "lgE": 4.7498996274471
+   },
+   {
+    "n": 20,
+    "k": 6,
+    "h": 3,
+    "q": 53,
+    "A": 9,
+    "lgE": 5.928884306196252
+   },
+   {
+    "n": 20,
+    "k": 6,
+    "h": 3,
+    "q": 1201,
+    "A": 9,
+    "lgE": -3.101081958683338
+   },
+   {
+    "n": 16,
+    "k": 6,
+    "h": 3,
+    "q": 601,
+    "A": 9,
+    "lgE": -4.978244433708099
+   },
+   {
+    "n": 48,
+    "k": 12,
+    "h": 3,
+    "q": 3001,
+    "A": 15,
+    "lgE": 16.889799238924674
+   },
+   {
+    "n": 64,
+    "k": 16,
+    "h": 3,
+    "q": 4001,
+    "A": 19,
+    "lgE": 29.021300106329747
+   },
+   {
+    "n": 20,
+    "k": 9,
+    "h": 3,
+    "q": 41,
+    "A": 12,
+    "lgE": 6.2623820773680485
+   }
+  ],
+  "a4": [
+   {
+    "n": 16,
+    "k": 8,
+    "h": 3,
+    "A": 11,
+    "orbits": [
+     {
+      "M": 2,
+      "divides_A": false,
+      "h_pow2": false
+     },
+     {
+      "M": 4,
+      "divides_A": false,
+      "h_pow2": false
+     },
+     {
+      "M": 8,
+      "divides_A": false,
+      "h_pow2": false
+     }
+    ]
+   },
+   {
+    "n": 16,
+    "k": 8,
+    "h": 4,
+    "A": 12,
+    "orbits": [
+     {
+      "M": 2,
+      "divides_A": true,
+      "h_pow2": true
+     },
+     {
+      "M": 4,
+      "divides_A": true,
+      "h_pow2": true
+     },
+     {
+      "M": 8,
+      "divides_A": false,
+      "h_pow2": true
+     }
+    ]
+   },
+   {
+    "n": 12,
+    "k": 6,
+    "h": 3,
+    "A": 9,
+    "orbits": [
+     {
+      "M": 2,
+      "divides_A": false,
+      "h_pow2": false
+     }
+    ]
+   },
+   {
+    "n": 12,
+    "k": 6,
+    "h": 2,
+    "A": 8,
+    "orbits": [
+     {
+      "M": 2,
+      "divides_A": true,
+      "h_pow2": true
+     }
+    ]
+   },
+   {
+    "n": 20,
+    "k": 10,
+    "h": 5,
+    "A": 15,
+    "orbits": [
+     {
+      "M": 2,
+      "divides_A": false,
+      "h_pow2": false
+     }
+    ]
+   },
+   {
+    "n": 20,
+    "k": 10,
+    "h": 4,
+    "A": 14,
+    "orbits": [
+     {
+      "M": 2,
+      "divides_A": true,
+      "h_pow2": true
+     }
+    ]
+   }
+  ]
+ }
+}
