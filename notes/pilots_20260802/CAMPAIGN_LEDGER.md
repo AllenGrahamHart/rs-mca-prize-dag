@@ -114,8 +114,17 @@ In flight: `f2_parity_boundary`, `c1_imprimitivity`.
   no node before both. Mutation battery: adjacent-pair, arc-w,
   few-value, coset-trivial added.
   (`f2_parity_boundary/{REPORT,FABLE_AUDIT}.md`.)
-- **Imprimitivity conjecture (C1)** — pilot in flight
-  (`c1_imprimitivity`); implies the stable-range doubling law.
+- **Imprimitivity conjecture (C1) — REFUTED, retired** (pilot banked):
+  exhaustive counterexample at 2N=64 w=11 (primitive argmax, ratio
+  1.0259, coordinator-replayed); break weights 3/7/10 at N=8/16/32,
+  not N/2. The minted sandwich node is untouched (all four PROVED
+  claims re-exercised); dated correction appended to its context
+  section. The lane keeps what it needs unconditionally (router
+  threshold, saturating family). Mint queue additions (small, proved):
+  Lemma C (odd-autocorrelation monotonicity), the rotation identity,
+  Norm == w (mod 2), imprimitive => square-norm certificate. Proof
+  necrology recorded (majorization dead with certificate, local moves
+  dead via the U-shaped two-branch value function).
 - **Crossing lane succinct contract** — coordinator's to draft (from
   the Brief-6 adversarial round); gates any crossing pilot.
 

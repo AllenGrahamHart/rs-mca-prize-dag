@@ -48,6 +48,19 @@ The repaired doubling law `maxnorm(N,w) = maxnorm(N/2,w)^2` for
 `w=8`: 14760962 vs 2176^2), and `c_6 = sqrt(1154)` shows the stable
 base need not be rational.
 
+**[2026-08-02 CORRECTION OF RECORD: the imprimitivity conjecture is
+REFUTED.]** Exhaustive at `2N = 64, w = 11 <= N/2 - 1`:
+`maxnorm = 34921634364102721 = 186873311^2 >
+184497889^2 = maxnorm(2N=32, 11)^2`, ratio 1.0259, argmax primitive
+(support {0,1,2,6,7,9,11,12,16,17,18}, mixed parity), coordinator-
+replayed by sympy resultant. Certified primitive beats also at
+`w = 12, 14, 15, 16` (lower bounds); the doubling law HOLDS
+exhaustively at `2N = 64` for `w <= 10` and at `2N = 128` for
+`w <= 6` (+ `w = 7` by this node's sandwich). Break weights are
+`3, 7, 10` at `N = 8, 16, 32` — NOT `N/2` in general. None of the
+four PROVED claims above is affected. See
+`notes/pilots_20260802/c1_imprimitivity/{REPORT,FABLE_AUDIT}.md`.
+
 ## Provenance
 
 Discovered and exhaustively instrumented by the 2026-08-02 C1
