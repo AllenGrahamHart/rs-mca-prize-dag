@@ -11524,3 +11524,84 @@ exceptional-`t` zeros.  The preferred next route-deciding computation is
 the generic colored `BE` restriction on all five fields, with exceptional
 guard-norm fibers kept as a separate ledger.  Do not spend a broad campaign
 computing all 30 norms unless the colored restriction survives generically.
+
+### 2026-08-02 cell-5 generic colored-gcd bounded campaign
+
+**Decision.**  On each of the five proved primitive residue fields
+
+```text
+E_j=F_2130706433(t)[s]/(phi_j),   deg phi_j in {4,4,4,8,4},
+```
+
+compute the exact gcd in `E_j[e]` of the DE+ signed-pair necessary
+polynomial and the compact colored `BE` necessary eliminant.  Then divide
+that gcd by its gcd with the target-collision guard `e^2-1`.  This is the
+route-deciding generic colored restriction requested in the preceding
+ledger entry.  The upstream interface is the exact second-moment / primitive
+shift-pair lane; exceptional `t` fibers and all other matching cells remain
+outside the campaign.
+
+**Completeness and parameters.**  The proved primitive factorization gives
+exactly five factors and the proved coordinate maps express `x1,x0,b` in
+each one.  The proved chart-2 atlas reconstructs `r,c`; the proved outside
+edge compiler supplies the DE+/BE necessary equations.  The launch covers
+factors `1,2,3,4,5` independently, with no sample-prime or sample-`t`
+substitution in the primary computation.
+
+**Source and command.**  Source commit is the current Codex worktree until
+banked.  Launcher:
+
+```text
+tools/ramguard modal -- modal run \
+  experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd_modal.py \
+  --factors 1,2,3,4,5 \
+  --output experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd_result.json
+```
+
+**Ceiling and partial-output contract.**  At most five parallel containers,
+one CPU and 8 GiB RAM per container, a 270-second Julia subprocess cap, and
+a 300-second Modal function cap.  Conservative total wall time is five
+minutes and conservative requested-resource cost is below `$1`.  Each shard
+returns `COMPLETE`, `TIMEOUT`, or `ERROR` with elapsed time, provenance
+hashes, program hash, and bounded stdout/stderr.  Completed factors remain
+usable if another shard times out; incomplete output is evidence only and
+changes no status.  The app is stopped after the bounded campaign.
+
+**Certificate.**  Every complete shard returns the exact pair and colored
+polynomials, their monic gcd, Bezout multipliers, the collision-guard part,
+and the quotient outside that guard as rational functions in `t` and `s`.
+The deterministic local checker
+`check_rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd.py`
+validates provenance and independently replays the Bezout, gcd, guard, and
+quotient identities on every irreducible finite subfactor at the regular
+fiber `t=2`.  A generic theorem still requires an independent exact audit;
+the regular-fiber replay alone is not used to promote a node.
+
+**Effects.**  PASS means every outside quotient is constant and authorizes
+an exact generic colored-incompatibility theorem after the independent audit.
+FAIL with a positive outside degree returns an exact surviving generic
+factor and redirects the attack to that component.  INCOMPLETE has no DAG
+effect.  Compact results are stored at the output path above; raw artifacts
+remain in Modal and are identified by the app ID and program hashes.
+
+The one-factor setup validation app `ap-pmWZTeSBvdQXSwTDiBctqD` stopped
+before Julia was launched because the remote Python image omitted SymPy,
+which regenerates the six pinned sparse-kernel expressions.  It produced no
+mathematical result.  The launcher now pins `sympy==1.14.0`; the Nemo image
+layer completed and is cached.
+
+The corrected bounded campaign completed in apps
+`ap-jcIuGHdW1WxLKephFQDv0O` (factor 1) and
+`ap-IKaYuOEIwen2OhFi6ccFhg` (factors 2--5); both apps stopped normally.
+Exact function times were respectively `24.33` seconds and
+`16.35,24.01,233.42,20.45` seconds.  The four quartic factors have monic
+gcd exactly `e^2-1`; the octic factor has gcd `1`.  Thus every quotient
+outside the collision guard has degree zero.  The compact five-factor packet
+has SHA-256
+`710b438062fc2e80f5c7b14ffb987d8f36a02d4b57953b30419bb320b88877a7`.
+
+The deterministic checker passes all five shards and every irreducible
+finite subfactor at `t=2`, including the returned Bezout identities.  This
+completes the bounded campaign but does not yet promote a theorem: an
+independent exact audit must reconstruct the DE+/BE polynomials and verify
+the generic identities before the result enters the DAG.
