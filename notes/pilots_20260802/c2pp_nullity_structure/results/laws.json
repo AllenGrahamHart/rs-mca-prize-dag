@@ -1,0 +1,732 @@
+{
+ "verdicts": [
+  {
+   "id": "L4",
+   "law": "common-latent cross-junction nullity is identically zero",
+   "status": "SURVIVES",
+   "evidence": "8 rows: sum_j rank_x(block j) = global rank = t in every case (the t Vandermonde rows split into blocks by v_2(r), and any t rows of a Vandermonde with distinct nodes are independent); violations = 0"
+  },
+  {
+   "id": "L11",
+   "law": "a cross-junction circuit (the trap geometry) is realizable in the DLI tower",
+   "status": "DIES",
+   "evidence": "no support of any junction has a rank defect (L1) and the block row spaces are independent (L4); a 33-junction system with local ranks summing above the global rank -- the four-wise / 32-wise trap -- therefore has no DLI realization at tower-junction granularity"
+  },
+  {
+   "id": "L5",
+   "law": "exact identity R = E_MF[q^delta]",
+   "status": "DIES",
+   "evidence": "fails at 18/18 rows (equality holds nowhere)"
+  },
+  {
+   "id": "L6",
+   "law": "dominating form R <= E_MF[q^delta]",
+   "status": "DIES",
+   "evidence": "exact counterexamples at [(32, 2, 193, 1.0075908082029974, 1.0051383972167969), (32, 4, 97, 2.5927716625248642, 1.547228217124939)]"
+  },
+  {
+   "id": "L7",
+   "law": "conditioned identity R = E_NULL[q^delta]",
+   "status": "DIES",
+   "evidence": "E_NULL overshoots R by up to 7.15e+16x (n=16,t=8,q=193: R=26.91, E_NULL=1.925e+18)"
+  },
+  {
+   "id": "L9",
+   "law": "the joint excess R is carried by the delta = 0 stratum",
+   "status": "SURVIVES",
+   "evidence": "n=32,t=2,q=97: 99.84% of the t-null mass and R_delta0=0.9963 of R=0.9979; n=32,t=2,q=193: 99.62% of the t-null mass and R_delta0=1.004 of R=1.008; n=32,t=2,q=8353: 55.56% of the t-null mass and R_delta0=1.332 of R=2.397; n=32,t=2,q=32801: 0.00% of the t-null mass and R_delta0=0 of R=3.766; n=32,t=3,q=97: 88.83% of the t-null mass and R_delta0=0.9229 of R=1.039; n=32,t=3,q=193: 56.25% of the t-null mass and R_delta0=0.6529 of R=1.161; n=32,t=4,q=97: 90.91% of the t-null mass and R_delta0=2.357 of R=2.593; n=32,t=4,q=193: 0.00% of the t-null mass and R_delta0=0 of R=2.556"
+  },
+  {
+   "id": "L10",
+   "law": "the nullity is seam-dependent: level-junctions vs support-element junctions",
+   "status": "SURVIVES (as a fence)",
+   "evidence": "level seam gives delta = (L_j-|S_j|)^+ (0 on every support-rich state); the dual element seam gives delta' = (|S_j|-L_j)^+, which at the official ratio |S_j| = 256 L_j equals 255 L_j, i.e. delta'_total = 255 t = 255*2^33 -- the two canonical latent expansions of the SAME junction differ by q^(255t). Gate 0 (PP2.0) must fix the expansion before 'E[q^delta] <= 2^21' has a meaning"
+  },
+  {
+   "id": "L12",
+   "law": "the support's difference multiset determines the junction ratio rho (the F2 lane's Delta-multiset analogue)",
+   "status": "DIES",
+   "evidence": "547 of 1064 difference-multiset classes carry more than one rho value at (n=32,t=2,q=97), supports of size 1..8; largest spread 97/4"
+  },
+  {
+   "id": "L13",
+   "law": "the junction residual is a NORM-DIVISIBILITY event: every skew solution has q | Norm_{Q(zeta_n)/Q}(sum eps_i zeta_n^i)",
+   "status": "SURVIVES",
+   "evidence": "(n=16,q=17): solutions=384 all norm-divisible, false-negatives=0, norm-divisible-but-not-solutions=2176; (n=16,q=97): solutions=64 all norm-divisible, false-negatives=0, norm-divisible-but-not-solutions=448; (n=16,q=113): solutions=64 all norm-divisible, false-negatives=0, norm-divisible-but-not-solutions=448"
+  }
+ ],
+ "detail": {
+  "L4": [
+   {
+    "n": 16,
+    "t": 2,
+    "q": 97,
+    "local_ranks": [
+     1,
+     1
+    ],
+    "sum_local": 2,
+    "global_rank": 2,
+    "delta_common_latent": 0
+   },
+   {
+    "n": 16,
+    "t": 4,
+    "q": 97,
+    "local_ranks": [
+     2,
+     1,
+     1
+    ],
+    "sum_local": 4,
+    "global_rank": 4,
+    "delta_common_latent": 0
+   },
+   {
+    "n": 16,
+    "t": 8,
+    "q": 193,
+    "local_ranks": [
+     4,
+     2,
+     1,
+     1
+    ],
+    "sum_local": 8,
+    "global_rank": 8,
+    "delta_common_latent": 0
+   },
+   {
+    "n": 32,
+    "t": 2,
+    "q": 97,
+    "local_ranks": [
+     1,
+     1
+    ],
+    "sum_local": 2,
+    "global_rank": 2,
+    "delta_common_latent": 0
+   },
+   {
+    "n": 32,
+    "t": 4,
+    "q": 97,
+    "local_ranks": [
+     2,
+     1,
+     1
+    ],
+    "sum_local": 4,
+    "global_rank": 4,
+    "delta_common_latent": 0
+   },
+   {
+    "n": 32,
+    "t": 8,
+    "q": 97,
+    "local_ranks": [
+     4,
+     2,
+     1,
+     1
+    ],
+    "sum_local": 8,
+    "global_rank": 8,
+    "delta_common_latent": 0
+   },
+   {
+    "n": 64,
+    "t": 8,
+    "q": 193,
+    "local_ranks": [
+     4,
+     2,
+     1,
+     1
+    ],
+    "sum_local": 8,
+    "global_rank": 8,
+    "delta_common_latent": 0
+   },
+   {
+    "n": 64,
+    "t": 16,
+    "q": 193,
+    "local_ranks": [
+     8,
+     4,
+     2,
+     1,
+     1
+    ],
+    "sum_local": 16,
+    "global_rank": 16,
+    "delta_common_latent": 0
+   }
+  ],
+  "L5_L9": [
+   {
+    "n": 16,
+    "t": 2,
+    "q": 97,
+    "R": "2048/1863",
+    "R_f": 1.099302200751476,
+    "E_MF": "467/128",
+    "E_MF_f": 3.6484375,
+    "E_NULL_f": 9409.0,
+    "R_over_E_MF": 0.301307669584987,
+    "delta0_share_of_R": 0.0,
+    "R_from_delta0": 0.0
+   },
+   {
+    "n": 16,
+    "t": 2,
+    "q": 193,
+    "R": "1024/567",
+    "R_f": 1.8059964726631392,
+    "E_MF": "691/64",
+    "E_MF_f": 10.796875,
+    "E_NULL_f": 37249.0,
+    "R_over_E_MF": 0.16727029558674517,
+    "delta0_share_of_R": 0.0,
+    "R_from_delta0": 0.0
+   },
+   {
+    "n": 16,
+    "t": 3,
+    "q": 97,
+    "R": "256/81",
+    "R_f": 3.1604938271604937,
+    "E_MF": "33443/128",
+    "E_MF_f": 261.2734375,
+    "E_NULL_f": 912673.0,
+    "R_over_E_MF": 0.012096498815194307,
+    "delta0_share_of_R": 0.0,
+    "R_from_delta0": 0.0
+   },
+   {
+    "n": 16,
+    "t": 4,
+    "q": 97,
+    "R": "1048576/99225",
+    "R_f": 10.567659360040313,
+    "E_MF": "2871791/512",
+    "E_MF_f": 5608.966796875,
+    "E_NULL_f": 88529281.0,
+    "R_over_E_MF": 0.0018840652374565697,
+    "delta0_share_of_R": 0.0,
+    "R_from_delta0": 0.0
+   },
+   {
+    "n": 16,
+    "t": 4,
+    "q": 193,
+    "R": "1048576/99225",
+    "R_f": 10.567659360040313,
+    "E_MF": "22053199/256",
+    "E_MF_f": 86145.30859375,
+    "E_NULL_f": 1387488001.0,
+    "R_over_E_MF": 0.0001226724882938897,
+    "delta0_share_of_R": 0.0,
+    "R_from_delta0": 0.0
+   },
+   {
+    "n": 16,
+    "t": 5,
+    "q": 97,
+    "R": "1048576/99225",
+    "R_f": 10.567659360040313,
+    "E_MF": "278521679/512",
+    "E_MF_f": 543987.654296875,
+    "E_NULL_f": 8587340257.0,
+    "R_over_E_MF": 1.9426285277924954e-05,
+    "delta0_share_of_R": 0.0,
+    "R_from_delta0": 0.0
+   },
+   {
+    "n": 16,
+    "t": 6,
+    "q": 97,
+    "R": "1048576/99225",
+    "R_f": 10.567659360040313,
+    "E_MF": "26882930123/512",
+    "E_MF_f": 52505722.896484375,
+    "E_NULL_f": 832972004929.0,
+    "R_over_E_MF": 2.0126681011276756e-07,
+    "delta0_share_of_R": 0.0,
+    "R_from_delta0": 0.0
+   },
+   {
+    "n": 16,
+    "t": 7,
+    "q": 97,
+    "R": "1048576/99225",
+    "R_f": 10.567659360040313,
+    "E_MF": "2607644190635/512",
+    "E_MF_f": 5093055059.833984,
+    "E_NULL_f": 80798284478113.0,
+    "R_over_E_MF": 2.0749155930752455e-09,
+    "delta0_share_of_R": 0.0,
+    "R_from_delta0": 0.0
+   },
+   {
+    "n": 16,
+    "t": 8,
+    "q": 97,
+    "R": "17179869184/638512875",
+    "R_f": 26.90606541645695,
+    "E_MF": "247610141815609/1024",
+    "E_MF_f": 241806779116.80566,
+    "E_NULL_f": 7837433594376961.0,
+    "R_over_E_MF": 1.1127093092563743e-10,
+    "delta0_share_of_R": 0.0,
+    "R_from_delta0": 0.0
+   },
+   {
+    "n": 16,
+    "t": 8,
+    "q": 193,
+    "R": "17179869184/638512875",
+    "R_f": 26.90606541645695,
+    "E_MF": "30240885224149913/512",
+    "E_MF_f": 59064228953417.8,
+    "E_NULL_f": 1.925122952918976e+18,
+    "R_over_E_MF": 4.555390952056103e-13,
+    "delta0_share_of_R": 0.0,
+    "R_from_delta0": 0.0
+   },
+   {
+    "n": 32,
+    "t": 2,
+    "q": 97,
+    "R": "1911528882176/1915514018217",
+    "R_f": 0.997919547441,
+    "E_MF": "525347/524288",
+    "E_MF_f": 1.0020198822021484,
+    "E_NULL_f": 6.385760426906334,
+    "R_over_E_MF": 0.9959079307367263,
+    "delta0_share_of_R": 0.9983850582783317,
+    "R_from_delta0": 0.9963079655289692
+   },
+   {
+    "n": 32,
+    "t": 2,
+    "q": 193,
+    "R": "122171686912/121251291613",
+    "R_f": 1.0075908082029974,
+    "E_MF": "263491/262144",
+    "E_MF_f": 1.0051383972167969,
+    "E_NULL_f": 83.15764899752816,
+    "R_over_E_MF": 1.0024398739447138,
+    "delta0_share_of_R": 0.9961549024993134,
+    "R_from_delta0": 1.0037165233046612
+   },
+   {
+    "n": 32,
+    "t": 2,
+    "q": 8353,
+    "R": "100663296/42000625",
+    "R_f": 2.3967094775375366,
+    "E_MF": "2771237/524288",
+    "E_MF_f": 5.285715103149414,
+    "E_NULL_f": 31010049.0,
+    "R_over_E_MF": 0.4534314526542479,
+    "delta0_share_of_R": 0.5555555555555556,
+    "R_from_delta0": 1.3315052652986314
+   },
+   {
+    "n": 32,
+    "t": 2,
+    "q": 32801,
+    "R": "33554432/8910945",
+    "R_f": 3.7655301429870796,
+    "E_MF": "34407713/524288",
+    "E_MF_f": 65.62750434875488,
+    "E_NULL_f": 1075905601.0,
+    "R_over_E_MF": 0.05737731733598248,
+    "delta0_share_of_R": 0.0,
+    "R_from_delta0": 0.0
+   },
+   {
+    "n": 32,
+    "t": 3,
+    "q": 97,
+    "R": "27648851968/26614186425",
+    "R_f": 1.038876467102075,
+    "E_MF": "640067/524288",
+    "E_MF_f": 1.2208309173583984,
+    "E_NULL_f": 36129.6213592233,
+    "R_over_E_MF": 0.8509585171302576,
+    "delta0_share_of_R": 0.8883495145631068,
+    "R_from_delta0": 0.9228854052411636
+   },
+   {
+    "n": 32,
+    "t": 3,
+    "q": 193,
+    "R": "268435456/231278849",
+    "R_f": 1.1606571770858303,
+    "E_MF": "535171/262144",
+    "E_MF_f": 2.041515350341797,
+    "E_NULL_f": 1804249.0,
+    "R_over_E_MF": 0.5685272838587814,
+    "delta0_share_of_R": 0.5625,
+    "R_from_delta0": 0.6528696621107796
+   },
+   {
+    "n": 32,
+    "t": 4,
+    "q": 97,
+    "R": "198158383604301824/76427240573639025",
+    "R_f": 2.5927716625248642,
+    "E_MF": "12979091/8388608",
+    "E_MF_f": 1.547228217124939,
+    "E_NULL_f": 8048117.363636363,
+    "R_over_E_MF": 1.675752570841007,
+    "delta0_share_of_R": 0.9090909090909091,
+    "R_from_delta0": 2.3570651477498767
+   },
+   {
+    "n": 32,
+    "t": 4,
+    "q": 193,
+    "R": "1125899906842624/440469874083953",
+    "R_f": 2.5561337405518656,
+    "E_MF": "30129907/4194304",
+    "E_MF_f": 7.183529615402222,
+    "E_NULL_f": 1387488001.0,
+    "R_over_E_MF": 0.3558325610673691,
+    "delta0_share_of_R": 0.0,
+    "R_from_delta0": 0.0
+   }
+  ],
+  "L10": {
+   "small": [
+    {
+     "n": 32,
+     "t": 2,
+     "q": 97,
+     "j": 0,
+     "L_j": 1,
+     "cells": 16,
+     "delta_level_seam_max": 1,
+     "delta_element_seam_full_support": 15
+    },
+    {
+     "n": 32,
+     "t": 2,
+     "q": 97,
+     "j": 1,
+     "L_j": 1,
+     "cells": 8,
+     "delta_level_seam_max": 1,
+     "delta_element_seam_full_support": 7
+    },
+    {
+     "n": 32,
+     "t": 4,
+     "q": 97,
+     "j": 0,
+     "L_j": 2,
+     "cells": 16,
+     "delta_level_seam_max": 2,
+     "delta_element_seam_full_support": 14
+    },
+    {
+     "n": 32,
+     "t": 4,
+     "q": 97,
+     "j": 1,
+     "L_j": 1,
+     "cells": 8,
+     "delta_level_seam_max": 1,
+     "delta_element_seam_full_support": 7
+    },
+    {
+     "n": 32,
+     "t": 4,
+     "q": 97,
+     "j": 2,
+     "L_j": 1,
+     "cells": 4,
+     "delta_level_seam_max": 1,
+     "delta_element_seam_full_support": 3
+    },
+    {
+     "n": 64,
+     "t": 8,
+     "q": 193,
+     "j": 0,
+     "L_j": 4,
+     "cells": 32,
+     "delta_level_seam_max": 4,
+     "delta_element_seam_full_support": 28
+    },
+    {
+     "n": 64,
+     "t": 8,
+     "q": 193,
+     "j": 1,
+     "L_j": 2,
+     "cells": 16,
+     "delta_level_seam_max": 2,
+     "delta_element_seam_full_support": 14
+    },
+    {
+     "n": 64,
+     "t": 8,
+     "q": 193,
+     "j": 2,
+     "L_j": 1,
+     "cells": 8,
+     "delta_level_seam_max": 1,
+     "delta_element_seam_full_support": 7
+    },
+    {
+     "n": 64,
+     "t": 8,
+     "q": 193,
+     "j": 3,
+     "L_j": 1,
+     "cells": 4,
+     "delta_level_seam_max": 1,
+     "delta_element_seam_full_support": 3
+    }
+   ],
+   "official": [
+    {
+     "j": 0,
+     "L_j": 4294967296,
+     "cells": 1099511627776,
+     "delta_element_seam": 1095216660480
+    },
+    {
+     "j": 1,
+     "L_j": 2147483648,
+     "cells": 549755813888,
+     "delta_element_seam": 547608330240
+    },
+    {
+     "j": 2,
+     "L_j": 1073741824,
+     "cells": 274877906944,
+     "delta_element_seam": 273804165120
+    },
+    {
+     "j": 3,
+     "L_j": 536870912,
+     "cells": 137438953472,
+     "delta_element_seam": 136902082560
+    },
+    {
+     "j": 4,
+     "L_j": 268435456,
+     "cells": 68719476736,
+     "delta_element_seam": 68451041280
+    },
+    {
+     "j": 5,
+     "L_j": 134217728,
+     "cells": 34359738368,
+     "delta_element_seam": 34225520640
+    },
+    {
+     "j": 6,
+     "L_j": 67108864,
+     "cells": 17179869184,
+     "delta_element_seam": 17112760320
+    },
+    {
+     "j": 7,
+     "L_j": 33554432,
+     "cells": 8589934592,
+     "delta_element_seam": 8556380160
+    },
+    {
+     "j": 8,
+     "L_j": 16777216,
+     "cells": 4294967296,
+     "delta_element_seam": 4278190080
+    },
+    {
+     "j": 9,
+     "L_j": 8388608,
+     "cells": 2147483648,
+     "delta_element_seam": 2139095040
+    },
+    {
+     "j": 10,
+     "L_j": 4194304,
+     "cells": 1073741824,
+     "delta_element_seam": 1069547520
+    },
+    {
+     "j": 11,
+     "L_j": 2097152,
+     "cells": 536870912,
+     "delta_element_seam": 534773760
+    },
+    {
+     "j": 12,
+     "L_j": 1048576,
+     "cells": 268435456,
+     "delta_element_seam": 267386880
+    },
+    {
+     "j": 13,
+     "L_j": 524288,
+     "cells": 134217728,
+     "delta_element_seam": 133693440
+    },
+    {
+     "j": 14,
+     "L_j": 262144,
+     "cells": 67108864,
+     "delta_element_seam": 66846720
+    },
+    {
+     "j": 15,
+     "L_j": 131072,
+     "cells": 33554432,
+     "delta_element_seam": 33423360
+    },
+    {
+     "j": 16,
+     "L_j": 65536,
+     "cells": 16777216,
+     "delta_element_seam": 16711680
+    },
+    {
+     "j": 17,
+     "L_j": 32768,
+     "cells": 8388608,
+     "delta_element_seam": 8355840
+    },
+    {
+     "j": 18,
+     "L_j": 16384,
+     "cells": 4194304,
+     "delta_element_seam": 4177920
+    },
+    {
+     "j": 19,
+     "L_j": 8192,
+     "cells": 2097152,
+     "delta_element_seam": 2088960
+    },
+    {
+     "j": 20,
+     "L_j": 4096,
+     "cells": 1048576,
+     "delta_element_seam": 1044480
+    },
+    {
+     "j": 21,
+     "L_j": 2048,
+     "cells": 524288,
+     "delta_element_seam": 522240
+    },
+    {
+     "j": 22,
+     "L_j": 1024,
+     "cells": 262144,
+     "delta_element_seam": 261120
+    },
+    {
+     "j": 23,
+     "L_j": 512,
+     "cells": 131072,
+     "delta_element_seam": 130560
+    },
+    {
+     "j": 24,
+     "L_j": 256,
+     "cells": 65536,
+     "delta_element_seam": 65280
+    },
+    {
+     "j": 25,
+     "L_j": 128,
+     "cells": 32768,
+     "delta_element_seam": 32640
+    },
+    {
+     "j": 26,
+     "L_j": 64,
+     "cells": 16384,
+     "delta_element_seam": 16320
+    },
+    {
+     "j": 27,
+     "L_j": 32,
+     "cells": 8192,
+     "delta_element_seam": 8160
+    },
+    {
+     "j": 28,
+     "L_j": 16,
+     "cells": 4096,
+     "delta_element_seam": 4080
+    },
+    {
+     "j": 29,
+     "L_j": 8,
+     "cells": 2048,
+     "delta_element_seam": 2040
+    },
+    {
+     "j": 30,
+     "L_j": 4,
+     "cells": 1024,
+     "delta_element_seam": 1020
+    },
+    {
+     "j": 31,
+     "L_j": 2,
+     "cells": 512,
+     "delta_element_seam": 510
+    },
+    {
+     "j": 32,
+     "L_j": 1,
+     "cells": 256,
+     "delta_element_seam": 255
+    }
+   ]
+  },
+  "L12": {
+   "classes": 1064,
+   "ambiguous": 547
+  },
+  "L13": [
+   {
+    "n": 16,
+    "t": 2,
+    "q": 17,
+    "sol_and_norm": 384,
+    "sol_not_norm": 0,
+    "norm_not_sol": 2176,
+    "neither": 4000
+   },
+   {
+    "n": 16,
+    "t": 2,
+    "q": 97,
+    "sol_and_norm": 64,
+    "sol_not_norm": 0,
+    "norm_not_sol": 448,
+    "neither": 6048
+   },
+   {
+    "n": 16,
+    "t": 2,
+    "q": 113,
+    "sol_and_norm": 64,
+    "sol_not_norm": 0,
+    "norm_not_sol": 448,
+    "neither": 6048
+   }
+  ]
+ }
+}

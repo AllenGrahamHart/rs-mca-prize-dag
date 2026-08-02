@@ -125,8 +125,41 @@ In flight: `f2_parity_boundary`, `c1_imprimitivity`.
   Norm == w (mod 2), imprimitive => square-norm certificate. Proof
   necrology recorded (majorization dead with certificate, local moves
   dead via the U-shaped two-branch value function).
-- **Crossing lane succinct contract** — coordinator's to draft (from
-  the Brief-6 adversarial round); gates any crossing pilot.
+- **Crossing lane — round-3 pilot BANKED + contract DRAFTED.** PK1
+  (the one-packet theorem) PROVED at the smallest instance: exact
+  q-free packet C(n,r)/n, ceiling, fence, closed-form template,
+  automatic guard, exhaustive inverse maximality (all three verifier
+  suites coordinator-replayed: 1002 + 46 + 17 checks). PK2 scope
+  theorem: q-freeness is a w=1 phenomenon (w=2 certified q-dependent
+  across 20 fields); the official regime is the q-dependent regime.
+  Mutation suite M1-M9 adopted as the lane's standing battery.
+  Subtraction done: lower half dominated by the rotated-prefix floor
+  (upstream #1101); new content = the upper half + PK2 + inverse
+  maximality. Frontier movement ZERO (recorded). MINT CANDIDATE (next
+  boundary): PK1 as background node with the fast verifier. The
+  succinct contract is DRAFTED for Pro's round:
+  `notes/pro_briefs_20260801/responses/CROSSING_SUCCINCT_CONTRACT_DRAFT.md`
+  (primitives incl. symbolic counted-objects, forbidden moves,
+  q-independence via index-family replay, B*=0 pin discharge, M1-M9
+  compliance). Lane question for Pro: per-field certification at
+  w>=2, or hunt q-free word classes (Lam-Leung candidates)?
+- **C2'' lane — round-3 pilot BANKED; the lane is RE-POSED.** The
+  exact structural law (junction matrices are scaled Vandermondes;
+  delta = sum (L_j - |S_j|)^+, field-independent) KILLS the
+  rank-defect currency by the adversarial audit's own kill line:
+  {delta = t} IS the archived coset class (already routed + priced by
+  the marginal account); the joint excess R lives at delta = 0 where
+  the invariant is blind (0/65,535 states correct); R = E[q^delta]
+  and its dominating form die with exact counterexamples; the two
+  canonical seams differ by q^{255t} (PP2.0 upgraded from Gate-0 to
+  DECISIVE). NUL0-NUL4 RETIRED as posed. Delivered: PP2.1 (the exact
+  multi-junction compiler, validated 42/42 + 23/23,
+  coordinator-replayed), the DERIVED schedule ell_j, the coset-atom
+  tail law, and the RE-TARGET: the residual is an arithmetic
+  norm-divisibility event in Z[zeta_n] (exact certificate; 1/phi(n)
+  splitting) — C2'' routes into the lane's own norm-gate/resultant
+  machinery. Third lane this campaign whose heart is arithmetic.
+  Pro ask: attack the norm-gate residual framing; adjudicate PP2.0.
 
 ## C. THE COORDINATED EDIT (Route W, IF ratified — one commit)
 

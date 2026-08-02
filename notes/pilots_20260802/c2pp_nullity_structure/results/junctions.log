@@ -1,0 +1,12 @@
+n=16 t=2 q=17 o=1: delta0=0 stratum -> 255 supports, rho in [0, 17/4], mean 0.9375, predicted 1, worst/pred = 4.25; profile-constancy violated at k=[3, 4, 5, 6]
+n=16 t=2 q=97 o=1: delta0=0 stratum -> 255 supports, rho in [0, 97/8], mean 0.713235, predicted 1, worst/pred = 12.125; profile-constancy violated at k=[4, 5, 6]
+n=16 t=3 q=17 o=2: delta0=0 stratum -> 247 supports, rho in [0, 289/32], mean 0.29251, predicted 1, worst/pred = 9.03125; profile-constancy violated at k=[6]
+n=16 t=4 q=97 o=2: delta0=0 stratum -> 247 supports, rho in [0, 0], mean 0, predicted 1, worst/pred = 0; profile-constancy violated at k=[]
+n=32 t=2 q=97 o=1: delta0=0 stratum -> 65535 supports, rho in [0, 97/4], mean 0.998536, predicted 1, worst/pred = 24.25; profile-constancy violated at k=[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+n=32 t=2 q=193 o=1: delta0=0 stratum -> 65535 supports, rho in [0, 193/4], mean 0.997459, predicted 1, worst/pred = 48.25; profile-constancy violated at k=[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+n=32 t=2 q=8353 o=1: delta0=0 stratum -> 65535 supports, rho in [0, 8353/32], mean 0.914989, predicted 1, worst/pred = 261.031; profile-constancy violated at k=[6, 7, 8, 9, 10, 11, 12, 13, 14]
+n=32 t=2 q=32801 o=1: delta0=0 stratum -> 65535 supports, rho in [0, 32801/64], mean 0.798667, predicted 1, worst/pred = 512.516; profile-constancy violated at k=[7, 8, 9, 10, 11, 12, 13, 14]
+n=32 t=3 q=97 o=2: delta0=0 stratum -> 65519 supports, rho in [0, 9409/16], mean 1.20446, predicted 1, worst/pred = 588.062; profile-constancy violated at k=[5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+n=32 t=4 q=97 o=2: delta0=0 stratum -> 65519 supports, rho in [0, 9409/16], mean 1.20446, predicted 1, worst/pred = 588.062; profile-constancy violated at k=[5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+EXACT Z[zeta_q] decomposition rho = q^delta + Rem: 24/24 PASS

@@ -1,0 +1,206 @@
+{
+ "IS1_q17": {
+  "guarded_fibre_histogram": {
+   "0": 104,
+   "1": 560,
+   "2": 1360,
+   "3": 1872,
+   "4": 976,
+   "5": 296,
+   "7": 8
+  },
+  "max_guarded_fibre": 7,
+  "max_raw_section": 21,
+  "n_guarded_maximisers": 8,
+  "n_pure_maximisers": 8,
+  "target": 7
+ },
+ "IS1_q41": {
+  "guarded_fibre_histogram": {
+   "0": 752,
+   "1": 30688,
+   "2": 18640,
+   "3": 5888,
+   "4": 728,
+   "5": 200,
+   "7": 8
+  },
+  "max_guarded_fibre": 7,
+  "max_raw_section": 21,
+  "n_guarded_maximisers": 8,
+  "n_pure_maximisers": 8,
+  "target": 7
+ },
+ "IS1_q73": {
+  "guarded_fibre_histogram": {
+   "0": 1648,
+   "1": 167520,
+   "2": 46608,
+   "3": 8576,
+   "4": 696,
+   "5": 200,
+   "7": 8
+  },
+  "max_guarded_fibre": 7,
+  "max_raw_section": 21,
+  "n_guarded_maximisers": 8,
+  "n_pure_maximisers": 8,
+  "target": 7
+ },
+ "IS2_q17": {
+  "0": {
+   "distinct_targets": 16,
+   "guarded_max": 715,
+   "guarded_sizes": [
+    715
+   ],
+   "raw_max": 715,
+   "raw_sizes": [
+    715
+   ],
+   "uniform_packet": true
+  },
+  "1": {
+   "distinct_targets": 17,
+   "guarded_max": 672,
+   "guarded_sizes": [
+    376,
+    380,
+    672
+   ],
+   "raw_max": 676,
+   "raw_sizes": [
+    670,
+    672,
+    676
+   ],
+   "uniform_packet": false
+  },
+  "2": {
+   "distinct_targets": 17,
+   "guarded_max": 448,
+   "guarded_sizes": [
+    352,
+    448
+   ],
+   "raw_max": 673,
+   "raw_sizes": [
+    672,
+    673
+   ],
+   "uniform_packet": false
+  },
+  "3": {
+   "distinct_targets": 17,
+   "guarded_max": 472,
+   "guarded_sizes": [
+    388,
+    408,
+    456,
+    464,
+    472
+   ],
+   "raw_max": 768,
+   "raw_sizes": [
+    624,
+    632,
+    636,
+    668,
+    768
+   ],
+   "uniform_packet": false
+  }
+ },
+ "IS2_q97": {
+  "0": {
+   "distinct_targets": 16,
+   "guarded_max": 715,
+   "guarded_sizes": [
+    715
+   ],
+   "raw_max": 715,
+   "raw_sizes": [
+    715
+   ],
+   "uniform_packet": true
+  },
+  "1": {
+   "distinct_targets": 97,
+   "guarded_max": 126,
+   "guarded_sizes": [
+    56,
+    62,
+    64,
+    104,
+    108,
+    110
+   ],
+   "raw_max": 146,
+   "raw_sizes": [
+    64,
+    104,
+    108,
+    110,
+    112,
+    120
+   ],
+   "uniform_packet": false
+  },
+  "2": {
+   "distinct_targets": 97,
+   "guarded_max": 131,
+   "guarded_sizes": [
+    96,
+    100,
+    102,
+    106,
+    107,
+    113
+   ],
+   "raw_max": 131,
+   "raw_sizes": [
+    96,
+    106,
+    107,
+    113,
+    122,
+    130
+   ],
+   "uniform_packet": false
+  },
+  "3": {
+   "distinct_targets": 97,
+   "guarded_max": 132,
+   "guarded_sizes": [
+    72,
+    80,
+    84,
+    92,
+    96,
+    100
+   ],
+   "raw_max": 300,
+   "raw_sizes": [
+    80,
+    92,
+    96,
+    100,
+    104,
+    112
+   ],
+   "uniform_packet": false
+  }
+ },
+ "IS3_invariance": {
+  "packet_size": 7,
+  "shells": {
+   "4": 35,
+   "5": 7
+  }
+ },
+ "IS4_certificate_sizes": {
+  "descriptor_bits_upper": 382,
+  "log2_members_lower": 2199023255467,
+  "member_bits": 2199023255552
+ }
+}

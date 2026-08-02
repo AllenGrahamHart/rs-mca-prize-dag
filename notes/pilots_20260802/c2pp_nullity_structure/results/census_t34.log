@@ -1,0 +1,4 @@
+n=32 t=3 q=97: #tnull=6592 R=1.03888 MF_E[q^delta]=1.22083 NULL_E[q^delta]=36129.6 delta=t<->coset:True
+n=32 t=3 q=193: #tnull=1024 R=1.16066 MF_E[q^delta]=2.04152 NULL_E[q^delta]=1.80425e+06 delta=t<->coset:True
+n=32 t=4 q=97: #tnull=176 R=2.59277 MF_E[q^delta]=1.54723 NULL_E[q^delta]=8.04812e+06 delta=t<->coset:True
+n=32 t=4 q=193: #tnull=16 R=2.55613 MF_E[q^delta]=7.18353 NULL_E[q^delta]=1.38749e+09 delta=t<->coset:True

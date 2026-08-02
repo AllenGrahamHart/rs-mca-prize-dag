@@ -1,0 +1,296 @@
+[
+ {
+  "id": "FX1a",
+  "statement": "four-wise trap: 33 distinct columns",
+  "certified": "33",
+  "reproduced": "33",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX1b",
+  "statement": "four-wise trap: global rank over F_2",
+  "certified": "11",
+  "reproduced": "11",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX1c",
+  "statement": "four-wise trap: no F_2 dependency of support <= 4",
+  "certified": "none",
+  "reproduced": "none",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX1d",
+  "statement": "four-wise trap: delta = sum local ranks - global rank",
+  "certified": "22",
+  "reproduced": "22",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX1e",
+  "statement": "four-wise trap: R = E[prod Y] by exhaustive 2^11 latent",
+  "certified": "4194304",
+  "reproduced": "4194304",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX1f",
+  "statement": "four-wise trap: identity R == q^delta holds",
+  "certified": "4194304",
+  "reproduced": "4194304",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX1g",
+  "statement": "four-wise trap: joint ratio exceeds the 21-bit reserve",
+  "certified": "True",
+  "reproduced": "True",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX2a",
+  "statement": "pairwise trap: every factor is mean-one",
+  "certified": "[1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024]",
+  "reproduced": "[1024]",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX2b",
+  "statement": "pairwise trap: all 528 pairs exactly independent",
+  "certified": "528 x 512",
+  "reproduced": "528 x [512]",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX2c",
+  "statement": "pairwise trap: joint normalized product",
+  "certified": "4194304",
+  "reproduced": "4194304",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX2d",
+  "statement": "pairwise trap: nullity reading delta = 33-11",
+  "certified": "22",
+  "reproduced": "22",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX3a",
+  "statement": "gate prime q = 3*2^41+1 is prime",
+  "certified": "True",
+  "reproduced": "True",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX3b",
+  "statement": "gate prime admissibility v_2(q-1)",
+  "certified": "41",
+  "reproduced": "41",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX3c",
+  "statement": "32-wise trap: global rank of 33 moment forms in F_q^32",
+  "certified": "32",
+  "reproduced": "32",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX3d",
+  "statement": "32-wise trap: every 32-subfamily has full rank 32 (delta=0, R=1: proper subtowers exactly iid)",
+  "certified": "none",
+  "reproduced": "[]",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX3e",
+  "statement": "32-wise trap: delta of the full 33-junction family",
+  "certified": "1",
+  "reproduced": "1",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX3f",
+  "statement": "32-wise trap: R = q^delta = q > 2^21",
+  "certified": "6597069766657",
+  "reproduced": "6597069766657",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX3g",
+  "statement": "32-wise trap: unique circuit support is all 33 junctions",
+  "certified": "33",
+  "reproduced": "33",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX3h(q=5,dim=3)",
+  "statement": "downscaled moment-curve replica: brute-force R == q^delta == q",
+  "certified": "5",
+  "reproduced": "brute=5 ident=5",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX3i(q=5,dim=3)",
+  "statement": "downscaled replica: every proper subfamily has R exactly 1",
+  "certified": "1",
+  "reproduced": "1",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX3h(q=7,dim=4)",
+  "statement": "downscaled moment-curve replica: brute-force R == q^delta == q",
+  "certified": "7",
+  "reproduced": "brute=7 ident=7",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX3i(q=7,dim=4)",
+  "statement": "downscaled replica: every proper subfamily has R exactly 1",
+  "certified": "1",
+  "reproduced": "1",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX3h(q=11,dim=4)",
+  "statement": "downscaled moment-curve replica: brute-force R == q^delta == q",
+  "certified": "11",
+  "reproduced": "brute=11 ident=11",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX3i(q=11,dim=4)",
+  "statement": "downscaled replica: every proper subfamily has R exactly 1",
+  "certified": "1",
+  "reproduced": "1",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX4a",
+  "statement": "circuit explosion: rank of 33 moment forms in F_37^11",
+  "certified": "11",
+  "reproduced": "11",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX4b",
+  "statement": "circuit explosion: delta",
+  "certified": "22",
+  "reproduced": "22",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX4c",
+  "statement": "circuit explosion: support-minimal circuit count C(33,12)",
+  "certified": "354817320",
+  "reproduced": "354817320",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX4d",
+  "statement": "circuit explosion: joint ratio 37^22 exceeds 2^21",
+  "certified": "31654680139659126296833481434130569",
+  "reproduced": "31654680139659126296833481434130569",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX4e",
+  "statement": "circuit explosion: 3000 random 11-subsets all independent",
+  "certified": "0",
+  "reproduced": "0",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX4f",
+  "statement": "scaled analogue (F_37^5, 12 forms): all C(12,5) subsets independent and all C(12,6) subsets are circuits",
+  "certified": "True",
+  "reproduced": "True",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX5",
+  "statement": "continuation amplification: p=1/2 owner, 32 mean-one future factors",
+  "certified": "2147483648",
+  "reproduced": "2147483648",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX6",
+  "statement": "rank-descriptor collision: same rank 1, increments 2 vs 1",
+  "certified": "(2, 1)",
+  "reproduced": "(2, 1)",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX7a",
+  "statement": "information/nullity: F_2 trap free reward bits",
+  "certified": "22",
+  "reproduced": "22",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX7b",
+  "statement": "information/nullity: gate model free reward in log q units",
+  "certified": "1",
+  "reproduced": "1",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX8a",
+  "statement": "official schedule ell_j = ceil(floor(t/2^j)/2)",
+  "certified": "(2^32,...,2,1,1)",
+  "reproduced": "match",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX8b",
+  "statement": "official schedule: 34 blocks / 33 junctions, sum = t=2^33",
+  "certified": "(34, 33, 8589934592)",
+  "reproduced": "(34, 33, 8589934592)",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX8c",
+  "statement": "pilot derivation L_j = #{r<=t : v_2(r)=j} equals the pose's ell_j for every t in [1,129]",
+  "certified": "True",
+  "reproduced": "True",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX9a",
+  "statement": "N_j = 256*ell_j (banked) equals h_{j+1} = n/2^{j+1} for n = 2^41, t = 2^33 -- blocks j=0..32",
+  "certified": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]",
+  "reproduced": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX9b",
+  "statement": "terminal block j=33 is the only ceil artefact (ell=1 vs h_34=n/2^34=128)",
+  "certified": "(1, 128)",
+  "reproduced": "(1, 128)",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX9c",
+  "statement": "official support-to-constraint ratio h_{j+1}/L_j",
+  "certified": "256",
+  "reproduced": "[256]",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX10a",
+  "statement": "21-bit joint reserve x 100-bit marginal = 2^121",
+  "certified": "2658455991569831745807614120560689152",
+  "reproduced": "2658455991569831745807614120560689152",
+  "verdict": "PASS"
+ },
+ {
+  "id": "FX10b",
+  "statement": "per-junction display allowance 2^(21/33)",
+  "certified": "1.554",
+  "reproduced": "1.554",
+  "verdict": "PASS"
+ }
+]

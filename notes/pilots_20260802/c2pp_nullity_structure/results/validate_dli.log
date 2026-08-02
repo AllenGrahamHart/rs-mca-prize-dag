@@ -1,0 +1,48 @@
+V1(n=16,t=2,q=97) PASS  x is t-null  <=>  every block-j skew constraint holds (exhaustive over 2^n)
+               certified=(0, 16)  reproduced=(0, 16)
+V1(n=16,t=3,q=97) PASS  x is t-null  <=>  every block-j skew constraint holds (exhaustive over 2^n)
+               certified=(0, 16)  reproduced=(0, 16)
+V1(n=16,t=4,q=97) PASS  x is t-null  <=>  every block-j skew constraint holds (exhaustive over 2^n)
+               certified=(0, 4)  reproduced=(0, 4)
+V1(n=16,t=5,q=17) PASS  x is t-null  <=>  every block-j skew constraint holds (exhaustive over 2^n)
+               certified=(0, 4)  reproduced=(0, 4)
+V1(n=16,t=7,q=97) PASS  x is t-null  <=>  every block-j skew constraint holds (exhaustive over 2^n)
+               certified=(0, 4)  reproduced=(0, 4)
+V1(n=16,t=8,q=193) PASS  x is t-null  <=>  every block-j skew constraint holds (exhaustive over 2^n)
+               certified=(0, 2)  reproduced=(0, 2)
+V2(t=2,q=97) PASS  independent MITM census reproduces the banked (coset, noncoset) mu_32 ground truth
+               certified=(255, 455488)  reproduced=(255, 455488)
+V2(t=2,q=193) PASS  independent MITM census reproduces the banked (coset, noncoset) mu_32 ground truth
+               certified=(255, 116256)  reproduced=(255, 116256)
+V2(t=2,q=577) PASS  independent MITM census reproduces the banked (coset, noncoset) mu_32 ground truth
+               certified=(255, 14240)  reproduced=(255, 14240)
+V2(t=2,q=8353) PASS  independent MITM census reproduces the banked (coset, noncoset) mu_32 ground truth
+               certified=(255, 320)  reproduced=(255, 320)
+V2(t=2,q=16417) PASS  independent MITM census reproduces the banked (coset, noncoset) mu_32 ground truth
+               certified=(255, 288)  reproduced=(255, 288)
+V2(t=2,q=32801) PASS  independent MITM census reproduces the banked (coset, noncoset) mu_32 ground truth
+               certified=(255, 0)  reproduced=(255, 0)
+V2(t=2,q=65537) PASS  independent MITM census reproduces the banked (coset, noncoset) mu_32 ground truth
+               certified=(255, 0)  reproduced=(255, 0)
+V2(t=3,q=97) PASS  independent MITM census reproduces the banked (coset, noncoset) mu_32 ground truth
+               certified=(255, 6336)  reproduced=(255, 6336)
+V2(t=3,q=193) PASS  independent MITM census reproduces the banked (coset, noncoset) mu_32 ground truth
+               certified=(255, 768)  reproduced=(255, 768)
+V2(t=3,q=1153) PASS  independent MITM census reproduces the banked (coset, noncoset) mu_32 ground truth
+               certified=(255, 0)  reproduced=(255, 0)
+V2(t=4,q=97) PASS  independent MITM census reproduces the banked (coset, noncoset) mu_32 ground truth
+               certified=(15, 160)  reproduced=(15, 160)
+V2(t=4,q=193) PASS  independent MITM census reproduces the banked (coset, noncoset) mu_32 ground truth
+               certified=(15, 0)  reproduced=(15, 0)
+V3(n=16,t=2,q=97) PASS  junction-0 DP count over {+-1}^G equals brute-force skewcount
+               certified=True  reproduced=True
+V3(n=16,t=3,q=17) PASS  junction-0 DP count over {+-1}^G equals brute-force skewcount
+               certified=True  reproduced=True
+V3(n=32,t=2,q=97) PASS  junction-0 DP count over {+-1}^G equals brute-force skewcount
+               certified=True  reproduced=True
+V3(n=32,t=4,q=97) PASS  junction-0 DP count over {+-1}^G equals brute-force skewcount
+               certified=True  reproduced=True
+V4       PASS  RANK LAW rank{v_i : i in S} = min(L_j,|S|) over 37 (row, junction) cells, 7194 supports tested (exhaustive wherever h_{j+1} <= 14)
+               certified=0  reproduced=0
+
+C2PP_DLI_MODEL_VALIDATION: 23/23 PASS
