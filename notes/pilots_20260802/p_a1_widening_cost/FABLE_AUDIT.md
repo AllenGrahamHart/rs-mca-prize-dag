@@ -91,3 +91,19 @@ propose at the next wave boundary.
 - The rank-five / split-pencil / prize fans were sampled, not
   exhausted; both samples break, so assume the worst until audited.
 - kappa is overloaded (cap vs circuit vector) — grep discipline.
+
+> **[AMENDED 2026-08-02 — cascade payment audit, coordinator-verified.]**
+> Caveat 1 fired: the REPORT's "Cascade ceiling verified ... from a
+> clean source" sentence is WRONG — `xr_pencil_cascade`'s payment is
+> unsourced (classification into a CONJECTURE-status taxonomy; nondeep
+> pair-level form REFUTED in-tree; deep condition fails on all six
+> rows). The honest generic-branch ceiling is A-1, independently
+> sourced (genericity + strip forcing algebra). All Group A/B/C
+> classifications of this pass SURVIVE; the widened predicate's kappa
+> moves A-2 -> A-1 (line caps exactly x2 on all six rows; PSP already
+> priced at A-1; the collapsed-face exclusion loses its last surviving
+> row, 6/6 dead; F5-OS and the xr_smallcore dag statement must move to
+> A-1 in the same edit). Route T additionally forces B_tan > n-A+1
+> (slot saturated, multi-pencil overflow) = re-surgery trigger 4. Fork
+> tilts to Route W. See
+> `notes/pilots_20260802/xr_cascade_payment_audit/`.

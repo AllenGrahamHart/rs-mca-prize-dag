@@ -30,3 +30,17 @@ PROVED only at `r >= A-1`; the band is CLASSIFIED, not charged, and is
 carried by the widened bridge partition into P-A1's obligation
 (`core in [k, A-2]`, matching `F5_SKELETON.md:398` and the pinned
 verifier's `J >= k` class). The node's arithmetic and replay stand.
+
+> **[AMENDED 2026-08-02 — cascade payment audit
+> (`notes/pilots_20260802/xr_cascade_payment_audit/`), coordinator-
+> verified.]** The repair text above is itself over-generous: NO
+> core-based CHARGE is proved at ANY threshold — `xr_pencil_cascade`'s
+> "paid" is unsourced (its PROVED status covers forcing + cascade
+> only; see that node's PAYMENT_UNSOURCED_FLAG note). The corrected
+> restatement of item 3: forcing PROVED for all cores >= k+1; the
+> generic-branch core ceiling A-1 comes from genericity + this node's
+> own forcing algebra (core = A between exact-A selected supports
+> forces a joint A-support explanation => nongeneric), NOT from a
+> payment; the entire range [k+1, A-1] is CLASSIFIED, not charged,
+> and P-A1's widened obligation becomes core in [k, A-1] (line caps
+> exactly double vs A-2). Arithmetic and replay still stand.

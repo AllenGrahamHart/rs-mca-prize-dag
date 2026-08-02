@@ -55,3 +55,19 @@ demotions. Both routes need the pencil-cascade payment audit first
 (whether the A-2 ceiling's TANGENT-PENCIL charge actually fits inside
 B_tan <= n-A+1). See
 `notes/pilots_20260802/p_a1_widening_cost/{REPORT,FABLE_AUDIT}.md`.
+
+**PAYMENT AUDIT RESULT (same day):** the cascade's "paid" is UNSOURCED
+(see `xr_pencil_cascade/notes/PAYMENT_UNSOURCED_FLAG_20260802.md`).
+The honest generic-branch ceiling is A-1, sourced independently
+(core = A between exact-A selected supports => same support => joint
+A-support explanation => nongeneric). Fork consequences: Route W
+survives with the widened predicate moving to core in [k, A-1] (line
+caps exactly x2; PSP unchanged; sourcing improves). Route T is
+materially harder: it must charge up to A-1, its target column is
+provably saturated by one cascade (|T| ratio 1.0000 on all six rows)
+with multi-pencil overflow realized on the F_17 witness, so it forces
+B_tan > n-A+1 — re-surgery trigger 4. Fork now TILTS TO ROUTE W;
+final call awaits the graded-band-ledger pilot's report + maintainer
+visibility. R2 on this node remains safe and unaffected (routing-only,
+no ceiling needed). See
+`notes/pilots_20260802/xr_cascade_payment_audit/{REPORT,FABLE_AUDIT}.md`.
