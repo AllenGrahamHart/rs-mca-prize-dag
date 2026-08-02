@@ -48,7 +48,8 @@ b11=-b10, so B_1(W)=b10(1-W).                   (KBC4-3)
 
 The four necessary target-free `DE+/DE-/BE` equations are compiled in this
 model.  Their guard-saturated global basis reached its 250-second cap and has
-no unit or nonunit conclusion.  Exceptional scale zeros also remain separate.
+no unit or nonunit conclusion.  Exceptional scale zeros are outside this
+node's chart and are closed by the separate proved exceptional-scale child.
 Thus this node does not exclude cell 4 or 7, close `[4,7]`, the positive
 route, K3, LIST, MCA, or either Prize problem.
 

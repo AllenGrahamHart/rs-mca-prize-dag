@@ -3734,3 +3734,11 @@ but their global 250-second basis still timed out.  Do not extend it.  Split
 cell 4 into its finite exceptional scales and a componentwise signed-pair
 decomposition on the main genus-one chart, appending the colored equations
 only after the pair components are known.  Orbit `[4,7]` remains open.
+
+The cell-4 exceptional ledger is now closed by the PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion`.
+Factoring all six scales gives only `t=0`, `t=+/-1`, and
+`t=+/-16711679` over the deployed field; every value zeros the original guard
+`t(1-t^2)(1+t^2)`.  All remaining factors are irreducible cubics.  No common
+or outside basis is needed on these charts.  The main genus-one target-free
+family is now the sole `[4,7]` obstruction.

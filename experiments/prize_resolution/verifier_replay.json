@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/verify.py",
-      "seconds": 0.050077,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion/verify.py",
+      "seconds": 0.060003,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "positive 433-1a cell-3 genus-three plane-kernel reduction verified\n"
+      "stdout_tail": "positive 433-1a cell-4 exceptional scale charts verified\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/verify_audit.py",
-      "seconds": 0.037137,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion/verify_audit.py",
+      "seconds": 0.038681,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "positive 433-1a cell-3 genus-three reduction audit verified\n"
+      "stdout_tail": "positive 433-1a cell-4 exceptional-chart audit verified\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

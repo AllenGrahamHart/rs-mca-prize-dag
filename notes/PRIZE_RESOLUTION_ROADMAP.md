@@ -15219,6 +15219,25 @@ remaining frontier:      six representatives / 40 raw rows
 nonclaim:                 no [4,7] exclusion, route, K3, LIST, MCA, or Prize
 ```
 
+### Work-cycle theorem: cell-4 exceptional scale-chart exclusion
+
+```text
+factored scales:          r/c denominators, combined denominator scale,
+                          first/second common scales, plane leading term
+base-field roots:         0,1,16711679,2113994754,2130706432
+nonlinear factors:        one irreducible cubic, occurring with multiplicities
+                          1 and 3 in two scales; no F_p roots
+guard identity:           every root zeros t(1-t^2)(1+t^2)
+result:                   every exceptional cell-4 chart PROVED empty in the
+                          original common localization; same for cell 7
+result hash:              9bf203fb4c0260ea391cf4f7b5d874d6a256c1d48d51d4a33a0a3823331458dc
+Modal app:                ap-18wq2lHYzMItqgihB1Y2z5
+next route step:          main genus-one chart only: signed-pair components,
+                          then colored equations componentwise
+remaining frontier:      six representatives / 40 raw rows
+nonclaim:                 no [4,7] exclusion, route, K3, LIST, MCA, or Prize
+```
+
 ### Work-cycle theorem: cell-3 exceptional scale-chart exclusion
 
 ```text
