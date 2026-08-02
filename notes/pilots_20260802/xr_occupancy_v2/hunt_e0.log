@@ -1,0 +1,10 @@
+
+=== stage e0 ===
+PASS E0 n=20 k=5 h=5: rank-sharing <-> overlap > k <-> a band pair with both slopes live  [[]]
+PASS E0 n=24 k=4 h=5: rank-sharing <-> overlap > k <-> a band pair with both slopes live  [[]]
+PASS E0 n=18 k=4 h=5: rank-sharing <-> overlap > k <-> a band pair with both slopes live  [[]]
+PASS E0 n=20 k=3 h=3: rank-sharing <-> overlap > k <-> a band pair with both slopes live  [[]]
+PASS E0 n=16 k=4 h=4: rank-sharing <-> overlap > k <-> a band pair with both slopes live  [[]]
+  E0 total witnessed sharing events: 371
+
+checks=5 failures=0

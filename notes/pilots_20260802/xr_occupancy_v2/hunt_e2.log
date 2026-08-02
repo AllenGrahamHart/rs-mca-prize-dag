@@ -1,0 +1,14 @@
+
+=== stage e2 ===
+  n=24 k=4 h=5: cheapest admissible family sunflower d=1 N=3 rank=15 cost/pair=5.0000 (sunflower floor h=5, generic 2h=10)
+PASS E2 n=24 k=4 h=5: no admissible family beats the sunflower cost floor h=5 by more than 1  [cheapest=5.0000 tag=sunflower]
+  n=20 k=3 h=3: cheapest admissible family sunflower d=1 N=3 rank=9 cost/pair=3.0000 (sunflower floor h=3, generic 2h=6)
+PASS E2 n=20 k=3 h=3: no admissible family beats the sunflower cost floor h=3 by more than 1  [cheapest=3.0000 tag=sunflower]
+  n=26 k=5 h=7: cheapest admissible family sunflower d=1 N=3 rank=21 cost/pair=7.0000 (sunflower floor h=7, generic 2h=14)
+PASS E2 n=26 k=5 h=7: no admissible family beats the sunflower cost floor h=7 by more than 1  [cheapest=7.0000 tag=sunflower]
+  n=28 k=3 h=3: cheapest admissible family sunflower d=1 N=3 rank=9 cost/pair=3.0000 (sunflower floor h=3, generic 2h=6)
+PASS E2 n=28 k=3 h=3: no admissible family beats the sunflower cost floor h=3 by more than 1  [cheapest=3.0000 tag=sunflower]
+  n=20 k=5 h=5: cheapest admissible family sunflower d=1 N=3 rank=15 cost/pair=5.0000 (sunflower floor h=5, generic 2h=10)
+PASS E2 n=20 k=5 h=5: no admissible family beats the sunflower cost floor h=5 by more than 1  [cheapest=5.0000 tag=sunflower]
+
+checks=5 failures=0

@@ -1,0 +1,6 @@
+
+=== stage b3 ===
+PASS B3 dichotomy: 2d>=h forbids proportional differences (50 admissible planted fixtures, 120 deep pairs)  [[]]
+PASS B3 dichotomy: 2d>=h forbids two depth-d band pairs on one live ray  [[]]
+
+checks=2 failures=0

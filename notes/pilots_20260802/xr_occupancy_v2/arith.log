@@ -76,4 +76,18 @@ PASS D4 prize 1/8: every in-band admissible w leaves >= (h+1)/2 coincidences per
 PASS D4 prize 1/16: MC's cascade-tier w = h-1 is admissible
 PASS D4 prize 1/16: every in-band admissible w leaves >= (h+1)/2 coincidences per live slope  [h-w = 2147483649]
 
-checks=30 failures=0
+=== D5  ledger column under the two-slope laws ===
+  RowC 1/4    sum_d L(d)=8.280000e+02  sum_d N_d^sun L(d) = 2.486400e+05 = 0.2371 n^2  (13n^3 = 1.3959e+10, margin 2^15.8)
+PASS D5 RowC 1/4: sunflower-law ledger column is O(n^2), inside 13n^3
+  RowC 1/8    sum_d L(d)=9.670000e+02  sum_d N_d^sun L(d) = 3.388620e+05 = 0.3232 n^2  (13n^3 = 1.3959e+10, margin 2^15.3)
+PASS D5 RowC 1/8: sunflower-law ledger column is O(n^2), inside 13n^3
+  RowC 1/16   sum_d L(d)=4.790000e+02  sum_d N_d^sun L(d) = 2.299200e+05 = 0.2193 n^2  (13n^3 = 1.3959e+10, margin 2^15.9)
+PASS D5 RowC 1/16: sunflower-law ledger column is O(n^2), inside 13n^3
+  prize 1/4   sum_d L(d)=3.683927e+13  sum_d N_d^sun L(d) = 1.745137e+24 = 0.3609 n^2  (13n^3 = 1.3824e+38, margin 2^46.2)
+PASS D5 prize 1/4: sunflower-law ledger column is O(n^2), inside 13n^3
+  prize 1/8   sum_d L(d)=4.301057e+13  sum_d N_d^sun L(d) = 2.377103e+24 = 0.4916 n^2  (13n^3 = 1.3824e+38, margin 2^45.7)
+PASS D5 prize 1/8: sunflower-law ledger column is O(n^2), inside 13n^3
+  prize 1/16  sum_d L(d)=4.476450e+13  sum_d N_d^sun L(d) = 2.735343e+24 = 0.5657 n^2  (13n^3 = 1.3824e+38, margin 2^45.5)
+PASS D5 prize 1/16: sunflower-law ledger column is O(n^2), inside 13n^3
+
+checks=36 failures=0

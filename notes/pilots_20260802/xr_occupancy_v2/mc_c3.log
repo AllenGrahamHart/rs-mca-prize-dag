@@ -1,0 +1,12 @@
+
+=== stage c3 ===
+  coset-error n=16 k=4 h=4 M=2: N_band=0 adm=True
+  coset-error n=16 k=4 h=4 M=4: N_band=0 adm=True
+  coset-error n=20 k=4 h=5 M=2: N_band=0 adm=True
+  coset-error n=20 k=4 h=5 M=4: N_band=0 adm=True
+  coset-error n=20 k=4 h=5 M=5: N_band=0 adm=True
+  coset-error n=24 k=4 h=5 M=2: N_band=0 adm=True
+  coset-error n=24 k=4 h=5 M=3: N_band=0 adm=True
+  coset-error n=24 k=4 h=5 M=4: N_band=0 adm=True
+
+checks=0 failures=0

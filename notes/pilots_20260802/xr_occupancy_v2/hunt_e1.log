@@ -1,0 +1,22 @@
+
+=== stage e1 ===
+PASS E1 n=24 k=4 h=5 d=1: core independence dim sum C_Z = min(md, R)  [rand=(0, 18, 18, 18) sun=(5, 5, 5) orbit=(12, 12, 12)]
+FAIL E1 n=24 k=4 h=5 d=2: core independence dim sum C_Z = min(md, R)  [rand=(-2, 9, 16, 18) sun=(14, 14, 7) orbit=(16, 16, 8)]
+FAIL E1 n=24 k=4 h=5 d=3: core independence dim sum C_Z = min(md, R)  [rand=(-3, 6, 15, 18) sun=None orbit=(18, 18, 6)]
+PASS E1 n=30 k=5 h=5 d=1: core independence dim sum C_Z = min(md, R)  [rand=(0, 23, 23, 23) sun=(6, 6, 6) orbit=(15, 15, 15)]
+FAIL E1 n=30 k=5 h=5 d=2: core independence dim sum C_Z = min(md, R)  [rand=(-2, 11, 20, 22) sun=(16, 16, 8) orbit=(20, 20, 10)]
+FAIL E1 n=30 k=5 h=5 d=3: core independence dim sum C_Z = min(md, R)  [rand=(-3, 7, 18, 21) sun=None orbit=(21, 21, 7)]
+PASS E1 n=20 k=3 h=3 d=1: core independence dim sum C_Z = min(md, R)  [rand=(0, 15, 15, 15) sun=(8, 8, 8) orbit=(10, 10, 10)]
+PASS E1 n=32 k=6 h=6 d=1: core independence dim sum C_Z = min(md, R)  [rand=(0, 24, 24, 24) sun=(5, 5, 5) orbit=(16, 16, 16)]
+FAIL E1 n=32 k=6 h=6 d=2: core independence dim sum C_Z = min(md, R)  [rand=(-1, 12, 23, 24) sun=(12, 12, 6) orbit=(20, 20, 10)]
+FAIL E1 n=32 k=6 h=6 d=3: core independence dim sum C_Z = min(md, R)  [rand=(-3, 8, 21, 24) sun=None orbit=(24, 24, 8)]
+FAIL E1 n=32 k=6 h=6 d=4: core independence dim sum C_Z = min(md, R)  [rand=(-4, 6, 20, 24) sun=None orbit=(24, 24, 6)]
+
+checks=11 failures=7
+E1 n=24 k=4 h=5 d=2: core independence dim sum C_Z = min(md, R) rand=(-2, 9, 16, 18) sun=(14, 14, 7) orbit=(16, 16, 8)
+E1 n=24 k=4 h=5 d=3: core independence dim sum C_Z = min(md, R) rand=(-3, 6, 15, 18) sun=None orbit=(18, 18, 6)
+E1 n=30 k=5 h=5 d=2: core independence dim sum C_Z = min(md, R) rand=(-2, 11, 20, 22) sun=(16, 16, 8) orbit=(20, 20, 10)
+E1 n=30 k=5 h=5 d=3: core independence dim sum C_Z = min(md, R) rand=(-3, 7, 18, 21) sun=None orbit=(21, 21, 7)
+E1 n=32 k=6 h=6 d=2: core independence dim sum C_Z = min(md, R) rand=(-1, 12, 23, 24) sun=(12, 12, 6) orbit=(20, 20, 10)
+E1 n=32 k=6 h=6 d=3: core independence dim sum C_Z = min(md, R) rand=(-3, 8, 21, 24) sun=None orbit=(24, 24, 8)
+E1 n=32 k=6 h=6 d=4: core independence dim sum C_Z = min(md, R) rand=(-4, 6, 20, 24) sun=None orbit=(24, 24, 6)

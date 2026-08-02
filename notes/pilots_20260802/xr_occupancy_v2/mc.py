@@ -222,17 +222,24 @@ def stage_c3():
     out = []
     for (n, k, t, q, Msub) in [(16, 4, 4, 97, 2), (16, 4, 4, 97, 4),
                                (20, 4, 5, 41, 2), (20, 4, 5, 41, 4),
-                               (24, 6, 5, 73, 2), (24, 6, 5, 73, 3),
-                               (24, 6, 5, 73, 4)]:
+                               (20, 4, 5, 101, 5), (24, 4, 5, 73, 2),
+                               (24, 4, 5, 73, 3), (24, 4, 5, 73, 4)]:
         if (q - 1) % n or n % Msub:
             continue
         H, om = T.mult_domain(q, n)
         row = T.Row2(n, k, t, q, xs=H)
         Ncos = n // Msub
         best = None
-        for trial in range(12):
+        for trial in range(20):
             # error supported on a union of cosets of mu_Msub
-            pick = rnd.sample(range(Ncos), max(1, Ncos // 2))
+            # the error support must be a union of mu_Msub-cosets LARGE
+            # enough that the base codeword pair itself is below cascade:
+            # n - |supp| <= A-2  <=>  |supp| >= r+2.
+            need = -(-(row.r + 2) // Msub)
+            if need > Ncos:
+                continue
+            take = rnd.randrange(need, Ncos + 1)
+            pick = rnd.sample(range(Ncos), take)
             supp = [i for i in range(n) if i % Ncos in pick]
             f = tuple(rnd.randrange(q) for _ in range(k))
             g = tuple(rnd.randrange(q) for _ in range(k))

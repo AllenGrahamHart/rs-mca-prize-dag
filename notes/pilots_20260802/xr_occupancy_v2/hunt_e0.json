@@ -1,0 +1,61 @@
+{
+ "e0": [
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 6421
+   },
+   "fixtures": 14,
+   "witnessed": 61,
+   "violations": []
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "fixtures": 16,
+   "witnessed": 190,
+   "violations": []
+  },
+  {
+   "shape": {
+    "n": 18,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "fixtures": 12,
+   "witnessed": 247,
+   "violations": []
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "fixtures": 7,
+   "witnessed": 360,
+   "violations": []
+  },
+  {
+   "shape": {
+    "n": 16,
+    "k": 4,
+    "t": 4,
+    "q": 6421
+   },
+   "fixtures": 7,
+   "witnessed": 371,
+   "violations": []
+  }
+ ],
+ "_checks": 5,
+ "_failures": []
+}

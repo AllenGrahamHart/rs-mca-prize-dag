@@ -1,0 +1,556 @@
+{
+ "a1": [
+  {
+   "shape": {
+    "n": 16,
+    "k": 4,
+    "t": 4,
+    "q": 97
+   },
+   "per_depth": [
+    {
+     "d": 1,
+     "ranks": [
+      8
+     ],
+     "expect": 8
+    },
+    {
+     "d": 2,
+     "ranks": [
+      8
+     ],
+     "expect": 8
+    }
+   ]
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 241
+   },
+   "per_depth": [
+    {
+     "d": 1,
+     "ranks": [
+      10
+     ],
+     "expect": 10
+    },
+    {
+     "d": 2,
+     "ranks": [
+      10
+     ],
+     "expect": 10
+    },
+    {
+     "d": 3,
+     "ranks": [
+      10
+     ],
+     "expect": 10
+    }
+   ]
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 6,
+    "t": 5,
+    "q": 241
+   },
+   "per_depth": [
+    {
+     "d": 1,
+     "ranks": [
+      10
+     ],
+     "expect": 10
+    },
+    {
+     "d": 2,
+     "ranks": [
+      10
+     ],
+     "expect": 10
+    },
+    {
+     "d": 3,
+     "ranks": [
+      10
+     ],
+     "expect": 10
+    }
+   ]
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 4,
+    "t": 6,
+    "q": 101
+   },
+   "per_depth": [
+    {
+     "d": 1,
+     "ranks": [
+      12
+     ],
+     "expect": 12
+    },
+    {
+     "d": 2,
+     "ranks": [
+      12
+     ],
+     "expect": 12
+    },
+    {
+     "d": 3,
+     "ranks": [
+      12
+     ],
+     "expect": 12
+    },
+    {
+     "d": 4,
+     "ranks": [
+      12
+     ],
+     "expect": 12
+    }
+   ]
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 7,
+    "t": 7,
+    "q": 113
+   },
+   "per_depth": [
+    {
+     "d": 1,
+     "ranks": [
+      14
+     ],
+     "expect": 14
+    },
+    {
+     "d": 2,
+     "ranks": [
+      14
+     ],
+     "expect": 14
+    },
+    {
+     "d": 3,
+     "ranks": [
+      14
+     ],
+     "expect": 14
+    },
+    {
+     "d": 4,
+     "ranks": [
+      14
+     ],
+     "expect": 14
+    },
+    {
+     "d": 5,
+     "ranks": [
+      14
+     ],
+     "expect": 14
+    }
+   ]
+  },
+  {
+   "shape": {
+    "n": 18,
+    "k": 3,
+    "t": 5,
+    "q": 73
+   },
+   "per_depth": [
+    {
+     "d": 1,
+     "ranks": [
+      10
+     ],
+     "expect": 10
+    },
+    {
+     "d": 2,
+     "ranks": [
+      10
+     ],
+     "expect": 10
+    },
+    {
+     "d": 3,
+     "ranks": [
+      10
+     ],
+     "expect": 10
+    }
+   ]
+  }
+ ],
+ "a2": [
+  {
+   "shape": {
+    "n": 16,
+    "k": 4,
+    "t": 4,
+    "q": 97
+   },
+   "depths": [
+    {
+     "d": 1,
+     "ranks": [
+      8
+     ],
+     "distinct_pivot_patterns": 3,
+     "union_strict": true
+    },
+    {
+     "d": 2,
+     "ranks": [
+      8
+     ],
+     "distinct_pivot_patterns": 3,
+     "union_strict": true
+    }
+   ]
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 241
+   },
+   "depths": [
+    {
+     "d": 1,
+     "ranks": [
+      10
+     ],
+     "distinct_pivot_patterns": 3,
+     "union_strict": true
+    },
+    {
+     "d": 2,
+     "ranks": [
+      10
+     ],
+     "distinct_pivot_patterns": 3,
+     "union_strict": true
+    },
+    {
+     "d": 3,
+     "ranks": [
+      10
+     ],
+     "distinct_pivot_patterns": 3,
+     "union_strict": true
+    }
+   ]
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 6,
+    "t": 5,
+    "q": 241
+   },
+   "depths": [
+    {
+     "d": 1,
+     "ranks": [
+      10
+     ],
+     "distinct_pivot_patterns": 3,
+     "union_strict": true
+    },
+    {
+     "d": 2,
+     "ranks": [
+      10
+     ],
+     "distinct_pivot_patterns": 3,
+     "union_strict": true
+    },
+    {
+     "d": 3,
+     "ranks": [
+      10
+     ],
+     "distinct_pivot_patterns": 2,
+     "union_strict": true
+    }
+   ]
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 4,
+    "t": 6,
+    "q": 101
+   },
+   "depths": [
+    {
+     "d": 1,
+     "ranks": [
+      12
+     ],
+     "distinct_pivot_patterns": 3,
+     "union_strict": true
+    },
+    {
+     "d": 2,
+     "ranks": [
+      12
+     ],
+     "distinct_pivot_patterns": 3,
+     "union_strict": true
+    },
+    {
+     "d": 3,
+     "ranks": [
+      12
+     ],
+     "distinct_pivot_patterns": 2,
+     "union_strict": true
+    },
+    {
+     "d": 4,
+     "ranks": [
+      12
+     ],
+     "distinct_pivot_patterns": 3,
+     "union_strict": true
+    }
+   ]
+  },
+  {
+   "tiny": {
+    "n": 9,
+    "k": 2,
+    "h": 3,
+    "q": 11,
+    "ranks": [
+     6
+    ],
+    "predicted_free_codim": 4
+   }
+  }
+ ],
+ "a3": [
+  {
+   "shape": {
+    "n": 16,
+    "k": 4,
+    "t": 4,
+    "q": 97
+   },
+   "ok": 300,
+   "bad": 0
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 241
+   },
+   "ok": 300,
+   "bad": 0
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 6,
+    "t": 5,
+    "q": 241
+   },
+   "ok": 300,
+   "bad": 0
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 4,
+    "t": 6,
+    "q": 101
+   },
+   "ok": 300,
+   "bad": 0
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 7,
+    "t": 7,
+    "q": 113
+   },
+   "ok": 300,
+   "bad": 0
+  },
+  {
+   "shape": {
+    "n": 18,
+    "k": 3,
+    "t": 5,
+    "q": 73
+   },
+   "ok": 300,
+   "bad": 0
+  }
+ ],
+ "a4": [
+  {
+   "shape": {
+    "n": 16,
+    "k": 4,
+    "t": 4,
+    "q": 97
+   },
+   "d": 1,
+   "realised_depth": 1,
+   "L": 2,
+   "slopes_ok": true,
+   "admissible": true,
+   "max_ray": 8,
+   "A": 8,
+   "maxJ": 5,
+   "N_total": 1
+  },
+  {
+   "shape": {
+    "n": 16,
+    "k": 4,
+    "t": 4,
+    "q": 97
+   },
+   "d": 2,
+   "realised_depth": 2,
+   "L": 3,
+   "slopes_ok": true,
+   "admissible": true,
+   "max_ray": 8,
+   "A": 8,
+   "maxJ": 6,
+   "N_total": 1
+  },
+  {
+   "shape": {
+    "n": 18,
+    "k": 4,
+    "t": 5,
+    "q": 101
+   },
+   "d": 1,
+   "realised_depth": 1,
+   "L": 2,
+   "slopes_ok": true,
+   "admissible": true,
+   "max_ray": 9,
+   "A": 9,
+   "maxJ": 5,
+   "N_total": 1
+  },
+  {
+   "shape": {
+    "n": 18,
+    "k": 4,
+    "t": 5,
+    "q": 101
+   },
+   "d": 2,
+   "realised_depth": 2,
+   "L": 2,
+   "slopes_ok": true,
+   "admissible": true,
+   "max_ray": 9,
+   "A": 9,
+   "maxJ": 6,
+   "N_total": 1
+  },
+  {
+   "shape": {
+    "n": 18,
+    "k": 4,
+    "t": 5,
+    "q": 101
+   },
+   "d": 3,
+   "realised_depth": 3,
+   "L": 2,
+   "slopes_ok": true,
+   "admissible": true,
+   "max_ray": 9,
+   "A": 9,
+   "maxJ": 7,
+   "N_total": 1
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 241
+   },
+   "d": 1,
+   "realised_depth": 1,
+   "L": 2,
+   "slopes_ok": true,
+   "admissible": true,
+   "max_ray": 10,
+   "A": 10,
+   "maxJ": 6,
+   "N_total": 1
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 241
+   },
+   "d": 2,
+   "realised_depth": 2,
+   "L": 2,
+   "slopes_ok": true,
+   "admissible": true,
+   "max_ray": 10,
+   "A": 10,
+   "maxJ": 7,
+   "N_total": 1
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 241
+   },
+   "d": 3,
+   "realised_depth": 3,
+   "L": 2,
+   "slopes_ok": true,
+   "admissible": true,
+   "max_ray": 10,
+   "A": 10,
+   "maxJ": 8,
+   "N_total": 1
+  }
+ ],
+ "_checks": 59,
+ "_failures": []
+}

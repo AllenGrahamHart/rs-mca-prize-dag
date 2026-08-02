@@ -2,90 +2,106 @@
  "b1": [
   {
    "shape": {
-    "n": 20,
-    "k": 4,
+    "n": 40,
+    "k": 5,
     "t": 4,
     "q": 241
    },
-   "R": 16,
-   "two_R": 32,
-   "ceiling_slopes_fixed": 3,
-   "ceiling_slopes_free": 5,
+   "R": 35,
+   "two_R": 70,
+   "ceiling_slopes_fixed": 8,
+   "ceiling_slopes_free": 11,
    "depths": [
     {
      "d": 1,
      "ladder": [
       {
        "M": 1,
-       "rows": 10,
        "rank": 8,
-       "predicted": 8,
-       "full": true,
-       "realisable": true,
-       "free_dims": 24
+       "additive": 8,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 2,
-       "rows": 20,
        "rank": 16,
-       "predicted": 16,
-       "full": true,
-       "realisable": true,
-       "free_dims": 16
+       "additive": 16,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 3,
-       "rows": 30,
        "rank": 24,
-       "predicted": 24,
-       "full": true,
-       "realisable": true,
-       "free_dims": 8
+       "additive": 24,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 4,
-       "rows": 40,
-       "rank": 28,
-       "predicted": 32,
-       "full": false,
-       "realisable": true,
-       "free_dims": 4
+       "rank": 32,
+       "additive": 32,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 5,
-       "rows": 50,
-       "rank": 29,
-       "predicted": 32,
-       "full": false,
-       "realisable": true,
-       "free_dims": 3
+       "rank": 40,
+       "additive": 40,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 6,
-       "rows": 60,
-       "rank": 32,
-       "predicted": 32,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
+       "rank": 48,
+       "additive": 48,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 7,
-       "rows": 70,
-       "rank": 32,
-       "predicted": 32,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
+       "rank": 56,
+       "additive": 56,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 8,
-       "rows": 80,
-       "rank": 32,
-       "predicted": 32,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
+       "rank": 64,
+       "additive": 64,
+       "deficit": 0,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 9,
+       "rank": 66,
+       "additive": 72,
+       "deficit": 6,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 10,
+       "rank": 68,
+       "additive": 80,
+       "deficit": 12,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 11,
+       "rank": 68,
+       "additive": 88,
+       "deficit": 20,
+       "sub_saturation": false,
+       "realisable": true
       }
      ]
     },
@@ -94,75 +110,91 @@
      "ladder": [
       {
        "M": 1,
-       "rows": 12,
        "rank": 8,
-       "predicted": 8,
-       "full": true,
-       "realisable": true,
-       "free_dims": 24
+       "additive": 8,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 2,
-       "rows": 24,
        "rank": 16,
-       "predicted": 16,
-       "full": true,
-       "realisable": true,
-       "free_dims": 16
+       "additive": 16,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 3,
-       "rows": 36,
        "rank": 24,
-       "predicted": 24,
-       "full": true,
-       "realisable": true,
-       "free_dims": 8
+       "additive": 24,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 4,
-       "rows": 48,
-       "rank": 27,
-       "predicted": 32,
-       "full": false,
-       "realisable": true,
-       "free_dims": 5
+       "rank": 32,
+       "additive": 32,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 5,
-       "rows": 60,
-       "rank": 30,
-       "predicted": 32,
-       "full": false,
-       "realisable": true,
-       "free_dims": 2
+       "rank": 40,
+       "additive": 40,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 6,
-       "rows": 72,
-       "rank": 32,
-       "predicted": 32,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
+       "rank": 48,
+       "additive": 48,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 7,
-       "rows": 84,
-       "rank": 32,
-       "predicted": 32,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
+       "rank": 56,
+       "additive": 56,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 8,
-       "rows": 96,
-       "rank": 32,
-       "predicted": 32,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
+       "rank": 64,
+       "additive": 64,
+       "deficit": 0,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 9,
+       "rank": 67,
+       "additive": 72,
+       "deficit": 5,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 10,
+       "rank": 57,
+       "additive": 80,
+       "deficit": 23,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 11,
+       "rank": 66,
+       "additive": 88,
+       "deficit": 22,
+       "sub_saturation": false,
+       "realisable": true
       }
      ]
     }
@@ -170,14 +202,736 @@
   },
   {
    "shape": {
-    "n": 24,
-    "k": 5,
+    "n": 44,
+    "k": 6,
+    "t": 5,
+    "q": 257
+   },
+   "R": 38,
+   "two_R": 76,
+   "ceiling_slopes_fixed": 7,
+   "ceiling_slopes_free": 9,
+   "depths": [
+    {
+     "d": 1,
+     "ladder": [
+      {
+       "M": 1,
+       "rank": 10,
+       "additive": 10,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 2,
+       "rank": 20,
+       "additive": 20,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 3,
+       "rank": 30,
+       "additive": 30,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 4,
+       "rank": 40,
+       "additive": 40,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 5,
+       "rank": 50,
+       "additive": 50,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 6,
+       "rank": 55,
+       "additive": 60,
+       "deficit": 5,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 7,
+       "rank": 69,
+       "additive": 70,
+       "deficit": 1,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 8,
+       "rank": 68,
+       "additive": 80,
+       "deficit": 12,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 9,
+       "rank": 72,
+       "additive": 90,
+       "deficit": 18,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 10,
+       "rank": 72,
+       "additive": 100,
+       "deficit": 28,
+       "sub_saturation": false,
+       "realisable": true
+      }
+     ]
+    },
+    {
+     "d": 2,
+     "ladder": [
+      {
+       "M": 1,
+       "rank": 10,
+       "additive": 10,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 2,
+       "rank": 20,
+       "additive": 20,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 3,
+       "rank": 30,
+       "additive": 30,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 4,
+       "rank": 40,
+       "additive": 40,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 5,
+       "rank": 50,
+       "additive": 50,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 6,
+       "rank": 60,
+       "additive": 60,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 7,
+       "rank": 65,
+       "additive": 70,
+       "deficit": 5,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 8,
+       "rank": 68,
+       "additive": 80,
+       "deficit": 12,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 9,
+       "rank": 72,
+       "additive": 90,
+       "deficit": 18,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 10,
+       "rank": 68,
+       "additive": 100,
+       "deficit": 32,
+       "sub_saturation": false,
+       "realisable": true
+      }
+     ]
+    },
+    {
+     "d": 3,
+     "ladder": [
+      {
+       "M": 1,
+       "rank": 10,
+       "additive": 10,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 2,
+       "rank": 20,
+       "additive": 20,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 3,
+       "rank": 30,
+       "additive": 30,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 4,
+       "rank": 40,
+       "additive": 40,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 5,
+       "rank": 50,
+       "additive": 50,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 6,
+       "rank": 56,
+       "additive": 60,
+       "deficit": 4,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 7,
+       "rank": 69,
+       "additive": 70,
+       "deficit": 1,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 8,
+       "rank": 69,
+       "additive": 80,
+       "deficit": 11,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 9,
+       "rank": 73,
+       "additive": 90,
+       "deficit": 17,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 10,
+       "rank": 73,
+       "additive": 100,
+       "deficit": 27,
+       "sub_saturation": false,
+       "realisable": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "shape": {
+    "n": 36,
+    "k": 4,
+    "t": 4,
+    "q": 241
+   },
+   "R": 32,
+   "two_R": 64,
+   "ceiling_slopes_fixed": 7,
+   "ceiling_slopes_free": 10,
+   "depths": [
+    {
+     "d": 1,
+     "ladder": [
+      {
+       "M": 1,
+       "rank": 8,
+       "additive": 8,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 2,
+       "rank": 16,
+       "additive": 16,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 3,
+       "rank": 24,
+       "additive": 24,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 4,
+       "rank": 32,
+       "additive": 32,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 5,
+       "rank": 40,
+       "additive": 40,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 6,
+       "rank": 48,
+       "additive": 48,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 7,
+       "rank": 54,
+       "additive": 56,
+       "deficit": 2,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 8,
+       "rank": 57,
+       "additive": 64,
+       "deficit": 7,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 9,
+       "rank": 59,
+       "additive": 72,
+       "deficit": 13,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 10,
+       "rank": 59,
+       "additive": 80,
+       "deficit": 21,
+       "sub_saturation": false,
+       "realisable": true
+      }
+     ]
+    },
+    {
+     "d": 2,
+     "ladder": [
+      {
+       "M": 1,
+       "rank": 8,
+       "additive": 8,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 2,
+       "rank": 16,
+       "additive": 16,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 3,
+       "rank": 24,
+       "additive": 24,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 4,
+       "rank": 32,
+       "additive": 32,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 5,
+       "rank": 40,
+       "additive": 40,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 6,
+       "rank": 44,
+       "additive": 48,
+       "deficit": 4,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 7,
+       "rank": 49,
+       "additive": 56,
+       "deficit": 7,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 8,
+       "rank": 54,
+       "additive": 64,
+       "deficit": 10,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 9,
+       "rank": 58,
+       "additive": 72,
+       "deficit": 14,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 10,
+       "rank": 62,
+       "additive": 80,
+       "deficit": 18,
+       "sub_saturation": false,
+       "realisable": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "shape": {
+    "n": 48,
+    "k": 8,
     "t": 5,
     "q": 241
    },
-   "R": 19,
-   "two_R": 38,
-   "ceiling_slopes_fixed": 3,
+   "R": 40,
+   "two_R": 80,
+   "ceiling_slopes_fixed": 7,
+   "ceiling_slopes_free": 9,
+   "depths": [
+    {
+     "d": 1,
+     "ladder": [
+      {
+       "M": 1,
+       "rank": 10,
+       "additive": 10,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 2,
+       "rank": 20,
+       "additive": 20,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 3,
+       "rank": 30,
+       "additive": 30,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 4,
+       "rank": 40,
+       "additive": 40,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 5,
+       "rank": 50,
+       "additive": 50,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 6,
+       "rank": 60,
+       "additive": 60,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 7,
+       "rank": 70,
+       "additive": 70,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 8,
+       "rank": 76,
+       "additive": 80,
+       "deficit": 4,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 9,
+       "rank": 77,
+       "additive": 90,
+       "deficit": 13,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 10,
+       "rank": 77,
+       "additive": 100,
+       "deficit": 23,
+       "sub_saturation": false,
+       "realisable": true
+      }
+     ]
+    },
+    {
+     "d": 2,
+     "ladder": [
+      {
+       "M": 1,
+       "rank": 10,
+       "additive": 10,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 2,
+       "rank": 20,
+       "additive": 20,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 3,
+       "rank": 30,
+       "additive": 30,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 4,
+       "rank": 40,
+       "additive": 40,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 5,
+       "rank": 50,
+       "additive": 50,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 6,
+       "rank": 60,
+       "additive": 60,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 7,
+       "rank": 67,
+       "additive": 70,
+       "deficit": 3,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 8,
+       "rank": 72,
+       "additive": 80,
+       "deficit": 8,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 9,
+       "rank": 76,
+       "additive": 90,
+       "deficit": 14,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 10,
+       "rank": 75,
+       "additive": 100,
+       "deficit": 25,
+       "sub_saturation": false,
+       "realisable": true
+      }
+     ]
+    },
+    {
+     "d": 3,
+     "ladder": [
+      {
+       "M": 1,
+       "rank": 10,
+       "additive": 10,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 2,
+       "rank": 20,
+       "additive": 20,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 3,
+       "rank": 30,
+       "additive": 30,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 4,
+       "rank": 40,
+       "additive": 40,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 5,
+       "rank": 50,
+       "additive": 50,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 6,
+       "rank": 60,
+       "additive": 60,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 7,
+       "rank": 70,
+       "additive": 70,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
+      },
+      {
+       "M": 8,
+       "rank": 76,
+       "additive": 80,
+       "deficit": 4,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 9,
+       "rank": 68,
+       "additive": 90,
+       "deficit": 22,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 10,
+       "rank": 77,
+       "additive": 100,
+       "deficit": 23,
+       "sub_saturation": false,
+       "realisable": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "shape": {
+    "n": 30,
+    "k": 5,
+    "t": 6,
+    "q": 241
+   },
+   "R": 25,
+   "two_R": 50,
+   "ceiling_slopes_fixed": 4,
    "ceiling_slopes_free": 4,
    "depths": [
     {
@@ -185,66 +939,59 @@
      "ladder": [
       {
        "M": 1,
-       "rows": 12,
-       "rank": 10,
-       "predicted": 10,
-       "full": true,
-       "realisable": true,
-       "free_dims": 28
+       "rank": 12,
+       "additive": 12,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 2,
-       "rows": 24,
-       "rank": 20,
-       "predicted": 20,
-       "full": true,
-       "realisable": true,
-       "free_dims": 18
+       "rank": 24,
+       "additive": 24,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 3,
-       "rows": 36,
-       "rank": 30,
-       "predicted": 30,
-       "full": true,
-       "realisable": true,
-       "free_dims": 8
+       "rank": 36,
+       "additive": 36,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 4,
-       "rows": 48,
-       "rank": 35,
-       "predicted": 38,
-       "full": false,
-       "realisable": true,
-       "free_dims": 3
+       "rank": 47,
+       "additive": 48,
+       "deficit": 1,
+       "sub_saturation": false,
+       "realisable": true
       },
       {
        "M": 5,
-       "rows": 60,
-       "rank": 38,
-       "predicted": 38,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
+       "rank": 47,
+       "additive": 60,
+       "deficit": 13,
+       "sub_saturation": false,
+       "realisable": true
       },
       {
        "M": 6,
-       "rows": 72,
-       "rank": 38,
-       "predicted": 38,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
+       "rank": 48,
+       "additive": 72,
+       "deficit": 24,
+       "sub_saturation": false,
+       "realisable": true
       },
       {
        "M": 7,
-       "rows": 84,
-       "rank": 38,
-       "predicted": 38,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
+       "rank": 49,
+       "additive": 84,
+       "deficit": 35,
+       "sub_saturation": false,
+       "realisable": true
       }
      ]
     },
@@ -253,66 +1000,59 @@
      "ladder": [
       {
        "M": 1,
-       "rows": 14,
-       "rank": 10,
-       "predicted": 10,
-       "full": true,
-       "realisable": true,
-       "free_dims": 28
+       "rank": 12,
+       "additive": 12,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 2,
-       "rows": 28,
-       "rank": 20,
-       "predicted": 20,
-       "full": true,
-       "realisable": true,
-       "free_dims": 18
+       "rank": 24,
+       "additive": 24,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 3,
-       "rows": 42,
-       "rank": 30,
-       "predicted": 30,
-       "full": true,
-       "realisable": true,
-       "free_dims": 8
+       "rank": 36,
+       "additive": 36,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 4,
-       "rows": 56,
-       "rank": 35,
-       "predicted": 38,
-       "full": false,
-       "realisable": true,
-       "free_dims": 3
+       "rank": 48,
+       "additive": 48,
+       "deficit": 0,
+       "sub_saturation": false,
+       "realisable": true
       },
       {
        "M": 5,
-       "rows": 70,
-       "rank": 38,
-       "predicted": 38,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
+       "rank": 48,
+       "additive": 60,
+       "deficit": 12,
+       "sub_saturation": false,
+       "realisable": true
       },
       {
        "M": 6,
-       "rows": 84,
-       "rank": 38,
-       "predicted": 38,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
+       "rank": 50,
+       "additive": 72,
+       "deficit": 22,
+       "sub_saturation": false,
+       "realisable": false
       },
       {
        "M": 7,
-       "rows": 98,
-       "rank": 38,
-       "predicted": 38,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
+       "rank": 50,
+       "additive": 84,
+       "deficit": 34,
+       "sub_saturation": false,
+       "realisable": false
       }
      ]
     },
@@ -321,484 +1061,59 @@
      "ladder": [
       {
        "M": 1,
-       "rows": 16,
-       "rank": 10,
-       "predicted": 10,
-       "full": true,
-       "realisable": true,
-       "free_dims": 28
+       "rank": 12,
+       "additive": 12,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 2,
-       "rows": 32,
-       "rank": 20,
-       "predicted": 20,
-       "full": true,
-       "realisable": true,
-       "free_dims": 18
+       "rank": 24,
+       "additive": 24,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 3,
-       "rows": 48,
-       "rank": 30,
-       "predicted": 30,
-       "full": true,
-       "realisable": true,
-       "free_dims": 8
-      },
-      {
-       "M": 4,
-       "rows": 64,
-       "rank": 34,
-       "predicted": 38,
-       "full": false,
-       "realisable": true,
-       "free_dims": 4
-      },
-      {
-       "M": 5,
-       "rows": 80,
        "rank": 36,
-       "predicted": 38,
-       "full": false,
-       "realisable": true,
-       "free_dims": 2
-      },
-      {
-       "M": 6,
-       "rows": 96,
-       "rank": 38,
-       "predicted": 38,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
-      },
-      {
-       "M": 7,
-       "rows": 112,
-       "rank": 38,
-       "predicted": 38,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "shape": {
-    "n": 28,
-    "k": 6,
-    "t": 5,
-    "q": 257
-   },
-   "R": 22,
-   "two_R": 44,
-   "ceiling_slopes_fixed": 4,
-   "ceiling_slopes_free": 5,
-   "depths": [
-    {
-     "d": 1,
-     "ladder": [
-      {
-       "M": 1,
-       "rows": 12,
-       "rank": 10,
-       "predicted": 10,
-       "full": true,
-       "realisable": true,
-       "free_dims": 34
-      },
-      {
-       "M": 2,
-       "rows": 24,
-       "rank": 20,
-       "predicted": 20,
-       "full": true,
-       "realisable": true,
-       "free_dims": 24
-      },
-      {
-       "M": 3,
-       "rows": 36,
-       "rank": 30,
-       "predicted": 30,
-       "full": true,
-       "realisable": true,
-       "free_dims": 14
+       "additive": 36,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 4,
-       "rows": 48,
-       "rank": 40,
-       "predicted": 40,
-       "full": true,
-       "realisable": true,
-       "free_dims": 4
-      },
-      {
-       "M": 5,
-       "rows": 60,
-       "rank": 44,
-       "predicted": 44,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
-      },
-      {
-       "M": 6,
-       "rows": 72,
-       "rank": 43,
-       "predicted": 44,
-       "full": false,
-       "realisable": true,
-       "free_dims": 1
-      },
-      {
-       "M": 7,
-       "rows": 84,
-       "rank": 43,
-       "predicted": 44,
-       "full": false,
-       "realisable": true,
-       "free_dims": 1
-      },
-      {
-       "M": 8,
-       "rows": 96,
-       "rank": 43,
-       "predicted": 44,
-       "full": false,
-       "realisable": true,
-       "free_dims": 1
-      }
-     ]
-    },
-    {
-     "d": 2,
-     "ladder": [
-      {
-       "M": 1,
-       "rows": 14,
-       "rank": 10,
-       "predicted": 10,
-       "full": true,
-       "realisable": true,
-       "free_dims": 34
-      },
-      {
-       "M": 2,
-       "rows": 28,
-       "rank": 20,
-       "predicted": 20,
-       "full": true,
-       "realisable": true,
-       "free_dims": 24
-      },
-      {
-       "M": 3,
-       "rows": 42,
-       "rank": 30,
-       "predicted": 30,
-       "full": true,
-       "realisable": true,
-       "free_dims": 14
-      },
-      {
-       "M": 4,
-       "rows": 56,
-       "rank": 37,
-       "predicted": 40,
-       "full": false,
-       "realisable": true,
-       "free_dims": 7
-      },
-      {
-       "M": 5,
-       "rows": 70,
-       "rank": 40,
-       "predicted": 44,
-       "full": false,
-       "realisable": true,
-       "free_dims": 4
-      },
-      {
-       "M": 6,
-       "rows": 84,
-       "rank": 43,
-       "predicted": 44,
-       "full": false,
-       "realisable": true,
-       "free_dims": 1
-      },
-      {
-       "M": 7,
-       "rows": 98,
        "rank": 41,
-       "predicted": 44,
-       "full": false,
-       "realisable": true,
-       "free_dims": 3
-      },
-      {
-       "M": 8,
-       "rows": 112,
-       "rank": 44,
-       "predicted": 44,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
-      }
-     ]
-    },
-    {
-     "d": 3,
-     "ladder": [
-      {
-       "M": 1,
-       "rows": 16,
-       "rank": 10,
-       "predicted": 10,
-       "full": true,
-       "realisable": true,
-       "free_dims": 34
-      },
-      {
-       "M": 2,
-       "rows": 32,
-       "rank": 20,
-       "predicted": 20,
-       "full": true,
-       "realisable": true,
-       "free_dims": 24
-      },
-      {
-       "M": 3,
-       "rows": 48,
-       "rank": 30,
-       "predicted": 30,
-       "full": true,
-       "realisable": true,
-       "free_dims": 14
-      },
-      {
-       "M": 4,
-       "rows": 64,
-       "rank": 40,
-       "predicted": 40,
-       "full": true,
-       "realisable": true,
-       "free_dims": 4
+       "additive": 48,
+       "deficit": 7,
+       "sub_saturation": false,
+       "realisable": true
       },
       {
        "M": 5,
-       "rows": 80,
-       "rank": 40,
-       "predicted": 44,
-       "full": false,
-       "realisable": true,
-       "free_dims": 4
+       "rank": 48,
+       "additive": 60,
+       "deficit": 12,
+       "sub_saturation": false,
+       "realisable": true
       },
       {
        "M": 6,
-       "rows": 96,
-       "rank": 41,
-       "predicted": 44,
-       "full": false,
-       "realisable": true,
-       "free_dims": 3
+       "rank": 48,
+       "additive": 72,
+       "deficit": 24,
+       "sub_saturation": false,
+       "realisable": true
       },
       {
        "M": 7,
-       "rows": 112,
-       "rank": 44,
-       "predicted": 44,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
-      },
-      {
-       "M": 8,
-       "rows": 128,
-       "rank": 43,
-       "predicted": 44,
-       "full": false,
-       "realisable": true,
-       "free_dims": 1
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "shape": {
-    "n": 24,
-    "k": 4,
-    "t": 6,
-    "q": 241
-   },
-   "R": 20,
-   "two_R": 40,
-   "ceiling_slopes_fixed": 3,
-   "ceiling_slopes_free": 3,
-   "depths": [
-    {
-     "d": 1,
-     "ladder": [
-      {
-       "M": 1,
-       "rows": 14,
-       "rank": 12,
-       "predicted": 12,
-       "full": true,
-       "realisable": true,
-       "free_dims": 28
-      },
-      {
-       "M": 2,
-       "rows": 28,
-       "rank": 24,
-       "predicted": 24,
-       "full": true,
-       "realisable": true,
-       "free_dims": 16
-      },
-      {
-       "M": 3,
-       "rows": 42,
-       "rank": 36,
-       "predicted": 36,
-       "full": true,
-       "realisable": true,
-       "free_dims": 4
-      },
-      {
-       "M": 4,
-       "rows": 56,
-       "rank": 40,
-       "predicted": 40,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
-      },
-      {
-       "M": 5,
-       "rows": 70,
-       "rank": 40,
-       "predicted": 40,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
-      }
-     ]
-    },
-    {
-     "d": 2,
-     "ladder": [
-      {
-       "M": 1,
-       "rows": 16,
-       "rank": 12,
-       "predicted": 12,
-       "full": true,
-       "realisable": true,
-       "free_dims": 28
-      },
-      {
-       "M": 2,
-       "rows": 32,
-       "rank": 24,
-       "predicted": 24,
-       "full": true,
-       "realisable": true,
-       "free_dims": 16
-      },
-      {
-       "M": 3,
-       "rows": 48,
-       "rank": 36,
-       "predicted": 36,
-       "full": true,
-       "realisable": true,
-       "free_dims": 4
-      },
-      {
-       "M": 4,
-       "rows": 64,
-       "rank": 40,
-       "predicted": 40,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
-      },
-      {
-       "M": 5,
-       "rows": 80,
-       "rank": 40,
-       "predicted": 40,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
-      }
-     ]
-    },
-    {
-     "d": 3,
-     "ladder": [
-      {
-       "M": 1,
-       "rows": 18,
-       "rank": 12,
-       "predicted": 12,
-       "full": true,
-       "realisable": true,
-       "free_dims": 28
-      },
-      {
-       "M": 2,
-       "rows": 36,
-       "rank": 24,
-       "predicted": 24,
-       "full": true,
-       "realisable": true,
-       "free_dims": 16
-      },
-      {
-       "M": 3,
-       "rows": 54,
-       "rank": 36,
-       "predicted": 36,
-       "full": true,
-       "realisable": true,
-       "free_dims": 4
-      },
-      {
-       "M": 4,
-       "rows": 72,
-       "rank": 37,
-       "predicted": 40,
-       "full": false,
-       "realisable": true,
-       "free_dims": 3
-      },
-      {
-       "M": 5,
-       "rows": 90,
-       "rank": 40,
-       "predicted": 40,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
-      },
-      {
-       "M": 6,
-       "rows": 108,
-       "rank": 40,
-       "predicted": 40,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
+       "rank": 50,
+       "additive": 84,
+       "deficit": 34,
+       "sub_saturation": false,
+       "realisable": false
       }
      ]
     },
@@ -807,83 +1122,71 @@
      "ladder": [
       {
        "M": 1,
-       "rows": 20,
        "rank": 12,
-       "predicted": 12,
-       "full": true,
-       "realisable": true,
-       "free_dims": 28
+       "additive": 12,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 2,
-       "rows": 40,
        "rank": 24,
-       "predicted": 24,
-       "full": true,
-       "realisable": true,
-       "free_dims": 16
+       "additive": 24,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 3,
-       "rows": 60,
-       "rank": 34,
-       "predicted": 36,
-       "full": false,
-       "realisable": true,
-       "free_dims": 6
+       "rank": 36,
+       "additive": 36,
+       "deficit": 0,
+       "sub_saturation": true,
+       "realisable": true
       },
       {
        "M": 4,
-       "rows": 80,
-       "rank": 40,
-       "predicted": 40,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
+       "rank": 43,
+       "additive": 48,
+       "deficit": 5,
+       "sub_saturation": false,
+       "realisable": true
       },
       {
        "M": 5,
-       "rows": 100,
-       "rank": 40,
-       "predicted": 40,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
+       "rank": 46,
+       "additive": 60,
+       "deficit": 14,
+       "sub_saturation": false,
+       "realisable": true
       },
       {
        "M": 6,
-       "rows": 120,
-       "rank": 40,
-       "predicted": 40,
-       "full": true,
-       "realisable": false,
-       "free_dims": 0
+       "rank": 49,
+       "additive": 72,
+       "deficit": 23,
+       "sub_saturation": false,
+       "realisable": true
+      },
+      {
+       "M": 7,
+       "rank": 50,
+       "additive": 84,
+       "deficit": 34,
+       "sub_saturation": false,
+       "realisable": false
       }
      ]
     }
    ]
   }
  ],
- "_checks": 24,
+ "_checks": 28,
  "_failures": [
-  "B1 n=20 k=4 h=4 d=1: spread family rank = min(2hM, 2R) at every M [(1, 8, 8), (2, 16, 16), (3, 24, 24), (4, 28, 32), (5, 29, 32), (6, 32, 32), (7, 32, 32), (8, 32, 32)]",
-  "B1 n=20 h=4 d=1: max realisable M = 5 <= ceiling 3 ",
-  "B1 n=20 k=4 h=4 d=2: spread family rank = min(2hM, 2R) at every M [(1, 8, 8), (2, 16, 16), (3, 24, 24), (4, 27, 32), (5, 30, 32), (6, 32, 32), (7, 32, 32), (8, 32, 32)]",
-  "B1 n=20 h=4 d=2: max realisable M = 5 <= ceiling 3 ",
-  "B1 n=24 k=5 h=5 d=1: spread family rank = min(2hM, 2R) at every M [(1, 10, 10), (2, 20, 20), (3, 30, 30), (4, 35, 38), (5, 38, 38), (6, 38, 38), (7, 38, 38)]",
-  "B1 n=24 h=5 d=1: max realisable M = 4 <= ceiling 3 ",
-  "B1 n=24 k=5 h=5 d=2: spread family rank = min(2hM, 2R) at every M [(1, 10, 10), (2, 20, 20), (3, 30, 30), (4, 35, 38), (5, 38, 38), (6, 38, 38), (7, 38, 38)]",
-  "B1 n=24 h=5 d=2: max realisable M = 4 <= ceiling 3 ",
-  "B1 n=24 k=5 h=5 d=3: spread family rank = min(2hM, 2R) at every M [(1, 10, 10), (2, 20, 20), (3, 30, 30), (4, 34, 38), (5, 36, 38), (6, 38, 38), (7, 38, 38)]",
-  "B1 n=24 h=5 d=3: max realisable M = 5 <= ceiling 3 ",
-  "B1 n=28 k=6 h=5 d=1: spread family rank = min(2hM, 2R) at every M [(1, 10, 10), (2, 20, 20), (3, 30, 30), (4, 40, 40), (5, 44, 44), (6, 43, 44), (7, 43, 44), (8, 43, 44)]",
-  "B1 n=28 h=5 d=1: max realisable M = 8 <= ceiling 4 ",
-  "B1 n=28 k=6 h=5 d=2: spread family rank = min(2hM, 2R) at every M [(1, 10, 10), (2, 20, 20), (3, 30, 30), (4, 37, 40), (5, 40, 44), (6, 43, 44), (7, 41, 44), (8, 44, 44)]",
-  "B1 n=28 h=5 d=2: max realisable M = 7 <= ceiling 4 ",
-  "B1 n=28 k=6 h=5 d=3: spread family rank = min(2hM, 2R) at every M [(1, 10, 10), (2, 20, 20), (3, 30, 30), (4, 40, 40), (5, 40, 44), (6, 41, 44), (7, 44, 44), (8, 43, 44)]",
-  "B1 n=28 h=5 d=3: max realisable M = 8 <= ceiling 4 ",
-  "B1 n=24 k=4 h=6 d=3: spread family rank = min(2hM, 2R) at every M [(1, 12, 12), (2, 24, 24), (3, 36, 36), (4, 37, 40), (5, 40, 40), (6, 40, 40)]",
-  "B1 n=24 h=6 d=3: max realisable M = 4 <= ceiling 3 ",
-  "B1 n=24 k=4 h=6 d=4: spread family rank = min(2hM, 2R) at every M [(1, 12, 12), (2, 24, 24), (3, 34, 36), (4, 40, 40), (5, 40, 40), (6, 40, 40)]"
+  "B1 n=44 k=6 h=5 d=1: rank = 2hM EXACTLY while 2hM <= 2R-2h (zero deficit for spread designed families) [(1, 10, 10), (2, 20, 20), (3, 30, 30), (4, 40, 40), (5, 50, 50), (6, 55, 60)]",
+  "B1 n=44 k=6 h=5 d=3: rank = 2hM EXACTLY while 2hM <= 2R-2h (zero deficit for spread designed families) [(1, 10, 10), (2, 20, 20), (3, 30, 30), (4, 40, 40), (5, 50, 50), (6, 56, 60)]",
+  "B1 n=36 k=4 h=4 d=1: rank = 2hM EXACTLY while 2hM <= 2R-2h (zero deficit for spread designed families) [(1, 8, 8), (2, 16, 16), (3, 24, 24), (4, 32, 32), (5, 40, 40), (6, 48, 48), (7, 54, 56)]",
+  "B1 n=36 k=4 h=4 d=2: rank = 2hM EXACTLY while 2hM <= 2R-2h (zero deficit for spread designed families) [(1, 8, 8), (2, 16, 16), (3, 24, 24), (4, 32, 32), (5, 40, 40), (6, 44, 48), (7, 49, 56)]",
+  "B1 n=48 k=8 h=5 d=2: rank = 2hM EXACTLY while 2hM <= 2R-2h (zero deficit for spread designed families) [(1, 10, 10), (2, 20, 20), (3, 30, 30), (4, 40, 40), (5, 50, 50), (6, 60, 60), (7, 67, 70)]"
  ]
 }

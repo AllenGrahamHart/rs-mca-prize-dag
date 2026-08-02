@@ -1,0 +1,69 @@
+
+=== stage a1 ===
+PASS A1 n=16 k=4 h=4 d=1: dim R(P) = 2h = 8  [[8]]
+PASS A1 n=16 k=4 h=4 d=2: dim R(P) = 2h = 8  [[8]]
+PASS A1 n=20 k=5 h=5 d=1: dim R(P) = 2h = 10  [[10]]
+PASS A1 n=20 k=5 h=5 d=2: dim R(P) = 2h = 10  [[10]]
+PASS A1 n=20 k=5 h=5 d=3: dim R(P) = 2h = 10  [[10]]
+PASS A1 n=24 k=6 h=5 d=1: dim R(P) = 2h = 10  [[10]]
+PASS A1 n=24 k=6 h=5 d=2: dim R(P) = 2h = 10  [[10]]
+PASS A1 n=24 k=6 h=5 d=3: dim R(P) = 2h = 10  [[10]]
+PASS A1 n=20 k=4 h=6 d=1: dim R(P) = 2h = 12  [[12]]
+PASS A1 n=20 k=4 h=6 d=2: dim R(P) = 2h = 12  [[12]]
+PASS A1 n=20 k=4 h=6 d=3: dim R(P) = 2h = 12  [[12]]
+PASS A1 n=20 k=4 h=6 d=4: dim R(P) = 2h = 12  [[12]]
+PASS A1 n=28 k=7 h=7 d=1: dim R(P) = 2h = 14  [[14]]
+PASS A1 n=28 k=7 h=7 d=2: dim R(P) = 2h = 14  [[14]]
+PASS A1 n=28 k=7 h=7 d=3: dim R(P) = 2h = 14  [[14]]
+PASS A1 n=28 k=7 h=7 d=4: dim R(P) = 2h = 14  [[14]]
+PASS A1 n=28 k=7 h=7 d=5: dim R(P) = 2h = 14  [[14]]
+PASS A1 n=18 k=3 h=5 d=1: dim R(P) = 2h = 10  [[10]]
+PASS A1 n=18 k=3 h=5 d=2: dim R(P) = 2h = 10  [[10]]
+PASS A1 n=18 k=3 h=5 d=3: dim R(P) = 2h = 10  [[10]]
+
+=== stage a2 ===
+PASS A2 n=16 h=4 d=1: every slope pair has rank 2h  [[8]]
+PASS A2 n=16 h=4 d=1: distinct slope pairs -> strictly larger joint rank (union codim = 2h-2 = 6)
+PASS A2 n=16 h=4 d=2: every slope pair has rank 2h  [[8]]
+PASS A2 n=16 h=4 d=2: distinct slope pairs -> strictly larger joint rank (union codim = 2h-2 = 6)
+PASS A2 n=20 h=5 d=1: every slope pair has rank 2h  [[10]]
+PASS A2 n=20 h=5 d=1: distinct slope pairs -> strictly larger joint rank (union codim = 2h-2 = 8)
+PASS A2 n=20 h=5 d=2: every slope pair has rank 2h  [[10]]
+PASS A2 n=20 h=5 d=2: distinct slope pairs -> strictly larger joint rank (union codim = 2h-2 = 8)
+PASS A2 n=20 h=5 d=3: every slope pair has rank 2h  [[10]]
+PASS A2 n=20 h=5 d=3: distinct slope pairs -> strictly larger joint rank (union codim = 2h-2 = 8)
+PASS A2 n=24 h=5 d=1: every slope pair has rank 2h  [[10]]
+PASS A2 n=24 h=5 d=1: distinct slope pairs -> strictly larger joint rank (union codim = 2h-2 = 8)
+PASS A2 n=24 h=5 d=2: every slope pair has rank 2h  [[10]]
+PASS A2 n=24 h=5 d=2: distinct slope pairs -> strictly larger joint rank (union codim = 2h-2 = 8)
+PASS A2 n=24 h=5 d=3: every slope pair has rank 2h  [[10]]
+PASS A2 n=24 h=5 d=3: distinct slope pairs -> strictly larger joint rank (union codim = 2h-2 = 8)
+PASS A2 n=20 h=6 d=1: every slope pair has rank 2h  [[12]]
+PASS A2 n=20 h=6 d=1: distinct slope pairs -> strictly larger joint rank (union codim = 2h-2 = 10)
+PASS A2 n=20 h=6 d=2: every slope pair has rank 2h  [[12]]
+PASS A2 n=20 h=6 d=2: distinct slope pairs -> strictly larger joint rank (union codim = 2h-2 = 10)
+PASS A2 n=20 h=6 d=3: every slope pair has rank 2h  [[12]]
+PASS A2 n=20 h=6 d=3: distinct slope pairs -> strictly larger joint rank (union codim = 2h-2 = 10)
+PASS A2 n=20 h=6 d=4: every slope pair has rank 2h  [[12]]
+PASS A2 n=20 h=6 d=4: distinct slope pairs -> strictly larger joint rank (union codim = 2h-2 = 10)
+PASS A2 tiny n=9 k=2 h=3: all prescribed-slope ranks = 2h = 6
+
+=== stage a3 ===
+PASS A3 L1 on n=16 k=4: dim(C_S ^ C_T) = max(0,|S^T|-k)  [300 ok / 0 bad]
+PASS A3 L1 on n=20 k=5: dim(C_S ^ C_T) = max(0,|S^T|-k)  [300 ok / 0 bad]
+PASS A3 L1 on n=24 k=6: dim(C_S ^ C_T) = max(0,|S^T|-k)  [300 ok / 0 bad]
+PASS A3 L1 on n=20 k=4: dim(C_S ^ C_T) = max(0,|S^T|-k)  [300 ok / 0 bad]
+PASS A3 L1 on n=28 k=7: dim(C_S ^ C_T) = max(0,|S^T|-k)  [300 ok / 0 bad]
+PASS A3 L1 on n=18 k=3: dim(C_S ^ C_T) = max(0,|S^T|-k)  [300 ok / 0 bad]
+
+=== stage a4 ===
+PASS A4 n=16 h=4 d=1: datum realised as a depth-1 band pair with >= 2 live slopes  [{"d": 1, "realised_depth": 1, "L": 2, "slopes_ok": true, "admissible": true, "max_ray": 8, "A": 8, "maxJ": 5, "N_total": 1}]
+PASS A4 n=16 h=4 d=2: datum realised as a depth-2 band pair with >= 2 live slopes  [{"d": 2, "realised_depth": 2, "L": 3, "slopes_ok": true, "admissible": true, "max_ray": 8, "A": 8, "maxJ": 6, "N_total": 1}]
+PASS A4 n=18 h=5 d=1: datum realised as a depth-1 band pair with >= 2 live slopes  [{"d": 1, "realised_depth": 1, "L": 2, "slopes_ok": true, "admissible": true, "max_ray": 9, "A": 9, "maxJ": 5, "N_total": 1}]
+PASS A4 n=18 h=5 d=2: datum realised as a depth-2 band pair with >= 2 live slopes  [{"d": 2, "realised_depth": 2, "L": 2, "slopes_ok": true, "admissible": true, "max_ray": 9, "A": 9, "maxJ": 6, "N_total": 1}]
+PASS A4 n=18 h=5 d=3: datum realised as a depth-3 band pair with >= 2 live slopes  [{"d": 3, "realised_depth": 3, "L": 2, "slopes_ok": true, "admissible": true, "max_ray": 9, "A": 9, "maxJ": 7, "N_total": 1}]
+PASS A4 n=20 h=5 d=1: datum realised as a depth-1 band pair with >= 2 live slopes  [{"d": 1, "realised_depth": 1, "L": 2, "slopes_ok": true, "admissible": true, "max_ray": 10, "A": 10, "maxJ": 6, "N_total": 1}]
+PASS A4 n=20 h=5 d=2: datum realised as a depth-2 band pair with >= 2 live slopes  [{"d": 2, "realised_depth": 2, "L": 2, "slopes_ok": true, "admissible": true, "max_ray": 10, "A": 10, "maxJ": 7, "N_total": 1}]
+PASS A4 n=20 h=5 d=3: datum realised as a depth-3 band pair with >= 2 live slopes  [{"d": 3, "realised_depth": 3, "L": 2, "slopes_ok": true, "admissible": true, "max_ray": 10, "A": 10, "maxJ": 8, "N_total": 1}]
+
+checks=59 failures=0

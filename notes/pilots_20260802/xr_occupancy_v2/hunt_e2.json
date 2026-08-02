@@ -1,0 +1,1640 @@
+{
+ "e2": [
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "spread",
+   "d": 1,
+   "m": 2,
+   "N_total": 2,
+   "M_counted": 2,
+   "rank": 20,
+   "cost_per_pair": 10.0,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.08333333333333333,
+   "N_over_n2": 0.003472222222222222
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "spread",
+   "d": 1,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 30,
+   "cost_per_pair": 10.0,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.125,
+   "N_over_n2": 0.005208333333333333
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "spread",
+   "d": 2,
+   "m": 2,
+   "N_total": 2,
+   "M_counted": 2,
+   "rank": 20,
+   "cost_per_pair": 10.0,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.08333333333333333,
+   "N_over_n2": 0.003472222222222222
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 15,
+   "cost_per_pair": 5.0,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.125,
+   "N_over_n2": 0.005208333333333333
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 20,
+   "cost_per_pair": 5.0,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.16666666666666666,
+   "N_over_n2": 0.006944444444444444
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 5,
+   "N_total": 5,
+   "M_counted": 5,
+   "rank": 25,
+   "cost_per_pair": 5.0,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.20833333333333334,
+   "N_over_n2": 0.008680555555555556
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 2,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 15,
+   "cost_per_pair": 5.0,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.125,
+   "N_over_n2": 0.005208333333333333
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 2,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 21,
+   "cost_per_pair": 5.25,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.16666666666666666,
+   "N_over_n2": 0.006944444444444444
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 2,
+   "m": 5,
+   "N_total": 5,
+   "M_counted": 5,
+   "rank": 26,
+   "cost_per_pair": 5.2,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.20833333333333334,
+   "N_over_n2": 0.008680555555555556
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 2,
+   "m": 6,
+   "N_total": 6,
+   "M_counted": 6,
+   "rank": 31,
+   "cost_per_pair": 5.166666666666667,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.25,
+   "N_over_n2": 0.010416666666666666
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 2,
+   "m": 7,
+   "N_total": 7,
+   "M_counted": 7,
+   "rank": 36,
+   "cost_per_pair": 5.142857142857143,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.2916666666666667,
+   "N_over_n2": 0.012152777777777778
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "sunflower2",
+   "d": 2,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 15,
+   "cost_per_pair": 5.0,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.125,
+   "N_over_n2": 0.005208333333333333
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 15,
+   "cost_per_pair": 5.0,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.125,
+   "N_over_n2": 0.005208333333333333
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 1,
+   "N_total": 1,
+   "M_counted": 1,
+   "rank": 10,
+   "cost_per_pair": 10.0,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.041666666666666664,
+   "N_over_n2": 0.001736111111111111
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 2,
+   "N_total": 2,
+   "M_counted": 2,
+   "rank": 15,
+   "cost_per_pair": 7.5,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.08333333333333333,
+   "N_over_n2": 0.003472222222222222
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 2,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 21,
+   "cost_per_pair": 5.25,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.16666666666666666,
+   "N_over_n2": 0.006944444444444444
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 2,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 21,
+   "cost_per_pair": 5.25,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.16666666666666666,
+   "N_over_n2": 0.006944444444444444
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 2,
+   "m": 5,
+   "N_total": 5,
+   "M_counted": 5,
+   "rank": 26,
+   "cost_per_pair": 5.2,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.20833333333333334,
+   "N_over_n2": 0.008680555555555556
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 2,
+   "m": 6,
+   "N_total": 6,
+   "M_counted": 6,
+   "rank": 31,
+   "cost_per_pair": 5.166666666666667,
+   "two_R": 40,
+   "h": 5,
+   "N_over_n": 0.25,
+   "N_over_n2": 0.010416666666666666
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "spread",
+   "d": 1,
+   "m": 2,
+   "N_total": 2,
+   "M_counted": 2,
+   "rank": 12,
+   "cost_per_pair": 6.0,
+   "two_R": 34,
+   "h": 3,
+   "N_over_n": 0.1,
+   "N_over_n2": 0.005
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "spread",
+   "d": 1,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 18,
+   "cost_per_pair": 6.0,
+   "two_R": 34,
+   "h": 3,
+   "N_over_n": 0.15,
+   "N_over_n2": 0.0075
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "spread",
+   "d": 1,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 23,
+   "cost_per_pair": 5.75,
+   "two_R": 34,
+   "h": 3,
+   "N_over_n": 0.2,
+   "N_over_n2": 0.01
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 9,
+   "cost_per_pair": 3.0,
+   "two_R": 34,
+   "h": 3,
+   "N_over_n": 0.15,
+   "N_over_n2": 0.0075
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 13,
+   "cost_per_pair": 3.25,
+   "two_R": 34,
+   "h": 3,
+   "N_over_n": 0.2,
+   "N_over_n2": 0.01
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 5,
+   "N_total": 5,
+   "M_counted": 5,
+   "rank": 16,
+   "cost_per_pair": 3.2,
+   "two_R": 34,
+   "h": 3,
+   "N_over_n": 0.25,
+   "N_over_n2": 0.0125
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 6,
+   "N_total": 6,
+   "M_counted": 6,
+   "rank": 20,
+   "cost_per_pair": 3.3333333333333335,
+   "two_R": 34,
+   "h": 3,
+   "N_over_n": 0.3,
+   "N_over_n2": 0.015
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 7,
+   "N_total": 7,
+   "M_counted": 7,
+   "rank": 23,
+   "cost_per_pair": 3.2857142857142856,
+   "two_R": 34,
+   "h": 3,
+   "N_over_n": 0.35,
+   "N_over_n2": 0.0175
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 8,
+   "N_total": 8,
+   "M_counted": 8,
+   "rank": 26,
+   "cost_per_pair": 3.25,
+   "two_R": 34,
+   "h": 3,
+   "N_over_n": 0.4,
+   "N_over_n2": 0.02
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 9,
+   "N_total": 9,
+   "M_counted": 9,
+   "rank": 29,
+   "cost_per_pair": 3.2222222222222223,
+   "two_R": 34,
+   "h": 3,
+   "N_over_n": 0.45,
+   "N_over_n2": 0.0225
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower2",
+   "d": 1,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 12,
+   "cost_per_pair": 3.0,
+   "two_R": 34,
+   "h": 3,
+   "N_over_n": 0.2,
+   "N_over_n2": 0.01
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 9,
+   "cost_per_pair": 3.0,
+   "two_R": 34,
+   "h": 3,
+   "N_over_n": 0.15,
+   "N_over_n2": 0.0075
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 12,
+   "cost_per_pair": 3.0,
+   "two_R": 34,
+   "h": 3,
+   "N_over_n": 0.2,
+   "N_over_n2": 0.01
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 5,
+   "N_total": 5,
+   "M_counted": 5,
+   "rank": 17,
+   "cost_per_pair": 3.4,
+   "two_R": 34,
+   "h": 3,
+   "N_over_n": 0.25,
+   "N_over_n2": 0.0125
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 6,
+   "N_total": 6,
+   "M_counted": 6,
+   "rank": 20,
+   "cost_per_pair": 3.3333333333333335,
+   "two_R": 34,
+   "h": 3,
+   "N_over_n": 0.3,
+   "N_over_n2": 0.015
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 7,
+   "N_total": 7,
+   "M_counted": 7,
+   "rank": 23,
+   "cost_per_pair": 3.2857142857142856,
+   "two_R": 34,
+   "h": 3,
+   "N_over_n": 0.35,
+   "N_over_n2": 0.0175
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 8,
+   "N_total": 8,
+   "M_counted": 8,
+   "rank": 27,
+   "cost_per_pair": 3.375,
+   "two_R": 34,
+   "h": 3,
+   "N_over_n": 0.4,
+   "N_over_n2": 0.02
+  },
+  {
+   "shape": {
+    "n": 26,
+    "k": 5,
+    "t": 7,
+    "q": 6421
+   },
+   "tag": "spread",
+   "d": 1,
+   "m": 2,
+   "N_total": 2,
+   "M_counted": 2,
+   "rank": 28,
+   "cost_per_pair": 14.0,
+   "two_R": 42,
+   "h": 7,
+   "N_over_n": 0.07692307692307693,
+   "N_over_n2": 0.0029585798816568047
+  },
+  {
+   "shape": {
+    "n": 26,
+    "k": 5,
+    "t": 7,
+    "q": 6421
+   },
+   "tag": "spread",
+   "d": 2,
+   "m": 2,
+   "N_total": 2,
+   "M_counted": 2,
+   "rank": 28,
+   "cost_per_pair": 14.0,
+   "two_R": 42,
+   "h": 7,
+   "N_over_n": 0.07692307692307693,
+   "N_over_n2": 0.0029585798816568047
+  },
+  {
+   "shape": {
+    "n": 26,
+    "k": 5,
+    "t": 7,
+    "q": 6421
+   },
+   "tag": "spread",
+   "d": 3,
+   "m": 2,
+   "N_total": 2,
+   "M_counted": 2,
+   "rank": 28,
+   "cost_per_pair": 14.0,
+   "two_R": 42,
+   "h": 7,
+   "N_over_n": 0.07692307692307693,
+   "N_over_n2": 0.0029585798816568047
+  },
+  {
+   "shape": {
+    "n": 26,
+    "k": 5,
+    "t": 7,
+    "q": 6421
+   },
+   "tag": "spread",
+   "d": 4,
+   "m": 2,
+   "N_total": 2,
+   "M_counted": 2,
+   "rank": 28,
+   "cost_per_pair": 14.0,
+   "two_R": 42,
+   "h": 7,
+   "N_over_n": 0.07692307692307693,
+   "N_over_n2": 0.0029585798816568047
+  },
+  {
+   "shape": {
+    "n": 26,
+    "k": 5,
+    "t": 7,
+    "q": 6421
+   },
+   "tag": "spread",
+   "d": 5,
+   "m": 2,
+   "N_total": 2,
+   "M_counted": 2,
+   "rank": 28,
+   "cost_per_pair": 14.0,
+   "two_R": 42,
+   "h": 7,
+   "N_over_n": 0.07692307692307693,
+   "N_over_n2": 0.0029585798816568047
+  },
+  {
+   "shape": {
+    "n": 26,
+    "k": 5,
+    "t": 7,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 21,
+   "cost_per_pair": 7.0,
+   "two_R": 42,
+   "h": 7,
+   "N_over_n": 0.11538461538461539,
+   "N_over_n2": 0.004437869822485207
+  },
+  {
+   "shape": {
+    "n": 26,
+    "k": 5,
+    "t": 7,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 2,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 21,
+   "cost_per_pair": 7.0,
+   "two_R": 42,
+   "h": 7,
+   "N_over_n": 0.11538461538461539,
+   "N_over_n2": 0.004437869822485207
+  },
+  {
+   "shape": {
+    "n": 26,
+    "k": 5,
+    "t": 7,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 2,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 28,
+   "cost_per_pair": 7.0,
+   "two_R": 42,
+   "h": 7,
+   "N_over_n": 0.15384615384615385,
+   "N_over_n2": 0.005917159763313609
+  },
+  {
+   "shape": {
+    "n": 26,
+    "k": 5,
+    "t": 7,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 3,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 21,
+   "cost_per_pair": 7.0,
+   "two_R": 42,
+   "h": 7,
+   "N_over_n": 0.11538461538461539,
+   "N_over_n2": 0.004437869822485207
+  },
+  {
+   "shape": {
+    "n": 26,
+    "k": 5,
+    "t": 7,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 3,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 29,
+   "cost_per_pair": 7.25,
+   "two_R": 42,
+   "h": 7,
+   "N_over_n": 0.15384615384615385,
+   "N_over_n2": 0.005917159763313609
+  },
+  {
+   "shape": {
+    "n": 26,
+    "k": 5,
+    "t": 7,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 3,
+   "m": 5,
+   "N_total": 5,
+   "M_counted": 5,
+   "rank": 36,
+   "cost_per_pair": 7.2,
+   "two_R": 42,
+   "h": 7,
+   "N_over_n": 0.19230769230769232,
+   "N_over_n2": 0.0073964497041420114
+  },
+  {
+   "shape": {
+    "n": 26,
+    "k": 5,
+    "t": 7,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 21,
+   "cost_per_pair": 7.0,
+   "two_R": 42,
+   "h": 7,
+   "N_over_n": 0.11538461538461539,
+   "N_over_n2": 0.004437869822485207
+  },
+  {
+   "shape": {
+    "n": 26,
+    "k": 5,
+    "t": 7,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 3,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 21,
+   "cost_per_pair": 7.0,
+   "two_R": 42,
+   "h": 7,
+   "N_over_n": 0.11538461538461539,
+   "N_over_n2": 0.004437869822485207
+  },
+  {
+   "shape": {
+    "n": 26,
+    "k": 5,
+    "t": 7,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 3,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 29,
+   "cost_per_pair": 7.25,
+   "two_R": 42,
+   "h": 7,
+   "N_over_n": 0.15384615384615385,
+   "N_over_n2": 0.005917159763313609
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "spread",
+   "d": 1,
+   "m": 2,
+   "N_total": 2,
+   "M_counted": 2,
+   "rank": 12,
+   "cost_per_pair": 6.0,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.07142857142857142,
+   "N_over_n2": 0.002551020408163265
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "spread",
+   "d": 1,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 18,
+   "cost_per_pair": 6.0,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.10714285714285714,
+   "N_over_n2": 0.003826530612244898
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "spread",
+   "d": 1,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 21,
+   "cost_per_pair": 5.25,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.14285714285714285,
+   "N_over_n2": 0.00510204081632653
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 9,
+   "cost_per_pair": 3.0,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.10714285714285714,
+   "N_over_n2": 0.003826530612244898
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 13,
+   "cost_per_pair": 3.25,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.14285714285714285,
+   "N_over_n2": 0.00510204081632653
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 5,
+   "N_total": 5,
+   "M_counted": 5,
+   "rank": 16,
+   "cost_per_pair": 3.2,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.17857142857142858,
+   "N_over_n2": 0.006377551020408163
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 6,
+   "N_total": 6,
+   "M_counted": 6,
+   "rank": 20,
+   "cost_per_pair": 3.3333333333333335,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.21428571428571427,
+   "N_over_n2": 0.007653061224489796
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 7,
+   "N_total": 7,
+   "M_counted": 7,
+   "rank": 23,
+   "cost_per_pair": 3.2857142857142856,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.25,
+   "N_over_n2": 0.008928571428571428
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 8,
+   "N_total": 8,
+   "M_counted": 8,
+   "rank": 26,
+   "cost_per_pair": 3.25,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.2857142857142857,
+   "N_over_n2": 0.01020408163265306
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 9,
+   "N_total": 9,
+   "M_counted": 9,
+   "rank": 29,
+   "cost_per_pair": 3.2222222222222223,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.32142857142857145,
+   "N_over_n2": 0.011479591836734694
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 10,
+   "N_total": 10,
+   "M_counted": 10,
+   "rank": 33,
+   "cost_per_pair": 3.3,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.35714285714285715,
+   "N_over_n2": 0.012755102040816327
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 11,
+   "N_total": 11,
+   "M_counted": 11,
+   "rank": 37,
+   "cost_per_pair": 3.3636363636363638,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.39285714285714285,
+   "N_over_n2": 0.01403061224489796
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 12,
+   "N_total": 12,
+   "M_counted": 12,
+   "rank": 38,
+   "cost_per_pair": 3.1666666666666665,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.42857142857142855,
+   "N_over_n2": 0.015306122448979591
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 13,
+   "N_total": 13,
+   "M_counted": 13,
+   "rank": 43,
+   "cost_per_pair": 3.3076923076923075,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.4642857142857143,
+   "N_over_n2": 0.016581632653061226
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "sunflower2",
+   "d": 1,
+   "m": 6,
+   "N_total": 6,
+   "M_counted": 6,
+   "rank": 20,
+   "cost_per_pair": 3.3333333333333335,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.21428571428571427,
+   "N_over_n2": 0.007653061224489796
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 9,
+   "cost_per_pair": 3.0,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.10714285714285714,
+   "N_over_n2": 0.003826530612244898
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 13,
+   "cost_per_pair": 3.25,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.14285714285714285,
+   "N_over_n2": 0.00510204081632653
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 13,
+   "cost_per_pair": 3.25,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.14285714285714285,
+   "N_over_n2": 0.00510204081632653
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 6,
+   "N_total": 6,
+   "M_counted": 6,
+   "rank": 20,
+   "cost_per_pair": 3.3333333333333335,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.21428571428571427,
+   "N_over_n2": 0.007653061224489796
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 7,
+   "N_total": 7,
+   "M_counted": 7,
+   "rank": 23,
+   "cost_per_pair": 3.2857142857142856,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.25,
+   "N_over_n2": 0.008928571428571428
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 8,
+   "N_total": 8,
+   "M_counted": 8,
+   "rank": 26,
+   "cost_per_pair": 3.25,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.2857142857142857,
+   "N_over_n2": 0.01020408163265306
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 8,
+   "N_total": 8,
+   "M_counted": 8,
+   "rank": 27,
+   "cost_per_pair": 3.375,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.2857142857142857,
+   "N_over_n2": 0.01020408163265306
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 9,
+   "N_total": 9,
+   "M_counted": 9,
+   "rank": 29,
+   "cost_per_pair": 3.2222222222222223,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.32142857142857145,
+   "N_over_n2": 0.011479591836734694
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 10,
+   "N_total": 10,
+   "M_counted": 10,
+   "rank": 34,
+   "cost_per_pair": 3.4,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.35714285714285715,
+   "N_over_n2": 0.012755102040816327
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 12,
+   "N_total": 12,
+   "M_counted": 12,
+   "rank": 41,
+   "cost_per_pair": 3.4166666666666665,
+   "two_R": 50,
+   "h": 3,
+   "N_over_n": 0.42857142857142855,
+   "N_over_n2": 0.015306122448979591
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "spread",
+   "d": 1,
+   "m": 2,
+   "N_total": 2,
+   "M_counted": 2,
+   "rank": 20,
+   "cost_per_pair": 10.0,
+   "two_R": 30,
+   "h": 5,
+   "N_over_n": 0.1,
+   "N_over_n2": 0.005
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "spread",
+   "d": 2,
+   "m": 2,
+   "N_total": 2,
+   "M_counted": 2,
+   "rank": 20,
+   "cost_per_pair": 10.0,
+   "two_R": 30,
+   "h": 5,
+   "N_over_n": 0.1,
+   "N_over_n2": 0.005
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "spread",
+   "d": 3,
+   "m": 2,
+   "N_total": 2,
+   "M_counted": 2,
+   "rank": 20,
+   "cost_per_pair": 10.0,
+   "two_R": 30,
+   "h": 5,
+   "N_over_n": 0.1,
+   "N_over_n2": 0.005
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 15,
+   "cost_per_pair": 5.0,
+   "two_R": 30,
+   "h": 5,
+   "N_over_n": 0.15,
+   "N_over_n2": 0.0075
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 1,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 20,
+   "cost_per_pair": 5.0,
+   "two_R": 30,
+   "h": 5,
+   "N_over_n": 0.2,
+   "N_over_n2": 0.01
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 2,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 15,
+   "cost_per_pair": 5.0,
+   "two_R": 30,
+   "h": 5,
+   "N_over_n": 0.15,
+   "N_over_n2": 0.0075
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 2,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 21,
+   "cost_per_pair": 5.25,
+   "two_R": 30,
+   "h": 5,
+   "N_over_n": 0.2,
+   "N_over_n2": 0.01
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "sunflower",
+   "d": 2,
+   "m": 5,
+   "N_total": 5,
+   "M_counted": 5,
+   "rank": 26,
+   "cost_per_pair": 5.2,
+   "two_R": 30,
+   "h": 5,
+   "N_over_n": 0.25,
+   "N_over_n2": 0.0125
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 3,
+   "N_total": 3,
+   "M_counted": 3,
+   "rank": 15,
+   "cost_per_pair": 5.0,
+   "two_R": 30,
+   "h": 5,
+   "N_over_n": 0.15,
+   "N_over_n2": 0.0075
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 1,
+   "m": 1,
+   "N_total": 1,
+   "M_counted": 1,
+   "rank": 10,
+   "cost_per_pair": 10.0,
+   "two_R": 30,
+   "h": 5,
+   "N_over_n": 0.05,
+   "N_over_n2": 0.0025
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 5,
+    "t": 5,
+    "q": 6421
+   },
+   "tag": "climb",
+   "d": 2,
+   "m": 4,
+   "N_total": 4,
+   "M_counted": 4,
+   "rank": 21,
+   "cost_per_pair": 5.25,
+   "two_R": 30,
+   "h": 5,
+   "N_over_n": 0.2,
+   "N_over_n2": 0.01
+  }
+ ],
+ "_checks": 5,
+ "_failures": []
+}

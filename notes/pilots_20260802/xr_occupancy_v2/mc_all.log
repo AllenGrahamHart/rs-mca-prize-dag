@@ -25,4 +25,30 @@ PASS C1 MC n=24 k=6 w=3: the MC family sits at depth w=3 = h-1 (the cascade tier
 PASS C1 MC n=24 k=6 w=3: max joint agreement is exactly A-1 (one step outside below-cascade) or the family is absent  [maxJ=9 A-1=9]
 PASS C1 MC n=24 k=6 w=3: MC count reproduced by the exhaustive band scan  [scan=7 formula=7]
 
-checks=18 failures=0
+=== stage c2 ===
+  orbit n=16 k=4 h=4 (a,b)=(4,5): adm=True maxJ=4 maxray=0 N_band=0 costs={}
+  orbit n=16 k=4 h=4 (a,b)=(15,14): adm=True maxJ=4 maxray=0 N_band=0 costs={}
+  orbit n=16 k=4 h=4 (a,b)=(4,15): adm=True maxJ=4 maxray=0 N_band=0 costs={}
+  orbit n=16 k=4 h=4 (a,b)=(5,6): adm=True maxJ=4 maxray=0 N_band=0 costs={}
+  orbit n=20 k=4 h=5 (a,b)=(4,5): adm=True maxJ=4 maxray=0 N_band=0 costs={}
+  orbit n=20 k=4 h=5 (a,b)=(19,18): adm=True maxJ=4 maxray=0 N_band=0 costs={}
+  orbit n=20 k=4 h=5 (a,b)=(4,19): adm=True maxJ=4 maxray=0 N_band=0 costs={}
+  orbit n=20 k=4 h=5 (a,b)=(5,6): adm=True maxJ=5 maxray=0 N_band=0 costs={}
+  orbit n=20 k=5 h=5 (a,b)=(5,6): adm=True maxJ=5 maxray=0 N_band=0 costs={}
+  orbit n=20 k=5 h=5 (a,b)=(19,18): adm=True maxJ=5 maxray=0 N_band=0 costs={}
+  orbit n=20 k=5 h=5 (a,b)=(5,19): adm=True maxJ=5 maxray=0 N_band=0 costs={}
+  orbit n=20 k=5 h=5 (a,b)=(6,7): adm=True maxJ=6 maxray=0 N_band=0 costs={}
+  orbit n=24 k=6 h=5 (a,b)=(6,7): adm=True maxJ=6 maxray=0 N_band=0 costs={}
+  orbit n=24 k=6 h=5 (a,b)=(23,22): adm=True maxJ=6 maxray=0 N_band=0 costs={}
+  orbit n=24 k=6 h=5 (a,b)=(6,23): adm=True maxJ=6 maxray=0 N_band=0 costs={}
+  orbit n=24 k=6 h=5 (a,b)=(7,8): adm=True maxJ=7 maxray=0 N_band=0 costs={}
+  orbit n=18 k=4 h=5 (a,b)=(4,5): adm=True maxJ=4 maxray=0 N_band=0 costs={}
+  orbit n=18 k=4 h=5 (a,b)=(17,16): adm=True maxJ=4 maxray=0 N_band=0 costs={}
+  orbit n=18 k=4 h=5 (a,b)=(4,17): adm=True maxJ=4 maxray=0 N_band=0 costs={}
+  orbit n=18 k=4 h=5 (a,b)=(5,6): adm=True maxJ=4 maxray=0 N_band=0 costs={}
+  orbit n=16 k=4 h=3 (a,b)=(4,5): adm=True maxJ=4 maxray=0 N_band=0 costs={}
+  orbit n=16 k=4 h=3 (a,b)=(15,14): adm=True maxJ=4 maxray=0 N_band=0 costs={}
+  orbit n=16 k=4 h=3 (a,b)=(4,15): adm=True maxJ=4 maxray=0 N_band=0 costs={}
+  orbit n=16 k=4 h=3 (a,b)=(5,6): adm=True maxJ=5 maxray=0 N_band=0 costs={}
+
+=== stage c3 ===

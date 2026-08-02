@@ -1,0 +1,284 @@
+{
+ "e1": [
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 241
+   },
+   "d": 1,
+   "random_worst": [
+    0,
+    18,
+    18,
+    18
+   ],
+   "sunflower": [
+    5,
+    5,
+    5
+   ],
+   "orbit": [
+    12,
+    12,
+    12
+   ],
+   "R": 20
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 241
+   },
+   "d": 2,
+   "random_worst": [
+    -2,
+    9,
+    16,
+    18
+   ],
+   "sunflower": [
+    14,
+    14,
+    7
+   ],
+   "orbit": [
+    16,
+    16,
+    8
+   ],
+   "R": 20
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 241
+   },
+   "d": 3,
+   "random_worst": [
+    -3,
+    6,
+    15,
+    18
+   ],
+   "sunflower": null,
+   "orbit": [
+    18,
+    18,
+    6
+   ],
+   "R": 20
+  },
+  {
+   "shape": {
+    "n": 30,
+    "k": 5,
+    "t": 5,
+    "q": 241
+   },
+   "d": 1,
+   "random_worst": [
+    0,
+    23,
+    23,
+    23
+   ],
+   "sunflower": [
+    6,
+    6,
+    6
+   ],
+   "orbit": [
+    15,
+    15,
+    15
+   ],
+   "R": 25
+  },
+  {
+   "shape": {
+    "n": 30,
+    "k": 5,
+    "t": 5,
+    "q": 241
+   },
+   "d": 2,
+   "random_worst": [
+    -2,
+    11,
+    20,
+    22
+   ],
+   "sunflower": [
+    16,
+    16,
+    8
+   ],
+   "orbit": [
+    20,
+    20,
+    10
+   ],
+   "R": 25
+  },
+  {
+   "shape": {
+    "n": 30,
+    "k": 5,
+    "t": 5,
+    "q": 241
+   },
+   "d": 3,
+   "random_worst": [
+    -3,
+    7,
+    18,
+    21
+   ],
+   "sunflower": null,
+   "orbit": [
+    21,
+    21,
+    7
+   ],
+   "R": 25
+  },
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 241
+   },
+   "d": 1,
+   "random_worst": [
+    0,
+    15,
+    15,
+    15
+   ],
+   "sunflower": [
+    8,
+    8,
+    8
+   ],
+   "orbit": [
+    10,
+    10,
+    10
+   ],
+   "R": 17
+  },
+  {
+   "shape": {
+    "n": 32,
+    "k": 6,
+    "t": 6,
+    "q": 257
+   },
+   "d": 1,
+   "random_worst": [
+    0,
+    24,
+    24,
+    24
+   ],
+   "sunflower": [
+    5,
+    5,
+    5
+   ],
+   "orbit": [
+    16,
+    16,
+    16
+   ],
+   "R": 26
+  },
+  {
+   "shape": {
+    "n": 32,
+    "k": 6,
+    "t": 6,
+    "q": 257
+   },
+   "d": 2,
+   "random_worst": [
+    -1,
+    12,
+    23,
+    24
+   ],
+   "sunflower": [
+    12,
+    12,
+    6
+   ],
+   "orbit": [
+    20,
+    20,
+    10
+   ],
+   "R": 26
+  },
+  {
+   "shape": {
+    "n": 32,
+    "k": 6,
+    "t": 6,
+    "q": 257
+   },
+   "d": 3,
+   "random_worst": [
+    -3,
+    8,
+    21,
+    24
+   ],
+   "sunflower": null,
+   "orbit": [
+    24,
+    24,
+    8
+   ],
+   "R": 26
+  },
+  {
+   "shape": {
+    "n": 32,
+    "k": 6,
+    "t": 6,
+    "q": 257
+   },
+   "d": 4,
+   "random_worst": [
+    -4,
+    6,
+    20,
+    24
+   ],
+   "sunflower": null,
+   "orbit": [
+    24,
+    24,
+    6
+   ],
+   "R": 26
+  }
+ ],
+ "_checks": 11,
+ "_failures": [
+  "E1 n=24 k=4 h=5 d=2: core independence dim sum C_Z = min(md, R) rand=(-2, 9, 16, 18) sun=(14, 14, 7) orbit=(16, 16, 8)",
+  "E1 n=24 k=4 h=5 d=3: core independence dim sum C_Z = min(md, R) rand=(-3, 6, 15, 18) sun=None orbit=(18, 18, 6)",
+  "E1 n=30 k=5 h=5 d=2: core independence dim sum C_Z = min(md, R) rand=(-2, 11, 20, 22) sun=(16, 16, 8) orbit=(20, 20, 10)",
+  "E1 n=30 k=5 h=5 d=3: core independence dim sum C_Z = min(md, R) rand=(-3, 7, 18, 21) sun=None orbit=(21, 21, 7)",
+  "E1 n=32 k=6 h=6 d=2: core independence dim sum C_Z = min(md, R) rand=(-1, 12, 23, 24) sun=(12, 12, 6) orbit=(20, 20, 10)",
+  "E1 n=32 k=6 h=6 d=3: core independence dim sum C_Z = min(md, R) rand=(-3, 8, 21, 24) sun=None orbit=(24, 24, 8)",
+  "E1 n=32 k=6 h=6 d=4: core independence dim sum C_Z = min(md, R) rand=(-4, 6, 20, 24) sun=None orbit=(24, 24, 6)"
+ ]
+}

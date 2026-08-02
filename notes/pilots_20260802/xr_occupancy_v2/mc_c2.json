@@ -1,0 +1,558 @@
+{
+ "c2": [
+  {
+   "n": 16,
+   "k": 4,
+   "h": 4,
+   "A": 8,
+   "q": 97,
+   "a": 4,
+   "b": 5,
+   "profile": {
+    "0": {
+     "pairs": 1820,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 4,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "h": 4,
+   "A": 8,
+   "q": 97,
+   "a": 15,
+   "b": 14,
+   "profile": {
+    "0": {
+     "pairs": 1820,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 4,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "h": 4,
+   "A": 8,
+   "q": 97,
+   "a": 4,
+   "b": 15,
+   "profile": {
+    "0": {
+     "pairs": 1820,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 4,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "h": 4,
+   "A": 8,
+   "q": 97,
+   "a": 5,
+   "b": 6,
+   "profile": {
+    "0": {
+     "pairs": 1820,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 4,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "h": 5,
+   "A": 9,
+   "q": 41,
+   "a": 4,
+   "b": 5,
+   "profile": {
+    "0": {
+     "pairs": 4845,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 4,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "h": 5,
+   "A": 9,
+   "q": 41,
+   "a": 19,
+   "b": 18,
+   "profile": {
+    "0": {
+     "pairs": 4845,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 4,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "h": 5,
+   "A": 9,
+   "q": 41,
+   "a": 4,
+   "b": 19,
+   "profile": {
+    "0": {
+     "pairs": 4845,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 4,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "h": 5,
+   "A": 9,
+   "q": 41,
+   "a": 5,
+   "b": 6,
+   "profile": {
+    "0": {
+     "pairs": 4825,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    },
+    "1": {
+     "pairs": 4,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 5,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 20,
+   "k": 5,
+   "h": 5,
+   "A": 10,
+   "q": 41,
+   "a": 5,
+   "b": 6,
+   "profile": {
+    "0": {
+     "pairs": 15504,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 5,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 20,
+   "k": 5,
+   "h": 5,
+   "A": 10,
+   "q": 41,
+   "a": 19,
+   "b": 18,
+   "profile": {
+    "0": {
+     "pairs": 15504,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 5,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 20,
+   "k": 5,
+   "h": 5,
+   "A": 10,
+   "q": 41,
+   "a": 5,
+   "b": 19,
+   "profile": {
+    "0": {
+     "pairs": 15504,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 5,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 20,
+   "k": 5,
+   "h": 5,
+   "A": 10,
+   "q": 41,
+   "a": 6,
+   "b": 7,
+   "profile": {
+    "0": {
+     "pairs": 15384,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    },
+    "1": {
+     "pairs": 20,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 6,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 24,
+   "k": 6,
+   "h": 5,
+   "A": 11,
+   "q": 73,
+   "a": 6,
+   "b": 7,
+   "profile": {
+    "0": {
+     "pairs": 134596,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 6,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 24,
+   "k": 6,
+   "h": 5,
+   "A": 11,
+   "q": 73,
+   "a": 23,
+   "b": 22,
+   "profile": {
+    "0": {
+     "pairs": 134596,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 6,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 24,
+   "k": 6,
+   "h": 5,
+   "A": 11,
+   "q": 73,
+   "a": 6,
+   "b": 23,
+   "profile": {
+    "0": {
+     "pairs": 134596,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 6,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 24,
+   "k": 6,
+   "h": 5,
+   "A": 11,
+   "q": 73,
+   "a": 7,
+   "b": 8,
+   "profile": {
+    "0": {
+     "pairs": 133924,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    },
+    "1": {
+     "pairs": 96,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 7,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 18,
+   "k": 4,
+   "h": 5,
+   "A": 9,
+   "q": 37,
+   "a": 4,
+   "b": 5,
+   "profile": {
+    "0": {
+     "pairs": 3060,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 4,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 18,
+   "k": 4,
+   "h": 5,
+   "A": 9,
+   "q": 37,
+   "a": 17,
+   "b": 16,
+   "profile": {
+    "0": {
+     "pairs": 3060,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 4,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 18,
+   "k": 4,
+   "h": 5,
+   "A": 9,
+   "q": 37,
+   "a": 4,
+   "b": 17,
+   "profile": {
+    "0": {
+     "pairs": 3060,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 4,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 18,
+   "k": 4,
+   "h": 5,
+   "A": 9,
+   "q": 37,
+   "a": 5,
+   "b": 6,
+   "profile": {
+    "0": {
+     "pairs": 3060,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 4,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "h": 3,
+   "A": 7,
+   "q": 17,
+   "a": 4,
+   "b": 5,
+   "profile": {
+    "0": {
+     "pairs": 1820,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 4,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "h": 3,
+   "A": 7,
+   "q": 17,
+   "a": 15,
+   "b": 14,
+   "profile": {
+    "0": {
+     "pairs": 1820,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 4,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "h": 3,
+   "A": 7,
+   "q": 17,
+   "a": 4,
+   "b": 15,
+   "profile": {
+    "0": {
+     "pairs": 1820,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 4,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "h": 3,
+   "A": 7,
+   "q": 17,
+   "a": 5,
+   "b": 6,
+   "profile": {
+    "0": {
+     "pairs": 1740,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    },
+    "1": {
+     "pairs": 16,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   },
+   "maxJ": 5,
+   "maxray": 0,
+   "admissible": true,
+   "two_slope_cost": {},
+   "N_band": 0
+  }
+ ],
+ "_checks": 0,
+ "_failures": []
+}

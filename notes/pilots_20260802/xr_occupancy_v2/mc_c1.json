@@ -344,12 +344,6 @@
    "N_at_cascade_depth": 7
   }
  ],
- "_checks": 12,
- "_failures": [
-  "C1 MC n=16 k=4 w=2: below-cascade gate (maxJ<=A-2) maxJ=6 A-2=5",
-  "C1 MC n=20 k=4 w=2: below-cascade gate (maxJ<=A-2) maxJ=6 A-2=5",
-  "C1 MC n=20 k=4 w=4: below-cascade gate (maxJ<=A-2) maxJ=8 A-2=7",
-  "C1 MC n=28 k=4 w=4: below-cascade gate (maxJ<=A-2) maxJ=8 A-2=7",
-  "C1 MC n=24 k=6 w=3: below-cascade gate (maxJ<=A-2) maxJ=9 A-2=8"
- ]
+ "_checks": 18,
+ "_failures": []
 }

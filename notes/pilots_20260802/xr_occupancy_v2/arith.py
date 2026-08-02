@@ -261,11 +261,56 @@ def d4():
     return res
 
 
+def d5():
+    """the FULL ledger column under the two-slope laws, exactly."""
+    print("\n=== D5  ledger column under the two-slope laws ===")
+    res = []
+    for r in ROWS:
+        n, k, h, R = r["n"], r["k"], r["h"], r["R"]
+        # sum_d N_d L(d) with N_d = sunflower law floor((R+1)/(h-d))
+        # and L(d) = floor((R-d)/(h-d)), summed by divisor blocks.
+        tot_sun = 0
+        tot_L = 0
+        d = 1
+        while d <= h - 2:
+            v = (R - d) // (h - d)
+            w = (R + 1) // (h - d)
+            lo, hi = d, h - 2
+            while lo < hi:
+                mid = (lo + hi + 1) // 2
+                if (R - mid) // (h - mid) == v and (R + 1) // (h - mid) == w:
+                    lo = mid
+                else:
+                    hi = mid - 1
+            cnt = lo - d + 1
+            tot_sun += v * w * cnt
+            tot_L += v * cnt
+            d = lo + 1
+        head = 13 * n ** 3
+        # designed ceiling column
+        cd = ((2 * R - 1) // (2 * h - 2)) * tot_L
+        res.append(dict(row=r["name"], sum_L=tot_L,
+                        column_sunflower_law=tot_sun,
+                        column_designed_ceiling=cd,
+                        headroom=head,
+                        sun_margin_log2=log2(head / tot_sun) if tot_sun else None,
+                        as_multiple_of_n2=tot_sun / n ** 2))
+        print(f"  {r['name']:<11} sum_d L(d)={tot_L:.6e}  "
+              f"sum_d N_d^sun L(d) = {tot_sun:.6e} = {tot_sun/n**2:.4f} n^2 "
+              f" (13n^3 = {head:.4e}, margin 2^{log2(head/tot_sun):.1f})")
+        chk(f"D5 {r['name']}: sunflower-law ledger column is O(n^2), "
+            f"inside 13n^3", tot_sun <= head)
+    OUT["d5"] = res
+    return res
+
+
+
 if __name__ == "__main__":
     d1()
     d2()
     d3()
     d4()
+    d5()
     OUT["_checks"] = CHECKS[0]
     OUT["_failures"] = FAIL
     with open(os.path.join(HERE, "arith.json"), "w") as f:
@@ -273,3 +318,4 @@ if __name__ == "__main__":
     print(f"\nchecks={CHECKS[0]} failures={len(FAIL)}")
     if FAIL:
         print("\n".join(FAIL[:20]))
+

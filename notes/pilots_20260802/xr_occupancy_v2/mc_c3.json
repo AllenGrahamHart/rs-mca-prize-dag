@@ -1,0 +1,208 @@
+{
+ "c3": [
+  {
+   "n": 16,
+   "k": 4,
+   "h": 4,
+   "q": 97,
+   "Msub": 2,
+   "trial": 0,
+   "admissible": true,
+   "maxJ": 5,
+   "maxray": 0,
+   "N_band": 0,
+   "profile": {
+    "0": {
+     "pairs": 1805,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    },
+    "1": {
+     "pairs": 3,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   }
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "h": 4,
+   "q": 97,
+   "Msub": 4,
+   "trial": 0,
+   "admissible": true,
+   "maxJ": 5,
+   "maxray": 0,
+   "N_band": 0,
+   "profile": {
+    "0": {
+     "pairs": 1815,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    },
+    "1": {
+     "pairs": 1,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   }
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "h": 5,
+   "q": 41,
+   "Msub": 2,
+   "trial": 0,
+   "admissible": true,
+   "maxJ": 5,
+   "maxray": 0,
+   "N_band": 0,
+   "profile": {
+    "0": {
+     "pairs": 4815,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    },
+    "1": {
+     "pairs": 6,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   }
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "h": 5,
+   "q": 41,
+   "Msub": 4,
+   "trial": 2,
+   "admissible": true,
+   "maxJ": 5,
+   "maxray": 0,
+   "N_band": 0,
+   "profile": {
+    "0": {
+     "pairs": 4805,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    },
+    "1": {
+     "pairs": 8,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   }
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "h": 5,
+   "q": 101,
+   "Msub": 5,
+   "trial": 2,
+   "admissible": true,
+   "maxJ": 4,
+   "maxray": 0,
+   "N_band": 0,
+   "profile": {
+    "0": {
+     "pairs": 4845,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   }
+  },
+  {
+   "n": 24,
+   "k": 4,
+   "h": 5,
+   "q": 73,
+   "Msub": 2,
+   "trial": 0,
+   "admissible": true,
+   "maxJ": 5,
+   "maxray": 0,
+   "N_band": 0,
+   "profile": {
+    "0": {
+     "pairs": 10586,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    },
+    "1": {
+     "pairs": 8,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   }
+  },
+  {
+   "n": 24,
+   "k": 4,
+   "h": 5,
+   "q": 73,
+   "Msub": 3,
+   "trial": 1,
+   "admissible": true,
+   "maxJ": 5,
+   "maxray": 0,
+   "N_band": 0,
+   "profile": {
+    "0": {
+     "pairs": 10551,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    },
+    "1": {
+     "pairs": 15,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   }
+  },
+  {
+   "n": 24,
+   "k": 4,
+   "h": 5,
+   "q": 73,
+   "Msub": 4,
+   "trial": 0,
+   "admissible": true,
+   "maxJ": 5,
+   "maxray": 0,
+   "N_band": 0,
+   "profile": {
+    "0": {
+     "pairs": 10591,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    },
+    "1": {
+     "pairs": 7,
+     "N": 0,
+     "maxL": 0,
+     "sumL": 0
+    }
+   }
+  }
+ ],
+ "_checks": 0,
+ "_failures": []
+}

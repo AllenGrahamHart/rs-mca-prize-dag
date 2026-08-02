@@ -1,0 +1,12 @@
+{
+ "b3": [
+  {
+   "fixtures": 50,
+   "deep_pairs": 120,
+   "prop_violations": [],
+   "ray_violations": []
+  }
+ ],
+ "_checks": 2,
+ "_failures": []
+}
