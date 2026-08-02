@@ -39,3 +39,19 @@ spot-checked by the coordinator:
   coordinated change: this node + P-A1 + the strip node's item-3
   rewording (+ `xr_quotient_global_core_collision_router`'s routing
   sentence, which R2 repairs as a side effect).
+
+**GATE RESULT (same day, cost pass banked):** the R2 edit on THIS node
+is safe unconditionally (routing-only). The P-A1 widening is NOT a
+re-pricing: the k-set-keyed moment layer and all core-agnostic charges
+survive verbatim, but the frozen-kappa constants degrade (prize paid
+ranks 15,15,14 -> 11,11,10; CLB3/4 dead) and the uniform-cell/Maxwell
+shell-exclusion fan (~10 PROVED background nodes) breaks — its
+contradictions need h < 4 (dead on five of six rows). Two repair
+routes, SURFACED as a planner/maintainer decision: (W) widen + demote +
+open `xr_band_core_slope_count` (<= 4n^3 from the 13n^3 headroom);
+(T) resurrect the graded tangent band charge (archived
+`xr_partial_tangent_band` mission), keeping P-A1 exact-k with zero
+demotions. Both routes need the pencil-cascade payment audit first
+(whether the A-2 ceiling's TANGENT-PENCIL charge actually fits inside
+B_tan <= n-A+1). See
+`notes/pilots_20260802/p_a1_widening_cost/{REPORT,FABLE_AUDIT}.md`.
