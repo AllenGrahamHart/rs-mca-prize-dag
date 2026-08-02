@@ -333,3 +333,35 @@ worker; the user ratifies surfaced decisions. Consequences:
   and remains the only external loop).
 - "PP-gate freezes" (PP2.0, PP4.0, PP5.0) are now coordinator drafts
   + internal adversarial pilots, then user sign-off.
+
+---
+
+## RATIFICATION 2026-08-02 (maintainer/user): ALL FOUR ITEMS APPROVED
+
+1. **Band repair RATIFIED**: Route T (third generic column from the
+   13n^3 headroom; B_tan untouched; 8n^3 never split) + the fold-in
+   of d = h-1 as a NAMED cascade tier in the band column [1, h-1].
+   The coordinated-edit bundle is UNBLOCKED (task #27): bridge R2,
+   strip item-3 + cascade scope-narrowings, the four wording repairs
+   (4,662 sentence; clean_residual "removes"; WP7 bookends; F5-OS +
+   xr_smallcore quantifiers to A-1), the 10-item definitions glossary,
+   the band TARGET node, and the mint wave (band-ledger T3/T4/T5/T7,
+   occupancy T1/T2/T4 + Theorem G + Theorem 5/BP merge, KEY LEMMA +
+   pencil mass identity, MC family, L1 + design ceiling + block
+   dichotomy, the four norm-gate packages after line-audit, antipodal
+   lemma + parity-defect certificate).
+2. **PP4.0 RATIFIED**: compression-order class (lex canonical);
+   polynomial/codeword/procedural readings excluded; slope-major
+   degenerate + error-lex = reverse-lex recorded as closed forks.
+3. **q-scope RATIFIED**: (P1) family-uniform governs the ultimate
+   claim (per official_row_primes_pinning's own demand); the RowC 1/4
+   window q in [2^192.29, 2^200.11) is a RECORDED LIVE OBLIGATION;
+   envelope-scoped intermediate results permitted, explicitly labeled.
+4. **PP5.0 working budget RATIFIED**: 1/43 (freeze to follow the
+   composition-law draft + internal adversarial round; the K1 mass
+   obligation O1-O3 shapes the seam).
+
+Execution order (coordinator): (a) two adversarial pilots launched
+(Gamma-in--H; the sublinear-rank class); (b) norm-gate mint line-audit
+per AUDIT_CHECKLIST; (c) the coordinated-edit bundle in ONE commit
+against the ratified decisions; (d) roadmap r3.
