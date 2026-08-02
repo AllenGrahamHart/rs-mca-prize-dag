@@ -47,21 +47,26 @@ In flight: `f2_parity_boundary`, `c1_imprimitivity`.
 4. **Cascade scope-narrowing** (`xr_pencil_cascade`): PROVED = forcing
    + cascade only; "paid" and the one-pencil "~n-core" clause need
    scoping. `PAYMENT_UNSOURCED_FLAG_20260802.md`.
-5. **P-B LANE RE-TARGET (top strategic item, from the FM3 pilot):**
-   at official scale the compression collapse inverts (block deficit
-   K - L* grows linearly in n; Pi = 2^-73.5 at RowC 1/4: >=K pairs
-   absent from the POPULATION), so Gamma_hi is empty, the R2
-   partition never compresses, and the binding obligation is
-   **bounding |Gamma| <= 8n^3**, not partitioning Gamma. Required
-   adjudication: row-by-row, does the pinned q exceed 8n^3 (rows with
-   q < 8n^3 are safe by field size alone — |Gamma| <= q), and can the
-   split-fibre construction realize a super-budget live-slope family
-   in one field at any exposed row (the adversarial audit's
-   M = 1.3e11 vs 16n^3 = 1.7e10 at RowC, on the new footing)?
-   Coordinator pass, then Pro. Node-local note:
-   `xr_lowcore_spread_heart/notes/OFFICIAL_SCALE_REFRAME_20260802.md`.
-   CAVEAT: 5-doubling model extrapolation, (H) assumed — exactly what
-   Pro should attack.
+5. **P-B EXPOSURE — RESOLVED TO ONE SCOPE CALL (pb_gamma_exposure
+   banked, superseding the first framing of this item).** Kill line
+   K1 is CLOSED for the entire split-fibre class by the proved
+   (SF-SELFCOLLISION) lemma (planted slopes all high-core, ZERO in
+   Gamma_lo at every q — structural, selector-free). "Safe by field
+   size" refuted (no row has q_max < 8n^3; safety = witness supply).
+   The construction-free exposure is confined to **RowC 1/4,
+   q in [2^192.29, 2^200.11)** (random supply up to 2.63e9 x 8n^3;
+   exact criterion C(n,A) > (8n^3)^h 2^{128(h-1)}, satisfied ONLY
+   there, by +156 bits). **THE ADJUDICATION: which q-scope governs
+   P-B** — (P1) official_row_primes_pinning (PROVED, family-uniform)
+   => the window is LIVE; (P2) the clean-anchor envelope pins
+   (q >= 2^250) => all six rows supply-safe (>= 49.9 bits). RowC 1/16
+   FRAGILE (2.31 bits, 58.6% of budget). The (PB-SUPPLY) discharge
+   skeleton goes to Pro: P-B reduces to (H4) restricted to
+   non-split-fibre concentration + the RowC 1/4 scope/floor decision.
+   Maintainer item routed: the 2^189 char-0 / 2^55 single-field
+   distinct-bad-slope pencil is the matching LOWER bound for the
+   row-soundness gap already recorded at
+   xr_agreement_raise_quotient_safe_sum_fence.
 
 ## B. NAMED PROOF OBLIGATIONS (open)
 

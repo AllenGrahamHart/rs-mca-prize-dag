@@ -38,3 +38,25 @@ Caveats: 5-doubling extrapolation (conservative in direction); the
 equidistribution assumption (H) fails measurably at the one
 officially-shaped toy point (Q11, x55, designed-fibre artifact that
 provably decays); nothing here is proved. This note changes no status.
+
+> **[AMENDED same day — pb_gamma_exposure pilot, coordinator-replayed
+> (bit-exact census crosscheck; frozen predictions; the q-pin
+> ledger).]** Two refinements. (1) The re-target "bound |Gamma|" was
+> imprecise: the obligation is |Gamma_lo| as always stated, and the
+> FM3 story above is correct for the RANDOM supply only. For every
+> SPLIT-FIBRE pencil the proved (SF-SELFCOLLISION) lemma
+> (|S_J ^ S_J'| = g + m|J ^ J'|; m <= h forces adjacent cores
+> A - m >= K) puts every planted slope in Gamma_hi: the construction
+> class contributes ZERO to Gamma_lo at every q — **kill line K1 is
+> closed structurally for this class**, selector-free. (2) The "safe
+> by field size" idea is refuted: no row has q_max < 8n^3 under
+> either banked q-specification; safety comes from WITNESS SUPPLY.
+> The construction-free exposure is confined to **RowC 1/4,
+> q in [2^192.29, 2^200.11)** (random supply up to 2.63e9 x 8n^3),
+> LIVE under the family-uniform scope of official_row_primes_pinning
+> (PROVED) and DEAD under the clean-anchor envelope pins
+> (q >= 2^250). The scope adjudication + the (PB-SUPPLY) discharge
+> skeleton (P-B reduces to non-split-fibre concentration + the RowC
+> 1/4 decision) are queued for maintainer/Pro. RowC 1/16 is FRAGILE
+> (2.31 bits from exposure, 58.6% of budget at worst admissible q).
+> See notes/pilots_20260802/pb_gamma_exposure/{REPORT,FABLE_AUDIT}.md.
