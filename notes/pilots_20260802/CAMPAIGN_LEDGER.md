@@ -365,3 +365,58 @@ Execution order (coordinator): (a) two adversarial pilots launched
 (Gamma-in--H; the sublinear-rank class); (b) norm-gate mint line-audit
 per AUDIT_CHECKLIST; (c) the coordinated-edit bundle in ONE commit
 against the ratified decisions; (d) roadmap r3.
+
+---
+
+## ROUND 6 CLOSE-OUT (4/4 banked: adv_gamma_minus_h, adv_sublinear_rank,
+## wcl_count_bounds + exact_k_heart + rowc_window, support4_relation — f93cdc03)
+
+Campaign totals: 32 pilots, 32 verified-then-banked, 0 accepted without
+replay. The six original mysteries now stand as the 7-heart inventory
+(reported to the user 2026-08-02); the band heart is PURELY COMBINATORIAL
+(escape form), P-A1's is |K|, P-B's is adversarial planting, F2's is the
+K1 mass obligation (O1)-(O3), C1/C2'' is sparse certificates, crossing is
+the w >= 2 boundary. NEXT-ROUND ANCHOR: unify |K| with the escape residual.
+
+## NORM-GATE MINT LINE-AUDIT (execution item (b)) — COMPLETE, ALL FOUR ACCEPTED
+
+Per drafts/AUDIT_CHECKLIST.md; every hand-verify item done, all 12
+uncertainty flags adjudicated:
+
+- **F1.a/F1.b KEPT** (parenthetical bracketed as non-load-bearing;
+  ramification caveat framing is wanted — both hypotheses named).
+- **F2.a: `ref` RATIFIED** — the energy-ceiling proof is self-contained
+  (Steps 1-4 spelled out with E throughout), so the sandwich edge is
+  attribution, not dependency; hand-checked the exact-integer Parseval
+  form (constant coefficient of alpha*alpha~ = E) and the n=4 conjugate
+  pairing boundary.
+- **F2.b KEPT OUT**: the WCL fence stays a candidate FIFTH node
+  (checklist item 5); mint deferred, recorded in section B.
+- **F3.a stays flagged**: Stab(U_j)={1} at official j <= 25 is an open
+  side condition (verified pattern m <= 11); nothing minted depends on it.
+- **F3.b/F4.b RESOLVED**: both corrections of record already appended to
+  the provenance REPORT (1960/63; 2453) — the persisted artifacts are
+  authoritative and the proofs cite them.
+- **F4.a DISCHARGED**: junctions.py's rho definition matches Claim 4's
+  citation verbatim (incl. the exact Z[zeta_q] 24/24 certification).
+- **F4.c CONFIRMED**: official_scale.json pins 33 junctions / ratio 256;
+  the 34th-block reading stays recorded-unused.
+- **F4.d/F4.e KEPT** (closure string exists in vocabulary; exhibit
+  framed as non-certificate illustration).
+- **ONE FORCED CORRECTION (applied)**: the max(U)^2 < n stabilizer
+  condition requires `1 in U` (proof uses b = b.1 in U); proviso added to
+  the splitting-law statement.md + dag statement. Official blocks all
+  contain 1, so scope unaffected.
+
+WIRED: 4 background nodes (all PROVED), 5 internal req + 1 ref
+(sandwich attribution) + 4 ev into the two red TARGETs
+(dli_c2pp_joint_reserve x3, dli_c1r3_gated_envelope_bound x1) — all
+three C2''-side ev edges kept (distinct evidence contributions).
+DAG: 1746 nodes / 4838 edges; manifest refreshed
+(scripts=2347, proof_assets=2475); all four verifiers PASS in place.
+No status flips; the math-orbit census is unchanged.
+
+Execution queue: (b) DONE -> (c) the coordinated-edit bundle -> (d)
+roadmap r3. Sequencing note (coordinator authority): the norm-gate mint
+ships as its own commit — it is DLI-lane, independent of Route T; the
+Route T coordinated edit stays atomic in its own commit.
