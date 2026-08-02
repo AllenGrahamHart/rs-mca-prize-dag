@@ -3707,3 +3707,30 @@ fibers or global standard bases.  Eliminate `z2`, then `z1`, from the sealed
 four target-free equations, pseudo-reducing by `P(b,t)` after each resultant.
 The orbit `[3,6]` and the overall six-representative / 40-row frontier remain
 open until that main-chart calculation is decided.
+
+Two bounded follow-ups retire the naive sequential presentation.  Squaring
+the colored sum row after `w2=z2^2` produces 321284 plane-reduced terms, and
+the direct unsquared `z2` resultant on 23532/30276-term inputs hits its
+300-second cap.  Neither result has mathematical truth value.  Any return to
+cell 3 must factor the signed-pair system in `w0,w1` first and append colored
+constraints componentwise.
+
+The lateral common-curve scout now identifies a better next target.  Exact
+`(c,r,b,t)` lex basis sizes for cells `4,9,11,12,14` are respectively
+`7,11,10,9,8`, and every leading eliminant is reciprocal.  The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction`
+triangularizes cell 4.  Its 21-term palindromic quartic descends to the same
+deployed conic, but restoring `b` gives branch numerator
+
+```text
+(s-66846716)(s+4)^2
+(s^3-66846708s^2-1061158961s-1035993668).
+```
+
+Removing the square leaves degree four, so this common curve has genus one.
+Its exact compact kernel has bidegree at most `(3,18)` and again
+`B_1(W)=b10(1-W)`.  The four target-free equations are smaller than cell 3's,
+but their global 250-second basis still timed out.  Do not extend it.  Split
+cell 4 into its finite exceptional scales and a componentwise signed-pair
+decomposition on the main genus-one chart, appending the colored equations
+only after the pair components are known.  Orbit `[4,7]` remains open.

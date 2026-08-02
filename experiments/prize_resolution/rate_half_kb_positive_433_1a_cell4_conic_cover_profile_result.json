@@ -1,0 +1,70 @@
+{
+  "result": {
+    "conic_base_point": [
+      1,
+      66846712
+    ],
+    "conic_y_of_s": "(-66846712*s**2 - 534773632*s + 1052770690)/(s**2 - 48)",
+    "denominator_factorization": {
+      "content": 64,
+      "factors": [
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "polynomial": "s + 66846716"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "polynomial": "s + 930460291"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "polynomial": "s - 1064153723"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "polynomial": "s - 66846708"
+        }
+      ]
+    },
+    "denominator_shape": {
+      "degree": 8,
+      "terms": 9
+    },
+    "field": 2130706433,
+    "numerator_factorization": {
+      "content": 66976764,
+      "factors": [
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "polynomial": "s - 66846716"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "polynomial": "s + 4"
+        },
+        {
+          "degree": 3,
+          "multiplicity": 1,
+          "polynomial": "s**3 - 66846708*s**2 - 1061158961*s - 1035993668"
+        }
+      ]
+    },
+    "numerator_shape": {
+      "degree": 6,
+      "terms": 7
+    },
+    "second_discriminant": "(66976764*s**6 - 1058029633*s**5 - 1029783875*s**4 + 33291256*s**3 + 567530408*s**2 + 822017534*s - 482460549)/(64*s**8 - 67106808*s**7 + 788549793*s**6 + 973178246*s**5 - 503210466*s**4 - 422012775*s**3 + 391373800*s**2 - 611019607*s - 999675308)",
+    "source_profile_sha256": "4b3f973743288f2bf742ce359121d40b1e6ef7075f674be321c297eea9de7441",
+    "status": "COMPLETE",
+    "t_of_s": "(s**2 - 133693424*s - 534773680)/(s**2 - 48)",
+    "x_of_s": "(-16*s**4 + 8388351*s**3 - 167769580*s**2 + 654332081*s - 553635519)/(8*s**4 + 1061159041*s**3 - 50330874*s**2 - 335538136*s - 805279648)"
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell4-conic-cover-profile-v1",
+  "scope": "Exact deployed-field profile of the remaining b-cover for cell 4; no outside, route, K3, or Prize claim."
+}

@@ -21,6 +21,8 @@ FILES = {
     "kernel": "rate_half_kb_positive_433_1a_cell3_kernel_reduction_result.json",
     "plane": "rate_half_kb_positive_433_1a_cell3_plane_kernel_flint_result.json",
     "target": "rate_half_kb_positive_433_1a_cell3_plane_target_free_family_result.json",
+    "w2": "rate_half_kb_positive_433_1a_cell3_w2_resultant_result.json",
+    "z2": "rate_half_kb_positive_433_1a_cell3_z2_resultant_result.json",
 }
 HASHES = {
     "scout": "5448d98da4033a2a589a201223eb687b83bfabb3de24699d9b1c96c36401a340",
@@ -29,6 +31,8 @@ HASHES = {
     "kernel": "afa3829dec518a9000d65cfcca5ec7632980986086f53ce5de6f2eaf12f06b48",
     "plane": "4e36308e9e5d062f9c60280057b961c8181d0edb2406831cfaae7be76c7a2a0a",
     "target": "9816c4eaa0ed2761c752e4fef276c6282f93ed4550d7d40e66d77d73768feb4d",
+    "w2": "51717a105a7aa87ec9c306b2d99e65a762ab85af238cb6ca81f172640e4b52b3",
+    "z2": "a929b726e49f637fd4dbd86c7bda35bdd51c2cf16d332e154b7fb3621341b88a",
 }
 PRIME = 2130706433
 
@@ -123,6 +127,18 @@ def verify_payloads(payloads):
             target["shapes_emitted"] is True, "honest timeout fence")
     require([row["pseudo_steps"] for row in target["equation_shapes"]] ==
             [3, 9, 7, 7], "target-free equation compiler")
+
+    w2 = payloads["w2"]
+    require(w2["status"] == "REMOTE_ERROR" and
+            "TypeError" in w2["error"], "honest w2 implementation fence")
+    require([row["terms"] for row in w2["cut_summary"]["reduced_shapes"]] ==
+            [23532, 321284], "squared w2 size fence")
+
+    z2 = payloads["z2"]
+    require(z2["status"] == "REMOTE_ERROR" and
+            "FunctionTimeoutError" in z2["error"], "honest z2 timeout")
+    require([row["terms"] for row in z2["cut_summary"]["reduced_shapes"]] ==
+            [23532, 30276], "direct z2 input fence")
 
 
 def main():

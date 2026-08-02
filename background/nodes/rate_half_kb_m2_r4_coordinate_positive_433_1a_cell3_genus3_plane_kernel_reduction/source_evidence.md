@@ -26,3 +26,11 @@ All arithmetic is over `F_2130706433`.
   `experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_plane_target_free_family_result.json`
   (`sha256=9816c4eaa0ed2761c752e4fef276c6282f93ed4550d7d40e66d77d73768feb4d`,
   Modal `ap-5tEwF1ZNa29EGQOKAAXmos`).
+- Squared-`w2` formulation size fence:
+  `experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_w2_resultant_result.json`
+  (`sha256=51717a105a7aa87ec9c306b2d99e65a762ab85af238cb6ca81f172640e4b52b3`,
+  Modal `ap-0mxadIZktOVg3GDzbpRagP`).
+- Direct unsquared `z2` resultant timeout fence:
+  `experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_z2_resultant_result.json`
+  (`sha256=a929b726e49f637fd4dbd86c7bda35bdd51c2cf16d332e154b7fb3621341b88a`,
+  Modal `ap-Z8eXHa3fYE6yZCJtlgNvnH`).

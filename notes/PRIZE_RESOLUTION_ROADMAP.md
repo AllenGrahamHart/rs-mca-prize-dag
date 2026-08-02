@@ -15175,10 +15175,48 @@ geometry hashes:          d36e63493bcca128c18293f298a614df51fd8449e1cd06b6a1e3cd
 kernel hashes:            afa3829dec518a9000d65cfcca5ec7632980986086f53ce5de6f2eaf12f06b48
                           4e36308e9e5d062f9c60280057b961c8181d0edb2406831cfaae7be76c7a2a0a
 target-free hash:         9816c4eaa0ed2761c752e4fef276c6282f93ed4550d7d40e66d77d73768feb4d
-next route step:          finite exceptional charts plus a sequential z2,z1
-                          resultant chain; no longer rerun global bases
+next route step:          finite exceptional charts plus signed-pair
+                          component decomposition; no longer rerun global bases
 remaining frontier:      six representatives / 40 raw rows
 nonclaim:                 no [3,6] exclusion, route, K3, LIST, MCA, or Prize
+```
+
+Postscript route fences: the squared `w2=z2^2` presentation expands the
+second plane-reduced colored cut to 321284 terms and is retired.  The direct
+unsquared resultant on 23532- and 30276-term cuts reached a bounded
+300-second cap and is also retired.  No truth value is inferred.  Future
+cell-3 work begins with the signed-pair component resultant in `w0,w1`, then
+adds the colored equations componentwise.
+
+### Work-cycle theorem: cell-4 genus-one plane-kernel reduction
+
+```text
+cell/orbit/field:         cell 4 representing [4,7], F_2130706433
+remaining lex scout:     best basis sizes for cells 4,9,11,12,14 are
+                          7,11,10,9,8 in order (c,r,b,t)
+plane eliminant:          palindromic bidegree (4,4), 21 terms
+quotient discriminant:   48(t+510119941)(t+899209895)
+                          (t-16711679)^2(t+16711679)^4
+conic base point:         (t,Y)=(1,66846712)
+second cover:             numerator scalar times
+                          (s-66846716)(s+4)^2(cubic irreducible)
+geometry:                 square-free branch degree 4, hence genus 1
+kernel plane model:       all eight coefficients have b-degree <=3,
+                          t-degree <=18, and B1(W)=b10(1-W)
+scale ledger:             denominator degree 45; first common scale degree 20;
+                          9 plane pseudo-division powers; second common scale
+                          degree 49; all zero loci remain exceptional
+target-free compiler:     exact DE+/DE-/BE equations with term counts
+                          1716,10724,20508,26388
+bounded basis verdict:    TIMEOUT at 250s; neither unit nor nonunit
+lex/profile hashes:       13a82e809774880ccaf2b89d5dd62cbb4995533ecde59619db2ac65443bee172
+                          4b3f973743288f2bf742ce359121d40b1e6ef7075f674be321c297eea9de7441
+cover/kernel hashes:      b6468e2c8916d4cf26d2d2824ff84694f808e83989e00db1c620a75c275ab494
+                          26cc881846361a6f85d270dc436784991109f67982122b40cc4bbf75235e410e
+next route step:          exceptional-scale ledger plus componentwise signed
+                          pair decomposition on the main genus-one chart
+remaining frontier:      six representatives / 40 raw rows
+nonclaim:                 no [4,7] exclusion, route, K3, LIST, MCA, or Prize
 ```
 
 ### Work-cycle theorem: cell-3 exceptional scale-chart exclusion
@@ -15204,8 +15242,8 @@ Modal apps:               ap-LuYfRSlmXjmFEbEAhY1TO6,
                           ap-eyw7b2nJCrvkfQDCIZSanI,
                           ap-zbu8gp7UAUEPfpE5v0Gkig,
                           ap-YwIhdUejULrSv18vIbD1oS
-next route step:          main genus-three chart only: sequential z2,z1
-                          resultants with plane pseudo-reduction
+next route step:          main genus-three chart only: signed-pair components
+                          in w0,w1 before any colored elimination
 remaining frontier:      six representatives / 40 raw rows
 nonclaim:                 no [3,6] exclusion, route, K3, LIST, MCA, or Prize
 ```

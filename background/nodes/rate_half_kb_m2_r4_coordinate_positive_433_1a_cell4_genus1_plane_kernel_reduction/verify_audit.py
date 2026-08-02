@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Mutation controls for the cell-3 genus-three reduction verifier."""
+"""Mutation controls for the cell-4 genus-one reduction verifier."""
 
 import copy
 import importlib.util
@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 NODE = Path(__file__).resolve().parent
-SPEC = importlib.util.spec_from_file_location("cell3_verify", NODE / "verify.py")
+SPEC = importlib.util.spec_from_file_location("cell4_verify", NODE / "verify.py")
 VERIFY = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(VERIFY)
 
@@ -29,14 +29,15 @@ def main():
     VERIFY.verify_payloads(payloads)
 
     mutation = copy.deepcopy(payloads)
-    mutation["profile"]["result"]["reconstruction_equal"] = False
-    must_fail(mutation, "quotient reconstruction")
+    next(row for row in mutation["profile"]["rows"]
+         if row["cell"] == 4)["reconstruction_equal"] = False
+    must_fail(mutation, "reciprocal reconstruction")
 
     mutation = copy.deepcopy(payloads)
     mutation["cover"]["result"]["numerator_factorization"]["factors"][0][
         "multiplicity"
     ] = 2
-    must_fail(mutation, "square-free cover")
+    must_fail(mutation, "square-free branch")
 
     mutation = copy.deepcopy(payloads)
     mutation["plane"]["result"]["b1_opposite"] = False
@@ -45,15 +46,7 @@ def main():
     mutation = copy.deepcopy(payloads)
     mutation["target"]["result"]["status"] = "COMPLETE"
     must_fail(mutation, "timeout fence")
-
-    mutation = copy.deepcopy(payloads)
-    mutation["w2"]["cut_summary"]["reduced_shapes"][1]["terms"] = 30276
-    must_fail(mutation, "squared w2 size fence")
-
-    mutation = copy.deepcopy(payloads)
-    mutation["z2"]["status"] = "COMPLETE"
-    must_fail(mutation, "direct z2 timeout fence")
-    print("positive 433-1a cell-3 genus-three reduction audit verified")
+    print("positive 433-1a cell-4 genus-one reduction audit verified")
 
 
 if __name__ == "__main__":

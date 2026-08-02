@@ -1,0 +1,277 @@
+{
+  "rows": [
+    {
+      "cell": 4,
+      "discriminant": "48*t**8 - 1061158977*t**7 + 64*t**6 - 1061158977*t**5 + 32*t**4 + 1061158977*t**3 + 64*t**2 + 1061158977*t + 48",
+      "discriminant_factorization": {
+        "content": 48,
+        "factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "polynomial": "t + 510119941"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "polynomial": "t + 899209895"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "polynomial": "t - 16711679"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 4,
+            "polynomial": "t + 16711679"
+          }
+        ]
+      },
+      "discriminant_shape": {
+        "degree": 8,
+        "terms": 9
+      },
+      "eliminant_shape": {
+        "degree_b": 4,
+        "degree_t": 4,
+        "terms": 21,
+        "total_degree": 8
+      },
+      "field": 2130706433,
+      "palindromic": true,
+      "quotient": "t**4*x**2 + 66846720*t**4*x + 133693420*t**4 + 8*t**3*x + 16*t**3 + 2*t**2*x**2 + 8*t**2*x + 40*t**2 + 8*t*x + 16*t + x**2 - 66846712*x - 133693444",
+      "quotient_shape": {
+        "terms": 13,
+        "total_degree": 6
+      },
+      "reconstruction_equal": true,
+      "source_eliminant_sha256": "7c1845f3d95202c040c75cafb3e73b0e38350ebe610f3160cbbc411e25481685",
+      "source_program_sha256": "84d0f0fdce44af49e805c654f0aba098373b40ed8ab07f778e33ff84c626fecf",
+      "status": "COMPLETE"
+    },
+    {
+      "cell": 9,
+      "discriminant": "-768*t**12 - 67107832*t**11 - 1024*t**10 - 67107832*t**9 - 512*t**8 + 67107832*t**7 - 1024*t**6 + 67107832*t**5 - 768*t**4",
+      "discriminant_factorization": {
+        "content": 2130705665,
+        "factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "polynomial": "t + 510119941"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "polynomial": "t + 899209895"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "polynomial": "t - 16711679"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 4,
+            "polynomial": "t"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 4,
+            "polynomial": "t + 16711679"
+          }
+        ]
+      },
+      "discriminant_shape": {
+        "degree": 12,
+        "terms": 9
+      },
+      "eliminant_shape": {
+        "degree_b": 4,
+        "degree_t": 8,
+        "terms": 45,
+        "total_degree": 12
+      },
+      "field": 2130706433,
+      "palindromic": true,
+      "quotient": "t**8*x**2 - 4*t**8*x + 4*t**8 - 33423358*t**7*x**2 + 133693432*t**7*x - 133693432*t**7 + 66846718*t**6*x**2 + 267386872*t**6*x - 802160616*t**6 - 100270074*t**5*x**2 - 133693432*t**5*x + 668467160*t**5 + 133693432*t**4*x**2 + 534773728*t**4*x + 543162207*t**4 - 100270074*t**3*x**2 - 133693432*t**3*x + 668467160*t**3 + 66846714*t**2*x**2 + 267386856*t**2*x - 802160568*t**2 - 33423358*t*x**2 + 133693432*t*x - 133693432*t - x**2 + 4*x - 4",
+      "quotient_shape": {
+        "terms": 27,
+        "total_degree": 10
+      },
+      "reconstruction_equal": true,
+      "source_eliminant_sha256": "7e5851438c67f3dafd2a203794c4ee1367fc08a5434eeea29bc9474462b55622",
+      "source_program_sha256": "9e4e9644d98346ede72c20e9cd6a6be6f2e9841dee83dc951dcf030690d2e57b",
+      "status": "COMPLETE"
+    },
+    {
+      "cell": 11,
+      "discriminant": "3072*t**12 + 268431328*t**11 + 4096*t**10 + 268431328*t**9 + 2048*t**8 - 268431328*t**7 + 4096*t**6 - 268431328*t**5 + 3072*t**4",
+      "discriminant_factorization": {
+        "content": 3072,
+        "factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "polynomial": "t + 510119941"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "polynomial": "t + 899209895"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "polynomial": "t - 16711679"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 4,
+            "polynomial": "t"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 4,
+            "polynomial": "t + 16711679"
+          }
+        ]
+      },
+      "discriminant_shape": {
+        "degree": 12,
+        "terms": 9
+      },
+      "eliminant_shape": {
+        "degree_b": 4,
+        "degree_t": 8,
+        "terms": 45,
+        "total_degree": 12
+      },
+      "field": 2130706433,
+      "palindromic": true,
+      "quotient": "t**8*x**2 - 4*t**8*x + 4*t**8 - 66846716*t**7*x**2 + 267386864*t**7*x - 267386864*t**7 - 4*t**6*x**2 - 48*t**6*x + 112*t**6 - 66846716*t**5*x**2 + 267386864*t**5*x - 267386864*t**5 + 6*t**4*x**2 - 24*t**4*x + 280*t**4 + 66846716*t**3*x**2 - 267386864*t**3*x + 267386864*t**3 - 4*t**2*x**2 - 48*t**2*x + 112*t**2 + 66846716*t*x**2 - 267386864*t*x + 267386864*t + x**2 - 4*x + 4",
+      "quotient_shape": {
+        "terms": 27,
+        "total_degree": 10
+      },
+      "reconstruction_equal": true,
+      "source_eliminant_sha256": "535a4f344ad197d4fa505f68d8c6c1a90d1b111eb6fd330336fc52aac8f8346b",
+      "source_program_sha256": "27a18262a4cf8e19080ff406faedcdd61ae9c284705c4a8e140e69b23afdbd00",
+      "status": "COMPLETE"
+    },
+    {
+      "cell": 12,
+      "discriminant": "3*t**12 + 66846716*t**11 + 4*t**10 + 66846716*t**9 + 2*t**8 - 66846716*t**7 + 4*t**6 - 66846716*t**5 + 3*t**4",
+      "discriminant_factorization": {
+        "content": 3,
+        "factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "polynomial": "t + 510119941"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "polynomial": "t + 899209895"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "polynomial": "t - 16711679"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 4,
+            "polynomial": "t"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 4,
+            "polynomial": "t + 16711679"
+          }
+        ]
+      },
+      "discriminant_shape": {
+        "degree": 12,
+        "terms": 9
+      },
+      "eliminant_shape": {
+        "degree_b": 4,
+        "degree_t": 8,
+        "terms": 17,
+        "total_degree": 10
+      },
+      "field": 2130706433,
+      "palindromic": true,
+      "quotient": "-16711679*t**8 - 2*t**7 - 16711677*t**6*x - 2*t**5*x - 2*t**5 + t**4*x**2 + 4*t**4 - 2*t**3*x - 2*t**3 + 16711681*t**2*x - 2*t + 16711679",
+      "quotient_shape": {
+        "terms": 12,
+        "total_degree": 8
+      },
+      "reconstruction_equal": true,
+      "source_eliminant_sha256": "bac4ec08d6c35236e6352ebc4e7b0e793a8f0e6127765c1b7fabadc5e415b986",
+      "source_program_sha256": "54c4fce55f2a60ca4e6aac4a5ee19973817536563944092dab0c0bda8ba99ee8",
+      "status": "COMPLETE"
+    },
+    {
+      "cell": 14,
+      "discriminant": "12*t**12 + 267386864*t**11 + 16*t**10 + 267386864*t**9 + 8*t**8 - 267386864*t**7 + 16*t**6 - 267386864*t**5 + 12*t**4",
+      "discriminant_factorization": {
+        "content": 12,
+        "factors": [
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "polynomial": "t + 510119941"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 1,
+            "polynomial": "t + 899209895"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 2,
+            "polynomial": "t - 16711679"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 4,
+            "polynomial": "t"
+          },
+          {
+            "degree": 1,
+            "multiplicity": 4,
+            "polynomial": "t + 16711679"
+          }
+        ]
+      },
+      "discriminant_shape": {
+        "degree": 12,
+        "terms": 9
+      },
+      "eliminant_shape": {
+        "degree_b": 4,
+        "degree_t": 8,
+        "terms": 17,
+        "total_degree": 10
+      },
+      "field": 2130706433,
+      "palindromic": true,
+      "quotient": "t**8 - 66846716*t**7 - 4*t**6*x + 4*t**6 - 66846716*t**5 + t**4*x**2 - 4*t**4*x + 10*t**4 + 66846716*t**3 - 4*t**2*x + 4*t**2 + 66846716*t + 1",
+      "quotient_shape": {
+        "terms": 13,
+        "total_degree": 8
+      },
+      "reconstruction_equal": true,
+      "source_eliminant_sha256": "6e37eedfc0b7d14afd61c6d1611632f4312343319fb190b001c5a9613fd3c349",
+      "source_program_sha256": "b1925da693b213463d651bb578b745dbae9fba8e0a27587e0936815e6a641b77",
+      "status": "COMPLETE"
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1a-remaining-palindromic-profile-v1",
+  "scope": "Exact reciprocal-quotient profiles of the five remaining positive common curves; no outside, route, K3, or Prize claim.",
+  "source_scout_sha256": "13a82e809774880ccaf2b89d5dd62cbb4995533ecde59619db2ac65443bee172"
+}

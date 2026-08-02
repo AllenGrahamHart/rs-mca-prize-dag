@@ -16,6 +16,12 @@ packet was posed:
    plane result was produced.
 6. Broad lex, direct-family, and target-free bases reached bounded timeouts.
    None is interpreted as unit, nonunit, emptiness, or survival.
+7. Replacing `z2` by `w2=z2^2` requires squaring the unsquared sum row.  Its
+   plane-reduced cut has 321284 terms, versus 30276 in the unsquared form, so
+   that presentation is retired before a resultant is attempted.
+8. The direct resultant of the 23532- and 30276-term unsquared `z2` cuts hit a
+   bounded 300-second cap.  It is also retired; no algebraic conclusion is
+   drawn.
 
 Mutation controls alter the discriminant reconstruction, square-free cover,
 kernel opposition, and timeout status; each mutation must fail verification.
