@@ -1,0 +1,692 @@
+{
+ "doc": "t3_pricing.py -- exact six-row pricing of the attack's outcome.\n\nThree questions, priced:\n\n 1. WHERE does the confinement come from?  THEOREM Y makes it a PRODUCT-\n    COSET fact at j = 1 (no q-threshold at all).  For j >= 2 it is a\n    COUNTING fact, governed by\n\n        X(n,k,w,q) := C(n,A) / q^w ,   A = k+w+1, w = h-1,\n\n    the same index that governs the existence of ANY non-structured\n    exact-A codeword.  Sanity check to be verified here: log2(C(n,A))/w\n    must reproduce the list-bound pilot's published \"minimum log2 q for\n    gate-admissibility\" (209.26 / 141.93 / 176.58) -- i.e. the caveat-1\n    threshold and the caveat-2 threshold are the SAME NUMBER.\n\n 2. HOW MUCH ROOM is there at the official rows?  log2 X at the banked\n    q >= 2^250 pin and at the 2^256 cap.\n\n 3. WHAT WOULD BREAK if the confinement failed?  Price\n    N_{h-1} <= |Gamma|/2 for |Gamma| = n (proved), |Gamma| = q+1 (total\n    failure) against the tier requirement, and |Gamma_casc| against 13n^3.\n\nAll row pins are read from the banked band_arith.json; nothing is\nrecomputed by hand.  Binomial logs use the entropy formula with the\nstandard Stirling correction, whose error is < 25 bits against totals of\n~10^12 bits (stated, not hidden).\n",
+ "rows": [
+  {
+   "name": "RowC 1/4",
+   "n": 1024,
+   "k": 256,
+   "h": 5,
+   "A": 261,
+   "w": 4,
+   "log2_C_n_A": 833.4521180822625,
+   "log2_q_critical": 208.36302952056562,
+   "log2X_at_q_2^250": -166.54788191773753,
+   "log2X_at_q_2^256": -190.54788191773753,
+   "log2X_at_q_crit": 0.0,
+   "tier_slot_n_minus_A_plus_1": 764,
+   "required_N_hminus1": "6959303251393956489144574435022264",
+   "log2_required_N_hminus1": 112.4225700054495,
+   "log2_N_proved_bound_n_over_2": 9.0,
+   "margin_bits_proved": -103.4225700054495,
+   "log2_N_if_Gamma_is_q_2^250": 249.0,
+   "margin_bits_if_confinement_failed": 136.5774299945505,
+   "log2_13n3": 33.70043971814109,
+   "log2_Gamma_casc_proved": 10.0,
+   "margin_bits_Gamma_casc_proved": -23.70043971814109,
+   "margin_bits_Gamma_casc_if_failed": 216.2995602818589
+  },
+  {
+   "name": "RowC 1/8",
+   "n": 1024,
+   "k": 128,
+   "h": 5,
+   "A": 133,
+   "w": 4,
+   "log2_C_n_A": 565.7335597411326,
+   "log2_q_critical": 141.43338993528315,
+   "log2X_at_q_2^250": -434.2664402588674,
+   "log2X_at_q_2^256": -458.2664402588674,
+   "log2X_at_q_crit": 0.0,
+   "tier_slot_n_minus_A_plus_1": 892,
+   "required_N_hminus1": "5960663658228321610593544236180981",
+   "log2_required_N_hminus1": 112.19910010007969,
+   "log2_N_proved_bound_n_over_2": 9.0,
+   "margin_bits_proved": -103.19910010007969,
+   "log2_N_if_Gamma_is_q_2^250": 249.0,
+   "margin_bits_if_confinement_failed": 136.8008998999203,
+   "log2_13n3": 33.70043971814109,
+   "log2_Gamma_casc_proved": 10.0,
+   "margin_bits_Gamma_casc_proved": -23.70043971814109,
+   "margin_bits_Gamma_casc_if_failed": 216.2995602818589
+  },
+  {
+   "name": "RowC 1/16",
+   "n": 1024,
+   "k": 64,
+   "h": 3,
+   "A": 67,
+   "w": 2,
+   "log2_C_n_A": 352.68725685579767,
+   "log2_q_critical": 176.34362842789884,
+   "log2X_at_q_2^250": -147.31274314420233,
+   "log2X_at_q_2^256": -159.31274314420233,
+   "log2X_at_q_crit": 0.0,
+   "tier_slot_n_minus_A_plus_1": 958,
+   "required_N_hminus1": "5550012508347990849378189881556516",
+   "log2_required_N_hminus1": 112.09611815422521,
+   "log2_N_proved_bound_n_over_2": 9.0,
+   "margin_bits_proved": -103.09611815422521,
+   "log2_N_if_Gamma_is_q_2^250": 249.0,
+   "margin_bits_if_confinement_failed": 136.90388184577478,
+   "log2_13n3": 33.70043971814109,
+   "log2_Gamma_casc_proved": 10.0,
+   "margin_bits_Gamma_casc_proved": -23.70043971814109,
+   "margin_bits_Gamma_casc_if_failed": 216.2995602818589
+  },
+  {
+   "name": "prize 1/4",
+   "n": 2199023255552,
+   "k": 549755813888,
+   "h": 8589934593,
+   "A": 558345748481,
+   "w": 8589934592,
+   "log2_C_n_A": 1797505540612.4976,
+   "log2_q_critical": 209.25718599610235,
+   "log2X_at_q_2^250": -349978107387.50244,
+   "log2X_at_q_2^256": -401517714939.50244,
+   "log2X_at_q_crit": 0.0,
+   "published_gate_threshold": 209.26,
+   "tier_slot_n_minus_A_plus_1": 1640677507072,
+   "required_N_hminus1": "89812584362722268150963833",
+   "log2_required_N_hminus1": 86.21511997890642,
+   "log2_N_proved_bound_n_over_2": 40.0,
+   "margin_bits_proved": -46.215119978906415,
+   "log2_N_if_Gamma_is_q_2^250": 249.0,
+   "margin_bits_if_confinement_failed": 162.78488002109358,
+   "log2_13n3": 126.7004397181411,
+   "log2_Gamma_casc_proved": 41.0,
+   "margin_bits_Gamma_casc_proved": -85.7004397181411,
+   "margin_bits_Gamma_casc_if_failed": 123.2995602818589
+  },
+  {
+   "name": "prize 1/8",
+   "n": 2199023255552,
+   "k": 274877906944,
+   "h": 8589934593,
+   "A": 283467841537,
+   "w": 8589934592,
+   "log2_C_n_A": 1219206494037.8635,
+   "log2_q_critical": 141.93431637690676,
+   "log2X_at_q_2^250": -928277153962.1365,
+   "log2X_at_q_2^256": -979816761514.1365,
+   "log2X_at_q_crit": 0.0,
+   "published_gate_threshold": 141.93,
+   "tier_slot_n_minus_A_plus_1": 1915555414016,
+   "required_N_hminus1": "76924682124475854981648794",
+   "log2_required_N_hminus1": 85.99164894911286,
+   "log2_N_proved_bound_n_over_2": 40.0,
+   "margin_bits_proved": -45.99164894911286,
+   "log2_N_if_Gamma_is_q_2^250": 249.0,
+   "margin_bits_if_confinement_failed": 163.00835105088714,
+   "log2_13n3": 126.7004397181411,
+   "log2_Gamma_casc_proved": 41.0,
+   "margin_bits_Gamma_casc_proved": -85.7004397181411,
+   "margin_bits_Gamma_casc_if_failed": 123.2995602818589
+  },
+  {
+   "name": "prize 1/16",
+   "n": 2199023255552,
+   "k": 137438953472,
+   "h": 4294967297,
+   "A": 141733920769,
+   "w": 4294967296,
+   "log2_C_n_A": 758386384106.4231,
+   "log2_q_critical": 176.5755899498293,
+   "log2X_at_q_2^250": -315355439893.5769,
+   "log2X_at_q_2^256": -341125243669.5769,
+   "log2X_at_q_crit": 0.0,
+   "published_gate_threshold": 176.58,
+   "tier_slot_n_minus_A_plus_1": 2057289334784,
+   "required_N_hminus1": "71625069368440714819048965",
+   "log2_required_N_hminus1": 85.88866700329558,
+   "log2_N_proved_bound_n_over_2": 40.0,
+   "margin_bits_proved": -45.88866700329558,
+   "log2_N_if_Gamma_is_q_2^250": 249.0,
+   "margin_bits_if_confinement_failed": 163.11133299670442,
+   "log2_13n3": 126.7004397181411,
+   "log2_Gamma_casc_proved": 41.0,
+   "margin_bits_Gamma_casc_proved": -85.7004397181411,
+   "margin_bits_Gamma_casc_if_failed": 123.2995602818589
+  }
+ ],
+ "checks": 17,
+ "fails": [],
+ "law": {
+  "points": [
+   [
+    20,
+    4,
+    4,
+    101,
+    1,
+    0.0016140625865933382,
+    0
+   ],
+   [
+    20,
+    4,
+    4,
+    41,
+    1,
+    0.05943885558615891,
+    0
+   ],
+   [
+    16,
+    4,
+    2,
+    193,
+    1,
+    0.30712233885473433,
+    0
+   ],
+   [
+    16,
+    4,
+    2,
+    113,
+    1,
+    0.8959198057796225,
+    0
+   ],
+   [
+    20,
+    6,
+    2,
+    401,
+    1,
+    1.044520867407541,
+    240
+   ],
+   [
+    20,
+    6,
+    2,
+    401,
+    3,
+    1.044520867407541,
+    8
+   ],
+   [
+    16,
+    4,
+    2,
+    97,
+    1,
+    1.2158571580401742,
+    0
+   ],
+   [
+    16,
+    6,
+    2,
+    97,
+    1,
+    1.2158571580401742,
+    0
+   ],
+   [
+    21,
+    5,
+    2,
+    337,
+    1,
+    1.7917741637242557,
+    7
+   ],
+   [
+    21,
+    5,
+    2,
+    337,
+    2,
+    1.7917741637242557,
+    0
+   ],
+   [
+    21,
+    5,
+    2,
+    337,
+    4,
+    1.7917741637242557,
+    0
+   ],
+   [
+    21,
+    5,
+    2,
+    337,
+    5,
+    1.7917741637242557,
+    0
+   ],
+   [
+    20,
+    6,
+    2,
+    281,
+    1,
+    2.1271260495687745,
+    240
+   ],
+   [
+    20,
+    6,
+    2,
+    281,
+    3,
+    2.1271260495687745,
+    0
+   ],
+   [
+    20,
+    6,
+    2,
+    241,
+    1,
+    2.8918234878876055,
+    240
+   ],
+   [
+    20,
+    6,
+    2,
+    241,
+    3,
+    2.8918234878876055,
+    0
+   ],
+   [
+    21,
+    5,
+    2,
+    211,
+    1,
+    4.570652051840704,
+    0
+   ],
+   [
+    21,
+    5,
+    2,
+    211,
+    2,
+    4.570652051840704,
+    0
+   ],
+   [
+    21,
+    5,
+    2,
+    211,
+    4,
+    4.570652051840704,
+    7
+   ],
+   [
+    21,
+    5,
+    2,
+    211,
+    5,
+    4.570652051840704,
+    0
+   ],
+   [
+    20,
+    6,
+    2,
+    181,
+    1,
+    5.126827630414212,
+    240
+   ],
+   [
+    20,
+    6,
+    2,
+    181,
+    3,
+    5.126827630414212,
+    0
+   ],
+   [
+    20,
+    4,
+    2,
+    101,
+    1,
+    7.5992549750024505,
+    0
+   ],
+   [
+    21,
+    5,
+    2,
+    127,
+    1,
+    12.616405232810466,
+    0
+   ],
+   [
+    21,
+    5,
+    2,
+    127,
+    2,
+    12.616405232810466,
+    7
+   ],
+   [
+    21,
+    5,
+    2,
+    127,
+    4,
+    12.616405232810466,
+    7
+   ],
+   [
+    21,
+    5,
+    2,
+    127,
+    5,
+    12.616405232810466,
+    0
+   ],
+   [
+    20,
+    6,
+    2,
+    101,
+    1,
+    16.465052445838644,
+    240
+   ],
+   [
+    20,
+    6,
+    2,
+    101,
+    3,
+    16.465052445838644,
+    24
+   ],
+   [
+    20,
+    6,
+    2,
+    101,
+    1,
+    16.465052445838644,
+    240
+   ],
+   [
+    20,
+    6,
+    2,
+    101,
+    3,
+    16.465052445838644,
+    24
+   ],
+   [
+    20,
+    6,
+    2,
+    101,
+    3,
+    16.465052445838644,
+    24
+   ],
+   [
+    20,
+    6,
+    2,
+    101,
+    3,
+    16.465052445838644,
+    24
+   ],
+   [
+    20,
+    6,
+    2,
+    101,
+    3,
+    16.465052445838644,
+    24
+   ],
+   [
+    16,
+    4,
+    2,
+    17,
+    1,
+    39.58477508650519,
+    8
+   ],
+   [
+    20,
+    6,
+    2,
+    61,
+    1,
+    45.13840365493147,
+    240
+   ],
+   [
+    20,
+    6,
+    2,
+    61,
+    3,
+    45.13840365493147,
+    44
+   ],
+   [
+    20,
+    6,
+    2,
+    61,
+    1,
+    45.13840365493147,
+    240
+   ],
+   [
+    20,
+    6,
+    2,
+    61,
+    3,
+    45.13840365493147,
+    44
+   ],
+   [
+    20,
+    4,
+    2,
+    41,
+    1,
+    46.11540749553837,
+    18
+   ],
+   [
+    20,
+    4,
+    2,
+    41,
+    1,
+    46.11540749553837,
+    18
+   ],
+   [
+    20,
+    4,
+    2,
+    41,
+    1,
+    46.11540749553837,
+    18
+   ],
+   [
+    20,
+    4,
+    2,
+    41,
+    1,
+    46.11540749553837,
+    18
+   ],
+   [
+    24,
+    4,
+    2,
+    73,
+    1,
+    64.94726965659598,
+    78
+   ],
+   [
+    28,
+    4,
+    2,
+    113,
+    1,
+    92.72769989819093,
+    176
+   ],
+   [
+    20,
+    6,
+    2,
+    41,
+    1,
+    99.91671624033313,
+    80
+   ],
+   [
+    20,
+    6,
+    2,
+    41,
+    1,
+    99.91671624033313,
+    320
+   ],
+   [
+    20,
+    6,
+    2,
+    41,
+    3,
+    99.91671624033313,
+    68
+   ],
+   [
+    20,
+    6,
+    2,
+    41,
+    1,
+    99.91671624033313,
+    320
+   ],
+   [
+    20,
+    6,
+    2,
+    41,
+    3,
+    99.91671624033313,
+    68
+   ],
+   [
+    20,
+    6,
+    2,
+    41,
+    3,
+    99.91671624033313,
+    68
+   ],
+   [
+    20,
+    6,
+    2,
+    41,
+    3,
+    99.91671624033313,
+    68
+   ],
+   [
+    20,
+    6,
+    2,
+    41,
+    3,
+    99.91671624033313,
+    68
+   ],
+   [
+    21,
+    5,
+    2,
+    43,
+    1,
+    110.05408328826393,
+    238
+   ],
+   [
+    21,
+    5,
+    2,
+    43,
+    2,
+    110.05408328826393,
+    63
+   ],
+   [
+    21,
+    5,
+    2,
+    43,
+    4,
+    110.05408328826393,
+    84
+   ],
+   [
+    21,
+    5,
+    2,
+    43,
+    5,
+    110.05408328826393,
+    70
+   ],
+   [
+    24,
+    6,
+    2,
+    73,
+    1,
+    245.35635203602928,
+    328
+   ],
+   [
+    32,
+    4,
+    2,
+    97,
+    1,
+    357.72728238920183,
+    200
+   ]
+  ],
+  "subcritical_all_zero": true,
+  "supercritical_max_ratio": 112.82829245058348
+ },
+ "verdict": "PASS"
+}

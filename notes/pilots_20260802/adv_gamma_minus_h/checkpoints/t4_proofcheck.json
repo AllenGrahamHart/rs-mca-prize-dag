@@ -1,0 +1,142 @@
+{
+ "doc": "t4_proofcheck.py -- machine-check every ALGEBRAIC STEP of the two proofs.\n\nThe proofs are short; the risk is that one of the index shifts is wrong.\nEach step below is checked against brute-force polynomial arithmetic on\nrandom data, so no step rests on my hand computation.\n\n  S1  WINDOW IDENTITY.  For arbitrary (not necessarily split) monic M of\n      degree r' and arbitrary z,\n          [X^{n-1-i}] (W_z . M)  ==  alpha_i + z beta_i ,\n          alpha_i = m_{-i} + c m_{r'+delta-i},\n          beta_i  = m_{j-i} + c m_{r'+delta+j-i} ,\n      with m_s := 0 outside [0, r'].   (delta = a - k - w.)\n\n  S2  LEMMA-1 EQUIVALENCE.  For M = locator of a subset T of H, the window\n      conditions hold  <=>  the interpolant of w_z on H\\T is a codeword of\n      degree < k.  Checked by brute force on every T of a small fixture.\n\n  S3  FACTORISATION (j=1).  With N := (X+z).M,\n          alpha_i + z beta_i = [X^{r'+1-i}] N * c + [X^{1-i}] N   is the\n      same system as   N(0) = -c,  [X^1]N = 0,  [X^{r-t}]N = 0 (t<w).\n      Equivalent form checked: e_t(S) = 0 for t = 1..w-1, e_{r-1}(S) = 0,\n      prod(S) = gamma, where S = T + {-z}.\n\n  S4  THEOREM Y (the confinement).  prod(S) = gamma  and  prod(T) in\n      x0^{r-1} mu_n  and  gamma in x0^r mu_n  =>  -z in x0 mu_n = H.\n      Checked on every classified solution of every fixture.\n\n  S5  CEILING (j=1).  At delta >= 2 the window index i=1 gives the single\n      equation z.m_0 = 0, unsatisfiable for z != 0 and M split over\n      H subset F_q^*.  Checked: the classifier at a_target >= k+w+2\n      returns EMPTY, and the i=1 row is literally (0, m_0).\n\n  S6  CEILING for the (0:1) direction.  v = u/X has no codeword at\n      agreement >= k+w+1: the i=1 row is (m_0, 0).\n\n  S7  NON-CONFINEMENT AT j >= 2.  The two top rows give\n      z = -m_0/m_j and z.m_{j-1} = -c, hence  z = +- 1/e_j(T^{-1});\n      checked numerically on classified solutions.  At j = 1 this reads\n      z = +-1/e_1(T^-1) ... no: at j=1 the SAME pair of rows degenerates to\n      the product condition, which is why j=1 is special.\n",
+ "checks": 50,
+ "fails": [],
+ "detail": {
+  "mc_jobs": [
+   {
+    "n": 16,
+    "k": 4,
+    "w": 2,
+    "M": 2,
+    "q": 17,
+    "j": 1,
+    "n_solutions": 78,
+    "prod_S_eq_gamma": 78,
+    "minus_z_in_H": 78,
+    "z_eq_inv_e_j": 78
+   },
+   {
+    "n": 16,
+    "k": 4,
+    "w": 2,
+    "M": 2,
+    "q": 97,
+    "j": 1,
+    "n_solutions": 70,
+    "prod_S_eq_gamma": 70,
+    "minus_z_in_H": 70,
+    "z_eq_inv_e_j": 70
+   },
+   {
+    "n": 20,
+    "k": 4,
+    "w": 2,
+    "M": 2,
+    "q": 41,
+    "j": 1,
+    "n_solutions": 186,
+    "prod_S_eq_gamma": 186,
+    "minus_z_in_H": 186,
+    "z_eq_inv_e_j": 186
+   },
+   {
+    "n": 20,
+    "k": 6,
+    "w": 2,
+    "M": 2,
+    "q": 41,
+    "j": 1,
+    "n_solutions": 344,
+    "prod_S_eq_gamma": 344,
+    "minus_z_in_H": 344,
+    "z_eq_inv_e_j": 344
+   },
+   {
+    "n": 24,
+    "k": 4,
+    "w": 2,
+    "M": 2,
+    "q": 73,
+    "j": 1,
+    "n_solutions": 420,
+    "prod_S_eq_gamma": 420,
+    "minus_z_in_H": 420,
+    "z_eq_inv_e_j": 420
+   },
+   {
+    "n": 20,
+    "k": 4,
+    "w": 4,
+    "M": 4,
+    "q": 41,
+    "j": 1,
+    "n_solutions": 24,
+    "prod_S_eq_gamma": 24,
+    "minus_z_in_H": 24,
+    "z_eq_inv_e_j": 24
+   },
+   {
+    "n": 20,
+    "k": 6,
+    "w": 2,
+    "M": 4,
+    "q": 41,
+    "j": 3,
+    "n_solutions": 92,
+    "prod_S_eq_gamma": 2,
+    "minus_z_in_H": 56,
+    "z_eq_inv_e_j": 92
+   },
+   {
+    "n": 20,
+    "k": 6,
+    "w": 2,
+    "M": 4,
+    "q": 101,
+    "j": 3,
+    "n_solutions": 48,
+    "prod_S_eq_gamma": 2,
+    "minus_z_in_H": 24,
+    "z_eq_inv_e_j": 48
+   },
+   {
+    "n": 21,
+    "k": 5,
+    "w": 2,
+    "M": 7,
+    "q": 43,
+    "j": 2,
+    "n_solutions": 77,
+    "prod_S_eq_gamma": 3,
+    "minus_z_in_H": 63,
+    "z_eq_inv_e_j": 77
+   },
+   {
+    "n": 21,
+    "k": 5,
+    "w": 2,
+    "M": 7,
+    "q": 43,
+    "j": 1,
+    "n_solutions": 252,
+    "prod_S_eq_gamma": 252,
+    "minus_z_in_H": 252,
+    "z_eq_inv_e_j": 252
+   },
+   {
+    "n": 21,
+    "k": 5,
+    "w": 2,
+    "M": 7,
+    "q": 127,
+    "j": 4,
+    "n_solutions": 21,
+    "prod_S_eq_gamma": 2,
+    "minus_z_in_H": 14,
+    "z_eq_inv_e_j": 21
+   }
+  ]
+ },
+ "verdict": "PASS"
+}
