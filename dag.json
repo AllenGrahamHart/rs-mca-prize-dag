@@ -22043,6 +22043,31 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier",
+   "title": "KoalaBear m2 r4 positive 433-1b product-rank-drop common exception classifier",
+   "status": "PROVED",
+   "closure": "exact all-45-minor guarded standard-basis classification of all 60 exceptional common rows",
+   "statement": "On the product-row rank-at-most-four branch of 433-1b -> O0a, exact localized ideals combine all six product cofactors with all 45 maximal minors of the full common 10 x 8 Vieta matrix. All 60 matching/root-sign rows complete over the deployed field. Cells 0,1,2,3,6 are unit ideals in all four sign rows, closing 20 rows. Every row in cells 4,5,7,8,9,10,11,12,13,14 is zero-dimensional, reducing the remaining exceptional branch to 40 finite schemes. Principal product rank five, exceptional-point classification, outside rows, and route exclusion remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_product_base_rank_compiler.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_product_base_rank_compiler_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_product_base_rank_compiler_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_product_rankdrop_common_exact_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_product_rankdrop_common_exact_result.json"
+   ]
+  },
+  {
    "id": "dli_c1_256_block_basis_factorization",
    "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
    "status": "PROVED",
@@ -43560,6 +43585,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
