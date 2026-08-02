@@ -15072,3 +15072,25 @@ next route step:          run one bounded common saturation on each of
 nonclaim:                 no deletion of those seven representatives,
                           positive route, K3, Prize rows, LIST, or MCA
 ```
+
+### Work-cycle theorem: seven remaining positive common curves
+
+```text
+representatives:          cells 0,3,4,9,11,12,14 for orbits
+                          [0],[3,6],[4,7],[9,10],[11],[12,13],[14]
+field/sign row:           F_2130706433, signs (-1,-1)
+full localized ideals:    all proper, all Krull dimension 1
+full basis sizes:         7,23,24,23,26,29,31 respectively
+chart diagnostics:        also dimension 1 with the same recorded sizes
+result hash:              56be2226b9777e68f25f7535a1be49dc933e6a6f346ab6a6b7f558ba90d5776d
+Modal app:                ap-fnxJGdD8X5JDttlB0TQvBp
+compute spend:            seven parallel 2 GiB containers completing in
+                          seconds; comfortably below $1
+exact strategic verdict: common-stage unit-ideal deletion is exhausted on
+                          the seven open orbits
+next route step:          triangularize the size-seven cell-0 curve, test
+                          deployed rational components, and append one
+                          universal necessary outside signed-family cut
+nonclaim:                 no deployed rational point or outside completion,
+                          route, K3, Prize rows, LIST, or MCA
+```

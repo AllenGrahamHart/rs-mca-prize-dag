@@ -3603,3 +3603,16 @@ Run one bounded deployed common saturation for each representative in
 parallel.  Unit ideals delete whole orbits.  A survivor should be retained
 as a finite algebra and tested against one necessary outside triple before
 any larger outside ledger.
+
+The seven-way common filter is now complete.  The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile`
+shows that every remaining guard-localized full six-minor ideal is proper
+of dimension one over the deployed coefficient field.  Exact basis sizes
+for cells `0,3,4,9,11,12,14` are respectively
+`7,23,24,23,26,29,31`; the matching three-minor chart diagnostics have the
+same dimensions and sizes.  This is geometric nonemptiness only, not a
+base-field rational-point or outside-completion theorem.  Common-stage unit
+deletion is exhausted for these seven orbits.  Triangularize cell `0`, test
+its deployed rational components, and append a universal necessary outside
+signed-family cut.  Do not repeat the common sweep or fan out 267 formal
+outside cases.

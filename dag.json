@@ -21521,6 +21521,28 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+   "title": "KoalaBear positive 433-1a remaining common curve profile",
+   "status": "PROVED",
+   "closure": "all seven remaining guard-localized common ideals are proper of Krull dimension one",
+   "statement": "One exact (-1,-1) representative of each remaining positive common orbit [0], [3,6], [4,7], [9,10], [11], [12,13], [14] has a proper dimension-one full six-minor ideal after all source and target guards are saturated over F_2130706433. Exact Singular basis sizes are respectively 7,23,24,23,26,29,31. This is geometric common-stage nonemptiness only: no base-field rational point, outside completion, route, K3, LIST, MCA, or Prize closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_remaining_common_saturation_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_remaining_common_saturation_result.json"
+   ]
+  },
+  {
    "id": "dli_c1_256_block_basis_factorization",
    "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
    "status": "PROVED",
@@ -42578,6 +42600,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
