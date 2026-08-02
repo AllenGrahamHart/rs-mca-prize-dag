@@ -17,9 +17,18 @@ f = c_1-z_1 g.
 
 Both `f` and `g` have degree `<k`. On every point of `R`, subtraction gives
 `g=v` and then `f=u`. Thus a distinct-slope pair with `|R|>=k+1` forces the
-received pair to a codeword pair on more than `k` points. This is exactly the
-tangent/classified event removed before the generic remainder. Consequently
-the generic post-strip family has pairwise cores at most `k`.
+received pair to a codeword pair on more than `k` points. [ITEM-3
+CORRECTION, ratified 2026-08-02 — see
+`notes/BAND_OVERCLAIM_FLAG_20260802.md`.] The forcing is PROVED for all
+cores `>=k+1`; no core-based CHARGE is proved at any threshold. The generic
+core ceiling is `A-1`, sourced from genericity plus this forcing algebra
+(core `=A` between exact-`A` selected supports coincides them, and the
+forcing then yields a joint `A`-support explanation, i.e. the nongeneric
+branch). The band `[k+1,A-1]` is CLASSIFIED, not removed: under the
+ratified Route T partition it is carried by the third generic column
+(`xr_graded_tangent_band_charge`, cascade tier `d=h-1` included), and the
+post-band-column remainder has pairwise cores at most `k` by construction
+of the partition, not by this rung.
 
 The six-row integer calculation then subtracts `B_quot_ub(A)` and `n-A+1`
 from `B*`. Direct evaluation gives at least `29 n^3` residual allowance on

@@ -152,3 +152,8 @@ Baseline: master 74eea5b8. All steps node-scoped; never copy pin's dag.json/road
 3. Statement-text constants not machine-pinned in 3 new verifiers (M6/M10 genus): rank_charge, kb atom (+the refuted node's missing status pin = CATCH-B). Consider a lint.
 4. agent-B noted pin edge count 2456 in its own recount vs my 2657 (raw); reconciled: 2657 raw includes the known pre-existing duplicate petal edge + counting method; immaterial to any conclusion.
 5. l1_balanced census Modal record banks aggregate worker-seconds (998.04s) + shard ids but no explicit wall-time figure — minor clause-2 registration nit.
+
+[CORRECTION 2026-08-02: same correction as WAVE5_AUDIT_FINDINGS.md — any
+"post-strip = rung cores <= k" reading in this record re-derives via the
+ratified R2/Route T partition (band column charged separately), not via
+the rung, whose proved content is forcing only.]

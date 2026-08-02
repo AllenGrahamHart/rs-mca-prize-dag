@@ -79,3 +79,11 @@ Order: [15ff12ab dep] -> a183775e -> 43c91d91+bca6fc8c -> 848c2977 -> 734c664b -
 10. verifier_manifest: register the 9 new verify.py + statement/proof hashes (recompute hashes on the repaired files — the #158/#159 text repairs change statement.md hashes).
 11. Campaign ledger: import the pinned rows for all 11 commits with #158 annotations on the 60791913/e3c08000 rows; catches #158-#161 to notes/kernel_basis/KB_LOG.md.
 12. NOT IMPORTED (out of scope / other lanes): branch status divergences packaging/petal_g1_k4_scale_reserve/petal_chart_carrying_descent (pre-existing branch divergence, wave-4+ territory); quotient_row_random_word_lower_bound, rate_half_endpoint_reduction (other waves); post-pin 9d058055/261bef6d (wave-6, re-audit with #158).
+
+[CORRECTION 2026-08-02: the cluster-3 line "post-strip = rung cores <= k"
+recorded a derivation that was never proved — the rung proves FORCING at
+cores >= k+1, not removal (see xr_strip_classification_rungs' item-3
+correction). Under the 2026-08-02 ratified Route T partition, "cores <= k"
+holds for the post-BAND-COLUMN remainder by construction; the imported
+theorems' own scopes (slope counting, per-pair sup, six candidates) are
+unaffected.]

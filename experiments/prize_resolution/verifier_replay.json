@@ -2,18 +2,9 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 1,
+    "PASS": 0,
     "TIMEOUT": 0
   },
-  "results": [
-    {
-      "returncode": 0,
-      "script": "background/nodes/dli_official_support_forcing/verify.py",
-      "seconds": 0.018171,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "* 3^128, so every q >= 2^203 is already in the E_min = 4 regime with 53 bits to spare\nPASS E: C2'' named exhibit q = 2^256 - 191315023233023 is official-admissible in shape (256 bits, v_2(q-1) >= 41, q < 2^256) and lies in the E_min = 4 window 3^128 < q <= 4^128  v_2(q-1) = 41, (q-1)/2^41 = 52656145834278593348959013841835216159447547700274555627155488681\nPASS E: exhibit passes a 12-base strong-probable-prime test -- this is NOT a primality certificate (the banked claim is BPSW; the theorem below does not depend on the exhibit being prime)\nPASS F: E <= 3  =>  E^128 <= 3^128, so every q > 3^128 excludes all energies 1, 2, 3 at EVERY official junction  1^128 = 1, 2^128, 3^128 all <= 3^128 < q\nPASS F: junction 0 -- the skew domain is {+-1}^{S_0}, so E = |S_0| exactly; hence for q > 3^128 every t-null state has |S_0| = 0 or |S_0| >= 4  supports of size 1, 2, 3 are all excluded\nPASS F: general small-cell exclusion -- a junction-j state whose whole admissible skew domain has sum_i c_i^2 <= 3 admits NO nonzero skew at any q > 3^128; sum_i c_i^2 >= 4 is not excluded by this gate  c-profiles [1,1,1] (killed) ... [1,1,1,1], [2] (not killed)\nPASS G: SCOPE -- a formally admissible but small official q gives only E_min = 2; the |S_0| >= 4 form needs q > 3^128 = 2^202.87  E_min(2^41+1) = E_min(6597069766657) = 2; E_min(3^128) = 3; E_min(3^128+1) = 4\nPASS G: HONEST PRICING -- a SINGLE constraint (o = 1) at junction 0 has ceiling E^{N_0/2} with N_0/2 = 2^39; since q < 2^256 <= 2^{2^39} <= E^{N_0/2} for every E >= 2, it excludes ONLY E = 1 even at q ~ 2^256. All the strength comes from LN2's full block q^{L_j} at the fixed 256:1 ratio  N_0/2 = 2^39 = 549755813888 >> 256 = bit length of q\nPASS G: CAVEAT recorded -- a 34th-block reading (N = 128, L = 1, i.e. ratio 128, criterion q <= E^64) would give E_min = 16 at the exhibit; the theorem uses the PINNED 33-junction schedule with ratio 256 and does NOT use that reading  15^64 < q <= 16^64 = 2^256\nDLI_OFFICIAL_SUPPORT_FORCING_ALL_PASS\n"
-    }
-  ],
+  "results": [],
   "schema": "prize-verifier-replay-v1"
 }

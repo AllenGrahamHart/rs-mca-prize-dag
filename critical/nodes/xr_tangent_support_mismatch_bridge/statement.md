@@ -10,18 +10,31 @@ exhaustive dichotomy.
 ## Generic branch
 
 If no codeword pair jointly explains `(u,v)` on an `A`-support, select one
-exact-`A` support-wise bad ray per live slope. The proved strip/classification
-rung leaves selected agreement supports with pairwise intersections at most
-`K`. They split disjointly into
+exact-`A` support-wise bad ray per live slope. [R2 + ROUTE T PARTITION OF
+RECORD, ratified 2026-08-02 — supersedes the former `= K` split, which
+rested on an unproved core cap; see `notes/FLAG_ADJUDICATION_20260802.md`.]
+The selected supports split disjointly BY DEFINITION into three classes
+(symbol pinned: `k`, the code dimension; core = pairwise support
+intersection):
 
 ```text
-Gamma_hi={z: some z'!=z has |S_z intersect S_z'|=K},
-Gamma_lo=Gamma\Gamma_hi.
+Gamma_band={z: some z'!=z has |S_z intersect S_z'|>=k+1},
+Gamma_hi ={z not in Gamma_band: some z'!=z has |S_z intersect S_z'|=k},
+Gamma_lo =Gamma\(Gamma_band union Gamma_hi).
 ```
 
-Thus `Gamma_hi` is P-A1 and every member of `Gamma_lo` intersects every other
-selected support in at most `K-1`, which is P-B. Assuming the two printed
-`8n^3` bounds gives `16n^3` for this branch.
+The partition is exhaustive and disjoint by construction, with no core-cap
+premise. Participation in a `>=k+1` core is symmetric, so after removing
+`Gamma_band` all remaining pairwise cores are at most `k`. `Gamma_band`
+(band depths `[1,h-1]`, the depth-`h-1` cascade tier included and named) is
+charged by the third generic column (`xr_graded_tangent_band_charge`,
+`<=4n^3` from the `13n^3` headroom); `Gamma_hi` is P-A1 (its exact-`k`
+form and machinery unchanged); `Gamma_lo` intersects every other selected
+support in at most `k-1`, which is P-B. The strip rung supplies the FORCING
+(cores `>=k+1` force a codeword pair on `>k` points) and, with genericity,
+the core ceiling `A-1` — it does not remove the band. Assuming the two
+printed `8n^3` bounds plus the band column gives `20n^3` for this branch,
+inside the proved `29n^3` allowance.
 
 ## Nongeneric branch
 
@@ -54,9 +67,10 @@ The full retained mismatch population routes to P-A2, whose obligation is
 one combined `16n^3` bound. No separate `8n^3` high/low allocation is imposed
 on this branch.
 
-Therefore P-A1, P-A2, and P-B imply the exact post-strip `16n^3` bound for
-every received pair. This bridge proves the dichotomy, support-wise tangent
-ownership, and routing only; it proves none of those numerical clauses.
+Therefore P-A1, P-A2, P-B, and the band column imply the exact post-strip
+residual bound for every received pair. This bridge proves the dichotomy,
+support-wise tangent ownership, and routing only; it proves none of those
+numerical clauses.
 
 The canonical full-external-zero descent remains the principal alternative
 attack on P-A2. Its depth, terminal breadth, and low-rank parts are proved.

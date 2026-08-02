@@ -420,3 +420,43 @@ Execution queue: (b) DONE -> (c) the coordinated-edit bundle -> (d)
 roadmap r3. Sequencing note (coordinator authority): the norm-gate mint
 ships as its own commit — it is DLI-lane, independent of Route T; the
 Route T coordinated edit stays atomic in its own commit.
+
+---
+
+## COORDINATED-EDIT BUNDLE EXECUTED (execution item (c)) — ONE COMMIT
+
+Against the four ratified decisions. Contents: (1) bridge R2 + Route T
+THREE-WAY partition of record (Gamma_band | Gamma_hi exact-k | Gamma_lo;
+definition-based, no core-cap premise; P-A1 keeps exact-k with ZERO
+demotions — Route T's promise, now sourced); (2) strip item-3 correction
+(forcing only; ceiling A-1 sourced; band CLASSIFIED) + (3') consumption
+addendum 20n^3 <= 29n^3; (3) cascade scope correction ("~n-core" and
+"paid" WITHDRAWN from proved scope; forcing + cascade only); (4) P-A1
+4,662-sentence correction (replay verified FORCING; the 4,662 are
+core>=k+1 CROSS pairs — evidence cores exceed k) + group-C kappa = k
+scoping line; (5) smallcore route-of-record + criterion-3 re-scope;
+(6) quotient-router R2 addendum (sub-core, >= k routing); (7) P-B scope
+addendum (field hypothesis NECESSARY; consumption gate IS a q-floor;
+RowC 1/4 window VACUOUS V1 — the ratified recorded obligation
+DISCHARGED; residual = adversarial planting); (8) clean_residual
+"removes" -> "classifies" + second unproved contribution; (9) WP7
+bookends, F5-OS quantifier, WAVE5/WAVE20/BRIEF3_DOSSIER dated
+corrections (BRIEF_3 + target_mappings.json left as-is — their wordings
+remain TRUE under Route T since P-A1 is unchanged; adjudication
+recorded); (10) THEOREM Y coordinator amendment appended to
+band_adjudication REPORT (caveats 1-2 closed at j=1; j>=2 inherits the
+gate inequality; set/cardinality claims separated); (11)
+notes/BAND_LANE_DEFINITIONS.md — the 10 ratified definitions + per-ray
+accounting + the occupancy heart (items 11-12); (12) NEW TARGET
+xr_graded_tangent_band_charge (third generic column <= 4n^3, cascade
+tier named, occupancy lemma = single open input, escape-form heart)
+with 3 ev in + req out to xr_smallcore_spread_count.
+
+CENSUS: +1 critical red — math orbit 242 = 179/38/25 (was 241 =
+179/38/24); dag-wide 1747 nodes / 4842 edges, TARGET 76. Manifest
+refreshed; lane verifiers PASS. Remaining mint wave (band-ledger
+T3/T4/T5/T7, occupancy T1/T2/T4, Theorem G, Theorem 5/BP merge, KEY
+LEMMA + pencil mass identity, MC family, L1 + design ceiling + block
+dichotomy, S4 pack, antipodal lemma + parity-defect certificate) ->
+delegated to a band-mint-prep Opus pilot for coordinator line-audit
+(same pattern as the norm-gate mint). Next: (d) roadmap r3.

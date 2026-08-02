@@ -3,12 +3,19 @@
 Either a joint codeword-pair explanation on an `A`-support exists or it does
 not.
 
-In the second case the pair is in the original globally generic scope. The
-proved strip rung makes all distinct selected support intersections at most
-`K`. Declaring a slope high when it participates in an intersection of size
-exactly `K` and low otherwise gives a disjoint exhaustive partition. Every
-low member intersects every other selected support in at most `K-1`. These
-are P-A1 and P-B by definition.
+In the second case the pair is in the original globally generic scope.
+[R2 + ROUTE T, ratified 2026-08-02.] Declare a slope band when it
+participates in an intersection of size at least `k+1`, high when it is not
+band and participates in an intersection of size exactly `k`, and low
+otherwise. This three-way partition is disjoint and exhaustive by
+construction and uses no core cap. Participation in a `>=k+1` intersection
+is symmetric, so outside the band class all pairwise intersections are at
+most `k`: every low member intersects every other selected support in at
+most `k-1`. The band class is the third-column obligation
+(`xr_graded_tangent_band_charge`); the high and low classes are P-A1 and
+P-B by definition. The strip rung is used only for its forcing content
+(cores `>=k+1` force a codeword pair on more than `k` points, which is what
+makes the band class a codeword-pair phenomenon), never as a removal.
 
 Now suppose a joint explanation `(c_0,c_1)` exists. For every selected ray,
 `q_z` is either zero or nonzero. If zero, the proved coordinate injection

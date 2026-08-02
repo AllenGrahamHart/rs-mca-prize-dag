@@ -92,3 +92,20 @@ mclib.py (exhaustive pencil engine, covers (0:1)) . exp_mc_occupancy.py (109) . 
 6. Toy scale (n <= 20, q <= 241); the 2-adic arithmetic and six-row pricing are exact integers.
 7. Novelty narrow and localized (MC-6, MC-7, THEOREM BP, the |Gamma| = n overflow); the folding, syndrome-folding, k-packing, exclusivity, line cap, T2, and the A-1 ceiling are banked.
 8. One two-line text-edit patch ran under bare python3 (no computation); all numerical work under ramguard.
+
+---
+
+[COORDINATOR AMENDMENT 2026-08-02, from the adv_gamma_minus_h adversarial
+pilot (banked, coordinator-replayed) — THEOREM Y supersedes caveats 1-2:
+(i) at j = 1, Gamma subset -H is a THEOREM (coset confinement
+-z in gamma.x0^{-(r-1)}.mu_n + realizability), unconditional in n,k,w,q,
+beta,char, and the MC shift pencil's tangent gate is proved
+unconditionally — caveats 1 and 2 CLOSE with no q-threshold; (ii) at
+j >= 2 the set claim is REFUTED (18 gate-intact certified
+counterexamples, headline |Gamma| = 2.2n), and the excess is governed by
+X = C(n,A)/q^w — numerically identical to the gate-admissibility
+threshold already assumed, so caveats 1-2 were ONE hypothesis, not two;
+(iii) the cardinality bound |Gamma| <= n is unconditional at j = 1 and
+more robust than the set claim — state them separately. Lemma wording of
+record: "confinement = the j=1 coset theorem + realizability; j >= 2
+inherits from the gate inequality X < 1."]

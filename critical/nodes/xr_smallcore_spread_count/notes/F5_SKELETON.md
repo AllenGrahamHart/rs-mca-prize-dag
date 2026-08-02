@@ -689,3 +689,14 @@ DISCHARGED-MODULO-KERNEL; W-aggregation INSTRUMENTED (exact bookkeeping
 imported + replayed, collision count posed); remaining genuinely open:
 far-from-pencil anti-concentration heart, W-collision moment, low-core
 instrument.
+
+[QUANTIFIER CORRECTION 2026-08-02 (ratified with the Route T bundle): the
+F5-OS box above quantifies at "pairwise cores <= A-2", and stratification
+item (i) reads "[k, A-2]" — both leave the depth-(h-1) cascade tier in NO
+column. Corrected scope: the generic branch is covered by the R2
+three-way partition — the band COLUMN [k+1, A-1] (cascade tier d = h-1
+named, charged by xr_graded_tangent_band_charge <= 4n^3 from the 13n^3
+headroom) plus the post-band-column remainder with cores <= k, which is
+what the 16n^3 form covers (P-A1 exact-k + P-B <= k-1). No stratum sits
+outside a column. The high-core stratum bound reads [k, A-1] with the
+[k+1, A-1] part owned by the band column.]

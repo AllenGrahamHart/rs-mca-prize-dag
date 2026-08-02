@@ -1,10 +1,14 @@
 # xr_smallcore_spread_count — CONDITIONAL packet (amber surgery 2026-07-10)
 
 - **status:** CONDITIONAL (amber)
-- **route of record:** support-wise first-match scope bridge -> {globally
-  generic: strips + exhaustive high/low-core dichotomy -> P-A1 <= 8n^3 plus
-  P-B <= 8n^3; globally nongeneric: genuine tangent removal -> P-A2 combined
-  mismatch <= 16n^3} -> R_post <= 16n^3 (consumer-exact).
+- **route of record (Route T, ratified 2026-08-02):** support-wise
+  first-match scope bridge -> {globally generic: strips + the R2 three-way
+  partition -> band column [k+1, A-1] <= 4n^3
+  (`xr_graded_tangent_band_charge`, cascade tier d = h-1 named) plus
+  P-A1 <= 8n^3 (exact-k, unchanged) plus P-B <= 8n^3; globally nongeneric:
+  genuine tangent removal -> P-A2 combined mismatch <= 16n^3} ->
+  R_post <= 16n^3 (consumer-exact; the band column is a STRIP-side charge
+  from the 13n^3 headroom, 20n^3 <= 29n^3 at every row).
 - **audit:** fresh-context amber audit 2026-07-10, verdict AMBER-READY on the
   two-predicate stratum route (the K2-reduction route stays refused per
   WP2_FACE3_VERDICT.md — different question; both answers stand). The
@@ -63,9 +67,12 @@ reduction).
 2. Candidate-pin change (deciding scales, B*, I2 q-pin ruling, #493/QA.22
    conventions re-attribution) — re-run notes/audit_consumption_replay and
    re-pin.
-3. A post-strip live cross pair with core in [k+1, A-2] surviving the
-   tangent ledger at any scaled row (breaks the rung-2b step).
-4. B_tan resolved above n-A+1 or a B_quot convention change.
+3. [RE-SCOPED 2026-08-02, Route T — band pairs are EXPECTED members of
+   the band column, not breakages.] A band-column overflow
+   (|Gamma_band| > 4n^3 at any scaled row), or a post-band-column live
+   cross pair with core >= k+1 (breaks the R2 partition of record).
+4. B_tan resolved above n-A+1 or a B_quot convention change (B_tan is
+   untouched by the ratified Route T third column).
 5. Maintainer rejects the two-predicate grain (governance call; precedent:
    worst_word W1-W3, petal G1-K4).
 

@@ -79,3 +79,9 @@ PP3.6); (4) circuit-star compression (PP3.7); (5) RowC rank-five fleet
 only after semantics freeze; (6) prize uniform owner theorem and P-A2
 Bellman in parallel. The frontier-moving list (§19) is adopted as the
 lane's progress filter.
+
+[CORRECTION 2026-08-02: the "j=h <=> size-k core equivalence" and any
+"post-strip cores <= k" framing above re-source via the ratified R2/Route
+T partition: the rung proves forcing only; the band [k+1, A-1] is charged
+by xr_graded_tangent_band_charge; P-A1's exact-k predicate is unchanged.
+Pro is paused; this record is historical.]

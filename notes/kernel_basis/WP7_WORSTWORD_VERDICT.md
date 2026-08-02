@@ -44,3 +44,11 @@ clause (ii) — M6/P2 (bites F5 at 0.86 bits, worst_word at 0.9
 bits; does NOT bite x4 at FM-suppressed strata, absolute n^3);
 (2) axis Q at small cores (5e / R_spread) — the classification
 heart. These two are K2's true frontier.
+
+[CORRECTION 2026-08-02 (cascade payment audit + Route T ratification):
+"Face 4 = two proved arithmetic bookends" over-states the second bookend's
+chain: xr_pencil_cascade's PROVED scope is forcing + cascade only — its
+former "TANGENT-PENCIL pair — paid" clause is withdrawn (see that node's
+PAYMENT_UNSOURCED_FLAG note). The arithmetic bookends themselves (budget
+audit 49/49; compiler 52/52) stand; the chain's band/cascade charge now
+lives in the ratified third-column TARGET xr_graded_tangent_band_charge.]
