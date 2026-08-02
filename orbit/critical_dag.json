@@ -1157,6 +1157,11 @@
    "title": "THE NAMED INGREDIENT (X-1 verdict): per-pair post-strip EMPTINESS at clean-rate corridor points"
   },
   {
+   "id": "xr_graded_tangent_band_charge",
+   "label": "UNPROVED",
+   "title": "XR graded tangent band charge (ratified Route T third generic column): band-column slope count <= 4n^3 with the cascade tier d = h-1 named inside [1, h-1]"
+  },
+  {
    "id": "xr_highcore_collision_count",
    "label": "UNPROVED",
    "title": ""
@@ -2404,6 +2409,10 @@
   {
    "from": "dli_c1r3_gated_envelope_bound",
    "to": "dli_marginal_baseline100_coverage"
+  },
+  {
+   "from": "xr_graded_tangent_band_charge",
+   "to": "xr_smallcore_spread_count"
   }
  ]
 }

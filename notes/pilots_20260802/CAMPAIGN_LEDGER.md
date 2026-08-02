@@ -460,3 +460,21 @@ LEMMA + pencil mass identity, MC family, L1 + design ceiling + block
 dichotomy, S4 pack, antipodal lemma + parity-defect certificate) ->
 delegated to a band-mint-prep Opus pilot for coordinator line-audit
 (same pattern as the norm-gate mint). Next: (d) roadmap r3.
+
+---
+
+## EXPORT FALLBACK EXECUTED (user-authorized 2026-08-02)
+
+PR #1143 (przchojecki/rs-mca) updated at 02d2788f: the complete positive
+433-1a route exclusion exported as aggregation note + self-contained
+fail-closed verifier + canonical certificate; workboard addendum; 433-1b
+recorded majority-closed AT THE AUDIT PIN 454159b0 only (cell-14 unit
+chart open; the post-pin d5671b339 denominator-boundary work NOT claimed
+— wave-42 audit first). Clean-checkout verification: the aggregate
+node's verifier replayed PASS in our canonical public checkout
+(rs-mca-prize-dag @ 2f7604fc) before packaging; the exported verifier
+passes locally under ramguard. Maintainer comment posted
+(#issuecomment-5159932119). The kb_m2_r4 export directive (m2 collision
+memory, package-by-2026-08-02) is thereby SATISFIED. Diagonal-node
+export still HELD (collision surface with Scott's #1139, no response —
+unchanged watch). PR #174 unchanged, awaiting triage.
