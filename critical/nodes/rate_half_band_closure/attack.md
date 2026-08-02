@@ -3715,6 +3715,21 @@ the direct unsquared `z2` resultant on 23532/30276-term inputs hits its
 cell 3 must factor the signed-pair system in `w0,w1` first and append colored
 constraints componentwise.
 
+That signed-pair route is now complete.  The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion`
+computes the full degree-16 pair resultant and proves in the plane quotient
+
+```text
+R=0 => N0 D0^5 (w0+1)(w0-t^2)(rd^2w0-rn^2)^2=0.
+```
+
+The proportionality-leading norm has ten deployed roots.  Six are exactly
+the prior exceptional-scale atlas.  Two more lift only to the original guard
+`b+1=0`; at the remaining two, every deployed `w0` root is a product,
+denominator, or source-label guard.  Thus no colored equation is needed:
+the necessary signed pair is already empty.  Exact symmetry closes all eight
+rows of `[3,6]`.
+
 The lateral common-curve scout now identifies a better next target.  Exact
 `(c,r,b,t)` lex basis sizes for cells `4,9,11,12,14` are respectively
 `7,11,10,9,8`, and every leading eliminant is reciprocal.  The PROVED
@@ -3820,7 +3835,8 @@ signed pair is empty without colored elimination.  Together with the
 exceptional-scale theorem and exact root-sign/cell symmetry, this closes all
 eight rows of orbit `[4,7]`.
 
-The positive frontier is now five representatives / 32 raw rows:
-`[3,6]`, `[9,10]`, `[11]`, `[12,13]`, and `[14]`.  Before launching a large
-colored elimination on another orbit, profile its signed-pair projection for
-the same low-degree guard-factorization phenomenon.
+With the later cell-3 guard-factorization theorem, the positive frontier is
+now four representatives / 24 raw rows: `[9,10]`, `[11]`, `[12,13]`, and
+`[14]`.  Before launching a large colored elimination on another orbit,
+profile its signed-pair projection for the same low-degree guard-factorization
+phenomenon.

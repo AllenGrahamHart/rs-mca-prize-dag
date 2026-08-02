@@ -15363,3 +15363,32 @@ next route step:          profile remaining signed-pair projections for the
                           same guard-factorization before colored elimination
 nonclaim:                 no positive-route, K3, LIST, MCA, or Prize closure
 ```
+
+### Work-cycle theorem: cell-3 signed-pair guard factorization
+
+```text
+pair equations:           degrees 2 and 4 in w1
+raw resultant:            degrees (16,18,471), 151031 terms
+plane-reduced resultant:  degrees (16,3,531), 35876 terms
+plane quotient product:  N0*D0^5*(w0+1)*(w0-t^2)*(rd^2*w0-rn^2)^2
+guard representative:    degrees (16,3,258), 17380 terms
+exact identity:           c16*R-r16*C=0 modulo P
+leading norm:             degree 2104, 2101 terms
+norm factorization:       10 linear, 3 irreducible quadratic,
+                          3 irreducible cubic factors
+prior-scale roots:        0,+/-1,+/-i,1288361599
+new zero-resultant lifts: t=33199819,67070255; only b=-1, an original guard
+remaining norm fibers:    t=253393149,486122301; four deployed b lifts;
+                          all 24 distinct displayed w0 roots hit N0, D0,
+                          w0=-1, w0=t^2, or w0=r^2
+result:                   necessary signed pair empty without colored cuts
+symmetry consequence:    all eight rows of orbit [3,6] PROVED excluded
+frontier delta:           five representatives / 32 raw rows ->
+                          four representatives / 24 raw rows
+remaining orbits:         [9,10], [11], [12,13], [14]
+certificate hash:         b604908d97a7d7588392236c962f490d600479dadd0cd69eea47b318f0bb5269
+Modal app:                ap-9EiBFM8D498BpAMEN33KN2
+next route step:          compact one of cells 9,11,12,14 and test the same
+                          complete signed-pair guard factorization
+nonclaim:                 no positive-route, K3, LIST, MCA, or Prize closure
+```
