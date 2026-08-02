@@ -3616,3 +3616,22 @@ deletion is exhausted for these seven orbits.  Triangularize cell `0`, test
 its deployed rational components, and append a universal necessary outside
 signed-family cut.  Do not repeat the common sweep or fan out 267 formal
 outside cases.
+
+The first curve is now triangular.  The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness`
+gives a four-polynomial projected lex basis for cell `0`: its leading and
+trailing equations are `b^2-6b+1` and `r+16711679t^2`, with two equations
+linear in `c`.  Both `b` branches split over the deployed field.  Direct
+substitution at `t=2` certifies the two points
+
+```text
+(t,r,c,b)=(2,2063859717,572859116,1547071505),
+(t,r,c,b)=(2,2063859717,396175561,583634934)
+```
+
+against all six common minors and all twenty guards.  An initial mistaken
+reading `33423356=2i` was rejected by nonzero minor residuals; the correct
+coefficient is `2(i-1)`.  Cell `0` therefore genuinely survives over the
+base field.  Reduce its unique `A_2,A_0,B_1` kernel modulo the lex basis and
+append the universal target-free `DE+/DE-/BE` family.  Use the two points as
+specialization audits, not as outside survivors.

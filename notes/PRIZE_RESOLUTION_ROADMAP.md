@@ -15094,3 +15094,26 @@ next route step:          triangularize the size-seven cell-0 curve, test
 nonclaim:                 no deployed rational point or outside completion,
                           route, K3, Prize rows, LIST, or MCA
 ```
+
+### Work-cycle theorem: cell-0 common lex basis and rational points
+
+```text
+cell/sign/field:          0, (-1,-1), F_2130706433
+localized block basis:    dimension 1, size 7
+projected lex basis:      size 4 in (r,c,b,t)
+branch equation:          b^2-6b+1=0; both roots lie in the deployed field
+lift equation:            r+16711679*t^2=0
+explicit common points:   (2,2063859717,572859116,1547071505)
+                          (2,2063859717,396175561,583634934)
+direct audit:             all 6 stripped minors zero and all 20 guards
+                          nonzero at both points
+result hash:              fc3f3d0318a8c32a5d1b36856b181946fa8cb68994340efddc07c82faa7c2926
+Modal app:                ap-wjhY2ueoXlvbKVfk1P7eXc
+audit catch:              first candidate used 33423356=2*i incorrectly;
+                          residual substitution rejected it; exact value is
+                          2*(i-1)
+next route step:          reduce A2,A0,B1 on both b branches and append the
+                          universal target-free DE+/DE-/BE signed family
+nonclaim:                 no outside record or complete target realization,
+                          route, K3, Prize rows, LIST, or MCA
+```
