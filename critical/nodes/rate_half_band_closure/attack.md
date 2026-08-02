@@ -3786,6 +3786,23 @@ surviving exceptional projection.  Modulo `H`, exact pseudo-Euclidean
 division gives a generic linear common divisor `A(w0,t)b+B(w0,t)` of
 `P,L,M,F`.
 
-Treat `H` as a genuine separate curve.  Classify the quotient-leading and
-`A=0` loci, then append the signed-pair root and colored equations on the
-generic lift.  Do not infer that every `H` point is realized.
+The exceptional reconstruction chart is now closed by the PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion`.
+On the generic `H` lift, necessary colored elimination gives
+
+```text
+T(t)x^4C(w0,t)=0,   x=Q_1D_0-Q_0D_1!=0.
+```
+
+The degree-16248 eliminant `Res_w0(H,C)` has a degree-15 Frobenius root
+gcd.  Its generic deployed signed-pair candidates all have `D_0=0`.  The two
+admissible roots removed in `T` have no `H(F_p)` point.  A separate exact
+atlas reconstructs all six pseudo-subresultant scales; their union has 19
+deployed `(t,w0)` points, and direct replay of the original `P,L,M,F` at each
+point leaves either no deployed `b` or only `D_0=0`.  Thus all of `L=M=0` is
+excluded in cells 4 and 7.
+
+Do not return to `H`, its content fibers, or its scale charts.  The sole
+cell-4 obstruction is now the main `L!=0` component of `F=0`: reconstruct
+`w1=-tM/L` in that function field and append the colored equations before
+projecting.

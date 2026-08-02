@@ -1,11 +1,10 @@
 # Frontier
 
-Treat `H` as a separate main component.  First factor and classify zeros on
-`H` of the `H`-leading coefficient and the leading coefficient `A` in
-`A b+B`.  On the generic chart substitute `b=-B/A`, recover a signed-pair
-`w1` root from the quadratic pair equation, and append the colored equations
-before any further projection.  Use the exact `H` relation after every
-operation.
+The PROVED child
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion`
+closes `H`, both admissible removed content fibers, every subresultant scale,
+and therefore the entire exceptional chart `L=M=0`.
 
-Do not rerun the ambient four-polynomial basis or treat `H=0` alone as a
-signed-pair or colored solution.
+Do not rerun the ambient four-polynomial basis or any `H` computation.  The
+remaining cell-4 target is the main `L!=0` component of the irreducible
+signed-pair projection `F=0`.
