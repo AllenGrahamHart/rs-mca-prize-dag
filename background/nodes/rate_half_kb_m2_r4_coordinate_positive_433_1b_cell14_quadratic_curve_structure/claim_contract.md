@@ -6,7 +6,8 @@
 - **Cell:** `14`, role shape `BC- | (LA,BC+),(AB,AC)`
 - **Coverage:** four source-sign pairs, six product-cofactor charts
 - **Conclusion:** exact common-locus quadratic-cover decomposition, global
-  guarded rational coordinates, and a verified principal-locus kernel
+  guarded rational coordinates, and a verified globally normalized
+  principal-locus kernel whose common denominator is route-open invertible
 - **Retained frontier:** quadratic-cover outside ledger; finite
   fixed-cofactor intersections are covered by the six-chart union
 - **Not claimed:** an outside exclusion, an empty common locus, complete

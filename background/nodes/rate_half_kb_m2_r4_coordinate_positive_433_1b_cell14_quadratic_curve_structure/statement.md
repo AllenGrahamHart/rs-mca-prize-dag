@@ -20,7 +20,10 @@ product-rank-five branch and under the printed source/target guards:
 5. consequently the rational `c` chart is global on the guarded principal
    locus, and an interpolation-normalized eight-coordinate kernel
    annihilates all five product rows and all five sum rows for every
-   source-sign pair.
+   source-sign pair; and
+6. the common denominator of that normalized kernel has empty intersection
+   with the guarded curve in all four source-sign cases, so the printed
+   `(-1,1)` normalization is global rather than merely generic.
 
 This claim is a structural decomposition only.  It does not exclude the
 quadratic-cover curve or cell `14` itself.

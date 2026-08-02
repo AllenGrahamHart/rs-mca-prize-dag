@@ -48,4 +48,11 @@ then interpolate `B` from three product equations.  Reduction modulo
 `F(r,b)` yields an exact kernel on the whole guarded principal locus.  The
 independent compiler checks all ten
 row pairings for each source-sign pair; every reduced numerator is zero
-with denominator one.  This proves the stated global guarded kernel. QED.
+with denominator one.  This proves the stated global guarded kernel.
+
+For completeness, let `D(r,b)` be the printed common denominator of the
+normalized kernel.  The denominator-boundary compiler adds `D` to the three
+global curve equations and saturates by the sixteen route guards together
+with the global `t`- and `c`-map denominators.  In each of the four source-sign
+cases the resulting ideal is the unit ideal.  Hence `D` never vanishes on the
+guarded principal curve, and the normalization used above is global. QED.

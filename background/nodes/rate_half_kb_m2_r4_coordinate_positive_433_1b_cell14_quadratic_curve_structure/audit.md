@@ -11,10 +11,16 @@ The following failure modes are explicitly excluded:
 - **Fixed-cofactor overclaim:** its zero-dimensional intersection is recorded,
   not deleted by saturation.
 - **Kernel scaling:** the normalized `(-1,1)` interpolation kernel is checked
-  against all ten original rows after reduction by `F(r,b)`.
+  against all ten original rows after reduction by `F(r,b)`, and its common
+  denominator boundary is independently proved route-open empty in all four
+  source-sign cases.
 - **Closure inflation:** the quadratic-cover outside ledger is not asserted.
 
 Exploratory full outside ideals reached their time caps because projective
 denominator clearing produced degree-45 to degree-49 inputs.  A
 Gaussian-rational gcd route also reached its cap.  Neither failed run is
 used as theorem evidence.
+
+Later quotient, projected-resultant, and latent-root prototypes reduced the
+input degrees but did not finish a sampled outside standard basis within
+their bounded windows.  They are exploratory only and are not used here.

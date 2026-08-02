@@ -17,12 +17,16 @@ CURVE_SCRIPT = EXPERIMENTS / "rate_half_kb_positive_433_1b_cell14_curve_kernel_m
 CURVE_RESULT = EXPERIMENTS / "rate_half_kb_positive_433_1b_cell14_curve_kernel_result.json"
 EXCEPTION_SCRIPT = EXPERIMENTS / "rate_half_kb_positive_433_1b_cell14_c_exception_modal.py"
 EXCEPTION_RESULT = EXPERIMENTS / "rate_half_kb_positive_433_1b_cell14_c_exception_result.json"
+BOUNDARY_SCRIPT = EXPERIMENTS / "rate_half_kb_positive_433_1b_cell14_kernel_denominator_boundary_modal.py"
+BOUNDARY_RESULT = EXPERIMENTS / "rate_half_kb_positive_433_1b_cell14_kernel_denominator_boundary_result.json"
 STRUCTURE_SCRIPT_SHA256 = "fb3c41e59c9eabcd25026a59810c70d72452d8d0745fbdd9b4c9c192acece15d"
 STRUCTURE_RESULT_SHA256 = "3edb40907f5607986b0e8667675e0d325fcb837442ee8acce9221c85c80581e6"
 CURVE_SCRIPT_SHA256 = "772cb45bea78d28fe4fdcecb25c0e440d3de7128a1e3b61dfecf0237895dc1e2"
 CURVE_RESULT_SHA256 = "0edd681c3557e6847eaad06eb328793a30237f5ddd7dda8d1741c3a5b8c33d81"
 EXCEPTION_SCRIPT_SHA256 = "e034b350b8e88d8df79131cc139bd13d95a3a1550f3c05f747434ff860d036fe"
 EXCEPTION_RESULT_SHA256 = "f2a4d8f8d996e624dec6a661dbe22f78a4bc5204b9da66e14ccf09a46f9548db"
+BOUNDARY_SCRIPT_SHA256 = "045dd963a21456cdf16e47cca20e4441cc1ea5872f318a5b3ac446355acf3f77"
+BOUNDARY_RESULT_SHA256 = "3ad8dcc60cf604e2f648ebb8474622da0abcf974f0b131f02d9a07d7e92de95c"
 PRODUCT = EXPERIMENTS / "rate_half_kb_positive_433_1b_product_base_rank_compiler_result.json"
 PARENTS = (
     "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
@@ -150,6 +154,31 @@ def verify_exception(payload):
             "four-sign exception census")
 
 
+def verify_boundary(payload):
+    require(payload["schema"] ==
+            "rate-half-kb-positive-433-1b-cell14-kernel-denominator-boundary-v1",
+            "boundary schema")
+    require(payload["field"] == 2130706433 and
+            payload["source_curve_sha256"] == digest(CURVE_RESULT),
+            "boundary source custody")
+    expected = set(itertools.product((-1, 1), (-1, 1)))
+    actual = set()
+    program_hashes = set()
+    for row in payload["rows"]:
+        signs = tuple(row["epsilon"])
+        require(signs not in actual, "duplicate boundary row")
+        actual.add(signs)
+        require(row["status"] == "COMPLETE" and row["unit"] and
+                row["dimension"] == -1 and row["basis_size"] == 1,
+                "kernel denominator boundary")
+        require("INITIAL_DIM=1" in row["stdout"] and
+                "UNIT=1" in row["stdout"] and "END" in row["stdout"] and
+                not row["stderr"], "boundary transcript")
+        program_hashes.add(row["program_sha256"])
+    require(actual == expected and len(program_hashes) == 4,
+            "four-sign boundary census")
+
+
 def verify_dag():
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {row["id"]: row for row in dag["nodes"]}
@@ -167,11 +196,14 @@ def main():
     require(digest(CURVE_RESULT) == CURVE_RESULT_SHA256, "curve result")
     require(digest(EXCEPTION_SCRIPT) == EXCEPTION_SCRIPT_SHA256, "exception script")
     require(digest(EXCEPTION_RESULT) == EXCEPTION_RESULT_SHA256, "exception result")
+    require(digest(BOUNDARY_SCRIPT) == BOUNDARY_SCRIPT_SHA256, "boundary script")
+    require(digest(BOUNDARY_RESULT) == BOUNDARY_RESULT_SHA256, "boundary result")
     signatures = verify_structure(json.loads(STRUCTURE_RESULT.read_text()))
     verify_curve(json.loads(CURVE_RESULT.read_text()), signatures)
     verify_exception(json.loads(EXCEPTION_RESULT.read_text()))
+    verify_boundary(json.loads(BOUNDARY_RESULT.read_text()))
     verify_dag()
-    print("cell=14 charts=24 curve_dim=1 kernels=4 open_exception=unit")
+    print("cell=14 charts=24 curve_dim=1 kernels=4 open_exception=unit kernel_boundary=unit")
 
 
 if __name__ == "__main__":

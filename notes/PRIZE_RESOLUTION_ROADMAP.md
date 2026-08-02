@@ -15627,3 +15627,24 @@ next route step:          bounded guard-saturated common-ideal census;
                           base-rank drop remains separate
 nonclaim:                 no common-point or route exclusion
 ```
+
+### Work-cycle theorem: positive 433-1b cell-14 kernel normalization boundary
+
+```text
+guarded source model:    linear t map, linear c map, quadratic F(r,b)
+normalized kernel:       beta=(-1,1), eight coordinates
+boundary tested:         printed common kernel denominator D(r,b)=0
+localization:            16 route guards plus both map denominators
+source-sign coverage:    all four epsilon pairs
+initial boundary ideals: dimension 1, basis size 20
+route-open result:       unit ideal in all four signs
+consequence:             beta=(-1,1) normalization is global on the guarded
+                         principal curve; no kernel-denominator branch remains
+Modal app:               ap-Lq3SBj46m5prGz0ixF9MRN
+next route step:         outside ledger using the global normalized kernel and
+                         linear target-record structure before joint elimination
+do not scale:            current dense quotient, successive-resultant, or
+                         latent-root prototypes in their present forms
+nonclaim:                no outside exclusion, cell-14 closure, K3, LIST, MCA,
+                         or Prize closure
+```

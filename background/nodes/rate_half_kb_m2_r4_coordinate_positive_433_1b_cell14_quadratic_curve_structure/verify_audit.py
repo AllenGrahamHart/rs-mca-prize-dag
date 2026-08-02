@@ -21,15 +21,19 @@ def main():
     structure_script = EXPERIMENTS / "rate_half_kb_positive_433_1b_cell14_kernel_structure_modal.py"
     curve_script = EXPERIMENTS / "rate_half_kb_positive_433_1b_cell14_curve_kernel_modal.py"
     exception_script = EXPERIMENTS / "rate_half_kb_positive_433_1b_cell14_c_exception_modal.py"
+    boundary_script = EXPERIMENTS / "rate_half_kb_positive_433_1b_cell14_kernel_denominator_boundary_modal.py"
     structure = json.loads((EXPERIMENTS /
         "rate_half_kb_positive_433_1b_cell14_kernel_structure_result.json").read_text())
     curve = json.loads((EXPERIMENTS /
         "rate_half_kb_positive_433_1b_cell14_curve_kernel_result.json").read_text())
     exception = json.loads((EXPERIMENTS /
         "rate_half_kb_positive_433_1b_cell14_c_exception_result.json").read_text())
+    boundary = json.loads((EXPERIMENTS /
+        "rate_half_kb_positive_433_1b_cell14_kernel_denominator_boundary_result.json").read_text())
     ast.parse(structure_script.read_text())
     ast.parse(curve_script.read_text())
     ast.parse(exception_script.read_text())
+    ast.parse(boundary_script.read_text())
     for snippet in ("base_rows = [*product_rows, sum_rows[1]]",
                     "for index in (2, 3, 4)",
                     "ideal Jt=G,dt", "ideal Jc=G,dc"):
@@ -51,10 +55,16 @@ def main():
             all(row["dimension"] == 0 and row["basis_size"] == 4 and
                 row["open_unit"] and row["open_dimension"] == -1
                 for row in exception["rows"]), "open exception audit")
+    require(len(boundary["rows"]) == 4 and
+            {tuple(row["epsilon"]) for row in boundary["rows"]} ==
+            set(itertools.product((-1, 1), (-1, 1))) and
+            all(row["status"] == "COMPLETE" and row["unit"] and
+                row["dimension"] == -1 and row["basis_size"] == 1
+                for row in boundary["rows"]), "kernel boundary audit")
     statement = (NODE / "statement.md").read_text()
     require("does not exclude" in statement and "unit ideal" in statement,
             "frontier retained")
-    print("audit=ok charts=24 signs=4 global_kernels=4 open_exception=unit")
+    print("audit=ok charts=24 signs=4 global_kernels=4 open_exception=unit kernel_boundary=unit")
 
 
 if __name__ == "__main__":

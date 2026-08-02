@@ -1,0 +1,64 @@
+{
+  "field": 2130706433,
+  "rows": [
+    {
+      "basis_size": 1,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "kernel_denominator": "16711679*b^2*r^8 - 33423358*b^2*r^7 + 16711677*b^2*r^6 + 16711681*b^2*r^4 - 33423358*b^2*r^3 + 16711679*b^2*r^2 - 16711679*r^8 + 33423358*r^7 - 16711677*r^6 - 16711681*r^4 + 33423358*r^3 - 16711679*r^2",
+      "program_sha256": "f24a39d1b34400cdd5514f2f553816de7acb7d3b34ba5bee87127a2645eda6df",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "INITIAL_DIM=1,INITIAL_SIZE=20\nSAT=0,DIM=1,SIZE=13\nSAT=1,DIM=1,SIZE=13\nSAT=2,DIM=1,SIZE=13\nSAT=3,DIM=1,SIZE=13\nSAT=4,DIM=1,SIZE=12\nSAT=5,DIM=0,SIZE=4\nSAT=6,DIM=0,SIZE=4\nSAT=7,DIM=-1,SIZE=1\nSAT=8,DIM=-1,SIZE=1\nSAT=9,DIM=-1,SIZE=1\nSAT=10,DIM=-1,SIZE=1\nSAT=11,DIM=-1,SIZE=1\nSAT=12,DIM=-1,SIZE=1\nSAT=13,DIM=-1,SIZE=1\nSAT=14,DIM=-1,SIZE=1\nSAT=15,DIM=-1,SIZE=1\nSAT=16,DIM=-1,SIZE=1\nSAT=17,DIM=-1,SIZE=1\nBEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "kernel_denominator": "16711679*b^2*r^8 + 33423358*b^2*r^7 + 16711681*b^2*r^6 + 16711677*b^2*r^4 + 33423358*b^2*r^3 + 16711679*b^2*r^2 - 16711679*r^8 - 33423358*r^7 - 16711681*r^6 - 16711677*r^4 - 33423358*r^3 - 16711679*r^2",
+      "program_sha256": "db474265eb03aebfb8ed5307e1677830425551059d6e7c6a1eb5b0b2f75de476",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "INITIAL_DIM=1,INITIAL_SIZE=20\nSAT=0,DIM=1,SIZE=13\nSAT=1,DIM=1,SIZE=13\nSAT=2,DIM=1,SIZE=13\nSAT=3,DIM=1,SIZE=13\nSAT=4,DIM=1,SIZE=12\nSAT=5,DIM=0,SIZE=4\nSAT=6,DIM=0,SIZE=4\nSAT=7,DIM=-1,SIZE=1\nSAT=8,DIM=-1,SIZE=1\nSAT=9,DIM=-1,SIZE=1\nSAT=10,DIM=-1,SIZE=1\nSAT=11,DIM=-1,SIZE=1\nSAT=12,DIM=-1,SIZE=1\nSAT=13,DIM=-1,SIZE=1\nSAT=14,DIM=-1,SIZE=1\nSAT=15,DIM=-1,SIZE=1\nSAT=16,DIM=-1,SIZE=1\nSAT=17,DIM=-1,SIZE=1\nBEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "kernel_denominator": "16711679*b^2*r^8 + 33423358*b^2*r^7 + 16711677*b^2*r^6 + 16711681*b^2*r^4 + 33423358*b^2*r^3 + 16711679*b^2*r^2 - 16711679*r^8 - 33423358*r^7 - 16711677*r^6 - 16711681*r^4 - 33423358*r^3 - 16711679*r^2",
+      "program_sha256": "08e4052fc9e88a80157c8fbb6810d58555791a984605486e1ceb77ad160f28ea",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "INITIAL_DIM=1,INITIAL_SIZE=20\nSAT=0,DIM=1,SIZE=13\nSAT=1,DIM=1,SIZE=13\nSAT=2,DIM=1,SIZE=13\nSAT=3,DIM=1,SIZE=13\nSAT=4,DIM=1,SIZE=12\nSAT=5,DIM=0,SIZE=4\nSAT=6,DIM=0,SIZE=4\nSAT=7,DIM=-1,SIZE=1\nSAT=8,DIM=-1,SIZE=1\nSAT=9,DIM=-1,SIZE=1\nSAT=10,DIM=-1,SIZE=1\nSAT=11,DIM=-1,SIZE=1\nSAT=12,DIM=-1,SIZE=1\nSAT=13,DIM=-1,SIZE=1\nSAT=14,DIM=-1,SIZE=1\nSAT=15,DIM=-1,SIZE=1\nSAT=16,DIM=-1,SIZE=1\nSAT=17,DIM=-1,SIZE=1\nBEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "kernel_denominator": "16711679*b^2*r^8 - 33423358*b^2*r^7 + 16711681*b^2*r^6 + 16711677*b^2*r^4 - 33423358*b^2*r^3 + 16711679*b^2*r^2 - 16711679*r^8 + 33423358*r^7 - 16711681*r^6 - 16711677*r^4 + 33423358*r^3 - 16711679*r^2",
+      "program_sha256": "d028b8092d8669561efddabdc290d1f3c9f6254c2167a7516a2a4c8a39020c88",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "INITIAL_DIM=1,INITIAL_SIZE=20\nSAT=0,DIM=1,SIZE=13\nSAT=1,DIM=1,SIZE=13\nSAT=2,DIM=1,SIZE=13\nSAT=3,DIM=1,SIZE=13\nSAT=4,DIM=1,SIZE=12\nSAT=5,DIM=0,SIZE=4\nSAT=6,DIM=0,SIZE=4\nSAT=7,DIM=-1,SIZE=1\nSAT=8,DIM=-1,SIZE=1\nSAT=9,DIM=-1,SIZE=1\nSAT=10,DIM=-1,SIZE=1\nSAT=11,DIM=-1,SIZE=1\nSAT=12,DIM=-1,SIZE=1\nSAT=13,DIM=-1,SIZE=1\nSAT=14,DIM=-1,SIZE=1\nSAT=15,DIM=-1,SIZE=1\nSAT=16,DIM=-1,SIZE=1\nSAT=17,DIM=-1,SIZE=1\nBEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell14-kernel-denominator-boundary-v1",
+  "scope": "Exact guarded exclusion of the normalized-kernel denominator boundary.",
+  "source_curve_sha256": "0edd681c3557e6847eaad06eb328793a30237f5ddd7dda8d1741c3a5b8c33d81"
+}
