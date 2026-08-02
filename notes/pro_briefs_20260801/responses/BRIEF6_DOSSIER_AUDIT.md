@@ -85,3 +85,23 @@ finite algebra with the coarse 8-cell cross-check banked in the replay);
 (4) the exact-shell transport + owner grammar only after gates 0-4.
 No field census, no packing revisit, no pairwise-Johnson, no
 average-as-max, ever.
+
+> **[SUPERSEDED IN PART 2026-08-02 — Pro's adversarial self-audit (final
+> of the five-audit set), verified on our side.]** SURVIVES COMPLETELY:
+> the minted budget staircase, the Johnson anchor, the exact-shell
+> Toeplitz interface + gcd guard. RETIRED/DEMOTED: the certificate
+> contract needs a SUCCINCTNESS clause (finite oracles are brute-force
+> trivial); the 13 chambers are incidence types with >2^41 BITS of
+> labeled placements at official scale (PP6-SMALL demoted to
+> semantics/certificate calibration — all-excluded moves the safe
+> frontier ONE coordinate against a 2^38 gap); rank/profile primitive
+> envelopes are FALSE (the rank-one fence: same homogeneous Toeplitz map,
+> fibres 0 vs C(n,k-1)/n; max/average = q/n ~ 2^215); per-shell caps do
+> not compose (35+7=42 live-enumerated); RHL-STRUCT is tautology-prone
+> without pre-registered templates + a concrete primitive property.
+> REPLACEMENT: the split-section inverse classification (large
+> gcd-guarded fibre ==> bounded q-independent same-word packet).
+> Exploratory GO for the succinct contract + mutation suite + one
+> complete packet theorem only. See
+> `BRIEF6_ADVERSARIAL_AUDIT_SUMMARY.md` — including the completed
+> FIVE-LANE FRONTIER MAP.
