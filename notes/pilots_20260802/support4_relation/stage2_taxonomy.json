@@ -1,0 +1,142 @@
+{
+ "decision": [
+  {
+   "cs": {
+    "k": 3,
+    "h": 5,
+    "d": 1,
+    "V": 4,
+    "q": 6421
+   },
+   "verdict": "True",
+   "reason": "L found",
+   "dims": "[1, 1, 1, 1]",
+   "W": "5"
+  },
+  {
+   "cs": {
+    "k": 4,
+    "h": 6,
+    "d": 1,
+    "V": 4,
+    "q": 6421
+   },
+   "verdict": "True",
+   "reason": "L found",
+   "dims": "[1, 1, 1, 1]",
+   "W": "6"
+  },
+  {
+   "cs": {
+    "k": 3,
+    "h": 7,
+    "d": 2,
+    "V": 4,
+    "q": 10007
+   },
+   "verdict": "True",
+   "reason": "L found",
+   "dims": "[1, 1, 1, 1]",
+   "W": "5"
+  }
+ ],
+ "kv": [
+  {
+   "cs": {
+    "k": 3,
+    "h": 5,
+    "d": 1,
+    "V": 4,
+    "q": 6421
+   },
+   "W": 2,
+   "verdict": "False",
+   "reason": "S4-2: some C_{S_a ^ W} = 0",
+   "dim_rel": 0
+  },
+  {
+   "cs": {
+    "k": 3,
+    "h": 7,
+    "d": 1,
+    "V": 5,
+    "q": 6421
+   },
+   "W": 2,
+   "verdict": "False",
+   "reason": "S4-2: some C_{S_a ^ W} = 0",
+   "dim_rel": 0
+  },
+  {
+   "cs": {
+    "k": 3,
+    "h": 9,
+    "d": 1,
+    "V": 6,
+    "q": 10007
+   },
+   "W": 2,
+   "verdict": "False",
+   "reason": "S4-2: some C_{S_a ^ W} = 0",
+   "dim_rel": 0
+  },
+  {
+   "cs": {
+    "k": 3,
+    "h": 8,
+    "d": 2,
+    "V": 4,
+    "q": 10007
+   },
+   "W": 2,
+   "verdict": "False",
+   "reason": "S4-2: some C_{S_a ^ W} = 0",
+   "dim_rel": 0
+  },
+  {
+   "cs": {
+    "k": 4,
+    "h": 7,
+    "d": 1,
+    "V": 5,
+    "q": 6421
+   },
+   "W": 3,
+   "verdict": "False",
+   "reason": "S4-2: some C_{S_a ^ W} = 0",
+   "dim_rel": 0
+  }
+ ],
+ "taxonomy": {
+  "n24_k3_h5": {
+   "total": 600,
+   "with_relation": 10,
+   "genuine_s4": 4,
+   "fail_kpacking": 10,
+   "fail_pairwise_intersecting": 9,
+   "fail_depth": 0,
+   "fail_none": 0,
+   "gate_clean": 0
+  },
+  "n30_k3_h7": {
+   "total": 600,
+   "with_relation": 32,
+   "genuine_s4": 14,
+   "fail_kpacking": 29,
+   "fail_pairwise_intersecting": 29,
+   "fail_depth": 0,
+   "fail_none": 0,
+   "gate_clean": 1
+  },
+  "n26_k3_h6": {
+   "total": 600,
+   "with_relation": 22,
+   "genuine_s4": 13,
+   "fail_kpacking": 22,
+   "fail_pairwise_intersecting": 19,
+   "fail_depth": 1,
+   "fail_none": 0,
+   "gate_clean": 0
+  }
+ }
+}

@@ -1,0 +1,391 @@
+{
+ "peel": [
+  {
+   "cs": {
+    "k": 3,
+    "h": 5,
+    "d": 1,
+    "V": 4,
+    "q": 6421,
+    "kind": "mobius"
+   },
+   "dim": 1,
+   "dimcap": 4,
+   "rank": 19,
+   "floor": 16,
+   "Sinf": [
+    4,
+    4,
+    4,
+    4
+   ],
+   "Vh": 20
+  },
+  {
+   "cs": {
+    "k": 5,
+    "h": 7,
+    "d": 1,
+    "V": 6,
+    "q": 10007,
+    "kind": "mobius"
+   },
+   "dim": 3,
+   "dimcap": 6,
+   "rank": 39,
+   "floor": 36,
+   "Sinf": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+   ],
+   "Vh": 42
+  },
+  {
+   "cs": {
+    "k": 3,
+    "h": 7,
+    "d": 1,
+    "V": 5,
+    "q": 6421,
+    "kind": "KV"
+   },
+   "dim": 0,
+   "dimcap": 0,
+   "rank": 35,
+   "floor": 35,
+   "Sinf": [
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "Vh": 35
+  },
+  {
+   "cs": {
+    "k": 4,
+    "h": 7,
+    "d": 1,
+    "V": 5,
+    "q": 6421,
+    "kind": "KV"
+   },
+   "dim": 0,
+   "dimcap": 0,
+   "rank": 35,
+   "floor": 35,
+   "Sinf": [
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "Vh": 35
+  },
+  {
+   "cs": {
+    "k": 9,
+    "h": 4,
+    "d": 1,
+    "V": 4,
+    "q": 10007,
+    "kind": "clique"
+   },
+   "dim": 2,
+   "dimcap": 16,
+   "rank": 14,
+   "floor": 0,
+   "Sinf": [
+    13,
+    13,
+    13,
+    13
+   ],
+   "Vh": 16
+  },
+  {
+   "cs": {
+    "k": 13,
+    "h": 4,
+    "d": 1,
+    "V": 6,
+    "q": 10007,
+    "kind": "clique"
+   },
+   "dim": 10,
+   "dimcap": 24,
+   "rank": 14,
+   "floor": 0,
+   "Sinf": [
+    17,
+    17,
+    17,
+    17,
+    17,
+    17
+   ],
+   "Vh": 24
+  }
+ ],
+ "clique_slopes": [
+  {
+   "cs": {
+    "k": 9,
+    "h": 4,
+    "d": 1,
+    "V": 4,
+    "q": 6421
+   },
+   "m": 7,
+   "min_rank": 14,
+   "twom": 14,
+   "trials": 160,
+   "charge": 3.5,
+   "collapses": true
+  },
+  {
+   "cs": {
+    "k": 13,
+    "h": 4,
+    "d": 1,
+    "V": 5,
+    "q": 6421
+   },
+   "m": 7,
+   "min_rank": 14,
+   "twom": 14,
+   "trials": 160,
+   "charge": 2.8,
+   "collapses": true
+  },
+  {
+   "cs": {
+    "k": 13,
+    "h": 4,
+    "d": 1,
+    "V": 6,
+    "q": 6421
+   },
+   "m": 7,
+   "min_rank": 14,
+   "twom": 14,
+   "trials": 160,
+   "charge": 2.3333333333333335,
+   "collapses": true
+  },
+  {
+   "cs": {
+    "k": 17,
+    "h": 5,
+    "d": 1,
+    "V": 5,
+    "q": 6421
+   },
+   "m": 9,
+   "min_rank": 18,
+   "twom": 18,
+   "trials": 160,
+   "charge": 3.6,
+   "collapses": true
+  },
+  {
+   "cs": {
+    "k": 9,
+    "h": 4,
+    "d": 1,
+    "V": 4,
+    "q": 19
+   },
+   "m": 7,
+   "min_rank": 14,
+   "twom": 14,
+   "trials": 3876,
+   "exhaustive": true,
+   "collapses": true
+  },
+  {
+   "cs": {
+    "k": 11,
+    "h": 4,
+    "d": 1,
+    "V": 4,
+    "q": 23
+   },
+   "m": 7,
+   "min_rank": 14,
+   "twom": 14,
+   "trials": 8855,
+   "exhaustive": true,
+   "collapses": true
+  }
+ ],
+ "escape1": [
+  {
+   "cs": {
+    "k": 13,
+    "h": 5,
+    "d": 1,
+    "V": 5,
+    "q": 6421
+   },
+   "m": 12,
+   "min_rank": 19,
+   "esc": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "charge": 3.8,
+   "twoV": 10,
+   "max_pair": 14,
+   "max_triple": 11
+  },
+  {
+   "cs": {
+    "k": 17,
+    "h": 6,
+    "d": 1,
+    "V": 6,
+    "q": 6421
+   },
+   "m": 15,
+   "min_rank": 24,
+   "esc": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "charge": 4.0,
+   "twoV": 12,
+   "max_pair": 18,
+   "max_triple": 14
+  },
+  {
+   "cs": {
+    "k": 21,
+    "h": 6,
+    "d": 1,
+    "V": 7,
+    "q": 10007
+   },
+   "m": 16,
+   "min_rank": 25,
+   "esc": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "charge": 3.5714285714285716,
+   "twoV": 14,
+   "max_pair": 22,
+   "max_triple": 18
+  }
+ ],
+ "criterion": [
+  {
+   "name": "RowC 1/4",
+   "n": 1024,
+   "k": 256,
+   "A": 261,
+   "h": 5,
+   "R": 768,
+   "clique_u": 265,
+   "clique_Vmax": 66,
+   "clique_m": 9,
+   "clique_charge_per_ray": 0.2727272727272727,
+   "two_h_squared": 50,
+   "k_le_2h2": false,
+   "margin": 0.1953125
+  },
+  {
+   "name": "RowC 1/8",
+   "n": 1024,
+   "k": 128,
+   "A": 133,
+   "h": 5,
+   "R": 896,
+   "clique_u": 137,
+   "clique_Vmax": 34,
+   "clique_m": 9,
+   "clique_charge_per_ray": 0.5294117647058824,
+   "two_h_squared": 50,
+   "k_le_2h2": false,
+   "margin": 0.390625
+  },
+  {
+   "name": "RowC 1/16",
+   "n": 1024,
+   "k": 64,
+   "A": 67,
+   "h": 3,
+   "R": 960,
+   "clique_u": 69,
+   "clique_Vmax": 34,
+   "clique_m": 5,
+   "clique_charge_per_ray": 0.29411764705882354,
+   "two_h_squared": 18,
+   "k_le_2h2": false,
+   "margin": 0.28125
+  },
+  {
+   "name": "prize 1/4",
+   "n": 2199023255552,
+   "k": 549755813888,
+   "A": 558345748481,
+   "h": 8589934593,
+   "R": 1649267441664,
+   "clique_u": 566935683073,
+   "clique_Vmax": 66,
+   "clique_m": 17179869185,
+   "clique_charge_per_ray": 520602096.5151515,
+   "two_h_squared": 147573952624036151298,
+   "k_le_2h2": true,
+   "margin": 268435456.0625
+  },
+  {
+   "name": "prize 1/8",
+   "n": 2199023255552,
+   "k": 274877906944,
+   "A": 283467841537,
+   "h": 8589934593,
+   "R": 1924145348608,
+   "clique_u": 292057776129,
+   "clique_Vmax": 34,
+   "clique_m": 17179869185,
+   "clique_charge_per_ray": 1010580540.2941177,
+   "two_h_squared": 147573952624036151298,
+   "k_le_2h2": true,
+   "margin": 536870912.125
+  },
+  {
+   "name": "prize 1/16",
+   "n": 2199023255552,
+   "k": 137438953472,
+   "A": 141733920769,
+   "h": 4294967297,
+   "R": 2061584302080,
+   "clique_u": 146028888065,
+   "clique_Vmax": 34,
+   "clique_m": 8589934593,
+   "clique_charge_per_ray": 505290270.1764706,
+   "two_h_squared": 36893488164598972418,
+   "k_le_2h2": true,
+   "margin": 268435456.125
+  }
+ ]
+}

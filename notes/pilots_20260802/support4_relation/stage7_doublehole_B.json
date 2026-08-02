@@ -1,0 +1,58 @@
+[
+ {
+  "k": 6,
+  "h": 6,
+  "d": 1,
+  "V": 5,
+  "ell": 2,
+  "n": 20,
+  "priv": 0,
+  "m": 14,
+  "rank": 28,
+  "twom": 28,
+  "collapse": true,
+  "realisable": false
+ },
+ {
+  "k": 8,
+  "h": 8,
+  "d": 1,
+  "V": 5,
+  "ell": 2,
+  "n": 32,
+  "priv": 2,
+  "m": 24,
+  "rank": 38,
+  "twom": 48,
+  "collapse": false,
+  "realisable": true
+ },
+ {
+  "k": 8,
+  "h": 8,
+  "d": 1,
+  "V": 6,
+  "ell": 2,
+  "n": 33,
+  "priv": 1,
+  "m": 25,
+  "rank": 44,
+  "twom": 50,
+  "collapse": false,
+  "realisable": true
+ },
+ {
+  "k": 10,
+  "h": 9,
+  "d": 1,
+  "V": 6,
+  "ell": 2,
+  "n": 41,
+  "priv": 2,
+  "m": 31,
+  "rank": 50,
+  "twom": 62,
+  "collapse": false,
+  "realisable": true
+ }
+]

@@ -1,0 +1,279 @@
+{
+ "designed": [
+  {
+   "cs": {
+    "k": 3,
+    "h": 5,
+    "d": 1,
+    "V": 4,
+    "q": 6421
+   },
+   "n": 17,
+   "dim_rel": 1,
+   "rank": 19,
+   "Vh": 20,
+   "U": 5,
+   "Q": 1,
+   "pairs": [
+    4
+   ],
+   "triples": [
+    2
+   ],
+   "charge_per_ray": 4.75,
+   "charge_per_datum": 3.1666666666666665
+  },
+  {
+   "cs": {
+    "k": 4,
+    "h": 6,
+    "d": 1,
+    "V": 4,
+    "q": 6421
+   },
+   "n": 22,
+   "dim_rel": 1,
+   "rank": 23,
+   "Vh": 24,
+   "U": 6,
+   "Q": 2,
+   "pairs": [
+    5
+   ],
+   "triples": [
+    3
+   ],
+   "charge_per_ray": 5.75,
+   "charge_per_datum": 3.8333333333333335
+  },
+  {
+   "cs": {
+    "k": 3,
+    "h": 7,
+    "d": 2,
+    "V": 4,
+    "q": 10007
+   },
+   "n": 19,
+   "dim_rel": 1,
+   "rank": 27,
+   "Vh": 28,
+   "U": 5,
+   "Q": 1,
+   "pairs": [
+    5
+   ],
+   "triples": [
+    2
+   ],
+   "charge_per_ray": 6.75,
+   "charge_per_datum": 4.5
+  },
+  {
+   "cs": {
+    "k": 5,
+    "h": 6,
+    "d": 1,
+    "V": 4,
+    "q": 10007
+   },
+   "n": 23,
+   "dim_rel": 1,
+   "rank": 23,
+   "Vh": 24,
+   "U": 7,
+   "Q": 3,
+   "pairs": [
+    6
+   ],
+   "triples": [
+    4
+   ],
+   "charge_per_ray": 5.75,
+   "charge_per_datum": 3.8333333333333335
+  },
+  {
+   "cs": {
+    "k": 3,
+    "h": 6,
+    "d": 1,
+    "V": 5,
+    "q": 6421
+   },
+   "n": 22,
+   "dim_rel": 2,
+   "rank": 28,
+   "Vh": 30,
+   "U": 5,
+   "Q": 0,
+   "pairs": [
+    4
+   ],
+   "triples": [
+    2
+   ],
+   "charge_per_ray": 5.6,
+   "charge_per_datum": 2.8
+  },
+  {
+   "cs": {
+    "k": 4,
+    "h": 7,
+    "d": 1,
+    "V": 6,
+    "q": 10007
+   },
+   "n": 29,
+   "dim_rel": 3,
+   "rank": 39,
+   "Vh": 42,
+   "U": 6,
+   "Q": 0,
+   "pairs": [
+    5
+   ],
+   "triples": [
+    3
+   ],
+   "charge_per_ray": 6.5,
+   "charge_per_datum": 2.6
+  },
+  {
+   "cs": {
+    "k": 3,
+    "h": 8,
+    "d": 1,
+    "V": 4,
+    "q": 10007
+   },
+   "n": 29,
+   "dim_rel": 1,
+   "rank": 31,
+   "Vh": 32,
+   "U": 5,
+   "Q": 1,
+   "pairs": [
+    4
+   ],
+   "triples": [
+    2
+   ],
+   "charge_per_ray": 7.75,
+   "charge_per_datum": 5.166666666666667
+  }
+ ],
+ "random": {
+  "n24_k3_h5": {
+   "total": 400,
+   "with_relation": 6,
+   "support2": 0,
+   "support3": 6,
+   "support4": 0,
+   "kpack_break": 6,
+   "quad_break": 0,
+   "support4_examples": []
+  },
+  "n30_k3_h7": {
+   "total": 400,
+   "with_relation": 26,
+   "support2": 0,
+   "support3": 16,
+   "support4": 10,
+   "kpack_break": 26,
+   "quad_break": 0,
+   "support4_examples": [
+    {
+     "pairs": [
+      3,
+      4,
+      4,
+      5,
+      5,
+      5
+     ],
+     "triples": [
+      2,
+      3,
+      3,
+      3
+     ]
+    },
+    {
+     "pairs": [
+      3,
+      3,
+      3,
+      5,
+      5,
+      6
+     ],
+     "triples": [
+      0,
+      2,
+      2,
+      3
+     ]
+    },
+    {
+     "pairs": [
+      4,
+      5,
+      5,
+      5,
+      5,
+      5
+     ],
+     "triples": [
+      2,
+      3,
+      3,
+      4
+     ]
+    },
+    {
+     "pairs": [
+      3,
+      3,
+      4,
+      4,
+      5,
+      6
+     ],
+     "triples": [
+      1,
+      2,
+      3,
+      3
+     ]
+    },
+    {
+     "pairs": [
+      3,
+      3,
+      5,
+      5,
+      5,
+      5
+     ],
+     "triples": [
+      1,
+      1,
+      2,
+      3
+     ]
+    }
+   ]
+  },
+  "n28_k4_h6": {
+   "total": 300,
+   "with_relation": 0,
+   "support2": 0,
+   "support3": 0,
+   "support4": 0,
+   "kpack_break": 0,
+   "quad_break": 0,
+   "support4_examples": []
+  }
+ },
+ "perturb": []
+}
