@@ -3742,3 +3742,28 @@ Factoring all six scales gives only `t=0`, `t=+/-1`, and
 `t(1-t^2)(1+t^2)`.  All remaining factors are irreducible cubics.  No common
 or outside basis is needed on these charts.  The main genus-one target-free
 family is now the sole `[4,7]` obstruction.
+
+The main signed pair is now componentwise.  The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction`
+eliminates `w1=z1^2` from `DE+/DE-`.  After plane reduction, the exact
+projection is a nonzero scalar times
+
+```text
+(w0+1)^2(w0-t^2)F(w0,b,t),
+```
+
+where `F` is irreducible of degrees `(13,3,284)` and the first two factors are
+original forbidden labels.  A three-step pseudo-remainder and nine equal
+plane reductions give
+
+```text
+L(w0,b,t)w1+tM(w0,b,t)=0,
+```
+
+after canceling only `t=+/-1,+/-i` powers and `w0+1`.  The primitive `L,M`
+are distinct irreducibles of degrees `(9,3,181)` and `(9,3,180)`.  Attack the
+exceptional coefficient chart `plane=L=M=0` first, without assuming its
+dimension.  On `L!=0`, reconstruct
+`w1=-tM/L` and append the colored equations after every reduction by the
+plane and `F`.  Do not treat the necessary factor `F` as a sufficient pair
+solution and do not return to the global four-equation basis.

@@ -1,0 +1,60 @@
+{
+  "result": {
+    "content": 2058485041,
+    "factors": [
+      {
+        "degrees": [
+          1,
+          0,
+          0
+        ],
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_0.txt",
+        "file_sha256": "eb10232f7de15cdb8effb8b8aa1ed0e55043d6040e28371fe750c5c5d508e55e",
+        "multiplicity": 2,
+        "sha256": "3f2ebcb96aae094b8e2bb46b2adaa075f27713531776c942021872f72059582c",
+        "terms": 2,
+        "total_degree": 1
+      },
+      {
+        "degrees": [
+          1,
+          0,
+          2
+        ],
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_1.txt",
+        "file_sha256": "10ba674c8b859285f17c562981101a5e397b783942db6d1d88d772735e31e71f",
+        "multiplicity": 1,
+        "sha256": "9a051df1ae4000fba157329a36c05b733168695c3df4a37f96c482b8c09bf032",
+        "terms": 2,
+        "total_degree": 2
+      },
+      {
+        "degrees": [
+          13,
+          3,
+          284
+        ],
+        "file": "rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_2.txt",
+        "file_sha256": "af0c74a85dcb83c3245f5a93045206a431e06019fbbd3d690621d010fd9af10c",
+        "multiplicity": 1,
+        "sha256": "d27f609cfb058315b1a40b34bb2ebd2a111d8748951982ce861cd7c386358190",
+        "terms": 15792,
+        "total_degree": 294
+      }
+    ],
+    "field": 2130706433,
+    "source_polynomial_sha256": "b595e0c39510ae53d5943114b2e40368186fbd97637839c85c1d72f32f086995",
+    "source_shape": {
+      "degrees": [
+        16,
+        3,
+        286
+      ],
+      "terms": 19284,
+      "total_degree": 298
+    },
+    "status": "COMPLETE"
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell4-pair-resultant-factor-v1",
+  "scope": "Exact factorization of the primitive necessary signed-pair projection; no component realizability, orbit, or Prize claim."
+}

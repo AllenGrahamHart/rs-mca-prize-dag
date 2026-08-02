@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion/verify.py",
-      "seconds": 0.060003,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/verify.py",
+      "seconds": 0.095108,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "positive 433-1a cell-4 exceptional scale charts verified\n"
+      "stdout_tail": "positive 433-1a cell-4 signed-pair reduction verified\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion/verify_audit.py",
-      "seconds": 0.038681,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/verify_audit.py",
+      "seconds": 0.083545,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "positive 433-1a cell-4 exceptional-chart audit verified\n"
+      "stdout_tail": "positive 433-1a cell-4 signed-pair audit verified\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

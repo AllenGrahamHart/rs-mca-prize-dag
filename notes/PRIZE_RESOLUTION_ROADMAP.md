@@ -15238,6 +15238,34 @@ remaining frontier:      six representatives / 40 raw rows
 nonclaim:                 no [4,7] exclusion, route, K3, LIST, MCA, or Prize
 ```
 
+### Work-cycle theorem: cell-4 signed-pair projection and reconstruction
+
+```text
+squared labels:           w0=z0^2, w1=z1^2
+pair degrees in w1:      quadratic DE product / quartic DE square
+primitive projection:    scalar*(w0+1)^2*(w0-t^2)*F(w0,b,t)
+guard factors:            w0=-1 and w0=t^2, both forbidden source labels
+live factor F:            irreducible; degrees (13,3,284), 15792 terms
+pseudo-remainder:         three w1 steps, exactly linear
+resultant identity:       Res(P,R)=lc(P)^3 Res(P,S)
+plane compaction:         nine equal reductions; common scale
+                          (t-1)^5(t+1)^7(t+i)^45(t-i)^49
+common coefficient gcd:  w0+1, also forbidden
+primitive relation:       L(w0,b,t)w1+tM(w0,b,t)=0
+L/M factors:              distinct irreducibles, degrees (9,3,181) and
+                          (9,3,180), 7176 and 7136 terms
+generic consequence:      w1=-tM/L on L!=0
+exceptional obligation:   plane=L=M=0, then colored equations componentwise
+artifact hashes:          462bebfdc3ae53c7dbf189205732573469b6771cfb05f999b90603a492b986db
+                          8158cce478bd8085e01bc78a4f87be144b5893025382d3585a9b2346455965a7
+                          8ce61fe34937f099a67eecbf9038758bc61076568fc3b254fd9393747ab949f9
+Modal apps:               ap-3Z5dAlg93aDTOnk9hTm4YY,
+                          ap-Tdc7rrNjKqjah79jbWilqQ,
+                          ap-tKmjuTuliptsZoY7DZUSqQ
+nonclaim:                 necessary projection only; no [4,7], route, K3,
+                          LIST, MCA, or Prize closure
+```
+
 ### Work-cycle theorem: cell-3 exceptional scale-chart exclusion
 
 ```text

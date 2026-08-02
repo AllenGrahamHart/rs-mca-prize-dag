@@ -21711,6 +21711,36 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction",
+   "title": "KoalaBear positive 433-1a cell-4 signed-pair projection and reconstruction",
+   "status": "PROVED",
+   "closure": "exact necessary signed-pair component factorization and generic linear reconstruction",
+   "statement": "On the guarded main cell-4 plane chart, eliminating w1 from the necessary signed DE+/DE- pair gives exactly two forbidden-label factors and one irreducible live factor of degrees (13,3,284) in (w0,b,t). A three-step pseudo-remainder sequence, followed by nine plane reductions and cancellation only of original guard factors, gives L(w0,b,t)w1+tM(w0,b,t)=0 with distinct irreducible L,M of degrees (9,3,181) and (9,3,180). Thus w1 is reconstructed wherever L is nonzero; the exceptional L=M=0 coefficient chart and colored equations remain open, with no dimensional claim. Source symmetry transports the reduction to cell 7.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_w1_resultant_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_w1_resultant_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_w1_resultant_polynomial.txt",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_0.txt",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_1.txt",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_resultant_factor_2.txt",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_w1_reconstruction_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_w1_reconstruction_result.json"
+   ]
+  },
+  {
    "id": "dli_c1_256_block_basis_factorization",
    "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
    "status": "PROVED",
@@ -42903,6 +42933,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
