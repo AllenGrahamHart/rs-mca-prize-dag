@@ -15048,3 +15048,27 @@ compute discipline:       run two bounded deployed-field common saturations;
 nonclaim:                 no deletion of the other nine representatives,
                           positive route, K3, Prize rows, LIST, or MCA
 ```
+
+### Work-cycle theorem: positive 433-1a cells 1/2 common exclusion
+
+```text
+tested representatives:  cell 1 signs (-1,-1) and (-1,+1), one per
+                          invariant epsilon1*epsilon2 class
+field:                    F_2130706433, the deployed KoalaBear field
+localized equations:     all six stripped common Vieta minors plus one
+                          inverse for 20 source/target guards
+exact chart result:       both three-minor saturated ideals are <1>
+exact full result:        both six-minor saturated ideals are <1>
+Singular outputs:         dimension -1, basis size 1, no stderr
+symmetry consequence:     all 8 raw rows in cells 1 and 2 PROVED empty
+closed quotient orbits:   3 of 10: [5,8] plus two classes across [1,2]
+remaining frontier:       7 representatives covering 44 raw rows
+result hash:              be8efeb8259350ba555da81fcf52251c38b7ee20a1e674a36630af96f5d2400a
+Modal app:                ap-Li8Fv7qkx13GSPjknGB3yQ
+compute spend:            two 2 GiB containers completing in seconds;
+                          negligible relative to the renewed allowance
+next route step:          run one bounded common saturation on each of
+                          [0], [3,6], [4,7], [9,10], [11], [12,13], [14]
+nonclaim:                 no deletion of those seven representatives,
+                          positive route, K3, Prize rows, LIST, or MCA
+```

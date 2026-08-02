@@ -1,11 +1,12 @@
 # Frontier
 
-Work on representatives, not raw sign rows.  The strongest next candidate
-is orbit `[1,2]`: small-field common-chart probes found no survivors in any
-of `F_13,F_17,F_29`.  It has two exact sign classes, so run one bounded
-deployed-field common saturation for each class before appending outside
-records.
+The child
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion`
+completed the proposed test: both deployed-field common ideals are unit,
+so both `[1,2]` sign-product orbits are deleted.
 
-If both common ideals are empty, `[1,2]` is deleted.  If either survives,
-bank its exact finite algebra and append a necessary outside triple rather
-than launching the 267-case outside ledger.
+Work on the seven remaining representatives, not their 44 raw sign rows:
+`[0]`, `[3,6]`, `[4,7]`, `[9,10]`, `[11]`, `[12,13]`, and `[14]`.
+One bounded common saturation per representative is the next exact filter.
+For any survivor, bank its finite algebra and append one necessary outside
+triple rather than launching the 267-case outside ledger.

@@ -3585,3 +3585,21 @@ opposite-sign deployed common saturation; prior probes over
 `F_13,F_17,F_29` found no common survivors.  If a common ideal survives,
 bank its finite algebra and append one necessary outside triple rather than
 reopening the 267-case outside ledger.
+
+That two-class test is now complete.  The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion`
+reconstructs and guard-saturates the deployed six-minor common ideal for
+cell `1` in the same-sign and opposite-sign classes.  In both classes the
+three-minor chart and full six-minor Singular bases are exactly `<1>` with
+`(dimension,size)=(-1,1)`.  Reciprocity and duplicate-`AB+` transport then
+delete all eight raw rows in cells `1,2`.  The positive common frontier is
+now seven exact representatives covering 44 raw rows:
+
+```text
+[0] | [3,6] | [4,7] | [9,10] | [11] | [12,13] | [14].
+```
+
+Run one bounded deployed common saturation for each representative in
+parallel.  Unit ideals delete whole orbits.  A survivor should be retained
+as a finite algebra and tested against one necessary outside triple before
+any larger outside ledger.
