@@ -15117,3 +15117,33 @@ next route step:          reduce A2,A0,B1 on both b branches and append the
 nonclaim:                 no outside record or complete target realization,
                           route, K3, Prize rows, LIST, or MCA
 ```
+
+### Work-cycle theorem: cell-0 generic signed-pair orbit exclusion
+
+```text
+cell/sign orbit:          cell 0, all four root-sign rows
+exact kernel branches:   b=1547071505 and b=583634934
+kernel normalization:    common scale t^6(t^4-1)^2/D_b(t)^3 cancelled;
+                          all eight normalized coefficients have degree <=8
+compact factor:           B1(W)=k_b(t^2-1)(t^4+1)(t^2-W)
+necessary outside cut:   two denominator-cleared equations for arbitrary
+                          source roots carrying DE+=de and DE-=-de
+localized exact result:  unit ideal on each branch after all necessary
+                          common, leading-support, outside, and disjointness
+                          guards
+symmetry consequence:    all four raw cell-0 rows PROVED empty
+remaining frontier:      six representatives / 40 raw rows:
+                          [3,6],[4,7],[9,10],[11],[12,13],[14]
+kernel result hash:       9b846a05e43b092b2f4b41658424d0ab70bf910e9d79a48be49db6d38f573167
+pair result hash:         70f18a761f952475c43156daeffac5d874c981a790fecc76c40b05ec3b421e69
+specialization hash:     6e08887afefdeb156d95b53aa7d4fde010c6e3a900925f810f7ec1b52ea23860
+Modal apps:               ap-rB4OCdbT9MTKP2guGefD9h,
+                          ap-7cyD7G1KhRnTlcf9DDH6gH,
+                          ap-kQukNglvAmZaKnroehaIPR
+retired presentation:    direct generic four-equation jobs timed out at
+                          240s; no mathematical conclusion is drawn
+next route step:          triangularize [3,6], then attempt the same
+                          necessary signed-pair elimination componentwise
+nonclaim:                 no deletion of the six remaining representatives,
+                          positive route, K3, Prize rows, LIST, or MCA
+```

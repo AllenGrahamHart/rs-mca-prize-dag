@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "b": 583634934,
+      "c_gcd_degree": 0,
+      "cell": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_shape": [
+        {
+          "degree": 20,
+          "terms": 55
+        },
+        {
+          "degree": 40,
+          "terms": 305
+        }
+      ],
+      "field": 2130706433,
+      "guard_shape": {
+        "degree": 97,
+        "terms": 2072
+      },
+      "program_sha256": "5e177fdf090a04907eec5bfef116e705b918a8297448dec5cc830e2d6ce8e6e3",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_LOCALIZED\n-1\n1\nUNIT=1\nEND_LOCALIZED\nBEGIN_PROJECTED\n-1\n1\nE[1]=1\nEND_PROJECTED\n",
+      "unit": true
+    },
+    {
+      "b": 1547071505,
+      "c_gcd_degree": 0,
+      "cell": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_shape": [
+        {
+          "degree": 20,
+          "terms": 55
+        },
+        {
+          "degree": 40,
+          "terms": 305
+        }
+      ],
+      "field": 2130706433,
+      "guard_shape": {
+        "degree": 97,
+        "terms": 2072
+      },
+      "program_sha256": "59261800cf90480bfa2fb3252debf1a38ea2370c64e4185c371e19e679d71c31",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_LOCALIZED\n-1\n1\nUNIT=1\nEND_LOCALIZED\nBEGIN_PROJECTED\n-1\n1\nE[1]=1\nEND_PROJECTED\n",
+      "unit": true
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1a-cell0-generic-signed-pair-v1",
+  "scope": "Generic guard-saturated DE+/DE- pair on both cell-0 common branches; no colored BE, outside completion, route, K3, or Prize claim."
+}

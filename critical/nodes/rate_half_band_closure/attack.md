@@ -3635,3 +3635,28 @@ coefficient is `2(i-1)`.  Cell `0` therefore genuinely survives over the
 base field.  Reduce its unique `A_2,A_0,B_1` kernel modulo the lex basis and
 append the universal target-free `DE+/DE-/BE` family.  Use the two points as
 specialization audits, not as outside survivors.
+
+Cell `0` is now closed.  The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion`
+reduces the unique common kernel on both exact `b` branches.  After a
+common nonzero scale is cancelled, all eight coefficients have degree at
+most eight and
+
+```text
+B_1(W)=k_b(t^2-1)(t^4+1)(t^2-W).
+```
+
+Any complete packet supplies distinct source roots carrying `DE+=de` and
+`DE-=-de`.  Their two denominator-cleared necessary identities, saturated
+by all required common, leading-support, outside-label, and disjointness
+guards, have unit ideals on both branches.  Source projectivities transport
+the exclusion through all four signs.  The direct four-equation generic
+presentation timed out and is retired; it is not load-bearing.  Six exact
+representatives covering 40 raw rows remain:
+
+```text
+[3,6] | [4,7] | [9,10] | [11] | [12,13] | [14].
+```
+
+Triangularize `[3,6]` next and reuse the necessary signed-pair cut if its
+components admit a compact normalization.

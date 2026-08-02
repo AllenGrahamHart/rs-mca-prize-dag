@@ -1,0 +1,100 @@
+{
+  "rows": [
+    {
+      "b": 583634934,
+      "cell": 0,
+      "coefficient_values": {
+        "a00": 2112773175,
+        "a01": 786659690,
+        "a02": 2087400212,
+        "a20": 1412939909,
+        "a21": 193587379,
+        "a22": 796339897,
+        "b10": 1510833960,
+        "b11": 1752997943
+      },
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_shape": [
+        {
+          "degree": 8,
+          "terms": 9
+        },
+        {
+          "degree": 16,
+          "terms": 25
+        },
+        {
+          "degree": 12,
+          "terms": 63
+        },
+        {
+          "degree": 12,
+          "terms": 81
+        }
+      ],
+      "field": 2130706433,
+      "guard_shape": {
+        "degree": 51,
+        "terms": 720
+      },
+      "program_sha256": "97357eb731a495c4af8912c5cba5c4b28863abc71fdb58c347d54cbabc3e73ed",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_SUMMARY\n-1\n1\nUNIT=1\nEND_SUMMARY\n",
+      "t": 2,
+      "unit": true
+    },
+    {
+      "b": 1547071505,
+      "cell": 0,
+      "coefficient_values": {
+        "a00": 1863047671,
+        "a01": 862676970,
+        "a02": 2124696501,
+        "a20": 1204230468,
+        "a21": 1927669102,
+        "a22": 863560576,
+        "b10": 989730214,
+        "b11": 817920663
+      },
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_shape": [
+        {
+          "degree": 8,
+          "terms": 9
+        },
+        {
+          "degree": 16,
+          "terms": 25
+        },
+        {
+          "degree": 12,
+          "terms": 63
+        },
+        {
+          "degree": 12,
+          "terms": 81
+        }
+      ],
+      "field": 2130706433,
+      "guard_shape": {
+        "degree": 51,
+        "terms": 720
+      },
+      "program_sha256": "bd7445f381be308235bec7ee521f9dad993cafeda16614c6be7603334a575a63",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_SUMMARY\n-1\n1\nUNIT=1\nEND_SUMMARY\n",
+      "t": 2,
+      "unit": true
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1a-cell0-t2-signed-family-v1",
+  "scope": "Target-free DE+/DE-/BE family at the two exact cell-0 t=2 common points; specialization evidence only, no generic, outside-case, route, K3, or Prize conclusion."
+}
