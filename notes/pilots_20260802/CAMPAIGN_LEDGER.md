@@ -169,6 +169,13 @@ BRIEF_3 lines, target_mappings.json:145).
 
 ## F. PRO RELAY PACKAGE (user relays)
 
+- **NEW — the F2 theorem draft is READY for the adversarial round:**
+  `notes/pro_briefs_20260801/responses/F2_SLICE_THEOREM_DRAFT.md` —
+  (H-spread)/(H-flat) hypothesis, both budget variants, the killer
+  list, the three explicit gaps, and the three-part ask (attack the
+  clause; freeze PP5.0's budget; the window-selection question = the
+  lane's new heart).
+
 - Pilot REPORTs: all six banked directories (+ the four in flight as
   they land).
 - Amended summaries: `BRIEF5_ADVERSARIAL_AUDIT_SUMMARY.md` (Delta
