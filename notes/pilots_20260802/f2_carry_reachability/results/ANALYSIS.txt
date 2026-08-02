@@ -1,0 +1,157 @@
+rows = 1032
+
+== terminal reachable set by frequency class ==
+  FULL Z/2p                 c=1+w                 127
+  FULL Z/2p                 c_random0             127
+  FULL Z/2p                 c_random1             127
+  FULL Z/2p                 c_random2             128
+  FULL Z/2p                 c_trace_zero          127
+  TRIVIAL {0}               c_in_Fp               172
+  non-subgroup proper       c=1+w                 45
+  non-subgroup proper       c_random0             45
+  non-subgroup proper       c_random1             45
+  non-subgroup proper       c_random2             44
+  non-subgroup proper       c_trace_zero          45
+
+== structural checks ==
+  rows with 2^m < 2p (capacity limited, cannot fill): 215
+  near-capacity rows (2^m >= 2p but m < log2(2p)+2) plus any real violation: 9
+    ('nondegenerate, room to fill, NOT full', 11, 12, 'c_trace_zero(c=w)', 16, 5)
+    ('nondegenerate, room to fill, NOT full', 11, 12, 'c=1+w', 14, 5)
+    ('nondegenerate, room to fill, NOT full', 11, 12, 'c_random0', 20, 5)
+    ('nondegenerate, room to fill, NOT full', 11, 12, 'c_random1', 16, 5)
+    ('nondegenerate, room to fill, NOT full', 11, 12, 'c_random2', 16, 5)
+    ('nondegenerate, room to fill, NOT full', 13, 14, 'c_trace_zero(c=w)', 19, 6)
+    ('nondegenerate, room to fill, NOT full', 13, 14, 'c=1+w', 17, 6)
+    ('nondegenerate, room to fill, NOT full', 13, 14, 'c_random0', 22, 6)
+    ('nondegenerate, room to fill, NOT full', 13, 14, 'c_random1', 24, 6)
+
+== doubling law: |S_k| vs min(2^k, 2p) ==
+  |S_k| / min(2^k,2p) over all k>=2, non-degenerate rows: min=0.220 median=1.000
+  k_full - log2(2p): min=0.54 median=2.62 max=6.14
+  k_full / log2(2p): min=1.119 median=1.355 max=2.048
+
+== covering numbers (non-degenerate rows: 860) ==
+  rows reaching FULL Z/2p: 636 / 860
+  k_full: min=5 median=10.0 mean=9.97 max=13
+
+  p   2p   min  med  max   k/sqrt(2p) (median)
+     7    14    5   6.0    7    1.604
+    11    22    5   6.0    8    1.279
+    13    26    6   7.0    9    1.373
+    17    34    6   7.0    8    1.200
+    19    38    6   7.0    8    1.136
+    23    46    7   8.0    9    1.180
+    29    58    8   9.0   12    1.182
+    31    62    8   8.0    9    1.016
+    37    74    8   9.0   11    1.046
+    41    82    8   9.0   11    0.994
+    43    86    8   9.0   10    0.970
+    47    94    8   9.0   11    0.928
+    53   106    8  10.0   11    0.971
+    59   118    9  10.0   10    0.921
+    61   122    9   9.0   10    0.815
+    67   134    9  10.0   12    0.864
+    71   142    8  10.0   11    0.839
+    73   146    9  10.0   11    0.828
+    79   158    9  10.0   10    0.796
+    83   166    9  10.0   12    0.776
+    89   178    9  10.0   11    0.750
+    97   194   10  10.0   12    0.718
+   101   202    9  10.0   11    0.704
+   103   206    9  10.0   11    0.697
+   107   214   10  11.0   11    0.752
+   109   218    9  10.0   12    0.677
+   113   226   10  10.0   12    0.665
+   127   254   10  10.0   12    0.627
+   131   262   10  11.0   13    0.680
+   137   274   10  11.0   12    0.665
+   139   278   10  11.0   12    0.660
+   149   298   10  11.0   13    0.637
+   151   302   10  11.0   12    0.633
+   157   314   11  11.0   12    0.621
+   163   326   10  11.0   12    0.609
+   167   334   11  11.0   12    0.602
+   173   346   11  11.0   13    0.591
+   179   358   11  11.0   12    0.581
+   181   362   11  12.0   13    0.631
+   191   382   11  11.0   12    0.563
+   193   386   11  11.0   12    0.560
+   197   394   10  11.0   12    0.554
+   199   398   11  11.0   12    0.551
+
+  k_full / sqrt(2p): min=0.504 median=0.750 max=1.871
+  k_full spread over 4 pair orderings: median=1.0 max=4; rows with >2x spread: 0
+
+== reachable-continuation Myhill-Nerode width ==
+  non-degenerate rows attaining the FULL 2p width: 597 / 860
+  degenerate (c in F_p) rows, max MN width: 1
+  width/2p over non-degenerate rows: min=0.0025 median=1.0000
+
+== carry-DFT normalised L1 mass (float, display only) ==
+  p=   7  L1/(2p)=  2.2022  (2/pi)ln p=  1.2388  diff= 0.9634
+  p=  11  L1/(2p)=  2.4894  (2/pi)ln p=  1.5265  diff= 0.9629
+  p=  13  L1/(2p)=  2.5957  (2/pi)ln p=  1.6329  diff= 0.9628
+  p=  17  L1/(2p)=  2.7664  (2/pi)ln p=  1.8037  diff= 0.9627
+  p=  19  L1/(2p)=  2.8371  (2/pi)ln p=  1.8745  diff= 0.9626
+  p=  23  L1/(2p)=  2.9587  (2/pi)ln p=  1.9961  diff= 0.9626
+  p= 191  L1/(2p)=  4.3062  (2/pi)ln p=  3.3437  diff= 0.9625
+  p= 193  L1/(2p)=  4.3129  (2/pi)ln p=  3.3503  diff= 0.9625
+  p= 197  L1/(2p)=  4.3259  (2/pi)ln p=  3.3634  diff= 0.9625
+  p= 199  L1/(2p)=  4.3323  (2/pi)ln p=  3.3698  diff= 0.9625
+
+== local contraction dial 4ab/(a+b)^2 ==
+  median balance across rows: 0.9501 (min row 0.0682, max row 1.0000)
+  worst single pair balance: 3.112e-02
+  frac pairs with balance<0.5: median 0.0870
+  frac pairs with balance<0.1: median 0.0000
+
+== per-mode contraction bits (sample rows) ==
+   p    n   c                 min_bits   med_bits  max_bits  worst_k  #dead_modes
+    31   32 c_in_Fp(c=1)       0.00000  0.00000  0.00000  k=1      31/31
+    31   32 c_trace_zero(c=w)  0.00000  2.00840  3.28382  k=31 (=p)  1/31
+    31   32 c=1+w              0.38319  1.30565  2.27720  k=1      0/31
+    31   32 c_random0          0.24258  1.58186  3.26606  k=61      0/31
+    31   32 c_random1          0.38607  0.98113  1.70911  k=35      0/31
+    31   32 c_random2          0.55272  1.01208  1.96103  k=61      0/31
+    61   62 c_in_Fp(c=1)       0.00000  0.00000  0.00000  k=1      61/61
+    61   62 c_trace_zero(c=w)  0.00000  1.93782  2.85887  k=61 (=p)  1/61
+    61   62 c=1+w              0.38305  1.22004  2.62921  k=1      0/61
+    61   62 c_random0          0.32711  0.97720  1.34644  k=1      0/61
+    61   62 c_random1          0.53402  1.41683  2.58264  k=1      0/61
+    61   62 c_random2          0.40071  1.09544  1.93261  k=121      0/61
+   101  102 c_in_Fp(c=1)       0.00000  0.00000  0.00000  k=1      101/101
+   101  102 c_trace_zero(c=w)  0.00000  1.97040  2.79637  k=101 (=p)  1/101
+   101  102 c=1+w              0.38851  1.24699  2.61384  k=201      0/101
+   101  102 c_random0          0.39513  0.94043  1.67941  k=201      0/101
+   101  102 c_random1          0.51650  1.13986  2.25172  k=201      0/101
+   101  102 c_random2          0.29189  1.03752  2.87570  k=1      0/101
+   151  152 c_in_Fp(c=1)       0.00000  0.00000  0.00000  k=1      151/151
+   151  152 c_trace_zero(c=w)  0.00000  1.98388  2.64735  k=151 (=p)  1/151
+   151  152 c=1+w              0.32585  1.18901  2.06808  k=301      0/151
+   151  152 c_random0          0.48744  1.25833  2.34161  k=301      0/151
+   151  152 c_random1          0.53119  1.18052  2.50500  k=301      0/151
+   151  152 c_random2          0.63037  1.31286  2.16049  k=301      0/151
+   199  200 c_in_Fp(c=1)       0.00000  0.00000  0.00000  k=1      199/199
+   199  200 c_trace_zero(c=w)  0.00000  1.99772  2.58972  k=199 (=p)  1/199
+   199  200 c=1+w              0.45452  1.23165  2.61647  k=397      0/199
+   199  200 c_random0          0.33217  1.20923  2.52438  k=397      0/199
+   199  200 c_random1          0.36656  1.30314  3.14333  k=397      0/199
+   199  200 c_random2          0.42437  1.16004  2.54404  k=397      0/199
+
+  GENERIC c (both components nonzero): worst-mode bits/pair min=0.2426 median=0.3918
+  dead modes (<0.01 bits/pair) over generic rows: 0
+  TRACE-ZERO c: dead modes per row = [1, 1, 1, 1, 1], always at k = p: True
+
+== SHARP LAW test ==
+  law A: c not in F_p and m >= log2(2p)+s  =>  S_m = Z/2p
+    s=2: rows= 635  violations=0
+    s=3: rows= 630  violations=0
+    s=4: rows= 615  violations=0
+    s=5: rows= 615  violations=0
+    s=6: rows= 610  violations=0
+  law B: c not in F_p and m >= 2*(log2(2p)+s) => MN width = 2p
+    s=2: rows= 595  violations=0
+    s=3: rows= 585  violations=0
+    s=4: rows= 580  violations=0
+    s=5: rows= 565  violations=0

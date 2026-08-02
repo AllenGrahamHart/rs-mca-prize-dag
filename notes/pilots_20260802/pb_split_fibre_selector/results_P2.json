@@ -1,0 +1,1155 @@
+{
+ "budget": {
+  "budget_8n3": 32768,
+  "budget_test_vacuous": true,
+  "candidate_family_size": 3,
+  "n_squared": 256
+ },
+ "candidate_family": {
+  "J": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    4,
+    5
+   ]
+  ],
+  "M": 3,
+  "additive_energy": 15,
+  "common_coordinates": 2,
+  "common_prefix_len": 0,
+  "distinct_differences": 6,
+  "full_initial_block_slopes": 0,
+  "gamma_hi_size": 0,
+  "gamma_lo_size": 3,
+  "greedy_lowcore_subfamily": 3,
+  "initial_block_size": 4,
+  "intersection_histogram": {
+   "2": 6
+  },
+  "max_index_used": 13,
+  "max_multiplicity": 1,
+  "max_pairwise_intersection": 2,
+  "ordered_pairs": 6,
+  "pairs_core_above_K": 0,
+  "pairs_core_eq_K": 0,
+  "repeated_difference_pairs": 0,
+  "sidon": true,
+  "size": 3,
+  "slopes": [
+   10,
+   11,
+   7
+  ],
+  "slopes_touching_core_above_K": 0,
+  "supports": [
+   [
+    0,
+    1,
+    6,
+    7,
+    8,
+    9
+   ],
+   [
+    2,
+    3,
+    6,
+    7,
+    10,
+    11
+   ],
+   [
+    4,
+    5,
+    6,
+    7,
+    12,
+    13
+   ]
+  ],
+  "unallocated_slopes_bridge_gap": 0,
+  "window_width": 14
+ },
+ "case": "P2",
+ "checks": [
+  {
+   "detail": "q=17",
+   "ok": true,
+   "tag": "prime_q"
+  },
+  {
+   "detail": "q-1=16 n=16",
+   "ok": true,
+   "tag": "mu_n_exists"
+  },
+  {
+   "detail": "m=2 n=16",
+   "ok": true,
+   "tag": "m_divides_n"
+  },
+  {
+   "detail": "m=2 h=2",
+   "ok": true,
+   "tag": "split_fibre_range"
+  },
+  {
+   "detail": "2+2*2 vs A=6",
+   "ok": true,
+   "tag": "support_size"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "gap"
+  },
+  {
+   "detail": "degV=4 K=4",
+   "ok": true,
+   "tag": "degV_ge_K"
+  },
+  {
+   "detail": "degp<=2 K=4",
+   "ok": true,
+   "tag": "degp_lt_K"
+  },
+  {
+   "detail": "cap=2 K-1=3",
+   "ok": true,
+   "tag": "intersection_cap"
+  },
+  {
+   "detail": "g=0 would fold through x->x^m (T3)",
+   "ok": true,
+   "tag": "core_positive"
+  },
+  {
+   "detail": "g=2 unused_fibres=2",
+   "ok": true,
+   "tag": "core_fits_unused_fibres"
+  },
+  {
+   "detail": "b=6 a=2",
+   "ok": true,
+   "tag": "labels_fit"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "newton_ok"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "domain_distinct"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "fibre_eq_0"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "fibre_eq_1"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "fibre_eq_2"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "fibre_eq_3"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "fibre_eq_4"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "fibre_eq_5"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "fibre_eq_6"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "fibre_eq_7"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "labels_distinct"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "core_disjoint_from_pool"
+  },
+  {
+   "detail": "core must not be a union of complete fibres (T3)",
+   "ok": true,
+   "tag": "core_not_fibre_union"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "degG"
+  },
+  {
+   "detail": "6 vs 6",
+   "ok": true,
+   "tag": "degU"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "degV"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "U_monic"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "T1_u_nonzero"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "T1_v_nonzero"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "T1_not_proportional"
+  },
+  {
+   "detail": "deg(u+zv)=A monic for all z",
+   "ok": true,
+   "tag": "T2_monic_degA"
+  },
+  {
+   "detail": "folds=[]",
+   "ok": true,
+   "tag": "T3_no_quotient_fold"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "T4_rank_two"
+  },
+  {
+   "detail": "joint support <= 4 < A=6",
+   "ok": true,
+   "tag": "globally_generic_by_degree"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "QJ_deg"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "QJ_e1"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "RJ_deg"
+  },
+  {
+   "detail": "2",
+   "ok": true,
+   "tag": "degpJ_lt_K"
+  },
+  {
+   "detail": "(0, 1)",
+   "ok": true,
+   "tag": "split_fibre_identity"
+  },
+  {
+   "detail": "(0, 1)",
+   "ok": true,
+   "tag": "support_size_A"
+  },
+  {
+   "detail": "(0, 1)",
+   "ok": true,
+   "tag": "exact_agreement_support"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "QJ_deg"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "QJ_e1"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "RJ_deg"
+  },
+  {
+   "detail": "2",
+   "ok": true,
+   "tag": "degpJ_lt_K"
+  },
+  {
+   "detail": "(2, 3)",
+   "ok": true,
+   "tag": "split_fibre_identity"
+  },
+  {
+   "detail": "(2, 3)",
+   "ok": true,
+   "tag": "support_size_A"
+  },
+  {
+   "detail": "(2, 3)",
+   "ok": true,
+   "tag": "exact_agreement_support"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "QJ_deg"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "QJ_e1"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "RJ_deg"
+  },
+  {
+   "detail": "2",
+   "ok": true,
+   "tag": "degpJ_lt_K"
+  },
+  {
+   "detail": "(4, 5)",
+   "ok": true,
+   "tag": "split_fibre_identity"
+  },
+  {
+   "detail": "(4, 5)",
+   "ok": true,
+   "tag": "support_size_A"
+  },
+  {
+   "detail": "(4, 5)",
+   "ok": true,
+   "tag": "exact_agreement_support"
+  },
+  {
+   "detail": "",
+   "ok": true,
+   "tag": "candidate_slopes_distinct"
+  },
+  {
+   "detail": "missing=[]",
+   "ok": true,
+   "tag": "all_intended_witnesses_found"
+  }
+ ],
+ "parameters": {
+  "A": 6,
+  "K": 4,
+  "a": 2,
+  "b": 6,
+  "core_indices": [
+   6,
+   7
+  ],
+  "g": 2,
+  "h": 2,
+  "label_pool": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "m": 2,
+  "n": 16,
+  "omega": 3,
+  "q": 17,
+  "rate": "4/16"
+ },
+ "selected_family": {
+  "ORD-COLEX": {
+   "M": 17,
+   "additive_energy": 657,
+   "common_coordinates": 0,
+   "common_prefix_len": 0,
+   "counterfactual_intended_normative": {
+    "M": 17,
+    "additive_energy": 593,
+    "candidate_slopes": 3,
+    "candidate_slopes_in_gamma_lo": 1,
+    "distinct_differences": 256,
+    "gamma_hi_size": 16,
+    "gamma_lo_size": 1,
+    "greedy_lowcore_subfamily": 6,
+    "intersection_histogram": {
+     "1": 10,
+     "2": 68,
+     "3": 104,
+     "4": 90
+    },
+    "max_multiplicity": 2,
+    "max_pairwise_intersection": 4,
+    "ordered_pairs": 272,
+    "pairs_core_above_K": 0,
+    "pairs_core_eq_K": 45,
+    "repeated_difference_pairs": 32,
+    "sidon": false,
+    "slopes_touching_core_above_K": 0,
+    "unallocated_slopes_bridge_gap": 0
+   },
+   "distinct_differences": 230,
+   "distinct_selected_supports": 17,
+   "example_selected_supports": [
+    [
+     1,
+     2,
+     3,
+     6,
+     8,
+     11
+    ],
+    [
+     0,
+     1,
+     2,
+     5,
+     7,
+     9
+    ],
+    [
+     1,
+     3,
+     4,
+     5,
+     6,
+     9
+    ],
+    [
+     1,
+     5,
+     6,
+     8,
+     9,
+     11
+    ],
+    [
+     0,
+     2,
+     3,
+     4,
+     7,
+     8
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     5,
+     6
+    ]
+   ],
+   "full_initial_block_slopes": 1,
+   "gamma_hi_size": 17,
+   "gamma_lo_size": 0,
+   "greedy_lowcore_subfamily": 4,
+   "initial_block_size": 4,
+   "intended_first_match_slopes": [
+    10
+   ],
+   "intended_is_first_match": 1,
+   "intended_rank": {
+    "10": 1,
+    "11": 3,
+    "7": 10
+   },
+   "intended_rank_max": 10,
+   "intended_rank_median": 3,
+   "intersection_histogram": {
+    "1": 10,
+    "2": 44,
+    "3": 104,
+    "4": 114
+   },
+   "live_slopes": 17,
+   "max_index_used": 11,
+   "max_multiplicity": 3,
+   "max_pairwise_intersection": 4,
+   "ordered_pairs": 272,
+   "pairs_core_above_K": 0,
+   "pairs_core_eq_K": 57,
+   "repeated_difference_pairs": 78,
+   "restricted_to_candidate_slopes": {
+    "M": 3,
+    "additive_energy": 15,
+    "common_coordinates": 2,
+    "common_prefix_len": 1,
+    "distinct_differences": 6,
+    "full_initial_block_slopes": 0,
+    "gamma_hi_size": 3,
+    "gamma_lo_size": 0,
+    "greedy_lowcore_subfamily": 2,
+    "initial_block_size": 4,
+    "intersection_histogram": {
+     "3": 2,
+     "4": 4
+    },
+    "max_index_used": 9,
+    "max_multiplicity": 1,
+    "max_pairwise_intersection": 4,
+    "ordered_pairs": 6,
+    "pairs_core_above_K": 0,
+    "pairs_core_eq_K": 2,
+    "repeated_difference_pairs": 0,
+    "sidon": true,
+    "slopes_touching_core_above_K": 0,
+    "unallocated_slopes_bridge_gap": 0,
+    "window_width": 10
+   },
+   "sidon": false,
+   "slopes_touching_core_above_K": 0,
+   "unallocated_slopes_bridge_gap": 0,
+   "window_width": 12
+  },
+  "ORD-HASH-pb-null-01": {
+   "M": 17,
+   "additive_energy": 561,
+   "common_coordinates": 0,
+   "common_prefix_len": 0,
+   "counterfactual_intended_normative": {
+    "M": 17,
+    "additive_energy": 569,
+    "candidate_slopes": 3,
+    "candidate_slopes_in_gamma_lo": 1,
+    "distinct_differences": 268,
+    "gamma_hi_size": 12,
+    "gamma_lo_size": 5,
+    "greedy_lowcore_subfamily": 11,
+    "intersection_histogram": {
+     "0": 2,
+     "1": 62,
+     "2": 100,
+     "3": 84,
+     "4": 24
+    },
+    "max_multiplicity": 2,
+    "max_pairwise_intersection": 4,
+    "ordered_pairs": 272,
+    "pairs_core_above_K": 0,
+    "pairs_core_eq_K": 12,
+    "repeated_difference_pairs": 8,
+    "sidon": false,
+    "slopes_touching_core_above_K": 0,
+    "unallocated_slopes_bridge_gap": 0
+   },
+   "distinct_differences": 272,
+   "distinct_selected_supports": 17,
+   "example_selected_supports": [
+    [
+     0,
+     3,
+     4,
+     7,
+     14,
+     15
+    ],
+    [
+     0,
+     7,
+     8,
+     11,
+     14,
+     15
+    ],
+    [
+     0,
+     3,
+     4,
+     8,
+     9,
+     15
+    ],
+    [
+     0,
+     1,
+     5,
+     8,
+     13,
+     15
+    ],
+    [
+     0,
+     3,
+     6,
+     8,
+     13,
+     15
+    ],
+    [
+     1,
+     2,
+     6,
+     7,
+     9,
+     10
+    ]
+   ],
+   "full_initial_block_slopes": 0,
+   "gamma_hi_size": 12,
+   "gamma_lo_size": 5,
+   "greedy_lowcore_subfamily": 11,
+   "initial_block_size": 4,
+   "intended_first_match_slopes": [
+    7
+   ],
+   "intended_is_first_match": 1,
+   "intended_rank": {
+    "10": 2,
+    "11": 10,
+    "7": 1
+   },
+   "intended_rank_max": 10,
+   "intended_rank_median": 2,
+   "intersection_histogram": {
+    "1": 58,
+    "2": 94,
+    "3": 98,
+    "4": 22
+   },
+   "live_slopes": 17,
+   "max_index_used": 15,
+   "max_multiplicity": 1,
+   "max_pairwise_intersection": 4,
+   "ordered_pairs": 272,
+   "pairs_core_above_K": 0,
+   "pairs_core_eq_K": 11,
+   "repeated_difference_pairs": 0,
+   "restricted_to_candidate_slopes": {
+    "M": 3,
+    "additive_energy": 15,
+    "common_coordinates": 0,
+    "common_prefix_len": 0,
+    "distinct_differences": 6,
+    "full_initial_block_slopes": 0,
+    "gamma_hi_size": 0,
+    "gamma_lo_size": 3,
+    "greedy_lowcore_subfamily": 3,
+    "initial_block_size": 4,
+    "intersection_histogram": {
+     "1": 2,
+     "2": 2,
+     "3": 2
+    },
+    "max_index_used": 15,
+    "max_multiplicity": 1,
+    "max_pairwise_intersection": 3,
+    "ordered_pairs": 6,
+    "pairs_core_above_K": 0,
+    "pairs_core_eq_K": 0,
+    "repeated_difference_pairs": 0,
+    "sidon": true,
+    "slopes_touching_core_above_K": 0,
+    "unallocated_slopes_bridge_gap": 0,
+    "window_width": 16
+   },
+   "sidon": true,
+   "slopes_touching_core_above_K": 0,
+   "unallocated_slopes_bridge_gap": 0,
+   "window_width": 16
+  },
+  "ORD-HASH-pb-null-02": {
+   "M": 17,
+   "additive_energy": 561,
+   "common_coordinates": 0,
+   "common_prefix_len": 0,
+   "counterfactual_intended_normative": {
+    "M": 17,
+    "additive_energy": 561,
+    "candidate_slopes": 3,
+    "candidate_slopes_in_gamma_lo": 0,
+    "distinct_differences": 272,
+    "gamma_hi_size": 15,
+    "gamma_lo_size": 2,
+    "greedy_lowcore_subfamily": 9,
+    "intersection_histogram": {
+     "0": 2,
+     "1": 46,
+     "2": 106,
+     "3": 88,
+     "4": 30
+    },
+    "max_multiplicity": 1,
+    "max_pairwise_intersection": 4,
+    "ordered_pairs": 272,
+    "pairs_core_above_K": 0,
+    "pairs_core_eq_K": 15,
+    "repeated_difference_pairs": 0,
+    "sidon": true,
+    "slopes_touching_core_above_K": 0,
+    "unallocated_slopes_bridge_gap": 0
+   },
+   "distinct_differences": 272,
+   "distinct_selected_supports": 17,
+   "example_selected_supports": [
+    [
+     1,
+     2,
+     3,
+     6,
+     8,
+     11
+    ],
+    [
+     1,
+     9,
+     10,
+     12,
+     13,
+     14
+    ],
+    [
+     2,
+     5,
+     6,
+     7,
+     8,
+     12
+    ],
+    [
+     3,
+     7,
+     8,
+     9,
+     11,
+     14
+    ],
+    [
+     6,
+     9,
+     10,
+     11,
+     12,
+     13
+    ],
+    [
+     1,
+     5,
+     6,
+     9,
+     12,
+     14
+    ]
+   ],
+   "full_initial_block_slopes": 0,
+   "gamma_hi_size": 13,
+   "gamma_lo_size": 4,
+   "greedy_lowcore_subfamily": 11,
+   "initial_block_size": 4,
+   "intended_first_match_slopes": [],
+   "intended_is_first_match": 0,
+   "intended_rank": {
+    "10": 3,
+    "11": 16,
+    "7": 21
+   },
+   "intended_rank_max": 21,
+   "intended_rank_median": 16,
+   "intersection_histogram": {
+    "0": 2,
+    "1": 42,
+    "2": 110,
+    "3": 94,
+    "4": 24
+   },
+   "live_slopes": 17,
+   "max_index_used": 15,
+   "max_multiplicity": 1,
+   "max_pairwise_intersection": 4,
+   "ordered_pairs": 272,
+   "pairs_core_above_K": 0,
+   "pairs_core_eq_K": 12,
+   "repeated_difference_pairs": 0,
+   "restricted_to_candidate_slopes": {
+    "M": 3,
+    "additive_energy": 15,
+    "common_coordinates": 1,
+    "common_prefix_len": 0,
+    "distinct_differences": 6,
+    "full_initial_block_slopes": 0,
+    "gamma_hi_size": 2,
+    "gamma_lo_size": 1,
+    "greedy_lowcore_subfamily": 2,
+    "initial_block_size": 4,
+    "intersection_histogram": {
+     "1": 2,
+     "3": 2,
+     "4": 2
+    },
+    "max_index_used": 15,
+    "max_multiplicity": 1,
+    "max_pairwise_intersection": 4,
+    "ordered_pairs": 6,
+    "pairs_core_above_K": 0,
+    "pairs_core_eq_K": 1,
+    "repeated_difference_pairs": 0,
+    "sidon": true,
+    "slopes_touching_core_above_K": 0,
+    "unallocated_slopes_bridge_gap": 0,
+    "window_width": 16
+   },
+   "sidon": true,
+   "slopes_touching_core_above_K": 0,
+   "unallocated_slopes_bridge_gap": 0,
+   "window_width": 16
+  },
+  "ORD-LEX": {
+   "M": 17,
+   "additive_energy": 569,
+   "common_coordinates": 2,
+   "common_prefix_len": 2,
+   "counterfactual_intended_normative": {
+    "M": 17,
+    "additive_energy": 569,
+    "candidate_slopes": 3,
+    "candidate_slopes_in_gamma_lo": 3,
+    "distinct_differences": 268,
+    "gamma_hi_size": 14,
+    "gamma_lo_size": 3,
+    "greedy_lowcore_subfamily": 9,
+    "intersection_histogram": {
+     "0": 6,
+     "1": 16,
+     "2": 60,
+     "3": 110,
+     "4": 80
+    },
+    "max_multiplicity": 2,
+    "max_pairwise_intersection": 4,
+    "ordered_pairs": 272,
+    "pairs_core_above_K": 0,
+    "pairs_core_eq_K": 40,
+    "repeated_difference_pairs": 8,
+    "sidon": false,
+    "slopes_touching_core_above_K": 0,
+    "unallocated_slopes_bridge_gap": 0
+   },
+   "distinct_differences": 268,
+   "distinct_selected_supports": 17,
+   "example_selected_supports": [
+    [
+     0,
+     1,
+     4,
+     5,
+     6,
+     15
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     10,
+     13
+    ],
+    [
+     0,
+     1,
+     3,
+     6,
+     10,
+     15
+    ],
+    [
+     0,
+     1,
+     5,
+     8,
+     13,
+     15
+    ],
+    [
+     0,
+     1,
+     2,
+     7,
+     11,
+     13
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     5,
+     6
+    ]
+   ],
+   "full_initial_block_slopes": 5,
+   "gamma_hi_size": 17,
+   "gamma_lo_size": 0,
+   "greedy_lowcore_subfamily": 6,
+   "initial_block_size": 4,
+   "intended_first_match_slopes": [],
+   "intended_is_first_match": 0,
+   "intended_rank": {
+    "10": 3,
+    "11": 20,
+    "7": 27
+   },
+   "intended_rank_max": 27,
+   "intended_rank_median": 20,
+   "intersection_histogram": {
+    "2": 30,
+    "3": 118,
+    "4": 124
+   },
+   "live_slopes": 17,
+   "max_index_used": 15,
+   "max_multiplicity": 2,
+   "max_pairwise_intersection": 4,
+   "ordered_pairs": 272,
+   "pairs_core_above_K": 0,
+   "pairs_core_eq_K": 62,
+   "repeated_difference_pairs": 8,
+   "restricted_to_candidate_slopes": {
+    "M": 3,
+    "additive_energy": 15,
+    "common_coordinates": 3,
+    "common_prefix_len": 3,
+    "distinct_differences": 6,
+    "full_initial_block_slopes": 0,
+    "gamma_hi_size": 3,
+    "gamma_lo_size": 0,
+    "greedy_lowcore_subfamily": 2,
+    "initial_block_size": 4,
+    "intersection_histogram": {
+     "3": 2,
+     "4": 4
+    },
+    "max_index_used": 15,
+    "max_multiplicity": 1,
+    "max_pairwise_intersection": 4,
+    "ordered_pairs": 6,
+    "pairs_core_above_K": 0,
+    "pairs_core_eq_K": 2,
+    "repeated_difference_pairs": 0,
+    "sidon": true,
+    "slopes_touching_core_above_K": 0,
+    "unallocated_slopes_bridge_gap": 0,
+    "window_width": 16
+   },
+   "sidon": false,
+   "slopes_touching_core_above_K": 0,
+   "unallocated_slopes_bridge_gap": 0,
+   "window_width": 16
+  },
+  "ORD-POLYLEX": {
+   "M": 17,
+   "additive_energy": 569,
+   "common_coordinates": 0,
+   "common_prefix_len": 0,
+   "counterfactual_intended_normative": {
+    "M": 17,
+    "additive_energy": 569,
+    "candidate_slopes": 3,
+    "candidate_slopes_in_gamma_lo": 1,
+    "distinct_differences": 268,
+    "gamma_hi_size": 8,
+    "gamma_lo_size": 9,
+    "greedy_lowcore_subfamily": 14,
+    "intersection_histogram": {
+     "0": 6,
+     "1": 56,
+     "2": 104,
+     "3": 96,
+     "4": 10
+    },
+    "max_multiplicity": 2,
+    "max_pairwise_intersection": 4,
+    "ordered_pairs": 272,
+    "pairs_core_above_K": 0,
+    "pairs_core_eq_K": 5,
+    "repeated_difference_pairs": 8,
+    "sidon": false,
+    "slopes_touching_core_above_K": 0,
+    "unallocated_slopes_bridge_gap": 0
+   },
+   "distinct_differences": 268,
+   "distinct_selected_supports": 17,
+   "example_selected_supports": [
+    [
+     0,
+     1,
+     6,
+     9,
+     10,
+     14
+    ],
+    [
+     0,
+     3,
+     4,
+     10,
+     11,
+     12
+    ],
+    [
+     0,
+     5,
+     10,
+     12,
+     14,
+     15
+    ],
+    [
+     1,
+     5,
+     6,
+     8,
+     9,
+     11
+    ],
+    [
+     0,
+     4,
+     5,
+     6,
+     11,
+     14
+    ],
+    [
+     0,
+     3,
+     5,
+     7,
+     12,
+     13
+    ]
+   ],
+   "full_initial_block_slopes": 0,
+   "gamma_hi_size": 5,
+   "gamma_lo_size": 12,
+   "greedy_lowcore_subfamily": 15,
+   "initial_block_size": 4,
+   "intended_first_match_slopes": [],
+   "intended_is_first_match": 0,
+   "intended_rank": {
+    "10": 21,
+    "11": 7,
+    "7": 20
+   },
+   "intended_rank_max": 21,
+   "intended_rank_median": 20,
+   "intersection_histogram": {
+    "0": 4,
+    "1": 54,
+    "2": 104,
+    "3": 104,
+    "4": 6
+   },
+   "live_slopes": 17,
+   "max_index_used": 15,
+   "max_multiplicity": 2,
+   "max_pairwise_intersection": 4,
+   "ordered_pairs": 272,
+   "pairs_core_above_K": 0,
+   "pairs_core_eq_K": 3,
+   "repeated_difference_pairs": 8,
+   "restricted_to_candidate_slopes": {
+    "M": 3,
+    "additive_energy": 15,
+    "common_coordinates": 1,
+    "common_prefix_len": 0,
+    "distinct_differences": 6,
+    "full_initial_block_slopes": 0,
+    "gamma_hi_size": 0,
+    "gamma_lo_size": 3,
+    "greedy_lowcore_subfamily": 3,
+    "initial_block_size": 4,
+    "intersection_histogram": {
+     "2": 2,
+     "3": 4
+    },
+    "max_index_used": 15,
+    "max_multiplicity": 1,
+    "max_pairwise_intersection": 3,
+    "ordered_pairs": 6,
+    "pairs_core_above_K": 0,
+    "pairs_core_eq_K": 0,
+    "repeated_difference_pairs": 0,
+    "sidon": true,
+    "slopes_touching_core_above_K": 0,
+    "unallocated_slopes_bridge_gap": 0,
+    "window_width": 16
+   },
+   "sidon": false,
+   "slopes_touching_core_above_K": 0,
+   "unallocated_slopes_bridge_gap": 0,
+   "window_width": 16
+  }
+ },
+ "witness_census": {
+  "dead_slopes": 0,
+  "live_slopes": 17,
+  "max_witnesses_per_live_slope": 31,
+  "mean_witnesses_per_live_slope_den": 17,
+  "mean_witnesses_per_live_slope_num": 471,
+  "min_witnesses_per_live_slope": 25,
+  "per_slope_counts": {
+   "0": 28,
+   "1": 26,
+   "10": 27,
+   "11": 29,
+   "12": 28,
+   "13": 27,
+   "14": 31,
+   "15": 26,
+   "16": 25,
+   "2": 28,
+   "3": 29,
+   "4": 26,
+   "5": 26,
+   "6": 28,
+   "7": 29,
+   "8": 31,
+   "9": 27
+  },
+  "slope_infinity_live": false,
+  "total_exact_A_witnesses": 471
+ }
+}

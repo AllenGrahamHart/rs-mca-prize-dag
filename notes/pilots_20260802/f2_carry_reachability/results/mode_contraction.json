@@ -1,0 +1,514 @@
+{
+ "rows": [
+  {
+   "pairs_used": 15,
+   "bits_per_pair_min": 0.0,
+   "bits_per_pair_median": 0.0,
+   "bits_per_pair_max": 0.0,
+   "worst_mode_k": 1,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 31,
+   "n_odd_modes": 31,
+   "p": 31,
+   "n": 32,
+   "c_name": "c_in_Fp(c=1)",
+   "c": [
+    1,
+    0
+   ]
+  },
+  {
+   "pairs_used": 15,
+   "bits_per_pair_min": 0.0,
+   "bits_per_pair_median": 2.0084025160382852,
+   "bits_per_pair_max": 3.283815540274218,
+   "worst_mode_k": 31,
+   "worst_mode_is_k_eq_p": true,
+   "modes_with_bits_below_0.01": 1,
+   "n_odd_modes": 31,
+   "p": 31,
+   "n": 32,
+   "c_name": "c_trace_zero(c=w)",
+   "c": [
+    0,
+    1
+   ]
+  },
+  {
+   "pairs_used": 15,
+   "bits_per_pair_min": 0.3831940550984676,
+   "bits_per_pair_median": 1.3056472213116197,
+   "bits_per_pair_max": 2.2771996881296497,
+   "worst_mode_k": 1,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 31,
+   "p": 31,
+   "n": 32,
+   "c_name": "c=1+w",
+   "c": [
+    1,
+    1
+   ]
+  },
+  {
+   "pairs_used": 15,
+   "bits_per_pair_min": 0.24258224565358688,
+   "bits_per_pair_median": 1.5818620108024557,
+   "bits_per_pair_max": 3.266055304934297,
+   "worst_mode_k": 61,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 31,
+   "p": 31,
+   "n": 32,
+   "c_name": "c_random0",
+   "c": [
+    22,
+    18
+   ]
+  },
+  {
+   "pairs_used": 15,
+   "bits_per_pair_min": 0.3860694026107258,
+   "bits_per_pair_median": 0.981129772975311,
+   "bits_per_pair_max": 1.709111049234634,
+   "worst_mode_k": 35,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 31,
+   "p": 31,
+   "n": 32,
+   "c_name": "c_random1",
+   "c": [
+    17,
+    1
+   ]
+  },
+  {
+   "pairs_used": 15,
+   "bits_per_pair_min": 0.5527212383314916,
+   "bits_per_pair_median": 1.0120802836897458,
+   "bits_per_pair_max": 1.9610345511728733,
+   "worst_mode_k": 61,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 31,
+   "p": 31,
+   "n": 32,
+   "c_name": "c_random2",
+   "c": [
+    1,
+    27
+   ]
+  },
+  {
+   "pairs_used": 30,
+   "bits_per_pair_min": 0.0,
+   "bits_per_pair_median": 0.0,
+   "bits_per_pair_max": 0.0,
+   "worst_mode_k": 1,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 61,
+   "n_odd_modes": 61,
+   "p": 61,
+   "n": 62,
+   "c_name": "c_in_Fp(c=1)",
+   "c": [
+    1,
+    0
+   ]
+  },
+  {
+   "pairs_used": 30,
+   "bits_per_pair_min": 0.0,
+   "bits_per_pair_median": 1.937824849058258,
+   "bits_per_pair_max": 2.8588651108955005,
+   "worst_mode_k": 61,
+   "worst_mode_is_k_eq_p": true,
+   "modes_with_bits_below_0.01": 1,
+   "n_odd_modes": 61,
+   "p": 61,
+   "n": 62,
+   "c_name": "c_trace_zero(c=w)",
+   "c": [
+    0,
+    1
+   ]
+  },
+  {
+   "pairs_used": 30,
+   "bits_per_pair_min": 0.38304993258362596,
+   "bits_per_pair_median": 1.2200381709674104,
+   "bits_per_pair_max": 2.6292147626762508,
+   "worst_mode_k": 1,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 61,
+   "p": 61,
+   "n": 62,
+   "c_name": "c=1+w",
+   "c": [
+    1,
+    1
+   ]
+  },
+  {
+   "pairs_used": 30,
+   "bits_per_pair_min": 0.3271146290314259,
+   "bits_per_pair_median": 0.9771954455608355,
+   "bits_per_pair_max": 1.3464368536197866,
+   "worst_mode_k": 1,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 61,
+   "p": 61,
+   "n": 62,
+   "c_name": "c_random0",
+   "c": [
+    34,
+    21
+   ]
+  },
+  {
+   "pairs_used": 30,
+   "bits_per_pair_min": 0.5340230387354019,
+   "bits_per_pair_median": 1.4168275559584282,
+   "bits_per_pair_max": 2.58263572922751,
+   "worst_mode_k": 1,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 61,
+   "p": 61,
+   "n": 62,
+   "c_name": "c_random1",
+   "c": [
+    20,
+    8
+   ]
+  },
+  {
+   "pairs_used": 30,
+   "bits_per_pair_min": 0.40071475282135977,
+   "bits_per_pair_median": 1.0954416184487248,
+   "bits_per_pair_max": 1.9326066939900945,
+   "worst_mode_k": 121,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 61,
+   "p": 61,
+   "n": 62,
+   "c_name": "c_random2",
+   "c": [
+    24,
+    22
+   ]
+  },
+  {
+   "pairs_used": 50,
+   "bits_per_pair_min": 0.0,
+   "bits_per_pair_median": 0.0,
+   "bits_per_pair_max": 0.0,
+   "worst_mode_k": 1,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 101,
+   "n_odd_modes": 101,
+   "p": 101,
+   "n": 102,
+   "c_name": "c_in_Fp(c=1)",
+   "c": [
+    1,
+    0
+   ]
+  },
+  {
+   "pairs_used": 50,
+   "bits_per_pair_min": 0.0,
+   "bits_per_pair_median": 1.9704025672147143,
+   "bits_per_pair_max": 2.796373649213495,
+   "worst_mode_k": 101,
+   "worst_mode_is_k_eq_p": true,
+   "modes_with_bits_below_0.01": 1,
+   "n_odd_modes": 101,
+   "p": 101,
+   "n": 102,
+   "c_name": "c_trace_zero(c=w)",
+   "c": [
+    0,
+    1
+   ]
+  },
+  {
+   "pairs_used": 50,
+   "bits_per_pair_min": 0.3885063579363438,
+   "bits_per_pair_median": 1.2469867515759012,
+   "bits_per_pair_max": 2.613836421683944,
+   "worst_mode_k": 201,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 101,
+   "p": 101,
+   "n": 102,
+   "c_name": "c=1+w",
+   "c": [
+    1,
+    1
+   ]
+  },
+  {
+   "pairs_used": 50,
+   "bits_per_pair_min": 0.395131027757877,
+   "bits_per_pair_median": 0.9404284514004867,
+   "bits_per_pair_max": 1.6794141661890478,
+   "worst_mode_k": 201,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 101,
+   "p": 101,
+   "n": 102,
+   "c_name": "c_random0",
+   "c": [
+    45,
+    52
+   ]
+  },
+  {
+   "pairs_used": 50,
+   "bits_per_pair_min": 0.5164963463922637,
+   "bits_per_pair_median": 1.139858242585051,
+   "bits_per_pair_max": 2.251722101102149,
+   "worst_mode_k": 201,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 101,
+   "p": 101,
+   "n": 102,
+   "c_name": "c_random1",
+   "c": [
+    46,
+    27
+   ]
+  },
+  {
+   "pairs_used": 50,
+   "bits_per_pair_min": 0.2918886418435684,
+   "bits_per_pair_median": 1.0375243189043175,
+   "bits_per_pair_max": 2.8757003681515703,
+   "worst_mode_k": 1,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 101,
+   "p": 101,
+   "n": 102,
+   "c_name": "c_random2",
+   "c": [
+    22,
+    20
+   ]
+  },
+  {
+   "pairs_used": 75,
+   "bits_per_pair_min": 0.0,
+   "bits_per_pair_median": 0.0,
+   "bits_per_pair_max": 0.0,
+   "worst_mode_k": 1,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 151,
+   "n_odd_modes": 151,
+   "p": 151,
+   "n": 152,
+   "c_name": "c_in_Fp(c=1)",
+   "c": [
+    1,
+    0
+   ]
+  },
+  {
+   "pairs_used": 75,
+   "bits_per_pair_min": 0.0,
+   "bits_per_pair_median": 1.9838783507537066,
+   "bits_per_pair_max": 2.6473452555881076,
+   "worst_mode_k": 151,
+   "worst_mode_is_k_eq_p": true,
+   "modes_with_bits_below_0.01": 1,
+   "n_odd_modes": 151,
+   "p": 151,
+   "n": 152,
+   "c_name": "c_trace_zero(c=w)",
+   "c": [
+    0,
+    1
+   ]
+  },
+  {
+   "pairs_used": 75,
+   "bits_per_pair_min": 0.3258465661250038,
+   "bits_per_pair_median": 1.1890120482752966,
+   "bits_per_pair_max": 2.0680751322283757,
+   "worst_mode_k": 301,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 151,
+   "p": 151,
+   "n": 152,
+   "c_name": "c=1+w",
+   "c": [
+    1,
+    1
+   ]
+  },
+  {
+   "pairs_used": 75,
+   "bits_per_pair_min": 0.48743911059813383,
+   "bits_per_pair_median": 1.258330236306347,
+   "bits_per_pair_max": 2.3416097161864164,
+   "worst_mode_k": 301,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 151,
+   "p": 151,
+   "n": 152,
+   "c_name": "c_random0",
+   "c": [
+    35,
+    51
+   ]
+  },
+  {
+   "pairs_used": 75,
+   "bits_per_pair_min": 0.5311909006584296,
+   "bits_per_pair_median": 1.1805244305359484,
+   "bits_per_pair_max": 2.505000370711082,
+   "worst_mode_k": 301,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 151,
+   "p": 151,
+   "n": 152,
+   "c_name": "c_random1",
+   "c": [
+    68,
+    110
+   ]
+  },
+  {
+   "pairs_used": 75,
+   "bits_per_pair_min": 0.6303704437870045,
+   "bits_per_pair_median": 1.3128550656961637,
+   "bits_per_pair_max": 2.160494492465408,
+   "worst_mode_k": 301,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 151,
+   "p": 151,
+   "n": 152,
+   "c_name": "c_random2",
+   "c": [
+    131,
+    45
+   ]
+  },
+  {
+   "pairs_used": 99,
+   "bits_per_pair_min": 0.0,
+   "bits_per_pair_median": 0.0,
+   "bits_per_pair_max": 0.0,
+   "worst_mode_k": 1,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 199,
+   "n_odd_modes": 199,
+   "p": 199,
+   "n": 200,
+   "c_name": "c_in_Fp(c=1)",
+   "c": [
+    1,
+    0
+   ]
+  },
+  {
+   "pairs_used": 99,
+   "bits_per_pair_min": 0.0,
+   "bits_per_pair_median": 1.9977196690669259,
+   "bits_per_pair_max": 2.5897228397931418,
+   "worst_mode_k": 199,
+   "worst_mode_is_k_eq_p": true,
+   "modes_with_bits_below_0.01": 1,
+   "n_odd_modes": 199,
+   "p": 199,
+   "n": 200,
+   "c_name": "c_trace_zero(c=w)",
+   "c": [
+    0,
+    1
+   ]
+  },
+  {
+   "pairs_used": 99,
+   "bits_per_pair_min": 0.45452181567645,
+   "bits_per_pair_median": 1.2316510748809444,
+   "bits_per_pair_max": 2.6164681674330597,
+   "worst_mode_k": 397,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 199,
+   "p": 199,
+   "n": 200,
+   "c_name": "c=1+w",
+   "c": [
+    1,
+    1
+   ]
+  },
+  {
+   "pairs_used": 99,
+   "bits_per_pair_min": 0.3321682184866662,
+   "bits_per_pair_median": 1.2092270243134837,
+   "bits_per_pair_max": 2.524379375823066,
+   "worst_mode_k": 397,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 199,
+   "p": 199,
+   "n": 200,
+   "c_name": "c_random0",
+   "c": [
+    191,
+    23
+   ]
+  },
+  {
+   "pairs_used": 99,
+   "bits_per_pair_min": 0.3665587334282587,
+   "bits_per_pair_median": 1.303140123771108,
+   "bits_per_pair_max": 3.143331033179788,
+   "worst_mode_k": 397,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 199,
+   "p": 199,
+   "n": 200,
+   "c_name": "c_random1",
+   "c": [
+    129,
+    175
+   ]
+  },
+  {
+   "pairs_used": 99,
+   "bits_per_pair_min": 0.4243724607664916,
+   "bits_per_pair_median": 1.1600427694755424,
+   "bits_per_pair_max": 2.544042343449934,
+   "worst_mode_k": 397,
+   "worst_mode_is_k_eq_p": false,
+   "modes_with_bits_below_0.01": 0,
+   "n_odd_modes": 199,
+   "p": 199,
+   "n": 200,
+   "c_name": "c_random2",
+   "c": [
+    56,
+    109
+   ]
+  }
+ ]
+}
