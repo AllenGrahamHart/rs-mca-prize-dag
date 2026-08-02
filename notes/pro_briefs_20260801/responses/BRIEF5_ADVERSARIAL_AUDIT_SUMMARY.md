@@ -91,3 +91,29 @@ for C2''; the carry DFT for F2). Each round also produced a sharpened
 statement of what the empirical evidence can and cannot certify — here,
 that no enumeration can probe correlation at the 2^(-n/6) scale the
 finite target actually demands.
+
+> **[AMENDED 2026-08-02 — F2A.5 slice pilot
+> (`notes/pilots_20260802/f2_slice_coefficients/`, 11/11 + 3/3 exact
+> validations, coordinator-replayed).]** The b-resolved object has an
+> exact per-mode product form governed by one new invariant: the
+> modified difference multiset Delta_i = sigma_i^+ - sigma_i^- in
+> Z/2p, with phase law arg r_i(k) = pi*k*Delta_i/p. Consequences
+> BINDING on F2A.2/F2A.4 as adopted above: (1) Sharp Law A
+> (full sumset = Z/2p) does NOT survive b-resolution — fixed-b
+> reachability is governed by the difference subgroup
+> D = <Delta_i - Delta_j>, and the reachability audit must be re-run on
+> D; (2) the F2A.4 exceptional-owner list is Ann(D), strictly larger
+> than Ann(G), and the k=p pair-contraction health criterion from
+> resonance.py is exactly INVERTED at fixed b (all-odd-Delta windows:
+> maximal full-window contraction, slice floor pinned at 1/p via
+> hhat_p(p)=2); (3) the slice theorem cannot be uniform over coordinate
+> subsets (half the coordinates at every frequency carry odd Delta) and
+> needs a parity-inhomogeneity hypothesis, phase-SPREAD (not alignment)
+> formulation, and normalisation by log2 C(n,b). The hidden-modulation
+> fence is VISIBLE at slice resolution (extremal modulation is uniquely
+> the parity — fences (i) and (ii) are one object), so the black hole
+> is a PRECISION problem, not a blindness problem. The 1/3 budget is
+> marginal on generic windows and dead on parity-homogeneous ones
+> (fails at n > 3*log2 p, ~93 coordinates at official scale). Slope
+> caveat: cancellation slopes ride the balanced-weight integer proxy;
+> the structural laws are exact with true weights.
