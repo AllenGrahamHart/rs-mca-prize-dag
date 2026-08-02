@@ -3932,3 +3932,19 @@ outside: de,de,-de; df, sigma_o ef,
 with `(sigma_c,sigma_o) in {+/-1}^2`.  Compile common source placements for
 these five common records next, then append the four outside lanes.  Do not
 repeat the sign search.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler`
+now compiles the next source layer.  The five roles
+
+```text
+LA, AB, AC, BC+, BC-
+```
+
+have fifteen assignments to two opposite source pairs and a singleton; no
+role quotient is assumed, so all four root-sign rows give 60 exact systems.
+On base rank six, six `8 x 8` minors are necessary and sufficient.  All 120
+raw/stripped mode rows complete exactly.  Guard stripping reduces the 360
+minors to degrees `8..14` and term range `20..100`, with six distinct
+minors in every row.  Run bounded guard-saturated common ideals next and
+keep base-rank drop separate.

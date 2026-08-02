@@ -15555,3 +15555,20 @@ next route step:         compile the common source-placement atlas and
                           positive Vieta kernels for the five common records
 nonclaim:                 no source placement, route, K3, or Prize closure
 ```
+
+### Work-cycle theorem: positive 433-1b common Vieta minors
+
+```text
+common roles:             LA, AB, AC, BC+, BC-
+source shape:             two opposite pairs plus one singleton
+role cells/sign rows:     15 / 60; no role quotient assumed
+common matrix:            10 x 8
+principal rank test:      six exact 8 x 8 minors on base rank 6
+raw compilation:          360 minors, degrees 18..24, terms 80..204
+stripped compilation:     360 minors, degrees 8..14, terms 20..100
+distinct digests:         165 in each mode; six per row
+Modal completion:         120/120, ap-nujRPtkwmYa5HkgpxvpyDZ
+next route step:          bounded guard-saturated common-ideal census;
+                          base-rank drop remains separate
+nonclaim:                 no common-point or route exclusion
+```
