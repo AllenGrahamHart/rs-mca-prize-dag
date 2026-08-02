@@ -90,3 +90,24 @@ allows — it is m2-shaped already.
   taken there first.
 - Reusable spillover: the high-rank dual-trade circuit theorem (Track B's
   missing boundedness input) is also Brief 3 material.
+
+> **[SUPERSEDED IN PART 2026-08-02 — Pro's adversarial self-audit,
+> verified on our side (live F_12289 fixture), RETIRES Track A as
+> written.]** The split-fibre pencil at exact RowC 1/4 parameters
+> realizes M = 129,948,699,009 > 15 x 8N^3 distinct-slope globally
+> generic low-core RS witnesses with ALL oriented differences distinct —
+> so RS realization + syndrome line + genericity + dyadic domain +
+> low-core cap are JOINTLY insufficient as the energy producer, which
+> fails by a factor > 123,928. First-match minimality is the ONLY
+> remaining possible source of P-B. Also: the RecPB closure trilemma is
+> structural (local class admits the family / reselection breaks
+> composition / ancestor certificates unbounded); producer pilots below
+> M <= N^2 are VACUOUS (our adopted PP4.2 gate was toothless as
+> designed); the (slope,alpha,beta) owner key dies by cardinality;
+> Track B is NOT finite above rank two (cyclic two-triple hypergraph).
+> REPLACEMENT: root-level first-match exchange (lex-shadow theorem).
+> THE decisive experiment: run the normative selector on scaled
+> split-fibre pencils — kill line K1 (selector picks a super-budget
+> Sidon family) would endanger the TARGET, not just the route.
+> Exploratory GO for FM0-FM3 only. See
+> `BRIEF4_ADVERSARIAL_AUDIT_SUMMARY.md`.
