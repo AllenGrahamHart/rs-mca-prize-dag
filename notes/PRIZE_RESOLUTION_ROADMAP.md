@@ -15026,3 +15026,25 @@ next route step:          choose a different one of the remaining eight
                           same canonical anchor
 nonclaim:                 positive 433-1a route, K3, Prize rows, LIST, MCA
 ```
+
+### Work-cycle theorem: positive 433-1a common sign quotient
+
+```text
+raw common frontier:      15 matching cells x 4 root-sign rows = 60
+source actions:           loop-anchored deck and reciprocal projectivities;
+                          special LC-singleton duplicate-role transports
+duplicate-role cells:     [0] | [1,2] | [3,6] | [4,7] | [5,8] |
+                          [9,10] | [11] | [12,13] | [14]
+exact quotient:           10 orbits; five size 4 and five size 8
+closed component:         [5,8], all eight rows
+remaining frontier:       exactly 9 algebraically distinct representatives
+next candidate:           [1,2], which has two sign classes distinguished
+                          by epsilon1*epsilon2
+opening evidence:         no common survivors in prior probes over
+                          F_13,F_17,F_29
+compute discipline:       run two bounded deployed-field common saturations;
+                          append one necessary outside triple only if a
+                          common finite algebra survives
+nonclaim:                 no deletion of the other nine representatives,
+                          positive route, K3, Prize rows, LIST, or MCA
+```

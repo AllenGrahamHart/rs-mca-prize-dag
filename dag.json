@@ -21478,6 +21478,27 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "title": "KoalaBear positive 433-1a common root-sign symmetry quotient",
+   "status": "PROVED",
+   "closure": "exact quotient of sixty common matching/root-sign rows to ten source-projectivity orbits, one closed and nine open",
+   "statement": "Exact source projectivities and duplicate-AB+ role transport reduce the 60 positive 433-1a common matching/root-sign rows to ten algebraically distinct orbits. Cells 3 through 14 have one four-sign orbit per duplicate-role cell orbit; cell 0 has one orbit; and cells 1,2 have two orbits distinguished by epsilon_1 epsilon_2. The proved cell-5/8 complete exclusion deletes one orbit, leaving exactly nine unclosed representatives. This quotient does not delete those nine representatives or close K3, LIST, MCA, or either Prize problem.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/verify_audit.py",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_common_root_sign_symmetry.py"
+   ]
+  },
+  {
    "id": "dli_c1_256_block_basis_factorization",
    "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
    "status": "PROVED",
@@ -42495,6 +42516,31 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

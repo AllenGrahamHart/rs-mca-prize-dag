@@ -3569,5 +3569,19 @@ predicted reciprocal relation
 P_(-1,+1)(b,t)=-t^4 P_(-1,-1)(b,-1/t),
 ```
 
-but it is not load-bearing.  Continue with a different one of the remaining
-eight duplicate-role matching-cell orbits.
+but it is not load-bearing.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient`
+now quotients the entire common frontier exactly.  Source projectivities
+join all four signs in every cell `3,...,14`; special duplicate-role and
+reciprocal actions give one orbit in cell `0` and two orbits across cells
+`1,2`, distinguished by `epsilon_1 epsilon_2`.  Combined with the nine
+duplicate-role cell orbits, the 60 raw rows become ten exact orbits: five
+of size four and five of size eight.  The closed `[5,8]` orbit removes one,
+leaving exactly nine genuinely different representatives.  Work only on
+these representatives.  Attack `[1,2]` first, with one same-sign and one
+opposite-sign deployed common saturation; prior probes over
+`F_13,F_17,F_29` found no common survivors.  If a common ideal survives,
+bank its finite algebra and append one necessary outside triple rather than
+reopening the 267-case outside ledger.
