@@ -3503,3 +3503,20 @@ entire generic common projection.  The whole generic cell-5 sign row
 3--5, and do not compute the `DF+/DF-/CF` family for this row.  The remaining
 cell-5 tasks are the finite exceptional-`t` ledger and the other sign rows
 and matching cells.  No cell, route, K3, or Prize closure follows yet.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census`
+now makes that finite ledger explicit.  Exact norms of 30 guards plus two
+chart denominators on five factors give 14 admissible-looking exceptions;
+all 3,659 denominator occurrences in the basis, primitive/factor, map,
+colored-Bezout, guard-norm, and localized-operator packets give 56 pole
+values.  Their overlap has size one, leaving exactly 69 deployed `t` values.
+Outside this set the generic sign-row exclusion specializes.  Fresh exact
+finite-subfactor replays already pass on the 13 regular guard candidates;
+the sole chart-2 failure `t=1860858030` is excluded on chart 3 with 16 gcds
+`e^2-1` and five gcds one.  Treat these replays as frontier evidence until
+their finite-close child is banked.  The scalable remaining program is ten
+fresh colored replays on regular maps, dynamic primitive coordinates for 38
+map-pole fibers, and raw fixed-fiber squared-pair bases for eight vertical or
+basis-pole fibers, including `t=1332924776`.  Do not scan the full field or
+rerun the generic function-field basis.

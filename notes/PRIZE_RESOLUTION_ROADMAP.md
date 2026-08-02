@@ -14884,3 +14884,74 @@ nonclaim:                 no guard norm or exceptional-fiber classification,
 next route-deciding step: append the generic colored BE condition on all
                           five fields; reserve norm zeros for exceptions
 ```
+
+### Work-cycle theorem: positive 433-1a generic cell-5 sign-row exclusion
+
+```text
+node/workboard attacked:  K3 / cell-5 sign row (-1,-1)
+result:                   PROVED over F_2130706433(t)
+generic chart coverage:   gcd(P,L_2)=1 in F_p(t)[b], so atlas chart 2 is
+                          global on the generic common projection
+signed-pair components:   degrees 4,4,4,8,4
+colored necessary edge:   DE+/DE-/BE
+exact component gcds:     e^2-1,e^2-1,e^2-1,1,e^2-1
+target guard:             e^2!=1
+exact consequence:        the entire generic cell-5 sign row (-1,-1) is
+                          empty; charts 3--5 and DF are not needed generically
+primary packet hash:      710b438062fc2e80f5c7b14ffb987d8f36a02d4b57953b30419bb320b88877a7
+independent audit hash:   e1651bf40f716eeef1daafab71b0f0b49a010d2d38395aa6ecde1d3e82b7bb81
+Modal apps:               ap-jcIuGHdW1WxLKephFQDv0O,
+                          ap-IKaYuOEIwen2OhFi6ccFhg,
+                          ap-cpk6ggojSG2qXUsMmJ8BP4,
+                          ap-JDaA7cgwB2vcKgfWVNJzvG
+nonclaim:                 finite exceptional t fibers, other signs/cells,
+                          cell, route, K3, row, or Prize closure
+```
+
+### Work-cycle exact router: positive 433-1a cell-5 exceptional fibers
+
+```text
+guard norms:              5 factors x (30 guards + 2 chart denominators)
+norm degree bounds:       numerator <=40, denominator <=16
+guard numerator roots:    18 total; 13 beyond 0,+-1,+-iota
+guard denominator roots:  3 total; one admissible-looking
+coefficient inputs:       basis, primitive/factors, coordinate maps,
+                          colored Bezout packet, guard norms, localized
+                          multiplication operator
+denominator census:       3659 occurrences, 1143 category-unique
+coefficient-pole roots:   61 total; 56 beyond 0,+-1,+-iota
+combined router:          69 admissible-looking t values after deduplication
+guard-norm packet hash:   663ccab5f1189a6e93f90d7aeba324585161ce86cc8a2b9fe86348a0140f8527
+pole packet hashes:       dc93d2b41a26ed5717c366c799f341cad67cdf5aef8fbec32602252af2c5ea23,
+                          0927bb86e6d87f4a2120c75d88f5e64c6740fb54988615d893eacb075edab92a
+exact root checks:        every guard-norm root list replayed independently
+                          as gcd(f,t^p-t); pole records reconstructed from
+                          the hash-pinned source denominator multisets
+finite replay repair:     the degree-one irreducibility checker now handles
+                          linear factors correctly
+regular guard candidates: 13 values pass fresh finite-subfactor Bezout
+                          replay; t=1860858030 is additionally recomputed on
+                          chart 3, with 16 gcds e^2-1 and 5 gcds one
+vertical obstruction:     t=1332924776 is a simultaneous basis/primitive/
+                          factor/operator pole and needs raw specialization
+remaining coefficient
+pole fibers:              use fresh finite recomputation; 10 retain the
+                          existing factor/map coordinate chain, 38 need a
+                          new primitive coordinate, and 8 need a raw
+                          specialized squared-pair basis
+Modal apps:               ap-gAd7d3ymL70oGLoNDrBPHF (factor-1 smoke),
+                          ap-5XAOWJFSEUP1FkcZdt347r (all guard norms),
+                          ap-d6th4JfPmb2yuH1sPcuvIy (five pole categories),
+                          ap-CNvSR4TZhbGHG1X7moVEi3 (operator poles)
+failed setup apps:        ap-4K3rkZItfNdVi02OXIjtXy used an unsupported
+                          field-element lift; two later replay launches did
+                          no remote work because the WSL PID ceiling blocked
+                          the local Modal control thread
+cost discipline:          all successful campaigns used <=5 parallel
+                          containers, <=4 GiB each, and <=30 seconds; estimated
+                          aggregate cost is well below $0.05
+next route-deciding step: run the ready fresh finite replay batch when the
+                          local PID ceiling permits; then build one fixed-
+                          fiber localized-algebra solver with dynamic primitive
+                          form and a raw-basis fallback for the final 46 fibers
+```

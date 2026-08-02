@@ -43,6 +43,8 @@ def base_gcd(left, right):
 
 def irreducible(modulus):
     degree = len(modulus) - 1
+    if degree == 1:
+        return True
     x = [0, 1]
     power = x
     checkpoints = {}
@@ -170,11 +172,13 @@ def ep_gcd(left, right, modulus):
     return ep_scale(left, inverse, modulus)
 
 
-def setup():
+def setup(chart_index=2):
     coordinate_maps, _, _, _ = maps.verify()
     generic_factors, _ = factors.verify()
     atlas = json.loads(guards.ATLAS.read_text())
-    chart = {item["basis_index"]: item for item in atlas["c_charts"]}[2]
+    chart = {item["basis_index"]: item for item in atlas["c_charts"]}[
+        chart_index
+    ]
     a2, a0, _, _, _ = sparse_product_kernel()
     return coordinate_maps, generic_factors, atlas, chart, [str(x) for x in a2], [str(x) for x in a0]
 
@@ -198,8 +202,10 @@ def split_specialized_factor(polynomial):
     return result
 
 
-def main():
-    coordinate_maps, generic_factors, atlas, chart, a2_text, a0_text = setup()
+def main(chart_index=2):
+    coordinate_maps, generic_factors, atlas, chart, a2_text, a0_text = setup(
+        chart_index
+    )
     specialized_maps = {
         name: [maps.evaluate_fraction(record, T) for record in records]
         for name, records in coordinate_maps.items()

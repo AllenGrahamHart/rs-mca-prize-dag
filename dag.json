@@ -21312,6 +21312,33 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+   "title": "KoalaBear positive 433-1a cell-5 exceptional-fiber router census",
+   "status": "PROVED",
+   "closure": "generic sign-row exclusion specializes outside an explicit 69-value set",
+   "statement": "In the deployed characteristic, exact guard/chart norms across five primitive factors give 14 admissible-looking exceptional values, while all 3,659 denominator occurrences in the six registered generic-certificate categories give 56 admissible-looking pole values. Their overlap has size one, so exactly 69 deployed t values require direct treatment. The canonical sorted-set SHA-256 is bd64dc238bb3dcc4491d7d7b856078871336571cbdd5df3343014f8198cfe1d4. At every other admissible t, the registered generic cell-5 sign-row exclusion specializes. This does not exclude any of the 69 routed fibers or close another sign, cell, route, K3 row, Prize row, LIST, or MCA.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_norms_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_norms_result.json",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_pair_guard_norms.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_specialization_poles_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_specialization_poles_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_specialization_operator_poles_result.json",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_specialization_poles.py"
+   ]
+  },
+  {
    "id": "dli_c1_256_block_basis_factorization",
    "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
    "status": "PROVED",
@@ -42174,6 +42201,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

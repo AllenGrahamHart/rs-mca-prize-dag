@@ -1,0 +1,4083 @@
+[
+  {
+    "coordinate_map_sha256": "001c959648176669651c87a913f2c830ad425a4f1e240041cc4edeb63d69a009",
+    "elapsed_seconds": 8.167021,
+    "factor": 1,
+    "factor_degree": 4,
+    "factorization_sha256": "00c4a7f0c90726b91b2310fa184d5eaf0ca3fab2b4d6a6ada1a4e1ae10f75cae",
+    "lift_atlas_sha256": "a7610836af981845fca5bf13db61f15beb6df5da08f22338846142495825e548",
+    "program_sha256": "7fdd1fdaa4f4ad396d1a02af7744c44d456518559eb89f8982d136e44846fb61",
+    "records": [
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "chart",
+        "guard": "r-leading",
+        "numerator": [
+          1,
+          0,
+          8,
+          0,
+          28,
+          0,
+          56,
+          0,
+          70,
+          0,
+          56,
+          0,
+          28,
+          0,
+          8,
+          0,
+          1
+        ],
+        "numerator_roots": [
+          16711679,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283074,
+          2030436359,
+          2030436359,
+          2097283076,
+          1
+        ],
+        "denominator_roots": [
+          2130706432
+        ],
+        "family": "chart",
+        "guard": "c-leading",
+        "numerator": [
+          1662281421,
+          191007589,
+          1258363350,
+          1460334458,
+          107415476,
+          1483810307,
+          1288928753,
+          1459355393,
+          1026660877,
+          1434910739,
+          1195763461,
+          219326760,
+          996093167,
+          1644162911,
+          1201096468,
+          1281792881,
+          1151701091,
+          1797624379
+        ],
+        "numerator_roots": [
+          16711679,
+          1860858030,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t-1",
+        "numerator": [
+          1,
+          2130706429,
+          6,
+          2130706429,
+          1
+        ],
+        "numerator_roots": [
+          1
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t+1",
+        "numerator": [
+          1,
+          4,
+          6,
+          4,
+          1
+        ],
+        "numerator_roots": [
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r-1",
+        "numerator": [
+          4,
+          8,
+          4
+        ],
+        "numerator_roots": [
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r+1",
+        "numerator": [
+          2130706429,
+          8,
+          2130706429
+        ],
+        "numerator_roots": [
+          1
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r-iota",
+        "numerator": [
+          2130706429,
+          2130706425,
+          2130706429
+        ],
+        "numerator_roots": [
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r+iota",
+        "numerator": [
+          4,
+          2130706425,
+          4
+        ],
+        "numerator_roots": [
+          1
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t-r",
+        "numerator": [
+          1,
+          66846718,
+          2130706432,
+          12,
+          2130706432,
+          2063859719,
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t+r",
+        "numerator": [
+          1,
+          2130706431,
+          2130706432,
+          4,
+          2130706432,
+          2130706431,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t-iota*r",
+        "numerator": [
+          1,
+          2,
+          2130706432,
+          2130706429,
+          2130706432,
+          2,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t+iota*r",
+        "numerator": [
+          1,
+          66846714,
+          2130706432,
+          2130706421,
+          2130706432,
+          2063859715,
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t-iota",
+        "numerator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "numerator_roots": [
+          16711679
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t+iota",
+        "numerator": [
+          1,
+          2063859717,
+          2130706427,
+          66846716,
+          1
+        ],
+        "numerator_roots": [
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "r",
+        "numerator": [
+          2130706432
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t",
+        "numerator": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "numerator_roots": [
+          0
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "b",
+        "numerator": [
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "c",
+        "numerator": [
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          2063859717,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          2130706432
+        ],
+        "family": "common",
+        "guard": "b-1",
+        "numerator": [
+          1863319569,
+          0,
+          1595932705,
+          0,
+          1863319569
+        ],
+        "numerator_roots": [
+          16711679,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283076,
+          2097283074,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "b+1",
+        "numerator": [
+          267386864,
+          1863319569,
+          1863319569,
+          267386864
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283076,
+          2097283074,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "c-1",
+        "numerator": [
+          8,
+          1863319577,
+          1863319561,
+          2130706425
+        ],
+        "numerator_roots": [
+          2113994754,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          2063859717,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          2130706432
+        ],
+        "family": "common",
+        "guard": "c+1",
+        "numerator": [
+          8,
+          267386848,
+          1595932705,
+          267386880,
+          2130706425
+        ],
+        "numerator_roots": [
+          1,
+          16711679
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846714,
+          2130706432,
+          2130706421,
+          2130706432,
+          2063859715,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "c-b",
+        "numerator": [
+          1997013001,
+          534773712,
+          1462239337,
+          2130706337,
+          668467224,
+          1595932689,
+          133693432
+        ],
+        "numerator_roots": [
+          1,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846714,
+          2130706432,
+          2130706421,
+          2130706432,
+          2063859715,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "b+c",
+        "numerator": [
+          133693432,
+          534773712,
+          668467096,
+          2130706337,
+          1462239209,
+          1595932689,
+          1997013001
+        ],
+        "numerator_roots": [
+          16711679,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "outside_squared",
+        "guard": "x0",
+        "numerator": [
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x0-1",
+        "numerator": [
+          2130706417,
+          0,
+          32,
+          0,
+          2130706417
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x0-t^4",
+        "numerator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1997013002,
+          16,
+          267386864,
+          2130706417,
+          1997012983,
+          1997013001,
+          44,
+          133693432,
+          133693414,
+          2130706417,
+          1863319569,
+          16,
+          133693433,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          1722212723,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x0-r^4",
+        "numerator": [
+          2130706417,
+          0,
+          32,
+          0,
+          2130706417
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "outside_squared",
+        "guard": "x1",
+        "numerator": [
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x1-1",
+        "numerator": [
+          2130706417,
+          0,
+          32,
+          0,
+          2130706417
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x1-t^4",
+        "numerator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          133693433,
+          2130706417,
+          1863319569,
+          16,
+          133693414,
+          1997013001,
+          44,
+          133693432,
+          1997012983,
+          16,
+          267386864,
+          2130706417,
+          1997013002,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          1117681606,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x1-r^4",
+        "numerator": [
+          2130706417,
+          0,
+          32,
+          0,
+          2130706417
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      }
+    ],
+    "returncode": 0,
+    "scope": "exact norms and deployed-field rational roots of the 30 declared guards and two chart denominators on one generic primitive residue factor; no complete exceptional-fiber or cell closure",
+    "status": "COMPLETE",
+    "stderr": "",
+    "stdout": "GUARD_NORMS_COMPLETE factor=1 degree=4 records=32\n"
+  },
+  {
+    "coordinate_map_sha256": "001c959648176669651c87a913f2c830ad425a4f1e240041cc4edeb63d69a009",
+    "elapsed_seconds": 10.423242,
+    "factor": 2,
+    "factor_degree": 4,
+    "factorization_sha256": "00c4a7f0c90726b91b2310fa184d5eaf0ca3fab2b4d6a6ada1a4e1ae10f75cae",
+    "lift_atlas_sha256": "a7610836af981845fca5bf13db61f15beb6df5da08f22338846142495825e548",
+    "program_sha256": "b6170c83fe05f51fbf76a80ec8f034c5475019c05676049b0d475d08409c90ad",
+    "records": [
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "chart",
+        "guard": "r-leading",
+        "numerator": [
+          1,
+          0,
+          8,
+          0,
+          28,
+          0,
+          56,
+          0,
+          70,
+          0,
+          56,
+          0,
+          28,
+          0,
+          8,
+          0,
+          1
+        ],
+        "numerator_roots": [
+          16711679,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283074,
+          2030436359,
+          2030436359,
+          2097283076,
+          1
+        ],
+        "denominator_roots": [
+          2130706432
+        ],
+        "family": "chart",
+        "guard": "c-leading",
+        "numerator": [
+          1662281421,
+          191007589,
+          1258363350,
+          1460334458,
+          107415476,
+          1483810307,
+          1288928753,
+          1459355393,
+          1026660877,
+          1434910739,
+          1195763461,
+          219326760,
+          996093167,
+          1644162911,
+          1201096468,
+          1281792881,
+          1151701091,
+          1797624379
+        ],
+        "numerator_roots": [
+          16711679,
+          1860858030,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t-1",
+        "numerator": [
+          1,
+          2130706429,
+          6,
+          2130706429,
+          1
+        ],
+        "numerator_roots": [
+          1
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t+1",
+        "numerator": [
+          1,
+          4,
+          6,
+          4,
+          1
+        ],
+        "numerator_roots": [
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r-1",
+        "numerator": [
+          4,
+          8,
+          4
+        ],
+        "numerator_roots": [
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r+1",
+        "numerator": [
+          2130706429,
+          8,
+          2130706429
+        ],
+        "numerator_roots": [
+          1
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r-iota",
+        "numerator": [
+          2130706429,
+          2130706425,
+          2130706429
+        ],
+        "numerator_roots": [
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r+iota",
+        "numerator": [
+          4,
+          2130706425,
+          4
+        ],
+        "numerator_roots": [
+          1
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t-r",
+        "numerator": [
+          1,
+          66846718,
+          2130706432,
+          12,
+          2130706432,
+          2063859719,
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t+r",
+        "numerator": [
+          1,
+          2130706431,
+          2130706432,
+          4,
+          2130706432,
+          2130706431,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t-iota*r",
+        "numerator": [
+          1,
+          2,
+          2130706432,
+          2130706429,
+          2130706432,
+          2,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t+iota*r",
+        "numerator": [
+          1,
+          66846714,
+          2130706432,
+          2130706421,
+          2130706432,
+          2063859715,
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t-iota",
+        "numerator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "numerator_roots": [
+          16711679
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t+iota",
+        "numerator": [
+          1,
+          2063859717,
+          2130706427,
+          66846716,
+          1
+        ],
+        "numerator_roots": [
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "r",
+        "numerator": [
+          2130706432
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t",
+        "numerator": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "numerator_roots": [
+          0
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "b",
+        "numerator": [
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "c",
+        "numerator": [
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          2063859717,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          2130706432
+        ],
+        "family": "common",
+        "guard": "b-1",
+        "numerator": [
+          1863319569,
+          0,
+          1595932705,
+          0,
+          1863319569
+        ],
+        "numerator_roots": [
+          16711679,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283076,
+          2097283074,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "b+1",
+        "numerator": [
+          267386864,
+          1863319569,
+          1863319569,
+          267386864
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283076,
+          2097283074,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "c-1",
+        "numerator": [
+          8,
+          1863319577,
+          1863319561,
+          2130706425
+        ],
+        "numerator_roots": [
+          2113994754,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          2063859717,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          2130706432
+        ],
+        "family": "common",
+        "guard": "c+1",
+        "numerator": [
+          8,
+          267386848,
+          1595932705,
+          267386880,
+          2130706425
+        ],
+        "numerator_roots": [
+          1,
+          16711679
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846714,
+          2130706432,
+          2130706421,
+          2130706432,
+          2063859715,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "c-b",
+        "numerator": [
+          1997013001,
+          534773712,
+          1462239337,
+          2130706337,
+          668467224,
+          1595932689,
+          133693432
+        ],
+        "numerator_roots": [
+          1,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846714,
+          2130706432,
+          2130706421,
+          2130706432,
+          2063859715,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "b+c",
+        "numerator": [
+          133693432,
+          534773712,
+          668467096,
+          2130706337,
+          1462239209,
+          1595932689,
+          1997013001
+        ],
+        "numerator_roots": [
+          16711679,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "outside_squared",
+        "guard": "x0",
+        "numerator": [
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x0-1",
+        "numerator": [
+          2130706417,
+          0,
+          32,
+          0,
+          2130706417
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x0-t^4",
+        "numerator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          133693433,
+          2130706417,
+          1863319569,
+          16,
+          133693414,
+          1997013001,
+          44,
+          133693432,
+          1997012983,
+          16,
+          267386864,
+          2130706417,
+          1997013002,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          1117681606,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x0-r^4",
+        "numerator": [
+          2130706417,
+          0,
+          32,
+          0,
+          2130706417
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "outside_squared",
+        "guard": "x1",
+        "numerator": [
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x1-1",
+        "numerator": [
+          2130706417,
+          0,
+          32,
+          0,
+          2130706417
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x1-t^4",
+        "numerator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1997013002,
+          16,
+          267386864,
+          2130706417,
+          1997012983,
+          1997013001,
+          44,
+          133693432,
+          133693414,
+          2130706417,
+          1863319569,
+          16,
+          133693433,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          1722212723,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x1-r^4",
+        "numerator": [
+          2130706417,
+          0,
+          32,
+          0,
+          2130706417
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      }
+    ],
+    "returncode": 0,
+    "scope": "exact norms and deployed-field rational roots of the 30 declared guards and two chart denominators on one generic primitive residue factor; no complete exceptional-fiber or cell closure",
+    "status": "COMPLETE",
+    "stderr": "",
+    "stdout": "GUARD_NORMS_COMPLETE factor=2 degree=4 records=32\n"
+  },
+  {
+    "coordinate_map_sha256": "001c959648176669651c87a913f2c830ad425a4f1e240041cc4edeb63d69a009",
+    "elapsed_seconds": 8.305753,
+    "factor": 3,
+    "factor_degree": 4,
+    "factorization_sha256": "00c4a7f0c90726b91b2310fa184d5eaf0ca3fab2b4d6a6ada1a4e1ae10f75cae",
+    "lift_atlas_sha256": "a7610836af981845fca5bf13db61f15beb6df5da08f22338846142495825e548",
+    "program_sha256": "664dc794a2262e5a2ea2ff2e4a4de3286177fffd8d48a49ea03f39df145403b9",
+    "records": [
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "chart",
+        "guard": "r-leading",
+        "numerator": [
+          1,
+          0,
+          8,
+          0,
+          28,
+          0,
+          56,
+          0,
+          70,
+          0,
+          56,
+          0,
+          28,
+          0,
+          8,
+          0,
+          1
+        ],
+        "numerator_roots": [
+          16711679,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283074,
+          2030436359,
+          2030436359,
+          2097283076,
+          1
+        ],
+        "denominator_roots": [
+          2130706432
+        ],
+        "family": "chart",
+        "guard": "c-leading",
+        "numerator": [
+          1662281421,
+          191007589,
+          1258363350,
+          1460334458,
+          107415476,
+          1483810307,
+          1288928753,
+          1459355393,
+          1026660877,
+          1434910739,
+          1195763461,
+          219326760,
+          996093167,
+          1644162911,
+          1201096468,
+          1281792881,
+          1151701091,
+          1797624379
+        ],
+        "numerator_roots": [
+          16711679,
+          1860858030,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t-1",
+        "numerator": [
+          1,
+          2130706429,
+          6,
+          2130706429,
+          1
+        ],
+        "numerator_roots": [
+          1
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t+1",
+        "numerator": [
+          1,
+          4,
+          6,
+          4,
+          1
+        ],
+        "numerator_roots": [
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r-1",
+        "numerator": [
+          4,
+          8,
+          4
+        ],
+        "numerator_roots": [
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r+1",
+        "numerator": [
+          2130706429,
+          8,
+          2130706429
+        ],
+        "numerator_roots": [
+          1
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r-iota",
+        "numerator": [
+          2130706429,
+          2130706425,
+          2130706429
+        ],
+        "numerator_roots": [
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r+iota",
+        "numerator": [
+          4,
+          2130706425,
+          4
+        ],
+        "numerator_roots": [
+          1
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t-r",
+        "numerator": [
+          1,
+          66846718,
+          2130706432,
+          12,
+          2130706432,
+          2063859719,
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t+r",
+        "numerator": [
+          1,
+          2130706431,
+          2130706432,
+          4,
+          2130706432,
+          2130706431,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t-iota*r",
+        "numerator": [
+          1,
+          2,
+          2130706432,
+          2130706429,
+          2130706432,
+          2,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t+iota*r",
+        "numerator": [
+          1,
+          66846714,
+          2130706432,
+          2130706421,
+          2130706432,
+          2063859715,
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t-iota",
+        "numerator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "numerator_roots": [
+          16711679
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t+iota",
+        "numerator": [
+          1,
+          2063859717,
+          2130706427,
+          66846716,
+          1
+        ],
+        "numerator_roots": [
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "r",
+        "numerator": [
+          2130706432
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t",
+        "numerator": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "numerator_roots": [
+          0
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "b",
+        "numerator": [
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "c",
+        "numerator": [
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          2063859717,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          2130706432
+        ],
+        "family": "common",
+        "guard": "b-1",
+        "numerator": [
+          1863319569,
+          0,
+          1595932705,
+          0,
+          1863319569
+        ],
+        "numerator_roots": [
+          16711679,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283076,
+          2097283074,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "b+1",
+        "numerator": [
+          267386864,
+          1863319569,
+          1863319569,
+          267386864
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283076,
+          2097283074,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "c-1",
+        "numerator": [
+          8,
+          1863319577,
+          1863319561,
+          2130706425
+        ],
+        "numerator_roots": [
+          2113994754,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          2063859717,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          2130706432
+        ],
+        "family": "common",
+        "guard": "c+1",
+        "numerator": [
+          8,
+          267386848,
+          1595932705,
+          267386880,
+          2130706425
+        ],
+        "numerator_roots": [
+          1,
+          16711679
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846714,
+          2130706432,
+          2130706421,
+          2130706432,
+          2063859715,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "c-b",
+        "numerator": [
+          1997013001,
+          534773712,
+          1462239337,
+          2130706337,
+          668467224,
+          1595932689,
+          133693432
+        ],
+        "numerator_roots": [
+          1,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846714,
+          2130706432,
+          2130706421,
+          2130706432,
+          2063859715,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "b+c",
+        "numerator": [
+          133693432,
+          534773712,
+          668467096,
+          2130706337,
+          1462239209,
+          1595932689,
+          1997013001
+        ],
+        "numerator_roots": [
+          16711679,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "outside_squared",
+        "guard": "x0",
+        "numerator": [
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x0-1",
+        "numerator": [
+          2130706417,
+          0,
+          32,
+          0,
+          2130706417
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x0-t^4",
+        "numerator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          133693433,
+          2130706417,
+          1863319569,
+          16,
+          133693414,
+          1997013001,
+          44,
+          133693432,
+          1997012983,
+          16,
+          267386864,
+          2130706417,
+          1997013002,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          1117681606,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x0-r^4",
+        "numerator": [
+          2130706417,
+          0,
+          32,
+          0,
+          2130706417
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "outside_squared",
+        "guard": "x1",
+        "numerator": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "numerator_roots": [
+          0
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "outside_squared",
+        "guard": "x1-1",
+        "numerator": [
+          1,
+          0,
+          2130706429,
+          0,
+          6,
+          0,
+          2130706429,
+          0,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "outside_squared",
+        "guard": "x1-t^4",
+        "numerator": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          2130706429,
+          0,
+          6,
+          0,
+          2130706429,
+          0,
+          1
+        ],
+        "numerator_roots": [
+          0,
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          133693432,
+          2130706405,
+          1194852409,
+          70,
+          935854024,
+          2130706405,
+          1997013001,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x1-r^4",
+        "numerator": [
+          1,
+          133693432,
+          0,
+          668467160,
+          124,
+          1178075451,
+          2130705921,
+          710409555,
+          774,
+          1420296878,
+          2130705921,
+          952630982,
+          124,
+          1462239273,
+          0,
+          1997013001,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          33199819,
+          67070255,
+          2113994754,
+          2130706432
+        ]
+      }
+    ],
+    "returncode": 0,
+    "scope": "exact norms and deployed-field rational roots of the 30 declared guards and two chart denominators on one generic primitive residue factor; no complete exceptional-fiber or cell closure",
+    "status": "COMPLETE",
+    "stderr": "",
+    "stdout": "GUARD_NORMS_COMPLETE factor=3 degree=4 records=32\n"
+  },
+  {
+    "coordinate_map_sha256": "001c959648176669651c87a913f2c830ad425a4f1e240041cc4edeb63d69a009",
+    "elapsed_seconds": 13.550857,
+    "factor": 4,
+    "factor_degree": 8,
+    "factorization_sha256": "00c4a7f0c90726b91b2310fa184d5eaf0ca3fab2b4d6a6ada1a4e1ae10f75cae",
+    "lift_atlas_sha256": "a7610836af981845fca5bf13db61f15beb6df5da08f22338846142495825e548",
+    "program_sha256": "8533d3a6eacb77438cd9e797eaa340b0ac329739debacb34659b51bb3414824d",
+    "records": [
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "chart",
+        "guard": "r-leading",
+        "numerator": [
+          1,
+          0,
+          16,
+          0,
+          120,
+          0,
+          560,
+          0,
+          1820,
+          0,
+          4368,
+          0,
+          8008,
+          0,
+          11440,
+          0,
+          12870,
+          0,
+          11440,
+          0,
+          8008,
+          0,
+          4368,
+          0,
+          1820,
+          0,
+          560,
+          0,
+          120,
+          0,
+          16,
+          0,
+          1
+        ],
+        "numerator_roots": [
+          16711679,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846718,
+          267386861,
+          401080272,
+          267386802,
+          2130706349,
+          1863319507,
+          1729626113,
+          1863319566,
+          2063859719,
+          1
+        ],
+        "denominator_roots": [
+          2130706432
+        ],
+        "family": "chart",
+        "guard": "c-leading",
+        "numerator": [
+          335795599,
+          2062296030,
+          1257753621,
+          1038789471,
+          1941983868,
+          679477655,
+          1817914685,
+          883093559,
+          1486086213,
+          864359147,
+          1839218564,
+          334906131,
+          454808927,
+          572963044,
+          119137818,
+          2080201384,
+          1218833123,
+          285654359,
+          902163408,
+          452518405,
+          2080164729,
+          1641422196,
+          691399787,
+          1779308926,
+          782632472,
+          596228518,
+          110171553,
+          1189113664,
+          1487897615,
+          1630924836,
+          300760904,
+          639010795,
+          961208494,
+          63616550,
+          1580184267
+        ],
+        "numerator_roots": [
+          16711679,
+          1860858030,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t-1",
+        "numerator": [
+          1,
+          2130706425,
+          28,
+          2130706377,
+          70,
+          2130706377,
+          28,
+          2130706425,
+          1
+        ],
+        "numerator_roots": [
+          1
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t+1",
+        "numerator": [
+          1,
+          8,
+          28,
+          56,
+          70,
+          56,
+          28,
+          8,
+          1
+        ],
+        "numerator_roots": [
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r-1",
+        "numerator": [
+          16,
+          64,
+          96,
+          64,
+          16
+        ],
+        "numerator_roots": [
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r+1",
+        "numerator": [
+          16,
+          2130706369,
+          96,
+          2130706369,
+          16
+        ],
+        "numerator_roots": [
+          1
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r-iota",
+        "numerator": [
+          16,
+          64,
+          96,
+          64,
+          16
+        ],
+        "numerator_roots": [
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r+iota",
+        "numerator": [
+          16,
+          2130706369,
+          96,
+          2130706369,
+          16
+        ],
+        "numerator_roots": [
+          1
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t-r",
+        "numerator": [
+          1,
+          133693436,
+          267386850,
+          1997013021,
+          1604321231,
+          1863319545,
+          188,
+          267386840,
+          526385296,
+          133693452,
+          1863319555,
+          1997013005,
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t+r",
+        "numerator": [
+          1,
+          2130706429,
+          2,
+          12,
+          2130706416,
+          2130706425,
+          28,
+          2130706425,
+          2130706416,
+          12,
+          2,
+          2130706429,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t-iota*r",
+        "numerator": [
+          1,
+          4,
+          2,
+          2130706421,
+          2130706416,
+          8,
+          28,
+          8,
+          2130706416,
+          2130706421,
+          2,
+          4,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t+iota*r",
+        "numerator": [
+          1,
+          133693428,
+          1863319555,
+          1997012981,
+          526385296,
+          1863319593,
+          188,
+          267386888,
+          1604321231,
+          133693412,
+          267386850,
+          1997012997,
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t-iota",
+        "numerator": [
+          1,
+          133693432,
+          2130706405,
+          1194852409,
+          70,
+          935854024,
+          2130706405,
+          1997013001,
+          1
+        ],
+        "numerator_roots": [
+          16711679
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t+iota",
+        "numerator": [
+          1,
+          1997013001,
+          2130706405,
+          935854024,
+          70,
+          1194852409,
+          2130706405,
+          133693432,
+          1
+        ],
+        "numerator_roots": [
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "r",
+        "numerator": [
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t",
+        "numerator": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "numerator_roots": [
+          0
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "b",
+        "numerator": [
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "c",
+        "numerator": [
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          133693428,
+          66846700,
+          2130706407,
+          2063859701,
+          1997012997,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          2130706432
+        ],
+        "family": "common",
+        "guard": "b-1",
+        "numerator": [
+          2130706177,
+          0,
+          2130705409,
+          0,
+          2130704897,
+          0,
+          2130705409,
+          0,
+          2130706177
+        ],
+        "numerator_roots": [
+          16711679,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846714,
+          2130706432,
+          2130706421,
+          2130706432,
+          2063859715,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "b+1",
+        "numerator": [
+          2130706177,
+          512,
+          256,
+          2130705409,
+          256,
+          512,
+          2130706177
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846714,
+          2130706432,
+          2130706421,
+          2130706432,
+          2063859715,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "c-1",
+        "numerator": [
+          64,
+          2113929603,
+          2097152197,
+          2130705665,
+          33553596,
+          16777086,
+          64
+        ],
+        "numerator_roots": [
+          2113994754,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          133693428,
+          66846700,
+          2130706407,
+          2063859701,
+          1997012997,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          2130706432
+        ],
+        "family": "common",
+        "guard": "c+1",
+        "numerator": [
+          64,
+          16776702,
+          2063598601,
+          83886070,
+          2130704257,
+          2046822923,
+          67107832,
+          2113929219,
+          64
+        ],
+        "numerator_roots": [
+          1,
+          16711679
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          133693428,
+          1863319555,
+          1997012981,
+          526385296,
+          1863319593,
+          188,
+          267386888,
+          1604321231,
+          133693412,
+          267386850,
+          1997012997,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "c-b",
+        "numerator": [
+          2130706369,
+          16777470,
+          1996489361,
+          452978378,
+          1325418657,
+          704614828,
+          23296,
+          1426056789,
+          805300192,
+          1677729079,
+          134214256,
+          2113929987,
+          2130706369
+        ],
+        "numerator_roots": [
+          1,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          133693428,
+          1863319555,
+          1997012981,
+          526385296,
+          1863319593,
+          188,
+          267386888,
+          1604321231,
+          133693412,
+          267386850,
+          1997012997,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "b+c",
+        "numerator": [
+          2130706369,
+          2113928963,
+          1996489361,
+          1677728055,
+          1325418657,
+          1426091605,
+          23296,
+          704649644,
+          805300192,
+          452977354,
+          134214256,
+          16776446,
+          2130706369
+        ],
+        "numerator_roots": [
+          16711679,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          16711679,
+          2097283073,
+          33423359,
+          2097283073,
+          1
+        ],
+        "denominator_roots": [
+          1332924776
+        ],
+        "family": "outside_squared",
+        "guard": "x0",
+        "numerator": [
+          0,
+          0,
+          0,
+          0,
+          2130706432,
+          2097283077,
+          33423357,
+          2097283077,
+          16711679
+        ],
+        "numerator_roots": [
+          0,
+          461778186,
+          645288348,
+          1192073071,
+          1995696621
+        ]
+      },
+      {
+        "denominator": [
+          16711679,
+          2097283069,
+          1930166294,
+          233963512,
+          1946877959,
+          167116808,
+          167116777,
+          2030436357,
+          1
+        ],
+        "denominator_roots": [
+          16711679,
+          1332924776
+        ],
+        "family": "outside_squared",
+        "guard": "x0-1",
+        "numerator": [
+          267386864,
+          1061158913,
+          534773856,
+          1061159041,
+          1880096271,
+          8388607,
+          1027605061,
+          8388351,
+          1880096783,
+          1061158913,
+          534773600,
+          1061159041,
+          267386864
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          16711679,
+          2097283069,
+          1930166294,
+          233963512,
+          1946877959,
+          167116808,
+          167116777,
+          2030436357,
+          1
+        ],
+        "denominator_roots": [
+          16711679,
+          1332924776
+        ],
+        "family": "outside_squared",
+        "guard": "x0-t^4",
+        "numerator": [
+          0,
+          0,
+          0,
+          0,
+          2130706432,
+          2030436361,
+          167116803,
+          167116774,
+          16711682,
+          2130706399,
+          1428815945,
+          1203240886,
+          977600500,
+          793772155,
+          66846818,
+          802160674,
+          1487339381,
+          668467134,
+          1763049533,
+          267386806,
+          1796537912,
+          459538555,
+          1637613984,
+          459538511,
+          1796538352,
+          267386922,
+          1763049457,
+          668467186,
+          1487339481,
+          802160510,
+          66846614,
+          793772071,
+          977600664,
+          1203240890,
+          1428815885,
+          34,
+          16711676,
+          167116806,
+          167116777,
+          2030436357,
+          1
+        ],
+        "numerator_roots": [
+          0,
+          1,
+          749209962,
+          1388698644,
+          1788857732,
+          1920178763,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          16711679,
+          2097283061,
+          660078706,
+          242352311,
+          234158862,
+          1361706873,
+          1161169508,
+          459930273,
+          826868647,
+          1554384206,
+          468447671,
+          1670774940,
+          1512244597,
+          1387134790,
+          434503565,
+          1896742925,
+          1
+        ],
+        "denominator_roots": [
+          16711679,
+          1332924776
+        ],
+        "family": "outside_squared",
+        "guard": "x0-r^4",
+        "numerator": [
+          267386864,
+          1069547520,
+          1621099038,
+          1254090602,
+          556801421,
+          536873408,
+          511711811,
+          151004909,
+          1323238275,
+          1249914219,
+          2093040195,
+          1249852523,
+          1323277699,
+          151045869,
+          511682627,
+          536851904,
+          556810125,
+          1254097386,
+          1621097246,
+          1069547392,
+          267386864
+        ],
+        "numerator_roots": [
+          1,
+          2113994754,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          16711679,
+          2097283073,
+          33423359,
+          2097283073,
+          1
+        ],
+        "denominator_roots": [
+          1332924776
+        ],
+        "family": "outside_squared",
+        "guard": "x1",
+        "numerator": [
+          0,
+          0,
+          0,
+          0,
+          2130706432,
+          2097283077,
+          33423357,
+          2097283077,
+          16711679
+        ],
+        "numerator_roots": [
+          0,
+          461778186,
+          645288348,
+          1192073071,
+          1995696621
+        ]
+      },
+      {
+        "denominator": [
+          16711679,
+          2097283069,
+          1930166294,
+          233963512,
+          1946877959,
+          167116808,
+          167116777,
+          2030436357,
+          1
+        ],
+        "denominator_roots": [
+          16711679,
+          1332924776
+        ],
+        "family": "outside_squared",
+        "guard": "x1-1",
+        "numerator": [
+          267386864,
+          1061158913,
+          534773856,
+          1061159041,
+          1880096271,
+          8388607,
+          1027605061,
+          8388351,
+          1880096783,
+          1061158913,
+          534773600,
+          1061159041,
+          267386864
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          16711679,
+          2097283069,
+          1930166294,
+          233963512,
+          1946877959,
+          167116808,
+          167116777,
+          2030436357,
+          1
+        ],
+        "denominator_roots": [
+          16711679,
+          1332924776
+        ],
+        "family": "outside_squared",
+        "guard": "x1-t^4",
+        "numerator": [
+          0,
+          0,
+          0,
+          0,
+          2130706432,
+          2030436361,
+          167116803,
+          167116774,
+          16711682,
+          2130706399,
+          1428815945,
+          1203240886,
+          977600500,
+          793772155,
+          66846818,
+          802160674,
+          1487339381,
+          668467134,
+          1763049533,
+          267386806,
+          1796537912,
+          459538555,
+          1637613984,
+          459538511,
+          1796538352,
+          267386922,
+          1763049457,
+          668467186,
+          1487339481,
+          802160510,
+          66846614,
+          793772071,
+          977600664,
+          1203240890,
+          1428815885,
+          34,
+          16711676,
+          167116806,
+          167116777,
+          2030436357,
+          1
+        ],
+        "numerator_roots": [
+          0,
+          1,
+          749209962,
+          1388698644,
+          1788857732,
+          1920178763,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          16711679,
+          2097283061,
+          660078706,
+          242352311,
+          234158862,
+          1361706873,
+          1161169508,
+          459930273,
+          826868647,
+          1554384206,
+          468447671,
+          1670774940,
+          1512244597,
+          1387134790,
+          434503565,
+          1896742925,
+          1
+        ],
+        "denominator_roots": [
+          16711679,
+          1332924776
+        ],
+        "family": "outside_squared",
+        "guard": "x1-r^4",
+        "numerator": [
+          267386864,
+          1069547520,
+          1621099038,
+          1254090602,
+          556801421,
+          536873408,
+          511711811,
+          151004909,
+          1323238275,
+          1249914219,
+          2093040195,
+          1249852523,
+          1323277699,
+          151045869,
+          511682627,
+          536851904,
+          556810125,
+          1254097386,
+          1621097246,
+          1069547392,
+          267386864
+        ],
+        "numerator_roots": [
+          1,
+          2113994754,
+          2130706432
+        ]
+      }
+    ],
+    "returncode": 0,
+    "scope": "exact norms and deployed-field rational roots of the 30 declared guards and two chart denominators on one generic primitive residue factor; no complete exceptional-fiber or cell closure",
+    "status": "COMPLETE",
+    "stderr": "",
+    "stdout": "GUARD_NORMS_COMPLETE factor=4 degree=8 records=32\n"
+  },
+  {
+    "coordinate_map_sha256": "001c959648176669651c87a913f2c830ad425a4f1e240041cc4edeb63d69a009",
+    "elapsed_seconds": 12.513377,
+    "factor": 5,
+    "factor_degree": 4,
+    "factorization_sha256": "00c4a7f0c90726b91b2310fa184d5eaf0ca3fab2b4d6a6ada1a4e1ae10f75cae",
+    "lift_atlas_sha256": "a7610836af981845fca5bf13db61f15beb6df5da08f22338846142495825e548",
+    "program_sha256": "cf77f5c89ffd51a32a298289c85f3fa4ef863507e81c12466491c6d258975220",
+    "records": [
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "chart",
+        "guard": "r-leading",
+        "numerator": [
+          1,
+          0,
+          8,
+          0,
+          28,
+          0,
+          56,
+          0,
+          70,
+          0,
+          56,
+          0,
+          28,
+          0,
+          8,
+          0,
+          1
+        ],
+        "numerator_roots": [
+          16711679,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283074,
+          2030436359,
+          2030436359,
+          2097283076,
+          1
+        ],
+        "denominator_roots": [
+          2130706432
+        ],
+        "family": "chart",
+        "guard": "c-leading",
+        "numerator": [
+          1662281421,
+          191007589,
+          1258363350,
+          1460334458,
+          107415476,
+          1483810307,
+          1288928753,
+          1459355393,
+          1026660877,
+          1434910739,
+          1195763461,
+          219326760,
+          996093167,
+          1644162911,
+          1201096468,
+          1281792881,
+          1151701091,
+          1797624379
+        ],
+        "numerator_roots": [
+          16711679,
+          1860858030,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t-1",
+        "numerator": [
+          1,
+          2130706429,
+          6,
+          2130706429,
+          1
+        ],
+        "numerator_roots": [
+          1
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t+1",
+        "numerator": [
+          1,
+          4,
+          6,
+          4,
+          1
+        ],
+        "numerator_roots": [
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r-1",
+        "numerator": [
+          4,
+          8,
+          4
+        ],
+        "numerator_roots": [
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r+1",
+        "numerator": [
+          2130706429,
+          8,
+          2130706429
+        ],
+        "numerator_roots": [
+          1
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r-iota",
+        "numerator": [
+          2130706429,
+          2130706425,
+          2130706429
+        ],
+        "numerator_roots": [
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "r+iota",
+        "numerator": [
+          4,
+          2130706425,
+          4
+        ],
+        "numerator_roots": [
+          1
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t-r",
+        "numerator": [
+          1,
+          66846718,
+          2130706432,
+          12,
+          2130706432,
+          2063859719,
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t+r",
+        "numerator": [
+          1,
+          2130706431,
+          2130706432,
+          4,
+          2130706432,
+          2130706431,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t-iota*r",
+        "numerator": [
+          1,
+          2,
+          2130706432,
+          2130706429,
+          2130706432,
+          2,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "common",
+        "guard": "t+iota*r",
+        "numerator": [
+          1,
+          66846714,
+          2130706432,
+          2130706421,
+          2130706432,
+          2063859715,
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t-iota",
+        "numerator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "numerator_roots": [
+          16711679
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t+iota",
+        "numerator": [
+          1,
+          2063859717,
+          2130706427,
+          66846716,
+          1
+        ],
+        "numerator_roots": [
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "r",
+        "numerator": [
+          2130706432
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "t",
+        "numerator": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "numerator_roots": [
+          0
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "b",
+        "numerator": [
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "c",
+        "numerator": [
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          2063859717,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          2130706432
+        ],
+        "family": "common",
+        "guard": "b-1",
+        "numerator": [
+          1863319569,
+          0,
+          1595932705,
+          0,
+          1863319569
+        ],
+        "numerator_roots": [
+          16711679,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283076,
+          2097283074,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "b+1",
+        "numerator": [
+          267386864,
+          1863319569,
+          1863319569,
+          267386864
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283076,
+          2097283074,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "c-1",
+        "numerator": [
+          8,
+          1863319577,
+          1863319561,
+          2130706425
+        ],
+        "numerator_roots": [
+          2113994754,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          2130706432,
+          2097283075,
+          2063859717,
+          2097283075,
+          1
+        ],
+        "denominator_roots": [
+          2130706432
+        ],
+        "family": "common",
+        "guard": "c+1",
+        "numerator": [
+          8,
+          267386848,
+          1595932705,
+          267386880,
+          2130706425
+        ],
+        "numerator_roots": [
+          1,
+          16711679
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846714,
+          2130706432,
+          2130706421,
+          2130706432,
+          2063859715,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "c-b",
+        "numerator": [
+          1997013001,
+          534773712,
+          1462239337,
+          2130706337,
+          668467224,
+          1595932689,
+          133693432
+        ],
+        "numerator_roots": [
+          1,
+          2113994754
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846714,
+          2130706432,
+          2130706421,
+          2130706432,
+          2063859715,
+          1
+        ],
+        "denominator_roots": [],
+        "family": "common",
+        "guard": "b+c",
+        "numerator": [
+          133693432,
+          534773712,
+          668467096,
+          2130706337,
+          1462239209,
+          1595932689,
+          1997013001
+        ],
+        "numerator_roots": [
+          16711679,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "outside_squared",
+        "guard": "x0",
+        "numerator": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "numerator_roots": [
+          0
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "outside_squared",
+        "guard": "x0-1",
+        "numerator": [
+          1,
+          0,
+          2130706429,
+          0,
+          6,
+          0,
+          2130706429,
+          0,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "outside_squared",
+        "guard": "x0-t^4",
+        "numerator": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          2130706429,
+          0,
+          6,
+          0,
+          2130706429,
+          0,
+          1
+        ],
+        "numerator_roots": [
+          0,
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          133693432,
+          2130706405,
+          1194852409,
+          70,
+          935854024,
+          2130706405,
+          1997013001,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x0-r^4",
+        "numerator": [
+          1,
+          133693432,
+          0,
+          668467160,
+          124,
+          1178075451,
+          2130705921,
+          710409555,
+          774,
+          1420296878,
+          2130705921,
+          952630982,
+          124,
+          1462239273,
+          0,
+          1997013001,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          33199819,
+          67070255,
+          2113994754,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1
+        ],
+        "denominator_roots": [],
+        "family": "outside_squared",
+        "guard": "x1",
+        "numerator": [
+          1
+        ],
+        "numerator_roots": []
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x1-1",
+        "numerator": [
+          2130706417,
+          0,
+          32,
+          0,
+          2130706417
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x1-t^4",
+        "numerator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          133693433,
+          2130706417,
+          1863319569,
+          16,
+          133693414,
+          1997013001,
+          44,
+          133693432,
+          1997012983,
+          16,
+          267386864,
+          2130706417,
+          1997013002,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "numerator_roots": [
+          1,
+          1117681606,
+          2130706432
+        ]
+      },
+      {
+        "denominator": [
+          1,
+          66846716,
+          2130706427,
+          2063859717,
+          1
+        ],
+        "denominator_roots": [
+          16711679
+        ],
+        "family": "outside_squared",
+        "guard": "x1-r^4",
+        "numerator": [
+          2130706417,
+          0,
+          32,
+          0,
+          2130706417
+        ],
+        "numerator_roots": [
+          1,
+          2130706432
+        ]
+      }
+    ],
+    "returncode": 0,
+    "scope": "exact norms and deployed-field rational roots of the 30 declared guards and two chart denominators on one generic primitive residue factor; no complete exceptional-fiber or cell closure",
+    "status": "COMPLETE",
+    "stderr": "",
+    "stdout": "GUARD_NORMS_COMPLETE factor=5 degree=4 records=32\n"
+  }
+]
