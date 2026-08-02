@@ -1,0 +1,1325 @@
+{
+ "RowC 1/4": {
+  "n": 1024,
+  "k": 256,
+  "A_banked": 261,
+  "log2_8n3": 33,
+  "cells": [
+   {
+    "A": 257,
+    "h": 1,
+    "feasible": false,
+    "log2_qmin": 955.209399319927,
+    "log2_qmax": 953.6300613683997,
+    "log2_mu_sup": 827.209399319927,
+    "slack_bits": -794.209399319927,
+    "over_budget": false
+   },
+   {
+    "A": 258,
+    "h": 2,
+    "feasible": false,
+    "log2_qmin": 540.3288881294297,
+    "log2_qmax": 955.209399319927,
+    "log2_mu_sup": 288.45236670257685,
+    "slack_bits": -255.45236670257685,
+    "over_budget": false
+   },
+   {
+    "A": 259,
+    "h": 3,
+    "feasible": false,
+    "log2_qmin": 333.1295301981491,
+    "log2_qmax": 540.3288881294297,
+    "log2_mu_sup": 164.08658672994682,
+    "slack_bits": -131.08658672994682,
+    "over_budget": false
+   },
+   {
+    "A": 260,
+    "h": 4,
+    "feasible": false,
+    "log2_qmin": 333.1295301981491,
+    "log2_qmax": 333.1295301981491,
+    "log2_mu_sup": -167.48599534365073,
+    "slack_bits": 200.48599534365073,
+    "over_budget": false
+   },
+   {
+    "A": 261,
+    "h": 5,
+    "feasible": true,
+    "log2_qmin": 229.76186901872126,
+    "log2_qmax": 333.1295301981491,
+    "log2_mu_sup": -85.59535799262255,
+    "slack_bits": 118.59535799262255,
+    "over_budget": false
+   },
+   {
+    "A": 262,
+    "h": 6,
+    "feasible": false,
+    "log2_qmin": 229.76186901872126,
+    "log2_qmax": 229.76186901872126,
+    "log2_mu_sup": -313.81511076604676,
+    "slack_bits": 346.81511076604676,
+    "over_budget": false
+   },
+   {
+    "A": 263,
+    "h": 7,
+    "feasible": false,
+    "log2_qmin": 229.76186901872126,
+    "log2_qmax": 229.76186901872126,
+    "log2_mu_sup": -542.042251586567,
+    "slack_bits": 575.042251586567,
+    "over_budget": false
+   },
+   {
+    "A": 264,
+    "h": 8,
+    "feasible": false,
+    "log2_qmin": 229.76186901872126,
+    "log2_qmax": 229.76186901872126,
+    "log2_mu_sup": -770.2767620811431,
+    "slack_bits": 803.2767620811431,
+    "over_budget": false
+   },
+   {
+    "A": 265,
+    "h": 9,
+    "feasible": true,
+    "log2_qmin": 178.29294909941348,
+    "log2_qmax": 229.76186901872126,
+    "log2_mu_sup": -586.7672646865218,
+    "slack_bits": 619.7672646865218,
+    "over_budget": false
+   },
+   {
+    "A": 266,
+    "h": 10,
+    "feasible": false,
+    "log2_qmin": 178.29294909941348,
+    "log2_qmax": 178.292931101612,
+    "log2_mu_sup": -763.547540146021,
+    "slack_bits": 796.547540146021,
+    "over_budget": false
+   },
+   {
+    "A": 267,
+    "h": 11,
+    "feasible": false,
+    "log2_qmin": 178.29294909941348,
+    "log2_qmax": 178.292931101612,
+    "log2_mu_sup": -940.3351311389508,
+    "slack_bits": 973.3351311389508,
+    "over_budget": false
+   },
+   {
+    "A": 268,
+    "h": 12,
+    "feasible": false,
+    "log2_qmin": 178.29294909941348,
+    "log2_qmax": 178.292931101612,
+    "log2_mu_sup": -1117.1300199388363,
+    "slack_bits": 1150.1300199388363,
+    "over_budget": false
+   },
+   {
+    "A": 269,
+    "h": 13,
+    "feasible": false,
+    "log2_qmin": 178.29294909941348,
+    "log2_qmax": 178.292931101612,
+    "log2_mu_sup": -1293.9321889765854,
+    "slack_bits": 1326.9321889765854,
+    "over_budget": false
+   },
+   {
+    "A": 270,
+    "h": 14,
+    "feasible": false,
+    "log2_qmin": 178.29294909941348,
+    "log2_qmax": 178.292931101612,
+    "log2_mu_sup": -1470.7416208388372,
+    "slack_bits": 1503.7416208388372,
+    "over_budget": false
+   },
+   {
+    "A": 271,
+    "h": 15,
+    "feasible": false,
+    "log2_qmin": 178.29294909941348,
+    "log2_qmax": 178.292931101612,
+    "log2_mu_sup": -1647.558298266336,
+    "slack_bits": 1680.558298266336,
+    "over_budget": false
+   },
+   {
+    "A": 272,
+    "h": 16,
+    "feasible": false,
+    "log2_qmin": 178.29294909941348,
+    "log2_qmax": 178.292931101612,
+    "log2_mu_sup": -1824.3822041523279,
+    "slack_bits": 1857.3822041523279,
+    "over_budget": false
+   },
+   {
+    "A": 273,
+    "h": 17,
+    "feasible": true,
+    "log2_qmin": 162.0023539372437,
+    "log2_qmax": 178.292931101612,
+    "log2_mu_sup": -1740.563798946267,
+    "slack_bits": 1773.563798946267,
+    "over_budget": false
+   },
+   {
+    "A": 274,
+    "h": 18,
+    "feasible": false,
+    "log2_qmin": 162.00235393715985,
+    "log2_qmax": 152.7414357141514,
+    "log2_mu_sup": -1901.1115158675318,
+    "slack_bits": 1934.1115158675318,
+    "over_budget": false
+   },
+   {
+    "A": 275,
+    "h": 19,
+    "feasible": false,
+    "log2_qmin": 162.002353937076,
+    "log2_qmax": 152.7414357141514,
+    "log2_mu_sup": -2061.666410826211,
+    "slack_bits": 2094.666410826211,
+    "over_budget": false
+   },
+   {
+    "A": 276,
+    "h": 20,
+    "feasible": false,
+    "log2_qmin": 162.0023539369922,
+    "log2_qmax": 152.7414357141514,
+    "log2_mu_sup": -2222.228467310014,
+    "slack_bits": 2255.228467310014,
+    "over_budget": false
+   },
+   {
+    "A": 277,
+    "h": 21,
+    "feasible": false,
+    "log2_qmin": 162.00235393690835,
+    "log2_qmax": 152.7414357141514,
+    "log2_mu_sup": -2382.797668951491,
+    "slack_bits": 2415.797668951491,
+    "over_budget": false
+   },
+   {
+    "A": 278,
+    "h": 22,
+    "feasible": false,
+    "log2_qmin": 162.0023539368245,
+    "log2_qmax": 152.7414357141514,
+    "log2_mu_sup": -2543.373999526573,
+    "slack_bits": 2576.373999526573,
+    "over_budget": false
+   },
+   {
+    "A": 279,
+    "h": 23,
+    "feasible": false,
+    "log2_qmin": 162.00235393674066,
+    "log2_qmax": 152.7414357141514,
+    "log2_mu_sup": -2703.9574429531267,
+    "slack_bits": 2736.9574429531267,
+    "over_budget": false
+   },
+   {
+    "A": 280,
+    "h": 24,
+    "feasible": false,
+    "log2_qmin": 162.00235393665682,
+    "log2_qmax": 152.7414357141514,
+    "log2_mu_sup": -2864.547983289535,
+    "slack_bits": 2897.547983289535,
+    "over_budget": false
+   },
+   {
+    "A": 281,
+    "h": 25,
+    "feasible": false,
+    "log2_qmin": 162.002353936573,
+    "log2_qmax": 152.7414357141514,
+    "log2_mu_sup": -3025.145604733292,
+    "slack_bits": 3058.145604733292,
+    "over_budget": false
+   },
+   {
+    "A": 282,
+    "h": 26,
+    "feasible": false,
+    "log2_qmin": 162.00235393648916,
+    "log2_qmax": 152.7414357141514,
+    "log2_mu_sup": -3185.7502916196295,
+    "slack_bits": 3218.7502916196295,
+    "over_budget": false
+   },
+   {
+    "A": 283,
+    "h": 27,
+    "feasible": false,
+    "log2_qmin": 162.0023539364053,
+    "log2_qmax": 152.7414357141514,
+    "log2_mu_sup": -3346.3620284201497,
+    "slack_bits": 3379.3620284201497,
+    "over_budget": false
+   },
+   {
+    "A": 284,
+    "h": 28,
+    "feasible": false,
+    "log2_qmin": 162.00235393632147,
+    "log2_qmax": 152.7414357141514,
+    "log2_mu_sup": -3506.9807997414905,
+    "slack_bits": 3539.9807997414905,
+    "over_budget": false
+   },
+   {
+    "A": 285,
+    "h": 29,
+    "feasible": false,
+    "log2_qmin": 162.00235393623763,
+    "log2_qmax": 152.7414357141514,
+    "log2_mu_sup": -3667.606590324,
+    "slack_bits": 3700.606590324,
+    "over_budget": false
+   },
+   {
+    "A": 286,
+    "h": 30,
+    "feasible": false,
+    "log2_qmin": 162.00235393615378,
+    "log2_qmax": 152.7414357141514,
+    "log2_mu_sup": -3828.2393850404387,
+    "slack_bits": 3861.2393850404387,
+    "over_budget": false
+   },
+   {
+    "A": 287,
+    "h": 31,
+    "feasible": false,
+    "log2_qmin": 162.00235393606997,
+    "log2_qmax": 152.7414357141514,
+    "log2_mu_sup": -3988.8791688946926,
+    "slack_bits": 4021.8791688946926,
+    "over_budget": false
+   },
+   {
+    "A": 288,
+    "h": 32,
+    "feasible": false,
+    "log2_qmin": 162.00235393598612,
+    "log2_qmax": 152.7414357141514,
+    "log2_mu_sup": -4149.525927020511,
+    "slack_bits": 4182.525927020511,
+    "over_budget": false
+   },
+   {
+    "A": 289,
+    "h": 33,
+    "feasible": false,
+    "log2_qmin": 162.0000004339874,
+    "log2_qmax": 152.7414357141514,
+    "log2_mu_sup": -4310.104332618982,
+    "slack_bits": 4343.104332618982,
+    "over_budget": false
+   },
+   {
+    "A": 290,
+    "h": 34,
+    "feasible": false,
+    "log2_qmin": 162.00000043390344,
+    "log2_qmax": 140.09275714091984,
+    "log2_mu_sup": -4470.762641700489,
+    "slack_bits": 4503.762641700489,
+    "over_budget": false
+   },
+   {
+    "A": 291,
+    "h": 35,
+    "feasible": false,
+    "log2_qmin": 162.00000043381945,
+    "log2_qmax": 140.09275714091984,
+    "log2_mu_sup": -4631.427881221603,
+    "slack_bits": 4664.427881221603,
+    "over_budget": false
+   },
+   {
+    "A": 292,
+    "h": 36,
+    "feasible": false,
+    "log2_qmin": 162.00000043373547,
+    "log2_qmax": 140.09275714091984,
+    "log2_mu_sup": -4792.100036823229,
+    "slack_bits": 4825.100036823229,
+    "over_budget": false
+   },
+   {
+    "A": 293,
+    "h": 37,
+    "feasible": false,
+    "log2_qmin": 162.0000004336515,
+    "log2_qmax": 140.09275714091984,
+    "log2_mu_sup": -4952.779094270079,
+    "slack_bits": 4985.779094270079,
+    "over_budget": false
+   },
+   {
+    "A": 294,
+    "h": 38,
+    "feasible": false,
+    "log2_qmin": 162.00000043356752,
+    "log2_qmax": 140.09275714091984,
+    "log2_mu_sup": -5113.465039449508,
+    "slack_bits": 5146.465039449508,
+    "over_budget": false
+   },
+   {
+    "A": 295,
+    "h": 39,
+    "feasible": false,
+    "log2_qmin": 162.00000043348356,
+    "log2_qmax": 140.09275714091984,
+    "log2_mu_sup": -5274.157858370366,
+    "slack_bits": 5307.157858370366,
+    "over_budget": false
+   },
+   {
+    "A": 296,
+    "h": 40,
+    "feasible": false,
+    "log2_qmin": 162.00000043339958,
+    "log2_qmax": 140.09275714091984,
+    "log2_mu_sup": -5434.857537161876,
+    "slack_bits": 5467.857537161876,
+    "over_budget": false
+   }
+  ],
+  "feasible_A": [
+   261,
+   265,
+   273
+  ],
+  "any_over_budget": false,
+  "min_slack_bits": 118.59535799262255
+ },
+ "RowC 1/8": {
+  "n": 1024,
+  "k": 128,
+  "A_banked": 133,
+  "log2_8n3": 33,
+  "cells": [
+   {
+    "A": 129,
+    "h": 1,
+    "feasible": false,
+    "log2_qmin": 682.6757359521816,
+    "log2_qmax": 679.8796082855473,
+    "log2_mu_sup": 554.6757359521816,
+    "slack_bits": -521.6757359521816,
+    "over_budget": false
+   },
+   {
+    "A": 130,
+    "h": 2,
+    "feasible": false,
+    "log2_qmin": 404.8586444627841,
+    "log2_qmax": 682.6757359521816,
+    "log2_mu_sup": 152.60046754852064,
+    "slack_bits": -119.60046754852064,
+    "over_budget": false
+   },
+   {
+    "A": 131,
+    "h": 3,
+    "feasible": false,
+    "log2_qmin": 266.18220875046444,
+    "log2_qmax": 404.8586444627841,
+    "log2_mu_sup": 27.86540253002177,
+    "slack_bits": 5.134597469978232,
+    "over_budget": false
+   },
+   {
+    "A": 132,
+    "h": 4,
+    "feasible": false,
+    "log2_qmin": 266.18220875046444,
+    "log2_qmax": 266.18220875046444,
+    "log2_mu_sup": -235.55868397467992,
+    "slack_bits": 268.5586839746799,
+    "over_budget": false
+   },
+   {
+    "A": 133,
+    "h": 5,
+    "feasible": true,
+    "log2_qmin": 197.0590680470409,
+    "log2_qmax": 266.18220875046444,
+    "log2_mu_sup": -222.5027124470311,
+    "slack_bits": 255.5027124470311,
+    "over_budget": false
+   },
+   {
+    "A": 134,
+    "h": 6,
+    "feasible": false,
+    "log2_qmin": 197.0590680470409,
+    "log2_qmax": 197.059068046936,
+    "log2_mu_sup": -416.8285880630078,
+    "slack_bits": 449.8285880630078,
+    "over_budget": false
+   },
+   {
+    "A": 135,
+    "h": 7,
+    "feasible": false,
+    "log2_qmin": 197.0590680470409,
+    "log2_qmax": 197.059068046936,
+    "log2_mu_sup": -611.1668101812458,
+    "slack_bits": 644.1668101812458,
+    "over_budget": false
+   },
+   {
+    "A": 136,
+    "h": 8,
+    "feasible": false,
+    "log2_qmin": 197.0590680470409,
+    "log2_qmax": 197.059068046936,
+    "log2_mu_sup": -805.5173014607072,
+    "slack_bits": 838.5173014607072,
+    "over_budget": false
+   },
+   {
+    "A": 137,
+    "h": 9,
+    "feasible": true,
+    "log2_qmin": 163.38022231774002,
+    "log2_qmax": 197.059068046936,
+    "log2_mu_sup": -730.4492198899516,
+    "slack_bits": 763.4492198899516,
+    "over_budget": false
+   },
+   {
+    "A": 138,
+    "h": 10,
+    "feasible": false,
+    "log2_qmin": 163.38022231770776,
+    "log2_qmax": 162.68084012794037,
+    "log2_mu_sup": -891.1451763698784,
+    "slack_bits": 924.1451763698784,
+    "over_budget": false
+   },
+   {
+    "A": 139,
+    "h": 11,
+    "feasible": false,
+    "log2_qmin": 163.3802223176755,
+    "log2_qmax": 162.68084012794037,
+    "log2_mu_sup": -1051.853176871432,
+    "slack_bits": 1084.853176871432,
+    "over_budget": false
+   },
+   {
+    "A": 140,
+    "h": 12,
+    "feasible": false,
+    "log2_qmin": 163.38022231764324,
+    "log2_qmax": 162.68084012794037,
+    "log2_mu_sup": -1212.5731485607273,
+    "slack_bits": 1245.5731485607273,
+    "over_budget": false
+   },
+   {
+    "A": 141,
+    "h": 13,
+    "feasible": false,
+    "log2_qmin": 163.380222317611,
+    "log2_qmax": 162.68084012794037,
+    "log2_mu_sup": -1373.3050196709908,
+    "slack_bits": 1406.3050196709908,
+    "over_budget": false
+   },
+   {
+    "A": 142,
+    "h": 14,
+    "feasible": false,
+    "log2_qmin": 163.38022231757873,
+    "log2_qmax": 162.68084012794037,
+    "log2_mu_sup": -1534.0487194800387,
+    "slack_bits": 1567.0487194800387,
+    "over_budget": false
+   },
+   {
+    "A": 143,
+    "h": 15,
+    "feasible": false,
+    "log2_qmin": 163.38022231754647,
+    "log2_qmax": 162.68084012794037,
+    "log2_mu_sup": -1694.8041782883865,
+    "slack_bits": 1727.8041782883865,
+    "over_budget": false
+   },
+   {
+    "A": 144,
+    "h": 16,
+    "feasible": false,
+    "log2_qmin": 163.3802223175142,
+    "log2_qmax": 162.68084012794037,
+    "log2_mu_sup": -1855.5713273979711,
+    "slack_bits": 1888.5713273979711,
+    "over_budget": false
+   },
+   {
+    "A": 145,
+    "h": 17,
+    "feasible": true,
+    "log2_qmin": 162.0000170344115,
+    "log2_qmax": 162.68084012794037,
+    "log2_mu_sup": -1994.2668145623322,
+    "slack_bits": 2027.2668145623322,
+    "over_budget": false
+   },
+   {
+    "A": 146,
+    "h": 18,
+    "feasible": false,
+    "log2_qmin": 162.00001703432753,
+    "log2_qmax": 145.61953222757205,
+    "log2_mu_sup": -2153.676936799053,
+    "slack_bits": 2186.676936799053,
+    "over_budget": false
+   },
+   {
+    "A": 147,
+    "h": 19,
+    "feasible": false,
+    "log2_qmin": 162.00001703424357,
+    "log2_qmax": 145.61953222757205,
+    "log2_mu_sup": -2313.09854904717,
+    "slack_bits": 2346.09854904717,
+    "over_budget": false
+   },
+   {
+    "A": 148,
+    "h": 20,
+    "feasible": false,
+    "log2_qmin": 162.00001703415958,
+    "log2_qmax": 145.61953222757205,
+    "log2_mu_sup": -2472.531586413002,
+    "slack_bits": 2505.531586413002,
+    "over_budget": false
+   },
+   {
+    "A": 149,
+    "h": 21,
+    "feasible": false,
+    "log2_qmin": 162.0000170340756,
+    "log2_qmax": 145.61953222757205,
+    "log2_mu_sup": -2631.975984906343,
+    "slack_bits": 2664.975984906343,
+    "over_budget": false
+   },
+   {
+    "A": 150,
+    "h": 22,
+    "feasible": false,
+    "log2_qmin": 162.00001703399164,
+    "log2_qmax": 145.61953222757205,
+    "log2_mu_sup": -2791.4316814224317,
+    "slack_bits": 2824.4316814224317,
+    "over_budget": false
+   },
+   {
+    "A": 151,
+    "h": 23,
+    "feasible": false,
+    "log2_qmin": 162.00001703390765,
+    "log2_qmax": 145.61953222757205,
+    "log2_mu_sup": -2950.8986137244,
+    "slack_bits": 2983.8986137244,
+    "over_budget": false
+   },
+   {
+    "A": 152,
+    "h": 24,
+    "feasible": false,
+    "log2_qmin": 162.0000170338237,
+    "log2_qmax": 145.61953222757205,
+    "log2_mu_sup": -3110.3767204261903,
+    "slack_bits": 3143.3767204261903,
+    "over_budget": false
+   },
+   {
+    "A": 153,
+    "h": 25,
+    "feasible": false,
+    "log2_qmin": 162.0000170337397,
+    "log2_qmax": 145.61953222757205,
+    "log2_mu_sup": -3269.8659409759143,
+    "slack_bits": 3302.8659409759143,
+    "over_budget": false
+   },
+   {
+    "A": 154,
+    "h": 26,
+    "feasible": false,
+    "log2_qmin": 162.00001703365572,
+    "log2_qmax": 145.61953222757205,
+    "log2_mu_sup": -3429.366215639651,
+    "slack_bits": 3462.366215639651,
+    "over_budget": false
+   },
+   {
+    "A": 155,
+    "h": 27,
+    "feasible": false,
+    "log2_qmin": 162.00001703357177,
+    "log2_qmax": 145.61953222757205,
+    "log2_mu_sup": -3588.8774854856615,
+    "slack_bits": 3621.8774854856615,
+    "over_budget": false
+   },
+   {
+    "A": 156,
+    "h": 28,
+    "feasible": false,
+    "log2_qmin": 162.00001703348778,
+    "log2_qmax": 145.61953222757205,
+    "log2_mu_sup": -3748.399692369014,
+    "slack_bits": 3781.399692369014,
+    "over_budget": false
+   },
+   {
+    "A": 157,
+    "h": 29,
+    "feasible": false,
+    "log2_qmin": 162.00001703340382,
+    "log2_qmax": 145.61953222757205,
+    "log2_mu_sup": -3907.9327789165973,
+    "slack_bits": 3940.9327789165973,
+    "over_budget": false
+   },
+   {
+    "A": 158,
+    "h": 30,
+    "feasible": false,
+    "log2_qmin": 162.00001703331984,
+    "log2_qmax": 145.61953222757205,
+    "log2_mu_sup": -4067.4766885125214,
+    "slack_bits": 4100.476688512521,
+    "over_budget": false
+   },
+   {
+    "A": 159,
+    "h": 31,
+    "feasible": false,
+    "log2_qmin": 162.00001703323585,
+    "log2_qmax": 145.61953222757205,
+    "log2_mu_sup": -4227.0313652838795,
+    "slack_bits": 4260.0313652838795,
+    "over_budget": false
+   },
+   {
+    "A": 160,
+    "h": 32,
+    "feasible": false,
+    "log2_qmin": 162.0000170331519,
+    "log2_qmax": 145.61953222757205,
+    "log2_mu_sup": -4386.596754086875,
+    "slack_bits": 4419.596754086875,
+    "over_budget": false
+   },
+   {
+    "A": 161,
+    "h": 33,
+    "feasible": false,
+    "log2_qmin": 162.00000012243686,
+    "log2_qmax": 145.61953222757205,
+    "log2_mu_sup": -4546.172259353098,
+    "slack_bits": 4579.172259353098,
+    "over_budget": false
+   },
+   {
+    "A": 162,
+    "h": 34,
+    "feasible": false,
+    "log2_qmin": 162.00000012235287,
+    "log2_qmax": 137.12928301694495,
+    "log2_mu_sup": -4705.758892726469,
+    "slack_bits": 4738.758892726469,
+    "over_budget": false
+   },
+   {
+    "A": 163,
+    "h": 35,
+    "feasible": false,
+    "log2_qmin": 162.00000012226891,
+    "log2_qmax": 137.12928301694495,
+    "log2_mu_sup": -4865.356076941109,
+    "slack_bits": 4898.356076941109,
+    "over_budget": false
+   },
+   {
+    "A": 164,
+    "h": 36,
+    "feasible": false,
+    "log2_qmin": 162.00000012218493,
+    "log2_qmax": 137.12928301694495,
+    "log2_mu_sup": -5024.96375963766,
+    "slack_bits": 5057.96375963766,
+    "over_budget": false
+   },
+   {
+    "A": 165,
+    "h": 37,
+    "feasible": false,
+    "log2_qmin": 162.00000012210097,
+    "log2_qmax": 137.12928301694495,
+    "log2_mu_sup": -5184.581889121478,
+    "slack_bits": 5217.581889121478,
+    "over_budget": false
+   },
+   {
+    "A": 166,
+    "h": 38,
+    "feasible": false,
+    "log2_qmin": 162.00000012201698,
+    "log2_qmax": 137.12928301694495,
+    "log2_mu_sup": -5344.21041435068,
+    "slack_bits": 5377.21041435068,
+    "over_budget": false
+   },
+   {
+    "A": 167,
+    "h": 39,
+    "feasible": false,
+    "log2_qmin": 162.000000121933,
+    "log2_qmax": 137.12928301694495,
+    "log2_mu_sup": -5503.84928492448,
+    "slack_bits": 5536.84928492448,
+    "over_budget": false
+   },
+   {
+    "A": 168,
+    "h": 40,
+    "feasible": false,
+    "log2_qmin": 162.00000012184904,
+    "log2_qmax": 137.12928301694495,
+    "log2_mu_sup": -5663.498451071805,
+    "slack_bits": 5696.498451071805,
+    "over_budget": false
+   }
+  ],
+  "feasible_A": [
+   133,
+   137,
+   145
+  ],
+  "any_over_budget": false,
+  "min_slack_bits": 255.5027124470311
+ },
+ "RowC 1/16": {
+  "n": 1024,
+  "k": 64,
+  "A_banked": 67,
+  "log2_8n3": 33,
+  "cells": [
+   {
+    "A": 65,
+    "h": 1,
+    "feasible": false,
+    "log2_qmin": 472.98847131485957,
+    "log2_qmax": 469.1039485322795,
+    "log2_mu_sup": 344.98847131485957,
+    "slack_bits": -311.98847131485957,
+    "over_budget": false
+   },
+   {
+    "A": 66,
+    "h": 2,
+    "feasible": false,
+    "log2_qmin": 300.7720446713131,
+    "log2_qmax": 472.98847131485957,
+    "log2_mu_sup": 48.07741952920616,
+    "slack_bits": -15.07741952920616,
+    "over_budget": false
+   },
+   {
+    "A": 67,
+    "h": 3,
+    "feasible": true,
+    "log2_qmin": 214.87894707796852,
+    "log2_qmax": 300.7720446713131,
+    "log2_mu_sup": -77.0706373001394,
+    "slack_bits": 110.0706373001394,
+    "over_budget": false
+   },
+   {
+    "A": 68,
+    "h": 4,
+    "feasible": false,
+    "log2_qmin": 214.87894707796852,
+    "log2_qmax": 214.87894707796835,
+    "log2_mu_sup": -288.1346721048722,
+    "slack_bits": 321.1346721048722,
+    "over_budget": false
+   },
+   {
+    "A": 69,
+    "h": 5,
+    "feasible": true,
+    "log2_qmin": 172.11711805202464,
+    "log2_qmax": 214.87894707796835,
+    "log2_mu_sup": -328.17396072786266,
+    "slack_bits": 361.17396072786266,
+    "over_budget": false
+   },
+   {
+    "A": 70,
+    "h": 6,
+    "feasible": false,
+    "log2_qmin": 172.11711805202458,
+    "log2_qmax": 172.1158178612767,
+    "log2_mu_sup": -496.5210048739088,
+    "slack_bits": 529.5210048739089,
+    "over_budget": false
+   },
+   {
+    "A": 71,
+    "h": 7,
+    "feasible": false,
+    "log2_qmin": 172.1171180520245,
+    "log2_qmax": 172.1158178612767,
+    "log2_mu_sup": -664.8900245894321,
+    "slack_bits": 697.8900245894321,
+    "over_budget": false
+   },
+   {
+    "A": 72,
+    "h": 8,
+    "feasible": false,
+    "log2_qmin": 172.1171180520244,
+    "log2_qmax": 172.1158178612767,
+    "log2_mu_sup": -833.2807352389884,
+    "slack_bits": 866.2807352389884,
+    "over_budget": false
+   },
+   {
+    "A": 73,
+    "h": 9,
+    "feasible": true,
+    "log2_qmin": 162.00064064074212,
+    "log2_qmax": 172.1158178612767,
+    "log2_mu_sup": -920.7610407963265,
+    "slack_bits": 953.7610407963265,
+    "over_budget": false
+   },
+   {
+    "A": 74,
+    "h": 10,
+    "feasible": false,
+    "log2_qmin": 162.0006406406582,
+    "log2_qmax": 150.86221357144967,
+    "log2_mu_sup": -1079.0778332710815,
+    "slack_bits": 1112.0778332710815,
+    "over_budget": false
+   },
+   {
+    "A": 75,
+    "h": 11,
+    "feasible": false,
+    "log2_qmin": 162.00064064057423,
+    "log2_qmax": 150.86221357144967,
+    "log2_mu_sup": -1237.415508898178,
+    "slack_bits": 1270.415508898178,
+    "over_budget": false
+   },
+   {
+    "A": 76,
+    "h": 12,
+    "feasible": false,
+    "log2_qmin": 162.0006406404903,
+    "log2_qmax": 150.86221357144967,
+    "log2_mu_sup": -1395.7738127742514,
+    "slack_bits": 1428.7738127742514,
+    "over_budget": false
+   },
+   {
+    "A": 77,
+    "h": 13,
+    "feasible": false,
+    "log2_qmin": 162.00064064040637,
+    "log2_qmax": 150.86221357144967,
+    "log2_mu_sup": -1554.152496705531,
+    "slack_bits": 1587.152496705531,
+    "over_budget": false
+   },
+   {
+    "A": 78,
+    "h": 14,
+    "feasible": false,
+    "log2_qmin": 162.00064064032242,
+    "log2_qmax": 150.86221357144967,
+    "log2_mu_sup": -1712.5513189482401,
+    "slack_bits": 1745.5513189482401,
+    "over_budget": false
+   },
+   {
+    "A": 79,
+    "h": 15,
+    "feasible": false,
+    "log2_qmin": 162.0006406402385,
+    "log2_qmax": 150.86221357144967,
+    "log2_mu_sup": -1870.970043962225,
+    "slack_bits": 1903.970043962225,
+    "over_budget": false
+   },
+   {
+    "A": 80,
+    "h": 16,
+    "feasible": false,
+    "log2_qmin": 162.00064064015456,
+    "log2_qmax": 150.86221357144967,
+    "log2_mu_sup": -2029.4084421769833,
+    "slack_bits": 2062.408442176983,
+    "over_budget": false
+   },
+   {
+    "A": 81,
+    "h": 17,
+    "feasible": false,
+    "log2_qmin": 162.00000050704642,
+    "log2_qmax": 150.86221357144967,
+    "log2_mu_sup": -2187.8560476409307,
+    "slack_bits": 2220.8560476409307,
+    "over_budget": false
+   },
+   {
+    "A": 82,
+    "h": 18,
+    "feasible": false,
+    "log2_qmin": 162.00000050696244,
+    "log2_qmax": 140.27612440527423,
+    "log2_mu_sup": -2346.3324861904925,
+    "slack_bits": 2379.3324861904925,
+    "over_budget": false
+   },
+   {
+    "A": 83,
+    "h": 19,
+    "feasible": false,
+    "log2_qmin": 162.00000050687848,
+    "log2_qmax": 140.27612440527423,
+    "log2_mu_sup": -2504.8279428776773,
+    "slack_bits": 2537.8279428776773,
+    "over_budget": false
+   },
+   {
+    "A": 84,
+    "h": 20,
+    "feasible": false,
+    "log2_qmin": 162.0000005067945,
+    "log2_qmax": 140.27612440527423,
+    "log2_mu_sup": -2663.3422098930105,
+    "slack_bits": 2696.3422098930105,
+    "over_budget": false
+   },
+   {
+    "A": 85,
+    "h": 21,
+    "feasible": false,
+    "log2_qmin": 162.0000005067105,
+    "log2_qmax": 140.27612440527423,
+    "log2_mu_sup": -2821.8750843876983,
+    "slack_bits": 2854.8750843876983,
+    "over_budget": false
+   },
+   {
+    "A": 86,
+    "h": 22,
+    "feasible": false,
+    "log2_qmin": 162.00000050662655,
+    "log2_qmax": 140.27612440527423,
+    "log2_mu_sup": -2980.4263682996934,
+    "slack_bits": 3013.4263682996934,
+    "over_budget": false
+   },
+   {
+    "A": 87,
+    "h": 23,
+    "feasible": false,
+    "log2_qmin": 162.00000050654256,
+    "log2_qmax": 140.27612440527423,
+    "log2_mu_sup": -3138.995868187806,
+    "slack_bits": 3171.995868187806,
+    "over_budget": false
+   },
+   {
+    "A": 88,
+    "h": 24,
+    "feasible": false,
+    "log2_qmin": 162.00000050645858,
+    "log2_qmax": 140.27612440527423,
+    "log2_mu_sup": -3297.5833950733954,
+    "slack_bits": 3330.5833950733954,
+    "over_budget": false
+   },
+   {
+    "A": 89,
+    "h": 25,
+    "feasible": false,
+    "log2_qmin": 162.00000050637462,
+    "log2_qmax": 140.27612440527423,
+    "log2_mu_sup": -3456.1887642892216,
+    "slack_bits": 3489.1887642892216,
+    "over_budget": false
+   },
+   {
+    "A": 90,
+    "h": 26,
+    "feasible": false,
+    "log2_qmin": 162.00000050629063,
+    "log2_qmax": 140.27612440527423,
+    "log2_mu_sup": -3614.811795335051,
+    "slack_bits": 3647.811795335051,
+    "over_budget": false
+   },
+   {
+    "A": 91,
+    "h": 27,
+    "feasible": false,
+    "log2_qmin": 162.00000050620665,
+    "log2_qmax": 140.27612440527423,
+    "log2_mu_sup": -3773.4523117396475,
+    "slack_bits": 3806.4523117396475,
+    "over_budget": false
+   },
+   {
+    "A": 92,
+    "h": 28,
+    "feasible": false,
+    "log2_qmin": 162.0000005061227,
+    "log2_qmax": 140.27612440527423,
+    "log2_mu_sup": -3932.110140928792,
+    "slack_bits": 3965.110140928792,
+    "over_budget": false
+   },
+   {
+    "A": 93,
+    "h": 29,
+    "feasible": false,
+    "log2_qmin": 162.0000005060387,
+    "log2_qmax": 140.27612440527423,
+    "log2_mu_sup": -4090.7851140990174,
+    "slack_bits": 4123.785114099017,
+    "over_budget": false
+   },
+   {
+    "A": 94,
+    "h": 30,
+    "feasible": false,
+    "log2_qmin": 162.00000050595474,
+    "log2_qmax": 140.27612440527423,
+    "log2_mu_sup": -4249.47706609674,
+    "slack_bits": 4282.47706609674,
+    "over_budget": false
+   },
+   {
+    "A": 95,
+    "h": 31,
+    "feasible": false,
+    "log2_qmin": 162.00000050587076,
+    "log2_qmax": 140.27612440527423,
+    "log2_mu_sup": -4408.185835302511,
+    "slack_bits": 4441.185835302511,
+    "over_budget": false
+   },
+   {
+    "A": 96,
+    "h": 32,
+    "feasible": false,
+    "log2_qmin": 162.00000050578677,
+    "log2_qmax": 140.27612440527423,
+    "log2_mu_sup": -4566.911263520116,
+    "slack_bits": 4599.911263520116,
+    "over_budget": false
+   },
+   {
+    "A": 97,
+    "h": 33,
+    "feasible": false,
+    "log2_qmin": 162.0000000891824,
+    "log2_qmax": 140.27612440527423,
+    "log2_mu_sup": -4725.653182541623,
+    "slack_bits": 4758.653182541623,
+    "over_budget": false
+   },
+   {
+    "A": 98,
+    "h": 34,
+    "feasible": false,
+    "log2_qmin": 162.00000008909842,
+    "log2_qmax": 134.90689059560853,
+    "log2_mu_sup": -4884.411466943524,
+    "slack_bits": 4917.411466943524,
+    "over_budget": false
+   },
+   {
+    "A": 99,
+    "h": 35,
+    "feasible": false,
+    "log2_qmin": 162.00000008901446,
+    "log2_qmax": 134.90689059560853,
+    "log2_mu_sup": -5043.1859552665865,
+    "slack_bits": 5076.1859552665865,
+    "over_budget": false
+   },
+   {
+    "A": 100,
+    "h": 36,
+    "feasible": false,
+    "log2_qmin": 162.00000008893048,
+    "log2_qmax": 134.90689059560853,
+    "log2_mu_sup": -5201.976501987033,
+    "slack_bits": 5234.976501987033,
+    "over_budget": false
+   },
+   {
+    "A": 101,
+    "h": 37,
+    "feasible": false,
+    "log2_qmin": 162.0000000888465,
+    "log2_qmax": 134.90689059560853,
+    "log2_mu_sup": -5360.782964514276,
+    "slack_bits": 5393.782964514276,
+    "over_budget": false
+   },
+   {
+    "A": 102,
+    "h": 38,
+    "feasible": false,
+    "log2_qmin": 162.00000008876253,
+    "log2_qmax": 134.90689059560853,
+    "log2_mu_sup": -5519.605203104341,
+    "slack_bits": 5552.605203104341,
+    "over_budget": false
+   },
+   {
+    "A": 103,
+    "h": 39,
+    "feasible": false,
+    "log2_qmin": 162.00000008867855,
+    "log2_qmax": 134.90689059560853,
+    "log2_mu_sup": -5678.443080776667,
+    "slack_bits": 5711.443080776667,
+    "over_budget": false
+   },
+   {
+    "A": 104,
+    "h": 40,
+    "feasible": false,
+    "log2_qmin": 162.0000000885946,
+    "log2_qmax": 134.90689059560853,
+    "log2_mu_sup": -5837.29646323412,
+    "slack_bits": 5870.29646323412,
+    "over_budget": false
+   }
+  ],
+  "feasible_A": [
+   67,
+   69,
+   73
+  ],
+  "any_over_budget": false,
+  "min_slack_bits": 110.0706373001394
+ },
+ "prize 1/4": {
+  "n": 2199023255552,
+  "k": 549755813888,
+  "A_banked": 558345748481,
+  "log2_8n3": 126,
+  "cells": [
+   {
+    "A": 558345748481,
+    "h": 8589934593,
+    "feasible": true,
+    "log2_qmin": 255.00000003645357,
+    "log2_qmax": 333.1295301981491,
+    "log2_mu_sup": -392927780660.6362,
+    "slack_bits": 392927780786.6362,
+    "over_budget": false
+   }
+  ],
+  "A_at_Bstar_min": 558345748481,
+  "A_at_Bstar_max": 558345748481,
+  "unique_candidate": true,
+  "feasible_A": [
+   558345748481
+  ],
+  "any_over_budget": false,
+  "min_slack_bits": 392927780786.6362
+ },
+ "prize 1/8": {
+  "n": 2199023255552,
+  "k": 274877906944,
+  "A_banked": 283467841537,
+  "log2_8n3": 126,
+  "cells": [
+   {
+    "A": 283467841537,
+    "h": 8589934593,
+    "feasible": true,
+    "log2_qmin": 255.0,
+    "log2_qmax": 266.18220875046444,
+    "log2_mu_sup": -971226826922.1366,
+    "slack_bits": 971226827048.1366,
+    "over_budget": false
+   }
+  ],
+  "A_at_Bstar_min": 283467841537,
+  "A_at_Bstar_max": 283467841537,
+  "unique_candidate": true,
+  "feasible_A": [
+   283467841537
+  ],
+  "any_over_budget": false,
+  "min_slack_bits": 971226827048.1366
+ },
+ "prize 1/16": {
+  "n": 2199023255552,
+  "k": 137438953472,
+  "A_banked": 141733920769,
+  "log2_8n3": 126,
+  "cells": [
+   {
+    "A": 141733920769,
+    "h": 4294967297,
+    "feasible": true,
+    "log2_qmin": 255.0000000000012,
+    "log2_qmax": 300.7720446713131,
+    "log2_mu_sup": -336830276373.5821,
+    "slack_bits": 336830276499.5821,
+    "over_budget": false
+   }
+  ],
+  "A_at_Bstar_min": 141733920769,
+  "A_at_Bstar_max": 141733920769,
+  "unique_candidate": true,
+  "feasible_A": [
+   141733920769
+  ],
+  "any_over_budget": false,
+  "min_slack_bits": 336830276499.5821
+ }
+}
