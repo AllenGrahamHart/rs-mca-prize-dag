@@ -26922,6 +26922,30 @@
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_principal_common_charts_modal.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_cells1_2_principal_common_charts_result.json"
    ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-14 quadratic-curve structure",
+   "status": "PROVED",
+   "closure": "24-chart compact compatibility reduction and four-sign dense kernel compiler",
+   "statement": "On the product-rank-five branch of positive deployed 433-1b role cell 14, three compact compatibility determinants define the common route. All 24 source-sign/cofactor charts give the same one-dimensional quadratic-cover curve per sign: t is globally rational in r, c is rational away from a retained zero-dimensional basis-four exception, and an exact interpolation kernel annihilates all ten rows on the dense chart. No outside exclusion or complete cell-14 closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_kernel_structure_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_kernel_structure_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_curve_kernel_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_curve_kernel_result.json"
+   ]
   }
  ],
  "edges": [
@@ -51017,6 +51041,41 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells1_2_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
