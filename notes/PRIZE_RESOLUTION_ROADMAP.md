@@ -15147,3 +15147,36 @@ next route step:          triangularize [3,6], then attempt the same
 nonclaim:                 no deletion of the six remaining representatives,
                           positive route, K3, Prize rows, LIST, or MCA
 ```
+
+### Work-cycle theorem: cell-3 genus-three plane-kernel reduction
+
+```text
+cell/orbit/field:         cell 3 representing [3,6], F_2130706433
+best lex basis:           7 elements in order (c,r,b,t)
+plane eliminant:          palindromic bidegree (4,4), 25 terms
+quotient discriminant:   48(t+510119941)(t+899209895)
+                          (t+16711679)^2(t-16711679)^4
+conic base point:         (t,Y)=(1,66846712)
+normalization:            y^2=R_8(s), R_8 square-free degree 8
+geometry:                 genus 3 on the explicit open chart
+second-cover factors:     five distinct linear factors plus one irreducible
+                          cubic; denominator factors have multiplicity 2
+kernel plane model:       all eight coefficients have b-degree <=3,
+                          t-degree <=22, and B1(W)=b10(1-W)
+scale ledger:             denominator degree 48; first common scale degree 12;
+                          16 plane pseudo-division powers; second common scale
+                          degree 84; every zero locus remains exceptional
+target-free compiler:     four exact DE+/DE-/BE equations, pseudo-step counts
+                          3,9,7,7
+bounded basis verdict:    TIMEOUT at 250s; neither unit nor nonunit
+scout hash:               5448d98da4033a2a589a201223eb687b83bfabb3de24699d9b1c96c36401a340
+geometry hashes:          d36e63493bcca128c18293f298a614df51fd8449e1cd06b6a1e3cd0da3151550
+                          64f655da9e5c286ed2849d2ae3d12056acbed7b12e07d98be15221db0b248c42
+kernel hashes:            afa3829dec518a9000d65cfcca5ec7632980986086f53ce5de6f2eaf12f06b48
+                          4e36308e9e5d062f9c60280057b961c8181d0edb2406831cfaae7be76c7a2a0a
+target-free hash:         9816c4eaa0ed2761c752e4fef276c6282f93ed4550d7d40e66d77d73768feb4d
+next route step:          finite exceptional charts plus a sequential z2,z1
+                          resultant chain; no longer rerun global bases
+remaining frontier:      six representatives / 40 raw rows
+nonclaim:                 no [3,6] exclusion, route, K3, LIST, MCA, or Prize
+```

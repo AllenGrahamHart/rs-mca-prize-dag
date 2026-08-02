@@ -21593,6 +21593,38 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction",
+   "title": "KoalaBear positive 433-1a cell-3 genus-three plane-kernel reduction",
+   "status": "PROVED",
+   "closure": "exact genus-three birational model and compact plane-quartic common kernel",
+   "statement": "On an explicit guard and scale chart of the deployed cell-3 common curve, the 25-term palindromic bidegree-(4,4) eliminant is birational to a genus-three hyperelliptic curve whose degree-eight branch polynomial factors as five distinct linear factors and one irreducible cubic. Exact FLINT denominator clearing and pseudo-division give all eight A2,A0,B1 coefficients with b-degree at most 3 and t-degree at most 22, with B1(W)=b10(1-W). Every exceptional scale chart remains live, and the compiled target-free DE+/DE-/BE basis timed out without a unit or nonunit conclusion. Thus cells 3 and 6 remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_common_triangle_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_common_triangle_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_palindromic_profile_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_palindromic_profile_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_conic_cover_profile_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_conic_cover_profile_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_kernel_reduction_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_kernel_reduction_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_plane_kernel_flint_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_plane_kernel_flint_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_plane_target_free_family_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell3_plane_target_free_family_result.json"
+   ]
+  },
+  {
    "id": "dli_c1_256_block_basis_factorization",
    "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
    "status": "PROVED",
@@ -42710,6 +42742,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

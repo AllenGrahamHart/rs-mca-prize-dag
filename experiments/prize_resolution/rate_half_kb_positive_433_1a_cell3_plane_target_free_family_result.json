@@ -1,0 +1,74 @@
+{
+  "result": {
+    "cell": 3,
+    "epsilon": [
+      -1,
+      -1
+    ],
+    "equation_sha256": [
+      "9fe8ee03abf24104c2a0d1f13d4133edfd5dbadd7d1b1a4971c50f39c81ec691",
+      "c6497b7ba1a72890424946af67cb96ec4a329fda83c996e31cdad602b0798002",
+      "fea41384f2509cfd276c9e43ecdfc7aab7f1c663796c9a1c0d430558b3c8582c",
+      "9e17d5f926a5787ae54a7cb8e4ca12f41d59591c0689427c359004d054d494b5"
+    ],
+    "equation_shapes": [
+      {
+        "degrees": [
+          4,
+          4,
+          0,
+          3,
+          56
+        ],
+        "pseudo_steps": 3,
+        "terms": 2004,
+        "total_degree": 65
+      },
+      {
+        "degrees": [
+          8,
+          8,
+          0,
+          3,
+          124
+        ],
+        "pseudo_steps": 9,
+        "terms": 12324,
+        "total_degree": 139
+      },
+      {
+        "degrees": [
+          4,
+          4,
+          4,
+          3,
+          94
+        ],
+        "pseudo_steps": 7,
+        "terms": 23532,
+        "total_degree": 106
+      },
+      {
+        "degrees": [
+          4,
+          4,
+          4,
+          3,
+          94
+        ],
+        "pseudo_steps": 7,
+        "terms": 30276,
+        "total_degree": 106
+      }
+    ],
+    "field": 2130706433,
+    "partial_stderr": "",
+    "partial_stdout": "BEGIN_SHAPES\n65\n2004\n139\n12324\n106\n23532\n106\n30276\nEND_SHAPES\n",
+    "program_sha256": "d9f233bdcc2908163a0e7c806e0b6bb8b1a8e1c1444ce535478fb92f787ef30f",
+    "shapes_emitted": true,
+    "source_plane_sha256": "4e36308e9e5d062f9c60280057b961c8181d0edb2406831cfaae7be76c7a2a0a",
+    "status": "TIMEOUT"
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell3-plane-target-free-family-v1",
+  "scope": "Four target-free guard-saturated DE+/DE-/BE identities on the compact cell-3 plane chart; unit proves this chart empty, while nonunit or timeout makes no orbit, route, K3, or Prize claim."
+}

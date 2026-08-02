@@ -3660,3 +3660,29 @@ representatives covering 40 raw rows remain:
 
 Triangularize `[3,6]` next and reuse the necessary signed-pair cut if its
 components admit a compact normalization.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction`
+now gives that normalization without closing the orbit.  The best lex basis
+has seven elements and a palindromic bidegree-`(4,4)` eliminant.  Quotienting
+by `b -> b^-1`, parametrizing the resulting conic, and restoring `b` gives
+
+```text
+y^2=(s+4)(s+930460291)(s+1042373100)
+    (s-1064153723)(s-997808612)
+    (s^3-66846708s^2+1061158993s+1044382147),
+```
+
+up to a nonzero field scalar and a square denominator.  The degree-eight
+right side is square-free, so the open common curve has genus three.  FLINT
+denominator clearing plus 16 pseudo-division steps reduces all eight kernel
+coefficients to `b`-degree at most 3 and `t`-degree at most 22; exactly
+`B_1(W)=b10(1-W)`.
+
+Four target-free `DE+/DE-/BE` equations are sealed in this compact model.
+Their global guard-saturated basis reached the 250-second cap, as did broader
+presentations; no unit or nonunit conclusion follows.  Do not extend those
+runs.  Next split the attack into (i) the finite zero loci of the explicit
+denominator/common/leading scales and (ii) a sequential `z2,z1` resultant
+chain on the genus-three chart.  `[3,6]` remains open, and the overall common
+frontier remains six representatives / 40 raw rows.

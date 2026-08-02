@@ -1,0 +1,53 @@
+{
+  "result": {
+    "discriminant": "48*t**8 - 8388479*t**7 - 64*t**6 - 8388479*t**5 - 224*t**4 + 8388479*t**3 - 64*t**2 + 8388479*t + 48",
+    "discriminant_factorization": {
+      "content": 48,
+      "factors": [
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "polynomial": "t + 510119941"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "polynomial": "t + 899209895"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "polynomial": "t + 16711679"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 4,
+          "polynomial": "t - 16711679"
+        }
+      ]
+    },
+    "discriminant_shape": {
+      "degree": 8,
+      "terms": 9
+    },
+    "eliminant_shape": {
+      "degree_b": 4,
+      "degree_t": 4,
+      "terms": 25,
+      "total_degree": 8
+    },
+    "field": 2130706433,
+    "palindromic": true,
+    "quotient": "t**4*x**2 - 66846720*t**4*x + 133693420*t**4 - 33423358*t**3*x**2 + 133693416*t**3*x + 401080328*t**3 + 66846716*t**2*x**2 - 401080296*t**2*x - 526385249*t**2 - 33423358*t*x**2 + 133693448*t*x + 401080264*t - x**2 - 66846712*x + 133693444",
+    "quotient_shape": {
+      "terms": 15,
+      "total_degree": 6
+    },
+    "reconstruction_equal": true,
+    "source_eliminant_sha256": "90a49dcb6fad128f01de13ead279c3ba8f0bfb687b3c5752e26baccd857e6198",
+    "source_program_sha256": "71c95e3bd1410b818a25dfd19ad9ade67a08b579bdc396959cc245e8aa5d2425",
+    "status": "COMPLETE"
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell3-palindromic-profile-v1",
+  "scope": "Exact factor profile of the cell-3 palindromic common-curve eliminant; no outside, route, K3, or Prize claim."
+}
