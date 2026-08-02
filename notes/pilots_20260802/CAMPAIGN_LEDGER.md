@@ -272,3 +272,44 @@ BRIEF_3 lines, target_mappings.json:145).
   compression orders; n=44/48 re-scoped to Pi (this commit).
 - k-packing mint withdrawn — already banked (subtraction check, this
   commit).
+
+---
+
+## ROUND 4 CLOSE-OUT (4/4 banked, dbc7cdb7) — supersessions and the new top adjudication
+
+- **C1 + C2'' MERGED at junction 0** (dli_norm_gate): censuses
+  byte-identical; splitting = exact identity + bounded correction
+  (S1-S3); official support-forcing theorem (|S_0| >= 4 at
+  q > 3^128); WCL fence q > w^128 (4^128 = 2^256 exactly);
+  DECISIVE NEGATIVE: no open WCL slot via max-norm — count bounds
+  only. **Most mint-ready package of the campaign** (LN1/LN2/LN4/LN7
+  + the support-forcing theorem). New consumer for the C1 doubling
+  conjecture at w=4 (the (1,4) slot two-liner).
+- **F2**: the ANTIPODAL LAW (deployed windows parity-homogeneous by
+  construction; window selection impossible; frequency-space case
+  split required; theorem draft AMENDED IN RELAY). NEW OBLIGATION:
+  fixed sector mu_{2^24} absorbing the parity-pure class.
+- **Band reduction SUPERSEDED (V1)**: the beyond-Johnson list
+  statement is FALSE (first moment + the certified MC construction);
+  the occupancy LEMMA stands; new splits must keep the two-live-slope
+  structure. KEY LEMMA + pencil mass identity proved (mint queue).
+- **NEW TOP ADJUDICATION (coordinator, then Pro): is depth d = h-1
+  band or cascade tier?** MC produces 2^130-2^197 pairwise
+  non-interacting cascade-depth pairs on a gate-admissible received
+  pair. If band: the occupancy lemma is REFUTED and the band repair
+  needs re-posing. If cascade tier: the (unpaid, per the payment
+  audit) tier is astronomically populated and BOTH repair routes'
+  extension terms need re-pricing. Intersects the payment audit, the
+  ledger, and task #27. Also queued: "strip-free" needs a written
+  definition; the below-cascade reading must be pinned.
+- **P-B**: (H4) hunt — design space exhausted (affine lines of
+  AG(h,q)); richest admissible line always split-fibre, Gamma_lo = 0;
+  DESIGN CEILING proved (counterexamples >= 1-2^-23 forced); block
+  dichotomy derives SF-SELFCOLLISION; SELECTOR CATCH (Gamma_lo = 0 is
+  identity + support-keyed selector; K1 re-couples to PP4.0);
+  gauge-invariance scope correction for all P-B gates ((alpha,beta)
+  mod RS_K). (H4) refined to (H4') with the equidistribution gap
+  named; the FRAGILE row's slack is not consumed by the constant.
+- Mint queue additions: norm-gate package; MC family + ceiling;
+  KEY LEMMA + pencil mass identity; L1 + design ceiling + block
+  dichotomy; antipodal lemma + parity-defect certificate.
