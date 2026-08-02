@@ -1,12 +1,13 @@
 # Frontier
 
-Do not recompute these 23 fibers.  The remaining 46 values split into:
+Do not recompute these 23 fibers.  The PROVED dynamic-map-pole child closes
+the next 38.  Only eight basis/primitive hazards remain:
 
-1. 38 coordinate-map poles where the specialized squared-pair algebra should
-   be regular but needs a dynamically chosen primitive linear form;
-2. eight basis/primitive hazards requiring a raw fixed-fiber guarded
-   squared-pair basis, including `t=1332924776`.
+```text
+16711680, 16903576, 100334506, 1332924776,
+1474082935, 1665662739, 1729517783, 1783507114.
+```
 
-Build one fixed-fiber localized-algebra solver that chooses a primitive form
-dynamically and falls back to the raw `P,g3,h,u*d0*d1-1` basis.  Preserve one
-row per router value with `EXCLUDED`, `SURVIVOR`, or `INCOMPLETE` semantics.
+Build the raw fixed-fiber guarded `P,g3,h,u*d0*d1-1` algebra before choosing
+a primitive form.  Preserve one row per router value with `EXCLUDED`,
+`SURVIVOR`, or `INCOMPLETE` semantics.

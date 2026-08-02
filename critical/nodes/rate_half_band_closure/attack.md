@@ -3515,7 +3515,10 @@ Outside this set the generic sign-row exclusion specializes.  The PROVED
 `rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion`
 closes 23 router values by a complete 433-row ledger: 383 rows have gcd one
 or `e^2-1`, 16 lie on non-base primitive factors, and 34 have only `e=0` or
-`e^2 in {1,b^2,c^2}`.  The remaining program is dynamic primitive
-coordinates for 38 map-pole fibers and raw fixed-fiber squared-pair bases for
-eight vertical or basis-pole fibers, including `t=1332924776`.  Do not scan
-the full field or rerun the generic function-field basis.
+`e^2 in {1,b^2,c^2}`.  The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion`
+closes the next 38 values: exact `p_u(L)` cancellation removes every map
+pole, two alternate primitive forms cover all fibers, and 804 complete rows
+have gcd `1` (220) or `e^2-1` (584).  Only eight vertical/basis-pole fibers
+remain, including `t=1332924776`; they need raw fixed-fiber squared-pair
+bases.  Do not scan the full field or rerun the generic function-field basis.
