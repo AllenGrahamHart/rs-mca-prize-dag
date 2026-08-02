@@ -1,0 +1,41 @@
+{
+ "pilot": "f2_fixed_sector",
+ "date": "2026-08-02",
+ "prereg": "PREREG.json (frozen before any measurement)",
+ "digest": "F2_FIXED_SECTOR_ABSORPTION_ALL_PASS (verify.py, V1-V11)",
+ "rows": [
+  {"id": "P1", "verdict": "REFUTED AS STATED, CORRECTED AND CONFIRMED",
+   "predicted": "K1 sector factors are POSITIVE RATIONAL INTEGERS, rate 1.000",
+   "measured": "they are rational integers only in degenerate small instances (p=17: n_0 = p-1; p=641 linear); at p=97/193 the rate is 0.005-0.011. The CORRECT exact statement is: the K1 sector factor equals prod over antipodal pairs of (2 + zeta^s + zeta^{-s}) EXACTLY, hence is a TOTALLY POSITIVE real cyclotomic integer. Measured rate of that identity: 1.000 on both sectors at p = 17, 97, 193, 641 (C1p; V3: 470 K1 frequencies, 0 violations).",
+   "note": "self-caught over-strong pre-registration; the corrected form is stronger structurally (an exact normal form, not just a sign)"},
+  {"id": "P2", "verdict": "CONFIRMED",
+   "predicted": "eps_c = +1 on 100% of K1; both signs on G with each >= 15%",
+   "measured": "K1: positive 1.000, negative 0.000 at p = 17/97/193/641 (linear class and multi-condition). G: positive 0.350/0.575/0.525/0.625, negative 0.650/0.425/0.475/0.375. Total census term exactly real in 100% of all classes (consistent with the banked sign-quantisation satellite)."},
+  {"id": "P3", "verdict": "CONFIRMED (the headline)",
+   "predicted": "at every parity-pure frequency the FIXED sector's own antipodal window has all Delta even, flat = 0 exactly, argmax k = p",
+   "measured": "rate 1.000 at p = 17, 97, 193, 641 for both K1 and K2 (C1: 4000-frequency linear sweeps + multi-condition; V2: 240 frequencies, 0 violations); fixed-sector flat max = 2.22e-16; argmax k = p in 98.3-100% of K1 frequencies. Contrast: G frequencies give fixed-sector flat 0.63-0.72 and all-even rate 0.000-0.050."},
+  {"id": "P4", "verdict": "CONFIRMED EXACTLY",
+   "predicted": "K2 factors are exact squares of the reduced-frequency factor one rung down, on both sectors; moving Delta == 0",
+   "measured": "75/75 in C2 (p = 17, 97, 193) and 36/36 in V5; moving Delta identically 0 in 100% of K2 frequencies, and the FIXED sector's Delta identically 0 as well (C1: rate_fixed_all_delta_zero = 1.000 at K2)."},
+  {"id": "P5", "verdict": "CONFIRMED EXACTLY",
+   "predicted": "the {K1 and trivial fixed-sector shadow} class is non-empty and there the fixed factor is exactly 2^{n_0}",
+   "measured": "non-empty at every instance; for the linear character it is exactly the trace-zero line {c = b w}, density (p-1)/(p^2-1) = 1/(p+1) (16/288 exhaustive at p=17; 35, 21, 9 hits in 4000-frequency samples at p = 97, 193, 641). Fixed factor = 2^{n_0} exactly in every case (V6, 28 frequencies). Its b-resolved contraction is 0.000 bits at every b, in BOTH currencies (C4)."},
+  {"id": "P6", "verdict": "PARTIALLY CONFIRMED (per-element exact; product-level heuristic)",
+   "predicted": "class mean of exp(S_c) per antipodal pair -> 2.000 on K1 and 1.6211 on G",
+   "measured": "the PER-ELEMENT constants are exact: (1/p) sum_s (2 + 2 cos(2 pi s/p)) = 2.00000 exactly (parity-pure pairs), (1/p) sum_s |2 cos(pi s/p)| = 1.27505/1.27330/1.27325 -> 4/pi = 1.27324 (generic), square 1.6212. The PRODUCT-level class mean is heavy-tailed: exhaustive linear-class (all K1) means per pair 1.7434 (p=17), 1.9791 (p=97), 2.2162 (p=193, 20k sample); sampled G means 2.33/1.91/1.70 are not reliable at these sizes. The 2^{n/2} vs (4/pi)^n statement is therefore banked as a FIRST-MOMENT HEURISTIC with exact per-element input, not as a measurement."},
+  {"id": "P7", "verdict": "CONFIRMED",
+   "predicted": "every b-resolved coefficient exactly real at K1; not at G",
+   "measured": "K1 rows: fixed/moving/total all-coefficients-real = 1/1/1 at every case (C4); G rows: 0/0/0. K2 rows: 0/0/0 (K2 factors are squares, real only at z = 1) -- outside P7's scope, recorded."},
+  {"id": "P8", "verdict": "CONFIRMED EXACTLY",
+   "predicted": "j* = 8 and total-deficit / fixed-capacity in [700, 800]",
+   "measured": "j* = 8 exactly; ratio = 762.03 (1/43 budget) and 10922.50 (1/3 budget). Exact integers, no model."},
+  {"id": "P9", "verdict": "CONFIRMED",
+   "predicted": "the fixed sector is not structurally better than an equal-size moving window at K1",
+   "measured": "worst-central-band bits at rung-1 scale (equal sector sizes): fixed/moving = 10.830/10.830 (p=17 linear), 19.892/18.476 (p=97 linear), 7.235/11.473 and 17.625/13.842 (multi) -- ratio in [0.63, 1.27], never a structural advantage; 0.000/18.476 on the trivial-shadow sub-class. In the lane's carry currency both sectors saturate at exactly log2 p."}
+ ],
+ "falsifiers": {
+  "F1": "FIRES. The parity-pure class is absorbed by nothing banked: the fixed sector is in the identical degenerate class (P3), supplies no sign (P1/P2), enters a rung only through the base offset (C7), is 2^-16 of the group (P8), and on a non-empty sub-class the fixed-sector theorem's own non-vacuity hypothesis fails outright (P5).",
+  "F2": "FIRES. Exact per-rung arithmetic: total 1/43 deficit 1.278482e10 bits vs fixed-sector capacity 2^24 = 1.6777e7 bits (762.03x); a SINGLE rung's deficit exceeds the entire fixed-sector capacity from rung 8 on.",
+  "F3": "DOES NOT FIRE."
+ }
+}

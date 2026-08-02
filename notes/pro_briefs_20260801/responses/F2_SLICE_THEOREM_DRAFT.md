@@ -148,3 +148,26 @@ Ask (c) is ANSWERED, and the answer restates the theorem
    linear character (= the degenerate class) on the FULL group; their
    structural laws are frequency-general and stand, but window
    statistics must henceforth state their frequency class.
+
+---
+
+## SECOND AMENDMENT 2026-08-02 (fixed-sector pilot; supersedes point 4
+of the first amendment)
+
+The frequency-space case split's SECOND BRANCH IS FALSE: the fixed
+sector cannot absorb the parity-pure class (Theorem B of
+`notes/pilots_20260802/f2_fixed_sector/`, V1-V11 replayed). Reason:
+-1 in mu_{2^24}, so the fixed sector is itself antipodally closed and
+is IN class K1 at those frequencies — sign-dead (its factor is
+totally positive, exactly), capped at the same log2 p ceiling
+(saturation to 1.6e-5 bits), unreachable via the base channel (all-2p
+offset sweep <= ceiling), vacuous on the trace-zero sub-class (Lemma
+A's k != 0 fails), and dual-blind (odd frequencies annihilate the
+symmetric bucket). Budget: the whole fixed sector is 762x short of
+the K1 deficit at 1/43. K2 is a pullback (ramification 2^d), not an
+independent class. REPLACEMENT OBLIGATION — the lane's corrected
+heart: (O1) E_{c in K1}[exp S_c] <= 2^{n/2+o(n)} (mass, not
+cancellation), (O2) the same at fixed b, (O3) PP5.0 carries the
+pullback factor. The theorem's scope remains the generic-frequency
+class; the parity-pure class is priced by moments over a linear
+subspace of frequency space.

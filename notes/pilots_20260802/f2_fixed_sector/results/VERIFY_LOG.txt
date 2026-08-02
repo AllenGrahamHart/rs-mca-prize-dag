@@ -1,0 +1,36 @@
+V1 antipodal closure of the fixed sector (official row, exact)
+  [PASS] v_2(p-1) = 24 (e=24)
+  [PASS] fixed sector n_0 = 2^24 (n_0=16777216)
+  [PASS] -1 in mu_{2^24} <= F_p (h^8388608 = 2130706432)
+  [PASS] n_0 >= 3 sqrt(p) (analytic regime, log #75) (2^24 vs 3sqrt(p)=138477)
+  [PASS] every rung group mu_{2^{24+j}} is antipodally closed 
+V2 parity-pure => fixed-sector window all-Delta-even, flat = 0
+  [PASS] all parity-pure frequencies: BOTH sectors all-Delta-even (240 frequencies, 0 violations)
+  [PASS] fixed-sector flat = 0 exactly at every parity-pure frequency (max flat = 2.22e-16)
+V3 exact antipodal normal form of the fixed-sector factor at K1
+  [PASS] F(c) = prod_{fixed pairs} (2 + zeta^s + zeta^{-s}) exactly (470 K1 frequencies, 0 violations)
+V4 K1 total census term: exactly real and strictly positive
+  [PASS] K1 total term exactly real (256 freqs)
+  [PASS] K1 total term strictly positive (256 freqs)
+V5 K2 pullback identity (square of the reduced term), both sectors
+  [PASS] K2 sector factors are exact squares of the reduced-frequency term one rung down, and Delta == 0 (36 freqs)
+V6 trivial-shadow sub-class: fixed factor = 2^{n_0}, 0 bits
+  [PASS] on {Tr(c) = 0} the fixed-sector character is identically 0 and the fixed factor is exactly 2^{n_0} (28 freqs)
+V7 fixed-sector 1/p ceiling ladder
+  [PASS] fixed-sector best central-band bits <= log2 p + 1e-4 at every row [(257, 128, 8.005625, 8.005625), (641, 64, 9.324181, 9.324181), (769, 128, 9.58684, 9.58684), (7681, 64, 12.907079, 12.907078), (12289, 64, 13.585095, 13.58508)]
+  [PASS] saturation to 3 decimals at m >= 64 (max |bits - log2 p| = 1.56e-05)
+V8 base sweep on a K1 rung window: no offset breaks the ceiling
+  [PASS] max over ALL 2p base offsets of the worst-central-band bits <= log2 p [(17, 8, 3.8074, 4.0875), (97, 16, 6.3379, 6.5999), (193, 32, 7.5909, 7.5925)]
+V9 official budget arithmetic (exact integers)
+  [PASS] sector sizes partition the group (sum = 1099511627776)
+  [PASS] first rung whose 1/43 deficit exceeds the whole fixed sector: j = 8 (j* = 8)
+  [PASS] total 1/43 deficit / fixed capacity in [700, 800] (ratio = 762.03)
+  [PASS] fixed sector is 2^-16 of the group 
+V10 cross-check against the banked deployed-windows pilot
+  [PASS] deployed rung-1 window reproduced (unordered value-pair multiset identical to the banked pilot's) (3/3)
+  [PASS] all-Delta-even law agrees with the banked pilot (3/3)
+  [PASS] DP_V reimplementation identical to the banked pilot's on identical input 
+V11 K1 frequencies annihilate the symmetric (pair-union) sector
+  [PASS] odd-support frequency vanishes on every pair-union block (60 (block, frequency) pairs, 0 violations)
+
+F2_FIXED_SECTOR_ABSORPTION_ALL_PASS

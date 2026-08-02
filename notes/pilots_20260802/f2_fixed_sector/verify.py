@@ -308,8 +308,54 @@ def V10():
           "input", dv.DP_V(p, D, base) == C.DP_V(p, D, base))
 
 
+def V11():
+    """K1 frequencies are the TRIVIAL characters of the symmetric sector.
+
+    A pair-union (symmetric) block S has p_l(S) = sum_{pairs}(y^l + (-y)^l) = 0
+    for every ODD l, so an odd-support frequency annihilates the whole symmetric
+    sub-census: the 'Frobenius-fixed and symmetric sectors' bucket of
+    f2_conditional_close (dag.json:9634) contains no cancellation for K1.
+    """
+    print("V11 K1 frequencies annihilate the symmetric (pair-union) sector")
+    import numpy as np
+    rng = np.random.default_rng(23)
+    bad = tot = 0
+    for e in (4, 5, 6):
+        p = C.official_shaped_prime(e)
+        F = C.Fp2(p)
+        fixed, mreps, freps = C.sectors(F, e)
+        n_ord = 1 << (e + 1)
+        odd_ls = [l for l in range(1, n_ord, 2)]
+        for _ in range(20):
+            ls = rng.choice(odd_ls, size=3, replace=False)
+            co = {int(l): (int(rng.integers(p)), int(rng.integers(p)))
+                  for l in ls}
+            # a random pair-union block from the moving sector + fixed pairs
+            k = int(rng.integers(1, len(mreps) + 1))
+            sel = rng.choice(len(mreps), size=k, replace=False)
+            blk = []
+            for i in sel:
+                blk += [mreps[i], F.neg(mreps[i])]
+            kf = int(rng.integers(0, len(freps) + 1))
+            selg = rng.choice(len(freps), size=kf, replace=False)
+            for i in selg:
+                blk += [freps[i], F.neg(freps[i])]
+            tot += 1
+            val = 0
+            for x in blk:
+                acc = (0, 0)
+                for l, cl in co.items():
+                    t = F.mul(cl, F.pow(x, l % n_ord))
+                    acc = ((acc[0] + t[0]) % p, (acc[1] + t[1]) % p)
+                val = (val + F.trace(acc)) % p
+            if val != 0:
+                bad += 1
+    check("odd-support frequency vanishes on every pair-union block",
+          bad == 0, f"({tot} (block, frequency) pairs, {bad} violations)")
+
+
 def main():
-    for f in (V1, V2, V3, V4, V5, V6, V7, V8, V9, V10):
+    for f in (V1, V2, V3, V4, V5, V6, V7, V8, V9, V10, V11):
         f()
     print()
     if FAILS:
