@@ -97,11 +97,12 @@ standing item #260's queued jobs re-screen under this rule.)
 
 ### Current operational cap (2026-07-22)
 
-The maintainer has now imposed a concurrent spend cap because only about `$3`
-of Modal credit remains. A self-authorized launch must satisfy every rule
-above **and** have a conservative total cost below `$1`. Thus the operative
-test is the intersection of the five-minute and sub-`$1` ceilings, not either
-ceiling alone. Runs costing tens or hundreds of dollars are out of scope.
+The monthly Modal allowance has refreshed to about `$30`. A self-authorized
+launch must still satisfy every rule above **and** have a conservative total
+cost below `$1` unless the maintainer explicitly approves more. Thus the
+operative test remains the intersection of the five-minute and sub-`$1`
+ceilings, not either ceiling alone. Runs costing tens or hundreds of dollars
+are out of scope.
 Valuable runs exceeding either ceiling, or lacking a reliable cost estimate,
 must be recorded here and copied into the corresponding upstream PR as
 requests for contributors with available compute.
@@ -11291,3 +11292,338 @@ Do not increase the generic standard-basis cap, run both families in
 parallel, expand the four target-free cuts ambiently, or fan out over the
 267 matching representatives.  The desired output is a component ledger,
 not a longer timeout.
+
+### 2026-08-01 finite-algebra refinement
+
+The common compiler now accepts an explicit `(prime,iota)` and recomputes
+all modular normalization at that prime.  This repairs an invalid discovery
+shortcut that reduced polynomials already made monic modulo the deployed
+prime.  The only banked small-field results below use a genuine square root
+of `-1` in the probe field.
+
+At `p=65521`, `iota=24297`, the saturated generic cell-5 fiber over
+`F_p(t)` has dimension zero, basis size six, vector dimension four, and one
+minimal component (`ap-9rQUOuge1TNoa1ufF3u9MR`).  FGLM gives a three-element
+lex basis whose primitive `b` polynomial is a reciprocal quartic.  Direct
+coefficient reversal and the lifted substitution `u=b+b^{-1}` independently
+verify its descent to a quadratic (`ap-KCxeFPbJGAalI2aKR9nxem`).
+
+After eliminating `r,c`, the signed `DE+`,`DE-` pair is one reciprocal
+quartic plus four cuts of `(degree,terms)=(9,24),(8,32),(9,24),(8,32)`.
+A four-minute `slimgb` pilot still timed out
+(`ap-F0mNsrUqkAmnr1ADk2V20i`).  Do not rerun that basis with a larger cap.
+Ordinary deployed block elimination subsequently produced the exact 19-term
+reciprocal quartic and trace quadratic
+(`ap-D4GXYWOVhTEiEfabnKO9Ht`), now banked as a PROVED child.  A second exact
+run (`ap-3hVthJkmosYTdYTQ4Kc91v`) gives one guard-unit `r` formula and four
+`c` charts; their simultaneous exceptional cubic has no deployed-field
+root.  Compute the signed cuts separately on those four rational charts.
+Only then append the residual `BE` cubic and sum row.
+
+Singular 4.3.1 cannot lift this function-field workflow directly to the
+deployed characteristic: its backend rejects characteristics above `2^29`
+after the 12-element affine basis is computed
+(`ap-JwQiY0HAW4TvF01vmVmtPj`).  A contributed implementation must use a
+different exact finite-algebra backend or symbolic identities checked in the
+deployed polynomial ring.  The `F_65521` result is evidence and a shape
+compiler, not a deployed-field theorem.
+
+### 2026-08-01 deployed colored-chart backend fence
+
+Do not expand the target-free square cut at the deployed prime.  The
+factored Singular assignment enters a backend capped at `2^29`; the Python
+route expands other cuts to 58,964 terms before any basis step
+(`ap-WHPxRTl9RMJGjEtD328bNO`).
+
+The equivalent unsquared system with explicit `d,e` compiles cleanly with
+signed-equation term counts `96,240,96,240,120,240` and a nine-term chart
+guard (`ap-ixMbNHMyuEwVxEDbYXAUsT`).  Chart 2 nevertheless timed out after
+240 seconds (`ap-UcfpDVxgnQOjNOoqELThke`); do not fan this basis to the other
+three charts.  Algebraically eliminating `d` lowers the `DE+/DE-` ledger to
+`769,4502,240` terms, but Singular rejects the deployed cubic-edge resultant
+(`ap-EnuadAiVWmVBrNOExVkFDX`).
+
+The next implementation should reuse the already-PROVED 22-term
+quadratic-quartic edge norm.  Encode its coefficient definitions and norm as
+a sparse auxiliary-variable circuit, or compute the one low-degree
+resultant in a backend that supports `p=2130706433`.  Do not request a longer
+generic basis.
+
+The sparse norm circuit has now been implemented.  Its deployed chart-2
+ledger has common equations `19,19,24` terms, reconstructed signed-pair
+equations `769,4502,240`, and colored norm definitions bounded by 757 terms
+with final pseudo-remainder/norm equations of `6,7,3` terms
+(`ap-UygmUkG2dtvijTgXIIx5Xs`).  The combined circuit still timed out at 240
+seconds (`ap-RMLTMaMIIjpqLWjEKaJ4ps`).  This localizes the next task: remove
+the colored circuit again, triangularize the `769/4502/240` signed pair over
+the rank-four reciprocal algebra, and append the colored norm only to its
+component ledger.  Do not parallelize the same combined basis over charts
+3--5.
+
+The pair arithmetic circuit is smaller still: its six evaluation definitions
+have at most 97 terms, its three signed-pair equations have `2,4,5` terms,
+and its chart guard has nine terms (`ap-39oTPQR9XZaltpf0xAuYX8`).  Removing
+all unused colored variables does not make either the elimination-block or
+total-degree Singular basis finish at 240 seconds
+(`ap-gysnK6QVGTEyVrlr64Rt7T`, `ap-9StDk2Yi93vpdKOnsgEft7`).
+
+A direct SymPy implementation over `GF(2130706433)(t)` correctly detects the
+rank-four primitive and denominator gcd certificates; SymPy's `invert` has a
+false zero-divisor failure on the quadratic `c` denominator, repaired by
+explicit `gcdex`.  Even with monomial-by-monomial degree-four reduction, the
+six common coefficients do not finish within the five-minute wrapper
+(`ap-xEl0f94ZLQjaPWCxVelMaE`, `ap-KVgOXwaAAJCZ3oNWUuC5Sf`).  Do not retry
+this SymPy coefficient engine unchanged.  The requested computation is now
+precise: implement the same four-generator system over
+`GF(p)(t)[b]/(P)` in Nemo/FLINT/Magma (or another efficient rational-function
+backend), return the signed-pair regular-chain/component ledger, and only
+then append the compact colored norm.
+
+### 2026-08-01 signed-pair stable-rank completion and revised request
+
+The generic four-generator backend request above is now superseded.  The
+Nemo/Groebner.jl route computes the exact chart-2 squared `DE+/DE-` quotient
+over `F_2130706433(t)`: an 18-element Groebner basis gives vector dimension
+64.  If `M` is multiplication by `g=d0*d1`, exact rational certificates give
+
+```text
+rank(M^2)=rank(M^3)=24,
+dim A[g^-1]=24.
+```
+
+The upper bound is a checked factorization of all 64 columns through the
+first 24 columns of `M^2`; the lower bound is the nonzero top-left minor at
+the regular fiber `t=2`.  An independent checker clears denominators and
+verifies all 5,160 polynomial identities with a 512-point NTT, above their
+maximum degree 380.  A hostile audit rejects three certificate mutations.
+
+Authoritative Modal apps, all stopped after bounded runs:
+
+```text
+ap-iL0NlhcML6PNSbeivvlEzy   M^2 normal forms
+ap-EYSaER3gP4AUY24qgSBR9R   one-column retry
+ap-8fGTO2L3xlaWIjHUftJLn3   exact structured rank factorization
+ap-oXrrTGaRKqCJ4dWcE3nwht   cleared-denominator certificate
+```
+
+The revised contributed-compute request is not another standard basis.
+Starting from the hash-pinned length-24 localized algebra:
+
+1. determine its radical and residue-field factorization over `F_p(t)`;
+2. certify nilpotent multiplicities if it is not reduced;
+3. compute the finite exceptional-`t` discriminant and denominator locus;
+4. restore the source-root square, nonzero, and distinctness guards on each
+   surviving factor;
+5. evaluate the compact colored `BE` norm factor by factor.
+
+Return exact factor polynomials, guard norms, and independently replayable
+certificates.  Do not call the length 24 a component count, sample only
+special fibers, retry the failed generic basis, or append the colored norm
+before the residue ledger is known.
+
+### 2026-08-01 signed-pair generic-reducedness completion
+
+The radical part of the revised request is now complete.  On the certified
+24-dimensional stable image, exact multiplication by
+`ell=x1+2*x0+3*b` was computed in all 24 columns and checked in all 64
+ambient quotient rows.  At the regular fiber `t=2`, the first coordinate
+vector is cyclic and the degree-24 minimal polynomial has derivative gcd
+one.  Consequently `ell` is generically primitive and the localized algebra
+is reduced over `F_2130706433(t)`.
+
+The full two-column campaign completed ten shards and returned explicit
+timeouts for columns 13--14 and 19--20 in
+`ap-JbaRjWcp7CtiDT2nqnl8Sp`.  Exact one-column/matrix-method retries completed
+the missing coverage in `ap-uAXb13GnCsiaM4LEhf3NLU`,
+`ap-AfNdHRICf9Pb3bWsGVV0u0`, and
+`ap-wn8HRH4Q7HLq0JKnI1RhbJ`.  All apps are stopped.
+
+The new contributor request begins after radical computation:
+
+1. compute the exact degree-24 characteristic/minimal polynomial of `ell`
+   over `F_p(t)`;
+2. factor it and report exact residue degrees and factor polynomials;
+3. compute its discriminant and all source/denominator guard norms;
+4. apply the residual colored `BE` product and unsquared sum on those
+   factors.
+
+Do not rerun radical algorithms or infer 24 components from degree 24.
+
+### 2026-08-01 signed-pair primitive residue completion
+
+The primitive polynomial and generic factor ledger are now complete.  Exact
+Krylov elimination in `ap-oyB5HrYYmeguXMKmqODnsw` gives the monic degree-24
+polynomial for `ell=x1+2*x0+3*b`; exact Nemo factorization in
+`ap-yP081HXaVybgPvzsNW5FUX` gives irreducible degrees
+
+```text
+4,4,4,8,4
+```
+
+with every multiplicity one.  A standard-library checker reconstructs the
+full rational-function product exactly and checks a regular pairwise-coprime
+squarefree fiber.  SymPy 1.14 was tested as a second factor backend, but its
+finite-field fraction-field conversion fails and multivariate finite-field
+factorization is unimplemented; that failed audit is not evidence.
+
+The revised contributor request starts in the five residue fields:
+
+1. express the required source-square, collision, chart, and colored
+   invariants as polynomials in `ell` modulo each factor;
+2. compute exact guard norms and the finite exceptional-`t` locus;
+3. evaluate the residual colored `BE` cubic and unsquared sum factor by
+   factor;
+4. return unit gcds/norms or exact surviving residue factors.
+
+Do not recompute the pair quotient, stable rank, radical, primitive
+polynomial, or factorization.
+
+### 2026-08-02 signed-pair primitive coordinate completion
+
+The first item in the residue-ledger request is complete.  Exact multiplication
+columns for `x1,x0,b` were computed in `ap-9TDK6ccFWgwFvBjLsIIkwb`.
+Three independent exact Krylov solves in
+`ap-oJCcerqPq6wNwVNLasPkSx` express every variable as a degree-below-24
+polynomial in `s=ell`.  A combined three-right-hand-side attempt
+`ap-HpMM8Cb1LRiDU6cIvMUx0r` timed out and supplies no claim.  All apps are
+stopped.
+
+The exact map packet is
+`001c959648176669651c87a913f2c830ad425a4f1e240041cc4edeb63d69a009`;
+the coordinate-column packet is
+`f5bfdb6cb515b6bbe54fa1abd19d1517759b0a584f501aa308e76f68e1ff1e25`.
+The independent checker verifies `p_x1+2*p_x0+3*p_b=s` coefficientwise and
+replays all three actions at `t=2`.
+
+Requested next computation:
+
+1. translate the already-defined source nonzero, collision, square, and chart
+   guards into `s` with these maps;
+2. reduce them modulo each exact primitive factor of degrees `4,4,4,8,4`;
+3. compute exact resultants/norms over `F_2130706433(t)`;
+4. distinguish an identically zero component from a nonzero norm with a finite
+   exceptional-`t` locus;
+5. append the compact colored `BE` condition only after this guard ledger.
+
+Do not recompute the stable basis, primitive polynomial, factorization, or
+coordinate maps.  Do not infer a source-root lift or component deletion from
+the squared coordinate formulas alone.
+
+### 2026-08-02 generic guard-unit completion
+
+Whole-component guard degeneration is now excluded without a remote run.
+At the exact regular fiber `t=2`, the five primitive factors, exact
+`b,x0,x1` maps, and chart-2 `r,c` lift give 150 nonzero remainders:
+22 declared common-chart guards and eight necessary squared
+outside-incidence guards on each factor.  The canonical ledger hash is
+`a48d3a028d422b19edda8d6ecac1f663bf2710fbc491a492b660b6b6e264bcb6`.
+Therefore all 30 elements are units over `F_p(t)` in every residue field.
+
+This does not print their rational norms or classify the finite
+exceptional-`t` zeros.  The preferred next route-deciding computation is
+the generic colored `BE` restriction on all five fields, with exceptional
+guard-norm fibers kept as a separate ledger.  Do not spend a broad campaign
+computing all 30 norms unless the colored restriction survives generically.
+
+### 2026-08-02 cell-5 generic colored-gcd bounded campaign
+
+**Decision.**  On each of the five proved primitive residue fields
+
+```text
+E_j=F_2130706433(t)[s]/(phi_j),   deg phi_j in {4,4,4,8,4},
+```
+
+compute the exact gcd in `E_j[e]` of the DE+ signed-pair necessary
+polynomial and the compact colored `BE` necessary eliminant.  Then divide
+that gcd by its gcd with the target-collision guard `e^2-1`.  This is the
+route-deciding generic colored restriction requested in the preceding
+ledger entry.  The upstream interface is the exact second-moment / primitive
+shift-pair lane; exceptional `t` fibers and all other matching cells remain
+outside the campaign.
+
+**Completeness and parameters.**  The proved primitive factorization gives
+exactly five factors and the proved coordinate maps express `x1,x0,b` in
+each one.  The proved chart-2 atlas reconstructs `r,c`; the proved outside
+edge compiler supplies the DE+/BE necessary equations.  The launch covers
+factors `1,2,3,4,5` independently, with no sample-prime or sample-`t`
+substitution in the primary computation.
+
+**Source and command.**  Source commit is the current Codex worktree until
+banked.  Launcher:
+
+```text
+tools/ramguard modal -- modal run \
+  experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd_modal.py \
+  --factors 1,2,3,4,5 \
+  --output experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd_result.json
+```
+
+**Ceiling and partial-output contract.**  At most five parallel containers,
+one CPU and 8 GiB RAM per container, a 270-second Julia subprocess cap, and
+a 300-second Modal function cap.  Conservative total wall time is five
+minutes and conservative requested-resource cost is below `$1`.  Each shard
+returns `COMPLETE`, `TIMEOUT`, or `ERROR` with elapsed time, provenance
+hashes, program hash, and bounded stdout/stderr.  Completed factors remain
+usable if another shard times out; incomplete output is evidence only and
+changes no status.  The app is stopped after the bounded campaign.
+
+**Certificate.**  Every complete shard returns the exact pair and colored
+polynomials, their monic gcd, Bezout multipliers, the collision-guard part,
+and the quotient outside that guard as rational functions in `t` and `s`.
+The deterministic local checker
+`check_rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd.py`
+validates provenance and independently replays the Bezout, gcd, guard, and
+quotient identities on every irreducible finite subfactor at the regular
+fiber `t=2`.  A generic theorem still requires an independent exact audit;
+the regular-fiber replay alone is not used to promote a node.
+
+**Effects.**  PASS means every outside quotient is constant and authorizes
+an exact generic colored-incompatibility theorem after the independent audit.
+FAIL with a positive outside degree returns an exact surviving generic
+factor and redirects the attack to that component.  INCOMPLETE has no DAG
+effect.  Compact results are stored at the output path above; raw artifacts
+remain in Modal and are identified by the app ID and program hashes.
+
+The one-factor setup validation app `ap-pmWZTeSBvdQXSwTDiBctqD` stopped
+before Julia was launched because the remote Python image omitted SymPy,
+which regenerates the six pinned sparse-kernel expressions.  It produced no
+mathematical result.  The launcher now pins `sympy==1.14.0`; the Nemo image
+layer completed and is cached.
+
+The corrected bounded campaign completed in apps
+`ap-jcIuGHdW1WxLKephFQDv0O` (factor 1) and
+`ap-IKaYuOEIwen2OhFi6ccFhg` (factors 2--5); both apps stopped normally.
+Exact function times were respectively `24.33` seconds and
+`16.35,24.01,233.42,20.45` seconds.  The four quartic factors have monic
+gcd exactly `e^2-1`; the octic factor has gcd `1`.  Thus every quotient
+outside the collision guard has degree zero.  The compact five-factor packet
+has SHA-256
+`710b438062fc2e80f5c7b14ffb987d8f36a02d4b57953b30419bb320b88877a7`.
+
+The deterministic checker passes all five shards and every irreducible
+finite subfactor at `t=2`, including the returned Bezout identities.  This
+completes the bounded campaign but does not yet promote a theorem: an
+independent exact audit must reconstruct the DE+/BE polynomials and verify
+the generic identities before the result enters the DAG.
+
+**Registered exact audit.**  At source commit `e774c74a`, run the independent
+packet parser
+`rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd_audit_modal.py`
+on factors `1..5`.  It does not invoke the primary gcd routine: it rebuilds
+each `phi_j`, parses every rational-function coefficient independently, and
+checks the returned Bezout identity and exact common factor in
+`F_p(t)[s]/(phi_j)[e]`.  Five one-CPU/4-GiB shards have 150-second subprocess
+and 180-second function caps; conservative campaign time is three minutes
+and cost is below `$1`.  Each shard returns explicit `COMPLETE`, `TIMEOUT`,
+or `ERROR` telemetry and a program hash; partial output has no status effect.
+The local audit script regenerates every program hash and checks all markers.
+PASS completes the generic certificate audit but still leaves exceptional
+`t` fibers and source-equation provenance as the stated boundaries.
+
+The audit completed in apps `ap-cpk6ggojSG2qXUsMmJ8BP4` (factor 1) and
+`ap-JDaA7cgwB2vcKgfWVNJzvG` (factors 2--5); both stopped normally.  Exact
+function times were `9.26` seconds and `7.92,9.60,13.85,7.96` seconds.
+All five exact generic identities pass.  The audit packet has SHA-256
+`e1651bf40f716eeef1daafab71b0f0b49a010d2d38395aa6ecde1d3e82b7bb81`,
+and its local hash/marker checker passes.  This pays the generic Bezout
+certificate audit; it does not classify exceptional `t` fibers.

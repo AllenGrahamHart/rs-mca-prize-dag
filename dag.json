@@ -21103,6 +21103,496 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic",
+   "title": "KoalaBear positive 433-1a cell-5 reciprocal trace quadratic",
+   "status": "PROVED",
+   "closure": "deployed principal reciprocal projection and guarded quadratic trace descent",
+   "statement": "In deployed-field cell 5, sign row (-1,-1), the fully guarded common ideal projects to one explicit 19-term reciprocal quartic P(b,t). On b!=0 it is exactly b^2 times a quadratic in u=b+b^{-1}, whose discriminant factors as -48(t-i)^2(t+i)^4(t^2-(2i/3)t-1). This does not reconstruct r,c, classify a signed family or colored edge, delete a cell/route/K3 row, or prove either Prize result.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_signed_family_decomposition_modal.py",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_signed_family_decomposition.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_signed_family_decomposition_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas",
+   "title": "KoalaBear positive 433-1a cell-5 deployed rational lift atlas",
+   "status": "PROVED",
+   "closure": "rank-four reciprocal projection and unique reconstruction of guarded deployed-field common points",
+   "statement": "In cell 5, sign row (-1,-1), the reciprocal projection has degree exactly four in b at every guarded deployed-field point. Every guarded common point has r given by one guard-unit linear formula and c given by at least one of four linear formulas over (b,t). Their simultaneous denominator locus is t=+-i plus a cubic certified to have no F_p root. This is injective reconstruction only, not surjectivity of the plane projection or a signed-family, route, row, K3, or Prize close.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_signed_family_decomposition_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_lift_atlas_result.json",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_lift_atlas.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank",
+   "title": "KoalaBear positive 433-1a cell-5 signed-pair guard stable rank",
+   "status": "PROVED",
+   "closure": "exact generic guard-localized signed-pair length 24",
+   "statement": "In deployed characteristic over F_p(t), the chart-2 squared DE+/DE- quotient has dimension 64 before guard localization and guard-multiplication ranks rank(M^2)=rank(M^3)=24, hence localized length 24. This does not prove reducedness, classify components or exceptional fibers, impose source or colored guards, delete a cell, route, or K3 row, or prove either Prize result.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/verify_audit.py",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_pair_guard_stable_rank.py",
+    "experiments/prize_resolution/audit_rate_half_kb_positive_433_1a_cell5_pair_guard_stable_rank.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_function_field_julia_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_function_field_julia_basis_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_normal_forms_modal.py",
+    "experiments/prize_resolution/pack_rate_half_kb_positive_433_1a_cell5_pair_guard_matrix.py",
+    "experiments/prize_resolution/compute_rate_half_kb_positive_433_1a_cell5_pair_guard_pivots.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_factorization_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_cleared_modal.py",
+    "experiments/prize_resolution/pack_rate_half_kb_positive_433_1a_cell5_pair_guard_cleared.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_cleared.bin",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_cleared_meta.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_square_matrix_coefficients.bin",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_square_matrix_coefficients_meta.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_square_pivots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_square_factorization_structured_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness",
+   "title": "KoalaBear positive 433-1a cell-5 signed-pair generic reducedness",
+   "status": "PROVED",
+   "closure": "primitive cyclic specialization proves generic reducedness",
+   "statement": "For the deployed chart-2 guard-localized squared DE+/DE- algebra over F_p(t), multiplication by ell=x1+2*x0+3*b has a regular t=2 specialization with a cyclic vector and squarefree degree-24 minimal polynomial. Hence ell is generically primitive and the localized length-24 algebra is reduced. This does not factor the primitive polynomial, classify exceptional fibers or source lifts, impose the colored edge, delete a cell, route, or K3 row, or prove either Prize result.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_localized_operator_modal.py",
+    "experiments/prize_resolution/merge_rate_half_kb_positive_433_1a_cell5_pair_localized_operator.py",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_pair_localized_operator.py",
+    "experiments/prize_resolution/audit_rate_half_kb_positive_433_1a_cell5_pair_localized_operator.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_localized_operator_merged_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger",
+   "title": "KoalaBear positive 433-1a cell-5 signed-pair primitive residue ledger",
+   "status": "PROVED",
+   "closure": "exact generic residue fields of degrees 4,4,4,8,4",
+   "statement": "The deployed chart-2 guard-localized squared DE+/DE- algebra over F_p(t) is generated by ell=x1+2*x0+3*b, whose exact degree-24 primitive polynomial factors into four irreducible quartics and one irreducible octic, all with multiplicity one. Hence the generic squared algebra is a product of five residue fields and has 24 geometric points. This does not lift source roots, classify exceptional fibers, impose source guards or the colored edge, delete a cell, route, or K3 row, or prove either Prize result.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_primitive_polynomial_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_primitive_polynomial_result.json",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_pair_primitive_polynomial.py",
+    "experiments/prize_resolution/audit_rate_half_kb_positive_433_1a_cell5_pair_primitive_polynomial.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_primitive_factorization_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_primitive_factorization_result.json",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_pair_primitive_factorization.py",
+    "experiments/prize_resolution/audit_rate_half_kb_positive_433_1a_cell5_pair_primitive_factorization.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map",
+   "title": "KoalaBear positive 433-1a cell-5 signed-pair primitive coordinate map",
+   "status": "PROVED",
+   "closure": "exact degree-below-24 primitive maps for x1,x0,b",
+   "statement": "In the deployed chart-2 guard-localized squared DE+/DE- algebra over F_p(t), with primitive coordinate s=ell=x1+2*x0+3*b, all three squared source coordinates x1,x0,b have explicit exact degree-below-24 expressions in s. The 72 rational-function coefficients satisfy p_x1+2p_x0+3p_b=s exactly and replay the independently generated multiplication columns at a regular fiber. This does not prove source guards are units, compute guard norms, classify exceptional fibers, lift source roots, impose the colored edge, delete a cell, route, or K3 row, or prove either Prize result.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_localized_operator_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_coordinate_columns_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_primitive_coordinate_map_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_primitive_coordinate_map_result.json",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_pair_primitive_coordinate_map.py",
+    "experiments/prize_resolution/audit_rate_half_kb_positive_433_1a_cell5_pair_primitive_coordinate_map.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger",
+   "title": "KoalaBear positive 433-1a cell-5 signed-pair generic guard-unit ledger",
+   "status": "PROVED",
+   "closure": "all 30 named generic guard elements are units on all five residue fields",
+   "statement": "In every one of the five deployed chart-2 generic squared DE+/DE- residue fields, all 22 declared common-chart guards and the eight necessary squared outside-incidence guards x_j, x_j-1, x_j-t^4, x_j-r^4 for j=0,1 are nonzero and hence units. An exact regular t=2 specialization checks 150 nonzero remainders after reconstructing r,c from the proved lift atlas. This does not compute guard norms or exceptional fibers, prove source-square lifts or unsquared signs/distinctness, impose the colored edge, delete a cell, route, or K3 row, or prove either Prize result.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/verify_audit.py",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_pair_generic_guard_units.py",
+    "experiments/prize_resolution/audit_rate_half_kb_positive_433_1a_cell5_pair_generic_guard_units.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "title": "KoalaBear positive 433-1a cell-5 generic signed-pair colored exclusion",
+   "status": "PROVED",
+   "closure": "entire generic cell-5 sign row (-1,-1) is empty",
+   "statement": "In the deployed characteristic over F_p(t), the exact identity gcd(P,L_2)=1 makes chart 2 global on the generic common projection. The five primitive residue fields of the guard-localized squared DE+/DE- algebra have degrees 4,4,4,8,4. Restricting the DE+ necessary polynomial in e and the colored BE outside-edge resultant gives exact gcd e^2-1 on the four quartics and gcd one on the octic. Since e^2-1 is a target-collision guard and every packet in this sign row contains DE+, DE-, and BE, the entire generic cell-5 sign row (-1,-1) is empty. Finite exceptional t fibers, other signs and matching cells, and every cell, route, K3, row, LIST, or MCA closure remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd_result.json",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd_audit_result.json",
+    "experiments/prize_resolution/audit_rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+   "title": "KoalaBear positive 433-1a cell-5 exceptional-fiber router census",
+   "status": "PROVED",
+   "closure": "generic sign-row exclusion specializes outside an explicit 69-value set",
+   "statement": "In the deployed characteristic, exact guard/chart norms across five primitive factors give 14 admissible-looking exceptional values, while all 3,659 denominator occurrences in the six registered generic-certificate categories give 56 admissible-looking pole values. Their overlap has size one, so exactly 69 deployed t values require direct treatment. The canonical sorted-set SHA-256 is bd64dc238bb3dcc4491d7d7b856078871336571cbdd5df3343014f8198cfe1d4. At every other admissible t, the registered generic cell-5 sign-row exclusion specializes. This does not exclude any of the 69 routed fibers or close another sign, cell, route, K3 row, Prize row, LIST, or MCA.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_norms_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_norms_result.json",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_pair_guard_norms.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_specialization_poles_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_specialization_poles_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_specialization_operator_poles_result.json",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_specialization_poles.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion",
+   "title": "KoalaBear positive 433-1a cell-5 finite-candidate first-batch exclusion",
+   "status": "PROVED",
+   "closure": "23 of 69 routed cell-5 sign-row fibers are empty",
+   "statement": "Fresh exact finite-field recomputation excludes 23 routed t values: 13 regular guard/chart candidates and ten coefficient-pole candidates retaining the primitive factor/map chain. Across 433 finite subfactor rows, 383 have common gcd 1 or e^2-1, 16 lie only on non-linear primitive-coordinate factors and so cannot have the deployed F_p-valued coordinate s=x1+2*x0+3b, and 34 have only base-field roots violating e!=0 or e^2 distinct from b^2. Thus these 23 fibers contain no admissible DE+/DE-/BE packet in cell 5 and sign row (-1,-1). The remaining 46 routed fibers, every other sign or cell, K3, Prize rows, LIST, and MCA remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/verify_audit.py",
+    "experiments/prize_resolution/probe_rate_half_kb_positive_433_1a_cell5_pair_colored_gcd_fiber.py",
+    "experiments/prize_resolution/probe_rate_half_kb_positive_433_1a_cell5_finite_candidate_batch.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_finite_candidate_batch_result.json",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_finite_candidate_batch.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion",
+   "title": "KoalaBear positive 433-1a cell-5 dynamic map-pole fiber exclusion",
+   "status": "PROVED",
+   "closure": "all 38 routed map-only fibers are empty",
+   "statement": "The apparent poles in the three old primitive-coordinate maps cancel exactly in the full rational multiplication matrices p_u(L), leaving pole-free commuting operators at all 38 map-only routed fibers. Per-fiber Krylov solves use x1+2*x0+b at 33 values and x1+3*x0+b at five. Their squarefree minimal polynomials have complete factor degree 24, and fresh DE+/DE-/BE replays on all 804 irreducible factors give 220 gcds one and 584 gcds e^2-1. Hence every one of these 38 cell-5 sign-row fibers is empty. The eight basis-specialization hazards, every other sign/cell, K3, Prize rows, LIST, and MCA remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_coordinate_operator_regularization_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_coordinate_operator_regularization_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_dynamic_fiber_replay_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_dynamic_fiber_replay_result.json",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_dynamic_fiber_replay.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion",
+   "title": "KoalaBear positive 433-1a cell-5 raw-basis fiber exclusion",
+   "status": "PROVED",
+   "closure": "the final eight routed basis-specialization fibers are empty",
+   "statement": "Direct fixed-fiber Groebner bases for P,g3,h localized at D0*D1 give quotient dimension 24 at seven routed values and dimension 23 at t=1332924776. Exact multiplication matrices satisfy the defining relations and localization. The form x1+2*x0+b is primitive at every fiber, its distinct irreducible factors cover the raw dimensions, and fresh DE+/DE-/BE replays give 35 gcds one and 80 gcds e^2-1 across 115 rows. Hence all final eight cell-5 sign-row fibers are empty. Other signs/cells, K3, Prize rows, LIST, and MCA remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_raw_fiber_profile_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_raw_fiber_profile_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_raw_fiber_replay_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_raw_fiber_replay_result.json",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_raw_fiber_replay.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion",
+   "title": "KoalaBear positive 433-1a cell-5 complete sign-row exclusion",
+   "status": "PROVED",
+   "closure": "the entire deployed cell-5 sign row (-1,-1) is empty",
+   "statement": "The generic colored exclusion covers every deployed t outside an exact 69-value exceptional router. Three pairwise-disjoint proved finite packets exclude 23, 38, and eight values, and their union is exactly the router. Therefore no admissible deployed-field DE+/DE-/BE packet exists in cell 5 with signs (-1,-1) for any admissible t. Other sign rows and matching cells, cell-5 deletion, K3, Prize rows, LIST, and MCA remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/verify_audit.py",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_complete_sign_row.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion",
+   "title": "KoalaBear positive 433-1a cell-5/8 epsilon-2-minus transport exclusion",
+   "status": "PROVED",
+   "closure": "cells 5 and 8 are empty in both epsilon-1 rows when epsilon-2 is minus",
+   "statement": "The exact common-root transformation (epsilon1,epsilon2,r,t) -> (-epsilon1,epsilon2,-r,-t) fixes quotient labels and product rows and negates every nonloop q=z*s value. The simultaneous coefficient involution B_1 -> -B_1 carries each transformed sum equation to the negative original equation. The duplicate AB+ role transposition exchanges cells 5 and 8. Applying these packet bijections to the complete cell-5 (-1,-1) exclusion proves all four rows {5,8} x {-1,+1} x {-1} empty. The epsilon2=+1 orbit, other matching cells, K3, Prize rows, LIST, and MCA remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion/verify_audit.py",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell58_epsilon2_minus_transport.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion",
+   "title": "KoalaBear positive 433-1a cell-5/8 complete root-sign orbit exclusion",
+   "status": "PROVED",
+   "closure": "all eight common root-sign rows in matching cells 5 and 8 are empty",
+   "statement": "The source-reciprocal involution I(H)(T,X)=X^4 H(T,-1/X) preserves the positive coefficient normal form, reverses A_2 and A_0 coefficients, and sends (beta_0,beta_1) to (-beta_1,-beta_0). It preserves every complete target record and Vieta equation up to a nonzero factor while flipping epsilon_2 in cell 5; duplicate AB+ transport gives cell 8. Therefore the proved epsilon_2=-1 exclusions imply that all eight rows {5,8} x {-1,+1} x {-1,+1} are empty. Other role-cell orbits, K3, Prize rows, LIST, and MCA remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/verify_audit.py",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell58_source_reciprocal_transport.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_epsilon2_plus_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_epsilon2_plus_scout_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "title": "KoalaBear positive 433-1a common root-sign symmetry quotient",
+   "status": "PROVED",
+   "closure": "exact quotient of sixty common matching/root-sign rows to ten source-projectivity orbits, one closed and nine open",
+   "statement": "Exact source projectivities and duplicate-AB+ role transport reduce the 60 positive 433-1a common matching/root-sign rows to ten algebraically distinct orbits. Cells 3 through 14 have one four-sign orbit per duplicate-role cell orbit; cell 0 has one orbit; and cells 1,2 have two orbits distinguished by epsilon_1 epsilon_2. The proved cell-5/8 complete exclusion deletes one orbit, leaving exactly nine unclosed representatives. This quotient does not delete those nine representatives or close K3, LIST, MCA, or either Prize problem.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient/verify_audit.py",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_common_root_sign_symmetry.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion",
+   "title": "KoalaBear positive 433-1a cells 1/2 common root-sign orbit exclusion",
+   "status": "PROVED",
+   "closure": "all eight common root-sign rows in matching cells 1 and 2 are empty over the deployed field",
+   "statement": "For one representative of each cells-1/2 sign-product class, the guard-saturated positive common Vieta ideal over F_2130706433 is the unit ideal. Exact Singular standard bases independently return the unit ideal for the three-minor chart and all six minors. Source reciprocity and duplicate-AB+ transport therefore delete all eight raw rows in cells 1 and 2. Together with the cell-5/8 close, seven common symmetry representatives covering 44 raw rows remain open; no positive-route, K3, LIST, MCA, or Prize closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell12_common_saturation_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell12_common_saturation_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+   "title": "KoalaBear positive 433-1a remaining common curve profile",
+   "status": "PROVED",
+   "closure": "all seven remaining guard-localized common ideals are proper of Krull dimension one",
+   "statement": "One exact (-1,-1) representative of each remaining positive common orbit [0], [3,6], [4,7], [9,10], [11], [12,13], [14] has a proper dimension-one full six-minor ideal after all source and target guards are saturated over F_2130706433. Exact Singular basis sizes are respectively 7,23,24,23,26,29,31. This is geometric common-stage nonemptiness only: no base-field rational point, outside completion, route, K3, LIST, MCA, or Prize closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_remaining_common_saturation_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_remaining_common_saturation_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness",
+   "title": "KoalaBear positive 433-1a cell-0 common lex basis and rational witnesses",
+   "status": "PROVED",
+   "closure": "four-polynomial projected lex basis and two explicit guard-admissible deployed-field common points",
+   "statement": "For cell 0 and signs (-1,-1), the localized full common ideal has dimension one and block-basis size seven; eliminating the guard inverse gives an exact four-polynomial lex basis beginning b^2-6b+1 and ending r+16711679t^2. The b quadratic splits over F_2130706433, and direct substitution certifies two t=2 points as zeros of all six stripped common minors with all twenty guards nonzero. This proves deployed common-stage survival only, not any outside record, route, K3, LIST, MCA, or Prize result.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_common_triangle_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_common_triangle_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion",
+   "title": "KoalaBear positive 433-1a cell-0 generic signed-pair orbit exclusion",
+   "status": "PROVED",
+   "closure": "necessary signed-pair unit ideals exclude the complete cell-0 root-sign orbit",
+   "statement": "For each of the two exact cell-0 common-kernel branches over F_2130706433, every complete outside packet would supply distinct source roots carrying DE+=de and DE-=-de and hence satisfy two explicit denominator-cleared signed-pair identities. Saturating those identities by all necessary common, leading-support, outside-label, and label-disjointness guards gives the unit ideal on both branches. Exact source projectivities therefore exclude all four cell-0 root-sign rows, every outside case, and both cycle signs. Six quotient representatives covering 40 raw rows remain. This does not close the positive route, K3, LIST, MCA, or either Prize result.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_kernel_reduction_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_kernel_reduction_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_t2_signed_family_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_t2_signed_family_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_generic_signed_pair_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_generic_signed_pair_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_generic_signed_family_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_generic_signed_family_result.json"
+   ]
+  },
+  {
    "id": "dli_c1_256_block_basis_factorization",
    "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
    "status": "PROVED",
@@ -41845,6 +42335,381 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

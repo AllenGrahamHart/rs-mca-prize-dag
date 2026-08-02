@@ -1,0 +1,16 @@
+{
+  "rows": [
+    {
+      "b": 583634934,
+      "error": "FunctionTimeoutError(\"Task's current input in-01KZ0JHBDCZE0K45FZG5239FAM:1785652096429-0 hit its timeout of 240s\")",
+      "status": "REMOTE_ERROR"
+    },
+    {
+      "b": 1547071505,
+      "error": "FunctionTimeoutError(\"Task's current input in-01KZ0JHB9C23HNZGXQQKFW6VW4:1785652096301-0 hit its timeout of 240s\")",
+      "status": "REMOTE_ERROR"
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1a-cell0-generic-signed-family-v1",
+  "scope": "Generic guard-saturated target-free DE+/DE-/BE family on both cell-0 common branches. Unit ideals delete the cell-0 orbit; nonunit or timeout makes no outside, route, K3, or Prize claim."
+}

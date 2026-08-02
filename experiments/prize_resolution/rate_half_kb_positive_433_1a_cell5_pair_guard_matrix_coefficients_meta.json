@@ -1,0 +1,12 @@
+{
+  "basis_sha256": "8fd93095924f616770e49257ae45f255a8859f43c4f87100859cadfc8cc77ed6",
+  "coefficients_sha256": "cd5e8dfb1675f1464f5436292d19de4f02aa707daa043eef1a9c3e9df6c3abcb",
+  "column_coverage": 64,
+  "matrix_dimension": 64,
+  "matrix_nonzero_entries": 3688,
+  "max_denominator_length": 129,
+  "max_numerator_length": 143,
+  "packet_bytes": 2636904,
+  "packet_sha256": "b7477e0cd3fffd172270f953a354fffd87d879fff7fcd9dfb694e6826354f82f",
+  "schema": "rate-half-kb-positive-433-1a-cell5-guard-matrix-v1"
+}

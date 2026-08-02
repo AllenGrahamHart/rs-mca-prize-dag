@@ -1,0 +1,461 @@
+{
+  "rows": [
+    {
+      "cell": 0,
+      "cell_orbit": "[0]",
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "b24410500dd66c352572cf29c1bf9ae17f072d07f76cbf8881c02a87d9465649",
+        "355c3dcc4e0a71136613a0b64abb2cd8e509bc1a2efd624e7a32a7acea465b0b",
+        "638af6471a3ab57149e5ab5531718168a66664c32f4211f3ab15bc59513e6011",
+        "56a43e9529cc8bf4f9d3a1ffec985525e0c5f2a0e3eb00c5d4789c934b2d8365",
+        "b9c715694ad83394ec380751763bdd13a0ac15ba3dfa8acaee88bb2cdb5ad881",
+        "3ebb244ecd531900ab2af96e00e6a86ebcc1fc59db1548252838822cd40b03b9"
+      ],
+      "equation_shape": [
+        {
+          "degree": 7,
+          "terms": 16
+        },
+        {
+          "degree": 8,
+          "terms": 48
+        },
+        {
+          "degree": 8,
+          "terms": 40
+        },
+        {
+          "degree": 8,
+          "terms": 48
+        },
+        {
+          "degree": 8,
+          "terms": 40
+        },
+        {
+          "degree": 6,
+          "terms": 16
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "68d67839223fdba40e901d4da27156b141c9e7ee7f62835b178777be1d1aa70c",
+      "singleton": 0,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n1\n7\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\n1\n7\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "cell": 3,
+      "cell_orbit": "[3,6]",
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "514c43883fb1d82220bb19ae9ff176f611e20921aedecf655f9953b5a955a644",
+        "d22b9712005a908958211dfd33807a31320d1048f5a30e27726d77a8bfcf7b9f",
+        "8563aed08410fc0186ca354c8ab6afa324cc07e2b7e381d8260072ea5a1ba4fb",
+        "8be29bff418084caf088d211d858b9e0f811fb7dd4422f51c8812fee33e2afec",
+        "91805eefc17b01df99d4d4e5f786f1724e92c965f1f819bec4352317791ed291",
+        "894133864446f4785b033135c59ee53736b6a2eb1b242cd3ca2a4aa6e0c1a3bb"
+      ],
+      "equation_shape": [
+        {
+          "degree": 12,
+          "terms": 56
+        },
+        {
+          "degree": 10,
+          "terms": 72
+        },
+        {
+          "degree": 10,
+          "terms": 60
+        },
+        {
+          "degree": 10,
+          "terms": 72
+        },
+        {
+          "degree": 10,
+          "terms": 64
+        },
+        {
+          "degree": 10,
+          "terms": 48
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "08c4565fefbde869d9009474ed178408a1bb7278e764097d34ee723b1da7045b",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n1\n23\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\n1\n23\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "cell": 4,
+      "cell_orbit": "[4,7]",
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "941776e5ae4c872e3397d9e536c91bf62b7d3d4151eb3161aead4aa8eb0903b3",
+        "b62a20914444b556e8cc59dc32d357b2d773af83edd3fac0727f8f4448955f0d",
+        "e925041435a82b4c77ec775c96d443cf5ecce9055f4697459fad1a8962d87b5c",
+        "44c1c428bb7e2e212777871fead2cae977b2b45e119d2b25e532eaf30c777c4d",
+        "1c495ae23e7295f314187f801c6f436af7d2550433c8d3773ca282a5dc840716",
+        "62ebd758803f7657fd1cfa053acf167c882d5232409cb30a5dc2fd68fe913fa4"
+      ],
+      "equation_shape": [
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 80
+        },
+        {
+          "degree": 10,
+          "terms": 56
+        },
+        {
+          "degree": 10,
+          "terms": 64
+        },
+        {
+          "degree": 10,
+          "terms": 48
+        },
+        {
+          "degree": 10,
+          "terms": 56
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "ff62eaf01e4fd3a3dcc9a51b21f0193e18c5e365083b90042a8ef9b2c9a935a2",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n1\n24\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\n1\n24\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "cell": 9,
+      "cell_orbit": "[9,10]",
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "83437ea11091c22cd5aa4ba3a1cdaccf7624cee53c4fffe08e02d0be1e5c3e2c",
+        "c21bfe209fc639ebffa9fdcc90243554b26d9864f2780c4f455b4a21d184338d",
+        "49da4068ec9dc142d20ab15349ba061e9f1109a1e6ab02b841e1ea0667bf2bce",
+        "16764835438c2b2e23ddbb73c8350da87e3944557d72ffd51debbf9918b4bad2",
+        "01c40b99327a97e9ca6bf2b4d75de6ef36dcaf0a1c87001d59dff215857fa3df",
+        "15ae5e9c59923368da454bc8c4489a5746a990c9604d05466e871a1d567c916f"
+      ],
+      "equation_shape": [
+        {
+          "degree": 11,
+          "terms": 60
+        },
+        {
+          "degree": 11,
+          "terms": 72
+        },
+        {
+          "degree": 10,
+          "terms": 64
+        },
+        {
+          "degree": 10,
+          "terms": 88
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 10,
+          "terms": 64
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "3c410f06857c013c78bf8b4b8ac3f4e24415c016138a7b7087615df956ce5c1c",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n1\n23\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\n1\n23\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "cell": 11,
+      "cell_orbit": "[11]",
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "af1eda3611d45441bf06befd13d6adc1db147414e9a1fac6e298e97dd16893ed",
+        "9868a56402117fa3269c346f22647aa0a1f1171a9a1d0d2275e1c701614d834d",
+        "8d0a7f0b64b04b273fb1ae585e40dd9e516df25dba4056fa4df2150ee0abe67a",
+        "c52f29164a8f661cf77a5fa50d5f4d77ba2c337c2cd96159e69075fc3d8cfd4c",
+        "b15e381f7a970f29229a439289a6bb97a4547eb5d3f98fc5810031ae1085ad55",
+        "7386872307c3fb737127884f7e232bd82cab9088a3bf566535089e3b42e72a13"
+      ],
+      "equation_shape": [
+        {
+          "degree": 11,
+          "terms": 24
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 11,
+          "terms": 32
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "program_sha256": "489ecaa93ee05678faecfe26938fc82c2ef1bed6e0bb56be0299ee73894549df",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n1\n26\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\n1\n26\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "cell": 12,
+      "cell_orbit": "[12,13]",
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "3d40c5d0d31f01b24034812f9679cca18258a8ebbf42f904bfebfd81fa8faf11",
+        "bd27b2754379b101b8559bac0f9f8853855c6efbf4c6549c081da3def46689c7",
+        "7f58b69b13021de82fefab9614a51971c7583cec645774dce6f0aedbff723d80",
+        "d99038b70dee9bab34eefc21f4ab5862de65d9cca4be728eca1149074e7a8567",
+        "2897b30cb73890af8cb3f5f799afcefdb62f503a8eacb07763dcb7e5b5113c39",
+        "75d06dc700bbed95dd1123267d4d365391a1713ae9af3a89e9c5d1eb66d59075"
+      ],
+      "equation_shape": [
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 10,
+          "terms": 56
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 10,
+          "terms": 56
+        },
+        {
+          "degree": 10,
+          "terms": 60
+        },
+        {
+          "degree": 10,
+          "terms": 56
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "program_sha256": "1221ff9fd16599842114e4635909d191791ae510e366c71505f87b629f9808e6",
+      "singleton": 4,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n1\n29\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\n1\n29\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "cell": 14,
+      "cell_orbit": "[14]",
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "68bf49df06982407e8f2ae8737bf3c9d0c1775eb6e71a089da804f0453c0425a",
+        "ecda8c0312837a74427121321fb13287ac34d645f9628d1c020fdddbf0689861",
+        "9a3c5ebe3c3c784dc21979b7daa6f8025df29b9473845ab446811dfd6ab983c5",
+        "aaf6d308773b9bc673c1c7b29d563ba71432dcdd771a4fbe626e40b891880d99",
+        "9376f72fa72b178429259da670eae68f271b80a59ff266f83bac842f3b7eda9c",
+        "f889c75c50a6a755e03b8a55c142a45522c374ce47e04d60acd65d1524fdbc41"
+      ],
+      "equation_shape": [
+        {
+          "degree": 11,
+          "terms": 36
+        },
+        {
+          "degree": 11,
+          "terms": 80
+        },
+        {
+          "degree": 11,
+          "terms": 56
+        },
+        {
+          "degree": 11,
+          "terms": 80
+        },
+        {
+          "degree": 11,
+          "terms": 56
+        },
+        {
+          "degree": 11,
+          "terms": 40
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "program_sha256": "0c5fb502ce85598186b830bbd337fa322063e9f6d1faef3f28ec52273a7a5666",
+      "singleton": 4,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\n1\n31\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\n1\n31\nFULL_UNIT=0\nEND_FULL\n"
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1a-remaining-common-saturation-v1",
+  "scope": "One exact deployed-field guard-saturated common ideal per open root-sign orbit. Unit ideals delete common classes; survivors make no outside, route, K3, or Prize claim."
+}

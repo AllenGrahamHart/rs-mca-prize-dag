@@ -14603,6 +14603,70 @@ next route-deciding step: triangularize/factor the signed DE pair first,
                           another generic basis
 ```
 
+### Work-cycle evidence: cell-5 reciprocal finite algebra
+
+```text
+compiler repair:          common Vieta compiler now accepts explicit
+                          (prime,iota); cross-prime reduction of polynomials
+                          already normalized modulo the deployed prime is
+                          forbidden
+valid probe field:        F_65521, iota=24297, iota^2=-1
+generic common fiber:     dimension 0, basis 6, vector dimension 4,
+                          one minimal component
+lex finite algebra:       three generators; primitive b polynomial is a
+                          reciprocal quartic
+descent certificate:      coefficient reversal and lifted u=b+b^-1
+                          substitution both reduce the quartic to a
+                          quadratic trace equation
+exact Modal apps:         ap-9rQUOuge1TNoa1ufF3u9MR,
+                          ap-KCxeFPbJGAalI2aKR9nxem
+finite signed pair:       reciprocal quartic plus cuts
+                          (degree,terms)=
+                          (9,24),(8,32),(9,24),(8,32)
+bounded endpoint:         slimgb timed out at 240 seconds;
+                          ap-F0mNsrUqkAmnr1ADk2V20i
+deployed backend fence:   affine common basis 12 computes, but Singular
+                          function fields reject p>2^29;
+                          ap-JwQiY0HAW4TvF01vmVmtPj
+nonclaim:                 probe-field shape only; no deployed signed-pair,
+                          colored edge, route, row, or Prize close
+deployed theorem:         one 19-term reciprocal quartic in (b,t), exact
+                          quadratic trace descent, discriminant square
+                          factors times t^2-(2i/3)t-1;
+                          ap-D4GXYWOVhTEiEfabnKO9Ht
+deployed lift theorem:    one guard-unit r formula; four c charts; their
+                          simultaneous exceptional locus is t=+-i plus an
+                          irreducible cubic with no F_p root;
+                          ap-3hVthJkmosYTdYTQ4Kc91v
+next route-deciding step: reduce the target-free cuts on the four c charts,
+                          take subresultants/norms there, then append only
+                          R_b and the BE sum row
+latest compute fence:     unsquared direct equations compile at
+                          96/240/96/240/120/240 terms but chart-2 slimgb
+                          times out at 240s; reconstructed DE is
+                          769/4502/240 terms and Singular rejects the
+                          deployed cubic-edge resultant backend
+next implementation:     reuse the PROVED 22-term quadratic-quartic norm as
+                          a sparse auxiliary-variable circuit; do not expand
+                          the 58,964-term target-free presentation
+norm-circuit outcome:     exact sparse circuit succeeds, definitions <=757
+                          terms and terminal equations 6/7/3 terms, but the
+                          combined chart-2 basis still times out at 240s;
+                          ap-UygmUkG2dtvijTgXIIx5Xs,
+                          ap-RMLTMaMIIjpqLWjEKaJ4ps
+revised next step:        triangularize DE+/DE- alone over the rank-four
+                          reciprocal algebra, then append the norm only to
+                          surviving finite components
+pair-circuit fence:       evaluation definitions <=97 terms, pair equations
+                          2/4/5 terms; both block and total-degree Singular
+                          bases time out at 240s
+function-field fence:     SymPy GF(p)(t) denominator gcds are valid (use
+                          gcdex, not broken invert), but degree-four
+                          coefficient reduction exceeds the 5m wrapper
+backend handoff:          implement the four-generator pair system in
+                          Nemo/FLINT/Magma and return a regular-chain ledger
+```
+
 ### Upstream export: K3 positive coordinate reduction
 
 ```text
@@ -14680,4 +14744,406 @@ proposed but unproved:     CERP-512, lambda-rigidity, resonance-prime sieve
 next route-deciding step: exact owner-trajectory compiler at small
                           order-512 analogues, followed by spike/diffuse
                           classification if the ledger resists falsification
+```
+
+### Work-cycle theorem: positive 433-1a signed-pair guard stable rank
+
+```text
+node/workboard attacked:  K3 / cell-5 DE+/DE- chart-2 signed pair
+result:                   PROVED generic guard-localized scheme length 24
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+base field:               F_2130706433(t)
+quotient presentation:    reciprocal P plus sparse g3,h in x1,x0,b
+finite algebra:           18-element Groebner basis; vector dimension 64
+guard multiplication:     specialized ranks (32,24,24) at t=2,3,4,5
+generic theorem:          rank(M^2)=rank(M^3)=24, hence dim A[g^-1]=24
+rank certificate:         first 24 columns span all 64 columns exactly;
+                          top-left minor at t=2 has determinant 109382047
+primary packet hashes:    M^2 coefficients
+                          cb2a07bc8e8d70f25220d89133b02750d05db59c1105856d13bc33c758ba9c11
+                          M^2 packet
+                          c10acad4d6e6971fb978498f49a1a8306326b81f23c6cdf3c06cb318ba6f61d3
+independent audit:        5,160 cleared polynomial identities, maximum
+                          degree 380, deterministically replayed at 512
+                          distinct F_p roots by a standard-library NTT
+cleared packet hash:      664ffeb8b6093302a6b5cd795d59a09363e1d5beaeb6bd12c4fe48a4d9e38c82
+hostile audit:            rejects dropped shard, changed coordinate, and
+                          flipped packet byte
+Modal apps:               ap-iL0NlhcML6PNSbeivvlEzy,
+                          ap-EYSaER3gP4AUY24qgSBR9R,
+                          ap-8fGTO2L3xlaWIjHUftJLn3,
+                          ap-oXrrTGaRKqCJ4dWcE3nwht
+nonclaim:                 24 is scheme length, not 24 points/components;
+                          no radical, exceptional-fiber, source-lift,
+                          colored-edge, cell, route, K3, or Prize close
+next route-deciding step: compute the radical/residue-field ledger of the
+                          length-24 localized algebra, classify exceptional
+                          t fibers and source guards, then append the BE norm
+```
+
+### Work-cycle theorem: positive 433-1a signed-pair generic reducedness
+
+```text
+node/workboard attacked:  K3 / cell-5 localized DE+/DE- algebra
+result:                   PROVED monogenic generic reducedness
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+primitive element:        ell=x1+2*x0+3*b
+exact operator:           24 columns, each checked in all 64 ambient rows
+regular fiber:            t=2; every operator and stable-basis denominator
+                          is nonzero
+cyclicity:                first coordinate vector has 24 independent
+                          Krylov iterates
+specialized polynomial:   degree 24, derivative gcd 1
+minimal coefficient hash: d26bd2c06273091759c96100b517f2aae3e57f1d966eb20b8f025358afea6e65
+operator packet hash:     d49311b27680acf3b4b548547a9c4f8c94f5d1ea63ae3154982e5972bc5de026
+Modal apps:               ap-JbaRjWcp7CtiDT2nqnl8Sp (full partial),
+                          ap-uAXb13GnCsiaM4LEhf3NLU (column 13),
+                          ap-AfNdHRICf9Pb3bWsGVV0u0 (column 14),
+                          ap-wn8HRH4Q7HLq0JKnI1RhbJ (columns 19--20)
+exact consequence:        A[g^-1]=K[ell] and its primitive polynomial is
+                          squarefree, hence A[g^-1] is reduced
+nonclaim:                 no factorization/residue count, exceptional-fiber
+                          locus, source lift, colored edge, route, K3, or
+                          Prize close
+next route-deciding step: compute the exact degree-24 primitive polynomial,
+                          factor it over F_p(t), then evaluate source guards
+                          and the colored BE norm factor by factor
+```
+
+### Work-cycle theorem: positive 433-1a primitive residue ledger
+
+```text
+node/workboard attacked:  K3 / cell-5 generic squared signed-pair factors
+result:                   PROVED exact residue-field decomposition
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+primitive element:        ell=x1+2*x0+3*b
+primitive degree:         24; all 25 coefficients nonzero
+coefficient degrees:      numerator <=68, denominator <=48
+primitive packet hash:    8867cfc4f2c4a5accd898382b687e5327f5f4c2cb793dfd34897137d3ffc5f7e
+generic coefficient hash: 9ff9aa0ee5a792f088b9a0b8120e87f8af02b2ce5802596e8b9101a1d38d0e40
+irreducible degrees:      4,4,4,8,4; all multiplicities one
+factor packet hash:       00c4a7f0c90726b91b2310fa184d5eaf0ca3fab2b4d6a6ada1a4e1ae10f75cae
+exact consequence:        product of four quartic fields and one octic
+                          field; five generic components, 24 geometric
+                          points in the squared algebra
+independent audit:        exact standard-library rational product;
+                          t=2 factors squarefree and pairwise coprime
+Modal apps:               ap-oyB5HrYYmeguXMKmqODnsw (primitive),
+                          ap-yP081HXaVybgPvzsNW5FUX (factorization)
+backend fence:            SymPy 1.14 lacks both required fraction-field and
+                          multivariate finite-field factorization; no claim
+                          uses that failed audit
+nonclaim:                 no source lift/count, exceptional-fiber locus,
+                          colored edge, route, K3, or Prize close
+next route-deciding step: express needed source/colored invariants in the
+                          five fields, compute guard norms, then append BE
+```
+
+### Work-cycle theorem: positive 433-1a primitive coordinate map
+
+```text
+node/workboard attacked:  K3 / cell-5 generic squared signed-pair factors
+result:                   PROVED exact primitive maps for x1,x0,b
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+primitive coordinate:     s=ell=x1+2*x0+3*b
+map coverage:             3 variables x 24 coefficients; degree_s <24
+coefficient complexity:   maximum numerator/denominator t-degree 1046
+map packet hash:          001c959648176669651c87a913f2c830ad425a4f1e240041cc4edeb63d69a009
+column packet hash:       f5bfdb6cb515b6bbe54fa1abd19d1517759b0a584f501aa308e76f68e1ff1e25
+exact independent audit:  p_x1+2*p_x0+3*p_b=s coefficientwise via NTT
+regular-fiber audit:      p_u(L)e1=u*e1 for u=x1,x0,b at t=2
+hostile audit:            rejects dropped/changed coefficient, altered
+                          provenance, and changed source column
+Modal apps:               ap-9TDK6ccFWgwFvBjLsIIkwb (columns),
+                          ap-oJCcerqPq6wNwVNLasPkSx (three maps)
+nonclaim:                 no guard unit/norm, exceptional-fiber locus,
+                          source lift, colored edge, route, K3, or Prize close
+next route-deciding step: translate the named source guards into s, compute
+                          factor-by-factor norms, then append colored BE
+```
+
+### Work-cycle theorem: positive 433-1a generic guard units
+
+```text
+node/workboard attacked:  K3 / cell-5 squared signed-pair guard components
+result:                   PROVED no whole residue factor is guard-degenerate
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+residue factors:          5
+declared common guards:   22 per factor
+outside squared guards:   xj, xj-1, xj-t^4, xj-r^4 for j=0,1
+exact checks:             5 x 30 = 150 nonzero specialized remainders
+regular fiber:            t=2; all factor/map/lift denominators invertible
+ledger hash:              a48d3a028d422b19edda8d6ecac1f663bf2710fbc491a492b660b6b6e264bcb6
+exact consequence:        every named guard is a unit in every generic
+                          field K[s]/(phi_j)
+hostile audit:            rejects altered coordinate, factor, and atlas
+remote cost:              none
+nonclaim:                 no guard norm or exceptional-fiber classification,
+                          source-square lift, unsquared sign/distinctness,
+                          colored edge, route, K3, or Prize close
+next route-deciding step: append the generic colored BE condition on all
+                          five fields; reserve norm zeros for exceptions
+```
+
+### Work-cycle theorem: positive 433-1a generic cell-5 sign-row exclusion
+
+```text
+node/workboard attacked:  K3 / cell-5 sign row (-1,-1)
+result:                   PROVED over F_2130706433(t)
+generic chart coverage:   gcd(P,L_2)=1 in F_p(t)[b], so atlas chart 2 is
+                          global on the generic common projection
+signed-pair components:   degrees 4,4,4,8,4
+colored necessary edge:   DE+/DE-/BE
+exact component gcds:     e^2-1,e^2-1,e^2-1,1,e^2-1
+target guard:             e^2!=1
+exact consequence:        the entire generic cell-5 sign row (-1,-1) is
+                          empty; charts 3--5 and DF are not needed generically
+primary packet hash:      710b438062fc2e80f5c7b14ffb987d8f36a02d4b57953b30419bb320b88877a7
+independent audit hash:   e1651bf40f716eeef1daafab71b0f0b49a010d2d38395aa6ecde1d3e82b7bb81
+Modal apps:               ap-jcIuGHdW1WxLKephFQDv0O,
+                          ap-IKaYuOEIwen2OhFi6ccFhg,
+                          ap-cpk6ggojSG2qXUsMmJ8BP4,
+                          ap-JDaA7cgwB2vcKgfWVNJzvG
+nonclaim:                 finite exceptional t fibers, other signs/cells,
+                          cell, route, K3, row, or Prize closure
+```
+
+### Work-cycle exact router: positive 433-1a cell-5 exceptional fibers
+
+```text
+guard norms:              5 factors x (30 guards + 2 chart denominators)
+norm degree bounds:       numerator <=40, denominator <=16
+guard numerator roots:    18 total; 13 beyond 0,+-1,+-iota
+guard denominator roots:  3 total; one admissible-looking
+coefficient inputs:       basis, primitive/factors, coordinate maps,
+                          colored Bezout packet, guard norms, localized
+                          multiplication operator
+denominator census:       3659 occurrences, 1143 category-unique
+coefficient-pole roots:   61 total; 56 beyond 0,+-1,+-iota
+combined router:          69 admissible-looking t values after deduplication
+guard-norm packet hash:   663ccab5f1189a6e93f90d7aeba324585161ce86cc8a2b9fe86348a0140f8527
+pole packet hashes:       dc93d2b41a26ed5717c366c799f341cad67cdf5aef8fbec32602252af2c5ea23,
+                          0927bb86e6d87f4a2120c75d88f5e64c6740fb54988615d893eacb075edab92a
+exact root checks:        every guard-norm root list replayed independently
+                          as gcd(f,t^p-t); pole records reconstructed from
+                          the hash-pinned source denominator multisets
+finite replay repair:     the degree-one irreducibility checker now handles
+                          linear factors correctly
+regular guard candidates: 13 values pass fresh finite-subfactor Bezout
+                          replay; t=1860858030 is additionally recomputed on
+                          chart 3, with 16 gcds e^2-1 and 5 gcds one
+first finite close:       23 router values PROVED empty; 433 rows split as
+                          383 Bezout/target-guard, 16 non-base primitive,
+                          and 34 explicit target-collision rows
+finite packet hash:       d74aa015c557d9497090b6085a4280e8a43d9dd5f4ec109e3e31b736271cd8c8
+coordinate regularize:    exact p_u(L) gives pole-free M_x1,M_x0,M_b at all
+                          38 map-only values; max rational degree 126
+dynamic finite close:     38 more router values PROVED empty; forms
+                          x1+2*x0+b (33) and x1+3*x0+b (5); 804 rows split
+                          as 220 gcd one and 584 gcd e^2-1
+operator packet hash:     139f1367ec799f5884372f0d09841e5593036751dd1ceedf09df5d801879098a
+dynamic packet hash:      1e20aefa7fa7e024ab0c133c961982793c031c5322fb9fc2325cb41215488c73
+vertical obstruction:     t=1332924776 is a simultaneous basis/primitive/
+                          factor/operator pole; direct raw quotient has the
+                          genuine exceptional dimension 23
+raw finite close:         final 8 router values PROVED empty; quotient
+                          dimensions 24,24,24,23,24,24,24,24; form
+                          x1+2*x0+b is primitive throughout; 115 rows split
+                          as 35 gcd one and 80 gcd e^2-1
+raw profile hash:         7297479e0f5a6bce3b692f1e165470a21cc2dcc853fa6c4898fa19d6059943aa
+raw replay hash:          50b235b26c5734fcb9d7775d4566a5e008d018e6c31b9acd5b9d9b209cac4710
+remaining coefficient
+pole fibers:              0; exact router exhausted as 23+38+8=69
+assembled theorem:        complete deployed cell-5 sign row (-1,-1) PROVED
+                          empty; this does not delete other sign rows/cells
+Modal apps:               ap-gAd7d3ymL70oGLoNDrBPHF (factor-1 smoke),
+                          ap-5XAOWJFSEUP1FkcZdt347r (all guard norms),
+                          ap-d6th4JfPmb2yuH1sPcuvIy (five pole categories),
+                          ap-CNvSR4TZhbGHG1X7moVEi3 (operator poles),
+                          ap-rJ3twc1Th4bdEocfVCyDye (coordinate cancellation),
+                          ap-BSuczfzFoMqNRJlhVijVm5 (38-fiber replay),
+                          ap-xZi2yLxKHwlAybD8j8cKXR (raw profiles),
+                          ap-zgSgZIqu40if7mEjY4wLtH (raw replay)
+failed setup apps:        ap-4K3rkZItfNdVi02OXIjtXy used an unsupported
+                          field-element lift; two later replay launches did
+                          no remote work because the WSL PID ceiling blocked
+                          the local Modal control thread; raw setup apps
+                          ap-OZy9edcN8f27nVNljQKOxV, ap-icDxtiFVQ8dX44IcpeJZkM,
+                          ap-JbDN2RRYr1cjVYMyIHfBrc, and
+                          ap-pVwkIQzLKtz1ptnTzWPFY3 likewise did no remote
+                          work; using the `ramguard modal` client profile
+                          fixed the launch headroom
+cost discipline:          the new cancellation used three 8 GiB containers
+                          for <=266 seconds; replay used eight 2 GiB
+                          containers for seconds; campaign cost remains
+                          comfortably below $1
+next route-deciding step: use the signed-edge symmetry atlas to identify the
+                          next genuinely different cell-5 sign/matching
+                          representative; do not recompute (-1,-1)
+```
+
+### Work-cycle theorem: positive 433-1a cell-5/8 sign transport
+
+```text
+seed theorem:             cell 5, signs (-1,-1), empty for every deployed t
+duplicate-role action:    AB+1 <-> AB+2 exchanges matching cells 5 and 8
+source-root action:       (epsilon1,epsilon2,r,t)
+                            -> (-epsilon1,epsilon2,-r,-t)
+row effect:               quotient labels and product rows fixed; all
+                          nonloop q=z*s values negated; B1 -> -B1 carries
+                          every transformed sum equation to its negative
+exact orbit closed:       {5,8} x {-1,+1} x {-1}, four rows PROVED empty
+retained orbit:           cells 5/8 with epsilon2=+1
+next representative:     cell 5, signs (-1,+1); epsilon1=+1 and cell 8
+                          then follow by the same exact transports
+nonclaim:                 no full matching cell, positive route, K3, Prize
+                          row, LIST, or MCA closure
+```
+
+### Work-cycle theorem: positive 433-1a cell-5/8 reciprocal close
+
+```text
+source projectivity:      I(H)(T,X)=X^4 H(T,-1/X)
+coefficient action:       (d0,d1,d2,e0,e1,e2,beta0,beta1)
+                            -> (d2,d1,d0,e2,e1,e0,-beta1,-beta0)
+source-record action:     z -> -1/z, lambda -> 1/lambda,
+                          q -> -q/lambda
+Vieta scaling:            product equation times lambda'^2;
+                          sum equation times -lambda'^3
+cell-5 sign action:       epsilon1 fixed; epsilon2 flipped;
+                          r -> -1/r, t -> -1/t
+exact consequence:        all 8 rows {5,8} x {-1,+1} x {-1,+1} PROVED
+                          empty; matching cells 5 and 8 deleted
+Modal audit:              ap-oIL0BGknaZoWphpSedAn4O (ratio/structure),
+                          ap-4iT5v817EnfrhxKNfdBs4N (deployed atlas)
+audit packet hash:        ec4e9b5fd2cefbc1e6a04698453e47f18f449983fb40f9519526475d8f4c2852
+audit relation:           P_(-1,+1)(b,t)=-t^4 P_(-1,-1)(b,-1/t)
+compute spend:            three bounded 4 GiB calls, each completing in
+                          seconds; comfortably below $1
+next route step:          choose a different one of the remaining eight
+                          duplicate-role matching-cell orbits; first audit
+                          how source projectivities act when LC is not the
+                          same canonical anchor
+nonclaim:                 positive 433-1a route, K3, Prize rows, LIST, MCA
+```
+
+### Work-cycle theorem: positive 433-1a common sign quotient
+
+```text
+raw common frontier:      15 matching cells x 4 root-sign rows = 60
+source actions:           loop-anchored deck and reciprocal projectivities;
+                          special LC-singleton duplicate-role transports
+duplicate-role cells:     [0] | [1,2] | [3,6] | [4,7] | [5,8] |
+                          [9,10] | [11] | [12,13] | [14]
+exact quotient:           10 orbits; five size 4 and five size 8
+closed component:         [5,8], all eight rows
+remaining frontier:       exactly 9 algebraically distinct representatives
+next candidate:           [1,2], which has two sign classes distinguished
+                          by epsilon1*epsilon2
+opening evidence:         no common survivors in prior probes over
+                          F_13,F_17,F_29
+compute discipline:       run two bounded deployed-field common saturations;
+                          append one necessary outside triple only if a
+                          common finite algebra survives
+nonclaim:                 no deletion of the other nine representatives,
+                          positive route, K3, Prize rows, LIST, or MCA
+```
+
+### Work-cycle theorem: positive 433-1a cells 1/2 common exclusion
+
+```text
+tested representatives:  cell 1 signs (-1,-1) and (-1,+1), one per
+                          invariant epsilon1*epsilon2 class
+field:                    F_2130706433, the deployed KoalaBear field
+localized equations:     all six stripped common Vieta minors plus one
+                          inverse for 20 source/target guards
+exact chart result:       both three-minor saturated ideals are <1>
+exact full result:        both six-minor saturated ideals are <1>
+Singular outputs:         dimension -1, basis size 1, no stderr
+symmetry consequence:     all 8 raw rows in cells 1 and 2 PROVED empty
+closed quotient orbits:   3 of 10: [5,8] plus two classes across [1,2]
+remaining frontier:       7 representatives covering 44 raw rows
+result hash:              be8efeb8259350ba555da81fcf52251c38b7ee20a1e674a36630af96f5d2400a
+Modal app:                ap-Li8Fv7qkx13GSPjknGB3yQ
+compute spend:            two 2 GiB containers completing in seconds;
+                          negligible relative to the renewed allowance
+next route step:          run one bounded common saturation on each of
+                          [0], [3,6], [4,7], [9,10], [11], [12,13], [14]
+nonclaim:                 no deletion of those seven representatives,
+                          positive route, K3, Prize rows, LIST, or MCA
+```
+
+### Work-cycle theorem: seven remaining positive common curves
+
+```text
+representatives:          cells 0,3,4,9,11,12,14 for orbits
+                          [0],[3,6],[4,7],[9,10],[11],[12,13],[14]
+field/sign row:           F_2130706433, signs (-1,-1)
+full localized ideals:    all proper, all Krull dimension 1
+full basis sizes:         7,23,24,23,26,29,31 respectively
+chart diagnostics:        also dimension 1 with the same recorded sizes
+result hash:              56be2226b9777e68f25f7535a1be49dc933e6a6f346ab6a6b7f558ba90d5776d
+Modal app:                ap-fnxJGdD8X5JDttlB0TQvBp
+compute spend:            seven parallel 2 GiB containers completing in
+                          seconds; comfortably below $1
+exact strategic verdict: common-stage unit-ideal deletion is exhausted on
+                          the seven open orbits
+next route step:          triangularize the size-seven cell-0 curve, test
+                          deployed rational components, and append one
+                          universal necessary outside signed-family cut
+nonclaim:                 no deployed rational point or outside completion,
+                          route, K3, Prize rows, LIST, or MCA
+```
+
+### Work-cycle theorem: cell-0 common lex basis and rational points
+
+```text
+cell/sign/field:          0, (-1,-1), F_2130706433
+localized block basis:    dimension 1, size 7
+projected lex basis:      size 4 in (r,c,b,t)
+branch equation:          b^2-6b+1=0; both roots lie in the deployed field
+lift equation:            r+16711679*t^2=0
+explicit common points:   (2,2063859717,572859116,1547071505)
+                          (2,2063859717,396175561,583634934)
+direct audit:             all 6 stripped minors zero and all 20 guards
+                          nonzero at both points
+result hash:              fc3f3d0318a8c32a5d1b36856b181946fa8cb68994340efddc07c82faa7c2926
+Modal app:                ap-wjhY2ueoXlvbKVfk1P7eXc
+audit catch:              first candidate used 33423356=2*i incorrectly;
+                          residual substitution rejected it; exact value is
+                          2*(i-1)
+next route step:          reduce A2,A0,B1 on both b branches and append the
+                          universal target-free DE+/DE-/BE signed family
+nonclaim:                 no outside record or complete target realization,
+                          route, K3, Prize rows, LIST, or MCA
+```
+
+### Work-cycle theorem: cell-0 generic signed-pair orbit exclusion
+
+```text
+cell/sign orbit:          cell 0, all four root-sign rows
+exact kernel branches:   b=1547071505 and b=583634934
+kernel normalization:    common scale t^6(t^4-1)^2/D_b(t)^3 cancelled;
+                          all eight normalized coefficients have degree <=8
+compact factor:           B1(W)=k_b(t^2-1)(t^4+1)(t^2-W)
+necessary outside cut:   two denominator-cleared equations for arbitrary
+                          source roots carrying DE+=de and DE-=-de
+localized exact result:  unit ideal on each branch after all necessary
+                          common, leading-support, outside, and disjointness
+                          guards
+symmetry consequence:    all four raw cell-0 rows PROVED empty
+remaining frontier:      six representatives / 40 raw rows:
+                          [3,6],[4,7],[9,10],[11],[12,13],[14]
+kernel result hash:       9b846a05e43b092b2f4b41658424d0ab70bf910e9d79a48be49db6d38f573167
+pair result hash:         70f18a761f952475c43156daeffac5d874c981a790fecc76c40b05ec3b421e69
+specialization hash:     6e08887afefdeb156d95b53aa7d4fde010c6e3a900925f810f7ec1b52ea23860
+Modal apps:               ap-rB4OCdbT9MTKP2guGefD9h,
+                          ap-7cyD7G1KhRnTlcf9DDH6gH,
+                          ap-kQukNglvAmZaKnroehaIPR
+retired presentation:    direct generic four-equation jobs timed out at
+                          240s; no mathematical conclusion is drawn
+next route step:          triangularize [3,6], then attempt the same
+                          necessary signed-pair elimination componentwise
+nonclaim:                 no deletion of the six remaining representatives,
+                          positive route, K3, Prize rows, LIST, or MCA
 ```

@@ -1,0 +1,1638 @@
+{
+  "result": {
+    "branch_rational_coefficients": [
+      {
+        "b": 1547071505,
+        "c_denominator": "-33423356*t**2 - 583634931",
+        "c_numerator": "533276353*t**2 + 83781934",
+        "coefficients": {
+          "a00": {
+            "denominator": "33423360*t**6 + 50805654*t**4 + 100270068*t**2 + 583634931",
+            "denominator_degree": 6,
+            "denominator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 668978722"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 668978722"
+              }
+            ],
+            "numerator": "-368307563*t**22 + 409529317*t**20 - 519552258*t**18 - 819058634*t**16 + 13320772*t**14 + 409529317*t**12 + 874539049*t**10",
+            "numerator_degree": 22,
+            "numerator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 546086985"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 546086985"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 10,
+                "polynomial": "t"
+              },
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "polynomial": "t**2 - 1025721607"
+              }
+            ],
+            "value_at_t2": 344837859
+          },
+          "a01": {
+            "denominator": "33423360*t**6 + 50805654*t**4 + 100270068*t**2 + 583634931",
+            "denominator_degree": 6,
+            "denominator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 668978722"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 668978722"
+              }
+            ],
+            "numerator": "-41221754*t**22 + 409529317*t**20 - 327085809*t**18 - 409529317*t**16 + 409529317*t**14 - 409529317*t**12 + 327085809*t**10 + 409529317*t**8 - 368307563*t**6",
+            "numerator_degree": 22,
+            "numerator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 6,
+                "polynomial": "t"
+              }
+            ],
+            "value_at_t2": 1177144504
+          },
+          "a02": {
+            "denominator": "33423360*t**6 + 50805654*t**4 + 100270068*t**2 + 583634931",
+            "denominator_degree": 6,
+            "denominator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 668978722"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 668978722"
+              }
+            ],
+            "numerator": "846638067*t**18 + 409529317*t**16 + 396208545*t**14 - 819058634*t**12 + 929081575*t**10 + 409529317*t**8 - 41221754*t**6",
+            "numerator_degree": 18,
+            "numerator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 6,
+                "polynomial": "t"
+              },
+              {
+                "degree": 4,
+                "multiplicity": 1,
+                "polynomial": "t**4 - 975287791*t**2 - 380755021"
+              }
+            ],
+            "value_at_t2": 210960556
+          },
+          "a20": {
+            "denominator": "33423360*t**6 + 50805654*t**4 + 100270068*t**2 + 583634931",
+            "denominator_degree": 6,
+            "denominator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 668978722"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 668978722"
+              }
+            ],
+            "numerator": "-100959807*t**22 - 424351022*t**20 - 188530360*t**18 + 848702044*t**16 + 679940141*t**14 - 424351022*t**12 - 390449974*t**10",
+            "numerator_degree": 22,
+            "numerator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 96260375"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 852408118"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 852408118"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 96260375"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 10,
+                "polynomial": "t"
+              }
+            ],
+            "value_at_t2": 300413212
+          },
+          "a21": {
+            "denominator": "33423360*t**6 + 50805654*t**4 + 100270068*t**2 + 583634931",
+            "denominator_degree": 6,
+            "denominator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 668978722"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 668978722"
+              }
+            ],
+            "numerator": "525310829*t**22 - 424351022*t**20 - 626270636*t**18 + 424351022*t**16 - 424351022*t**14 + 424351022*t**12 + 626270636*t**10 - 424351022*t**8 - 100959807*t**6",
+            "numerator_degree": 22,
+            "numerator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 6,
+                "polynomial": "t"
+              }
+            ],
+            "value_at_t2": 1506114005
+          },
+          "a22": {
+            "denominator": "33423360*t**6 + 50805654*t**4 + 100270068*t**2 + 583634931",
+            "denominator_degree": 6,
+            "denominator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 668978722"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 668978722"
+              }
+            ],
+            "numerator": "814800996*t**18 - 424351022*t**16 + 1026415270*t**14 + 848702044*t**12 - 235820662*t**10 - 424351022*t**8 + 525310829*t**6",
+            "numerator_degree": 18,
+            "numerator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 6,
+                "polynomial": "t"
+              },
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "polynomial": "t**2 + 292902101*t + 536463368"
+              },
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "polynomial": "t**2 - 292902101*t + 536463368"
+              }
+            ],
+            "value_at_t2": 2093243221
+          },
+          "b10": {
+            "denominator": "33423360*t**6 + 50805654*t**4 + 100270068*t**2 + 583634931",
+            "denominator_degree": 6,
+            "denominator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 668978722"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 668978722"
+              }
+            ],
+            "numerator": "-14821705*t**22 + 14821705*t**20 + 14821705*t**18 - 14821705*t**16 + 14821705*t**14 - 14821705*t**12 - 14821705*t**10 + 14821705*t**8",
+            "numerator_degree": 22,
+            "numerator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 8,
+                "polynomial": "t"
+              }
+            ],
+            "value_at_t2": 1012541256
+          },
+          "b11": {
+            "denominator": "33423360*t**6 + 50805654*t**4 + 100270068*t**2 + 583634931",
+            "denominator_degree": 6,
+            "denominator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 668978722"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 668978722"
+              }
+            ],
+            "numerator": "14821705*t**20 - 14821705*t**18 - 14821705*t**16 + 14821705*t**14 - 14821705*t**12 + 14821705*t**10 + 14821705*t**8 - 14821705*t**6",
+            "numerator_degree": 20,
+            "numerator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 6,
+                "polynomial": "t"
+              }
+            ],
+            "value_at_t2": 1877571119
+          }
+        },
+        "common_scale": {
+          "denominator": "t**6 - 957701393*t**4 + 50135037*t**2 - 382534071",
+          "denominator_degree": 6,
+          "numerator": "t**14 - 2*t**10 + t**6",
+          "numerator_degree": 14,
+          "numerator_factors": [
+            {
+              "degree": 1,
+              "multiplicity": 2,
+              "polynomial": "t + 1"
+            },
+            {
+              "degree": 1,
+              "multiplicity": 2,
+              "polynomial": "t + 16711679"
+            },
+            {
+              "degree": 1,
+              "multiplicity": 2,
+              "polynomial": "t - 16711679"
+            },
+            {
+              "degree": 1,
+              "multiplicity": 2,
+              "polynomial": "t - 1"
+            },
+            {
+              "degree": 1,
+              "multiplicity": 6,
+              "polynomial": "t"
+            }
+          ]
+        },
+        "normalized_coefficients": {
+          "a00": {
+            "degree": 8,
+            "factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 546086985"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 546086985"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 4,
+                "polynomial": "t"
+              },
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "polynomial": "t**2 - 1025721607"
+              }
+            ],
+            "polynomial": "450905156*t**8 - 881199435*t**6 - 244015475*t**4",
+            "terms": 3,
+            "value_at_t2": 1863047671
+          },
+          "a01": {
+            "degree": 8,
+            "factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 382534071"
+              }
+            ],
+            "polynomial": "430294279*t**8 - 881199435*t**6 + 881199435*t**4 - 881199435*t**2 + 450905156",
+            "terms": 5,
+            "value_at_t2": 862676970
+          },
+          "a02": {
+            "degree": 4,
+            "factors": [
+              {
+                "degree": 4,
+                "multiplicity": 1,
+                "polynomial": "t**4 - 975287791*t**2 - 380755021"
+              }
+            ],
+            "polynomial": "-1005491523*t**4 - 881199435*t**2 + 430294279",
+            "terms": 3,
+            "value_at_t2": 2124696501
+          },
+          "a20": {
+            "degree": 8,
+            "factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 96260375"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 852408118"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 852408118"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 96260375"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 4,
+                "polynomial": "t"
+              }
+            ],
+            "polynomial": "-156567659*t**8 - 1014873313*t**6 - 284955707*t**4",
+            "terms": 3,
+            "value_at_t2": 1204230468
+          },
+          "a21": {
+            "degree": 8,
+            "factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 382534071"
+              }
+            ],
+            "polynomial": "-959265461*t**8 - 1014873313*t**6 + 1014873313*t**4 - 1014873313*t**2 - 156567659",
+            "terms": 5,
+            "value_at_t2": 1927669102
+          },
+          "a22": {
+            "degree": 4,
+            "factors": [
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "polynomial": "t**2 + 292902101*t + 536463368"
+              },
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "polynomial": "t**2 - 292902101*t + 536463368"
+              }
+            ],
+            "polynomial": "-830877413*t**4 - 1014873313*t**2 - 959265461",
+            "terms": 3,
+            "value_at_t2": 863560576
+          },
+          "b10": {
+            "degree": 8,
+            "factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t"
+              }
+            ],
+            "polynomial": "234633685*t**8 - 234633685*t**6 + 234633685*t**4 - 234633685*t**2",
+            "terms": 4,
+            "value_at_t2": 989730214
+          },
+          "b11": {
+            "degree": 6,
+            "factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 1"
+              }
+            ],
+            "polynomial": "-234633685*t**6 + 234633685*t**4 - 234633685*t**2 + 234633685",
+            "terms": 4,
+            "value_at_t2": 817920663
+          }
+        }
+      },
+      {
+        "b": 583634934,
+        "c_denominator": "583634931 - 33423356*t**2",
+        "c_numerator": "49911498 - 600123073*t**2",
+        "coefficients": {
+          "a00": {
+            "denominator": "267386880*t**6 - 406445232*t**4 + 802160544*t**2 - 407666582",
+            "denominator_degree": 6,
+            "denominator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 665723362"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 665723362"
+              }
+            ],
+            "numerator": "-341924638*t**22 + 230233141*t**20 + 616578229*t**18 - 460466282*t**16 - 207382544*t**14 + 230233141*t**12 - 67271047*t**10",
+            "numerator_degree": 22,
+            "numerator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 96260375"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 852408118"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 852408118"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 96260375"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 10,
+                "polynomial": "t"
+              }
+            ],
+            "value_at_t2": 1324520413
+          },
+          "a01": {
+            "denominator": "267386880*t**6 - 406445232*t**4 + 802160544*t**2 - 407666582",
+            "denominator_degree": 6,
+            "denominator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 665723362"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 665723362"
+              }
+            ],
+            "numerator": "111691497*t**22 + 230233141*t**20 - 453616135*t**18 - 230233141*t**16 + 230233141*t**14 - 230233141*t**12 + 453616135*t**10 + 230233141*t**8 - 341924638*t**6",
+            "numerator_degree": 22,
+            "numerator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 6,
+                "polynomial": "t"
+              }
+            ],
+            "value_at_t2": 1575652663
+          },
+          "a02": {
+            "denominator": "267386880*t**6 - 406445232*t**4 + 802160544*t**2 - 407666582",
+            "denominator_degree": 6,
+            "denominator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 665723362"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 665723362"
+              }
+            ],
+            "numerator": "-162962094*t**18 + 230233141*t**16 + 437615685*t**14 - 460466282*t**12 - 386345088*t**10 + 230233141*t**8 + 111691497*t**6",
+            "numerator_degree": 18,
+            "numerator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 6,
+                "polynomial": "t"
+              },
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "polynomial": "t**2 + 292902101*t + 536463368"
+              },
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "polynomial": "t**2 - 292902101*t + 536463368"
+              }
+            ],
+            "value_at_t2": 1298336092
+          },
+          "a20": {
+            "denominator": "267386880*t**6 - 406445232*t**4 + 802160544*t**2 - 407666582",
+            "denominator_degree": 6,
+            "denominator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 665723362"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 665723362"
+              }
+            ],
+            "numerator": "975441892*t**22 - 631718574*t**20 + 15061875*t**18 - 867269285*t**16 - 825742993*t**14 - 631718574*t**12 - 164760774*t**10",
+            "numerator_degree": 22,
+            "numerator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 546086985"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 546086985"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 10,
+                "polynomial": "t"
+              },
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "polynomial": "t**2 - 1025721607"
+              }
+            ],
+            "value_at_t2": 1163500319
+          },
+          "a21": {
+            "denominator": "267386880*t**6 - 406445232*t**4 + 802160544*t**2 - 407666582",
+            "denominator_degree": 6,
+            "denominator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 665723362"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 665723362"
+              }
+            ],
+            "numerator": "-343723318*t**22 - 631718574*t**20 - 811541223*t**18 + 631718574*t**16 - 631718574*t**14 + 631718574*t**12 + 811541223*t**10 - 631718574*t**8 + 975441892*t**6",
+            "numerator_degree": 22,
+            "numerator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 6,
+                "polynomial": "t"
+              }
+            ],
+            "value_at_t2": 549750826
+          },
+          "a22": {
+            "denominator": "267386880*t**6 - 406445232*t**4 + 802160544*t**2 - 407666582",
+            "denominator_degree": 6,
+            "denominator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 665723362"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 665723362"
+              }
+            ],
+            "numerator": "796479348*t**18 - 631718574*t**16 + 194024419*t**14 - 867269285*t**12 - 646780449*t**10 - 631718574*t**8 - 343723318*t**6",
+            "numerator_degree": 18,
+            "numerator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 6,
+                "polynomial": "t"
+              },
+              {
+                "degree": 4,
+                "multiplicity": 1,
+                "polynomial": "t**4 - 975287791*t**2 - 380755021"
+              }
+            ],
+            "value_at_t2": 1520548245
+          },
+          "b10": {
+            "denominator": "267386880*t**6 - 406445232*t**4 + 802160544*t**2 - 407666582",
+            "denominator_degree": 6,
+            "denominator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 665723362"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 665723362"
+              }
+            ],
+            "numerator": "-401485433*t**22 + 401485433*t**20 + 401485433*t**18 - 401485433*t**16 + 401485433*t**14 - 401485433*t**12 - 401485433*t**10 + 401485433*t**8",
+            "numerator_degree": 22,
+            "numerator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 8,
+                "polynomial": "t"
+              }
+            ],
+            "value_at_t2": 743787421
+          },
+          "b11": {
+            "denominator": "267386880*t**6 - 406445232*t**4 + 802160544*t**2 - 407666582",
+            "denominator_degree": 6,
+            "denominator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 665723362"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 665723362"
+              }
+            ],
+            "numerator": "401485433*t**20 - 401485433*t**18 - 401485433*t**16 + 401485433*t**14 - 401485433*t**12 + 401485433*t**10 + 401485433*t**8 - 401485433*t**6",
+            "numerator_degree": 20,
+            "numerator_factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 16711679"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 3,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 6,
+                "polynomial": "t"
+              }
+            ],
+            "value_at_t2": 346729753
+          }
+        },
+        "common_scale": {
+          "denominator": "t**6 + 957701393*t**4 + 50135037*t**2 + 382534071",
+          "denominator_degree": 6,
+          "numerator": "t**14 - 2*t**10 + t**6",
+          "numerator_degree": 14,
+          "numerator_factors": [
+            {
+              "degree": 1,
+              "multiplicity": 2,
+              "polynomial": "t + 1"
+            },
+            {
+              "degree": 1,
+              "multiplicity": 2,
+              "polynomial": "t + 16711679"
+            },
+            {
+              "degree": 1,
+              "multiplicity": 2,
+              "polynomial": "t - 16711679"
+            },
+            {
+              "degree": 1,
+              "multiplicity": 2,
+              "polynomial": "t - 1"
+            },
+            {
+              "degree": 1,
+              "multiplicity": 6,
+              "polynomial": "t"
+            }
+          ]
+        },
+        "normalized_coefficients": {
+          "a00": {
+            "degree": 8,
+            "factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 96260375"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 852408118"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 852408118"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 96260375"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 4,
+                "polynomial": "t"
+              }
+            ],
+            "polynomial": "451916528*t**8 + 287708594*t**6 - 658808833*t**4",
+            "terms": 3,
+            "value_at_t2": 2112773175
+          },
+          "a01": {
+            "degree": 8,
+            "factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 382534071"
+              }
+            ],
+            "polynomial": "-739625122*t**8 + 287708594*t**6 - 287708594*t**4 + 287708594*t**2 + 451916528",
+            "terms": 5,
+            "value_at_t2": 786659690
+          },
+          "a02": {
+            "degree": 4,
+            "factors": [
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "polynomial": "t**2 + 292902101*t + 536463368"
+              },
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "polynomial": "t**2 - 292902101*t + 536463368"
+              }
+            ],
+            "polynomial": "371100239*t**4 + 287708594*t**2 - 739625122",
+            "terms": 3,
+            "value_at_t2": 2087400212
+          },
+          "a20": {
+            "degree": 8,
+            "factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 546086985"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 546086985"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 4,
+                "polynomial": "t"
+              },
+              {
+                "degree": 2,
+                "multiplicity": 1,
+                "polynomial": "t**2 - 1025721607"
+              }
+            ],
+            "polynomial": "440731369*t**8 + 471711490*t**6 - 993259148*t**4",
+            "terms": 3,
+            "value_at_t2": 1412939909
+          },
+          "a21": {
+            "degree": 8,
+            "factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t + 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t - 382534071"
+              }
+            ],
+            "polynomial": "-912442859*t**8 + 471711490*t**6 - 471711490*t**4 + 471711490*t**2 + 440731369",
+            "terms": 5,
+            "value_at_t2": 193587379
+          },
+          "a22": {
+            "degree": 4,
+            "factors": [
+              {
+                "degree": 4,
+                "multiplicity": 1,
+                "polynomial": "t**4 - 975287791*t**2 - 380755021"
+              }
+            ],
+            "polynomial": "521547658*t**4 + 471711490*t**2 - 912442859",
+            "terms": 3,
+            "value_at_t2": 796339897
+          },
+          "b10": {
+            "degree": 8,
+            "factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 2,
+                "polynomial": "t"
+              }
+            ],
+            "polynomial": "759420084*t**8 - 759420084*t**6 + 759420084*t**4 - 759420084*t**2",
+            "terms": 4,
+            "value_at_t2": 1510833960
+          },
+          "b11": {
+            "degree": 6,
+            "factors": [
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 1"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t + 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 391001680"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 382534071"
+              },
+              {
+                "degree": 1,
+                "multiplicity": 1,
+                "polynomial": "t - 1"
+              }
+            ],
+            "polynomial": "-759420084*t**6 + 759420084*t**4 - 759420084*t**2 + 759420084",
+            "terms": 4,
+            "value_at_t2": 1752997943
+          }
+        }
+      }
+    ],
+    "branch_roots": [
+      1547071505,
+      583634934
+    ],
+    "cell": 0,
+    "common_gcd_shape": {
+      "degree": 0,
+      "terms": 1
+    },
+    "epsilon": [
+      -1,
+      -1
+    ],
+    "field": 2130706433,
+    "input_shape": {
+      "a00": {
+        "degree": 16,
+        "terms": 36
+      },
+      "a01": {
+        "degree": 14,
+        "terms": 32
+      },
+      "a02": {
+        "degree": 12,
+        "terms": 36
+      },
+      "a20": {
+        "degree": 15,
+        "terms": 36
+      },
+      "a21": {
+        "degree": 13,
+        "terms": 32
+      },
+      "a22": {
+        "degree": 11,
+        "terms": 36
+      },
+      "b10": {
+        "degree": 16,
+        "terms": 88
+      },
+      "b11": {
+        "degree": 14,
+        "terms": 88
+      }
+    },
+    "program_sha256": "a32345ac98b0bf6e723c8c6420c011a7d734a1b6abdd9953cfaf146716b3c229",
+    "status": "COMPLETE",
+    "stderr": "",
+    "stdout": "BEGIN_REDUCTIONS\na20\n-8c3t2+66846720c3+810549095c2t2-342621951c2-443019843ct2-827589477c+802160572bt16+660078893bt14-476315923bt12-818676226bt10+592971489bt8+702019156bt6-701496276bt4-894695605bt2+133953920b-133693428t16+267386828t14+467927084t12+58458197t10+944242391t8+392692153t6-16777382t4+952369718t2-342882447\na21\n-66846720c3t2+66846720c3-192151713c2t2-601620320c2+401343160ct2-719059634c-334233628bt16-192151541bt14-818937606bt12+827325733bt10-476314627bt8-117178790bt6-400557552bt4+33032580bt2-651691002b+66846724t16-334233604t14+802160600t12+793772169t10+467926876t8+342622275t6+1044381923t4-760479077t2+183764106\na22\n-66846720c3t2+133693432c3+75235103c2t2-401080152c2-801897624ct2+408945927c+192151581bt12+359399025bt10-292551681bt8+902298880bt6+125827929bt4+358877549bt2+484703150b+334233596t12+994312261t10-927465653t8-793771909t6+776995019t4+501220068t2-885783318\na00\n-935854040c3t2+869007280c3+468186672c2t2+217318830c2+380638011ct2-942907976c+417857138bt16-33552680bt14+200014932bt12+160686497bt10-327661537bt8+131584904bt6-702568035bt4-983265419bt2-993802233b-802160572t16-660078893t14-576454495t12-284424906t10+1011348383t8-41416803t6-602927408t4+366225532t2+275266935\na01\n-200540176c3t2+467927024c3+509869067c2t2+584844178c2-750514014ct2+431759076c+192151389bt16+643563583bt14+149947830bt12-634392732bt10-259254453bt8-360450465bt6+771743044bt4+81278894bt2-584587090b+334233628t16+192151541t14+818937606t12-827325733t10+476314627t8+117178790t6+400557552t4+32772012t2-560194925\na02\n467926960c3t2+267386920c3-150208182c2t2+183501826c2-589017026ct2-399004728c+1027866129bt12+267127188bt10+16250690bt8+570417824bt6+139482023bt4+1010553327bt2-900990748b+860618837t12+743702107t10+818938242t8+567805200t6-952110678t4-1019742950t2+825494157\nb10\n802160640c3t2+1061158977c3-359659061c2t2+16775230c2+372234931ct2+641708852c+1052770962bt16-25167293bt14-299894236bt12-461363721bt10+285196398bt8+587211322bt6-775926244bt4-696288876bt2+333461688b+534773648t16-1061158657t14+492830981t12-985663114t10+484444886t8-100664820t6-750783846t4+661641617t2-316686330\nb11\n64c3t2-802160640c3+968885452c2t2+342882359c2-700474028ct2-724558473c-1052770962bt14+25167293bt12+299894236bt10+461363721bt8-285196398bt6-587211322bt4-1040198883bt2+48245882b-534773648t14+1061158657t12-492830981t10+985663114t8-484444886t6+100664820t4-734006920t2+821021822\nEND_REDUCTIONS\nBEGIN_BRANCH_1547071505\na20\n-8c3t2+66846720c3+810549095c2t2-342621951c2-443019843ct2-827589477c-156567659t16+607692065t14-765277162t12-871285525t10+284115841t8+1020941554t6+883393435t4-1007958013t2+463962145\n66846688c3+768867996c2-468962416c+54127368\na21\n-66846720c3t2+66846720c3-192151713c2t2-601620320c2+401343160ct2-719059634c-959265461t16+923251048t14+312120450t12+106949882t10-755360343t8-939163050t6-629378225t4+246967097t2+39227728\n-200540160c3+760479261c2+886313006c-971043047\na22\n-66846720c3t2+133693432c3+75235103c2t2-401080152c2-801897624ct2+408945927c-830877413t12-16154906t10+310054226t8-761588031t6+18518106t4+991576909t2+288211173\n-133693448c3-100139740c2-667938136c+1059071022\na00\n-935854040c3t2+869007280c3+468186672c2t2+217318830c2+380638011ct2-942907976c+450905156t16+27963254t14+549749468t12+764816235t10+109741216t8+275167741t6+535093085t4-528441206t2+761795690\n-743702447c3-40640915c2+579644068c+266885877\na01\n-200540176c3t2+467927024c3+509869067c2t2+584844178c2-750514014ct2+431759076c+430294279t16-904171705t14+690402388t12-383307163t10-185816494t8-131306754t6-644009044t4+719020479t2-737187321\n-334233680c3+493614013c2-439590547c+486323296\na02\n467926960c3t2+267386920c3-150208182c2t2+183501826c2-589017026ct2-399004728c-1005491523t12+651810225t10-525581920t8+655118741t6+375338951t4-172531469t2-264664523\n8388327c3-417330902c2-624366399c+493038126\nb10\n802160640c3t2+1061158977c3-359659061c2t2+16775230c2+372234931ct2+641708852c+234633685t16-420100977t14+629272815t12+376444067t10-991414892t8+1020121340t6+481165032t4-613287896t2+372607624\n8388671c3+708845419c2-57857c+534860797\nb11\n64c3t2-802160640c3+968885452c2t2+342882359c2-700474028ct2-724558473c-234633685t14+420100977t12-629272815t10-376444067t8+991414892t6-1020121340t4+364654099t2-923952516\n-802160384c3-42988699c2+734958281c+207442994\nEND_BRANCH_1547071505\nBEGIN_BRANCH_583634934\na20\n-8c3t2+66846720c3+810549095c2t2-342621951c2-443019843ct2-827589477c+440731369t16-373857917t14+973942225t12+337557429t10+900785009t8-284855178t6-864512989t4-324769748t2-346003519\n66846688c3+768867996c2-468962416c+213994265\na21\n-66846720c3t2+66846720c3-192151713c2t2-601620320c2+401343160ct2-719059634c-912442859t16-613921069t14+639987980t12+52429555t10+964032766t8+921334860t6+314796759t4+560976662t2+679567338\n-200540160c3+760479261c2+886313006c+418656585\na22\n-66846720c3t2+133693432c3+75235103c2t2-401080152c2-801897624ct2+408945927c+521547658t12-100239288t10+341117248t8+326424627t6+159733073t4+33422088t2+848441091\n-133693448c3-100139740c2-667938136c-252151548\na00\n-935854040c3t2+869007280c3+468186672c2t2+217318830c2+380638011ct2-942907976c+451916528t16+581269313t14-502568866t12-369547065t10-53013672t8+431508077t6+435763188t4-377287378t2+218044081\n-743702447c3-40640915c2+579644068c+380483222\na01\n-200540176c3t2+467927024c3+509869067c2t2+584844178c2-750514014ct2+431759076c-739625122t16+888443419t14-283546629t12-816287829t10-417080970t8+333667977t6-316536887t4-165803091t2+370687797\n-334233680c3+493614013c2-439590547c+801464507\na02\n467926960c3t2+267386920c3-150208182c2t2+183501826c2-589017026ct2-399004728c+371100239t12+307650684t10+130256111t8-358414263t6+688038264t4-65047335t2+771121215\n8388327c3-417330902c2-624366399c-988534533\nb10\n802160640c3t2+1061158977c3-359659061c2t2+16775230c2+372234931ct2+641708852c+759420084t16+277486338t14+687730164t12-854539755t10-589929814t8+171110519t6-246170889t4-110455693t2+994789844\n8388671c3+708845419c2-57857c-156516368\nb11\n64c3t2-802160640c3+968885452c2t2+342882359c2-700474028ct2-724558473c-759420084t14-277486338t12-687730164t10+854539755t8+589929814t6-171110519t4+448964495t2+724765019\n-802160384c3-42988699c2+734958281c-417396130\nEND_BRANCH_583634934\n"
+  },
+  "schema": "rate-half-kb-positive-433-1a-cell0-kernel-reduction-v1",
+  "scope": "Exact reduction of the unique common coefficient kernel on the two cell-0 lex branches; no outside, route, K3, or Prize claim."
+}

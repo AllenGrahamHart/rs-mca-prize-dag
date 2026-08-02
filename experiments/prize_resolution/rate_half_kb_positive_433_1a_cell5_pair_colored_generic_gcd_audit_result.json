@@ -1,0 +1,62 @@
+[
+  {
+    "certificate_sha256": "710b438062fc2e80f5c7b14ffb987d8f36a02d4b57953b30419bb320b88877a7",
+    "elapsed_seconds": 9.263035272,
+    "factor": 1,
+    "factorization_sha256": "00c4a7f0c90726b91b2310fa184d5eaf0ca3fab2b4d6a6ada1a4e1ae10f75cae",
+    "program_sha256": "118e36206f215c7774fee5d79a25d4c4fefdeac918ca03d5d6508a096d20d95f",
+    "returncode": 0,
+    "scope": "independent exact replay of the returned generic Bezout identity and its common-factor support; source-equation reconstruction and exceptional t fibers remain separate",
+    "status": "COMPLETE",
+    "stderr": "",
+    "stdout": "COLORED_GENERIC_GCD_AUDIT_PASS factor=1 factor_degree=4 common=e2_minus_1\n"
+  },
+  {
+    "certificate_sha256": "710b438062fc2e80f5c7b14ffb987d8f36a02d4b57953b30419bb320b88877a7",
+    "elapsed_seconds": 7.918656031,
+    "factor": 2,
+    "factorization_sha256": "00c4a7f0c90726b91b2310fa184d5eaf0ca3fab2b4d6a6ada1a4e1ae10f75cae",
+    "program_sha256": "509d2c78c79b446196aee2ab021b9320ae6c1ecc54d0a3d972fe8c589c96d1b5",
+    "returncode": 0,
+    "scope": "independent exact replay of the returned generic Bezout identity and its common-factor support; source-equation reconstruction and exceptional t fibers remain separate",
+    "status": "COMPLETE",
+    "stderr": "",
+    "stdout": "COLORED_GENERIC_GCD_AUDIT_PASS factor=2 factor_degree=4 common=e2_minus_1\n"
+  },
+  {
+    "certificate_sha256": "710b438062fc2e80f5c7b14ffb987d8f36a02d4b57953b30419bb320b88877a7",
+    "elapsed_seconds": 9.596732811,
+    "factor": 3,
+    "factorization_sha256": "00c4a7f0c90726b91b2310fa184d5eaf0ca3fab2b4d6a6ada1a4e1ae10f75cae",
+    "program_sha256": "d9b5df1a105d61c9dd2ff8f815d8b9fb8e856535c21888a9dbd5c2f8497a574a",
+    "returncode": 0,
+    "scope": "independent exact replay of the returned generic Bezout identity and its common-factor support; source-equation reconstruction and exceptional t fibers remain separate",
+    "status": "COMPLETE",
+    "stderr": "",
+    "stdout": "COLORED_GENERIC_GCD_AUDIT_PASS factor=3 factor_degree=4 common=e2_minus_1\n"
+  },
+  {
+    "certificate_sha256": "710b438062fc2e80f5c7b14ffb987d8f36a02d4b57953b30419bb320b88877a7",
+    "elapsed_seconds": 13.850639602000001,
+    "factor": 4,
+    "factorization_sha256": "00c4a7f0c90726b91b2310fa184d5eaf0ca3fab2b4d6a6ada1a4e1ae10f75cae",
+    "program_sha256": "1aeb759de824d5c15ea98c367d594975eb72fd95177662d967dfa81ebfecb3a1",
+    "returncode": 0,
+    "scope": "independent exact replay of the returned generic Bezout identity and its common-factor support; source-equation reconstruction and exceptional t fibers remain separate",
+    "status": "COMPLETE",
+    "stderr": "",
+    "stdout": "COLORED_GENERIC_GCD_AUDIT_PASS factor=4 factor_degree=8 common=one\n"
+  },
+  {
+    "certificate_sha256": "710b438062fc2e80f5c7b14ffb987d8f36a02d4b57953b30419bb320b88877a7",
+    "elapsed_seconds": 7.960025965,
+    "factor": 5,
+    "factorization_sha256": "00c4a7f0c90726b91b2310fa184d5eaf0ca3fab2b4d6a6ada1a4e1ae10f75cae",
+    "program_sha256": "44daee2e4b4840f8bc4c91dd908b17e2217f30a46554452e2f05cde9b8221517",
+    "returncode": 0,
+    "scope": "independent exact replay of the returned generic Bezout identity and its common-factor support; source-equation reconstruction and exceptional t fibers remain separate",
+    "status": "COMPLETE",
+    "stderr": "",
+    "stdout": "COLORED_GENERIC_GCD_AUDIT_PASS factor=5 factor_degree=4 common=e2_minus_1\n"
+  }
+]
