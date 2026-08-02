@@ -1,0 +1,13 @@
+{
+  "basis_sha256": "8fd93095924f616770e49257ae45f255a8859f43c4f87100859cadfc8cc77ed6",
+  "cleared_packet_sha256": "664ffeb8b6093302a6b5cd795d59a09363e1d5beaeb6bd12c4fe48a4d9e38c82",
+  "cleared_sha256": "3b5d05c9122ca4a8af74db4381872b96105f5d635df08c4eca9f7204df313957",
+  "coefficients_sha256": "cb2a07bc8e8d70f25220d89133b02750d05db59c1105856d13bc33c758ba9c11",
+  "factorization_sha256": "8c5594c1241f4887830505eec90660333a0214e9c6431b0282a8901096554b1a",
+  "max_polynomial_length": 203,
+  "ntt_prime": 2130706433,
+  "packet_bytes": 3402180,
+  "packet_sha256": "c10acad4d6e6971fb978498f49a1a8306326b81f23c6cdf3c06cb318ba6f61d3",
+  "record_count": 5160,
+  "schema": "rate-half-kb-positive-433-1a-cell5-guard-cleared-v1"
+}

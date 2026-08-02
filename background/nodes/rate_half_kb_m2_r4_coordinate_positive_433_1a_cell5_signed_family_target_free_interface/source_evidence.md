@@ -43,3 +43,19 @@
   `rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic`
   gives the one-generator reciprocal projection and its residual trace conic
   (`ap-D4GXYWOVhTEiEfabnKO9Ht`).
+- The exact Nemo/Groebner.jl continuation computes an 18-element Groebner
+  basis and a 64-dimensional quotient for the chart-2 squared `DE+/DE-`
+  pair.  Guard multiplication has ranks `(32,24,24)` after specialization at
+  each of `t=2,3,4,5`; an exact rational factorization proves generic
+  `rank(M^2)=24`, and the regular `t=2` specialization proves
+  `rank(M^3)>=24`.  Modal apps `ap-iL0NlhcML6PNSbeivvlEzy`,
+  `ap-EYSaER3gP4AUY24qgSBR9R`, and
+  `ap-8fGTO2L3xlaWIjHUftJLn3` produced the exact packets.
+- An independent standard-library checker clears every rational denominator
+  and replays all 5,160 resulting polynomial identities by a 512-point NTT;
+  every residual has degree at most 380.  Its cleared packet was produced in
+  `ap-oXrrTGaRKqCJ4dWcE3nwht` and has SHA-256
+  `664ffeb8b6093302a6b5cd795d59a09363e1d5beaeb6bd12c4fe48a4d9e38c82`.
+  A hostile audit rejects a dropped shard, changed coordinate, and flipped
+  packet byte.  These certificates prove localized length 24, not
+  reducedness or a component count.

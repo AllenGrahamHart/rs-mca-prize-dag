@@ -21149,6 +21149,42 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank",
+   "title": "KoalaBear positive 433-1a cell-5 signed-pair guard stable rank",
+   "status": "PROVED",
+   "closure": "exact generic guard-localized signed-pair length 24",
+   "statement": "In deployed characteristic over F_p(t), the chart-2 squared DE+/DE- quotient has dimension 64 before guard localization and guard-multiplication ranks rank(M^2)=rank(M^3)=24, hence localized length 24. This does not prove reducedness, classify components or exceptional fibers, impose source or colored guards, delete a cell, route, or K3 row, or prove either Prize result.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/verify_audit.py",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_pair_guard_stable_rank.py",
+    "experiments/prize_resolution/audit_rate_half_kb_positive_433_1a_cell5_pair_guard_stable_rank.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_function_field_julia_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_function_field_julia_basis_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_normal_forms_modal.py",
+    "experiments/prize_resolution/pack_rate_half_kb_positive_433_1a_cell5_pair_guard_matrix.py",
+    "experiments/prize_resolution/compute_rate_half_kb_positive_433_1a_cell5_pair_guard_pivots.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_factorization_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_cleared_modal.py",
+    "experiments/prize_resolution/pack_rate_half_kb_positive_433_1a_cell5_pair_guard_cleared.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_cleared.bin",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_cleared_meta.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_square_matrix_coefficients.bin",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_square_matrix_coefficients_meta.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_square_pivots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_guard_square_factorization_structured_result.json"
+   ]
+  },
+  {
    "id": "dli_c1_256_block_basis_factorization",
    "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
    "status": "PROVED",
@@ -41911,6 +41947,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

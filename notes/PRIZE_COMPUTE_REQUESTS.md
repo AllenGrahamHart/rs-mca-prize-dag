@@ -11378,3 +11378,45 @@ precise: implement the same four-generator system over
 `GF(p)(t)[b]/(P)` in Nemo/FLINT/Magma (or another efficient rational-function
 backend), return the signed-pair regular-chain/component ledger, and only
 then append the compact colored norm.
+
+### 2026-08-01 signed-pair stable-rank completion and revised request
+
+The generic four-generator backend request above is now superseded.  The
+Nemo/Groebner.jl route computes the exact chart-2 squared `DE+/DE-` quotient
+over `F_2130706433(t)`: an 18-element Groebner basis gives vector dimension
+64.  If `M` is multiplication by `g=d0*d1`, exact rational certificates give
+
+```text
+rank(M^2)=rank(M^3)=24,
+dim A[g^-1]=24.
+```
+
+The upper bound is a checked factorization of all 64 columns through the
+first 24 columns of `M^2`; the lower bound is the nonzero top-left minor at
+the regular fiber `t=2`.  An independent checker clears denominators and
+verifies all 5,160 polynomial identities with a 512-point NTT, above their
+maximum degree 380.  A hostile audit rejects three certificate mutations.
+
+Authoritative Modal apps, all stopped after bounded runs:
+
+```text
+ap-iL0NlhcML6PNSbeivvlEzy   M^2 normal forms
+ap-EYSaER3gP4AUY24qgSBR9R   one-column retry
+ap-8fGTO2L3xlaWIjHUftJLn3   exact structured rank factorization
+ap-oXrrTGaRKqCJ4dWcE3nwht   cleared-denominator certificate
+```
+
+The revised contributed-compute request is not another standard basis.
+Starting from the hash-pinned length-24 localized algebra:
+
+1. determine its radical and residue-field factorization over `F_p(t)`;
+2. certify nilpotent multiplicities if it is not reduced;
+3. compute the finite exceptional-`t` discriminant and denominator locus;
+4. restore the source-root square, nonzero, and distinctness guards on each
+   surviving factor;
+5. evaluate the compact colored `BE` norm factor by factor.
+
+Return exact factor polynomials, guard norms, and independently replayable
+certificates.  Do not call the length 24 a component count, sample only
+special fibers, retry the failed generic basis, or append the colored norm
+before the residue ledger is known.

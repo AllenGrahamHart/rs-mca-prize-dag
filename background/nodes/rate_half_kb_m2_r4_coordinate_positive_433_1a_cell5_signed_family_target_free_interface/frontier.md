@@ -44,7 +44,16 @@ auxiliaries for its six `D,N,Q` evaluations, obtain a component ledger over
 the rank-four reciprocal algebra, and append the colored norm only afterward.
 
 That pair circuit now has evaluation definitions bounded by 97 terms and
-terminal equations of only `2,4,5` terms, but both Singular orders time out.
-A direct SymPy `GF(p)(t)` quotient also exceeds the bounded cap during
-coefficient reduction.  Port the exact four-generator quotient calculation
-to Nemo/FLINT/Magma; do not increase either failed backend's cap.
+terminal equations of only `2,4,5` terms.  The Nemo/Groebner.jl route has
+completed the exact deployed chart-2 squared quotient: its vector dimension
+is 64 before localization, and multiplication by the retained guard has
+generic ranks `rank(M^2)=rank(M^3)=24`.  The new PROVED node
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank`
+therefore fixes the guard-localized scheme length at 24.  This is not a
+24-point or 24-component claim.
+
+The next task is now finite and specific: compute the radical/residue-field
+ledger of this length-24 algebra, identify exceptional `t` fibers, restore
+the source-root square and distinctness guards, and only then evaluate the
+colored `BE` norm on the surviving factors.  Do not retry either failed
+generic basis or treat the length as a component count.

@@ -14745,3 +14745,38 @@ next route-deciding step: exact owner-trajectory compiler at small
                           order-512 analogues, followed by spike/diffuse
                           classification if the ledger resists falsification
 ```
+
+### Work-cycle theorem: positive 433-1a signed-pair guard stable rank
+
+```text
+node/workboard attacked:  K3 / cell-5 DE+/DE- chart-2 signed pair
+result:                   PROVED generic guard-localized scheme length 24
+DAG delta:                +1 PROVED background node, +3 req, +1 ev edge
+base field:               F_2130706433(t)
+quotient presentation:    reciprocal P plus sparse g3,h in x1,x0,b
+finite algebra:           18-element Groebner basis; vector dimension 64
+guard multiplication:     specialized ranks (32,24,24) at t=2,3,4,5
+generic theorem:          rank(M^2)=rank(M^3)=24, hence dim A[g^-1]=24
+rank certificate:         first 24 columns span all 64 columns exactly;
+                          top-left minor at t=2 has determinant 109382047
+primary packet hashes:    M^2 coefficients
+                          cb2a07bc8e8d70f25220d89133b02750d05db59c1105856d13bc33c758ba9c11
+                          M^2 packet
+                          c10acad4d6e6971fb978498f49a1a8306326b81f23c6cdf3c06cb318ba6f61d3
+independent audit:        5,160 cleared polynomial identities, maximum
+                          degree 380, deterministically replayed at 512
+                          distinct F_p roots by a standard-library NTT
+cleared packet hash:      664ffeb8b6093302a6b5cd795d59a09363e1d5beaeb6bd12c4fe48a4d9e38c82
+hostile audit:            rejects dropped shard, changed coordinate, and
+                          flipped packet byte
+Modal apps:               ap-iL0NlhcML6PNSbeivvlEzy,
+                          ap-EYSaER3gP4AUY24qgSBR9R,
+                          ap-8fGTO2L3xlaWIjHUftJLn3,
+                          ap-oXrrTGaRKqCJ4dWcE3nwht
+nonclaim:                 24 is scheme length, not 24 points/components;
+                          no radical, exceptional-fiber, source-lift,
+                          colored-edge, cell, route, K3, or Prize close
+next route-deciding step: compute the radical/residue-field ledger of the
+                          length-24 localized algebra, classify exceptional
+                          t fibers and source guards, then append the BE norm
+```
