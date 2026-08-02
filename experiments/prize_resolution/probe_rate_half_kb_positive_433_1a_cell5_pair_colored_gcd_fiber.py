@@ -373,6 +373,8 @@ def main(chart_index=2):
                 "generic_factor_degree": len(specialized_parent) - 1,
                 "finite_factor": finite_index,
                 "finite_factor_degree": len(modulus) - 1,
+                "finite_factor_polynomial": modulus,
+                "coordinates": {"b": b, "x0": x0, "x1": x1, "r": r, "c": c},
                 "pair_degree": len(ep_trim(pair)) - 1,
                 "colored_degree": len(colored) - 1,
                 "gcd_degree": len(common) - 1,

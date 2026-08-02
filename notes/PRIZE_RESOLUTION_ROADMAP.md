@@ -14932,13 +14932,15 @@ finite replay repair:     the degree-one irreducibility checker now handles
 regular guard candidates: 13 values pass fresh finite-subfactor Bezout
                           replay; t=1860858030 is additionally recomputed on
                           chart 3, with 16 gcds e^2-1 and 5 gcds one
+first finite close:       23 router values PROVED empty; 433 rows split as
+                          383 Bezout/target-guard, 16 non-base primitive,
+                          and 34 explicit target-collision rows
+finite packet hash:       d74aa015c557d9497090b6085a4280e8a43d9dd5f4ec109e3e31b736271cd8c8
 vertical obstruction:     t=1332924776 is a simultaneous basis/primitive/
                           factor/operator pole and needs raw specialization
 remaining coefficient
-pole fibers:              use fresh finite recomputation; 10 retain the
-                          existing factor/map coordinate chain, 38 need a
-                          new primitive coordinate, and 8 need a raw
-                          specialized squared-pair basis
+pole fibers:              46 total; 38 need a new primitive coordinate and
+                          8 need a raw specialized squared-pair basis
 Modal apps:               ap-gAd7d3ymL70oGLoNDrBPHF (factor-1 smoke),
                           ap-5XAOWJFSEUP1FkcZdt347r (all guard norms),
                           ap-d6th4JfPmb2yuH1sPcuvIy (five pole categories),
@@ -14950,8 +14952,7 @@ failed setup apps:        ap-4K3rkZItfNdVi02OXIjtXy used an unsupported
 cost discipline:          all successful campaigns used <=5 parallel
                           containers, <=4 GiB each, and <=30 seconds; estimated
                           aggregate cost is well below $0.05
-next route-deciding step: run the ready fresh finite replay batch when the
-                          local PID ceiling permits; then build one fixed-
-                          fiber localized-algebra solver with dynamic primitive
-                          form and a raw-basis fallback for the final 46 fibers
+next route-deciding step: build one fixed-fiber localized-algebra solver with
+                          dynamic primitive form and a raw-basis fallback for
+                          the final 46 fibers
 ```

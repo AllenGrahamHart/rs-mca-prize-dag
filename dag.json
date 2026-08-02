@@ -21339,6 +21339,30 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion",
+   "title": "KoalaBear positive 433-1a cell-5 finite-candidate first-batch exclusion",
+   "status": "PROVED",
+   "closure": "23 of 69 routed cell-5 sign-row fibers are empty",
+   "statement": "Fresh exact finite-field recomputation excludes 23 routed t values: 13 regular guard/chart candidates and ten coefficient-pole candidates retaining the primitive factor/map chain. Across 433 finite subfactor rows, 383 have common gcd 1 or e^2-1, 16 lie only on non-linear primitive-coordinate factors and so cannot have the deployed F_p-valued coordinate s=x1+2*x0+3b, and 34 have only base-field roots violating e!=0 or e^2 distinct from b^2. Thus these 23 fibers contain no admissible DE+/DE-/BE packet in cell 5 and sign row (-1,-1). The remaining 46 routed fibers, every other sign or cell, K3, Prize rows, LIST, and MCA remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion/verify_audit.py",
+    "experiments/prize_resolution/probe_rate_half_kb_positive_433_1a_cell5_pair_colored_gcd_fiber.py",
+    "experiments/prize_resolution/probe_rate_half_kb_positive_433_1a_cell5_finite_candidate_batch.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_finite_candidate_batch_result.json",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_finite_candidate_batch.py"
+   ]
+  },
+  {
    "id": "dli_c1_256_block_basis_factorization",
    "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
    "status": "PROVED",
@@ -42221,6 +42245,26 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

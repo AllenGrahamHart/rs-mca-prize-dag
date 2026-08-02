@@ -3511,12 +3511,11 @@ chart denominators on five factors give 14 admissible-looking exceptions;
 all 3,659 denominator occurrences in the basis, primitive/factor, map,
 colored-Bezout, guard-norm, and localized-operator packets give 56 pole
 values.  Their overlap has size one, leaving exactly 69 deployed `t` values.
-Outside this set the generic sign-row exclusion specializes.  Fresh exact
-finite-subfactor replays already pass on the 13 regular guard candidates;
-the sole chart-2 failure `t=1860858030` is excluded on chart 3 with 16 gcds
-`e^2-1` and five gcds one.  Treat these replays as frontier evidence until
-their finite-close child is banked.  The scalable remaining program is ten
-fresh colored replays on regular maps, dynamic primitive coordinates for 38
-map-pole fibers, and raw fixed-fiber squared-pair bases for eight vertical or
-basis-pole fibers, including `t=1332924776`.  Do not scan the full field or
-rerun the generic function-field basis.
+Outside this set the generic sign-row exclusion specializes.  The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion`
+closes 23 router values by a complete 433-row ledger: 383 rows have gcd one
+or `e^2-1`, 16 lie on non-base primitive factors, and 34 have only `e=0` or
+`e^2 in {1,b^2,c^2}`.  The remaining program is dynamic primitive
+coordinates for 38 map-pole fibers and raw fixed-fiber squared-pair bases for
+eight vertical or basis-pole fibers, including `t=1332924776`.  Do not scan
+the full field or rerun the generic function-field basis.
