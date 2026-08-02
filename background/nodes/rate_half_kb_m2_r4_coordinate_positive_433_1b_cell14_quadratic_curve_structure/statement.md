@@ -14,11 +14,13 @@ product-rank-five branch and under the printed source/target guards:
    `c`, and one degree-seven, 17-term relation `F(r,b)` that is quadratic in
    `b`;
 4. the coefficient of `t` has empty intersection with the guarded curve;
-   the coefficient of `c` has a retained zero-dimensional exception ideal
-   of basis size four;
-5. away from that `c`-denominator exception, an interpolation-normalized
-   eight-coordinate kernel annihilates all five product rows and all five
-   sum rows for every source-sign pair.
+   the coefficient of `c` has a zero-dimensional closure intersection of
+   basis size four, but saturating that intersection by the route guards
+   gives the unit ideal in all four source-sign cases;
+5. consequently the rational `c` chart is global on the guarded principal
+   locus, and an interpolation-normalized eight-coordinate kernel
+   annihilates all five product rows and all five sum rows for every
+   source-sign pair.
 
 This claim is a structural decomposition only.  It does not exclude the
-dense curve, the denominator-exception points, or cell `14` itself.
+quadratic-cover curve or cell `14` itself.

@@ -11,12 +11,9 @@ product-rank-drop complete exclusion
                     v
        (KBP1B14-CURVE-1) [PROVED]
                     |
-          +---------+----------+
-          |                    |
-          v                    v
-dense outside ledger   finite c-denominator ledger
-          |                    |
-          +---------+----------+
+                    v
+       quadratic-cover outside ledger [OPEN]
+                    |
                     v
           complete cell-14 exclusion [OPEN]
 ```

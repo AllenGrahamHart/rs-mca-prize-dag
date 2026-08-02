@@ -34,16 +34,18 @@ F(r,b) = 0,         degree 7, 17 terms, quadratic in b.
 
 Adding the coefficient of `t` to the saturated ideal gives the unit ideal
 in all 24 rows.  Adding the coefficient of `c` instead gives a
-zero-dimensional ideal with basis size four in all 24 rows.  Thus `t` is
-globally rational on the guarded curve, while the rational `c` chart has a
-finite exception that must remain in the frontier.  A fixed reference
-cofactor also has a retained zero-dimensional intersection, so no single
-cofactor chart is falsely declared global.
+zero-dimensional closure ideal with basis size four in all 24 rows.  The
+exception compiler puts each source-sign closure ideal in lexicographic
+form, then saturates it only by the route guards, without using a selected
+product cofactor.  All four open exception ideals are unit.  Thus both `t`
+and `c` are globally rational on the guarded principal curve.  A fixed
+reference cofactor still has a retained zero-dimensional intersection, so
+no single product-cofactor chart is falsely declared global.
 
-On the dense `c` chart, normalize `(beta_0,beta_1)=(-1,1)`.  Interpolate
+Normalize `(beta_0,beta_1)=(-1,1)`.  Interpolate
 the quadratic `A` from the guarded `AB`, `AC`, and `BC+` sum equations,
 then interpolate `B` from three product equations.  Reduction modulo
-`F(r,b)` yields an exact kernel.  The independent compiler checks all ten
+`F(r,b)` yields an exact kernel on the whole guarded principal locus.  The
+independent compiler checks all ten
 row pairings for each source-sign pair; every reduced numerator is zero
-with denominator one.  This proves the stated dense-chart kernel and
-retains the finite exception without inference. QED.
+with denominator one.  This proves the stated global guarded kernel. QED.
