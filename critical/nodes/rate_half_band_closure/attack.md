@@ -3525,3 +3525,21 @@ all 115 rows have gcd `1` (35) or `e^2-1` (80).  The PROVED complete-sign-row
 assembly exhausts the exact `23+38+8=69` router.  Thus cell 5 and signs
 `(-1,-1)` are closed for every deployed `t`; other sign rows/matching cells
 remain.  Do not scan the full field or rerun this sign row.
+
+The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion`
+takes the exact symmetry closure of that finite theorem.  Transposing the
+two identical `AB+` roles exchanges matching cells `5` and `8`.  Within
+either cell,
+
+```text
+(epsilon_1,epsilon_2,r,t) -> (-epsilon_1,epsilon_2,-r,-t)
+```
+
+fixes all quotient labels and product rows and negates every nonloop
+`q=z*s`.  The coefficient involution `B_1 -> -B_1` then carries each
+transformed sum equation to the negative original equation, including the
+outside rows after negating their source lifts.  Hence all four rows
+`{5,8} x {-1,+1} x {-1}` are empty.  The first genuinely new
+representative in this role orbit is cell `5`, signs `(-1,+1)`; one such
+row suffices because the same transports cover its other three partners.

@@ -14981,3 +14981,21 @@ next route-deciding step: use the signed-edge symmetry atlas to identify the
                           next genuinely different cell-5 sign/matching
                           representative; do not recompute (-1,-1)
 ```
+
+### Work-cycle theorem: positive 433-1a cell-5/8 sign transport
+
+```text
+seed theorem:             cell 5, signs (-1,-1), empty for every deployed t
+duplicate-role action:    AB+1 <-> AB+2 exchanges matching cells 5 and 8
+source-root action:       (epsilon1,epsilon2,r,t)
+                            -> (-epsilon1,epsilon2,-r,-t)
+row effect:               quotient labels and product rows fixed; all
+                          nonloop q=z*s values negated; B1 -> -B1 carries
+                          every transformed sum equation to its negative
+exact orbit closed:       {5,8} x {-1,+1} x {-1}, four rows PROVED empty
+retained orbit:           cells 5/8 with epsilon2=+1
+next representative:     cell 5, signs (-1,+1); epsilon1=+1 and cell 8
+                          then follow by the same exact transports
+nonclaim:                 no full matching cell, positive route, K3, Prize
+                          row, LIST, or MCA closure
+```
