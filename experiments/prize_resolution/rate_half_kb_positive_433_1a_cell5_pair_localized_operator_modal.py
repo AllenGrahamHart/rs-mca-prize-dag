@@ -42,7 +42,8 @@ def operator_shard(payload):
     import subprocess
     import tempfile
 
-    alpha_text, beta_text, start_text, stop_text = payload.split(":", 3)
+    gamma_text, alpha_text, beta_text, start_text, stop_text = payload.split(":", 4)
+    gamma = int(gamma_text)
     alpha = int(alpha_text)
     beta = int(beta_text)
     start = int(start_text)
@@ -125,7 +126,7 @@ def operator_shard(payload):
             "stableBasis=squareMatrix[:,1:24]",
             "pivot=stableBasis[1:24,:]",
             "@assert !iszero(NemoModule.det(pivot))",
-            f"ell=x1+K({alpha})*x0+K({beta})*b",
+            f"ell=K({gamma})*x1+K({alpha})*x0+K({beta})*b",
             f"indices=collect({start}:{stop})",
             (
                 "products=normalform(basis,[ell*value for value in quotientBasis]; "
@@ -176,12 +177,13 @@ def operator_shard(payload):
             "  end",
             "end",
             (
-                f'println("LOCALIZED_OPERATOR_SHARD_COMPLETE {alpha} {beta} ",'
+                f'println("LOCALIZED_OPERATOR_SHARD_COMPLETE {gamma} {alpha} {beta} ",'
                 "first(indices),\" \",last(indices))"
             ),
         )
     )
     header = {
+        "gamma": gamma,
         "alpha": alpha,
         "beta": beta,
         "start": start,
@@ -190,7 +192,7 @@ def operator_shard(payload):
         "square_packet_sha256": packet_sha256,
         "program_sha256": hashlib.sha256(program.encode()).hexdigest(),
         "scope": (
-            "exact multiplication by x1+alpha*x0+beta*b on the 24-dimensional "
+            "exact multiplication by gamma*x1+alpha*x0+beta*b on the 24-dimensional "
             "stable image of guard squared; no reducedness, component, colored-edge, "
             "route, row, or Prize conclusion"
         ),
@@ -217,7 +219,7 @@ def operator_shard(payload):
                 "stdout": decoded(error.stdout)[-4000:],
                 "stderr": decoded(error.stderr)[-4000:],
             }
-    marker = f"LOCALIZED_OPERATOR_SHARD_COMPLETE {alpha} {beta}"
+    marker = f"LOCALIZED_OPERATOR_SHARD_COMPLETE {gamma} {alpha} {beta}"
     valid = process.returncode == 0 and marker in process.stdout
     result = {
         **header,
@@ -244,21 +246,28 @@ def operator_shard(payload):
 
 @app.local_entrypoint()
 def main(
+    gamma: int = 1,
     alpha: int = 2,
     beta: int = 3,
     start: int = 1,
     stop: int = 24,
     shard_size: int = 2,
+    forms: str = "",
     output: str = "",
 ):
     if not 1 <= start <= stop <= 24:
         raise ValueError("columns must lie in 1..24")
     if shard_size < 1:
         raise ValueError("shard-size must be positive")
-    payloads = [
-        f"{alpha}:{beta}:{first}:{min(first + shard_size - 1, stop)}"
-        for first in range(start, stop + 1, shard_size)
-    ]
+    if forms == "coordinates":
+        payloads = ["1:0:0:1:1", "0:1:0:1:1", "0:0:1:1:1"]
+    elif forms:
+        raise ValueError("forms must be empty or coordinates")
+    else:
+        payloads = [
+            f"{gamma}:{alpha}:{beta}:{first}:{min(first + shard_size - 1, stop)}"
+            for first in range(start, stop + 1, shard_size)
+        ]
     results = []
     for result in operator_shard.map(payloads, order_outputs=True):
         results.append(result)

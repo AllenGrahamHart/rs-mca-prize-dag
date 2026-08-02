@@ -14838,3 +14838,26 @@ nonclaim:                 no source lift/count, exceptional-fiber locus,
 next route-deciding step: express needed source/colored invariants in the
                           five fields, compute guard norms, then append BE
 ```
+
+### Work-cycle theorem: positive 433-1a primitive coordinate map
+
+```text
+node/workboard attacked:  K3 / cell-5 generic squared signed-pair factors
+result:                   PROVED exact primitive maps for x1,x0,b
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+primitive coordinate:     s=ell=x1+2*x0+3*b
+map coverage:             3 variables x 24 coefficients; degree_s <24
+coefficient complexity:   maximum numerator/denominator t-degree 1046
+map packet hash:          001c959648176669651c87a913f2c830ad425a4f1e240041cc4edeb63d69a009
+column packet hash:       f5bfdb6cb515b6bbe54fa1abd19d1517759b0a584f501aa308e76f68e1ff1e25
+exact independent audit:  p_x1+2*p_x0+3*p_b=s coefficientwise via NTT
+regular-fiber audit:      p_u(L)e1=u*e1 for u=x1,x0,b at t=2
+hostile audit:            rejects dropped/changed coefficient, altered
+                          provenance, and changed source column
+Modal apps:               ap-9TDK6ccFWgwFvBjLsIIkwb (columns),
+                          ap-oJCcerqPq6wNwVNLasPkSx (three maps)
+nonclaim:                 no guard unit/norm, exceptional-fiber locus,
+                          source lift, colored edge, route, K3, or Prize close
+next route-deciding step: translate the named source guards into s, compute
+                          factor-by-factor norms, then append colored BE
+```

@@ -11477,3 +11477,34 @@ The revised contributor request starts in the five residue fields:
 
 Do not recompute the pair quotient, stable rank, radical, primitive
 polynomial, or factorization.
+
+### 2026-08-02 signed-pair primitive coordinate completion
+
+The first item in the residue-ledger request is complete.  Exact multiplication
+columns for `x1,x0,b` were computed in `ap-9TDK6ccFWgwFvBjLsIIkwb`.
+Three independent exact Krylov solves in
+`ap-oJCcerqPq6wNwVNLasPkSx` express every variable as a degree-below-24
+polynomial in `s=ell`.  A combined three-right-hand-side attempt
+`ap-HpMM8Cb1LRiDU6cIvMUx0r` timed out and supplies no claim.  All apps are
+stopped.
+
+The exact map packet is
+`001c959648176669651c87a913f2c830ad425a4f1e240041cc4edeb63d69a009`;
+the coordinate-column packet is
+`f5bfdb6cb515b6bbe54fa1abd19d1517759b0a584f501aa308e76f68e1ff1e25`.
+The independent checker verifies `p_x1+2*p_x0+3*p_b=s` coefficientwise and
+replays all three actions at `t=2`.
+
+Requested next computation:
+
+1. translate the already-defined source nonzero, collision, square, and chart
+   guards into `s` with these maps;
+2. reduce them modulo each exact primitive factor of degrees `4,4,4,8,4`;
+3. compute exact resultants/norms over `F_2130706433(t)`;
+4. distinguish an identically zero component from a nonzero norm with a finite
+   exceptional-`t` locus;
+5. append the compact colored `BE` condition only after this guard ledger.
+
+Do not recompute the stable basis, primitive polynomial, factorization, or
+coordinate maps.  Do not infer a source-root lift or component deletion from
+the squared coordinate formulas alone.

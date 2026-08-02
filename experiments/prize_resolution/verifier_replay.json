@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger/verify.py",
-      "seconds": 1.139004,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/verify.py",
+      "seconds": 5.175934,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1A_CELL5_PRIMITIVE_POLYNOMIAL_PASS degree=24 fiber=2 coefficient_sha256=9ff9aa0ee5a792f088b9a0b8120e87f8af02b2ce5802596e8b9101a1d38d0e40 primitive_sha256=8867cfc4f2c4a5accd898382b687e5327f5f4c2cb793dfd34897137d3ffc5f7e\nRATE_HALF_KB_POSITIVE_433_1A_CELL5_PRIMITIVE_FACTORIZATION_PASS degrees=4,4,4,8,4 squarefree_pairwise_coprime_fiber=2 factorization_sha256=00c4a7f0c90726b91b2310fa184d5eaf0ca3fab2b4d6a6ada1a4e1ae10f75cae\n"
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1A_CELL5_PRIMITIVE_COORDINATE_MAP_PASS maps=b,x0,x1 degrees=0..23 max_t_degree=1046 identity=x1+2*x0+3*b=s specialized_action_fiber=2 map_sha256=001c959648176669651c87a913f2c830ad425a4f1e240041cc4edeb63d69a009 columns_sha256=f5bfdb6cb515b6bbe54fa1abd19d1517759b0a584f501aa308e76f68e1ff1e25\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger/verify_audit.py",
-      "seconds": 1.320293,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/verify_audit.py",
+      "seconds": 5.621972,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1A_CELL5_PRIMITIVE_POLYNOMIAL_MUTATION_PASS rejected=dropped_coefficient,changed_coefficient,changed_provenance\nRATE_HALF_KB_POSITIVE_433_1A_CELL5_PRIMITIVE_FACTORIZATION_MUTATION_PASS rejected=dropped_coefficient,changed_coefficient,changed_multiplicity\npositive 433-1a cell-5 signed-pair primitive-ledger audit verified\n"
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1A_CELL5_PRIMITIVE_COORDINATE_MAP_MUTATION_PASS rejected=dropped_coordinate,changed_coefficient,changed_provenance,changed_column\npositive 433-1a cell-5 signed-pair primitive-coordinate-map audit verified\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
