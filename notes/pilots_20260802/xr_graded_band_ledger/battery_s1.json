@@ -1,0 +1,272 @@
+[
+ {
+  "fixture": "S1-sat-d2-seed11",
+  "n": 16,
+  "k": 5,
+  "t": 4,
+  "A": 9,
+  "h": 4,
+  "R": 11,
+  "r": 7,
+  "q": 97,
+  "band": [
+   6,
+   7
+  ],
+  "intended": {
+   "cores": [
+    7
+   ],
+   "slopes": [
+    4
+   ],
+   "shared_blocks": false
+  },
+  "max_joint_agreement": 7,
+  "globally_generic": true,
+  "below_cascade": true,
+  "max_ray_agreement": 9,
+  "tangent_free": true,
+  "v_nonvanishing": true,
+  "ADMISSIBLE": true,
+  "kpacking_count_violations": [],
+  "kpacking_ok": true,
+  "deep_pairs": 6,
+  "deep_pairwise_max_intersection": 4,
+  "kpacking_direct_ok": true,
+  "n_rays": 5,
+  "live_slopes": 5,
+  "max_rays_per_slope": 1,
+  "reselection_freedom_slopes": 0,
+  "ledger_by_depth": {
+   "0": {
+    "n_pairs": 4317,
+    "N_d": 3,
+    "maxL": 2,
+    "cap": 2,
+    "sumL": 6
+   },
+   "1": {
+    "n_pairs": 5,
+    "N_d": 1,
+    "maxL": 2,
+    "cap": 3,
+    "sumL": 2
+   },
+   "2": {
+    "n_pairs": 1,
+    "N_d": 1,
+    "maxL": 4,
+    "cap": 4,
+    "sumL": 4
+   }
+  },
+  "LINE_CAP_violations": [],
+  "banked_kappa_k_cap_floor_R_over_h": 2,
+  "banked_cap_violations": [
+   [
+    "2",
+    4
+   ]
+  ],
+  "core_histogram_ge_k": {
+   "5": 3,
+   "6": 1,
+   "7": 6
+  },
+  "T2_fibre_violations": [],
+  "band_slopes": 5,
+  "exact_k_core_slopes": 4,
+  "pairs_with_a_live_slope": 513,
+  "rigidity_shared_slope_hist": {
+   "0": 104333,
+   "1": 26995
+  },
+  "rigidity_violations": [],
+  "rigidity_proportionality_violations": [],
+  "MEASURED_BAND_COLUMN": 6,
+  "printed_tangent_column": 8,
+  "column_beats_printed": false,
+  "sum_of_caps_over_band": 7
+ },
+ {
+  "fixture": "S1-sat-d2-seed12",
+  "n": 16,
+  "k": 5,
+  "t": 4,
+  "A": 9,
+  "h": 4,
+  "R": 11,
+  "r": 7,
+  "q": 97,
+  "band": [
+   6,
+   7
+  ],
+  "intended": {
+   "cores": [
+    7
+   ],
+   "slopes": [
+    4
+   ],
+   "shared_blocks": false
+  },
+  "max_joint_agreement": 7,
+  "globally_generic": true,
+  "below_cascade": true,
+  "max_ray_agreement": 9,
+  "tangent_free": true,
+  "v_nonvanishing": true,
+  "ADMISSIBLE": true,
+  "kpacking_count_violations": [],
+  "kpacking_ok": true,
+  "deep_pairs": 2,
+  "deep_pairwise_max_intersection": 4,
+  "kpacking_direct_ok": true,
+  "n_rays": 4,
+  "live_slopes": 4,
+  "max_rays_per_slope": 1,
+  "reselection_freedom_slopes": 0,
+  "ledger_by_depth": {
+   "0": {
+    "n_pairs": 4341,
+    "N_d": 0,
+    "maxL": 1,
+    "cap": 2,
+    "sumL": 0
+   },
+   "1": {
+    "n_pairs": 1,
+    "N_d": 0,
+    "maxL": 1,
+    "cap": 3,
+    "sumL": 0
+   },
+   "2": {
+    "n_pairs": 1,
+    "N_d": 1,
+    "maxL": 4,
+    "cap": 4,
+    "sumL": 4
+   }
+  },
+  "LINE_CAP_violations": [],
+  "banked_kappa_k_cap_floor_R_over_h": 2,
+  "banked_cap_violations": [
+   [
+    "2",
+    4
+   ]
+  ],
+  "core_histogram_ge_k": {
+   "7": 6
+  },
+  "T2_fibre_violations": [],
+  "band_slopes": 4,
+  "exact_k_core_slopes": 0,
+  "pairs_with_a_live_slope": 416,
+  "rigidity_shared_slope_hist": {
+   "0": 64575,
+   "1": 21745
+  },
+  "rigidity_violations": [],
+  "rigidity_proportionality_violations": [],
+  "MEASURED_BAND_COLUMN": 4,
+  "printed_tangent_column": 8,
+  "column_beats_printed": false,
+  "sum_of_caps_over_band": 7
+ },
+ {
+  "fixture": "S1-sat-d2-seed13",
+  "n": 16,
+  "k": 5,
+  "t": 4,
+  "A": 9,
+  "h": 4,
+  "R": 11,
+  "r": 7,
+  "q": 97,
+  "band": [
+   6,
+   7
+  ],
+  "intended": {
+   "cores": [
+    7
+   ],
+   "slopes": [
+    4
+   ],
+   "shared_blocks": false
+  },
+  "max_joint_agreement": 7,
+  "globally_generic": true,
+  "below_cascade": true,
+  "max_ray_agreement": 10,
+  "tangent_free": false,
+  "v_nonvanishing": true,
+  "ADMISSIBLE": false,
+  "kpacking_count_violations": [],
+  "kpacking_ok": true,
+  "deep_pairs": 4,
+  "deep_pairwise_max_intersection": 4,
+  "kpacking_direct_ok": true,
+  "n_rays": 4,
+  "live_slopes": 4,
+  "max_rays_per_slope": 1,
+  "reselection_freedom_slopes": 0,
+  "ledger_by_depth": {
+   "0": {
+    "n_pairs": 4329,
+    "N_d": 0,
+    "maxL": 1,
+    "cap": 2,
+    "sumL": 0
+   },
+   "1": {
+    "n_pairs": 3,
+    "N_d": 0,
+    "maxL": 1,
+    "cap": 3,
+    "sumL": 0
+   },
+   "2": {
+    "n_pairs": 1,
+    "N_d": 1,
+    "maxL": 4,
+    "cap": 4,
+    "sumL": 4
+   }
+  },
+  "LINE_CAP_violations": [],
+  "banked_kappa_k_cap_floor_R_over_h": 2,
+  "banked_cap_violations": [
+   [
+    "2",
+    4
+   ]
+  ],
+  "core_histogram_ge_k": {
+   "7": 6
+  },
+  "T2_fibre_violations": [],
+  "band_slopes": 4,
+  "exact_k_core_slopes": 0,
+  "pairs_with_a_live_slope": 542,
+  "rigidity_shared_slope_hist": {
+   "0": 103635,
+   "1": 42976
+  },
+  "rigidity_violations": [],
+  "rigidity_proportionality_violations": [],
+  "MEASURED_BAND_COLUMN": 4,
+  "printed_tangent_column": 8,
+  "column_beats_printed": false,
+  "sum_of_caps_over_band": 7
+ },
+ {
+  "fixture": "S1-overflow-note",
+  "note": "L=5 at J=7 needs 7+10=17 > n=16 points: the cap floor((n-J)/(A-J))=4 is not merely unbeaten, it is unrealisable by point count"
+ }
+]

@@ -10,39 +10,79 @@ flags; THIS file is the queue. Update on every bank; entries move to
 Banked pilots this campaign (all coordinator-replayed before banking):
 `xr_bridge_semantics` (30e40f70) . `f2_slice_coefficients` (639970c8) .
 `c1_norm_ladder` + `pb_selector_orders` + mint (56d93816) .
-`p_a1_widening_cost` (79316563) . `xr_cascade_payment_audit` (5cc59b52).
-In flight: `xr_graded_band_ledger`, `pb_fm3_mechanism`,
-`f2_parity_boundary`, `c1_imprimitivity`.
+`p_a1_widening_cost` (79316563) . `xr_cascade_payment_audit` (5cc59b52) .
+`xr_graded_band_ledger` + `pb_fm3_mechanism` (this commit).
+In flight: `f2_parity_boundary`, `c1_imprimitivity`.
 
 ---
 
 ## A. SURFACED DECISIONS (user / maintainer ratify; Pro adversarial input welcome)
 
-1. **Route W vs Route T** (band repair). State: evidence TILTS TO W
-   (cascade payment unsourced; Route T forces B_tan > n-A+1 =
-   re-surgery trigger 4; W's ceiling A-1 independently sourced). Final
-   call after the graded-band-ledger pilot returns. Full W edit
-   checklist: `p_a1_widening_cost/REPORT.md` section 5 PLUS the
-   cascade-audit additions in section C below.
-2. **PP4.0 freeze** as the SUPPORT-KEYED CLASS (lex canonical
-   representative; polynomial-, codeword-keyed and procedural readings
-   explicitly excluded; slope-major recorded degenerate; error-lex =
-   reverse-lex). Evidence: `pb_selector_orders/`. One-sided at every
-   computable scale.
+1. **Route W vs Route T** (band repair). State: **RECOMMENDATION =
+   ROUTE T**, redesigned as a THIRD generic column from the 13n^3
+   headroom (never enlarging B_tan — dead on 5/6 rows even at
+   N_d = 1; never splitting 8n^3). Reconciliation: the cascade audit
+   killed T-as-B_tan-enlargement (correct); the band-ledger pilot's
+   third-column design avoids that objection entirely, and T then
+   strictly dominates W (same single open input — the band occupancy
+   lemma — bought with ZERO demotions and unchanged prize ranks;
+   Group-C nodes become conditional on the band column via an
+   explicit req edge instead of permanently re-scoped). Wording
+   defects (strip item-3, cascade "paid", 4,662 sentence,
+   clean_residual "removes") get fixed under EITHER route. Evidence:
+   `xr_graded_band_ledger/` + `xr_cascade_payment_audit/` +
+   `p_a1_widening_cost/`. Awaiting user/maintainer ratification +
+   Pro adversarial round.
+2. **PP4.0 freeze** as the **COMPRESSION-ORDER CLASS** (greedy
+   coordinate-sequential minimality: lex/colex under any coordinate
+   permutation) — CORRECTED from "support-keyed" by the FM3 pilot:
+   the hash null controls ARE support-keyed (they key on the mask)
+   and they are RED, so the support-keyed class admits the nulls.
+   Exclusions unchanged (polynomial/codeword/procedural; slope-major
+   degenerate; error-lex = reverse-lex). Evidence:
+   `pb_selector_orders/` + `pb_fm3_mechanism/` section 5.
 3. **Strip item-3 scope-narrowing** (`xr_strip_classification_rungs`):
    corrected wording in its `BAND_OVERCLAIM_FLAG_20260802.md`
    (amended: NO core-based charge proved at any threshold).
 4. **Cascade scope-narrowing** (`xr_pencil_cascade`): PROVED = forcing
    + cascade only; "paid" and the one-pencil "~n-core" clause need
    scoping. `PAYMENT_UNSOURCED_FLAG_20260802.md`.
+5. **P-B LANE RE-TARGET (top strategic item, from the FM3 pilot):**
+   at official scale the compression collapse inverts (block deficit
+   K - L* grows linearly in n; Pi = 2^-73.5 at RowC 1/4: >=K pairs
+   absent from the POPULATION), so Gamma_hi is empty, the R2
+   partition never compresses, and the binding obligation is
+   **bounding |Gamma| <= 8n^3**, not partitioning Gamma. Required
+   adjudication: row-by-row, does the pinned q exceed 8n^3 (rows with
+   q < 8n^3 are safe by field size alone — |Gamma| <= q), and can the
+   split-fibre construction realize a super-budget live-slope family
+   in one field at any exposed row (the adversarial audit's
+   M = 1.3e11 vs 16n^3 = 1.7e10 at RowC, on the new footing)?
+   Coordinator pass, then Pro. Node-local note:
+   `xr_lowcore_spread_heart/notes/OFFICIAL_SCALE_REFRAME_20260802.md`.
+   CAVEAT: 5-doubling model extrapolation, (H) assumed — exactly what
+   Pro should attack.
 
 ## B. NAMED PROOF OBLIGATIONS (open)
 
-- **k-packing / per-pair pencil-count lemma** — distinct codeword
-  pairs with joint agreement >= k meet in <= k-1 points; bounds the
-  forced-pencil count per pair. ONE lemma, THREE consumers (band
-  column, cascade charge, FM3 accounting). Band-ledger pilot
-  attempting; RS-distance folklore, cheap to mint once written.
+- **k-packing lemma — WITHDRAWN as a mint** (subtraction check by the
+  band-ledger pilot): already banked verbatim at
+  `xr_mismatch_chart_nongeneric_joint_support_equivalence/proof.md:19-22`.
+  Cite it; do not re-derive.
+- **BAND OCCUPANCY LEMMA (the named heart of the band repair):**
+  N_d <= ~0.68n^2 at the binding row (aggregate SUM N_d L(d) <=
+  13n^3); the n^2-vs-n^2/2 boundary is the exact target; Theorem 7
+  (two-column determinacy — occupancy as point-line incidence in A^2)
+  is the designated lever; the d = h-1 term (27x weaker) subsumes the
+  cascade pencil-count question. `xr_graded_band_ledger/REPORT.md`
+  section 3.
+- **Band-ledger mint queue (with the Route T edit):** Theorem 3 (line
+  cap under J >= k — the banked `common_code_line_budget` hypothesis
+  is out of range at all six rows, see its node note), Theorem 4 (ray
+  rigidity), Theorem 5 + corollary (the band interaction strip:
+  d_1 + d_2 >= h forces a tangent event — a genuine strip extension),
+  Theorem 7 (two-column determinacy). Theorem 6 recorded as a warning
+  (per-ray multiplicity = MDS list size; master inequality lossy).
 - **Injection-extension one-liner** — recovered-line slopes <= |T| <=
   n-A+1 at forced core >= A-1; scope-widening of
   `xr_true_tangent_coordinate_injection` (proof already
@@ -54,8 +94,14 @@ In flight: `xr_graded_band_ledger`, `pb_fm3_mechanism`,
   headroom; NEVER by splitting 8n^3 — AZC margin 0.5005%). Mint on
   Route W ratification. Candidate statement:
   `p_a1_widening_cost/REPORT.md` section 5.
-- **FM3 re-worded exchange conjecture** — pilot in flight
-  (`pb_fm3_mechanism`); prior prefix wording FALSE and withdrawn.
+- **FM3 — RESOLVED AS A RE-TARGET** (`pb_fm3_mechanism` banked): the
+  mechanism is greedy-depletion marginal tilt (parameter-free model,
+  5/6 frozen predictions PASS); FM3 as a "Gamma_lo small" theorem is
+  DEAD at official scale (the collapse inverts); its conditional
+  small-scale form's entire content is the equidistribution hypothesis
+  (H) (Weil-type, unknown) and it is NOT a lane target. The exchange/
+  swap route is closed (third refutation). See surfaced item A.5 for
+  what replaces it.
 - **b-resolved slice-coefficient theorem (F2)** — draft after the
   parity-boundary pilot returns; MUST go through a Pro adversarial
   round before any node. Constraints so far: window-specific,
@@ -95,10 +141,13 @@ BRIEF_3 lines, target_mappings.json:145).
 
 ## E. FLEET / BIG-BOX ITEMS (outside the 1G law)
 
-- Native/bit-packed K1 enumerator at n = 44 / 48 — the first
-  budget-testable split-fibre scales; converts the P-B mechanism
-  verdict into a budget verdict. (`pb_selector_orders/REPORT.md`
-  section 4.)
+- Native/bit-packed enumerator at n = 44 / 48 — **RE-SCOPED by the
+  FM3 pilot**: the target is Pi (the population partner count), not
+  the budget clause. Frozen pre-registered prediction: at n = 44,
+  rate 1/2, q = 1.33e6, Pi = 2^-4.4 < 1 and Gamma_lo = Gamma for
+  EVERY order including lex. One measurement that confirms or
+  destroys the official-scale extrapolation.
+  (`pb_fm3_mechanism/REPORT.md` caveat 6.)
 - 2N=64 w=8 exhaustive ladder point if the imprimitivity pilot's
   branch-and-bound does not finish it.
 
@@ -140,3 +189,12 @@ BRIEF_3 lines, target_mappings.json:145).
 - Widening priced; fork surfaced (79316563).
 - Cascade payment audited; ceiling re-sourced at A-1; fork tilted W
   (5cc59b52).
+- Route T redesigned as a third column; 4 new theorems (line cap,
+  ray rigidity, interaction strip, two-column determinacy); occupancy
+  lemma named as the single heart; fork recommendation -> T (this
+  commit).
+- FM3 mechanism identified (greedy depletion); FM3-as-theorem retired;
+  P-B re-targeted to bounding |Gamma|; PP4.0 class corrected to
+  compression orders; n=44/48 re-scoped to Pi (this commit).
+- k-packing mint withdrawn — already banked (subtraction check, this
+  commit).

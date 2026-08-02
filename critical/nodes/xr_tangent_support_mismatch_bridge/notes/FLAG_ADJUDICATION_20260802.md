@@ -71,3 +71,15 @@ final call awaits the graded-band-ledger pilot's report + maintainer
 visibility. R2 on this node remains safe and unaffected (routing-only,
 no ceiling needed). See
 `notes/pilots_20260802/xr_cascade_payment_audit/{REPORT,FABLE_AUDIT}.md`.
+
+**BAND-LEDGER RESULT (same day, final fork state): RECOMMENDATION =
+ROUTE T**, redesigned as a THIRD generic column from the 13n^3
+headroom — NOT a B_tan enlargement, so the payment audit's trigger-4
+objection does not apply. T then strictly dominates W: same single
+open input (the band occupancy lemma, N_d <= ~0.68n^2), zero
+demotions, prize ranks unchanged; four new theorems proved (line cap
+under J >= k; ray rigidity; the band interaction strip d_1+d_2 >= h
+=> tangent event; two-column determinacy). Decision remains surfaced
+(user/maintainer + Pro). See
+`notes/pilots_20260802/xr_graded_band_ledger/{REPORT,FABLE_AUDIT}.md`
+and CAMPAIGN_LEDGER.md section A.1.

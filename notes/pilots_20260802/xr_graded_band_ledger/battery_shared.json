@@ -1,0 +1,527 @@
+[
+ {
+  "fixture": "M2-2cores-SHARED-seed41",
+  "n": 16,
+  "k": 5,
+  "t": 4,
+  "A": 9,
+  "h": 4,
+  "R": 11,
+  "r": 7,
+  "q": 97,
+  "band": [
+   6,
+   7
+  ],
+  "intended": {
+   "cores": [
+    7,
+    7
+   ],
+   "slopes": [
+    3,
+    3
+   ],
+   "shared_blocks": true,
+   "slope_pairs": [
+    [
+     41,
+     24
+    ],
+    [
+     74,
+     32
+    ],
+    [
+     88,
+     49
+    ]
+   ]
+  },
+  "max_joint_agreement": 7,
+  "globally_generic": true,
+  "below_cascade": true,
+  "max_ray_agreement": 10,
+  "tangent_free": false,
+  "v_nonvanishing": true,
+  "ADMISSIBLE": false,
+  "kpacking_count_violations": [],
+  "kpacking_ok": true,
+  "deep_pairs": 5,
+  "deep_pairwise_max_intersection": 4,
+  "kpacking_direct_ok": true,
+  "n_rays": 7,
+  "live_slopes": 7,
+  "max_rays_per_slope": 1,
+  "reselection_freedom_slopes": 0,
+  "ledger_by_depth": {
+   "0": {
+    "n_pairs": 4308,
+    "N_d": 0,
+    "maxL": 1,
+    "cap": 2,
+    "sumL": 0
+   },
+   "1": {
+    "n_pairs": 3,
+    "N_d": 3,
+    "maxL": 2,
+    "cap": 3,
+    "sumL": 6
+   },
+   "2": {
+    "n_pairs": 2,
+    "N_d": 2,
+    "maxL": 4,
+    "cap": 4,
+    "sumL": 8
+   }
+  },
+  "LINE_CAP_violations": [],
+  "banked_kappa_k_cap_floor_R_over_h": 2,
+  "banked_cap_violations": [
+   [
+    "2",
+    4
+   ]
+  ],
+  "core_histogram_ge_k": {
+   "6": 3,
+   "7": 12
+  },
+  "T2_fibre_violations": [],
+  "band_slopes": 7,
+  "exact_k_core_slopes": 0,
+  "pairs_with_a_live_slope": 809,
+  "rigidity_shared_slope_hist": {
+   "0": 274170,
+   "1": 52666
+  },
+  "rigidity_violations": [],
+  "rigidity_proportionality_violations": [],
+  "MEASURED_BAND_COLUMN": 14,
+  "printed_tangent_column": 8,
+  "column_beats_printed": true,
+  "sum_of_caps_over_band": 7
+ },
+ {
+  "fixture": "M2-2cores-SHARED-seed42",
+  "n": 16,
+  "k": 5,
+  "t": 4,
+  "A": 9,
+  "h": 4,
+  "R": 11,
+  "r": 7,
+  "q": 97,
+  "band": [
+   6,
+   7
+  ],
+  "intended": {
+   "cores": [
+    7,
+    7
+   ],
+   "slopes": [
+    3,
+    3
+   ],
+   "shared_blocks": true,
+   "slope_pairs": [
+    [
+     41,
+     24
+    ],
+    [
+     74,
+     32
+    ],
+    [
+     88,
+     49
+    ]
+   ]
+  },
+  "max_joint_agreement": 7,
+  "globally_generic": true,
+  "below_cascade": true,
+  "max_ray_agreement": 10,
+  "tangent_free": false,
+  "v_nonvanishing": true,
+  "ADMISSIBLE": false,
+  "kpacking_count_violations": [],
+  "kpacking_ok": true,
+  "deep_pairs": 5,
+  "deep_pairwise_max_intersection": 4,
+  "kpacking_direct_ok": true,
+  "n_rays": 7,
+  "live_slopes": 7,
+  "max_rays_per_slope": 1,
+  "reselection_freedom_slopes": 0,
+  "ledger_by_depth": {
+   "0": {
+    "n_pairs": 4308,
+    "N_d": 0,
+    "maxL": 1,
+    "cap": 2,
+    "sumL": 0
+   },
+   "1": {
+    "n_pairs": 3,
+    "N_d": 3,
+    "maxL": 2,
+    "cap": 3,
+    "sumL": 6
+   },
+   "2": {
+    "n_pairs": 2,
+    "N_d": 2,
+    "maxL": 4,
+    "cap": 4,
+    "sumL": 8
+   }
+  },
+  "LINE_CAP_violations": [],
+  "banked_kappa_k_cap_floor_R_over_h": 2,
+  "banked_cap_violations": [
+   [
+    "2",
+    4
+   ]
+  ],
+  "core_histogram_ge_k": {
+   "6": 3,
+   "7": 12
+  },
+  "T2_fibre_violations": [],
+  "band_slopes": 7,
+  "exact_k_core_slopes": 0,
+  "pairs_with_a_live_slope": 809,
+  "rigidity_shared_slope_hist": {
+   "0": 274170,
+   "1": 52666
+  },
+  "rigidity_violations": [],
+  "rigidity_proportionality_violations": [],
+  "MEASURED_BAND_COLUMN": 14,
+  "printed_tangent_column": 8,
+  "column_beats_printed": true,
+  "sum_of_caps_over_band": 7
+ },
+ {
+  "fixture": "M2-2cores-SHARED-seed43",
+  "n": 16,
+  "k": 5,
+  "t": 4,
+  "A": 9,
+  "h": 4,
+  "R": 11,
+  "r": 7,
+  "q": 97,
+  "band": [
+   6,
+   7
+  ],
+  "intended": {
+   "cores": [
+    7,
+    7
+   ],
+   "slopes": [
+    3,
+    3
+   ],
+   "shared_blocks": true,
+   "slope_pairs": [
+    [
+     41,
+     24
+    ],
+    [
+     74,
+     32
+    ],
+    [
+     88,
+     49
+    ]
+   ]
+  },
+  "max_joint_agreement": 7,
+  "globally_generic": true,
+  "below_cascade": true,
+  "max_ray_agreement": 10,
+  "tangent_free": false,
+  "v_nonvanishing": true,
+  "ADMISSIBLE": false,
+  "kpacking_count_violations": [],
+  "kpacking_ok": true,
+  "deep_pairs": 5,
+  "deep_pairwise_max_intersection": 4,
+  "kpacking_direct_ok": true,
+  "n_rays": 7,
+  "live_slopes": 7,
+  "max_rays_per_slope": 1,
+  "reselection_freedom_slopes": 0,
+  "ledger_by_depth": {
+   "0": {
+    "n_pairs": 4308,
+    "N_d": 0,
+    "maxL": 1,
+    "cap": 2,
+    "sumL": 0
+   },
+   "1": {
+    "n_pairs": 3,
+    "N_d": 3,
+    "maxL": 2,
+    "cap": 3,
+    "sumL": 6
+   },
+   "2": {
+    "n_pairs": 2,
+    "N_d": 2,
+    "maxL": 4,
+    "cap": 4,
+    "sumL": 8
+   }
+  },
+  "LINE_CAP_violations": [],
+  "banked_kappa_k_cap_floor_R_over_h": 2,
+  "banked_cap_violations": [
+   [
+    "2",
+    4
+   ]
+  ],
+  "core_histogram_ge_k": {
+   "6": 3,
+   "7": 12
+  },
+  "T2_fibre_violations": [],
+  "band_slopes": 7,
+  "exact_k_core_slopes": 0,
+  "pairs_with_a_live_slope": 809,
+  "rigidity_shared_slope_hist": {
+   "0": 274170,
+   "1": 52666
+  },
+  "rigidity_violations": [],
+  "rigidity_proportionality_violations": [],
+  "MEASURED_BAND_COLUMN": 14,
+  "printed_tangent_column": 8,
+  "column_beats_printed": true,
+  "sum_of_caps_over_band": 7
+ },
+ {
+  "fixture": "M2-2cores-SHARED-seed44",
+  "n": 16,
+  "k": 5,
+  "t": 4,
+  "A": 9,
+  "h": 4,
+  "R": 11,
+  "r": 7,
+  "q": 97,
+  "band": [
+   6,
+   7
+  ],
+  "intended": {
+   "cores": [
+    7,
+    7
+   ],
+   "slopes": [
+    3,
+    3
+   ],
+   "shared_blocks": true,
+   "slope_pairs": [
+    [
+     41,
+     24
+    ],
+    [
+     74,
+     32
+    ],
+    [
+     88,
+     49
+    ]
+   ]
+  },
+  "max_joint_agreement": 7,
+  "globally_generic": true,
+  "below_cascade": true,
+  "max_ray_agreement": 10,
+  "tangent_free": false,
+  "v_nonvanishing": true,
+  "ADMISSIBLE": false,
+  "kpacking_count_violations": [],
+  "kpacking_ok": true,
+  "deep_pairs": 5,
+  "deep_pairwise_max_intersection": 4,
+  "kpacking_direct_ok": true,
+  "n_rays": 7,
+  "live_slopes": 7,
+  "max_rays_per_slope": 1,
+  "reselection_freedom_slopes": 0,
+  "ledger_by_depth": {
+   "0": {
+    "n_pairs": 4308,
+    "N_d": 0,
+    "maxL": 1,
+    "cap": 2,
+    "sumL": 0
+   },
+   "1": {
+    "n_pairs": 3,
+    "N_d": 3,
+    "maxL": 2,
+    "cap": 3,
+    "sumL": 6
+   },
+   "2": {
+    "n_pairs": 2,
+    "N_d": 2,
+    "maxL": 4,
+    "cap": 4,
+    "sumL": 8
+   }
+  },
+  "LINE_CAP_violations": [],
+  "banked_kappa_k_cap_floor_R_over_h": 2,
+  "banked_cap_violations": [
+   [
+    "2",
+    4
+   ]
+  ],
+  "core_histogram_ge_k": {
+   "6": 3,
+   "7": 12
+  },
+  "T2_fibre_violations": [],
+  "band_slopes": 7,
+  "exact_k_core_slopes": 0,
+  "pairs_with_a_live_slope": 809,
+  "rigidity_shared_slope_hist": {
+   "0": 274170,
+   "1": 52666
+  },
+  "rigidity_violations": [],
+  "rigidity_proportionality_violations": [],
+  "MEASURED_BAND_COLUMN": 14,
+  "printed_tangent_column": 8,
+  "column_beats_printed": true,
+  "sum_of_caps_over_band": 7
+ },
+ {
+  "fixture": "M2-2cores-SHARED-seed45",
+  "n": 16,
+  "k": 5,
+  "t": 4,
+  "A": 9,
+  "h": 4,
+  "R": 11,
+  "r": 7,
+  "q": 97,
+  "band": [
+   6,
+   7
+  ],
+  "intended": {
+   "cores": [
+    7,
+    7
+   ],
+   "slopes": [
+    3,
+    3
+   ],
+   "shared_blocks": true,
+   "slope_pairs": [
+    [
+     41,
+     24
+    ],
+    [
+     74,
+     32
+    ],
+    [
+     88,
+     49
+    ]
+   ]
+  },
+  "max_joint_agreement": 7,
+  "globally_generic": true,
+  "below_cascade": true,
+  "max_ray_agreement": 10,
+  "tangent_free": false,
+  "v_nonvanishing": true,
+  "ADMISSIBLE": false,
+  "kpacking_count_violations": [],
+  "kpacking_ok": true,
+  "deep_pairs": 5,
+  "deep_pairwise_max_intersection": 4,
+  "kpacking_direct_ok": true,
+  "n_rays": 7,
+  "live_slopes": 7,
+  "max_rays_per_slope": 1,
+  "reselection_freedom_slopes": 0,
+  "ledger_by_depth": {
+   "0": {
+    "n_pairs": 4308,
+    "N_d": 0,
+    "maxL": 1,
+    "cap": 2,
+    "sumL": 0
+   },
+   "1": {
+    "n_pairs": 3,
+    "N_d": 3,
+    "maxL": 2,
+    "cap": 3,
+    "sumL": 6
+   },
+   "2": {
+    "n_pairs": 2,
+    "N_d": 2,
+    "maxL": 4,
+    "cap": 4,
+    "sumL": 8
+   }
+  },
+  "LINE_CAP_violations": [],
+  "banked_kappa_k_cap_floor_R_over_h": 2,
+  "banked_cap_violations": [
+   [
+    "2",
+    4
+   ]
+  ],
+  "core_histogram_ge_k": {
+   "6": 3,
+   "7": 12
+  },
+  "T2_fibre_violations": [],
+  "band_slopes": 7,
+  "exact_k_core_slopes": 0,
+  "pairs_with_a_live_slope": 809,
+  "rigidity_shared_slope_hist": {
+   "0": 274170,
+   "1": 52666
+  },
+  "rigidity_violations": [],
+  "rigidity_proportionality_violations": [],
+  "MEASURED_BAND_COLUMN": 14,
+  "printed_tangent_column": 8,
+  "column_beats_printed": true,
+  "sum_of_caps_over_band": 7
+ }
+]
