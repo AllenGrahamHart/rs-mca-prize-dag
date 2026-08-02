@@ -111,7 +111,14 @@ quit;
 
 
 @app.local_entrypoint()
-def main(cells: str = "0", charts: str = "0,1,2,3,4,5"):
+def main(
+    cells: str = "0",
+    charts: str = "0,1,2,3,4,5",
+    result_name: str = RESULT.name,
+):
+    if Path(result_name).name != result_name or not result_name.endswith(".json"):
+        raise ValueError("result_name must be a JSON basename")
+    result_path = DIRECTORY / result_name
     selected = tuple(int(value) for value in cells.split(",") if value)
     selected_charts = tuple(int(value) for value in charts.split(",") if value)
     cases = tuple(itertools.product(selected, (-1, 1), (-1, 1), selected_charts))
@@ -147,9 +154,9 @@ def main(cells: str = "0", charts: str = "0,1,2,3,4,5"):
         ),
         "rows": rows,
     }
-    RESULT.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n")
+    result_path.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n")
     print(json.dumps({
-        "result": str(RESULT),
+        "result": str(result_path),
         "status_counts": {
             status: sum(row["status"] == status for row in rows)
             for status in sorted({row["status"] for row in rows})

@@ -1,0 +1,1264 @@
+{
+  "app": "rs-mca-positive-433-1b-principal-common-charts",
+  "case_count": 48,
+  "field": 2130706433,
+  "nonunit_count": 0,
+  "rows": [
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 0,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "58f79f68e68957811a8b7bb8f7026ef98fc3d8b7a5c15f5c56444a8f0c691bc8",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 1,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "7733c9ec2c1f125352c561251b020994b55ecc5127f72ac8a70c96c291b13715",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 2,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "cd7f60d48bf786f49ab9469fe1bec1f4bcdd52deeecc2dc43a4257af81731938",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 3,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "1f2f9c0f2c5abb2ac5ede5d6ba6d756fa3a250207494978f845c362ac795253e",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 4,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "0c581a6f0d2cd630b04002f2c763334583255e72f654fe0037775df6bd01f2be",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 5,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "dc11b7e9cc4dc920ebe12e2d9abc5313f82eb596e2a2e10feb9bb32c4c0b5aaf",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 0,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "621a7affce87bc68bb160ef856ca9b4ba0bce48298ca2b4bf84a64e8f0dcac6b",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 1,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "eb21193baf9a90ad5b201876d2987090cce5a4dbf27f0acc3157878e2329ad9c",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 2,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "593ccbdaf34ff48a4c3f2095b857f20390586831302a45368ccf802ced5bb5dd",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 3,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "2286a1f51672291515571a5c52f3a9c7d383e21c5b31c7ba92b3e10048e255c5",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 4,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "1ef5fa37c86c84529150dd676a68fcb6b9f7d2595b8c279af2c0a973bff81292",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 5,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "23068aa6c9d511b3a63f8845917d106216c00935ffcffdd64a2abf126377ce1d",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 0,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "b217a2037ef74d8720c274f5bc4fccb210c2868d103de1344c36c54fc19914b0",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 1,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "d8a2820e09b1a13ee701f2c0ce7676b33636dc996ffcad9dd33b7f986d09913f",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 2,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "3df1344617900e79eaf61d850cd34e6c75fea5b35e29c62945f7f94d93375d4f",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 3,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "4533a63fa5e6fc0d2fc2da3f3c715911d9f340e46381d3290adae76cf367e1e2",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 4,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "18642159ee93132c9ecdf367ad04872a4205d8724dbca787136729aefc4db067",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 5,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "b7863951109190de7d443db507112690974fc753837fdfa807588435b1962af9",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 0,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "0c3608071c98b72acc4343ea0c122e89a5c11256a17fcae4dd7ee30bc0a20c5c",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 1,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "1e322983fd46716705c9bd921410d5be077465d95b94595d39c74247417dd199",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 2,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "ebcbe40d5558532c332a93a3ffd022b97f6685310803c4b8eb7e172eaeaecae6",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 3,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "27239719db24c002d6ca89bf2577b30556c288c0a2b07f2d859ea29cebc7870f",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 4,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "c7e20f19d6fc8ed685f9e95e7a54e8526002517bb30ed5c96b3f2028a9587628",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 1,
+      "chart": 5,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC+"
+        ],
+        [
+          "AC",
+          "BC-"
+        ]
+      ],
+      "program_sha256": "488ff05c3e1f91434e3026e6f2633752e5c7f6771d515c36404ed68c42cf5abf",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 0,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "10fc90ed3bf5246692ec7600ad4859da2d9bf2a1b1bec00c8e51588d71e124d8",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 1,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "02016bd698c8d2aa7a7b88d6bb26e385e6044486c630b4efea5d2ae25f3a877b",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 2,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "09663d4047b8f7c5cdba2ce8df0eab281ad36e8b9e5cb61f80d61541646cb6c2",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 3,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "1d58bfefb082c313ebb49dd2969b87730d177a63d7e662d6dde7358bc0a53ddf",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 4,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "528eb163ae6b89273fabc04e192c10183736d4c96cc5df10a1cfb56f3ffb881c",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 5,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "bdafa8be971f4ac3903803ce36c9dfa05fa37fa2b7aff53e05f500df6c4cd247",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 0,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "9fe3fde388468705f9e674b3f1e8e2dc84ee3be6f0e612e00028e9f79b4fc1dd",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 1,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "a46322a7906f48e44b35835390dd396e77e021947f660c127ff94073cc102fd1",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 2,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "dd719f854d3bd39b0c07a8792fd9c706985712679500d64f07ebd774da5877b5",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 3,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "6679ff94301b55f874360d4f539e3c04a45abd186ea60a7959309dcbf7b527ec",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 4,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "8fe0717961504134736140999584d3e151b8b080685ae659b6e57e5892b3ad25",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 5,
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "142224b86459c57183461e4d88ccb7b0e40f1bd879250e2a697b1afec9ed5613",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 0,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "8b53fc4db08b7a6fe552dccbd056b74befe572d687449b2116c733ce38f5b20f",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 1,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "7457788e6a3dbe7faad9f628700e581f747e41bc019c2122ed14ac5bf852047c",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 2,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "7a704b6c44a9109b3c71c28b0405ae8bef03aa6df0f967f27a93ee4bbb24587e",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 3,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "2c9292bcdd20c22d40178f10b3f1391243a0ece38c738e33a75debdc2238d807",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 4,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "5d50ad83adb694190cbb16c57614b8aa0d8a414c1a974e38aac8dae985ed3557",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 5,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "b64f38e8399991e760053f6e6c95aea4c204562de496222b18eafdbec951ea8f",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 0,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "f51173ecdaba897b07ec280266309b16a613d7b29229ccffe4b8f8ddc8936c58",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 1,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "3a609e32f8e4629d00ef2b8a14394b7ca7873a3c19e0023128efccce57624d7b",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 2,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "16c1c60845cbc7b453fc31fba9dccb97a17646ef039bc3cce762f74ccfa4f8f2",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 3,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "d10b051301dca64627df4909f0f782b2da697fc1ada91d938b02f79d1d7ed4be",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 4,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "f472ec918b91fdefe4335a1b38d106a804c87e6b267de84eb2e2604adbbc611a",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    },
+    {
+      "basis_size": 1,
+      "cell": 2,
+      "chart": 5,
+      "dimension": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "matching": [
+        [
+          "AB",
+          "BC-"
+        ],
+        [
+          "AC",
+          "BC+"
+        ]
+      ],
+      "program_sha256": "9d0334f3e622f27b2040a6c8d41f9ca53b48059aeb7b7c75fabadc32557c3aa3",
+      "singleton": "LA",
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "unit": true
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-principal-common-charts-v1",
+  "scope": "Exact six-common-minor ideals localized at each nonzero product cofactor chart; outside rows and route exclusion are not decided.",
+  "source_common_sha256": "a956656cba6c884bae665a2439666964ed468dcf9d0466e80cb825e811a6f845",
+  "source_product_sha256": "ee4dcb25877e9101a544ee5896b9bf6890059d6398c78d7562127b0d1c53c293",
+  "status_counts": {
+    "COMPLETE": 48
+  },
+  "unit_count": 48
+}

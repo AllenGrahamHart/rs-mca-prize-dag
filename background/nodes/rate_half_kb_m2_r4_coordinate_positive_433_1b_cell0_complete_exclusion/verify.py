@@ -22,7 +22,7 @@ FILES = {
     "outside_result": EXPERIMENTS / "rate_half_kb_positive_433_1b_cell0_principal_outside_result.json",
 }
 HASHES = {
-    "charts_script": "cbd436334621bb4fb996a3f58d1f3819a262e13e6ea3d3a80a2d095b689a4614",
+    "charts_script": "d2de06b6011105ddb5ddd95e93eff865ce01491d4b9b612dbac2cc703271b577",
     "charts_result": "c4bbba007d2d4b7a5cd40fd1afb299c5233eaf878b2fc5bee71b3b6e254bd9f5",
     "components_script": "271c5b9cc31ea9eff8981f4acd1d0b9055cc1ece1e9976c9ab7058a9873a2d8e",
     "components_result": "2fd2d65ebd033d8cd784f428d31d9b49eb66c4b6a059326ed7efcd60d53ed100",
