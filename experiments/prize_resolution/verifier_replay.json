@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/verify.py",
-      "seconds": 15.068653,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/verify.py",
+      "seconds": 0.247332,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1A_CELL5_GUARD_STABLE_RANK_PASS columns=25:64 generic_rank_M2=24 ntt_size=512 max_degree=380 packet_sha256=c10acad4d6e6971fb978498f49a1a8306326b81f23c6cdf3c06cb318ba6f61d3 cleared_sha256=664ffeb8b6093302a6b5cd795d59a09363e1d5beaeb6bd12c4fe48a4d9e38c82\n"
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1A_CELL5_LOCALIZED_OPERATOR_PASS fiber=2 cyclic_vector=0 degree=24 squarefree_gcd_degree=0 minimal_sha256=d26bd2c06273091759c96100b517f2aae3e57f1d966eb20b8f025358afea6e65 operator_sha256=d49311b27680acf3b4b548547a9c4f8c94f5d1ea63ae3154982e5972bc5de026\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank/verify_audit.py",
-      "seconds": 4.1609,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/verify_audit.py",
+      "seconds": 1.183775,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1A_CELL5_GUARD_STABLE_RANK_MUTATION_PASS rejected=dropped_shard,changed_coordinate,flipped_packet_byte\npositive 433-1a cell-5 signed-pair stable-rank scope audit verified\n"
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1A_CELL5_LOCALIZED_OPERATOR_MUTATION_PASS rejected=dropped_entry,changed_coordinate,changed_target\npositive 433-1a cell-5 signed-pair generic-reducedness audit verified\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

@@ -52,8 +52,10 @@ generic ranks `rank(M^2)=rank(M^3)=24`.  The new PROVED node
 therefore fixes the guard-localized scheme length at 24.  This is not a
 24-point or 24-component claim.
 
-The next task is now finite and specific: compute the radical/residue-field
-ledger of this length-24 algebra, identify exceptional `t` fibers, restore
-the source-root square and distinctness guards, and only then evaluate the
-colored `BE` norm on the surviving factors.  Do not retry either failed
-generic basis or treat the length as a component count.
+The next task is now finite and specific.  A downstream theorem proves that
+this length-24 algebra is monogenic and generically reduced using
+`ell=x1+2*x0+3*b`.  Compute and factor its exact primitive polynomial,
+identify exceptional `t` fibers, restore the source-root square and
+distinctness guards, and only then evaluate the colored `BE` norm on the
+surviving factors.  Do not retry either failed generic basis, recompute a
+radical, or treat the degree as a component count.

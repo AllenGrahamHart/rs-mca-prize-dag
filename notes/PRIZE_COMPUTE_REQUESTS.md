@@ -11420,3 +11420,31 @@ Return exact factor polynomials, guard norms, and independently replayable
 certificates.  Do not call the length 24 a component count, sample only
 special fibers, retry the failed generic basis, or append the colored norm
 before the residue ledger is known.
+
+### 2026-08-01 signed-pair generic-reducedness completion
+
+The radical part of the revised request is now complete.  On the certified
+24-dimensional stable image, exact multiplication by
+`ell=x1+2*x0+3*b` was computed in all 24 columns and checked in all 64
+ambient quotient rows.  At the regular fiber `t=2`, the first coordinate
+vector is cyclic and the degree-24 minimal polynomial has derivative gcd
+one.  Consequently `ell` is generically primitive and the localized algebra
+is reduced over `F_2130706433(t)`.
+
+The full two-column campaign completed ten shards and returned explicit
+timeouts for columns 13--14 and 19--20 in
+`ap-JbaRjWcp7CtiDT2nqnl8Sp`.  Exact one-column/matrix-method retries completed
+the missing coverage in `ap-uAXb13GnCsiaM4LEhf3NLU`,
+`ap-AfNdHRICf9Pb3bWsGVV0u0`, and
+`ap-wn8HRH4Q7HLq0JKnI1RhbJ`.  All apps are stopped.
+
+The new contributor request begins after radical computation:
+
+1. compute the exact degree-24 characteristic/minimal polynomial of `ell`
+   over `F_p(t)`;
+2. factor it and report exact residue degrees and factor polynomials;
+3. compute its discriminant and all source/denominator guard norms;
+4. apply the residual colored `BE` product and unsquared sum on those
+   factors.
+
+Do not rerun radical algorithms or infer 24 components from degree 24.

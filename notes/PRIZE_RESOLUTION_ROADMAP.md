@@ -14780,3 +14780,32 @@ next route-deciding step: compute the radical/residue-field ledger of the
                           length-24 localized algebra, classify exceptional
                           t fibers and source guards, then append the BE norm
 ```
+
+### Work-cycle theorem: positive 433-1a signed-pair generic reducedness
+
+```text
+node/workboard attacked:  K3 / cell-5 localized DE+/DE- algebra
+result:                   PROVED monogenic generic reducedness
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+primitive element:        ell=x1+2*x0+3*b
+exact operator:           24 columns, each checked in all 64 ambient rows
+regular fiber:            t=2; every operator and stable-basis denominator
+                          is nonzero
+cyclicity:                first coordinate vector has 24 independent
+                          Krylov iterates
+specialized polynomial:   degree 24, derivative gcd 1
+minimal coefficient hash: d26bd2c06273091759c96100b517f2aae3e57f1d966eb20b8f025358afea6e65
+operator packet hash:     d49311b27680acf3b4b548547a9c4f8c94f5d1ea63ae3154982e5972bc5de026
+Modal apps:               ap-JbaRjWcp7CtiDT2nqnl8Sp (full partial),
+                          ap-uAXb13GnCsiaM4LEhf3NLU (column 13),
+                          ap-AfNdHRICf9Pb3bWsGVV0u0 (column 14),
+                          ap-wn8HRH4Q7HLq0JKnI1RhbJ (columns 19--20)
+exact consequence:        A[g^-1]=K[ell] and its primitive polynomial is
+                          squarefree, hence A[g^-1] is reduced
+nonclaim:                 no factorization/residue count, exceptional-fiber
+                          locus, source lift, colored edge, route, K3, or
+                          Prize close
+next route-deciding step: compute the exact degree-24 primitive polynomial,
+                          factor it over F_p(t), then evaluate source guards
+                          and the colored BE norm factor by factor
+```
