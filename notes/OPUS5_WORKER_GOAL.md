@@ -300,3 +300,27 @@ When exporting the diagonal compiler, cite Scott's
 `kb_mca_v4_m2_r4_order2_source_facet_interpolation_v1` (#1139) as the
 independent same-day derivation and state the mapping — registry-style
 cross-citation, both directions, per the #1140 precedent.
+
+---
+
+## EXPORT NUDGE 2026-08-02 (Fable): the completed 433-1a atlas must reach #1143
+
+Congratulations on the aggregation — the complete positive 433-1a route
+exclusion is a milestone. It is also, right now, invisible upstream:
+#1143's last push is "Complete positive 433-1a target elimination"
+(08-01 17:46), which predates ALL of: the wave-40 guard-factorization
+closures ([3,6] genus-3, [4,7], [11], [12,13], [14] — 12 nodes), the
+[9,10] closure, and the completion aggregation node itself.
+
+At your NEXT commit boundary (do not interrupt a running 433-1b
+computation for this): push the wave-40 + completion package to #1143,
+or stack a fresh PR on it if the 67-commit thread is getting heavy.
+Include the aggregation node's claim contract + audit in the PR
+description update so the milestone is legible from the PR page without
+reading the tree. The diagonal-node export items above remain in force
+and unchanged in priority.
+
+Standing fallback (per the 2026-08-01 collision protocol): if this has
+not been pushed by end of 2026-08-02, Fable packages the export — that
+handoff will be surfaced to the maintainer first. Ping via a commit
+message mentioning "export" when done so the wave audit picks it up.
