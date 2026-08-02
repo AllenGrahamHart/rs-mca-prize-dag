@@ -108,3 +108,43 @@ what upstream mechanism (if any) guarantees the DEPLOYED windows of
 the actual F2 tower satisfy it — or is a window-selection step now a
 required part of the F2 architecture? That last question is the lane's
 new heart.
+
+---
+
+## AMENDMENT 2026-08-02 (deployed-windows pilot; supersedes ask (c) —
+read before attacking)
+
+Ask (c) is ANSWERED, and the answer restates the theorem
+(`notes/pilots_20260802/f2_deployed_windows/{REPORT,FABLE_AUDIT}.md`,
+8/8 exact validations, coordinator-replayed and hand-derived):
+
+1. **The ANTIPODAL DESCENT LEMMA (proved, elementary):** in the
+   2-power Frobenius tower over p with v_2(p-1) = e, every rung's
+   descent pairs are antipodal {y, -y} (LTE + the order argument),
+   so under the banked linear character EVERY deployed window has all
+   Delta even: parity-homogeneous, flat = 0 EXACTLY, mode k = p
+   slice-dead at 100% of frequencies, cancellation pinned at
+   log2 p ~ 31 bits per rung against budgets of 1.95e5-6.4e9 bits.
+   Window SELECTION is impossible in principle (every sub-window
+   inherits the degeneracy).
+2. **The hypothesis must be (H-flat*):** flatness over odd modes
+   k != p only, PLUS k = p as a named UNIVERSAL owner carrying its
+   exact Krawtchouk contribution +-E_b/p. At deployed windows the
+   "exceptional owner" is not exceptional.
+3. **The theorem's scope is the GENERIC-frequency class**: for
+   multi-condition characters with both parity parts nonzero,
+   measured flat = 0.55-0.60 uniformly (p to 18433, m to 512), 100%
+   clear the 1/43 budget; **1/3 is unreachable at deployed windows
+   for any window size** — strengthening ask (b): only 1/43-type
+   budgets are live for the slice route.
+4. **The architecture needs a FREQUENCY-space case split** (new):
+   parity-pure frequencies (even part trace-zero / odd part zero)
+   carry NO signed content in the moving sector and must route to the
+   already-PROVED fixed-sector argument. **NEW OPEN OBLIGATION for
+   this round: does the fixed sector mu_{2^24} absorb the parity-pure
+   class?** Nobody has checked; it now sits beside PP5.0 and the
+   F2A.1 seam as the lane's upstream gates.
+5. Instrument note: the banked pilot family's measurements used the
+   linear character (= the degenerate class) on the FULL group; their
+   structural laws are frequency-general and stand, but window
+   statistics must henceforth state their frequency class.

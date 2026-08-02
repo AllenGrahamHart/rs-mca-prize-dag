@@ -1,0 +1,92 @@
+{
+ "rows": [
+  {
+   "p": 17,
+   "e": 4,
+   "m": 8,
+   "generic_flat_min": 0.30216968398129407,
+   "generic_flat_med": 0.39062352620678203,
+   "generic_resid_flat_med": 0.39062352620678203,
+   "K1_flat": 0.0,
+   "K1_resid_flat": 0.3226280345337863,
+   "sqrt_p_over_m": 0.5153882032022076
+  },
+  {
+   "p": 97,
+   "e": 5,
+   "m": 16,
+   "generic_flat_min": 0.0,
+   "generic_flat_med": 0.4648764368377609,
+   "generic_resid_flat_med": 0.4800534344795814,
+   "K1_flat": 0.0,
+   "K1_resid_flat": 0.4168346684845483,
+   "sqrt_p_over_m": 0.6155536126122565
+  },
+  {
+   "p": 193,
+   "e": 6,
+   "m": 32,
+   "generic_flat_min": 0.0,
+   "generic_flat_med": 0.5648773874766696,
+   "generic_resid_flat_med": 0.5879835790992698,
+   "K1_flat": -2.220446049250313e-16,
+   "K1_resid_flat": 0.2949154200487524,
+   "sqrt_p_over_m": 0.4341388746703064
+  },
+  {
+   "p": 641,
+   "e": 7,
+   "m": 64,
+   "generic_flat_min": 0.0,
+   "generic_flat_med": 0.6194272481160659,
+   "generic_resid_flat_med": 0.633157358468845,
+   "K1_flat": 2.220446049250313e-16,
+   "K1_resid_flat": 0.371615050526359,
+   "sqrt_p_over_m": 0.3955934031616301
+  },
+  {
+   "p": 257,
+   "e": 8,
+   "m": 128,
+   "generic_flat_min": 1.1102230246251565e-16,
+   "generic_flat_med": 0.6046682469512898,
+   "generic_resid_flat_med": 0.6157981973486915,
+   "K1_flat": 1.1102230246251565e-16,
+   "K1_resid_flat": 0.3608894524313717,
+   "sqrt_p_over_m": 0.12524390267094843
+  },
+  {
+   "p": 7681,
+   "e": 9,
+   "m": 256,
+   "generic_flat_min": -1.3322676295501878e-15,
+   "generic_flat_med": 0.5999084219388361,
+   "generic_resid_flat_med": 0.5999084219388361,
+   "K1_flat": 2.220446049250313e-16,
+   "K1_resid_flat": 0.3525331655158308,
+   "sqrt_p_over_m": 0.3423488846032107
+  },
+  {
+   "p": 13313,
+   "e": 10,
+   "m": 512,
+   "generic_flat_min": 0.5393769123409794,
+   "generic_flat_med": 0.5748476205231019,
+   "generic_resid_flat_med": 0.5748476205231019,
+   "K1_flat": 1.1102230246251565e-16,
+   "K1_resid_flat": 0.3487314845459426,
+   "sqrt_p_over_m": 0.2253554186108371
+  },
+  {
+   "p": 18433,
+   "e": 11,
+   "m": 1024,
+   "generic_flat_min": 0.5533084979797558,
+   "generic_flat_med": 0.587885793433153,
+   "generic_resid_flat_med": 0.587885793433153,
+   "K1_flat": 1.1102230246251565e-16,
+   "K1_resid_flat": 0.37480855383968414,
+   "sqrt_p_over_m": 0.13258611795477085
+  }
+ ]
+}

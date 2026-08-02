@@ -1,0 +1,64 @@
+{
+ "rows": [
+  {
+   "p": 41,
+   "c": [
+    1,
+    1
+   ],
+   "n": 4,
+   "A_eq_B": true,
+   "abs_e_b_eq_E_b": true
+  },
+  {
+   "p": 41,
+   "c": [
+    2,
+    3
+   ],
+   "n": 4,
+   "A_eq_B": true,
+   "abs_e_b_eq_E_b": true
+  },
+  {
+   "p": 17,
+   "c": [
+    1,
+    1
+   ],
+   "n": 8,
+   "A_eq_B": true,
+   "abs_e_b_eq_E_b": true
+  },
+  {
+   "p": 17,
+   "c": [
+    2,
+    3
+   ],
+   "n": 8,
+   "A_eq_B": true,
+   "abs_e_b_eq_E_b": true
+  },
+  {
+   "p": 97,
+   "c": [
+    1,
+    1
+   ],
+   "n": 8,
+   "A_eq_B": true,
+   "abs_e_b_eq_E_b": true
+  },
+  {
+   "p": 97,
+   "c": [
+    2,
+    3
+   ],
+   "n": 8,
+   "A_eq_B": true,
+   "abs_e_b_eq_E_b": true
+  }
+ ]
+}

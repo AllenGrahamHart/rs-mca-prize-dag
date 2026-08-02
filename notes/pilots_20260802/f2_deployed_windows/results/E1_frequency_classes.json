@@ -1,0 +1,264 @@
+{
+ "rows": [
+  {
+   "p": 17,
+   "e": 4,
+   "n_ord": 32,
+   "m": 8,
+   "class": "odd_only",
+   "trials": 40,
+   "flat_min": 0.0,
+   "flat_med": 0.0,
+   "flat_max": 2.220446049250313e-16,
+   "frac_all_even": 1.0,
+   "frac_all_zero": 0.0,
+   "beta_min_med": 0.0,
+   "argmax_k_modes": [
+    [
+     "k=p",
+     40
+    ]
+   ]
+  },
+  {
+   "p": 17,
+   "e": 4,
+   "n_ord": 32,
+   "m": 8,
+   "class": "even_only",
+   "trials": 40,
+   "flat_min": 0.0,
+   "flat_med": 0.0,
+   "flat_max": 0.0,
+   "frac_all_even": 1.0,
+   "frac_all_zero": 1.0,
+   "beta_min_med": 0.0,
+   "argmax_k_modes": [
+    [
+     "k!=p",
+     40
+    ]
+   ]
+  },
+  {
+   "p": 17,
+   "e": 4,
+   "n_ord": 32,
+   "m": 8,
+   "class": "mixed",
+   "trials": 40,
+   "flat_min": 0.0,
+   "flat_med": 2.220446049250313e-16,
+   "flat_max": 0.6337241629399228,
+   "frac_all_even": 0.5,
+   "frac_all_zero": 0.275,
+   "beta_min_med": 0.0,
+   "argmax_k_modes": [
+    [
+     "k!=p",
+     26
+    ],
+    [
+     "k=p",
+     14
+    ]
+   ]
+  },
+  {
+   "p": 97,
+   "e": 5,
+   "n_ord": 64,
+   "m": 16,
+   "class": "odd_only",
+   "trials": 40,
+   "flat_min": -2.220446049250313e-16,
+   "flat_med": 0.0,
+   "flat_max": 1.1102230246251565e-16,
+   "frac_all_even": 1.0,
+   "frac_all_zero": 0.0,
+   "beta_min_med": 0.0,
+   "argmax_k_modes": [
+    [
+     "k=p",
+     40
+    ]
+   ]
+  },
+  {
+   "p": 97,
+   "e": 5,
+   "n_ord": 64,
+   "m": 16,
+   "class": "even_only",
+   "trials": 40,
+   "flat_min": 0.0,
+   "flat_med": 0.0,
+   "flat_max": 0.0,
+   "frac_all_even": 1.0,
+   "frac_all_zero": 1.0,
+   "beta_min_med": 0.0,
+   "argmax_k_modes": [
+    [
+     "k!=p",
+     40
+    ]
+   ]
+  },
+  {
+   "p": 97,
+   "e": 5,
+   "n_ord": 64,
+   "m": 16,
+   "class": "mixed",
+   "trials": 40,
+   "flat_min": -2.220446049250313e-16,
+   "flat_med": 0.40047456542016036,
+   "flat_max": 0.5670498590193953,
+   "frac_all_even": 0.375,
+   "frac_all_zero": 0.15,
+   "beta_min_med": 0.34375,
+   "argmax_k_modes": [
+    [
+     "k!=p",
+     29
+    ],
+    [
+     "k=p",
+     11
+    ]
+   ]
+  },
+  {
+   "p": 193,
+   "e": 6,
+   "n_ord": 128,
+   "m": 32,
+   "class": "odd_only",
+   "trials": 40,
+   "flat_min": -8.881784197001252e-16,
+   "flat_med": 0.0,
+   "flat_max": 1.1102230246251565e-16,
+   "frac_all_even": 1.0,
+   "frac_all_zero": 0.025,
+   "beta_min_med": 0.0,
+   "argmax_k_modes": [
+    [
+     "k=p",
+     39
+    ],
+    [
+     "k!=p",
+     1
+    ]
+   ]
+  },
+  {
+   "p": 193,
+   "e": 6,
+   "n_ord": 128,
+   "m": 32,
+   "class": "even_only",
+   "trials": 40,
+   "flat_min": -8.881784197001252e-16,
+   "flat_med": -8.881784197001252e-16,
+   "flat_max": -8.881784197001252e-16,
+   "frac_all_even": 1.0,
+   "frac_all_zero": 1.0,
+   "beta_min_med": 0.0,
+   "argmax_k_modes": [
+    [
+     "k!=p",
+     40
+    ]
+   ]
+  },
+  {
+   "p": 193,
+   "e": 6,
+   "n_ord": 128,
+   "m": 32,
+   "class": "mixed",
+   "trials": 40,
+   "flat_min": -8.881784197001252e-16,
+   "flat_med": 0.0,
+   "flat_max": 0.6375907638681697,
+   "frac_all_even": 0.525,
+   "frac_all_zero": 0.225,
+   "beta_min_med": 0.0,
+   "argmax_k_modes": [
+    [
+     "k!=p",
+     28
+    ],
+    [
+     "k=p",
+     12
+    ]
+   ]
+  },
+  {
+   "p": 641,
+   "e": 7,
+   "n_ord": 256,
+   "m": 64,
+   "class": "odd_only",
+   "trials": 40,
+   "flat_min": 0.0,
+   "flat_med": 1.1102230246251565e-16,
+   "flat_max": 2.220446049250313e-16,
+   "frac_all_even": 1.0,
+   "frac_all_zero": 0.0,
+   "beta_min_med": 0.0,
+   "argmax_k_modes": [
+    [
+     "k=p",
+     40
+    ]
+   ]
+  },
+  {
+   "p": 641,
+   "e": 7,
+   "n_ord": 256,
+   "m": 64,
+   "class": "even_only",
+   "trials": 40,
+   "flat_min": -8.881784197001252e-16,
+   "flat_med": -8.881784197001252e-16,
+   "flat_max": -8.881784197001252e-16,
+   "frac_all_even": 1.0,
+   "frac_all_zero": 1.0,
+   "beta_min_med": 0.0,
+   "argmax_k_modes": [
+    [
+     "k!=p",
+     40
+    ]
+   ]
+  },
+  {
+   "p": 641,
+   "e": 7,
+   "n_ord": 256,
+   "m": 64,
+   "class": "mixed",
+   "trials": 40,
+   "flat_min": -8.881784197001252e-16,
+   "flat_med": 2.220446049250313e-16,
+   "flat_max": 0.7134640985710954,
+   "frac_all_even": 0.575,
+   "frac_all_zero": 0.225,
+   "beta_min_med": 0.0,
+   "argmax_k_modes": [
+    [
+     "k!=p",
+     25
+    ],
+    [
+     "k=p",
+     15
+    ]
+   ]
+  }
+ ]
+}
