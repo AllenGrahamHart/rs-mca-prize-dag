@@ -1,0 +1,754 @@
+[
+ {
+  "n": 8,
+  "k": 3,
+  "h": 3,
+  "d": 1,
+  "V": 3,
+  "q": 6421,
+  "R": 5,
+  "A": 6,
+  "M_design": 3,
+  "tau": 0,
+  "seed": 0,
+  "ADMISSIBLE": true,
+  "below_cascade": true,
+  "tangent_free": true,
+  "v_nonvanishing": true,
+  "kpacking_ok": true,
+  "T1_ok": true,
+  "T3_ok": true,
+  "max_joint": 4,
+  "max_ray": 6,
+  "max_v_side": 4,
+  "N_d": 3,
+  "M_measured": 3,
+  "rank_two_ray": 9,
+  "rank_all_ray": 9,
+  "rank_designed": 9,
+  "rank_rays_only": 9,
+  "cost_two_ray": 3.0,
+  "cost_designed": 3.0,
+  "pred_rank": 9,
+  "pred_cost": 3.0,
+  "sunflower_law": 3,
+  "two_R_minus_1": 9,
+  "points_used": 8,
+  "extra_rich": []
+ },
+ {
+  "n": 14,
+  "k": 3,
+  "h": 5,
+  "d": 1,
+  "V": 4,
+  "q": 6421,
+  "R": 11,
+  "A": 8,
+  "M_design": 6,
+  "tau": 0,
+  "seed": 0,
+  "ADMISSIBLE": true,
+  "below_cascade": true,
+  "tangent_free": true,
+  "v_nonvanishing": true,
+  "kpacking_ok": true,
+  "T1_ok": true,
+  "T3_ok": true,
+  "max_joint": 4,
+  "max_ray": 8,
+  "max_v_side": 4,
+  "N_d": 6,
+  "M_measured": 6,
+  "rank_two_ray": 20,
+  "rank_all_ray": 20,
+  "rank_designed": 20,
+  "rank_rays_only": 20,
+  "cost_two_ray": 3.3333333333333335,
+  "cost_designed": 3.3333333333333335,
+  "pred_rank": 20,
+  "pred_cost": 3.3333333333333335,
+  "sunflower_law": 3,
+  "two_R_minus_1": 21,
+  "points_used": 14,
+  "extra_rich": [
+   [
+    3155,
+    2121,
+    3
+   ],
+   [
+    6209,
+    4188,
+    3
+   ],
+   [
+    3445,
+    3980,
+    3
+   ],
+   [
+    331,
+    3317,
+    3
+   ]
+  ]
+ },
+ {
+  "n": 22,
+  "k": 3,
+  "h": 7,
+  "d": 1,
+  "V": 5,
+  "q": 6421,
+  "R": 19,
+  "A": 10,
+  "M_design": 10,
+  "tau": 0,
+  "seed": 0,
+  "ADMISSIBLE": true,
+  "below_cascade": true,
+  "tangent_free": true,
+  "v_nonvanishing": true,
+  "kpacking_ok": true,
+  "T1_ok": true,
+  "T3_ok": true,
+  "max_joint": 4,
+  "max_ray": 10,
+  "max_v_side": 4,
+  "N_d": 10,
+  "M_measured": 10,
+  "rank_two_ray": 35,
+  "rank_all_ray": 35,
+  "rank_designed": 35,
+  "rank_rays_only": 35,
+  "cost_two_ray": 3.5,
+  "cost_designed": 3.5,
+  "pred_rank": 35,
+  "pred_cost": 3.5,
+  "sunflower_law": 3,
+  "two_R_minus_1": 37,
+  "points_used": 22,
+  "extra_rich": [
+   [
+    3155,
+    4188,
+    4
+   ],
+   [
+    6209,
+    3980,
+    4
+   ],
+   [
+    3445,
+    3317,
+    4
+   ],
+   [
+    331,
+    6420,
+    4
+   ],
+   [
+    2121,
+    2484,
+    4
+   ]
+  ]
+ },
+ {
+  "n": 32,
+  "k": 3,
+  "h": 9,
+  "d": 1,
+  "V": 6,
+  "q": 10007,
+  "R": 29,
+  "A": 12,
+  "M_design": 15,
+  "tau": 0,
+  "seed": 0,
+  "ADMISSIBLE": true,
+  "below_cascade": true,
+  "tangent_free": true,
+  "v_nonvanishing": true,
+  "kpacking_ok": true,
+  "T1_ok": true,
+  "T3_ok": true,
+  "max_joint": 4,
+  "max_ray": 12,
+  "max_v_side": 4,
+  "N_d": 15,
+  "M_measured": 15,
+  "rank_two_ray": 54,
+  "rank_all_ray": 54,
+  "rank_designed": 54,
+  "rank_rays_only": 54,
+  "cost_two_ray": 3.6,
+  "cost_designed": 3.6,
+  "pred_rank": 54,
+  "pred_cost": 3.6,
+  "sunflower_law": 3,
+  "two_R_minus_1": 57,
+  "points_used": 32,
+  "extra_rich": [
+   [
+    6311,
+    6634,
+    5
+   ],
+   [
+    6890,
+    4969,
+    5
+   ],
+   [
+    663,
+    7808,
+    5
+   ],
+   [
+    4242,
+    5866,
+    5
+   ],
+   [
+    8376,
+    9558,
+    5
+   ],
+   [
+    7961,
+    3578,
+    5
+   ]
+  ]
+ },
+ {
+  "n": 44,
+  "k": 3,
+  "h": 11,
+  "d": 1,
+  "V": 7,
+  "q": 10007,
+  "R": 41,
+  "A": 14,
+  "M_design": 21,
+  "tau": 0,
+  "seed": 0,
+  "ADMISSIBLE": true,
+  "below_cascade": true,
+  "tangent_free": true,
+  "v_nonvanishing": true,
+  "kpacking_ok": true,
+  "T1_ok": true,
+  "T3_ok": true,
+  "max_joint": 4,
+  "max_ray": 14,
+  "max_v_side": 4,
+  "N_d": 21,
+  "M_measured": 21,
+  "rank_two_ray": 77,
+  "rank_all_ray": 77,
+  "rank_designed": 77,
+  "rank_rays_only": 77,
+  "cost_two_ray": 3.6666666666666665,
+  "cost_designed": 3.6666666666666665,
+  "pred_rank": 77,
+  "pred_cost": 3.6666666666666665,
+  "sunflower_law": 4,
+  "two_R_minus_1": 81,
+  "points_used": 44,
+  "extra_rich": [
+   [
+    6311,
+    4969,
+    6
+   ],
+   [
+    6890,
+    7808,
+    6
+   ],
+   [
+    663,
+    5866,
+    6
+   ],
+   [
+    4242,
+    9558,
+    6
+   ],
+   [
+    8376,
+    3578,
+    6
+   ],
+   [
+    7961,
+    8268,
+    6
+   ]
+  ]
+ },
+ {
+  "n": 26,
+  "k": 3,
+  "h": 9,
+  "d": 1,
+  "V": 3,
+  "q": 10007,
+  "R": 23,
+  "A": 12,
+  "M_design": 3,
+  "tau": 6,
+  "seed": 0,
+  "ADMISSIBLE": true,
+  "below_cascade": true,
+  "tangent_free": true,
+  "v_nonvanishing": true,
+  "kpacking_ok": true,
+  "T1_ok": true,
+  "T3_ok": true,
+  "max_joint": 4,
+  "max_ray": 12,
+  "max_v_side": 4,
+  "N_d": 3,
+  "M_measured": 3,
+  "rank_two_ray": 27,
+  "rank_all_ray": 27,
+  "rank_designed": 27,
+  "rank_rays_only": 27,
+  "cost_two_ray": 9.0,
+  "cost_designed": 9.0,
+  "pred_rank": 27,
+  "pred_cost": 9.0,
+  "sunflower_law": 3,
+  "two_R_minus_1": 45,
+  "points_used": 26,
+  "extra_rich": []
+ },
+ {
+  "n": 30,
+  "k": 3,
+  "h": 9,
+  "d": 1,
+  "V": 4,
+  "q": 10007,
+  "R": 27,
+  "A": 12,
+  "M_design": 6,
+  "tau": 4,
+  "seed": 0,
+  "ADMISSIBLE": true,
+  "below_cascade": true,
+  "tangent_free": true,
+  "v_nonvanishing": true,
+  "kpacking_ok": true,
+  "T1_ok": true,
+  "T3_ok": true,
+  "max_joint": 4,
+  "max_ray": 12,
+  "max_v_side": 4,
+  "N_d": 6,
+  "M_measured": 6,
+  "rank_two_ray": 36,
+  "rank_all_ray": 36,
+  "rank_designed": 36,
+  "rank_rays_only": 36,
+  "cost_two_ray": 6.0,
+  "cost_designed": 6.0,
+  "pred_rank": 36,
+  "pred_cost": 6.0,
+  "sunflower_law": 3,
+  "two_R_minus_1": 53,
+  "points_used": 30,
+  "extra_rich": [
+   [
+    6311,
+    8376,
+    3
+   ],
+   [
+    6890,
+    7961,
+    3
+   ],
+   [
+    663,
+    6634,
+    3
+   ],
+   [
+    4242,
+    4969,
+    3
+   ]
+  ]
+ },
+ {
+  "n": 32,
+  "k": 3,
+  "h": 9,
+  "d": 1,
+  "V": 5,
+  "q": 10007,
+  "R": 29,
+  "A": 12,
+  "M_design": 10,
+  "tau": 2,
+  "seed": 0,
+  "ADMISSIBLE": true,
+  "below_cascade": true,
+  "tangent_free": true,
+  "v_nonvanishing": true,
+  "kpacking_ok": true,
+  "T1_ok": true,
+  "T3_ok": true,
+  "max_joint": 4,
+  "max_ray": 12,
+  "max_v_side": 4,
+  "N_d": 10,
+  "M_measured": 10,
+  "rank_two_ray": 45,
+  "rank_all_ray": 45,
+  "rank_designed": 45,
+  "rank_rays_only": 45,
+  "cost_two_ray": 4.5,
+  "cost_designed": 4.5,
+  "pred_rank": 45,
+  "pred_cost": 4.5,
+  "sunflower_law": 3,
+  "two_R_minus_1": 57,
+  "points_used": 32,
+  "extra_rich": [
+   [
+    6311,
+    7961,
+    4
+   ],
+   [
+    6890,
+    6634,
+    4
+   ],
+   [
+    663,
+    4969,
+    4
+   ],
+   [
+    4242,
+    7808,
+    4
+   ],
+   [
+    8376,
+    5866,
+    4
+   ]
+  ]
+ },
+ {
+  "n": 20,
+  "k": 3,
+  "h": 8,
+  "d": 2,
+  "V": 4,
+  "q": 10007,
+  "R": 17,
+  "A": 11,
+  "M_design": 6,
+  "tau": 0,
+  "seed": 0,
+  "ADMISSIBLE": true,
+  "below_cascade": true,
+  "tangent_free": true,
+  "v_nonvanishing": true,
+  "kpacking_ok": true,
+  "T1_ok": true,
+  "T3_ok": true,
+  "max_joint": 5,
+  "max_ray": 11,
+  "max_v_side": 5,
+  "N_d": 6,
+  "M_measured": 6,
+  "rank_two_ray": 32,
+  "rank_all_ray": 32,
+  "rank_designed": 32,
+  "rank_rays_only": 32,
+  "cost_two_ray": 5.333333333333333,
+  "cost_designed": 5.333333333333333,
+  "pred_rank": 32,
+  "pred_cost": 5.333333333333333,
+  "sunflower_law": 3,
+  "two_R_minus_1": 33,
+  "points_used": 20,
+  "extra_rich": [
+   [
+    6311,
+    8376,
+    3
+   ],
+   [
+    6890,
+    7961,
+    3
+   ],
+   [
+    663,
+    6634,
+    3
+   ],
+   [
+    4242,
+    4969,
+    3
+   ]
+  ]
+ },
+ {
+  "n": 32,
+  "k": 3,
+  "h": 11,
+  "d": 2,
+  "V": 5,
+  "q": 10007,
+  "R": 29,
+  "A": 14,
+  "M_design": 10,
+  "tau": 0,
+  "seed": 0,
+  "ADMISSIBLE": true,
+  "below_cascade": true,
+  "tangent_free": true,
+  "v_nonvanishing": true,
+  "kpacking_ok": true,
+  "T1_ok": true,
+  "T3_ok": true,
+  "max_joint": 5,
+  "max_ray": 14,
+  "max_v_side": 5,
+  "N_d": 10,
+  "M_measured": 10,
+  "rank_two_ray": 55,
+  "rank_all_ray": 55,
+  "rank_designed": 55,
+  "rank_rays_only": 55,
+  "cost_two_ray": 5.5,
+  "cost_designed": 5.5,
+  "pred_rank": 55,
+  "pred_cost": 5.5,
+  "sunflower_law": 3,
+  "two_R_minus_1": 57,
+  "points_used": 32,
+  "extra_rich": [
+   [
+    6311,
+    7961,
+    4
+   ],
+   [
+    6890,
+    6634,
+    4
+   ],
+   [
+    663,
+    4969,
+    4
+   ],
+   [
+    4242,
+    7808,
+    4
+   ],
+   [
+    8376,
+    5866,
+    4
+   ]
+  ]
+ },
+ {
+  "n": 26,
+  "k": 3,
+  "h": 11,
+  "d": 3,
+  "V": 4,
+  "q": 10007,
+  "R": 23,
+  "A": 14,
+  "M_design": 6,
+  "tau": 0,
+  "seed": 0,
+  "ADMISSIBLE": true,
+  "below_cascade": true,
+  "tangent_free": true,
+  "v_nonvanishing": true,
+  "kpacking_ok": true,
+  "T1_ok": true,
+  "T3_ok": true,
+  "max_joint": 6,
+  "max_ray": 14,
+  "max_v_side": 6,
+  "N_d": 6,
+  "M_measured": 6,
+  "rank_two_ray": 44,
+  "rank_all_ray": 44,
+  "rank_designed": 44,
+  "rank_rays_only": 44,
+  "cost_two_ray": 7.333333333333333,
+  "cost_designed": 7.333333333333333,
+  "pred_rank": 44,
+  "pred_cost": 7.333333333333333,
+  "sunflower_law": 3,
+  "two_R_minus_1": 45,
+  "points_used": 26,
+  "extra_rich": [
+   [
+    6311,
+    8376,
+    3
+   ],
+   [
+    6890,
+    7961,
+    3
+   ],
+   [
+    663,
+    6634,
+    3
+   ],
+   [
+    4242,
+    4969,
+    3
+   ]
+  ]
+ },
+ {
+  "n": 23,
+  "k": 4,
+  "h": 7,
+  "d": 1,
+  "V": 5,
+  "q": 6421,
+  "R": 19,
+  "A": 11,
+  "M_design": 10,
+  "tau": 0,
+  "seed": 0,
+  "ADMISSIBLE": true,
+  "below_cascade": true,
+  "tangent_free": true,
+  "v_nonvanishing": true,
+  "kpacking_ok": true,
+  "T1_ok": true,
+  "T3_ok": true,
+  "max_joint": 5,
+  "max_ray": 11,
+  "max_v_side": 5,
+  "N_d": 10,
+  "M_measured": 10,
+  "rank_two_ray": 35,
+  "rank_all_ray": 35,
+  "rank_designed": 35,
+  "rank_rays_only": 35,
+  "cost_two_ray": 3.5,
+  "cost_designed": 3.5,
+  "pred_rank": 35,
+  "pred_cost": 3.5,
+  "sunflower_law": 3,
+  "two_R_minus_1": 37,
+  "points_used": 23,
+  "extra_rich": [
+   [
+    3155,
+    4188,
+    4
+   ],
+   [
+    6209,
+    3980,
+    4
+   ],
+   [
+    3445,
+    3317,
+    4
+   ],
+   [
+    331,
+    6420,
+    4
+   ],
+   [
+    2121,
+    2484,
+    4
+   ]
+  ]
+ },
+ {
+  "n": 16,
+  "k": 5,
+  "h": 5,
+  "d": 1,
+  "V": 4,
+  "q": 6421,
+  "R": 11,
+  "A": 10,
+  "M_design": 6,
+  "tau": 0,
+  "seed": 0,
+  "ADMISSIBLE": true,
+  "below_cascade": true,
+  "tangent_free": true,
+  "v_nonvanishing": true,
+  "kpacking_ok": true,
+  "T1_ok": true,
+  "T3_ok": true,
+  "max_joint": 6,
+  "max_ray": 10,
+  "max_v_side": 6,
+  "N_d": 6,
+  "M_measured": 6,
+  "rank_two_ray": 20,
+  "rank_all_ray": 20,
+  "rank_designed": 20,
+  "rank_rays_only": 20,
+  "cost_two_ray": 3.3333333333333335,
+  "cost_designed": 3.3333333333333335,
+  "pred_rank": 20,
+  "pred_cost": 3.3333333333333335,
+  "sunflower_law": 3,
+  "two_R_minus_1": 21,
+  "points_used": 16,
+  "extra_rich": [
+   [
+    3155,
+    2121,
+    3
+   ],
+   [
+    6209,
+    4188,
+    3
+   ],
+   [
+    3445,
+    3980,
+    3
+   ],
+   [
+    331,
+    3317,
+    3
+   ]
+  ]
+ }
+]

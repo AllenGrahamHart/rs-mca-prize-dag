@@ -1,0 +1,422 @@
+[
+ {
+  "cs": {
+   "k": 3,
+   "h": 5,
+   "d": 1,
+   "q": 6421,
+   "extra": [
+    0,
+    4,
+    10,
+    20
+   ]
+  },
+  "n": 14,
+  "R": 11,
+  "V_start": 4,
+  "V_final": 4,
+  "KV_cap": 4,
+  "rank": 20,
+  "Vh": 20,
+  "m": 11,
+  "two_m": 22,
+  "ray_budget": 4,
+  "M": 6,
+  "grew": 0,
+  "realised": true,
+  "last_stats": null,
+  "ADMISSIBLE": true,
+  "N_d": 6,
+  "law": 3
+ },
+ {
+  "cs": {
+   "k": 3,
+   "h": 5,
+   "d": 1,
+   "q": 6421,
+   "extra": [
+    0,
+    4,
+    10,
+    20
+   ]
+  },
+  "n": 18,
+  "R": 15,
+  "V_start": 4,
+  "V_final": 4,
+  "KV_cap": 4,
+  "rank": 20,
+  "Vh": 20,
+  "m": 11,
+  "two_m": 22,
+  "ray_budget": 5,
+  "M": 6,
+  "grew": 0,
+  "realised": true,
+  "last_stats": null,
+  "ADMISSIBLE": true,
+  "N_d": 6,
+  "law": 4
+ },
+ {
+  "cs": {
+   "k": 3,
+   "h": 5,
+   "d": 1,
+   "q": 6421,
+   "extra": [
+    0,
+    4,
+    10,
+    20
+   ]
+  },
+  "n": 24,
+  "R": 21,
+  "V_start": 4,
+  "V_final": 4,
+  "KV_cap": 4,
+  "rank": 20,
+  "Vh": 20,
+  "m": 11,
+  "two_m": 22,
+  "ray_budget": 8,
+  "M": 6,
+  "grew": 0,
+  "realised": true,
+  "last_stats": null,
+  "ADMISSIBLE": true,
+  "N_d": 6,
+  "law": 5
+ },
+ {
+  "cs": {
+   "k": 3,
+   "h": 5,
+   "d": 1,
+   "q": 6421,
+   "extra": [
+    0,
+    4,
+    10,
+    20
+   ]
+  },
+  "n": 34,
+  "R": 31,
+  "V_start": 4,
+  "V_final": 4,
+  "KV_cap": 4,
+  "rank": 20,
+  "Vh": 20,
+  "m": 11,
+  "two_m": 22,
+  "ray_budget": 12,
+  "M": 6,
+  "grew": 0,
+  "realised": true,
+  "last_stats": null,
+  "ADMISSIBLE": true,
+  "N_d": 6,
+  "law": 8
+ },
+ {
+  "cs": {
+   "k": 3,
+   "h": 7,
+   "d": 1,
+   "q": 6421,
+   "extra": [
+    0,
+    6,
+    14
+   ]
+  },
+  "n": 22,
+  "R": 19,
+  "V_start": 5,
+  "V_final": 5,
+  "KV_cap": 5,
+  "rank": 35,
+  "Vh": 35,
+  "m": 19,
+  "two_m": 38,
+  "ray_budget": 5,
+  "M": 10,
+  "grew": 0,
+  "realised": true,
+  "last_stats": null,
+  "ADMISSIBLE": true,
+  "N_d": 10,
+  "law": 3
+ },
+ {
+  "cs": {
+   "k": 3,
+   "h": 7,
+   "d": 1,
+   "q": 6421,
+   "extra": [
+    0,
+    6,
+    14
+   ]
+  },
+  "n": 28,
+  "R": 25,
+  "V_start": 5,
+  "V_final": 5,
+  "KV_cap": 5,
+  "rank": 35,
+  "Vh": 35,
+  "m": 19,
+  "two_m": 38,
+  "ray_budget": 7,
+  "M": 10,
+  "grew": 0,
+  "realised": true,
+  "last_stats": null,
+  "ADMISSIBLE": true,
+  "N_d": 10,
+  "law": 4
+ },
+ {
+  "cs": {
+   "k": 3,
+   "h": 7,
+   "d": 1,
+   "q": 6421,
+   "extra": [
+    0,
+    6,
+    14
+   ]
+  },
+  "n": 36,
+  "R": 33,
+  "V_start": 5,
+  "V_final": 5,
+  "KV_cap": 5,
+  "rank": 35,
+  "Vh": 35,
+  "m": 19,
+  "two_m": 38,
+  "ray_budget": 9,
+  "M": 10,
+  "grew": 0,
+  "realised": true,
+  "last_stats": null,
+  "ADMISSIBLE": true,
+  "N_d": 10,
+  "law": 5
+ },
+ {
+  "cs": {
+   "k": 3,
+   "h": 9,
+   "d": 1,
+   "q": 10007,
+   "extra": [
+    0,
+    8
+   ]
+  },
+  "n": 32,
+  "R": 29,
+  "V_start": 6,
+  "V_final": 6,
+  "KV_cap": 6,
+  "rank": 54,
+  "Vh": 54,
+  "m": 29,
+  "two_m": 58,
+  "ray_budget": 6,
+  "M": 15,
+  "grew": 0,
+  "realised": true,
+  "last_stats": null,
+  "ADMISSIBLE": true,
+  "N_d": 15,
+  "law": 3
+ },
+ {
+  "cs": {
+   "k": 3,
+   "h": 9,
+   "d": 1,
+   "q": 10007,
+   "extra": [
+    0,
+    8
+   ]
+  },
+  "n": 40,
+  "R": 37,
+  "V_start": 6,
+  "V_final": 6,
+  "KV_cap": 6,
+  "rank": 54,
+  "Vh": 54,
+  "m": 29,
+  "two_m": 58,
+  "ray_budget": 8,
+  "M": 15,
+  "grew": 0,
+  "realised": true,
+  "last_stats": null,
+  "ADMISSIBLE": true,
+  "N_d": 15,
+  "law": 4
+ },
+ {
+  "cs": {
+   "k": 3,
+   "h": 8,
+   "d": 2,
+   "q": 10007,
+   "extra": [
+    0,
+    6,
+    12
+   ]
+  },
+  "n": 20,
+  "R": 17,
+  "V_start": 4,
+  "V_final": 4,
+  "KV_cap": 4,
+  "rank": 32,
+  "Vh": 32,
+  "m": 17,
+  "two_m": 34,
+  "ray_budget": 4,
+  "M": 6,
+  "grew": 0,
+  "realised": true,
+  "last_stats": null,
+  "ADMISSIBLE": true,
+  "N_d": 6,
+  "law": 3
+ },
+ {
+  "cs": {
+   "k": 3,
+   "h": 8,
+   "d": 2,
+   "q": 10007,
+   "extra": [
+    0,
+    6,
+    12
+   ]
+  },
+  "n": 26,
+  "R": 23,
+  "V_start": 4,
+  "V_final": 4,
+  "KV_cap": 4,
+  "rank": 32,
+  "Vh": 32,
+  "m": 17,
+  "two_m": 34,
+  "ray_budget": 5,
+  "M": 6,
+  "grew": 0,
+  "realised": true,
+  "last_stats": null,
+  "ADMISSIBLE": true,
+  "N_d": 6,
+  "law": 4
+ },
+ {
+  "cs": {
+   "k": 3,
+   "h": 8,
+   "d": 2,
+   "q": 10007,
+   "extra": [
+    0,
+    6,
+    12
+   ]
+  },
+  "n": 32,
+  "R": 29,
+  "V_start": 4,
+  "V_final": 4,
+  "KV_cap": 4,
+  "rank": 32,
+  "Vh": 32,
+  "m": 17,
+  "two_m": 34,
+  "ray_budget": 7,
+  "M": 6,
+  "grew": 0,
+  "realised": true,
+  "last_stats": null,
+  "ADMISSIBLE": true,
+  "N_d": 6,
+  "law": 5
+ },
+ {
+  "cs": {
+   "k": 4,
+   "h": 7,
+   "d": 1,
+   "q": 6421,
+   "extra": [
+    0,
+    8
+   ]
+  },
+  "n": 23,
+  "R": 19,
+  "V_start": 5,
+  "V_final": 5,
+  "KV_cap": 5,
+  "rank": 35,
+  "Vh": 35,
+  "m": 19,
+  "two_m": 38,
+  "ray_budget": 5,
+  "M": 10,
+  "grew": 0,
+  "realised": true,
+  "last_stats": null,
+  "ADMISSIBLE": true,
+  "N_d": 10,
+  "law": 3
+ },
+ {
+  "cs": {
+   "k": 4,
+   "h": 7,
+   "d": 1,
+   "q": 6421,
+   "extra": [
+    0,
+    8
+   ]
+  },
+  "n": 31,
+  "R": 27,
+  "V_start": 5,
+  "V_final": 5,
+  "KV_cap": 5,
+  "rank": 35,
+  "Vh": 35,
+  "m": 19,
+  "two_m": 38,
+  "ray_budget": 7,
+  "M": 10,
+  "grew": 0,
+  "realised": true,
+  "last_stats": null,
+  "ADMISSIBLE": true,
+  "N_d": 10,
+  "law": 4
+ }
+]

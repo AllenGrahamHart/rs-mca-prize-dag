@@ -1,0 +1,154 @@
+[
+ {
+  "shape": {
+   "n": 14,
+   "k": 3,
+   "h": 4,
+   "d": 1,
+   "q": 6421
+  },
+  "n_candidates": 1225,
+  "V_found": 6,
+  "KV_cap": 3,
+  "rank": 16,
+  "Vh": 24,
+  "m": 8,
+  "two_m_minus_1": 15,
+  "two_R_minus_1": 21,
+  "independent": false,
+  "M_if_complete": 15
+ },
+ {
+  "shape": {
+   "n": 16,
+   "k": 3,
+   "h": 5,
+   "d": 1,
+   "q": 6421
+  },
+  "n_candidates": 4900,
+  "V_found": 15,
+  "KV_cap": 4,
+  "rank": 24,
+  "Vh": 75,
+  "m": 12,
+  "two_m_minus_1": 23,
+  "two_R_minus_1": 25,
+  "independent": false,
+  "M_if_complete": 105
+ },
+ {
+  "shape": {
+   "n": 18,
+   "k": 3,
+   "h": 5,
+   "d": 1,
+   "q": 6421
+  },
+  "n_candidates": 14700,
+  "V_found": 15,
+  "KV_cap": 4,
+  "rank": 24,
+  "Vh": 75,
+  "m": 12,
+  "two_m_minus_1": 23,
+  "two_R_minus_1": 29,
+  "independent": false,
+  "M_if_complete": 105
+ },
+ {
+  "shape": {
+   "n": 20,
+   "k": 3,
+   "h": 5,
+   "d": 1,
+   "q": 6421
+  },
+  "n_candidates": 34650,
+  "V_found": 15,
+  "KV_cap": 4,
+  "rank": 24,
+  "Vh": 75,
+  "m": 12,
+  "two_m_minus_1": 23,
+  "two_R_minus_1": 33,
+  "independent": false,
+  "M_if_complete": 105
+ },
+ {
+  "shape": {
+   "n": 18,
+   "k": 3,
+   "h": 6,
+   "d": 1,
+   "q": 6421
+  },
+  "n_candidates": 15876,
+  "V_found": 10,
+  "KV_cap": 4,
+  "rank": 30,
+  "Vh": 60,
+  "m": 15,
+  "two_m_minus_1": 29,
+  "two_R_minus_1": 29,
+  "independent": false,
+  "M_if_complete": 45
+ },
+ {
+  "shape": {
+   "n": 20,
+   "k": 3,
+   "h": 6,
+   "d": 2,
+   "q": 6421
+  },
+  "n_candidates": 41580,
+  "V_found": 4,
+  "KV_cap": 3,
+  "rank": 22,
+  "Vh": 24,
+  "m": 11,
+  "two_m_minus_1": 21,
+  "two_R_minus_1": 33,
+  "independent": false,
+  "M_if_complete": 6
+ },
+ {
+  "shape": {
+   "n": 18,
+   "k": 4,
+   "h": 5,
+   "d": 1,
+   "q": 6421
+  },
+  "n_candidates": 15876,
+  "V_found": 15,
+  "KV_cap": 4,
+  "rank": 24,
+  "Vh": 75,
+  "m": 12,
+  "two_m_minus_1": 23,
+  "two_R_minus_1": 27,
+  "independent": false,
+  "M_if_complete": 105
+ },
+ {
+  "shape": {
+   "n": 20,
+   "k": 4,
+   "h": 6,
+   "d": 1,
+   "q": 6421
+  },
+  "n_candidates": 63504,
+  "V_found": 19,
+  "KV_cap": 4,
+  "rank": 30,
+  "Vh": 114,
+  "m": 15,
+  "two_m_minus_1": 29,
+  "two_R_minus_1": 31,
+  "independent": false,
+  "M_if_complete": 171
+ }
+]

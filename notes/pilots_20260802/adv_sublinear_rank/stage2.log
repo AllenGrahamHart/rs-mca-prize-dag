@@ -1,0 +1,310 @@
+PASS S2 k=3 h=6 d=1 V=3 n=20: |S_a| = A for all rays
+PASS S2 k=3 h=6 d=1 V=3 n=20: all pairwise |S_a^S_b| = k+d = 4, all DISTINCT  | pair_sizes=[4]
+PASS S2 k=3 h=6 d=1 V=3 n=20: all triple |S_a^S_b^S_c| <= k-1 (k-packing)  | triple_sizes=[2]
+PASS S2 k=3 h=6 d=1 V=3 n=20: m = |T|-k = 3d+2+V(h-2d-1) = 14  | m=14
+PASS S2 k=3 h=6 d=1 V=3 n=20: ray system rank == V*h = 18  | rank=18
+PASS S2 k=3 h=6 d=1 V=3 n=20: realisable, rank <= 2m-1 = 27  | rank=18 2R-1=33
+PASS S2 k=3 h=6 d=1 V=3 n=20: every ray support recovered EXACTLY (|S|=A)  | sizes=[9] A=9
+PASS S2 k=3 h=6 d=1 V=3 n=20: M = C(V,2) = 3 data, ALL DISTINCT pairs  | M=3 distinct=3
+PASS S2 k=3 h=6 d=1 V=3 n=20: every datum at depth EXACTLY d=1  | bad=0
+PASS S2 k=3 h=6 d=1 V=3 n=20: cores k-packed  | max|Z^Z'|=2 <= k-1=2
+PASS S2 k=3 h=6 d=1 V=3 n=20: family rank == V*h (per-RAY charge h)  | rank=18 Vh=18 generic 2hM=36
+PASS S2 k=3 h=6 d=1 V=3 n=20: cost/datum = 6.0000 (sunflower h=6)  | = 2h/(V-1) = 6.0000
+PASS S2 k=5 h=6 d=1 V=4 n=25: |S_a| = A for all rays
+PASS S2 k=5 h=6 d=1 V=4 n=25: all pairwise |S_a^S_b| = k+d = 6, all DISTINCT  | pair_sizes=[6]
+PASS S2 k=5 h=6 d=1 V=4 n=25: all triple |S_a^S_b^S_c| <= k-1 (k-packing)  | triple_sizes=[4]
+PASS S2 k=5 h=6 d=1 V=4 n=25: m = |T|-k = 3d+2+V(h-2d-1) = 17  | m=17
+FAIL S2 k=5 h=6 d=1 V=4 n=25: ray system rank == V*h = 24  | rank=22
+PASS S2 k=5 h=6 d=1 V=4 n=25: realisable, rank <= 2m-1 = 33  | rank=22 2R-1=39
+FAIL S2 k=5 h=6 d=1 V=4 n=25: every ray support recovered EXACTLY (|S|=A)  | sizes=[13] A=11
+FAIL S2 k=5 h=6 d=1 V=4 n=25: M = C(V,2) = 6 data, ALL DISTINCT pairs  | M=6 distinct=1
+FAIL S2 k=5 h=6 d=1 V=4 n=25: every datum at depth EXACTLY d=1  | bad=6
+FAIL S2 k=5 h=6 d=1 V=4 n=25: cores k-packed  | max|Z^Z'|=10 <= k-1=4
+FAIL S2 k=5 h=6 d=1 V=4 n=25: family rank == V*h (per-RAY charge h)  | rank=22 Vh=24 generic 2hM=72
+PASS S2 k=5 h=6 d=1 V=4 n=25: cost/datum = 3.6667 (sunflower h=6)  | = 2h/(V-1) = 4.0000
+PASS S2 k=7 h=6 d=1 V=5 n=30: |S_a| = A for all rays
+PASS S2 k=7 h=6 d=1 V=5 n=30: all pairwise |S_a^S_b| = k+d = 8, all DISTINCT  | pair_sizes=[8]
+PASS S2 k=7 h=6 d=1 V=5 n=30: all triple |S_a^S_b^S_c| <= k-1 (k-packing)  | triple_sizes=[6]
+PASS S2 k=7 h=6 d=1 V=5 n=30: m = |T|-k = 3d+2+V(h-2d-1) = 20  | m=20
+FAIL S2 k=7 h=6 d=1 V=5 n=30: ray system rank == V*h = 30  | rank=25
+PASS S2 k=7 h=6 d=1 V=5 n=30: realisable, rank <= 2m-1 = 39  | rank=25 2R-1=45
+FAIL S2 k=7 h=6 d=1 V=5 n=30: every ray support recovered EXACTLY (|S|=A)  | sizes=[15] A=13
+FAIL S2 k=7 h=6 d=1 V=5 n=30: M = C(V,2) = 10 data, ALL DISTINCT pairs  | M=10 distinct=1
+FAIL S2 k=7 h=6 d=1 V=5 n=30: every datum at depth EXACTLY d=1  | bad=10
+FAIL S2 k=7 h=6 d=1 V=5 n=30: cores k-packed  | max|Z^Z'|=12 <= k-1=6
+FAIL S2 k=7 h=6 d=1 V=5 n=30: family rank == V*h (per-RAY charge h)  | rank=25 Vh=30 generic 2hM=120
+PASS S2 k=7 h=6 d=1 V=5 n=30: cost/datum = 2.5000 (sunflower h=6)  | = 2h/(V-1) = 3.0000
+PASS S2 k=9 h=6 d=1 V=6 n=35: |S_a| = A for all rays
+PASS S2 k=9 h=6 d=1 V=6 n=35: all pairwise |S_a^S_b| = k+d = 10, all DISTINCT  | pair_sizes=[10]
+PASS S2 k=9 h=6 d=1 V=6 n=35: all triple |S_a^S_b^S_c| <= k-1 (k-packing)  | triple_sizes=[8]
+PASS S2 k=9 h=6 d=1 V=6 n=35: m = |T|-k = 3d+2+V(h-2d-1) = 23  | m=23
+FAIL S2 k=9 h=6 d=1 V=6 n=35: ray system rank == V*h = 36  | rank=28
+PASS S2 k=9 h=6 d=1 V=6 n=35: realisable, rank <= 2m-1 = 45  | rank=28 2R-1=51
+FAIL S2 k=9 h=6 d=1 V=6 n=35: every ray support recovered EXACTLY (|S|=A)  | sizes=[17] A=15
+FAIL S2 k=9 h=6 d=1 V=6 n=35: M = C(V,2) = 15 data, ALL DISTINCT pairs  | M=15 distinct=1
+FAIL S2 k=9 h=6 d=1 V=6 n=35: every datum at depth EXACTLY d=1  | bad=15
+FAIL S2 k=9 h=6 d=1 V=6 n=35: cores k-packed  | max|Z^Z'|=14 <= k-1=8
+FAIL S2 k=9 h=6 d=1 V=6 n=35: family rank == V*h (per-RAY charge h)  | rank=28 Vh=36 generic 2hM=180
+PASS S2 k=9 h=6 d=1 V=6 n=35: cost/datum = 1.8667 (sunflower h=6)  | = 2h/(V-1) = 2.4000
+PASS S2 k=11 h=6 d=1 V=7 n=40: |S_a| = A for all rays
+PASS S2 k=11 h=6 d=1 V=7 n=40: all pairwise |S_a^S_b| = k+d = 12, all DISTINCT  | pair_sizes=[12]
+PASS S2 k=11 h=6 d=1 V=7 n=40: all triple |S_a^S_b^S_c| <= k-1 (k-packing)  | triple_sizes=[10]
+PASS S2 k=11 h=6 d=1 V=7 n=40: m = |T|-k = 3d+2+V(h-2d-1) = 26  | m=26
+FAIL S2 k=11 h=6 d=1 V=7 n=40: ray system rank == V*h = 42  | rank=31
+PASS S2 k=11 h=6 d=1 V=7 n=40: realisable, rank <= 2m-1 = 51  | rank=31 2R-1=57
+FAIL S2 k=11 h=6 d=1 V=7 n=40: every ray support recovered EXACTLY (|S|=A)  | sizes=[19] A=17
+FAIL S2 k=11 h=6 d=1 V=7 n=40: M = C(V,2) = 21 data, ALL DISTINCT pairs  | M=21 distinct=1
+FAIL S2 k=11 h=6 d=1 V=7 n=40: every datum at depth EXACTLY d=1  | bad=21
+FAIL S2 k=11 h=6 d=1 V=7 n=40: cores k-packed  | max|Z^Z'|=16 <= k-1=10
+FAIL S2 k=11 h=6 d=1 V=7 n=40: family rank == V*h (per-RAY charge h)  | rank=31 Vh=42 generic 2hM=252
+PASS S2 k=11 h=6 d=1 V=7 n=40: cost/datum = 1.4762 (sunflower h=6)  | = 2h/(V-1) = 2.0000
+PASS S2 k=15 h=6 d=1 V=9 n=50: |S_a| = A for all rays
+PASS S2 k=15 h=6 d=1 V=9 n=50: all pairwise |S_a^S_b| = k+d = 16, all DISTINCT  | pair_sizes=[16]
+PASS S2 k=15 h=6 d=1 V=9 n=50: all triple |S_a^S_b^S_c| <= k-1 (k-packing)  | triple_sizes=[14]
+PASS S2 k=15 h=6 d=1 V=9 n=50: m = |T|-k = 3d+2+V(h-2d-1) = 32  | m=32
+FAIL S2 k=15 h=6 d=1 V=9 n=50: ray system rank == V*h = 54  | rank=37
+PASS S2 k=15 h=6 d=1 V=9 n=50: realisable, rank <= 2m-1 = 63  | rank=37 2R-1=69
+FAIL S2 k=15 h=6 d=1 V=9 n=50: every ray support recovered EXACTLY (|S|=A)  | sizes=[23] A=21
+FAIL S2 k=15 h=6 d=1 V=9 n=50: M = C(V,2) = 36 data, ALL DISTINCT pairs  | M=36 distinct=1
+FAIL S2 k=15 h=6 d=1 V=9 n=50: every datum at depth EXACTLY d=1  | bad=36
+FAIL S2 k=15 h=6 d=1 V=9 n=50: cores k-packed  | max|Z^Z'|=20 <= k-1=14
+FAIL S2 k=15 h=6 d=1 V=9 n=50: family rank == V*h (per-RAY charge h)  | rank=37 Vh=54 generic 2hM=432
+PASS S2 k=15 h=6 d=1 V=9 n=50: cost/datum = 1.0278 (sunflower h=6)  | = 2h/(V-1) = 1.5000
+PASS S2 k=21 h=6 d=1 V=12 n=65: |S_a| = A for all rays
+PASS S2 k=21 h=6 d=1 V=12 n=65: all pairwise |S_a^S_b| = k+d = 22, all DISTINCT  | pair_sizes=[22]
+PASS S2 k=21 h=6 d=1 V=12 n=65: all triple |S_a^S_b^S_c| <= k-1 (k-packing)  | triple_sizes=[20]
+PASS S2 k=21 h=6 d=1 V=12 n=65: m = |T|-k = 3d+2+V(h-2d-1) = 41  | m=41
+FAIL S2 k=21 h=6 d=1 V=12 n=65: ray system rank == V*h = 72  | rank=46
+PASS S2 k=21 h=6 d=1 V=12 n=65: realisable, rank <= 2m-1 = 81  | rank=46 2R-1=87
+FAIL S2 k=21 h=6 d=1 V=12 n=65: every ray support recovered EXACTLY (|S|=A)  | sizes=[29] A=27
+FAIL S2 k=21 h=6 d=1 V=12 n=65: M = C(V,2) = 66 data, ALL DISTINCT pairs  | M=66 distinct=1
+FAIL S2 k=21 h=6 d=1 V=12 n=65: every datum at depth EXACTLY d=1  | bad=66
+FAIL S2 k=21 h=6 d=1 V=12 n=65: cores k-packed  | max|Z^Z'|=26 <= k-1=20
+FAIL S2 k=21 h=6 d=1 V=12 n=65: family rank == V*h (per-RAY charge h)  | rank=46 Vh=72 generic 2hM=792
+PASS S2 k=21 h=6 d=1 V=12 n=65: cost/datum = 0.6970 (sunflower h=6)  | = 2h/(V-1) = 1.0909
+PASS S2 k=31 h=6 d=1 V=17 n=90: |S_a| = A for all rays
+PASS S2 k=31 h=6 d=1 V=17 n=90: all pairwise |S_a^S_b| = k+d = 32, all DISTINCT  | pair_sizes=[32]
+PASS S2 k=31 h=6 d=1 V=17 n=90: all triple |S_a^S_b^S_c| <= k-1 (k-packing)  | triple_sizes=[30]
+PASS S2 k=31 h=6 d=1 V=17 n=90: m = |T|-k = 3d+2+V(h-2d-1) = 56  | m=56
+FAIL S2 k=31 h=6 d=1 V=17 n=90: ray system rank == V*h = 102  | rank=61
+PASS S2 k=31 h=6 d=1 V=17 n=90: realisable, rank <= 2m-1 = 111  | rank=61 2R-1=117
+FAIL S2 k=31 h=6 d=1 V=17 n=90: every ray support recovered EXACTLY (|S|=A)  | sizes=[39] A=37
+FAIL S2 k=31 h=6 d=1 V=17 n=90: M = C(V,2) = 136 data, ALL DISTINCT pairs  | M=136 distinct=1
+FAIL S2 k=31 h=6 d=1 V=17 n=90: every datum at depth EXACTLY d=1  | bad=136
+FAIL S2 k=31 h=6 d=1 V=17 n=90: cores k-packed  | max|Z^Z'|=36 <= k-1=30
+FAIL S2 k=31 h=6 d=1 V=17 n=90: family rank == V*h (per-RAY charge h)  | rank=61 Vh=102 generic 2hM=1632
+PASS S2 k=31 h=6 d=1 V=17 n=90: cost/datum = 0.4485 (sunflower h=6)  | = 2h/(V-1) = 0.7500
+PASS S2 k=41 h=6 d=1 V=22 n=115: |S_a| = A for all rays
+PASS S2 k=41 h=6 d=1 V=22 n=115: all pairwise |S_a^S_b| = k+d = 42, all DISTINCT  | pair_sizes=[42]
+PASS S2 k=41 h=6 d=1 V=22 n=115: all triple |S_a^S_b^S_c| <= k-1 (k-packing)  | triple_sizes=[40]
+PASS S2 k=41 h=6 d=1 V=22 n=115: m = |T|-k = 3d+2+V(h-2d-1) = 71  | m=71
+FAIL S2 k=41 h=6 d=1 V=22 n=115: ray system rank == V*h = 132  | rank=76
+PASS S2 k=41 h=6 d=1 V=22 n=115: realisable, rank <= 2m-1 = 141  | rank=76 2R-1=147
+FAIL S2 k=41 h=6 d=1 V=22 n=115: every ray support recovered EXACTLY (|S|=A)  | sizes=[49] A=47
+FAIL S2 k=41 h=6 d=1 V=22 n=115: M = C(V,2) = 231 data, ALL DISTINCT pairs  | M=231 distinct=1
+FAIL S2 k=41 h=6 d=1 V=22 n=115: every datum at depth EXACTLY d=1  | bad=231
+FAIL S2 k=41 h=6 d=1 V=22 n=115: cores k-packed  | max|Z^Z'|=46 <= k-1=40
+FAIL S2 k=41 h=6 d=1 V=22 n=115: family rank == V*h (per-RAY charge h)  | rank=76 Vh=132 generic 2hM=2772
+PASS S2 k=41 h=6 d=1 V=22 n=115: cost/datum = 0.3290 (sunflower h=6)  | = 2h/(V-1) = 0.5714
+PASS S2 k=61 h=6 d=1 V=32 n=165: |S_a| = A for all rays
+PASS S2 k=61 h=6 d=1 V=32 n=165: all pairwise |S_a^S_b| = k+d = 62, all DISTINCT  | pair_sizes=[62]
+PASS S2 k=61 h=6 d=1 V=32 n=165: all triple |S_a^S_b^S_c| <= k-1 (k-packing)  | triple_sizes=[60]
+PASS S2 k=61 h=6 d=1 V=32 n=165: m = |T|-k = 3d+2+V(h-2d-1) = 101  | m=101
+FAIL S2 k=61 h=6 d=1 V=32 n=165: ray system rank == V*h = 192  | rank=106
+PASS S2 k=61 h=6 d=1 V=32 n=165: realisable, rank <= 2m-1 = 201  | rank=106 2R-1=207
+FAIL S2 k=61 h=6 d=1 V=32 n=165: every ray support recovered EXACTLY (|S|=A)  | sizes=[69] A=67
+FAIL S2 k=61 h=6 d=1 V=32 n=165: M = C(V,2) = 496 data, ALL DISTINCT pairs  | M=496 distinct=1
+FAIL S2 k=61 h=6 d=1 V=32 n=165: every datum at depth EXACTLY d=1  | bad=496
+FAIL S2 k=61 h=6 d=1 V=32 n=165: cores k-packed  | max|Z^Z'|=66 <= k-1=60
+FAIL S2 k=61 h=6 d=1 V=32 n=165: family rank == V*h (per-RAY charge h)  | rank=106 Vh=192 generic 2hM=5952
+PASS S2 k=61 h=6 d=1 V=32 n=165: cost/datum = 0.2137 (sunflower h=6)  | = 2h/(V-1) = 0.3871
+PASS S2 k=9 h=8 d=1 V=6 n=49: |S_a| = A for all rays
+PASS S2 k=9 h=8 d=1 V=6 n=49: all pairwise |S_a^S_b| = k+d = 10, all DISTINCT  | pair_sizes=[10]
+PASS S2 k=9 h=8 d=1 V=6 n=49: all triple |S_a^S_b^S_c| <= k-1 (k-packing)  | triple_sizes=[8]
+PASS S2 k=9 h=8 d=1 V=6 n=49: m = |T|-k = 3d+2+V(h-2d-1) = 35  | m=35
+FAIL S2 k=9 h=8 d=1 V=6 n=49: ray system rank == V*h = 48  | rank=40
+PASS S2 k=9 h=8 d=1 V=6 n=49: realisable, rank <= 2m-1 = 69  | rank=40 2R-1=79
+FAIL S2 k=9 h=8 d=1 V=6 n=49: every ray support recovered EXACTLY (|S|=A)  | sizes=[19] A=17
+FAIL S2 k=9 h=8 d=1 V=6 n=49: M = C(V,2) = 15 data, ALL DISTINCT pairs  | M=15 distinct=1
+FAIL S2 k=9 h=8 d=1 V=6 n=49: every datum at depth EXACTLY d=1  | bad=15
+FAIL S2 k=9 h=8 d=1 V=6 n=49: cores k-packed  | max|Z^Z'|=14 <= k-1=8
+FAIL S2 k=9 h=8 d=1 V=6 n=49: family rank == V*h (per-RAY charge h)  | rank=40 Vh=48 generic 2hM=240
+PASS S2 k=9 h=8 d=1 V=6 n=49: cost/datum = 2.6667 (sunflower h=8)  | = 2h/(V-1) = 3.2000
+PASS S2 k=21 h=8 d=1 V=12 n=91: |S_a| = A for all rays
+PASS S2 k=21 h=8 d=1 V=12 n=91: all pairwise |S_a^S_b| = k+d = 22, all DISTINCT  | pair_sizes=[22]
+PASS S2 k=21 h=8 d=1 V=12 n=91: all triple |S_a^S_b^S_c| <= k-1 (k-packing)  | triple_sizes=[20]
+PASS S2 k=21 h=8 d=1 V=12 n=91: m = |T|-k = 3d+2+V(h-2d-1) = 65  | m=65
+FAIL S2 k=21 h=8 d=1 V=12 n=91: ray system rank == V*h = 96  | rank=70
+PASS S2 k=21 h=8 d=1 V=12 n=91: realisable, rank <= 2m-1 = 129  | rank=70 2R-1=139
+FAIL S2 k=21 h=8 d=1 V=12 n=91: every ray support recovered EXACTLY (|S|=A)  | sizes=[31] A=29
+FAIL S2 k=21 h=8 d=1 V=12 n=91: M = C(V,2) = 66 data, ALL DISTINCT pairs  | M=66 distinct=1
+FAIL S2 k=21 h=8 d=1 V=12 n=91: every datum at depth EXACTLY d=1  | bad=66
+FAIL S2 k=21 h=8 d=1 V=12 n=91: cores k-packed  | max|Z^Z'|=26 <= k-1=20
+FAIL S2 k=21 h=8 d=1 V=12 n=91: family rank == V*h (per-RAY charge h)  | rank=70 Vh=96 generic 2hM=1056
+PASS S2 k=21 h=8 d=1 V=12 n=91: cost/datum = 1.0606 (sunflower h=8)  | = 2h/(V-1) = 1.4545
+PASS S2 k=41 h=10 d=1 V=22 n=207: |S_a| = A for all rays
+PASS S2 k=41 h=10 d=1 V=22 n=207: all pairwise |S_a^S_b| = k+d = 42, all DISTINCT  | pair_sizes=[42]
+PASS S2 k=41 h=10 d=1 V=22 n=207: all triple |S_a^S_b^S_c| <= k-1 (k-packing)  | triple_sizes=[40]
+PASS S2 k=41 h=10 d=1 V=22 n=207: m = |T|-k = 3d+2+V(h-2d-1) = 159  | m=159
+FAIL S2 k=41 h=10 d=1 V=22 n=207: ray system rank == V*h = 220  | rank=164
+PASS S2 k=41 h=10 d=1 V=22 n=207: realisable, rank <= 2m-1 = 317  | rank=164 2R-1=331
+FAIL S2 k=41 h=10 d=1 V=22 n=207: every ray support recovered EXACTLY (|S|=A)  | sizes=[53] A=51
+FAIL S2 k=41 h=10 d=1 V=22 n=207: M = C(V,2) = 231 data, ALL DISTINCT pairs  | M=231 distinct=1
+FAIL S2 k=41 h=10 d=1 V=22 n=207: every datum at depth EXACTLY d=1  | bad=231
+FAIL S2 k=41 h=10 d=1 V=22 n=207: cores k-packed  | max|Z^Z'|=46 <= k-1=40
+FAIL S2 k=41 h=10 d=1 V=22 n=207: family rank == V*h (per-RAY charge h)  | rank=164 Vh=220 generic 2hM=4620
+PASS S2 k=41 h=10 d=1 V=22 n=207: cost/datum = 0.7100 (sunflower h=10)  | = 2h/(V-1) = 0.9524
+PASS S2 k=10 h=10 d=2 V=4 n=43: |S_a| = A for all rays
+PASS S2 k=10 h=10 d=2 V=4 n=43: all pairwise |S_a^S_b| = k+d = 12, all DISTINCT  | pair_sizes=[12]
+PASS S2 k=10 h=10 d=2 V=4 n=43: all triple |S_a^S_b^S_c| <= k-1 (k-packing)  | triple_sizes=[9]
+PASS S2 k=10 h=10 d=2 V=4 n=43: m = |T|-k = 3d+2+V(h-2d-1) = 28  | m=28
+FAIL S2 k=10 h=10 d=2 V=4 n=43: ray system rank == V*h = 40  | rank=36
+PASS S2 k=10 h=10 d=2 V=4 n=43: realisable, rank <= 2m-1 = 55  | rank=36 2R-1=65
+FAIL S2 k=10 h=10 d=2 V=4 n=43: every ray support recovered EXACTLY (|S|=A)  | sizes=[23] A=20
+FAIL S2 k=10 h=10 d=2 V=4 n=43: M = C(V,2) = 6 data, ALL DISTINCT pairs  | M=6 distinct=1
+FAIL S2 k=10 h=10 d=2 V=4 n=43: every datum at depth EXACTLY d=2  | bad=6
+FAIL S2 k=10 h=10 d=2 V=4 n=43: cores k-packed  | max|Z^Z'|=18 <= k-1=9
+FAIL S2 k=10 h=10 d=2 V=4 n=43: family rank == V*h (per-RAY charge h)  | rank=36 Vh=40 generic 2hM=120
+PASS S2 k=10 h=10 d=2 V=4 n=43: cost/datum = 6.0000 (sunflower h=10)  | = 2h/(V-1) = 6.6667
+PASS S2 k=22 h=10 d=2 V=8 n=75: |S_a| = A for all rays
+PASS S2 k=22 h=10 d=2 V=8 n=75: all pairwise |S_a^S_b| = k+d = 24, all DISTINCT  | pair_sizes=[24]
+PASS S2 k=22 h=10 d=2 V=8 n=75: all triple |S_a^S_b^S_c| <= k-1 (k-packing)  | triple_sizes=[21]
+PASS S2 k=22 h=10 d=2 V=8 n=75: m = |T|-k = 3d+2+V(h-2d-1) = 48  | m=48
+FAIL S2 k=22 h=10 d=2 V=8 n=75: ray system rank == V*h = 80  | rank=56
+PASS S2 k=22 h=10 d=2 V=8 n=75: realisable, rank <= 2m-1 = 95  | rank=56 2R-1=105
+FAIL S2 k=22 h=10 d=2 V=8 n=75: every ray support recovered EXACTLY (|S|=A)  | sizes=[35] A=32
+FAIL S2 k=22 h=10 d=2 V=8 n=75: M = C(V,2) = 28 data, ALL DISTINCT pairs  | M=28 distinct=1
+FAIL S2 k=22 h=10 d=2 V=8 n=75: every datum at depth EXACTLY d=2  | bad=28
+FAIL S2 k=22 h=10 d=2 V=8 n=75: cores k-packed  | max|Z^Z'|=30 <= k-1=21
+FAIL S2 k=22 h=10 d=2 V=8 n=75: family rank == V*h (per-RAY charge h)  | rank=56 Vh=80 generic 2hM=560
+PASS S2 k=22 h=10 d=2 V=8 n=75: cost/datum = 2.0000 (sunflower h=10)  | = 2h/(V-1) = 2.8571
+PASS S2 k=40 h=12 d=2 V=14 n=153: |S_a| = A for all rays
+PASS S2 k=40 h=12 d=2 V=14 n=153: all pairwise |S_a^S_b| = k+d = 42, all DISTINCT  | pair_sizes=[42]
+PASS S2 k=40 h=12 d=2 V=14 n=153: all triple |S_a^S_b^S_c| <= k-1 (k-packing)  | triple_sizes=[39]
+PASS S2 k=40 h=12 d=2 V=14 n=153: m = |T|-k = 3d+2+V(h-2d-1) = 106  | m=106
+FAIL S2 k=40 h=12 d=2 V=14 n=153: ray system rank == V*h = 168  | rank=114
+PASS S2 k=40 h=12 d=2 V=14 n=153: realisable, rank <= 2m-1 = 211  | rank=114 2R-1=225
+FAIL S2 k=40 h=12 d=2 V=14 n=153: every ray support recovered EXACTLY (|S|=A)  | sizes=[55] A=52
+FAIL S2 k=40 h=12 d=2 V=14 n=153: M = C(V,2) = 91 data, ALL DISTINCT pairs  | M=91 distinct=1
+FAIL S2 k=40 h=12 d=2 V=14 n=153: every datum at depth EXACTLY d=2  | bad=91
+FAIL S2 k=40 h=12 d=2 V=14 n=153: cores k-packed  | max|Z^Z'|=48 <= k-1=39
+FAIL S2 k=40 h=12 d=2 V=14 n=153: family rank == V*h (per-RAY charge h)  | rank=114 Vh=168 generic 2hM=2184
+PASS S2 k=40 h=12 d=2 V=14 n=153: cost/datum = 1.2527 (sunflower h=12)  | = 2h/(V-1) = 1.8462
+PASS S2 k=30 h=14 d=3 V=8 n=104: |S_a| = A for all rays
+PASS S2 k=30 h=14 d=3 V=8 n=104: all pairwise |S_a^S_b| = k+d = 33, all DISTINCT  | pair_sizes=[33]
+PASS S2 k=30 h=14 d=3 V=8 n=104: all triple |S_a^S_b^S_c| <= k-1 (k-packing)  | triple_sizes=[29]
+PASS S2 k=30 h=14 d=3 V=8 n=104: m = |T|-k = 3d+2+V(h-2d-1) = 67  | m=67
+FAIL S2 k=30 h=14 d=3 V=8 n=104: ray system rank == V*h = 112  | rank=78
+PASS S2 k=30 h=14 d=3 V=8 n=104: realisable, rank <= 2m-1 = 133  | rank=78 2R-1=147
+FAIL S2 k=30 h=14 d=3 V=8 n=104: every ray support recovered EXACTLY (|S|=A)  | sizes=[48] A=44
+FAIL S2 k=30 h=14 d=3 V=8 n=104: M = C(V,2) = 28 data, ALL DISTINCT pairs  | M=28 distinct=1
+FAIL S2 k=30 h=14 d=3 V=8 n=104: every datum at depth EXACTLY d=3  | bad=28
+FAIL S2 k=30 h=14 d=3 V=8 n=104: cores k-packed  | max|Z^Z'|=41 <= k-1=29
+FAIL S2 k=30 h=14 d=3 V=8 n=104: family rank == V*h (per-RAY charge h)  | rank=78 Vh=112 generic 2hM=784
+PASS S2 k=30 h=14 d=3 V=8 n=104: cost/datum = 2.7857 (sunflower h=14)  | = 2h/(V-1) = 4.0000
+
+=== full-gate (exhaustive occlib) verification ===
+PASS S2-GATE k=3 h=6 d=1 V=3 n=20: ADMISSIBLE  | cascade=True(maxJ=4<=A-2=7) tangent=True(maxray=9<=A=9) vnz=True
+PASS S2-GATE k=3 h=6 d=1 V=3 n=20: measured N_d >= C(V,2) = 3  | N_d=3
+FAIL S2-GATE k=5 h=6 d=1 V=4 n=25: ADMISSIBLE  | cascade=False(maxJ=10<=A-2=9) tangent=False(maxray=13<=A=11) vnz=True
+FAIL S2-GATE k=5 h=6 d=1 V=4 n=25: measured N_d >= C(V,2) = 6  | N_d=0
+
+208 checks, 98 FAIL
+  FAIL: S2 k=5 h=6 d=1 V=4 n=25: ray system rank == V*h = 24
+  FAIL: S2 k=5 h=6 d=1 V=4 n=25: every ray support recovered EXACTLY (|S|=A)
+  FAIL: S2 k=5 h=6 d=1 V=4 n=25: M = C(V,2) = 6 data, ALL DISTINCT pairs
+  FAIL: S2 k=5 h=6 d=1 V=4 n=25: every datum at depth EXACTLY d=1
+  FAIL: S2 k=5 h=6 d=1 V=4 n=25: cores k-packed
+  FAIL: S2 k=5 h=6 d=1 V=4 n=25: family rank == V*h (per-RAY charge h)
+  FAIL: S2 k=7 h=6 d=1 V=5 n=30: ray system rank == V*h = 30
+  FAIL: S2 k=7 h=6 d=1 V=5 n=30: every ray support recovered EXACTLY (|S|=A)
+  FAIL: S2 k=7 h=6 d=1 V=5 n=30: M = C(V,2) = 10 data, ALL DISTINCT pairs
+  FAIL: S2 k=7 h=6 d=1 V=5 n=30: every datum at depth EXACTLY d=1
+  FAIL: S2 k=7 h=6 d=1 V=5 n=30: cores k-packed
+  FAIL: S2 k=7 h=6 d=1 V=5 n=30: family rank == V*h (per-RAY charge h)
+  FAIL: S2 k=9 h=6 d=1 V=6 n=35: ray system rank == V*h = 36
+  FAIL: S2 k=9 h=6 d=1 V=6 n=35: every ray support recovered EXACTLY (|S|=A)
+  FAIL: S2 k=9 h=6 d=1 V=6 n=35: M = C(V,2) = 15 data, ALL DISTINCT pairs
+  FAIL: S2 k=9 h=6 d=1 V=6 n=35: every datum at depth EXACTLY d=1
+  FAIL: S2 k=9 h=6 d=1 V=6 n=35: cores k-packed
+  FAIL: S2 k=9 h=6 d=1 V=6 n=35: family rank == V*h (per-RAY charge h)
+  FAIL: S2 k=11 h=6 d=1 V=7 n=40: ray system rank == V*h = 42
+  FAIL: S2 k=11 h=6 d=1 V=7 n=40: every ray support recovered EXACTLY (|S|=A)
+  FAIL: S2 k=11 h=6 d=1 V=7 n=40: M = C(V,2) = 21 data, ALL DISTINCT pairs
+  FAIL: S2 k=11 h=6 d=1 V=7 n=40: every datum at depth EXACTLY d=1
+  FAIL: S2 k=11 h=6 d=1 V=7 n=40: cores k-packed
+  FAIL: S2 k=11 h=6 d=1 V=7 n=40: family rank == V*h (per-RAY charge h)
+  FAIL: S2 k=15 h=6 d=1 V=9 n=50: ray system rank == V*h = 54
+  FAIL: S2 k=15 h=6 d=1 V=9 n=50: every ray support recovered EXACTLY (|S|=A)
+  FAIL: S2 k=15 h=6 d=1 V=9 n=50: M = C(V,2) = 36 data, ALL DISTINCT pairs
+  FAIL: S2 k=15 h=6 d=1 V=9 n=50: every datum at depth EXACTLY d=1
+  FAIL: S2 k=15 h=6 d=1 V=9 n=50: cores k-packed
+  FAIL: S2 k=15 h=6 d=1 V=9 n=50: family rank == V*h (per-RAY charge h)
+  FAIL: S2 k=21 h=6 d=1 V=12 n=65: ray system rank == V*h = 72
+  FAIL: S2 k=21 h=6 d=1 V=12 n=65: every ray support recovered EXACTLY (|S|=A)
+  FAIL: S2 k=21 h=6 d=1 V=12 n=65: M = C(V,2) = 66 data, ALL DISTINCT pairs
+  FAIL: S2 k=21 h=6 d=1 V=12 n=65: every datum at depth EXACTLY d=1
+  FAIL: S2 k=21 h=6 d=1 V=12 n=65: cores k-packed
+  FAIL: S2 k=21 h=6 d=1 V=12 n=65: family rank == V*h (per-RAY charge h)
+  FAIL: S2 k=31 h=6 d=1 V=17 n=90: ray system rank == V*h = 102
+  FAIL: S2 k=31 h=6 d=1 V=17 n=90: every ray support recovered EXACTLY (|S|=A)
+  FAIL: S2 k=31 h=6 d=1 V=17 n=90: M = C(V,2) = 136 data, ALL DISTINCT pairs
+  FAIL: S2 k=31 h=6 d=1 V=17 n=90: every datum at depth EXACTLY d=1
+  FAIL: S2 k=31 h=6 d=1 V=17 n=90: cores k-packed
+  FAIL: S2 k=31 h=6 d=1 V=17 n=90: family rank == V*h (per-RAY charge h)
+  FAIL: S2 k=41 h=6 d=1 V=22 n=115: ray system rank == V*h = 132
+  FAIL: S2 k=41 h=6 d=1 V=22 n=115: every ray support recovered EXACTLY (|S|=A)
+  FAIL: S2 k=41 h=6 d=1 V=22 n=115: M = C(V,2) = 231 data, ALL DISTINCT pairs
+  FAIL: S2 k=41 h=6 d=1 V=22 n=115: every datum at depth EXACTLY d=1
+  FAIL: S2 k=41 h=6 d=1 V=22 n=115: cores k-packed
+  FAIL: S2 k=41 h=6 d=1 V=22 n=115: family rank == V*h (per-RAY charge h)
+  FAIL: S2 k=61 h=6 d=1 V=32 n=165: ray system rank == V*h = 192
+  FAIL: S2 k=61 h=6 d=1 V=32 n=165: every ray support recovered EXACTLY (|S|=A)
+  FAIL: S2 k=61 h=6 d=1 V=32 n=165: M = C(V,2) = 496 data, ALL DISTINCT pairs
+  FAIL: S2 k=61 h=6 d=1 V=32 n=165: every datum at depth EXACTLY d=1
+  FAIL: S2 k=61 h=6 d=1 V=32 n=165: cores k-packed
+  FAIL: S2 k=61 h=6 d=1 V=32 n=165: family rank == V*h (per-RAY charge h)
+  FAIL: S2 k=9 h=8 d=1 V=6 n=49: ray system rank == V*h = 48
+  FAIL: S2 k=9 h=8 d=1 V=6 n=49: every ray support recovered EXACTLY (|S|=A)
+  FAIL: S2 k=9 h=8 d=1 V=6 n=49: M = C(V,2) = 15 data, ALL DISTINCT pairs
+  FAIL: S2 k=9 h=8 d=1 V=6 n=49: every datum at depth EXACTLY d=1
+  FAIL: S2 k=9 h=8 d=1 V=6 n=49: cores k-packed
+  FAIL: S2 k=9 h=8 d=1 V=6 n=49: family rank == V*h (per-RAY charge h)
+  FAIL: S2 k=21 h=8 d=1 V=12 n=91: ray system rank == V*h = 96
+  FAIL: S2 k=21 h=8 d=1 V=12 n=91: every ray support recovered EXACTLY (|S|=A)
+  FAIL: S2 k=21 h=8 d=1 V=12 n=91: M = C(V,2) = 66 data, ALL DISTINCT pairs
+  FAIL: S2 k=21 h=8 d=1 V=12 n=91: every datum at depth EXACTLY d=1
+  FAIL: S2 k=21 h=8 d=1 V=12 n=91: cores k-packed
+  FAIL: S2 k=21 h=8 d=1 V=12 n=91: family rank == V*h (per-RAY charge h)
+  FAIL: S2 k=41 h=10 d=1 V=22 n=207: ray system rank == V*h = 220
+  FAIL: S2 k=41 h=10 d=1 V=22 n=207: every ray support recovered EXACTLY (|S|=A)
+  FAIL: S2 k=41 h=10 d=1 V=22 n=207: M = C(V,2) = 231 data, ALL DISTINCT pairs
+  FAIL: S2 k=41 h=10 d=1 V=22 n=207: every datum at depth EXACTLY d=1
+  FAIL: S2 k=41 h=10 d=1 V=22 n=207: cores k-packed
+  FAIL: S2 k=41 h=10 d=1 V=22 n=207: family rank == V*h (per-RAY charge h)
+  FAIL: S2 k=10 h=10 d=2 V=4 n=43: ray system rank == V*h = 40
+  FAIL: S2 k=10 h=10 d=2 V=4 n=43: every ray support recovered EXACTLY (|S|=A)
+  FAIL: S2 k=10 h=10 d=2 V=4 n=43: M = C(V,2) = 6 data, ALL DISTINCT pairs
+  FAIL: S2 k=10 h=10 d=2 V=4 n=43: every datum at depth EXACTLY d=2
+  FAIL: S2 k=10 h=10 d=2 V=4 n=43: cores k-packed
+  FAIL: S2 k=10 h=10 d=2 V=4 n=43: family rank == V*h (per-RAY charge h)
+  FAIL: S2 k=22 h=10 d=2 V=8 n=75: ray system rank == V*h = 80
+  FAIL: S2 k=22 h=10 d=2 V=8 n=75: every ray support recovered EXACTLY (|S|=A)
+  FAIL: S2 k=22 h=10 d=2 V=8 n=75: M = C(V,2) = 28 data, ALL DISTINCT pairs
+  FAIL: S2 k=22 h=10 d=2 V=8 n=75: every datum at depth EXACTLY d=2
+  FAIL: S2 k=22 h=10 d=2 V=8 n=75: cores k-packed
+  FAIL: S2 k=22 h=10 d=2 V=8 n=75: family rank == V*h (per-RAY charge h)
+  FAIL: S2 k=40 h=12 d=2 V=14 n=153: ray system rank == V*h = 168
+  FAIL: S2 k=40 h=12 d=2 V=14 n=153: every ray support recovered EXACTLY (|S|=A)
+  FAIL: S2 k=40 h=12 d=2 V=14 n=153: M = C(V,2) = 91 data, ALL DISTINCT pairs
+  FAIL: S2 k=40 h=12 d=2 V=14 n=153: every datum at depth EXACTLY d=2
+  FAIL: S2 k=40 h=12 d=2 V=14 n=153: cores k-packed
+  FAIL: S2 k=40 h=12 d=2 V=14 n=153: family rank == V*h (per-RAY charge h)
+  FAIL: S2 k=30 h=14 d=3 V=8 n=104: ray system rank == V*h = 112
+  FAIL: S2 k=30 h=14 d=3 V=8 n=104: every ray support recovered EXACTLY (|S|=A)
+  FAIL: S2 k=30 h=14 d=3 V=8 n=104: M = C(V,2) = 28 data, ALL DISTINCT pairs
+  FAIL: S2 k=30 h=14 d=3 V=8 n=104: every datum at depth EXACTLY d=3
+  FAIL: S2 k=30 h=14 d=3 V=8 n=104: cores k-packed
+  FAIL: S2 k=30 h=14 d=3 V=8 n=104: family rank == V*h (per-RAY charge h)
+  FAIL: S2-GATE k=5 h=6 d=1 V=4 n=25: ADMISSIBLE
+  FAIL: S2-GATE k=5 h=6 d=1 V=4 n=25: measured N_d >= C(V,2) = 6

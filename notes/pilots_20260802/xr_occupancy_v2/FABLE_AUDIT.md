@@ -39,3 +39,15 @@ Adopted:
 
 Caveats endorsed: toy scale; heuristic first moments (labeled, not
 load-bearing); the deliberate-FAIL reporting discipline is exemplary.
+
+> [AMENDED same day — adv_sublinear_rank pilot, K2.] The cost
+> accounting is corrected to PER-RAY (core rows are implied by ray
+> rows): the ceiling's 191/223/479 are RAY counts, datum counts
+> binomial; the "cheapest = sunflower at h" claim and SHARP-OCC's
+> strong law are REFUTED by the admissible K_V construction (cost ->
+> 2(d+1), N_1 up to x239.5 the old law) — which the banked builder
+> had excluded by fiat (families.py:135). SURVIVING: N_d <= n/2 at
+> all six rows, the ratified 0.68n^2 (margin >= 2.9e19), the 13n^3
+> column. The named gap RESTATES to "support-4 relations in
+> admissible ray systems" (support <= 3 proved zero; sufficient
+> per-ray charge = 2 vs proved h). See adv_sublinear_rank/.

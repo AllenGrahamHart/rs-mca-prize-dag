@@ -1,0 +1,122 @@
+[
+ {
+  "cs": {
+   "k": 3,
+   "h": 5,
+   "d": 1,
+   "V": 4,
+   "q": 6421
+  },
+  "n": 14,
+  "m": 11,
+  "rank_rays": 20,
+  "rank_all": 20,
+  "Vh": 20,
+  "two_hM": 60,
+  "M": 6,
+  "live_rays": 4,
+  "relation_dims": {
+   "2": 0,
+   "3": 0,
+   "4": 0
+  },
+  "support4_ambient_dim": 3,
+  "ADMISSIBLE": true
+ },
+ {
+  "cs": {
+   "k": 3,
+   "h": 7,
+   "d": 1,
+   "V": 5,
+   "q": 6421
+  },
+  "n": 22,
+  "m": 19,
+  "rank_rays": 35,
+  "rank_all": 35,
+  "Vh": 35,
+  "two_hM": 140,
+  "M": 10,
+  "live_rays": 5,
+  "relation_dims": {
+   "2": 0,
+   "3": 0,
+   "4": 0
+  },
+  "support4_ambient_dim": 3,
+  "ADMISSIBLE": true
+ },
+ {
+  "cs": {
+   "k": 3,
+   "h": 9,
+   "d": 1,
+   "V": 6,
+   "q": 10007
+  },
+  "n": 32,
+  "m": 29,
+  "rank_rays": 54,
+  "rank_all": 54,
+  "Vh": 54,
+  "two_hM": 270,
+  "M": 15,
+  "live_rays": 6,
+  "relation_dims": {
+   "2": 0,
+   "3": 0,
+   "4": 0
+  },
+  "support4_ambient_dim": 3,
+  "ADMISSIBLE": true
+ },
+ {
+  "cs": {
+   "k": 3,
+   "h": 8,
+   "d": 2,
+   "V": 4,
+   "q": 10007
+  },
+  "n": 20,
+  "m": 17,
+  "rank_rays": 32,
+  "rank_all": 32,
+  "Vh": 32,
+  "two_hM": 96,
+  "M": 6,
+  "live_rays": 4,
+  "relation_dims": {
+   "2": 0,
+   "3": 0,
+   "4": 0
+  },
+  "support4_ambient_dim": 5,
+  "ADMISSIBLE": true
+ },
+ {
+  "cs": {
+   "k": 4,
+   "h": 7,
+   "d": 1,
+   "V": 5,
+   "q": 6421
+  },
+  "n": 23,
+  "m": 19,
+  "rank_rays": 35,
+  "rank_all": 35,
+  "Vh": 35,
+  "two_hM": 140,
+  "M": 10,
+  "live_rays": 5,
+  "relation_dims": {
+   "2": 0,
+   "3": 0,
+   "4": 0
+  },
+  "support4_ambient_dim": 3,
+  "ADMISSIBLE": true
+ }
+]

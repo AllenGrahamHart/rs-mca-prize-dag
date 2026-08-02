@@ -1,0 +1,74 @@
+[
+ {
+  "cs": {
+   "k": 3,
+   "h": 5,
+   "d": 1,
+   "V": 4,
+   "q": 6421,
+   "ncl": 2
+  },
+  "n": 26,
+  "R": 23,
+  "N_d": 12,
+  "rank": 40,
+  "family_rank": 40,
+  "points_used": 26,
+  "ADMISSIBLE": true,
+  "law": 6
+ },
+ {
+  "cs": {
+   "k": 3,
+   "h": 5,
+   "d": 1,
+   "V": 4,
+   "q": 6421,
+   "ncl": 3
+  },
+  "n": 38,
+  "R": 35,
+  "N_d": 18,
+  "rank": 60,
+  "family_rank": 60,
+  "points_used": 38,
+  "ADMISSIBLE": true,
+  "law": 9
+ },
+ {
+  "cs": {
+   "k": 3,
+   "h": 7,
+   "d": 1,
+   "V": 5,
+   "q": 6421,
+   "ncl": 2
+  },
+  "n": 42,
+  "R": 39,
+  "N_d": 20,
+  "rank": 70,
+  "family_rank": 70,
+  "points_used": 42,
+  "ADMISSIBLE": true,
+  "law": 6
+ },
+ {
+  "cs": {
+   "k": 4,
+   "h": 5,
+   "d": 1,
+   "V": 4,
+   "q": 6421,
+   "ncl": 2
+  },
+  "n": 27,
+  "R": 23,
+  "N_d": 12,
+  "rank": 40,
+  "family_rank": 40,
+  "points_used": 27,
+  "ADMISSIBLE": true,
+  "law": 6
+ }
+]
