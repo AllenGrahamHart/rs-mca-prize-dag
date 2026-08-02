@@ -478,3 +478,53 @@ passes locally under ramguard. Maintainer comment posted
 memory, package-by-2026-08-02) is thereby SATISFIED. Diagonal-node
 export still HELD (collision surface with Scott's #1139, no response —
 unchanged watch). PR #174 unchanged, awaiting triage.
+
+---
+
+## BAND-LANE MINT LINE-AUDIT + WIRE — COMPLETE (6 nodes)
+
+Pilot drafts (99/99 checks) line-audited per AUDIT_CHECKLIST; all flags
+adjudicated:
+
+- **F0.j HAND-VERIFIED** (the wave's only pilot-plus-inference): g | j,
+  j >= 1 gives j >= g = h-d against j <= M-1 = d-1, so 2d >= h+1 — the
+  live shift class sits inside T2(b)'s reach; the dichotomy ->
+  quantization req edge is sound. Claims 1-3 of package 3 checked line
+  by line (coset-intersection bound; M | k two-power argument + unique
+  2-power window; the zeta_P(i) = -x_i^j fibre/parity exclusion).
+- **F0.f HAND-VERIFIED**: the capped escape floor — rank = Vh - dim Rel
+  with Rel embedded in (+)C_{S_a^inf}; h - (|S_a^inf|-k)^+ =
+  |S_a \ S_a^inf| when |S_a^inf| >= k, caps at h below; the K_V
+  falsification of the uncapped form is the verifier's witness.
+- **Package 4's reconstructed MC-1/MC-2 derivation LINE-AUDITED**: all
+  three coefficient extractions traced index-by-index (ceiling c = 0;
+  product condition e_{r'}(T) = gamma; s-window e_s = 0) — correct;
+  converse rides the exhaustive three-field census.
+- **Package 6 hand-checks**: S4-1 pointwise 0-or->=3; S4-3 inversion +
+  (T); S4-4 Segre/(1,1)/cross-ratio; S4-14 MDS sum induction with the
+  finite-slope pi_1 caveat present; Claim 7 explicitly
+  MEASURED-NOT-PROVED.
+- **Cross-cutting greps clean**: no "cascade event" survivors; the two
+  sunflower variants named distinctly; per-ray/per-datum/free
+  denominators straight; slope-keyed reading marked FALSE; no
+  "arbitrarily lossy" survivors.
+- **Adjudications**: F0.a CONFIRMED (true source = list_bound_transfer;
+  brief mis-cited); F0.b Lemma 0 stays INLINE in the cost theorem;
+  F0.c seventh node (unified fibre strip T1/T2/T4) NOT commissioned —
+  stays flagged + QUEUED; F0.e/F0.i readings accepted (machine-checked,
+  statements pin the distinctions); F0.g consistency-check status
+  recorded in the node itself. Optional ev edge KEPT; the
+  common_code_line_budget differentiation ref KEPT.
+- **Pilot compute-law lapse recorded** (~8 bare-python3 read-only JSON
+  inspections during triage; no computation of record affected — every
+  pin re-derived inside ramguarded verifiers). Standing reminder goes
+  into future pilot briefs.
+
+WIRED: 6 PROVED background nodes; 5 internal req + 5 banked req + 2 ref
++ 6 ev into xr_graded_tangent_band_charge (red-leaf law verified in
+script). DAG: 1753 nodes / 4860 edges; manifest scripts=2353,
+proof_assets=2487; 6/6 verifiers PASS in place. No status flips; the
+TARGET's reduction-of-record sentences now each have a PROVED evidence
+node behind them. Mint queue remainder: F2 antipodal lemma +
+parity-defect certificate, P-B L1 + design ceiling + block dichotomy
+(second mint-prep pilot when scheduled); the seventh-node candidate.
