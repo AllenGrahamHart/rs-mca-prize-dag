@@ -15364,6 +15364,39 @@ next route step:          profile remaining signed-pair projections for the
 nonclaim:                 no positive-route, K3, LIST, MCA, or Prize closure
 ```
 
+### Work-cycle theorem: cell-14 signed-pair guard factorization
+
+```text
+compact common plane:    bidegree (4,8), 17 terms, leading coefficient t^4
+normalized kernel:       b-degree <=3; exact B1(-W)=-B1(W)
+raw resultant:           degrees (16,18,672), 179183 terms
+plane-reduced resultant: degrees (16,3,752), 41556 terms
+plane quotient product:  N0*D0^5*(w0+1)^2
+                          *(rd^2*w0-rn^2)*(rd^2*w0+rn^2)
+guard representative:    degrees (16,3,340), 15580 terms
+exact identity:           c16*R-r16*C=0 modulo P
+leading norm:             degree 2752, 1929 terms
+norm factorization:       8 linear, 4 irreducible cubic,
+                          1 irreducible quintic, 1 irreducible sextic
+proper norm fiber:        t=1742551715, two deployed b lifts;
+                          all 8 displayed w0 roots guarded
+compact scale roots:      t=0,+/-1,+/-i only; all original guards and
+                          independently unit in the saturated common ideal
+result:                   necessary signed pair empty without colored cuts
+symmetry consequence:    all four rows of orbit [14] PROVED excluded
+frontier delta:           four representatives / 24 raw rows ->
+                          three representatives / 20 raw rows
+remaining orbits:         [9,10], [11], [12,13]
+main certificate hash:    e3ff4a2acd58a42e299791962ae0d5f53849bc8a36efb852526bc937db7fc70f
+scale certificate hash:   1bdb31ed7b90d8456eb6e080f28f8405a6104a0b007d6716d2a510314e6b7638
+Modal apps:               ap-EMRYX198f3NnRuzD0nnwHd,
+                          ap-Spns6GLJ4M6pRznVs9AwR3,
+                          ap-CA8IVaeARZylj4IAy5VUsm
+next route step:          compact cell 12 and test its complete signed-pair
+                          guard factorization
+nonclaim:                 no positive-route, K3, LIST, MCA, or Prize closure
+```
+
 ### Work-cycle theorem: cell-3 signed-pair guard factorization
 
 ```text

@@ -3835,8 +3835,23 @@ signed pair is empty without colored elimination.  Together with the
 exceptional-scale theorem and exact root-sign/cell symmetry, this closes all
 eight rows of orbit `[4,7]`.
 
-With the later cell-3 guard-factorization theorem, the positive frontier is
-now four representatives / 24 raw rows: `[9,10]`, `[11]`, `[12,13]`, and
-`[14]`.  Before launching a large colored elimination on another orbit,
-profile its signed-pair projection for the same low-degree guard-factorization
-phenomenon.
+With the later cell-3 guard-factorization theorem, the frontier first fell to
+four representatives / 24 raw rows.  The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion`
+now closes the next orbit.  Its complete plane-reduced signed-pair resultant
+satisfies
+
+```text
+R=0 => N0 D0^5 (w0+1)^2 (rd^2w0-rn^2)(rd^2w0+rn^2)=0.
+```
+
+The degree-2752 proportionality norm and every compact-kernel scale are
+factored exactly.  All deployed leading exceptions lie on printed product,
+denominator, source-label, or `b=0,+/-1` guards; all scale roots are the
+original `t=0,+/-1,+/-i` guards.  Exact root-sign symmetry closes all four
+rows of `[14]` without colored elimination.
+
+The positive frontier is now three representatives / 20 raw rows:
+`[9,10]`, `[11]`, and `[12,13]`.  Compact cell 12 next, whose exact lex basis
+has size nine, and test the same complete signed-pair guard factorization
+before introducing colored equations.
