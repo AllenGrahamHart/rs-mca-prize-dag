@@ -1,0 +1,10 @@
+{
+ "twoN": 8,
+ "wmax": 4,
+ "qmax": 100000000,
+ "n_polynomials": 40,
+ "n_zero_norm": 0,
+ "max_abs_norm": "9",
+ "n_primes_hit": 0,
+ "primes": []
+}
