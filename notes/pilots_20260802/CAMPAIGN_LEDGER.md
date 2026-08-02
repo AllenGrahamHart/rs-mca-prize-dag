@@ -313,3 +313,23 @@ BRIEF_3 lines, target_mappings.json:145).
 - Mint queue additions: norm-gate package; MC family + ceiling;
   KEY LEMMA + pencil mass identity; L1 + design ceiling + block
   dichotomy; antipodal lemma + parity-defect certificate.
+
+---
+
+## WORKFLOW CHANGE 2026-08-02 (maintainer directive): Pro PAUSED
+
+The loop is now Fable (coordinator/auditor) + Opus pilots + the Codex
+worker; the user ratifies surfaced decisions. Consequences:
+- Section F ("Pro relay package") is RE-PURPOSED as the INTERNAL
+  ADVERSARIAL REVIEW QUEUE: every item that awaited a Pro adversarial
+  round (the F2 slice-theorem draft with its amendment; the crossing
+  succinct contract; the Route T fork memo; the (PB-SUPPLY) skeleton
+  with the selector clause; the q-scope call briefing) now gets its
+  adversarial round from a dedicated Opus pilot with pre-registered
+  kill lines — same falsifier-first discipline, in-house.
+- Decision sequencing simplifies to: pilot evidence -> coordinator
+  adjudication -> user ratification (for genuine choices) -> execute
+  -> upstream visibility via PRs (the export discipline is unchanged
+  and remains the only external loop).
+- "PP-gate freezes" (PP2.0, PP4.0, PP5.0) are now coordinator drafts
+  + internal adversarial pilots, then user sign-off.
