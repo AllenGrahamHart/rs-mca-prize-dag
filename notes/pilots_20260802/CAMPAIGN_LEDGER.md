@@ -74,13 +74,26 @@ In flight: `f2_parity_boundary`, `c1_imprimitivity`.
   band-ledger pilot): already banked verbatim at
   `xr_mismatch_chart_nongeneric_joint_support_equivalence/proof.md:19-22`.
   Cite it; do not re-derive.
-- **BAND OCCUPANCY LEMMA (the named heart of the band repair):**
-  N_d <= ~0.68n^2 at the binding row (aggregate SUM N_d L(d) <=
-  13n^3); the n^2-vs-n^2/2 boundary is the exact target; Theorem 7
-  (two-column determinacy — occupancy as point-line incidence in A^2)
-  is the designated lever; the d = h-1 term (27x weaker) subsumes the
-  cascade pencil-count question. `xr_graded_band_ledger/REPORT.md`
-  section 3.
+- **BAND OCCUPANCY LEMMA — REDUCED (xr_band_occupancy banked; round 3
+  complete 4/4).** The lever discharged: high-depth injectivity
+  (Theorem 2) converts 96.9% of the ledger cost into "**some pencil
+  member has <= ~0.7n^2 codewords at agreement k + ceil(h/2)**" — a
+  single-word beyond-Johnson RS list-size bound (25-50% of Johnson),
+  SAME SPECIES as positive target #1 (L1/#106); min over q+1 pencil
+  members; the low band is free at any bound up to n^2 (0.52-0.65 n^3
+  of headroom). F1 not fired (best admissible construction — the new
+  sunflower family — is exactly LINEAR, formula floor((n-k+1)/(h-d)),
+  ~21 orders below requirement); master ledger worst-case TIGHT
+  (slope-counting buys <= 2x); no-go proved for every slope-side
+  route. **MANDATORY GATE before banking the reduction: check
+  BSKR-style superpolynomial-list constructions (additive domains) for
+  transfer to the multiplicative prize domain** (vs
+  literature_map_20260726 + Pro). Corrections: Route S un-killed
+  (re-selection real, 15/76 — key everything on RAYS); tangent gate
+  must cover all of P^1 incl. (0:1). Mint queue: occupancy-pilot T1
+  supersedes band-ledger T4+T5; mint T1 + T2 (+ T4 bookkeeping) with
+  the Route T edit; Deza clique corollary awaits its covering
+  argument.
 - **Band-ledger mint queue (with the Route T edit):** Theorem 3 (line
   cap under J >= k — the banked `common_code_line_budget` hypothesis
   is out of range at all six rows, see its node note), Theorem 4 (ray

@@ -1,0 +1,86 @@
+
+### CLIMB-n16-k3-t3-s401  n=16 k=3 t=3 A=6 h=3 band=[4, 4] q=401
+  ADMISSIBLE=True (generic True maxJ=3 / tangent-free True maxray=0 / v-dir gate True vmax=4)
+  ledger: {}
+  N_total=0  N/n=0.000  N/n^2=0.00000  X_total=0  sum_L=0
+  |Gamma_band| measured = 0   ledger bound sum N_d L(d) = 0   slack = None
+  checks: kpack=True(0) T1=True(0 shared-fibre pairs) T2=True T3=True spread=True fibre_id_viol=[] rays/slope=0(resel 0) maxlines/slope=0 max f-mult=0 g-mult=0
+
+### CLIMB-n16-k3-t3-s402  n=16 k=3 t=3 A=6 h=3 band=[4, 4] q=401
+  ADMISSIBLE=True (generic True maxJ=3 / tangent-free True maxray=0 / v-dir gate True vmax=4)
+  ledger: {}
+  N_total=0  N/n=0.000  N/n^2=0.00000  X_total=0  sum_L=0
+  |Gamma_band| measured = 0   ledger bound sum N_d L(d) = 0   slack = None
+  checks: kpack=True(0) T1=True(0 shared-fibre pairs) T2=True T3=True spread=True fibre_id_viol=[] rays/slope=0(resel 0) maxlines/slope=0 max f-mult=0 g-mult=0
+
+### CLIMB-n20-k3-t3-s401  n=20 k=3 t=3 A=6 h=3 band=[4, 4] q=401
+  ADMISSIBLE=True (generic True maxJ=3 / tangent-free True maxray=0 / v-dir gate True vmax=4)
+  ledger: {}
+  N_total=0  N/n=0.000  N/n^2=0.00000  X_total=0  sum_L=0
+  |Gamma_band| measured = 0   ledger bound sum N_d L(d) = 0   slack = None
+  checks: kpack=True(0) T1=True(0 shared-fibre pairs) T2=True T3=True spread=True fibre_id_viol=[] rays/slope=0(resel 0) maxlines/slope=0 max f-mult=0 g-mult=0
+
+### CLIMB-n20-k3-t3-s402  n=20 k=3 t=3 A=6 h=3 band=[4, 4] q=401
+  ADMISSIBLE=True (generic True maxJ=3 / tangent-free True maxray=0 / v-dir gate True vmax=4)
+  ledger: {}
+  N_total=0  N/n=0.000  N/n^2=0.00000  X_total=0  sum_L=0
+  |Gamma_band| measured = 0   ledger bound sum N_d L(d) = 0   slack = None
+  checks: kpack=True(0) T1=True(0 shared-fibre pairs) T2=True T3=True spread=True fibre_id_viol=[] rays/slope=0(resel 0) maxlines/slope=0 max f-mult=0 g-mult=0
+
+### CLIMB-n24-k3-t3-s401  n=24 k=3 t=3 A=6 h=3 band=[4, 4] q=401
+  ADMISSIBLE=True (generic True maxJ=3 / tangent-free True maxray=6 / v-dir gate True vmax=4)
+  ledger: {}
+  N_total=0  N/n=0.000  N/n^2=0.00000  X_total=0  sum_L=0
+  |Gamma_band| measured = 0   ledger bound sum N_d L(d) = 0   slack = None
+  checks: kpack=True(0) T1=True(0 shared-fibre pairs) T2=True T3=True spread=True fibre_id_viol=[] rays/slope=1(resel 0) maxlines/slope=0 max f-mult=0 g-mult=0
+
+### CLIMB-n24-k3-t3-s402  n=24 k=3 t=3 A=6 h=3 band=[4, 4] q=401
+  ADMISSIBLE=True (generic True maxJ=3 / tangent-free True maxray=0 / v-dir gate True vmax=4)
+  ledger: {}
+  N_total=0  N/n=0.000  N/n^2=0.00000  X_total=0  sum_L=0
+  |Gamma_band| measured = 0   ledger bound sum N_d L(d) = 0   slack = None
+  checks: kpack=True(0) T1=True(0 shared-fibre pairs) T2=True T3=True spread=True fibre_id_viol=[] rays/slope=0(resel 0) maxlines/slope=0 max f-mult=0 g-mult=0
+
+### CLIMB-n28-k3-t3-s401  n=28 k=3 t=3 A=6 h=3 band=[4, 4] q=401
+  ADMISSIBLE=True (generic True maxJ=4 / tangent-free True maxray=0 / v-dir gate True vmax=4)
+  ledger: {'1': {'pairs_at_depth': 1, 'N_d': 0, 'X_d': 0, 'sumL_ge2': 0, 'maxL': 0, 'cap': 12, 'cap_ok': True}}
+  N_total=0  N/n=0.000  N/n^2=0.00000  X_total=0  sum_L=0
+  |Gamma_band| measured = 0   ledger bound sum N_d L(d) = 0   slack = None
+  checks: kpack=True(0) T1=True(0 shared-fibre pairs) T2=True T3=True spread=True fibre_id_viol=[] rays/slope=0(resel 0) maxlines/slope=0 max f-mult=1 g-mult=1
+
+### CLIMB-n28-k3-t3-s402  n=28 k=3 t=3 A=6 h=3 band=[4, 4] q=401
+  ADMISSIBLE=True (generic True maxJ=4 / tangent-free True maxray=6 / v-dir gate True vmax=5)
+  ledger: {'1': {'pairs_at_depth': 1, 'N_d': 1, 'X_d': 1, 'sumL_ge2': 2, 'maxL': 2, 'cap': 12, 'cap_ok': True}}
+  N_total=1  N/n=0.036  N/n^2=0.00128  X_total=1  sum_L=2
+  |Gamma_band| measured = 2   ledger bound sum N_d L(d) = 12   slack = 6.0
+  checks: kpack=True(0) T1=True(0 shared-fibre pairs) T2=True T3=True spread=True fibre_id_viol=[] rays/slope=1(resel 0) maxlines/slope=1 max f-mult=1 g-mult=1
+
+### CLIMB-n16-k3-t3-s401  n=16 k=3 t=3 A=6 h=3 band=[4, 4] q=101
+  ADMISSIBLE=True (generic True maxJ=4 / tangent-free True maxray=6 / v-dir gate True vmax=4)
+  ledger: {'1': {'pairs_at_depth': 3, 'N_d': 3, 'X_d': 3, 'sumL_ge2': 6, 'maxL': 2, 'cap': 6, 'cap_ok': True}}
+  N_total=3  N/n=0.188  N/n^2=0.01172  X_total=3  sum_L=6
+  |Gamma_band| measured = 4   ledger bound sum N_d L(d) = 18   slack = 4.5
+  checks: kpack=True(2) T1=True(1 shared-fibre pairs) T2=True T3=True spread=True fibre_id_viol=[] rays/slope=2(resel 1) maxlines/slope=2 max f-mult=1 g-mult=1
+
+### CLIMB-n16-k3-t3-s402  n=16 k=3 t=3 A=6 h=3 band=[4, 4] q=101
+  ADMISSIBLE=True (generic True maxJ=4 / tangent-free True maxray=6 / v-dir gate True vmax=4)
+  ledger: {'1': {'pairs_at_depth': 2, 'N_d': 2, 'X_d': 2, 'sumL_ge2': 4, 'maxL': 2, 'cap': 6, 'cap_ok': True}}
+  N_total=2  N/n=0.125  N/n^2=0.00781  X_total=2  sum_L=4
+  |Gamma_band| measured = 4   ledger bound sum N_d L(d) = 12   slack = 3.0
+  checks: kpack=True(1) T1=True(0 shared-fibre pairs) T2=True T3=True spread=True fibre_id_viol=[] rays/slope=1(resel 0) maxlines/slope=1 max f-mult=1 g-mult=1
+
+### CLIMB-n20-k3-t4-s401  n=20 k=3 t=4 A=7 h=4 band=[4, 5] q=401
+  ADMISSIBLE=True (generic True maxJ=3 / tangent-free True maxray=0 / v-dir gate True vmax=4)
+  ledger: {}
+  N_total=0  N/n=0.000  N/n^2=0.00000  X_total=0  sum_L=0
+  |Gamma_band| measured = 0   ledger bound sum N_d L(d) = 0   slack = None
+  checks: kpack=True(0) T1=True(0 shared-fibre pairs) T2=True T3=True spread=True fibre_id_viol=[] rays/slope=0(resel 0) maxlines/slope=0 max f-mult=0 g-mult=0
+
+### CLIMB-n20-k3-t4-s402  n=20 k=3 t=4 A=7 h=4 band=[4, 5] q=401
+  ADMISSIBLE=True (generic True maxJ=3 / tangent-free True maxray=0 / v-dir gate True vmax=4)
+  ledger: {}
+  N_total=0  N/n=0.000  N/n^2=0.00000  X_total=0  sum_L=0
+  |Gamma_band| measured = 0   ledger bound sum N_d L(d) = 0   slack = None
+  checks: kpack=True(0) T1=True(0 shared-fibre pairs) T2=True T3=True spread=True fibre_id_viol=[] rays/slope=0(resel 0) maxlines/slope=0 max f-mult=0 g-mult=0
+
+[206.1s] checkpoint: /home/u2470931/smooth-read-solomin/prize/notes/pilots_20260802/xr_band_occupancy/battery_climb.json

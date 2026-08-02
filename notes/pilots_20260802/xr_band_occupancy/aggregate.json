@@ -1,0 +1,120 @@
+{
+ "total": 105,
+ "admissible": 76,
+ "violations_admissible": {
+  "kpacking": 0,
+  "T1": 0,
+  "T2": 0,
+  "T3": 0,
+  "spread_per_ray": 0,
+  "spread_per_slope": 15,
+  "line_cap": 0,
+  "fibre_identity": 0
+ },
+ "violations_inadmissible": {
+  "kpacking": 0,
+  "T1": 8,
+  "T2": 0,
+  "T3": 0,
+  "spread_per_ray": 0,
+  "spread_per_slope": 11,
+  "line_cap": 0,
+  "fibre_identity": 0
+ },
+ "reselection": 26,
+ "reselection_admissible": 15,
+ "v_gate_failures": 0,
+ "best": {
+  "fixture": "SUN-n64-k3-t3-d1-m31-s101",
+  "n": 64,
+  "k": 3,
+  "t": 3,
+  "A": 6,
+  "h": 3,
+  "R": 61,
+  "q": 4001,
+  "band": [
+   4,
+   4
+  ],
+  "max_joint_agreement": 4,
+  "max_ray_agreement": 6,
+  "max_v_side_agreement": 5,
+  "globally_generic": true,
+  "below_cascade": true,
+  "tangent_free_finite_slopes": true,
+  "tangent_free_v_direction": true,
+  "v_nonvanishing": true,
+  "ADMISSIBLE": true,
+  "ADMISSIBLE_with_v_gate": true,
+  "ledger_by_depth": {
+   "1": {
+    "pairs_at_depth": 31,
+    "N_d": 31,
+    "X_d": 13485,
+    "sumL_ge2": 930,
+    "maxL": 30,
+    "cap": 30,
+    "cap_ok": true
+   }
+  },
+  "N_total": 31,
+  "X_total": 13485,
+  "sum_L_over_band_pairs": 930,
+  "Gamma_band_measured": 440,
+  "ledger_bound_sum_Nd_L": 930,
+  "ledger_slack_vs_measured": 2.1136363636363638,
+  "sumL_slack_vs_measured": 2.1136363636363638,
+  "printed_tangent_column": 59,
+  "column_beats_printed": true,
+  "N_over_n": 0.484375,
+  "N_over_n2": 0.007568359375,
+  "deep_pairs": 31,
+  "kpacking_max_intersection": 2,
+  "kpacking_ok": true,
+  "T1_shared_fibre_pairs": 465,
+  "T1_violations": [],
+  "T1_ok": true,
+  "max_pairs_sharing_f_at_a_depth": 1,
+  "max_pairs_sharing_g_at_a_depth": 1,
+  "T2_high_depth_f_violations": [],
+  "T2_ok": true,
+  "max_lines_per_slope": 4,
+  "T3_high_depth_slope_violations": [],
+  "T3_ok": true,
+  "T1_perslope_depthsum_violations": [],
+  "spread_coset_violations_per_ray": [],
+  "spread_coset_ok": true,
+  "spread_coset_violations_per_slope": [
+   "828",
+   "828",
+   "828",
+   "828",
+   "2626"
+  ],
+  "spread_coset_per_slope_ok": false,
+  "fibre_identity_violations": [],
+  "n_rays": 474,
+  "live_slopes": 449,
+  "max_rays_per_slope": 2,
+  "reselection_slopes": 25,
+  "construction": {
+   "kind": "sunflower",
+   "d": 1,
+   "m": 31,
+   "lam": 2,
+   "points_used": 64,
+   "predicted_N_d": 31,
+   "predicted_L_P": 30,
+   "line_cap": 30
+  }
+ },
+ "slack_min": [
+  1.0,
+  "V1-seed1"
+ ],
+ "slack_max": [
+  20.625,
+  "MULTI-n48-k3-t3-d1-m3-s5-sh0-301"
+ ]
+}

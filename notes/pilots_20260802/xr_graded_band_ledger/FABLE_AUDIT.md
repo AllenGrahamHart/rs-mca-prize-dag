@@ -90,3 +90,22 @@ ledger's feasibility is independent of the payment audit's outcome.
   (same caveat as every band-adjacent pilot).
 - The occupancy CONJECTURE is the whole remaining content; nothing
   here proves it.
+
+> **[AMENDED same day — xr_band_occupancy pilot, coordinator-replayed.]**
+> Three updates. (1) The occupancy heart RE-ROUTES: Theorem 2 there
+> (high-depth injectivity) converts 96.9% of this ledger's cost into a
+> single-word RS list-size bound at k + ceil(h/2) (25-50% of Johnson)
+> — same species as positive target #1; the low band is free at any
+> bound up to n^2. F1 did not fire (best construction exactly linear).
+> (2) TWO corrections to this audit's adopted items: "Route S has no
+> purchase" is REFUTED (re-selection freedom at 15/76 admissible
+> fixtures; all rigidity/coset statements must be keyed on RAYS —
+> the slope-keyed reading of Theorem 4 is false); and caveat 1's
+> "arbitrarily lossy" is corrected — the master inequality is
+> worst-case TIGHT (slack exactly 1.0 attained; max family at 2.0).
+> (3) The mint queue changes: the occupancy pilot's unified Theorem 1
+> SUPERSEDES this pilot's Theorems 4+5 (contains them, extends to
+> z in {0, inf}); the tangent gate must be stated over all of
+> P^1(F_q) including (0:1) (bandlib's scan omits it; 0/76 fixtures
+> retroactively affected). See
+> notes/pilots_20260802/xr_band_occupancy/{REPORT,FABLE_AUDIT}.md.
