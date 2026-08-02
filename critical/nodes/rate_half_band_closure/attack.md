@@ -3914,3 +3914,21 @@ is
 Hence the complete deployed positive residual route `433-1a -> O0b` is
 empty.  This is a route closure, not a closure of the other coordinate
 routes, K3, or the rate-half band theorem.
+
+The next saturated-defect route is now signed exactly.  The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas`
+uses common skeleton `(100;112)` and outside skeleton
+`(002;000;311)`.  The loop costs one and the outside multiplicity-three
+`DE` pair costs two, forcing all other repeated pairs to split.  Seven
+active signs form two independent cycles, so the 128 raw assignments have
+exactly four gauge orbits of size 32.  In canonical form their records are
+
+```text
+common:  -a^2; ab,ac; bc,-bc;
+colored: bf, sigma_c cf;
+outside: de,de,-de; df, sigma_o ef,
+```
+
+with `(sigma_c,sigma_o) in {+/-1}^2`.  Compile common source placements for
+these five common records next, then append the four outside lanes.  Do not
+repeat the sign search.

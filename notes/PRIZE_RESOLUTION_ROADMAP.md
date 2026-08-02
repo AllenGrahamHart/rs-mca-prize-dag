@@ -15539,3 +15539,19 @@ next route step:          select a different unresolved rate-half route
 nonclaim:                 no other route, K3, rate-half band, LIST, MCA,
                           or Prize closure
 ```
+
+### Work-cycle theorem: positive 433-1b to O0a signed-edge atlas
+
+```text
+common skeleton:         (100;112), one loop and split BC pair
+outside skeleton:        (002;000;311), split 2+1 DE pair
+defect:                  1 common + 2 outside = 3 exact
+active sign graph:       6 vertices, 7 edges, cycle rank 2
+raw sign assignments:    128
+target-gauge quotient:   4 orbits of size 32
+lane invariants:         common four-cycle sign, outside triangle sign
+records per lane:        12
+next route step:         compile the common source-placement atlas and
+                          positive Vieta kernels for the five common records
+nonclaim:                 no source placement, route, K3, or Prize closure
+```
