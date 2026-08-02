@@ -1,0 +1,359 @@
+{
+ "predictions": "exp_quotient_periodicity.py -- is the MC received pair QUOTIENT-PAID?\n\nThe banked first-match stratification (critical/nodes/\nstratification_partition_thm/proof.md:49-52, 86) puts\n\n    T3 quotient periodicity:  P3(u,v) := exists M > 1, M | gcd(n,k) such\n    that the pencil folds through x -> x^M (syndromes descend)\n    -> QUOTIENT-PAID at scale M\n\nSTRICTLY BEFORE the regime split, and the bridge's generic branch runs\nunder \"the existing quotient-first convention\".  The banked confinement\nnode (critical/nodes/confinement/statement.md:9, PROVED) says a\nzeta-equivariant word with a K_M-stable support forces the completion to\nfold, P_S = X^r G(X^M), and the slope to confine.\n\nPRE-REGISTERED PREDICTIONS (written before any run):\n\n R1  u = X^(n-1) + c X^(k+w-1) with w = M | k satisfies\n     u = X^(M-1) F(X^M)  --  every exponent of u is == -1 (mod M).\n R2  u is zeta-EQUIVARIANT: u(zeta x) = zeta^(M-1) u(x) for zeta in mu_M.\n     v = u/X is equivariant with the conjugate character zeta^(M-2).\n R3  Every MC support T is K_M-stable (a union of mu_M-cosets) by\n     construction, so the locator M_T = G(X^M) -- the support-side\n     periodicity of the confinement node.\n R4  CONFINEMENT'S OWN CONCLUSION: the completion folds,\n     P_T = X^(M-1) G_T(X^M) -- every exponent of P_T is == -1 (mod M).\n     (Contains, and strictly strengthens, \"X^(M-1) divides P_T\".)\n R5  The whole pencil folds: w_z = u + z v = X^(M-2) (X + z) F(X^M).\n R6  mu_M acts on the family: T -> zeta.T maps the MC family to itself,\n     and acts on the live-slope set Gamma = -H.\n R7  Hence P3 fires at scale M = w = h-1, and M | gcd(n,k) at all six\n     official rows (checked in rows.py section 6).\n",
+ "fixtures": [
+  {
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 17,
+   "h": 3,
+   "A": 7,
+   "gcd_n_k": 4,
+   "M_divides_gcd_nk": true,
+   "mc_family": 7,
+   "u_exponents": [
+    5,
+    15
+   ],
+   "v_exponents": [
+    4,
+    14
+   ],
+   "equivariance_violations": 0,
+   "support_stability_violations": 0,
+   "completion_folding_violations": 0,
+   "pencil_folding_violations": 0,
+   "family_action_violations": 0,
+   "gamma": 16,
+   "gamma_action_violations": 0
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 97,
+   "h": 3,
+   "A": 7,
+   "gcd_n_k": 4,
+   "M_divides_gcd_nk": true,
+   "mc_family": 7,
+   "u_exponents": [
+    5,
+    15
+   ],
+   "v_exponents": [
+    4,
+    14
+   ],
+   "equivariance_violations": 0,
+   "support_stability_violations": 0,
+   "completion_folding_violations": 0,
+   "pencil_folding_violations": 0,
+   "family_action_violations": 0,
+   "gamma": 16,
+   "gamma_action_violations": 0
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 193,
+   "h": 3,
+   "A": 7,
+   "gcd_n_k": 4,
+   "M_divides_gcd_nk": true,
+   "mc_family": 7,
+   "u_exponents": [
+    5,
+    15
+   ],
+   "v_exponents": [
+    4,
+    14
+   ],
+   "equivariance_violations": 0,
+   "support_stability_violations": 0,
+   "completion_folding_violations": 0,
+   "pencil_folding_violations": 0,
+   "family_action_violations": 0,
+   "gamma": 16,
+   "gamma_action_violations": 0
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 241,
+   "h": 3,
+   "A": 7,
+   "gcd_n_k": 4,
+   "M_divides_gcd_nk": true,
+   "mc_family": 7,
+   "u_exponents": [
+    5,
+    15
+   ],
+   "v_exponents": [
+    4,
+    14
+   ],
+   "equivariance_violations": 0,
+   "support_stability_violations": 0,
+   "completion_folding_violations": 0,
+   "pencil_folding_violations": 0,
+   "family_action_violations": 0,
+   "gamma": 16,
+   "gamma_action_violations": 0
+  },
+  {
+   "n": 18,
+   "k": 6,
+   "w": 2,
+   "M": 2,
+   "q": 19,
+   "h": 3,
+   "A": 9,
+   "gcd_n_k": 6,
+   "M_divides_gcd_nk": true,
+   "mc_family": 14,
+   "u_exponents": [
+    7,
+    17
+   ],
+   "v_exponents": [
+    6,
+    16
+   ],
+   "equivariance_violations": 0,
+   "support_stability_violations": 0,
+   "completion_folding_violations": 0,
+   "pencil_folding_violations": 0,
+   "family_action_violations": 0,
+   "gamma": 18,
+   "gamma_action_violations": 0
+  },
+  {
+   "n": 18,
+   "k": 6,
+   "w": 2,
+   "M": 2,
+   "q": 73,
+   "h": 3,
+   "A": 9,
+   "gcd_n_k": 6,
+   "M_divides_gcd_nk": true,
+   "mc_family": 14,
+   "u_exponents": [
+    7,
+    17
+   ],
+   "v_exponents": [
+    6,
+    16
+   ],
+   "equivariance_violations": 0,
+   "support_stability_violations": 0,
+   "completion_folding_violations": 0,
+   "pencil_folding_violations": 0,
+   "family_action_violations": 0,
+   "gamma": 18,
+   "gamma_action_violations": 0
+  },
+  {
+   "n": 18,
+   "k": 6,
+   "w": 2,
+   "M": 2,
+   "q": 181,
+   "h": 3,
+   "A": 9,
+   "gcd_n_k": 6,
+   "M_divides_gcd_nk": true,
+   "mc_family": 14,
+   "u_exponents": [
+    7,
+    17
+   ],
+   "v_exponents": [
+    6,
+    16
+   ],
+   "equivariance_violations": 0,
+   "support_stability_violations": 0,
+   "completion_folding_violations": 0,
+   "pencil_folding_violations": 0,
+   "family_action_violations": 0,
+   "gamma": 18,
+   "gamma_action_violations": 0
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "q": 41,
+   "h": 5,
+   "A": 9,
+   "gcd_n_k": 4,
+   "M_divides_gcd_nk": true,
+   "mc_family": 2,
+   "u_exponents": [
+    7,
+    19
+   ],
+   "v_exponents": [
+    6,
+    18
+   ],
+   "equivariance_violations": 0,
+   "support_stability_violations": 0,
+   "completion_folding_violations": 0,
+   "pencil_folding_violations": 0,
+   "family_action_violations": 0,
+   "gamma": 20,
+   "gamma_action_violations": 0
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "q": 101,
+   "h": 5,
+   "A": 9,
+   "gcd_n_k": 4,
+   "M_divides_gcd_nk": true,
+   "mc_family": 2,
+   "u_exponents": [
+    7,
+    19
+   ],
+   "v_exponents": [
+    6,
+    18
+   ],
+   "equivariance_violations": 0,
+   "support_stability_violations": 0,
+   "completion_folding_violations": 0,
+   "pencil_folding_violations": 0,
+   "family_action_violations": 0,
+   "gamma": 20,
+   "gamma_action_violations": 0
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "q": 181,
+   "h": 5,
+   "A": 9,
+   "gcd_n_k": 4,
+   "M_divides_gcd_nk": true,
+   "mc_family": 2,
+   "u_exponents": [
+    7,
+    19
+   ],
+   "v_exponents": [
+    6,
+    18
+   ],
+   "equivariance_violations": 0,
+   "support_stability_violations": 0,
+   "completion_folding_violations": 0,
+   "pencil_folding_violations": 0,
+   "family_action_violations": 0,
+   "gamma": 20,
+   "gamma_action_violations": 0
+  },
+  {
+   "n": 16,
+   "k": 8,
+   "w": 4,
+   "M": 4,
+   "q": 17,
+   "h": 5,
+   "A": 13,
+   "gcd_n_k": 8,
+   "M_divides_gcd_nk": true,
+   "mc_family": 1,
+   "u_exponents": [
+    11,
+    15
+   ],
+   "v_exponents": [
+    10,
+    14
+   ],
+   "equivariance_violations": 0,
+   "support_stability_violations": 0,
+   "completion_folding_violations": 0,
+   "pencil_folding_violations": 0,
+   "family_action_violations": 0,
+   "gamma": 4,
+   "gamma_action_violations": 0
+  },
+  {
+   "n": 16,
+   "k": 8,
+   "w": 4,
+   "M": 4,
+   "q": 97,
+   "h": 5,
+   "A": 13,
+   "gcd_n_k": 8,
+   "M_divides_gcd_nk": true,
+   "mc_family": 1,
+   "u_exponents": [
+    11,
+    15
+   ],
+   "v_exponents": [
+    10,
+    14
+   ],
+   "equivariance_violations": 0,
+   "support_stability_violations": 0,
+   "completion_folding_violations": 0,
+   "pencil_folding_violations": 0,
+   "family_action_violations": 0,
+   "gamma": 4,
+   "gamma_action_violations": 0
+  },
+  {
+   "n": 16,
+   "k": 8,
+   "w": 4,
+   "M": 4,
+   "q": 193,
+   "h": 5,
+   "A": 13,
+   "gcd_n_k": 8,
+   "M_divides_gcd_nk": true,
+   "mc_family": 1,
+   "u_exponents": [
+    11,
+    15
+   ],
+   "v_exponents": [
+    10,
+    14
+   ],
+   "equivariance_violations": 0,
+   "support_stability_violations": 0,
+   "completion_folding_violations": 0,
+   "pencil_folding_violations": 0,
+   "family_action_violations": 0,
+   "gamma": 4,
+   "gamma_action_violations": 0
+  }
+ ],
+ "checks": 104,
+ "fails": [],
+ "verdict": "PASS"
+}

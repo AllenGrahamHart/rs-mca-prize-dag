@@ -1,0 +1,32 @@
+{
+ "pilot": "f2_fixed_sector",
+ "date": "2026-08-02",
+ "question": "Does the fixed sector mu_{2^24} subset F_p absorb the parity-pure frequency class (K1/K2) that the slice theorem cannot cover?",
+ "frozen_before_measurement": true,
+ "instances": {
+  "primes": "official-shaped p with v_2(p-1) = e exactly, e in {4,5,6,7} -> p in {17,97,193,641}",
+  "ambient": "F_{p^2} = F_p(w), w^2 = N (least non-residue), Tr(a+bw) = 2a",
+  "group": "mu_{n} with n = 2^{e+1} (the rung-1 group of the tower analogue)",
+  "fixed_sector": "mu_{2^e} = mu_n cap F_p, n_0 = 2^e elements",
+  "moving_sector": "elements of order exactly 2^{e+1}: 2^e elements = 2^{e-1} antipodal pairs {y,-y}",
+  "character": "chi_c(x) = Tr(sum_l c_l x^l) in F_p; psi(s) = e_p(s); census term T(c) = prod_{x in mu_n} (1 + psi(chi_c(x)))",
+  "classes": "K1 = folded support purely ODD (f_even == 0, constant term included); K2 = purely EVEN with no constant term; G = mixed"
+ },
+ "predictions": [
+  {"id": "P1", "claim": "K1 POSITIVITY AT EVERY SECTOR: for 100% of K1 frequencies the exact cyclotomic value of the FIXED-sector product prod_{x in mu_{2^e}}(1+psi(chi(x))) is a POSITIVE RATIONAL INTEGER, and so are the moving-sector product and the total. Rate predicted 1.000.", "falsifier": "any K1 frequency with a non-integer or non-positive sector value"},
+  {"id": "P2", "claim": "SIGN FIELD DEAD ON K1: eps_c = sign(T(c)) = +1 for 100% of K1 frequencies; for mixed (G) frequencies both signs occur with each at least 15% of a random sample.", "falsifier": "eps_c = -1 at some K1 frequency"},
+  {"id": "P3", "claim": "FIXED SECTOR INHERITS THE DEGENERACY: at every K1 frequency the FIXED sector's own window (antipodal pairing {x,-x} of mu_{2^e}, which is legitimate because -1 in mu_{2^e}) has all Delta EVEN, hence flat = 0 exactly and argmax_k |R_k| = p -- the identical diagnosis the deployed-windows pilot proved for the moving rungs. Rate predicted 1.000.", "falsifier": "some K1 frequency with an odd Delta on the fixed sector"},
+  {"id": "P4", "claim": "K2 IS A PULLBACK: for purely even support with no constant term, (i) all moving Delta = 0 exactly (rho_b = 1 at every b), and (ii) the EXACT identity T_j(f) = [T_{j-1}(g)]^2 holds where f(x) = g(x^2); the fixed sector's value multiset is the mu_{2^{e-1}} multiset doubled. Rate predicted 1.000.", "falsifier": "either identity failing at any tested frequency"},
+  {"id": "P5", "claim": "TRIVIAL-SHADOW SUB-CLASS IS NON-EMPTY AND MAXIMAL: the class {K1 and fixed-sector character identically 0} is non-empty at every instance; for the linear character it is exactly the trace-zero line {c = bw, b != 0} (p-1 frequencies) and there the fixed factor equals EXACTLY 2^{n_0} = 2^{2^e} (its maximum) so the fixed sector delivers 0 bits of contraction.", "falsifier": "the class empty, or the fixed factor != 2^{n_0} on it"},
+  {"id": "P6", "claim": "ANNEALED MARGINALITY: the mean of exp(S_c) = prod_x |1+psi(chi_c(x))| over the K1 class, normalised per antipodal PAIR, converges to 2.000 (so E[exp S] = 2^{n/2}), while over mixed/generic frequencies it converges to (4/pi)^2 = 1.6211 per pair (so E[exp S] = (4/pi)^n). Tolerance 3% at p >= 97.", "falsifier": "per-pair K1 mean outside [1.94, 2.06] or generic mean outside [1.57, 1.67] at p >= 97"},
+  {"id": "P7", "claim": "REALITY MARKER: at 100% of K1 frequencies every b-resolved sector coefficient (fixed, moving, total) is EXACTLY a rational integer (imaginary part exactly zero in Z[zeta_p]); at mixed frequencies this fails for at least one b in a random sample.", "falsifier": "a non-real K1 coefficient"},
+  {"id": "P8", "claim": "OFFICIAL BUDGET ARITHMETIC (exact integers, no model): with n_0 = 2^24, m_j = 2^{22+j} pairs (j=1..16), eta = 1/43 and the deployed parity-pure ceiling log2 p = 31 bits per rung, (a) the single-rung 1/43 deficit first exceeds the ENTIRE fixed-sector capacity n_0 = 2^24 bits at rung j* = 8; (b) the total tower deficit sum_j (m_j/43 - 31) divided by the fixed-sector capacity n_0 lies in [700, 800].", "falsifier": "j* != 8 or ratio outside [700,800]"},
+  {"id": "P9", "claim": "SECTOR CONTRACTION COMPARISON: at K1 frequencies the fixed sector's own b-resolved contraction, measured in the SAME currency as the rung's (bits = log2 C(size,b) - log2 |coefficient|, worst central b), is NOT structurally better than the moving rung's: the two differ by at most a factor 2 in bits at every tested instance, and neither reaches eta*size with eta = 1/43 times any margin that grows with the sector size (bits/size decreasing in size).", "falsifier": "fixed-sector bits/size at K1 exceeding the moving sector's by more than 2x AND growing with size"}
+ ],
+ "falsifier_map": {
+  "F1": "the fixed-sector theorem's hypotheses EXCLUDE parity-pure frequencies -> the class is absorbed by NOTHING banked (fires if P1/P3/P5 hold)",
+  "F2": "the magnitude budget fails at some rung (fires if P8 holds)",
+  "F3": "the composition works (fires only if P1 or P3 FAIL)"
+ },
+ "compute_law": "tools/ramguard local -- python3 ...; exact integer / Z[zeta_p] arithmetic for every banked quantity; floats only for labelled diagnostics"
+}

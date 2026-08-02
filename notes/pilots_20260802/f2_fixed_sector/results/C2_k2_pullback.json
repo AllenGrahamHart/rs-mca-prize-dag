@@ -1,0 +1,28 @@
+{
+ "rows": [
+  {
+   "e": 4,
+   "p": 17,
+   "trials": 25,
+   "moving_is_square_of_reduced": 25,
+   "fixed_is_square_of_reduced": 25,
+   "moving_delta_all_zero": 25
+  },
+  {
+   "e": 5,
+   "p": 97,
+   "trials": 25,
+   "moving_is_square_of_reduced": 25,
+   "fixed_is_square_of_reduced": 25,
+   "moving_delta_all_zero": 25
+  },
+  {
+   "e": 6,
+   "p": 193,
+   "trials": 25,
+   "moving_is_square_of_reduced": 25,
+   "fixed_is_square_of_reduced": 25,
+   "moving_delta_all_zero": 25
+  }
+ ]
+}

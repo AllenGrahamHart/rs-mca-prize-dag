@@ -1,0 +1,198 @@
+{
+ "b2": [
+  {
+   "shape": {
+    "n": 20,
+    "k": 3,
+    "t": 3,
+    "q": 241
+   },
+   "m": 9,
+   "N_d": 9,
+   "rank": 29,
+   "M": 9,
+   "cost_per_pair": 3.2222222222222223,
+   "two_R": 34,
+   "h": 3,
+   "d": 1,
+   "seed": 0,
+   "points_used": 20,
+   "kpack": true,
+   "T1": true,
+   "maxL": 8
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 3,
+    "t": 3,
+    "q": 241
+   },
+   "m": 9,
+   "N_d": 9,
+   "rank": 31,
+   "M": 9,
+   "cost_per_pair": 3.4444444444444446,
+   "two_R": 50,
+   "h": 3,
+   "d": 1,
+   "seed": 1,
+   "points_used": 20,
+   "kpack": true,
+   "T1": true,
+   "maxL": 9
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 241
+   },
+   "m": 5,
+   "N_d": 5,
+   "rank": 25,
+   "M": 5,
+   "cost_per_pair": 5.0,
+   "two_R": 40,
+   "h": 5,
+   "d": 1,
+   "seed": 0,
+   "points_used": 23,
+   "kpack": true,
+   "T1": true,
+   "maxL": 2
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 5,
+    "q": 241
+   },
+   "m": 7,
+   "N_d": 7,
+   "rank": 36,
+   "M": 7,
+   "cost_per_pair": 5.142857142857143,
+   "two_R": 40,
+   "h": 5,
+   "d": 2,
+   "seed": 0,
+   "points_used": 24,
+   "kpack": true,
+   "T1": true,
+   "maxL": 6
+  },
+  {
+   "shape": {
+    "n": 30,
+    "k": 4,
+    "t": 5,
+    "q": 257
+   },
+   "m": 6,
+   "N_d": 6,
+   "rank": 30,
+   "M": 6,
+   "cost_per_pair": 5.0,
+   "two_R": 52,
+   "h": 5,
+   "d": 1,
+   "seed": 0,
+   "points_used": 27,
+   "kpack": true,
+   "T1": true,
+   "maxL": 2
+  },
+  {
+   "shape": {
+    "n": 30,
+    "k": 4,
+    "t": 5,
+    "q": 257
+   },
+   "m": 6,
+   "N_d": 6,
+   "rank": 32,
+   "M": 6,
+   "cost_per_pair": 5.333333333333333,
+   "two_R": 52,
+   "h": 5,
+   "d": 2,
+   "seed": 0,
+   "points_used": 21,
+   "kpack": true,
+   "T1": true,
+   "maxL": 5
+  },
+  {
+   "shape": {
+    "n": 26,
+    "k": 5,
+    "t": 7,
+    "q": 257
+   },
+   "m": 3,
+   "N_d": 3,
+   "rank": 21,
+   "M": 3,
+   "cost_per_pair": 7.0,
+   "two_R": 42,
+   "h": 7,
+   "d": 1,
+   "seed": 0,
+   "points_used": 22,
+   "kpack": true,
+   "T1": true,
+   "maxL": 2
+  },
+  {
+   "shape": {
+    "n": 26,
+    "k": 5,
+    "t": 7,
+    "q": 257
+   },
+   "m": 4,
+   "N_d": 4,
+   "rank": 28,
+   "M": 4,
+   "cost_per_pair": 7.0,
+   "two_R": 42,
+   "h": 7,
+   "d": 2,
+   "seed": 0,
+   "points_used": 24,
+   "kpack": true,
+   "T1": true,
+   "maxL": 2
+  },
+  {
+   "shape": {
+    "n": 26,
+    "k": 5,
+    "t": 7,
+    "q": 257
+   },
+   "m": 5,
+   "N_d": 5,
+   "rank": 37,
+   "M": 5,
+   "cost_per_pair": 7.4,
+   "two_R": 42,
+   "h": 7,
+   "d": 3,
+   "seed": 0,
+   "points_used": 24,
+   "kpack": true,
+   "T1": true,
+   "maxL": 4
+  }
+ ],
+ "_checks": 9,
+ "_failures": [
+  "B2 n=28 k=3 h=3 d=1: sunflower N_d=9 vs point-budget law floor((R+1)/(h-d))=13 m=9 rank=31 cost/pair=3.4444444444444446",
+  "B2 n=30 k=4 h=5 d=2: sunflower N_d=6 vs point-budget law floor((R+1)/(h-d))=9 m=6 rank=32 cost/pair=5.333333333333333"
+ ]
+}

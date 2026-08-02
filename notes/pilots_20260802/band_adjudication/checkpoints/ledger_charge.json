@@ -1,0 +1,472 @@
+{
+ "predictions": "exp_ledger_charge.py -- what does an MC received pair actually COST?\n\nThe ledger charges SLOPES, not pairs.  For each MC shift pencil this\nmeasures, exhaustively:\n\n    |Gamma|            live slopes (agreement exactly A over P^1(F_q))\n    |Gamma_band|       live slopes sharing a band/cascade core with another\n                       live slope (the exact object the Route-T column pays)\n    sum_P L_P          over pairs with L_P >= 2   (the ledger's own sum)\n    N_d                occupancy, selected-support reading (banked semantics)\n    N_d^any            occupancy, \"any exact-A ray\" reading (NOT banked)\n    n - A + 1          the printed B_tan slot\n    |MC|               the raw band-pair population at depth h-1\n\nPRE-REGISTERED (before any run):\n Q1  |Gamma| = n exactly (every point of -H is forced by some member).\n Q2  |Gamma_band| = |Gamma| (every live slope of an MC pencil is on a\n     cascade line).\n Q3  |Gamma| > n - A + 1 by the factor n/(n-A+1) > 1 -- so a single MC\n     received pair OVERFLOWS the printed tangent column.\n Q4  sum_{L_P>=2} L_P <= |Gamma| (exclusivity: the Lambda_P are disjoint).\n Q5  N_{h-1}(selected) <= |Gamma|/2 <= n/2  <<  |MC|.\n Q6  N_{h-1}(any) = |MC| -- the reading matters, and the banked reading is\n     the selected one.\n\nFIRST RUN OUTCOME: Q1, Q3, Q6 FAILED and are CORRECTED here (the original\nforms are kept above verbatim; the corrected forms are what is now checked).\n Q1' Gamma = {-x_i : i in UNION of the family}, so |Gamma| = |union|,\n     which is n when the family covers every coordinate and exactly\n     n-A+1 = |T| when the family is a single member.  (The single-member\n     case reproduces the payment audit's B_tan saturation ratio 1.0000\n     CONSTRUCTIVELY.)\n Q3' |Gamma| > n-A+1 exactly when the family's union exceeds n-A+1\n     coordinates, i.e. as soon as the family has two members with\n     distinct supports.  Overflow factor = |union| / (n-A+1).\n Q6' N_{h-1}(any) >= |MC|: the structured members are a SUBSET of the\n     depth-(h-1) pairs; char-p accidental (non-coset) solutions can add\n     more (MC-4's completeness is char-0 and needs n a 2-power -- n = 18\n     satisfies neither, and there the extras appear).\n",
+ "fixtures": [
+  {
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 17,
+   "h": 3,
+   "A": 7,
+   "mc_family": 7,
+   "mc_formula": 7,
+   "n_minus_A_plus_1": 10,
+   "gamma": 16,
+   "gamma_band": 16,
+   "sum_L_P_over_counted": 12,
+   "N_d_selected": {
+    "2": 3
+   },
+   "N_d_any": {
+    "2": 7
+   },
+   "ledger_column_selected": 30,
+   "ledger_column_any": 70,
+   "L_of_h_minus_1": 10,
+   "gate_ok": true,
+   "joint_explanation_max": 6,
+   "pencil_max_agreement": 7,
+   "gamma_over_slot": 1.6,
+   "family_union": 16
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 97,
+   "h": 3,
+   "A": 7,
+   "mc_family": 7,
+   "mc_formula": 7,
+   "n_minus_A_plus_1": 10,
+   "gamma": 16,
+   "gamma_band": 16,
+   "sum_L_P_over_counted": 16,
+   "N_d_selected": {
+    "2": 3
+   },
+   "N_d_any": {
+    "2": 7
+   },
+   "ledger_column_selected": 30,
+   "ledger_column_any": 70,
+   "L_of_h_minus_1": 10,
+   "gate_ok": true,
+   "joint_explanation_max": 6,
+   "pencil_max_agreement": 7,
+   "gamma_over_slot": 1.6,
+   "family_union": 16
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 113,
+   "h": 3,
+   "A": 7,
+   "mc_family": 7,
+   "mc_formula": 7,
+   "n_minus_A_plus_1": 10,
+   "gamma": 16,
+   "gamma_band": 16,
+   "sum_L_P_over_counted": 16,
+   "N_d_selected": {
+    "2": 3
+   },
+   "N_d_any": {
+    "2": 7
+   },
+   "ledger_column_selected": 30,
+   "ledger_column_any": 70,
+   "L_of_h_minus_1": 10,
+   "gate_ok": true,
+   "joint_explanation_max": 6,
+   "pencil_max_agreement": 7,
+   "gamma_over_slot": 1.6,
+   "family_union": 16
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 193,
+   "h": 3,
+   "A": 7,
+   "mc_family": 7,
+   "mc_formula": 7,
+   "n_minus_A_plus_1": 10,
+   "gamma": 16,
+   "gamma_band": 16,
+   "sum_L_P_over_counted": 16,
+   "N_d_selected": {
+    "2": 3
+   },
+   "N_d_any": {
+    "2": 7
+   },
+   "ledger_column_selected": 30,
+   "ledger_column_any": 70,
+   "L_of_h_minus_1": 10,
+   "gate_ok": true,
+   "joint_explanation_max": 6,
+   "pencil_max_agreement": 7,
+   "gamma_over_slot": 1.6,
+   "family_union": 16
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 241,
+   "h": 3,
+   "A": 7,
+   "mc_family": 7,
+   "mc_formula": 7,
+   "n_minus_A_plus_1": 10,
+   "gamma": 16,
+   "gamma_band": 16,
+   "sum_L_P_over_counted": 16,
+   "N_d_selected": {
+    "2": 3
+   },
+   "N_d_any": {
+    "2": 7
+   },
+   "ledger_column_selected": 30,
+   "ledger_column_any": 70,
+   "L_of_h_minus_1": 10,
+   "gate_ok": true,
+   "joint_explanation_max": 6,
+   "pencil_max_agreement": 7,
+   "gamma_over_slot": 1.6,
+   "family_union": 16
+  },
+  {
+   "n": 18,
+   "k": 6,
+   "w": 2,
+   "M": 2,
+   "q": 19,
+   "h": 3,
+   "A": 9,
+   "mc_family": 14,
+   "mc_formula": 14,
+   "n_minus_A_plus_1": 10,
+   "gamma": 18,
+   "gamma_band": 18,
+   "sum_L_P_over_counted": 12,
+   "N_d_selected": {
+    "2": 3
+   },
+   "N_d_any": {
+    "2": 18
+   },
+   "ledger_column_selected": 30,
+   "ledger_column_any": 180,
+   "L_of_h_minus_1": 10,
+   "gate_ok": true,
+   "joint_explanation_max": 8,
+   "pencil_max_agreement": 9,
+   "gamma_over_slot": 1.8,
+   "family_union": 18
+  },
+  {
+   "n": 18,
+   "k": 6,
+   "w": 2,
+   "M": 2,
+   "q": 37,
+   "h": 3,
+   "A": 9,
+   "mc_family": 14,
+   "mc_formula": 14,
+   "n_minus_A_plus_1": 10,
+   "gamma": 18,
+   "gamma_band": 18,
+   "sum_L_P_over_counted": 15,
+   "N_d_selected": {
+    "2": 3
+   },
+   "N_d_any": {
+    "2": 16
+   },
+   "ledger_column_selected": 30,
+   "ledger_column_any": 160,
+   "L_of_h_minus_1": 10,
+   "gate_ok": true,
+   "joint_explanation_max": 8,
+   "pencil_max_agreement": 9,
+   "gamma_over_slot": 1.8,
+   "family_union": 18
+  },
+  {
+   "n": 18,
+   "k": 6,
+   "w": 2,
+   "M": 2,
+   "q": 73,
+   "h": 3,
+   "A": 9,
+   "mc_family": 14,
+   "mc_formula": 14,
+   "n_minus_A_plus_1": 10,
+   "gamma": 18,
+   "gamma_band": 18,
+   "sum_L_P_over_counted": 15,
+   "N_d_selected": {
+    "2": 3
+   },
+   "N_d_any": {
+    "2": 16
+   },
+   "ledger_column_selected": 30,
+   "ledger_column_any": 160,
+   "L_of_h_minus_1": 10,
+   "gate_ok": true,
+   "joint_explanation_max": 8,
+   "pencil_max_agreement": 9,
+   "gamma_over_slot": 1.8,
+   "family_union": 18
+  },
+  {
+   "n": 18,
+   "k": 6,
+   "w": 2,
+   "M": 2,
+   "q": 109,
+   "h": 3,
+   "A": 9,
+   "mc_family": 14,
+   "mc_formula": 14,
+   "n_minus_A_plus_1": 10,
+   "gamma": 18,
+   "gamma_band": 18,
+   "sum_L_P_over_counted": 15,
+   "N_d_selected": {
+    "2": 3
+   },
+   "N_d_any": {
+    "2": 16
+   },
+   "ledger_column_selected": 30,
+   "ledger_column_any": 160,
+   "L_of_h_minus_1": 10,
+   "gate_ok": true,
+   "joint_explanation_max": 8,
+   "pencil_max_agreement": 9,
+   "gamma_over_slot": 1.8,
+   "family_union": 18
+  },
+  {
+   "n": 18,
+   "k": 6,
+   "w": 2,
+   "M": 2,
+   "q": 181,
+   "h": 3,
+   "A": 9,
+   "mc_family": 14,
+   "mc_formula": 14,
+   "n_minus_A_plus_1": 10,
+   "gamma": 18,
+   "gamma_band": 18,
+   "sum_L_P_over_counted": 15,
+   "N_d_selected": {
+    "2": 3
+   },
+   "N_d_any": {
+    "2": 16
+   },
+   "ledger_column_selected": 30,
+   "ledger_column_any": 160,
+   "L_of_h_minus_1": 10,
+   "gate_ok": true,
+   "joint_explanation_max": 8,
+   "pencil_max_agreement": 9,
+   "gamma_over_slot": 1.8,
+   "family_union": 18
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "q": 41,
+   "h": 5,
+   "A": 9,
+   "mc_family": 2,
+   "mc_formula": 2,
+   "n_minus_A_plus_1": 12,
+   "gamma": 20,
+   "gamma_band": 20,
+   "sum_L_P_over_counted": 20,
+   "N_d_selected": {
+    "4": 2
+   },
+   "N_d_any": {
+    "4": 2
+   },
+   "ledger_column_selected": 24,
+   "ledger_column_any": 24,
+   "L_of_h_minus_1": 12,
+   "gate_ok": true,
+   "joint_explanation_max": 8,
+   "pencil_max_agreement": 9,
+   "gamma_over_slot": 1.6666666666666667,
+   "family_union": 20
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "q": 101,
+   "h": 5,
+   "A": 9,
+   "mc_family": 2,
+   "mc_formula": 2,
+   "n_minus_A_plus_1": 12,
+   "gamma": 20,
+   "gamma_band": 20,
+   "sum_L_P_over_counted": 20,
+   "N_d_selected": {
+    "4": 2
+   },
+   "N_d_any": {
+    "4": 2
+   },
+   "ledger_column_selected": 24,
+   "ledger_column_any": 24,
+   "L_of_h_minus_1": 12,
+   "gate_ok": true,
+   "joint_explanation_max": 8,
+   "pencil_max_agreement": 9,
+   "gamma_over_slot": 1.6666666666666667,
+   "family_union": 20
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "q": 181,
+   "h": 5,
+   "A": 9,
+   "mc_family": 2,
+   "mc_formula": 2,
+   "n_minus_A_plus_1": 12,
+   "gamma": 20,
+   "gamma_band": 20,
+   "sum_L_P_over_counted": 20,
+   "N_d_selected": {
+    "4": 2
+   },
+   "N_d_any": {
+    "4": 2
+   },
+   "ledger_column_selected": 24,
+   "ledger_column_any": 24,
+   "L_of_h_minus_1": 12,
+   "gate_ok": true,
+   "joint_explanation_max": 8,
+   "pencil_max_agreement": 9,
+   "gamma_over_slot": 1.6666666666666667,
+   "family_union": 20
+  },
+  {
+   "n": 16,
+   "k": 8,
+   "w": 4,
+   "M": 4,
+   "q": 17,
+   "h": 5,
+   "A": 13,
+   "mc_family": 1,
+   "mc_formula": 1,
+   "n_minus_A_plus_1": 4,
+   "gamma": 4,
+   "gamma_band": 4,
+   "sum_L_P_over_counted": 4,
+   "N_d_selected": {
+    "4": 1
+   },
+   "N_d_any": {
+    "4": 1
+   },
+   "ledger_column_selected": 4,
+   "ledger_column_any": 4,
+   "L_of_h_minus_1": 4,
+   "gate_ok": true,
+   "joint_explanation_max": 12,
+   "pencil_max_agreement": 13,
+   "gamma_over_slot": 1.0,
+   "family_union": 4
+  },
+  {
+   "n": 16,
+   "k": 8,
+   "w": 4,
+   "M": 4,
+   "q": 97,
+   "h": 5,
+   "A": 13,
+   "mc_family": 1,
+   "mc_formula": 1,
+   "n_minus_A_plus_1": 4,
+   "gamma": 4,
+   "gamma_band": 4,
+   "sum_L_P_over_counted": 4,
+   "N_d_selected": {
+    "4": 1
+   },
+   "N_d_any": {
+    "4": 1
+   },
+   "ledger_column_selected": 4,
+   "ledger_column_any": 4,
+   "L_of_h_minus_1": 4,
+   "gate_ok": true,
+   "joint_explanation_max": 12,
+   "pencil_max_agreement": 13,
+   "gamma_over_slot": 1.0,
+   "family_union": 4
+  },
+  {
+   "n": 16,
+   "k": 8,
+   "w": 4,
+   "M": 4,
+   "q": 193,
+   "h": 5,
+   "A": 13,
+   "mc_family": 1,
+   "mc_formula": 1,
+   "n_minus_A_plus_1": 4,
+   "gamma": 4,
+   "gamma_band": 4,
+   "sum_L_P_over_counted": 4,
+   "N_d_selected": {
+    "4": 1
+   },
+   "N_d_any": {
+    "4": 1
+   },
+   "ledger_column_selected": 4,
+   "ledger_column_any": 4,
+   "L_of_h_minus_1": 4,
+   "gate_ok": true,
+   "joint_explanation_max": 12,
+   "pencil_max_agreement": 13,
+   "gamma_over_slot": 1.0,
+   "family_union": 4
+  }
+ ],
+ "checks": 160,
+ "fails": [],
+ "verdict": "PASS"
+}

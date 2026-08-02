@@ -1,0 +1,676 @@
+{
+ "predictions": "exp_mc_occupancy.py -- does the MC construction populate N_{h-1}?\n\nPRE-REGISTERED PREDICTIONS (written before any run; see REPORT section 2):\n\n P1  For every T in the MC family of u = X^(n-1) + c X^(k+w-1) the codeword\n     P_T is divisible by X^(M-1).  In particular P_T(0) = 0 whenever M >= 2.\n P2  Hence g_T := P_T / X is a codeword of degree < k agreeing with\n     v := u / X on H \\ T, so (P_T, g_T) is a codeword PAIR with joint\n     agreement EXACTLY k+w = A-1, i.e. a depth-(h-1) band pair.\n     #depth-(h-1) band pairs == |MC family| == C(N,m)/N.\n P3  zeta_{P_T}(i) = -x_i for every i in T (independent of T).\n P4  Consequently every forced slope lies in -H: the live-slope set of the\n     MC shift pencil satisfies Gamma is a subset of {-x : x in H},\n     so |Gamma| <= n.  (Contrast: the ledger budget is 13 n^3.)\n P5  No exact-A support contains two distinct depth-(h-1) cores\n     (k-packing exclusivity), so each live slope is used by AT MOST ONE\n     cascade-tier pair and N_{h-1} <= |Gamma| / 2 <= n/2.\n P6  Measured N_{h-1} under a deterministic first-match selection is\n     O(1)-to-O(n), NOT the family size.  => MC does NOT refute the\n     occupancy lemma at d = h-1.\n P7  For a shift v = u / X^j with 1 <= j <= M-1 we get zeta(i) = -x_i^j;\n     the fibres of x -> x^j on H have size gcd(j,n), so the ray at a\n     forced slope has agreement (k+w) + gcd(j,n).  Prediction: gcd(j,n) > 1\n     BREAKS the tangent gate (agreement > A) -- the pair leaves the generic\n     branch -- while gcd(j,n) = 1 reproduces the j = 1 picture.\n P8  A shift pencil whose MC excess w is strictly below h-1 has pencil-wide\n     max agreement k+w+1 < A, hence ZERO live slopes: the whole structured\n     family is invisible to the occupancy lemma (L_P = 0 for every member).\n",
+ "fixtures": [
+  {
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 17,
+   "j": 1,
+   "t": 3,
+   "h": 3,
+   "A": 7,
+   "N": 8,
+   "m": 5,
+   "rp": 10,
+   "mc_family": 7,
+   "mc_formula": 7,
+   "gcd_jn": 1,
+   "mc_members_with_X^j_dividing_P": 7,
+   "mc_members_giving_a_codeword_pair": 7,
+   "joint_agreement_sizes": [
+    6
+   ],
+   "gate_ok": true,
+   "over_agreeing": {},
+   "pencil_max_agreement": 7,
+   "joint_explanation_max": 6,
+   "n_live_slopes": 16,
+   "live_in_minusH": true,
+   "n_live_not_in_minusH": 0,
+   "band_pairs_by_depth": {
+    "1": 2,
+    "2": 7
+   },
+   "N_d_selected": {
+    "2": 3
+   },
+   "N_d_any_exactA_ray": {
+    "2": 7
+   },
+   "L_P_profile": {
+    "1": {
+     "max_selected": 0,
+     "max_any": 0,
+     "sum_selected": 0,
+     "count": 2
+    },
+    "2": {
+     "max_selected": 8,
+     "max_any": 10,
+     "sum_selected": 12,
+     "count": 7
+    }
+   },
+   "zeta_violations_at_depth_w": 0,
+   "exclusivity_violations": 0,
+   "N_hminus1_over_family": 0.42857142857142855
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 97,
+   "j": 1,
+   "t": 3,
+   "h": 3,
+   "A": 7,
+   "N": 8,
+   "m": 5,
+   "rp": 10,
+   "mc_family": 7,
+   "mc_formula": 7,
+   "gcd_jn": 1,
+   "mc_members_with_X^j_dividing_P": 7,
+   "mc_members_giving_a_codeword_pair": 7,
+   "joint_agreement_sizes": [
+    6
+   ],
+   "gate_ok": true,
+   "over_agreeing": {},
+   "pencil_max_agreement": 7,
+   "joint_explanation_max": 6,
+   "n_live_slopes": 16,
+   "live_in_minusH": true,
+   "n_live_not_in_minusH": 0,
+   "band_pairs_by_depth": {
+    "2": 7
+   },
+   "N_d_selected": {
+    "2": 3
+   },
+   "N_d_any_exactA_ray": {
+    "2": 7
+   },
+   "L_P_profile": {
+    "2": {
+     "max_selected": 10,
+     "max_any": 10,
+     "sum_selected": 16,
+     "count": 7
+    }
+   },
+   "zeta_violations_at_depth_w": 0,
+   "exclusivity_violations": 0,
+   "N_hminus1_over_family": 0.42857142857142855
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 113,
+   "j": 1,
+   "t": 3,
+   "h": 3,
+   "A": 7,
+   "N": 8,
+   "m": 5,
+   "rp": 10,
+   "mc_family": 7,
+   "mc_formula": 7,
+   "gcd_jn": 1,
+   "mc_members_with_X^j_dividing_P": 7,
+   "mc_members_giving_a_codeword_pair": 7,
+   "joint_agreement_sizes": [
+    6
+   ],
+   "gate_ok": true,
+   "over_agreeing": {},
+   "pencil_max_agreement": 7,
+   "joint_explanation_max": 6,
+   "n_live_slopes": 16,
+   "live_in_minusH": true,
+   "n_live_not_in_minusH": 0,
+   "band_pairs_by_depth": {
+    "2": 7
+   },
+   "N_d_selected": {
+    "2": 3
+   },
+   "N_d_any_exactA_ray": {
+    "2": 7
+   },
+   "L_P_profile": {
+    "2": {
+     "max_selected": 10,
+     "max_any": 10,
+     "sum_selected": 16,
+     "count": 7
+    }
+   },
+   "zeta_violations_at_depth_w": 0,
+   "exclusivity_violations": 0,
+   "N_hminus1_over_family": 0.42857142857142855
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 193,
+   "j": 1,
+   "t": 3,
+   "h": 3,
+   "A": 7,
+   "N": 8,
+   "m": 5,
+   "rp": 10,
+   "mc_family": 7,
+   "mc_formula": 7,
+   "gcd_jn": 1,
+   "mc_members_with_X^j_dividing_P": 7,
+   "mc_members_giving_a_codeword_pair": 7,
+   "joint_agreement_sizes": [
+    6
+   ],
+   "gate_ok": true,
+   "over_agreeing": {},
+   "pencil_max_agreement": 7,
+   "joint_explanation_max": 6,
+   "n_live_slopes": 16,
+   "live_in_minusH": true,
+   "n_live_not_in_minusH": 0,
+   "band_pairs_by_depth": {
+    "2": 7
+   },
+   "N_d_selected": {
+    "2": 3
+   },
+   "N_d_any_exactA_ray": {
+    "2": 7
+   },
+   "L_P_profile": {
+    "2": {
+     "max_selected": 10,
+     "max_any": 10,
+     "sum_selected": 16,
+     "count": 7
+    }
+   },
+   "zeta_violations_at_depth_w": 0,
+   "exclusivity_violations": 0,
+   "N_hminus1_over_family": 0.42857142857142855
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "q": 41,
+   "j": 1,
+   "t": 5,
+   "h": 5,
+   "A": 9,
+   "N": 5,
+   "m": 3,
+   "rp": 12,
+   "mc_family": 2,
+   "mc_formula": 2,
+   "gcd_jn": 1,
+   "mc_members_with_X^j_dividing_P": 2,
+   "mc_members_giving_a_codeword_pair": 2,
+   "joint_agreement_sizes": [
+    8
+   ],
+   "gate_ok": true,
+   "over_agreeing": {},
+   "pencil_max_agreement": 9,
+   "joint_explanation_max": 8,
+   "n_live_slopes": 20,
+   "live_in_minusH": true,
+   "n_live_not_in_minusH": 0,
+   "band_pairs_by_depth": {
+    "1": 4,
+    "4": 2
+   },
+   "N_d_selected": {
+    "4": 2
+   },
+   "N_d_any_exactA_ray": {
+    "4": 2
+   },
+   "L_P_profile": {
+    "1": {
+     "max_selected": 0,
+     "max_any": 0,
+     "sum_selected": 0,
+     "count": 4
+    },
+    "4": {
+     "max_selected": 12,
+     "max_any": 12,
+     "sum_selected": 20,
+     "count": 2
+    }
+   },
+   "zeta_violations_at_depth_w": 0,
+   "exclusivity_violations": 0,
+   "N_hminus1_over_family": 1.0
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "q": 101,
+   "j": 1,
+   "t": 5,
+   "h": 5,
+   "A": 9,
+   "N": 5,
+   "m": 3,
+   "rp": 12,
+   "mc_family": 2,
+   "mc_formula": 2,
+   "gcd_jn": 1,
+   "mc_members_with_X^j_dividing_P": 2,
+   "mc_members_giving_a_codeword_pair": 2,
+   "joint_agreement_sizes": [
+    8
+   ],
+   "gate_ok": true,
+   "over_agreeing": {},
+   "pencil_max_agreement": 9,
+   "joint_explanation_max": 8,
+   "n_live_slopes": 20,
+   "live_in_minusH": true,
+   "n_live_not_in_minusH": 0,
+   "band_pairs_by_depth": {
+    "4": 2
+   },
+   "N_d_selected": {
+    "4": 2
+   },
+   "N_d_any_exactA_ray": {
+    "4": 2
+   },
+   "L_P_profile": {
+    "4": {
+     "max_selected": 12,
+     "max_any": 12,
+     "sum_selected": 20,
+     "count": 2
+    }
+   },
+   "zeta_violations_at_depth_w": 0,
+   "exclusivity_violations": 0,
+   "N_hminus1_over_family": 1.0
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "q": 41,
+   "j": 2,
+   "t": 5,
+   "h": 5,
+   "A": 9,
+   "N": 5,
+   "m": 3,
+   "rp": 12,
+   "mc_family": 2,
+   "mc_formula": 2,
+   "gcd_jn": 2,
+   "mc_members_with_X^j_dividing_P": 2,
+   "mc_members_giving_a_codeword_pair": 2,
+   "joint_agreement_sizes": [
+    8
+   ],
+   "gate_ok": false,
+   "over_agreeing": {
+    "16": 10,
+    "4": 10,
+    "25": 10,
+    "1": 10,
+    "10": 10,
+    "18": 10,
+    "23": 10,
+    "31": 10,
+    "37": 10,
+    "40": 10
+   },
+   "pencil_max_agreement": 10,
+   "joint_explanation_max": 8,
+   "n_live_slopes": 0,
+   "live_in_minusH": true,
+   "n_live_not_in_minusH": 0,
+   "band_pairs_by_depth": {
+    "1": 16,
+    "4": 2
+   },
+   "N_d_selected": {},
+   "N_d_any_exactA_ray": {},
+   "L_P_profile": {
+    "1": {
+     "max_selected": 0,
+     "max_any": 0,
+     "sum_selected": 0,
+     "count": 16
+    },
+    "4": {
+     "max_selected": 0,
+     "max_any": 0,
+     "sum_selected": 0,
+     "count": 2
+    }
+   },
+   "zeta_violations_at_depth_w": 0,
+   "exclusivity_violations": 0,
+   "N_hminus1_over_family": 0.0,
+   "expected_ray_agreement": 10
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "q": 41,
+   "j": 3,
+   "t": 5,
+   "h": 5,
+   "A": 9,
+   "N": 5,
+   "m": 3,
+   "rp": 12,
+   "mc_family": 2,
+   "mc_formula": 2,
+   "gcd_jn": 1,
+   "mc_members_with_X^j_dividing_P": 2,
+   "mc_members_giving_a_codeword_pair": 2,
+   "joint_agreement_sizes": [
+    8
+   ],
+   "gate_ok": true,
+   "over_agreeing": {},
+   "pencil_max_agreement": 9,
+   "joint_explanation_max": 8,
+   "n_live_slopes": 20,
+   "live_in_minusH": true,
+   "n_live_not_in_minusH": 0,
+   "band_pairs_by_depth": {
+    "1": 8,
+    "4": 2
+   },
+   "N_d_selected": {
+    "4": 2
+   },
+   "N_d_any_exactA_ray": {
+    "4": 2
+   },
+   "L_P_profile": {
+    "1": {
+     "max_selected": 0,
+     "max_any": 0,
+     "sum_selected": 0,
+     "count": 8
+    },
+    "4": {
+     "max_selected": 12,
+     "max_any": 12,
+     "sum_selected": 20,
+     "count": 2
+    }
+   },
+   "zeta_violations_at_depth_w": 0,
+   "exclusivity_violations": 0,
+   "N_hminus1_over_family": 1.0,
+   "expected_ray_agreement": 9
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "q": 101,
+   "j": 2,
+   "t": 5,
+   "h": 5,
+   "A": 9,
+   "N": 5,
+   "m": 3,
+   "rp": 12,
+   "mc_family": 2,
+   "mc_formula": 2,
+   "gcd_jn": 2,
+   "mc_members_with_X^j_dividing_P": 2,
+   "mc_members_giving_a_codeword_pair": 2,
+   "joint_agreement_sizes": [
+    8
+   ],
+   "gate_ok": false,
+   "over_agreeing": {
+    "100": 10,
+    "1": 10,
+    "6": 10,
+    "14": 10,
+    "17": 10,
+    "36": 10,
+    "65": 10,
+    "84": 10,
+    "87": 10,
+    "95": 10
+   },
+   "pencil_max_agreement": 10,
+   "joint_explanation_max": 8,
+   "n_live_slopes": 0,
+   "live_in_minusH": true,
+   "n_live_not_in_minusH": 0,
+   "band_pairs_by_depth": {
+    "4": 2
+   },
+   "N_d_selected": {},
+   "N_d_any_exactA_ray": {},
+   "L_P_profile": {
+    "4": {
+     "max_selected": 0,
+     "max_any": 0,
+     "sum_selected": 0,
+     "count": 2
+    }
+   },
+   "zeta_violations_at_depth_w": 0,
+   "exclusivity_violations": 0,
+   "N_hminus1_over_family": 0.0,
+   "expected_ray_agreement": 10
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "q": 101,
+   "j": 3,
+   "t": 5,
+   "h": 5,
+   "A": 9,
+   "N": 5,
+   "m": 3,
+   "rp": 12,
+   "mc_family": 2,
+   "mc_formula": 2,
+   "gcd_jn": 1,
+   "mc_members_with_X^j_dividing_P": 2,
+   "mc_members_giving_a_codeword_pair": 2,
+   "joint_agreement_sizes": [
+    8
+   ],
+   "gate_ok": true,
+   "over_agreeing": {},
+   "pencil_max_agreement": 9,
+   "joint_explanation_max": 8,
+   "n_live_slopes": 20,
+   "live_in_minusH": true,
+   "n_live_not_in_minusH": 0,
+   "band_pairs_by_depth": {
+    "4": 2
+   },
+   "N_d_selected": {
+    "4": 2
+   },
+   "N_d_any_exactA_ray": {
+    "4": 2
+   },
+   "L_P_profile": {
+    "4": {
+     "max_selected": 12,
+     "max_any": 12,
+     "sum_selected": 20,
+     "count": 2
+    }
+   },
+   "zeta_violations_at_depth_w": 0,
+   "exclusivity_violations": 0,
+   "N_hminus1_over_family": 1.0,
+   "expected_ray_agreement": 9
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 97,
+   "j": 1,
+   "t": 5,
+   "h": 5,
+   "A": 9,
+   "N": 8,
+   "m": 5,
+   "rp": 10,
+   "mc_family": 7,
+   "mc_formula": 7,
+   "gcd_jn": 1,
+   "mc_members_with_X^j_dividing_P": 7,
+   "mc_members_giving_a_codeword_pair": 7,
+   "joint_agreement_sizes": [
+    6
+   ],
+   "gate_ok": true,
+   "over_agreeing": {},
+   "pencil_max_agreement": 7,
+   "joint_explanation_max": 6,
+   "n_live_slopes": 0,
+   "live_in_minusH": true,
+   "n_live_not_in_minusH": 0,
+   "band_pairs_by_depth": {
+    "2": 7
+   },
+   "N_d_selected": {},
+   "N_d_any_exactA_ray": {},
+   "L_P_profile": {
+    "2": {
+     "max_selected": 0,
+     "max_any": 0,
+     "sum_selected": 0,
+     "count": 7
+    }
+   },
+   "zeta_violations_at_depth_w": 0,
+   "exclusivity_violations": 0
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "w": 2,
+   "M": 2,
+   "q": 193,
+   "j": 1,
+   "t": 4,
+   "h": 4,
+   "A": 8,
+   "N": 8,
+   "m": 5,
+   "rp": 10,
+   "mc_family": 7,
+   "mc_formula": 7,
+   "gcd_jn": 1,
+   "mc_members_with_X^j_dividing_P": 7,
+   "mc_members_giving_a_codeword_pair": 7,
+   "joint_agreement_sizes": [
+    6
+   ],
+   "gate_ok": true,
+   "over_agreeing": {},
+   "pencil_max_agreement": 7,
+   "joint_explanation_max": 6,
+   "n_live_slopes": 0,
+   "live_in_minusH": true,
+   "n_live_not_in_minusH": 0,
+   "band_pairs_by_depth": {
+    "2": 7
+   },
+   "N_d_selected": {},
+   "N_d_any_exactA_ray": {},
+   "L_P_profile": {
+    "2": {
+     "max_selected": 0,
+     "max_any": 0,
+     "sum_selected": 0,
+     "count": 7
+    }
+   },
+   "zeta_violations_at_depth_w": 0,
+   "exclusivity_violations": 0
+  },
+  {
+   "n": 20,
+   "k": 4,
+   "w": 4,
+   "M": 4,
+   "q": 101,
+   "j": 1,
+   "t": 7,
+   "h": 7,
+   "A": 11,
+   "N": 5,
+   "m": 3,
+   "rp": 12,
+   "mc_family": 2,
+   "mc_formula": 2,
+   "gcd_jn": 1,
+   "mc_members_with_X^j_dividing_P": 2,
+   "mc_members_giving_a_codeword_pair": 2,
+   "joint_agreement_sizes": [
+    8
+   ],
+   "gate_ok": true,
+   "over_agreeing": {},
+   "pencil_max_agreement": 9,
+   "joint_explanation_max": 8,
+   "n_live_slopes": 0,
+   "live_in_minusH": true,
+   "n_live_not_in_minusH": 0,
+   "band_pairs_by_depth": {
+    "4": 2
+   },
+   "N_d_selected": {},
+   "N_d_any_exactA_ray": {},
+   "L_P_profile": {
+    "4": {
+     "max_selected": 0,
+     "max_any": 0,
+     "sum_selected": 0,
+     "count": 2
+    }
+   },
+   "zeta_violations_at_depth_w": 0,
+   "exclusivity_violations": 0
+  }
+ ],
+ "checks": 109,
+ "fails": [],
+ "verdict": "PASS"
+}

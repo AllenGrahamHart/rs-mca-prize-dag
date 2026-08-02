@@ -1,0 +1,48 @@
+{
+ "rows": [
+  {
+   "e": 4,
+   "p": 17,
+   "n": 32,
+   "npairs": 16,
+   "A1_per_element_float": 1.2750531114658141,
+   "A1_squared_float": 1.6257604370586538,
+   "A2_per_pair_exact_float": 2.0,
+   "linear_class_exhaustive": 288,
+   "K1_linear_mean_per_pair_float": 1.7433843858482772,
+   "G_sampled": 40000,
+   "G_mean_per_pair_float": 2.333384844449478,
+   "iid_benchmark_generic_per_pair_float": 1.6257604370586538
+  },
+  {
+   "e": 5,
+   "p": 97,
+   "n": 64,
+   "npairs": 32,
+   "A1_per_element_float": 1.2732951951544713,
+   "A1_squared_float": 1.6212806540034632,
+   "A2_per_pair_exact_float": 2.0,
+   "linear_class_exhaustive": 9408,
+   "K1_linear_mean_per_pair_float": 1.9790806830379395,
+   "G_sampled": 40000,
+   "G_mean_per_pair_float": 1.906705536511916,
+   "iid_benchmark_generic_per_pair_float": 1.6212806540034632
+  },
+  {
+   "e": 6,
+   "p": 193,
+   "n": 128,
+   "npairs": 64,
+   "A1_per_element_float": 1.2732536015641256,
+   "A1_squared_float": 1.6211747338960172,
+   "A2_per_pair_exact_float": 2.0,
+   "linear_class_exhaustive": 37248,
+   "K1_linear_mean_per_pair_float": 2.216211414430072,
+   "G_sampled": 40000,
+   "G_mean_per_pair_float": 1.7004551973975033,
+   "iid_benchmark_generic_per_pair_float": 1.6211747338960172
+  }
+ ],
+ "k1_target": 2.0,
+ "generic_target": 1.6211389382774046
+}

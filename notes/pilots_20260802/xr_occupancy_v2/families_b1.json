@@ -1,0 +1,889 @@
+{
+ "b1": [
+  {
+   "shape": {
+    "n": 20,
+    "k": 4,
+    "t": 4,
+    "q": 241
+   },
+   "R": 16,
+   "two_R": 32,
+   "ceiling_slopes_fixed": 3,
+   "ceiling_slopes_free": 5,
+   "depths": [
+    {
+     "d": 1,
+     "ladder": [
+      {
+       "M": 1,
+       "rows": 10,
+       "rank": 8,
+       "predicted": 8,
+       "full": true,
+       "realisable": true,
+       "free_dims": 24
+      },
+      {
+       "M": 2,
+       "rows": 20,
+       "rank": 16,
+       "predicted": 16,
+       "full": true,
+       "realisable": true,
+       "free_dims": 16
+      },
+      {
+       "M": 3,
+       "rows": 30,
+       "rank": 24,
+       "predicted": 24,
+       "full": true,
+       "realisable": true,
+       "free_dims": 8
+      },
+      {
+       "M": 4,
+       "rows": 40,
+       "rank": 28,
+       "predicted": 32,
+       "full": false,
+       "realisable": true,
+       "free_dims": 4
+      },
+      {
+       "M": 5,
+       "rows": 50,
+       "rank": 29,
+       "predicted": 32,
+       "full": false,
+       "realisable": true,
+       "free_dims": 3
+      },
+      {
+       "M": 6,
+       "rows": 60,
+       "rank": 32,
+       "predicted": 32,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      },
+      {
+       "M": 7,
+       "rows": 70,
+       "rank": 32,
+       "predicted": 32,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      },
+      {
+       "M": 8,
+       "rows": 80,
+       "rank": 32,
+       "predicted": 32,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      }
+     ]
+    },
+    {
+     "d": 2,
+     "ladder": [
+      {
+       "M": 1,
+       "rows": 12,
+       "rank": 8,
+       "predicted": 8,
+       "full": true,
+       "realisable": true,
+       "free_dims": 24
+      },
+      {
+       "M": 2,
+       "rows": 24,
+       "rank": 16,
+       "predicted": 16,
+       "full": true,
+       "realisable": true,
+       "free_dims": 16
+      },
+      {
+       "M": 3,
+       "rows": 36,
+       "rank": 24,
+       "predicted": 24,
+       "full": true,
+       "realisable": true,
+       "free_dims": 8
+      },
+      {
+       "M": 4,
+       "rows": 48,
+       "rank": 27,
+       "predicted": 32,
+       "full": false,
+       "realisable": true,
+       "free_dims": 5
+      },
+      {
+       "M": 5,
+       "rows": 60,
+       "rank": 30,
+       "predicted": 32,
+       "full": false,
+       "realisable": true,
+       "free_dims": 2
+      },
+      {
+       "M": 6,
+       "rows": 72,
+       "rank": 32,
+       "predicted": 32,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      },
+      {
+       "M": 7,
+       "rows": 84,
+       "rank": 32,
+       "predicted": 32,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      },
+      {
+       "M": 8,
+       "rows": 96,
+       "rank": 32,
+       "predicted": 32,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 5,
+    "t": 5,
+    "q": 241
+   },
+   "R": 19,
+   "two_R": 38,
+   "ceiling_slopes_fixed": 3,
+   "ceiling_slopes_free": 4,
+   "depths": [
+    {
+     "d": 1,
+     "ladder": [
+      {
+       "M": 1,
+       "rows": 12,
+       "rank": 10,
+       "predicted": 10,
+       "full": true,
+       "realisable": true,
+       "free_dims": 28
+      },
+      {
+       "M": 2,
+       "rows": 24,
+       "rank": 20,
+       "predicted": 20,
+       "full": true,
+       "realisable": true,
+       "free_dims": 18
+      },
+      {
+       "M": 3,
+       "rows": 36,
+       "rank": 30,
+       "predicted": 30,
+       "full": true,
+       "realisable": true,
+       "free_dims": 8
+      },
+      {
+       "M": 4,
+       "rows": 48,
+       "rank": 35,
+       "predicted": 38,
+       "full": false,
+       "realisable": true,
+       "free_dims": 3
+      },
+      {
+       "M": 5,
+       "rows": 60,
+       "rank": 38,
+       "predicted": 38,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      },
+      {
+       "M": 6,
+       "rows": 72,
+       "rank": 38,
+       "predicted": 38,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      },
+      {
+       "M": 7,
+       "rows": 84,
+       "rank": 38,
+       "predicted": 38,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      }
+     ]
+    },
+    {
+     "d": 2,
+     "ladder": [
+      {
+       "M": 1,
+       "rows": 14,
+       "rank": 10,
+       "predicted": 10,
+       "full": true,
+       "realisable": true,
+       "free_dims": 28
+      },
+      {
+       "M": 2,
+       "rows": 28,
+       "rank": 20,
+       "predicted": 20,
+       "full": true,
+       "realisable": true,
+       "free_dims": 18
+      },
+      {
+       "M": 3,
+       "rows": 42,
+       "rank": 30,
+       "predicted": 30,
+       "full": true,
+       "realisable": true,
+       "free_dims": 8
+      },
+      {
+       "M": 4,
+       "rows": 56,
+       "rank": 35,
+       "predicted": 38,
+       "full": false,
+       "realisable": true,
+       "free_dims": 3
+      },
+      {
+       "M": 5,
+       "rows": 70,
+       "rank": 38,
+       "predicted": 38,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      },
+      {
+       "M": 6,
+       "rows": 84,
+       "rank": 38,
+       "predicted": 38,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      },
+      {
+       "M": 7,
+       "rows": 98,
+       "rank": 38,
+       "predicted": 38,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      }
+     ]
+    },
+    {
+     "d": 3,
+     "ladder": [
+      {
+       "M": 1,
+       "rows": 16,
+       "rank": 10,
+       "predicted": 10,
+       "full": true,
+       "realisable": true,
+       "free_dims": 28
+      },
+      {
+       "M": 2,
+       "rows": 32,
+       "rank": 20,
+       "predicted": 20,
+       "full": true,
+       "realisable": true,
+       "free_dims": 18
+      },
+      {
+       "M": 3,
+       "rows": 48,
+       "rank": 30,
+       "predicted": 30,
+       "full": true,
+       "realisable": true,
+       "free_dims": 8
+      },
+      {
+       "M": 4,
+       "rows": 64,
+       "rank": 34,
+       "predicted": 38,
+       "full": false,
+       "realisable": true,
+       "free_dims": 4
+      },
+      {
+       "M": 5,
+       "rows": 80,
+       "rank": 36,
+       "predicted": 38,
+       "full": false,
+       "realisable": true,
+       "free_dims": 2
+      },
+      {
+       "M": 6,
+       "rows": 96,
+       "rank": 38,
+       "predicted": 38,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      },
+      {
+       "M": 7,
+       "rows": 112,
+       "rank": 38,
+       "predicted": 38,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "shape": {
+    "n": 28,
+    "k": 6,
+    "t": 5,
+    "q": 257
+   },
+   "R": 22,
+   "two_R": 44,
+   "ceiling_slopes_fixed": 4,
+   "ceiling_slopes_free": 5,
+   "depths": [
+    {
+     "d": 1,
+     "ladder": [
+      {
+       "M": 1,
+       "rows": 12,
+       "rank": 10,
+       "predicted": 10,
+       "full": true,
+       "realisable": true,
+       "free_dims": 34
+      },
+      {
+       "M": 2,
+       "rows": 24,
+       "rank": 20,
+       "predicted": 20,
+       "full": true,
+       "realisable": true,
+       "free_dims": 24
+      },
+      {
+       "M": 3,
+       "rows": 36,
+       "rank": 30,
+       "predicted": 30,
+       "full": true,
+       "realisable": true,
+       "free_dims": 14
+      },
+      {
+       "M": 4,
+       "rows": 48,
+       "rank": 40,
+       "predicted": 40,
+       "full": true,
+       "realisable": true,
+       "free_dims": 4
+      },
+      {
+       "M": 5,
+       "rows": 60,
+       "rank": 44,
+       "predicted": 44,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      },
+      {
+       "M": 6,
+       "rows": 72,
+       "rank": 43,
+       "predicted": 44,
+       "full": false,
+       "realisable": true,
+       "free_dims": 1
+      },
+      {
+       "M": 7,
+       "rows": 84,
+       "rank": 43,
+       "predicted": 44,
+       "full": false,
+       "realisable": true,
+       "free_dims": 1
+      },
+      {
+       "M": 8,
+       "rows": 96,
+       "rank": 43,
+       "predicted": 44,
+       "full": false,
+       "realisable": true,
+       "free_dims": 1
+      }
+     ]
+    },
+    {
+     "d": 2,
+     "ladder": [
+      {
+       "M": 1,
+       "rows": 14,
+       "rank": 10,
+       "predicted": 10,
+       "full": true,
+       "realisable": true,
+       "free_dims": 34
+      },
+      {
+       "M": 2,
+       "rows": 28,
+       "rank": 20,
+       "predicted": 20,
+       "full": true,
+       "realisable": true,
+       "free_dims": 24
+      },
+      {
+       "M": 3,
+       "rows": 42,
+       "rank": 30,
+       "predicted": 30,
+       "full": true,
+       "realisable": true,
+       "free_dims": 14
+      },
+      {
+       "M": 4,
+       "rows": 56,
+       "rank": 37,
+       "predicted": 40,
+       "full": false,
+       "realisable": true,
+       "free_dims": 7
+      },
+      {
+       "M": 5,
+       "rows": 70,
+       "rank": 40,
+       "predicted": 44,
+       "full": false,
+       "realisable": true,
+       "free_dims": 4
+      },
+      {
+       "M": 6,
+       "rows": 84,
+       "rank": 43,
+       "predicted": 44,
+       "full": false,
+       "realisable": true,
+       "free_dims": 1
+      },
+      {
+       "M": 7,
+       "rows": 98,
+       "rank": 41,
+       "predicted": 44,
+       "full": false,
+       "realisable": true,
+       "free_dims": 3
+      },
+      {
+       "M": 8,
+       "rows": 112,
+       "rank": 44,
+       "predicted": 44,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      }
+     ]
+    },
+    {
+     "d": 3,
+     "ladder": [
+      {
+       "M": 1,
+       "rows": 16,
+       "rank": 10,
+       "predicted": 10,
+       "full": true,
+       "realisable": true,
+       "free_dims": 34
+      },
+      {
+       "M": 2,
+       "rows": 32,
+       "rank": 20,
+       "predicted": 20,
+       "full": true,
+       "realisable": true,
+       "free_dims": 24
+      },
+      {
+       "M": 3,
+       "rows": 48,
+       "rank": 30,
+       "predicted": 30,
+       "full": true,
+       "realisable": true,
+       "free_dims": 14
+      },
+      {
+       "M": 4,
+       "rows": 64,
+       "rank": 40,
+       "predicted": 40,
+       "full": true,
+       "realisable": true,
+       "free_dims": 4
+      },
+      {
+       "M": 5,
+       "rows": 80,
+       "rank": 40,
+       "predicted": 44,
+       "full": false,
+       "realisable": true,
+       "free_dims": 4
+      },
+      {
+       "M": 6,
+       "rows": 96,
+       "rank": 41,
+       "predicted": 44,
+       "full": false,
+       "realisable": true,
+       "free_dims": 3
+      },
+      {
+       "M": 7,
+       "rows": 112,
+       "rank": 44,
+       "predicted": 44,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      },
+      {
+       "M": 8,
+       "rows": 128,
+       "rank": 43,
+       "predicted": 44,
+       "full": false,
+       "realisable": true,
+       "free_dims": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "shape": {
+    "n": 24,
+    "k": 4,
+    "t": 6,
+    "q": 241
+   },
+   "R": 20,
+   "two_R": 40,
+   "ceiling_slopes_fixed": 3,
+   "ceiling_slopes_free": 3,
+   "depths": [
+    {
+     "d": 1,
+     "ladder": [
+      {
+       "M": 1,
+       "rows": 14,
+       "rank": 12,
+       "predicted": 12,
+       "full": true,
+       "realisable": true,
+       "free_dims": 28
+      },
+      {
+       "M": 2,
+       "rows": 28,
+       "rank": 24,
+       "predicted": 24,
+       "full": true,
+       "realisable": true,
+       "free_dims": 16
+      },
+      {
+       "M": 3,
+       "rows": 42,
+       "rank": 36,
+       "predicted": 36,
+       "full": true,
+       "realisable": true,
+       "free_dims": 4
+      },
+      {
+       "M": 4,
+       "rows": 56,
+       "rank": 40,
+       "predicted": 40,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      },
+      {
+       "M": 5,
+       "rows": 70,
+       "rank": 40,
+       "predicted": 40,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      }
+     ]
+    },
+    {
+     "d": 2,
+     "ladder": [
+      {
+       "M": 1,
+       "rows": 16,
+       "rank": 12,
+       "predicted": 12,
+       "full": true,
+       "realisable": true,
+       "free_dims": 28
+      },
+      {
+       "M": 2,
+       "rows": 32,
+       "rank": 24,
+       "predicted": 24,
+       "full": true,
+       "realisable": true,
+       "free_dims": 16
+      },
+      {
+       "M": 3,
+       "rows": 48,
+       "rank": 36,
+       "predicted": 36,
+       "full": true,
+       "realisable": true,
+       "free_dims": 4
+      },
+      {
+       "M": 4,
+       "rows": 64,
+       "rank": 40,
+       "predicted": 40,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      },
+      {
+       "M": 5,
+       "rows": 80,
+       "rank": 40,
+       "predicted": 40,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      }
+     ]
+    },
+    {
+     "d": 3,
+     "ladder": [
+      {
+       "M": 1,
+       "rows": 18,
+       "rank": 12,
+       "predicted": 12,
+       "full": true,
+       "realisable": true,
+       "free_dims": 28
+      },
+      {
+       "M": 2,
+       "rows": 36,
+       "rank": 24,
+       "predicted": 24,
+       "full": true,
+       "realisable": true,
+       "free_dims": 16
+      },
+      {
+       "M": 3,
+       "rows": 54,
+       "rank": 36,
+       "predicted": 36,
+       "full": true,
+       "realisable": true,
+       "free_dims": 4
+      },
+      {
+       "M": 4,
+       "rows": 72,
+       "rank": 37,
+       "predicted": 40,
+       "full": false,
+       "realisable": true,
+       "free_dims": 3
+      },
+      {
+       "M": 5,
+       "rows": 90,
+       "rank": 40,
+       "predicted": 40,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      },
+      {
+       "M": 6,
+       "rows": 108,
+       "rank": 40,
+       "predicted": 40,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      }
+     ]
+    },
+    {
+     "d": 4,
+     "ladder": [
+      {
+       "M": 1,
+       "rows": 20,
+       "rank": 12,
+       "predicted": 12,
+       "full": true,
+       "realisable": true,
+       "free_dims": 28
+      },
+      {
+       "M": 2,
+       "rows": 40,
+       "rank": 24,
+       "predicted": 24,
+       "full": true,
+       "realisable": true,
+       "free_dims": 16
+      },
+      {
+       "M": 3,
+       "rows": 60,
+       "rank": 34,
+       "predicted": 36,
+       "full": false,
+       "realisable": true,
+       "free_dims": 6
+      },
+      {
+       "M": 4,
+       "rows": 80,
+       "rank": 40,
+       "predicted": 40,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      },
+      {
+       "M": 5,
+       "rows": 100,
+       "rank": 40,
+       "predicted": 40,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      },
+      {
+       "M": 6,
+       "rows": 120,
+       "rank": 40,
+       "predicted": 40,
+       "full": true,
+       "realisable": false,
+       "free_dims": 0
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "_checks": 24,
+ "_failures": [
+  "B1 n=20 k=4 h=4 d=1: spread family rank = min(2hM, 2R) at every M [(1, 8, 8), (2, 16, 16), (3, 24, 24), (4, 28, 32), (5, 29, 32), (6, 32, 32), (7, 32, 32), (8, 32, 32)]",
+  "B1 n=20 h=4 d=1: max realisable M = 5 <= ceiling 3 ",
+  "B1 n=20 k=4 h=4 d=2: spread family rank = min(2hM, 2R) at every M [(1, 8, 8), (2, 16, 16), (3, 24, 24), (4, 27, 32), (5, 30, 32), (6, 32, 32), (7, 32, 32), (8, 32, 32)]",
+  "B1 n=20 h=4 d=2: max realisable M = 5 <= ceiling 3 ",
+  "B1 n=24 k=5 h=5 d=1: spread family rank = min(2hM, 2R) at every M [(1, 10, 10), (2, 20, 20), (3, 30, 30), (4, 35, 38), (5, 38, 38), (6, 38, 38), (7, 38, 38)]",
+  "B1 n=24 h=5 d=1: max realisable M = 4 <= ceiling 3 ",
+  "B1 n=24 k=5 h=5 d=2: spread family rank = min(2hM, 2R) at every M [(1, 10, 10), (2, 20, 20), (3, 30, 30), (4, 35, 38), (5, 38, 38), (6, 38, 38), (7, 38, 38)]",
+  "B1 n=24 h=5 d=2: max realisable M = 4 <= ceiling 3 ",
+  "B1 n=24 k=5 h=5 d=3: spread family rank = min(2hM, 2R) at every M [(1, 10, 10), (2, 20, 20), (3, 30, 30), (4, 34, 38), (5, 36, 38), (6, 38, 38), (7, 38, 38)]",
+  "B1 n=24 h=5 d=3: max realisable M = 5 <= ceiling 3 ",
+  "B1 n=28 k=6 h=5 d=1: spread family rank = min(2hM, 2R) at every M [(1, 10, 10), (2, 20, 20), (3, 30, 30), (4, 40, 40), (5, 44, 44), (6, 43, 44), (7, 43, 44), (8, 43, 44)]",
+  "B1 n=28 h=5 d=1: max realisable M = 8 <= ceiling 4 ",
+  "B1 n=28 k=6 h=5 d=2: spread family rank = min(2hM, 2R) at every M [(1, 10, 10), (2, 20, 20), (3, 30, 30), (4, 37, 40), (5, 40, 44), (6, 43, 44), (7, 41, 44), (8, 44, 44)]",
+  "B1 n=28 h=5 d=2: max realisable M = 7 <= ceiling 4 ",
+  "B1 n=28 k=6 h=5 d=3: spread family rank = min(2hM, 2R) at every M [(1, 10, 10), (2, 20, 20), (3, 30, 30), (4, 40, 40), (5, 40, 44), (6, 41, 44), (7, 44, 44), (8, 43, 44)]",
+  "B1 n=28 h=5 d=3: max realisable M = 8 <= ceiling 4 ",
+  "B1 n=24 k=4 h=6 d=3: spread family rank = min(2hM, 2R) at every M [(1, 12, 12), (2, 24, 24), (3, 36, 36), (4, 37, 40), (5, 40, 40), (6, 40, 40)]",
+  "B1 n=24 h=6 d=3: max realisable M = 4 <= ceiling 3 ",
+  "B1 n=24 k=4 h=6 d=4: spread family rank = min(2hM, 2R) at every M [(1, 12, 12), (2, 24, 24), (3, 34, 36), (4, 40, 40), (5, 40, 40), (6, 40, 40)]"
+ ]
+}

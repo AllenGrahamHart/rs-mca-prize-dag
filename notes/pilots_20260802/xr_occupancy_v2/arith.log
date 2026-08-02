@@ -1,0 +1,79 @@
+
+=== D1  two-slope ceilings at the six rows ===
+row                    h              R   ceil 2h  ceil 2h-2   ceil h  sunflower     0.68n^2
+RowC 1/4               5            768       153        191      307        256   7.130e+05
+RowC 1/8               5            896       179        223      358        299   7.130e+05
+RowC 1/16              3            960       319        479      639        480   7.130e+05
+prize 1/4     8589934593  1649267441664       191        191      383        383   3.288e+24
+prize 1/8     8589934593  1924145348608       223        223      447        447   3.288e+24
+prize 1/16    4294967297  2061584302080       479        479      959        959   3.288e+24
+
+  ledger column  sum_d N_d L(d)  under N_d <= ceiling(2h-2):
+   RowC 1/4    sum_d L(d) = 8.280000e+02   column = 1.581480e+05   13n^3 = 1.395864e+10   fits=True  margin 2^16.4
+PASS D1 RowC 1/4: designed two-slope ceiling fits the 13n^3 headroom
+PASS D1 RowC 1/4: designed ceiling 191 << 0.68n^2
+   RowC 1/8    sum_d L(d) = 9.670000e+02   column = 2.156410e+05   13n^3 = 1.395864e+10   fits=True  margin 2^16.0
+PASS D1 RowC 1/8: designed two-slope ceiling fits the 13n^3 headroom
+PASS D1 RowC 1/8: designed ceiling 223 << 0.68n^2
+   RowC 1/16   sum_d L(d) = 4.790000e+02   column = 2.294410e+05   13n^3 = 1.395864e+10   fits=True  margin 2^15.9
+PASS D1 RowC 1/16: designed two-slope ceiling fits the 13n^3 headroom
+PASS D1 RowC 1/16: designed ceiling 479 << 0.68n^2
+   prize 1/4   sum_d L(d) = 3.683927e+13   column = 7.036300e+15   13n^3 = 1.382397e+38   fits=True  margin 2^74.1
+PASS D1 prize 1/4: designed two-slope ceiling fits the 13n^3 headroom
+PASS D1 prize 1/4: designed ceiling 191 << 0.68n^2
+   prize 1/8   sum_d L(d) = 4.301057e+13   column = 9.591358e+15   13n^3 = 1.382397e+38   fits=True  margin 2^73.6
+PASS D1 prize 1/8: designed two-slope ceiling fits the 13n^3 headroom
+PASS D1 prize 1/8: designed ceiling 223 << 0.68n^2
+   prize 1/16  sum_d L(d) = 4.476450e+13   column = 2.144219e+16   13n^3 = 1.382397e+38   fits=True  margin 2^72.4
+PASS D1 prize 1/16: designed two-slope ceiling fits the 13n^3 headroom
+PASS D1 prize 1/16: designed ceiling 479 << 0.68n^2
+
+=== D2  first moment == (designs) x q^{-codim}, codim = 2h-2 ===
+  RowC 1/4    codim=2h-2=8: d=1: log2 E[N_d]=-1154  d=2: log2 E[N_d]=-1168  d=3: log2 E[N_d]=-1182
+  RowC 1/8    codim=2h-2=8: d=1: log2 E[N_d]=-1425  d=2: log2 E[N_d]=-1438  d=3: log2 E[N_d]=-1452
+  RowC 1/16   codim=2h-2=4: d=1: log2 E[N_d]=-642.4
+  prize 1/4   codim=2h-2=17179869184: d=1: log2 E[N_d]=-2.459e+12  d=2: log2 E[N_d]=-2.459e+12  d=4294967296: log2 E[N_d]=-2.521e+12  d=8589934590: log2 E[N_d]=-2.601e+12  d=8589934591: log2 E[N_d]=-2.601e+12
+  prize 1/8   codim=2h-2=17179869184: d=1: log2 E[N_d]=-3.044e+12  d=2: log2 E[N_d]=-3.044e+12  d=4294967296: log2 E[N_d]=-3.103e+12  d=8589934590: log2 E[N_d]=-3.179e+12  d=8589934591: log2 E[N_d]=-3.179e+12
+  prize 1/16  codim=2h-2=8589934592: d=1: log2 E[N_d]=-1.368e+12  d=2: log2 E[N_d]=-1.368e+12  d=2147483648: log2 E[N_d]=-1.4e+12  d=4294967294: log2 E[N_d]=-1.441e+12  d=4294967295: log2 E[N_d]=-1.441e+12
+PASS D2 RowC 1/4: first-moment q-exponent 2d + 2(h-d-1) = 2h-2 = 8 independent of d
+PASS D2 RowC 1/8: first-moment q-exponent 2d + 2(h-d-1) = 2h-2 = 8 independent of d
+PASS D2 RowC 1/16: first-moment q-exponent 2d + 2(h-d-1) = 2h-2 = 4 independent of d
+PASS D2 prize 1/4: first-moment q-exponent 2d + 2(h-d-1) = 2h-2 = 17179869184 independent of d
+PASS D2 prize 1/8: first-moment q-exponent 2d + 2(h-d-1) = 2h-2 = 17179869184 independent of d
+PASS D2 prize 1/16: first-moment q-exponent 2d + 2(h-d-1) = 2h-2 = 8589934592 independent of d
+
+=== D3  how weak a cost floor suffices ===
+  RowC 1/4    N_d <= 0.68n^2 = 7.1303e+05 follows from rank >= 2.1528e-03 * M, i.e. ONE fresh condition per 4.6452e+02 pairs
+  RowC 1/8    N_d <= 0.68n^2 = 7.1303e+05 follows from rank >= 2.5118e-03 * M, i.e. ONE fresh condition per 3.9812e+02 pairs
+  RowC 1/16   N_d <= 0.68n^2 = 7.1303e+05 follows from rank >= 2.6913e-03 * M, i.e. ONE fresh condition per 3.7156e+02 pairs
+  prize 1/4   N_d <= 0.68n^2 = 3.2883e+24 follows from rank >= 1.0031e-12 * M, i.e. ONE fresh condition per 9.9689e+11 pairs
+  prize 1/8   N_d <= 0.68n^2 = 3.2883e+24 follows from rank >= 1.1703e-12 * M, i.e. ONE fresh condition per 8.5448e+11 pairs
+  prize 1/16  N_d <= 0.68n^2 = 3.2883e+24 follows from rank >= 1.2539e-12 * M, i.e. ONE fresh condition per 7.9751e+11 pairs
+
+=== D4  MC quantisation: admissible (w, M) and the band ===
+  RowC 1/4    h=5: admissible w = [1, 2, 4]  cascade w=h-1=4 admissible=True  max in-band w=2 -> 3 coincidences per live slope
+                log2|MC| = 403.3, log2 E[N_w with 2 live slopes] = -569.365
+PASS D4 RowC 1/4: MC's cascade-tier w = h-1 is admissible
+PASS D4 RowC 1/4: every in-band admissible w leaves >= (h+1)/2 coincidences per live slope  [h-w = 3]
+  RowC 1/8    h=5: admissible w = [1, 2, 4]  cascade w=h-1=4 admissible=True  max in-band w=2 -> 3 coincidences per live slope
+                log2|MC| = 267.9, log2 E[N_w with 2 live slopes] = -703.496
+PASS D4 RowC 1/8: MC's cascade-tier w = h-1 is admissible
+PASS D4 RowC 1/8: every in-band admissible w leaves >= (h+1)/2 coincidences per live slope  [h-w = 3]
+  RowC 1/16   h=3: admissible w = [1, 2]  cascade w=h-1=2 admissible=True  max in-band w=1 -> 2 coincidences per live slope
+                log2|MC| = 335, log2 E[N_w with 2 live slopes] = -140.393
+PASS D4 RowC 1/16: MC's cascade-tier w = h-1 is admissible
+PASS D4 RowC 1/16: every in-band admissible w leaves >= (h+1)/2 coincidences per live slope  [h-w = 2]
+  prize 1/4   h=8589934593: admissible w = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]...  cascade w=h-1=8589934592 admissible=True  max in-band w=4294967296 -> 4294967297 coincidences per live slope
+                log2|MC| = 403.3, log2 E[N_w with 2 live slopes] = -2.11293e+12
+PASS D4 prize 1/4: MC's cascade-tier w = h-1 is admissible
+PASS D4 prize 1/4: every in-band admissible w leaves >= (h+1)/2 coincidences per live slope  [h-w = 4294967297]
+  prize 1/8   h=8589934593: admissible w = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]...  cascade w=h-1=8589934592 admissible=True  max in-band w=4294967296 -> 4294967297 coincidences per live slope
+                log2|MC| = 267.9, log2 E[N_w with 2 live slopes] = -2.11102e+12
+PASS D4 prize 1/8: MC's cascade-tier w = h-1 is admissible
+PASS D4 prize 1/8: every in-band admissible w leaves >= (h+1)/2 coincidences per live slope  [h-w = 4294967297]
+  prize 1/16  h=4294967297: admissible w = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]...  cascade w=h-1=4294967296 admissible=True  max in-band w=2147483648 -> 2147483649 coincidences per live slope
+                log2|MC| = 335, log2 E[N_w with 2 live slopes] = -1.05078e+12
+PASS D4 prize 1/16: MC's cascade-tier w = h-1 is admissible
+PASS D4 prize 1/16: every in-band admissible w leaves >= (h+1)/2 coincidences per live slope  [h-w = 2147483649]
+
+checks=30 failures=0

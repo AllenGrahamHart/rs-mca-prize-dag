@@ -94,3 +94,14 @@ Full junction-0 rho distribution recomputed independently over all 2^{phi(n)} su
 8. A real bug found and fixed mid-pilot (pair-census sieve bound), caught by a cross-check; recorded.
 9. Junction count follows the banked official_scale.json (33 junctions); a 34th-block reading gives E_min = 16 at the exhibit — not used in headlines.
 10. Norm(alpha) != 0 needs the support inside the basis range — true by construction in the tower; THE hypothesis that would break everything if a future seam folded cells onto opposite pairs.
+
+---
+
+**[CORRECTION OF RECORD 2026-08-02, from the mint-prep audit]:** the
+persisted artifacts (analysis.json + the six splitting_*.json) record
+**1960 rows / 63 deviating** (the text above says 1930/53) and
+tower.json sums to **2,453 router-empty states** (text says 2,053).
+The artifacts are the record. Additionally: of the 63 deviating rows,
+54 have a banked maxnorm and none satisfies S3's condition; the 9
+n=128 rows leave S3 UNTESTED there (not confirmed). No verdict
+changes.
