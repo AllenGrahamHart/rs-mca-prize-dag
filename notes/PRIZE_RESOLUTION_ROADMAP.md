@@ -14861,3 +14861,26 @@ nonclaim:                 no guard unit/norm, exceptional-fiber locus,
 next route-deciding step: translate the named source guards into s, compute
                           factor-by-factor norms, then append colored BE
 ```
+
+### Work-cycle theorem: positive 433-1a generic guard units
+
+```text
+node/workboard attacked:  K3 / cell-5 squared signed-pair guard components
+result:                   PROVED no whole residue factor is guard-degenerate
+DAG delta:                +1 PROVED background node, +1 req, +1 ev edge
+residue factors:          5
+declared common guards:   22 per factor
+outside squared guards:   xj, xj-1, xj-t^4, xj-r^4 for j=0,1
+exact checks:             5 x 30 = 150 nonzero specialized remainders
+regular fiber:            t=2; all factor/map/lift denominators invertible
+ledger hash:              a48d3a028d422b19edda8d6ecac1f663bf2710fbc491a492b660b6b6e264bcb6
+exact consequence:        every named guard is a unit in every generic
+                          field K[s]/(phi_j)
+hostile audit:            rejects altered coordinate, factor, and atlas
+remote cost:              none
+nonclaim:                 no guard norm or exceptional-fiber classification,
+                          source-square lift, unsquared sign/distinctness,
+                          colored edge, route, K3, or Prize close
+next route-deciding step: append the generic colored BE condition on all
+                          five fields; reserve norm zeros for exceptions
+```

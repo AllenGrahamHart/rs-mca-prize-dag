@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/verify.py",
-      "seconds": 5.175934,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/verify.py",
+      "seconds": 6.22678,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1A_CELL5_PRIMITIVE_COORDINATE_MAP_PASS maps=b,x0,x1 degrees=0..23 max_t_degree=1046 identity=x1+2*x0+3*b=s specialized_action_fiber=2 map_sha256=001c959648176669651c87a913f2c830ad425a4f1e240041cc4edeb63d69a009 columns_sha256=f5bfdb6cb515b6bbe54fa1abd19d1517759b0a584f501aa308e76f68e1ff1e25\n"
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1A_CELL5_GENERIC_GUARD_UNITS_PASS factors=5 common_guards=22 outside_squared_guards=8 checks=150 fiber=2 ledger_sha256=a48d3a028d422b19edda8d6ecac1f663bf2710fbc491a492b660b6b6e264bcb6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/verify_audit.py",
-      "seconds": 5.621972,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/verify_audit.py",
+      "seconds": 13.229447,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1A_CELL5_PRIMITIVE_COORDINATE_MAP_MUTATION_PASS rejected=dropped_coordinate,changed_coefficient,changed_provenance,changed_column\npositive 433-1a cell-5 signed-pair primitive-coordinate-map audit verified\n"
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1A_CELL5_GENERIC_GUARD_UNITS_MUTATION_PASS rejected=changed_coordinate,changed_factor,changed_atlas\npositive 433-1a cell-5 signed-pair generic-guard-unit audit verified\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

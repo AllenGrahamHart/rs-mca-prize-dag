@@ -11508,3 +11508,19 @@ Requested next computation:
 Do not recompute the stable basis, primitive polynomial, factorization, or
 coordinate maps.  Do not infer a source-root lift or component deletion from
 the squared coordinate formulas alone.
+
+### 2026-08-02 generic guard-unit completion
+
+Whole-component guard degeneration is now excluded without a remote run.
+At the exact regular fiber `t=2`, the five primitive factors, exact
+`b,x0,x1` maps, and chart-2 `r,c` lift give 150 nonzero remainders:
+22 declared common-chart guards and eight necessary squared
+outside-incidence guards on each factor.  The canonical ledger hash is
+`a48d3a028d422b19edda8d6ecac1f663bf2710fbc491a492b660b6b6e264bcb6`.
+Therefore all 30 elements are units over `F_p(t)` in every residue field.
+
+This does not print their rational norms or classify the finite
+exceptional-`t` zeros.  The preferred next route-deciding computation is
+the generic colored `BE` restriction on all five fields, with exceptional
+guard-norm fibers kept as a separate ledger.  Do not spend a broad campaign
+computing all 30 norms unless the colored restriction survives generically.

@@ -21264,6 +21264,28 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger",
+   "title": "KoalaBear positive 433-1a cell-5 signed-pair generic guard-unit ledger",
+   "status": "PROVED",
+   "closure": "all 30 named generic guard elements are units on all five residue fields",
+   "statement": "In every one of the five deployed chart-2 generic squared DE+/DE- residue fields, all 22 declared common-chart guards and the eight necessary squared outside-incidence guards x_j, x_j-1, x_j-t^4, x_j-r^4 for j=0,1 are nonzero and hence units. An exact regular t=2 specialization checks 150 nonzero remainders after reconstructing r,c from the proved lift atlas. This does not compute guard norms or exceptional fibers, prove source-square lifts or unsquared signs/distinctness, impose the colored edge, delete a cell, route, or K3 row, or prove either Prize result.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/verify_audit.py",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_pair_generic_guard_units.py",
+    "experiments/prize_resolution/audit_rate_half_kb_positive_433_1a_cell5_pair_generic_guard_units.py"
+   ]
+  },
+  {
    "id": "dli_c1_256_block_basis_factorization",
    "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
    "status": "PROVED",
@@ -42076,6 +42098,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
