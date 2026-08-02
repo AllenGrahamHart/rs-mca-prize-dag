@@ -3487,3 +3487,17 @@ out, while a custom SymPy `GF(p)(t)[b]/(P)` implementation stalls in
 rational-function coefficient reduction.  The next compute request is an
 efficient Nemo/FLINT/Magma regular-chain ledger for exactly four generators
 `P,g3,g4,g5`; no larger ambient or longer-cap rerun is justified.
+
+That request has now been completed and pushed through the first colored
+edge.  The PROVED stable-rank, generic-reducedness, primitive-residue,
+coordinate-map, and guard-unit chain decomposes the generic chart-2 squared
+`DE+/DE-` algebra into fields of degrees `4,4,4,8,4`.  The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion`
+then appends the colored `BE` necessary resultant.  Exact Bezout identities
+give common gcd `e^2-1` on all four quartics and gcd one on the octic.  Since
+`e^2-1` is a target-collision guard, the generic `DE+/DE-/BE` family is
+empty.  Do not recompute this generic gcd.  The remaining cell-5 tasks are
+rational `c` charts 3--5 and the finite exceptional-`t` ledger.  There is no
+declared `B <-> C` symmetry, but the separate `DF+/DF-/CF` family need not be
+computed if the `DE+/DE-/BE` family is excluded on all four charts.  No cell,
+route, K3, or Prize closure follows yet.

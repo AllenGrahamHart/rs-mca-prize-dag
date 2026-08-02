@@ -18,6 +18,9 @@ import probe_rate_half_kb_positive_433_1a_cell5_pair_colored_gcd_fiber as fiber
 RESULT = HERE / (
     "rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd_result.json"
 )
+EXPECTED_RESULT_SHA256 = (
+    "710b438062fc2e80f5c7b14ffb987d8f36a02d4b57953b30419bb320b88877a7"
+)
 MAPS = HERE / (
     "rate_half_kb_positive_433_1a_cell5_pair_primitive_coordinate_map_result.json"
 )
@@ -170,7 +173,13 @@ def verify_row(row, generic_factors):
 
 
 def verify(path=RESULT):
-    payload = json.loads(path.read_text())
+    raw = path.read_bytes()
+    if path.resolve() == RESULT.resolve():
+        require(
+            hashlib.sha256(raw).hexdigest() == EXPECTED_RESULT_SHA256,
+            "result packet hash mismatch",
+        )
+    payload = json.loads(raw)
     require(isinstance(payload, list) and len(payload) == 5, "result shard count mismatch")
     require([row["factor"] for row in payload] == list(range(1, 6)),
             "factor coverage mismatch")

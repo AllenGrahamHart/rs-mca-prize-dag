@@ -11605,3 +11605,25 @@ finite subfactor at `t=2`, including the returned Bezout identities.  This
 completes the bounded campaign but does not yet promote a theorem: an
 independent exact audit must reconstruct the DE+/BE polynomials and verify
 the generic identities before the result enters the DAG.
+
+**Registered exact audit.**  At source commit `e774c74a`, run the independent
+packet parser
+`rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd_audit_modal.py`
+on factors `1..5`.  It does not invoke the primary gcd routine: it rebuilds
+each `phi_j`, parses every rational-function coefficient independently, and
+checks the returned Bezout identity and exact common factor in
+`F_p(t)[s]/(phi_j)[e]`.  Five one-CPU/4-GiB shards have 150-second subprocess
+and 180-second function caps; conservative campaign time is three minutes
+and cost is below `$1`.  Each shard returns explicit `COMPLETE`, `TIMEOUT`,
+or `ERROR` telemetry and a program hash; partial output has no status effect.
+The local audit script regenerates every program hash and checks all markers.
+PASS completes the generic certificate audit but still leaves exceptional
+`t` fibers and source-equation provenance as the stated boundaries.
+
+The audit completed in apps `ap-cpk6ggojSG2qXUsMmJ8BP4` (factor 1) and
+`ap-JDaA7cgwB2vcKgfWVNJzvG` (factors 2--5); both stopped normally.  Exact
+function times were `9.26` seconds and `7.92,9.60,13.85,7.96` seconds.
+All five exact generic identities pass.  The audit packet has SHA-256
+`e1651bf40f716eeef1daafab71b0f0b49a010d2d38395aa6ecde1d3e82b7bb81`,
+and its local hash/marker checker passes.  This pays the generic Bezout
+certificate audit; it does not classify exceptional `t` fibers.

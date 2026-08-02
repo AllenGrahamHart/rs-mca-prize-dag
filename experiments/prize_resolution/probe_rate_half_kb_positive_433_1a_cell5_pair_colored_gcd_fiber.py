@@ -3,9 +3,14 @@
 
 import json
 import sys
+import warnings
 from pathlib import Path
 
 import sympy as sp
+from sympy.utilities.exceptions import SymPyDeprecationWarning
+
+
+warnings.filterwarnings("ignore", category=SymPyDeprecationWarning)
 
 
 HERE = Path(__file__).parent

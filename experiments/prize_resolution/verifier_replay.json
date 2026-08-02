@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/verify.py",
-      "seconds": 6.22678,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/verify.py",
+      "seconds": 1.227358,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1A_CELL5_GENERIC_GUARD_UNITS_PASS factors=5 common_guards=22 outside_squared_guards=8 checks=150 fiber=2 ledger_sha256=a48d3a028d422b19edda8d6ecac1f663bf2710fbc491a492b660b6b6e264bcb6\n"
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1A_CELL5_COLORED_GENERIC_GCD_PASS factors=5 gcd_degrees=2,2,2,0,2 guard_part_degrees=2,2,2,0,2 outside_degrees=0,0,0,0,0 specialized_bezout_fiber=2\nRATE_HALF_KB_POSITIVE_433_1A_CELL5_COLORED_GENERIC_GCD_AUDIT_PASS factors=5 commons=e2_minus_1,e2_minus_1,e2_minus_1,one,e2_minus_1\npositive 433-1a cell-5 generic signed-pair colored exclusion verified\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger/verify_audit.py",
-      "seconds": 13.229447,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/verify_audit.py",
+      "seconds": 1.250344,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1A_CELL5_GENERIC_GUARD_UNITS_MUTATION_PASS rejected=changed_coordinate,changed_factor,changed_atlas\npositive 433-1a cell-5 signed-pair generic-guard-unit audit verified\n"
+      "stdout_tail": "positive 433-1a cell-5 generic colored exclusion audit verified mutations=2\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
