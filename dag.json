@@ -21388,6 +21388,52 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion",
+   "title": "KoalaBear positive 433-1a cell-5 raw-basis fiber exclusion",
+   "status": "PROVED",
+   "closure": "the final eight routed basis-specialization fibers are empty",
+   "statement": "Direct fixed-fiber Groebner bases for P,g3,h localized at D0*D1 give quotient dimension 24 at seven routed values and dimension 23 at t=1332924776. Exact multiplication matrices satisfy the defining relations and localization. The form x1+2*x0+b is primitive at every fiber, its distinct irreducible factors cover the raw dimensions, and fresh DE+/DE-/BE replays give 35 gcds one and 80 gcds e^2-1 across 115 rows. Hence all final eight cell-5 sign-row fibers are empty. Other signs/cells, K3, Prize rows, LIST, and MCA remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_raw_fiber_profile_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_raw_fiber_profile_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_raw_fiber_replay_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_raw_fiber_replay_result.json",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_raw_fiber_replay.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion",
+   "title": "KoalaBear positive 433-1a cell-5 complete sign-row exclusion",
+   "status": "PROVED",
+   "closure": "the entire deployed cell-5 sign row (-1,-1) is empty",
+   "statement": "The generic colored exclusion covers every deployed t outside an exact 69-value exceptional router. Three pairwise-disjoint proved finite packets exclude 23, 38, and eight values, and their union is exactly the router. Therefore no admissible deployed-field DE+/DE-/BE packet exists in cell 5 with signs (-1,-1) for any admissible t. Other sign rows and matching cells, cell-5 deletion, K3, Prize rows, LIST, and MCA remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion/verify_audit.py",
+    "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_complete_sign_row.py"
+   ]
+  },
+  {
    "id": "dli_c1_256_block_basis_factorization",
    "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
    "status": "PROVED",
@@ -42315,6 +42361,56 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

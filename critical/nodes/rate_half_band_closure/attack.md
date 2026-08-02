@@ -3519,6 +3519,9 @@ or `e^2-1`, 16 lie on non-base primitive factors, and 34 have only `e=0` or
 `rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion`
 closes the next 38 values: exact `p_u(L)` cancellation removes every map
 pole, two alternate primitive forms cover all fibers, and 804 complete rows
-have gcd `1` (220) or `e^2-1` (584).  Only eight vertical/basis-pole fibers
-remain, including `t=1332924776`; they need raw fixed-fiber squared-pair
-bases.  Do not scan the full field or rerun the generic function-field basis.
+have gcd `1` (220) or `e^2-1` (584).  The PROVED raw-basis child closes the
+final eight: direct quotient dimensions are `24,24,24,23,24,24,24,24`, and
+all 115 rows have gcd `1` (35) or `e^2-1` (80).  The PROVED complete-sign-row
+assembly exhausts the exact `23+38+8=69` router.  Thus cell 5 and signs
+`(-1,-1)` are closed for every deployed `t`; other sign rows/matching cells
+remain.  Do not scan the full field or rerun this sign row.

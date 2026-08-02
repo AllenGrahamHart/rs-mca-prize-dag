@@ -14944,25 +14944,40 @@ dynamic finite close:     38 more router values PROVED empty; forms
 operator packet hash:     139f1367ec799f5884372f0d09841e5593036751dd1ceedf09df5d801879098a
 dynamic packet hash:      1e20aefa7fa7e024ab0c133c961982793c031c5322fb9fc2325cb41215488c73
 vertical obstruction:     t=1332924776 is a simultaneous basis/primitive/
-                          factor/operator pole and needs raw specialization
+                          factor/operator pole; direct raw quotient has the
+                          genuine exceptional dimension 23
+raw finite close:         final 8 router values PROVED empty; quotient
+                          dimensions 24,24,24,23,24,24,24,24; form
+                          x1+2*x0+b is primitive throughout; 115 rows split
+                          as 35 gcd one and 80 gcd e^2-1
+raw profile hash:         7297479e0f5a6bce3b692f1e165470a21cc2dcc853fa6c4898fa19d6059943aa
+raw replay hash:          50b235b26c5734fcb9d7775d4566a5e008d018e6c31b9acd5b9d9b209cac4710
 remaining coefficient
-pole fibers:              8 total, all needing a raw specialized squared-pair
-                          basis
+pole fibers:              0; exact router exhausted as 23+38+8=69
+assembled theorem:        complete deployed cell-5 sign row (-1,-1) PROVED
+                          empty; this does not delete other sign rows/cells
 Modal apps:               ap-gAd7d3ymL70oGLoNDrBPHF (factor-1 smoke),
                           ap-5XAOWJFSEUP1FkcZdt347r (all guard norms),
                           ap-d6th4JfPmb2yuH1sPcuvIy (five pole categories),
                           ap-CNvSR4TZhbGHG1X7moVEi3 (operator poles),
                           ap-rJ3twc1Th4bdEocfVCyDye (coordinate cancellation),
-                          ap-BSuczfzFoMqNRJlhVijVm5 (38-fiber replay)
+                          ap-BSuczfzFoMqNRJlhVijVm5 (38-fiber replay),
+                          ap-xZi2yLxKHwlAybD8j8cKXR (raw profiles),
+                          ap-zgSgZIqu40if7mEjY4wLtH (raw replay)
 failed setup apps:        ap-4K3rkZItfNdVi02OXIjtXy used an unsupported
                           field-element lift; two later replay launches did
                           no remote work because the WSL PID ceiling blocked
-                          the local Modal control thread
+                          the local Modal control thread; raw setup apps
+                          ap-OZy9edcN8f27nVNljQKOxV, ap-icDxtiFVQ8dX44IcpeJZkM,
+                          ap-JbDN2RRYr1cjVYMyIHfBrc, and
+                          ap-pVwkIQzLKtz1ptnTzWPFY3 likewise did no remote
+                          work; using the `ramguard modal` client profile
+                          fixed the launch headroom
 cost discipline:          the new cancellation used three 8 GiB containers
                           for <=266 seconds; replay used eight 2 GiB
                           containers for seconds; campaign cost remains
                           comfortably below $1
-next route-deciding step: build the raw fixed-fiber guarded algebra for the
-                          final eight fibers, then dynamically factor and
-                          replay the colored gcd
+next route-deciding step: use the signed-edge symmetry atlas to identify the
+                          next genuinely different cell-5 sign/matching
+                          representative; do not recompute (-1,-1)
 ```
