@@ -1,0 +1,38 @@
+{
+ "candidate_family_size": 95,
+ "case": "P3",
+ "fibre_shaped_fraction_den": 17542,
+ "fibre_shaped_fraction_num": 3003,
+ "fibre_shaped_witnesses": 3003,
+ "intended_degree_cap": 7,
+ "intended_witness_degree_histogram": {
+  "5": 1,
+  "7": 94
+ },
+ "lex_selected_complete_fibre_count_histogram": {
+  "0": 9,
+  "1": 32,
+  "2": 42,
+  "3": 2,
+  "5": 12
+ },
+ "lex_selected_fibre_shaped": 12,
+ "lex_selected_witness_degree_histogram": {
+  "5": 1,
+  "6": 1,
+  "7": 95
+ },
+ "max_witness_degree_possible": 7,
+ "parameters": {
+  "A": 11,
+  "K": 8,
+  "a": 5,
+  "b": 15,
+  "g": 1,
+  "h": 3,
+  "m": 2,
+  "n": 32,
+  "q": 97
+ },
+ "total_witnesses": 17542
+}

@@ -15,7 +15,8 @@ import json
 import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-CASES = ["P1", "P2", "P3", "P4", "P5", "P6"]
+CASES = ["P1", "P2", "P3", "P4", "P5", "P6", "P7",
+         "P4b", "P4c", "P4d"]
 # competition depth threshold below which a case cannot test the question
 DEEP = 50
 
