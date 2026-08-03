@@ -99,3 +99,23 @@ rows. The banked k <= 2h^2 criterion is refuted (see support-4
 addendum 3). Remaining open channel of item 12': escape-1 only
 (V >= 6 overlapping-block generality also open, but outside the model
 of record).
+
+## Addendum 5 (2026-08-03): channel (ii) resolved; the charge route re-scoped
+
+Escape-1 gate-clean core rays EXIST (unification flag 5 affirmative;
+E1 family, all-escape-1, V >= 3h forced). Protections proved: the
+3-DROP FLOOR (rank >= sum_{a not in K} h + sum_K esc_a + G3, G3 the
+best 3-subset drop — dominates the kernel floor, tight on the
+U-mechanism); charge defeat needs n_1 >= 3h-2 low-escape core rays;
+LEMMA R: rank <= 2m-1 is NECESSARY for band admissibility (rank = 2m
+kills exact-A liveness); every escape-1 counterexample found is
+band-inadmissible. CROSS-CHANNEL CATCH: the zero-escape pencil family
+at V=11 (Zfib11) passes the FULL band gate, realises with exact-A
+agreements, and has charge 0.818 — the per-ray-charge-2 route is
+FALSE for full-gate admissible systems in general; it survives at
+prize-row parameters because every known defeat class needs 2V > 3h
+or n_1 >= 3h-2, both astronomically false there. The occupancy
+lemma's conclusion and the column bound are untouched (Zfib11's own
+ledger: N_d = 0.11 n^2). Heart status: route through admissibility +
+row arithmetic; open = consolidating the general-V admissible case at
+prize rows.

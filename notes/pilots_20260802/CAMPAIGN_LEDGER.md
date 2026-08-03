@@ -624,3 +624,25 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   2V <= 3h; no prize-row number moves. Addenda: support-4 addendum 3,
   definitions addendum 4, TARGET note. Sole remaining heart channel:
   escape-1 (pilot 2/2 running).
+
+## 2026-08-03: round-8 pilot 2/2 BANKED — channel (ii) resolved; ROUND 8 COMPLETE
+
+- **escape1_realizability (Opus) AUDITED + BANKED** (FABLE_AUDIT.md;
+  replay 113/113, 0/12 falsifiers fired, PREREG pre-dated). Channel
+  (ii): escape-1 core rays EXIST gate-clean (flag 5 affirmative; E1
+  all-escape-1 family, V >= 3h forced by LEMMA ALL-1); ONE escape-1
+  ray never defeats charge 2 (3-DROP FLOOR, tight on U-mechanism,
+  predicts its deficit); defeat needs n_1 >= 3h-2; every constructed
+  counterexample band-INADMISSIBLE (LEMMA R: rank <= 2m-1 necessary).
+  CROSS-CHANNEL CATCH: Zfib11 (zero-escape pencil at V=11) passes the
+  FULL gate, realises with exact-A agreements, charge 0.818 — fires
+  the TARGET's own channel-(i) + V>m/2 falsifiers; the charge-2 route
+  is FALSE as a universal for admissible systems; survives at prize
+  rows (2V <= 3h by ~1e8). Reconciled: Zfib11 IS the v5 pencil family
+  (identity Mobius), consistent with the trichotomy and with U5.
+  Occupancy conclusion + column bound untouched (N_d = 0.11 n^2).
+  New floors of record: THEOREM D (3-drop), LEMMA R, LEMMA A (h>=3),
+  LEMMA B (|K| = 0 or >= 4). Addenda: definitions #5, TARGET note.
+  NEXT ANCHORS (surfaced): consolidate the general-V admissible case
+  at prize rows under the four floors; the sharp E1-family deficit
+  question; the m >= 9 full-gate oracle (COMPUTE REQUEST).

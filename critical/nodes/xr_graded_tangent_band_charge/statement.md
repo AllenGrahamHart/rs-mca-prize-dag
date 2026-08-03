@@ -55,7 +55,21 @@ charge >= 2 iff 2V <= 3h for the block class of record; at the prize
 rows it holds by ~1e8 on a proved floor, so channel (i) is CLOSED at
 the prize rows; the RowC toy rows provably fail the channel (the
 arithmetic route is dead there); the sole remaining open channel is
-escape-1. Definitions addendum 4; support-4 addendum 3.)*
+escape-1. Definitions addendum 4; support-4 addendum 3. CHANNEL (ii)
+RESOLVED same day (escape-1 pilot, 113/113): escape-1 core rays exist
+gate-clean, but one alone never defeats charge 2 (the 3-DROP FLOOR); a
+defeat needs n_1 >= 3h-2; every constructed counterexample is
+band-INADMISSIBLE (LEMMA R: rank <= 2m-1 necessary for exact-A
+liveness). CROSS-CHANNEL CATCH accepted: the zero-escape pencil family
+at V = 11 passes the FULL gate and realises with charge 0.818 — the
+per-ray-charge-2 route is FALSE as a universal for admissible systems;
+it survives at PRIZE-ROW parameters (every known defeat class needs
+2V > 3h or n_1 >= 3h-2, both false there by ~1e8). The occupancy
+lemma's CONCLUSION and the column bound are untouched (the fixture's
+own ledger: N_d = 0.11 n^2 << 0.68 n^2). Heart status of record: route
+through ADMISSIBILITY + ROW ARITHMETIC; open = consolidating the
+general-V admissible case at prize rows under the four new floors.
+Definitions addendum 5.)*
 
 Cost side PROVED (two-slope cost theorem): condition rank exactly `2h`
 per generic pair (a FAMILY-RANK statement — per-ray accounting is the
