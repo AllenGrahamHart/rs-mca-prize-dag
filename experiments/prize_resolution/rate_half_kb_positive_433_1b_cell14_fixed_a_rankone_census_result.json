@@ -1,0 +1,18 @@
+{
+  "case_count": 432,
+  "checked_root_count": 4208,
+  "compiler_sha256": "68d5e882b92e3ac9a824a4fb8429487d7f71a732efd3820970cc6785592f50db",
+  "curve_sha256": "0edd681c3557e6847eaad06eb328793a30237f5ddd7dda8d1741c3a5b8c33d81",
+  "decompressed_eliminant_bytes": 84729848,
+  "direct_fiber_count": 8736,
+  "guard_boundary_count": 5248,
+  "ledger_sha256": "29d4bbe4a44ab2f743ff63e2c2440037302faa9c0aca1b627e2053bdba6be3dc",
+  "maximum_eliminant_degree": 15680,
+  "remaining_allmixed_case_count": 144,
+  "replay_script_sha256": "06ad966aeffcccc5a2442f36d14acec6a7fcb984eb062e3456eb1313c6e75c67",
+  "replay_sha256": "8ec021bb765e1ce82b5d765083a87860d123ba75c23f66cf4058911bdea286eb",
+  "root_count": 9456,
+  "schema": "rate-half-kb-positive-433-1b-cell14-fixed-a-census-v1",
+  "status": "PASS",
+  "target_boundary_count": 480
+}

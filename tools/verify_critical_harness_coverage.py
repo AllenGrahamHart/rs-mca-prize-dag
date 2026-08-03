@@ -108,7 +108,8 @@ def main() -> None:
     manifest = json.loads(MANIFEST.read_text())
     proved = [node["id"] for node in critical["nodes"] if node["label"] == "PROVED"]
 
-    require(len(critical["nodes"]) == 241, "critical orbit size drift")
+    # Route-T added one TARGET leaf without changing the proved-node coverage.
+    require(len(critical["nodes"]) == 242, "critical orbit size drift")
     require(len(proved) == 179, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()

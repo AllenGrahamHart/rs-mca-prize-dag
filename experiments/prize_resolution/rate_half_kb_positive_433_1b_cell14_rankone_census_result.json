@@ -1,0 +1,165 @@
+{
+  "boundary_script_sha256": "7bc3368a96c2ffd57c9966fd8d03557ee4de29939d16288e32bb51655cc09ea4",
+  "combined_excluded_count": 1104,
+  "field": 2130706433,
+  "independent_root_replay": {
+    "case_count": 960,
+    "field_root_count": 12880,
+    "file": "rate_half_kb_positive_433_1b_cell14_rankone_root_replay_result.json",
+    "file_sha256": "231a20d50dc5b9def119ce16c403ed2d69750b7096036ac915203c550f480f27",
+    "pass_count": 960,
+    "source_script_sha256": "09c87b00416aa5afee92fc5ae95126d6933a30464e7bfc03ae5fe14de1f54364"
+  },
+  "missing_ratio_boundary": {
+    "case_count": 4,
+    "curve_leading_field_root_count": 8,
+    "field_root_count": 24,
+    "file": "rate_half_kb_positive_433_1b_cell14_missing_ratio_boundary_result.json",
+    "file_sha256": "96ae7f85a9eec06f1704ccc3238beb5e30fdde67f21ce2b367dd0195b545dfa8",
+    "unit_count": 4
+  },
+  "prior_linear_pair_excluded_count": 144,
+  "projection_script_sha256": "86fb95403d6faead0d7feac65145c0bf17712c25a6e6ec51b70090469dfeab3e",
+  "rankone_excluded_count": 960,
+  "raw_cell_case_count": 1680,
+  "retained_case_count": 576,
+  "schema": "rate-half-kb-positive-433-1b-cell14-rankone-census-v1",
+  "scope": "All retained cell-14 cases whose missing record is df, ef, bf, or cf.",
+  "shards": [
+    {
+      "branch": "rankone_resultant",
+      "case_count": 32,
+      "checked_field_roots": 192,
+      "distinct_eliminant_count": 8,
+      "file": "rate_half_kb_positive_433_1b_cell14_rankone_simple_full_result.json",
+      "file_sha256": "5ac03e6a9725929490ec98ee7be383f0fe914aaa117f3b7c276b4091d33354df",
+      "guard_sets": {
+        "inverse_0|inverse_2|t2_plus_1": 32,
+        "inverse_0|inverse_3|r|t|t2_minus_r2|t2_plus_r2": 32,
+        "inverse_2|inverse_3|r2_minus_1|t2_minus_1|t2_minus_r2": 32,
+        "inverse_2|inverse_3|r2_plus_1|t2_minus_1|t2_plus_r2": 32,
+        "inverse_2|t2_plus_1": 32,
+        "inverse_3|r2_minus_1|t2_minus_1|t2_minus_r2": 32,
+        "inverse_3|r2_plus_1|t2_minus_1|t2_plus_r2": 32,
+        "t2_minus_1": 128
+      },
+      "maximum_eliminant_degree": 1624,
+      "maximum_eliminant_terms": 1473,
+      "name": "simple",
+      "root_statuses": {
+        "GUARD_BOUNDARY": 352,
+        "PROJECTED_CHECKED": 192
+      },
+      "total_field_roots": 544,
+      "unit_count": 32
+    },
+    {
+      "branch": "rankone_chain",
+      "case_count": 224,
+      "checked_field_roots": 1088,
+      "distinct_eliminant_count": 64,
+      "file": "rate_half_kb_positive_433_1b_cell14_rankone_df_chain_full_result.json",
+      "file_sha256": "d23ec272428bf8d170a4529f345d25eb5b6047b85cae31f31f36127c04cea920",
+      "guard_sets": {
+        "inverse_0|inverse_2|t2_plus_1": 224,
+        "inverse_0|inverse_3|r|t|t2_minus_r2|t2_plus_r2": 224,
+        "inverse_2|inverse_3|r2_minus_1|t2_minus_1|t2_minus_r2": 224,
+        "inverse_2|inverse_3|r2_plus_1|t2_minus_1|t2_plus_r2": 224,
+        "inverse_2|t2_plus_1": 192,
+        "inverse_3": 128,
+        "inverse_3|r2_minus_1|t2_minus_1|t2_minus_r2": 224,
+        "inverse_3|r2_plus_1|t2_minus_1|t2_plus_r2": 224,
+        "t2_minus_1": 896
+      },
+      "maximum_eliminant_degree": 8128,
+      "maximum_eliminant_terms": 7489,
+      "name": "df_chain",
+      "root_statuses": {
+        "CHECKED": 1088,
+        "GUARD_BOUNDARY": 2560
+      },
+      "total_field_roots": 3648,
+      "unit_count": 224
+    },
+    {
+      "branch": "rankone_chain",
+      "case_count": 224,
+      "checked_field_roots": 1088,
+      "distinct_eliminant_count": 64,
+      "file": "rate_half_kb_positive_433_1b_cell14_rankone_ef_chain_full_result.json",
+      "file_sha256": "22c1c10a136d34a11202f57d705fa047a54335ac2223e18844b133cf983968cc",
+      "guard_sets": {
+        "inverse_0|inverse_2|t2_plus_1": 224,
+        "inverse_0|inverse_3|r|t|t2_minus_r2|t2_plus_r2": 224,
+        "inverse_2|inverse_3|r2_minus_1|t2_minus_1|t2_minus_r2": 224,
+        "inverse_2|inverse_3|r2_plus_1|t2_minus_1|t2_plus_r2": 224,
+        "inverse_2|t2_plus_1": 192,
+        "inverse_3": 128,
+        "inverse_3|r2_minus_1|t2_minus_1|t2_minus_r2": 224,
+        "inverse_3|r2_plus_1|t2_minus_1|t2_plus_r2": 224,
+        "t2_minus_1": 896
+      },
+      "maximum_eliminant_degree": 8128,
+      "maximum_eliminant_terms": 7489,
+      "name": "ef_chain",
+      "root_statuses": {
+        "CHECKED": 1088,
+        "GUARD_BOUNDARY": 2560
+      },
+      "total_field_roots": 3648,
+      "unit_count": 224
+    },
+    {
+      "branch": "rankone_targetfree",
+      "case_count": 240,
+      "checked_field_roots": 240,
+      "distinct_eliminant_count": 4,
+      "file": "rate_half_kb_positive_433_1b_cell14_rankone_bf_targetfree_full_result.json",
+      "file_sha256": "e231d8722e96525f4b0ad0e57ea4cd0bf15ae41844c442ab4b8d33fa229cd8e0",
+      "guard_sets": {
+        "inverse_0|inverse_3|r|t|t2_minus_r2|t2_plus_r2": 240,
+        "inverse_2|inverse_3|r2_minus_1|t2_minus_1|t2_minus_r2": 240,
+        "inverse_2|inverse_3|r2_plus_1|t2_minus_1|t2_plus_r2": 240,
+        "inverse_3|r2_minus_1|t2_minus_1|t2_minus_r2": 240,
+        "inverse_3|r2_plus_1|t2_minus_1|t2_plus_r2": 240,
+        "t2_minus_1": 960
+      },
+      "maximum_eliminant_degree": 101,
+      "maximum_eliminant_terms": 89,
+      "name": "bf_targetfree",
+      "root_statuses": {
+        "CHECKED": 240,
+        "GUARD_BOUNDARY": 2160
+      },
+      "total_field_roots": 2400,
+      "unit_count": 240
+    },
+    {
+      "branch": "rankone_targetfree",
+      "case_count": 240,
+      "checked_field_roots": 240,
+      "distinct_eliminant_count": 4,
+      "file": "rate_half_kb_positive_433_1b_cell14_rankone_cf_targetfree_full_result.json",
+      "file_sha256": "2f69423df5c29d5153d6445f4d9b980ec8a2ea6b2c3e0fb9df747a1016a3cb62",
+      "guard_sets": {
+        "inverse_0|inverse_2|t2_plus_1": 240,
+        "inverse_0|inverse_3|r|t|t2_minus_r2|t2_plus_r2": 240,
+        "inverse_2|inverse_3|r2_minus_1|t2_minus_1|t2_minus_r2": 240,
+        "inverse_2|inverse_3|r2_plus_1|t2_minus_1|t2_plus_r2": 240,
+        "inverse_3|r2_minus_1|t2_minus_1|t2_minus_r2": 240,
+        "inverse_3|r2_plus_1|t2_minus_1|t2_plus_r2": 240,
+        "t2_minus_1": 960
+      },
+      "maximum_eliminant_degree": 105,
+      "maximum_eliminant_terms": 93,
+      "name": "cf_targetfree",
+      "root_statuses": {
+        "CHECKED": 240,
+        "GUARD_BOUNDARY": 2400
+      },
+      "total_field_roots": 2640,
+      "unit_count": 240
+    }
+  ],
+  "source_curve_sha256": "0edd681c3557e6847eaad06eb328793a30237f5ddd7dda8d1741c3a5b8c33d81"
+}

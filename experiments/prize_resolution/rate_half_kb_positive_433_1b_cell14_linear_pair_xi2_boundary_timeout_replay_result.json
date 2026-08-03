@@ -1,0 +1,180 @@
+{
+  "app": "rs-mca-positive-433-1b-cell14-generic-fiber",
+  "case_count": 1,
+  "field": 2130706433,
+  "rows": [
+    {
+      "basis_size": 1,
+      "branch": "boundary",
+      "compile_seconds": 23.572208376,
+      "definitions_sha256": "47374dac0e0d0765e7eb780d00d6fa2da48045aa756d39fa7f49a6836b67510e",
+      "dimension": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equations": [
+        {
+          "degree": 2,
+          "terms": 3
+        },
+        {
+          "degree": 3,
+          "terms": 3
+        },
+        {
+          "degree": 5,
+          "terms": 18
+        },
+        {
+          "degree": 5,
+          "terms": 18
+        },
+        {
+          "degree": 3,
+          "terms": 8
+        }
+      ],
+      "factor_index": 9,
+      "input_polynomials": [],
+      "inverse_guard_count": 6,
+      "mode": "linear_pair_boundary",
+      "pairing_index": 2,
+      "parameter_cuts": [
+        {
+          "boundary_degree": 82,
+          "boundary_factors": [
+            {
+              "degree": 1,
+              "multiplicity": 1,
+              "sha256": "d7a805c394690c676a8cd9fbb90eadde36b3bcb6f8433f40239338db4ccb5acd",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "multiplicity": 1,
+              "sha256": "5f87d3e72f76be54513ac9d24ebe9426d04bc73b34fceb85bdb81be71a26d306",
+              "terms": 2
+            },
+            {
+              "degree": 5,
+              "multiplicity": 1,
+              "sha256": "012937e8bc8fe385177b4787fab6db61a18085655050f935ba950729d66fdd18",
+              "terms": 6
+            },
+            {
+              "degree": 5,
+              "multiplicity": 1,
+              "sha256": "2a1f18203448cc26b2e68881660f4f8dc47b806fca3b083370c1ed7a05e6b211",
+              "terms": 6
+            },
+            {
+              "degree": 7,
+              "multiplicity": 1,
+              "sha256": "84e339308095438bce5bfe114530a6349e732a4d4fbebd9200495106f39a1a16",
+              "terms": 8
+            },
+            {
+              "degree": 7,
+              "multiplicity": 1,
+              "sha256": "0774ab3912eba19540175a15932104b799ec58aaff4313a3d2596fad16cfaaae",
+              "terms": 8
+            },
+            {
+              "degree": 8,
+              "multiplicity": 1,
+              "sha256": "f58ca2e41e9bb767ce02b955949c1601bd354c2d6c5775d6c2487409979fb5f1",
+              "terms": 9
+            },
+            {
+              "degree": 8,
+              "multiplicity": 1,
+              "sha256": "209c5e6e0dfba8ef25534b3a33dfdec92d5d3c7db9d0a56291a3d32bc9910d7b",
+              "terms": 9
+            },
+            {
+              "degree": 8,
+              "multiplicity": 2,
+              "sha256": "6429d6d898dc0b5e126cd25e42de1a7f1a6d29d7606ef20631fff4ca9810fd6b",
+              "terms": 9
+            },
+            {
+              "degree": 12,
+              "multiplicity": 2,
+              "sha256": "cd0dae7a1d043312b35c69a9a00bdfccb852d465cd2f89d1ddbbbb8df4fb6dfa",
+              "terms": 13
+            }
+          ],
+          "boundary_raw_degree": 92,
+          "boundary_route_removed": {
+            "r2_minus_1": 5,
+            "r2_plus_1": 5
+          },
+          "boundary_terms": 83,
+          "degree": 0,
+          "equation_index": 1,
+          "leading_gcd_degree": 0,
+          "leading_overlap_degree": 92,
+          "open_cut_sha256": "90da1e118938ef3c9944c474012d7fbd5f3d789df53e5fa335da137b47c149e0",
+          "raw_degree": 199,
+          "removed_boundary_degree": 188,
+          "route_removed": {
+            "r": 7,
+            "t2_plus_1": 4
+          },
+          "route_removed_degree": 11,
+          "terms": 1
+        }
+      ],
+      "program_sha256": "ef5aa27be08917769bbe382400d74def10ee2f047430091738255fd8fa968ca6",
+      "sigma": [
+        -1,
+        1
+      ],
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nEND\n",
+      "total_seconds": 82.520284331,
+      "unit": true,
+      "variables": [
+        "b",
+        "u",
+        "v",
+        "f"
+      ],
+      "xi_index": 2
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell14-generic-fiber-v2",
+  "scope": "Exact linear-pair open projections and finite boundary-factor ideals.",
+  "selection": {
+    "branch": "boundary",
+    "factor_indices": [
+      9
+    ],
+    "lanes": [
+      [
+        -1,
+        1
+      ]
+    ],
+    "pairing_indices": [
+      2
+    ],
+    "signs": [
+      [
+        -1,
+        -1
+      ]
+    ],
+    "xi_indices": [
+      2
+    ]
+  },
+  "source_curve_sha256": "0edd681c3557e6847eaad06eb328793a30237f5ddd7dda8d1741c3a5b8c33d81",
+  "source_script_sha256": "cbac2c88c6706485cdb6b09241a0cb4781ea5e117c696f4312be6967e9c18fb0",
+  "status_counts": {
+    "COMPLETE": 1
+  },
+  "unit_count": 1
+}

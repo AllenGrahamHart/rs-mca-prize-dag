@@ -1,0 +1,34 @@
+# Source Evidence
+
+Pinned exact compilers and outputs:
+
+- `experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_six_basis_cut_pilot_modal.py`
+- `experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_six_basis_cut_census_result.json`
+- `experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_six_basis_cut_root_replay_modal.py`
+- `experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_six_basis_cut_root_replay_census_result.json`
+- `experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_xi0_pairing0_outside_solver_modal.py`
+- `experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_xi0_pairing0_outside_solver_result.json`
+
+Final Modal apps:
+
+```text
+six-basis norm census:  ap-oZR28f9DNs4ObLIMYHy3KD
+root replay census:     ap-auC3dsSVqAYHtp2W1kdA6R
+finite outside solver:  ap-BzdBRfusmorVuM3MutKnkN
+```
+
+SHA-256 pins:
+
+```text
+0692770c755348318d410f40249f16cbcadc3fabd86a4a913ed7eae3b1663875  rate_half_kb_positive_433_1b_cell3_six_basis_cut_pilot_modal.py
+b52d89b101b12a7003529e6708788e8e8e6625681afe8823ac90cfd8401863f7  rate_half_kb_positive_433_1b_cell3_six_basis_cut_census_result.json
+e3087c31cec06ad4b6e3bbd7d7b691db3daecc3d876ab6b790fc3c3e99f1098f  rate_half_kb_positive_433_1b_cell3_six_basis_cut_root_replay_modal.py
+c68888d502250a1addcf6af19d1b63ef94c960dabc0f7d07637b73433a159be0  rate_half_kb_positive_433_1b_cell3_six_basis_cut_root_replay_census_result.json
+ac7590ceeea2843b80943a783cdccf814484df2b9036ad387eb02c0c5febbb6f  rate_half_kb_positive_433_1b_cell3_xi0_pairing0_outside_solver_modal.py
+8a06a7a073473f5aa8ea1515a20c93be5db53acae7935004aa5109ed6a5df0da  rate_half_kb_positive_433_1b_cell3_xi0_pairing0_outside_solver_result.json
+```
+
+The primary verifier checks source custody at every stage, the complete sign
+and target-lane products, both norm constructions, every norm root and
+guarded lift, and every finite solver row.  The independent audit checks the
+three compiler constructions and the exact nonclaim boundary.

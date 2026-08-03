@@ -1,0 +1,2430 @@
+{
+  "rows": [
+    {
+      "case_excluded": false,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "guarded_common_points": [
+        [
+          635885595,
+          345932333,
+          316316262,
+          911481937
+        ],
+        [
+          635885595,
+          345932333,
+          1967218499,
+          1877943656
+        ],
+        [
+          635885595,
+          910847123,
+          1791214086,
+          1247748483
+        ],
+        [
+          635885595,
+          910847123,
+          1935150646,
+          107691700
+        ],
+        [
+          698159198,
+          601632345,
+          881397624,
+          846556788
+        ],
+        [
+          698159198,
+          601632345,
+          1500515703,
+          1340049759
+        ],
+        [
+          698159198,
+          1726155690,
+          821003292,
+          1624803459
+        ],
+        [
+          698159198,
+          1726155690,
+          1732174998,
+          2086648657
+        ],
+        [
+          1261996694,
+          1343697967,
+          1082963926,
+          1449502994
+        ],
+        [
+          1261996694,
+          1343697967,
+          1327610319,
+          232981904
+        ],
+        [
+          1392441604,
+          1121434783,
+          1093851136,
+          150685281
+        ],
+        [
+          1392441604,
+          1121434783,
+          1521219082,
+          1250480152
+        ]
+      ],
+      "norm_root_count": 11,
+      "pairing_index": 0,
+      "root_rows": [
+        {
+          "r": 0,
+          "r_zero_guards": [
+            "r"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 1,
+          "r_zero_guards": [
+            "r2_minus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 16711679,
+          "r_zero_guards": [
+            "r2_plus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 635885595,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            345932333,
+            910847123,
+            935143250
+          ],
+          "t_rows": [
+            {
+              "b_roots": [
+                316316262,
+                1967218499
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 1767971174,
+                  "b": 316316262,
+                  "b_missing": 2043768639,
+                  "bc_zero_guards": [],
+                  "c": 911481937,
+                  "c_denominator": 536650751,
+                  "missing_record": 1814390171,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                },
+                {
+                  "a_missing": 510358178,
+                  "b": 1967218499,
+                  "b_missing": 1296747886,
+                  "bc_zero_guards": [],
+                  "c": 1877943656,
+                  "c_denominator": 536650751,
+                  "missing_record": 163487934,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                }
+              ],
+              "status": "CHECKED",
+              "t": 345932333,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [
+                1791214086,
+                1935150646
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 1123781723,
+                  "b": 1791214086,
+                  "b_missing": 436243825,
+                  "bc_zero_guards": [],
+                  "c": 1247748483,
+                  "c_denominator": 1101565541,
+                  "missing_record": 1570467790,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 1170847618
+                },
+                {
+                  "a_missing": 1546587986,
+                  "b": 1935150646,
+                  "b_missing": 1192380282,
+                  "bc_zero_guards": [],
+                  "c": 107691700,
+                  "c_denominator": 1101565541,
+                  "missing_record": 1654029982,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 995311836
+                }
+              ],
+              "status": "CHECKED",
+              "t": 910847123,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 935143250,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 698159198,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            601632345,
+            990915504,
+            1726155690
+          ],
+          "t_rows": [
+            {
+              "b_roots": [
+                881397624,
+                1500515703
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 48398330,
+                  "b": 881397624,
+                  "b_missing": 2097101863,
+                  "bc_zero_guards": [],
+                  "c": 846556788,
+                  "c_denominator": 36106324,
+                  "missing_record": 1052317377,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                },
+                {
+                  "a_missing": 415015286,
+                  "b": 1500515703,
+                  "b_missing": 919928351,
+                  "bc_zero_guards": [],
+                  "c": 1340049759,
+                  "c_denominator": 36106324,
+                  "missing_record": 405984500,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                }
+              ],
+              "status": "CHECKED",
+              "t": 601632345,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 990915504,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [
+                821003292,
+                1732174998
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 145989332,
+                  "b": 821003292,
+                  "b_missing": 1148669150,
+                  "bc_zero_guards": [],
+                  "c": 1624803459,
+                  "c_denominator": 1160629669,
+                  "missing_record": 885615996,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 1054392649
+                },
+                {
+                  "a_missing": 119025967,
+                  "b": 1732174998,
+                  "b_missing": 22806551,
+                  "bc_zero_guards": [],
+                  "c": 2086648657,
+                  "c_denominator": 1160629669,
+                  "missing_record": 2095032226,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 905783557
+                }
+              ],
+              "status": "CHECKED",
+              "t": 1726155690,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 1261996694,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            1239829320,
+            1343697967,
+            1639890362
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1239829320,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [
+                1082963926,
+                1327610319
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 565626687,
+                  "b": 1082963926,
+                  "b_missing": 479908400,
+                  "bc_zero_guards": [],
+                  "c": 1449502994,
+                  "c_denominator": 1576966809,
+                  "missing_record": 1469877914,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 2003297958
+                },
+                {
+                  "a_missing": 898532093,
+                  "b": 1327610319,
+                  "b_missing": 598644098,
+                  "bc_zero_guards": [],
+                  "c": 232981904,
+                  "c_denominator": 1576966809,
+                  "missing_record": 1292043099,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 555365321
+                }
+              ],
+              "status": "CHECKED",
+              "t": 1343697967,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1639890362,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 1392441604,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            1121434783,
+            1401730382,
+            1425743322
+          ],
+          "t_rows": [
+            {
+              "b_roots": [
+                1093851136,
+                1521219082
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 1299412952,
+                  "b": 1093851136,
+                  "b_missing": 511097552,
+                  "bc_zero_guards": [],
+                  "c": 150685281,
+                  "c_denominator": 367794636,
+                  "missing_record": 859654848,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 1232709401
+                },
+                {
+                  "a_missing": 1211289373,
+                  "b": 1521219082,
+                  "b_missing": 27518374,
+                  "bc_zero_guards": [],
+                  "c": 1250480152,
+                  "c_denominator": 367794636,
+                  "missing_record": 1959545697,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 2026518404
+                }
+              ],
+              "status": "CHECKED",
+              "t": 1121434783,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1401730382,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1425743322,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 1695733741,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            1113108367
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1113108367,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 1995279132,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            679953846,
+            929617937,
+            1383966932
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 679953846,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 929617937,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1383966932,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 2113994754,
+          "r_zero_guards": [
+            "r2_plus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 2130706432,
+          "r_zero_guards": [
+            "r2_minus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        }
+      ],
+      "status": "COMPLETE",
+      "target_free_zero_points": [
+        [
+          635885595,
+          345932333,
+          316316262,
+          911481937
+        ],
+        [
+          635885595,
+          345932333,
+          1967218499,
+          1877943656
+        ],
+        [
+          698159198,
+          601632345,
+          881397624,
+          846556788
+        ],
+        [
+          698159198,
+          601632345,
+          1500515703,
+          1340049759
+        ]
+      ],
+      "target_lanes_covered": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "xi_index": 0
+    },
+    {
+      "case_excluded": false,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "guarded_common_points": [
+        [
+          756144888,
+          43171664,
+          1791214086,
+          1247748483
+        ],
+        [
+          756144888,
+          43171664,
+          1935150646,
+          107691700
+        ],
+        [
+          756144888,
+          961782707,
+          316316262,
+          911481937
+        ],
+        [
+          756144888,
+          961782707,
+          1967218499,
+          1877943656
+        ],
+        [
+          1124428225,
+          4315090,
+          821003292,
+          1624803459
+        ],
+        [
+          1124428225,
+          4315090,
+          1732174998,
+          2086648657
+        ],
+        [
+          1124428225,
+          1908532526,
+          881397624,
+          846556788
+        ],
+        [
+          1124428225,
+          1908532526,
+          1500515703,
+          1340049759
+        ],
+        [
+          1385805415,
+          85756592,
+          1082963926,
+          1449502994
+        ],
+        [
+          1385805415,
+          85756592,
+          1327610319,
+          232981904
+        ],
+        [
+          1408285139,
+          2087408690,
+          1093851136,
+          150685281
+        ],
+        [
+          1408285139,
+          2087408690,
+          1521219082,
+          1250480152
+        ]
+      ],
+      "norm_root_count": 11,
+      "pairing_index": 0,
+      "root_rows": [
+        {
+          "r": 0,
+          "r_zero_guards": [
+            "r"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 1,
+          "r_zero_guards": [
+            "r2_minus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 16711679,
+          "r_zero_guards": [
+            "r2_plus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 102524815,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            565247365,
+            1151431358,
+            1985378308
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 565247365,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1151431358,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1985378308,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 756144888,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            43171664,
+            89517765,
+            961782707
+          ],
+          "t_rows": [
+            {
+              "b_roots": [
+                1791214086,
+                1935150646
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 1917453910,
+                  "b": 1791214086,
+                  "b_missing": 2032490251,
+                  "bc_zero_guards": [],
+                  "c": 1247748483,
+                  "c_denominator": 30376449,
+                  "missing_record": 1570467790,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 47316330
+                },
+                {
+                  "a_missing": 56096493,
+                  "b": 1935150646,
+                  "b_missing": 605590500,
+                  "bc_zero_guards": [],
+                  "c": 107691700,
+                  "c_denominator": 30376449,
+                  "missing_record": 1654029982,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 345977808
+                }
+              ],
+              "status": "CHECKED",
+              "t": 43171664,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 89517765,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [
+                316316262,
+                1967218499
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 1699096487,
+                  "b": 316316262,
+                  "b_missing": 2080678521,
+                  "bc_zero_guards": [],
+                  "c": 911481937,
+                  "c_denominator": 948987492,
+                  "missing_record": 1814390171,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                },
+                {
+                  "a_missing": 1414114044,
+                  "b": 1967218499,
+                  "b_missing": 1461371527,
+                  "bc_zero_guards": [],
+                  "c": 1877943656,
+                  "c_denominator": 948987492,
+                  "missing_record": 163487934,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                }
+              ],
+              "status": "CHECKED",
+              "t": 961782707,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 1124428225,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            4315090,
+            260860066,
+            1908532526
+          ],
+          "t_rows": [
+            {
+              "b_roots": [
+                821003292,
+                1732174998
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 673452468,
+                  "b": 821003292,
+                  "b_missing": 1034356389,
+                  "bc_zero_guards": [],
+                  "c": 1624803459,
+                  "c_denominator": 1864192916,
+                  "missing_record": 885615996,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 249547284
+                },
+                {
+                  "a_missing": 69799661,
+                  "b": 1732174998,
+                  "b_missing": 387175190,
+                  "bc_zero_guards": [],
+                  "c": 2086648657,
+                  "c_denominator": 1864192916,
+                  "missing_record": 2095032226,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 159780834
+                }
+              ],
+              "status": "CHECKED",
+              "t": 4315090,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 260860066,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [
+                881397624,
+                1500515703
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 2118417354,
+                  "b": 881397624,
+                  "b_missing": 232928499,
+                  "bc_zero_guards": [],
+                  "c": 846556788,
+                  "c_denominator": 1637703919,
+                  "missing_record": 1052317377,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                },
+                {
+                  "a_missing": 493317057,
+                  "b": 1500515703,
+                  "b_missing": 1525039587,
+                  "bc_zero_guards": [],
+                  "c": 1340049759,
+                  "c_denominator": 1637703919,
+                  "missing_record": 405984500,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                }
+              ],
+              "status": "CHECKED",
+              "t": 1908532526,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 1236149400,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            553085788
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 553085788,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 1385805415,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            85756592,
+            523614097,
+            2110884106
+          ],
+          "t_rows": [
+            {
+              "b_roots": [
+                1082963926,
+                1327610319
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 587023383,
+                  "b": 1082963926,
+                  "b_missing": 419463548,
+                  "bc_zero_guards": [],
+                  "c": 1449502994,
+                  "c_denominator": 1467485086,
+                  "missing_record": 1469877914,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 1411077606
+                },
+                {
+                  "a_missing": 1310538078,
+                  "b": 1327610319,
+                  "b_missing": 1791710942,
+                  "bc_zero_guards": [],
+                  "c": 232981904,
+                  "c_denominator": 1467485086,
+                  "missing_record": 1292043099,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 546277234
+                }
+              ],
+              "status": "CHECKED",
+              "t": 85756592,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 523614097,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 2110884106,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 1408285139,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            61795001,
+            881251888,
+            2087408690
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 61795001,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 881251888,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [
+                1093851136,
+                1521219082
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 1450605520,
+                  "b": 1093851136,
+                  "b_missing": 1901370101,
+                  "bc_zero_guards": [],
+                  "c": 150685281,
+                  "c_denominator": 410193036,
+                  "missing_record": 859654848,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 2096005345
+                },
+                {
+                  "a_missing": 1160850253,
+                  "b": 1521219082,
+                  "b_missing": 604681294,
+                  "bc_zero_guards": [],
+                  "c": 1250480152,
+                  "c_denominator": 410193036,
+                  "missing_record": 1959545697,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 851139204
+                }
+              ],
+              "status": "CHECKED",
+              "t": 2087408690,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 2113994754,
+          "r_zero_guards": [
+            "r2_plus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 2130706432,
+          "r_zero_guards": [
+            "r2_minus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        }
+      ],
+      "status": "COMPLETE",
+      "target_free_zero_points": [
+        [
+          756144888,
+          961782707,
+          316316262,
+          911481937
+        ],
+        [
+          756144888,
+          961782707,
+          1967218499,
+          1877943656
+        ],
+        [
+          1124428225,
+          1908532526,
+          881397624,
+          846556788
+        ],
+        [
+          1124428225,
+          1908532526,
+          1500515703,
+          1340049759
+        ]
+      ],
+      "target_lanes_covered": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "xi_index": 0
+    },
+    {
+      "case_excluded": false,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "guarded_common_points": [
+        [
+          738264829,
+          1009271650,
+          1093851136,
+          150685281
+        ],
+        [
+          738264829,
+          1009271650,
+          1521219082,
+          1250480152
+        ],
+        [
+          868709739,
+          787008466,
+          1082963926,
+          1449502994
+        ],
+        [
+          868709739,
+          787008466,
+          1327610319,
+          232981904
+        ],
+        [
+          1432547235,
+          404550743,
+          821003292,
+          1624803459
+        ],
+        [
+          1432547235,
+          404550743,
+          1732174998,
+          2086648657
+        ],
+        [
+          1432547235,
+          1529074088,
+          881397624,
+          846556788
+        ],
+        [
+          1432547235,
+          1529074088,
+          1500515703,
+          1340049759
+        ],
+        [
+          1494820838,
+          1219859310,
+          1791214086,
+          1247748483
+        ],
+        [
+          1494820838,
+          1219859310,
+          1935150646,
+          107691700
+        ],
+        [
+          1494820838,
+          1784774100,
+          316316262,
+          911481937
+        ],
+        [
+          1494820838,
+          1784774100,
+          1967218499,
+          1877943656
+        ]
+      ],
+      "norm_root_count": 11,
+      "pairing_index": 0,
+      "root_rows": [
+        {
+          "r": 0,
+          "r_zero_guards": [
+            "r"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 1,
+          "r_zero_guards": [
+            "r2_minus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 16711679,
+          "r_zero_guards": [
+            "r2_plus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 135427301,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            746739501,
+            1201088496,
+            1450752587
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 746739501,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1201088496,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1450752587,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 434972692,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            1017598066
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1017598066,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 738264829,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            704963111,
+            728976051,
+            1009271650
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 704963111,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 728976051,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [
+                1093851136,
+                1521219082
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 831293481,
+                  "b": 1093851136,
+                  "b_missing": 1619608881,
+                  "bc_zero_guards": [],
+                  "c": 150685281,
+                  "c_denominator": 1762911797,
+                  "missing_record": 859654848,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 1232709401
+                },
+                {
+                  "a_missing": 919417060,
+                  "b": 1521219082,
+                  "b_missing": 2103188059,
+                  "bc_zero_guards": [],
+                  "c": 1250480152,
+                  "c_denominator": 1762911797,
+                  "missing_record": 1959545697,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 2026518404
+                }
+              ],
+              "status": "CHECKED",
+              "t": 1009271650,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 868709739,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            490816071,
+            787008466,
+            890877113
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 490816071,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [
+                1082963926,
+                1327610319
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 1565079746,
+                  "b": 1082963926,
+                  "b_missing": 1650798033,
+                  "bc_zero_guards": [],
+                  "c": 1449502994,
+                  "c_denominator": 553739624,
+                  "missing_record": 1469877914,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 2003297958
+                },
+                {
+                  "a_missing": 1232174340,
+                  "b": 1327610319,
+                  "b_missing": 1532062335,
+                  "bc_zero_guards": [],
+                  "c": 232981904,
+                  "c_denominator": 553739624,
+                  "missing_record": 1292043099,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 555365321
+                }
+              ],
+              "status": "CHECKED",
+              "t": 787008466,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 890877113,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 1432547235,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            404550743,
+            1139790929,
+            1529074088
+          ],
+          "t_rows": [
+            {
+              "b_roots": [
+                821003292,
+                1732174998
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 1984717101,
+                  "b": 821003292,
+                  "b_missing": 982037283,
+                  "bc_zero_guards": [],
+                  "c": 1624803459,
+                  "c_denominator": 970076764,
+                  "missing_record": 885615996,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 1054392649
+                },
+                {
+                  "a_missing": 2011680466,
+                  "b": 1732174998,
+                  "b_missing": 2107899882,
+                  "bc_zero_guards": [],
+                  "c": 2086648657,
+                  "c_denominator": 970076764,
+                  "missing_record": 2095032226,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 905783557
+                }
+              ],
+              "status": "CHECKED",
+              "t": 404550743,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1139790929,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [
+                881397624,
+                1500515703
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 2082308103,
+                  "b": 881397624,
+                  "b_missing": 33604570,
+                  "bc_zero_guards": [],
+                  "c": 846556788,
+                  "c_denominator": 2094600109,
+                  "missing_record": 1052317377,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                },
+                {
+                  "a_missing": 1715691147,
+                  "b": 1500515703,
+                  "b_missing": 1210778082,
+                  "bc_zero_guards": [],
+                  "c": 1340049759,
+                  "c_denominator": 2094600109,
+                  "missing_record": 405984500,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                }
+              ],
+              "status": "CHECKED",
+              "t": 1529074088,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 1494820838,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            1195563183,
+            1219859310,
+            1784774100
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1195563183,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [
+                1791214086,
+                1935150646
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 1006924710,
+                  "b": 1791214086,
+                  "b_missing": 1694462608,
+                  "bc_zero_guards": [],
+                  "c": 1247748483,
+                  "c_denominator": 1029140892,
+                  "missing_record": 1570467790,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 1170847618
+                },
+                {
+                  "a_missing": 584118447,
+                  "b": 1935150646,
+                  "b_missing": 938326151,
+                  "bc_zero_guards": [],
+                  "c": 107691700,
+                  "c_denominator": 1029140892,
+                  "missing_record": 1654029982,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 995311836
+                }
+              ],
+              "status": "CHECKED",
+              "t": 1219859310,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [
+                316316262,
+                1967218499
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 362735259,
+                  "b": 316316262,
+                  "b_missing": 86937794,
+                  "bc_zero_guards": [],
+                  "c": 911481937,
+                  "c_denominator": 1594055682,
+                  "missing_record": 1814390171,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                },
+                {
+                  "a_missing": 1620348255,
+                  "b": 1967218499,
+                  "b_missing": 833958547,
+                  "bc_zero_guards": [],
+                  "c": 1877943656,
+                  "c_denominator": 1594055682,
+                  "missing_record": 163487934,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                }
+              ],
+              "status": "CHECKED",
+              "t": 1784774100,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 2113994754,
+          "r_zero_guards": [
+            "r2_plus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 2130706432,
+          "r_zero_guards": [
+            "r2_minus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        }
+      ],
+      "status": "COMPLETE",
+      "target_free_zero_points": [
+        [
+          1432547235,
+          1529074088,
+          881397624,
+          846556788
+        ],
+        [
+          1432547235,
+          1529074088,
+          1500515703,
+          1340049759
+        ],
+        [
+          1494820838,
+          1784774100,
+          316316262,
+          911481937
+        ],
+        [
+          1494820838,
+          1784774100,
+          1967218499,
+          1877943656
+        ]
+      ],
+      "target_lanes_covered": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "xi_index": 0
+    },
+    {
+      "case_excluded": false,
+      "epsilon": [
+        1,
+        1
+      ],
+      "guarded_common_points": [
+        [
+          722421294,
+          43297743,
+          1093851136,
+          150685281
+        ],
+        [
+          722421294,
+          43297743,
+          1521219082,
+          1250480152
+        ],
+        [
+          744901018,
+          2044949841,
+          1082963926,
+          1449502994
+        ],
+        [
+          744901018,
+          2044949841,
+          1327610319,
+          232981904
+        ],
+        [
+          1006278208,
+          222173907,
+          881397624,
+          846556788
+        ],
+        [
+          1006278208,
+          222173907,
+          1500515703,
+          1340049759
+        ],
+        [
+          1006278208,
+          2126391343,
+          821003292,
+          1624803459
+        ],
+        [
+          1006278208,
+          2126391343,
+          1732174998,
+          2086648657
+        ],
+        [
+          1374561545,
+          1168923726,
+          316316262,
+          911481937
+        ],
+        [
+          1374561545,
+          1168923726,
+          1967218499,
+          1877943656
+        ],
+        [
+          1374561545,
+          2087534769,
+          1791214086,
+          1247748483
+        ],
+        [
+          1374561545,
+          2087534769,
+          1935150646,
+          107691700
+        ]
+      ],
+      "norm_root_count": 11,
+      "pairing_index": 0,
+      "root_rows": [
+        {
+          "r": 0,
+          "r_zero_guards": [
+            "r"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 1,
+          "r_zero_guards": [
+            "r2_minus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 16711679,
+          "r_zero_guards": [
+            "r2_plus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 722421294,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            43297743,
+            1249454545,
+            2068911432
+          ],
+          "t_rows": [
+            {
+              "b_roots": [
+                1093851136,
+                1521219082
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 680100913,
+                  "b": 1093851136,
+                  "b_missing": 229336332,
+                  "bc_zero_guards": [],
+                  "c": 150685281,
+                  "c_denominator": 1720513397,
+                  "missing_record": 859654848,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 2096005345
+                },
+                {
+                  "a_missing": 969856180,
+                  "b": 1521219082,
+                  "b_missing": 1526025139,
+                  "bc_zero_guards": [],
+                  "c": 1250480152,
+                  "c_denominator": 1720513397,
+                  "missing_record": 1959545697,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 851139204
+                }
+              ],
+              "status": "CHECKED",
+              "t": 43297743,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1249454545,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 2068911432,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 744901018,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            19822327,
+            1607092336,
+            2044949841
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 19822327,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1607092336,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [
+                1082963926,
+                1327610319
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 1543683050,
+                  "b": 1082963926,
+                  "b_missing": 1711242885,
+                  "bc_zero_guards": [],
+                  "c": 1449502994,
+                  "c_denominator": 663221347,
+                  "missing_record": 1469877914,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 1411077606
+                },
+                {
+                  "a_missing": 820168355,
+                  "b": 1327610319,
+                  "b_missing": 338995491,
+                  "bc_zero_guards": [],
+                  "c": 232981904,
+                  "c_denominator": 663221347,
+                  "missing_record": 1292043099,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 546277234
+                }
+              ],
+              "status": "CHECKED",
+              "t": 2044949841,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 894557033,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            1577620645
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1577620645,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 1006278208,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            222173907,
+            1869846367,
+            2126391343
+          ],
+          "t_rows": [
+            {
+              "b_roots": [
+                881397624,
+                1500515703
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 12289079,
+                  "b": 881397624,
+                  "b_missing": 1897777934,
+                  "bc_zero_guards": [],
+                  "c": 846556788,
+                  "c_denominator": 493002514,
+                  "missing_record": 1052317377,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                },
+                {
+                  "a_missing": 1637389376,
+                  "b": 1500515703,
+                  "b_missing": 605666846,
+                  "bc_zero_guards": [],
+                  "c": 1340049759,
+                  "c_denominator": 493002514,
+                  "missing_record": 405984500,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                }
+              ],
+              "status": "CHECKED",
+              "t": 222173907,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1869846367,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [
+                821003292,
+                1732174998
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 1457253965,
+                  "b": 821003292,
+                  "b_missing": 1096350044,
+                  "bc_zero_guards": [],
+                  "c": 1624803459,
+                  "c_denominator": 266513517,
+                  "missing_record": 885615996,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 249547284
+                },
+                {
+                  "a_missing": 2060906772,
+                  "b": 1732174998,
+                  "b_missing": 1743531243,
+                  "bc_zero_guards": [],
+                  "c": 2086648657,
+                  "c_denominator": 266513517,
+                  "missing_record": 2095032226,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 159780834
+                }
+              ],
+              "status": "CHECKED",
+              "t": 2126391343,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 1374561545,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            1168923726,
+            2041188668,
+            2087534769
+          ],
+          "t_rows": [
+            {
+              "b_roots": [
+                316316262,
+                1967218499
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 431609946,
+                  "b": 316316262,
+                  "b_missing": 50027912,
+                  "bc_zero_guards": [],
+                  "c": 911481937,
+                  "c_denominator": 1181718941,
+                  "missing_record": 1814390171,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                },
+                {
+                  "a_missing": 716592389,
+                  "b": 1967218499,
+                  "b_missing": 669334906,
+                  "bc_zero_guards": [],
+                  "c": 1877943656,
+                  "c_denominator": 1181718941,
+                  "missing_record": 163487934,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                }
+              ],
+              "status": "CHECKED",
+              "t": 1168923726,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 2041188668,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [
+                1791214086,
+                1935150646
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 213252523,
+                  "b": 1791214086,
+                  "b_missing": 98216182,
+                  "bc_zero_guards": [],
+                  "c": 1247748483,
+                  "c_denominator": 2100329984,
+                  "missing_record": 1570467790,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 47316330
+                },
+                {
+                  "a_missing": 2074609940,
+                  "b": 1935150646,
+                  "b_missing": 1525115933,
+                  "bc_zero_guards": [],
+                  "c": 107691700,
+                  "c_denominator": 2100329984,
+                  "missing_record": 1654029982,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 345977808
+                }
+              ],
+              "status": "CHECKED",
+              "t": 2087534769,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 2028181618,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            145328125,
+            979275075,
+            1565459068
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 145328125,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 979275075,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1565459068,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 2113994754,
+          "r_zero_guards": [
+            "r2_plus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 2130706432,
+          "r_zero_guards": [
+            "r2_minus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        }
+      ],
+      "status": "COMPLETE",
+      "target_free_zero_points": [
+        [
+          1006278208,
+          222173907,
+          881397624,
+          846556788
+        ],
+        [
+          1006278208,
+          222173907,
+          1500515703,
+          1340049759
+        ],
+        [
+          1374561545,
+          1168923726,
+          316316262,
+          911481937
+        ],
+        [
+          1374561545,
+          1168923726,
+          1967218499,
+          1877943656
+        ]
+      ],
+      "target_lanes_covered": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "xi_index": 0
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell3-six-basis-cut-root-replay-census-v1",
+  "scope": "Exact deployed-field lift of one target-free norm root ledger; no claim outside the printed sign/missing/matching scope.",
+  "source_kernel_sha256": "e20ccb714b252f00ee3ce877ee68eff032f43deb877e2097919151436ddcf789",
+  "source_pilot_sha256": "b52d89b101b12a7003529e6708788e8e8e6625681afe8823ac90cfd8401863f7",
+  "source_product_sha256": "ee4dcb25877e9101a544ee5896b9bf6890059d6398c78d7562127b0d1c53c293",
+  "source_quotient_sha256": "af991fd4b8c2bae2544a5d656f55fecc734b643da58c6f207db54760dad20c46"
+}

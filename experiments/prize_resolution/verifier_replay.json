@@ -2,17 +2,121 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 1,
+    "PASS": 14,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/xr_support4_structure/verify.py",
-      "seconds": 0.094175,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/verify.py",
+      "seconds": 0.054413,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": " Rel = 1 and rank = Vh - 1 = 19 (pilot stage1/stage3 pins)  dim 1, rank 19\nPASS B: S4-1 -- at every point the relation has 0 or >= 3 nonzero components; every supp(c_a) inside the triple locus\nPASS B: S4-3 -- all four duals in ONE 2-dim L, no two proportional; supp(c_a) = U \\ {y_a}, weight exactly k+1 = 4  span 2\nPASS C: S4-4 minimal case -- CR(z_1..z_4) = CR(x_{y_1}..x_{y_4}) on the matched build  CR = 66\nPASS C: z_4 sweep -- dim Rel = 1 EXACTLY at cross-ratio matches, 0 otherwise (slope codimension 1)  1 matches in sweep, 0 bad\nPASS D: K_V -- |S_a| = A = 10, pairwise = k+d = 4, triple locus EXACTLY Y (|Y| = k-1 = 2)  tl [0, 1]\nPASS D: S4-2' K_V no-relation THEOREM -- dim Rel = 0, rank = Vh = 35 EXACTLY (the banked measurement upgraded)  dim 0, rank 35\nPASS E: MDS sum lemma -- |X ^ S| >= k gives C_X + C_S = C_{X u S} (17 samples)  0 bad\nPASS E: S4-14 on U-mech -- dim pi_1 = m = 12; m <= rank <= 2m; V <= m/2 holds and charge/ray >= 2  pi1 12, rank 19, V 4, m 12\nPASS E: S4-14 on K_V -- dim pi_1 = m = 19; m <= rank <= 2m; V <= m/2 holds and charge/ray >= 2  pi1 19, rank 35, V 5, m 19\nPASS F: U-mech peeling -- |S^inf| = 4 per ray, escape floor 16 <= rank, dim Rel <= cap 4  floor 16, rank 19, dim 1\nPASS F: K_V peeling -- |S^inf| = 2 per ray, escape floor 35 <= rank, dim Rel <= cap 0  floor 35, rank 35, dim 0\nPASS F: the min(h, .) cap is LOAD-BEARING -- the uncapped sum on K_V is 40 > rank 35 (the mis-coded first version the pilot caught)\nPASS G: zero-escape clique (3,5,3,5) -- zero escape confirmed (S^inf = S), and rank = 2m = 14 on EVERY sampled slope tuple: the COLLAPSE, a MEASUREMENT (never 2m-1; NOT a theorem -- claim 7's named open sub-item)  ranks [14]\nPASS H: re-pricing consistency -- RowC 1/4 U_N = 510 = 51 x C(5,2), ratio over K_V = 85/64 = 1.328125, margin to n/2 = 512 is EXACTLY 2; prize N_1 = C(V*,2) UNCHANGED (18336/24976/114960). (Cluster budget formula consistency-checked, NOT re-derived -- flagged.)  [18336, 24976, 114960]\nXR_SUPPORT4_STRUCTURE_ALL_PASS\n"
+      "stdout_tail": "cell=3 charts=24 curve_dim=1 beta_boundary=unit kernels=4 rows=40\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/verify_audit.py",
+      "seconds": 0.04371,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok charts=24 signs=4 beta_boundary=unit kernels=4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_firstpair_complete_exclusion/verify.py",
+      "seconds": 0.053137,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 xi=0,1,2 pairings=0,1,2 raw_cases=144 computed=64 transported=32\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_firstpair_complete_exclusion/verify_audit.py",
+      "seconds": 0.039136,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok DE_copies=3 pairings=3 raw_cases=144 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing3_complete_exclusion/verify.py",
+      "seconds": 0.071579,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 pairing=3 DE_copies=3 raw_cases=48 computed=32 transported=16 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing3_complete_exclusion/verify_audit.py",
+      "seconds": 0.093347,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok pairing=3 exceptional_roots=lifted boundary_f_zero=32\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/verify.py",
+      "seconds": 0.054282,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 charts=24 quotient=quadratic exact_reductions=240\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/verify_audit.py",
+      "seconds": 0.043662,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok charts=24 generators=3 reductions=240 outside=open\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/verify.py",
+      "seconds": 0.061239,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 xi=0 pairing=0 raw_cases=16 fibers=64 f_candidates=64 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/verify_audit.py",
+      "seconds": 0.055094,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok xi=0 pairing=0 signs=4 lanes=4 raw_cases=16\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi1_pairing0_parallel_edge_transport/verify.py",
+      "seconds": 0.055954,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 transport=xi0_to_xi1 pairing=0 raw_cases=16\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi1_pairing0_parallel_edge_transport/verify_audit.py",
+      "seconds": 0.03909,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok parallel_positive_DE=2 pairing=0 transport=exact\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi2_pairing0_outside_exclusion/verify.py",
+      "seconds": 0.054984,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 xi=2 pairing=0 raw_cases=16 fibers=32 f_candidates=32 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi2_pairing0_outside_exclusion/verify_audit.py",
+      "seconds": 0.052459,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok xi=2 pairing=0 de=-m squared_sum=(d-e)^2 raw_cases=16\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

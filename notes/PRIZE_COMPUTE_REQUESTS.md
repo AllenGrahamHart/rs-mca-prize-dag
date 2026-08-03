@@ -11627,3 +11627,38 @@ All five exact generic identities pass.  The audit packet has SHA-256
 `e1651bf40f716eeef1daafab71b0f0b49a010d2d38395aa6ecde1d3e82b7bb81`,
 and its local hash/marker checker passes.  This pays the generic Bezout
 certificate audit; it does not classify exceptional `t` fibers.
+
+### 2026-08-02 cell-14 linear-pair exact census
+
+**Decision and authorization.**  The user renewed the monthly Modal credit
+and explicitly authorized valuable numerical experiments.  The campaign
+tests the route-deciding cell-14 subfamily in which a `de` record is missing
+and the two residual `de` records are paired.  All arithmetic is exact over
+`F_2130706433`; no sampled-prime inference is used.  The campaign exceeded
+the protocol's default five-minute aggregate window under that explicit
+authorization, but retained per-task hard caps, at most 32 containers, and a
+conservative cost below `$3`.
+
+**Completeness router.**  The signed atlas gives four source signs, four
+target lanes, seven missing outside records, and fifteen perfect matchings.
+The selected subfamily is the exact Cartesian product of 4 source signs,
+4 lanes, 3 missing `de` records, and 3 residual-`de` matchings: 144 logical
+cases.  Quadratic-pair reduction gives one target-free linear equation.  Its
+open resultant and every irreducible factor of the common-coefficient
+boundary are checked separately.
+
+**Execution.**  Final apps were `ap-L0KpNyaoVMYhGpecdOKI2R` (48 pairing-0
+complete cases), `ap-vElucfytu5kl97fbXEr2lp` (96 open projections),
+`ap-tXKscerl0pr5s0NY8Wx2Sn` (768 role-0/1 boundaries), and
+`ap-1LVqOLunDONjPiKM5zLStF` (320 role-2 boundaries).  One role-2 factor
+timed out in the parallel launch.  Isolated replay
+`ap-wNUhANWcKOGTQbuK1NAwkQ` used identical definition and program hashes and
+completed unit.  Every app stopped normally.
+
+**Certificate and effect.**  The compact aggregate has 144 open and 1632
+boundary unit ideals, with explicit Cartesian coverage, source/result hashes,
+factor profiles, and timeout-replay custody.  The independent audit checks
+the matching enumeration, two boundary profiles, exact missing-role identity,
+and hostile count mutations.  PASS promotes only
+`rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion`;
+1536 raw cell-14 outside cases remain open.

@@ -666,13 +666,13 @@ identifications without a machine-verified chain.
 
 - **Counts** (refreshed from `dag.json`, the single source of truth; pinned by
   `tools/verify_orbit_census.py`): critical surface 179 PROVED / 38 CONDITIONAL /
-  24 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
-  grand challenges {`mca_grand`, `list_grand`} = **241** nodes. *(Q0, 2026-07-26:
+  25 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
+  grand challenges {`mca_grand`, `list_grand`} = **242** nodes. *(Q0, 2026-07-26:
   this line previously read "req-closure of `prize` = 260" — wrong root. The
-  closure of `prize` is the* **submission orbit** *= 256 = 191/40/25, i.e. the math
+  closure of `prize` is the* **submission orbit** *= 257 = 191/40/26, i.e. the math
   orbit plus a 15-node packaging spine.)* The separate submission dossier is a
   target artifact rather than a mathematical leaf — it is the submission orbit's
-  25th TARGET and does not appear in the 24. The 2026-07-26 E1 and
+  26th TARGET and does not appear in the 25. The 2026-07-26 E1 and
   unsafe-at-crossing false-green audits account for the delta from the earlier
   `201/36/23` pin.
 - **Wired bottlenecks** (no alt, no upstream substitute):
@@ -682,7 +682,7 @@ identifications without a machine-verified chain.
 - **The true critical path:** `l1_mixed_petal_amplification` — in the
   irreducible core under every wiring including the RK world, wired into
   both grands, and the longest-stalled core leaf.
-- **Minimal win sets:** unconditional = all 24 mathematical leaves + dossier
+- **Minimal win sets:** unconditional = all 25 mathematical leaves + dossier
   (pure AND). `list_grand` alone = {l1, adjacent_crossing}, closing its five
   conditional ancestors. The former `17/20` RK-prune and direct-prune counts
   predated the N11 truth ruling and are retired pending a fresh route-surgery
@@ -692,9 +692,9 @@ identifications without a machine-verified chain.
   preserve `(D,kappa)` and hence the RS rate. The clean-rate MCA/list
   milestone therefore excludes both rate-half mathematical leaves. The global
   all-rate F1 dependency remains correct for the full prize. On the corrected
-  board the clean-rate milestone contains 22 of the 24 mathematical leaves;
+  board the clean-rate milestone contains 23 of the 25 mathematical leaves;
   the two excluded leaves are the rate-half band and list-adjacent targets.
-- **Concentration risk:** 12 of 24 leaves and 3 of 5 demotion triggers live
+- **Concentration risk:** 12 of 25 leaves and 3 of 5 demotion triggers live
   in the dli lane behind one req edge. STANDING D2 CAP: dli receives at most
   one-third of any phase's effort; any demotion event freezes further dli
   spend for one full phase while the B-WEAK-direct re-pose is drafted from
@@ -15628,6 +15628,234 @@ next route step:          bounded guard-saturated common-ideal census;
 nonclaim:                 no common-point or route exclusion
 ```
 
+### Work-cycle theorem: positive 433-1b cell-3 compact curve and kernel
+
+```text
+role cell:                singleton AB; pairs (LA,AC),(BC+,BC-)
+compact common system:    three 7 x 7 compatibility determinants
+principal cover:          4 source signs x 6 product cofactors = 24 charts
+chart result:             24/24 dimension one, compact basis size 21
+chart-uniform projections:(t,r)=(6,14), (r,b)=(16,58),
+                          (b,t)=(19,106), (r,c)=(13,49)
+deployed factorization:   all four projections irreducible
+reciprocal structure:     exact in b,b,c for the last three projections
+raw beta boundary:        dimension zero, basis size 44; guard-supported
+route-open beta boundary: 24/24 unit after correct re-saturation
+polynomial kernel:        one sign-independent eight-coordinate vector
+row checks:               7 identity zeros + 3 common-ideal reductions;
+                          40/40 rows zero across four source signs
+Modal apps:               ap-AGqPPKN3W9rfwjFIqffQrB,
+                          ap-SrNopezdI7zgrke9RrPYIK,
+                          ap-LuSwHZu7pT3DhViknVB1Wa,
+                          ap-6qVkMVGOgnUN7LeauQtkaL
+next route step:          staged FLINT reduction and one necessary signed-pair
+                          resultant at a time on the guarded common curve
+do not scale:             monolithic six-variable SymPy outside expansion;
+                          one pilot timed out before Groebner computation
+nonclaim:                 no outside exclusion, cell-3 closure, full 433-1b,
+                          rate-half band, K3, LIST, MCA, or Prize closure
+```
+
+### Work-cycle theorem: positive 433-1b cell-3 global quadratic quotient
+
+```text
+block-lex order:          (c,b,t,r)
+principal cover:          4 source signs x 6 product cofactors = 24 charts
+full common basis:        dimension one, 10 elements in every chart
+exact interface:          E_epsilon(t,r)=0,
+                          A_epsilon(b^2+1)+B_epsilon b=0,
+                          D_epsilon c+C_epsilon=0
+base shape:               total degree 6, 14 terms
+b shape:                  total degree 7, 16 terms; palindromic in b
+c shape:                  total degree 3, 6 terms; linear in c
+b coefficient:            A_epsilon=r^2(t+epsilon_2 iota r), a route unit
+c coefficient:            D_epsilon=t-epsilon_1 epsilon_2 r^2,
+                          24/24 route-open boundary ideals unit
+ideal equality:           all 10 full basis rows reduce to zero after exact
+                          route/cofactor/recovery saturation, 240/240 checks
+chart invariance:         full basis and interface identical across six charts
+                          for each fixed source-sign pair
+Modal app:                ap-JEq4qbYLYwJfSXNN7SYERD
+next route step:          xi0/pairing0 is now paid; transport the same
+                          six-basis route to xi1/pairing0
+do not scale:             monolithic six-variable SymPy or dense full-block
+                          outside ideals
+nonclaim:                 no birationality, outside exclusion, cell-3 closure,
+                          K3, LIST, MCA, or Prize closure
+```
+
+Cycle burn-down: start `6711ee56de42`; canonical `7cbedd5de1db`; upstream
+`origin/main` `93fba1be3f32`; result `NARROWED`; DAG delta `+1 PROVED`
+background theorem, `+1 req`, `+1 ev`; critical-orbit and upstream-terminal
+deltas zero; no new assumptions or compute requests; next route-deciding
+action is one exact outside pilot in the quadratic pair algebra.
+
+### Work-cycle theorem: positive 433-1b cell-3 xi0/pairing0 exclusion
+
+```text
+outside scope:            missing record xi=0, canonical matching pairing=0
+raw atlas cover:          4 source signs x 4 target lanes = 16 cases
+common algebra:           {1,t,t^2,b,bt,bt^2} over F_p(r), dimension 6
+target-free cut:          paired(de,-de)=0
+norm certificate:         direct 6 x 6 multiplication determinant equals the
+                          independent quadratic-over-cubic tower norm
+norm shape:               numerator degree 422 / 401 terms;
+                          denominator degree 156 / 157 terms
+field roots per sign:     11 = 5 route boundaries + 6 live norm roots
+exact root replay:        12 guarded common points per sign, exactly 4 on the
+                          target-free cut; all 6 product cofactors nonzero
+finite target ledger:     64 point/lane fibers total
+colored quartics:         48 fibers have no field root; 16 fibers contribute
+                          4 roots each, for 64 surviving f candidates
+residual elimination:     both u cuts have gcd degree 0 at all 64 candidates
+result:                   0 witnesses, 0 target-boundary solutions,
+                          0 unresolved rows; all 16 raw cases PROVED empty
+Modal apps:               ap-oZR28f9DNs4ObLIMYHy3KD,
+                          ap-auC3dsSVqAYHtp2W1kdA6R,
+                          ap-BzdBRfusmorVuM3MutKnkN
+route no-gos:             dense SymPy fraction-field pilot exceeded 300 s;
+                          Singular coefficient field rejects p > 2^29
+next route step:          test xi1/pairing0 for explicit source-label symmetry
+                          or run the same one-sign six-basis norm pilot
+nonclaim:                 no other xi/pairing, complete cell-3, 433-1b, K3,
+                          LIST, MCA, or Prize closure
+```
+
+Cycle burn-down: start `cd1b01de3`; canonical `7cbedd5de1db`; upstream
+`origin/main` `93fba1be3f32`; result `PROVED`; DAG delta `+1 PROVED`
+background theorem, `+1 req`, `+1 ev`; critical-orbit and upstream-terminal
+deltas zero; no assumptions or large-compute requests added; next
+route-deciding action is the orbit comparison for `xi1,pairing0`.
+
+### Work-cycle theorem: positive 433-1b cell-3 xi1 parallel-edge transport
+
+```text
+atlas records:             de,de,-de; df,sigma_o ef; bf,sigma_c cf
+parallel swap:             exchange the first two positive DE copies
+missing product rows:      de = de
+missing squared-sum rows:  (d+e)^2 = (d+e)^2
+pairing-0 residuals:       both deletions leave
+                           de,-de,df,sigma_o ef,bf,sigma_c cf
+paired equations:          (de,-de), (df,sigma_o ef),
+                           (bf,sigma_c cf) in both systems
+guards:                    target representatives fixed; all guards unchanged
+transport source:          xi0/pairing0 exact exclusion
+new result:                all 16 xi1/pairing0 raw cases PROVED empty
+combined pairing-0 paid:   xi in {0,1}, 32 raw cases
+Modal status:              no launch; structural transport only
+next route step:           xi2/pairing0, whose missing product is -de and
+                           whose first residual pair is (de,de)
+nonclaim:                  no xi2,...,6, other matching, cell-3, K3, LIST,
+                           MCA, or Prize closure
+```
+
+Cycle burn-down: start `f58784c31`; result `PROVED`; DAG delta `+1 PROVED`
+background theorem, `+1 req`, `+1 ev`; critical-orbit delta zero; compute
+cost zero; next route-deciding action is one bounded `xi2,pairing0`
+six-basis norm pilot.
+
+### Work-cycle theorem: positive 433-1b cell-3 xi2/pairing0 exclusion
+
+```text
+outside scope:            negative DE missing record xi=2, pairing=0
+source/target sign cover: 4 x 4 = 16 raw cases
+sign discipline:          source missing ratio m gives target de=-m
+target-free cut:          paired(de,de)=0
+missing squared sum:      (d-e)^2, hence residual equation uses (u-v)^2
+norm certificate:         direct 6 x 6 norm equals quadratic-over-cubic norm
+norm shape:               numerator 422/401; denominator 156/157
+field roots per sign:     8 = 5 route boundaries + 3 live norm roots
+exact root replay:        4 guarded common points per sign, 2 target-free
+finite target ledger:     32 point/lane fibers total
+colored quartics:         16 fibers have no field root; 16 have 2 roots,
+                          giving 32 f candidates
+residual elimination:     both u cuts have gcd degree 0 at all 32 candidates
+result:                   0 witnesses, 0 target boundaries, 0 unresolved;
+                          all 16 raw cases PROVED empty
+DE/pairing0 aggregate:    xi in {0,1,2}, 48 raw cases paid
+Modal apps:               ap-4q1oBdbGCX2yS2bdw8ZDyZ,
+                          ap-Ff2XsYkZr5Q28iAnywqwiG,
+                          ap-NrA3EZi5KT9lzjhxIdR8q0
+next route step:          xi3/pairing0; first test reuse of the paired(de,de)
+                          target-free root ledger before a new norm run
+nonclaim:                 no xi3,...,6, other matching, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `207945676`; result `PROVED`; DAG delta `+1 PROVED`
+background theorem, `+1 req`, `+1 ev`; critical-orbit delta zero; bounded
+four-container Modal census only; no large-compute request added.
+
+### Work-cycle theorem: positive 433-1b cell-3 DE first-pair block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing in {0,1,2}
+raw atlas cover:          3 DE copies x 3 matchings x 4 source signs
+                          x 4 target lanes = 144 cases
+pairing-zero parents:     48 cases already proved
+new computed cover:       xi in {0,2}, pairing in {1,2} = 64 raw cases
+new transport cover:      xi=1, pairing in {1,2} = 32 raw cases
+reused common cuts:       paired(de,-de) for positive DE;
+                          paired(de,de) for negative DE
+finite first stage:       solve (d^2+de)^2-sd^2 or (d^2-de)^2-sd^2
+positive DE result:       per source/pairing row, 2 points have 0 d roots and
+                          2 have 4; 256 residual f-gcd decisions, all degree 0
+negative DE result:       16 common-point quartics, all with no field d root
+terminal ledgers:         0 witnesses, 0 target boundaries, 0 unresolved
+result:                   complete 144-case block PROVED empty
+Modal app:                ap-6vCpYvv8Ms8sYhmETl46Mp
+route boundary:           pairing >=3 separates the two residual DE records;
+                          the proved target-free ledgers no longer apply
+xi3 no-go:                8x8 Sylvester and Euclidean quartic resultants each
+                          hit 300 s; the latter reached two quartics in 117 s
+next route step:          lower-degree/shared-f elimination for xi3/pairing0,
+                          or a pairing-separated direct projection
+nonclaim:                 no xi3,...,6, pairing3,...,14, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `5c1482f03`; result `PROVED`; DAG delta `+1 PROVED`
+background theorem, `+3 req`, `+1 ev`; critical-orbit delta zero; the only
+successful new campaign was a ten-second 16-container finite census.  The two
+capped xi3 pilots are recorded as no-go routes and authorize no truth claim.
+
+### Work-cycle theorem: positive 433-1b cell-3 DE pairing-3 block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing=3
+raw atlas cover:          3 DE copies x 1 matching x 4 source signs
+                          x 4 target lanes = 48 cases
+new computed cover:       xi in {0,2} = 32 raw cases
+new transport cover:      xi=1 = 16 raw cases
+coefficient backend:      reduced python-flint fractions in F_p(r)
+common cut:               quadratic P_u(u), quadratic P_v(v), and
+                          H=de(u+eta v)^2-suv
+elimination:              quadratic resultant, quartic reduction modulo P_v,
+                          then one six-dimensional target-free norm
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       roots of every inversion numerator/denominator,
+                          base-cubic leading coefficient, and norm numerator/
+                          denominator are all directly lifted
+finite census:            10..12 candidate r values and 14 or 18 guarded
+                          source points per computed row
+terminal ledgers:         0 witnesses, 0 unresolved; 32 boundary records,
+                          all exactly f=0
+result:                   complete 48-case pairing-3 block PROVED empty
+Modal app:                ap-6mGC0EvEr0g7uzfVD9CLEf
+paid DE block:            xi in {0,1,2}, pairing in {0,1,2,3},
+                          192 raw cases
+next route step:          test the same low-degree backend at pairing=4;
+                          retain xi=3,pairing=0 as the competing branch
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `99dd7b7c7`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero.  Dense SymPy function-field arithmetic was replaced by an exact FLINT
+backend; all successful rows stayed below 90 seconds and the final 32-row
+campaign used 16 Modal containers.
+
 ### Work-cycle theorem: positive 433-1b cell-14 kernel normalization boundary
 
 ```text
@@ -15646,5 +15874,119 @@ next route step:         outside ledger using the global normalized kernel and
 do not scale:            current dense quotient, successive-resultant, or
                          latent-root prototypes in their present forms
 nonclaim:                no outside exclusion, cell-14 closure, K3, LIST, MCA,
-                         or Prize closure
+                          or Prize closure
+```
+
+### Work-cycle theorem: positive 433-1b cell-14 linear-pair outside exclusion
+
+```text
+outside records:         de,de,-de,df,sigma_o ef,bf,sigma_c cf
+source/target lanes:     4 x 4
+covered missing roles:   the three de records
+covered matchings:       the three matchings pairing the residual de records
+logical cases:           4 x 4 x 3 x 3 = 144
+open exact ideals:       144/144 unit
+boundary exact ideals:   1632/1632 unit
+raw cell-14 ledger:      1680 cases
+retained frontier:       1536 target-dependent cases
+consequence:             one complete outside subfamily is PROVED empty
+next route step:         find a second target-free combination or eliminate
+                          one target variable in the quadratic pair algebra
+do not scale:            dense full-block outside ideals
+nonclaim:                no complete cell-14, 433-1b, K3, LIST, MCA, or Prize
+                          closure
+```
+
+### Work-cycle theorem: positive 433-1b cell-14 rank-one target projection
+
+```text
+outside records:         de,de,-de,df,sigma_o ef,bf,sigma_c cf
+source/target lanes:     4 x 4
+covered missing roles:   df, ef, bf, cf
+covered matchings:       all 15 perfect matchings of six residual records
+logical cases:           4 x 4 x 4 x 15 = 960
+rank-one reduction:      a f^2 = u v leaves two free target variables
+eliminant classes:       32 direct resultants; 448 two-stage resultants;
+                          480 target-free projections
+parameter-root census:  12,880 exact deployed-field incidences
+independent root replay: 960/960 root sets and 12,880/12,880 roots agree
+direct finite replay:    2,848/2,848 empty
+guard incidences:        10,032 established boundaries
+global boundary audit:  8 curve-leading roots and 24 missing-ratio roots;
+                          all are route boundaries in the four source signs
+raw cell-14 ledger:      1680 cases
+new exclusion:           960 cases PROVED empty
+combined exclusions:     144 + 960 = 1104 disjoint cases
+retained frontier:       576 cases: missing de, residual de records unpaired
+Modal apps:              ap-aJegcixulC1hBDQ8PQtkSM,
+                          ap-dvxHxN0A3m8wcTyfoVs6uJ,
+                          ap-nXDSKUDdqZVVpkHVYSQIwM,
+                          ap-1qgp8j9Fy2dWpV4meMnmeW,
+                          ap-vMwrRLuhBaBIVyQMrn08sW,
+                          ap-1oux7CH8KaTbMbizmt9dbx,
+                          ap-Q1nON1zHA2fDVllZQRjkrf
+next route step:         fix a=+/-B_xi/A_xi, then use a f^2=u v before
+                          eliminating the 12 unpaired matching classes
+do not scale:            dense five-variable standard bases
+nonclaim:                no complete cell-14, 433-1b, K3, LIST, MCA, or Prize
+                          closure
+```
+
+### Work-cycle theorem: positive 433-1b cell-14 fixed-a rank-one chain
+
+```text
+outside records:         de,de,-de,df,sigma_o ef,bf,sigma_c cf
+source/target lanes:     4 x 4
+covered missing roles:   de,de,-de
+covered matchings:       3,4,5,9,10,11,12,13,14
+logical cases:           4 x 4 x 3 x 9 = 432
+torus reduction:         a fixed to +/-B_xi/A_xi; u=z; v=a f^2/z
+algebra implementation:  ordinary (u,v,f) equations, termwise torus map,
+                          one denominator per equation, FLINT b-projection
+eliminant route:         mixed-pair resultant then univariate outer resultant
+parameter-root census:  9,456 exact deployed-field incidences
+independent root replay: 432/432 root sets and 9,456/9,456 roots agree
+direct finite replay:    8,736/8,736 empty
+guard incidences:        5,248 established route/inverse boundaries;
+                          480 target-zero points recorded and excluded by guards
+new exclusion:           432 cases PROVED empty
+combined exclusions:     144 + 960 + 432 = 1536 disjoint cases
+retained frontier:       144 all-mixed cases, matching indices 6,7,8
+Modal apps:              ap-Swrji8bgPtULNZ7oRiLalS,
+                          ap-J46z9Bd8BBWYvYze8y2U7W
+next route step:         build two independent inner resultants from the four
+                          mixed projections, then eliminate the outer target
+do not alter:            frozen 432-case compiler/result provenance
+nonclaim:                no complete cell-14, 433-1b, K3, LIST, MCA, or Prize
+                          closure
+```
+
+### Work-cycle theorem: positive 433-1b cell-14 all-mixed closure
+
+```text
+outside records:         de,de,-de,df,sigma_o ef,bf,sigma_c cf
+source/target lanes:     4 x 4
+covered missing roles:   de,de,-de
+covered matchings:       6,7,8
+logical cases:           4 x 4 x 3 x 3 = 144
+eliminant route:         all pair resultants in both directions; minimum-degree
+                          nonzero complete double resultant
+parameter-root census:  2,992 exact deployed-field incidences
+independent root replay: 144/144 root sets and 2,992/2,992 roots agree
+guard incidences:        1,808 established route/inverse boundaries
+checked roots:           1,184
+projection base factors: 960 checked roots; 192 have no field weight;
+                          768 give 960 exact weighted branches
+factor fibers:           0/960 weighted branches have a field-valued f root
+residual fibers:         exact factor removal; zero field-valued outer roots
+new exclusion:           144 cases PROVED empty
+combined exclusions:     144 + 960 + 432 + 144 = 1680 disjoint cases
+retained frontier:       none; deployed positive 433-1b cell 14 is CLOSED
+Modal apps:              ap-m1NK5ARLVa4ckTFpUBTpdQ,
+                          ap-TiSI2DgsmyhffsuId3zhsq,
+                          ap-lX0maVkfN19roNgomFvlyg
+next route step:         downstream rate-half consumer or upstream finite-packet
+                          export; do not decompose cell 14 further
+nonclaim:                no full 433-1b, rate-half band, K3, LIST, MCA, or Prize
+                          closure
 ```

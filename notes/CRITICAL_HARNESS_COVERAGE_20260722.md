@@ -10,12 +10,12 @@ tools/ramguard tiny -- python3 tools/verify_critical_harness_coverage.py
 ## Scope and interpretation
 
 The current census covers the 242-node mathematical critical orbit. Of its
-180 `PROVED` nodes:
+179 `PROVED` nodes:
 
 | coverage class | count | meaning |
 |---|---:|---|
 | local verifier | 44 | at least one manifest-discoverable `verify*.py` under the node |
-| folder, markdown only | 131 | a critical node folder exists, but no discoverable local checker |
+| folder, markdown only | 130 | a critical node folder exists, but no discoverable local checker |
 | legacy reference only | 5 | no node folder; the DAG cites an older proof source |
 | no artifact | 0 | neither a node folder nor a DAG reference |
 
@@ -76,7 +76,7 @@ the route-local E1 statement could not replace the missing universal row
 instantiation: "collided" did not imply the strict occupancy premise. The
 14-node exhibit branch is background evidence, E1 is route evidence, and
 `unsafe_crossing_family_instantiation` is the live universal target. The
-current surface is therefore `180 PROVED / 38 CONDITIONAL / 24 TARGET`. The green
+current surface is therefore `179 PROVED / 38 CONDITIONAL / 25 TARGET`. The green
 law in `critical/CRITICAL.md` requires a true claim with a proof artifact, and
 computation claims require a pinned result plus replayable verifier.
 

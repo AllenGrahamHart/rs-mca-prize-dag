@@ -7,20 +7,20 @@ declared one of them "stale". This verifier pins both and their exact delta so
 the confusion cannot silently return.
 
   MATH ORBIT      req-ancestry (+ the alt-closure rule) of the two grand-challenge
-                  nodes {mca_grand, list_grand}.  241 = 179 PROVED / 38 CONDITIONAL
-                  / 24 TARGET.  This is what orbit/critical_dag.json, the radial
+                  nodes {mca_grand, list_grand}.  242 = 179 PROVED / 38 CONDITIONAL
+                  / 25 TARGET.  This is what orbit/critical_dag.json, the radial
                   SVG, the published site, the partition law in verify_prize_dag.py,
-                  and verify_critical_harness_coverage.py all measure.  Its 24
+                  and verify_critical_harness_coverage.py all measure.  Its 25
                   TARGETs are the mathematical leaves of the roadmap.
 
-  SUBMISSION ORBIT  the same closure rooted at `prize`.  256 = 191 / 40 / 25.
+  SUBMISSION ORBIT  the same closure rooted at `prize`.  257 = 191 / 40 / 26.
                   Strict superset: MATH ORBIT + 15 packaging/bridge/Lean-harness
                   nodes (12 PROVED, 2 CONDITIONAL, 1 TARGET), enumerated below.
                   This is the Convergence Ledger's baseline and equals the
                   dominator set printed by verify_prize_dag.py's every-route
-                  analysis (25 open dominators == the 25 submission-orbit TARGETs).
+                  analysis (26 open dominators == the 26 submission-orbit TARGETs).
 
-Neither census is stale; 256 - 241 = 15 is definitional, not drift. Consumers must
+Neither census is stale; 257 - 242 = 15 is definitional, not drift. Consumers must
 say WHICH orbit they mean. Burn-down of *mathematics* is the math orbit; the
 "all-green DAG" end state is the submission orbit (it owns the dossier leaf).
 
@@ -55,8 +55,11 @@ SUBMISSION_ROOT = "prize"
 # cascade nodes returned to PROVED. xr_gvn went the other way (CONDITIONAL -> TARGET):
 # the exact moment does NOT supply its multi-exchange Cauchy-Schwarz chain, so that
 # edge is evidence-only. Net: reds 25 -> 24. Was 177/39/25.
-EXPECTED_MATH = {"PROVED": 179, "CONDITIONAL": 38, "TARGET": 24}
-EXPECTED_SUBMISSION = {"PROVED": 191, "CONDITIONAL": 40, "TARGET": 25}  # was 189/41/26
+# ROUTE-T REPRICE (2026-08-02, coordinated edit f72ca9e5): the new
+# xr_graded_tangent_band_charge TARGET is a mathematical leaf.  The unchanged
+# 15-node submission spine therefore raises both orbit TARGET counts by one.
+EXPECTED_MATH = {"PROVED": 179, "CONDITIONAL": 38, "TARGET": 25}
+EXPECTED_SUBMISSION = {"PROVED": 191, "CONDITIONAL": 40, "TARGET": 26}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no

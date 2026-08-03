@@ -1,0 +1,205 @@
+{
+  "case_count": 144,
+  "eliminant_bytes": 230008092,
+  "field": 2130706433,
+  "root_count": 2992,
+  "schema": "rate-half-kb-positive-433-1b-cell14-allmixed-root-replay-v1",
+  "shard_count": 24,
+  "shards": [
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9247556,
+      "root_count": 126,
+      "root_ledger_sha256": "a668fa58f1079a5688900f64e46814c695664a6825cf67796b079c01d58d3ce9",
+      "shard_index": 0,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9751581,
+      "root_count": 122,
+      "root_ledger_sha256": "ad37f5a363cbec901a7cc0ad16aec560d525a1fa38ace2c0bdc4a7c19e6418f2",
+      "shard_index": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9751971,
+      "root_count": 126,
+      "root_ledger_sha256": "9e93f0c4bed5a584bcfc34011fc54d90825500fccc092ad89d946ad67d126a19",
+      "shard_index": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9248284,
+      "root_count": 122,
+      "root_ledger_sha256": "f6cd61a24823f47da342f1e1cc3b873b68c7dab1e45b817380d45893067b50e0",
+      "shard_index": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9751370,
+      "root_count": 124,
+      "root_ledger_sha256": "1742ec7724f2c310f7b5d6be3583880f2a8b220cf8c4140e5baea397b2a16b94",
+      "shard_index": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9752786,
+      "root_count": 132,
+      "root_ledger_sha256": "624e711ea6904da788eae0231e7715829b02ba08bf0b6b2ab796b4029aa6c5d5",
+      "shard_index": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9247090,
+      "root_count": 126,
+      "root_ledger_sha256": "dac004508759ca3bad4d1929fa6ff19f3bcea25754fdca0f539d136baa59d7b7",
+      "shard_index": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9751085,
+      "root_count": 122,
+      "root_ledger_sha256": "0ab72ea0287d339b47c5256eb2e534e39081353beb9a84edd6380ec3044843ae",
+      "shard_index": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9752344,
+      "root_count": 128,
+      "root_ledger_sha256": "f9e44ddefcba557c0137b130dd73427a7fb510b51fee3f820691144cdf1f3516",
+      "shard_index": 8,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9246716,
+      "root_count": 126,
+      "root_ledger_sha256": "2accc3f5c29500adb510ef3fa2d7d09c0c7e63b8422cd0bc18e824b1bc3c2342",
+      "shard_index": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9750973,
+      "root_count": 120,
+      "root_ledger_sha256": "483a2e4f3473d50b1bc5e8b634249df4a5c3548eb8a7a1090df6ee85b0b06900",
+      "shard_index": 10,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9752290,
+      "root_count": 122,
+      "root_ledger_sha256": "8466bb6ed3537276558e54943eb92311b9c46d55a9508c4424cc6d127ad13b24",
+      "shard_index": 11,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9247556,
+      "root_count": 126,
+      "root_ledger_sha256": "0272c6f9d00cba322bb73a2a1b573bb53f040f111961f5eee2031ea95f44ab7d",
+      "shard_index": 12,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9751581,
+      "root_count": 122,
+      "root_ledger_sha256": "0947d8b6551d84c52036ed76c3a892b6c64ce8b5efde668300e5def2194396cb",
+      "shard_index": 13,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9751971,
+      "root_count": 126,
+      "root_ledger_sha256": "6eb77ad13ef0bdbfa4acc797b18bb35f2174dc47aae1f650ba0f6ea932f2149c",
+      "shard_index": 14,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9248284,
+      "root_count": 122,
+      "root_ledger_sha256": "cb894d547b6d811e5a11e7d634b0c755bb1f9a8ba9fd8d2c823cd68d366fa294",
+      "shard_index": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9751370,
+      "root_count": 124,
+      "root_ledger_sha256": "97a6ba4426feee310aa17e9789ddcd32cae707642795679dbc4e734969947110",
+      "shard_index": 16,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9752786,
+      "root_count": 132,
+      "root_ledger_sha256": "ca4904da8d331de063ca7f97e458fe15ae0054e1ede4e5f9a93a81c39d55757a",
+      "shard_index": 17,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9247090,
+      "root_count": 126,
+      "root_ledger_sha256": "522d057484755790c609c139606cd335d849685519293c7f59321b59d9852055",
+      "shard_index": 18,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9751085,
+      "root_count": 122,
+      "root_ledger_sha256": "1a37dc4bf386e9bfe0ec83acfeef28660353237990c203d718d125c7c8543327",
+      "shard_index": 19,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9752344,
+      "root_count": 128,
+      "root_ledger_sha256": "4b058482a866585918487a117b928828855a99c95dc825034aedfa04f74de693",
+      "shard_index": 20,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9246716,
+      "root_count": 126,
+      "root_ledger_sha256": "e47c1a4eb5d611b3fb2998587aaa8952e65150766ef1a4304dd8a4bfc29e6a5a",
+      "shard_index": 21,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9750973,
+      "root_count": 120,
+      "root_ledger_sha256": "26b515bf8f835ebcaaaed89f3a235fea549533d8b7af2c4332a3c111831835b8",
+      "shard_index": 22,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 6,
+      "eliminant_bytes": 9752290,
+      "root_count": 122,
+      "root_ledger_sha256": "821db421df934cd7de7cc616254a9ced2a8f0d780e8ac0029b327e3d3b013822",
+      "shard_index": 23,
+      "status": "COMPLETE"
+    }
+  ],
+  "source_script_sha256": "134761bc4395fb0c0f7af6668ea2777d0c85fa088c5ee8226204731a42817cc1",
+  "source_sha256": "ae69b532ebdfa61b84d78b595a4f87636e6bb5515cf8d33391e21f45c8a00d9f",
+  "status": "COMPLETE"
+}

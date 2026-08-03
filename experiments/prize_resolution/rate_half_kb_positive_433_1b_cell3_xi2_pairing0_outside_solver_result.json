@@ -1,0 +1,904 @@
+{
+  "rows": [
+    {
+      "boundary_solutions": [],
+      "case_count": 8,
+      "case_excluded": true,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "pairing_index": 0,
+      "rows": [
+        {
+          "colored_degree": 4,
+          "de": 971653736,
+          "f_roots": [
+            130509518,
+            1103269866
+          ],
+          "f_rows": [
+            {
+              "f": 130509518,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            },
+            {
+              "f": 1103269866,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            }
+          ],
+          "point": [
+            2077655806,
+            630473419,
+            504782258,
+            1716025200
+          ],
+          "sigma": [
+            -1,
+            -1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 971653736,
+          "f_roots": [
+            130509518,
+            1103269866
+          ],
+          "f_rows": [
+            {
+              "f": 130509518,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            },
+            {
+              "f": 1103269866,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            }
+          ],
+          "point": [
+            2077655806,
+            630473419,
+            504782258,
+            1716025200
+          ],
+          "sigma": [
+            -1,
+            1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 971653736,
+          "f_roots": [],
+          "f_rows": [],
+          "point": [
+            2077655806,
+            630473419,
+            504782258,
+            1716025200
+          ],
+          "sigma": [
+            1,
+            -1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 971653736,
+          "f_roots": [],
+          "f_rows": [],
+          "point": [
+            2077655806,
+            630473419,
+            504782258,
+            1716025200
+          ],
+          "sigma": [
+            1,
+            1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 907759593,
+          "f_roots": [
+            327142586,
+            596367777
+          ],
+          "f_rows": [
+            {
+              "f": 327142586,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            },
+            {
+              "f": 596367777,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            }
+          ],
+          "point": [
+            2077655806,
+            630473419,
+            1685153233,
+            695854045
+          ],
+          "sigma": [
+            -1,
+            -1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 907759593,
+          "f_roots": [
+            327142586,
+            596367777
+          ],
+          "f_rows": [
+            {
+              "f": 327142586,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            },
+            {
+              "f": 596367777,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            }
+          ],
+          "point": [
+            2077655806,
+            630473419,
+            1685153233,
+            695854045
+          ],
+          "sigma": [
+            -1,
+            1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 907759593,
+          "f_roots": [],
+          "f_rows": [],
+          "point": [
+            2077655806,
+            630473419,
+            1685153233,
+            695854045
+          ],
+          "sigma": [
+            1,
+            -1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 907759593,
+          "f_roots": [],
+          "f_rows": [],
+          "point": [
+            2077655806,
+            630473419,
+            1685153233,
+            695854045
+          ],
+          "sigma": [
+            1,
+            1
+          ],
+          "status": "CHECKED"
+        }
+      ],
+      "status": "COMPLETE",
+      "unresolved": [],
+      "witnesses": [],
+      "xi_index": 2
+    },
+    {
+      "boundary_solutions": [],
+      "case_count": 8,
+      "case_excluded": true,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "pairing_index": 0,
+      "rows": [
+        {
+          "colored_degree": 4,
+          "de": 971653736,
+          "f_roots": [
+            130509518,
+            1103269866
+          ],
+          "f_rows": [
+            {
+              "f": 130509518,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            },
+            {
+              "f": 1103269866,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            }
+          ],
+          "point": [
+            747427118,
+            1119576025,
+            504782258,
+            1716025200
+          ],
+          "sigma": [
+            -1,
+            -1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 971653736,
+          "f_roots": [
+            130509518,
+            1103269866
+          ],
+          "f_rows": [
+            {
+              "f": 130509518,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            },
+            {
+              "f": 1103269866,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            }
+          ],
+          "point": [
+            747427118,
+            1119576025,
+            504782258,
+            1716025200
+          ],
+          "sigma": [
+            -1,
+            1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 971653736,
+          "f_roots": [],
+          "f_rows": [],
+          "point": [
+            747427118,
+            1119576025,
+            504782258,
+            1716025200
+          ],
+          "sigma": [
+            1,
+            -1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 971653736,
+          "f_roots": [],
+          "f_rows": [],
+          "point": [
+            747427118,
+            1119576025,
+            504782258,
+            1716025200
+          ],
+          "sigma": [
+            1,
+            1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 907759593,
+          "f_roots": [
+            327142586,
+            596367777
+          ],
+          "f_rows": [
+            {
+              "f": 327142586,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            },
+            {
+              "f": 596367777,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            }
+          ],
+          "point": [
+            747427118,
+            1119576025,
+            1685153233,
+            695854045
+          ],
+          "sigma": [
+            -1,
+            -1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 907759593,
+          "f_roots": [
+            327142586,
+            596367777
+          ],
+          "f_rows": [
+            {
+              "f": 327142586,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            },
+            {
+              "f": 596367777,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            }
+          ],
+          "point": [
+            747427118,
+            1119576025,
+            1685153233,
+            695854045
+          ],
+          "sigma": [
+            -1,
+            1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 907759593,
+          "f_roots": [],
+          "f_rows": [],
+          "point": [
+            747427118,
+            1119576025,
+            1685153233,
+            695854045
+          ],
+          "sigma": [
+            1,
+            -1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 907759593,
+          "f_roots": [],
+          "f_rows": [],
+          "point": [
+            747427118,
+            1119576025,
+            1685153233,
+            695854045
+          ],
+          "sigma": [
+            1,
+            1
+          ],
+          "status": "CHECKED"
+        }
+      ],
+      "status": "COMPLETE",
+      "unresolved": [],
+      "witnesses": [],
+      "xi_index": 2
+    },
+    {
+      "boundary_solutions": [],
+      "case_count": 8,
+      "case_excluded": true,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "pairing_index": 0,
+      "rows": [
+        {
+          "colored_degree": 4,
+          "de": 971653736,
+          "f_roots": [
+            130509518,
+            1103269866
+          ],
+          "f_rows": [
+            {
+              "f": 130509518,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            },
+            {
+              "f": 1103269866,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            }
+          ],
+          "point": [
+            53050627,
+            1500233014,
+            504782258,
+            1716025200
+          ],
+          "sigma": [
+            -1,
+            -1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 971653736,
+          "f_roots": [
+            130509518,
+            1103269866
+          ],
+          "f_rows": [
+            {
+              "f": 130509518,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            },
+            {
+              "f": 1103269866,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            }
+          ],
+          "point": [
+            53050627,
+            1500233014,
+            504782258,
+            1716025200
+          ],
+          "sigma": [
+            -1,
+            1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 971653736,
+          "f_roots": [],
+          "f_rows": [],
+          "point": [
+            53050627,
+            1500233014,
+            504782258,
+            1716025200
+          ],
+          "sigma": [
+            1,
+            -1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 971653736,
+          "f_roots": [],
+          "f_rows": [],
+          "point": [
+            53050627,
+            1500233014,
+            504782258,
+            1716025200
+          ],
+          "sigma": [
+            1,
+            1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 907759593,
+          "f_roots": [
+            327142586,
+            596367777
+          ],
+          "f_rows": [
+            {
+              "f": 327142586,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            },
+            {
+              "f": 596367777,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            }
+          ],
+          "point": [
+            53050627,
+            1500233014,
+            1685153233,
+            695854045
+          ],
+          "sigma": [
+            -1,
+            -1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 907759593,
+          "f_roots": [
+            327142586,
+            596367777
+          ],
+          "f_rows": [
+            {
+              "f": 327142586,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            },
+            {
+              "f": 596367777,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            }
+          ],
+          "point": [
+            53050627,
+            1500233014,
+            1685153233,
+            695854045
+          ],
+          "sigma": [
+            -1,
+            1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 907759593,
+          "f_roots": [],
+          "f_rows": [],
+          "point": [
+            53050627,
+            1500233014,
+            1685153233,
+            695854045
+          ],
+          "sigma": [
+            1,
+            -1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 907759593,
+          "f_roots": [],
+          "f_rows": [],
+          "point": [
+            53050627,
+            1500233014,
+            1685153233,
+            695854045
+          ],
+          "sigma": [
+            1,
+            1
+          ],
+          "status": "CHECKED"
+        }
+      ],
+      "status": "COMPLETE",
+      "unresolved": [],
+      "witnesses": [],
+      "xi_index": 2
+    },
+    {
+      "boundary_solutions": [],
+      "case_count": 8,
+      "case_excluded": true,
+      "epsilon": [
+        1,
+        1
+      ],
+      "pairing_index": 0,
+      "rows": [
+        {
+          "colored_degree": 4,
+          "de": 971653736,
+          "f_roots": [
+            130509518,
+            1103269866
+          ],
+          "f_rows": [
+            {
+              "f": 130509518,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            },
+            {
+              "f": 1103269866,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            }
+          ],
+          "point": [
+            1383279315,
+            1011130408,
+            504782258,
+            1716025200
+          ],
+          "sigma": [
+            -1,
+            -1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 971653736,
+          "f_roots": [
+            130509518,
+            1103269866
+          ],
+          "f_rows": [
+            {
+              "f": 130509518,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            },
+            {
+              "f": 1103269866,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            }
+          ],
+          "point": [
+            1383279315,
+            1011130408,
+            504782258,
+            1716025200
+          ],
+          "sigma": [
+            -1,
+            1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 971653736,
+          "f_roots": [],
+          "f_rows": [],
+          "point": [
+            1383279315,
+            1011130408,
+            504782258,
+            1716025200
+          ],
+          "sigma": [
+            1,
+            -1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 971653736,
+          "f_roots": [],
+          "f_rows": [],
+          "point": [
+            1383279315,
+            1011130408,
+            504782258,
+            1716025200
+          ],
+          "sigma": [
+            1,
+            1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 907759593,
+          "f_roots": [
+            327142586,
+            596367777
+          ],
+          "f_rows": [
+            {
+              "f": 327142586,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            },
+            {
+              "f": 596367777,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            }
+          ],
+          "point": [
+            1383279315,
+            1011130408,
+            1685153233,
+            695854045
+          ],
+          "sigma": [
+            -1,
+            -1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 907759593,
+          "f_roots": [
+            327142586,
+            596367777
+          ],
+          "f_rows": [
+            {
+              "f": 327142586,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            },
+            {
+              "f": 596367777,
+              "status": "CHECKED",
+              "u_gcd_degree": 0,
+              "u_roots": [],
+              "u_rows": []
+            }
+          ],
+          "point": [
+            1383279315,
+            1011130408,
+            1685153233,
+            695854045
+          ],
+          "sigma": [
+            -1,
+            1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 907759593,
+          "f_roots": [],
+          "f_rows": [],
+          "point": [
+            1383279315,
+            1011130408,
+            1685153233,
+            695854045
+          ],
+          "sigma": [
+            1,
+            -1
+          ],
+          "status": "CHECKED"
+        },
+        {
+          "colored_degree": 4,
+          "de": 907759593,
+          "f_roots": [],
+          "f_rows": [],
+          "point": [
+            1383279315,
+            1011130408,
+            1685153233,
+            695854045
+          ],
+          "sigma": [
+            1,
+            1
+          ],
+          "status": "CHECKED"
+        }
+      ],
+      "status": "COMPLETE",
+      "unresolved": [],
+      "witnesses": [],
+      "xi_index": 2
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell3-xi2-pairing0-outside-census-v1",
+  "scope": "All four target sign lanes above the exact xi2/pairing0 common cut for one source-sign row.",
+  "source_kernel_sha256": "e20ccb714b252f00ee3ce877ee68eff032f43deb877e2097919151436ddcf789",
+  "source_replay_sha256": "6bf8d58a8af1fc37d153ed71ad506d27974d06249d4165983bc8bc264e893b57"
+}

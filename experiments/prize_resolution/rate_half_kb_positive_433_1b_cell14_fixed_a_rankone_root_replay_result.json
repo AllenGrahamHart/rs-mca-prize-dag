@@ -1,0 +1,68 @@
+{
+  "case_count": 432,
+  "field": 2130706433,
+  "root_count": 9456,
+  "schema": "rate-half-kb-positive-433-1b-cell14-fixed-a-root-replay-v1",
+  "shard_count": 8,
+  "shards": [
+    {
+      "case_count": 54,
+      "root_count": 1172,
+      "root_ledger_sha256": "5ab191377dc580a09fde635b904c6588d4d89bc67370b6cfb6561af6d16feeb5",
+      "shard_index": 0,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 54,
+      "root_count": 1200,
+      "root_ledger_sha256": "4f188df28b481e21659b644364d47d92006e72edd91c2264e06014b9b32c689b",
+      "shard_index": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 54,
+      "root_count": 1192,
+      "root_ledger_sha256": "1014b31e5f27e5d3d04e5108fe5d586ad4f2894c379a374b48a3c24e2d2c0382",
+      "shard_index": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 54,
+      "root_count": 1164,
+      "root_ledger_sha256": "f709c6ecb6128e1533e2f10773f2b2fb2ce261ac17064945bb63224048ab7c19",
+      "shard_index": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 54,
+      "root_count": 1172,
+      "root_ledger_sha256": "1816e2a0fe4a3cecafd26b47c4787138d524b2f2b02bbfbd0d51e99e645d5d1f",
+      "shard_index": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 54,
+      "root_count": 1200,
+      "root_ledger_sha256": "a701422bc798c64f34dd7cce52bfb756f3ff851f1c249db806b77b77de1aec16",
+      "shard_index": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 54,
+      "root_count": 1192,
+      "root_ledger_sha256": "e1b866faa5ead5aec41aac7dcbc9cc69b7b6612dd735ef1d6a6b0ff86ca7f5ea",
+      "shard_index": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "case_count": 54,
+      "root_count": 1164,
+      "root_ledger_sha256": "e4195c8bc1d2d1c81fa76bf48db53bc83705cdcd4efaf5939c8a0b6be699446c",
+      "shard_index": 7,
+      "status": "COMPLETE"
+    }
+  ],
+  "source_script_sha256": "06ad966aeffcccc5a2442f36d14acec6a7fcb984eb062e3456eb1313c6e75c67",
+  "source_sha256": "29d4bbe4a44ab2f743ff63e2c2440037302faa9c0aca1b627e2053bdba6be3dc",
+  "status": "COMPLETE"
+}

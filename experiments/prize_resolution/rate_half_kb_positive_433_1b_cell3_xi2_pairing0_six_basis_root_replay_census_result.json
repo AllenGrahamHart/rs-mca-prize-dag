@@ -1,0 +1,1074 @@
+{
+  "rows": [
+    {
+      "case_excluded": false,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "guarded_common_points": [
+        [
+          1137909913,
+          655855399,
+          1056789310,
+          1786995465
+        ],
+        [
+          1137909913,
+          655855399,
+          1690709880,
+          1958756912
+        ],
+        [
+          2077655806,
+          630473419,
+          504782258,
+          1716025200
+        ],
+        [
+          2077655806,
+          630473419,
+          1685153233,
+          695854045
+        ]
+      ],
+      "norm_root_count": 8,
+      "pairing_index": 0,
+      "root_rows": [
+        {
+          "r": 0,
+          "r_zero_guards": [
+            "r"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 1,
+          "r_zero_guards": [
+            "r2_minus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 16711679,
+          "r_zero_guards": [
+            "r2_plus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 1137909913,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            438663532,
+            501154775,
+            655855399
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 438663532,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 501154775,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [
+                1056789310,
+                1690709880
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 2002272887,
+                  "b": 1056789310,
+                  "b_missing": 629532861,
+                  "bc_zero_guards": [],
+                  "c": 1786995465,
+                  "c_denominator": 1861470140,
+                  "de_value": 597112528,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "source_missing_record": 1533593905,
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 335663606
+                },
+                {
+                  "a_missing": 1081537082,
+                  "b": 1690709880,
+                  "b_missing": 1424163708,
+                  "bc_zero_guards": [],
+                  "c": 1958756912,
+                  "c_denominator": 1861470140,
+                  "de_value": 1657529244,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "source_missing_record": 473177189,
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 1431335173
+                }
+              ],
+              "status": "CHECKED",
+              "t": 655855399,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 1877974025,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            363406794
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 363406794,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 2077655806,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            630473419
+          ],
+          "t_rows": [
+            {
+              "b_roots": [
+                504782258,
+                1685153233
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 1052178942,
+                  "b": 504782258,
+                  "b_missing": 497314328,
+                  "bc_zero_guards": [],
+                  "c": 1716025200,
+                  "c_denominator": 765885536,
+                  "de_value": 971653736,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "source_missing_record": 1159052697,
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                },
+                {
+                  "a_missing": 999623806,
+                  "b": 1685153233,
+                  "b_missing": 1486167028,
+                  "bc_zero_guards": [],
+                  "c": 695854045,
+                  "c_denominator": 765885536,
+                  "de_value": 907759593,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "source_missing_record": 1222946840,
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                }
+              ],
+              "status": "CHECKED",
+              "t": 630473419,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 2113994754,
+          "r_zero_guards": [
+            "r2_plus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 2130706432,
+          "r_zero_guards": [
+            "r2_minus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        }
+      ],
+      "status": "COMPLETE",
+      "target_free_zero_points": [
+        [
+          2077655806,
+          630473419,
+          504782258,
+          1716025200
+        ],
+        [
+          2077655806,
+          630473419,
+          1685153233,
+          695854045
+        ]
+      ],
+      "target_lanes_covered": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "xi_index": 2
+    },
+    {
+      "case_excluded": false,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "guarded_common_points": [
+        [
+          747427118,
+          1119576025,
+          504782258,
+          1716025200
+        ],
+        [
+          747427118,
+          1119576025,
+          1685153233,
+          695854045
+        ],
+        [
+          1550085914,
+          341681504,
+          1056789310,
+          1786995465
+        ],
+        [
+          1550085914,
+          341681504,
+          1690709880,
+          1958756912
+        ]
+      ],
+      "norm_root_count": 8,
+      "pairing_index": 0,
+      "root_rows": [
+        {
+          "r": 0,
+          "r_zero_guards": [
+            "r"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 1,
+          "r_zero_guards": [
+            "r2_minus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 16711679,
+          "r_zero_guards": [
+            "r2_plus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 747427118,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            1119576025
+          ],
+          "t_rows": [
+            {
+              "b_roots": [
+                504782258,
+                1685153233
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 1454775417,
+                  "b": 504782258,
+                  "b_missing": 731782447,
+                  "bc_zero_guards": [],
+                  "c": 1716025200,
+                  "c_denominator": 1072710972,
+                  "de_value": 971653736,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "source_missing_record": 1159052697,
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                },
+                {
+                  "a_missing": 257027116,
+                  "b": 1685153233,
+                  "b_missing": 1550932532,
+                  "bc_zero_guards": [],
+                  "c": 695854045,
+                  "c_denominator": 1072710972,
+                  "de_value": 907759593,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "source_missing_record": 1222946840,
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                }
+              ],
+              "status": "CHECKED",
+              "t": 1119576025,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 1340282149,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            1042428182
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1042428182,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 1550085914,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            341681504,
+            1203626560,
+            1824049609
+          ],
+          "t_rows": [
+            {
+              "b_roots": [
+                1056789310,
+                1690709880
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 978661068,
+                  "b": 1056789310,
+                  "b_missing": 619698256,
+                  "bc_zero_guards": [],
+                  "c": 1786995465,
+                  "c_denominator": 967710536,
+                  "de_value": 597112528,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "source_missing_record": 1533593905,
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 391447355
+                },
+                {
+                  "a_missing": 918583763,
+                  "b": 1690709880,
+                  "b_missing": 1458990550,
+                  "bc_zero_guards": [],
+                  "c": 1958756912,
+                  "c_denominator": 967710536,
+                  "de_value": 1657529244,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "source_missing_record": 473177189,
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 1081232964
+                }
+              ],
+              "status": "CHECKED",
+              "t": 341681504,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1203626560,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1824049609,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 2113994754,
+          "r_zero_guards": [
+            "r2_plus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 2130706432,
+          "r_zero_guards": [
+            "r2_minus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        }
+      ],
+      "status": "COMPLETE",
+      "target_free_zero_points": [
+        [
+          747427118,
+          1119576025,
+          504782258,
+          1716025200
+        ],
+        [
+          747427118,
+          1119576025,
+          1685153233,
+          695854045
+        ]
+      ],
+      "target_lanes_covered": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "xi_index": 2
+    },
+    {
+      "case_excluded": false,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "guarded_common_points": [
+        [
+          53050627,
+          1500233014,
+          504782258,
+          1716025200
+        ],
+        [
+          53050627,
+          1500233014,
+          1685153233,
+          695854045
+        ],
+        [
+          992796520,
+          1474851034,
+          1056789310,
+          1786995465
+        ],
+        [
+          992796520,
+          1474851034,
+          1690709880,
+          1958756912
+        ]
+      ],
+      "norm_root_count": 8,
+      "pairing_index": 0,
+      "root_rows": [
+        {
+          "r": 0,
+          "r_zero_guards": [
+            "r"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 1,
+          "r_zero_guards": [
+            "r2_minus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 16711679,
+          "r_zero_guards": [
+            "r2_plus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 53050627,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            1500233014
+          ],
+          "t_rows": [
+            {
+              "b_roots": [
+                504782258,
+                1685153233
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 1078527491,
+                  "b": 504782258,
+                  "b_missing": 1633392105,
+                  "bc_zero_guards": [],
+                  "c": 1716025200,
+                  "c_denominator": 1364820897,
+                  "de_value": 971653736,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "source_missing_record": 1159052697,
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                },
+                {
+                  "a_missing": 1131082627,
+                  "b": 1685153233,
+                  "b_missing": 644539405,
+                  "bc_zero_guards": [],
+                  "c": 695854045,
+                  "c_denominator": 1364820897,
+                  "de_value": 907759593,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "source_missing_record": 1222946840,
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                }
+              ],
+              "status": "CHECKED",
+              "t": 1500233014,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 252732408,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            1767299639
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1767299639,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 992796520,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            1474851034,
+            1629551658,
+            1692042901
+          ],
+          "t_rows": [
+            {
+              "b_roots": [
+                1056789310,
+                1690709880
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 128433546,
+                  "b": 1056789310,
+                  "b_missing": 1501173572,
+                  "bc_zero_guards": [],
+                  "c": 1786995465,
+                  "c_denominator": 269236293,
+                  "de_value": 597112528,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "source_missing_record": 1533593905,
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 335663606
+                },
+                {
+                  "a_missing": 1049169351,
+                  "b": 1690709880,
+                  "b_missing": 706542725,
+                  "bc_zero_guards": [],
+                  "c": 1958756912,
+                  "c_denominator": 269236293,
+                  "de_value": 1657529244,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "source_missing_record": 473177189,
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 1431335173
+                }
+              ],
+              "status": "CHECKED",
+              "t": 1474851034,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1629551658,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1692042901,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 2113994754,
+          "r_zero_guards": [
+            "r2_plus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 2130706432,
+          "r_zero_guards": [
+            "r2_minus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        }
+      ],
+      "status": "COMPLETE",
+      "target_free_zero_points": [
+        [
+          53050627,
+          1500233014,
+          504782258,
+          1716025200
+        ],
+        [
+          53050627,
+          1500233014,
+          1685153233,
+          695854045
+        ]
+      ],
+      "target_lanes_covered": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "xi_index": 2
+    },
+    {
+      "case_excluded": false,
+      "epsilon": [
+        1,
+        1
+      ],
+      "guarded_common_points": [
+        [
+          580620519,
+          1789024929,
+          1056789310,
+          1786995465
+        ],
+        [
+          580620519,
+          1789024929,
+          1690709880,
+          1958756912
+        ],
+        [
+          1383279315,
+          1011130408,
+          504782258,
+          1716025200
+        ],
+        [
+          1383279315,
+          1011130408,
+          1685153233,
+          695854045
+        ]
+      ],
+      "norm_root_count": 8,
+      "pairing_index": 0,
+      "root_rows": [
+        {
+          "r": 0,
+          "r_zero_guards": [
+            "r"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 1,
+          "r_zero_guards": [
+            "r2_minus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 16711679,
+          "r_zero_guards": [
+            "r2_plus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 580620519,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            306656824,
+            927079873,
+            1789024929
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 306656824,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 927079873,
+              "tr_zero_guards": []
+            },
+            {
+              "b_roots": [
+                1056789310,
+                1690709880
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 1152045365,
+                  "b": 1056789310,
+                  "b_missing": 1511008177,
+                  "bc_zero_guards": [],
+                  "c": 1786995465,
+                  "c_denominator": 1162995897,
+                  "de_value": 597112528,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "source_missing_record": 1533593905,
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 391447355
+                },
+                {
+                  "a_missing": 1212122670,
+                  "b": 1690709880,
+                  "b_missing": 671715883,
+                  "bc_zero_guards": [],
+                  "c": 1958756912,
+                  "c_denominator": 1162995897,
+                  "de_value": 1657529244,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "source_missing_record": 473177189,
+                  "status": "TARGET_FREE_NONZERO",
+                  "target_free_value": 1081232964
+                }
+              ],
+              "status": "CHECKED",
+              "t": 1789024929,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 790424284,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            1088278251
+          ],
+          "t_rows": [
+            {
+              "b_roots": [],
+              "b_rows": [],
+              "status": "CHECKED",
+              "t": 1088278251,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 1383279315,
+          "r_zero_guards": [],
+          "status": "CHECKED",
+          "t_roots": [
+            1011130408
+          ],
+          "t_rows": [
+            {
+              "b_roots": [
+                504782258,
+                1685153233
+              ],
+              "b_rows": [
+                {
+                  "a_missing": 675931016,
+                  "b": 504782258,
+                  "b_missing": 1398923986,
+                  "bc_zero_guards": [],
+                  "c": 1716025200,
+                  "c_denominator": 1057995461,
+                  "de_value": 971653736,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "source_missing_record": 1159052697,
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                },
+                {
+                  "a_missing": 1873679317,
+                  "b": 1685153233,
+                  "b_missing": 579773901,
+                  "bc_zero_guards": [],
+                  "c": 695854045,
+                  "c_denominator": 1057995461,
+                  "de_value": 907759593,
+                  "nonzero_cofactor_indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "source_missing_record": 1222946840,
+                  "status": "TARGET_FREE_ZERO",
+                  "target_free_value": 0
+                }
+              ],
+              "status": "CHECKED",
+              "t": 1011130408,
+              "tr_zero_guards": []
+            }
+          ]
+        },
+        {
+          "r": 2113994754,
+          "r_zero_guards": [
+            "r2_plus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        },
+        {
+          "r": 2130706432,
+          "r_zero_guards": [
+            "r2_minus_1"
+          ],
+          "status": "ROUTE_BOUNDARY",
+          "t_rows": []
+        }
+      ],
+      "status": "COMPLETE",
+      "target_free_zero_points": [
+        [
+          1383279315,
+          1011130408,
+          504782258,
+          1716025200
+        ],
+        [
+          1383279315,
+          1011130408,
+          1685153233,
+          695854045
+        ]
+      ],
+      "target_lanes_covered": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "xi_index": 2
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell3-xi2-pairing0-six-basis-root-replay-census-v1",
+  "scope": "Exact deployed-field lift of the xi2/pairing0 target-free norm root ledger; no wider outside or cell claim.",
+  "source_kernel_sha256": "e20ccb714b252f00ee3ce877ee68eff032f43deb877e2097919151436ddcf789",
+  "source_pilot_sha256": "50330a5695e05ff284124b15e8d0db127e058b5879f2468ead6d97a52eddb1f6",
+  "source_product_sha256": "ee4dcb25877e9101a544ee5896b9bf6890059d6398c78d7562127b0d1c53c293",
+  "source_quotient_sha256": "af991fd4b8c2bae2544a5d656f55fecc734b643da58c6f207db54760dad20c46"
+}
