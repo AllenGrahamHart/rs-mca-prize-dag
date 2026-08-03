@@ -211,3 +211,16 @@ not); (D) the six-row ceiling table as exact integers, both the proved
 (F) THEOREM 3 rebuilt from scratch — the monomial pencil, ALL 77,520
 `7`-subsets scanned exhaustively, the orbit decomposition, spreadness,
 distinct slopes, and the rank `31` of `60` against `2r = 32`.
+
+## Addendum (2026-08-03, cross-lane cash-out): monomial forcing + the sharp orbit ceiling
+
+THEOREM X (proved, exhaustive over all 3,876 mu_20-orbits): a
+mu_n-invariant realised family with a live slope direction has its
+moment line on a COORDINATE AXIS — Theorem 3's monomial pencil is the
+ONLY shape, not an example. THEOREM Y (proved, sharp): |Stab| = s
+forces s | gcd(n, A); at all six official rows gcd(n, A) = 1, so
+every orbit is FREE and a single-orbit realised family has M = n
+EXACTLY (attained by the mu_20 exhibit). The remaining gap to a
+realised-family ceiling is #orbits per axis — a first-moment object
+rigidity provably cannot bound (it pins the base, not the fibre).
+See notes/pilots_20260803/crosslane_cashout/.

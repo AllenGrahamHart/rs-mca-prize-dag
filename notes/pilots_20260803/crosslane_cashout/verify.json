@@ -1,0 +1,822 @@
+{
+ "checks": 152,
+ "pass": 152,
+ "fail": 0,
+ "falsifiers": {
+  "A-F4": {
+   "fired": true,
+   "detail": "predicted vs recomputed: [('prize 1/4', 131, 130), ('prize 1/8', 67, 66), ('prize 1/16', 67, 66)]"
+  },
+  "A-F1": {
+   "fired": false,
+   "detail": "0 violations"
+  },
+  "A-F9": {
+   "fired": true,
+   "detail": "window not one integer wide at: ['prize 1/4', 'prize 1/8', 'prize 1/16']"
+  },
+  "A-F8": {
+   "fired": false,
+   "detail": "0 floor violations"
+  },
+  "A-F6": {
+   "fired": false,
+   "detail": "rank grows with V"
+  },
+  "B-F7": {
+   "fired": false,
+   "detail": "non-free orbit at the fixture"
+  },
+  "B-F2": {
+   "fired": false,
+   "detail": "identity failed"
+  },
+  "B-F6": {
+   "fired": false,
+   "detail": "|E^{-1}(L)| = 40 (predicted 2n = 40)"
+  },
+  "B-F1": {
+   "fired": false,
+   "detail": "orbit size 20"
+  },
+  "B-F3": {
+   "fired": false,
+   "detail": "0 violations"
+  },
+  "B-F4": {
+   "fired": false,
+   "detail": "six margins recomputed"
+  },
+  "B-F5": {
+   "fired": false,
+   "detail": "over-agreement equivariant=True ; selector equivariant on 1/11"
+  },
+  "B-F5b": {
+   "fired": true,
+   "detail": "L-B prune changed the selector's surviving class count 3 -> 2 (mechanisms are COMPLEMENTARY, not independent)"
+  }
+ },
+ "failed_checks": [],
+ "all_checks": [
+  {
+   "name": "A.rows.count",
+   "pass": true,
+   "detail": "6 rows"
+  },
+  {
+   "name": "A.P4.below_target[RowC 1/4]",
+   "pass": true,
+   "detail": "bound 88 vs target 307"
+  },
+  {
+   "name": "A.P5.clique[RowC 1/4]",
+   "pass": true,
+   "detail": "1+A/(h-d)=66 vs banked clique_Vmax=66"
+  },
+  {
+   "name": "A.P5.cliqueu[RowC 1/4]",
+   "pass": true,
+   "detail": "u//(h-d)"
+  },
+  {
+   "name": "A.P4.below_target[RowC 1/8]",
+   "pass": true,
+   "detail": "bound 45 vs target 358"
+  },
+  {
+   "name": "A.P5.clique[RowC 1/8]",
+   "pass": true,
+   "detail": "1+A/(h-d)=34 vs banked clique_Vmax=34"
+  },
+  {
+   "name": "A.P5.cliqueu[RowC 1/8]",
+   "pass": true,
+   "detail": "u//(h-d)"
+  },
+  {
+   "name": "A.P4.below_target[RowC 1/16]",
+   "pass": true,
+   "detail": "bound 34 vs target 639"
+  },
+  {
+   "name": "A.P5.clique[RowC 1/16]",
+   "pass": true,
+   "detail": "1+A/(h-d)=34 vs banked clique_Vmax=34"
+  },
+  {
+   "name": "A.P5.cliqueu[RowC 1/16]",
+   "pass": true,
+   "detail": "u//(h-d)"
+  },
+  {
+   "name": "A.P4.below_target[prize 1/4]",
+   "pass": true,
+   "detail": "bound 130 vs target 383"
+  },
+  {
+   "name": "A.P5.clique[prize 1/4]",
+   "pass": true,
+   "detail": "1+A/(h-d)=66 vs banked clique_Vmax=66"
+  },
+  {
+   "name": "A.P5.cliqueu[prize 1/4]",
+   "pass": true,
+   "detail": "u//(h-d)"
+  },
+  {
+   "name": "A.P4.below_target[prize 1/8]",
+   "pass": true,
+   "detail": "bound 66 vs target 447"
+  },
+  {
+   "name": "A.P5.clique[prize 1/8]",
+   "pass": true,
+   "detail": "1+A/(h-d)=34 vs banked clique_Vmax=34"
+  },
+  {
+   "name": "A.P5.cliqueu[prize 1/8]",
+   "pass": true,
+   "detail": "u//(h-d)"
+  },
+  {
+   "name": "A.P4.below_target[prize 1/16]",
+   "pass": true,
+   "detail": "bound 66 vs target 959"
+  },
+  {
+   "name": "A.P5.clique[prize 1/16]",
+   "pass": true,
+   "detail": "1+A/(h-d)=34 vs banked clique_Vmax=34"
+  },
+  {
+   "name": "A.P5.cliqueu[prize 1/16]",
+   "pass": true,
+   "detail": "u//(h-d)"
+  },
+  {
+   "name": "A.P4.all_below",
+   "pass": true,
+   "detail": "6/6"
+  },
+  {
+   "name": "A.P1.floor[A=6,k=3,|ground|=9]",
+   "pass": true,
+   "detail": "95284 triples swept"
+  },
+  {
+   "name": "A.P1.floor[A=6,k=4,|ground|=9]",
+   "pass": true,
+   "detail": "190568 triples swept"
+  },
+  {
+   "name": "A.P1.floor[A=5,k=3,|ground|=8]",
+   "pass": true,
+   "detail": "218288 triples swept"
+  },
+  {
+   "name": "A.P1.floor[A=7,k=4,|ground|=10]",
+   "pass": true,
+   "detail": "499128 triples swept"
+  },
+  {
+   "name": "A.P1.no_violation",
+   "pass": true,
+   "detail": "499128 (T)-clean triples swept, 0 with 2t<=h"
+  },
+  {
+   "name": "A.P1.mechanism",
+   "pass": true,
+   "detail": "|SaSbSc| >= 3A-2|U| and (T) <=> 2t >= h+1"
+  },
+  {
+   "name": "A.P8.arithmetic",
+   "pass": true,
+   "detail": "4000 sorted escape vectors: |K_+|-3 <= sum_{i>=4} esc_i"
+  },
+  {
+   "name": "A.P8.chain",
+   "pass": true,
+   "detail": "2m-1-3h == e-1 for all (h,t) with e>=1"
+  },
+  {
+   "name": "A.P9.tmax_exact[RowC 1/4]",
+   "pass": true,
+   "detail": "t_max = 3"
+  },
+  {
+   "name": "A.P9.finite_at_tmin[RowC 1/4]",
+   "pass": true,
+   "detail": "finite counting bound exists at t_min = 3"
+  },
+  {
+   "name": "A.P9.tmax_exact[RowC 1/8]",
+   "pass": true,
+   "detail": "t_max = 3"
+  },
+  {
+   "name": "A.P9.finite_at_tmin[RowC 1/8]",
+   "pass": true,
+   "detail": "finite counting bound exists at t_min = 3"
+  },
+  {
+   "name": "A.P9.tmax_exact[RowC 1/16]",
+   "pass": true,
+   "detail": "t_max = 2"
+  },
+  {
+   "name": "A.P9.finite_at_tmin[RowC 1/16]",
+   "pass": true,
+   "detail": "finite counting bound exists at t_min = 2"
+  },
+  {
+   "name": "A.P9.tmax_exact[prize 1/4]",
+   "pass": true,
+   "detail": "t_max = 4345168635"
+  },
+  {
+   "name": "A.P9.finite_at_tmin[prize 1/4]",
+   "pass": true,
+   "detail": "finite counting bound exists at t_min = 4294967297"
+  },
+  {
+   "name": "A.P9.tmax_exact[prize 1/8]",
+   "pass": true,
+   "detail": "t_max = 4395112354"
+  },
+  {
+   "name": "A.P9.finite_at_tmin[prize 1/8]",
+   "pass": true,
+   "detail": "finite counting bound exists at t_min = 4294967297"
+  },
+  {
+   "name": "A.P9.tmax_exact[prize 1/16]",
+   "pass": true,
+   "detail": "t_max = 2197556177"
+  },
+  {
+   "name": "A.P9.finite_at_tmin[prize 1/16]",
+   "pass": true,
+   "detail": "finite counting bound exists at t_min = 2147483649"
+  },
+  {
+   "name": "A.P9.recorded_window",
+   "pass": true,
+   "detail": "finite@(t_min,t_min+1) per row: [('RowC 1/4', True, False), ('RowC 1/8', True, False), ('RowC 1/16', True, False), ('prize 1/4', True, True), ('prize 1/8', True, True), ('prize 1/16', True, True)]"
+  },
+  {
+   "name": "A.P9.equals_sunflower[RowC 1/4]",
+   "pass": true,
+   "detail": "UNCONDITIONAL Jensen 88 == banked sunflower 88"
+  },
+  {
+   "name": "A.P9.below_target[RowC 1/4]",
+   "pass": true,
+   "detail": "jensen 88 < target 307"
+  },
+  {
+   "name": "A.P9.equals_sunflower[RowC 1/8]",
+   "pass": true,
+   "detail": "UNCONDITIONAL Jensen 45 == banked sunflower 45"
+  },
+  {
+   "name": "A.P9.below_target[RowC 1/8]",
+   "pass": true,
+   "detail": "jensen 45 < target 358"
+  },
+  {
+   "name": "A.P9.equals_sunflower[RowC 1/16]",
+   "pass": true,
+   "detail": "UNCONDITIONAL Jensen 34 == banked sunflower 34"
+  },
+  {
+   "name": "A.P9.below_target[RowC 1/16]",
+   "pass": true,
+   "detail": "jensen 34 < target 639"
+  },
+  {
+   "name": "A.P9.equals_sunflower[prize 1/4]",
+   "pass": true,
+   "detail": "UNCONDITIONAL Jensen 130 == banked sunflower 130"
+  },
+  {
+   "name": "A.P9.below_target[prize 1/4]",
+   "pass": true,
+   "detail": "jensen 130 < target 383"
+  },
+  {
+   "name": "A.P9.equals_sunflower[prize 1/8]",
+   "pass": true,
+   "detail": "UNCONDITIONAL Jensen 66 == banked sunflower 66"
+  },
+  {
+   "name": "A.P9.below_target[prize 1/8]",
+   "pass": true,
+   "detail": "jensen 66 < target 447"
+  },
+  {
+   "name": "A.P9.equals_sunflower[prize 1/16]",
+   "pass": true,
+   "detail": "UNCONDITIONAL Jensen 66 == banked sunflower 66"
+  },
+  {
+   "name": "A.P9.below_target[prize 1/16]",
+   "pass": true,
+   "detail": "jensen 66 < target 959"
+  },
+  {
+   "name": "A.P7.umech.rank",
+   "pass": true,
+   "detail": "rank 19 (banked 19)"
+  },
+  {
+   "name": "A.P7.umech.dimrel",
+   "pass": true,
+   "detail": "dim Rel 1 (banked 1)"
+  },
+  {
+   "name": "A.P7.umech.floor_cap",
+   "pass": true,
+   "detail": "floor 16 cap 4 (banked 16/4)"
+  },
+  {
+   "name": "A.P7.umech.core_all",
+   "pass": true,
+   "detail": "core = all 4 rays"
+  },
+  {
+   "name": "A.P8.umech.D0_3",
+   "pass": true,
+   "detail": "rank 19 <= 2m-1 = 23"
+  },
+  {
+   "name": "A.P8.umech.thmD",
+   "pass": true,
+   "detail": "rank 19 >= sum esc + G3 = 19"
+  },
+  {
+   "name": "A.P8.umech.thmD_tight",
+   "pass": true,
+   "detail": "THEOREM D TIGHT: 19 == 19"
+  },
+  {
+   "name": "A.P8.umech.residue",
+   "pass": true,
+   "detail": "sum_{i>=4} esc = 4 <= e-1 = 8"
+  },
+  {
+   "name": "A.P8.umech.bound",
+   "pass": true,
+   "detail": "|K_+| = 4 <= e+2 = 11"
+  },
+  {
+   "name": "A.P7.kv.rank",
+   "pass": true,
+   "detail": "rank 35 (banked 35 = Vh)"
+  },
+  {
+   "name": "A.P7.kv.dimrel",
+   "pass": true,
+   "detail": "dim Rel 0 (banked 0)"
+  },
+  {
+   "name": "A.P7.kv.core_empty",
+   "pass": true,
+   "detail": "core = 0 rays (triple locus = Y, |Y| = k-1 < k+1)"
+  },
+  {
+   "name": "A.P8.floor_search",
+   "pass": true,
+   "detail": "1050 (T)-clean floor systems with nonempty core; max |K_+| = 0 (bound 3)"
+  },
+  {
+   "name": "A.P6.distinct_slopes[V=4]",
+   "pass": true,
+   "detail": "[1, 4, 9, 16]"
+  },
+  {
+   "name": "A.P6.uniform[V=4]",
+   "pass": true,
+   "detail": "|S_a| = A = 6"
+  },
+  {
+   "name": "A.P6.gate[V=4]",
+   "pass": true,
+   "detail": "max triple 2 <= k-1 = 2"
+  },
+  {
+   "name": "A.P6.zero_escape[V=4]",
+   "pass": true,
+   "detail": "min mult 3"
+  },
+  {
+   "name": "A.P6.rankle2m[V=4]",
+   "pass": true,
+   "detail": "rank 9 <= 2m = 10"
+  },
+  {
+   "name": "A.P6.distinct_slopes[V=5]",
+   "pass": true,
+   "detail": "[1, 4, 9, 16, 25]"
+  },
+  {
+   "name": "A.P6.uniform[V=5]",
+   "pass": true,
+   "detail": "|S_a| = A = 8"
+  },
+  {
+   "name": "A.P6.gate[V=5]",
+   "pass": true,
+   "detail": "max triple 4 <= k-1 = 4"
+  },
+  {
+   "name": "A.P6.zero_escape[V=5]",
+   "pass": true,
+   "detail": "min mult 4"
+  },
+  {
+   "name": "A.P6.rankle2m[V=5]",
+   "pass": true,
+   "detail": "rank 9 <= 2m = 10"
+  },
+  {
+   "name": "A.P6.distinct_slopes[V=6]",
+   "pass": true,
+   "detail": "[1, 4, 9, 16, 25, 5]"
+  },
+  {
+   "name": "A.P6.uniform[V=6]",
+   "pass": true,
+   "detail": "|S_a| = A = 10"
+  },
+  {
+   "name": "A.P6.gate[V=6]",
+   "pass": true,
+   "detail": "max triple 6 <= k-1 = 6"
+  },
+  {
+   "name": "A.P6.zero_escape[V=6]",
+   "pass": true,
+   "detail": "min mult 5"
+  },
+  {
+   "name": "A.P6.rankle2m[V=6]",
+   "pass": true,
+   "detail": "rank 9 <= 2m = 10"
+  },
+  {
+   "name": "A.P6.distinct_slopes[V=7]",
+   "pass": true,
+   "detail": "[1, 4, 9, 16, 25, 5, 18]"
+  },
+  {
+   "name": "A.P6.uniform[V=7]",
+   "pass": true,
+   "detail": "|S_a| = A = 12"
+  },
+  {
+   "name": "A.P6.gate[V=7]",
+   "pass": true,
+   "detail": "max triple 8 <= k-1 = 8"
+  },
+  {
+   "name": "A.P6.zero_escape[V=7]",
+   "pass": true,
+   "detail": "min mult 6"
+  },
+  {
+   "name": "A.P6.rankle2m[V=7]",
+   "pass": true,
+   "detail": "rank 9 <= 2m = 10"
+  },
+  {
+   "name": "A.P6.distinct_slopes[V=8]",
+   "pass": true,
+   "detail": "[1, 4, 9, 16, 25, 5, 18, 2]"
+  },
+  {
+   "name": "A.P6.uniform[V=8]",
+   "pass": true,
+   "detail": "|S_a| = A = 14"
+  },
+  {
+   "name": "A.P6.gate[V=8]",
+   "pass": true,
+   "detail": "max triple 10 <= k-1 = 10"
+  },
+  {
+   "name": "A.P6.zero_escape[V=8]",
+   "pass": true,
+   "detail": "min mult 7"
+  },
+  {
+   "name": "A.P6.rankle2m[V=8]",
+   "pass": true,
+   "detail": "rank 9 <= 2m = 10"
+  },
+  {
+   "name": "A.P6.rank_constant",
+   "pass": true,
+   "detail": "ranks {4: 9, 5: 9, 6: 9, 7: 9, 8: 9}"
+  },
+  {
+   "name": "A.P6.rank_is_3h",
+   "pass": true,
+   "detail": "all == 3h = 9"
+  },
+  {
+   "name": "A.P8.fibre_consistent",
+   "pass": true,
+   "detail": "K_+ = 0 <= e+2 = 3"
+  },
+  {
+   "name": "B.mu.size",
+   "pass": true,
+   "detail": "|mu_n| = 20"
+  },
+  {
+   "name": "B.mu.generator",
+   "pass": true,
+   "detail": "g = 2"
+  },
+  {
+   "name": "B.subs.count",
+   "pass": true,
+   "detail": "C(20,7) = 77520"
+  },
+  {
+   "name": "B.P7.all_free",
+   "pass": true,
+   "detail": "orbit sizes present: [20]"
+  },
+  {
+   "name": "B.P7.orbit_count",
+   "pass": true,
+   "detail": "3876 orbits x 20 = 77520"
+  },
+  {
+   "name": "B.P7.gcd_fixture",
+   "pass": true,
+   "detail": "gcd(n,A) = gcd(20,7) = 1"
+  },
+  {
+   "name": "B.P2.identity",
+   "pass": true,
+   "detail": "400 supports, sum_g |S ^ gS| = A^2 = 49"
+  },
+  {
+   "name": "B.P2.vacuous_fixture",
+   "pass": true,
+   "detail": "A^2 - n(K-1) = -11 < 0 => vacuous"
+  },
+  {
+   "name": "B.T3.alpha",
+   "pass": true,
+   "detail": "alpha = (0, 0, 0)"
+  },
+  {
+   "name": "B.T3.beta",
+   "pass": true,
+   "detail": "beta = (1, 0, 0)"
+  },
+  {
+   "name": "B.T3.live_slope_dir",
+   "pass": true,
+   "detail": "beta != 0"
+  },
+  {
+   "name": "B.T3.L_is_axis",
+   "pass": true,
+   "detail": "L = e_1-axis, 41 points"
+  },
+  {
+   "name": "B.P6.fibre_size",
+   "pass": true,
+   "detail": "|E^{-1}(L)| = 40"
+  },
+  {
+   "name": "B.P6.union_of_orbits",
+   "pass": true,
+   "detail": "2 orbits meet the witness set, all contained"
+  },
+  {
+   "name": "B.P6.two_orbits",
+   "pass": true,
+   "detail": "2 complete free orbits"
+  },
+  {
+   "name": "B.T3.spread_exists",
+   "pass": true,
+   "detail": "max pairwise cores per orbit: [4, 3] (K-1 = 3)"
+  },
+  {
+   "name": "B.T3.slopes[0]",
+   "pass": true,
+   "detail": "20 distinct slopes"
+  },
+  {
+   "name": "B.T3.slopes[1]",
+   "pass": true,
+   "detail": "20 distinct slopes"
+  },
+  {
+   "name": "B.T3.rank31",
+   "pass": true,
+   "detail": "rank 31 == 2r-1 = 31"
+  },
+  {
+   "name": "B.T3.realised",
+   "pass": true,
+   "detail": "nontrivial realiser exists (rank < 2r = 32)"
+  },
+  {
+   "name": "B.T3.M_exceeds_ceiling",
+   "pass": true,
+   "detail": "M = 20 > prescribed ceiling 10"
+  },
+  {
+   "name": "B.P1.ceiling_attained",
+   "pass": true,
+   "detail": "M = |H|/|Stab| = 20 = n"
+  },
+  {
+   "name": "B.P6.three_pin",
+   "pass": true,
+   "detail": "60 random triples of the orbit are collinear"
+  },
+  {
+   "name": "B.P3.degenerate_are_zero",
+   "pass": true,
+   "detail": "0 single-moment-point orbits, all E = 0"
+  },
+  {
+   "name": "B.P3.collinear_are_axes",
+   "pass": true,
+   "detail": "4 collinear orbits, 4 on coordinate axes"
+  },
+  {
+   "name": "B.P3.T3_orbit_on_axis",
+   "pass": true,
+   "detail": "THEOREM 3 orbit has e_2 = e_3 = 0"
+  },
+  {
+   "name": "B.P7.gcd[RowC 1/4]",
+   "pass": true,
+   "detail": "gcd(n,A) = 1"
+  },
+  {
+   "name": "B.P7.A_odd[RowC 1/4]",
+   "pass": true,
+   "detail": "A odd"
+  },
+  {
+   "name": "B.P2.vacuous[RowC 1/4]",
+   "pass": true,
+   "detail": "A^2 - n(K-1) = -192999"
+  },
+  {
+   "name": "B.P4.below_budget[RowC 1/4]",
+   "pass": true,
+   "detail": "n=1024 < 8n^3"
+  },
+  {
+   "name": "B.P7.gcd[RowC 1/8]",
+   "pass": true,
+   "detail": "gcd(n,A) = 1"
+  },
+  {
+   "name": "B.P7.A_odd[RowC 1/8]",
+   "pass": true,
+   "detail": "A odd"
+  },
+  {
+   "name": "B.P2.vacuous[RowC 1/8]",
+   "pass": true,
+   "detail": "A^2 - n(K-1) = -112359"
+  },
+  {
+   "name": "B.P4.below_budget[RowC 1/8]",
+   "pass": true,
+   "detail": "n=1024 < 8n^3"
+  },
+  {
+   "name": "B.P7.gcd[RowC 1/16]",
+   "pass": true,
+   "detail": "gcd(n,A) = 1"
+  },
+  {
+   "name": "B.P7.A_odd[RowC 1/16]",
+   "pass": true,
+   "detail": "A odd"
+  },
+  {
+   "name": "B.P2.vacuous[RowC 1/16]",
+   "pass": true,
+   "detail": "A^2 - n(K-1) = -60023"
+  },
+  {
+   "name": "B.P4.below_budget[RowC 1/16]",
+   "pass": true,
+   "detail": "n=1024 < 8n^3"
+  },
+  {
+   "name": "B.P7.gcd[prize 1/4]",
+   "pass": true,
+   "detail": "gcd(n,A) = 1"
+  },
+  {
+   "name": "B.P7.A_odd[prize 1/4]",
+   "pass": true,
+   "detail": "A odd"
+  },
+  {
+   "name": "B.P2.vacuous[prize 1/4]",
+   "pass": true,
+   "detail": "A^2 - n(K-1) = -897175844765622037643263"
+  },
+  {
+   "name": "B.P4.below_budget[prize 1/4]",
+   "pass": true,
+   "detail": "n=2199023255552 < 8n^3"
+  },
+  {
+   "name": "B.P7.gcd[prize 1/8]",
+   "pass": true,
+   "detail": "gcd(n,A) = 1"
+  },
+  {
+   "name": "B.P7.A_odd[prize 1/8]",
+   "pass": true,
+   "detail": "A odd"
+  },
+  {
+   "name": "B.P2.vacuous[prize 1/8]",
+   "pass": true,
+   "detail": "A^2 - n(K-1) = -524108892619469821575167"
+  },
+  {
+   "name": "B.P4.below_budget[prize 1/8]",
+   "pass": true,
+   "detail": "n=2199023255552 < 8n^3"
+  },
+  {
+   "name": "B.P7.gcd[prize 1/16]",
+   "pass": true,
+   "detail": "gcd(n,A) = 1"
+  },
+  {
+   "name": "B.P7.A_odd[prize 1/16]",
+   "pass": true,
+   "detail": "A odd"
+  },
+  {
+   "name": "B.P2.vacuous[prize 1/16]",
+   "pass": true,
+   "detail": "A^2 - n(K-1) = -282142950604905100869631"
+  },
+  {
+   "name": "B.P4.below_budget[prize 1/16]",
+   "pass": true,
+   "detail": "n=2199023255552 < 8n^3"
+  },
+  {
+   "name": "B.P5.setting",
+   "pass": true,
+   "detail": "|D| = 12, K = 3, A = 5"
+  },
+  {
+   "name": "B.P5.nonempty",
+   "pass": true,
+   "detail": "over 6, live 2"
+  },
+  {
+   "name": "B.P5.over_contains_G_subsets",
+   "pass": true,
+   "detail": "every A-subset of the (A+1)-agreement locus G is forced over-agreeing"
+  },
+  {
+   "name": "B.P5.over_equivariant",
+   "pass": true,
+   "detail": "L-B over-agreement set equivariant on 11/11 shifts"
+  },
+  {
+   "name": "B.P5.selector_not_equivariant",
+   "pass": true,
+   "detail": "lex selector equivariant on only 1/11 shifts"
+  },
+  {
+   "name": "B.P5b.choice_domain_is_over",
+   "pass": true,
+   "detail": "the selector's nontrivial classes are EXACTLY the over-agreeing ones (1 of 3)"
+  },
+  {
+   "name": "B.P5b.selector_vacuous_after_prune",
+   "pass": true,
+   "detail": "every class surviving the L-B prune is a singleton: the selector becomes VACUOUS"
+  },
+  {
+   "name": "B.P5b.counts_recorded",
+   "pass": true,
+   "detail": "class count 3 -> 2 under the L-B prune"
+  }
+ ]
+}

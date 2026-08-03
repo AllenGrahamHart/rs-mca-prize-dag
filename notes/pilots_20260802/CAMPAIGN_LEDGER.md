@@ -822,3 +822,15 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   pullback — the selection leg of the unification is now a THEOREM.
   Occupancy surface reduces to SL-2 alone (+ OV cleanup). h-even
   fragility recorded. Remaining round-11 pilots in flight.
+
+## 2026-08-03: round-11 pilot 2 BANKED — cash-out: |K| residual = OV; P-B monomial forcing
+
+- **crosslane_cashout (Opus, retry) BANKED** (152/152, 3 falsifiers
+  fired-and-reported). NEW: |K_+| <= 2t-h+2 (tight, U-mech); Jensen
+  K_0 window bound = banked sunflower values (130/66/66 at prize vs
+  targets 383/447/959); THE |K| RESIDUAL IS ONE OBJECT = the band
+  lane's CONJECTURE OV (U2's prediction confirmed — OV now pays BOTH
+  lanes); THEOREM X monomial forcing (exhaustive) + THEOREM Y sharp
+  orbit ceiling M = n (free orbits at all six rows); selector vs L-B
+  = different-but-complementary, K1/PP4.0 de-coupling route SURFACED.
+  Addenda applied to both P-B nodes. In flight: anchor, gamma close.

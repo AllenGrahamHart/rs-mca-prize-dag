@@ -194,3 +194,14 @@ FLAG — an explicit `p`-collinear triple whose Newton images are NOT
 `e`-collinear, and the coset case where the two agree; (H) the OPEN
 residue, replayed at the pilot's `n=20, q=101, h=2, m=3` shape and
 LABELLED MEASURED-OPEN (not a claim).
+
+## Addendum (2026-08-03, cross-lane cash-out): the selector and the L-B dichotomy
+
+Machine-decided (equivariance test 11/11 vs 1/11): the SELECTOR CATCH
+and the L-B over-agreement dichotomy are DIFFERENT species (liveness
+vs attribution) but COMPLEMENTARY on the split-fibre locus — keyed by
+codeword, the selector's nontrivial classes are exactly the
+over-agreeing ones, and after an L-B-type prune every surviving class
+is a singleton: the selector becomes VACUOUS. Proving over-agreement
+forcing on the split-fibre locus would DE-COUPLE the K1 closure from
+PP4.0's compression order. See notes/pilots_20260803/crosslane_cashout/.
