@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1439,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+    "title": "KoalaBear m2 r4 positive 433-1a quadratic paired-product resultant interface",
+    "status": "PROVED",
+    "closure": "unique full common kernel and exhaustive outside product/squared-sum source-pair lift ledger",
+    "statement": "Every principal positive 433-1a to O0b survivor has a unique full coefficient kernel. The singleton's missing mate forces one product and one square-root-free sum equation, while the remaining six records split over three distinct source deck pairs satisfying explicit product and squared-sum lift systems in an exhaustive 525-case ledger per common row and cycle sign. Universal deployed-field exclusion and route deletion remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_common_chart_probe.c",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_product_probe_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_product_singular_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_product_probe_result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
+      "order": 3175
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
+      "order": 3177
+    },
+    {
+      "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+      "order": 3178
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3179
+    }
+  ],
+  "refutes": []
+}

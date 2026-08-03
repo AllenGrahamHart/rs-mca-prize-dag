@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 715,
+  "node": {
+    "id": "v13_adjacent_rows_replay_audit",
+    "status": "PROVED",
+    "statement": "AUDIT (ours, 2026-07-08 ledger entry; scripts notes/correspondence/four_pairs_exact.py + PR #404): independent exact-integer replay of all four v13 adjacent pairs \u2014 locations, margins to every printed decimal (22.1969/22.0109/3.2589/3.0730), both admissibility forms, conventions re-derived (MCA pencil shift K = k+1; M31 q = p'^4, eps* = 2^-100). EXPLICIT NONCLAIM: verifies the unsafe side and pair locations only; does NOT prove the safe side B_C(a0+1) <= B*. Imported per the upstream-alignment packet plan (UPSTREAM_IMPORT_LEDGER.md)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "v13_frontier_row_packets",
+      "order": 1223
+    },
+    {
+      "to": "adjacency_closing",
+      "order": 1224
+    }
+  ],
+  "refutes": []
+}

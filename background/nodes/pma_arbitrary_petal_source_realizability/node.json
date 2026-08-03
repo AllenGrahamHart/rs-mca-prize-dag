@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 850,
+  "node": {
+    "id": "pma_arbitrary_petal_source_realizability",
+    "title": "PMA arbitrary-petal maximal-source realizability",
+    "status": "PROVED",
+    "statement": "For every partition of an evaluation domain into a (k-1)-point core, arbitrary disjoint ell-point petals, and background b<ell, distinct nonzero labels define an explicit received word U whose codewords c_i L_C have exact agreement sets C union T_i. At M=floor((n-k+1)/ell) this is a maximal sunflower source. A smooth F_17^* instance has four quadratic petal locators with different linear coefficients, so maximal-source structure alone cannot force a common constant-shift pencil. This does not construct an unpaid residual contributor; any surviving bridge must be contributor-specific or the arbitrary-locator branch must be counted directly.",
+    "refs": [
+      "background/nodes/pma_arbitrary_petal_source_realizability/statement.md",
+      "background/nodes/pma_arbitrary_petal_source_realizability/proof.md",
+      "background/nodes/pma_arbitrary_petal_source_realizability/audit.md",
+      "background/nodes/pma_arbitrary_petal_source_realizability/claim_contract.md",
+      "background/nodes/pma_arbitrary_petal_source_realizability/dependency_subdag.md",
+      "background/nodes/pma_arbitrary_petal_source_realizability/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1525
+    }
+  ],
+  "refutes": []
+}

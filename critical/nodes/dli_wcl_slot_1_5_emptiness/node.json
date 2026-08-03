@@ -1,0 +1,17 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1052,
+  "node": {
+    "id": "dli_wcl_slot_1_5_emptiness",
+    "title": "WCL slot 1,5 emptiness",
+    "status": "TARGET",
+    "refs": [
+      "critical/nodes/dli_wcl_slot_1_5_emptiness/statement.md"
+    ],
+    "statement": "No reduced signed weight-5 polynomial vanishes at an order-512 root at any official row (ell=1 window; zero-event; sweep partial, pilot max_v2 17-21). FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

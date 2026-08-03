@@ -1,0 +1,64 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1478,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion",
+    "title": "KoalaBear positive 433-1a cell-11 signed-pair guard-factorization exclusion",
+    "status": "PROVED",
+    "closure": "exact compact-kernel factorization, complete leading atlas, and original-ideal scale replay",
+    "statement": "The complete cell-11 necessary signed-pair resultant has degrees (16,3,667). In the compact plane quotient it is proportional to N0 D0^5 (w0-t^2)^2 (rd^2w0-rn^2)(rd^2w0+rn^2). Exact factorization excludes every non-scale leading exception. All seven compact-kernel scale roots give the unit ideal in the original localized common system. Exact symmetry excludes all four rows of orbit [11]. One positive representative / eight raw rows remains.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_kernel_reduction_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_kernel_reduction_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_plane_kernel_flint_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_plane_kernel_flint_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_signed_pair_guard_factorization_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_signed_pair_guard_factorization_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_exceptional_scale_factor_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_exceptional_scale_factor_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_exceptional_common_charts_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell11_exceptional_common_charts_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+      "order": 3320
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+      "order": 3321
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate",
+      "order": 3322
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+      "order": 3323
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+      "order": 3324
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3325
+    }
+  ],
+  "refutes": []
+}

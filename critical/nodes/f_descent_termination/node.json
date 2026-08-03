@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 414,
+  "node": {
+    "id": "f_descent_termination",
+    "title": "Descent termination: the sparse-word descent tree is polynomial (census-grounded)",
+    "status": "PROVED",
+    "key": true,
+    "statement": "Iterating the weight-w descents (each drops degree >= w, dimension <= w-1; E9 observed w <= 3 suffices at toy scale) produces a descent tree of TOTAL size poly(n), with the spread/moment base at each leaf. Grounded by E9's census multiplicities. With this, F_r assembles for r = O(log n), and high dimension merges into the fiber machinery.",
+    "attack_surface": "DECOMPOSED by consumer family: MDS-dual flats trivial (f_termination_mds); Hankel-kernel flats via the coset-pattern lattice bound (f_termination_hankel \u2014 the open piece); the escaping sunflower-fiber family is priced by the PMA machinery, NOT by descent (no double-counting). The support-lattice reformulation (f_support_lattice) is what defuses the naive 2^depth danger.",
+    "falsifier": "a toy flat whose descent tree branches super-poly (searchable at n = 16..32)",
+    "refs": [
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
+    ],
+    "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/f_descent_termination/conditional.md."
+  },
+  "requires": [
+    {
+      "from": "f_sparse_descent_step",
+      "order": 694
+    },
+    {
+      "from": "f_support_lattice",
+      "order": 697
+    },
+    {
+      "from": "f_termination_mds",
+      "order": 698
+    },
+    {
+      "from": "f_termination_hankel",
+      "order": 699
+    },
+    {
+      "from": "f_spread_moment_count",
+      "order": 839
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

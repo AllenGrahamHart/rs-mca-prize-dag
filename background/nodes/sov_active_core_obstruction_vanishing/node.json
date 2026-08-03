@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 623,
+  "node": {
+    "id": "sov_active_core_obstruction_vanishing",
+    "title": "SOV active-core obstruction vanishing",
+    "status": "PROVED",
+    "statement": "Every active h-core in the intended h>20 band corresponds to a finite h-trade whose locator L satisfies the forced-root obstruction equations, so all obstruction coordinates from sov_forced_root_recursion_algebra vanish.",
+    "attack_surface": "connect active-core equations to the finite h-trade square-shift model used by X79, uniformly for h in the intended band",
+    "falsifier": "an active h-core whose locator is not in the square-shift trade model or has a nonzero forced-root obstruction coordinate"
+  },
+  "requires": [
+    {
+      "from": "x83_uniform_square_shift_obstruction_gate",
+      "order": 958
+    },
+    {
+      "from": "a_universal_trade_variety",
+      "order": 959
+    },
+    {
+      "from": "sov_forced_root_recursion_algebra",
+      "order": 960
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1117
+    }
+  ],
+  "refutes": []
+}

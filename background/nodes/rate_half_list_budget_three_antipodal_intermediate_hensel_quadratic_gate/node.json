@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1048,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate",
+    "title": "Budget-three antipodal intermediate Hensel quadratic gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The second forbidden coefficient of the intermediate Hensel solution is a monic quadratic in the remaining outer scalar. Together with the first linear gate, it leaves one candidate on the nondegenerate branch and at most two on the formerly one-parameter degenerate branch.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_intermediate_hensel_certifier",
+      "order": 1959
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1963
+    }
+  ],
+  "refutes": []
+}

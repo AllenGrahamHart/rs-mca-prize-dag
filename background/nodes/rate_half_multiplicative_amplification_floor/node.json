@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 810,
+  "node": {
+    "id": "rate_half_multiplicative_amplification_floor",
+    "title": "Cap-row quotient floors require about 2^92 multiplicative amplification",
+    "status": "PROVED",
+    "statement": "At the rate-half cap proxy, among every dyadic one-scale quotient floor reaching sigma*=8,592,912,738, the maximum normalized count is C(128,65), attained at c=2^34 and d=1. Any mechanism that only multiplies one such count must use L>=floor(2^216/C(128,65))+1. This does not exclude a joint construction that changes the box exponent or distinct-slope ledger.",
+    "refs": [
+      "background/nodes/rate_half_multiplicative_amplification_floor/statement.md",
+      "background/nodes/rate_half_multiplicative_amplification_floor/proof.md",
+      "background/nodes/rate_half_multiplicative_amplification_floor/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1349
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 504,
+  "node": {
+    "id": "upstream_finite_q_shortcut_route_cuts",
+    "title": "Finite row-sharp Q shortcut route cuts",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the four deployed rows: ordinary full-mass moment proofs need orders 94196, 94991, 641593, and 680397; after pruning the exact necessary condition is r(Delta_Q-log2 tau)>=w log2|B|, so the full-mass numbers cannot be reused without tau. The proved Q packing ceiling is over 1.66 million bits too weak, and the one-pencil moving-root theorem does not directly pay the 913633--913682 dimensional boundary-Q slices without an exhaustive counted pencil cover.",
+    "refs": [
+      "background/nodes/upstream_finite_q_shortcut_route_cuts/statement.md",
+      "background/nodes/upstream_finite_q_shortcut_route_cuts/proof.md",
+      "background/nodes/upstream_finite_q_shortcut_route_cuts/claim_contract.md",
+      "background/nodes/upstream_finite_q_shortcut_route_cuts/dependency_subdag.md",
+      "background/nodes/upstream_finite_q_shortcut_route_cuts/audit.md",
+      "background/nodes/upstream_finite_q_shortcut_route_cuts/result.md",
+      "background/nodes/upstream_finite_q_shortcut_route_cuts/route_cuts.json",
+      "background/nodes/upstream_finite_q_shortcut_route_cuts/verify.py",
+      "background/nodes/upstream_finite_q_shortcut_route_cuts/verify_audit.py"
+    ],
+    "notes": "Roadmap N4 core import from upstream main@32a41660. These are route cuts only. Specialized Route-D no-go packages remain unimported until an exact current local consumer and partition crosswalk are supplied."
+  },
+  "requires": [
+    {
+      "from": "deployed_identity_prefix_owner_scope_audit",
+      "order": 1769
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f2_growing_order_myerson",
+      "order": 1770
+    },
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 1771
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1577,
+  "node": {
+    "id": "f3_h3_nonidentity_p25_subresultant_scalar_compiler",
+    "title": "H3 nonidentity P25 subresultant scalar compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For F_n(X)=((1-X)^n-1)/X and G_n(T,X)=X^(n-1)F_n(T/X), specialization at T=t has gcd degree exactly P(t). The coefficient ideal of polynomial subresultants 0 through 24, saturated by (T-1)Y=1, has a finite scalar annihilator whose odd-prime support is exactly the characteristics admitting a nonidentity P>=25 fiber. This starts from two sparse degree-n-1 polynomials but makes no elimination-cost or factorization claim.",
+    "refs": [
+      "background/nodes/f3_h3_nonidentity_p25_subresultant_scalar_compiler/statement.md",
+      "background/nodes/f3_h3_nonidentity_p25_subresultant_scalar_compiler/proof.md",
+      "background/nodes/f3_h3_nonidentity_p25_subresultant_scalar_compiler/claim_contract.md",
+      "background/nodes/f3_h3_nonidentity_p25_subresultant_scalar_compiler/dependency_subdag.md",
+      "background/nodes/f3_h3_nonidentity_p25_subresultant_scalar_compiler/audit.md",
+      "background/nodes/f3_h3_nonidentity_p25_subresultant_scalar_compiler/result.md",
+      "background/nodes/f3_h3_nonidentity_p25_subresultant_scalar_compiler/verify.py",
+      "background/nodes/f3_h3_nonidentity_p25_subresultant_scalar_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_global_resultant_compression",
+      "order": 3688
+    },
+    {
+      "from": "f3_h3_shifted_product_sidon",
+      "order": 3689
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 3690
+    }
+  ],
+  "refutes": []
+}

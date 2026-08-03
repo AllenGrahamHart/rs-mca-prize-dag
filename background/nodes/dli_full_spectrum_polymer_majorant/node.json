@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 883,
+  "node": {
+    "id": "dli_full_spectrum_polymer_majorant",
+    "title": "DLI zero-fiber mass is bounded by the full primitive-relation polymer majorant",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For signed kernel relations c with activity 2^(-|supp c|), every relation partitions into disjoint primitive relations. Hence the normalized zero-fiber partition function Z is at most the primitive independence polynomial and therefore at most exp(P), where P is the full primitive activity. The raw full-spectrum signed-shift ledger W_full dominates P, so E_j<=r_j exp(W_full,j). On the official schedule, product_j E_j<=2^100 follows from sum_j W_full,j<=100 log 2+t log(2^256/q). This exact interface replaces the refuted truncated C1' route but does not assert the aggregate full-spectrum budget, C2'', or B-WEAK.",
+    "refs": [
+      "background/nodes/dli_full_spectrum_polymer_majorant/statement.md",
+      "background/nodes/dli_full_spectrum_polymer_majorant/proof.md",
+      "background/nodes/dli_full_spectrum_polymer_majorant/verify.py",
+      "background/nodes/dli_full_spectrum_polymer_majorant/route_fence.md",
+      "critical/nodes/dli_prime_weighted_large_block_support/notes/c1r2_fround2_20260713/c1r2_report.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_prime_weighted_large_block_support",
+      "order": 1548
+    }
+  ],
+  "refutes": []
+}

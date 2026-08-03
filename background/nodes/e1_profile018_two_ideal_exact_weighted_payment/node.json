@@ -1,0 +1,48 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 180,
+  "node": {
+    "id": "e1_profile018_two_ideal_exact_weighted_payment",
+    "title": "Profile-(0,18) two-ideal exact weighted payment",
+    "status": "PROVED",
+    "closure": "exact weighted payment after proved two-ideal descent",
+    "refs": [
+      "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/statement.md",
+      "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/proof.md",
+      "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/claim_contract.md",
+      "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/dependency_subdag.md",
+      "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/audit.md",
+      "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/result.md",
+      "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/frontier.md",
+      "background/nodes/e1_profile018_two_ideal_exact_weighted_payment/verify.py"
+    ],
+    "statement": "Profile (0,18,S=18) has at most 3072 oriented vectors, leaves residual 515126704564295620156155116913120291239, and gives next-profile cap 1971.",
+    "notes": "STRONG PAYMENT CLOSE 2026-07-29: proved class descent reduces the split occupancy from five to two, so the profile has 10+2 full orbits rather than 10+5. Both adjacent cap comparisons are exact."
+  },
+  "requires": [
+    {
+      "from": "e1_profile018_split_prime_payment_router",
+      "order": 4629
+    },
+    {
+      "from": "e1_profile018_galois_norm_occupancy_dictionary",
+      "order": 4630
+    },
+    {
+      "from": "e1_low_square_mass_weighted_kernel_dictionary",
+      "order": 4631
+    },
+    {
+      "from": "e1_profile018_qzeta128_class_descent_two_ideal_bound",
+      "order": 4632
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4633
+    }
+  ],
+  "refutes": []
+}

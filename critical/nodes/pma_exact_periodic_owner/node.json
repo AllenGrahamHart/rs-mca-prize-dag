@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 876,
+  "node": {
+    "id": "pma_exact_periodic_owner",
+    "title": "Global exact-periodic source owner and dyadic profile charge",
+    "status": "PROVED",
+    "statement": "For every cyclic RS row and received word, listed codewords whose full agreement set has exact stabilizer M>1 inject canonically into ceil((k+sigma)/M)-subsets of the quotient fibers. The owner is chart-free and disjoint across exact scales. On the official dyadic sigma=1 grid, all exact-periodic source codewords together fit one global 719(1+2^-690)Q_2(k+2) first-scale profile line. Algebraically folded codewords against nonfolded receivers and stabilizer-one low-defect closures are explicitly not claimed; the precise folded-receiver source class is proved downstream to be included here.",
+    "refs": [
+      "critical/nodes/pma_exact_periodic_owner/statement.md",
+      "critical/nodes/pma_exact_periodic_owner/proof.md",
+      "critical/nodes/pma_exact_periodic_owner/audit.md",
+      "critical/nodes/pma_exact_periodic_owner/claim_contract.md",
+      "critical/nodes/pma_exact_periodic_owner/dependency_subdag.md",
+      "critical/nodes/pma_exact_periodic_owner/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "petal_g2_support_forcing",
+      "order": 1459
+    },
+    {
+      "from": "petal_g3_full_support_codeword_injectivity",
+      "order": 1460
+    },
+    {
+      "from": "qa22_m_le_t_extension",
+      "order": 1461
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 1419
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1450
+    }
+  ],
+  "refutes": []
+}

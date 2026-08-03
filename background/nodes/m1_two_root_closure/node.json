@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 302,
+  "node": {
+    "id": "m1_two_root_closure",
+    "title": "Two-root line-packet closure",
+    "status": "PROVED",
+    "refs": [
+      "experimental/notes/m1/m1_two_root_line_packet_closure.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "strat_tree",
+      "order": 158
+    }
+  ],
+  "refutes": []
+}

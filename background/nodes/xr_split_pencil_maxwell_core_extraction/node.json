@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 899,
+  "node": {
+    "id": "xr_split_pencil_maxwell_core_extraction",
+    "title": "XR split-pencil counterexamples contain bounded Maxwell-dense cores",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_split_pencil_maxwell_core_extraction/statement.md",
+      "background/nodes/xr_split_pencil_maxwell_core_extraction/proof.md",
+      "background/nodes/xr_split_pencil_maxwell_core_extraction/verify.py",
+      "background/nodes/xr_split_pencil_maxwell_core_extraction/result.md"
+    ],
+    "statement": "Any genuine GRS_4 split-pencil family of (4+c)-blocks with c|F|>=2N-8 contains an inclusion-minimal subfamily G with c|G|=2|union G|-8+e, 0<=e<=c-1, while every proper J has c|J|<=2|union J|-9. Each block has at most floor((c-1-e)/2) private coordinates, and the stacked parity matrix has left nullity at least e+1, one beyond ordinary overdetermination. Official P-A core sizes are at most 308/359/640 and P-B one-loop core sizes at most 256/299/480. This is a bounded anomalous-core extraction, not its classification."
+  },
+  "requires": [
+    {
+      "from": "xr_grs_split_pencil_rank_certificate",
+      "order": 1590
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1591
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1592
+    }
+  ],
+  "refutes": []
+}

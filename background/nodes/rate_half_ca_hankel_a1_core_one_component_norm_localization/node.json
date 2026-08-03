@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 970,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_component_norm_localization",
+    "title": "A=1 core-one componentwise norm localization",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official A=1 core-one maximal-degree sharp cap, every component omission and component intersection is confined to the unique middle-Hankel regular slope. At most one component has one omitted root. If b is total residual parameter degree, the dominant component has exact column deficit C_*=e-5b-1+D_* and every residual component has C_i=5e_i+D_i. Each component satisfies its own exact norm identity J_i R_i=P^r_i S_i and complementary factorization. The dominant norm residual has degree e-5b-1+D_* and splits on at least 14m+5b residual domain rows. Together with separation rank at least five, this is the exact remaining mixed norm object; it is not excluded.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_component_norm_localization/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_component_norm_localization/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_component_norm_localization/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_component_norm_localization/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_component_norm_localization/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_component_norm_localization/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_component_norm_localization/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_component_norm_localization/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_max_component_localization",
+      "order": 1784
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_middle_adjugate_factorization",
+      "order": 1785
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1786
+    }
+  ],
+  "refutes": []
+}

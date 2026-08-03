@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1430,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion",
+    "title": "KoalaBear m2 r4 positive ramified-loop multiplicity exclusion",
+    "status": "PROVED",
+    "closure": "local complete-source order 2 versus order 4 and the ordinary Vieta sum row force a global positive loop cap of one",
+    "statement": "At a ramified positive antipodal star where B_1 is nonzero, exactly the two antipodal target rows vanish and each has local order one, whereas the complete-source square requires order four at the doubled branch fiber. Hence every ramified loop is the B_1 zero; the ordinary Vieta sum row gives the same condition at every nonramified loop. Since B_1 is nonzero linear, a positive packet has at most one loop over all twelve complete fibers. Every two-/three-common-loop row is empty, a one-common-loop row has no outside loop, and a zero-common-loop row has at most one outside loop.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_ramified_loop_multiplicity_exclusion.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
+      "order": 3147
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
+      "order": 3148
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+      "order": 3149
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
+      "order": 3150
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3151
+    }
+  ],
+  "refutes": []
+}

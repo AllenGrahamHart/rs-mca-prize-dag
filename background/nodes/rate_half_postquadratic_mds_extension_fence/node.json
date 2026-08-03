@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 915,
+  "node": {
+    "id": "rate_half_postquadratic_mds_extension_fence",
+    "title": "Post-quadratic MDS extension fence",
+    "status": "PROVED",
+    "closure": "counterexample",
+    "statement": "For RS[F_5,{0,1,2,3},2] at radius r=1, the first radius beyond the quadratic hypothesis, a column-far received pair with syndromes y_0=(0,1), y_1=(1,4) has four CA-bad finite slopes, while r+1=2. Thus the official post-quadratic CA assertion cannot follow from a universal MDS extension of B_ca^far(n-r)<=r+1; an official-row proof must exploit additional long-domain or anchor-pencil structure.",
+    "refs": [
+      "background/nodes/rate_half_postquadratic_mds_extension_fence/statement.md",
+      "background/nodes/rate_half_postquadratic_mds_extension_fence/proof.md",
+      "background/nodes/rate_half_postquadratic_mds_extension_fence/claim_contract.md",
+      "background/nodes/rate_half_postquadratic_mds_extension_fence/dependency_subdag.md",
+      "background/nodes/rate_half_postquadratic_mds_extension_fence/verify.py",
+      "background/nodes/rate_half_postquadratic_mds_extension_fence/audit.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1649
+    }
+  ],
+  "refutes": []
+}

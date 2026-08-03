@@ -1,0 +1,57 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 113,
+  "node": {
+    "id": "e1_n256_s16_e15_two_profile_exclusion",
+    "title": "N=256 E=15 two-profile odd-norm exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e15_two_profile_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e15_two_profile_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e15_two_profile_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e15_two_profile_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e15_two_profile_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e15_two_profile_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e15_two_profile_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e15_two_profile_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e15_two_profile_exclusion/verify_audit.py",
+      "experiments/prize_resolution/e15_two_profile_census.cpp",
+      "experiments/prize_resolution/e15_two_profile_census_audit.cpp",
+      "experiments/prize_resolution/e15_two_profile_census_modal.py",
+      "experiments/prize_resolution/e15_two_profile_census_result.json",
+      "experiments/prize_resolution/e15_two_profile_census_check.py",
+      "experiments/prize_resolution/e15_two_profile_norm_modal.py",
+      "experiments/prize_resolution/e15_two_profile_norm_result.json",
+      "experiments/prize_resolution/e15_two_profile_norm_check.py"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), and V=30, both routed profiles are impossible. Independent actual-vector engines agree after 158,783,488 vectors per engine: 294 profile vectors, of which 64 have full conductor and 230 are discharged by the proper-conductor theorem. FLINT and PARI agree on 28 distinct full-conductor norms. Thirty-two whole norms reach 2^250, but every odd part is below 2^250, so no odd pair-feasible row prime divides one.",
+    "notes": "ROUTE CLOSURE 2026-07-28: dual direct census, conductor, and exact odd-part resultants close the entire cutoff-free E15 router. Modal apps ap-xIQLyhRtHtlRxbQkOIS7Yp and ap-4c65PlujVH2D5kNI12Bcac supply the pinned census and norm ledgers."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e15_profile_parity_light_reduction",
+      "order": 4350
+    },
+    {
+      "from": "e1_n256_proper_conductor_collision_exclusion",
+      "order": 4351
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 4352
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4357
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4358
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 142,
+  "node": {
+    "id": "e1_prize_n256_s18_profile_36_m514_exclusion",
+    "title": "Prize N=256 profile-(3,6) cofactor-514 exclusion",
+    "status": "PROVED",
+    "closure": "dual exact radius census plus dual exact norm ledger",
+    "refs": [
+      "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/statement.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/proof.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/claim_contract.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/dependency_subdag.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/audit.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/result.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/source_pin.json",
+      "background/nodes/e1_prize_n256_s18_profile_36_m514_exclusion/verify.py"
+    ],
+    "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 514 is impossible. A complete 123196-affine-orbit radius census leaves twelve vectors in the nine live chambers, only eight with factor 257; FLINT and PARI agree that every exact quotient Norm/514 lies below the prize interval.",
+    "notes": "EXACT FINITE EXCLUSION 2026-07-28: hash-map and sorted-pair engines agree on 922886080 XOR probes, 883718 candidate heavy supports, 7069744 exact sign tests, twelve geometric vectors, and eight factor-257 vectors. Seven profile-(3,6) cofactors remain."
+  },
+  "requires": [
+    {
+      "from": "e1_prize_n256_s18_profile_36_energy_adaptive_product_windows",
+      "order": 4456
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4457
+    },
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4458
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4459
+    }
+  ],
+  "refutes": []
+}

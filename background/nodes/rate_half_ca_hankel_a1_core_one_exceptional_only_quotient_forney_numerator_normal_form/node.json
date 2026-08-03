@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1193,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form",
+    "title": "Rate-half exceptional-only quotient Forney-numerator normal form",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every minimal quotient support T of size h on the official exceptional-only face, all source weights are reconstructed by a unique polynomial F with deg F=h-3, leading coefficient Theta_2, and gcd(F,A B_T)=1: omega_t=F(t)/(A(t)^2 B_T'(t)). The same F interpolates beta_a q_1(a)A'(a)B_T(a) on every exceptional root. Exact saturation makes q_1 nonzero there. This is the exact general-distance GRS/Forney key equation and specializes to the distance-three barycentric formula.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap",
+      "order": 2455
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality",
+      "order": 2456
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation",
+      "order": 2457
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2458
+    }
+  ],
+  "refutes": []
+}

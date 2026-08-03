@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 380,
+  "node": {
+    "id": "f_pair_bound_envelope",
+    "title": "LEAP: the weighted pair bound is the true envelope for primitive planes",
+    "status": "CONJECTURE",
+    "statement": "Primitive (gcd-trivial, aperiodic) plane counts obey the weighted pair bound: #primitive(P cap D_j) <= C * PairBound(P) with small C \u2014 the E7 census sits at ~60% of the floor in both the exact census (38/60) and the kernel sample (13/30). PATH: (1) adopt the packet's PairBound definition; (2) prove it at dim 2 via pencil decomposition through the top concurrency point + the PROVED n/j voting bound; (3) induct via the concurrency form.",
+    "attack_surface": "dim 2 first: a plane is q+1 pencils through any point; the voting bound prices each pencil; the weighting must absorb the overlap \u2014 this is where the one new idea lives",
+    "falsifier": "the j=4 Grassmannian refinement (E7's named next step) breaching the envelope",
+    "refs": [
+      "experimental/notes/roadmaps/evidence_plan_codex.md"
+    ],
+    "notes": "CALCULATED LEAP grounded in E7 (PR #183): two independent measurements below floor. If proved at dim 2, F's first open instance closes SHARPLY. | f_dim2_skeleton PROVES the envelope at dim 2 with C = 1 + twin correction \u2014 the leap's base case is now route-pinned. | j=4 data point (#183): 28 < 40 \u2014 the envelope holds at the second dimension tested; j=4 caveat: active quotient orders 2/4, so structured regression evidence."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f_primitive_case",
+      "order": 614
+    }
+  ],
+  "refutes": []
+}

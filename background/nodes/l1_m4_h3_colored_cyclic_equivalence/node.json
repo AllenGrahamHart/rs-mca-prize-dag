@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1625,
+  "node": {
+    "id": "l1_m4_h3_colored_cyclic_equivalence",
+    "title": "L1 m=4, h=3 colored cyclic-code equivalence",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On each of the four official rows n=4(p+1), exact split-value degree h=3 is equivalent to a word with coefficients in {0,1,omega,omega^2}, each nonzero color occurring p times, such that both the word and its coefficientwise square lie in the explicit Mersenne cyclic code. Here omega is a prime-field cube root because p=1 mod 3. The coefficientwise cube is the union indicator and has exactly p+4 zero positions. This is an exact two-Schur-section reduction, not an emptiness theorem, component count, nonembedded h=2 classification, or L1 bound.",
+    "refs": [
+      "background/nodes/l1_m4_h3_colored_cyclic_equivalence/statement.md",
+      "background/nodes/l1_m4_h3_colored_cyclic_equivalence/proof.md",
+      "background/nodes/l1_m4_h3_colored_cyclic_equivalence/claim_contract.md",
+      "background/nodes/l1_m4_h3_colored_cyclic_equivalence/dependency_subdag.md",
+      "background/nodes/l1_m4_h3_colored_cyclic_equivalence/audit.md",
+      "background/nodes/l1_m4_h3_colored_cyclic_equivalence/result.md",
+      "background/nodes/l1_m4_h3_colored_cyclic_equivalence/lineage.md",
+      "background/nodes/l1_m4_h3_colored_cyclic_equivalence/upstream_crosswalk.md",
+      "background/nodes/l1_m4_h3_colored_cyclic_equivalence/verify.py",
+      "background/nodes/l1_m4_h3_colored_cyclic_equivalence/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_checkpoint_cyclotomic_normal_form",
+      "order": 3855
+    },
+    {
+      "from": "l1_official_max_split_value_complement_census",
+      "order": 3856
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3857
+    }
+  ],
+  "refutes": []
+}

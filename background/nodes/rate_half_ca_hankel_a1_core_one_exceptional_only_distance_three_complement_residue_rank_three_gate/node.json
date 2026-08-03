@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1124,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_complement_residue_rank_three_gate",
+    "title": "Rate-half distance-three complement-residue rank-three gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official pair-Lagrange external design, let I be the internal-slope locator, P_Z the external-slope locator, G_x the monic supported-slope locator of an active outside row, and H_x=P_Z/G_x. The 6e+3 residue classes H_x mod I span dimension at most three. Equivalently, both the complement-evaluation matrix H_x(xi_i) and inverse-locator matrix G_x(0)/G_x(xi_i) have rank at most three. The full complement polynomials span dimension at most e+4. Exact biregularity alone does not imply these gates.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_complement_residue_rank_three_gate/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_complement_residue_rank_three_gate/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_complement_residue_rank_three_gate/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_complement_residue_rank_three_gate/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_complement_residue_rank_three_gate/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_complement_residue_rank_three_gate/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form",
+      "order": 2262
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation",
+      "order": 2263
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_locator_mobius_dichotomy",
+      "order": 2325
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2264
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 217,
+  "node": {
+    "id": "spi_wall",
+    "title": "SPI: structured-pencil incidence hypothesis",
+    "status": "WALL",
+    "key": true,
+    "refs": [
+      "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#3"
+    ]
+  },
+  "requires": [
+    {
+      "from": "spi_genericity",
+      "order": 140
+    },
+    {
+      "from": "spi_exceptional_class",
+      "order": 141
+    },
+    {
+      "from": "spi_dimension_free",
+      "order": 142
+    },
+    {
+      "from": "spi_point_counting",
+      "order": 575
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "r2_rigidity",
+      "order": 49
+    }
+  ],
+  "refutes": []
+}

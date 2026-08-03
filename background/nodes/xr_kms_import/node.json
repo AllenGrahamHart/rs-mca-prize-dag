@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 421,
+  "node": {
+    "id": "xr_kms_import",
+    "title": "THE ENGINE: Khot-Minzer-Safra Johnson-graph structure theorem (import)",
+    "status": "PROVABLE",
+    "statement": "KMS/DKKMS (proved, 2018-19; the 2-to-2 games engine): non-expanding small sets in Johnson graphs correlate with JUNTAS \u2014 sets determined by membership of a bounded core of coordinates. Import note + bridge-ledger row + convention matching (their J(n,j), our exchange graph \u2014 same object). The XR inverse's stage-2 engine, now NAMED and off-the-shelf.",
+    "refs": [
+      "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
+    ],
+    "notes": "the tightest literature fit in the program: Johnson graphs are literally KMS's domain; j/n ~ 0.4-0.5 within their regime"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "bridge_ledger",
+      "order": 707
+    }
+  ],
+  "refutes": []
+}

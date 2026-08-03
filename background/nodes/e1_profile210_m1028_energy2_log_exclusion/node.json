@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 159,
+  "node": {
+    "id": "e1_profile210_m1028_energy2_log_exclusion",
+    "title": "E1 profile-(2,10) cofactor-1028 energy-two exclusion",
+    "status": "PROVED",
+    "closure": "bounded-deviation logarithm minorant with exact rational margins",
+    "refs": [
+      "background/nodes/e1_profile210_m1028_energy2_log_exclusion/statement.md",
+      "background/nodes/e1_profile210_m1028_energy2_log_exclusion/proof.md",
+      "background/nodes/e1_profile210_m1028_energy2_log_exclusion/claim_contract.md",
+      "background/nodes/e1_profile210_m1028_energy2_log_exclusion/dependency_subdag.md",
+      "background/nodes/e1_profile210_m1028_energy2_log_exclusion/audit.md",
+      "background/nodes/e1_profile210_m1028_energy2_log_exclusion/result.md",
+      "background/nodes/e1_profile210_m1028_energy2_log_exclusion/frontier.md",
+      "background/nodes/e1_profile210_m1028_energy2_log_exclusion/verify.py"
+    ],
+    "statement": "No binding-row profile-(2,10,S=18) collision with cofactor 1028 has autocorrelation energy two. The deviation bound |x_u|<=4 and a rationally certified logarithm minorant force the norm above 1028 times the official field ceiling. Combined with the energy-five/six leaf, only energies three and four remain.",
+    "notes": "ANALYTIC ENERGY-TWO EXCLUSION 2026-07-29: the proof uses an exact atanh tail and integer field-ceiling comparison, not the four exploratory energy-two norms. Energies three and four and all 128 prime ideals above 257 remain; no E1 close or Prize movement."
+  },
+  "requires": [
+    {
+      "from": "e1_profile210_split_prime_ideal_router",
+      "order": 4559
+    },
+    {
+      "from": "e1_s18_m1028_global_energy_window",
+      "order": 4560
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4561
+    }
+  ],
+  "refutes": []
+}

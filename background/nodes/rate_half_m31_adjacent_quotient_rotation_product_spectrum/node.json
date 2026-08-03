@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1725,
+  "node": {
+    "id": "rate_half_m31_adjacent_quotient_rotation_product_spectrum",
+    "title": "M31 adjacent quotient-rotation product spectrum",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the auxiliary Mersenne-31 ordinary-list stress row (n,k,a)=(2^21,2^20,1116023), the d=1 cyclic quotient-rotation construction has exact 32-class product spectrum: 16 classes of size 8287155, 8 of size 8286755, 5 of size 8286751, and 3 of size 8286750. Thus it gives a structured lower floor 8287155, sharpening the average floor by 201, but remains 8490060 below the 2^-100 budget 16777215 and cannot alone decide the adjacent row.",
+    "refs": [
+      "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/statement.md",
+      "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/proof.md",
+      "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/claim_contract.md",
+      "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/dependency_subdag.md",
+      "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/audit.md",
+      "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/result.md",
+      "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/lineage.md",
+      "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/upstream_crosswalk.md",
+      "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/verify.py",
+      "background/nodes/rate_half_m31_adjacent_quotient_rotation_product_spectrum/verify_audit.py"
+    ],
+    "notes": "Exact direct-list lower construction and route calibration only. This auxiliary 2^-100 result is not a 2^-128 Prize row, a U_Q upper payment, an MCA statement, or an adjacent safety proof."
+  },
+  "requires": [
+    {
+      "from": "rate_half_cyclic_rotated_prefix_floor",
+      "order": 4493
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 4494
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4495
+    }
+  ],
+  "refutes": []
+}

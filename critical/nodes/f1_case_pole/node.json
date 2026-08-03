@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 323,
+  "node": {
+    "id": "f1_case_pole",
+    "title": "F1 case (ii): pole-type slopes priced by the imported list term",
+    "status": "CONDITIONAL",
+    "refs": [
+      "proof_sketch/s6_extension_lift.md#4"
+    ],
+    "notes": "priced by ext_import (green); the second condition \u2014 the list-side location \u2014 was PROSE-ONLY until the 2026-07-04 normal-form audit; now wired as req on f1_pole_list_threshold_location. | AMBER AUDIT 2026-07-06: REPAIRED (two-predicate packet written to conditional.md). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md.",
+    "statement": "F1 case (ii): pole-type slopes are priced by the imported list term (ext_import, PROVED) with the list-side location supplied by f1_pole_list_threshold_location. [Statement recovered from nodes/f1_case_pole/statement.md during the 2026-07-05 amber triage: the dag statement field was EMPTY.]"
+  },
+  "requires": [
+    {
+      "from": "f1_pole_list_threshold_location",
+      "order": 793
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "ext_lift",
+      "order": 845
+    }
+  ],
+  "refutes": []
+}

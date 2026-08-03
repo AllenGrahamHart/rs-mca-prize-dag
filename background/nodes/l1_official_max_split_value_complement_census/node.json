@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1619,
+  "node": {
+    "id": "l1_official_max_split_value_complement_census",
+    "title": "L1 official maximal split-value complement census",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every actual split-value degree 2<=h<=m=floor(n/p) in an official first-checkpoint Frobenius pencil, the degree-u complement C, u=n-hp, uniquely determines the normalized perturbation Q. At depth d, its top d-p nonleading coefficients vanish, so with ell_h=u-d+p there are at most floor(binom(n,ell_h)/binom(u,ell_h)) normalized records and binom(h,2) times that many unordered fiber pairs. After depressing the outer polynomial, polynomial Mason-Stothers gives ord_0(R)<=u-p or u e_h<=p, where h e_h+1=0 mod p. At h=m all 16 official m>=3 rows violate the only possible arm, so maximal capacity is empty at every depth. The lower-h exponent can still grow; higher tail widths and the full L1 fiber remain open.",
+    "refs": [
+      "background/nodes/l1_official_max_split_value_complement_census/statement.md",
+      "background/nodes/l1_official_max_split_value_complement_census/proof.md",
+      "background/nodes/l1_official_max_split_value_complement_census/claim_contract.md",
+      "background/nodes/l1_official_max_split_value_complement_census/dependency_subdag.md",
+      "background/nodes/l1_official_max_split_value_complement_census/audit.md",
+      "background/nodes/l1_official_max_split_value_complement_census/result.md",
+      "background/nodes/l1_official_max_split_value_complement_census/lineage.md",
+      "background/nodes/l1_official_max_split_value_complement_census/upstream_crosswalk.md",
+      "background/nodes/l1_official_max_split_value_complement_census/verify.py",
+      "background/nodes/l1_official_max_split_value_complement_census/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_official_split_pencil_value_capacity",
+      "order": 3839
+    },
+    {
+      "from": "l1_official_checkpoint_characteristic_atlas",
+      "order": 3840
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3841
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1075,
+  "node": {
+    "id": "l1_bounded_mark_affine_split_pencil_compiler",
+    "title": "L1 bounded-mark affine split-pencil compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For one source chart and fixed defect degree, deleting v dense-petal equations partitions the monic partial-petal pairs into at most q^v affine syndromes. Each fiber is a translate of the full-petal monicity-preserving kernel and homogenizes by exactly one projective direction. Every actual pair also gives arbitrary-locator identities L_Ti C_i=J(W-c_iF), deg C_i<=d-ell+v, gcd(JF,JW)=J. At fixed polarized entropy p<=P, support patterns and syndromes cost at most (P+1)n^(1/c_0+P+gamma P) per defect degree. The remaining cell theorem is a uniform split/saturated-point bound in these one-direction extensions, together with non-intrinsic first-match chart supply; zero-syndrome full-petal payment is not silently reused.",
+    "refs": [
+      "background/nodes/l1_bounded_mark_affine_split_pencil_compiler/statement.md",
+      "background/nodes/l1_bounded_mark_affine_split_pencil_compiler/proof.md",
+      "background/nodes/l1_bounded_mark_affine_split_pencil_compiler/claim_contract.md",
+      "background/nodes/l1_bounded_mark_affine_split_pencil_compiler/dependency_subdag.md",
+      "background/nodes/l1_bounded_mark_affine_split_pencil_compiler/audit.md",
+      "background/nodes/l1_bounded_mark_affine_split_pencil_compiler/verify.py",
+      "background/nodes/l1_bounded_mark_affine_split_pencil_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_polarized_petal_entropy_ledger",
+      "order": 2087
+    },
+    {
+      "from": "l1_bounded_polarity_marked_full_pencil_reduction",
+      "order": 2088
+    },
+    {
+      "from": "pma_saturated_mixed_support_kernel",
+      "order": 2089
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2090
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2091
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2092
+    }
+  ],
+  "refutes": []
+}

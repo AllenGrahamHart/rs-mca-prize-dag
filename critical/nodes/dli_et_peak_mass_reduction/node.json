@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 638,
+  "node": {
+    "id": "dli_et_peak_mass_reduction",
+    "title": "DLI Erdos-Turan peak-mass reduction",
+    "status": "PROVED",
+    "statement": "If the normalized odd-evaluation sequence satisfies the required finite-frequency Weyl-sum bounds up to the reciprocal scales used by the DLI peak neighborhoods, then Erdos-Turan plus dyadic annuli around the Dirichlet peaks gives the truncated-log discrepancy and peak-mass tail bounds required by dli_truncated_log_transfer.",
+    "attack_surface": "deterministic interval-discrepancy and dyadic layer-cake reduction",
+    "falsifier": "a sequence satisfying the stated Weyl-sum bounds but violating the required peak-mass or truncated-log discrepancy bound"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

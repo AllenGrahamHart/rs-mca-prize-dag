@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 410,
+  "node": {
+    "id": "xr_anticode_toolkit",
+    "title": "Anticode/EKR toolkit for exchange-distance independence \u2014 with the honest spectral scoping",
+    "status": "PROVABLE",
+    "statement": "Instantiate Delsarte/Frankl-Wilson anticode bounds on J(n,j): sets of locators pairwise exchange-distance > s have size <= C(n-s, j-s)-type bounds \u2014 factors (j/n)^s relative to C(n,j). SCOPING NEGATIVE (included): the Johnson gap n is tiny vs degree ~n^2/4, so single-step expander mixing is near-vacuous, and pure combinatorial distance bounds CANNOT reach q-power (FM) scales \u2014 the q-scale input must be algebraic (v8 per-locator cap, exchange residual systems). Prevents doomed naive-EML attempts.",
+    "refs": [
+      "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
+    ],
+    "notes": "PARTIALLY DELIVERED in flight: PR #191's Johnson exchange-mixing lemma proves the single-step bound with the predicted (1 - n/(j(n-j))) factor TIGHT (point-dictators attain equality) plus the geometric endpoint decay lambda*^s \u2014 the spectral half of this toolkit."
+  },
+  "requires": [
+    {
+      "from": "johnson_gap",
+      "order": 680
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

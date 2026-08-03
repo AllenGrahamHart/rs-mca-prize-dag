@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 971,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_two_sided_complement_weld",
+    "title": "A=1 core-one two-sided complement weld",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For the official A=1 core-one maximal-degree dominant component, interpolate both the domain-saturated complement QV+P_XW=P and the slope-clean complement QA+P_clB=G_X. Eliminating their shared clean-slope product gives WB-B_XE_Z=QK and VB+AE_Z=-P_XK, where deg_X K<=D_0-1 and deg_parameter K<=T-1. The separated opposing factor B_X(X)E_Z(U,V) has bidegree at most (e-5b-1+D_*,1). This is an exact two-sided matrix-factorization normal form for the remaining mixed component, not a stratum exclusion.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_two_sided_complement_weld/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_two_sided_complement_weld/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_two_sided_complement_weld/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_two_sided_complement_weld/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_two_sided_complement_weld/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_two_sided_complement_weld/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_two_sided_complement_weld/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_two_sided_complement_weld/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_component_norm_localization",
+      "order": 1787
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1788
+    }
+  ],
+  "refutes": []
+}

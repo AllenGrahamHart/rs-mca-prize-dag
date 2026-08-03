@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 794,
+  "node": {
+    "id": "f3_h3_norm_one_torus_affine_quotient_cap",
+    "title": "H3 norm-one torus affine quotient cap",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "If H lies in the norm-one torus of a quadratic finite-field extension, every nondegenerate affine image meets H in at most two points. The H3 quotient affine pencil always includes the identity point, so R(t)<=1 for every nonidentity target. For p_M=2^31-1, the order-2^21 multiplicative subgroup of F_(p_M^4)^* lies in the quadratic norm-one torus; hence X_18<=(n-1)^2 and 17X_18<17n^2<300n^2 on that scoped subgroup instance. The deployed Mersenne-31 Chebyshev line round is not covered.",
+    "refs": [
+      "background/nodes/f3_h3_norm_one_torus_affine_quotient_cap/statement.md",
+      "background/nodes/f3_h3_norm_one_torus_affine_quotient_cap/proof.md",
+      "background/nodes/f3_h3_norm_one_torus_affine_quotient_cap/claim_contract.md",
+      "background/nodes/f3_h3_norm_one_torus_affine_quotient_cap/dependency_subdag.md",
+      "background/nodes/f3_h3_norm_one_torus_affine_quotient_cap/audit.md",
+      "background/nodes/f3_h3_norm_one_torus_affine_quotient_cap/result.md",
+      "background/nodes/f3_h3_norm_one_torus_affine_quotient_cap/verify.py",
+      "background/nodes/f3_h3_norm_one_torus_affine_quotient_cap/verify_audit.py",
+      "background/nodes/f3_h3_norm_one_torus_affine_quotient_cap/upstream_crosswalk.md"
+    ],
+    "upstream": {
+      "label": "SP / norm-one multiplicative affine quotient factor",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {
+      "from": "f3_h3_pgl2_pair_identity",
+      "order": 1331
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1332
+    },
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 1333
+    }
+  ],
+  "refutes": []
+}

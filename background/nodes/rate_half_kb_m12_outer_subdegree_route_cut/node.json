@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1339,
+  "node": {
+    "id": "rate_half_kb_m12_outer_subdegree_route_cut",
+    "title": "KoalaBear m12 outer-subdegree route cut",
+    "status": "PROVED",
+    "closure": "primitive degree-five subdegrees plus challenge-field cyclic exclusion",
+    "statement": "At inner degree 12, the outer degree-five map has one challenge-field-rational pole of order five and five distinct challenge-field-rational simple zeros. Primitive degree-five monodromy excludes transverse outer subdegree three. Subdegree one would make the cover cyclic and hence, after rational normalization, a fifth-power map; fifth-power injectivity on F_(2130706433^6) contradicts five distinct rational zeros. Thus only (r,delta)=(2,24),(4,12) survive, reducing the global transverse frontier from 26 to 24 types. No m12 close, owner, charge, u2 close, cap 68, or row close is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/statement.md",
+      "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/proof.md",
+      "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/claim_contract.md",
+      "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/source_evidence.md",
+      "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/audit.md",
+      "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/result.md",
+      "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/frontier.md",
+      "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/verify.py",
+      "background/nodes/rate_half_kb_m12_outer_subdegree_route_cut/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_source_pencil_rank_transverse_compiler",
+      "order": 2995
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2996
+    }
+  ],
+  "refutes": []
+}

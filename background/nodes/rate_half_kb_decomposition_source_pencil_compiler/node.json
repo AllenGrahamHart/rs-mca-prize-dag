@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1337,
+  "node": {
+    "id": "rate_half_kb_decomposition_source_pencil_compiler",
+    "title": "KoalaBear decomposition source-pencil compiler",
+    "status": "PROVED",
+    "closure": "homogeneous source-pencil equivalence and challenge-field descent",
+    "statement": "Every residual KoalaBear endpoint decomposition is equivalent to one coprime binary source pencil containing the complete source locators and fifth powers of exceptional locators, with V_act in its outer symmetric power. Two rational active fibers descend a target transform of the inner map and the outer map to F_(2130706433^6). Degree 30 factors through degree six; degree 12 has one canonical six-dimensional membership test; and the degree-two deck involution is challenge-field rational. Conditional on a missing same-record bridge, a prime-field carrier-stabilizing projectivity is power or reciprocal type. The distinct live degrees are 2,3,4,6,10,12; no owner, charge, u2 close, cap 68, or row close is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/statement.md",
+      "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/proof.md",
+      "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/audit.md",
+      "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/result.md",
+      "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/frontier.md",
+      "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/verify.py",
+      "background/nodes/rate_half_kb_decomposition_source_pencil_compiler/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "PR #1130 KoalaBear degree-60 decomposition source-fiber adapter",
+      "relation": "OVERLAP_AND_ADDITIVE"
+    }
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_degree60_decomposition_divisor_adapter",
+      "order": 2990
+    },
+    {
+      "from": "rate_half_kb_degree5_decomposition_exclusion",
+      "order": 2991
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2992
+    }
+  ],
+  "refutes": []
+}

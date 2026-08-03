@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 843,
+  "node": {
+    "id": "dli_wcl_raw_ledger_interface_guardrail",
+    "title": "DLI WCL consumer interface requires the raw primitive-orbit ledger",
+    "status": "PROVED",
+    "closure": "deduction",
+    "statement": "C1' consumes the raw weighted sum over every reduced primitive signed-vanisher orbit in its window. Multiplier shadows, additive clusters, and level lifts remain lattice points priced at their own level and weight; first-owner classification cannot delete their mass without a separate transfer theorem. Hence WCL-ZONE must bound the raw ledger. At the actual low levels ell in {1,2,4,8}, the bound is still equivalent to primitive-window emptiness; from ell=16 onward exact raw multiplicity matters.",
+    "refs": [
+      "background/nodes/dli_wcl_raw_ledger_interface_guardrail/statement.md",
+      "background/nodes/dli_wcl_raw_ledger_interface_guardrail/proof.md",
+      "background/nodes/dli_wcl_raw_ledger_interface_guardrail/verify.py",
+      "critical/nodes/dli_prime_weighted_large_block_support/notes/C1PRIME_LEVEL_SCALED_POSE.md",
+      "critical/nodes/dli_prime_weighted_large_block_support/PRO_DLI_CLOSE_6.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_zone_coverage",
+      "order": 1410
+    }
+  ],
+  "refutes": []
+}

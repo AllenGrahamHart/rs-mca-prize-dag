@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 815,
+  "node": {
+    "id": "petal_full_touched_set_injection",
+    "title": "A full-petal chart injects into its touched-petal index sets",
+    "status": "PROVED",
+    "statement": "In a fixed retained-zero G1 chart, every listed full-petal image has touched modulus degree at least a=ell+d-r>d-r. CRT therefore makes its touched-petal index set determine the effective polynomial uniquely. The complete per-chart list is at most sum_{t>=ceil(a/ell)} C(m,t); the top-band tail theorem sharpens this to m+1 and proves K4. The remaining aggregate obligation is G1 weighted payment sum_chi(m_chi+1)<=(121/128)n^6.",
+    "refs": [
+      "critical/nodes/petal_full_touched_set_injection/statement.md",
+      "critical/nodes/petal_full_touched_set_injection/proof.md",
+      "critical/nodes/petal_full_touched_set_injection/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "petal_retained_zero_effective_degree",
+      "order": 1362
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_k4_primitive_bound",
+      "order": 1363
+    }
+  ],
+  "refutes": []
+}

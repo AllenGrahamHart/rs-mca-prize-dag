@@ -1,0 +1,60 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1785,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_fixed_a_rankone_allmixed_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-14 fixed-a all-mixed exclusion",
+    "status": "PROVED",
+    "closure": "144 exact all-mixed cases excluded by complete double resultants, exact common-factor fiber splitting, factor-removed residual elimination, and independent field-root replay",
+    "statement": "On the guarded principal quadratic-cover branch of deployed positive 433-1b role cell 14, every outside case is empty when the missing record is one of de,de,-de and the residual matching index is in {6,7,8}. The full 4 source-sign x 4 target-lane x 3 missing-role x 3 matching census has 144 cases. Exact double resultants enumerate 2,992 deployed-field parameter-root incidences; 1,808 are established guard boundaries. Of the 1,184 checked roots, 960 have a common weighted projection factor: 192 factors have no field-valued weight and the other 768 give 960 exact weighted branches, none with a field-valued original-equation fiber. Exact factor removal leaves no residual target root. An independent 24-shard FLINT replay reproduces every root set. Together with the three disjoint predecessor packets, all 1,680 raw cell-14 cases are excluded and cell 14 is closed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_fixed_a_rankone_allmixed_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_fixed_a_rankone_allmixed_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_fixed_a_rankone_allmixed_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_fixed_a_rankone_allmixed_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_fixed_a_rankone_allmixed_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_fixed_a_rankone_allmixed_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_fixed_a_rankone_allmixed_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_fixed_a_rankone_allmixed_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_fixed_a_rankone_allmixed_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_fixed_a_rankone_allmixed_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_fixed_a_rankone_allmixed_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_fixed_a_rankone_allmixed_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_fixed_a_rankone_allmixed_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_fixed_a_rankone_allmixed_root_replay_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_fixed_a_rankone_allmixed_root_replay_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_fixed_a_rankone_allmixed_census_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_fixed_a_rankone_allmixed_census_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure",
+      "order": 4970
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+      "order": 4971
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+      "order": 4972
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_rankone_target_projection_exclusion",
+      "order": 4973
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_fixed_a_rankone_chain_exclusion",
+      "order": 4974
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4975
+    }
+  ],
+  "refutes": []
+}

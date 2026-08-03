@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1655,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld",
+    "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one Galois-role weld",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The degree-42 ordered 3+2+1 role polynomial splits into twelve explicit rational Galois packets: three quadratics and nine quartics. Homogenizing at lambda=1+R/S gives an exact disjunction of twelve p-free systems whose role equation has degree at most four.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld/verify.py"
+    ],
+    "notes": "Exact low-degree packet refinement only. The twelve systems are alternatives, not simultaneous constraints; no p-free unit verdict or arithmetic lift is claimed."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler",
+      "order": 4020
+    },
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_role_weld",
+      "order": 4021
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4022
+    }
+  ],
+  "refutes": []
+}

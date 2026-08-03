@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 981,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_active_partition_incidence_reconstruction",
+    "title": "A=1 core-one active-partition incidence reconstruction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For either live active system, the saturated-row by clean-slope nonincidence graph is connected with both same-side pairs sharing a neighbor. Monic locator ratios factor into unique row/column potentials and satisfy every alternating-cycle identity. Conversely, incidence consistency, those cycle identities, and coefficientwise membership of the scaled clean locators in RS[Z_cl,e_*+1] are necessary and sufficient to reconstruct the unique compatible biform up to scalar; all saturated fibers then follow automatically. The clean-locator, saturated-locator, and core value matrices have exact rank sr(Q), at least five and exactly e+1 when b=0. This is exact classification preprocessing, not a Hankel or irreducibility test.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_partition_incidence_reconstruction/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_partition_incidence_reconstruction/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_partition_incidence_reconstruction/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_partition_incidence_reconstruction/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_partition_incidence_reconstruction/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_partition_incidence_reconstruction/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_partition_incidence_reconstruction/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_partition_incidence_reconstruction/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_partition_incidence_reconstruction/check_packet.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_partition_incidence_reconstruction/packet_schema.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_partition_incidence_reconstruction/toy_packet.json",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_partition_incidence_reconstruction/verify_packet_checker.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_active_core_two_sided_partition",
+      "order": 1807
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1808
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 554,
+  "node": {
+    "id": "l1_boundary_shifted_lattice_affine_q_cell",
+    "title": "L1 boundary shifted-lattice affine Q cell",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In the balanced shifted-lattice band, the boundary profile d1=w+1,d2=omega has coordinates (W,N)=A g1+B g2 with deg(A)<=omega-w-1 and scalar B. Projectively, B=0 is one fixed-codeword ray from which the exact guard retains at most one member; B!=0 is the unique guarded affine cell g2+A g1. When W1=1 this is exactly a locator-Q fiber with the top w+1 coefficients prescribed. For nonconstant W1 it remains a quotient/residue affine Q cell. Thus the boundary belongs to Q and the interior BC census starts at d1>=w+2; no Q or BC bound is proved.",
+    "refs": [
+      "background/nodes/l1_boundary_shifted_lattice_affine_q_cell/statement.md",
+      "background/nodes/l1_boundary_shifted_lattice_affine_q_cell/proof.md",
+      "background/nodes/l1_boundary_shifted_lattice_affine_q_cell/claim_contract.md",
+      "background/nodes/l1_boundary_shifted_lattice_affine_q_cell/dependency_subdag.md",
+      "background/nodes/l1_boundary_shifted_lattice_affine_q_cell/audit.md",
+      "background/nodes/l1_boundary_shifted_lattice_affine_q_cell/lineage.md",
+      "background/nodes/l1_boundary_shifted_lattice_affine_q_cell/upstream_crosswalk.md",
+      "background/nodes/l1_boundary_shifted_lattice_affine_q_cell/verify.py",
+      "background/nodes/l1_boundary_shifted_lattice_affine_q_cell/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_exact_shell_balanced_shifted_lattice_reduction",
+      "order": 2946
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2947
+    }
+  ],
+  "refutes": []
+}

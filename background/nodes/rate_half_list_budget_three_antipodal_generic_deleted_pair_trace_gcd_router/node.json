@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1040,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router",
+    "title": "Budget-three deleted-pair trace gcd router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The source torsion sign has an exact degree-halving Chebyshev square root. Eliminating the source trace converts each of the six signed Legendre branches into one characteristic-explicit three-polynomial gcd in the primary Gegenbauer quotient algebra.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router",
+      "order": 1939
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1940
+    }
+  ],
+  "refutes": []
+}

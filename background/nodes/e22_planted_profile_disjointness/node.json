@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 667,
+  "node": {
+    "id": "e22_planted_profile_disjointness",
+    "title": "E22 planted profile disjointness",
+    "status": "PROVED",
+    "statement": "In the E22 planted sunflower receiver with distinct nonzero petal scalars, every planted codeword agrees on the core and exactly one full petal, with no background agreements and no second touched petal. Hence any nondegenerate mixed/full-petal staircase challenger is disjoint from the planted family.",
+    "attack_surface": "direct profile computation for planted scalar multiples of the core locator",
+    "falsifier": "a planted codeword with a mixed/full-petal nonplanted profile, a second petal agreement caused by repeated scalars, or a background agreement"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1148
+    }
+  ],
+  "refutes": []
+}

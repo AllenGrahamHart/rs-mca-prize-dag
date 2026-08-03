@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 882,
+  "node": {
+    "id": "dli_wcl_ell2_weight6_triple_cubic_router",
+    "title": "DLI ell=2 weight-6 relations reduce to a guarded triple-cubic norm router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Assume the paid official order-1024 weight-3 exclusion. Normalize three roots of a reduced weight-6 relation to {1,x,y}, put u=1+x+y, A=x+y+xy, B=xy, and select the product d in mu_1024 of the remaining triple. Then u is nonzero, C=(uA-B-d)/u, and the remaining roots have cubic T^3+uT^2+CT-d. Scaling those roots by u gives division-free coupled doubling recurrences S_(2m)=S_m^2-2T_m, T_(2m)=T_m^2-2P_mS_m, P_(2m)=P_m^2. Subject to the exact distinctness/disjointness guards, the cubic roots lie in mu_1024 iff S_1024=3u^1024 and T_1024=3u^2048. Thus the residual (ell,w)=(2,6) slot reduces to at most 1,514*1,024=1,550,336 pair-product candidates, each with two explicit cyclotomic norm obstructions. An official supporting prime cannot divide Norm(u), by the weight-3 exclusion, so all shared Norm(u) factors may be saturated out of the norm gcd. This is a proved router, not an emptiness theorem.",
+    "refs": [
+      "background/nodes/dli_wcl_ell2_weight6_triple_cubic_router/statement.md",
+      "background/nodes/dli_wcl_ell2_weight6_triple_cubic_router/proof.md",
+      "background/nodes/dli_wcl_ell2_weight6_triple_cubic_router/verify.py",
+      "background/nodes/dli_wcl_ell2_weight6_triple_cubic_router/notes/verify_norm_gcd_probe.py",
+      "background/nodes/dli_wcl_ell2_weight6_triple_cubic_router/result.md",
+      "experiments/prize_resolution/dli_wcl_ell2_weight6_norm_gcd_probe_modal.py",
+      "experiments/prize_resolution/dli_wcl_ell2_weight6_norm_gcd_probe_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_ell2_weight3_ambient_exclusion",
+      "order": 1541
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_zone_coverage",
+      "order": 1547
+    }
+  ],
+  "refutes": []
+}

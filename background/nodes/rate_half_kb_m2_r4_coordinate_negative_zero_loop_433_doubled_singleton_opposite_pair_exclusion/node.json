@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1414,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion",
+    "title": "KoalaBear m2 r4 coordinate negative zero-loop 433 doubled-singleton opposite-pair exclusion",
+    "status": "PROVED",
+    "closure": "complete deployed-field deletion of zero-loop 433 common matching orbit 1/3/8/10",
+    "statement": "In zero-loop common cell 1, exact ratio-preserving product and quadratic-q elimination has no guarded base-field packet in any root-sign row. The only generic projections force a zero product denominator with nonzero numerator, and exact lost-branch elimination adds no valid point. Target sign and exchange transport the exclusion to cells 3,8,10.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/check.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/verify_positive_opposite.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/verify_negative_opposite.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion/verify_negative_same.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+      "order": 3090
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld",
+      "order": 3091
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3092
+    }
+  ],
+  "refutes": []
+}

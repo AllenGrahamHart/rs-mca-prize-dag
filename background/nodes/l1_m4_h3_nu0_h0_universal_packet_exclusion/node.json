@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1640,
+  "node": {
+    "id": "l1_m4_h3_nu0_h0_universal_packet_exclusion",
+    "title": "L1 m=4, h=3, nu=0, h=0 universal packet exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The universal normalized constant-eliminant packet (a/R(0)^2,b/R(0)^3)=(6,20) is impossible: its Euler identity makes X^n(R-4R(0))/(D(R-R(0))^4) a pth power, but the forced root multiplicities cannot sum to deg(R-R(0))=p. Thus the h=0 nonzero-b endpoint is empty on the first three official characteristics; only the exceptional largest-characteristic packet remains.",
+    "refs": [
+      "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/statement.md",
+      "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/proof.md",
+      "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/claim_contract.md",
+      "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/dependency_subdag.md",
+      "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/audit.md",
+      "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/result.md",
+      "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/lineage.md",
+      "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/upstream_crosswalk.md",
+      "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/verify.py",
+      "background/nodes/l1_m4_h3_nu0_h0_universal_packet_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_m4_h3_nu0_h0_projective_quarter_certificate",
+      "order": 3892
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3893
+    }
+  ],
+  "refutes": []
+}

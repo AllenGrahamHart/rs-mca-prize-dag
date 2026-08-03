@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1444,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler",
+    "title": "KoalaBear m2 r4 positive 433-1a cell-5 ratio-chart compiler",
+    "status": "PROVED",
+    "closure": "exact deployed-field generic and exceptional ratio-chart decomposition of the cell-5 common curve",
+    "statement": "On deployed-field cell 5 with root signs (-1,-1), atomic guard localization and x=c/b turn the three common C1 minors into one linear and two quadratic equations in b.  Away from the retained a1=0 branch, b=-a0/a1 and two exact cleared equations in x,r,t are necessary and sufficient.  Outside equations, route deletion, K3, and both Prize results remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_ratio_compiler.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_ratio_compiler_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_ratio_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction",
+      "order": 3188
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate",
+      "order": 3189
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3190
+    }
+  ],
+  "refutes": []
+}

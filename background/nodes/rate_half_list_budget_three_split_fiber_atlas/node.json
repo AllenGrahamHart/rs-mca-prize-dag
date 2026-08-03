@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 950,
+  "node": {
+    "id": "rate_half_list_budget_three_split_fiber_atlas",
+    "title": "Budget-three split-fiber atlas",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every B*=3 split-pencil witness lies in one of thirteen exact edge-degree chambers; the pendant type has at least one genuinely quadratic edge. Five of the six incidence types contain an explicit total of thirteen three-member constant split pencils. Each degree-d pencil uses three of at most four fully subgroup-split members, as does each degree-(d-1) pencil for d>=6. The cycle is the unique type with no deficit-free split pencil. The residual coupling and adjacent crossing remain open.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_split_fiber_atlas/statement.md",
+      "background/nodes/rate_half_list_budget_three_split_fiber_atlas/proof.md",
+      "background/nodes/rate_half_list_budget_three_split_fiber_atlas/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_split_fiber_atlas/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_split_fiber_atlas/audit.md",
+      "background/nodes/rate_half_list_budget_three_split_fiber_atlas/result.md",
+      "background/nodes/rate_half_list_budget_three_split_fiber_atlas/verify.py",
+      "background/nodes/rate_half_list_budget_three_split_fiber_atlas/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_split_pencil_normal_form",
+      "order": 1721
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1722
+    }
+  ],
+  "refutes": []
+}

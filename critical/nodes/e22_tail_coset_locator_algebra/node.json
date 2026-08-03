@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 671,
+  "node": {
+    "id": "e22_tail_coset_locator_algebra",
+    "title": "E22 tail-coset staircase locator algebra",
+    "status": "PROVED",
+    "statement": "If M|n, B is a tail of size |B|<M, and H is a set of quotient fibers of x -> x^M in the multiplicative subgroup domain, then the locator of B together with the full fibers over H is L_B(X)G(X^M). If M>t, its top t subleading coefficients depend only on B and the number of selected fibers, not on which fibers are selected.",
+    "attack_surface": "finite locator algebra and top-coefficient gap M>t",
+    "falsifier": "a tail-plus-full-coset support whose locator is not L_B(X)G(X^M), or whose top t coefficients depend on the selected quotient roots despite M>t"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1152
+    }
+  ],
+  "refutes": []
+}

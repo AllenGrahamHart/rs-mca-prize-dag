@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 921,
+  "node": {
+    "id": "rate_half_ca_hankel_exceptional_root_charge",
+    "title": "Exceptional-slope root charge for Hankel pencils",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a moving generic apolar generator Q_Z of parameter degree e, a supported rank-drop slope of loss c retains domain roots while c is charged to Kronecker multiplicity. The base bound is T(rho-s)<=(N-s)e+rho-(R+1-2rho)e; contracting the fixed core strengthens the regular allowance to rho-s-(R+1-2rho+s)e. At the official A=3 profiles this closes every e<=2^37-1, forces the remaining high-degree branch to have no fixed domain roots, and also closes e=2^37 at the half-distance budget. At the A=1 endpoint it closes every e<=2^37 and leaves only three explicit core-size rows with s<=2.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_exceptional_root_charge/statement.md",
+      "background/nodes/rate_half_ca_hankel_exceptional_root_charge/proof.md",
+      "background/nodes/rate_half_ca_hankel_exceptional_root_charge/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_exceptional_root_charge/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_exceptional_root_charge/verify.py",
+      "background/nodes/rate_half_ca_hankel_exceptional_root_charge/audit.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_split_pencil_equivalence",
+      "order": 1661
+    },
+    {
+      "from": "rate_half_ca_hankel_minimal_index_budget",
+      "order": 1662
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1663
+    }
+  ],
+  "refutes": []
+}

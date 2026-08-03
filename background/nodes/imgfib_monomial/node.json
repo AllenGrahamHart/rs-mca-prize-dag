@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 347,
+  "node": {
+    "id": "imgfib_monomial",
+    "title": "PROVED instance: monomial-prefix list sizes poly at corrected reserve (split primes, quasi-poly range)",
+    "status": "PROVED",
+    "refs": [
+      "tex/slackMCA_v4.tex"
+    ],
+    "notes": "cor:quasipoly-upper \u2014 the minimal proved instance of imgfib; range extension = amplification_range_ext"
+  },
+  "requires": [
+    {
+      "from": "galois_amplification",
+      "order": 551
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "imgfib",
+      "order": 550
+    }
+  ],
+  "refutes": []
+}

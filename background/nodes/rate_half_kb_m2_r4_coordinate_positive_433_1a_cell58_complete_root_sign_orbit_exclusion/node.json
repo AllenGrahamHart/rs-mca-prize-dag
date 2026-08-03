@@ -1,0 +1,49 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1461,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion",
+    "title": "KoalaBear positive 433-1a cell-5/8 complete root-sign orbit exclusion",
+    "status": "PROVED",
+    "closure": "all eight common root-sign rows in matching cells 5 and 8 are empty",
+    "statement": "The source-reciprocal involution I(H)(T,X)=X^4 H(T,-1/X) preserves the positive coefficient normal form, reverses A_2 and A_0 coefficients, and sends (beta_0,beta_1) to (-beta_1,-beta_0). It preserves every complete target record and Vieta equation up to a nonzero factor while flipping epsilon_2 in cell 5; duplicate AB+ transport gives cell 8. Therefore the proved epsilon_2=-1 exclusions imply that all eight rows {5,8} x {-1,+1} x {-1,+1} are empty. Other role-cell orbits, K3, Prize rows, LIST, and MCA remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion/verify_audit.py",
+      "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell58_source_reciprocal_transport.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_epsilon2_plus_scout_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_epsilon2_plus_scout_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
+      "order": 3247
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+      "order": 3248
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion",
+      "order": 3249
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3250
+    }
+  ],
+  "refutes": []
+}

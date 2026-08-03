@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 177,
+  "node": {
+    "id": "e1_qzeta128_p257_two_involution_nonprincipality_certificate",
+    "title": "Q(zeta_128) prime-257 two-involution nonprincipality certificate",
+    "status": "PROVED",
+    "closure": "J_63 residue obstruction and J_65 Harbater Artin symbol",
+    "refs": [
+      "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/statement.md",
+      "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/proof.md",
+      "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/claim_contract.md",
+      "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/dependency_subdag.md",
+      "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/attack.md",
+      "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/frontier.md",
+      "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/audit.md",
+      "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/result.md",
+      "background/nodes/e1_qzeta128_p257_two_involution_nonprincipality_certificate/verify.py"
+    ],
+    "statement": "Both involution products q_1q_63 and q_1q_65 are nonprincipal in Q(zeta_128).",
+    "notes": "TWO-TEST CLOSE 2026-07-29: J_63 is proved by an explicit Stickelberger/residue obstruction and J_65 by the Harbater Hilbert-class polynomial."
+  },
+  "requires": [
+    {
+      "from": "e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate",
+      "order": 4622
+    },
+    {
+      "from": "e1_qzeta128_p257_j65_harbater_nonprincipality",
+      "order": 4623
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

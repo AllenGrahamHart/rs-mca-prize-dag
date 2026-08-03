@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1763,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing7_complete_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-3 DE pairing-7 complete exclusion",
+    "status": "PROVED",
+    "closure": "all 48 cases with a parallel DE missing record and canonical matching index 7",
+    "statement": "On the guarded positive deployed 433-1b role-cell-3 branch, every case with missing index xi in {0,1,2} and pairing index 7 is empty across all source and target signs. A degree-eight nested-quadratic norm plus direct exceptional-root replay pays 32 raw lane cases; exact parallel-copy transport pays 16. All 64 nonboundary final-pair evaluations are nonzero, with no witness or unresolved stratum. No other matching, missing role, cell closure, or Prize result is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing7_complete_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing7_complete_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing7_complete_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing7_complete_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing7_complete_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing7_complete_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing7_complete_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing7_complete_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing7_complete_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing7_complete_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing7_complete_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_de_pairing7_nested_quadratic_pilot_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_de_pairing7_nested_quadratic_census_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient",
+      "order": 4887
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4888
+    }
+  ],
+  "refutes": []
+}

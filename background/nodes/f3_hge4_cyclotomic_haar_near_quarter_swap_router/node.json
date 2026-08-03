@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1292,
+  "node": {
+    "id": "f3_hge4_cyclotomic_haar_near_quarter_swap_router",
+    "title": "HGE4 cyclotomic-Haar near-quarter swap router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For an exact dyadic ratio level m and h=m/4-d, put X=4(d+1)log m and let B be the least power of two at least X. The inequalities B<h and BX<m^(1-(4d+8B)/m) force every primitive top shift pair to be antipodal-swap; 64(d+1)^2(log m)^2<m is a sufficient closed-form sub-band. Hence even widths in the exact band are empty and odd widths route exactly to the existing half-order perfect-square support problem. The theorem removes the free class in the band but does not count odd swap supports or close the lower-quarter aggregate.",
+    "refs": [
+      "background/nodes/f3_hge4_cyclotomic_haar_near_quarter_swap_router/statement.md",
+      "background/nodes/f3_hge4_cyclotomic_haar_near_quarter_swap_router/proof.md",
+      "background/nodes/f3_hge4_cyclotomic_haar_near_quarter_swap_router/claim_contract.md",
+      "background/nodes/f3_hge4_cyclotomic_haar_near_quarter_swap_router/dependency_subdag.md",
+      "background/nodes/f3_hge4_cyclotomic_haar_near_quarter_swap_router/audit.md",
+      "background/nodes/f3_hge4_cyclotomic_haar_near_quarter_swap_router/result.md",
+      "background/nodes/f3_hge4_cyclotomic_haar_near_quarter_swap_router/verify.py",
+      "background/nodes/f3_hge4_cyclotomic_haar_near_quarter_swap_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_exact_ratio_tower_orbit_compiler",
+      "order": 2739
+    },
+    {
+      "from": "f3_hge4_primitive_swap_odd_moment_router",
+      "order": 2740
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2741
+    }
+  ],
+  "refutes": []
+}

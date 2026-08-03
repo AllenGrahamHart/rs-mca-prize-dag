@@ -1,0 +1,47 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1320,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router",
+    "title": "Budget-three fiber-two c=2 one-antipodal packets have a collision-or-high-support dichotomy",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every complete one-antipodal c=2 packet either has four distinct barycentric weights and mismatch support at least 4H-2, or has exactly one equal weight pair and lies on the same two L/Q branches with the outer square-class gate. Thus every support at most 4H-4 is in the collision branch. Neither branch is excluded, and minimum-support-only gates are not extended.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder",
+      "order": 2820
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler",
+      "order": 2821
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler",
+      "order": 2822
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router",
+      "order": 2823
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2824
+    }
+  ],
+  "refutes": []
+}

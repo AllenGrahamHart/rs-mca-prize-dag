@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 357,
+  "node": {
+    "id": "xr_inverse",
+    "title": "XR stage 2: the inverse theorem \u2014 large E_k => correlation with explicit class C_XR",
+    "status": "CONDITIONAL",
+    "key": true,
+    "statement": "STRIPPED FORM (per the E2 scaffold caveat): after removing paid quotient strata, E_k large (multi-exchange variant if needed) implies correlation with an explicit class C_XR \u2014 expected content post-strip: TANGENT structure only at low k. The class is complete by construction; quotient content is invisible to one-exchange energy and must be stripped first, else false negatives. | 2026-07-27 (wave-26): remains CONDITIONAL, but the reason has CHANGED \u2014 the earlier note cited the averaged_xr false-green demotion, which Codex has since closed (averaged_xr is PROVED at the exact fixed-slope pair moment). The live open requirement is now `xr_gvn`, itself restored to TARGET because the exact k=2 moment does not supply its multi-exchange Cauchy-Schwarz chain.",
+    "attack_surface": "the Gowers-inverse analogue; start at k = 3 (odd moments \u2014 the Hooley-Katz input is exactly the k=3 shadow)",
+    "falsifier": "an E_k-large pair correlating with nothing structured at toy scale",
+    "refs": [
+      "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
+    ],
+    "notes": "E2 scaffold caveat (PR #184): frozen full-block quotient fibers have ZERO one-exchange energy \u2014 the inverse test MUST strip paid quotient strata first or use a multi-exchange variant, else designed-in false negative. Structured >> random baseline confirmed on the walk-energy proxy. | K=1 BASE CASE IN FLIGHT (#191): E_1-extremal families are point-dictator/common-root = PAID structures, exactly the 'energy-extremal => paid' shape this node conjectures at k=3. First inverse-flavor theorem on the board. | E11 (#202): stripped candidate-dictionary scan at J(16,8)/J(32,16) \u2014 post-strip top E_3 candidates are ONLY fixed-core/fixed-hole first-eigenspace structures, consistent with the k=1 dictator extremals. The #184 quotient-pollution caveat confirmed real. Scope: dictionary, not full pair scanner. | FLIP on replay (Codex rednode wave 2): CONJECTURE -> CONDITIONAL; packet in nodes/xr_inverse/."
+  },
+  "requires": [
+    {
+      "from": "xr_gvn",
+      "order": 569
+    },
+    {
+      "from": "xr_e3_calculus",
+      "order": 592
+    },
+    {
+      "from": "c_xr_content",
+      "order": 695
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_crystallization",
+      "order": 570
+    }
+  ],
+  "refutes": []
+}

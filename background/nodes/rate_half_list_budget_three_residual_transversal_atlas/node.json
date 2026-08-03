@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 956,
+  "node": {
+    "id": "rate_half_list_budget_three_residual_transversal_atlas",
+    "title": "Budget-three residual transversal atlas",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The pendant, K_4-e, K_4, and triangle-plus-singleton branches have explicit Mobius or degree-two rational transversals. Together with the path theorem, all thirteen deficit-free pencils have exactly their three displayed fully domain-split members at official scale; the dense K_4-e and K_4 base pencils have exactly two. Hidden fourth members are eliminated, while simultaneous coupling with the official subgroup factorization remains open.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/statement.md",
+      "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/proof.md",
+      "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/audit.md",
+      "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/result.md",
+      "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/verify.py",
+      "background/nodes/rate_half_list_budget_three_residual_transversal_atlas/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_split_fiber_atlas",
+      "order": 1739
+    },
+    {
+      "from": "rate_half_list_budget_three_plucker_edge_gate",
+      "order": 1740
+    },
+    {
+      "from": "rate_half_list_budget_three_path_mobius_transversal",
+      "order": 1741
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1742
+    }
+  ],
+  "refutes": []
+}

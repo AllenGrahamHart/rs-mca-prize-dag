@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1656,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split",
+    "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one official Frobenius-role split",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On each official characteristic p=7 mod 8, the complete ordered 3+2+1 role polynomial splits into 21 explicit irreducible quadratic Frobenius packets over F_p. This gives an exact 21-branch degree-two alternative to the four rational shape packets and twelve rational Galois packets.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split/verify.py"
+    ],
+    "notes": "Official-field compiler only. The 21 systems are alternatives and remain open; no unit verdict, assignment-preserving converse, or arithmetic lift is claimed."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_galois_role_weld",
+      "order": 4023
+    },
+    {
+      "from": "l1_mersenne_next_to_maximal_exceptional_reduction",
+      "order": 4024
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4025
+    }
+  ],
+  "refutes": []
+}

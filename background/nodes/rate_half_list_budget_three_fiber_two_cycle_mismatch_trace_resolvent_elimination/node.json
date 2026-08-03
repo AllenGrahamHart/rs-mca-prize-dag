@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1259,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_mismatch_trace_resolvent_elimination",
+    "title": "Budget-three fiber-two mismatch coupling has a radical-free trace resolvent",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For the generic canonical fiber-two cycle denominator-mismatch strata, the 24+6 binary-quartic invariant packet has a radical-free constant-degree elimination. In c=2, each source class depends on a denominator pair only through z=(A+B)^2/(AB); the six values are the roots of an explicit degree-six symmetric pair-trace resolvent R_D, while outer matching is the degree-three equation 4I_out^3 z(z-36)^2-J_out^2(z+12)^3=0. Thus c=2 is exactly Res(R_D,K_out)=0. In c=1, reducing each sign test in F[u]/(u^2-BD) and taking its quadratic norm replaces 24 tests by twelve explicit base-field norm equations. No mismatch candidate is excluded and no official-order computation is authorized.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_mismatch_trace_resolvent_elimination/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_mismatch_trace_resolvent_elimination/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_mismatch_trace_resolvent_elimination/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_mismatch_trace_resolvent_elimination/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_mismatch_trace_resolvent_elimination/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_mismatch_trace_resolvent_elimination/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_mismatch_trace_resolvent_elimination/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_mismatch_trace_resolvent_elimination/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_mismatch_invariant_coupling_router",
+      "order": 2627
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2661
+    }
+  ],
+  "refutes": []
+}

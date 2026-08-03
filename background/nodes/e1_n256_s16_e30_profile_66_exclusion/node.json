@@ -1,0 +1,66 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 67,
+  "node": {
+    "id": "e1_n256_s16_e30_profile_66_exclusion",
+    "title": "N=256 E=30 profile-(6,6) exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/verify_audit.py",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_six_odd_mask_orbits.cpp",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_six_odd_mask_orbits_modal.py",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_six_odd_mask_orbits_result.json",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_odd_difference_scan.cpp",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_odd_difference_scan_modal.py",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_odd_difference_scan_result.json",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_odd_difference_scan_audit.cpp",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_odd_difference_scan_audit_modal.py",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_odd_difference_scan_audit_result.json",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_exceptional_actual_census.cpp",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_exceptional_actual_modal.py",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_exceptional_actual_result.json",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_exceptional_actual_audit.cpp",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_exceptional_actual_audit_modal.py",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_exceptional_actual_audit_result.json",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_exceptional_norm_modal.py",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_profile66_exceptional_norm_result.json"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), and V=60, profile (6,6) cannot collide. Two independent odd-difference engines agree on 1,234 masks and 44,779,702,968 assignments, leaving 33,737 exceptions on 1,191 masks. Two actual-vector engines agree after 23,638,891,776 vectors per engine, leaving 1,232 full-conductor exceptions. FLINT and PARI put all 1,232 norms below threshold with 4*N_max<2^250<5*N_max.",
+    "notes": "ROUTE CLOSURE 2026-07-27: removes the final live V=60 profile."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e30_profile_parity_light_reduction",
+      "order": 4104
+    },
+    {
+      "from": "e1_n256_proper_conductor_collision_exclusion",
+      "order": 4105
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 4106
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4113
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4114
+    }
+  ],
+  "refutes": []
+}

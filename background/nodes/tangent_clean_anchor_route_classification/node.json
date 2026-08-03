@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 189,
+  "node": {
+    "id": "tangent_clean_anchor_route_classification",
+    "title": "Tangent-floor clean-anchor field-order classification",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/tangent_clean_anchor_route_classification/statement.md",
+      "background/nodes/tangent_clean_anchor_route_classification/proof.md",
+      "background/nodes/tangent_clean_anchor_route_classification/claim_contract.md",
+      "background/nodes/tangent_clean_anchor_route_classification/verify.py",
+      "background/nodes/tangent_clean_anchor_route_classification/source_pin.json"
+    ],
+    "statement": "At each of the six clean candidate predecessors, with e=n-a, the tangent theorem's guaranteed e-slope payload clears the unsafe budget exactly when q<=e*2^128-1. The exact maximum field orders have 138 bits on the three RowC formulas and 169 bits on the three prize formulas. It pays none of the six named envelope anchors because their fixed numerator budgets, respectively 2^122 and 317494674775468773183020924238786383963, are at least e. This is failure of the guaranteed payload at those envelopes, not safety or an upper bound on the line's full bad set.",
+    "notes": "ROUTE CLASSIFICATION 2026-07-27: exact low-field branch and exact applicability cut for the guaranteed tangent-floor payload; residual high-field rows still require Q, another V construction, or M."
+  },
+  "requires": [
+    {
+      "from": "rs_tangent_flexible_budget_unsafe_floor",
+      "order": 523
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 525
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1228,
+  "node": {
+    "id": "f3_hge4_primitive_shift_pair_aggregate_adapter",
+    "title": "HGE4 primitive shift-pair aggregate adapter",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/f3_hge4_primitive_shift_pair_aggregate_adapter/statement.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_aggregate_adapter/proof.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_aggregate_adapter/claim_contract.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_aggregate_adapter/dependency_subdag.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_aggregate_adapter/audit.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_aggregate_adapter/result.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_aggregate_adapter/verify.py",
+      "background/nodes/f3_hge4_primitive_shift_pair_aggregate_adapter/verify_audit.py"
+    ],
+    "statement": "For every official row and 4<=h<=H_max, the stripped HGE4 norm-gate record count satisfies N_h^strip<=SP_h^prim, where SP_h^prim is the ordered top shift-pair count after the quotient-pullback/full-fiber deletion. If B_h=binom(n,h)(binom(n,h)-1)/p^(h-1) and SP_h^prim<=7000n max(1,B_h) at every retained width, then sum_h N_h^strip<14n^3. The reduction and summation compiler are proved; the primitive shift-pair estimate is not claimed."
+  },
+  "requires": [
+    {
+      "from": "x81_minimal_trade_square_shift",
+      "order": 2533
+    },
+    {
+      "from": "x82_square_shift_certifier_keys",
+      "order": 2534
+    },
+    {
+      "from": "x83_uniform_square_shift_obstruction_gate",
+      "order": 2535
+    },
+    {
+      "from": "f3_shiftpair_weld",
+      "order": 2536
+    },
+    {
+      "from": "v13_prefix_collision_ledger",
+      "order": 2537
+    },
+    {
+      "from": "v13_second_moment_shift_pair_identity",
+      "order": 2538
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2539
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1194,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router",
+    "title": "Rate-half distance-three matching-free boundary-power router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official distance-three support packet, put K_A(a)=P_X'(a)/(B(a)^4 A'(a)^4) on the 2e exceptional roots and K_B(t)=P_X'(t)/(A(t)^4 B'(t)) on the triple. A boundary-compatible perfect matching exists exactly when the multiset of K_A(a)^e is centrally symmetric, equivalently its monic value polynomial is even; every admissible matching pairs opposite values. The triple gates are exactly equality of the three K_B(t)^e values.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router",
+      "order": 2459
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2460
+    }
+  ],
+  "refutes": []
+}

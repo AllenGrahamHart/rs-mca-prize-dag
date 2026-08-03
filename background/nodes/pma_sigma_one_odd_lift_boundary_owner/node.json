@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 868,
+  "node": {
+    "id": "pma_sigma_one_odd_lift_boundary_owner",
+    "title": "PMA sigma-one scale-two odd-lift boundary owner",
+    "status": "PROVED",
+    "statement": "If a nonzero source word has U(x)=(x-a)V(x^2), the split point a is unique. Degree-<k odd lifts with exact agreement k+1 or k+3 inject into supports {a} union pi^{-1}(A), so their complete count is binom(n/2,k/2+1)<3Q_2(k+2). Applied after the exact-periodic and growing near-coset owners, all three consume fewer than 11 of the 719 first-scale units and have no chart multiplier.",
+    "refs": [
+      "background/nodes/pma_sigma_one_odd_lift_boundary_owner/statement.md",
+      "background/nodes/pma_sigma_one_odd_lift_boundary_owner/proof.md",
+      "background/nodes/pma_sigma_one_odd_lift_boundary_owner/audit.md",
+      "background/nodes/pma_sigma_one_odd_lift_boundary_owner/claim_contract.md",
+      "background/nodes/pma_sigma_one_odd_lift_boundary_owner/dependency_subdag.md",
+      "background/nodes/pma_sigma_one_odd_lift_boundary_owner/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "petal_g1_layer_maps",
+      "order": 1467
+    },
+    {
+      "from": "pma_sigma_one_dyadic_near_coset_owner",
+      "order": 1468
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 1469
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1470
+    }
+  ],
+  "refutes": []
+}

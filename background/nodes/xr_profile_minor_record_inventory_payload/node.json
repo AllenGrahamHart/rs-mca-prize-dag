@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 592,
+  "node": {
+    "id": "xr_profile_minor_record_inventory_payload",
+    "title": "XR actual profile minor record inventory payload",
+    "status": "PROVED",
+    "statement": "Construct the actual inventory of XR minor-certificate records covering every budget-meeting unpaid non-boundary light-triangle profile, with each record triangular with nonzero diagonal, monomial/noncancellation-certified, or part of a complete remote nonzero-minor certificate table.",
+    "attack_surface": "project-specific uniform XR profile enumeration and certificate-record construction",
+    "falsifier": "a live XR profile missing from the inventory, an inadmissible record, or a listed record whose determinant evidence is zero",
+    "notes": "CENSUS (Modal, evidence): 152/152 light profile types across k=2..6 certified nonvanishing, 0 gaps, uniform across scales. Evidence-only (profile count grows -> full quantifier needs parametric proof). Pro brief issued. | PROVED (Pro basis-free proof, verified 2837 triples + 152/152 census): uniform certificate \u2014 collapse-to-I + r<=k Vandermonde at distinct slopes => rank 3t. Covers ALL light profiles."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1111
+    }
+  ],
+  "refutes": []
+}

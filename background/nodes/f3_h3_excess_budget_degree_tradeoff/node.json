@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 999,
+  "node": {
+    "id": "f3_h3_excess_budget_degree_tradeoff",
+    "title": "H3 excess-budget versus multistar-degree tradeoff",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every cutoff 0<=E<=17, quotient mass pays the product-excess range e<=E and reduces C36' to the exact high-tail budget 17X_18^{>E}<=300n^2-17E(n-1)(n-2). The retained targets have explicit multistar degree L(7+ceil((E+1)/2)); the Pareto cutoffs are E=0,2,6,10,14.",
+    "refs": [
+      "background/nodes/f3_h3_excess_budget_degree_tradeoff/statement.md",
+      "background/nodes/f3_h3_excess_budget_degree_tradeoff/proof.md",
+      "background/nodes/f3_h3_excess_budget_degree_tradeoff/claim_contract.md",
+      "background/nodes/f3_h3_excess_budget_degree_tradeoff/dependency_subdag.md",
+      "background/nodes/f3_h3_excess_budget_degree_tradeoff/audit.md",
+      "background/nodes/f3_h3_excess_budget_degree_tradeoff/result.md",
+      "background/nodes/f3_h3_excess_budget_degree_tradeoff/verify.py",
+      "background/nodes/f3_h3_excess_budget_degree_tradeoff/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_quotient_block_identity",
+      "order": 1892
+    },
+    {
+      "from": "f3_h3_excess_multistar_degree_ladder",
+      "order": 1893
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1894
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 448,
+  "node": {
+    "id": "dihedral_staircase",
+    "title": "REQUIRED LEMMA (QA21-G1): the per-pair dihedral-aligned support cap",
+    "status": "PROVED",
+    "key": true,
+    "statement": "For a fixed pair (u,v), bound the number of simultaneously-aligned inversion-closed supports: the dihedral analogue of the tangent staircase. QA.21 shows the crude bound (all N_dih = 2 C((n-2)/2, (j-1)/2) supports) blows the clean-rate budget by +52..+292 bits (Row C) \u2014 the allowance survives only if per-pair dihedral simultaneity is suppressed by those factors. STRUCTURAL HANDLES: (a) every odd-j inversion-closed support contains one of exactly TWO points ({+1, -1}) \u2014 all dihedral-aligned supports pass through one of two links, so the top-core/link machinery bites maximally; (b) palindromic agreement rigidity (the aligned word's symmetric part is constrained); (c) E25's toy data shows small per-pair counts empirically (100/64 charged events across the whole corpus). Expected shape: linear-in-n like the tangent staircase.",
+    "attack_surface": "start from the fixed-point observation: condition on the support containing +1; the aligned family through one point at one slope is a moving-root-type family \u2014 the tangent staircase argument should transfer nearly verbatim; E25's charging machinery is the toy calibration",
+    "falsifier": "a toy pair aligning super-linear-in-n dihedral supports (searchable with E25's machinery)",
+    "refs": [
+      "experimental/notes/roadmaps/qa21_dihedral_budget_column.md"
+    ],
+    "notes": "GPT PRO X-3 + Codex integration (verifier 36/36): PROVED in the deep regime 3j <= n-k \u2014 at most n+2 exact supports across ALL slopes, dihedrality not even needed (two supports pin (U,V); third codewords forced to the pencil; error-word zero sets change at <= n slopes). HONESTLY SCOPED: not applicable at the clean-rate candidates (j ~ 957 of 1024). The corridor obligation is REFRAMED by the poly-forcing compiler: the dihedral column folds into R_post <= 16 n^3 \u2014 no separate budget subtraction; this node's corridor content merges into the face-4 rungs. | POST-COMPILER ROLE: demoted req -> ev. Dihedral supports count inside R_post like any others, so the rungs' analysis covers them; this lemma is now a sharpening (and its deep-regime instance a proved template), not a gate. | FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/dihedral_staircase/."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_clean_residual_any_gate",
+      "order": 770
+    }
+  ],
+  "refutes": []
+}

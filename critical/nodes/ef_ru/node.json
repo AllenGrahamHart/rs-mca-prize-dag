@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 573,
+  "node": {
+    "id": "ef_ru",
+    "title": "row-uniform extension-fiber hypothesis",
+    "status": "PROVED",
+    "statement": "No Galois-skew unpaid horizontal component beyond poles + subfield pullbacks, row-uniformly (Theorem K's input; possibly dischargeable by banked ext-fiber arithmetic \u2014 referee first).",
+    "notes": "REFEREE VERDICT: NOT discharged by the banked arithmetic \u2014 ext_import prices the pole column, generating_escape gives the s6 escape direction; EF_ru is the COMPLETENESS claim (nothing lands off the pole divisor). Genuine leaf #5, but rich-line-classification-shaped: a one-round Pro target with s6 sections attached."
+  },
+  "requires": [
+    {
+      "from": "ef_component_control_alignment",
+      "order": 918
+    },
+    {
+      "from": "ef_galois_stabilizer_descent",
+      "order": 919
+    },
+    {
+      "from": "ef_full_orbit_pole_forcing",
+      "order": 920
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1081,
+  "node": {
+    "id": "l1_fixed_support_codeword_quotient_bound",
+    "title": "L1 fixed-support codeword quotient bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For one source chart and exact petal support X of size h, fix one compatible degree-at-most-(k-1) codeword P_0. Every other compatible codeword injects by (P-P_0)/L_X into polynomials of degree at most (k-1)-h, so the cell has size at most q^max(0,k-h). Every fixed (p,(k-1)-h) box is polynomial per source chart with bound (P+1)n^(1/c_0+P+gamma(E+1)). In sub-Johnson variables a=(k-1)-d and s=h-d, a bounded-polarity counterfamily must therefore have a-s=(k-1)-h unbounded. No splitting property of the quotient is asserted.",
+    "refs": [
+      "background/nodes/l1_fixed_support_codeword_quotient_bound/statement.md",
+      "background/nodes/l1_fixed_support_codeword_quotient_bound/proof.md",
+      "background/nodes/l1_fixed_support_codeword_quotient_bound/claim_contract.md",
+      "background/nodes/l1_fixed_support_codeword_quotient_bound/dependency_subdag.md",
+      "background/nodes/l1_fixed_support_codeword_quotient_bound/audit.md",
+      "background/nodes/l1_fixed_support_codeword_quotient_bound/verify.py",
+      "background/nodes/l1_fixed_support_codeword_quotient_bound/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_polarized_petal_entropy_ledger",
+      "order": 2122
+    },
+    {
+      "from": "pma_petal_pattern_root_pinning_ledger",
+      "order": 2123
+    },
+    {
+      "from": "pma_saturated_mixed_support_kernel",
+      "order": 2124
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2125
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2126
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2127
+    }
+  ],
+  "refutes": []
+}

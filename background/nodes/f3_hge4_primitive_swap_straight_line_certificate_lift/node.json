@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1245,
+  "node": {
+    "id": "f3_hge4_primitive_swap_straight_line_certificate_lift",
+    "title": "HGE4 primitive swap straight-line certificate lift",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every fixed N=n/2=2^m and odd h=2d+1, the swap condition YT(Y)^2-c | Y^N-1 is scheme-isomorphic over Z to a repeated-squaring system of cubic equations. With s_0=floor(log_2(h-1)), k=m-s_0, and b=d+1, the pruned system has b+k(2h-1)-h variables and k(2h-1) equations. It has no characteristic-zero point, so an integer Nullstellensatz certificate Delta_(N,h) restricts every survivor characteristic. No certificate, characteristic exclusion, survivor count, or free-union bound is claimed.",
+    "refs": [
+      "background/nodes/f3_hge4_primitive_swap_straight_line_certificate_lift/statement.md",
+      "background/nodes/f3_hge4_primitive_swap_straight_line_certificate_lift/proof.md",
+      "background/nodes/f3_hge4_primitive_swap_straight_line_certificate_lift/claim_contract.md",
+      "background/nodes/f3_hge4_primitive_swap_straight_line_certificate_lift/dependency_subdag.md",
+      "background/nodes/f3_hge4_primitive_swap_straight_line_certificate_lift/audit.md",
+      "background/nodes/f3_hge4_primitive_swap_straight_line_certificate_lift/result.md",
+      "background/nodes/f3_hge4_primitive_swap_straight_line_certificate_lift/verify.py",
+      "background/nodes/f3_hge4_primitive_swap_straight_line_certificate_lift/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_primitive_swap_half_order_square_descent",
+      "order": 2591
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2592
+    }
+  ],
+  "refutes": []
+}

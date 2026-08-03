@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1162,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router",
+    "title": "Rate-half distance-three boundary root-unity router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The exact distance-three external locator norm yields slope-independent support gates. For each matched exceptional pair (a,b), the normalized ratio -[P_X'(a)/P_X'(b)]/[B(a)(A/D_i)(a)/(B(b)(A/D_i)(b))]^4 is an e-th root of unity. Analogous normalized ratios at the three canonical points are e-th roots of unity. On the smooth multiplicative domain P_X'(x)=N x^(-1)/((x-s)(x-x_0)), so all gates are evaluated before internal slopes, fiber scalars, or external blocks are allocated.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse",
+      "order": 2362
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2363
+    }
+  ],
+  "refutes": []
+}

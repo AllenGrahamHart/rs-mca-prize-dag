@@ -1,0 +1,56 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 863,
+  "node": {
+    "id": "pma_sigma_one_d4_generic_source_obstruction",
+    "title": "PMA sigma-one generic defect-four source obstruction",
+    "status": "PROVED",
+    "statement": "At the valid official row (q,n,k)=(65537^2,65536,32768), an exact first-moment argument constructs a maximal source word with more than n^6 primitive post-owner codewords of exact defect four, no background hit, and exactly six singleton petal hits. Odd support size excludes exact periodicity, a balanced core excludes the growing dyadic owner, and a base-valued {x,-x} pair excludes odd lift. Hence Top union Post exceeds n^6 and #Post>B_post, refuting the finite pma_wide_residual allocation without refuting a larger polynomial imgfib theorem.",
+    "refs": [
+      "background/nodes/pma_sigma_one_d4_generic_source_obstruction/statement.md",
+      "background/nodes/pma_sigma_one_d4_generic_source_obstruction/proof.md",
+      "background/nodes/pma_sigma_one_d4_generic_source_obstruction/audit.md",
+      "background/nodes/pma_sigma_one_d4_generic_source_obstruction/claim_contract.md",
+      "background/nodes/pma_sigma_one_d4_generic_source_obstruction/dependency_subdag.md",
+      "background/nodes/pma_sigma_one_d4_generic_source_obstruction/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_aux_list_reduction",
+      "order": 1491
+    },
+    {
+      "from": "pma_exact_periodic_owner",
+      "order": 1492
+    },
+    {
+      "from": "pma_sigma_one_dyadic_near_coset_owner",
+      "order": 1493
+    },
+    {
+      "from": "pma_sigma_one_odd_lift_boundary_owner",
+      "order": 1494
+    },
+    {
+      "from": "pma_sigma_one_post_top_allowance",
+      "order": 1495
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 1496
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1497
+    },
+    {
+      "to": "imgfib",
+      "order": 1498
+    }
+  ],
+  "refutes": []
+}

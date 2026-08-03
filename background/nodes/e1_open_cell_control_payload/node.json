@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 606,
+  "node": {
+    "id": "e1_open_cell_control_payload",
+    "title": "E1 open-cell typicality or folded-certificate payload",
+    "status": "CONDITIONAL",
+    "statement": "For N' in {128,256}, provide either a uniform admissible-family typicality theorem for the explicit exceptional norm-divisor set, or named exhibit fields with complete folded kernel certificates returning no nonzero non-cyclotomic folded vector. This is reduced to the proved folded-certificate manifest soundness rule plus the remaining actual named folded-certificate manifest payload.",
+    "attack_surface": "assembly from folded-certificate manifest soundness and the actual complete named folded-certificate transcripts for the open E1 cells",
+    "falsifier": "missing N'=128 or N'=256 coverage, a failed folded certificate, or an admissible-field family with exceptional incidence exceeding the allowed budget"
+  },
+  "requires": [
+    {
+      "from": "e1_folded_certificate_manifest_soundness",
+      "order": 935
+    },
+    {
+      "from": "e1_folded_certificate_manifest_payload",
+      "order": 936
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 938
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1293,
+  "node": {
+    "id": "f3_hge4_swap_norm_haar_band_exclusion",
+    "title": "HGE4 swap-norm and Haar-band exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "A primitive odd antipodal-swap pair at exact dyadic level m must satisfy m^(h-1)<h^(m/4). Thus for h=m/4-d the swap class is empty whenever log_2(m)(d+1)<=m/2. The narrower cyclotomic-Haar band already routes every pair to the swap class, so it is completely empty at every width. Outside that overlap the theorem does not count free pairs or close HGE4.",
+    "refs": [
+      "background/nodes/f3_hge4_swap_norm_haar_band_exclusion/statement.md",
+      "background/nodes/f3_hge4_swap_norm_haar_band_exclusion/proof.md",
+      "background/nodes/f3_hge4_swap_norm_haar_band_exclusion/claim_contract.md",
+      "background/nodes/f3_hge4_swap_norm_haar_band_exclusion/dependency_subdag.md",
+      "background/nodes/f3_hge4_swap_norm_haar_band_exclusion/audit.md",
+      "background/nodes/f3_hge4_swap_norm_haar_band_exclusion/result.md",
+      "background/nodes/f3_hge4_swap_norm_haar_band_exclusion/verify.py",
+      "background/nodes/f3_hge4_swap_norm_haar_band_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_primitive_swap_odd_moment_router",
+      "order": 2742
+    },
+    {
+      "from": "f3_hge4_cyclotomic_haar_near_quarter_swap_router",
+      "order": 2743
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2744
+    }
+  ],
+  "refutes": []
+}

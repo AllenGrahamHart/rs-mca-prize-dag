@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 944,
+  "node": {
+    "id": "f3_h3_global_derivative_ideal_valuation",
+    "title": "C36 rich overlap is supported on one explicit derivative-ideal integer per order",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/f3_h3_global_derivative_ideal_valuation/statement.md",
+      "background/nodes/f3_h3_global_derivative_ideal_valuation/proof.md",
+      "background/nodes/f3_h3_global_derivative_ideal_valuation/audit.md",
+      "background/nodes/f3_h3_global_derivative_ideal_valuation/claim_contract.md",
+      "background/nodes/f3_h3_global_derivative_ideal_valuation/dependency_subdag.md",
+      "background/nodes/f3_h3_global_derivative_ideal_valuation/result.md",
+      "background/nodes/f3_h3_global_derivative_ideal_valuation/verify.py"
+    ],
+    "statement": "For every dyadic order n>=4 there is an explicit positive odd integer e_n, defined as the degree-root of the Galois-invariant norm of the first-nineteen-derivative ideals of the ordered shifted-product polynomial, such that every prime p=1 mod n satisfies p^X_18 | e_n. Hence X_18=0 for every row prime p not dividing e_n, while 17 log(e_n)<=300n^2 log(p) implies the exact C36 target. The proof retains the quotient weight by evaluating once for every ordered nonidentity quotient lift. It does not bound or factor e_n, so the universal critical leaf remains open."
+  },
+  "requires": [
+    {
+      "from": "f3_h3_shifted_product_sidon",
+      "order": 1621
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1622
+    }
+  ],
+  "refutes": []
+}

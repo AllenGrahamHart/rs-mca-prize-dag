@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1257,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_matched_trace_jacobi_norm_transfer",
+    "title": "Budget-three fiber-two matched-cycle trace-Jacobi norm transfer",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the matched c=0 two-antipodal-denominator generic cycle branch at M=2^36, the Chebyshev/Gegenbauer sign router gives six exact trace gcds per fixed epsilon, and the even-Jacobi quadratic norm reduces each packet coverage-equivalently from degree at most 2^37 to degree at most 2^36. Thus the complete interface has two six-gcd packets and at most twelve signed branches. The torsion-only prefilter is one cyclotomic norm at order 2^39 for epsilon=-1 and a 37-level tower at orders 2^2 through 2^38 for epsilon=1; equivalent trace and quadratic-minus splits have maximum degree 2^36. A compatible divisor is only a candidate and must still pass the signed norm and corrected T/q_out fourth-power gate. No norm is evaluated and no large run is authorized.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_trace_jacobi_norm_transfer/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_trace_jacobi_norm_transfer/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_trace_jacobi_norm_transfer/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_trace_jacobi_norm_transfer/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_trace_jacobi_norm_transfer/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_trace_jacobi_norm_transfer/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_trace_jacobi_norm_transfer/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_trace_jacobi_norm_transfer/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_matched_post_field_compiler",
+      "order": 2619
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router",
+      "order": 2620
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_trace_gcd_router",
+      "order": 2621
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_even_jacobi_norm_router",
+      "order": 2622
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition",
+      "order": 2623
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2624
+    }
+  ],
+  "refutes": []
+}

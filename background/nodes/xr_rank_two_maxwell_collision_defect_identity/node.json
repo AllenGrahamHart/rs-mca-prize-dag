@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1581,
+  "node": {
+    "id": "xr_rank_two_maxwell_collision_defect_identity",
+    "title": "XR rank-two Maxwell deficit has an exact collision-defect identity",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_rank_two_maxwell_collision_defect_identity/statement.md",
+      "background/nodes/xr_rank_two_maxwell_collision_defect_identity/proof.md",
+      "background/nodes/xr_rank_two_maxwell_collision_defect_identity/claim_contract.md",
+      "background/nodes/xr_rank_two_maxwell_collision_defect_identity/dependency_subdag.md",
+      "background/nodes/xr_rank_two_maxwell_collision_defect_identity/verify.py",
+      "background/nodes/xr_rank_two_maxwell_collision_defect_identity/verify_audit.py",
+      "background/nodes/xr_rank_two_maxwell_collision_defect_identity/audit.md",
+      "background/nodes/xr_rank_two_maxwell_collision_defect_identity/result.md"
+    ],
+    "statement": "The rank-two Maxwell deficit equals the prior shell baseline D_0 plus twice three nonnegative defect currencies: (t-2) times active-zero reuse, total unused pair slack, and the sum of C(m_x-1,2) over outside multiplicities. Thus a primitive nonpositive shell has an exact integer defect budget; when D_0=0 it has no active-zero reuse, every pair budget is saturated, and every outside multiplicity is at most two. Counting these bounded-defect configurations, first-core ownership, and aggregate payment remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_higher_rank_rank_two_shell_maxwell_router",
+      "order": 3699
+    },
+    {
+      "from": "xr_rank_two_extension_family_collision_ledger",
+      "order": 3700
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3701
+    }
+  ],
+  "refutes": []
+}

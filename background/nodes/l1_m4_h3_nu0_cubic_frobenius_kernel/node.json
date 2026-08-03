@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1635,
+  "node": {
+    "id": "l1_m4_h3_nu0_cubic_frobenius_kernel",
+    "title": "L1 m=4, h=3, nu=0 cubic Frobenius kernel",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Across all four nu=0 eliminant-degree cases, canonical Cartier integration gives X^(p-4)R^3D=(X^5-Q)^p+J and X^(p-4)B_0=Q^p-J for a unique sparse cubic Q=q_3X^3+q_2X^2+q_1X with q_3^p=a. The kernel has only three scalar parameters and H(0)=-4R(0)D(0). This is structural compression, not an exclusion, component count, or L1 closure.",
+    "refs": [
+      "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/statement.md",
+      "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/proof.md",
+      "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/claim_contract.md",
+      "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/dependency_subdag.md",
+      "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/audit.md",
+      "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/result.md",
+      "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/lineage.md",
+      "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/upstream_crosswalk.md",
+      "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/verify.py",
+      "background/nodes/l1_m4_h3_nu0_cubic_frobenius_kernel/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_m4_h3_cartier_resonance_reduction",
+      "order": 3881
+    },
+    {
+      "from": "l1_m4_h3_euler_quotient_factorization",
+      "order": 3882
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3883
+    }
+  ],
+  "refutes": []
+}

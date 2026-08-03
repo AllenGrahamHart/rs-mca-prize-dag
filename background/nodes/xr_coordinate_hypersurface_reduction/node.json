@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 590,
+  "node": {
+    "id": "xr_coordinate_hypersurface_reduction",
+    "title": "XR coordinate-special proper hypersurface reduction",
+    "status": "PROVED",
+    "statement": "Once the light-triangle profile eliminant is nonzero, the coordinate-special stagnation locus inside that profile is a proper bounded-degree hypersurface in the aligned-support chart.",
+    "attack_surface": "formal consequence of the nonzero determinantal eliminant supplied by xr_triangle_eliminant_form",
+    "falsifier": "a nonzero profile eliminant whose coordinate-special vanishing locus is not a proper hypersurface"
+  },
+  "requires": [
+    {
+      "from": "xr_triangle_eliminant_form",
+      "order": 899
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1109
+    }
+  ],
+  "refutes": []
+}

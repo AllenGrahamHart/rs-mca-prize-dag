@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1094,
+  "node": {
+    "id": "l1_marked_common_pencil_quotient_boundary_router",
+    "title": "L1 marked common-pencil quotient-boundary router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In a genuine quotient/coset common-pencil chart, every squarefree defect locator factors uniquely into a canonical partial-fiber boundary and a product of complete quotient-fiber locators P-a. Composing this factorization with the marked CRT theorem bounds every fixed-polarity, fixed-boundary cell by q^(2P_0) times a polynomial boundary factor times the actual full-fiber quotient-core census. Thus bounded boundary and numerator multiplicity cannot create a new super-polynomial factor; the residue is the source-coupled quotient-core census or unbounded partial-fiber boundary. No exact-periodic ownership or cross-chart first-match bound is inferred.",
+    "refs": [
+      "background/nodes/l1_marked_common_pencil_quotient_boundary_router/statement.md",
+      "background/nodes/l1_marked_common_pencil_quotient_boundary_router/proof.md",
+      "background/nodes/l1_marked_common_pencil_quotient_boundary_router/claim_contract.md",
+      "background/nodes/l1_marked_common_pencil_quotient_boundary_router/dependency_subdag.md",
+      "background/nodes/l1_marked_common_pencil_quotient_boundary_router/audit.md",
+      "background/nodes/l1_marked_common_pencil_quotient_boundary_router/verify.py",
+      "background/nodes/l1_marked_common_pencil_quotient_boundary_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_marked_common_pencil_crt_fiber_bound",
+      "order": 2196
+    },
+    {
+      "from": "pma_quotient_closure_scope",
+      "order": 2197
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2198
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2199
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2200
+    }
+  ],
+  "refutes": []
+}

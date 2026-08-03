@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 986,
+  "node": {
+    "id": "rate_half_list_budget_three_multideletion_multifiber_exclusion",
+    "title": "Budget-three multideletion equal-multifiber constructions are excluded",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let equal-size completed blocks be unions of fibers of one X^m map, and delete pairwise-disjoint nonzero root sets R_i of sizes ell_i. The reversed top coefficients of the resulting locators are z^(ell_i-ell_0)/product_(r in R_i)(1-rz). These rational functions are independent when m>sum ell_i-ell_0. The five linear chamber profiles give thresholds 4,3,6,7,5; hence power-of-two fiber size m>=8 is excluded across all nine linear B*=3 chambers. Cycle/path already exclude m>=4. Small-fiber, mixed-map, partial-fiber, primitive, and quadratic-scroll residuals remain open.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_multideletion_multifiber_exclusion/statement.md",
+      "background/nodes/rate_half_list_budget_three_multideletion_multifiber_exclusion/proof.md",
+      "background/nodes/rate_half_list_budget_three_multideletion_multifiber_exclusion/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_multideletion_multifiber_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_multideletion_multifiber_exclusion/audit.md",
+      "background/nodes/rate_half_list_budget_three_multideletion_multifiber_exclusion/result.md",
+      "background/nodes/rate_half_list_budget_three_multideletion_multifiber_exclusion/verify.py",
+      "background/nodes/rate_half_list_budget_three_multideletion_multifiber_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_multifiber_vandermonde_exclusion",
+      "order": 1813
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1814
+    }
+  ],
+  "refutes": []
+}

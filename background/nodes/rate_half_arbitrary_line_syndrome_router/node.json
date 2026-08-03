@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 505,
+  "node": {
+    "id": "rate_half_arbitrary_line_syndrome_router",
+    "title": "Rate-half arbitrary received-line syndrome router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a linear code with parity-check column spans V_E, a received syndrome pair (s_0,s_1) has an MCA-bad finite slope gamma at agreement n-r iff some |E|<=r has s_0+gamma s_1 in V_E while s_0,s_1 are not both in V_E. Thus syndrome-pair search is exhaustive over arbitrary received lines modulo C^2. The F_7 rate-half MDS toy row has a printed pair with all seven slopes bad; no official-row lift is claimed.",
+    "refs": [
+      "background/nodes/rate_half_arbitrary_line_syndrome_router/statement.md",
+      "background/nodes/rate_half_arbitrary_line_syndrome_router/proof.md",
+      "background/nodes/rate_half_arbitrary_line_syndrome_router/claim_contract.md",
+      "background/nodes/rate_half_arbitrary_line_syndrome_router/dependency_subdag.md",
+      "background/nodes/rate_half_arbitrary_line_syndrome_router/audit.md",
+      "background/nodes/rate_half_arbitrary_line_syndrome_router/result.md",
+      "background/nodes/rate_half_arbitrary_line_syndrome_router/verify.py",
+      "background/nodes/rate_half_arbitrary_line_syndrome_router/verify_audit.py"
+    ],
+    "notes": "Exact N2 attack model and scope fence. The historical polynomial locator-fiber Modal census cannot test this arbitrary-line flank. The toy saturation witness is a lifting target only."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1772
+    }
+  ],
+  "refutes": []
+}

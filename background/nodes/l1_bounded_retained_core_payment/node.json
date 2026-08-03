@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1079,
+  "node": {
+    "id": "l1_bounded_retained_core_payment",
+    "title": "L1 bounded retained-core payment",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In one maximal-sunflower source chart, let a=(k-1)-d be the retained-core size and p the polarized petal entropy. Every fixed box a<=A,p<=P has at most (A+1)(P+1)n^(1/c_0+A+P) exact contributors: choose the retained a-subset of the fixed core, then the petal exceptions; h>d makes the numerator unique. Thus a bounded-polarity per-chart counterfamily in the sub-Johnson tail must have a unbounded, and its tail inequality is equivalently a((k-1)-a)>=(k-1)(ell-b).",
+    "refs": [
+      "background/nodes/l1_bounded_retained_core_payment/statement.md",
+      "background/nodes/l1_bounded_retained_core_payment/proof.md",
+      "background/nodes/l1_bounded_retained_core_payment/claim_contract.md",
+      "background/nodes/l1_bounded_retained_core_payment/dependency_subdag.md",
+      "background/nodes/l1_bounded_retained_core_payment/audit.md",
+      "background/nodes/l1_bounded_retained_core_payment/verify.py",
+      "background/nodes/l1_bounded_retained_core_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_polarized_petal_entropy_ledger",
+      "order": 2110
+    },
+    {
+      "from": "pma_petal_pattern_root_pinning_ledger",
+      "order": 2111
+    },
+    {
+      "from": "pma_saturated_mixed_support_kernel",
+      "order": 2112
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2113
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2114
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2115
+    }
+  ],
+  "refutes": []
+}

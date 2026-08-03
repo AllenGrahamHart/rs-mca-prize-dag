@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 517,
+  "node": {
+    "id": "f1_pole_same_rate_scope_router",
+    "title": "F1 pole/tower descent preserves the RS rate",
+    "status": "PROVED",
+    "statement": "In the F1 extension-pole and tower constructions, base-field restriction and Weil expansion preserve the evaluation domain D and RS degree bound kappa. Therefore every imported base-list threshold has the same rate kappa/|D| as its ambient row. Clean-rate pole pricing consumes only clean-rate list crossings; rate-half list adjacency is needed only for an ambient rate-half row.",
+    "refs": [
+      "background/nodes/f1_pole_same_rate_scope_router/statement.md",
+      "notes/roadmap_r3_20260721/CONFLICT4_RATE_SCOPE_AUDIT.md"
+    ],
+    "notes": "Resolves roadmap Conflict-4. This is a per-rate scope router, not a proof of any list crossing or extension upper bound. The global all-rate dependency remains sound for the full prize."
+  },
+  "requires": [
+    {
+      "from": "f1_minimal_field_descent",
+      "order": 828
+    },
+    {
+      "from": "interleaved_floor_import",
+      "order": 829
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f1_pole_list_threshold_location",
+      "order": 830
+    },
+    {
+      "to": "mca_safe",
+      "order": 831
+    }
+  ],
+  "refutes": []
+}

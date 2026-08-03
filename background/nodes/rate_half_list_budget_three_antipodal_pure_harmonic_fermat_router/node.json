@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1023,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router",
+    "title": "Budget-three antipodal pure harmonic-Fermat router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The maximal pure-quartic antipodal boundary forces the square-root lifts of its four deleted roots to form a non-antipodal harmonic quadruple. After normalization their fourth lift is one explicit rational function of two subgroup variables, while the polynomial content is exactly a coprime decomposition Q=B^4+Z^4 with printed endpoint orders and degrees.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router/verify.py",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_pure_quartic_degree_rigidity",
+      "order": 1870
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1871
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 548,
+  "node": {
+    "id": "l1_exact_shell_balanced_shifted_lattice_reduction",
+    "title": "L1 exact-shell balanced shifted-lattice reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At agreement m>k with w=m-k, omega=n-m, and 2m<=n+k-1, form the shifted interpolation module M_U={(W,N):N=W Uhat mod Omega}. A reduced basis has degrees d1+d2=n-k+1. If d1<=w, the unguarded support census is empty or all m-subsets of one unique codeword's exact agreement set of size n-d1>=m+1, so the complete-agreement level-m shell is empty. Hence every nonempty exact shell has w+1<=d1<=d2<=omega and lies uniquely in the balanced pencil (W,N)=A g1+B g2 with coefficient-space dimension omega-w+1, W a monic degree-omega divisor of Omega, and exactness guard gcd(Q,W)=1. No balanced-pencil count or finite base-field budget is proved.",
+    "refs": [
+      "background/nodes/l1_exact_shell_balanced_shifted_lattice_reduction/statement.md",
+      "background/nodes/l1_exact_shell_balanced_shifted_lattice_reduction/proof.md",
+      "background/nodes/l1_exact_shell_balanced_shifted_lattice_reduction/claim_contract.md",
+      "background/nodes/l1_exact_shell_balanced_shifted_lattice_reduction/dependency_subdag.md",
+      "background/nodes/l1_exact_shell_balanced_shifted_lattice_reduction/audit.md",
+      "background/nodes/l1_exact_shell_balanced_shifted_lattice_reduction/lineage.md",
+      "background/nodes/l1_exact_shell_balanced_shifted_lattice_reduction/upstream_crosswalk.md",
+      "background/nodes/l1_exact_shell_balanced_shifted_lattice_reduction/verify.py",
+      "background/nodes/l1_exact_shell_balanced_shifted_lattice_reduction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_pade_split_section_support_moment_inversion",
+      "order": 2928
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2929
+    }
+  ],
+  "refutes": []
+}

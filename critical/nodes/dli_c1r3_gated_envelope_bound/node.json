@@ -1,0 +1,13 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1574,
+  "node": {
+    "id": "dli_c1r3_gated_envelope_bound",
+    "status": "TARGET",
+    "statement": "C1'-r3: on official-admissible rows (v_2(q-1)>=41) the extended-raw-ledger envelope satisfies E-1 <= 4r(1+W_ext), w_max = L+7. Twice-survived (worst K' 1.4016, zero rows >= 2); standing watch = literal-4 / amber-2 / iid-excess trend (maintainer Decision 6, 2026-07-21). Successor of the REFUTED dli_dyadic_k_core; evidence, not proof."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

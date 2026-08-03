@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 499,
+  "node": {
+    "id": "f1_pole_list_threshold_location",
+    "title": "Hypothesis (node-ified from f1_case_pole prose): the list-side threshold location at non-generating rows",
+    "status": "CONDITIONAL",
+    "statement": "The imported list-side input the pole pricing consumes (s6 section 2, verified): the extension-pole mechanism's witness count N(L) crosses the MCA gate (N > |F| 2^-128) exactly when the BASE list crosses L ~ 2^128; non-generating rows force q_gen < 2^128 with doubled base reserve. The hypothesis: the base-row list threshold location keeps L below the crossing at the corridor points f1_case_pole prices. MAY be dischargeable by existing list-lane results (base gate B*_gen <= 1) \u2014 flagged for the F-lane owner to either wire to an existing proof or close directly.",
+    "refs": [
+      "experimental/notes/roadmaps/proof_sketch/s6_extension_lift.md"
+    ],
+    "notes": "FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate list_adjacency_closing was not wired req \u2014 promoted. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate ext_import was not wired req \u2014 promoted. | AMBER AUDIT 2026-07-06: SOUND (bridge follows from list adjacency + import). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md."
+  },
+  "requires": [
+    {
+      "from": "list_adjacency_closing",
+      "order": 854
+    },
+    {
+      "from": "ext_import",
+      "order": 855
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

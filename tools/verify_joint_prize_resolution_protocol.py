@@ -4,6 +4,8 @@
 import json
 from pathlib import Path
 
+from dag_manifest import canonical_dag_text
+from sectioned_document import compiled_text
 
 ROOT = Path(__file__).resolve().parents[1]
 PROTOCOL = ROOT / "notes" / "JOINT_PRIZE_RESOLUTION_PROTOCOL.md"
@@ -21,6 +23,11 @@ required_files = (
     ROOT / "notes" / "correspondence" / "JOINT_CROSSWALK.json",
     ROOT / "notes" / "PRIZE_COMPUTE_REQUESTS.md",
     ROOT / "dag.json",
+    ROOT / "graph" / "dag_meta.json",
+    ROOT / "notes" / "DAG_MANIFEST_CONVENTION.md",
+    ROOT / "notes" / "SHARDED_RESULT_CONVENTION.md",
+    ROOT / "notes" / "roadmap" / "document.json",
+    ROOT / "notes" / "compute_requests" / "document.json",
 )
 for path in required_files:
     assert path.is_file(), f"missing protocol dependency: {path.relative_to(ROOT)}"
@@ -59,11 +66,16 @@ for anchor in (
     "conservative total cost is below `$1`",
     "INCOMPLETE: evidence only, no status change",
     "An adversarial completion audit",
+    "node-local `node.json` manifests",
+    "Large row ledgers use",
+    "`notes/SHARDED_RESULT_CONVENTION.md`",
 ):
     require(protocol, anchor)
     checks += 1
 
 dag = json.loads((ROOT / "dag.json").read_text())
+assert (ROOT / "dag.json").read_text() == canonical_dag_text(ROOT)
+checks += 1
 nodes = {node["id"]: node for node in dag["nodes"]}
 for terminal in ("list_grand", "mca_grand", "prize"):
     assert terminal in nodes, f"missing terminal node: {terminal}"
@@ -86,6 +98,18 @@ ledger = (
     ROOT / "notes" / "convergence_ledger_20260724" / "CONVERGENCE_LEDGER_R1.md"
 ).read_text()
 compute = (ROOT / "notes" / "PRIZE_COMPUTE_REQUESTS.md").read_text()
+for manifest, output in (
+    (
+        ROOT / "notes" / "roadmap" / "document.json",
+        ROOT / "notes" / "PRIZE_RESOLUTION_ROADMAP.md",
+    ),
+    (
+        ROOT / "notes" / "compute_requests" / "document.json",
+        ROOT / "notes" / "PRIZE_COMPUTE_REQUESTS.md",
+    ),
+):
+    assert output.read_text() == compiled_text(manifest, ROOT)
+    checks += 1
 for text in (roadmap, ledger, compute):
     require(text, "JOINT_PRIZE_RESOLUTION_PROTOCOL.md")
     checks += 1

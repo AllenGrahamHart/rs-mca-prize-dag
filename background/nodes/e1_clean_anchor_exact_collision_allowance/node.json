@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 16,
+  "node": {
+    "id": "e1_clean_anchor_exact_collision_allowance",
+    "title": "Exact E1 class counts and collision-loss allowances at clean anchors",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_clean_anchor_exact_collision_allowance/statement.md",
+      "background/nodes/e1_clean_anchor_exact_collision_allowance/proof.md",
+      "background/nodes/e1_clean_anchor_exact_collision_allowance/claim_contract.md",
+      "background/nodes/e1_clean_anchor_exact_collision_allowance/verify.py",
+      "background/nodes/e1_clean_anchor_exact_collision_allowance/audit_verify.py"
+    ],
+    "statement": "At each clean candidate predecessor, let K=A_2(N,ell) be the exact characteristic-zero antipodal-rearrangement class count and P=sum_y binom(r_y,2) the number of unordered pairs of distinct classes colliding after reduction into the ambient slope field. Then K-|image|<=P, so P <= K-B*-1 implies |image|>=B*+1. The actual quotient orders are N=256,512 with folded dimensions h=128,256. If B=F_p(Q) has size b, image(e1) is contained in B; moreover every reduction has P>=P_min(K,b)=b binom(s,2)+rs for K=sb+r. Thus b<=B* rules out direct E1, and b<b_pair_min=ceil((K+B*+1)/3) rules out the pair-loss compiler. Exact allowances and pair-feasibility thresholds are printed for all six anchors.",
+    "notes": "FINITE E1 COMPILER 2026-07-26: corrects the provisional global-sign factor, quotient-order/folded-dimension ambiguity, circular route assignment, and the overbroad |B|>B* pair target. It fixes exact allowances and a three-way generated-field split but proves no official collision bound and pays no row."
+  },
+  "requires": [
+    {
+      "from": "acl_count",
+      "order": 231
+    },
+    {
+      "from": "qfloor_clean_anchor_norm_threshold_route_cut",
+      "order": 232
+    },
+    {
+      "from": "v13_base_field_normalization_guard",
+      "order": 233
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 235
+    },
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 929
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 339,
+  "node": {
+    "id": "prop_collapse",
+    "title": "prop:collapse: subgroup-symmetric witnesses collapse to the one-condition ladder",
+    "status": "PROVED",
+    "refs": [
+      "tex/slackMCA_v4.tex"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "strat_tree",
+      "order": 538
+    }
+  ],
+  "refutes": []
+}

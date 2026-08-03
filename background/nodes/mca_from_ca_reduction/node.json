@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 372,
+  "node": {
+    "id": "mca_from_ca_reduction",
+    "title": "v12: MCA-from-CA reduction up to half the minimum distance",
+    "status": "PROVED",
+    "refs": [
+      "tex/cs25_cap_v12.tex"
+    ],
+    "notes": "external correlated-agreement theorems now IMPORT into MCA up to d_min/2 \u2014 a new bridge; mandatory bridge-ledger row; conventions audit = #177"
+  },
+  "requires": [
+    {
+      "from": "half_johnson_ca",
+      "order": 601
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "mca_safe",
+      "order": 603
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1749,
+  "node": {
+    "id": "xr_mc_depth_quantization",
+    "title": "XR MC depth quantization + THEOREM BP: MC-family band pairs are diagonal at depth exactly w; structured => d a power of two (BP1); parity excludes every band-proper depth at all six rows (BP3, preferred); slope-confinement trichotomy on the shift class (BP2)",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "MC word u = X^{n-1} + cX^{k+w-1} on H = x_0 mu_n, r' = n-k-w, family = unions T of m = r'/M cosets of mu_M with prod T = gamma (MC-1/2/3 consumed from xr_band_key_lemma_pencil_mass); shift pencil v = u/X^j, j <= M-1 (the unique class keeping the family joint; X^{M-1} | P_T). THEOREM 5 (quantization): distinct coset unions share <= r'-M points, so cross pairs (P_T, Q_{T'}) have joint agreement <= k+w-M <= k: the only MC-family band pairs are DIAGONAL (P_T,Q_T), depth exactly w; N_d = 0 at every band-proper depth (two shapes re-verified exhaustively; five in the pilot record). BP(1): a coset-union core complement with M = 2^ceil(log2 d) forces M | d, hence M = d: structured => d a POWER OF TWO; at the six rows (h odd) the unique 2-power in [ceil(h/2), h] is h-1, the upper band-proper window carries NO structured depth, excess h is not structured. BP(3) (parity, STRICTLY STRONGER, preferred per the occupancy-v2 REPORT's own deferral): on the shift class the direction map zeta_P(i) = -x_i^j has mu_g-coset fibres, g = gcd(j,n); a depth-d forced ray has agreement (k+d)+g, live iff g = h-d; at the six rows g is a 2-power and h odd makes h-d odd for every structured d >= 2, while d = 1 admits no shift: N_d^{coset} = 0 at EVERY band-proper depth -- the band proper is unreachable by coset constructions, F1 not fired by this class. BP(2) (trichotomy, scope = shift class): g < h-d invisible; g = h-d live with Gamma inside {-x^j : x in H}, |Gamma| <= n/(h-d), and exclusivity is automatic (g = h-d forces 2d >= h+1, then xr_two_slope_deficit_dichotomy T2(b)), so N_d <= n/(2(h-d)) -- LINEAR; g > h-d breaks the gate (T2/P2). The h-EVEN control (n=20, h=6, d=4, j=2: N_4 = 2, |Gamma| = 10 = n/(h-d)) shows the mechanism is REAL: official protection is PARITY, not impossibility. Cascade-tier population: at the prize rows w = M = h-1 is forced; the family sits AT the cascade tier with C(N,m)/N members; under SELECTED-support L_P (item 8) N_{h-1} <= n/2 (k-packing exclusivity); under 'any exact-A ray' it would be 2^130-2^197 -- the definition is load-bearing and pinned. NOT claimed: BP(2) beyond the shift class (general v UNPROVED); protection against non-coset families (char-p accidentals exist off-shape); MC-4 completeness beyond its char-0 scope (machine-checked empirically at one shape, q = 65537); that the MC pair reaches the generic branch (it is quotient-periodic, P3 fires first -- quotient-convention adjudication open, item 6); Gamma set claims at j >= 2 (refuted; cardinality |Gamma| <= n survives -- adv_gamma_minus_h amendment); any occupancy bound. Provenance notes/pilots_20260802/xr_occupancy_v2/ THEOREM 5 merged with notes/pilots_20260802/band_adjudication/ THEOREM BP (135 checks, 0 fails; fresh replication here matches the checkpoints exactly).",
+    "refs": [
+      "background/nodes/xr_mc_depth_quantization/statement.md",
+      "background/nodes/xr_mc_depth_quantization/proof.md",
+      "background/nodes/xr_mc_depth_quantization/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_two_slope_deficit_dichotomy",
+      "order": 4845
+    },
+    {
+      "from": "xr_band_key_lemma_pencil_mass",
+      "order": 4846
+    },
+    {
+      "from": "xr_mismatch_chart_nongeneric_joint_support_equivalence",
+      "order": 4850
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_graded_tangent_band_charge",
+      "order": 4856
+    }
+  ],
+  "refutes": []
+}

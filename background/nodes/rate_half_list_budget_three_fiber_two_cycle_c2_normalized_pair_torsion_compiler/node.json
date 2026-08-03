@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1272,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_normalized_pair_torsion_compiler",
+    "title": "Budget-three fiber-two c=2 selected pairs form one normalized torsion chamber",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every actual pair selected in the generic canonical c=2 denominator-mismatch chamber can be normalized at one selected root to D_A(Y)=(Y-1)(Y-t)(Y^2-SY+P). The selected pair passes exactly when K_A((1+t)^2/t)=0 and t^(2^40)=1; forty scalar squarings compile torsion for t and both complementary roots. Reversing pair orientation is the explicit involution (t,S,P)->(t^-1,S/t,P/t^2). Thus the old six labelled pairs become one role-labelled chamber modulo this involution, while all gap, canonical-span, splitting, square-class, and cycle conditions remain.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_normalized_pair_torsion_compiler/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_normalized_pair_torsion_compiler/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_normalized_pair_torsion_compiler/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_normalized_pair_torsion_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_normalized_pair_torsion_compiler/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_normalized_pair_torsion_compiler/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_normalized_pair_torsion_compiler/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_normalized_pair_torsion_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_canonical_span_criterion",
+      "order": 2667
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_joint_pair_torsion_selector",
+      "order": 2668
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2669
+    }
+  ],
+  "refutes": []
+}

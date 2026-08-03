@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1311,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome",
+    "title": "Budget-three fiber-two c=2 one-antipodal barycentric coloring has a sharp negation syndrome",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For the canonical one-antipodal root cells, weight cell i by lambda_i=1/Phi'(w_i). The resulting negation difference has zero Fourier moments through degree 3H-1 and first syndrome -2H at degree 3H. Its support is therefore at least 3H+1=3R+4; at equality its values are exactly -2H/Psi'(a) on a negation-stable support. This does not classify or exclude the remaining supports.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder",
+      "order": 2792
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2793
+    }
+  ],
+  "refutes": []
+}

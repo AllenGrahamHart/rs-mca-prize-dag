@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 183,
+  "node": {
+    "id": "e1_profile018_mod257_singleton_completion_no_go",
+    "title": "E1 profile-(0,18) mod-257 singleton-completion no-go",
+    "status": "PROVED",
+    "closure": "exact finite-field bijection and explicit adversarial family",
+    "refs": [
+      "background/nodes/e1_profile018_mod257_singleton_completion_no_go/statement.md",
+      "background/nodes/e1_profile018_mod257_singleton_completion_no_go/proof.md",
+      "background/nodes/e1_profile018_mod257_singleton_completion_no_go/claim_contract.md",
+      "background/nodes/e1_profile018_mod257_singleton_completion_no_go/dependency_subdag.md",
+      "background/nodes/e1_profile018_mod257_singleton_completion_no_go/audit.md",
+      "background/nodes/e1_profile018_mod257_singleton_completion_no_go/result.md",
+      "background/nodes/e1_profile018_mod257_singleton_completion_no_go/frontier.md",
+      "background/nodes/e1_profile018_mod257_singleton_completion_no_go/verify.py"
+    ],
+    "statement": "Oriented singleton values biject with F_257^*. The explicit support {0,...,15,17,78} has 18 singleton terms, local multiplicity one, and a root at 3 mod 257; Galois transport supplies every primitive root. Hence root plus local-valuation screening alone removes none of the 128 split ideals.",
+    "notes": "NO-GO FENCE 2026-07-29: the explicit family has energy 1478, so it is not a live collision or a falsifier. Any useful occupancy proof must couple the root equation to E=5,...,12 realization and exact norm multiplicity."
+  },
+  "requires": [
+    {
+      "from": "e1_profile018_split_prime_payment_router",
+      "order": 4638
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_profile018_m514_five_ideal_occupancy",
+      "order": 4639
+    },
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4640
+    }
+  ],
+  "refutes": []
+}

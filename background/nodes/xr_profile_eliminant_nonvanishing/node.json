@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 588,
+  "node": {
+    "id": "xr_profile_eliminant_nonvanishing",
+    "title": "XR light-profile eliminant nonvanishing",
+    "status": "PROVED",
+    "statement": "For every budget-meeting light-triangle profile not already paid or boundary, the normal-form matrix from xr_triangle_eliminant_form has at least one maximal minor that is a nonzero polynomial in the profile coordinates. This follows once the certificate semantics are fixed and every unpaid light profile is covered by a concrete nonzero minor/specialization certificate.",
+    "attack_surface": "assembled from xr_minor_specialization_certificate_semantics plus xr_profile_minor_certificate_coverage; the latter is the remaining uniform certificate-production problem",
+    "falsifier": "a budget-meeting unpaid light profile for which no admissible nonzero maximal-minor specialization exists"
+  },
+  "requires": [
+    {
+      "from": "xr_triangle_eliminant_form",
+      "order": 887
+    },
+    {
+      "from": "xr_minor_specialization_certificate_semantics",
+      "order": 897
+    },
+    {
+      "from": "xr_profile_minor_certificate_coverage",
+      "order": 898
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1107
+    }
+  ],
+  "refutes": []
+}

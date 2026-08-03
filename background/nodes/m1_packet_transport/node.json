@@ -1,0 +1,17 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 300,
+  "node": {
+    "id": "m1_packet_transport",
+    "title": "Packet transport lemmas: root-slice lift, top-packet lift & compression",
+    "status": "PROVED",
+    "refs": [
+      "experimental/notes/m1/m1_root_slice_lift.md",
+      "experimental/notes/m1/m1_top_packet_lift_compression.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

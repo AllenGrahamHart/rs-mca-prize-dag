@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 928,
+  "node": {
+    "id": "rate_half_ca_hankel_endpoint_dominant_rank_amplification",
+    "title": "Dominant-component rank amplification at the strict endpoint",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the official first strict endpoint, maximal separation rank m+1 of the full primitive generator propagates through its irreducible factorization. For every component Q_i of parameter degree e_i, sr(Q_i)>=ceil((m+1)/(m-e_i+1)). For the unique dominant component, its complement has parameter degree b=m-e_*<=floor((O-E)/4)<=m/4-1, so sr(Q_*)>=ceil((m+1)/(b+1))>=5. If b=0, Q_*=Q has exact rank m+1. Thus all rank-three and rank-four mixed dominant models are excluded; rank-five-or-higher models remain open.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_endpoint_dominant_rank_amplification/statement.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_dominant_rank_amplification/proof.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_dominant_rank_amplification/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_dominant_rank_amplification/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_dominant_rank_amplification/verify.py",
+      "background/nodes/rate_half_ca_hankel_endpoint_dominant_rank_amplification/audit.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_endpoint_rational_normal_kernel_curve",
+      "order": 1678
+    },
+    {
+      "from": "rate_half_ca_hankel_endpoint_component_defect_localization",
+      "order": 1679
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1680
+    }
+  ],
+  "refutes": []
+}

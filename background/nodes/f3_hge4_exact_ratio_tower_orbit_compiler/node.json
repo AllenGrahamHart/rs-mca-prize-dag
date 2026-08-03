@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1247,
+  "node": {
+    "id": "f3_hge4_exact_ratio_tower_orbit_compiler",
+    "title": "HGE4 exact-ratio tower orbit compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Primitive top shift-pair scaling orbits split bijectively by their exact dyadic ratio subgroup: O_h^prim(n,p)=sum_(m|n,m>=2h) E_h^prim(m,p), and each exact-level orbit has h left-anchored presentations. Therefore the levelwise estimate sum_(h=4)^floor(m/2) E_h^prim(m,p)<=(21/2)m^2 for every m|n sums geometrically to less than 14n^2 and implies HGE4. Exact levels are projected by the non-full near-square scheme with S(1)=a, V_r=1, and V_(r-1)!=1. The levelwise estimate itself is not proved.",
+    "refs": [
+      "background/nodes/f3_hge4_exact_ratio_tower_orbit_compiler/statement.md",
+      "background/nodes/f3_hge4_exact_ratio_tower_orbit_compiler/proof.md",
+      "background/nodes/f3_hge4_exact_ratio_tower_orbit_compiler/claim_contract.md",
+      "background/nodes/f3_hge4_exact_ratio_tower_orbit_compiler/dependency_subdag.md",
+      "background/nodes/f3_hge4_exact_ratio_tower_orbit_compiler/audit.md",
+      "background/nodes/f3_hge4_exact_ratio_tower_orbit_compiler/result.md",
+      "background/nodes/f3_hge4_exact_ratio_tower_orbit_compiler/verify.py",
+      "background/nodes/f3_hge4_exact_ratio_tower_orbit_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_primitive_shift_pair_orbit_aggregate_router",
+      "order": 2596
+    },
+    {
+      "from": "f3_hge4_nonfull_near_square_straight_line_lift",
+      "order": 2597
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2598
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 186,
+  "node": {
+    "id": "identity_prefix_flexible_budget_unsafe_floor",
+    "title": "Identity-prefix plus flexible-budget MCA unsafe floor",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/identity_prefix_flexible_budget_unsafe_floor/statement.md",
+      "background/nodes/identity_prefix_flexible_budget_unsafe_floor/proof.md",
+      "background/nodes/identity_prefix_flexible_budget_unsafe_floor/source_pin.json"
+    ],
+    "statement": "Let B be a finite subfield of F, D subset B have size n, C=RS[F,D,k], q=|F|>n, and k+1<=m<=n. Put w=m-k-1 and B*=floor(q/2^t). If binom(n,m)>|B|^w B* and binom(B*+1,2)k<q-n, then one simple-pole received line has at least B*+1 distinct support-wise MCA-bad ambient-field slopes at agreement m. Hence B_C(m)>B* and epsilon_mca(C,1-m/n)>2^-t. The q-|B| non-base-rational variant also holds with its printed restriction.",
+    "notes": "HARVESTED 2026-07-26 from upstream main b13de811, cs25_cap_v13_2.tex lem:capff1-identity-prefix-floor + cor:capg-budget-conversion; independently reconstructed in-node. This bypasses E1 collision counting whenever its two exact row inequalities pass.",
+    "upstream": {
+      "label": "identity-scale prefix floor + flexible-budget deep-point conversion",
+      "relation": "IDENTICAL"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 520
+    },
+    {
+      "to": "deployed_identity_prefix_owner_scope_audit",
+      "order": 530
+    }
+  ],
+  "refutes": []
+}

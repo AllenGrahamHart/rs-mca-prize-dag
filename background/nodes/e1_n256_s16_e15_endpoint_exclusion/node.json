@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 114,
+  "node": {
+    "id": "e1_n256_s16_e15_endpoint_exclusion",
+    "title": "N=256 E=15 endpoint exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e15_endpoint_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e15_endpoint_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e15_endpoint_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e15_endpoint_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e15_endpoint_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e15_endpoint_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e15_endpoint_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e15_endpoint_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e15_endpoint_exclusion/verify_audit.py"
+    ],
+    "statement": "At N=256 and folded profile (3,4,0), V=30 is impossible. The exact profiles (3,3) and (2,1,1) are exhausted by the proved joint exclusion. The live positive even frontier is 0<V<=28.",
+    "notes": "ENDPOINT CLOSURE 2026-07-28: the tenth cutoff-free endpoint closes by geometry, conductor, and direct exact odd norms."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e15_profile_parity_light_reduction",
+      "order": 4353
+    },
+    {
+      "from": "e1_n256_s16_e15_two_profile_exclusion",
+      "order": 4354
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4359
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4360
+    }
+  ],
+  "refutes": []
+}

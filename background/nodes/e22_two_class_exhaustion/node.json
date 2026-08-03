@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 659,
+  "node": {
+    "id": "e22_two_class_exhaustion",
+    "title": "E22 two-class exhaustion for worst-word challengers",
+    "status": "PROVED",
+    "statement": "At the relevant low-slack crossing radii, every non-planted list word for the planted sunflower receiver lies in the structured E15 challenger class: mixed-petal or full-petal. Equivalently, after planted words are removed, there is no one-petal-only or background/core-only third challenger class. The proof uses root-count localization and the ratio-flat obstruction: a third-class word would need to replace r core roots by background roots with r < ell, but constancy on an ell-point petal would force a degree-r polynomial to vanish on ell distinct points, so the replacement is empty and the word is planted.",
+    "attack_surface": "complete the E22 census remotely or prove directly from the interpolation/agreement equations that any non-planted crossing codeword touching at most one petal cannot reach agreement k+sigma",
+    "falsifier": "an exhaustive cell with unclassified > 0, or an explicit low-slack word family outside planted plus mixed/full-petal classes"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 986
+    }
+  ],
+  "refutes": []
+}

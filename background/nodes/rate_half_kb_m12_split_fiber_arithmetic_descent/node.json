@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1342,
+  "node": {
+    "id": "rate_half_kb_m12_split_fiber_arithmetic_descent",
+    "title": "KoalaBear m12 split-fiber arithmetic descent",
+    "status": "PROVED",
+    "closure": "identity Frobenius on the split zero fiber and explicit critical-point descent",
+    "statement": "The five distinct K-rational simple outer zeros force arithmetic monodromy to equal geometric monodromy, so every geometric outer component descends to K. The rigid A5 (3),(2,2), S5 (3,2),(2), and S5 (4),(2) normal forms admit K-affine normalizations. The unresolved descent boundary is exactly the Dickson, A5 (3),(3), and one-parameter S5 twist families. No family deletion, owner, charge, m12, u2, cap 68, or row close is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/statement.md",
+      "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/proof.md",
+      "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/claim_contract.md",
+      "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/source_evidence.md",
+      "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/audit.md",
+      "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/result.md",
+      "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/frontier.md",
+      "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/verify.py",
+      "background/nodes/rate_half_kb_m12_split_fiber_arithmetic_descent/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m12_outer_normal_form_compiler",
+      "order": 3678
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3679
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 438,
+  "node": {
+    "id": "integer_code_distance_high_field_folded_box_exclusion",
+    "title": "Order-128 high-field folded-box exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every odd prime p=1 mod 128 with p>253^32, every ternary vector v in {-1,0,1}^128 satisfying sum_i v_i zeta^i=0 at an exact order-128 root is antipodal/cyclotomic: v_i=v_(i+64) for all i. Odd-conjugate Parseval gives |Norm(W)|<=S^32; a non-even folded vector has S<=253, while an all-even vector divides by two and has norm at most 64^32.",
+    "refs": [
+      "background/nodes/integer_code_distance_high_field_folded_box_exclusion/statement.md",
+      "background/nodes/integer_code_distance_high_field_folded_box_exclusion/proof.md",
+      "background/nodes/integer_code_distance_high_field_folded_box_exclusion/claim_contract.md",
+      "background/nodes/integer_code_distance_high_field_folded_box_exclusion/dependency_subdag.md",
+      "background/nodes/integer_code_distance_high_field_folded_box_exclusion/audit.md",
+      "background/nodes/integer_code_distance_high_field_folded_box_exclusion/result.md",
+      "background/nodes/integer_code_distance_high_field_folded_box_exclusion/verify.py"
+    ],
+    "notes": "Pays the complete order-128 folded cube only above the exact field threshold. Lower fields, other orders, the universal row assignment, and value-set budget remain open."
+  },
+  "requires": [
+    {
+      "from": "collision_norm_criterion",
+      "order": 733
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "integer_code_distance_cert",
+      "order": 734
+    }
+  ],
+  "refutes": []
+}

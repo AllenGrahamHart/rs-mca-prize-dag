@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 218,
+  "node": {
+    "id": "xr_wall",
+    "title": "XR: exchange-rigidity hypothesis",
+    "status": "WALL",
+    "key": true,
+    "refs": [
+      "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
+    ]
+  },
+  "requires": [
+    {
+      "from": "exchange_calculus",
+      "order": 57
+    },
+    {
+      "from": "johnson_gap",
+      "order": 58
+    },
+    {
+      "from": "exchange_ledger_gen_t",
+      "order": 59
+    },
+    {
+      "from": "displacement_uniform",
+      "order": 61
+    },
+    {
+      "from": "xr_expansion",
+      "order": 136
+    },
+    {
+      "from": "xr_crystallization",
+      "order": 137
+    },
+    {
+      "from": "xr_distance_dichotomy",
+      "order": 720
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "r2_rigidity",
+      "order": 50
+    }
+  ],
+  "refutes": []
+}

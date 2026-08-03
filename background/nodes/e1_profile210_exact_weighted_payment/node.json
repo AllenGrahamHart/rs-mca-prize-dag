@@ -1,0 +1,48 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 164,
+  "node": {
+    "id": "e1_profile210_exact_weighted_payment",
+    "title": "E1 profile-(2,10) exact weighted payment",
+    "status": "PROVED",
+    "closure": "exact integer ledger",
+    "refs": [
+      "background/nodes/e1_profile210_exact_weighted_payment/statement.md",
+      "background/nodes/e1_profile210_exact_weighted_payment/proof.md",
+      "background/nodes/e1_profile210_exact_weighted_payment/claim_contract.md",
+      "background/nodes/e1_profile210_exact_weighted_payment/dependency_subdag.md",
+      "background/nodes/e1_profile210_exact_weighted_payment/audit.md",
+      "background/nodes/e1_profile210_exact_weighted_payment/result.md",
+      "background/nodes/e1_profile210_exact_weighted_payment/frontier.md",
+      "background/nodes/e1_profile210_exact_weighted_payment/verify.py"
+    ],
+    "statement": "On the binding prize row, profile (2,10,S=18) contributes at most 41794840999781162066129578393300739162112 unordered collision pairs. The residual edge budget is 22622986807805210095050326195532090878375; the next maximum profile is (1,14,S=18), and 39193 is the tight uniform sufficient cap on all remaining oriented vectors.",
+    "notes": "EXACT PROFILE-(2,10) PAYMENT 2026-07-29: the ledger charges all 266 possible ideal families, including every still-open 514 and 1028 family. The weighted frontier advances unconditionally to (1,14,S=18); the unfinished split-cofactor work is optional slack. No E1 close or Prize movement."
+  },
+  "requires": [
+    {
+      "from": "e1_profile36_exact_weighted_payment",
+      "order": 4576
+    },
+    {
+      "from": "e1_low_square_mass_weighted_kernel_dictionary",
+      "order": 4577
+    },
+    {
+      "from": "e1_profile210_split_prime_ideal_router",
+      "order": 4578
+    },
+    {
+      "from": "e1_profile210_m1538_collision_exclusion",
+      "order": 4579
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4580
+    }
+  ],
+  "refutes": []
+}

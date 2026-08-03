@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 778,
+  "node": {
+    "id": "xr_lowcore_spread_heart",
+    "title": "XR support-local low-core spread heart",
+    "status": "TARGET",
+    "key": true,
+    "statement": "XR PREDICATE P-B (low-core spread heart \u2014 the anti-concentration heart). At each of the six clean-rate candidates, for every globally generic-branch pair (u,v), the number of post-strip live slopes with all pairwise cores <= k-1 (singletons included) is <= 8n^3, dihedral-symmetric and extension-type slopes counted inside. Row pins (audit-recomputed): the six clean-rate candidates = (RowC n=1024, prize n=2^41) x rates 1/4, 1/8, 1/16; A = k + n/scale + 1 with deciding scales 256/256/512; B* = floor((2^1279)^(1/10)) at prize (log2 = 127.9000); q idealized (2^250 prime-unpinned, 2^255.9) with the I2 q = p^k pin caveat (0.089-bit sliver) inherited; extension-type mass INSIDE predicate scope. FM-witnessing caveat: all Face-3 evidence sits at FM = Theta(1)..107; candidate-row behavior is extrapolation. K2 Face-3 axis-Q instance (chain step 5e) \u2014 cite BOTH rigidity_kernel AND rk_rigidity_kernel (catch #35). PROVED AROUND IT: validity is automatic in the globally generic branch; the strip ledger and consumption arithmetic are exact (three independent implementations agree: 52/52, 50/50, 69/69). The all-LineRay affine-core theorem pays the slope target whenever one one-per-slope selector has affine error rank sigma<=3. The affine-core cogirth ray bound strengthens the full-domain paid selector ranks to 4,4,3,11,11,10 on the six rows, so a counterexample has minimum selector rank at least 5,5,4,12,12,11 respectively. SUP-FORM PIN: per-pair sup quantifier, forced by the consumer's 'for every pair' \u2014 toy evidence is mean/median-flavored, so evidence strength != predicate strength (declared). ATTACK SURFACE: f2_effective_energy_dichotomy (portable verbatim per its statement), SCK adjacency, E27 spectrum. PRE-REGISTERED FALSIFIER: post-strip spread remainder over the transported budget at a scaled official-like row, sustained. || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/xr_smallcore_spread_count/notes/QUALITY_xr_lowcore_spread_heart.md || WAVE-8 XR ADDENDUM (2026-07-16, audited): P-B (0,0) outright paid; rank-5 deficiency pairs reduced to 8/49/274; min open selector rank >= 5,5,5 (RowC) / >= 17,17,15 (prize) via the covering-free AZC + the rank-five suite (no #158-class coverage premise anywhere -- audited). [SCOPE ADDENDUM 2026-08-02 (ratified bundle): (a) the FIELD HYPOTHESIS is NECESSARY \u2014 bare-band instances certify 2^132 x 8n^3 violations; safety is witness supply, never field size alone. (b) The consumption gate B_quot + B_tan + 16n^3 <= B* = floor(q/2^128) is itself a q-FLOOR: at RowC 1/4 it forces q >= 2^229.76 > 2^200.11, so the construction-free exposure window [2^192.29, 2^200.11) is VACUOUS (rowc_window pilot V1, banked cb44c8a3) \u2014 the q-scope ratification's recorded live obligation there is DISCHARGED. (c) In the split-fibre class every admissible live slope is PLANTED (SF-SELFCOLLISION, proved); the random side is CLOSED by the q-floor; the residual obligation is ADVERSARIAL PLANTING only (design ceiling; the selector clause couples to the ratified PP4.0 compression-order class). (P1) family-uniform governs the ultimate claim; envelope-scoped intermediates must be labeled.]",
+    "refs": [
+      "critical/nodes/xr_lowcore_spread_heart/statement.md",
+      "critical/nodes/xr_lowcore_spread_heart/attack.md",
+      "critical/nodes/xr_lowcore_spread_heart/claim_contract.md",
+      "critical/nodes/xr_lowcore_spread_heart/dependency_subdag.md",
+      "critical/nodes/xr_smallcore_spread_count/notes/QUALITY_xr_lowcore_spread_heart.md"
+    ],
+    "upstream": {
+      "label": "(S) prob:mca-spread-routing (low-core side)",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1289,
+  "node": {
+    "id": "f3_hge4_kummer_midpoint_trace_power_gate",
+    "title": "HGE4 Kummer midpoint trace-power gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every primitive retained near-third pencil, if u,v are the leading reciprocal coefficients and x=v/u, then x lies in mu_m minus {+1,-1} and the midpoint Kummer scalar is kappa=-(1+x)^2/(8x). Primitivity makes kappa an m-th power in F_p, so the trace tau=x+x^(-1) satisfies C_m(tau)=2 and (-(tau+2)/8)^((p-1)/m)=1. There are exactly (m-2)/2 trace candidates before this power test. Every passing x is a square; if (p-1)/m is odd, only m/4-1 traces remain. This is a candidate gate, not an orbit bound.",
+    "refs": [
+      "background/nodes/f3_hge4_kummer_midpoint_trace_power_gate/statement.md",
+      "background/nodes/f3_hge4_kummer_midpoint_trace_power_gate/proof.md",
+      "background/nodes/f3_hge4_kummer_midpoint_trace_power_gate/claim_contract.md",
+      "background/nodes/f3_hge4_kummer_midpoint_trace_power_gate/dependency_subdag.md",
+      "background/nodes/f3_hge4_kummer_midpoint_trace_power_gate/audit.md",
+      "background/nodes/f3_hge4_kummer_midpoint_trace_power_gate/result.md",
+      "background/nodes/f3_hge4_kummer_midpoint_trace_power_gate/verify.py",
+      "background/nodes/f3_hge4_kummer_midpoint_trace_power_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_near_third_belyi_necklace_bound",
+      "order": 2731
+    },
+    {
+      "from": "f3_hge4_near_third_kummer_midpoint_pencil",
+      "order": 2732
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2733
+    }
+  ],
+  "refutes": []
+}

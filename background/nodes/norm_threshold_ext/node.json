@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 194,
+  "node": {
+    "id": "norm_threshold_ext",
+    "title": "Extend qfloor exactness past N'~80 (hand-off)",
+    "status": "TARGET",
+    "refs": [
+      "wp_detail/wp3_2_symbolic_scaling.md#3"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "zone_b",
+      "order": 22
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1005,
+  "node": {
+    "id": "f3_h3_distance_six_support_overlap_payment",
+    "title": "H3 distance-six support-overlap payment",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every support-overlapping generic distance-six edge lies in one of two cubic one-parameter covers, giving at most six such edges per product target; an antipodal target has at most two additional distance-six edges. Exact quotient mass pays these strata, so C36' follows from the disjoint-support E=6 estimate D_6,25^0+(17/10)D_6,25^A<=(223/20)n^2.",
+    "refs": [
+      "background/nodes/f3_h3_distance_six_support_overlap_payment/statement.md",
+      "background/nodes/f3_h3_distance_six_support_overlap_payment/proof.md",
+      "background/nodes/f3_h3_distance_six_support_overlap_payment/claim_contract.md",
+      "background/nodes/f3_h3_distance_six_support_overlap_payment/dependency_subdag.md",
+      "background/nodes/f3_h3_distance_six_support_overlap_payment/audit.md",
+      "background/nodes/f3_h3_distance_six_support_overlap_payment/result.md",
+      "background/nodes/f3_h3_distance_six_support_overlap_payment/verify.py",
+      "background/nodes/f3_h3_distance_six_support_overlap_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_distance_four_fiber_degree_cap",
+      "order": 1910
+    },
+    {
+      "from": "f3_h3_antipodal_tail_distance_six_split",
+      "order": 1911
+    },
+    {
+      "from": "f3_h3_quotient_block_identity",
+      "order": 1912
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1913
+    }
+  ],
+  "refutes": []
+}

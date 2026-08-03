@@ -1,0 +1,47 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1101,
+  "node": {
+    "id": "f3_h3_dsp8_disjoint_six_multiplicity_gate",
+    "title": "DSP8 disjoint distance-six multiplicity gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "After the proved distance-four and support-overlap deletions, every P>=25 target retains at least 11 disjoint distance-six edges in the antipodal-free class and at least two in the antipodal class. This forces respectively a same-target two-leaf star ideal and a same-target two-edge ideal; on P>=33 the two classes force pure disjoint-distance-six stars of degrees seven and five.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_disjoint_six_multiplicity_gate/statement.md",
+      "background/nodes/f3_h3_dsp8_disjoint_six_multiplicity_gate/proof.md",
+      "background/nodes/f3_h3_dsp8_disjoint_six_multiplicity_gate/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_disjoint_six_multiplicity_gate/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_disjoint_six_multiplicity_gate/audit.md",
+      "background/nodes/f3_h3_dsp8_disjoint_six_multiplicity_gate/result.md",
+      "background/nodes/f3_h3_dsp8_disjoint_six_multiplicity_gate/verify.py",
+      "background/nodes/f3_h3_dsp8_disjoint_six_multiplicity_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_excess_multistar_degree_ladder",
+      "order": 2509
+    },
+    {
+      "from": "f3_h3_distance_four_fiber_degree_cap",
+      "order": 2510
+    },
+    {
+      "from": "f3_h3_distance_six_support_overlap_payment",
+      "order": 2511
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2512
+    },
+    {
+      "to": "f3_h3_official_order_template_survivor",
+      "order": 2516
+    }
+  ],
+  "refutes": []
+}

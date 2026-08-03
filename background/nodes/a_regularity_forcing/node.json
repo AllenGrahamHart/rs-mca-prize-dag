@@ -1,0 +1,20 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 260,
+  "node": {
+    "id": "a_regularity_forcing",
+    "title": "Force a-regularity (REQUIRED for m>=4 for-all)",
+    "status": "TARGET",
+    "key": true,
+    "refs": [
+      "wp_detail/wp5_2_wp6_2_wp6_3_bridges.md#1"
+    ],
+    "statement": "Every interleaved configuration reduces with poly loss to the a-regular case (all base agreements exactly a), or the irregular stratum contributes <= poly(n) to interleaved counts.",
+    "attack_surface": "agreement-trimming regularization or a direct irregular-stratum bound",
+    "falsifier": "toy interleaved counts (a_regularity_test) exceeding regularized predictions"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1396,
+  "node": {
+    "id": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
+    "title": "KoalaBear m2 universal source-row interpolation compiler",
+    "status": "PROVED",
+    "closure": "full-support 45-by-12 source-row interpolation kernel and complete-source square resultant",
+    "statement": "For every residual inner-degree-two stabilizer type, form from its twelve projective nonzero binary quartic row divisors the 45 x 12 matrix obtained by stacking a 9 x 12 parity check for degree-at-most-two evaluation across the five quartic coefficients. The rows come from a unique biform H of bidegree at most (2,4) exactly when this matrix has a full-support kernel. Every actual complete-source packet also satisfies product_i q_i proportional to B^2 and Res_T(A,H) proportional to B^2, or A(X^2)^2 in lifted diagonal coordinates. This is a stabilizer-independent exact deletion compiler, not a universal exclusion; the m2_r4 ID is retained for compatibility.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/result.md",
+      "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_source_row_interpolation_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+      "order": 3050
+    },
+    {
+      "from": "rate_half_kb_q6_u2_complete_source_conic_exclusion",
+      "order": 3051
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3052
+    }
+  ],
+  "refutes": []
+}

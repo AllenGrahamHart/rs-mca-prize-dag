@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 651,
+  "node": {
+    "id": "m720_official_paid_branch_alignment",
+    "title": "M720 official h=7..20 paid/norm-gate dichotomy",
+    "status": "PROVED",
+    "statement": "For official-shape h=7..20 active-core candidates, the x83 square-shift dichotomy applies: every candidate is either in the paid full-fiber/toral branch or is a primitive p-specific cleared-obstruction norm-gate event.",
+    "attack_surface": "formal alignment of the M720 active-core equations with the universal x83 trade obstruction dichotomy; no row-prime GCD claim",
+    "falsifier": "an official h=7..20 active-core candidate outside both the paid full-fiber branch and the x83 norm-gate branch"
+  },
+  "requires": [
+    {
+      "from": "x83_uniform_square_shift_obstruction_gate",
+      "order": 983
+    },
+    {
+      "from": "a_universal_trade_variety",
+      "order": 984
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1133
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 674,
+  "node": {
+    "id": "e22_kernel_invariance_full_fiber_criterion",
+    "title": "E22 kernel-invariance full-fiber criterion",
+    "status": "PROVED",
+    "statement": "In a cyclic E22 domain, for any dyadic divisor M, a subset is a union of full fibers of x -> x^M if and only if it is invariant under multiplication by the M-th-root kernel of that map.",
+    "attack_surface": "finite cyclic-group quotient criterion for unions of cosets",
+    "falsifier": "a subset invariant under the quotient-map kernel that is not a union of fibers, or a union of fibers that is not kernel-invariant"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1155
+    }
+  ],
+  "refutes": []
+}

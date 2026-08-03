@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 889,
+  "node": {
+    "id": "xr_rank_five_direction_star_configuration",
+    "title": "XR rank-five collision directions form a star configuration",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_rank_five_direction_star_configuration/statement.md",
+      "background/nodes/xr_rank_five_direction_star_configuration/proof.md",
+      "background/nodes/xr_rank_five_direction_star_configuration/verify.py",
+      "background/nodes/xr_rank_five_direction_star_configuration/result.md"
+    ],
+    "statement": "For a retained rank-five u=v=0 agreement block A, the cubic interpolation hyperplanes p(x)=q(x), x in A, are in simple position: Vandermonde independence gives unique fourfold intersections I_Tq and the divided-difference bridge excludes fivefold intersections. Their C(4+h,4) vertices are the projective collision directions. A nonzero degree-d polynomial on cubic-coefficient space is nonzero on at least C(4+h-d,4) vertices for d<=h, sharply. Therefore the official r=2 reused direction sets lie on no nonzero hypersurface of degree at most 4/4/2. This is local direction rigidity, not a point count."
+  },
+  "requires": [
+    {
+      "from": "xr_rank_five_divided_difference_clique_bridge",
+      "order": 1579
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1580
+    }
+  ],
+  "refutes": []
+}

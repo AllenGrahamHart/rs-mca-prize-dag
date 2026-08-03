@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 943,
+  "node": {
+    "id": "f3_h3_uniform_product_fiber_stepanov",
+    "title": "Every official nonidentity shifted-product fiber is below 33 n^(2/3)",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/f3_h3_uniform_product_fiber_stepanov/statement.md",
+      "background/nodes/f3_h3_uniform_product_fiber_stepanov/proof.md",
+      "background/nodes/f3_h3_uniform_product_fiber_stepanov/audit.md",
+      "background/nodes/f3_h3_uniform_product_fiber_stepanov/claim_contract.md",
+      "background/nodes/f3_h3_uniform_product_fiber_stepanov/dependency_subdag.md",
+      "background/nodes/f3_h3_uniform_product_fiber_stepanov/result.md",
+      "background/nodes/f3_h3_uniform_product_fiber_stepanov/verify.py"
+    ],
+    "statement": "For every prime-field C36 row n=2^s, 13<=s<=41, p=1 mod n, p>=n^2, and every tau in F_p^*\\{1}, the shifted-product fiber P(tau)=#{(a,b) in ((1-H)\\{0})^2:ab=tau} satisfies P(tau)<33n^(2/3). The proof applies the constants-explicit Konyagin--Shparlinski--Vyugin auxiliary construction after the subgroup-preserving bijection (x,y)->(U,V)=(x,x/y), which gives the irreducible bidegree-(2,1) curve U^2-UV-U+(1-tau)V with a two-term lowest homogeneous part. All finite parameter inequalities and floor repairs are proved on the 29 official orders. This is a marginal bound only and does not prove the weighted C36' correlation."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1681
+    }
+  ],
+  "refutes": []
+}

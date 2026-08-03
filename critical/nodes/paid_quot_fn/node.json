@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 321,
+  "node": {
+    "id": "paid_quot_fn",
+    "title": "Paid_quot(A): zones a/b/c, interval-valued cells",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#5"
+    ],
+    "notes": "interval-valued form buildable now; POINT values in zone (b) conditional on the collision question | IN FLIGHT: #194 | FLIP on replay (Codex wave 3): PROVABLE -> PROVED.",
+    "statement": "THE QUOTIENT PAID COLUMN IS INTERVAL-VALUED, NOT POINT-VALUED. Partitioning the quotient column into zones (a), (b), (c): `qfloor_exact` supplies the exact floor rule above the norm threshold and `acl_count` the characteristic-zero aligned-class count, making zones above the threshold point-valued computable counts. Zone (b) \u2014 the value-set collision question \u2014 is NOT closed in this DAG. Accordingly this node proves only Paid_quot(A) in [lower_quot(A), upper_quot(A)], where the lower endpoint is the certified exact-floor/ACL count and the upper endpoint is the recorded collision-safe envelope for the unresolved zone. This interval object is exactly what `paid_closure` and the downstream `zone_b` branch consume. NONCLAIM: no point-valued zone-(b) conclusion. [statement written 2026-07-27 from this node's own proof.md]"
+  },
+  "requires": [
+    {
+      "from": "qfloor_exact",
+      "order": 192
+    },
+    {
+      "from": "acl_count",
+      "order": 193
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

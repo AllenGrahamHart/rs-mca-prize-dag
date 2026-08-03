@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1676,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router",
+    "title": "L1 Mersenne HNF m=8 order-one cubic coefficient-field degree-eight router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On every official m=8,h=7 order-one cubic row, the normalized HNF roots and cubic factor coefficients, hence b=4dg_1-15, lie in F_(p^8); an irreducible b factor is eligible exactly when its degree divides eight.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/lineage.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/upstream_crosswalk.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/verify.py",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_coefficient_field_degree_eight_router/verify_audit.py"
+    ],
+    "notes": "Exact field-of-definition router only. No factorization was run; common-gcd, role, saturation, arithmetic-lift, other-shape, and critical closure obligations remain open."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_next_to_maximal_belyi_shifted_value_gate",
+      "order": 4065
+    },
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler",
+      "order": 4066
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4067
+    }
+  ],
+  "refutes": []
+}

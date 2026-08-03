@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 644,
+  "node": {
+    "id": "m720_overceiling_complete_window_certificates",
+    "title": "M720 over-ceiling complete-window certificates",
+    "status": "PROVED",
+    "statement": "The two over-ceiling n=32,h=16 complete-window cells at q~n^2 and q~n^3 have complete certificates with zero unpaid non-toral active-core count, or a corrected certificate policy excludes them from complete-cell use.",
+    "attack_surface": "algebraic complement-pair classification at n=32,h=16",
+    "falsifier": "a nonzero unpaid non-toral active core in either over-ceiling complete-window cell"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1126
+    }
+  ],
+  "refutes": []
+}

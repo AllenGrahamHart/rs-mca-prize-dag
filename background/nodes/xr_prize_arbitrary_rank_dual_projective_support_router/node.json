@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1608,
+  "node": {
+    "id": "xr_prize_arbitrary_rank_dual_projective_support_router",
+    "title": "XR prize arbitrary-rank dual-projective support router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every support-minimal rank-r trade circuit with r>=2 is one dual r-space in (W|X)^perp and one base-point-free map X->P^(r-1), with row supports complementary to projective hyperplane sections. Its coefficient-slope columns form a projective circuit on r+2 through 2r+1 blocks, repeated coefficient directions have multiplicity at most two, and the exact received-interaction dimension is 2r-t+1. Maximal arity is augmented-orthogonal. Aggregate projective-packet counting remains open.",
+    "refs": [
+      "background/nodes/xr_prize_arbitrary_rank_dual_projective_support_router/statement.md",
+      "background/nodes/xr_prize_arbitrary_rank_dual_projective_support_router/proof.md",
+      "background/nodes/xr_prize_arbitrary_rank_dual_projective_support_router/claim_contract.md",
+      "background/nodes/xr_prize_arbitrary_rank_dual_projective_support_router/dependency_subdag.md",
+      "background/nodes/xr_prize_arbitrary_rank_dual_projective_support_router/audit.md",
+      "background/nodes/xr_prize_arbitrary_rank_dual_projective_support_router/result.md",
+      "background/nodes/xr_prize_arbitrary_rank_dual_projective_support_router/verify.py",
+      "background/nodes/xr_prize_arbitrary_rank_dual_projective_support_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_prize_arbitrary_w_trade_circuit_segre_router",
+      "order": 3803
+    },
+    {
+      "from": "xr_prize_arbitrary_w_rank_two_dual_plane_support_router",
+      "order": 3804
+    },
+    {
+      "from": "xr_prize_arbitrary_w_rank_two_received_pair_router",
+      "order": 3805
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3806
+    }
+  ],
+  "refutes": []
+}

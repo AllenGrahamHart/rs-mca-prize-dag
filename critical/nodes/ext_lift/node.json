@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 263,
+  "node": {
+    "id": "ext_lift",
+    "title": "S6: extension lift classified",
+    "status": "CONDITIONAL",
+    "gate": "all",
+    "refs": [
+      "proof_sketch/s6_extension_lift.md"
+    ],
+    "statement": "Every F-valued bad slope above the reserve is B-rational, pole-type (priced by the imported list term), or tower-confined.",
+    "notes": "FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate f1_case_pole was not wired req \u2014 promoted. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate f1_case_tower was not wired req \u2014 promoted. | AMBER AUDIT 2026-07-06: SOUND (assembly matches F1 predicates after cargo cleanup). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md."
+  },
+  "requires": [
+    {
+      "from": "f1_classification",
+      "order": 109
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

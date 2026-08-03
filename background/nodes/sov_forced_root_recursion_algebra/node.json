@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 625,
+  "node": {
+    "id": "sov_forced_root_recursion_algebra",
+    "title": "SOV forced-root recursion algebra",
+    "status": "PROVED",
+    "statement": "For every h over odd characteristic, the monic degree-h square-root recursion uniquely recovers the degree-h polynomial S forced by the top h+1 coefficients of a monic degree-2h locator L, and the obstruction vector is exactly the list of coefficients of S^2-L in degrees 1 through h-1. In the X79 shifted-constant trade model the recursion returns the midpoint and all obstructions vanish.",
+    "attack_surface": "symbolic triangular coefficient recursion; local verifier replays the generalized X79 gate for several h",
+    "falsifier": "a degree 2h locator whose top coefficients do not determine the forced root by the printed recursion, or a shifted-constant X79 trade with a nonzero obstruction"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1119
+    }
+  ],
+  "refutes": []
+}

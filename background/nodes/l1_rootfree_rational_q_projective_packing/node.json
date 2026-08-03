@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 556,
+  "node": {
+    "id": "l1_rootfree_rational_q_projective_packing",
+    "title": "L1 root-free rational-Q projective packing",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "After the boundary planted-root descent with r<k, put j=m-r, d=k-r, G=Wbar1 P_S-Nbar1, and V=span(G,W1 F[X]_<d). If the exact cell is nonempty, V has dimension d+1, is gcd-trivial on the punctured domain, and its full projective split-locator intersection is exactly the boundary cell: the infinity hyperplane contains no split locator. Distinct degree-j locator root sets intersect in at most d-1 points, so the cell has size at most floor(binom(n-r,d)/binom(m-r,d)). At linear locator density this is exp(O(d)), paying fixed d and d=o(n) at the corresponding asymptotic reserve scale, but it is not row-sharp for d=Theta(n).",
+    "refs": [
+      "background/nodes/l1_rootfree_rational_q_projective_packing/statement.md",
+      "background/nodes/l1_rootfree_rational_q_projective_packing/proof.md",
+      "background/nodes/l1_rootfree_rational_q_projective_packing/claim_contract.md",
+      "background/nodes/l1_rootfree_rational_q_projective_packing/dependency_subdag.md",
+      "background/nodes/l1_rootfree_rational_q_projective_packing/audit.md",
+      "background/nodes/l1_rootfree_rational_q_projective_packing/lineage.md",
+      "background/nodes/l1_rootfree_rational_q_projective_packing/upstream_crosswalk.md",
+      "background/nodes/l1_rootfree_rational_q_projective_packing/verify.py",
+      "background/nodes/l1_rootfree_rational_q_projective_packing/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_boundary_q_planted_root_descent",
+      "order": 2950
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2951
+    }
+  ],
+  "refutes": []
+}

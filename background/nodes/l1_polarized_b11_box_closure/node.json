@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1073,
+  "node": {
+    "id": "l1_polarized_b11_box_closure",
+    "title": "L1 polarized entropy/cofactor-excess B11 box closure",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every fixed P,E, all maximal-sunflower residuals with polarized entropy p<=P and defect d<=ell+E are polynomially bounded. Every such word automatically satisfies G_2<=2P or G_R<=P: for ell>P, two dense petals give G_2<=p, while exactly one dense petal gives G_R<=p by the threshold and per-petal cap. Hence an unpaid family must escape every fixed box through p unbounded or d-ell unbounded.",
+    "refs": [
+      "background/nodes/l1_polarized_b11_box_closure/statement.md",
+      "background/nodes/l1_polarized_b11_box_closure/proof.md",
+      "background/nodes/l1_polarized_b11_box_closure/claim_contract.md",
+      "background/nodes/l1_polarized_b11_box_closure/dependency_subdag.md",
+      "background/nodes/l1_polarized_b11_box_closure/audit.md",
+      "background/nodes/l1_polarized_b11_box_closure/verify.py",
+      "background/nodes/l1_polarized_b11_box_closure/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_polarized_petal_entropy_ledger",
+      "order": 2075
+    },
+    {
+      "from": "petal_reserve_rich_fiber_reduction",
+      "order": 2076
+    },
+    {
+      "from": "pma_b11_first_match_router",
+      "order": 2077
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2079
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2080
+    }
+  ],
+  "refutes": []
+}

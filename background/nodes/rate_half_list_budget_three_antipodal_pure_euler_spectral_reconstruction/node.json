@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1110,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction",
+    "title": "Budget-three antipodal pure Euler spectral reconstruction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "A pure passport polynomial determines its norm packet uniquely: its coefficientwise Euler lift S has D=gcd(S,Y^d-1) of degree four, and the complementary quotients (Y^d-1+S)/D and -S/D are respectively a monic fourth power and a scalar times a monic fourth power. Base-field splitting and harmonic matching remain explicit separate tests.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction/verify.py",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_pure_ramification_passport",
+      "order": 2054
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2055
+    }
+  ],
+  "refutes": []
+}

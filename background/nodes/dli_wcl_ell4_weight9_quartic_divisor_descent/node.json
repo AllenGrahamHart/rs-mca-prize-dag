@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1065,
+  "node": {
+    "id": "dli_wcl_ell4_weight9_quartic_divisor_descent",
+    "title": "WCL ell=4 weight-9 quartic-divisor descent",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every reduced signed weight-9 relation at an exact order-2048 root with vanishing first four odd moments has a unique common-dilation normalization whose locator is F(X)=X A(X^2)-1 for a monic quartic A, and it exists exactly when G(Y)=Y A(Y)^2-1 divides Y^1024-1. The nine remainder coefficients form a four-variable integer ideal with no characteristic-zero point, so one nonzero integer Nullstellensatz certificate restricts every survivor to finitely many characteristics. No such certificate or official exclusion is claimed.",
+    "refs": [
+      "background/nodes/dli_wcl_ell4_weight9_quartic_divisor_descent/statement.md",
+      "background/nodes/dli_wcl_ell4_weight9_quartic_divisor_descent/proof.md",
+      "background/nodes/dli_wcl_ell4_weight9_quartic_divisor_descent/result.md",
+      "background/nodes/dli_wcl_ell4_weight9_quartic_divisor_descent/claim_contract.md",
+      "background/nodes/dli_wcl_ell4_weight9_quartic_divisor_descent/dependency_subdag.md",
+      "background/nodes/dli_wcl_ell4_weight9_quartic_divisor_descent/audit.md",
+      "background/nodes/dli_wcl_ell4_weight9_quartic_divisor_descent/verify.py",
+      "background/nodes/dli_wcl_ell4_weight9_quartic_divisor_descent/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_newton_short_window_exclusion",
+      "order": 1995
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_slot_4_9_emptiness",
+      "order": 1996
+    }
+  ],
+  "refutes": []
+}

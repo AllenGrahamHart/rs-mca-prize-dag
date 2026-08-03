@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 676,
+  "node": {
+    "id": "e22_lower_scale_filter_inclusion_exclusion",
+    "title": "E22 lower-scale filter inclusion-exclusion",
+    "status": "PROVED",
+    "statement": "Inside any fixed residual-profile universe for a dyadic pair M_i<M_j, the condition that no smaller dyadic scale M'<M_i is admissible is exactly the finite inclusion-exclusion complement of the smaller-scale admissibility events. The identity is valid with the declared multiplicity weights as long as the intersection counts use those same weights. [DOMAIN CORRECTION, catch #46 (2026-07-10 fifth-branch replay): the minimality quantifier runs over ELIGIBLE smaller scales t < M' < M_i only \u2014 as literally worded ('every smaller dyadic scale') scale M'=1 is universally admissible, the minimal cell is empty and the IE sum is identically 0 (machine-confirmed). All verifiers and consumers use the eligible domain; petal_g3's clause (b) citation inherits this correction.]",
+    "attack_surface": "finite set inclusion-exclusion for the complement of smaller-scale admissibility events",
+    "falsifier": "a weighted residual universe where inclusion-exclusion fails to remove precisely the objects admissible at some smaller scale"
+  },
+  "requires": [
+    {
+      "from": "e22_residual_profile_generating_function",
+      "order": 1016
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1157
+    }
+  ],
+  "refutes": []
+}

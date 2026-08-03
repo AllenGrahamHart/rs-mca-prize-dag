@@ -1,0 +1,56 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 865,
+  "node": {
+    "id": "pma_sigma_one_first_layout_domination",
+    "title": "PMA sigma-one first-layout domination",
+    "status": "PROVED",
+    "statement": "Order the paired cores of a fixed official sigma-one word. Universal non-planted carriage implies that every Post codeword first carried after the first core is one of the first layout's M planted anchors. Hence #Post<=#E_C1+M. Evaluating the proved d<=2, (d,r)=(3,1), and full-petal (3,0) payments only in that first layout gives #Post<=B_paid+M+#R_first, with B_paid+M<n^6/1023 on every official row. Thus the finite paired-core multiplier is eliminated; it remains to pay the one-layout residual R_first within B_post-B_paid-M.",
+    "refs": [
+      "background/nodes/pma_sigma_one_first_layout_domination/statement.md",
+      "background/nodes/pma_sigma_one_first_layout_domination/proof.md",
+      "background/nodes/pma_sigma_one_first_layout_domination/audit.md",
+      "background/nodes/pma_sigma_one_first_layout_domination/claim_contract.md",
+      "background/nodes/pma_sigma_one_first_layout_domination/dependency_subdag.md",
+      "background/nodes/pma_sigma_one_first_layout_domination/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_aux_list_reduction",
+      "order": 1483
+    },
+    {
+      "from": "pma_sigma_one_paired_core_normalization",
+      "order": 1484
+    },
+    {
+      "from": "pma_sigma_one_post_top_allowance",
+      "order": 1485
+    },
+    {
+      "from": "pma_sigma_one_low_defect_payment",
+      "order": 1486
+    },
+    {
+      "from": "pma_sigma_one_d3_background_payment",
+      "order": 1487
+    },
+    {
+      "from": "pma_sigma_one_d3_full_petal_payment",
+      "order": 1488
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 1489
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1490
+    }
+  ],
+  "refutes": []
+}

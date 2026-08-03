@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1325,
+  "node": {
+    "id": "xr_lowcore_shift_pair_terminal_fiber_bound",
+    "title": "XR low-core terminal shift-pair fiber bound",
+    "status": "PROVED",
+    "closure": "proof plus exact small-family verifier",
+    "statement": "For a distinct family F of a-subsets with pairwise intersections at most K-1=a-H, every oriented indicator-difference fiber of shift width t has a residual constant-weight code of length N-2t and distance at least 2H. Every fiber with t>=K has multiplicity at most one, since two records would share its fixed t-set; all such widths contribute at most |F|(|F|-1) to difference energy. More generally, terminal fibers with N-2t<=4H have multiplicity at most 8H and aggregate contribution at most 8H|F|(|F|-1). In P-B, global genericity proves distinct-support ownership. The only unresolved repeated-difference concentration lies in H<=t<=K-1. This is an exact Boolean additive-energy reduction; it does not prove the P-B slope count or CAP25's local locator-SPI input.",
+    "refs": [
+      "background/nodes/xr_lowcore_shift_pair_terminal_fiber_bound/statement.md",
+      "background/nodes/xr_lowcore_shift_pair_terminal_fiber_bound/proof.md",
+      "background/nodes/xr_lowcore_shift_pair_terminal_fiber_bound/claim_contract.md",
+      "background/nodes/xr_lowcore_shift_pair_terminal_fiber_bound/dependency_subdag.md",
+      "background/nodes/xr_lowcore_shift_pair_terminal_fiber_bound/audit.md",
+      "background/nodes/xr_lowcore_shift_pair_terminal_fiber_bound/result.md",
+      "background/nodes/xr_lowcore_shift_pair_terminal_fiber_bound/verify.py",
+      "background/nodes/xr_lowcore_shift_pair_terminal_fiber_bound/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_nongeneric_explanation_plotkin_width",
+      "order": 2964
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 2965
+    }
+  ],
+  "refutes": []
+}

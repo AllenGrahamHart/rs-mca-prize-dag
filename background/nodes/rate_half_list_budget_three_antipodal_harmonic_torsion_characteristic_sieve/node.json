@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1105,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve",
+    "title": "Budget-three antipodal harmonic-torsion characteristic sieve",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Four power-of-two roots with pairwise distinct squares cannot have cross-ratio -1 in characteristic zero: the cleared equation is an eight-term vanishing sum, and divisibility by X^(N/2)+1 forces antipodal pairing, which distinct squares make impossible. At the official lift order 2^40, every finite survivor therefore lies in the bad characteristics of one explicit integer unit-ideal certificate. A repeated-squaring presentation has 126 variables, 127 cubic-or-lower equations, and no dense degree-2^39 polynomial. No certificate or official exclusion is claimed.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve/verify.py",
+      "background/nodes/rate_half_list_budget_three_antipodal_harmonic_torsion_characteristic_sieve/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router",
+      "order": 2016
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2017
+    }
+  ],
+  "refutes": []
+}

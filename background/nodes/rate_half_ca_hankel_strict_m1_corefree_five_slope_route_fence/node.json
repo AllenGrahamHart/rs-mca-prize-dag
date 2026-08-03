@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1158,
+  "node": {
+    "id": "rate_half_ca_hankel_strict_m1_corefree_five_slope_route_fence",
+    "title": "Strict m=1 core-free five-slope Hankel route fence",
+    "status": "PROVED",
+    "closure": "exact finite-field witness and complete locator-line census",
+    "statement": "Over F_17 at the exact strict m=1 analogue, an explicit core-free constant-rank Hankel pencil has five finite split-cubic slopes, exceeding rho+1=4. Among all 560 split cubics, the core-free coefficient-line maximum is exactly five, attained by 16 lines, and every maximizing line has a unique constant-rank Hankel realization. The survivor is rank-two and separated, so this is evidence that the official m>1 component and separation-rank inputs are load-bearing, not an official counterexample.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_strict_m1_corefree_five_slope_route_fence/statement.md",
+      "background/nodes/rate_half_ca_hankel_strict_m1_corefree_five_slope_route_fence/proof.md",
+      "background/nodes/rate_half_ca_hankel_strict_m1_corefree_five_slope_route_fence/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_strict_m1_corefree_five_slope_route_fence/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_strict_m1_corefree_five_slope_route_fence/result.md",
+      "background/nodes/rate_half_ca_hankel_strict_m1_corefree_five_slope_route_fence/verify.py",
+      "experiments/prize_resolution/rate_half_strict_m1_locator_lines.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_split_pencil_equivalence",
+      "order": 2354
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2355
+    }
+  ],
+  "refutes": []
+}

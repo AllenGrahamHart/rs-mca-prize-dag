@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 595,
+  "node": {
+    "id": "ef_descended_cycle_classification_soundness",
+    "title": "EF descended-cycle classification soundness",
+    "status": "PROVED",
+    "statement": "If every B-defined pole-free horizontal cycle produced by full-orbit descent is certified as base-descended, proper-subfield/tower-confined, or noncontainment-degenerate, then ef_pole_free_cycle_exclusion holds.",
+    "attack_surface": "finite logical soundness of the base/tower/noncontainment classification certificate for descended pole-free cycles",
+    "falsifier": "a complete base/tower/noncontainment classification certificate that still leaves an unpaid pole-free hidden-fiber leakage class"
+  },
+  "requires": [
+    {
+      "from": "ef_full_orbit_cycle_descent",
+      "order": 911
+    },
+    {
+      "from": "ef_component_control_alignment",
+      "order": 912
+    },
+    {
+      "from": "ef_galois_stabilizer_descent",
+      "order": 913
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

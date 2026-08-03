@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1106,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality",
+    "title": "A=1 core-one exceptional-only kernel-plane transversality",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the exceptional slope, the two coefficient shifts of the degree-(r-1) minimal apolar generator span the complete middle-Hankel kernel. The first kernel lift obeys M_0q_1+M_1u=0, the induced form vanishes on the continuing line, and its value on the second shifted line is nonzero.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_exceptional_root_charge",
+      "order": 2046
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin",
+      "order": 2047
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2048
+    }
+  ],
+  "refutes": []
+}

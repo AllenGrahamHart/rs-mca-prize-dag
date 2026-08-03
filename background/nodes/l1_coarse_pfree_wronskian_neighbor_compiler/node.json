@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1621,
+  "node": {
+    "id": "l1_coarse_pfree_wronskian_neighbor_compiler",
+    "title": "L1 coarse p-free Wronskian neighbor compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Fix an anchor A in a coarse p-free depth-d fiber and a t-subset X of A exchanged by a neighbor B. The collision Wronskian W=F_X'F_Y-F_XF_Y' is nonzero, has degree at most D_t=2t-d-2, and is nonzero on X union Y. For fixed X, W determines the monic opposing tail F_Y uniquely. The exact number of degree-at-most-D certificates nonzero on X is R_q(t,D)=sum_j (-1)^j binom(t,j)q^max(D+1-j,0), giving the arbitrary-target neighbor bound 1+sum_(t>=tau_p) binom(a,t)min(binom(n-a,t),R_q(t,2t-d-2)), where tau_p=max(ceil((d+2)/2),min(d+1,p)). At formal half-depth excess j, certificate degree is 2j for even d and 2j+1 for odd d, but tame-tail strata below tau_p are empty. The exchanged-subset choice can remain exponential, so this compiler does not prove row-sharp Q, Pade coalescing, or L1.",
+    "refs": [
+      "background/nodes/l1_coarse_pfree_wronskian_neighbor_compiler/statement.md",
+      "background/nodes/l1_coarse_pfree_wronskian_neighbor_compiler/proof.md",
+      "background/nodes/l1_coarse_pfree_wronskian_neighbor_compiler/claim_contract.md",
+      "background/nodes/l1_coarse_pfree_wronskian_neighbor_compiler/dependency_subdag.md",
+      "background/nodes/l1_coarse_pfree_wronskian_neighbor_compiler/audit.md",
+      "background/nodes/l1_coarse_pfree_wronskian_neighbor_compiler/result.md",
+      "background/nodes/l1_coarse_pfree_wronskian_neighbor_compiler/lineage.md",
+      "background/nodes/l1_coarse_pfree_wronskian_neighbor_compiler/upstream_crosswalk.md",
+      "background/nodes/l1_coarse_pfree_wronskian_neighbor_compiler/verify.py",
+      "background/nodes/l1_coarse_pfree_wronskian_neighbor_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_coarse_pfree_wronskian_distance_packing",
+      "order": 3827
+    },
+    {
+      "from": "l1_coarse_pfree_tame_tail_distance_upgrade",
+      "order": 3829
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3845
+    }
+  ],
+  "refutes": []
+}

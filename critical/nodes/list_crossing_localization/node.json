@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 395,
+  "node": {
+    "id": "list_crossing_localization",
+    "title": "List staircase: sup-over-words list size is a monotone integer => unique crossing exists",
+    "status": "PROVED",
+    "statement": "sup_U |Lambda(U, delta)| is nondecreasing and integer-valued in delta, so a unique adjacent crossing of eps*|F| exists unconditionally per row and m. The list-window arithmetic [H/128, H/256] brackets the candidates. Same elementary argument as the MCA side.",
+    "refs": [
+      "proof_sketch/s7_list_side.md"
+    ],
+    "notes": "FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

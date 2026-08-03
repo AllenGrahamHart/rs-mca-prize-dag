@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 289,
+  "node": {
+    "id": "xr_expansion",
+    "title": "Expansion pumping: dense aligned Johnson-neighborhoods over-constrain",
+    "status": "PROVABLE",
+    "refs": [
+      "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
+    ],
+    "statement": "ASSEMBLY (honest form): combine (a) the anticode toolkit (distance-s independence, combinatorial factors), (b) the same-slope exchange exclusion radius from the residual ledger (t = 2 PROVED in #152 via exchange_calculus; general t = exchange_ledger_gen_t), and (c) the v8 one-support-one-slope cap (PROVED \u2014 the q-scale input) into partial B_ap bounds: per-slope alignment sets are distance-excluded and per-locator capped, giving FM-scale bounds on the strata where the exclusion radius is large. HONEST GAP: where the radius is small, closing to FM scale hands off to the energy/inverse pipeline (xr_gvn -> xr_inverse) \u2014 the wall's two halves meet here, and the meeting is the wall.",
+    "attack_surface": "rung 1: the toolkit note (classical, S); rung 2: Q4.1's ledger generalization sets the exclusion radius s(t); rung 3: the assembly computation \u2014 which strata get FM-scale bounds at which s; the remainder is the pipeline's job, stated without pretense",
+    "notes": "FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/xr_expansion/."
+  },
+  "requires": [
+    {
+      "from": "johnson_gap",
+      "order": 138
+    },
+    {
+      "from": "exchange_ledger_gen_t",
+      "order": 150
+    },
+    {
+      "from": "xr_anticode_toolkit",
+      "order": 679
+    },
+    {
+      "from": "v8_ledger",
+      "order": 681
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

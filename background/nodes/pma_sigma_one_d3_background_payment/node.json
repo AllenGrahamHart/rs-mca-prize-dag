@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 859,
+  "node": {
+    "id": "pma_sigma_one_d3_background_payment",
+    "title": "PMA sigma-one defect-three background payment",
+    "status": "PROVED",
+    "statement": "On every official sigma=1 maximal sunflower, the complete source class with defect d=3 and the unique background point retained has size at most C(k-1,3) floor(C(n-k,3)/4)<n^6/9216. Together with the d<=2 payment, all cells d<=2 or (d,r)=(3,1) are below n^6/8192 per sunflower. The first unpaid finite source cell is (d,r)=(3,0), followed by higher defects; the later first-layout domination theorem removes the finite chart multiplier.",
+    "refs": [
+      "background/nodes/pma_sigma_one_d3_background_payment/statement.md",
+      "background/nodes/pma_sigma_one_d3_background_payment/proof.md",
+      "background/nodes/pma_sigma_one_d3_background_payment/audit.md",
+      "background/nodes/pma_sigma_one_d3_background_payment/claim_contract.md",
+      "background/nodes/pma_sigma_one_d3_background_payment/dependency_subdag.md",
+      "background/nodes/pma_sigma_one_d3_background_payment/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_source_paving_bridge",
+      "order": 1427
+    },
+    {
+      "from": "pma_sigma_one_low_defect_payment",
+      "order": 1428
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 1429
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1454
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1246,
+  "node": {
+    "id": "f3_hge4_nonfull_near_square_straight_line_lift",
+    "title": "HGE4 non-full near-square straight-line lift",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For D=S^2-a^2, the divisor condition D | X^n-1 has an exact cubic repeated-squaring presentation. Adding sum_(j=1)^(h-1) z_j s_j=1 captures every non-full-fiber near-square divisor, including free and swap primitive unions; equivalently use h-1 inverse charts. With k=log_2(n)-floor(log_2(2h-1)), the global selector has k(4h-1) variables and k(4h-1)+1 equations, while one chart has k(4h-1)-h+2 variables. The schemes are empty in characteristic zero and have integer bad-characteristic certificate endpoints. No certificate, survivor count, or uniform aggregate is claimed.",
+    "refs": [
+      "background/nodes/f3_hge4_nonfull_near_square_straight_line_lift/statement.md",
+      "background/nodes/f3_hge4_nonfull_near_square_straight_line_lift/proof.md",
+      "background/nodes/f3_hge4_nonfull_near_square_straight_line_lift/claim_contract.md",
+      "background/nodes/f3_hge4_nonfull_near_square_straight_line_lift/dependency_subdag.md",
+      "background/nodes/f3_hge4_nonfull_near_square_straight_line_lift/audit.md",
+      "background/nodes/f3_hge4_nonfull_near_square_straight_line_lift/result.md",
+      "background/nodes/f3_hge4_nonfull_near_square_straight_line_lift/verify.py",
+      "background/nodes/f3_hge4_nonfull_near_square_straight_line_lift/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_primitive_shift_pair_near_square_union_router",
+      "order": 2593
+    },
+    {
+      "from": "x24_char0_dyadic_descent",
+      "order": 2594
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2595
+    }
+  ],
+  "refutes": []
+}

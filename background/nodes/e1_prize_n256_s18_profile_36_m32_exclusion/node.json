@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 145,
+  "node": {
+    "id": "e1_prize_n256_s18_profile_36_m32_exclusion",
+    "title": "Prize N=256 profile-(3,6) cofactor-32 exclusion",
+    "status": "PROVED",
+    "closure": "exact product ledger, dual complete radius census, and certified norm intervals",
+    "refs": [
+      "background/nodes/e1_prize_n256_s18_profile_36_m32_exclusion/statement.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m32_exclusion/proof.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m32_exclusion/claim_contract.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m32_exclusion/dependency_subdag.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m32_exclusion/audit.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m32_exclusion/result.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m32_exclusion/source_pin.json",
+      "background/nodes/e1_prize_n256_s18_profile_36_m32_exclusion/verify.py"
+    ],
+    "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 32 is impossible. Exact product certification leaves 474 (E,q,L) chambers through E=60; dual complete radius engines exhaust 19840 multiplicity-five affine orbits, and certified fixed-root intervals place all 239131808 product-live vectors outside the prize interval.",
+    "notes": "EXACT FINITE EXCLUSION 2026-07-28: odd multiplicity five excludes an all-one-parity branch. Forward triple/sign and reverse sign/triple engines agree on 84923111400 unique radius triples, 679384891200 exact sign tests, 239131588 below-window vectors, 220 above-window vectors, and zero unresolved. Four profile-(3,6) cofactors remain."
+  },
+  "requires": [
+    {
+      "from": "e1_prize_n256_s18_profile_36_energy_adaptive_product_windows",
+      "order": 4468
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4469
+    },
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4470
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4471
+    }
+  ],
+  "refutes": []
+}

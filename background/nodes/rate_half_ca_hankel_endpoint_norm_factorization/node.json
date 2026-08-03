@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 923,
+  "node": {
+    "id": "rate_half_ca_hankel_endpoint_norm_factorization",
+    "title": "Endpoint norm-defect and complementary-factor identities",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a hypothetical failure at the first strict A=3 endpoint, let H be the squarefree supported-slope form, R=product_(x in D)Q(x) the parameter norm, and O the aggregate omitted-domain-root count. There are forms J,S with J R=H^rho S, deg J=O<=m-1, and deg S=1+O<=m. If P_sat is the product of the at least 15m saturated domain points, there are complementary biforms Vbar,W with Q Vbar+P_sat W=H, deg_param Vbar=3m+1, deg_X Vbar<deg P_sat, and deg_X W<=rho-1. At least 2m+2 supported slopes are generic-rank, D-split, and parameter-transverse. The D x Z evaluation matrix is a full-row/full-column Reed-Solomon product-code word with exact column and row MDS excesses O and 1+O. These identities are necessary normal forms, not exclusions of the endpoint configuration.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_endpoint_norm_factorization/statement.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_norm_factorization/proof.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_norm_factorization/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_norm_factorization/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_norm_factorization/verify.py",
+      "background/nodes/rate_half_ca_hankel_endpoint_norm_factorization/audit.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_endpoint_saturation_rigidity",
+      "order": 1666
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1667
+    }
+  ],
+  "refutes": []
+}

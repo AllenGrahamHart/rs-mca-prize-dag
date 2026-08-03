@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 989,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_mobius_weld",
+    "title": "Budget-three antipodal quotient pencil has a M\u00f6bius weld",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In the antipodal fiber-four quotient descent, the two locator relations force the four pencil parameters to be one fractional-linear image of the four deleted-pair parameters a_i. After an invertible base-field pencil change, the residual is the quartic norm equation product_i(R+a_i S)=kappa (Y^d-1)/product_i(Y-a_i^2), with deg R,deg S at most d/4-1.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_mobius_weld/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_mobius_weld/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_mobius_weld/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_mobius_weld/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_mobius_weld/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_mobius_weld/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_mobius_weld/verify.py",
+      "background/nodes/rate_half_list_budget_three_antipodal_mobius_weld/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_four_antipodal_descent",
+      "order": 1819
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1820
+    }
+  ],
+  "refutes": []
+}

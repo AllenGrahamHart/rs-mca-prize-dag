@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 858,
+  "node": {
+    "id": "pma_sigma_one_b11_scope",
+    "title": "PMA sigma-one B11 threshold collapse and finite-payment route cut",
+    "status": "PROVED",
+    "statement": "On the official sigma=1 grid, maximality gives ell=2, b=1 and M=(n-k)/2. The exact B11 thresholds (E,V_2,V_R)=(0,2,0) collapse the post-periodic partition to d<=2 in J/A2 and d>=3 in GROW, with AR=RES empty. The paid certificate is J(n,k)+11 binom(M,2)q^4. At rates 1/8 and 1/16 its exact n^6 field-fit ceiling is below n+1 on every official row, so this certificate cannot provide a field-uniform finite primitive payment even though the threshold partition is closed.",
+    "refs": [
+      "background/nodes/pma_sigma_one_b11_scope/statement.md",
+      "background/nodes/pma_sigma_one_b11_scope/proof.md",
+      "background/nodes/pma_sigma_one_b11_scope/audit.md",
+      "background/nodes/pma_sigma_one_b11_scope/claim_contract.md",
+      "background/nodes/pma_sigma_one_b11_scope/dependency_subdag.md",
+      "background/nodes/pma_sigma_one_b11_scope/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_b11_first_match_router",
+      "order": 1421
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 1422
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1452
+    }
+  ],
+  "refutes": []
+}

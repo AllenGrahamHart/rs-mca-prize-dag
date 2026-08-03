@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 737,
+  "node": {
+    "id": "f2_trinomial_tower_theorem",
+    "status": "PROVED",
+    "statement": "F2 TRINOMIAL TOWER THEOREM, Part 1 (2026-07-10, campaign cycle 32; digest F2_TOWER_THEOREM_P1_PASS, 1200 random trinomials at 4 scales, zero violations, worst ratio 0.33): for any trinomial g = a0 + a1 x^u + a2 x^v (a_i != 0, gcd(u,v,n) = 1) on mu_n, n = 2^s, ANY odd characteristic: Z_{mu_n}(g) <= min_{0<=j<s} 2^j (2 span_j(u,v) + 2), where span_j = min over odd k of max(|ku|+-, |kv|+-) mod n/2^j. PROOF (complete, elementary): split mu_n into 2^j cosets of mu_{n/2^j} \u2014 coset constants absorb into coefficients (all stay nonzero); per coset apply the unit substitution achieving span_j \u2014 the Laurent shift gives a nonzero polynomial of degree <= 2 span_j + collision slack (exponent collision mod m yields a binomial with <= span roots; coefficient cancellation yields the nonzero constant a0, zero roots); sum over cosets. Part 2 (the SPAN ESTIMATE: min_j 2^j(2 span_j + 2) <= C sqrt(n), measured C <= 3.2 at six exhaustive scales) = the Dirichlet-with-parity argument, scoped separately. APPLICATION-SHAPED s-sparse extension calibrated at ~12 sqrt(n) (log #40): the same coset/substitution proof extends verbatim to s terms with span over the exponent set \u2014 the edge lemma's engine. Eleventh satellite; the campaign's first fully-proved root-count theorem at the mid-band. || PART 2-WEAK PROVED (2026-07-10 cycle 33, digest F2_TOWER_P2WEAK_PASS): the span estimate via Dirichlet-with-parity-descent \u2014 pigeonhole over k <= Q^2 gives an even difference 2^a delta'; 2-adic valuation descends the smallness to tower level a with cost 2^a <= Q^2; at Q ~ n^{1/3}: THE COMPLETE THEOREM: Z <= 2n/Q + 2Q^2 + 2 <= 4 n^{2/3} + O(n^{1/3}) UNCONDITIONALLY for every non-collapsed trinomial on mu_{2^s}, any odd characteristic. Verified: proved bound dominates the measured worst at six scales (ratio 4.2-5.0 n^{2/3}); pigeonhole certificates exist for every pair at two exhaustive scales. OFFICIAL: 4n^{2/3} = 2^{28.7} << t = 2^36 \u2014 nine bits of room; the sqrt-n refinement is optional. The campaign's first COMPLETE unconditional root-count theorem."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1258
+    }
+  ],
+  "refutes": []
+}

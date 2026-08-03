@@ -1,0 +1,162 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1378,
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+    "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) complete source-line exclusion",
+    "status": "PROVED",
+    "closure": "all 12 saturated source-line packet orbits are excluded across aligned and near-aligned targets, both signs, every allocation, ramification, and projective boundary",
+    "statement": "The saturated defect classifier leaves exactly 96 labeled source-line c2(1,1,2) packets in 12 matching-preserving orbits. The colored quotient compiler partitions every orbit into aligned or near-aligned targets. In the aligned branch, the negative theorem and the seven positive ramified/unramified cell theorems exclude every candidate. In the near branch, the complete negative theorem, all 18 affine-positive chart exclusions, and the seven-shard projective-boundary theorem exclude every candidate. Hence no saturated diagonal c2(1,1,2) source-line packet exists over F_(2130706433^6); coordinate/source-cover branches and later assembly remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/README.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/verify_coverage.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+      "order": 4769
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+      "order": 4770
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate",
+      "order": 4771
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
+      "order": 4772
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+      "order": 4773
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+      "order": 4774
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
+      "order": 4775
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion",
+      "order": 4776
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
+      "order": 4777
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion",
+      "order": 4778
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion",
+      "order": 4779
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
+      "order": 4780
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
+      "order": 4781
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
+      "order": 4782
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
+      "order": 4783
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
+      "order": 4784
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion",
+      "order": 4785
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion",
+      "order": 4786
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion",
+      "order": 4787
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion",
+      "order": 4788
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion",
+      "order": 4789
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions",
+      "order": 4790
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion",
+      "order": 4791
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion",
+      "order": 4792
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion",
+      "order": 4793
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion",
+      "order": 4794
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion",
+      "order": 4795
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion",
+      "order": 4796
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion",
+      "order": 4797
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion",
+      "order": 4798
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion",
+      "order": 4799
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion",
+      "order": 4800
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4801
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 629,
+  "node": {
+    "id": "sov_affine_piece_partition_certificate_soundness",
+    "title": "SOV affine-piece partition certificate soundness",
+    "status": "PROVED",
+    "statement": "If a certificate partitions every forced-root conditioning cell into disjoint affine pieces where c(L)=[X^{h-1}]L has nonzero linear part, plus paid/norm-structured exceptional pieces whose total size is below the declared character-sum budget, then sov_hminus1_affine_piece_decomposition holds.",
+    "attack_surface": "finite partition and affine-linear certificate semantics for SOV conditioned cells",
+    "falsifier": "a verified affine/exceptional partition certificate that fails to imply the SOV h-1 affine-piece decomposition"
+  },
+  "requires": [
+    {
+      "from": "sov_nonconstant_affine_character_cancellation",
+      "order": 957
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1123
+    }
+  ],
+  "refutes": []
+}

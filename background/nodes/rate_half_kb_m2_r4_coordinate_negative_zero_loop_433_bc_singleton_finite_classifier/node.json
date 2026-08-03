@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1418,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier",
+    "title": "KoalaBear m2 r4 coordinate negative zero-loop 433 BC-singleton finite classifier",
+    "status": "PROVED",
+    "closure": "exact 32-packet deployed common classification of singleton-BC cells 12/13/14 and exact 64-packet full zero-loop common atlas",
+    "statement": "Zero-loop common cell 12 has four guarded packets in each root-sign row. Cells 13 and 14 have four packets in each same-sign row and none in opposite-sign rows. All product branches and solve losses are exhausted, giving 32 packets in these cells and exactly 64 packets in the full 15-cell common atlas.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/check.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/verify_cell12.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/verify_cell13.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier/verify_cell14.py",
+      "experiments/prize_resolution/rate_half_kb_zero_loop_433_cell12_router.py",
+      "experiments/prize_resolution/rate_half_kb_zero_loop_433_cell1314_router.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+      "order": 3104
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld",
+      "order": 3105
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3106
+    }
+  ],
+  "refutes": []
+}

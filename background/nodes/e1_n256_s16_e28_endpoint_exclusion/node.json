@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 74,
+  "node": {
+    "id": "e1_n256_s16_e28_endpoint_exclusion",
+    "title": "N=256 E=28 endpoint exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e28_endpoint_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e28_endpoint_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e28_endpoint_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e28_endpoint_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e28_endpoint_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e28_endpoint_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e28_endpoint_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e28_endpoint_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e28_endpoint_exclusion/verify_audit.py"
+    ],
+    "statement": "At N=256 and folded profile (3,4,0), V=56 is impossible. The exact profiles (4,6), (0,7), (3,4,1), (2,2,2), (4,2,0,1), (1,0,3), (0,3,0,1), and (3,0,1,1) are exhausted by the proved joint exclusion. The live positive even frontier is 0<V<=54.",
+    "notes": "ENDPOINT CLOSURE 2026-07-27: the entire E28 chamber is empty; continue at V=54 without rerunning any V>=56 profile."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e28_profile_parity_light_reduction",
+      "order": 4140
+    },
+    {
+      "from": "e1_n256_s16_e28_eight_profile_joint_exclusion",
+      "order": 4141
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4146
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4147
+    }
+  ],
+  "refutes": []
+}

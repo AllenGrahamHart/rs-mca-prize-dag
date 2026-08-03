@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 215,
+  "node": {
+    "id": "r2_rigidity",
+    "title": "R2: unpaid aligned count <= n^B * FM (B<=3)",
+    "status": "CONJECTURE",
+    "gate": "any",
+    "key": true,
+    "refs": [
+      "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#3"
+    ],
+    "statement": "For every pair (u,v): #(D_j cap X_{u,v} minus paid strata) <= n^B max(1, C(n,j) q^{1-t}) with B <= 3, X_{u,v} = V(2x2 minors of (H_u l ; H_v l)).",
+    "attack_surface": "any ONE of the four wall routes; budget B <= 3 verified",
+    "falsifier": "an unpaid collision in the window scan (P1c) or an unpaid identically-valid pencil at deficiency 1 (P3)",
+    "notes": "WIRING FIX (orbit check): the Theorem-J route (spi_point_counting = conj_f + slope sieve) wired as alt \u2014 it IS an R2 proof route and was unwired. NOTE: all three reqs went green TODAY (conj_f, payment_completeness); this gate:any node discharges the moment one alt greens. The sieve chain (diffuse_triple_shadow -> sieve -> spi_point_counting) is correctly OFF the strict orbit while amber (candidate route, per the green-alts rule) and will surface automatically when it greens."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "mca_safe",
+      "order": 29
+    },
+    {
+      "to": "aperiodic_zero_at_crossing",
+      "order": 627
+    }
+  ],
+  "refutes": []
+}

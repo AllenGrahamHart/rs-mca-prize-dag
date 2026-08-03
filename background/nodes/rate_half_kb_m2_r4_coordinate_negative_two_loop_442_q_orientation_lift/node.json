@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1539,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift",
+    "title": "KoalaBear m2 r4 coordinate negative two-loop 442 q-orientation lift",
+    "status": "PROVED",
+    "closure": "exactly two q-compatible orientation triples over every injective root of the six 442 product rows",
+    "statement": "For every injective geometric root of the six negative (4,4,2) common-K product rows, the two antipodal label identities make the shared-loop lift ratios square to one. Of the eight assignments of the three cross-edge deck orbits to source lifts, exactly two satisfy both q welds. Either reconstructs all five common-K sum equations. Thus common-K q orientation deletes no product root; complete source-facet orientation and the other seven fibers remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
+      "order": 3539
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier",
+      "order": 3540
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3541
+    }
+  ],
+  "refutes": []
+}

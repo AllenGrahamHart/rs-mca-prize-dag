@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1618,
+  "node": {
+    "id": "l1_official_checkpoint_characteristic_atlas",
+    "title": "L1 official checkpoint characteristic atlas",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every official order n=2^s with 13<=s<=44, generated-field characteristic p<n, n|p^f-1, and p^f<2^256, the proved floor p>=3583 forces ord_n(p) in {1,2,4,8,16}. Enumerating the 32 low-order residues +-5^(j*2^(s-6)) and applying exact primality and field-cap filters gives precisely 59 possible (n,p) pairs. Their floor(n/p) histogram is {1:33,2:10,3:4,4:4,5:2,7:1,8:4,16:1}. The split-value theorems make 33 m=1 and six broad m=2 minimum-width strata empty; four remainder-two m=2 rows have exactly n/2 antipodal pairs; only 16 m>=3 rows retain a general minimum-width endpoint. No m<=2 compute remains. This is an exhaustive arithmetic router, not a higher-width or L1 bound.",
+    "refs": [
+      "background/nodes/l1_official_checkpoint_characteristic_atlas/statement.md",
+      "background/nodes/l1_official_checkpoint_characteristic_atlas/proof.md",
+      "background/nodes/l1_official_checkpoint_characteristic_atlas/claim_contract.md",
+      "background/nodes/l1_official_checkpoint_characteristic_atlas/dependency_subdag.md",
+      "background/nodes/l1_official_checkpoint_characteristic_atlas/audit.md",
+      "background/nodes/l1_official_checkpoint_characteristic_atlas/result.md",
+      "background/nodes/l1_official_checkpoint_characteristic_atlas/lineage.md",
+      "background/nodes/l1_official_checkpoint_characteristic_atlas/upstream_crosswalk.md",
+      "background/nodes/l1_official_checkpoint_characteristic_atlas/checkpoint_atlas.tsv",
+      "background/nodes/l1_official_checkpoint_characteristic_atlas/verify.py",
+      "background/nodes/l1_official_checkpoint_characteristic_atlas/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_official_frobenius_checkpoint_q_router",
+      "order": 3836
+    },
+    {
+      "from": "l1_official_split_pencil_value_capacity",
+      "order": 3837
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3838
+    }
+  ],
+  "refutes": []
+}

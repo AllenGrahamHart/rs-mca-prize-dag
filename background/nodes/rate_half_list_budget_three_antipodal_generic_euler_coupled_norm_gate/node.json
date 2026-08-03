@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1042,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate",
+    "title": "Budget-three antipodal generic Euler coupled-norm gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The generic zeroth-contact norm is a fourth power and is exactly coupled to the Euler linear-residual norm by N_T^4 N_Q^3=d^(4v). These are scalar prefilters before the full quotient-algebra remainder.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_euler_cubic_norm_gate",
+      "order": 1948
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1949
+    }
+  ],
+  "refutes": []
+}

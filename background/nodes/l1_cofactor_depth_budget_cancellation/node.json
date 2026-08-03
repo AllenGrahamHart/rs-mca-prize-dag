@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 540,
+  "node": {
+    "id": "l1_cofactor_depth_budget_cancellation",
+    "title": "L1 cofactor-depth budget cancellation and sparse-image fence",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For an exact shell with w=a-k and forced cofactor degree 0<=e<k, fixed-cofactor transport gives |E_a(U)|<=q^e B_(a,w+e), where B is the largest full split-locator prefix fiber. Hence an ambient-normalized depth-(w+e) bound cancels q^e exactly and returns the natural depth-w scale. Under image normalization the exact residual factor is q^(w+e)/L_(a,w+e), and integer ceilings contribute less than q^e. At the deployed rows the deeper ambient mean first becomes subunit, and the raw possible-cofactor union first exceeds the row budget, at e=2 for KoalaBear and e=1 for Mersenne-31. This is a route fence, not a counterexample: the follow-on Pade normal form identifies the collective target as a graph, while depth-uniform Q, divisor/graph transversality, and e>=k remain open.",
+    "refs": [
+      "background/nodes/l1_cofactor_depth_budget_cancellation/statement.md",
+      "background/nodes/l1_cofactor_depth_budget_cancellation/proof.md",
+      "background/nodes/l1_cofactor_depth_budget_cancellation/claim_contract.md",
+      "background/nodes/l1_cofactor_depth_budget_cancellation/dependency_subdag.md",
+      "background/nodes/l1_cofactor_depth_budget_cancellation/audit.md",
+      "background/nodes/l1_cofactor_depth_budget_cancellation/lineage.md",
+      "background/nodes/l1_cofactor_depth_budget_cancellation/upstream_crosswalk.md",
+      "background/nodes/l1_cofactor_depth_budget_cancellation/verify.py",
+      "background/nodes/l1_cofactor_depth_budget_cancellation/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_exact_shell_fixed_cofactor_prefix_transport",
+      "order": 2911
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2912
+    }
+  ],
+  "refutes": []
+}

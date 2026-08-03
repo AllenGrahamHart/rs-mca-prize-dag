@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 945,
+  "node": {
+    "id": "f3_h3_cutoff18_double_accident_reduction",
+    "title": "C36' cutoff-18 double-accident reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "With Q_18(t)=(P(t)-18)_+, split X_18=sum_(t!=1)Q_18(t)R(t)=A_18+Y_18, where A_18=sum_(t!=1,R(t)>0)Q_18(t)<=(n-1)^2 and Y_18=sum_(t!=1)Q_18(t)(R(t)-1)_+. Therefore the exact residual estimate 17Y_18<=283n^2+34n-17, or the stronger Y_18<=16n^2, implies the C36' target. Every positive Y_18 record is both a rich product event and an additional quotient-collision event.",
+    "refs": [
+      "background/nodes/f3_h3_cutoff18_double_accident_reduction/statement.md",
+      "background/nodes/f3_h3_cutoff18_double_accident_reduction/proof.md",
+      "background/nodes/f3_h3_cutoff18_double_accident_reduction/claim_contract.md",
+      "background/nodes/f3_h3_cutoff18_double_accident_reduction/dependency_subdag.md",
+      "background/nodes/f3_h3_cutoff18_double_accident_reduction/audit.md",
+      "background/nodes/f3_h3_cutoff18_double_accident_reduction/verify.py",
+      "background/nodes/f3_h3_cutoff18_double_accident_reduction/verify_audit.py",
+      "background/nodes/f3_h3_cutoff18_double_accident_reduction/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_shifted_product_sidon",
+      "order": 1711
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1712
+    }
+  ],
+  "refutes": []
+}

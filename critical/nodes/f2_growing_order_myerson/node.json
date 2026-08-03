@@ -1,0 +1,17 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 742,
+  "node": {
+    "id": "f2_growing_order_myerson",
+    "status": "TARGET",
+    "statement": "F2 SUMMIT NODE (2026-07-10, campaign capstone as first-class target): MYERSON AT GROWING ORDER \u2014 for the Frobenius tower's moving sectors at official rows, the Gaussian-period-norm census deviation (Habegger eq. (2) form) obeys any max-to-mean bound within tolerance 2^{1.05e12} (equivalently: per-condition extras loss <= 2^15 on the p-free ladder). This is a growing-subgroup-order generalization of Myerson's conjecture (all known results and the stated conjecture are fixed-order); the identification chain and the complete instrument suite are the F2 campaign record (prize/notes/f2_campaign/, 84 entries; brief v3 = the handoff). Falsifier: the pre-registered extras-contraction falsifier (never fired at any scale). The floor's sole remaining open input. || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/u2c_giant_tnull_dichotomy/notes/QUALITY_f2_growing_order_myerson.md",
+    "upstream": {
+      "label": "U_Q / row-sharp Q atom (K2, Sidon-Fourier payment)",
+      "relation": "IDENTICAL"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

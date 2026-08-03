@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 903,
+  "node": {
+    "id": "rate_half_sparse_pinning_rigidity",
+    "title": "Rate-half sparse pinning, normal form, and coupled match rigidity",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At agreement a=k+tau in an RS code, every non-tangent MCA-bad slope of a pair supported on e<=n-a coordinates is pinned by one active match to a nonzero ambiguity polynomial z=h product_(x in Z)(X-x), with |Z|>=a-e, deg h<=e-tau-1, and T>=A-e+tau+1+u active matches under the same radius budget. Hence e>=tau+1. For the official rate-half row and q>=2^168, all tangent slopes fit floor(q/2^128), leaving exactly the non-tangent coupled system.",
+    "refs": [
+      "background/nodes/rate_half_sparse_pinning_rigidity/statement.md",
+      "background/nodes/rate_half_sparse_pinning_rigidity/proof.md",
+      "background/nodes/rate_half_sparse_pinning_rigidity/claim_contract.md",
+      "background/nodes/rate_half_sparse_pinning_rigidity/dependency_subdag.md",
+      "background/nodes/rate_half_sparse_pinning_rigidity/verify.py",
+      "background/nodes/rate_half_sparse_pinning_rigidity/audit.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1608
+    }
+  ],
+  "refutes": []
+}

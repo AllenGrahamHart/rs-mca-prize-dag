@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1013,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_ode",
+    "title": "Budget-three antipodal generic deleted-pair constant ODE",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "A complete deleted-pair survivor descends to a half-degree square pencil whose odd generic direction is the unique monic polynomial solution, when one exists, of an exact constant-forcing first-order ODE. Its forced simple zero is the sole exceptional root allowed by the linear residual.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_ode/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_ode/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_ode/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_ode/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_ode/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_ode/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_ode/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_even_factorization",
+      "order": 1842
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_reverse_residual_stratification",
+      "order": 1843
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1844
+    }
+  ],
+  "refutes": []
+}

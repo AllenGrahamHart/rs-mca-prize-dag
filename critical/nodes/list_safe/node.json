@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 252,
+  "node": {
+    "id": "list_safe",
+    "title": "List safe side above the window",
+    "status": "CONDITIONAL",
+    "gate": "all",
+    "key": true,
+    "refs": [
+      "proof_sketch/s7_list_side.md#5"
+    ],
+    "statement": "For the ordinary code (m=1), #Lambda(C,delta) <= 2^-128 |F| above the window, from the ImgFib bound and codegree conversion. Arbitrary arity is transported only after the adjacent base crossing by list_large_m_scope_closure.",
+    "notes": "FLIP APPLIED on my replay (Codex rednode batch, 2026-07-04): TARGET -> CONDITIONAL; referee packet in nodes/list_safe/conditional.md (extracted surgically \u2014 Codex's branch base predated the Pro packet and expansions; wholesale merge would have deleted them). | AMBER AUDIT 2026-07-06: SOUND (official m-handling wired; open work honestly imgfib). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md."
+  },
+  "requires": [
+    {
+      "from": "imgfib",
+      "order": 95
+    },
+    {
+      "from": "codegree",
+      "order": 96
+    }
+  ],
+  "alternatives": [
+    {
+      "from": "route_one_scale",
+      "order": 154
+    }
+  ],
+  "evidence_for": [
+    {
+      "to": "list_grand",
+      "order": 7
+    }
+  ],
+  "refutes": []
+}

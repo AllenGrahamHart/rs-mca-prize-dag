@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1615,
+  "node": {
+    "id": "l1_coarse_pfree_tame_tail_distance_upgrade",
+    "title": "L1 coarse p-free tame-tail distance upgrade",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For disjoint nonempty t-set locators F_X,F_Y in characteristic p, if t<p then their nonzero Wronskian W=F_X'F_Y-F_XF_Y' has degree at least t-1. Otherwise its Laurent expansion forces equality of the first t moments, and Newton identities identify the tails. Combining this lower degree with the coarse p-free upper degree gives t>=max(ceil((d+2)/2),min(d+1,p)) in every depth-d collision. Thus d<p has the full-prefix distance d+1, while every official checkpoint-depth collision has t>=p>n/24. The strict endpoint is sharp: an F_5 pair attains t=d+1 and deg W=t-1, while the F_4 t=p fixture refutes replacing t<p by t<=p. This proves no surviving exchange-subset bound or row-sharp Q.",
+    "refs": [
+      "background/nodes/l1_coarse_pfree_tame_tail_distance_upgrade/statement.md",
+      "background/nodes/l1_coarse_pfree_tame_tail_distance_upgrade/proof.md",
+      "background/nodes/l1_coarse_pfree_tame_tail_distance_upgrade/claim_contract.md",
+      "background/nodes/l1_coarse_pfree_tame_tail_distance_upgrade/dependency_subdag.md",
+      "background/nodes/l1_coarse_pfree_tame_tail_distance_upgrade/audit.md",
+      "background/nodes/l1_coarse_pfree_tame_tail_distance_upgrade/result.md",
+      "background/nodes/l1_coarse_pfree_tame_tail_distance_upgrade/lineage.md",
+      "background/nodes/l1_coarse_pfree_tame_tail_distance_upgrade/upstream_crosswalk.md",
+      "background/nodes/l1_coarse_pfree_tame_tail_distance_upgrade/verify.py",
+      "background/nodes/l1_coarse_pfree_tame_tail_distance_upgrade/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_coarse_pfree_wronskian_distance_packing",
+      "order": 3828
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3830
+    }
+  ],
+  "refutes": []
+}

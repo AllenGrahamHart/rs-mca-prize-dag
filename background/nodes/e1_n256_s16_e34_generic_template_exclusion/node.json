@@ -1,0 +1,60 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 45,
+  "node": {
+    "id": "e1_n256_s16_e34_generic_template_exclusion",
+    "title": "N=256 E=34 generic-template exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e34_generic_template_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e34_generic_template_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e34_generic_template_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e34_generic_template_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e34_generic_template_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e34_generic_template_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e34_generic_template_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e34_generic_template_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e34_generic_template_exclusion/verify_audit.py",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_generic_census.cpp",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_generic_census_modal.py",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_generic_census_result.json",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_generic_audit.cpp",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_generic_audit_modal.py",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_generic_audit_result.json",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_generic_census_check.py"
+    ],
+    "statement": "No pair-feasible N=256, folded-(3,4,0), V=68 collision lies in the generic heavy template. Two independent complete affine-orbit censuses agree on all 243,285,056 representative signed vectors and give exact maximum M_3=1770 on 418,464 full-conductor profile vectors. Since 1770<1947, the template is excluded.",
+    "notes": "ROUTE CLOSURE 2026-07-27: closes the fourth and final E34 heavy template with independent chord and negacyclic implementations."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e34_generic_affine_weld_reduction",
+      "order": 289
+    },
+    {
+      "from": "e1_n256_proper_conductor_collision_exclusion",
+      "order": 290
+    },
+    {
+      "from": "e1_n256_s16_e34_three_profile_reduction",
+      "order": 291
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 292
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 413
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 414
+    }
+  ],
+  "refutes": []
+}

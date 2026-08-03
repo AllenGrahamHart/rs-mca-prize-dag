@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 605,
+  "node": {
+    "id": "e1_pocklington_250bit_exhibit_field",
+    "title": "E1 250-bit Pocklington exhibit field",
+    "status": "PROVED",
+    "statement": "The displayed 250-bit integer p = 562949953421383 * 2^200 + 1 is prime by Pocklington, satisfies p < 2^256 and p = 1 mod 256, and supplies primitive roots of exact orders 128 and 256 for the E1 folded cells.",
+    "attack_surface": "Pocklington arithmetic and displayed root-order checks for the common E1 exhibit field",
+    "falsifier": "a failed Pocklington congruence/gcd check, p not prime, p not 1 mod 256, or a displayed root not having exact order 128 or 256"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

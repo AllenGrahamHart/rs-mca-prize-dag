@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1699,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_constant_color_exclusion",
+    "title": "L1 Mersenne HNF m=8 order-one constant-color exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On every official m=8,h=7 order-one row, the six roots left after removing the automatic root cannot all have the same p+1 Frobenius color. The first two colored reciprocal coefficient equations force rho*c=1-alpha and then 30alpha(c-1)=(alpha+1)zeta+12alpha^2. Its F_(p^2)/F_p norm equation has no solution at any eighth-root trace in an official characteristic.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_constant_color_exclusion/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_constant_color_exclusion/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_constant_color_exclusion/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_constant_color_exclusion/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_constant_color_exclusion/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_constant_color_exclusion/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_constant_color_exclusion/verify.py"
+    ],
+    "notes": "Complete exclusion of the constant-color stratum only. The live h=7 residue has a non-base-field conic parameter and a nonconstant assignment-preserving color interpolant; higher color degrees and all inner conditions remain open."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+      "order": 3966
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3967
+    }
+  ],
+  "refutes": []
+}

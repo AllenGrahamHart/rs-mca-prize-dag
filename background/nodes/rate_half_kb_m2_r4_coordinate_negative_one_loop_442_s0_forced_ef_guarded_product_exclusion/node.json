@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1534,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion",
+    "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S0 forced-EF guarded product exclusion",
+    "status": "PROVED",
+    "closure": "guard-saturated deletion of both forced-EF S0 parity cells in all four common sign rows",
+    "statement": "Choose alpha=beta=1, gamma=tau_0 and force tau_0*e*f=m. Clearing the admissible denominator gives (X-ceZ)(eX-tau_0*cmZ)(X^2-d^2e^2Z^2)(e^2X^2-m^2d^2Z^2). For either parity, the three equations each have twelve monomials. In both cubic components exact Buchberger reduction completes after 190 S-pairs with the monic basis element e^2, contradicting e!=0. The common product data are identical across all four rows, so all eight forced-EF S0 cells are empty and the accepted frontier falls from 16 to 8.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+      "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py",
+      "experiments/prize_resolution/rate_half_kb_one_loop_442_common_sign_product_transport.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion",
+      "order": 3524
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport",
+      "order": 3525
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3526
+    }
+  ],
+  "refutes": []
+}

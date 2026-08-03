@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 755,
+  "node": {
+    "id": "f2_gauss_lemma_frame",
+    "status": "PROVED",
+    "statement": "F2 GAUSS-LEMMA FRAME \u2014 E1's exact identification (2026-07-10, campaign cycle 93): the parity field is a GENERALIZED GAUSS'S-LEMMA SYMBOL. (a) U_c = #{x in G : c.xbar(x) mod q > q/2} is exactly the Gauss-lemma count with the fundamental half-interval [1,(q-1)/2] replaced by the subgroup orbit configuration; Gauss's lemma itself ((-1)^U = Legendre(a) for the interval with linear map) verified with 0 mismatches at q = 97 \u2014 the classical case IS the interval case of our object. (b) K_c = (X_0 + a X_2)/q - sum_x floor((x + a x^2)/q) (X_i = integer representative sums) \u2014 an EXACT floor-sum lattice count under n lines of slopes x^2/q; identity verified exactly at 4 rows, all a. So eps_c = (-1)^{K+U} is a Gauss-lemma-type parity of a lattice-point configuration \u2014 the E1 lattice identification is COMPLETE and classical machinery is now correctly named: Gauss/Eisenstein lemmas, Zolotarev permutation signs, Duke-Hopkins group-theoretic reciprocity. (c) NEGATIVE (measured): the naive Zolotarev candidate \u2014 eps as the sign of the sorting permutation of the orbit values \u2014 is REFUTED (correlation 0.00-0.07 at 4 rows); and satellite 26 already shows eps is no character. THE STRUCTURAL READING: every classical proof of quadratic reciprocity exploits the fundamental-domain specialness of the half-interval (a group-quotient structure subgroup orbits do not have); its absence here is exactly CONSISTENT with the certified pseudorandomness of eps in all spectral bases. The summit is now nameable in one sentence: PROVE SQUARE-ROOT CANCELLATION FOR GENERALIZED GAUSS-LEMMA PARITIES OF SUBGROUP ORBIT CONFIGURATIONS \u2014 a precisely-anchored, genuinely open problem adjacent to (but outside) classical reciprocity. Verifier: inline in campaign log #105 (local, small). Twenty-seventh satellite; E1's identification phase closed \u2014 what remains of E1/E2 is the open reciprocity/cancellation step itself."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1276
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 148,
+  "node": {
+    "id": "e1_conductor256_full_unit_circular_basis",
+    "title": "Conductor-256 full-unit circular basis",
+    "status": "PROVED",
+    "closure": "published real class-number theorem, Kummer-Sinnott unit-index theorem, and exact specialization",
+    "refs": [
+      "background/nodes/e1_conductor256_full_unit_circular_basis/statement.md",
+      "background/nodes/e1_conductor256_full_unit_circular_basis/proof.md",
+      "background/nodes/e1_conductor256_full_unit_circular_basis/claim_contract.md",
+      "background/nodes/e1_conductor256_full_unit_circular_basis/dependency_subdag.md",
+      "background/nodes/e1_conductor256_full_unit_circular_basis/audit.md",
+      "background/nodes/e1_conductor256_full_unit_circular_basis/result.md",
+      "background/nodes/e1_conductor256_full_unit_circular_basis/frontier.md",
+      "background/nodes/e1_conductor256_full_unit_circular_basis/source_pin.json",
+      "background/nodes/e1_conductor256_full_unit_circular_basis/verify.py"
+    ],
+    "statement": "Every algebraic unit of Z[zeta_256], modulo mu_256, has a unique exponent vector in the 63 standard real circular units eta_a for odd 3<=a<=127. The full unit log lattice is therefore the explicit integer span of the sine-ratio matrix. This uses the unconditional theorem h(Q(zeta_256)^+)=1 and the prime-power Kummer-Sinnott unit-index formula.",
+    "notes": "EXACT LITERATURE-BACKED LATTICE IDENTIFICATION 2026-07-29: Miller Theorem 2.1 is unconditional at conductor 256. This is a full-unit basis theorem, not the false assertion that the full cyclotomic field has class number one. No regulator estimate, lattice-point count, sparse-associate count, or E1 payment follows."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

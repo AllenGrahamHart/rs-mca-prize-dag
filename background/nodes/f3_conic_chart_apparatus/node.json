@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 720,
+  "node": {
+    "id": "f3_conic_chart_apparatus",
+    "status": "PROVED",
+    "statement": "F3 CONIC-CHART APPARATUS (2026-07-09, Codex flip branch, replayed): the actual h=3 same-fiber conic chart family is now rank-instrumented: (1) exact kernel-bundle formula codim = sum_i max(e_i - A, 0) for the boxed base product series, official balanced-slope margin >= 2951 vs allowance 2899 (margin-minus-allowance >= 52); (2) basepoint-freeness of the boxed series at official rows (B >= 34); (3) rank-good open set WITNESSED INSIDE THE ACTUAL FAMILY: conic chart p=769, a=37, b=706, base=(101,333) has full rank 320 = A*B^3 certified by an explicit minor (det 514 mod 769); (4) ROUTE-CUT: the chart polynomials satisfy P_U + P_V + P_W + aQ = 0, so separated-divisor arguments cannot prove full rank; (5) equivalent restatements of the remaining theorem: binary-form codimension, dual annihilator dim <= 2899 vs 6.5M product windows, kernel-bundle splitting excess. PGL2/Mobius rank invariance + the 3-parameter private-linear normal form (Y, (Y-1)/(Y-lambda), (Y-eta)/(Y-theta)) bank the alternate lane."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u1_x4_direct_column_budget",
+      "order": 1236
+    },
+    {
+      "to": "f3_conic_rank_deficit_gate",
+      "order": 1241
+    }
+  ],
+  "refutes": []
+}

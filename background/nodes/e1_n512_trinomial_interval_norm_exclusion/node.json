@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 185,
+  "node": {
+    "id": "e1_n512_trinomial_interval_norm_exclusion",
+    "title": "N=512 trinomial interval-norm collision exclusion",
+    "status": "PROVED",
+    "closure": "proof plus exact certificate",
+    "refs": [
+      "background/nodes/e1_n512_trinomial_interval_norm_exclusion/statement.md",
+      "background/nodes/e1_n512_trinomial_interval_norm_exclusion/proof.md",
+      "background/nodes/e1_n512_trinomial_interval_norm_exclusion/claim_contract.md",
+      "background/nodes/e1_n512_trinomial_interval_norm_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n512_trinomial_interval_norm_exclusion/audit.md",
+      "background/nodes/e1_n512_trinomial_interval_norm_exclusion/result.md",
+      "background/nodes/e1_n512_trinomial_interval_norm_exclusion/certificate.json",
+      "background/nodes/e1_n512_trinomial_interval_norm_exclusion/source_pin.json",
+      "background/nodes/e1_n512_trinomial_interval_norm_exclusion/verify.py",
+      "background/nodes/e1_n512_trinomial_interval_norm_exclusion/notes/flint_replay_modal.py"
+    ],
+    "statement": "At N=512,s=2, every folded profile (1,2,0) normalizes to F=2+epsilon X^a+delta X^b with 1<=a<b<=255. The 129540 signed states form 748 odd-Galois orbits and give 746 distinct exact norms. For each norm and both full pair-feasible prime intervals, the complementary-cofactor window has width at most one: only four integers occur, only one divides, and its quotient is composite and 0 mod 512. Thus no pair-feasible prime divides any norm. Together with the four-singleton exclusion, every surviving N=512 collision has s>=3.",
+    "notes": "ROUTE REDUCTION 2026-07-27: closes the complete N=512,s=2 band by a dual-backend exact resultant and interval-divisor certificate. It does not control s>=3 or the total collision-pair ledger."
+  },
+  "requires": [
+    {
+      "from": "e1_prime_field_l2_norm_collision_radius",
+      "order": 366
+    },
+    {
+      "from": "e1_n512_four_singleton_collision_exclusion",
+      "order": 367
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 368
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 515
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 516
+    }
+  ],
+  "refutes": []
+}

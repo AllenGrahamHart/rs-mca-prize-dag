@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 543,
+  "node": {
+    "id": "l1_pade_remainder_jacobian_tangent_dichotomy",
+    "title": "L1 Pade-remainder Jacobian and tangent dichotomy",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For monic degree-a locator L with Euclidean division U=LQ+P, the differential of the remainder map in direction D is -(QD mod L). If gcd(L,Q)=1, multiplication by Q is an automorphism of F[Z]/(L), so the full remainder Jacobian has rank a and the w=a-k high-remainder Pade equations have rank exactly w. Thus the section is a smooth local complete intersection of codimension w there, and every rank-deficient point lies on Res(L,Q)=0. For exact split locators the complement guard gives the canonical partition gcd(Q,Omega)=1 versus tangent D=gcd(L,Q)!=1 with all D-roots inside the agreement support. An exact F_17 tangent witness has projected rank 2<3. No split-point bound or tangent payment is asserted.",
+    "refs": [
+      "background/nodes/l1_pade_remainder_jacobian_tangent_dichotomy/statement.md",
+      "background/nodes/l1_pade_remainder_jacobian_tangent_dichotomy/proof.md",
+      "background/nodes/l1_pade_remainder_jacobian_tangent_dichotomy/claim_contract.md",
+      "background/nodes/l1_pade_remainder_jacobian_tangent_dichotomy/dependency_subdag.md",
+      "background/nodes/l1_pade_remainder_jacobian_tangent_dichotomy/audit.md",
+      "background/nodes/l1_pade_remainder_jacobian_tangent_dichotomy/lineage.md",
+      "background/nodes/l1_pade_remainder_jacobian_tangent_dichotomy/upstream_crosswalk.md",
+      "background/nodes/l1_pade_remainder_jacobian_tangent_dichotomy/verify.py",
+      "background/nodes/l1_pade_remainder_jacobian_tangent_dichotomy/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_full_locator_pade_section_all_cofactors",
+      "order": 2917
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2918
+    }
+  ],
+  "refutes": []
+}

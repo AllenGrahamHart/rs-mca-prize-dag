@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1021,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_canonical_span_criterion",
+    "title": "Budget-three antipodal generic canonical-span criterion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the maximal generic floor, four deleted subgroup roots canonically determine both pencil directions and all centered outer coefficients. After the primary and secondary gaps, the full norm equation is equivalent to one exact two-dimensional polynomial span identity plus the split/Mobius matching of the resulting outer quartic.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_canonical_span_criterion/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_canonical_span_criterion/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_canonical_span_criterion/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_canonical_span_criterion/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_canonical_span_criterion/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_canonical_span_criterion/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_canonical_span_criterion/verify.py",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_canonical_span_criterion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_secondary_gap_reduction",
+      "order": 1866
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1867
+    }
+  ],
+  "refutes": []
+}

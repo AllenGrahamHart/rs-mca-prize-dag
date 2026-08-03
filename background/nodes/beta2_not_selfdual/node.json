@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 283,
+  "node": {
+    "id": "beta2_not_selfdual",
+    "title": "F not self-dual for general psi => SL (not Sp/SO) branch",
+    "status": "PROVED",
+    "refs": [
+      "experimental/notes/m1/m1_beta2_conditional_close.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 166,
+  "node": {
+    "id": "e1_s18_m1028_energy4_cubic_exclusion",
+    "title": "E1 square-mass-18 cofactor-1028 energy-four cubic exclusion",
+    "status": "PROVED",
+    "closure": "complete finite-field type screen and cubic logarithm bound",
+    "refs": [
+      "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/statement.md",
+      "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/proof.md",
+      "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/claim_contract.md",
+      "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/dependency_subdag.md",
+      "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/audit.md",
+      "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/result.md",
+      "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/frontier.md",
+      "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/source_pin.json",
+      "background/nodes/e1_s18_m1028_energy4_cubic_exclusion/verify.py",
+      "experiments/prize_resolution/e1_m1028_e4_third_moment_screen.py",
+      "experiments/prize_resolution/e1_m1028_e4_third_moment_screen_result.json"
+    ],
+    "statement": "No conductor-256 square-mass-18 collision with local valuation two and cofactor 1028 has autocorrelation energy four. The complete 8385-type fixed-root screen has cubic index at most 24, and the global cubic logarithm bound forces every exact norm below 1028 times the prize field floor.",
+    "notes": "ANALYTIC ENERGY-FOUR CLOSE 2026-07-29: ordered-triple and additive-relation engines agree on the complete cubic-index distribution, digest 401203ca53dbd51a859b702767576b50aca05c73216194120a60eff251d1d442. The 8385-resultant Modal job is superseded. This closes the last cofactor-1028 energy when combined with existing leaves; no direct Prize movement until the profile payment is promoted."
+  },
+  "requires": [
+    {
+      "from": "e1_profile210_split_prime_ideal_router",
+      "order": 4589
+    },
+    {
+      "from": "e1_s18_m1028_global_energy_window",
+      "order": 4590
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4591
+    }
+  ],
+  "refutes": []
+}

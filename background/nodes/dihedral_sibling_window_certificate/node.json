@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 691,
+  "node": {
+    "id": "dihedral_sibling_window_certificate",
+    "title": "Dihedral fixed-point sibling window certificate (P6)",
+    "status": "REFUTED",
+    "statement": "For every sigma in [2^33, sigma*], a dihedral/Chebyshev quotient-core family (twin fibers x+x^{-1}, plus one inversion fixed point at the endpoint) whose members are valid degree<k=2^40 RS codewords and which gives > floor(q_line/2^128) bad witnesses at agreement k+sigma, uniformly for log2 q in (255.900, 256). Obligations: (1) Chebyshev degree audit deg<k; (2) distinctness/noncontainment vs the old 2-power qcore witnesses; (3) strict-window endpoint sigma<d with d=sigma+1 and the fixed-point sibling supplying the top-endpoint parity d=sigma*+1; (4) priced count log2 C(2^40,2^32+1)~4.05e10 >> 128 (VERIFIED). NON-AQB (single-family witnesses, no averaging), non-giant-M.",
+    "attack_surface": "Chebyshev locator degree bookkeeping; inversion fixed-point endpoint parity; distinctness audit vs quotient-core; binomial count certificate.",
+    "falsifier": "A sigma in [2^33, sigma*] where every dihedral twin/fixed-point family either overflows degree k, collapses to the old qcore count, or fails noncontainment.",
+    "notes": "P6 residual leaf: the concrete certificate that turns the dihedral sibling window into a theorem. Entropy margin overwhelming (verified); the work is degree/distinctness certification, not numerical. | REFUTED (Pro T8, verified): packet size != Chebyshev drop (twin-pair packet drop=d/2, overflow 2^32 at first band sigma); true Dickson fibers <=2gcd(r,n) collapse to old 2-power qcore; next scale M=2^34 unpriced (C(127,64)=2^123.17<2^128). NO positive certificate."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1040
+    }
+  ],
+  "refutes": []
+}

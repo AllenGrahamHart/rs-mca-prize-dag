@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1031,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent",
+    "title": "A=1 core-one exceptional-only full reciprocal square descent",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The remaining corrected unit square reduces to LW_vee-FS=EY^(D_0+r-2) and V_vee=-UW_vee-P_clS. Hence four allocated blocks F,U,W_vee,S recover L,G,K_vee,V_vee through two exact divisions and two linear formulas; the Hankel and splitting gates remain separate.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement",
+      "order": 1928
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1929
+    }
+  ],
+  "refutes": []
+}

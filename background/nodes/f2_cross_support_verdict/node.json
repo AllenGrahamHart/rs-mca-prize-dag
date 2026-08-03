@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 752,
+  "node": {
+    "id": "f2_cross_support_verdict",
+    "status": "PROVED",
+    "statement": "F2 CROSS-SUPPORT VERDICT \u2014 E3 CLOSED (2026-07-10, campaign cycle 89; digest F2_CROSS_SUPPORT_PASS): NO-GO #11 \u2014 the Fourier-pairing lane is dead in full. Measured at 7 exact rows (pairing identity (1/Q) sum_d eps-hat conj(W-hat) = signed deviation verified to 1e-15; weight spectrum taken on e^S restricted to c != 0, the flat spike removed): (a) k_surgery/Q = 0.57-0.76 at ALL rows \u2014 the absolute pairing tail sum_{d not in top-k} |t_d| never falls to alignment scale until k is a constant fraction of the whole frequency space; no small census-defined support exists to attack; (b) the total absolute pairing cost is within 0.6-1.0 bits of the trivial sqrt(Q) Cauchy-Schwarz bound at every row \u2014 the pairing-level spectra are near-random (consistent with satellite 23), so support surgery has no structure to exploit; (c) the SIGNED value is captured by a tiny top set (capture k/Q ~ 1e-4) \u2014 diffuse, mean-zero, random-walk-like accrual: the cancellation is GLOBAL, not localized on any frequency subset. CONSEQUENCE: E1 (Ehrhart mod-2 lattice parity), E2 (Dedekind-integer reciprocity), and E4 (Frobenius-orbit averaging) are the only remaining named lanes; brief v4 updated. The campaign's Fourier program (satellites 18, 19, 23, and this) is COMPLETE: it produced the sign quantization, the pseudorandomness evidence, and two no-gos \u2014 the parity field must be engaged in physical (lattice/orbit) space, not frequency space. Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_cross_support_modal.py. Twenty-fourth satellite."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1273
+    }
+  ],
+  "refutes": []
+}

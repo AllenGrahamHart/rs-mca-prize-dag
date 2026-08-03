@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1068,
+  "node": {
+    "id": "dli_wcl_ell1_weight6_even_norm_divisor_descent",
+    "title": "WCL ell=1 weight-6 even-norm divisor descent",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every reduced signed weight-6 relation at an exact order-512 root has a unique parity locator F(X)=E(X^2)-X B(X^2), with E monic cubic and deg B<=1, and exists exactly when G(Y)=E(Y)^2-YB(Y)^2 divides Y^256-1. The six remainder coefficients form a five-variable integer ideal that is the unit ideal over Q, so one nonzero integer Nullstellensatz certificate restricts all survivors to finitely many characteristics. No certificate or official exclusion is claimed.",
+    "refs": [
+      "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/statement.md",
+      "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/proof.md",
+      "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/result.md",
+      "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/claim_contract.md",
+      "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/dependency_subdag.md",
+      "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/audit.md",
+      "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/verify.py",
+      "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_newton_short_window_exclusion",
+      "order": 2002
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_slot_1_6_emptiness",
+      "order": 2003
+    }
+  ],
+  "refutes": []
+}

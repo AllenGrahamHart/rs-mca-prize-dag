@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 534,
+  "node": {
+    "id": "l1_raw_support_ledger_exponential_route_fence",
+    "title": "L1 raw support-ledger exponential route fence",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the formal official-rate-half family n=2^j, k=n/2, ell=n/j, M=j/2, b=1 with j a power of two at least 16, the balanced support profile touching every petal in ell/2 points satisfies the source, list-threshold, saturation-width, and per-petal-cap arithmetic. Nevertheless the raw root-pinning right-hand side is at least 2^(n/4), while even one exact-pattern background-anchor allowance is at least q^(n/8). Hence raw support-profile summation or independent per-pattern union bounds cannot close L1; an algebraic feasibility theorem, collective cross-pattern injection, or globally paid quotient/Forney classification is necessary. No realizability or RS-list lower bound is claimed.",
+    "refs": [
+      "background/nodes/l1_raw_support_ledger_exponential_route_fence/statement.md",
+      "background/nodes/l1_raw_support_ledger_exponential_route_fence/proof.md",
+      "background/nodes/l1_raw_support_ledger_exponential_route_fence/claim_contract.md",
+      "background/nodes/l1_raw_support_ledger_exponential_route_fence/dependency_subdag.md",
+      "background/nodes/l1_raw_support_ledger_exponential_route_fence/audit.md",
+      "background/nodes/l1_raw_support_ledger_exponential_route_fence/lineage.md",
+      "background/nodes/l1_raw_support_ledger_exponential_route_fence/verify.py",
+      "background/nodes/l1_raw_support_ledger_exponential_route_fence/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_petal_pattern_root_pinning_ledger",
+      "order": 2897
+    },
+    {
+      "from": "l1_maximal_background_anchor_injection",
+      "order": 2898
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2899
+    }
+  ],
+  "refutes": []
+}

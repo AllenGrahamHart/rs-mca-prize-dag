@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 376,
+  "node": {
+    "id": "certificate_grammar_v2",
+    "title": "v12: certificate grammar v2 + printed deployed-row integer certificates",
+    "status": "PROVED",
+    "refs": [
+      "tex/cs25_cap_v12.tex"
+    ],
+    "notes": "the packaging layer has a paper-side counterpart \u2014 align compiler/descriptor/dossier with this grammar instead of inventing a parallel one | AUDIT #177 integrated (e7042160): package passed with one real find \u2014 the explicit-pair integer rounding step, patched by the maintainer in cs25_cap_v12.tex."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "compiler",
+      "order": 606
+    },
+    {
+      "to": "descriptor",
+      "order": 607
+    },
+    {
+      "to": "dossier_partial",
+      "order": 608
+    }
+  ],
+  "refutes": []
+}

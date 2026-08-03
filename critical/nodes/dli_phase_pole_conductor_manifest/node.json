@@ -1,0 +1,14 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 641,
+  "node": {
+    "id": "dli_phase_pole_conductor_manifest",
+    "title": "DLI phase-side pole+conductor manifest (Pro, verified)",
+    "status": "PROVED",
+    "statement": "For each DLI tuple: the Artin-Schreier reduced phase hP_lambda has a prime-to-p pole of order ed (d odd <p, e a 2-power sqrt pullback), surviving nondegeneracy, with conductor majorant ed + C_tame. Parts 1-3 of the reduced-phase manifest."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

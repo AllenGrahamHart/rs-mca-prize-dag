@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1607,
+  "node": {
+    "id": "xr_prize_arbitrary_w_rank_two_received_pair_router",
+    "title": "XR prize arbitrary-W rank-two received-pair router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For an arbitrary-W rank-two dual plane, pairing each row with its selected-error equation gives an interaction vector annihilating the Segre coefficient columns. Five-block planes and the zero-interaction four-block branch annihilate both received directions. Every nonzero four-block interaction is a scalar multiple of the Mobius hyperplane and gives an invertible pairing with the received direction plane. These are the only trade-row interaction classes; aggregate counting remains open.",
+    "refs": [
+      "background/nodes/xr_prize_arbitrary_w_rank_two_received_pair_router/statement.md",
+      "background/nodes/xr_prize_arbitrary_w_rank_two_received_pair_router/proof.md",
+      "background/nodes/xr_prize_arbitrary_w_rank_two_received_pair_router/claim_contract.md",
+      "background/nodes/xr_prize_arbitrary_w_rank_two_received_pair_router/dependency_subdag.md",
+      "background/nodes/xr_prize_arbitrary_w_rank_two_received_pair_router/audit.md",
+      "background/nodes/xr_prize_arbitrary_w_rank_two_received_pair_router/result.md",
+      "background/nodes/xr_prize_arbitrary_w_rank_two_received_pair_router/verify.py",
+      "background/nodes/xr_prize_arbitrary_w_rank_two_received_pair_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_prize_arbitrary_w_rank_two_dual_plane_support_router",
+      "order": 3800
+    },
+    {
+      "from": "xr_rank_two_received_pair_alternating_router",
+      "order": 3801
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3802
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 122,
+  "node": {
+    "id": "e1_n256_local_norm_cofactor_collapse",
+    "title": "N=256 local-norm cofactor collapse",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_local_norm_cofactor_collapse/statement.md",
+      "background/nodes/e1_n256_local_norm_cofactor_collapse/proof.md",
+      "background/nodes/e1_n256_local_norm_cofactor_collapse/claim_contract.md",
+      "background/nodes/e1_n256_local_norm_cofactor_collapse/dependency_subdag.md",
+      "background/nodes/e1_n256_local_norm_cofactor_collapse/audit.md",
+      "background/nodes/e1_n256_local_norm_cofactor_collapse/result.md",
+      "background/nodes/e1_n256_local_norm_cofactor_collapse/source_pin.json",
+      "background/nodes/e1_n256_local_norm_cofactor_collapse/verify.py"
+    ],
+    "statement": "Local reciprocity gives R/2^mu=1 mod 256 for every nonzero integral norm R from Q_2(zeta_256), where mu=v_2(R). On the pair-feasible branch p=1 mod 256. Profile (3,4,0) has five possible cofactors and R=2^mu p. Profile (4,2,0) has 419 possible RowC cofactors; the exact prize field floor leaves eight, then the cyclotomic residue-degree rule excludes 1026=2*3^3*19. The seven live prize values are 2, 514, 1538, 4, 1028, 16, 256.",
+    "notes": "ROUTE REDUCTION 2026-07-27, sharpened 2026-07-28: replaces broad cofactor intervals by exact local-norm congruence classes and reduces the leading prize S=18 profile from 419 cofactors to seven. It does not prove the remaining norm counts."
+  },
+  "requires": [
+    {
+      "from": "e1_pair_feasible_prime_field_reduction",
+      "order": 361
+    },
+    {
+      "from": "e1_n256_2adic_cofactor_collision_exclusion",
+      "order": 362
+    },
+    {
+      "from": "e1_prize_field_floor_even_norm_exclusion",
+      "order": 363
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 457
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 458
+    },
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 459
+    }
+  ],
+  "refutes": []
+}

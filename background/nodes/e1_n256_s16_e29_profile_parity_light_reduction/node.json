@@ -1,0 +1,55 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 69,
+  "node": {
+    "id": "e1_n256_s16_e29_profile_parity_light_reduction",
+    "title": "N=256 E=29 profile/parity/light reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/statement.md",
+      "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/proof.md",
+      "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/claim_contract.md",
+      "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/audit.md",
+      "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/result.md",
+      "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/source_pin.json",
+      "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/verify.py",
+      "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/verify_audit.py",
+      "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/notes/e29_profile_parity_probe_modal.py",
+      "background/nodes/e1_n256_s16_e29_profile_parity_light_reduction/notes/e29_profile_parity_probe_result.json"
+    ],
+    "statement": "For N=256 folded profile (3,4,0) at V=58, exact slack gives L<=17 and the exact cubic cutoff M_3=872. Of 17 magnitude profiles, diameter parity leaves eight, all with exactly one light-light diameter and either one or five odd classes. Their complete normalized light ledger has 264 one-odd and 14,400 five-odd supports in exactly 11+100=111 affine templates.",
+    "notes": "ROUTE REDUCTION 2026-07-27: gives the exact V=58 profile and one-diameter light-support frontier. It excludes no residual profile."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e30_endpoint_exclusion",
+      "order": 4117
+    },
+    {
+      "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+      "order": 4118
+    },
+    {
+      "from": "e1_n256_s16_signed_chord_collision_gate",
+      "order": 4119
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 4120
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4126
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4127
+    }
+  ],
+  "refutes": []
+}

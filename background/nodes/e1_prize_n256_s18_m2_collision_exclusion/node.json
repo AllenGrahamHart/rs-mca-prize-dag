@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 132,
+  "node": {
+    "id": "e1_prize_n256_s18_m2_collision_exclusion",
+    "title": "Prize N=256 square-mass-18 cofactor-2 exclusion",
+    "status": "PROVED",
+    "closure": "exhaustive certificate",
+    "refs": [
+      "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/statement.md",
+      "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/proof.md",
+      "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/claim_contract.md",
+      "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/dependency_subdag.md",
+      "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/audit.md",
+      "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/result.md",
+      "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/source_pin.json",
+      "background/nodes/e1_prize_n256_s18_m2_collision_exclusion/verify.py"
+    ],
+    "statement": "On prize-envelope N=256 rows, profile-(4,2,0) cofactor 2 is impossible. Dual complete normalized streams leave 511272 vectors after the high-variance exclusion. FLINT and PARI agree through a 64-bucket multiset fingerprint, and every quotient Norm/2 lies strictly outside the prize interval.",
+    "notes": "EXACT FINITE EXCLUSION 2026-07-28: dual streamed enumeration and exact arithmetic eliminate the last prize cofactor of the leading square-mass-18 profile. Later profiles and the aggregate weighted pair budget remain open."
+  },
+  "requires": [
+    {
+      "from": "e1_prize_n256_s18_m2_high_variance_exclusion",
+      "order": 498
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 499
+    },
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 500
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 501
+    }
+  ],
+  "refutes": []
+}

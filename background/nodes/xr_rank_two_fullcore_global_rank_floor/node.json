@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1584,
+  "node": {
+    "id": "xr_rank_two_fullcore_global_rank_floor",
+    "title": "XR rank-two full cores have a global official-row rank floor",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_rank_two_fullcore_global_rank_floor/statement.md",
+      "background/nodes/xr_rank_two_fullcore_global_rank_floor/proof.md",
+      "background/nodes/xr_rank_two_fullcore_global_rank_floor/claim_contract.md",
+      "background/nodes/xr_rank_two_fullcore_global_rank_floor/dependency_subdag.md",
+      "background/nodes/xr_rank_two_fullcore_global_rank_floor/verify.py",
+      "background/nodes/xr_rank_two_fullcore_global_rank_floor/verify_audit.py",
+      "background/nodes/xr_rank_two_fullcore_global_rank_floor/audit.md",
+      "background/nodes/xr_rank_two_fullcore_global_rank_floor/result.md"
+    ],
+    "statement": "For every official full-support rank-two minimal Maxwell core, strict negative baseline gives an exact per-arity shell and affine-rank floor from zero-fiber capacity, pair mass, disjointness, and t<=a+2. Minimizing over the official arity ranges and composing with the zero-baseline router gives all-baseline affine-rank floors 8,8,5,8590051854,8590020865,4294977670. Proper four/five-block circuits inside larger cores, surviving high-rank records, higher trade rank, nonuniform cells, and aggregate payment remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_rank_two_zero_baseline_arithmetic_router",
+      "order": 3710
+    },
+    {
+      "from": "xr_rank_two_maxwell_collision_defect_identity",
+      "order": 3711
+    },
+    {
+      "from": "xr_higher_rank_rank_two_shell_maxwell_router",
+      "order": 3712
+    },
+    {
+      "from": "xr_higher_rank_uniform_split_pencil_reduction",
+      "order": 3713
+    },
+    {
+      "from": "xr_prize_primitive_rank_two_shell_band",
+      "order": 3714
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3715
+    }
+  ],
+  "refutes": []
+}

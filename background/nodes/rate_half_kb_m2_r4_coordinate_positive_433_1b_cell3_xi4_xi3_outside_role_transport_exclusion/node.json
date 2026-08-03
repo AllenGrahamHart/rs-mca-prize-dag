@@ -1,0 +1,62 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1779,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi4_xi3_outside_role_transport_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-3 xi4-to-xi3 outside-role transport exclusion",
+    "status": "PROVED",
+    "closure": "all 240 cases with missing sigma_o ef record xi=4, by an exact signed outside-role involution to the complete proved xi=3 slice",
+    "statement": "On the guarded principal positive deployed 433-1b role-cell-3 branch, every case with missing sigma_o ef record xi=4 is empty across all source signs, all 15 canonical matchings, and all four target lanes. For fixed sigma_o, the involution (d,e,f) -> (sigma_o e,sigma_o d,f) transposes atlas positions xi3 and xi4 while fixing all other product and squared-sum records, the compact residual order, matching index, target guard divisor, both lane invariants, and source role cell 3. The six proved xi3 matching blocks therefore pay all 240 raw xi4 cases. This is not the B/C exchange that sends source role cell 3 to cell 6, and it claims no other cell or Prize result.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi4_xi3_outside_role_transport_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi4_xi3_outside_role_transport_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi4_xi3_outside_role_transport_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi4_xi3_outside_role_transport_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi4_xi3_outside_role_transport_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi4_xi3_outside_role_transport_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi4_xi3_outside_role_transport_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi4_xi3_outside_role_transport_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi4_xi3_outside_role_transport_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi4_xi3_outside_role_transport_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi4_xi3_outside_role_transport_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_xi4_xi3_outside_role_transport.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+      "order": 4919
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+      "order": 4920
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion",
+      "order": 4921
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairings1_2_reciprocal_linear_exclusion",
+      "order": 4922
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings3_6_exclusion",
+      "order": 4923
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion",
+      "order": 4924
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion",
+      "order": 4925
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings4_5_9_12_exclusion",
+      "order": 4926
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

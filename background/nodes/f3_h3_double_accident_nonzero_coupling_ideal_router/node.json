@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1034,
+  "node": {
+    "id": "f3_h3_double_accident_nonzero_coupling_ideal_router",
+    "title": "H3 double-accident nonzero-coupling ideal router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a fixed product lift, at most one quotient lift has zero characteristic-zero product-to-quotient coupling. Every positive cutoff-18 double accident therefore supplies at least R(t)-1 nonzero sparse coupling generators in the same degree-one row-prime ideal as a low-distance product star. One generator gives a finite three-generator candidate ideal; the full target-local batch preserves quotient excess. The zero locus is exactly the binary telescoping family and has 3(n-4)/2 unordered-product/ordered-quotient anchors.",
+    "refs": [
+      "background/nodes/f3_h3_double_accident_nonzero_coupling_ideal_router/statement.md",
+      "background/nodes/f3_h3_double_accident_nonzero_coupling_ideal_router/proof.md",
+      "background/nodes/f3_h3_double_accident_nonzero_coupling_ideal_router/claim_contract.md",
+      "background/nodes/f3_h3_double_accident_nonzero_coupling_ideal_router/dependency_subdag.md",
+      "background/nodes/f3_h3_double_accident_nonzero_coupling_ideal_router/audit.md",
+      "background/nodes/f3_h3_double_accident_nonzero_coupling_ideal_router/result.md",
+      "background/nodes/f3_h3_double_accident_nonzero_coupling_ideal_router/verify.py",
+      "background/nodes/f3_h3_double_accident_nonzero_coupling_ideal_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_double_accident_low_distance_joint_ideal_router",
+      "order": 1969
+    },
+    {
+      "from": "f3_h3_shifted_product_sidon",
+      "order": 1970
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1971
+    }
+  ],
+  "refutes": []
+}

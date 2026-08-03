@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 383,
+  "node": {
+    "id": "adjacency_closing",
+    "title": "The adjacency endgame: safe and unsafe bounds must MEET at consecutive grid points",
+    "status": "CONDITIONAL",
+    "key": true,
+    "statement": "For each admissible row: the proved safe agreement a and proved unsafe agreement a-1 are ADJACENT \u2014 the bracket between the two sides collapses to one grid step. Current per-rate corridor widths are 1.12-2.17 grid steps: even with every mapped conjecture closed, the slack must be eaten by (i) the Acl second-order term (makes the quotient end a number), (ii) per-point window cleanup at the boundary, and (iii) the extension-crossing arithmetic \u2014 or the determination lands with a gap and only bracket-grade partials. RATE SCOPE (amber audit 2026-07-06): the wired premises deliver the CLEAN RATES (1/4, 1/8, 1/16); the rate-1/2 instance of this claim is additionally conditional on rate_half_band_closure (red). The previous unscoped wording over-claimed.",
+    "attack_surface": "rate-by-rate: compute which corridors provably collapse under acl_second_order alone (width 1.12 = rho 1/8 is closest); the 506/507 pinned row is the existence proof that adjacency IS achievable where tangent exactness rules",
+    "falsifier": "a rate whose bracket provably CANNOT collapse to one step under the mapped mechanisms \u2014 would mean the prize needs a mechanism not yet on the map",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ],
+    "notes": "the assembly implication of mca_grand made explicit (same move as payment_completeness): the composite says 'adjacent' but nothing priced the meet until now. The least-clear remaining path on the map after the mixed-radix downgrade. | WIRING REPAIR (mca_grand referee audit 2026-07-04): rate_half_coverage_gap promoted ev -> req \u2014 an uncovered radius band at rate 1/2 BLOCKS the for-each-admissible-C quantifier; the list-side closing node already had it as req (asymmetry caught by the audit). | AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic \u2014 not promotable by referee argument; this is genuine open work. | DECOMPOSED (meaty-red program, 2026-07-04): the statement's own three eaters node-ified \u2014 (i) acl_second_order (existing), (ii) corridor_window_cleanup (evidence-gated finite computation), (iii) corridor_ext_crossing (arithmetic on proved components) \u2014 assembled by corridor_ledger (the per-rate W - 1 table, the node's future implication packet). The list mirror decomposes identically next pass. | STATUS AFTER THE EVALUATION: honest bracket-grade at all clean rates under the three-eater partition; rate 1/8 needs 0.007 steps from outside the partition. The node's 'or the determination lands with a gap and only bracket-grade partials' clause is now the live branch unless a fourth mechanism is found. | FLIP on replay (Codex wave 6): TARGET -> CONDITIONAL \u2014 the assembly implication packaged; closes when the named frontier inputs land. | AMBER AUDIT 2026-07-06: REPAIRED (rate-scope split; full-vs-clean conflation found by the overnight audit). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md."
+  },
+  "requires": [
+    {
+      "from": "crossing_localization",
+      "order": 623
+    },
+    {
+      "from": "staircase_steepness",
+      "order": 624
+    },
+    {
+      "from": "aperiodic_zero_at_crossing",
+      "order": 625
+    },
+    {
+      "from": "knife_edge_census",
+      "order": 626
+    },
+    {
+      "from": "corridor_ledger",
+      "order": 807
+    },
+    {
+      "from": "rate_half_band_closure",
+      "order": 810
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

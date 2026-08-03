@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1717,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction",
+    "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one factor reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a cubic 3+2+1 packet, the triple color gives a monic cubic factor F of L=FG. On the complementary cubic G, F takes values B,B,lambda B, where lambda=(gamma-alpha)/(beta-alpha); hence Res_W(G,X-F)=X^3-(2+lambda)BX^2+(1+2lambda)B^2X-lambda B^3. Seven color orbits and six role assignments give at most 42 packets.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_factor_reduction/verify.py"
+    ],
+    "notes": "Exact low-degree necessary factor model for 3+2+1 only. No factor packet is declared empty and all norm, Frobenius, cyclotomic, and inner filters remain open."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_color_remainder_router",
+      "order": 4008
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4009
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1099,
+  "node": {
+    "id": "l1_intrinsic_quotient_source_chart_census",
+    "title": "L1 intrinsic quotient source-chart census",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a fixed received word and intrinsic complete-fiber partition, one source core/petal role assignment determines every source member uniquely: two degree-below-k polynomials agreeing on the (k-1)-point core plus one full petal coincide. Hence there are at most 3^(n/ell) canonical source charts per scale. At ell>=c_0 n/log_2 n this is at most n^(log_2(3)/c_0), and the logarithmically many dyadic intrinsic scales preserve polynomial first-match aggregation. Composed with the bipolar per-chart bound, every fixed polarity box is globally polynomial across intrinsic quotient charts. Partial cores, non-intrinsic quotient maps, and arbitrary petals remain open.",
+    "refs": [
+      "background/nodes/l1_intrinsic_quotient_source_chart_census/statement.md",
+      "background/nodes/l1_intrinsic_quotient_source_chart_census/proof.md",
+      "background/nodes/l1_intrinsic_quotient_source_chart_census/claim_contract.md",
+      "background/nodes/l1_intrinsic_quotient_source_chart_census/dependency_subdag.md",
+      "background/nodes/l1_intrinsic_quotient_source_chart_census/audit.md",
+      "background/nodes/l1_intrinsic_quotient_source_chart_census/verify.py",
+      "background/nodes/l1_intrinsic_quotient_source_chart_census/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_source_paving_bridge",
+      "order": 2222
+    },
+    {
+      "from": "l1_quotient_chart_bipolar_entropy_closure",
+      "order": 2223
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2224
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2225
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2226
+    }
+  ],
+  "refutes": []
+}

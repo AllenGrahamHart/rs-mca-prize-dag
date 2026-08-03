@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 173,
+  "node": {
+    "id": "e1_conductor128_full_unit_circular_basis",
+    "title": "Conductor-128 full-unit circular basis",
+    "status": "PROVED",
+    "closure": "Miller descent, Weber oddness, and Kummer-Sinnott unit-index formula",
+    "refs": [
+      "background/nodes/e1_conductor128_full_unit_circular_basis/statement.md",
+      "background/nodes/e1_conductor128_full_unit_circular_basis/proof.md",
+      "background/nodes/e1_conductor128_full_unit_circular_basis/claim_contract.md",
+      "background/nodes/e1_conductor128_full_unit_circular_basis/dependency_subdag.md",
+      "background/nodes/e1_conductor128_full_unit_circular_basis/audit.md",
+      "background/nodes/e1_conductor128_full_unit_circular_basis/result.md",
+      "background/nodes/e1_conductor128_full_unit_circular_basis/source_pin.json",
+      "background/nodes/e1_conductor128_full_unit_circular_basis/verify.py"
+    ],
+    "statement": "Every unit of Z[zeta_128] is a root of unity times a unique product of the 31 standard real circular units eta_a for odd 3<=a<=63.",
+    "notes": "UNIT BASIS 2026-07-29: Miller's unconditional conductor-256 plus-class-number theorem descends to conductor 128 by extension/norm and Weber oddness. Kummer-Sinnott then makes the 31 circular generators the full unit basis."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 885,
+  "node": {
+    "id": "xr_affine_core_all_zero_charge",
+    "title": "Affine-core all-zero charge",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_affine_core_all_zero_charge/statement.md",
+      "background/nodes/xr_affine_core_all_zero_charge/proof.md",
+      "background/nodes/xr_affine_core_all_zero_charge/verify.py",
+      "background/nodes/xr_affine_core_all_zero_charge/result.md"
+    ],
+    "statement": "Under the affine-core cogirth hypotheses, fix a kernel-coordinate basis T and let p_T be the number of persistent zero coordinates outside T. Genericity gives p_T<=N-r-a-1. Every sparse error over T has at least N-r-a-p_T nonpersistent zeros, and those zero sets are disjoint across slopes. Hence at most r+1 pairs use T, proving |P|C(Delta-r+a-1,a)<=C(N,a)(r+1). Exact XR arithmetic pays full-domain selector ranks 4,4,4,11,11,10, closing rank four on all six rows without collision-line coverage."
+  },
+  "requires": [
+    {
+      "from": "xr_affine_core_cogirth_ray_bound",
+      "order": 1555
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1556
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1557
+    }
+  ],
+  "refutes": []
+}

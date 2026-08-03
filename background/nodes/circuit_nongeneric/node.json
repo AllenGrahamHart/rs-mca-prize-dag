@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 426,
+  "node": {
+    "id": "circuit_nongeneric",
+    "title": "Circuits are non-generic: the two-identity syzygy kernel vanishes off a determinantal locus",
+    "status": "PROVABLE",
+    "statement": "The proved circuit lemma (#185) says a dependency = TWO simultaneous zero-polynomial identities. By degree counting, the simultaneous-syzygy kernel is generically zero; full-support minimal circuits exist only on an EXPLICIT determinantal locus of configurations (the two kernels intersecting in exactly dimension 1). Circuits are exceptional by construction, not just empirically.",
+    "refs": [
+      "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#3"
+    ],
+    "notes": "CAVEAT flagged: if the identities involve (u,v) (not just locator data), the locus lives in (u,v)-space \u2014 same argument, different variables; the E13 packet's exact lemma statement settles which"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

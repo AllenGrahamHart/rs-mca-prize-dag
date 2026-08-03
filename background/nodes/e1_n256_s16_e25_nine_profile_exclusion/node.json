@@ -1,0 +1,57 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 83,
+  "node": {
+    "id": "e1_n256_s16_e25_nine_profile_exclusion",
+    "title": "N=256 E=25 nine-profile exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e25_nine_profile_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e25_nine_profile_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e25_nine_profile_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e25_nine_profile_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e25_nine_profile_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e25_nine_profile_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e25_nine_profile_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e25_nine_profile_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e25_nine_profile_exclusion/verify_audit.py",
+      "experiments/prize_resolution/e25_nine_profile_census.cpp",
+      "experiments/prize_resolution/e25_nine_profile_census_audit.cpp",
+      "experiments/prize_resolution/e25_nine_profile_census_modal.py",
+      "experiments/prize_resolution/e25_nine_profile_census_result.json",
+      "experiments/prize_resolution/e25_nine_profile_census_check.py",
+      "experiments/prize_resolution/e25_nine_profile_norm_modal.py",
+      "experiments/prize_resolution/e25_nine_profile_norm_result.json",
+      "experiments/prize_resolution/e25_nine_profile_norm_check.py"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), and V=50, all nine exact profiles are impossible. Independent folded-chord and direct-negacyclic engines agree after 2,203,120,896 vectors per engine. They leave 31,280 cubic exceptions, 16,984 with full conductor; FLINT and PARI agree on every primitive norm and prove 2*N_max<2^250<3*N_max.",
+    "notes": "ROUTE CLOSURE 2026-07-27: removes every profile in the exact V=50 reduction."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e25_profile_parity_light_reduction",
+      "order": 4190
+    },
+    {
+      "from": "e1_n256_proper_conductor_collision_exclusion",
+      "order": 4191
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 4192
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4197
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4198
+    }
+  ],
+  "refutes": []
+}

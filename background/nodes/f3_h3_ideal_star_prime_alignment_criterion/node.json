@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 994,
+  "node": {
+    "id": "f3_h3_ideal_star_prime_alignment_criterion",
+    "title": "H3 ideal-star prime-alignment criterion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For p=1 mod n, divisibility of a normalized rooted ideal-star norm by p is equivalent to simultaneous collision at one degree-one prime above p. Odd Galois dilation makes one fixed primitive root sufficient for screening the complete admissible-star union.",
+    "refs": [
+      "background/nodes/f3_h3_ideal_star_prime_alignment_criterion/statement.md",
+      "background/nodes/f3_h3_ideal_star_prime_alignment_criterion/proof.md",
+      "background/nodes/f3_h3_ideal_star_prime_alignment_criterion/claim_contract.md",
+      "background/nodes/f3_h3_ideal_star_prime_alignment_criterion/dependency_subdag.md",
+      "background/nodes/f3_h3_ideal_star_prime_alignment_criterion/audit.md",
+      "background/nodes/f3_h3_ideal_star_prime_alignment_criterion/result.md",
+      "background/nodes/f3_h3_ideal_star_prime_alignment_criterion/verify.py",
+      "background/nodes/f3_h3_ideal_star_prime_alignment_criterion/verify_audit.py",
+      "experiments/prize_resolution/h3_low_distance_ideal_star_alignment_pilot_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_low_distance_ideal_star_router",
+      "order": 1877
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1878
+    }
+  ],
+  "refutes": []
+}

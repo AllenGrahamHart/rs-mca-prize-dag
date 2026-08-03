@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1692,
+  "node": {
+    "id": "l1_mersenne_hnf_m16_order_zero_reciprocal_elimination",
+    "title": "L1 Mersenne HNF m=16 order-zero reciprocal elimination",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The complete m=16,h=15 order-zero outer HNF chamber is empty on the official (n,p)=(131072,8191) row. The first three Frobenius-reciprocal coefficient equations give eliminants of degrees 11472 and 15296. Their degree-9912 gcd has squarefree radical s(s-1) product_(j=1)^15(s+j), so every common solution has s in F_8191, contradicting the HNF condition.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/statement.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/proof.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/audit.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/result.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_zero_reciprocal_elimination/verify.py",
+      "experiments/prize_resolution/l1_mersenne_m16_reciprocal_gcd_modal.py",
+      "experiments/prize_resolution/l1_mersenne_m16_reciprocal_companion_audit_modal.py",
+      "experiments/prize_resolution/l1_mersenne_m16_reciprocal_gcd_result.json",
+      "experiments/prize_resolution/l1_mersenne_m16_reciprocal_companion_audit_result.json",
+      "experiments/prize_resolution/l1_mersenne_m16_reciprocal_gcd_result.md"
+    ],
+    "notes": "Exact bounded computer algebra, not a field-element scan: the primary resultant construction and an independent companion-matrix/Newton construction reproduce both eliminants, their gcd, and the degree-17 radical. Closes order zero only; order one and global L1 remain open."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+      "order": 3950
+    },
+    {
+      "from": "l1_mersenne_hnf_frobenius_reciprocal_gate",
+      "order": 3951
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3952
+    }
+  ],
+  "refutes": []
+}

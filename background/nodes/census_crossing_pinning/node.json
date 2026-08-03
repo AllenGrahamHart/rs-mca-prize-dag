@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 510,
+  "node": {
+    "id": "census_crossing_pinning",
+    "title": "census crossing pinning",
+    "status": "TARGET",
+    "statement": "Fourth mechanism (c): the knife-edge census pins the actual crossing within the B*-window by exact Diophantine arithmetic \u2014 pinning could shave the needed fraction directly.",
+    "attack_surface": "run the census at the rate-1/8 window (knife_edge_census machinery)",
+    "falsifier": "an exact computation showing the mechanism's contribution < 0.00707 steps at 1/8",
+    "refs": [
+      "experimental/notes/roadmaps/acl_second_order_evaluation.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "fourth_mechanism_rate8",
+      "order": 816
+    }
+  ],
+  "refutes": []
+}

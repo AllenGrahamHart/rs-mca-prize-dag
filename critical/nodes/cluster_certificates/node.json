@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 408,
+  "node": {
+    "id": "cluster_certificates",
+    "title": "Cluster machinery: free cliques + one-check cluster pairing",
+    "status": "PROVED",
+    "key": true,
+    "statement": "(a) Diameter-d* class sets are fully certified free cliques (~2^33 at N'=128) by graded_collision_radius. (b) For clusters with center-difference Delta EVERYWHERE-BIG (min conjugate >= spread/(budget-1)): every cross-pair diff = Delta(1 + Delta^{-1} eta) with quotient norm < p, so ONE precomputable norm check on Delta certifies ALL cross-pairs of the two clusters. (c) FREEBIE: integer factors are self-certified (p does not divide integers < p), so integer multiples of certified elements are certified.",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ],
+    "notes": "certification compresses quadratically: pairs -> cluster pairs -> generator checks | PROVED-IN-FLIGHT: #206 | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
+  },
+  "requires": [
+    {
+      "from": "graded_collision_radius",
+      "order": 675
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "generator_economy",
+      "order": 678
+    }
+  ],
+  "refutes": []
+}

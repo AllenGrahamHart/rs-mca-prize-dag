@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 714,
+  "node": {
+    "id": "f3_h2_stepanov_inhouse",
+    "status": "PROVED",
+    "statement": "F3 h=2 IN-HOUSE STEPANOV THEOREM (2026-07-08, Codex overnight Terminal B, REPLAYED + PROOF-READ by maintainer; nodes/u1_x4_direct_column_budget/notes/F3_H2_RICH_COSET_STEPANOV.md + LEVEL_SET_REDUCTION + HBK_CONDITIONAL_COMPILER + STEPANOV_RECONSTRUCTION): self-contained, fully explicit additive-energy theorem for multiplicative subgroups \u2014 the rich-coset Stepanov lemma R(U) <= 129 (hT)^{2/3} for h^4 T < p^3 (auxiliary polynomial Phi(X, X^h, (X-1)^h); sparse-monomial nonvanishing lemma; explicit parameters A ~ X/4, B ~ Y/2, D ~ X/64), composed through the exact level-set identity E(H) = n^2 + n sum_C r_C^2 and the dyadic compiler into E(H) <= 83851 h^{5/2} for h <= p^{2/3}; with the exact trade identity E = 8 T_2 + 4 M_2 + 2n^2 - n (odd char) this gives T_2 <= E/8 in-house. HONEST SCOPE: the conservative constant closes T_2 < n^3 from this route alone only for n > 7,030,990,201/64 ~ 1.1e8; banked ladder rows below pass exactly; the sharp external constant (Cochrane--Pinner 16/3) gives T_2 <= (2/3) n^{5/2} at all n and remains the citable form (f3_h2_stratum_theorem). Value: removes the black-box import; the Stepanov machinery is now in-house for the h >= 3 accident bound (the F3-green wall). All four replays PASS."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u1_x4_direct_column_budget",
+      "order": 1220
+    },
+    {
+      "to": "shared_census_kernel",
+      "order": 1221
+    },
+    {
+      "to": "f3_h2_stratum_theorem",
+      "order": 1222
+    }
+  ],
+  "refutes": []
+}

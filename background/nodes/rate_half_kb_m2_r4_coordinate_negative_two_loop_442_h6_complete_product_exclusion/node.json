@@ -1,0 +1,54 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1559,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h6_complete_product_exclusion",
+    "title": "KoalaBear m2 r4 coordinate negative two-loop 442 H6 complete-product exclusion",
+    "status": "PROVED",
+    "closure": "all H6 cells deleted and the complete 442 paired-product frontier emptied",
+    "statement": "On both H6 rows the protected forced product is -b. Forced DF therefore repeats the common product b. In the colored cells, opposite-sign matchings have nonzero exact factor norms; every aligned matching is unit or forces the other colored product onto a^2=b^2, again colliding with b or -b. Thus all remaining cells are empty and the entire 442 skeleton fails the necessary complete paired-product gate.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h6_complete_product_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h6_complete_product_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h6_complete_product_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h6_complete_product_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h6_complete_product_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h6_complete_product_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h6_complete_product_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h6_complete_product_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h6_complete_product_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h6_complete_product_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h6_complete_product_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier",
+      "order": 3620
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler",
+      "order": 3621
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router",
+      "order": 3622
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion",
+      "order": 3623
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8_positive_complete_product_exclusion",
+      "order": 3624
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3625
+    }
+  ],
+  "refutes": []
+}

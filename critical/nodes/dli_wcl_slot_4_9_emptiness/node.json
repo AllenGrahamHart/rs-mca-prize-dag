@@ -1,0 +1,17 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1055,
+  "node": {
+    "id": "dli_wcl_slot_4_9_emptiness",
+    "title": "WCL slot 4,9 emptiness",
+    "status": "TARGET",
+    "refs": [
+      "critical/nodes/dli_wcl_slot_4_9_emptiness/statement.md"
+    ],
+    "statement": "No reduced signed weight-9 polynomial has the four odd-power vanishings at order-2048 roots at any official row (ell=4 window; the deepest slot). FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

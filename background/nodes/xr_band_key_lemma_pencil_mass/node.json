@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1750,
+  "node": {
+    "id": "xr_band_key_lemma_pencil_mass",
+    "title": "XR pencil mass identity + KEY LEMMA (pencil support dichotomy, 'joint-explanation event') + the MC family construction with its unconditional ceiling and exact q-free count; no pencil exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Pencil w_z = u + zv on any n-point evaluation set D in F_q. THEOREM I (pencil mass identity): v nowhere zero => sum_{z in F_q} agr(c, w_z) = n for EVERY function c (fibres of (c-u)/v partition D); I' with zeros: = q e(c) + (n - |Z_v|). Corollaries: #{z in F_q : agr >= a} <= floor(n/a); 2a > n => the lists are PAIRWISE DISJOINT. KEY LEMMA (pencil support dichotomy): for |S| = a >= k the top a-k interpolant coefficients are LINEAR in the word, top(I_S(w_z)) = A(S) + zB(S); either A = B = 0 -- u|_S and v|_S are jointly explained by a codeword pair, a JOINT-EXPLANATION EVENT of size a (renamed from 'cascade event' per BAND_LANE_DEFINITIONS item 5) -- and ALL q+1 members' interpolants on S are codewords, or AT MOST ONE member of P^1 has a codeword with agreement set containing S. Graded consequence: distinct members share a common agreement a-set iff a joint-explanation event of size a exists; 'below cascade' (item 5) iff no shared agreement sets of size >= A-1. MC-1 (window classification, all w): codewords of u = X^{n-1}+cX^{k+w-1} at agreement >= k+w are EXACTLY {T : |T| = r', e_1..e_{w-1} = 0, prod T = gamma = (-1)^{r'+1}c}, injectively, agreement EXACTLY k+w. MC-2 (ceiling): nothing at >= k+w+1 (c != 0) -- the tangent gate holds UNCONDITIONALLY on MC words. MC-3: with M | n, M | r', w <= M, gcd(m,N) = 1, the coset-union family has EXACTLY C(N,m)/N members, q-FREE (coset vanishing polynomial in X^M; product condition = fixed subset-sum mod N, equidistributed by the unit shift). MC-5 (no pencil exclusion): every member of the shift pencil admits the ENTIRE family via P_T + zQ_T, so min over P^1 of L(w_z, k+w) >= C(N,m)/N. SUBTRACTION (hard law 5): the mechanism is banked -- e22_tail_coset_locator_algebra (the locator factorization IS the MC mechanism), rate_half_cyclic_rotated_prefix_floor (#1051; MC = its s=0,d=1 boundary with the q^{d-1} loss removed), crossing PK1 (w=2 shell; equidistribution = its Lemma 5); independently in BCHKS25 s.7 via sumset hypotheses, routed around unconditionally here. NEW: exact q-free count, ceiling at general w, pencil theorem, THEOREM I/I', KEY LEMMA. NOT claimed: ANY list bound -- the retired band-occupancy reduction must never be revived through this node (worst-case lists at tau are 2^130-2^197, all members simultaneously; the occupancy lemma itself is UNAFFECTED either way); I.3-type averaging (circular, and no poly(n) pencil trade-off law is true -- proved negative); MC-4 completeness (char-0, consumed by xr_mc_depth_quantization); the (R1) first-moment half (concentration not carried; MC is the certified half). NAMING FLAG: the mint brief cited xr_band_occupancy/ as source; the true source is notes/pilots_20260802/list_bound_transfer/ (7,792 checks, 0 failures) -- drafted from the true source.",
+    "refs": [
+      "background/nodes/xr_band_key_lemma_pencil_mass/statement.md",
+      "background/nodes/xr_band_key_lemma_pencil_mass/proof.md",
+      "background/nodes/xr_band_key_lemma_pencil_mass/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "e22_tail_coset_locator_algebra",
+      "order": 4851
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_graded_tangent_band_charge",
+      "order": 4857
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1428,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler",
+    "title": "KoalaBear m2 r4 positive three-loop outside-edge eliminant compiler",
+    "status": "PROVED",
+    "closure": "exact 22-term generic outside-edge resultant and retained linear-product degree-drop branch",
+    "statement": "For every one of the 56 signed outside edge records, the quadratic product row and quartic squared-sum row admit an explicit 22-term degree-six resultant after eliminating the quotient label. When the product quadratic drops to linear, an exact degree-five cleared evaluation replaces the generic formula; the further constant branch is guard-impossible. Common-label and collision saturations remain mandatory.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_three_loop_outside_edge_eliminant.py",
+      "experiments/prize_resolution/rate_half_kb_positive_three_loop_fixed_kernel_groebner_probe.py",
+      "experiments/prize_resolution/rate_half_kb_positive_three_loop_small_prime_probe.py",
+      "experiments/prize_resolution/rate_half_kb_positive_three_loop_small_prime_probe_result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas",
+      "order": 3140
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler",
+      "order": 3141
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3142
+    }
+  ],
+  "refutes": []
+}

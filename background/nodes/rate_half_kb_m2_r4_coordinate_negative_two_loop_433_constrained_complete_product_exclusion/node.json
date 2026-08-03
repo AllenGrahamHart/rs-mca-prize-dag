@@ -1,0 +1,54 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1550,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion",
+    "title": "KoalaBear m2 r4 coordinate negative two-loop 433 constrained complete-product exclusion",
+    "status": "PROVED",
+    "closure": "all thirty X2/N1/L1 product cells deleted and the full 433 paired-product skeleton closed",
+    "statement": "The five forced-product types have 75 universal residual matching templates. Evaluating them at X2, N1, and L1 and both outside signs gives 450 unit obstructions in exact rank-eight quotient algebras. Alternate projections and multiplication-matrix ranks replay every case. Together with the M2/M3 exclusion, the entire 433 complete paired-product skeleton is impossible.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/certificate.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/audit_runner.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/verify_audit.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/verify_audit_df_0_4.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/verify_audit_df_5_9.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/verify_audit_df_10_14.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/verify_audit_ef_0_4.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/verify_audit_ef_5_9.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion/verify_audit_ef_10_14.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier",
+      "order": 3581
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler",
+      "order": 3582
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion",
+      "order": 3583
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3584
+    }
+  ],
+  "refutes": []
+}

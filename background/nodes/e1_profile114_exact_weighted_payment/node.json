@@ -1,0 +1,48 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 167,
+  "node": {
+    "id": "e1_profile114_exact_weighted_payment",
+    "title": "E1 profile-(1,14) exact weighted payment",
+    "status": "PROVED",
+    "closure": "exact integer ledger after the cofactor-1028 exclusion",
+    "refs": [
+      "background/nodes/e1_profile114_exact_weighted_payment/statement.md",
+      "background/nodes/e1_profile114_exact_weighted_payment/proof.md",
+      "background/nodes/e1_profile114_exact_weighted_payment/claim_contract.md",
+      "background/nodes/e1_profile114_exact_weighted_payment/dependency_subdag.md",
+      "background/nodes/e1_profile114_exact_weighted_payment/audit.md",
+      "background/nodes/e1_profile114_exact_weighted_payment/result.md",
+      "background/nodes/e1_profile114_exact_weighted_payment/frontier.md",
+      "background/nodes/e1_profile114_exact_weighted_payment/verify.py"
+    ],
+    "statement": "On the binding prize row, profile (1,14,S=18) contributes at most 20391647614756836040054426763033478955008 unordered collision pairs. The residual edge budget is 2231339193048374054995899432498611923367; the next maximum profile is (0,18,S=18), and 3994 is the tight uniform sufficient cap on all remaining oriented vectors.",
+    "notes": "EXACT PROFILE-(1,14) PAYMENT 2026-07-29: the complete cofactor-1028 energy partition is empty, while all 128 possible cofactor-514 ideals are conservatively charged. The weighted frontier advances unconditionally to (0,18,S=18). No E1 close or Prize movement."
+  },
+  "requires": [
+    {
+      "from": "e1_profile210_exact_weighted_payment",
+      "order": 4592
+    },
+    {
+      "from": "e1_low_square_mass_weighted_kernel_dictionary",
+      "order": 4593
+    },
+    {
+      "from": "e1_profile114_split_prime_payment_router",
+      "order": 4594
+    },
+    {
+      "from": "e1_s18_m1028_energy4_cubic_exclusion",
+      "order": 4595
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4596
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 738,
+  "node": {
+    "id": "f2_ssparse_tower_extension",
+    "status": "PROVED",
+    "statement": "F2 s-SPARSE TOWER EXTENSION (2026-07-10, campaign cycle 34; digest F2_SSPARSE_EXTENSION_PASS, 2574 random sets, 3 scales x 3 sparsities, zero violations): for any s-sparse g on mu_{2^s0} with non-collapsed exponent set: Z(g) <= M(g) + min_j 2^j (2 span_j(E) + s - 1), where M(g) = the full-coset root mass (each such coset certifies a binomial factor X^m - c^m | g \u2014 STRUCTURED by definition, the coset-union channel) and the residual obeys the tower. PROOF: the trinomial Part-1 argument verbatim (coset split, coefficient absorption, unit substitution, Laurent degree bound) + the merge-cancellation case routed to binomial factors: if all merged class-coefficients vanish on a coset, the polynomial vanishes on the WHOLE coset, i.e. the binomial divides g \u2014 the theorem splits exactly along the struct/extras line. Span estimates: adversarial n^{1-1/s} (Dirichlet + parity descent, as Part 2-weak); APPLICATION-SHAPED (AP + window) ~ C sqrt(n) via AP-normalization + two-form Dirichlet (calibrated ~12 sqrt n, log #40). Twelfth satellite; the edge lemma's engine, struct-split included."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1259
+    }
+  ],
+  "refutes": []
+}

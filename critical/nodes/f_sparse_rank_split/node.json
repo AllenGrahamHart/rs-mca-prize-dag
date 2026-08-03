@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 459,
+  "node": {
+    "id": "f_sparse_rank_split",
+    "title": "FACE-2 SPLIT (derivation): by sparse-word rank",
+    "status": "PROVED",
+    "statement": "Split many-sparse flats by d_sp = dim span of their sparse dual words: (a) d_sp bounded => quotient by the sparse span reduces to the PROVED fixed-d lattice machinery + strip; (b) d_sp growing => abundance of independent sparse words, which splits by weight: abundant weight-2 => the inverse theorem f_weight2_inverse (conclusion FINITE by f_dih_subgroup_completeness); higher-weight accumulation => face-4 configuration machinery via the proved transport dictionary. Exhaustive by construction.",
+    "attack_surface": "leg (a) is a quotient argument over the proved fixed-d bound; leg (b) wiring is the two named children",
+    "falsifier": "a growing-d_sp flat with neither weight-2 abundance nor higher-weight accumulation (definitionally excluded \u2014 the split is exhaustive; the falsifier tests the LEG proofs)",
+    "refs": [
+      "experimental/notes/roadmaps/xr_syzygy_flat_transport.md"
+    ],
+    "notes": "FLIP APPLIED on my replay (Codex rednode batch, 2026-07-04): TARGET -> CONDITIONAL; referee packet in nodes/f_sparse_rank_split/conditional.md (extracted surgically \u2014 Codex's branch base predated the Pro packet and expansions; wholesale merge would have deleted them)."
+  },
+  "requires": [
+    {
+      "from": "f_weight2_inverse",
+      "order": 772
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

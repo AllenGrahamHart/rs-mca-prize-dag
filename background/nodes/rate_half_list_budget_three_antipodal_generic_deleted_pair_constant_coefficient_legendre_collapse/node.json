@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1038,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse",
+    "title": "Budget-three antipodal generic deleted-pair constant-coefficient Legendre collapse",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The terminal reversed-quotient coefficient in the first nonharmonic scalar gate is twice one coefficient of ((1-z)(1-tz))^(-1/2). It has an explicit binomial sum, a width-two recurrence, and a Legendre-polynomial representation, eliminating Euclidean reconstruction from this gate.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_fourth_root_gap_reduction",
+      "order": 1933
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_gate",
+      "order": 1934
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1935
+    }
+  ],
+  "refutes": []
+}

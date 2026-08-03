@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1263,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_field_router",
+    "title": "Budget-three fiber-two c=1 parity harmonic field and trace router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Both residual harmonic c=1 parity classes lie over q_field=p^2 with p=1 mod 2^40 and 29058991<=k<33554432 in p=1+k*2^40. The source lift descends to F_p. H_P has reciprocal trace 8/5 and requires 41 trace doublings to terminal 2; after one doubling H_R has trace 16 and requires 40 more. This gives a complete bounded two-recurrence characteristic screen, but does not itself evaluate it.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_field_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_field_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_field_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_field_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_field_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_field_router/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_field_router/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_field_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_mobius_router",
+      "order": 2629
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_even_factorization",
+      "order": 2630
+    },
+    {
+      "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+      "order": 2631
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2632
+    }
+  ],
+  "refutes": []
+}

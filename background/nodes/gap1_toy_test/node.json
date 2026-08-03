@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 348,
+  "node": {
+    "id": "gap1_toy_test",
+    "title": "Toy enumeration: non-equivariant periodic alignment mass (F_13/F_97 rows)",
+    "status": "TARGET",
+    "refs": [
+      "proof_sketch/s3b_ii_strip_periodic.md#3"
+    ],
+    "closure": "computation",
+    "notes": "TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "gap1_noneq_mass",
+      "order": 552
+    }
+  ],
+  "refutes": []
+}

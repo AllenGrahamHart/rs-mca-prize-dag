@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 482,
+  "node": {
+    "id": "h4_terminal_dichotomy",
+    "title": "PROVED (autonomous x32, verified): the h=4 dichotomy \u2014 no hidden third mechanism",
+    "status": "PROVED",
+    "key": true,
+    "statement": "n = 2^s, H = mu_n, odd char p; P,Q disjoint 4-subsets with equal top-3 elementary symmetric sums; f = the 8-sparse signed exponent word. EXACTLY ONE branch holds: (1) ANTIPODAL QUOTIENT (Phi_n | f): P,Q antipodal unions descending through x->x^2 to an h=2 collision = mu_4 full-fiber baseline + quotient h=2 norm-gate extras \u2014 cyclic-pullback PAID by the existing ledger; or (2) TOP-LEVEL SPARSE NORM GATE (Phi_n does not divide f): then p | Res(Phi_n, f), an explicit 8-sparse cyclotomic norm-gate event. CONSEQUENCE: h=4 residue = paid antipodal branch + top-level 8-sparse norm gates; NO hidden third branch. Verified (x32 certificate matches; the reduction chain x29/x30/x35/x38/x39 all replayed green).",
+    "refs": [
+      "experimental/notes/roadmaps/x32_h4_terminal_dichotomy.md"
+    ],
+    "notes": "Autonomous run x20-x39 (~20 proved reduction packets), verified. The dichotomy is a real structural theorem \u2014 it PROVES payment-completeness for h=4 modulo the explicit norm-gate residue."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1074
+    }
+  ],
+  "refutes": []
+}

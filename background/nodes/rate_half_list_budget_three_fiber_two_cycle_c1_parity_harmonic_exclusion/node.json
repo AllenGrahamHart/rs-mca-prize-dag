@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1262,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_exclusion",
+    "title": "Budget-three fiber-two c=1 parity harmonic branch is empty",
+    "status": "PROVED",
+    "closure": "proof plus exact arithmetic certificate",
+    "statement": "On the official generic c=1 two-antipodal-denominator chamber, q_out!=-1. The field router reduces the two residual harmonic source equations to 41 updates from 8/5 and 40 updates from 16 over p=1+k*2^40, 29058991<=k<33554432. A preregistered 32-shard campaign checked all 4,495,441 integer moduli, including composites, with exact coverage and no hit. This excludes harmonic c=1 parity only.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_exclusion/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_exclusion/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_exclusion/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_exclusion/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_exclusion/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_exclusion/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_list_fiber_two_cycle_c1_parity_harmonic_characteristic_modal.py",
+      "experiments/prize_resolution/rate_half_list_fiber_two_cycle_c1_parity_harmonic_characteristic_result.json",
+      "experiments/prize_resolution/rate_half_list_fiber_two_cycle_c1_parity_harmonic_characteristic_result.md",
+      "experiments/prize_resolution/rate_half_list_fiber_two_cycle_c1_parity_harmonic_characteristic_check.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_field_router",
+      "order": 2633
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2634
+    }
+  ],
+  "refutes": []
+}

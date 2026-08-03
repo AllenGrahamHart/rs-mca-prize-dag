@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 478,
+  "node": {
+    "id": "splitpair_lowq_falsifier",
+    "title": "PROVED/VERIFIED (X-10): the low-q split-pair falsifier \u2014 p >= n^2 is nearly sharp",
+    "status": "PROVED",
+    "statement": "At h = 2, split pairs are sum collisions (L_{a,b} determined by a+b, ab); charged pairs are EXACTLY the antipodal-sum ones (the fiber-product line X+Y = s is toral iff s = 0); pigeonhole gives uncharged > n^2 whenever q < ~n^2/7. VERIFIED EXACT INSTANCE: n = 64, p = 193: 18,816 uncharged vs n^2 = 4,096 (charged = 992 = 32*31 exactly, matching the antipodal count). The trigger decreases in h (h = 2 is worst), so p >= n^2 kills the mechanism at every h; official rows sit 48.8 bits above the h = 2 trigger. The X-8 pigeonhole lesson, miniaturized and now built into the theorem's hypotheses as a nearly-sharp condition.",
+    "refs": [
+      "experimental/notes/roadmaps/pa_active_core_probe.md"
+    ],
+    "notes": "X-10 phase 1. Also verified: sparse-relation seeds do not amplify to uncharged split pairs above the threshold (pullback amplification is cyclically charged)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1070
+    }
+  ],
+  "refutes": []
+}

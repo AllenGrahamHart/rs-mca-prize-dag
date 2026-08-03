@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 662,
+  "node": {
+    "id": "e22_overlap_nested_fiber_residual_identity",
+    "title": "E22 nested-fiber residual identity",
+    "status": "PROVED",
+    "statement": "For dyadic scales M_i<M_j, with every M_j-fiber a union of M_i-fibers, a support with canonical scale-M_i data is raw-admissible at M_j exactly when the scale-M_i tail plus the selected M_i-fibers whose M_j-parent is not completely selected has total size less than M_j.",
+    "attack_surface": "finite nested-partition identity for canonical full-fiber recovery",
+    "falsifier": "a coarse M_j-fiber fully contained in the support without all of its M_i-children selected, or a wrong residual-tail size formula"
+  },
+  "requires": [
+    {
+      "from": "e22_cross_scale_support_canonical_form",
+      "order": 1010
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1143
+    }
+  ],
+  "refutes": []
+}

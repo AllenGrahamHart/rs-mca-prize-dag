@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1161,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse",
+    "title": "Rate-half distance-three original-lift column-far converse",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every official distance-three contracted split design has a two-parameter family of original rate-half syndrome lifts annihilated by (X-s)Q at all 4e+1 required slopes, and every lift is column-far. A common full locator would contract to a fixed support of at most r+1 points; 2r+1-column independence would then force all external r-point locators into it, contradicting their exact 6e+3-point union. Hence the official distance-three branch is equivalent without qualification to existence of the pair-Lagrange external split design.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_original_lift_column_far_converse/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse",
+      "order": 2360
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2361
+    }
+  ],
+  "refutes": []
+}

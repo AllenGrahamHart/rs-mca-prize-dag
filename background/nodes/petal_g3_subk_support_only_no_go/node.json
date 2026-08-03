@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 788,
+  "node": {
+    "id": "petal_g3_subk_support_only_no_go",
+    "title": "Sub-k support canonicalization alone leaves a large interpolation fiber",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/petal_g3_subk_support_only_no_go/statement.md",
+      "background/nodes/petal_g3_subk_support_only_no_go/proof.md"
+    ],
+    "statement": "For an n-point Reed-Solomon evaluation set, a received word U, and a fixed r-point support R with r<k, exactly q^(k-r) degree-<k polynomials agree with U on R, and at least q^(k-r)-(n-r)q^(k-r-1) have exact agreement set R. Therefore the open sub-k clause of petal_g3_pricing_multiplicity cannot follow from canonical support deduplication alone; a valid charging datum must retain additional independent petal/cofactor constraints or couple the residual freedom to a separately paid profile."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_g3_pricing_multiplicity",
+      "order": 1326
+    }
+  ],
+  "refutes": []
+}

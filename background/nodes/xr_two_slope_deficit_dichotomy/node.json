@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1748,
+  "node": {
+    "id": "xr_two_slope_deficit_dichotomy",
+    "title": "XR two-slope deficit dichotomy: at 2d >= h no proportional differences and no live ray carries two depth-d cores (sunflower mechanism confined to d <= (h-1)/2); THEOREM G -- pairwise dual-rank sharing iff support overlap >= k+1, witnessed by a complementary-depth band pair",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Hypotheses: (H1) the banked k-packing (background/nodes/xr_mismatch_chart_nongeneric_joint_support_equivalence/proof.md:19-22, consumed not re-derived) and (H3) the tangent gate stated PENCIL-WIDE over P^1(F_q) INCLUDING (0:1); per BAND_LANE_DEFINITIONS item 5 the hypothesis line cites the generic core ceiling (item 4), never 'below cascade'. THEOREM 2 (low/high dichotomy): for 2d >= h, (a) no two distinct depth-d codeword pairs have proportional differences (conventions z* = 0 <=> f_1 = f_2, z* = (0:1) <=> g_1 = g_2) and (b) no ray of agreement <= A carries two distinct depth-d cores -- both through the single integer |Z_1 u Z_2| >= 2(k+d)-(k-1) = k+2d+1 >= A+1; hence the sunflower deficit mechanism ((k-1)-overlap forcing a shared slope) exists ONLY at d <= (h-1)/2. THEOREM G (sharing criterion): for rays (z_1,S_1) != (z_2,S_2) of agreement >= A, (i) dim(C_{S_1} ^ C_{S_2}) = max(0, |S_1 ^ S_2| - k) (L1); (ii) if z_1 != z_2 and |S_1 ^ S_2| >= k+1, the overlap IS -- exactly, by the fibre identity -- the joint agreement set of a codeword pair with BOTH slopes live: a two-slope band pair at depth e = |S_1^S_2| - k; (iii) two cores of depths d, e on one ray satisfy d + e <= h-1. Every unit of pairwise dual-rank sharing is witnessed by another band pair: the deficit structure is self-referential and graded. Plus: distinct cores are always transverse (C_Z ^ C_Z' = 0), so ray-support overlap is the ONLY pairwise sharing channel. NOT claimed: that pairwise sharing exhausts family deficits (support-4 relations exist -- xr_support4_structure; supports <= 3 are zero); any occupancy bound; sunflower extremality (refuted); Theorem 2 does not empty the high band -- it removes the sharing mechanisms there, so each high-depth pair pays its full 2h. Machine record: 371 cumulative witnessed sharing events, 0 violations (hunt_e0.json; per-shape increments 61/129/57/113/11); fresh verifier reproduces 39 witnessed events on fresh fixtures. Provenance notes/pilots_20260802/xr_occupancy_v2/ THEOREMs 2 and G.",
+    "refs": [
+      "background/nodes/xr_two_slope_deficit_dichotomy/statement.md",
+      "background/nodes/xr_two_slope_deficit_dichotomy/proof.md",
+      "background/nodes/xr_two_slope_deficit_dichotomy/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_two_slope_cost_theorem",
+      "order": 4842
+    },
+    {
+      "from": "xr_band_ledger_theorems",
+      "order": 4843
+    },
+    {
+      "from": "xr_mismatch_chart_nongeneric_joint_support_equivalence",
+      "order": 4847
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_graded_tangent_band_charge",
+      "order": 4855
+    }
+  ],
+  "refutes": []
+}

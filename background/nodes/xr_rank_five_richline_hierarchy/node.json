@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 894,
+  "node": {
+    "id": "xr_rank_five_richline_hierarchy",
+    "title": "XR rank-five base residual has a multiplicity-sensitive rich-line hierarchy",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_rank_five_richline_hierarchy/statement.md",
+      "background/nodes/xr_rank_five_richline_hierarchy/proof.md",
+      "background/nodes/xr_rank_five_richline_hierarchy/verify.py",
+      "background/nodes/xr_rank_five_richline_hierarchy/result.md"
+    ],
+    "statement": "In the P-A RowC rank-five u=v=0 branch, put b=C(4+h,4), T=C(R+4,4), and B=8n^3. For every r>=2 with d_r=b-floor((r-1)T/(B+1))>0, any family above B has a nonempty subfamily in which every member lies on at least d_r distinct collision lines containing at least r members. The exact minimum degrees at r=3 are 123/120/27, and positive forced cores persist through r=74/40/9 at rates 1/4,1/8,1/16. This is a structural rich-line reduction, not a count of the surviving core."
+  },
+  "requires": [
+    {
+      "from": "xr_rank_five_reuse_core",
+      "order": 1573
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1574
+    }
+  ],
+  "refutes": []
+}

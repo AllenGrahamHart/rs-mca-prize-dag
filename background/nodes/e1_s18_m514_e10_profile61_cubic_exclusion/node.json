@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1734,
+  "node": {
+    "id": "e1_s18_m514_e10_profile61_cubic_exclusion",
+    "title": "E1 square-mass-18 cofactor-514 energy-ten profile-(6,1) cubic exclusion",
+    "status": "PROVED",
+    "closure": "signed-relation divisibility and cubic Hermite norm majorant",
+    "statement": "The cofactor-514 magnitude profile (E;n1,n2,n3)=(10;6,1,0) has nested-layer bound |M3|<=268 and signed relation divisibility M3=0 mod 6, hence M3<=264. A global cubic Hermite majorant puts its norm below the prize field floor. Twelve magnitude profiles remain.",
+    "refs": [
+      "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/statement.md",
+      "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/proof.md",
+      "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/claim_contract.md",
+      "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/dependency_subdag.md",
+      "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/audit.md",
+      "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/result.md",
+      "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/frontier.md",
+      "background/nodes/e1_s18_m514_e10_profile61_cubic_exclusion/verify.py"
+    ],
+    "notes": "ANALYTIC REFINEMENT 2026-07-29: the six-divisibility of the signed cubic relation index supplies the four-unit improvement that the relaxed layer bound lacked. The five-ideal occupancy threshold remains open."
+  },
+  "requires": [
+    {
+      "from": "e1_s18_m514_hermite_two_profile_exclusion",
+      "order": 4645
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_profile018_m514_five_ideal_occupancy",
+      "order": 4646
+    },
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4647
+    }
+  ],
+  "refutes": []
+}

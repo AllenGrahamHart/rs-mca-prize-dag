@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 851,
+  "node": {
+    "id": "pma_b11_first_match_router",
+    "title": "PMA B11 exact first-match router: Johnson and two anchor gates",
+    "status": "PROVED",
+    "statement": "For fixed E,V_2,V_R, maximal-sunflower extras partition disjointly into GROW, J, A2, AR, and RES. The J/A2/AR union has the exact B11 Johnson plus two-petal-anchor plus background-petal-anchor bound; only GROW and RES remain.",
+    "refs": [
+      "background/nodes/pma_b11_first_match_router/statement.md",
+      "background/nodes/pma_b11_first_match_router/proof.md",
+      "background/nodes/pma_b11_first_match_router/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 1418
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1449
+    }
+  ],
+  "refutes": []
+}

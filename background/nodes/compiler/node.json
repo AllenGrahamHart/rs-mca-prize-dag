@@ -1,0 +1,19 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 270,
+  "node": {
+    "id": "compiler",
+    "title": "Assembly compiler (verdicts + refusal rule)",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/compiler/proof.md",
+      "background/nodes/compiler/audit.py",
+      "tools/prize_certificate_compiler.py"
+    ],
+    "statement": "The exact integer compiler maps row plus upper/lower packets to SAFE/UNSAFE/CONDITIONAL/UNKNOWN per agreement cell and emits a prize-facing radius only from a unique proved adjacent unsafe/safe pair. It refuses open axes, conjectural ledgers, absent or ambiguous adjacency, and contradictory or nonmonotone proved packets. [MASTER IMPORT 2026-07-12: refusal behavior verified by a 13-case adversarial battery beyond the node's own audit \u2014 open required axis, extra conjectural axis, conditional ledger, contradictory packets, monotonicity violations, threshold-grazing, type smuggling, axis aliasing \u2014 13/13 correct refusals/errors.]"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

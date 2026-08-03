@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 425,
+  "node": {
+    "id": "xr_small_set_engine",
+    "title": "Import: global hypercontractivity (KLLM) \u2014 global sets expand, at vanishing measure",
+    "status": "PROVED",
+    "statement": "Keevash-Lifshitz-Long-Minzer global hypercontractivity (proved): sets with no density boost on any small link expand almost perfectly, with losses polynomial in the link parameters rather than in 1/mu \u2014 the density-robust engine for our FM-scale (mu ~ q^{1-t}) regime, replacing raw KMS constants where they degrade. Import note + bridge-ledger row + statement matching.",
+    "refs": [
+      "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
+    ],
+    "closure": "citation",
+    "notes": "FLIP on replay (consolidation agent): PROVABLE -> PROVED (citation-import (KLLM hypercontractivity); scope note: does NOT close the XR wall)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "r2_clean_rates",
+      "order": 750
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1575,
+  "node": {
+    "id": "f3_h3_unordered_product_cutoff12_candidate_compiler",
+    "title": "H3 unordered-product cutoff-12 candidate compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The monic unordered shifted-product polynomial Ucal_n lies in Z[T], has degree n(n-1)/2, and satisfies Ucal_n^2=Pcal_n Delta_n. Its cutoff-12 derivative ideal, saturated by the inverse selector (T-1)Y=1, has exactly the odd-prime support of characteristics with a nonidentity unordered product fiber of multiplicity at least 13. Every nonidentity P>=25 fiber is retained; the sole selected cutoff-boundary false-positive profile is U=13,D=2,P=24. At n=8192 this replaces degree 67,092,481 and 25 ordered generators by degree 33,550,336 and 13 unordered generators. No official-scale algorithm, factorization, or DSP8 close is claimed.",
+    "refs": [
+      "background/nodes/f3_h3_unordered_product_cutoff12_candidate_compiler/statement.md",
+      "background/nodes/f3_h3_unordered_product_cutoff12_candidate_compiler/proof.md",
+      "background/nodes/f3_h3_unordered_product_cutoff12_candidate_compiler/claim_contract.md",
+      "background/nodes/f3_h3_unordered_product_cutoff12_candidate_compiler/dependency_subdag.md",
+      "background/nodes/f3_h3_unordered_product_cutoff12_candidate_compiler/audit.md",
+      "background/nodes/f3_h3_unordered_product_cutoff12_candidate_compiler/result.md",
+      "background/nodes/f3_h3_unordered_product_cutoff12_candidate_compiler/verify.py",
+      "background/nodes/f3_h3_unordered_product_cutoff12_candidate_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_global_resultant_compression",
+      "order": 3683
+    },
+    {
+      "from": "f3_h3_shifted_product_sidon",
+      "order": 3684
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 3685
+    }
+  ],
+  "refutes": []
+}

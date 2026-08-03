@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1491,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion",
+    "title": "KoalaBear m2 r4 coordinate negative one-loop 433 aligned loop-singleton exclusion",
+    "status": "PROVED",
+    "closure": "complete deployed-field deletion of one-loop 433 common matching cell 0",
+    "statement": "Normalize common cell 0 with products (-1,b,c,bc,-bc) and source antipodal pairs AB:AC and BC+:BC-. In every root-sign row the two q welds force bc=+/-i and one linear value of r. Product elimination in x=t^2 then leaves one of four guarded quartics. Over F_2130706433 those quartics factor into eight irreducible quadratics whose four discriminants all have Euler value -1. Hence cell 0 has no deployed-field common packet.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+      "order": 3378
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+      "order": 3379
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3380
+    }
+  ],
+  "refutes": []
+}

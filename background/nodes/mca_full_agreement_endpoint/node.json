@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 911,
+  "node": {
+    "id": "mca_full_agreement_endpoint",
+    "title": "Exact support-wise MCA numerator at full agreement",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every proper linear code over F_q, the finite-slope support-wise numerator at full agreement is exactly B_mca(n)=1. The same one-slope construction gives B_mca(a)>=1 at every agreement. Hence q<2^128 has grand threshold zero, while q>=2^128 has a safe full-agreement endpoint. Combined with the rate-half pole floor, k+8,594,128,896<=a_RH(q)<=n.",
+    "refs": [
+      "background/nodes/mca_full_agreement_endpoint/statement.md",
+      "background/nodes/mca_full_agreement_endpoint/proof.md",
+      "background/nodes/mca_full_agreement_endpoint/claim_contract.md",
+      "background/nodes/mca_full_agreement_endpoint/dependency_subdag.md",
+      "background/nodes/mca_full_agreement_endpoint/verify.py",
+      "background/nodes/mca_full_agreement_endpoint/audit.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1683
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1558,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8_positive_complete_product_exclusion",
+    "title": "KoalaBear m2 r4 coordinate negative two-loop 442 H8-positive complete-product exclusion",
+    "status": "PROVED",
+    "closure": "both positive-sign H8 rows deleted by intrinsic elimination and loop-exchange transport",
+    "statement": "The H8-L tau-plus row descends to one quartic algebra in b. Exact factor norms, six deployed-field unit ideals, and an independent alternate resultant chain delete all six invariant-product cells. The positive loop exchange b'=1/b,c'=c/b transports this deletion to H8-M while preserving every product and forced type up to common scaling. Thus the 442 frontier is exactly two H6 rows, 12 cells, and cap 156.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8_positive_complete_product_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8_positive_complete_product_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8_positive_complete_product_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8_positive_complete_product_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8_positive_complete_product_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8_positive_complete_product_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8_positive_complete_product_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8_positive_complete_product_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8_positive_complete_product_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8_positive_complete_product_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8_positive_complete_product_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier",
+      "order": 3614
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler",
+      "order": 3615
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router",
+      "order": 3616
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion",
+      "order": 3617
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8m_minus_transport_exclusion",
+      "order": 3618
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3619
+    }
+  ],
+  "refutes": []
+}

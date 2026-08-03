@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1112,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition",
+    "title": "Budget-three deleted-pair torsion cyclotomic-norm decomposition",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every dyadic M, the squared Jacobi/Chebyshev torsion resultants are exact cyclotomic norms: the T_(2M) branch is one Phi_(8M) norm and the U_(2M-1) branch is the product of the dyadic norm tower Phi_4 through Phi_(4M). The plus branch is equivalently (2M)^M times the product of resultants against T_1,T_2,...,T_M; over Q(sqrt(2)) the minus branch is the product of two conjugate resultants against sqrt(2)T_M+/-1. Odd-prime norm valuations are twice the resultant valuations. At official M=2^35 neither modular torsion factor need exceed degree M, without asserting modular nonvanishing.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition/verify.py",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_even_jacobi_norm_router",
+      "order": 2058
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2059
+    }
+  ],
+  "refutes": []
+}

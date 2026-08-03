@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 496,
+  "node": {
+    "id": "official_row_primes_pinning",
+    "title": "Official-row quantifier pinning: no hidden finite prime list",
+    "status": "PROVED",
+    "statement": "The grand challenges quantify over every admissible choice of F, L, and k, subject to the printed bounds and sufficiently-large-field proviso; they do not specify a hidden finite list of official row primes. A prize-facing certificate must therefore be family-uniform, or else be explicitly scoped only to its named exhibit field. A stand-in or named exhibit does not certify the universal family without a proved transport theorem.",
+    "refs": [
+      "experimental/notes/roadmaps/c1a_lowh_mitm_certificates.md"
+    ],
+    "notes": "PROVED on replay (Codex citation/reframe packet, verifier PASS): the challenge quantifies over admissible F with a sufficiently-large-field proviso \u2014 no literal prime list exists to pin; obligations are family-uniform or exhibit-specific."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "integer_code_distance_cert",
+      "order": 735
+    },
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 940
+    }
+  ],
+  "refutes": []
+}

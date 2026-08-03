@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 599,
+  "node": {
+    "id": "ef_galois_stabilizer_descent",
+    "title": "EF Galois-stabilizer descent",
+    "status": "PROVED",
+    "statement": "For the B-defined extension-fiber alignment incidence over an admissible row B<=E, every horizontal irreducible component is classified by its stabilizer under Gal(E/B): full stabilizer gives base descent; a proper nontrivial stabilizer gives an intermediate-subfield pullback/tower component; only trivial stabilizer/full Galois orbit remains as the genuinely full-field case.",
+    "attack_surface": "standard Galois descent for irreducible components of a B-defined projective incidence",
+    "falsifier": "a component with nontrivial stabilizer that is neither descended to the fixed field nor part of the corresponding tower case"
+  },
+  "requires": [
+    {
+      "from": "f1_minimal_field_descent",
+      "order": 903
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

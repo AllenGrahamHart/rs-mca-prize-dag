@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 979,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_trace_nonvanishing",
+    "title": "A=1 core-one exceptional-trace nonvanishing",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On every official D_*=1 active core, the exceptional K trace is nonzero. A zero exceptional trace would force every domain trace active, Q(gamma_0;X) squarefree of degree r-1, and Q(gamma_0;X)A_a(gamma_0;X)=G_X. This requires X-degree D_0-r+1 in A_a, while X_0=1 and the original complement permit only D_0-r. Hence the zero-exceptional third system (ETA4) is empty, leaving only the D_*=0 and active-exceptional D_*=1 systems.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_trace_nonvanishing/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_trace_nonvanishing/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_trace_nonvanishing/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_trace_nonvanishing/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_trace_nonvanishing/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_trace_nonvanishing/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_trace_nonvanishing/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_trace_nonvanishing/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_trace_allocation",
+      "order": 1803
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1804
+    }
+  ],
+  "refutes": []
+}

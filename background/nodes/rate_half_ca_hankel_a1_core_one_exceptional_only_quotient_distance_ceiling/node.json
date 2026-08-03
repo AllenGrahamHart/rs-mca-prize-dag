@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1192,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling",
+    "title": "Rate-half exceptional-only quotient-distance ceiling",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official A=1 core-one exceptional-only face, every ordinary clean locator represents the first-order quotient class outside the exceptional roots. Exact saturation gives 2e(e-1) exceptional-root incidences across the 4e ordinary locators, so averaging forces h<=3(e+1)/2=412316860416. Combined with the lower gap, the quotient distance is three or lies in the interval 183251937965<=h<=412316860416.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap",
+      "order": 2452
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation",
+      "order": 2453
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2454
+    }
+  ],
+  "refutes": []
+}

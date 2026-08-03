@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1332,
+  "node": {
+    "id": "rate_half_kb_v4_tangent_source_atom",
+    "title": "KoalaBear v4 tangent-source atom",
+    "status": "PROVED",
+    "closure": "exact sparsification plus finite-image counting",
+    "statement": "For the deployed KoalaBear MCA candidate over F_(2130706433^6), n=2097152 and a=1116048, choose one canonical common explanation and translate once. The exact sparse reduction gives a discrepancy support of size at most n-a=981104 without changing the complete MCA-bad slope set. Its source-coordinate ratio image, and therefore the first paid bad-slope cell, has cardinality at most 981104. The frozen first-match chronology partitions all bad slopes into U_paid, U_Q, U_BC, and U_new; only U_paid is banked. The exact remaining row budget is 274980728110413983. No unpaid cell, row close, predecessor, or legacy M1 ledger is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_v4_tangent_source_atom/statement.md",
+      "background/nodes/rate_half_kb_v4_tangent_source_atom/proof.md",
+      "background/nodes/rate_half_kb_v4_tangent_source_atom/claim_contract.md",
+      "background/nodes/rate_half_kb_v4_tangent_source_atom/dependency_subdag.md",
+      "background/nodes/rate_half_kb_v4_tangent_source_atom/audit.md",
+      "background/nodes/rate_half_kb_v4_tangent_source_atom/result.md",
+      "background/nodes/rate_half_kb_v4_tangent_source_atom/partition_contract.json",
+      "background/nodes/rate_half_kb_v4_tangent_source_atom/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_mca_sparse_layer_reduction",
+      "order": 2981
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2982
+    }
+  ],
+  "refutes": []
+}

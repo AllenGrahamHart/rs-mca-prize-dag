@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 992,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_pure_quartic_degree_rigidity",
+    "title": "Budget-three antipodal pure quartic has exact degree drop one",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In the centered antipodal quotient pencil, if the outer parameter quartic has e_2=e_3=0, the second-derivative Wronskian proves deg V=r-1 and factors exactly as Y^(d-2)U^2V^2 times a nonzero linear polynomial. Both U,V are squarefree, and at most one root of UV lies in the deleted divisor or at zero. On the maximal official row deg V=2^37-2.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_quartic_degree_rigidity/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_quartic_degree_rigidity/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_quartic_degree_rigidity/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_quartic_degree_rigidity/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_quartic_degree_rigidity/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_quartic_degree_rigidity/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_quartic_degree_rigidity/verify.py",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_quartic_degree_rigidity/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_pencil_degree_floor",
+      "order": 1872
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1873
+    }
+  ],
+  "refutes": []
+}

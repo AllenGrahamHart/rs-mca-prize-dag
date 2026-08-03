@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 297,
+  "node": {
+    "id": "paper_a_noslack",
+    "title": "Paper A: explicit no-slack obstructions (unslacked MCA refuted)",
+    "status": "PROVED",
+    "refs": [
+      "tex/RS_disproof_v3.tex"
+    ],
+    "notes": "the founding negative result \u2014 why every positive statement carries a reserve"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "cap_theorem",
+      "order": 155
+    }
+  ],
+  "refutes": [
+    {
+      "to": "route_noslack",
+      "order": 151
+    }
+  ]
+}

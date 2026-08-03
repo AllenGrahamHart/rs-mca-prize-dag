@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1241,
+  "node": {
+    "id": "f3_h3_quotient_algebra_fitting_support_compiler",
+    "title": "H3 quotient-algebra Fitting support compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For dyadic n and every cutoff 2<=c<n-1, the monic nonidentity quotient polynomial over Z[1/2] defines a finite free quotient algebra. Quotienting it by the first c+1 Hasse derivatives of the global product polynomial gives a finite module whose odd order is divisible by an official row prime p exactly when X_c>0; adjoining the quotient derivative gives a divisor module whose order is divisible by p exactly when Y_c>0. Their mod-p dimensions are the exact min-depth sums sum_t min(R(t),(P(t)-c)_+) and sum_t min((R(t)-1)_+,(P(t)-c)_+), so the orders also have the corresponding valuation lower bounds. The smaller scalar annihilators, equivalently the largest Smith invariants or scalar elimination generators, have the same exact prime support and divide the full orders. This is an exact support compiler, not a weighted-moment valuation or an efficient official-scale Smith algorithm.",
+    "refs": [
+      "background/nodes/f3_h3_quotient_algebra_fitting_support_compiler/statement.md",
+      "background/nodes/f3_h3_quotient_algebra_fitting_support_compiler/proof.md",
+      "background/nodes/f3_h3_quotient_algebra_fitting_support_compiler/claim_contract.md",
+      "background/nodes/f3_h3_quotient_algebra_fitting_support_compiler/dependency_subdag.md",
+      "background/nodes/f3_h3_quotient_algebra_fitting_support_compiler/audit.md",
+      "background/nodes/f3_h3_quotient_algebra_fitting_support_compiler/result.md",
+      "background/nodes/f3_h3_quotient_algebra_fitting_support_compiler/verify.py",
+      "background/nodes/f3_h3_quotient_algebra_fitting_support_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_global_resultant_compression",
+      "order": 2583
+    },
+    {
+      "from": "f3_h3_cutoff_layered_gcd_compiler",
+      "order": 2584
+    },
+    {
+      "from": "f3_h3_shifted_product_sidon",
+      "order": 2585
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 2586
+    }
+  ],
+  "refutes": []
+}

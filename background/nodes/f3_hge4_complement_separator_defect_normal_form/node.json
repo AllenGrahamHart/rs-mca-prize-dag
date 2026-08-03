@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1249,
+  "node": {
+    "id": "f3_hge4_complement_separator_defect_normal_form",
+    "title": "HGE4 complement-separator defect normal form",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every retained non-full exact-level pair, the separator cofactors A=(H-1)/P and B=(H+1)/Q have difference G=B-A of exact degree e=m-3h, leading coefficient -d^2h/m, and satisfy m(P+Q-PQG)=d^2XP'R. Thus the closest dyadic third-line widths reduce to linear or quadratic defect systems; the systems are not counted here.",
+    "refs": [
+      "background/nodes/f3_hge4_complement_separator_defect_normal_form/statement.md",
+      "background/nodes/f3_hge4_complement_separator_defect_normal_form/proof.md",
+      "background/nodes/f3_hge4_complement_separator_defect_normal_form/claim_contract.md",
+      "background/nodes/f3_hge4_complement_separator_defect_normal_form/dependency_subdag.md",
+      "background/nodes/f3_hge4_complement_separator_defect_normal_form/audit.md",
+      "background/nodes/f3_hge4_complement_separator_defect_normal_form/result.md",
+      "background/nodes/f3_hge4_complement_separator_defect_normal_form/verify.py",
+      "background/nodes/f3_hge4_complement_separator_defect_normal_form/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_nonfull_complement_third_gate",
+      "order": 2602
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2603
+    }
+  ],
+  "refutes": []
+}

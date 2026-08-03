@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 207,
+  "node": {
+    "id": "pinned_row",
+    "title": "F_17^32 row pinned at 506/507",
+    "status": "PROVED",
+    "key": true,
+    "refs": [
+      "wp_detail/wp1_1_wp1_2_submission_and_lean.md#1"
+    ],
+    "statement": "The F_17^32 finite row (n=512, k=256) is PINNED: LD_sw(C,506) = 7 (unsafe) and LD_sw(C,507) = 6 (safe), with 6*2^128 < 17^32 < 7*2^128 -- a full adjacent determination on one row (upstream towards-prize.md section 2.1; our smoke_packet replays it). A clean partial-submission result; not the full prize."
+  },
+  "requires": [
+    {
+      "from": "envelope",
+      "order": 41
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "adjacency_closing",
+      "order": 622
+    },
+    {
+      "to": "crossing_localization",
+      "order": 630
+    }
+  ],
+  "refutes": []
+}

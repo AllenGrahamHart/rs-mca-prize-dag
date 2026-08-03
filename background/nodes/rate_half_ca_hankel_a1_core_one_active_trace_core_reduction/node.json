@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 977,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_active_trace_core_reduction",
+    "title": "A=1 core-one active-trace core reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official A=1 core-one maximal-degree sharp cap, cancel all bad-domain factors with zero K trace from A,B,K and allocate any zero exceptional trace, obtaining the exact active-core system QV_a+P_XW_a=P_clZ_BE_a, QA_a+P_clZ_BB_a=P_XX_1, W_aB_a-X_1E_a=QK_a. Every factor of X_1 and, when present, E_a is active. Capacity proves that every bad-domain trace is active except in two b=0,D_*=1 boundary profiles: c=1 with exceptional-only activity, or c=2 with one active domain row of deficit one.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_trace_core_reduction/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_trace_core_reduction/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_trace_core_reduction/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_trace_core_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_trace_core_reduction/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_trace_core_reduction/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_trace_core_reduction/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_trace_core_reduction/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_trace_free_exclusion",
+      "order": 1799
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1800
+    }
+  ],
+  "refutes": []
+}

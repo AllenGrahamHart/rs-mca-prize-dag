@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1091,
+  "node": {
+    "id": "l1_marked_constant_shift_extremal_kernel_normal_form",
+    "title": "L1 marked constant-shift extremal kernel normal form",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the upper survivor endpoint T=2m in marked degree strip m, exact saturation forces the 2m by 2(m+1) constant-shift coefficient matrix to have rank exactly 2m. Every kernel basis is a pair of degree-at-most-m polynomial columns with determinant kappa product_i(Z-a_i), and the enlarged numerator/denominator have a unique two-generator reconstruction whose coefficient gcd divides the mark locator J. The adjugate recovers both coefficients after multiplication by the complete quotient locator. Explicit saturated full-petal examples F=1+lambda X^cV(P), W=U(P) exist in every strip, so the 2m+1 exclusion threshold is sharp and the endpoint must be priced rather than excluded.",
+    "refs": [
+      "background/nodes/l1_marked_constant_shift_extremal_kernel_normal_form/statement.md",
+      "background/nodes/l1_marked_constant_shift_extremal_kernel_normal_form/proof.md",
+      "background/nodes/l1_marked_constant_shift_extremal_kernel_normal_form/claim_contract.md",
+      "background/nodes/l1_marked_constant_shift_extremal_kernel_normal_form/dependency_subdag.md",
+      "background/nodes/l1_marked_constant_shift_extremal_kernel_normal_form/audit.md",
+      "background/nodes/l1_marked_constant_shift_extremal_kernel_normal_form/verify.py",
+      "background/nodes/l1_marked_constant_shift_extremal_kernel_normal_form/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_marked_constant_shift_multistrip_exclusion",
+      "order": 2181
+    },
+    {
+      "from": "pma_saturated_mixed_support_kernel",
+      "order": 2182
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2183
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2184
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2185
+    }
+  ],
+  "refutes": []
+}

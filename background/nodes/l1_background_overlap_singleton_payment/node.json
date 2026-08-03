@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1082,
+  "node": {
+    "id": "l1_background_overlap_singleton_payment",
+    "title": "L1 background-overlap singleton payment",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Fix one source chart, defect degree d, and exact petal support of size h. Put N=k-1, a=N-d, s=h-d, and g=ell-b. Every compatible word has at least ell-s background agreements, so two words share at least ell-2s+g background points. Their degree-at-most-N difference already vanishes on the h petal points; hence the cell is a singleton whenever a+s<ell+g. At fixed petal polarity this whole region is polynomial per chart. Combining the strict complement with the sub-Johnson condition gives the exact survivor strip a^2/N<=c=N-h=a-s<=2a-ell-g. An exact F_17 ell=2 chart has two contributors at equality a+s=ell+g=3, so strictness is load-bearing.",
+    "refs": [
+      "background/nodes/l1_background_overlap_singleton_payment/statement.md",
+      "background/nodes/l1_background_overlap_singleton_payment/proof.md",
+      "background/nodes/l1_background_overlap_singleton_payment/claim_contract.md",
+      "background/nodes/l1_background_overlap_singleton_payment/dependency_subdag.md",
+      "background/nodes/l1_background_overlap_singleton_payment/audit.md",
+      "background/nodes/l1_background_overlap_singleton_payment/verify.py",
+      "background/nodes/l1_background_overlap_singleton_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_fixed_support_codeword_quotient_bound",
+      "order": 2128
+    },
+    {
+      "from": "l1_bounded_retained_core_payment",
+      "order": 2129
+    },
+    {
+      "from": "pma_petal_pattern_root_pinning_ledger",
+      "order": 2130
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2131
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2132
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2133
+    }
+  ],
+  "refutes": []
+}

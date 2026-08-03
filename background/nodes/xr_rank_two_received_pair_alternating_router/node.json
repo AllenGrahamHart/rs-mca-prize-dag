@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1305,
+  "node": {
+    "id": "xr_rank_two_received_pair_alternating_router",
+    "title": "XR rank-two received-pair interactions are alternating or zero",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_rank_two_received_pair_alternating_router/statement.md",
+      "background/nodes/xr_rank_two_received_pair_alternating_router/proof.md",
+      "background/nodes/xr_rank_two_received_pair_alternating_router/claim_contract.md",
+      "background/nodes/xr_rank_two_received_pair_alternating_router/dependency_subdag.md",
+      "background/nodes/xr_rank_two_received_pair_alternating_router/verify.py",
+      "background/nodes/xr_rank_two_received_pair_alternating_router/verify_audit.py",
+      "background/nodes/xr_rank_two_received_pair_alternating_router/audit.md",
+      "background/nodes/xr_rank_two_received_pair_alternating_router/result.md"
+    ],
+    "statement": "Actual selected-block agreement forces each rank-two coefficient column to annihilate the interaction vector of its polynomial row-space basis with the received directions b,q. In the three-anchor slope-linear basis, the 2x2 interaction matrix is ((0,eta),(-eta,0)); in the four-anchor branch all four interactions vanish. These conditions exactly recover the selected trade-row parity equations, but not the other h-1 block checks. Compatible support-extension counting, first-core ownership, and aggregate payment remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_higher_rank_uniform_split_pencil_reduction",
+      "order": 2772
+    },
+    {
+      "from": "xr_rank_two_three_anchor_grs3_factorization",
+      "order": 2773
+    },
+    {
+      "from": "xr_rank_two_four_anchor_quadric_centroid_atlas",
+      "order": 2774
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 2775
+    }
+  ],
+  "refutes": []
+}

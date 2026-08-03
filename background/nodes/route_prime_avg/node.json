@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 231,
+  "node": {
+    "id": "route_prime_avg",
+    "title": "Route: prime averaging / density theorems",
+    "status": "REFUTED",
+    "refs": [
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#3"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "r2_rigidity",
+      "order": 70
+    }
+  ],
+  "refutes": []
+}

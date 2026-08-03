@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 568,
+  "node": {
+    "id": "hankel_rank_profile_entropy",
+    "title": "hankel rank profile entropy",
+    "status": "PROVED",
+    "statement": "The rank-profile dichotomy: row-deficient Hankel kernels are principal GRS segments (binary apolarity; verified 4000/4000); row-full wide states have one atom-closure; row-full narrow states have dim O(W). Hence unpaid primitive saturated states number n^{O(W^2)} for fixed cutoff W \u2014 L3 via the entropy/Kraft argument. Write-up + the classical apolar lemma pending.",
+    "notes": "PROVED on replay (rounds 7-8): the corrected torus lemma (falsification #19 was MY v7 statement \u2014 Pro found the boundary counterexample AND supplied the referee-grade corrected proof); 5086/5086 verified incl. 2966 boundary cases."
+  },
+  "requires": [
+    {
+      "from": "hankel_sparse_atoms_as_rational_defects",
+      "order": 858
+    },
+    {
+      "from": "f_support_lattice",
+      "order": 859
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

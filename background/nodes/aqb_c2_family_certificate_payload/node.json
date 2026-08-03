@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 577,
+  "node": {
+    "id": "aqb_c2_family_certificate_payload",
+    "title": "AQB c=2 averaged-family certificate payload",
+    "status": "REFUTED",
+    "statement": "Provide a concrete certificate for the averaged c=2 quotient-box family at sigma*=8,592,912,738: finite member parametrization, shared quotient/fiber data, reusable box-charge data, and transfer maps to the list witnesses consumed by the AQB averaging argument. This is reduced to a proved coupled family-plus-ledger manifest soundness rule plus the remaining actual coupled manifest.",
+    "attack_surface": "assembly from coupled family-plus-ledger manifest soundness and the remaining actual coupled AQB manifest; no broad local WSL search",
+    "falsifier": "a missing certificate field, a failed quotient/fiber consistency check, or a certificate whose family decomposes into independent single-word boxes",
+    "notes": "AQB ROUTE REFUTED (Pro, verified): convex-combination obstruction \u2014 the averaging transfer needs the family AVERAGE (convex comb of single-box counts <= max box), so box-sharing saves log|F| but the \u00f7|F| normalization cancels it. Gain needs a heavy-fiber theorem (forbidden, circular). See aqb_coupled_family_entropy_manifest_payload/refutation.md."
+  },
+  "requires": [
+    {
+      "from": "aqb_coupled_family_entropy_manifest_soundness",
+      "order": 875
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "aqb_c2_average_family",
+      "order": 877
+    },
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1097
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 712,
+  "node": {
+    "id": "f3_h2_stratum_theorem",
+    "status": "PROVED",
+    "statement": "F3 h=2 STRATUM THEOREM (2026-07-07, external import + replay; nodes/u1_x4_direct_column_budget/notes/F3_SHALLOW_LADDER.md section 4): the h = 2 shallow collision census is the additive-energy collision count of mu_n, and Heath-Brown--Konyagin (Stepanov's method; hypothesis n <= q^{2/3} implied by F3's own regime q >= n^2) gives T_2 <= C n^{5/2} < n^3 with an n^{1/2} margin absorbing any effective constant. Replayed numerically through n = 512 (truth ~ n^2: toral C(n/2,2) + boundary-window Poisson accidents ~ n^2/8, dying by q ~ n^3). FIRST kernel instance closed by an external theorem \u2014 the shallow censuses are Stepanov-visible. [EXTERNAL-IMPORT: HBK-class additive energy of multiplicative subgroups]"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "shared_census_kernel",
+      "order": 1217
+    }
+  ],
+  "refutes": []
+}

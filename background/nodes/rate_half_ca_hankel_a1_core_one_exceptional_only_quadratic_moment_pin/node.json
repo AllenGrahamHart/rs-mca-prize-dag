@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1107,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin",
+    "title": "A=1 core-one exceptional-only quadratic-moment pin",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The first-order exceptional Hankel crossing is exactly the three shifted quadratic convolutions Theta_0=Theta_1=0 and Theta_2 nonzero. For contracted source weights these are the degree-zero, degree-one, and degree-two weighted moments of the squared exceptional locator.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality",
+      "order": 2049
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2050
+    }
+  ],
+  "refutes": []
+}

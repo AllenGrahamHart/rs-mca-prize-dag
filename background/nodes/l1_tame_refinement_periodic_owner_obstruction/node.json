@@ -1,0 +1,48 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 528,
+  "node": {
+    "id": "l1_tame_refinement_periodic_owner_obstruction",
+    "title": "L1 tame-refinement periodic-owner obstruction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On H=F_17^* with n=16, k=8, sigma=5, ell=6, the petal T={1,2,3,11,12,13} is the union of three complete fibers of the tame degree-two map P=X^2+3X. Taking core C={7,8,9,10,14,15,16}, remainder R={4,5,6}, and U zero on A=C union T and one on R, the zero codeword has exact agreement set A of size k+sigma. Yet Stab_H(A)=Stab_H(R)={1}. Thus a tame fixed-petal polynomial refinement does not force exact multiplicative periodicity or intrinsic cyclic quotient descent. The small-scale branch needs a general polynomial-pullback owner or collective aperiodic-support payment. This toy is a route fence, not an official-row L1 counterexample.",
+    "refs": [
+      "background/nodes/l1_tame_refinement_periodic_owner_obstruction/statement.md",
+      "background/nodes/l1_tame_refinement_periodic_owner_obstruction/proof.md",
+      "background/nodes/l1_tame_refinement_periodic_owner_obstruction/claim_contract.md",
+      "background/nodes/l1_tame_refinement_periodic_owner_obstruction/dependency_subdag.md",
+      "background/nodes/l1_tame_refinement_periodic_owner_obstruction/audit.md",
+      "background/nodes/l1_tame_refinement_periodic_owner_obstruction/lineage.md",
+      "background/nodes/l1_tame_refinement_periodic_owner_obstruction/result.md",
+      "background/nodes/l1_tame_refinement_periodic_owner_obstruction/verify.py",
+      "background/nodes/l1_tame_refinement_periodic_owner_obstruction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_tame_fixed_petal_refinement_census",
+      "order": 2867
+    },
+    {
+      "from": "pma_exact_periodic_owner",
+      "order": 2868
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2869
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2870
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2871
+    }
+  ],
+  "refutes": []
+}

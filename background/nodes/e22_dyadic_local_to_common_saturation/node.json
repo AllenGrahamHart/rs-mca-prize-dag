@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 660,
+  "node": {
+    "id": "e22_dyadic_local_to_common_saturation",
+    "title": "E22 dyadic local-to-common saturation",
+    "status": "PROVED",
+    "statement": "In a dyadic E22 domain, if a fixed tail B is removed and each local non-tail block is saturated on full fibers of some dyadic quotient map x -> x^{M_i} with M_i>t, then the union of all local non-tail blocks is saturated on full fibers of the minimum local modulus M_* = min_i M_i, and M_*>t.",
+    "attack_surface": "dyadic quotient moduli form a divisibility chain, so larger-modulus fibers refine into fibers of the minimum local modulus",
+    "falsifier": "dyadic quotient moduli M_*<M_i where a full M_i-fiber is not a union of full M_*-fibers"
+  },
+  "requires": [
+    {
+      "from": "e22_dyadic_minimal_scale_selector",
+      "order": 992
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1141
+    }
+  ],
+  "refutes": []
+}

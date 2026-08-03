@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 371,
+  "node": {
+    "id": "are_subfield_amp",
+    "title": "Subfield amplification: norms from intermediate fields shrink the height",
+    "status": "TARGET",
+    "statement": "For structured differences lying in (or near) proper subfields of Q(zeta_N'), take norms from the subfield: height (2l')^{deg/2} with smaller degree extends the per-class transfer range. Classify which collision classes admit subfield descent.",
+    "refs": [
+      "tex/slackMCA_v4.tex"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "amplification_range_ext",
+      "order": 597
+    }
+  ],
+  "refutes": []
+}

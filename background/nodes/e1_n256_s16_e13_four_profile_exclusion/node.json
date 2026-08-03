@@ -1,0 +1,64 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 119,
+  "node": {
+    "id": "e1_n256_s16_e13_four_profile_exclusion",
+    "title": "N=256 E=13 four-profile exact-prime exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e13_four_profile_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e13_four_profile_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e13_four_profile_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e13_four_profile_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e13_four_profile_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e13_four_profile_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e13_four_profile_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e13_four_profile_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e13_four_profile_exclusion/verify_audit.py",
+      "experiments/prize_resolution/e13_four_profile_census.cpp",
+      "experiments/prize_resolution/e13_four_profile_census_audit.cpp",
+      "experiments/prize_resolution/e13_four_profile_census_modal.py",
+      "experiments/prize_resolution/e13_four_profile_census_result.json",
+      "experiments/prize_resolution/e13_four_profile_census_check.py",
+      "experiments/prize_resolution/e13_four_profile_norm_modal.py",
+      "experiments/prize_resolution/e13_four_profile_norm_result.json",
+      "experiments/prize_resolution/e13_four_profile_norm_check.py",
+      "experiments/prize_resolution/e13_large_odd_candidate_modal.py",
+      "experiments/prize_resolution/e13_large_odd_candidate_result.json",
+      "experiments/prize_resolution/e13_large_odd_candidate_check.py"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), and V=26, all four routed profiles are impossible. Dual 2,203,120,896-vector censuses find 820 actual vectors; conductor removes 684. Of 136 full-conductor norms, four odd parts reach 2^250, but they comprise two composite integers below 2^251. Hence no pair-feasible row prime divides a residual norm.",
+    "notes": "ROUTE CLOSURE 2026-07-28: dual census, conductor, exact resultants, and dual exact primality classification close E13. Modal apps ap-AhqC0lLGj9BYMLmRpKa1mj, ap-cXvEeUhd1ym0Ep1InsluxC, and ap-a4p98JmkMEXvNaIRL7bXzV supply the pinned ledgers."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e13_profile_parity_light_reduction",
+      "order": 4383
+    },
+    {
+      "from": "e1_n256_proper_conductor_collision_exclusion",
+      "order": 4384
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 4385
+    },
+    {
+      "from": "e1_pair_feasible_prime_field_reduction",
+      "order": 4386
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4391
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4392
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1578,
+  "node": {
+    "id": "f3_h3_p25_quadratic_divisor_tower_compiler",
+    "title": "H3 P25 quadratic divisor-tower compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "A nonidentity P>=25 product fiber exists over a dyadic split row if and only if one monic degree-25 divisor supports two length-s repeated-squaring torsion towers with the required inverses. Writing modular reductions with quotient variables gives exactly 98s+30 variables and 98s+54 quadratic equations, at most 4,048 by 4,072 over the official band. The system is empty in characteristic zero. This is a complete bounded-degree presentation, not a solver, certificate, cost estimate, or DSP8 close.",
+    "refs": [
+      "background/nodes/f3_h3_p25_quadratic_divisor_tower_compiler/statement.md",
+      "background/nodes/f3_h3_p25_quadratic_divisor_tower_compiler/proof.md",
+      "background/nodes/f3_h3_p25_quadratic_divisor_tower_compiler/claim_contract.md",
+      "background/nodes/f3_h3_p25_quadratic_divisor_tower_compiler/dependency_subdag.md",
+      "background/nodes/f3_h3_p25_quadratic_divisor_tower_compiler/audit.md",
+      "background/nodes/f3_h3_p25_quadratic_divisor_tower_compiler/result.md",
+      "background/nodes/f3_h3_p25_quadratic_divisor_tower_compiler/verify.py",
+      "background/nodes/f3_h3_p25_quadratic_divisor_tower_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_global_resultant_compression",
+      "order": 3691
+    },
+    {
+      "from": "f3_h3_shifted_product_sidon",
+      "order": 3692
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 3693
+    }
+  ],
+  "refutes": []
+}

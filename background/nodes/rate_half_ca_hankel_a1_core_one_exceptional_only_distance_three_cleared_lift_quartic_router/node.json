@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1126,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_cleared_lift_quartic_router",
+    "title": "Rate-half distance-three cleared-lift quartic router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The calibrated kernel lifts admit one explicit common-denominator clearing F(z;X) of bidegree at most (2e,4e+6). At every active outside row, F(z;x)=(A(x)B(x))^2H_x(z). Therefore at each external slope gamma, F(gamma;X) is the exact degree-(4e+2) nonincidence locator times a unique nonzero polynomial of degree at most four. After known scalar normalization all such quartics are fibers of one biform Omega of bidegree at most (e-2,4), through FQ=(AB)^2q_eP_Z+CzI^2Omega. The e=1 exact Hankel fixture attains degree four and its cofactors are not base-field split, so the Omega-curve is not asserted to be a line.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_cleared_lift_quartic_router/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_cleared_lift_quartic_router/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_cleared_lift_quartic_router/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_cleared_lift_quartic_router/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_cleared_lift_quartic_router/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_cleared_lift_quartic_router/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_cleared_lift_quartic_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form",
+      "order": 2269
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation",
+      "order": 2270
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_calibrated_conic_kernel_lift_normal_form",
+      "order": 2271
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2272
+    }
+  ],
+  "refutes": []
+}

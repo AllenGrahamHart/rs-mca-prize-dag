@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1641,
+  "node": {
+    "id": "l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion",
+    "title": "L1 m=4, h=3, nu=0, h=0 auxiliary-fiber exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every survivor on the nonzero-b constant-eliminant branch has complement D=rad(R-R(0))/X times rad(R-(2A/3)R(0)), forcing a normalized shifted cubic to divide W^(4(p+1))-1. The sole exceptional packet on p=2147483647 leaves nonzero remainder 876663072, so it is impossible. Together with the universal-packet theorem, the endpoint is empty on all four official characteristics.",
+    "refs": [
+      "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/statement.md",
+      "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/proof.md",
+      "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/claim_contract.md",
+      "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/dependency_subdag.md",
+      "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/audit.md",
+      "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/result.md",
+      "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/lineage.md",
+      "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/upstream_crosswalk.md",
+      "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/verify.py",
+      "background/nodes/l1_m4_h3_nu0_h0_auxiliary_fiber_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_m4_h3_nu0_h0_universal_packet_exclusion",
+      "order": 3894
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3895
+    }
+  ],
+  "refutes": []
+}

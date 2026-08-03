@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 367,
+  "node": {
+    "id": "xr_e3_calculus",
+    "title": "E_3 calculus: the 3-fold exchange energy + the structured lower-bound direction",
+    "status": "PROVABLE",
+    "statement": "Define E_3(u,v) = the 3-fold iterated exchange correlation (odd-order Johnson-scheme sum; E_2 = averaged_xr). Prove the EASY direction of the inverse: folded/equivariant words and tangent pairs have E_3 large (explicit lower bounds). Consistency check: E_2 reproduces the averaged-XR variance.",
+    "refs": [
+      "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
+    ],
+    "notes": "E2 scaffold caveat (PR #184): frozen full-block quotient fibers have ZERO one-exchange energy \u2014 the inverse test MUST strip paid quotient strata first or use a multi-exchange variant, else designed-in false negative. Structured >> random baseline confirmed on the walk-energy proxy. | DELIVERED (#184 retitled 'prove XR exchange-energy calculus'): flips on integration."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

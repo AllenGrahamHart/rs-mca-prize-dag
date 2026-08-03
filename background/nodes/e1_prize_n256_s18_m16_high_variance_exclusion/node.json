@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 127,
+  "node": {
+    "id": "e1_prize_n256_s18_m16_high_variance_exclusion",
+    "title": "Prize N=256 square-mass-18 m=16 high-variance exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_prize_n256_s18_m16_high_variance_exclusion/statement.md",
+      "background/nodes/e1_prize_n256_s18_m16_high_variance_exclusion/proof.md",
+      "background/nodes/e1_prize_n256_s18_m16_high_variance_exclusion/claim_contract.md",
+      "background/nodes/e1_prize_n256_s18_m16_high_variance_exclusion/dependency_subdag.md",
+      "background/nodes/e1_prize_n256_s18_m16_high_variance_exclusion/audit.md",
+      "background/nodes/e1_prize_n256_s18_m16_high_variance_exclusion/result.md",
+      "background/nodes/e1_prize_n256_s18_m16_high_variance_exclusion/source_pin.json",
+      "background/nodes/e1_prize_n256_s18_m16_high_variance_exclusion/verify.py"
+    ],
+    "statement": "On prize-envelope N=256 rows, a profile-(4,2,0) collision with cofactor 16 cannot have V in {114,122,130,138,146,154,162,170,178}. A profile-specific autocorrelation L1 bound, six quadratic log majorants, and three exact layered-third-moment Hermite certificates leave only 10<=V<=106 with V=2 mod 8.",
+    "notes": "ANALYTIC ROUTE REDUCTION 2026-07-28: removes the high nine of 22 m=16 variance chambers without relying on the accompanying census. Lower variances, cofactors 2 and 4, and the aggregate weighted edge count remain open."
+  },
+  "requires": [
+    {
+      "from": "e1_prize_n256_s18_variance_cofactor_windows",
+      "order": 478
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 479
+    },
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 480
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 481
+    }
+  ],
+  "refutes": []
+}

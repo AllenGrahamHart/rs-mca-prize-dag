@@ -13,8 +13,9 @@ technique_dossier.md, completeness_critic.md); every number below survived
 its adversarial fact-check. Deliberately DATE-FREE: sequencing is by GATES
 (events and conditions), never by calendar. The dated snapshot is archival;
 this file is the guide of record and is refreshed at gate events, not on a
-clock. This document is not itself a proof and changes no node status;
-`dag.json` remains the single source of truth.
+clock. This document is not itself a proof and changes no node status.
+Node-local `node.json` manifests are the editable graph source;
+`dag.json` is their exact generated compatibility view.
 
 Mission: fully resolve both Proximity Prize grand challenges (grand list +
 grand MCA), or failing that, land the strongest honest partial posture the
@@ -87,7 +88,6 @@ rate_half_band_closure); #1143 export fallback (coordinator packages by
 end 2026-08-02, surfaced to the maintainer first).
 
 ---
-
 ## 1. The two theses (why the plan has this shape)
 
 **Engineered rows.** Official rows carry v_2(q-1) >= 41 (or a lane norm
@@ -664,7 +664,7 @@ identifications without a machine-verified chain.
 
 ## 4. Board anatomy
 
-- **Counts** (refreshed from `dag.json`, the single source of truth; pinned by
+- **Counts** (refreshed from the generated `dag.json` manifest view; pinned by
   `tools/verify_orbit_census.py`): critical surface 179 PROVED / 38 CONDITIONAL /
   25 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
   grand challenges {`mca_grand`, `list_grand`} = **242** nodes. *(Q0, 2026-07-26:
@@ -699,7 +699,6 @@ identifications without a machine-verified chain.
   one-third of any phase's effort; any demotion event freezes further dli
   spend for one full phase while the B-WEAK-direct re-pose is drafted from
   surviving mechanism data.
-
 ## 5. Risk register (pre-registered triggers -> consequences; all live)
 
 | Trigger | Fires when | Consequence / fallback |

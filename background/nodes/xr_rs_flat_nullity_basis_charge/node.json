@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 897,
+  "node": {
+    "id": "xr_rs_flat_nullity_basis_charge",
+    "title": "RS flat-nullity basis charge",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_rs_flat_nullity_basis_charge/statement.md",
+      "background/nodes/xr_rs_flat_nullity_basis_charge/proof.md",
+      "background/nodes/xr_rs_flat_nullity_basis_charge/verify.py",
+      "background/nodes/xr_rs_flat_nullity_basis_charge/result.md"
+    ],
+    "statement": "After factoring the global roots of a rank-a RS kernel slice, write u=k-a-|G| and v=|G|-|P_0|. Every proper rank-j flat of each nonloop zero-set matroid has size at most j+u, so ordered basis extension gives a*b_e>=m_e*C(m_e-u-1,a-1). Summing against the post-strip pencil cap and combining with the persistent-root subset-packing bound leaves only 14/8, 70/49, and 323/274 possible (u,v) pairs at RowC selector rank five for P-A/P-B, from 32131, 7875, and 1891 pairs respectively. This is a structural residual reduction, not a new rank payment."
+  },
+  "requires": [
+    {
+      "from": "xr_rs_common_root_basis_charge",
+      "order": 1565
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1566
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1567
+    }
+  ],
+  "refutes": []
+}

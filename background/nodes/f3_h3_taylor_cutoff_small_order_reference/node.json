@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1287,
+  "node": {
+    "id": "f3_h3_taylor_cutoff_small_order_reference",
+    "title": "H3 Taylor-cutoff small-order reference",
+    "status": "PROVED",
+    "closure": "finite exhaustive verification",
+    "statement": "The hard-capped dense Taylor-cutoff reference generates all 12 canonical quotient blocks at n=8, computes exact cutoff-2 and cutoff-3 Taylor contents, and agrees with independent direct enumeration at eight declared primes (16 prime-cutoff comparisons). Atomic timeout and partial-selection packets remain explicitly incomplete. This is a small-order correctness oracle and conformance target, not an n=16 or official-order resource, factorization, moment, or C36 claim.",
+    "refs": [
+      "background/nodes/f3_h3_taylor_cutoff_small_order_reference/statement.md",
+      "background/nodes/f3_h3_taylor_cutoff_small_order_reference/proof.md",
+      "background/nodes/f3_h3_taylor_cutoff_small_order_reference/claim_contract.md",
+      "background/nodes/f3_h3_taylor_cutoff_small_order_reference/dependency_subdag.md",
+      "background/nodes/f3_h3_taylor_cutoff_small_order_reference/audit.md",
+      "background/nodes/f3_h3_taylor_cutoff_small_order_reference/result.md",
+      "background/nodes/f3_h3_taylor_cutoff_small_order_reference/verify.py",
+      "background/nodes/f3_h3_taylor_cutoff_small_order_reference/verify_audit.py",
+      "tools/c36_taylor_cutoff_reference.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_global_resultant_compression",
+      "order": 2725
+    },
+    {
+      "from": "f3_h3_quotient_orbit_canonical_resultant_manifest",
+      "order": 2726
+    },
+    {
+      "from": "f3_h3_quotient_orbit_taylor_cutoff_ladder",
+      "order": 2727
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_official_order_template_survivor",
+      "order": 2728
+    }
+  ],
+  "refutes": []
+}

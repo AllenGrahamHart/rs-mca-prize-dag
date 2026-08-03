@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1032,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin",
+    "title": "A=1 core-one exceptional-only Hankel factor pin",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The degree-(r-1) exceptional fiber realizes the unique omission, so the middle-Hankel regular factor is c_H E and adj M=c_H E q q^T. Dividing by E and specializing gives a nonzero rank-one exceptional kernel outer product whose top row and column vanish because q_r=E q_bar.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_middle_adjugate_factorization",
+      "order": 1930
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent",
+      "order": 1931
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1932
+    }
+  ],
+  "refutes": []
+}

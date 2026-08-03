@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1271,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_joint_pair_torsion_selector",
+    "title": "Budget-three fiber-two c=2 coupling and torsion meet at an actual denominator pair",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In the generic canonical c=2 denominator-mismatch chamber, let R_D be the degree-six resolvent of actual denominator-pair traces, K_O the degree-three outer invariant cubic, and Q_40-2 the official-order trace equation computed modulo K_O. Then G_2=gcd(K_O,R_D mod K_O,Q_40-2) is nonconstant exactly when an actual pair {A,B} has K_O((A+B)^2/(AB))=0 and (A/B)^(2^40)=1. Its distinct zeros are exactly all such pair traces and its degree is at most three. This exact selector removes outer-only false positives but does not impose canonical span, the gap equations, or cycle closure.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_joint_pair_torsion_selector/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_joint_pair_torsion_selector/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_joint_pair_torsion_selector/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_joint_pair_torsion_selector/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_joint_pair_torsion_selector/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_joint_pair_torsion_selector/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_joint_pair_torsion_selector/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_joint_pair_torsion_selector/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_mismatch_trace_resolvent_elimination",
+      "order": 2664
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_outer_torsion_trace_gate",
+      "order": 2665
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2666
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1465,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness",
+    "title": "KoalaBear positive 433-1a cell-0 common lex basis and rational witnesses",
+    "status": "PROVED",
+    "closure": "four-polynomial projected lex basis and two explicit guard-admissible deployed-field common points",
+    "statement": "For cell 0 and signs (-1,-1), the localized full common ideal has dimension one and block-basis size seven; eliminating the guard inverse gives an exact four-polynomial lex basis beginning b^2-6b+1 and ending r+16711679t^2. The b quadratic splits over F_2130706433, and direct substitution certifies two t=2 points as zeros of all six stripped common minors with all twenty guards nonzero. This proves deployed common-stage survival only, not any outside record, route, K3, LIST, MCA, or Prize result.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_common_triangle_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_common_triangle_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+      "order": 3263
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
+      "order": 3264
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3265
+    }
+  ],
+  "refutes": []
+}

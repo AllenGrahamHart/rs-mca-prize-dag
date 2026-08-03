@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1421,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion",
+    "title": "KoalaBear m2 r4 coordinate negative zero-loop 433 complete exclusion",
+    "status": "PROVED",
+    "closure": "complete deletion of all negative zero-loop 433 common packets and product families",
+    "statement": "The four residual product-complete lanes 12/Z2, 12/Z3, 13/Z2, and 14/Z2 are empty. Every isolated guarded Smith assignment fails an outside squared-sum row, while 384 exact family/common-record ideals become the unit ideal after at most three outside rows. Hence no complete negative zero-loop 433 packet exists over the deployed field.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/check.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/verify_cell12_z2.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/verify_cell12_z3.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/verify_cell13.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/verify_cell14.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_zero_loop_433_complete_vieta_probe.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router",
+      "order": 3115
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3116
+    }
+  ],
+  "refutes": []
+}

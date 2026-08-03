@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1072,
+  "node": {
+    "id": "l1_polarized_petal_entropy_ledger",
+    "title": "L1 polarized sparse/full petal-entropy root-pinning ledger",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For exact petal support sizes a_i, put p=sum_i min(a_i,ell-a_i) and e=max(0,2d+1-sum_i a_i). The aggregate class p+e<=E has size at most 2^M binom(M+E,E)n^(E+1), hence is polynomial at the L1 lower cutoff for every fixed E. This strictly strengthens the old u+e ledger: a singleton petal costs 1 rather than ell-1, while full and untouched petals cost zero but retain a 2^M orientation factor.",
+    "refs": [
+      "background/nodes/l1_polarized_petal_entropy_ledger/statement.md",
+      "background/nodes/l1_polarized_petal_entropy_ledger/proof.md",
+      "background/nodes/l1_polarized_petal_entropy_ledger/claim_contract.md",
+      "background/nodes/l1_polarized_petal_entropy_ledger/dependency_subdag.md",
+      "background/nodes/l1_polarized_petal_entropy_ledger/audit.md",
+      "background/nodes/l1_polarized_petal_entropy_ledger/verify.py",
+      "background/nodes/l1_polarized_petal_entropy_ledger/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_petal_pattern_root_pinning_ledger",
+      "order": 2071
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2073
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2074
+    }
+  ],
+  "refutes": []
+}

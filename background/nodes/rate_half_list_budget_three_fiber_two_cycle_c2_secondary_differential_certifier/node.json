@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1277,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_secondary_differential_certifier",
+    "title": "Budget-three fiber-two c=2 secondary gap has an equivalent differential certifier",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "After the generic primary double gap, write B=sum_(n=0)^(2H-3) a_nz^n, b=a_(2H-3), c=a_(2H), and kappa=E_4b/c. The primary residual is exactly E'B+4EB'=-8Hc z^(2H-1)+8(H-1)E_4b z^(2H). In official characteristic, the secondary square LT=cC^2 mod z^H is equivalent to z^H dividing zE'C^2+4HEC^2+4zECC'-(4H-4(H-1)kappa z)B for one C(0)=1 of degree at most H-3. This removes the high coefficient window but does not force parity or impose torsion.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_secondary_differential_certifier/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_secondary_differential_certifier/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_secondary_differential_certifier/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_secondary_differential_certifier/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_secondary_differential_certifier/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_secondary_differential_certifier/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_secondary_differential_certifier/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_secondary_differential_certifier/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_two_window_square_reduction",
+      "order": 2685
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2686
+    }
+  ],
+  "refutes": []
+}

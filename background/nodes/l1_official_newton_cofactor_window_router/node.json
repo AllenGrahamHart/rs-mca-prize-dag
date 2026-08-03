@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1611,
+  "node": {
+    "id": "l1_official_newton_cofactor_window_router",
+    "title": "L1 official Newton cofactor-window router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let the generated field be F_(p^f), with n=2^m>=2^13, n|p^f-1, p^f<2^256, and official rate. Exact order arithmetic forces p>=3583: the cap first gives p>=257 and ord_8192(p)<=16, hence p=+-1 mod 512; every such integer below 3583 has an explicit factor. The canonical reserve bound then gives ell_0<=ceil(5(p+1)/(4 log_2 p))+1<=p-3174. For a normalized received polynomial of degree h and canonical threshold a_0=k+ell_0-1, if e_0=h-a_0<=p-ell_0, every exact shell a>=a_0 has fixed-cofactor locator-prefix depth d=min(a,h-k)<p. Newton identities therefore give a bijective coordinate change from that locator prefix to the first d power sums. This covers at least excess layers 0<=e_0<=3174, and all received words when p>=n-k. It supplies a typed power-sum Q cell, not prefix flatness or Pade-graph coalescing.",
+    "refs": [
+      "background/nodes/l1_official_newton_cofactor_window_router/statement.md",
+      "background/nodes/l1_official_newton_cofactor_window_router/proof.md",
+      "background/nodes/l1_official_newton_cofactor_window_router/claim_contract.md",
+      "background/nodes/l1_official_newton_cofactor_window_router/dependency_subdag.md",
+      "background/nodes/l1_official_newton_cofactor_window_router/audit.md",
+      "background/nodes/l1_official_newton_cofactor_window_router/lineage.md",
+      "background/nodes/l1_official_newton_cofactor_window_router/result.md",
+      "background/nodes/l1_official_newton_cofactor_window_router/upstream_crosswalk.md",
+      "background/nodes/l1_official_newton_cofactor_window_router/verify.py",
+      "background/nodes/l1_official_newton_cofactor_window_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_official_reserve_tame_refinement_router",
+      "order": 3814
+    },
+    {
+      "from": "l1_exact_shell_fixed_cofactor_prefix_transport",
+      "order": 3815
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3816
+    }
+  ],
+  "refutes": []
+}

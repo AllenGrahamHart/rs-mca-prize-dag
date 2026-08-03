@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 179,
+  "node": {
+    "id": "e1_profile018_qzeta128_class_descent_two_ideal_bound",
+    "title": "Profile-(0,18) class-descent two-ideal bound",
+    "status": "PROVED",
+    "closure": "proved class-orbit certificate and relative ideal norm",
+    "refs": [
+      "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/statement.md",
+      "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/proof.md",
+      "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/claim_contract.md",
+      "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/dependency_subdag.md",
+      "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/audit.md",
+      "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/result.md",
+      "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/frontier.md",
+      "background/nodes/e1_profile018_qzeta128_class_descent_two_ideal_bound/verify.py"
+    ],
+    "statement": "A fixed row-prime fiber in Q(zeta_256) contains at most two occupied cofactor-514 ideals.",
+    "notes": "CLASS-DESCENT CLOSE 2026-07-29: all occupied upper primes share one class; relative ideal norm sends them to one lower class; proved class separation fixes one lower prime, which has exactly two upper extensions."
+  },
+  "requires": [
+    {
+      "from": "e1_qzeta128_p257_class_orbit_certificate",
+      "order": 4626
+    },
+    {
+      "from": "e1_profile018_galois_norm_occupancy_dictionary",
+      "order": 4627
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

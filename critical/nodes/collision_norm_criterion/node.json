@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 353,
+  "node": {
+    "id": "collision_norm_criterion",
+    "title": "Non-quotient e1-collisions mod p <=> p divides an explicit bounded nonzero norm",
+    "status": "PROVED",
+    "statement": "For B != B' non-quotient-related: e1(B) = e1(B') mod frak-p iff frak-p | (e1(B)-e1(B')) in Z[zeta_N'], a NONZERO (by thm:upstairs) cyclotomic integer with all archimedean conjugates <= 2l'. Hence zone-(b) = counting prime divisors of an explicit bounded-height difference family.",
+    "refs": [
+      "tex/slackMCA_v4.tex"
+    ],
+    "notes": "the mechanism inside prop:qfloor's norm threshold, isolated as a reusable statement; makes zone-(b) concrete algebraic number theory | IN FLIGHT: implemented on the E1 branch (#180: 'Add E1 collision norm criterion'). | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
+  },
+  "requires": [
+    {
+      "from": "char0_collision_classification",
+      "order": 561
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "amplification_range_ext",
+      "order": 562
+    },
+    {
+      "to": "e1_random_prime_model",
+      "order": 610
+    },
+    {
+      "to": "kernel_lattice_reframing",
+      "order": 732
+    }
+  ],
+  "refutes": []
+}

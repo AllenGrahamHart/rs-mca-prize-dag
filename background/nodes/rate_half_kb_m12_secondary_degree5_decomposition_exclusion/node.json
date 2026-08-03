@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1344,
+  "node": {
+    "id": "rate_half_kb_m12_secondary_degree5_decomposition_exclusion",
+    "title": "KoalaBear m12 secondary degree-five decomposition exclusion",
+    "status": "PROVED",
+    "closure": "trivial-centralizer Cartesian block system plus deployed degree-five exclusion",
+    "statement": "The full diagonal simple socle on the five degree-12 blocks has trivial permutation centralizer, so every monodromy normalizer acts by one common 12-point permutation across the blocks. It preserves twelve secondary blocks of size five, forcing an inner-degree-five decomposition of the endpoint map. The proved deployed-field degree-five exclusion rules this out. Hence the complete m12 branch is empty and the live decomposition degrees are 2,3,4,6,10. No other degree, owner, charge, u2, cap 68, or row close is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/result.md",
+      "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m12_secondary_degree5_decomposition_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m12_diagonal_socle_route_cut",
+      "order": 2999
+    },
+    {
+      "from": "rate_half_kb_degree5_decomposition_exclusion",
+      "order": 3000
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3001
+    }
+  ],
+  "refutes": []
+}

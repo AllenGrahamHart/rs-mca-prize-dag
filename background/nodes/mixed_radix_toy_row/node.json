@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 382,
+  "node": {
+    "id": "mixed_radix_toy_row",
+    "title": "E8: the n=48 mixed-radix toy row (F_97) \u2014 rerun the base machinery off the 2-power chain",
+    "status": "TARGET",
+    "key": true,
+    "statement": "F_97 supports n = 48 = 2^4*3: rerun FM exact means, periodic strata counts C(n/M, j/M) over the FULL divisor lattice (incl. incomparable M = 2^a*3^b), first-match dedup totality/disjointness, and coset-move dynamics. Every 2-power-verified invariant either reproduces or the breakage is named.",
+    "refs": [
+      "experimental/notes/roadmaps/evidence_plan_codex.md"
+    ],
+    "closure": "computation",
+    "notes": "TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "mixed_radix_frontier",
+      "order": 617
+    }
+  ],
+  "refutes": []
+}

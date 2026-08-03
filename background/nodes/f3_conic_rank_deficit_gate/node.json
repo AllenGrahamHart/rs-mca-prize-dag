@@ -1,0 +1,13 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 722,
+  "node": {
+    "id": "f3_conic_rank_deficit_gate",
+    "status": "TARGET",
+    "statement": "F3 GATE (posed 2026-07-09): CONIC RANK DEFICIT \u2014 on official exact-profile boxes (retuned H3-ACT(4096) floor), the repaired same-fiber conic-chart image has substitution rank >= (L+1) - Delta with Delta <= 2899; via the kernel-bundle reduction it suffices to prove splitting excess sum_i max(e_i - A, 0) <= 2899 (balanced splitting would be stronger; official balanced-slope margin >= 2951). Calibration: actual-chart pilots at H = 20/24/32 have deficits 27/1/0; full-rank witness exists in the actual family. Falsifier shape: an official-box chart family with sustained splitting excess > 2899. PRE-REGISTERED FALSIFIER (filled 2026-07-10, catch #39 \u2014 the gate previously had falsifier shape in prose only): an official-row conic chart (any s in 13..41, any p = 1 mod n with p >= n^2 \u2014 FULL corridor, finding F-1) whose certified rank deficit exceeds the gate's stated cap, exact-arithmetic replayable."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

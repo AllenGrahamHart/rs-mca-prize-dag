@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 837,
+  "node": {
+    "id": "dli_marginal_baseline100_coverage",
+    "title": "DLI marginal baseline assembly: C1' plus WCL-ZONE gives product of level means at most 2^100",
+    "status": "CONDITIONAL",
+    "statement": "For every official prize row R, assume C1' at all 34 production levels and W_cl(R,L)<=1/32 at all those levels. The schedule N_L=256L and q<2^256 give r_L<1, hence E_L<=1+4(1+1/32)=41/8. Therefore A(R)=product_(L=1)^34 E_L <= (41/8)^34 < 2^100. The last comparison is the exact integer inequality 41^34<2^202. No C2'' reserve, endpoint certificate, reserve credit, typical-prime assumption, or floating-point comparison is used. || INTERFACE CAVEAT (#198/wz2-C1, 2026-07-13): the assembly E_L <= 1 + 4r(1+W_cl) <= 41/8 consumes W_cl from BOTH C1' and WCL-ZONE under one symbol; F-round 2 showed the deduplicated ledger and the C1' allowance ledger CANNOT be the same object (K'_dedup = 6.5019 > 4 at the banked accident row under the canonical dedup). The two-ledger split is a maintainer decision (RATIFY-1..8 + decision 4); this node's conditional assembly is BLOCKED AS WRITTEN until the symbols are separated. || SCHEDULE r2 + LEDGER RESOLUTION (2026-07-13, w7, maintainer-ratified): dimensions ell_j=(2^32,...,2,1,1) (not 1..34; the proof uses only the 34-factor count and r_j=q^{ell_j}/2^{256 ell_j}<1); under the maintainer's decision-4 ruling both premises read the RAW ledger W_raw and the #198 caveat is RESOLVED: the dedup ledger was never C1''s object (w7-C2; the banked raw K'=0.246909432 stands), so the two-symbol collision disappears -- the assembly is re-armed as written with W_cl := W_raw. || ROUTE BROKEN -> TARGET (2026-07-13): C1' (dli_dyadic_k_core) is REFUTED as posed (F-round 2 kill, K'=6.199 at q=63361), so the posed proof route [C1' + WCL-ZONE => baseline] does NOT hold. This node reverts to an OPEN obligation (product_j E_j <= 2^100); WCL-ZONE and the refuted C1' are retained as ev/history, not as a live conditional route. Re-promotion to CONDITIONAL awaits a repaired C1' (round-3 re-pose, uncertain: the true per-level constant exceeds 4, and whether the 34-factor product still clears 2^100 with the calibrated constant is exactly the open question). The dli non-circular decomposition therefore does NOT currently close on the baseline arm. || ROUTE RE-ARMED (2026-07-22 display correction): the ROUTE BROKEN narrative above is historical (C1'-r2 era); since the 2026-07-21 amber ceremony this node is CONDITIONAL on C1'-r3 + WCL-ZONE-ext (both req), per conditional.md's dated addendum.",
+    "attack_surface": "Audit the exact implication from C1' and WCL-ZONE, including the production schedule, level count, strict field-size pin, and integer endpoint comparison.",
+    "falsifier": "A row satisfying both wired predicates for which the exact marginal product exceeds 2^100, or an arithmetic/quantifier defect in the stated assembly.",
+    "refs": [
+      "critical/nodes/dli_marginal_baseline100_coverage/statement.md",
+      "critical/nodes/dli_marginal_baseline100_coverage/attack.md",
+      "critical/nodes/dli_marginal_baseline100_coverage/conditional.md",
+      "critical/nodes/dli_marginal_baseline100_coverage/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_zone_coverage",
+      "order": 1396
+    },
+    {
+      "from": "dli_c1r3_gated_envelope_bound",
+      "order": 2839
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

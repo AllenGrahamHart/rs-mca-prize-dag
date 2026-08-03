@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1195,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_joint_boundary_residue_matching_router",
+    "title": "Rate-half distance-three joint boundary/residue matching router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official distance-three support packet, label each exceptional root by (Y_a,[C(a)]_r), where Y_a is its matching-free boundary e-th-power value and [.]_r is the class modulo r-th powers. With mu=[-product_(t in T)C(t)]_r, a perfect matching satisfies both every boundary gate and every dual row-product gate exactly when the label multiset is invariant under (y,g)|->(-y,mu/g). This reconstructs all joint-admissible matchings and forces the aggregate obstruction Res(A,C)/(-Res(B,C))^e in (F_q^*)^r.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_joint_boundary_residue_matching_router/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_joint_boundary_residue_matching_router/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_joint_boundary_residue_matching_router/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_joint_boundary_residue_matching_router/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_joint_boundary_residue_matching_router/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_joint_boundary_residue_matching_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router",
+      "order": 2461
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router",
+      "order": 2462
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2463
+    }
+  ],
+  "refutes": []
+}

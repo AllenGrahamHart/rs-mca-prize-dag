@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1602,
+  "node": {
+    "id": "xr_prize_flat_nullity_rank_metric_trade_router",
+    "title": "XR prize flat-nullity rank-metric trade router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Compressing the two universal slope-parity checks identifies each minimal-core trade space with a subspace of (t-2) by |V| matrices without changing rank. If D=(u+v)(t-2)+e+1 exceeds (t-2-r)|V|, the rank-metric Singleton row-deletion bound forces a nonzero trade of rank at most r. At maximal flat nullity this forces rank one through prize arities 12,9,9 and rank at most two through 18,13,13. This is an existence router, not a low-rank count.",
+    "refs": [
+      "background/nodes/xr_prize_flat_nullity_rank_metric_trade_router/statement.md",
+      "background/nodes/xr_prize_flat_nullity_rank_metric_trade_router/proof.md",
+      "background/nodes/xr_prize_flat_nullity_rank_metric_trade_router/claim_contract.md",
+      "background/nodes/xr_prize_flat_nullity_rank_metric_trade_router/dependency_subdag.md",
+      "background/nodes/xr_prize_flat_nullity_rank_metric_trade_router/audit.md",
+      "background/nodes/xr_prize_flat_nullity_rank_metric_trade_router/result.md",
+      "background/nodes/xr_prize_flat_nullity_rank_metric_trade_router/verify.py",
+      "background/nodes/xr_prize_flat_nullity_rank_metric_trade_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_prize_flat_nullity_maxwell_trade_space_compiler",
+      "order": 3782
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3783
+    }
+  ],
+  "refutes": []
+}

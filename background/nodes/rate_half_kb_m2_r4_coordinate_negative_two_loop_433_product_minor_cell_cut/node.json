@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1541,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut",
+    "title": "KoalaBear m2 r4 coordinate negative two-loop 433 product-minor cell cut",
+    "status": "PROVED",
+    "closure": "three of nine antipodal cells deleted and the relation b=-c^3 forced on three of six survivors by explicit product minors",
+    "statement": "On the nine negative (4,3,3) antipodal label cells, exact 4 x 4 product minors delete X1, N2, and Z1. A second minor forces b=-c^3 on X2, N1, and L1. Thus the common-K product frontier has six cells: those three constrained cells and M1, M2, M3 pending further minors. The second q weld and complete packet remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+      "order": 3545
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas",
+      "order": 3546
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3547
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1096,
+  "node": {
+    "id": "l1_marked_common_pencil_next_strip_boundary_fiber_bound",
+    "title": "L1 marked common-pencil next-strip boundary fiber bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the thin boundary d+p>=(m+1)ell of strip m, put g=(m+1)ell-d. For fixed p<=P_0 and ell>2P_0, the exact list threshold forces at least m+1 dense petals. Their selected support product has degree t ell-v, so CRT leaves at most one numerator when v<g and at most q^(v-g+1)<=q^p otherwise. Thus the fixed-locator numerator fiber is polynomial uniformly on the boundary omitted by the strict Forney window.",
+    "refs": [
+      "background/nodes/l1_marked_common_pencil_next_strip_boundary_fiber_bound/statement.md",
+      "background/nodes/l1_marked_common_pencil_next_strip_boundary_fiber_bound/proof.md",
+      "background/nodes/l1_marked_common_pencil_next_strip_boundary_fiber_bound/claim_contract.md",
+      "background/nodes/l1_marked_common_pencil_next_strip_boundary_fiber_bound/dependency_subdag.md",
+      "background/nodes/l1_marked_common_pencil_next_strip_boundary_fiber_bound/audit.md",
+      "background/nodes/l1_marked_common_pencil_next_strip_boundary_fiber_bound/verify.py",
+      "background/nodes/l1_marked_common_pencil_next_strip_boundary_fiber_bound/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_bounded_polarity_marked_full_pencil_reduction",
+      "order": 2204
+    },
+    {
+      "from": "l1_polarized_petal_entropy_ledger",
+      "order": 2205
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2207
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2208
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2209
+    }
+  ],
+  "refutes": []
+}

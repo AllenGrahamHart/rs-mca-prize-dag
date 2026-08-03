@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1743,
+  "node": {
+    "id": "dli_norm_gate_energy_ceiling",
+    "title": "DLI norm gate, energy ceiling: 1 <= Norm <= E^(phi(n)/2) for arbitrary integer coefficient vectors (the C1 sandwich Claim 2 with w -> E, ternariness never used), and the junction router it powers",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In Z[zeta_n]=Z[x]/(x^h+1), n=2^s>=4, h=phi(n)=n/2, for every NONZERO alpha=sum_{i<h} a_i zeta_n^i with integer a_i and energy E=sum_i a_i^2: (LN4) 1 <= Norm(alpha) <= E^(h/2). The proof is the banked dli_c1_ternary_relation_norm_sandwich Claim 2 verbatim with w replaced by E: conjugate-pair positivity, negacyclic Parseval sum_{j odd} |alpha(zeta^j)|^2 = h sum_i a_i^2, AM-GM over the h/2 pair values, and Norm >= 1 from irreducibility of x^h+1. Parseval is the only step where the coefficients enter, and it enters as sum_i a_i^2 -- TERNARINESS IS NEVER USED; on ternary vectors E=w and the statement is the banked one. (LN5) Consequently, at a junction with root order h_j, degree N_j=phi(h_j) and block size o=L_j, combining with q^{L_j} | Norm != 0 (dli_norm_gate_forward_and_ofold) every nonzero junction-j skew solution satisfies q^{L_j} <= Norm <= E^{N_j/2}, i.e. E >= min{E : E^{N_j/2} >= q^{L_j}}; contrapositively, if E^{N_j/2} < q^{L_j} the junction admits no nonzero skew of energy <= E, so a state whose whole admissible skew domain has sum_i c_i^2 <= E is killed. At a uniform ratio N_j = 256 L_j the criterion collapses to q <= E^128 independently of j. NOT claimed: any lower bound on Norm beyond 1, the exact maxnorm ladder (banked, and its stable-range doubling law is REFUTED in general), sufficiency of the energy condition, or the WCL fence. Provenance notes/pilots_20260802/dli_norm_gate/ (LN4, LN5).",
+    "refs": [
+      "background/nodes/dli_norm_gate_energy_ceiling/statement.md",
+      "background/nodes/dli_norm_gate_energy_ceiling/proof.md",
+      "background/nodes/dli_norm_gate_energy_ceiling/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_norm_gate_forward_and_ofold",
+      "order": 4828
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_c1r3_gated_envelope_bound",
+      "order": 4837
+    }
+  ],
+  "refutes": []
+}

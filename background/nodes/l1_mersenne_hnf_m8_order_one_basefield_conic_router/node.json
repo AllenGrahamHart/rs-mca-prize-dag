@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1697,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_basefield_conic_router",
+    "title": "L1 Mersenne HNF m=8 order-one base-field conic router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the h=7 conic, both z=-1 points are excluded by the non-prime-field invariant. If the remaining line parameter t lies in F_p, Frobenius forces zeta=2-z; official Mersenne congruences then force zeta=-1 and z=3. This branch is empty at p=8191,131071 and reduces at p=524287,2147483647 to at most the two signs in 7w^2=5308, with c^2-3c+1=0 and rho^p=-c*rho.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_conic_router/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_conic_router/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_conic_router/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_conic_router/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_conic_router/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_conic_router/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_basefield_conic_router/verify.py"
+    ],
+    "notes": "Exact branch router only. The two larger-row sign packets still owe every trace/cyclotomic/inner condition, and t outside the prime field is untouched."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+      "order": 3961
+    },
+    {
+      "from": "l1_mersenne_next_to_maximal_belyi_shifted_value_gate",
+      "order": 3962
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3963
+    }
+  ],
+  "refutes": []
+}

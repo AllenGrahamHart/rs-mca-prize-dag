@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 816,
+  "node": {
+    "id": "petal_top_band_tail_collapse",
+    "title": "P1 and the strict E22 remainder collapse the full-petal tail to m+1",
+    "status": "PROVED",
+    "statement": "If d>=ell(m-2) and 0<=r<ell, then ceil((ell+d-r)/ell)>=m-1. The exact full-petal touched-set tail is therefore at most C(m,m-1)+C(m,m)=m+1, and domain disjointness with an official core k>=2 gives m+1<=n. Thus K4 holds with b4=1.",
+    "refs": [
+      "critical/nodes/petal_top_band_tail_collapse/statement.md",
+      "critical/nodes/petal_top_band_tail_collapse/proof.md",
+      "critical/nodes/petal_top_band_tail_collapse/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "petal_full_touched_set_injection",
+      "order": 1364
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

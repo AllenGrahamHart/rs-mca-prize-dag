@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1632,
+  "node": {
+    "id": "l1_m4_positive_value_coset_certificate",
+    "title": "L1 m=4 positive-valuation value-coset certificate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For positive depressed inner valuation, the three split values lie in one value coset. Frobenius reduces their zero-sum condition to 16 exact quadratic quarter-class cases. Quotient-ring certificates show no case for p=8191 or 131071, excluding all positive valuation there. For p=524287 and 2147483647 there is one projective value triple, the roots of Y^3-2Y+1, so every positive record satisfies a^3+8b^2=0. Nu=0 and the latter positive strata remain open, so L1 is not closed.",
+    "refs": [
+      "background/nodes/l1_m4_positive_value_coset_certificate/statement.md",
+      "background/nodes/l1_m4_positive_value_coset_certificate/proof.md",
+      "background/nodes/l1_m4_positive_value_coset_certificate/claim_contract.md",
+      "background/nodes/l1_m4_positive_value_coset_certificate/dependency_subdag.md",
+      "background/nodes/l1_m4_positive_value_coset_certificate/audit.md",
+      "background/nodes/l1_m4_positive_value_coset_certificate/result.md",
+      "background/nodes/l1_m4_positive_value_coset_certificate/lineage.md",
+      "background/nodes/l1_m4_positive_value_coset_certificate/upstream_crosswalk.md",
+      "background/nodes/l1_m4_positive_value_coset_certificate/verify.py",
+      "background/nodes/l1_m4_positive_value_coset_certificate/verify_audit.py",
+      "experiments/prize_resolution/l1_m4_depressed_value_coset_check.py",
+      "experiments/prize_resolution/l1_m4_depressed_value_coset_result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_m4_h3_colored_cyclic_equivalence",
+      "order": 3873
+    },
+    {
+      "from": "l1_m4_h3_tangent_radical_exclusion",
+      "order": 3874
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3875
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 972,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_zero_weld_quartic_boundary",
+    "title": "A=1 core-one zero-weld quartic boundary",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official A=1 core-one maximal-degree face, the two-sided weld can have K=0 only when b=0 and D_*=1. In that sole branch the full residual generator is irreducible and factors a separated difference F(U,V)-G_0(X)=Q_*V_0, where deg F=4e, deg G_0=8e+4, G_0 is supported on all but exactly three residual-domain points, deg Q_*=(2e+1,e), and deg V_0=(6e+3,3e). Thus Q_* is a one-quarter bidegree factor of a quartic separated boundary. Every other residual profile, D_*=0 profile, and exceptional-factor allocation has K nonzero. The quartic boundary and nonzero-K branch remain open.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_zero_weld_quartic_boundary/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_zero_weld_quartic_boundary/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_zero_weld_quartic_boundary/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_zero_weld_quartic_boundary/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_zero_weld_quartic_boundary/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_zero_weld_quartic_boundary/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_zero_weld_quartic_boundary/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_zero_weld_quartic_boundary/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_two_sided_complement_weld",
+      "order": 1789
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1790
+    }
+  ],
+  "refutes": []
+}

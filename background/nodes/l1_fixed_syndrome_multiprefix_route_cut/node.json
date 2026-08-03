@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 537,
+  "node": {
+    "id": "l1_fixed_syndrome_multiprefix_route_cut",
+    "title": "L1 fixed-syndrome multiprefix source and route cut",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a monic degree-c polynomial fold with complete c-point fibers, fixing h partial fibers and r partial points and bucketing f full-fiber labels by t leading quotient coefficients gives one exact-boundary received word with at least ceil(binomial(|Q|-h,f)/|B|^t) codewords whenever 0<K<=A<=|D|, A=r+cf, and r+c(f-t-1)<K. Under upstream's printed complete-fold contract, the M31 (u,v)=(1,1) specialization has exact floor 1693898, refuting a universal per-profile cap 29. Independently, an F_17^* same-remainder pair has distinct actual agreement- and error-locator prefixes in both orientations. Hence an arbitrary-word fixed-syndrome count is a sum over attained prefixes; a maximum-prefix-fiber bound alone is insufficient without target coalescing/payment and first-match ownership. No L1 upper payment, M31 closure, or prize endpoint is asserted.",
+    "refs": [
+      "background/nodes/l1_fixed_syndrome_multiprefix_route_cut/statement.md",
+      "background/nodes/l1_fixed_syndrome_multiprefix_route_cut/proof.md",
+      "background/nodes/l1_fixed_syndrome_multiprefix_route_cut/claim_contract.md",
+      "background/nodes/l1_fixed_syndrome_multiprefix_route_cut/dependency_subdag.md",
+      "background/nodes/l1_fixed_syndrome_multiprefix_route_cut/audit.md",
+      "background/nodes/l1_fixed_syndrome_multiprefix_route_cut/upstream_crosswalk.md",
+      "background/nodes/l1_fixed_syndrome_multiprefix_route_cut/result.md",
+      "background/nodes/l1_fixed_syndrome_multiprefix_route_cut/verify.py",
+      "background/nodes/l1_fixed_syndrome_multiprefix_route_cut/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2906
+    }
+  ],
+  "refutes": []
+}

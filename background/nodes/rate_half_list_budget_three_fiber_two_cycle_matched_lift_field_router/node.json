@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1236,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router",
+    "title": "Budget-three fiber-two matched-cycle lifts descend to the prime field",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the two-antipodal-denominator subbranch of the matched c=0 generic fiber-two cycle boundary at M=2^36 and N=2^39, a parameter-uniform Fourier resultant excludes the official prime-field branch and the quadratic p=-1 branch, leaving q_field=p^2 with p=1 mod 2^40. The even-factorization coefficients and outer roots descend to F_p under this weaker congruence. In the nonsplit class modulo 2^41, Frobenius sends a possible top lift r to +/-r; conjugating the three exact Mobius-ratio equations excludes the -r case. Hence every surviving normalized source lift and the Mobius matching lie over F_p. This does not exclude the boundary or transfer the later scalar, Jacobi, and norm gates.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer",
+      "order": 2569
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_even_factorization",
+      "order": 2570
+    },
+    {
+      "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+      "order": 2571
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2572
+    }
+  ],
+  "refutes": []
+}

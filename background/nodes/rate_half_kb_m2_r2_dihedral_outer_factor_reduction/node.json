@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1409,
+  "node": {
+    "id": "rate_half_kb_m2_r2_dihedral_outer_factor_reduction",
+    "title": "KoalaBear m2 r2 dihedral outer-factor reduction",
+    "status": "PROVED",
+    "closure": "elliptic involution quotient, two-degree projection dihedral theorem, and exact six-pole ramification sieve",
+    "statement": "In the full-V4 (m,r,delta)=(2,2,4) row, the outer bidegree-(2,2) component is rational even when the source normalization is elliptic. Its two degree-two projections generate a finite dihedral group, so the outer degree-30 map has a geometric Dickson/Chebyshev right factor. The six distinct order-five poles restrict its degree to n=2,3,5,6. The source-to-outer V4 cover has branch inertia a,c,ac in source genus zero and c,c,ac,ac in source genus one. No surviving factor degree, owner charge, or prize row is closed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/statement.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/proof.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/audit.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/result.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/frontier.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/verify.py",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_outer_factor_reduction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_degree60_decomposition_divisor_adapter",
+      "order": 3636
+    },
+    {
+      "from": "rate_half_kb_m2_r2_full_v4_source_genus_drop",
+      "order": 3637
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3638
+    }
+  ],
+  "refutes": []
+}

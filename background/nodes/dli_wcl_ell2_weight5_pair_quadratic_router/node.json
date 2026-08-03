@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 880,
+  "node": {
+    "id": "dli_wcl_ell2_weight5_pair_quadratic_router",
+    "title": "DLI ell=2 weight-5 relations reduce to a pair quadratic and two Dickson equations",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Over any official field, every reduced signed weight-5 relation satisfying P(omega)=P(omega^3)=0 admits the following exact normalization. Scale one signed root to 1 and choose two others x,y; with u=x+y, A=xy, v=-1-u, B=u(v-A)/v, the final two roots are exactly the roots of T^2-vT+B. Conversely any guarded pair whose quadratic has two distinct mu_1024 roots reconstructs a relation. With D_0=2, D_1=v, D_m=vD_(m-1)-B D_(m-2), quadratic membership is equivalent to B^1024=1 and D_1024(v,B)=2. This is a two-shape-variable router, not an emptiness theorem.",
+    "refs": [
+      "background/nodes/dli_wcl_ell2_weight5_pair_quadratic_router/statement.md",
+      "background/nodes/dli_wcl_ell2_weight5_pair_quadratic_router/proof.md",
+      "background/nodes/dli_wcl_ell2_weight5_pair_quadratic_router/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_zone_coverage",
+      "order": 1542
+    }
+  ],
+  "refutes": []
+}

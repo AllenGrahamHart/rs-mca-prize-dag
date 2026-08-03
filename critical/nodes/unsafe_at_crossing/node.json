@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 334,
+  "node": {
+    "id": "unsafe_at_crossing",
+    "title": "Unsafe witnesses at the adjacent grid point (the determination's other half)",
+    "status": "CONDITIONAL",
+    "gate": "all",
+    "key": true,
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#4"
+    ],
+    "notes": "FALSE-GREEN CORRECTION 2026-07-26: qfloor_exact and averaged_slope_conversion are local implications, not a universal row-instantiation theorem. In particular, a family being merely collided does not imply that its post-paid occupancy correction is small enough. The exact missing payload is unsafe_crossing_family_instantiation; see notes/UNSAFE_AT_CROSSING_FALSE_GREEN_AUDIT_20260726.md.",
+    "statement": "Conditional on unsafe_crossing_family_instantiation, qfloor_exact, and averaged_slope_conversion, every admissible row has B_C(a_safe-1)>B* at the adjacent grid point.",
+    "attack_surface": "construct the exact per-row direct-value or post-paid occupancy payload required by unsafe_crossing_family_instantiation",
+    "falsifier": "an admissible row with B_C(a_safe-1)<=B*, or a purported branch payload whose endpoint, field transfer, paid-family exclusion, or exact occupancy inequality fails"
+  },
+  "requires": [
+    {
+      "from": "unsafe_crossing_family_instantiation",
+      "order": 227
+    },
+    {
+      "from": "averaged_slope_conversion",
+      "order": 228
+    },
+    {
+      "from": "qfloor_exact",
+      "order": 229
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 905,
+  "node": {
+    "id": "dli_wcl_ell2_weight6_split16_counterfixture",
+    "title": "DLI ell=2 weight-6 split-16 counterfixture",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In GF(65537), an exact order-1024 subgroup contains the reduced antipodal-free six-set of exponents {0,180,211,585,852,903}; both its first and third odd moments vanish. The triple-cubic router guards hold, and v_2(65537-1)=16. Thus order-1024 splitting, or any blanket split threshold at most 2^16, does not imply emptiness of the (ell,w)=(2,6) slot. This is not an official counterexample because the official ambient split requires v_2(q-1)>=41.",
+    "refs": [
+      "background/nodes/dli_wcl_ell2_weight6_split16_counterfixture/statement.md",
+      "background/nodes/dli_wcl_ell2_weight6_split16_counterfixture/proof.md",
+      "background/nodes/dli_wcl_ell2_weight6_split16_counterfixture/audit.md",
+      "background/nodes/dli_wcl_ell2_weight6_split16_counterfixture/claim_contract.md",
+      "background/nodes/dli_wcl_ell2_weight6_split16_counterfixture/dependency_subdag.md",
+      "background/nodes/dli_wcl_ell2_weight6_split16_counterfixture/certificate.json",
+      "background/nodes/dli_wcl_ell2_weight6_split16_counterfixture/verify.py",
+      "experiments/prize_resolution/dli_wcl_ell2_weight6_norm_gcd_probe_modal.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_ell2_weight6_triple_cubic_router",
+      "order": 1602
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_zone_coverage",
+      "order": 1603
+    }
+  ],
+  "refutes": []
+}

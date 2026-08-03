@@ -1,0 +1,47 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1585,
+  "node": {
+    "id": "xr_rank_two_proper_circuit_defect_host_router",
+    "title": "XR proper rank-two circuits have a defect and host-core router",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_rank_two_proper_circuit_defect_host_router/statement.md",
+      "background/nodes/xr_rank_two_proper_circuit_defect_host_router/proof.md",
+      "background/nodes/xr_rank_two_proper_circuit_defect_host_router/claim_contract.md",
+      "background/nodes/xr_rank_two_proper_circuit_defect_host_router/dependency_subdag.md",
+      "background/nodes/xr_rank_two_proper_circuit_defect_host_router/verify.py",
+      "background/nodes/xr_rank_two_proper_circuit_defect_host_router/verify_audit.py",
+      "background/nodes/xr_rank_two_proper_circuit_defect_host_router/audit.md",
+      "background/nodes/xr_rank_two_proper_circuit_defect_host_router/result.md"
+    ],
+    "statement": "A proper four/five-block rank-two circuit inside a minimal Maxwell core has positive deficit of the forced parity. The exact collision identity gives a proper-circuit defect lower range disjoint by one integer charge from the full-core upper range, an explicit minimum number of additional host blocks, and parity-sensitive shell cutoffs beyond which every proper owner must carry active-zero reuse, unused pair slack, or outside multiplicity at least three. Embedding and aggregate counts remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_rank_two_maxwell_collision_defect_identity",
+      "order": 3716
+    },
+    {
+      "from": "xr_higher_rank_rank_two_shell_maxwell_router",
+      "order": 3717
+    },
+    {
+      "from": "xr_higher_rank_uniform_split_pencil_reduction",
+      "order": 3718
+    },
+    {
+      "from": "xr_trade_circuit_arity_segre_atlas",
+      "order": 3719
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3720
+    }
+  ],
+  "refutes": []
+}

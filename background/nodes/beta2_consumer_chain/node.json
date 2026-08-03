@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 285,
+  "node": {
+    "id": "beta2_consumer_chain",
+    "title": "Consumer theorem citable + non-circular (Gabber/ESDE 1.5 + Kantor/ADW, l>=5)",
+    "status": "PROVED",
+    "refs": [
+      "experimental/notes/m1/m1_beta2_conditional_close.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

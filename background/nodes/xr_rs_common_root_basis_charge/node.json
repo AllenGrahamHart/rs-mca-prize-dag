@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 896,
+  "node": {
+    "id": "xr_rs_common_root_basis_charge",
+    "title": "RS common-root weighted basis charge",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_rs_common_root_basis_charge/statement.md",
+      "background/nodes/xr_rs_common_root_basis_charge/proof.md",
+      "background/nodes/xr_rs_common_root_basis_charge/verify.py",
+      "background/nodes/xr_rs_common_root_basis_charge/result.md"
+    ],
+    "statement": "For a post-strip RS selector with affine kernel rank a, let G be the global common-root set of the kernel slice and P_0 the roots persistent on the whole affine family. The RS gcd bound gives |G|<=k-a, while every root in G\\P_0 can vanish at only one selected slope. A loopless refinement of the cogirth basis lemma gives a*b_e>=m_e*C(a+h-1,a-1), where m_e is the number of nonloop zeros. Combining the summed basis supply with the per-basis post-strip pencil cap yields the exact common-root inequality and its endpoint envelope. Exact XR arithmetic pays selector ranks 4,4,4,16,16,14, moving the first open prize ranks to 17,17,15."
+  },
+  "requires": [
+    {
+      "from": "xr_poststrip_affine_pencil_charge",
+      "order": 1562
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1563
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1564
+    }
+  ],
+  "refutes": []
+}

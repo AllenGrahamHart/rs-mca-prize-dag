@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1591,
+  "node": {
+    "id": "xr_mismatch_terminal_tangent_agreement_raise",
+    "title": "XR terminal mismatch tangents raise agreement by one",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_mismatch_terminal_tangent_agreement_raise/statement.md",
+      "background/nodes/xr_mismatch_terminal_tangent_agreement_raise/proof.md",
+      "background/nodes/xr_mismatch_terminal_tangent_agreement_raise/claim_contract.md",
+      "background/nodes/xr_mismatch_terminal_tangent_agreement_raise/dependency_subdag.md",
+      "background/nodes/xr_mismatch_terminal_tangent_agreement_raise/verify.py",
+      "background/nodes/xr_mismatch_terminal_tangent_agreement_raise/verify_audit.py",
+      "background/nodes/xr_mismatch_terminal_tangent_agreement_raise/audit.md",
+      "background/nodes/xr_mismatch_terminal_tangent_agreement_raise/result.md"
+    ],
+    "statement": "Every retained genuine tangent to a lifted A-agreement explanation supplies one discrepancy coordinate beyond that explanation's common support. Its tangent codeword therefore agrees with the original line word on at least A+1 coordinates. The union over every terminal pair is a subset of the original bad-slope set at agreement A+1, with no explanation, depth, or locator multiplier. The stricter set and generic terminal charts remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_mismatch_accumulated_locator_flag_normal_form",
+      "order": 3743
+    },
+    {
+      "from": "xr_true_tangent_coordinate_injection",
+      "order": 3744
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 3745
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1623,
+  "node": {
+    "id": "l1_mersenne_checkpoint_cyclotomic_normal_form",
+    "title": "L1 Mersenne-checkpoint cyclotomic normal form",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On each of the nine surviving first-checkpoint rows, write N=p+1, n=mN, and k=qN+b with m in {4,8,16}. Multiplication by p sends (q,0) to (-q,0), sends (q,b) to (b-q-1,N-b) for b>0, and its square sends (q,b) to (q-2b,b). If S is the p-cyclotomic closure of [0,p-1] and g_b=gcd(2b,m), then (q,0) lies in S exactly for q=0, while (q,b) lies in S exactly when q is congruent to 0 or b-1 modulo g_b. The Fourier-complement sizes are 2N+1, 9N/2+1, and 37N/4+1. In particular N consecutive frequencies vanish, so every nonzero signed word has support at least N+1. A checkpoint pair has exact support 2N-2. This is a low-weight cyclic-code normal form, not a row exclusion or L1 bound.",
+    "refs": [
+      "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/statement.md",
+      "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/proof.md",
+      "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/claim_contract.md",
+      "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/dependency_subdag.md",
+      "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/audit.md",
+      "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/result.md",
+      "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/lineage.md",
+      "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/upstream_crosswalk.md",
+      "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/verify.py",
+      "background/nodes/l1_mersenne_checkpoint_cyclotomic_normal_form/verify_audit.py",
+      "experiments/prize_resolution/l1_mersenne_checkpoint_analog_modal.py",
+      "experiments/prize_resolution/l1_mersenne_checkpoint_analog_result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_official_broad_checkpoint_frobenius_periodicity_exclusion",
+      "order": 3850
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3851
+    }
+  ],
+  "refutes": []
+}

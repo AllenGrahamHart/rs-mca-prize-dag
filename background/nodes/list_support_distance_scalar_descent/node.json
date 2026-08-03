@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1242,
+  "node": {
+    "id": "list_support_distance_scalar_descent",
+    "title": "Support-distance scalar descent for Reed-Solomon lists",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let E/F_q have degree r and let the evaluation domain lie in F_q. Put t=n-a, g=a-k+1, N_r=(q^r-1)/(q-1), and H_r=(q^(r-1)-1)/(q-1). If LtH_r<gN_r, then the existence of an E-valued RS list of size L at agreement a is equivalent to the existence of an F_q-valued list of size L. Thus the extension and base upper predicates at threshold L-1 are equivalent. The theorem does not prove either upper predicate; the upstream Mersenne-31 quartic specialization uses target 2^-100, not the local 2^-128 target.",
+    "refs": [
+      "background/nodes/list_support_distance_scalar_descent/statement.md",
+      "background/nodes/list_support_distance_scalar_descent/proof.md",
+      "background/nodes/list_support_distance_scalar_descent/claim_contract.md",
+      "background/nodes/list_support_distance_scalar_descent/dependency_subdag.md",
+      "background/nodes/list_support_distance_scalar_descent/audit.md",
+      "background/nodes/list_support_distance_scalar_descent/result.md",
+      "background/nodes/list_support_distance_scalar_descent/verify.py",
+      "background/nodes/list_support_distance_scalar_descent/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2690
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 567,
+  "node": {
+    "id": "hankel_sparse_atoms_as_rational_defects",
+    "title": "hankel sparse atoms as rational defects",
+    "status": "PROVED",
+    "statement": "Sparse annihilator atoms of a Hankel state are small defect sets of rational approximants to the spectral weight (RS-dual normal form); distinct-closure atoms satisfy |T1 u T2| >= j-t+2 (verified 233130 pairs, 0 violations); same-approximant atoms saturate to ONE closure (punctured-GRS/MDS collapse). Hereditary via the proved stability lemma."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

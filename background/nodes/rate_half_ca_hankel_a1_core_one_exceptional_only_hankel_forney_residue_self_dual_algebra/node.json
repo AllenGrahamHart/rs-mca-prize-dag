@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1184,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_residue_self_dual_algebra",
+    "title": "A=1 exceptional Forney-residue self-dual algebra",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "After normalizing each split-incidence polynomial by q_1(a), its coefficient rows span a dimension-e self-dual subspace U_q of F[X]/(A) for the residue pairing represented by the explicit unit C=q_1 Phi/B_T. The product span U_q^2 has dimension at most 2e-1; at equality it determines C up to scalar, while lower dimension is a separate detectable degeneracy branch.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_residue_self_dual_algebra/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_residue_self_dual_algebra/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_residue_self_dual_algebra/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_residue_self_dual_algebra/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_residue_self_dual_algebra/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_residue_self_dual_algebra/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_residue_self_dual_algebra/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_exceptional_split_incidence_self_dual_frame",
+      "order": 2430
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form",
+      "order": 2431
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2432
+    }
+  ],
+  "refutes": []
+}

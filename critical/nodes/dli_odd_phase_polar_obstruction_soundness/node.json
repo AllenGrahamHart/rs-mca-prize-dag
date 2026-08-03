@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 633,
+  "node": {
+    "id": "dli_odd_phase_polar_obstruction_soundness",
+    "title": "DLI odd-phase polar-obstruction soundness",
+    "status": "PROVED",
+    "statement": "If, for each actual DLI odd-evaluation phase on each relevant square-root component, a certificate identifies a pole of the Artin-Schreier-reduced phase with positive order not divisible by p, then the phase is not of Artin-Schreier form g^p-g+c.",
+    "attack_surface": "formal local-pole obstruction to Artin-Schreier triviality",
+    "falsifier": "a phase of Artin-Schreier form g^p-g+c whose reduced representative has a pole order prime to p"
+  },
+  "requires": [
+    {
+      "from": "dli_artin_schreier_conductor_criterion",
+      "order": 965
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

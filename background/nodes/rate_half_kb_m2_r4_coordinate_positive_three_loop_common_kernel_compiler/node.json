@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1425,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler",
+    "title": "KoalaBear m2 r4 positive coordinate three-loop common-kernel compiler",
+    "status": "PROVED",
+    "closure": "exact guarded four-by-four common Vieta kernel and representative 442/433 residual factors",
+    "statement": "After normalizing the three positive common loops to quotient labels 0, infinity, and 1, their product rows determine A_0 from A_2 and the nonzero linear form B_1 is beta(W-1). The two remaining common edges give an exact 4 x 4 kernel on (d_0,d_1,d_2,beta). Representative 442 and 433 placements have one explicit nonguard determinant factor each; no residual impossibility or outside interpolation is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_three_loop_common_kernel.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
+      "order": 3130
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
+      "order": 3131
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3132
+    }
+  ],
+  "refutes": []
+}

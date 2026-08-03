@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1579,
+  "node": {
+    "id": "f3_h3_p25_ordered_root_quadratic_tower_compiler",
+    "title": "H3 P25 ordered-root quadratic tower compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "A nonidentity P>=25 fiber exists exactly when 25 explicit distinct first coordinates support two dyadic scalar squaring towers with the required inverses. One quadratic prefix product enforces all 300 pairwise differences. The complete system has 50s+328 variables and 50s+352 quadratic equations, at most 2,378 by 2,402 in the official band. It is smaller than the symmetric divisor tower but has a 25! presentation symmetry; no performance or closure claim is made.",
+    "refs": [
+      "background/nodes/f3_h3_p25_ordered_root_quadratic_tower_compiler/statement.md",
+      "background/nodes/f3_h3_p25_ordered_root_quadratic_tower_compiler/proof.md",
+      "background/nodes/f3_h3_p25_ordered_root_quadratic_tower_compiler/claim_contract.md",
+      "background/nodes/f3_h3_p25_ordered_root_quadratic_tower_compiler/dependency_subdag.md",
+      "background/nodes/f3_h3_p25_ordered_root_quadratic_tower_compiler/audit.md",
+      "background/nodes/f3_h3_p25_ordered_root_quadratic_tower_compiler/result.md",
+      "background/nodes/f3_h3_p25_ordered_root_quadratic_tower_compiler/verify.py",
+      "background/nodes/f3_h3_p25_ordered_root_quadratic_tower_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_p25_quadratic_divisor_tower_compiler",
+      "order": 3694
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 3695
+    }
+  ],
+  "refutes": []
+}

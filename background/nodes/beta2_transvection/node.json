@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 282,
+  "node": {
+    "id": "beta2_transvection",
+    "title": "Genuine unipotent transvection at 9z+14, in the weight-1 constituent",
+    "status": "PROVED",
+    "refs": [
+      "experimental/notes/m1/m1_beta2_conditional_close.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

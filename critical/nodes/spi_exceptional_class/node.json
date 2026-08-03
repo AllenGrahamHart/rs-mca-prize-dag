@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 292,
+  "node": {
+    "id": "spi_exceptional_class",
+    "title": "SPI classification: high-dimensional components map to paid strata",
+    "status": "PROVED",
+    "key": true,
+    "refs": [
+      "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#4"
+    ],
+    "statement": "RESTATED (the wording correction): every rank-excess or super-slope component of the alignment incidence OUTSIDE the generic horizontal component is tangent-paid, empty, degenerate-excluded, quotient/extension-paid, or an apolar-principal scroll (the new named class: generically row-deficient pencils, ker = q_Z K(Z)[X]_{<=D-1}, priced by the R(Z) = Res(q_Z, X^n-1) dichotomy \u2014 R == 0 forces tangent payment, else O(n^2) supported slopes). The generic horizontal component is deliberately NOT claimed paid: its D_j-count is spi_point_counting (R2), a separate node.",
+    "notes": "PROVABLE (Pro G on replay: scroll + rank-profile verticals + R(Z) dichotomy; both new lemmas verified). The wording trap caught: high dimension alone is NOT the criterion \u2014 rank-excess is. The apolar-principal scroll added as a named priceable class (taxonomy growth #3, after affine-net and dihedral). | PROVED on maintainer review of the Opus write-up (three flags recorded: R2 carve-out by design; cited inputs previously refereed; deg_Z q_Z minor-degree bound at normal-form level)."
+  },
+  "requires": [
+    {
+      "from": "spi_component_control",
+      "order": 574
+    },
+    {
+      "from": "hankel_rank_profile_entropy",
+      "order": 862
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

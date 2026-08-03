@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1267,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_jacobi_norm_transfer",
+    "title": "Budget-three fiber-two c=1 parity R0 has a shared two-sign Jacobi-norm interface",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For R0, put a=(r+r^-1)/2, x=2a^2-1, and epsilon=r^(2^40). The primary gap, source torsion, and lift-free constant gate are exactly C_(2M)^(1/4)(x)=0, the epsilon Chebyshev factor, and (1+epsilon P_(4M-1)(x)^2)^2+x^2-1=0. The even-Jacobi transform gives one degree-2^36 gcd per sign with F_epsilon=(1+epsilon zQ^2)^2+z-1. Its torsion-only resultants are exactly the existing CR-002 order-2^39 norm and 37-level plus tower, so no separate large R0 norm run is needed. The norms and signed gcds remain unevaluated.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_jacobi_norm_transfer/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_jacobi_norm_transfer/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_jacobi_norm_transfer/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_jacobi_norm_transfer/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_jacobi_norm_transfer/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_jacobi_norm_transfer/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_jacobi_norm_transfer/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_jacobi_norm_transfer/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_lift_free_compiler",
+      "order": 2648
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_torsion_cyclotomic_norm_decomposition",
+      "order": 2649
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2650
+    }
+  ],
+  "refutes": []
+}

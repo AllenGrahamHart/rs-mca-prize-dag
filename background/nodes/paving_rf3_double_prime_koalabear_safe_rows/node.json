@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1113,
+  "node": {
+    "id": "paving_rf3_double_prime_koalabear_safe_rows",
+    "title": "RF3-double-prime retained-degree KoalaBear safe rows",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The corrected global-degree RF3-double-prime factor lift, combined with retained-degree interpolation, unconditionally bounds the full-field MCA bad-slope numerator at four n=2^21 KoalaBear rows by 274589064742753629, 274721012201293956, 274578888391562205, and 274861787390263486 respectively, each at most floor(p_KB^6/2^128)=274980728111395087. Thus the printed agreements 1485170, 1051719, 744762, and 527408 are safe at rates 1/2, 1/4, 1/8, and 1/16. No adjacent unsafe packet or maximal radius is claimed.",
+    "refs": [
+      "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/statement.md",
+      "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/proof.md",
+      "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/claim_contract.md",
+      "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/dependency_subdag.md",
+      "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/source_scope.md",
+      "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/upstream_bridge.md",
+      "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/upstream_ordinary_audit.md",
+      "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/verify.py",
+      "background/nodes/paving_rf3_double_prime_koalabear_safe_rows/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "mca_safe",
+      "order": 2060
+    },
+    {
+      "to": "compiler",
+      "order": 2061
+    }
+  ],
+  "refutes": []
+}

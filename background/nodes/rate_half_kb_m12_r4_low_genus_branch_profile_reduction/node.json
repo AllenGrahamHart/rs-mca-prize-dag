@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1340,
+  "node": {
+    "id": "rate_half_kb_m12_r4_low_genus_branch_profile_reduction",
+    "title": "KoalaBear m12 r4 low-genus branch-profile reduction",
+    "status": "PROVED",
+    "closure": "Riemann-Hurwitz genus cut plus complete tame degree-five branch-cycle enumeration",
+    "statement": "For the inner-degree-12 transverse type (r,delta)=(4,12), the actual component's birational bidegree-(2,4) model has normalization genus at most three. Riemann-Hurwitz forces the outer component to have genus at most one. Complete tame S_5 branch-cycle enumeration leaves exactly five profiles: A5 with (3),(2,2) or (3),(3), and S5 with (2),(3,2), (2),(4), or (2),(2),(2,2). Tame polynomial AGL(1,5) and the genus-two and genus-three profiles are impossible. No surviving profile, r4, m12, owner, charge, u2, cap 68, or row close is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/statement.md",
+      "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/proof.md",
+      "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/claim_contract.md",
+      "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/source_evidence.md",
+      "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/audit.md",
+      "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/result.md",
+      "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/frontier.md",
+      "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/verify.py",
+      "background/nodes/rate_half_kb_m12_r4_low_genus_branch_profile_reduction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m12_outer_subdegree_route_cut",
+      "order": 3673
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3674
+    }
+  ],
+  "refutes": []
+}

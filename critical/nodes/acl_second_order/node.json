@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 193,
+  "node": {
+    "id": "acl_second_order",
+    "title": "Acl second-order term (hand-off lemma)",
+    "status": "PROVED",
+    "refs": [
+      "wp_detail/wp3_2_symbolic_scaling.md#3"
+    ],
+    "statement": "Compute the second-order term of the antipodal class count Acl(N', l') beyond leading order, with explicit error control, so the corridor's quotient end becomes a NUMBER per rate instead of an interval. With it, per-rate bracket widths are exact and the adjacency question (adjacency_closing) is decidable rate-by-rate. Route shape: generating-function / saddle-point expansion of the class count.",
+    "attack_surface": "computation-shaped: expand the counting generating function one order past S2's leading term; verify against exact small-N' counts (already tabulated in the E1 packet: log2 A = 49.72/100.44/201.88)",
+    "falsifier": "exact small-N' counts disagreeing with the expansion (arithmetic check, not a conjecture risk)",
+    "notes": "CONCRETE TARGET (corridor computation): deliver >= 0.367 / 0.023 / 0.304 grid steps at rates 1/4 / 1/8 / 1/16 (log2 Acl anchors 49.72/100.44/201.88 cited; the E1 packet file needs pinning). The corridor's one remaining mathematical item. | EVALUATED (agent, verifier replayed): E1 anchors pinned (Acl_tot = (3^{N'/2}+1)/2 \u2014 the rho=1/2 reference); the size-restricted corridor input via the certified thm:exactcount formula. X_acl = +0.0497 / +0.0164 / -0.0056 grid steps at rates 1/4 / 1/8 / 1/16. VERDICT: NO RATE CLOSES \u2014 1/8 short by 0.00707 steps (~0.9 bits, entire interval below required); 1/16 FALSIFIER FIRES (marginal widening at N'~383, the finite-N' exponent exceeds asymptotic beta). The second-order term is now a NUMBER, not a hope. | FLIP on replay (Codex wave 3): TARGET -> PROVED."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "zone_b",
+      "order": 21
+    },
+    {
+      "to": "adjacency_closing",
+      "order": 620
+    }
+  ],
+  "refutes": []
+}

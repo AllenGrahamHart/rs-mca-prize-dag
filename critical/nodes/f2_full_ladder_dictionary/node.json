@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 733,
+  "node": {
+    "id": "f2_full_ladder_dictionary",
+    "status": "PROVED",
+    "statement": "F2 FULL-LADDER DICTIONARY (2026-07-10, campaign; note critical/nodes/u2c_giant_tnull_dichotomy/notes/F2_FULL_LADDER_DICTIONARY.md; digests F2_FULL_LADDER_DICTIONARY_PASS + TRUEBRANCH_PASS, 750k+ subsets, 10 cells, five with t > q, both branches live): S is t-null <=> the reversed locator's coefficients c_i vanish at every q-free index i <= min(t,b) \u2014 proof via the log-derivative identity (ell*)'/ell* = -sum p_{j+1}X^j (five lines, char-free). Indices divisible by q are exactly FREE (Frobenius redundancy as theorem); i > b impose nothing. CONSEQUENCES: the zero-prefix Q identification extends to the ENTIRE official ladder (catch #6's char restriction dissolved at dictionary level); the official F2 object IS the census of degree-b divisors of X^n - 1 with coefficients vanishing on the q-free indices <= t; the effective condition count for L5 = #q-free indices <= min(t,b), exact. Both crux faces upgraded. || CHAR-p PRECISION (2026-07-10, extension-field verification F_25, 1.2M subsets exact): the free indices are p-MULTIPLES (p = char), not q-multiples \u2014 identical at prime-field toys (q = p) but essential at official extension-field rows (q = p^k, n > p-1). Effective condition count = #p-free indices <= min(t,b)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1253
+    },
+    {
+      "to": "shared_census_kernel",
+      "order": 1254
+    }
+  ],
+  "refutes": []
+}

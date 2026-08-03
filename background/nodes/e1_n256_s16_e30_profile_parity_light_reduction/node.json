@@ -1,0 +1,56 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 62,
+  "node": {
+    "id": "e1_n256_s16_e30_profile_parity_light_reduction",
+    "title": "N=256 E=30 profile/parity/light reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/statement.md",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/proof.md",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/claim_contract.md",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/audit.md",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/result.md",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/source_pin.json",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/verify.py",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/verify_audit.py",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_two_six_odd_light_orbit_classifier.py",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_two_six_odd_light_orbit_check.py",
+      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_two_six_odd_light_orbit_result.json"
+    ],
+    "statement": "For N=256 folded profile (3,4,0) at V=60, exact slack gives L<=18 and the exact cubic cutoff M_3=1087. Of 18 magnitude profiles, light parity leaves eight, all with no light diameter and either two or six odd classes. The two-odd branch has 8,168 normalized supports in 87 affine orbits; the six-odd branch has 280,720 supports and at least 1,097 orbits, imposing a direct-census floor of 21,773,185,792 signed vectors.",
+    "notes": "ROUTE REDUCTION 2026-07-27: gives the exact V=60 profile and light-support frontier, including a complete two-odd router and a rigorous fence against brute-forcing the six-odd branch. It excludes no residual profile."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e31_endpoint_exclusion",
+      "order": 346
+    },
+    {
+      "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+      "order": 347
+    },
+    {
+      "from": "e1_n256_s16_signed_chord_collision_gate",
+      "order": 348
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 349
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 447
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 448
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1251,
+  "node": {
+    "id": "f3_hge4_linear_boundary_orbit_bound",
+    "title": "HGE4 linear-boundary orbit bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At every dyadic e=1 exact-ratio boundary m=3h+1 with h>1, reciprocal linearization forces the normalized locator coefficient by coefficient from its constant ratio x. Ordered scaling orbits inject into mu_m minus {1,-1}, so E_h^prim(m,p)<=m-2. A one-variable degree-(m-1) endpoint equation provides a stricter necessary screen.",
+    "refs": [
+      "background/nodes/f3_hge4_linear_boundary_orbit_bound/statement.md",
+      "background/nodes/f3_hge4_linear_boundary_orbit_bound/proof.md",
+      "background/nodes/f3_hge4_linear_boundary_orbit_bound/claim_contract.md",
+      "background/nodes/f3_hge4_linear_boundary_orbit_bound/dependency_subdag.md",
+      "background/nodes/f3_hge4_linear_boundary_orbit_bound/audit.md",
+      "background/nodes/f3_hge4_linear_boundary_orbit_bound/result.md",
+      "background/nodes/f3_hge4_linear_boundary_orbit_bound/verify.py",
+      "background/nodes/f3_hge4_linear_boundary_orbit_bound/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_boundary_defect_trace_pin",
+      "order": 2606
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2607
+    }
+  ],
+  "refutes": []
+}

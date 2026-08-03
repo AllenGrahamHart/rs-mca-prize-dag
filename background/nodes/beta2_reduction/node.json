@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 220,
+  "node": {
+    "id": "beta2_reduction",
+    "title": "BETA_2 reduced to one global monodromy fact (citable chain)",
+    "status": "PROVED",
+    "refs": [
+      "experimental/notes/m1/m1_beta2_conditional_close.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "beta2_rank8",
+      "order": 127
+    },
+    {
+      "from": "beta2_transvection",
+      "order": 128
+    },
+    {
+      "from": "beta2_not_selfdual",
+      "order": 129
+    },
+    {
+      "from": "beta2_q8_benign",
+      "order": 130
+    },
+    {
+      "from": "beta2_consumer_chain",
+      "order": 131
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": [
+    {
+      "to": "beta2_dead_routes",
+      "order": 134
+    }
+  ]
+}

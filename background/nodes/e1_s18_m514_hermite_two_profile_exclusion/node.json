@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1732,
+  "node": {
+    "id": "e1_s18_m514_hermite_two_profile_exclusion",
+    "title": "E1 square-mass-18 cofactor-514 Hermite two-profile exclusion",
+    "status": "PROVED",
+    "closure": "quadratic Hermite moment majorants with exact endpoint comparisons",
+    "statement": "A profile-independent quadratic Hermite majorant puts cofactor-514 autocorrelation profiles (9;1,2,0) and (11;7,1,0) strictly below the prize field floor. Thirteen magnitude profiles remain.",
+    "refs": [
+      "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/statement.md",
+      "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/proof.md",
+      "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/claim_contract.md",
+      "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/dependency_subdag.md",
+      "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/audit.md",
+      "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/result.md",
+      "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/frontier.md",
+      "background/nodes/e1_s18_m514_hermite_two_profile_exclusion/verify.py"
+    ],
+    "notes": "ANALYTIC REFINEMENT 2026-07-29: exact cross-multiplied Hermite bounds remove two live magnitude rows without support enumeration. The five-ideal occupancy threshold remains open."
+  },
+  "requires": [
+    {
+      "from": "e1_profile210_m514_parity_trace_cap",
+      "order": 4641
+    },
+    {
+      "from": "e1_prize_field_floor_even_norm_exclusion",
+      "order": 4642
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_profile018_m514_five_ideal_occupancy",
+      "order": 4643
+    },
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4644
+    }
+  ],
+  "refutes": []
+}

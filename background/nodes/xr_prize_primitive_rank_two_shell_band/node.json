@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1298,
+  "node": {
+    "id": "xr_prize_primitive_rank_two_shell_band",
+    "title": "XR prize primitive rank-two shell band",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_prize_primitive_rank_two_shell_band/statement.md",
+      "background/nodes/xr_prize_primitive_rank_two_shell_band/proof.md",
+      "background/nodes/xr_prize_primitive_rank_two_shell_band/claim_contract.md",
+      "background/nodes/xr_prize_primitive_rank_two_shell_band/dependency_subdag.md",
+      "background/nodes/xr_prize_primitive_rank_two_shell_band/verify.py",
+      "background/nodes/xr_prize_primitive_rank_two_shell_band/verify_audit.py",
+      "background/nodes/xr_prize_primitive_rank_two_shell_band/audit.md",
+      "background/nodes/xr_prize_primitive_rank_two_shell_band/result.md"
+    ],
+    "statement": "At the three prize P-A rows, a minimal uniform Maxwell core has at most 384, 448, and 960 blocks. Composing these exact row-only caps with the rank-two shell deficit shows that no rank-two relation can be active on every core block for shell depths 2<=d<=22,428,333; 19,217,048; and 4,478,600, respectively, at any affine kernel rank where the shell exists. The endpoint test is exact for the uniform deficit bound. Proper local rank-two circuits, larger shell depths, higher trade rank, and nonuniform cells remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_higher_rank_rank_two_shell_maxwell_router",
+      "order": 2756
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 2757
+    }
+  ],
+  "refutes": []
+}

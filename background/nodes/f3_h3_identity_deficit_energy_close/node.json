@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 940,
+  "node": {
+    "id": "f3_h3_identity_deficit_energy_close",
+    "title": "C36' admits a 145/4 shifted-energy close after identity separation",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/f3_h3_identity_deficit_energy_close/statement.md",
+      "background/nodes/f3_h3_identity_deficit_energy_close/proof.md",
+      "background/nodes/f3_h3_identity_deficit_energy_close/audit.md",
+      "background/nodes/f3_h3_identity_deficit_energy_close/claim_contract.md",
+      "background/nodes/f3_h3_identity_deficit_energy_close/dependency_subdag.md",
+      "background/nodes/f3_h3_identity_deficit_energy_close/result.md",
+      "background/nodes/f3_h3_identity_deficit_energy_close/verify.py"
+    ],
+    "statement": "For A=(1-H)\\{0}, product and quotient multiplicities have equal L2 energy E_x(A), and N_3to1=sum_t P(t)R(t)=E_x(A)-(1/2)sum_t(P(t)-R(t))^2. The identity coordinate has R(1)=n-1 while the proved one-shift estimate gives P(1)<4n^(2/3). Keeping this compulsory separation proves that 4E_x(A)<=145(n-1)^2 implies N_3to1<36n^2-16n^(4/3)-n/2 on all 29 official orders. This strictly relaxes the former clean target E_x(A)<=35n^2, but does not prove the new energy premise or promote C36'."
+  },
+  "requires": [
+    {
+      "from": "f3_h2_stepanov_inhouse",
+      "order": 1623
+    },
+    {
+      "from": "f3_h3_quotient_block_identity",
+      "order": 1624
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1625
+    },
+    {
+      "to": "f3_h3_three_to_one_c36",
+      "order": 1626
+    }
+  ],
+  "refutes": []
+}

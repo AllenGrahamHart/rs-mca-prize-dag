@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 422,
+  "node": {
+    "id": "xr_junta_to_paid",
+    "title": "Bridge 2: juntas = fixed-core families = tangent/common-divisor structures = PAID",
+    "status": "PROVABLE",
+    "statement": "A junta on J(n,j) (membership determined by a bounded core C of domain points) is a union of fixed-core/fixed-hole cells; correlation with a junta transfers to correlation with common-divisor (tangent-type, depth |C|) structure \u2014 landing exactly in the paid taxonomy. The k=1 dictator extremals (#191, proved) are the base case.",
+    "refs": [
+      "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
+    ],
+    "notes": "PACKET WRITTEN (wave 1, same note): <= 2^d cell decomposition, exact divisor/avoidance characterization, factorization onto the complementary instance, 2^-d pigeonhole transfer."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 929,
+  "node": {
+    "id": "xr_lowcore_u1_augmented_paving_scope_fence",
+    "title": "XR one-defect low-core lies outside the ambient augmented-paving payment",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_lowcore_u1_augmented_paving_scope_fence/statement.md",
+      "background/nodes/xr_lowcore_u1_augmented_paving_scope_fence/proof.md",
+      "background/nodes/xr_lowcore_u1_augmented_paving_scope_fence/verify.py",
+      "background/nodes/xr_lowcore_u1_augmented_paving_scope_fence/result.md"
+    ],
+    "statement": "The generic XR rank-five (u,v)=(1,0) kernel is a four-dimensional quartic subspace and need not be MDS: span(1,X,X^2,L_T) is source-compatible but has a dependent evaluation four-set T. Hence the printed all-pair weighted-RS paving theorem does not apply to this whole branch. Even granting its strongest ambient deep-hole specialization on the special MDS branch gives RowC ceilings 9,009,204,611 / 19,418,424,240 / 123,242,307,467, all above 8*1024^3. At rate quarter a closing augmented-basis proof must establish beta_5(A)<=2,164,663,517,435, a source-coupled saving of at least 105,656,044,614 five-row bases (4.653796 percent) from ambient. This is a sharp route fence, not an XR payment."
+  },
+  "requires": [
+    {
+      "from": "xr_rank_five_extension_list_reduction",
+      "order": 1627
+    },
+    {
+      "from": "xr_rank_five_u1_split_locator_nonbasis_bound",
+      "order": 1628
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1629
+    }
+  ],
+  "refutes": []
+}

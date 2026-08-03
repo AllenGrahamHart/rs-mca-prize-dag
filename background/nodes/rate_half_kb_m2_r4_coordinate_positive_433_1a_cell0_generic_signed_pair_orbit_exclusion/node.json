@@ -1,0 +1,58 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1466,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion",
+    "title": "KoalaBear positive 433-1a cell-0 generic signed-pair orbit exclusion",
+    "status": "PROVED",
+    "closure": "necessary signed-pair unit ideals exclude the complete cell-0 root-sign orbit",
+    "statement": "For each of the two exact cell-0 common-kernel branches over F_2130706433, every complete outside packet would supply distinct source roots carrying DE+=de and DE-=-de and hence satisfy two explicit denominator-cleared signed-pair identities. Saturating those identities by all necessary common, leading-support, outside-label, and label-disjointness guards gives the unit ideal on both branches. Exact source projectivities therefore exclude all four cell-0 root-sign rows, every outside case, and both cycle signs. Six quotient representatives covering 40 raw rows remain. This does not close the positive route, K3, LIST, MCA, or either Prize result.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_kernel_reduction_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_kernel_reduction_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_t2_signed_family_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_t2_signed_family_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_generic_signed_pair_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_generic_signed_pair_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_generic_signed_family_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell0_generic_signed_family_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
+      "order": 3266
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+      "order": 3267
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+      "order": 3268
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness",
+      "order": 3269
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3270
+    }
+  ],
+  "refutes": []
+}

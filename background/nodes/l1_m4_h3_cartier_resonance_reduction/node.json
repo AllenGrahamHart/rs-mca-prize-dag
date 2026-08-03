@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1627,
+  "node": {
+    "id": "l1_m4_h3_cartier_resonance_reduction",
+    "title": "L1 m=4, h=3 Cartier resonance reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a hypothetical official m=4,h=3 record, choose s_nu=p-4,p-1,2,5,8 for nu=0,...,4. The Wronskian equation has the exact integrating-factor form (X^s_nu U^3D)'=X^(s_nu-1)U^2H. Formal derivatives have zero coefficient in every degree jp-1, so the former maximum deg H=4-nu is impossible. Consequently nu=4 is empty, while nu=0,1,2,3 have eliminant degree and total radical defect at most 3,2,1,0 and satisfy four printed residual coefficient constraints. In particular nu=3 is squarefree/coprime throughout. This reduces but does not close the m=4,h=3 branch or L1.",
+    "refs": [
+      "background/nodes/l1_m4_h3_cartier_resonance_reduction/statement.md",
+      "background/nodes/l1_m4_h3_cartier_resonance_reduction/proof.md",
+      "background/nodes/l1_m4_h3_cartier_resonance_reduction/claim_contract.md",
+      "background/nodes/l1_m4_h3_cartier_resonance_reduction/dependency_subdag.md",
+      "background/nodes/l1_m4_h3_cartier_resonance_reduction/audit.md",
+      "background/nodes/l1_m4_h3_cartier_resonance_reduction/result.md",
+      "background/nodes/l1_m4_h3_cartier_resonance_reduction/lineage.md",
+      "background/nodes/l1_m4_h3_cartier_resonance_reduction/upstream_crosswalk.md",
+      "background/nodes/l1_m4_h3_cartier_resonance_reduction/verify.py",
+      "background/nodes/l1_m4_h3_cartier_resonance_reduction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_m4_h3_mason_defect_budget",
+      "order": 3861
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3862
+    }
+  ],
+  "refutes": []
+}

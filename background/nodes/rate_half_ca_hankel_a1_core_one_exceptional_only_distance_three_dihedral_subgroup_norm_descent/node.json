@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1152,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_subgroup_norm_descent",
+    "title": "Rate-half distance-three dihedral subgroup-norm descent",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On either surviving rank-two dihedral branch, the sparse subgroup norm Res_X(X^N-1,Q) descends to an orbit resultant with a degree-at-most-(2e+1) value polynomial. The antipodal quotient locator is U^(N/2)-1; the constant-product quotient locator is the exact square-root part of D_N(U,c)-2 after removing zero or two fixed-point factors. Exact-degree split slopes are equivalently detected by splitting the descended polynomial over this quotient set.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_subgroup_norm_descent/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_subgroup_norm_descent/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_subgroup_norm_descent/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_subgroup_norm_descent/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_subgroup_norm_descent/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_subgroup_norm_descent/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_boundary_order_router",
+      "order": 2338
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router",
+      "order": 2339
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2340
+    }
+  ],
+  "refutes": []
+}

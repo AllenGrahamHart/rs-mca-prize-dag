@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1562,
+  "node": {
+    "id": "rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity",
+    "title": "KoalaBear m2 r2 residual dihedral star-graph rigidity",
+    "status": "PROVED",
+    "closure": "regular D3/D6 coset incidence, full-V4 orientation exchange, and exact complete-source graph reconstruction",
+    "statement": "In every surviving full-V4 n=3 or n=6 dihedral profile, the second endpoint lift exchanges the two cross-edge orientations over each Z value. The complete source-star graph is therefore two disjoint K_(2,2,2) graphs for n=3 or the two-point blow-up of C_6 for n=6. All 24 star weights are one, the defect is zero, and every source row has degree four. This proves rigidity, not existence or deletion of either profile.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/statement.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/proof.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/audit.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/result.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/frontier.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/verify.py",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion",
+      "order": 3645
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3646
+    }
+  ],
+  "refutes": []
+}

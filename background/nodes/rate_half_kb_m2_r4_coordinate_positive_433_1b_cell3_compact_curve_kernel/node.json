@@ -1,0 +1,64 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1753,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-3 compact curve and kernel",
+    "status": "PROVED",
+    "closure": "24-chart compact compatibility reduction, guarded beta-boundary exclusion, and four-sign polynomial kernel compiler",
+    "statement": "On the product-rank-five branch of positive deployed 433-1b role cell 3, three compact compatibility determinants define a one-dimensional guarded common curve in all 24 source-sign/cofactor charts. Four chart-uniform two-variable projections are irreducible over the deployed field, the beta-normalization boundary is unit after correct route re-saturation, and one exact polynomial kernel annihilates all ten Vieta rows for every source sign. No outside exclusion or complete cell-3 closure is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_compact_structure_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_compact_structure_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_projection_profile_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_projection_profile_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_compact_kernel_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_compact_kernel_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
+      "order": 4860
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier",
+      "order": 4861
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
+      "order": 4862
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+      "order": 4863
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+      "order": 4864
+    },
+    {
+      "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+      "order": 4865
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4866
+    }
+  ],
+  "refutes": []
+}

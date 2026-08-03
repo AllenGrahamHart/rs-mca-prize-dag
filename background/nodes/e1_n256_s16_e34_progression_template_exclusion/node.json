@@ -1,0 +1,60 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 43,
+  "node": {
+    "id": "e1_n256_s16_e34_progression_template_exclusion",
+    "title": "N=256 E=34 progression-template exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e34_progression_template_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e34_progression_template_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e34_progression_template_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e34_progression_template_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e34_progression_template_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e34_progression_template_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e34_progression_template_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e34_progression_template_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e34_progression_template_exclusion/verify_audit.py",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_progression_census.cpp",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_progression_census_modal.py",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_progression_census_result.json",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_progression_audit.cpp",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_progression_audit_modal.py",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_progression_audit_result.json",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_progression_census_check.py"
+    ],
+    "statement": "No pair-feasible N=256, folded-(3,4,0), V=68 collision lies in the progression heavy template. Two independent complete censuses agree on all 191,354,400 representative vectors; exact odd-unit transport covers all 62 forms and 3,131,008 full-conductor profile vectors. The exact maximum M_3=1722<1947 excludes the template.",
+    "notes": "ROUTE CLOSURE 2026-07-27: closes the third of four heavy templates with a five-orbit exact census. Only generic remains at E34."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e34_progression_weld_reduction",
+      "order": 283
+    },
+    {
+      "from": "e1_n256_proper_conductor_collision_exclusion",
+      "order": 284
+    },
+    {
+      "from": "e1_n256_s16_e34_three_profile_reduction",
+      "order": 285
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 286
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 409
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 410
+    }
+  ],
+  "refutes": []
+}

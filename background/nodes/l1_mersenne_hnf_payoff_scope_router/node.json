@@ -1,0 +1,75 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1724,
+  "node": {
+    "id": "l1_mersenne_hnf_payoff_scope_router",
+    "title": "L1 Mersenne HNF payoff-scope router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "After the official atlas, maximal-value, broad-row, and m=4,h=3 exclusions, the nine Mersenne minimum-width rows retain exactly 42 (m,h,row) obligations: 4 at m=4,h=2, 24 at m=8,h=2..7, and 14 at m=16,h=2..15. Complete h=7 and h=15 closures remove only five cells; the exceptional J-zero cubic 3+2+1 chart alone removes none. Even complete ownership of the t=p residual advances the generic packing width only to p+1, with unfloored cap ratio (n-a+p)/p<m+2<=18, so wider exchanges and global L1 payment remain open.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_payoff_scope_router/statement.md",
+      "background/nodes/l1_mersenne_hnf_payoff_scope_router/proof.md",
+      "background/nodes/l1_mersenne_hnf_payoff_scope_router/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_payoff_scope_router/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_payoff_scope_router/audit.md",
+      "background/nodes/l1_mersenne_hnf_payoff_scope_router/result.md",
+      "background/nodes/l1_mersenne_hnf_payoff_scope_router/lineage.md",
+      "background/nodes/l1_mersenne_hnf_payoff_scope_router/upstream_crosswalk.md",
+      "background/nodes/l1_mersenne_hnf_payoff_scope_router/verify.py",
+      "background/nodes/l1_mersenne_hnf_payoff_scope_router/verify_audit.py",
+      "notes/L1_HNF_PAYOFF_LADDER.md"
+    ],
+    "notes": "Exact scope and payoff ledger only. It proves no new HNF emptiness, survivor, owner payment, wider-width bound, or critical status change."
+  },
+  "requires": [
+    {
+      "from": "l1_official_checkpoint_characteristic_atlas",
+      "order": 4482
+    },
+    {
+      "from": "l1_official_max_split_value_complement_census",
+      "order": 4483
+    },
+    {
+      "from": "l1_official_broad_checkpoint_frobenius_periodicity_exclusion",
+      "order": 4484
+    },
+    {
+      "from": "l1_mersenne_checkpoint_embedded_m2_family",
+      "order": 4485
+    },
+    {
+      "from": "l1_m4_h3_official_emptiness",
+      "order": 4486
+    },
+    {
+      "from": "l1_coarse_pfree_tame_tail_distance_upgrade",
+      "order": 4487
+    },
+    {
+      "from": "l1_coarse_pfree_wronskian_distance_packing",
+      "order": 4488
+    },
+    {
+      "from": "l1_mersenne_hnf_m8_order_zero_reciprocal_elimination",
+      "order": 4489
+    },
+    {
+      "from": "l1_mersenne_hnf_m16_order_zero_reciprocal_elimination",
+      "order": 4490
+    },
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_j0_guard_compiler",
+      "order": 4491
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4492
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 984,
+  "node": {
+    "id": "rate_half_list_budget_three_path_pattern_characteristic_isolation",
+    "title": "Known budget-three path pattern is characteristic-17 isolated",
+    "status": "PROVED",
+    "closure": "exact cyclotomic determinant",
+    "statement": "For the fixed exponent-support pattern of the known order-sixteen path witness, a 24 by 24 intersection-matrix minor has determinant alpha with absolute cyclotomic norm 2^170*17^4. Hence the pattern has full column rank in every odd characteristic except possibly 17. The known F_17 realization has rank 23, while characteristic 17 cannot support an order-2^41 domain below the official field cap. Thus this explicit finite witness cannot transport to the prize-max budget-three row with its exponent supports unchanged; no other path assignment or chamber is excluded.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_path_pattern_characteristic_isolation/statement.md",
+      "background/nodes/rate_half_list_budget_three_path_pattern_characteristic_isolation/proof.md",
+      "background/nodes/rate_half_list_budget_three_path_pattern_characteristic_isolation/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_path_pattern_characteristic_isolation/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_path_pattern_characteristic_isolation/audit.md",
+      "background/nodes/rate_half_list_budget_three_path_pattern_characteristic_isolation/result.md",
+      "background/nodes/rate_half_list_budget_three_path_pattern_characteristic_isolation/verify.py",
+      "background/nodes/rate_half_list_budget_three_path_pattern_characteristic_isolation/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_path_power_two_witness",
+      "order": 1809
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1810
+    }
+  ],
+  "refutes": []
+}

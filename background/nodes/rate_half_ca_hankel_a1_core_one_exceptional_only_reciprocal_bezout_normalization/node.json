@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1029,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization",
+    "title": "A=1 core-one exceptional-only reciprocal Bezout normalization",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The first reciprocal coefficient obeys the exact identity P_cl Delta_inf+E q_bar [X^(D_0-r-1)]A_1=1. Hence P_cl and Delta_inf are coprime to E q_bar, and Delta_inf is the specified inverse of P_cl on every infinity-drop fiber rather than a free elimination coefficient.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent",
+      "order": 1924
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1925
+    }
+  ],
+  "refutes": []
+}

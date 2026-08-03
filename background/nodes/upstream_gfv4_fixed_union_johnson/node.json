@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 935,
+  "node": {
+    "id": "upstream_gfv4_fixed_union_johnson",
+    "title": "Upstream fixed-union RS ray and Johnson compilers",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/upstream_gfv4_fixed_union_johnson/statement.md",
+      "background/nodes/upstream_gfv4_fixed_union_johnson/proof.md",
+      "background/nodes/upstream_gfv4_fixed_union_johnson/audit.md",
+      "background/nodes/upstream_gfv4_fixed_union_johnson/verify.py",
+      "background/nodes/upstream_gfv4_fixed_union_johnson/verify_audit.py",
+      "background/nodes/upstream_gfv4_fixed_union_johnson/result.md",
+      "background/nodes/upstream_gfv4_fixed_union_johnson/upstream_crosswalk.md"
+    ],
+    "statement": "For one fixed union U of R+nu RS parity-check columns and t<R, transverse syndrome-line slopes with t-sparse lifts number at most floor(C(R+nu,nu+1)/(R-t)); at nu=1 this is floor(R(R+1)/(2(R-t))). In one fixed syndrome fiber, if h=R+nu-t and h^2>(R+nu)(nu-1), the t-sparse lifts number at most floor((R+nu)(h-nu+1)/(h^2-(R+nu)(nu-1))). This independently reconstructs the three fixed-union theorems at b13de811 and makes no all-chart claim.",
+    "upstream": {
+      "label": "fixed-union ray and Johnson compiler block",
+      "relation": "IDENTICAL"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "x4_exactlist_staircase_split",
+      "order": 1708
+    },
+    {
+      "to": "list_safe",
+      "order": 1709
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 416,
+  "node": {
+    "id": "spread_syzygy_circuit_bound",
+    "title": "The syzygy-circuit branch: bound the full-support minimal-circuit exceptions",
+    "status": "PROVABLE",
+    "key": true,
+    "statement": "E13's 71 non-AG exceptions are ALL one-dimensional full-locator-support syzygy circuits, and the PROVED circuit lemma (row dependencies = exactly two zero-polynomial identities; one-dim full-support dependencies with independent deletions are minimal circuits) makes the branch precise: count/classify minimal full-support circuits per (n, j) and price their slope contribution. The exception taxonomy's third and final observed branch.",
+    "refs": [
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
+    ],
+    "notes": "a precise algebraic proof target per the packet's own framing; the circuit lemma is its proved base | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/spread_syzygy_circuit_bound/.",
+    "attack_surface": "DECOMPOSED: nongenericity (degree counting on the two simultaneous identities) -> q-suppressed locus density (Schwartz-Zippel) -> O(1)-per-circuit pricing (deficiency-1 Cramer/eliminant reuse from #199). Assembly: circuits x O(1) <= FM-compatible. Evidence first step: the circuit census's growth rate in n (extends E13's 71-at-n=32 count)."
+  },
+  "requires": [
+    {
+      "from": "circuit_nongeneric",
+      "order": 714
+    },
+    {
+      "from": "circuit_locus_density",
+      "order": 715
+    },
+    {
+      "from": "circuit_pricing",
+      "order": 716
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "spread_exception_classification",
+      "order": 696
+    }
+  ],
+  "refutes": []
+}

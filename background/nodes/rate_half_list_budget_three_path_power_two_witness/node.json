@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 954,
+  "node": {
+    "id": "rate_half_list_budget_three_path_power_two_witness",
+    "title": "Budget-three path witness on a power-of-two domain",
+    "status": "PROVED",
+    "closure": "exact finite certificate",
+    "statement": "Over RS[F_17,F_17^*,8], four explicit degree-less-than-eight codewords have exact agreement eleven with one word and realize the path-plus-singleton B*=3 incidence type. The 28 by 24 intersection matrix has rank 23. Thus the path survives at d=4 on a power-of-two multiplicative domain despite having exactly three first-pencil members. No official-scale transport is claimed.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_path_power_two_witness/statement.md",
+      "background/nodes/rate_half_list_budget_three_path_power_two_witness/proof.md",
+      "background/nodes/rate_half_list_budget_three_path_power_two_witness/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_path_power_two_witness/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_path_power_two_witness/audit.md",
+      "background/nodes/rate_half_list_budget_three_path_power_two_witness/result.md",
+      "background/nodes/rate_half_list_budget_three_path_power_two_witness/verify.py",
+      "background/nodes/rate_half_list_budget_three_path_power_two_witness/verify_audit.py",
+      "background/nodes/rate_half_list_budget_three_path_power_two_witness/notes/search_order16_proper.py",
+      "background/nodes/rate_half_list_budget_three_path_power_two_witness/notes/order16_proper_search_result.json"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1735
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 968,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_max_component_localization",
+    "title": "A=1 core-one maximal-degree component localization",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the half-distance A=1 sharp-cap face with fixed core s=1 and maximal degree e=2m-1, the residual generator has one unique component of bidegree (2e_*+1,e_*); every other component has bidegree (2e_i,e_i). The residual parameter degree b consumes five units of the exact column-defect budget per degree, so b<=floor(e/5). Maximal separation rank of the full residual generator forces sr(Q_*)>=ceil((e+1)/(b+1)), which is at least five at the official row. Thus separated pullbacks and every rank-at-most-four dominant model are excluded. The generator is geometrically squarefree and all components split disjointly on at least 8m-4 supported slopes and 14m residual domain rows. The rank-at-least-five dominant component remains open.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_max_component_localization/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_max_component_localization/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_max_component_localization/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_max_component_localization/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_max_component_localization/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_max_component_localization/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_max_component_localization/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_max_component_localization/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger",
+      "order": 1780
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1781
+    }
+  ],
+  "refutes": []
+}

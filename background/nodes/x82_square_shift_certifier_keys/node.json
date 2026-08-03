@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 485,
+  "node": {
+    "id": "x82_square_shift_certifier_keys",
+    "title": "PROVED (x82): the certifier key discipline",
+    "status": "PROVED",
+    "statement": "The scaling-orbit and certifier-key normalization for square-shift supports \u2014 the exact dedup discipline the per-row certifier consumes (replayed green).",
+    "refs": [
+      "experimental/notes/roadmaps/x82_square_shift_certifier_keys.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "x83_uniform_square_shift_obstruction_gate",
+      "order": 790
+    },
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1077
+    }
+  ],
+  "refutes": []
+}

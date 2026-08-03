@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1261,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c1_normalized_torsion_compiler",
+    "title": "Budget-three fiber-two c=1 mismatch has one normalized torsion chamber",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At N=2^40 and generic h=2^37+1, common subgroup scaling normalizes the repeated c=1 completion square A to one. Writing b=B/A,d=D/A,c=C/A,S=b+d,P=bd gives D_A=(Y-1)(Y-c)(Y^2-SY+P), while the canonical outer invariants scale as I_A=A^(-4h)I,J_A=A^(-6h)J. The normalized radical-free norm is A^(-(24h+12)) times the old norm. Moreover b,d,c lie in mu_N iff the forty-step recurrences T'=T^2-2P, P'=P^2, c'=c^2 end at (2,1,1). With the printed split, square, and distinctness conditions, this is an exact one-chamber (S,P,c) compiler, not an exclusion.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_normalized_torsion_compiler/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_normalized_torsion_compiler/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_normalized_torsion_compiler/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_normalized_torsion_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_normalized_torsion_compiler/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_normalized_torsion_compiler/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_normalized_torsion_compiler/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_normalized_torsion_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c1_coefficient_resultant_elimination",
+      "order": 2628
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2655
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 948,
+  "node": {
+    "id": "rate_half_list_budget_three_plucker_edge_gate",
+    "title": "Budget-three Plucker edge gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every B*=3 split-pencil witness has degree-at-most-two edge factors satisfying b_01 b_23-b_02 b_13+b_03 b_12=0. This degree-at-most-four identity is independent of the large block locators. It gives an explicit rank-two rational parameterization of all four block locators from two generators and an exact two-generator factorization R A_0 A_1 N_2 N_3=b_01^2 Lambda_D with deg R<=8. The bounded gate is proved but not classified.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_plucker_edge_gate/statement.md",
+      "background/nodes/rate_half_list_budget_three_plucker_edge_gate/proof.md",
+      "background/nodes/rate_half_list_budget_three_plucker_edge_gate/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_plucker_edge_gate/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_plucker_edge_gate/audit.md",
+      "background/nodes/rate_half_list_budget_three_plucker_edge_gate/result.md",
+      "background/nodes/rate_half_list_budget_three_plucker_edge_gate/verify.py",
+      "background/nodes/rate_half_list_budget_three_plucker_edge_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_split_pencil_normal_form",
+      "order": 1719
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1720
+    }
+  ],
+  "refutes": []
+}

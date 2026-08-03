@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1255,
+  "node": {
+    "id": "f3_hge4_near_third_dual_gap_exclusion",
+    "title": "HGE4 near-third dual-gap exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For dyadic m=3h+e with 0<e<h, the reciprocal complement creates a second coefficient gap in Z^(2/3). If h>=2e+1, its order-e differential recurrence propagates backward without a stall because 3 does not divide e. Hence E_h^prim(m,p)=0 whenever 7h>=2m+1, and live exact-level widths satisfy h<=floor(2m/7).",
+    "refs": [
+      "background/nodes/f3_hge4_near_third_dual_gap_exclusion/statement.md",
+      "background/nodes/f3_hge4_near_third_dual_gap_exclusion/proof.md",
+      "background/nodes/f3_hge4_near_third_dual_gap_exclusion/claim_contract.md",
+      "background/nodes/f3_hge4_near_third_dual_gap_exclusion/dependency_subdag.md",
+      "background/nodes/f3_hge4_near_third_dual_gap_exclusion/audit.md",
+      "background/nodes/f3_hge4_near_third_dual_gap_exclusion/result.md",
+      "background/nodes/f3_hge4_near_third_dual_gap_exclusion/verify.py",
+      "background/nodes/f3_hge4_near_third_dual_gap_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_near_third_belyi_necklace_bound",
+      "order": 2613
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2614
+    }
+  ],
+  "refutes": []
+}

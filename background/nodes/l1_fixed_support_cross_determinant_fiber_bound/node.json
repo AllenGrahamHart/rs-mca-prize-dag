@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1077,
+  "node": {
+    "id": "l1_fixed_support_cross_determinant_fiber_bound",
+    "title": "L1 fixed-support cross-determinant fiber bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For one source chart, defect degree, and exact petal-support pattern, exact saturated monic pairs inject by Phi(F,W)=(W_0F-WF_0)/product_i L_(S_i) into polynomials of degree at most r_cross=2d+v-t ell. Hence their total number, across all missing-equation syndromes, is at most q^max(0,r_cross+1). Every fixed (p,r_cross) box is polynomial per source chart after summing all defect degrees. Thus a bounded-polarity per-chart counterfamily must have unbounded cross slack inside the proved survivor width window; non-intrinsic first-match chart supply remains separate.",
+    "refs": [
+      "background/nodes/l1_fixed_support_cross_determinant_fiber_bound/statement.md",
+      "background/nodes/l1_fixed_support_cross_determinant_fiber_bound/proof.md",
+      "background/nodes/l1_fixed_support_cross_determinant_fiber_bound/claim_contract.md",
+      "background/nodes/l1_fixed_support_cross_determinant_fiber_bound/dependency_subdag.md",
+      "background/nodes/l1_fixed_support_cross_determinant_fiber_bound/audit.md",
+      "background/nodes/l1_fixed_support_cross_determinant_fiber_bound/verify.py",
+      "background/nodes/l1_fixed_support_cross_determinant_fiber_bound/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_bounded_mark_affine_split_pencil_compiler",
+      "order": 2098
+    },
+    {
+      "from": "l1_affine_split_pencil_cross_determinant_uniqueness",
+      "order": 2099
+    },
+    {
+      "from": "pma_saturated_mixed_support_kernel",
+      "order": 2100
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2101
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2102
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2103
+    }
+  ],
+  "refutes": []
+}

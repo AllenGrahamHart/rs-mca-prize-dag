@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 987,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_four_rank_gate",
+    "title": "Budget-three fiber-four constructions pass through a rank-two gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For direct equal-complete fibers of size four, multiplication by the deleted-root product gives a 4 by 4 residue matrix over F(X^4). Rank four forbids a constant locator relation, while rank three forces the huge equal-degree completed blocks to share a factor, contradicting pairwise-coprime block locators. Linear K_4-e and triangle-plus-singleton have rank at least three and are excluded. Linear K_4 survives only on the exact rank-two reciprocal-quadratic locus, which contains the antipodal deleted-pair component.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_four_rank_gate/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_four_rank_gate/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_four_rank_gate/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_four_rank_gate/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_four_rank_gate/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_four_rank_gate/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_four_rank_gate/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_four_rank_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_multideletion_multifiber_exclusion",
+      "order": 1815
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1816
+    }
+  ],
+  "refutes": []
+}

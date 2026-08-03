@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 96,
+  "node": {
+    "id": "e1_n256_s16_e21_endpoint_exclusion",
+    "title": "N=256 E=21 endpoint exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e21_endpoint_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e21_endpoint_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e21_endpoint_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e21_endpoint_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e21_endpoint_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e21_endpoint_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e21_endpoint_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e21_endpoint_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e21_endpoint_exclusion/verify_audit.py"
+    ],
+    "statement": "At N=256 and folded profile (3,4,0), V=42 is impossible. The exact profiles (5,4), (1,5), (4,2,1), (0,3,1), (3,0,2), (5,0,0,1), and (1,1,0,1) are exhausted by the proved joint exclusion. The live positive even frontier is 0<V<=40.",
+    "notes": "ENDPOINT CLOSURE 2026-07-28: the fourth cutoff-free endpoint closes by geometry, conductor, and direct exact norms."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e21_profile_parity_light_reduction",
+      "order": 4257
+    },
+    {
+      "from": "e1_n256_s16_e21_seven_profile_exclusion",
+      "order": 4258
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4263
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4264
+    }
+  ],
+  "refutes": []
+}

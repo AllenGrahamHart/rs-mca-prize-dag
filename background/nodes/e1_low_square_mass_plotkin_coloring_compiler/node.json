@@ -1,0 +1,62 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 21,
+  "node": {
+    "id": "e1_low_square_mass_plotkin_coloring_compiler",
+    "title": "Low-square-mass Plotkin coloring compiler for direct E1 image",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/statement.md",
+      "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/proof.md",
+      "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/claim_contract.md",
+      "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/dependency_subdag.md",
+      "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/audit.md",
+      "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/frontier.md",
+      "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/result.md",
+      "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/source_pin.json",
+      "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/verify.py",
+      "background/nodes/e1_low_square_mass_plotkin_coloring_compiler/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "(Q) prefix / quotient flatness (prob:capfpr-Q)",
+      "relation": "ANALOGY_ONLY"
+    },
+    "statement": "On the E1 class set X_ell, join same-value class pairs with square mass S<=2ell. If this graph is c-colorable, the Euclidean Plotkin identity bounds every fiber by c(ell+1), yielding six exact sufficient color caps and the binding prize-rate-1/8 cap chi<=3. More weakly, sum_y r_y^2<=(ell+1)K+(2ell+2-d0)E_low. Here d0 is 16/4 on RowC and the prize field floor sharpens it to 18/6. The binding edge budget is 65127585921474870475467050631501738502567, about 1.714K, so maximum degree three suffices.",
+    "notes": "ROUTE COMPILER 2026-07-28: converts the square-mass scope correction into exact finite max-fiber and low-mass second-moment targets, bypassing the stronger P allowance."
+  },
+  "requires": [
+    {
+      "from": "acl_count",
+      "order": 4402
+    },
+    {
+      "from": "e1_clean_anchor_exact_collision_allowance",
+      "order": 4403
+    },
+    {
+      "from": "e1_collision_square_mass_reparametrization",
+      "order": 4404
+    },
+    {
+      "from": "e1_prime_field_l2_norm_collision_radius",
+      "order": 4405
+    },
+    {
+      "from": "e1_prize_field_floor_even_norm_exclusion",
+      "order": 4406
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_collision_coloring",
+      "order": 4407
+    },
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4409
+    }
+  ],
+  "refutes": []
+}

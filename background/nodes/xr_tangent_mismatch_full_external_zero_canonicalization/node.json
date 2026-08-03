@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1205,
+  "node": {
+    "id": "xr_tangent_mismatch_full_external_zero_canonicalization",
+    "title": "Selected mismatches have canonical full-external-zero charts",
+    "status": "PROVED",
+    "statement": "For one deterministically selected exact-A witness/codeword per retained slope, let q_z be its nonzero difference codeword and Z_z all zeros of q_z outside the recovered discrepancy support T. The full locator P_Z divides q_z, |Z_z|<=K-1, and after division the scaled line on T has agreement at least A-|Z_z| with a code of dimension K-|Z_z|. Hence excess remains at least A-K. This gives one full-zero chart per selected slope/codeword and removes witness-subset spray, but does not bound the number of distinct charts.",
+    "refs": [
+      "background/nodes/xr_tangent_mismatch_full_external_zero_canonicalization/statement.md",
+      "background/nodes/xr_tangent_mismatch_full_external_zero_canonicalization/proof.md",
+      "background/nodes/xr_tangent_mismatch_full_external_zero_canonicalization/claim_contract.md",
+      "background/nodes/xr_tangent_mismatch_full_external_zero_canonicalization/audit.md",
+      "background/nodes/xr_tangent_mismatch_full_external_zero_canonicalization/result.md",
+      "background/nodes/xr_tangent_mismatch_full_external_zero_canonicalization/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 2483
+    }
+  ],
+  "refutes": []
+}

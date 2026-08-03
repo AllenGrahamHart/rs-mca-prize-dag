@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 411,
+  "node": {
+    "id": "f_consumer_scoped",
+    "title": "Consumer-scoped F: the proof only needs F on TWO classical flat families",
+    "status": "REFUTED",
+    "key": true,
+    "statement": "F restricted to the families the consumers actually feed it: (a) coordinate-slice/fiber flats \u2014 direction spaces are shortened RS, hence MDS, hence dual distance w* provably LARGE: no sparse dual words exist and the spread/moment branch applies wholesale; (b) Hankel-pencil kernel flats \u2014 displacement rank <= 2: sparse dual words are governed by the structured-kernel theory (the #191 V^T D V identities). If the scope audit confirms consumers stay within (a) u (b), general F demotes from critical to nice-to-have and the many-sparse census narrows to displacement kernels.",
+    "attack_surface": "GATE FIRST (QF.9): audit r2's fiber argument and imgfib's plane sections \u2014 verify every F-consumption lies in family (a) or (b); THEN (a) is classical MDS duality + the moment count, and (b) inherits #191; criticality rewiring only after the audit passes",
+    "falsifier": "a consumer found feeding F a flat outside both families (the audit's negative outcome \u2014 then general F stays critical)",
+    "refs": [
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
+    ],
+    "notes": "potentially the largest effective-difficulty reduction on the F front: the fiber side may fall to Singleton + moments outright | A0 AUDIT VERDICT (#200): NO_NOT_GLOBALLY \u2014 coordinate-prefix and Hankel-kernel consumers ARE scoped-treatable (QF.10 remains live for both), but the L1 ImgFib mixed-petal sunflower residual ESCAPES the two families. General F stays critical; no rewiring. | FLIP on replay (Codex wave 3): TARGET -> REFUTED."
+  },
+  "requires": [
+    {
+      "from": "f_dual_distance_frame",
+      "order": 683
+    }
+  ],
+  "alternatives": [
+    {
+      "from": "conj_f",
+      "order": 684
+    }
+  ],
+  "evidence_for": [
+    {
+      "to": "r2_rigidity",
+      "order": 687
+    },
+    {
+      "to": "imgfib",
+      "order": 688
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 538,
+  "node": {
+    "id": "l1_exact_shell_complement_toeplitz_normal_form",
+    "title": "L1 exact-shell complement Toeplitz normal form",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On a multiplicative-coset domain with locator Z^n-beta, let A have size a, w=a-k, and let M be the degree-(n-a) locator of its complement. The barycentric exact-shell moment sum_(x in A)U(x)x^j/L_A'(x) equals [Z^(n-j-1)]U(Z)M(Z). Hence deg I_A(U)<k iff UM has a length-w coefficient gap in degrees n-w through n-1. This fixed Toeplitz map is invariant under adding any degree-below-k codeword to U. Exact agreement shells are in bijection with monic complement divisors M of Z^n-beta in the Toeplitz zero section whose cofactor is coprime to M. The remaining global theorem is primitive Toeplitz split-divisor flatness or a paid transport to upstream prefix-affine divisor Q; no flatness is asserted here.",
+    "refs": [
+      "background/nodes/l1_exact_shell_complement_toeplitz_normal_form/statement.md",
+      "background/nodes/l1_exact_shell_complement_toeplitz_normal_form/proof.md",
+      "background/nodes/l1_exact_shell_complement_toeplitz_normal_form/claim_contract.md",
+      "background/nodes/l1_exact_shell_complement_toeplitz_normal_form/dependency_subdag.md",
+      "background/nodes/l1_exact_shell_complement_toeplitz_normal_form/audit.md",
+      "background/nodes/l1_exact_shell_complement_toeplitz_normal_form/lineage.md",
+      "background/nodes/l1_exact_shell_complement_toeplitz_normal_form/upstream_crosswalk.md",
+      "background/nodes/l1_exact_shell_complement_toeplitz_normal_form/verify.py",
+      "background/nodes/l1_exact_shell_complement_toeplitz_normal_form/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_received_word_barycentric_q_scope_fence",
+      "order": 2907
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2908
+    }
+  ],
+  "refutes": []
+}

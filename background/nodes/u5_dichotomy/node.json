@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 319,
+  "node": {
+    "id": "u5_dichotomy",
+    "title": "U5: eliminant OR identically-valid pencil (paid / candidate_new_obstruction)",
+    "status": "PROVABLE",
+    "refs": [
+      "wp_detail/wp2_6_underdetermined_program.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "u1_cramer",
+      "order": 180
+    },
+    {
+      "from": "u2_nondegeneracy",
+      "order": 181
+    },
+    {
+      "from": "u3_divisibility",
+      "order": 182
+    },
+    {
+      "from": "u4_pseudoremainder",
+      "order": 183
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "deficiency_ladder",
+      "order": 185
+    },
+    {
+      "to": "circuit_pricing",
+      "order": 719
+    }
+  ],
+  "refutes": []
+}

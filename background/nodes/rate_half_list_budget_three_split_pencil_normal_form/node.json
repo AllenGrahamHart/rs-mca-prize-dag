@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 951,
+  "node": {
+    "id": "rate_half_list_budget_three_split_pencil_normal_form",
+    "title": "Budget-three split-pencil normal form",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every four-codeword rate-half witness at agreement 3n/4-1 factors into four disjoint omitted-triple locators A_i and six oriented edge factors b_ij satisfying A_k b_ij+A_i b_jk=A_j b_ik. The six incidence types give an exact degree ledger with deg b_ij<=2 and only three possible quadratic slots. The block, edge, singleton, and full locators factor the multiplicative-coset vanishing polynomial and obey an exact pair-locator product identity. This reduces B*=3 to a base-field-normalized split-pencil classification but does not exclude or construct such a pencil.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/statement.md",
+      "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/proof.md",
+      "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/audit.md",
+      "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/result.md",
+      "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/verify.py",
+      "background/nodes/rate_half_list_budget_three_split_pencil_normal_form/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_intersection_reduction",
+      "order": 1718
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1725
+    }
+  ],
+  "refutes": []
+}

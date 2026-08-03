@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1039,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router",
+    "title": "Budget-three deleted-pair Chebyshev/Gegenbauer sign router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Source torsion and the primary gap put the Legendre scalar gate in one trace coordinate. The three squared branch equations factor exactly into six linear-sign Legendre equations, retaining one Chebyshev torsion sign and one Gegenbauer primary equation.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_chebyshev_gegenbauer_sign_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_parity_reduction",
+      "order": 1936
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse",
+      "order": 1937
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1938
+    }
+  ],
+  "refutes": []
+}

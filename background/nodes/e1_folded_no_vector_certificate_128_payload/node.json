@@ -1,0 +1,17 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 615,
+  "node": {
+    "id": "e1_folded_no_vector_certificate_128_payload",
+    "title": "E1 folded no-vector certificate payload for N'=128",
+    "status": "TARGET",
+    "statement": "Over the named E1 Pocklington field and displayed primitive 128th root, construct a complete machine-checkable folded-kernel certificate proving that no nonzero non-cyclotomic vector w in {-2,-1,0,1,2}^64 satisfies the N'=128 folded kernel equation.",
+    "attack_surface": "actual complete no-vector certificate for the N'=128 folded kernel over the named field/root",
+    "falsifier": "a nonzero non-cyclotomic folded vector in the named N'=128 field/root, or an incomplete certificate transcript",
+    "notes": "FALSE-GREEN CORRECTION: the historical fpylll run reported only rounded summary values. No exact output, basis, shortest-vector proof log, completion flag, deterministic checker, or independent audit is banked; the launcher also catches SVP failure without recording whether exact enumeration succeeded. The numerical observation remains evidence only. See status_ruling.md."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

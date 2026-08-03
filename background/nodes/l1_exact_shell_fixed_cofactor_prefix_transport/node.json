@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 539,
+  "node": {
+    "id": "l1_exact_shell_fixed_cofactor_prefix_transport",
+    "title": "L1 exact-shell fixed-cofactor prefix transport",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "After translating a received word by a degree-below-k codeword, let h be its degree. An exact agreement shell of size a>k is empty for a>h; otherwise its error cofactor Q in U-P=L_A Q has forced degree e=h-a and leading coefficient lc(U). For fixed Q, triangular multiplication determines the first min(a,a-k+e) nonleading coefficients of L_A, so the cell lies in one locator-prefix fiber. There are q^e possible Q. At e=0 the exact shell is exactly one depth-(a-k) locator-prefix fiber and exactness is automatic. The q^e union is an exact structural statement, not a budget verdict: for e<k its ambient cancellation and image-collapse penalty are supplied by l1_cofactor_depth_budget_cancellation, and its distinct targets form the graph proved by l1_cofactor_prefix_pade_graph_normal_form. No locator-Q bound, depth-uniform transport, graph-intersection theorem, or e>=k payment is asserted.",
+    "refs": [
+      "background/nodes/l1_exact_shell_fixed_cofactor_prefix_transport/statement.md",
+      "background/nodes/l1_exact_shell_fixed_cofactor_prefix_transport/proof.md",
+      "background/nodes/l1_exact_shell_fixed_cofactor_prefix_transport/claim_contract.md",
+      "background/nodes/l1_exact_shell_fixed_cofactor_prefix_transport/dependency_subdag.md",
+      "background/nodes/l1_exact_shell_fixed_cofactor_prefix_transport/audit.md",
+      "background/nodes/l1_exact_shell_fixed_cofactor_prefix_transport/lineage.md",
+      "background/nodes/l1_exact_shell_fixed_cofactor_prefix_transport/upstream_crosswalk.md",
+      "background/nodes/l1_exact_shell_fixed_cofactor_prefix_transport/verify.py",
+      "background/nodes/l1_exact_shell_fixed_cofactor_prefix_transport/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_exact_shell_complement_toeplitz_normal_form",
+      "order": 2909
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2910
+    }
+  ],
+  "refutes": []
+}

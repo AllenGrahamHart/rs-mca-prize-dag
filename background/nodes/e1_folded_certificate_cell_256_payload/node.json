@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 604,
+  "node": {
+    "id": "e1_folded_certificate_cell_256_payload",
+    "title": "E1 actual folded certificate payload for N'=256",
+    "status": "CONDITIONAL",
+    "statement": "For the E1 open cell N'=256, the named field and primitive root are supplied by e1_pocklington_250bit_exhibit_field and the schema dispatch by e1_named_field_folded_cell_certificate_soundness; it remains only to supply the complete no-vector certificate e1_folded_no_vector_certificate_256_payload excluding every nonzero non-cyclotomic w in {-2,-1,0,1,2}^128.",
+    "attack_surface": "conditional assembly from the proved E1 exhibit field, the cell-certificate soundness rule, and the remaining N'=256 no-vector certificate payload",
+    "falsifier": "a failed field/root check, a nonzero non-cyclotomic folded vector in the named N'=256 field, or an incomplete no-vector certificate"
+  },
+  "requires": [
+    {
+      "from": "e1_pocklington_250bit_exhibit_field",
+      "order": 948
+    },
+    {
+      "from": "e1_named_field_folded_cell_certificate_soundness",
+      "order": 950
+    },
+    {
+      "from": "e1_folded_no_vector_certificate_256_payload",
+      "order": 952
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 829,
+  "node": {
+    "id": "xr_supportwise_transverse_lineray_rank_charge",
+    "title": "Support-wise transverse LineRay rank charge",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_supportwise_transverse_lineray_rank_charge/statement.md",
+      "background/nodes/xr_supportwise_transverse_lineray_rank_charge/proof.md",
+      "background/nodes/xr_supportwise_transverse_lineray_rank_charge/audit.md",
+      "background/nodes/xr_supportwise_transverse_lineray_rank_charge/result.md",
+      "background/nodes/xr_supportwise_transverse_lineray_rank_charge/claim_contract.md",
+      "background/nodes/xr_supportwise_transverse_lineray_rank_charge/dependency_subdag.md",
+      "background/nodes/xr_supportwise_transverse_lineray_rank_charge/verify.py"
+    ],
+    "statement": "For a selected LineRay error e_z=u+zv-p_z with zero mask S_z, support-wise nontriviality on that same S_z is equivalent to the pointwise transversality condition {Hu,Hv} not subset H(F^supp(e_z)). Hence the all-LineRay selector inequality applies to the entire support-mismatch population even if the received pair has a joint explanation on another support: #slopes<=C(sigma+n-A,sigma). Exact official-row arithmetic pays sigma<=3 from an 8n^3 half-reserve everywhere and also sigma=4 from P-A2's full combined 16n^3 reserve at RowC rate 1/4. A P-A2 counterexample therefore has minimum selector rank at least 5 there and at least 4 on the other five rows."
+  },
+  "requires": [
+    {
+      "from": "xr_all_lineray_affine_core_bound",
+      "order": 1388
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 1389
+    },
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1390
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1391
+    }
+  ],
+  "refutes": []
+}

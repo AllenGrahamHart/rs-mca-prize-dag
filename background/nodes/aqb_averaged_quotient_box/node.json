@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 570,
+  "node": {
+    "id": "aqb_averaged_quotient_box",
+    "title": "AQB-I averaged quotient-box estimate",
+    "status": "REFUTED",
+    "statement": "AQB-I (Pro Brief I, verified constants): an averaged family over the c=2 quotient geometry gaining >= 429,645,547 total bits (= 0.000390760348 bits per 2^40 fiber coordinates) over the single-word floor at sigma* = 8,592,912,738. Exact deficit B_I = d*256 - 40 - log2 C(2^40, 2^39+d), d = 4,296,456,369; worst case at Q=256, monotone in Q. Cross-validation: the unamplified row's Qcrit = 255.90000002 reproduces the Modal q-threshold independently.",
+    "notes": "AQB ROUTE REFUTED (Pro, verified): convex-combination obstruction \u2014 the averaging transfer needs the family AVERAGE (convex comb of single-box counts <= max box), so box-sharing saves log|F| but the \u00f7|F| normalization cancels it. Gain needs a heavy-fiber theorem (forbidden, circular). See aqb_coupled_family_entropy_manifest_payload/refutation.md."
+  },
+  "requires": [
+    {
+      "from": "aqb_deficit_arithmetic",
+      "order": 870
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1093
+    }
+  ],
+  "refutes": []
+}

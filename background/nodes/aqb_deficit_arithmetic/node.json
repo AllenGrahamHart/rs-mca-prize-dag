@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 574,
+  "node": {
+    "id": "aqb_deficit_arithmetic",
+    "title": "AQB finite deficit arithmetic",
+    "status": "PROVED",
+    "statement": "For N=2^40, d=4,296,456,369, m=2^39+d, and Q<=256, the finite AQB deficit B_I=dQ-40-log2 C(N,m) is maximized at Q=256 and is strictly less than 429,645,547 bits; equivalently the recorded averaged-gain target clears the finite arithmetic deficit, with Qcrit=255.900000020976...",
+    "attack_surface": "finite arithmetic only; certified by Robbins Stirling interval bounds in nodes/aqb_averaged_quotient_box/verify.py",
+    "falsifier": "a certified interval computation placing B_I(256) at or above 429,645,547 bits"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1094
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1733,
+  "node": {
+    "id": "e1_profile018_e12_root_parity_screen_no_go",
+    "title": "E1 profile-(0,18) energy-12 root/parity screen no-go",
+    "status": "PROVED",
+    "closure": "explicit positive autocorrelation witness",
+    "statement": "The all-unit lag set {1,...,11,15} has energy 12, exact parity multiplicity two, a primitive root 148 modulo 257, a uniform positive conjugate-square floor four, and cubic index 378. Thus the autocorrelation/root/parity/positivity screen is nonempty. Its exact norm quotient by 514 is below the official floor.",
+    "refs": [
+      "background/nodes/e1_profile018_e12_root_parity_screen_no_go/statement.md",
+      "background/nodes/e1_profile018_e12_root_parity_screen_no_go/proof.md",
+      "background/nodes/e1_profile018_e12_root_parity_screen_no_go/claim_contract.md",
+      "background/nodes/e1_profile018_e12_root_parity_screen_no_go/dependency_subdag.md",
+      "background/nodes/e1_profile018_e12_root_parity_screen_no_go/audit.md",
+      "background/nodes/e1_profile018_e12_root_parity_screen_no_go/result.md",
+      "background/nodes/e1_profile018_e12_root_parity_screen_no_go/frontier.md",
+      "background/nodes/e1_profile018_e12_root_parity_screen_no_go/verify.py"
+    ],
+    "notes": "ROUTE CUT 2026-07-29: this is a signed autocorrelation target, not an 18-singleton spectral factor. Its exact resultant shows that norm is selective even though the preceding necessary screens are not."
+  },
+  "requires": [
+    {
+      "from": "e1_profile018_split_prime_payment_router",
+      "order": 4656
+    },
+    {
+      "from": "e1_s18_m514_hermite_two_profile_exclusion",
+      "order": 4657
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_profile018_m514_five_ideal_occupancy",
+      "order": 4658
+    },
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4659
+    }
+  ],
+  "refutes": []
+}

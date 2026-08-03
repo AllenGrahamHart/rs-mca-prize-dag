@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 962,
+  "node": {
+    "id": "rate_half_list_budget_three_maximal_field_degree_collapse",
+    "title": "Budget-three maximal-row field-degree collapse",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At n=2^41 and B*=3, every admissible field F_(p^e) has e in {1,2}. Prime rows satisfy p=1 mod 2^41 and quadratic rows satisfy p=+/-1 mod 2^40; the sole possible cubic interval candidate is divisible by seven.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/statement.md",
+      "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/proof.md",
+      "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/audit.md",
+      "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/result.md",
+      "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/verify.py",
+      "background/nodes/rate_half_list_budget_three_maximal_field_degree_collapse/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rules_freeze",
+      "order": 1756
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1757
+    }
+  ],
+  "refutes": []
+}

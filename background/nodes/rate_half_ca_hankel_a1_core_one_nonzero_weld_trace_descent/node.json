@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 974,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_nonzero_weld_trace_descent",
+    "title": "A=1 core-one nonzero-weld trace descent",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official A=1 core-one maximal-degree sharp cap, every nonsaturated-domain trace of the nonzero weld has an exact gcd factorization K_x=-H_xJ_x whose complementary Q-degree is delta_x+epsilon_x; the deficits sum to C_*. If D_*=1, the exceptional-slope trace has a saturated gcd of degree at least e+3b and complementary quotient degree at most c+1. Exhaustively, either one of these traces is active, or B_XE_Z divides K and factor allocation reduces the weld to W_1B_1-1=QK_1 with nonzero K_1 in a smaller degree box. Neither branch is excluded.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_nonzero_weld_trace_descent/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_nonzero_weld_trace_descent/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_nonzero_weld_trace_descent/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_nonzero_weld_trace_descent/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_nonzero_weld_trace_descent/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_nonzero_weld_trace_descent/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_nonzero_weld_trace_descent/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_nonzero_weld_trace_descent/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_zero_weld_exclusion",
+      "order": 1793
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1794
+    }
+  ],
+  "refutes": []
+}

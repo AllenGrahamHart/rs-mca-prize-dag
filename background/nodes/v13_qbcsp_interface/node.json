@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 696,
+  "node": {
+    "id": "v13_qbcsp_interface",
+    "status": "PROVED",
+    "title": "v13 Q/BC/SP interface (adapter taxonomy)",
+    "statement": "ADAPTER (v13 raw, upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes): the safe-side residual decomposes first-match as paid_tangent + paid_quotient + paid_extension + Q + BC + SP + named residuals, where Q = prefix/quotient flatness, BC = base-field-normalized split-pencil census, SP = primitive shift-pair control. PROVED as a taxonomy: the classes are defined first-match with a named-residual catch-all, so the decomposition is exhaustive by construction; the content lives in the class bounds (our existing strata), not the partition. This is the translation bridge: Q ~ our quotient/strip lane, BC ~ our SPI/XR aperiodic census, SP ~ our moment-trade/shift-pair discoveries."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "mca_safe",
+      "order": 1173
+    },
+    {
+      "to": "payment_completeness",
+      "order": 1174
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1264,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_nonharmonic_scalar_compiler",
+    "title": "Budget-three fiber-two c=1 parity nonharmonic packet has six scalar compilers",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the generic c=1 two-antipodal parity chamber, the signed-factor field bound leaves q_field=p^2 with p=1 mod 2^40 and puts all square-pencil data and the unordered outer trace in F_p without assuming the source lift descends. After the constant ODE and Euclidean division R=AS+T, completion is equivalent to one of the six Mobius traces y satisfying y_39=2, S^2=(y+2)T, and the reciprocal-root-invariant gate T/q_out=W^4. Every survivor also obeys 4tH^2+y+2=0 and deg gcd(S,P_aux)>=2^36-1. This is an exact compiler, not a uniform exclusion or compute authorization.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_nonharmonic_scalar_compiler/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_nonharmonic_scalar_compiler/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_nonharmonic_scalar_compiler/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_nonharmonic_scalar_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_nonharmonic_scalar_compiler/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_nonharmonic_scalar_compiler/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_nonharmonic_scalar_compiler/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_nonharmonic_scalar_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_mobius_router",
+      "order": 2635
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_harmonic_exclusion",
+      "order": 2636
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_even_factorization",
+      "order": 2637
+    },
+    {
+      "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+      "order": 2638
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_ode",
+      "order": 2639
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse",
+      "order": 2640
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2641
+    }
+  ],
+  "refutes": []
+}

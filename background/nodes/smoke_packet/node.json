@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 305,
+  "node": {
+    "id": "smoke_packet",
+    "title": "M2 smoke packet: A=506/507 with aperiodic numerator 0 (format test)",
+    "status": "PROVED",
+    "refs": [
+      "experimental/data/certificates/hankel-smoke-f17-506-507"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pinned_row",
+      "order": 163
+    },
+    {
+      "to": "window_pred_aper0",
+      "order": 164
+    }
+  ],
+  "refutes": []
+}

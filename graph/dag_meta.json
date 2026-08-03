@@ -1,0 +1,8 @@
+{
+  "schema": "prize-dag-meta-v1",
+  "dag": {
+    "schema": "prize-dag-v1",
+    "description": "Dependency DAG of the Proximity Prize program. Nodes = statements/artifacts/experiments; edges point FROM a dependency TO the statement it supports. gate=all: every 'req' child needed; gate=any: one 'alt' child suffices (plus all 'req'). Statuses: PROVED (on main w/ proof or exact verification), PROVABLE (route pinned, write-up pending), CONDITIONAL (proved under stated hypothesis), CONJECTURE (precise statement, unproved), TARGET (fuzzy, expected to sharpen), WALL (frozen hard core w/ consumer theorem), REFUTED (dead route), TEST (experiment/prediction). Source of truth for statuses: experimental/notes/roadmaps/ (r2 + proof_sketch + wp_detail). REFINEMENT PRINCIPLES (2026-07-02): (1) critical nodes carry exact 'statement' fields (+ attack_surface/falsifier notes) \u2014 machine-enforced; (2) new conjectured nodes are admitted ONLY as branches of exhaustive splits, proved equivalences/reductions, or with a named non-ev consumer + truth-confidence note \u2014 never as speculative lemma chains presuming a proof shape; (3) every critical conjecture gets a cheap wired falsifier TEST. INTEGRATED UPSTREAM 2026-07-02 (commit 01add412, PR #174 closed-integrated): this DAG is in-tree subordinate roadmap material; towards-prize.md is the source of truth.",
+    "root": "prize"
+  }
+}

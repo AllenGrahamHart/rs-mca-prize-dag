@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 888,
+  "node": {
+    "id": "xr_poststrip_affine_pencil_charge",
+    "title": "Post-strip affine-pencil charge",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_poststrip_affine_pencil_charge/statement.md",
+      "background/nodes/xr_poststrip_affine_pencil_charge/proof.md",
+      "background/nodes/xr_poststrip_affine_pencil_charge/verify.py",
+      "background/nodes/xr_poststrip_affine_pencil_charge/result.md"
+    ],
+    "statement": "Under the affine-core charge hypotheses, assume distinct selected errors have common zero set at most kappa<=k. For each kernel basis T used by two slopes, its persistent set completes T to their exact common zero set, so p_T+a<=kappa. The all-zero incidence then gives M_T<=floor((n-kappa)/(k+h-kappa)) and |P|C(h+a,a)<=C(n,a)floor((n-kappa)/(k+h-kappa)). The post-strip high-core branch uses kappa=k and the low-core branch uses kappa=k-1. Exact XR arithmetic pays selector ranks 4,4,4,15,15,14."
+  },
+  "requires": [
+    {
+      "from": "xr_affine_core_all_zero_charge",
+      "order": 1558
+    },
+    {
+      "from": "xr_strip_classification_rungs",
+      "order": 1559
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1560
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1561
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,92 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 149,
+  "node": {
+    "id": "e1_pure_cofactor_common_prime_associate_router",
+    "title": "E1 pure-cofactor common-prime associate router",
+    "status": "PROVED",
+    "closure": "ideal factorization, AM-GM reduction, and exact conductor-256 unit-basis theorem",
+    "refs": [
+      "background/nodes/e1_pure_cofactor_common_prime_associate_router/statement.md",
+      "background/nodes/e1_pure_cofactor_common_prime_associate_router/proof.md",
+      "background/nodes/e1_pure_cofactor_common_prime_associate_router/claim_contract.md",
+      "background/nodes/e1_pure_cofactor_common_prime_associate_router/dependency_subdag.md",
+      "background/nodes/e1_pure_cofactor_common_prime_associate_router/audit.md",
+      "background/nodes/e1_pure_cofactor_common_prime_associate_router/result.md",
+      "background/nodes/e1_pure_cofactor_common_prime_associate_router/frontier.md",
+      "background/nodes/e1_pure_cofactor_common_prime_associate_router/lineage.md",
+      "background/nodes/e1_pure_cofactor_common_prime_associate_router/upstream_crosswalk.md",
+      "background/nodes/e1_pure_cofactor_common_prime_associate_router/source_pin.json",
+      "background/nodes/e1_pure_cofactor_common_prime_associate_router/verify.py",
+      "background/nodes/e1_pure_cofactor_common_prime_associate_router/verify_audit.py"
+    ],
+    "statement": "At one fixed prize N=256 reduction root, every collision of absolute norm 2^mu p has principal ideal P_r(1-zeta)^mu. Dividing by the ramified factor gives a generator of P_r, so every two pure-cofactor collisions are normalized unit associates. Fixed-cofactor associates have explicit unit/inverse coefficient boxes and, modulo 256 shifts/signs, inject into an exact AM-GM body in the full rank-63 unit log lattice. That lattice has an explicit 63-circular-unit integer basis, and the exact maximum-weight profile target is at most 367 torsion orbits.",
+    "notes": "ANALYTIC AGGREGATE ROUTER 2026-07-29: the current profile-(3,6,S=18) residue has cofactors 2,4,8,16, with only the primitive m=16 support branch live. Cramer-Hadamard gives coefficient bounds 1006,503,251,125; the log body is ||lambda||_1<=2(D+sqrt(128D)), D=log(18^64/(2^mu p)). Miller's unconditional h+=1 theorem and Kummer-Sinnott identify the full lattice with 63 explicit circular units. Each orbit pays 128M_33(3,6) edges; 368 already exceed the complete edge budget. No orbit count, lower-profile payment, E1 image bound, or prize status movement follows."
+  },
+  "requires": [
+    {
+      "from": "e1_pair_feasible_prime_field_reduction",
+      "order": 4512
+    },
+    {
+      "from": "e1_low_square_mass_weighted_kernel_dictionary",
+      "order": 4513
+    },
+    {
+      "from": "e1_prize_n256_s18_profile_36_cofactor_windows",
+      "order": 4514
+    },
+    {
+      "from": "e1_prize_n256_s18_profile_36_m1538_exclusion",
+      "order": 4515
+    },
+    {
+      "from": "e1_prize_n256_s18_profile_36_m1024_exclusion",
+      "order": 4516
+    },
+    {
+      "from": "e1_prize_n256_s18_profile_36_m1028_exclusion",
+      "order": 4517
+    },
+    {
+      "from": "e1_prize_n256_s18_profile_36_m512_exclusion",
+      "order": 4518
+    },
+    {
+      "from": "e1_prize_n256_s18_profile_36_m514_exclusion",
+      "order": 4519
+    },
+    {
+      "from": "e1_prize_n256_s18_profile_36_m256_exclusion",
+      "order": 4520
+    },
+    {
+      "from": "e1_prize_n256_s18_profile_36_m64_exclusion",
+      "order": 4521
+    },
+    {
+      "from": "e1_prize_n256_s18_profile_36_m32_exclusion",
+      "order": 4522
+    },
+    {
+      "from": "e1_prize_n256_s18_profile_36_m16_one_division_exclusion",
+      "order": 4523
+    },
+    {
+      "from": "e1_prize_n256_s18_profile_36_m16_two_divisions_exclusion",
+      "order": 4524
+    },
+    {
+      "from": "e1_conductor256_full_unit_circular_basis",
+      "order": 4525
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4526
+    }
+  ],
+  "refutes": []
+}

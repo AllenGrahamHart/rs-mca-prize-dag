@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 541,
+  "node": {
+    "id": "l1_cofactor_prefix_pade_graph_normal_form",
+    "title": "L1 cofactor-prefix Pade graph normal form",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For an exact shell with w=a-k, forced cofactor degree 0<=e<k, and d=w+e, reverse the high coefficients. The product equations are Qhat(T)Lhat(T)=Uhat(T) mod T^(d+1). As Qhat ranges over its q^e choices with fixed nonzero constant term, Lhat=Uhat/Qhat gives a q^e-point codimension-w polynomial graph in depth-d locator-prefix space; projection to the first e locator coefficients is bijective and recovers Qhat by Uhat/Lhat mod T^(e+1). Exact shell members are exactly the split degree-a locators whose prefixes meet this graph and whose recovered cofactors satisfy the complement gcd guard. The graph has ambient density q^(-w). No divisor/graph transversality, quotient payment, or e>=k bound is asserted.",
+    "refs": [
+      "background/nodes/l1_cofactor_prefix_pade_graph_normal_form/statement.md",
+      "background/nodes/l1_cofactor_prefix_pade_graph_normal_form/proof.md",
+      "background/nodes/l1_cofactor_prefix_pade_graph_normal_form/claim_contract.md",
+      "background/nodes/l1_cofactor_prefix_pade_graph_normal_form/dependency_subdag.md",
+      "background/nodes/l1_cofactor_prefix_pade_graph_normal_form/audit.md",
+      "background/nodes/l1_cofactor_prefix_pade_graph_normal_form/lineage.md",
+      "background/nodes/l1_cofactor_prefix_pade_graph_normal_form/upstream_crosswalk.md",
+      "background/nodes/l1_cofactor_prefix_pade_graph_normal_form/verify.py",
+      "background/nodes/l1_cofactor_prefix_pade_graph_normal_form/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_exact_shell_fixed_cofactor_prefix_transport",
+      "order": 2913
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2914
+    }
+  ],
+  "refutes": []
+}

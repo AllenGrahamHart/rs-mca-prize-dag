@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1067,
+  "node": {
+    "id": "dli_wcl_odd_next_boundary_square_divisor_descent",
+    "title": "WCL odd next-boundary square-divisor descent",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The open WCL slots (ell,w)=(1,5),(2,7) have exact fixed-dimensional classifiers. After a unique common dilation, the locator is F(X)=X A(X^2)-bX^2-1 and the relation exists exactly when G(Y)=Y A(Y)^2-(bY+1)^2 divides Y^N-1, with (deg A,N)=(2,256),(3,512). Each remainder ideal is the unit ideal over Q, so a checked nonzero integer Nullstellensatz certificate restricts all survivors to finitely many characteristics. Neither certificate nor an official exclusion is claimed.",
+    "refs": [
+      "background/nodes/dli_wcl_odd_next_boundary_square_divisor_descent/statement.md",
+      "background/nodes/dli_wcl_odd_next_boundary_square_divisor_descent/proof.md",
+      "background/nodes/dli_wcl_odd_next_boundary_square_divisor_descent/result.md",
+      "background/nodes/dli_wcl_odd_next_boundary_square_divisor_descent/claim_contract.md",
+      "background/nodes/dli_wcl_odd_next_boundary_square_divisor_descent/dependency_subdag.md",
+      "background/nodes/dli_wcl_odd_next_boundary_square_divisor_descent/audit.md",
+      "background/nodes/dli_wcl_odd_next_boundary_square_divisor_descent/verify.py",
+      "background/nodes/dli_wcl_odd_next_boundary_square_divisor_descent/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_newton_short_window_exclusion",
+      "order": 1999
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_slot_1_5_emptiness",
+      "order": 2000
+    },
+    {
+      "to": "dli_wcl_slot_2_7_emptiness",
+      "order": 2001
+    }
+  ],
+  "refutes": []
+}

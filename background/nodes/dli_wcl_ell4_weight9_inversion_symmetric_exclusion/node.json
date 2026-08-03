@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1066,
+  "node": {
+    "id": "dli_wcl_ell4_weight9_inversion_symmetric_exclusion",
+    "title": "WCL ell=4 weight-9 inversion-symmetric exclusion",
+    "status": "PROVED",
+    "closure": "proof+certificate",
+    "statement": "For characteristic zero or characteristic p outside {2,3,17,19}, no monic quartic A has P(Y)=Y A(Y)^2-1 dividing Y^1024-1 with the nine roots of P invariant under inversion. Exact anti-reciprocal elimination covers four rational and four cubic branches; every branch divisibility-obstruction gcd is one, and all parameter exceptions fail the official v_2(p-1)>=41 gate. This excludes only the inversion-invariant component and does not close the full (4,9) slot.",
+    "refs": [
+      "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/statement.md",
+      "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/proof.md",
+      "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/result.md",
+      "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/claim_contract.md",
+      "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/dependency_subdag.md",
+      "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/audit.md",
+      "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/lineage.md",
+      "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/verify.py",
+      "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/verify_audit.py",
+      "background/nodes/dli_wcl_ell4_weight9_inversion_symmetric_exclusion/mutation_test.py",
+      "experiments/prize_resolution/wcl49_inversion_symmetric_divisibility_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_ell4_weight9_quartic_divisor_descent",
+      "order": 1997
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_slot_4_9_emptiness",
+      "order": 1998
+    }
+  ],
+  "refutes": []
+}

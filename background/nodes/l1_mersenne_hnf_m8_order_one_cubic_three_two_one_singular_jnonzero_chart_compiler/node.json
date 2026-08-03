@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1660,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler",
+    "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one singular-J-nonzero chart compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The determinant-singular J-nonzero coefficient core splits exactly into an x=0 two-variable endpoint with a linear relation in d and an x-nonzero three-variable chart with d reconstructed rationally.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/lineage.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/upstream_crosswalk.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_singular_jnonzero_chart_compiler/verify.py"
+    ],
+    "notes": "Exact chart compiler only. Both singular J-nonzero charts remain open and retain every role and arithmetic-lift obligation."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_coefficient_matrix_router",
+      "order": 4033
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4034
+    }
+  ],
+  "refutes": []
+}

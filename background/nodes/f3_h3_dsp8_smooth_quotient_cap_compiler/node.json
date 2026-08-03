@@ -1,0 +1,47 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1221,
+  "node": {
+    "id": "f3_h3_dsp8_smooth_quotient_cap_compiler",
+    "title": "DSP8 smooth quotient-cap compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let U_sm^c count smooth normalized DSP8 base tuples after forgetting only the ordered quotient pair. Exact quotient multiplicity and Mattarei give G_sm^c<C_M n^(2/3)U_sm^c. Therefore 189(10U_sm^0+17U_sm^A)<=144344n^(4/3), or class-blind 3213(U_sm^0+U_sm^A)<=144344n^(4/3), proves the live smooth residual. This compiler supplies no unweighted estimate.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/statement.md",
+      "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/proof.md",
+      "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/audit.md",
+      "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/result.md",
+      "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/verify.py",
+      "background/nodes/f3_h3_dsp8_smooth_quotient_cap_compiler/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "SP: primitive shift-pair control / exact second-moment ledger",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {
+      "from": "f3_affine_coset_pair_mattarei_bound",
+      "order": 2039
+    },
+    {
+      "from": "f3_h3_dsp8_smooth_residual_router",
+      "order": 2040
+    },
+    {
+      "from": "f3_h3_dsp8_unit_product_trace_normal_form",
+      "order": 2041
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2042
+    }
+  ],
+  "refutes": []
+}

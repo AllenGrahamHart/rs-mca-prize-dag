@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1275,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_parity_trace_jacobi_router",
+    "title": "Budget-three fiber-two c=2 parity has three traces and shares the CR-002 Jacobi norms",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On a two-antipodal c=2 denominator, normalize the roots to {1,-1,r,-r} and put tau=r^2. The exact primary/secondary packet is the existing univariate parity system at M=2^36. The six selected denominator pairs collapse to trace classes 0, 2+r+r^-1, and 2-r-r^-1, each twice; completion coupling is J_out=0 or the orientation-free product of the outer invariant cubic at the latter two traces. Every survivor also passes the same degree-2^36 Jacobi primary/torsion gcd and CR-002 norm pair used by matched c=0 and generic c=1 parity. This does not force general denominators to be parity or evaluate the norms.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_parity_trace_jacobi_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_parity_trace_jacobi_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_parity_trace_jacobi_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_parity_trace_jacobi_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_parity_trace_jacobi_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_parity_trace_jacobi_router/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_parity_trace_jacobi_router/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_parity_trace_jacobi_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_parity_reduction",
+      "order": 2677
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_mismatch_trace_resolvent_elimination",
+      "order": 2678
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_matched_trace_jacobi_norm_transfer",
+      "order": 2679
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler",
+      "order": 2680
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_pure_fourth_root_primary_exclusion",
+      "order": 2681
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2682
+    }
+  ],
+  "refutes": []
+}

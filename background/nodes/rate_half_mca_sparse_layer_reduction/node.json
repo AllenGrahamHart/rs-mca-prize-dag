@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 902,
+  "node": {
+    "id": "rate_half_mca_sparse_layer_reduction",
+    "title": "Exact MCA equality: far-pair CA maximum versus sparse mutual layer",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every linear code and integer agreement a, the exact support-wise MCA bad-slope numerator equals max(B_ca^far(a),S_sparse(a)), where the first term maximizes over column-far pairs and the second over pairs supported on at most n-a coordinates. Thus an MCA safe upper bound is exactly the conjunction of the two corresponding integer upper bounds.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_layer_reduction/statement.md",
+      "background/nodes/rate_half_mca_sparse_layer_reduction/proof.md",
+      "background/nodes/rate_half_mca_sparse_layer_reduction/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_layer_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_layer_reduction/verify.py",
+      "background/nodes/rate_half_mca_sparse_layer_reduction/audit.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1607
+    }
+  ],
+  "refutes": []
+}

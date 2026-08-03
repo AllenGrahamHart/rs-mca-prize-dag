@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1754,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-3 global quadratic quotient",
+    "status": "PROVED",
+    "closure": "24-chart block-lex compression to one base equation, one palindromic quadratic, and one linear recovery equation",
+    "statement": "On the guarded product-rank-five branch of positive deployed 433-1b role cell 3, the saturated common ideal in all 24 source-sign/cofactor charts is generated after exact localization by one degree-six (t,r) relation, one palindromic quadratic relation in b, and one linear recovery relation in c. Both recovery coefficients are units, and all ten full block-lex generators reduce to zero in the saturated three-generator ideal. No birationality, outside exclusion, or complete cell-3 closure is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_birational_profile_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_birational_profile_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel",
+      "order": 4867
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4868
+    }
+  ],
+  "refutes": []
+}

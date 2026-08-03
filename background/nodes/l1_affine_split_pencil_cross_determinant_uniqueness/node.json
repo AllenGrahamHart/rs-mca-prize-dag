@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1076,
+  "node": {
+    "id": "l1_affine_split_pencil_cross_determinant_uniqueness",
+    "title": "L1 affine split-pencil cross-determinant uniqueness",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In one fixed bounded-mark support/syndrome cell, any two exact saturated monic pairs have cross determinant Delta=W_0F_1-W_1F_0 satisfying product_i L_Ti | J Delta and deg(J Delta)<=2d+v. Hence the cell is a singleton whenever t ell>2d+v. Since v<=p, the entire region t ell>2d+p is polynomial per source chart, and every potentially nonsingleton arbitrary-locator cell lies in ceil((d-p+1)/ell)<=t_dense<=floor((2d+p)/ell). In strip d=m ell+eta, t_dense>=2m+1 and 2eta+p<ell is paid without any common-pencil hypothesis.",
+    "refs": [
+      "background/nodes/l1_affine_split_pencil_cross_determinant_uniqueness/statement.md",
+      "background/nodes/l1_affine_split_pencil_cross_determinant_uniqueness/proof.md",
+      "background/nodes/l1_affine_split_pencil_cross_determinant_uniqueness/claim_contract.md",
+      "background/nodes/l1_affine_split_pencil_cross_determinant_uniqueness/dependency_subdag.md",
+      "background/nodes/l1_affine_split_pencil_cross_determinant_uniqueness/audit.md",
+      "background/nodes/l1_affine_split_pencil_cross_determinant_uniqueness/verify.py",
+      "background/nodes/l1_affine_split_pencil_cross_determinant_uniqueness/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_bounded_mark_affine_split_pencil_compiler",
+      "order": 2093
+    },
+    {
+      "from": "pma_saturated_mixed_support_kernel",
+      "order": 2094
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2095
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2096
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2097
+    }
+  ],
+  "refutes": []
+}

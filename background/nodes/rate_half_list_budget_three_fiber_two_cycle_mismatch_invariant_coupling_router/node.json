@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1258,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_mismatch_invariant_coupling_router",
+    "title": "Budget-three fiber-two mismatch completion roots have a 24+6 invariant coupling",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For the generic canonical fiber-two cycle denominator-mismatch strata, the completion-root PGL coupling is root-permutation-free. If c=1, the four roots of D_* give exactly 24 candidate binary quartics, indexed by the ordered repeated-completion/residual-exceptional square pair and one relative sign. If c=2, they give exactly six candidates indexed by an unordered two-subset. Writing I=12ae-3bd+c^2 and J=72ace+9bcd-27ad^2-27b^2e-2c^3, a candidate matches the canonical outer quartic exactly when I_out^3 J_src^2=I_src^3 J_out^2. A passing class reconstructs its PGL_2(base field) map. No candidate is excluded and no matched norm gate is imported.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_mismatch_invariant_coupling_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_mismatch_invariant_coupling_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_mismatch_invariant_coupling_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_mismatch_invariant_coupling_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_mismatch_invariant_coupling_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_mismatch_invariant_coupling_router/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_mismatch_invariant_coupling_router/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_mismatch_invariant_coupling_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer",
+      "order": 2625
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2626
+    }
+  ],
+  "refutes": []
+}

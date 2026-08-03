@@ -1,0 +1,21 @@
+{
+  "schema": "sectioned-document-v1",
+  "output": "notes/PRIZE_RESOLUTION_ROADMAP.md",
+  "sections": [
+    "notes/roadmap/sections/00-overview-and-gate-addendum.md",
+    "notes/roadmap/sections/01-two-theses.md",
+    "notes/roadmap/sections/02-walls.md",
+    "notes/roadmap/sections/03-unifying-lemmas.md",
+    "notes/roadmap/sections/04-board-anatomy.md",
+    "notes/roadmap/sections/05-risk-register.md",
+    "notes/roadmap/sections/06-gates.md",
+    "notes/roadmap/sections/07-tracks.md",
+    "notes/roadmap/sections/08-endgame.md",
+    "notes/roadmap/sections/09-progress-metric.md",
+    "notes/roadmap/sections/10-maintainer-decisions.md",
+    "notes/roadmap/sections/11-planning-priors.md",
+    "notes/work_cycles/roadmap_r3/12-joint-harvest-log.md",
+    "notes/work_cycles/roadmap_r3/13-koalabear-20260729-30.md",
+    "notes/work_cycles/roadmap_r3/14-rate-half-20260730-20260803.md"
+  ]
+}

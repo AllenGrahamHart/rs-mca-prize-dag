@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 244,
+  "node": {
+    "id": "deficiency_ladder",
+    "title": "Underdetermined program (WP-2.6 ladder)",
+    "status": "TARGET",
+    "gate": "all",
+    "key": true,
+    "refs": [
+      "wp_detail/wp2_6_underdetermined_program.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "spi_wall",
+      "order": 90
+    },
+    {
+      "to": "second_pin_or_wall",
+      "order": 91
+    }
+  ],
+  "refutes": []
+}

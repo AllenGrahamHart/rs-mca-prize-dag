@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1593,
+  "node": {
+    "id": "xr_threshold_quotient_image_lcm_normal_form",
+    "title": "XR threshold quotient slopes have an exact radical-lcm image",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_threshold_quotient_image_lcm_normal_form/statement.md",
+      "background/nodes/xr_threshold_quotient_image_lcm_normal_form/proof.md",
+      "background/nodes/xr_threshold_quotient_image_lcm_normal_form/claim_contract.md",
+      "background/nodes/xr_threshold_quotient_image_lcm_normal_form/dependency_subdag.md",
+      "background/nodes/xr_threshold_quotient_image_lcm_normal_form/verify.py",
+      "background/nodes/xr_threshold_quotient_image_lcm_normal_form/verify_audit.py",
+      "background/nodes/xr_threshold_quotient_image_lcm_normal_form/audit.md",
+      "background/nodes/xr_threshold_quotient_image_lcm_normal_form/result.md"
+    ],
+    "statement": "For any finite support family on an affine received line, pass the endpoint restrictions to F^S/(C|_S). The monic gcd of their coordinate forms is basis-independent and is either 1 or one linear bad-slope factor. The radical lcm over every quotient-remainder support and raised agreement therefore has degree exactly equal to the distinct threshold-union quotient slope image. Constructing or bounding that lcm at official scale remains open."
+  },
+  "requires": [
+    {
+      "from": "xr_agreement_raise_quotient_safe_sum_fence",
+      "order": 3750
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 3751
+    }
+  ],
+  "refutes": []
+}

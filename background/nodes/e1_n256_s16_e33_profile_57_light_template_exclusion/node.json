@@ -1,0 +1,55 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 51,
+  "node": {
+    "id": "e1_n256_s16_e33_profile_57_light_template_exclusion",
+    "title": "N=256 E=33 profile-(5,7) light-template exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e33_profile_57_light_template_exclusion/verify_audit.py",
+      "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_census.cpp",
+      "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_census_modal.py",
+      "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_census_result.json",
+      "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_audit.cpp",
+      "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_audit_modal.py",
+      "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile57_light_template_audit_result.json"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), and V=66, autocorrelation magnitude profile (5,7) is impossible. The diameter-Sidon light condition has 7,200 normalized supports and exactly 100 affine-unit orbits. Two independent censuses cover 1,984,793,600 normalized signed vectors and agree on unrestricted M_3=1758 and full-conductor M_3=1416. The former has proper conductor; the latter is below the exact threshold 1732.",
+    "notes": "ROUTE CLOSURE 2026-07-27: removes the last V=66 profile by combining exact actual-geometry census with the proved proper-conductor router."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e33_profile_parity_diameter_reduction",
+      "order": 312
+    },
+    {
+      "from": "e1_n256_proper_conductor_collision_exclusion",
+      "order": 313
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 314
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 425
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 426
+    }
+  ],
+  "refutes": []
+}

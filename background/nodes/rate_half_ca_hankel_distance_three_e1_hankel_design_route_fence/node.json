@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1157,
+  "node": {
+    "id": "rate_half_ca_hankel_distance_three_e1_hankel_design_route_fence",
+    "title": "Rate-half distance-three e=1 Hankel-design route fence",
+    "status": "PROVED",
+    "closure": "exact verification",
+    "statement": "Over F_17 there is an explicit e=1,r=3 rate-half analogue whose full lifted syndrome pencil is column-far and has exactly five finite supported slopes, while its contracted pencil satisfies the distance-three pair normal form, exact external split design, exceptional rank/transversality gate, and adj M=c_H z q q^T. Its quotient support has four triples, so it lies below the official r>=4 uniqueness threshold and is route evidence, not a prize counterexample.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_distance_three_e1_hankel_design_route_fence/statement.md",
+      "background/nodes/rate_half_ca_hankel_distance_three_e1_hankel_design_route_fence/proof.md",
+      "background/nodes/rate_half_ca_hankel_distance_three_e1_hankel_design_route_fence/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_distance_three_e1_hankel_design_route_fence/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_distance_three_e1_hankel_design_route_fence/result.md",
+      "background/nodes/rate_half_ca_hankel_distance_three_e1_hankel_design_route_fence/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_split_pencil_equivalence",
+      "order": 2352
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2353
+    }
+  ],
+  "refutes": []
+}

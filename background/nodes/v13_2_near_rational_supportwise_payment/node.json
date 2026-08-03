@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1200,
+  "node": {
+    "id": "v13_2_near_rational_supportwise_payment",
+    "title": "Paper D v13.2 near-rational support-wise payment",
+    "status": "REFUTED",
+    "statement": "REFUTED: common codeword-pair proximity produced by two low-d1 slopes does not imply that no slope is support-wise MCA-bad. In the smooth rate-half code RS[F_17,mu_8,4] at m=5, u=(0,0,0,0,0,0,1,1) and v=(0,0,0,0,0,0,1,2) satisfy n-3w=m and have low-d1 nonzero-census slopes 8 and 16, yet both slopes possess agreement supports that do not extend to a codeword pair. The final displayed balanced-count inequality of cor:capfp-line is not itself refuted by this witness; its near-rational payment needs a new support-wise argument.",
+    "refs": [
+      "background/nodes/v13_2_near_rational_supportwise_payment/statement.md",
+      "background/nodes/v13_2_near_rational_supportwise_payment/refutation.md",
+      "background/nodes/v13_2_near_rational_supportwise_payment/claim_contract.md",
+      "background/nodes/v13_2_near_rational_supportwise_payment/dependency_subdag.md",
+      "background/nodes/v13_2_near_rational_supportwise_payment/audit.md",
+      "background/nodes/v13_2_near_rational_supportwise_payment/result.md",
+      "background/nodes/v13_2_near_rational_supportwise_payment/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "v13_bc_split_pencil_normal_form",
+      "order": 2472
+    },
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 2478
+    }
+  ],
+  "refutes": []
+}

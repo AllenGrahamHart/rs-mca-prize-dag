@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1364,
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+    "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) source-line colored quotient compiler",
+    "status": "PROVED",
+    "closure": "exact two-fiber colored-divisor descent and partial-resultant quotient system for saturated source-line (1,1,2) packets",
+    "statement": "In every saturated source-line diagonal (1,1,2) packet, the four mixed common-K stars transport to all four universal I-J stars. They form exactly two complete unramified source fibers over Omega=tau(K_Lc), so C_H is proportional to chi_Omega(psi). Here Omega=J_1 in the aligned case and Omega={xi,ell} in the near-aligned case with tau(eta) in K. The partial resultants descend to Q_J proportional to K_5^2 chi_Omega and chi_Omega Q_I proportional to R_7^2. This is a quotient compiler, not a packet or row deletion.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+      "order": 4676
+    },
+    {
+      "from": "rate_half_kb_m2_u2_colored_source_resultant_split_compiler",
+      "order": 4677
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4678
+    }
+  ],
+  "refutes": []
+}

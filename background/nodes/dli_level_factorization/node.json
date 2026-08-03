@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 705,
+  "node": {
+    "id": "dli_level_factorization",
+    "title": "C2 LEVEL-FACTORIZATION (nested form): cross-level conditional correlation <= 22 bits",
+    "status": "TARGET",
+    "statement": "SHARPENED after F-round (2026-07-07): the S6 claim that levels share codeword cells was WRONG \u2014 a shared-cell tower is structurally impossible (the half-section of mu_{n'} SQUARES ONTO the full mu_{n'/2}: the level-1 moment kernel is identically 3^{N/2} by the antipodal collapse, verified 40/40 primes, f2_level_correlation_modal.py). The b2b packet's true structure is NESTED-CONDITIONAL: each level's skew variables live on a domain depending on the previous level's state (tower total = Sum_{m1} skewcount(G(m1)), EXACT at 8 rows \u2014 b2b_primitive_core/notes/level2_falsifier.md TEST 1). C2's real content: E[prod_j rho_j] <= 2^22 * prod_j E[rho_j] (0.65 bits/level of cross-level correlation allowance within the 122-100 endpoint slack). Correlation is REAL (b2b TEST 2: conditional skewcounts vary ~1.6x within profile classes); magnitude unmeasured. NEXT: conditional-vs-unconditional means at the 8 exact b2b rows via verify_level2_tower.py. F-ROUND VERDICT: frozen form REFUTED (F2b nested measurement); successor C2'' not yet precisely posed \u2014 the coset/mean-field/accident decomposition is the required shape.",
+    "notes": "Frozen 2026-07-07 (self-tennis S6). See critical/nodes/dli_prime_weighted_large_block_support/notes/S6_LEVEL_FACTORIZATION.md. A faithful toy falsification test requires the packet measure definition (deferred to the consumer node).",
+    "attack_surface": "Construct the packet's two-level toy measure and compute E[prod]/prod E exactly; a super-2^{o(t)} ratio refutes the equality form (the Hoelder route then still discharges the node at higher-alphabet cost).",
+    "falsifier": "Nested-tower toy measurement showing cross-level correlation compounding past 22 bits over the level schedule."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_prime_weighted_large_block_support",
+      "order": 1206
+    },
+    {
+      "to": "dli_c2pp_joint_reserve",
+      "order": 1397
+    }
+  ],
+  "refutes": []
+}

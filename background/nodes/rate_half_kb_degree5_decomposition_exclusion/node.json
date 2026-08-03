@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1336,
+  "node": {
+    "id": "rate_half_kb_degree5_decomposition_exclusion",
+    "title": "KoalaBear degree-five decomposition exclusion",
+    "status": "PROVED",
+    "closure": "Riemann-Hurwitz saturation plus deployed-field cyclotomic exclusion",
+    "statement": "The inner-degree-five row of the KoalaBear degree-60 endpoint decomposition is impossible. Its two index-five source points exhaust Riemann-Hurwitz, making the inner map geometrically a fifth-power map with deployed-field domain normalization. Since p=2130706433 is 3 mod 5, gcd(5,p^6-1)=1 and fifth power is injective on P1(F_(p^6)), contradicting the required complete fiber of five distinct rational active roots. The remaining necessary degrees are 2,3,4,6,10,12,30; no owner, charge, cap 68, u2 close, or row close is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_degree5_decomposition_exclusion/statement.md",
+      "background/nodes/rate_half_kb_degree5_decomposition_exclusion/proof.md",
+      "background/nodes/rate_half_kb_degree5_decomposition_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_degree5_decomposition_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_degree5_decomposition_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_degree5_decomposition_exclusion/audit.md",
+      "background/nodes/rate_half_kb_degree5_decomposition_exclusion/result.md",
+      "background/nodes/rate_half_kb_degree5_decomposition_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_degree5_decomposition_exclusion/verify.py",
+      "background/nodes/rate_half_kb_degree5_decomposition_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_degree60_decomposition_divisor_adapter",
+      "order": 2987
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2989
+    }
+  ],
+  "refutes": []
+}

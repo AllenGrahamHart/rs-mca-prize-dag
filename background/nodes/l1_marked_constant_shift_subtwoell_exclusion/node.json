@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1089,
+  "node": {
+    "id": "l1_marked_constant_shift_subtwoell_exclusion",
+    "title": "L1 marked constant-shift sub-two-ell exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a common constant-shift pencil P-a_i with at least three marked petals, write P-a_i=S_iV_i, J=product_i V_i, and v=deg J. If S_i divides W-c_iF, gcd(F,W)=1, ell<deg F=d, and d+v<2ell, no such data exist. Multiplying by J restores full-petal congruences but gives gcd(JF,JW)=J; rank three would force a common divisor of degree d+v-ell>v, while rank at most two forces all c_i equal and again contradicts the exact gcd. Thus the bounded-p L1 branch is empty on this three-dense common-pencil marked strip, including whenever d+p<2ell.",
+    "refs": [
+      "background/nodes/l1_marked_constant_shift_subtwoell_exclusion/statement.md",
+      "background/nodes/l1_marked_constant_shift_subtwoell_exclusion/proof.md",
+      "background/nodes/l1_marked_constant_shift_subtwoell_exclusion/claim_contract.md",
+      "background/nodes/l1_marked_constant_shift_subtwoell_exclusion/dependency_subdag.md",
+      "background/nodes/l1_marked_constant_shift_subtwoell_exclusion/audit.md",
+      "background/nodes/l1_marked_constant_shift_subtwoell_exclusion/verify.py",
+      "background/nodes/l1_marked_constant_shift_subtwoell_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_bounded_polarity_marked_full_pencil_reduction",
+      "order": 2171
+    },
+    {
+      "from": "pma_coset_subtwoell_saturation_exclusion",
+      "order": 2172
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2173
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2174
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2175
+    }
+  ],
+  "refutes": []
+}

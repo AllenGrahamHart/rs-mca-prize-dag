@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1041,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence",
+    "title": "Budget-three deleted-pair primary/Legendre torsion-necessity fence",
+    "status": "PROVED",
+    "closure": "exact arithmetic certificate",
+    "statement": "Each Legendre branch has an exact good-characteristic M=1 solution with the primary gap and nonzero next coefficient when source torsion is omitted. All three examples fail r^32=1, proving that torsion is load-bearing in any uniform scalar-gate rejection.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_primary_legendre_torsion_necessity_fence/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_parity_reduction",
+      "order": 1941
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_legendre_collapse",
+      "order": 1942
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1943
+    }
+  ],
+  "refutes": []
+}

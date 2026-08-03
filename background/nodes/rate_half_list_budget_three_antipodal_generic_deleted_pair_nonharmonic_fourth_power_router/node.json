@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1018,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_fourth_power_router",
+    "title": "Budget-three antipodal generic deleted-pair nonharmonic fourth-power router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In the source trace coordinate, all three nonharmonic remainder multipliers are explicit rational squares. Conditional on the selected scalar identity, the final root-dependent square test is exactly the branch-independent assertion that the Euclidean remainder is a fourth power.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_fourth_power_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_fourth_power_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_fourth_power_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_fourth_power_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_fourth_power_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_fourth_power_router/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_fourth_power_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_scalar_router",
+      "order": 1859
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1860
+    }
+  ],
+  "refutes": []
+}

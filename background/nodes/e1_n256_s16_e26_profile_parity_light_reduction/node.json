@@ -1,0 +1,60 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 78,
+  "node": {
+    "id": "e1_n256_s16_e26_profile_parity_light_reduction",
+    "title": "N=256 E=26 profile/parity/light reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/statement.md",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/proof.md",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/claim_contract.md",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/audit.md",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/result.md",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/source_pin.json",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/verify.py",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/verify_audit.py",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_profile_parity_probe_modal.py",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_profile_parity_probe_result.json",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_profile_parity_probe_check.py"
+    ],
+    "statement": "For N=256 folded profile (3,4,0) at V=52, exact slack gives L<=16 and the exact cubic cutoff M_3=228. Of 13 magnitude profiles, diameter parity leaves six two-odd and four six-odd profiles. Their complete normalized light ledger has 8,168 two-odd supports in 87 affine templates and 280,720 six-odd supports in 1,234 affine templates. A direct census has a 26,219,123,456-vector floor per engine, so only the two-odd branch is authorized for direct enumeration.",
+    "notes": "ROUTE REDUCTION 2026-07-27: exact V=52 router. It excludes no profile and cuts the 24,492,353,024-vector six-odd direct census."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e27_endpoint_exclusion",
+      "order": 4163
+    },
+    {
+      "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+      "order": 4164
+    },
+    {
+      "from": "e1_n256_s16_signed_chord_collision_gate",
+      "order": 4165
+    },
+    {
+      "from": "e1_n256_s16_e30_profile_parity_light_reduction",
+      "order": 4166
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 4167
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4171
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4172
+    }
+  ],
+  "refutes": []
+}

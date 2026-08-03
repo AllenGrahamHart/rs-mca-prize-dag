@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 963,
+  "node": {
+    "id": "rate_half_list_budget_three_quadratic_scroll_primitive_module",
+    "title": "Budget-three quadratic scroll primitive module",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every quadratic budget-three chamber at d>=4 has coprime scroll generators of exact degrees (d-2,d-1) in pendant type or (d-2,d-2) in quadratic K_4-e. The module is the direct sum of <alpha,Xalpha> and <beta,Xbeta>, so its four locators are independent affine-linear combinations of a primitive generator pair.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/statement.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/proof.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/audit.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/result.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/verify.py",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_primitive_module/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_quadratic_scroll_full_rank",
+      "order": 1754
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1755
+    }
+  ],
+  "refutes": []
+}

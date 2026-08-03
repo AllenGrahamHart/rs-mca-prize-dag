@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1035,
+  "node": {
+    "id": "f3_h3_double_accident_coupling_batch_odd_saturation",
+    "title": "H3 double-accident coupling-batch odd saturation",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For normalized shifted factors c_a=(1-zeta^a)/(1-zeta), every Norm(c_a) is a power of two and c_a is a unit at each official odd row-prime ideal. The exact syzygy c_(u0)lambda_1-c_(u1)lambda_0=-theta_01 shows that, after inverting two, an anchored quotient-collision ideal equals the symmetric batch of product-to-quotient coupling generators. Their odd prime-ideal valuations and odd ideal-norm parts are identical.",
+    "refs": [
+      "background/nodes/f3_h3_double_accident_coupling_batch_odd_saturation/statement.md",
+      "background/nodes/f3_h3_double_accident_coupling_batch_odd_saturation/proof.md",
+      "background/nodes/f3_h3_double_accident_coupling_batch_odd_saturation/claim_contract.md",
+      "background/nodes/f3_h3_double_accident_coupling_batch_odd_saturation/dependency_subdag.md",
+      "background/nodes/f3_h3_double_accident_coupling_batch_odd_saturation/audit.md",
+      "background/nodes/f3_h3_double_accident_coupling_batch_odd_saturation/result.md",
+      "background/nodes/f3_h3_double_accident_coupling_batch_odd_saturation/verify.py",
+      "background/nodes/f3_h3_double_accident_coupling_batch_odd_saturation/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_double_accident_low_distance_joint_ideal_router",
+      "order": 1972
+    },
+    {
+      "from": "f3_h3_double_accident_nonzero_coupling_ideal_router",
+      "order": 1973
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1974
+    }
+  ],
+  "refutes": []
+}

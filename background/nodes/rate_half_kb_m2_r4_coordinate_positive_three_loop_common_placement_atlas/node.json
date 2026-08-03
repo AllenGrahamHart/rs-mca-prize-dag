@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1426,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas",
+    "title": "KoalaBear m2 r4 positive coordinate three-loop common-placement atlas",
+    "status": "PROVED",
+    "closure": "four exhaustive positive three-loop common placement orbits with exact degree-six residual cuts",
+    "statement": "Each positive three-loop profile has exactly two common loop-placement orbits, according as the unique B_1-root loop carries a high- or low-degree target pair. The 442 double edge has opposite signed types, while the 433 tree absorbs both edge signs. All four guarded common-kernel determinants factor into collision guards and one explicit degree-six residual.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_three_loop_common_placement_atlas.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler",
+      "order": 3133
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier",
+      "order": 3134
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3135
+    }
+  ],
+  "refutes": []
+}

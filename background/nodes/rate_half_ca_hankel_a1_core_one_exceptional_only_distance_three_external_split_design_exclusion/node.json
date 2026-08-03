@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1146,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_exclusion",
+    "title": "Rate-half distance-three external split-design exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every exact external split design supplies a nonzero quartic in every omitted-pair crossing kernel and hence lies in the all-deficient quartic-support branch. The Pade residual discriminant theorem excludes that branch. Therefore the official A=1, s=1, e=2m-1 distance-three chart is empty.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_exclusion/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_exclusion/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_exclusion/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_support_pade_residual_discriminant_exclusion",
+      "order": 2321
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_support_pair_crossing_rank_gate",
+      "order": 2322
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2323
+    }
+  ],
+  "refutes": []
+}

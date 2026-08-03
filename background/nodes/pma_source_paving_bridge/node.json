@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 873,
+  "node": {
+    "id": "pma_source_paving_bridge",
+    "title": "PMA source chart embeds in the all-pair paving-basis compiler",
+    "status": "PROVED",
+    "statement": "After factoring the retained background, the PMA auxiliary list is a degree-<kappa interpolation list with threshold kappa+sigma. Pinned interpolation bases give sum_Q binom(a(Q),kappa)<=binom(|T|,kappa), and one added locator realizes every object, including repeated slopes, in the transverse weighted-RS chart of upstream PR #764.",
+    "refs": [
+      "background/nodes/pma_source_paving_bridge/statement.md",
+      "background/nodes/pma_source_paving_bridge/proof.md",
+      "background/nodes/pma_source_paving_bridge/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_aux_list_reduction",
+      "order": 1416
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 1417
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1448
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 960,
+  "node": {
+    "id": "rate_half_list_budget_three_quadratic_scroll_full_rank",
+    "title": "Budget-three quadratic scrolls are full rank",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every one of the three quadratic pendant chambers and the quadratic K_4-e chamber has invertible balanced-scroll coefficient matrix. Its determinant is b_01^2(L_12 L_03-L_02 L_13), so the rank-deficient quadratic branch is empty and all four chambers have the full-rank module (alpha,Xalpha,beta,Xbeta).",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/statement.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/proof.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/audit.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/result.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/verify.py",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_full_rank/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_quadratic_scroll_atlas",
+      "order": 1752
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1753
+    }
+  ],
+  "refutes": []
+}

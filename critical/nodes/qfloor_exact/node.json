@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 14,
+  "node": {
+    "id": "qfloor_exact",
+    "title": "prop:qfloor: quotient floor exact above norm threshold",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ],
+    "statement": "For a prime-field row C=RS[F_p,D,k] with p congruent to 1 modulo n, quotient order N' dividing n, ell'=rho N'+1, and p>(2ell')^(N'/2), the canonical quotient line at radius 1-rho-1/N' has exactly Acl(N',ell') distinct quotient-value slopes. No below-threshold or extension-field conclusion is asserted."
+  },
+  "requires": [
+    {
+      "from": "acl_count",
+      "order": 20
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "zone_b",
+      "order": 19
+    },
+    {
+      "to": "knife_edge_census",
+      "order": 629
+    }
+  ],
+  "refutes": []
+}

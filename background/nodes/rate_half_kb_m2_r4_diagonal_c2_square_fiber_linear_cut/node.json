@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1360,
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut",
+    "title": "KoalaBear m2 r4 diagonal c2 square-fiber linear cut",
+    "status": "PROVED",
+    "closure": "exact rank-four unramified and rank-two ramified coefficient cuts from the saturated c2 square fiber",
+    "statement": "In the source-line branch of every saturated c=2 diagonal row, the forced square fiber has an exact ramification dichotomy. At an unramified source orbit, both U(T,w) and V(T,w) lie in the line spanned by the printed endpoint quadratic P_J1; these four independent linear conditions cut the reciprocal source spaces from dimensions 8/7 to 4/3, and all three coefficient minors share the reciprocal source-orbit quadratic with explicit linear quotients. At the ramified orbit {0,infinity}, only the relevant value of U is constrained, giving rank two and dimensions 6/5. This is a linear reduction, not a branch or row deletion.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler",
+      "order": 4663
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction",
+      "order": 4664
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4665
+    }
+  ],
+  "refutes": []
+}

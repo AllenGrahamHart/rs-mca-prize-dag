@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 388,
+  "node": {
+    "id": "certified_valueset_lower",
+    "title": "Certified per-prime value-set LOWER bounds at the crossing scale (the knife-edge core)",
+    "status": "CONDITIONAL",
+    "key": true,
+    "statement": "For a knife-edge row (specific p): certify |{e1(B) mod p}| > B* by exhibiting a provably all-pairs-distinct class family of size > B*. Collision-monotonicity makes the safe side free; THIS is the entire hard half. Per-prime (almost-all-primes tools do not apply); sampling unreachable at N' >= 128.",
+    "attack_surface": "compose pairwise height-certified distinctness (norm < p => no collision) into large families: a packing/coding problem in the swap metric \u2014 minimum-swap-distance families whose difference heights stay below p, or a smarter invariant certifying blocks at once",
+    "falsifier": "n/a (a construction target; its absence just leaves knife-edge rows undecided)",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ],
+    "notes": "the knife-edge census's difficulty CONCENTRATED into one object; everything else in Tier A is estimates + elementary structure | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/certified_valueset_lower/conditional.md."
+  },
+  "requires": [
+    {
+      "from": "graded_collision_radius",
+      "order": 670
+    },
+    {
+      "from": "far_pair_separation",
+      "order": 671
+    },
+    {
+      "from": "certifier_uniformity",
+      "order": 739
+    }
+  ],
+  "alternatives": [
+    {
+      "from": "lattice_cone_certificate",
+      "order": 730
+    }
+  ],
+  "evidence_for": [
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 518
+    }
+  ],
+  "refutes": []
+}

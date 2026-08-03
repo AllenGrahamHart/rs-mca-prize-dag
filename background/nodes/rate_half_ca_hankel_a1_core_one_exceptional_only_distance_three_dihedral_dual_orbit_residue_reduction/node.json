@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1151,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_dual_orbit_residue_reduction",
+    "title": "Rate-half distance-three dihedral dual orbit-residue reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On either surviving rank-two dihedral branch, every dual row-product residue has the form kappa W(u_i)E'(u_i)^2, where E is the degree-e orbit polynomial and W is a fixed degree-seven boundary polynomial. The e coordinatewise r-th-power gates are equivalent to one r-th-power equation in the split algebra F_p[U]/(E), with a resultant-discriminant global consequence.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_dual_orbit_residue_reduction/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_dual_orbit_residue_reduction/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_dual_orbit_residue_reduction/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_dual_orbit_residue_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_dual_orbit_residue_reduction/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_dual_orbit_residue_reduction/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_boundary_order_router",
+      "order": 2335
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router",
+      "order": 2336
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2337
+    }
+  ],
+  "refutes": []
+}

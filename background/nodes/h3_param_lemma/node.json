@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 480,
+  "node": {
+    "id": "h3_param_lemma",
+    "title": "PROVED (autonomous #45, sympy-verified): the h=3 (a,b,t) parametrization",
+    "status": "PROVED",
+    "statement": "For P = {1,a,b} in mu_n (odd char), every nontrivial affine triple (x,y,z) with the same top-2 elementary symmetric sums is x(t),y(t),z(t) = explicit deg-2/deg-2 rational functions of one parameter t, D = t^2+t+1 != 0; converse holds. BOTH symmetric-sum identities verified identically zero by independent sympy simplification (not just the packet verifier). This is the exact base object of the h=3 active-core count: C_3^nt = #{(a,b,t): a,b,x(t),y(t),z(t) in H, non-permutation, non-toral}.",
+    "refs": [
+      "experimental/notes/roadmaps/x12_h3_parametrization.md"
+    ],
+    "notes": "Autonomous-mode proof, independently re-derived here. The h=3 active-core problem is now an EXACT rational-incidence count in 3 variables \u2014 the sharpest handle on the terminal node. | CUBIC CAP PROVED (#46, independently verified): x(t) in H forces t to be a root of the nonzero degree-<=2n polynomial N_x(t)^n - D(t)^n (nonzero because N_x = D => a=b=1, invalid) \u2014 so <= 2n partners per core; C(n-1,2) cores => anchored active pairs < n^3, UNCONDITIONALLY and before any strip. This is the L3/n^3 rung for h=3 \u2014 PROVED. Sufficiency for the campaign still needs W4's rewiring (n^3 -> determination); the BOUND itself is now closed at h=3."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1072
+    }
+  ],
+  "refutes": []
+}

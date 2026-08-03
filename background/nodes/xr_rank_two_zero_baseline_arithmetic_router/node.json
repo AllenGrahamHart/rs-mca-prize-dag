@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1582,
+  "node": {
+    "id": "xr_rank_two_zero_baseline_arithmetic_router",
+    "title": "XR rank-two zero baselines have divisor arity and collision-design normal form",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_rank_two_zero_baseline_arithmetic_router/statement.md",
+      "background/nodes/xr_rank_two_zero_baseline_arithmetic_router/proof.md",
+      "background/nodes/xr_rank_two_zero_baseline_arithmetic_router/claim_contract.md",
+      "background/nodes/xr_rank_two_zero_baseline_arithmetic_router/dependency_subdag.md",
+      "background/nodes/xr_rank_two_zero_baseline_arithmetic_router/verify.py",
+      "background/nodes/xr_rank_two_zero_baseline_arithmetic_router/verify_audit.py",
+      "background/nodes/xr_rank_two_zero_baseline_arithmetic_router/audit.md",
+      "background/nodes/xr_rank_two_zero_baseline_arithmetic_router/result.md"
+    ],
+    "statement": "For a rank-two relation occupying a full minimal Maxwell core at an official odd reserve, exact baseline D_0=0 forces t=2s+2 with s dividing h and even D=d+1. Every defect charge vanishes, the outside extensions form an exact multiplicity-one/two collision design, all five-row cores are impossible, and four-row cores have D=2h with no inactive extensions. Exact divisor, degree-capacity, private-congruence, and a<=k arithmetic gives necessary affine-rank floors 10,10,6,8601474050,8601474050,4302648690 on the six rows. Strictly negative baselines, proper circuits, higher trade rank, nonuniform cells, and aggregate payment remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_rank_two_maxwell_collision_defect_identity",
+      "order": 3702
+    },
+    {
+      "from": "xr_higher_rank_rank_two_shell_maxwell_router",
+      "order": 3703
+    },
+    {
+      "from": "xr_target_budget_audit",
+      "order": 3704
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3705
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1022,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_intermediate_hensel_certifier",
+    "title": "Budget-three antipodal intermediate Hensel certifier",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the maximal intermediate floor, normalized V is the unique formal solution of H=C^3(1+u z^h C/B). Its first forbidden coefficient gives the exact gate 3 kappa-u Delta=0: it uniquely fixes u when Delta is nonzero, rejects when Delta=0 and kappa is nonzero, and isolates one scalar only when both vanish.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_certifier/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_certifier/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_certifier/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_certifier/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_certifier/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_certifier/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_certifier/verify.py",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_certifier/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_fourth_root_gap_reduction",
+      "order": 1868
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1869
+    }
+  ],
+  "refutes": []
+}

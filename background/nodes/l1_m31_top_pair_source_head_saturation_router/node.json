@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1730,
+  "node": {
+    "id": "l1_m31_top_pair_source_head_saturation_router",
+    "title": "M31 top-pair source-head saturation router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every maximal-overlap pair in the M31 proper-G zero-excess terminal saturates the reduced source determinant: A_i b_j-A_j b_i=(gamma_j-gamma_i)gcd(H_i,H_j), so top edges join distinct source-head values. Every head fiber has at most 458812 members. A violating family therefore uses at least five head values, has at least 1699117 full-head members, and its dense anchor forces at least 71643276 colored core cells.",
+    "refs": [
+      "background/nodes/l1_m31_top_pair_source_head_saturation_router/statement.md",
+      "background/nodes/l1_m31_top_pair_source_head_saturation_router/proof.md",
+      "background/nodes/l1_m31_top_pair_source_head_saturation_router/claim_contract.md",
+      "background/nodes/l1_m31_top_pair_source_head_saturation_router/dependency_subdag.md",
+      "background/nodes/l1_m31_top_pair_source_head_saturation_router/audit.md",
+      "background/nodes/l1_m31_top_pair_source_head_saturation_router/result.md",
+      "background/nodes/l1_m31_top_pair_source_head_saturation_router/lineage.md",
+      "background/nodes/l1_m31_top_pair_source_head_saturation_router/upstream_crosswalk.md",
+      "background/nodes/l1_m31_top_pair_source_head_saturation_router/verify.py",
+      "background/nodes/l1_m31_top_pair_source_head_saturation_router/verify_audit.py"
+    ],
+    "notes": "Exact source-sensitive top-edge coloring and spread reduction only. It does not aggregate head fibers, supply first-owner add-back, pay Q=147595, or move a Prize endpoint."
+  },
+  "requires": [
+    {
+      "from": "l1_m31_rank7_dense_top_decorated_shift_pair_router",
+      "order": 4507
+    },
+    {
+      "from": "l1_m31_top_neighbor_core_shadow_payment",
+      "order": 4508
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4509
+    }
+  ],
+  "refutes": []
+}

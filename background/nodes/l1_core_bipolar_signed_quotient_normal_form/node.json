@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1098,
+  "node": {
+    "id": "l1_core_bipolar_signed_quotient_normal_form",
+    "title": "L1 core bipolar signed-quotient normal form",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a core partitioned into complete P-fibers, orient each exact defect fiber as dense or sparse, with ties sparse. The defect locator has a unique signed quotient presentation F_D L_H=L_S product_(a in A_+)(P-a), where H is the set of holes in dense fibers, S is the occupied set in sparse fibers, gcd(L_H,L_S)=1, and deg L_H+deg L_S equals the symmetric core polarity. The triple (A_+,H,S) reconstructs D exactly. This identifies growing core polarity with growing signed mark degree but supplies no periodic owner or count.",
+    "refs": [
+      "background/nodes/l1_core_bipolar_signed_quotient_normal_form/statement.md",
+      "background/nodes/l1_core_bipolar_signed_quotient_normal_form/proof.md",
+      "background/nodes/l1_core_bipolar_signed_quotient_normal_form/claim_contract.md",
+      "background/nodes/l1_core_bipolar_signed_quotient_normal_form/dependency_subdag.md",
+      "background/nodes/l1_core_bipolar_signed_quotient_normal_form/audit.md",
+      "background/nodes/l1_core_bipolar_signed_quotient_normal_form/verify.py",
+      "background/nodes/l1_core_bipolar_signed_quotient_normal_form/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_marked_common_pencil_quotient_boundary_router",
+      "order": 2217
+    },
+    {
+      "from": "l1_quotient_chart_bipolar_entropy_closure",
+      "order": 2218
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2219
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2220
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2221
+    }
+  ],
+  "refutes": []
+}

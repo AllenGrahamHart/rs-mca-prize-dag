@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 775,
+  "node": {
+    "id": "petal_g3_pricing_multiplicity",
+    "status": "PROVED",
+    "statement": "PETAL PREDICATE G3 (pricing multiplicity): per U at official rows, the number of listed codewords charged to one canonical staircase support datum (scale, tail, selected fibers \u2014 canonicalization per the replayed staircase composite) is <= n^{b3}, and the inclusion-exclusion weight W of e22_lower_scale_filter_inclusion_exclusion is exactly the dyadic_profile_evaluation multiplicity weight (the declared-placeholder discharge). PROVED AROUND IT: support-level multiplicity is exactly zero-hidden (7-lemma composite, replayed); for staircase parts of size >= k, interpolation gives multiplicity <= 1 \u2014 the open content is sub-k staircase parts. CANDIDATE DISCHARGE, not consumed: e22_cross_scale_pricing_multiplicity + the minimal-scale branch (un-replayed, largely verifier-less \u2014 2026-07-10 amber audit, Catch A); a fresh-context replay of that branch is the fastest close. FALSIFIER: a (U, canonical support) pair with super-polynomial codeword multiplicity, or a weighted cell where the declared W disagrees with dyadic_profile_evaluation. || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/petal_growth/notes/QUALITY_petal_g3_pricing_multiplicity.md || FIFTH-BRANCH REPLAY RESOLUTION (2026-07-10, fresh-context replay): the candidate discharge does NOT close this predicate \u2014 the branch is REPLAY-CLEAN as a weight-parametric scaffold (exhaustive n=8/16 ground truth) but discharges NEITHER clause: clause (a)'s objects (codewords per (U, datum), per-U sup, sub-k) never appear in it (triple quantifier drift), and clause (b) AS ORIGINALLY WORDED is unprovable-as-stated (catch #47: the IE weight lives on canonical support classes, dyadic_profile_evaluation's on quotient cosets; exact ratios 8/5, 640/3 \u2014 no constant or integer declaration exists). CLAUSE (b) RE-POSED: the weight declaration is w = 1 per canonical class, and the class-to-coset conversion is the EXPLICIT identity raw_M = Q_M * N/(N-h) * [x^b]H_M(x)^{N-h} (N = n/M, h = floor(A/M), b = A-hM; verified exactly on every tabulated cell; ground-truth harness banked at critical/nodes/petal_growth/notes/g3_replay_20260710/g3_confront_qa22.py) \u2014 proving that identity in general + the per-U charging map (G2/imgfib territory) + a sub-k interpolation analogue is the honest remaining content. The branch's real deliverable: cross-scale dedup soundness of the support-datum CENSUS (denominator bookkeeping) \u2014 never clause (a)'s numerator. || CONDITIONAL CLOSE AS COMPILER (2026-07-12, Codex 2c993e9 + import repairs): clause (b) DISCHARGED (petal_g3_profile_conversion_identity, proved in general); clause (a) discharged by full-support codeword injectivity (per-(U,R) multiplicity = 1 at |R| = A >= k; the sub-k support-only no-go guards the re-anchoring) + G1's first-match atlas (coverage + fixed order => charge exactly once; inflation factor 1 <= 719). G3 is now a COMPILER conditional on petal_g1_layer_maps. CENSUS CARVE-OUT (import repair): G3 does NOT price the realized small-scale (2 <= c(S) <= t) class census \u2014 that obligation is petal_small_scale_staircase_census's; G3's charge-once accounting applies per class regardless of scale. || HYPOTHESIS DISCHARGED -> PROVED (2026-07-13): petal_g1_layer_maps (the compiler's only open req) is PROVED at the clause-(P) banking (cp packet + cpa audit SOUND) -- the atlas is word-independent, which is strictly stronger than the per-received-word supply this compiler consumes; coverage at rates <= 1/4 holds vacuously (floor band EMPTY, catch #169) and the small-scale census carve-out is priced by the PROVED census gate. The conditional implication in proof.md therefore fires unconditionally: charge exactly once, aggregate inflation factor 1 <= 719. INHERITED TRIPWIRE: G1's (P)-3 (a maintainer P1 wide-resolution re-opens G1 and hence this compiler; pre-registered)."
+  },
+  "requires": [
+    {
+      "from": "petal_g3_profile_conversion_identity",
+      "order": 1323
+    },
+    {
+      "from": "petal_g3_full_support_codeword_injectivity",
+      "order": 1324
+    },
+    {
+      "from": "petal_g1_layer_maps",
+      "order": 1327
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

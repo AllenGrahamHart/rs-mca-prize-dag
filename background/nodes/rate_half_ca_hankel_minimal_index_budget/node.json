@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 920,
+  "node": {
+    "id": "rate_half_ca_hankel_minimal_index_budget",
+    "title": "Two-sided minimal-index budget for moving Hankel kernels",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a generically rank-deficient scalar syndrome Hankel pencil of generic rank rho, the binary divided-power apolar complete intersection gives the same degree-rho generator Q_Z for the right and left kernels. If its primitive parameter degree is e and it has s fixed evaluation-domain factors, Kronecker degree and residual apolarity give (R+1-2rho+s)e<=rho-s. Coupling the resulting regular-block allowance with root incidence bounds all supported slopes. At the official rate-half row this proves the far-CA r+1 bound for every r<=2^39-2, extending the exact adjacent formula to every admissible q<2^167. Only budgets 2^39 and 2^39+1 remain in the first CA-only block.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_minimal_index_budget/statement.md",
+      "background/nodes/rate_half_ca_hankel_minimal_index_budget/proof.md",
+      "background/nodes/rate_half_ca_hankel_minimal_index_budget/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_minimal_index_budget/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_minimal_index_budget/verify.py",
+      "background/nodes/rate_half_ca_hankel_minimal_index_budget/audit.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_split_pencil_equivalence",
+      "order": 1656
+    },
+    {
+      "from": "rate_half_ca_hankel_fullrank_branch",
+      "order": 1657
+    },
+    {
+      "from": "rate_half_ca_hankel_fixed_kernel_branch",
+      "order": 1658
+    },
+    {
+      "from": "rate_half_quadratic_exact_range",
+      "order": 1659
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1660
+    }
+  ],
+  "refutes": []
+}

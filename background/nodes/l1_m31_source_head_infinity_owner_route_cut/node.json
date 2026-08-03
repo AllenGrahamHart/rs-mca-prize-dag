@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1731,
+  "node": {
+    "id": "l1_m31_source_head_infinity_owner_route_cut",
+    "title": "M31 source-head infinity-owner route cut",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The source head is the extended-RS evaluation-at-infinity functional, but the existing full-projective-line deletion recurrence pays only one fixed infinity label. It cannot aggregate all head fibers, and the current head/core/cell caps alone admit arbitrary abstract neighbor mass.",
+    "refs": [
+      "background/nodes/l1_m31_source_head_infinity_owner_route_cut/statement.md",
+      "background/nodes/l1_m31_source_head_infinity_owner_route_cut/proof.md",
+      "background/nodes/l1_m31_source_head_infinity_owner_route_cut/claim_contract.md",
+      "background/nodes/l1_m31_source_head_infinity_owner_route_cut/dependency_subdag.md",
+      "background/nodes/l1_m31_source_head_infinity_owner_route_cut/audit.md",
+      "background/nodes/l1_m31_source_head_infinity_owner_route_cut/result.md",
+      "background/nodes/l1_m31_source_head_infinity_owner_route_cut/lineage.md",
+      "background/nodes/l1_m31_source_head_infinity_owner_route_cut/upstream_crosswalk.md",
+      "background/nodes/l1_m31_source_head_infinity_owner_route_cut/verify.py",
+      "background/nodes/l1_m31_source_head_infinity_owner_route_cut/verify_audit.py"
+    ],
+    "notes": "Interface route cut only. It rules out direct reuse of the existing infinity-coordinate recurrence as an all-head owner, not a stronger coupled source theorem."
+  },
+  "requires": [
+    {
+      "from": "l1_m31_top_pair_source_head_saturation_router",
+      "order": 4510
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4511
+    }
+  ],
+  "refutes": []
+}

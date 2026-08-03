@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 586,
+  "node": {
+    "id": "xr_minor_specialization_certificate_semantics",
+    "title": "XR minor-specialization certificate semantics",
+    "status": "PROVED",
+    "statement": "In the light-triangle eliminant normal form, a certificate consisting of a maximal minor and one admissible specialization at which that minor evaluates nonzero proves that the corresponding minor polynomial is nonzero on the profile chart.",
+    "attack_surface": "formal determinant-polynomial semantics over the profile chart coordinate ring",
+    "falsifier": "a polynomial minor that evaluates nonzero at an admissible specialization while being identically zero"
+  },
+  "requires": [
+    {
+      "from": "xr_triangle_eliminant_form",
+      "order": 888
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1105
+    }
+  ],
+  "refutes": []
+}

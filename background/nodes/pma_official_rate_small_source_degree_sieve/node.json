@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 854,
+  "node": {
+    "id": "pma_official_rate_small_source_degree_sieve",
+    "title": "PMA official-rate small-source degree sieve",
+    "status": "PROVED",
+    "statement": "On an exact official rate-1/r row, a maximal source with M<=r-2 has petal size ell>=k+1, while every exact core defect has d<=k-1; hence its strict d>ell full-petal residual is empty. This removes M<=6 at rate 1/8 and M<=14 at rate 1/16. At rate 1/4 with M=4,t=3, the upper mu-basis branch is possible exactly when 2b>=ell+8; the complementary branch has at most 4k contributors per carried source. The surviving M=4,t=3 count is confined to rate 1/2 and the rate-quarter large-background upper branch.",
+    "refs": [
+      "background/nodes/pma_official_rate_small_source_degree_sieve/statement.md",
+      "background/nodes/pma_official_rate_small_source_degree_sieve/proof.md",
+      "background/nodes/pma_official_rate_small_source_degree_sieve/audit.md",
+      "background/nodes/pma_official_rate_small_source_degree_sieve/claim_contract.md",
+      "background/nodes/pma_official_rate_small_source_degree_sieve/dependency_subdag.md",
+      "background/nodes/pma_official_rate_small_source_degree_sieve/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_full_petal_band_composition",
+      "order": 1529
+    },
+    {
+      "from": "pma_three_petal_mu_basis_reduction",
+      "order": 1530
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1531
+    }
+  ],
+  "refutes": []
+}

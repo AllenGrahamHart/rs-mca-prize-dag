@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1,
+  "node": {
+    "id": "mca_grand",
+    "title": "Grand MCA: determine delta* (emca <= 2^-128)",
+    "status": "CONDITIONAL",
+    "gate": "all",
+    "key": true,
+    "refs": [
+      "proof_sketch/prize_proof_sketch_spine.md#1"
+    ],
+    "statement": "For each admissible C: exhibit adjacent a with B_C(a-1) > floor(q_line/2^128) >= B_C(a), all conventions printed. RATE SCOPE (amber audit 2026-07-06): the wired premises deliver the CLEAN RATES (1/4, 1/8, 1/16); the rate-1/2 instance of this claim is additionally conditional on rate_half_band_closure (red). The previous unscoped wording over-claimed.",
+    "notes": "CAMPAIGN PIVOT (project decision 2026-07-03): primary closure target = rates 1/4, 1/8, 1/16 (clean corridors, 100+-bit conversion slack, no coverage band); rate 1/2 = the endgame (three named residuals: the tight composition, the 3.0e6-radius band, the -12.87-bit margin point). Per-rate determinations are creditable partials; three-rate closure would be a monumental submission and an information source on 1/2. | FLIPPED TARGET -> CONDITIONAL 2026-07-04: assembly implication packaged (mca_grand_assembly_implication.md, statement-pinned). The referee audit also caught and repaired the rate-1/2 wiring asymmetry one ring deeper (adjacency_closing). | AMBER AUDIT 2026-07-06: REPAIRED (rate-scope split; full-vs-clean conflation found by the overnight audit). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md."
+  },
+  "requires": [
+    {
+      "from": "s0_zero_open",
+      "order": 3
+    },
+    {
+      "from": "mca_safe",
+      "order": 5
+    },
+    {
+      "from": "mca_unsafe",
+      "order": 6
+    },
+    {
+      "from": "mixed_radix_frontier",
+      "order": 615
+    },
+    {
+      "from": "adjacency_closing",
+      "order": 619
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

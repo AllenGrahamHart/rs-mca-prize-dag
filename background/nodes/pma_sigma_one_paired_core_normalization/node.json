@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 870,
+  "node": {
+    "id": "pma_sigma_one_paired_core_normalization",
+    "title": "PMA sigma-one paired-core source-layout normalization",
+    "status": "PROVED",
+    "statement": "For a fixed received word U and every (k-1)-core C, interpolate Q_C=U|_C and evaluate phi_C=(U-Q_C)/L_C off C. Official maximal sigma-one source layouts are in bijection with cores whose phi_C fibers have signature (2,...,2,1); those fibers uniquely recover the background, petals, base polynomial, and labels, while any two planted anchors recover the core and chart. First-match Post is therefore the exact disjoint weighted sum over paired cores. No bound on that sum is claimed.",
+    "refs": [
+      "background/nodes/pma_sigma_one_paired_core_normalization/statement.md",
+      "background/nodes/pma_sigma_one_paired_core_normalization/proof.md",
+      "background/nodes/pma_sigma_one_paired_core_normalization/audit.md",
+      "background/nodes/pma_sigma_one_paired_core_normalization/claim_contract.md",
+      "background/nodes/pma_sigma_one_paired_core_normalization/dependency_subdag.md",
+      "background/nodes/pma_sigma_one_paired_core_normalization/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_sigma_one_b11_scope",
+      "order": 1471
+    },
+    {
+      "from": "l1_program_frontier",
+      "order": 1472
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 1473
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1474
+    }
+  ],
+  "refutes": []
+}

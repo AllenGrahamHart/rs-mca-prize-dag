@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 710,
+  "node": {
+    "id": "f5_npb_conditional_close",
+    "status": "CONDITIONAL",
+    "statement": "NPB CONDITIONAL CLOSE (2026-07-07, F5 program P7.3): GIVEN the shared kernel's BC-class census at the row (split-in-subspace counts <= max(1, mean) * poly(n) over the generated field \u2014 at the six candidates the sub-balance window holds by ~2% under the beta-corrected reading), every pair within joint distance 2r of a pencil pair has post-strip live-slope count N_post <= C(2r, t+1) + poly(n) * o(1): the Z-mining channel dies by window arithmetic (uniform overdetermination t-1 across strata), leaving the hard-wired T-channel. Discharges F5-OS's near-pencil stratum MODULO THE KERNEL \u2014 no new red: the premise is the existing shared frontier object. Requires f5_near_pencil_reduction (proved) + shared_census_kernel (open)."
+  },
+  "requires": [
+    {
+      "from": "shared_census_kernel",
+      "order": 1211
+    },
+    {
+      "from": "f5_near_pencil_reduction",
+      "order": 1212
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1210
+    }
+  ],
+  "refutes": []
+}

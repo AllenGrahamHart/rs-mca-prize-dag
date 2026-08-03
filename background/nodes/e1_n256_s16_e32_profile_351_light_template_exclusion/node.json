@@ -1,0 +1,55 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 56,
+  "node": {
+    "id": "e1_n256_s16_e32_profile_351_light_template_exclusion",
+    "title": "N=256 E=32 profile-(3,5,1) light-template exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e32_profile_351_light_template_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e32_profile_351_light_template_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e32_profile_351_light_template_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e32_profile_351_light_template_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e32_profile_351_light_template_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e32_profile_351_light_template_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e32_profile_351_light_template_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e32_profile_351_light_template_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e32_profile_351_light_template_exclusion/verify_audit.py",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_four_odd_joint_census.cpp",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_four_odd_joint_census_modal.py",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_four_odd_joint_census_result.json",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_four_odd_joint_census_audit.cpp",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_four_odd_joint_census_audit_modal.py",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_four_odd_joint_census_audit_result.json"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), and V=64, autocorrelation magnitude profile (3,5,1) is impossible. The complete 148-orbit light router and two independent exact engines each cover 2,937,494,528 representative signed vectors and agree on 29,238 profile vectors, 15,440 at full conductor, and exact unrestricted M_3=1392<1517.",
+    "notes": "ROUTE CLOSURE 2026-07-27: removes profile (3,5,1) by exact actual-geometry census. Profile (4,7) is the sole remaining V=64 branch."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e32_profile_parity_diameter_reduction",
+      "order": 326
+    },
+    {
+      "from": "e1_n256_s16_e32_four_odd_light_template_reduction",
+      "order": 327
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 328
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 435
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 436
+    }
+  ],
+  "refutes": []
+}

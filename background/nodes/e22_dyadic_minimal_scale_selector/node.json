@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 670,
+  "node": {
+    "id": "e22_dyadic_minimal_scale_selector",
+    "title": "E22 dyadic minimal-scale selector",
+    "status": "PROVED",
+    "statement": "For dyadic domains, the admissible quotient moduli form a finite chain, so every canonical support-scale class with at least one admissible modulus has a unique minimal admissible modulus. Selecting that modulus gives a canonical representative of the cross-scale class.",
+    "attack_surface": "finite-chain selector on the canonical support-scale data",
+    "falsifier": "a dyadic canonical support-scale class with two distinct minimal admissible moduli or no well-defined selected representative",
+    "notes": "FIFTH-BRANCH REPLAY (2026-07-10): REPLAY-CLEAN as WEIGHT-PARAMETRIC identities (fresh verifiers, exhaustive n=8/16 + sampled n=32 ground truth, mutation controls; suites banked at critical/nodes/petal_growth/notes/g3_replay_20260710/). CATCH #44: the prior REPLAY-PENDING note undercounted \u2014 THREE nodes have verifiers (selector, tail_criterion, partition), not one. SCOPE CAVEAT (catch #47): the four pricing statements (pricing_compatibility, column_evaluation, count_formula, cross_scale head) reference a 'declared multiplicity' that is declared nowhere and is UNFILLABLE by any per-scale constant or integer weight (exact ratios 8/5, 640/3 vs dyadic_profile_evaluation) \u2014 their PROVED labels certify the parametric identities only; the instantiated readings need the catch-#47 re-pose. Does NOT discharge petal_g3_pricing_multiplicity (see that node). Still ev-only; do not req-wire. | CATCH #45: this node's own verify.py is VACUOUS (asserts are tautologies of its list construction; a selector dropping the true minimal modulus passes \u2014 mutation witness g3_mut_selector2.py banked). The theorem is trivially true; the green certifies nothing."
+  },
+  "requires": [
+    {
+      "from": "e22_cross_scale_support_canonical_form",
+      "order": 995
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1151
+    }
+  ],
+  "refutes": []
+}

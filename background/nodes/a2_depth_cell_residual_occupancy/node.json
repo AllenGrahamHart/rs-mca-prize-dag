@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 473,
+  "node": {
+    "id": "a2_depth_cell_residual_occupancy",
+    "title": "A2's second blocker: depth-cell residual occupancy",
+    "status": "REFUTED",
+    "statement": "Bound the residual occupancy of the graded ledger's depth-d cells post-charge \u2014 the band analogue of the subcore accounting. A2's routing table is COMPLETE (no extra pairwise or heavy-triangle object exists), so this count is the ledger's only remaining content.",
+    "attack_surface": "the same packing machinery as the subcore accounting, at depth-graded cells",
+    "falsifier": "a depth cell with super-budget residual occupancy at toys",
+    "refs": [
+      "experimental/notes/roadmaps/w2_graded_tangent_ledger_design.md"
+    ],
+    "notes": "OCC-2 (#31, 49/49): the DIRECT formal-lattice packing is REFUTED \u2014 super-linear at every clean row; replaced by a2_depth_cell_active_shadow_bound."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1068
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1265,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_frobenius_router",
+    "title": "Budget-three fiber-two c=1 parity has one anti-invariant source role",
+    "status": "PROVED",
+    "closure": "proof plus exact arithmetic certificate",
+    "statement": "On the official nonharmonic c=1 parity chamber, Frobenius comparison of the six source traces gives exact anti-invariant factors. P0 is algebraically impossible; R1/R2 reduce to reciprocal trace -8 and P1/P2 to trace 6/5. A preregistered 16-shard screen covered all 2,247,721 nonsplit candidate moduli with no hit. Hence every accepted R1,R2,P0,P1,P2 lift lies in F_p. R0 is identically invariant under r->-r and remains the sole possible anti-invariant source role.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_frobenius_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_frobenius_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_frobenius_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_frobenius_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_frobenius_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_frobenius_router/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_frobenius_router/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_frobenius_router/verify_audit.py",
+      "experiments/prize_resolution/rate_half_list_fiber_two_cycle_c1_parity_antiinvariant_characteristic_modal.py",
+      "experiments/prize_resolution/rate_half_list_fiber_two_cycle_c1_parity_antiinvariant_characteristic_result.json",
+      "experiments/prize_resolution/rate_half_list_fiber_two_cycle_c1_parity_antiinvariant_characteristic_result.md",
+      "experiments/prize_resolution/rate_half_list_fiber_two_cycle_c1_parity_antiinvariant_characteristic_check.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_mobius_router",
+      "order": 2642
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_nonharmonic_scalar_compiler",
+      "order": 2643
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2644
+    }
+  ],
+  "refutes": []
+}

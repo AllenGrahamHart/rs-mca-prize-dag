@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1589,
+  "node": {
+    "id": "xr_mismatch_accumulated_locator_flag_normal_form",
+    "title": "XR mismatch descent has a global accumulated-locator flag",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_mismatch_accumulated_locator_flag_normal_form/statement.md",
+      "background/nodes/xr_mismatch_accumulated_locator_flag_normal_form/proof.md",
+      "background/nodes/xr_mismatch_accumulated_locator_flag_normal_form/claim_contract.md",
+      "background/nodes/xr_mismatch_accumulated_locator_flag_normal_form/dependency_subdag.md",
+      "background/nodes/xr_mismatch_accumulated_locator_flag_normal_form/verify.py",
+      "background/nodes/xr_mismatch_accumulated_locator_flag_normal_form/verify_audit.py",
+      "background/nodes/xr_mismatch_accumulated_locator_flag_normal_form/audit.md",
+      "background/nodes/xr_mismatch_accumulated_locator_flag_normal_form/result.md"
+    ],
+    "statement": "Every canonical nongeneric XR mismatch branch lifts to original degree-below-K codeword pairs with a squarefree accumulated locator on disjoint discrepancy layers. The original witness residual factors by every locator prefix, all descendant explanation differences have the corresponding prefix divisor, total locator degree is at most K-1, and puncturing a common prefix preserves the exact residual low-core cap. This removes arbitrary overlapping locator histories from the branch compiler but does not count flags, explanations, generic terminal charts, or slopes."
+  },
+  "requires": [
+    {
+      "from": "xr_tangent_mismatch_full_external_zero_canonicalization",
+      "order": 3735
+    },
+    {
+      "from": "xr_mismatch_chart_nongeneric_joint_support_equivalence",
+      "order": 3736
+    },
+    {
+      "from": "xr_mismatch_nongeneric_invariant_excess_descent",
+      "order": 3737
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 3738
+    }
+  ],
+  "refutes": []
+}

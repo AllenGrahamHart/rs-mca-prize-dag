@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 20,
+  "node": {
+    "id": "e1_collision_square_mass_reparametrization",
+    "title": "E1 class-difference square-mass coordinates and finite height",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_collision_square_mass_reparametrization/statement.md",
+      "background/nodes/e1_collision_square_mass_reparametrization/proof.md",
+      "background/nodes/e1_collision_square_mass_reparametrization/claim_contract.md",
+      "background/nodes/e1_collision_square_mass_reparametrization/dependency_subdag.md",
+      "background/nodes/e1_collision_square_mass_reparametrization/audit.md",
+      "background/nodes/e1_collision_square_mass_reparametrization/frontier.md",
+      "background/nodes/e1_collision_square_mass_reparametrization/result.md",
+      "background/nodes/e1_collision_square_mass_reparametrization/source_pin.json",
+      "background/nodes/e1_collision_square_mass_reparametrization/verify.py",
+      "background/nodes/e1_collision_square_mass_reparametrization/verify_audit.py"
+    ],
+    "statement": "For signed singleton vectors x,y representing two antipodal-rearrangement classes, alpha=sum_i(x_i-y_i)zeta^i has square mass S=4a+b and height H=2a+b. If T=min(ell,2h-ell), then H<=2T and even S<=4T. Raw same-sign antipodal-pair padding changes representative distance but not alpha. At the official parameters S<=260 for N=256,ell=65 and S<=132 for ell=33. Every S=16 split with b>0, namely (3,4),(2,8),(1,12),(0,16), is realized by official-size N=256 class pairs and survives the present norm floor; the existing variance descent covers only (3,4). This reparametrization closes no collision ledger or prize row.",
+    "notes": "CANONICAL RECONCILIATION 2026-07-28: preserves the square-mass insight of prize 0acf7e8f and the N=512 correction c90a724b, repairs the false fixed-order unboundedness wording, pins the formerly missing ell bound, and proves the three additional S=16 splits are genuine feasible class-pair profiles."
+  },
+  "requires": [
+    {
+      "from": "acl_count",
+      "order": 4398
+    },
+    {
+      "from": "e1_prime_field_l2_norm_collision_radius",
+      "order": 4399
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4400
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4401
+    }
+  ],
+  "refutes": []
+}

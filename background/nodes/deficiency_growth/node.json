@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 248,
+  "node": {
+    "id": "deficiency_growth",
+    "title": "Deficiency-d growth law (name the elimination wall)",
+    "status": "TARGET",
+    "refs": [
+      "wp_detail/wp2_6_underdetermined_program.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "deficiency_ladder",
+      "order": 88
+    },
+    {
+      "to": "spi_dimension_free",
+      "order": 144
+    }
+  ],
+  "refutes": []
+}

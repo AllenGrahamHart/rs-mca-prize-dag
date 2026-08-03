@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 700,
+  "node": {
+    "id": "v13_bc_split_pencil_normal_form",
+    "status": "CONJECTURE",
+    "title": "v13 BC = split-pencil normal form (identification)",
+    "statement": "IDENTIFICATION CONJECTURE (upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes): after removing tangent, quotient, extension, common-GCD, and bounded chart strata, the remaining aperiodic safe-side problem IS a base-field split-pencil incidence/census problem -- i.e. upstream BC and our SPI/XR/M5 machinery are the same object. Untested as an exact identification (quantifier/row alignment unchecked -- the tr_perleaf lesson applies); held CONJECTURE until a transport check like the one run for tr_perleaf_list_ident passes."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "spi_point_counting",
+      "order": 1190
+    },
+    {
+      "to": "spi_dim1",
+      "order": 1191
+    },
+    {
+      "to": "xr_clean_residual_any_gate",
+      "order": 1192
+    },
+    {
+      "to": "xr_pencil_cascade",
+      "order": 1193
+    },
+    {
+      "to": "window_m5_charts",
+      "order": 1194
+    }
+  ],
+  "refutes": []
+}

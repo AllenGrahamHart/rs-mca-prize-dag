@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1440,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler",
+    "title": "KoalaBear m2 r4 positive 433-1a outside-edge eliminant compiler",
+    "status": "PROVED",
+    "closure": "exact generic and degree-drop scalar eliminants for all seven outside product/squared-sum records",
+    "statement": "Each positive 433-1a outside record has an explicit 22-term degree-six scalar eliminant on the generic quadratic-product branch and an exact cleared cut on the linear branch; the constant product branch is impossible from distinct supported common products. Joint seven-edge incompatibility remains open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_edge_eliminant.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+      "order": 3180
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3181
+    }
+  ],
+  "refutes": []
+}

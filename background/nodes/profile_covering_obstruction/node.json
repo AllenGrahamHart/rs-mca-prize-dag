@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 432,
+  "node": {
+    "id": "profile_covering_obstruction",
+    "title": "The profile-covering obstruction: why naive generator designs cap (explains E12)",
+    "status": "PROVABLE",
+    "statement": "A generator certificate requires the difference's 64-dim conjugate profile to match some gamma_i's profile within a factor-p^{1/phi} window per coordinate; covering arbitrary profiles needs exponentially many generators, and the e1 image is too sparse (2^122 values in a 2^390-point ball) for averaging to find full boxes. Hence: no unstructured family works, pigeonhole existence fails, and E12's linear cap is the observed shadow. The one FREE profile class: flat \u2014 (integer) x (small element) differences are self-certified.",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ],
+    "notes": "the scoping result that redirects the design search toward engineered (flat/near-integer) difference profiles"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "generator_economy",
+      "order": 728
+    }
+  ],
+  "refutes": []
+}

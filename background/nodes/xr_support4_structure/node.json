@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1752,
+  "node": {
+    "id": "xr_support4_structure",
+    "title": "XR support-4 structure theory: triple-locus localisation, the K_V no-relation THEOREM, rank-2 rigidity, the Mobius cross-ratio criterion, connectivity floor rank >= m (V <= m/2 => occupancy), escape floor; the U-mechanism as third calibration adversary; the zero-escape collapse MEASURED-not-proved",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Ray system (z_a, S_a), a = 1..V, distinct slopes in P^1, |S_a| = A; Rel = {(c_a) : sum e(z_a) (x) c_a = 0}; rank = Vh - dim Rel (per-ray accounting, item 11); supports <= 3 relations are zero (adv_sublinear_rank, consumed); triple gate (T): |S_a^S_b^S_c| <= k-1. S4-1 (localisation, PROVED): at every point a relation has 0 or >= 3 nonzero components (pairwise independence of e(z_a)); every relation lives on the TRIPLE LOCUS. S4-2' (PROVED): supports meeting the triple locus in <= k points carry NO relation (dual weight >= k+1); COROLLARY: the K_V family (triple locus = Y, |Y| = k-1) carries no relation and rank = Vh EXACTLY -- the banked measurement upgraded to a THEOREM. S4-3 (rank-2 rigidity, PROVED): a support-4 relation has all four duals in ONE 2-dim L, no two proportional (else quadruple intersection >= k+1 breaks (T)). S4-4 (Mobius criterion, PROVED): the relation exists iff CR(z_1..z_4) = CR(zeta_1..zeta_4) (Segre (1,1)-divisor condition), unique up to scalar, slope-codimension 1; minimal case |U| = k+2: L = C_U, zeta_y = x_y -- slopes must replicate the holes' evaluation points. S4-14 (connectivity floor, PROVED): MDS sum lemma + pairwise intersection >= k give pi_1(Row) = C_{union}, so m = |union S| - k <= rank <= 2m; the occupancy floor 2 holds AUTOMATICALLY whenever V <= m/2 (item 12). ESCAPE floor (PROVED, the min(h,.) cap load-bearing): rank >= sum_a min(h, |S_a \\ S_a^inf|) under peeling, dim Rel <= sum (|S_a^inf| - k)^+; 'every ray support has >= 2 points lying in at most two supports' => rank >= 2V => the occupancy per-ray charge 2 -- the purely combinatorial escape form of the heart. ZERO-ESCAPE COLLAPSE: MEASURED NOT PROVED -- zero-escape cliques measured at rank = 2m EXACTLY (every realisation a single joint explanation; 3876 + 8855 slope tuples, never 2m-1; 60 fresh tuples here), one of the two NAMED OPEN SUB-ITEMS (prove the collapse; prove V <= m/2 for non-collapsing systems -- all 9 families conform, Fisher gives only V <= k+m). U-MECHANISM (third standing calibration adversary, joining K_V and MC): |U| = k+2, holes y_a, gate SATURATED (triples exactly k-1), duals = minimum-weight e_{y_a} (weight k+1), Mobius-matched slopes give dim Rel = 1, deficit <= 1/ray (no stacking); toy pin rank = Vh - 1 = 19 at (3,5,1,4); RowC 1/4 d=1: U_N = 510 = 51 x C(5,2) vs K_V 384 (x 85/64 = 1.328125) against n/2 = 512 -- SHARP-OCC's weak form survives by a MARGIN OF 2 (sharpest calibration in the program); prize rows UNCHANGED (18336/24976/114960, point budget binds, deficit relative ~1e-10; cluster budget formula consistency-checked NOT re-derived). NOT claimed: the collapse as a theorem; V <= m/2 (conjecture); any occupancy bound (residual heart: an admissible non-collapsing pairwise-intersecting ray system with V > m/2); the double-hole family; D >= 2 pencil optimality. Provenance notes/pilots_20260802/support4_relation/ (301 checks + 4 measurements) on notes/pilots_20260802/adv_sublinear_rank/.",
+    "refs": [
+      "background/nodes/xr_support4_structure/statement.md",
+      "background/nodes/xr_support4_structure/proof.md",
+      "background/nodes/xr_support4_structure/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_two_slope_cost_theorem",
+      "order": 4844
+    },
+    {
+      "from": "xr_mismatch_chart_nongeneric_joint_support_equivalence",
+      "order": 4849
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_graded_tangent_band_charge",
+      "order": 4859
+    }
+  ],
+  "refutes": []
+}

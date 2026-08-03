@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 393,
+  "node": {
+    "id": "census_dodge_selection",
+    "title": "Dodge selection: exhibited dossier rows verified OUTSIDE all windows (immediate partial value)",
+    "status": "PROVABLE",
+    "statement": "For each row the dossier exhibits (pinned row, Row C, the P3 slate): verify B* is outside every [L, K) window \u2014 then adjacency at that row is FULLY decided by exact counts + integrality, with no dependence on QA.6. E1's Row-C data already shows margins of 2^22 and 2^79: comfortably dodged.",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ],
+    "notes": "cheap, and upgrades every exhibited-row partial to full adjacency-grade | IN FLIGHT: #195"
+  },
+  "requires": [
+    {
+      "from": "census_window_arithmetic",
+      "order": 637
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dossier_partial",
+      "order": 638
+    }
+  ],
+  "refutes": []
+}

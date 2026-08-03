@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1030,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement",
+    "title": "A=1 core-one exceptional-only full reciprocal complement",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "After removing the forced constant coefficient of the reciprocal A_1, the complete corrected complement is FU+P_clL=R_X, where R_X is the reciprocal residual-domain locator. Hence L is recovered from one coefficientwise divisibility by P_cl; reconstruction of G remains a separate divisibility by E.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_complement/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization",
+      "order": 1926
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1927
+    }
+  ],
+  "refutes": []
+}

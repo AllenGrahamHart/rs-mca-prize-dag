@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1004,
+  "node": {
+    "id": "f3_h3_antipodal_tail_distance_six_split",
+    "title": "H3 selected distance-six moment splits at the antipodal target class",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the selected P>=33 tail, antipodal-free fibers satisfy P(t)-18<=(16/53)N_6(t), while antipodal targets satisfy the uniform 8/21 ratio and their edge-quotient records form an exact four-variable/three-membership incidence through t=1-x^2. Hence 136(42M_6,33^0+53M_6,33^A)<=1113B_(n,14) implies C36'. Exact analytic Pareto alternatives are also proved at E=6 (P>=25) and E=10 (P>=29).",
+    "refs": [
+      "background/nodes/f3_h3_antipodal_tail_distance_six_split/statement.md",
+      "background/nodes/f3_h3_antipodal_tail_distance_six_split/proof.md",
+      "background/nodes/f3_h3_antipodal_tail_distance_six_split/claim_contract.md",
+      "background/nodes/f3_h3_antipodal_tail_distance_six_split/dependency_subdag.md",
+      "background/nodes/f3_h3_antipodal_tail_distance_six_split/audit.md",
+      "background/nodes/f3_h3_antipodal_tail_distance_six_split/result.md",
+      "background/nodes/f3_h3_antipodal_tail_distance_six_split/verify.py",
+      "background/nodes/f3_h3_antipodal_tail_distance_six_split/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_high_excess_distance_six_moment_reduction",
+      "order": 1906
+    },
+    {
+      "from": "f3_h3_distance_four_fiber_degree_cap",
+      "order": 1907
+    },
+    {
+      "from": "f3_h3_low_distance_quotient_incidence_router",
+      "order": 1908
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1909
+    }
+  ],
+  "refutes": []
+}

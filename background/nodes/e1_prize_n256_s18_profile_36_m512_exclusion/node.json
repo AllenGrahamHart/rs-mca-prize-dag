@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 140,
+  "node": {
+    "id": "e1_prize_n256_s18_profile_36_m512_exclusion",
+    "title": "Prize N=256 profile-(3,6) cofactor-512 exclusion",
+    "status": "PROVED",
+    "closure": "dual exact radius census plus dual exact norm ledger",
+    "refs": [
+      "background/nodes/e1_prize_n256_s18_profile_36_m512_exclusion/statement.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m512_exclusion/proof.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m512_exclusion/claim_contract.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m512_exclusion/dependency_subdag.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m512_exclusion/audit.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m512_exclusion/result.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m512_exclusion/source_pin.json",
+      "background/nodes/e1_prize_n256_s18_profile_36_m512_exclusion/verify.py"
+    ],
+    "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 512 is impossible. Its multiplicity mu=9 and bounded residual E in {2,...,17} contain four normalized vectors, all at E=15 or E=17; every exact quotient Norm/512 lies below the prize interval.",
+    "notes": "EXACT FINITE EXCLUSION 2026-07-28: two radius engines agree on 2912 affine orbits, 438120 candidate heavy supports, 3504960 exact sign tests, and four vectors. FLINT and PARI agree on their exact norms. Eight profile-(3,6) cofactors remain."
+  },
+  "requires": [
+    {
+      "from": "e1_prize_n256_s18_profile_36_bounded_product_windows",
+      "order": 4447
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4448
+    },
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4449
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4450
+    }
+  ],
+  "refutes": []
+}

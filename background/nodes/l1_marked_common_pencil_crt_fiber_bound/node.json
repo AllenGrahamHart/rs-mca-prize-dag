@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1093,
+  "node": {
+    "id": "l1_marked_common_pencil_crt_fiber_bound",
+    "title": "L1 marked common-pencil CRT numerator-fiber bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Fix one bounded-polarity common-pencil chart, all supports and marks, and one exact defect locator F. CRT makes the numerator solutions one affine class modulo the product S of selected support locators. In strip m, every Forney-window cell with t>=m+1 has deg S>d and therefore at most one numerator. At the lower endpoint t=m, threshold arithmetic gives eta=d-m ell<=p-1 and affine freedom degree eta+v<=2p-1, hence at most q^(2p) numerators. For fixed p and generated q=poly(n), numerator multiplicity is polynomial uniformly in the strip; squarefree defect-locator counting is the only non-polynomial common-pencil issue left.",
+    "refs": [
+      "background/nodes/l1_marked_common_pencil_crt_fiber_bound/statement.md",
+      "background/nodes/l1_marked_common_pencil_crt_fiber_bound/proof.md",
+      "background/nodes/l1_marked_common_pencil_crt_fiber_bound/claim_contract.md",
+      "background/nodes/l1_marked_common_pencil_crt_fiber_bound/dependency_subdag.md",
+      "background/nodes/l1_marked_common_pencil_crt_fiber_bound/audit.md",
+      "background/nodes/l1_marked_common_pencil_crt_fiber_bound/verify.py",
+      "background/nodes/l1_marked_common_pencil_crt_fiber_bound/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_marked_constant_shift_forney_window_normal_form",
+      "order": 2191
+    },
+    {
+      "from": "l1_bounded_polarity_marked_full_pencil_reduction",
+      "order": 2192
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2193
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2194
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2195
+    }
+  ],
+  "refutes": []
+}

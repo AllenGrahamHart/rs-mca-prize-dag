@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 318,
+  "node": {
+    "id": "u4_pseudoremainder",
+    "title": "U4: pseudo-remainder chart, deg_Z <= 49408",
+    "status": "PROVABLE",
+    "refs": [
+      "wp_detail/wp2_6_underdetermined_program.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

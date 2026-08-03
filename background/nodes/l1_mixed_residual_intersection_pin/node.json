@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1070,
+  "node": {
+    "id": "l1_mixed_residual_intersection_pin",
+    "title": "L1 mixed residual: root-pinning/B11/rich-fiber intersection pin",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For one maximal-sunflower chart at the L1 lower cutoff, put p=sum_i min(|S_i|,ell-|S_i|), e=max(0,2d+1-h), G_2=v_(1)+v_(2), and G_R=(ell-r)+v_(1). For every fixed E_root,E_d,V_2,V_R, the union {p+e<=E_root} union {d<=ell+E_d and (G_2<=V_2 or G_R<=V_R)} is polynomially bounded. Hence the exact unpaid residual satisfies p+e>E_root and [d>ell+E_d or (G_2>V_2 and G_R>V_R)], while retaining the proved Omega(n/log^2 n) source-coupled rich fiber. More simply, every fixed (p,d-ell) box is paid, so the aggregate residual has p unbounded or d-ell unbounded. Inside the fixed first source, the anchored triple-polarity closure pays every fixed layout/core-defect/petal-polarity degree-ell common-pencil box across partial-core charts and all numerator/Forney fibers. Its internal residual is growing triple polarity, unanchored or smaller-fiber quotient maps, and arbitrary petal locators outside one common pencil. This is a strict residual pin, not a count of either escape branch.",
+    "refs": [
+      "background/nodes/l1_mixed_residual_intersection_pin/statement.md",
+      "background/nodes/l1_mixed_residual_intersection_pin/proof.md",
+      "background/nodes/l1_mixed_residual_intersection_pin/claim_contract.md",
+      "background/nodes/l1_mixed_residual_intersection_pin/dependency_subdag.md",
+      "background/nodes/l1_mixed_residual_intersection_pin/upstream_crosswalk.md",
+      "background/nodes/l1_mixed_residual_intersection_pin/audit.md",
+      "background/nodes/l1_mixed_residual_intersection_pin/verify.py",
+      "background/nodes/l1_mixed_residual_intersection_pin/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_b11_first_match_router",
+      "order": 2062
+    },
+    {
+      "from": "petal_reserve_rich_fiber_reduction",
+      "order": 2063
+    },
+    {
+      "from": "l1_polarized_petal_entropy_ledger",
+      "order": 2072
+    },
+    {
+      "from": "l1_polarized_b11_box_closure",
+      "order": 2078
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2064
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2065
+    }
+  ],
+  "refutes": []
+}

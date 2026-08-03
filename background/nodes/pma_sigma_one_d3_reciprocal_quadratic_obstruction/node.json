@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 862,
+  "node": {
+    "id": "pma_sigma_one_d3_reciprocal_quadratic_obstruction",
+    "title": "PMA sigma-one reciprocal-quadratic defect-three obstruction",
+    "status": "PROVED",
+    "statement": "At rate one half there is an explicit maximal-sunflower source with distinct nonzero labels c(x)=x^(-1)+rx and at least floor((M-15)(N-6)(N-3)C(M,5)/(6M)) actual primitive diffuse (d,r)=(3,0) extras, where N=n/2 and M=n/4. This is Omega(n^7) and exceeds n^6 from n=2^22 onward, including the official n=2^41 row. Therefore the complete diffuse class admits no universal per-sunflower n^6 payment; the named multiplicative-core family needs a global first-match owner or a larger audited allowance.",
+    "refs": [
+      "background/nodes/pma_sigma_one_d3_reciprocal_quadratic_obstruction/statement.md",
+      "background/nodes/pma_sigma_one_d3_reciprocal_quadratic_obstruction/proof.md",
+      "background/nodes/pma_sigma_one_d3_reciprocal_quadratic_obstruction/audit.md",
+      "background/nodes/pma_sigma_one_d3_reciprocal_quadratic_obstruction/claim_contract.md",
+      "background/nodes/pma_sigma_one_d3_reciprocal_quadratic_obstruction/dependency_subdag.md",
+      "background/nodes/pma_sigma_one_d3_reciprocal_quadratic_obstruction/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_sigma_one_b11_scope",
+      "order": 1437
+    },
+    {
+      "from": "pma_sigma_one_d3_diffuse_hyperplane_reduction",
+      "order": 1438
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 1439
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1440
+    }
+  ],
+  "refutes": []
+}

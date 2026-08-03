@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1199,
+  "node": {
+    "id": "v13_2_near_rational_pair_proximity",
+    "title": "Paper D v13.2 near-rational pair proximity",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a linear code C and distinct finite slopes z1,z2, if u+z_i v=c_i+eta_i with c_i in C and wt(eta_i)<=w, then an explicit codeword pair (cu,cv) agrees jointly with (u,v) outside supp(eta1) union supp(eta2), hence on at least n-2w coordinates. Under Paper D v13.2 thm:capfp-dichotomy's hypotheses, including 2w<=n-K, two nonzero-census slopes with d1<=w imply this pair-proximity conclusion. This does not pay support-wise MCA witnesses.",
+    "refs": [
+      "background/nodes/v13_2_near_rational_pair_proximity/statement.md",
+      "background/nodes/v13_2_near_rational_pair_proximity/proof.md",
+      "background/nodes/v13_2_near_rational_pair_proximity/claim_contract.md",
+      "background/nodes/v13_2_near_rational_pair_proximity/dependency_subdag.md",
+      "background/nodes/v13_2_near_rational_pair_proximity/audit.md",
+      "background/nodes/v13_2_near_rational_pair_proximity/result.md",
+      "background/nodes/v13_2_near_rational_pair_proximity/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "v13_bc_split_pencil_normal_form",
+      "order": 2470
+    },
+    {
+      "to": "v13_2_near_rational_supportwise_payment",
+      "order": 2471
+    }
+  ],
+  "refutes": []
+}

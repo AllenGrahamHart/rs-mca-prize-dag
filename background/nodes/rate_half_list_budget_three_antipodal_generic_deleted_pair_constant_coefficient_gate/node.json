@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1020,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_gate",
+    "title": "Budget-three antipodal generic deleted-pair constant-coefficient gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The constant term of each nonharmonic scalar identity is one explicit equation in the deleted ratio, source trace, and one terminal coefficient of a reversed truncated quotient. It is an exact first rejection gate before the full remainder, gcd, or fourth-power tests.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_gate/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_gate/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_gate/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_gate/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_gate/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_gate/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_coefficient_gate/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_fourth_power_router",
+      "order": 1864
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1865
+    }
+  ],
+  "refutes": []
+}

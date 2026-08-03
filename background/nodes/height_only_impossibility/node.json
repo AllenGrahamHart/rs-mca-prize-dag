@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 406,
+  "node": {
+    "id": "height_only_impossibility",
+    "title": "IMPOSSIBILITY: pure height certificates cannot reach full strength at N' >= 128",
+    "status": "PROVED",
+    "statement": "SHARPENED to the proved form (#206): the pure height gate cannot certify a full quotient cell once (2 s_max)^phi(N') exceeds the field ceiling \u2014 and in the official-rate table N' = 128 already exceeds p < 2^256 for ALL FOUR rates. Any full-strength certification at in-corridor scales must use p-specific input. (Companion anchor, same PR: at most TWO primes in range can collide even half the rate-1/2 cell pairs \u2014 the exceptional set is provably tiny.)",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ],
+    "notes": "negative result with queue value \u2014 prevents doomed attempts | PROVED-IN-FLIGHT: #206 \u2014 SHARPER than stated: N'=128 exceeds the p < 2^256 ceiling for ALL FOUR official rates | FLIP on replay (Codex wave 5): PROVABLE -> PROVED."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "far_pair_separation",
+      "order": 672
+    },
+    {
+      "to": "certified_valueset_lower",
+      "order": 673
+    }
+  ],
+  "refutes": []
+}

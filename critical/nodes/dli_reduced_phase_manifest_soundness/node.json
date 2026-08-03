@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 636,
+  "node": {
+    "id": "dli_reduced_phase_manifest_soundness",
+    "title": "DLI reduced-phase manifest soundness",
+    "status": "PROVED",
+    "statement": "If a reduced-phase manifest covers every central profile, nonzero frequency, DLI harmonic, and square-root component, gives an Artin-Schreier-reduced local pole of positive order prime to p for each tuple, gives a certified polar-divisor majorant for the same tuple, and proves the harmonic majorant total is o(t), then both dli_odd_phase_polar_obstruction_payload and dli_reduced_pole_majorant_table_payload hold.",
+    "attack_surface": "schema soundness tying the DLI local polar obstruction and reduced-pole majorant table to one manifest",
+    "falsifier": "a verified reduced-phase manifest satisfying the pole and majorant predicates while one DLI payload fails"
+  },
+  "requires": [
+    {
+      "from": "dli_odd_phase_polar_obstruction_soundness",
+      "order": 966
+    },
+    {
+      "from": "dli_reduced_pole_majorant_table_soundness",
+      "order": 967
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

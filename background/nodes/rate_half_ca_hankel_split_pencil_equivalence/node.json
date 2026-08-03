@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 917,
+  "node": {
+    "id": "rate_half_ca_hankel_split_pencil_equivalence",
+    "title": "Far-CA as a split-locator Hankel pencil",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every RS code and 1<=r<=n-k, a syndrome is within radius r exactly when its (n-k-r) by (r+1) Hankel matrix has a kernel vector that is the coefficient vector of a monic squarefree degree-r locator split over the evaluation domain. A received pair is column-close exactly when the two Hankel kernels share such a locator. Hence for a column-far pair, CA-bad slopes are exactly the parameters where the syndrome Hankel pencil has a domain-split kernel locator. At the first official transition, the missing r+1 bound is an exact supported-slope split-pencil census.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_split_pencil_equivalence/statement.md",
+      "background/nodes/rate_half_ca_hankel_split_pencil_equivalence/proof.md",
+      "background/nodes/rate_half_ca_hankel_split_pencil_equivalence/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_split_pencil_equivalence/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_split_pencil_equivalence/verify.py",
+      "background/nodes/rate_half_ca_hankel_split_pencil_equivalence/audit.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1651
+    }
+  ],
+  "refutes": []
+}

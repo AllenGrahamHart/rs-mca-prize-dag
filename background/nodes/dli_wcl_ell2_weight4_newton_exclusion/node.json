@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 845,
+  "node": {
+    "id": "dli_wcl_ell2_weight4_newton_exclusion",
+    "title": "DLI ell=2 weight-4 relations excluded by Newton identities",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For an exact order-1024 root omega in any official production field, no reduced signed weight-4 polynomial P satisfies P(omega)=P(omega^3)=0. Newton's identities make the monic polynomial of the four signed roots even, forcing antipodal pairs, while distinct reduced base exponents forbid antipodal terms. Hence no official DLI production row contains a weight-4 relation at ell=2. Weights 5 through 7 there and WCL-ZONE remain open.",
+    "refs": [
+      "background/nodes/dli_wcl_ell2_weight4_newton_exclusion/statement.md",
+      "background/nodes/dli_wcl_ell2_weight4_newton_exclusion/proof.md",
+      "background/nodes/dli_wcl_ell2_weight4_newton_exclusion/verify.py",
+      "background/nodes/dli_wcl_ell2_weight4_newton_exclusion/notes/resource_route.md",
+      "experiments/prize_resolution/dli_wcl_ell2_weight4_resource_modal.py",
+      "experiments/prize_resolution/dli_wcl_ell2_weight4_resource_result.json.gz",
+      "critical/nodes/dli_prime_weighted_large_block_support/DLI_CLOSE_PINNED.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_zone_coverage",
+      "order": 1412
+    }
+  ],
+  "refutes": []
+}

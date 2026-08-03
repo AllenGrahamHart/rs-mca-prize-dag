@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 657,
+  "node": {
+    "id": "m720_remaining_gate_replay",
+    "title": "M720 remaining off-laptop gate replay",
+    "status": "PROVED",
+    "statement": "The M720 gate arithmetic reproduces the remaining banked calibration facts by combining the local h=5 n=32 replay with the two large h=3 rows: full_census(128,3,17921)=18 anchored cores, full_census(256,3,65537)=129 anchored cores, and full_census(32,5,97)=96 trades.",
+    "attack_surface": "assembly from the locally proved h=5 n=32 row and the still off-laptop h=3 large replay",
+    "falsifier": "any remaining gate replay returning a different count, or a corrected banked calibration table"
+  },
+  "requires": [
+    {
+      "from": "m720_h5_n32_gate_replay",
+      "order": 978
+    },
+    {
+      "from": "m720_h3_large_gate_replay",
+      "order": 979
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1139
+    }
+  ],
+  "refutes": []
+}

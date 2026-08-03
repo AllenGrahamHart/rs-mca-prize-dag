@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 884,
+  "node": {
+    "id": "dli_primitive_matching_truncation_majorant",
+    "title": "DLI primitive conflict pressure is bounded by a truncated exponential",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "If every primitive signed relation at a DLI level has support at least w_0, every compatible collection in the primitive independence polynomial has size at most K=floor(N/w_0). Weighted clique symmetrization gives the sharp total-activity bound I<=(1+P/K)^K<=Exp_K(P), hence E_j<=r_j(1+W_full,j/K_j)^K_j for the raw primitive ledger. The proved production exclusions give K=51 at ell=1, K=85 at ell=2, K=113 at ell=4, and K=floor(256ell/(2ell+1))<=127 for ell>=8. Therefore the full marginal baseline follows from sum_j K_j log(1+W_full,j/K_j)<=100log2+t log(2^256/q). The pressure bound is not asserted; this is the first exact support-conflict correction after the exp(W_full) route fence.",
+    "refs": [
+      "background/nodes/dli_primitive_matching_truncation_majorant/statement.md",
+      "background/nodes/dli_primitive_matching_truncation_majorant/proof.md",
+      "background/nodes/dli_primitive_matching_truncation_majorant/verify.py",
+      "background/nodes/dli_full_spectrum_polymer_majorant/route_fence.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_full_spectrum_polymer_majorant",
+      "order": 1549
+    },
+    {
+      "from": "dli_wcl_newton_short_window_exclusion",
+      "order": 1550
+    },
+    {
+      "from": "dli_wcl_weight3_ambient_exclusion",
+      "order": 1551
+    },
+    {
+      "from": "dli_wcl_weight4_ambient_exclusion",
+      "order": 1552
+    },
+    {
+      "from": "dli_wcl_ell2_weight5_norm_gcd_exclusion",
+      "order": 1553
+    },
+    {
+      "from": "dli_wcl_ell2_weight6_recursive_norm_exclusion",
+      "order": 1604
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_prime_weighted_large_block_support",
+      "order": 1554
+    }
+  ],
+  "refutes": []
+}

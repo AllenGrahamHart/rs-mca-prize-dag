@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 259,
+  "node": {
+    "id": "a_regular_collapse",
+    "title": "a-regular collapse: interleaved = base (exponent 1)",
+    "status": "CONDITIONAL",
+    "refs": [
+      "proof_sketch/s7_list_side.md#3"
+    ],
+    "statement": "Conditional on a_regularity_forcing, the large-m a-regular interleaved list branch collapses to the base list problem with exponent 1.",
+    "notes": "ORPHAN/HISTORICAL (amber stress 2026-07-06): retained for the for-all-m branch boundary, but it has no current root-path consumers under the official per-constant-m reading."
+  },
+  "requires": [
+    {
+      "from": "a_regularity_forcing",
+      "order": 97
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "m_handling",
+      "order": 546
+    }
+  ],
+  "refutes": []
+}

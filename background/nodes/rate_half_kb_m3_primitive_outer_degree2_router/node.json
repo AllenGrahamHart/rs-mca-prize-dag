@@ -1,0 +1,53 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1353,
+  "node": {
+    "id": "rate_half_kb_m3_primitive_outer_degree2_router",
+    "title": "KoalaBear m3 primitive-outer degree-two router",
+    "status": "PROVED",
+    "closure": "complete primitive degree-20 subdegree exclusion plus exact composite-destination routing",
+    "statement": "For each of the five inner-degree-three transverse types, an indecomposable outer degree-20 map would require a primitive group with subdegree 2, 3, 4, 6, or 12. The complete primitive degree-20 catalogue consists of PSL(2,19), PGL(2,19), A20, and S20, all with subdegrees 1,19. Thus the outer map decomposes; its proper right-factor destinations have inner degree 6,12,15,30, and the proved routers make each impossible or furnish an inner-degree-two decomposition. Inner degree three is not an independent producer, leaving the three m=2 types. No m3 nonexistence or owner charge is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/statement.md",
+      "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/proof.md",
+      "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/claim_contract.md",
+      "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/source_evidence.md",
+      "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/audit.md",
+      "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/result.md",
+      "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/frontier.md",
+      "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/verify.py",
+      "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m4_adjacency_genus_exclusion",
+      "order": 3022
+    },
+    {
+      "from": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
+      "order": 3023
+    },
+    {
+      "from": "rate_half_kb_decomposition_source_pencil_compiler",
+      "order": 3024
+    },
+    {
+      "from": "rate_half_kb_m6_scott_cartesian_degree2_router",
+      "order": 3025
+    },
+    {
+      "from": "rate_half_kb_m12_secondary_degree5_decomposition_exclusion",
+      "order": 3026
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3027
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 544,
+  "node": {
+    "id": "l1_tangent_hasse_root_pinning_census",
+    "title": "L1 tangent Hasse root-pinning census",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For an exact shell member U-P=LQ on a squarefree split domain, the canonical tangent owner is T=gcd(L,Q). Fixing a degree-r domain divisor D|L gives D|Q iff D^2|U-P, equivalently P and its first Hasse derivative match U at every D-root. This confluent evaluation map on degree-below-k codewords has rank min(k,2r), so each fixed exact owner supports at most q^max(k-2r,0) members and the degree-r tangent stratum has size at most binom(n,r)q^max(k-2r,0), without support-subset overcount. Multiplication by Q modulo L has rank a-r, so the w=a-k Pade Jacobian has corank at most min(w,r). The raw binomial sum is not asserted to be row-sharp.",
+    "refs": [
+      "background/nodes/l1_tangent_hasse_root_pinning_census/statement.md",
+      "background/nodes/l1_tangent_hasse_root_pinning_census/proof.md",
+      "background/nodes/l1_tangent_hasse_root_pinning_census/claim_contract.md",
+      "background/nodes/l1_tangent_hasse_root_pinning_census/dependency_subdag.md",
+      "background/nodes/l1_tangent_hasse_root_pinning_census/audit.md",
+      "background/nodes/l1_tangent_hasse_root_pinning_census/lineage.md",
+      "background/nodes/l1_tangent_hasse_root_pinning_census/upstream_crosswalk.md",
+      "background/nodes/l1_tangent_hasse_root_pinning_census/verify.py",
+      "background/nodes/l1_tangent_hasse_root_pinning_census/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_pade_remainder_jacobian_tangent_dichotomy",
+      "order": 2919
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2920
+    }
+  ],
+  "refutes": []
+}

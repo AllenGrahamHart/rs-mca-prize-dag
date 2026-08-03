@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 801,
+  "node": {
+    "id": "list_extension_interleaving_identity",
+    "title": "Exact extension-code/interleaving list identity",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/list_extension_interleaving_identity/statement.md",
+      "background/nodes/list_extension_interleaving_identity/proof.md"
+    ],
+    "statement": "For every finite extension E/B of degree m and base-field domain D, coordinate expansion is a Hamming isometry mapping RS[E,D,k] bijectively to RS[B,D,k]^{==m}; all received-word and worst-case list sizes agree exactly. The prize denominator remains |B|. [IMPORT REPAIR #88 (2026-07-12): this re-proves survey Lemma 2.21 = [BCFW25, Lemma D.3] \u2014 citation added; the proof was independently verified pointwise (F_4/F_2 exhaustive) so the uncited re-derivation is sound, just unattributed.]"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "list_large_m_scope_closure",
+      "order": 1342
+    }
+  ],
+  "refutes": []
+}

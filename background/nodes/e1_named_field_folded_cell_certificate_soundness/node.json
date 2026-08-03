@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 614,
+  "node": {
+    "id": "e1_named_field_folded_cell_certificate_soundness",
+    "title": "E1 named-field folded cell certificate soundness",
+    "status": "PROVED",
+    "statement": "For N' in {128,256}, a named prime field with a primitive N'th root plus a complete folded no-vector certificate returning zero nonzero non-cyclotomic folded vectors implies the corresponding E1 folded certificate cell payload.",
+    "attack_surface": "schema dispatch from named field/root and complete zero no-vector certificate to an E1 folded cell payload",
+    "falsifier": "a named field/root and complete zero no-vector certificate while the corresponding E1 folded cell payload fails"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

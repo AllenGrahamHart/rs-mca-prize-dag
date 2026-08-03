@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 975,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_trace_free_allocation_rigidity",
+    "title": "A=1 core-one trace-free allocation rigidity",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official A=1 core-one maximal-degree sharp cap, the dominant norm residual is exactly the product of the local bad-row quotients N_x of degrees delta_x. In the trace-free nonzero-weld branch, every bad domain factor divides both A and B; the apparent W-allocation would force Qhat_x to divide E_Z, which also forces epsilon_x=1 and the contradictory degree deg Qhat_x=delta_x+1>=2. The exceptional factor has two exact allocations; in its B-allocation Q(gamma_0;X) is a squarefree degree-(r-1) divisor of G_X. After the forced allocations, both complements and the unit-product weld reduce to the exact square (TFA7). The reduced square and active traces remain open.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_trace_free_allocation_rigidity/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_trace_free_allocation_rigidity/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_trace_free_allocation_rigidity/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_trace_free_allocation_rigidity/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_trace_free_allocation_rigidity/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_trace_free_allocation_rigidity/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_trace_free_allocation_rigidity/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_trace_free_allocation_rigidity/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_nonzero_weld_trace_descent",
+      "order": 1795
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1796
+    }
+  ],
+  "refutes": []
+}

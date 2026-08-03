@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1175,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_triangular_affine_reconstruction",
+    "title": "A=1 exceptional quotient unit triangular affine reconstruction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Write W_vee=W_0+P_cl(t A_W+B_W). In ascending Y-degree, the unit equation reconstructs every coefficient of A_W and B_W uniquely: the kth correction is the canonical residue rho_k=-C_k^0(l_0P_cl)^(-1) modulo f_0=E q_bar and must have degree at most one. A non-affine residue rejects the packet. Survivors leave only deterministic exact division and inherited degree and Hankel checks, with no correction-polynomial solver variables.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_triangular_affine_reconstruction/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_triangular_affine_reconstruction/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_triangular_affine_reconstruction/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_triangular_affine_reconstruction/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_triangular_affine_reconstruction/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_triangular_affine_reconstruction/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_triangular_affine_reconstruction/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_w_interpolation_normal_form",
+      "order": 2398
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization",
+      "order": 2399
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent",
+      "order": 2400
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2401
+    }
+  ],
+  "refutes": []
+}

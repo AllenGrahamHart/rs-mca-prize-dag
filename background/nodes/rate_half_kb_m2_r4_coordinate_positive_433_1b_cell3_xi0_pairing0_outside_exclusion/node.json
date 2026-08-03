@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1755,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-3 xi0 pairing0 outside exclusion",
+    "status": "PROVED",
+    "closure": "four-source-sign, four-target-lane six-basis norm and finite-fiber exclusion for xi0/pairing0",
+    "statement": "On the guarded product-rank-five branch of positive deployed 433-1b role cell 3, every outside case with missing record xi=0 and canonical residual matching pairing=0 is empty across all four source-sign pairs and all four target-sign lanes. A six-dimensional target-free norm reduces the common curve to four guarded points per source sign, and exact colored-f and residual-u root ledgers exclude every surviving finite fiber. No other missing record, matching, complete cell-3 closure, or Prize result is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_six_basis_cut_pilot_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_six_basis_cut_census_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_six_basis_cut_root_replay_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_six_basis_cut_root_replay_census_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_xi0_pairing0_outside_solver_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_xi0_pairing0_outside_solver_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient",
+      "order": 4869
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4870
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 238,
+  "node": {
+    "id": "alpha_front",
+    "title": "Front alpha scan (P1a/P1b/P1c)",
+    "status": "TARGET",
+    "refs": [
+      "wp_detail/wp_consolidation_sketch_extracts.md"
+    ],
+    "notes": "ACTIVE: PR #170 all-shift spectral probe + rectangular null-polynomial (moment-run rigidity) target | TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation.",
+    "closure": "artifact"
+  },
+  "requires": [
+    {
+      "from": "replay_170_171",
+      "order": 81
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "window_program",
+      "order": 76
+    }
+  ],
+  "refutes": []
+}

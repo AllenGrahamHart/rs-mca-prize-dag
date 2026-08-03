@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 275,
+  "node": {
+    "id": "bridge_ledger",
+    "title": "Bridge ledger (no silent crossings)",
+    "status": "PROVED",
+    "refs": [
+      "wp_detail/wp5_2_wp6_2_wp6_3_bridges.md#3"
+    ],
+    "statement": "One row per object crossing (losses, conventions, provenance); checker fails silent bridge use; includes the proved LD_sw forward-only separation.",
+    "notes": "FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/bridge_ledger/."
+  },
+  "requires": [
+    {
+      "from": "ld_bridge",
+      "order": 167
+    },
+    {
+      "from": "ldsw_ld_separation",
+      "order": 221
+    },
+    {
+      "from": "mca_from_ca_reduction",
+      "order": 602
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

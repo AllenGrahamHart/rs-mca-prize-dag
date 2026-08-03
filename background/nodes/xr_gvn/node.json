@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 356,
+  "node": {
+    "id": "xr_gvn",
+    "title": "XR stage 1: generalized von Neumann \u2014 FM-excess controlled by iterated exchange energies",
+    "status": "TARGET",
+    "statement": "Define E_k(u,v) rigorously as a k-fold iterated Johnson exchange energy and prove, with quantitative constants and endpoint control, that unpaid alignment excess over FM forces some E_k to be large. The exact k=2 fixed-slope moment is evidence but does not prove this multi-exchange reduction.",
+    "refs": [
+      "background/nodes/xr_gvn/statement.md",
+      "background/nodes/xr_gvn/status_ruling.md"
+    ],
+    "notes": "SCOPE CORRECTION 2026-07-27: averaged_xr proves only the exact fixed-slope pair moment. The former packet leaves the iterated energies, Cauchy--Schwarz chain, and endpoint margin undefined, so this broader off-orbit claim is TARGET."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": [
+    {
+      "to": "xr_e3_calculus",
+      "order": 594
+    }
+  ]
+}

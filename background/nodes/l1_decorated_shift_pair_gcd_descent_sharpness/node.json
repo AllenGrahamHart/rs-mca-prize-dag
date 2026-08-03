@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 558,
+  "node": {
+    "id": "l1_decorated_shift_pair_gcd_descent_sharpness",
+    "title": "L1 decorated shift-pair gcd descent and sharpness",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a decorated record AQ1-BQ2=R, let D=gcd(Q1,Q2) have degree c. Dividing by D gives a primitive record with reduced cofactor degree e-c and increased effective cancellation depth w+c; primitive uniqueness applies whenever e<=w+2c. The common gcd divides R, is coprime to ABN, and all its domain roots lie in the common agreement core G. An explicit F_13 family at w=1,e=2 gives ten primitive cross-coprime decorations of one ordered split pair, each realized by an exact shell pair for a corresponding received word. Thus after gcd descent the e'>w' branch must retain its received-word/Toeplitz owner; the family is not a fixed-word multiplicity or an L1 counterexample.",
+    "refs": [
+      "background/nodes/l1_decorated_shift_pair_gcd_descent_sharpness/statement.md",
+      "background/nodes/l1_decorated_shift_pair_gcd_descent_sharpness/proof.md",
+      "background/nodes/l1_decorated_shift_pair_gcd_descent_sharpness/claim_contract.md",
+      "background/nodes/l1_decorated_shift_pair_gcd_descent_sharpness/dependency_subdag.md",
+      "background/nodes/l1_decorated_shift_pair_gcd_descent_sharpness/audit.md",
+      "background/nodes/l1_decorated_shift_pair_gcd_descent_sharpness/lineage.md",
+      "background/nodes/l1_decorated_shift_pair_gcd_descent_sharpness/upstream_crosswalk.md",
+      "background/nodes/l1_decorated_shift_pair_gcd_descent_sharpness/verify.py",
+      "background/nodes/l1_decorated_shift_pair_gcd_descent_sharpness/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_growing_cofactor_decorated_shift_pair_compiler",
+      "order": 2954
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2955
+    }
+  ],
+  "refutes": []
+}

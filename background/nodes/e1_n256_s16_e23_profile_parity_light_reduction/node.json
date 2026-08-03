@@ -1,0 +1,60 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 88,
+  "node": {
+    "id": "e1_n256_s16_e23_profile_parity_light_reduction",
+    "title": "N=256 E=23 cutoff-free profile/parity/light reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e23_profile_parity_light_reduction/statement.md",
+      "background/nodes/e1_n256_s16_e23_profile_parity_light_reduction/proof.md",
+      "background/nodes/e1_n256_s16_e23_profile_parity_light_reduction/claim_contract.md",
+      "background/nodes/e1_n256_s16_e23_profile_parity_light_reduction/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e23_profile_parity_light_reduction/audit.md",
+      "background/nodes/e1_n256_s16_e23_profile_parity_light_reduction/result.md",
+      "background/nodes/e1_n256_s16_e23_profile_parity_light_reduction/source_pin.json",
+      "background/nodes/e1_n256_s16_e23_profile_parity_light_reduction/verify.py",
+      "background/nodes/e1_n256_s16_e23_profile_parity_light_reduction/verify_audit.py",
+      "experiments/prize_resolution/e23_profile_parity_probe_modal.py",
+      "experiments/prize_resolution/e23_profile_parity_probe_result.json",
+      "experiments/prize_resolution/e23_profile_parity_probe_check.py"
+    ],
+    "statement": "For N=256 folded profile (3,4,0) at V=46, exact slack gives L<=13. Of seven magnitude profiles, diameter parity leaves (3,5), (2,3,1), (1,1,2), and (3,1,0,1). Their complete three-odd light ledger has 960 normalized supports in eight affine templates, giving a 158,783,488-vector direct floor per engine. No cubic-Hermite cutoff is used.",
+    "notes": "ROUTE REDUCTION 2026-07-27: the second complete cutoff-free router below the fixed-majorant boundary."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e24_endpoint_exclusion",
+      "order": 4217
+    },
+    {
+      "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+      "order": 4218
+    },
+    {
+      "from": "e1_n256_s16_signed_chord_collision_gate",
+      "order": 4219
+    },
+    {
+      "from": "e1_n256_s16_e27_profile_parity_light_reduction",
+      "order": 4220
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 4221
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4227
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4228
+    }
+  ],
+  "refutes": []
+}

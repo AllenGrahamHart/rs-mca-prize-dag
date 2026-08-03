@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 949,
+  "node": {
+    "id": "rate_half_list_budget_three_path_mobius_transversal",
+    "title": "Budget-three path Mobius transversal",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every path-plus-singleton B*=3 split pencil is a coupled pair of constant pencils with injective Mobius-transversal complements. The degree-d pencil has exactly three fully domain-split members for d>=3, and the degree-(d-1) pencil has exactly three for d>=6. The order-eight singular witness is the sharp d=2 four-member exception. A separate d=4 power-of-two witness shows that exact-three does not exclude the path; existence on official rows remains open.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_path_mobius_transversal/statement.md",
+      "background/nodes/rate_half_list_budget_three_path_mobius_transversal/proof.md",
+      "background/nodes/rate_half_list_budget_three_path_mobius_transversal/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_path_mobius_transversal/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_path_mobius_transversal/audit.md",
+      "background/nodes/rate_half_list_budget_three_path_mobius_transversal/result.md",
+      "background/nodes/rate_half_list_budget_three_path_mobius_transversal/verify.py",
+      "background/nodes/rate_half_list_budget_three_path_mobius_transversal/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_split_fiber_atlas",
+      "order": 1723
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1724
+    }
+  ],
+  "refutes": []
+}

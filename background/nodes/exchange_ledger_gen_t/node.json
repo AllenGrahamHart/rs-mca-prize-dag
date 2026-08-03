@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 224,
+  "node": {
+    "id": "exchange_ledger_gen_t",
+    "title": "Generalize #152 exchange ledger past t=2 (hand-off)",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s3b_iii_2_displacement_spectral.md#7"
+    ],
+    "notes": "QUANTIFIED GOAL (via xr_radius_arithmetic): the generalization now has a numeric target \u2014 reach s*(rate); each unit of algebraic reach is worth ~log q ~ 250 combinatorial steps. | Fleet A M2 confirms this node also gates the globalness HYPOTHESIS at general in-band t (the top-core cap is proved-local at t=2 only). | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/exchange_ledger_gen_t/. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate xr_ledger_qpower was not wired req \u2014 promoted."
+  },
+  "requires": [
+    {
+      "from": "xr_ledger_qpower",
+      "order": 844
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

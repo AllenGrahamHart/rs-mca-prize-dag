@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 988,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_four_antipodal_descent",
+    "title": "Budget-three fiber-four antipodal branch descends to a quotient pencil",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the antipodal rank-two component P_i=X^2-a_i, direct fiber-four linear K_4 data descend through Y=X^4 to four pairwise-coprime monic degree-s-1 polynomials G_i in one two-dimensional base-field pencil. They satisfy product G_i=(Y^d-1)/product_i(Y-a_i^2). At the prize maximum this is an exact degree-2^37-1 split-pencil census on the order-2^39 quotient subgroup.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_four_antipodal_descent/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_four_antipodal_descent/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_four_antipodal_descent/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_four_antipodal_descent/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_four_antipodal_descent/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_four_antipodal_descent/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_four_antipodal_descent/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_four_antipodal_descent/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_four_rank_gate",
+      "order": 1817
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1818
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,48 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 18,
+  "node": {
+    "id": "e1_pair_feasible_prime_field_reduction",
+    "title": "Pair-feasible E1 rows lie in the prime-field kernel scope",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_pair_feasible_prime_field_reduction/statement.md",
+      "background/nodes/e1_pair_feasible_prime_field_reduction/proof.md",
+      "background/nodes/e1_pair_feasible_prime_field_reduction/claim_contract.md",
+      "background/nodes/e1_pair_feasible_prime_field_reduction/dependency_subdag.md",
+      "background/nodes/e1_pair_feasible_prime_field_reduction/audit.md",
+      "background/nodes/e1_pair_feasible_prime_field_reduction/result.md",
+      "background/nodes/e1_pair_feasible_prime_field_reduction/source_pin.json",
+      "background/nodes/e1_pair_feasible_prime_field_reduction/verify.py"
+    ],
+    "statement": "At each of the six named clean predecessor anchors, pair feasibility first forces F_p(Q)=F_q. Writing q=p^d, the canonical quotient roots then give d=ord_N(p), where N is 256 or 512. Exact perfect-power interval checks exclude every possible d>1: the prize interval has no such perfect power, and the only four RowC square roots have the wrong parity or multiplicative order. Hence q=p and p=1 mod N on the live pair-feasible E1 branch. This validates the prime-field sparse-kernel interface but proves no collision allowance.",
+    "notes": "ROUTE REDUCTION 2026-07-27: closes the extension-degree scope gap left by ambient generation. The exact pointwise E1 collision target remains open."
+  },
+  "requires": [
+    {
+      "from": "e1_pair_feasible_ambient_generation",
+      "order": 237
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 371
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 372
+    },
+    {
+      "to": "e1_official_low_square_mass_collision_coloring",
+      "order": 4408
+    },
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4419
+    }
+  ],
+  "refutes": []
+}

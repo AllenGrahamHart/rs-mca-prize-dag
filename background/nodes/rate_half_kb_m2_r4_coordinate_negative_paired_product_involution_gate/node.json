@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1406,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+    "title": "KoalaBear m2 r4 coordinate linear-product paired involution gate",
+    "status": "PROVED",
+    "closure": "one coefficient-free 6 x 3 paired-product involution gate, a symbolic fixture deletion, and a positive linear-product branch cut",
+    "statement": "For every negative coordinate packet, and every positive packet whose product ratio reduces to degree at most one, conjugating source negation by the nonconstant Mobius edge-product map gives one projective involution on product values. If (y_i,z_i) are the products at the six source-label pairs, the rows [y_i z_i,-(y_i+z_i),-1] have rank at most two. Two antisymmetric pairs (u,-u),(v,-v) with u^2!=v^2 force all six pairs to be antisymmetric. This symbolically deletes the exact fixture over every odd field in both in-scope lanes. Any remaining positive realization has genuinely quadratic product ratio. Other packet graphs and the coordinate orientation remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+      "order": 3074
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3075
+    }
+  ],
+  "refutes": []
+}

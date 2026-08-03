@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 320,
+  "node": {
+    "id": "paid_tan_fn",
+    "title": "Paid_tan(A): staircase formula as a computable function",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#5"
+    ],
+    "notes": "IN FLIGHT: #194 (bundle) | FLIP on replay (Codex wave 3): PROVABLE -> PROVED.",
+    "statement": "THE TANGENT PAID COLUMN Paid_tan(A) is a computable function of the row and the agreement index A, equal to the first-match sum of (i) the explicit tangent staircase contribution supplied by `staircase` and (ii) the residual common-code-line charge supplied by `common_code_line_budget` for slopes lying on a common code line but not already counted by the primary staircase stratum. Convention: a witness is charged to the first applicable tangent cell, and residual common-line witnesses are charged thereafter. [statement written 2026-07-27 from this node's own proof.md]"
+  },
+  "requires": [
+    {
+      "from": "staircase",
+      "order": 191
+    },
+    {
+      "from": "common_code_line_budget",
+      "order": 223
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

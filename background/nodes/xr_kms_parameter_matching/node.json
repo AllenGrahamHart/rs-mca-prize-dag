@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 423,
+  "node": {
+    "id": "xr_kms_parameter_matching",
+    "title": "THE RESIDUE: quantitative regime matching at FM-scale densities",
+    "status": "PROVED",
+    "key": true,
+    "statement": "RESTRUCTURED: primary route = xr_globalness_from_ledger (the proved tangent ledger bounds link densities post-strip) + xr_small_set_engine (KLLM: global sets expand, losses poly in link parameters not 1/mu) + elementary composition arithmetic. The raw-KMS-constants check remains the cheap first look (the loss-exponent table), but the globalness route is expected to carry the FM-scale regime. If both compose, the XR wall's skeleton is an assembly of proved pieces plus one import. COMPOSITION TENSION (#211/E20): raw KMS/DKKMS do not provide a q-power FM engine as stated (verdict per the loss tables); KLLM's extracted stay-probability arithmetic consumes globalness beta <= q^-g and yields q^{-(g+t-1)/4} \u2014 a Q-POWER globalness demand, while the proved top-core cap gives poly(n)-scale. THE open arithmetic: does poly-globalness + the q-power pair ledger compose to n^B * FM (the KLLM engine used only for the structured residue), or does the cap need a q-power strengthening (a new, harder statement)? This is now the central question of the QX.14/QX.15 assembly.",
+    "attack_surface": "parameter tables first (S-sized): tabulate the KMS/KLLM loss exponents against the FM gap per rate; if the exponents eat the gap, the KLLM global-hypercontractivity route is the fallback with sharper small-set constants",
+    "falsifier": "the tables showing BOTH known quantitative forms lose more than the FM gap provides \u2014 would mean the import needs strengthening, not that the route is dead",
+    "refs": [
+      "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
+    ],
+    "notes": "Globalness half PROOF-PINNED (see xr_globalness_from_ledger): the crux-1 conversion now has NO open conjecture of our own on the primary path \u2014 remaining: KLLM constant verification (QX.12), the E3-stability plumbing (wave-1 bridge packet), and the QX.14/QX.15 assembly. | Fleet A M3: the import skeleton encodes the decisive structural check \u2014 the chain is satisfiable ONLY IF the KLLM losses are mu-free AND the globalness definition is absolute (g3 + g1*g6 = 0). The eventual PDF verification is now a TWO-ITEM check (C2, C9), not a paper-wide audit. | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/xr_kms_parameter_matching/. | REGRESSED PROVABLE -> CONDITIONAL: its predicate xr_globalness_from_ledger was honestly downgraded in wave 4; the discharge un-fires. (Policy note: downgrades propagate \u2014 auto-discharged nodes regress when a predicate leaves green.)"
+  },
+  "requires": [
+    {
+      "from": "xr_globalness_from_ledger",
+      "order": 709
+    },
+    {
+      "from": "xr_small_set_engine",
+      "order": 710
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

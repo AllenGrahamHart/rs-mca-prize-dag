@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 736,
+  "node": {
+    "id": "f2_char0_sixterm_classification",
+    "status": "PROVED",
+    "statement": "F2 CHAR-0 SIX-TERM CLASSIFICATION (2026-07-10, campaign cycle 25; digest F2_CHAR0_SIXTERM_PASS, exact Z[x]/(x^{n/2}+1) arithmetic, 277 exponent pairs, n = 16/32/64, zero violations): over Z[zeta_{2^s}], the fiber-coincidence relation S(a,b) = a^u b^v - a^v b^u - a^u + a^v + b^u - b^v = 0 has ONLY ledger, degenerate, or diagonal solutions. PROOF: Lam-Leung (vanishing sums of 2-power roots of unity decompose into cancelling PAIRS) + case-check of all 3! = 6 sign-respecting perfect matchings of the six terms \u2014 each forces ledger (a^{u-v} = b^{u-v} = 1), degeneracy (a^v or b^v = 1, the 0/inf fibers), or a = b. CONSEQUENCES: (1) phi_{u,v} has NO nondegenerate fiber coincidences over C \u2014 every finite-q coincidence is a char-q accident with a prime above p dividing the NONZERO cyclotomic integer S(a,b), all conjugates <= 6; (2) the large-field flat bound reduces to bounding p-divisibility incidences of a fixed family of nonzero algebraic integers; (3) SHARPENED official-regime conjecture: C(3) <= 2 at q >> n^2 (all tested q were < n^2, explaining the observed 3-fibers as accidents). The char-0 half of the q-robust classification is CLOSED; cross-lane: the same object class as Codex's F3 Conway-Jones bank, now theorem-level on the F2 side."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1257
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 17,
+  "node": {
+    "id": "e1_pair_feasible_ambient_generation",
+    "title": "Pair-feasible E1 rows generate the ambient field",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_pair_feasible_ambient_generation/statement.md",
+      "background/nodes/e1_pair_feasible_ambient_generation/proof.md",
+      "background/nodes/e1_pair_feasible_ambient_generation/claim_contract.md",
+      "background/nodes/e1_pair_feasible_ambient_generation/verify.py",
+      "background/nodes/e1_pair_feasible_ambient_generation/source_pin.json"
+    ],
+    "statement": "At each of the six named clean predecessor anchors, let Q be the canonical cyclic quotient root set of order N in {256,512}, and let B=F_p(Q) be its generated subfield of the ambient field F_q. Every proper B has |B|<2^128 because q<2^256. All six exact pair-feasibility thresholds satisfy b_pair_min>2^128, with bit lengths 134,170,188. Hence |B|>=b_pair_min forces F_p(Q)=F_q. Proper generated-subfield rows remain outside the pair-loss target and require direct image or another supplier.",
+    "notes": "ROUTE REDUCTION 2026-07-27: ambient generation is automatic on the live pair-feasible E1 branch; this proves no collision bound."
+  },
+  "requires": [
+    {
+      "from": "e1_clean_anchor_exact_collision_allowance",
+      "order": 236
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 369
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 370
+    }
+  ],
+  "refutes": []
+}

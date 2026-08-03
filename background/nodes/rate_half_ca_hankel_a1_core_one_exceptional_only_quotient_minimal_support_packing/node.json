@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1169,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing",
+    "title": "A=1 exceptional quotient minimal-support packing",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Distinct minimal quotient supports obey a sharp Vandermonde intersection cap. A Johnson second-moment argument gives an explicit finite leader bound through h=302646214511, including at most five leaders at h=e+2 and at most six through h=279180239468.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness",
+      "order": 2379
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling",
+      "order": 2380
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2381
+    }
+  ],
+  "refutes": []
+}

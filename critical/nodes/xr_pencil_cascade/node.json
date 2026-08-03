@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 449,
+  "node": {
+    "id": "xr_pencil_cascade",
+    "title": "FACE-4 LEG 1 (from E27): the pencil-cascade forcing lemma",
+    "status": "PROVED",
+    "key": true,
+    "statement": "If a pair (u,v) has two aligned supports (distinct slopes) whose agreement sets share a common core of size >= k+t-1 = A-1, then the slope pencil is FORCED on the core (interpolation: core >= k determines both explaining codewords, the 2x2 slope system inverts), and the alignment CASCADES: every off-core point upgrades one further slope. E27 verified every observed cascade algebraically at RS[F_97, mu_16, k=8] (the multiplicity-2 stratum has a -8.8 sigma HOLE at cores >= A-1). The argument is interpolation + the two-slope trick \u2014 scale-free. [SCOPE CORRECTION ratified 2026-08-02, see the node's PAYMENT_UNSOURCED_FLAG note: PROVED = forcing + cascade ONLY. Withdrawn from the proved scope: 'multiplicity ~n-core' (assumed ONE forced pencil; the F_17 witness realizes 8 > n-core = 6) and 'TANGENT-PENCIL pair \u2014 paid' (no banked payment: T2/P2 never fires at exactly A; the injection hypothesis |T| <= n-A is one notch short; the upstream 'paid' sense is a CONJECTURE clause). Under the ratified Route T fold-in the depth-(h-1) cascade tier is charged as a NAMED tier of the band column (xr_graded_tangent_band_charge); the forcing stays citable as structure.]",
+    "attack_surface": "specialize two_slope_intersection to cores >= k+t-1; the cascade step is one line (pencil evaluation off-core); write-up is a small packet",
+    "falsifier": "a toy multiplicity-2 pair with core >= A-1 and no pencil (E27's machinery searches this directly; zero found in 2000 constructed + 10^5 organic)",
+    "refs": [
+      "experimental/notes/roadmaps/e27_exceptional_pair_census.md"
+    ],
+    "notes": "PROVED (W1, PR #10, 70/70 replayed): the forcing lemma at core >= k+t-1 with the cascade, scale-free, E27-calibrated. Face 4 rung 1 closed."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_graded_tangent_band_charge",
+      "order": 4838
+    }
+  ],
+  "refutes": []
+}

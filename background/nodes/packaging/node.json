@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 3,
+  "node": {
+    "id": "packaging",
+    "title": "Assembly: compiler + dossier + gates",
+    "status": "CONDITIONAL",
+    "gate": "all",
+    "refs": [
+      "proof_sketch/s8_s9_assembly_and_negative.md#1"
+    ],
+    "statement": "Compiler emits verdicts under the refusal rule; dossier versions gate-checked; every constant descriptor-generated.",
+    "notes": "MAINTAINER SIGNAL (main commits 9e9bbf8c/0f3f5620): Paper D is framed as the FINAL SUBMISSION SPINE. The packaging tier should target Paper D's certificate grammar and structure directly, not a parallel standalone dossier. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/packaging/conditional.md."
+  },
+  "requires": [
+    {
+      "from": "compiler",
+      "order": 113
+    },
+    {
+      "from": "harness",
+      "order": 114
+    },
+    {
+      "from": "dossier_partial",
+      "order": 115
+    },
+    {
+      "from": "bridge_ledger",
+      "order": 116
+    },
+    {
+      "from": "submission_quality_paper_dossier",
+      "order": 2532
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

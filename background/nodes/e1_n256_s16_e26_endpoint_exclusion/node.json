@@ -1,0 +1,49 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 81,
+  "node": {
+    "id": "e1_n256_s16_e26_endpoint_exclusion",
+    "title": "N=256 E=26 endpoint exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e26_endpoint_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e26_endpoint_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e26_endpoint_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e26_endpoint_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e26_endpoint_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e26_endpoint_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e26_endpoint_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e26_endpoint_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e26_endpoint_exclusion/verify_audit.py"
+    ],
+    "statement": "At N=256 and folded profile (3,4,0), V=52 is impossible. The exact profiles (2,6), (1,4,1), (0,2,2), (2,2,0,1), (1,0,1,1), (1,0,0,0,1), (6,5), (5,3,1), (4,1,2), and (6,1,0,1) are exhausted by the proved two-odd and six-odd exclusions. The live positive even frontier is 0<V<=50.",
+    "notes": "ENDPOINT CLOSURE 2026-07-27: the entire E26 chamber is empty; continue at V=50 without rerunning any V>=52 profile."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e26_profile_parity_light_reduction",
+      "order": 4178
+    },
+    {
+      "from": "e1_n256_s16_e26_six_two_odd_profile_exclusion",
+      "order": 4179
+    },
+    {
+      "from": "e1_n256_s16_e26_four_six_odd_profile_exclusion",
+      "order": 4180
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4183
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4184
+    }
+  ],
+  "refutes": []
+}

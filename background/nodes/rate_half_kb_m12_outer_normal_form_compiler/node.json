@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1341,
+  "node": {
+    "id": "rate_half_kb_m12_outer_normal_form_compiler",
+    "title": "KoalaBear m12 outer normal-form compiler",
+    "status": "PROVED",
+    "closure": "dihedral invariant-field normal form plus exact critical-value integration",
+    "statement": "Every surviving inner-degree-12 outer map is geometrically affine-equivalent to one of six explicit polynomial families. The r=2 row is a Dickson quintic with two printed quadratic divided-difference factors. Four r=4 profiles have rigid normal forms and the fifth has one parameter. This is a geometric classification only: no family deletion, challenge-field coefficient descent, owner, charge, m12, u2, cap 68, or row close is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/statement.md",
+      "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/proof.md",
+      "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/audit.md",
+      "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/result.md",
+      "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/frontier.md",
+      "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/verify.py",
+      "background/nodes/rate_half_kb_m12_outer_normal_form_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m12_outer_subdegree_route_cut",
+      "order": 3675
+    },
+    {
+      "from": "rate_half_kb_m12_r4_low_genus_branch_profile_reduction",
+      "order": 3676
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3677
+    }
+  ],
+  "refutes": []
+}

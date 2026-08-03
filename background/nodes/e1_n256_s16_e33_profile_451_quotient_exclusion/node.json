@@ -1,0 +1,55 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 49,
+  "node": {
+    "id": "e1_n256_s16_e33_profile_451_quotient_exclusion",
+    "title": "N=256 E=33 profile-(4,5,1) quotient exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e33_profile_451_quotient_exclusion/verify_audit.py",
+      "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile451_nested_probe.cpp",
+      "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile451_nested_probe_modal.py",
+      "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile451_quotient_census.cpp",
+      "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile451_quotient_probe_modal.py",
+      "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile451_threshold_modal.py",
+      "background/nodes/e1_n256_s16_e33_profile_parity_diameter_reduction/notes/e33_profile451_route_report_20260727.md"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), and V=66, autocorrelation magnitude profile (4,5,1) is impossible. A complete mod-16 quotient census covers 5,421,301 order-128 allocations with M_3<=1732 and 3,086,861 divided order-64 allocations with M_3<=1670. The outer-4Z chamber has degree-32 norm at most 50^32<2^250. The exact cubic certificate therefore excludes every chamber.",
+    "notes": "ROUTE CLOSURE 2026-07-27: removes the second of four V=66 profiles with a complete quotient census at the exact cubic boundary. Two profiles remain."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e33_profile_parity_diameter_reduction",
+      "order": 307
+    },
+    {
+      "from": "e1_n256_proper_conductor_collision_exclusion",
+      "order": 308
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 309
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 421
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 422
+    }
+  ],
+  "refutes": []
+}

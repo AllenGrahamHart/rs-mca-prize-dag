@@ -1,0 +1,78 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1480,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion",
+    "title": "KoalaBear positive 433-1a to O0b complete route exclusion",
+    "status": "PROVED",
+    "closure": "exact two-lane, 60-row, ten-representative orbit coverage by nine proved exclusions",
+    "statement": "The exact signed-edge atlas has two lanes, and the exact common root-sign quotient partitions all 60 matching/root-sign rows into ten algebraic representatives. Nine PROVED orbit-exclusion theorems cover those representatives with disjoint raw-row counts 4+8+8+8+8+8+4+8+4=60. Each exclusion is uniform in the cycle/outside case or contradicts a universal necessary signed-pair subsystem. Therefore the deployed positive residual route 433-1a -> O0b is empty. No other coordinate route or broader Prize claim is made.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
+      "order": 3332
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+      "order": 3333
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion",
+      "order": 3334
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion",
+      "order": 3335
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion",
+      "order": 3336
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion",
+      "order": 3337
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion",
+      "order": 3338
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell9_signed_pair_guard_factorization_exclusion",
+      "order": 3339
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion",
+      "order": 3340
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion",
+      "order": 3341
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion",
+      "order": 3342
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3343
+    }
+  ],
+  "refutes": []
+}

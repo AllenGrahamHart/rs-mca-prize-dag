@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 368,
+  "node": {
+    "id": "xr_inverse_toy",
+    "title": "TOY INVERSE at n = 16/32: every E_3-large pair is structured (exhaustive)",
+    "status": "TARGET",
+    "refs": [
+      "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
+    ],
+    "notes": "the k=3 inverse verified exhaustively at toy scale \u2014 falsifier and content-preview for C_XR in one experiment | TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation.",
+    "closure": "computation"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_inverse",
+      "order": 593
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1237,
+  "node": {
+    "id": "xr_mismatch_descent_dimension_area_law",
+    "title": "XR mismatch-descent dimension area law",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every live invariant-excess mismatch chain, sum_j(K_j+h)<=N_0-(h+1), while the external-zero drops telescope as sum_j d_j=K_0-K_L<=K_0-1. Consequently the number of levels with K_j>=kappa is at most floor((N_0-h-1)/(kappa+h)), and a chain close to maximal depth has only the corresponding small excess-dimension area. Exact caps are printed for all six clean-rate roots. This is pathwise dimension amortization, not a branch-width or slope payment.",
+    "refs": [
+      "background/nodes/xr_mismatch_descent_dimension_area_law/statement.md",
+      "background/nodes/xr_mismatch_descent_dimension_area_law/proof.md",
+      "background/nodes/xr_mismatch_descent_dimension_area_law/claim_contract.md",
+      "background/nodes/xr_mismatch_descent_dimension_area_law/dependency_subdag.md",
+      "background/nodes/xr_mismatch_descent_dimension_area_law/audit.md",
+      "background/nodes/xr_mismatch_descent_dimension_area_law/result.md",
+      "background/nodes/xr_mismatch_descent_dimension_area_law/verify.py",
+      "background/nodes/xr_mismatch_descent_dimension_area_law/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_mismatch_nongeneric_invariant_excess_descent",
+      "order": 2576
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 2577
+    }
+  ],
+  "refutes": []
+}

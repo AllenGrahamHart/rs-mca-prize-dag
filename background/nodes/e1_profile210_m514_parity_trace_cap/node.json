@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 163,
+  "node": {
+    "id": "e1_profile210_m514_parity_trace_cap",
+    "title": "E1 profile-(2,10) cofactor-514 parity and trace cap",
+    "status": "PROVED",
+    "closure": "local parity multiplicity and distinct-conjugate trace bound",
+    "refs": [
+      "background/nodes/e1_profile210_m514_parity_trace_cap/statement.md",
+      "background/nodes/e1_profile210_m514_parity_trace_cap/proof.md",
+      "background/nodes/e1_profile210_m514_parity_trace_cap/claim_contract.md",
+      "background/nodes/e1_profile210_m514_parity_trace_cap/dependency_subdag.md",
+      "background/nodes/e1_profile210_m514_parity_trace_cap/audit.md",
+      "background/nodes/e1_profile210_m514_parity_trace_cap/result.md",
+      "background/nodes/e1_profile210_m514_parity_trace_cap/frontier.md",
+      "background/nodes/e1_profile210_m514_parity_trace_cap/verify.py"
+    ],
+    "statement": "Local multiplicity two excludes the all-even energy-eight cofactor-514 profile, and a rationally certified distinct-trace cap excludes the sole energy-thirteen all-unit profile below the field floor. Fifteen magnitude profiles remain.",
+    "notes": "PARITY/TRACE REFINEMENT 2026-07-29: Machin arctangent bounds and a quartic cosine majorant prove the uniform 2551/100 trace cap; an exact logarithm envelope then clears 514*p_min. Signed lag configurations in the other 15 profiles remain; no E1 close or Prize movement."
+  },
+  "requires": [
+    {
+      "from": "e1_profile210_m514_middle_shape_log_router",
+      "order": 4573
+    },
+    {
+      "from": "e1_profile210_split_prime_ideal_router",
+      "order": 4574
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4575
+    }
+  ],
+  "refutes": []
+}

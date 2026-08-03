@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 555,
+  "node": {
+    "id": "l1_boundary_q_planted_root_descent",
+    "title": "L1 boundary-Q planted-root descent",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For an exact member P in a boundary affine-Q cell, the basis determinant gives W1 P-N1=c_P L, where L is its complete agreement locator. With D=gcd(W1,Omega), the module congruence gives D|N1, every D-root is a planted agreement, and D|L. Dividing by D leaves a root-free projective rational-Q cell on H\\roots(D). If r=deg D>=k there is at most one member; if r<k, candidates are uniquely P=P_S+D R with deg R<k-r, while the split locator degree falls from m to m-r, preserving surplus w. No smoothness or transport to standard locator Q is proved.",
+    "refs": [
+      "background/nodes/l1_boundary_q_planted_root_descent/statement.md",
+      "background/nodes/l1_boundary_q_planted_root_descent/proof.md",
+      "background/nodes/l1_boundary_q_planted_root_descent/claim_contract.md",
+      "background/nodes/l1_boundary_q_planted_root_descent/dependency_subdag.md",
+      "background/nodes/l1_boundary_q_planted_root_descent/audit.md",
+      "background/nodes/l1_boundary_q_planted_root_descent/lineage.md",
+      "background/nodes/l1_boundary_q_planted_root_descent/upstream_crosswalk.md",
+      "background/nodes/l1_boundary_q_planted_root_descent/verify.py",
+      "background/nodes/l1_boundary_q_planted_root_descent/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_boundary_shifted_lattice_affine_q_cell",
+      "order": 2948
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2949
+    }
+  ],
+  "refutes": []
+}

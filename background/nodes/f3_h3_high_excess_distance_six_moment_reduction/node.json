@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1003,
+  "node": {
+    "id": "f3_h3_high_excess_distance_six_moment_reduction",
+    "title": "H3 high-excess distance-six moment reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On P(t)>=33, combining the oriented fiberwise distance-four cap with the norm-one antipodal centroid saving gives P(t)-18<=(8/21)N_6(t). Therefore 136 sum N_6(t)R(t)<=21(300n^2-238(n-1)(n-2)) implies C36'.",
+    "refs": [
+      "background/nodes/f3_h3_high_excess_distance_six_moment_reduction/statement.md",
+      "background/nodes/f3_h3_high_excess_distance_six_moment_reduction/proof.md",
+      "background/nodes/f3_h3_high_excess_distance_six_moment_reduction/claim_contract.md",
+      "background/nodes/f3_h3_high_excess_distance_six_moment_reduction/dependency_subdag.md",
+      "background/nodes/f3_h3_high_excess_distance_six_moment_reduction/audit.md",
+      "background/nodes/f3_h3_high_excess_distance_six_moment_reduction/result.md",
+      "background/nodes/f3_h3_high_excess_distance_six_moment_reduction/verify.py",
+      "background/nodes/f3_h3_high_excess_distance_six_moment_reduction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_distance_four_fiber_degree_cap",
+      "order": 1903
+    },
+    {
+      "from": "f3_h3_excess_budget_degree_tradeoff",
+      "order": 1904
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1905
+    }
+  ],
+  "refutes": []
+}

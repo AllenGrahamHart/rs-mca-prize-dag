@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 784,
+  "node": {
+    "id": "f3_hge4_aggregate_budget",
+    "status": "CONDITIONAL",
+    "key": true,
+    "statement": "HGE4-14 (aggregate band budget gate; the uniform-in-h shape FORCED by the band derivation, KB #27; amendments A3/A4/A5 applied at mint). At every official corridor row (n = 2^s, 13 <= s <= 41; EVERY prime p = 1 mod n with p >= n^2 \u2014 full corridor, A3) with A_row = k+t and H_max(row) = min(A_row, floor(n/2)) (the proved band pin): Sigma_{h=4}^{H_max} R_h <= 14 n^3, where R_h = the number of fully stripped primitive active-core records of width h remaining after the FIVE strips \u2014 quotient, dihedral, moment-trade, U2 boundary, DLI/skew \u2014 in the direct-column counting convention consumed by x4_exactlist_staircase_split, with the F-4 MINIMAL-TRADE SCOPE PIN: the convention counts the order-(h-1) minimal objects; if non-minimal cores must be counted the convention re-opens (A5). Empty sum = zero. The constant 14 is a compiler allocation (0 + 1 + 1 + 14 = 16, no double-spend, F-3 ledger). FALSIFIER (A4, slice semantics): a certified correctly-stripped aggregate count > 14n^3 on a complete official row OR on a certified slice (fixed sub-band or fixed-p slice) whose transported contribution alone exceeds 14n^3; a large UNSTRIPPED count, or a fixed-h mass still paid by another column, does NOT falsify. ROUTES: (1) prove a width cap (f3_active_core_width_cap, ev-wired) and sum the finite band; (2) prove the uniform weighted estimate directly \u2014 route 2 is forced if no small cap lands. || ROUTE 3 \u2014 DICHOTOMY REDUCTION (2026-07-12, upstream complete-dichotomy replay, audit-gated): the classification x81 + x24 + x83 is PROVED AND REPLAYED at house rigor (upstream verifiers 15/40/36/101 PASS; independent implementations: symbolic identity/recursion/denominator laws through h = 12; exhaustive minimal-trade censuses at 76 cells, 96,799 trades, 712 exact O_K norm verifications, gate biconditional exhaustive at 15 cells; hero row F1153/mu32 h = 8 fully enumerated). CONSEQUENCE: every fully-stripped record is a NORM-GATE EVENT (full-fiber-paid mass lies in the quotient strip via the locator X^h - alpha^h = F(x^h); pairs-to-records factor <= 2 pin). HGE4 therefore reduces to NG-COUNT: Sigma_{h=4}^{H_max} #{records whose lifted support has all h-1 cleared obstructions = 0 mod P, lambda a nonzero square, outside the strips} <= 14n^3 \u2014 an explicit arithmetic object with enormous room (naive first-moment gate mass ~10^4 at s = 13 boundary vs 14n^3 = 7.7e12). CATCH #96 GUARD: the ZERO form (NG-ZERO, 'official primes divide no cleared obstruction norm') is NOT consumable \u2014 it is corridor-infinite, execution-infeasible at official n (upstream's own a3 pilot), and the first-moment model predicts it FALSE at boundary rows for 4 <= h < H_vac (upstream's 'small-h mathematics DONE' label overclaims; all empirical zeros to date sit in the model's vacant zone). NG-COUNT mint + conditional flip deferred one cycle pending the in-flight stripped census (whose SP-CENSUS-2 targeting must be re-read under catch #95). || CONDITIONAL VIA ROUTE 3 (2026-07-12; the deferred surgery executed after the census survived): IF f3_hge4_norm_gate_count THEN HGE4-14 \u2014 the bridge is the replayed dichotomy (x81 + x24 + x83, req-wired): every F-4-minimal record is full-fiber (= quotient-strip material via the locator X^h - alpha^h = F(x^h)) or a norm-gate event, so the stripped aggregate IS the norm-gate aggregate (pairs-to-records factor <= 2 pin). FIRST EXECUTED ATTEMPT SURVIVED: deep aggregate exactly 0 at every scanned cell incl. complete n=16 rows and the adversarial boundary rows (census scripts banked in notes/). RE-SURGERY: NG-COUNT falsified; the F-4 pin re-opened (A5) \u2014 which catch #99 shows is fatal, so that clause is now a KILL trigger, not a re-pin; the strip convention re-scoped (catch #100); or the dichotomy's biconditional contradicted at any cell."
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_norm_gate_count",
+      "order": 1345
+    },
+    {
+      "from": "x81_minimal_trade_square_shift",
+      "order": 1346
+    },
+    {
+      "from": "x83_uniform_square_shift_obstruction_gate",
+      "order": 1347
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

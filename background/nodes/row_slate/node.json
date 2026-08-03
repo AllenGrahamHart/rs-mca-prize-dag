@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 276,
+  "node": {
+    "id": "row_slate",
+    "title": "Row slate A/B/C/D (transfer + measurement)",
+    "status": "TARGET",
+    "refs": [
+      "wp_detail/wp3_1_wp3_3_rows_and_second_pin.md#1"
+    ],
+    "notes": "#204's A=426 universal row is the slate's first window-edge exact value."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "second_pin_or_wall",
+      "order": 120
+    }
+  ],
+  "refutes": []
+}

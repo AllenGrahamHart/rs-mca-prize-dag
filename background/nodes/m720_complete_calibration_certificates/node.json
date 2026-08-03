@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 653,
+  "node": {
+    "id": "m720_complete_calibration_certificates",
+    "title": "M720 complete bounded-band calibration certificates",
+    "status": "PROVED",
+    "statement": "Complete calibration cells for h=7..20 have zero unpaid non-toral active cores. Any n=1024 window-slice result is explicitly labeled as slice-local and is not used as a global zero certificate.",
+    "attack_surface": "assembly from the MITM gate, proved certificate semantics, and off-laptop complete zero certificates",
+    "falsifier": "a complete calibration cell containing an unpaid non-toral active core, or a certificate that treats an incomplete window slice as a complete cell"
+  },
+  "requires": [
+    {
+      "from": "m720_mitm_gate",
+      "order": 968
+    },
+    {
+      "from": "m720_certificate_semantics",
+      "order": 969
+    },
+    {
+      "from": "m720_off_laptop_zero_certificates",
+      "order": 970
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1135
+    }
+  ],
+  "refutes": []
+}

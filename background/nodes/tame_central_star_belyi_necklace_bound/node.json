@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1253,
+  "node": {
+    "id": "tame_central_star_belyi_necklace_bound",
+    "title": "Tame central-star Belyi necklace bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "A tame degree-m polynomial cover with passport (3^h 1^e; (h+e) 1^(2h); m), labelled branch values, and distinguished central point has at most N(h+e,e) source-scaling classes, where N(c,e) is the binary-necklace number (1/c) sum_(d|gcd(c,e)) phi(d) binom(c/d,e/d).",
+    "refs": [
+      "background/nodes/tame_central_star_belyi_necklace_bound/statement.md",
+      "background/nodes/tame_central_star_belyi_necklace_bound/proof.md",
+      "background/nodes/tame_central_star_belyi_necklace_bound/claim_contract.md",
+      "background/nodes/tame_central_star_belyi_necklace_bound/dependency_subdag.md",
+      "background/nodes/tame_central_star_belyi_necklace_bound/audit.md",
+      "background/nodes/tame_central_star_belyi_necklace_bound/result.md",
+      "background/nodes/tame_central_star_belyi_necklace_bound/verify.py",
+      "background/nodes/tame_central_star_belyi_necklace_bound/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

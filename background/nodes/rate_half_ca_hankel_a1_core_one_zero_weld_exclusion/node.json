@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 973,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_zero_weld_exclusion",
+    "title": "A=1 core-one zero-weld exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official A=1 core-one maximal-degree sharp cap, the sole possible K=0 profile would have b=0,D_*=1,C_*=e and F(U,V)-G_0(X)=Q_*V_0, with G_0 omitting exactly three residual-domain points. At a G_0 root, Q_* divides the squarefree clean-slope product F and is saturated. At each omitted point it has no clean-slope root and at most the one exceptional root, so the three points contribute at least 3(e-1)>e to C_*, contradicting C_*=e. Hence K is nonzero on every profile of this face; the nonzero-weld branch remains open.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_zero_weld_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_zero_weld_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_zero_weld_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_zero_weld_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_zero_weld_exclusion/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_zero_weld_exclusion/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_zero_weld_exclusion/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_zero_weld_exclusion/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_zero_weld_quartic_boundary",
+      "order": 1791
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1792
+    }
+  ],
+  "refutes": []
+}

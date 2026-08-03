@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1576,
+  "node": {
+    "id": "f3_h3_nonidentity_p24_gcd_certificate",
+    "title": "H3 nonidentity P24 gcd certificate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Over every dyadic split row, let G_12 be the gcd of the unordered shifted-product polynomial and its first twelve Hasse derivatives, remove its complete T=1 factor, and let H_D be the gcd of the diagonal polynomial and its first Hasse derivative. Then max_(t!=1)P(t)<=24 if and only if G_12^neq divides H_D. The exact local valuations are (U-12)_+ and (D-1)_+, so the only retained rich profile is U=13,D=2,P=24. This is a certificate checker, not an official-row proof or polynomial-construction algorithm.",
+    "refs": [
+      "background/nodes/f3_h3_nonidentity_p24_gcd_certificate/statement.md",
+      "background/nodes/f3_h3_nonidentity_p24_gcd_certificate/proof.md",
+      "background/nodes/f3_h3_nonidentity_p24_gcd_certificate/claim_contract.md",
+      "background/nodes/f3_h3_nonidentity_p24_gcd_certificate/dependency_subdag.md",
+      "background/nodes/f3_h3_nonidentity_p24_gcd_certificate/audit.md",
+      "background/nodes/f3_h3_nonidentity_p24_gcd_certificate/result.md",
+      "background/nodes/f3_h3_nonidentity_p24_gcd_certificate/verify.py",
+      "background/nodes/f3_h3_nonidentity_p24_gcd_certificate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_unordered_product_cutoff12_candidate_compiler",
+      "order": 3686
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 3687
+    }
+  ],
+  "refutes": []
+}

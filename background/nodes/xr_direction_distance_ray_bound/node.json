@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 824,
+  "node": {
+    "id": "xr_direction_distance_ray_bound",
+    "title": "High-direction-distance residual charts have at most N squared rays",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_direction_distance_ray_bound/statement.md",
+      "background/nodes/xr_direction_distance_ray_bound/proof.md",
+      "background/nodes/xr_direction_distance_ray_bound/result.md",
+      "background/nodes/xr_direction_distance_ray_bound/verify.py"
+    ],
+    "statement": "Let H_U:F^U->F^R have kernel K, put N=|U|, and let d_U(y1) be the minimum weight of a lift of the nonzero syndrome direction y1. If every slope in Z on y0+gamma y1 has a lift of weight at most t in U and (N-t)^2>N(N-d_U(y1)), then |Z|<=floor(N(d_U(y1)-t)/((N-t)^2-N(N-d_U(y1))))<=N^2. Proof: the selected slopes give distinct words of K+<b1> inside one radius-t Hamming ball; agreement-set second moments pay them. Failure of the inequality gives an explicit sparse-direction lift and is the exact complementary branch. This is a fixed-chart theorem and does not aggregate charts."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1380
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1381
+    }
+  ],
+  "refutes": []
+}

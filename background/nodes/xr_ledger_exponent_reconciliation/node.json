@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 559,
+  "node": {
+    "id": "xr_ledger_exponent_reconciliation",
+    "title": "Micro-lemma: pin the pair-ledger exponent (min(s,t) vs min(s,t-1))",
+    "status": "PROVED",
+    "statement": "For two size-(k+t) supports at exchange distance s, the exact pair codimension is t+min(s,t). Thus q^(-min(s,t)) is the conditional second-event cost, while min(s,t-1) is the anchored/projective convention. This is an exponent dictionary, not a proof of averaged slope de-correlation.",
+    "attack_surface": "recompute the toy pair-ledger at both exponents vs the exact counts",
+    "falsifier": "the toy ledger matching neither exponent",
+    "refs": [
+      "background/nodes/xr_ledger_exponent_reconciliation/statement.md",
+      "background/nodes/xr_ledger_exponent_reconciliation/proof.md",
+      "background/nodes/xr_ledger_exponent_reconciliation/verify.py"
+    ],
+    "notes": "PROVED exact linear algebra: codim=t+min(s,t). Evidence-only for averaged_xr after canonical false-green correction 3cca68b7."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "averaged_xr",
+      "order": 835
+    }
+  ],
+  "refutes": []
+}

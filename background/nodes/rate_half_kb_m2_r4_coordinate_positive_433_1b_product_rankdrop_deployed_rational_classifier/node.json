@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1484,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_deployed_rational_classifier",
+    "title": "KoalaBear m2 r4 positive 433-1b product-rank-drop deployed rational classifier",
+    "status": "PROVED",
+    "closure": "exact FGLM shape bases, deployed-field factorization, and independent replay of all retained rational points",
+    "statement": "Exact FGLM conversion puts all forty finite exceptional common ideals in five-equation shape position. Deployed-field factorization proves that 32 rows have no rational point. Each of the four sign rows in cells 9 and 10 has exactly two rational points, giving sixteen guarded points total. Independent replay gives product rank four, full common rank seven, and zH=1 at each point. Outside rows, the principal product-rank-five branch, and route exclusion remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_deployed_rational_classifier/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_deployed_rational_classifier/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_deployed_rational_classifier/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_deployed_rational_classifier/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_deployed_rational_classifier/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_deployed_rational_classifier/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_deployed_rational_classifier/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_deployed_rational_classifier/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_deployed_rational_classifier/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_deployed_rational_classifier/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_deployed_rational_classifier/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_rankdrop_fglm_profile_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_rankdrop_fglm_profile_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier",
+      "order": 3353
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3354
+    }
+  ],
+  "refutes": []
+}

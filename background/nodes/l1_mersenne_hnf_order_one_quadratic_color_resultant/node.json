@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1703,
+  "node": {
+    "id": "l1_mersenne_hnf_order_one_quadratic_color_resultant",
+    "title": "L1 Mersenne HNF order-one quadratic color resultant",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The pointwise equations for a quadratic colored Frobenius interpolant give an explicit degree-six polynomial R_E in the color. This excludes the complete m=16,h=15 quadratic stratum because fourteen roots require at least seven distinct colors. At m=8,h=7, R_E exactly equals the six-color multiset polynomial, including collision multiplicities.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_order_one_quadratic_color_resultant/statement.md",
+      "background/nodes/l1_mersenne_hnf_order_one_quadratic_color_resultant/proof.md",
+      "background/nodes/l1_mersenne_hnf_order_one_quadratic_color_resultant/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_order_one_quadratic_color_resultant/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_order_one_quadratic_color_resultant/audit.md",
+      "background/nodes/l1_mersenne_hnf_order_one_quadratic_color_resultant/result.md",
+      "background/nodes/l1_mersenne_hnf_order_one_quadratic_color_resultant/verify.py"
+    ],
+    "notes": "Complete proof close of color degree two at h=15 and an exact color-multiset router at h=7. The h=7 coefficient systems and all assignment/cyclotomic/inner tests remain open."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+      "order": 3976
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3977
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1620,
+  "node": {
+    "id": "l1_official_broad_checkpoint_frobenius_periodicity_exclusion",
+    "title": "L1 official broad-checkpoint Frobenius periodicity exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a minimum-width split-fiber pair on an official multiplicative coset, the balanced {0,+1,-1} exponent word over F_p has Fourier zeros at exponents 0,...,p-1. Frobenius closes this zero set under multiplication by p modulo n. On each of the seven exact m>=3 atlas rows with remainder n-mp>16, every residual frequency is divisible by a printed even gcd in {2,4,8}. Fourier inversion then makes each sign support periodic with even orbit size, contradicting its odd size p. Thus all seven broad rows have empty t=p first-checkpoint strata at every depth. Only nine rows n=m(p+1), m in {4,8,16}, retain a higher-multiplicity minimum-width endpoint.",
+    "refs": [
+      "background/nodes/l1_official_broad_checkpoint_frobenius_periodicity_exclusion/statement.md",
+      "background/nodes/l1_official_broad_checkpoint_frobenius_periodicity_exclusion/proof.md",
+      "background/nodes/l1_official_broad_checkpoint_frobenius_periodicity_exclusion/claim_contract.md",
+      "background/nodes/l1_official_broad_checkpoint_frobenius_periodicity_exclusion/dependency_subdag.md",
+      "background/nodes/l1_official_broad_checkpoint_frobenius_periodicity_exclusion/audit.md",
+      "background/nodes/l1_official_broad_checkpoint_frobenius_periodicity_exclusion/result.md",
+      "background/nodes/l1_official_broad_checkpoint_frobenius_periodicity_exclusion/lineage.md",
+      "background/nodes/l1_official_broad_checkpoint_frobenius_periodicity_exclusion/upstream_crosswalk.md",
+      "background/nodes/l1_official_broad_checkpoint_frobenius_periodicity_exclusion/broad_orbit_closure.tsv",
+      "background/nodes/l1_official_broad_checkpoint_frobenius_periodicity_exclusion/verify.py",
+      "background/nodes/l1_official_broad_checkpoint_frobenius_periodicity_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_official_first_checkpoint_split_pencil_reduction",
+      "order": 3842
+    },
+    {
+      "from": "l1_official_checkpoint_characteristic_atlas",
+      "order": 3843
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3844
+    }
+  ],
+  "refutes": []
+}

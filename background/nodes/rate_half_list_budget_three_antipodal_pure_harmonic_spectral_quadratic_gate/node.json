@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1104,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate",
+    "title": "Budget-three antipodal pure harmonic spectral quadratic gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For the unique pure packet reconstructed from a spectral candidate, harmonic matching is equivalent to one short coefficient identity on one of the three quadratic splittings of its degree-four gcd. Together with the two fourth-power quotients and scalar splitting, this is an exact combined spectral, Fermat, and harmonic acceptance gate.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_spectral_quadratic_gate/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate",
+      "order": 2013
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_pure_euler_spectral_reconstruction",
+      "order": 2014
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2015
+    }
+  ],
+  "refutes": []
+}

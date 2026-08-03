@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 739,
+  "node": {
+    "id": "f2_residual_determination_lemma",
+    "status": "PROVED",
+    "statement": "F2 RESIDUAL DETERMINATION LEMMA (2026-07-10, campaign cycle 36; digest F2_DETERMINATION_LEMMA_STRUCTURE_PASS, structure verified on all 160 real accident blocks at (97,32)): for residual degree rho < char p (official: 2^27.6 < 2^31), the [1..rho]^2 block of the gap-condition operator T_B is unit-triangular Toeplitz (diagonal B[0] = 1, no p-multiple row deletions below p) for ANY structured core B \u2014 hence the residual factor of every extras block is UNIQUELY DETERMINED by its core (triangular solve). Extras blocks have ZERO residual freedom: extras(edge) <= #{cores whose determined residual passes the remaining ~t - rho consistency rows + the mu_n-splitting filter}. CATCH #12 same-cycle: the naive kernel frame was regime-inverted at toys (t < rho under-determined there; official t >> rho) \u2014 the toy check refuted the first reading and forced this sharper lemma. Thirteenth satellite; the crux's count question is now a deterministic-test census over structured cores."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1260
+    }
+  ],
+  "refutes": []
+}

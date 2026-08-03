@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 759,
+  "node": {
+    "id": "v13_bc_curve_second_moment_identity",
+    "status": "PROVED",
+    "statement": "BC CURVE SECOND MOMENT IDENTITY \u2014 #395 THEOREM C1, REPLAYED GREEN (2026-07-10, cycle 108; independent fresh-context replay + proof-read, verifier archived in node notes): the exact identity M2 = sum_s N_{w+1}(theta(s))^2 = S1 + sum_{e=w+2}^{min(m,n-m)} sum_{R, |R|=m-e} sp^Gamma_{w+1}(e;R) CONFIRMED \u2014 with the stratum floor e >= w+2, ceiling e <= min(m,n-m), constant-shift shape of the top stratum (A - B a nonzero constant), and Prop C1-1 (a_1-equality = full-prefix equality on V x V). Replay: exhaustive exact enumeration at 10 parameter rows (p = 13..113, both z* = 0 and z* != 0; off-diagonal non-vacuous at 4 rows including 2 at z* != 0; strongest row (13,12,5,1) with strata 164/48/4 matching the direct census cell-by-cell), TWO independent RHS enumeration methods agreeing, three independent LHS computations agreeing; per-stratum comparison strictly stronger than the aggregate identity. PROOF-READ SOUND at general parameters: every step characteristic-free and parameter-uniform (Fact 0, Prop C1-1, the (R,A,B) encoding bijection, the degree constraint via ell_T - ell_T' = ell_R(A-B) over an integral domain, T'-validity derived from T-validity + equal prefix) \u2014 the L4-scale instance (n = 2^17, m = 69753, w = 4216) follows by the same argument, not by enumeration. SCOPE GUARDS (do not import beyond): nothing about MAGNITUDES (no M2 bound, no Cauchy-Schwarz consequence); #395's other claims (C2 twist-equivariance, twist dichotomy, ceilings, residual-equidistribution conjecture) NOT verified; distinct from the Veronese top-stratum emptiness (which zeroes the top stratum only at the specific L4 d \u2014 the top stratum is genuinely nonempty at other parameters, e.g. 2 pairs at (97,8,4,2)); PR #395 itself remains unintegrated upstream (closed 2026-07-08 without merge). Feeds v13_bc_split_pencil_normal_form as the exact-decomposition input. Verifier: background/nodes/v13_bc_curve_second_moment_identity/notes/verify_c1.py."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "v13_bc_split_pencil_normal_form",
+      "order": 1280
+    }
+  ],
+  "refutes": []
+}

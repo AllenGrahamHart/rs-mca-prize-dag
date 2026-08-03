@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 484,
+  "node": {
+    "id": "x81_minimal_trade_square_shift",
+    "title": "PROVED (x81): minimal trades = square-shift factorizations",
+    "status": "PROVED",
+    "statement": "A 2h-support underlies a minimal h-trade iff its locator factors as (S-a)(S+a) = S^2 - lambda with S monic degree h, lambda = a^2 a nonzero square \u2014 the square-shift normal form.",
+    "refs": [
+      "experimental/notes/roadmaps/x81_minimal_trade_square_shift.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1076
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 725,
+  "node": {
+    "id": "f5_wcollision_pair_moment_identity",
+    "status": "PROVED",
+    "statement": "F5 W-COLLISION PAIR-MOMENT IDENTITY (2026-07-09, P9; ours \u2014 the moment-template applied to P8's residual open; note critical/nodes/xr_smallcore_spread_count/notes/F5_P9_WCOLLISION_PAIR_MOMENT.md, verifier f5_p9_wcollision_pair_moment_modal.py, digest F5_P9_WCOLLISION_PAIR_MOMENT_PASS, 14 official-shaped pairs, all exact). T1 (identity): Sum_{|W|=k} C(mult(W),2) = Sum_{cross-slope ray pairs} C(|supp^supp'|,k) \u2014 elementary double count; same-slope pairs never share a k-core. T2 (fiber): the intersection of a cross pair is EXACTLY JointAgr(f,g) for g=(c-c')/(z-z'), f=c-zg \u2014 a joint agreement of (u,v) with a codeword pair. T3 (regroup): the moment equals Sum_{(f,g)} C(L(f,g),2)*C(J(f,g),k) with L the live-slope count of the SHIFTED pair (u-f,v-g). T4 (pencil collapse, t=2 boundary): mult(W)=L(P_W,Q_W) (sunflower-pencil linearity) and every (f,g) with J=k IS a pencil; in the far-pair regime (spreadness: cores <= A-2 = k) the W-collision count = #{W : L(P_W,Q_W) >= 2} and the collision moment IS the second moment of pencil live counts \u2014 an SP-type quantity adjacent to the PROVED v13_second_moment_shift_pair_identity. Near-pencil data honest: the planted fiber carries L=q and all the mass \u2014 removed by the strips before stratum (i). INSTRUMENT ONLY: the residual is the pencil-live-count second-moment bound (the anti-concentration heart), not claimed here."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 947,
+  "node": {
+    "id": "rate_half_list_budget_three_intersection_reduction",
+    "title": "Budget-three rate-half list intersection reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Any four distinct codewords listed at agreement 3n/4-1 in a rate-half RS code have, up to codeword relabeling, one of six incidence types and give a pairwise-distinct kernel vector of an explicit 4-wise RS intersection matrix with 3k columns. Full column rank on those six fixed-subgroup types would prove predecessor safety. An exact RS[F_17,mu_8,4] rank-11/12 witness realizes one type, so pairwise MDS and Johnson arithmetic alone cannot close B*=3. No official crossing is claimed.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_intersection_reduction/statement.md",
+      "background/nodes/rate_half_list_budget_three_intersection_reduction/proof.md",
+      "background/nodes/rate_half_list_budget_three_intersection_reduction/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_intersection_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_intersection_reduction/audit.md",
+      "background/nodes/rate_half_list_budget_three_intersection_reduction/literature_scope.md",
+      "background/nodes/rate_half_list_budget_three_intersection_reduction/result.md",
+      "background/nodes/rate_half_list_budget_three_intersection_reduction/verify.py",
+      "background/nodes/rate_half_list_budget_three_intersection_reduction/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1717
+    }
+  ],
+  "refutes": []
+}

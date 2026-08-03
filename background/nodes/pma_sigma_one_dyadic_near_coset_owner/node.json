@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 864,
+  "node": {
+    "id": "pma_sigma_one_dyadic_near_coset_owner",
+    "title": "PMA sigma-one dyadic growing-defect near-coset owner",
+    "status": "PROVED",
+    "statement": "For every official sigma=1 row n=2^j, put s_n=floor(n/(32j)) and canonically own every listed codeword missing at most s_n points of any dyadic coset of size L>=k-s_n. The all-scale class is smaller than 2^(7n/64)<Q_2(k+2); combined with exact periodicity it fits below 8(1+2^-690)Q_2(k+2), hence inside the existing 719 line. This contains the index-two owner, the complete reciprocal-quadratic obstruction, and every near-quotient finite PMA defect through d=s_n-1 in the worst background state.",
+    "refs": [
+      "background/nodes/pma_sigma_one_dyadic_near_coset_owner/statement.md",
+      "background/nodes/pma_sigma_one_dyadic_near_coset_owner/proof.md",
+      "background/nodes/pma_sigma_one_dyadic_near_coset_owner/audit.md",
+      "background/nodes/pma_sigma_one_dyadic_near_coset_owner/claim_contract.md",
+      "background/nodes/pma_sigma_one_dyadic_near_coset_owner/dependency_subdag.md",
+      "background/nodes/pma_sigma_one_dyadic_near_coset_owner/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_sigma_one_index_two_core_owner",
+      "order": 1445
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 1446
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1447
+    }
+  ],
+  "refutes": []
+}

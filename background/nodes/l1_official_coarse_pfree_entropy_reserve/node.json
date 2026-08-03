@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1613,
+  "node": {
+    "id": "l1_official_coarse_pfree_entropy_reserve",
+    "title": "L1 official coarse p-free entropy reserve",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At every official scalar locator-prefix depth d containing a Frobenius checkpoint, the first such depth is at least 3175 layers beyond the canonical reserve and at most 23 checkpoints have been forgotten. Since every consecutive binomial ratio is below 15 and q>n>=2^13, the ambient coarse p-free average satisfies mu_free(d)/mu_mix(d0)<2^-28276 and hence mu_free(d)<2^-28276. Therefore ambient max-to-average inflation K_d<=q*2^28148 is sufficient for max coarse fiber <q/2^128. More sharply, generated-field degree f>=2 and the canonical depth estimate show that an exactly owner-pruned extras residual with max Exc_d<=2^(15(d-r))mu_free(d) is below 2^-3393 and hence empty; this does not apply to the full nonempty fiber, and 16 bits per condition do not follow from the same coarse inequalities. The F2 15-bit endpoint is arithmetically compatible but its zero target, structured subtraction, map, and owner are not transported. This proves no max-fiber flatness, Pade-graph coalescing, or L1.",
+    "refs": [
+      "background/nodes/l1_official_coarse_pfree_entropy_reserve/statement.md",
+      "background/nodes/l1_official_coarse_pfree_entropy_reserve/proof.md",
+      "background/nodes/l1_official_coarse_pfree_entropy_reserve/claim_contract.md",
+      "background/nodes/l1_official_coarse_pfree_entropy_reserve/dependency_subdag.md",
+      "background/nodes/l1_official_coarse_pfree_entropy_reserve/audit.md",
+      "background/nodes/l1_official_coarse_pfree_entropy_reserve/lineage.md",
+      "background/nodes/l1_official_coarse_pfree_entropy_reserve/result.md",
+      "background/nodes/l1_official_coarse_pfree_entropy_reserve/upstream_crosswalk.md",
+      "background/nodes/l1_official_coarse_pfree_entropy_reserve/verify.py",
+      "background/nodes/l1_official_coarse_pfree_entropy_reserve/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_official_reserve_tame_refinement_router",
+      "order": 3821
+    },
+    {
+      "from": "l1_official_newton_cofactor_window_router",
+      "order": 3822
+    },
+    {
+      "from": "l1_official_frobenius_checkpoint_q_router",
+      "order": 3823
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3824
+    }
+  ],
+  "refutes": []
+}

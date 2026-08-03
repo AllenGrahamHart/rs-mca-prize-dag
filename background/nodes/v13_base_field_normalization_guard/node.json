@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 697,
+  "node": {
+    "id": "v13_base_field_normalization_guard",
+    "status": "PROVED",
+    "title": "v13 base-field normalization guard (ledger law)",
+    "statement": "LEDGER LAW (upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes): prefix-floor and split-pencil entropy costs are normalized over the generated/base field B, NOT over a larger line/challenge field, unless an explicit transfer theorem is wired. PROVED as a convention+guard: any ledger entry spending |F| where the construction only earns |B| is invalid without a cited transfer. Rationale: prevents the false-proof class where extension-field size is spent against base-field-generated objects (the v13 margins are 3.1-22.2 bits -- a |F|/|B| confusion is fatal at that precision). | GUARD CONFIRMED IN THE FIELD (2026-07-07/08, catches #11-13): the M_B seam audit and beta-round found exactly the failures this guard predicts, in F2's window (q^t vs |B0|^t), F7's count law (K_cell/q^sigma vs p^sigma for base-valued worst words, census-verified), and F1's flatness clause (F_q-conditions actually F_p(zeta)-conditions). Statements corrected; evidence untouched. Guard edges added into the exposed reds per the 2026-07-08 alignment packet."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 942
+    },
+    {
+      "to": "descriptor",
+      "order": 1175
+    },
+    {
+      "to": "compiler",
+      "order": 1176
+    },
+    {
+      "to": "mca_unsafe",
+      "order": 1177
+    },
+    {
+      "to": "mca_safe",
+      "order": 1178
+    },
+    {
+      "to": "ext_lift",
+      "order": 1179
+    },
+    {
+      "to": "confinement",
+      "order": 1180
+    },
+    {
+      "to": "dli_prime_weighted_large_block_support",
+      "order": 1230
+    },
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1231
+    }
+  ],
+  "refutes": []
+}

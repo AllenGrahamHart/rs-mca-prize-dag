@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1238,
+  "node": {
+    "id": "xr_nongeneric_support_only_exponential_width_fence",
+    "title": "XR nongeneric support-only exponential-width fence",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At each of the six clean-rate roots, there is an abstract family of A-subsets satisfying the exact joint-explanation support cap |Y intersect Y'|<=K-1 and containing more than 16n^3 members. Pairing 2A coordinates converts a binary Gilbert code of length A and distance H=h+1 into such a family; H/A<=1/16 gives size greater than 2^(5A/8). These supports are not claimed to be realizable RS explanations. The result proves that pre-terminal XR closure cannot use pairwise support packing alone and must retain algebraic realization or actual-slope ownership.",
+    "refs": [
+      "background/nodes/xr_nongeneric_support_only_exponential_width_fence/statement.md",
+      "background/nodes/xr_nongeneric_support_only_exponential_width_fence/proof.md",
+      "background/nodes/xr_nongeneric_support_only_exponential_width_fence/claim_contract.md",
+      "background/nodes/xr_nongeneric_support_only_exponential_width_fence/dependency_subdag.md",
+      "background/nodes/xr_nongeneric_support_only_exponential_width_fence/audit.md",
+      "background/nodes/xr_nongeneric_support_only_exponential_width_fence/result.md",
+      "background/nodes/xr_nongeneric_support_only_exponential_width_fence/verify.py",
+      "background/nodes/xr_nongeneric_support_only_exponential_width_fence/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 2578
+    }
+  ],
+  "refutes": []
+}

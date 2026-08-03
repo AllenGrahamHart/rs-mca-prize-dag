@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 640,
+  "node": {
+    "id": "dli_odd_phase_budget_ledger_soundness",
+    "title": "DLI odd-phase budget ledger soundness",
+    "status": "PROVED",
+    "statement": "If a DLI odd-phase ledger covers every central profile, nonzero frequency, harmonic, and square-root component; marks every phase non-Artin-Schreier; and supplies reduced polar-divisor bounds whose harmonic total is o(t), then dli_odd_phase_reduced_pole_budget holds.",
+    "attack_surface": "formal coverage and summation rule for DLI reduced-pole ledgers",
+    "falsifier": "a complete ledger with all phases marked nontrivial and total o(t) while the reduced-pole budget statement fails"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 926,
+  "node": {
+    "id": "rate_half_ca_hankel_endpoint_separated_pullback_exclusion",
+    "title": "Separated-pullback exclusion at the strict endpoint",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the official first strict A=3 endpoint, the dominant irreducible component of bidegree (4e-1,e) cannot be a separated rational fiber product f(X)=g(U:V) with map degrees 4e-1 and e. For such a pullback, grouping grid points by their common image and optimizing the two capped fiber-size sequences gives a column deficit C_*>m throughout ceil((3m+1)/4)<=e<=m. Component-defect localization instead gives C_*<=sum_i C_i=1+O-E<=m. Thus polynomial separated-variable, Kummer pullback, and general separated rational-map models are excluded. Since an irreducible separation-rank-two biform is such a cross-multiplied rational equality, the dominant component has separation rank at least three. The full primitive generator also has separation rank at least three: rank two would force column deficit at least 4(m-1)>m, versus its exact 1+O<=m. Genuinely mixed biforms remain open.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_endpoint_separated_pullback_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_separated_pullback_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_separated_pullback_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_separated_pullback_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_separated_pullback_exclusion/verify.py",
+      "background/nodes/rate_half_ca_hankel_endpoint_separated_pullback_exclusion/audit.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_endpoint_component_defect_localization",
+      "order": 1673
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1674
+    }
+  ],
+  "refutes": []
+}

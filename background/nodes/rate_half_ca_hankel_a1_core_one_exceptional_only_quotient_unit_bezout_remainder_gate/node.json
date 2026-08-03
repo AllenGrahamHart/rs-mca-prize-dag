@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1176,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_bezout_remainder_gate",
+    "title": "A=1 exceptional quotient unit Bezout-remainder gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The reciprocal Bezout identity simplifies every triangular unit stage to one Euclidean division. If C_k^0=f_0d_k+r_k with deg r_k<e, then rho_k=-r_k and s_k=d_k+a_minus r_k. Hence the stage survives exactly when deg r_k<=1; no modular inversion or second exact division is required.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_bezout_remainder_gate/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_bezout_remainder_gate/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_bezout_remainder_gate/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_bezout_remainder_gate/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_bezout_remainder_gate/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_bezout_remainder_gate/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_bezout_remainder_gate/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_triangular_affine_reconstruction",
+      "order": 2402
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_bezout_normalization",
+      "order": 2403
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2404
+    }
+  ],
+  "refutes": []
+}

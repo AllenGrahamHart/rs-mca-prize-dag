@@ -1,0 +1,16 @@
+{
+  "schema": "sectioned-document-v1",
+  "output": "notes/PRIZE_COMPUTE_REQUESTS.md",
+  "sections": [
+    "notes/compute_requests/sections/00-policy-and-spend-freeze.md",
+    "notes/compute_requests/sections/01-queue-and-handoffs.md",
+    "notes/compute_requests/sections/02-cr001-h3.md",
+    "notes/compute_requests/sections/03-cr002-quotient-pencil.md",
+    "notes/compute_requests/sections/04-cr004-wcl.md",
+    "notes/compute_requests/sections/05-cr003-rate-half.md",
+    "notes/compute_requests/sections/06-n11-l1-and-e1.md",
+    "notes/compute_requests/sections/07-e1-exact-censuses.md",
+    "notes/compute_requests/sections/08-e1-low-energy-and-class-orbit.md",
+    "notes/compute_requests/sections/09-k3-and-positive-433.md"
+  ]
+}

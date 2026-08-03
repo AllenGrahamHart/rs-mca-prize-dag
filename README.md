@@ -1,7 +1,11 @@
 # prize — the clean-rate campaign, node-per-folder
 
-- `dag.json` — the single source of truth (statuses, edges).
-- `nodes/<id>/` — one folder per critical node: `statement.md` always;
+- `critical/nodes/<id>/node.json` and
+  `background/nodes/<id>/node.json` — editable graph source (proposition,
+  status, and locally owned edges).
+- `dag.json` — exact generated compatibility view; never edit directly.
+- `critical/nodes/<id>/` and `background/nodes/<id>/` — one folder per
+  node: `statement.md` always;
   `proof.md` iff PROVED; `sketch.md` iff PROVABLE; `conditional.md`
   iff CONDITIONAL (hypotheses must match dag.json wiring); `verify.py`
   + `cert/` as needed; `notes/` freeform (referee packets, scans).
@@ -10,10 +14,10 @@
   packet into the przchojecki/rs-mca experimental/ format for
   upstream PRs).
 - `orbit/` — built artifacts (critical_dag.json, svg, html).
-- `notes/PRIZE_RESOLUTION_ROADMAP.md` — the full-resolution execution
-  roadmap, incremental proof/audit discipline, upstream packet contract,
-  and proposed standing goal text.
+- `notes/roadmap/` — editable strategy shards and lane indexes.
+- `notes/PRIZE_RESOLUTION_ROADMAP.md` — generated compatibility roadmap.
 
-Workflow: edit dag.json + node folders -> tools/dag_commit.sh ->
-vendored packets pushed to the fork when mature. The legacy fork
-(rs-mca-l1 etc.) remains the upstream-facing vendoring target only.
+Workflow: edit one node-local manifest and its proof packet, compile
+`dag.json`, run the validators, and then use `tools/dag_commit.sh`.
+Vendored packets are pushed to the fork only when mature. See
+`notes/DAG_MANIFEST_CONVENTION.md`.

@@ -1,0 +1,48 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 533,
+  "node": {
+    "id": "l1_pullback_coverage_kernel_tradeoff",
+    "title": "L1 pullback coverage/kernel tradeoff",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a monic degree-s pullback with b complete domain fibers, the general-descent component dimensions k_j satisfy sum_j max(0,k_j-b)=max(0,k-sb). Thus the evaluation-kernel exponent kappa is exactly the shortfall between code dimension k and complete-fiber coverage sb. For every listed word at threshold k+ell-1, partial agreement loss z satisfies z>=max(0,k+ell-1-sb), hence kappa<=max(0,z-ell+1). In particular z<=ell-1 forces kappa=0, and z<=ell-1+K forces kappa<=K. Composed with the partial-pullback Johnson router and q<=n^gamma, every strict-gate tame anchored box with that loss cap costs at most n^(3+gamma K). Unbounded kappa is not an independent escape; it requires growing partial-loss excess. The nonpositive gate, wild or unanchored maps, and growing loss remain.",
+    "refs": [
+      "background/nodes/l1_pullback_coverage_kernel_tradeoff/statement.md",
+      "background/nodes/l1_pullback_coverage_kernel_tradeoff/proof.md",
+      "background/nodes/l1_pullback_coverage_kernel_tradeoff/claim_contract.md",
+      "background/nodes/l1_pullback_coverage_kernel_tradeoff/dependency_subdag.md",
+      "background/nodes/l1_pullback_coverage_kernel_tradeoff/audit.md",
+      "background/nodes/l1_pullback_coverage_kernel_tradeoff/lineage.md",
+      "background/nodes/l1_pullback_coverage_kernel_tradeoff/result.md",
+      "background/nodes/l1_pullback_coverage_kernel_tradeoff/verify.py",
+      "background/nodes/l1_pullback_coverage_kernel_tradeoff/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_general_pullback_interleaving_descent",
+      "order": 2892
+    },
+    {
+      "from": "l1_partial_pullback_johnson_router",
+      "order": 2893
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2894
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2895
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2896
+    }
+  ],
+  "refutes": []
+}

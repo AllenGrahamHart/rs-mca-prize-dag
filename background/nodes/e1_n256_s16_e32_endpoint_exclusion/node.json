@@ -1,0 +1,53 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 58,
+  "node": {
+    "id": "e1_n256_s16_e32_endpoint_exclusion",
+    "title": "N=256 square-mass-16 variance-64 endpoint exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e32_endpoint_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e32_endpoint_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e32_endpoint_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e32_endpoint_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e32_endpoint_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e32_endpoint_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e32_endpoint_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e32_endpoint_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e32_endpoint_exclusion/verify_audit.py"
+    ],
+    "statement": "No pair-feasible N=256 folded-profile (3,4,0) collision has autocorrelation variance V=64. The exact reduction leaves only (4,7), (0,8), and (3,5,1), and the three proved profile exclusions exhaust them. The remaining positive even variance frontier is 0<V<=62.",
+    "notes": "ENDPOINT CLOSURE 2026-07-27: synthesizes the complete E32 chain and advances the live variance frontier by two. Lower positive even variances remain open."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e32_profile_parity_diameter_reduction",
+      "order": 333
+    },
+    {
+      "from": "e1_n256_s16_e32_profile_08_light_template_exclusion",
+      "order": 334
+    },
+    {
+      "from": "e1_n256_s16_e32_profile_351_light_template_exclusion",
+      "order": 335
+    },
+    {
+      "from": "e1_n256_s16_e32_profile_47_exact_norm_exclusion",
+      "order": 336
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 439
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 440
+    }
+  ],
+  "refutes": []
+}

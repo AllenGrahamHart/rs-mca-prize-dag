@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 389,
+  "node": {
+    "id": "single_swap_injectivity",
+    "title": "FREE RUNG: single-swap collisions are impossible at prize scale (unconditional)",
+    "status": "PROVED",
+    "statement": "For classes differing in one element, e1(B) - e1(B') = zeta^i - zeta^j has all archimedean conjugates <= 2, so its norm is <= 2^{phi(N')} ~ 2^{N'/2} << p ~ 2^250. Nonzero (thm:upstairs) and of height below p => p cannot divide it => single-swap pairs NEVER collide at prize scale. Unconditional, for every prime in the admissible range.",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ],
+    "notes": "the base case of certified distinctness: the swap-metric graph's edges are all collision-free; the open problem is composing this into large all-pairs-distinct families | Subsumed as the s=1 case of graded_collision_radius; kept as the write-up's base case. | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
+  },
+  "requires": [
+    {
+      "from": "collision_norm_criterion",
+      "order": 632
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "graded_collision_radius",
+      "order": 669
+    }
+  ],
+  "refutes": []
+}

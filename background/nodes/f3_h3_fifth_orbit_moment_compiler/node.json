@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 826,
+  "node": {
+    "id": "f3_h3_fifth_orbit_moment_compiler",
+    "title": "C36' fifth product-orbit moment compiler",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/f3_h3_fifth_orbit_moment_compiler/statement.md",
+      "background/nodes/f3_h3_fifth_orbit_moment_compiler/proof.md",
+      "background/nodes/f3_h3_fifth_orbit_moment_compiler/verify.py"
+    ],
+    "statement": "Let U(t)=(P(t)+D(t))/2 be the number of unordered product representations and M_5^rich=sum_{t!=1,P(t)>=19}binom(U(t),5)R(t). Then X_18<=(2/231)M_5^rich, with sharp compiler equality at (P,D,U)=(22,0,11). Consequently M_5^rich<=(34650/17)n^2 implies the critical target 17X_18<=300n^2. The reduction is proved; the moment estimate is not claimed."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1384
+    }
+  ],
+  "refutes": []
+}

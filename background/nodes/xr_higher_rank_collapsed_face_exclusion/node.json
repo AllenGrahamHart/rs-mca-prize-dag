@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1295,
+  "node": {
+    "id": "xr_higher_rank_collapsed_face_exclusion",
+    "title": "XR collapsed minimum-face trades violate the post-strip core cap",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_higher_rank_collapsed_face_exclusion/statement.md",
+      "background/nodes/xr_higher_rank_collapsed_face_exclusion/proof.md",
+      "background/nodes/xr_higher_rank_collapsed_face_exclusion/claim_contract.md",
+      "background/nodes/xr_higher_rank_collapsed_face_exclusion/dependency_subdag.md",
+      "background/nodes/xr_higher_rank_collapsed_face_exclusion/verify.py",
+      "background/nodes/xr_higher_rank_collapsed_face_exclusion/verify_audit.py",
+      "background/nodes/xr_higher_rank_collapsed_face_exclusion/audit.md",
+      "background/nodes/xr_higher_rank_collapsed_face_exclusion/result.md"
+    ],
+    "statement": "In the uniform high-core split-pencil cell at affine kernel rank a, the collapsed branch of a minimum-union rank-two trade is impossible. Its degree-<a interpolants on the active union X force every selected kernel codeword to extend from its a+1-point facet to all a+2 points of X. Any two active selected errors would then share P_0 union X, of size (k-a)+(a+2)=k+2, contradicting the proved post-strip distinct-slope common-zero cap k. Thus minimum-union rank-two trades consist only of the regular Plucker face syzygies; after quotienting those, every surviving rank-two trade has active union at least a+3. Larger-union rank-two trades, trade rank at least three, and the aggregate XR slope payment remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_higher_rank_minimal_face_syzygy_dichotomy",
+      "order": 2748
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 2749
+    }
+  ],
+  "refutes": []
+}

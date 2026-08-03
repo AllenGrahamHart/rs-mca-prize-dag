@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 498,
+  "node": {
+    "id": "m2_antinorm_lever",
+    "title": "PROVED lever (M2/M2'): the p = -1 mod n two-valuedness criterion",
+    "status": "PROVED",
+    "statement": "At rows with p = -1 mod n (the q = p^2 extension rows): R' underlies a trade iff x^{h-1}/L_R'(x) is two-valued +-gamma and balanced on the support (exhaustive at (16,4,31^2); the p = -1 condition shown NECESSARY at 7^2). A genuinely new per-row criterion for the extension-field branch; potential mid/large-h tool at those rows.",
+    "refs": [
+      "experimental/notes/roadmaps/midlarge_h_routes.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1089
+    }
+  ],
+  "refutes": []
+}

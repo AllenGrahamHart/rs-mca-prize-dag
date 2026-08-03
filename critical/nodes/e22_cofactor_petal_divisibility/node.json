@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 684,
+  "node": {
+    "id": "e22_cofactor_petal_divisibility",
+    "title": "E22 cofactor petal divisibility",
+    "status": "PROVED",
+    "statement": "For each touched petal in an E22 mixed/full-petal challenger, the cofactor equation U(x)L_{Z\\C}(x)=a_i L_{C\\Z}(x) on the agreement subset T_i is equivalent to divisibility of H_i(X)=U(X)L_{Z\\C}(X)-a_i L_{C\\Z}(X) by the locator L_{T_i}(X). In particular, a full touched petal contributes the full petal locator as a divisor of H_i.",
+    "attack_surface": "formal polynomial root/divisibility translation from pointwise cofactor equations",
+    "falsifier": "a touched-petal agreement set where H_i vanishes on every agreement point but is not divisible by the agreement-set locator"
+  },
+  "requires": [
+    {
+      "from": "e22_agreement_cofactor_equations",
+      "order": 987
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1165
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 428,
+  "node": {
+    "id": "circuit_pricing",
+    "title": "Pricing: each minimal circuit contributes O(1) slopes via the deficiency-one machinery (direct reuse)",
+    "status": "PROVABLE",
+    "statement": "A minimal circuit is a ONE-DIMENSIONAL kernel with independent deletions \u2014 exactly the deficiency-1 situation. The U-ladder's Cramer/eliminant dichotomy (u1/u2, in flight in #199) applies verbatim: each circuit yields at most O(1) unpaid slopes (eliminant branch) or lands in a named paid/structured branch (identically-valid branch). The M5 ladder built for A=384 prices the spread exceptions too \u2014 direct machinery reuse across walls.",
+    "refs": [
+      "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#3"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

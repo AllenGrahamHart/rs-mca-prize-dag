@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 978,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_trace_allocation",
+    "title": "A=1 core-one exceptional-trace allocation",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every official active core has the full first complement QV_a+P_XW_a=P. If D_*=1 and the exceptional trace is zero, the Z_W=E_Z allocation contradicts the positive gcd of Q(gamma_0;X) and P_X; necessarily E_Z divides B, every domain trace is active, and Q(gamma_0;X) is a squarefree degree-(r-1) divisor of G_X. Thus the active branch consists of exactly the three systems in (ETA4): no exceptional factor, active exceptional trace, or zero exceptional trace with all domain traces active.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_trace_allocation/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_trace_allocation/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_trace_allocation/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_trace_allocation/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_trace_allocation/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_trace_allocation/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_trace_allocation/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_trace_allocation/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_active_trace_core_reduction",
+      "order": 1801
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1802
+    }
+  ],
+  "refutes": []
+}

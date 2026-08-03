@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 856,
+  "node": {
+    "id": "pma_quotient_closure_scope",
+    "title": "PMA folded-source subsumption and low-defect raw-payment route cut",
+    "status": "PROVED",
+    "statement": "If both a received word and listed codeword factor through x -> x^d, their full agreement set is K_d-periodic and the codeword is already exhausted by the global exact-periodic owner. Low-defect error supports admit a chart-free boundary-stripping predicate and reserve-preserving periodic multisequence reduction, but on the official sigma=1 grid the raw d=2, beta=1 candidate route is n*N/(N-h) times Q_2(k+2), strictly above the 719 Q_2 line. Therefore QCLOSE is empty in the current PMA route and every low-defect exact-stabilizer-one survivor remains in the direct GROW union RES theorem.",
+    "refs": [
+      "background/nodes/pma_quotient_closure_scope/statement.md",
+      "background/nodes/pma_quotient_closure_scope/proof.md",
+      "background/nodes/pma_quotient_closure_scope/audit.md",
+      "background/nodes/pma_quotient_closure_scope/claim_contract.md",
+      "background/nodes/pma_quotient_closure_scope/dependency_subdag.md",
+      "background/nodes/pma_quotient_closure_scope/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_exact_periodic_owner",
+      "order": 1457
+    },
+    {
+      "from": "qa22_m_le_t_extension",
+      "order": 1458
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 1420
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1451
+    }
+  ],
+  "refutes": []
+}

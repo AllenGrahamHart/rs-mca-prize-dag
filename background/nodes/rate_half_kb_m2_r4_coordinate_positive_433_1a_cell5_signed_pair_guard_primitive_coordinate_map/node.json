@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1452,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map",
+    "title": "KoalaBear positive 433-1a cell-5 signed-pair primitive coordinate map",
+    "status": "PROVED",
+    "closure": "exact degree-below-24 primitive maps for x1,x0,b",
+    "statement": "In the deployed chart-2 guard-localized squared DE+/DE- algebra over F_p(t), with primitive coordinate s=ell=x1+2*x0+3*b, all three squared source coordinates x1,x0,b have explicit exact degree-below-24 expressions in s. The 72 rational-function coefficients satisfy p_x1+2p_x0+3p_b=s exactly and replay the independently generated multiplication columns at a regular fiber. This does not prove source guards are units, compute guard norms, classify exceptional fibers, lift source roots, impose the colored edge, delete a cell, route, or K3 row, or prove either Prize result.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_localized_operator_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_coordinate_columns_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_primitive_coordinate_map_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_primitive_coordinate_map_result.json",
+      "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_pair_primitive_coordinate_map.py",
+      "experiments/prize_resolution/audit_rate_half_kb_positive_433_1a_cell5_pair_primitive_coordinate_map.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger",
+      "order": 3208
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3209
+    }
+  ],
+  "refutes": []
+}

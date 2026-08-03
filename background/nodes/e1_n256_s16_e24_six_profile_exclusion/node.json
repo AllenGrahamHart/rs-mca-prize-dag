@@ -1,0 +1,62 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 86,
+  "node": {
+    "id": "e1_n256_s16_e24_six_profile_exclusion",
+    "title": "N=256 E=24 six-profile exact-norm exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e24_six_profile_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e24_six_profile_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e24_six_profile_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e24_six_profile_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e24_six_profile_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e24_six_profile_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e24_six_profile_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e24_six_profile_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e24_six_profile_exclusion/verify_audit.py",
+      "experiments/prize_resolution/e24_six_profile_count.cpp",
+      "experiments/prize_resolution/e24_six_profile_count_audit.cpp",
+      "experiments/prize_resolution/e24_six_profile_count_modal.py",
+      "experiments/prize_resolution/e24_six_profile_count_result.json",
+      "experiments/prize_resolution/e24_six_profile_count_check.py",
+      "experiments/prize_resolution/e24_six_profile_collect.cpp",
+      "experiments/prize_resolution/e24_six_profile_collect_audit.cpp",
+      "experiments/prize_resolution/e24_six_profile_collect_modal.py",
+      "experiments/prize_resolution/e24_six_profile_collect_result.json",
+      "experiments/prize_resolution/e24_six_profile_collect_check.py",
+      "experiments/prize_resolution/e24_six_profile_norm_modal.py",
+      "experiments/prize_resolution/e24_six_profile_norm_result.json",
+      "experiments/prize_resolution/e24_six_profile_norm_check.py"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), and V=48, all six routed profiles are impossible. Two independent actual-vector engines agree after 3,056,582,144 vectors per engine: 14,416 profile vectors, of which 6,834 have full conductor and 7,582 are discharged by the proper-conductor theorem. FLINT and PARI agree on all full-conductor norms, with 2,684 distinct values and N_max<2^250<2*N_max.",
+    "notes": "ROUTE CLOSURE 2026-07-27: two routed profiles are empty and exact resultants close every representative in the other four without using the expired majorant."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e24_profile_parity_light_reduction",
+      "order": 4206
+    },
+    {
+      "from": "e1_n256_proper_conductor_collision_exclusion",
+      "order": 4207
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 4208
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4213
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4214
+    }
+  ],
+  "refutes": []
+}

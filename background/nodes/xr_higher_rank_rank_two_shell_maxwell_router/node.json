@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1297,
+  "node": {
+    "id": "xr_higher_rank_rank_two_shell_maxwell_router",
+    "title": "XR rank-two shells obey an exact arity and Maxwell-deficit router",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_higher_rank_rank_two_shell_maxwell_router/statement.md",
+      "background/nodes/xr_higher_rank_rank_two_shell_maxwell_router/proof.md",
+      "background/nodes/xr_higher_rank_rank_two_shell_maxwell_router/claim_contract.md",
+      "background/nodes/xr_higher_rank_rank_two_shell_maxwell_router/dependency_subdag.md",
+      "background/nodes/xr_higher_rank_rank_two_shell_maxwell_router/verify.py",
+      "background/nodes/xr_higher_rank_rank_two_shell_maxwell_router/verify_audit.py",
+      "background/nodes/xr_higher_rank_rank_two_shell_maxwell_router/audit.md",
+      "background/nodes/xr_higher_rank_rank_two_shell_maxwell_router/result.md"
+    ],
+    "statement": "For every uniform high-core rank-two trade with |X|=a+d+1, its pairwise-disjoint row-zero fibers have sizes 1<=z_i<=d, satisfy z_i+z_j>=d+1, and obey an exact parity-sensitive minimum-mass bound and active-row ceiling. Extending the active supports to their selected blocks gives the explicit Maxwell deficit lower bound Delta_J>=2(d+1)+t(h-2d-2)+(d+1)t(t-1)-2(t-2)Z. Positivity excludes a relation supported on every block of its minimal Maxwell core. This removes primitive full-core rank two on very large first- and second-shell prize-rank intervals and gives an exact router on every shell; proper local circuits and their aggregate ownership remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_higher_rank_uniform_split_pencil_reduction",
+      "order": 2753
+    },
+    {
+      "from": "xr_higher_rank_collapsed_face_exclusion",
+      "order": 2754
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 2755
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,126 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1780,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_complete_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b role-cell-3 complete exclusion",
+    "status": "PROVED",
+    "closure": "complete deployed role-cell-3 exclusion: rank-drop common branch empty and all 1680 principal missing-record/matching/sign cases empty",
+    "statement": "The complete deployed positive 433-1b to O0a route is empty in source role cell 3. The exact common exception classifier excludes the product-rank-drop branch in all four source-sign rows. On product rank five, proved suppliers form a disjoint cover of all 7 missing records x 15 canonical matchings x 4 source signs x 4 target lanes = 1680 raw systems: 720 parallel-DE cases and 240 cases at each of xi3, xi4, xi5, and xi6. This closes role cell 3 only and does not transport to role cell 6 or close the complete positive route, K3, LIST, MCA, or either Prize result.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_complete_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_complete_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_complete_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_complete_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_complete_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_complete_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_complete_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_complete_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_complete_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_complete_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_complete_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier",
+      "order": 4927
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_firstpair_complete_exclusion",
+      "order": 4928
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing3_complete_exclusion",
+      "order": 4929
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing4_complete_exclusion",
+      "order": 4930
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing5_complete_exclusion",
+      "order": 4931
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing6_complete_exclusion",
+      "order": 4932
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing7_complete_exclusion",
+      "order": 4933
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing8_complete_exclusion",
+      "order": 4934
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing9_complete_exclusion",
+      "order": 4935
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing10_complete_exclusion",
+      "order": 4936
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing11_complete_exclusion",
+      "order": 4937
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing12_complete_exclusion",
+      "order": 4938
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing13_complete_exclusion",
+      "order": 4939
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing14_complete_exclusion",
+      "order": 4940
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion",
+      "order": 4941
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairings1_2_reciprocal_linear_exclusion",
+      "order": 4942
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings3_6_exclusion",
+      "order": 4943
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion",
+      "order": 4944
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion",
+      "order": 4945
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings4_5_9_12_exclusion",
+      "order": 4946
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi4_xi3_outside_role_transport_exclusion",
+      "order": 4947
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion",
+      "order": 4948
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi6_endpoint_compatibility_exclusion",
+      "order": 4949
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4950
+    }
+  ],
+  "refutes": []
+}

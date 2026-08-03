@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 913,
+  "node": {
+    "id": "rate_half_far_ca_rider_reduction",
+    "title": "Rate-half far-CA rider and doubly sparse reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every linear code at integer radius r<n/2, the far-pair correlated-agreement numerator obeys B_ca^far(n-r)<=1+(r+1)L_2(n-2r). If a column-far pair has at least two bad slopes, translation by a code pair normalizes both received components to 2r-sparse errors. At rate one half and agreement a=k+tau, the deficient pair-list agreement is n-2r=2tau. This is a structural reduction and does not assert that its sufficient prize inequality holds.",
+    "refs": [
+      "background/nodes/rate_half_far_ca_rider_reduction/statement.md",
+      "background/nodes/rate_half_far_ca_rider_reduction/proof.md",
+      "background/nodes/rate_half_far_ca_rider_reduction/claim_contract.md",
+      "background/nodes/rate_half_far_ca_rider_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_far_ca_rider_reduction/verify.py",
+      "background/nodes/rate_half_far_ca_rider_reduction/audit.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1682
+    }
+  ],
+  "refutes": []
+}

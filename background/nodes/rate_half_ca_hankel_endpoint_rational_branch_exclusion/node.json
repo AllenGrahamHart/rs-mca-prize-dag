@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 924,
+  "node": {
+    "id": "rate_half_ca_hankel_endpoint_rational_branch_exclusion",
+    "title": "Component-profile rigidity at the strict endpoint",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Factor a hypothetical first strict A=3 endpoint counterexample into irreducible bidegree components (r_i,e_i). Component root incidence gives T r_i-I_i>=T r_i-N e_i, while the aggregate row shortfall is at most O<=m-1. Hence r_i<=4e_i. Since sum_i(4e_i-r_i)=4m-(4m-1)=1, there is exactly one component with r=4e-1 and every other component has r=4e. The balanced components consume at least four shortfall units per parameter degree, so their total parameter degree is at most floor((m-1)/4); the unique defect-one component has e>=ceil((3m+1)/4). In particular Q cannot split into rational parameter branches, but the dominant nonlinear component remains open.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_endpoint_rational_branch_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_rational_branch_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_rational_branch_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_rational_branch_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_rational_branch_exclusion/verify.py",
+      "background/nodes/rate_half_ca_hankel_endpoint_rational_branch_exclusion/audit.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_endpoint_norm_factorization",
+      "order": 1668
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1669
+    }
+  ],
+  "refutes": []
+}

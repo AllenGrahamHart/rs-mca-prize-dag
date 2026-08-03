@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 44,
+  "node": {
+    "id": "e1_n256_s16_e34_generic_affine_weld_reduction",
+    "title": "N=256 E=34 generic affine-weld reduction",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e34_generic_affine_weld_reduction/statement.md",
+      "background/nodes/e1_n256_s16_e34_generic_affine_weld_reduction/proof.md",
+      "background/nodes/e1_n256_s16_e34_generic_affine_weld_reduction/claim_contract.md",
+      "background/nodes/e1_n256_s16_e34_generic_affine_weld_reduction/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e34_generic_affine_weld_reduction/audit.md",
+      "background/nodes/e1_n256_s16_e34_generic_affine_weld_reduction/result.md",
+      "background/nodes/e1_n256_s16_e34_generic_affine_weld_reduction/source_pin.json",
+      "background/nodes/e1_n256_s16_e34_generic_affine_weld_reduction/verify.py",
+      "background/nodes/e1_n256_s16_e34_generic_affine_weld_reduction/verify_audit.py",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_generic_orbit_classifier.cpp",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_generic_orbit_audit.cpp",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_generic_orbit_modal.py",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_generic_orbit_result.json",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_generic_orbit_check.py"
+    ],
+    "statement": "The 325,376 generic N=256 E=34 heavy triples form exactly 57 affine odd-unit orbits. Their three forced heavy-light weld sets have only three exact intersection shapes. Inclusion-exclusion reduces the complete representative necessary-condition chamber to 243,285,056 normalized signed vectors.",
+    "notes": "ROUTE REDUCTION 2026-07-27: independently classifies every generic heavy orbit and three-weld chamber. Profile and moment filters remain open."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e34_heavy_chord_template_reduction",
+      "order": 287
+    },
+    {
+      "from": "e1_n256_s16_e34_parity_profile_reduction",
+      "order": 288
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 411
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 412
+    }
+  ],
+  "refutes": []
+}

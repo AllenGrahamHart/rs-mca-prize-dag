@@ -1,0 +1,19 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 703,
+  "node": {
+    "id": "v13_entropy_envelope_conjecture",
+    "status": "CONJECTURE",
+    "title": "Upstream headline conjecture: entropy-subfield envelope",
+    "statement": "UPSTREAM HEADLINE CONJECTURE (upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes): the closed-form threshold delta*_C(eps*) = 1 - rho - g*(rho,beta) + o(1) (the entropy-subfield envelope). This is the upstream program-level answer-shape our conjectural_mca_delta.py row map should converge to; kept as a named CONJECTURE for visibility in the shared artifact. Consistent with our corridor arithmetic (batch-1 crossings) at the four rates."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "mca_grand",
+      "order": 1204
+    }
+  ],
+  "refutes": []
+}

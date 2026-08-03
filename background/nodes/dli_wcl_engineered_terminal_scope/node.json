@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 839,
+  "node": {
+    "id": "dli_wcl_engineered_terminal_scope",
+    "title": "DLI engineered weight-6 witness reaches order 512 but not the production ambient split",
+    "status": "PROVED",
+    "closure": "computation",
+    "statement": "For z of order 512, the exact norm of 1-z^33+z^40-z^136-z^143+z^145 is 122312418397310579415219240127455896396372121843316076135243835573788121252866 = 2q, where q=61156209198655289707609620063727948198186060921658038067621917786894060626433 is prime and v_2(q-1)=9. Thus the banked engineered weight-6 construction gives a terminal order-512 relation but none of its norm factors can host the production ambient subgroup of order 2^41. FLINT recomputes the resultant on Modal; PARI factors it; a local recursive Pocklington verifier proves the 256-bit factor prime and checks an exact order-512 vanishing dilation.",
+    "refs": [
+      "background/nodes/dli_wcl_engineered_terminal_scope/statement.md",
+      "background/nodes/dli_wcl_engineered_terminal_scope/proof.md",
+      "background/nodes/dli_wcl_engineered_terminal_scope/verify.py",
+      "background/nodes/dli_wcl_engineered_terminal_scope/notes/verify_norm_remote.py",
+      "experiments/prize_resolution/dli_wcl_engineered_norm_modal.py",
+      "experiments/prize_resolution/dli_wcl_engineered_norm_result.json"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_zone_coverage",
+      "order": 1406
+    }
+  ],
+  "refutes": []
+}

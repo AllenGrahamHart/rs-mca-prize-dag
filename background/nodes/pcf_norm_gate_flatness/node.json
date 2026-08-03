@@ -1,0 +1,20 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 565,
+  "node": {
+    "id": "pcf_norm_gate_flatness",
+    "title": "pcf norm gate flatness",
+    "status": "REFUTED",
+    "statement": "",
+    "notes": "REFUTED (Pro D2, falsification #20, verified: collapse identity 200/200, eta coefficients exact): for 2-power moduli the odd folded-resultant packet is ONE resultant (alpha -> alpha^r permutes roots of X^N+1); the level-2 midpoint profile then has |G_2| >= 3^N/q \u2014 requiring eta = Theta(L) = Theta(t). The MAJORANT is exponentially lossy; the norm gate itself (valid => q | Res) remains true, and the two-level bound remains a valid upper bound. Corrected target: pcf_evaluation_flatness (the true odd evaluation equations)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1092
+    }
+  ],
+  "refutes": []
+}

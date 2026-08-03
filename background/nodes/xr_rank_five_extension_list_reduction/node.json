@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 891,
+  "node": {
+    "id": "xr_rank_five_extension_list_reduction",
+    "title": "XR rank-five selectors reduce to one-dimensional extension lists",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_rank_five_extension_list_reduction/statement.md",
+      "background/nodes/xr_rank_five_extension_list_reduction/proof.md",
+      "background/nodes/xr_rank_five_extension_list_reduction/verify.py",
+      "background/nodes/xr_rank_five_extension_list_reduction/result.md"
+    ],
+    "statement": "For a RowC selector of affine rank five, puncture the persistent global roots P_0. The selected slopes become codewords in distinct quotient classes of a five-dimensional code C_E containing the four-dimensional kernel code K_E, all agreeing with one received word in at least 4+h+u+v positions. Their pairwise agreement is at most 4+u+v for P-A or 3+u+v for P-B. K_E has v loop coordinates and, after deleting and scaling them, is a four-dimensional polynomial subspace W subset F[X]_<4+u. At u=v=0 this is exactly a one-dimensional extension of GRS_4. This is an exact residual reduction, not a list-size payment."
+  },
+  "requires": [
+    {
+      "from": "xr_rs_flat_nullity_basis_charge",
+      "order": 1568
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1569
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1570
+    }
+  ],
+  "refutes": []
+}

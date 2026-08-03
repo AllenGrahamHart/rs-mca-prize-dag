@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 961,
+  "node": {
+    "id": "f3_h3_low_distance_exceptional_prime_router",
+    "title": "H3 low-distance exceptional-prime router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For each fixed dyadic order, every prime supporting a cutoff-18 rich shifted-product fiber divides one explicitly enumerable cyclotomic collision norm whose Parseval distance is at most six. Galois and exchange orbits preserve the candidate union, reducing the fixed-order prime corridor to a finite certificate task.",
+    "refs": [
+      "background/nodes/f3_h3_low_distance_exceptional_prime_router/statement.md",
+      "background/nodes/f3_h3_low_distance_exceptional_prime_router/proof.md",
+      "background/nodes/f3_h3_low_distance_exceptional_prime_router/claim_contract.md",
+      "background/nodes/f3_h3_low_distance_exceptional_prime_router/dependency_subdag.md",
+      "background/nodes/f3_h3_low_distance_exceptional_prime_router/audit.md",
+      "background/nodes/f3_h3_low_distance_exceptional_prime_router/result.md",
+      "background/nodes/f3_h3_low_distance_exceptional_prime_router/verify.py",
+      "background/nodes/f3_h3_low_distance_exceptional_prime_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_rich_fiber_norm_cutoff",
+      "order": 1760
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1761
+    }
+  ],
+  "refutes": []
+}

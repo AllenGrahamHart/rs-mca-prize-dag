@@ -1,0 +1,20 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 564,
+  "node": {
+    "id": "cap_envelope_parameter_sweep",
+    "title": "Does the graded-prefix envelope close rates 1/4 and 1/16 at finer quotient scales?",
+    "status": "PROVED",
+    "statement": "Pro's sharpening shows the printed cap's reserve (N_rho = 1024) was a declared convenience: at rho = 1/8 the proved quotient-remainder floor supports N = 8192 with 180 bits of slack, gaining 1/16 step. QUESTION: sweep (c, d) per rate against the floor lemma's exact validity conditions \u2014 do finer scales deliver the 0.318 / 0.310 steps that rates 1/4 and 1/16 need? Naive entropy arithmetic suggests YES with large margins (d up to ~30-50 before the |B|-box eats the entropy) \u2014 but the lemma's profile conditions must be checked, not extrapolated. If true, the whole corridor family closes by parameter optimization and the wave-1 widths were measured against the lazy cap.",
+    "attack_surface": "pure compute: evaluate the floor at the (c,d) grid per rate; verify each point against cor:extension-pole-quotient-remainder-floor's hypotheses",
+    "falsifier": "the lemma's conditions failing at every scale finer than N_rho for rates 1/4, 1/16",
+    "refs": [
+      "critical/nodes/fourth_mechanism_rate8/proof.md"
+    ],
+    "notes": "PROVED (agent sweep, verifier replayed ALL PASS): the floor is scale-free; ALL THREE clean rates exceed their required gains with margins +0.266/+0.076/+0.071. THE CORRIDOR FAMILY CLOSES BY PARAMETER OPTIMIZATION."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

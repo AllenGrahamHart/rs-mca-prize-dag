@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1566,
+  "node": {
+    "id": "rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier",
+    "title": "KoalaBear m2 r2 residual source-cover twist classifier",
+    "status": "PROVED",
+    "closure": "exact quadratic square-class matching, relative endpoint branch preimages, and V4 passport branch counts",
+    "statement": "For an actual residual Q_(a,b), retain the projective twist between the standard and actual second endpoint coordinates. Equality of the coefficient quotient and endpoint source covers forces the two preimages of the endpoint branch values to be the roots of z^2-b*d*z+b^2+d^2-4, where d^2=a+2. Consequently the source genus is zero exactly when b^2=a+2 and one otherwise. Both regimes remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/statement.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/proof.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/audit.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/result.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/frontier.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/verify.py",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas",
+      "order": 3653
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3654
+    }
+  ],
+  "refutes": []
+}

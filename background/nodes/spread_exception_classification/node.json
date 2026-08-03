@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 378,
+  "node": {
+    "id": "spread_exception_classification",
+    "title": "LEAP: below-cap spread exceptions are exactly the finite-geometry class",
+    "status": "CONJECTURE",
+    "key": true,
+    "statement": "RESTATED per E13 (second revision, both pre-registered): below-cap spread rank loss is (i) finite-geometry/net shaped (AG census: 373 nondegenerate exceptions, 0 unclassified), (ii) v-syndrome degenerate, or (iii) a full-support sparse-greedy syzygy circuit (all 71 n=32 controls; proved circuit lemma). Three observed branches, each precise; the conjecture is that the list is now complete.",
+    "attack_surface": "rung 1 is a computation (extend E3's search to all configurations at n = 16..32); rung 2 uses the cap theorem's span structure; the AG witnesses' rank pattern (11/12, one deficit) suggests a one-relation characterization",
+    "falsifier": "an exception at small scale embedding in NO finite-geometry configuration, or a growing-deficit family",
+    "refs": [
+      "experimental/notes/roadmaps/evidence_plan_codex.md"
+    ],
+    "notes": "CALCULATED LEAP grounded in E3 (PR #185): witness shape + proved cap + saturation-degeneracy. Replaces the refuted naive form with a classified-exception form. | E13: finite-geometry-only was too narrow \u2014 the syzygy branch is the fix, with its lemma already proved in #185."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "spread_regime_bound",
+      "order": 612
+    },
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 766
+    }
+  ],
+  "refutes": []
+}

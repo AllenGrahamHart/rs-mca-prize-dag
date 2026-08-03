@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 325,
+  "node": {
+    "id": "two_slope_intersection",
+    "title": "Two distinct bad slopes explain u AND v individually on the support intersection",
+    "status": "PROVED",
+    "refs": [
+      "tex/slackMCA_v4.tex"
+    ],
+    "notes": "elementary 2x2 solve on S1 cap S2; the engine that makes many-slope configurations structured \u2014 large intersections force tangent-type payment"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_crystallization",
+      "order": 200
+    },
+    {
+      "to": "spi_exceptional_class",
+      "order": 202
+    }
+  ],
+  "refutes": []
+}

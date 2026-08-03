@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 435,
+  "node": {
+    "id": "multiplier_exactness",
+    "title": "The multiplier lemma: a good c converts the mod-p relation into an EXACT integer relation",
+    "status": "PROVED",
+    "statement": "For any c: if the reduced residues r_x = (c zeta^x mod+- p) satisfy sum over any support-(2l') ternary combo |sum v_x r_x| < p, then kernel membership forces the exact integer relation sum v_x r_x = 0. Elementary; the bridge from modular to integer arithmetic that every certificate below uses.",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ],
+    "notes": "True but VACUOUS at all relevant scales (Theorem 2: hypothesis unsatisfiable \u2014 zero good multipliers). Retained as scoping only. | FLIP on replay (Codex wave 5): PROVABLE -> PROVED."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "multi_multiplier_reduction",
+      "order": 743
+    },
+    {
+      "to": "integer_code_distance_cert",
+      "order": 744
+    }
+  ],
+  "refutes": []
+}

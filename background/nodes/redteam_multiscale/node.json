@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 355,
+  "node": {
+    "id": "redteam_multiscale",
+    "title": "RED TEAM: construct a fifth mechanism from cross-scale resonance",
+    "status": "TARGET",
+    "key": true,
+    "statement": "Adversarial search at n = 2^10..2^12 (enough nested dyadic scales, unlike toys): deliberately construct pairs with simultaneous structure at MANY quotient scales and measure their unpaid alignment mass. Success = a counterexample contribution (COUNTEREXAMPLE status, S9 trigger); sustained failure across a structured search space = the first evidence that touches the actual hiding room.",
+    "refs": [
+      "proof_sketch/s3b_ii_strip_periodic.md#3"
+    ],
+    "notes": "First sweep executed (#188): empty in the pre-registered linear periodic model. | TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation.",
+    "closure": "computation"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "payment_completeness",
+      "order": 566
+    },
+    {
+      "to": "gap1_noneq_mass",
+      "order": 567
+    }
+  ],
+  "refutes": []
+}

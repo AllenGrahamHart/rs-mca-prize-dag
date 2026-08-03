@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 817,
+  "node": {
+    "id": "petal_descent_classification_bridge",
+    "status": "TARGET",
+    "statement": "DESCENT CLASSIFICATION BRIDGE (minted at wave-4, catch #116 \u2014 the unproved lemma Codex's census rewiring asserted): descended small-scale objects are top-band full-petal contributors at the descendant row (so the G1 atlas covers them). UNPROVED; directly contradicted the guard sentence retained in the same reduction note. Until proved, the census gate's route of record remains the successor red (feb77fc); this bridge + scale_reserve form the ALTERNATE route. FALSIFIER: a descended small-scale object at a scaled row that is NOT a top-band full-petal contributor at the descendant row (searchable with the banked census machinery). || MOOT (2026-07-13, #150): the alternate route this bridge served is retired; the bridge question is subsumed by the PROVED structure theorem (S4). Kept as background record."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_g1_k4_scale_reserve",
+      "order": 1371
+    }
+  ],
+  "refutes": []
+}

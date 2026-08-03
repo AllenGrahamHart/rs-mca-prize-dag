@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 646,
+  "node": {
+    "id": "m720_official_norm_gate_case_manifest_soundness",
+    "title": "M720 official norm-gate case-manifest soundness",
+    "status": "PROVED",
+    "statement": "If a manifest covers every official-shape primitive h=7..20 norm-gate case and, for each case, supplies either a uniform nonvanishing theorem citation or a complete=true zero-survivor certificate record, then m720_official_h7_20_norm_gate_payload holds.",
+    "attack_surface": "formal coverage and accepted-record dispatch for official M720 norm-gate manifests",
+    "falsifier": "a complete valid official norm-gate manifest while the M720 payload fails"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1128
+    }
+  ],
+  "refutes": []
+}

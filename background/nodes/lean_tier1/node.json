@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 273,
+  "node": {
+    "id": "lean_tier1",
+    "title": "Lean tier 1: gate addition certificates (witnesses computed)",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/lean_tier1/proof.md",
+      "background/nodes/lean_tier1/audit.py",
+      "formal/lean/rs_mca_formalization/CERTIFICATION_MAP.md"
+    ],
+    "statement": "The vendored stdlib-only Lean package kernel-checks the Tier-1 F_17^32 gate arithmetic: positive addition witnesses for the 6/7 bracket, B*=6, tangent-cap inclusion, 506/507 staircase values, and 5/512 < 6/512 = 3/256 endpoint conversion. Typed analytic targets remain explicit non-claims."
+  },
+  "requires": [
+    {
+      "from": "lean_existing",
+      "order": 175
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

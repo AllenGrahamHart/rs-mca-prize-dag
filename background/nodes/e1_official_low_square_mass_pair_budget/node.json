@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 25,
+  "node": {
+    "id": "e1_official_low_square_mass_pair_budget",
+    "title": "Official-row low-square-mass E1 collision-pair budget",
+    "status": "TARGET",
+    "refs": [
+      "background/nodes/e1_official_low_square_mass_pair_budget/statement.md",
+      "background/nodes/e1_official_low_square_mass_pair_budget/claim_contract.md",
+      "background/nodes/e1_official_low_square_mass_pair_budget/dependency_subdag.md",
+      "background/nodes/e1_official_low_square_mass_pair_budget/attack.md",
+      "background/nodes/e1_official_low_square_mass_pair_budget/frontier.md"
+    ],
+    "statement": "At each of the six pair-feasible RowC/prize envelopes, bound the total unordered same-E1 class pairs with S<=2ell by its exact row budget. The binding prize rate-1/8 budget is 65127585921474870475467050631501738502567, about 1.714K; maximum low-mass collision degree three is sufficient. The weighted-kernel dictionary gives E_low=(1/2)sum_d M_ell(a(d),b(d)). The maximum profile (3,6,S=18) is paid exactly at its four-orbit upper bound. For the next profile (2,10,S=18), cofactor 1538 is now excluded and the coarse envelope is T_210<=266; the remaining split-prime cofactors are 514 and 1028 above 257. The Plotkin compiler then forces more than B* values.",
+    "attack_surface": "attack the profile-(2,10) cofactor-1028 branch through its universal V<=12 window, using finite-field autocorrelation types and exact real-cyclotomic norms before any support census; then treat 514, never merge distinct Q_s, and preserve orientation, stabilizer, and class-pair multiplicities in the residual weighted ledger",
+    "falsifier": "an admissible row whose exact unordered low-mass collision-pair count exceeds its printed budget, or a multiplicity/type error in a claimed count"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4481
+    }
+  ],
+  "refutes": []
+}

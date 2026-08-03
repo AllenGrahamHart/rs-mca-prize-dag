@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1610,
+  "node": {
+    "id": "l1_official_reserve_tame_refinement_router",
+    "title": "L1 official-reserve tame-refinement router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let the generated evaluation field be F_(p^f), with n=2^m>=2^13, n|p^f-1, p^f<2^256, and k<=n/2. Given any corrected-reserve threshold sigma, reduce by exact-shell monotonicity to the least threshold sigma_0 for eta=min(epsilon,1/4), and put ell_0=sigma_0+1. The power-of-two order bound ord_n(p)>=n/(p+1), the field cap (which excludes p=3,5), and binom(n,a)<=2^n give ell_0<=ceil(5(p+1)/(4 log_2 p))+1<p. Hence p does not divide ell_0/s for any s|ell_0. Every whole-petal refinement at the canonical official cutoff is tame, so the fixed-petal census counts all map classes by at most M_src tau(ell_0)<=n. Wild fixed-petal decomposition is removed from the L1 frontier; role/support payment, partial fibers, unanchored maps, and arbitrary locators remain open.",
+    "refs": [
+      "background/nodes/l1_official_reserve_tame_refinement_router/statement.md",
+      "background/nodes/l1_official_reserve_tame_refinement_router/proof.md",
+      "background/nodes/l1_official_reserve_tame_refinement_router/claim_contract.md",
+      "background/nodes/l1_official_reserve_tame_refinement_router/dependency_subdag.md",
+      "background/nodes/l1_official_reserve_tame_refinement_router/audit.md",
+      "background/nodes/l1_official_reserve_tame_refinement_router/lineage.md",
+      "background/nodes/l1_official_reserve_tame_refinement_router/result.md",
+      "background/nodes/l1_official_reserve_tame_refinement_router/verify.py",
+      "background/nodes/l1_official_reserve_tame_refinement_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "field_cap_check",
+      "order": 3810
+    },
+    {
+      "from": "l1_exact_shell_prefix_hankel_bridge",
+      "order": 3811
+    },
+    {
+      "from": "l1_tame_fixed_petal_refinement_census",
+      "order": 3812
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3813
+    }
+  ],
+  "refutes": []
+}

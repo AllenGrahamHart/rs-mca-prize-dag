@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1560,
+  "node": {
+    "id": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
+    "title": "KoalaBear m2 r2 dihedral degree-five source-star exclusion",
+    "status": "PROVED",
+    "closure": "totally ramified dihedral pole fiber, complete source pullback identity, and quartic star-defect contradiction",
+    "statement": "In the full-V4 (m,r,delta)=(2,2,4) row, the degree-five Dickson/Chebyshev factor profile is impossible. Its simple outer pole at the totally ramified value forces the two source pullbacks over one endpoint fiber to contribute total weight four to one matching source-star vertex, contradicting the proved maximum weight three. The surviving dihedral factor degrees are n=2,3,6. No other m=2 type, owner charge, or prize row is closed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+      "order": 3639
+    },
+    {
+      "from": "rate_half_kb_m2_r2_dihedral_outer_factor_reduction",
+      "order": 3640
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3641
+    }
+  ],
+  "refutes": []
+}

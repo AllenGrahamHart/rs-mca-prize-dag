@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 30,
+  "node": {
+    "id": "e1_n256_s16_sparse_l1_variance_exclusion",
+    "title": "N=256 square-mass-16 sparse-L1 variance exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/result.md",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/verify.py"
+    ],
+    "statement": "For profile (3,4,0), put E=V/2=sum_d A_d^2 and L=sum_d |A_d| over the positive-half negacyclic autocorrelation. An exact relaxed minimum-energy slack recurrence gives the required L ceilings for E=39,...,52. Eight optimized quadratic row certificates, four nested-layer third-moment/cubic-Hermite endpoint certificates, and nine mean-tangent logarithmic majorants exclude every even variance 78<=V<=134 by putting the norm below 2^250. Every unresolved vector in this profile has positive even V<=76.",
+    "notes": "ROUTE REDUCTION 2026-07-27: uses profile-specific chord cancellation, exact moment layering, and logarithmic majorants to remove twenty-nine variance values from profile (3,4,0). The positive even V<=76 residual remains open; the tested cubic route reaches its boundary at V=76."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_high_variance_collision_exclusion",
+      "order": 247
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 248
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 383
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 384
+    }
+  ],
+  "refutes": []
+}

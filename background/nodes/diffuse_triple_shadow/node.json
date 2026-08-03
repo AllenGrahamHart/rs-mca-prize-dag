@@ -1,0 +1,15 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 572,
+  "node": {
+    "id": "diffuse_triple_shadow",
+    "title": "diffuse triple-shadow theorem",
+    "status": "TARGET",
+    "statement": "Poly count for diffuse m>=4 triple-shadow syzygies \u2014 the final residue of the slope sieve (see statement.md; fresh-rank 2n + Vandermonde lemma + triple payment PROVED).",
+    "notes": "AMBER STRESS 2026-07-06: diffuse_shadow_circuit_scan.py searched small finite-field Hankel locator models over F_13/mu_12, F_17/mu_8, and F_17/mu_16. It found 11,785 minimal dependent circuits, including 10,691 diffuse m>=4 residues and 1,094 tangent-core circuits, with 0 triple-shadow-size < k+1 violations. This is falsification evidence only; the polynomial count remains open."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

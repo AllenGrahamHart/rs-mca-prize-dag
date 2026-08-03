@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 38,
+  "node": {
+    "id": "e1_n256_s16_e34_heavy_chord_template_reduction",
+    "title": "N=256 E=34 heavy-chord template reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/statement.md",
+      "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/proof.md",
+      "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/claim_contract.md",
+      "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/audit.md",
+      "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/result.md",
+      "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/source_pin.json",
+      "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/verify.py",
+      "background/nodes/e1_n256_s16_e34_heavy_chord_template_reduction/verify_audit.py"
+    ],
+    "statement": "Every residual N=256, folded-(3,4,0), V=68 collision lies in one of four heavy-position templates: quarter, nonquarter diameter, progression, or generic. Every singleton non-diameter heavy-heavy class contains a heavy-light chord. The quarter template has D_64=16, no light at the missing quarter, and opposite outer heavy signs; its apparent D_64=20 case is impossible.",
+    "notes": "ROUTE REDUCTION 2026-07-27: turns the repeated-chord condition into four exact additive templates and deletes one quarter-diameter branch. It does not exclude the four templates or the residual profile."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e34_parity_profile_reduction",
+      "order": 269
+    },
+    {
+      "from": "e1_n256_s16_signed_chord_collision_gate",
+      "order": 270
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 399
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 400
+    }
+  ],
+  "refutes": []
+}

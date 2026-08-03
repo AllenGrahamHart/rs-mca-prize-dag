@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 724,
+  "node": {
+    "id": "f3_h3_officialrow_conditional_close",
+    "status": "CONDITIONAL",
+    "statement": "F3 h=3 OFFICIAL-ROW CONDITIONAL CLOSE (2026-07-09, proved implication, machine-verified arithmetic on all official rows s = 13..41; frontier ledger replayed): IF f3_conic_rank_deficit_gate AND f3_h3_bridge_rankcap_gate THEN official-row H3-ACT(4096) holds, hence T3 < n^3 on all official rows. Chain: RC-RED-PROFILE (proved) + exact-profile budgets Z_4096_floor + retarget compiler. Backup lanes kept independent: (a) moment program (needs six star gates + M-bound), (b) private-linear alternate (Delta <= 25 on the 3-parameter normal form + matching bridge). NOTE: closes the h=3 stratum only; the x4 red also needs the h=5/h=8 finite certification residuals and the h-ladder coverage audit."
+  },
+  "requires": [
+    {
+      "from": "f3_conic_rank_deficit_gate",
+      "order": 1238
+    },
+    {
+      "from": "f3_h3_bridge_rankcap_gate",
+      "order": 1239
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u1_x4_direct_column_budget",
+      "order": 1240
+    }
+  ],
+  "refutes": []
+}

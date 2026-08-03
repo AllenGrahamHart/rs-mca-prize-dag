@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 869,
+  "node": {
+    "id": "pma_sigma_one_paired_core_abundance",
+    "title": "PMA sigma-one paired-core abundance obstruction",
+    "status": "PROVED",
+    "statement": "The exact first moment of the number A(U) of paired (k-1)-cores is E A(U)=binom(n,k-1)(2M+1)!/(2^M M!)(q)_{M+1}/q^{2M+1}. At the valid official rate-half cyclic row (q,n,k)=(65537,65536,32768), this mean is greater than n^6, so some word has more paired cores than the entire primitive allowance. This does not count Post extras: it route-cuts a bare unweighted core census and forces a weighted Post-carrying estimate, empty-core classification, or chart-free owner.",
+    "refs": [
+      "background/nodes/pma_sigma_one_paired_core_abundance/statement.md",
+      "background/nodes/pma_sigma_one_paired_core_abundance/proof.md",
+      "background/nodes/pma_sigma_one_paired_core_abundance/audit.md",
+      "background/nodes/pma_sigma_one_paired_core_abundance/claim_contract.md",
+      "background/nodes/pma_sigma_one_paired_core_abundance/dependency_subdag.md",
+      "background/nodes/pma_sigma_one_paired_core_abundance/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_sigma_one_paired_core_normalization",
+      "order": 1475
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 1476
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1477
+    }
+  ],
+  "refutes": []
+}

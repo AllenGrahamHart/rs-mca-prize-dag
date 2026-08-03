@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 683,
+  "node": {
+    "id": "e22_minimal_scale_column_evaluation",
+    "title": "E22 minimal-scale column evaluation",
+    "status": "PROVED",
+    "statement": "The dyadic quotient staircase pricing column, as evaluated by dyadic_profile_evaluation and with the declared duplicate subtraction or multiplicity factor, equals the sum over the disjoint minimal-scale partition cells from e22_minimal_scale_partition. This is reduced to the proved dyadic-chain accounting identity plus the remaining exact cross-scale overlap count formulas.",
+    "attack_surface": "assembly from dyadic-chain triangular accounting and the remaining exact overlap-count inputs",
+    "falsifier": "a minimal-scale partition cell whose contribution to the dyadic pricing column is omitted, duplicated, or assigned the wrong multiplicity",
+    "notes": "FIFTH-BRANCH REPLAY (2026-07-10): REPLAY-CLEAN as WEIGHT-PARAMETRIC identities (fresh verifiers, exhaustive n=8/16 + sampled n=32 ground truth, mutation controls; suites banked at critical/nodes/petal_growth/notes/g3_replay_20260710/). CATCH #44: the prior REPLAY-PENDING note undercounted \u2014 THREE nodes have verifiers (selector, tail_criterion, partition), not one. SCOPE CAVEAT (catch #47): the four pricing statements (pricing_compatibility, column_evaluation, count_formula, cross_scale head) reference a 'declared multiplicity' that is declared nowhere and is UNFILLABLE by any per-scale constant or integer weight (exact ratios 8/5, 640/3 vs dyadic_profile_evaluation) \u2014 their PROVED labels certify the parametric identities only; the instantiated readings need the catch-#47 re-pose. Does NOT discharge petal_g3_pricing_multiplicity (see that node). Still ev-only; do not req-wire."
+  },
+  "requires": [
+    {
+      "from": "dyadic_profile_evaluation",
+      "order": 1004
+    },
+    {
+      "from": "e22_minimal_scale_partition",
+      "order": 1005
+    },
+    {
+      "from": "e22_dyadic_chain_mobius_accounting",
+      "order": 1007
+    },
+    {
+      "from": "e22_minimal_scale_overlap_counts",
+      "order": 1034
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1164
+    }
+  ],
+  "refutes": []
+}

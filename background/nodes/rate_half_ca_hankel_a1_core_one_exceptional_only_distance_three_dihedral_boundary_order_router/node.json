@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1149,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_boundary_order_router",
+    "title": "Rate-half distance-three dihedral boundary-order router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On either surviving rank-two dihedral matching, the boundary-power gate is a degree-at-most-14 rational-map fiber condition. Every antipodal and every constant-product packet forces gcd(e,p-1) to be e/3 or e. The apparent reciprocal exception has c=sx_0 and canonical triple {u,t,c/t} with u^2=c, but the triple boundary-power equality contradicts t!=u. The two high-order field strata remain open.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_boundary_order_router/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_boundary_order_router/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_boundary_order_router/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_boundary_order_router/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_boundary_order_router/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_boundary_order_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mobius_subgroup_reduction",
+      "order": 2330
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router",
+      "order": 2331
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2332
+    }
+  ],
+  "refutes": []
+}

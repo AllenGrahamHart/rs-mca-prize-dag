@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 375,
+  "node": {
+    "id": "map_rational_caps",
+    "title": "v12: map/rational smooth caps via circle/genus-one transports",
+    "status": "PROVED",
+    "refs": [
+      "tex/cs25_cap_v12.tex"
+    ],
+    "notes": "extends the cap package across the admissible smooth-domain family; scope of the model transfers under audit (#177)"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "cap_theorem",
+      "order": 605
+    }
+  ],
+  "refutes": []
+}

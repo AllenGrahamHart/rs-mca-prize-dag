@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 822,
+  "node": {
+    "id": "f3_h3_line_star_moment_identity",
+    "title": "H3 non-swap collisions are a directed quotient-line chord moment",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/f3_h3_line_star_moment_identity/statement.md",
+      "background/nodes/f3_h3_line_star_moment_identity/proof.md",
+      "background/nodes/f3_h3_line_star_moment_identity/symbolic_search_result.md",
+      "background/nodes/f3_h3_line_star_moment_identity/classical_collinearity_no_go.md",
+      "experiments/prize_resolution/h3_collinearity_embedding_search.py",
+      "background/nodes/f3_h3_line_star_moment_identity/verify.py"
+    ],
+    "statement": "Put C_m={a in A:ma in A}, so |C_m|=R(m). The exact non-swap collision multiplicity Q(t)=P(t)(P(t)-2)+D(t) equals the number of triples (m,a,a') with m!=1, a!=a', a,a' in C_m, and m*a*a'=t. Hence S_ns=sum_{m!=1}sum_{a!=a' in C_m,maa'!=1}R(maa'), while S_ns^rich restricts the inner sum to P(maa')>=19. This is a proved bijection and re-poses C36' as a directed source-line/target-line correlation; it does not assert the open 1200n^2 rich-moment bound. Two complete symbolic fences reject an automatic non-base target in the natural Laurent-monomial ansatz and every direct coordinate-permutation embedding of the six subgroup variables into one classical collinear-triple equation."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1382
+    }
+  ],
+  "refutes": []
+}

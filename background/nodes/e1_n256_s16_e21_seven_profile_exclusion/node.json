@@ -1,0 +1,62 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 95,
+  "node": {
+    "id": "e1_n256_s16_e21_seven_profile_exclusion",
+    "title": "N=256 E=21 seven-profile exact-norm exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e21_seven_profile_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e21_seven_profile_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e21_seven_profile_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e21_seven_profile_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e21_seven_profile_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e21_seven_profile_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e21_seven_profile_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e21_seven_profile_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e21_seven_profile_exclusion/verify_audit.py",
+      "experiments/prize_resolution/e21_seven_profile_count.cpp",
+      "experiments/prize_resolution/e21_seven_profile_count_audit.cpp",
+      "experiments/prize_resolution/e21_seven_profile_count_modal.py",
+      "experiments/prize_resolution/e21_seven_profile_count_result.json",
+      "experiments/prize_resolution/e21_seven_profile_count_check.py",
+      "experiments/prize_resolution/e21_seven_profile_collect.cpp",
+      "experiments/prize_resolution/e21_seven_profile_collect_audit.cpp",
+      "experiments/prize_resolution/e21_seven_profile_collect_modal.py",
+      "experiments/prize_resolution/e21_seven_profile_collect_result.json",
+      "experiments/prize_resolution/e21_seven_profile_collect_check.py",
+      "experiments/prize_resolution/e21_seven_profile_norm_modal.py",
+      "experiments/prize_resolution/e21_seven_profile_norm_result.json",
+      "experiments/prize_resolution/e21_seven_profile_norm_check.py"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), and V=42, all seven routed profiles are impossible. Independent actual-vector engines agree after 2,203,120,896 vectors per engine: 10,454 profile vectors, of which 4,640 have full conductor and 5,814 are discharged by the proper-conductor theorem. FLINT and PARI agree on all full-conductor norms, with 1,365 distinct values and N_max<2^250<2*N_max.",
+    "notes": "ROUTE CLOSURE 2026-07-28: dual direct census, conductor, and exact resultants close the entire cutoff-free E21 router. Modal apps ap-sB6bBUn8fAtNRenTKaRqGa, ap-8y0cQsyAvpSx8Is0Athw8k, and ap-F5Bs9JuuZRpjReqxeTSNIE supply the pinned count, collection, and norm ledgers."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e21_profile_parity_light_reduction",
+      "order": 4254
+    },
+    {
+      "from": "e1_n256_proper_conductor_collision_exclusion",
+      "order": 4255
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 4256
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4261
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4262
+    }
+  ],
+  "refutes": []
+}

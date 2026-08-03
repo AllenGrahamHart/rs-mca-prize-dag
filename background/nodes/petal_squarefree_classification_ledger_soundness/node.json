@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 621,
+  "node": {
+    "id": "petal_squarefree_classification_ledger_soundness",
+    "title": "Petal squarefree classification-ledger soundness",
+    "status": "PROVED",
+    "statement": "If a ledger covers every squarefree realizable locator point in the residue-line kernels by disjoint charged or uncharged class records, every charged record cites an already paid family, every uncharged record has a polynomial bound with exponent independent of c, and the number of uncharged records is independent of c, then petal_squarefree_kernel_classification_payload holds.",
+    "attack_surface": "formal coverage and charged/uncharged dispatch for Petal squarefree classification ledgers",
+    "falsifier": "a complete valid classification ledger while the squarefree-kernel classification payload fails"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_growth",
+      "order": 1115
+    }
+  ],
+  "refutes": []
+}

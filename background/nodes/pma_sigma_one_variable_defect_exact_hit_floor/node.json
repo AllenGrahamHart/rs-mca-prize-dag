@@ -1,0 +1,56 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 872,
+  "node": {
+    "id": "pma_sigma_one_variable_defect_exact_hit_floor",
+    "title": "PMA sigma-one variable-defect exact-hit floor",
+    "status": "PROVED",
+    "statement": "For every admissible sigma-one defect d, a collision-free exact-hit first moment gives an explicit source-level lower bound. At d=n/8, Linnik primes p=-1 mod n produce polynomial-size generated fields F_(p^2) and an exponential post-owner family. Thus no uniform sigma-one polynomial bound exists, while the result remains outside the sigma=Omega(n/log n) imgfib reserve.",
+    "refs": [
+      "background/nodes/pma_sigma_one_variable_defect_exact_hit_floor/statement.md",
+      "background/nodes/pma_sigma_one_variable_defect_exact_hit_floor/proof.md",
+      "background/nodes/pma_sigma_one_variable_defect_exact_hit_floor/audit.md",
+      "background/nodes/pma_sigma_one_variable_defect_exact_hit_floor/claim_contract.md",
+      "background/nodes/pma_sigma_one_variable_defect_exact_hit_floor/dependency_subdag.md",
+      "background/nodes/pma_sigma_one_variable_defect_exact_hit_floor/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_aux_list_reduction",
+      "order": 1499
+    },
+    {
+      "from": "pma_exact_periodic_owner",
+      "order": 1500
+    },
+    {
+      "from": "pma_sigma_one_dyadic_near_coset_owner",
+      "order": 1501
+    },
+    {
+      "from": "pma_sigma_one_odd_lift_boundary_owner",
+      "order": 1502
+    },
+    {
+      "from": "pma_sigma_one_post_top_allowance",
+      "order": 1503
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1504
+    },
+    {
+      "to": "imgfib",
+      "order": 1505
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 1538
+    }
+  ],
+  "refutes": []
+}

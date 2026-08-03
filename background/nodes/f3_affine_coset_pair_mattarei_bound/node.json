@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1217,
+  "node": {
+    "id": "f3_affine_coset_pair_mattarei_bound",
+    "title": "Mattarei affine coset-pair bound",
+    "status": "PROVED",
+    "closure": "external theorem plus transport proof",
+    "statement": "Let K<=F_p^* have order m and index d=(p-1)/m. If d>=4 and d^3>=4m, every simultaneous membership fiber of two nonconstant nonproportional affine forms has size <3*2^(-2/3)m^(2/3). Mattarei's arbitrary Fermat coefficients cover slopes outside K. The hypotheses hold at all official H3 rows for m=n and m=3n. This prime-field pointwise theorem bypasses, but does not refute, the in-house one-polynomial Stepanov barrier.",
+    "refs": [
+      "background/nodes/f3_affine_coset_pair_mattarei_bound/statement.md",
+      "background/nodes/f3_affine_coset_pair_mattarei_bound/proof.md",
+      "background/nodes/f3_affine_coset_pair_mattarei_bound/claim_contract.md",
+      "background/nodes/f3_affine_coset_pair_mattarei_bound/dependency_subdag.md",
+      "background/nodes/f3_affine_coset_pair_mattarei_bound/audit.md",
+      "background/nodes/f3_affine_coset_pair_mattarei_bound/result.md",
+      "background/nodes/f3_affine_coset_pair_mattarei_bound/source_pin.json",
+      "background/nodes/f3_affine_coset_pair_mattarei_bound/verify.py",
+      "background/nodes/f3_affine_coset_pair_mattarei_bound/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "SP: primitive shift-pair control / exact second-moment ledger",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

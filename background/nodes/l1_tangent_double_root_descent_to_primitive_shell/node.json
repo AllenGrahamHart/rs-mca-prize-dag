@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 546,
+  "node": {
+    "id": "l1_tangent_double_root_descent_to_primitive_shell",
+    "title": "L1 tangent double-root descent to a primitive shell",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Fix an exact tangent owner D=gcd(L,Q) of degree r in U-P=LQ. If 2r<=k, let P_D=U mod D^2 and W_D=(U-P_D)/D^2. Then P=P_D+D^2R bijects the exact-D tangent stratum with the primitive exact shell of W_D on the punctured domain H\\roots(D), with parameters (n-r,k-2r,a-r,e-r,w+r); exact ownership plus the complement guard is exactly gcd(Q_0,Omega/D)=1 in the reduced shell. If 2r>k, one D supports at most one codeword. The punctured domain need not remain smooth and no sum over D is asserted.",
+    "refs": [
+      "background/nodes/l1_tangent_double_root_descent_to_primitive_shell/statement.md",
+      "background/nodes/l1_tangent_double_root_descent_to_primitive_shell/proof.md",
+      "background/nodes/l1_tangent_double_root_descent_to_primitive_shell/claim_contract.md",
+      "background/nodes/l1_tangent_double_root_descent_to_primitive_shell/dependency_subdag.md",
+      "background/nodes/l1_tangent_double_root_descent_to_primitive_shell/audit.md",
+      "background/nodes/l1_tangent_double_root_descent_to_primitive_shell/lineage.md",
+      "background/nodes/l1_tangent_double_root_descent_to_primitive_shell/upstream_crosswalk.md",
+      "background/nodes/l1_tangent_double_root_descent_to_primitive_shell/verify.py",
+      "background/nodes/l1_tangent_double_root_descent_to_primitive_shell/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_tangent_hasse_root_pinning_census",
+      "order": 2923
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2924
+    }
+  ],
+  "refutes": []
+}

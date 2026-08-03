@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1166,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router",
+    "title": "Rate-half distance-three sparse subgroup-norm router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the pair-Lagrange distance-three chart, multiplicativity against X^N-1=(X-s)(X-x_0)ABC gives an exact sparse factorization of the full subgroup norm. After multiplication by z, it is a nonzero explicit scalar times Q(z;s)Q(z;x_0)(z P_I)^r H(z). Under the external design, H=L P_Z^r, so the complete supported-slope locator z P_I P_Z appears to the exact power r. This reconstructs the active-row norm by exact division from a binomial-domain resultant and two boundary-row forms.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence",
+      "order": 2371
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2372
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 28,
+  "node": {
+    "id": "e1_n256_2adic_cofactor_collision_exclusion",
+    "title": "N=256 2-adic cofactor collision exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_2adic_cofactor_collision_exclusion/statement.md",
+      "background/nodes/e1_n256_2adic_cofactor_collision_exclusion/proof.md",
+      "background/nodes/e1_n256_2adic_cofactor_collision_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_2adic_cofactor_collision_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_2adic_cofactor_collision_exclusion/audit.md",
+      "background/nodes/e1_n256_2adic_cofactor_collision_exclusion/result.md",
+      "background/nodes/e1_n256_2adic_cofactor_collision_exclusion/source_pin.json",
+      "background/nodes/e1_n256_2adic_cofactor_collision_exclusion/verify.py"
+    ],
+    "statement": "For a first-band N=256,s=5 folded vector, let mu be the multiplicity at X=1 of its nonzero mod-two reduction. Total ramification gives mu=v_2(|Norm(alpha)|). If a live prime p>2^250 divides the norm, the folded-L2 bounds force a cofactor below 64 in profile (3,4,0) and below 2^17 in profile (4,2,0). Hence mu<=5 and mu<=16, respectively. In the two-singleton profile this says their exponent separation is not divisible by 32.",
+    "notes": "ROUTE REDUCTION 2026-07-27: adds exact 2-adic necessary conditions to both first-band N=256 profiles. Passing the tests is not sufficient, and neither profile nor the total ledger is closed."
+  },
+  "requires": [
+    {
+      "from": "e1_prime_field_l2_norm_collision_radius",
+      "order": 244
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 245
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 379
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 380
+    }
+  ],
+  "refutes": []
+}

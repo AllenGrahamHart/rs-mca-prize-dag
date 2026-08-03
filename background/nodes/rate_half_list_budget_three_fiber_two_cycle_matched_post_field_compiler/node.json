@@ -1,0 +1,47 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1256,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_matched_post_field_compiler",
+    "title": "Budget-three fiber-two matched-cycle post-field compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the two-antipodal-denominator subbranch of the matched c=0 generic fiber-two cycle boundary at M=2^36, a complete split-class level-39 characteristic screen extends the old levels 1 through 38 and excludes the harmonic outer ratio. Every nonharmonic survivor is classified exactly by the doubled constant ODE, three scalar identities, outer trace depth 39, and the reciprocal-root-invariant twisted fourth-power test T/q_out=W^4. This repairs the old unscaled T=W^4 test in the nonsplit field class. The constant/Legendre gate and fourth-root gcd gate transfer at the corrected degrees. Uniform rejection and the trace-Jacobi/norm endpoint remain open.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_post_field_compiler/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_post_field_compiler/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_post_field_compiler/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_post_field_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_post_field_compiler/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_post_field_compiler/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_post_field_compiler/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_matched_post_field_compiler/verify_audit.py",
+      "experiments/prize_resolution/rate_half_list_fiber_two_cycle_harmonic_top_characteristic_modal.py",
+      "experiments/prize_resolution/rate_half_list_fiber_two_cycle_harmonic_top_characteristic_result.json",
+      "experiments/prize_resolution/rate_half_list_fiber_two_cycle_harmonic_top_characteristic_result.md",
+      "experiments/prize_resolution/rate_half_list_fiber_two_cycle_harmonic_top_characteristic_check.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_matched_lift_field_router",
+      "order": 2615
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_ode",
+      "order": 2616
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_harmonic_exclusion",
+      "order": 2617
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2618
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1037,
+  "node": {
+    "id": "f3_h3_disjoint_distance_six_split_pencil_router",
+    "title": "H3 disjoint distance-six split-pencil router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The disjoint distance-six C36' moment is exactly a correlation between disjoint split members of Q_(t,r)=X^2-(1+r-t)X+r and an affine subgroup-line fiber. The associated split cubics differ by t(s-r)X, and undoing canonical orientation turns the sufficient estimate into 10J_25^0+17J_25^A<=892n^2.",
+    "refs": [
+      "background/nodes/f3_h3_disjoint_distance_six_split_pencil_router/statement.md",
+      "background/nodes/f3_h3_disjoint_distance_six_split_pencil_router/proof.md",
+      "background/nodes/f3_h3_disjoint_distance_six_split_pencil_router/claim_contract.md",
+      "background/nodes/f3_h3_disjoint_distance_six_split_pencil_router/dependency_subdag.md",
+      "background/nodes/f3_h3_disjoint_distance_six_split_pencil_router/audit.md",
+      "background/nodes/f3_h3_disjoint_distance_six_split_pencil_router/result.md",
+      "background/nodes/f3_h3_disjoint_distance_six_split_pencil_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_low_distance_quotient_incidence_router",
+      "order": 1978
+    },
+    {
+      "from": "f3_h3_distance_six_support_overlap_payment",
+      "order": 1979
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1980
+    }
+  ],
+  "refutes": []
+}

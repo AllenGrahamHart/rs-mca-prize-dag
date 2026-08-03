@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1049,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate",
+    "title": "Budget-three antipodal intermediate Hensel quartic gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The fourth forbidden Hensel coefficient is quartic in the remaining scalar. Reducing it by the preceding monic quadratic gives a second explicit linear gate, shrinking the two-candidate exception to one printed four-coefficient locus.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_quartic_gate/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate",
+      "order": 1962
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1964
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 607,
+  "node": {
+    "id": "e1_open_cell_route_soundness",
+    "title": "E1 open-cell route soundness",
+    "status": "PROVED",
+    "statement": "Given official-row pinning and folded-certificate soundness, a payload that either proves admissible-family typicality for N' in {128,256} or supplies complete no-vector folded certificates for named exhibit fields proves e1_official_typicality_or_certificate.",
+    "attack_surface": "logical dispatch between the uniform typicality route and the named folded-certificate route",
+    "falsifier": "a valid uniform-typicality or complete folded-certificate payload that fails to imply the E1 open-cell typicality-or-certificate predicate"
+  },
+  "requires": [
+    {
+      "from": "official_row_primes_pinning",
+      "order": 932
+    },
+    {
+      "from": "e1_folded_certificate_soundness",
+      "order": 933
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

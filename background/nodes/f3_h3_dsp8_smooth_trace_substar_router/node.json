@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1240,
+  "node": {
+    "id": "f3_h3_dsp8_smooth_trace_substar_router",
+    "title": "DSP8 smooth-trace substar router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a fixed product target and one representation parameter r, the nodal condition for a second parameter s is (1+r+s-t)^3=27rs, a cubic in s with leading coefficient one. Thus every fixed-target nodal edge graph has maximum degree at most three. The Pareto product stars consequently retain same-center smooth substars; at the preferred (P,R)>=(35,2) corner, the degree-eight/six stars contain degree-five/three smooth substars. Their nonzero trace discriminants may be used as saturation factors in the candidate ideals without losing an actual official survivor. This is structural compression, not a DSP8 moment or survivor bound.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_smooth_trace_substar_router/statement.md",
+      "background/nodes/f3_h3_dsp8_smooth_trace_substar_router/proof.md",
+      "background/nodes/f3_h3_dsp8_smooth_trace_substar_router/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_smooth_trace_substar_router/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_smooth_trace_substar_router/audit.md",
+      "background/nodes/f3_h3_dsp8_smooth_trace_substar_router/result.md",
+      "background/nodes/f3_h3_dsp8_smooth_trace_substar_router/verify.py",
+      "background/nodes/f3_h3_dsp8_smooth_trace_substar_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_dsp8_joint_star_depth_pareto_compiler",
+      "order": 2579
+    },
+    {
+      "from": "f3_h3_dsp8_unit_trace_elliptic_curve_router",
+      "order": 2580
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2581
+    },
+    {
+      "to": "f3_h3_official_order_template_survivor",
+      "order": 2582
+    }
+  ],
+  "refutes": []
+}

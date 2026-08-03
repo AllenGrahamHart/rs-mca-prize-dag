@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1302,
+  "node": {
+    "id": "xr_rank_two_three_anchor_grs3_factorization",
+    "title": "XR three-anchor rank-two trades factor through dual GRS3",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_rank_two_three_anchor_grs3_factorization/statement.md",
+      "background/nodes/xr_rank_two_three_anchor_grs3_factorization/proof.md",
+      "background/nodes/xr_rank_two_three_anchor_grs3_factorization/claim_contract.md",
+      "background/nodes/xr_rank_two_three_anchor_grs3_factorization/dependency_subdag.md",
+      "background/nodes/xr_rank_two_three_anchor_grs3_factorization/verify.py",
+      "background/nodes/xr_rank_two_three_anchor_grs3_factorization/verify_audit.py",
+      "background/nodes/xr_rank_two_three_anchor_grs3_factorization/audit.md",
+      "background/nodes/xr_rank_two_three_anchor_grs3_factorization/result.md"
+    ],
+    "statement": "Every coefficient-rank-three branch of a uniform rank-two trade has the exact form lambda_i=s_i(P+gamma_i Q)/Lambda'_X for one independent polynomial pair P,Q. The trade scalars are exactly a full-support dual GRS_3 word on the slopes: s_i=H(gamma_i)/L'_Gamma(gamma_i) for one unique polynomial deg H<t-3. Each canonical four-block owner has the corresponding explicit barycentric coefficients. This applies on every active-union shell; realized support embeddings, the coefficient-rank-four branch, first-core ownership, and aggregate payment remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_rank_two_fundamental_circuit_owner",
+      "order": 2765
+    },
+    {
+      "from": "xr_higher_rank_uniform_split_pencil_reduction",
+      "order": 2766
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 2767
+    }
+  ],
+  "refutes": []
+}

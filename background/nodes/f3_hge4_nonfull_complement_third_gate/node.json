@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1248,
+  "node": {
+    "id": "f3_hge4_nonfull_complement_third_gate",
+    "title": "HGE4 non-full complement-third gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "If disjoint monic degree-h subgroup locators P,Q differ by a nonzero constant and leave a nonempty complement of degree c=m-2h, then h<=c. At dyadic exact ratio level m this is strict: 3h<m, so E_h^prim(m,p)=0 whenever 3h>=m and the HGE4 exact-level sum stops at floor((m-1)/3).",
+    "refs": [
+      "background/nodes/f3_hge4_nonfull_complement_third_gate/statement.md",
+      "background/nodes/f3_hge4_nonfull_complement_third_gate/proof.md",
+      "background/nodes/f3_hge4_nonfull_complement_third_gate/claim_contract.md",
+      "background/nodes/f3_hge4_nonfull_complement_third_gate/dependency_subdag.md",
+      "background/nodes/f3_hge4_nonfull_complement_third_gate/audit.md",
+      "background/nodes/f3_hge4_nonfull_complement_third_gate/result.md",
+      "background/nodes/f3_hge4_nonfull_complement_third_gate/verify.py",
+      "background/nodes/f3_hge4_nonfull_complement_third_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_exact_ratio_tower_orbit_compiler",
+      "order": 2599
+    },
+    {
+      "from": "f3_hge4_primitive_shift_pair_near_square_union_router",
+      "order": 2600
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2601
+    }
+  ],
+  "refutes": []
+}

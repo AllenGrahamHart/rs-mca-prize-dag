@@ -12,6 +12,7 @@ the defects actually surface. gate:any nodes discharge when all reqs and
 PROVABLE (matches the validator's inheritance rule, so it stays green).
 """
 import json, os
+from dag_manifest import update_node_objects, write_compiled_dag
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HERE, "..")
 DAG = os.path.join(ROOT, "dag.json")
@@ -111,7 +112,7 @@ def main():
     # REGRESSION SWEEP first: an auto-discharged node whose predicates are
     # no longer all green goes back to CONDITIONAL. Iterate to a fixpoint so
     # the result is independent of the ordering of nodes in dag.json.
-    regress_to_fixpoint(nodes, reqs, alts)
+    regressed = regress_to_fixpoint(nodes, reqs, alts)
     # ...then sweep artifacts the regression pass cannot see, because the node
     # was already below GREEN when it acquired its stale proof.
     vacate_orphan_artifacts(nodes)
@@ -145,17 +146,11 @@ def main():
                     + (f"\n(gate:any — satisfied via a green alternative route.)\n" if gate_any else "")
                     + f"\nBy modus ponens the statement is {new}. Auto-discharged by tools/auto_discharge.py; "
                     "the audit lives at the red->amber referee step.\n")
-    # CANONICAL FORM (fixed 2026-07-27, wave 27): json.dump(indent=1) omits the
-    # trailing newline, so every run of this tool silently left dag.json one byte
-    # off canonical and dirtied the diff for whoever committed next. The canonical
-    # form is json.dumps(dag, indent=1, ensure_ascii=True) + "\n" -- write exactly
-    # that, and write it atomically so an interrupted run cannot truncate the DAG.
-    payload = json.dumps(d, indent=1, ensure_ascii=True) + "\n"
-    assert json.loads(payload) == d, "canonical round-trip failed; refusing to write"
-    tmp = DAG + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as handle:
-        handle.write(payload)
-    os.replace(tmp, DAG)
+    # Node-local manifests are the graph source of truth. Update only statuses
+    # changed by this run, then regenerate the compatibility DAG atomically.
+    changed_ids = set(regressed) | {node_id for node_id, _ in flipped}
+    update_node_objects((nodes[node_id] for node_id in sorted(changed_ids)))
+    write_compiled_dag()
     print(f"auto-discharged {len(flipped)}: " + (", ".join(f"{v}->{s}" for v, s in flipped) or "nothing"))
 
 if __name__ == "__main__":

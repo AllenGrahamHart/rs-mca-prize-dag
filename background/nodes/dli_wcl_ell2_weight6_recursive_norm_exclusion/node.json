@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 904,
+  "node": {
+    "id": "dli_wcl_ell2_weight6_recursive_norm_exclusion",
+    "title": "DLI ell=2 weight-6 relations excluded by recursive norm and the official split gate",
+    "status": "PROVED",
+    "closure": "computation",
+    "statement": "For every official q<2^256 with v_2(q-1)>=41 and every exact order-1024 root omega in F_q, no reduced signed weight-6 polynomial P satisfies P(omega)=P(omega^3)=0. Odd dilation and rechoosing the normalized root of the selected triple reduce the triple-cubic router to exactly 404,740 candidate orbits. Of these, 404,230 have nonzero Norm(u)-saturated obstruction gcds factoring over 443 recursively Pocklington-certified primes with maximum v_2(p-1)=18. For the 510 identically double-zero candidates, the characteristic-zero power-of-two vanishing-sum lemma forces an antipodal pair, so the reduced guard fails. Hence the residual WCL slot (ell,w)=(2,6) is empty on every official row.",
+    "refs": [
+      "background/nodes/dli_wcl_ell2_weight6_recursive_norm_exclusion/statement.md",
+      "background/nodes/dli_wcl_ell2_weight6_recursive_norm_exclusion/proof.md",
+      "background/nodes/dli_wcl_ell2_weight6_recursive_norm_exclusion/dependency_subdag.md",
+      "background/nodes/dli_wcl_ell2_weight6_recursive_norm_exclusion/result.md",
+      "background/nodes/dli_wcl_ell2_weight6_recursive_norm_exclusion/verify.py",
+      "background/nodes/dli_wcl_ell2_weight6_recursive_norm_exclusion/notes/verify_certificate_modal.py",
+      "background/nodes/dli_wcl_ell2_weight6_recursive_norm_exclusion/notes/verify_full_remote.py",
+      "experiments/prize_resolution/dli_wcl_ell2_weight6_candidate_orbits_modal.py",
+      "experiments/prize_resolution/dli_wcl_ell2_weight6_recursive_norm_benchmark_modal.py",
+      "experiments/prize_resolution/dli_wcl_ell2_weight6_recursive_norm_full_modal.py",
+      "experiments/prize_resolution/dli_wcl_ell2_weight6_recursive_norm_full_result.json",
+      "experiments/prize_resolution/dli_wcl_ell2_weight6_recursive_norm_prime_cert_modal.py",
+      "experiments/prize_resolution/dli_wcl_ell2_weight6_recursive_norm_prime_cert_result.json.gz"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_ell2_weight6_triple_cubic_router",
+      "order": 1600
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_zone_coverage",
+      "order": 1601
+    }
+  ],
+  "refutes": []
+}

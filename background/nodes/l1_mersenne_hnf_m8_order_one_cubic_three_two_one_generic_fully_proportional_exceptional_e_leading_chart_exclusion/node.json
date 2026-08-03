@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1671,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion",
+    "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one exceptional-E leading-chart exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the fixed a_2=0 exceptional coefficient chart, E_G=0 forces b=115275930/45228187, whose square contradicts b^2=1575/247 in each of the four official characteristics.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/lineage.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/upstream_crosswalk.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/verify.py",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_leading_chart_exclusion/verify_audit.py"
+    ],
+    "notes": "Exact exclusion of the fixed exceptional a_2=0 leading chart only. The generic exceptional endpoint remains open; S_1=S_0=0 is compiled downstream to two quartics, while J_*=0, role and P_4 equations, saturations, arithmetic lifts, and all other h=7 residues also remain."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router",
+      "order": 4055
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4056
+    }
+  ],
+  "refutes": []
+}

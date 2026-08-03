@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 933,
+  "node": {
+    "id": "xr_split_pencil_trade_rank_two_support_atlas",
+    "title": "XR rank-two dual trades have five exact support profiles",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_split_pencil_trade_rank_two_support_atlas/statement.md",
+      "background/nodes/xr_split_pencil_trade_rank_two_support_atlas/proof.md",
+      "background/nodes/xr_split_pencil_trade_rank_two_support_atlas/verify.py",
+      "background/nodes/xr_split_pencil_trade_rank_two_support_atlas/result.md"
+    ],
+    "statement": "For a rank-two dual-product-code trade, each active coordinate is nonzero in all but at most one projectively distinct block row. Double-counting pairwise support intersections excludes pair cap at most three. Under pair cap four it forces 4<=t<=6, 6<=R<=8, and exactly five zero-set profiles: (t,R;z)=(4,6;1^4),(4,7;1,2^3),(4,8;2^4),(5,6;1^5),(6,6;1^6). The row space is a two-dimensional dual-GRS_4 subcode and the row-coefficient space a two-dimensional dual-RS_2 subcode; either inclusion is equality at R=6 or t=4 respectively. Explicit finite-field trades realize all five profiles, so this is a sharp support atlas, not a chart payment."
+  },
+  "requires": [
+    {
+      "from": "xr_split_pencil_trade_rank_two_localization",
+      "order": 1630
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1631
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1632
+    }
+  ],
+  "refutes": []
+}

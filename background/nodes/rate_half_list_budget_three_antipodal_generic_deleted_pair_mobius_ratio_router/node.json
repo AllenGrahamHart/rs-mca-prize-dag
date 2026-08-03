@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1014,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_mobius_ratio_router",
+    "title": "Budget-three antipodal generic deleted-pair M\u00f6bius ratio router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In the remaining split quadratic deleted-pair branch, the M\u00f6bius matching is equivalent to three explicit reciprocal equations relating the single lift ratio to the outer square ratio, which is itself N-torsion. Thus each lift ratio permits at most three unordered outer ratios.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_mobius_ratio_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_mobius_ratio_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_mobius_ratio_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_mobius_ratio_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_mobius_ratio_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_mobius_ratio_router/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_mobius_ratio_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_mobius_weld",
+      "order": 1845
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_even_factorization",
+      "order": 1846
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_fourier_resultant_branch_collapse",
+      "order": 1847
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1848
+    }
+  ],
+  "refutes": []
+}

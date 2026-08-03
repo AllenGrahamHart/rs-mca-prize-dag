@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 809,
+  "node": {
+    "id": "petal_retained_zero_effective_degree",
+    "title": "Retained zeros lower the petal auxiliary degree and preserve exact support",
+    "status": "PROVED",
+    "statement": "For disjoint R,T, every degree-<=d polynomial G vanishing on R factors uniquely as L_R Q with deg Q<=d-|R|. Dividing the received word by nonzero L_R on T preserves the exact agreement support. The constrained chart is Johnson-closed when a^2>(d-|R|)|T|; K4 needs only the reverse effective-degree range.",
+    "refs": [
+      "critical/nodes/petal_retained_zero_effective_degree/statement.md",
+      "critical/nodes/petal_retained_zero_effective_degree/proof.md",
+      "critical/nodes/petal_retained_zero_effective_degree/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "petal_k4_johnson_slice",
+      "order": 1352
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_k4_primitive_bound",
+      "order": 1353
+    }
+  ],
+  "refutes": []
+}

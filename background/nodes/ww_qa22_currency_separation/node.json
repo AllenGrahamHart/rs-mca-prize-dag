@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 767,
+  "node": {
+    "id": "ww_qa22_currency_separation",
+    "title": "QA.22 / W3 currency separation",
+    "status": "PROVED",
+    "statement": "QA.22's exact six-row 16n^3 reserve bounds post-strip MCA bad slopes per ordered pair (u,v), whereas W3 bounds residual list codewords per received word U over the admissible family. No proved consumer theorem converts the former currency and quantifier order into the latter. QA.22 remains exact calibration/evidence but cannot instantiate a W3 paid or residual upper allocation; the direct list-side partition and budget identity must be used.",
+    "refs": [
+      "background/nodes/ww_qa22_currency_separation/proof.md",
+      "background/nodes/ww_qa22_currency_separation/audit.md"
+    ],
+    "closure": "proof"
+  },
+  "requires": [
+    {
+      "from": "xr_target_budget_audit",
+      "order": 213
+    },
+    {
+      "from": "ww_two_class_minimal_ledger_reduction",
+      "order": 214
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "ww_row_envelope_clause",
+      "order": 215
+    },
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 216
+    }
+  ],
+  "refutes": []
+}

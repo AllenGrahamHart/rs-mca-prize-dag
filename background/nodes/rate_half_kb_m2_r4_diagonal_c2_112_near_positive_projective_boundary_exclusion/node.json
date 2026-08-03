@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1380,
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion",
+    "title": "KoalaBear c2 (1,1,2) near positive projective-boundary exclusion",
+    "status": "PROVED",
+    "closure": "all positive near-aligned homogeneous endpoint-boundary q-slice charts are empty",
+    "statement": "Orient the near-aligned projective boundary by eta=infinity, ell=d, w=tau(eta)=0, and q_hom=Y(T-dY). With common internal endpoint a=2, the repaired odd vector is V=(-d,1+W,-dW) and z=(d-2)/(2-4d). The two q_hom membership equations and three internal-star equations reconstruct U uniquely in both internal templates. The projective q-slice is the product of the residual at T=d and the T^4 coefficient residual at infinity. Full deployed-field saturation is unit for the three fixed-moving xi orbits, for moving-moving xi=2,1/2 after exact b+1/b trace descent, and for both constant-ratio signs in the moving other-xi orbit. These seven shards exhaust the positive homogeneous boundary. Combined with the 18 affine-positive exclusions and complete near-negative theorem, the entire near-aligned source-line branch is empty; aligned positive unramified forms and later packet/source-row assembly remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/README.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_audit.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_fixed_a.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_fixed_other.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_fixed_tau.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_moving_a.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_moving_other_minus.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_moving_other_plus.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_moving_tau.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion/verify_runner.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
+      "order": 4802
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+      "order": 4803
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4804
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 672,
+  "node": {
+    "id": "e22_fixed_scale_staircase_injectivity",
+    "title": "E22 fixed-scale staircase injectivity",
+    "status": "PROVED",
+    "statement": "For a fixed quotient modulus M, the locator L_B(X)G(X^M) of a tail |B|<M plus full quotient fibers determines the selected fibers and the tail uniquely. Equivalently, there are no hidden multiplicities inside one fixed M staircase scale.",
+    "attack_surface": "unique factorization/root-set recovery at fixed M",
+    "falsifier": "two distinct tails or selected quotient-fiber sets at the same M with the same locator"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1153
+    }
+  ],
+  "refutes": []
+}

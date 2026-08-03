@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1299,
+  "node": {
+    "id": "xr_prize_first_shell_primitive_rank_three_exclusion",
+    "title": "XR prize primitive first shell is empty",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_prize_first_shell_primitive_rank_three_exclusion/statement.md",
+      "background/nodes/xr_prize_first_shell_primitive_rank_three_exclusion/proof.md",
+      "background/nodes/xr_prize_first_shell_primitive_rank_three_exclusion/claim_contract.md",
+      "background/nodes/xr_prize_first_shell_primitive_rank_three_exclusion/dependency_subdag.md",
+      "background/nodes/xr_prize_first_shell_primitive_rank_three_exclusion/verify.py",
+      "background/nodes/xr_prize_first_shell_primitive_rank_three_exclusion/verify_audit.py",
+      "background/nodes/xr_prize_first_shell_primitive_rank_three_exclusion/audit.md",
+      "background/nodes/xr_prize_first_shell_primitive_rank_three_exclusion/result.md"
+    ],
+    "statement": "On the first residual shell |X|=a+3, trade rank is at most three. A rank-three row space is the complete three-dimensional dual GRS_a code; its in-union zero sets are distinct graph edges, with at most one singleton disjoint from every edge, and its polynomial rows satisfy exact unweighted and slope-weighted checks. The graph-incidence Maxwell deficit is positive at every prize row because the core has at most 384,448,960 blocks while h is at least 2^32+1. Rank one is impossible and prize full-core rank two is already excluded. Hence no trade of any rank can be active on every block of a prize Maxwell core on this shell. Proper local circuits remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_higher_rank_uniform_split_pencil_reduction",
+      "order": 2758
+    },
+    {
+      "from": "xr_prize_primitive_rank_two_shell_band",
+      "order": 2759
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 2760
+    }
+  ],
+  "refutes": []
+}

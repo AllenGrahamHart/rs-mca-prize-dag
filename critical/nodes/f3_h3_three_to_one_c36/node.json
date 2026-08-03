@@ -1,0 +1,20 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 782,
+  "node": {
+    "id": "f3_h3_three_to_one_c36",
+    "status": "CONDITIONAL",
+    "key": true,
+    "statement": "C36-PRIME (three-to-one census gate; the h=3 red of the U16 assembly; catch #71 repair applied at mint \u2014 the original 8n^(4/3) threshold rested on a FALSE trace-zero envelope, counterexample at (7937,64)). For every official row (n = 2^s, 13 <= s <= 41; EVERY prime p = 1 mod n with p >= n^2 \u2014 full corridor, F-1; H <= F_p^* of order n; A = (1-H)\\{0}): N_3to1(A) = #{(a1,a2,a3,a4) in A^4 : a1 a2 a3 = a4} < 36n^2 - 16n^(4/3) - n/2. Pure counting statement \u2014 no mechanism asserted. PROVED AROUND IT: C36' => T_3 < n^3 (the conditional close, exact identity, threshold positive at n = 8192: 2,413,272,762). ENVELOPE CAVEAT (pin): falsifying C36' does NOT falsify the h=3 floor (the envelope contains tuples failing the complete-split filter). Q-SURV SEED: exhaustive 12-prime n=8192 official-prefix Modal sweep, worst count 66,933,997 = 2.774% of the repaired threshold; counting method proved sound by brute-force equality at three small rows (critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_THREE_TO_ONE_OFFICIAL_PREFIX.md). FALSIFIER: one exact official row at/above threshold (executable at boundary rows \u2014 demonstrated). || RED RETIRED TO SUCCESSOR (2026-07-12, C36-chain cluster import, audit-gated): CONDITIONAL on f3_h3_mobius_excess_half (X_35 <= n^2/2) via the PROVED compiler chain \u2014 convolution ledger N_3to1 = Sigma_t P(t)R(t) with the REPAIRED Stepanov I < 4n^(2/3) at P(1); WX35 => C36' with exact rational radical bounds at all 29 orders (gap x50 = 13n^2 + 5225n - 3500 > 0). Alternate open premises (ev): the Mobius overlap cap 35 (via paired PGL2 \u2014 all six literature citations verified against the actual papers), the factorial collision moment 69 (sharp: 139 fails at m=70), the non-swap moment 68 (sharp via the parity-closed m=69 hole). This node's envelope caveat, falsifier, and 12-prime Q-SURV seed all remain live \u2014 C36' stays the consumer contract; only its red status retires.",
+    "notes": " | 2026-07-12 wave-2: the wired premise weakens to cutoff-18 (17 X_18 <= 300n^2, import-verified); cutoff-35/M35 remain stronger background routes."
+  },
+  "requires": [
+    {
+      "from": "f3_h3_mobius_excess_half",
+      "order": 1336
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

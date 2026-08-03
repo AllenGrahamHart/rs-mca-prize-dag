@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 437,
+  "node": {
+    "id": "multi_multiplier_reduction",
+    "title": "k multipliers => collisions lie in the ternary kernel of an EXPLICIT k x N' integer matrix (GV-favorable at k ~ 10)",
+    "status": "REFUTED",
+    "statement": "REFUTED (wave-1 packet, Lemma 1): the k-multiplier residue matrix is an OUTER PRODUCT mod p \u2014 rank 1 for every k \u2014 so the stacked ternary kernel equals the single relation's kernel and the GV counting presupposed independence that never holds. Additionally (Theorem 2, by exhaustion): zero good multipliers exist at every tested (N', p), with best-achievable residues far above threshold. Retained as scoping; see qa16_multiplier_impossibility.md.",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "integer_code_distance_cert",
+      "order": 742
+    }
+  ],
+  "refutes": []
+}

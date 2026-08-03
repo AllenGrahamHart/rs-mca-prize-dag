@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1745,
+  "node": {
+    "id": "dli_official_support_forcing",
+    "title": "DLI official support forcing: at the pinned 256:1 schedule a junction skew of energy E needs q <= E^128, so at every official q > 3^128 each t-null state has |S_0| = 0 or |S_0| >= 4",
+    "status": "PROVED",
+    "closure": "proof plus exact integer ledger",
+    "statement": "At the banked official DLI production schedule (n=2^41, t=2^33, 34 blocks / 33 junctions, L_j=2^{32-j}, N_j=phi(h_j)=h_{j+1}=2^{40-j}, hence N_j=256 L_j uniformly) and any official-admissible q (odd prime, v_2(q-1)>=41, q<2^256): every NONZERO junction-j skew solution of energy E=sum_i d_i^2 satisfies q^{L_j} <= Norm <= E^{N_j/2}=(E^128)^{L_j}, i.e. q <= E^128, INDEPENDENTLY of j. Hence E >= E_min(q) := min{E : E^128 >= q}, and exactly: E_min=2 for q<=2^128, 3 for 2^128<q<=3^128=2^202.87..., and 4 for 3^128<q<=4^128=2^256 -- the last identity 4^128=2^256 being EXACTLY the official cap, so E_min<=4 throughout. At junction 0 the skew domain is {+-1}^{S_0}, so E=|S_0| exactly and the domain omits 0; therefore for every official q > 3^128 EVERY t-null state has |S_0|=0 or |S_0|>=4, and more generally any junction-j state whose whole admissible skew domain has sum_{i in S_j} c_i^2 <= 3 admits no nonzero skew. The exclusion is total at junction 0: the solution count is 0, so rho_0=0 and, in the banked exact decomposition rho_j=q^{delta_j}+Rem_j, Rem_0=-q^{delta_0} exactly. Honest pricing: a single constraint (o=1) at junction 0 excludes only E=1 -- all the strength comes from the o-fold upgrade at the fixed 256:1 ratio. NOT claimed: |S_0|>=4 for formally admissible but small q (q~2^41 gives E_min=2; the >=4 form needs q>3^128, which the production window clears by 53 bits); any bound at |S_0|>=4; any j>0 census identification; rho_j=0 at junctions with an even c_i; the 34th-block reading (ratio 128, which would give E_min=16 at the named exhibit) is recorded and NOT used. The C2'' named 256-bit exhibit q=2^256-191315023233023 has v_2(q-1)=41 and E_min=4; its primality is the banked BPSW claim, is not re-certified, and nothing above depends on it. Provenance notes/pilots_20260802/dli_norm_gate/ (LN5 at official scale) with pins from notes/pilots_20260802/c2pp_nullity_structure/results/official_scale.json; tower validation at j=0,1,2 (results/tower.json, all_hold=true, 2453 router-empty states with 0 solutions).",
+    "refs": [
+      "background/nodes/dli_official_support_forcing/statement.md",
+      "background/nodes/dli_official_support_forcing/proof.md",
+      "background/nodes/dli_official_support_forcing/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_norm_gate_forward_and_ofold",
+      "order": 4831
+    },
+    {
+      "from": "dli_norm_gate_energy_ceiling",
+      "order": 4832
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_c2pp_joint_reserve",
+      "order": 4834
+    }
+  ],
+  "refutes": []
+}

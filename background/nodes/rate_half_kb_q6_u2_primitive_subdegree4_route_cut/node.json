@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1334,
+  "node": {
+    "id": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
+    "title": "KoalaBear Q6 u2 primitive-subdegree-four route cut",
+    "status": "PROVED",
+    "closure": "primitive-group classification plus pole and Riemann-Hurwitz ledger",
+    "statement": "After the proved line and conic exclusions, a residual actual KoalaBear Q=6,s=6,u=2 birational-quartic component would give subdegree four in the geometric monodromy of a degree-60 endpoint map. None of the nine primitive degree-60 groups has subdegree four, so the map is functionally decomposable. Exact pole and Riemann-Hurwitz constraints leave inner degrees {2,3,4,5,6,10,12,30}. This is a finite route cut, not a quotient owner, u2 close, cap 68, row payment, or endpoint movement.",
+    "refs": [
+      "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/statement.md",
+      "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/proof.md",
+      "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/claim_contract.md",
+      "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/source_evidence.md",
+      "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/dependency_subdag.md",
+      "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/audit.md",
+      "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/result.md",
+      "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/frontier.md",
+      "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/verify.py",
+      "background/nodes/rate_half_kb_q6_u2_primitive_subdegree4_route_cut/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_q6_u2_complete_source_conic_exclusion",
+      "order": 2983
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2985
+    }
+  ],
+  "refutes": []
+}

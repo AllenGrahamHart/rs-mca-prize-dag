@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 887,
+  "node": {
+    "id": "xr_lowcore_u0_v1_grs_defect_reduction",
+    "title": "XR low-core one-loop deficiency reduces to the coherent GRS split-pencil census",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_lowcore_u0_v1_grs_defect_reduction/statement.md",
+      "background/nodes/xr_lowcore_u0_v1_grs_defect_reduction/proof.md",
+      "background/nodes/xr_lowcore_u0_v1_grs_defect_reduction/verify.py",
+      "background/nodes/xr_lowcore_u0_v1_grs_defect_reduction/result.md"
+    ],
+    "statement": "In the P-B rank-five (u,v)=(0,1) branch, the loop coordinate is an agreement for at most one slope. Removing it and that possible exceptional member from a family above B=8n^3 leaves at least B regular members in a GRS_4 extension, with agreement block sizes 10/10/8 and pair cap four. Peeling at budget B-1 forces r=2 collision-direction degrees 209/207/66; every retained block is a divided-difference monochromatic clique, its reused directions are hypersurface-free through degrees 5/5/3, and optimized local zero-minor floors are 97650/52530/1782. This reduces the deficiency pair to a coherent split-pencil census but does not count it."
+  },
+  "requires": [
+    {
+      "from": "xr_rank_five_extension_list_reduction",
+      "order": 1584
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1585
+    }
+  ],
+  "refutes": []
+}

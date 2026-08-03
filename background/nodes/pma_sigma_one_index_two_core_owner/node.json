@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 866,
+  "node": {
+    "id": "pma_sigma_one_index_two_core_owner",
+    "title": "PMA sigma-one index-two four-defect core owner",
+    "status": "PROVED",
+    "statement": "For every listed codeword, canonically owning the first index-two coset with at most four missed agreements and retaining only enough outside agreements to reach k interpolation points gives a chart-independent injective owner. On all 128 official sigma=1 rows this class has global size below Q_2(k+2); combined with the exact-periodic owner it fits below 8(1+2^-690)Q_2(k+2), hence inside the existing 719 line. The reciprocal-quadratic Omega(n^7) per-sunflower obstruction is contained in this owner.",
+    "refs": [
+      "background/nodes/pma_sigma_one_index_two_core_owner/statement.md",
+      "background/nodes/pma_sigma_one_index_two_core_owner/proof.md",
+      "background/nodes/pma_sigma_one_index_two_core_owner/audit.md",
+      "background/nodes/pma_sigma_one_index_two_core_owner/claim_contract.md",
+      "background/nodes/pma_sigma_one_index_two_core_owner/dependency_subdag.md",
+      "background/nodes/pma_sigma_one_index_two_core_owner/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_exact_periodic_owner",
+      "order": 1441
+    },
+    {
+      "from": "pma_sigma_one_d3_reciprocal_quadratic_obstruction",
+      "order": 1442
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 1443
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1444
+    }
+  ],
+  "refutes": []
+}

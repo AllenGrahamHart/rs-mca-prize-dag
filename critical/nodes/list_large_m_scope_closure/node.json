@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 798,
+  "node": {
+    "id": "list_large_m_scope_closure",
+    "title": "Arbitrary-arity list closure from the base crossing",
+    "status": "CONDITIONAL",
+    "key": true,
+    "refs": [
+      "critical/nodes/list_large_m_scope_closure/statement.md",
+      "critical/nodes/list_large_m_scope_closure/conditional.md",
+      "critical/nodes/list_large_m_scope_closure/verify.py"
+    ],
+    "statement": "If an admissible row has a base-code adjacent crossing L_1(a0)>B*>=L_1(a0+1), B*=floor(|F|/2^128), then every interleaving arity m>=1 has the same adjacent crossing. The safe equality follows from list_subsqrt_interleaving_collapse because B*^2<|F| under |F|<2^256; diagonal tuples preserve the unsafe witness. This consumes only the m=1 instance of list_adjacency_closing.",
+    "notes": "CONDITIONAL CLOSE 2026-07-12: arbitrary arity is no longer an independent red leaf. The general projection-collision theorem gives L_m=L_1 whenever L_1^2<|F|. The prior codegree, support-census, and extension-field routes remain proved evidence but are not required premises."
+  },
+  "requires": [
+    {
+      "from": "list_adjacency_closing",
+      "order": 1338
+    },
+    {
+      "from": "list_subsqrt_interleaving_collapse",
+      "order": 1339
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

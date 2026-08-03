@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 453,
+  "node": {
+    "id": "xr_scattered_syzygy_flattice",
+    "title": "2c-gamma: diffuse budgets \u2014 scattered syzygies ARE face 2's lattice objects",
+    "status": "PROVED",
+    "key": true,
+    "statement": "When the k+1 budget is spread over many small overlaps: the syzygy's dual codeword has SCATTERED support exactly covered by the intersection pattern \u2014 and counting constrained-support dual codewords and their linear relations is precisely Conjecture F's sparse-dual/closed-set lattice object. FACE 4's core meets FACE 2 here: the diffuse-stagnation count is an F-lattice count over the intersection-pattern flats. With faces 3+4 already sharing the spread residue and 2a consuming the list lane, ALL FOUR kernel faces are now pairwise connected through concrete shared objects \u2014 the kernel is one problem in the strongest possible sense. DECOMPOSED: gamma-a the transport dictionary (PROVABLE); gamma-b bounded syzygy dimension \u2014 the PROVED fixed-d lattice bound + the four-branch strip apply (proved reduction); gamma-c growing dimension \u2014 possible only when total overlap exceeds (m-1)k, and that regime IS face 2's f_many_sparse_structure (an identification, not new content: the F-residue and face 4's diffuse residue are the same node).",
+    "attack_surface": "transport the F-descent machinery (four-branch strip incl. dihedral, fixed-d lattice bounds, E30's small-lattice data) to the intersection-pattern flats; the scattered supports have bounded piece sizes (< k), which is exactly the regime where descent behaved polynomially at toys",
+    "falsifier": "a toy diffuse stagnation whose intersection-pattern flat has super-poly closed-set lattice (the E30 machinery checks this directly)",
+    "refs": [
+      "experimental/notes/roadmaps/e30_dim3_flat_census.md"
+    ],
+    "notes": "FLIP APPLIED on my replay (Codex rednode batch, 2026-07-04): TARGET -> PROVED; referee packet in nodes/xr_scattered_syzygy_flattice/conditional.md (extracted surgically \u2014 Codex's branch base predated the Pro packet and expansions; wholesale merge would have deleted them)."
+  },
+  "requires": [
+    {
+      "from": "xr_syzygy_flat_transport",
+      "order": 769
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

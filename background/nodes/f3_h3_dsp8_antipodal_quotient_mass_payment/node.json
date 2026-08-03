@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1224,
+  "node": {
+    "id": "f3_h3_dsp8_antipodal_quotient_mass_payment",
+    "title": "DSP8 antipodal quotient-mass payment",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the E=6, P>=25 interface, the selected antipodal quotient mass S_A is below (C_M/2)(n-2)n^(2/3), C_M=3*2^(-2/3), and the class-weighted overlap payment is at most 6Q_n+(38/5)S_A. Consequently C36' follows from 10K_25^0+17K_25^A+152S_A<=750n^2-375Q_n; the uniform estimate 100(10K_25^0+17K_25^A)<=36781n^2 is sufficient without estimating the open disjoint correlation.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/statement.md",
+      "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/proof.md",
+      "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/audit.md",
+      "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/result.md",
+      "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/verify.py",
+      "background/nodes/f3_h3_dsp8_antipodal_quotient_mass_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_distance_six_support_overlap_payment",
+      "order": 2496
+    },
+    {
+      "from": "f3_affine_coset_pair_mattarei_bound",
+      "order": 2497
+    },
+    {
+      "from": "f3_h3_dsp8_primitive_shift_pair_adapter",
+      "order": 2498
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2499
+    }
+  ],
+  "refutes": []
+}

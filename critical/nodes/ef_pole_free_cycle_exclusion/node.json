@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 596,
+  "node": {
+    "id": "ef_pole_free_cycle_exclusion",
+    "title": "EF pole-free hidden-cycle exclusion",
+    "status": "PROVED",
+    "statement": "No B-defined horizontal cycle in the extension-fiber pole complement, after removing base-descended and proper-subfield pullback components and imposing noncontainment, can survive as an unpaid full-field hidden-fiber leakage class. This is reduced to classification-certificate soundness plus the remaining descended-cycle classification payload.",
+    "attack_surface": "assembly from proved descended-cycle classification soundness and the remaining EF geometric classification payload",
+    "falsifier": "a B-defined pole-free horizontal cycle in the extension-fiber incidence that is not base-descended, not tower-confined, survives noncontainment, or exposes a defect in the classification soundness rule"
+  },
+  "requires": [
+    {
+      "from": "ef_descended_cycle_classification_soundness",
+      "order": 914
+    },
+    {
+      "from": "ef_descended_cycle_classification_payload",
+      "order": 917
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

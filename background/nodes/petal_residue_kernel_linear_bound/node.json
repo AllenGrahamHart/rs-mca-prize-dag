@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 619,
+  "node": {
+    "id": "petal_residue_kernel_linear_bound",
+    "title": "Petal residue-kernel linear bound",
+    "status": "PROVED",
+    "statement": "In the L1 coset-chart full-petal residue bridge, the residue-line kernel K_{I,d}=ker(pi_{>d} R_{I,d}) satisfies the proved Lemma 13 bound dim K <= c+1, where c=d-ell.",
+    "attack_surface": "none; this is the already banked L1 Lemma 13 bound made explicit for the petal branch",
+    "falsifier": "a coset-chart residue instance violating dim K <= c+1",
+    "notes": "AUDIT FLAG RESOLVED (verified): Lemma 13 (dim K <= c+1, i.e. rank floor r >= ell) holds PERFECTLY in-regime \u2014 verified ell=3,t=5, c=2..8: r>=ell and dim_K in {0,0,1,3,5,7,9} all <= c+1 (tight at c=8). The apparent census discrepancy was OUT OF SCOPE: the census's ell=2,t=3 has d=c+ell > (t-1)ell-1=3 for c>=2, collapsing the residue space to <ell columns so r<ell is forced by dimensions. Lemma 13 is SOUND; the l1 note (line 91) confirms the floor is never violated in-regime."
+  },
+  "requires": [
+    {
+      "from": "l1_coset_chart_residue_bridge",
+      "order": 954
+    },
+    {
+      "from": "l1_defect_layer_bounds",
+      "order": 955
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_growth",
+      "order": 1113
+    }
+  ],
+  "refutes": []
+}

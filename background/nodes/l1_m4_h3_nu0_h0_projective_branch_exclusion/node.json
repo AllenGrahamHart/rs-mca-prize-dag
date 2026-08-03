@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1638,
+  "node": {
+    "id": "l1_m4_h3_nu0_h0_projective_branch_exclusion",
+    "title": "L1 m=4, h=3, nu=0, h=0 projective branch exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In the surviving nu=0,b!=0,deg H=0 endpoint, the zero-point scalar equation factors into two projective components. A local order comparison in the Euler identity excludes the component 2aR(0)+3b=0. Every survivor therefore satisfies 9bR(0)=4a^2+6aR(0)^2, leaving one projective outer parameter. This is not an endpoint exclusion or L1 closure.",
+    "refs": [
+      "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/statement.md",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/proof.md",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/claim_contract.md",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/dependency_subdag.md",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/audit.md",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/result.md",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/lineage.md",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/upstream_crosswalk.md",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/verify.py",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_branch_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_m4_h3_nu0_nonzero_b_tangent_exclusion",
+      "order": 3888
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3889
+    }
+  ],
+  "refutes": []
+}

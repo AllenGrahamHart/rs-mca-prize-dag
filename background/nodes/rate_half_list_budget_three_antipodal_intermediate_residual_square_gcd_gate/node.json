@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1051,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate",
+    "title": "Budget-three antipodal intermediate residual-square gcd gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the maximal intermediate boundary, a survivor forces gcd(TU^3+d,T'U+3TU') to have degree at least (2^38-4)/3. That gcd divides an explicit degree-eighteen annihilator, so the complete boundary is empty.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_intermediate_cube_part_router",
+      "order": 1955
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1956
+    }
+  ],
+  "refutes": []
+}

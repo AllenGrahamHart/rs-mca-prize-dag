@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 290,
+  "node": {
+    "id": "xr_crystallization",
+    "title": "XR classification: members of the exchange-inverse class C_XR are paid",
+    "status": "TARGET",
+    "key": true,
+    "refs": [
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#3"
+    ],
+    "notes": "the content beyond even moments \u2014 the genuinely new ingredient every mechanism needs",
+    "statement": "Every member of the class C_XR produced by the exchange inverse theorem (xr_inverse) is tangent-type, quotient-type, or extension-type \u2014 or is a NEW named ledger. The class is complete BY CONSTRUCTION of the inverse step; this node is pure classification."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "spi_exceptional_class",
+      "order": 146
+    },
+    {
+      "to": "payment_completeness",
+      "order": 578
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 101,
+  "node": {
+    "id": "e1_n256_s16_e19_four_profile_exclusion",
+    "title": "N=256 E=19 four-profile exact-norm exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e19_four_profile_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e19_four_profile_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e19_four_profile_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e19_four_profile_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e19_four_profile_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e19_four_profile_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e19_four_profile_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e19_four_profile_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e19_four_profile_exclusion/verify_audit.py",
+      "experiments/prize_resolution/e19_four_profile_census.cpp",
+      "experiments/prize_resolution/e19_four_profile_census_audit.cpp",
+      "experiments/prize_resolution/e19_four_profile_census_modal.py",
+      "experiments/prize_resolution/e19_four_profile_census_result.json",
+      "experiments/prize_resolution/e19_four_profile_census_check.py",
+      "experiments/prize_resolution/e19_four_profile_norm_modal.py",
+      "experiments/prize_resolution/e19_four_profile_norm_result.json",
+      "experiments/prize_resolution/e19_four_profile_norm_check.py"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), and V=38, all four routed profiles are impossible. Independent actual-vector engines agree after 158,783,488 vectors per engine: 574 profile vectors, of which 136 have full conductor and 438 are discharged by the proper-conductor theorem. FLINT and PARI agree on all full-conductor norms, with 40 distinct values and N_max<2^250<2*N_max.",
+    "notes": "ROUTE CLOSURE 2026-07-28: dual direct census, conductor, and exact resultants close the entire cutoff-free E19 router. Modal apps ap-42XirNxhFdMDLcgSyAoyqK and ap-qH9fzHkBAjTdTeWWEgJ7iN supply the pinned census and norm ledgers."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e19_profile_parity_light_reduction",
+      "order": 4286
+    },
+    {
+      "from": "e1_n256_proper_conductor_collision_exclusion",
+      "order": 4287
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 4288
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4293
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4294
+    }
+  ],
+  "refutes": []
+}

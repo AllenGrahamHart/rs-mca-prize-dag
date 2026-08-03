@@ -1,0 +1,88 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 170,
+  "node": {
+    "id": "e1_profile018_split_prime_payment_router",
+    "title": "E1 profile-(0,18) split-prime payment router",
+    "status": "PROVED",
+    "closure": "local cofactor census, profile-invariant exclusions, and exact payment threshold",
+    "refs": [
+      "background/nodes/e1_profile018_split_prime_payment_router/statement.md",
+      "background/nodes/e1_profile018_split_prime_payment_router/proof.md",
+      "background/nodes/e1_profile018_split_prime_payment_router/claim_contract.md",
+      "background/nodes/e1_profile018_split_prime_payment_router/dependency_subdag.md",
+      "background/nodes/e1_profile018_split_prime_payment_router/audit.md",
+      "background/nodes/e1_profile018_split_prime_payment_router/result.md",
+      "background/nodes/e1_profile018_split_prime_payment_router/frontier.md",
+      "background/nodes/e1_profile018_split_prime_payment_router/verify.py"
+    ],
+    "statement": "Profile (0,18,S=18) has only ten pure ideal families and 128 possible cofactor-514 families after the complete 1538 and 1028 exclusions. If at most five cofactor-514 ideals are occupied, then 3840 oriented vectors pay the profile and advance the weighted frontier to (4,4,S=20) with cap 329.",
+    "notes": "SERIAL ROUTER 2026-07-29: the implication O_514<=5 -> payment is proved. The proved class descent sharpens occupancy to O_514<=2 and gives the exact next-profile cap 1971."
+  },
+  "requires": [
+    {
+      "from": "e1_profile114_exact_weighted_payment",
+      "order": 4603
+    },
+    {
+      "from": "e1_profile210_split_prime_ideal_router",
+      "order": 4604
+    },
+    {
+      "from": "e1_profile210_m1538_collision_exclusion",
+      "order": 4605
+    },
+    {
+      "from": "e1_s18_m1028_global_energy_window",
+      "order": 4606
+    },
+    {
+      "from": "e1_profile210_m1028_energy2_log_exclusion",
+      "order": 4607
+    },
+    {
+      "from": "e1_profile210_m1028_energy3_modular_norm_exclusion",
+      "order": 4608
+    },
+    {
+      "from": "e1_s18_m1028_energy4_cubic_exclusion",
+      "order": 4609
+    },
+    {
+      "from": "e1_profile210_m1028_energy56_log_exclusion",
+      "order": 4610
+    },
+    {
+      "from": "e1_s18_m514_sharp_product_ceiling",
+      "order": 4611
+    },
+    {
+      "from": "e1_profile210_m514_outer_energy_log_exclusion",
+      "order": 4612
+    },
+    {
+      "from": "e1_profile210_m514_middle_shape_log_router",
+      "order": 4613
+    },
+    {
+      "from": "e1_profile210_m514_parity_trace_cap",
+      "order": 4614
+    },
+    {
+      "from": "e1_low_square_mass_weighted_kernel_dictionary",
+      "order": 4615
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_profile018_m514_five_ideal_occupancy",
+      "order": 4616
+    },
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4617
+    }
+  ],
+  "refutes": []
+}

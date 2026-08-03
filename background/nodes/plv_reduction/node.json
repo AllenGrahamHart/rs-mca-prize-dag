@@ -1,0 +1,14 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 279,
+  "node": {
+    "id": "plv_reduction",
+    "title": "Simple-pole residue lines reduce to projected RS list values (PLV)",
+    "status": "TARGET",
+    "notes": "source: PR #173 (unmerged; self-labelled PROVED reduction; held CONDITIONAL pending independent replay per standing order 12) | LEAF-CONDITIONAL AUDIT 2026-07-05: demoted CONDITIONAL->TARGET. Amber was being used as a QUARANTINE status (unmerged PR #173, self-labelled PROVED, held pending independent replay per standing order 12) -- an unverified claim is a TARGET until replayed, not a conditional."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

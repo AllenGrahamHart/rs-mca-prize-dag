@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 877,
+  "node": {
+    "id": "rate_half_cyclic_rotated_prefix_floor",
+    "title": "Cyclic quotient rotation closes the rate-half list-unsafe band",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For C=RS[F,D,n/2], c|n/2, N=n/c, 0<s<c, 1<=d<=N/2-1, and m=N/2+d, cyclic rotation modulo Y^N-delta plus a fixed s-point tail gives at least ceil(C(N-1,m)/(N*q^(d-1))) distinct codewords at agreement n/2+dc+s. At the official cap row, N*q^d < 2^128*C(N-1,m) even at q=2^256, with 75.0796 bits of margin; hence the whole residual band is list-unsafe for ordinary and every constant common-support interleaving arity. || MAXIMAL-PREFIX INSTANTIATION (wave-9, 2026-07-17): the count is s-INDEPENDENT (s = c-1 lemma), so the proved unsafe band extends to 1 <= sigma <= sigma_max = 8,594,128,895 \u2014 past the former sigma* reach (history preserved in statement.md).",
+    "refs": [
+      "critical/nodes/rate_half_cyclic_rotated_prefix_floor/statement.md",
+      "critical/nodes/rate_half_cyclic_rotated_prefix_floor/proof.md",
+      "critical/nodes/rate_half_cyclic_rotated_prefix_floor/claim_contract.md",
+      "critical/nodes/rate_half_cyclic_rotated_prefix_floor/dependency_subdag.md",
+      "critical/nodes/rate_half_cyclic_rotated_prefix_floor/verify.py",
+      "critical/nodes/rate_half_cyclic_rotated_prefix_floor/audit.md",
+      "critical/nodes/rate_half_cyclic_rotated_prefix_floor/verify_audit.py",
+      "critical/nodes/rate_half_cyclic_rotated_prefix_floor/result.md"
+    ],
+    "upstream": {
+      "label": "integrated cyclic quotient-rotation list floor (co-authored)",
+      "relation": "IDENTICAL"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1465
+    },
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1693
+    }
+  ],
+  "refutes": [
+    {
+      "to": "xr_band_key_lemma_pencil_mass",
+      "order": 4852
+    }
+  ]
+}

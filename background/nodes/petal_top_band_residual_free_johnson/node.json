@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 808,
+  "node": {
+    "id": "petal_top_band_residual_free_johnson",
+    "title": "Residual-free top-band petal charts have auxiliary list size at most the petal count",
+    "status": "PROVED",
+    "statement": "For petal size ell, petal count m>=2, retained residual r=0, and the pinned top band d>=ell(m-2), the auxiliary agreement a=ell+d satisfies a^2-dmell>=ell^2. The exact Johnson theorem therefore bounds the complete auxiliary list by m. K4's sub-Johnson kernel is confined to retained-residual charts.",
+    "refs": [
+      "background/nodes/petal_top_band_residual_free_johnson/statement.md",
+      "background/nodes/petal_top_band_residual_free_johnson/proof.md",
+      "background/nodes/petal_top_band_residual_free_johnson/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "petal_k4_johnson_slice",
+      "order": 1350
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_k4_primitive_bound",
+      "order": 1351
+    }
+  ],
+  "refutes": []
+}

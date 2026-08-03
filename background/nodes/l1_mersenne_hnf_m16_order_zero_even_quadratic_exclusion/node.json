@@ -1,0 +1,49 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1688,
+  "node": {
+    "id": "l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion",
+    "title": "L1 Mersenne HNF m=16 order-zero even-quadratic exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The final even multi-repeat quadratic color system is empty on the official m=16,h=15 endpoint. Its odd/even locator gcd would have degree at least two, but the first-subresultant coefficients can vanish together only at prime-field values of s.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/statement.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/proof.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/audit.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/result.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/lineage.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/upstream_crosswalk.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/verify.py",
+      "background/nodes/l1_mersenne_hnf_m16_order_zero_even_quadratic_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+      "order": 3941
+    },
+    {
+      "from": "l1_mersenne_hnf_order_zero_quadratic_collision_router",
+      "order": 3942
+    },
+    {
+      "from": "l1_mersenne_hnf_m8_order_zero_quadratic_exclusion",
+      "order": 3943
+    },
+    {
+      "from": "l1_mersenne_hnf_m16_order_zero_single_collision_exclusion",
+      "order": 3944
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3945
+    }
+  ],
+  "refutes": []
+}

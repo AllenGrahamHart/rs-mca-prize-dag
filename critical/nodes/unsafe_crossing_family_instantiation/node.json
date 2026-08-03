@@ -1,0 +1,20 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 335,
+  "node": {
+    "id": "unsafe_crossing_family_instantiation",
+    "title": "Universal adjacent-unsafe witness-family instantiation",
+    "status": "TARGET",
+    "key": true,
+    "refs": [
+      "critical/nodes/unsafe_crossing_family_instantiation/claim_contract.md"
+    ],
+    "statement": "For every admissible row and its proposed safe agreement a_safe, supply an exact certificate at a_safe-1 of at least one of: (Q) a quotient order satisfying every qfloor_exact hypothesis, endpoint alignment, and Acl(N',ell')>B*; (V) an explicit family of more than B* pairwise-distinct bad slopes; or (M) a deterministic post-paid support family A with exact strict-overlap profile and occupancy quantity nu(A)=E[N(A)]-(q/2)C_t(A)>B*. The certificate must use the ambient MCA slope field and account for generated-field transfer and first-match ownership.",
+    "attack_surface": "compile the row descriptor into a Q, V, or M payload with exact endpoint and denominator arithmetic; split by field-generation type and rate only when the resulting children are strictly smaller and independently falsifiable",
+    "falsifier": "an admissible row with exact B_C(a_safe-1)<=B*, or any emitted payload that fails its qfloor scope, distinct-slope count, post-paid ownership, occupancy inequality, endpoint, or ambient-field normalization"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

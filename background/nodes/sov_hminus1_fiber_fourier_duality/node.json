@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 626,
+  "node": {
+    "id": "sov_hminus1_fiber_fourier_duality",
+    "title": "SOV h-1 fiber Fourier duality",
+    "status": "PROVED",
+    "statement": "For any forced-root conditioned anchored-core fiber and the map c(L)=[X^{h-1}]L to the row field, the largest fiber of c is bounded by the uniform term plus the average of the nontrivial additive character sums of c.",
+    "attack_surface": "finite-field Fourier inversion on the coefficient map",
+    "falsifier": "a finite map to a field whose fiber size exceeds the Fourier-inversion bound"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1120
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 787,
+  "node": {
+    "id": "petal_g3_full_support_codeword_injectivity",
+    "title": "A full canonical staircase support determines at most one codeword",
+    "status": "PROVED",
+    "refs": [
+      "critical/nodes/petal_g3_full_support_codeword_injectivity/statement.md",
+      "critical/nodes/petal_g3_full_support_codeword_injectivity/proof.md"
+    ],
+    "statement": "In the petal route, G2 passes the contributor's full agreement support R into the E22 canonical profile, with |R|=A>=k+sigma>=k. For fixed U and R, at most one degree-<k polynomial agrees with U on R, since the difference of two has at least k roots. Thus G3 has no per-class codeword multiplicity; only aggregate G1 chart overlap remains open."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

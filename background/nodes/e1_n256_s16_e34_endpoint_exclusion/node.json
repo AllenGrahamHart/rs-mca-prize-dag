@@ -1,0 +1,65 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 46,
+  "node": {
+    "id": "e1_n256_s16_e34_endpoint_exclusion",
+    "title": "N=256 square-mass-16 variance-68 endpoint exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e34_endpoint_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e34_endpoint_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e34_endpoint_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e34_endpoint_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e34_endpoint_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e34_endpoint_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e34_endpoint_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e34_endpoint_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e34_endpoint_exclusion/verify_audit.py"
+    ],
+    "statement": "No pair-feasible N=256 folded-profile (3,4,0) collision has autocorrelation variance V=68. The exact three-profile reduction, parity collapse, four-template classification, and four proved template exclusions exhaust every case. The residual positive even variance range sharpens to V<=66.",
+    "notes": "ENDPOINT CLOSURE 2026-07-27: synthesizes the complete E34 chain and advances the live variance frontier by two. Lower positive even variances remain open."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e34_three_profile_reduction",
+      "order": 293
+    },
+    {
+      "from": "e1_n256_s16_e34_parity_profile_reduction",
+      "order": 294
+    },
+    {
+      "from": "e1_n256_s16_e34_heavy_chord_template_reduction",
+      "order": 295
+    },
+    {
+      "from": "e1_n256_s16_e34_quarter_template_exclusion",
+      "order": 296
+    },
+    {
+      "from": "e1_n256_s16_e34_nonquarter_diameter_template_exclusion",
+      "order": 297
+    },
+    {
+      "from": "e1_n256_s16_e34_progression_template_exclusion",
+      "order": 298
+    },
+    {
+      "from": "e1_n256_s16_e34_generic_template_exclusion",
+      "order": 299
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 415
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 416
+    }
+  ],
+  "refutes": []
+}

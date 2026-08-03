@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1776,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings4_5_9_12_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-3 xi3 opposite-DE pairings-4-5-9-12 exclusion",
+    "status": "PROVED",
+    "closure": "all 64 cases with missing df record xi=3 and canonical matching index 4, 5, 9, or 12",
+    "statement": "On the guarded positive deployed 433-1b role-cell-3 branch, every case with missing df record xi=3 and pairing index in {4,5,9,12} is empty across all source and target signs. For pairings 4 and 5, the even opposite-DE quartic and the second paired equation give an exact quadratic parity-x resultant of degree eight in f. Monic reduction modulo the missing-f quartic, a division-free 4-by-4 Bezout eliminant, exhaustive guard, f, and common-q replay, and every final target-lane equation exclude all 32 computed cases. Exchange of the two identical positive de records transports pairings 4 and 5 value-for-value to pairings 9 and 12. There is no witness, boundary, free-gcd, or unresolved stratum. This completes xi=3 but claims no other missing role, cell closure, or Prize result.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings4_5_9_12_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings4_5_9_12_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings4_5_9_12_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings4_5_9_12_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings4_5_9_12_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings4_5_9_12_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings4_5_9_12_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings4_5_9_12_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings4_5_9_12_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings4_5_9_12_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings4_5_9_12_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_xi3_opposite_de_parity_missing_f_bezout_pilot_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_xi3_opposite_de_parity_missing_f_bezout_census_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient",
+      "order": 4913
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4914
+    }
+  ],
+  "refutes": []
+}

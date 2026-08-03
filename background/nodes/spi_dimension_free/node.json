@@ -1,0 +1,17 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 293,
+  "node": {
+    "id": "spi_dimension_free",
+    "title": "Dimension-free form of SPI (or the route stalls at bounded d)",
+    "status": "TARGET",
+    "key": true,
+    "refs": [
+      "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#5"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1284,
+  "node": {
+    "id": "f3_h3_quotient_orbit_three_resultant_candidate_screen",
+    "title": "H3 quotient-orbit three-resultant candidate screen",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every canonical quotient-orbit block, the resultants of its orbit polynomial against the first three Hasse derivatives of the global shifted-product polynomial are not all zero. The exact cutoff-35 scalar annihilator divides their positive odd gcd. Thus every official (P,R)>=(36,1) prime is retained by a complete three-resultant-per-block candidate screen: 73,602 ordinary resultants at n=8192. Full factorization and exact evaluation can replace exact Smith elimination, but the screen may contain false positives and carries no runtime, cost, moment, or C36 bound.",
+    "refs": [
+      "background/nodes/f3_h3_quotient_orbit_three_resultant_candidate_screen/statement.md",
+      "background/nodes/f3_h3_quotient_orbit_three_resultant_candidate_screen/proof.md",
+      "background/nodes/f3_h3_quotient_orbit_three_resultant_candidate_screen/claim_contract.md",
+      "background/nodes/f3_h3_quotient_orbit_three_resultant_candidate_screen/dependency_subdag.md",
+      "background/nodes/f3_h3_quotient_orbit_three_resultant_candidate_screen/audit.md",
+      "background/nodes/f3_h3_quotient_orbit_three_resultant_candidate_screen/result.md",
+      "background/nodes/f3_h3_quotient_orbit_three_resultant_candidate_screen/verify.py",
+      "background/nodes/f3_h3_quotient_orbit_three_resultant_candidate_screen/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_quotient_orbit_canonical_resultant_manifest",
+      "order": 2713
+    },
+    {
+      "from": "f3_h3_quotient_algebra_fitting_support_compiler",
+      "order": 2714
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2715
+    },
+    {
+      "to": "f3_h3_official_order_template_survivor",
+      "order": 2716
+    }
+  ],
+  "refutes": []
+}

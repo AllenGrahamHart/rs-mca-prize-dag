@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1197,
+  "node": {
+    "id": "upstream_m1_koalabear_rank9_moving_root_slack_boundary",
+    "title": "KoalaBear rank-nine moving-root slack boundary",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For the KoalaBear rate-half support-wise MCA row, every post-C5, post-source-rational, full-outside rank-two record satisfying the printed moving-set and degree contracts has L_(F_eta)|(Pbar+eta Qbar) and nonnegative slacks h+u+ell=s-t-1 with delta_eta<=u. The zero-slack boundary is C5-owned; hence every survivor has s>=67474, reduced degree e>=33737, and full-gcd degree at most 1014838. At first slack only two nonbase linear cells remain.",
+    "refs": [
+      "background/nodes/upstream_m1_koalabear_rank9_moving_root_slack_boundary/statement.md",
+      "background/nodes/upstream_m1_koalabear_rank9_moving_root_slack_boundary/proof.md",
+      "background/nodes/upstream_m1_koalabear_rank9_moving_root_slack_boundary/claim_contract.md",
+      "background/nodes/upstream_m1_koalabear_rank9_moving_root_slack_boundary/dependency_subdag.md",
+      "background/nodes/upstream_m1_koalabear_rank9_moving_root_slack_boundary/audit.md",
+      "background/nodes/upstream_m1_koalabear_rank9_moving_root_slack_boundary/frontier.md",
+      "background/nodes/upstream_m1_koalabear_rank9_moving_root_slack_boundary/result.md",
+      "background/nodes/upstream_m1_koalabear_rank9_moving_root_slack_boundary/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2467
+    }
+  ],
+  "refutes": []
+}

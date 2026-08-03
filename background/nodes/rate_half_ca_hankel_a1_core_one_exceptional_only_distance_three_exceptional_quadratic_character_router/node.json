@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1196,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router",
+    "title": "Rate-half distance-three exceptional quadratic-character router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On every official prime-field distance-three support packet, existence of a boundary-compatible perfect matching forces -A(0)A(s)A(x_0) to be a quadratic residue. This follows by multiplying the centrally paired e-th-power boundary values, deleting fourth-power denominators, and applying the smooth subgroup derivative formula. The test depends only on the exceptional support and the stripped and omitted rows.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_exceptional_quadratic_character_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_matching_free_boundary_power_router",
+      "order": 2464
+    },
+    {
+      "from": "rate_half_residual_prime_field_collapse",
+      "order": 2465
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2466
+    }
+  ],
+  "refutes": []
+}

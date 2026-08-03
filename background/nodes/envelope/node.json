@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 206,
+  "node": {
+    "id": "envelope",
+    "title": "Envelope map: all small-q rows pinned (#153)",
+    "status": "PROVED",
+    "refs": [
+      "wp_detail/wp1_1_wp1_2_submission_and_lean.md#1"
+    ]
+  },
+  "requires": [
+    {
+      "from": "staircase",
+      "order": 40
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

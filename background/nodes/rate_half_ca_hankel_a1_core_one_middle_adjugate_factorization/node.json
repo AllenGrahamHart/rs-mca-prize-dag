@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 969,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_middle_adjugate_factorization",
+    "title": "A=1 core-one middle-Hankel adjugate factorization",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the half-distance A=1 core-one maximal-degree face, contraction produces a square symmetric middle-Hankel pencil M of size d+1 and generic rank d. If q is the primitive degree-e residual apolar coefficient vector, then adj(M)=lambda*q*q^T for one nonzero linear form lambda. The gcd of every nonzero maximal minor is exactly lambda, which is the unique size-one regular Kronecker block. The pencil has rank d away from its one projective root and rank d-1 there. All residual root omission is concentrated at that slope; on sharp cap O is 0 or 1 and the norm residual degree is e-1+O. This is an exact coefficient-chain interface, not a stratum exclusion.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_middle_adjugate_factorization/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_middle_adjugate_factorization/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_middle_adjugate_factorization/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_middle_adjugate_factorization/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_middle_adjugate_factorization/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_middle_adjugate_factorization/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_middle_adjugate_factorization/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_middle_adjugate_factorization/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger",
+      "order": 1782
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1783
+    }
+  ],
+  "refutes": []
+}

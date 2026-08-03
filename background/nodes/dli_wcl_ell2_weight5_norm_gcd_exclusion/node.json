@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 879,
+  "node": {
+    "id": "dli_wcl_ell2_weight5_norm_gcd_exclusion",
+    "title": "DLI ell=2 weight-5 relations excluded by the complete norm-gcd certificate",
+    "status": "PROVED",
+    "closure": "computation",
+    "statement": "For every official q<2^256 with v_2(q-1)>=41 and every exact order-1024 root omega in F_q, no reduced signed weight-5 polynomial P satisfies P(omega)=P(omega^3)=0. The pair-quadratic router has exactly 1,514 odd-dilation pair orbits. Every supporting q divides the gcd of the two cleared cyclotomic norms for one orbit; the 507 distinct nontrivial gcds factor over 168 Pocklington-certified primes, with maximum v_2(p-1)=18. Hence the residual WCL slot (ell,w)=(2,5) is empty on every official row.",
+    "refs": [
+      "background/nodes/dli_wcl_ell2_weight5_norm_gcd_exclusion/statement.md",
+      "background/nodes/dli_wcl_ell2_weight5_norm_gcd_exclusion/proof.md",
+      "background/nodes/dli_wcl_ell2_weight5_norm_gcd_exclusion/verify.py",
+      "background/nodes/dli_wcl_ell2_weight5_norm_gcd_exclusion/notes/verify_resultants_remote.py",
+      "experiments/prize_resolution/dli_wcl_pair_norm_gcd_probe_modal.py",
+      "experiments/prize_resolution/dli_wcl_ell2_weight5_norm_gcd_certificate_result.json",
+      "experiments/prize_resolution/dli_wcl_ell2_weight5_norm_gcd_replay_result.json",
+      "experiments/prize_resolution/dli_wcl_ell2_weight5_norm_gcd_prime_cert_modal.py",
+      "experiments/prize_resolution/dli_wcl_ell2_weight5_norm_gcd_prime_cert_result.json.gz"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_ell2_weight5_pair_ideal_index_obstruction",
+      "order": 1545
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_zone_coverage",
+      "order": 1546
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 303,
+  "node": {
+    "id": "m1_sift_caps",
+    "title": "Packet-sift popularity caps (Cauchy floor, U_eq = 8mu, U = 16)",
+    "status": "PROVED",
+    "refs": [
+      "experimental/notes/m1/m1_packet_sift_popularity_digest.md"
+    ],
+    "notes": "missing piece stays open: nonlocal model-entry/multiplicity for actual Hankel packet families"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_crystallization",
+      "order": 159
+    }
+  ],
+  "refutes": []
+}

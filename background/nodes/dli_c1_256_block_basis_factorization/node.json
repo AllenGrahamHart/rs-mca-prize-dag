@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1486,
+  "node": {
+    "id": "dli_c1_256_block_basis_factorization",
+    "title": "Official C1 odd-moment matrix is 256 invertible blocks D_a F; exact iid block marginals coupled by one companion orbit",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On every official-shape C1 level (N=256L, omega of exact order 512L), writing y=a+256b and theta=omega^256 (exact order 2L), the a-th L-column block of the odd-moment matrix is A_a=D_a F with D_a=diag(omega^((2j+1)a)) and F the Vandermonde matrix on the L distinct odd powers of theta (the roots of X^L+1). All 256 blocks are bases of F_q^L. Consequences: the Boolean subset-sum distribution is the 256-fold convolution of uniform measures on full-size 2^L parallelepipeds A_a{0,1}^L; each block Fourier vector C_a=A_a^T lambda is EXACTLY uniform (exact iid L-coordinate block marginals); and D_a=D_1^a gives C_a=M^a C_0 with M=F^T D_1 F^(-T), so all cross-block spectral dependence rides one deterministic 256-step linear orbit. Not claimed: joint independence, any mixing/expansion property of M, any bound on E-1, C1-ZERO/SWIF-4, any role of the v_2(q-1)>=41 gate, non-official aspects, or either Prize result. Provenance: Brief-1 Pro dossier (notes/pro_briefs_20260801/responses/), audited and replayed 2026-08-01.",
+    "refs": [
+      "background/nodes/dli_c1_256_block_basis_factorization/statement.md",
+      "background/nodes/dli_c1_256_block_basis_factorization/proof.md",
+      "background/nodes/dli_c1_256_block_basis_factorization/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_c1r3_gated_envelope_bound",
+      "order": 3360
+    }
+  ],
+  "refutes": []
+}

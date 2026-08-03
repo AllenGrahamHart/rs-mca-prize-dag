@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1280,
+  "node": {
+    "id": "f3_h3_dsp8_single_quotient_endpoint_compiler",
+    "title": "DSP8 single-quotient Pareto endpoint compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The C36' Pareto diagonal extends to the twelfth endpoint (P,R)>=(36,1). Swap parity confines the seventeenth low-excess unit to diagonal product targets; the affine subgroup-line bound gives S_D<(51/16)(n-1)n^(2/3), so B_par=300n^2-272(n-1)(n-2)-17S_D>(8093/320)n^2. Consequently the row-sensitive Dbar_17^0+(29/22)Dbar_17^A<=(29/153)B_par is sufficient; uniformly, the right side may be replaced by (234697/48960)n^2, improving the former 319/153 constant by a factor greater than 2.29. Every survivor has a degree-eight/six product star and one quotient lift. For fixed Q, at most two product centers have zero coupling, so a nonzero anchor exists among the at least nine/seven star vertices. The fixed-order packet needs no second lift or quotient-collision spoke. No moment or survivor bound is proved.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_single_quotient_endpoint_compiler/statement.md",
+      "background/nodes/f3_h3_dsp8_single_quotient_endpoint_compiler/proof.md",
+      "background/nodes/f3_h3_dsp8_single_quotient_endpoint_compiler/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_single_quotient_endpoint_compiler/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_single_quotient_endpoint_compiler/audit.md",
+      "background/nodes/f3_h3_dsp8_single_quotient_endpoint_compiler/result.md",
+      "background/nodes/f3_h3_dsp8_single_quotient_endpoint_compiler/verify.py",
+      "background/nodes/f3_h3_dsp8_single_quotient_endpoint_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_dsp8_accident_depth_compiler",
+      "order": 2695
+    },
+    {
+      "from": "f3_h3_dsp8_joint_star_depth_pareto_compiler",
+      "order": 2696
+    },
+    {
+      "from": "f3_h3_double_accident_nonzero_coupling_ideal_router",
+      "order": 2697
+    },
+    {
+      "from": "f3_affine_coset_pair_cubic_preimage_stepanov",
+      "order": 2838
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2698
+    },
+    {
+      "to": "f3_h3_official_order_template_survivor",
+      "order": 2699
+    }
+  ],
+  "refutes": []
+}

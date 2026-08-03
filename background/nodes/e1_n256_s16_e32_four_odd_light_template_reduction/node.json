@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 55,
+  "node": {
+    "id": "e1_n256_s16_e32_four_odd_light_template_reduction",
+    "title": "N=256 E=32 common four-odd light-template reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e32_four_odd_light_template_reduction/statement.md",
+      "background/nodes/e1_n256_s16_e32_four_odd_light_template_reduction/proof.md",
+      "background/nodes/e1_n256_s16_e32_four_odd_light_template_reduction/claim_contract.md",
+      "background/nodes/e1_n256_s16_e32_four_odd_light_template_reduction/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e32_four_odd_light_template_reduction/audit.md",
+      "background/nodes/e1_n256_s16_e32_four_odd_light_template_reduction/result.md",
+      "background/nodes/e1_n256_s16_e32_four_odd_light_template_reduction/source_pin.json",
+      "background/nodes/e1_n256_s16_e32_four_odd_light_template_reduction/verify.py",
+      "background/nodes/e1_n256_s16_e32_four_odd_light_template_reduction/verify_audit.py",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_four_odd_light_orbit_classifier.py",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_four_odd_light_orbit_check.py",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_four_odd_light_orbit_result.json"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), V=64, and either live four-odd autocorrelation profile (4,7) or (3,5,1), the light support has no diameter and exactly one repeated chord class. The repeated edges share a vertex, forcing a light three-term progression. Exactly 28,800 normalized supports form 148 affine odd-unit orbits with normalized sizes 32 (4 orbits), 64 (16), 128 (40), and 256 (88). Hence D_64 lies in {0,4,8,12,16,20}.",
+    "notes": "ROUTE REDUCTION 2026-07-27: gives one exact 148-template light router for both surviving V=64 profiles and removes the two-diameter branch. It excludes neither profile."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e32_profile_parity_diameter_reduction",
+      "order": 325
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 433
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 434
+    }
+  ],
+  "refutes": []
+}

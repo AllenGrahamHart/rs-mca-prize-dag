@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1704,
+  "node": {
+    "id": "l1_mersenne_hnf_order_one_color_degree_barrier",
+    "title": "L1 Mersenne HNF order-one color-degree barrier",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a nonconstant degree-d rootwise colored Frobenius interpolant on H reduced roots, the pointwise equations define plane curves of degrees d and d+1 with no common component, so H<=d(d+1). Thus h=7 starts at degree two and h=15 starts at degree four; the h=15 cubic chamber is empty.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_order_one_color_degree_barrier/statement.md",
+      "background/nodes/l1_mersenne_hnf_order_one_color_degree_barrier/proof.md",
+      "background/nodes/l1_mersenne_hnf_order_one_color_degree_barrier/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_order_one_color_degree_barrier/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_order_one_color_degree_barrier/audit.md",
+      "background/nodes/l1_mersenne_hnf_order_one_color_degree_barrier/result.md",
+      "background/nodes/l1_mersenne_hnf_order_one_color_degree_barrier/verify.py"
+    ],
+    "notes": "Exact degree barrier only. Equality or larger degree does not imply existence; h=15 constant and degrees four through thirteen remain open."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+      "order": 3978
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3979
+    }
+  ],
+  "refutes": []
+}

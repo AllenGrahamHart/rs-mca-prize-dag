@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1330,
+  "node": {
+    "id": "l1_m31_t64_quotient_prefix_intercept_fence",
+    "title": "L1 M31 T64 quotient-prefix intercept fence",
+    "status": "PROVED",
+    "closure": "algebraic construction plus exact finite-field replay",
+    "statement": "In the pinned Mersenne-31 c=2048, (u,v)=(0,1) quotient profile for upstream's auxiliary 2^-100 list row, seven explicit 479-subsets of the 1022-point punctured quotient domain share the first 63 nonleading locator coefficients. Six are distinct deficiency-64 neighbors of one anchor, so d_64(A)>=6. Exact arithmetic gives 4 binom(479,64)binom(543,64)<p^32, refuting every coefficient-four pointwise rooted-shell inequality p^32(d_64-b)_+<=4H_64 with intercept b=3,4,5. This is a support-level route cut, not a 2^-128 Prize row: no received word, first-match survival, row-global U_Q, or intercept-six theorem is claimed.",
+    "refs": [
+      "background/nodes/l1_m31_t64_quotient_prefix_intercept_fence/statement.md",
+      "background/nodes/l1_m31_t64_quotient_prefix_intercept_fence/proof.md",
+      "background/nodes/l1_m31_t64_quotient_prefix_intercept_fence/claim_contract.md",
+      "background/nodes/l1_m31_t64_quotient_prefix_intercept_fence/dependency_subdag.md",
+      "background/nodes/l1_m31_t64_quotient_prefix_intercept_fence/audit.md",
+      "background/nodes/l1_m31_t64_quotient_prefix_intercept_fence/result.md",
+      "background/nodes/l1_m31_t64_quotient_prefix_intercept_fence/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3680
+    }
+  ],
+  "refutes": []
+}

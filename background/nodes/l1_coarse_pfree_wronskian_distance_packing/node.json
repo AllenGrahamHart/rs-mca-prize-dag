@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1614,
+  "node": {
+    "id": "l1_coarse_pfree_wronskian_distance_packing",
+    "title": "L1 coarse p-free Wronskian distance packing",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a finite-field n-set H, let Phi_free send each a-subset A to its p-free power sums through depth d<=a. Frobenius recovers equality of all moments through d inside any fiber. If distinct A,B in one fiber have disjoint tails X=A\\B and Y=B\\A of common size t, the locator Wronskian F_X'F_Y-F_XF_Y' is nonzero and has degree at most 2t-d-2, so t>=ceil((d+2)/2). Consequently every fiber has size at most floor(binom(n,s)/binom(a,s)), where s=a-ceil((d+2)/2)+1; for scalar L1 with a=k+d this is s=floor((a+k)/2). The half-depth distance is sharp over F_4. If a+k>=n, the cap is at least 2^(n-a), so under q<2^256 it cannot itself pay a cell with n-a>=128. This is a coarse-fiber statement: exact mixed/Pade prefixes already have the stronger tail bound d+1. It does not prove row-sharp Q, Pade-graph coalescing, or L1.",
+    "refs": [
+      "background/nodes/l1_coarse_pfree_wronskian_distance_packing/statement.md",
+      "background/nodes/l1_coarse_pfree_wronskian_distance_packing/proof.md",
+      "background/nodes/l1_coarse_pfree_wronskian_distance_packing/claim_contract.md",
+      "background/nodes/l1_coarse_pfree_wronskian_distance_packing/dependency_subdag.md",
+      "background/nodes/l1_coarse_pfree_wronskian_distance_packing/audit.md",
+      "background/nodes/l1_coarse_pfree_wronskian_distance_packing/result.md",
+      "background/nodes/l1_coarse_pfree_wronskian_distance_packing/lineage.md",
+      "background/nodes/l1_coarse_pfree_wronskian_distance_packing/upstream_crosswalk.md",
+      "background/nodes/l1_coarse_pfree_wronskian_distance_packing/verify.py",
+      "background/nodes/l1_coarse_pfree_wronskian_distance_packing/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_official_frobenius_checkpoint_q_router",
+      "order": 3825
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3826
+    }
+  ],
+  "refutes": []
+}

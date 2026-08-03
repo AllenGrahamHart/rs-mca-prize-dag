@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 828,
+  "node": {
+    "id": "xr_all_lineray_affine_core_bound",
+    "title": "All-LineRay affine-core set-pair bound",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_all_lineray_affine_core_bound/statement.md",
+      "background/nodes/xr_all_lineray_affine_core_bound/proof.md",
+      "background/nodes/xr_all_lineray_affine_core_bound/verify.py",
+      "background/nodes/xr_all_lineray_affine_core_bound/result.md"
+    ],
+    "statement": "Let P be all distinct transverse sparse error pairs on one nonconstant syndrome line, let s be their affine error rank, and let w be their maximum weight. Zero-mask restriction is injective on the affine core; canonical full-rank zero minors form a nonuniform Bollobas set-pair system. Therefore sum_(gamma,e)1/C(s+wt(e),s)<=1 and |P|<=C(s+w,s)<=C(n,s). Applying the same theorem to any one-per-slope selector gives #slopes<=C(sigma+r,sigma), where sigma is the minimum selector rank and r=n-A. Exact arithmetic at all six XR candidates pays sigma<=3, while sigma=4 fails. Thus both XR predicates are paid whenever a rank-at-most-three selector exists; every selector in the residual has rank at least four."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1386
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1387
+    }
+  ],
+  "refutes": []
+}

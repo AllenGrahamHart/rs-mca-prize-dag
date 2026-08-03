@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1366,
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
+    "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) ramified complete-source repair",
+    "status": "PROVED",
+    "closure": "complete-source multiplicity repair of the ramified square-fiber coefficient cut from 6/5 to 4/3",
+    "statement": "For a saturated source-line diagonal (1,1,2) packet whose forced square orbit is source-ramified, complete-source row divisibility caps each of the two square-root rows at order two while local saturation requires total order four. Both orders are exactly two, forcing V(T,0) to be a nonzero multiple of q=P_(J_1). The ramified coefficient cut therefore has rank four and dimensions 4/3, and the common odd-part incidence map applies. This repairs the ramified coefficient escape but does not delete a packet or row.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate",
+      "order": 4682
+    },
+    {
+      "from": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
+      "order": 4683
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4684
+    }
+  ],
+  "refutes": []
+}

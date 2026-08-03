@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 500,
+  "node": {
+    "id": "axis8_generating",
+    "title": "Axis 8: non-generating rows / tower-case admissibility (node-ified from s5_s0 F3)",
+    "status": "PROVED",
+    "statement": "Resolve axis 8: does the official family admit NON-GENERATING rows (q_line = q_gen^m, m >= 2)? The confirmed caps (k <= 2^40, |F| < 2^256, abf26.pdf p.5) leave room for q_gen < 2^128 extension towers, so the F3-adverse direction is LIVE: the tower case is admissible and must be PRICED (the ext_lift / f1_classification chain), not excluded. Resolution = either a citation that the official family excludes towers, or the priced-adverse reading with the ext chain as the bridge (loss printed). Was referenced in s5_s0's failure table (F3) but had no node until the ring-2 sweep audit.",
+    "refs": [
+      "experimental/notes/roadmaps/proof_sketch/s5_s0_statements_and_object.md"
+    ],
+    "closure": "citation",
+    "notes": "FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/axis8_generating/. | FABLE AUDIT PASSED (2026-07-04 pm): quote-level verification against the pages of abf26.pdf read directly by the roadmap lane (pp.3-5, 17-19) \u2014 quotes real, claims match, the axis4 identification routes through the banked noncontain_degeneracy, axis8's adverse reading is additionally conservative-safe (over-pricing cannot create a false claim). The S0 cascade STANDS at full audit grade."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 519
+    },
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 941
+    }
+  ],
+  "refutes": []
+}

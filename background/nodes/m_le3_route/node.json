@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 345,
+  "node": {
+    "id": "m_le3_route",
+    "title": "Worst-case interleaved route for m <= 3 (given base exponent ~1)",
+    "status": "CONDITIONAL",
+    "notes": "proved-modulo: imgfib at exponent ~1 AND the rules reading; budget 128/(m*40) verified",
+    "refs": [
+      "wp_detail/wp5_2_wp6_2_wp6_3_bridges.md#1"
+    ],
+    "statement": "Conditional on rules_m_reading and imgfib at exponent about 1, the worst-case interleaved route covers m <= 3 with the verified 128/(m*40) budget. || HYPOTHESES DISCHARGED -> PROVED (2026-07-13): both named conditions (rules_m_reading, imgfib) are PROVED \u2014 imgfib closed today via the petal chain and the maintainer's P1 floor confirmation. Inherits the petal tripwires transitively. || RE-DEMOTED -> CONDITIONAL (2026-07-14, cascade of catch #212): the imgfib hypothesis reverted to CONDITIONAL (mixed-petal bucket uncovered), so this node's 2026-07-13 promotion reverts with it; conditional exactly as before on imgfib (+ the PROVED rules_m_reading)."
+  },
+  "requires": [
+    {
+      "from": "rules_m_reading",
+      "order": 548
+    },
+    {
+      "from": "imgfib",
+      "order": 549
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "m_handling",
+      "order": 547
+    }
+  ],
+  "refutes": []
+}

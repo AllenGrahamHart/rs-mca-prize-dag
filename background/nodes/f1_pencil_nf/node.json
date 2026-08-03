@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 306,
+  "node": {
+    "id": "f1_pencil_nf",
+    "title": "F1 syndrome-pencil normal form (exact Hankel pencil; t = 1, 2 ledgers)",
+    "status": "PROVED",
+    "refs": [
+      "experimental/notes/f1/f1_syndrome_pencil_normal_form.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "counting_frame",
+      "order": 165
+    }
+  ],
+  "refutes": []
+}

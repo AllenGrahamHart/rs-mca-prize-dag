@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 622,
+  "node": {
+    "id": "petal_realizable_kernel_injection",
+    "title": "Petal realizable extras inject into residue kernel",
+    "status": "PROVED",
+    "statement": "In the L1 coset-chart full-petal residue bridge, every exact realizable full-petal extra determines a squarefree locator point lying in the residue-line kernel, and this assignment is injective.",
+    "attack_surface": "Lemma 8 full-petal rank certificate from the coset-chart bridge",
+    "falsifier": "two distinct realizable full-petal extras with the same locator point, or a realizable extra whose locator does not lie in the residue-line kernel"
+  },
+  "requires": [
+    {
+      "from": "l1_coset_chart_residue_bridge",
+      "order": 956
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_growth",
+      "order": 1116
+    }
+  ],
+  "refutes": []
+}

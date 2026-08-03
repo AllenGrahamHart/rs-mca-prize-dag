@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1150,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_high_order_field_nonemptiness_fence",
+    "title": "Rate-half distance-three high-order field nonemptiness fence",
+    "status": "PROVED",
+    "closure": "recursive Lucas primality certificates",
+    "statement": "Both field-order strata retained by the distance-three dihedral router are arithmetically nonempty in the official B=2^39+1 adjacent-row interval. Explicit certified primes p with 2^41 dividing p-1 realize gcd(2^38-1,p-1)=(2^38-1)/3 and 2^38-1 respectively, while gcd(2^39-1,p-1)=1 in both cases. Congruence, primality, and the dual residue gate alone therefore cannot uniformly exclude the rank-two branch.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_high_order_field_nonemptiness_fence/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_high_order_field_nonemptiness_fence/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_high_order_field_nonemptiness_fence/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_high_order_field_nonemptiness_fence/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_high_order_field_nonemptiness_fence/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_high_order_field_nonemptiness_fence/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_boundary_order_router",
+      "order": 2333
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2334
+    }
+  ],
+  "refutes": []
+}

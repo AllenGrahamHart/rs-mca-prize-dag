@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 288,
+  "node": {
+    "id": "beta2_dead_routes",
+    "title": "Routes: Katz CE (circular), Hall (Legendre only), rigidity (13 > 3 pts), elementary Lefschetz trace",
+    "status": "REFUTED",
+    "refs": [
+      "experimental/notes/m1/m1_beta2_conditional_close.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

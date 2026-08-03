@@ -1,0 +1,63 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1235,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer",
+    "title": "Budget-three fiber-two cycle boundaries transfer through canonical span",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every c=0,1,2 fiber-two cycle quartic-pencil stratum at quotient order 2^40, all parameter-uniform boundary theorems transfer through the canonical-span certifier. The generic and intermediate minimum-degree boundaries both have linear differential residual and the same primary gap a_(2^38)=a_(2^38+1)=0, a_(2^38+2)!=0; the generic secondary gaps are at 2^37-1 and 2^37. A two-antipodal-pair denominator uses M=2^36. The canonical outer quartic must be PGL-matched to the cycle completion roots rho_i. Only at c=0 are these automatically square-root lifts of all denominator roots, so the old one-parameter Mobius-ratio/norm gates are not imported into c=1,2.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_boundary_transfer/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_boundary_transfer/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_boundary_transfer/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_boundary_transfer/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_boundary_transfer/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_boundary_transfer/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_boundary_transfer/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_boundary_transfer/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_quotient_embedding",
+      "order": 2560
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_reverse_residual_stratification",
+      "order": 2561
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_pure_quartic_degree_rigidity",
+      "order": 2562
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_fourth_root_gap_reduction",
+      "order": 2563
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_secondary_gap_reduction",
+      "order": 2564
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_two_window_square_reduction",
+      "order": 2565
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_parity_reduction",
+      "order": 2566
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_canonical_span_criterion",
+      "order": 2567
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2568
+    }
+  ],
+  "refutes": []
+}

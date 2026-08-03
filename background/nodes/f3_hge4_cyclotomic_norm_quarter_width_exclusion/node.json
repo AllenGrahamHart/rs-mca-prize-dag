@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1291,
+  "node": {
+    "id": "f3_hge4_cyclotomic_norm_quarter_width_exclusion",
+    "title": "HGE4 cyclotomic-norm quarter-width exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every dyadic exact ratio level m>=16 and prime p=1 mod m with p>=m^2, cyclotomic norm divisibility and odd-frequency Parseval exclude primitive top shift pairs throughout m/4<=h<m/3. Combined with the non-full complement-third gate, the live exact-level sum stops at h=m/4-1. This deletes the whole Kummer near-third strip but does not estimate the remaining lower-quarter widths or close HGE4.",
+    "refs": [
+      "background/nodes/f3_hge4_cyclotomic_norm_quarter_width_exclusion/statement.md",
+      "background/nodes/f3_hge4_cyclotomic_norm_quarter_width_exclusion/proof.md",
+      "background/nodes/f3_hge4_cyclotomic_norm_quarter_width_exclusion/claim_contract.md",
+      "background/nodes/f3_hge4_cyclotomic_norm_quarter_width_exclusion/dependency_subdag.md",
+      "background/nodes/f3_hge4_cyclotomic_norm_quarter_width_exclusion/audit.md",
+      "background/nodes/f3_hge4_cyclotomic_norm_quarter_width_exclusion/result.md",
+      "background/nodes/f3_hge4_cyclotomic_norm_quarter_width_exclusion/verify.py",
+      "background/nodes/f3_hge4_cyclotomic_norm_quarter_width_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_exact_ratio_tower_orbit_compiler",
+      "order": 2736
+    },
+    {
+      "from": "f3_hge4_near_third_belyi_necklace_bound",
+      "order": 2737
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2738
+    }
+  ],
+  "refutes": []
+}

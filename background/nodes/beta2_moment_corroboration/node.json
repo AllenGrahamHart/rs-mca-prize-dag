@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 331,
+  "node": {
+    "id": "beta2_moment_corroboration",
+    "title": "Second moments M_2(p) -> 1 over primes <= 181 (irreducibility corroboration)",
+    "status": "PROVED",
+    "refs": [
+      "experimental/notes/m1/m1_beta2_conditional_close.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "beta2_irreducibility",
+      "order": 218
+    }
+  ],
+  "refutes": []
+}
