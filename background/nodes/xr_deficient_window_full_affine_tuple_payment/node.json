@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "xr_deficient_window_full_affine_tuple_payment",
+    "title": "XR deficient window: full-affine tuple payment",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On an s-dimensional active-defect parameter hull, any fixed (s+1)-tuple of points with pairwise distinct phi=[P:Q] values belongs to a common selected block for at most 2^s target parameters. The s block equations are quadrics; affine Bezout bounds their irreducible components by 2^s, while the distinct-pole argument forces the selected ray to be constant on every positive-dimensional component and the interaction strip leaves at most one target there. For ell=1 this gives |Tau|<=2^(s-1) binom(e,s+1)/binom(r,s+1). At the next official dimensions it pays through d+1=8453534100 at rates 1/4,1/8 and through d+1=4250714177 at rate 1/16.",
+    "refs": [
+      "background/nodes/xr_deficient_window_full_affine_tuple_payment/statement.md",
+      "background/nodes/xr_deficient_window_full_affine_tuple_payment/proof.md",
+      "background/nodes/xr_deficient_window_full_affine_tuple_payment/claim_contract.md",
+      "background/nodes/xr_deficient_window_full_affine_tuple_payment/dependency_subdag.md",
+      "background/nodes/xr_deficient_window_full_affine_tuple_payment/audit.md",
+      "background/nodes/xr_deficient_window_full_affine_tuple_payment/result.md",
+      "background/nodes/xr_deficient_window_full_affine_tuple_payment/lineage.md",
+      "background/nodes/xr_deficient_window_full_affine_tuple_payment/verify.py"
+    ]
+  },
+  "requires": [
+    {"from": "xr_deficient_window_active_defect_list_router"},
+    {"from": "xr_deficient_window_affine_plane_component_payment"},
+    {"from": "xr_deficient_window_phi_fiber_split_pencil_router"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "xr_band_forced_commonroot_syzygy_count"},
+    {"to": "xr_band_maximal_window_divisor_count"}
+  ],
+  "refutes": []
+}

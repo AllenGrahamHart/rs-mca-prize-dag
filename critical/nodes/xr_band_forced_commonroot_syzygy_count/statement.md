@@ -75,8 +75,19 @@ It also identifies the precise triple-invisible endpoint: every selected
 block locator divides one or two members `bP-aQ` of the primitive pencil,
 and every target in that endpoint owns at least two disjoint such locators.
 Thus `r<=2ell` is not itself an unresolved stratum; high-fiber blocks there
-remain available to triple incidence.  The high-fiber upper tails and the
-split-pencil locator census stay open, so the node remains `TARGET`.
+remain available to triple incidence.
+
+The full-affine tuple payment uses `s+1` distinct-`phi` points directly on
+the `s`-dimensional affine hull.  At the next dimensions it extends the
+proved `ell=1` slices through
+
+```text
+rates 1/4,1/8: d+1<=8,453,534,100,
+rate 1/16:     d+1<=4,250,714,177.                  (SL2-FAT)
+```
+
+The residual high-fiber tails, higher-`ell` tuples, and split-pencil locator
+census stay open, so the node remains `TARGET`.
 
 Together with the unconditional outside-`D` payment, `(SL2-D)` gives
 `25|R_d(u,v)|<=17n^2` exactly. This is an owner-aware punctured list with

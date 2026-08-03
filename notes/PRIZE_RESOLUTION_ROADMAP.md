@@ -17501,6 +17501,35 @@ compute: exact combinatorics and a tiny finite-field replay; no Modal
 next: test whether split-pencil divisibility plus block disjointness yields a
       degree/support census before adding any new premise
 ```
+
+### Full-affine tuple payment
+
+The plane/triple argument extends to the entire affine hull. For a fixed
+`(s+1)`-tuple of pairwise distinct `phi` values on an `s`-dimensional hull,
+the `s` block equations are quadrics. Affine Bezout gives at most `2^s`
+irreducible components. On every positive-dimensional component the common
+ray is constant by the same distinct-pole argument, so the high-depth strip
+leaves at most one target there.
+
+For `ell=1` this yields the exact cap
+
+```text
+|Tau|<=2^(s-1) binom(e,s+1)/binom(r,s+1).
+```
+
+At the next dimensions this moves the paid upper endpoint to
+`d+1=8,453,534,100` for rates `1/4,1/8` and `d+1=4,250,714,177` for rate
+`1/16`.
+
+```text
+node: xr_deficient_window_full_affine_tuple_payment [PROVED]
+verifier: 8,120 exact combinatorial, pole-rank, and row-arithmetic checks
+target: xr_band_forced_commonroot_syzygy_count remains TARGET
+unpaid: final ell=1 high-fiber tail; higher ell; split-pencil census
+compute: exact local integer arithmetic only; no Modal
+next: optimize the full-affine tuple count over exact ell-capped fiber
+      profiles, then isolate the residual low-fiber endpoint
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
