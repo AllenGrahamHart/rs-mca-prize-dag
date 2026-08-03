@@ -28064,10 +28064,10 @@
   },
   {
    "id": "xr_band_forced_commonroot_syzygy_count",
-   "title": "XR SL-2 deficient-rank forced-common-root syzygy census",
+   "title": "XR SL-2 primitive Pade-pencil parameter census",
    "status": "TARGET",
    "closure": "",
-   "statement": "At every prize-row high band-proper depth with rank J_d<2d, let G_d be the evaluation points where both components of every left Pade syzygy vanish. In the residual case |G_d|>=2(h-d), the maximal selected post-strip locator set R_d satisfies 25|R_d|<=17n^2. This counts only the exact SL-2-RES currency and treats G_d as a factor forced on the whole syzygy kernel.",
+   "statement": "At every prize-row depth ceil((2h+2)/3)<=d<=h-2 with rank J_d<2d and |G_d|>=2(h-d), the proved primitive Pade router writes the whole kernel as {(SP,SQ):S in W}, with gcd(P,Q)=1 and ell=max(deg P,deg Q)<=3d-2h-1, and writes every counted pair uniquely as (f0+Q tau,g0-P tau), deg tau<k-ell; distinct full cores intersect in at most k-ell-1 points. The maximal selected post-strip family in this exact normal form satisfies 25|R_d|<=17n^2. Maximality, first-match liveness, and strip ownership remain load-bearing; no locator-pencil transport is assumed.",
    "refs": [
     "critical/nodes/xr_band_forced_commonroot_syzygy_count/statement.md",
     "critical/nodes/xr_band_forced_commonroot_syzygy_count/attack.md"
@@ -28095,6 +28095,23 @@
     "background/nodes/xr_ov_slope_free_reduction/statement.md",
     "background/nodes/xr_ov_slope_free_reduction/proof.md",
     "background/nodes/xr_ov_slope_free_reduction/verify.py"
+   ]
+  },
+  {
+   "id": "xr_deficient_window_primitive_pade_pencil_router",
+   "title": "XR deficient-window primitive Pade-pencil normal form",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On every official high-band depth, if the deficient maximal selected family is nonempty, then r'=n-k-d>2d-2 forces every two left syzygies to have zero polynomial determinant. Hence the complete kernel is {(SP,SQ):S in W} for one coprime nonproportional primitive pair P,Q. If ell=max(deg P,deg Q) and G is the forced common H-root set, then ell>=1, ell+|G|<=d-1, dim K<=d-ell-|G|, the primitive error relation P(u-f)+Q(v-g)=0 holds off G, and every counted codeword pair lies uniquely in one affine family (f0+Q tau,g0-P tau), deg tau<k-ell. Distinct pair cores intersect in at most k-ell-1 points. The residual |G|>=2(h-d) can occur only for d>=ceil((2h+2)/3), with ell<=3d-2h-1. No occupancy count or locator-pencil payment is asserted.",
+   "refs": [
+    "background/nodes/xr_deficient_window_primitive_pade_pencil_router/statement.md",
+    "background/nodes/xr_deficient_window_primitive_pade_pencil_router/proof.md",
+    "background/nodes/xr_deficient_window_primitive_pade_pencil_router/claim_contract.md",
+    "background/nodes/xr_deficient_window_primitive_pade_pencil_router/dependency_subdag.md",
+    "background/nodes/xr_deficient_window_primitive_pade_pencil_router/audit.md",
+    "background/nodes/xr_deficient_window_primitive_pade_pencil_router/result.md",
+    "background/nodes/xr_deficient_window_primitive_pade_pencil_router/lineage.md",
+    "background/nodes/xr_deficient_window_primitive_pade_pencil_router/verify.py"
    ]
   }
  ],
@@ -53168,6 +53185,16 @@
    "from": "xr_ov_slope_free_reduction",
    "to": "xr_support4_structure",
    "kind": "ref"
+  },
+  {
+   "from": "xr_deficient_window_rational_direction_payment",
+   "to": "xr_deficient_window_primitive_pade_pencil_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_deficient_window_primitive_pade_pencil_router",
+   "to": "xr_band_forced_commonroot_syzygy_count",
+   "kind": "ev"
   }
  ]
 }

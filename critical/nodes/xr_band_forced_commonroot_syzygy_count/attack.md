@@ -1,14 +1,16 @@
 # Attack plan
 
-1. Express the common locator of `G_d` as the mandatory factor of both
-   components of every Pade syzygy.
-2. Test whether the factor is already owned by the containment,
-   common-GCD, quotient, or cross-bucket first-match cells. A match
-   must preserve the exact band owner and cannot be inferred from
-   terminology alone.
-3. Otherwise quotient the syzygy space by the common factor with
-   explicit finite-window boundary terms, then repeat the rational
-   direction payment on the reduced system.
-4. The lower high-depth range
-   `d<=floor((2h+1)/3)` is already empty in this target because a
-   nonproportional degree-`<d` syzygy cannot force enough roots.
+1. Count the surviving parameter polynomials `tau`, not raw locators.
+   Retain full-core maximality, two selected live slopes, and the prior
+   strip owner in the parameter predicate.
+2. Exploit the strengthened pairwise cap `k-ell-1`. Determine whether a
+   punctured Johnson, support-flag, or first-match incidence bound becomes
+   row-sharp after the `ell`-point gain.
+3. Split by the primitive direction degree
+   `1<=ell<=3d-2h-1`. The smallest `ell` cells are the closest candidates
+   for an existing polynomial-pencil or bounded-deficiency owner.
+4. Do not invoke the upstream moving-root theorem without a transport:
+   it counts split locators in a projective coefficient pencil, whereas
+   this family is affine in codeword-pair space.
+5. The whole range `d<ceil((2h+2)/3)` is proved empty. No computation
+   should be spent there.

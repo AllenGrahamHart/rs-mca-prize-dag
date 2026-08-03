@@ -17174,3 +17174,24 @@ two exact leaves are the full-joint-rank split-divisor count and the
 deficient kernel with at least `2(h-d)` forced common roots. The
 lower high-depth range through `floor((2h+1)/3)` has no deficient
 common-root remainder.
+
+### Primitive Pade-pencil normal form for the forced-root leaf
+
+The remaining deficient leaf is now narrower than a common-factor
+census. A nonempty maximal family has joint error support
+`r'=n-k-d>2d-2`. Therefore the determinant of any two left syzygies
+vanishes at more points than its degree and is identically zero. The
+whole kernel has one coprime primitive direction:
+
+```text
+K_d={(SP,SQ):S in W}.
+```
+
+If `ell=max(deg P,deg Q)` and `g=|G_d|`, then
+`ell+g<=d-1`. Every counted codeword pair lies uniquely in one affine
+family `(f_0+Q tau,g_0-P tau)`, `deg tau<k-ell`, and distinct joint
+cores intersect in at most `k-ell-1` points. In the live forced-root
+residual `g>=2(h-d)`, this forces
+`d>=ceil((2h+2)/3)` and `ell<=3d-2h-1`. The red is now the owner-aware
+count of these `tau` parameters; upstream one-pencil moving-root control
+does not apply without a locator-currency transport.

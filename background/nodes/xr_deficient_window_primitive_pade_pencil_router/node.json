@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1804,
+  "node": {
+    "id": "xr_deficient_window_primitive_pade_pencil_router",
+    "title": "XR deficient-window primitive Pade-pencil normal form",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On every official high-band depth, if the deficient maximal selected family is nonempty, then r'=n-k-d>2d-2 forces every two left syzygies to have zero polynomial determinant. Hence the complete kernel is {(SP,SQ):S in W} for one coprime nonproportional primitive pair P,Q. If ell=max(deg P,deg Q) and G is the forced common H-root set, then ell>=1, ell+|G|<=d-1, dim K<=d-ell-|G|, the primitive error relation P(u-f)+Q(v-g)=0 holds off G, and every counted codeword pair lies uniquely in one affine family (f0+Q tau,g0-P tau), deg tau<k-ell. Distinct pair cores intersect in at most k-ell-1 points. The residual |G|>=2(h-d) can occur only for d>=ceil((2h+2)/3), with ell<=3d-2h-1. No occupancy count or locator-pencil payment is asserted.",
+    "refs": [
+      "background/nodes/xr_deficient_window_primitive_pade_pencil_router/statement.md",
+      "background/nodes/xr_deficient_window_primitive_pade_pencil_router/proof.md",
+      "background/nodes/xr_deficient_window_primitive_pade_pencil_router/claim_contract.md",
+      "background/nodes/xr_deficient_window_primitive_pade_pencil_router/dependency_subdag.md",
+      "background/nodes/xr_deficient_window_primitive_pade_pencil_router/audit.md",
+      "background/nodes/xr_deficient_window_primitive_pade_pencil_router/result.md",
+      "background/nodes/xr_deficient_window_primitive_pade_pencil_router/lineage.md",
+      "background/nodes/xr_deficient_window_primitive_pade_pencil_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_deficient_window_rational_direction_payment",
+      "order": 5014
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_band_forced_commonroot_syzygy_count",
+      "order": 5015
+    }
+  ],
+  "refutes": []
+}
