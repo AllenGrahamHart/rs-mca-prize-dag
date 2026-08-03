@@ -13,6 +13,7 @@
           + DE-P6-1: 48 [PROVED]
           + DE-P7-1: 48 [PROVED]
           + DE-P8-1: 48 [PROVED]
+          + DE-P9-1: 48 [PROVED]
                               |
                               |
                               v
@@ -25,7 +26,7 @@
                     rate-half band [OPEN]
 ```
 
-The displayed structural and exclusion edges are `req`.  The seven aggregate
-children pay matching indices zero through eight for all parallel `DE`
+The displayed structural and exclusion edges are `req`.  The eight aggregate
+children pay matching indices zero through nine for all parallel `DE`
 missing copies.  Edges to `rate_half_band_closure` remain evidence-only until
 the remaining outside ledger and complete cell-3 exclusion are proved.

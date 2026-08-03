@@ -16055,6 +16055,47 @@ Cycle burn-down: start `32f939e7`; result `PROVED`; DAG delta
 zero. The 32-container Modal census completed in one bounded wave under the
 five-minute campaign cap; the host performed only bounded validation.
 
+### Work-cycle theorem: positive 433-1b cell-3 DE pairing-9 block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing=9
+canonical matching:       ((0,4),(1,2),(3,5))
+raw atlas cover:          3 DE copies x 1 matching x 4 source signs
+                          x 4 target lanes = 48 cases
+new computed cover:       8 exact source rows at xi in {0,2}, each covering
+                          all four target lanes = 32 cases
+new transport cover:      xi=1 = 16 raw cases
+variable roles:           u=df, d=u/f, e=de/d
+paired cuts:              quadratic P_u for (second_de,df), quadratic P_f
+                          for (de,bf)
+missing relation:         (u^2+eta de f^2)^2-s f^2 u^2=0
+elimination:              degree-eight eliminant in f; reduce modulo P_f,
+                          then one six-dimensional norm
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       every norm and intermediate exceptional root lifted
+row profiles:             xi=0: 15 candidate r, 18 source points, 4 (u,f);
+                          xi=2: 15 candidate r, 36 source points, 6 (u,f)
+aggregate direct replay:  120 candidate r values, 216 source points,
+                          40 (u,f) candidates, 8 f=0 boundaries
+terminal mechanism:       all 128 nonboundary
+                          (sigma_o ef,sigma_c cf) evaluations are nonzero
+terminal ledgers:         0 witnesses, 0 unresolved
+result:                   complete 48-case pairing-9 block PROVED empty
+Modal apps:               ap-k38zMMOPvBSMhX9pvGQiFR pilot,
+                          ap-f4Z2nk66gSaE7WuaR0pLfC census
+paid DE block:            xi in {0,1,2}, pairing in {0,1,2,3,4,5,6,7,8,9},
+                          480 raw cases
+next route step:          derive pairing 10 with pairs
+                          (de,bf),(second_de,sigma_o ef),(df,sigma_c cf)
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `85c93eae`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The eight-container Modal census completed under the five-minute
+campaign cap; the host performed only bounded validation.
+
 ### Work-cycle theorem: positive 433-1b cell-14 kernel normalization boundary
 
 ```text

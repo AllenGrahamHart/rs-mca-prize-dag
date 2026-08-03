@@ -10,8 +10,8 @@ Matching 10 is the next canonical matching:
 = (de,bf), (second_de,sigma_o ef), (df,sigma_c cf).
 ```
 
-Its first two pairs again suggest a shared-`f` route, but the lowest-degree
-choice should be derived before a new norm campaign. The separate
-`xi=3,pairing=0` branch still needs a lower-degree shared-`f` elimination.
+Derive its lowest-degree shared-`f` route before another norm campaign. The
+separate `xi=3,pairing=0` branch still needs a lower-degree shared-`f`
+elimination.
 
 Do not infer complete cell-3 closure from the ten paid matching indices.
