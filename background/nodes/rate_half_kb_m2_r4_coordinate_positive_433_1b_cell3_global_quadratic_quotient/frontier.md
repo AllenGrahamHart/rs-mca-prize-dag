@@ -1,9 +1,9 @@
 # Frontier
 
 The six-basis norm route, nested-quadratic cut, finite direct solvers, and
-parallel-edge transport have now proved all `624` cases with
-`xi in {0,1,2}` and `pairing in {0,1,2,3,4,5,6,7,8,9,10,11,12}`.  The next route decision is
-between `pairing=13` for the parallel-`DE` missing block and
+parallel-edge transport have now proved all `672` cases with
+`xi in {0,1,2}` and `pairing in {0,1,2,3,4,5,6,7,8,9,10,11,12,13}`.  The next route decision is
+between `pairing=14` for the parallel-`DE` missing block and
 `xi=3,pairing=0` in the localized quadratic algebra
 
 ```text
@@ -23,5 +23,5 @@ branch still needs a lower elimination degree or shared-`f` structure.
 
 Do not return to the monolithic six-variable SymPy expansion or Singular at
 the deployed characteristic.  Do not call a quadratic relation a
-parametrization, and do not infer complete cell-3 closure from the thirteen paid
+parametrization, and do not infer complete cell-3 closure from the fourteen paid
 parallel-`DE` matching indices.
