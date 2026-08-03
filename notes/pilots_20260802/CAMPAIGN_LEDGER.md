@@ -528,3 +528,25 @@ TARGET's reduction-of-record sentences now each have a PROVED evidence
 node behind them. Mint queue remainder: F2 antipodal lemma +
 parity-defect certificate, P-B L1 + design ceiling + block dichotomy
 (second mint-prep pilot when scheduled); the seventh-node candidate.
+
+## 2026-08-03: cell-14 closure export + round-7 pilot launch
+
+- **EXPORT EXECUTED (#1143, commit b1489664):** wave-42 kernel-boundary +
+  wave-43 CELL-14 COMPLETE CLOSURE packaged as one packet
+  (`kb_mca_v4_m2_r4_coordinate_positive_433_1b_cell14_complete_closure_v1`:
+  note + canonical certificate + self-contained fail-closed verifier
+  replayed PASS in the export checkout + atlas status addendum +
+  agents-log entry). Claims scoped to audited pins 7cbedd5d/db970533,
+  deployed-prime exact, explicit nonclaims. Maintainer comment posted
+  (issuecomment-5164524383). User authorization: "lets package it, and
+  push if ready" (2026-08-03).
+- **ROUND-7 PILOTS LAUNCHED (3 Opus, background):**
+  (1) k_escape_unification — the recorded round-6 anchor: unify |K|
+  (P-A1 un-peelable residual) with the band escape residual;
+  (2) mint2_prep — the recorded MINT REMAINDER: F2 antipodal +
+  parity-defect cert, P-B L1 + design ceiling + block dichotomy
+  (drafts only, honesty-gated);
+  (3) zero_escape_collapse — the band heart's open sub-items: prove
+  rank = 2m for zero-escape cliques (duality route pre-briefed) +
+  V <= m/2. All three write only under notes/pilots_20260803/;
+  coordinator line-audit gates any wiring.
