@@ -176,3 +176,17 @@ included. CONJECTURE OV (overlap => collapse; exhaustive toy support)
 would upgrade to disjointness outright. FINAL STATE OF THIS NOTE: the
 ray side is finished; the open surface is SL-1 + SL-2 (see UPDATE 4)
 plus OV as clean-up. Constant phrasings must be stated AT THE ROWS.
+
+## UPDATE 6 (2026-08-03, SL-1 pilot): the codeword-pair route REOPENS
+
+SL-1 decided: "every member" FALSE (forced at d = h-2 only), "some
+member" TRUE gate-free — and THEOREM 2 upgrades to the WINDOWED count
+over CLEAN members (loss zero at the prize rows, 127.7-bit margin).
+MC is spectrally excluded from the window (2-adic gap; h odd at all
+six rows). SL-1 = L-B via pullback (THEOREM U) — the unification's
+selection leg is a theorem. THE OCCUPANCY LEMMA'S OPEN SURFACE IS NOW
+EXACTLY SL-2: can a NON-COSET admissible family reach a band-proper
+depth with agreement inside the window [k+d, A-2] at > 0.68 n^2
+members? (Structured half excluded by BP parity + spectral exclusion;
+h-even rows would lose the protection.) Plus CONJECTURE OV (clean-up)
+and the round-11 anchor pilots in flight.

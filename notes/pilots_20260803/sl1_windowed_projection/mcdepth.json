@@ -1,0 +1,941 @@
+{
+ "rows": [
+  {
+   "name": "RowC 1/4",
+   "n": 1024,
+   "k": 256,
+   "A": 261,
+   "h": 5,
+   "band_proper": [
+    3,
+    3
+   ],
+   "bp_nonempty": true,
+   "h_odd": true,
+   "n_is_pow2": true,
+   "k_is_pow2": true,
+   "pow2_in_band_proper": [],
+   "pow2_in_ceilh2_to_h": [
+    4
+   ],
+   "v2_h_minus_1": 2,
+   "h_equals_2m_plus_1": true,
+   "BP3_violations": [],
+   "spec_w": [
+    1,
+    2,
+    4
+   ],
+   "n_spec_w": 3
+  },
+  {
+   "name": "RowC 1/8",
+   "n": 1024,
+   "k": 128,
+   "A": 133,
+   "h": 5,
+   "band_proper": [
+    3,
+    3
+   ],
+   "bp_nonempty": true,
+   "h_odd": true,
+   "n_is_pow2": true,
+   "k_is_pow2": true,
+   "pow2_in_band_proper": [],
+   "pow2_in_ceilh2_to_h": [
+    4
+   ],
+   "v2_h_minus_1": 2,
+   "h_equals_2m_plus_1": true,
+   "BP3_violations": [],
+   "spec_w": [
+    1,
+    2,
+    4
+   ],
+   "n_spec_w": 3
+  },
+  {
+   "name": "RowC 1/16",
+   "n": 1024,
+   "k": 64,
+   "A": 67,
+   "h": 3,
+   "band_proper": [
+    2,
+    1
+   ],
+   "bp_nonempty": false,
+   "h_odd": true,
+   "n_is_pow2": true,
+   "k_is_pow2": true,
+   "pow2_in_band_proper": null,
+   "pow2_in_ceilh2_to_h": [
+    2
+   ],
+   "v2_h_minus_1": 1,
+   "h_equals_2m_plus_1": true,
+   "BP3_violations": [],
+   "spec_w": [
+    1,
+    2
+   ],
+   "n_spec_w": 2
+  },
+  {
+   "name": "prize 1/4",
+   "n": 2199023255552,
+   "k": 549755813888,
+   "A": 558345748481,
+   "h": 8589934593,
+   "band_proper": [
+    4294967297,
+    8589934591
+   ],
+   "bp_nonempty": true,
+   "h_odd": true,
+   "n_is_pow2": true,
+   "k_is_pow2": true,
+   "pow2_in_band_proper": [],
+   "pow2_in_ceilh2_to_h": [
+    8589934592
+   ],
+   "v2_h_minus_1": 33,
+   "h_equals_2m_plus_1": true,
+   "BP3_violations": [],
+   "spec_w": [
+    1,
+    2,
+    "...",
+    8589934592
+   ],
+   "n_spec_w": 34
+  },
+  {
+   "name": "prize 1/8",
+   "n": 2199023255552,
+   "k": 274877906944,
+   "A": 283467841537,
+   "h": 8589934593,
+   "band_proper": [
+    4294967297,
+    8589934591
+   ],
+   "bp_nonempty": true,
+   "h_odd": true,
+   "n_is_pow2": true,
+   "k_is_pow2": true,
+   "pow2_in_band_proper": [],
+   "pow2_in_ceilh2_to_h": [
+    8589934592
+   ],
+   "v2_h_minus_1": 33,
+   "h_equals_2m_plus_1": true,
+   "BP3_violations": [],
+   "spec_w": [
+    1,
+    2,
+    "...",
+    8589934592
+   ],
+   "n_spec_w": 34
+  },
+  {
+   "name": "prize 1/16",
+   "n": 2199023255552,
+   "k": 137438953472,
+   "A": 141733920769,
+   "h": 4294967297,
+   "band_proper": [
+    2147483649,
+    4294967295
+   ],
+   "bp_nonempty": true,
+   "h_odd": true,
+   "n_is_pow2": true,
+   "k_is_pow2": true,
+   "pow2_in_band_proper": [],
+   "pow2_in_ceilh2_to_h": [
+    4294967296
+   ],
+   "v2_h_minus_1": 32,
+   "h_equals_2m_plus_1": true,
+   "BP3_violations": [],
+   "spec_w": [
+    1,
+    2,
+    "...",
+    4294967296
+   ],
+   "n_spec_w": 33
+  }
+ ],
+ "control": [
+  {
+   "n": 20,
+   "h": 6,
+   "band_proper": [
+    3,
+    4
+   ],
+   "pow2_in_band_proper": [
+    4
+   ],
+   "BP1_protects": false
+  },
+  {
+   "n": 24,
+   "h": 6,
+   "band_proper": [
+    3,
+    4
+   ],
+   "pow2_in_band_proper": [
+    4
+   ],
+   "BP1_protects": false
+  },
+  {
+   "n": 16,
+   "h": 8,
+   "band_proper": [
+    4,
+    6
+   ],
+   "pow2_in_band_proper": [
+    4
+   ],
+   "BP1_protects": false
+  },
+  {
+   "n": 32,
+   "h": 8,
+   "band_proper": [
+    4,
+    6
+   ],
+   "pow2_in_band_proper": [
+    4
+   ],
+   "BP1_protects": false
+  }
+ ],
+ "checks": [
+  [
+   "A = k + h",
+   "RowC 1/4",
+   true,
+   null
+  ],
+  [
+   "h ODD (BP(3) hypothesis)",
+   "RowC 1/4",
+   true,
+   null
+  ],
+  [
+   "n a power of two (g = gcd(j,n) is a 2-power)",
+   "RowC 1/4",
+   true,
+   null
+  ],
+  [
+   "M1: NO power of two in band proper [ceil(h/2), h-2]",
+   "RowC 1/4 [3,3]",
+   true,
+   []
+  ],
+  [
+   "M1': BP(1) empties the band proper of structured families",
+   "RowC 1/4",
+   true,
+   null
+  ],
+  [
+   "unique 2-power in [ceil(h/2), h] is h-1 (= cascade tier)",
+   "RowC 1/4",
+   true,
+   [
+    4
+   ]
+  ],
+  [
+   "h-1 IS a power of two at this row",
+   "RowC 1/4",
+   true,
+   null
+  ],
+  [
+   "h = 2^m + 1 with m = v_2(h-1)",
+   "RowC 1/4",
+   true,
+   null
+  ],
+  [
+   "M2: 2^(m-1) < ceil(h/2) and h-2 < 2^m",
+   "RowC 1/4 m=2",
+   true,
+   [
+    2,
+    3,
+    3,
+    4
+   ]
+  ],
+  [
+   "M2': v_2(d) <= m-1 for every band-proper d (d < 2^m)",
+   "RowC 1/4 m=2",
+   true,
+   null
+  ],
+  [
+   "M2'': cascade depth h-1 = 2^m is the 2-power the band proper misses",
+   "RowC 1/4",
+   true,
+   null
+  ],
+  [
+   "BP(3): for every 2-power d in [2,h-2], h-d is odd, >1, not a 2-power",
+   "RowC 1/4",
+   true,
+   []
+  ],
+  [
+   "M3: MC tier A-1 is ABOVE the window top A-2",
+   "RowC 1/4",
+   true,
+   null
+  ],
+  [
+   "M3': live tier A is above the window top too",
+   "RowC 1/4",
+   true,
+   null
+  ],
+  [
+   "M3'': window [k+d, A-2] non-empty at both band-proper endpoints",
+   "RowC 1/4",
+   true,
+   null
+  ],
+  [
+   "M4: SPEC ^ WIN(d) = {} at the band-proper endpoints (no coset family contributes to W_d)",
+   "RowC 1/4",
+   true,
+   []
+  ],
+  [
+   "M4': the 2-power spectrum splits BELOW / (empty) / ABOVE",
+   "RowC 1/4",
+   true,
+   [
+    [
+     1,
+     2
+    ],
+    [],
+    [
+     4
+    ]
+   ]
+  ],
+  [
+   "M4'': the ABOVE case is exactly the cascade tier w=h-1 at agreement A-1",
+   "RowC 1/4",
+   true,
+   null
+  ],
+  [
+   "A = k + h",
+   "RowC 1/8",
+   true,
+   null
+  ],
+  [
+   "h ODD (BP(3) hypothesis)",
+   "RowC 1/8",
+   true,
+   null
+  ],
+  [
+   "n a power of two (g = gcd(j,n) is a 2-power)",
+   "RowC 1/8",
+   true,
+   null
+  ],
+  [
+   "M1: NO power of two in band proper [ceil(h/2), h-2]",
+   "RowC 1/8 [3,3]",
+   true,
+   []
+  ],
+  [
+   "M1': BP(1) empties the band proper of structured families",
+   "RowC 1/8",
+   true,
+   null
+  ],
+  [
+   "unique 2-power in [ceil(h/2), h] is h-1 (= cascade tier)",
+   "RowC 1/8",
+   true,
+   [
+    4
+   ]
+  ],
+  [
+   "h-1 IS a power of two at this row",
+   "RowC 1/8",
+   true,
+   null
+  ],
+  [
+   "h = 2^m + 1 with m = v_2(h-1)",
+   "RowC 1/8",
+   true,
+   null
+  ],
+  [
+   "M2: 2^(m-1) < ceil(h/2) and h-2 < 2^m",
+   "RowC 1/8 m=2",
+   true,
+   [
+    2,
+    3,
+    3,
+    4
+   ]
+  ],
+  [
+   "M2': v_2(d) <= m-1 for every band-proper d (d < 2^m)",
+   "RowC 1/8 m=2",
+   true,
+   null
+  ],
+  [
+   "M2'': cascade depth h-1 = 2^m is the 2-power the band proper misses",
+   "RowC 1/8",
+   true,
+   null
+  ],
+  [
+   "BP(3): for every 2-power d in [2,h-2], h-d is odd, >1, not a 2-power",
+   "RowC 1/8",
+   true,
+   []
+  ],
+  [
+   "M3: MC tier A-1 is ABOVE the window top A-2",
+   "RowC 1/8",
+   true,
+   null
+  ],
+  [
+   "M3': live tier A is above the window top too",
+   "RowC 1/8",
+   true,
+   null
+  ],
+  [
+   "M3'': window [k+d, A-2] non-empty at both band-proper endpoints",
+   "RowC 1/8",
+   true,
+   null
+  ],
+  [
+   "M4: SPEC ^ WIN(d) = {} at the band-proper endpoints (no coset family contributes to W_d)",
+   "RowC 1/8",
+   true,
+   []
+  ],
+  [
+   "M4': the 2-power spectrum splits BELOW / (empty) / ABOVE",
+   "RowC 1/8",
+   true,
+   [
+    [
+     1,
+     2
+    ],
+    [],
+    [
+     4
+    ]
+   ]
+  ],
+  [
+   "M4'': the ABOVE case is exactly the cascade tier w=h-1 at agreement A-1",
+   "RowC 1/8",
+   true,
+   null
+  ],
+  [
+   "A = k + h",
+   "RowC 1/16",
+   true,
+   null
+  ],
+  [
+   "h ODD (BP(3) hypothesis)",
+   "RowC 1/16",
+   true,
+   null
+  ],
+  [
+   "n a power of two (g = gcd(j,n) is a 2-power)",
+   "RowC 1/16",
+   true,
+   null
+  ],
+  [
+   "band proper EMPTY (vacuous)",
+   "RowC 1/16",
+   true,
+   null
+  ],
+  [
+   "unique 2-power in [ceil(h/2), h] is h-1 (= cascade tier)",
+   "RowC 1/16",
+   true,
+   [
+    2
+   ]
+  ],
+  [
+   "h-1 IS a power of two at this row",
+   "RowC 1/16",
+   true,
+   null
+  ],
+  [
+   "h = 2^m + 1 with m = v_2(h-1)",
+   "RowC 1/16",
+   true,
+   null
+  ],
+  [
+   "BP(3): for every 2-power d in [2,h-2], h-d is odd, >1, not a 2-power",
+   "RowC 1/16",
+   true,
+   []
+  ],
+  [
+   "M3: MC tier A-1 is ABOVE the window top A-2",
+   "RowC 1/16",
+   true,
+   null
+  ],
+  [
+   "M3': live tier A is above the window top too",
+   "RowC 1/16",
+   true,
+   null
+  ],
+  [
+   "A = k + h",
+   "prize 1/4",
+   true,
+   null
+  ],
+  [
+   "h ODD (BP(3) hypothesis)",
+   "prize 1/4",
+   true,
+   null
+  ],
+  [
+   "n a power of two (g = gcd(j,n) is a 2-power)",
+   "prize 1/4",
+   true,
+   null
+  ],
+  [
+   "M1: NO power of two in band proper [ceil(h/2), h-2]",
+   "prize 1/4 [4294967297,8589934591]",
+   true,
+   []
+  ],
+  [
+   "M1': BP(1) empties the band proper of structured families",
+   "prize 1/4",
+   true,
+   null
+  ],
+  [
+   "unique 2-power in [ceil(h/2), h] is h-1 (= cascade tier)",
+   "prize 1/4",
+   true,
+   [
+    8589934592
+   ]
+  ],
+  [
+   "h-1 IS a power of two at this row",
+   "prize 1/4",
+   true,
+   null
+  ],
+  [
+   "h = 2^m + 1 with m = v_2(h-1)",
+   "prize 1/4",
+   true,
+   null
+  ],
+  [
+   "M2: 2^(m-1) < ceil(h/2) and h-2 < 2^m",
+   "prize 1/4 m=33",
+   true,
+   [
+    4294967296,
+    4294967297,
+    8589934591,
+    8589934592
+   ]
+  ],
+  [
+   "M2': v_2(d) <= m-1 for every band-proper d (d < 2^m)",
+   "prize 1/4 m=33",
+   true,
+   null
+  ],
+  [
+   "M2'': cascade depth h-1 = 2^m is the 2-power the band proper misses",
+   "prize 1/4",
+   true,
+   null
+  ],
+  [
+   "BP(3): for every 2-power d in [2,h-2], h-d is odd, >1, not a 2-power",
+   "prize 1/4",
+   true,
+   []
+  ],
+  [
+   "M3: MC tier A-1 is ABOVE the window top A-2",
+   "prize 1/4",
+   true,
+   null
+  ],
+  [
+   "M3': live tier A is above the window top too",
+   "prize 1/4",
+   true,
+   null
+  ],
+  [
+   "M3'': window [k+d, A-2] non-empty at both band-proper endpoints",
+   "prize 1/4",
+   true,
+   null
+  ],
+  [
+   "M4: SPEC ^ WIN(d) = {} at the band-proper endpoints (no coset family contributes to W_d)",
+   "prize 1/4",
+   true,
+   []
+  ],
+  [
+   "M4': the 2-power spectrum splits BELOW / (empty) / ABOVE",
+   "prize 1/4",
+   true,
+   [
+    [
+     1073741824,
+     2147483648,
+     4294967296
+    ],
+    [],
+    [
+     8589934592
+    ]
+   ]
+  ],
+  [
+   "M4'': the ABOVE case is exactly the cascade tier w=h-1 at agreement A-1",
+   "prize 1/4",
+   true,
+   null
+  ],
+  [
+   "A = k + h",
+   "prize 1/8",
+   true,
+   null
+  ],
+  [
+   "h ODD (BP(3) hypothesis)",
+   "prize 1/8",
+   true,
+   null
+  ],
+  [
+   "n a power of two (g = gcd(j,n) is a 2-power)",
+   "prize 1/8",
+   true,
+   null
+  ],
+  [
+   "M1: NO power of two in band proper [ceil(h/2), h-2]",
+   "prize 1/8 [4294967297,8589934591]",
+   true,
+   []
+  ],
+  [
+   "M1': BP(1) empties the band proper of structured families",
+   "prize 1/8",
+   true,
+   null
+  ],
+  [
+   "unique 2-power in [ceil(h/2), h] is h-1 (= cascade tier)",
+   "prize 1/8",
+   true,
+   [
+    8589934592
+   ]
+  ],
+  [
+   "h-1 IS a power of two at this row",
+   "prize 1/8",
+   true,
+   null
+  ],
+  [
+   "h = 2^m + 1 with m = v_2(h-1)",
+   "prize 1/8",
+   true,
+   null
+  ],
+  [
+   "M2: 2^(m-1) < ceil(h/2) and h-2 < 2^m",
+   "prize 1/8 m=33",
+   true,
+   [
+    4294967296,
+    4294967297,
+    8589934591,
+    8589934592
+   ]
+  ],
+  [
+   "M2': v_2(d) <= m-1 for every band-proper d (d < 2^m)",
+   "prize 1/8 m=33",
+   true,
+   null
+  ],
+  [
+   "M2'': cascade depth h-1 = 2^m is the 2-power the band proper misses",
+   "prize 1/8",
+   true,
+   null
+  ],
+  [
+   "BP(3): for every 2-power d in [2,h-2], h-d is odd, >1, not a 2-power",
+   "prize 1/8",
+   true,
+   []
+  ],
+  [
+   "M3: MC tier A-1 is ABOVE the window top A-2",
+   "prize 1/8",
+   true,
+   null
+  ],
+  [
+   "M3': live tier A is above the window top too",
+   "prize 1/8",
+   true,
+   null
+  ],
+  [
+   "M3'': window [k+d, A-2] non-empty at both band-proper endpoints",
+   "prize 1/8",
+   true,
+   null
+  ],
+  [
+   "M4: SPEC ^ WIN(d) = {} at the band-proper endpoints (no coset family contributes to W_d)",
+   "prize 1/8",
+   true,
+   []
+  ],
+  [
+   "M4': the 2-power spectrum splits BELOW / (empty) / ABOVE",
+   "prize 1/8",
+   true,
+   [
+    [
+     1073741824,
+     2147483648,
+     4294967296
+    ],
+    [],
+    [
+     8589934592
+    ]
+   ]
+  ],
+  [
+   "M4'': the ABOVE case is exactly the cascade tier w=h-1 at agreement A-1",
+   "prize 1/8",
+   true,
+   null
+  ],
+  [
+   "A = k + h",
+   "prize 1/16",
+   true,
+   null
+  ],
+  [
+   "h ODD (BP(3) hypothesis)",
+   "prize 1/16",
+   true,
+   null
+  ],
+  [
+   "n a power of two (g = gcd(j,n) is a 2-power)",
+   "prize 1/16",
+   true,
+   null
+  ],
+  [
+   "M1: NO power of two in band proper [ceil(h/2), h-2]",
+   "prize 1/16 [2147483649,4294967295]",
+   true,
+   []
+  ],
+  [
+   "M1': BP(1) empties the band proper of structured families",
+   "prize 1/16",
+   true,
+   null
+  ],
+  [
+   "unique 2-power in [ceil(h/2), h] is h-1 (= cascade tier)",
+   "prize 1/16",
+   true,
+   [
+    4294967296
+   ]
+  ],
+  [
+   "h-1 IS a power of two at this row",
+   "prize 1/16",
+   true,
+   null
+  ],
+  [
+   "h = 2^m + 1 with m = v_2(h-1)",
+   "prize 1/16",
+   true,
+   null
+  ],
+  [
+   "M2: 2^(m-1) < ceil(h/2) and h-2 < 2^m",
+   "prize 1/16 m=32",
+   true,
+   [
+    2147483648,
+    2147483649,
+    4294967295,
+    4294967296
+   ]
+  ],
+  [
+   "M2': v_2(d) <= m-1 for every band-proper d (d < 2^m)",
+   "prize 1/16 m=32",
+   true,
+   null
+  ],
+  [
+   "M2'': cascade depth h-1 = 2^m is the 2-power the band proper misses",
+   "prize 1/16",
+   true,
+   null
+  ],
+  [
+   "BP(3): for every 2-power d in [2,h-2], h-d is odd, >1, not a 2-power",
+   "prize 1/16",
+   true,
+   []
+  ],
+  [
+   "M3: MC tier A-1 is ABOVE the window top A-2",
+   "prize 1/16",
+   true,
+   null
+  ],
+  [
+   "M3': live tier A is above the window top too",
+   "prize 1/16",
+   true,
+   null
+  ],
+  [
+   "M3'': window [k+d, A-2] non-empty at both band-proper endpoints",
+   "prize 1/16",
+   true,
+   null
+  ],
+  [
+   "M4: SPEC ^ WIN(d) = {} at the band-proper endpoints (no coset family contributes to W_d)",
+   "prize 1/16",
+   true,
+   []
+  ],
+  [
+   "M4': the 2-power spectrum splits BELOW / (empty) / ABOVE",
+   "prize 1/16",
+   true,
+   [
+    [
+     536870912,
+     1073741824,
+     2147483648
+    ],
+    [],
+    [
+     4294967296
+    ]
+   ]
+  ],
+  [
+   "M4'': the ABOVE case is exactly the cascade tier w=h-1 at agreement A-1",
+   "prize 1/16",
+   true,
+   null
+  ],
+  [
+   "h-EVEN control: BP(1) does NOT empty the band proper at h=6",
+   "n=20,h=6",
+   true,
+   {
+    "n": 20,
+    "h": 6,
+    "band_proper": [
+     3,
+     4
+    ],
+    "pow2_in_band_proper": [
+     4
+    ],
+    "BP1_protects": false
+   }
+  ],
+  [
+   "h-EVEN control: d=4 IS a band-proper 2-power at h=6",
+   "n=20,h=6",
+   true,
+   null
+  ],
+  [
+   "no row of record is h-even",
+   "six rows",
+   true,
+   null
+  ]
+ ],
+ "verdict": "PASS"
+}

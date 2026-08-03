@@ -807,3 +807,18 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   realised-family replacement ceiling for P-B + the selector/
   dichotomy identification. Plus gamma_j2_close (heart 7) still
   running from earlier. Explicit-path commits while pilots run.
+
+## 2026-08-03: round-11 pilot 1 BANKED — SL-1 decided; the windowed route reopens
+
+- **sl1_windowed_projection (Opus, retry honoring killed-run PREREG)
+  BANKED** (297 + 34 replayed, 0 failures). "Every member" FALSE
+  (forced at d = h-2, unconditional — the ONE exposed depth); "some
+  member" TRUE gate-free (>= q+1-(n-k-d) clean members); WINDOWED
+  THEOREM 2 survives (min over clean members; 127.7-bit margin at the
+  prize rows; loss < 2^-73 worst case). THEOREM F: MC spectrally
+  excluded from the window — three exhaustive cases, middle = the
+  2-adic gap (band proper strictly between consecutive 2-powers at
+  h = 2^m + 1). THEOREM U: SL-1 = L-B functionals via pencil
+  pullback — the selection leg of the unification is now a THEOREM.
+  Occupancy surface reduces to SL-2 alone (+ OV cleanup). h-even
+  fragility recorded. Remaining round-11 pilots in flight.
