@@ -733,3 +733,16 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   band occupancy at band-proper high depths; SL-1 windowed projection
   (unifies with L-B; next anchor), SL-2 Pro-brief, SL-3 diagnostic.
   UPDATE 4 applied. Pilots 2-4 running.
+
+## 2026-08-03: round-10 pilot 2/4 BANKED — maelcar audit: no collisions; SOL_TARGET_4 at risk
+
+- **maelcar_audit (Opus) BANKED.** #1145/#1146 L1: verified/plausible-
+  unreplayed, cite-with-scope (S6 <= 20 only on 2/252 supports);
+  #1147 Paper-D: VERIFIED strongest (counterexample replayed
+  independently, T_sm = 22476 / max K = 26 exact); #1148 M31 hull:
+  route cuts verified, DOMINATED in applicability by our chamber
+  fence. Zero collisions/exposure both ways. T4 <-> T_sm bridge
+  proved at (32,97) and adopted. HIGH: SOL_TARGET_4 as stated lacks a
+  q-vs-N hypothesis and their admissible n=128 row gives T4/N^3 =
+  2.87, exponent ~N^5.6 at bounded index — reprice-or-expect-
+  falsification SURFACED; decisive N=256 q=769 run = COMPUTE REQUEST.
