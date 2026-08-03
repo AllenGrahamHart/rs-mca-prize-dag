@@ -17002,7 +17002,6 @@ failed-route fence:       pairing-4 cached-product retry again crossed 300s
 nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
                           MCA, or Prize closure
 ```
-
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
