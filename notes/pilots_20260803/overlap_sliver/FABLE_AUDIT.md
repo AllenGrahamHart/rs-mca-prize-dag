@@ -29,3 +29,12 @@ high-window exclusion, Pro-brief scale) on the codeword-pair side,
 plus CONJECTURE OV as a clean-up target. Decision stack for the user:
 SOL_TARGET_4 reprice (task #36); SL-2 Pro brief; SL-1 pilot; PF2/PF3
 + N=256 q=769 compute requests (Modal).
+
+## Dated addendum (2026-08-03, OV pilot): CONJECTURE OV restated
+slope-free — Jperp := intersection of (W_a + W_b) over pairs = 0
+(proved: Jperp = 0 => Ann = 0 for every slope tuple). This file's
+3.3e12-slope-tuple evidence was gathered in the WRONG search space
+(slopes; the obstruction is support-level); the right-space sweep
+(8,400 point-set configs) found 0. The r = d branch is PROVED (incl.
+PG(2,3)); residual = r > d. V <= |U|/2 upgrade STILL BLOCKED. See
+ov_conjecture/.

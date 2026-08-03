@@ -928,3 +928,18 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   non-collapsing systems). C = 1/2 UNCHANGED. Addenda applied to la +
   unified audits. KERNEL NOW: {SL-2-RES, OV, T0-residual, E_j}.
   OV pilot still running.
+
+## 2026-08-03: round-12 pilot 4/4 BANKED — ROUND 12 COMPLETE; the kernel in sharpest form
+
+- **ov_conjecture (Opus) BANKED** (22/22; OV1-OV8 pre-registered,
+  none fired). OV OPEN but REDUCED slope-free: Jperp = 0 (THEOREM 2;
+  the sliver's slope evidence re-labeled wrong-space); THEOREM 1
+  dictionary explains the sibling wall (gates = always-independent
+  pairs + always-dependent triples); THEOREM 5 proves the r = d
+  branch incl. PG(2,3) (shared-point forcing); residual = r > d
+  (s=1 telescoping cocycle = named next attack); consumers correctly
+  still blocked. ROUND-12 NET: kernel = {SL-2-RES, Jperp = 0 (r > d),
+  T0-residual (t <= 2e-3), E_j/Fourier} — every item sharpest-form
+  with named next attacks. MINT QUEUE (5 packages):
+  xr_window_system_descent, gamma THEOREM D, T0+P-SHARE, OV THEOREM
+  2/5, E_j THEOREM G/H.
