@@ -164,3 +164,15 @@ exclusion; structured half proved by BP(1)/BP(3), which protect the
 lemma by exactly one depth and REQUIRE h odd); (2) the OVERLAP SLIVER
 (unchanged). The min-over-members freedom is dead (SHADOW LEMMA: worth
 256 bits against ~1e12); "positive target #1 species" struck.
+
+## UPDATE 5 (2026-08-03, overlap-sliver pilot — the ray side is FINISHED)
+
+Item (2) as literally phrased (V <= n/2 universal) is REFUTED
+(minimal witness V = 6 > |U|/2; PG(2,3) sharp at V = |U|) — but the
+sliver CLOSES at V <= |U| <= n (Fisher on the constant-lam complement
+design; needs only the band-depth hypothesis), and |U|/n <= 0.2588 at
+all six rows recovers the consumer everywhere it binds, L-B residual
+included. CONJECTURE OV (overlap => collapse; exhaustive toy support)
+would upgrade to disjointness outright. FINAL STATE OF THIS NOTE: the
+ray side is finished; the open surface is SL-1 + SL-2 (see UPDATE 4)
+plus OV as clean-up. Constant phrasings must be stated AT THE ROWS.

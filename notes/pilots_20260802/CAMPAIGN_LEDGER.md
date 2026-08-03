@@ -762,3 +762,15 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   ROWS REMAIN PROTECTED arithmetically; the structural-exclusion hope
   is dead at toy scale. PF2/PF3 full gate = standing COMPUTE REQUEST.
   Pilot 4/4 (overlap_sliver) running.
+
+## 2026-08-03: round-10 pilot 4/4 BANKED — sliver CLOSED; ROUND 10 COMPLETE; ray side FINISHED
+
+- **overlap_sliver (Opus) BANKED** (33/33; OS2 fired as predicted).
+  V <= |U| <= n PROVED (Fisher, self-contained, sharp at PG(2,3));
+  literal n/2 phrasing refuted (third coordinator wording defect —
+  anchor rule extended: bounds stated AT THE ROWS); |U|/n <= 0.2588
+  at all six rows serves the consumer everywhere, L-B residual
+  covered; O1 subsumes D2+D3; CONJECTURE OV open (exhaustive toy
+  support, up to 2.96e12 tuples). RAY SIDE FINISHED. Open surface:
+  SL-1, SL-2, OV. DECISION STACK: SOL_TARGET_4 reprice (#36); SL-2
+  Pro brief; SL-1 pilot; PF2/PF3 + N=256 compute requests.
