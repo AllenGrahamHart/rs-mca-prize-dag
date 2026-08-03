@@ -16096,6 +16096,53 @@ Cycle burn-down: start `85c93eae`; result `PROVED`; DAG delta
 zero. The eight-container Modal census completed under the five-minute
 campaign cap; the host performed only bounded validation.
 
+### Work-cycle theorem: positive 433-1b cell-3 DE pairing-10 block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing=10
+canonical matching:       ((0,4),(1,3),(2,5))
+raw atlas cover:          3 DE copies x 1 matching x 4 source signs
+                          x 4 target lanes = 48 cases
+new computed cover:       16 source rows at xi in {0,2}, each fixing
+                          sigma_o and covering both sigma_c lanes = 32 cases
+new transport cover:      xi=1 = 16 raw cases
+variable roles:           u=ef, e=u/f, d=de/e
+paired cuts:              quadratic P_u for (second_de,sigma_o ef),
+                          quadratic P_f for (de,bf)
+missing relation:         (u^2+eta de f^2)^2-s f^2 u^2=0
+elimination:              degree-eight eliminant in f; reduce modulo P_f,
+                          then one six-dimensional norm
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       every norm and intermediate exceptional root lifted
+row profiles:             xi=0: 15 candidate r, 18 source points, 4 (u,f);
+                          xi=2: 15 candidate r, 36 source points, 6 (u,f)
+aggregate direct replay:  240 candidate r values, 432 source points,
+                          80 (u,f) candidates, 16 f=0 boundaries
+terminal mechanism:       all 128 nonboundary (df,sigma_c cf) evaluations
+                          are nonzero
+terminal ledgers:         0 witnesses, 0 unresolved
+result:                   complete 48-case pairing-10 block PROVED empty
+Modal apps:               ap-MT5vbroCNXZw8u2xOGGPSW pilot,
+                          ap-Uy5KWxYrU6kovbAdxJLjaR census
+artifact custody:         compiler sha256 24a4054b79b5fdd44ecf424eccc5d6c2
+                          27ee28ab18fbaa04ae5edf15298a7b16;
+                          census sha256 41c07c85a6360cf66ef3598306772a400
+                          ab9352ee67005894b4dda58098e1632
+paid DE block:            xi in {0,1,2},
+                          pairing in {0,1,2,3,4,5,6,7,8,9,10},
+                          528 raw cases
+next route step:          derive pairing 11 with pairs
+                          (de,bf),(second_de,sigma_c cf),(df,sigma_o ef)
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `03c698b5`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The 16-container exact census completed in one bounded Modal wave;
+all roots were directly lifted and the host performed only bounded
+validation.
+
 ### Work-cycle theorem: positive 433-1b cell-14 kernel normalization boundary
 
 ```text
