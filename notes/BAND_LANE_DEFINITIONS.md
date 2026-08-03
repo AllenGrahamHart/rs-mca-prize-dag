@@ -66,3 +66,16 @@ channels that can defeat per-ray charge 2 are core rays of escape 0
 (the zero-escape collapse, the named open sub-item) and escape 1 (named
 by the pilot; whether it reaches the gate-clean admissible class is
 OPEN — flag 5 of the report).
+
+## Addendum 2 (2026-08-03, later same day): item 12' channel status update
+
+The collapse pilot settles the escape-0 channel AT `V = 4` positively
+(per-ray charge >= 2 holds there unconditionally, Prop 6 of
+`notes/pilots_20260803/zero_escape_collapse/REPORT.md`) while REFUTING
+the zero-escape collapse itself and `V <= m/2` as general statements.
+The occupancy heart's remaining open channels are exactly: (i) V >= 5
+zero-escape systems with `(V-3)t + |A_0| <= k - 1` (below the
+Corollary-3b kill threshold), and (ii) escape-1 core rays (gate-clean
+realizability OPEN, unification flag 5). Wherever this file or item 12'
+says "the zero-escape collapse, the named open sub-item", read: struck
+as a conjecture; survives only as fixture theorems.

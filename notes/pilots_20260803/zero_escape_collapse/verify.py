@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 r"""Verifier for the zero-escape collapse pilot (2026-08-03).
 
-PROFILE: local.   Run from the repo root:
-    tools/ramguard local -- python3 \
+PROFILE: tiny.   Run from the repo root:
+    tools/ramguard tiny -- python3 \
         notes/pilots_20260803/zero_escape_collapse/verify.py
 
 Pure python integers, deterministic (own LCG), no third-party imports.
@@ -19,12 +19,15 @@ WHAT IS CHECKED
      verified by exhibiting the interpolating polynomials p_a.
   B  THEOREM 1' (W-model).  Ann = {(lam,mu) in W x W : lam + z_a mu in W_a},
      W = F^U / RS_k|_U (dim m), W_a = image of F^{A_a} (dim |A_a|).
-  C  THEOREM 2 (MDS-chain criterion, PROVED) => collapse.
+  C  THEOREM 2 (MDS-chain criterion, PROVED) => collapse; PROPOSITION 5
+     (improved floor rank >= m + dim sum_{a<b} C_{S_a ^ S_b}).
   D  THEOREM 3 (triple-cover criterion, PROVED) => collapse.
-  E  THEOREM 4 (block degree criterion, PROVED) => collapse for EVERY slope
+  E  COROLLARY 3b (block form of THEOREM 3) => collapse for EVERY slope
      tuple; exhaustive-modulo-affine slope sweep on the band-mint shape.
-  F  THEOREM 5 (V = 4 classification, PROVED): dim Ann equals the dimension
+  F  THEOREM 4 (V = 4 classification, PROVED): dim Ann equals the dimension
      of the explicit pencil system in (p_3, p_4).
+  J  PROPOSITION 6 (PROVED): at V = 4 both gates force rank >= 3 t_max + 3
+     >= 9 > 2V -- the occupancy floor survives the refutation at V = 4.
   G  THE COUNTEREXAMPLES X1/X2/X3 -- zero-escape, full combinatorial gate,
      rank = 2m - deficit with deficit >= 1; pencil + cross-ratio certificate;
      exhaustive-modulo-affine slope sweep = exactly the cross-ratio locus;
@@ -309,12 +312,18 @@ def triple_cover_criterion(supports, k):
     return False
 
 
-def block_degree_criterion(supports, k):
-    """THEOREM 4: two rays a,b such that for every j the set
-    (S_1 ^ S_2) \\ S_j  has  |S_j ^ S_a ^ S_b| >= k  OR the forced vanishing
-    locus of p_j inside S_j exceeds k-1.  Implemented in the block form:
-    p_j must vanish on S_j ^ S_a ^ S_b, so |S_j ^ S_a ^ S_b| >= k kills it."""
-    return triple_cover_criterion(supports, k)
+def improved_floor(supports, xs, k, q):
+    """PROPOSITION 5: rank >= m + dim sum_{a<b} C_{S_a ^ S_b}."""
+    V = len(supports)
+    U = set()
+    for S in supports:
+        U |= set(S)
+    pieces = []
+    for a, b in combinations(range(V), 2):
+        I = tuple(sorted(set(supports[a]) & set(supports[b])))
+        if len(I) > k:
+            pieces += dual_basis(I, xs, k, q)
+    return len(U) - k + (rank_mod(pieces, q) if pieces else 0)
 
 
 def forced_vanishing_sizes(supports, k, a, b):
@@ -326,7 +335,7 @@ def forced_vanishing_sizes(supports, k, a, b):
 
 # ------------------------------------------------- V = 4 pencil classification
 def v4_pencil_dim(supports, slopes, xs, k, q, U):
-    """THEOREM 5: dim of the (p_3,p_4) pencil system.  Blocks A_i = U \\ S_i,
+    """THEOREM 4: dim of the (p_3,p_4) pencil system.  Blocks A_i = U \\ S_i,
     A_0 = points in all four supports."""
     assert len(supports) == 4
     Ss = [set(S) for S in supports]
@@ -502,7 +511,7 @@ def main():
           "same dimension as the interpolation model on X1/X2/X3", okW)
 
     # ------------------------------------------------------------- section F
-    print("--- F: THEOREM 5 (V = 4 pencil classification) ---")
+    print("--- F: THEOREM 4 (V = 4 pencil classification) ---")
     tested = bad = 0
     for _ in range(60):
         q = [17, 19, 23][rng.randint(0, 2)]
@@ -532,7 +541,7 @@ def main():
                          F["U"]) != F["deficit"]:
             bad += 1
         tested += 1
-    check("F: THEOREM 5 -- for V = 4 the deficit 2m - rank equals the "
+    check("F: THEOREM 4 -- for V = 4 the deficit 2m - rank equals the "
           "dimension of the pencil system: p_3 = 0 on A_0 u A_4, p_4 = 0 on "
           "A_0 u A_3, (z_4-z_2)p_3 - (z_3-z_2)p_4 = 0 on A_0 u A_1, "
           "(z_4-z_1)p_3 - (z_3-z_1)p_4 = 0 on A_0 u A_2, deg < k "
@@ -692,15 +701,26 @@ def main():
           f"C_X + C_S = C_{{X u S}} ({tots} samples)",
           tots >= 10 and badsum == 0, f"{badsum} bad")
 
+    fl = []
+    for name, F in fixtures.items():
+        f0 = improved_floor(F["supports"], F["xs"], F["k"], F["q"])
+        fl.append((name, f0, F["rank"], F["m"]))
+    check("C: PROPOSITION 5 (improved unconditional floor) -- "
+          "rank >= m + dim sum_{a<b} C_{S_a ^ S_b}, strictly better than the "
+          "banked floor rank >= m: "
+          + ", ".join(f"{nm}: floor {f0} <= rank {rk} (banked floor was {m0})"
+                      for nm, f0, rk, m0 in fl),
+          all(f0 <= rk and f0 > m0 for _, f0, rk, m0 in fl))
+
     # ------------------------------------------------------------- section E
-    print("--- E: THEOREM 4 (block degree criterion) + exhaustive sweep ---")
+    print("--- E: COROLLARY 3b (block form of the triple-cover criterion) ---")
     xsE = list(range(1, 11))
     supE = [tuple(sorted(set(range(10)) - {2 * i, 2 * i + 1})) for i in range(5)]
     kE, qE = 3, 11
     fE = system_facts(supE, xsE, kE, qE)
     forced = forced_vanishing_sizes(supE, kE, 0, 1)
-    check("E: band-mint SHAPE (k=3, V=5, blocks of 2) satisfies the degree "
-          "criterion -- normalising on rays 1,2 forces every p_j to vanish "
+    check("E: COROLLARY 3b -- the band-mint SHAPE (k=3, V=5, blocks of 2) "
+          "satisfies it: normalising on rays 1,2 forces every p_j to vanish "
           f"on |S_j ^ S_1 ^ S_2| = {forced[0]} points while deg p_j <= "
           f"{kE - 1}: p_j = 0, so Ann = 0 for EVERY slope tuple",
           all(v >= kE for v in forced), f"forced vanishing {forced}")
@@ -744,7 +764,7 @@ def main():
     forcedZ = forced_vanishing_sizes(supZ, rowZ.k, 0, 1)
     check("H: and it is now EXPLAINED, not measured -- all triple "
           f"intersections = {fz['trip']} >= k = {rowZ.k}, so THEOREM 3 "
-          "(triple-cover) and THEOREM 4 (degree) both fire; the collapse at "
+          "(triple-cover) and COROLLARY 3b both fire; the collapse at "
           "this fixture is a THEOREM for every slope tuple.  NOTE: those "
           "triples EXCEED k-1, i.e. this fixture VIOLATES the k-packing "
           "gate -- the criteria that force the collapse are exactly the ones "
@@ -755,9 +775,56 @@ def main():
     check("H: the two exhaustively swept clique fixtures of the record "
           "(k=9,V=4,|U|=16,|A_i|=3,|A_0|=4 and k=11,V=4,|U|=16) are NOT "
           "covered by THEOREM 3 (triples = 7 < k): their collapse rests on "
-          "the pencil condition of THEOREM 5 failing for those particular "
+          "the pencil condition of THEOREM 4 failing for those particular "
           "supports -- a SUPPORT property the slope sweeps could not see",
           16 - 3 - 3 - 3 == 7 and 7 < 9)
+
+    # ------------------------------------------------------------- section J
+    print("--- J: PROPOSITION 6 (the occupancy floor survives at V = 4) ---")
+    # J1: dim Ann <= (k - t_0 - t)^+ , the injectivity bound of THEOREM 4
+    badJ = totJ = 0
+    for name, F in fixtures.items():
+        Ss = [set(S) for S in F["supports"]]
+        t = len(F["U"]) - len(F["supports"][0])
+        t0 = len(F["U"] - (Ss[0] | Ss[1] | Ss[2] | Ss[3])
+                 ) if False else len(set.intersection(*Ss))
+        totJ += 1
+        if F["deficit"] > max(0, F["k"] - t0 - t):
+            badJ += 1
+    check("J: THEOREM 4 injectivity bound -- dim Ann <= (k - |A_0| - t)^+ "
+          "on X1/X2/X3 (each of p_3, p_4, E_1, E_2 alone determines the "
+          "annihilator and vanishes on A_0 u A_i)", badJ == 0 and totJ == 3,
+          f"{badJ} violations")
+    # J2: the arithmetic of PROPOSITION 6 over a parameter scan
+    scanned = viol = 0
+    for kk in range(2, 31):
+        for t0 in range(0, 31):
+            for t in range(0, 16):
+                Un = t0 + 4 * t
+                if Un <= kk:
+                    continue
+                if not (Un - 2 * t >= kk + 1):            # pairwise intersecting
+                    continue
+                if not (t0 + t <= kk - 1):                # k-packing
+                    continue
+                if Un - t <= kk:                          # |S_a| > k
+                    continue
+                scanned += 1
+                bound = 2 * (Un - kk) - max(0, kk - t0 - t)
+                if not (t >= 2 and bound >= 9):
+                    viol += 1
+    check("J: PROPOSITION 6 -- for EVERY V = 4 zero-escape system with "
+          "equal supports, pairwise |S_a ^ S_b| >= k+1 and k-packing "
+          "|S_a ^ S_b ^ S_c| <= k-1, the two gates force the block size "
+          "t >= 2 and rank >= 2m - (k - |A_0| - t)^+ >= 9 > 8 = 2V: the "
+          "per-ray occupancy charge 2 SURVIVES the refutation at V = 4 "
+          f"({scanned} admissible parameter triples (k, |A_0|, t) scanned)",
+          scanned >= 500 and viol == 0, f"{viol} violations")
+    check("J: and the counterexamples respect it -- "
+          + ", ".join(f"{nm}: rank {F['rank']} >= 3t+3"
+                      for nm, F in fixtures.items()),
+          all(F["rank"] >= 3 * (len(F["U"]) - len(F["supports"][0])) + 3
+              for F in fixtures.values()))
 
     # ------------------------------------------------------------- section I
     print("--- I: consequences ---")
@@ -777,7 +844,7 @@ def main():
     for nm, F in fixtures.items():
         note(f"I[{nm}]: deficit = {F['deficit']} "
              f"(k={F['k']}, h={F['h']}, V={F['V']}, m={F['m']}) -- MEASURED "
-             "value of dim Ann at this fixture; THEOREM 5 gives the exact "
+             "value of dim Ann at this fixture; THEOREM 4 gives the exact "
              "linear system, no bound on the deficit is claimed")
 
     if FAILURES:

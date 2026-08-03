@@ -569,3 +569,24 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   gate-clean realizability (flag 5). SURFACED: re-pose the heart in U5
   form; commission escape-1 as an anchor. Pilots 2/3 (mint2_prep,
   zero_escape_collapse) still running.
+
+## 2026-08-03: round-7 pilot 2/3 BANKED — zero-escape collapse REFUTED
+
+- **zero_escape_collapse (Opus) AUDITED + BANKED** (FABLE_AUDIT.md;
+  coordinator replay 26/26; PREREG confirmed — X1 and its exact rank
+  predicted BEFORE computation, falsifiers P1-P7 all as registered).
+  BOTH named open sub-items REFUTED: the collapse (gate-clean X1/X2/X3
+  from four pencil fibres + one cross-ratio equation, deficits 1/1/2)
+  and V <= m/2 (X1, X3). Measurement reconciled, not contradicted:
+  slope sweeps at fixed supports are blind to the support-locus
+  obstruction; measured fixtures' collapses UPGRADED to theorems
+  (MDS-chain + triple-cover criteria; band-mint (3,5,3,5) by Cor 3c).
+  HEART SURVIVES: Prop 6 proves charge >= 2 through escape-0 at V=4.
+  Remaining channels: V >= 5 zero-escape below Cor-3b threshold;
+  escape-1. New proved tools: duality criterion, V=4 cross-ratio
+  classification (dual of S4-4), floor rank >= m + dim Sum C_{I_ab}.
+  RowC toy-row kill re-opened (Theorem 3 misses by 3). Addenda applied
+  (support4 addendum 2, definitions addendum 2, TARGET note); REPORT.md
+  persisted by coordinator (pilot's write harness-blocked). SURFACED:
+  commission V >= 5 occupancy + escape-1 realizability as the next two
+  anchors; RowC re-derivation queued. Pilot 3/3 (mint2_prep) running.

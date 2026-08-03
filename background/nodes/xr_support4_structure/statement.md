@@ -203,3 +203,33 @@ coordinator-replayed 18/18):
    residuals looked identical). P-A1's un-peelable core `|K|` is the ray
    side of the SAME operator's greatest fixed point — the two lanes'
    residuals are one covering condition read twice.
+
+## Addendum 2 (2026-08-03, same day, round-7 collapse pilot): claim 7 REFUTED as a general statement
+
+The zero-escape collapse conjecture (`rank = 2m` for zero-escape
+cliques) is **FALSE in general**: gate-clean counterexamples X1/X2/X3
+(`notes/pilots_20260803/zero_escape_collapse/REPORT.md`, coordinator-
+replayed 26/26, falsifiers pre-registered) — zero-escape,
+pairwise-intersecting `>= k+1`, k-packing-SATURATED `V = 4` systems
+built from four fibres of a polynomial pencil plus one cross-ratio
+equation, with `rank = 2m - 1` (X1, X2) and `2m - 2` (X3). The banked
+measurement is NOT contradicted: slope sweeps at fixed supports cannot
+see a support-locus obstruction; on the measured fixtures the collapse
+is now a THEOREM (MDS-chain / triple-cover criteria; the `(3,5,3,5)`
+fixture by Corollary 3c). Consequences of record:
+
+1. Claim 7's label was MEASURED and stays accurate for its fixtures;
+   the GENERAL conjecture is struck. PROVED claims 1-6 and 8 are
+   untouched (none consumed claim 7).
+2. The T3-type consequence needs a collapse CERTIFICATE (Theorem 2/3
+   hypotheses), not zero escape alone.
+3. The secondary criterion's RowC use ("k > 2h^2 holds and the
+   collapse is the load-bearing kill there") is now OPEN: Theorem 3
+   misses the RowC clique by 3 (triples >= 253 vs k = 256); that kill
+   awaits a V >= 5 support-condition argument.
+4. "Non-collapsing => V <= m/2" is FALSE (X1, X3) and is struck;
+   replaced by the proved V = 4 occupancy floor (Prop 6:
+   rank >= min(3t+3, 4t+2) > 2V) and the OPEN V >= 5 question.
+5. New proved tools: the duality criterion (collapse <=> Ann = 0), the
+   V = 4 cross-ratio classification (exact dual of S4-4), and the
+   improved unconditional floor `rank >= m + dim Sum C_{I_ab}`.

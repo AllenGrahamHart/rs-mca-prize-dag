@@ -40,12 +40,17 @@ form (SHARP-OCC, conjectured): `N_d <= floor((n-k+1)/(h-d))` at
 `N_d <= n/2`; sharpest calibration on record: RowC 1/4, U-mechanism
 `N_1 = 510` vs `n/2 = 512` (margin 2).
 
-*(2026-08-03, audited round-7 refinement: a strictly weaker sufficient
+*(2026-08-03, audited round-7 refinements: a strictly weaker sufficient
 hypothesis for the occupancy heart is PROVED available — the iterated
 `(3, k+1)`-core form, item 12' of `notes/BAND_LANE_DEFINITIONS.md`;
-only core rays of escape 0 or 1 can defeat per-ray charge 2. The
-reduction of record above is unchanged; re-posing the open input in the
-weaker form is a surfaced decision, not applied.)*
+only core rays of escape 0 or 1 can defeat per-ray charge 2. Same day,
+the collapse pilot SETTLED the escape-0 channel at `V = 4` positively
+(charge >= 2 proved, Prop 6) while refuting the zero-escape collapse
+and `V <= m/2` as general statements — the heart's remaining open
+channels are exactly V >= 5 zero-escape below the Corollary-3b
+threshold, and escape-1. The reduction of record above is unchanged;
+re-posing the open input in the weaker form is a surfaced decision,
+not applied.)*
 
 Cost side PROVED (two-slope cost theorem): condition rank exactly `2h`
 per generic pair (a FAMILY-RANK statement — per-ray accounting is the
