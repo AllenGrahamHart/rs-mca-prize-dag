@@ -967,3 +967,28 @@ mixed-class systems. The W/D/R/L theorems remain banked unchanged.
   need fresh coordinator line-audit). MINT-4 QUEUE: window-descent
   line-audit + THEOREM D (3-drop) + UPB. Then: stage-2 refactor
   review; export batch (cells 3/6/14); next Codex wave.
+
+## 2026-08-04: STAGE-2 DAG REFACTOR ADOPTED (task #38 complete)
+
+- All three gates PASSED and the design is INVERTED-but-sound: the
+  node-local manifests (node.json per node dir) are the SOURCE; dag.json
+  is the COMPILED compatibility artifact; verify_prize_dag now fails
+  closed on any mismatch; compile_dag.py is deterministic (byte-for-byte
+  for migrated records, deterministic append for new). Edge-ownership
+  rule (one writer per edge: consumer owns req/alt, supplier owns
+  ev/ref-as-refutes) adopted — ends three-agent dag merge conflicts.
+- ADOPTION MECHANICS: merged codex-v11w with -X ours; caught the compile
+  overwriting our dag with THEIR shard set (missing our 2 mint-3 nodes +
+  3 edges) — restored, reconciled shards to OUR truth (no stale shards;
+  their generation already carried the re-pose), recompiled:
+  CONTENT-EQUAL assert passed (1795/4998). Roadmap + compute-requests are
+  now SECTIONED documents (sections = source, monolith compiled); our
+  r3.2 board revision migrated to notes/roadmap/sections/12-*.md.
+  Full chain green: DAG_MANIFEST / prize_dag / census / sharded-result /
+  sectioned-documents / manifest (refreshed).
+- NEW WRITE-PATH OF RECORD: coordinator edits write node.json shards
+  (+ sections for the two sectioned docs), then compile_dag.py --write +
+  compile_sectioned_documents.py --write, then the verify chain. dag.json
+  and the monolithic docs are NEVER hand-edited again. Wire scripts to be
+  ported next mint; wave protocol: shards regenerate locally, never
+  bulk-checked-out.

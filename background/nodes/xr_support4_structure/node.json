@@ -32,8 +32,7 @@
   ],
   "refutes": [
     {
-      "to": "xr_pencil_forcing_t0",
-      "order": 5012
+      "to": "xr_pencil_forcing_t0"
     }
   ]
 }
