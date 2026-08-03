@@ -15970,6 +15970,54 @@ nonclaim:                 no xi4, complete cell-3, K3, LIST, MCA, or Prize
                           closure
 ```
 
+### Work-cycle theorem: positive 433-1b cell-3 xi4 outside-role transport
+
+```text
+input frontier:           all 240 xi4 cases, missing sigma_o ef
+transport:                (d,e,f) -> (sigma_o e,sigma_o d,f)
+full atlas action:        transposes xi3 and xi4; fixes the other five rows
+squared-sum action:       (sigma_o e+f)^2=(e+sigma_o f)^2 and
+                          (sigma_o d+sigma_o f)^2=(d+f)^2
+compact residual order:  identical after deleting xi4 before transport and
+                          xi3 after transport
+matching action:          every one of the 15 canonical indices is fixed
+guard action:             nonzero and pairwise-not-opposite divisor fixed
+lane action:              D/E swap followed by sigma_o gauge on both outside
+                          vertices fixes sigma_c and sigma_o
+source-cell action:       fixes role cell 3 because D,E are outside roles
+rejected-shortcut audit:  the unrelated B/C exchange acts on common roles
+                          and sends role cell 3 to role cell 6
+supplier partition:       six proved xi3 blocks cover matchings 0..14
+exact checker:            sparse integer-polynomial identities in all lanes;
+                          independent 31,104-row integer reconstruction
+result:                   complete xi4 slice, 240 raw cases, PROVED empty
+artifact custody:         compiler sha256
+                          a7a00edbc2caf8757862b240eb5390e4d1ca3c34e75c06b03d87ec0f10e0e897
+Modal spend:              none; exact local replay completes below one second
+```
+
+### Work-cycle theorem: positive 433-1b role-cell-3 complete exclusion
+
+```text
+rank partition:           product rank <=4 or product rank 5
+rank-drop branch:         exact common classifier has unit ideal in every
+                          cell-3 source-sign row
+principal Cartesian set: 7 missing records x 15 matchings x 4 source signs
+                          x 4 target lanes = 1680 raw cases
+parallel-DE payment:      xi in {0,1,2}, all matchings = 720
+single-role payments:     xi3=240, xi4=240, xi5=240, xi6=240
+set-theoretic audit:      supplier scopes pairwise disjoint; union equals the
+                          complete 1680-element Cartesian set
+result:                   deployed positive 433-1b source role cell 3 CLOSED
+DAG delta:                +2 PROVED nodes, +32 edges
+critical-orbit delta:     none; aggregate remains evidence into the open
+                          rate-half band node
+next route step:          audit the complete-cell B/C transport to role cell
+                          6 before selecting another live 433-1b role orbit
+nonclaim:                 no role-cell-6, full 433-1b, positive coordinate,
+                          K3, LIST, MCA, or Prize closure
+```
+
 ### Work-cycle theorem: positive 433-1b cell-3 DE pairing-4 block
 
 ```text
