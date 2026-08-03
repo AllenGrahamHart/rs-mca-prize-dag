@@ -717,3 +717,19 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   structured attack on RS list size at tau = k+ceil(h/2) (min-over-z
   averaging via THEOREM I; obstruction map; ranked sub-lemmas).
   Explicit-path commits while running.
+
+## 2026-08-03: round-10 pilot 1/4 BANKED — stale terminus caught; surface corrected
+
+- **listsize_program (Opus) AUDITED + BANKED** (3/3 verifiers PASS).
+  ADJUDICATION: the assigned RS list-size terminus was refuted
+  2026-08-02 and stale-propagated by CONSOLIDATION UPDATE 3 + the L-D
+  audit (second fifth-surface failure — rule sharpened: same-day grep
+  before handing anchors to pilots). Pilot re-derived the refutation
+  independently (margins match banked verbatim), proved the SHADOW
+  LEMMA (min-over-members worth 256 bits vs ~1e12 deficit; refutation
+  structural + selection-insensitive), localised the occupancy
+  lemma's survival to ONE depth (h-1, BP parity, h odd), and priced
+  the averaging ledger dead. CORRECTED SURFACE: un-reduced two-slope
+  band occupancy at band-proper high depths; SL-1 windowed projection
+  (unifies with L-B; next anchor), SL-2 Pro-brief, SL-3 diagnostic.
+  UPDATE 4 applied. Pilots 2-4 running.

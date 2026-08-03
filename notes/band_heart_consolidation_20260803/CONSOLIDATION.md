@@ -150,3 +150,17 @@ heart: (1) the xr_band_occupancy RS list-size terminus at
 tau = k + ceil(h/2) (primary; codeword-pair side; positive target #1
 species); (2) the OVERLAP SLIVER — overlapping zero-escape block
 systems at e >= 3, V >= 5 (carries the L-B residual via L-A => L-B).
+
+## UPDATE 4 (2026-08-03, list-size pilot — ADJUDICATION CORRECTION)
+
+UPDATE 3's item (1) named a terminus REFUTED the previous day
+(list_bound_transfer R1+R2; the KEY LEMMA node's non-claim; the
+xr_band_occupancy amendment) — the subtraction failure repeated.
+CORRECTED FINAL SURFACE: (1) the un-reduced two-slope band occupancy
+at band-proper high depths [ceil(h/2), h-2] — repair route SL-1
+(windowed projection <= A-2, same species as L-B over-agreement,
+toy-testable), Pro-brief candidate SL-2 (unstructured high-window
+exclusion; structured half proved by BP(1)/BP(3), which protect the
+lemma by exactly one depth and REQUIRE h odd); (2) the OVERLAP SLIVER
+(unchanged). The min-over-members freedom is dead (SHADOW LEMMA: worth
+256 bits against ~1e12); "positive target #1 species" struck.
