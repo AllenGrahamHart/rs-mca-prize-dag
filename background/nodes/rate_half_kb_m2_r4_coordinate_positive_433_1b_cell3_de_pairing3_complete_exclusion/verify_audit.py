@@ -73,9 +73,9 @@ def main():
     require("does not treat vanishing elimination coefficients" in proof and
             "directly solved" in audit,
             "exceptional-stratum discipline")
-    require("matching indices `6,...,14`" in frontier and
+    require("matching indices `7,...,14`" in frontier and
             "do not infer complete cell-3" in frontier and
-            "from the six paid matching indices" in frontier,
+            "from the seven paid matching indices" in frontier,
             "retained frontier")
     print("audit=ok pairing=3 exceptional_roots=lifted boundary_f_zero=32")
 

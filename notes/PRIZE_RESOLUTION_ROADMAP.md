@@ -15936,6 +15936,44 @@ Cycle burn-down: start `4c1f697d3`; result `PROVED`; DAG delta
 zero.  The sixteen-container source census completed in under three minutes
 wall time and used no host computation beyond bounded validation.
 
+### Work-cycle theorem: positive 433-1b cell-3 DE pairing-6 block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing=6
+raw atlas cover:          3 DE copies x 1 matching x 4 source signs
+                          x 4 target lanes = 48 cases
+new computed cover:       32 exact rows at xi in {0,2}
+new transport cover:      xi=1 = 16 raw cases
+variable roles:           u=ef, v=df, d=v/f, e=u/f
+paired cuts:              quadratic P_u for (de,sigma_o ef), quadratic P_v
+                          for (second_de,df)
+missing relation:         de(u+eta v)^2-suv=0
+elimination:              quadratic-quadratic resultant gives quartic in v;
+                          reduce modulo P_v, then one six-dimensional norm
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       every norm and intermediate exceptional root lifted
+four row profiles:        (xi,sigma_o)=(0,-1),(0,+1),(2,-1),(2,+1),
+                          each repeated over 8 source/sigma_c rows
+aggregate direct replay:  352 candidate r values, 480 source points,
+                          48 (u,v) candidates, 32 f=0 boundaries
+terminal mechanism:       32 colored-pair evaluations are nonzero; all
+                          other finite lifts have f=0
+terminal ledgers:         0 witnesses, 0 unresolved
+result:                   complete 48-case pairing-6 block PROVED empty
+Modal app:                ap-r6mR6sLo7dPCgClNYqHrKV
+paid DE block:            xi in {0,1,2}, pairing in {0,1,2,3,4,5,6},
+                          336 raw cases
+next route step:          derive a low-degree cut for pairing 7, whose last
+                          two pairs are (second_de,bf),(df,sigma_c cf)
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `40cda879`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero.  The 32-row census ran in two waves of at most 16 Modal containers;
+all rows completed below 90 seconds and the host performed only validation.
+
 ### Work-cycle theorem: positive 433-1b cell-14 kernel normalization boundary
 
 ```text
