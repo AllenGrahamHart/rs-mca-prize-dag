@@ -1,0 +1,2481 @@
+{
+ "results": [
+  {
+   "name": "BANKED k5h4_core7_2slopes_s11",
+   "desc": "listsize census fixture; two planted live slopes",
+   "n": 14,
+   "k": 5,
+   "h": 4,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    2,
+    2
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 7,
+   "max_projection_agreement": 9,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 1,
+   "P7_violations": 0,
+   "P7_checked": 300,
+   "band_proper_pairs": [
+    {
+     "d": 2,
+     "core": 7,
+     "maxa": 9,
+     "mina": 7,
+     "n_over": 5,
+     "n_live": 2,
+     "clean_members": 97,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": true
+    }
+   ],
+   "windowed": [
+    {
+     "d": 2,
+     "N_raw": 1,
+     "beta": 7,
+     "sum_W": 142,
+     "avg_W": 1.392156862745098,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 97,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 5
+    }
+   ]
+  },
+  {
+   "name": "BANKED k5h4_core7_2slopes_s12",
+   "desc": "listsize census fixture; two planted live slopes",
+   "n": 14,
+   "k": 5,
+   "h": 4,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    2,
+    2
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 7,
+   "max_projection_agreement": 9,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 1,
+   "P7_violations": 0,
+   "P7_checked": 320,
+   "band_proper_pairs": [
+    {
+     "d": 2,
+     "core": 7,
+     "maxa": 9,
+     "mina": 7,
+     "n_over": 5,
+     "n_live": 2,
+     "clean_members": 97,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": true
+    }
+   ],
+   "windowed": [
+    {
+     "d": 2,
+     "N_raw": 1,
+     "beta": 7,
+     "sum_W": 124,
+     "avg_W": 1.2156862745098038,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      1,
+      1,
+      0,
+      1,
+      1
+     ],
+     "n_good_members": 97,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 5
+    }
+   ]
+  },
+  {
+   "name": "BANKED k5h4_core7_1slope",
+   "desc": "L_P = 1: N_d = 0 but the pair still over-agrees",
+   "n": 14,
+   "k": 5,
+   "h": 4,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    2,
+    2
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": false,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": false,
+   "max_joint": 7,
+   "max_projection_agreement": 10,
+   "gate_excluded": true,
+   "P1_violations": 0,
+   "P2_violations": 222,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 366,
+   "band_proper_pairs": [
+    {
+     "d": 2,
+     "core": 7,
+     "maxa": 10,
+     "mina": 7,
+     "n_over": 5,
+     "n_live": 0,
+     "clean_members": 97,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": true
+    }
+   ],
+   "windowed": [
+    {
+     "d": 2,
+     "N_raw": 1,
+     "beta": 7,
+     "sum_W": 134,
+     "avg_W": 1.3137254901960784,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      0,
+      1,
+      1
+     ],
+     "n_good_members": 97,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 5
+    }
+   ]
+  },
+  {
+   "name": "BANKED k5h4_two_cores",
+   "desc": "two disjoint-block cores",
+   "n": 14,
+   "k": 5,
+   "h": 4,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    2,
+    2
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": false,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": false,
+   "max_joint": 7,
+   "max_projection_agreement": 10,
+   "gate_excluded": true,
+   "P1_violations": 0,
+   "P2_violations": 207,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 558,
+   "band_proper_pairs": [
+    {
+     "d": 2,
+     "core": 7,
+     "maxa": 10,
+     "mina": 7,
+     "n_over": 4,
+     "n_live": 1,
+     "clean_members": 98,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": true
+    },
+    {
+     "d": 2,
+     "core": 7,
+     "maxa": 10,
+     "mina": 7,
+     "n_over": 4,
+     "n_live": 1,
+     "clean_members": 98,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": true
+    }
+   ],
+   "windowed": [
+    {
+     "d": 2,
+     "N_raw": 2,
+     "beta": 7,
+     "sum_W": 222,
+     "avg_W": 2.176470588235294,
+     "aggregate_ok": true,
+     "injectivity_violations": 1,
+     "best_member": [
+      0,
+      2,
+      2,
+      0,
+      0
+     ],
+     "n_good_members": 95,
+     "min_W_over_good": 2,
+     "n_members_with_OA": 7
+    }
+   ]
+  },
+  {
+   "name": "BANKED k5h4_random_21",
+   "desc": "random control",
+   "n": 14,
+   "k": 5,
+   "h": 4,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    2,
+    2
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 5,
+   "max_projection_agreement": 8,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 56,
+   "band_proper_pairs": [],
+   "windowed": []
+  },
+  {
+   "name": "BANKED k5h4_random_22",
+   "desc": "random control",
+   "n": 14,
+   "k": 5,
+   "h": 4,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    2,
+    2
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 5,
+   "max_projection_agreement": 7,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 0,
+   "band_proper_pairs": [],
+   "windowed": []
+  },
+  {
+   "name": "BANKED k4h5_core7_2slopes",
+   "desc": "second banked row",
+   "n": 13,
+   "k": 4,
+   "h": 5,
+   "A": 9,
+   "q": 61,
+   "band_proper": [
+    3,
+    3
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 7,
+   "max_projection_agreement": 9,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 1,
+   "P7_violations": 0,
+   "P7_checked": 256,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 7,
+     "maxa": 9,
+     "mina": 7,
+     "n_over": 4,
+     "n_live": 2,
+     "clean_members": 58,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": true
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 1,
+     "beta": 6,
+     "sum_W": 60,
+     "avg_W": 0.967741935483871,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 58,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 4
+    }
+   ]
+  },
+  {
+   "name": "BANKED k4h5_random",
+   "desc": "random control",
+   "n": 13,
+   "k": 4,
+   "h": 5,
+   "A": 9,
+   "q": 61,
+   "band_proper": [
+    3,
+    3
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 4,
+   "max_projection_agreement": 6,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 0,
+   "band_proper_pairs": [],
+   "windowed": []
+  },
+  {
+   "name": "NEW k5h4_bare_core_s51",
+   "desc": "core only, no planted slope: P9 sharpness at d=h-2",
+   "n": 14,
+   "k": 5,
+   "h": 4,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    2,
+    2
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 7,
+   "max_projection_agreement": 8,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 252,
+   "band_proper_pairs": [
+    {
+     "d": 2,
+     "core": 7,
+     "maxa": 8,
+     "mina": 7,
+     "n_over": 7,
+     "n_live": 0,
+     "clean_members": 95,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": true
+    }
+   ],
+   "windowed": [
+    {
+     "d": 2,
+     "N_raw": 1,
+     "beta": 7,
+     "sum_W": 113,
+     "avg_W": 1.107843137254902,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 95,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 7
+    }
+   ]
+  },
+  {
+   "name": "NEW k5h4_bare_core_s52",
+   "desc": "core only, no planted slope: P9 sharpness at d=h-2",
+   "n": 14,
+   "k": 5,
+   "h": 4,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    2,
+    2
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 7,
+   "max_projection_agreement": 8,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 252,
+   "band_proper_pairs": [
+    {
+     "d": 2,
+     "core": 7,
+     "maxa": 8,
+     "mina": 7,
+     "n_over": 7,
+     "n_live": 0,
+     "clean_members": 95,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": true
+    }
+   ],
+   "windowed": [
+    {
+     "d": 2,
+     "N_raw": 1,
+     "beta": 7,
+     "sum_W": 121,
+     "avg_W": 1.1862745098039216,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 95,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 7
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_d3_A1blocks_s61",
+   "desc": "F3 target: interior depth d=3<h-2, two A-1 members",
+   "n": 14,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 6,
+   "max_projection_agreement": 9,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 93,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 9,
+     "mina": 6,
+     "n_over": 2,
+     "n_live": 1,
+     "clean_members": 97,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 1,
+     "beta": 4,
+     "sum_W": 100,
+     "avg_W": 0.9803921568627451,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 100,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 2
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_d3_A1blocks_s62",
+   "desc": "F3 target: interior depth d=3<h-2, two A-1 members",
+   "n": 14,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 6,
+   "max_projection_agreement": 8,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 74,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 8,
+     "mina": 6,
+     "n_over": 2,
+     "n_live": 0,
+     "clean_members": 96,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 1,
+     "beta": 4,
+     "sum_W": 100,
+     "avg_W": 0.9803921568627451,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 100,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 2
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_d3_A1blocks_s63",
+   "desc": "F3 target: interior depth d=3<h-2, two A-1 members",
+   "n": 14,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 6,
+   "max_projection_agreement": 8,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 71,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 8,
+     "mina": 6,
+     "n_over": 2,
+     "n_live": 0,
+     "clean_members": 96,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 1,
+     "beta": 4,
+     "sum_W": 101,
+     "avg_W": 0.9901960784313726,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 100,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 2
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_d3_bare_s64",
+   "desc": "interior depth, no planted block",
+   "n": 14,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 6,
+   "max_projection_agreement": 7,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 0,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 7,
+     "mina": 6,
+     "n_over": 0,
+     "n_live": 0,
+     "clean_members": 94,
+     "sl1_every_member": true,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 1,
+     "beta": 4,
+     "sum_W": 102,
+     "avg_W": 1.0,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 102,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 0
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_d3_bare_s65",
+   "desc": "interior depth, no planted block",
+   "n": 14,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 6,
+   "max_projection_agreement": 7,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 0,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 7,
+     "mina": 6,
+     "n_over": 0,
+     "n_live": 0,
+     "clean_members": 94,
+     "sl1_every_member": true,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 1,
+     "beta": 4,
+     "sum_W": 102,
+     "avg_W": 1.0,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 102,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 0
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h7_d4_A1blocks_s71",
+   "desc": "F3 target: interior depth d=4<h-2, two A-1 members",
+   "n": 16,
+   "k": 3,
+   "h": 7,
+   "A": 10,
+   "q": 101,
+   "band_proper": [
+    4,
+    5
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 7,
+   "max_projection_agreement": 9,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 100,
+   "band_proper_pairs": [
+    {
+     "d": 4,
+     "core": 7,
+     "maxa": 9,
+     "mina": 7,
+     "n_over": 2,
+     "n_live": 0,
+     "clean_members": 95,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 4,
+     "N_raw": 1,
+     "beta": 4,
+     "sum_W": 100,
+     "avg_W": 0.9803921568627451,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 100,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 2
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h7_d4_A1blocks_s72",
+   "desc": "F3 target: interior depth d=4<h-2, two A-1 members",
+   "n": 16,
+   "k": 3,
+   "h": 7,
+   "A": 10,
+   "q": 101,
+   "band_proper": [
+    4,
+    5
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 7,
+   "max_projection_agreement": 9,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 100,
+   "band_proper_pairs": [
+    {
+     "d": 4,
+     "core": 7,
+     "maxa": 9,
+     "mina": 7,
+     "n_over": 2,
+     "n_live": 0,
+     "clean_members": 95,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 4,
+     "N_raw": 1,
+     "beta": 4,
+     "sum_W": 100,
+     "avg_W": 0.9803921568627451,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 100,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 2
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_d3_Ablocks_s81",
+   "desc": "interior depth with two EXACT-A live slopes",
+   "n": 14,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 6,
+   "max_projection_agreement": 9,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 1,
+   "P7_violations": 0,
+   "P7_checked": 130,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 9,
+     "mina": 6,
+     "n_over": 2,
+     "n_live": 2,
+     "clean_members": 98,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 1,
+     "beta": 4,
+     "sum_W": 100,
+     "avg_W": 0.9803921568627451,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 100,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 2
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_d3_Ablocks_s82",
+   "desc": "interior depth with two EXACT-A live slopes",
+   "n": 14,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 6,
+   "max_projection_agreement": 9,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 1,
+   "P7_violations": 0,
+   "P7_checked": 124,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 9,
+     "mina": 6,
+     "n_over": 2,
+     "n_live": 2,
+     "clean_members": 98,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 1,
+     "beta": 4,
+     "sum_W": 100,
+     "avg_W": 0.9803921568627451,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 100,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 2
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_3cores_bare_q101_s91",
+   "desc": "three depth-3 cores, no planted block",
+   "n": 24,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": false,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": false,
+   "max_joint": 6,
+   "max_projection_agreement": 8,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 179,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 8,
+     "mina": 6,
+     "n_over": 2,
+     "n_live": 0,
+     "clean_members": 86,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 8,
+     "mina": 6,
+     "n_over": 2,
+     "n_live": 0,
+     "clean_members": 86,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 8,
+     "mina": 6,
+     "n_over": 1,
+     "n_live": 0,
+     "clean_members": 85,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 3,
+     "beta": 9,
+     "sum_W": 306,
+     "avg_W": 3.0,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      3,
+      2,
+      1,
+      1
+     ],
+     "n_good_members": 97,
+     "min_W_over_good": 3,
+     "n_members_with_OA": 5
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_3cores_bare_q101_s92",
+   "desc": "three depth-3 cores, no planted block",
+   "n": 24,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 6,
+   "max_projection_agreement": 9,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 176,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 8,
+     "mina": 6,
+     "n_over": 1,
+     "n_live": 0,
+     "clean_members": 85,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 9,
+     "mina": 6,
+     "n_over": 1,
+     "n_live": 1,
+     "clean_members": 86,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 8,
+     "mina": 6,
+     "n_over": 2,
+     "n_live": 0,
+     "clean_members": 86,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 3,
+     "beta": 9,
+     "sum_W": 308,
+     "avg_W": 3.019607843137255,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      3,
+      3,
+      0,
+      0
+     ],
+     "n_good_members": 98,
+     "min_W_over_good": 3,
+     "n_members_with_OA": 4
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_3cores_sharedA1_q101_s93",
+   "desc": "three depth-3 cores ALL over-agreeing at z=7",
+   "n": 24,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 6,
+   "max_projection_agreement": 9,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 343,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 9,
+     "mina": 6,
+     "n_over": 3,
+     "n_live": 1,
+     "clean_members": 88,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 8,
+     "mina": 6,
+     "n_over": 3,
+     "n_live": 0,
+     "clean_members": 87,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 9,
+     "mina": 6,
+     "n_over": 2,
+     "n_live": 1,
+     "clean_members": 87,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 3,
+     "beta": 9,
+     "sum_W": 304,
+     "avg_W": 2.980392156862745,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      3,
+      3,
+      0,
+      0
+     ],
+     "n_good_members": 96,
+     "min_W_over_good": 3,
+     "n_members_with_OA": 6
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_3cores_sharedA1_q101_s94",
+   "desc": "three depth-3 cores ALL over-agreeing at z=7",
+   "n": 24,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 6,
+   "max_projection_agreement": 8,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 185,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 8,
+     "mina": 6,
+     "n_over": 2,
+     "n_live": 0,
+     "clean_members": 86,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 8,
+     "mina": 6,
+     "n_over": 1,
+     "n_live": 0,
+     "clean_members": 85,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 8,
+     "mina": 6,
+     "n_over": 2,
+     "n_live": 0,
+     "clean_members": 86,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 3,
+     "beta": 9,
+     "sum_W": 307,
+     "avg_W": 3.0098039215686274,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      3,
+      3,
+      0,
+      0
+     ],
+     "n_good_members": 99,
+     "min_W_over_good": 3,
+     "n_members_with_OA": 3
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_3cores_bare_q1009_s91",
+   "desc": "three depth-3 cores, no planted block",
+   "n": 24,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 1009,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 6,
+   "max_projection_agreement": 7,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 0,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 7,
+     "mina": 6,
+     "n_over": 0,
+     "n_live": 0,
+     "clean_members": 992,
+     "sl1_every_member": true,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 7,
+     "mina": 6,
+     "n_over": 0,
+     "n_live": 0,
+     "clean_members": 992,
+     "sl1_every_member": true,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 7,
+     "mina": 6,
+     "n_over": 0,
+     "n_live": 0,
+     "clean_members": 992,
+     "sl1_every_member": true,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 3,
+     "beta": 9,
+     "sum_W": 3031,
+     "avg_W": 3.000990099009901,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      3,
+      3,
+      0,
+      0
+     ],
+     "n_good_members": 1010,
+     "min_W_over_good": 3,
+     "n_members_with_OA": 0
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_3cores_bare_q1009_s92",
+   "desc": "three depth-3 cores, no planted block",
+   "n": 24,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 1009,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 6,
+   "max_projection_agreement": 7,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 0,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 7,
+     "mina": 6,
+     "n_over": 0,
+     "n_live": 0,
+     "clean_members": 992,
+     "sl1_every_member": true,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 7,
+     "mina": 6,
+     "n_over": 0,
+     "n_live": 0,
+     "clean_members": 992,
+     "sl1_every_member": true,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 7,
+     "mina": 6,
+     "n_over": 0,
+     "n_live": 0,
+     "clean_members": 992,
+     "sl1_every_member": true,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 3,
+     "beta": 9,
+     "sum_W": 3030,
+     "avg_W": 3.0,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      3,
+      3,
+      0,
+      0
+     ],
+     "n_good_members": 1010,
+     "min_W_over_good": 3,
+     "n_members_with_OA": 0
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_3cores_sharedA1_q1009_s93",
+   "desc": "three depth-3 cores ALL over-agreeing at z=7",
+   "n": 24,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 1009,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 6,
+   "max_projection_agreement": 8,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 111,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 8,
+     "mina": 6,
+     "n_over": 1,
+     "n_live": 0,
+     "clean_members": 993,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 8,
+     "mina": 6,
+     "n_over": 1,
+     "n_live": 0,
+     "clean_members": 993,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 8,
+     "mina": 6,
+     "n_over": 1,
+     "n_live": 0,
+     "clean_members": 993,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 3,
+     "beta": 9,
+     "sum_W": 3027,
+     "avg_W": 2.997029702970297,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      3,
+      3,
+      0,
+      0
+     ],
+     "n_good_members": 1009,
+     "min_W_over_good": 3,
+     "n_members_with_OA": 1
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_3cores_sharedA1_q1009_s94",
+   "desc": "three depth-3 cores ALL over-agreeing at z=7",
+   "n": 24,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 1009,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 6,
+   "max_projection_agreement": 8,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 148,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 8,
+     "mina": 6,
+     "n_over": 1,
+     "n_live": 0,
+     "clean_members": 993,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 8,
+     "mina": 6,
+     "n_over": 1,
+     "n_live": 0,
+     "clean_members": 993,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 8,
+     "mina": 6,
+     "n_over": 2,
+     "n_live": 0,
+     "clean_members": 994,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 3,
+     "beta": 9,
+     "sum_W": 3026,
+     "avg_W": 2.996039603960396,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      3,
+      3,
+      0,
+      0
+     ],
+     "n_good_members": 1008,
+     "min_W_over_good": 3,
+     "n_members_with_OA": 2
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_d4_bare_s101",
+   "desc": "d = h-2 upper end, no planted block: P10",
+   "n": 14,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 7,
+   "max_projection_agreement": 8,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 154,
+   "band_proper_pairs": [
+    {
+     "d": 4,
+     "core": 7,
+     "maxa": 8,
+     "mina": 7,
+     "n_over": 7,
+     "n_live": 0,
+     "clean_members": 95,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": true
+    }
+   ],
+   "windowed": [
+    {
+     "d": 4,
+     "N_raw": 1,
+     "beta": 7,
+     "sum_W": 95,
+     "avg_W": 0.9313725490196079,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 95,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 7
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_d4_bare_s102",
+   "desc": "d = h-2 upper end, no planted block: P10",
+   "n": 14,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 7,
+   "max_projection_agreement": 8,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 154,
+   "band_proper_pairs": [
+    {
+     "d": 4,
+     "core": 7,
+     "maxa": 8,
+     "mina": 7,
+     "n_over": 7,
+     "n_live": 0,
+     "clean_members": 95,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": true
+    }
+   ],
+   "windowed": [
+    {
+     "d": 4,
+     "N_raw": 1,
+     "beta": 7,
+     "sum_W": 95,
+     "avg_W": 0.9313725490196079,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 95,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 7
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_d4_bare_s103",
+   "desc": "d = h-2 upper end, no planted block: P10",
+   "n": 14,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 7,
+   "max_projection_agreement": 8,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 154,
+   "band_proper_pairs": [
+    {
+     "d": 4,
+     "core": 7,
+     "maxa": 8,
+     "mina": 7,
+     "n_over": 7,
+     "n_live": 0,
+     "clean_members": 95,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": true
+    }
+   ],
+   "windowed": [
+    {
+     "d": 4,
+     "N_raw": 1,
+     "beta": 7,
+     "sum_W": 95,
+     "avg_W": 0.9313725490196079,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 95,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 7
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_d4_bare_q1009_s104",
+   "desc": "d = h-2 at large q: over-agreement still forced",
+   "n": 24,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 1009,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 7,
+   "max_projection_agreement": 8,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 374,
+   "band_proper_pairs": [
+    {
+     "d": 4,
+     "core": 7,
+     "maxa": 8,
+     "mina": 7,
+     "n_over": 17,
+     "n_live": 0,
+     "clean_members": 993,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": true
+    }
+   ],
+   "windowed": [
+    {
+     "d": 4,
+     "N_raw": 1,
+     "beta": 17,
+     "sum_W": 993,
+     "avg_W": 0.9831683168316832,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 993,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 17
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_d4_bare_q1009_s105",
+   "desc": "d = h-2 at large q: over-agreement still forced",
+   "n": 24,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 1009,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 7,
+   "max_projection_agreement": 8,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 374,
+   "band_proper_pairs": [
+    {
+     "d": 4,
+     "core": 7,
+     "maxa": 8,
+     "mina": 7,
+     "n_over": 17,
+     "n_live": 0,
+     "clean_members": 993,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": true
+    }
+   ],
+   "windowed": [
+    {
+     "d": 4,
+     "N_raw": 1,
+     "beta": 17,
+     "sum_W": 993,
+     "avg_W": 0.9831683168316832,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      1,
+      1,
+      0,
+      0
+     ],
+     "n_good_members": 993,
+     "min_W_over_good": 1,
+     "n_members_with_OA": 17
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_2cores_sharedA_s95",
+   "desc": "two depth-3 cores, both LIVE at the same z=7",
+   "n": 20,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": false,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": false,
+   "max_joint": 6,
+   "max_projection_agreement": 10,
+   "gate_excluded": true,
+   "P1_violations": 0,
+   "P2_violations": 95,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 160,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 9,
+     "mina": 6,
+     "n_over": 1,
+     "n_live": 1,
+     "clean_members": 90,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 10,
+     "mina": 6,
+     "n_over": 1,
+     "n_live": 0,
+     "clean_members": 91,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 2,
+     "beta": 7,
+     "sum_W": 203,
+     "avg_W": 1.9901960784313726,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      2,
+      2,
+      0,
+      0
+     ],
+     "n_good_members": 101,
+     "min_W_over_good": 2,
+     "n_members_with_OA": 1
+    }
+   ]
+  },
+  {
+   "name": "NEW k3h6_2cores_sharedA_s96",
+   "desc": "two depth-3 cores, both LIVE at the same z=7",
+   "n": 20,
+   "k": 3,
+   "h": 6,
+   "A": 9,
+   "q": 101,
+   "band_proper": [
+    3,
+    4
+   ],
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate": true,
+    "below_cascade": true,
+    "kpacking": true
+   },
+   "admissible": true,
+   "max_joint": 6,
+   "max_projection_agreement": 9,
+   "gate_excluded": false,
+   "P1_violations": 0,
+   "P2_violations": 0,
+   "P6_violations": 0,
+   "P5_violations": 0,
+   "pairs_with_live_inf": 0,
+   "band_proper_pairs_with_L_ge_2": 0,
+   "P7_violations": 0,
+   "P7_checked": 161,
+   "band_proper_pairs": [
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 9,
+     "mina": 6,
+     "n_over": 2,
+     "n_live": 1,
+     "clean_members": 91,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    },
+    {
+     "d": 3,
+     "core": 6,
+     "maxa": 9,
+     "mina": 6,
+     "n_over": 1,
+     "n_live": 1,
+     "clean_members": 90,
+     "sl1_every_member": false,
+     "sl1_some_member": true,
+     "P10_forced_over_agreement": false
+    }
+   ],
+   "windowed": [
+    {
+     "d": 3,
+     "N_raw": 2,
+     "beta": 7,
+     "sum_W": 205,
+     "avg_W": 2.0098039215686274,
+     "aggregate_ok": true,
+     "injectivity_violations": 0,
+     "best_member": [
+      0,
+      2,
+      2,
+      0,
+      0
+     ],
+     "n_good_members": 100,
+     "min_W_over_good": 2,
+     "n_members_with_OA": 2
+    }
+   ]
+  }
+ ],
+ "falsifiers": {
+  "F2": {
+   "n": 34,
+   "sample": [
+    [
+     "BANKED k5h4_core7_2slopes_s11",
+     {
+      "d": 2,
+      "core": 7,
+      "maxa": 9,
+      "mina": 7,
+      "n_over": 5,
+      "n_live": 2,
+      "clean_members": 97,
+      "sl1_every_member": false,
+      "sl1_some_member": true,
+      "P10_forced_over_agreement": true
+     }
+    ],
+    [
+     "BANKED k5h4_core7_2slopes_s12",
+     {
+      "d": 2,
+      "core": 7,
+      "maxa": 9,
+      "mina": 7,
+      "n_over": 5,
+      "n_live": 2,
+      "clean_members": 97,
+      "sl1_every_member": false,
+      "sl1_some_member": true,
+      "P10_forced_over_agreement": true
+     }
+    ],
+    [
+     "BANKED k4h5_core7_2slopes",
+     {
+      "d": 3,
+      "core": 7,
+      "maxa": 9,
+      "mina": 7,
+      "n_over": 4,
+      "n_live": 2,
+      "clean_members": 58,
+      "sl1_every_member": false,
+      "sl1_some_member": true,
+      "P10_forced_over_agreement": true
+     }
+    ]
+   ]
+  },
+  "F3": {
+   "n": 24,
+   "sample": [
+    [
+     "NEW k3h6_d3_A1blocks_s61",
+     {
+      "d": 3,
+      "core": 6,
+      "maxa": 9,
+      "mina": 6,
+      "n_over": 2,
+      "n_live": 1,
+      "clean_members": 97,
+      "sl1_every_member": false,
+      "sl1_some_member": true,
+      "P10_forced_over_agreement": false
+     }
+    ],
+    [
+     "NEW k3h6_d3_A1blocks_s62",
+     {
+      "d": 3,
+      "core": 6,
+      "maxa": 8,
+      "mina": 6,
+      "n_over": 2,
+      "n_live": 0,
+      "clean_members": 96,
+      "sl1_every_member": false,
+      "sl1_some_member": true,
+      "P10_forced_over_agreement": false
+     }
+    ],
+    [
+     "NEW k3h6_d3_A1blocks_s63",
+     {
+      "d": 3,
+      "core": 6,
+      "maxa": 8,
+      "mina": 6,
+      "n_over": 2,
+      "n_live": 0,
+      "clean_members": 96,
+      "sl1_every_member": false,
+      "sl1_some_member": true,
+      "P10_forced_over_agreement": false
+     }
+    ]
+   ]
+  }
+ },
+ "fails": [],
+ "verdict": "PASS"
+}

@@ -40,6 +40,37 @@ form (SHARP-OCC, conjectured): `N_d <= floor((n-k+1)/(h-d))` at
 `N_d <= n/2`; sharpest calibration on record: RowC 1/4, U-mechanism
 `N_1 = 510` vs `n/2 = 512` (margin 2).
 
+*(2026-08-03, audited round-7 refinements: a strictly weaker sufficient
+hypothesis for the occupancy heart is PROVED available — the iterated
+`(3, k+1)`-core form, item 12' of `notes/BAND_LANE_DEFINITIONS.md`;
+only core rays of escape 0 or 1 can defeat per-ray charge 2. Same day,
+the collapse pilot SETTLED the escape-0 channel at `V = 4` positively
+(charge >= 2 proved, Prop 6) while refuting the zero-escape collapse
+and `V <= m/2` as general statements — the heart's remaining open
+channels are exactly V >= 5 zero-escape below the Corollary-3b
+threshold, and escape-1. The reduction of record above is unchanged;
+the re-pose was RATIFIED and APPLIED 2026-08-03 — the heart section
+below is the form of record. LATER SAME DAY: channel (i) DECIDED —
+charge >= 2 iff 2V <= 3h for the block class of record; at the prize
+rows it holds by ~1e8 on a proved floor, so channel (i) is CLOSED at
+the prize rows; the RowC toy rows provably fail the channel (the
+arithmetic route is dead there); the sole remaining open channel is
+escape-1. Definitions addendum 4; support-4 addendum 3. CHANNEL (ii)
+RESOLVED same day (escape-1 pilot, 113/113): escape-1 core rays exist
+gate-clean, but one alone never defeats charge 2 (the 3-DROP FLOOR); a
+defeat needs n_1 >= 3h-2; every constructed counterexample is
+band-INADMISSIBLE (LEMMA R: rank <= 2m-1 necessary for exact-A
+liveness). CROSS-CHANNEL CATCH accepted: the zero-escape pencil family
+at V = 11 passes the FULL gate and realises with charge 0.818 — the
+per-ray-charge-2 route is FALSE as a universal for admissible systems;
+it survives at PRIZE-ROW parameters (every known defeat class needs
+2V > 3h or n_1 >= 3h-2, both false there by ~1e8). The occupancy
+lemma's CONCLUSION and the column bound are untouched (the fixture's
+own ledger: N_d = 0.11 n^2 << 0.68 n^2). Heart status of record: route
+through ADMISSIBILITY + ROW ARITHMETIC; open = consolidating the
+general-V admissible case at prize rows under the four new floors.
+Definitions addendum 5.)*
+
 Cost side PROVED (two-slope cost theorem): condition rank exactly `2h`
 per generic pair (a FAMILY-RANK statement — per-ray accounting is the
 accounting of record; the per-datum reading mispredicts the sunflower by
@@ -49,15 +80,25 @@ family, extremal, `d <= (h-1)/2` only); connectivity floor
 MC quantized out of the band (depth profile supported on `{0, h-1}`);
 standing calibration adversaries: K_V, MC, U-mechanism (deficit 1/ray).
 
-## The heart (open; support-4 structure theory, banked 2026-08-02)
+## The heart (open; RE-POSED 2026-08-03 in the iterated-core form, ratified)
 
-An admissible, non-collapsing, pairwise-intersecting ray system with
-`V > m/2` — equivalently, per-ray charge `< 2`. Purely combinatorial
-escape form: **"every ray support has >= 2 points lying in at most two
-supports" implies the occupancy lemma.** Two named sub-items: prove the
-zero-escape collapse (`rank = 2m` exactly — measured exhaustively at two
-fixtures, the toy rows' load-bearing kill), and prove `V <= m/2` for
-non-collapsing systems (all 9 known families conform).
+Form of record (item 12' of `notes/BAND_LANE_DEFINITIONS.md`): the
+implication **"every ray of the `(3, k+1)`-core escapes `>= 2` points
+relative to `W_infinity`" `=>` per-ray charge `>= 2`** is PROVED
+(Corollary U5, round-7 unification); what remains OPEN is that
+admissible band systems satisfy the hypothesis. The only channels that
+can defeat it are exactly: (i) `V >= 5` zero-escape systems below the
+Corollary-3b threshold `(V-3)t + |A_0| <= k-1` — pre-registered
+falsifier: such a system with `rank < 2V`; and (ii) escape-1 core rays
+(gate-clean realizability OPEN, unification flag 5). SETTLED: the
+escape-0 channel at `V = 4` (charge `>= 2` unconditional, Prop 6 of
+the collapse pilot). STRUCK (2026-08-03, refuted as general
+statements): the former sub-items "zero-escape collapse
+(`rank = 2m`)" and "`V <= m/2` for non-collapsing systems" — see
+Addendum 2 of `background/nodes/xr_support4_structure/statement.md`;
+the measured fixtures' collapses survive as THEOREMS (MDS-chain /
+triple-cover criteria), and the old one-step escape form survives as a
+sufficient special case of the form of record.
 
 ## Falsifier
 

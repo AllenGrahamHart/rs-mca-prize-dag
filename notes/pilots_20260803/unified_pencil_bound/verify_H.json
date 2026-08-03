@@ -1,0 +1,13 @@
+{
+ "H": {
+  "ok": 1000,
+  "bad_U": 0,
+  "bad_mono": 0
+ },
+ "summary": {
+  "checks": 2,
+  "passed": 2,
+  "failed": 0,
+  "falsifiers_fired": {}
+ }
+}

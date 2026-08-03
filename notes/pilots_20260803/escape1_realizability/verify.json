@@ -1,0 +1,3338 @@
+{
+ "checks": [
+  {
+   "detail": "22 vs 22",
+   "label": "E1: rank = Vh - dim Rel",
+   "ok": true
+  },
+  {
+   "detail": "22 vs 22",
+   "label": "E1: rank <= 2m (Row <= C_U x C_U)",
+   "ok": true
+  },
+  {
+   "detail": "12/12/21/22",
+   "label": "E1: escape floor <= kernel floor <= 3-drop floor <= rank",
+   "ok": true
+  },
+  {
+   "detail": "12",
+   "label": "E1: |K| = 0 or >= 4",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'E1', 'note': 'h=4 s=2 p=6 V=12 k=19: ALL rays escape exactly 1', 'k': 19, 'h': 4, 'V': 12, 'n': 30, 'q': 31, 'A': 23, 'm': 11, 'sizes_ok': True, 'min_pair': 20, 'max_pair': 21, 'max_triple': 18, 'max_quad': 16, 'min_quad': 16, 'pairwise_ok': True, 'kpacking_ok': True, 'depth_ok': True, 'gate_clean': True, 'core': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], 'escapes': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'escape_floor': 12, 'kernel_floor': 12, 'three_drop_floor': 21, 'rank': 22, 'dim_Rel': 26, 'Vh': 48, 'twoV': 24, 'twom': 22, 'charge': 1.8333}",
+   "label": "E1: predicted A/n/m",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'E1', 'note': 'h=4 s=2 p=6 V=12 k=19: ALL rays escape exactly 1', 'k': 19, 'h': 4, 'V': 12, 'n': 30, 'q': 31, 'A': 23, 'm': 11, 'sizes_ok': True, 'min_pair': 20, 'max_pair': 21, 'max_triple': 18, 'max_quad': 16, 'min_quad': 16, 'pairwise_ok': True, 'kpacking_ok': True, 'depth_ok': True, 'gate_clean': True, 'core': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], 'escapes': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'escape_floor': 12, 'kernel_floor': 12, 'three_drop_floor': 21, 'rank': 22, 'dim_Rel': 26, 'Vh': 48, 'twoV': 24, 'twom': 22, 'charge': 1.8333}",
+   "label": "E1: predicted pair/triple",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'E1', 'note': 'h=4 s=2 p=6 V=12 k=19: ALL rays escape exactly 1', 'k': 19, 'h': 4, 'V': 12, 'n': 30, 'q': 31, 'A': 23, 'm': 11, 'sizes_ok': True, 'min_pair': 20, 'max_pair': 21, 'max_triple': 18, 'max_quad': 16, 'min_quad': 16, 'pairwise_ok': True, 'kpacking_ok': True, 'depth_ok': True, 'gate_clean': True, 'core': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], 'escapes': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'escape_floor': 12, 'kernel_floor': 12, 'three_drop_floor': 21, 'rank': 22, 'dim_Rel': 26, 'Vh': 48, 'twoV': 24, 'twom': 22, 'charge': 1.8333}",
+   "label": "E1: gate-clean",
+   "ok": true
+  },
+  {
+   "detail": "21",
+   "label": "E1: band-proper depths (<= A-2)",
+   "ok": true
+  },
+  {
+   "detail": "16",
+   "label": "E1: k-packing on cores (4-wise <= k-1)",
+   "ok": true
+  },
+  {
+   "detail": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]",
+   "label": "E1: core = ALL rays",
+   "ok": true
+  },
+  {
+   "detail": "[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]",
+   "label": "E1: every escape EXACTLY 1",
+   "ok": true
+  },
+  {
+   "detail": "rank=22 2V=24",
+   "label": "E1: rank < 2V (charge 2 DEFEATED)",
+   "ok": true
+  },
+  {
+   "detail": "22",
+   "label": "E1: predicted rank = 22 = 2m",
+   "ok": true
+  },
+  {
+   "detail": "30 vs 30",
+   "label": "E1deep: rank = Vh - dim Rel",
+   "ok": true
+  },
+  {
+   "detail": "30 vs 30",
+   "label": "E1deep: rank <= 2m (Row <= C_U x C_U)",
+   "ok": true
+  },
+  {
+   "detail": "20/20/29/30",
+   "label": "E1deep: escape floor <= kernel floor <= 3-drop floor <= rank",
+   "ok": true
+  },
+  {
+   "detail": "20",
+   "label": "E1deep: |K| = 0 or >= 4",
+   "ok": true
+  },
+  {
+   "detail": "[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]",
+   "label": "E1deep: gate-clean, all escapes 1, core = all",
+   "ok": true
+  },
+  {
+   "detail": "30 < 40",
+   "label": "E1deep: rank < 2V",
+   "ok": true
+  },
+  {
+   "detail": "16 vs 16",
+   "label": "E1safe: rank = Vh - dim Rel",
+   "ok": true
+  },
+  {
+   "detail": "16 vs 16",
+   "label": "E1safe: rank <= 2m (Row <= C_U x C_U)",
+   "ok": true
+  },
+  {
+   "detail": "6/6/15/16",
+   "label": "E1safe: escape floor <= kernel floor <= 3-drop floor <= rank",
+   "ok": true
+  },
+  {
+   "detail": "6",
+   "label": "E1safe: |K| = 0 or >= 4",
+   "ok": true
+  },
+  {
+   "detail": "[1, 1, 1, 1, 1, 1]",
+   "label": "E1safe: gate-clean, all escapes 1, core = all",
+   "ok": true
+  },
+  {
+   "detail": "16 vs 12",
+   "label": "E1safe: rank >= 2V (charge 2 SURVIVES: V <= m)",
+   "ok": true
+  },
+  {
+   "detail": "18 vs 18",
+   "label": "X0 (unperturbed): rank = Vh - dim Rel",
+   "ok": true
+  },
+  {
+   "detail": "18 vs 20",
+   "label": "X0 (unperturbed): rank <= 2m (Row <= C_U x C_U)",
+   "ok": true
+  },
+  {
+   "detail": "0/0/18/18",
+   "label": "X0 (unperturbed): escape floor <= kernel floor <= 3-drop floor <= rank",
+   "ok": true
+  },
+  {
+   "detail": "4",
+   "label": "X0 (unperturbed): |K| = 0 or >= 4",
+   "ok": true
+  },
+  {
+   "detail": "19 vs 19",
+   "label": "X1p: rank = Vh - dim Rel",
+   "ok": true
+  },
+  {
+   "detail": "19 vs 22",
+   "label": "X1p: rank <= 2m (Row <= C_U x C_U)",
+   "ok": true
+  },
+  {
+   "detail": "3/3/19/19",
+   "label": "X1p: escape floor <= kernel floor <= 3-drop floor <= rank",
+   "ok": true
+  },
+  {
+   "detail": "4",
+   "label": "X1p: |K| = 0 or >= 4",
+   "ok": true
+  },
+  {
+   "detail": "[0, 0, 0, 0]",
+   "label": "X0: zero escape",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'X1p', 'note': 'one point of S_1 swapped for a fresh private point', 'k': 6, 'h': 6, 'V': 4, 'n': 17, 'q': 17, 'A': 12, 'm': 11, 'sizes_ok': True, 'min_pair': 7, 'max_pair': 8, 'max_triple': 4, 'max_quad': 0, 'min_quad': 0, 'pairwise_ok': True, 'kpacking_ok': True, 'depth_ok': True, 'gate_clean': True, 'core': [0, 1, 2, 3], 'escapes': [1, 1, 1, 0], 'escape_floor': 3, 'kernel_floor': 3, 'three_drop_floor': 19, 'rank': 19, 'dim_Rel': 5, 'Vh': 24, 'twoV': 8, 'twom': 22, 'charge': 4.75}",
+   "label": "X1p: gate-clean",
+   "ok": true
+  },
+  {
+   "detail": "[0, 1, 2, 3]",
+   "label": "X1p: core = all 4 rays",
+   "ok": true
+  },
+  {
+   "detail": "[1, 1, 1, 0]",
+   "label": "X1p: escape vector (1,1,1,0)",
+   "ok": true
+  },
+  {
+   "detail": "19 vs 8",
+   "label": "X1p: charge 2 survives here (V=4 << m)",
+   "ok": true
+  },
+  {
+   "detail": "10 vs 10",
+   "label": "Z1: rank = Vh - dim Rel",
+   "ok": true
+  },
+  {
+   "detail": "10 vs 10",
+   "label": "Z1: rank <= 2m (Row <= C_U x C_U)",
+   "ok": true
+  },
+  {
+   "detail": "0/0/9/10",
+   "label": "Z1: escape floor <= kernel floor <= 3-drop floor <= rank",
+   "ok": true
+  },
+  {
+   "detail": "6",
+   "label": "Z1: |K| = 0 or >= 4",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'Z1', 'note': 'complete block k=7 h=3 t=2 V=6', 'k': 7, 'h': 3, 'V': 6, 'n': 12, 'q': 13, 'A': 10, 'm': 5, 'sizes_ok': True, 'min_pair': 8, 'max_pair': 8, 'max_triple': 6, 'max_quad': 4, 'min_quad': 4, 'pairwise_ok': True, 'kpacking_ok': True, 'depth_ok': True, 'gate_clean': True, 'core': [0, 1, 2, 3, 4, 5], 'escapes': [0, 0, 0, 0, 0, 0], 'escape_floor': 0, 'kernel_floor': 0, 'three_drop_floor': 9, 'rank': 10, 'dim_Rel': 8, 'Vh': 18, 'twoV': 12, 'twom': 10, 'charge': 1.6667}",
+   "label": "Z1: gate-clean",
+   "ok": true
+  },
+  {
+   "detail": "[0, 0, 0, 0, 0, 0]",
+   "label": "Z1: zero escape",
+   "ok": true
+  },
+  {
+   "detail": "10 vs 10",
+   "label": "Z1big: rank = Vh - dim Rel",
+   "ok": true
+  },
+  {
+   "detail": "10 vs 10",
+   "label": "Z1big: rank <= 2m (Row <= C_U x C_U)",
+   "ok": true
+  },
+  {
+   "detail": "0/0/9/10",
+   "label": "Z1big: escape floor <= kernel floor <= 3-drop floor <= rank",
+   "ok": true
+  },
+  {
+   "detail": "11",
+   "label": "Z1big: |K| = 0 or >= 4",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'Z1big', 'note': 'complete block k=17 h=3 t=2 V=11', 'k': 17, 'h': 3, 'V': 11, 'n': 22, 'q': 23, 'A': 20, 'm': 5, 'sizes_ok': True, 'min_pair': 18, 'max_pair': 18, 'max_triple': 16, 'max_quad': 14, 'min_quad': 14, 'pairwise_ok': True, 'kpacking_ok': True, 'depth_ok': True, 'gate_clean': True, 'core': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 'escapes': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'escape_floor': 0, 'kernel_floor': 0, 'three_drop_floor': 9, 'rank': 10, 'dim_Rel': 23, 'Vh': 33, 'twoV': 22, 'twom': 10, 'charge': 0.9091}",
+   "label": "Z1big: gate-clean",
+   "ok": true
+  },
+  {
+   "detail": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+   "label": "Z1big: zero escape",
+   "ok": true
+  },
+  {
+   "detail": "10 vs 10",
+   "label": "Z0: rank = Vh - dim Rel",
+   "ok": true
+  },
+  {
+   "detail": "10 vs 10",
+   "label": "Z0: rank <= 2m (Row <= C_U x C_U)",
+   "ok": true
+  },
+  {
+   "detail": "0/0/9/10",
+   "label": "Z0: escape floor <= kernel floor <= 3-drop floor <= rank",
+   "ok": true
+  },
+  {
+   "detail": "4",
+   "label": "Z0: |K| = 0 or >= 4",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'Z0', 'note': 'complete block k=7 h=3 t=2 V=4', 'k': 7, 'h': 3, 'V': 4, 'n': 12, 'q': 13, 'A': 10, 'm': 5, 'sizes_ok': True, 'min_pair': 8, 'max_pair': 8, 'max_triple': 6, 'max_quad': 4, 'min_quad': 4, 'pairwise_ok': True, 'kpacking_ok': True, 'depth_ok': True, 'gate_clean': True, 'core': [0, 1, 2, 3], 'escapes': [0, 0, 0, 0], 'escape_floor': 0, 'kernel_floor': 0, 'three_drop_floor': 9, 'rank': 10, 'dim_Rel': 2, 'Vh': 12, 'twoV': 8, 'twom': 10, 'charge': 2.5}",
+   "label": "Z0: gate-clean",
+   "ok": true
+  },
+  {
+   "detail": "[0, 0, 0, 0]",
+   "label": "Z0: zero escape",
+   "ok": true
+  },
+  {
+   "detail": "10 vs 10",
+   "label": "Z5: rank = Vh - dim Rel",
+   "ok": true
+  },
+  {
+   "detail": "10 vs 10",
+   "label": "Z5: rank <= 2m (Row <= C_U x C_U)",
+   "ok": true
+  },
+  {
+   "detail": "0/0/9/10",
+   "label": "Z5: escape floor <= kernel floor <= 3-drop floor <= rank",
+   "ok": true
+  },
+  {
+   "detail": "5",
+   "label": "Z5: |K| = 0 or >= 4",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'Z5', 'note': 'complete block k=9 h=3 t=2 V=5', 'k': 9, 'h': 3, 'V': 5, 'n': 14, 'q': 17, 'A': 12, 'm': 5, 'sizes_ok': True, 'min_pair': 10, 'max_pair': 10, 'max_triple': 8, 'max_quad': 6, 'min_quad': 6, 'pairwise_ok': True, 'kpacking_ok': True, 'depth_ok': True, 'gate_clean': True, 'core': [0, 1, 2, 3, 4], 'escapes': [0, 0, 0, 0, 0], 'escape_floor': 0, 'kernel_floor': 0, 'three_drop_floor': 9, 'rank': 10, 'dim_Rel': 5, 'Vh': 15, 'twoV': 10, 'twom': 10, 'charge': 2.0}",
+   "label": "Z5: gate-clean",
+   "ok": true
+  },
+  {
+   "detail": "[0, 0, 0, 0, 0]",
+   "label": "Z5: zero escape",
+   "ok": true
+  },
+  {
+   "detail": "10 vs 12",
+   "label": "Z1: rank < 2V (channel (i) refuted at V=6)",
+   "ok": true
+  },
+  {
+   "detail": "10 vs 8",
+   "label": "Z0 (V=4): rank >= 2V, consistent with collapse-pilot PROP 6",
+   "ok": true
+  },
+  {
+   "detail": "",
+   "label": "U-mechanism (3,5,1,4) built",
+   "ok": true
+  },
+  {
+   "detail": "19 vs 19",
+   "label": "U-mech(3,5,1,4): rank = Vh - dim Rel",
+   "ok": true
+  },
+  {
+   "detail": "19 vs 24",
+   "label": "U-mech(3,5,1,4): rank <= 2m (Row <= C_U x C_U)",
+   "ok": true
+  },
+  {
+   "detail": "16/16/19/19",
+   "label": "U-mech(3,5,1,4): escape floor <= kernel floor <= 3-drop floor <= rank",
+   "ok": true
+  },
+  {
+   "detail": "4",
+   "label": "U-mech(3,5,1,4): |K| = 0 or >= 4",
+   "ok": true
+  },
+  {
+   "detail": "19",
+   "label": "U-mech: banked rank 19 = Vh - 1",
+   "ok": true
+  },
+  {
+   "detail": "16",
+   "label": "U-mech: banked escape floor 16",
+   "ok": true
+  },
+  {
+   "detail": "19",
+   "label": "U-mech: 3-drop floor TIGHT (= rank 19)",
+   "ok": true
+  },
+  {
+   "detail": "35 vs 35",
+   "label": "K_V(3,7,1,5): rank = Vh - dim Rel",
+   "ok": true
+  },
+  {
+   "detail": "35 vs 38",
+   "label": "K_V(3,7,1,5): rank <= 2m (Row <= C_U x C_U)",
+   "ok": true
+  },
+  {
+   "detail": "35/35/35/35",
+   "label": "K_V(3,7,1,5): escape floor <= kernel floor <= 3-drop floor <= rank",
+   "ok": true
+  },
+  {
+   "detail": "0",
+   "label": "K_V(3,7,1,5): |K| = 0 or >= 4",
+   "ok": true
+  },
+  {
+   "detail": "35 []",
+   "label": "K_V: banked rank 35 = Vh, K empty",
+   "ok": true
+  },
+  {
+   "detail": "10 vs 10",
+   "label": "S1(k=h=2): rank = Vh - dim Rel",
+   "ok": true
+  },
+  {
+   "detail": "10 vs 24",
+   "label": "S1(k=h=2): rank <= 2m (Row <= C_U x C_U)",
+   "ok": true
+  },
+  {
+   "detail": "8/10/10/10",
+   "label": "S1(k=h=2): escape floor <= kernel floor <= 3-drop floor <= rank",
+   "ok": true
+  },
+  {
+   "detail": "0",
+   "label": "S1(k=h=2): |K| = 0 or >= 4",
+   "ok": true
+  },
+  {
+   "detail": "[]",
+   "label": "S1: K = empty (replay)",
+   "ok": true
+  },
+  {
+   "detail": "10",
+   "label": "S1: rank = Vh = 10 (replay)",
+   "ok": true
+  },
+  {
+   "detail": "59",
+   "label": "sweep: >= 40 (T)-clean systems tested",
+   "ok": true
+  },
+  {
+   "detail": "59 systems, 37 with nonempty core, 37 where 3-drop > kernel",
+   "label": "sweep: floor chain + rank cross-check held everywhere",
+   "ok": true
+  },
+  {
+   "detail": "[{'h': 4, 's': 2, 'p': 6, 'V': 12, 'k': 19, 'm': 11, 'breaks': True}]",
+   "label": "family scan: minimal charge-breaking V = 12",
+   "ok": true
+  },
+  {
+   "detail": "[]",
+   "label": "family scan: gate forces ceil(h/2) <= s <= h-2",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'E1', 'h': 4, 'V': 12, 't': 7, 'm': 11, 'absE': 6, 'gate_clean': True, 'all_esc1': True, 'breaks': True, 'i': True, 'ii': True, 'iii': True}",
+   "label": "ALL-1 (i)+(ii) on E1",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'E1', 'h': 4, 'V': 12, 't': 7, 'm': 11, 'absE': 6, 'gate_clean': True, 'all_esc1': True, 'breaks': True, 'i': True, 'ii': True, 'iii': True}",
+   "label": "ALL-1 (iii) t>=2h-1 and V>=3h on E1",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'E1deep', 'h': 4, 'V': 20, 't': 11, 'm': 15, 'absE': 10, 'gate_clean': True, 'all_esc1': True, 'breaks': True, 'i': True, 'ii': True, 'iii': True}",
+   "label": "ALL-1 (i)+(ii) on E1deep",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'E1deep', 'h': 4, 'V': 20, 't': 11, 'm': 15, 'absE': 10, 'gate_clean': True, 'all_esc1': True, 'breaks': True, 'i': True, 'ii': True, 'iii': True}",
+   "label": "ALL-1 (iii) t>=2h-1 and V>=3h on E1deep",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'E1h5', 'h': 5, 'V': 16, 't': 10, 'm': 15, 'absE': 8, 'gate_clean': True, 'all_esc1': True, 'breaks': True, 'i': True, 'ii': True, 'iii': True}",
+   "label": "ALL-1 (i)+(ii) on E1h5",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'E1h5', 'h': 5, 'V': 16, 't': 10, 'm': 15, 'absE': 8, 'gate_clean': True, 'all_esc1': True, 'breaks': True, 'i': True, 'ii': True, 'iii': True}",
+   "label": "ALL-1 (iii) t>=2h-1 and V>=3h on E1h5",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'E1safe', 'h': 4, 'V': 6, 't': 4, 'm': 8, 'absE': 3, 'gate_clean': True, 'all_esc1': True, 'breaks': False, 'i': True, 'ii': True, 'iii': None}",
+   "label": "ALL-1 (i)+(ii) on E1safe",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'E1', 'h': 4, 'V': 12, 't': 7, 'm': 11, 'absE': 6, 'gate_clean': True, 'all_esc1': True, 'breaks': True, 'i': True, 'ii': True, 'iii': True}",
+   "label": "E1 saturates ALL-1: t = 2h-1 = 7, V = 3h = 12, 2|E| = 2t+2-h",
+   "ok": true
+  },
+  {
+   "detail": "[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]",
+   "label": "E1: one-step (item 12) escapes are all 1 too",
+   "ok": true
+  },
+  {
+   "detail": "{22: 14}",
+   "label": "E1: rank < 2V = 24 for EVERY swept slope tuple",
+   "ok": true
+  },
+  {
+   "detail": "{22: 14}",
+   "label": "E1: rank <= 2m = 22 for EVERY swept slope tuple",
+   "ok": true
+  },
+  {
+   "detail": "[]",
+   "label": "no gate-clean h=2 system with V=3 exists (exhaustive)",
+   "ok": true
+  },
+  {
+   "detail": "{3: (7, 7), 4: (10, 10), 5: (13, 13), 6: (16, 16)}",
+   "label": "threshold in the escape-1 direction is n_1 >= 3h-2",
+   "ok": true
+  },
+  {
+   "detail": "h=6 worst case",
+   "label": "ONE escape-1 core ray (others >= 2) NEVER defeats charge 2",
+   "ok": true
+  },
+  {
+   "detail": "0 vs 0",
+   "label": "E1: LEMMA R identity  dim(realisers) - 2k = 2m - rank",
+   "ok": true
+  },
+  {
+   "detail": "0 vs 0",
+   "label": "Z1: LEMMA R identity  dim(realisers) - 2k = 2m - rank",
+   "ok": true
+  },
+  {
+   "detail": "1 vs 1",
+   "label": "Zfib11: LEMMA R identity  dim(realisers) - 2k = 2m - rank",
+   "ok": true
+  },
+  {
+   "detail": "2 vs 2",
+   "label": "E1P(V=10): LEMMA R identity  dim(realisers) - 2k = 2m - rank",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'Zfib11', 'gate_clean': True, 'esc': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'V': 11, 'm': 5, 'rank': 9, 'twoV': 22, 'twom': 10, 'nontrivial': 1, 'exact_A_realisers': 56, 'agreement_test_exact': True, 'profiles': {'(20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20)': 56}}",
+   "label": "Zfib11: zero-escape, gate-clean, rank 9 < 2V = 22 (channel (i) charge 2 REFUTED)",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'Zfib11', 'gate_clean': True, 'esc': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'V': 11, 'm': 5, 'rank': 9, 'twoV': 22, 'twom': 10, 'nontrivial': 1, 'exact_A_realisers': 56, 'agreement_test_exact': True, 'profiles': {'(20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20)': 56}}",
+   "label": "Zfib11: REALISED -- nontrivial (u,v) with every ray slope's max agreement exactly A",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'E1', 'gate_clean': True, 'esc': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'V': 12, 'm': 11, 'rank': 22, 'twoV': 24, 'twom': 22, 'nontrivial': 0, 'exact_A_realisers': 0, 'agreement_test_exact': False, 'profiles': {}}",
+   "label": "E1: rank = 2m exactly => NO nontrivial realiser => not band-admissible",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'E1P(V=10)', 'gate_clean': True, 'esc': [1, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'V': 10, 'm': 9, 'rank': 16, 'twoV': 20, 'twom': 18, 'nontrivial': 2, 'exact_A_realisers': 0, 'agreement_test_exact': True, 'profiles': {'(28, 27, 27, 27, 27, 27, 27, 27, 27, 27)': 37, '(28, 27, 27, 27, 27, 28, 27, 27, 27, 27)': 4, '(28, 27, 28, 27, 27, 27, 27, 27, 27, 27)': 3}}",
+   "label": "E1P: escape-1 core ray, rank < min(2m, 2V) (realisable AND charge-defeating in the abstract class)",
+   "ok": true
+  },
+  {
+   "detail": "{'name': 'E1P(V=10)', 'gate_clean': True, 'esc': [1, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'V': 10, 'm': 9, 'rank': 16, 'twoV': 20, 'twom': 18, 'nontrivial': 2, 'exact_A_realisers': 0, 'agreement_test_exact': True, 'profiles': {'(28, 27, 27, 27, 27, 27, 27, 27, 27, 27)': 37, '(28, 27, 27, 27, 27, 28, 27, 27, 27, 27)': 4, '(28, 27, 28, 27, 27, 27, 27, 27, 27, 27)': 3}}",
+   "label": "E1P: but NO sampled realiser makes the escape-1 ray exact-A",
+   "ok": true
+  },
+  {
+   "detail": "",
+   "label": "Zfib11: nondegenerate (u,v) drawn",
+   "ok": true
+  },
+  {
+   "detail": "{'below_cascade': True, 'globally_generic': True, 'tangent_free_finite_slopes': True, 'tangent_free_v_direction': True, 'v_nonvanishing': True, 'kpacking_ok': True, 'FULL_GATE': True, 'A': 20, 'live_slopes': 11, 'max_ray_agreement': 20, 'ADMISSIBLE': True, 'N_over_n2': 0.11363636363636363}",
+   "label": "Zfib11: FULL_GATE = True (band-admissible received pair)",
+   "ok": true
+  },
+  {
+   "detail": "{'below_cascade': True, 'globally_generic': True, 'tangent_free_finite_slopes': True, 'tangent_free_v_direction': True, 'v_nonvanishing': True, 'kpacking_ok': True, 'FULL_GATE': True, 'A': 20, 'live_slopes': 11, 'max_ray_agreement': 20, 'ADMISSIBLE': True, 'N_over_n2': 0.11363636363636363}",
+   "label": "Zfib11: 11 live slopes, max ray agreement = A = 20",
+   "ok": true
+  }
+ ],
+ "e1_slope_sweep": {
+  "22": 14
+ },
+ "extremality": [
+  {
+   "V": 12,
+   "absE": 6,
+   "all_esc1": true,
+   "breaks": true,
+   "gate_clean": true,
+   "h": 4,
+   "i": true,
+   "ii": true,
+   "iii": true,
+   "m": 11,
+   "name": "E1",
+   "t": 7
+  },
+  {
+   "V": 20,
+   "absE": 10,
+   "all_esc1": true,
+   "breaks": true,
+   "gate_clean": true,
+   "h": 4,
+   "i": true,
+   "ii": true,
+   "iii": true,
+   "m": 15,
+   "name": "E1deep",
+   "t": 11
+  },
+  {
+   "V": 16,
+   "absE": 8,
+   "all_esc1": true,
+   "breaks": true,
+   "gate_clean": true,
+   "h": 5,
+   "i": true,
+   "ii": true,
+   "iii": true,
+   "m": 15,
+   "name": "E1h5",
+   "t": 10
+  },
+  {
+   "V": 6,
+   "absE": 3,
+   "all_esc1": true,
+   "breaks": false,
+   "gate_clean": true,
+   "h": 4,
+   "i": true,
+   "ii": true,
+   "iii": null,
+   "m": 8,
+   "name": "E1safe",
+   "t": 4
+  }
+ ],
+ "fails": [],
+ "falsifiers_fired": [],
+ "family_scan": {
+  "charge_breaking": 23,
+  "gate_clean_all_escape1": 99,
+  "minimal": [
+   {
+    "V": 12,
+    "breaks": true,
+    "h": 4,
+    "k": 19,
+    "m": 11,
+    "p": 6,
+    "s": 2
+   },
+   {
+    "V": 14,
+    "breaks": true,
+    "h": 4,
+    "k": 23,
+    "m": 12,
+    "p": 7,
+    "s": 2
+   },
+   {
+    "V": 16,
+    "breaks": true,
+    "h": 4,
+    "k": 27,
+    "m": 13,
+    "p": 8,
+    "s": 2
+   }
+  ]
+ },
+ "fixtures": [
+  {
+   "A": 23,
+   "V": 12,
+   "Vh": 48,
+   "charge": 1.8333,
+   "core": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "depth_ok": true,
+   "dim_Rel": 26,
+   "escape_floor": 12,
+   "escapes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "gate_clean": true,
+   "h": 4,
+   "k": 19,
+   "kernel_floor": 12,
+   "kpacking_ok": true,
+   "m": 11,
+   "max_pair": 21,
+   "max_quad": 16,
+   "max_triple": 18,
+   "min_pair": 20,
+   "min_quad": 16,
+   "n": 30,
+   "name": "E1",
+   "note": "h=4 s=2 p=6 V=12 k=19: ALL rays escape exactly 1",
+   "pairwise_ok": true,
+   "q": 31,
+   "rank": 22,
+   "sizes_ok": true,
+   "three_drop_floor": 21,
+   "twoV": 24,
+   "twom": 22
+  },
+  {
+   "A": 39,
+   "V": 20,
+   "Vh": 80,
+   "charge": 1.5,
+   "core": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+   ],
+   "depth_ok": true,
+   "dim_Rel": 50,
+   "escape_floor": 20,
+   "escapes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "gate_clean": true,
+   "h": 4,
+   "k": 35,
+   "kernel_floor": 20,
+   "kpacking_ok": true,
+   "m": 15,
+   "max_pair": 37,
+   "max_quad": 32,
+   "max_triple": 34,
+   "min_pair": 36,
+   "min_quad": 32,
+   "n": 50,
+   "name": "E1deep",
+   "note": "h=4 s=2 p=10 V=20 k=35: deeper margin",
+   "pairwise_ok": true,
+   "q": 53,
+   "rank": 30,
+   "sizes_ok": true,
+   "three_drop_floor": 29,
+   "twoV": 40,
+   "twom": 30
+  },
+  {
+   "A": 23,
+   "V": 6,
+   "Vh": 24,
+   "charge": 2.6667,
+   "core": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "depth_ok": true,
+   "dim_Rel": 8,
+   "escape_floor": 6,
+   "escapes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "gate_clean": true,
+   "h": 4,
+   "k": 19,
+   "kernel_floor": 6,
+   "kpacking_ok": true,
+   "m": 8,
+   "max_pair": 21,
+   "max_quad": 16,
+   "max_triple": 18,
+   "min_pair": 20,
+   "min_quad": 16,
+   "n": 27,
+   "name": "E1safe",
+   "note": "h=4 s=2 p=3 V=6 k=19: all escapes 1 but V <= m",
+   "pairwise_ok": true,
+   "q": 29,
+   "rank": 16,
+   "sizes_ok": true,
+   "three_drop_floor": 15,
+   "twoV": 12,
+   "twom": 16
+  },
+  {
+   "A": 12,
+   "V": 4,
+   "Vh": 24,
+   "charge": 4.5,
+   "core": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "depth_ok": true,
+   "dim_Rel": 6,
+   "escape_floor": 0,
+   "escapes": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "gate_clean": true,
+   "h": 6,
+   "k": 6,
+   "kernel_floor": 0,
+   "kpacking_ok": true,
+   "m": 10,
+   "max_pair": 8,
+   "max_quad": 0,
+   "max_triple": 4,
+   "min_pair": 8,
+   "min_quad": 0,
+   "n": 17,
+   "name": "X0 (unperturbed)",
+   "note": "four fibres of x^4 over F_17, k=6: zero escape",
+   "pairwise_ok": true,
+   "q": 17,
+   "rank": 18,
+   "sizes_ok": true,
+   "three_drop_floor": 18,
+   "twoV": 8,
+   "twom": 20
+  },
+  {
+   "A": 12,
+   "V": 4,
+   "Vh": 24,
+   "charge": 4.75,
+   "core": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "depth_ok": true,
+   "dim_Rel": 5,
+   "escape_floor": 3,
+   "escapes": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "gate_clean": true,
+   "h": 6,
+   "k": 6,
+   "kernel_floor": 3,
+   "kpacking_ok": true,
+   "m": 11,
+   "max_pair": 8,
+   "max_quad": 0,
+   "max_triple": 4,
+   "min_pair": 7,
+   "min_quad": 0,
+   "n": 17,
+   "name": "X1p",
+   "note": "one point of S_1 swapped for a fresh private point",
+   "pairwise_ok": true,
+   "q": 17,
+   "rank": 19,
+   "sizes_ok": true,
+   "three_drop_floor": 19,
+   "twoV": 8,
+   "twom": 22
+  },
+  {
+   "A": 10,
+   "V": 6,
+   "Vh": 18,
+   "charge": 1.6667,
+   "core": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "depth_ok": true,
+   "dim_Rel": 8,
+   "escape_floor": 0,
+   "escapes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "gate_clean": true,
+   "h": 3,
+   "k": 7,
+   "kernel_floor": 0,
+   "kpacking_ok": true,
+   "m": 5,
+   "max_pair": 8,
+   "max_quad": 4,
+   "max_triple": 6,
+   "min_pair": 8,
+   "min_quad": 4,
+   "n": 12,
+   "name": "Z1",
+   "note": "complete block k=7 h=3 t=2 V=6",
+   "pairwise_ok": true,
+   "q": 13,
+   "rank": 10,
+   "sizes_ok": true,
+   "three_drop_floor": 9,
+   "twoV": 12,
+   "twom": 10
+  },
+  {
+   "A": 20,
+   "V": 11,
+   "Vh": 33,
+   "charge": 0.9091,
+   "core": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "depth_ok": true,
+   "dim_Rel": 23,
+   "escape_floor": 0,
+   "escapes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "gate_clean": true,
+   "h": 3,
+   "k": 17,
+   "kernel_floor": 0,
+   "kpacking_ok": true,
+   "m": 5,
+   "max_pair": 18,
+   "max_quad": 14,
+   "max_triple": 16,
+   "min_pair": 18,
+   "min_quad": 14,
+   "n": 22,
+   "name": "Z1big",
+   "note": "complete block k=17 h=3 t=2 V=11",
+   "pairwise_ok": true,
+   "q": 23,
+   "rank": 10,
+   "sizes_ok": true,
+   "three_drop_floor": 9,
+   "twoV": 22,
+   "twom": 10
+  },
+  {
+   "A": 10,
+   "V": 4,
+   "Vh": 12,
+   "charge": 2.5,
+   "core": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "depth_ok": true,
+   "dim_Rel": 2,
+   "escape_floor": 0,
+   "escapes": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "gate_clean": true,
+   "h": 3,
+   "k": 7,
+   "kernel_floor": 0,
+   "kpacking_ok": true,
+   "m": 5,
+   "max_pair": 8,
+   "max_quad": 4,
+   "max_triple": 6,
+   "min_pair": 8,
+   "min_quad": 4,
+   "n": 12,
+   "name": "Z0",
+   "note": "complete block k=7 h=3 t=2 V=4",
+   "pairwise_ok": true,
+   "q": 13,
+   "rank": 10,
+   "sizes_ok": true,
+   "three_drop_floor": 9,
+   "twoV": 8,
+   "twom": 10
+  },
+  {
+   "A": 12,
+   "V": 5,
+   "Vh": 15,
+   "charge": 2.0,
+   "core": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "depth_ok": true,
+   "dim_Rel": 5,
+   "escape_floor": 0,
+   "escapes": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "gate_clean": true,
+   "h": 3,
+   "k": 9,
+   "kernel_floor": 0,
+   "kpacking_ok": true,
+   "m": 5,
+   "max_pair": 10,
+   "max_quad": 6,
+   "max_triple": 8,
+   "min_pair": 10,
+   "min_quad": 6,
+   "n": 14,
+   "name": "Z5",
+   "note": "complete block k=9 h=3 t=2 V=5",
+   "pairwise_ok": true,
+   "q": 17,
+   "rank": 10,
+   "sizes_ok": true,
+   "three_drop_floor": 9,
+   "twoV": 10,
+   "twom": 10
+  },
+  {
+   "A": 8,
+   "V": 4,
+   "Vh": 20,
+   "charge": 4.75,
+   "core": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "depth_ok": true,
+   "dim_Rel": 1,
+   "escape_floor": 16,
+   "escapes": [
+    4,
+    4,
+    4,
+    4
+   ],
+   "gate_clean": true,
+   "h": 5,
+   "k": 3,
+   "kernel_floor": 16,
+   "kpacking_ok": true,
+   "m": 12,
+   "max_pair": 4,
+   "max_quad": 1,
+   "max_triple": 2,
+   "min_pair": 4,
+   "min_quad": 1,
+   "n": 16,
+   "name": "U-mech(3,5,1,4)",
+   "note": "banked calibration adversary #3",
+   "pairwise_ok": true,
+   "q": 97,
+   "rank": 19,
+   "sizes_ok": true,
+   "three_drop_floor": 19,
+   "twoV": 8,
+   "twom": 24
+  },
+  {
+   "A": 10,
+   "V": 5,
+   "Vh": 35,
+   "charge": 7.0,
+   "core": [],
+   "depth_ok": true,
+   "dim_Rel": 0,
+   "escape_floor": 35,
+   "escapes": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "gate_clean": true,
+   "h": 7,
+   "k": 3,
+   "kernel_floor": 35,
+   "kpacking_ok": true,
+   "m": 19,
+   "max_pair": 4,
+   "max_quad": 2,
+   "max_triple": 2,
+   "min_pair": 4,
+   "min_quad": 2,
+   "n": 22,
+   "name": "K_V(3,7,1,5)",
+   "note": "banked: every ray dies, K empty, rank = Vh = 35",
+   "pairwise_ok": true,
+   "q": 6421,
+   "rank": 35,
+   "sizes_ok": true,
+   "three_drop_floor": 35,
+   "twoV": 10,
+   "twom": 38
+  },
+  {
+   "A": 4,
+   "V": 5,
+   "Vh": 10,
+   "charge": 2.0,
+   "core": [],
+   "depth_ok": false,
+   "dim_Rel": 0,
+   "escape_floor": 8,
+   "escapes": [
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 2,
+   "kernel_floor": 10,
+   "kpacking_ok": true,
+   "m": 12,
+   "max_pair": 3,
+   "max_quad": 0,
+   "max_triple": 1,
+   "min_pair": 0,
+   "min_quad": 0,
+   "n": 14,
+   "name": "S1(k=h=2)",
+   "note": "unification pilot's separating fixture (not pairwise)",
+   "pairwise_ok": false,
+   "q": 17,
+   "rank": 10,
+   "sizes_ok": true,
+   "three_drop_floor": 10,
+   "twoV": 10,
+   "twom": 24
+  }
+ ],
+ "full_gate": {
+  "A": 20,
+  "ADMISSIBLE": true,
+  "FULL_GATE": true,
+  "N_over_n2": 0.11363636363636363,
+  "below_cascade": true,
+  "globally_generic": true,
+  "kpacking_ok": true,
+  "live_slopes": 11,
+  "max_ray_agreement": 20,
+  "tangent_free_finite_slopes": true,
+  "tangent_free_v_direction": true,
+  "v_nonvanishing": true
+ },
+ "profile_worst": {
+  "(3, 10)": [
+   9,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   10,
+   0
+  ],
+  "(3, 11)": [
+   9,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   11,
+   0
+  ],
+  "(3, 12)": [
+   9,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   12,
+   0
+  ],
+  "(3, 13)": [
+   9,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   13,
+   0
+  ],
+  "(3, 14)": [
+   9,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   14,
+   0
+  ],
+  "(3, 5)": [
+   9,
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   5,
+   0
+  ],
+  "(3, 6)": [
+   9,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   6,
+   0
+  ],
+  "(3, 7)": [
+   9,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   7,
+   0
+  ],
+  "(3, 8)": [
+   9,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   8,
+   0
+  ],
+  "(3, 9)": [
+   9,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   9,
+   0
+  ],
+  "(4, 10)": [
+   12,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   10,
+   0
+  ],
+  "(4, 11)": [
+   12,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   11,
+   0
+  ],
+  "(4, 12)": [
+   12,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   12,
+   0
+  ],
+  "(4, 13)": [
+   12,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   13,
+   0
+  ],
+  "(4, 14)": [
+   12,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   14,
+   0
+  ],
+  "(4, 7)": [
+   12,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   7,
+   0
+  ],
+  "(4, 8)": [
+   12,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   8,
+   0
+  ],
+  "(4, 9)": [
+   12,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   9,
+   0
+  ],
+  "(5, 10)": [
+   15,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   10,
+   0
+  ],
+  "(5, 11)": [
+   15,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   11,
+   0
+  ],
+  "(5, 12)": [
+   15,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   12,
+   0
+  ],
+  "(5, 13)": [
+   15,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   13,
+   0
+  ],
+  "(5, 14)": [
+   15,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   14,
+   0
+  ],
+  "(5, 8)": [
+   15,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   8,
+   0
+  ],
+  "(5, 9)": [
+   15,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   9,
+   0
+  ],
+  "(6, 10)": [
+   18,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   10,
+   0
+  ],
+  "(6, 11)": [
+   18,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   11,
+   0
+  ],
+  "(6, 12)": [
+   18,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   12,
+   0
+  ],
+  "(6, 13)": [
+   18,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   13,
+   0
+  ],
+  "(6, 14)": [
+   18,
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   14,
+   0
+  ]
+ },
+ "realisability": [
+  {
+   "V": 12,
+   "agreement_test_exact": false,
+   "esc": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "exact_A_realisers": 0,
+   "gate_clean": true,
+   "m": 11,
+   "name": "E1",
+   "nontrivial": 0,
+   "profiles": {},
+   "rank": 22,
+   "twoV": 24,
+   "twom": 22
+  },
+  {
+   "V": 6,
+   "agreement_test_exact": true,
+   "esc": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "exact_A_realisers": 0,
+   "gate_clean": true,
+   "m": 5,
+   "name": "Z1",
+   "nontrivial": 0,
+   "profiles": {},
+   "rank": 10,
+   "twoV": 12,
+   "twom": 10
+  },
+  {
+   "V": 11,
+   "agreement_test_exact": true,
+   "esc": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "exact_A_realisers": 56,
+   "gate_clean": true,
+   "m": 5,
+   "name": "Zfib11",
+   "nontrivial": 1,
+   "profiles": {
+    "(20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20)": 56
+   },
+   "rank": 9,
+   "twoV": 22,
+   "twom": 10
+  },
+  {
+   "V": 10,
+   "agreement_test_exact": true,
+   "esc": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "exact_A_realisers": 0,
+   "gate_clean": true,
+   "m": 9,
+   "name": "E1P(V=10)",
+   "nontrivial": 2,
+   "profiles": {
+    "(28, 27, 27, 27, 27, 27, 27, 27, 27, 27)": 37,
+    "(28, 27, 27, 27, 27, 28, 27, 27, 27, 27)": 4,
+    "(28, 27, 28, 27, 27, 27, 27, 27, 27, 27)": 3
+   },
+   "rank": 16,
+   "twoV": 20,
+   "twom": 18
+  }
+ ],
+ "sweep": [
+  {
+   "V": 4,
+   "cross": 16,
+   "dimRel": 0,
+   "esc": [
+    6,
+    6,
+    6,
+    6
+   ],
+   "floors": [
+    16,
+    16,
+    16
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 2,
+   "live": 0,
+   "m": 10,
+   "n": 12,
+   "rank": 16
+  },
+  {
+   "V": 5,
+   "cross": 25,
+   "dimRel": 0,
+   "esc": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "floors": [
+    19,
+    25,
+    25
+   ],
+   "gate_clean": false,
+   "h": 5,
+   "k": 5,
+   "live": 0,
+   "m": 15,
+   "n": 20,
+   "rank": 25
+  },
+  {
+   "V": 7,
+   "cross": 29,
+   "dimRel": 6,
+   "esc": [
+    1,
+    0,
+    2,
+    2,
+    1,
+    0,
+    1
+   ],
+   "floors": [
+    7,
+    7,
+    21
+   ],
+   "gate_clean": false,
+   "h": 5,
+   "k": 5,
+   "live": 7,
+   "m": 15,
+   "n": 20,
+   "rank": 29
+  },
+  {
+   "V": 5,
+   "cross": 15,
+   "dimRel": 0,
+   "esc": [
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "floors": [
+    15,
+    15,
+    15
+   ],
+   "gate_clean": false,
+   "h": 3,
+   "k": 5,
+   "live": 0,
+   "m": 11,
+   "n": 16,
+   "rank": 15
+  },
+  {
+   "V": 6,
+   "cross": 18,
+   "dimRel": 0,
+   "esc": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "floors": [
+    13,
+    18,
+    18
+   ],
+   "gate_clean": false,
+   "h": 3,
+   "k": 5,
+   "live": 0,
+   "m": 11,
+   "n": 16,
+   "rank": 18
+  },
+  {
+   "V": 5,
+   "cross": 19,
+   "dimRel": 1,
+   "esc": [
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "floors": [
+    9,
+    9,
+    16
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 2,
+   "live": 5,
+   "m": 10,
+   "n": 12,
+   "rank": 19
+  },
+  {
+   "V": 4,
+   "cross": 16,
+   "dimRel": 0,
+   "esc": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "floors": [
+    12,
+    12,
+    15
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 2,
+   "live": 4,
+   "m": 9,
+   "n": 12,
+   "rank": 16
+  },
+  {
+   "V": 5,
+   "cross": 10,
+   "dimRel": 0,
+   "esc": [
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "floors": [
+    5,
+    10,
+    10
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 2,
+   "live": 0,
+   "m": 6,
+   "n": 8,
+   "rank": 10
+  },
+  {
+   "V": 4,
+   "cross": 8,
+   "dimRel": 0,
+   "esc": [
+    6,
+    6,
+    6,
+    6
+   ],
+   "floors": [
+    8,
+    8,
+    8
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 4,
+   "live": 0,
+   "m": 6,
+   "n": 10,
+   "rank": 8
+  },
+  {
+   "V": 7,
+   "cross": 14,
+   "dimRel": 0,
+   "esc": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "floors": [
+    0,
+    0,
+    6
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 4,
+   "live": 7,
+   "m": 8,
+   "n": 12,
+   "rank": 14
+  },
+  {
+   "V": 4,
+   "cross": 20,
+   "dimRel": 0,
+   "esc": [
+    4,
+    4,
+    4,
+    4
+   ],
+   "floors": [
+    16,
+    16,
+    19
+   ],
+   "gate_clean": false,
+   "h": 5,
+   "k": 2,
+   "live": 4,
+   "m": 12,
+   "n": 14,
+   "rank": 20
+  },
+  {
+   "V": 4,
+   "cross": 16,
+   "dimRel": 0,
+   "esc": [
+    7,
+    7,
+    7,
+    7
+   ],
+   "floors": [
+    13,
+    16,
+    16
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 3,
+   "live": 0,
+   "m": 11,
+   "n": 14,
+   "rank": 16
+  },
+  {
+   "V": 7,
+   "cross": 20,
+   "dimRel": 1,
+   "esc": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "floors": [
+    2,
+    2,
+    11
+   ],
+   "gate_clean": false,
+   "h": 3,
+   "k": 5,
+   "live": 7,
+   "m": 11,
+   "n": 16,
+   "rank": 20
+  },
+  {
+   "V": 7,
+   "cross": 14,
+   "dimRel": 0,
+   "esc": [
+    1,
+    5,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "floors": [
+    6,
+    8,
+    11
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 3,
+   "live": 6,
+   "m": 7,
+   "n": 10,
+   "rank": 14
+  },
+  {
+   "V": 4,
+   "cross": 16,
+   "dimRel": 0,
+   "esc": [
+    2,
+    3,
+    3,
+    2
+   ],
+   "floors": [
+    10,
+    10,
+    15
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 3,
+   "live": 4,
+   "m": 8,
+   "n": 11,
+   "rank": 16
+  },
+  {
+   "V": 7,
+   "cross": 14,
+   "dimRel": 0,
+   "esc": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "floors": [
+    4,
+    4,
+    10
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 5,
+   "live": 7,
+   "m": 9,
+   "n": 14,
+   "rank": 14
+  },
+  {
+   "V": 5,
+   "cross": 15,
+   "dimRel": 0,
+   "esc": [
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "floors": [
+    14,
+    15,
+    15
+   ],
+   "gate_clean": false,
+   "h": 3,
+   "k": 5,
+   "live": 0,
+   "m": 11,
+   "n": 16,
+   "rank": 15
+  },
+  {
+   "V": 7,
+   "cross": 21,
+   "dimRel": 0,
+   "esc": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    8
+   ],
+   "floors": [
+    8,
+    8,
+    15
+   ],
+   "gate_clean": false,
+   "h": 3,
+   "k": 5,
+   "live": 6,
+   "m": 11,
+   "n": 16,
+   "rank": 21
+  },
+  {
+   "V": 5,
+   "cross": 20,
+   "dimRel": 0,
+   "esc": [
+    7,
+    7,
+    7,
+    7,
+    7
+   ],
+   "floors": [
+    15,
+    20,
+    20
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 3,
+   "live": 0,
+   "m": 11,
+   "n": 14,
+   "rank": 20
+  },
+  {
+   "V": 5,
+   "cross": 10,
+   "dimRel": 0,
+   "esc": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "floors": [
+    6,
+    10,
+    10
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 3,
+   "live": 0,
+   "m": 6,
+   "n": 10,
+   "rank": 10
+  },
+  {
+   "V": 4,
+   "cross": 10,
+   "dimRel": 2,
+   "esc": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "floors": [
+    0,
+    0,
+    9
+   ],
+   "gate_clean": true,
+   "h": 3,
+   "k": 5,
+   "live": 4,
+   "m": 5,
+   "n": 10,
+   "rank": 10
+  },
+  {
+   "V": 6,
+   "cross": 12,
+   "dimRel": 0,
+   "esc": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "floors": [
+    2,
+    2,
+    8
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 4,
+   "live": 6,
+   "m": 6,
+   "n": 10,
+   "rank": 12
+  },
+  {
+   "V": 4,
+   "cross": 8,
+   "dimRel": 0,
+   "esc": [
+    6,
+    6,
+    6,
+    6
+   ],
+   "floors": [
+    8,
+    8,
+    8
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 4,
+   "live": 0,
+   "m": 6,
+   "n": 10,
+   "rank": 8
+  },
+  {
+   "V": 5,
+   "cross": 15,
+   "dimRel": 0,
+   "esc": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "floors": [
+    10,
+    15,
+    15
+   ],
+   "gate_clean": false,
+   "h": 3,
+   "k": 2,
+   "live": 0,
+   "m": 8,
+   "n": 10,
+   "rank": 15
+  },
+  {
+   "V": 7,
+   "cross": 12,
+   "dimRel": 2,
+   "esc": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "floors": [
+    0,
+    0,
+    6
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 3,
+   "live": 7,
+   "m": 6,
+   "n": 9,
+   "rank": 12
+  },
+  {
+   "V": 4,
+   "cross": 18,
+   "dimRel": 2,
+   "esc": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "floors": [
+    8,
+    8,
+    17
+   ],
+   "gate_clean": true,
+   "h": 5,
+   "k": 4,
+   "live": 4,
+   "m": 9,
+   "n": 13,
+   "rank": 18
+  },
+  {
+   "V": 6,
+   "cross": 23,
+   "dimRel": 1,
+   "esc": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    1
+   ],
+   "floors": [
+    8,
+    8,
+    17
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 5,
+   "live": 6,
+   "m": 13,
+   "n": 18,
+   "rank": 23
+  },
+  {
+   "V": 5,
+   "cross": 19,
+   "dimRel": 1,
+   "esc": [
+    3,
+    2,
+    2,
+    3,
+    1
+   ],
+   "floors": [
+    11,
+    11,
+    18
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 2,
+   "live": 5,
+   "m": 10,
+   "n": 12,
+   "rank": 19
+  },
+  {
+   "V": 4,
+   "cross": 16,
+   "dimRel": 0,
+   "esc": [
+    8,
+    8,
+    8,
+    8
+   ],
+   "floors": [
+    15,
+    16,
+    16
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 4,
+   "live": 0,
+   "m": 11,
+   "n": 16,
+   "rank": 16
+  },
+  {
+   "V": 7,
+   "cross": 14,
+   "dimRel": 0,
+   "esc": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   "floors": [
+    4,
+    4,
+    10
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 3,
+   "live": 7,
+   "m": 7,
+   "n": 10,
+   "rank": 14
+  },
+  {
+   "V": 6,
+   "cross": 27,
+   "dimRel": 3,
+   "esc": [
+    1,
+    2,
+    1,
+    4,
+    1,
+    2
+   ],
+   "floors": [
+    11,
+    11,
+    23
+   ],
+   "gate_clean": false,
+   "h": 5,
+   "k": 4,
+   "live": 6,
+   "m": 14,
+   "n": 18,
+   "rank": 27
+  },
+  {
+   "V": 5,
+   "cross": 10,
+   "dimRel": 0,
+   "esc": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "floors": [
+    6,
+    10,
+    10
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 3,
+   "live": 0,
+   "m": 7,
+   "n": 10,
+   "rank": 10
+  },
+  {
+   "V": 5,
+   "cross": 14,
+   "dimRel": 1,
+   "esc": [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "floors": [
+    2,
+    2,
+    11
+   ],
+   "gate_clean": false,
+   "h": 3,
+   "k": 5,
+   "live": 5,
+   "m": 7,
+   "n": 12,
+   "rank": 14
+  },
+  {
+   "V": 7,
+   "cross": 24,
+   "dimRel": 4,
+   "esc": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "floors": [
+    2,
+    2,
+    14
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 4,
+   "live": 7,
+   "m": 12,
+   "n": 16,
+   "rank": 24
+  },
+  {
+   "V": 4,
+   "cross": 20,
+   "dimRel": 0,
+   "esc": [
+    7,
+    7,
+    7,
+    7
+   ],
+   "floors": [
+    19,
+    20,
+    20
+   ],
+   "gate_clean": false,
+   "h": 5,
+   "k": 2,
+   "live": 0,
+   "m": 12,
+   "n": 14,
+   "rank": 20
+  },
+  {
+   "V": 5,
+   "cross": 15,
+   "dimRel": 0,
+   "esc": [
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "floors": [
+    12,
+    15,
+    15
+   ],
+   "gate_clean": false,
+   "h": 3,
+   "k": 5,
+   "live": 0,
+   "m": 11,
+   "n": 16,
+   "rank": 15
+  },
+  {
+   "V": 5,
+   "cross": 16,
+   "dimRel": 4,
+   "esc": [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "floors": [
+    2,
+    2,
+    14
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 5,
+   "live": 5,
+   "m": 8,
+   "n": 13,
+   "rank": 16
+  },
+  {
+   "V": 7,
+   "cross": 20,
+   "dimRel": 1,
+   "esc": [
+    2,
+    1,
+    0,
+    0,
+    0,
+    2,
+    1
+   ],
+   "floors": [
+    6,
+    6,
+    15
+   ],
+   "gate_clean": false,
+   "h": 3,
+   "k": 4,
+   "live": 7,
+   "m": 10,
+   "n": 14,
+   "rank": 20
+  },
+  {
+   "V": 7,
+   "cross": 12,
+   "dimRel": 2,
+   "esc": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "floors": [
+    0,
+    0,
+    6
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 5,
+   "live": 7,
+   "m": 6,
+   "n": 11,
+   "rank": 12
+  },
+  {
+   "V": 4,
+   "cross": 12,
+   "dimRel": 0,
+   "esc": [
+    7,
+    7,
+    7,
+    7
+   ],
+   "floors": [
+    9,
+    12,
+    12
+   ],
+   "gate_clean": false,
+   "h": 3,
+   "k": 4,
+   "live": 0,
+   "m": 10,
+   "n": 14,
+   "rank": 12
+  },
+  {
+   "V": 6,
+   "cross": 12,
+   "dimRel": 0,
+   "esc": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   "floors": [
+    2,
+    2,
+    8
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 3,
+   "live": 6,
+   "m": 6,
+   "n": 9,
+   "rank": 12
+  },
+  {
+   "V": 5,
+   "cross": 16,
+   "dimRel": 4,
+   "esc": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "floors": [
+    0,
+    0,
+    12
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 5,
+   "live": 5,
+   "m": 8,
+   "n": 13,
+   "rank": 16
+  },
+  {
+   "V": 4,
+   "cross": 16,
+   "dimRel": 0,
+   "esc": [
+    6,
+    6,
+    6,
+    6
+   ],
+   "floors": [
+    15,
+    16,
+    16
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 2,
+   "live": 0,
+   "m": 10,
+   "n": 12,
+   "rank": 16
+  },
+  {
+   "V": 6,
+   "cross": 18,
+   "dimRel": 0,
+   "esc": [
+    1,
+    2,
+    0,
+    2,
+    0,
+    1
+   ],
+   "floors": [
+    6,
+    6,
+    14
+   ],
+   "gate_clean": false,
+   "h": 3,
+   "k": 3,
+   "live": 6,
+   "m": 9,
+   "n": 12,
+   "rank": 18
+  },
+  {
+   "V": 5,
+   "cross": 10,
+   "dimRel": 0,
+   "esc": [
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "floors": [
+    7,
+    10,
+    10
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 2,
+   "live": 0,
+   "m": 6,
+   "n": 8,
+   "rank": 10
+  },
+  {
+   "V": 4,
+   "cross": 12,
+   "dimRel": 0,
+   "esc": [
+    8,
+    8,
+    8,
+    8
+   ],
+   "floors": [
+    11,
+    12,
+    12
+   ],
+   "gate_clean": false,
+   "h": 3,
+   "k": 5,
+   "live": 0,
+   "m": 10,
+   "n": 16,
+   "rank": 12
+  },
+  {
+   "V": 5,
+   "cross": 16,
+   "dimRel": 4,
+   "esc": [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "floors": [
+    2,
+    2,
+    14
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 4,
+   "live": 5,
+   "m": 8,
+   "n": 12,
+   "rank": 16
+  },
+  {
+   "V": 4,
+   "cross": 8,
+   "dimRel": 0,
+   "esc": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "floors": [
+    8,
+    8,
+    8
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 3,
+   "live": 0,
+   "m": 6,
+   "n": 9,
+   "rank": 8
+  },
+  {
+   "V": 5,
+   "cross": 10,
+   "dimRel": 0,
+   "esc": [
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "floors": [
+    3,
+    3,
+    8
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 4,
+   "live": 5,
+   "m": 6,
+   "n": 10,
+   "rank": 10
+  },
+  {
+   "V": 4,
+   "cross": 16,
+   "dimRel": 0,
+   "esc": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "floors": [
+    12,
+    12,
+    15
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 2,
+   "live": 4,
+   "m": 8,
+   "n": 10,
+   "rank": 16
+  },
+  {
+   "V": 6,
+   "cross": 26,
+   "dimRel": 4,
+   "esc": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "floors": [
+    6,
+    6,
+    18
+   ],
+   "gate_clean": false,
+   "h": 5,
+   "k": 3,
+   "live": 6,
+   "m": 13,
+   "n": 16,
+   "rank": 26
+  },
+  {
+   "V": 4,
+   "cross": 8,
+   "dimRel": 0,
+   "esc": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "floors": [
+    4,
+    4,
+    7
+   ],
+   "gate_clean": false,
+   "h": 2,
+   "k": 4,
+   "live": 4,
+   "m": 4,
+   "n": 8,
+   "rank": 8
+  },
+  {
+   "V": 4,
+   "cross": 10,
+   "dimRel": 2,
+   "esc": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "floors": [
+    0,
+    0,
+    9
+   ],
+   "gate_clean": true,
+   "h": 3,
+   "k": 5,
+   "live": 4,
+   "m": 5,
+   "n": 10,
+   "rank": 10
+  },
+  {
+   "V": 5,
+   "cross": 14,
+   "dimRel": 1,
+   "esc": [
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "floors": [
+    4,
+    4,
+    11
+   ],
+   "gate_clean": false,
+   "h": 3,
+   "k": 2,
+   "live": 5,
+   "m": 7,
+   "n": 10,
+   "rank": 14
+  },
+  {
+   "V": 6,
+   "cross": 14,
+   "dimRel": 4,
+   "esc": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "floors": [
+    0,
+    0,
+    9
+   ],
+   "gate_clean": false,
+   "h": 3,
+   "k": 5,
+   "live": 6,
+   "m": 7,
+   "n": 12,
+   "rank": 14
+  },
+  {
+   "V": 4,
+   "cross": 16,
+   "dimRel": 0,
+   "esc": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "floors": [
+    12,
+    12,
+    15
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 2,
+   "live": 4,
+   "m": 10,
+   "n": 12,
+   "rank": 16
+  },
+  {
+   "V": 4,
+   "cross": 20,
+   "dimRel": 0,
+   "esc": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "floors": [
+    20,
+    20,
+    20
+   ],
+   "gate_clean": false,
+   "h": 5,
+   "k": 5,
+   "live": 0,
+   "m": 15,
+   "n": 20,
+   "rank": 20
+  },
+  {
+   "V": 5,
+   "cross": 15,
+   "dimRel": 0,
+   "esc": [
+    2,
+    5,
+    2,
+    2,
+    2
+   ],
+   "floors": [
+    9,
+    11,
+    14
+   ],
+   "gate_clean": false,
+   "h": 3,
+   "k": 2,
+   "live": 4,
+   "m": 8,
+   "n": 10,
+   "rank": 15
+  },
+  {
+   "V": 7,
+   "cross": 19,
+   "dimRel": 2,
+   "esc": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "floors": [
+    5,
+    5,
+    13
+   ],
+   "gate_clean": false,
+   "h": 3,
+   "k": 4,
+   "live": 7,
+   "m": 10,
+   "n": 14,
+   "rank": 19
+  }
+ ],
+ "sweep_summary": {
+  "core_nonempty": 37,
+  "strict_over_kernel": 37,
+  "tested": 59
+ },
+ "threshold": {
+  "3": [
+   7,
+   7
+  ],
+  "4": [
+   10,
+   10
+  ],
+  "5": [
+   13,
+   13
+  ],
+  "6": [
+   16,
+   16
+  ]
+ },
+ "total_checks": 113
+}

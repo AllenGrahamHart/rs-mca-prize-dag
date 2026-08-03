@@ -1,0 +1,1172 @@
+{
+ "rows": [
+  {
+   "name": "RowC 1/4",
+   "h": 5,
+   "band_proper": [
+    3,
+    3
+   ],
+   "endpoints": [
+    {
+     "d": 3,
+     "r": 765,
+     "m_extra": 1,
+     "beta": 765,
+     "log2_E_OA_bound": 9.579315937579832,
+     "forced": true,
+     "log2_beta": 9.579315937579832
+    },
+    {
+     "d": 3,
+     "r": 765,
+     "m_extra": 1,
+     "beta": 765,
+     "log2_E_OA_bound": 9.579315937579832,
+     "forced": true,
+     "log2_beta": 9.579315937579832
+    }
+   ]
+  },
+  {
+   "name": "RowC 1/8",
+   "h": 5,
+   "band_proper": [
+    3,
+    3
+   ],
+   "endpoints": [
+    {
+     "d": 3,
+     "r": 893,
+     "m_extra": 1,
+     "beta": 893,
+     "log2_E_OA_bound": 9.802516365121898,
+     "forced": true,
+     "log2_beta": 9.802516365121898
+    },
+    {
+     "d": 3,
+     "r": 893,
+     "m_extra": 1,
+     "beta": 893,
+     "log2_E_OA_bound": 9.802516365121898,
+     "forced": true,
+     "log2_beta": 9.802516365121898
+    }
+   ]
+  },
+  {
+   "name": "RowC 1/16",
+   "h": 3,
+   "band_proper": [
+    2,
+    1
+   ]
+  },
+  {
+   "name": "prize 1/4",
+   "h": 8589934593,
+   "band_proper": [
+    4294967297,
+    8589934591
+   ],
+   "endpoints": [
+    {
+     "d": 4294967297,
+     "r": 1644972474367,
+     "m_extra": 4294967295,
+     "beta": 383,
+     "log2_E_OA_bound": -1030697615897.8951,
+     "forced": false,
+     "log2_beta": 8.581200581924808
+    },
+    {
+     "d": 8589934591,
+     "r": 1640677507073,
+     "m_extra": 1,
+     "beta": 1640677507073,
+     "log2_E_OA_bound": 40.56452696999515,
+     "forced": true,
+     "log2_beta": 40.56452696999515
+    }
+   ]
+  },
+  {
+   "name": "prize 1/8",
+   "h": 8589934593,
+   "band_proper": [
+    4294967297,
+    8589934591
+   ],
+   "endpoints": [
+    {
+     "d": 4294967297,
+     "r": 1919850381311,
+     "m_extra": 4294967295,
+     "beta": 447,
+     "log2_E_OA_bound": -1029738976891.7432,
+     "forced": false,
+     "log2_beta": 8.804131021182682
+    },
+    {
+     "d": 8589934591,
+     "r": 1915555414017,
+     "m_extra": 1,
+     "beta": 1915555414017,
+     "log2_E_OA_bound": 40.801219125140996,
+     "forced": true,
+     "log2_beta": 40.801219125140996
+    }
+   ]
+  },
+  {
+   "name": "prize 1/16",
+   "h": 4294967297,
+   "band_proper": [
+    2147483649,
+    4294967295
+   ],
+   "endpoints": [
+    {
+     "d": 2147483649,
+     "r": 2059436818431,
+     "m_extra": 2147483647,
+     "beta": 959,
+     "log2_E_OA_bound": -512502706768.43445,
+     "forced": false,
+     "log2_beta": 9.905387005017083
+    },
+    {
+     "d": 4294967295,
+     "r": 2057289334785,
+     "m_extra": 1,
+     "beta": 2057289334785,
+     "log2_E_OA_bound": 40.9026586202035,
+     "forced": true,
+     "log2_beta": 40.9026586202035
+    }
+   ]
+  }
+ ],
+ "checks": [
+  [
+   "T-CELL: exactly q+1 cells",
+   "q=7",
+   true,
+   8
+  ],
+  [
+   "T-CELL: every cell has exactly q-1 error pairs",
+   "q=7",
+   true,
+   [
+    6
+   ]
+  ],
+  [
+   "T-CELL: cells partition F_q^2\\{0}",
+   "q=7",
+   true,
+   null
+  ],
+  [
+   "T-CELL: unique-member property",
+   "q=7",
+   true,
+   null
+  ],
+  [
+   "T-CELL: exactly q+1 cells",
+   "q=11",
+   true,
+   12
+  ],
+  [
+   "T-CELL: every cell has exactly q-1 error pairs",
+   "q=11",
+   true,
+   [
+    10
+   ]
+  ],
+  [
+   "T-CELL: cells partition F_q^2\\{0}",
+   "q=11",
+   true,
+   null
+  ],
+  [
+   "T-CELL: unique-member property",
+   "q=11",
+   true,
+   null
+  ],
+  [
+   "T-CELL: exactly q+1 cells",
+   "q=13",
+   true,
+   14
+  ],
+  [
+   "T-CELL: every cell has exactly q-1 error pairs",
+   "q=13",
+   true,
+   [
+    12
+   ]
+  ],
+  [
+   "T-CELL: cells partition F_q^2\\{0}",
+   "q=13",
+   true,
+   null
+  ],
+  [
+   "T-CELL: unique-member property",
+   "q=13",
+   true,
+   null
+  ],
+  [
+   "T-CELL: exactly q+1 cells",
+   "q=101",
+   true,
+   102
+  ],
+  [
+   "T-CELL: every cell has exactly q-1 error pairs",
+   "q=101",
+   true,
+   [
+    100
+   ]
+  ],
+  [
+   "T-CELL: cells partition F_q^2\\{0}",
+   "q=101",
+   true,
+   null
+  ],
+  [
+   "T-CELL: unique-member property",
+   "q=101",
+   true,
+   null
+  ],
+  [
+   "T-MULT: total = (q^2-1)^r",
+   "q=7 r=2",
+   true,
+   null
+  ],
+  [
+   "T-MULT: exact multinomial law reproduced",
+   "q=7 r=2",
+   true,
+   null
+  ],
+  [
+   "T-MULT(a): sum_z mult = r on every pattern",
+   "q=7 r=2",
+   true,
+   null
+  ],
+  [
+   "T-MULT(b): r < q+1 => some cell EMPTY => F1 impossible",
+   "q=7 r=2",
+   true,
+   null
+  ],
+  [
+   "T-MULT: total = (q^2-1)^r",
+   "q=7 r=3",
+   true,
+   null
+  ],
+  [
+   "T-MULT: exact multinomial law reproduced",
+   "q=7 r=3",
+   true,
+   null
+  ],
+  [
+   "T-MULT(a): sum_z mult = r on every pattern",
+   "q=7 r=3",
+   true,
+   null
+  ],
+  [
+   "T-MULT(b): r < q+1 => some cell EMPTY => F1 impossible",
+   "q=7 r=3",
+   true,
+   null
+  ],
+  [
+   "T-MULT: total = (q^2-1)^r",
+   "q=11 r=2",
+   true,
+   null
+  ],
+  [
+   "T-MULT: exact multinomial law reproduced",
+   "q=11 r=2",
+   true,
+   null
+  ],
+  [
+   "T-MULT(a): sum_z mult = r on every pattern",
+   "q=11 r=2",
+   true,
+   null
+  ],
+  [
+   "T-MULT(b): r < q+1 => some cell EMPTY => F1 impossible",
+   "q=11 r=2",
+   true,
+   null
+  ],
+  [
+   "T-MULT: total = (q^2-1)^r",
+   "q=11 r=3",
+   true,
+   null
+  ],
+  [
+   "T-MULT: exact multinomial law reproduced",
+   "q=11 r=3",
+   true,
+   null
+  ],
+  [
+   "T-MULT(a): sum_z mult = r on every pattern",
+   "q=11 r=3",
+   true,
+   null
+  ],
+  [
+   "T-MULT(b): r < q+1 => some cell EMPTY => F1 impossible",
+   "q=11 r=3",
+   true,
+   null
+  ],
+  [
+   "T-MULT: total = (q^2-1)^r",
+   "q=13 r=2",
+   true,
+   null
+  ],
+  [
+   "T-MULT: exact multinomial law reproduced",
+   "q=13 r=2",
+   true,
+   null
+  ],
+  [
+   "T-MULT(a): sum_z mult = r on every pattern",
+   "q=13 r=2",
+   true,
+   null
+  ],
+  [
+   "T-MULT(b): r < q+1 => some cell EMPTY => F1 impossible",
+   "q=13 r=2",
+   true,
+   null
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "BANKED k5h4_core7_2slopes_s11",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "BANKED k5h4_core7_2slopes_s11",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "BANKED k5h4_core7_2slopes_s11",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "BANKED k5h4_core7_2slopes_s12",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "BANKED k5h4_core7_2slopes_s12",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "BANKED k5h4_core7_2slopes_s12",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "BANKED k5h4_core7_1slope",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "BANKED k5h4_core7_1slope",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "BANKED k5h4_core7_1slope",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "BANKED k5h4_two_cores",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "BANKED k5h4_two_cores",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "BANKED k5h4_two_cores",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "BANKED k5h4_random_21",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "BANKED k5h4_random_21",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "BANKED k5h4_random_21",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "BANKED k5h4_random_22",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "BANKED k5h4_random_22",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "BANKED k5h4_random_22",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "BANKED k4h5_core7_2slopes",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "BANKED k4h5_core7_2slopes",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "BANKED k4h5_core7_2slopes",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "BANKED k4h5_random",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "BANKED k4h5_random",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "BANKED k4h5_random",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k5h4_bare_core_s51",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k5h4_bare_core_s51",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k5h4_bare_core_s51",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k5h4_bare_core_s52",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k5h4_bare_core_s52",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k5h4_bare_core_s52",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_d3_A1blocks_s61",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_d3_A1blocks_s61",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_d3_A1blocks_s61",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_d3_A1blocks_s62",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_d3_A1blocks_s62",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_d3_A1blocks_s62",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_d3_A1blocks_s63",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_d3_A1blocks_s63",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_d3_A1blocks_s63",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_d3_bare_s64",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_d3_bare_s64",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_d3_bare_s64",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_d3_bare_s65",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_d3_bare_s65",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_d3_bare_s65",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h7_d4_A1blocks_s71",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h7_d4_A1blocks_s71",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h7_d4_A1blocks_s71",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h7_d4_A1blocks_s72",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h7_d4_A1blocks_s72",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h7_d4_A1blocks_s72",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_d3_Ablocks_s81",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_d3_Ablocks_s81",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_d3_Ablocks_s81",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_d3_Ablocks_s82",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_d3_Ablocks_s82",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_d3_Ablocks_s82",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_3cores_bare_q101_s91",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_3cores_bare_q101_s91",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_3cores_bare_q101_s91",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_3cores_bare_q101_s92",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_3cores_bare_q101_s92",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_3cores_bare_q101_s92",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_3cores_sharedA1_q101_s93",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_3cores_sharedA1_q101_s93",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_3cores_sharedA1_q101_s93",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_3cores_sharedA1_q101_s94",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_3cores_sharedA1_q101_s94",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_3cores_sharedA1_q101_s94",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_3cores_bare_q1009_s91",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_3cores_bare_q1009_s91",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_3cores_bare_q1009_s91",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_3cores_bare_q1009_s92",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_3cores_bare_q1009_s92",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_3cores_bare_q1009_s92",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_3cores_sharedA1_q1009_s93",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_3cores_sharedA1_q1009_s93",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_3cores_sharedA1_q1009_s93",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_3cores_sharedA1_q1009_s94",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_3cores_sharedA1_q1009_s94",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_3cores_sharedA1_q1009_s94",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_d4_bare_s101",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_d4_bare_s101",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_d4_bare_s101",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_d4_bare_s102",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_d4_bare_s102",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_d4_bare_s102",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_d4_bare_s103",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_d4_bare_s103",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_d4_bare_s103",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_d4_bare_q1009_s104",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_d4_bare_q1009_s104",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_d4_bare_q1009_s104",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_d4_bare_q1009_s105",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_d4_bare_q1009_s105",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_d4_bare_q1009_s105",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_2cores_sharedA_s95",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_2cores_sharedA_s95",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_2cores_sharedA_s95",
+   true,
+   0
+  ],
+  [
+   "T-PSI: pullback identity Psi^z_y = (w_z)_y - pi_z(P)(x_y)",
+   "NEW k3h6_2cores_sharedA_s96",
+   true,
+   0
+  ],
+  [
+   "T-PSI: Psi^z_y = 0 <=> y joins agr(pi_z P, w_z)",
+   "NEW k3h6_2cores_sharedA_s96",
+   true,
+   0
+  ],
+  [
+   "T-PSI: #{y : Psi^z_y = 0} = mult_P(z), blocks disjoint",
+   "NEW k3h6_2cores_sharedA_s96",
+   true,
+   0
+  ],
+  [
+   "ledger: m = h-d-1 >= 1 on band proper",
+   "RowC 1/4 d=3",
+   true,
+   null
+  ],
+  [
+   "ledger: deterministic |OA_P| <= beta_d = floor(r/m)",
+   "RowC 1/4 d=3",
+   true,
+   null
+  ],
+  [
+   "ledger: at d=h-2 the exponent (m-1) is ZERO -> NO decay -> over-agreement FORCED",
+   "RowC 1/4 d=3",
+   true,
+   null
+  ],
+  [
+   "ledger: m = h-d-1 >= 1 on band proper",
+   "RowC 1/4 d=3",
+   true,
+   null
+  ],
+  [
+   "ledger: deterministic |OA_P| <= beta_d = floor(r/m)",
+   "RowC 1/4 d=3",
+   true,
+   null
+  ],
+  [
+   "ledger: at d=h-2 the exponent (m-1) is ZERO -> NO decay -> over-agreement FORCED",
+   "RowC 1/4 d=3",
+   true,
+   null
+  ],
+  [
+   "ledger: m = h-d-1 >= 1 on band proper",
+   "RowC 1/8 d=3",
+   true,
+   null
+  ],
+  [
+   "ledger: deterministic |OA_P| <= beta_d = floor(r/m)",
+   "RowC 1/8 d=3",
+   true,
+   null
+  ],
+  [
+   "ledger: at d=h-2 the exponent (m-1) is ZERO -> NO decay -> over-agreement FORCED",
+   "RowC 1/8 d=3",
+   true,
+   null
+  ],
+  [
+   "ledger: m = h-d-1 >= 1 on band proper",
+   "RowC 1/8 d=3",
+   true,
+   null
+  ],
+  [
+   "ledger: deterministic |OA_P| <= beta_d = floor(r/m)",
+   "RowC 1/8 d=3",
+   true,
+   null
+  ],
+  [
+   "ledger: at d=h-2 the exponent (m-1) is ZERO -> NO decay -> over-agreement FORCED",
+   "RowC 1/8 d=3",
+   true,
+   null
+  ],
+  [
+   "ledger: m = h-d-1 >= 1 on band proper",
+   "prize 1/4 d=4294967297",
+   true,
+   null
+  ],
+  [
+   "ledger: deterministic |OA_P| <= beta_d = floor(r/m)",
+   "prize 1/4 d=4294967297",
+   true,
+   null
+  ],
+  [
+   "ledger: at d <= h-3 the bound is < 2^-1000 (over-agreement vanishingly rare)",
+   "prize 1/4 d=4294967297",
+   true,
+   -1030697615897.8951
+  ],
+  [
+   "ledger: m = h-d-1 >= 1 on band proper",
+   "prize 1/4 d=8589934591",
+   true,
+   null
+  ],
+  [
+   "ledger: deterministic |OA_P| <= beta_d = floor(r/m)",
+   "prize 1/4 d=8589934591",
+   true,
+   null
+  ],
+  [
+   "ledger: at d=h-2 the exponent (m-1) is ZERO -> NO decay -> over-agreement FORCED",
+   "prize 1/4 d=8589934591",
+   true,
+   null
+  ],
+  [
+   "ledger: m = h-d-1 >= 1 on band proper",
+   "prize 1/8 d=4294967297",
+   true,
+   null
+  ],
+  [
+   "ledger: deterministic |OA_P| <= beta_d = floor(r/m)",
+   "prize 1/8 d=4294967297",
+   true,
+   null
+  ],
+  [
+   "ledger: at d <= h-3 the bound is < 2^-1000 (over-agreement vanishingly rare)",
+   "prize 1/8 d=4294967297",
+   true,
+   -1029738976891.7432
+  ],
+  [
+   "ledger: m = h-d-1 >= 1 on band proper",
+   "prize 1/8 d=8589934591",
+   true,
+   null
+  ],
+  [
+   "ledger: deterministic |OA_P| <= beta_d = floor(r/m)",
+   "prize 1/8 d=8589934591",
+   true,
+   null
+  ],
+  [
+   "ledger: at d=h-2 the exponent (m-1) is ZERO -> NO decay -> over-agreement FORCED",
+   "prize 1/8 d=8589934591",
+   true,
+   null
+  ],
+  [
+   "ledger: m = h-d-1 >= 1 on band proper",
+   "prize 1/16 d=2147483649",
+   true,
+   null
+  ],
+  [
+   "ledger: deterministic |OA_P| <= beta_d = floor(r/m)",
+   "prize 1/16 d=2147483649",
+   true,
+   null
+  ],
+  [
+   "ledger: at d <= h-3 the bound is < 2^-1000 (over-agreement vanishingly rare)",
+   "prize 1/16 d=2147483649",
+   true,
+   -512502706768.43445
+  ],
+  [
+   "ledger: m = h-d-1 >= 1 on band proper",
+   "prize 1/16 d=4294967295",
+   true,
+   null
+  ],
+  [
+   "ledger: deterministic |OA_P| <= beta_d = floor(r/m)",
+   "prize 1/16 d=4294967295",
+   true,
+   null
+  ],
+  [
+   "ledger: at d=h-2 the exponent (m-1) is ZERO -> NO decay -> over-agreement FORCED",
+   "prize 1/16 d=4294967295",
+   true,
+   null
+  ]
+ ],
+ "n_psi": 11994,
+ "verdict": "PASS"
+}

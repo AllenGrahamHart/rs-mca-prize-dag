@@ -1,0 +1,566 @@
+{
+ "checks": [
+  {
+   "detail": "16 4 19",
+   "label": "F7a U-mechanism escape floor 16 / cap 4 / rank 19",
+   "ok": true
+  },
+  {
+   "detail": "live=[0, 1, 2, 3] kfloor=16 kcap=4",
+   "label": "F7a U-mechanism: PHI kernel = ALL 4 rays, kernel floor = escape",
+   "ok": true
+  },
+  {
+   "detail": "35 35",
+   "label": "F7b K_V escape floor 35 = rank = V h, |S^inf| = 2",
+   "ok": true
+  },
+  {
+   "detail": "live=[] 35",
+   "label": "F7b K_V: PHI kernel EMPTY (every ray dies), floors agree",
+   "ok": true
+  },
+  {
+   "detail": "",
+   "label": "F7b K_V uncapped sum 40 would be FALSE (cap load-bearing)",
+   "ok": true
+  },
+  {
+   "detail": "0 deviations / 99",
+   "label": "F3/U1: ESC residual = S_a ^ W_0 on every system (one step)",
+   "ok": true
+  },
+  {
+   "detail": "0 deviations / 99",
+   "label": "F4/U2: PHI live set = stage4_scan.peel core on every system",
+   "ok": true
+  },
+  {
+   "detail": "0 deviations / 99",
+   "label": "F4/U2: T_a^PHI = S_a ^ W_infinity on every system",
+   "ok": true
+  },
+  {
+   "detail": "0 violations / 99",
+   "label": "F1/U3: kernel floor <= rank and dim Rel <= kernel cap, ALWAYS",
+   "ok": true
+  },
+  {
+   "detail": "0 violations / 99",
+   "label": "F2/U4: escape floor <= kernel floor, ALWAYS",
+   "ok": true
+  },
+  {
+   "detail": "0 violations in 38 hypothesis-holding",
+   "label": "F6: kernel-escape >= 2 everywhere => rank >= 2V, ALWAYS",
+   "ok": true
+  },
+  {
+   "detail": "ranks=[10] fl_e=8 fl_k=10 esc1=[1, 1, 3, 3, 3] eK=[4, 4, 4, 4, 4] tmax=1 pmin=0",
+   "label": "F5 S1(k=2,h=2): K empty, rank = Vh = 10, escape floor 8 < 10, min one-step escape 1, (T) ok",
+   "ok": true
+  },
+  {
+   "detail": "ranks=[15] fl_e=11 fl_k=15 esc1=[1, 1, 4, 4, 5] eK=[6, 6, 6, 6, 6] tmax=2 pmin=0",
+   "label": "F5 S1(k=3,h=3): K empty, rank = Vh = 15, escape floor 11 < 15, min one-step escape 1, (T) ok",
+   "ok": true
+  },
+  {
+   "detail": "ranks=[28] fl_e=22 fl_k=28 esc1=[1, 1, 5, 5, 5, 5, 5] eK=[6, 6, 6, 6, 6, 6, 6] tmax=1 pmin=0",
+   "label": "F5 S1(k=2,h=4): K empty, rank = Vh = 28, escape floor 22 < 28, min one-step escape 1, (T) ok",
+   "ok": true
+  },
+  {
+   "detail": "ranks=[8] fl_e=6 fl_k=8 esc1=[1, 1, 3, 4] eK=[6, 6, 6, 6] tmax=3 pmin=0",
+   "label": "F5 S1(k=4,h=2): K empty, rank = Vh = 8, escape floor 6 < 8, min one-step escape 1, (T) ok",
+   "ok": true
+  },
+  {
+   "detail": "ranks=[12] fl_e=8 fl_k=12 esc1=[1, 1, 4, 5] eK=[8, 8, 8, 8] tmax=4 pmin=0",
+   "label": "F5 S1(k=5,h=3): K empty, rank = Vh = 12, escape floor 8 < 12, min one-step escape 1, (T) ok",
+   "ok": true
+  },
+  {
+   "detail": "rank=80 fl_e=78 fl_k=80 tmax=1 pmin=2 h=10 V=8 n=46",
+   "label": "F5 S2(k=2): GATE-CLEAN (triples <= 1, pairs >= 2), K empty, kernel floor 80 = rank, escape floor 78",
+   "ok": true
+  },
+  {
+   "detail": "rank=220 fl_e=218 fl_k=220 tmax=1 pmin=3 h=22 V=10 n=123",
+   "label": "F5 S2(k=3): GATE-CLEAN (triples <= 2, pairs >= 3), K empty, kernel floor 220 = rank, escape floor 218",
+   "ok": true
+  }
+ ],
+ "fails": [],
+ "fixtures": [
+  {
+   "K": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "V": 4,
+   "Vh": 20,
+   "esc_cap": 4,
+   "esc_floor": 16,
+   "ker_cap": 4,
+   "ker_floor": 16,
+   "n": 17,
+   "name": "U-mechanism(3,5,1,4)",
+   "rank": 19
+  },
+  {
+   "K": [],
+   "V": 5,
+   "Vh": 35,
+   "esc_floor": 35,
+   "ker_floor": 35,
+   "n": 22,
+   "name": "K_V(3,7,1,5)",
+   "rank": 35
+  }
+ ],
+ "separating": [
+  {
+   "A": 4,
+   "V": 5,
+   "Vh": 10,
+   "esc_floor": 8,
+   "h": 2,
+   "k": 2,
+   "ker_floor": 10,
+   "kernel_escapes": [
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "kind": "S1",
+   "n": 14,
+   "one_step_escapes": [
+    1,
+    1,
+    3,
+    3,
+    3
+   ],
+   "pair_min": 0,
+   "rank": [
+    10
+   ],
+   "supports": [
+    [
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     0,
+     1,
+     2,
+     4
+    ],
+    [
+     0,
+     5,
+     6,
+     7
+    ],
+    [
+     1,
+     8,
+     9,
+     10
+    ],
+    [
+     2,
+     11,
+     12,
+     13
+    ]
+   ],
+   "triple_max": 1
+  },
+  {
+   "A": 6,
+   "V": 5,
+   "Vh": 15,
+   "esc_floor": 11,
+   "h": 3,
+   "k": 3,
+   "ker_floor": 15,
+   "kernel_escapes": [
+    6,
+    6,
+    6,
+    6,
+    6
+   ],
+   "kind": "S1",
+   "n": 20,
+   "one_step_escapes": [
+    1,
+    1,
+    4,
+    4,
+    5
+   ],
+   "pair_min": 0,
+   "rank": [
+    15
+   ],
+   "supports": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4,
+     6
+    ],
+    [
+     0,
+     1,
+     7,
+     8,
+     9,
+     10
+    ],
+    [
+     2,
+     3,
+     11,
+     12,
+     13,
+     14
+    ],
+    [
+     4,
+     15,
+     16,
+     17,
+     18,
+     19
+    ]
+   ],
+   "triple_max": 2
+  },
+  {
+   "A": 6,
+   "V": 7,
+   "Vh": 28,
+   "esc_floor": 22,
+   "h": 4,
+   "k": 2,
+   "ker_floor": 28,
+   "kernel_escapes": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+   ],
+   "kind": "S1",
+   "n": 32,
+   "one_step_escapes": [
+    1,
+    1,
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "pair_min": 0,
+   "rank": [
+    28
+   ],
+   "supports": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4,
+     6
+    ],
+    [
+     0,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    [
+     1,
+     12,
+     13,
+     14,
+     15,
+     16
+    ],
+    [
+     2,
+     17,
+     18,
+     19,
+     20,
+     21
+    ],
+    [
+     3,
+     22,
+     23,
+     24,
+     25,
+     26
+    ],
+    [
+     4,
+     27,
+     28,
+     29,
+     30,
+     31
+    ]
+   ],
+   "triple_max": 1
+  },
+  {
+   "A": 6,
+   "V": 4,
+   "Vh": 8,
+   "esc_floor": 6,
+   "h": 2,
+   "k": 4,
+   "ker_floor": 8,
+   "kernel_escapes": [
+    6,
+    6,
+    6,
+    6
+   ],
+   "kind": "S1",
+   "n": 14,
+   "one_step_escapes": [
+    1,
+    1,
+    3,
+    4
+   ],
+   "pair_min": 0,
+   "rank": [
+    8
+   ],
+   "supports": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4,
+     6
+    ],
+    [
+     0,
+     1,
+     2,
+     7,
+     8,
+     9
+    ],
+    [
+     3,
+     4,
+     10,
+     11,
+     12,
+     13
+    ]
+   ],
+   "triple_max": 3
+  },
+  {
+   "A": 8,
+   "V": 4,
+   "Vh": 12,
+   "esc_floor": 8,
+   "h": 3,
+   "k": 5,
+   "ker_floor": 12,
+   "kernel_escapes": [
+    8,
+    8,
+    8,
+    8
+   ],
+   "kind": "S1",
+   "n": 18,
+   "one_step_escapes": [
+    1,
+    1,
+    4,
+    5
+   ],
+   "pair_min": 0,
+   "rank": [
+    12
+   ],
+   "supports": [
+    [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     8
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     9,
+     10,
+     11,
+     12
+    ],
+    [
+     4,
+     5,
+     6,
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   ],
+   "triple_max": 4
+  },
+  {
+   "A": 12,
+   "V": 8,
+   "Vh": 80,
+   "esc_floor": 78,
+   "h": 10,
+   "k": 2,
+   "ker_floor": 80,
+   "kernel_escapes": [
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12
+   ],
+   "kind": "S2",
+   "n": 46,
+   "one_step_escapes": [
+    9,
+    9,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "pair_min": 2,
+   "rank": 80,
+   "triple_max": 1
+  },
+  {
+   "A": 25,
+   "V": 10,
+   "Vh": 220,
+   "esc_floor": 218,
+   "h": 22,
+   "k": 3,
+   "ker_floor": 220,
+   "kernel_escapes": [
+    25,
+    25,
+    25,
+    25,
+    25,
+    25,
+    25,
+    25,
+    25,
+    25
+   ],
+   "kind": "S2",
+   "n": 123,
+   "one_step_escapes": [
+    21,
+    21,
+    23,
+    23,
+    23,
+    23,
+    23,
+    23,
+    23,
+    23
+   ],
+   "pair_min": 3,
+   "rank": 220,
+   "triple_max": 1
+  }
+ ],
+ "sweep": {
+  "domination_violations": 0,
+  "f6_violations": 0,
+  "kernel_escape2_systems": 38,
+  "onestep_escape2_systems": 19,
+  "strictly_better": 26,
+  "systems": 99,
+  "unsound": 0
+ },
+ "total_checks": 18
+}

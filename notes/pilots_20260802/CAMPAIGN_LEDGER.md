@@ -528,3 +528,338 @@ TARGET's reduction-of-record sentences now each have a PROVED evidence
 node behind them. Mint queue remainder: F2 antipodal lemma +
 parity-defect certificate, P-B L1 + design ceiling + block dichotomy
 (second mint-prep pilot when scheduled); the seventh-node candidate.
+
+## 2026-08-03: cell-14 closure export + round-7 pilot launch
+
+- **EXPORT EXECUTED (#1143, commit b1489664):** wave-42 kernel-boundary +
+  wave-43 CELL-14 COMPLETE CLOSURE packaged as one packet
+  (`kb_mca_v4_m2_r4_coordinate_positive_433_1b_cell14_complete_closure_v1`:
+  note + canonical certificate + self-contained fail-closed verifier
+  replayed PASS in the export checkout + atlas status addendum +
+  agents-log entry). Claims scoped to audited pins 7cbedd5d/db970533,
+  deployed-prime exact, explicit nonclaims. Maintainer comment posted
+  (issuecomment-5164524383). User authorization: "lets package it, and
+  push if ready" (2026-08-03).
+- **ROUND-7 PILOTS LAUNCHED (3 Opus, background):**
+  (1) k_escape_unification — the recorded round-6 anchor: unify |K|
+  (P-A1 un-peelable residual) with the band escape residual;
+  (2) mint2_prep — the recorded MINT REMAINDER: F2 antipodal +
+  parity-defect cert, P-B L1 + design ceiling + block dichotomy
+  (drafts only, honesty-gated);
+  (3) zero_escape_collapse — the band heart's open sub-items: prove
+  rank = 2m for zero-escape cliques (duality route pre-briefed) +
+  V <= m/2. All three write only under notes/pilots_20260803/;
+  coordinator line-audit gates any wiring.
+
+## 2026-08-03: round-7 pilot 1/3 BANKED — |K|-escape unification
+
+- **k_escape_unification (Opus) AUDITED + BANKED** (FABLE_AUDIT.md in
+  the pilot dir; coordinator replay 18/18, all 7 pre-registered
+  falsifiers survived; U1-U5 hand-verified). Verdict: UNIFIED as one
+  operator — both residuals are the (3, k+1)-core of the ray/point
+  incidence; the band escape residual is its FIRST ITERATE (U1: the
+  no-death peel is one-pass), P-A1's |K| its greatest fixed point (U2)
+  — SEPARATED as sets (explicit (T)-clean fixture: heart hypothesis
+  fails, conclusion holds via the core; escape floor 8 < kernel floor
+  10 = rank). KERNEL FLOOR (U3) dominates the escape floor (U4);
+  heart relaxed to the strictly weaker U5 core form. Node-local
+  addenda applied (support4 statement, definitions item 12', TARGET
+  factual pointer). Conditional first ceiling on |K| recorded
+  (Gamma_0 <= (2R-1)/2 — conditional, not banked). NEW OPEN: escape-1
+  gate-clean realizability (flag 5). SURFACED: re-pose the heart in U5
+  form; commission escape-1 as an anchor. Pilots 2/3 (mint2_prep,
+  zero_escape_collapse) still running.
+
+## 2026-08-03: round-7 pilot 2/3 BANKED — zero-escape collapse REFUTED
+
+- **zero_escape_collapse (Opus) AUDITED + BANKED** (FABLE_AUDIT.md;
+  coordinator replay 26/26; PREREG confirmed — X1 and its exact rank
+  predicted BEFORE computation, falsifiers P1-P7 all as registered).
+  BOTH named open sub-items REFUTED: the collapse (gate-clean X1/X2/X3
+  from four pencil fibres + one cross-ratio equation, deficits 1/1/2)
+  and V <= m/2 (X1, X3). Measurement reconciled, not contradicted:
+  slope sweeps at fixed supports are blind to the support-locus
+  obstruction; measured fixtures' collapses UPGRADED to theorems
+  (MDS-chain + triple-cover criteria; band-mint (3,5,3,5) by Cor 3c).
+  HEART SURVIVES: Prop 6 proves charge >= 2 through escape-0 at V=4.
+  Remaining channels: V >= 5 zero-escape below Cor-3b threshold;
+  escape-1. New proved tools: duality criterion, V=4 cross-ratio
+  classification (dual of S4-4), floor rank >= m + dim Sum C_{I_ab}.
+  RowC toy-row kill re-opened (Theorem 3 misses by 3). Addenda applied
+  (support4 addendum 2, definitions addendum 2, TARGET note); REPORT.md
+  persisted by coordinator (pilot's write harness-blocked). SURFACED:
+  commission V >= 5 occupancy + escape-1 realizability as the next two
+  anchors; RowC re-derivation queued. Pilot 3/3 (mint2_prep) running.
+
+## 2026-08-03: round-7 pilot 3/3 BANKED — mint-2 wired (4 nodes)
+
+- **mint2_prep (Opus) AUDITED + WIRED** (FABLE_AUDIT.md; 37/37 replayed;
+  both reconstructed proofs hand-verified line by line). Wired:
+  f2_antipodal_descent_lemma, f2_parity_defect_certificate (standalone
+  pair + campaign ref to u2c), pb_design_ceiling, pb_block_dichotomy
+  (ev x2 into xr_lowcore_spread_heart; req from the banked cost
+  theorem). pb_l1_lemma REFUSED as banked duplicate (accepted).
+  Three corrections adopted: parity-defect scope a_c b_c != 0 (record
+  too broad by 2(p-1) frequencies); spread<=>transverse one-directional
+  (gap = core-K = Gamma_hi); design ceiling NOT unconditional (mu_20
+  witness) -> dated addendum applied to xr_two_slope_cost_theorem.
+  Free-slope ceiling demoted to non-claim; block-dichotomy hypothesis
+  corrected to b >= a+2; e-coordinate reading adopted. DAG 1768/4906.
+  ROUND 7 COMPLETE: 3/3 pilots banked (unification, refutation, mint).
+  Round-8 pilots (v5_occupancy + escape1_realizability) RUNNING.
+
+## 2026-08-03: round-8 pilot 1/2 BANKED — channel (i) DECIDED (2V <= 3h)
+
+- **v5_occupancy (Opus) AUDITED + BANKED** (FABLE_AUDIT.md; replay
+  67/67; PREREG Q1-Q12 all as registered; class arithmetic + LEMMA 1 +
+  THEOREM B embedding + trichotomy + Y1 + RowC identification
+  hand-verified). Channel (i) DECIDED: charge >= 2 iff 2V <= 3h
+  (proved tight floor rank >= 3h, V-independent ceiling 2m = 2(t+h));
+  collapse dead at EVERY V >= 4 (pencil fibres + Mobius,
+  dim Ann = 2t-h); CLOSED at the prize rows (~1e8 margin, proved
+  floor); RowC toy rows provably fail the channel — task #33 RESOLVED:
+  kill unrestorable shape-only (Y5 rank 15 vs Y6 rank 18, same
+  recorded invariants). BONUS CATCH: banked k <= 2h^2 criterion
+  REFUTED (ceiling-as-lower-bound error; Y1 witness) — replaced by
+  2V <= 3h; no prize-row number moves. Addenda: support-4 addendum 3,
+  definitions addendum 4, TARGET note. Sole remaining heart channel:
+  escape-1 (pilot 2/2 running).
+
+## 2026-08-03: round-8 pilot 2/2 BANKED — channel (ii) resolved; ROUND 8 COMPLETE
+
+- **escape1_realizability (Opus) AUDITED + BANKED** (FABLE_AUDIT.md;
+  replay 113/113, 0/12 falsifiers fired, PREREG pre-dated). Channel
+  (ii): escape-1 core rays EXIST gate-clean (flag 5 affirmative; E1
+  all-escape-1 family, V >= 3h forced by LEMMA ALL-1); ONE escape-1
+  ray never defeats charge 2 (3-DROP FLOOR, tight on U-mechanism,
+  predicts its deficit); defeat needs n_1 >= 3h-2; every constructed
+  counterexample band-INADMISSIBLE (LEMMA R: rank <= 2m-1 necessary).
+  CROSS-CHANNEL CATCH: Zfib11 (zero-escape pencil at V=11) passes the
+  FULL gate, realises with exact-A agreements, charge 0.818 — fires
+  the TARGET's own channel-(i) + V>m/2 falsifiers; the charge-2 route
+  is FALSE as a universal for admissible systems; survives at prize
+  rows (2V <= 3h by ~1e8). Reconciled: Zfib11 IS the v5 pencil family
+  (identity Mobius), consistent with the trichotomy and with U5.
+  Occupancy conclusion + column bound untouched (N_d = 0.11 n^2).
+  New floors of record: THEOREM D (3-drop), LEMMA R, LEMMA A (h>=3),
+  LEMMA B (|K| = 0 or >= 4). Addenda: definitions #5, TARGET note.
+  NEXT ANCHORS (surfaced): consolidate the general-V admissible case
+  at prize rows under the four floors; the sharp E1-family deficit
+  question; the m >= 9 full-gate oracle (COMPUTE REQUEST).
+
+## 2026-08-03: CONSOLIDATION (task #34) — the heart's open surface is now three named lemmas
+
+- Coordinator derivation, ratified; note + machine-checked arithmetic
+  at notes/band_heart_consolidation_20260803/. NEW: CORE-DISJOINTNESS
+  LEMMA (depth-d cores pairwise <= k-1 under (T); each core >= k+1
+  forces the KEY-LEMMA joint-explanation event). NEGATIVE FINDING
+  (machine-checked): even granting L-A (pencil rigidity e >= 2) and
+  L-B (escape-1 over-agreement), the ray/pair lens gives 0.78-2.12 n^2
+  > 0.68 n^2 at every row — the charge route is retired as primary.
+  ROUTE OF RECORD -> count CORES: L-D = "depth-d joint-explanation
+  cores with L_P >= 2 number <= 0.68 n^2" (subsumes L-A/L-B; consumes
+  only banked machinery; calibration U-mechanism N_1 ~ n/2, >1000x
+  headroom). Open surface after consolidation: exactly {L-D primary;
+  L-A, L-B fallbacks}. Next pilot anchor: L-D dimension count.
+
+## 2026-08-03: round-9 pilot 1/3 BANKED — L-D refuted-as-worded; route already banked; consolidation CORRECTED
+
+- **ld_core_count (Opus) AUDITED + BANKED.** L-D as worded REFUTED
+  (raw-subset explosion; fixture 334 > 272; prize rows 2^6.4e10 vs
+  2^81.4); L filter powerless (monotone under subsets); intended
+  maximal reading = the ledger's N_d, whose route was banked and
+  TERMINATED 2026-08-02 in xr_band_occupancy (THM 2/4 + PROP 5
+  slope-side no-go). COORDINATOR ERROR acknowledged: the consolidation
+  mis-worded L-D, misapplied core-disjointness, and failed to subtract
+  against xr_band_occupancy — CORRECTION block applied. RowC rows
+  vacuous for 0.68n^2 (prize rows only bind). Open surface of record:
+  RS list-size at tau = k+ceil(h/2) (positive target #1 species);
+  L-A/L-B supporting but provably insufficient (PROP 5; V* = 1.166n
+  vs 1.25n granted). Pilots 2/3 (L-A, L-B) still running.
+
+## 2026-08-03: round-9 pilot 2/3 BANKED — L-B partial; L-A => L-B adopted
+
+- **lb_escape1_overagreement (Opus) AUDITED + BANKED** (237/237;
+  LB-F2 fired as pre-registered). V_1 = 0 PROVED on the
+  group-fibre/block class (THEOREM F: 3 fibre rays pin Ann, quadratic
+  in c_a; E1P 520-sample phenomenon -> THEOREM, extra point = the
+  removed point 12/12); mechanism REFUTED (mult-2 escaped points sit
+  at exactly A; only private points force over-agreement); DICHOTOMY
+  = exact pointwise criterion; L-A => L-B ADOPTED, L-B dropped as
+  independent target. Flag-6 explained (4-wise < k+2 forbids
+  support-4 deficits; support >= 5 = named attack surface). Open
+  surface: RS list-size terminus + L-A. Pilot 3/3 (L-A) running.
+
+## 2026-08-03: round-9 pilot 3/3 BANKED — ROUND 9 COMPLETE; the heart = list-size + one sliver
+
+- **la_pencil_rigidity (Opus) AUDITED + BANKED** (30/30; FA fired as
+  pre-registered). L-A REFUTED as stated (W1/W2: V=4 non-pencil
+  zero-escape non-collapsing, the Z-escape and dim-G escape both
+  real); L-A' adopted (V >= 5 pencil up to one block, residual
+  named); CONSUMER PROVED WITHOUT THE PENCIL (D1: V=4 disjointness
+  forced; D2/D3: e <= 2 and t = 2 closed). ROUND-9 NET SURFACE:
+  (1) RS list-size at tau = k+ceil(h/2) (primary, positive target #1
+  species); (2) the overlap sliver (e >= 3, V >= 5 overlapping
+  zero-escape; carries L-B residual). Consolidation UPDATE 3 = final.
+  Candidate next anchors: the sliver (toy-attackable); support >= 5
+  all-escape-1 deficits (L-B flag); the list-size problem itself
+  (Pro-brief-scale, or Codex lane).
+
+## 2026-08-03: ROUND 10 LAUNCHED — 4 Opus pilots, non-overlapping
+
+- (1) maelcar_audit: literature-map audit of upstream #1145-#1148
+  (gates our L1 + LIST/M31 moves; read-only gh access; subtraction
+  both ways). (2) overlap_sliver: the last ray-side configuration
+  (overlapping zero-escape, e >= 3, V >= 5; admissibility-kill route
+  first; carries L-B residual). (3) support5_deficit: all-escape-1
+  dim Ann >= 1 existence (support-5 relation classification; decisive
+  smallest-shape sweep). (4) listsize_program: the PRIMARY terminus —
+  structured attack on RS list size at tau = k+ceil(h/2) (min-over-z
+  averaging via THEOREM I; obstruction map; ranked sub-lemmas).
+  Explicit-path commits while running.
+
+## 2026-08-03: round-10 pilot 1/4 BANKED — stale terminus caught; surface corrected
+
+- **listsize_program (Opus) AUDITED + BANKED** (3/3 verifiers PASS).
+  ADJUDICATION: the assigned RS list-size terminus was refuted
+  2026-08-02 and stale-propagated by CONSOLIDATION UPDATE 3 + the L-D
+  audit (second fifth-surface failure — rule sharpened: same-day grep
+  before handing anchors to pilots). Pilot re-derived the refutation
+  independently (margins match banked verbatim), proved the SHADOW
+  LEMMA (min-over-members worth 256 bits vs ~1e12 deficit; refutation
+  structural + selection-insensitive), localised the occupancy
+  lemma's survival to ONE depth (h-1, BP parity, h odd), and priced
+  the averaging ledger dead. CORRECTED SURFACE: un-reduced two-slope
+  band occupancy at band-proper high depths; SL-1 windowed projection
+  (unifies with L-B; next anchor), SL-2 Pro-brief, SL-3 diagnostic.
+  UPDATE 4 applied. Pilots 2-4 running.
+
+## 2026-08-03: round-10 pilot 2/4 BANKED — maelcar audit: no collisions; SOL_TARGET_4 at risk
+
+- **maelcar_audit (Opus) BANKED.** #1145/#1146 L1: verified/plausible-
+  unreplayed, cite-with-scope (S6 <= 20 only on 2/252 supports);
+  #1147 Paper-D: VERIFIED strongest (counterexample replayed
+  independently, T_sm = 22476 / max K = 26 exact); #1148 M31 hull:
+  route cuts verified, DOMINATED in applicability by our chamber
+  fence. Zero collisions/exposure both ways. T4 <-> T_sm bridge
+  proved at (32,97) and adopted. HIGH: SOL_TARGET_4 as stated lacks a
+  q-vs-N hypothesis and their admissible n=128 row gives T4/N^3 =
+  2.87, exponent ~N^5.6 at bounded index — reprice-or-expect-
+  falsification SURFACED; decisive N=256 q=769 run = COMPUTE REQUEST.
+
+## 2026-08-03: round-10 pilot 3/4 BANKED — all-escape-1 deficits EXIST; prize rows still protected
+
+- **support5_deficit (Opus) BANKED** (168/168 --full; 0/17 falsifiers;
+  PREREG amendment A1 honest). EXISTS: E1-PENCIL construction
+  (dim Ann = 2s-h+1, whole gate window; exhaustive 680,400-case
+  classification at smallest shape, deficit iff pencil+Mobius); PF3 =
+  the record's E1 pin (charge 1.75); PF1 FULL-GATE with escape-1 rays
+  live at exactly A; PROP 0 (private points give deficits free).
+  THEOREM D now TIGHT. Five upstream corrections adopted (escape-1
+  implication 4; flag-6 dissolved -> support-4; LEMMA R mult>=2
+  hypothesis explicit; support-4 addendum 4). RECONCILIATION: every
+  charge defeat obeys n_1 >= 3h-2 (PF2 exactly at threshold) — PRIZE
+  ROWS REMAIN PROTECTED arithmetically; the structural-exclusion hope
+  is dead at toy scale. PF2/PF3 full gate = standing COMPUTE REQUEST.
+  Pilot 4/4 (overlap_sliver) running.
+
+## 2026-08-03: round-10 pilot 4/4 BANKED — sliver CLOSED; ROUND 10 COMPLETE; ray side FINISHED
+
+- **overlap_sliver (Opus) BANKED** (33/33; OS2 fired as predicted).
+  V <= |U| <= n PROVED (Fisher, self-contained, sharp at PG(2,3));
+  literal n/2 phrasing refuted (third coordinator wording defect —
+  anchor rule extended: bounds stated AT THE ROWS); |U|/n <= 0.2588
+  at all six rows serves the consumer everywhere, L-B residual
+  covered; O1 subsumes D2+D3; CONJECTURE OV open (exhaustive toy
+  support, up to 2.96e12 tuples). RAY SIDE FINISHED. Open surface:
+  SL-1, SL-2, OV. DECISION STACK: SOL_TARGET_4 reprice (#36); SL-2
+  Pro brief; SL-1 pilot; PF2/PF3 + N=256 compute requests.
+
+## 2026-08-03: Modal run 1 DECIDED — PF2 full-gate PASS (charge 1.9), PF3 gate-killed
+
+- Coordinator Modal run (ap-OtZPijv1jV2rWFhllPZUn2, < $1): PF2 is the
+  first FULL-GATE admissible charge-defeating all-escape-1 fixture
+  (all 30 slopes capped at A; n_1 = 3h-2 exactly); PF3 (E1 pin) fails
+  the gate through its own designed slope 10 (forced over-agreement).
+  Channel (ii) realised with charge < 2 under every gate at toy
+  scale; prize-row protection (n_1 >= 3h-2) certified sufficient and
+  sole. Result JSON + sha pinned. SOL_TARGET_4 N=256 run in flight.
+
+## 2026-08-03: Modal run 2 DECIDED — SOL_TARGET_4 FALSIFIED as stated
+
+- Coordinator Modal run (ap-sx9plNuGHtzGtGYisoYrh0, ~$1): T_4/N^3 =
+  103.07 at the fully admissible (N,q) = (256,257) index-1 row
+  (mechanism: pigeonhole into q^3 keys, ratio ~ N^2/576, unbounded);
+  index-3 row still rising (3.78 at N=256 vs 2.87 at N=128). The
+  maelcar-audit HIGH flag is CONFIRMED at the strongest level; task
+  #36 closed as FALSIFIED; index-hypothesis reprice surfaced (C as a
+  decreasing function of index = (q-1)/N). Result JSON + sha pinned.
+
+## 2026-08-03: ROUND 11 LAUNCHED — the unification round (3 Opus + gamma close in flight)
+
+- (1) unified_pencil_bound: the anchor — full-gate admissible pairs
+  admit <= Cn live pencil-structured slopes (THEOREM F pinning across
+  pencils; PF2/Zfib11 calibration; multi-pencil compatibility).
+  (2) sl1_windowed_projection: band-proper pairs project at <= A-2
+  (the THEOREM 2 windowed upgrade; Psi_y machinery adapted to pairs;
+  MC saved-by-cascade check). (3) crosslane_cashout: best
+  unconditional |K| bound at the rows from the new floors + the
+  realised-family replacement ceiling for P-B + the selector/
+  dichotomy identification. Plus gamma_j2_close (heart 7) still
+  running from earlier. Explicit-path commits while pilots run.
+
+## 2026-08-03: round-11 pilot 1 BANKED — SL-1 decided; the windowed route reopens
+
+- **sl1_windowed_projection (Opus, retry honoring killed-run PREREG)
+  BANKED** (297 + 34 replayed, 0 failures). "Every member" FALSE
+  (forced at d = h-2, unconditional — the ONE exposed depth); "some
+  member" TRUE gate-free (>= q+1-(n-k-d) clean members); WINDOWED
+  THEOREM 2 survives (min over clean members; 127.7-bit margin at the
+  prize rows; loss < 2^-73 worst case). THEOREM F: MC spectrally
+  excluded from the window — three exhaustive cases, middle = the
+  2-adic gap (band proper strictly between consecutive 2-powers at
+  h = 2^m + 1). THEOREM U: SL-1 = L-B functionals via pencil
+  pullback — the selection leg of the unification is now a THEOREM.
+  Occupancy surface reduces to SL-2 alone (+ OV cleanup). h-even
+  fragility recorded. Remaining round-11 pilots in flight.
+
+## 2026-08-03: round-11 pilot 2 BANKED — cash-out: |K| residual = OV; P-B monomial forcing
+
+- **crosslane_cashout (Opus, retry) BANKED** (152/152, 3 falsifiers
+  fired-and-reported). NEW: |K_+| <= 2t-h+2 (tight, U-mech); Jensen
+  K_0 window bound = banked sunflower values (130/66/66 at prize vs
+  targets 383/447/959); THE |K| RESIDUAL IS ONE OBJECT = the band
+  lane's CONJECTURE OV (U2's prediction confirmed — OV now pays BOTH
+  lanes); THEOREM X monomial forcing (exhaustive) + THEOREM Y sharp
+  orbit ceiling M = n (free orbits at all six rows); selector vs L-B
+  = different-but-complementary, K1/PP4.0 de-coupling route SURFACED.
+  Addenda applied to both P-B nodes. In flight: anchor, gamma close.
+
+## 2026-08-03: round-11 pilot 3 BANKED — anchor: C = 1/2 at e = 1; residual = F9
+
+- **unified_pencil_bound (Opus, retry; killed-run PREREG honored)
+  BANKED** (42/42 + both replay halves, 0/10 falsifiers; one in-run
+  proxy retraction). PROVED: s >= 2 forced by the gates; C = 1/2 at
+  e = 1 UNCONDITIONALLY for ALL live slopes (k-packing disjointness;
+  tight at Zfib11 + a new local FULL-GATE q=11 witness); C = 1/2 per
+  pencil at every e; M <= 1 pencils at e = 1 via Ann-monotone 3+3
+  pinning (combinatorial M <= 1 is FALSE — 170 multi-pencil matchings
+  — realisability is what kills them: 0/720 vs control 200/200).
+  Residual = EXACTLY v5 flag F9. Unified mystery kernel: {SL-2, OV,
+  F9}. Awaiting: gamma_j2_close (the last gate for the 7->4 board).
+
+## 2026-08-03: round-11 pilot 4 BANKED — ROUND 11 COMPLETE; BOARD REVISED 7 -> 4 (task #37 executed)
+
+- **gamma_j2_close (Opus, retry) BANKED** (9,415 checks 0 fail, 0/9
+  falsifiers; e2/e3 coordinator-replayed). PARTIAL: THEOREM D
+  unconditional reduction |Gamma_j| <= n.E_j (Y = E_1 = 1 case;
+  mintable); scope theorem (all 18 counterexamples w = 2 < M, j >= w;
+  prize rows j <= w-1, no gate-intact excess to X = 4.44); banked "X
+  governs" corrected to necessary-not-sufficient; one-parameter
+  averaging gap named as THE obstruction. Heart 7 NOT retired —
+  residual = E_j, attached to the unified kernel. Amendment 2 applied
+  to band_adjudication; advlib docstring fixed.
+- **BOARD REVISION EXECUTED (r3.2)**: four mysteries — UNIFIED
+  (kernel {SL-2, OV, F9, E_j} + P-B appendix), F2, C1/C2'', CROSSING.
+  Task #37 complete. Next levers: OV pilot, F9 pilot, SL-2 Pro brief,
+  E_j identification.

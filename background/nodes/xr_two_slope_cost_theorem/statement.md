@@ -146,3 +146,18 @@ law `rank <= Vh` with equality on spread (`2hM`), pairwise-core
 `C(V*,2) = 18336/24976/114960`; and an end-to-end realisation at
 `(16,4,4,97)`, `d = 1`, confirmed by a fresh exhaustive interpolation
 scan (intended core at depth 1, both prescribed slopes live).
+
+## Addendum (2026-08-03, mint-2 audit): the corollary's independence hypothesis, explicit
+
+The corollary sentence "a realisable family carried by `V` rays has
+`rank <= Vh`, so `V <= (2(n-k)-1)/h`" is a chain only when
+`rank = Vh`, i.e. under RAY INDEPENDENCE — as this node's own
+NOT-claimed section already records. The gap is now WITNESSED: a
+realised, spread, zero-self-collision `mu_20`-orbit family (n=20,
+q=41, K=4, h=3; 20 supports, 20 distinct slopes, condition rank 31 of
+60 rows) has `V = 20 > (2r-1)/h = 10`, exceeding the ceiling
+(`background/nodes/pb_design_ceiling/`, Theorem 3, machine-verified).
+The ceiling bounds INDEPENDENTLY-IMPOSABLE families, never realised
+families as such; "rank deficit forces self-collision" is FALSE.
+Consumers must read the corollary with the independence hypothesis
+explicit.

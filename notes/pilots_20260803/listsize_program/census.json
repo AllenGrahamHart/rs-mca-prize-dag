@@ -1,0 +1,384 @@
+{
+ "results": [
+  {
+   "name": "k5t4_core7_2slopes",
+   "n": 14,
+   "k": 5,
+   "h": 4,
+   "A": 9,
+   "tau": 7,
+   "q": 101,
+   "admissible": true,
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate_P1": true,
+    "below_cascade": true,
+    "kpack": true
+   },
+   "max_joint": 7,
+   "max_ray_agreement": 9,
+   "raw_high": 1,
+   "min_L": 1,
+   "max_L": 4,
+   "members_at_min": 63,
+   "members_equal_raw_high": 63,
+   "P1_violations": [],
+   "P5_violations": 0,
+   "census": [
+    {
+     "j": 6,
+     "R": 2992,
+     "D": 11,
+     "sum_G": 4114,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 3
+    },
+    {
+     "j": 7,
+     "R": 136,
+     "D": 1,
+     "sum_G": 238,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 1
+    }
+   ]
+  },
+  {
+   "name": "k5t4_core7_2slopes_b",
+   "n": 14,
+   "k": 5,
+   "h": 4,
+   "A": 9,
+   "tau": 7,
+   "q": 101,
+   "admissible": true,
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate_P1": true,
+    "below_cascade": true,
+    "kpack": true
+   },
+   "max_joint": 7,
+   "max_ray_agreement": 9,
+   "raw_high": 1,
+   "min_L": 1,
+   "max_L": 3,
+   "members_at_min": 78,
+   "members_equal_raw_high": 78,
+   "P1_violations": [],
+   "P5_violations": 0,
+   "census": [
+    {
+     "j": 6,
+     "R": 2996,
+     "D": 7,
+     "sum_G": 3710,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 3
+    },
+    {
+     "j": 7,
+     "R": 118,
+     "D": 1,
+     "sum_G": 220,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 1
+    }
+   ]
+  },
+  {
+   "name": "k5t4_core7_1slope_RAWonly",
+   "n": 14,
+   "k": 5,
+   "h": 4,
+   "A": 9,
+   "tau": 7,
+   "q": 101,
+   "admissible": false,
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate_P1": false,
+    "below_cascade": true,
+    "kpack": true
+   },
+   "max_joint": 7,
+   "max_ray_agreement": 10,
+   "raw_high": 1,
+   "min_L": 1,
+   "max_L": 3,
+   "members_at_min": 70,
+   "members_equal_raw_high": 70,
+   "P1_violations": [],
+   "P5_violations": 0,
+   "census": [
+    {
+     "j": 6,
+     "R": 2993,
+     "D": 10,
+     "sum_G": 4013,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 3
+    },
+    {
+     "j": 7,
+     "R": 184,
+     "D": 1,
+     "sum_G": 286,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 1
+    }
+   ]
+  },
+  {
+   "name": "k5t4_two_cores",
+   "n": 14,
+   "k": 5,
+   "h": 4,
+   "A": 9,
+   "tau": 7,
+   "q": 101,
+   "admissible": false,
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate_P1": false,
+    "below_cascade": true,
+    "kpack": true
+   },
+   "max_joint": 7,
+   "max_ray_agreement": 10,
+   "raw_high": 2,
+   "min_L": 2,
+   "max_L": 4,
+   "members_at_min": 79,
+   "members_equal_raw_high": 79,
+   "P1_violations": [],
+   "P5_violations": 0,
+   "census": [
+    {
+     "j": 6,
+     "R": 2987,
+     "D": 16,
+     "sum_G": 4619,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 4
+    },
+    {
+     "j": 7,
+     "R": 242,
+     "D": 2,
+     "sum_G": 446,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 2
+    }
+   ]
+  },
+  {
+   "name": "k5t4_random_21",
+   "n": 14,
+   "k": 5,
+   "h": 4,
+   "A": 9,
+   "tau": 7,
+   "q": 101,
+   "admissible": true,
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate_P1": true,
+    "below_cascade": true,
+    "kpack": true
+   },
+   "max_joint": 5,
+   "max_ray_agreement": 8,
+   "raw_high": 0,
+   "min_L": 0,
+   "max_L": 2,
+   "members_at_min": 78,
+   "members_equal_raw_high": 78,
+   "P1_violations": [],
+   "P5_violations": 0,
+   "census": [
+    {
+     "j": 6,
+     "R": 3003,
+     "D": 0,
+     "sum_G": 3003,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 2
+    },
+    {
+     "j": 7,
+     "R": 34,
+     "D": 0,
+     "sum_G": 34,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 0
+    }
+   ]
+  },
+  {
+   "name": "k5t4_random_22",
+   "n": 14,
+   "k": 5,
+   "h": 4,
+   "A": 9,
+   "tau": 7,
+   "q": 101,
+   "admissible": true,
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate_P1": true,
+    "below_cascade": true,
+    "kpack": true
+   },
+   "max_joint": 5,
+   "max_ray_agreement": 7,
+   "raw_high": 0,
+   "min_L": 0,
+   "max_L": 2,
+   "members_at_min": 80,
+   "members_equal_raw_high": 80,
+   "P1_violations": [],
+   "P5_violations": 0,
+   "census": [
+    {
+     "j": 6,
+     "R": 3003,
+     "D": 0,
+     "sum_G": 3003,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 2
+    },
+    {
+     "j": 7,
+     "R": 24,
+     "D": 0,
+     "sum_G": 24,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 0
+    }
+   ]
+  },
+  {
+   "name": "k4t5_core7_2slopes",
+   "n": 13,
+   "k": 4,
+   "h": 5,
+   "A": 9,
+   "tau": 7,
+   "q": 61,
+   "admissible": true,
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate_P1": true,
+    "below_cascade": true,
+    "kpack": true
+   },
+   "max_joint": 7,
+   "max_ray_agreement": 9,
+   "raw_high": 1,
+   "min_L": 1,
+   "max_L": 2,
+   "members_at_min": 60,
+   "members_equal_raw_high": 60,
+   "P1_violations": [],
+   "P5_violations": 0,
+   "census": [
+    {
+     "j": 5,
+     "R": 1265,
+     "D": 22,
+     "sum_G": 2629,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 1
+    },
+    {
+     "j": 6,
+     "R": 223,
+     "D": 7,
+     "sum_G": 657,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 1
+    },
+    {
+     "j": 7,
+     "R": 86,
+     "D": 1,
+     "sum_G": 148,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 1
+    }
+   ]
+  },
+  {
+   "name": "k4t5_random",
+   "n": 13,
+   "k": 4,
+   "h": 5,
+   "A": 9,
+   "tau": 7,
+   "q": 61,
+   "admissible": true,
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate_P1": true,
+    "below_cascade": true,
+    "kpack": true
+   },
+   "max_joint": 4,
+   "max_ray_agreement": 6,
+   "raw_high": 0,
+   "min_L": 0,
+   "max_L": 0,
+   "members_at_min": 62,
+   "members_equal_raw_high": 62,
+   "P1_violations": [],
+   "P5_violations": 0,
+   "census": [
+    {
+     "j": 5,
+     "R": 1287,
+     "D": 0,
+     "sum_G": 1287,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 0
+    },
+    {
+     "j": 6,
+     "R": 23,
+     "D": 0,
+     "sum_G": 23,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 0
+    },
+    {
+     "j": 7,
+     "R": 0,
+     "D": 0,
+     "sum_G": 0,
+     "identity_ok": true,
+     "subcount_ok": true,
+     "bound_min": 0
+    }
+   ]
+  }
+ ],
+ "fails": [],
+ "verdict": "PASS"
+}

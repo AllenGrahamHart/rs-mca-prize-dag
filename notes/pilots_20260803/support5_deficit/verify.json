@@ -1,0 +1,1339 @@
+{
+ "checks": [
+  {
+   "label": "replay E1 (consecutive blocks): rank = 22 = 2m",
+   "ok": true,
+   "detail": "rank=22 2m=22"
+  },
+  {
+   "label": "replay E1: gate-clean",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "replay E1: all escapes exactly 1, core = all 12",
+   "ok": true,
+   "detail": "[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1] 12"
+  },
+  {
+   "label": "replay E1: dim Ann = 0 (the recorded no-deficit value)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "replay U-mechanism (3,5,1,4): rank = 19",
+   "ok": true,
+   "detail": "19"
+  },
+  {
+   "label": "PF1: rank = Vh - dim Rel",
+   "ok": true,
+   "detail": "13 vs 13"
+  },
+  {
+   "label": "PF1: rank = 2m - dim Ann (THEOREM 1)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PF1: dual-weight dim Ann agrees",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "label": "PF1: record's ann_dims agrees",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "label": "PF1: REDUCED system agrees (E1-RED)",
+   "ok": true,
+   "detail": "reduced 1+0=1 vs 1"
+  },
+  {
+   "label": "PF1: dim Rel <= THEOREM D cap",
+   "ok": true,
+   "detail": "3 vs 3"
+  },
+  {
+   "label": "PF1: dim Ann >= #(multiplicity-1 points)  [PROP 0]",
+   "ok": true,
+   "detail": "1 vs 0"
+  },
+  {
+   "label": "PF1: predicted dim_Ann_rank = 1",
+   "ok": true,
+   "detail": "got 1"
+  },
+  {
+   "label": "PF1: predicted rank = 13",
+   "ok": true,
+   "detail": "got 13"
+  },
+  {
+   "label": "PF1: predicted m = 7",
+   "ok": true,
+   "detail": "got 7"
+  },
+  {
+   "label": "PF1: predicted k = 3",
+   "ok": true,
+   "detail": "got 3"
+  },
+  {
+   "label": "PF1: predicted n = 10",
+   "ok": true,
+   "detail": "got 10"
+  },
+  {
+   "label": "PF1: predicted dim_Rel = 3",
+   "ok": true,
+   "detail": "got 3"
+  },
+  {
+   "label": "PF1: predicted gate_clean = True",
+   "ok": true,
+   "detail": "got True"
+  },
+  {
+   "label": "PF1: predicted core = 4",
+   "ok": true,
+   "detail": "got 4"
+  },
+  {
+   "label": "PF1: all escapes exactly 1",
+   "ok": true,
+   "detail": "[1, 1, 1, 1]"
+  },
+  {
+   "label": "PF1: band-proper depth",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PF2: rank = Vh - dim Rel",
+   "ok": true,
+   "detail": "19 vs 19"
+  },
+  {
+   "label": "PF2: rank = 2m - dim Ann (THEOREM 1)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PF2: dual-weight dim Ann agrees",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "label": "PF2: record's ann_dims agrees",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "label": "PF2: REDUCED system agrees (E1-RED)",
+   "ok": true,
+   "detail": "reduced 1+0=1 vs 1"
+  },
+  {
+   "label": "PF2: dim Rel <= THEOREM D cap",
+   "ok": true,
+   "detail": "21 vs 21"
+  },
+  {
+   "label": "PF2: dim Ann >= #(multiplicity-1 points)  [PROP 0]",
+   "ok": true,
+   "detail": "1 vs 0"
+  },
+  {
+   "label": "PF2: predicted dim_Ann_rank = 1",
+   "ok": true,
+   "detail": "got 1"
+  },
+  {
+   "label": "PF2: predicted rank = 19",
+   "ok": true,
+   "detail": "got 19"
+  },
+  {
+   "label": "PF2: predicted m = 10",
+   "ok": true,
+   "detail": "got 10"
+  },
+  {
+   "label": "PF2: predicted k = 15",
+   "ok": true,
+   "detail": "got 15"
+  },
+  {
+   "label": "PF2: predicted n = 25",
+   "ok": true,
+   "detail": "got 25"
+  },
+  {
+   "label": "PF2: predicted gate_clean = True",
+   "ok": true,
+   "detail": "got True"
+  },
+  {
+   "label": "PF2: predicted core = 10",
+   "ok": true,
+   "detail": "got 10"
+  },
+  {
+   "label": "PF2: CHARGE DEFEATED (rank < 2V) with a genuine deficit",
+   "ok": true,
+   "detail": "rank=19 2V=20"
+  },
+  {
+   "label": "PF3: rank = Vh - dim Rel",
+   "ok": true,
+   "detail": "21 vs 21"
+  },
+  {
+   "label": "PF3: rank = 2m - dim Ann (THEOREM 1)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PF3: dual-weight dim Ann agrees",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "label": "PF3: record's ann_dims agrees",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "label": "PF3: REDUCED system agrees (E1-RED)",
+   "ok": true,
+   "detail": "reduced 1+0=1 vs 1"
+  },
+  {
+   "label": "PF3: dim Rel <= THEOREM D cap",
+   "ok": true,
+   "detail": "27 vs 27"
+  },
+  {
+   "label": "PF3: dim Ann >= #(multiplicity-1 points)  [PROP 0]",
+   "ok": true,
+   "detail": "1 vs 0"
+  },
+  {
+   "label": "PF3: predicted dim_Ann_rank = 1",
+   "ok": true,
+   "detail": "got 1"
+  },
+  {
+   "label": "PF3: predicted rank = 21",
+   "ok": true,
+   "detail": "got 21"
+  },
+  {
+   "label": "PF3: predicted m = 11",
+   "ok": true,
+   "detail": "got 11"
+  },
+  {
+   "label": "PF3: predicted k = 19",
+   "ok": true,
+   "detail": "got 19"
+  },
+  {
+   "label": "PF3: predicted n = 30",
+   "ok": true,
+   "detail": "got 30"
+  },
+  {
+   "label": "PF3: predicted dim_Rel = 27",
+   "ok": true,
+   "detail": "got 27"
+  },
+  {
+   "label": "PF3: predicted gate_clean = True",
+   "ok": true,
+   "detail": "got True"
+  },
+  {
+   "label": "PF3: predicted core = 12",
+   "ok": true,
+   "detail": "got 12"
+  },
+  {
+   "label": "PF3: the recorded E1 pin (k=19,h=4,V=12) now has a DEFICIT",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PF3: charge < 2",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PF4: rank = Vh - dim Rel",
+   "ok": true,
+   "detail": "19 vs 19"
+  },
+  {
+   "label": "PF4: rank = 2m - dim Ann (THEOREM 1)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PF4: dual-weight dim Ann agrees",
+   "ok": true,
+   "detail": "3 vs 3"
+  },
+  {
+   "label": "PF4: record's ann_dims agrees",
+   "ok": true,
+   "detail": "3 vs 3"
+  },
+  {
+   "label": "PF4: REDUCED system agrees (E1-RED)",
+   "ok": true,
+   "detail": "reduced 3+0=3 vs 3"
+  },
+  {
+   "label": "PF4: dim Rel <= THEOREM D cap",
+   "ok": true,
+   "detail": "5 vs 5"
+  },
+  {
+   "label": "PF4: dim Ann >= #(multiplicity-1 points)  [PROP 0]",
+   "ok": true,
+   "detail": "3 vs 0"
+  },
+  {
+   "label": "PF4: predicted dim_Ann_rank = 3",
+   "ok": true,
+   "detail": "got 3"
+  },
+  {
+   "label": "PF4: predicted rank = 19",
+   "ok": true,
+   "detail": "got 19"
+  },
+  {
+   "label": "PF4: predicted m = 11",
+   "ok": true,
+   "detail": "got 11"
+  },
+  {
+   "label": "PF4: predicted k = 7",
+   "ok": true,
+   "detail": "got 7"
+  },
+  {
+   "label": "PF4: predicted n = 18",
+   "ok": true,
+   "detail": "got 18"
+  },
+  {
+   "label": "PF4: predicted gate_clean = True",
+   "ok": true,
+   "detail": "got True"
+  },
+  {
+   "label": "PF4: predicted core = 4",
+   "ok": true,
+   "detail": "got 4"
+  },
+  {
+   "label": "PF5: rank = Vh - dim Rel",
+   "ok": true,
+   "detail": "13 vs 13"
+  },
+  {
+   "label": "PF5: rank = 2m - dim Ann (THEOREM 1)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PF5: dual-weight dim Ann agrees",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "label": "PF5: record's ann_dims agrees",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "label": "PF5: REDUCED system agrees (E1-RED)",
+   "ok": true,
+   "detail": "reduced 1+0=1 vs 1"
+  },
+  {
+   "label": "PF5: dim Rel <= THEOREM D cap",
+   "ok": true,
+   "detail": "3 vs 3"
+  },
+  {
+   "label": "PF5: dim Ann >= #(multiplicity-1 points)  [PROP 0]",
+   "ok": true,
+   "detail": "1 vs 0"
+  },
+  {
+   "label": "PF5: predicted dim_Ann_rank = 1",
+   "ok": true,
+   "detail": "got 1"
+  },
+  {
+   "label": "PF5: predicted rank = 13",
+   "ok": true,
+   "detail": "got 13"
+  },
+  {
+   "label": "PF5: predicted m = 7",
+   "ok": true,
+   "detail": "got 7"
+  },
+  {
+   "label": "PF5: predicted k = 5",
+   "ok": true,
+   "detail": "got 5"
+  },
+  {
+   "label": "PF5: predicted n = 12",
+   "ok": true,
+   "detail": "got 12"
+  },
+  {
+   "label": "PF5: predicted gate_clean = True",
+   "ok": true,
+   "detail": "got True"
+  },
+  {
+   "label": "PF5: predicted core = 4",
+   "ok": true,
+   "detail": "got 4"
+  },
+  {
+   "label": "PF1: THEOREM D is TIGHT (dim Rel = cap)",
+   "ok": true,
+   "detail": "3/3"
+  },
+  {
+   "label": "PF1: dim Ann = 2s - h + 1",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "label": "PF2: THEOREM D is TIGHT (dim Rel = cap)",
+   "ok": true,
+   "detail": "21/21"
+  },
+  {
+   "label": "PF2: dim Ann = 2s - h + 1",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "label": "PF3: THEOREM D is TIGHT (dim Rel = cap)",
+   "ok": true,
+   "detail": "27/27"
+  },
+  {
+   "label": "PF3: dim Ann = 2s - h + 1",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "label": "PF4: THEOREM D is TIGHT (dim Rel = cap)",
+   "ok": true,
+   "detail": "5/5"
+  },
+  {
+   "label": "PF4: dim Ann = 2s - h + 1",
+   "ok": true,
+   "detail": "3 vs 3"
+  },
+  {
+   "label": "PF5: THEOREM D is TIGHT (dim Rel = cap)",
+   "ok": true,
+   "detail": "3/3"
+  },
+  {
+   "label": "PF5: dim Ann = 2s - h + 1",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "label": "PF6: rank = Vh - dim Rel",
+   "ok": true,
+   "detail": "13 vs 13"
+  },
+  {
+   "label": "PF6: rank = 2m - dim Ann (THEOREM 1)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PF6: dual-weight dim Ann agrees",
+   "ok": true,
+   "detail": "5 vs 5"
+  },
+  {
+   "label": "PF6: record's ann_dims agrees",
+   "ok": true,
+   "detail": "5 vs 5"
+  },
+  {
+   "label": "PF6: REDUCED system agrees (E1-RED)",
+   "ok": true,
+   "detail": "reduced 1+4=5 vs 5"
+  },
+  {
+   "label": "PF6: dim Rel <= THEOREM D cap",
+   "ok": true,
+   "detail": "3 vs 3"
+  },
+  {
+   "label": "PF6: dim Ann >= #(multiplicity-1 points)  [PROP 0]",
+   "ok": true,
+   "detail": "5 vs 4"
+  },
+  {
+   "label": "PF6: predicted dim_Ann_rank = 5",
+   "ok": true,
+   "detail": "got 5"
+  },
+  {
+   "label": "PF6: predicted rank = 13",
+   "ok": true,
+   "detail": "got 13"
+  },
+  {
+   "label": "PF6: predicted m = 9",
+   "ok": true,
+   "detail": "got 9"
+  },
+  {
+   "label": "PF6: predicted k = 3",
+   "ok": true,
+   "detail": "got 3"
+  },
+  {
+   "label": "PF6: predicted n = 12",
+   "ok": true,
+   "detail": "got 12"
+  },
+  {
+   "label": "PF6: predicted gate_clean = True",
+   "ok": true,
+   "detail": "got True"
+  },
+  {
+   "label": "PF6: predicted core = 4",
+   "ok": true,
+   "detail": "got 4"
+  },
+  {
+   "label": "PF6: predicted mult1 = 4",
+   "ok": true,
+   "detail": "got 4"
+  },
+  {
+   "label": "PF7: rank = Vh - dim Rel",
+   "ok": true,
+   "detail": "14 vs 14"
+  },
+  {
+   "label": "PF7: rank = 2m - dim Ann (THEOREM 1)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PF7: dual-weight dim Ann agrees",
+   "ok": true,
+   "detail": "4 vs 4"
+  },
+  {
+   "label": "PF7: record's ann_dims agrees",
+   "ok": true,
+   "detail": "4 vs 4"
+  },
+  {
+   "label": "PF7: REDUCED system agrees (E1-RED)",
+   "ok": true,
+   "detail": "reduced 0+4=4 vs 4"
+  },
+  {
+   "label": "PF7: dim Rel <= THEOREM D cap",
+   "ok": true,
+   "detail": "2 vs 3"
+  },
+  {
+   "label": "PF7: dim Ann >= #(multiplicity-1 points)  [PROP 0]",
+   "ok": true,
+   "detail": "4 vs 4"
+  },
+  {
+   "label": "PF7: predicted dim_Ann_rank = 4",
+   "ok": true,
+   "detail": "got 4"
+  },
+  {
+   "label": "PF7: predicted rank = 14",
+   "ok": true,
+   "detail": "got 14"
+  },
+  {
+   "label": "PF7: predicted m = 9",
+   "ok": true,
+   "detail": "got 9"
+  },
+  {
+   "label": "PF7: predicted k = 3",
+   "ok": true,
+   "detail": "got 3"
+  },
+  {
+   "label": "PF7: predicted n = 12",
+   "ok": true,
+   "detail": "got 12"
+  },
+  {
+   "label": "PF7: predicted gate_clean = True",
+   "ok": true,
+   "detail": "got True"
+  },
+  {
+   "label": "PF7: predicted core = 4",
+   "ok": true,
+   "detail": "got 4"
+  },
+  {
+   "label": "PF7: predicted mult1 = 4",
+   "ok": true,
+   "detail": "got 4"
+  },
+  {
+   "label": "PF8: rank = Vh - dim Rel",
+   "ok": true,
+   "detail": "22 vs 22"
+  },
+  {
+   "label": "PF8: rank = 2m - dim Ann (THEOREM 1)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PF8: dual-weight dim Ann agrees",
+   "ok": true,
+   "detail": "12 vs 12"
+  },
+  {
+   "label": "PF8: record's ann_dims agrees",
+   "ok": true,
+   "detail": "12 vs 12"
+  },
+  {
+   "label": "PF8: REDUCED system agrees (E1-RED)",
+   "ok": true,
+   "detail": "reduced 0+12=12 vs 12"
+  },
+  {
+   "label": "PF8: dim Rel <= THEOREM D cap",
+   "ok": true,
+   "detail": "26 vs 27"
+  },
+  {
+   "label": "PF8: dim Ann >= #(multiplicity-1 points)  [PROP 0]",
+   "ok": true,
+   "detail": "12 vs 12"
+  },
+  {
+   "label": "PF8: predicted dim_Ann_rank = 12",
+   "ok": true,
+   "detail": "got 12"
+  },
+  {
+   "label": "PF8: predicted rank = 22",
+   "ok": true,
+   "detail": "got 22"
+  },
+  {
+   "label": "PF8: predicted m = 17",
+   "ok": true,
+   "detail": "got 17"
+  },
+  {
+   "label": "PF8: predicted k = 19",
+   "ok": true,
+   "detail": "got 19"
+  },
+  {
+   "label": "PF8: predicted n = 36",
+   "ok": true,
+   "detail": "got 36"
+  },
+  {
+   "label": "PF8: predicted gate_clean = True",
+   "ok": true,
+   "detail": "got True"
+  },
+  {
+   "label": "PF8: predicted core = 12",
+   "ok": true,
+   "detail": "got 12"
+  },
+  {
+   "label": "PF8: predicted mult1 = 12",
+   "ok": true,
+   "detail": "got 12"
+  },
+  {
+   "label": "PF8: private-escape shape is charge-defeating AND deficient",
+   "ok": true,
+   "detail": "rank=22 2V=24"
+  },
+  {
+   "label": "PF6: dim Ann >= #mult-1 = 4 (PROP 0)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PF7: dim Ann >= #mult-1 = 4 (PROP 0)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PF8: dim Ann >= #mult-1 = 12 (PROP 0)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "CTRL-A: deficits occur ONLY at the Mobius-matched cross-ratio",
+   "ok": true,
+   "detail": "[(7, 1)] vs (7, 1)"
+  },
+  {
+   "label": "CTRL-A: the Mobius locus is a proper slope condition",
+   "ok": true,
+   "detail": "880/7920"
+  },
+  {
+   "label": "CTRL-C: non-pencil supports carry NO deficit at any slope tuple",
+   "ok": true,
+   "detail": "span=3 hits=0"
+  },
+  {
+   "label": "THEOREM F replay (q=11,d=2,h=4,V=4): dim Ann = 0",
+   "ok": true,
+   "detail": "got 0"
+  },
+  {
+   "label": "THEOREM F replay (q=29,d=4,h=6,V=4): dim Ann = 2",
+   "ok": true,
+   "detail": "got 2"
+  },
+  {
+   "label": "THEOREM F replay (q=31,d=2,h=5,V=6): dim Ann = 0",
+   "ok": true,
+   "detail": "got 0"
+  },
+  {
+   "label": "PF1: LEMMA R -- dim{realisers}/(RS_k)^2 = 2m - rank",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "label": "PF1: every designed escape-1 ray is LIVE at agreement EXACTLY A (no over-agreement)",
+   "ok": true,
+   "detail": "[7, 7, 7, 7] vs A=7"
+  },
+  {
+   "label": "PF1: realiser exists and the band oracle ran (n=10, C(n,k)=120)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PF1 CERTIFICATE: lambda + z_a mu interpolates a deg<k polynomial on every S_a",
+   "ok": true,
+   "detail": "[2, 2, 2, 2]"
+  },
+  {
+   "label": "PF1 CERTIFICATE: all certificate polynomials have degree < k",
+   "ok": true,
+   "detail": "[2, 2, 2, 2]"
+  },
+  {
+   "label": "PF1 CERTIFICATE: (lambda,mu) is not in (RS_k|_U)^2",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PART5 completeness: dim Ann depends on the slopes only through (r_1, r_3); the 90 r-classes exhaust all distinct-slope tuples",
+   "ok": true,
+   "detail": "0"
+  },
+  {
+   "label": "PF1 reproduces the L-B flag-6 premise (4-wise < k+2)",
+   "ok": true,
+   "detail": "0 vs 5"
+  },
+  {
+   "label": "PF1 nevertheless HAS a deficit at V = 4 (so the deficit is NOT confined to ray-support >= 5)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PF1: S4-3 holds -- the four c_a of a support-4 relation lie in ONE 2-dimensional L",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "label": "PF1: S4-5 holds -- generic element of L has support 8 >= k+2 = 5",
+   "ok": true,
+   "detail": "8"
+  },
+  {
+   "label": "PF1: the flag-6 STEP fails -- L is 2-dimensional yet the 4-wise intersection is 0, so L is NOT inside C_{^S_a}",
+   "ok": true,
+   "detail": "quad=0 dimL=2"
+  },
+  {
+   "label": "PF2: LEMMA R nontrivial realiser dimension = 2m - rank = 1",
+   "ok": true,
+   "detail": "1"
+  },
+  {
+   "label": "PF2: rank <= 2m - 1, so band admissibility is NOT excluded by LEMMA R",
+   "ok": true,
+   "detail": "19/20"
+  },
+  {
+   "label": "PF3: LEMMA R nontrivial realiser dimension = 2m - rank = 1",
+   "ok": true,
+   "detail": "1"
+  },
+  {
+   "label": "PF3: rank <= 2m - 1, so band admissibility is NOT excluded by LEMMA R",
+   "ok": true,
+   "detail": "21/22"
+  },
+  {
+   "label": "PART5 validation: reduced system == 2m - rank on 120 random configurations",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PART5: dim Ann is independent of the escape points Y",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "label": "PART5: the sweep is exhaustive over affine classes (B_0 = {0,1} WLOG)",
+   "ok": true,
+   "detail": "7560"
+  },
+  {
+   "label": "PART5: at least one deficit exists",
+   "ok": true,
+   "detail": "1680"
+  },
+  {
+   "label": "PART5 CLASSIFICATION: every deficit is (pencil blocks) + (Mobius-matched slopes)",
+   "ok": true,
+   "detail": "[]"
+  }
+ ],
+ "fixtures": [
+  {
+   "name": "PF1",
+   "q": 11,
+   "k": 3,
+   "h": 4,
+   "V": 4,
+   "n": 10,
+   "s": 2,
+   "t0": 0,
+   "private": false,
+   "m": 7,
+   "A": 7,
+   "gate_clean": true,
+   "depth_ok": true,
+   "min_pair": 4,
+   "max_pair": 5,
+   "max_triple": 2,
+   "core": 4,
+   "escapes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "rank": 13,
+   "dim_Rel": 3,
+   "dim_Ann_rank": 1,
+   "dim_Ann_dual": 1,
+   "dim_Ann_reduced": 1,
+   "dim_Ann_record": 1,
+   "mult1": 0,
+   "twom": 14,
+   "twoV": 8,
+   "Vh": 16,
+   "thmD_cap": 3,
+   "charge": 3.25
+  },
+  {
+   "name": "PF2",
+   "q": 29,
+   "k": 15,
+   "h": 4,
+   "V": 10,
+   "n": 25,
+   "s": 2,
+   "t0": 0,
+   "private": false,
+   "m": 10,
+   "A": 19,
+   "gate_clean": true,
+   "depth_ok": true,
+   "min_pair": 16,
+   "max_pair": 17,
+   "max_triple": 14,
+   "core": 10,
+   "escapes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rank": 19,
+   "dim_Rel": 21,
+   "dim_Ann_rank": 1,
+   "dim_Ann_dual": 1,
+   "dim_Ann_reduced": 1,
+   "dim_Ann_record": 1,
+   "mult1": 0,
+   "twom": 20,
+   "twoV": 20,
+   "Vh": 40,
+   "thmD_cap": 21,
+   "charge": 1.9
+  },
+  {
+   "name": "PF3",
+   "q": 31,
+   "k": 19,
+   "h": 4,
+   "V": 12,
+   "n": 30,
+   "s": 2,
+   "t0": 0,
+   "private": false,
+   "m": 11,
+   "A": 23,
+   "gate_clean": true,
+   "depth_ok": true,
+   "min_pair": 20,
+   "max_pair": 21,
+   "max_triple": 18,
+   "core": 12,
+   "escapes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rank": 21,
+   "dim_Rel": 27,
+   "dim_Ann_rank": 1,
+   "dim_Ann_dual": 1,
+   "dim_Ann_reduced": 1,
+   "dim_Ann_record": 1,
+   "mult1": 0,
+   "twom": 22,
+   "twoV": 24,
+   "Vh": 48,
+   "thmD_cap": 27,
+   "charge": 1.75
+  },
+  {
+   "name": "PF4",
+   "q": 29,
+   "k": 7,
+   "h": 6,
+   "V": 4,
+   "n": 18,
+   "s": 4,
+   "t0": 0,
+   "private": false,
+   "m": 11,
+   "A": 13,
+   "gate_clean": true,
+   "depth_ok": true,
+   "min_pair": 8,
+   "max_pair": 9,
+   "max_triple": 4,
+   "core": 4,
+   "escapes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "rank": 19,
+   "dim_Rel": 5,
+   "dim_Ann_rank": 3,
+   "dim_Ann_dual": 3,
+   "dim_Ann_reduced": 3,
+   "dim_Ann_record": 3,
+   "mult1": 0,
+   "twom": 22,
+   "twoV": 8,
+   "Vh": 24,
+   "thmD_cap": 5,
+   "charge": 4.75
+  },
+  {
+   "name": "PF5",
+   "q": 17,
+   "k": 5,
+   "h": 4,
+   "V": 4,
+   "n": 12,
+   "s": 2,
+   "t0": 2,
+   "private": false,
+   "m": 7,
+   "A": 9,
+   "gate_clean": true,
+   "depth_ok": true,
+   "min_pair": 6,
+   "max_pair": 7,
+   "max_triple": 4,
+   "core": 4,
+   "escapes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "rank": 13,
+   "dim_Rel": 3,
+   "dim_Ann_rank": 1,
+   "dim_Ann_dual": 1,
+   "dim_Ann_reduced": 1,
+   "dim_Ann_record": 1,
+   "mult1": 0,
+   "twom": 14,
+   "twoV": 8,
+   "Vh": 16,
+   "thmD_cap": 3,
+   "charge": 3.25
+  },
+  {
+   "name": "PF6",
+   "q": 29,
+   "k": 3,
+   "h": 4,
+   "V": 4,
+   "n": 12,
+   "s": 2,
+   "t0": 0,
+   "private": true,
+   "m": 9,
+   "A": 7,
+   "gate_clean": true,
+   "depth_ok": true,
+   "min_pair": 4,
+   "max_pair": 4,
+   "max_triple": 2,
+   "core": 4,
+   "escapes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "rank": 13,
+   "dim_Rel": 3,
+   "dim_Ann_rank": 5,
+   "dim_Ann_dual": 5,
+   "dim_Ann_reduced": 5,
+   "dim_Ann_record": 5,
+   "mult1": 4,
+   "twom": 18,
+   "twoV": 8,
+   "Vh": 16,
+   "thmD_cap": 3,
+   "charge": 3.25
+  },
+  {
+   "name": "PF7",
+   "q": 29,
+   "k": 3,
+   "h": 4,
+   "V": 4,
+   "n": 12,
+   "s": 2,
+   "t0": 0,
+   "private": true,
+   "m": 9,
+   "A": 7,
+   "gate_clean": true,
+   "depth_ok": true,
+   "min_pair": 4,
+   "max_pair": 4,
+   "max_triple": 2,
+   "core": 4,
+   "escapes": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "rank": 14,
+   "dim_Rel": 2,
+   "dim_Ann_rank": 4,
+   "dim_Ann_dual": 4,
+   "dim_Ann_reduced": 4,
+   "dim_Ann_record": 4,
+   "mult1": 4,
+   "twom": 18,
+   "twoV": 8,
+   "Vh": 16,
+   "thmD_cap": 3,
+   "charge": 3.5
+  },
+  {
+   "name": "PF8",
+   "q": 37,
+   "k": 19,
+   "h": 4,
+   "V": 12,
+   "n": 36,
+   "s": 2,
+   "t0": 0,
+   "private": true,
+   "m": 17,
+   "A": 23,
+   "gate_clean": true,
+   "depth_ok": true,
+   "min_pair": 20,
+   "max_pair": 20,
+   "max_triple": 18,
+   "core": 12,
+   "escapes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rank": 22,
+   "dim_Rel": 26,
+   "dim_Ann_rank": 12,
+   "dim_Ann_dual": 12,
+   "dim_Ann_reduced": 12,
+   "dim_Ann_record": 12,
+   "mult1": 12,
+   "twom": 34,
+   "twoV": 24,
+   "Vh": 48,
+   "thmD_cap": 27,
+   "charge": 1.8333
+  }
+ ],
+ "sweep": {
+  "ctrlA": {
+   "total": 7920,
+   "hits": 880,
+   "crs": [
+    "(7, 1)"
+   ],
+   "cr_pencil": "(7, 1)"
+  },
+  "ctrlC": {
+   "total": 7920,
+   "hits": 0,
+   "span": 3
+  },
+  "PF1_designed_ray_agreement": [
+   7,
+   7,
+   7,
+   7
+  ],
+  "PF1_gate": {
+   "A": 7,
+   "ADMISSIBLE": true,
+   "ADMISSIBLE_with_v_gate": true,
+   "FULL_GATE": true,
+   "Gamma_band_measured": 4,
+   "N_over_n": 0.6,
+   "N_over_n2": 0.06,
+   "N_total": 6,
+   "R": 7,
+   "T1_ok": true,
+   "T1_shared_fibre_pairs": 12,
+   "T2_ok": true,
+   "T3_ok": true,
+   "X_total": 6,
+   "below_cascade": true,
+   "column_beats_printed": true,
+   "deep_pairs": 6,
+   "globally_generic": true,
+   "h": 4,
+   "k": 3,
+   "kpacking_max_intersection": 2,
+   "kpacking_ok": true,
+   "ledger_bound_sum_Nd_L": 12,
+   "ledger_slack_vs_measured": 3.0,
+   "live_slopes": 4,
+   "max_joint_agreement": 5,
+   "max_lines_per_slope": 3,
+   "max_pairs_sharing_f_at_a_depth": 1,
+   "max_pairs_sharing_g_at_a_depth": 1,
+   "max_ray_agreement": 7,
+   "max_rays_per_slope": 1,
+   "max_v_side_agreement": 5,
+   "n": 10,
+   "n_rays": 4,
+   "printed_tangent_column": 4,
+   "q": 11,
+   "reselection_slopes": 0,
+   "spread_coset_ok": true,
+   "spread_coset_per_slope_ok": true,
+   "sumL_slack_vs_measured": 3.0,
+   "sum_L_over_band_pairs": 12,
+   "t": 4,
+   "tangent_free_finite_slopes": true,
+   "tangent_free_v_direction": true,
+   "v_nonvanishing": true
+  },
+  "PF1_certificate": {
+   "lam": [
+    4,
+    10,
+    9,
+    6,
+    2,
+    3,
+    9,
+    0,
+    0,
+    0
+   ],
+   "mu": [
+    8,
+    5,
+    3,
+    10,
+    10,
+    4,
+    1,
+    0,
+    0,
+    0
+   ],
+   "degs": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "xs": [
+    1,
+    10,
+    5,
+    6,
+    2,
+    9,
+    4,
+    7,
+    0,
+    3
+   ],
+   "slopes": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "supports": [
+    [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    [
+     0,
+     1,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     6,
+     7,
+     9
+    ],
+    [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     9
+    ]
+   ]
+  },
+  "PF1_flag6": {
+   "quad": 0,
+   "k_plus_2": 5,
+   "dim_Rel": 3,
+   "profile": {
+    "4": 3
+   }
+  },
+  "PF1_S45": {
+   "dimL": 2,
+   "generic_support": 8,
+   "quad": 0
+  }
+ },
+ "exhaustive": {
+  "configs": 7560,
+  "cases": 680400,
+  "hits": 1680,
+  "unexplained": 0
+ }
+}

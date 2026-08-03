@@ -1,0 +1,414 @@
+{
+ "rows": [
+  {
+   "name": "RowC 1/4",
+   "n": 1024,
+   "k": 256,
+   "A": 261,
+   "h": 5,
+   "band_proper": [
+    3,
+    3
+   ],
+   "nonempty": true,
+   "endpoints": [
+    {
+     "d": 3,
+     "beta": 765,
+     "cap": 382,
+     "window": [
+      259,
+      259
+     ],
+     "window_width": 1,
+     "log2_beta": 9.579315937580015,
+     "eps_pin": 4.22826812457424e-73,
+     "eps_cap": 6.60666894464725e-75,
+     "mult_pin": 1.0,
+     "mult_cap": 1.0,
+     "mult_worst_case_q_eq_n": 3.9423076923076925,
+     "clean_members_log2_pin": 250.0,
+     "loss_bits_pin": -0.0
+    },
+    {
+     "d": 3,
+     "beta": 765,
+     "cap": 382,
+     "window": [
+      259,
+      259
+     ],
+     "window_width": 1,
+     "log2_beta": 9.579315937580015,
+     "eps_pin": 4.22826812457424e-73,
+     "eps_cap": 6.60666894464725e-75,
+     "mult_pin": 1.0,
+     "mult_cap": 1.0,
+     "mult_worst_case_q_eq_n": 3.9423076923076925,
+     "clean_members_log2_pin": 250.0,
+     "loss_bits_pin": -0.0
+    }
+   ]
+  },
+  {
+   "name": "RowC 1/8",
+   "n": 1024,
+   "k": 128,
+   "A": 133,
+   "h": 5,
+   "band_proper": [
+    3,
+    3
+   ],
+   "nonempty": true,
+   "endpoints": [
+    {
+     "d": 3,
+     "beta": 893,
+     "cap": 446,
+     "window": [
+      131,
+      131
+     ],
+     "window_width": 1,
+     "log2_beta": 9.802516365121223,
+     "eps_pin": 4.935743052607577e-73,
+     "eps_cap": 7.712098519699339e-75,
+     "mult_pin": 1.0,
+     "mult_cap": 1.0,
+     "mult_worst_case_q_eq_n": 7.765151515151516,
+     "clean_members_log2_pin": 250.0,
+     "loss_bits_pin": -0.0
+    },
+    {
+     "d": 3,
+     "beta": 893,
+     "cap": 446,
+     "window": [
+      131,
+      131
+     ],
+     "window_width": 1,
+     "log2_beta": 9.802516365121223,
+     "eps_pin": 4.935743052607577e-73,
+     "eps_cap": 7.712098519699339e-75,
+     "mult_pin": 1.0,
+     "mult_cap": 1.0,
+     "mult_worst_case_q_eq_n": 7.765151515151516,
+     "clean_members_log2_pin": 250.0,
+     "loss_bits_pin": -0.0
+    }
+   ]
+  },
+  {
+   "name": "RowC 1/16",
+   "n": 1024,
+   "k": 64,
+   "A": 67,
+   "h": 3,
+   "band_proper": [
+    2,
+    1
+   ],
+   "nonempty": false
+  },
+  {
+   "name": "prize 1/4",
+   "n": 2199023255552,
+   "k": 549755813888,
+   "A": 558345748481,
+   "h": 8589934593,
+   "band_proper": [
+    4294967297,
+    8589934591
+   ],
+   "nonempty": true,
+   "endpoints": [
+    {
+     "d": 4294967297,
+     "beta": 383,
+     "cap": 382,
+     "window": [
+      554050781185,
+      558345748479
+     ],
+     "window_width": 4294967295,
+     "log2_beta": 8.581200581924957,
+     "eps_pin": 2.1168976362247503e-73,
+     "eps_cap": 3.3076525566011723e-75,
+     "mult_pin": 1.0,
+     "mult_cap": 1.0,
+     "mult_worst_case_q_eq_n": 1.0000000001741682,
+     "clean_members_log2_pin": 250.0,
+     "loss_bits_pin": -0.0
+    },
+    {
+     "d": 8589934591,
+     "beta": 1640677507073,
+     "cap": 820338753536,
+     "window": [
+      558345748479,
+      558345748479
+     ],
+     "window_width": 1,
+     "log2_beta": 40.57742882803663,
+     "eps_pin": 9.068267197206135e-64,
+     "eps_cap": 1.4169167495634586e-65,
+     "mult_pin": 1.0,
+     "mult_cap": 1.0,
+     "mult_worst_case_q_eq_n": 3.9384615384633292,
+     "clean_members_log2_pin": 250.0,
+     "loss_bits_pin": -0.0
+    }
+   ],
+   "target_N_d": 3.872273052731596e+24,
+   "log2_target": 81.67945496491241,
+   "log2_beta_times_target": 122.25688379294904,
+   "good_set_margin_bits_pin": 127.74311620705096,
+   "good_set_nonempty_at_pin": true
+  },
+  {
+   "name": "prize 1/8",
+   "n": 2199023255552,
+   "k": 274877906944,
+   "A": 283467841537,
+   "h": 8589934593,
+   "band_proper": [
+    4294967297,
+    8589934591
+   ],
+   "nonempty": true,
+   "endpoints": [
+    {
+     "d": 4294967297,
+     "beta": 447,
+     "cap": 446,
+     "window": [
+      279172874241,
+      283467841535
+     ],
+     "window_width": 4294967295,
+     "log2_beta": 8.804131021183318,
+     "eps_pin": 2.4706351002414187e-73,
+     "eps_cap": 3.8603673441272167e-75,
+     "mult_pin": 1.0,
+     "mult_cap": 1.0,
+     "mult_worst_case_q_eq_n": 1.000000000203272,
+     "clean_members_log2_pin": 250.0,
+     "loss_bits_pin": -0.0
+    },
+    {
+     "d": 8589934591,
+     "beta": 1915555414017,
+     "cap": 957777707008,
+     "window": [
+      283467841535,
+      283467841535
+     ],
+     "window_width": 1,
+     "log2_beta": 40.800899899921056,
+     "eps_pin": 1.0587558036527703e-63,
+     "eps_cap": 1.6543059432074536e-65,
+     "mult_pin": 1.0,
+     "mult_cap": 1.0,
+     "mult_worst_case_q_eq_n": 7.757575757579286,
+     "clean_members_log2_pin": 250.0,
+     "loss_bits_pin": -0.0
+    }
+   ],
+   "target_N_d": 3.316639204158121e+24,
+   "log2_target": 81.45599635644622,
+   "log2_beta_times_target": 122.25689625636727,
+   "good_set_margin_bits_pin": 127.74310374363273,
+   "good_set_nonempty_at_pin": true
+  },
+  {
+   "name": "prize 1/16",
+   "n": 2199023255552,
+   "k": 137438953472,
+   "A": 141733920769,
+   "h": 4294967297,
+   "band_proper": [
+    2147483649,
+    4294967295
+   ],
+   "nonempty": true,
+   "endpoints": [
+    {
+     "d": 2147483649,
+     "beta": 959,
+     "cap": 958,
+     "window": [
+      139586437121,
+      141733920767
+     ],
+     "window_width": 2147483647,
+     "log2_beta": 9.905387005018131,
+     "eps_pin": 5.3005348123747663e-73,
+     "eps_cap": 8.282085644335572e-75,
+     "mult_pin": 1.0,
+     "mult_cap": 1.0,
+     "mult_worst_case_q_eq_n": 1.0000000004361027,
+     "clean_members_log2_pin": 250.0,
+     "loss_bits_pin": -0.0
+    },
+    {
+     "d": 4294967295,
+     "beta": 2057289334785,
+     "cap": 1028644667392,
+     "window": [
+      141733920767,
+      141733920767
+     ],
+     "window_width": 1,
+     "log2_beta": 40.90388184573688,
+     "eps_pin": 1.1370942375552886e-63,
+     "eps_cap": 1.7767097461801385e-65,
+     "mult_pin": 1.0,
+     "mult_cap": 1.0,
+     "mult_worst_case_q_eq_n": 15.515151515158571,
+     "clean_members_log2_pin": 250.0,
+     "loss_bits_pin": -0.0
+    }
+   ],
+   "target_N_d": 3.189846540495538e+24,
+   "log2_target": 81.3997612967127,
+   "log2_beta_times_target": 122.30364314244957,
+   "good_set_margin_bits_pin": 127.69635685755043,
+   "good_set_nonempty_at_pin": true
+  }
+ ],
+ "checks": [
+  [
+   "A = k + h",
+   "RowC 1/4",
+   true
+  ],
+  [
+   "window non-empty",
+   "RowC 1/4 d=3",
+   true
+  ],
+  [
+   "beta_d < n (=> < q for any legal field)",
+   "RowC 1/4 d=3",
+   true
+  ],
+  [
+   "window non-empty",
+   "RowC 1/4 d=3",
+   true
+  ],
+  [
+   "beta_d < n (=> < q for any legal field)",
+   "RowC 1/4 d=3",
+   true
+  ],
+  [
+   "A = k + h",
+   "RowC 1/8",
+   true
+  ],
+  [
+   "window non-empty",
+   "RowC 1/8 d=3",
+   true
+  ],
+  [
+   "beta_d < n (=> < q for any legal field)",
+   "RowC 1/8 d=3",
+   true
+  ],
+  [
+   "window non-empty",
+   "RowC 1/8 d=3",
+   true
+  ],
+  [
+   "beta_d < n (=> < q for any legal field)",
+   "RowC 1/8 d=3",
+   true
+  ],
+  [
+   "A = k + h",
+   "RowC 1/16",
+   true
+  ],
+  [
+   "A = k + h",
+   "prize 1/4",
+   true
+  ],
+  [
+   "window non-empty",
+   "prize 1/4 d=4294967297",
+   true
+  ],
+  [
+   "beta_d < n (=> < q for any legal field)",
+   "prize 1/4 d=4294967297",
+   true
+  ],
+  [
+   "window non-empty",
+   "prize 1/4 d=8589934591",
+   true
+  ],
+  [
+   "beta_d < n (=> < q for any legal field)",
+   "prize 1/4 d=8589934591",
+   true
+  ],
+  [
+   "A = k + h",
+   "prize 1/8",
+   true
+  ],
+  [
+   "window non-empty",
+   "prize 1/8 d=4294967297",
+   true
+  ],
+  [
+   "beta_d < n (=> < q for any legal field)",
+   "prize 1/8 d=4294967297",
+   true
+  ],
+  [
+   "window non-empty",
+   "prize 1/8 d=8589934591",
+   true
+  ],
+  [
+   "beta_d < n (=> < q for any legal field)",
+   "prize 1/8 d=8589934591",
+   true
+  ],
+  [
+   "A = k + h",
+   "prize 1/16",
+   true
+  ],
+  [
+   "window non-empty",
+   "prize 1/16 d=2147483649",
+   true
+  ],
+  [
+   "beta_d < n (=> < q for any legal field)",
+   "prize 1/16 d=2147483649",
+   true
+  ],
+  [
+   "window non-empty",
+   "prize 1/16 d=4294967295",
+   true
+  ],
+  [
+   "beta_d < n (=> < q for any legal field)",
+   "prize 1/16 d=4294967295",
+   true
+  ]
+ ],
+ "verdict": "PASS"
+}

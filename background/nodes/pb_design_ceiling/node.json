@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1791,
+  "node": {
+    "id": "pb_design_ceiling",
+    "title": "P-B design ceiling: an INDEPENDENT prescribed-slope witness family realised non-degenerately has M <= (2(n-K)-1)/h <= 960 at all six official rows, so any P-B counterexample is >= 1 - 2^-23 FORCED; the independence hypothesis is load-bearing (a realised, spread, zero-collision mu_n-orbit of size 20 exceeds both ceilings) and the free-slope form is NOT proved",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "RS_K on n distinct points, A = K+h, r = n-K; C_S the shortened dual; a WITNESS is (z,S) with |S| = A and (u+zv)|_S in RS_K|_S, i.e. the h rows <c,u> + z<c,v> = 0 for c in C_S, row block G_z(C_S) of dim h; SPREAD = all pairwise |S_a ^ S_b| <= K-1. SUBTRACTION (hard law 5): the MECHANISM is banked and CITED, not re-derived -- (L1) dim(C_S ^ C_T) = max(0,|S^T|-K) at background/nodes/xr_two_slope_cost_theorem/proof.md:7-23, (L2) RS_K x RS_K in every kernel so a non-degenerate realisation forces rank <= 2(n-K)-1 at the same file :96-108, and the per-ray ceiling with the six-row values 307/358/639 / 383/447/959 at statement.md:74-91 + proof.md:110-136. LEMMA 0 (CORRECTED, inline): C_S ^ C_T = 0 iff |S^T| <= K, so SPREAD IMPLIES pairwise transversality but the CONVERSE FAILS exactly at core = K -- the P-B lane states this as an equivalence ('spread <=> pairwise-transverse condition spaces', pb_h4_hunt/REPORT.md:29), which is one-directional as written, and the gap (core exactly K) is Gamma_hi for the budget, so the distinction is load-bearing. THEOREM 1 (ceiling): if the M ray blocks are INDEPENDENT (rank = Mh) and the family is realised by (u,v) not in RS_K x RS_K, then Mh <= 2r-1, i.e. M <= floor((2r-1)/h) = 307/358/639 (RowC) and 383/447/959 (prize). COROLLARY (forcedness): in ANY realised family a maximal independent sub-family has <= 959 members, so a P-B counterexample (> 8n^3 members) has at most 960/8n^3 <= 2^-23.68 of its members independently designable -- every P-B counterexample is at least 1 - 2^-23 FORCED; per-row bit margins 24.74/24.52/23.68 (RowC) and 117.42/117.20/116.09 (prize), computed from the PROVED prescribed-slope ceiling (the pilot's 23.1-117.4 come from the free-slope number; both readings give <= ~960 and 1 - 2^-23). THEOREM 2 (free-slope form -- NOT PROVED, recorded): M <= (2r-1)/(h-1) = 383/447/959 on both triples is a DETERMINANTAL COUNT, called 'the true ceiling SHOULD be' by its own source (expC.py:352-364); the general-position step is exactly what Theorem 3 refutes; and note the banked proved table has the per-DATUM floor((2r-1)/(2h-2)) = 191/223/479 with 2*191 = 382 != 383, so the per-support form is not a corollary of the banked entry. The forcedness corollary does NOT use this form. THEOREM 3 (independence is necessary -- REFUTATION by exhibit): at n=20, q=41, K=4, h=3 the monomial pencil U = X^7, V = -X^6 on mu_20 has (all 77,520 supports scanned) 40 witnesses in 2 full mu_20-orbits, one of which is a SPREAD (max core 3 = K-1, ZERO self-collision) family of M = 20 supports with 20 DISTINCT slopes, condition rank 31 of 60 rows against 2r = 32 -- realised non-degenerately, and exceeding BOTH ceilings (10 prescribed, 15 free). Hence the ceiling bounds only independently-imposable families, never realised families as such, and 'RANK DEFICIT FORCES SELF-COLLISION' IS FALSE. Recorded, not claimed: that class buys DEFICIT WITHOUT EXCESS (40 witnesses vs mean supply 46.115). NOT claimed: any bound on |Gamma_lo|; that the ceiling discharges (H4) (it does not -- REPORT.md:63 'nothing here is proved about P-B'); L1 (banked); the free-slope ceiling (Theorem 2), which was NOT attained in the pilot's own extension test (max_greedy_spread = 12 vs 15); that the design space is exhausted (the pencil model is a 2h-dim slice of the 2(n-K)-dim word model -- the largest recorded gap); the SELECTOR CATCH (see pb_block_dichotomy). Gauge note carried: strip/genericity gates read off WORDS are vacuous under degree-<K gauge and must be stated on (alpha,beta) mod RS_K; this node is gauge-safe (it speaks only of C_S and condition rows). Provenance notes/pilots_20260802/pb_h4_hunt/{REPORT.md:14,29,31,47,48, FABLE_AUDIT.md:9-14,48}, checkpoints EXPC_lemma/rank/plant/orbit/extend.json + OFFICIAL.json.",
+    "refs": [
+      "background/nodes/pb_design_ceiling/statement.md",
+      "background/nodes/pb_design_ceiling/proof.md",
+      "background/nodes/pb_design_ceiling/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_two_slope_cost_theorem",
+      "order": 4991
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 4992
+    }
+  ],
+  "refutes": []
+}

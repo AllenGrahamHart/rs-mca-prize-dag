@@ -50,3 +50,72 @@ use; older wordings are corrected via dated node addenda, never silently.
     lying in at most two supports" => the occupancy lemma is PROVED;
     open sub-items = the zero-escape collapse (rank = 2m exactly) and
     V <= m/2 for non-collapsing systems (m = |union S| - k).
+
+## Addendum (2026-08-03): item 12', the iterated (kernel) escape form
+
+The round-7 unification pilot (audited; `notes/pilots_20260803/
+k_escape_unification/REPORT.md` U1-U5) proves item 12's one-step peel is
+the FIRST ITERATE of the full `(3, k+1)`-core operator (delete points
+covered `< 3` times AND rays holding `<= k` surviving points, to the
+greatest fixed point). Item 12' (PROVED, Corollary U5): if `h >= 2` and
+every ray of the core escapes `>= 2` points relative to `W_infinity`,
+then `rank >= 2V`. This hypothesis is implied by and strictly weaker
+than item 12's (an explicit `(T)`-clean fixture fails item 12's
+hypothesis while the conclusion holds through the core). The only
+channels that can defeat per-ray charge 2 are core rays of escape 0
+(the zero-escape collapse, the named open sub-item) and escape 1 (named
+by the pilot; whether it reaches the gate-clean admissible class is
+OPEN — flag 5 of the report).
+
+## Addendum 2 (2026-08-03, later same day): item 12' channel status update
+
+The collapse pilot settles the escape-0 channel AT `V = 4` positively
+(per-ray charge >= 2 holds there unconditionally, Prop 6 of
+`notes/pilots_20260803/zero_escape_collapse/REPORT.md`) while REFUTING
+the zero-escape collapse itself and `V <= m/2` as general statements.
+The occupancy heart's remaining open channels are exactly: (i) V >= 5
+zero-escape systems with `(V-3)t + |A_0| <= k - 1` (below the
+Corollary-3b kill threshold), and (ii) escape-1 core rays (gate-clean
+realizability OPEN, unification flag 5). Wherever this file or item 12'
+says "the zero-escape collapse, the named open sub-item", read: struck
+as a conjecture; survives only as fixture theorems.
+
+## Addendum 3 (2026-08-03, ratified): item 12' is the heart's form of record
+
+The re-pose was ratified and applied: item 12' (the iterated-core
+escape form) is now the occupancy heart's hypothesis OF RECORD in
+`critical/nodes/xr_graded_tangent_band_charge` (statement + dag text
+synced). Item 12's one-step form survives as a sufficient special
+case. Open channels of record: V >= 5 zero-escape below the Cor-3b
+threshold; escape-1 core rays.
+
+## Addendum 4 (2026-08-03): channel (i) DECIDED
+
+For the block class of record (the clique model forces disjoint
+blocks): charge >= 2 holds iff 2V <= 3h (proved both directions;
+floor rank >= 3h tight, ceiling 2m V-independent). At the prize rows
+this holds by ~1e8 — channel (i) of item 12' is CLOSED at the prize
+rows. The banked k <= 2h^2 criterion is refuted (see support-4
+addendum 3). Remaining open channel of item 12': escape-1 only
+(V >= 6 overlapping-block generality also open, but outside the model
+of record).
+
+## Addendum 5 (2026-08-03): channel (ii) resolved; the charge route re-scoped
+
+Escape-1 gate-clean core rays EXIST (unification flag 5 affirmative;
+E1 family, all-escape-1, V >= 3h forced). Protections proved: the
+3-DROP FLOOR (rank >= sum_{a not in K} h + sum_K esc_a + G3, G3 the
+best 3-subset drop — dominates the kernel floor, tight on the
+U-mechanism); charge defeat needs n_1 >= 3h-2 low-escape core rays;
+LEMMA R: rank <= 2m-1 is NECESSARY for band admissibility (rank = 2m
+kills exact-A liveness); every escape-1 counterexample found is
+band-inadmissible. CROSS-CHANNEL CATCH: the zero-escape pencil family
+at V=11 (Zfib11) passes the FULL band gate, realises with exact-A
+agreements, and has charge 0.818 — the per-ray-charge-2 route is
+FALSE for full-gate admissible systems in general; it survives at
+prize-row parameters because every known defeat class needs 2V > 3h
+or n_1 >= 3h-2, both astronomically false there. The occupancy
+lemma's conclusion and the column bound are untouched (Zfib11's own
+ledger: N_d = 0.11 n^2). Heart status: route through admissibility +
+row arithmetic; open = consolidating the general-V admissible case at
+prize rows.

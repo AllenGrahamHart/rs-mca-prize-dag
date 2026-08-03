@@ -1,0 +1,372 @@
+{
+ "rows": [
+  {
+   "name": "RowC 1/4",
+   "n": 1024,
+   "k": 256,
+   "h": 5,
+   "A": 261,
+   "tau": 259,
+   "tau_over_k": 1.01171875,
+   "tau_over_n": 0.2529296875,
+   "nu_floor_n_over_tau": 3,
+   "tau_over_johnson": 0.505859375,
+   "A_over_johnson": 0.509765625,
+   "log2_n2_budget": 19.443606651475616,
+   "log2_packing_fixed_member": 804.1813637768181,
+   "averaging_family": [
+    {
+     "j": 257,
+     "log2_bound": 556.1813637768186,
+     "beats_budget": false
+    },
+    {
+     "j": 258,
+     "log2_bound": 564.76444654432,
+     "beats_budget": false
+    },
+    {
+     "j": 259,
+     "log2_bound": 574.345647126245,
+     "beats_budget": false
+    }
+   ],
+   "averaging_best_j": {
+    "j": 257,
+    "log2_bound": 556.1813637768186,
+    "beats_budget": false
+   },
+   "averaging_monotone_in_j": true,
+   "averaging_deficit_bits": 536.7377571253429,
+   "log2_first_moment_at_tau": 62.34564712624501,
+   "johnson_fixed_member_ratio": 0.2568972120098039,
+   "global_2mom_optimistic": 0.5757608413696289,
+   "global_2mom_realistic": 0.19192028045654297,
+   "dstar_single_over_h": 0.6490061210081859,
+   "dstar_joint_over_h": 0.32350819017831883,
+   "refutes_target": true,
+   "gate_survives": true,
+   "occupancy_generically_empty_high": true
+  },
+  {
+   "name": "RowC 1/8",
+   "n": 1024,
+   "k": 128,
+   "h": 5,
+   "A": 133,
+   "tau": 131,
+   "tau_over_k": 1.0234375,
+   "tau_over_n": 0.1279296875,
+   "nu_floor_n_over_tau": 7,
+   "tau_over_johnson": 0.3618397981853036,
+   "A_over_johnson": 0.3673640699133235,
+   "log2_n2_budget": 19.443606651475616,
+   "log2_packing_fixed_member": 533.39755271628,
+   "averaging_family": [
+    {
+     "j": 129,
+     "log2_bound": 285.6199451376168,
+     "beats_budget": false
+    },
+    {
+     "j": 130,
+     "log2_bound": 294.42568900976767,
+     "beats_budget": false
+    },
+    {
+     "j": 131,
+     "log2_bound": 304.22982003095,
+     "beats_budget": false
+    }
+   ],
+   "averaging_best_j": {
+    "j": 129,
+    "log2_bound": 285.6199451376168,
+    "beats_budget": false
+   },
+   "averaging_monotone_in_j": true,
+   "averaging_deficit_bits": 266.1763384861412,
+   "log2_first_moment_at_tau": -207.77017996905,
+   "johnson_fixed_member_ratio": 0.131958968996063,
+   "global_2mom_optimistic": 0.8019342422485352,
+   "global_2mom_realistic": 0.1145620346069336,
+   "dstar_single_over_h": 0.43590425279468487,
+   "dstar_joint_over_h": 0.21676152047553562,
+   "refutes_target": false,
+   "gate_survives": true,
+   "occupancy_generically_empty_high": true
+  },
+  {
+   "name": "RowC 1/16",
+   "n": 1024,
+   "k": 64,
+   "h": 3,
+   "A": 67,
+   "tau": 66,
+   "tau_over_k": 1.03125,
+   "tau_over_n": 0.064453125,
+   "nu_floor_n_over_tau": 15,
+   "tau_over_johnson": 0.2578125,
+   "A_over_johnson": 0.26171875,
+   "log2_n2_budget": 19.443606651475616,
+   "log2_packing_fixed_member": 330.03718659989295,
+   "averaging_family": [
+    {
+     "j": 65,
+     "log2_bound": 82.94407719550213,
+     "beats_budget": false
+    },
+    {
+     "j": 66,
+     "log2_bound": 92.8494642005191,
+     "beats_budget": false
+    }
+   ],
+   "averaging_best_j": {
+    "j": 65,
+    "log2_bound": 82.94407719550213,
+    "beats_budget": false
+   },
+   "averaging_monotone_in_j": true,
+   "averaging_deficit_bits": 63.50047054402651,
+   "log2_first_moment_at_tau": -163.1505357994809,
+   "johnson_fixed_member_ratio": 0.06752232142857142,
+   "global_2mom_optimistic": 0.9346961975097656,
+   "global_2mom_realistic": 0.062313079833984375,
+   "dstar_single_over_h": 0.4509815861241769,
+   "dstar_joint_over_h": 0.2237723353346992,
+   "refutes_target": false,
+   "gate_survives": true,
+   "occupancy_generically_empty_high": true
+  },
+  {
+   "name": "prize 1/4",
+   "n": 2199023255552,
+   "k": 549755813888,
+   "h": 8589934593,
+   "A": 558345748481,
+   "tau": 554050781185,
+   "tau_over_k": 1.007812500001819,
+   "tau_over_n": 0.25195312500045475,
+   "nu_floor_n_over_tau": 3,
+   "tau_over_johnson": 0.5039062500009095,
+   "A_over_johnson": 0.5078125000009095,
+   "log2_n2_budget": 81.44360665147562,
+   "log2_packing_fixed_member": 1747734221686.1245,
+   "averaging_family": [
+    {
+     "j": 549755813889,
+     "log2_bound": 1747734221438.7144,
+     "beats_budget": false
+    },
+    {
+     "j": 549755813890,
+     "log2_bound": 1747734221447.304,
+     "beats_budget": false
+    },
+    {
+     "j": 550829555713,
+     "log2_bound": 1757163903005.2415,
+     "beats_budget": false
+    },
+    {
+     "j": 551903297537,
+     "log2_bound": 1767118950478.6848,
+     "beats_budget": false
+    },
+    {
+     "j": 554050781184,
+     "log2_bound": 1790794607429.3403,
+     "beats_budget": false
+    },
+    {
+     "j": 554050781185,
+     "log2_bound": 1790794607469.9272,
+     "beats_budget": false
+    }
+   ],
+   "averaging_best_j": {
+    "j": 549755813889,
+    "log2_bound": 1747734221438.7144,
+    "beats_budget": false
+   },
+   "averaging_monotone_in_j": true,
+   "averaging_deficit_bits": 1747734221357.2708,
+   "log2_first_moment_at_tau": 691282979693.9272,
+   "johnson_fixed_member_ratio": 0.253921508790441,
+   "global_2mom_optimistic": 0.571323394777453,
+   "global_2mom_realistic": 0.19044113159248433,
+   "dstar_single_over_h": 0.8162930003228788,
+   "dstar_joint_over_h": 0.4068938020876955,
+   "refutes_target": true,
+   "gate_survives": true,
+   "occupancy_generically_empty_high": true
+  },
+  {
+   "name": "prize 1/8",
+   "n": 2199023255552,
+   "k": 274877906944,
+   "h": 8589934593,
+   "A": 283467841537,
+   "tau": 279172874241,
+   "tau_over_k": 1.015625000003638,
+   "tau_over_n": 0.12695312500045475,
+   "nu_floor_n_over_tau": 7,
+   "tau_over_johnson": 0.35907766232257987,
+   "A_over_johnson": 0.36460193405059976,
+   "log2_n2_budget": 81.44360665147562,
+   "log2_packing_fixed_member": 1163296561048.5352,
+   "averaging_family": [
+    {
+     "j": 274877906945,
+     "log2_bound": 1163296560801.3533,
+     "beats_budget": false
+    },
+    {
+     "j": 274877906946,
+     "log2_bound": 1163296560810.1587,
+     "beats_budget": false
+    },
+    {
+     "j": 275951648769,
+     "log2_bound": 1172965106477.9683,
+     "beats_budget": false
+    },
+    {
+     "j": 277025390593,
+     "log2_bound": 1183159162309.7466,
+     "beats_budget": false
+    },
+    {
+     "j": 279172874240,
+     "log2_bound": 1207313269420.5298,
+     "beats_budget": false
+    },
+    {
+     "j": 279172874241,
+     "log2_bound": 1207313269461.3352,
+     "beats_budget": false
+    }
+   ],
+   "averaging_best_j": {
+    "j": 274877906945,
+    "log2_bound": 1163296560801.3533,
+    "beats_budget": false
+   },
+   "averaging_monotone_in_j": true,
+   "averaging_deficit_bits": 1163296560719.9097,
+   "log2_first_moment_at_tau": 107801641685.3352,
+   "johnson_fixed_member_ratio": 0.12893676757951777,
+   "global_2mom_optimistic": 0.7897377014216733,
+   "global_2mom_realistic": 0.11281967163166762,
+   "dstar_single_over_h": 0.5495608079586274,
+   "dstar_joint_over_h": 0.2732768815813562,
+   "refutes_target": true,
+   "gate_survives": true,
+   "occupancy_generically_empty_high": true
+  },
+  {
+   "name": "prize 1/16",
+   "n": 2199023255552,
+   "k": 137438953472,
+   "h": 4294967297,
+   "A": 141733920769,
+   "tau": 139586437121,
+   "tau_over_k": 1.015625000007276,
+   "tau_over_n": 0.06347656250045475,
+   "nu_floor_n_over_tau": 15,
+   "tau_over_johnson": 0.253906250001819,
+   "A_over_johnson": 0.257812500001819,
+   "log2_n2_budget": 81.44360665147562,
+   "log2_packing_fixed_member": 725701555133.7075,
+   "averaging_family": [
+    {
+     "j": 137438953473,
+     "log2_bound": 725701554887.6188,
+     "beats_budget": false
+    },
+    {
+     "j": 137438953474,
+     "log2_bound": 725701554897.5298,
+     "beats_budget": false
+    },
+    {
+     "j": 137975824385,
+     "log2_bound": 731126251736.1885,
+     "beats_budget": false
+    },
+    {
+     "j": 138512695297,
+     "log2_bound": 736813934369.263,
+     "beats_budget": false
+    },
+    {
+     "j": 139586437120,
+     "log2_bound": 750072990208.1722,
+     "beats_budget": false
+    },
+    {
+     "j": 139586437121,
+     "log2_bound": 750072990249.0841,
+     "beats_budget": false
+    }
+   ],
+   "averaging_best_j": {
+    "j": 137438953473,
+    "log2_bound": 725701554887.6188,
+    "beats_budget": false
+   },
+   "averaging_monotone_in_j": true,
+   "averaging_deficit_bits": 725701554806.1752,
+   "log2_first_moment_at_tau": 200317176361.0841,
+   "johnson_fixed_member_ratio": 0.06446838379045527,
+   "global_2mom_optimistic": 0.906586647046681,
+   "global_2mom_realistic": 0.06043910980311207,
+   "dstar_single_over_h": 0.6849901873761499,
+   "dstar_joint_over_h": 0.3398781490947853,
+   "refutes_target": true,
+   "gate_survives": true,
+   "occupancy_generically_empty_high": true
+  }
+ ],
+ "checks": [
+  [
+   "tau matches reduce.json prize 1/4",
+   true
+  ],
+  [
+   "tau matches reduce.json prize 1/8",
+   true
+  ],
+  [
+   "tau matches reduce.json prize 1/16",
+   true
+  ],
+  [
+   "lgamma vs exact packing RowC 1/4",
+   true
+  ],
+  [
+   "lgamma vs exact averaging RowC 1/4",
+   true
+  ],
+  [
+   "lgamma vs exact packing RowC 1/8",
+   true
+  ],
+  [
+   "lgamma vs exact averaging RowC 1/8",
+   true
+  ],
+  [
+   "lgamma vs exact packing RowC 1/16",
+   true
+  ],
+  [
+   "lgamma vs exact averaging RowC 1/16",
+   true
+  ]
+ ],
+ "log2q": 256.0,
+ "verdict": "PASS"
+}

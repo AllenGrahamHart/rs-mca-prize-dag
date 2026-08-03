@@ -1,0 +1,3647 @@
+{
+ "all_escape1": [
+  {
+   "V": 6,
+   "best_rank": 16,
+   "h": 4,
+   "k": 11,
+   "kplus2": 13,
+   "m": 8,
+   "max_quad": 8,
+   "p": 3,
+   "s": 2,
+   "twom": 16
+  },
+  {
+   "V": 6,
+   "best_rank": 16,
+   "h": 4,
+   "k": 15,
+   "kplus2": 17,
+   "m": 8,
+   "max_quad": 12,
+   "p": 3,
+   "s": 2,
+   "twom": 16
+  },
+  {
+   "V": 6,
+   "best_rank": 16,
+   "h": 4,
+   "k": 19,
+   "kplus2": 21,
+   "m": 8,
+   "max_quad": 16,
+   "p": 3,
+   "s": 2,
+   "twom": 16
+  },
+  {
+   "V": 6,
+   "best_rank": 16,
+   "h": 4,
+   "k": 23,
+   "kplus2": 25,
+   "m": 8,
+   "max_quad": 20,
+   "p": 3,
+   "s": 2,
+   "twom": 16
+  },
+  {
+   "V": 8,
+   "best_rank": 18,
+   "h": 4,
+   "k": 11,
+   "kplus2": 13,
+   "m": 9,
+   "max_quad": 8,
+   "p": 4,
+   "s": 2,
+   "twom": 18
+  },
+  {
+   "V": 8,
+   "best_rank": 18,
+   "h": 4,
+   "k": 15,
+   "kplus2": 17,
+   "m": 9,
+   "max_quad": 12,
+   "p": 4,
+   "s": 2,
+   "twom": 18
+  },
+  {
+   "V": 8,
+   "best_rank": 18,
+   "h": 4,
+   "k": 19,
+   "kplus2": 21,
+   "m": 9,
+   "max_quad": 16,
+   "p": 4,
+   "s": 2,
+   "twom": 18
+  },
+  {
+   "V": 8,
+   "best_rank": 18,
+   "h": 4,
+   "k": 23,
+   "kplus2": 25,
+   "m": 9,
+   "max_quad": 20,
+   "p": 4,
+   "s": 2,
+   "twom": 18
+  },
+  {
+   "V": 10,
+   "best_rank": 20,
+   "h": 4,
+   "k": 15,
+   "kplus2": 17,
+   "m": 10,
+   "max_quad": 12,
+   "p": 5,
+   "s": 2,
+   "twom": 20
+  },
+  {
+   "V": 10,
+   "best_rank": 20,
+   "h": 4,
+   "k": 19,
+   "kplus2": 21,
+   "m": 10,
+   "max_quad": 16,
+   "p": 5,
+   "s": 2,
+   "twom": 20
+  },
+  {
+   "V": 10,
+   "best_rank": 20,
+   "h": 4,
+   "k": 23,
+   "kplus2": 25,
+   "m": 10,
+   "max_quad": 20,
+   "p": 5,
+   "s": 2,
+   "twom": 20
+  },
+  {
+   "V": 12,
+   "best_rank": 22,
+   "h": 4,
+   "k": 19,
+   "kplus2": 21,
+   "m": 11,
+   "max_quad": 16,
+   "p": 6,
+   "s": 2,
+   "twom": 22
+  },
+  {
+   "V": 12,
+   "best_rank": 22,
+   "h": 4,
+   "k": 23,
+   "kplus2": 25,
+   "m": 11,
+   "max_quad": 20,
+   "p": 6,
+   "s": 2,
+   "twom": 22
+  },
+  {
+   "V": 6,
+   "best_rank": 20,
+   "h": 5,
+   "k": 11,
+   "kplus2": 13,
+   "m": 10,
+   "max_quad": 6,
+   "p": 3,
+   "s": 3,
+   "twom": 20
+  },
+  {
+   "V": 6,
+   "best_rank": 20,
+   "h": 5,
+   "k": 15,
+   "kplus2": 17,
+   "m": 10,
+   "max_quad": 10,
+   "p": 3,
+   "s": 3,
+   "twom": 20
+  },
+  {
+   "V": 6,
+   "best_rank": 20,
+   "h": 5,
+   "k": 19,
+   "kplus2": 21,
+   "m": 10,
+   "max_quad": 14,
+   "p": 3,
+   "s": 3,
+   "twom": 20
+  },
+  {
+   "V": 6,
+   "best_rank": 20,
+   "h": 5,
+   "k": 23,
+   "kplus2": 25,
+   "m": 10,
+   "max_quad": 18,
+   "p": 3,
+   "s": 3,
+   "twom": 20
+  },
+  {
+   "V": 8,
+   "best_rank": 22,
+   "h": 5,
+   "k": 19,
+   "kplus2": 21,
+   "m": 11,
+   "max_quad": 14,
+   "p": 4,
+   "s": 3,
+   "twom": 22
+  },
+  {
+   "V": 8,
+   "best_rank": 22,
+   "h": 5,
+   "k": 23,
+   "kplus2": 25,
+   "m": 11,
+   "max_quad": 18,
+   "p": 4,
+   "s": 3,
+   "twom": 22
+  },
+  {
+   "V": 10,
+   "best_rank": 24,
+   "h": 5,
+   "k": 23,
+   "kplus2": 25,
+   "m": 12,
+   "max_quad": 18,
+   "p": 5,
+   "s": 3,
+   "twom": 24
+  },
+  {
+   "V": 6,
+   "best_rank": 22,
+   "h": 6,
+   "k": 11,
+   "kplus2": 13,
+   "m": 11,
+   "max_quad": 7,
+   "p": 3,
+   "s": 3,
+   "twom": 22
+  },
+  {
+   "V": 6,
+   "best_rank": 22,
+   "h": 6,
+   "k": 15,
+   "kplus2": 17,
+   "m": 11,
+   "max_quad": 11,
+   "p": 3,
+   "s": 3,
+   "twom": 22
+  },
+  {
+   "V": 6,
+   "best_rank": 22,
+   "h": 6,
+   "k": 19,
+   "kplus2": 21,
+   "m": 11,
+   "max_quad": 15,
+   "p": 3,
+   "s": 3,
+   "twom": 22
+  },
+  {
+   "V": 6,
+   "best_rank": 22,
+   "h": 6,
+   "k": 23,
+   "kplus2": 25,
+   "m": 11,
+   "max_quad": 19,
+   "p": 3,
+   "s": 3,
+   "twom": 22
+  },
+  {
+   "V": 8,
+   "best_rank": 24,
+   "h": 6,
+   "k": 19,
+   "kplus2": 21,
+   "m": 12,
+   "max_quad": 15,
+   "p": 4,
+   "s": 3,
+   "twom": 24
+  },
+  {
+   "V": 8,
+   "best_rank": 24,
+   "h": 6,
+   "k": 23,
+   "kplus2": 25,
+   "m": 12,
+   "max_quad": 19,
+   "p": 4,
+   "s": 3,
+   "twom": 24
+  },
+  {
+   "V": 10,
+   "best_rank": 26,
+   "h": 6,
+   "k": 23,
+   "kplus2": 25,
+   "m": 13,
+   "max_quad": 19,
+   "p": 5,
+   "s": 3,
+   "twom": 26
+  },
+  {
+   "V": 6,
+   "best_rank": 24,
+   "h": 6,
+   "k": 15,
+   "kplus2": 17,
+   "m": 12,
+   "max_quad": 8,
+   "p": 3,
+   "s": 4,
+   "twom": 24
+  },
+  {
+   "V": 6,
+   "best_rank": 24,
+   "h": 6,
+   "k": 19,
+   "kplus2": 21,
+   "m": 12,
+   "max_quad": 12,
+   "p": 3,
+   "s": 4,
+   "twom": 24
+  },
+  {
+   "V": 6,
+   "best_rank": 24,
+   "h": 6,
+   "k": 23,
+   "kplus2": 25,
+   "m": 12,
+   "max_quad": 16,
+   "p": 3,
+   "s": 4,
+   "twom": 24
+  },
+  {
+   "V": 8,
+   "best_rank": 26,
+   "h": 6,
+   "k": 23,
+   "kplus2": 25,
+   "m": 13,
+   "max_quad": 16,
+   "p": 4,
+   "s": 4,
+   "twom": 26
+  }
+ ],
+ "all_escape1_deficits": [],
+ "checks": [
+  {
+   "detail": "12",
+   "label": "agreement oracle == brute force on 12 random words (n=11,k=4)",
+   "ok": true
+  },
+  {
+   "detail": "8 vs 8",
+   "label": "planted 3-error word decodes exactly (trial 0)",
+   "ok": true
+  },
+  {
+   "detail": "8 vs 8",
+   "label": "planted 3-error word decodes exactly (trial 1)",
+   "ok": true
+  },
+  {
+   "detail": "8 vs 8",
+   "label": "planted 3-error word decodes exactly (trial 2)",
+   "ok": true
+  },
+  {
+   "detail": "8 vs 8",
+   "label": "planted 3-error word decodes exactly (trial 3)",
+   "ok": true
+  },
+  {
+   "detail": "8 vs 8",
+   "label": "planted 3-error word decodes exactly (trial 4)",
+   "ok": true
+  },
+  {
+   "detail": "8 vs 8",
+   "label": "planted 3-error word decodes exactly (trial 5)",
+   "ok": true
+  },
+  {
+   "detail": "oracle == brute force on all trials",
+   "label": "FALSIFIER LB-F9",
+   "ok": true
+  },
+  {
+   "detail": "1 vs 1 (rank 9, m 5, n 22)",
+   "label": "Zfib11: LEMMA R  dim(realisers)-2k-2(n-|U|) = 2m - rank",
+   "ok": true
+  },
+  {
+   "detail": "2 vs 2 (rank 16, m 9, n 31)",
+   "label": "E1P: LEMMA R  dim(realisers)-2k-2(n-|U|) = 2m - rank",
+   "ok": true
+  },
+  {
+   "detail": "3 vs 3 (rank 19, m 11, n 17)",
+   "label": "X1p: LEMMA R  dim(realisers)-2k-2(n-|U|) = 2m - rank",
+   "ok": true
+  },
+  {
+   "detail": "LEMMA R identity holds on all three",
+   "label": "FALSIFIER LB-F8",
+   "ok": true
+  },
+  {
+   "detail": "[1, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+   "label": "E1P: escape vector (1,0,...,0)",
+   "ok": true
+  },
+  {
+   "detail": "([0], [0])",
+   "label": "E1P: the escaped point is the private (mult-1) point",
+   "ok": true
+  },
+  {
+   "detail": "[2]",
+   "label": "E1P: exactly one point was removed from the unperturbed support",
+   "ok": true
+  },
+  {
+   "detail": "12",
+   "label": "E1P: nondegenerate realisers drawn",
+   "ok": true
+  },
+  {
+   "detail": "[]",
+   "label": "E1P: realiser agrees on all of S_0 (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[]",
+   "label": "E1P: realiser agrees on all of S_0 (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[]",
+   "label": "E1P: realiser agrees on all of S_0 (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[]",
+   "label": "E1P: realiser agrees on all of S_0 (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[]",
+   "label": "E1P: realiser agrees on all of S_0 (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[]",
+   "label": "E1P: realiser agrees on all of S_0 (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[]",
+   "label": "E1P: realiser agrees on all of S_0 (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[]",
+   "label": "E1P: realiser agrees on all of S_0 (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[]",
+   "label": "E1P: realiser agrees on all of S_0 (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[]",
+   "label": "E1P: realiser agrees on all of S_0 (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[]",
+   "label": "E1P: realiser agrees on all of S_0 (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[]",
+   "label": "E1P: realiser agrees on all of S_0 (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "(12, 0, 12)",
+   "label": "E1P: EVERY nondegenerate realiser over-agrees on the escape-1 ray",
+   "ok": true
+  },
+  {
+   "detail": "([2], 2)",
+   "label": "P1: the extra agreement point is exactly the REMOVED point x0",
+   "ok": true
+  },
+  {
+   "detail": "12 draws, all A+1",
+   "label": "FALSIFIER LB-F3",
+   "ok": true
+  },
+  {
+   "detail": "(47, 46)",
+   "label": "E1P: dropping the PRIVATE escaped point's condition adds exactly the one free direction at that point",
+   "ok": true
+  },
+  {
+   "detail": "(45, 45)",
+   "label": "LEMMA P (private-point freedom): away from the private point the two realiser spaces coincide",
+   "ok": true
+  },
+  {
+   "detail": "([2], 2)",
+   "label": "E1P: x0 is a FORCED over-agreement point (Psi_x0 = 0 on all of R)",
+   "ok": true
+  },
+  {
+   "detail": "8",
+   "label": "THEOREM F [q=31,d=3,V=10,h=5]: m = d + h",
+   "ok": true
+  },
+  {
+   "detail": "1 vs 1",
+   "label": "THEOREM F [q=31,d=3,V=10,h=5]: dim Ann = prediction",
+   "ok": true
+  },
+  {
+   "detail": "[1, 1, 1]",
+   "label": "THEOREM F [q=31,d=3,V=10,h=5]: any 3 rays pin Ann",
+   "ok": true
+  },
+  {
+   "detail": "8",
+   "label": "THEOREM F [q=31,d=3,V=6,h=5]: m = d + h",
+   "ok": true
+  },
+  {
+   "detail": "1 vs 1",
+   "label": "THEOREM F [q=31,d=3,V=6,h=5]: dim Ann = prediction",
+   "ok": true
+  },
+  {
+   "detail": "[1, 1, 1]",
+   "label": "THEOREM F [q=31,d=3,V=6,h=5]: any 3 rays pin Ann",
+   "ok": true
+  },
+  {
+   "detail": "7",
+   "label": "THEOREM F [q=31,d=3,V=5,h=4]: m = d + h",
+   "ok": true
+  },
+  {
+   "detail": "2 vs 2",
+   "label": "THEOREM F [q=31,d=3,V=5,h=4]: dim Ann = prediction",
+   "ok": true
+  },
+  {
+   "detail": "[2, 2, 2]",
+   "label": "THEOREM F [q=31,d=3,V=5,h=4]: any 3 rays pin Ann",
+   "ok": true
+  },
+  {
+   "detail": "5",
+   "label": "THEOREM F [q=31,d=2,V=11,h=3]: m = d + h",
+   "ok": true
+  },
+  {
+   "detail": "1 vs 1",
+   "label": "THEOREM F [q=31,d=2,V=11,h=3]: dim Ann = prediction",
+   "ok": true
+  },
+  {
+   "detail": "[1, 1, 1]",
+   "label": "THEOREM F [q=31,d=2,V=11,h=3]: any 3 rays pin Ann",
+   "ok": true
+  },
+  {
+   "detail": "5",
+   "label": "THEOREM F [q=31,d=2,V=8,h=3]: m = d + h",
+   "ok": true
+  },
+  {
+   "detail": "1 vs 1",
+   "label": "THEOREM F [q=31,d=2,V=8,h=3]: dim Ann = prediction",
+   "ok": true
+  },
+  {
+   "detail": "[1, 1, 1]",
+   "label": "THEOREM F [q=31,d=2,V=8,h=3]: any 3 rays pin Ann",
+   "ok": true
+  },
+  {
+   "detail": "11",
+   "label": "THEOREM F [q=31,d=5,V=6,h=6]: m = d + h",
+   "ok": true
+  },
+  {
+   "detail": "4 vs 4",
+   "label": "THEOREM F [q=31,d=5,V=6,h=6]: dim Ann = prediction",
+   "ok": true
+  },
+  {
+   "detail": "[4, 4, 4]",
+   "label": "THEOREM F [q=31,d=5,V=6,h=6]: any 3 rays pin Ann",
+   "ok": true
+  },
+  {
+   "detail": "10",
+   "label": "THEOREM F [q=17,d=4,V=4,h=6]: m = d + h",
+   "ok": true
+  },
+  {
+   "detail": "2 vs 2",
+   "label": "THEOREM F [q=17,d=4,V=4,h=6]: dim Ann = prediction",
+   "ok": true
+  },
+  {
+   "detail": "[2, 2, 2]",
+   "label": "THEOREM F [q=17,d=4,V=4,h=6]: any 3 rays pin Ann",
+   "ok": true
+  },
+  {
+   "detail": "5",
+   "label": "THEOREM F [q=17,d=2,V=8,h=3]: m = d + h",
+   "ok": true
+  },
+  {
+   "detail": "1 vs 1",
+   "label": "THEOREM F [q=17,d=2,V=8,h=3]: dim Ann = prediction",
+   "ok": true
+  },
+  {
+   "detail": "[1, 1, 1]",
+   "label": "THEOREM F [q=17,d=2,V=8,h=3]: any 3 rays pin Ann",
+   "ok": true
+  },
+  {
+   "detail": "7",
+   "label": "THEOREM F [q=19,d=3,V=6,h=4]: m = d + h",
+   "ok": true
+  },
+  {
+   "detail": "2 vs 2",
+   "label": "THEOREM F [q=19,d=3,V=6,h=4]: dim Ann = prediction",
+   "ok": true
+  },
+  {
+   "detail": "[2, 2, 2]",
+   "label": "THEOREM F [q=19,d=3,V=6,h=4]: any 3 rays pin Ann",
+   "ok": true
+  },
+  {
+   "detail": "5",
+   "label": "THEOREM F [q=19,d=2,V=9,h=3]: m = d + h",
+   "ok": true
+  },
+  {
+   "detail": "1 vs 1",
+   "label": "THEOREM F [q=19,d=2,V=9,h=3]: dim Ann = prediction",
+   "ok": true
+  },
+  {
+   "detail": "[1, 1, 1]",
+   "label": "THEOREM F [q=19,d=2,V=9,h=3]: any 3 rays pin Ann",
+   "ok": true
+  },
+  {
+   "detail": "9",
+   "label": "THEOREM F [q=37,d=4,V=9,h=5]: m = d + h",
+   "ok": true
+  },
+  {
+   "detail": "3 vs 3",
+   "label": "THEOREM F [q=37,d=4,V=9,h=5]: dim Ann = prediction",
+   "ok": true
+  },
+  {
+   "detail": "[3, 3, 3]",
+   "label": "THEOREM F [q=37,d=4,V=9,h=5]: any 3 rays pin Ann",
+   "ok": true
+  },
+  {
+   "detail": "7",
+   "label": "THEOREM F [q=37,d=3,V=8,h=4]: m = d + h",
+   "ok": true
+  },
+  {
+   "detail": "2 vs 2",
+   "label": "THEOREM F [q=37,d=3,V=8,h=4]: dim Ann = prediction",
+   "ok": true
+  },
+  {
+   "detail": "[2, 2, 2]",
+   "label": "THEOREM F [q=37,d=3,V=8,h=4]: any 3 rays pin Ann",
+   "ok": true
+  },
+  {
+   "detail": "10",
+   "label": "THEOREM F [q=41,d=4,V=10,h=6]: m = d + h",
+   "ok": true
+  },
+  {
+   "detail": "2 vs 2",
+   "label": "THEOREM F [q=41,d=4,V=10,h=6]: dim Ann = prediction",
+   "ok": true
+  },
+  {
+   "detail": "[2, 2, 2]",
+   "label": "THEOREM F [q=41,d=4,V=10,h=6]: any 3 rays pin Ann",
+   "ok": true
+  },
+  {
+   "detail": "14",
+   "label": "THEOREM F [q=43,d=6,V=7,h=8]: m = d + h",
+   "ok": true
+  },
+  {
+   "detail": "4 vs 4",
+   "label": "THEOREM F [q=43,d=6,V=7,h=8]: dim Ann = prediction",
+   "ok": true
+  },
+  {
+   "detail": "[4, 4, 4]",
+   "label": "THEOREM F [q=43,d=6,V=7,h=8]: any 3 rays pin Ann",
+   "ok": true
+  },
+  {
+   "detail": "9",
+   "label": "THEOREM F [q=29,d=4,V=7,h=5]: m = d + h",
+   "ok": true
+  },
+  {
+   "detail": "3 vs 3",
+   "label": "THEOREM F [q=29,d=4,V=7,h=5]: dim Ann = prediction",
+   "ok": true
+  },
+  {
+   "detail": "[3, 3, 3]",
+   "label": "THEOREM F [q=29,d=4,V=7,h=5]: any 3 rays pin Ann",
+   "ok": true
+  },
+  {
+   "detail": "15",
+   "label": "THEOREM F [q=29,d=7,V=4,h=8]: m = d + h",
+   "ok": true
+  },
+  {
+   "detail": "6 vs 6",
+   "label": "THEOREM F [q=29,d=7,V=4,h=8]: dim Ann = prediction",
+   "ok": true
+  },
+  {
+   "detail": "[6, 6, 6]",
+   "label": "THEOREM F [q=29,d=7,V=4,h=8]: any 3 rays pin Ann",
+   "ok": true
+  },
+  {
+   "detail": "16",
+   "label": "THEOREM F tested on >= 10 group-fibre members",
+   "ok": true
+  },
+  {
+   "detail": "16 members, prediction and pinning",
+   "label": "FALSIFIER LB-F4",
+   "ok": true
+  },
+  {
+   "detail": "([4], 4)",
+   "label": "COROLLARY F1 [q=31,d=3,V=10,h=5]: x0 forced",
+   "ok": true
+  },
+  {
+   "detail": "(4, 4)",
+   "label": "COROLLARY F1 [q=31,d=3,V=10,h=5]: every draw over-agrees",
+   "ok": true
+  },
+  {
+   "detail": "(45, 45)",
+   "label": "COROLLARY F1 [q=31,d=3,V=10,h=5]: LEMMA P -- away from the private point the realiser spaces coincide",
+   "ok": true
+  },
+  {
+   "detail": "(47, 46)",
+   "label": "COROLLARY F1 [q=31,d=3,V=10,h=5]: private point adds exactly one free direction",
+   "ok": true
+  },
+  {
+   "detail": "([4], 4)",
+   "label": "COROLLARY F1 [q=31,d=3,V=6,h=5]: x0 forced",
+   "ok": true
+  },
+  {
+   "detail": "(4, 4)",
+   "label": "COROLLARY F1 [q=31,d=3,V=6,h=5]: every draw over-agrees",
+   "ok": true
+  },
+  {
+   "detail": "(45, 45)",
+   "label": "COROLLARY F1 [q=31,d=3,V=6,h=5]: LEMMA P -- away from the private point the realiser spaces coincide",
+   "ok": true
+  },
+  {
+   "detail": "(47, 46)",
+   "label": "COROLLARY F1 [q=31,d=3,V=6,h=5]: private point adds exactly one free direction",
+   "ok": true
+  },
+  {
+   "detail": "([7], 7)",
+   "label": "COROLLARY F1 [q=31,d=5,V=6,h=6]: x0 forced",
+   "ok": true
+  },
+  {
+   "detail": "(42, 42)",
+   "label": "COROLLARY F1 [q=31,d=5,V=6,h=6]: LEMMA P -- away from the private point the realiser spaces coincide",
+   "ok": true
+  },
+  {
+   "detail": "(44, 43)",
+   "label": "COROLLARY F1 [q=31,d=5,V=6,h=6]: private point adds exactly one free direction",
+   "ok": true
+  },
+  {
+   "detail": "([6], 6)",
+   "label": "COROLLARY F1 [q=17,d=4,V=4,h=6]: x0 forced",
+   "ok": true
+  },
+  {
+   "detail": "(4, 4)",
+   "label": "COROLLARY F1 [q=17,d=4,V=4,h=6]: every draw over-agrees",
+   "ok": true
+  },
+  {
+   "detail": "(14, 14)",
+   "label": "COROLLARY F1 [q=17,d=4,V=4,h=6]: LEMMA P -- away from the private point the realiser spaces coincide",
+   "ok": true
+  },
+  {
+   "detail": "(16, 15)",
+   "label": "COROLLARY F1 [q=17,d=4,V=4,h=6]: private point adds exactly one free direction",
+   "ok": true
+  },
+  {
+   "detail": "([4], 4)",
+   "label": "COROLLARY F1 [q=19,d=3,V=6,h=4]: x0 forced",
+   "ok": true
+  },
+  {
+   "detail": "(4, 4)",
+   "label": "COROLLARY F1 [q=19,d=3,V=6,h=4]: every draw over-agrees",
+   "ok": true
+  },
+  {
+   "detail": "(24, 24)",
+   "label": "COROLLARY F1 [q=19,d=3,V=6,h=4]: LEMMA P -- away from the private point the realiser spaces coincide",
+   "ok": true
+  },
+  {
+   "detail": "(26, 25)",
+   "label": "COROLLARY F1 [q=19,d=3,V=6,h=4]: private point adds exactly one free direction",
+   "ok": true
+  },
+  {
+   "detail": "([3], 3)",
+   "label": "COROLLARY F1 [q=37,d=4,V=9,h=5]: x0 forced",
+   "ok": true
+  },
+  {
+   "detail": "(57, 57)",
+   "label": "COROLLARY F1 [q=37,d=4,V=9,h=5]: LEMMA P -- away from the private point the realiser spaces coincide",
+   "ok": true
+  },
+  {
+   "detail": "(59, 58)",
+   "label": "COROLLARY F1 [q=37,d=4,V=9,h=5]: private point adds exactly one free direction",
+   "ok": true
+  },
+  {
+   "detail": "([8], 8)",
+   "label": "COROLLARY F1 [q=29,d=4,V=7,h=5]: x0 forced",
+   "ok": true
+  },
+  {
+   "detail": "(41, 41)",
+   "label": "COROLLARY F1 [q=29,d=4,V=7,h=5]: LEMMA P -- away from the private point the realiser spaces coincide",
+   "ok": true
+  },
+  {
+   "detail": "(43, 42)",
+   "label": "COROLLARY F1 [q=29,d=4,V=7,h=5]: private point adds exactly one free direction",
+   "ok": true
+  },
+  {
+   "detail": "7",
+   "label": "COROLLARY F1 tested on >= 3 perturbed members",
+   "ok": true
+  },
+  {
+   "detail": "[3, 4, 24]",
+   "label": "COROLLARY F2 [q=31,d=3,V=10,h=5]: the perturbed ray has a FORCED over-agreement point",
+   "ok": true
+  },
+  {
+   "detail": "(10, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0])",
+   "label": "LEMMA V4 [q=31,d=3,V=10,h=5]: a one-point perturbation creates an escape only when V <= 4",
+   "ok": true
+  },
+  {
+   "detail": "[3, 4, 24]",
+   "label": "COROLLARY F2 [q=31,d=3,V=6,h=5]: the perturbed ray has a FORCED over-agreement point",
+   "ok": true
+  },
+  {
+   "detail": "(6, [0, 0, 0, 0, 0, 0])",
+   "label": "LEMMA V4 [q=31,d=3,V=6,h=5]: a one-point perturbation creates an escape only when V <= 4",
+   "ok": true
+  },
+  {
+   "detail": "[6]",
+   "label": "COROLLARY F2 [q=31,d=5,V=6,h=6]: the perturbed ray has a FORCED over-agreement point",
+   "ok": true
+  },
+  {
+   "detail": "(3, 3)",
+   "label": "COROLLARY F2 [q=31,d=5,V=6,h=6]: every realiser over-agrees on the perturbed ray",
+   "ok": true
+  },
+  {
+   "detail": "(6, [0, 0, 0, 0, 0, 0])",
+   "label": "LEMMA V4 [q=31,d=5,V=6,h=6]: a one-point perturbation creates an escape only when V <= 4",
+   "ok": true
+  },
+  {
+   "detail": "[5]",
+   "label": "COROLLARY F2 [q=17,d=4,V=4,h=6]: the perturbed ray has a FORCED over-agreement point",
+   "ok": true
+  },
+  {
+   "detail": "(3, 3)",
+   "label": "COROLLARY F2 [q=17,d=4,V=4,h=6]: every realiser over-agrees on the perturbed ray",
+   "ok": true
+  },
+  {
+   "detail": "(4, [0, 0, 1, 1])",
+   "label": "LEMMA V4 [q=17,d=4,V=4,h=6]: a one-point perturbation creates an escape only when V <= 4",
+   "ok": true
+  },
+  {
+   "detail": "[3]",
+   "label": "COROLLARY F2 [q=19,d=3,V=6,h=4]: the perturbed ray has a FORCED over-agreement point",
+   "ok": true
+  },
+  {
+   "detail": "(3, 3)",
+   "label": "COROLLARY F2 [q=19,d=3,V=6,h=4]: every realiser over-agrees on the perturbed ray",
+   "ok": true
+  },
+  {
+   "detail": "(6, [0, 0, 0, 0, 0, 0])",
+   "label": "LEMMA V4 [q=19,d=3,V=6,h=4]: a one-point perturbation creates an escape only when V <= 4",
+   "ok": true
+  },
+  {
+   "detail": "[2]",
+   "label": "COROLLARY F2 [q=37,d=4,V=9,h=5]: the perturbed ray has a FORCED over-agreement point",
+   "ok": true
+  },
+  {
+   "detail": "(3, 3)",
+   "label": "COROLLARY F2 [q=37,d=4,V=9,h=5]: every realiser over-agrees on the perturbed ray",
+   "ok": true
+  },
+  {
+   "detail": "(9, [0, 0, 0, 0, 0, 0, 0, 0, 0])",
+   "label": "LEMMA V4 [q=37,d=4,V=9,h=5]: a one-point perturbation creates an escape only when V <= 4",
+   "ok": true
+  },
+  {
+   "detail": "[7]",
+   "label": "COROLLARY F2 [q=29,d=4,V=7,h=5]: the perturbed ray has a FORCED over-agreement point",
+   "ok": true
+  },
+  {
+   "detail": "(3, 3)",
+   "label": "COROLLARY F2 [q=29,d=4,V=7,h=5]: every realiser over-agrees on the perturbed ray",
+   "ok": true
+  },
+  {
+   "detail": "(7, [0, 0, 0, 0, 0, 0, 0])",
+   "label": "LEMMA V4 [q=29,d=4,V=7,h=5]: a one-point perturbation creates an escape only when V <= 4",
+   "ok": true
+  },
+  {
+   "detail": "[7, 29]",
+   "label": "COROLLARY F2 [q=31,d=2,V=11,h=3]: the perturbed ray has a FORCED over-agreement point",
+   "ok": true
+  },
+  {
+   "detail": "(11, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])",
+   "label": "LEMMA V4 [q=31,d=2,V=11,h=3]: a one-point perturbation creates an escape only when V <= 4",
+   "ok": true
+  },
+  {
+   "detail": "[10]",
+   "label": "COROLLARY F2 [q=41,d=4,V=10,h=6]: the perturbed ray has a FORCED over-agreement point",
+   "ok": true
+  },
+  {
+   "detail": "(3, 3)",
+   "label": "COROLLARY F2 [q=41,d=4,V=10,h=6]: every realiser over-agrees on the perturbed ray",
+   "ok": true
+  },
+  {
+   "detail": "(10, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0])",
+   "label": "LEMMA V4 [q=41,d=4,V=10,h=6]: a one-point perturbation creates an escape only when V <= 4",
+   "ok": true
+  },
+  {
+   "detail": "[8]",
+   "label": "COROLLARY F2 [q=43,d=6,V=7,h=8]: the perturbed ray has a FORCED over-agreement point",
+   "ok": true
+  },
+  {
+   "detail": "(7, [0, 0, 0, 0, 0, 0, 0])",
+   "label": "LEMMA V4 [q=43,d=6,V=7,h=8]: a one-point perturbation creates an escape only when V <= 4",
+   "ok": true
+  },
+  {
+   "detail": "10",
+   "label": "COROLLARY F2 tested on >= 5 members",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(17,6,4): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(17,6,4): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(17,6,4): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(17,6,4): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(17,6,4): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(17,6,4): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(17,6,4): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(17,6,4): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(17,6,4): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(17,6,4): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "X1p(17,6,4): gate-clean escape-1 core rays [1, 2] are exact-A under a nondegenerate realiser (profiles [(14, 12, 12, 12), (13, 12, 12, 12)])",
+   "label": "FALSIFIER LB-F2",
+   "ok": false
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(13,4,3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(13,4,3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(13,4,3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(13,4,3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(13,4,3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(13,4,3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(13,4,3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(13,4,3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(13,4,3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X1p(13,4,3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "X1p(13,4,3): gate-clean escape-1 core rays [1, 2] are exact-A under a nondegenerate realiser (profiles [(10, 9, 9, 9), (10, 9, 9, 9)])",
+   "label": "FALSIFIER LB-F2",
+   "ok": false
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X0(17,6,4) unperturbed: realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X0(17,6,4) unperturbed: realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X0(17,6,4) unperturbed: realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X0(17,6,4) unperturbed: realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X0(17,6,4) unperturbed: realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X0(17,6,4) unperturbed: realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X0(13,4,3) unperturbed: realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X0(13,4,3) unperturbed: realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X0(13,4,3) unperturbed: realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X0(13,4,3) unperturbed: realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X0(13,4,3) unperturbed: realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "X0(13,4,3) unperturbed: realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=1): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=1): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=1): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=1): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=1): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=1): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=1): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=1): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=1): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=1): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "SWAP(17,6,4,victim=1): gate-clean escape-1 core rays [2, 3] are exact-A under a nondegenerate realiser (profiles [(13, 12, 12, 12), (13, 12, 12, 12)])",
+   "label": "FALSIFIER LB-F2",
+   "ok": false
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=2): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=2): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=2): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=2): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=2): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=2): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=2): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=2): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=2): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=2): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "SWAP(17,6,4,victim=2): gate-clean escape-1 core rays [1, 3] are exact-A under a nondegenerate realiser (profiles [(13, 12, 12, 12), (13, 12, 12, 12)])",
+   "label": "FALSIFIER LB-F2",
+   "ok": false
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "[[], [], [], []]",
+   "label": "SWAP(17,6,4,victim=3): realiser agrees on every S_a (construction guarantee)",
+   "ok": true
+  },
+  {
+   "detail": "SWAP(17,6,4,victim=3): gate-clean escape-1 core rays [1, 2] are exact-A under a nondegenerate realiser (profiles [(13, 12, 12, 12), (13, 12, 12, 12)])",
+   "label": "FALSIFIER LB-F2",
+   "ok": false
+  },
+  {
+   "detail": "(8, 13)",
+   "label": "E1 shape (h=4,s=2,p=3,k=11): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(12, 17)",
+   "label": "E1 shape (h=4,s=2,p=3,k=15): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(16, 21)",
+   "label": "E1 shape (h=4,s=2,p=3,k=19): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(20, 25)",
+   "label": "E1 shape (h=4,s=2,p=3,k=23): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(8, 13)",
+   "label": "E1 shape (h=4,s=2,p=4,k=11): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(12, 17)",
+   "label": "E1 shape (h=4,s=2,p=4,k=15): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(16, 21)",
+   "label": "E1 shape (h=4,s=2,p=4,k=19): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(20, 25)",
+   "label": "E1 shape (h=4,s=2,p=4,k=23): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(12, 17)",
+   "label": "E1 shape (h=4,s=2,p=5,k=15): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(16, 21)",
+   "label": "E1 shape (h=4,s=2,p=5,k=19): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(20, 25)",
+   "label": "E1 shape (h=4,s=2,p=5,k=23): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(16, 21)",
+   "label": "E1 shape (h=4,s=2,p=6,k=19): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(20, 25)",
+   "label": "E1 shape (h=4,s=2,p=6,k=23): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(6, 13)",
+   "label": "E1 shape (h=5,s=3,p=3,k=11): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(10, 17)",
+   "label": "E1 shape (h=5,s=3,p=3,k=15): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(14, 21)",
+   "label": "E1 shape (h=5,s=3,p=3,k=19): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(18, 25)",
+   "label": "E1 shape (h=5,s=3,p=3,k=23): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(14, 21)",
+   "label": "E1 shape (h=5,s=3,p=4,k=19): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(18, 25)",
+   "label": "E1 shape (h=5,s=3,p=4,k=23): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(18, 25)",
+   "label": "E1 shape (h=5,s=3,p=5,k=23): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(7, 13)",
+   "label": "E1 shape (h=6,s=3,p=3,k=11): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(11, 17)",
+   "label": "E1 shape (h=6,s=3,p=3,k=15): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(15, 21)",
+   "label": "E1 shape (h=6,s=3,p=3,k=19): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(19, 25)",
+   "label": "E1 shape (h=6,s=3,p=3,k=23): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(15, 21)",
+   "label": "E1 shape (h=6,s=3,p=4,k=19): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(19, 25)",
+   "label": "E1 shape (h=6,s=3,p=4,k=23): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(19, 25)",
+   "label": "E1 shape (h=6,s=3,p=5,k=23): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(8, 17)",
+   "label": "E1 shape (h=6,s=4,p=3,k=15): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(12, 21)",
+   "label": "E1 shape (h=6,s=4,p=3,k=19): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(16, 25)",
+   "label": "E1 shape (h=6,s=4,p=3,k=23): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "(16, 25)",
+   "label": "E1 shape (h=6,s=4,p=4,k=23): 4-wise intersection < k+2, so NO support-4 relation exists",
+   "ok": true
+  },
+  {
+   "detail": "434",
+   "label": "all-escape-1 shape scan ran",
+   "ok": true
+  },
+  {
+   "detail": "434 tuples, no rank deficit",
+   "label": "FALSIFIER LB-F7",
+   "ok": true
+  }
+ ],
+ "fails": [],
+ "falsifiers_fired": [
+  "LB-F2"
+ ],
+ "fixtures": [
+  {
+   "dim_Ann": 2,
+   "draws": 12,
+   "escapes": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "exact_A": 0,
+   "forced": [
+    2
+   ],
+   "h": 5,
+   "k": 22,
+   "m": 9,
+   "n": 31,
+   "name": "E1P",
+   "over": 12,
+   "rank": 16,
+   "x0": 2,
+   "y": 0
+  },
+  {
+   "V": 10,
+   "d": 3,
+   "dimA": 46,
+   "dimR": 47,
+   "draws": 4,
+   "escapes": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "forced": [
+    4
+   ],
+   "h": 5,
+   "k": 22,
+   "n": 31,
+   "name": "gfib(31,3,10,5)+perturb",
+   "over": 4,
+   "q": 31,
+   "x0": 4,
+   "y": 0
+  },
+  {
+   "V": 6,
+   "d": 3,
+   "dimA": 46,
+   "dimR": 47,
+   "draws": 4,
+   "escapes": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "forced": [
+    4
+   ],
+   "h": 5,
+   "k": 22,
+   "n": 31,
+   "name": "gfib(31,3,6,5)+perturb",
+   "over": 4,
+   "q": 31,
+   "x0": 4,
+   "y": 0
+  },
+  {
+   "V": 6,
+   "d": 5,
+   "dimA": 43,
+   "dimR": 44,
+   "draws": 0,
+   "escapes": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "forced": [
+    7
+   ],
+   "h": 6,
+   "k": 19,
+   "n": 31,
+   "name": "gfib(31,5,6,6)+perturb",
+   "over": 0,
+   "q": 31,
+   "x0": 7,
+   "y": 0
+  },
+  {
+   "V": 4,
+   "d": 4,
+   "dimA": 15,
+   "dimR": 16,
+   "draws": 4,
+   "escapes": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "forced": [
+    6
+   ],
+   "h": 6,
+   "k": 6,
+   "n": 17,
+   "name": "gfib(17,4,4,6)+perturb",
+   "over": 4,
+   "q": 17,
+   "x0": 6,
+   "y": 0
+  },
+  {
+   "V": 6,
+   "d": 3,
+   "dimA": 25,
+   "dimR": 26,
+   "draws": 4,
+   "escapes": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "forced": [
+    4
+   ],
+   "h": 4,
+   "k": 11,
+   "n": 19,
+   "name": "gfib(19,3,6,4)+perturb",
+   "over": 4,
+   "q": 19,
+   "x0": 4,
+   "y": 0
+  },
+  {
+   "V": 9,
+   "d": 4,
+   "dimA": 58,
+   "dimR": 59,
+   "draws": 0,
+   "escapes": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "forced": [
+    3
+   ],
+   "h": 5,
+   "k": 27,
+   "n": 37,
+   "name": "gfib(37,4,9,5)+perturb",
+   "over": 0,
+   "q": 37,
+   "x0": 3,
+   "y": 0
+  },
+  {
+   "V": 7,
+   "d": 4,
+   "dimA": 42,
+   "dimR": 43,
+   "draws": 0,
+   "escapes": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "forced": [
+    8
+   ],
+   "h": 5,
+   "k": 19,
+   "n": 29,
+   "name": "gfib(29,4,7,5)+perturb",
+   "over": 0,
+   "q": 29,
+   "x0": 8,
+   "y": 0
+  },
+  {
+   "dim_Ann": 0,
+   "draws": 0,
+   "escapes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "forced": [
+    3,
+    4,
+    24
+   ],
+   "name": "gfib(31,3,10,5)+swap",
+   "over": 0,
+   "rank": 16,
+   "twom": 16
+  },
+  {
+   "dim_Ann": 0,
+   "draws": 0,
+   "escapes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "forced": [
+    3,
+    4,
+    24
+   ],
+   "name": "gfib(31,3,6,5)+swap",
+   "over": 0,
+   "rank": 16,
+   "twom": 16
+  },
+  {
+   "dim_Ann": 3,
+   "draws": 3,
+   "escapes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "forced": [
+    6
+   ],
+   "name": "gfib(31,5,6,6)+swap",
+   "over": 3,
+   "rank": 19,
+   "twom": 22
+  },
+  {
+   "dim_Ann": 1,
+   "draws": 3,
+   "escapes": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "forced": [
+    5
+   ],
+   "name": "gfib(17,4,4,6)+swap",
+   "over": 3,
+   "rank": 19,
+   "twom": 20
+  },
+  {
+   "dim_Ann": 1,
+   "draws": 3,
+   "escapes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "forced": [
+    3
+   ],
+   "name": "gfib(19,3,6,4)+swap",
+   "over": 3,
+   "rank": 13,
+   "twom": 14
+  },
+  {
+   "dim_Ann": 2,
+   "draws": 3,
+   "escapes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "forced": [
+    2
+   ],
+   "name": "gfib(37,4,9,5)+swap",
+   "over": 3,
+   "rank": 16,
+   "twom": 18
+  },
+  {
+   "dim_Ann": 2,
+   "draws": 3,
+   "escapes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "forced": [
+    7
+   ],
+   "name": "gfib(29,4,7,5)+swap",
+   "over": 3,
+   "rank": 16,
+   "twom": 18
+  },
+  {
+   "dim_Ann": 0,
+   "draws": 0,
+   "escapes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "forced": [
+    7,
+    29
+   ],
+   "name": "gfib(31,2,11,3)+swap",
+   "over": 0,
+   "rank": 10,
+   "twom": 10
+  },
+  {
+   "dim_Ann": 1,
+   "draws": 3,
+   "escapes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "forced": [
+    10
+   ],
+   "name": "gfib(41,4,10,6)+swap",
+   "over": 3,
+   "rank": 19,
+   "twom": 20
+  },
+  {
+   "dim_Ann": 3,
+   "draws": 0,
+   "escapes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "forced": [
+    8
+   ],
+   "name": "gfib(43,6,7,8)+swap",
+   "over": 0,
+   "rank": 25,
+   "twom": 28
+  }
+ ],
+ "search": [
+  {
+   "A": 12,
+   "V": 4,
+   "agreement_profiles": [
+    [
+     14,
+     12,
+     12,
+     12
+    ],
+    [
+     13,
+     12,
+     12,
+     12
+    ],
+    [
+     13,
+     12,
+     13,
+     12
+    ],
+    [
+     13,
+     12,
+     12,
+     12
+    ],
+    [
+     13,
+     13,
+     12,
+     12
+    ],
+    [
+     13,
+     12,
+     13,
+     12
+    ]
+   ],
+   "core": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "dim_Ann": 3,
+   "draws": 10,
+   "draws_all_rays_exact_A": 0,
+   "escape1_core_rays": [
+    0,
+    1,
+    2
+   ],
+   "escape1_rays_that_are_exact_A": [
+    1,
+    2
+   ],
+   "escapes": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "found_all_exact_A": false,
+   "gate_clean": true,
+   "h": 6,
+   "k": 6,
+   "live_scan_cost": 159817,
+   "live_system": [
+    {
+     "V": 3,
+     "V_1": [],
+     "core": [],
+     "escapes": [
+      12,
+      12,
+      12
+     ],
+     "kpacking_ok": true,
+     "live_slopes": [
+      0,
+      1,
+      5
+     ],
+     "max_triple": 4,
+     "min_pair": 8,
+     "name": "X1p(17,6,4)",
+     "over_agreeing_slopes": [
+      4
+     ],
+     "tangent_free": false,
+     "v_direction": null
+    },
+    {
+     "V": 3,
+     "V_1": [],
+     "core": [],
+     "escapes": [
+      12,
+      12,
+      12
+     ],
+     "kpacking_ok": true,
+     "live_slopes": [
+      0,
+      1,
+      5
+     ],
+     "max_triple": 4,
+     "min_pair": 8,
+     "name": "X1p(17,6,4)",
+     "over_agreeing_slopes": [
+      4
+     ],
+     "tangent_free": false,
+     "v_direction": null
+    }
+   ],
+   "m": 11,
+   "max_triple": 4,
+   "min_pair": 7,
+   "n": 17,
+   "name": "X1p(17,6,4)",
+   "note": "cross-ratio matched 4-fibre perturbation",
+   "psi": {
+    "0": {
+     "dimA": 15,
+     "dimR": 16,
+     "dropped": [
+      16
+     ],
+     "forced": [
+      1
+     ]
+    },
+    "1": {
+     "dimA": 15,
+     "dimR": 16,
+     "dropped": [
+      1
+     ],
+     "forced": []
+    },
+    "2": {
+     "dimA": 15,
+     "dimR": 16,
+     "dropped": [
+      1
+     ],
+     "forced": []
+    },
+    "3": {
+     "dimA": 15,
+     "dimR": 15,
+     "dropped": [],
+     "forced": []
+    }
+   },
+   "q": 17,
+   "rank": 19
+  },
+  {
+   "A": 9,
+   "V": 4,
+   "agreement_profiles": [
+    [
+     10,
+     9,
+     9,
+     9
+    ],
+    [
+     10,
+     9,
+     9,
+     9
+    ],
+    [
+     10,
+     9,
+     9,
+     9
+    ],
+    [
+     10,
+     9,
+     9,
+     9
+    ],
+    [
+     10,
+     10,
+     9,
+     9
+    ],
+    [
+     10,
+     9,
+     9,
+     9
+    ]
+   ],
+   "core": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "dim_Ann": 2,
+   "draws": 10,
+   "draws_all_rays_exact_A": 0,
+   "escape1_core_rays": [
+    0,
+    1,
+    2
+   ],
+   "escape1_rays_that_are_exact_A": [
+    1,
+    2
+   ],
+   "escapes": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "found_all_exact_A": false,
+   "gate_clean": true,
+   "h": 5,
+   "k": 4,
+   "live_scan_cost": 14196,
+   "live_system": [
+    {
+     "V": 3,
+     "V_1": [],
+     "core": [],
+     "escapes": [
+      9,
+      9,
+      9
+     ],
+     "kpacking_ok": true,
+     "live_slopes": [
+      0,
+      1,
+      6
+     ],
+     "max_triple": 3,
+     "min_pair": 6,
+     "name": "X1p(13,4,3)",
+     "over_agreeing_slopes": [
+      5
+     ],
+     "tangent_free": false,
+     "v_direction": null
+    },
+    {
+     "V": 3,
+     "V_1": [],
+     "core": [],
+     "escapes": [
+      9,
+      9,
+      9
+     ],
+     "kpacking_ok": true,
+     "live_slopes": [
+      0,
+      1,
+      6
+     ],
+     "max_triple": 3,
+     "min_pair": 6,
+     "name": "X1p(13,4,3)",
+     "over_agreeing_slopes": [
+      5
+     ],
+     "tangent_free": false,
+     "v_direction": null
+    }
+   ],
+   "m": 9,
+   "max_triple": 3,
+   "min_pair": 5,
+   "n": 13,
+   "name": "X1p(13,4,3)",
+   "note": "cross-ratio matched 4-fibre perturbation",
+   "psi": {
+    "0": {
+     "dimA": 10,
+     "dimR": 11,
+     "dropped": [
+      12
+     ],
+     "forced": [
+      3
+     ]
+    },
+    "1": {
+     "dimA": 10,
+     "dimR": 11,
+     "dropped": [
+      3
+     ],
+     "forced": []
+    },
+    "2": {
+     "dimA": 10,
+     "dimR": 11,
+     "dropped": [
+      3
+     ],
+     "forced": []
+    },
+    "3": {
+     "dimA": 10,
+     "dimR": 10,
+     "dropped": [],
+     "forced": []
+    }
+   },
+   "q": 13,
+   "rank": 16
+  },
+  {
+   "A": 12,
+   "V": 4,
+   "agreement_profiles": [
+    [
+     12,
+     13,
+     12,
+     13
+    ],
+    [
+     13,
+     12,
+     12,
+     12
+    ],
+    [
+     12,
+     12,
+     12,
+     12
+    ],
+    [
+     12,
+     12,
+     13,
+     12
+    ],
+    [
+     12,
+     12,
+     12,
+     12
+    ],
+    [
+     13,
+     12,
+     12,
+     13
+    ]
+   ],
+   "core": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "dim_Ann": 2,
+   "draws": 6,
+   "draws_all_rays_exact_A": 2,
+   "escape1_core_rays": [],
+   "escape1_rays_that_are_exact_A": [],
+   "escapes": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "found_all_exact_A": true,
+   "gate_clean": true,
+   "h": 6,
+   "k": 6,
+   "live_scan_cost": 159817,
+   "live_system": [
+    {
+     "V": 4,
+     "V_1": [],
+     "core": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "escapes": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "kpacking_ok": true,
+     "live_slopes": [
+      0,
+      1,
+      4,
+      5
+     ],
+     "max_triple": 4,
+     "min_pair": 8,
+     "name": "X0(17,6,4) unperturbed",
+     "over_agreeing_slopes": [],
+     "tangent_free": true,
+     "v_direction": null
+    },
+    {
+     "V": 2,
+     "V_1": [],
+     "core": [],
+     "escapes": [
+      12,
+      12
+     ],
+     "kpacking_ok": true,
+     "live_slopes": [
+      0,
+      4
+     ],
+     "max_triple": 0,
+     "min_pair": 8,
+     "name": "X0(17,6,4) unperturbed",
+     "over_agreeing_slopes": [
+      1,
+      5
+     ],
+     "tangent_free": false,
+     "v_direction": null
+    }
+   ],
+   "m": 10,
+   "max_triple": 4,
+   "min_pair": 8,
+   "n": 17,
+   "name": "X0(17,6,4) unperturbed",
+   "note": "zero escape, contrast",
+   "psi": {
+    "0": {
+     "dimA": 16,
+     "dimR": 16,
+     "dropped": [],
+     "forced": []
+    },
+    "1": {
+     "dimA": 16,
+     "dimR": 16,
+     "dropped": [],
+     "forced": []
+    },
+    "2": {
+     "dimA": 16,
+     "dimR": 16,
+     "dropped": [],
+     "forced": []
+    },
+    "3": {
+     "dimA": 16,
+     "dimR": 16,
+     "dropped": [],
+     "forced": []
+    }
+   },
+   "q": 17,
+   "rank": 18
+  },
+  {
+   "A": 9,
+   "V": 4,
+   "agreement_profiles": [
+    [
+     12,
+     12,
+     12,
+     12
+    ],
+    [
+     12,
+     12,
+     12,
+     12
+    ],
+    [
+     9,
+     9,
+     10,
+     10
+    ],
+    [
+     9,
+     10,
+     9,
+     9
+    ],
+    [
+     9,
+     9,
+     9,
+     9
+    ],
+    [
+     9,
+     9,
+     9,
+     9
+    ]
+   ],
+   "core": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "dim_Ann": 1,
+   "draws": 6,
+   "draws_all_rays_exact_A": 2,
+   "escape1_core_rays": [],
+   "escape1_rays_that_are_exact_A": [],
+   "escapes": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "found_all_exact_A": true,
+   "gate_clean": true,
+   "h": 5,
+   "k": 4,
+   "live_scan_cost": 14196,
+   "live_system": [
+    {
+     "V": 4,
+     "V_1": [],
+     "core": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "escapes": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "kpacking_ok": true,
+     "live_slopes": [
+      0,
+      1,
+      5,
+      6
+     ],
+     "max_triple": 3,
+     "min_pair": 6,
+     "name": "X0(13,4,3) unperturbed",
+     "over_agreeing_slopes": [],
+     "tangent_free": true,
+     "v_direction": null
+    },
+    {
+     "V": 0,
+     "V_1": [],
+     "core": [],
+     "escapes": [],
+     "kpacking_ok": true,
+     "live_slopes": [],
+     "name": "X0(13,4,3) unperturbed",
+     "over_agreeing_slopes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "tangent_free": false,
+     "v_direction": 12
+    }
+   ],
+   "m": 8,
+   "max_triple": 3,
+   "min_pair": 6,
+   "n": 13,
+   "name": "X0(13,4,3) unperturbed",
+   "note": "zero escape, contrast",
+   "psi": {
+    "0": {
+     "dimA": 11,
+     "dimR": 11,
+     "dropped": [],
+     "forced": []
+    },
+    "1": {
+     "dimA": 11,
+     "dimR": 11,
+     "dropped": [],
+     "forced": []
+    },
+    "2": {
+     "dimA": 11,
+     "dimR": 11,
+     "dropped": [],
+     "forced": []
+    },
+    "3": {
+     "dimA": 11,
+     "dimR": 11,
+     "dropped": [],
+     "forced": []
+    }
+   },
+   "q": 13,
+   "rank": 15
+  },
+  {
+   "A": 12,
+   "V": 4,
+   "agreement_profiles": [
+    [
+     13,
+     12,
+     12,
+     12
+    ],
+    [
+     13,
+     12,
+     12,
+     12
+    ],
+    [
+     13,
+     12,
+     12,
+     12
+    ],
+    [
+     14,
+     12,
+     12,
+     12
+    ],
+    [
+     13,
+     12,
+     12,
+     12
+    ],
+    [
+     13,
+     12,
+     12,
+     12
+    ]
+   ],
+   "core": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "dim_Ann": 1,
+   "draws": 10,
+   "draws_all_rays_exact_A": 0,
+   "escape1_core_rays": [
+    2,
+    3
+   ],
+   "escape1_rays_that_are_exact_A": [
+    2,
+    3
+   ],
+   "escapes": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "found_all_exact_A": false,
+   "gate_clean": true,
+   "h": 6,
+   "k": 6,
+   "live_scan_cost": 159817,
+   "live_system": [
+    {
+     "V": 3,
+     "V_1": [],
+     "core": [],
+     "escapes": [
+      12,
+      12,
+      12
+     ],
+     "kpacking_ok": true,
+     "live_slopes": [
+      0,
+      1,
+      5
+     ],
+     "max_triple": 4,
+     "min_pair": 8,
+     "name": "SWAP(17,6,4,victim=1)",
+     "over_agreeing_slopes": [
+      4
+     ],
+     "tangent_free": false,
+     "v_direction": null
+    },
+    {
+     "V": 3,
+     "V_1": [],
+     "core": [],
+     "escapes": [
+      12,
+      12,
+      12
+     ],
+     "kpacking_ok": true,
+     "live_slopes": [
+      0,
+      1,
+      5
+     ],
+     "max_triple": 4,
+     "min_pair": 8,
+     "name": "SWAP(17,6,4,victim=1)",
+     "over_agreeing_slopes": [
+      4
+     ],
+     "tangent_free": false,
+     "v_direction": null
+    }
+   ],
+   "m": 10,
+   "max_triple": 5,
+   "min_pair": 8,
+   "n": 17,
+   "name": "SWAP(17,6,4,victim=1)",
+   "note": "escape 1 with no private point",
+   "psi": {
+    "0": {
+     "dimA": 15,
+     "dimR": 15,
+     "dropped": [],
+     "forced": [
+      5
+     ]
+    },
+    "1": {
+     "dimA": 15,
+     "dimR": 15,
+     "dropped": [],
+     "forced": []
+    },
+    "2": {
+     "dimA": 15,
+     "dimR": 16,
+     "dropped": [
+      5
+     ],
+     "forced": []
+    },
+    "3": {
+     "dimA": 15,
+     "dimR": 16,
+     "dropped": [
+      5
+     ],
+     "forced": []
+    }
+   },
+   "q": 17,
+   "rank": 19
+  },
+  {
+   "A": 12,
+   "V": 4,
+   "agreement_profiles": [
+    [
+     13,
+     12,
+     12,
+     12
+    ],
+    [
+     13,
+     12,
+     12,
+     12
+    ],
+    [
+     13,
+     12,
+     12,
+     12
+    ],
+    [
+     14,
+     12,
+     12,
+     12
+    ],
+    [
+     13,
+     12,
+     12,
+     12
+    ],
+    [
+     13,
+     12,
+     12,
+     12
+    ]
+   ],
+   "core": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "dim_Ann": 1,
+   "draws": 10,
+   "draws_all_rays_exact_A": 0,
+   "escape1_core_rays": [
+    1,
+    3
+   ],
+   "escape1_rays_that_are_exact_A": [
+    1,
+    3
+   ],
+   "escapes": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "found_all_exact_A": false,
+   "gate_clean": true,
+   "h": 6,
+   "k": 6,
+   "live_scan_cost": 159817,
+   "live_system": [
+    {
+     "V": 3,
+     "V_1": [],
+     "core": [],
+     "escapes": [
+      12,
+      12,
+      12
+     ],
+     "kpacking_ok": true,
+     "live_slopes": [
+      0,
+      1,
+      5
+     ],
+     "max_triple": 4,
+     "min_pair": 8,
+     "name": "SWAP(17,6,4,victim=2)",
+     "over_agreeing_slopes": [
+      4
+     ],
+     "tangent_free": false,
+     "v_direction": null
+    },
+    {
+     "V": 3,
+     "V_1": [],
+     "core": [],
+     "escapes": [
+      12,
+      12,
+      12
+     ],
+     "kpacking_ok": true,
+     "live_slopes": [
+      0,
+      1,
+      5
+     ],
+     "max_triple": 4,
+     "min_pair": 8,
+     "name": "SWAP(17,6,4,victim=2)",
+     "over_agreeing_slopes": [
+      4
+     ],
+     "tangent_free": false,
+     "v_direction": null
+    }
+   ],
+   "m": 10,
+   "max_triple": 5,
+   "min_pair": 8,
+   "n": 17,
+   "name": "SWAP(17,6,4,victim=2)",
+   "note": "escape 1 with no private point",
+   "psi": {
+    "0": {
+     "dimA": 15,
+     "dimR": 15,
+     "dropped": [],
+     "forced": [
+      2
+     ]
+    },
+    "1": {
+     "dimA": 15,
+     "dimR": 16,
+     "dropped": [
+      2
+     ],
+     "forced": []
+    },
+    "2": {
+     "dimA": 15,
+     "dimR": 15,
+     "dropped": [],
+     "forced": []
+    },
+    "3": {
+     "dimA": 15,
+     "dimR": 16,
+     "dropped": [
+      2
+     ],
+     "forced": []
+    }
+   },
+   "q": 17,
+   "rank": 19
+  },
+  {
+   "A": 12,
+   "V": 4,
+   "agreement_profiles": [
+    [
+     13,
+     12,
+     12,
+     12
+    ],
+    [
+     13,
+     12,
+     12,
+     12
+    ],
+    [
+     13,
+     12,
+     12,
+     12
+    ],
+    [
+     14,
+     12,
+     12,
+     12
+    ],
+    [
+     13,
+     12,
+     12,
+     12
+    ],
+    [
+     13,
+     12,
+     12,
+     12
+    ]
+   ],
+   "core": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "dim_Ann": 1,
+   "draws": 10,
+   "draws_all_rays_exact_A": 0,
+   "escape1_core_rays": [
+    1,
+    2
+   ],
+   "escape1_rays_that_are_exact_A": [
+    1,
+    2
+   ],
+   "escapes": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "found_all_exact_A": false,
+   "gate_clean": true,
+   "h": 6,
+   "k": 6,
+   "live_scan_cost": 159817,
+   "live_system": [
+    {
+     "V": 3,
+     "V_1": [],
+     "core": [],
+     "escapes": [
+      12,
+      12,
+      12
+     ],
+     "kpacking_ok": true,
+     "live_slopes": [
+      0,
+      1,
+      5
+     ],
+     "max_triple": 4,
+     "min_pair": 8,
+     "name": "SWAP(17,6,4,victim=3)",
+     "over_agreeing_slopes": [
+      4
+     ],
+     "tangent_free": false,
+     "v_direction": null
+    },
+    {
+     "V": 3,
+     "V_1": [],
+     "core": [],
+     "escapes": [
+      12,
+      12,
+      12
+     ],
+     "kpacking_ok": true,
+     "live_slopes": [
+      0,
+      1,
+      5
+     ],
+     "max_triple": 4,
+     "min_pair": 8,
+     "name": "SWAP(17,6,4,victim=3)",
+     "over_agreeing_slopes": [
+      4
+     ],
+     "tangent_free": false,
+     "v_direction": null
+    }
+   ],
+   "m": 10,
+   "max_triple": 5,
+   "min_pair": 8,
+   "n": 17,
+   "name": "SWAP(17,6,4,victim=3)",
+   "note": "escape 1 with no private point",
+   "psi": {
+    "0": {
+     "dimA": 15,
+     "dimR": 15,
+     "dropped": [],
+     "forced": [
+      1
+     ]
+    },
+    "1": {
+     "dimA": 15,
+     "dimR": 16,
+     "dropped": [
+      1
+     ],
+     "forced": []
+    },
+    "2": {
+     "dimA": 15,
+     "dimR": 16,
+     "dropped": [
+      1
+     ],
+     "forced": []
+    },
+    "3": {
+     "dimA": 15,
+     "dimR": 15,
+     "dropped": [],
+     "forced": []
+    }
+   },
+   "q": 17,
+   "rank": 19
+  },
+  {
+   "A": 9,
+   "V": 4,
+   "core": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "dim_Ann": 0,
+   "escapes": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "gate_clean": false,
+   "h": 5,
+   "k": 4,
+   "m": 8,
+   "max_triple": 4,
+   "min_pair": 6,
+   "n": 13,
+   "name": "SWAP(13,4,3,victim=1)",
+   "note": "escape 1 with no private point",
+   "q": 13,
+   "rank": 16,
+   "verdict": "not band-admissible (rank = 2m, LEMMA R)"
+  },
+  {
+   "A": 9,
+   "V": 4,
+   "core": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "dim_Ann": 0,
+   "escapes": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "gate_clean": false,
+   "h": 5,
+   "k": 4,
+   "m": 8,
+   "max_triple": 4,
+   "min_pair": 6,
+   "n": 13,
+   "name": "SWAP(13,4,3,victim=2)",
+   "note": "escape 1 with no private point",
+   "q": 13,
+   "rank": 16,
+   "verdict": "not band-admissible (rank = 2m, LEMMA R)"
+  },
+  {
+   "A": 9,
+   "V": 4,
+   "core": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "dim_Ann": 0,
+   "escapes": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "gate_clean": false,
+   "h": 5,
+   "k": 4,
+   "m": 8,
+   "max_triple": 4,
+   "min_pair": 6,
+   "n": 13,
+   "name": "SWAP(13,4,3,victim=3)",
+   "note": "escape 1 with no private point",
+   "q": 13,
+   "rank": 16,
+   "verdict": "not band-admissible (rank = 2m, LEMMA R)"
+  },
+  {
+   "A": 27,
+   "V": 5,
+   "core": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "dim_Ann": 0,
+   "escapes": [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "gate_clean": false,
+   "h": 5,
+   "k": 22,
+   "m": 8,
+   "max_triple": 23,
+   "min_pair": 24,
+   "n": 30,
+   "name": "DSWAP(31,3,V=5,5)",
+   "note": "V=5, point deleted from two supports",
+   "q": 31,
+   "rank": 16,
+   "verdict": "not band-admissible (rank = 2m, LEMMA R)"
+  },
+  {
+   "A": 15,
+   "V": 5,
+   "core": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "dim_Ann": 0,
+   "escapes": [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 11,
+   "m": 7,
+   "max_triple": 11,
+   "min_pair": 12,
+   "n": 18,
+   "name": "DSWAP(19,3,V=5,4)",
+   "note": "V=5, point deleted from two supports",
+   "q": 19,
+   "rank": 14,
+   "verdict": "not band-admissible (rank = 2m, LEMMA R)"
+  },
+  {
+   "A": 33,
+   "V": 5,
+   "core": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "dim_Ann": 0,
+   "escapes": [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "gate_clean": false,
+   "h": 4,
+   "k": 29,
+   "m": 7,
+   "max_triple": 29,
+   "min_pair": 30,
+   "n": 36,
+   "name": "DSWAP(37,3,V=5,4)",
+   "note": "V=5, point deleted from two supports",
+   "q": 37,
+   "rank": 14,
+   "verdict": "not band-admissible (rank = 2m, LEMMA R)"
+  },
+  {
+   "A": 28,
+   "V": 5,
+   "core": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "dim_Ann": 0,
+   "escapes": [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "gate_clean": false,
+   "h": 3,
+   "k": 25,
+   "m": 5,
+   "max_triple": 26,
+   "min_pair": 26,
+   "n": 30,
+   "name": "DSWAP(31,2,V=5,3)",
+   "note": "V=5, point deleted from two supports",
+   "q": 31,
+   "rank": 10,
+   "verdict": "not band-admissible (rank = 2m, LEMMA R)"
+  }
+ ],
+ "theoremF": [
+  {
+   "V": 10,
+   "d": 3,
+   "dim_Ann": 1,
+   "h": 5,
+   "k": 22,
+   "kpacking": true,
+   "m": 8,
+   "max_triple": 21,
+   "min_pair": 24,
+   "pairwise": true,
+   "pins": [
+    1,
+    1,
+    1
+   ],
+   "predicted": 1,
+   "q": 31,
+   "rank": 15
+  },
+  {
+   "V": 6,
+   "d": 3,
+   "dim_Ann": 1,
+   "h": 5,
+   "k": 22,
+   "kpacking": true,
+   "m": 8,
+   "max_triple": 21,
+   "min_pair": 24,
+   "pairwise": true,
+   "pins": [
+    1,
+    1,
+    1
+   ],
+   "predicted": 1,
+   "q": 31,
+   "rank": 15
+  },
+  {
+   "V": 5,
+   "d": 3,
+   "dim_Ann": 2,
+   "h": 4,
+   "k": 23,
+   "kpacking": true,
+   "m": 7,
+   "max_triple": 21,
+   "min_pair": 24,
+   "pairwise": true,
+   "pins": [
+    2,
+    2,
+    2
+   ],
+   "predicted": 2,
+   "q": 31,
+   "rank": 12
+  },
+  {
+   "V": 11,
+   "d": 2,
+   "dim_Ann": 1,
+   "h": 3,
+   "k": 25,
+   "kpacking": true,
+   "m": 5,
+   "max_triple": 24,
+   "min_pair": 26,
+   "pairwise": true,
+   "pins": [
+    1,
+    1,
+    1
+   ],
+   "predicted": 1,
+   "q": 31,
+   "rank": 9
+  },
+  {
+   "V": 8,
+   "d": 2,
+   "dim_Ann": 1,
+   "h": 3,
+   "k": 25,
+   "kpacking": true,
+   "m": 5,
+   "max_triple": 24,
+   "min_pair": 26,
+   "pairwise": true,
+   "pins": [
+    1,
+    1,
+    1
+   ],
+   "predicted": 1,
+   "q": 31,
+   "rank": 9
+  },
+  {
+   "V": 6,
+   "d": 5,
+   "dim_Ann": 4,
+   "h": 6,
+   "k": 19,
+   "kpacking": true,
+   "m": 11,
+   "max_triple": 15,
+   "min_pair": 20,
+   "pairwise": true,
+   "pins": [
+    4,
+    4,
+    4
+   ],
+   "predicted": 4,
+   "q": 31,
+   "rank": 18
+  },
+  {
+   "V": 4,
+   "d": 4,
+   "dim_Ann": 2,
+   "h": 6,
+   "k": 6,
+   "kpacking": true,
+   "m": 10,
+   "max_triple": 4,
+   "min_pair": 8,
+   "pairwise": true,
+   "pins": [
+    2,
+    2,
+    2
+   ],
+   "predicted": 2,
+   "q": 17,
+   "rank": 18
+  },
+  {
+   "V": 8,
+   "d": 2,
+   "dim_Ann": 1,
+   "h": 3,
+   "k": 11,
+   "kpacking": true,
+   "m": 5,
+   "max_triple": 10,
+   "min_pair": 12,
+   "pairwise": true,
+   "pins": [
+    1,
+    1,
+    1
+   ],
+   "predicted": 1,
+   "q": 17,
+   "rank": 9
+  },
+  {
+   "V": 6,
+   "d": 3,
+   "dim_Ann": 2,
+   "h": 4,
+   "k": 11,
+   "kpacking": true,
+   "m": 7,
+   "max_triple": 9,
+   "min_pair": 12,
+   "pairwise": true,
+   "pins": [
+    2,
+    2,
+    2
+   ],
+   "predicted": 2,
+   "q": 19,
+   "rank": 12
+  },
+  {
+   "V": 9,
+   "d": 2,
+   "dim_Ann": 1,
+   "h": 3,
+   "k": 13,
+   "kpacking": true,
+   "m": 5,
+   "max_triple": 12,
+   "min_pair": 14,
+   "pairwise": true,
+   "pins": [
+    1,
+    1,
+    1
+   ],
+   "predicted": 1,
+   "q": 19,
+   "rank": 9
+  },
+  {
+   "V": 9,
+   "d": 4,
+   "dim_Ann": 3,
+   "h": 5,
+   "k": 27,
+   "kpacking": true,
+   "m": 9,
+   "max_triple": 24,
+   "min_pair": 28,
+   "pairwise": true,
+   "pins": [
+    3,
+    3,
+    3
+   ],
+   "predicted": 3,
+   "q": 37,
+   "rank": 15
+  },
+  {
+   "V": 8,
+   "d": 3,
+   "dim_Ann": 2,
+   "h": 4,
+   "k": 29,
+   "kpacking": true,
+   "m": 7,
+   "max_triple": 27,
+   "min_pair": 30,
+   "pairwise": true,
+   "pins": [
+    2,
+    2,
+    2
+   ],
+   "predicted": 2,
+   "q": 37,
+   "rank": 12
+  },
+  {
+   "V": 10,
+   "d": 4,
+   "dim_Ann": 2,
+   "h": 6,
+   "k": 30,
+   "kpacking": true,
+   "m": 10,
+   "max_triple": 28,
+   "min_pair": 32,
+   "pairwise": true,
+   "pins": [
+    2,
+    2,
+    2
+   ],
+   "predicted": 2,
+   "q": 41,
+   "rank": 18
+  },
+  {
+   "V": 7,
+   "d": 6,
+   "dim_Ann": 4,
+   "h": 8,
+   "k": 28,
+   "kpacking": true,
+   "m": 14,
+   "max_triple": 24,
+   "min_pair": 30,
+   "pairwise": true,
+   "pins": [
+    4,
+    4,
+    4
+   ],
+   "predicted": 4,
+   "q": 43,
+   "rank": 24
+  },
+  {
+   "V": 7,
+   "d": 4,
+   "dim_Ann": 3,
+   "h": 5,
+   "k": 19,
+   "kpacking": true,
+   "m": 9,
+   "max_triple": 16,
+   "min_pair": 20,
+   "pairwise": true,
+   "pins": [
+    3,
+    3,
+    3
+   ],
+   "predicted": 3,
+   "q": 29,
+   "rank": 15
+  },
+  {
+   "V": 4,
+   "d": 7,
+   "dim_Ann": 6,
+   "h": 8,
+   "k": 13,
+   "kpacking": true,
+   "m": 15,
+   "max_triple": 7,
+   "min_pair": 14,
+   "pairwise": true,
+   "pins": [
+    6,
+    6,
+    6
+   ],
+   "predicted": 6,
+   "q": 29,
+   "rank": 24
+  }
+ ],
+ "total_checks": 237
+}

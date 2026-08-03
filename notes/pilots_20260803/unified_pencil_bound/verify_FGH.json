@@ -1,0 +1,68 @@
+{
+ "F": {
+  "F1": {
+   "agree": 360,
+   "bad": 0
+  },
+  "F2_identity": true,
+  "F3": {
+   "q": 11,
+   "matchings": 945,
+   "one_pencil": 6,
+   "with_deficit": 6,
+   "nonpencil_deficit": 0
+  },
+  "F4_ratios": [
+   [
+    "toy_pencil_q11",
+    5,
+    10,
+    0.5
+   ],
+   [
+    "Zfib11",
+    11,
+    22,
+    0.5
+   ],
+   [
+    "PF2(Modal full gate)",
+    10,
+    25,
+    0.4
+   ],
+   [
+    "PF1",
+    4,
+    10,
+    0.4
+   ]
+  ]
+ },
+ "G": {
+  "G1": {
+   "live": 5,
+   "n": 10,
+   "e": 1,
+   "worst_meet": 0,
+   "full_gate": true
+  },
+  "G2": {
+   "sampled": 50,
+   "one_pencil": 0,
+   "with_deficit": 0,
+   "nonpencil_deficit": 0
+  }
+ },
+ "H": {
+  "ok": 1000,
+  "bad_U": 0,
+  "bad_mono": 0
+ },
+ "summary": {
+  "checks": 15,
+  "passed": 15,
+  "failed": 0,
+  "falsifiers_fired": {}
+ }
+}

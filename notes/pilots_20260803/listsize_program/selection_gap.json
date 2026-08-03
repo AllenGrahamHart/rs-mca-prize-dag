@@ -1,0 +1,145 @@
+{
+ "fixtures": 8,
+ "admissible": 8,
+ "with_selection_gap": 4,
+ "min_L_equals_raw_high": 8,
+ "min_L_below_raw_high": 0,
+ "results": [
+  {
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate_P1": true,
+    "below_cascade": true,
+    "kpack": true
+   },
+   "admissible": true,
+   "raw_high": 1,
+   "N_selected": 0,
+   "N_LP1": 1,
+   "N_LP0": 0,
+   "min_L": 1,
+   "max_L": 3,
+   "name": "core7_1slope",
+   "seed": 1
+  },
+  {
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate_P1": true,
+    "below_cascade": true,
+    "kpack": true
+   },
+   "admissible": true,
+   "raw_high": 1,
+   "N_selected": 0,
+   "N_LP1": 1,
+   "N_LP0": 0,
+   "min_L": 1,
+   "max_L": 4,
+   "name": "core7_1slope",
+   "seed": 3
+  },
+  {
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate_P1": true,
+    "below_cascade": true,
+    "kpack": true
+   },
+   "admissible": true,
+   "raw_high": 1,
+   "N_selected": 0,
+   "N_LP1": 1,
+   "N_LP0": 0,
+   "min_L": 1,
+   "max_L": 3,
+   "name": "core7_1slope",
+   "seed": 4
+  },
+  {
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate_P1": true,
+    "below_cascade": true,
+    "kpack": true
+   },
+   "admissible": true,
+   "raw_high": 1,
+   "N_selected": 0,
+   "N_LP1": 1,
+   "N_LP0": 0,
+   "min_L": 1,
+   "max_L": 3,
+   "name": "core7_1slope",
+   "seed": 5
+  },
+  {
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate_P1": true,
+    "below_cascade": true,
+    "kpack": true
+   },
+   "admissible": true,
+   "raw_high": 1,
+   "N_selected": 1,
+   "N_LP1": 0,
+   "N_LP0": 0,
+   "min_L": 1,
+   "max_L": 2,
+   "name": "core7_2slope",
+   "seed": 2
+  },
+  {
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate_P1": true,
+    "below_cascade": true,
+    "kpack": true
+   },
+   "admissible": true,
+   "raw_high": 1,
+   "N_selected": 1,
+   "N_LP1": 0,
+   "N_LP0": 0,
+   "min_L": 1,
+   "max_L": 3,
+   "name": "core7_2slope",
+   "seed": 3
+  },
+  {
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate_P1": true,
+    "below_cascade": true,
+    "kpack": true
+   },
+   "admissible": true,
+   "raw_high": 1,
+   "N_selected": 1,
+   "N_LP1": 0,
+   "N_LP0": 0,
+   "min_L": 1,
+   "max_L": 3,
+   "name": "core7_2slope",
+   "seed": 4
+  },
+  {
+   "gates": {
+    "v_nonvanishing": true,
+    "tangent_gate_P1": true,
+    "below_cascade": true,
+    "kpack": true
+   },
+   "admissible": true,
+   "raw_high": 1,
+   "N_selected": 1,
+   "N_LP1": 0,
+   "N_LP0": 0,
+   "min_L": 1,
+   "max_L": 3,
+   "name": "core7_2slope",
+   "seed": 5
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "doc": "e7_highX.py -- push w = 3 to HIGH X.\n\nEvery one of the 18 banked counterexamples has w = 2.  e4/e6 found no excess\nat w = 3 up to X = 4.44.  The banked calibration of record says the excess is\ngoverned by X alone (\"X < 1 -> zero extras; reliable escapes from X ~ 10\").\nThat predicts an excess at w = 3, X ~ 14.  This tests it.\n\n  n = 33, k = 3, w = M = 3, q = 67:  r = 27 = 9M, A = 7, r' = 26,\n  X = C(33,7)/67^3 = 4272048/300763 = 14.20,  j in {1,2}, gcd(2,33) = 1.\n\nGround truth Scan is cheap here (C(33,3) = 5456).  Classification uses the\nlean window classifier (verified identical to the full one).\n",
+ "rows": [
+  {
+   "n": 33,
+   "k": 3,
+   "w": 3,
+   "M": 3,
+   "q": 67,
+   "j": 2,
+   "A": 7,
+   "X": 14.204034405827844,
+   "gcd_j_n": 1,
+   "gate_ok": false,
+   "Gamma": 33,
+   "E_j": 2,
+   "n_sols": 159,
+   "n_structured": 135,
+   "n_sporadic": 24,
+   "outside_negHj": 0,
+   "prize_shape": true
+  }
+ ],
+ "checks": 2,
+ "failures": 0
+}
