@@ -4,8 +4,9 @@ The six-basis norm route, nested-quadratic cut, finite direct solvers, and
 parallel-edge transport have now proved all `720` cases with
 `xi in {0,1,2}` and
 `pairing in {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14}`. No parallel-`DE`
-matching remains. The next route decision is `xi=3,pairing=0` in the
-localized quadratic algebra.
+matching remains. The `xi=3,pairing=0` route is now proved by the
+three-branch reciprocal-square theorem, raising the paid cell-3 ledger to
+736 cases. Pairings 1 and 2 at `xi=3` are the next route decision.
 
 ```text
 b^2 = -(B_epsilon/A_epsilon)b - 1,
@@ -18,11 +19,12 @@ and tower norm cross-checks, and direct lifts of every norm and intermediate
 exceptional root.  Pairing 5 established that the target-label exchange
 maps cell 3 to cell 6; do not use it as a within-cell transport.
 
-The direct `xi=3,pairing=0` colored/missing-sum quartic resultant already
-exceeded the 300-second cap in both Sylvester and Euclidean forms, so that
-branch still needs a lower elimination degree or shared-`f` structure.
+At `xi=3,pairing=0`, factoring `paired(q,q)` and setting `y=1/d^2`
+replaced the timed-out colored/missing-sum quartic resultant by two
+quadratics. Pairings 1 and 2 retain the same three `q` branches; next reduce
+their even quartic in `z=1/d` modulo the remaining quadratic paired cut.
 
 Do not return to the monolithic six-variable SymPy expansion or Singular at
 the deployed characteristic.  Do not call a quadratic relation a
 parametrization, and do not infer complete cell-3 closure from the fully paid
-parallel-`DE` matching block.
+parallel-`DE` matching block or the one paid `xi=3` matching.

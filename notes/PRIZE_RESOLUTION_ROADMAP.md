@@ -16341,6 +16341,51 @@ zero. The 16-container exact census completed in one bounded Modal wave;
 all rows completed in about 20 seconds wall time and the host performed only
 bounded validation.
 
+### Work-cycle theorem: positive 433-1b cell-3 xi3/pairing0 block
+
+```text
+aggregate scope:          xi=3 (missing df), pairing=0
+raw atlas cover:          4 source signs x 4 target lanes = 16 cases
+same-product identity:    paired(q,q)=
+                          4(A0 q-B0)(A1 q-B1)^2(A2 q-B2)
+internal branch cover:    q=de=B_i/A_i, i in {0,1,2};
+                          4 source signs x 3 branches x 2 sigma_o = 24 rows,
+                          each row checking both sigma_c lanes
+reciprocal variable:      y=1/d^2, with m=df and s=(d+f)^2
+missing quadratic:        1+(2m-s)y+m^2 y^2=0
+outside quadratic:        paired(-q,sigma_o q m y)=0
+elimination:              division-free resultant of two quadratics in y;
+                          then one six-dimensional norm
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       all norm, inverse, branch-denominator, and base-
+                          leading roots lifted; A_i=B_i=0 would be unresolved
+finite lift:              common y roots, x=1/y, every root of d^2=x,
+                          e=q/d, f=m/d
+aggregate direct replay:  228 candidate r values, 216 source points,
+                          112 (y,d) candidates
+terminal mechanism:       all 224 paired(bf,sigma_c cf) values are nonzero
+terminal ledgers:         0 witnesses, 0 boundaries, 0 free branches,
+                          0 unresolved
+result:                   complete 16-case xi3/pairing0 block PROVED empty
+Modal apps:               ap-dDD7Ei8WD8ig8KizJUcwVV corrected pilot,
+                          ap-xdiIQZJzsLjHKyuxQX96pG census
+artifact custody:         compiler sha256 24e41f3dde01749126c094e2c776b310
+                          3ba3632cb2c014667380cf0e29468437;
+                          census sha256 714330c1846ed02f0ce815cf702588e9d
+                          49e96bad871238c78225a7d89757787
+paid cell-3 ledger:       720 parallel-DE + 16 xi3/pairing0 = 736 cases
+next route step:          reuse q branches at xi3 pairings 1 and 2;
+                          use z=1/d and reduce the even quartic missing
+                          equation modulo the next quadratic paired cut
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `0d3893b8`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The old 300-second quartic-resultant route was replaced by a 24-row
+quadratic census completing in about 15 seconds wall time.
+
 ### Work-cycle theorem: positive 433-1b cell-14 kernel normalization boundary
 
 ```text

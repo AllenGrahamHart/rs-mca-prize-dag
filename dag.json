@@ -27498,6 +27498,28 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-3 xi3 pairing-0 reciprocal-square exclusion",
+   "status": "PROVED",
+   "closure": "all 16 cases with missing df record xi=3 and canonical matching index 0",
+   "statement": "On the guarded positive deployed 433-1b role-cell-3 branch, every case with missing df record xi=3 and pairing index 0 is empty across all source and target signs. The exact factorization paired(q,q)=4(A0q-B0)(A1q-B1)^2(A2q-B2) gives three exhaustive q=de branches. On each branch, a division-free resultant of two quadratics in y=1/d^2 plus exhaustive exceptional-root and square-lift replay leaves 224 nonzero final-pair evaluations, with no witness, boundary, free branch, or unresolved stratum. No other matching, missing role, cell closure, or Prize result is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_pilot_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_census_result.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion",
    "title": "KoalaBear m2 r4 positive 433-1b cell-14 linear-pair outside exclusion",
    "status": "PROVED",
@@ -52123,6 +52145,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing14_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
