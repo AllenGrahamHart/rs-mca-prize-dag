@@ -1,0 +1,19 @@
+{
+  "field": 2130706433,
+  "rows": [
+    {
+      "chart": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "error": "FunctionTimeoutError(\"Task's current input in-01KZ4BRWJ10YVJTVSWTPAXGCJJ:1785779221057-0 hit its timeout of 300s\")",
+      "status": "REMOTE_ERROR"
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell4-xi0-pairing0-v1",
+  "scope": "Exact generic target-free cut for cell 4, xi0, pairing0; no other pairing, full cell, orbit, or route claim.",
+  "source_common_sha256": "a956656cba6c884bae665a2439666964ed468dcf9d0466e80cb825e811a6f845",
+  "source_kernel_sha256": "52d40fe51d713eeb6c92217d4bd0024dfd9fa29118c44cfa64592c0da350fdab",
+  "source_product_sha256": "ee4dcb25877e9101a544ee5896b9bf6890059d6398c78d7562127b0d1c53c293"
+}

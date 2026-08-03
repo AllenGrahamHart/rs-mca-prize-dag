@@ -15850,6 +15850,57 @@ nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
                           MCA, or Prize closure
 ```
 
+### Work-cycle route decision: remaining positive 433-1b common loci
+
+```text
+closed role cells:        [0], [1,2], [3,6], [14]
+remaining role orbits:    [4,7], [5,8], [9,10], [11], [12,13]
+representatives tested:   4,5,9,11,12
+common chart ledger:      5 cells x 4 source signs x 6 product-cofactor charts
+completed rows:           116/120; every completed ideal nonunit, dimension 1
+initial timeouts:         four cell-4/chart-2 sign rows; subsequently superseded
+                          by the complete cell-4 compact 24-chart theorem
+route conclusion:         no remaining role orbit is deleted by common Vieta
+                          equations alone; use compact/outside constraints
+Modal app:                ap-q4OYuLwjY80zX5YVRBZm29
+cost posture:             bounded route census, below the predeclared $1 cap
+nonclaim:                 no outside case or remaining orbit excluded
+```
+
+### Work-cycle theorem: positive 433-1b cell-4 four-basis tower
+
+```text
+cell/orbit/field:         cell 4 representing [4,7], F_2130706433
+source role shape:        AB | (LA,BC+),(AC,BC-)
+compact pivot:            guarded AB sum row
+coverage:                 4 source signs x 6 product-cofactor charts = 24
+common result:            dimension 1, compact basis 16, lex basis 9
+pivot boundary:           unit ideal in all 24 charts
+localized generators:     F_epsilon(t,r), G_epsilon(b;t,r), H_epsilon(c,b,t,r)
+base relation:            degree_t 2, degree_r 3, 10 terms
+base discriminant:        square-free degree 6; normalized genus 2
+second relation:          palindromic quadratic in b, 18 terms
+recovery relation:        linear in c, 10 terms
+four-basis certificate:   all 9 lex rows reduce to zero by the three localized
+                          generators in every chart (216 exact reductions)
+leading guard identities: eta=+1: L_b=r(r-1)(r+1)^2,
+                          L_c=(t+1)(r-1);
+                          eta=-1: L_b=r(r+1)(r-1)^2,
+                          L_c=(t-1)(r+1)
+kernel certificate:       one sign-independent eight-coordinate kernel;
+                          7 rows identically zero, all 40 row reductions zero
+Modal apps:               ap-XScrUUEk7oO2UUZtoHaCnJ,
+                          ap-jIufYS06hxtV14AFbvJXT1
+failed-route fence:       one ambient denominator-cleared xi0/pairing0 job hit
+                          300 seconds before a verdict; do not scale that form
+next route step:          implement xi0/pairing0 in the quadratic-over-quadratic
+                          four-basis algebra, norm to F_p(r), and replay every
+                          norm/recovery boundary before any larger census
+retained frontier:        all 1,680 cell-4 outside cases; then transport to 7
+nonclaim:                 no outside exclusion, orbit close, rate-half band,
+                          K3, LIST, MCA, or Prize closure
+```
+
 ### Work-cycle theorem: positive 433-1b cell-3 xi3 opposite-DE parity orbits
 
 ```text
