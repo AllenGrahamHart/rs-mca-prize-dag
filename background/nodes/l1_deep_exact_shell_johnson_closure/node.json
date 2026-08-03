@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 549,
+  "node": {
+    "id": "l1_deep_exact_shell_johnson_closure",
+    "title": "L1 deep exact-shell Johnson closure",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For any Reed-Solomon code and agreement m with m^2>n(k-1), the ordinary list size is at most floor(n(m-k+1)/(m^2-n(k-1))). At m_J=floor((n+k-1)/2)+1 the denominator is positive, so the entire list is at most n^2. Every exact shell with 2m>n+k-1 lies in that one threshold list; hence all deep exact shells together cost at most n^2, or 2^88 over the full prize box n<=2^44. This is a polynomial L1 payment, not an exact finite-reserve claim. The balanced band is not counted.",
+    "refs": [
+      "background/nodes/l1_deep_exact_shell_johnson_closure/statement.md",
+      "background/nodes/l1_deep_exact_shell_johnson_closure/proof.md",
+      "background/nodes/l1_deep_exact_shell_johnson_closure/claim_contract.md",
+      "background/nodes/l1_deep_exact_shell_johnson_closure/dependency_subdag.md",
+      "background/nodes/l1_deep_exact_shell_johnson_closure/audit.md",
+      "background/nodes/l1_deep_exact_shell_johnson_closure/lineage.md",
+      "background/nodes/l1_deep_exact_shell_johnson_closure/upstream_crosswalk.md",
+      "background/nodes/l1_deep_exact_shell_johnson_closure/verify.py",
+      "background/nodes/l1_deep_exact_shell_johnson_closure/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_pade_split_section_support_moment_inversion",
+      "order": 2930
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2931
+    }
+  ],
+  "refutes": []
+}

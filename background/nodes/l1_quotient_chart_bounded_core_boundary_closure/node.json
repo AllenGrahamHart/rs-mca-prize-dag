@@ -1,0 +1,54 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1095,
+  "node": {
+    "id": "l1_quotient_chart_bounded_core_boundary_closure",
+    "title": "L1 quotient-chart bounded core-boundary closure",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the L1 cutoff ell>=c_0 n/log_2 n with ell>2P_0, one genuine quotient/coset source chart has only M+N<=log_2(n)/c_0 total petal and core fibers. Dense/sparse orientation plus at most P_0 exceptional petal points counts all p<=P_0 supports; the quotient-boundary router counts every beta<=B_0 defect locator by at most 2^N(B_0+1)n^B_0; and the strict-window plus thin-edge CRT theorems contribute at most q^(2P_0) numerators throughout every degree strip. Hence the complete common-pencil box is at most (P_0+1)(B_0+1)n^(1/c_0+P_0+B_0+2 gamma P_0) per source chart when q<=n^gamma. Cross-chart aggregation, unbounded boundary, non-quotient cores, and arbitrary petal locators remain open.",
+    "refs": [
+      "background/nodes/l1_quotient_chart_bounded_core_boundary_closure/statement.md",
+      "background/nodes/l1_quotient_chart_bounded_core_boundary_closure/proof.md",
+      "background/nodes/l1_quotient_chart_bounded_core_boundary_closure/claim_contract.md",
+      "background/nodes/l1_quotient_chart_bounded_core_boundary_closure/dependency_subdag.md",
+      "background/nodes/l1_quotient_chart_bounded_core_boundary_closure/audit.md",
+      "background/nodes/l1_quotient_chart_bounded_core_boundary_closure/verify.py",
+      "background/nodes/l1_quotient_chart_bounded_core_boundary_closure/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_marked_common_pencil_quotient_boundary_router",
+      "order": 2201
+    },
+    {
+      "from": "l1_polarized_petal_entropy_ledger",
+      "order": 2202
+    },
+    {
+      "from": "petal_reserve_rich_fiber_reduction",
+      "order": 2203
+    },
+    {
+      "from": "l1_marked_common_pencil_next_strip_boundary_fiber_bound",
+      "order": 2206
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2235
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2236
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2237
+    }
+  ],
+  "refutes": []
+}

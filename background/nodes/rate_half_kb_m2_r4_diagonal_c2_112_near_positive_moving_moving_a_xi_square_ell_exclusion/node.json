@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1390,
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion",
+    "title": "KoalaBear c2 (1,1,2) near positive moving-moving a-xi square-ell exclusion",
+    "status": "PROVED",
+    "closure": "the deployed-field positive near-aligned moving-moving xi=a square allocation c->1/d,d->1/2 is empty",
+    "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize a=xi=2, eta=c, ell=d and w=1/c, and use moving-moving source edges {2,b},{2,1/b}. Assign the residual over c to (W-1/d)^2 and the residual over d to (W-1/2)^2. Exact reciprocal trace reduction leaves three nonstandard parent components over c and two over d. The six pair projections have a complete characteristic-zero and modular factor census. Their degree-five and degree-nine factors cannot meet F_(p^6), and all four remaining nonstandard linear fibers have unit forbidden saturations. A direct/resultant primary and no-import fraction-free/subresultant audit agree. Thus this chart is empty; the other seven moving-moving affine positive charts, projective boundary, and negative loci remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_trace.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_parent_c.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_parent_d.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_pairs.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_classify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_audit.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_audit_parent_c.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_audit_parent_d.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_audit_pairs.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion/verify_audit_classify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+      "order": 4723
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+      "order": 4724
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4725
+    }
+  ],
+  "refutes": []
+}

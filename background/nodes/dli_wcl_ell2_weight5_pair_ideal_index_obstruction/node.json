@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 881,
+  "node": {
+    "id": "dli_wcl_ell2_weight5_pair_ideal_index_obstruction",
+    "title": "DLI ell=2 weight-5 pair router admits an exact cyclotomic ideal-index obstruction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For each legal normalized router pair at order M, clear the two final-pair membership equations to elements F,G of Z[zeta_M]. If the block multiplication matrix L=[M_F M_G] has full rational row rank, its maximal determinantal divisor Delta=[Z[zeta_M]:(F,G)] is divisible by every split-row characteristic supporting that pair. Delta is invariant under odd Galois dilation. Hence the official (ell,w)=(2,5) slot has an exact finite certificate: one pair per odd-dilation orbit at M=1024 and exclusion of every Delta factor q<2^256 with v_2(q-1)>=41. The reduction is proved; that production certificate is not yet complete.",
+    "refs": [
+      "background/nodes/dli_wcl_ell2_weight5_pair_ideal_index_obstruction/statement.md",
+      "background/nodes/dli_wcl_ell2_weight5_pair_ideal_index_obstruction/proof.md",
+      "background/nodes/dli_wcl_ell2_weight5_pair_ideal_index_obstruction/verify.py",
+      "experiments/prize_resolution/dli_wcl_pair_ideal_index_probe_modal.py",
+      "experiments/prize_resolution/dli_wcl_pair_ideal_index_probe_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_ell2_weight5_pair_quadratic_router",
+      "order": 1543
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_zone_coverage",
+      "order": 1544
+    }
+  ],
+  "refutes": []
+}

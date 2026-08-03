@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 192,
+  "node": {
+    "id": "zone_b",
+    "title": "Zone-(b): e1 value-set collisions, 80<N'<512 (= perfiber at sigma=1)",
+    "status": "CONDITIONAL",
+    "key": true,
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ],
+    "statement": "On an admissible clean-anchor row in the pair-feasible class |F_p(Q)|>=b_pair_min(K,B*), determine the exact ambient image of e1 on characteristic-zero antipodal-rearrangement classes and prove it exceeds B*. At the current clean predecessors the actual quotient orders are N=256 for rates 1/4,1/8 and N=512 for rate 1/16; folded dimensions are 128,128,256. Conditional on e1_fullness this supplies a route-local direct-value payload, not universal unsafe coverage.",
+    "attack_surface": "prove the exact pointwise collision-pair allowance, certify the image directly, or replace E1 on the row",
+    "falsifier": "a candidate-class row whose exact ambient E1 image is at most B*, or a purported certificate that confuses quotient order, folded dimension, or ambient field",
+    "notes": "FINITE SCOPE CORRECTION 2026-07-26: qualitative o(1) fullness and generic collided labels are not prize certificates. Historical N=128 experiments do not pay the live clean anchors. This node remains route-local and no longer a req parent of mca_unsafe."
+  },
+  "requires": [
+    {
+      "from": "collision_norm_criterion",
+      "order": 560
+    },
+    {
+      "from": "e1_fullness",
+      "order": 866
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "mca_unsafe",
+      "order": 18
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 517
+    }
+  ],
+  "refutes": []
+}

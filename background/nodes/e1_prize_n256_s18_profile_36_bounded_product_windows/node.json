@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 137,
+  "node": {
+    "id": "e1_prize_n256_s18_profile_36_bounded_product_windows",
+    "title": "Prize N=256 profile-(3,6) bounded product windows",
+    "status": "PROVED",
+    "closure": "capped moment extremum plus exact rational certificate",
+    "refs": [
+      "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/statement.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/proof.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/claim_contract.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/dependency_subdag.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/audit.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/result.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/source_pin.json",
+      "background/nodes/e1_prize_n256_s18_profile_36_bounded_product_windows/verify.py"
+    ],
+    "statement": "On prize-envelope N=256 rows, the nine residual profile-(3,6,S=18) cofactor windows have upper variance endpoints 284,266,254,216,170,130,60,34,34 for cofactors 2,4,8,16,32,64,256,512,514. The capped two-moment envelope is certified by 11023 exact rational comparisons.",
+    "notes": "ROUTE CONTRACTION 2026-07-28: includes all upper-cap strata k=0,...,7 and certifies a surviving preceding boundary for every cofactor. No collision class is declared empty."
+  },
+  "requires": [
+    {
+      "from": "e1_prize_n256_s18_profile_36_cofactor_windows",
+      "order": 4435
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4436
+    },
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4437
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4438
+    }
+  ],
+  "refutes": []
+}

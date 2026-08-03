@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 792,
+  "node": {
+    "id": "f3_h3_nonswap_moment_68",
+    "title": "The H3 non-swap moment controls weighted Mobius excess",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/f3_h3_nonswap_moment_68/proof.md",
+      "background/nodes/f3_h3_nonswap_moment_68/verify.py"
+    ],
+    "statement": "PROVED REDUCTION. Put D(t)=#{a in A:a^2=t} and S_ns=sum_{t!=1}[P(t)(P(t)-2)+D(t)]R(t). Then 136X_35<=S_ns, so the estimate S_ns<=68n^2 would close f3_h3_mobius_excess_half. Here S_ns counts exactly the product-product-quotient incidences whose product representations are neither equal nor swaps. It is also exactly the number of quadruples (lambda,a,b,c) with a,lambda*a,b,b/lambda,c,abc in A, lambda!=1, lambda!=b/a, and ab!=1. The compiler constant is sharp at product multiplicities 68,69,70. This node proves the reduction only; the uniform 68n^2 estimate remains open work on the critical leaf."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1329
+    }
+  ],
+  "refutes": []
+}

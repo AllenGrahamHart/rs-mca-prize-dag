@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 860,
+  "node": {
+    "id": "pma_sigma_one_d3_diffuse_hyperplane_reduction",
+    "title": "PMA sigma-one diffuse defect-three hyperplane reduction",
+    "status": "PROVED",
+    "statement": "Every finite sigma=1 diffuse (d,r)=(3,0) source object yields a nonzero five-point divided-difference hyperplane in the elementary symmetric coefficients of its split cubic core locator. Each fixed hyperplane contains fewer than (k-1)^2/2 split locators, giving the field-independent aggregate bound 16(k-1)^2 C((n-k)/2,5). The remaining endpoint is a one-power aggregate saving or a global owner, not an arbitrary auxiliary list.",
+    "refs": [
+      "background/nodes/pma_sigma_one_d3_diffuse_hyperplane_reduction/statement.md",
+      "background/nodes/pma_sigma_one_d3_diffuse_hyperplane_reduction/proof.md",
+      "background/nodes/pma_sigma_one_d3_diffuse_hyperplane_reduction/audit.md",
+      "background/nodes/pma_sigma_one_d3_diffuse_hyperplane_reduction/claim_contract.md",
+      "background/nodes/pma_sigma_one_d3_diffuse_hyperplane_reduction/dependency_subdag.md",
+      "background/nodes/pma_sigma_one_d3_diffuse_hyperplane_reduction/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_source_paving_bridge",
+      "order": 1434
+    },
+    {
+      "from": "pma_sigma_one_d3_full_petal_payment",
+      "order": 1435
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 1436
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1456
+    }
+  ],
+  "refutes": []
+}

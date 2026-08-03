@@ -1,0 +1,47 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1274,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_pure_fourth_root_primary_exclusion",
+    "title": "Budget-three fiber-two c=2 pure fourth-root denominators fail the official primary gap",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the maximal official c=2 mismatch row, H=2^37+1 and the first required primary zero is a_(2H-2)=a_(2^38). A scaled pure fourth-root denominator normalizes to E(z)=1-z^4, whose coefficient at that index is (1/4)_(2^36)/(2^36)!. The official characteristic exceeds 2^40, so every numerator and denominator factor is nonzero. Hence the coefficient cannot vanish and this denominator geometry is excluded. No rigidity implication from the primary or secondary gaps to this geometry is asserted.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_pure_fourth_root_primary_exclusion/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_pure_fourth_root_primary_exclusion/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_pure_fourth_root_primary_exclusion/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_pure_fourth_root_primary_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_pure_fourth_root_primary_exclusion/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_pure_fourth_root_primary_exclusion/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_pure_fourth_root_primary_exclusion/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_pure_fourth_root_primary_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_list_fiber_two_cycle_c2_normalized_small_order_census.py",
+      "experiments/prize_resolution/rate_half_list_fiber_two_cycle_c2_normalized_small_order_census_result.json",
+      "experiments/prize_resolution/rate_half_list_fiber_two_cycle_c2_normalized_small_order_census_result.md",
+      "experiments/prize_resolution/rate_half_list_fiber_two_cycle_c2_normalized_small_order_census_check.py",
+      "experiments/prize_resolution/rate_half_list_primary_gap_rigidity_sweep.py",
+      "experiments/prize_resolution/rate_half_list_primary_gap_rigidity_sweep_result.json",
+      "experiments/prize_resolution/rate_half_list_primary_gap_rigidity_sweep_result.md",
+      "experiments/prize_resolution/rate_half_list_primary_gap_rigidity_sweep_check.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+      "order": 2674
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler",
+      "order": 2675
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2676
+    }
+  ],
+  "refutes": []
+}

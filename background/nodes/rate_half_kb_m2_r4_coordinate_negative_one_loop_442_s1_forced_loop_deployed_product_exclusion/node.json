@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1527,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion",
+    "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S1 forced-loop deployed product exclusion",
+    "status": "PROVED",
+    "closure": "raw unit-ideal deletion of both forced-loop S1 cells in the representative common sign row",
+    "statement": "In common sign row (1,1), force the S1 loop product -d^2=m. The element -m is a nonsquare in each cubic common component, so adjoining theta with theta^2=-m gives two genuine degree-six fields. For both outside parity signs, the three uniform sextic equations have 17 monomials and exact Buchberger reduction reaches the unit ideal in both fields, after 57 S-pairs for delta=-1 and 55 for delta=+1. Thus the final two S1 cells in this row are empty, all ten representative-row S1 cells are deleted, and the accepted four-row frontier falls from 72 to 70.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+      "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py",
+      "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_loop_buchberger.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion",
+      "order": 3502
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler",
+      "order": 3503
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3504
+    }
+  ],
+  "refutes": []
+}

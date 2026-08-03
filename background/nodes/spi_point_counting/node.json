@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 359,
+  "node": {
+    "id": "spi_point_counting",
+    "title": "SPI stage 2: points of D_j on components \u2014 low-dim components contribute poly",
+    "status": "CONDITIONAL",
+    "statement": "For each component V of dim below threshold: #(V cap D_j) <= poly(n). HONEST NOTE: this is where the core resurfaces in the SPI dialect \u2014 D_j is a special finite set, not generic points, so Lang-Weil-type counting does not apply verbatim; the divisor structure must enter.",
+    "refs": [
+      "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#5"
+    ],
+    "notes": "CONDITIONAL (Pro Theorem J): conj_f (PROVED) + hankel_slope_large_sieve => R2 with B = C_F + C_Sigma. Honest: the sieve IS R2 factorized \u2014 the gain is that the fiber factor is now settled by Conjecture F and the residue is purely the XR exchange wall, where the campaign has machinery (Johnson expansion, exchange ledgers). | Wired as an alt route into r2_rigidity (Theorem J). When the diffuse-shadow leaf lands, this chain greens, r2_rigidity discharges (reqs already all green), and the general R2 becomes available to the terminal cluster alongside the compiled XR route."
+  },
+  "requires": [
+    {
+      "from": "spi_component_control",
+      "order": 573
+    },
+    {
+      "from": "conj_f",
+      "order": 863
+    },
+    {
+      "from": "hankel_slope_large_sieve",
+      "order": 864
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "r2_rigidity",
+      "order": 867
+    }
+  ],
+  "refutes": []
+}

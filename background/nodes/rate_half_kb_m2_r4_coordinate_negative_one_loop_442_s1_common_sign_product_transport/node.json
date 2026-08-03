@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1528,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport",
+    "title": "KoalaBear m2 r4 coordinate negative one-loop 442 S1 common-sign product transport",
+    "status": "PROVED",
+    "closure": "coefficient-identical transport of all ten S1 product-cell exclusions across the four common sign rows",
+    "statement": "Under the canonical maps from every common root-sign row to either deployed cubic component K_j, the reconstructed common values c and forced mate m have the same exact coefficient triples. The product involution, the eight rational forced-record S1 residual sextics, and the two forced-loop sextics depend only on b,c,m and outside parity; the loop extension theta^2=-m also has the same nonsquare class. Hence the ten representative-row product exclusions transport coefficient for coefficient to all four rows. All forty S1 cells are empty and the accepted invariant-cell frontier falls from 70 to 40, leaving six S0 and four S2 cells per row.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_one_loop_442_common_sign_product_transport.py",
+      "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_deployed_cell.py",
+      "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_quotient_buchberger.py",
+      "experiments/prize_resolution/rate_half_kb_one_loop_442_s1_loop_buchberger.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion",
+      "order": 3505
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler",
+      "order": 3506
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+      "order": 3507
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3508
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1201,
+  "node": {
+    "id": "xr_nondeep_tangent_supportwise_payment",
+    "title": "Universal nondeep tangent support-wise payment",
+    "status": "REFUTED",
+    "statement": "REFUTED: outside 3(n-A)<=n-K, a received pair jointly explained on at least A coordinates need not have at most n-A+1 support-wise MCA-bad slopes. In RS[F_17,mu_8,2] at A=3, the pair u=(0,0,0,0,0,0,1,1), v=(0,0,0,0,0,0,1,2) is jointly zero on six coordinates but has eight exact-A bad slopes, exceeding 6. The witness supports are distinct, low-core, aperiodic, and not an x->x^2 pullback. This is not an official-row refutation.",
+    "refs": [
+      "background/nodes/xr_nondeep_tangent_supportwise_payment/statement.md",
+      "background/nodes/xr_nondeep_tangent_supportwise_payment/refutation.md",
+      "background/nodes/xr_nondeep_tangent_supportwise_payment/claim_contract.md",
+      "background/nodes/xr_nondeep_tangent_supportwise_payment/dependency_subdag.md",
+      "background/nodes/xr_nondeep_tangent_supportwise_payment/audit.md",
+      "background/nodes/xr_nondeep_tangent_supportwise_payment/result.md",
+      "background/nodes/xr_nondeep_tangent_supportwise_payment/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 2477
+    }
+  ],
+  "refutes": []
+}

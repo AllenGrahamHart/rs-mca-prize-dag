@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 536,
+  "node": {
+    "id": "l1_received_word_barycentric_q_scope_fence",
+    "title": "L1 received-word barycentric Q scope fence",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every a-support A and received word U, vanishing of the top w=a-k coefficients of I_A(U) is equivalent to the w barycentric moments sum_(x in A) U(x)x^j/L_A'(x)=0. These weights depend on the complete moving support. A depth-one F_7 witness has two supports with the same locator prefix and different received-word prefixes, and a nonzero four-support exchange defect excludes a literal affine fixed-column representation. Therefore upstream locator-prefix row-sharp Q does not directly apply to L1 exact shells; the global route requires a new received-word barycentric prefix-flatness theorem or an explicit map-and-owner transport. This does not exclude nonlinear or chart-specific transport.",
+    "refs": [
+      "background/nodes/l1_received_word_barycentric_q_scope_fence/statement.md",
+      "background/nodes/l1_received_word_barycentric_q_scope_fence/proof.md",
+      "background/nodes/l1_received_word_barycentric_q_scope_fence/claim_contract.md",
+      "background/nodes/l1_received_word_barycentric_q_scope_fence/dependency_subdag.md",
+      "background/nodes/l1_received_word_barycentric_q_scope_fence/audit.md",
+      "background/nodes/l1_received_word_barycentric_q_scope_fence/lineage.md",
+      "background/nodes/l1_received_word_barycentric_q_scope_fence/upstream_crosswalk.md",
+      "background/nodes/l1_received_word_barycentric_q_scope_fence/verify.py",
+      "background/nodes/l1_received_word_barycentric_q_scope_fence/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_exact_shell_prefix_hankel_bridge",
+      "order": 2904
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2905
+    }
+  ],
+  "refutes": []
+}

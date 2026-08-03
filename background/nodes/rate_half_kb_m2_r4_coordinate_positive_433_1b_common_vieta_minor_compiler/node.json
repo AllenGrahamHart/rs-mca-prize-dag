@@ -1,0 +1,49 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1482,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
+    "title": "KoalaBear m2 r4 positive 433-1b common Vieta minor compiler",
+    "status": "PROVED",
+    "closure": "exact all-row symbolic determinant compilation and guard stripping",
+    "statement": "The five common 433-1b records have fifteen assignments to two opposite source pairs and a singleton, with four source-root sign rows each. On the base-rank-six stratum, the 10 x 8 common Vieta system has rank at most seven exactly when six explicit 8 x 8 minors vanish. Exact Modal compilation completes all 60 rows in raw and guard-stripped modes: the 360 stripped minors have degrees 8..14, term range 20..100, and 165 distinct digests. Base-rank drop, common-point classification, and route exclusion remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_common_vieta_compiler.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_common_vieta_compiler_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_common_vieta_compiler_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+      "order": 3347
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+      "order": 3348
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+      "order": 3349
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3350
+    }
+  ],
+  "refutes": []
+}

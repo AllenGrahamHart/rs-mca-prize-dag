@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 627,
+  "node": {
+    "id": "sov_nonconstant_affine_character_cancellation",
+    "title": "SOV nonconstant affine character cancellation",
+    "status": "PROVED",
+    "statement": "For any finite-dimensional affine space over the row field, any nontrivial additive character, and any affine-linear coefficient map with nonzero linear part, the nontrivial character sum over the affine space is zero. For a disjoint partition into such affine pieces plus an exceptional set, the total character sum is bounded by the exceptional-set size.",
+    "attack_surface": "finite-field additive-character orthogonality on a nonconstant affine map",
+    "falsifier": "a nonconstant affine-linear map over a finite field whose nontrivial additive character sum is nonzero"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1121
+    }
+  ],
+  "refutes": []
+}

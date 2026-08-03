@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 608,
+  "node": {
+    "id": "e1_exceptional_set_reduction",
+    "title": "E1 reduction to explicit exceptional prime set",
+    "status": "PROVED",
+    "statement": "The e1_fullness problem reduces to control of an explicit exceptional set of row primes: every non-quotient e1 collision outside the paid antipodal class forces the admissible row prime to divide one of the nonzero bounded cyclotomic norms supplied by collision_norm_criterion; equivalently it is a sparse folded kernel vector in the lattice model. Small swap-distance pairs are already excluded by the proved radius threshold.",
+    "attack_surface": "assembly of proved norm-divisor, sparse-kernel, radius, and almost-all-primes reductions",
+    "falsifier": "a non-quotient e1 collision outside the norm-divisor exceptional set"
+  },
+  "requires": [
+    {
+      "from": "collision_norm_criterion",
+      "order": 921
+    },
+    {
+      "from": "kernel_lattice_reframing",
+      "order": 922
+    },
+    {
+      "from": "graded_collision_radius",
+      "order": 923
+    },
+    {
+      "from": "are_exceptional_density",
+      "order": 924
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

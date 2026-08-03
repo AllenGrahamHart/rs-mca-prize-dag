@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1303,
+  "node": {
+    "id": "xr_rank_two_four_anchor_quadric_centroid_atlas",
+    "title": "XR four-anchor rank-two trades form a quadric centroid atlas",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_rank_two_four_anchor_quadric_centroid_atlas/statement.md",
+      "background/nodes/xr_rank_two_four_anchor_quadric_centroid_atlas/proof.md",
+      "background/nodes/xr_rank_two_four_anchor_quadric_centroid_atlas/claim_contract.md",
+      "background/nodes/xr_rank_two_four_anchor_quadric_centroid_atlas/dependency_subdag.md",
+      "background/nodes/xr_rank_two_four_anchor_quadric_centroid_atlas/verify.py",
+      "background/nodes/xr_rank_two_four_anchor_quadric_centroid_atlas/verify_audit.py",
+      "background/nodes/xr_rank_two_four_anchor_quadric_centroid_atlas/audit.md",
+      "background/nodes/xr_rank_two_four_anchor_quadric_centroid_atlas/result.md"
+    ],
+    "statement": "Relative to the canonical four anchor columns of a coefficient-rank-four uniform rank-two trade, every non-anchor has support-three/four coordinates on one explicit smooth split quadric Q_B=sum_(i<j)(gamma_j-gamma_i)(c_i d_j-d_i c_j) beta_i beta_j. These coordinates give its four/five-block fundamental owner, and their exact affine centroid is (-1,-1,-1,-1). Conversely the quadric, centroid, finite-slope, and distinct-projection conditions give the complete coefficient-level q=4 atlas. Realized support embeddings, first-core selection, and aggregate payment remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_rank_two_fundamental_circuit_owner",
+      "order": 2768
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 2769
+    }
+  ],
+  "refutes": []
+}

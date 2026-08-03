@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1279,
+  "node": {
+    "id": "f3_h3_dsp8_nodal_decoration_class_discount_no_go",
+    "title": "DSP8 nodal decoration class-discount no-go",
+    "status": "PROVED",
+    "closure": "exact finite counterexample",
+    "statement": "Over F_769 with the order-256 subgroup, an explicit signed-disjoint pair of singular product-one triples has all nine decorations nonidentity, P>=72 and R>=79, while seven decorations are antipodal. Thus no row-independent 4/9, 5/9, or 2/3 antipodal class discount follows from nodality, decoration, signed disjointness, richness, and quotient support alone. Since 769<256^2, this is a route fence and not an official-row or DSP8 counterexample; a surviving class discount must genuinely use official field size or cross-target arithmetic.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_nodal_decoration_class_discount_no_go/statement.md",
+      "background/nodes/f3_h3_dsp8_nodal_decoration_class_discount_no_go/proof.md",
+      "background/nodes/f3_h3_dsp8_nodal_decoration_class_discount_no_go/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_nodal_decoration_class_discount_no_go/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_nodal_decoration_class_discount_no_go/audit.md",
+      "background/nodes/f3_h3_dsp8_nodal_decoration_class_discount_no_go/result.md",
+      "background/nodes/f3_h3_dsp8_nodal_decoration_class_discount_no_go/verify.py",
+      "background/nodes/f3_h3_dsp8_nodal_decoration_class_discount_no_go/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_dsp8_unit_product_trace_normal_form",
+      "order": 2691
+    },
+    {
+      "from": "f3_h3_dsp8_nodal_target_divisor_pruning",
+      "order": 2692
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2693
+    }
+  ],
+  "refutes": []
+}

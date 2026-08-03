@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1592,
+  "node": {
+    "id": "xr_agreement_raise_quotient_safe_sum_fence",
+    "title": "XR agreement-raise quotient support safe sum is over budget",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_agreement_raise_quotient_safe_sum_fence/statement.md",
+      "background/nodes/xr_agreement_raise_quotient_safe_sum_fence/proof.md",
+      "background/nodes/xr_agreement_raise_quotient_safe_sum_fence/claim_contract.md",
+      "background/nodes/xr_agreement_raise_quotient_safe_sum_fence/dependency_subdag.md",
+      "background/nodes/xr_agreement_raise_quotient_safe_sum_fence/verify.py",
+      "background/nodes/xr_agreement_raise_quotient_safe_sum_fence/verify_audit.py",
+      "background/nodes/xr_agreement_raise_quotient_safe_sum_fence/audit.md",
+      "background/nodes/xr_agreement_raise_quotient_safe_sum_fence/result.md"
+    ],
+    "statement": "The standard quotient-remainder support safe sum over active cells B-k<c is a valid threshold-uniform upper ledger, but at every clean XR candidate one active support-size term already exceeds B*. Thus generic support enumeration cannot pay quotient/profile migration in the agreement-raising induction. A sharper distinct-slope image/coalescing theorem, threshold-coherent first-match owner, or the static global pair-list route remains necessary; no actual quotient-union lower bound is claimed."
+  },
+  "requires": [
+    {
+      "from": "census_bounded_scales",
+      "order": 3746
+    },
+    {
+      "from": "xr_target_budget_audit",
+      "order": 3747
+    },
+    {
+      "from": "xr_mismatch_terminal_tangent_agreement_raise",
+      "order": 3748
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 3749
+    }
+  ],
+  "refutes": []
+}

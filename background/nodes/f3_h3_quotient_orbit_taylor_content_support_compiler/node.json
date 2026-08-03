@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1285,
+  "node": {
+    "id": "f3_h3_quotient_orbit_taylor_content_support_compiler",
+    "title": "H3 quotient-orbit Taylor-content support compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For each canonical quotient block q_O, let C_O,35(X)=Res_T(q_O,sum_(i=0)^35 Pcal_n^[i](T)X^i). This polynomial is nonzero, and the odd radical of its coefficient content equals the odd radical of the exact block scalar annihilator. Thus one Taylor-resultant content per block gives exact cutoff-35 prime support without Smith form or three-resultant false positives. At n=8192 there are 24,534 blocks, maximum T-degree 4,096 and maximum X-degree 143,360. No valuation, implementation, coefficient, resource, factorization, moment, or C36 bound is claimed.",
+    "refs": [
+      "background/nodes/f3_h3_quotient_orbit_taylor_content_support_compiler/statement.md",
+      "background/nodes/f3_h3_quotient_orbit_taylor_content_support_compiler/proof.md",
+      "background/nodes/f3_h3_quotient_orbit_taylor_content_support_compiler/claim_contract.md",
+      "background/nodes/f3_h3_quotient_orbit_taylor_content_support_compiler/dependency_subdag.md",
+      "background/nodes/f3_h3_quotient_orbit_taylor_content_support_compiler/audit.md",
+      "background/nodes/f3_h3_quotient_orbit_taylor_content_support_compiler/result.md",
+      "background/nodes/f3_h3_quotient_orbit_taylor_content_support_compiler/verify.py",
+      "background/nodes/f3_h3_quotient_orbit_taylor_content_support_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_quotient_orbit_canonical_resultant_manifest",
+      "order": 2717
+    },
+    {
+      "from": "f3_h3_quotient_algebra_fitting_support_compiler",
+      "order": 2718
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2719
+    },
+    {
+      "to": "f3_h3_official_order_template_survivor",
+      "order": 2720
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1653,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler",
+    "title": "L1 Mersenne HNF m=8 cubic three-two-one role-factor compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The degree-42 ordered 3+2+1 color-role polynomial factors over Q into four explicit packets of degrees 6,12,12,12 by homogenizing the seven-shape affine invariant. These four factors preserve every ordered multiplicity role.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_cubic_three_two_one_role_factor_compiler/verify.py"
+    ],
+    "notes": "Exact role-factor compiler only. Four rational packets replace 42 scalar roles or one opaque degree-42 input; no common-quadratic unit verdict is claimed."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler",
+      "order": 4014
+    },
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler",
+      "order": 4015
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4016
+    }
+  ],
+  "refutes": []
+}

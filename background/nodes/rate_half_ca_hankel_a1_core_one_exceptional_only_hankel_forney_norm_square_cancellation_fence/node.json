@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1188,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_norm_square_cancellation_fence",
+    "title": "A=1 Forney norm-square cancellation fence",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Substituting the Forney interpolation identity reduces the norm-discriminant quantity to (-1)^e Norm_A(Beta) Res(A,q_1)^2, whose first factor is already square by weighted self-duality. Thus direct evaluation from a complete packet is an audit, not an independent endpoint exclusion; only a separately derived profile formula could turn it into one.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_norm_square_cancellation_fence/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_norm_square_cancellation_fence/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_norm_square_cancellation_fence/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_norm_square_cancellation_fence/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_norm_square_cancellation_fence/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_norm_square_cancellation_fence/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_norm_square_cancellation_fence/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_norm_discriminant_square_gate",
+      "order": 2440
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_forney_numerator_normal_form",
+      "order": 2441
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2442
+    }
+  ],
+  "refutes": []
+}

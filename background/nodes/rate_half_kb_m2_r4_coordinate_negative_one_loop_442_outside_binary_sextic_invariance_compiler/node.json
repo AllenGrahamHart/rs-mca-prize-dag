@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1518,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler",
+    "title": "KoalaBear m2 r4 coordinate negative one-loop 442 outside binary-sextic invariance compiler",
+    "status": "PROVED",
+    "closure": "binary-sextic replacement of residual matchings and twenty canonical forced-record cells per common row",
+    "statement": "After choosing the outside record equal to the forced mate m, let H be the binary sextic of the six residual distinct products. They split into three pairs under the explicit trace-zero involution M iff H(M(X,Z)) is proportional to H(X,Z); injectivity rules out fixed roots. Quotienting signed forced records by representative changes and skeleton automorphisms leaves 6 S0, 10 S1, and 4 S2 invariant cells. Thus only twenty cells per common row and eighty over four sextic rows require evaluation; the 804 matching census is superseded computationally.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler",
+      "order": 3469
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+      "order": 3470
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier",
+      "order": 3471
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3472
+    }
+  ],
+  "refutes": []
+}

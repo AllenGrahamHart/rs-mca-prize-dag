@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 764,
+  "node": {
+    "id": "ww_spending_cell_fiber_layout_counterexample",
+    "title": "Unsafe spending-cell fiber-layout counterexample",
+    "status": "PROVED",
+    "statement": "At the admissible prime-field row q=1705*2^120+1, n=8192, k=2048, B*=6, the rate-quarter unsafe spending cell has six distinct printed plants. An allowed fiber-aligned layout and distinct nonzero labels admit the additional degree-(k-1) codeword g=L_(C\\D)(X)(X^256-z_0), which has at least 3328 agreements against threshold 3071. Hence the list has at least seven members. This refutes applying W3's upper inequality to the unsafe spending cell, but not W3's literal safe-side claim.",
+    "refs": [
+      "background/nodes/ww_spending_cell_fiber_layout_counterexample/proof.md",
+      "background/nodes/ww_spending_cell_fiber_layout_counterexample/audit.md",
+      "background/nodes/ww_spending_cell_fiber_layout_counterexample/verify.py",
+      "background/nodes/ww_spending_cell_fiber_layout_counterexample/verify_audit.py"
+    ],
+    "closure": "proof"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": [
+    {
+      "to": "ww_row_envelope_clause",
+      "order": 212
+    }
+  ]
+}

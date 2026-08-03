@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 805,
+  "node": {
+    "id": "exact_support_interleaving_projection",
+    "title": "Exact-support properties survive controlled interleaving projection",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/exact_support_interleaving_projection/statement.md",
+      "background/nodes/exact_support_interleaving_projection/proof.md",
+      "background/nodes/exact_support_interleaving_projection/verify.py"
+    ],
+    "statement": "For any support property P, ordinary property-filtered worst list L_P, interleaving arity m, and r=n-a<q, the exact-support interleaved list is at most floor(L_P q(q-r-1)/((q-r)^2-L_Pq)) whenever the denominator is positive. Good projections preserve the exact support; in particular P may be trivial stabilizer."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "cyclic_fiber_interleaving_descent",
+      "order": 1355
+    },
+    {
+      "to": "petal_small_scale_staircase_census",
+      "order": 1356
+    },
+    {
+      "to": "petal_g1_k4_scale_reserve",
+      "order": 1367
+    }
+  ],
+  "refutes": []
+}

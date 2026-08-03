@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 476,
+  "node": {
+    "id": "t_poly_exact_toral",
+    "title": "PROVED (X-8 task 2): exact polynomial toral components give power-pullback only",
+    "status": "PROVED",
+    "statement": "char K = 0 or > deg psi: if psi(X) - psi(Y) has a non-diagonal toral component in (G_m)^2, the component is X = lambda Y and psi = phi(X^m) (m = ord(lambda) > 1) after scaling \u2014 the monomial case ONLY. Proof: sign/degree bookkeeping kills X^A Y^B = c (positive exponents vs negative); X^A = c Y^B forces A = B = 1; psi(lambda Y) = psi(Y) forces lambda^i = 1 on all exponents. Verified here (elementary). CONSEQUENCE: Dickson/Chebyshev does NOT arise from polynomial toral components \u2014 it needs Laurent/rational psi, so T's Laurent case is load-bearing, not decorative.",
+    "refs": [
+      "experimental/notes/roadmaps/u1_proof_skeleton_ritt_route.md"
+    ],
+    "notes": "X-8 deliverable; quotient-row stable. Citations upgraded to VERIFIED-AGAINST-SOURCE by GPT Pro for: KMS quadratic factors (incl. char-p wild-case exclusions), vzGathen/Zannier Ritt II Fact 3.3, Turnwald Thm 1 (tame <=> deg < p), Corvaja-Zannier-via-Makarychev-Vyugin (WITH the essential max{n^{2/3}, 12 n^2/p} form)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u1_tame_toral_fiberproduct_classification",
+      "order": 786
+    }
+  ],
+  "refutes": []
+}

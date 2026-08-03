@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 669,
+  "node": {
+    "id": "e22_tail_removed_factor_manifest_soundness",
+    "title": "E22 tail-removed factor-manifest soundness",
+    "status": "PROVED",
+    "statement": "If a manifest supplies one common tail B, dyadic local moduli M_i>t, verifies |B|<min_i M_i, and proves that each non-tail locator L_{T_i\\B} equals a product of distinct quotient-fiber factors X^{M_i}-z, then e22_common_tail_invariance_payload holds.",
+    "attack_surface": "formal conversion from explicit quotient-factor manifest to full-fiber and kernel-invariant non-tail sets",
+    "falsifier": "a verified tail-removed quotient-factor manifest whose non-tail set is not kernel-invariant or whose tail/modulus data do not satisfy the common-tail payload"
+  },
+  "requires": [
+    {
+      "from": "e22_fiber_locator_saturation",
+      "order": 989
+    },
+    {
+      "from": "e22_kernel_invariance_full_fiber_criterion",
+      "order": 990
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1150
+    }
+  ],
+  "refutes": []
+}

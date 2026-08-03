@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1015,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_remainder_square_router",
+    "title": "Budget-three antipodal generic deleted-pair remainder-square router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "After the constant ODE and three-branch M\u00f6bius torsion router, Euclidean division gives an exact necessary-and-sufficient square test for the missing direction. The harmonic branch is one fourth-power test, and no polynomial coefficient remains free.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_remainder_square_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_remainder_square_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_remainder_square_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_remainder_square_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_remainder_square_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_remainder_square_router/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_remainder_square_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_ode",
+      "order": 1849
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_mobius_ratio_router",
+      "order": 1850
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1851
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1598,
+  "node": {
+    "id": "xr_prize_flat_nullity_effective_core_floor",
+    "title": "XR prize flat-nullity effective-core floor",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a prize P-A flat-nullity cell with affine rank a and parameters u,v, deleting the persistent roots gives exact-size residual zero sets of size kappa+h with pairwise intersection at most kappa, where kappa=a+u+v. Minimal dense-core private-point counting forces kappa>=ceil((h+1)/(2(L-2))), with L=floor((2R+h-1)/h). The prize floors are 11243370,9629972,2241633; at first open ranks 16,16,14 this forces u+v>=11243354,9629956,2241619. This is a necessary effective-core floor, not a count above it.",
+    "refs": [
+      "background/nodes/xr_prize_flat_nullity_effective_core_floor/statement.md",
+      "background/nodes/xr_prize_flat_nullity_effective_core_floor/proof.md",
+      "background/nodes/xr_prize_flat_nullity_effective_core_floor/claim_contract.md",
+      "background/nodes/xr_prize_flat_nullity_effective_core_floor/dependency_subdag.md",
+      "background/nodes/xr_prize_flat_nullity_effective_core_floor/audit.md",
+      "background/nodes/xr_prize_flat_nullity_effective_core_floor/result.md",
+      "background/nodes/xr_prize_flat_nullity_effective_core_floor/verify.py",
+      "background/nodes/xr_prize_flat_nullity_effective_core_floor/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_rs_flat_nullity_basis_charge",
+      "order": 3763
+    },
+    {
+      "from": "xr_rs_common_root_basis_charge",
+      "order": 3764
+    },
+    {
+      "from": "xr_target_budget_audit",
+      "order": 3765
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3766
+    }
+  ],
+  "refutes": []
+}

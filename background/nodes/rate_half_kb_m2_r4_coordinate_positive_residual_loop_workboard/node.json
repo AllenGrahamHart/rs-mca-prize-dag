@@ -1,0 +1,47 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1431,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard",
+    "title": "KoalaBear m2 r4 positive residual loop workboard",
+    "status": "PROVED",
+    "closure": "exact global-loop and defect reduction to five live common orbits and thirteen necessary common/outside routes",
+    "statement": "The positive coordinate common census has exactly five live orbits and seven labeled skeletons after the global loop cap and defect budget. The outside degree equations have two loop-free and four one-loop graph orbits; composing loop and defect debits leaves exactly thirteen necessary representative routes. Survival is not algebraic realizability.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_residual_loop_workboard.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
+      "order": 3152
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion",
+      "order": 3153
+    },
+    {
+      "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+      "order": 3154
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3155
+    }
+  ],
+  "refutes": []
+}

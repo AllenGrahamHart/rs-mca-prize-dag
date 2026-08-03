@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 550,
+  "node": {
+    "id": "l1_band_complement_dimension_packing",
+    "title": "L1 band complement-dimension packing",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For an exact level-m shell in 2m<=n+k-1, put omega=n-m, w=m-k, and s=omega-w=n-2m+k>=1. The balanced coefficient space has projective dimension s. Distinct codewords have agreement intersection at most k-1, so their omega-element complement root sets intersect in at most s-1 points. Hence Z_m(U)<=floor(binom(n,s)/binom(omega,s)). At linear complement density this is exp(O(s)), paying fixed s and reserve-sublinear s, but it can be exponential at the deployed linear-s frontier.",
+    "refs": [
+      "background/nodes/l1_band_complement_dimension_packing/statement.md",
+      "background/nodes/l1_band_complement_dimension_packing/proof.md",
+      "background/nodes/l1_band_complement_dimension_packing/claim_contract.md",
+      "background/nodes/l1_band_complement_dimension_packing/dependency_subdag.md",
+      "background/nodes/l1_band_complement_dimension_packing/audit.md",
+      "background/nodes/l1_band_complement_dimension_packing/lineage.md",
+      "background/nodes/l1_band_complement_dimension_packing/upstream_crosswalk.md",
+      "background/nodes/l1_band_complement_dimension_packing/verify.py",
+      "background/nodes/l1_band_complement_dimension_packing/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_exact_shell_balanced_shifted_lattice_reduction",
+      "order": 2932
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2933
+    }
+  ],
+  "refutes": []
+}

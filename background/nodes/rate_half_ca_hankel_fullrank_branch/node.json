@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 918,
+  "node": {
+    "id": "rate_half_ca_hankel_fullrank_branch",
+    "title": "Full-column-rank rate-half Hankel branch",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For r<(n-k)/2, if the (n-k-r) by (r+1) syndrome Hankel pencil has generic column rank r+1, then a fixed nonzero maximal minor of degree at most r+1 contains every slope with a nonzero kernel. Hence at most r+1 slopes carry a domain-split locator, proving the required far-CA bound in this branch. In the first official transition, only generically rank-deficient pencils remain; at the final CA-only block r=(n-k)/2, deficiency is forced by matrix dimensions.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_fullrank_branch/statement.md",
+      "background/nodes/rate_half_ca_hankel_fullrank_branch/proof.md",
+      "background/nodes/rate_half_ca_hankel_fullrank_branch/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_fullrank_branch/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_fullrank_branch/verify.py",
+      "background/nodes/rate_half_ca_hankel_fullrank_branch/audit.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_split_pencil_equivalence",
+      "order": 1652
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1653
+    }
+  ],
+  "refutes": []
+}

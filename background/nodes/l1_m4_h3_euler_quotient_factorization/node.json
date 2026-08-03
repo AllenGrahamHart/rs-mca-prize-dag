@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1628,
+  "node": {
+    "id": "l1_m4_h3_euler_quotient_factorization",
+    "title": "L1 m=4, h=3 Euler quotient factorization",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every surviving official m=4,h=3 valuation, put V=nu U+XU'. Eliminating D' between the domain derivative and Wronskian equation gives D(2aR+3b)V=H(R^3+aR+b)-4alpha U. The eliminant has H(0)!=0, and if h=deg H then V has exact degree p+h-4, between p-4 and p-nu-1. This exposes at most three top Euler-coefficient cancellations but does not exclude a remaining valuation, count components, or close L1.",
+    "refs": [
+      "background/nodes/l1_m4_h3_euler_quotient_factorization/statement.md",
+      "background/nodes/l1_m4_h3_euler_quotient_factorization/proof.md",
+      "background/nodes/l1_m4_h3_euler_quotient_factorization/claim_contract.md",
+      "background/nodes/l1_m4_h3_euler_quotient_factorization/dependency_subdag.md",
+      "background/nodes/l1_m4_h3_euler_quotient_factorization/audit.md",
+      "background/nodes/l1_m4_h3_euler_quotient_factorization/result.md",
+      "background/nodes/l1_m4_h3_euler_quotient_factorization/lineage.md",
+      "background/nodes/l1_m4_h3_euler_quotient_factorization/upstream_crosswalk.md",
+      "background/nodes/l1_m4_h3_euler_quotient_factorization/verify.py",
+      "background/nodes/l1_m4_h3_euler_quotient_factorization/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_m4_h3_cartier_resonance_reduction",
+      "order": 3863
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3864
+    }
+  ],
+  "refutes": []
+}

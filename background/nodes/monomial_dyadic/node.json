@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 310,
+  "node": {
+    "id": "monomial_dyadic",
+    "title": "Monomial dyadic descent replay packet (F_17^32 row)",
+    "status": "PROVED",
+    "refs": [
+      "experimental/notes/l1/l1_monomial_dyadic_descent_survivors.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "imgfib",
+      "order": 173
+    }
+  ],
+  "refutes": []
+}

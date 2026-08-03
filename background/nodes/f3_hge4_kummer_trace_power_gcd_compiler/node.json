@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1290,
+  "node": {
+    "id": "f3_hge4_kummer_trace_power_gcd_compiler",
+    "title": "HGE4 Kummer trace-power gcd compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For dyadic m>=8 and q=(p-1)/m, the squarefree polynomial Q_m defined by C_m(X)-2=(X^2-4)Q_m(X)^2 has exactly the nontrivial mu_m trace values as roots. Taking M=m for even q and M=m/2 for odd q, the exact number of traces passing the Kummer power gate is the degree of gcd(Q_M, (-(X+2)/8)^q-1) over F_p. The exponent is evaluated modulo Q_M. Nonconstant exact controls show this is a candidate compiler, not an emptiness or orbit theorem.",
+    "refs": [
+      "background/nodes/f3_hge4_kummer_trace_power_gcd_compiler/statement.md",
+      "background/nodes/f3_hge4_kummer_trace_power_gcd_compiler/proof.md",
+      "background/nodes/f3_hge4_kummer_trace_power_gcd_compiler/claim_contract.md",
+      "background/nodes/f3_hge4_kummer_trace_power_gcd_compiler/dependency_subdag.md",
+      "background/nodes/f3_hge4_kummer_trace_power_gcd_compiler/audit.md",
+      "background/nodes/f3_hge4_kummer_trace_power_gcd_compiler/result.md",
+      "background/nodes/f3_hge4_kummer_trace_power_gcd_compiler/verify.py",
+      "background/nodes/f3_hge4_kummer_trace_power_gcd_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_kummer_midpoint_trace_power_gate",
+      "order": 2734
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2735
+    }
+  ],
+  "refutes": []
+}

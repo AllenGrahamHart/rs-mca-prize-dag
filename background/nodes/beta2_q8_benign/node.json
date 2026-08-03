@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 284,
+  "node": {
+    "id": "beta2_q8_benign",
+    "title": "Q8 locus benign for every psi (interior roots)",
+    "status": "PROVED",
+    "refs": [
+      "experimental/notes/m1/m1_beta2_conditional_close.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 721,
+  "node": {
+    "id": "f3_moment_bookkeeping_program",
+    "status": "PROVED",
+    "statement": "F3 MOMENT BOOKKEEPING PROGRAM (2026-07-08/09, Codex flip branch, replayed; identity + proved reductions; named gates stay open): EXACT identity M = trivial + 72*T3 + repeat_residue over H^3 x H^3 signature coincidences sigma = (e1, e2), trivial = 36*C(n,3) + 9n(n-1) + n, factor 72 exact. Residue chain: repeat_residue <= (72*tau_coord + 18)n^2 where tau_coord = min hitting set of the active coordinate hypergraph (elementary <= 2-solutions fiber bound, no Stepanov); active edges have exact form xy + xz + yz = 0 (shifted), = 3-point H-fibers of A_lambda(T), S3-Mobius orbit structure; same-lambda obstruction product = -numerator(J(z) - J(y)) for J(z) = (1+z+z^2)^3/(z^2(1+z)^2). Boundary row (256, 65537) CERTIFIED: payment 5898240 < 256^3. Star reduction: tau_coord > 1 iff a <= 4-edge empty-intersection configuration; contrast row (97,32) has tau = 7, so the star theorem is boundary-regime only. OPEN: six strict branch gates (frontier ledger) + the M-side upper bound (sixth-moment-of-character-sums class; explicitly NOT assumed). If star holds in boundary regime: repeat_residue <= 90n^2 pays every official row."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u1_x4_direct_column_budget",
+      "order": 1237
+    }
+  ],
+  "refutes": []
+}

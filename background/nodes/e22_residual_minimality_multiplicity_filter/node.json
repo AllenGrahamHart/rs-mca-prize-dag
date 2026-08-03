@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 668,
+  "node": {
+    "id": "e22_residual_minimality_multiplicity_filter",
+    "title": "E22 residual minimality/multiplicity filter",
+    "status": "PROVED",
+    "statement": "Apply the lower-scale nonadmissibility conditions |B_M'(R)|>=M' for every dyadic M'<M_i and the declared dyadic_profile_evaluation multiplicity to the residual-profile generating function, yielding the exact overlap formula O_{i,j} for every dyadic pair M_i<M_j. This is reduced to the proved finite lower-scale inclusion-exclusion identity and the remaining exact intersection-profile counts with multiplicity.",
+    "attack_surface": "assembly from lower-scale inclusion-exclusion and the remaining intersection-profile formulas with pricing multiplicity",
+    "falsifier": "a support passing the residual budget but failing minimality or multiplicity, or a minimal support removed by the filter"
+  },
+  "requires": [
+    {
+      "from": "e22_lower_scale_filter_inclusion_exclusion",
+      "order": 1017
+    },
+    {
+      "from": "e22_lower_scale_intersection_profile_counts",
+      "order": 1029
+    },
+    {
+      "from": "e22_minimal_scale_partition",
+      "order": 1030
+    },
+    {
+      "from": "dyadic_profile_evaluation",
+      "order": 1031
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1149
+    }
+  ],
+  "refutes": []
+}

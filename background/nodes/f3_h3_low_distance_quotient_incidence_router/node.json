@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1001,
+  "node": {
+    "id": "f3_h3_low_distance_quotient_incidence_router",
+    "title": "H3 low-distance edge-quotient incidence router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The selected moment M_33 is exactly 2|I_4|+|I_6| for a canonically oriented four-variable/two-subgroup-membership rational system. The distance-four cross-overlap and antipodal lanes each reduce further to a three-variable/two-membership cover.",
+    "refs": [
+      "background/nodes/f3_h3_low_distance_quotient_incidence_router/statement.md",
+      "background/nodes/f3_h3_low_distance_quotient_incidence_router/proof.md",
+      "background/nodes/f3_h3_low_distance_quotient_incidence_router/claim_contract.md",
+      "background/nodes/f3_h3_low_distance_quotient_incidence_router/dependency_subdag.md",
+      "background/nodes/f3_h3_low_distance_quotient_incidence_router/audit.md",
+      "background/nodes/f3_h3_low_distance_quotient_incidence_router/result.md",
+      "background/nodes/f3_h3_low_distance_quotient_incidence_router/verify.py",
+      "background/nodes/f3_h3_low_distance_quotient_incidence_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_high_excess_low_distance_moment_reduction",
+      "order": 1898
+    },
+    {
+      "from": "f3_h3_distance_four_cross_overlap_router",
+      "order": 1899
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1900
+    }
+  ],
+  "refutes": []
+}

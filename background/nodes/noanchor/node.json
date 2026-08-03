@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 230,
+  "node": {
+    "id": "noanchor",
+    "title": "prop:noanchor: char-0-anchor methods foreclosed",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#3"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": [
+    {
+      "to": "route_prime_avg",
+      "order": 67
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1597,
+  "node": {
+    "id": "xr_quotient_global_core_collision_router",
+    "title": "XR quotient images route by their global fiber core",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_quotient_global_core_collision_router/statement.md",
+      "background/nodes/xr_quotient_global_core_collision_router/proof.md",
+      "background/nodes/xr_quotient_global_core_collision_router/claim_contract.md",
+      "background/nodes/xr_quotient_global_core_collision_router/dependency_subdag.md",
+      "background/nodes/xr_quotient_global_core_collision_router/verify.py",
+      "background/nodes/xr_quotient_global_core_collision_router/verify_audit.py",
+      "background/nodes/xr_quotient_global_core_collision_router/audit.md",
+      "background/nodes/xr_quotient_global_core_collision_router/result.md"
+    ],
+    "statement": "Across the agreement induction at rates at most 1/4, first-match maximum-agreement quotient slopes have a global key consisting of their rate-preserving scale and k-point full-fiber core. Keys used once have total count at most the existing conservative B_quot_ub(A_0). Every repeated key supplies live slopes sharing a size-k core, hence routes to P-A on the generic branch and to the existing mismatch bridge otherwise. Quotient tails, thresholds, and support counts create no separate multiplicity. [R2 ADDENDUM 2026-08-02: the key core is a SUB-core, so a repeated key certifies a shared core of size >= k; under the partition of record it routes to P-A1 (max core = k) or the band column xr_graded_tangent_band_charge (core >= k+1) on the generic branch \u2014 the former '= k' reading was under-inclusive.]"
+  },
+  "requires": [
+    {
+      "from": "xr_quotient_max_agreement_first_match_owner",
+      "order": 3759
+    },
+    {
+      "from": "xr_target_budget_audit",
+      "order": 3760
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 3761
+    },
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3762
+    }
+  ],
+  "refutes": []
+}

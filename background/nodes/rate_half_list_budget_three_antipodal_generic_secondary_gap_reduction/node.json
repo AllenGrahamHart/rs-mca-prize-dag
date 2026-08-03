@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1008,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_secondary_gap_reduction",
+    "title": "Budget-three antipodal generic secondary-gap reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the maximal official generic floor, after the monic direction U is fixed by the fourth-root truncation, the normalized reverse of V is fixed modulo z^h by a square-root series determined by the deleted divisor. Since deg V=h-3, its coefficients at h-2=2^36-1 and h-1=2^36 must both vanish.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_secondary_gap_reduction/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_secondary_gap_reduction/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_secondary_gap_reduction/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_secondary_gap_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_secondary_gap_reduction/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_secondary_gap_reduction/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_secondary_gap_reduction/verify.py",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_secondary_gap_reduction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_fourth_root_gap_reduction",
+      "order": 1830
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1831
+    }
+  ],
+  "refutes": []
+}

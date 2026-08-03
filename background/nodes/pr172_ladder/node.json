@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 278,
+  "node": {
+    "id": "pr172_ladder",
+    "title": "PR #172 deficiency-1 experiment (tests P3)",
+    "status": "TARGET",
+    "refs": [
+      "wp_detail/wp2_6_underdetermined_program.md"
+    ],
+    "closure": "computation",
+    "notes": "TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "spi_dim1",
+      "order": 89
+    }
+  ],
+  "refutes": []
+}

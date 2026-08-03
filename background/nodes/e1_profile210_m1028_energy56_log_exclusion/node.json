@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 158,
+  "node": {
+    "id": "e1_profile210_m1028_energy56_log_exclusion",
+    "title": "E1 profile-(2,10) cofactor-1028 energy-five/six exclusion",
+    "status": "PROVED",
+    "closure": "bounded-deviation logarithm majorant with exact rational margins",
+    "refs": [
+      "background/nodes/e1_profile210_m1028_energy56_log_exclusion/statement.md",
+      "background/nodes/e1_profile210_m1028_energy56_log_exclusion/proof.md",
+      "background/nodes/e1_profile210_m1028_energy56_log_exclusion/claim_contract.md",
+      "background/nodes/e1_profile210_m1028_energy56_log_exclusion/dependency_subdag.md",
+      "background/nodes/e1_profile210_m1028_energy56_log_exclusion/audit.md",
+      "background/nodes/e1_profile210_m1028_energy56_log_exclusion/result.md",
+      "background/nodes/e1_profile210_m1028_energy56_log_exclusion/frontier.md",
+      "background/nodes/e1_profile210_m1028_energy56_log_exclusion/verify.py"
+    ],
+    "statement": "No binding-row profile-(2,10,S=18) collision with cofactor 1028 has autocorrelation energy five or six. Integer autocorrelations bound every conjugate deviation by 12; a rationally certified quadratic logarithm majorant then forces the norm below 1028 times the prize field floor. The live energy set contracts to {2,3,4}.",
+    "notes": "ANALYTIC LOW-ENERGY CONTRACTION 2026-07-29: the proof uses exact atanh and exponential rational bounds, not a support or norm census. It removes the proposed energy-five/six compute campaign. Energies two through four and all 128 prime ideals above 257 remain; no E1 close or Prize movement."
+  },
+  "requires": [
+    {
+      "from": "e1_profile210_split_prime_ideal_router",
+      "order": 4556
+    },
+    {
+      "from": "e1_s18_m1028_global_energy_window",
+      "order": 4557
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4558
+    }
+  ],
+  "refutes": []
+}

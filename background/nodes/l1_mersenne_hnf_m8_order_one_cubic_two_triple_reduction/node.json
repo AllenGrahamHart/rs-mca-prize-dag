@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1709,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction",
+    "title": "L1 Mersenne HNF m=8 order-one cubic two-triple reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "If a cubic colored interpolant sends the six reduced h=7 roots to exactly two colors with multiplicities 3+3, the two full cubic fibers factor L. Coefficient comparison adds q_2(d)r^2+q_1(d)r+q_0(d)=0; intersecting it with the residual conic gives the fixed degree-fourteen polynomial R_33 with leading coefficient -576000 and 32 norm-fiber gcd endpoints.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_two_triple_reduction/verify.py"
+    ],
+    "notes": "Exact necessary reduction for the 3+3 cubic color partition only. The 32 norm-gcd verdicts are unrun because Modal is spend-blocked; all other cubic partitions remain open."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_next_to_maximal_hypergeometric_normal_form",
+      "order": 3989
+    },
+    {
+      "from": "l1_mersenne_hnf_order_one_color_degree_barrier",
+      "order": 3990
+    },
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_conic_reduction",
+      "order": 3991
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3992
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 362,
+  "node": {
+    "id": "pma_aux_list_reduction",
+    "title": "PMA stage 1: mixed-petal extras = RS list of the auxiliary pieced word (one level down)",
+    "status": "PROVED",
+    "statement": "Fix defect set D (|D| = d) and background R_P. Non-planted extras inject (P -> W_P, proved unique) into the list of degree-<=d polynomials agreeing with the auxiliary word U*(x) = c_i L_D(x) on T_i (well-defined: petals disjoint) at agreement N = d+1+sigma-|R_P|, with W = 0 on R_P. The D-choice entropy C(k-1,d) is charged to the reserve \u2014 the same budget line as all locator combinatorics.",
+    "refs": [
+      "experimental/notes/l1/l1_full_list_quotient_proof_program.md"
+    ],
+    "notes": "elementary from the PROVED core-defect lemma; turns the amplification problem into list decoding at degree d | IN FLIGHT: #197 | FLIP on replay (Codex wave 5): PROVABLE -> PROVED."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_mixed_amplification",
+      "order": 582
+    },
+    {
+      "to": "pma_wide_residual",
+      "order": 586
+    }
+  ],
+  "refutes": []
+}

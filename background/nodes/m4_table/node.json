@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 242,
+  "node": {
+    "id": "m4_table",
+    "title": "M4 deduped table (zone-b as intervals)",
+    "status": "TARGET",
+    "refs": [
+      "wp_detail/wp_consolidation_sketch_extracts.md"
+    ],
+    "statement": "Script-emitted per-A table: tan/quot(zones, intervals)/ext/ap columns, deduped total vs B*, checker-recomputed.",
+    "closure": "artifact"
+  },
+  "requires": [
+    {
+      "from": "strat_tree",
+      "order": 80
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "window_program",
+      "order": 79
+    },
+    {
+      "to": "compiler",
+      "order": 118
+    }
+  ],
+  "refutes": []
+}

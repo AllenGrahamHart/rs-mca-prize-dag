@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 946,
+  "node": {
+    "id": "f3_h3_double_accident_derivative_ideal",
+    "title": "Joint derivative ideal detects exactly the C36' double-accident primes",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For each of the 29 official dyadic orders, quotient separation unit-normalizes the cutoff-18 product derivative ideal on every R=1 fiber using exponent B_n=min(n-19,ceil(33n^(2/3))-19). The resulting odd integer f_n divides gcd(e_n,h_n^B_n), where h_n is the odd quotient-discriminant integer, and satisfies p^Y_18|f_n and p|f_n iff Y_18>0 for every official row prime. Thus primes outside f_n close C36', while the global discriminant-height envelope is quantitatively insufficient and a residual-size or target-local valuation bound remains open.",
+    "refs": [
+      "background/nodes/f3_h3_double_accident_derivative_ideal/statement.md",
+      "background/nodes/f3_h3_double_accident_derivative_ideal/proof.md",
+      "background/nodes/f3_h3_double_accident_derivative_ideal/claim_contract.md",
+      "background/nodes/f3_h3_double_accident_derivative_ideal/dependency_subdag.md",
+      "background/nodes/f3_h3_double_accident_derivative_ideal/audit.md",
+      "background/nodes/f3_h3_double_accident_derivative_ideal/verify.py",
+      "background/nodes/f3_h3_double_accident_derivative_ideal/verify_audit.py",
+      "background/nodes/f3_h3_double_accident_derivative_ideal/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_global_derivative_ideal_valuation",
+      "order": 1713
+    },
+    {
+      "from": "f3_h3_cutoff18_double_accident_reduction",
+      "order": 1714
+    },
+    {
+      "from": "f3_h3_uniform_product_fiber_stepanov",
+      "order": 1715
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1716
+    }
+  ],
+  "refutes": []
+}

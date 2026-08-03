@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 311,
+  "node": {
+    "id": "lean_existing",
+    "title": "Lean ledgers build green (Basic, DeepPoint, BetaTwo, F1; stdlib-only)",
+    "status": "PROVED",
+    "refs": [
+      "experimental/lean/rs_mca_formalization"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

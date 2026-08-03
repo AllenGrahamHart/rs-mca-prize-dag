@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1108,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_pure_euler_ramification_router",
+    "title": "Budget-three antipodal pure Euler ramification router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the pure-quartic boundary, the norm equation is equivalent to TU^3+d=e_4V^3C and its derivative factors exactly as U^2V^2L with L linear. Thus TU^3 has at most three finite critical values and every repeated-factor defect is localized at one point.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_ramification_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_ramification_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_ramification_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_ramification_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_ramification_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_ramification_router/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_ramification_router/verify.py",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_euler_ramification_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_pure_quartic_degree_rigidity",
+      "order": 2018
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_reverse_residual_stratification",
+      "order": 2019
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2020
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 497,
+  "node": {
+    "id": "m1_trade_bijection",
+    "title": "PROVED (autopsy of route a): the anchored-trade bijection \u2014 a reparametrization, NOT a bound",
+    "status": "PROVED",
+    "statement": "The active-core pigeonhole hope is DEAD as a bound: the map (anchored trade) <-> (a, sigma) is a proved BIJECTION (verified 132<->132, 18<->18 at the h=3 calibration rows) \u2014 it reproduces the known counts exactly and bounds nothing; it is the terminal count in new coordinates. Banked as a lever (a clean parametrization for future arguments), and as falsification-ledger entry material: the route-(a) 'smells provable' intuition refuted by proof.",
+    "refs": [
+      "experimental/notes/roadmaps/midlarge_h_routes.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1088
+    }
+  ],
+  "refutes": []
+}

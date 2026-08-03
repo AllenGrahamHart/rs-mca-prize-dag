@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 916,
+  "node": {
+    "id": "rate_half_far_ca_anchor_pencil_normal_form",
+    "title": "Exact far-CA anchor-pencil normal form",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every linear code and column-far pair at radius r, fixing one bad slope with error e_0 of support size s gives an exact parametrization of every other bad slope as gamma_0+lambda with a codeword p satisfying wt(e_0+lambda(f_2-p))<=r. If t is the number of off-anchor discrepancies of p, then r-s+1<=t<=r and at least s+t-r anchor coordinates satisfy p=f_2+e_0/lambda. When 2r<d_min, p is unique per slope. This uniqueness holds throughout the first official post-quadratic CA-only range.",
+    "refs": [
+      "background/nodes/rate_half_far_ca_anchor_pencil_normal_form/statement.md",
+      "background/nodes/rate_half_far_ca_anchor_pencil_normal_form/proof.md",
+      "background/nodes/rate_half_far_ca_anchor_pencil_normal_form/claim_contract.md",
+      "background/nodes/rate_half_far_ca_anchor_pencil_normal_form/dependency_subdag.md",
+      "background/nodes/rate_half_far_ca_anchor_pencil_normal_form/verify.py",
+      "background/nodes/rate_half_far_ca_anchor_pencil_normal_form/audit.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1650
+    }
+  ],
+  "refutes": []
+}

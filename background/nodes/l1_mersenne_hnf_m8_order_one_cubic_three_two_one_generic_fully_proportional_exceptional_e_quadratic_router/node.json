@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1669,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router",
+    "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional exceptional-E quadratic router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the exceptional E_G=0 coefficient chart, cancellation with the quadratic F_b gives one affine equation in q; off its singular charts, the retained X_* equation and conic endpoint become two explicit univariate polynomials of degrees at most 23 and 16.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/lineage.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/upstream_crosswalk.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_exceptional_e_quadratic_router/verify.py"
+    ],
+    "notes": "Exact exceptional quadratic router only. The fixed a_2=0 leading chart is discharged downstream, and the simultaneous affine-coefficient singular chart is compiled to two quartics. The generic univariate pair, the quartic common-root decision, structural equations, role-discriminant weld, P_4, and arithmetic-lift obligations remain open."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler",
+      "order": 4051
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4052
+    }
+  ],
+  "refutes": []
+}

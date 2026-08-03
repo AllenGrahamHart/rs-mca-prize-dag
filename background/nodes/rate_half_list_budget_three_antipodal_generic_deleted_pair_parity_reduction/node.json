@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1010,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_parity_reduction",
+    "title": "Budget-three antipodal generic deleted-pair parity reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "When the four deleted roots on the maximal generic boundary form two antipodal pairs, parity makes one primary and one secondary gap automatic. After common scaling, the remaining simultaneous gate is two exact univariate equations in one nontrivial (d/2)-torsion ratio.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_parity_reduction/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_parity_reduction/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_parity_reduction/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_parity_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_parity_reduction/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_parity_reduction/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_parity_reduction/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_two_window_square_reduction",
+      "order": 1834
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1835
+    }
+  ],
+  "refutes": []
+}

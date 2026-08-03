@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 169,
+  "node": {
+    "id": "e1_s18_m1028_global_energy_window",
+    "title": "E1 square-mass-18 cofactor-1028 global energy window",
+    "status": "PROVED",
+    "closure": "exact low-energy resultants and sharp two-moment product ceiling",
+    "refs": [
+      "background/nodes/e1_s18_m1028_global_energy_window/statement.md",
+      "background/nodes/e1_s18_m1028_global_energy_window/proof.md",
+      "background/nodes/e1_s18_m1028_global_energy_window/claim_contract.md",
+      "background/nodes/e1_s18_m1028_global_energy_window/dependency_subdag.md",
+      "background/nodes/e1_s18_m1028_global_energy_window/audit.md",
+      "background/nodes/e1_s18_m1028_global_energy_window/result.md",
+      "background/nodes/e1_s18_m1028_global_energy_window/frontier.md",
+      "background/nodes/e1_s18_m1028_global_energy_window/verify.py"
+    ],
+    "statement": "Every conductor-256 square-mass-18 cofactor-1028 prize collision has autocorrelation energy in {2,3,4,5,6}. Energies zero and one fail exact valuation/resultant tests, while the sharp product envelope at E=7 and chamberwise monotonicity exclude every larger energy.",
+    "notes": "UNIVERSAL ENERGY WINDOW 2026-07-29: repairs the previously miswired profile-specific variance premise in all four cofactor-1028 energy leaves. The E=1 Lucas square is 452 mod 1028; 61 exact product chambers close E>=7, with E=6 retained by an adjacent-boundary guard."
+  },
+  "requires": [
+    {
+      "from": "collision_norm_criterion",
+      "order": 4600
+    },
+    {
+      "from": "e1_prize_field_floor_even_norm_exclusion",
+      "order": 4601
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4602
+    }
+  ],
+  "refutes": []
+}

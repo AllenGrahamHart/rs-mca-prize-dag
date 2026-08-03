@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 255,
+  "node": {
+    "id": "petal_witnesses",
+    "title": "Full-petal witnesses exist (d-ell = 2, 5)",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s7_list_side.md#4"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "conj_f",
+      "order": 66
+    },
+    {
+      "to": "petal_growth",
+      "order": 103
+    }
+  ],
+  "refutes": []
+}

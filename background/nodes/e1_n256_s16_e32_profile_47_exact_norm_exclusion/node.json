@@ -1,0 +1,59 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 57,
+  "node": {
+    "id": "e1_n256_s16_e32_profile_47_exact_norm_exclusion",
+    "title": "N=256 E=32 profile-(4,7) exact-norm exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e32_profile_47_exact_norm_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e32_profile_47_exact_norm_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e32_profile_47_exact_norm_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e32_profile_47_exact_norm_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e32_profile_47_exact_norm_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e32_profile_47_exact_norm_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e32_profile_47_exact_norm_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e32_profile_47_exact_norm_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e32_profile_47_exact_norm_exclusion/verify_audit.py",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile47_exact_norm_census.cpp",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile47_exact_norm_census_modal.py",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile47_exact_norm_census_result.json",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile47_exact_norm_audit.cpp",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile47_exact_norm_audit_modal.py",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile47_exact_norm_audit_result.json"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), and V=64, autocorrelation magnitude profile (4,7) is impossible. Two independent exact engines enumerate all 2,937,494,528 representative signed vectors, retain the same 60,148 full-conductor profile vectors, and agree on a 247-bit maximum norm N_max with 15*N_max<2^250. The proved conductor theorem excludes the complementary proper-conductor vectors.",
+    "notes": "ROUTE CLOSURE 2026-07-27: exact FLINT and PARI/GP resultants close the final V=64 profile without relying on the non-sharp cubic M_3 cutoff."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e32_profile_parity_diameter_reduction",
+      "order": 329
+    },
+    {
+      "from": "e1_n256_s16_e32_four_odd_light_template_reduction",
+      "order": 330
+    },
+    {
+      "from": "e1_n256_proper_conductor_collision_exclusion",
+      "order": 331
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 332
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 437
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 438
+    }
+  ],
+  "refutes": []
+}

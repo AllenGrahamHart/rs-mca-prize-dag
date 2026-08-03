@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1033,
+  "node": {
+    "id": "f3_h3_double_accident_low_distance_joint_ideal_router",
+    "title": "H3 double-accident low-distance joint-ideal router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every positive cutoff-18 double-accident summand supplies a normalized four-generator cyclotomic ideal coupling a low-distance product star, two distinct nonidentity quotient lifts, and equality of their product and quotient targets at one degree-one row-prime ideal. The row prime divides the joint ideal norm, which is bounded by the normalized low-distance principal norms. Primes outside the resulting finite fixed-order candidate set have Y_18=0 and satisfy C36'.",
+    "refs": [
+      "background/nodes/f3_h3_double_accident_low_distance_joint_ideal_router/statement.md",
+      "background/nodes/f3_h3_double_accident_low_distance_joint_ideal_router/proof.md",
+      "background/nodes/f3_h3_double_accident_low_distance_joint_ideal_router/claim_contract.md",
+      "background/nodes/f3_h3_double_accident_low_distance_joint_ideal_router/dependency_subdag.md",
+      "background/nodes/f3_h3_double_accident_low_distance_joint_ideal_router/audit.md",
+      "background/nodes/f3_h3_double_accident_low_distance_joint_ideal_router/result.md",
+      "background/nodes/f3_h3_double_accident_low_distance_joint_ideal_router/verify.py",
+      "background/nodes/f3_h3_double_accident_low_distance_joint_ideal_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_cutoff18_double_accident_reduction",
+      "order": 1965
+    },
+    {
+      "from": "f3_h3_low_distance_ideal_star_router",
+      "order": 1966
+    },
+    {
+      "from": "f3_h3_shifted_product_sidon",
+      "order": 1967
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1968
+    }
+  ],
+  "refutes": []
+}

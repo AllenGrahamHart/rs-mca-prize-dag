@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 648,
+  "node": {
+    "id": "m720_residual_slice_metadata",
+    "title": "M720 residual slice metadata",
+    "status": "PROVED",
+    "statement": "Under the Modal count-ceiling window rule, every h=7..20 residual cell beyond the WSL-safe complete zero cells is either a W<n window slice or one of exactly two over-ceiling complete-window cells: n=32,h=16 at q~n^2 and q~n^3.",
+    "attack_surface": "mechanical replay of the Modal window-selection rule over the configured h,n,q_exp grid",
+    "falsifier": "a residual configured cell that is complete, under ceiling, and not already in the WSL-safe complete-cell list"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1130
+    }
+  ],
+  "refutes": []
+}

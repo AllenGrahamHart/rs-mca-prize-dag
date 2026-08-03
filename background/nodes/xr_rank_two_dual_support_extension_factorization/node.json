@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1304,
+  "node": {
+    "id": "xr_rank_two_dual_support_extension_factorization",
+    "title": "XR rank-two rows have an exact dual support-extension factorization",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_rank_two_dual_support_extension_factorization/statement.md",
+      "background/nodes/xr_rank_two_dual_support_extension_factorization/proof.md",
+      "background/nodes/xr_rank_two_dual_support_extension_factorization/claim_contract.md",
+      "background/nodes/xr_rank_two_dual_support_extension_factorization/dependency_subdag.md",
+      "background/nodes/xr_rank_two_dual_support_extension_factorization/verify.py",
+      "background/nodes/xr_rank_two_dual_support_extension_factorization/verify_audit.py",
+      "background/nodes/xr_rank_two_dual_support_extension_factorization/audit.md",
+      "background/nodes/xr_rank_two_dual_support_extension_factorization/result.md"
+    ],
+    "statement": "For a rank-two row on active union X with support S_i, active zero set Z_i=X\\S_i, and selected-block extension T_i=A_i\\S_i, the active-union and block dual-GRS numerators have one unique common cofactor: F_i=R_i Lambda_Zi and P_i=R_i Lambda_Ti. Exactly |T_i|=h-d-1+|Z_i| and deg R_i<=d-|Z_i|, while the row on S_i is R_i/Lambda'_Si. The converse is exact at the dual-codeword level. Actual agreement-block realization, extension counting, first-core ownership, and aggregate payment remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_higher_rank_uniform_split_pencil_reduction",
+      "order": 2770
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 2771
+    }
+  ],
+  "refutes": []
+}

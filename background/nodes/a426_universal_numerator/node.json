@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 412,
+  "node": {
+    "id": "a426_universal_numerator",
+    "title": "Universal two-core exact numerator: LD_sw(RS[F,D,256],426) = 87 for EVERY field and 512-domain",
+    "status": "PROVABLE",
+    "statement": "Hankel-free structural theorem (proof written in #204, flips PROVED on integration): for every finite field F and every 512-point D, LD_sw(RS[F,D,256],426) = 87 exactly. Universal in the field AND the domain \u2014 the first exact window-edge value, and domain-universality exceeds anything the tangent-range pin required.",
+    "refs": [
+      "proof_sketch/s3a_regular_window.md"
+    ],
+    "notes": "the P3 slate's qualitative jump: exact numerators exist OUTSIDE the tangent range"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "second_pin_a426",
+      "order": 690
+    },
+    {
+      "to": "window_program",
+      "order": 692
+    }
+  ],
+  "refutes": []
+}

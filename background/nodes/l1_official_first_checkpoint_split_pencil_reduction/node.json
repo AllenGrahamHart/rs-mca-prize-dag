@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1616,
+  "node": {
+    "id": "l1_official_first_checkpoint_split_pencil_reduction",
+    "title": "L1 official first-checkpoint split-pencil reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On an official multiplicative-coset domain, let p<=d<=2p-2 and suppose a minimum-width coarse p-free collision has disjoint tails of size t=p. The tail locators must differ by a nonzero constant and have the exact form F_X=Z^p+Q+b, F_Y=Z^p+Q+b+c with deg Q<=r_d=2p-d-1. Conversely every disjoint fully split pair of this form gives the required moment collision. On the nonzero one of the two fibers, every nonidentity multiplicative ratio has at most r_d witnesses, so its ratio set has size at least 1+ceil((p^2-p)/r_d). Hence no t=p collision exists when r_d<=r_*(p,n)=floor((p(p-1)-1)/(n-1)), equivalently d>=2p-1-r_*(p,n). The official inequality 11n<=256p gives the uniform floor r_*>=floor(11(p-1)/256). The terminal affine-line case is an independent structural check. The surviving lower-depth object is a typed higher-degree split-pencil census, not a proved row-sharp bound.",
+    "refs": [
+      "background/nodes/l1_official_first_checkpoint_split_pencil_reduction/statement.md",
+      "background/nodes/l1_official_first_checkpoint_split_pencil_reduction/proof.md",
+      "background/nodes/l1_official_first_checkpoint_split_pencil_reduction/claim_contract.md",
+      "background/nodes/l1_official_first_checkpoint_split_pencil_reduction/dependency_subdag.md",
+      "background/nodes/l1_official_first_checkpoint_split_pencil_reduction/audit.md",
+      "background/nodes/l1_official_first_checkpoint_split_pencil_reduction/result.md",
+      "background/nodes/l1_official_first_checkpoint_split_pencil_reduction/lineage.md",
+      "background/nodes/l1_official_first_checkpoint_split_pencil_reduction/upstream_crosswalk.md",
+      "background/nodes/l1_official_first_checkpoint_split_pencil_reduction/verify.py",
+      "background/nodes/l1_official_first_checkpoint_split_pencil_reduction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_official_frobenius_checkpoint_q_router",
+      "order": 3831
+    },
+    {
+      "from": "l1_coarse_pfree_tame_tail_distance_upgrade",
+      "order": 3832
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3833
+    }
+  ],
+  "refutes": []
+}

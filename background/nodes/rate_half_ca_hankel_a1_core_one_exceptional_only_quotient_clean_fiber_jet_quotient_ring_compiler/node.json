@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1178,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_jet_quotient_ring_compiler",
+    "title": "A=1 exceptional quotient clean-fiber jet quotient-ring compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On each clean fiber, the value polynomial W_vee(gamma,Y), root velocity and acceleration, and parameter derivative W_vee,t(gamma,Y) are canonical representatives in the quotient ring by F(gamma,Y). The smooth-domain relation reduces Y^N_sq and Y^(N_sq-1) to Y^(r-3) and Y^(r-4). Thus no selected roots or huge exponents need be enumerated, although official degree-r arithmetic still requires compressed representations.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_jet_quotient_ring_compiler/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_jet_quotient_ring_compiler/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_jet_quotient_ring_compiler/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_jet_quotient_ring_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_jet_quotient_ring_compiler/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_jet_quotient_ring_compiler/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_jet_quotient_ring_compiler/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_first_jet_transversality",
+      "order": 2410
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_second_jet_hermite_gate",
+      "order": 2411
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2412
+    }
+  ],
+  "refutes": []
+}

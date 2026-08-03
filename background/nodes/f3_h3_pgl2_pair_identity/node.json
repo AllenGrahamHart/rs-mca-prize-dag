@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 793,
+  "node": {
+    "id": "f3_h3_pgl2_pair_identity",
+    "title": "H3 product and quotient fibers form a paired PGL2 intersection",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/f3_h3_pgl2_pair_identity/proof.md",
+      "background/nodes/f3_h3_pgl2_pair_identity/verify.py"
+    ],
+    "statement": "For t!=0,1, put I_inv(t)=#{x in H:1+t/(x-1) in H} and I_aff(t)=#{z in H:1+t(z-1) in H}. Then P(t)=I_inv(t), R(t)=I_aff(t)-1, and with A_t=(1-t+tZ)^n-1, C_n=Z^n-(Z-1)^n, D_n=Z^n-1 the score is exactly deg gcd(A_t,C_n)+2deg gcd(A_t,D_n). The global score cap 39 closes M35. The exact pointwise C36' target is deg gcd(A_t,C_n)>=19 => deg gcd(A_t,D_n)<=18. Rich-locus score at most 56 is a stronger sufficient condition, sharp among constant-score caps at the boundary profile. The identities and implication compilers are proved; the rectangle and score bounds remain open."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1330
+    }
+  ],
+  "refutes": []
+}

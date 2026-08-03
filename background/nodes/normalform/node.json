@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 203,
+  "node": {
+    "id": "normalform",
+    "title": "thm:normalform: emca = (1/q) max Lambda^NC",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s4_reserve_dictionary.md#2"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "axis4_predicate",
+      "order": 16
+    },
+    {
+      "to": "counting_frame",
+      "order": 36
+    }
+  ],
+  "refutes": []
+}

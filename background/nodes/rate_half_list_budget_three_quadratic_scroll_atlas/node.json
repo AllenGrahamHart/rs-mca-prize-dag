@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 959,
+  "node": {
+    "id": "rate_half_list_budget_three_quadratic_scroll_atlas",
+    "title": "Budget-three quadratic scroll atlas",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The three quadratic pendant chambers and the quadratic K_4-e chamber are balanced Grassmann scrolls. Rank-deficient scrolls give nondegenerate base-field split-unit relations; every full-rank scroll is transformed by one constant base-field matrix to the module (alpha,Xalpha,beta,Xbeta). Together with the nine linear chambers, this completes the bounded edge-geometry classification.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/statement.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/proof.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/audit.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/result.md",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/verify.py",
+      "background/nodes/rate_half_list_budget_three_quadratic_scroll_atlas/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_plucker_edge_gate",
+      "order": 1749
+    },
+    {
+      "from": "rate_half_list_budget_three_linear_grassmann_atlas",
+      "order": 1750
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1751
+    }
+  ],
+  "refutes": []
+}

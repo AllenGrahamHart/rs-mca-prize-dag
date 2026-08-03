@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 939,
+  "node": {
+    "id": "rate_half_list_low_budget_exact_crossing",
+    "title": "Exact rate-half ordinary-list crossing at budgets one and two",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every multiplicative-coset RS row with n=4d and k=2d, the ordinary worst-list crossing is exactly a_L=3n/4 for integer budgets B=1 and B=2: the exact-integer Johnson theorem proves L_1(3n/4)<=B, while explicit two- and three-codeword received-word constructions prove B<L_1(3n/4-1). Thus every official rate-half row with floor(|F|/2^128) in {1,2} has delta_L=1/4. No claim is made for B>=3 or for MCA/CA.",
+    "refs": [
+      "background/nodes/rate_half_list_low_budget_exact_crossing/statement.md",
+      "background/nodes/rate_half_list_low_budget_exact_crossing/proof.md",
+      "background/nodes/rate_half_list_low_budget_exact_crossing/claim_contract.md",
+      "background/nodes/rate_half_list_low_budget_exact_crossing/dependency_subdag.md",
+      "background/nodes/rate_half_list_low_budget_exact_crossing/audit.md",
+      "background/nodes/rate_half_list_low_budget_exact_crossing/result.md",
+      "background/nodes/rate_half_list_low_budget_exact_crossing/verify.py",
+      "background/nodes/rate_half_list_low_budget_exact_crossing/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_integer_johnson_safe_anchor",
+      "order": 1696
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1697
+    }
+  ],
+  "refutes": []
+}

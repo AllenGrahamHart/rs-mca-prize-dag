@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1080,
+  "node": {
+    "id": "l1_cross_quotient_split_descent_obstruction",
+    "title": "L1 cross-quotient split-descent obstruction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "An exact F_23 maximal chart with ell=2, five two-point petals, one background point, fixed petal polarity p=5, and two saturated threshold contributors has cross quotient 16+9X+4X^2+15X^3=(X-13)(20+15X+15X^2). The quadratic discriminant 14 is nonsquare, so the quotient is not split. The cell has N=8,d=4,h=5 and N(2d-h)=24>=16=d^2, placing the obstruction in the live sub-Johnson tail. Cross-quotient injection therefore cannot be iterated as split-defect descent without an additional splitting theorem.",
+    "refs": [
+      "background/nodes/l1_cross_quotient_split_descent_obstruction/statement.md",
+      "background/nodes/l1_cross_quotient_split_descent_obstruction/proof.md",
+      "background/nodes/l1_cross_quotient_split_descent_obstruction/claim_contract.md",
+      "background/nodes/l1_cross_quotient_split_descent_obstruction/dependency_subdag.md",
+      "background/nodes/l1_cross_quotient_split_descent_obstruction/audit.md",
+      "background/nodes/l1_cross_quotient_split_descent_obstruction/verify.py",
+      "background/nodes/l1_cross_quotient_split_descent_obstruction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_fixed_support_cross_determinant_fiber_bound",
+      "order": 2116
+    },
+    {
+      "from": "l1_fixed_support_defect_johnson_bound",
+      "order": 2117
+    },
+    {
+      "from": "pma_saturated_mixed_support_kernel",
+      "order": 2118
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2119
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2120
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2121
+    }
+  ],
+  "refutes": []
+}

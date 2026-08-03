@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1064,
+  "node": {
+    "id": "submission_quality_paper_dossier",
+    "title": "Submission-quality Paper-D dossier and certificate package",
+    "status": "TARGET",
+    "closure": "artifact",
+    "attack_surface": "After both grand claims are proved, materialize and hash the full Paper-D-style paper, total f(C) compiler certificate index, independent clean-checkout replay, empty required-scope nonclaim ledger, and upstream handoff manifest.",
+    "statement": "A final submission packet proves and certifies both official prize problems over every admissible row, all four rates, both objects, and the full arity scope. It includes a total certified f(C) compiler, independent clean-checkout replay, claim provenance, no open required claim or required-scope nonclaim, and coherent upstream handoffs. The existing partial dossier is only a template and does not satisfy this artifact target.",
+    "refs": [
+      "background/nodes/submission_quality_paper_dossier/statement.md",
+      "background/nodes/submission_quality_paper_dossier/acceptance.md",
+      "background/nodes/submission_quality_paper_dossier/claim_contract.md",
+      "background/nodes/submission_quality_paper_dossier/dependency_subdag.md",
+      "background/nodes/submission_quality_paper_dossier/audit.md",
+      "background/nodes/submission_quality_paper_dossier/verify.py",
+      "background/nodes/submission_quality_paper_dossier/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "submission package item (3): reproducibility dossier + formal correspondence files",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {
+      "from": "mca_grand",
+      "order": 1993
+    },
+    {
+      "from": "list_grand",
+      "order": 1994
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

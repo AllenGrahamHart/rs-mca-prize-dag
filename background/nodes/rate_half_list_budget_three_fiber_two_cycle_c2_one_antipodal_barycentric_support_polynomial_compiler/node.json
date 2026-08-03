@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1312,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler",
+    "title": "Budget-three fiber-two c=2 one-antipodal barycentric support has a single polynomial compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a complete canonical one-antipodal candidate, one explicit even polynomial J of degree at most 5H-11, built only from E,B,C, computes the barycentric negation coloring pointwise on mu_N. Minimum support 3H+1 is equivalent to J dividing (z^N-1)/(z^2-1), having full degree, and avoiding +/-1. This removes root-cell enumeration but does not exclude the split-divisor gate.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_negation_syndrome",
+      "order": 2794
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2795
+    }
+  ],
+  "refutes": []
+}

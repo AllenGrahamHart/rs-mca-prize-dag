@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 474,
+  "node": {
+    "id": "u2c_giant_block_dichotomy",
+    "title": "U2-C (PROOF-READY): the giant-regime dichotomy",
+    "status": "REFUTED",
+    "key": true,
+    "statement": "At official prize-max rows (b >= t+1 ~ 1e9; the small window is empty by piece-A arithmetic): every t-null block is a disjoint union of full 2-power cosets (charged, QA.22-affordable) \u2014 or the absorbency fallback (primitive giant blocks countable with star-mass under the 2^27 margin). Full statement: u2c_giant_block_statement.md. FALSIFIER SCAN PASSED (both scales, the tame door does not open: the only minimal 2-power-root relation at n | q-1 is 1 + (-1) = 0 \u2014 the X-6 mechanism recurses into cosets). SUSPECTED PROOF SKELETON: adapt the char-0 antipodal-descent argument (u2_large_characteristic_lift) directly in F_q with the scan's minimal-relation fact as base case, in the BCH frame (t-null = t leading DFT zeros). X-8 brief.",
+    "attack_surface": "the antipodal-descent adaptation; the complement duality pinches from both ends; the BCH/stride frame makes the coset classification a one-line test",
+    "falsifier": "scan residuals: n=64 weights 19-31 exhaustive extension; certified n=128 run; the special resultant primes",
+    "refs": [
+      "experimental/notes/roadmaps/u2c_giant_block_statement.md"
+    ],
+    "notes": "REFUTED AS STATED (X-8 task 1, verified here incl. the Pocklington certificate): the quotient zero-sum construction \u2014 B_S = preimage of a zero-sum antipodal-free subset S of mu_R under x -> x^t (R = n/t) \u2014 is t-null, NOT a union of M > t cosets, and subset-sum pigeonhole gives >= 2^{R/2}/q of them. Falsification #9 (mine). THE STRUCTURAL RE-ANALYSIS THAT SOFTENS IT: B_S IS a coset union \u2014 at the BOUNDARY scale M = t, which the dichotomy excluded by requiring M > t. The class is exactly characterizable (zero-sum quotient patterns) and countable (subset-sum collision counts) => CHARGEABLE, not chaos. THE TRIGGER LOCALIZES THE DAMAGE (verified arithmetic): q < 2^{R/2} needed; at the six campaign candidates (q ~ 2^250+): ~2^6 blocks at rate-1/4-shape, ~0 at t = 2^33 rows; the danger zone is MID-RANGE admissible q. SCAN-BLINDNESS LESSON (third instance): the toy scan could not see this \u2014 R/2 = 4 at toys vs 2^31 primes made the trigger unreachable; parameter-regime blindness is intrinsic to scaled toys; adversarial construction found it again."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1069
+    }
+  ],
+  "refutes": []
+}

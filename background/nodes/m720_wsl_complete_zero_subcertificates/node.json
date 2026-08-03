@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 654,
+  "node": {
+    "id": "m720_wsl_complete_zero_subcertificates",
+    "title": "M720 WSL-safe complete zero subcertificates",
+    "status": "PROVED",
+    "statement": "The WSL-safe complete h=7..20 calibration cells selected by the Modal scan ceiling have complete=true and zero unpaid non-toral anchored active cores: n=16,h=7,8 at q~n^2 and q~n^3, and n=32,h=7 at q~n^2 and q~n^3.",
+    "attack_surface": "local exact anchored MITM replay for the complete cells whose combination count is at most 6,000,000",
+    "falsifier": "a WSL-safe complete calibration cell with nonzero unpaid non-toral anchored active cores, or a mismatched complete flag"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1136
+    }
+  ],
+  "refutes": []
+}

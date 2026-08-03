@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 234,
+  "node": {
+    "id": "graver_wall",
+    "title": "Projection-to-Graver dichotomy (frozen)",
+    "status": "WALL",
+    "refs": [
+      "experimental/notes/m1/m1_full_overlap_low_tail_completion_projection_wall.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "r2_rigidity",
+      "order": 73
+    }
+  ],
+  "refutes": []
+}

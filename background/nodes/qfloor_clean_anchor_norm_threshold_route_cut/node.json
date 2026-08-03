@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 15,
+  "node": {
+    "id": "qfloor_clean_anchor_norm_threshold_route_cut",
+    "title": "Qfloor norm threshold is impossible at the six clean predecessors",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/qfloor_clean_anchor_norm_threshold_route_cut/statement.md",
+      "background/nodes/qfloor_clean_anchor_norm_threshold_route_cut/proof.md",
+      "background/nodes/qfloor_clean_anchor_norm_threshold_route_cut/claim_contract.md",
+      "background/nodes/qfloor_clean_anchor_norm_threshold_route_cut/verify.py"
+    ],
+    "statement": "At the six clean candidate predecessors, the canonical qfloor parameters are (N',ell')=(256,65),(256,33),(512,33). Their strict norm thresholds (2ell')^(N'/2) have respectively 899, 774, and 1548 bits, all above 2^256. Since every official characteristic satisfies p<=q<2^256, qfloor_exact is inapplicable on all six rows. The above-budget raw binomial quotient censuses are not thereby proved to be distinct ambient slopes.",
+    "notes": "ROUTE CUT 2026-07-26: the clean A-1 quotient multiplicities need direct-E1/value-set injectivity or a replacement collision theorem; qfloor_exact cannot supply them under the official field cap. This is not safety."
+  },
+  "requires": [
+    {
+      "from": "qfloor_exact",
+      "order": 230
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 234
+    }
+  ],
+  "refutes": []
+}

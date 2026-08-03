@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 867,
+  "node": {
+    "id": "pma_sigma_one_low_defect_payment",
+    "title": "PMA sigma-one source-pinned low-defect payment",
+    "status": "PROVED",
+    "statement": "On every official sigma=1 maximal sunflower, summing the pinned interpolation-owner bounds over all defect sets D, both exact background states, and d<=2 gives B_low=(k-1)[M+floor(C(n-k,2)/3)]+C(k-1,2)[floor(C(n-k,2)/3)+floor(C(n-k,3)/4)]<n^5/1024. This field-independent per-sunflower theorem replaces the failed ambient B11 q^4 certificate and leaves GROW={d>=3}; the later first-layout domination theorem removes the finite chart multiplier.",
+    "refs": [
+      "background/nodes/pma_sigma_one_low_defect_payment/statement.md",
+      "background/nodes/pma_sigma_one_low_defect_payment/proof.md",
+      "background/nodes/pma_sigma_one_low_defect_payment/audit.md",
+      "background/nodes/pma_sigma_one_low_defect_payment/claim_contract.md",
+      "background/nodes/pma_sigma_one_low_defect_payment/dependency_subdag.md",
+      "background/nodes/pma_sigma_one_low_defect_payment/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_aux_list_reduction",
+      "order": 1423
+    },
+    {
+      "from": "pma_source_paving_bridge",
+      "order": 1424
+    },
+    {
+      "from": "pma_sigma_one_b11_scope",
+      "order": 1425
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 1426
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1453
+    }
+  ],
+  "refutes": []
+}

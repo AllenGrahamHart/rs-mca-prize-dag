@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 19,
+  "node": {
+    "id": "e1_prime_field_l2_norm_collision_radius",
+    "title": "Prime-field E1 collision-free radius from folded L2 norms",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_prime_field_l2_norm_collision_radius/statement.md",
+      "background/nodes/e1_prime_field_l2_norm_collision_radius/proof.md",
+      "background/nodes/e1_prime_field_l2_norm_collision_radius/claim_contract.md",
+      "background/nodes/e1_prime_field_l2_norm_collision_radius/dependency_subdag.md",
+      "background/nodes/e1_prime_field_l2_norm_collision_radius/audit.md",
+      "background/nodes/e1_prime_field_l2_norm_collision_radius/result.md",
+      "background/nodes/e1_prime_field_l2_norm_collision_radius/source_pin.json",
+      "background/nodes/e1_prime_field_l2_norm_collision_radius/verify.py"
+    ],
+    "statement": "For a nonzero E1 class difference with raw representatives at swap distance s over quotient order N=2h, fold antipodes to alpha=sum_i c_i zeta^i and S=sum_i c_i^2. Odd-conjugate orthogonality and AM-GM give |Norm(alpha)|<=S^(h/2). Either S<=4s-2, or alpha=2 beta with |Norm(beta)|<=s^(h/2). Since every live pair-feasible prime is at least 2^250, all N=256 collisions with s<=4 and all N=512 collisions with s=1 are impossible. The first surviving bands reduce to profiles (a,b,c)=(4,2,0),(3,4,0) at N=256,s=5 and (1,2,0),(0,4,0) at N=512,s=2.",
+    "notes": "ROUTE REDUCTION 2026-07-27: replaces the crude L1 norm radius by an exact folded L2 bound. It does not control the surviving collision-pair ledger."
+  },
+  "requires": [
+    {
+      "from": "e1_pair_feasible_prime_field_reduction",
+      "order": 238
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 239
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 373
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 374
+    }
+  ],
+  "refutes": []
+}

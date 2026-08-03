@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1343,
+  "node": {
+    "id": "rate_half_kb_m12_diagonal_socle_route_cut",
+    "title": "KoalaBear m12 diagonal-socle route cut",
+    "status": "PROVED",
+    "closure": "Scott strip dichotomy plus exact degree-12 cross-action audit",
+    "statement": "For the degree-60 composition with five blocks of size twelve, the derived block kernel is a subdirect product of the nonabelian simple inner socles. Prime-degree block primitivity and Scott's lemma leave independent or full-diagonal socle; the actual size-four non-same-fiber suborbit excludes independence. Exact degree-12 action and exceptional M12 cross-action orbits then force one point in each of four projected blocks. Thus only (r,delta)=(4,12) survives and the r=2 Dickson branch is empty. No r4 family, owner, charge, m12, u2, cap 68, or row close is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/statement.md",
+      "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/proof.md",
+      "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/claim_contract.md",
+      "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/source_evidence.md",
+      "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/audit.md",
+      "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/result.md",
+      "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/frontier.md",
+      "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/verify.py",
+      "background/nodes/rate_half_kb_m12_diagonal_socle_route_cut/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m12_outer_subdegree_route_cut",
+      "order": 2997
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2998
+    }
+  ],
+  "refutes": []
+}

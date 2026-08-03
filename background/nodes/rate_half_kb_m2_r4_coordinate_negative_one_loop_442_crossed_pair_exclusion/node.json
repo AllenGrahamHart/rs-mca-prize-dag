@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1499,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion",
+    "title": "KoalaBear m2 r4 coordinate negative one-loop 442 crossed-pair exclusion",
+    "status": "PROVED",
+    "closure": "complete deletion of the crossed-pair one-loop 442 common-K matching orbit",
+    "statement": "When the one-loop label is the singleton and both source antipodal pairs mix an AB product with an AC product, the product minors and two q welds imply b(br+b-ir+i)=0 and c(b(r-1)+i(r+1))=0. After the nonzero guards, their r-resultant is -2(b^2-1), contradicting odd characteristic and target distinctness. Target representative changes cover both crossed matchings and every root-sign class, so the whole orbit is empty.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+      "order": 3403
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+      "order": 3404
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3405
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 991,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_pencil_degree_floor",
+    "title": "Budget-three antipodal quotient pencil has a half-degree floor",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In the antipodal quotient descent, let V span the unique degree-drop direction of the two-dimensional monic pencil and put r=d/4-1. Centering the four pencil parameters and reversing the quartic product identity at infinity proves deg V>=ceil((r-4)/2) whenever the characteristic exceeds d, improved to ceil((2r-4)/3) when the centered coefficient e_2 vanishes. On the maximal official row these are 2^36-2 and (2^38-4)/3 respectively.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_pencil_degree_floor/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pencil_degree_floor/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pencil_degree_floor/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pencil_degree_floor/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pencil_degree_floor/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pencil_degree_floor/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pencil_degree_floor/verify.py",
+      "background/nodes/rate_half_list_budget_three_antipodal_pencil_degree_floor/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_mobius_weld",
+      "order": 1823
+    },
+    {
+      "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+      "order": 1824
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1825
+    }
+  ],
+  "refutes": []
+}

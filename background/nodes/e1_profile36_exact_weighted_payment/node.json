@@ -1,0 +1,48 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 155,
+  "node": {
+    "id": "e1_profile36_exact_weighted_payment",
+    "title": "E1 profile-(3,6) exact weighted payment",
+    "status": "PROVED",
+    "closure": "exact integer ledger",
+    "refs": [
+      "background/nodes/e1_profile36_exact_weighted_payment/statement.md",
+      "background/nodes/e1_profile36_exact_weighted_payment/proof.md",
+      "background/nodes/e1_profile36_exact_weighted_payment/claim_contract.md",
+      "background/nodes/e1_profile36_exact_weighted_payment/dependency_subdag.md",
+      "background/nodes/e1_profile36_exact_weighted_payment/audit.md",
+      "background/nodes/e1_profile36_exact_weighted_payment/result.md",
+      "background/nodes/e1_profile36_exact_weighted_payment/frontier.md",
+      "background/nodes/e1_profile36_exact_weighted_payment/verify.py"
+    ],
+    "statement": "On the binding prize rate-1/8 row, profile (3,6,S=18) contributes at most 709758113888498314287146042668908462080 unordered collision pairs. The residual edge budget is 64417827807586372161179904588832830040487; the largest remaining profile is (2,10,S=18), and 104955 is the tight uniform sufficient cap on all remaining oriented vectors.",
+    "notes": "EXACT MAXIMUM-PROFILE PAYMENT 2026-07-29: the ledger restores 256 oriented vectors per shift/sign orbit and the dictionary's division by two. Exact enumeration ranks all 271 eligible profiles and identifies (2,10,S=18) next. This pays no lower profile and causes no E1 close or Prize movement."
+  },
+  "requires": [
+    {
+      "from": "e1_low_square_mass_weighted_kernel_dictionary",
+      "order": 4540
+    },
+    {
+      "from": "e1_prize_n256_s18_profile_exclusion",
+      "order": 4541
+    },
+    {
+      "from": "e1_high_cofactor_schinzel_height_collapse",
+      "order": 4542
+    },
+    {
+      "from": "e1_cofactor2_smyth_height_collapse",
+      "order": 4543
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4544
+    }
+  ],
+  "refutes": []
+}

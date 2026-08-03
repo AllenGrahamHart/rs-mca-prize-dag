@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 304,
+  "node": {
+    "id": "m3_generic_minor",
+    "title": "Generic-minor theorem: every window row-set minor generically nonzero, deg j+1",
+    "status": "PROVED",
+    "refs": [
+      "experimental/notes/m1/f17_32_m3_generic_regular_minor.md"
+    ],
+    "notes": "rules out structural collapse of the regular method; degree-only sum 4515 vs budget 6 => root tables required"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "window_program",
+      "order": 161
+    },
+    {
+      "to": "alpha_front",
+      "order": 162
+    }
+  ],
+  "refutes": []
+}

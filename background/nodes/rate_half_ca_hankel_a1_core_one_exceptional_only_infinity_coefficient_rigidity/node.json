@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1025,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity",
+    "title": "A=1 core-one exceptional-only infinity-coefficient rigidity",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The exceptional-only corrected square saturates the opposite bidegree corners deg(A_1)=(D_0-r,T-1) and deg(B_1)=(D_0,e-1). Writing [X^r]Q=E q_bar, all leading coefficients of B_1,W,K_1 are forced by q_bar, the leading coefficient of J, and one optional leading coefficient of V. Truncating B_1 at the old X-degree D_0-1 loses every valid packet.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent",
+      "order": 1916
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1917
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 983,
+  "node": {
+    "id": "xr_higher_rank_minimal_face_syzygy_dichotomy",
+    "title": "XR minimum rank-two trades are face syzygies or near-tangent cores",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_higher_rank_minimal_face_syzygy_dichotomy/statement.md",
+      "background/nodes/xr_higher_rank_minimal_face_syzygy_dichotomy/proof.md",
+      "background/nodes/xr_higher_rank_minimal_face_syzygy_dichotomy/claim_contract.md",
+      "background/nodes/xr_higher_rank_minimal_face_syzygy_dichotomy/dependency_subdag.md",
+      "background/nodes/xr_higher_rank_minimal_face_syzygy_dichotomy/verify.py",
+      "background/nodes/xr_higher_rank_minimal_face_syzygy_dichotomy/audit.md"
+    ],
+    "statement": "In an arbitrary-rank uniform XR split pencil, every rank-two trade on its minimum active union |X|=a+2 has facet supports X\\{x_i}. The order-a facet divided differences of U and q are affine in x_i. Distinct slopes force an exact dichotomy: either all selected denominators are nonzero and the relation space is the dimension-(t-3) Plucker kernel of (1;x_i;gamma_i;x_i gamma_i), or both facet forms vanish identically and the received directions share a k+2 agreement core. A partially singular pattern is impossible. After quotienting regular face syzygies, rank-two residue has union at least a+3 or the explicit near-tangent defect h-2."
+  },
+  "requires": [
+    {
+      "from": "xr_higher_rank_uniform_split_pencil_reduction",
+      "order": 1765
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1766
+    }
+  ],
+  "refutes": []
+}

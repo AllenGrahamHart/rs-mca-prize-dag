@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1612,
+  "node": {
+    "id": "l1_official_frobenius_checkpoint_q_router",
+    "title": "L1 official Frobenius-checkpoint Q router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Under the official generated-field hypotheses, the order bound, strict field cap, and p>=3583 imply p>=11n/256>n/24. Hence any locator-prefix depth d<=n-1 crosses at most floor(d/p)<=23 positive multiples of the characteristic. For a root set A, replace each power sum S_j at p|j by the elementary checkpoint E_j, retaining S_j at p not dividing j. Newton recursion together with S_(pj)=S_j^p gives a triangular coordinate equivalence between the first d elementary symmetric functions and these d mixed coordinates. Therefore every arbitrary-depth fixed-cofactor locator-prefix cell is exactly a p-free power-sum Q cell conditioned on at most 23 Frobenius checkpoints. Each mixed fiber lies in its coarse p-free fiber, so direct coarse-fiber flatness transfers with no loss. A raw conditional union costs less than n^453 qualitatively but cannot certify the finite q/2^128 threshold once a checkpoint is present. This is a coordinate and accounting router, not a max-fiber or Pade-graph theorem.",
+    "refs": [
+      "background/nodes/l1_official_frobenius_checkpoint_q_router/statement.md",
+      "background/nodes/l1_official_frobenius_checkpoint_q_router/proof.md",
+      "background/nodes/l1_official_frobenius_checkpoint_q_router/claim_contract.md",
+      "background/nodes/l1_official_frobenius_checkpoint_q_router/dependency_subdag.md",
+      "background/nodes/l1_official_frobenius_checkpoint_q_router/audit.md",
+      "background/nodes/l1_official_frobenius_checkpoint_q_router/lineage.md",
+      "background/nodes/l1_official_frobenius_checkpoint_q_router/result.md",
+      "background/nodes/l1_official_frobenius_checkpoint_q_router/upstream_crosswalk.md",
+      "background/nodes/l1_official_frobenius_checkpoint_q_router/verify.py",
+      "background/nodes/l1_official_frobenius_checkpoint_q_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_official_reserve_tame_refinement_router",
+      "order": 3817
+    },
+    {
+      "from": "l1_official_newton_cofactor_window_router",
+      "order": 3818
+    },
+    {
+      "from": "l1_exact_shell_fixed_cofactor_prefix_transport",
+      "order": 3819
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3820
+    }
+  ],
+  "refutes": []
+}

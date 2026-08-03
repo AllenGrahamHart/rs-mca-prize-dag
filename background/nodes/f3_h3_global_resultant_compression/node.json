@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1231,
+  "node": {
+    "id": "f3_h3_global_resultant_compression",
+    "title": "H3 global product/quotient resultant compression",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For dyadic n, the complete shifted-root polynomial is F_n(X)=((1-X)^n-1)/X. The ordered product polynomial is Res_X(F_n(X),X^(n-1)F_n(T/X)); the nonidentity quotient polynomial is Res_X(F_n(X),F_n(TX))/(n(T-1)^(n-1)); and every cleared first-nineteen derivative packet is one bivariate resultant modulo U^19. This removes factor enumeration when constructing the two global polynomials, but does not eliminate the quotient-lift packet index, bound the exceptional integer, or supply an official-scale resultant algorithm.",
+    "refs": [
+      "background/nodes/f3_h3_global_resultant_compression/statement.md",
+      "background/nodes/f3_h3_global_resultant_compression/proof.md",
+      "background/nodes/f3_h3_global_resultant_compression/claim_contract.md",
+      "background/nodes/f3_h3_global_resultant_compression/dependency_subdag.md",
+      "background/nodes/f3_h3_global_resultant_compression/audit.md",
+      "background/nodes/f3_h3_global_resultant_compression/result.md",
+      "background/nodes/f3_h3_global_resultant_compression/verify.py",
+      "background/nodes/f3_h3_global_resultant_compression/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_global_derivative_ideal_valuation",
+      "order": 2546
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 2547
+    }
+  ],
+  "refutes": []
+}

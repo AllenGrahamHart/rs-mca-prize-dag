@@ -1,0 +1,17 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 299,
+  "node": {
+    "id": "route_one_scale",
+    "title": "Route: one-scale ambient-q entropy-gap prediction",
+    "status": "REFUTED",
+    "refs": [
+      "proof_sketch/s7_list_side.md#1"
+    ],
+    "notes": "refuted by quotient cores even over prime fields (cor:one-scale-false)"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

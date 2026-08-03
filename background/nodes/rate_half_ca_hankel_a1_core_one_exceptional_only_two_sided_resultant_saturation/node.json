@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1026,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation",
+    "title": "A=1 core-one exceptional-only two-sided resultant saturation",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The corrected exceptional-only system has four exact pure-power resultants. In the supported-slope direction Res(P,Q) is P_X^e and its A_1 complement is P_X^(T-e); in the saturated-row direction Res(P_X,Q) is P_cl^r E^(r-1) and its V complement has exponents n_X-r and n_X-r+1. The two normalization constants occur in inverse pairs, and no residual factor remains.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_infinity_coefficient_rigidity",
+      "order": 1918
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1919
+    }
+  ],
+  "refutes": []
+}

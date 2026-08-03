@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 952,
+  "node": {
+    "id": "rate_half_list_low_budget_all_arity_crossing",
+    "title": "Exact all-arity rate-half list crossing at budgets one and two",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every official rate-half row with B*=floor(|F|/2^128) in {1,2}, and every common-support interleaving arity m>=1, the exact adjacent list crossing is L_m(3n/4)<=B*<L_m(3n/4-1). The safe equality follows from the proved sub-square-root interleaving collapse, while diagonal tuples preserve the explicit ordinary unsafe witness. Thus a_L=3n/4 and delta_L=1/4 uniformly in m. No larger-budget or MCA/CA claim is made.",
+    "refs": [
+      "background/nodes/rate_half_list_low_budget_all_arity_crossing/statement.md",
+      "background/nodes/rate_half_list_low_budget_all_arity_crossing/proof.md",
+      "background/nodes/rate_half_list_low_budget_all_arity_crossing/claim_contract.md",
+      "background/nodes/rate_half_list_low_budget_all_arity_crossing/dependency_subdag.md",
+      "background/nodes/rate_half_list_low_budget_all_arity_crossing/audit.md",
+      "background/nodes/rate_half_list_low_budget_all_arity_crossing/result.md",
+      "background/nodes/rate_half_list_low_budget_all_arity_crossing/verify.py",
+      "background/nodes/rate_half_list_low_budget_all_arity_crossing/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_low_budget_exact_crossing",
+      "order": 1726
+    },
+    {
+      "from": "list_subsqrt_interleaving_collapse",
+      "order": 1727
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "list_grand",
+      "order": 1728
+    },
+    {
+      "to": "list_large_m_scope_closure",
+      "order": 1729
+    }
+  ],
+  "refutes": []
+}

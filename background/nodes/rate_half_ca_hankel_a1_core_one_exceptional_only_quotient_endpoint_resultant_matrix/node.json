@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1172,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix",
+    "title": "A=1 exceptional quotient endpoint resultant matrix",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the sharp endpoint, the four resultants formed by the row factors A,H=P_X/A and column factors Q,V are one of two exact 2-by-2 power matrices: flat, or a checkerboard single-factor swap. Every row and column product recovers the Bezout and two-sided saturation identities.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_matrix/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile",
+      "order": 2388
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent",
+      "order": 2389
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2390
+    }
+  ],
+  "refutes": []
+}

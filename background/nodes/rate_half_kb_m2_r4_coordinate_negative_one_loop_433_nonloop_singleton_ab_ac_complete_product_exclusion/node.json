@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1493,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion",
+    "title": "KoalaBear m2 r4 coordinate negative one-loop 433 AB/AC complete-product exclusion",
+    "status": "PROVED",
+    "closure": "complete paired-product deletion of one-loop 433 matching orbit 3/6",
+    "statement": "The sixteen common packets in one-loop 433 cells 3 and 6 determine two deployed product involutions and forced singleton mates. Across every signed S0, S1, and S2 outside skeleton, every forced record, and all fifteen residual matchings, the resulting ideal in the three outside representatives is the unit ideal. Direct cell-3 and target-exchanged cell-6 replay checks 11760 raw ideals, so matching orbit 3/6 has no complete paired-product lift.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier",
+      "order": 3384
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
+      "order": 3385
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+      "order": 3386
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3387
+    }
+  ],
+  "refutes": []
+}

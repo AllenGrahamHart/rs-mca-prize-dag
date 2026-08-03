@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 124,
+  "node": {
+    "id": "e1_prize_n256_s18_m1028_collision_exclusion",
+    "title": "Prize N=256 square-mass-18 cofactor-1028 exclusion",
+    "status": "PROVED",
+    "closure": "exhaustive certificate",
+    "refs": [
+      "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/statement.md",
+      "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/proof.md",
+      "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/claim_contract.md",
+      "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/dependency_subdag.md",
+      "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/audit.md",
+      "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/result.md",
+      "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/source_pin.json",
+      "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/verify.py"
+    ],
+    "statement": "On prize-envelope N=256 rows, profile-(4,2,0) cofactor 1028 is impossible. The parent restricts it to V in {10,18}. Two independent complete normalized censuses cover 320292000 signed vectors, find no V=10 vector and 16 V=18 vectors, and prove that none of the latter has norm divisible by 257, contradicting 1028=4*257.",
+    "notes": "EXACT FINITE EXCLUSION 2026-07-28: dual 32-shard engines with distinct enumeration and autocorrelation implementations agree. The leading prize profile contracts from six to five live cofactors; no aggregate pair count is claimed."
+  },
+  "requires": [
+    {
+      "from": "e1_prize_n256_s18_variance_cofactor_windows",
+      "order": 466
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 467
+    },
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 468
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 469
+    }
+  ],
+  "refutes": []
+}

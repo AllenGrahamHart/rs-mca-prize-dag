@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1329,
+  "node": {
+    "id": "f3_hge4_multiscale_haar_m64_level_close",
+    "title": "HGE4 multiscale Haar norm product and m=64 exact-level close",
+    "status": "PROVED",
+    "closure": "proof plus exhaustive quarter-orbit endpoint verifier",
+    "statement": "All dyadic even-moment norms share one exact Haar-energy budget; structural zero scales contribute explicit powers of two to every remaining norm. The resulting norm product, together with a sharp 28,171-state endpoint lemma, proves E_h^prim(64,p)=0 for every h>=4 on every official ambient row. Thus the complete m=64 exact level has zero debit and surviving HGE4 levels begin at m=128. No higher-level aggregate is claimed.",
+    "refs": [
+      "background/nodes/f3_hge4_multiscale_haar_m64_level_close/statement.md",
+      "background/nodes/f3_hge4_multiscale_haar_m64_level_close/proof.md",
+      "background/nodes/f3_hge4_multiscale_haar_m64_level_close/claim_contract.md",
+      "background/nodes/f3_hge4_multiscale_haar_m64_level_close/dependency_subdag.md",
+      "background/nodes/f3_hge4_multiscale_haar_m64_level_close/audit.md",
+      "background/nodes/f3_hge4_multiscale_haar_m64_level_close/result.md",
+      "background/nodes/f3_hge4_multiscale_haar_m64_level_close/lineage.md",
+      "background/nodes/f3_hge4_multiscale_haar_m64_level_close/verify.py",
+      "background/nodes/f3_hge4_multiscale_haar_m64_level_close/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_exact_ratio_tower_orbit_compiler",
+      "order": 2978
+    },
+    {
+      "from": "f3_hge4_ambient_norm_level_contraction",
+      "order": 2979
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2980
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1159,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction",
+    "title": "Rate-half distance-three MDS source-weight reconstruction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official exceptional-only quotient-distance-three chart, the pair matching, internal slopes xi_i, internal fiber scalars lambda_i, and Theta_2 determine q_bar and every contracted source coefficient explicitly. At a root a in pair i the coefficient is K_a(z-xi_i), while the three canonical coefficients are barycentric. Conversely, once the required 3e external split fibers exist, the reconstructed moment pencil satisfies Mq=0 identically, has the exact exceptional/ordinary ranks, and obeys adj M=c_H z q q^T with the full first-order crossing. The reciprocal square and original column-far lift remain open.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation",
+      "order": 2356
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2357
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 941,
+  "node": {
+    "id": "f3_h3_shifted_energy_zero_normalization",
+    "title": "C36' full-shift energy has an exact zero-fiber correction",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/f3_h3_shifted_energy_zero_normalization/statement.md",
+      "background/nodes/f3_h3_shifted_energy_zero_normalization/proof.md",
+      "background/nodes/f3_h3_shifted_energy_zero_normalization/audit.md",
+      "background/nodes/f3_h3_shifted_energy_zero_normalization/claim_contract.md",
+      "background/nodes/f3_h3_shifted_energy_zero_normalization/dependency_subdag.md",
+      "background/nodes/f3_h3_shifted_energy_zero_normalization/result.md",
+      "background/nodes/f3_h3_shifted_energy_zero_normalization/verify.py"
+    ],
+    "statement": "For S=H-1 and A=S\\{0}, E_x(S)=E_x(A)+(2n-1)^2 exactly. Hence the full-shift estimate E_x(H-1)<=(145/4)(n-1)^2+(2n-1)^2 implies C36' on every official order. In centered-source form it is enough to bound E_x(H-1)-n^4/p by (145/4)(n-1)^2+(2n-1)^2-n^4/p, an allowance strictly greater than 39.24n^2 because every official prime has p>n^2. This corrects the zero convention in the literature audit but does not prove the energy estimate or promote C36'."
+  },
+  "requires": [
+    {
+      "from": "f3_h3_identity_deficit_energy_close",
+      "order": 1686
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1687
+    },
+    {
+      "to": "f3_h3_three_to_one_c36",
+      "order": 1688
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,48 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 532,
+  "node": {
+    "id": "l1_partial_pullback_johnson_router",
+    "title": "L1 partial-pullback Johnson router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For one monic degree-s map, let B be its b complete domain-fiber labels, let k_j=ceil((k-j)/s), and let kappa=sum_j max(0,k_j-b). For a listed codeword, let z count agreement points not contained in a fully agreed complete fiber. Then |Agr|=s|E|+z exactly. Under z<=Z, the quotient tuple agrees on at least h_Z=ceil((k+ell-1-Z)/s) labels. If h_Z^2>b(ceil(k/s)-1), a direct interleaved Johnson count bounds the class by q^kappa b^2 per map. Under a tame whole-petal anchor, fixed kappa<=K, and q<=n^gamma, all map classes cost at most n^(3+gamma K). This theorem leaves the nonpositive gate, kernel, wild maps, and missing anchors; the later coverage/kernel tradeoff proves kappa<=max(0,z-ell+1), absorbing the kernel into growing partial loss. The exact F_17^* affine-quadratic witness has z=5, kappa=0, and lies on the nonpositive side.",
+    "refs": [
+      "background/nodes/l1_partial_pullback_johnson_router/statement.md",
+      "background/nodes/l1_partial_pullback_johnson_router/proof.md",
+      "background/nodes/l1_partial_pullback_johnson_router/claim_contract.md",
+      "background/nodes/l1_partial_pullback_johnson_router/dependency_subdag.md",
+      "background/nodes/l1_partial_pullback_johnson_router/audit.md",
+      "background/nodes/l1_partial_pullback_johnson_router/lineage.md",
+      "background/nodes/l1_partial_pullback_johnson_router/result.md",
+      "background/nodes/l1_partial_pullback_johnson_router/verify.py",
+      "background/nodes/l1_partial_pullback_johnson_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_general_pullback_interleaving_descent",
+      "order": 2887
+    },
+    {
+      "from": "l1_tame_fixed_petal_refinement_census",
+      "order": 2888
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2889
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2890
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2891
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 361,
+  "node": {
+    "id": "monodromy_realization",
+    "title": "Monodromy route stage 0: realize general aperiodic alignment as sheaf monodromy",
+    "status": "TARGET",
+    "key": true,
+    "statement": "Express the aperiodic alignment count (general pairs, in-band agreements) as the trace function of an explicit sheaf family, so that big-monodromy + subgroup classification (the BETA_2 machinery, worked for the slack-line instance) applies. The enumeration = the subgroup classification (Kantor/ADW-style), complete by group theory.",
+    "refs": [
+      "experimental/notes/m1/m1_beta2_conditional_close.md"
+    ],
+    "notes": "the unmapped step: BETA_2's sheaf covers ONE instance; the general realization is open"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "payment_completeness",
+      "order": 581
+    }
+  ],
+  "refutes": []
+}

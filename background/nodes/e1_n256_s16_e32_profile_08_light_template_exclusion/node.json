@@ -1,0 +1,47 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 54,
+  "node": {
+    "id": "e1_n256_s16_e32_profile_08_light_template_exclusion",
+    "title": "N=256 E=32 profile-(0,8) light-template exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e32_profile_08_light_template_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e32_profile_08_light_template_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e32_profile_08_light_template_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e32_profile_08_light_template_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e32_profile_08_light_template_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e32_profile_08_light_template_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e32_profile_08_light_template_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e32_profile_08_light_template_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e32_profile_08_light_template_exclusion/verify_audit.py",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile08_light_template_census.cpp",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile08_light_template_census_modal.py",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile08_light_template_census_result.json",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile08_light_template_audit.cpp",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile08_light_template_audit_modal.py",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/notes/e32_profile08_light_template_audit_result.json"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), and V=64, autocorrelation magnitude profile (0,8) is impossible. Zero-odd light parity forces two antipodal pairs and exactly six affine-unit templates. Two independent exhaustive engines each cover 119,087,616 normalized signed vectors and retain zero profile-(0,8) vectors.",
+    "notes": "ROUTE CLOSURE 2026-07-27: removes the first of three V=64 profiles by an exact six-template light router and two independent empty censuses. Profiles (4,7) and (3,5,1) remain."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e32_profile_parity_diameter_reduction",
+      "order": 324
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 431
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 432
+    }
+  ],
+  "refutes": []
+}

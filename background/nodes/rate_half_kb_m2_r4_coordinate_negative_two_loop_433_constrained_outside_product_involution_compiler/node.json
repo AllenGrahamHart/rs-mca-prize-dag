@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1549,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler",
+    "title": "KoalaBear m2 r4 coordinate negative two-loop 433 constrained outside-product involution compiler",
+    "status": "PROVED",
+    "closure": "exact forced products and nonsingular product involutions for the X2/N1/L1 common rows",
+    "statement": "The three constrained 433 common rows X2, N1, and L1 have exact rank-eight base algebras. Candidate-row minors force one finite nonzero missing product in each row, and the two antipodal pairs compile an exact nonsingular bilinear product involution. This supplies all thirty sign/forced-type cells without imposing a false base-field rationality condition.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier",
+      "order": 3576
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier",
+      "order": 3577
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+      "order": 3578
+    },
+    {
+      "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+      "order": 3579
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3580
+    }
+  ],
+  "refutes": []
+}

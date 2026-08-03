@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1232,
+  "node": {
+    "id": "f3_h3_cutoff_layered_gcd_compiler",
+    "title": "H3 cutoff multiplicity-layer gcd compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every prime-field dyadic row and every cutoff c<n-1, let Pcal and Qcal be the global ordered product and nonidentity quotient polynomials. If G is the gcd of Pcal and its first c Hasse derivatives, and G_j is the gcd of the first j Hasse derivatives of G, then X_c=sum_j deg gcd(Qcal,G_j^(n-1)). Replacing Qcal by gcd(Qcal,Qcal') gives exactly Y_c=sum_t(P(t)-c)_+(R(t)-1)_+. At c=18 this is a quotient-lift-free exact row compiler for X_18 and Y_18; on the official orders, the uniform product-fiber theorem truncates it to B_n=min(n-19,ceil(33n^(2/3))-19) layers, each with a divisor-plus-Bezout certificate. It supplies no upper bound or official-scale complexity claim.",
+    "refs": [
+      "background/nodes/f3_h3_cutoff_layered_gcd_compiler/statement.md",
+      "background/nodes/f3_h3_cutoff_layered_gcd_compiler/proof.md",
+      "background/nodes/f3_h3_cutoff_layered_gcd_compiler/claim_contract.md",
+      "background/nodes/f3_h3_cutoff_layered_gcd_compiler/dependency_subdag.md",
+      "background/nodes/f3_h3_cutoff_layered_gcd_compiler/audit.md",
+      "background/nodes/f3_h3_cutoff_layered_gcd_compiler/result.md",
+      "background/nodes/f3_h3_cutoff_layered_gcd_compiler/verify.py",
+      "background/nodes/f3_h3_cutoff_layered_gcd_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_global_resultant_compression",
+      "order": 2548
+    },
+    {
+      "from": "f3_h3_cutoff18_double_accident_reduction",
+      "order": 2549
+    },
+    {
+      "from": "f3_h3_uniform_product_fiber_stepanov",
+      "order": 2550
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 2551
+    }
+  ],
+  "refutes": []
+}

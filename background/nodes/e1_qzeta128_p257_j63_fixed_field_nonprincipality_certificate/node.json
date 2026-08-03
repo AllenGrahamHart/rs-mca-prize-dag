@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 176,
+  "node": {
+    "id": "e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate",
+    "title": "Q(zeta_128) J_63 fixed-field nonprincipality certificate",
+    "status": "PROVED",
+    "closure": "Jacobi-sum Stickelberger relation and auxiliary-prime residue obstruction",
+    "refs": [
+      "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/statement.md",
+      "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/proof.md",
+      "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/claim_contract.md",
+      "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/attack.md",
+      "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/frontier.md",
+      "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/dependency_subdag.md",
+      "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/audit.md",
+      "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/result.md",
+      "background/nodes/e1_qzeta128_p257_j63_fixed_field_nonprincipality_certificate/verify.py"
+    ],
+    "statement": "The prime (257,zeta_128-zeta_128^(-1)-66) is nonprincipal in the degree-32 fixed field Q(zeta_128-zeta_128^(-1)).",
+    "notes": "FIXED-FIELD CLOSE 2026-07-29: an explicit residue character proves q_1q_63 nonprincipal in Q(zeta_128); a hypothetical lower generator would extend to a generator of that product."
+  },
+  "requires": [
+    {
+      "from": "e1_qzeta128_p257_j63_residue_obstruction",
+      "order": 4621
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1774,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-3 xi3 fully mixed pairings-11-14 exclusion",
+    "status": "PROVED",
+    "closure": "all 32 cases with missing df record xi=3 and canonical matching index 11 or 14",
+    "statement": "On the guarded positive deployed 433-1b role-cell-3 branch, every case with missing df record xi=3 and pairing index in {11,14} is empty across all source and target signs. For pairing 11, subtraction of the first two fully mixed paired equations gives a linear equation in z=1/d and a quartic compatibility cut in q=de. Exact reduction of the degree-eight missing-record cut modulo that quartic, a division-free 4-by-4 Bezout eliminant, exhaustive regular and degenerate direct replay, and the final paired equation exclude all 16 computed cases. Exchange of the two identical positive de records transports the result value-for-value to pairing 14. There is no witness, boundary, or unresolved stratum. No other matching, missing role, cell closure, or Prize result is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_xi3_fully_mixed_pairing11_pilot_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_xi3_fully_mixed_pairing11_census_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient",
+      "order": 4909
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4910
+    }
+  ],
+  "refutes": []
+}

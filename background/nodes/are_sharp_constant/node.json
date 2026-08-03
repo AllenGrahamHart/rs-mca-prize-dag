@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 369,
+  "node": {
+    "id": "are_sharp_constant",
+    "title": "Sharpen the transfer range: recompute the norm-height bound with explicit constants",
+    "status": "PROVABLE",
+    "statement": "Re-derive the split-prime transfer's height bound exp(C n log n / sigma) with the sharpest explicit C (archimedean conjugate bounds (2l')^{N'/2} per level); determine the TRUE exponent shape (is N' log l' achievable in place of n log n?). Every constant improvement is direct range progress.",
+    "refs": [
+      "tex/slackMCA_v4.tex"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "amplification_range_ext",
+      "order": 596
+    }
+  ],
+  "refutes": []
+}

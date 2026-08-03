@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1296,
+  "node": {
+    "id": "xr_higher_rank_first_residual_quadratic_involution",
+    "title": "XR first residual rank-two shell is quadratic-involutional",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_higher_rank_first_residual_quadratic_involution/statement.md",
+      "background/nodes/xr_higher_rank_first_residual_quadratic_involution/proof.md",
+      "background/nodes/xr_higher_rank_first_residual_quadratic_involution/claim_contract.md",
+      "background/nodes/xr_higher_rank_first_residual_quadratic_involution/dependency_subdag.md",
+      "background/nodes/xr_higher_rank_first_residual_quadratic_involution/verify.py",
+      "background/nodes/xr_higher_rank_first_residual_quadratic_involution/verify_audit.py",
+      "background/nodes/xr_higher_rank_first_residual_quadratic_involution/audit.md",
+      "background/nodes/xr_higher_rank_first_residual_quadratic_involution/result.md"
+    ],
+    "statement": "In an official odd-characteristic uniform high-core split pencil at affine kernel rank a, every rank-two trade on the first post-face-quotient shell |X|=a+3 is quadratic-involutional. Its pairwise-disjoint row-zero sets have sizes one or two, with at most one singleton, and 4<=t<=floor((a+4)/2). The degree-at-most-two polynomial pencil has degree exactly two, so all two-point zero fibers are cycles of one base-field Mobius involution. The row coefficients also satisfy the two exact slope-weighted dual-RS_2 checks. This reduces the first residual shell to ownership and counting of quadratic-pullback charts; it does not pay them or classify higher shells and higher trade rank."
+  },
+  "requires": [
+    {
+      "from": "xr_higher_rank_uniform_split_pencil_reduction",
+      "order": 2750
+    },
+    {
+      "from": "xr_higher_rank_collapsed_face_exclusion",
+      "order": 2751
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 2752
+    }
+  ],
+  "refutes": []
+}

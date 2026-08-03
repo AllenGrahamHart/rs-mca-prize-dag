@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 578,
+  "node": {
+    "id": "aqb_coupled_family_entropy_manifest_soundness",
+    "title": "AQB coupled family-entropy manifest soundness",
+    "status": "PROVED",
+    "statement": "If a coupled AQB manifest supplies the c=2 averaged-family certificate fields and an exact/interval entropy ledger keyed to the same family, with certified net gain at least 429,645,547 bits, then both aqb_c2_family_certificate_payload and aqb_shared_entropy_gain_payload hold.",
+    "attack_surface": "schema soundness tying the family certificate and entropy ledger to one manifest",
+    "falsifier": "a verified coupled manifest that satisfies the family schema and ledger threshold but fails either AQB payload"
+  },
+  "requires": [
+    {
+      "from": "aqb_family_certificate_semantics",
+      "order": 873
+    },
+    {
+      "from": "aqb_entropy_ledger_certificate_soundness",
+      "order": 874
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1098
+    }
+  ],
+  "refutes": []
+}

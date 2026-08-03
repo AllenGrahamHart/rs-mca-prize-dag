@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 296,
+  "node": {
+    "id": "e1_fullness",
+    "title": "E1 finite direct-value fullness compiler",
+    "status": "CONDITIONAL",
+    "statement": "For every admissible clean-anchor row in the pair-feasible class |F_p(Q)|>=b_pair_min(K,B*), with actual quotient order N in {256,512} and class count K=A_2(N,ell), the exact collision-pair bound from e1_official_prime_exception_control implies that the reduced ambient E1 image has size at least B*+1 and supplies a direct-value V payload at agreement k+n/N. All field, embedding, owner, and endpoint pins remain mandatory.",
+    "notes": "FINITE CORRECTION 2026-07-26: the former o(1)-sparse statement was not an exact finite prize certificate. The proved loss compiler and open pointwise collision bound now state the actual implication. This remains a route-local theorem; unsafe_crossing_family_instantiation owns every-row coverage."
+  },
+  "requires": [
+    {
+      "from": "e1_exceptional_set_reduction",
+      "order": 925
+    },
+    {
+      "from": "e1_clean_anchor_exact_collision_allowance",
+      "order": 926
+    },
+    {
+      "from": "e1_official_prime_exception_control",
+      "order": 927
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "unsafe_at_crossing",
+      "order": 226
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 931
+    }
+  ],
+  "refutes": []
+}

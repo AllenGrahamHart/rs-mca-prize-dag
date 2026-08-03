@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1171,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile",
+    "title": "A=1 exceptional quotient endpoint resultant profile",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the sharp high-distance endpoint, the exceptional-factor resultant is either an exact power of the ordinary slope locator or differs from that power by one printed linear-factor swap. These are the complete exceptional-root incidence multiplicities.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_endpoint_resultant_profile/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling",
+      "order": 2385
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation",
+      "order": 2386
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2387
+    }
+  ],
+  "refutes": []
+}

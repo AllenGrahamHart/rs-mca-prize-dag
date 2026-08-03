@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1309,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler",
+    "title": "Budget-three fiber-two c=2 one-antipodal packets have a product/ratio trace compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a one-antipodal c=2 denominator {1,-1,c,d}, put P=cd, t=c/d, and Z=t+t^-1. Then X=(c+d)^2=P(Z+2). Complementary-root torsion is equivalent to the coupled half-order circuit P_39^2=1 and Z_39=2P_39 under repeated squaring/trace doubling. The primary packet is therefore an exact (P,Z) circuit with distinctness (Z^2-4)(1+P^2-PZ)!=0 and no square-root gate. The trace Z always lies in F_p; in the reciprocal quadratic chamber P^p=P^-1. The compiler does not prove the circuit empty or address antipodal-free C2-PAR.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer",
+      "order": 2785
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router",
+      "order": 2786
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2787
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 363,
+  "node": {
+    "id": "pma_johnson_regime",
+    "title": "PMA stage 2: few-petal regime is CLASSICAL \u2014 Johnson/GS list bound applies",
+    "status": "PROVED",
+    "statement": "Whenever N^2 > d |T| (T = union of petals, |T| = M(sigma+1)), i.e. petal count M below ~(d+sigma)^2/(d(sigma+1)), the per-D auxiliary list is poly by Guruswami-Sudan \u2014 an unconditional classical import (forward direction; bridge-ledger row).",
+    "refs": [
+      "experimental/notes/l1/l1_full_list_quotient_proof_program.md"
+    ],
+    "notes": "IN FLIGHT: #197 | FLIP on replay (Codex wave 5): PROVABLE -> PROVED."
+  },
+  "requires": [
+    {
+      "from": "pma_aux_list_reduction",
+      "order": 585
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_mixed_amplification",
+      "order": 583
+    }
+  ],
+  "refutes": []
+}

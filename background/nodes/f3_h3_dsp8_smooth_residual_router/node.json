@@ -1,0 +1,47 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1220,
+  "node": {
+    "id": "f3_h3_dsp8_smooth_residual_router",
+    "title": "DSP8 smooth residual router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The raw trace ledger partitions exactly as G_25^c=G_sm^c+G_sing^c. Combining the current raw uniform allowance 48536/25 with the proved nodal payments gives sufficient smooth targets 45636/25 when p=2 mod 3 and 36086/25 when p=1 mod 3. Uniformly, 10G_sm^0+17G_sm^A<=(36086/25)n^2, equivalently 10K_sm^0+17K_sm^A<=(18043/50)n^2, proves DSP8-U. This router supplies no smooth estimate.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_smooth_residual_router/statement.md",
+      "background/nodes/f3_h3_dsp8_smooth_residual_router/proof.md",
+      "background/nodes/f3_h3_dsp8_smooth_residual_router/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_smooth_residual_router/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_smooth_residual_router/audit.md",
+      "background/nodes/f3_h3_dsp8_smooth_residual_router/result.md",
+      "background/nodes/f3_h3_dsp8_smooth_residual_router/verify.py",
+      "background/nodes/f3_h3_dsp8_smooth_residual_router/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "SP: primitive shift-pair control / exact second-moment ledger",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {
+      "from": "f3_h3_dsp8_unit_trace_elliptic_curve_router",
+      "order": 2035
+    },
+    {
+      "from": "f3_h3_dsp8_nodal_cube_preimage_envelope",
+      "order": 2036
+    },
+    {
+      "from": "f3_h3_dsp8_global_overlap_cover_payment",
+      "order": 2037
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2038
+    }
+  ],
+  "refutes": []
+}

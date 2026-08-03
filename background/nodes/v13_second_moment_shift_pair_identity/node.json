@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 716,
+  "node": {
+    "id": "v13_second_moment_shift_pair_identity",
+    "status": "PROVED",
+    "statement": "SPLIT FROM v13_prefix_collision_ledger (2026-07-08; the ledger's remainder stays quarantined): the exact second-moment stratification Sum_z N_w(z)^2 = C(n,m) + Sum_{e=w+1} P_e with sp_w(e; D') the ordered disjoint-root constant-top shift pairs (upstream thm:capg-second-moment). STATUS EARNED BY: (a) upstream's three-line bijection proof READ by maintainer; (b) OUR machine replay of the m = h instance at 5 rows (f3_identification_check_modal.py: DP second moment minus diagonal = 2x trade census, digit-exact, incl. toral split). Full-strata replay at general m queued. This is the identity powering the fleet's SP censuses and the F3 weld."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "v13_prefix_collision_ledger",
+      "order": 1225
+    },
+    {
+      "to": "shared_census_kernel",
+      "order": 1226
+    }
+  ],
+  "refutes": []
+}

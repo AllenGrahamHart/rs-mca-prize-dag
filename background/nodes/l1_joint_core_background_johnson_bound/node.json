@@ -1,0 +1,54 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1084,
+  "node": {
+    "id": "l1_joint_core_background_johnson_bound",
+    "title": "L1 joint core/background Johnson bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For one exact support cell, choose u=ell-(h-d) background agreements per contributor. The common-defect and common-background locators divide the same nonzero cross determinant, so |D_1 intersect D_2|+|R_1 intersect R_2|<=r=2d-h. A joint incidence second moment gives |Z|<=Nb ell/(bd^2+Nu^2-Nbr)<=n^3 whenever the denominator is positive. Thus fixed petal polarity is polynomial there. In tail variables a=N-d and c=N-h, every counterfamily satisfies b a^2+N(ell-a+c)^2<=Nbc. The exact F_17 chart attains the positive bound with two contributors; the exact F_23 nonsplit chart has two contributors at zero denominator, so strictness is load-bearing.",
+    "refs": [
+      "background/nodes/l1_joint_core_background_johnson_bound/statement.md",
+      "background/nodes/l1_joint_core_background_johnson_bound/proof.md",
+      "background/nodes/l1_joint_core_background_johnson_bound/claim_contract.md",
+      "background/nodes/l1_joint_core_background_johnson_bound/dependency_subdag.md",
+      "background/nodes/l1_joint_core_background_johnson_bound/audit.md",
+      "background/nodes/l1_joint_core_background_johnson_bound/verify.py",
+      "background/nodes/l1_joint_core_background_johnson_bound/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_fixed_support_defect_johnson_bound",
+      "order": 2140
+    },
+    {
+      "from": "l1_background_quotient_johnson_bound",
+      "order": 2141
+    },
+    {
+      "from": "l1_cross_quotient_split_descent_obstruction",
+      "order": 2142
+    },
+    {
+      "from": "pma_petal_pattern_root_pinning_ledger",
+      "order": 2143
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2144
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2145
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2146
+    }
+  ],
+  "refutes": []
+}

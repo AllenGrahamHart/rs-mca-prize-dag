@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 441,
+  "node": {
+    "id": "rate_half_coverage_gap",
+    "title": "DISCOVERY (wave 1): a ~3.0e6-radius uncovered band at rate 1/2 prize-max",
+    "status": "PROVED",
+    "key": true,
+    "statement": "At prize-max rate 1/2 the exact 2-power quotient-core window undershoots the mean crossing: M_max = 2^33 vs sigma* = 8,592,912,738 leaves 2,978,147 radii that are neither proved-unsafe (quotient windows) nor extras-zero (integrality) \u2014 an uncovered band the current mechanisms do not reach. Rates 1/4, 1/8, 1/16 are CLEAN (first open radius margins < -121 at Row C, < -3.4e11 at prize-max). Together with the s* verdict and the thin -12.87 margins, all three wave-1 findings point the same way: RATE 1/2 IS THE BATTLEFIELD; the other three rates look dramatically more closable.",
+    "attack_surface": "NEW CANDIDATE CLOSER (from the dihedral discovery): the gap is a scale-granularity artifact \u2014 sigma* - 2^33 = 2,978,146-ish, i.e. the 2-power window lattice's step. The dihedral/Chebyshev quotient family provides unsafe windows at NEW effective scales (twin-coset fibers, d = m*ell degree arithmetic \u2014 the PMA pullback construction is the list-side prototype). TASK: compute the dihedral window arithmetic at prize-max rate 1/2 and check whether any dihedral-or-mixed scale lands in [2^33, sigma*]. Other closers unchanged: extend quotient-core arithmetic past 2-powers; sharpen the crossing bracket.",
+    "falsifier": "n/a (a computed coverage fact; it shrinks as mechanisms extend)",
+    "refs": [
+      "proof_sketch/s7_list_side.md"
+    ],
+    "notes": "E26 HIT (#214, replayed green): 1,489,073 distinct strict pure-dihedral scales land inside the gap (2^33, sigma*] at prize-max rate 1/2 \u2014 including d = 2^33 + 2 with count C(2^40, 2^32+1), log2 >= 4.05e10 (astronomically above B*) \u2014 plus mixed dihedral-multiplicative hits through twin-fiber size 2^21. Note: 1,489,073 ~ half the 2,978,147-radius deficit (parity structure of dihedral scales). CONDITIONAL on E25: the windows are real floors iff dihedral alignment is real (paid or unpaid \u2014 either way they witness unsafety). Pinned/Row-C strict intervals empty \u2014 the gap phenomenon is prize-max-specific, as expected. If E25 confirms, rate 1/2's biggest blocker FALLS. | E25 DISCHARGES E26's condition at toy scope: dihedral alignment is real, so the 1.49M dihedral windows are live unsafe floors \u2014 rate 1/2's biggest blocker is FALLING, pending the scale-up from toy/basis-line to full M5-grade window certificates. | RATE-PORTABILITY NOTE (2026-07-04): the terminal trade machinery is rate-agnostic \u2014 W_h is h-only, A3 works at any fixed (n,h), and the dichotomy closure yields EXACTLY ZERO primitive residue at certified primes, which fits 1/2's 3-13-bit slack as well as the clean rates' 100+ bits. Certifying rho = 1/2 rows = adding their primes to the C2 GCD list (trivial marginal cost once certificates exist). THE TRUE 1/2 ENDGAME is therefore: (i) THIS coverage band; (ii) the -12.87-bit negative-margin decision point (conversion-chain, not counting); (iii) the B-side balance re-arithmetic at 1/2's giant parameters (the 123-bit cushion was computed at clean-rate prize-max; 1/2 may sit closer to or past the first-moment balance). The deferral stands, but the counting half of 1/2 is already absorbed by the campaign framework. | FLIPPED PROVED (Codex packet + my referee addition): the statement is the verified DISCOVERY (exact arithmetic, verifier-reproduced). CONSUMER SEMANTICS FIXED: the closing nodes need the band CLOSED, not discovered \u2014 successor node rate_half_band_closure created; this node demoted to ev at both closings."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "list_adjacency_closing",
+      "order": 745
+    },
+    {
+      "to": "adjacency_closing",
+      "order": 746
+    }
+  ],
+  "refutes": []
+}

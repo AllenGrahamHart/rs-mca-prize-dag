@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 315,
+  "node": {
+    "id": "u1_cramer",
+    "title": "U1: deficiency-1 kernel = signed-maximal-minor (Cramer) vector",
+    "status": "PROVABLE",
+    "refs": [
+      "wp_detail/wp2_6_underdetermined_program.md"
+    ],
+    "notes": "#176 closed-superseded; modular follow-ups begin at #179 (rank-drop split-locator dedup). | #199 carries SPI + deficiency-one chart LEMMA versions (the modular successor to #176/#179 chain)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "circuit_pricing",
+      "order": 718
+    }
+  ],
+  "refutes": []
+}

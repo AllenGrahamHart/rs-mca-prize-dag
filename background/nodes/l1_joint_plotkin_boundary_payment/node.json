@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1086,
+  "node": {
+    "id": "l1_joint_plotkin_boundary_payment",
+    "title": "L1 joint Plotkin-boundary payment",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Encode each exact-support contributor by A=D disjoint_union R in the (N+b)-point core/background universe, where R is a canonical u-subset of its background agreements. The shared cross-determinant budget gives |A triangle A'|>=2ell. If N+b<=4ell, the sign-vector embeddings have pairwise nonpositive inner products, so the elementary Rankin bound gives at most 2(N+b)<=2n contributors. Thus fixed petal polarity is polynomial throughout the equality regime and every live cell satisfies N+b>4ell. For an official rate-1/r source this is equivalent to rb>(4(r-1)-M)ell+r, or (M-3(r-1)+1)ell>r(g+1).",
+    "refs": [
+      "background/nodes/l1_joint_plotkin_boundary_payment/statement.md",
+      "background/nodes/l1_joint_plotkin_boundary_payment/proof.md",
+      "background/nodes/l1_joint_plotkin_boundary_payment/claim_contract.md",
+      "background/nodes/l1_joint_plotkin_boundary_payment/dependency_subdag.md",
+      "background/nodes/l1_joint_plotkin_boundary_payment/audit.md",
+      "background/nodes/l1_joint_plotkin_boundary_payment/verify.py",
+      "background/nodes/l1_joint_plotkin_boundary_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_joint_core_background_johnson_bound",
+      "order": 2153
+    },
+    {
+      "from": "l1_joint_johnson_source_scale_gate",
+      "order": 2154
+    },
+    {
+      "from": "pma_petal_pattern_root_pinning_ledger",
+      "order": 2155
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2156
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2157
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2158
+    }
+  ],
+  "refutes": []
+}

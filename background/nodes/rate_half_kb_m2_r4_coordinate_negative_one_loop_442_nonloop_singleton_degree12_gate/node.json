@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1507,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate",
+    "title": "KoalaBear m2 r4 coordinate negative one-loop 442 nonloop-singleton degree-12 gate",
+    "status": "PROVED",
+    "closure": "finite degree-12 b gate for every cubic-root row in the cells 9/10/12/13 orbit",
+    "statement": "After the parent cubic gate and safe c reconstruction, take the direct t-resultant of the remaining product minor and q weld. Its resultant with the sign-dependent r cubic is -2^56 b^24(b-1)^12(b+1)^12 times G(b), where G=(b^3-b^2-b-1)(b^3+b^2+b-1)(b^6-2b^5+7b^4-8b^3+7b^2-2b+1). Hence every guarded common packet has G(b)=0, giving at most 72 raw (r,b,t) triples per sign row. The F_41 witness lies on the sextic factor; outside realization remains open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate",
+      "order": 3452
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3453
+    }
+  ],
+  "refutes": []
+}

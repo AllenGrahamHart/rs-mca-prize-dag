@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 985,
+  "node": {
+    "id": "rate_half_list_budget_three_multifiber_vandermonde_exclusion",
+    "title": "Budget-three equal-multifiber quotient constructions are Vandermonde-excluded",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "If B_i is a union of s full fibers of one monomial map X^m and A_i=B_i/(X-r_i) deletes one distinct root, then the top m coefficients of A_i are the geometric vector (1,r_i,...,r_i^(m-1)). Any t<=m such locators are Vandermonde-independent. Hence all four cycle chambers are incompatible with direct equal-multifiber quotient completions for m>=4, and both path chambers are incompatible for m>=3. At d=2^39 this excludes every power-of-two quotient-fiber size m>=4 in those six chambers; small-fiber, mixed-map, partial-fiber, primitive, and the other seven chamber residuals remain open.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_multifiber_vandermonde_exclusion/statement.md",
+      "background/nodes/rate_half_list_budget_three_multifiber_vandermonde_exclusion/proof.md",
+      "background/nodes/rate_half_list_budget_three_multifiber_vandermonde_exclusion/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_multifiber_vandermonde_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_multifiber_vandermonde_exclusion/audit.md",
+      "background/nodes/rate_half_list_budget_three_multifiber_vandermonde_exclusion/result.md",
+      "background/nodes/rate_half_list_budget_three_multifiber_vandermonde_exclusion/verify.py",
+      "background/nodes/rate_half_list_budget_three_multifiber_vandermonde_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_linear_grassmann_atlas",
+      "order": 1811
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1812
+    }
+  ],
+  "refutes": []
+}

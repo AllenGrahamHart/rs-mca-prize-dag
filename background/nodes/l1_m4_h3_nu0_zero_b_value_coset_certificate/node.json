@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1637,
+  "node": {
+    "id": "l1_m4_h3_nu0_zero_b_value_coset_certificate",
+    "title": "L1 m=4, h=3, nu=0 zero-b value-coset certificate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For nu=0,b=0, products of the three complete fibers yield subgroup elements u,v with u+v=2. A complete 16-case Frobenius quarter-class certificate excludes this arm at p=8191 and 131071. At p=524287 and 2147483647, every survivor satisfies a^2+3aR(0)^2+R(0)^4=0. The latter arm and nonzero-b endpoints remain open, so L1 is not closed.",
+    "refs": [
+      "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/statement.md",
+      "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/proof.md",
+      "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/claim_contract.md",
+      "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/dependency_subdag.md",
+      "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/audit.md",
+      "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/result.md",
+      "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/lineage.md",
+      "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/upstream_crosswalk.md",
+      "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/verify.py",
+      "background/nodes/l1_m4_h3_nu0_zero_b_value_coset_certificate/verify_audit.py",
+      "experiments/prize_resolution/l1_m4_h3_nu0_zero_b_value_coset_check.py",
+      "experiments/prize_resolution/l1_m4_h3_nu0_zero_b_value_coset_result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_m4_h3_mason_defect_budget",
+      "order": 3886
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3887
+    }
+  ],
+  "refutes": []
+}

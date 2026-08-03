@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1716,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction",
+    "title": "L1 Mersenne HNF m=8 order-one cubic three-double x=0 quintic reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the exceptional x=dU-3=0 branch, the reduced fifth equation and h=7 conic exclude d=-2,-3/2,-3 by the official norm-color condition and force every remaining packet onto P_5(d)=60d^5+407d^4+1147d^3+1659d^2+1218d+360=0 with q=-12(5d^3+16d^2+18d+10)/(35(d+2)).",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_x0_quintic_reduction/verify.py"
+    ],
+    "notes": "Exact necessary finite endpoint only. The 32 official norm gcds are not yet evaluated, and any retained quintic root still owes the other coefficient, color, Frobenius, cyclotomic, and inner conditions."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction",
+      "order": 4006
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4007
+    }
+  ],
+  "refutes": []
+}

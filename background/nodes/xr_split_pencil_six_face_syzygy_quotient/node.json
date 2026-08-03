@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 932,
+  "node": {
+    "id": "xr_split_pencil_six_face_syzygy_quotient",
+    "title": "XR six-face Plucker syzygies remove three rank-two profiles",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_split_pencil_six_face_syzygy_quotient/statement.md",
+      "background/nodes/xr_split_pencil_six_face_syzygy_quotient/proof.md",
+      "background/nodes/xr_split_pencil_six_face_syzygy_quotient/verify.py",
+      "background/nodes/xr_split_pencil_six_face_syzygy_quotient/result.md"
+    ],
+    "statement": "On a six-set X, t selected five-faces with distinct split-pencil colors obey one fractional-linear color law. Their canonical dual-cubic face words mu_i have an exact left-syzygy space ker(1;x_i;gamma_i;x_i gamma_i) of dimension t-3, because that matrix has rank three. Conversely every R=6 rank-two trade from the support atlas is one of these forced local Plucker syzygies. After quotienting their span from the parity stack's left kernel, only the two nonlocal rank-two profiles (t,R;z)=(4,7;1,2,2,2) and (4,8;2,2,2,2) remain. This is an exact known-syzygy quotient, not a payment of the two residual profiles."
+  },
+  "requires": [
+    {
+      "from": "xr_grs_split_pencil_rank_certificate",
+      "order": 1637
+    },
+    {
+      "from": "xr_split_pencil_trade_rank_two_support_atlas",
+      "order": 1638
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1639
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1640
+    }
+  ],
+  "refutes": []
+}

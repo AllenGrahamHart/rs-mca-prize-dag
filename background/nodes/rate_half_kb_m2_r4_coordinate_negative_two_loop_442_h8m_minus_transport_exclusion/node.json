@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1557,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8m_minus_transport_exclusion",
+    "title": "KoalaBear m2 r4 coordinate negative two-loop 442 H8-M-minus transport exclusion",
+    "status": "PROVED",
+    "closure": "H8-M tau-minus row transported to the empty H8-L tau-minus row",
+    "statement": "Swapping the two degree-four loop pairs and renormalizing gives the involution b'=1/b,c'=-c/b, sends the H8-L tau-minus labels and common products to H8-M tau-minus with one product scaling, and sends D,E,F to -D/b,-E/b,-F/b. It preserves sigma, all forced types, and the paired-product gate. Thus all six H8-M tau-minus cells are empty and the 442 frontier is four rows and 24 cells.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8m_minus_transport_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8m_minus_transport_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8m_minus_transport_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8m_minus_transport_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8m_minus_transport_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8m_minus_transport_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8m_minus_transport_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8m_minus_transport_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8m_minus_transport_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8m_minus_transport_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8m_minus_transport_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier",
+      "order": 3610
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router",
+      "order": 3611
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8l_minus_complete_product_exclusion",
+      "order": 3612
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3613
+    }
+  ],
+  "refutes": []
+}

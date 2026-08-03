@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1348,
+  "node": {
+    "id": "rate_half_kb_m4_a6s6_genus_zero_passport_reduction",
+    "title": "KoalaBear m4 A6/S6 genus-zero passport reduction",
+    "status": "PROVED",
+    "closure": "complete degree-15 two-subset class budget plus product-one generation census",
+    "statement": "For the surviving inner-degree-four outer map with A6 or S6 two-subset monodromy and a mandatory 5^3 pole cycle, exactly four geometric genus-zero passports remain: one A6 and three S6 rows. Three are three-point covers and one is a four-point cover. Five other index-compatible rows generate only proper groups of order 60 or 120. Challenge-field descent, split fibers, quartic source-star incidence, and the surviving m4 type remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/statement.md",
+      "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/proof.md",
+      "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/claim_contract.md",
+      "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/source_evidence.md",
+      "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/audit.md",
+      "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/result.md",
+      "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/frontier.md",
+      "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/verify.py",
+      "background/nodes/rate_half_kb_m4_a6s6_genus_zero_passport_reduction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m4_outer_a6s6_route_cut",
+      "order": 3010
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3011
+    }
+  ],
+  "refutes": []
+}

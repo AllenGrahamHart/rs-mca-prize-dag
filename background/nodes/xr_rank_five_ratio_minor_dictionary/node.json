@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 892,
+  "node": {
+    "id": "xr_rank_five_ratio_minor_dictionary",
+    "title": "XR rank-five rich lines force external maximal-minor zeros",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_rank_five_ratio_minor_dictionary/statement.md",
+      "background/nodes/xr_rank_five_ratio_minor_dictionary/proof.md",
+      "background/nodes/xr_rank_five_ratio_minor_dictionary/verify.py",
+      "background/nodes/xr_rank_five_ratio_minor_dictionary/result.md"
+    ],
+    "statement": "In the P-A RowC rank-five u=v=0 branch, normalize K_E to GRS_4. For a selected codeword c with residual z and chosen agreement set A, each four-set T subset A defines r_T=q-I_Tq and the exact collision line c+lambda*r_T. Other selected line members give distinct h-rich fibers of z/r_T on E\\A. Equality in a fiber is exactly a vanishing 6x6 minor of the global lift (1,x,x^2,x^3,q,U). Combining with the rich-line hierarchy forces at least 23560/12600/228 distinct external vanishing-minor records per retained member on the three RowC rows. This is a representability reduction, not a slope count."
+  },
+  "requires": [
+    {
+      "from": "xr_rank_five_richline_hierarchy",
+      "order": 1575
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1576
+    }
+  ],
+  "refutes": []
+}

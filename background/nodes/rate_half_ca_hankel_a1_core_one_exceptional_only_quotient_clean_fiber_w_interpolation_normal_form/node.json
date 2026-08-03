@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1174,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_w_interpolation_normal_form",
+    "title": "A=1 exceptional quotient clean-fiber W interpolation normal form",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The first-jet identity uniquely determines W_vee on every clean split fiber. Coefficientwise interpolation over all deg(P_cl) clean slopes fixes W_vee modulo P_cl. Since deg_t W_vee<=deg(P_cl)+1, every corrected square has the unique form W_vee=W_0+P_cl(t A_W+B_W), leaving only two degree-at-most-r-1 univariate correction polynomials.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_w_interpolation_normal_form/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_w_interpolation_normal_form/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_w_interpolation_normal_form/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_w_interpolation_normal_form/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_w_interpolation_normal_form/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_w_interpolation_normal_form/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_w_interpolation_normal_form/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_first_jet_transversality",
+      "order": 2395
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_two_sided_complement_weld",
+      "order": 2396
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2397
+    }
+  ],
+  "refutes": []
+}

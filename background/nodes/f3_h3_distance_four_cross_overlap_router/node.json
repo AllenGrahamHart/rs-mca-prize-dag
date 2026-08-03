@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 996,
+  "node": {
+    "id": "f3_h3_distance_four_cross_overlap_router",
+    "title": "H3 distance-four cross-overlap router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every distance-four edge among the seven selected same-fiber representations lies in one of two exact two-variable lanes. The antipodal lane is x^2=u+v-uv. The generic cross signed-monomial lane reduces to uv=-y and ux(1-y)=u^2-y.",
+    "refs": [
+      "background/nodes/f3_h3_distance_four_cross_overlap_router/statement.md",
+      "background/nodes/f3_h3_distance_four_cross_overlap_router/proof.md",
+      "background/nodes/f3_h3_distance_four_cross_overlap_router/claim_contract.md",
+      "background/nodes/f3_h3_distance_four_cross_overlap_router/dependency_subdag.md",
+      "background/nodes/f3_h3_distance_four_cross_overlap_router/audit.md",
+      "background/nodes/f3_h3_distance_four_cross_overlap_router/result.md",
+      "background/nodes/f3_h3_distance_four_cross_overlap_router/verify.py",
+      "background/nodes/f3_h3_distance_four_cross_overlap_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_rich_fiber_norm_cutoff",
+      "order": 1882
+    },
+    {
+      "from": "f3_h3_distance_two_collision_2primary_exclusion",
+      "order": 1883
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1884
+    }
+  ],
+  "refutes": []
+}

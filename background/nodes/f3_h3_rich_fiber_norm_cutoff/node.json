@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 832,
+  "node": {
+    "id": "f3_h3_rich_fiber_norm_cutoff",
+    "title": "C36' rich product fibers are confined below the 6^(n/4) norm threshold",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/f3_h3_rich_fiber_norm_cutoff/statement.md",
+      "background/nodes/f3_h3_rich_fiber_norm_cutoff/proof.md",
+      "background/nodes/f3_h3_rich_fiber_norm_cutoff/verify.py"
+    ],
+    "statement": "For n=2^s, p=1 mod n, H of order n, A=(1-H)\\{0}, and P(t)=#{(a,b) in A^2:ab=t}, one has P(t)>=19 only if p<=6^(n/4). Ten unordered representations forced by P>=19 yield ten odd-conjugate coefficient vectors. At most two are diagonal and at most one contains -1, so at least seven have squared norm at most 3. The seven-vector centroid identity forces a pair at squared distance at most 6. Parseval and AM-GM give a nonzero collision obstruction of norm at most 6^(n/4). Thus X_18=0 for p>6^(n/4), reducing the open C36' range to n^2<=p<=6^(n/4)."
+  },
+  "requires": [
+    {
+      "from": "f3_h3_shifted_product_sidon",
+      "order": 1400
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1401
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 698,
+  "node": {
+    "id": "v13_finite_adjacent_compiler",
+    "status": "PROVED",
+    "title": "v13 finite adjacent compiler (endpoint convention)",
+    "statement": "COMPILER THEOREM (upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes): if the exact unsafe inequality holds at agreement a0, and the safe upper ledger at a1 = a0+1 is a disjoint/first-match integer sum bounded by B*, then a1 is the first safe agreement and the closed-radius threshold is pinned at the a0/a1 boundary. PROVED (one paragraph): unsafe(a0) gives count > B* at a0; the ledger gives count <= B* at a1; counts are monotone in agreement; hence the crossing is exactly between a0 and a1 -- the adjacent determination in the sense of the prize spec and of our mca_grand statement. Matches the F_17^32 pinned row (LD 7 at 506, 6 at 507)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "adjacency_closing",
+      "order": 1181
+    },
+    {
+      "to": "compiler",
+      "order": 1182
+    },
+    {
+      "to": "harness",
+      "order": 1183
+    },
+    {
+      "to": "packaging",
+      "order": 1184
+    }
+  ],
+  "refutes": []
+}

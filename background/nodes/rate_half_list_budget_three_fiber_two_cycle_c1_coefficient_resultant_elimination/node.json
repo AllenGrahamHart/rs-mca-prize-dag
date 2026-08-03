@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1260,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c1_coefficient_resultant_elimination",
+    "title": "Budget-three fiber-two c=1 mismatch packet is one coefficient resultant",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let D_*(Y)=Y^4-e_1Y^3+e_2Y^2-e_3Y+e_4 split with distinct nonzero roots. For ordered distinct roots A,C, set S=e_1-A-C, P=e_4/(AC), and Nhat(A,C)=(AC)^6 N(A;S,P), where N is the radical-free c=1 norm. Then Nhat is polynomial of bidegree at most (18,18). With H(A,C)=(D_*(C)-D_*(A))/(C-A), the twelve c=1 candidates pass iff Res_A(D_*(A),Res_C(H(A,C),Nhat(A,C)))=0. This resultant equals e_4^36 times the product of all twelve norms, so it is an exact coefficient-only constant-degree compiler, not an exclusion.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_coefficient_resultant_elimination/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_coefficient_resultant_elimination/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_coefficient_resultant_elimination/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_coefficient_resultant_elimination/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_coefficient_resultant_elimination/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_coefficient_resultant_elimination/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_coefficient_resultant_elimination/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_coefficient_resultant_elimination/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_mismatch_trace_resolvent_elimination",
+      "order": 2659
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2660
+    }
+  ],
+  "refutes": []
+}

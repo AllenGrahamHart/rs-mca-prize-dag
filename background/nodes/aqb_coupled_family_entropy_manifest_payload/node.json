@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 579,
+  "node": {
+    "id": "aqb_coupled_family_entropy_manifest_payload",
+    "title": "AQB actual coupled family-entropy manifest payload",
+    "status": "REFUTED",
+    "statement": "Provide the actual coupled AQB manifest for sigma*=8,592,912,738: the c=2 averaged-family member parametrization, shared quotient/fiber and reusable charge data, member-to-witness transfers, and exact or interval-certified entropy ledger entries keyed to that same family with certified net gain at least 429,645,547 bits.",
+    "attack_surface": "actual construction/import of the averaged c=2 family together with its certified entropy ledger",
+    "falsifier": "a missing family field, a ledger not keyed to the family, or a certified net lower bound below 429,645,547 bits",
+    "notes": "ATTACK OPEN (node 1): deficit side PROVED (B_I(256)=429645546.77<429645547, interval-certified); averaging transfer PROVED. Residue = the c=2 box-charge amortization gain (construct canonical family + closed-form ledger, net >=429645547, OR refute via independent-box decomposition). Self-contained Pro brief issued. | AQB ROUTE REFUTED (Pro, verified): convex-combination obstruction \u2014 the averaging transfer needs the family AVERAGE (convex comb of single-box counts <= max box), so box-sharing saves log|F| but the \u00f7|F| normalization cancels it. Gain needs a heavy-fiber theorem (forbidden, circular). See aqb_coupled_family_entropy_manifest_payload/refutation.md."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "aqb_c2_family_certificate_payload",
+      "order": 876
+    },
+    {
+      "to": "aqb_shared_entropy_gain_payload",
+      "order": 884
+    },
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1099
+    }
+  ],
+  "refutes": []
+}

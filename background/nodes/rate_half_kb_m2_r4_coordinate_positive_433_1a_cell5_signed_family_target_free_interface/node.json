@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1446,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface",
+    "title": "KoalaBear positive 433-1a cell-5 signed-family target-free interface",
+    "status": "PROVED",
+    "closure": "exact target elimination for two unsquared signed three-record families",
+    "statement": "In deployed-field cell 5, signs (-1,-1), each of the signed families DE+/DE-/BE and DF+/DF-/CF is equivalent on the guarded stratum to four explicit target-free equations in three source roots. The compiler eliminates both target roots while preserving unsquared Vieta signs. No source system, cell, route, K3 row, or Prize result is closed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_signed_family_target_free.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_signed_family_qring_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_common_chart_probe.c",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_outside_product_probe_modal.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler",
+      "order": 3193
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion",
+      "order": 3194
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3195
+    }
+  ],
+  "refutes": []
+}

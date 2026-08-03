@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1323,
+  "node": {
+    "id": "f3_h3_dsp8_nodal_trace_orbit_energy_router",
+    "title": "DSP8 nodal trace-orbit energy router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Internally signed-distinct points on each singular trace form free six-presentation orbits, and signed-disjoint DSP8 pairs cannot lie in one orbit. Thus the nodal pair square sharpens exactly to E_tr=sum_c N_c(N_c-6). When p=1 mod 3, E_tr=(N^2+2|S|^2)/3-6N for one cubic-character bias S of the eligible nodal parameters. This is an exact energy router; it proves no cubic-bias or smooth-trace bound.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_nodal_trace_orbit_energy_router/statement.md",
+      "background/nodes/f3_h3_dsp8_nodal_trace_orbit_energy_router/proof.md",
+      "background/nodes/f3_h3_dsp8_nodal_trace_orbit_energy_router/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_nodal_trace_orbit_energy_router/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_nodal_trace_orbit_energy_router/audit.md",
+      "background/nodes/f3_h3_dsp8_nodal_trace_orbit_energy_router/result.md",
+      "background/nodes/f3_h3_dsp8_nodal_trace_orbit_energy_router/verify.py",
+      "background/nodes/f3_h3_dsp8_nodal_trace_orbit_energy_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_dsp8_nodal_trace_parameter_router",
+      "order": 2834
+    },
+    {
+      "from": "f3_h3_dsp8_nodal_cube_preimage_envelope",
+      "order": 2835
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2836
+    }
+  ],
+  "refutes": []
+}

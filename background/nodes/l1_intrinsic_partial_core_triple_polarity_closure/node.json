@@ -1,0 +1,58 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1100,
+  "node": {
+    "id": "l1_intrinsic_partial_core_triple_polarity_closure",
+    "title": "L1 intrinsic partial-core triple-polarity closure",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For an intrinsic quotient partition, allow an arbitrary (k-1)-point source core and measure three symmetric exception counts: layout polarity of the core against complete fibers, exact-defect polarity inside each core slice, and petal-support polarity. Four orientation vectors over L=n/ell fibers, bounded exception sets, source-member uniqueness, and the whole-strip CRT bounds give at most (log_2 n+1)(R_0+1)(B_0+1)(P_0+1)n^(4/c_0+R_0+B_0+P_0+2 gamma P_0) contributors across all intrinsic scales. Thus every fixed triple-polarity box is globally polynomial even with partial cores; non-intrinsic quotient maps and arbitrary petals remain open.",
+    "refs": [
+      "background/nodes/l1_intrinsic_partial_core_triple_polarity_closure/statement.md",
+      "background/nodes/l1_intrinsic_partial_core_triple_polarity_closure/proof.md",
+      "background/nodes/l1_intrinsic_partial_core_triple_polarity_closure/claim_contract.md",
+      "background/nodes/l1_intrinsic_partial_core_triple_polarity_closure/dependency_subdag.md",
+      "background/nodes/l1_intrinsic_partial_core_triple_polarity_closure/audit.md",
+      "background/nodes/l1_intrinsic_partial_core_triple_polarity_closure/verify.py",
+      "background/nodes/l1_intrinsic_partial_core_triple_polarity_closure/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_intrinsic_quotient_source_chart_census",
+      "order": 2227
+    },
+    {
+      "from": "l1_polarized_petal_entropy_ledger",
+      "order": 2228
+    },
+    {
+      "from": "l1_marked_common_pencil_crt_fiber_bound",
+      "order": 2229
+    },
+    {
+      "from": "l1_marked_common_pencil_next_strip_boundary_fiber_bound",
+      "order": 2230
+    },
+    {
+      "from": "petal_reserve_rich_fiber_reduction",
+      "order": 2231
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2232
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2233
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2234
+    }
+  ],
+  "refutes": []
+}

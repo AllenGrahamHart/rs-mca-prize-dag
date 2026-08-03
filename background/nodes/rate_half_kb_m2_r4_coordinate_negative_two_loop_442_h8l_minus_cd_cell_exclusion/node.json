@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1555,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8l_minus_cd_cell_exclusion",
+    "title": "KoalaBear m2 r4 coordinate negative two-loop 442 H8-L-minus colored-xi cell exclusion",
+    "status": "PROVED",
+    "closure": "both H8-L tau-minus forced-colored-xi invariant-product cells deleted by intrinsic resultants",
+    "statement": "On the H8-L,tau=-1 row, the common data descend to P4(b)=b^4-2b^3+b^2-2b+1, c=(b-2)(b^2+1)/b, forced product 1, and involution G(uv+1)-A(u+v)=0. For forced xi type cD the residual products are (a,sigma a/c^2,+/-x,+/-ax). The signed-pair theorem deletes three matchings; exact factor norms delete the other twelve for both sigma signs in deployed characteristic. The 442 invariant frontier drops from 36 to 34 cells.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8l_minus_cd_cell_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8l_minus_cd_cell_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8l_minus_cd_cell_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8l_minus_cd_cell_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8l_minus_cd_cell_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8l_minus_cd_cell_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8l_minus_cd_cell_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8l_minus_cd_cell_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8l_minus_cd_cell_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8l_minus_cd_cell_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8l_minus_cd_cell_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler",
+      "order": 3602
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router",
+      "order": 3603
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion",
+      "order": 3604
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3605
+    }
+  ],
+  "refutes": []
+}

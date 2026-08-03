@@ -1,0 +1,54 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1097,
+  "node": {
+    "id": "l1_quotient_chart_bipolar_entropy_closure",
+    "title": "L1 quotient-chart bipolar entropy closure",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In one genuine quotient/coset common-pencil chart, orient every petal support and every exact core defect fiber as sparse or dense. The exceptional point counts are exactly the petal polarity p_pet and symmetric core polarity p_core. At the L1 cutoff the M+N orientation bits cost only 2^(M+N)<=n^(1/c_0); bounded exceptional sets cost n^(P_0+B_0); and the whole-strip CRT bounds cost q^(2P_0). Thus every fixed bipolar box has at most (P_0+1)(B_0+1)n^(1/c_0+P_0+B_0+2 gamma P_0) contributors per source chart. Any super-polynomial fixed-chart family must have unbounded petal or symmetric core polarity; cross-chart and arbitrary-locator branches remain open.",
+    "refs": [
+      "background/nodes/l1_quotient_chart_bipolar_entropy_closure/statement.md",
+      "background/nodes/l1_quotient_chart_bipolar_entropy_closure/proof.md",
+      "background/nodes/l1_quotient_chart_bipolar_entropy_closure/claim_contract.md",
+      "background/nodes/l1_quotient_chart_bipolar_entropy_closure/dependency_subdag.md",
+      "background/nodes/l1_quotient_chart_bipolar_entropy_closure/audit.md",
+      "background/nodes/l1_quotient_chart_bipolar_entropy_closure/verify.py",
+      "background/nodes/l1_quotient_chart_bipolar_entropy_closure/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_polarized_petal_entropy_ledger",
+      "order": 2210
+    },
+    {
+      "from": "l1_marked_common_pencil_crt_fiber_bound",
+      "order": 2211
+    },
+    {
+      "from": "l1_marked_common_pencil_next_strip_boundary_fiber_bound",
+      "order": 2212
+    },
+    {
+      "from": "petal_reserve_rich_fiber_reduction",
+      "order": 2213
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2214
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2215
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2216
+    }
+  ],
+  "refutes": []
+}

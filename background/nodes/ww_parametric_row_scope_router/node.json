@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 768,
+  "node": {
+    "id": "ww_parametric_row_scope_router",
+    "title": "W3 parametric row-scope router",
+    "status": "PROVED",
+    "statement": "The challenge defines an admissible parametric family rather than a named finite official-row registry. The proved descriptor computes exact q, n, k, and B*=floor(q/2^128) for every admissible input (p,e,s,rho). This made W3 and its scope exactly testable. The explicit fiber-layout row refutes only an unsafe-cell extension, not W3's literal safe-side claim. Because the repaired prize path no longer consumes W3, no finite official-row sweep or certificate campaign remains on that path.",
+    "refs": [
+      "background/nodes/ww_parametric_row_scope_router/proof.md",
+      "background/nodes/ww_parametric_row_scope_router/audit.md"
+    ],
+    "closure": "proof"
+  },
+  "requires": [
+    {
+      "from": "official_row_primes_pinning",
+      "order": 1291
+    },
+    {
+      "from": "descriptor",
+      "order": 1292
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "ww_row_envelope_clause",
+      "order": 1293
+    }
+  ],
+  "refutes": []
+}

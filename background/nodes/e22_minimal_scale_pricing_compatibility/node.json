@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 677,
+  "node": {
+    "id": "e22_minimal_scale_pricing_compatibility",
+    "title": "E22 minimal-scale pricing compatibility",
+    "status": "PROVED",
+    "statement": "The dyadic quotient staircase pricing column, as evaluated by dyadic_profile_evaluation, counts the minimal-scale representatives selected by e22_dyadic_minimal_scale_selector with exactly the declared multiplicity. This is reduced to the proved tail-minimality criterion plus the remaining count formula for supports satisfying that criterion.",
+    "attack_surface": "assembly from e22_minimal_scale_tail_criterion and e22_minimal_scale_count_formula",
+    "falsifier": "a selected canonical representative that is omitted, duplicated, or assigned the wrong multiplicity by the dyadic pricing column",
+    "notes": "FIFTH-BRANCH REPLAY (2026-07-10): REPLAY-CLEAN as WEIGHT-PARAMETRIC identities (fresh verifiers, exhaustive n=8/16 + sampled n=32 ground truth, mutation controls; suites banked at critical/nodes/petal_growth/notes/g3_replay_20260710/). CATCH #44: the prior REPLAY-PENDING note undercounted \u2014 THREE nodes have verifiers (selector, tail_criterion, partition), not one. SCOPE CAVEAT (catch #47): the four pricing statements (pricing_compatibility, column_evaluation, count_formula, cross_scale head) reference a 'declared multiplicity' that is declared nowhere and is UNFILLABLE by any per-scale constant or integer weight (exact ratios 8/5, 640/3 vs dyadic_profile_evaluation) \u2014 their PROVED labels certify the parametric identities only; the instantiated readings need the catch-#47 re-pose. Does NOT discharge petal_g3_pricing_multiplicity (see that node). Still ev-only; do not req-wire."
+  },
+  "requires": [
+    {
+      "from": "e22_dyadic_minimal_scale_selector",
+      "order": 996
+    },
+    {
+      "from": "dyadic_profile_evaluation",
+      "order": 997
+    },
+    {
+      "from": "e22_minimal_scale_tail_criterion",
+      "order": 1036
+    },
+    {
+      "from": "e22_minimal_scale_count_formula",
+      "order": 1037
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1158
+    }
+  ],
+  "refutes": []
+}

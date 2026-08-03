@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 340,
+  "node": {
+    "id": "two_moment_fullness",
+    "title": "thm:twomoment: two-moment fullness at the root barrier (unconditional failure mechanism)",
+    "status": "PROVED",
+    "refs": [
+      "tex/slackMCA_v4.tex"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "cap_theorem",
+      "order": 539
+    },
+    {
+      "to": "unsafe_at_crossing",
+      "order": 540
+    }
+  ],
+  "refutes": []
+}

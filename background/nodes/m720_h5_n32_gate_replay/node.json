@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 650,
+  "node": {
+    "id": "m720_h5_n32_gate_replay",
+    "title": "M720 local h=5 n=32 gate replay",
+    "status": "PROVED",
+    "statement": "The M720 full_census arithmetic reproduces the locally bounded h=5 gate fact full_census(32,5,97)=96 unordered trades, all non-toral, with 30 anchored cores.",
+    "attack_surface": "exact standalone replay of the C(32,5) row using the same elementary-signature definitions as modal_midlarge_h7_20.py",
+    "falsifier": "a local exact replay of full_census(32,5,97) returning a count other than 96 unordered trades"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1132
+    }
+  ],
+  "refutes": []
+}

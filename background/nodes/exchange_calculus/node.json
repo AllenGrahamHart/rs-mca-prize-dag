@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 222,
+  "node": {
+    "id": "exchange_calculus",
+    "title": "One-exchange = Cauchy rank-one update (#152 instances)",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_expansion",
+      "order": 682
+    }
+  ],
+  "refutes": []
+}

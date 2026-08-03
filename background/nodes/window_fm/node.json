@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 237,
+  "node": {
+    "id": "window_fm",
+    "title": "Window FM ~ 2^-16000: all alignments structured",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s3a_regular_window.md#2"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "window_pred_aper0",
+      "order": 74
+    }
+  ],
+  "refutes": []
+}

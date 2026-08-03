@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1239,
+  "node": {
+    "id": "f3_h3_dsp8_nodal_stepanov_constant_barrier",
+    "title": "DSP8 nodal Stepanov constant barrier",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every positive parameter choice in the in-house one-auxiliary-polynomial Stepanov ansatz, with D(A+D)<AB^2 and AB<=m, has degree-to-multiplicity quotient greater than 2^(5/3)m^(2/3). Using this ansatz for both the order-n quotient line and order-3n nodal parameter count forces a class-blind leading coefficient above 2176, exceeding the live G-normalized allowance 48536/25. Retuning A,B,D cannot close the three-cubic-root nodal lane. Mattarei's distinct Garcia--Voloch route now bypasses this proof-method barrier; the statement was never a lower bound on actual records.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/statement.md",
+      "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/proof.md",
+      "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/audit.md",
+      "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/result.md",
+      "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/verify.py",
+      "background/nodes/f3_h3_dsp8_nodal_stepanov_constant_barrier/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_affine_coset_pair_cubic_preimage_stepanov",
+      "order": 2573
+    },
+    {
+      "from": "f3_h3_dsp8_nodal_cube_preimage_envelope",
+      "order": 2574
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2575
+    }
+  ],
+  "refutes": []
+}

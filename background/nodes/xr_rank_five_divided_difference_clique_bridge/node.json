@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 890,
+  "node": {
+    "id": "xr_rank_five_divided_difference_clique_bridge",
+    "title": "XR rank-five residual is a divided-difference monochromatic-clique census",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_rank_five_divided_difference_clique_bridge/statement.md",
+      "background/nodes/xr_rank_five_divided_difference_clique_bridge/proof.md",
+      "background/nodes/xr_rank_five_divided_difference_clique_bridge/verify.py",
+      "background/nodes/xr_rank_five_divided_difference_clique_bridge/result.md"
+    ],
+    "statement": "In the retained P-A RowC rank-five u=v=0 core, every selected agreement set A has nonzero fourth divided difference [S]q on each five-subset S. Indeed, a zero would make all five constituent four-sets unreusable, while the r=2 peeling core permits at most 1/3/4 unreused four-sets on the three rows. Therefore Phi(S)=[S]U/[S]q is defined throughout A and is identically the selected slope gamma. Distinct members are distinct-color monochromatic (4+h)-cliques, and the preceding ratio fibers and zero minors are exactly equal-color four-stars of Phi. This is an exact bridge to the split-pencil census, not a clique count."
+  },
+  "requires": [
+    {
+      "from": "xr_rank_five_ratio_minor_dictionary",
+      "order": 1577
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1578
+    }
+  ],
+  "refutes": []
+}

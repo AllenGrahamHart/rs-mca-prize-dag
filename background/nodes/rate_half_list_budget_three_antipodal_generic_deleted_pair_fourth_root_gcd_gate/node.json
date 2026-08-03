@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1019,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_fourth_root_gcd_gate",
+    "title": "Budget-three antipodal generic deleted-pair fourth-root gcd gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The constant ODE gives an exact differential identity for the Euclidean residual. On any passing fourth-power branch, its degree-(M-1) fourth root divides one explicit ODE polynomial, forcing a half-degree gcd and a root-free divisibility gate.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_fourth_root_gcd_gate/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_fourth_root_gcd_gate/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_fourth_root_gcd_gate/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_fourth_root_gcd_gate/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_fourth_root_gcd_gate/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_fourth_root_gcd_gate/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_fourth_root_gcd_gate/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_constant_ode",
+      "order": 1861
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_fourth_power_router",
+      "order": 1862
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1863
+    }
+  ],
+  "refutes": []
+}

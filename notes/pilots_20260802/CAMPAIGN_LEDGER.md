@@ -891,3 +891,26 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   q >= 2^209 load-bearing). Addendum applied to
   xr_mc_depth_quantization; xr_window_system_descent mint QUEUED;
   SL-2-RES = the Pro brief when Pro resumes. Pilots OV/F9/E_j running.
+
+## 2026-08-03: WAVE 45 (v11 math half) INTEGRATED — CELL 3 + CELL 6 CLOSED; round-12 pilot 2/4 (E_j) BANKED
+
+- WAVE 45: 23 nodes + 85 edges (dag 1793/4995); cell 3 closed
+  1680/1680 (DE 6-14 + xi3 x6 + xi4 transport + xi5 + xi6); cell 6 =
+  duplicate-role transport, closed; cell 4 opens (four-basis tower).
+  Atlas: 1a complete; 1b cells 0, 1/2, 3, 6, 14 closed. Refactor
+  commit held for stage-2 review. Self-catch: roadmap adoption
+  clobbered r3.2 — restored same-turn; both-directions rule adopted.
+- **ej_coset_spread (Opus) BANKED** (4,744,495 checks, 2 failures =
+  the pre-registered falsifier killing the pilot's own post-hoc
+  hypothesis — flagged honest). E_j <= 29.6n NOT proved; REPRICING:
+  THEOREM G (mu_g action; at prize rows E_j = |Gamma_j|/n within 9
+  bits — THEOREM D is a re-coordinatisation, NOT a shrink; heart 7's
+  residual pricing corrected in r3.2); THEOREM H (rigidity sharpened
+  to d <= (j-1)+gcd(j,n); d <= 1 vs structured at gcd(j,n)=1 = the
+  prize regime; 25.9M-candidate exhaustive d-ball verification);
+  empirical law E_j = 1 on ALL 152 gate-intact j<w rows (every
+  E_j >= 2 at j<w is gate-broken — 46 bits better than needed,
+  unproved); species identification UPGRADED to an explicit
+  Fourier-prescription reduction; named next-fixture for the live
+  excess test (n=35,k=10,w=M=5,q=71, C(n,A)=4.06e9 — COMPUTE
+  REQUEST scale). OV + F9 pilots still running.

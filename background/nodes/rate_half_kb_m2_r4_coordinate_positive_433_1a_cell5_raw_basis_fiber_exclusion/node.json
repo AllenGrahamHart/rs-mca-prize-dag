@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1458,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion",
+    "title": "KoalaBear positive 433-1a cell-5 raw-basis fiber exclusion",
+    "status": "PROVED",
+    "closure": "the final eight routed basis-specialization fibers are empty",
+    "statement": "Direct fixed-fiber Groebner bases for P,g3,h localized at D0*D1 give quotient dimension 24 at seven routed values and dimension 23 at t=1332924776. Exact multiplication matrices satisfy the defining relations and localization. The form x1+2*x0+b is primitive at every fiber, its distinct irreducible factors cover the raw dimensions, and fresh DE+/DE-/BE replays give 35 gcds one and 80 gcds e^2-1 across 115 rows. Hence all final eight cell-5 sign-row fibers are empty. Other signs/cells, K3, Prize rows, LIST, and MCA remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_raw_basis_fiber_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_raw_fiber_profile_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_raw_fiber_profile_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_raw_fiber_replay_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_raw_fiber_replay_result.json",
+      "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_raw_fiber_replay.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
+      "order": 3233
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface",
+      "order": 3234
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler",
+      "order": 3235
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas",
+      "order": 3236
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

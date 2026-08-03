@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1045,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard",
+    "title": "Budget-three antipodal generic Euler maximal-field character shard",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the maximal row, the fourth-power Euler norm character is active in every ambient field branch, while the cubic character is active in every quadratic-extension branch and exactly the prime-field p=1 mod 3 branch.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_euler_maximal_field_character_shard/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_euler_coupled_norm_gate",
+      "order": 1950
+    },
+    {
+      "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+      "order": 1951
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1952
+    }
+  ],
+  "refutes": []
+}

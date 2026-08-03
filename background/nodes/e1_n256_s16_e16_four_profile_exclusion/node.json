@@ -1,0 +1,57 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 110,
+  "node": {
+    "id": "e1_n256_s16_e16_four_profile_exclusion",
+    "title": "N=256 E=16 four-profile odd-norm exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e16_four_profile_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e16_four_profile_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e16_four_profile_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e16_four_profile_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e16_four_profile_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e16_four_profile_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e16_four_profile_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e16_four_profile_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e16_four_profile_exclusion/verify_audit.py",
+      "experiments/prize_resolution/e16_four_profile_census.cpp",
+      "experiments/prize_resolution/e16_four_profile_census_audit.cpp",
+      "experiments/prize_resolution/e16_four_profile_census_modal.py",
+      "experiments/prize_resolution/e16_four_profile_census_result.json",
+      "experiments/prize_resolution/e16_four_profile_census_check.py",
+      "experiments/prize_resolution/e16_four_profile_norm_modal.py",
+      "experiments/prize_resolution/e16_four_profile_norm_result.json",
+      "experiments/prize_resolution/e16_four_profile_norm_check.py"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), and V=32, all four routed profiles are impossible. Independent actual-vector engines agree after 3,056,582,144 vectors per engine: 688 profile vectors, of which 178 have full conductor and 510 are discharged by the proper-conductor theorem; two routed profiles are exactly empty. FLINT and PARI agree on 78 distinct full-conductor norms. Ten whole norms reach 2^250, but every odd part is below 2^250, so no odd pair-feasible row prime divides one.",
+    "notes": "ROUTE CLOSURE 2026-07-28: dual direct census, conductor, and exact odd-part resultants close the entire cutoff-free E16 router. Modal apps ap-wX3VHEQgXjopXqefRieIpQ and ap-NKEaivIgiXPWHEwHeBgkkM supply the pinned census and norm ledgers."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e16_profile_parity_light_reduction",
+      "order": 4334
+    },
+    {
+      "from": "e1_n256_proper_conductor_collision_exclusion",
+      "order": 4335
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 4336
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4341
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4342
+    }
+  ],
+  "refutes": []
+}

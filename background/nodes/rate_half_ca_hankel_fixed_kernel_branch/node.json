@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 919,
+  "node": {
+    "id": "rate_half_ca_hankel_fixed_kernel_branch",
+    "title": "Fixed-kernel rate-half Hankel branch",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let rho>=1 be the generic rank of an RS syndrome Hankel pencil. If its generic right kernel is the scalar extension of a fixed F-subspace K_0, then K_0 is annihilated by both endpoint matrices. For a column-far pair K_0 contains no domain-split locator. Away from the roots of one nonzero rho-minor, specialization preserves rank and the kernel remains K_0. Hence at most rho finite slopes carry a split locator. This closes every constant-kernel rank-deficient branch, including at the half-distance endpoint; only genuinely moving generic kernels remain.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_fixed_kernel_branch/statement.md",
+      "background/nodes/rate_half_ca_hankel_fixed_kernel_branch/proof.md",
+      "background/nodes/rate_half_ca_hankel_fixed_kernel_branch/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_fixed_kernel_branch/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_fixed_kernel_branch/verify.py",
+      "background/nodes/rate_half_ca_hankel_fixed_kernel_branch/audit.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_split_pencil_equivalence",
+      "order": 1654
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1655
+    }
+  ],
+  "refutes": []
+}

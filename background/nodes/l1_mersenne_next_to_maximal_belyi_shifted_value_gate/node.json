@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1647,
+  "node": {
+    "id": "l1_mersenne_next_to_maximal_belyi_shifted_value_gate",
+    "title": "L1 Mersenne next-to-maximal Belyi shifted-value gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every next-to-maximal Mersenne survivor has a degree-h shifted-value polynomial dividing W^n-1 and obeying an exact weighted-derivative divisibility. The zero quadratic-quotient root is impossible; if the two remaining projective invariants are both prime-field normalized, a rational pth-power valuation argument gives an impossible multiplicity packet. Hence only genuinely non-prime-field normalization remains.",
+    "refs": [
+      "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/statement.md",
+      "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/proof.md",
+      "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/claim_contract.md",
+      "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/dependency_subdag.md",
+      "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/audit.md",
+      "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/result.md",
+      "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/lineage.md",
+      "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/upstream_crosswalk.md",
+      "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/verify.py",
+      "background/nodes/l1_mersenne_next_to_maximal_belyi_shifted_value_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_next_to_maximal_exceptional_reduction",
+      "order": 3915
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3916
+    }
+  ],
+  "refutes": []
+}

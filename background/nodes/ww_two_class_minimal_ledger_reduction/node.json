@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 766,
+  "node": {
+    "id": "ww_two_class_minimal_ledger_reduction",
+    "title": "W3 two-class minimal-ledger reduction",
+    "status": "PROVED",
+    "statement": "For a planted-sunflower receiver U, the exact list is the disjoint union of its distinct printed planted polynomials P(U) and every non-planted list polynomial. Hence |List(U)|=p(U)+N_nonplant(U), and safety is equivalent to N_nonplant(U)<=B*-p(U) when p(U)<=B*; p(U)>B* is immediately unsafe. Structural paid subcolumns are optional proof refinements, not W3 interface prerequisites.",
+    "refs": [
+      "background/nodes/ww_two_class_minimal_ledger_reduction/proof.md",
+      "background/nodes/ww_two_class_minimal_ledger_reduction/audit.md"
+    ],
+    "closure": "proof"
+  },
+  "requires": [
+    {
+      "from": "ww_paid_residual_partition_adapter",
+      "order": 209
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "ww_row_envelope_clause",
+      "order": 211
+    }
+  ],
+  "refutes": []
+}

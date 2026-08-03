@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 523,
+  "node": {
+    "id": "l1_maximal_background_anchor_injection",
+    "title": "L1 maximal background-anchor injection and stratum ledger",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In one maximal sunflower chart, fix the exact defect d, exact background support of size r, exact touched petals, and exact nonempty petal supports with largest size a_*. The fixed listed-codeword layer injects both into a largest-petal cofactor space and into the exact background quotient space, so its size is at most q^max(0,d-max(r,a_*)+1). Summing support patterns gives the explicit (t,u,r,E) cap binom(b,r)binom(M,t)binom(t ell,u)(ell+E+1)q^gamma with gamma=min(E+floor(u/t)+1,max(0,E+ell-r+1)). This is a per-chart fixed-stratum payment, not an aggregate mixed-petal closure.",
+    "refs": [
+      "background/nodes/l1_maximal_background_anchor_injection/statement.md",
+      "background/nodes/l1_maximal_background_anchor_injection/proof.md",
+      "background/nodes/l1_maximal_background_anchor_injection/claim_contract.md",
+      "background/nodes/l1_maximal_background_anchor_injection/dependency_subdag.md",
+      "background/nodes/l1_maximal_background_anchor_injection/audit.md",
+      "background/nodes/l1_maximal_background_anchor_injection/upstream_crosswalk.md",
+      "background/nodes/l1_maximal_background_anchor_injection/verify.py",
+      "background/nodes/l1_maximal_background_anchor_injection/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_core_defect_reduction",
+      "order": 2841
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2842
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2843
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2844
+    }
+  ],
+  "refutes": []
+}

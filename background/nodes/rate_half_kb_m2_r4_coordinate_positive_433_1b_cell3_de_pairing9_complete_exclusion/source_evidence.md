@@ -1,0 +1,24 @@
+# Source Evidence
+
+## Machine artifacts
+
+- `experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_de_pairing9_nested_quadratic_pilot_modal.py`
+- `experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_de_pairing9_nested_quadratic_census_result.json`
+- `experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_birational_profile_result.json`
+- `experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_compact_kernel_result.json`
+- `experiments/prize_resolution/rate_half_kb_positive_433_1b_product_base_rank_compiler_result.json`
+
+## Custody hashes
+
+```text
+d82ed774ee1d0d2a5d05b7bc4b7c2e50c864d5ef48f58d15e970dfe6cb8a3e5e  rate_half_kb_positive_433_1b_cell3_de_pairing9_nested_quadratic_pilot_modal.py
+a88e9b0cc1c25cfe9e591df864b600ff82e7700c31cdd768926c7ec1aacc13e9  rate_half_kb_positive_433_1b_cell3_de_pairing9_nested_quadratic_census_result.json
+af991fd4b8c2bae2544a5d656f55fecc734b643da58c6f207db54760dad20c46  rate_half_kb_positive_433_1b_cell3_birational_profile_result.json
+e20ccb714b252f00ee3ce877ee68eff032f43deb877e2097919151436ddcf789  rate_half_kb_positive_433_1b_cell3_compact_kernel_result.json
+ee4dcb25877e9101a544ee5896b9bf6890059d6398c78d7562127b0d1c53c293  rate_half_kb_positive_433_1b_product_base_rank_compiler_result.json
+```
+
+Modal pilot `ap-k38zMMOPvBSMhX9pvGQiFR` and census
+`ap-f4Z2nk66gSaE7WuaR0pLfC` completed. The node verifiers pin the compiler
+and census and replay the exact Cartesian, exceptional-root, boundary, and
+four-lane ledgers.

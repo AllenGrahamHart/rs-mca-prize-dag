@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1138,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_support_bounded_tail_dihedral_row_codegree",
+    "title": "Rate-half distance-three bounded-tail dihedral row codegree",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "If all but t exceptional pairs are orbits of one antipodal or constant-product involution, every nonidentical outside involution orbit has normalized-row codegree at most t, while at most one orbit has identical normalized rows. In the official degree-two quartic-support branch t is at most 40; extending the trace-collision exclusion to the resulting degree-(e+t) complements remains open.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_support_bounded_tail_dihedral_row_codegree/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_support_bounded_tail_dihedral_row_codegree/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_support_bounded_tail_dihedral_row_codegree/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_support_bounded_tail_dihedral_row_codegree/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_support_bounded_tail_dihedral_row_codegree/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_support_bounded_tail_dihedral_row_codegree/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_support_bounded_tail_dihedral_row_codegree/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form",
+      "order": 2299
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_support_laurent_gcd_exclusion",
+      "order": 2300
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2301
+    }
+  ],
+  "refutes": []
+}

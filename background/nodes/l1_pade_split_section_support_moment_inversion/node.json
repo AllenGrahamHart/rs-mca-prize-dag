@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 547,
+  "node": {
+    "id": "l1_pade_split_section_support_moment_inversion",
+    "title": "L1 Pade split-section/support-moment inversion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For any evaluation set and m>=k, the number C_m(U) of m-subsets on which U has a degree-below-k interpolant equals the split-point count of the unguarded full-locator Pade section and equals sum_{a>=m} binom(a,m)Z_a(U), where Z_a counts codewords with complete agreement size a. The exact-shell gcd guard selects Z_m, and finite binomial inversion gives Z_a=sum_{m>=a}(-1)^(m-a)binom(m,a)C_m. Thus upstream's shifted-lattice/split-pencil support census is exactly the unguarded Pade split count and directly upper-bounds the exact shell. Primitive-owner and finite base-field budget conventions are not identified by this transform.",
+    "refs": [
+      "background/nodes/l1_pade_split_section_support_moment_inversion/statement.md",
+      "background/nodes/l1_pade_split_section_support_moment_inversion/proof.md",
+      "background/nodes/l1_pade_split_section_support_moment_inversion/claim_contract.md",
+      "background/nodes/l1_pade_split_section_support_moment_inversion/dependency_subdag.md",
+      "background/nodes/l1_pade_split_section_support_moment_inversion/audit.md",
+      "background/nodes/l1_pade_split_section_support_moment_inversion/lineage.md",
+      "background/nodes/l1_pade_split_section_support_moment_inversion/upstream_crosswalk.md",
+      "background/nodes/l1_pade_split_section_support_moment_inversion/verify.py",
+      "background/nodes/l1_pade_split_section_support_moment_inversion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_full_locator_pade_section_all_cofactors",
+      "order": 2925
+    },
+    {
+      "from": "f5_lineray_saturation_instrument",
+      "order": 2926
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2927
+    },
+    {
+      "to": "l1_split_pencil_content_exact_shell_descent",
+      "order": 2941
+    }
+  ],
+  "refutes": []
+}

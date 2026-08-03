@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1415,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier",
+    "title": "KoalaBear m2 r4 coordinate negative zero-loop 433 aligned doubled-pair finite classifier",
+    "status": "PROVED",
+    "closure": "exact deployed-field classification of 32 common packets in zero-loop orbit 2/5/6/9",
+    "statement": "Zero-loop common cell 2 has exactly eight guarded deployed-field packets: four in each same-sign root row and none in either opposite-sign row. Exact lost-branch elimination and original-equation replay make the census exhaustive. Target sign and exchange transport the packets through cells 2,5,6,9, giving exactly 32 common packets requiring outside completion or exclusion.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/check.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/verify_positive_opposite.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/verify_negative_opposite.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier/verify_negative_same.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+      "order": 3093
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld",
+      "order": 3094
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3095
+    }
+  ],
+  "refutes": []
+}

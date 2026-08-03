@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1011,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_even_factorization",
+    "title": "Budget-three antipodal generic deleted-pair even factorization",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "A deleted-antipodal-pair candidate passing the complete generic canonical criterion has zero odd outer coefficient and factors the punctured 8M-torsion binomial into two coprime degree-(4M-1) square-pencil factors.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_even_factorization/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_even_factorization/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_even_factorization/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_even_factorization/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_even_factorization/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_even_factorization/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_even_factorization/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_parity_reduction",
+      "order": 1836
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_canonical_span_criterion",
+      "order": 1837
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1838
+    }
+  ],
+  "refutes": []
+}

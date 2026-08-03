@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 901,
+  "node": {
+    "id": "rate_half_cyclic_simple_pole_mca_floor",
+    "title": "Exact simple-pole floor through the maximal cyclic residual prefix",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the official n=2^41, k=2^40 rate-half row, take c=2^22,d=2048 and the maximal legal residual prefix s=c-1. The cyclic list L_q=ceil(C(524287,264192)/(524288*q^2047)) gives epsilon_ca,epsilon_mca >= L_q(q-n)/(q(q-n+kL_q)) > 2^-83 at excess dc+s=8,594,128,895 and every smaller positive excess, uniformly for q<2^256. This refutes the former fixed safe point at excess 8,592,912,739.",
+    "refs": [
+      "background/nodes/rate_half_cyclic_simple_pole_mca_floor/statement.md",
+      "background/nodes/rate_half_cyclic_simple_pole_mca_floor/proof.md",
+      "background/nodes/rate_half_cyclic_simple_pole_mca_floor/claim_contract.md",
+      "background/nodes/rate_half_cyclic_simple_pole_mca_floor/dependency_subdag.md",
+      "background/nodes/rate_half_cyclic_simple_pole_mca_floor/verify.py",
+      "background/nodes/rate_half_cyclic_simple_pole_mca_floor/audit.md",
+      "background/nodes/rate_half_cyclic_simple_pole_mca_floor/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_cyclic_rotated_prefix_floor",
+      "order": 1605
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1606
+    }
+  ],
+  "refutes": []
+}

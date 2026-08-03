@@ -1,0 +1,52 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 123,
+  "node": {
+    "id": "e1_prize_n256_s18_variance_cofactor_windows",
+    "title": "Prize N=256 square-mass-18 variance/cofactor windows",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/statement.md",
+      "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/proof.md",
+      "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/claim_contract.md",
+      "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/dependency_subdag.md",
+      "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/audit.md",
+      "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/result.md",
+      "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/source_pin.json",
+      "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/verify.py"
+    ],
+    "statement": "On prize-envelope N=256 rows, every profile-(4,2,0) collision has autocorrelation variance V=2 mod 8. An exact logarithmic deficit gives cofactor-specific finite windows, and a Lucas-resultant calculation excludes V=2. Cofactor 1538 is impossible; cofactor 1028 retains only V in {10,18}; the other five live cofactors have explicit bounded V=2 mod 8 residuals.",
+    "notes": "ROUTE REDUCTION 2026-07-28: narrows the leading prize S=18 profile without a census or numerical norm estimate. Six cofactor classes remain, so this is evidence for rather than closure of the aggregate pair budget."
+  },
+  "requires": [
+    {
+      "from": "collision_norm_criterion",
+      "order": 460
+    },
+    {
+      "from": "e1_prize_field_floor_even_norm_exclusion",
+      "order": 461
+    },
+    {
+      "from": "e1_n256_local_norm_cofactor_collapse",
+      "order": 462
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 463
+    },
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 464
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 465
+    }
+  ],
+  "refutes": []
+}

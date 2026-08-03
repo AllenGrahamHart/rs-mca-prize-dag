@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 789,
+  "node": {
+    "id": "petal_staircase_allowance_719",
+    "title": "The official petal staircase inflation allowance is exactly 719",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/petal_staircase_allowance_719/proof.md",
+      "background/nodes/petal_staircase_allowance_719/verify.py"
+    ],
+    "statement": "For n in {2^41,2^42,2^43,2^44}, floor(n^6/C(n+6,6))=719. Equivalently, 719C(n+6,6)<=n^6<720C(n+6,6). Thus the complete joint chart-and-codeword inflation available to the petal staircase branch is the constant 719, not an unspecified n^b factor. [IMPORT REPAIR #83 (2026-07-12): '719 is the complete allowance' is gated on the banked n^6 allocation \u2014 B_max > 6 would be gated by the named open codegree-conversion emission cell (slack-scan addendum); the cross-ref is binding.]"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_g3_pricing_multiplicity",
+      "order": 1325
+    }
+  ],
+  "refutes": []
+}

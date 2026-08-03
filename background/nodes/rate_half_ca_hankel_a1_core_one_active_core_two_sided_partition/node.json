@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 980,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_active_core_two_sided_partition",
+    "title": "A=1 core-one active-core two-sided partition",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In either remaining official active system, every clean slope gives a squarefree complementary partition Q_gamma A_gamma=G_X/X_0 of exact degrees (r,D_0-z-r), and every saturated domain row gives a squarefree complementary partition Q_xV_x=P of exact degrees (e_*,T-e_*). Both quotients attain their global degree bounds. The active bad-row clean incidences have exact total c e_*-C_*-E_bad, with the explicit D_*=0 and D_*=1 formulas (ATP8). This is the current degree-tight two-sided divisor-partition interface, not a classification.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_core_two_sided_partition/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_core_two_sided_partition/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_core_two_sided_partition/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_core_two_sided_partition/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_core_two_sided_partition/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_core_two_sided_partition/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_core_two_sided_partition/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_active_core_two_sided_partition/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_trace_nonvanishing",
+      "order": 1805
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1806
+    }
+  ],
+  "refutes": []
+}

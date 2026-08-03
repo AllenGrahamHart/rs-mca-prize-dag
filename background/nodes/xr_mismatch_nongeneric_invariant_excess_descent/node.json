@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1207,
+  "node": {
+    "id": "xr_mismatch_nongeneric_invariant_excess_descent",
+    "title": "Nongeneric mismatch descent preserves excess and has bounded depth",
+    "status": "PROVED",
+    "statement": "In a recursive nongeneric full-zero mismatch chain, a transition with external zero count d sends (N,K,A) to N'<=N-A, K'=K-d, A'=A-d. Thus h=A-K is invariant and every live transition decreases ambient length by at least h+1. A chain from length n has at most floor(n/(h+1))-1 transitions. The six clean candidate caps are 169,169,255,254,254,510, each below its deciding scale 256 or 512. This proves depth, not branch width or slope aggregation.",
+    "refs": [
+      "background/nodes/xr_mismatch_nongeneric_invariant_excess_descent/statement.md",
+      "background/nodes/xr_mismatch_nongeneric_invariant_excess_descent/proof.md",
+      "background/nodes/xr_mismatch_nongeneric_invariant_excess_descent/claim_contract.md",
+      "background/nodes/xr_mismatch_nongeneric_invariant_excess_descent/audit.md",
+      "background/nodes/xr_mismatch_nongeneric_invariant_excess_descent/result.md",
+      "background/nodes/xr_mismatch_nongeneric_invariant_excess_descent/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 2485
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1630,
+  "node": {
+    "id": "l1_m4_h3_tangent_radical_exclusion",
+    "title": "L1 m=4, h=3 tangent-radical exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For positive valuation, roots of the degree-p tangent polynomial T=2aR+3b lie on the degree-(nu+eta) polynomial X^nu H-kappa, while T'=2aX^(nu-1)V and deg V=p+eta-4. Comparing the radical and derivative multiplicity degrees forces nu+2eta>=4. This excludes (nu,eta)=(1,0),(1,1),(2,0),(3,0), so nu=3 is empty and only positive strata (1,2),(2,1) remain. At (2,1), rad(T) is the printed cubic and T/rad(T) is proportional to V. Nu=0 and the two positive strata remain open, so L1 is not closed.",
+    "refs": [
+      "background/nodes/l1_m4_h3_tangent_radical_exclusion/statement.md",
+      "background/nodes/l1_m4_h3_tangent_radical_exclusion/proof.md",
+      "background/nodes/l1_m4_h3_tangent_radical_exclusion/claim_contract.md",
+      "background/nodes/l1_m4_h3_tangent_radical_exclusion/dependency_subdag.md",
+      "background/nodes/l1_m4_h3_tangent_radical_exclusion/audit.md",
+      "background/nodes/l1_m4_h3_tangent_radical_exclusion/result.md",
+      "background/nodes/l1_m4_h3_tangent_radical_exclusion/lineage.md",
+      "background/nodes/l1_m4_h3_tangent_radical_exclusion/upstream_crosswalk.md",
+      "background/nodes/l1_m4_h3_tangent_radical_exclusion/verify.py",
+      "background/nodes/l1_m4_h3_tangent_radical_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_m4_h3_cartier_resonance_reduction",
+      "order": 3868
+    },
+    {
+      "from": "l1_m4_h3_euler_quotient_factorization",
+      "order": 3869
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3870
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 256,
+  "node": {
+    "id": "route_exact_rank",
+    "title": "Route: exact rank formula r_{I,d}",
+    "status": "REFUTED",
+    "refs": [
+      "proof_sketch/s7_list_side.md#4"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_growth",
+      "order": 104
+    }
+  ],
+  "refutes": []
+}

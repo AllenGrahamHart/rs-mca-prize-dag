@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 871,
+  "node": {
+    "id": "pma_sigma_one_post_top_allowance",
+    "title": "PMA sigma-one carried-layout Top/Post allowance",
+    "status": "PROVED",
+    "statement": "After global profile ownership, first carried source layout partitions every remaining primitive maximal-sunflower codeword into disjoint Top and Post classes. G1 plus K4 gives #Top<=N_top=2((n-k)/2+1)sum_{j=0}^3 binom(k-1,j) at rate half and N_top=0 at lower rates. Thus B_post=n^6-N_top or n^6 is an exact common finite allowance, and #Post<=B_post would imply the complete primitive count is at most n^6. No Post bound or asymptotic allowance is claimed.",
+    "refs": [
+      "background/nodes/pma_sigma_one_post_top_allowance/statement.md",
+      "background/nodes/pma_sigma_one_post_top_allowance/proof.md",
+      "background/nodes/pma_sigma_one_post_top_allowance/audit.md",
+      "background/nodes/pma_sigma_one_post_top_allowance/claim_contract.md",
+      "background/nodes/pma_sigma_one_post_top_allowance/dependency_subdag.md",
+      "background/nodes/pma_sigma_one_post_top_allowance/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_program_frontier",
+      "order": 1478
+    },
+    {
+      "from": "petal_g1_layer_maps",
+      "order": 1479
+    },
+    {
+      "from": "petal_k4_primitive_bound",
+      "order": 1480
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 1481
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1482
+    }
+  ],
+  "refutes": []
+}

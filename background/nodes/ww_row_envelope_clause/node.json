@@ -1,0 +1,19 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 769,
+  "node": {
+    "id": "ww_row_envelope_clause",
+    "status": "TARGET",
+    "statement": "RETIRED OPEN W3 ENVELOPE. For every safe-side official-convention planted-sunflower receiver U, the claim is p(U)+N_nonplant(U)<=B*=floor(q/2^128), uniformly over admissible rows, layouts, scalar choices, and receivers. This safe-side claim remains unproved and is no longer required by the prize path. The admissible rate-quarter fiber-layout construction at q=1705*2^120+1, n=8192, k=2048 gives 7>B*=6 at the globally unsafe spending cell; it refutes an all-cell extension of W3, not this literal safe-side statement. The repaired adjacency route consumes list_unsafe and list_safe directly.",
+    "refs": [
+      "background/nodes/ww_row_envelope_clause/statement.md",
+      "background/nodes/ww_spending_cell_fiber_layout_counterexample/proof.md",
+      "background/nodes/ww_spending_cell_fiber_layout_counterexample/verify.py"
+    ],
+    "notes": " | CATCH #94 (2026-07-12): the resolution branch's 'Align W3' commit (7c19fa8) REFUSED at wave-2 audit \u2014 it replaced the statement wholesale, erasing the banked R1 (first-match binding) and R2 (per-row certificate obligation) repairs, and its verify.py asserts K_cell absent from the statement (incompatible with the house history-retention convention). Salvageable content (budget definition, min-#493 baking, normalization pins) already matches master. Codex: re-land against master's statement format with first-match + R2 binding. | CATCH #119 (2026-07-13, against master, audit-verified): the banked R1 per-cell-vs-whole-residual form does NOT compose (>1 nonempty cell breaks the amber implication); the branch's cellwise ALLOCATION LAW is the correct consumer-exact repair \u2014 imported as R1' (appended, #120), satisfying ALL the posted #94 re-landing conditions (R2 verbatim binding, min-#493, sup form, averaging dead). Verifier 12/12."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

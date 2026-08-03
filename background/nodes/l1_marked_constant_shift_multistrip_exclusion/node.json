@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1090,
+  "node": {
+    "id": "l1_marked_constant_shift_multistrip_exclusion",
+    "title": "L1 marked constant-shift multistrip exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a common constant-shift pencil with t marked petals and total selected mark degree v, no exact saturated tuple exists in strip m when t>=2m+1, m ell<d, and d+v<(m+1)ell. After restoring full locators with J, row rank at least 2m+1 forces a common factor of degree d+v-m ell>v; lower rank gives at least two degree-m kernel pairs, whose cross products vanish at 2m+1 labels and force one primitive direction of degree at most m-1, again producing a common factor larger than J. Thus a bounded-p common-pencil residual has at most 2m selected dense petals unless its marked degree reaches the next strip boundary. The L1 threshold gives the matching survivor pin ceil((d-p+1)/ell)<=T_dense<=2m.",
+    "refs": [
+      "background/nodes/l1_marked_constant_shift_multistrip_exclusion/statement.md",
+      "background/nodes/l1_marked_constant_shift_multistrip_exclusion/proof.md",
+      "background/nodes/l1_marked_constant_shift_multistrip_exclusion/claim_contract.md",
+      "background/nodes/l1_marked_constant_shift_multistrip_exclusion/dependency_subdag.md",
+      "background/nodes/l1_marked_constant_shift_multistrip_exclusion/audit.md",
+      "background/nodes/l1_marked_constant_shift_multistrip_exclusion/verify.py",
+      "background/nodes/l1_marked_constant_shift_multistrip_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_bounded_polarity_marked_full_pencil_reduction",
+      "order": 2176
+    },
+    {
+      "from": "pma_coset_subtwoell_saturation_exclusion",
+      "order": 2177
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2178
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2179
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2180
+    }
+  ],
+  "refutes": []
+}

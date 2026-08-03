@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 427,
+  "node": {
+    "id": "circuit_locus_density",
+    "title": "Schwartz-Zippel on the locus: circuit-carrying configurations are q-power suppressed",
+    "status": "PROVABLE",
+    "statement": "The determinantal locus is cut by explicit determinants of locator-coefficient matrices of bounded degree; Schwartz-Zippel gives density <= deg/q^c per configuration family. Combined with combinatorial support counting: total circuit count <= poly(n) x (configurations / q^c) \u2014 the q-suppression that makes the branch FM-compatible.",
+    "refs": [
+      "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#3"
+    ]
+  },
+  "requires": [
+    {
+      "from": "circuit_nongeneric",
+      "order": 717
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

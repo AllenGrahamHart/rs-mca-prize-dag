@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1167,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap",
+    "title": "Rate-half exceptional-only quotient-distance gap",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official A=1 core-one exceptional-only face, the first-order quotient support distance is either exactly three or at least 2e/3+3=183251937965. For a distance-h source, internal fibers consume h-1 disjoint exceptional cancellations and every other clean locator meets the source support in at most h-3 points. Comparing this upper ledger with the exact total row deficit e excludes every h from 4 through 183251937964.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router",
+      "order": 2373
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin",
+      "order": 2374
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2375
+    }
+  ],
+  "refutes": []
+}

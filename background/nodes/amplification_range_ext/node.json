@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 329,
+  "node": {
+    "id": "amplification_range_ext",
+    "title": "Extend the split-prime transfer range from exp(Cn log n/sigma) toward prize-scale p",
+    "status": "TARGET",
+    "key": true,
+    "refs": [
+      "tex/slackMCA_v4.tex"
+    ],
+    "notes": "the repo's own proved route to e1-fullness/zone-(b); every range improvement is direct progress on the corridor question"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_fullness",
+      "order": 206
+    }
+  ],
+  "refutes": []
+}

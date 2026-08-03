@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 878,
+  "node": {
+    "id": "rate_half_fixed_tail_prefix_floor",
+    "title": "Fixed-tail quotient prefixes extend the rate-half list-unsafe slice",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For c|gcd(n,k), a fixed s-subset of one c-fiber and m=k/c+d varying full fibers produce a received word with at least ceil(C(n/c-1,m)/q^d) distinct RS[F,D,k] codewords at agreement k+dc+s. At the rate-half cap row and sigma*=8,592,912,738, c=2^22 gives the exact sufficient list-unsafe condition q^2049<2^128 C(524287,264192), extending full-band ordinary-list failure through log2(q)=255.9209759026302... . This is a list-side partial only; the top field slice and MCA band remain open.",
+    "refs": [
+      "background/nodes/rate_half_fixed_tail_prefix_floor/statement.md",
+      "background/nodes/rate_half_fixed_tail_prefix_floor/proof.md",
+      "background/nodes/rate_half_fixed_tail_prefix_floor/verify.py",
+      "background/nodes/rate_half_fixed_tail_prefix_floor/result.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1463
+    },
+    {
+      "to": "rate_half_cyclic_rotated_prefix_floor",
+      "order": 1464
+    }
+  ],
+  "refutes": []
+}

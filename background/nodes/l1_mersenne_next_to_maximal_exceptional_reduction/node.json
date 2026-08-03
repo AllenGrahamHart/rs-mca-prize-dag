@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1646,
+  "node": {
+    "id": "l1_mersenne_next_to_maximal_exceptional_reduction",
+    "title": "L1 Mersenne next-to-maximal exceptional reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On every official n=m(p+1) row with (m,h)=(8,7) or (16,15), every first-checkpoint split pencil reduces to an exactly saturated degree-p polynomial Belyi map with critical values 0,1 and both fibers supported on the official multiplicative domain. Every nonexceptional tangent branch and both binomial outer forms are empty.",
+    "refs": [
+      "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/statement.md",
+      "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/proof.md",
+      "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/claim_contract.md",
+      "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/dependency_subdag.md",
+      "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/audit.md",
+      "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/result.md",
+      "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/lineage.md",
+      "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/upstream_crosswalk.md",
+      "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/verify.py",
+      "background/nodes/l1_mersenne_next_to_maximal_exceptional_reduction/verify_audit.py",
+      "experiments/prize_resolution/l1_mersenne_next_to_maximal_packet_check.py",
+      "experiments/prize_resolution/l1_mersenne_next_to_maximal_packet_result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_official_max_split_value_complement_census",
+      "order": 3912
+    },
+    {
+      "from": "l1_mersenne_checkpoint_cyclotomic_normal_form",
+      "order": 3913
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3914
+    }
+  ],
+  "refutes": []
+}

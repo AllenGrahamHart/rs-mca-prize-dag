@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 936,
+  "node": {
+    "id": "rate_half_list_budget_three_affine_rank_rigidity",
+    "title": "Budget-three four-word witnesses have affine rank three",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/statement.md",
+      "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/proof.md",
+      "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/audit.md",
+      "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/verify.py",
+      "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/verify_audit.py",
+      "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/result.md",
+      "background/nodes/rate_half_list_budget_three_affine_rank_rigidity/upstream_crosswalk.md"
+    ],
+    "statement": "For d>=3, four distinct codewords of RS[F,D,2d], |D|=4d, all agreeing with one received word on at least 3d-1 coordinates are affinely independent. A rank-two equality case would force 2d-2 common direction zeros and exactly two listed words at each of 2d+2 active coordinates; factoring the common locator leaves four distinct affine-linear quotients, whose six pairwise differences cannot cover more than six active coordinates. This constrains all thirteen budget-three chambers but closes none without a locator-rank/codeword-rank bridge.",
+    "upstream": {
+      "label": "Lane L affine-span equality case",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {
+      "from": "upstream_gfv4_affine_span_list_compiler",
+      "order": 1698
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1699
+    }
+  ],
+  "refutes": []
+}

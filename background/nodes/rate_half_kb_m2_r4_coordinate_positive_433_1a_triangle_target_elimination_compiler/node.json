@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1441,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler",
+    "title": "KoalaBear m2 r4 positive 433-1a triangle target elimination compiler",
+    "status": "PROVED",
+    "closure": "complete four-binomial target-product chains and compact squared-sum cuts for two positive outside matching templates",
+    "statement": "For each of two explicitly oriented positive 433-1a residual matching templates with missing-mate product ef, the outside representatives d,e,f eliminate completely. Every actual lift satisfies four target-free product-chain identities and one compact squared-sum identity in the common maps F,H and three source deck labels.  The added cross relation repairs the original three-equation necessary subideal.  Template exhaustiveness and route deletion remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_sum_failure_trace.c",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_sum_failure_trace_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_triangle_cut_result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
+      "order": 3182
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3183
+    }
+  ],
+  "refutes": []
+}

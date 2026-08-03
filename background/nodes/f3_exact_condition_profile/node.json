@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 718,
+  "node": {
+    "id": "f3_exact_condition_profile",
+    "status": "PROVED",
+    "statement": "F3 EXACT CONDITION PROFILE (2026-07-09, Codex flip branch, replayed): the rich-curve reduced-condition count per repaired curve is exactly DA + 6D(D-1) (about 8% of the legacy 13D(A+D) on sample boxes); feeding the exact profile into the bridge-budget optimizer gives Z_exact = 33..21421 distinct-rank-effective-image units across official rows s=13..41 (legacy diagonal table 11..7420 retained as lower bound). RC-RED-PROFILE replaces RC-RED(13) in the strongest compiled chain. Verifier: frontier ledger + budget compilers in u1_x4 notes; aggregate replay green."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u1_x4_direct_column_budget",
+      "order": 1234
+    }
+  ],
+  "refutes": []
+}

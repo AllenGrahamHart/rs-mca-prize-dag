@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 226,
+  "node": {
+    "id": "displacement_uniform",
+    "title": "Displacement identities over abstract 2^s fields",
+    "status": "PROVABLE",
+    "refs": [
+      "wp_detail/wp2_5_wp4_1_window_charts_and_displacement.md#2"
+    ],
+    "notes": "IN FLIGHT: PR #191 packet 1 = the uniform V^T D V identities + Toeplitz-Cauchy displacement (Q2.5 executed); flips on integration."
+  },
+  "requires": [
+    {
+      "from": "vtdv",
+      "order": 62
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "spi_dimension_free",
+      "order": 145
+    },
+    {
+      "to": "f_consumer_scoped",
+      "order": 685
+    },
+    {
+      "to": "f_termination_hankel",
+      "order": 701
+    }
+  ],
+  "refutes": []
+}

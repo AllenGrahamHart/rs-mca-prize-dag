@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1016,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_harmonic_exclusion",
+    "title": "Budget-three antipodal generic deleted-pair harmonic exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The harmonic outer ratio q=-1 is impossible throughout the exact official maximal-row split-quadratic characteristic interval. Every remaining deleted-pair candidate is nonharmonic.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_harmonic_exclusion/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_harmonic_exclusion/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_harmonic_exclusion/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_harmonic_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_harmonic_exclusion/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_harmonic_exclusion/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_harmonic_exclusion/verify.py",
+      "experiments/prize_resolution/rate_half_list_deleted_pair_harmonic_characteristic_result.json",
+      "experiments/prize_resolution/rate_half_list_deleted_pair_harmonic_characteristic_result.md",
+      "experiments/prize_resolution/rate_half_list_deleted_pair_harmonic_characteristic_check.py",
+      "experiments/prize_resolution/rate_half_list_deleted_pair_harmonic_characteristic_modal.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_mobius_ratio_router",
+      "order": 1852
+    },
+    {
+      "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+      "order": 1853
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1854
+    }
+  ],
+  "refutes": []
+}

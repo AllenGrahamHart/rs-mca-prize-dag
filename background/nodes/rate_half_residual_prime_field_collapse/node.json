@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1164,
+  "node": {
+    "id": "rate_half_residual_prime_field_collapse",
+    "title": "Rate-half residual prime-field collapse",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At either unresolved rate-half budget B in {2^39,2^39+1}, every admissible field order q=p^f with 2^41 dividing q-1 has f=1. LTE first forces f in {1,2,3,4}. Exact intersection of the two narrow budget intervals with the complete roots of x^f=1 modulo 2^41 leaves 46 quadratic candidates and no cubic or quartic candidates; a printed divisor ledger proves all 46 quadratic candidates composite. Hence every residual shard is over a prime field of characteristic greater than 2^167.",
+    "refs": [
+      "background/nodes/rate_half_residual_prime_field_collapse/statement.md",
+      "background/nodes/rate_half_residual_prime_field_collapse/proof.md",
+      "background/nodes/rate_half_residual_prime_field_collapse/claim_contract.md",
+      "background/nodes/rate_half_residual_prime_field_collapse/dependency_subdag.md",
+      "background/nodes/rate_half_residual_prime_field_collapse/result.md",
+      "background/nodes/rate_half_residual_prime_field_collapse/quadratic_candidate_factors.tsv",
+      "background/nodes/rate_half_residual_prime_field_collapse/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_minimal_index_budget",
+      "order": 2366
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2367
+    }
+  ],
+  "refutes": []
+}

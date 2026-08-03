@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1583,
+  "node": {
+    "id": "xr_rank_two_five_row_negative_baseline_floor",
+    "title": "XR five-row rank-two full cores have a negative-baseline rank floor",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_rank_two_five_row_negative_baseline_floor/statement.md",
+      "background/nodes/xr_rank_two_five_row_negative_baseline_floor/proof.md",
+      "background/nodes/xr_rank_two_five_row_negative_baseline_floor/claim_contract.md",
+      "background/nodes/xr_rank_two_five_row_negative_baseline_floor/dependency_subdag.md",
+      "background/nodes/xr_rank_two_five_row_negative_baseline_floor/verify.py",
+      "background/nodes/xr_rank_two_five_row_negative_baseline_floor/verify_audit.py",
+      "background/nodes/xr_rank_two_five_row_negative_baseline_floor/audit.md",
+      "background/nodes/xr_rank_two_five_row_negative_baseline_floor/result.md"
+    ],
+    "statement": "An official rank-two relation with exactly five active rows equal to a complete minimal Maxwell core has strictly negative baseline. Its magnitude b is congruent to -5h modulo 6; zero-fiber degree capacity and disjointness give necessary affine-rank floors 9,9,6,9544371773,9544371773,4772185889 on the six rows. The exact defect window is b=e+2(3I+sigma+H), 0<=e<=h-1. Proper five-block circuits inside larger cores and surviving high-rank records remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_rank_two_zero_baseline_arithmetic_router",
+      "order": 3706
+    },
+    {
+      "from": "xr_rank_two_maxwell_collision_defect_identity",
+      "order": 3707
+    },
+    {
+      "from": "xr_higher_rank_rank_two_shell_maxwell_router",
+      "order": 3708
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3709
+    }
+  ],
+  "refutes": []
+}

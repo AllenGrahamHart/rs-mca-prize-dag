@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1168,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness",
+    "title": "A=1 exceptional quotient minimal-support uniqueness",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Through quotient distance e+1, the exceptional quotient class has one unique minimal support. Every ordinary clean locator whose complement attains that minimum is exactly an internal fiber using the same support and consuming h-1 disjoint exceptional cancellations.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_uniqueness/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router",
+      "order": 2376
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_gap",
+      "order": 2377
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2378
+    }
+  ],
+  "refutes": []
+}

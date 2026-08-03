@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 665,
+  "node": {
+    "id": "e22_dyadic_chain_mobius_accounting",
+    "title": "E22 dyadic-chain minimal-scale accounting",
+    "status": "PROVED",
+    "statement": "For a finite dyadic chain of admissible scales, raw per-scale counts decompose triangularly by minimal scale: the raw count at scale M_j equals the selected minimal count at M_j plus the contributions from smaller minimal scales that are also admissible at M_j. Therefore exact selected counts are recovered by subtracting the smaller-scale overlap counts.",
+    "attack_surface": "formal partition accounting on a finite totally ordered set",
+    "falsifier": "a class counted at scale M_j whose minimal admissible scale is larger than M_j, or a class with no unique minimal scale"
+  },
+  "requires": [
+    {
+      "from": "e22_minimal_scale_partition",
+      "order": 1006
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1146
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1489,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
+    "title": "KoalaBear m2 r4 coordinate negative one-loop 433 complete-edge skeleton classifier",
+    "status": "PROVED",
+    "closure": "exact three-orbit classification of complete one-loop 433 outside edge skeletons",
+    "statement": "Every complete negative one-loop 433 packet has one of exactly twelve labeled outside edge skeletons, in three S_3-orbits. Representatives S0, S1, S2 respectively have no outside loop with split colored attachments, one loop on the uncolored pair with split attachments, or one loop with both colored attachments concentrated on another pair. The theorem gives the exact signed seven-product forms and eta/L^c location split.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+      "order": 3367
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+      "order": 3368
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+      "order": 3369
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3370
+    }
+  ],
+  "refutes": []
+}

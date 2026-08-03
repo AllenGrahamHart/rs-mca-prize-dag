@@ -1,0 +1,57 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 89,
+  "node": {
+    "id": "e1_n256_s16_e23_four_profile_exclusion",
+    "title": "N=256 E=23 four-profile exact-norm exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e23_four_profile_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e23_four_profile_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e23_four_profile_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e23_four_profile_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e23_four_profile_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e23_four_profile_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e23_four_profile_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e23_four_profile_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e23_four_profile_exclusion/verify_audit.py",
+      "experiments/prize_resolution/e23_four_profile_census.cpp",
+      "experiments/prize_resolution/e23_four_profile_census_audit.cpp",
+      "experiments/prize_resolution/e23_four_profile_census_modal.py",
+      "experiments/prize_resolution/e23_four_profile_census_result.json",
+      "experiments/prize_resolution/e23_four_profile_census_check.py",
+      "experiments/prize_resolution/e23_four_profile_norm_modal.py",
+      "experiments/prize_resolution/e23_four_profile_norm_result.json",
+      "experiments/prize_resolution/e23_four_profile_norm_check.py"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), and V=46, all four routed profiles are impossible. Independent actual-vector engines agree after 158,783,488 vectors per engine: 1,888 profile vectors, of which 484 have full conductor and 1,404 are discharged by the proper-conductor theorem. FLINT and PARI agree on all full-conductor norms, with 176 distinct values and 2*N_max<2^250<3*N_max.",
+    "notes": "ROUTE CLOSURE 2026-07-27: direct census, conductor, and exact resultants close the entire cutoff-free E23 router."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e23_profile_parity_light_reduction",
+      "order": 4222
+    },
+    {
+      "from": "e1_n256_proper_conductor_collision_exclusion",
+      "order": 4223
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 4224
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4229
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4230
+    }
+  ],
+  "refutes": []
+}

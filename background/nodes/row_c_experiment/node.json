@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 195,
+  "node": {
+    "id": "row_c_experiment",
+    "title": "Row-C birthday sampling of e1 value sets",
+    "status": "TARGET",
+    "key": true,
+    "refs": [
+      "wp_detail/wp3_1_wp3_3_rows_and_second_pin.md#1"
+    ],
+    "closure": "computation",
+    "notes": "TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "zone_b",
+      "order": 23
+    },
+    {
+      "to": "row_slate",
+      "order": 122
+    },
+    {
+      "to": "e1_fullness",
+      "order": 149
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1024,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent",
+    "title": "A=1 core-one exceptional-only factor descent",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the b=0, D_*=1, c=z=1 exceptional-only active profile, the full exceptional fiber lies in P_X. Cancelling its forced divisor from B modulo Q turns the active weld into the exact complement square QA_1+PB_1=P_X, WB_1-1=QK_1, VB_1+A_1=-P_XK_1. The correction raises deg_X A_1 from D_0-r-1 to exactly D_0-r, isolating the one-degree obstruction that prevents reuse of the trace-free exclusion.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_factor_descent/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_active_partition_incidence_reconstruction",
+      "order": 1914
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1915
+    }
+  ],
+  "refutes": []
+}

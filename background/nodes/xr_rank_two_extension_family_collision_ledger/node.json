@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1307,
+  "node": {
+    "id": "xr_rank_two_extension_family_collision_ledger",
+    "title": "XR rank-two extension families obey an exact collision ledger",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_rank_two_extension_family_collision_ledger/statement.md",
+      "background/nodes/xr_rank_two_extension_family_collision_ledger/proof.md",
+      "background/nodes/xr_rank_two_extension_family_collision_ledger/claim_contract.md",
+      "background/nodes/xr_rank_two_extension_family_collision_ledger/dependency_subdag.md",
+      "background/nodes/xr_rank_two_extension_family_collision_ledger/verify.py",
+      "background/nodes/xr_rank_two_extension_family_collision_ledger/verify_audit.py",
+      "background/nodes/xr_rank_two_extension_family_collision_ledger/audit.md",
+      "background/nodes/xr_rank_two_extension_family_collision_ledger/result.md"
+    ],
+    "statement": "For a rank-two shell, split each actual inactive extension T_i into inside reuse I_i=T_i intersect Z_i and outside part O_i=T_i\\X. The pairwise block cap is exactly |I_i|+|I_j|+|O_i intersect O_j|<=z_i+z_j-d-1. Summing gives (t-1)sum|I_i|+sum_x C(m_x,2)<=(t-1)sum z_i-C(t,2)(d+1). Together with the actual external zero sets and forced extension sizes, these inequalities are a complete finite extension-family compatibility ledger. Counting support families/packings, first-core ownership, and cross-core payment remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_higher_rank_rank_two_shell_maxwell_router",
+      "order": 2779
+    },
+    {
+      "from": "xr_rank_two_actual_block_extension_router",
+      "order": 2780
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 2781
+    }
+  ],
+  "refutes": []
+}

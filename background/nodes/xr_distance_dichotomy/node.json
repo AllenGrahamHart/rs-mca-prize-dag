@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 429,
+  "node": {
+    "id": "xr_distance_dichotomy",
+    "title": "The XR final assembly: three tools partition the distance scales",
+    "status": "PROVABLE",
+    "key": true,
+    "statement": "For a fixed post-strip pair, bound |A| by the exhaustive per-scale split: (i) CLOSE pairs (exchange distance <= ledger reach s_L): residual systems suppress at a q-FACTOR per step (#152's mechanism); (ii) FAR-ONLY sets (distance-s independent): Delsarte/anticode bounds at (j/n) per step; (iii) STRUCTURED mass (link-dense): the KMS/globalness route (juntas = tangent-paid). The wall closes iff the three coverages overlap \u2014 determined by xr_radius_arithmetic. The dichotomy is exhaustive by construction; the assembly is the wall.",
+    "refs": [
+      "proof_sketch/s3b_iii_2_displacement_spectral.md#2"
+    ],
+    "notes": "Integrated from Codex (referee pass): status reconciled to PROVABLE (artifacts + all-green predicates); the globalness edge promoted ev -> req per the sketch's own text ('a required input, not merely evidence')."
+  },
+  "requires": [
+    {
+      "from": "xr_ledger_qpower",
+      "order": 721
+    },
+    {
+      "from": "xr_radius_arithmetic",
+      "order": 722
+    },
+    {
+      "from": "xr_anticode_toolkit",
+      "order": 723
+    },
+    {
+      "from": "xr_globalness_from_ledger",
+      "order": 724
+    },
+    {
+      "from": "exchange_ledger_gen_t",
+      "order": 727
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

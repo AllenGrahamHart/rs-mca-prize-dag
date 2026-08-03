@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 642,
+  "node": {
+    "id": "m720_official_norm_gate_certificate_soundness",
+    "title": "M720 official norm-gate certificate soundness",
+    "status": "PROVED",
+    "statement": "A complete official h=7..20 norm-gate payload, or a uniform nonvanishing theorem covering the same primitive norm-gate branch, soundly excludes all unpaid non-toral active cores in the official h=7..20 band once m720_official_paid_branch_alignment has reduced the problem to that branch.",
+    "attack_surface": "formal certificate semantics and paid/norm-gate branch coverage",
+    "falsifier": "a payload marked complete and zero for every primitive norm-gate case while an unpaid non-toral official h=7..20 active core survives"
+  },
+  "requires": [
+    {
+      "from": "m720_certificate_semantics",
+      "order": 981
+    },
+    {
+      "from": "m720_official_paid_branch_alignment",
+      "order": 982
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1124
+    }
+  ],
+  "refutes": []
+}

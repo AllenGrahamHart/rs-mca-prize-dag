@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 958,
+  "node": {
+    "id": "rate_half_list_budget_three_linear_grassmann_atlas",
+    "title": "Budget-three linear Grassmann atlas",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Exactly nine of the thirteen B*=3 edge-degree chambers are projective lines on Gr(2,4), giving nondegenerate base-field split-unit relations among the large locators with exact exceptional degrees 3,4,5,6,8. The remaining bounded-edge frontier is exactly the three pendant chambers and one K_4-e chamber with a quadratic edge.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/statement.md",
+      "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/proof.md",
+      "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/audit.md",
+      "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/result.md",
+      "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/verify.py",
+      "background/nodes/rate_half_list_budget_three_linear_grassmann_atlas/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_split_fiber_atlas",
+      "order": 1746
+    },
+    {
+      "from": "rate_half_list_budget_three_k4_grassmann_line",
+      "order": 1747
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1748
+    }
+  ],
+  "refutes": []
+}

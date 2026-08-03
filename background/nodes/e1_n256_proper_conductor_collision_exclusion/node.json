@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 27,
+  "node": {
+    "id": "e1_n256_proper_conductor_collision_exclusion",
+    "title": "N=256 proper-conductor E1 collision exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_proper_conductor_collision_exclusion/statement.md",
+      "background/nodes/e1_n256_proper_conductor_collision_exclusion/proof.md",
+      "background/nodes/e1_n256_proper_conductor_collision_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_proper_conductor_collision_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_proper_conductor_collision_exclusion/audit.md",
+      "background/nodes/e1_n256_proper_conductor_collision_exclusion/result.md",
+      "background/nodes/e1_n256_proper_conductor_collision_exclusion/source_pin.json",
+      "background/nodes/e1_n256_proper_conductor_collision_exclusion/verify.py"
+    ],
+    "statement": "For either first-band N=256,s=5 folded profile (4,2,0) or (3,4,0), let T be the actual nonzero support. If d=gcd(256,{i-r:i in T})>1, monomial normalization places the vector in a cyclotomic subfield of degree at most 64. Its nonzero small-field norm has magnitude at most 18^32<2^250, while the full norm is a power of that same integer up to sign. Hence no pair-feasible row prime divides it, and every unresolved first-band collision has full conductor. A certified profile-(3,4,0) vector of variance 36 shows that low variance does not imply proper conductor.",
+    "notes": "ROUTE REDUCTION 2026-07-27: removes every proper-subfield lift from both first-band N=256 profiles. Full-conductor vectors remain in the low-variance residual, so neither profile nor the total ledger is closed."
+  },
+  "requires": [
+    {
+      "from": "e1_prime_field_l2_norm_collision_radius",
+      "order": 242
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 243
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 377
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 378
+    }
+  ],
+  "refutes": []
+}

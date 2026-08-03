@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1606,
+  "node": {
+    "id": "xr_prize_flat_nullity_first_core_peeling_owner",
+    "title": "XR prize flat-nullity first-core peeling owner",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Deterministic first-core peeling extends to every prize P-A flat-nullity cell. Repeatedly choosing the first minimal dense core, first canonical trade, and first active pivot assigns each deleted block exactly one pointed basis/flat/dual-plane owner. The terminal normalized family has size at most floor((2(R-v)-1)/h); after restoring at most v exceptional slopes, the complete unowned population is below n and already paid. Nonterminal owner counting remains open.",
+    "refs": [
+      "background/nodes/xr_prize_flat_nullity_first_core_peeling_owner/statement.md",
+      "background/nodes/xr_prize_flat_nullity_first_core_peeling_owner/proof.md",
+      "background/nodes/xr_prize_flat_nullity_first_core_peeling_owner/claim_contract.md",
+      "background/nodes/xr_prize_flat_nullity_first_core_peeling_owner/dependency_subdag.md",
+      "background/nodes/xr_prize_flat_nullity_first_core_peeling_owner/audit.md",
+      "background/nodes/xr_prize_flat_nullity_first_core_peeling_owner/result.md",
+      "background/nodes/xr_prize_flat_nullity_first_core_peeling_owner/verify.py",
+      "background/nodes/xr_prize_flat_nullity_first_core_peeling_owner/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_prize_flat_nullity_maxwell_trade_space_compiler",
+      "order": 3796
+    },
+    {
+      "from": "xr_uniform_maxwell_first_core_peeling_owner",
+      "order": 3797
+    },
+    {
+      "from": "xr_prize_flat_nullity_nonpersistent_root_cap",
+      "order": 3798
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3799
+    }
+  ],
+  "refutes": []
+}

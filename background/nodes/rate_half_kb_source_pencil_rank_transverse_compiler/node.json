@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1338,
+  "node": {
+    "id": "rate_half_kb_source_pencil_rank_transverse_compiler",
+    "title": "KoalaBear source-pencil rank and transverse compiler",
+    "status": "PROVED",
+    "closure": "exact rank compiler plus primitive-subdegree same-fiber exclusion",
+    "statement": "For each supplied KoalaBear endpoint record, the six live decomposition profiles have 32,099 canonical source templates with exact source-rank and active-syndrome gates; this is per record, not a global census. After strict right-factor routing, no terminal inner degree 2,3,4,6,10,12 has primitive monodromy subdegree four, so the actual bidegree-(4,4) component is not same-fiber. Every survivor is one of 26 transverse types satisfying delta*r=4m, delta<=m^2, r<=60/m-1. Source-only controls survive at degrees two and three; no transverse deletion, owner, charge, u2 close, cap 68, or row close is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/statement.md",
+      "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/proof.md",
+      "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/audit.md",
+      "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/result.md",
+      "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/frontier.md",
+      "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/verify.py",
+      "background/nodes/rate_half_kb_source_pencil_rank_transverse_compiler/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "PR #1131 KoalaBear degree-60 source-pencil rank compiler",
+      "relation": "IDENTICAL_AT_PRINTED_SCOPE"
+    }
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_decomposition_source_pencil_compiler",
+      "order": 2993
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2994
+    }
+  ],
+  "refutes": []
+}

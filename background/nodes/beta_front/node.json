@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 239,
+  "node": {
+    "id": "beta_front",
+    "title": "Front beta realizability (P-beta; codim ~29068)",
+    "status": "TARGET",
+    "refs": [
+      "proof_sketch/s3a_regular_window.md#4"
+    ],
+    "notes": "ACTIVE: PR #171 A385/386 rank-6 program \u2014 hexagon sharpness witness, conic/Pascal branch closures (P-beta test underway) | TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation.",
+    "closure": "artifact"
+  },
+  "requires": [
+    {
+      "from": "replay_170_171",
+      "order": 82
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "window_program",
+      "order": 77
+    }
+  ],
+  "refutes": []
+}

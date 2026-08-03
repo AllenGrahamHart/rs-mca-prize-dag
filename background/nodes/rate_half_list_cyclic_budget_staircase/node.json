@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1488,
+  "node": {
+    "id": "rate_half_list_cyclic_budget_staircase",
+    "title": "Six field-independent unsafe tiers from the cyclic rotated prefix floor",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the official rate-half row, instantiating the cyclic rotated-prefix floor at d=1 and s=c-1 for quotient orders 8,16,32,64,128,256 gives six exact field-independent budget-indexed unsafe agreements. The first five tiers strictly improve the prior cap-uniform lower frontier on their intervals and the N_0=256 tier recovers it. No safe-side or exact-crossing claim is made.",
+    "refs": [
+      "background/nodes/rate_half_list_cyclic_budget_staircase/statement.md",
+      "background/nodes/rate_half_list_cyclic_budget_staircase/proof.md",
+      "background/nodes/rate_half_list_cyclic_budget_staircase/claim_contract.md",
+      "background/nodes/rate_half_list_cyclic_budget_staircase/source_evidence.md",
+      "background/nodes/rate_half_list_cyclic_budget_staircase/dependency_subdag.md",
+      "background/nodes/rate_half_list_cyclic_budget_staircase/audit.md",
+      "background/nodes/rate_half_list_cyclic_budget_staircase/result.md",
+      "background/nodes/rate_half_list_cyclic_budget_staircase/frontier.md",
+      "background/nodes/rate_half_list_cyclic_budget_staircase/lineage.md",
+      "background/nodes/rate_half_list_cyclic_budget_staircase/verify.py",
+      "background/nodes/rate_half_list_cyclic_budget_staircase/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_cyclic_rotated_prefix_floor",
+      "order": 3365
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 3366
+    }
+  ],
+  "refutes": []
+}

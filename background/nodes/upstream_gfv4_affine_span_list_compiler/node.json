@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 934,
+  "node": {
+    "id": "upstream_gfv4_affine_span_list_compiler",
+    "title": "Upstream affine-span and rank-flat RS list compilers",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/upstream_gfv4_affine_span_list_compiler/statement.md",
+      "background/nodes/upstream_gfv4_affine_span_list_compiler/proof.md",
+      "background/nodes/upstream_gfv4_affine_span_list_compiler/audit.md",
+      "background/nodes/upstream_gfv4_affine_span_list_compiler/verify.py",
+      "background/nodes/upstream_gfv4_affine_span_list_compiler/verify_audit.py",
+      "background/nodes/upstream_gfv4_affine_span_list_compiler/result.md",
+      "background/nodes/upstream_gfv4_affine_span_list_compiler/upstream_crosswalk.md"
+    ],
+    "statement": "For an affine direction-s codeword flat in RS[F,D,K], the number of members agreeing with one received word on at least m=K+w coordinates is at most floor(C(n-K+s,s)/C(w+s,s)). With generalized direction-code weights d_j, common-zero miss count b, and t=n-m, the sharper cap is floor(d_s falling s / product_j(d_j-t+b)), where d_j>=n-K+j. This independently reconstructs upstream thm:affine-span-list and thm:rank-flat-list at b13de811.",
+    "upstream": {
+      "label": "thm:affine-span-list + thm:rank-flat-list",
+      "relation": "IDENTICAL"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "x4_exactlist_staircase_split",
+      "order": 1706
+    },
+    {
+      "to": "list_safe",
+      "order": 1707
+    }
+  ],
+  "refutes": []
+}

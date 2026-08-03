@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 22,
+  "node": {
+    "id": "e1_prize_field_floor_even_norm_exclusion",
+    "title": "Prize-field-floor exclusion for even low-square-mass E1 norms",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_prize_field_floor_even_norm_exclusion/statement.md",
+      "background/nodes/e1_prize_field_floor_even_norm_exclusion/proof.md",
+      "background/nodes/e1_prize_field_floor_even_norm_exclusion/claim_contract.md",
+      "background/nodes/e1_prize_field_floor_even_norm_exclusion/dependency_subdag.md",
+      "background/nodes/e1_prize_field_floor_even_norm_exclusion/audit.md",
+      "background/nodes/e1_prize_field_floor_even_norm_exclusion/frontier.md",
+      "background/nodes/e1_prize_field_floor_even_norm_exclusion/result.md",
+      "background/nodes/e1_prize_field_floor_even_norm_exclusion/source_pin.json",
+      "background/nodes/e1_prize_field_floor_even_norm_exclusion/verify.py",
+      "background/nodes/e1_prize_field_floor_even_norm_exclusion/verify_audit.py"
+    ],
+    "statement": "On every pair-feasible prize-envelope prime row, the exact field floor is p>2^255. Every nonzero same-size E1 class-difference norm is even. The folded L2 bound is at most 2^256 for N=256,S<=16 and N=512,S<=4; divisibility by odd p would force the norm to equal p, a contradiction. Hence the prize-row live floors sharpen to S>=18 and S>=6 respectively. RowC is unchanged.",
+    "notes": "ROW-SPECIFIC EXCLUSION 2026-07-28: spends the exact prize interval rather than the common p>=2^250 floor and removes the maximal-weight profiles from the binding aggregate budget."
+  },
+  "requires": [
+    {
+      "from": "e1_pair_feasible_prime_field_reduction",
+      "order": 4413
+    },
+    {
+      "from": "e1_collision_square_mass_reparametrization",
+      "order": 4414
+    },
+    {
+      "from": "e1_prime_field_l2_norm_collision_radius",
+      "order": 4415
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4417
+    }
+  ],
+  "refutes": []
+}

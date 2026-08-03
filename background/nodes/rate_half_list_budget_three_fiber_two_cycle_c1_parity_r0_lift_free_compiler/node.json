@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1266,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_lift_free_compiler",
+    "title": "Budget-three fiber-two c=1 parity R0 trace and scalar gates are lift-free",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For the sole potentially anti-invariant R0 role, put u=r^2 and t=u^2. Its two source traces are exactly the roots of K_t(Y)=t(Y-2)^2+4(t-1)^2. A 39-step recurrence modulo this separable quadratic is an exact lift-free outer-torsion test. Eliminating Y from S^2=(Y+2)T gives the exact scalar identity t(S^2-4T)^2+4(t-1)^2T^2=0; a common coefficient gcd enforces the same trace in both gates. Every survivor consequently obeys 4t(1+tH^2)^2+(t-1)^2=0. This does not exclude R0 or discharge its fourth-power and gcd gates.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_lift_free_compiler/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_lift_free_compiler/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_lift_free_compiler/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_lift_free_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_lift_free_compiler/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_lift_free_compiler/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_lift_free_compiler/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_lift_free_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_frobenius_router",
+      "order": 2645
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_nonharmonic_scalar_compiler",
+      "order": 2646
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2647
+    }
+  ],
+  "refutes": []
+}

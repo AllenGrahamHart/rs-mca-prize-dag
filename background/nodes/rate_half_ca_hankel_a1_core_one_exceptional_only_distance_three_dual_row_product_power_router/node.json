@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1163,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router",
+    "title": "Rate-half distance-three dual row-product power router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The exact external incidence design has a dual product identity: multiplying Q(z;x) over the 6e+3 active outside rows gives the monic external-slope polynomial to the power r=2e+1, up to the product of row-leading coefficients. Comparing this identity at the exceptional slope and an internal matched-pair slope forces product_C B(x)/D_i(x) to be an r-th power. This is a support-only finite-field power-residue gate, with a resultant and smooth-domain derivative evaluation requiring no slope, scalar, or block variables.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_boundary_root_unity_router",
+      "order": 2364
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2365
+    }
+  ],
+  "refutes": []
+}

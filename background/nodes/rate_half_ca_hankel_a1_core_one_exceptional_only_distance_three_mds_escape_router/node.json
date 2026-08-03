@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1116,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router",
+    "title": "Rate-half exceptional distance-three MDS-escape router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official A=1 core-one exceptional-only quotient-distance-three chart, every ordinary supported slope is either an internal fiber cancelling exactly two exceptional-root source coefficients, or a disjoint minimum-weight Vandermonde escape. The official incidence budget forces exactly e internal fibers, whose pairs partition the 2e exceptional roots, and exactly 3e external escapes. Each external locator G obeys G(t)/A(t)=constant on the canonical triple, and the total outside-row incidence deficit is exactly e. This is an exact router, not an exclusion of the chart.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router",
+      "order": 2242
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2243
+    }
+  ],
+  "refutes": []
+}

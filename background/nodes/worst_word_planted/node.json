@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 396,
+  "node": {
+    "id": "worst_word_planted",
+    "title": "LEAP: at the crossing radii the extremal words are the planted sunflower family",
+    "status": "CONDITIONAL",
+    "key": true,
+    "statement": "REVISED per the E15 COUNTEREXAMPLE (#197): the naive planted-only form is FALSE \u2014 a structured low-slack NON-planted challenger exists at sigma = 1 in the toy cell. Revised statement: at the crossing radii the sup-over-words list is controlled by the planted sunflower family plus the priced low-slack challenger/envelope supplied by `worst_word_challenger_pricing`. Exact two-class exhaustion would close this cleanly, but the downstream arithmetic only needs a certified rowwise envelope with matching unsafe witnesses. The observed challenger is structured (not a fifth-mechanism signal); the endgame arithmetic gains one priced column rather than an unpriced supremum.",
+    "attack_surface": "toy probe: search word families at n = 16..64 for lists exceeding the planted count at matched radius; the L1 sunflower machinery prices any challenger's structure",
+    "falsifier": "a toy word family beating the planted list at a crossing radius",
+    "refs": [
+      "proof_sketch/s7_list_side.md"
+    ],
+    "notes": "the list endgame's one genuine leap; everything else is arithmetic + already-mapped imgfib | First falsification of a roadmap leap \u2014 recorded per protocol, statement enlarged along the observed challenger class; the S9-style fix cost one column, not the endgame. | C-3 (#216): the E15 challenger is genuinely MIXED-PETAL (323 mixed + 13 full, ZERO quotient-fiber-compatible cells) \u2014 not an instance of the pullback family. The two challenger classes are distinct and both priced; the pullback stratum charges to the profile budget separately. | IDENTIFIED (X-4 verdict): the E15 mixed-petal challenger family IS the quotient-coset staircase (L_B G(X^M) locators, exact counts C(n/M - 1, h)) \u2014 the anomaly is classified; compare staircase vs planted-sunflower counts at matched radius per row (arithmetic task). | DEFECT FIXED (Codex packet): the revised statement's missing hypothesis node-ified (worst_word_challenger_pricing) and wired. | PROMOTED red -> amber (Codex batch 3, my replay): with the repaired challenger-pricing child and imgfib granted, the sup is carried by planted + priced-challenger classes \u2014 assembly statement. | (Base-drift artifact caught: the rednode branch's stale base showed CONJECTURE; my batch-3 promotion stands.) | AMBER AUDIT 2026-07-06: SOUND (two-class route supported by E22 toy replay). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md."
+  },
+  "requires": [
+    {
+      "from": "imgfib",
+      "order": 645
+    },
+    {
+      "from": "worst_word_challenger_pricing",
+      "order": 812
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "list_adjacency_closing",
+      "order": 641
+    }
+  ],
+  "refutes": []
+}

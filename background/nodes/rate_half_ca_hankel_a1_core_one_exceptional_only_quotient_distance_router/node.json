@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1115,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router",
+    "title": "Rate-half exceptional Hankel quotient-distance router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official A=1 core-one exceptional-only sharp-cap profile, let W_A be the span of the moment columns at the r-1 roots of the exceptional locator A. The first-order syndrome h_1 has quotient support distance at least three modulo W_A. If the distance is exactly three, its residual-domain support triple is unique and its coefficients are the explicit Vandermonde-barycentric weights Theta_2/(A(x_i)^2 product_(j!=i)(x_i-x_j)); otherwise the quotient distance is at least four. This is an exhaustive source-intrinsic router, not an exclusion of either branch.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quadratic_moment_pin",
+      "order": 2240
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2241
+    }
+  ],
+  "refutes": []
+}

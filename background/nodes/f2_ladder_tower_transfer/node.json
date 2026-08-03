@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 749,
+  "node": {
+    "id": "f2_ladder_tower_transfer",
+    "status": "PROVED",
+    "statement": "F2 LADDER IDENTITY + TOWER TRANSFER (2026-07-10, campaign cycle 85; digest F2_LADDER_TOWER_TRANSFER_PASS). PART 1 \u2014 LADDER IDENTITY (orthogonality, 3 lines): sum_{c != 0} exp(2 S_c) = q^j C''_j - 4^n, where C''_j = sum over delta in {0,+1,-1}^n with vanishing moments p_1..p_j of 2^{#{delta=0}} (the weighted signed-trade census, an integer DP). The random-sign variance of the census deviation IS a census one alphabet up ({0,1} -> {0,+-1}) \u2014 the alphabet-widening recursion is now an exact banked identity, making every satellite-20 denominator integer-computable. Verified integer-exact at (97,32,2), (113,16,2), (113,16,3) and via bigint DP at (257,64,2); the n=64 row PROVES the house exact-arithmetic law quantitatively \u2014 the identity's two sides agree to 62+ significant bits (their difference IS the deviation), so float64 categorically cannot verify it. PART 2 \u2014 TOWER TRANSFER (the model-validity gap, closed): at q = p^k with psi_c(y) = e_p(Tr(cy)), the quantization proof transfers verbatim (sum_x Tr(c.xbar) = Tr(c.(vanishing power sums)) = 0 mod p), so Phi_c in pi*Z and the ENTIRE (S, eps) frame \u2014 census-Fourier split, sign quantization, Rademacher form \u2014 holds at PRIME-POWER fields, the official-row shape. Verified at (p,k) = (7,2), (5,2), (3,4): quantization exact at every frequency, census-Fourier identity integer-exact against F_{p^k} DP censuses (field arithmetic via irreducible-polynomial construction), alignment ratios 8.7/4.0/1.9 in the satellites-19/20 band. Every prime-q campaign measurement is now backed by a proved-and-verified transfer principle to the tower. Verifier: critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_ladder_tower_transfer_modal.py. Twenty-first satellite."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1270
+    }
+  ],
+  "refutes": []
+}

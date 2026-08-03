@@ -1,0 +1,56 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 134,
+  "node": {
+    "id": "e1_prize_n256_s18_profile_36_cofactor_windows",
+    "title": "Prize N=256 profile-(3,6) cofactor windows",
+    "status": "PROVED",
+    "closure": "proof plus exact finite enumeration",
+    "refs": [
+      "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/statement.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/proof.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/claim_contract.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/dependency_subdag.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/audit.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/result.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/source_pin.json",
+      "background/nodes/e1_prize_n256_s18_profile_36_cofactor_windows/verify.py"
+    ],
+    "statement": "On prize-envelope N=256 rows, every profile-(3,6,S=18) collision has 2-adic norm valuation in {1,2,3,4,5,6,8,9,10} and one of twelve exact cofactors. Its autocorrelation variance is positive even and not two. A profile-specific logarithmic deficit leaves explicit finite windows, from V<=350 for cofactor 2 down to V<=12 for cofactor 1538.",
+    "notes": "ROUTE REDUCTION 2026-07-28: reduces the new maximum-weight support-9 profile to twelve finite cofactor/variance interfaces without a broad vector census. The profile and aggregate weighted pair budget remain open."
+  },
+  "requires": [
+    {
+      "from": "collision_norm_criterion",
+      "order": 4420
+    },
+    {
+      "from": "e1_collision_square_mass_reparametrization",
+      "order": 4421
+    },
+    {
+      "from": "e1_prize_field_floor_even_norm_exclusion",
+      "order": 4422
+    },
+    {
+      "from": "e1_n256_local_norm_cofactor_collapse",
+      "order": 4423
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4424
+    },
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4425
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4426
+    }
+  ],
+  "refutes": []
+}

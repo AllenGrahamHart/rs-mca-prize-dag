@@ -1,0 +1,65 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1473,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion",
+    "title": "KoalaBear positive 433-1a cell-4 exceptional reconstruction colored exclusion",
+    "status": "PROVED",
+    "closure": "exact colored Frobenius ledger plus complete content and subresultant-scale replay",
+    "statement": "On the cell-4 exceptional signed-pair reconstruction chart L=M=0, the residual away from H is already excluded. On the generic H lift, necessary colored elimination gives T(t)x^4C(w0,t)=0, with x nonzero on every guarded signed pair. The degree-16248 resultant Res_w0(H,C) has a degree-15 Frobenius root gcd. Its generic deployed candidates all have D0=0. The two admissible roots of T have no H(F_p) point. All 19 deployed points on the six pseudo-subresultant scale loci are replayed from the original P,L,M,F equations; each is absent, guarded, or has D0=0. Hence L=M=0 is empty for the necessary DE+/DE-/BE family in cells 4 and 7. The main L!=0 component remains open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_x_w2_resultant_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_x_w2_resultant_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_x_w2_resultant_polynomial.txt",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_x_reduce_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_x_reduce_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_x_reduce_polynomial.txt",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_coefficient_frobenius_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_coefficient_frobenius_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_coefficient_t_eliminant.txt",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_candidate_atlas_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_candidate_atlas_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_content_fiber_replay_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_colored_content_fiber_replay_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_subresultant_scale_atlas_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell4_pair_exceptional_h_subresultant_scale_atlas_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition",
+      "order": 3293
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction",
+      "order": 3294
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler",
+      "order": 3295
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
+      "order": 3296
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3297
+    }
+  ],
+  "refutes": []
+}

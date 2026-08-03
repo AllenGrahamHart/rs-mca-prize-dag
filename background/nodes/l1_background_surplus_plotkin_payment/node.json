@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1088,
+  "node": {
+    "id": "l1_background_surplus_plotkin_payment",
+    "title": "L1 background-surplus Plotkin payment",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Stratify one exact support/defect cell by exact background agreement count u+z. Using every background agreement, the combined core/background sets have distance at least 2(ell+z). Thus the cell has at most 2^(E_z+1)n members for E_z=N+b-4(ell+z)>=0, and every fixed logarithmic effective-excess window E_z<=C log_2 n is polynomial per chart at fixed petal polarity. A counterfamily must have (E_P-4z)/log_2 n unbounded. Officially, (r-1)E_z=(M-3(r-1)+1)ell-r(g+1)-4(r-1)z. No background-subset factor is introduced because the exact set is determined by the numerator.",
+    "refs": [
+      "background/nodes/l1_background_surplus_plotkin_payment/statement.md",
+      "background/nodes/l1_background_surplus_plotkin_payment/proof.md",
+      "background/nodes/l1_background_surplus_plotkin_payment/claim_contract.md",
+      "background/nodes/l1_background_surplus_plotkin_payment/dependency_subdag.md",
+      "background/nodes/l1_background_surplus_plotkin_payment/audit.md",
+      "background/nodes/l1_background_surplus_plotkin_payment/verify.py",
+      "background/nodes/l1_background_surplus_plotkin_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_joint_core_background_johnson_bound",
+      "order": 2165
+    },
+    {
+      "from": "l1_bounded_plotkin_excess_payment",
+      "order": 2166
+    },
+    {
+      "from": "pma_petal_pattern_root_pinning_ledger",
+      "order": 2167
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2168
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2169
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2170
+    }
+  ],
+  "refutes": []
+}

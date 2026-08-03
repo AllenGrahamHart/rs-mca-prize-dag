@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1622,
+  "node": {
+    "id": "l1_identity_pullback_role_payment_fence",
+    "title": "L1 identity-pullback role-payment fence",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For the degree-one pullback P=X, every domain point is a complete singleton fiber: B=D, the unique quotient component is the original polynomial, the quotient receiver is U, kappa=0, and every codeword has partial loss z=0. Thus the common-support one-interleaved quotient list at agreement a is exactly ImgFib_U(a). Every source petal is automatically a union of singleton fibers, and at the canonical official cutoff ell<char(F), so this endpoint belongs to the anchored tame family. Therefore a theorem paying all anchored tame fiber-role assignments already contains the original L1 list bound at s=1; an s>=2 classification cannot close L1 without a separate global exact-shell/Toeplitz theorem.",
+    "refs": [
+      "background/nodes/l1_identity_pullback_role_payment_fence/statement.md",
+      "background/nodes/l1_identity_pullback_role_payment_fence/proof.md",
+      "background/nodes/l1_identity_pullback_role_payment_fence/claim_contract.md",
+      "background/nodes/l1_identity_pullback_role_payment_fence/dependency_subdag.md",
+      "background/nodes/l1_identity_pullback_role_payment_fence/audit.md",
+      "background/nodes/l1_identity_pullback_role_payment_fence/lineage.md",
+      "background/nodes/l1_identity_pullback_role_payment_fence/result.md",
+      "background/nodes/l1_identity_pullback_role_payment_fence/verify.py",
+      "background/nodes/l1_identity_pullback_role_payment_fence/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_general_pullback_interleaving_descent",
+      "order": 3846
+    },
+    {
+      "from": "l1_exact_shell_prefix_hankel_bridge",
+      "order": 3847
+    },
+    {
+      "from": "l1_official_reserve_tame_refinement_router",
+      "order": 3848
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3849
+    }
+  ],
+  "refutes": []
+}

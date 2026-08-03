@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1190,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_non_mds_annihilating_pair_router",
+    "title": "A=1 exceptional non-MDS annihilating-pair router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the non-MDS branch, complementary singular e-column sets have equal rank deficiency d by weighted self-duality and yield d-dimensional shortening spaces with all d^2 cross products zero. Their numerator gcds with A have degree at least e and lcm A, splitting into excess-zero or A=D_uD_v; q_1 is a unit, so no quotient inversion or maximal-minor enumeration is needed.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_non_mds_annihilating_pair_router/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_non_mds_annihilating_pair_router/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_non_mds_annihilating_pair_router/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_non_mds_annihilating_pair_router/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_non_mds_annihilating_pair_router/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_non_mds_annihilating_pair_router/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_non_mds_annihilating_pair_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_mds_schur_router",
+      "order": 2445
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_residue_self_dual_algebra",
+      "order": 2446
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2447
+    }
+  ],
+  "refutes": []
+}

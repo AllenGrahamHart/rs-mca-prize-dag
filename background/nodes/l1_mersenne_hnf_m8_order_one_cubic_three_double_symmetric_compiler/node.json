@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1713,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler",
+    "title": "L1 Mersenne HNF m=8 order-one cubic three-double symmetric compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Writing s_1,s_2,s_3 for the elementary symmetric functions of the three quadratic-fiber parameters, l_1,l_2,l_3 solve triangularly for s_1,V,s_3. The printed formulas for l_4,l_5,l_6 then give three exact equations in only (U,s_2,r,d); with the h=7 conic, the cubic 2+2+2 p-free core is a square four-equation system.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_symmetric_compiler/verify.py"
+    ],
+    "notes": "Exact coefficient compiler only. Square counts equations and variables but is not a dimension or unit-ideal verdict; all color, norm, Frobenius, cyclotomic, and inner filters remain open."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_factor_reduction",
+      "order": 4000
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4001
+    }
+  ],
+  "refutes": []
+}

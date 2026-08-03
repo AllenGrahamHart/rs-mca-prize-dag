@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1580,
+  "node": {
+    "id": "f3_hge4_ambient_order_norm_level_cap",
+    "title": "HGE4 ambient-order norm level cap",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For an official ambient order n=2^s and exact dyadic ratio level m=2^a|n, every primitive top shift pair of width h satisfies n^(2 floor(h/2))<(4h)^(m/4). Combined with the quarter-width theorem this gives h<=min(m/4-1,2 ceil(ma/(8s))-1). Retaining the factor 4h/m yields the parity deletion 4(25s-36)d<=25(s-a)m for even d and 4(25s-36)d+100s<=25(s-a)m for odd d. At n=2^41,m=2^40 the first potentially live defect is d=6,948,379,851. This is a proper-level width reduction, not a count of the surviving lower widths or a closure of HGE4.",
+    "refs": [
+      "background/nodes/f3_hge4_ambient_order_norm_level_cap/statement.md",
+      "background/nodes/f3_hge4_ambient_order_norm_level_cap/proof.md",
+      "background/nodes/f3_hge4_ambient_order_norm_level_cap/claim_contract.md",
+      "background/nodes/f3_hge4_ambient_order_norm_level_cap/dependency_subdag.md",
+      "background/nodes/f3_hge4_ambient_order_norm_level_cap/audit.md",
+      "background/nodes/f3_hge4_ambient_order_norm_level_cap/result.md",
+      "background/nodes/f3_hge4_ambient_order_norm_level_cap/verify.py",
+      "background/nodes/f3_hge4_ambient_order_norm_level_cap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_exact_ratio_tower_orbit_compiler",
+      "order": 3696
+    },
+    {
+      "from": "f3_hge4_cyclotomic_norm_quarter_width_exclusion",
+      "order": 3697
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 3698
+    }
+  ],
+  "refutes": []
+}

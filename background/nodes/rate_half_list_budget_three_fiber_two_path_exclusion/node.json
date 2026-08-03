@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1233,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_path_exclusion",
+    "title": "Budget-three fiber-two path constructions share a forbidden factor",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let three pairwise-coprime locators be one-root deletions from unions of fibers of a common X^2 map, with completed half-degree s>=2. Writing H_i(Y)=(Y-r_i^2)K_i(Y) gives A_i(X)=(X+r_i)K_i(X^2). The odd and even parts of a nondegenerate three-term relation force all K_i to be scalar multiples of one common K, so the A_i share the nonconstant factor K(X^2), a contradiction. Hence both path-plus-singleton chambers have no direct common-fiber-size-two construction. Together with the Vandermonde theorem, every direct equal-complete-fiber path construction with m>=2 is excluded; m=1, mixed-map, partial-fiber, primitive, and non-path residuals remain open.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_path_exclusion/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_path_exclusion/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_path_exclusion/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_path_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_path_exclusion/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_path_exclusion/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_path_exclusion/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_path_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_multifiber_vandermonde_exclusion",
+      "order": 2552
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2553
+    }
+  ],
+  "refutes": []
+}

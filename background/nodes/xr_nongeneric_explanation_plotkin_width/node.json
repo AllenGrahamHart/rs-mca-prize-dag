@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1208,
+  "node": {
+    "id": "xr_nongeneric_explanation_plotkin_width",
+    "title": "XR nongeneric-explanation Plotkin width",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At one mismatch instance with A=K+h and H=h+1, canonically truncated A-supports of distinct joint codeword-pair explanations form an injective constant-weight code with pairwise intersection at most K-1=A-H and distance at least 2H. Hence there are at most floor(4H/(4H-N)) explanations when N<4H, at most 2N at equality, and polynomially many whenever N-4H<=C log_2 n. Once descent enters N<=4H, its live subtree has at most 1+104H instances and 420H^2 tangent charges. More generally, if H>=2C log_2 n, the whole fixed-logarithmic subtree has at most 1+200n^(C+1) instances and 201n^(C+2) tangent charges. Generic chart slopes and pre-terminal slope fibers remain open.",
+    "refs": [
+      "background/nodes/xr_nongeneric_explanation_plotkin_width/statement.md",
+      "background/nodes/xr_nongeneric_explanation_plotkin_width/proof.md",
+      "background/nodes/xr_nongeneric_explanation_plotkin_width/claim_contract.md",
+      "background/nodes/xr_nongeneric_explanation_plotkin_width/dependency_subdag.md",
+      "background/nodes/xr_nongeneric_explanation_plotkin_width/audit.md",
+      "background/nodes/xr_nongeneric_explanation_plotkin_width/verify.py",
+      "background/nodes/xr_nongeneric_explanation_plotkin_width/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_mismatch_chart_nongeneric_joint_support_equivalence",
+      "order": 2486
+    },
+    {
+      "from": "xr_mismatch_nongeneric_invariant_excess_descent",
+      "order": 2487
+    },
+    {
+      "from": "xr_true_tangent_coordinate_injection",
+      "order": 2488
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 2489
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 2490
+    },
+    {
+      "to": "xr_clean_residual_any_gate",
+      "order": 2491
+    }
+  ],
+  "refutes": []
+}

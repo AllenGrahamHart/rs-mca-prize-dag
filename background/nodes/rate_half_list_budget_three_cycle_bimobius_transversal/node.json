@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 955,
+  "node": {
+    "id": "rate_half_list_budget_three_cycle_bimobius_transversal",
+    "title": "Budget-three 4-cycle bi-Mobius transversal",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every B*=3 4-cycle witness defines a rational map A_1/A_0 with complete fibers on T_0,T_1 and injective Mobius graph fibers on T_2,T_3. The Plucker identity gives their exact graph difference. Every further A_0,A_1 pencil member has at most six domain roots, so for d>=8 the pencil has exactly two fully domain-split degree-(d-1) members. The resulting primitive bi-Mobius map is not excluded.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/statement.md",
+      "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/proof.md",
+      "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/audit.md",
+      "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/result.md",
+      "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/verify.py",
+      "background/nodes/rate_half_list_budget_three_cycle_bimobius_transversal/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_plucker_edge_gate",
+      "order": 1736
+    },
+    {
+      "from": "rate_half_list_budget_three_split_fiber_atlas",
+      "order": 1737
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1738
+    }
+  ],
+  "refutes": []
+}

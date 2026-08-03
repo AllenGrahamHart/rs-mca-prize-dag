@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1269,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_mobius_router",
+    "title": "Budget-three fiber-two c=1 parity chamber has six outer-trace Mobius tests",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "When the normalized c=1 denominator has two antipodal root pairs, there are exactly two source-role patterns. The even canonical outer quartic has unordered ratio trace tau_O=(alpha^2-2gamma)/gamma. Across the three perfect matchings of each source pattern, completion-root PGL matching is equivalent to one of six explicit equations tau_O=4((z+1)/(z-1))^2-2; outer torsion is a 39-step trace recurrence. At harmonic trace -2, two classes are excluded directly, leaving only two symmetry classes. The router does not exclude those classes or the nonharmonic packet.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_mobius_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_mobius_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_mobius_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_mobius_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_mobius_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_mobius_router/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_mobius_router/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_mobius_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c1_normalized_torsion_compiler",
+      "order": 2656
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_even_factorization",
+      "order": 2657
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2658
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1181,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_coefficient_rank_one_flag",
+    "title": "A=1 exceptional-only Hankel coefficient rank-one flag",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Adjoining the shifted exceptional locator v=Xq_0 to the coefficient plane W_q gives their common orthogonal complement for both Hankel forms. M_0 vanishes on this e+2 dimensional flag, while M_1 restricts to rank one with radical W_q and sole nonzero entry v^TM_1v. Thus the regular Kronecker block is exposed in original coefficient coordinates.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_coefficient_rank_one_flag/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_coefficient_rank_one_flag/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_coefficient_rank_one_flag/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_coefficient_rank_one_flag/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_coefficient_rank_one_flag/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_coefficient_rank_one_flag/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_coefficient_rank_one_flag/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_coefficient_biisotropic_plane",
+      "order": 2420
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality",
+      "order": 2421
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2422
+    }
+  ],
+  "refutes": []
+}

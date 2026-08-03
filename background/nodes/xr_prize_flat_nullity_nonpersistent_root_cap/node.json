@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1599,
+  "node": {
+    "id": "xr_prize_flat_nullity_nonpersistent_root_cap",
+    "title": "XR prize flat-nullity nonpersistent-root cap",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For fixed nonpersistent global-root count v, the exact real envelope underlying the flat-nullity basis charge FN3 is convex in u on 0<=u<=k-a-v, so its maximum occurs at u=0 or u=k-a-v. Exact endpoint arithmetic at the first open prize affine ranks gives the necessary caps v<=1526176110,2902067939,1962285106. Combined with the effective-core floor, every over-budget first-open P-A cell lies in an explicit root-defect wedge. This is a parameter reduction, not a P-A count.",
+    "refs": [
+      "background/nodes/xr_prize_flat_nullity_nonpersistent_root_cap/statement.md",
+      "background/nodes/xr_prize_flat_nullity_nonpersistent_root_cap/proof.md",
+      "background/nodes/xr_prize_flat_nullity_nonpersistent_root_cap/claim_contract.md",
+      "background/nodes/xr_prize_flat_nullity_nonpersistent_root_cap/dependency_subdag.md",
+      "background/nodes/xr_prize_flat_nullity_nonpersistent_root_cap/audit.md",
+      "background/nodes/xr_prize_flat_nullity_nonpersistent_root_cap/result.md",
+      "background/nodes/xr_prize_flat_nullity_nonpersistent_root_cap/verify.py",
+      "background/nodes/xr_prize_flat_nullity_nonpersistent_root_cap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_rs_flat_nullity_basis_charge",
+      "order": 3767
+    },
+    {
+      "from": "xr_prize_flat_nullity_effective_core_floor",
+      "order": 3768
+    },
+    {
+      "from": "xr_target_budget_audit",
+      "order": 3769
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3770
+    }
+  ],
+  "refutes": []
+}

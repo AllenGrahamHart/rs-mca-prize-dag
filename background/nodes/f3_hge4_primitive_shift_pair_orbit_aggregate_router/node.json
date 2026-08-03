@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1229,
+  "node": {
+    "id": "f3_hge4_primitive_shift_pair_orbit_aggregate_router",
+    "title": "HGE4 primitive shift-pair orbit aggregate router",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/f3_hge4_primitive_shift_pair_orbit_aggregate_router/statement.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_orbit_aggregate_router/proof.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_orbit_aggregate_router/claim_contract.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_orbit_aggregate_router/dependency_subdag.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_orbit_aggregate_router/audit.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_orbit_aggregate_router/result.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_orbit_aggregate_router/verify.py",
+      "background/nodes/f3_hge4_primitive_shift_pair_orbit_aggregate_router/verify_audit.py"
+    ],
+    "statement": "Multiplicative scaling acts freely on every ordered primitive top shift pair, so SP_h^prim=n O_h^prim; a left-anchored ordered scanner has exactly A_h^left=h O_h^prim records. Hence sum_{h=4}^{H_max} O_h^prim<=14n^2 implies the HGE4 norm-gate target. Equivalently the per-width 7000n estimate asks for O_h^prim<=7000 max(1,B_h). At every official h>=4 row the latter allowance is smaller than binom(n,h), so naive uniform max-degree summation can meet it only by proving primitive emptiness; a nonzero route needs averaged falling-factorial, orbit, or sparse-active-support control."
+  },
+  "requires": [
+    {
+      "from": "x82_square_shift_certifier_keys",
+      "order": 2540
+    },
+    {
+      "from": "f3_shiftpair_weld",
+      "order": 2541
+    },
+    {
+      "from": "f3_hge4_primitive_shift_pair_aggregate_adapter",
+      "order": 2542
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2543
+    }
+  ],
+  "refutes": []
+}

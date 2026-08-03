@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 643,
+  "node": {
+    "id": "m720_certificate_semantics",
+    "title": "M720 calibration certificate semantics",
+    "status": "PROVED",
+    "statement": "For M720 MITM outputs, a zero active-core count is a complete calibration-cell zero certificate only when the run has complete=true, equivalently W=n and the run did not abort. If complete=false, the output is slice-local evidence only and cannot be promoted to a global zero certificate.",
+    "attack_surface": "formal consequence of the mitm_slice complete flag and enumerator contract",
+    "falsifier": "a certificate protocol that treats W<n or aborted output as a complete global zero"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1125
+    }
+  ],
+  "refutes": []
+}

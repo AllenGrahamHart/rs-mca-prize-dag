@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 825,
+  "node": {
+    "id": "f3_h3_shifted_product_sidon",
+    "title": "Dyadic shifted roots are multiplicatively Sidon in characteristic zero",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/f3_h3_shifted_product_sidon/statement.md",
+      "background/nodes/f3_h3_shifted_product_sidon/proof.md",
+      "background/nodes/f3_h3_shifted_product_sidon/verify.py"
+    ],
+    "statement": "Let n=2^s and A=(1-mu_n(C))\\{0}. Then ab=cd with a,b,c,d in A forces {a,b}={c,d}; every nonidentity quotient fiber also has multiplicity at most one. Proof: the 2-adic cyclotomic valuation first matches the two valuation levels; separating Q(zeta_{2^j}) over Q(zeta_{2^{j-1}}) then gives either the two factors separately or their sum and product. Hence every finite-field non-equal, non-swap product collision lifts to a nonzero cyclotomic integer alpha=(1-x)(1-y)-(1-u)(1-v) killed modulo the row prime, so p divides Norm(alpha) and 0<|Norm(alpha)|<=6^phi(n). It also gives the exact finite split S_ns=sum_{R(t)>0}Q(t)+sum_t Q(t)(R(t)-1), separating one norm-gate accident from the joint double-accident term. This is not a per-prime aggregate bound or a proof of S_ns^rich<=1200n^2."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1383
+    }
+  ],
+  "refutes": []
+}

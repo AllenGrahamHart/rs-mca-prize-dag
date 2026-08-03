@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1009,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_two_window_square_reduction",
+    "title": "Budget-three antipodal generic two-window square reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "After the generic primary gap, the normalized secondary square is exactly the product of two length-h windows of the fourth-root coefficient sequence modulo z^h. The secondary gap is equivalent to one truncated square congruence, and the shifted tail obeys a first-order differential equation with linear forcing.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_two_window_square_reduction/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_two_window_square_reduction/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_two_window_square_reduction/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_two_window_square_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_two_window_square_reduction/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_two_window_square_reduction/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_two_window_square_reduction/verify.py",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_two_window_square_reduction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_secondary_gap_reduction",
+      "order": 1832
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1833
+    }
+  ],
+  "refutes": []
+}

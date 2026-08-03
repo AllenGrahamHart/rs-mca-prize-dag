@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 655,
+  "node": {
+    "id": "m720_small_gate_replay",
+    "title": "M720 local n=16 small-gate replay",
+    "status": "PROVED",
+    "statement": "The M720 full_census arithmetic reproduces the locally cheap n=16 gate facts: full_census(16,3,17)=352 trades, full_census(16,3,97)=16 trades, and full_census(16,4,17)=120 non-toral plus 6 toral.",
+    "attack_surface": "exact standalone replay of the n=16 gate rows using the same elementary-signature definitions as modal_midlarge_h7_20.py",
+    "falsifier": "a local exact replay of any n=16 gate row returning a different count"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1137
+    }
+  ],
+  "refutes": []
+}

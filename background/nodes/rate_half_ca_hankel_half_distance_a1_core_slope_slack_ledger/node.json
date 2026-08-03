@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 967,
+  "node": {
+    "id": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger",
+    "title": "Half-distance A=1 core-stratified slope-slack ledger",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the half-distance budget B=2^39+1, every live A=1 branch has fixed core s in {0,1,2}. After stripping that core, its degree-d residual apolar generator has exact separation rank e+1 and traces a rational normal curve. Euclidean division of the contracted root budget gives an exact core-dependent cap T_max and remainder eta. Every failure of T<=2^39+1 has slack ell=T_max-T, capacity C=ell*d+eta-Delta+O<=ell*d+eta, at least max(0,N-s-ell*d-eta) saturated residual rows, at least T-Delta completely split clean columns, and a residual evaluation matrix of exact rank e+1 and exact product-code weight. On ell=0, the residual norm has degree at most eta, complementary factors exist on all but eta rows, and component bidegrees occupy chambers of width less than two, with uniqueness for s=1,2. At e=2^37+1 the three cores leave only 3+4+4 slack strata, all with positive saturation. No stratum is excluded.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger/statement.md",
+      "background/nodes/rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger/proof.md",
+      "background/nodes/rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger/verify.py",
+      "background/nodes/rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger/audit.md",
+      "background/nodes/rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_minimal_index_budget",
+      "order": 1777
+    },
+    {
+      "from": "rate_half_ca_hankel_exceptional_root_charge",
+      "order": 1778
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1779
+    }
+  ],
+  "refutes": []
+}

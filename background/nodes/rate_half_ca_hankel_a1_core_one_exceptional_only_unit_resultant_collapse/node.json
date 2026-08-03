@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1027,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse",
+    "title": "A=1 core-one exceptional-only unit-resultant collapse",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For the corrected exceptional-only unit pair, Res_X(Q,B_1)=c_X q_bar collapses to the degree-(e-1) cofactor of [X^r]Q=E q_bar. If m=deg_X W, then Res_X(Q,W)=c_X^(-1) E^(m+n_X+1)q_bar^(m+n_X). Thus all affine intersections of Q with B_1 or W are supported on the printed infinity factors, with the W degree left honest when its top coefficient vanishes.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation",
+      "order": 1920
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1921
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1215,
+  "node": {
+    "id": "f3_h3_dsp8_nodal_target_divisor_pruning",
+    "title": "DSP8 nodal target-divisor pruning",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For nonnode nodal parameters a,b, positive root overlap is exactly the six-value Mobius orbit S(a). The target satisfies t-1=-(q(a)+q(b)+3q(a)q(b))/(q(a)^2q(b)^2), and its zero divisor is contained in that positive-overlap orbit. Thus a complete packet can canonicalize the orbit and remove every positive collision, all nine negative collisions, and the identity target before retaining richness and quotient weights. This is exact pruning and supplies no surviving-pair bound.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_nodal_target_divisor_pruning/statement.md",
+      "background/nodes/f3_h3_dsp8_nodal_target_divisor_pruning/proof.md",
+      "background/nodes/f3_h3_dsp8_nodal_target_divisor_pruning/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_nodal_target_divisor_pruning/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_nodal_target_divisor_pruning/audit.md",
+      "background/nodes/f3_h3_dsp8_nodal_target_divisor_pruning/result.md",
+      "background/nodes/f3_h3_dsp8_nodal_target_divisor_pruning/verify.py",
+      "background/nodes/f3_h3_dsp8_nodal_target_divisor_pruning/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_dsp8_nodal_trace_parameter_router",
+      "order": 2027
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2028
+    }
+  ],
+  "refutes": []
+}

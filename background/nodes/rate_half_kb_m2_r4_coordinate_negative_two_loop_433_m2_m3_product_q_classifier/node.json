@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1544,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_product_q_classifier",
+    "title": "KoalaBear m2 r4 coordinate negative two-loop 433 M2/M3 product-q classifier",
+    "status": "PROVED",
+    "closure": "shared reciprocal sextic with signed quadratic-linear ledgers for M2 and M3",
+    "statement": "Every actual M2 or M3 common-K packet lies on P6(M)=0, 4b^2+epsilon*A(M)b+4=0, and 8c+bD(M)+epsilon*E(M)=0, with epsilon=-1 for M2 and +1 for M3; conversely every guard-compatible root satisfies all product minors and the squared q weld. Each cell has at most 12 geometric candidates. Together with the dependency nodes, all nine 433 common-K cells are classified and the five surviving ledgers have aggregate cap 48.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_product_q_classifier/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_product_q_classifier/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_product_q_classifier/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_product_q_classifier/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_product_q_classifier/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_product_q_classifier/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_product_q_classifier/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_product_q_classifier/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_product_q_classifier/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_product_q_classifier/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_product_q_classifier/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
+      "order": 3554
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut",
+      "order": 3555
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier",
+      "order": 3556
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion",
+      "order": 3557
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3558
+    }
+  ],
+  "refutes": []
+}

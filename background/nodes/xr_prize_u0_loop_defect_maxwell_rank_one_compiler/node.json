@@ -1,0 +1,47 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1600,
+  "node": {
+    "id": "xr_prize_u0_loop_defect_maxwell_rank_one_compiler",
+    "title": "XR prize u=0 loop-defect Maxwell and rank-one compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a prize P-A u=0,v>=1 cell, deleting at most v exceptional slopes and puncturing the global roots gives a coherent GRS_a family with block size a+h+v and pair cap a+v. Every minimal dense core on t blocks has at least v(t-2)+e+1 independent trades. Its rank-one trades are exactly common-support records (S,Q,alpha), where a+1<=|S|<=a+v, deg Q<|S|-a, Q is nonzero on S, and alpha satisfies the two slope parity equations. This is a structural compiler, not an aggregate count.",
+    "refs": [
+      "background/nodes/xr_prize_u0_loop_defect_maxwell_rank_one_compiler/statement.md",
+      "background/nodes/xr_prize_u0_loop_defect_maxwell_rank_one_compiler/proof.md",
+      "background/nodes/xr_prize_u0_loop_defect_maxwell_rank_one_compiler/claim_contract.md",
+      "background/nodes/xr_prize_u0_loop_defect_maxwell_rank_one_compiler/dependency_subdag.md",
+      "background/nodes/xr_prize_u0_loop_defect_maxwell_rank_one_compiler/audit.md",
+      "background/nodes/xr_prize_u0_loop_defect_maxwell_rank_one_compiler/result.md",
+      "background/nodes/xr_prize_u0_loop_defect_maxwell_rank_one_compiler/verify.py",
+      "background/nodes/xr_prize_u0_loop_defect_maxwell_rank_one_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_rs_flat_nullity_basis_charge",
+      "order": 3771
+    },
+    {
+      "from": "xr_prize_flat_nullity_effective_core_floor",
+      "order": 3772
+    },
+    {
+      "from": "xr_prize_flat_nullity_nonpersistent_root_cap",
+      "order": 3773
+    },
+    {
+      "from": "xr_higher_rank_uniform_split_pencil_reduction",
+      "order": 3774
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3775
+    }
+  ],
+  "refutes": []
+}

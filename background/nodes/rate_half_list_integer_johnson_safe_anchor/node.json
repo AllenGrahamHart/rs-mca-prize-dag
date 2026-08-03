@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 938,
+  "node": {
+    "id": "rate_half_list_integer_johnson_safe_anchor",
+    "title": "Exact-integer Johnson safe anchor for rate-half ordinary lists",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For any Reed-Solomon code, B>=1, and agreement a, put ell=B+1 and ell*a=nd+r with 0<=r<n. If n*C(d,2)+rd>C(ell,2)(k-1), then the ordinary worst list at agreement a has size at most B. The first such a is an O(log n) bigint-computable safe anchor a_IJ. At n=2^41,k=2^40 and B*=floor(q/2^128), the actual rate-half crossing lies between k+2^34 and a_IJ; a_IJ=3n/4 for B*=1,2,3 and equals floor(sqrt(n(k-1)))+1 for B*>=332114441762. No predecessor-unsafety claim is made.",
+    "refs": [
+      "background/nodes/rate_half_list_integer_johnson_safe_anchor/statement.md",
+      "background/nodes/rate_half_list_integer_johnson_safe_anchor/proof.md",
+      "background/nodes/rate_half_list_integer_johnson_safe_anchor/audit.md",
+      "background/nodes/rate_half_list_integer_johnson_safe_anchor/claim_contract.md",
+      "background/nodes/rate_half_list_integer_johnson_safe_anchor/dependency_subdag.md",
+      "background/nodes/rate_half_list_integer_johnson_safe_anchor/result.md",
+      "background/nodes/rate_half_list_integer_johnson_safe_anchor/verify.py",
+      "background/nodes/rate_half_list_integer_johnson_safe_anchor/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_cyclic_rotated_prefix_floor",
+      "order": 1694
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1695
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 649,
+  "node": {
+    "id": "m720_h3_large_gate_replay",
+    "title": "M720 large h=3 gate replay",
+    "status": "PROVED",
+    "statement": "The M720 gate arithmetic reproduces the two large h=3 banked calibration facts: full_census(128,3,17921)=18 anchored cores and full_census(256,3,65537)=129 anchored cores.",
+    "attack_surface": "memory-controlled local exact replay of the two h=3 rows using compact sorted signature records",
+    "falsifier": "a large h=3 replay returning a different anchored-core count, or a corrected banked calibration table"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1131
+    }
+  ],
+  "refutes": []
+}

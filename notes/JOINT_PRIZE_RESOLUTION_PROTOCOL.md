@@ -50,7 +50,8 @@ Use these authorities in order:
 
 1. the actual Proximity Prize definitions and row contracts;
 2. proved source mathematics and exact certificates;
-3. `dag.json` for our current statuses and dependency graph;
+3. node-local `node.json` manifests for current statuses and dependencies,
+   with `dag.json` as their exact generated compatibility view;
 4. current upstream `agents.md` and its named live compiler for upstream
    workboard status;
 5. this protocol for procedure;
@@ -161,11 +162,15 @@ audit.md
 result.md
 lineage/provenance information
 primary verifier and an independent audit where computation is load-bearing
+`node.json` with the proposition and locally owned dependency edges
 ```
 
 Keep `req` and `ev` edges distinct. An `ev` edge becomes `req` only after an
 explicit transport theorem binds the supplier's field, row, object, scope,
 normalization, quantifier, unit, and owner chronology to the consumer.
+Consumers own incoming `req` and `alt` records; suppliers own outgoing
+`ev` and `ref` records. Never edit generated `dag.json` directly. Follow
+`notes/DAG_MANIFEST_CONVENTION.md` and compile it from local manifests.
 
 ## 5. Falsification and threshold relocation
 
@@ -316,11 +321,17 @@ A load-bearing computational result requires:
 8. explicit PASS, FAIL, and INCOMPLETE semantics;
 9. registration in the verifier manifest.
 
+Large row ledgers use `notes/SHARDED_RESULT_CONVENTION.md`: atomic JSONL
+shards, a hash-and-count manifest, streaming replay, and an explicit
+completeness bit. Individual rows remain evidence rather than DAG nodes.
+
 Use focused checks under RAMguard. Typical commands are:
 
 ```text
 tools/ramguard tiny -- python3 <node>/verify.py
 tools/ramguard tiny -- python3 <node>/verify_audit.py
+tools/ramguard tiny -- python3 tools/compile_dag.py --check
+tools/ramguard tiny -- python3 tools/compile_sectioned_documents.py --check
 tools/ramguard local -- python3 tools/verify_prize_dag.py
 tools/ramguard local -- python3 tools/verify_crosswalk.py
 tools/ramguard local -- python3 tools/verify_critical_harness_coverage.py
@@ -330,8 +341,8 @@ tools/ramguard local -- python3 tools/run_all_verifiers.py --refresh-manifest
 
 Run manifest refresh only when registered assets change. A bounded or partial
 full-suite run must be reported as such. Before committing, run
-`git diff --check`, inspect all status/edge changes, and ensure generated DAG
-artifacts are refreshed when required by repository policy.
+`git diff --check`, inspect all status/edge changes, and ensure generated
+DAG and sectioned-document compatibility artifacts are refreshed.
 
 ## 10. RAM and computation law
 

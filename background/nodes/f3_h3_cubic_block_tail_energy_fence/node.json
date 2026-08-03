@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 942,
+  "node": {
+    "id": "f3_h3_cubic_block_tail_energy_fence",
+    "title": "A cubic quotient-block tail alone cannot pay C36' energy",
+    "status": "PROVED",
+    "closure": "fence",
+    "refs": [
+      "background/nodes/f3_h3_cubic_block_tail_energy_fence/statement.md",
+      "background/nodes/f3_h3_cubic_block_tail_energy_fence/proof.md",
+      "background/nodes/f3_h3_cubic_block_tail_energy_fence/audit.md",
+      "background/nodes/f3_h3_cubic_block_tail_energy_fence/claim_contract.md",
+      "background/nodes/f3_h3_cubic_block_tail_energy_fence/dependency_subdag.md",
+      "background/nodes/f3_h3_cubic_block_tail_energy_fence/result.md",
+      "background/nodes/f3_h3_cubic_block_tail_energy_fence/verify.py"
+    ],
+    "statement": "For every official order n=2^s with 22<=s<=41, an explicit abstract quotient-block profile satisfies the exact mass sum_B m_B(m_B-1)=(n-1)(n-2) and the cubic tail #{B:m_B>=tau}<=4n^2/tau^3, yet its induced clean energy (n-1)^2+sum_B m_B(m_B-1)^2 exceeds (145/4)(n-1)^2. Hence those two marginal inputs alone cannot prove the clean C36' energy premise. The profiles are not asserted to be subgroup-realizable; this is a route fence, not a counterexample to C36'."
+  },
+  "requires": [
+    {
+      "from": "f3_h3_quotient_block_identity",
+      "order": 1689
+    },
+    {
+      "from": "f3_h3_identity_deficit_energy_close",
+      "order": 1690
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1691
+    },
+    {
+      "to": "f3_h3_three_to_one_c36",
+      "order": 1692
+    }
+  ],
+  "refutes": []
+}

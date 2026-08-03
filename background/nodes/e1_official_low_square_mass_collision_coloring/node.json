@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 24,
+  "node": {
+    "id": "e1_official_low_square_mass_collision_coloring",
+    "title": "Official-row low-square-mass E1 collision-graph coloring",
+    "status": "TARGET",
+    "refs": [
+      "background/nodes/e1_official_low_square_mass_collision_coloring/statement.md",
+      "background/nodes/e1_official_low_square_mass_collision_coloring/claim_contract.md",
+      "background/nodes/e1_official_low_square_mass_collision_coloring/dependency_subdag.md",
+      "background/nodes/e1_official_low_square_mass_collision_coloring/attack.md",
+      "background/nodes/e1_official_low_square_mass_collision_coloring/frontier.md"
+    ],
+    "statement": "For every pair-feasible prime-field row at the six named RowC/prize envelopes, prove that the graph of same-reduced-E1 class pairs with S<=2ell has chromatic number at most its exact row cap: 3268165922105543787, 210, 18885148505476, 54730211038721500, 3, or 316259390691 respectively. The binding prize rate-1/8 row asks for chi<=3 on N=256,ell=33,S<=66. By the proved Plotkin compiler this supplies more than B* distinct values without proving injectivity or the separate P allowance.",
+    "attack_surface": "construct a three-color invariant or degree-two theorem on the binding row; otherwise exhibit an exact four-chromatic low-mass collision subgraph",
+    "falsifier": "an admissible row with certified chromatic number above its printed cap, including a same-fiber low-mass K4 on the binding row"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4480
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1209,
+  "node": {
+    "id": "f3_h3_dsp8_primitive_shift_pair_adapter",
+    "title": "DSP8 primitive cubic shift-pair adapter",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every ordered DSP8 disjoint edge gives a decorated pair of monic H-split cubics A,B with A-B=t(s-r)X and A(0)=B(0)=-rs. This is a reduced degree-three/depth-one shift pair. Since n is dyadic, gcd(n,3)=1 makes every such pair coefficient-primitive. The converse reconstruction is exact, and the orientation ledger is J_25^c=4K_25^c=8D_6,25^c. The former sufficient target becomes 10K_25^0+17K_25^A<=223n^2; the later antipodal quotient-mass payment weakens the live target without changing this adapter.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_primitive_shift_pair_adapter/statement.md",
+      "background/nodes/f3_h3_dsp8_primitive_shift_pair_adapter/proof.md",
+      "background/nodes/f3_h3_dsp8_primitive_shift_pair_adapter/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_primitive_shift_pair_adapter/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_primitive_shift_pair_adapter/audit.md",
+      "background/nodes/f3_h3_dsp8_primitive_shift_pair_adapter/result.md",
+      "background/nodes/f3_h3_dsp8_primitive_shift_pair_adapter/verify.py",
+      "background/nodes/f3_h3_dsp8_primitive_shift_pair_adapter/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_disjoint_distance_six_split_pencil_router",
+      "order": 2021
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2495
+    }
+  ],
+  "refutes": []
+}

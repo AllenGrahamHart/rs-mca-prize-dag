@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1127,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_boundary_crt_reconstruction",
+    "title": "Rate-half distance-three quartic boundary CRT reconstruction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the exact distance-three design, the pair labels define delta=xi_i modulo D_i in F[X]/(A), and the first-jet sum sum_i D_iN_iL_i is divisible by z-delta. Multiplication of its quotient by the explicit smooth-domain derivative factor reconstructs the global quartic Omega coefficientwise modulo A. A valid packet forces the generic degree-<2e remainder to collapse to X-degree at most four; within the active-row design this collapse is equivalent to the global quartic weld. No projective-line or splitting claim is made.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_boundary_crt_reconstruction/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_boundary_crt_reconstruction/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_boundary_crt_reconstruction/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_boundary_crt_reconstruction/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_boundary_crt_reconstruction/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_boundary_crt_reconstruction/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quartic_boundary_crt_reconstruction/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_cleared_lift_quartic_router",
+      "order": 2273
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_sparse_subgroup_norm_router",
+      "order": 2274
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2275
+    }
+  ],
+  "refutes": []
+}

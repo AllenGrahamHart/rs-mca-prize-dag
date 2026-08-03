@@ -1,0 +1,48 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 525,
+  "node": {
+    "id": "l1_fixed_source_quotient_partition_anchor_census",
+    "title": "L1 fixed-source quotient-partition anchor census",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Fix one maximal sunflower source with M_src petals of size ell. A monic degree-ell quotient polynomial carrying one whole source petal T_i satisfies P-a_i=L_(T_i), so two such polynomials anchored by the same petal differ only by a constant and induce the same level-fiber partition. Least-petal ownership gives at most M_src anchored partition classes. Each has at most n/ell complete fibers and hence at most 3^(n/ell) core/petal/unused structural keys. At ell>=c_0 n/log_2 n the aggregate M_src 3^(n/ell) is polynomial. The anchor hypothesis is not automatic: dense support does not make a whole petal one quotient fiber. This census alone does not count label-sensitive coefficients; the downstream anchored triple-polarity closure pays all numerator/Forney multiplicity at fixed layout, defect, and petal polarity. Smaller-fiber refinements, growing polarity, arbitrary locators, and general anchor supply remain open.",
+    "refs": [
+      "background/nodes/l1_fixed_source_quotient_partition_anchor_census/statement.md",
+      "background/nodes/l1_fixed_source_quotient_partition_anchor_census/proof.md",
+      "background/nodes/l1_fixed_source_quotient_partition_anchor_census/claim_contract.md",
+      "background/nodes/l1_fixed_source_quotient_partition_anchor_census/dependency_subdag.md",
+      "background/nodes/l1_fixed_source_quotient_partition_anchor_census/audit.md",
+      "background/nodes/l1_fixed_source_quotient_partition_anchor_census/lineage.md",
+      "background/nodes/l1_fixed_source_quotient_partition_anchor_census/result.md",
+      "background/nodes/l1_fixed_source_quotient_partition_anchor_census/verify.py",
+      "background/nodes/l1_fixed_source_quotient_partition_anchor_census/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_general_first_layout_domination",
+      "order": 2849
+    },
+    {
+      "from": "l1_quotient_chart_bipolar_entropy_closure",
+      "order": 2850
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2851
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2852
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2853
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1057,
+  "node": {
+    "id": "f3_h3_official_order_template_survivor",
+    "title": "Official-order template generator + survivor bound (CR-001)",
+    "status": "TARGET",
+    "refs": [
+      "background/nodes/f3_h3_official_order_template_survivor/statement.md"
+    ],
+    "statement": "An efficient official-order structural template generator and survivor bound for any one complete row of the joint-star/depth and single-quotient compilers. The twelve exact alternatives occupy every integer corner (P,R)>=(25,12),(26,11),...,(35,2),(36,1), each with its own class-sensitive disjoint-six star, quotient depth, coupling packet, and moment allowance. The preferred first symbolic campaign is the coordinate-minimal (36,1) row: degree-eight/six pure product stars, one quotient lift, no quotient spoke, and Dbar_17^0+(29/22)Dbar_17^A<=(29/153)B_par (uniformly, Dbar_17^0+(29/22)Dbar_17^A<=(234697/48960)n^2). Its coupling may use the canonical star center and may vanish, because the center-independent product-star ideal remains nonzero. Its exact candidate-prime support is the cutoff-35 scalar annihilator s_(n,35)^X, which divides s_(n,18)^X. This support decomposes into 3(n-s-1) Galois-orbit annihilators; at n=8192 there are 24,534 blocks of degree at most 4,096. Every block has a unique formula-generated (j,sign,w) ID and an explicit cyclotomic-resultant or normalized-reciprocal polynomial, so no quotient-orbit enumeration is needed; reciprocal support is not identified. Exact scalar elimination may be replaced by the complete three-resultant gcd superset: 73,602 ordinary resultants at n=8192, followed by full factorization and exact false-positive filtering. More sharply, the coefficient content of one cutoff-35 Taylor resultant per block has exactly the scalar annihilator's odd prime radical, with maximum auxiliary degree 143,360. The incomparable (35,2) row uses two lifts and one spoke with the older smaller normalized allowance; the established (33,4) fallback uses four lifts and Mbar_(3),6,33^0+(53/42)Mbar_(3),6,33^A<=(583/272)n^2. Rows cannot be mixed. Compute side = CR-001; the proved infeasibility fence (>=5.3e8 raw orbits at n=8192) forbids brute force. FALSIFIER: a complete survivor census exceeding its declared row's allowance. Minted 2026-07-19 (alt leaf, gate=any)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1986
+    }
+  ],
+  "refutes": []
+}

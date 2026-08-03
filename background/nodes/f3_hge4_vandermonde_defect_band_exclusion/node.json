@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1294,
+  "node": {
+    "id": "f3_hge4_vandermonde_defect_band_exclusion",
+    "title": "HGE4 Vandermonde-defect band exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a primitive exact-level pair of width h=m/4-d, put R=log m and x=4(d+1)R/m. Under x<=1, the cubic Taylor norm ceiling is Y_3=4((d+1)R-d)-8(d+1)^2R^2/m+(32/3)(d+1)^3R^3/m^2, while the consecutive even moments force every nonzero defect to occupy at least floor((h-1)/2)+2 coordinates. If Y_3 is at most that rank floor, the pair is antipodal-swap; the proved swap norm then excludes it. At m=2^41 this completely deletes 1<=d<=2,677,220,820. The theorem does not count the remaining lower-quarter pairs or close HGE4.",
+    "refs": [
+      "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/statement.md",
+      "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/proof.md",
+      "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/claim_contract.md",
+      "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/dependency_subdag.md",
+      "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/audit.md",
+      "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/result.md",
+      "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/verify.py",
+      "background/nodes/f3_hge4_vandermonde_defect_band_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_cyclotomic_haar_near_quarter_swap_router",
+      "order": 2745
+    },
+    {
+      "from": "f3_hge4_swap_norm_haar_band_exclusion",
+      "order": 2746
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2747
+    }
+  ],
+  "refutes": []
+}

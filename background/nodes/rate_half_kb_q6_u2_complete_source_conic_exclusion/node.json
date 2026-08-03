@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1333,
+  "node": {
+    "id": "rate_half_kb_q6_u2_complete_source_conic_exclusion",
+    "title": "KoalaBear Q6 u2 complete-source conic exclusion",
+    "status": "PROVED",
+    "closure": "divisor saturation plus exact orbit-profile exclusion",
+    "statement": "In the proved KoalaBear equality-wall source reduction, every actual irreducible Q=6,s=6,u=2 conic-image component is impossible. Twelve nonzero source quartics divide the degree-24 complete source form B; the degree-two source pencil forces their divisor sum to equal 2 div(B). Conic invariance then excludes the reciprocal, D4, and D5 profiles. This closes only the conic structural branch: it supplies no owner, distinct-slope count, cap 68, row payment, or endpoint movement.",
+    "refs": [
+      "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/statement.md",
+      "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/proof.md",
+      "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/audit.md",
+      "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/result.md",
+      "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/verify.py",
+      "background/nodes/rate_half_kb_q6_u2_complete_source_conic_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2984
+    }
+  ],
+  "refutes": []
+}

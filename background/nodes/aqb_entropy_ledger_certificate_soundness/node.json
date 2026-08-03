@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 584,
+  "node": {
+    "id": "aqb_entropy_ledger_certificate_soundness",
+    "title": "AQB entropy-ledger certificate soundness",
+    "status": "PROVED",
+    "statement": "If an AQB ledger supplies certified lower bounds for shared-family entropy and certified upper bounds for all charged box, overlap, multiplicity, and quotient/fiber normalization costs, and the resulting lower bound is at least 429,645,547 bits, then aqb_shared_entropy_gain holds for that family.",
+    "attack_surface": "interval-arithmetic soundness for entropy gain ledgers",
+    "falsifier": "a ledger whose certified lower-minus-upper interval clears the threshold while the true net gain is below it"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1103
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1319,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap",
+    "title": "Budget-three fiber-two c=2 selected-antipodal affine intersection has an official Stepanov cap",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In every official prime or quadratic field chamber, the selected-antipodal affine subgroup intersection has at most 355106851 candidate values of y. The proof uses the exact characteristic budget rather than the stronger p>=N^2 convenience hypothesis. This is a candidate cap, not an emptiness result or authorization for exhaustive search.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_affine_stepanov_cap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_selected_antipodal_infinity_affine_intersection_compiler",
+      "order": 2816
+    },
+    {
+      "from": "f3_h2_stepanov_inhouse",
+      "order": 2817
+    },
+    {
+      "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+      "order": 2818
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2819
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 576,
+  "node": {
+    "id": "aqb_family_certificate_semantics",
+    "title": "AQB averaged-family certificate semantics",
+    "status": "PROVED",
+    "statement": "If an AQB c=2 certificate specifies a finite nonempty family at sigma*, shared quotient/fiber data, reusable box-charge data, and a transfer map from each member to its list witness, and the certificate predicates verify those fields, then aqb_c2_average_family holds.",
+    "attack_surface": "definition-checking soundness for finite averaged-family certificates",
+    "falsifier": "a verifying AQB averaged-family certificate whose family is empty, not in the c=2 quotient-box geometry, or lacks the asserted shared quotient/transfer structure"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1096
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 277,
+  "node": {
+    "id": "second_pin_or_wall",
+    "title": "Second pin (Row A) or named wall",
+    "status": "TARGET",
+    "gate": "any",
+    "refs": [
+      "wp_detail/wp3_1_wp3_3_rows_and_second_pin.md#2"
+    ],
+    "notes": "MAJOR (#204): universal Hankel-free exact numerator LD_sw(RS[F,D,256],426) = 87 for EVERY field and EVERY 512-point domain, paired with the exact-budget prime p = 22275*2^120+1 giving B* = 87 exactly \u2014 a second pin candidate AT THE WINDOW EDGE A=426, not in the tangent range. The P3 slate delivering; unsafe-side pairing pending."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "mca_grand",
+      "order": 123
+    }
+  ],
+  "refutes": []
+}

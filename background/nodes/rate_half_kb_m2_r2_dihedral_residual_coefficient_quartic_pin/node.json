@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1563,
+  "node": {
+    "id": "rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin",
+    "title": "KoalaBear m2 r2 residual coefficient-quartic pin",
+    "status": "PROVED",
+    "closure": "symmetric sibling correspondence, exact quadratic pullback substitution, and irreducible degree-four equality",
+    "statement": "For either surviving full-V4 dihedral profile, normalize the endpoint quadratic as h(t)=t^2 and write k(sigma,pi)=0 for the symmetric bidegree-(2,2) sibling correspondence between the two Y values above one Z value. In unordered source-root coordinates S=t+s and P=ts, the residual birational coefficient image is exactly the canonical plane quartic k(S^2-2P,P^2)=0. This pins the realization equation but does not construct or delete n=3 or n=6.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/statement.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/proof.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/audit.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/result.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/frontier.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/verify.py",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity",
+      "order": 3647
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3648
+    }
+  ],
+  "refutes": []
+}

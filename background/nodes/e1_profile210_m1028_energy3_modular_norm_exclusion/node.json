@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 160,
+  "node": {
+    "id": "e1_profile210_m1028_energy3_modular_norm_exclusion",
+    "title": "E1 profile-(2,10) cofactor-1028 energy-three exclusion",
+    "status": "PROVED",
+    "closure": "complete finite-field type census and exact CRT resultants",
+    "refs": [
+      "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/statement.md",
+      "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/proof.md",
+      "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/claim_contract.md",
+      "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/dependency_subdag.md",
+      "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/audit.md",
+      "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/result.md",
+      "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/frontier.md",
+      "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/source_pin.json",
+      "background/nodes/e1_profile210_m1028_energy3_modular_norm_exclusion/verify.py",
+      "experiments/prize_resolution/e1_profile210_m1028_e3_modular_norm.py",
+      "experiments/prize_resolution/e1_profile210_m1028_e3_modular_norm_result.json"
+    ],
+    "statement": "No binding-row profile-(2,10,S=18) collision with cofactor 1028 has autocorrelation energy three. The complete local-multiplicity-four and mod-257 screen leaves 329 signed Galois types; exact CRT resultants put every Norm/1028 quotient above the official field ceiling. In combination with the other energy leaves, only energy four remains.",
+    "notes": "EXACT ENERGY-THREE EXCLUSION 2026-07-29: nine trial-division-certified 31-bit primes reconstruct each norm uniquely below the AM-GM ceiling. The engine reproduces five independent Bareiss norms, and the 329-row ledger digest is d462adc241981e2e3aa9747a5ba582808d8ebf505e2df6a86fdad2df52a7d3cc. Energy four and all 128 prime ideals above 257 remain; no E1 close or Prize movement."
+  },
+  "requires": [
+    {
+      "from": "e1_profile210_split_prime_ideal_router",
+      "order": 4562
+    },
+    {
+      "from": "e1_s18_m1028_global_energy_window",
+      "order": 4563
+    },
+    {
+      "from": "e1_profile210_m1028_energy2_log_exclusion",
+      "order": 4564
+    },
+    {
+      "from": "e1_profile210_m1028_energy56_log_exclusion",
+      "order": 4565
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4566
+    }
+  ],
+  "refutes": []
+}

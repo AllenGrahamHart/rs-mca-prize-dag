@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1374,
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
+    "title": "KoalaBear c2 (1,1,2) aligned positive unramified moving-mixed full-quotient exclusion",
+    "status": "PROVED",
+    "closure": "the aligned positive unramified moving-moving mixed allocation has q-slice survivors but none satisfy the full colored quotient identities over the deployed field",
+    "statement": "Normalize J_0={2,1/2,b,1/b}, q(T)=T^2+tT+p, and trace=b+b^-1 in the aligned positive unramified moving-moving mixed allocation. The projection support consists of open factors, the forbidden linear component 4p+5t+4, one irreducible degree-12 component, and twelve finite off-common intersections. The off-common intersections give six boundary endpoints. Exact replay on the degree-12 component leaves four q-slice points over degrees 3,3,7,7. The degree-7 points do not embed in F_(p^6); both orientations above each degree-3 trace reproduce the q-slice but fail both full colored quotient norm identities. Hence the moving-mixed allocation is excluded over the deployed field, while the q-slice itself is not empty and three fixed-moving cells remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/README.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/verify_audit.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/verify_exact.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/verify_exhaustive.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion/verify_survivors.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+      "order": 4753
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+      "order": 4754
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+      "order": 4755
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4756
+    }
+  ],
+  "refutes": []
+}

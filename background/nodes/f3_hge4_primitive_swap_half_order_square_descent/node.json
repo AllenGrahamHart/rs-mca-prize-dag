@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1244,
+  "node": {
+    "id": "f3_hge4_primitive_swap_half_order_square_descent",
+    "title": "HGE4 primitive swap half-order square descent",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For odd h=2d+1, squaring the roots bijects primitive antipodal-swap near-square unions with h-subsets Y of mu_(n/2) having trivial scaling stabilizer and locator L_Y satisfying (L_Y+c_Y)/Z=T_Y^2, where c_Y=prod(Y). Equivalently L_Y=ZT_Y^2-c_Y divides Z^(n/2)-1. Scaling orbits correspond through mu_n/{+/-1}=mu_(n/2), so V_h^swap=W_h and A_h^swap=hW_h. An anchored generator performs one deterministic perfect-square test on each of binom(n/2-1,h-1) supports and removes all 2^(h-1) sign choices. No survivor bound or free-union bound is claimed.",
+    "refs": [
+      "background/nodes/f3_hge4_primitive_swap_half_order_square_descent/statement.md",
+      "background/nodes/f3_hge4_primitive_swap_half_order_square_descent/proof.md",
+      "background/nodes/f3_hge4_primitive_swap_half_order_square_descent/claim_contract.md",
+      "background/nodes/f3_hge4_primitive_swap_half_order_square_descent/dependency_subdag.md",
+      "background/nodes/f3_hge4_primitive_swap_half_order_square_descent/audit.md",
+      "background/nodes/f3_hge4_primitive_swap_half_order_square_descent/result.md",
+      "background/nodes/f3_hge4_primitive_swap_half_order_square_descent/verify.py",
+      "background/nodes/f3_hge4_primitive_swap_half_order_square_descent/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_primitive_swap_odd_moment_router",
+      "order": 2589
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2590
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 593,
+  "node": {
+    "id": "xr_profile_minor_record_inventory_soundness",
+    "title": "XR profile minor record-inventory soundness",
+    "status": "PROVED",
+    "statement": "If an inventory covers every budget-meeting unpaid non-boundary light-triangle profile and assigns each profile an admissible record of an accepted nonzero-minor type, then xr_profile_minor_certificate_payload holds.",
+    "attack_surface": "formal coverage and accepted-record dispatch for XR minor certificate inventories",
+    "falsifier": "a complete inventory of accepted nonzero-minor records while some required XR profile lacks a valid payload record"
+  },
+  "requires": [
+    {
+      "from": "xr_triangular_minor_certificate_soundness",
+      "order": 892
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1112
+    }
+  ],
+  "refutes": []
+}

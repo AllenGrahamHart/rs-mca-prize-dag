@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 291,
+  "node": {
+    "id": "spi_genericity",
+    "title": "Post-strip D_j^aper carries no subgroup symmetry (ES hypothesis available)",
+    "status": "PROVABLE",
+    "refs": [
+      "proof_sketch/s3b_ii_strip_periodic.md#4"
+    ],
+    "notes": "IN FLIGHT: #199"
+  },
+  "requires": [
+    {
+      "from": "periodic_strata",
+      "order": 143
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

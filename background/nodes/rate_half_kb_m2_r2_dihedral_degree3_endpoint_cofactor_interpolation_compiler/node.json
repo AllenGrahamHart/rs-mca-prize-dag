@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1569,
+  "node": {
+    "id": "rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler",
+    "title": "KoalaBear m2 r2 degree-three endpoint-cofactor interpolation compiler",
+    "status": "PROVED",
+    "closure": "exact Lagrange cofactor divisibility criterion plus one admissible split-field locator-packet deletion",
+    "statement": "For the sole residual full-V4 n=3 component, divisibility of the actual endpoint form by the bidegree-(2,4) component is equivalent to a full-support kernel in an explicit 38-by-12 stacked source-cofactor matrix. A pinned F_47 specialization satisfies the exact s=6 locator ownership, two-regular pole graph, and four-edge component-color conditions but has a nonzero rank-12 minor, so that abstract packet is not an endpoint component. Universal exclusion of all admissible ownerships remains open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/statement.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/proof.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/audit.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/result.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/frontier.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/verify.py",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
+      "order": 3661
+    },
+    {
+      "from": "rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence",
+      "order": 3662
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3663
+    }
+  ],
+  "refutes": []
+}

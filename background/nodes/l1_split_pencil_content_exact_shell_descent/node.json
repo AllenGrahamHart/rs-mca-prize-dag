@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 553,
+  "node": {
+    "id": "l1_split_pencil_content_exact_shell_descent",
+    "title": "L1 split-pencil content is exact-shell excess",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For any basis g1,g2 of the received-word interpolation module, let (W,N)=A g1+B g2 have W a monic squarefree complement locator of degree n-m and N=Wc with deg c<k. The monic coefficient content G=gcd(A,B) is basis invariant, divides W, and satisfies Agr_H(U,c)=(H\\Z(W)) disjoint union Z(G), so agr(U,c)=m+deg G. Thus level-m exactness is equivalent to gcd(A,B)=1, while division by G uniquely sends every nonprimitive raw member to the same codeword at its true higher shell. The exact BC residual is precisely the primitive coprime coefficient-pair split-pencil census; no bound on that census is asserted.",
+    "refs": [
+      "background/nodes/l1_split_pencil_content_exact_shell_descent/statement.md",
+      "background/nodes/l1_split_pencil_content_exact_shell_descent/proof.md",
+      "background/nodes/l1_split_pencil_content_exact_shell_descent/claim_contract.md",
+      "background/nodes/l1_split_pencil_content_exact_shell_descent/dependency_subdag.md",
+      "background/nodes/l1_split_pencil_content_exact_shell_descent/audit.md",
+      "background/nodes/l1_split_pencil_content_exact_shell_descent/lineage.md",
+      "background/nodes/l1_split_pencil_content_exact_shell_descent/upstream_crosswalk.md",
+      "background/nodes/l1_split_pencil_content_exact_shell_descent/verify.py",
+      "background/nodes/l1_split_pencil_content_exact_shell_descent/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_exact_shell_balanced_shifted_lattice_reduction",
+      "order": 2940
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2942
+    }
+  ],
+  "refutes": []
+}

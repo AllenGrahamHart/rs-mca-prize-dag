@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1604,
+  "node": {
+    "id": "xr_prize_arbitrary_w_trade_circuit_segre_router",
+    "title": "XR prize arbitrary-W trade-circuit Segre router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The row-scaling circuit bound r+2<=ell<=2r+1 is coefficient-algebraic and applies to arbitrary flat-nullity W. Every rank-two trade decomposes into rank-one three-block circuits routed to the flat/basis owner and genuine rank-two circuits on four or five blocks. Their coefficient columns have the same Mobius/Plucker and full five-point Segre atlases as in the uniform theorem. Support realization and aggregate ownership remain open.",
+    "refs": [
+      "background/nodes/xr_prize_arbitrary_w_trade_circuit_segre_router/statement.md",
+      "background/nodes/xr_prize_arbitrary_w_trade_circuit_segre_router/proof.md",
+      "background/nodes/xr_prize_arbitrary_w_trade_circuit_segre_router/claim_contract.md",
+      "background/nodes/xr_prize_arbitrary_w_trade_circuit_segre_router/dependency_subdag.md",
+      "background/nodes/xr_prize_arbitrary_w_trade_circuit_segre_router/audit.md",
+      "background/nodes/xr_prize_arbitrary_w_trade_circuit_segre_router/result.md",
+      "background/nodes/xr_prize_arbitrary_w_trade_circuit_segre_router/verify.py",
+      "background/nodes/xr_prize_arbitrary_w_trade_circuit_segre_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_trade_circuit_arity_segre_atlas",
+      "order": 3789
+    },
+    {
+      "from": "xr_prize_flat_nullity_maxwell_trade_space_compiler",
+      "order": 3790
+    },
+    {
+      "from": "xr_prize_rank_one_trade_flat_basis_owner",
+      "order": 3791
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3792
+    }
+  ],
+  "refutes": []
+}

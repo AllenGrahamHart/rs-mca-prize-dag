@@ -1,0 +1,63 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1102,
+  "node": {
+    "id": "f3_h3_dsp8_accident_depth_compiler",
+    "title": "DSP8 excess quotient-depth compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Paying L quotient layers and product excess through E reduces C36' to rho_L=(R-L)_+. On the Pareto diagonal L+E=17, exclusion of any rectangle (P,R)>=(19,18),(21,16),(25,12),(29,8),(33,4) closes C36'. The selected P>=33,R>=4 endpoint is Mbar_(3),6,33^0+(53/42)Mbar_(3),6,33^A<=(583/272)n^2; every survivor carries a degree-seven/five pure distance-six star and a four-lift quotient packet, odd-locally expressible as one nonzero coupling anchor plus a three-spoke quotient-collision star.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_accident_depth_compiler/statement.md",
+      "background/nodes/f3_h3_dsp8_accident_depth_compiler/proof.md",
+      "background/nodes/f3_h3_dsp8_accident_depth_compiler/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_accident_depth_compiler/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_accident_depth_compiler/audit.md",
+      "background/nodes/f3_h3_dsp8_accident_depth_compiler/result.md",
+      "background/nodes/f3_h3_dsp8_accident_depth_compiler/verify.py",
+      "background/nodes/f3_h3_dsp8_accident_depth_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_cutoff18_double_accident_reduction",
+      "order": 2517
+    },
+    {
+      "from": "f3_h3_antipodal_tail_distance_six_split",
+      "order": 2518
+    },
+    {
+      "from": "f3_h3_dsp8_global_overlap_cover_payment",
+      "order": 2519
+    },
+    {
+      "from": "f3_h3_dsp8_primitive_shift_pair_adapter",
+      "order": 2520
+    },
+    {
+      "from": "f3_h3_dsp8_disjoint_six_multiplicity_gate",
+      "order": 2521
+    },
+    {
+      "from": "f3_h3_double_accident_nonzero_coupling_ideal_router",
+      "order": 2522
+    },
+    {
+      "from": "f3_h3_double_accident_coupling_batch_odd_saturation",
+      "order": 2523
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2524
+    },
+    {
+      "to": "f3_h3_official_order_template_survivor",
+      "order": 2525
+    }
+  ],
+  "refutes": []
+}

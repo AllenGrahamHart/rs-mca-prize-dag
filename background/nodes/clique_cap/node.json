@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 261,
+  "node": {
+    "id": "clique_cap",
+    "title": "K_{m,m} clique cap n >= k + m^2(a-k) (x1)",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s7_list_side.md#3"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

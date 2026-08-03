@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 706,
+  "node": {
+    "id": "f5_toy_window_theorem",
+    "status": "PROVED",
+    "statement": "F5 TOY-WINDOW THEOREM (2026-07-07, F5 program P4; proof + verification in nodes/xr_smallcore_spread_count/notes/F5_SKELETON.md): at the k=2, t=2 scaled window, every live family (distinct slopes, one support per slope, pairwise cores <= A-2, exact+valid alignments) has N = O(n^3) < 16n^3. Proof: Pro's pairwise-core rank bound rank(R) >= sigma*N(A-1)/(A*C(n-1,A-2)) (point-degree double count + greedy matching + disjoint-support rank additivity; logic verified, q=97 certificate replayed, 300-family stress at q=193) composed with the P0 containment rank <= 2(n-k). Scope: catch #10 \u2014 the bound is VACUOUS at official A = k+t with k = rho*n; the official scale needs the coding structure (see f5_sunflower_pencil_lemma, f5_near_pencil_reduction)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1207
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1103,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate",
+    "title": "Budget-three antipodal pure harmonic binary-quartic norm gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a split squarefree deleted quartic in characteristic different from two and three, the product of the classical cubic binary-quartic invariant over the eight square-root sign classes is a symmetric degree-24 support polynomial. It vanishes exactly when some lift is harmonic and is evaluated compactly by three quadratic norms.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_harmonic_binary_quartic_norm_gate/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_pure_harmonic_fermat_router",
+      "order": 2011
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2012
+    }
+  ],
+  "refutes": []
+}

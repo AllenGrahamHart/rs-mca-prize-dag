@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1278,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router",
+    "title": "Budget-three fiber-two c=2 official torsion absorbs field-side gates",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the maximal official c=2 row, the terminal scalar torsion equations force all normalized denominator roots into mu_(2^40). Since 2^41 divides q-1, the complementary quadratic therefore splits over F_q and every root is a square, so splitting and common square class are not independent search conditions. The field-degree collapse then leaves either prime-field descent or reciprocal Frobenius, with E_j^p=E_(4-j)/E_4 in the unitary case. This does not identify conjugate packets or force parity.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+      "order": 2687
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_normalized_pair_torsion_compiler",
+      "order": 2688
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2689
+    }
+  ],
+  "refutes": []
+}

@@ -13,8 +13,9 @@ technique_dossier.md, completeness_critic.md); every number below survived
 its adversarial fact-check. Deliberately DATE-FREE: sequencing is by GATES
 (events and conditions), never by calendar. The dated snapshot is archival;
 this file is the guide of record and is refreshed at gate events, not on a
-clock. This document is not itself a proof and changes no node status;
-`dag.json` remains the single source of truth.
+clock. This document is not itself a proof and changes no node status.
+Node-local `node.json` manifests are the editable graph source;
+`dag.json` is their exact generated compatibility view.
 
 Mission: fully resolve both Proximity Prize grand challenges (grand list +
 grand MCA), or failing that, land the strongest honest partial posture the
@@ -87,7 +88,6 @@ rate_half_band_closure); #1143 export fallback (coordinator packages by
 end 2026-08-02, surfaced to the maintainer first).
 
 ---
-
 ## 1. The two theses (why the plan has this shape)
 
 **Engineered rows.** Official rows carry v_2(q-1) >= 41 (or a lane norm
@@ -664,7 +664,7 @@ identifications without a machine-verified chain.
 
 ## 4. Board anatomy
 
-- **Counts** (refreshed from `dag.json`, the single source of truth; pinned by
+- **Counts** (refreshed from the generated `dag.json` manifest view; pinned by
   `tools/verify_orbit_census.py`): critical surface 179 PROVED / 38 CONDITIONAL /
   25 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
   grand challenges {`mca_grand`, `list_grand`} = **242** nodes. *(Q0, 2026-07-26:
@@ -699,7 +699,6 @@ identifications without a machine-verified chain.
   one-third of any phase's effort; any demotion event freezes further dli
   spend for one full phase while the B-WEAK-direct re-pose is drafted from
   surviving mechanism data.
-
 ## 5. Risk register (pre-registered triggers -> consequences; all live)
 
 | Trigger | Fires when | Consequence / fallback |
@@ -15850,11 +15849,303 @@ nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
                           MCA, or Prize closure
 ```
 
+### Work-cycle route decision: remaining positive 433-1b common loci
+
+```text
+closed role cells:        [0], [1,2], [3,6], [14]
+remaining role orbits:    [4,7], [5,8], [9,10], [11], [12,13]
+representatives tested:   4,5,9,11,12
+common chart ledger:      5 cells x 4 source signs x 6 product-cofactor charts
+completed rows:           116/120; every completed ideal nonunit, dimension 1
+initial timeouts:         four cell-4/chart-2 sign rows; subsequently superseded
+                          by the complete cell-4 compact 24-chart theorem
+route conclusion:         no remaining role orbit is deleted by common Vieta
+                          equations alone; use compact/outside constraints
+Modal app:                ap-q4OYuLwjY80zX5YVRBZm29
+cost posture:             bounded route census, below the predeclared $1 cap
+nonclaim:                 no outside case or remaining orbit excluded
+```
+
+### Work-cycle theorem: positive 433-1b cell-4 four-basis tower
+
+```text
+cell/orbit/field:         cell 4 representing [4,7], F_2130706433
+source role shape:        AB | (LA,BC+),(AC,BC-)
+compact pivot:            guarded AB sum row
+coverage:                 4 source signs x 6 product-cofactor charts = 24
+common result:            dimension 1, compact basis 16, lex basis 9
+pivot boundary:           unit ideal in all 24 charts
+localized generators:     F_epsilon(t,r), G_epsilon(b;t,r), H_epsilon(c,b,t,r)
+base relation:            degree_t 2, degree_r 3, 10 terms
+base discriminant:        square-free degree 6; normalized genus 2
+second relation:          palindromic quadratic in b, 18 terms
+recovery relation:        linear in c, 10 terms
+four-basis certificate:   all 9 lex rows reduce to zero by the three localized
+                          generators in every chart (216 exact reductions)
+leading guard identities: eta=+1: L_b=r(r-1)(r+1)^2,
+                          L_c=(t+1)(r-1);
+                          eta=-1: L_b=r(r+1)(r-1)^2,
+                          L_c=(t-1)(r+1)
+kernel certificate:       one sign-independent eight-coordinate kernel;
+                          7 rows identically zero, all 40 row reductions zero
+Modal apps:               ap-XScrUUEk7oO2UUZtoHaCnJ,
+                          ap-jIufYS06hxtV14AFbvJXT1
+failed-route fence:       one ambient denominator-cleared xi0/pairing0 job hit
+                          300 seconds before a verdict; do not scale that form
+next route step:          implement xi0/pairing0 in the quadratic-over-quadratic
+                          four-basis algebra, norm to F_p(r), and replay every
+                          norm/recovery boundary before any larger census
+retained frontier:        all 1,680 cell-4 outside cases; then transport to 7
+nonclaim:                 no outside exclusion, orbit close, rate-half band,
+                          K3, LIST, MCA, or Prize closure
+```
+
+### Work-cycle theorem: positive 433-1b cell-4 xi0/pairing0 exclusion
+
+```text
+cell/orbit/field:         cell 4 representing [4,7], F_2130706433
+outside slice:            missing xi=0, canonical pairing=0
+raw payment:              4 source signs x 4 target lanes = 16 cases
+algebra:                  exact four-basis target-free opposite-DE cut,
+                          normed from the b-quadratic through the t-quadratic
+norm profile:             numerator degree 298 / 265 terms;
+                          denominator degree 156 / 157 terms
+root census:              5 target roots and 7 total target/inverse candidates
+                          in every source-sign row
+boundary replay:          r in {0,+1,-1,+iota,-iota}, or the only base lifts
+                          satisfy t=+/-iota and hit t^2+1=0
+terminal ledgers:         no route-open source point, witness, free fiber, or
+                          unresolved branch
+independent audit:        all 44 stored finite-field root parts reconstructed;
+                          candidate unions and boundary payment exact
+Modal app:                ap-7c3gryhV1UAm4x1DxpxfgM
+result:                   xi0/pairing0 PROVED empty in all 16 raw cases
+remaining cell-4 ledger:  104 of 105 missing/matching slices
+next route step:          transport xi0 to the identical positive-DE xi1
+                          slice, then specialize the new xi2/pairing0 cut
+nonclaim:                 no other matching, complete cell/orbit exclusion,
+                          K3, LIST, MCA, or Prize closure
+```
+
+### Work-cycle theorem: positive 433-1b cell-4 xi1 parallel-edge transport
+
+```text
+cell/orbit/field:         cell 4 representing [4,7], F_2130706433
+transport:                interchange the two positive parallel DE copies
+fixed data:               product de, squared-sum (d+e)^2, source cell,
+                          source signs, target lanes, representatives, guards
+fixed residual system:    deleting xi0 or xi1 leaves the same ordered list;
+                          pairing 0 gives (de,-de), (df,sigma_o ef),
+                          (bf,sigma_c cf)
+raw payment:              xi1/pairing0, 4 source signs x 4 lanes = 16 cases
+computation:              none; exact executable system-signature comparison
+result:                   xi1/pairing0 PROVED empty by xi0 transport
+cumulative payment:       32 raw cases across 2 of 105 slices
+remaining cell-4 ledger:  103 missing/matching slices
+next route step:          derive the orbit-distinct xi2/pairing0
+                          positive-positive DE target-free specialization
+nonclaim:                 no other matching, cell-4 or orbit [4,7] closure,
+                          K3, LIST, MCA, or Prize closure
+```
+
+### Work-cycle theorem: positive 433-1b cell-3 xi3 opposite-DE parity orbits
+
+```text
+aggregate scope:          xi=3 (missing df), pairing in {4,5,9,12}
+raw atlas cover:          4 matchings x 4 source signs x 4 target lanes
+                          = 64 cases
+computed representatives:pairing 4, 4 source rows covering 4 lanes each;
+                          pairing 5, 8 source/anchor rows covering 2 lanes each
+transport representatives:pairing 4 -> 9 and pairing 5 -> 12 under exchange
+                          of the two identical positive de records
+opposite-DE cut:          P(q)=F(q,-q), even quartic; x=q^2 gives quadratic P_x
+linear-f cut:             A(q,f)=a2(f)q^2+a1(f)q+a0(f)
+parity cut:               H(x,f)=(a2*x+a0)^2-a1^2*x=A(q,f)A(-q,f)
+x elimination:           exact quadratic resultant J(f), degree 8
+missing relation:        monic M(f)=f^4+(2m-s)f^2+m^2, m=df,s=(d+f)^2
+f reduction:             monic remainder R=J mod M, degree 3, no new inverse
+target-free eliminant:    division-free 4 x 4 Bezout determinant of M and R
+norm route:               quadratic-over-cubic tower norm
+exceptional policy:       all norm, inverse, and base-leading roots lifted;
+                          every M root and original common-q gcd root replayed;
+                          an identically zero q gcd is unresolved, never dropped
+computed rows:            4 pairing-4 + 8 pairing-5 = 12
+aggregate direct replay:  200 candidate r values, 296 source points,
+                          928 f rows, 184 targets, 480 final lane checks
+terminal mechanism:       all 480 remaining paired values nonzero
+terminal ledgers:         0 witnesses, 0 boundaries, 0 free-q, 0 unresolved
+transport payment:        exact positive-de exchange pays 32 further cases
+result:                   complete 64-case xi3/pairings4,5,9,12 block PROVED;
+                          all 240 xi3 cases are now paid
+Modal apps:               ap-D3PsppOT8w1yD26epUDBOp pilot,
+                          ap-jQzOqq8ORVrIQ2sQWVyJYi census
+artifact custody:         compiler sha256 810032f1be4e1d6ebcdce1bd68a289958
+                          989d46148f6d92b35380a7fab8607b3;
+                          census sha256 2bd07012540e7536918e10937800019972
+                          e14e89e1dc241369a0f32199a2369d
+paid cell-3 ledger:       720 parallel-DE + 240 xi3 = 960 cases
+remaining cell-3 ledger:  all 720 cases at xi in {4,5,6}
+failed-route lesson:      quotient-ring missing-quartic elimination crossed
+                          300s; parity x must precede target elimination
+nonclaim:                 no xi4-6, complete cell-3, K3, LIST, MCA, or Prize
+                          closure
+```
+
 Cycle burn-down: start `99dd7b7c7`; result `PROVED`; DAG delta
 `+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
 zero.  Dense SymPy function-field arithmetic was replaced by an exact FLINT
 backend; all successful rows stayed below 90 seconds and the final 32-row
 campaign used 16 Modal containers.
+
+### Work-cycle theorem: positive 433-1b cell-3 xi6 endpoint compatibility
+
+```text
+source-only scope:        xi in {5,6}, all four source signs, before pairing
+xi6 identity:             m=sigma_c*c*f, g=sigma_c*f, s=(c+g)^2;
+                          (c^2+m)^2-s*c^2=0 is necessary
+norm route:               quadratic-over-cubic tower norm in the six-element
+                          quotient basis
+exceptional policy:       all norm, inverse-guard, and base-leading roots
+                          lifted through the original source equations
+computed rows:            4 source signs x 2 missing roles = 8
+xi6 direct replay:        32 candidate r values, 32 recovered source points;
+                          8 missing-product boundaries, 24 eligible points
+xi6 terminal ledgers:     0 compatible sources, 0 unresolved
+xi6 payment:              source-only exclusion covers 15 matchings x 4 lanes
+                          x 4 source signs = 240 raw cases
+xi5 retained frontier:    exactly 6 compatible sources per source sign,
+                          24 total; no target witness inferred
+result:                   complete xi6 slice PROVED empty
+Modal apps:               ap-rRf1apG4CvcyKAjHkeiSTu pilot,
+                          ap-8ZYPpYsrUBdVJ9B33PbOHq census
+artifact custody:         compiler sha256 3e5ad66722ba7b4890a2c29333a1525ce
+                          91a5efe87357e779d472c3ffd2f3f87;
+                          census sha256 74aad0cbb33fad989d11f2d412d2f74c4d
+                          1e52e47865a0d6106fae4d4b0e05fc
+paid cell-3 ledger:       720 xi0-2 + 240 xi3 + 240 xi6 = 1200 cases
+remaining cell-3 ledger:  240 xi4 cases plus the 24-source xi5 frontier
+next route step:          solve the 15 pairings only on the 24 exact xi5
+                          source points; do not repeat global elimination
+nonclaim:                 no xi4, xi5, complete cell-3, K3, LIST, MCA, or
+                          Prize closure
+```
+
+### Work-cycle theorem: positive 433-1b cell-3 xi5 finite-source exclusion
+
+```text
+input frontier:           6 endpoint-compatible sources per source sign,
+                          24 exact points total
+fixed target coordinate:  f=m/b
+remaining variables:      u=df, v=ef, q=de=uv/f^2
+residual records:         q,q,-q,u,sigma_o*v,sigma_c*c*f
+finite subcases:          24 sources x 15 matchings x 4 lanes = 1440
+primary route:            all three pairwise resultants in v; selected
+                          degree-8 resultant in u; exact field-root gcd;
+                          original three-equation gcd in v
+primary aggregate:        2208 outer u roots; every inner gcd is 1
+independent route:        reverse variables, eliminate u, enumerate v,
+                          then original three-equation gcd in u
+audit aggregate:          2208 outer v roots; 0 inner u roots
+per-source profile:       eight each with 44, 108, and 124 outer roots;
+                          exact agreement in both directions
+terminal ledgers:         0 boundaries, 0 witnesses, 0 free fibers,
+                          0 unresolved in both directions
+result:                   complete xi5 slice, 240 raw cases, PROVED empty
+Modal apps:               ap-ASPspplGjYppHtU1SgOt0P pilot,
+                          ap-ktYckYqQlxXbMlDWHZFlrA primary census,
+                          ap-vpzdSl63FgUGaAxRyaD9pl independent census
+artifact custody:         primary compiler/result sha256
+                          059bebe72375f5adcb215aaf9a3fa41ba1ecf56e5078decf19f073b1a1cdef60 /
+                          bd5819475633a6f188635c2fefdd338cd1707db2249cb5e4276ef7687db248a2;
+                          audit compiler/result sha256
+                          10a830f0e2864393548e50e8705e2b2c8c3a408b32fbf7d38b47e9f19cb64401 /
+                          fbdeb02f8baaa12af3c9240299eed49f932b24b9f0dde66fdf872fdc6b9d49c0
+paid cell-3 ledger:       720 xi0-2 + 240 xi3 + 240 xi5 + 240 xi6 = 1440
+remaining cell-3 ledger:  all 240 xi4 cases
+next route step:          derive the xi4 endpoint/source reduction before
+                          any global pairing elimination
+nonclaim:                 no xi4, complete cell-3, K3, LIST, MCA, or Prize
+                          closure
+```
+
+### Work-cycle theorem: positive 433-1b cell-3 xi4 outside-role transport
+
+```text
+input frontier:           all 240 xi4 cases, missing sigma_o ef
+transport:                (d,e,f) -> (sigma_o e,sigma_o d,f)
+full atlas action:        transposes xi3 and xi4; fixes the other five rows
+squared-sum action:       (sigma_o e+f)^2=(e+sigma_o f)^2 and
+                          (sigma_o d+sigma_o f)^2=(d+f)^2
+compact residual order:  identical after deleting xi4 before transport and
+                          xi3 after transport
+matching action:          every one of the 15 canonical indices is fixed
+guard action:             nonzero and pairwise-not-opposite divisor fixed
+lane action:              D/E swap followed by sigma_o gauge on both outside
+                          vertices fixes sigma_c and sigma_o
+source-cell action:       fixes role cell 3 because D,E are outside roles
+rejected-shortcut audit:  the unrelated B/C exchange acts on common roles
+                          and sends role cell 3 to role cell 6
+supplier partition:       six proved xi3 blocks cover matchings 0..14
+exact checker:            sparse integer-polynomial identities in all lanes;
+                          independent 31,104-row integer reconstruction
+result:                   complete xi4 slice, 240 raw cases, PROVED empty
+artifact custody:         compiler sha256
+                          a7a00edbc2caf8757862b240eb5390e4d1ca3c34e75c06b03d87ec0f10e0e897
+Modal spend:              none; exact local replay completes below one second
+```
+
+### Work-cycle theorem: positive 433-1b role-cell-3 complete exclusion
+
+```text
+rank partition:           product rank <=4 or product rank 5
+rank-drop branch:         exact common classifier has unit ideal in every
+                          cell-3 source-sign row
+principal Cartesian set: 7 missing records x 15 matchings x 4 source signs
+                          x 4 target lanes = 1680 raw cases
+parallel-DE payment:      xi in {0,1,2}, all matchings = 720
+single-role payments:     xi3=240, xi4=240, xi5=240, xi6=240
+set-theoretic audit:      supplier scopes pairwise disjoint; union equals the
+                          complete 1680-element Cartesian set
+result:                   deployed positive 433-1b source role cell 3 CLOSED
+DAG delta:                +2 PROVED nodes, +32 edges
+critical-orbit delta:     none; aggregate remains evidence into the open
+                          rate-half band node
+next route step:          audit the complete-cell B/C transport to role cell
+                          6 before selecting another live 433-1b role orbit
+nonclaim:                 no role-cell-6, full 433-1b, positive coordinate,
+                          K3, LIST, MCA, or Prize closure
+```
+
+### Work-cycle theorem: positive 433-1b duplicate-role orbit [3,6]
+
+```text
+input theorem:            complete deployed role-cell-3 exclusion
+common target action:     B <-> C
+outside gauge:            (D,E,F) -> sigma_c (D,E,F)
+source-sign action:       (epsilon1,epsilon2) -> (epsilon1,-epsilon2)
+common Vieta action:      LA fixed; AB <- AC; AC <- AB; BC+ and BC- fixed
+                          with product, weighted-sum, and quotient-label rows
+                          all exact
+outside atlas action:     bf <-> sigma_c cf; other five rows fixed
+lane/guard action:        both cycle invariants and full target guard fixed
+case transport:           bijection on all 7*15=105 missing/matching cases
+principal payment:        all 1680 signed cell-6 systems map to closed cell 3
+rank-drop payment:        cell 6 is independently in the classifier's
+                          four-row unit-ideal list
+result:                   complete source role-cell orbit [3,6] PROVED empty
+symmetry discipline:      B/C exchange is used only after complete cell-3
+                          closure, never as a within-cell matching shortcut
+exact audits:             sparse polynomial compiler plus independent
+                          4096 common and 4096 outside integer rows
+artifact custody:         compiler sha256
+                          2b90594a38175ce2fae6bba95b4803ecc36be67b7262c51b3b54240c29fefaf2
+Modal spend:              none
+DAG delta:                +1 PROVED node, +6 edges
+next route step:          audit exact orbit transports for already closed
+                          cells [1,2] and 14, then classify live 433-1b orbits
+nonclaim:                 no other role orbit, full 433-1b, positive row,
+                          K3, LIST, MCA, or Prize closure
+```
 
 ### Work-cycle theorem: positive 433-1b cell-3 DE pairing-4 block
 
@@ -15935,6 +16226,606 @@ Cycle burn-down: start `4c1f697d3`; result `PROVED`; DAG delta
 `+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
 zero.  The sixteen-container source census completed in under three minutes
 wall time and used no host computation beyond bounded validation.
+
+### Work-cycle theorem: positive 433-1b cell-3 DE pairing-6 block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing=6
+raw atlas cover:          3 DE copies x 1 matching x 4 source signs
+                          x 4 target lanes = 48 cases
+new computed cover:       32 exact rows at xi in {0,2}
+new transport cover:      xi=1 = 16 raw cases
+variable roles:           u=ef, v=df, d=v/f, e=u/f
+paired cuts:              quadratic P_u for (de,sigma_o ef), quadratic P_v
+                          for (second_de,df)
+missing relation:         de(u+eta v)^2-suv=0
+elimination:              quadratic-quadratic resultant gives quartic in v;
+                          reduce modulo P_v, then one six-dimensional norm
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       every norm and intermediate exceptional root lifted
+four row profiles:        (xi,sigma_o)=(0,-1),(0,+1),(2,-1),(2,+1),
+                          each repeated over 8 source/sigma_c rows
+aggregate direct replay:  352 candidate r values, 480 source points,
+                          48 (u,v) candidates, 32 f=0 boundaries
+terminal mechanism:       32 colored-pair evaluations are nonzero; all
+                          other finite lifts have f=0
+terminal ledgers:         0 witnesses, 0 unresolved
+result:                   complete 48-case pairing-6 block PROVED empty
+Modal app:                ap-r6mR6sLo7dPCgClNYqHrKV
+paid DE block:            xi in {0,1,2}, pairing in {0,1,2,3,4,5,6},
+                          336 raw cases
+next route step:          derive a low-degree cut for pairing 7, whose last
+                          two pairs are (second_de,bf),(df,sigma_c cf)
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `40cda879`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero.  The 32-row census ran in two waves of at most 16 Modal containers;
+all rows completed below 90 seconds and the host performed only validation.
+
+### Work-cycle theorem: positive 433-1b cell-3 DE pairing-7 block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing=7
+canonical matching:       ((0,3),(1,4),(2,5))
+raw atlas cover:          3 DE copies x 1 matching x 4 source signs
+                          x 4 target lanes = 48 cases
+new computed cover:       16 source rows at xi in {0,2}, each fixing
+                          sigma_o and covering both sigma_c lanes = 32 cases
+new transport cover:      xi=1 = 16 raw cases
+variable roles:           u=ef, e=u/f, d=de/e
+paired cuts:              quadratic P_u for (de,sigma_o ef), quadratic P_f
+                          for (second_de,bf)
+missing relation:         (u^2+eta de f^2)^2-s f^2 u^2=0
+elimination:              degree-eight eliminant in f; reduce modulo P_f,
+                          then one six-dimensional norm
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       every norm and intermediate exceptional root lifted
+row profiles:             xi=0: 14 candidate r, 20 source points, 0 (u,f);
+                          xi=2: 15 candidate r, 36 source points, 6 (u,f)
+aggregate direct replay:  232 candidate r values, 448 source points,
+                          48 (u,f) candidates, 16 f=0 boundaries
+terminal mechanism:       all 64 nonboundary (df,sigma_c cf) evaluations
+                          are nonzero
+terminal ledgers:         0 witnesses, 0 unresolved
+result:                   complete 48-case pairing-7 block PROVED empty
+Modal apps:               ap-XeVCf1Gz9fkOWeokHt2DTh pilot,
+                          ap-uUU43e4UhyR9Ti61klE8Ew census
+paid DE block:            xi in {0,1,2}, pairing in {0,1,2,3,4,5,6,7},
+                          384 raw cases
+next route step:          derive pairing 8 with first cuts
+                          (de,sigma_o ef),(second_de,sigma_c cf)
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `c5f6c918`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The 16-container Modal census completed in one wave; all rows were
+exactly lifted and the host performed only bounded validation.
+
+### Work-cycle theorem: positive 433-1b cell-3 DE pairing-8 block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing=8
+canonical matching:       ((0,3),(1,5),(2,4))
+raw atlas cover:          3 DE copies x 1 matching x 4 source signs
+                          x 4 target lanes = 48 cases
+new computed cover:       32 exact rows at xi in {0,2}, one per source sign
+                          and target lane
+new transport cover:      xi=1 = 16 raw cases
+variable roles:           u=ef, e=u/f, d=de/e
+paired cuts:              quadratic P_u for (de,sigma_o ef), quadratic P_f
+                          for (second_de,sigma_c cf)
+missing relation:         (u^2+eta de f^2)^2-s f^2 u^2=0
+elimination:              degree-eight eliminant in f; reduce modulo P_f,
+                          then one six-dimensional norm
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       every norm and intermediate exceptional root lifted
+row profiles:             xi=0: 13 candidate r, 20 source points, 4 (u,f);
+                          xi=2: 11 candidate r, 18 source points, 4 (u,f)
+aggregate direct replay:  384 candidate r values, 608 source points,
+                          128 (u,f) candidates, 32 f=0 boundaries
+terminal mechanism:       all 96 nonboundary (df,bf) evaluations are nonzero
+terminal ledgers:         0 witnesses, 0 unresolved
+result:                   complete 48-case pairing-8 block PROVED empty
+Modal apps:               ap-kEFErs6CFVEaoz08ZCw2o1 pilot,
+                          ap-dTHmCmLzkYEmlnyPuP1Ioh census
+paid DE block:            xi in {0,1,2}, pairing in {0,1,2,3,4,5,6,7,8},
+                          432 raw cases
+next route step:          derive pairing 9 with pairs
+                          (de,bf),(second_de,df),(sigma_o ef,sigma_c cf)
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `32f939e7`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The 32-container Modal census completed in one bounded wave under the
+five-minute campaign cap; the host performed only bounded validation.
+
+### Work-cycle theorem: positive 433-1b cell-3 DE pairing-9 block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing=9
+canonical matching:       ((0,4),(1,2),(3,5))
+raw atlas cover:          3 DE copies x 1 matching x 4 source signs
+                          x 4 target lanes = 48 cases
+new computed cover:       8 exact source rows at xi in {0,2}, each covering
+                          all four target lanes = 32 cases
+new transport cover:      xi=1 = 16 raw cases
+variable roles:           u=df, d=u/f, e=de/d
+paired cuts:              quadratic P_u for (second_de,df), quadratic P_f
+                          for (de,bf)
+missing relation:         (u^2+eta de f^2)^2-s f^2 u^2=0
+elimination:              degree-eight eliminant in f; reduce modulo P_f,
+                          then one six-dimensional norm
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       every norm and intermediate exceptional root lifted
+row profiles:             xi=0: 15 candidate r, 18 source points, 4 (u,f);
+                          xi=2: 15 candidate r, 36 source points, 6 (u,f)
+aggregate direct replay:  120 candidate r values, 216 source points,
+                          40 (u,f) candidates, 8 f=0 boundaries
+terminal mechanism:       all 128 nonboundary
+                          (sigma_o ef,sigma_c cf) evaluations are nonzero
+terminal ledgers:         0 witnesses, 0 unresolved
+result:                   complete 48-case pairing-9 block PROVED empty
+Modal apps:               ap-k38zMMOPvBSMhX9pvGQiFR pilot,
+                          ap-f4Z2nk66gSaE7WuaR0pLfC census
+paid DE block:            xi in {0,1,2}, pairing in {0,1,2,3,4,5,6,7,8,9},
+                          480 raw cases
+next route step:          derive pairing 10 with pairs
+                          (de,bf),(second_de,sigma_o ef),(df,sigma_c cf)
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `85c93eae`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The eight-container Modal census completed under the five-minute
+campaign cap; the host performed only bounded validation.
+
+### Work-cycle theorem: positive 433-1b cell-3 DE pairing-10 block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing=10
+canonical matching:       ((0,4),(1,3),(2,5))
+raw atlas cover:          3 DE copies x 1 matching x 4 source signs
+                          x 4 target lanes = 48 cases
+new computed cover:       16 source rows at xi in {0,2}, each fixing
+                          sigma_o and covering both sigma_c lanes = 32 cases
+new transport cover:      xi=1 = 16 raw cases
+variable roles:           u=ef, e=u/f, d=de/e
+paired cuts:              quadratic P_u for (second_de,sigma_o ef),
+                          quadratic P_f for (de,bf)
+missing relation:         (u^2+eta de f^2)^2-s f^2 u^2=0
+elimination:              degree-eight eliminant in f; reduce modulo P_f,
+                          then one six-dimensional norm
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       every norm and intermediate exceptional root lifted
+row profiles:             xi=0: 15 candidate r, 18 source points, 4 (u,f);
+                          xi=2: 15 candidate r, 36 source points, 6 (u,f)
+aggregate direct replay:  240 candidate r values, 432 source points,
+                          80 (u,f) candidates, 16 f=0 boundaries
+terminal mechanism:       all 128 nonboundary (df,sigma_c cf) evaluations
+                          are nonzero
+terminal ledgers:         0 witnesses, 0 unresolved
+result:                   complete 48-case pairing-10 block PROVED empty
+Modal apps:               ap-MT5vbroCNXZw8u2xOGGPSW pilot,
+                          ap-Uy5KWxYrU6kovbAdxJLjaR census
+artifact custody:         compiler sha256 24a4054b79b5fdd44ecf424eccc5d6c2
+                          27ee28ab18fbaa04ae5edf15298a7b16;
+                          census sha256 41c07c85a6360cf66ef3598306772a400
+                          ab9352ee67005894b4dda58098e1632
+paid DE block:            xi in {0,1,2},
+                          pairing in {0,1,2,3,4,5,6,7,8,9,10},
+                          528 raw cases
+next route step:          derive pairing 11 with pairs
+                          (de,bf),(second_de,sigma_c cf),(df,sigma_o ef)
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `03c698b5`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The 16-container exact census completed in one bounded Modal wave;
+all roots were directly lifted and the host performed only bounded
+validation.
+
+### Work-cycle theorem: positive 433-1b cell-3 DE pairing-11 block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing=11
+canonical matching:       ((0,4),(1,5),(2,3))
+raw atlas cover:          3 DE copies x 1 matching x 4 source signs
+                          x 4 target lanes = 48 cases
+new computed cover:       16 source rows at xi in {0,2}, each fixing
+                          sigma_c and covering both sigma_o lanes = 32 cases
+new transport cover:      xi=1 = 16 raw cases
+shared variable:          f in paired(de,bf) and
+                          paired(second_de,sigma_c cf)
+elimination:              division-free resultant of two quadratics in f;
+                          then one six-dimensional norm
+finite residual:          for each common nonzero f, solve the monic quartic
+                          u^4+f^2(2 eta de-s)u^2+de^2 f^4=0, u=ef
+terminal check:           paired(df,sigma_o ef) in both sigma_o lanes
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       every norm and intermediate exceptional root lifted
+per-sign row profiles:    (sigma_c,xi)=(-1,0): 9 candidate r, 10 source,
+                          8 (u,f), 0 boundary, 16 final checks;
+                          (-1,2): 10 candidate r, 12 source, 0 (u,f),
+                          2 boundaries; (+1,0): 9 candidate r, 8 source,
+                          0 (u,f); (+1,2): 9 candidate r, 12 source,
+                          0 (u,f), 2 boundaries
+aggregate direct replay:  148 candidate r values, 168 source points,
+                          32 (u,f) candidates, 16 f=0 boundaries
+terminal mechanism:       all 64 nonboundary final-pair evaluations nonzero
+terminal ledgers:         0 witnesses, 0 unresolved
+result:                   complete 48-case pairing-11 block PROVED empty
+Modal apps:               ap-E9mJmFx4s0itl9HzgSoSOq pilot,
+                          ap-15tL1T7wJbkxrTbCSRUrjE census
+artifact custody:         compiler sha256 22d9c5b90d145af836fcc38a6d213116
+                          42f4729cc80dfd2952da73337671a604;
+                          census sha256 cb5587cb00b011d668ce28953992be665
+                          de9a45246a5a6ea9a4bb542942cd98c
+paid DE block:            xi in {0,1,2},
+                          pairing in {0,1,2,3,4,5,6,7,8,9,10,11},
+                          576 raw cases
+next route step:          derive pairing 12 with pairs
+                          (de,sigma_c cf),(second_de,df),(sigma_o ef,bf)
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `702ad6c5`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The 16-container exact census completed in one bounded Modal wave;
+all rows completed in at most 21 seconds and the host performed only bounded
+validation.
+
+### Work-cycle theorem: positive 433-1b cell-3 DE pairing-12 block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing=12
+canonical matching:       ((0,5),(1,2),(3,4))
+raw atlas cover:          3 DE copies x 1 matching x 4 source signs
+                          x 4 target lanes = 48 cases
+new computed cover:       16 source rows at xi in {0,2}, each fixing
+                          sigma_c and covering both sigma_o lanes = 32 cases
+new transport cover:      xi=1 = 16 raw cases
+variable roles:           u=df, d=u/f, e=de f/u
+paired cuts:              quadratic P_u for (second_de,df), quadratic P_f
+                          for (de,sigma_c cf)
+missing relation:         (u^2+eta de f^2)^2-s f^2 u^2=0
+elimination:              degree-eight eliminant in f; reduce modulo P_f,
+                          then one six-dimensional norm
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       every norm and intermediate exceptional root lifted
+row profiles:             xi=0: 7 norm roots, 2 live, 12 candidate r,
+                          16 source points, 2 (u,f), 0 boundary;
+                          xi=2: 7 norm roots, 2 live, 11 candidate r,
+                          18 source points, 4 (u,f), 2 f=0 boundaries
+aggregate direct replay:  184 candidate r values, 272 source points,
+                          48 (u,f) candidates, 16 f=0 boundaries
+terminal mechanism:       all 64 nonboundary
+                          (sigma_o ef,bf) evaluations are nonzero
+terminal ledgers:         0 witnesses, 0 unresolved
+result:                   complete 48-case pairing-12 block PROVED empty
+Modal apps:               ap-m9IpLhV5Hp8mqYLFhh0QUH pilot,
+                          ap-WKL8bZP7nUq1VZmQBJZemn census
+artifact custody:         compiler sha256 ef1c3b37ff1d118c8ba5de133510b141
+                          6a62b0678fa94b75b22b23e5defb2226;
+                          census sha256 f5bc1919a5bb14eca172a6a8bf682d05
+                          d5e13f06cbda46c196e72cb394e2c2f0
+paid DE block:            xi in {0,1,2},
+                          pairing in {0,1,2,3,4,5,6,7,8,9,10,11,12},
+                          624 raw cases
+next route step:          derive pairing 13 with pairs
+                          (de,sigma_c cf),(second_de,sigma_o ef),(df,bf)
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `4ac79cd3`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The 16-container exact census completed in one bounded Modal wave;
+all rows completed in at most 122 seconds and the host performed only
+bounded validation.
+
+### Work-cycle theorem: positive 433-1b cell-3 DE pairing-13 block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing=13
+canonical matching:       ((0,5),(1,3),(2,4))
+raw atlas cover:          3 DE copies x 1 matching x 4 source signs
+                          x 4 target lanes = 48 cases
+new computed cover:       32 source rows at xi in {0,2}, fixing both target
+                          signs one lane at a time = 32 cases
+new transport cover:      xi=1 = 16 raw cases
+variable roles:           u=ef, e=u/f, d=de f/u
+paired cuts:              quadratic P_u for (second_de,sigma_o ef),
+                          quadratic P_f for (de,sigma_c cf)
+missing relation:         (u^2+eta de f^2)^2-s f^2 u^2=0
+elimination:              degree-eight eliminant in f; reduce modulo P_f,
+                          then one six-dimensional norm
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       every norm and intermediate exceptional root lifted
+row profiles:             xi=0: 7 norm roots, 2 live, 12 candidate r,
+                          16 source points, 2 (u,f), 0 boundary;
+                          xi=2: 7 norm roots, 2 live, 11 candidate r,
+                          18 source points, 4 (u,f), 2 f=0 boundaries
+aggregate direct replay:  368 candidate r values, 544 source points,
+                          96 (u,f) candidates, 32 f=0 boundaries
+terminal mechanism:       all 64 nonboundary (df,bf) evaluations are nonzero
+terminal ledgers:         0 witnesses, 0 unresolved
+result:                   complete 48-case pairing-13 block PROVED empty
+Modal apps:               ap-IUu285CcDflCx8Gbbxr5ZW pilot,
+                          ap-y5lDgr4g8HxtYqPY4vb79Y census
+artifact custody:         compiler sha256 8022cf6158eb694c4559ee9425253d216
+                          144f522f435d957d53da30873d7deb8;
+                          census sha256 07decaf41d0b4c450d27252584a8574a
+                          7db79f53af380940536e8ef1b9b751f0
+paid DE block:            xi in {0,1,2},
+                          pairing in {0,1,2,3,4,5,6,7,8,9,10,11,12,13},
+                          672 raw cases
+next route step:          derive pairing 14 with pairs
+                          (de,sigma_c cf),(second_de,bf),(df,sigma_o ef)
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `6180c80e`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The 32-row source census completed in one bounded Modal wave; the host
+performed only bounded artifact validation.
+
+### Work-cycle theorem: positive 433-1b cell-3 DE pairing-14 block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing=14
+canonical matching:       ((0,5),(1,4),(2,3))
+raw atlas cover:          3 DE copies x 1 matching x 4 source signs
+                          x 4 target lanes = 48 cases
+new computed cover:       16 source rows at xi in {0,2}, each fixing
+                          sigma_c and covering both sigma_o lanes = 32 cases
+new transport cover:      xi=1 = 16 raw cases
+shared variable:          f in paired(second_de,bf) and
+                          paired(de,sigma_c cf)
+elimination:              division-free resultant of two quadratics in f;
+                          then one six-dimensional norm
+finite residual:          for each common nonzero f, solve the monic quartic
+                          u^4+f^2(2 eta de-s)u^2+de^2 f^4=0, u=ef
+terminal check:           paired(df,sigma_o ef) in both sigma_o lanes
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       every norm and intermediate exceptional root lifted
+per-sign row profiles:    (sigma_c,xi)=(-1,0): 6 field roots, 1 live,
+                          8 candidate r, 6 source, 8 (u,f), 0 boundary,
+                          16 final checks; (-1,2): 8 roots, 3 live,
+                          10 candidate r, 12 source, 0 (u,f), 2 boundaries;
+                          (+1,0): 6 roots, 1 live, 8 candidate r, 4 source,
+                          0 (u,f); (+1,2): 7 roots, 2 live, 9 candidate r,
+                          12 source, 0 (u,f), 2 boundaries
+aggregate direct replay:  140 candidate r values, 136 source points,
+                          32 (u,f) candidates, 16 f=0 boundaries
+terminal mechanism:       all 64 nonboundary final-pair evaluations nonzero
+terminal ledgers:         0 witnesses, 0 unresolved
+result:                   complete 48-case pairing-14 block PROVED empty
+Modal apps:               ap-BUG0gUxRtQMNmQ3aeQ41S2 pilot,
+                          ap-QygBmqugIEorqz2vSufLco census
+artifact custody:         compiler sha256 99e163807aa2020ff72afdf777f6be3f
+                          220962b5826bf697767ae11ac28d60ca;
+                          census sha256 0c21b47cc5275efaffb90c4c04a053740
+                          12a910104d8a07acd2148e27d3d3cc1
+paid DE block:            xi in {0,1,2}, all 15 matching indices,
+                          720 raw cases; parallel-DE block COMPLETE
+next route step:          derive a lower-degree route for xi=3,pairing=0;
+                          missing indices 3 through 6 remain open
+nonclaim:                 no other missing role, cell-3, K3, LIST, MCA,
+                          or Prize closure
+```
+
+Cycle burn-down: start `871bfa7b`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The 16-container exact census completed in one bounded Modal wave;
+all rows completed in about 20 seconds wall time and the host performed only
+bounded validation.
+
+### Work-cycle theorem: positive 433-1b cell-3 xi3/pairing0 block
+
+```text
+aggregate scope:          xi=3 (missing df), pairing=0
+raw atlas cover:          4 source signs x 4 target lanes = 16 cases
+same-product identity:    paired(q,q)=
+                          4(A0 q-B0)(A1 q-B1)^2(A2 q-B2)
+internal branch cover:    q=de=B_i/A_i, i in {0,1,2};
+                          4 source signs x 3 branches x 2 sigma_o = 24 rows,
+                          each row checking both sigma_c lanes
+reciprocal variable:      y=1/d^2, with m=df and s=(d+f)^2
+missing quadratic:        1+(2m-s)y+m^2 y^2=0
+outside quadratic:        paired(-q,sigma_o q m y)=0
+elimination:              division-free resultant of two quadratics in y;
+                          then one six-dimensional norm
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       all norm, inverse, branch-denominator, and base-
+                          leading roots lifted; A_i=B_i=0 would be unresolved
+finite lift:              common y roots, x=1/y, every root of d^2=x,
+                          e=q/d, f=m/d
+aggregate direct replay:  228 candidate r values, 216 source points,
+                          112 (y,d) candidates
+terminal mechanism:       all 224 paired(bf,sigma_c cf) values are nonzero
+terminal ledgers:         0 witnesses, 0 boundaries, 0 free branches,
+                          0 unresolved
+result:                   complete 16-case xi3/pairing0 block PROVED empty
+Modal apps:               ap-dDD7Ei8WD8ig8KizJUcwVV corrected pilot,
+                          ap-xdiIQZJzsLjHKyuxQX96pG census
+artifact custody:         compiler sha256 24e41f3dde01749126c094e2c776b310
+                          3ba3632cb2c014667380cf0e29468437;
+                          census sha256 714330c1846ed02f0ce815cf702588e9d
+                          49e96bad871238c78225a7d89757787
+paid cell-3 ledger:       720 parallel-DE + 16 xi3/pairing0 = 736 cases
+next route step:          reuse q branches at xi3 pairings 1 and 2;
+                          use z=1/d and reduce the even quartic missing
+                          equation modulo the next quadratic paired cut
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `0d3893b8`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The old 300-second quartic-resultant route was replaced by a 24-row
+quadratic census completing in about 15 seconds wall time.
+
+### Work-cycle theorem: positive 433-1b cell-3 xi3/pairings1-2 block
+
+```text
+aggregate scope:          xi=3 (missing df), pairing in {1,2}
+raw atlas cover:          2 matchings x 4 source signs x 4 target lanes
+                          = 32 cases
+same-product identity:    paired(q,q)=
+                          4(A0 q-B0)(A1 q-B1)^2(A2 q-B2)
+internal branch cover:    q=de=B_i/A_i, i in {0,1,2}
+pairing 1 rows:           4 source signs x 3 branches = 12 rows,
+                          each checking all four target lanes
+pairing 2 rows:           4 source signs x 3 branches x 2 sigma_c = 24,
+                          each checking both sigma_o lanes
+reciprocal variable:      z=1/d, with m=df and s=(d+f)^2
+missing quartic:          M=1+(2m-s)z^2+m^2 z^4
+next quadratic:           pairing 1: paired(-q,bmz);
+                          pairing 2: paired(-q,sigma_c cmz)
+elimination:              reduce M modulo the next quadratic to
+                          R=r0+r1 z, then use the division-free cut
+                          r1^2 p0-r1 r0 p1+p2 r0^2
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       all norm, inverse, branch-denominator, polynomial-
+                          division, and base-leading roots lifted
+finite lift:              intersect exact M and P roots; d=1/z, e=qz, f=mz
+aggregate direct replay:  372 candidate r values, 448 source points,
+                          56 z candidates
+terminal mechanism:       all 128 matching-specific final-pair values nonzero
+terminal ledgers:         0 witnesses, 0 boundaries, 0 free branches,
+                          0 unresolved
+result:                   complete 32-case xi3/pairings1-2 block PROVED empty
+Modal apps:               ap-hs4uDcvYeeO8qjJim89mnv pairing-1 pilot,
+                          ap-I4n9rvJ20zJShDvHzeSuZa pairing-2 pilot,
+                          ap-tllBAlAaW2yhCLFi8MFFgb census
+artifact custody:         compiler sha256 66480d33177930d0376ff10ed1ae9713
+                          44a247de803a8e8aa015dc4c8d757f21;
+                          census sha256 df010f16c1b70213b03527570e7b0a51
+                          d07f2604d519f62b290ce212a4349786
+paid cell-3 ledger:       720 parallel-DE + 48 xi3/pairings0-2 = 768 cases
+next route step:          classify matching orbits at xi3 pairings 3-14 and
+                          all pairings at xi in {4,5,6}
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `95cf3add`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The 36-row exact census completed in one bounded 16-container Modal
+campaign in under one minute; the host performed only bounded artifact
+validation.
+
+### Work-cycle theorem: positive 433-1b cell-3 xi3 pairings3/6 block
+
+```text
+aggregate scope:          xi=3 (missing df), pairing in {3,6}
+raw atlas cover:          2 matchings x 4 source signs x 4 target lanes
+                          = 32 cases
+computed representative: pairing 3 = ((0,2),(1,3),(4,5))
+transport representative:pairing 6 = ((0,3),(1,2),(4,5)), obtained by
+                          exchanging the two identical positive de records
+paired symmetry:          paired(x,y)=paired(y,x), formally replayed
+opposite-product cut:     paired(q,-q)=4(C4 q^4+C2 q^2+C0), hence a
+                          quadratic in x=q^2
+reciprocal variable:      y=1/d^2, with m=df and s=(d+f)^2
+missing quadratic:        1+(2m-s)y+m^2 y^2
+next quadratic:           paired(q,sigma_o q m y)
+first elimination:        division-free quadratic resultant in y
+q reduction:              cached one-inverse reduction modulo the even
+                          quartic to R(q)=E(x)+q O(x), degree <=3
+parity descent:           E(x)^2-x O(x)^2, then a linear remainder modulo
+                          the quadratic x cut
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       all norm, inverse, reduction, and base-leading
+                          roots lifted
+computed rows:            4 source signs x 2 sigma_o = 8; each checks both
+                          sigma_c lanes and pays 16 matching-3 raw cases
+aggregate direct replay:  108 candidate r values, 184 source points,
+                          480 q rows, 192 reconstructed targets
+terminal mechanism:       all 384 paired(bf,sigma_c cf) values nonzero
+terminal ledgers:         0 witnesses, 0 boundaries, 0 unresolved
+transport payment:        exact positive-de exchange pays 16 matching-6 cases
+result:                   complete 32-case xi3/pairings3/6 block PROVED empty
+Modal apps:               ap-D63zIvOHLyI1G10tHDX2cr corrected pilot,
+                          ap-INPl4xN0RbETNb6HKTMGdx census
+artifact custody:         compiler sha256 fce2ee32837f802fea4d28735a61c8cb
+                          ccef1130681267cdf10968a94d159c33;
+                          census sha256 e603cedb11de9ed4ed75c2cc2094a6dd6
+                          0682841bc4e137bc108a87302de3f6f
+paid cell-3 ledger:       720 parallel-DE + 80 xi3 = 800 cases
+remaining xi3 orbits:     {4,9}, {5,12}, {7,10}, {8,13}, {11,14}
+do-not-scale record:      pairing-4 quartic-versus-quadratic compiler still
+                          timed out at 300 seconds after cached reduction;
+                          refactor before any census or larger run
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `9c1ff69a`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The eight-row exact census ran in parallel on Modal and completed in
+166 seconds wall time. The host performed only bounded artifact validation.
+
+### Work-cycle theorem: positive 433-1b cell-3 xi3 pairings11/14 block
+
+```text
+aggregate scope:          xi=3 (missing df), pairing in {11,14}
+raw atlas cover:          2 matchings x 4 source signs x 4 target lanes
+                          = 32 cases
+computed representative: pairing 11 = ((0,4),(1,5),(2,3))
+transport representative:pairing 14 = ((0,5),(1,4),(2,3)), obtained by
+                          exchanging the two identical positive de records
+fully mixed equations:    paired(q,bmz), paired(q,sigma_c cmz),
+                          paired(-q,sigma_o ef), with q=de,m=df,z=1/d
+linear-z subtraction:     D(q)z+B(q)=0, D=(b+sigma_c c)m A(q)
+compatibility quartic:    G=C A(U+V)^2-B^2 U V, U=bm,V=sigma_c cm
+missing substitution:     K=D^4+(2m-s)B^2D^2+m^2B^4, degree <=8
+q reduction:              cached one-inverse modular multiplication reduces
+                          K modulo G to a cubic
+target-free eliminant:    division-free 4 x 4 Bezout determinant; equal to
+                          lc(G) times Res(G,R), with lc(G) guarded
+norm route:               quadratic-over-cubic tower norm
+exceptional policy:       all norm, inverse, reduction, and base-leading
+                          roots lifted; D=B=0 branch enumerates all missing
+                          quartic roots
+computed rows:            4 source signs x 4 target lanes = 16
+aggregate direct replay:  160 candidate r values, 208 source points,
+                          240 q rows, 64 reconstructed targets
+terminal mechanism:       all 64 paired(-q,sigma_o ef) values nonzero
+terminal ledgers:         0 witnesses, 0 boundaries, 0 unresolved
+transport payment:        exact positive-de exchange pays 16 pairing-14 cases
+result:                   complete 32-case xi3/pairings11/14 block PROVED empty
+Modal apps:               ap-Fkq7dmFUQUxsBGltZX3qUE successful pilot,
+                          ap-Y859bzC6ukDPGchgWIzl4o census
+artifact custody:         compiler sha256 068326c0d28732e83afa96d4a88163f5
+                          c7aaf316bfa043a16e485608d5a6da95;
+                          census sha256 a37aaa98b0fb4716d188a765e665aeff3
+                          fa7044653db37759e74738c601a5985
+paid cell-3 ledger:       720 parallel-DE + 112 xi3 = 832 cases
+remaining xi3 orbits:     {4,9}, {5,12}, {7,10}, {8,13}
+compute policy:           600-second cap was used only after exact profiling;
+                          the 16-container census remained below $1 projected
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `700e82a9`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. Full-degree and repeated-inverse routes timed out at 300 seconds; the
+modular Bezout route completed all 16 rows in parallel in 362 seconds wall
+time. The host performed only bounded artifact validation.
 
 ### Work-cycle theorem: positive 433-1b cell-14 kernel normalization boundary
 
@@ -16071,39 +16962,64 @@ nonclaim:                no full 433-1b, rate-half band, K3, LIST, MCA, or Prize
                           closure
 ```
 
+### Work-cycle theorem: positive 433-1b cell-3 xi3 fully mixed linear-pair orbits
+
+```text
+aggregate scope:          xi=3 (missing df), pairing in {7,8,10,13}
+raw atlas cover:          4 matchings x 4 source signs x 4 target lanes
+                          = 64 cases
+computed representatives:pairings 7 and 8, 4 source signs x 2 sigma_c anchors;
+                          each row covers both sigma_o lanes = 32 cases
+transport representatives:pairing 7 -> 10 and pairing 8 -> 13 under exchange
+                          of the two identical positive de records
+defining equations:      F(q,bf)=F(-q,sigma_c cf)=0 for pairing 7;
+                          b and sigma_c c exchanged for pairing 8
+q elimination:           exact quadratic resultant J(f), degree 8
+missing relation:        monic M(f)=f^4+(2m-s)f^2+m^2, m=df,s=(d+f)^2
+f reduction:             monic remainder R=J mod M, degree 3, no new inverse
+target-free eliminant:    division-free 4 x 4 Bezout determinant of M and R
+norm route:               quadratic-over-cubic tower norm
+exceptional policy:       all norm, inverse, and base-leading roots lifted;
+                          every M root and every common-q gcd root replayed;
+                          an identically zero q gcd is unresolved, never dropped
+computed rows:            4 source signs x 2 pairings x 2 sigma_c = 16
+aggregate direct replay:  152 candidate r values, 176 source points,
+                          512 f rows, 64 targets, 128 final lane checks
+terminal mechanism:       all 128 F(q,sigma_o ef) values nonzero
+terminal ledgers:         0 witnesses, 0 boundaries, 0 free-q, 0 unresolved
+transport payment:        exact positive-de exchange pays 32 further cases
+result:                   complete 64-case xi3/pairings7,8,10,13 block PROVED
+Modal apps:               ap-WQS43McWsXJzkdc4g3LNwv pilot,
+                          ap-XMo58NE6XXcToWhPOWv2xG census
+artifact custody:         compiler sha256 17998157cf0bd624452a8404cfb2b288c
+                          1151147f20f8cba6a17431a06fef210;
+                          census sha256 32045c3dec4f16791eb71b6354cac03670
+                          bad4f3ac9b593adb58d5d742ed7808
+paid cell-3 ledger:       720 parallel-DE + 176 xi3 = 896 cases
+remaining xi3 orbits:     {4,9}, {5,12}
+failed-route fence:       pairing-4 cached-product retry again crossed 300s
+                          without its first nested-cut checkpoint; do not scale
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
-Gated on rounds 7-11 (all audited + banked) and executed after both
-gate pilots landed. THE BOARD OF RECORD:
+[RESTORED after wave-45 roadmap adoption — coordinator port.]
 
 1. **THE UNIFIED STRUCTURED-LIVENESS MYSTERY** (ex-hearts 1+2+3-core
-   + heart 7's residual). Kernel = four named, toy-attackable
-   conjectures, each paying multiple lanes:
-   - **SL-2**: can a NON-COSET admissible family reach a band-proper
-     depth inside the window [k+d, A-2] at > 0.68 n^2 members?
-     (Structured half excluded by BP parity + spectral exclusion;
-     THE question for the occupancy lemma; Pro-brief candidate.)
-   - **OV**: overlap => collapse (closes the band cleanup AND meets
-     P-A1's |K| target at all six rows).
-   - **F9**: does 0 < dim Ann < e occur off-pencil? (Resolving it
-     negatively proves the C = 1/2 live-pencil anchor outright.)
-   - **E_j**: the mu_n-coset spread of e_{j-1}(T^{-1}) <= 29.6 n
-     (heart 7's residual; species identification with the kernel
-     conjectured, not assumed).
-   APPENDIX (honest, not absorbed): P-B's #orbits-per-axis
-   first-moment count and the (H4) concentration half — rigidity
-   provably cannot reach them.
-2. **F2**: the K1 mass obligations (O1)-(O3) + T3 generic-frequency
-   flatness (character-sum bound). PP5.0/slice theorem still needs a
-   dag node.
-3. **C1/C2''**: the sparse v_2-aware certificate program (C1-ZERO /
-   SWIF-4 + the wcl-slot leaves; WCL fence node deferred).
-4. **CROSSING w >= 2**: the q-dependent counting theorem past PK1's
-   q-free w = 1. The deepest untouched mystery.
+   + heart 7's residual). Kernel: **SL-2** (-> SL-2-RES, the aperiodic
+   divisor-count statement, h odd + q >= 2^209); **OV** (overlap =>
+   collapse; pays band cleanup + P-A1's |K| target); **F9** (pencil
+   forcing at V >= 5; proves the C = 1/2 anchor); **E_j** (heart 7's
+   residual — REPRICED by the E_j pilot's THEOREM G: E_j = |Gamma_j|
+   in coset coordinates, within 9 bits, NOT a smaller object; the
+   Fourier-prescription reduction is the honest form). APPENDIX: P-B
+   #orbits-per-axis + (H4) concentration.
+2. **F2**: K1 mass obligations (O1)-(O3) + T3.
+3. **C1/C2''**: the sparse certificate program.
+4. **CROSSING w >= 2**: the deepest untouched mystery.
 
-Heart 7 status: NOT retired (the conditional close was blocked by the
-named one-parameter averaging gap) — REDUCED to kernel item E_j and
-absorbed above. Hearts 1-3 merged per the unification theorems
-(SL-1 = L-B pullback; |K|-residual = OV; anchor residual = F9).
-Supersedes the r3.1 seven-hearts list for prioritisation; nothing
-else in r3.1 is modified.
+Heart 7 NOT retired (one-parameter averaging gap); reduced to E_j and
+absorbed. Hearts 1-3 merged per the unification theorems. Supersedes
+r3.1's seven-hearts list for prioritisation.

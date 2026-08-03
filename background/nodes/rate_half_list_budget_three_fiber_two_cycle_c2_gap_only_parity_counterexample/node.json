@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1276,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_gap_only_parity_counterexample",
+    "title": "Budget-three fiber-two c=2 gaps alone do not force parity",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Over F_53 at H=8, the split squarefree quartic E(z)=1+z+11z^2+34z^3+43z^4 has a_14=a_15=0, a_16=2, and its normalized two-window product LT/2 is the square of 1+22z+49z^2+3z^3+16z^4 modulo z^8. Its four roots are not two-antipodal. Their orders are 52,13,13,52 and their square classes are mixed, so the example refutes gap-only parity forcing but not the official torsion-and-square implication.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_gap_only_parity_counterexample/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_gap_only_parity_counterexample/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_gap_only_parity_counterexample/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_gap_only_parity_counterexample/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_gap_only_parity_counterexample/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_gap_only_parity_counterexample/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_gap_only_parity_counterexample/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_gap_only_parity_counterexample/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_two_window_square_reduction",
+      "order": 2683
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2684
+    }
+  ],
+  "refutes": []
+}

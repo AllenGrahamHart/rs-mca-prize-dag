@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1504,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion",
+    "title": "KoalaBear m2 r4 coordinate negative one-loop 442 nonloop-singleton opposite-pair exclusion",
+    "status": "PROVED",
+    "closure": "complete deletion of the cells 11/14 nonloop-singleton common-K matching orbit",
+    "statement": "Normalize the orbit with AC+ singleton, AB products on one source antipodal pair, and the loop paired with AC-. The product equation is (r^4+2br^2+1)c=b(br^4+b+2r^2); its denominator-zero branch forces r^4=1 and a label collision. After solving for c, one q weld factors in all four root-sign classes into guarded terms, two linear label-collision factors, and r^2=+/-i. The last factor forces c=1 in the product equation. Thus cells 11 and 14 are empty in every sign class.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+      "order": 3425
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
+      "order": 3426
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3427
+    }
+  ],
+  "refutes": []
+}

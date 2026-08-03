@@ -6,13 +6,23 @@
                               v
        (KBP1B3-QUOT-1): global quadratic quotient [PROVED]
                               |
-          +---------------+---------------+---------------+
-          |               |               |               |
-          v               v               v               v
- pairing-zero       (DE-FIRST-1)      (DE-P3/P4-1)      (DE-P5-1)
- packets [PROVED]  144 cases [PROVED] 96 cases [PROVED] 48 cases [PROVED]
-          |               |               |               |
-          +---------------+---------------+---------------+
+          + pairing-zero packets [PROVED]
+          + DE-FIRST-1: 144 [PROVED]
+          + DE-P3/P4-1: 96 [PROVED]
+          + DE-P5-1: 48 [PROVED]
+          + DE-P6-1: 48 [PROVED]
+          + DE-P7-1: 48 [PROVED]
+          + DE-P8-1: 48 [PROVED]
+          + DE-P9-1: 48 [PROVED]
+          + DE-P10-1: 48 [PROVED]
+          + DE-P11-1: 48 [PROVED]
+          + DE-P12-1: 48 [PROVED]
+          + DE-P13-1: 48 [PROVED]
+          + DE-P14-1: 48 [PROVED]
+          + XI3-P0-RS-1: 16 [PROVED]
+          + XI3-P12-RL-1: 32 [PROVED]
+          + XI3-P36-OD-1: 32 [PROVED]
+                              |
                               |
                               v
           remaining pair-algebra outside ledger [OPEN]
@@ -24,7 +34,9 @@
                     rate-half band [OPEN]
 ```
 
-The displayed structural and exclusion edges are `req`.  The four aggregate
-children pay matching indices zero through five for all parallel `DE`
-missing copies.  Edges to `rate_half_band_closure` remain evidence-only until
-the remaining outside ledger and complete cell-3 exclusion are proved.
+The displayed structural and exclusion edges are `req`. The thirteen
+parallel-`DE` children pay matching indices zero through fourteen for all
+three parallel missing copies; the reciprocal-square, reciprocal-linear, and
+opposite-DE children pay `xi=3,pairing in {0,1,2,3,6}`. Edges to
+`rate_half_band_closure` remain evidence-only until the remaining outside
+ledger and complete cell-3 exclusion are proved.

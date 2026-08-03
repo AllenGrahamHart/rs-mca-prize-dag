@@ -1,0 +1,47 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1225,
+  "node": {
+    "id": "f3_h3_dsp8_global_overlap_cover_payment",
+    "title": "DSP8 global overlap-cover payment",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The two exact one-parameter covers contain at most 2n overlapping generic--generic distance-six edges globally. Combining this with Mattarei's affine quotient-fiber cap and the antipodal quotient-mass theorem gives O_6,25^0+(17/10)O_6,25^A<(17/5)C_M n^(5/3)+(17/5)S_A. Consequently C36' follows from 10K_25^0+17K_25^A+68S_A+68C_M n^(5/3)<=750n^2-255Q_n; uniformly, 25(10K_25^0+17K_25^A)<=12134n^2 suffices without estimating the open disjoint correlation.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/statement.md",
+      "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/proof.md",
+      "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/audit.md",
+      "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/result.md",
+      "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/verify.py",
+      "background/nodes/f3_h3_dsp8_global_overlap_cover_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_distance_six_support_overlap_payment",
+      "order": 2500
+    },
+    {
+      "from": "f3_affine_coset_pair_mattarei_bound",
+      "order": 2501
+    },
+    {
+      "from": "f3_h3_dsp8_antipodal_quotient_mass_payment",
+      "order": 2502
+    },
+    {
+      "from": "f3_h3_dsp8_primitive_shift_pair_adapter",
+      "order": 2503
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2504
+    }
+  ],
+  "refutes": []
+}

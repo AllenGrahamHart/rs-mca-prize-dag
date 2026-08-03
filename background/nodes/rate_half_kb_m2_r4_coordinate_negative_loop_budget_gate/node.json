@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1408,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
+    "title": "KoalaBear m2 r4 coordinate negative loop-budget gate",
+    "status": "PROVED",
+    "closure": "at most two antipodal common-K edge orbits in negative parity and a five-skeleton exact remainder",
+    "statement": "Every antipodal common-K J-edge makes q=0 and hence forces a root of the degree-at-most-two form A_1. Three loop fibers would force A_1=0, contradicting the nonzero q equation at a required nonloop edge. Therefore negative parity has at most two K loops. The seven injective pair-multiplicity skeletons reduce exactly to five, and one or two loops pin the corresponding factors of A_1. The five survivors and the coordinate orientation remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+      "order": 3076
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3077
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,68 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1454,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
+    "title": "KoalaBear positive 433-1a cell-5 generic signed-pair colored exclusion",
+    "status": "PROVED",
+    "closure": "entire generic cell-5 sign row (-1,-1) is empty",
+    "statement": "In the deployed characteristic over F_p(t), the exact identity gcd(P,L_2)=1 makes chart 2 global on the generic common projection. The five primitive residue fields of the guard-localized squared DE+/DE- algebra have degrees 4,4,4,8,4. Restricting the DE+ necessary polynomial in e and the colored BE outside-edge resultant gives exact gcd e^2-1 on the four quartics and gcd one on the octic. Since e^2-1 is a target-collision guard and every packet in this sign row contains DE+, DE-, and BE, the entire generic cell-5 sign row (-1,-1) is empty. Finite exceptional t fibers, other signs and matching cells, and every cell, route, K3, row, LIST, or MCA closure remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd_result.json",
+      "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd_audit_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd_audit_result.json",
+      "experiments/prize_resolution/audit_rate_half_kb_positive_433_1a_cell5_pair_colored_generic_gcd.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface",
+      "order": 3212
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler",
+      "order": 3213
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger",
+      "order": 3214
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map",
+      "order": 3215
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger",
+      "order": 3216
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic",
+      "order": 3217
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas",
+      "order": 3218
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3219
+    }
+  ],
+  "refutes": []
+}

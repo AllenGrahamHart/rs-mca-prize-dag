@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1234,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_quotient_embedding",
+    "title": "Budget-three fiber-two cycles route through three quartic-pencil strata",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every direct common-X^2 four-cycle construction descends through Y=X^2 to four pairwise-coprime degree-(s-1) members of a two-dimensional pencil with a squarefree quartic denominator D_*; the completion roots are automatically distinct. The number c=0,1,2 of antipodal deleted-root pairs is exhaustive. For c=0, D_*=product_i(Y-rho_i^2), giving exactly the existing matched antipodal quotient-pencil input at d_ant=2d=4s. For c=1,2, one or two repeated coefficient-square roots are replaced by exceptional-pair squares, producing explicit denominator-mismatch strata. All three have a Mobius weld, primitive rational-map degree s-1, and the general quartic degree floor. At the prize maximum the quotient order is 2^40, map degree 2^38-1, and lower pencil degree at least 2^37-2. No stratum is proved empty.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_quotient_embedding/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_quotient_embedding/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_quotient_embedding/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_quotient_embedding/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_quotient_embedding/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_quotient_embedding/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_quotient_embedding/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_quotient_embedding/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_multifiber_vandermonde_exclusion",
+      "order": 2554
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_mobius_weld",
+      "order": 2555
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_primitive_quotient_gate",
+      "order": 2556
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_pencil_degree_floor",
+      "order": 2557
+    },
+    {
+      "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+      "order": 2558
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2559
+    }
+  ],
+  "refutes": []
+}

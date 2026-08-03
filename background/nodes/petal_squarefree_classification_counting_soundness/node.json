@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 620,
+  "node": {
+    "id": "petal_squarefree_classification_counting_soundness",
+    "title": "Petal squarefree classification counting soundness",
+    "status": "PROVED",
+    "statement": "If the squarefree realizable locator points in each residue-line kernel decompose into finitely many charged classes and uncharged classes each bounded by a polynomial with exponent independent of c, then petal_kernel_realizable_sparsity holds.",
+    "attack_surface": "finite-union counting rule for classified squarefree kernel points",
+    "falsifier": "a finite classification with each uncharged class uniformly polynomial but whose union grows beyond the same uniform-polynomial regime"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_growth",
+      "order": 1114
+    }
+  ],
+  "refutes": []
+}

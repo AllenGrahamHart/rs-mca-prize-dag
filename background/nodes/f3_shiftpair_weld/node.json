@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 711,
+  "node": {
+    "id": "f3_shiftpair_weld",
+    "status": "PROVED",
+    "statement": "F3 SHIFT-PAIR WELD (2026-07-07; nodes/u1_x4_direct_column_budget/notes/F3_IDENTIFICATION.md, machine check f3_identification_check_modal.py): F3's trade objects ARE the top shift-pair stratum \u2014 equal e_1..e_{h-1} for disjoint h-subsets says ell_P - ell_Q = nonzero constant, so trades = sp_{h-1}(h; mu_n)/2 with toral = the quotient-pullback class. Verified digit-exact at 5 rows incl. both historical controls (704 = 2x352, 252 = 2x126 with toral split 120+6), plus two retroactive cross-instrument matches (fleet sp DP vs F3 census, built independently). PLUS the unconditional fiber cap max_z N_{h-1}(z) <= floor(n/h) via the one-parameter pencil incidence argument (= upstream's PROVED thm:bc-moving-root = our f5_sunflower_pencil_lemma \u2014 the same lemma, proved independently by both programs). HONESTY CLAUSE: the conditional flip through thm:q-implies-sp is BLOCKED (max-fiber form lossy at m = h: needs max ~ 1); F3's needed premise is the collision-census form, which under this weld IS F3 restated \u2014 so this node upgrades F3's kernel grade to PROVED WELD (F2-grade) without ambering it."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u1_x4_direct_column_budget",
+      "order": 1214
+    },
+    {
+      "to": "shared_census_kernel",
+      "order": 1215
+    },
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1227
+    },
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1228
+    },
+    {
+      "to": "x4_exactlist_staircase_split",
+      "order": 1229
+    }
+  ],
+  "refutes": []
+}

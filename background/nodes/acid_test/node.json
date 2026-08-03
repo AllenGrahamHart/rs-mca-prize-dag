@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 247,
+  "node": {
+    "id": "acid_test",
+    "title": "F_97/mu_16 exhaustive acid test (brute force == charts)",
+    "status": "TARGET",
+    "refs": [
+      "wp_detail/wp2_6_underdetermined_program.md"
+    ],
+    "closure": "computation",
+    "notes": "TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u5_dichotomy",
+      "order": 187
+    }
+  ],
+  "refutes": []
+}

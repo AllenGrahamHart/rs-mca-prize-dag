@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1156,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_trace_collision_exclusion",
+    "title": "Rate-half distance-three dihedral trace-collision exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For e at least 31, the calibrated pair-complement trace and saturated external incidence are incompatible: trace-quadratic collision classes are forced to be three classes of size e, leaving only three complement divisors against the required 3e-3 distinct divisors. Hence both surviving dihedral distance-three branches are excluded on the official e=2^38-1 row.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_trace_collision_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_trace_collision_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_trace_collision_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_trace_collision_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_trace_collision_exclusion/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_trace_collision_exclusion/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation",
+      "order": 2349
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_pair_complement_quadratic_trace",
+      "order": 2350
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2351
+    }
+  ],
+  "refutes": []
+}

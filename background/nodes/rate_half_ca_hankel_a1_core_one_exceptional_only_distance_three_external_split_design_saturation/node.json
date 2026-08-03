@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1118,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation",
+    "title": "Rate-half distance-three external split-design saturation",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official exceptional-only quotient-distance-three chart, the 3e external degree-(2e+1) locators form an exact biregular design on 6e+3 residual-domain points of degree e, while one unique point outside the canonical support is omitted. If C is the monic polynomial on those 6e+3 points, the product of all monic external locators is exactly C^e, and P_X=A B_T C. This exact incidence/product identity does not classify the individual external blocks.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form",
+      "order": 2246
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2247
+    }
+  ],
+  "refutes": []
+}

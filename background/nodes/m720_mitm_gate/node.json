@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 645,
+  "node": {
+    "id": "m720_mitm_gate",
+    "title": "M720 MITM correctness gate",
+    "status": "PROVED",
+    "statement": "The MITM scanner used for the h in (6,20] band correctly detects known h=3,4,5 trade/census facts and distinguishes toral or paid cores from non-toral active cores.",
+    "attack_surface": "connect scanner equations to the banked C1a/C1b trade equations; off-laptop gate replay is evidence only",
+    "falsifier": "a known small-h trade missed by the scanner, or a paid/toral calibration core misclassified as an unpaid non-toral active core"
+  },
+  "requires": [
+    {
+      "from": "m720_mitm_enumerator_soundness",
+      "order": 975
+    },
+    {
+      "from": "m720_ground_truth_replay",
+      "order": 976
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "m720_official_paid_branch_alignment",
+      "order": 985
+    },
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1127
+    }
+  ],
+  "refutes": []
+}

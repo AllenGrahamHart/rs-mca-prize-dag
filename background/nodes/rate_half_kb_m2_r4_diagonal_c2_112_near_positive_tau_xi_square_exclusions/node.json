@@ -1,0 +1,55 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1385,
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions",
+    "title": "KoalaBear c2 (1,1,2) near positive reciprocal-xi square exclusions",
+    "status": "PROVED",
+    "closure": "both deployed-field positive near-aligned fixed-moving xi=tau(a) square-allocation charts are empty",
+    "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize a=2, xi=1/2, eta=c, ell=d and w=1/c. For both allocations of the doubled target roots 2 and 1/d to the two residual quadratics, all four generic endpoint-line pairs have only collision or inversion-fixed resultant-gcd support. In the direct allocation, the full leading-zero loci add only (c,d)=(5,5/7),(-7/5,53/55) on the excluded z=1 locus and a c=-2 fiber forcing d=2 or 1/2. The swapped allocation has only the previously classified quadratic z=1 component and forbidden support. Independent direct/resultant and fraction-free/Bezout paths reproduce every support modulo p=2130706433. Thus both necessary q-slice charts are empty; the other twelve affine positive charts, projective boundary, and negative loci remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_right1.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_left1.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_left1_right1.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_swap.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_swap_right1.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_swap_left1.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_swap_left1_right1.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_audit.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_audit_right1.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_audit_left1.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_audit_left1_right1.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_audit_swap.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_audit_swap_right1.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_audit_swap_left1.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_audit_swap_left1_right1.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+      "order": 4708
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+      "order": 4709
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4710
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1783,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_rankone_target_projection_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-14 rank-one target-projection exclusion",
+    "status": "PROVED",
+    "closure": "960 exact outside cases excluded by rank-one substitution, three exact eliminant classes, independent complete deployed-field root replay, and division-free boundary certificates",
+    "statement": "On the guarded principal quadratic-cover branch of deployed positive 433-1b role cell 14, every outside case is empty when the missing record is one of df,ef,bf,cf. The full 4 source-sign x 4 target-lane x 4 missing-role x 15 matching census has 960 cases. Exact resultants or target-free cuts enumerate 12,880 deployed-field parameter-root incidences; an independent FLINT replay reproduces every root set, all 2,848 live fibers are empty, and separate four-sign certificates close the quadratic-leading and missing-ratio boundaries. Combined with the disjoint 144-case linear-pair theorem this node leaves 576 cases; the downstream fixed-a chain theorem reduces the current frontier to 144.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_rankone_target_projection_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_rankone_target_projection_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_rankone_target_projection_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_rankone_target_projection_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_rankone_target_projection_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_rankone_target_projection_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_rankone_target_projection_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_rankone_target_projection_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_rankone_target_projection_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_rankone_target_projection_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_rankone_target_projection_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_target_projection_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_rankone_simple_full_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_rankone_df_chain_full_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_rankone_ef_chain_full_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_rankone_bf_targetfree_full_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_rankone_cf_targetfree_full_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_missing_ratio_boundary_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_missing_ratio_boundary_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_rankone_census.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_rankone_census_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_rankone_root_replay_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_rankone_root_replay_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure",
+      "order": 4961
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+      "order": 4962
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+      "order": 4963
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4964
+    }
+  ],
+  "refutes": []
+}

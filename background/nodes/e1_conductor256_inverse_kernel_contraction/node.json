@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 152,
+  "node": {
+    "id": "e1_conductor256_inverse_kernel_contraction",
+    "title": "Conductor-256 inverse-kernel contraction",
+    "status": "PROVED",
+    "closure": "directed interval arithmetic and Fourier inversion",
+    "refs": [
+      "background/nodes/e1_conductor256_inverse_kernel_contraction/statement.md",
+      "background/nodes/e1_conductor256_inverse_kernel_contraction/proof.md",
+      "background/nodes/e1_conductor256_inverse_kernel_contraction/claim_contract.md",
+      "background/nodes/e1_conductor256_inverse_kernel_contraction/dependency_subdag.md",
+      "background/nodes/e1_conductor256_inverse_kernel_contraction/audit.md",
+      "background/nodes/e1_conductor256_inverse_kernel_contraction/result.md",
+      "background/nodes/e1_conductor256_inverse_kernel_contraction/frontier.md",
+      "background/nodes/e1_conductor256_inverse_kernel_contraction/verify.py",
+      "background/nodes/e1_conductor256_inverse_kernel_contraction/verify_audit.py"
+    ],
+    "statement": "The certified inverse character kernel has half-range below 0.044700 and L1 norm below 0.802 on the zero-sum log hyperplane. Combined with the strict prize radius, every live conductor-256 fixed-cofactor exponent vector satisfies max |xi_t|<=3 and sum |xi_t|<=60.",
+    "notes": "CERTIFIED SEARCH CONTRACTION 2026-07-29: directed inversion of all 63 nonzero character eigenvalue rectangles retains their phases and improves the coordinate box from [-7,7] to [-3,3], with an additional even integer L1 budget 60. The weighted ellipsoid still contains at least 38 trillion vectors, so generic enumeration remains rejected. No associate count, 367-orbit payment, lower-profile payment, E1 close, or Prize movement."
+  },
+  "requires": [
+    {
+      "from": "e1_conductor256_character_eigenvalue_preflight",
+      "order": 4531
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4532
+    }
+  ],
+  "refutes": []
+}

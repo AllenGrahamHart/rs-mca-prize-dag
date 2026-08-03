@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 317,
+  "node": {
+    "id": "u3_divisibility",
+    "title": "U3: validity = divisibility into X^512 - 1 (window m = 1..t, verified)",
+    "status": "PROVABLE",
+    "refs": [
+      "wp_detail/wp2_6_underdetermined_program.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

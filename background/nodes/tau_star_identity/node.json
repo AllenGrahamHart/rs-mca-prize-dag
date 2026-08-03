@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 202,
+  "node": {
+    "id": "tau_star_identity",
+    "title": "FM crossover = tau*(rho,q) identically",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s4_reserve_dictionary.md#1"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "fm1",
+      "order": 35
+    }
+  ],
+  "refutes": []
+}

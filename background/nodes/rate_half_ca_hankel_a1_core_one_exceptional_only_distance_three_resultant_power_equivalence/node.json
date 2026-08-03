@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1165,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence",
+    "title": "Rate-half distance-three resultant-power equivalence",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official prime-field pair-Lagrange distance-three chart, the exact external split design exists if and only if every active-row parameter polynomial has degree e and is squarefree, and H(z)=Res_X(C,Q) is its leading coefficient times the (2e+1)-st power of a squarefree split degree-3e polynomial. The latter polynomial is uniquely the squarefree radical of H. All external slopes, blocks, locators, and incidences are reconstructed, so none remains a search variable.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_resultant_power_equivalence/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dual_row_product_power_router",
+      "order": 2368
+    },
+    {
+      "from": "rate_half_residual_prime_field_collapse",
+      "order": 2369
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2370
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 666,
+  "node": {
+    "id": "e22_weighted_intersection_certificate_soundness",
+    "title": "E22 weighted intersection certificate soundness",
+    "status": "PROVED",
+    "statement": "If a lower-scale intersection certificate gives, for every dyadic pair M_i<M_j and subset of smaller scales, a finite coefficient formula with a verified bijection to the residual-profile universe and the dyadic_profile_evaluation weight on every object, then e22_lower_scale_intersection_profile_counts holds.",
+    "attack_surface": "finite weighted-sum and bijection soundness for lower-scale intersection certificates",
+    "falsifier": "a verified bijective weighted intersection certificate whose coefficient formula does not equal the true weighted intersection count"
+  },
+  "requires": [
+    {
+      "from": "e22_residual_profile_generating_function",
+      "order": 1021
+    },
+    {
+      "from": "e22_minimal_scale_partition",
+      "order": 1022
+    },
+    {
+      "from": "dyadic_profile_evaluation",
+      "order": 1023
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1147
+    }
+  ],
+  "refutes": []
+}

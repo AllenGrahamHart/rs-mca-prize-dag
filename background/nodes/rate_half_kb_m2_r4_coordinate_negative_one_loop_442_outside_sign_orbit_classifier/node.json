@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1516,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
+    "title": "KoalaBear m2 r4 coordinate negative one-loop 442 outside sign-orbit classifier",
+    "status": "PROVED",
+    "closure": "five outside signed skeleton cells per fixed common sign row",
+    "statement": "Outside representative sign changes reduce the eight S0 sign assignments to two orbits indexed by alpha beta gamma, and the sixteen S1 assignments to two orbits indexed by alpha beta gamma delta; S2 has one sign cell. Thus 25 raw cells become five per common sign row. At 105 forced-value/matching templates per signed cell, the pre-automorphism cap is 525 per common row and 2100 over the four sextic common rows. Product realization remains open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier",
+      "order": 3464
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3465
+    }
+  ],
+  "refutes": []
+}

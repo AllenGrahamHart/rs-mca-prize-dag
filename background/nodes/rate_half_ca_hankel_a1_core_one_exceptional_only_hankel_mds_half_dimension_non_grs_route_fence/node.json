@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1189,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_mds_half_dimension_non_grs_route_fence",
+    "title": "A=1 half-dimension MDS non-GRS route fence",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "An exact Euclidean self-dual [8,4,5] MDS code over F_11 has Schur-square dimension seven but is not generalized Reed--Solomon, certified by a full-rank linear-syzygy matrix for its three vanishing quadrics. Thus at n=2k the official MDS branch cannot be promoted to rational-normal form without endpoint-specific split, Forney, or smooth-domain input.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_mds_half_dimension_non_grs_route_fence/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_mds_half_dimension_non_grs_route_fence/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_mds_half_dimension_non_grs_route_fence/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_mds_half_dimension_non_grs_route_fence/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_mds_half_dimension_non_grs_route_fence/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_mds_half_dimension_non_grs_route_fence/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_mds_half_dimension_non_grs_route_fence/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_mds_schur_router",
+      "order": 2443
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2444
+    }
+  ],
+  "refutes": []
+}

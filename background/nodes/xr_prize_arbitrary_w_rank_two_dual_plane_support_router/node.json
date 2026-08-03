@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1605,
+  "node": {
+    "id": "xr_prize_arbitrary_w_rank_two_dual_plane_support_router",
+    "title": "XR prize arbitrary-W rank-two dual-plane support router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every arbitrary-W rank-two four/five circuit is one dual plane L in (W|X)^perp. Its row supports are complements of fibers of the base-point-free projective map [F:G] on X. Distinct coefficient directions have disjoint fibers; in a five-block circuit a direction has multiplicity at most two, and each repeated pair routes to the local-tangent basis/flat owner. Each row has a unique arbitrary-W locator certificate. Aggregate plane counting remains open.",
+    "refs": [
+      "background/nodes/xr_prize_arbitrary_w_rank_two_dual_plane_support_router/statement.md",
+      "background/nodes/xr_prize_arbitrary_w_rank_two_dual_plane_support_router/proof.md",
+      "background/nodes/xr_prize_arbitrary_w_rank_two_dual_plane_support_router/claim_contract.md",
+      "background/nodes/xr_prize_arbitrary_w_rank_two_dual_plane_support_router/dependency_subdag.md",
+      "background/nodes/xr_prize_arbitrary_w_rank_two_dual_plane_support_router/audit.md",
+      "background/nodes/xr_prize_arbitrary_w_rank_two_dual_plane_support_router/result.md",
+      "background/nodes/xr_prize_arbitrary_w_rank_two_dual_plane_support_router/verify.py",
+      "background/nodes/xr_prize_arbitrary_w_rank_two_dual_plane_support_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_prize_arbitrary_w_trade_circuit_segre_router",
+      "order": 3793
+    },
+    {
+      "from": "xr_prize_rank_one_trade_flat_basis_owner",
+      "order": 3794
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3795
+    }
+  ],
+  "refutes": []
+}

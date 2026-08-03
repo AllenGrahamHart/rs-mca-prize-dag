@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 852,
+  "node": {
+    "id": "pma_coset_subtwoell_saturation_exclusion",
+    "title": "PMA constant-shift-pencil sub-two-ell saturation exclusion",
+    "status": "PROVED",
+    "statement": "Over every field, a saturated full-petal chart whose locators are constant shifts P-a_i of one monic degree-ell polynomial, with at least three touched petals, has no exact defect in the strict strip ell<d<2ell. Two-block division by P forces the quotient-label matrix to rank at most two; three distinct labels then force one constant value, hence W=cF, contradicting gcd(F,W)=1. The bounds are sharp: t=2 and d=2ell both have explicit saturated F_7 counterexamples. Multiplicative cosets are the case P=X^ell; the arbitrary-locator PMA source bridge remains open.",
+    "refs": [
+      "background/nodes/pma_coset_subtwoell_saturation_exclusion/statement.md",
+      "background/nodes/pma_coset_subtwoell_saturation_exclusion/proof.md",
+      "background/nodes/pma_coset_subtwoell_saturation_exclusion/audit.md",
+      "background/nodes/pma_coset_subtwoell_saturation_exclusion/claim_contract.md",
+      "background/nodes/pma_coset_subtwoell_saturation_exclusion/dependency_subdag.md",
+      "background/nodes/pma_coset_subtwoell_saturation_exclusion/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_coset_chart_residue_bridge",
+      "order": 1522
+    },
+    {
+      "from": "pma_saturated_mixed_support_kernel",
+      "order": 1523
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1524
+    }
+  ],
+  "refutes": []
+}

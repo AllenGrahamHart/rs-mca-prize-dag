@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 374,
+  "node": {
+    "id": "deep_safe_all_linear",
+    "title": "v12: deep-regime MCA safe theorem for ALL linear codes",
+    "status": "PROVED",
+    "refs": [
+      "tex/cs25_cap_v12.tex"
+    ],
+    "notes": "new proved safe-side ground; its range vs the prize corridor is exactly what #177 audits \u2014 do not assume band coverage until audited | RANGE ESTABLISHED (read from v12 directly): thm:deep-mca holds at 3r <= w-1 (one third of distance) \u2014 it does NOT reach the corridor (the band between half-distance and the caps is v12's Open Problem prob:band, by design). Its per-pair dichotomy FORM (tangent-paid or <= r+1 slopes, interpolation + double counting, arbitrary linear codes) is the proved template for xr_clean_residual_any_gate."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "mca_safe",
+      "order": 604
+    },
+    {
+      "to": "rigidity_kernel",
+      "order": 761
+    }
+  ],
+  "refutes": []
+}

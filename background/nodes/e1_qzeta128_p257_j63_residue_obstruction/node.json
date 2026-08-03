@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 175,
+  "node": {
+    "id": "e1_qzeta128_p257_j63_residue_obstruction",
+    "title": "Q(zeta_128) J_63 residue obstruction",
+    "status": "PROVED",
+    "closure": "explicit auxiliary-prime power-residue character",
+    "refs": [
+      "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/statement.md",
+      "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/proof.md",
+      "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/claim_contract.md",
+      "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/dependency_subdag.md",
+      "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/audit.md",
+      "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/result.md",
+      "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/verify.py",
+      "background/nodes/e1_qzeta128_p257_j63_residue_obstruction/verify_audit.py"
+    ],
+    "statement": "At r=5406977, a product of 32 power-residue characters kills the full unit group and all 21121st powers but sends the explicit Jacobi element alpha to 500235 != 1, proving J_63 nonprincipal.",
+    "notes": "RESIDUE CLOSE 2026-07-29: the verifier directly evaluates 31 unit generators and 32 Jacobi sums at 32 embeddings. The calculation is exact, import-free after the unit and Stickelberger dependencies, and uses no BNF or GRH assumption."
+  },
+  "requires": [
+    {
+      "from": "e1_conductor128_full_unit_circular_basis",
+      "order": 4619
+    },
+    {
+      "from": "e1_qzeta128_p257_j63_stickelberger_relation",
+      "order": 4620
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

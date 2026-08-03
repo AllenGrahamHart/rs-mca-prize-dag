@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 922,
+  "node": {
+    "id": "rate_half_ca_hankel_endpoint_saturation_rigidity",
+    "title": "Endpoint saturation rigidity for the strict A=3 Hankel profile",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the first unresolved strict A=3 parameter degree, write rho=4m-1, N=16m, e=m, and delta=m-1. If the desired T<=rho+1 cap fails, exceptional-root charging and parameter-root incidence force the unique count T=4m+1. If O is the total number of domain roots omitted from the specialized generic generators, then O<=delta and the exact column-capacity deficit is 1+O<=m. Hence at least 15m=15N/16 domain points occur as roots at exactly m supported slopes, exhausting the parameter degree of Q_Z(x). This is a necessary extremal profile, not an exclusion of it.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_endpoint_saturation_rigidity/statement.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_saturation_rigidity/proof.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_saturation_rigidity/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_saturation_rigidity/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_saturation_rigidity/verify.py",
+      "background/nodes/rate_half_ca_hankel_endpoint_saturation_rigidity/audit.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_exceptional_root_charge",
+      "order": 1664
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1665
+    }
+  ],
+  "refutes": []
+}

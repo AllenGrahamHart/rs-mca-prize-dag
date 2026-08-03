@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 301,
+  "node": {
+    "id": "m1_rank_defect_nf",
+    "title": "Rank-defect packet normal form",
+    "status": "PROVED",
+    "refs": [
+      "experimental/notes/m1/m1_rank_defect_packet_normal_form.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "strat_tree",
+      "order": 160
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 535,
+  "node": {
+    "id": "l1_exact_shell_prefix_hankel_bridge",
+    "title": "L1 exact-shell prefix/Hankel bridge",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every received word U and every exact agreement size a>k, the exact first-match zero shell E_a(U) of the a-support interpolation-prefix map is in bijection with degree-below-k codewords having exact agreement a, and #ImgFib_U(s)=sum_(a>=s)#E_a(U). In any admissible sunflower source, fixing missed core D and noncore support X identifies the global depth-(a-k) prefix zero condition unitriangularly with the existing saturated Hankel condition T_(X,d)(L_D)=0, including both exactness guards. Thus L1 may close either by row-sharp Q for primitive received-word exact shells with quotient shells paid separately, or by direct fixed-source Hankel aggregation. Toy power-sum Q and the special F2 Myerson statement do not transfer without an explicit chart theorem.",
+    "refs": [
+      "background/nodes/l1_exact_shell_prefix_hankel_bridge/statement.md",
+      "background/nodes/l1_exact_shell_prefix_hankel_bridge/proof.md",
+      "background/nodes/l1_exact_shell_prefix_hankel_bridge/claim_contract.md",
+      "background/nodes/l1_exact_shell_prefix_hankel_bridge/dependency_subdag.md",
+      "background/nodes/l1_exact_shell_prefix_hankel_bridge/audit.md",
+      "background/nodes/l1_exact_shell_prefix_hankel_bridge/lineage.md",
+      "background/nodes/l1_exact_shell_prefix_hankel_bridge/upstream_crosswalk.md",
+      "background/nodes/l1_exact_shell_prefix_hankel_bridge/verify.py",
+      "background/nodes/l1_exact_shell_prefix_hankel_bridge/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_core_defect_reduction",
+      "order": 2900
+    },
+    {
+      "from": "pma_saturated_mixed_support_kernel",
+      "order": 2901
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2902
+    },
+    {
+      "to": "imgfib",
+      "order": 2903
+    }
+  ],
+  "refutes": []
+}

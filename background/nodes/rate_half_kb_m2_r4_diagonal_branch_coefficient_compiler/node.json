@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1359,
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler",
+    "title": "KoalaBear m2 r4 diagonal branch coefficient compiler",
+    "status": "PROVED",
+    "closure": "reciprocal quadratic-norm normal form for the source-line branch and split cubic-resolvent test for the biquadratic branch",
+    "statement": "In the diagonal source-line branch, compatible coordinates give H=U+XV and G=U^2-WV^2, where U and V have bidegrees at most (2,2) and (2,1), obey one common reciprocal sign, and occupy source spaces of dimensions 8 and 7. The endpoint G is always positive reciprocal. In the non-lifting branch, the monic endpoint quartic over K(W) has a completely split cubic resolvent and square discriminant; for an irreducible separable quartic, resolvent splitting is equivalent to V4 Galois group. These are exact branch-deletion tests, not universal exclusions.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy",
+      "order": 3048
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3049
+    }
+  ],
+  "refutes": []
+}

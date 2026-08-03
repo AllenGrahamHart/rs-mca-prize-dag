@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1148,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mobius_subgroup_reduction",
+    "title": "Rate-half distance-three Mobius subgroup reduction",
+    "status": "PROVED",
+    "closure": "proof using published finite-field subgroup bounds",
+    "statement": "On the official prime-field distance-three row, a rank-two common Mobius involution pairing all 2e exceptional subgroup roots is necessarily dihedral: either y=-x or xy=c for one subgroup element c. Published explicit subgroup-curve bounds exclude every nonspecial involution by a wide numerical margin. The two dihedral cases remain open.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mobius_subgroup_reduction/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mobius_subgroup_reduction/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mobius_subgroup_reduction/source.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mobius_subgroup_reduction/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mobius_subgroup_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mobius_subgroup_reduction/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mobius_subgroup_reduction/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_locator_mobius_dichotomy",
+      "order": 2327
+    },
+    {
+      "from": "rate_half_residual_prime_field_collapse",
+      "order": 2328
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2329
+    }
+  ],
+  "refutes": []
+}

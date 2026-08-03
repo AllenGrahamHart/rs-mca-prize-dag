@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 581,
+  "node": {
+    "id": "aqb_amortization_threshold_accounting",
+    "title": "AQB amortization threshold accounting",
+    "status": "PROVED",
+    "statement": "Any c=2 averaged quotient-box family whose certified shared entropy gain after all box charges and normalizations is at least 429,645,547 bits clears the finite AQB deficit at sigma*, because aqb_deficit_arithmetic proves the worst-case deficit is strictly below that threshold by more than 0.226 bits.",
+    "attack_surface": "exact threshold comparison against aqb_deficit_arithmetic",
+    "falsifier": "a certified recomputation where the AQB deficit reaches or exceeds 429,645,547 bits"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1101
+    }
+  ],
+  "refutes": []
+}

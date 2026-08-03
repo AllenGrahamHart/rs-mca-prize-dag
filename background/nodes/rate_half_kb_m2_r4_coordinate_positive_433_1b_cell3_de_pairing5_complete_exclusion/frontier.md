@@ -1,11 +1,10 @@
 # Frontier
 
-The parallel-`DE` block is now proved for matching indices `0,1,2,3,4,5`,
-paying `288` raw cases.
+The parallel-`DE` block is completely proved for all matching indices
+`0,1,2,3,4,5,6,7,8,9,10,11,12,13,14`, paying all `720` raw cases with
+`xi in {0,1,2}`. The proved xi3 exclusions pay 80 further cases at
+`pairing in {0,1,2,3,6}`, for 800 paid cell-3 cases.
 
-Matching index 6 no longer has the shared first pair `(de,df)`, so first
-derive its lowest-degree paired cut before another norm campaign.  The
-competing `xi=3,pairing=0` branch still needs a lower-degree shared-`f`
-elimination.
-
-Do not infer complete cell-3 closure from the six paid matching indices.
+Complete cell-3 exclusion remains open for pairings
+`{4,5,7,8,9,10,11,12,13,14}` at `xi=3` and all pairings at
+`xi in {4,5,6}`.

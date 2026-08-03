@@ -1,0 +1,85 @@
+{
+ "doc": "x5_replay.py -- MANDATORY REPLAY + the toy-scale wall.\n\n(1) Replay EVERY banked row of the gamma_j2_close pilot (179 rows across 10\n    checkpoints) plus every row this pilot produced, through:\n      THEOREM D   |Gamma_j| <= n . E_j                            [F-J]\n      THEOREM G   |Gamma_j| >= g' . E_j,  g' = g/gcd(j,g), g = gcd(n-k-w, n)\n      F-I         E_j <= 29.6 n\n      F-K         gate-intact, prize shape (w=M), j<w, gcd(j,n)=1  =>  E_j = 1\n(2) The toy-scale wall (PREREG D-7), computed exactly over the whole reachable\n    grid: is there ANY fixture with X = C(n,A)/q^w >= 1, w >= 2j+1 (j >= 2), and\n    C(n,A) <= B (the enumeration budget)?  Reported as a function of B.\n",
+ "n_rows_replayed": 355,
+ "checked": {
+  "F_I": 355,
+  "THEOREM_D": 250,
+  "THEOREM_G": 211,
+  "F_K": 121
+ },
+ "violations": 0,
+ "wall": [
+  {
+   "budget": 1000000,
+   "max_w_with_X_ge_1": 3,
+   "witness": [
+    3,
+    20,
+    5,
+    4,
+    41,
+    2.4369930790325154,
+    167960
+   ],
+   "w_ge_5_hits": 0
+  },
+  {
+   "budget": 10000000,
+   "max_w_with_X_ge_1": 4,
+   "witness": [
+    4,
+    26,
+    9,
+    13,
+    53,
+    1.223968475432613,
+    9657700
+   ],
+   "w_ge_5_hits": 0
+  },
+  {
+   "budget": 100000000,
+   "max_w_with_X_ge_1": 4,
+   "witness": [
+    4,
+    26,
+    9,
+    13,
+    53,
+    1.223968475432613,
+    9657700
+   ],
+   "w_ge_5_hits": 0
+  },
+  {
+   "budget": 10000000000,
+   "max_w_with_X_ge_1": 5,
+   "witness": [
+    5,
+    35,
+    10,
+    5,
+    71,
+    2.2502288568522464,
+    4059928950
+   ],
+   "w_ge_5_hits": 9
+  },
+  {
+   "budget": 1000000000000,
+   "max_w_with_X_ge_1": 5,
+   "witness": [
+    5,
+    35,
+    10,
+    5,
+    71,
+    2.2502288568522464,
+    4059928950
+   ],
+   "w_ge_5_hits": 33
+  }
+ ],
+ "checks": 940,
+ "failures": 0
+}

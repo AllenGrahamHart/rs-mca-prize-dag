@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 151,
+  "node": {
+    "id": "e1_conductor256_character_eigenvalue_preflight",
+    "title": "Conductor-256 character eigenvalue preflight",
+    "status": "PROVED",
+    "closure": "directed interval arithmetic and exact finite dynamic programming",
+    "refs": [
+      "background/nodes/e1_conductor256_character_eigenvalue_preflight/statement.md",
+      "background/nodes/e1_conductor256_character_eigenvalue_preflight/proof.md",
+      "background/nodes/e1_conductor256_character_eigenvalue_preflight/claim_contract.md",
+      "background/nodes/e1_conductor256_character_eigenvalue_preflight/dependency_subdag.md",
+      "background/nodes/e1_conductor256_character_eigenvalue_preflight/audit.md",
+      "background/nodes/e1_conductor256_character_eigenvalue_preflight/result.md",
+      "background/nodes/e1_conductor256_character_eigenvalue_preflight/frontier.md",
+      "background/nodes/e1_conductor256_character_eigenvalue_preflight/verify.py"
+    ],
+    "statement": "All 63 nontrivial character eigenvalues of the conductor-256 unit-log convolution have certified outward intervals. On the universal prize envelope every exponent vector satisfies max |xi_t|<=7 and sum xi_t^2<=101, but the coarse zero-sum body has more than 2^143 points and the weighted ellipsoid contains at least 38482585013041 explicit sparse points. Generic ellipsoid-first enumeration is therefore rejected in favor of sparse-product/inverse classification.",
+    "notes": "CERTIFIED PREFLIGHT AND ROUTE CUT 2026-07-29: Machin/Taylor/atanh directed arithmetic gives spectrum digest 6ee33c37477a58c92a087cd7dcf3c128d148a2c8d08887141ff79367aa9efb8d, min magnitude >1.7627, max <24.292, D<7.539, and R<77.202. Exact DP counts 16616854517524950208619690062355423946568371 coarse vectors. No associate count, lower-profile payment, E1 image bound, or Prize movement."
+  },
+  "requires": [
+    {
+      "from": "e1_conductor256_character_diagonal_exponent_router",
+      "order": 4529
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4530
+    }
+  ],
+  "refutes": []
+}

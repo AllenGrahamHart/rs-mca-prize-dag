@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1047,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate",
+    "title": "Budget-three antipodal intermediate Hensel cubic gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The third forbidden Hensel coefficient is a cubic in the remaining scalar. Reducing it by the preceding monic quadratic gives one explicit linear gate, selecting a unique scalar unless one printed coefficient pair vanishes.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_hensel_cubic_gate/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_intermediate_hensel_quadratic_gate",
+      "order": 1960
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1961
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 338,
+  "node": {
+    "id": "thm_exactslack",
+    "title": "thm:exactslack: canonical-line bad slopes = the multi-symmetric image B_T exactly",
+    "status": "PROVED",
+    "refs": [
+      "tex/slackMCA_v4.tex"
+    ],
+    "notes": "exact characterization on the monomial stratum \u2014 the unsafe side's sharpest proved tool"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "unsafe_at_crossing",
+      "order": 535
+    },
+    {
+      "to": "strat_tree",
+      "order": 536
+    },
+    {
+      "to": "acl_count",
+      "order": 537
+    }
+  ],
+  "refutes": []
+}

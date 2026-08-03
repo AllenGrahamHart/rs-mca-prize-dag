@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 552,
+  "node": {
+    "id": "l1_polynomial_led_interior_to_deeper_q_curve",
+    "title": "L1 polynomial-led interior cells are deeper-Q curves",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let H subset B, m>k, w=m-k, and 1<=e<=k. For a base-field polynomial-led word U monic of degree m+e, every exact level-m codeword has U-P=L_T R_s, where the first e locator coefficients s determine the monic degree-e cofactor triangularly and the next w locator coefficients recursively. Hence Z_m(U) is exactly the disjoint sum over s in B^e of depth-(w+e) locator-prefix fibers along an injective curve theta_z, retaining gcd(R_s,Omega/L_T)=1 in each slice. Ambient means cancel the B^e slice count, but a discrete max-fiber bound leaves a B^e additive term. Nonconstant minimal vectors and e>k remain open.",
+    "refs": [
+      "background/nodes/l1_polynomial_led_interior_to_deeper_q_curve/statement.md",
+      "background/nodes/l1_polynomial_led_interior_to_deeper_q_curve/proof.md",
+      "background/nodes/l1_polynomial_led_interior_to_deeper_q_curve/claim_contract.md",
+      "background/nodes/l1_polynomial_led_interior_to_deeper_q_curve/dependency_subdag.md",
+      "background/nodes/l1_polynomial_led_interior_to_deeper_q_curve/audit.md",
+      "background/nodes/l1_polynomial_led_interior_to_deeper_q_curve/lineage.md",
+      "background/nodes/l1_polynomial_led_interior_to_deeper_q_curve/upstream_crosswalk.md",
+      "background/nodes/l1_polynomial_led_interior_to_deeper_q_curve/verify.py",
+      "background/nodes/l1_polynomial_led_interior_to_deeper_q_curve/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_interior_bc_floor_higher_shell_q_routing",
+      "order": 2937
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2939
+    }
+  ],
+  "refutes": []
+}

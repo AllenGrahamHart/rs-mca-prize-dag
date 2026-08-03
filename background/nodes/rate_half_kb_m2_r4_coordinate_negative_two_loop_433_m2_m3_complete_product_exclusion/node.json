@@ -1,0 +1,58 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1548,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion",
+    "title": "KoalaBear m2 r4 coordinate negative two-loop 433 M2/M3 complete-product exclusion",
+    "status": "PROVED",
+    "closure": "all twenty M2/M3 invariant-product cells deleted in the deployed rank-twelve base algebra",
+    "statement": "The five forced-product types have 75 universal residual matching templates. Evaluating their intrinsic-variable resultants at both M2/M3 base ledgers and both outside signs gives 300 unit elements in the exact deployed rank-twelve quotient algebra. A second projection order and multiplication-matrix ranks independently replay every case. Thus neither M2 nor M3 has a complete paired-product lift.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/certificate.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/audit_runner.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/verify_audit.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/verify_audit_df_0_4.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/verify_audit_df_5_9.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/verify_audit_df_10_14.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/verify_audit_ef_0_4.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/verify_audit_ef_5_9.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion/verify_audit_ef_10_14.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_product_q_classifier",
+      "order": 3571
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_outside_product_involution_compiler",
+      "order": 3572
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier",
+      "order": 3573
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_product_invariance_router",
+      "order": 3574
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3575
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 229,
+  "node": {
+    "id": "fiber_planted_law",
+    "title": "Planted fiber law C(A0, A0-A); tangent = rank-drop planes",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "conj_f",
+      "order": 64
+    },
+    {
+      "to": "f_gcd_reduction",
+      "order": 557
+    }
+  ],
+  "refutes": []
+}

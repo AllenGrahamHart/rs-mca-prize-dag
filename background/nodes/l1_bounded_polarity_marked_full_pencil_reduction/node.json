@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1074,
+  "node": {
+    "id": "l1_bounded_polarity_marked_full_pencil_reduction",
+    "title": "L1 bounded-polarity growing-cofactor marked full-pencil reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "If polarized entropy p<ell and d>ell+p-1, a maximal-sunflower residual has at least two dense petals. For the canonical two largest dense supports, clearing their missing sets gives L_Ti C_i-L_Tj C_j=(c_j-c_i)FJ with deg J<=p and deg C_i,deg C_j<=d-ell+p, retaining exact-defect coprimality. For fixed p the petal-pair/mark census is polynomial, so the bounded-p branch is reduced injectively to bounded-mark deformations of the full-petal split-pencil identity, uniformly in growing cofactor excess.",
+    "refs": [
+      "background/nodes/l1_bounded_polarity_marked_full_pencil_reduction/statement.md",
+      "background/nodes/l1_bounded_polarity_marked_full_pencil_reduction/proof.md",
+      "background/nodes/l1_bounded_polarity_marked_full_pencil_reduction/claim_contract.md",
+      "background/nodes/l1_bounded_polarity_marked_full_pencil_reduction/dependency_subdag.md",
+      "background/nodes/l1_bounded_polarity_marked_full_pencil_reduction/audit.md",
+      "background/nodes/l1_bounded_polarity_marked_full_pencil_reduction/verify.py",
+      "background/nodes/l1_bounded_polarity_marked_full_pencil_reduction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_polarized_petal_entropy_ledger",
+      "order": 2081
+    },
+    {
+      "from": "petal_reserve_rich_fiber_reduction",
+      "order": 2082
+    },
+    {
+      "from": "pma_saturated_mixed_support_kernel",
+      "order": 2083
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2084
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2085
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2086
+    }
+  ],
+  "refutes": []
+}

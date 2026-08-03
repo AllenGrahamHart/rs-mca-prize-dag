@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 914,
+  "node": {
+    "id": "rate_half_quadratic_exact_range",
+    "title": "Exact low-field rate-half threshold and post-cutoff bracket",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For the official n=2^41,k=2^40 rate-half row, let r_Q=389,500,552,608 and B_Q=r_Q+1. For every admissible field with B=floor(q/2^128)<=B_Q, the exact adjacent certificate is B_mca(n-B+1)=B<B_mca(n-B), the latter numerator being at least B+1. Thus every admissible q<(B_Q+1)2^128, approximately 2^166.502834419, is completely determined. More generally, for 1<=B<=k-1, n-B+1<=a_RH(q)<=n-min(B-1,r_Q). When B_Q<B<=2^39+1, safety at the lower candidate is equivalent to the single far-CA bound B_ca^far(n-B+1)<=B because its sparse numerator is already at most B-1.",
+    "refs": [
+      "background/nodes/rate_half_quadratic_exact_range/statement.md",
+      "background/nodes/rate_half_quadratic_exact_range/proof.md",
+      "background/nodes/rate_half_quadratic_exact_range/claim_contract.md",
+      "background/nodes/rate_half_quadratic_exact_range/dependency_subdag.md",
+      "background/nodes/rate_half_quadratic_exact_range/verify.py",
+      "background/nodes/rate_half_quadratic_exact_range/audit.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "mca_quadratic_prize_rows",
+      "order": 1645
+    },
+    {
+      "from": "rate_half_mca_sparse_layer_reduction",
+      "order": 1646
+    },
+    {
+      "from": "rate_half_sparse_pinning_rigidity",
+      "order": 1647
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1648
+    }
+  ],
+  "refutes": []
+}

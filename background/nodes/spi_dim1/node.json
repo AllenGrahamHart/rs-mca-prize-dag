@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 246,
+  "node": {
+    "id": "spi_dim1",
+    "title": "SPI at dim 1: eliminant bound (deg <= 49408)",
+    "status": "PROVABLE",
+    "key": true,
+    "refs": [
+      "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#4"
+    ]
+  },
+  "requires": [
+    {
+      "from": "u5_dichotomy",
+      "order": 184
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "spi_wall",
+      "order": 63
+    },
+    {
+      "to": "deficiency_ladder",
+      "order": 87
+    }
+  ],
+  "refutes": []
+}

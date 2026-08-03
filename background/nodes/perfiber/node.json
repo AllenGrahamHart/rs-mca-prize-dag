@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 228,
+  "node": {
+    "id": "perfiber",
+    "title": "prob:perfiber (coordinate-plane case of F)",
+    "status": "WALL",
+    "key": true,
+    "refs": [
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#2"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "zone_b",
+      "order": 24
+    },
+    {
+      "to": "conj_f",
+      "order": 65
+    },
+    {
+      "to": "f_primitive_case",
+      "order": 559
+    }
+  ],
+  "refutes": [
+    {
+      "to": "route_expsums",
+      "order": 68
+    },
+    {
+      "to": "route_anticonc",
+      "order": 69
+    }
+  ]
+}

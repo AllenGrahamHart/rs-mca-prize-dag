@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 235,
+  "node": {
+    "id": "window_program",
+    "title": "M3/M4/M5 window theorem (385<=A<=426)",
+    "status": "TARGET",
+    "gate": "all",
+    "refs": [
+      "proof_sketch/s3a_regular_window.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "spi_wall",
+      "order": 83
+    },
+    {
+      "to": "xr_wall",
+      "order": 84
+    },
+    {
+      "to": "dossier_partial",
+      "order": 85
+    }
+  ],
+  "refutes": []
+}

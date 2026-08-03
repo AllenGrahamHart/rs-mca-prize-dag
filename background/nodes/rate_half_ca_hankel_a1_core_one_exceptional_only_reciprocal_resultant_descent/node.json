@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1028,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent",
+    "title": "A=1 core-one exceptional-only reciprocal-resultant descent",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "After fixed-degree reversal, the forced q_bar point at infinity cancels in j_inf F+EG=YL and the residual resultant is exactly Res_Y(F,L)=c_X E^(r-1). Its first coefficient Delta_inf=L(t,0) is coprime to q_bar, so no nonexceptional resultant factor or higher q_bar contact survives the first reciprocal Euclidean step.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_reciprocal_resultant_descent/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_unit_resultant_collapse",
+      "order": 1922
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1923
+    }
+  ],
+  "refutes": []
+}

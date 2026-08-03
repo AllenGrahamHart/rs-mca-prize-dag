@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 957,
+  "node": {
+    "id": "rate_half_list_budget_three_k4_grassmann_line",
+    "title": "Budget-three K4 Grassmann-line compression",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In the all-linear K_4 chamber, the Plucker edge bivector is a projective line on Gr(2,4). The four degree-(d-2) block locators consequently satisfy one nondegenerate base-field constant relation with all coefficients nonzero, and their product misses the subgroup polynomial by exactly eight roots. The resulting four-term split-unit equation remains open.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_k4_grassmann_line/statement.md",
+      "background/nodes/rate_half_list_budget_three_k4_grassmann_line/proof.md",
+      "background/nodes/rate_half_list_budget_three_k4_grassmann_line/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_k4_grassmann_line/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_k4_grassmann_line/audit.md",
+      "background/nodes/rate_half_list_budget_three_k4_grassmann_line/result.md",
+      "background/nodes/rate_half_list_budget_three_k4_grassmann_line/verify.py",
+      "background/nodes/rate_half_list_budget_three_k4_grassmann_line/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_plucker_edge_gate",
+      "order": 1743
+    },
+    {
+      "from": "rate_half_list_budget_three_residual_transversal_atlas",
+      "order": 1744
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1745
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 900,
+  "node": {
+    "id": "xr_split_pencil_trade_rank_two_localization",
+    "title": "XR split-pencil dual trades have no rank one and localized rank two",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_split_pencil_trade_rank_two_localization/statement.md",
+      "background/nodes/xr_split_pencil_trade_rank_two_localization/proof.md",
+      "background/nodes/xr_split_pencil_trade_rank_two_localization/verify.py",
+      "background/nodes/xr_split_pencil_trade_rank_two_localization/result.md"
+    ],
+    "statement": "Let Lambda be a nonzero dual trade with distinct slopes and block intersection cap four. Rank one is impossible: dual RS_2 slope distance forces at least three proportional block rows, while dual GRS_4 distance gives them a common support of size at least five. At rank two there are at least four projectively distinct block rows; disjointness of their noncommon zero sets on the row-code line gives active coordinate support R<=floor(tm/(t-1))<=floor(4m/3). The official P-A caps are 12/12/9 and P-B one-loop caps are 13/13/10. This is a bounded-chart localization, not a payment."
+  },
+  "requires": [
+    {
+      "from": "xr_split_pencil_dual_trade_core",
+      "order": 1596
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1597
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1598
+    }
+  ],
+  "refutes": []
+}

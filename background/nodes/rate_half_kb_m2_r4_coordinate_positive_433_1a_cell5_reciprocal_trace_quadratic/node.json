@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1447,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic",
+    "title": "KoalaBear positive 433-1a cell-5 reciprocal trace quadratic",
+    "status": "PROVED",
+    "closure": "deployed principal reciprocal projection and guarded quadratic trace descent",
+    "statement": "In deployed-field cell 5, sign row (-1,-1), the fully guarded common ideal projects to one explicit 19-term reciprocal quartic P(b,t). On b!=0 it is exactly b^2 times a quadratic in u=b+b^{-1}, whose discriminant factors as -48(t-i)^2(t+i)^4(t^2-(2i/3)t-1). This does not reconstruct r,c, classify a signed family or colored edge, delete a cell/route/K3 row, or prove either Prize result.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_signed_family_decomposition_modal.py",
+      "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_signed_family_decomposition.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_signed_family_decomposition_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion",
+      "order": 3196
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3197
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1214,
+  "node": {
+    "id": "f3_h3_dsp8_nodal_trace_parameter_router",
+    "title": "DSP8 nodal-trace parameter router and marginal envelope",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every singular trace sigma=3c has an exact rational parameter theta. Its H-points lie in at most three affine coset-pair branches and satisfy N_sigma<12n^(2/3)+1; the pair target is an explicit four-factor rational function. The total singular raw quotient-weighted record count is below 12n^(2/3)(12n^(2/3)+1)^2. This has the correct O(n^2) exponent, but after the class weight its leading coefficient is 29376 versus the full DSP8 allowance 892, so marginal point bounds do not close or delete the nodal locus.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_nodal_trace_parameter_router/statement.md",
+      "background/nodes/f3_h3_dsp8_nodal_trace_parameter_router/proof.md",
+      "background/nodes/f3_h3_dsp8_nodal_trace_parameter_router/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_nodal_trace_parameter_router/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_nodal_trace_parameter_router/audit.md",
+      "background/nodes/f3_h3_dsp8_nodal_trace_parameter_router/result.md",
+      "background/nodes/f3_h3_dsp8_nodal_trace_parameter_router/verify.py",
+      "background/nodes/f3_h3_dsp8_nodal_trace_parameter_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_dsp8_unit_trace_elliptic_curve_router",
+      "order": 2024
+    },
+    {
+      "from": "f3_affine_coset_pair_optimized_stepanov",
+      "order": 2026
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

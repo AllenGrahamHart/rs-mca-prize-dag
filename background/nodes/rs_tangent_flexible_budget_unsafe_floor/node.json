@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 188,
+  "node": {
+    "id": "rs_tangent_flexible_budget_unsafe_floor",
+    "title": "RS tangent flexible-budget unsafe floor",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/rs_tangent_flexible_budget_unsafe_floor/statement.md",
+      "background/nodes/rs_tangent_flexible_budget_unsafe_floor/proof.md",
+      "background/nodes/rs_tangent_flexible_budget_unsafe_floor/claim_contract.md",
+      "background/nodes/rs_tangent_flexible_budget_unsafe_floor/verify.py",
+      "background/nodes/rs_tangent_flexible_budget_unsafe_floor/source_pin.json"
+    ],
+    "statement": "For C=RS[F,D,k], integer agreement k<a<n, e=n-a, q=|F|, and B*=floor(q/2^t), one received line has at least e pairwise-distinct support-wise MCA-bad slopes at radius 1-a/n. Thus n-a>floor(q/2^t), equivalently q<=e*2^t-1, is an exact direct-value unsafe certificate. Since D subset F gives e<n<=q, no extra field-size premise is needed.",
+    "notes": "HARVESTED 2026-07-27 from upstream prop:floor at b13de811; independently reconstructed in-node. This is a low-field direct-V supplier, not a safe-side converse.",
+    "upstream": {
+      "label": "Tangent floor (prop:floor)",
+      "relation": "IDENTICAL"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 524
+    }
+  ],
+  "refutes": []
+}

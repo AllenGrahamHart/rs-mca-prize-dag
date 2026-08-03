@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 833,
+  "node": {
+    "id": "f3_h3_rich_fiber_ideal_batching",
+    "title": "C36' same-fiber collision norms factor through one minimal cyclotomic ideal",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/f3_h3_rich_fiber_ideal_batching/statement.md",
+      "background/nodes/f3_h3_rich_fiber_ideal_batching/proof.md",
+      "background/nodes/f3_h3_rich_fiber_ideal_batching/result.md",
+      "background/nodes/f3_h3_rich_fiber_ideal_batching/verify.py",
+      "experiments/prize_resolution/h3_rich_norm_gcd_modal.py",
+      "experiments/prize_resolution/h3_rich_norm_gcd_result.json"
+    ],
+    "statement": "Let n=2^s, O=Z[zeta_n], pi=1-zeta_n, and P=(p,zeta_n-g) for a selected degree-one prime above an odd p=1 mod n. For distinct unordered exponent pairs with one common shifted product modulo P, let alpha_i be their lifted shifted-product differences relative to one reference and J=(alpha_i). Dyadic shifted-product Sidonicity makes every alpha_i nonzero. Uniformly, J is contained in (pi)^2 P, so 4p divides N(J), while N(J) divides every principal norm |Norm(alpha_i)|. At the complete boundary rich locus (n,p)=(8192,67657729), each of the two ten-pair fibers has gcd 4p already for its first two collision norms, proving that those two obstructions generate (pi)^2 P exactly. This is ideal-level batching and route evidence only; it does not bound the number or quotient weight of rich fibers."
+  },
+  "requires": [
+    {
+      "from": "f3_h3_shifted_product_sidon",
+      "order": 1402
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1403
+    }
+  ],
+  "refutes": []
+}

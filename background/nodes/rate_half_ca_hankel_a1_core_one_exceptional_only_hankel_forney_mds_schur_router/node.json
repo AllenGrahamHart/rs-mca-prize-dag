@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1185,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_mds_schur_router",
+    "title": "A=1 exceptional Forney MDS-Schur router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "If the normalized exceptional self-dual code is MDS, a systematic generator gives 2e-1 independent Schur products, so its product span is exactly the Forney residue hyperplane and the Forney unit is frame-determined up to scalar. Otherwise a maximal minor and its complementary maximal minor both vanish, yielding an explicit dependent-complement certificate.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_mds_schur_router/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_mds_schur_router/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_mds_schur_router/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_mds_schur_router/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_mds_schur_router/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_mds_schur_router/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_mds_schur_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_forney_residue_self_dual_algebra",
+      "order": 2433
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_exceptional_self_dual_evaluation_code",
+      "order": 2434
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2435
+    }
+  ],
+  "refutes": []
+}

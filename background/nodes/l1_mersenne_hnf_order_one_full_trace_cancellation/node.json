@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1695,
+  "node": {
+    "id": "l1_mersenne_hnf_order_one_full_trace_cancellation",
+    "title": "L1 Mersenne HNF order-one full-trace cancellation",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The automatic order-one root x_0=-1/(c-1) contributes identically to every star and inverse m-power trace because c_star-1=zeta/(c-1), zeta^m=1, and m is even. Hence the first r reduced reciprocal equations are exactly the first r full-P trace equalities. The first-three system can be generated from the original degree-h polynomial without division by the known root or construction of Qtilde.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_order_one_full_trace_cancellation/statement.md",
+      "background/nodes/l1_mersenne_hnf_order_one_full_trace_cancellation/proof.md",
+      "background/nodes/l1_mersenne_hnf_order_one_full_trace_cancellation/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_order_one_full_trace_cancellation/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_order_one_full_trace_cancellation/audit.md",
+      "background/nodes/l1_mersenne_hnf_order_one_full_trace_cancellation/result.md",
+      "background/nodes/l1_mersenne_hnf_order_one_full_trace_cancellation/verify.py"
+    ],
+    "notes": "Exact representation reduction inside the proved order-one Frobenius gate. It removes the quotient-division representation, not the parameter elimination or any pointwise outer/inner condition."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_order_one_newton_reciprocal_reduction",
+      "order": 3957
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3958
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 990,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_primitive_quotient_gate",
+    "title": "Budget-three antipodal quotient pencil is primitive",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The Mobius-welded antipodal map has exact odd degree d/4-1, so it cannot factor through a nontrivial cyclic or dihedral quotient of the dyadic subgroup. The direct index-four coset partition is also impossible: one deletion per coset gives four geometric-series factors with Vandermonde rank four, contradicting the rank-two pencil. The remaining quartic norm residual is primitive and nonperiodic.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_primitive_quotient_gate/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_primitive_quotient_gate/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_primitive_quotient_gate/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_primitive_quotient_gate/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_primitive_quotient_gate/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_primitive_quotient_gate/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_primitive_quotient_gate/verify.py",
+      "background/nodes/rate_half_list_budget_three_antipodal_primitive_quotient_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_mobius_weld",
+      "order": 1821
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1822
+    }
+  ],
+  "refutes": []
+}

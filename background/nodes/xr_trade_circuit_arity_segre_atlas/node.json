@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1300,
+  "node": {
+    "id": "xr_trade_circuit_arity_segre_atlas",
+    "title": "XR trade circuits have bounded arity and rank-two Segre atlas",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_trade_circuit_arity_segre_atlas/statement.md",
+      "background/nodes/xr_trade_circuit_arity_segre_atlas/proof.md",
+      "background/nodes/xr_trade_circuit_arity_segre_atlas/claim_contract.md",
+      "background/nodes/xr_trade_circuit_arity_segre_atlas/dependency_subdag.md",
+      "background/nodes/xr_trade_circuit_arity_segre_atlas/verify.py",
+      "background/nodes/xr_trade_circuit_arity_segre_atlas/verify_audit.py",
+      "background/nodes/xr_trade_circuit_arity_segre_atlas/audit.md",
+      "background/nodes/xr_trade_circuit_arity_segre_atlas/result.md"
+    ],
+    "statement": "A support-minimal row-scaling trade of rank r in a uniform split pencil has r+2<=t<=2r+1 active blocks, and every trade decomposes into such circuits of no larger rank. Since rank one is impossible, every rank-two trade decomposes into circuits on exactly four or five blocks. Their coefficient columns lie on the Segre quadric in P^3: four-block circuits are Mobius/Plucker graphs of rank three, while five-block circuits have rank four with every four columns independent. This removes arbitrary block arity from the proper local rank-two frontier; this node does not itself supply ownership or aggregate payment of the two constant-arity classes."
+  },
+  "requires": [
+    {
+      "from": "xr_higher_rank_uniform_split_pencil_reduction",
+      "order": 2761
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 2762
+    }
+  ],
+  "refutes": []
+}

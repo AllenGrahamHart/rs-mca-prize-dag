@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1006,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_reverse_residual_stratification",
+    "title": "Budget-three antipodal reverse-residual stratification",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "If q is the first nonzero centered outer coefficient of an antipodal quotient pencil and h=deg U-deg V, then the differential residual T=dDU-Y(D'U+4DU') is nonzero of exact degree deg U+4-qh. It contains every repeated, deleted-divisor, or zero root of U. On the two lowest official maximal-row strata T is respectively linear and quadratic.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_reverse_residual_stratification/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_reverse_residual_stratification/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_reverse_residual_stratification/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_reverse_residual_stratification/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_reverse_residual_stratification/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_reverse_residual_stratification/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_reverse_residual_stratification/verify.py",
+      "background/nodes/rate_half_list_budget_three_antipodal_reverse_residual_stratification/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_pencil_degree_floor",
+      "order": 1826
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1827
+    }
+  ],
+  "refutes": []
+}

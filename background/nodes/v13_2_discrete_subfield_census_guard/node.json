@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1198,
+  "node": {
+    "id": "v13_2_discrete_subfield_census_guard",
+    "title": "Paper D v13.2 discrete subfield-census guard",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For C=RS[F,D,K] with D subseteq B, K<=m, 2(m-K)<=n-K, w'=m-K, w'+1<=d1<=floor((n-K+1)/2), m'=K-1+d1, and m'+d1<=n, the Paper D v13.2 identity-prefix census has A_B(d1)=C(n,m')|B|^-(d1-1), exact floor M_B^disc=C(m',m)ceil(A_B), and soft upper model M_B^soft=C(m',m)(1+A_B). The ceiling precedes support multiplication. Exact replay gives the corrected KoalaBear floors 67.0958/56.0111/43.9348/57.6849 bits and Mersenne-31 floors 52.1129/41.0169/39.1799/57.6848 bits at offsets zero through three.",
+    "refs": [
+      "background/nodes/v13_2_discrete_subfield_census_guard/statement.md",
+      "background/nodes/v13_2_discrete_subfield_census_guard/proof.md",
+      "background/nodes/v13_2_discrete_subfield_census_guard/claim_contract.md",
+      "background/nodes/v13_2_discrete_subfield_census_guard/dependency_subdag.md",
+      "background/nodes/v13_2_discrete_subfield_census_guard/audit.md",
+      "background/nodes/v13_2_discrete_subfield_census_guard/result.md",
+      "background/nodes/v13_2_discrete_subfield_census_guard/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "shared_census_kernel",
+      "order": 2468
+    },
+    {
+      "to": "f1_case_tower",
+      "order": 2469
+    }
+  ],
+  "refutes": []
+}

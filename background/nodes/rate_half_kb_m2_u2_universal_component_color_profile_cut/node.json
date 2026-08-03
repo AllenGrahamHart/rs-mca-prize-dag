@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1399,
+  "node": {
+    "id": "rate_half_kb_m2_u2_universal_component_color_profile_cut",
+    "title": "KoalaBear m2 u2 universal component-color profile cut",
+    "status": "PROVED",
+    "closure": "four-edge component color class cuts five universal K-fiber profiles to three",
+    "statement": "For every residual degree-two source component, the four J incidences outside the common K fibers are exactly the left colored degrees of its four-edge color class in the two-regular pole graph. Hence every outside-K deficit is at most two and the universal K-fiber degree profile is exactly one of (2,2,4,4,4,4), (2,3,3,4,4,4), or (3,3,3,3,4,4). The first two prior five-profile cases are impossible and every J label occurs over K. No surviving profile or stabilizer type is deleted.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/statement.md",
+      "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/proof.md",
+      "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/audit.md",
+      "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/result.md",
+      "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/frontier.md",
+      "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/verify.py",
+      "background/nodes/rate_half_kb_m2_u2_universal_component_color_profile_cut/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_u2_universal_source_facet_census",
+      "order": 3058
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3630
+    }
+  ],
+  "refutes": []
+}

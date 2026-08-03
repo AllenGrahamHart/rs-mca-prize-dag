@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 895,
+  "node": {
+    "id": "xr_rank_five_u1_split_locator_nonbasis_bound",
+    "title": "XR rank-five one-defect quartic kernels have few nonbasis locators",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_rank_five_u1_split_locator_nonbasis_bound/statement.md",
+      "background/nodes/xr_rank_five_u1_split_locator_nonbasis_bound/proof.md",
+      "background/nodes/xr_rank_five_u1_split_locator_nonbasis_bound/verify.py",
+      "background/nodes/xr_rank_five_u1_split_locator_nonbasis_bound/result.md"
+    ],
+    "statement": "In a rank-five extension-list branch with u=1, the normalized kernel is a four-dimensional subspace W of quartics. A four-set T is a kernel nonbasis exactly when its split locator L_T lies in W. If W has no common evaluation root on an N-point domain, a triple-completion count and the sharp split-cubic locator line bound give at most floor((C(N,3)+(N-2)(N-4))/4) nonbasis four-sets. Official agreement blocks therefore contain at most 42/42/20 nonbases and at least 168/168/50 bases. This is a source-to-flat refinement, not an XR payment."
+  },
+  "requires": [
+    {
+      "from": "xr_rank_five_extension_list_reduction",
+      "order": 1581
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1582
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1583
+    }
+  ],
+  "refutes": []
+}

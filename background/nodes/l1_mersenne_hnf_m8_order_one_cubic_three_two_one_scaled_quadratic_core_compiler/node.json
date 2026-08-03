@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1657,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler",
+    "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one scaled quadratic-core compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Dimensionless scaling and the sixth coefficient turn every official 3+2+1 Frobenius-role branch into an explicit triangular system in (x,Y,q,d): three compact denominator-free coefficient equations, the conic, and one quadratic equation in the transported role pair (R_D,S_D).",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_scaled_quadratic_core_compiler/verify.py"
+    ],
+    "notes": "Exact triangular compiler only. The 21 systems remain a disjunction and no unit verdict or assignment-preserving arithmetic lift is claimed."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_common_quadratic_compiler",
+      "order": 4026
+    },
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_official_frobenius_role_split",
+      "order": 4027
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4028
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1350,
+  "node": {
+    "id": "rate_half_kb_m4_s6_562_pair_quotient_normal_form",
+    "title": "KoalaBear m4 S6 (5,6,2) pair-quotient normal form",
+    "status": "PROVED",
+    "closure": "exact cubic-adjoint normalization of the unordered-pair curve plus challenge-field pole descent",
+    "statement": "The rigid passport S6:5.1,2.2.2,3.2.1 has an explicit rational degree-15 normal form obtained from the cubic-adjoint pencil on the unordered-pair curve of the pinned BelyiDB degree-six companion. Its fibers are (5,5,5), (6,3,3,2,1), and (2,2,2,2,2,2,1,1,1). Its order-five fiber has one rational point and two points over Q(sqrt(5)), so the required three-point pole divisor splits over F_(2130706433^6). No split active fiber, quartic source-star incidence, m4 deletion, owner charge, endpoint, or row close is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/statement.md",
+      "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/proof.md",
+      "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/claim_contract.md",
+      "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/source_evidence.md",
+      "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/audit.md",
+      "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/result.md",
+      "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/frontier.md",
+      "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/verify.py",
+      "background/nodes/rate_half_kb_m4_s6_562_pair_quotient_normal_form/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m4_a6s6_genus_zero_passport_reduction",
+      "order": 3014
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3015
+    }
+  ],
+  "refutes": []
+}

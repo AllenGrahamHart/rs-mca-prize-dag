@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 664,
+  "node": {
+    "id": "e22_minimal_scale_count_formula",
+    "title": "E22 minimal-scale count formula",
+    "status": "PROVED",
+    "statement": "The dyadic quotient staircase pricing column, with any declared duplicate subtraction or multiplicity factor, counts exactly the supports whose canonical tail data satisfy the minimal-scale tail criterion. This is reduced to the proved minimal-scale partition plus the remaining exact column-evaluation theorem.",
+    "attack_surface": "assembly from the dyadic minimal-scale partition and the remaining exact pricing-column evaluation",
+    "falsifier": "a tail-minimal support class omitted, duplicated, or assigned the wrong multiplicity by the refined pricing formula",
+    "notes": "FIFTH-BRANCH REPLAY (2026-07-10): REPLAY-CLEAN as WEIGHT-PARAMETRIC identities (fresh verifiers, exhaustive n=8/16 + sampled n=32 ground truth, mutation controls; suites banked at critical/nodes/petal_growth/notes/g3_replay_20260710/). CATCH #44: the prior REPLAY-PENDING note undercounted \u2014 THREE nodes have verifiers (selector, tail_criterion, partition), not one. SCOPE CAVEAT (catch #47): the four pricing statements (pricing_compatibility, column_evaluation, count_formula, cross_scale head) reference a 'declared multiplicity' that is declared nowhere and is UNFILLABLE by any per-scale constant or integer weight (exact ratios 8/5, 640/3 vs dyadic_profile_evaluation) \u2014 their PROVED labels certify the parametric identities only; the instantiated readings need the catch-#47 re-pose. Does NOT discharge petal_g3_pricing_multiplicity (see that node). Still ev-only; do not req-wire."
+  },
+  "requires": [
+    {
+      "from": "e22_minimal_scale_tail_criterion",
+      "order": 999
+    },
+    {
+      "from": "dyadic_profile_evaluation",
+      "order": 1000
+    },
+    {
+      "from": "e22_minimal_scale_partition",
+      "order": 1003
+    },
+    {
+      "from": "e22_minimal_scale_column_evaluation",
+      "order": 1035
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1145
+    }
+  ],
+  "refutes": []
+}

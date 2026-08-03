@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1310,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder",
+    "title": "Budget-three fiber-two c=2 one-antipodal canonical cells obey a Fourier ladder",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every complete canonical one-antipodal c=2 candidate factors the punctured order-2^40 binomial into four equal root cells. Their power sums have an exact H-1 flat prefix; moment-kernel combinations orthogonal through w^s vanish through (s+1)H-1 for s=0,1,2. Under negation each such weighted coloring is either exactly invariant or has the printed Vandermonde/MDS support lower bound. This does not classify the colorings or prove C2-PAR.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer",
+      "order": 2788
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler",
+      "order": 2789
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_product_ratio_trace_compiler",
+      "order": 2790
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2791
+    }
+  ],
+  "refutes": []
+}

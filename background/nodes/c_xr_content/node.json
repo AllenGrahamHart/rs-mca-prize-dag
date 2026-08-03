@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 415,
+  "node": {
+    "id": "c_xr_content",
+    "title": "C_XR content at k=3 (grounded): post-strip extremals are fixed-core/fixed-hole structures",
+    "status": "PROVABLE",
+    "key": true,
+    "statement": "After stripping paid quotient strata, the k=3 inverse class C_XR consists exactly of fixed-core and fixed-hole (first-eigenspace) structures. Grounded by E11's stripped dictionary scan (J(16,8), J(32,16): only such structures top the E_3 lists) and #191's proved k=1 dictator extremals. This SPECIFIES the inverse theorem's target class \u2014 xr_inverse now has a concrete statement to prove rather than an unknown class to discover.",
+    "attack_surface": "DECOMPOSED: two elementary bridges (E_3 <-> expansion; junta <-> paid) + the NAMED literature engine (KMS Johnson-graph structure theorem) + one residue (quantitative matching at FM scale, with KLLM global hypercontractivity as the modern fallback). The pair-orbit scanner (QX.5) remains the empirical falsifier.",
+    "falsifier": "a stripped pair-orbit with top E_3 outside the fixed-core/fixed-hole family",
+    "refs": [
+      "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
+    ],
+    "notes": "FLIP on replay (Codex rednode wave 2): CONJECTURE -> CONDITIONAL; packet in nodes/c_xr_content/. | REGRESSED with the wave-4 downgrade (same chain as xr_kms); the regression rule is now mechanical in auto_discharge."
+  },
+  "requires": [
+    {
+      "from": "xr_e3_to_expansion",
+      "order": 702
+    },
+    {
+      "from": "xr_kms_import",
+      "order": 703
+    },
+    {
+      "from": "xr_junta_to_paid",
+      "order": 704
+    },
+    {
+      "from": "xr_kms_parameter_matching",
+      "order": 705
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

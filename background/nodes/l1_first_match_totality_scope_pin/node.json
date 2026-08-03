@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 522,
+  "node": {
+    "id": "l1_first_match_totality_scope_pin",
+    "title": "L1 first-match totality scope pin",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For any finite set of distinct image-fiber contributors, each with a nonempty finite set of carrying chart keys, assigning each contributor to its least carrying key gives a disjoint exhaustive first-owner partition. Thus image contributors are counted exactly once and valid owner-cell bounds may be summed without duplication. This is the multivalued-chart form of upstream's kernel-checked prefixFibreAtlas_total theorem. The later general first-layout theorem separately removes maximal source-layout multiplicity; this node supplies no payment for internal contributor-dependent rechart cells.",
+    "refs": [
+      "background/nodes/l1_first_match_totality_scope_pin/statement.md",
+      "background/nodes/l1_first_match_totality_scope_pin/proof.md",
+      "background/nodes/l1_first_match_totality_scope_pin/claim_contract.md",
+      "background/nodes/l1_first_match_totality_scope_pin/dependency_subdag.md",
+      "background/nodes/l1_first_match_totality_scope_pin/audit.md",
+      "background/nodes/l1_first_match_totality_scope_pin/upstream_crosswalk.md",
+      "background/nodes/l1_first_match_totality_scope_pin/verify.py",
+      "background/nodes/l1_first_match_totality_scope_pin/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2840
+    }
+  ],
+  "refutes": []
+}

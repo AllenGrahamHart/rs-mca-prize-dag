@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 413,
+  "node": {
+    "id": "second_pin_a426",
+    "title": "Second pin at the window edge: pair the unsafe side at A=425 with the exact-budget prime",
+    "status": "TARGET",
+    "key": true,
+    "statement": "With p = 22275*2^120 + 1 giving B* = 87 = LD_sw(426) exactly (safe side DONE via a426_universal_numerator): prove LD_sw(RS[F_p,D,256],425) > 87 for the chosen row \u2014 completing a second threshold-pinned row, at the window edge rather than the tangent range. A pinned row where quotient/window mechanics (not tangent exactness) govern would be the strongest partial yet.",
+    "attack_surface": "the unsafe side at 425: witness family via the same two-core structure one step down, or the qfloor family at the active scale; the budget prime is already chosen to make the arithmetic exact",
+    "falsifier": "LD_sw(425) <= 87 at the chosen row (would mean the crossing sits deeper \u2014 relocate the budget prime)",
+    "refs": [
+      "proof_sketch/s3a_regular_window.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "second_pin_or_wall",
+      "order": 691
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 79,
+  "node": {
+    "id": "e1_n256_s16_e26_six_two_odd_profile_exclusion",
+    "title": "N=256 E=26 six two-odd profile exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e26_six_two_odd_profile_exclusion/verify_audit.py",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_six_two_odd_profile_census.cpp",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_six_two_odd_profile_census_modal.py",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_six_two_odd_profile_census_result.json",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_six_two_odd_profile_census_audit.cpp",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_six_two_odd_profile_census_audit_modal.py",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_six_two_odd_profile_census_audit_result.json",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_six_two_odd_profile_exceptional_norm_modal.py",
+      "background/nodes/e1_n256_s16_e26_profile_parity_light_reduction/notes/e26_six_two_odd_profile_exceptional_norm_result.json"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), and V=52, all six two-odd magnitude profiles are impossible. Independent folded-chord and direct-negacyclic engines agree after 1,726,770,432 vectors per engine. They leave 17,624 cubic exceptions, 8,060 with full conductor; FLINT and PARI agree on every primitive norm and prove 2*N_max<2^250<3*N_max.",
+    "notes": "ROUTE CLOSURE 2026-07-27: closes the complete bounded two-odd V=52 branch. The four six-odd profiles remain open."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e26_profile_parity_light_reduction",
+      "order": 4168
+    },
+    {
+      "from": "e1_n256_proper_conductor_collision_exclusion",
+      "order": 4169
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 4170
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4173
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4174
+    }
+  ],
+  "refutes": []
+}

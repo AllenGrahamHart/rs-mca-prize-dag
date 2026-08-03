@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 529,
+  "node": {
+    "id": "l1_general_pullback_interleaving_descent",
+    "title": "L1 general polynomial-pullback interleaving descent",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every monic degree-s polynomial P, each degree-below-k polynomial has a unique normal form f=sum_(j<s)X^j g_j(P), with exact residue-dependent caps k_j=ceil((k-j)/s). On every complete s-point P-fiber, Vandermonde inversion turns agreement with an arbitrary received word into common agreement of the quotient tuple (g_j) with an s-component receiver on the fiber label. For b complete labels the quotient evaluation kernel has exact dimension kappa=sum_j max(0,k_j-b), so the contributor count is at most q^kappa times the common-support interleaved list for degree-below-ceil(k/s) evaluation on those labels. The proved interleaving collapse reduces this to q^kappa floor(L(q-1)/(q-L)), and to q^kappa L when L^2<q. A full complete-fiber domain partition with k<n has kappa=0. Partial fibers, sparse coverage, and ordinary list bounds on generally non-smooth label domains remain open.",
+    "refs": [
+      "background/nodes/l1_general_pullback_interleaving_descent/statement.md",
+      "background/nodes/l1_general_pullback_interleaving_descent/proof.md",
+      "background/nodes/l1_general_pullback_interleaving_descent/claim_contract.md",
+      "background/nodes/l1_general_pullback_interleaving_descent/dependency_subdag.md",
+      "background/nodes/l1_general_pullback_interleaving_descent/audit.md",
+      "background/nodes/l1_general_pullback_interleaving_descent/lineage.md",
+      "background/nodes/l1_general_pullback_interleaving_descent/result.md",
+      "background/nodes/l1_general_pullback_interleaving_descent/verify.py",
+      "background/nodes/l1_general_pullback_interleaving_descent/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "list_subsqrt_interleaving_collapse",
+      "order": 2872
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2873
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2874
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2875
+    }
+  ],
+  "refutes": []
+}

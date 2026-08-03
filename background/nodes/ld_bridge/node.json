@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 307,
+  "node": {
+    "id": "ld_bridge",
+    "title": "Line-decoding bridge: LD/MCA/CA slope sets coincide on the simple-pole family",
+    "status": "PROVED",
+    "refs": [
+      "experimental/notes/m2/m2_abf_gg_line_decoding_parameter_match.md"
+    ],
+    "notes": "multiplicity caveat: slope SETS coincide, list sizes differ (x1 \u00a72.7)"
+  },
+  "requires": [
+    {
+      "from": "deep_point",
+      "order": 169
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "mca_grand",
+      "order": 168
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 734,
+  "node": {
+    "id": "f2_bezout_certificate",
+    "status": "PROVED",
+    "statement": "F2 BEZOUT CERTIFICATE (2026-07-10, campaign cycle 13; digest F2_BEZOUT_CERTIFICATE_PASS, exact on all 52 t-null blocks at 3 cells): every t-null block S carries a UNIQUE certificate \u2014 by the full-ladder dictionary and the PROVED complementation lemma, (ell*_S)' = X^t U and (ell*_{S^c})' = X^t V, and differentiating ell*_S ell*_{S^c} = 1 - X^n gives U ell*_{S^c} + V ell*_S = -n X^{n-1-t}, with (U, V) the unique degree-bounded Bezout cofactors of the coprime pair (deg U < b, deg V < n-b). Every t-null block/complement pair is an X-POWER BEZOUT PAIR of divisors of 1 - X^n. Proof: one paragraph (differentiate + dictionary + coprimality). ROLE: exact certificate structure for crux face A (the trade-variety/rigidity route consumes exactly this shape); Mason-Stothers applied naively is vacuous (checked \u2014 t <= n-1 always), so the certificate's value is the uniqueness/parametrization, not an abc contradiction. Structure, not count progress: honest label."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1255
+    }
+  ],
+  "refutes": []
+}

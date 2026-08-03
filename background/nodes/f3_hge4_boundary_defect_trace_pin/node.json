@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1250,
+  "node": {
+    "id": "f3_hge4_boundary_defect_trace_pin",
+    "title": "HGE4 boundary-defect trace pin",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the e=1,2 HGE4 third-line boundaries, the separator defect G has no independent coefficients: it is fixed by the first one or two locator coefficients, with exact zero-value scalar gates. In the e=1 scaling orbit, p_0=1 and x=q_0 give d=x-1 and a=(1+x)/(x(x-1)^2). These are necessary pins, not boundary exclusions or counts.",
+    "refs": [
+      "background/nodes/f3_hge4_boundary_defect_trace_pin/statement.md",
+      "background/nodes/f3_hge4_boundary_defect_trace_pin/proof.md",
+      "background/nodes/f3_hge4_boundary_defect_trace_pin/claim_contract.md",
+      "background/nodes/f3_hge4_boundary_defect_trace_pin/dependency_subdag.md",
+      "background/nodes/f3_hge4_boundary_defect_trace_pin/audit.md",
+      "background/nodes/f3_hge4_boundary_defect_trace_pin/result.md",
+      "background/nodes/f3_hge4_boundary_defect_trace_pin/verify.py",
+      "background/nodes/f3_hge4_boundary_defect_trace_pin/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_complement_separator_defect_normal_form",
+      "order": 2604
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2605
+    }
+  ],
+  "refutes": []
+}

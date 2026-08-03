@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1155,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_abstract_quadric_divisor_route_fence",
+    "title": "Rate-half distance-three abstract quadric-divisor route fence",
+    "status": "PROVED",
+    "closure": "explicit construction",
+    "statement": "The abstract data consisting of a squarefree split degree-3e polynomial, split degree-e divisors in one projective three-space, and one rank-three quadric cone admit 6e+1 distinct divisor classes through a uniform three-pencil one-root-swap construction. Therefore cardinality and abstract quadric data alone cannot exclude the pair-complement trace.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_abstract_quadric_divisor_route_fence/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_abstract_quadric_divisor_route_fence/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_abstract_quadric_divisor_route_fence/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_abstract_quadric_divisor_route_fence/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_abstract_quadric_divisor_route_fence/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_abstract_quadric_divisor_route_fence/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_pair_complement_quadratic_trace",
+      "order": 2347
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2348
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1002,
+  "node": {
+    "id": "f3_h3_distance_four_fiber_degree_cap",
+    "title": "H3 distance-four fiber-degree cap",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Within one small-vector product fiber, generic vectors have norm three and the unique possible antipodal vector has norm one. Orient one valid cross-overlap per generic distance-four edge; each head determines its tail uniquely, so N_4(t)<=g+ag, hence N_4(t)<=2(m-1) for nonempty fibers, and antipodal-free fibers satisfy N_4(t)<=m.",
+    "refs": [
+      "background/nodes/f3_h3_distance_four_fiber_degree_cap/statement.md",
+      "background/nodes/f3_h3_distance_four_fiber_degree_cap/proof.md",
+      "background/nodes/f3_h3_distance_four_fiber_degree_cap/claim_contract.md",
+      "background/nodes/f3_h3_distance_four_fiber_degree_cap/dependency_subdag.md",
+      "background/nodes/f3_h3_distance_four_fiber_degree_cap/audit.md",
+      "background/nodes/f3_h3_distance_four_fiber_degree_cap/result.md",
+      "background/nodes/f3_h3_distance_four_fiber_degree_cap/verify.py",
+      "background/nodes/f3_h3_distance_four_fiber_degree_cap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_distance_four_cross_overlap_router",
+      "order": 1901
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1902
+    }
+  ],
+  "refutes": []
+}

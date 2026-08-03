@@ -1,0 +1,20 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 571,
+  "node": {
+    "id": "hankel_slope_large_sieve",
+    "title": "Hankel slope large sieve",
+    "status": "CONDITIONAL",
+    "statement": "Supported-slope estimate = R2's factorized residue (see statement.md); closed subcases: rank-drop, D=1, fixed D.",
+    "notes": "CONDITIONAL (Hankel thread, refereed): three proved reductions (fresh-rank <= 2n; the Vandermonde triple-shadow lemma; m=3 stagnations tangent-paid via the k+1 common-core slope solve) leave only the diffuse m>=4 case \u2014 a strictly narrower residue. | AMBER STRESS 2026-07-06: diffuse_shadow_circuit_scan.py found 11,785 minimal small-model stagnating circuits with 0 triple-shadow violations; m=3 circuits were tangent-core, while non-tangent m>=4 circuits landed in the diffuse residue."
+  },
+  "requires": [
+    {
+      "from": "diffuse_triple_shadow",
+      "order": 865
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

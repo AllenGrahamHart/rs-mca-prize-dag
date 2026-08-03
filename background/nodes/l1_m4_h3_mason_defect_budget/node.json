@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1626,
+  "node": {
+    "id": "l1_m4_h3_mason_defect_budget",
+    "title": "L1 m=4, h=3 Mason defect budget",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a hypothetical exact h=3 pencil on an official row n=4(p+1), depress the outer cubic and write (R^3+aR+b)D=X^n-alpha with deg R=p and deg D=p+4. Its linear coefficient satisfies a!=0. If nu=ord_0(R), then 0<=nu<=4, and H=3XU'D+XUD'-(n-3nu)UD is nonzero of degree at most 4-nu for U=R/X^nu. The product of the radical-defect factors UD/rad(UD) and B_0/rad(B_0), where B_0=((aR+b)D+alpha)/X^(3nu), divides H. Hence every repeated-root or overlap defect is localized at at most 4-nu points and the total defect is at most 4-nu. This is a finite low-defect classification target, not an emptiness theorem, component count, nonembedded h=2 classification, or L1 bound.",
+    "refs": [
+      "background/nodes/l1_m4_h3_mason_defect_budget/statement.md",
+      "background/nodes/l1_m4_h3_mason_defect_budget/proof.md",
+      "background/nodes/l1_m4_h3_mason_defect_budget/claim_contract.md",
+      "background/nodes/l1_m4_h3_mason_defect_budget/dependency_subdag.md",
+      "background/nodes/l1_m4_h3_mason_defect_budget/audit.md",
+      "background/nodes/l1_m4_h3_mason_defect_budget/result.md",
+      "background/nodes/l1_m4_h3_mason_defect_budget/lineage.md",
+      "background/nodes/l1_m4_h3_mason_defect_budget/upstream_crosswalk.md",
+      "background/nodes/l1_m4_h3_mason_defect_budget/verify.py",
+      "background/nodes/l1_m4_h3_mason_defect_budget/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_m4_h3_colored_cyclic_equivalence",
+      "order": 3858
+    },
+    {
+      "from": "l1_official_max_split_value_complement_census",
+      "order": 3859
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3860
+    }
+  ],
+  "refutes": []
+}

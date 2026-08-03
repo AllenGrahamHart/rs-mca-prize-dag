@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 174,
+  "node": {
+    "id": "e1_qzeta128_p257_j63_stickelberger_relation",
+    "title": "Q(zeta_128) J_63 Stickelberger relation",
+    "status": "PROVED",
+    "closure": "classical Jacobi-sum factorization and exact integer relation",
+    "refs": [
+      "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/statement.md",
+      "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/proof.md",
+      "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/claim_contract.md",
+      "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/dependency_subdag.md",
+      "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/audit.md",
+      "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/result.md",
+      "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/source_pin.json",
+      "background/nodes/e1_qzeta128_p257_j63_stickelberger_relation/verify.py"
+    ],
+    "statement": "An explicit product alpha of 32 Jacobi-sum ratios satisfies (alpha)=(q_1 q_63/(q_127 q_65))^(2*21121).",
+    "notes": "STICKELBERGER CERTIFICATE 2026-07-29: all 64 prime valuations are replayed from complement-carry bits and 32 printed integer coefficients."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

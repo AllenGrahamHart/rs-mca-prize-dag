@@ -1,0 +1,57 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 516,
+  "node": {
+    "id": "deployed_identity_prefix_owner_scope_audit",
+    "title": "Deployed identity-prefix floors do not enter B_ap",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the four deployed upstream rows, the exact identity-prefix lower attacks straddle their printed adjacent budgets, but their objects are boundary/higher-shell Q on list rows and simple-pole list-to-MCA owners on MCA rows. They are stripped before the local post-strip aperiodic residual, so they do not falsify local B_ap columns. The below-budget attack at the next row is not a safety certificate.",
+    "refs": [
+      "background/nodes/deployed_identity_prefix_owner_scope_audit/statement.md",
+      "background/nodes/deployed_identity_prefix_owner_scope_audit/proof.md",
+      "background/nodes/deployed_identity_prefix_owner_scope_audit/claim_contract.md",
+      "background/nodes/deployed_identity_prefix_owner_scope_audit/dependency_subdag.md",
+      "background/nodes/deployed_identity_prefix_owner_scope_audit/audit.md",
+      "background/nodes/deployed_identity_prefix_owner_scope_audit/result.md",
+      "background/nodes/deployed_identity_prefix_owner_scope_audit/deployed_rows.json",
+      "background/nodes/deployed_identity_prefix_owner_scope_audit/verify.py",
+      "background/nodes/deployed_identity_prefix_owner_scope_audit/verify_audit.py"
+    ],
+    "notes": "Resolves roadmap N3 with verdict NO ISSUE. Upstream source main@32a41660; source hashes and exact row contracts are pinned. This proves ownership separation, not any B_ap upper bound or safe row."
+  },
+  "requires": [
+    {
+      "from": "v13_2_discrete_subfield_census_guard",
+      "order": 821
+    },
+    {
+      "from": "l1_interior_bc_floor_higher_shell_q_routing",
+      "order": 822
+    },
+    {
+      "from": "f1_full_field_pole_forcing",
+      "order": 823
+    },
+    {
+      "from": "f1_pole_same_rate_scope_router",
+      "order": 824
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 529
+    },
+    {
+      "to": "mca_safe",
+      "order": 825
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 826
+    }
+  ],
+  "refutes": []
+}

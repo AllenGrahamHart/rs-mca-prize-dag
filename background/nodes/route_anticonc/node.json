@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 233,
+  "node": {
+    "id": "route_anticonc",
+    "title": "Route: anticoncentration (reduces to even moments)",
+    "status": "REFUTED",
+    "refs": [
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#3"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "r2_rigidity",
+      "order": 72
+    }
+  ],
+  "refutes": []
+}

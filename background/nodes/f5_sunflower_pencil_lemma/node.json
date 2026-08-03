@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 707,
+  "node": {
+    "id": "f5_sunflower_pencil_lemma",
+    "status": "PROVED",
+    "statement": "F5 SUNFLOWER PENCIL LEMMA (2026-07-07, F5 program P5; F5_SKELETON.md): post-tangent-strip, any live family whose supports share a common k-subset W has N <= (n-k)/(t-d) <= n-k, and N <= (n-k)/t when no pencil-degenerate points survive (d = 0). Proof: codewords through W form the pencil P_W + z*Q_W (linearity of interpolation); each outside point coincides at exactly ONE slope unless pencil-degenerate; >= t degenerate points = pair agreement >= k+t with (P_W,Q_W) = a TANGENT event charged to the strip; disjoint slope-classes then cap N. At the official KoalaBear shape (t ~ 67471): N <= ~14.5 \u2014 catch #10's core-legal matching-free sunflower is priced in three lines by the coding structure. Verified live twice (P5-E1/E2: engineered pencil-stacking absorbed by the tangent strip exactly as predicted)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1208
+    }
+  ],
+  "refutes": []
+}

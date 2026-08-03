@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1707,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition",
+    "title": "L1 Mersenne HNF m=8 order-one quadratic pointwise composition",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every h=7 quadratic colored interpolant E=AW^2+BW+C, the pointwise Frobenius equations give A^pE^3+B^pWE^2+C^pW^2E-W^2=A^pA^3L. Comparing top and bottom coefficients forces C/A=(1-rho*c)/(c-1)^2 and the pure HNF equation g(1)=(1-rho*c)^3.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_quadratic_pointwise_composition/verify.py"
+    ],
+    "notes": "Exact assignment-preserving quadratic identity. It adds one HNF parameter equation shared by all collision chambers; incompatibility with the conic and all outer/inner tests remain open."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+      "order": 3984
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3985
+    }
+  ],
+  "refutes": []
+}

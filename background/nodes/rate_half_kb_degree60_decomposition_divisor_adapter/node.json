@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1335,
+  "node": {
+    "id": "rate_half_kb_degree60_decomposition_divisor_adapter",
+    "title": "KoalaBear degree-60 decomposition divisor adapter",
+    "status": "PROVED",
+    "closure": "exact zero and pole divisor pullback",
+    "statement": "For every residual geometric decomposition f=F composed h of the KoalaBear degree-60 endpoint f=V_act/A^5, the reduced 60-point active divisor is exactly a union of complete unramified h-fibers and the reduced 12-point source divisor has the exact fiber and ramification profile prescribed by the eight-row pole ladder. This proves local active/source set preservation only; it supplies no coefficient-field descent, full evaluation-domain quotient, witness-data descent, owner, charge, cap 68, u2 close, or row close.",
+    "refs": [
+      "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/statement.md",
+      "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/proof.md",
+      "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/claim_contract.md",
+      "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/source_evidence.md",
+      "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/dependency_subdag.md",
+      "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/audit.md",
+      "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/result.md",
+      "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/frontier.md",
+      "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/verify.py",
+      "background/nodes/rate_half_kb_degree60_decomposition_divisor_adapter/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
+      "order": 2986
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2988
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 831,
+  "node": {
+    "id": "xr_affine_core_cogirth_ray_bound",
+    "title": "Affine-core cogirth ray bound",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_affine_core_cogirth_ray_bound/statement.md",
+      "background/nodes/xr_affine_core_cogirth_ray_bound/proof.md",
+      "background/nodes/xr_affine_core_cogirth_ray_bound/verify.py",
+      "background/nodes/xr_affine_core_cogirth_ray_bound/result.md"
+    ],
+    "statement": "Let A be an affine subspace over a nonconstant syndrome line, let K=(A-A) intersect ker H have dimension a, and assume genericity at radius r. The coordinate matroid of K restricted to any error zero set has cogirth at least Delta-r and hence at least C(Delta-r+a-1,a) bases. Charging nonpersistent zeros gives |P|C(Delta-r+a-1,a)<=C(N,a)(N-a). Exact XR arithmetic pays full-domain selector ranks 4,4,3,11,11,10; combined with the collision-line self-localized charts it closes the complete high-core rank-four branch on all six rows. || w8-C8 CORRECTION (2026-07-16, forced): the 'closes the complete high-core rank-four branch on all six rows' sentence above PRE-DATES catch #158 and contradicted the P-A statement's scoped form; correct scoping = five rows unconditional + RowC 1/16 line-covered/line-admitting hulls -- and the remaining #158 sub-case is now ALSO discharged covering-free by xr_affine_core_all_zero_charge (wave-8, AZC margin 0.5005%, pin note w8-C9)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1393
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1394
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 545,
+  "node": {
+    "id": "l1_tangent_confluent_packet_packing",
+    "title": "L1 tangent confluent-packet packing",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For an exact shell of size a, let r_P=deg gcd(L_P,Q_P) be each member's tangent degree. Confluent packets give sum_{P:r_P>=j} binom(r_P,j)binom(a-j,k-2j)<=binom(n,j)binom(n-j,k-2j). In the balanced band, with omega=n-a and s=n-2a+k, the weighted intersection law gives the companion bound sum_{P:r_P>=j}binom(r_P,j)binom(omega,s-j)<=binom(n,j)binom(n-j,s-j). Its j=0 case is complement packing and consecutive tail-ceiling ratio is (w+j+1)/(r0-j), so positive j helps exactly above r0>w+1. These exact field-independent families avoid summing formal gcd owners but can remain exponential; no primitive flatness is asserted.",
+    "refs": [
+      "background/nodes/l1_tangent_confluent_packet_packing/statement.md",
+      "background/nodes/l1_tangent_confluent_packet_packing/proof.md",
+      "background/nodes/l1_tangent_confluent_packet_packing/claim_contract.md",
+      "background/nodes/l1_tangent_confluent_packet_packing/dependency_subdag.md",
+      "background/nodes/l1_tangent_confluent_packet_packing/audit.md",
+      "background/nodes/l1_tangent_confluent_packet_packing/lineage.md",
+      "background/nodes/l1_tangent_confluent_packet_packing/upstream_crosswalk.md",
+      "background/nodes/l1_tangent_confluent_packet_packing/verify.py",
+      "background/nodes/l1_tangent_confluent_packet_packing/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_tangent_hasse_root_pinning_census",
+      "order": 2921
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2922
+    }
+  ],
+  "refutes": []
+}

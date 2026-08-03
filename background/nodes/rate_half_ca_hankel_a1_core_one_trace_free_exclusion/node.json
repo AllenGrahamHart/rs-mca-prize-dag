@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 976,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_trace_free_exclusion",
+    "title": "A=1 core-one trace-free weld exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official A=1 core-one maximal-degree sharp cap, the trace-free nonzero-weld branch is impossible. The exceptional Z_W allocation contradicts the positive gcd of Q(gamma_0;X) and P_X. The remaining reduced square makes every supported Q_gamma divide P_X, so every bad row has full deficit e_* and C_*=ce_*. Capacity forces b=0,D_*=1,c=1. At that profile the exceptional fiber has degree r-1, requiring deg_X A_1(gamma_0)=D_0-r, while B_X|A and deg_X A=D_0-r permit only D_0-r-1. Hence every surviving profile has an active defect trace of K.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_trace_free_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_trace_free_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_trace_free_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_trace_free_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_trace_free_exclusion/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_trace_free_exclusion/verify_audit.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_trace_free_exclusion/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_trace_free_exclusion/result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_trace_free_allocation_rigidity",
+      "order": 1797
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1798
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1213,
+  "node": {
+    "id": "f3_affine_coset_pair_optimized_stepanov",
+    "title": "Optimized one-fiber affine coset-pair Stepanov bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At every official dyadic prime-field row, any two nonconstant nonproportional affine forms simultaneously take values in H at fewer than 4n^(2/3) inputs. This is the exact T=1 optimization of the proved in-house Stepanov construction. It improves the older conservative 66n^(2/3) one-fiber corollary but does not change the multi-fiber rich-coset or energy constants.",
+    "refs": [
+      "background/nodes/f3_affine_coset_pair_optimized_stepanov/statement.md",
+      "background/nodes/f3_affine_coset_pair_optimized_stepanov/proof.md",
+      "background/nodes/f3_affine_coset_pair_optimized_stepanov/claim_contract.md",
+      "background/nodes/f3_affine_coset_pair_optimized_stepanov/dependency_subdag.md",
+      "background/nodes/f3_affine_coset_pair_optimized_stepanov/audit.md",
+      "background/nodes/f3_affine_coset_pair_optimized_stepanov/result.md",
+      "background/nodes/f3_affine_coset_pair_optimized_stepanov/verify.py",
+      "background/nodes/f3_affine_coset_pair_optimized_stepanov/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h2_stepanov_inhouse",
+      "order": 2025
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

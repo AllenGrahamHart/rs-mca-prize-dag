@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 271,
+  "node": {
+    "id": "harness",
+    "title": "run_all_verifiers + checker hardening + negative controls",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/harness/proof.md",
+      "background/nodes/harness/audit.py"
+    ],
+    "statement": "The fail-closed verifier harness discovers every local node/tool verifier, separates remote launchers, checks an exact SHA-256 manifest for all verifiers and adjacent proof assets, and rejects six mutation controls. The complete hash-pinned Modal replay has 97 PASS, zero FAIL/TIMEOUT/HASH_MISMATCH/REMOTE_ERROR; the audit checks every replay row against the manifest. [MASTER IMPORT 2026-07-12 (wave-2 audit): manifest REGENERATED on master file state (97 scripts / 1 remote launcher / 173 assets) and the full run replayed green on master (97/97, incl. the healed five \u2014 catch #90: master's replay layer had been silently broken since the partition reorg \u2014 and the f_dual rewrite, catch #91: proven-equivalent min-dependent-column form, 1000x faster, stronger controls). Fail-closed confirmed by three manifest mutations. tools/replay_all.py retired. Count staleness was catch #93.]"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1270,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_outer_torsion_trace_gate",
+    "title": "Budget-three fiber-two c=2 outer quartic passes a dyadic torsion-trace gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At quotient order N=2^40, every generic canonical c=2 denominator-mismatch survivor has an outer invariant cubic K_O(Z)=4I^3 Z(Z-36)^2-J^2(Z+12)^3 sharing a root with the N-torsion trace locus. In F[Z]/(K_O), start Q_0=Z-2 and iterate Q_(j+1)=Q_j^2-2 for forty steps. Then gcd(K_O,Q_40-2) is nonconstant. Each remainder has degree at most two, so this outer-only necessary gate uses forty cubic-quotient squarings and no dense Chebyshev or cyclotomic polynomial. Passage does not identify a pair of D_* roots, prove canonical span, or reconstruct a cycle.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_outer_torsion_trace_gate/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_outer_torsion_trace_gate/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_outer_torsion_trace_gate/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_outer_torsion_trace_gate/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_outer_torsion_trace_gate/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_outer_torsion_trace_gate/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_outer_torsion_trace_gate/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_outer_torsion_trace_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_mismatch_trace_resolvent_elimination",
+      "order": 2662
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2663
+    }
+  ],
+  "refutes": []
+}

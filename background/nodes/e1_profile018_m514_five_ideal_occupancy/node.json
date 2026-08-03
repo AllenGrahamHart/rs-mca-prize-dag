@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 171,
+  "node": {
+    "id": "e1_profile018_m514_five_ideal_occupancy",
+    "title": "E1 profile-(0,18) cofactor-514 five-ideal occupancy",
+    "status": "PROVED",
+    "closure": "proved ideal-class descent",
+    "refs": [
+      "background/nodes/e1_profile018_m514_five_ideal_occupancy/statement.md",
+      "background/nodes/e1_profile018_m514_five_ideal_occupancy/proof.md",
+      "background/nodes/e1_profile018_m514_five_ideal_occupancy/claim_contract.md",
+      "background/nodes/e1_profile018_m514_five_ideal_occupancy/attack.md",
+      "background/nodes/e1_profile018_m514_five_ideal_occupancy/frontier.md",
+      "background/nodes/e1_profile018_m514_five_ideal_occupancy/dependency_subdag.md",
+      "background/nodes/e1_profile018_m514_five_ideal_occupancy/audit.md",
+      "background/nodes/e1_profile018_m514_five_ideal_occupancy/result.md",
+      "experiments/prize_resolution/e1_profile018_m514_low_energy_root_search_modal.py"
+    ],
+    "statement": "At most two, hence at most five, of the 128 degree-one ideals above 257 are occupied in one fixed binding-row prime/root fiber.",
+    "notes": "CLASS-DESCENT CLOSE 2026-07-29: occupied Q_s share one class in Q(zeta_256); ideal norm descends them to equal classes in Q(zeta_128). Proved pairwise class separation below leaves one lower prime and its two upper extensions."
+  },
+  "requires": [
+    {
+      "from": "e1_profile018_qzeta128_class_descent_two_ideal_bound",
+      "order": 4628
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4618
+    }
+  ],
+  "refutes": []
+}

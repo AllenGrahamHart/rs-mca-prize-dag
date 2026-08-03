@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 360,
+  "node": {
+    "id": "es_regularity",
+    "title": "ES route: adapt the algebraic regularity lemma (Tao) as the off-the-shelf enumerator",
+    "status": "TARGET",
+    "key": true,
+    "statement": "Formulate alignment as a definable relation of bounded description complexity and apply an F_q algebraic-regularity/ES-type theorem: structure-vs-pseudorandomness with power savings, exceptional sets ALGEBRAIC and classifiable. Named obstacle: bounded complexity vs our degrees growing with t \u2014 the same dimension-free obstacle in regularity-lemma clothing.",
+    "refs": [
+      "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#4"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "spi_exceptional_class",
+      "order": 576
+    },
+    {
+      "to": "payment_completeness",
+      "order": 580
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1254,
+  "node": {
+    "id": "f3_hge4_near_third_belyi_necklace_bound",
+    "title": "HGE4 near-third Belyi necklace bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every primitive non-full exact-level pair with m=3h+e and 0<e<h, reciprocal linearization produces a tame central-star Belyi map. Hence E_h^prim(m,p)<=2N(h+e,e). This sharpens the e=1,2 debits to 2 and (m+4)/3 and pays five further exact-level cells, without proving the remaining aggregate.",
+    "refs": [
+      "background/nodes/f3_hge4_near_third_belyi_necklace_bound/statement.md",
+      "background/nodes/f3_hge4_near_third_belyi_necklace_bound/proof.md",
+      "background/nodes/f3_hge4_near_third_belyi_necklace_bound/claim_contract.md",
+      "background/nodes/f3_hge4_near_third_belyi_necklace_bound/dependency_subdag.md",
+      "background/nodes/f3_hge4_near_third_belyi_necklace_bound/audit.md",
+      "background/nodes/f3_hge4_near_third_belyi_necklace_bound/result.md",
+      "background/nodes/f3_hge4_near_third_belyi_necklace_bound/verify.py",
+      "background/nodes/f3_hge4_near_third_belyi_necklace_bound/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "tame_central_star_belyi_necklace_bound",
+      "order": 2610
+    },
+    {
+      "from": "f3_hge4_complement_separator_defect_normal_form",
+      "order": 2611
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2612
+    }
+  ],
+  "refutes": []
+}

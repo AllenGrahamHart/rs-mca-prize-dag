@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 168,
+  "node": {
+    "id": "e1_s18_m514_sharp_product_ceiling",
+    "title": "E1 square-mass-18 cofactor-514 sharp product ceiling",
+    "status": "PROVED",
+    "closure": "sharp two-moment product extremum and exact rational certificate",
+    "refs": [
+      "background/nodes/e1_s18_m514_sharp_product_ceiling/statement.md",
+      "background/nodes/e1_s18_m514_sharp_product_ceiling/proof.md",
+      "background/nodes/e1_s18_m514_sharp_product_ceiling/claim_contract.md",
+      "background/nodes/e1_s18_m514_sharp_product_ceiling/dependency_subdag.md",
+      "background/nodes/e1_s18_m514_sharp_product_ceiling/audit.md",
+      "background/nodes/e1_s18_m514_sharp_product_ceiling/result.md",
+      "background/nodes/e1_s18_m514_sharp_product_ceiling/frontier.md",
+      "background/nodes/e1_s18_m514_sharp_product_ceiling/verify.py"
+    ],
+    "statement": "Every conductor-256 square-mass-18 cofactor-514 prize collision has autocorrelation energy at most 17. At E=18, all 57 feasible two-level product chambers lie below 514 times the prize field floor, and chamberwise monotonicity excludes every larger energy.",
+    "notes": "UNIVERSAL PRODUCT CEILING 2026-07-29: repairs the previously implicit E<=17 premise in the profile-(2,10) outer-energy leaf. The closest exact comparison is the 63-lower-entry chamber; the adjacent E=17 envelope remains above threshold. Profile-independent and reusable at (0,18)."
+  },
+  "requires": [
+    {
+      "from": "collision_norm_criterion",
+      "order": 4597
+    },
+    {
+      "from": "e1_prize_field_floor_even_norm_exclusion",
+      "order": 4598
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4599
+    }
+  ],
+  "refutes": []
+}

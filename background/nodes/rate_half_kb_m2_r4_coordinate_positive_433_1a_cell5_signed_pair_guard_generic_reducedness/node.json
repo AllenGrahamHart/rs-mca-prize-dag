@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1450,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness",
+    "title": "KoalaBear positive 433-1a cell-5 signed-pair generic reducedness",
+    "status": "PROVED",
+    "closure": "primitive cyclic specialization proves generic reducedness",
+    "statement": "For the deployed chart-2 guard-localized squared DE+/DE- algebra over F_p(t), multiplication by ell=x1+2*x0+3*b has a regular t=2 specialization with a cyclic vector and squarefree degree-24 minimal polynomial. Hence ell is generically primitive and the localized length-24 algebra is reduced. This does not factor the primitive polynomial, classify exceptional fibers or source lifts, impose the colored edge, delete a cell, route, or K3 row, or prove either Prize result.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_localized_operator_modal.py",
+      "experiments/prize_resolution/merge_rate_half_kb_positive_433_1a_cell5_pair_localized_operator.py",
+      "experiments/prize_resolution/check_rate_half_kb_positive_433_1a_cell5_pair_localized_operator.py",
+      "experiments/prize_resolution/audit_rate_half_kb_positive_433_1a_cell5_pair_localized_operator.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_pair_localized_operator_merged_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank",
+      "order": 3204
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3205
+    }
+  ],
+  "refutes": []
+}

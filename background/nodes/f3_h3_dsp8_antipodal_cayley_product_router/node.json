@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1211,
+  "node": {
+    "id": "f3_h3_dsp8_antipodal_cayley_product_router",
+    "title": "DSP8 antipodal Cayley-product router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For an antipodal target t=1-a^2, let C(h)=(1+h)/(1-h), B=C(H without {1,-1}), and M_a=#{(alpha,beta) in B^2:alpha beta=C(a)}. Then P(1-a^2)=2+M_a exactly, so the DSP8 cutoff P>=25 is M_a>=23. If E_a counts ordered signed-disjoint edges among the corresponding small-generic factor pairs and L_a is the quotient-line multiplicity, then K_25^A=sum E_a L_a over canonical a with M_a>=23. This is an exact router and supplies no weighted-energy bound.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_antipodal_cayley_product_router/statement.md",
+      "background/nodes/f3_h3_dsp8_antipodal_cayley_product_router/proof.md",
+      "background/nodes/f3_h3_dsp8_antipodal_cayley_product_router/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_antipodal_cayley_product_router/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_antipodal_cayley_product_router/audit.md",
+      "background/nodes/f3_h3_dsp8_antipodal_cayley_product_router/result.md",
+      "background/nodes/f3_h3_dsp8_antipodal_cayley_product_router/verify.py",
+      "background/nodes/f3_h3_dsp8_antipodal_cayley_product_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_dsp8_primitive_shift_pair_adapter",
+      "order": 2043
+    },
+    {
+      "from": "f3_h3_antipodal_tail_distance_six_split",
+      "order": 2044
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2045
+    }
+  ],
+  "refutes": []
+}

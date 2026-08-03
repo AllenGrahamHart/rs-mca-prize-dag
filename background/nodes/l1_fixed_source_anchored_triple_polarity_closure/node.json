@@ -1,0 +1,60 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 526,
+  "node": {
+    "id": "l1_fixed_source_anchored_triple_polarity_closure",
+    "title": "L1 fixed-source anchored triple-polarity closure",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Fix one maximal source and consider genuine degree-ell common-pencil recharts whose quotient partition carries one whole fixed-source petal. For every partition, include points outside its complete ell-fibers in the layout and defect polarities. Under fixed caps R_0,B_0,P_0, arbitrary partial source cores, complete-fiber source petals, every degree strip, ell>=c_0 n/log_2 n, ell>2P_0, and q<=n^gamma, the total across all anchored partitions and canonical charts is at most M_src(R_0+1)(B_0+1)(P_0+1)16^(n/ell)n^(R_0+B_0+P_0)q^(2P_0), hence polynomial. The strict-window and thin-edge CRT bounds pay all numerator/Forney multiplicity in this scope. Growing triple polarity, unanchored or smaller-fiber quotient maps, and arbitrary petal locators remain open.",
+    "refs": [
+      "background/nodes/l1_fixed_source_anchored_triple_polarity_closure/statement.md",
+      "background/nodes/l1_fixed_source_anchored_triple_polarity_closure/proof.md",
+      "background/nodes/l1_fixed_source_anchored_triple_polarity_closure/claim_contract.md",
+      "background/nodes/l1_fixed_source_anchored_triple_polarity_closure/dependency_subdag.md",
+      "background/nodes/l1_fixed_source_anchored_triple_polarity_closure/audit.md",
+      "background/nodes/l1_fixed_source_anchored_triple_polarity_closure/lineage.md",
+      "background/nodes/l1_fixed_source_anchored_triple_polarity_closure/result.md",
+      "background/nodes/l1_fixed_source_anchored_triple_polarity_closure/verify.py",
+      "background/nodes/l1_fixed_source_anchored_triple_polarity_closure/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_fixed_source_quotient_partition_anchor_census",
+      "order": 2854
+    },
+    {
+      "from": "l1_polarized_petal_entropy_ledger",
+      "order": 2855
+    },
+    {
+      "from": "l1_marked_common_pencil_crt_fiber_bound",
+      "order": 2856
+    },
+    {
+      "from": "l1_marked_common_pencil_next_strip_boundary_fiber_bound",
+      "order": 2857
+    },
+    {
+      "from": "petal_reserve_rich_fiber_reduction",
+      "order": 2858
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2859
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2860
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2861
+    }
+  ],
+  "refutes": []
+}

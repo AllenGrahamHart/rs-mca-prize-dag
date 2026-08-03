@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1629,
+  "node": {
+    "id": "l1_m4_h3_nu3_quadratic_frobenius_kernel",
+    "title": "L1 m=4, h=3, nu=3 quadratic Frobenius kernel",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In the clean nu=3 case, let J be the canonical antiderivative of cX^4U^2 with all p-multiple coefficients zero. There is a unique quadratic Q=q_2X^2+q_1X with q_2!=0 and q_2^p=a such that X^5U^3D=(X^4-Q)^p+J and X^5B_0=Q^p-J. Also ord_0(J)=5 and c=5U(0)D(0). Thus the wild Frobenius kernel has two scalar parameters. This node alone is a normal form; the proved tangent-radical successor excludes nu=3, while L1 remains open through other strata.",
+    "refs": [
+      "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/statement.md",
+      "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/proof.md",
+      "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/claim_contract.md",
+      "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/dependency_subdag.md",
+      "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/audit.md",
+      "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/result.md",
+      "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/lineage.md",
+      "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/upstream_crosswalk.md",
+      "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/verify.py",
+      "background/nodes/l1_m4_h3_nu3_quadratic_frobenius_kernel/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_m4_h3_cartier_resonance_reduction",
+      "order": 3865
+    },
+    {
+      "from": "l1_m4_h3_euler_quotient_factorization",
+      "order": 3866
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3867
+    }
+  ],
+  "refutes": []
+}

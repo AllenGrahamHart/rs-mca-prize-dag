@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 566,
+  "node": {
+    "id": "generator_size_budget_check",
+    "title": "generator size budget check",
+    "status": "REFUTED",
+    "statement": "The signed-8-core raw subset count exceeds 2^89 only by multiplying each core by binom(56,28) zero-sum antipodal paddings with identical e1. Its distinct-center upper bound is 19 binom(64,8)<2^37, and even all 2^8 sign patterns give fewer than 2^41 centers. Therefore this family does not meet the generator_economy budget.",
+    "refs": [
+      "background/nodes/generator_size_budget_check/statement.md",
+      "background/nodes/generator_size_budget_check/refutation.md",
+      "background/nodes/generator_size_budget_check/audit.md",
+      "background/nodes/generator_size_budget_check/result.md",
+      "background/nodes/generator_size_budget_check/verify.py"
+    ],
+    "notes": "The raw count 19*C(64,8)*C(56,28) is correct; its padding factor is collision multiplicity, not value-set mass."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "generator_economy",
+      "order": 857
+    }
+  ],
+  "refutes": []
+}

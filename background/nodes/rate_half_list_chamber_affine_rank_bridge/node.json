@@ -1,0 +1,54 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1690,
+  "node": {
+    "id": "rate_half_list_chamber_affine_rank_bridge",
+    "title": "Budget-three rank-flat chamber bridge is a route fence",
+    "status": "PROVED",
+    "closure": "proof",
+    "gate": "all",
+    "refs": [
+      "background/nodes/rate_half_list_chamber_affine_rank_bridge/statement.md",
+      "background/nodes/rate_half_list_chamber_affine_rank_bridge/proof.md",
+      "background/nodes/rate_half_list_chamber_affine_rank_bridge/claim_contract.md",
+      "background/nodes/rate_half_list_chamber_affine_rank_bridge/dependency_subdag.md",
+      "background/nodes/rate_half_list_chamber_affine_rank_bridge/audit.md",
+      "background/nodes/rate_half_list_chamber_affine_rank_bridge/result.md",
+      "background/nodes/rate_half_list_chamber_affine_rank_bridge/lineage.md",
+      "background/nodes/rate_half_list_chamber_affine_rank_bridge/upstream_crosswalk.md",
+      "background/nodes/rate_half_list_chamber_affine_rank_bridge/verify.py",
+      "background/nodes/rate_half_list_chamber_affine_rank_bridge/verify_rank_flat_fence.py",
+      "background/nodes/rate_half_list_chamber_affine_rank_bridge/verify_rank_flat_fence_audit.py",
+      "background/nodes/rate_half_list_chamber_affine_rank_bridge/verify_compiler_cannot_bite.py"
+    ],
+    "statement": "For every four-codeword budget-three predecessor witness in RS[F,D,2d], |D|=4d and d>=3, affine rank is three and common mismatch is b=0. Every six-type incidence pattern has a pair agreeing on exactly 2d-1 coordinates, so d_1=2d+1, and has a selected triple intersection of size at least d-1, so d_2<=3d+1. With 2d+3<=d_3<=4d, the rank-flat expression is strictly greater than four: x(x-1)(x-2)>8d^2(x-d-1) for x=d_3. Hence its integer cap is at least four in all thirteen chambers and the harvested compiler cannot prove the predecessor cap three. The bridge is closed as a route fence, not a chamber exclusion.",
+    "falsifier": "A valid six-type tuple with d_1=2d+1, d_2<=3d+1, 2d+3<=d_3<=4d, b=0, and rank-flat integer cap at most three.",
+    "notes": "Reconciled after canonical f2634a1f. The local affine-rank theorem makes the canonical s=2 program vacuous; the common-mismatch theorem gives b=0; exact incidence arithmetic proves the remaining rank-flat route cannot bite. Wired ev to rate_half_list_adjacent_crossing because it closes only a harvested proof route. MI2 remains scope-mismatched and unnecessary."
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_affine_rank_rigidity",
+      "order": 1700
+    },
+    {
+      "from": "rate_half_list_budget_three_common_mismatch_zero",
+      "order": 1702
+    },
+    {
+      "from": "rate_half_list_budget_three_intersection_reduction",
+      "order": 1704
+    },
+    {
+      "from": "upstream_gfv4_affine_span_list_compiler",
+      "order": 1705
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 3946
+    }
+  ],
+  "refutes": []
+}

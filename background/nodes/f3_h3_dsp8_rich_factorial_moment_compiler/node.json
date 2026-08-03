@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1226,
+  "node": {
+    "id": "f3_h3_dsp8_rich_factorial_moment_compiler",
+    "title": "DSP8 rich factorial-moment compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For F_25^c=sum over class-c P>=25 targets of P(t)(P(t)-2)R(t), the decorated disjoint correlation satisfies 10K_25^0+17K_25^A<=(10F_25^0+17F_25^A)/4<=(17/4)M_21, where M_21=sum over t!=1 of P(t)(P(t)-1)R(t). Consequently 25(10F_25^0+17F_25^A)<=48536n^2, or more strongly 425M_21<=48536n^2, implies the uniform DSP8 target. The older FM69 target is sufficient but substantially stronger than necessary.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/statement.md",
+      "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/proof.md",
+      "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/audit.md",
+      "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/result.md",
+      "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/verify.py",
+      "background/nodes/f3_h3_dsp8_rich_factorial_moment_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_disjoint_distance_six_split_pencil_router",
+      "order": 2505
+    },
+    {
+      "from": "f3_h3_dsp8_primitive_shift_pair_adapter",
+      "order": 2506
+    },
+    {
+      "from": "f3_h3_dsp8_global_overlap_cover_payment",
+      "order": 2507
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2508
+    }
+  ],
+  "refutes": []
+}

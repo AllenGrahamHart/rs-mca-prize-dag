@@ -1,0 +1,52 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 531,
+  "node": {
+    "id": "l1_full_domain_pullback_intrinsic_rigidity",
+    "title": "L1 full-domain pullback intrinsic rigidity",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let H=alpha*mu_n lie in a finite field, let s|n, and let P be monic of degree s. If complete s-point level fibers of P partition all of H, then multiplying their locators gives X^n-alpha^n=F(P). Hence K(X^n) is contained in K(P) inside the cyclic Galois extension K(X)/K(X^n). The unique order-s subgroup fixes K(X^s), so K(P)=K(X^s); polynomial behavior at infinity and monicity force P=X^s+c. Thus every full-domain pullback partition is the intrinsic mu_s quotient, and every fully fiberwise exact support is owned by pma_exact_periodic_owner. There is no non-intrinsic full-domain residual, including the former sub-Johnson sector. General pullback escape requires incomplete domain fibers, partial-fiber agreement, or failure to carry a whole fixed-source petal.",
+    "refs": [
+      "background/nodes/l1_full_domain_pullback_intrinsic_rigidity/statement.md",
+      "background/nodes/l1_full_domain_pullback_intrinsic_rigidity/proof.md",
+      "background/nodes/l1_full_domain_pullback_intrinsic_rigidity/claim_contract.md",
+      "background/nodes/l1_full_domain_pullback_intrinsic_rigidity/dependency_subdag.md",
+      "background/nodes/l1_full_domain_pullback_intrinsic_rigidity/audit.md",
+      "background/nodes/l1_full_domain_pullback_intrinsic_rigidity/lineage.md",
+      "background/nodes/l1_full_domain_pullback_intrinsic_rigidity/result.md",
+      "background/nodes/l1_full_domain_pullback_intrinsic_rigidity/verify.py",
+      "background/nodes/l1_full_domain_pullback_intrinsic_rigidity/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_general_pullback_interleaving_descent",
+      "order": 2881
+    },
+    {
+      "from": "pma_exact_periodic_owner",
+      "order": 2882
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_full_pullback_divisibility_johnson_closure",
+      "order": 2883
+    },
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2884
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2885
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2886
+    }
+  ],
+  "refutes": []
+}

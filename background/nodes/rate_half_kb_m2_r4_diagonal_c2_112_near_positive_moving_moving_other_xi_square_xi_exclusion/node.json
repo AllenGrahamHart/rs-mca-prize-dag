@@ -1,0 +1,81 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1393,
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion",
+    "title": "KoalaBear c2 (1,1,2) near positive moving-moving other-xi square-xi exclusion",
+    "status": "PROVED",
+    "closure": "the deployed-field positive near-aligned moving-moving xi=b square allocation c->1/b,d->1/d is empty",
+    "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize a=2, xi=b, eta=c, ell=d and w=1/c, and use moving-moving source edges {2,b},{2,1/b}. Assign the residual over c to (W-1/b)^2 and the residual over d to (W-1/d)^2. The nonreciprocal c product splits into two cubic branches whose sum-resultants leave two nonstandard parent components; reciprocal trace reduction leaves three components over d. The six pair projections have a complete characteristic-zero and modular census with exactly seven linear and one quadratic relevant factor. All eight have unit forbidden saturations. A direct/resultant primary and no-import fraction-free/terminal-subresultant audit agree. Thus this chart is empty; the swapped and mixed moving-moving affine positive charts, projective boundary, and negative loci remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/data/README.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/data/kb_c2_112_other_square-xi_c_cores.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/data/kb_c2_112_other_square-xi_d_cores.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/data/kb_c2_112_other_square-xi_c_components.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/data/kb_c2_112_other_square-xi_d_components.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_runner.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_source_d.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_components_c.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_components_d.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_pair00.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_pair01.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_pair02.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_pair10.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_pair11.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_pair12.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_classify0.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_classify1.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_classify2.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_classify3.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_classify4.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_classify5.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_classify6.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_classify7.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_source_d.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_components_c.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_components_d.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_pair00.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_pair01.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_pair02.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_pair10.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_pair11.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_pair12.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_classify0.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_classify1.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_classify2.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_classify3.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_classify4.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_classify5.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_classify6.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion/verify_audit_classify7.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+      "order": 4732
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+      "order": 4733
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4734
+    }
+  ],
+  "refutes": []
+}

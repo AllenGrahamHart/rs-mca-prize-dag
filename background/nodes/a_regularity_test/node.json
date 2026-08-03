@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 349,
+  "node": {
+    "id": "a_regularity_test",
+    "title": "Toy measurement: a-regularity frequency + irregular-stratum contribution",
+    "status": "TARGET",
+    "refs": [
+      "wp_detail/wp5_2_wp6_2_wp6_3_bridges.md#1"
+    ],
+    "closure": "computation",
+    "notes": "TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "a_regularity_forcing",
+      "order": 553
+    }
+  ],
+  "refutes": []
+}

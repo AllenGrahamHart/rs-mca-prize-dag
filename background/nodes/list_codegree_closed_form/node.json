@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 799,
+  "node": {
+    "id": "list_codegree_closed_form",
+    "title": "Finite-depth arbitrary-arity closed form for the codegree recursion",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/list_codegree_closed_form/statement.md",
+      "background/nodes/list_codegree_closed_form/proof.md"
+    ],
+    "statement": "For a_j=k+2^j sigma, base-list maxima B_j, d=max{j:a_j<=n}, and every m>=1, the worst m-interleaved common-support list at a_0 is at most sum_{r=0}^{min(m-1,d)} binom(m-1,r) product_{j=0}^r B_j."
+  },
+  "requires": [
+    {
+      "from": "codegree",
+      "order": 1343
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "list_large_m_scope_closure",
+      "order": 1340
+    }
+  ],
+  "refutes": []
+}

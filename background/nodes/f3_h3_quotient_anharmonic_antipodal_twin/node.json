@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1223,
+  "node": {
+    "id": "f3_h3_quotient_anharmonic_antipodal_twin",
+    "title": "H3 quotient anharmonic symmetry and antipodal twin",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The quotient weight R(t) is constant on the six-value anharmonic orbit of every nonzero nonidentity target. On an antipodal target t=1-a^2, tau(t)=t/(t-1)=1-a^(-2) has exactly the same product richness P and quotient weight R. Antipodal P and M_a=P-2 are even, so P>=25 is exactly P>=26 and M_a>=24. This canonicalizes antipodal target evaluation but does not preserve or identify signed-disjoint edge counts.",
+    "refs": [
+      "background/nodes/f3_h3_quotient_anharmonic_antipodal_twin/statement.md",
+      "background/nodes/f3_h3_quotient_anharmonic_antipodal_twin/proof.md",
+      "background/nodes/f3_h3_quotient_anharmonic_antipodal_twin/claim_contract.md",
+      "background/nodes/f3_h3_quotient_anharmonic_antipodal_twin/dependency_subdag.md",
+      "background/nodes/f3_h3_quotient_anharmonic_antipodal_twin/audit.md",
+      "background/nodes/f3_h3_quotient_anharmonic_antipodal_twin/result.md",
+      "background/nodes/f3_h3_quotient_anharmonic_antipodal_twin/verify.py",
+      "background/nodes/f3_h3_quotient_anharmonic_antipodal_twin/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_quotient_block_identity",
+      "order": 2492
+    },
+    {
+      "from": "f3_h3_dsp8_antipodal_cayley_product_router",
+      "order": 2493
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2494
+    }
+  ],
+  "refutes": []
+}

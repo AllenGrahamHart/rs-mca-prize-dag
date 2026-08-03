@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 583,
+  "node": {
+    "id": "aqb_shared_entropy_gain",
+    "title": "AQB shared-family entropy gain",
+    "status": "REFUTED",
+    "statement": "For the averaged c=2 quotient-box family supplied by aqb_c2_average_family, the shared-family entropy minus all charged box, overlap, multiplicity, and quotient/fiber normalization costs is at least 429,645,547 bits. This is reduced to the proved entropy-ledger certificate soundness rule and the remaining exact ledger payload for the concrete averaged family.",
+    "attack_surface": "assembly from entropy-ledger soundness and the remaining exact/interval payload for the concrete averaged family",
+    "falsifier": "a certified accounting of the proposed family whose net shared entropy gain is below 429,645,547 bits",
+    "notes": "AQB ROUTE REFUTED (Pro, verified): convex-combination obstruction \u2014 the averaging transfer needs the family AVERAGE (convex comb of single-box counts <= max box), so box-sharing saves log|F| but the \u00f7|F| normalization cancels it. Gain needs a heavy-fiber theorem (forbidden, circular). See aqb_coupled_family_entropy_manifest_payload/refutation.md."
+  },
+  "requires": [
+    {
+      "from": "aqb_entropy_ledger_certificate_soundness",
+      "order": 885
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "aqb_box_charge_amortization",
+      "order": 881
+    },
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1102
+    }
+  ],
+  "refutes": []
+}

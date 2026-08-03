@@ -1,0 +1,56 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1328,
+  "node": {
+    "id": "f3_hge4_ambient_norm_level_contraction",
+    "title": "HGE4 ambient-prime exact-level contraction",
+    "status": "PROVED",
+    "closure": "proof plus exact official-row arithmetic verifier",
+    "statement": "For an official ambient order n=2^s, exact ratio level m=2^r|n, and split prime p>=n^2, the coupled norm/Vandermonde/swap gate deletes every lower-quarter width satisfying n^(2 floor(h/2)) >= (4h-floor((h-1)/2)-2)^(m/4). In particular, with c(n,m)=2 ceil(mr/(8s)), E_h^prim(m,p)=0 for max(4,c(n,m))<=h<m/3. Thus every proper exact level contracts below its local quarter frontier while the top level also gains parity-sensitive exact deletions. The closed-form cutoff alone deletes 55,050,457,488 additional (n,m,h) cells. This is a width exclusion, not a surviving-orbit estimate or an HGE4 closure.",
+    "refs": [
+      "background/nodes/f3_hge4_ambient_norm_level_contraction/statement.md",
+      "background/nodes/f3_hge4_ambient_norm_level_contraction/proof.md",
+      "background/nodes/f3_hge4_ambient_norm_level_contraction/claim_contract.md",
+      "background/nodes/f3_hge4_ambient_norm_level_contraction/dependency_subdag.md",
+      "background/nodes/f3_hge4_ambient_norm_level_contraction/audit.md",
+      "background/nodes/f3_hge4_ambient_norm_level_contraction/result.md",
+      "background/nodes/f3_hge4_ambient_norm_level_contraction/lineage.md",
+      "background/nodes/f3_hge4_ambient_norm_level_contraction/verify.py",
+      "background/nodes/f3_hge4_ambient_norm_level_contraction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_exact_ratio_tower_orbit_compiler",
+      "order": 2971
+    },
+    {
+      "from": "f3_hge4_cyclotomic_norm_quarter_width_exclusion",
+      "order": 2972
+    },
+    {
+      "from": "f3_hge4_nonfull_complement_third_gate",
+      "order": 2973
+    },
+    {
+      "from": "f3_hge4_vandermonde_defect_band_exclusion",
+      "order": 2974
+    },
+    {
+      "from": "f3_hge4_primitive_swap_odd_moment_router",
+      "order": 2975
+    },
+    {
+      "from": "f3_hge4_swap_norm_haar_band_exclusion",
+      "order": 2976
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2977
+    }
+  ],
+  "refutes": []
+}

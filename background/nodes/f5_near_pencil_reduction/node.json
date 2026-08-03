@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 708,
+  "node": {
+    "id": "f5_near_pencil_reduction",
+    "status": "PROVED",
+    "statement": "F5 NEAR-PENCIL REDUCTION (2026-07-07, F5 program P6-P7; F5_SKELETON.md; machine check f5_p7v_reduction_check_modal.py): for pairs (u,v) within joint distance 2r of a pencil pair (c0+z0*w0, w0): (NP-SUPPORT) every post-tangent live support has >= t+1 perturbed points (the correction codeword c' has <= k-1 zeros unless it is the pencil itself, which is tangent-charged); (NP-VALIDITY) every VALID live support has >= 1 v-perturbed point (else v|_S is a codeword restriction and the validity gate zeroes it \u2014 this kills the z-free channel where every slope goes live); (P7.1 REDUCTION, machine-checked digit-for-digit in 10/10 trials at (24,73) and (24,193)) the mining remainder bijects with split-over-D' polynomials of degree k-1 in the explicit codim-(t-1) subspace V_T = eval_T^{-1}(span(du|_T, dv|_T)), slope read off the line position; higher strata are the partially-split members of the same family (uniform overdetermination t-1 at every stratum). CONSEQUENCE: the F5 near-pencil remainder IS a base-field split-in-subspace census \u2014 an instance of the shared kernel (see shared_census_kernel). Z-mining density law q^-(t-1) calibrated exactly across q = 73/193/577/1153 (P6-E3)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1209
+    },
+    {
+      "to": "shared_census_kernel",
+      "order": 1213
+    }
+  ],
+  "refutes": []
+}

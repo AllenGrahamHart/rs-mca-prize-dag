@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 818,
+  "node": {
+    "id": "petal_g1_k4_scale_reserve",
+    "title": "Quotient-closed G1 and K4 fit current plus intrinsic descendants in one n^6 allocation",
+    "status": "REFUTED",
+    "statement": "On every rate-preserving quotient row n>=256, assume G1 supplies a finite paid atlas with sum_chi(m_chi+1)<=(121/128)n^6. K4 bounds each chart by m_chi+1, so first-match summation gives the same primitive payment. The intrinsic geometric ledger then bounds the current row plus all proper descendants by less than (64/63)(121/128)n^6=(121/126)n^6. Together with quotient descent and exact-support projection, this proves the small-scale census conditional only on weighted G1. || RE-POSED AT IMPORT (catch #116): the branch marked this PROVED via an asserted, nowhere-proved classification lemma \u2014 re-posed CONDITIONAL on petal_g1_layer_maps + petal_descent_classification_bridge; ev-wired ALTERNATE to the census gate (master's successor-red route stands). || RETIRED (2026-07-13, catch #150): this alternate hypothesizes exactly the falsified weighted form + the 64/63 rider (g1a-unsatisfiable, #148) \u2014 the audit's D4 fate-sweep caught it as the one missed consumer. Superseded by Lemma COL + clause (D).",
+    "refs": [
+      "background/nodes/petal_g1_k4_scale_reserve/statement.md",
+      "background/nodes/petal_g1_k4_scale_reserve/proof.md",
+      "background/nodes/petal_g1_k4_scale_reserve/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_small_scale_staircase_census",
+      "order": 1378
+    }
+  ],
+  "refutes": []
+}

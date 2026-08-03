@@ -1,0 +1,55 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1069,
+  "node": {
+    "id": "dli_wcl_fixed_divisor_straight_line_lift",
+    "title": "WCL fixed-divisor sparse straight-line certificate lift",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For each of the four residual WCL fixed-divisor ideals, monic repeated division gives an exact straight-line scheme V_t^2=V_(t+1)+GQ_t with V_0=Y and V_m=1. It is scheme-isomorphic over Z to G dividing Y^(2^m)-1, and every equation has total degree at most three. Removing deterministic low-degree squarings and substituting the terminal remainder gives exact presentations ranging from 52 variables and 54 equations to 114 variables and 119 equations. Their characteristic-zero unit ideals therefore have integer Nullstellensatz certificates. No certificate, complexity bound, or slot exclusion is claimed.",
+    "refs": [
+      "background/nodes/dli_wcl_fixed_divisor_straight_line_lift/statement.md",
+      "background/nodes/dli_wcl_fixed_divisor_straight_line_lift/proof.md",
+      "background/nodes/dli_wcl_fixed_divisor_straight_line_lift/result.md",
+      "background/nodes/dli_wcl_fixed_divisor_straight_line_lift/claim_contract.md",
+      "background/nodes/dli_wcl_fixed_divisor_straight_line_lift/dependency_subdag.md",
+      "background/nodes/dli_wcl_fixed_divisor_straight_line_lift/audit.md",
+      "background/nodes/dli_wcl_fixed_divisor_straight_line_lift/verify.py",
+      "background/nodes/dli_wcl_fixed_divisor_straight_line_lift/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_ell4_weight9_quartic_divisor_descent",
+      "order": 2004
+    },
+    {
+      "from": "dli_wcl_odd_next_boundary_square_divisor_descent",
+      "order": 2005
+    },
+    {
+      "from": "dli_wcl_ell1_weight6_even_norm_divisor_descent",
+      "order": 2006
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_slot_1_5_emptiness",
+      "order": 2007
+    },
+    {
+      "to": "dli_wcl_slot_1_6_emptiness",
+      "order": 2008
+    },
+    {
+      "to": "dli_wcl_slot_2_7_emptiness",
+      "order": 2009
+    },
+    {
+      "to": "dli_wcl_slot_4_9_emptiness",
+      "order": 2010
+    }
+  ],
+  "refutes": []
+}

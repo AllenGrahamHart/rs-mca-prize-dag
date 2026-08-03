@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1601,
+  "node": {
+    "id": "xr_prize_flat_nullity_maxwell_trade_space_compiler",
+    "title": "XR prize flat-nullity Maxwell trade-space compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "After deleting at most v exceptional slopes, any prize P-A flat-nullity cell has a normalized rank-a polynomial kernel W on blocks of size a+h+u+v with pair cap a+u+v. Every minimal dense core on t blocks has at least (u+v)(t-2)+e+1 independent trades. Every rank-one trade canonically owns a shared kernel-matroid circuit C of size at most a+1 on which both received directions restrict to W. This covers arbitrary u but does not count circuit owners or pay trade rank at least two.",
+    "refs": [
+      "background/nodes/xr_prize_flat_nullity_maxwell_trade_space_compiler/statement.md",
+      "background/nodes/xr_prize_flat_nullity_maxwell_trade_space_compiler/proof.md",
+      "background/nodes/xr_prize_flat_nullity_maxwell_trade_space_compiler/claim_contract.md",
+      "background/nodes/xr_prize_flat_nullity_maxwell_trade_space_compiler/dependency_subdag.md",
+      "background/nodes/xr_prize_flat_nullity_maxwell_trade_space_compiler/audit.md",
+      "background/nodes/xr_prize_flat_nullity_maxwell_trade_space_compiler/result.md",
+      "background/nodes/xr_prize_flat_nullity_maxwell_trade_space_compiler/verify.py",
+      "background/nodes/xr_prize_flat_nullity_maxwell_trade_space_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_rs_common_root_basis_charge",
+      "order": 3776
+    },
+    {
+      "from": "xr_rs_flat_nullity_basis_charge",
+      "order": 3777
+    },
+    {
+      "from": "xr_prize_flat_nullity_effective_core_floor",
+      "order": 3778
+    },
+    {
+      "from": "xr_prize_flat_nullity_nonpersistent_root_cap",
+      "order": 3779
+    },
+    {
+      "from": "xr_prize_u0_loop_defect_maxwell_rank_one_compiler",
+      "order": 3780
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3781
+    }
+  ],
+  "refutes": []
+}

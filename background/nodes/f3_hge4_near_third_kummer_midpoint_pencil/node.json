@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1288,
+  "node": {
+    "id": "f3_hge4_near_third_kummer_midpoint_pencil",
+    "title": "HGE4 near-third Kummer midpoint pencil",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every near-third Belyi pair, the cyclotomic complement has W=ZS+lambda y^c and the midpoint satisfies S | 1-(1-a^2lambda)y^m. Over a finite base field containing mu_m, all midpoint factors have one Kummer degree d dividing h; if d>1 its Frobenius multiplier stabilizes both outside members, contradicting primitivity. Hence d=1 and the retained strip reduces to a base-field-split three-member divisor pencil at every width.",
+    "refs": [
+      "background/nodes/f3_hge4_near_third_kummer_midpoint_pencil/statement.md",
+      "background/nodes/f3_hge4_near_third_kummer_midpoint_pencil/proof.md",
+      "background/nodes/f3_hge4_near_third_kummer_midpoint_pencil/claim_contract.md",
+      "background/nodes/f3_hge4_near_third_kummer_midpoint_pencil/dependency_subdag.md",
+      "background/nodes/f3_hge4_near_third_kummer_midpoint_pencil/audit.md",
+      "background/nodes/f3_hge4_near_third_kummer_midpoint_pencil/result.md",
+      "background/nodes/f3_hge4_near_third_kummer_midpoint_pencil/verify.py",
+      "background/nodes/f3_hge4_near_third_kummer_midpoint_pencil/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_near_third_belyi_necklace_bound",
+      "order": 2729
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2730
+    }
+  ],
+  "refutes": []
+}

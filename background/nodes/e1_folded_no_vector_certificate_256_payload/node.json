@@ -1,0 +1,17 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 612,
+  "node": {
+    "id": "e1_folded_no_vector_certificate_256_payload",
+    "title": "E1 folded no-vector certificate payload for N'=256",
+    "status": "TARGET",
+    "statement": "Over the named E1 Pocklington field and displayed primitive 256th root, construct a complete machine-checkable folded-kernel certificate proving that no nonzero non-cyclotomic vector w in {-2,-1,0,1,2}^128 satisfies the N'=256 folded kernel equation.",
+    "attack_surface": "actual complete no-vector certificate for the N'=256 folded kernel over the named field/root",
+    "falsifier": "a nonzero non-cyclotomic folded vector in the named N'=256 field/root, or an incomplete certificate transcript",
+    "notes": "FALSE-GREEN CORRECTION: the req edge into e1_folded_certificate_cell_256_payload consumes a complete zero-vector certificate. The banked bad-prime average is only an almost-all-primes survivor-density estimate and does not certify the named field, prove the required finite zero statement, or establish the family-uniform prize quantifier. The prior BKZ run was explicitly inconclusive. See status_ruling.md."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

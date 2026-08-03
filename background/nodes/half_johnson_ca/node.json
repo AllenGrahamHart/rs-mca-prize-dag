@@ -1,0 +1,17 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 373,
+  "node": {
+    "id": "half_johnson_ca",
+    "title": "v12: self-contained half-Johnson CA bound (+ optional BCIKS import)",
+    "status": "PROVED",
+    "refs": [
+      "tex/cs25_cap_v12.tex"
+    ],
+    "notes": "feeds the CA->MCA reduction; the BCIKS variant is an optional external import (bridge row if used)"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

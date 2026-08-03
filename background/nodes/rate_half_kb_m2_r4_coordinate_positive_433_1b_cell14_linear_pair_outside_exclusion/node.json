@@ -1,0 +1,54 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1782,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-14 linear-pair outside exclusion",
+    "status": "PROVED",
+    "closure": "144 exact outside cases excluded by target-free linear-pair projection and complete parameter-boundary census",
+    "statement": "On the guarded principal quadratic-cover branch of deployed positive 433-1b role cell 14, every outside case is empty when the missing record is one of de,de,-de and the other two de records form a Vieta pair. The full 4 source-sign x 4 target-lane x 3 missing-role x 3 matching census has 144 cases; 144 open ideals and 1632 exact boundary-factor ideals are unit. The other 1536 raw outside cases and complete cell-14 closure remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_generic_fiber_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_linear_pair_census.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_linear_pair_census_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_linear_pair_pairing0_complete_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_linear_pair_pairings1_2_open_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_linear_pair_xi0_1_pairings1_2_boundary_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_linear_pair_xi2_pairings1_2_boundary_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell14_linear_pair_xi2_boundary_timeout_replay_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure",
+      "order": 4957
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+      "order": 4958
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+      "order": 4959
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4960
+    }
+  ],
+  "refutes": []
+}

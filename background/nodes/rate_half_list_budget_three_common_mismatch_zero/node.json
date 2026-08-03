@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1689,
+  "node": {
+    "id": "rate_half_list_budget_three_common_mismatch_zero",
+    "title": "Budget-three common direction zeros always agree with the received word",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every four-codeword budget-three predecessor witness and every selected-support pattern supplied by the intersection reduction, n_0=0 makes the selected agreement sets cover D. At a common zero of the direction code all four codeword values coincide, and coverage makes at least one of them equal to the received value. Hence every common zero is a common agreement and the rank-flat mismatch parameter is exactly b=0 in all six incidence types and thirteen edge-degree chambers.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_common_mismatch_zero/statement.md",
+      "background/nodes/rate_half_list_budget_three_common_mismatch_zero/proof.md",
+      "background/nodes/rate_half_list_budget_three_common_mismatch_zero/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_common_mismatch_zero/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_common_mismatch_zero/audit.md",
+      "background/nodes/rate_half_list_budget_three_common_mismatch_zero/result.md",
+      "background/nodes/rate_half_list_budget_three_common_mismatch_zero/lineage.md",
+      "background/nodes/rate_half_list_budget_three_common_mismatch_zero/upstream_crosswalk.md",
+      "background/nodes/rate_half_list_budget_three_common_mismatch_zero/verify.py",
+      "background/nodes/rate_half_list_budget_three_common_mismatch_zero/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_intersection_reduction",
+      "order": 1701
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1703
+    }
+  ],
+  "refutes": []
+}

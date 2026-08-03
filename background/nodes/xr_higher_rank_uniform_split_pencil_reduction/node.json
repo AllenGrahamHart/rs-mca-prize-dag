@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 982,
+  "node": {
+    "id": "xr_higher_rank_uniform_split_pencil_reduction",
+    "title": "XR uniform higher-rank selectors reduce to bounded split-pencil trades",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_higher_rank_uniform_split_pencil_reduction/statement.md",
+      "background/nodes/xr_higher_rank_uniform_split_pencil_reduction/proof.md",
+      "background/nodes/xr_higher_rank_uniform_split_pencil_reduction/claim_contract.md",
+      "background/nodes/xr_higher_rank_uniform_split_pencil_reduction/dependency_subdag.md",
+      "background/nodes/xr_higher_rank_uniform_split_pencil_reduction/verify.py",
+      "background/nodes/xr_higher_rank_uniform_split_pencil_reduction/audit.md"
+    ],
+    "statement": "For every high-core selector rank s=a+1 in the uniform flat-nullity cell u=v=0, tangent genericity gives a coherent GRS_a split pencil on N=R+a coordinates with block size a+h and pair cap a. Any over-budget family contains a minimal Maxwell core hL=2v-2a+e, 0<=e<=h-1, whose parity stack has an extra right-kernel class and at least e+1 dual-product-code trade relations. Active block rows have weight at least a+1 and active coordinates degree at least three. Trade rank one is impossible; trade rank two has 4<=t<=a+2, active union a+2<=rho<=2a, and a polynomial-pencil model of degree at most a-1. This is the arbitrary-rank uniform-cell structural compiler, not an aggregate slope payment."
+  },
+  "requires": [
+    {
+      "from": "xr_rs_flat_nullity_basis_charge",
+      "order": 1762
+    },
+    {
+      "from": "xr_poststrip_affine_pencil_charge",
+      "order": 1763
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1764
+    }
+  ],
+  "refutes": []
+}

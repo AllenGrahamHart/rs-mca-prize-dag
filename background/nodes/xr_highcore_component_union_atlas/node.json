@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 827,
+  "node": {
+    "id": "xr_highcore_component_union_atlas",
+    "title": "Canonical high-core component-union atlas",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_highcore_component_union_atlas/statement.md",
+      "background/nodes/xr_highcore_component_union_atlas/proof.md",
+      "background/nodes/xr_highcore_component_union_atlas/result.md",
+      "background/nodes/xr_highcore_component_union_atlas/verify.py"
+    ],
+    "statement": "For a generic post-strip pair, graph live slopes by size-k collisions, equivalently by witness error-set unions of size R=n-k. The nonisolated slopes partition into canonical connected components C. A lexicographic spanning-tree selection chooses one witness ray per slope and a component union U_C of size R+d_C. Each slope has an r=n-A supported lift in U_C, genericity is inherited, and GRK gives |Z_C|C(d_C+h,d_C)<=C(R+d_C,d_C)R. Hence the high-core slope count is the exact disjoint sum over C and is at most sum_C floor(C(R+d_C,d_C)R/C(d_C+h,d_C)). This resolves core/chart/slope deduplication but does not bound the component count or excess ledger by 8n^3."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1385
+    }
+  ],
+  "refutes": []
+}

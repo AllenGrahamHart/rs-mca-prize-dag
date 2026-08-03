@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1715,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction",
+    "title": "L1 Mersenne HNF m=8 order-one cubic three-double q=-6x^2 degree-12 reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the exceptional q=-6x^2 branch, the h=7 conic and reduced fifth coefficient force every cubic 2+2+2 packet onto R_12(d)=105F(d)^2+7A(d)F(d)E(d)+10B(d)E(d)^2=0, an explicit degree-12 polynomial with leading coefficient 149868.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_q6x2_degree12_reduction/verify.py"
+    ],
+    "notes": "Exact necessary finite endpoint only. Squaring may add roots, the 32 official norm gcds are not yet evaluated, and any retained root still owes all reconstruction and color/Frobenius/inner filters."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction",
+      "order": 4004
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4005
+    }
+  ],
+  "refutes": []
+}

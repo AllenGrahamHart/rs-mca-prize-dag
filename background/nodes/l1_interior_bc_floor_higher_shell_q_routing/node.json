@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 551,
+  "node": {
+    "id": "l1_interior_bc_floor_higher_shell_q_routing",
+    "title": "L1 interior BC floor routes to higher-shell Q",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a strict-interior profile d1>=m-k+2, put m'=k-1+d1>m. Every codeword in Paper D's level-m' identity-prefix floor agrees completely on exactly m' points. Its binom(m',m) level-m support witnesses have positive agreement cofactor dividing the complement locator, so all fail the exact-shell gcd guard. Binomial inversion cancels their contribution to Z_m, while each codeword is retained once in Z_m'. Since d1=(m'-k)+1, that true shell is boundary Q. Thus the named base-field support floor is higher-shell Q mass, not an unavoidable L1 exact-interior floor; other guarded interior members remain open.",
+    "refs": [
+      "background/nodes/l1_interior_bc_floor_higher_shell_q_routing/statement.md",
+      "background/nodes/l1_interior_bc_floor_higher_shell_q_routing/proof.md",
+      "background/nodes/l1_interior_bc_floor_higher_shell_q_routing/claim_contract.md",
+      "background/nodes/l1_interior_bc_floor_higher_shell_q_routing/dependency_subdag.md",
+      "background/nodes/l1_interior_bc_floor_higher_shell_q_routing/audit.md",
+      "background/nodes/l1_interior_bc_floor_higher_shell_q_routing/lineage.md",
+      "background/nodes/l1_interior_bc_floor_higher_shell_q_routing/upstream_crosswalk.md",
+      "background/nodes/l1_interior_bc_floor_higher_shell_q_routing/verify.py",
+      "background/nodes/l1_interior_bc_floor_higher_shell_q_routing/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_pade_split_section_support_moment_inversion",
+      "order": 2934
+    },
+    {
+      "from": "l1_exact_shell_balanced_shifted_lattice_reduction",
+      "order": 2935
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2936
+    }
+  ],
+  "refutes": []
+}

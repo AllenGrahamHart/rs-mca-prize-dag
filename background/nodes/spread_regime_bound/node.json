@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 326,
+  "node": {
+    "id": "spread_regime_bound",
+    "title": "Spread regime: all pairwise support intersections < k => poly(n) slopes",
+    "status": "CONJECTURE",
+    "key": true,
+    "refs": [
+      "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#3"
+    ],
+    "notes": "the open half of crystallization in slope-side form: with two_slope_intersection it decomposes 'dense alignment => paid' into PROVED (large-intersection) + THIS (small-intersection/entropy) branches; any final safe-side proof proves something equivalent | E3 outcome: BOUNDED_EXCEPTION_WITNESS_FOUND \u2014 pre-registration caught the false naive form BEFORE proof effort; witness bounded (no growing mass). New proved ingredient on integration: the row-space cap.",
+    "statement": "REVISED per E3 witness (PR #185, replayed green): below the universal degree-moment row-space cap (PROVED in the packet: distinct-slope stacks lie in span{(M_d,0),(0,M_d)}; saturation forces S_T(v)=0), spread rank loss is either a BOUNDED AG(2,4)-type exception or forces v-syndrome degeneracy. The naive no-exception spread lemma is FALSE: explicit six/seven-line AG(2,4) subfamilies achieve rank 11/12 below cap with nondegeneracy certificates. The poly-slope conclusion survives; the route to it must carry the exception class.",
+    "falsifier": "an AG-type exception FAMILY with growing rank deficit (would refute the revised form too)"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_crystallization",
+      "order": 201
+    }
+  ],
+  "refutes": []
+}

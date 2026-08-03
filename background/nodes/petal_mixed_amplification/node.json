@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 295,
+  "node": {
+    "id": "petal_mixed_amplification",
+    "title": "Mixed-petal sunflower amplification theorem",
+    "status": "TARGET",
+    "refs": [
+      "proof_sketch/s7_list_side.md#4"
+    ],
+    "statement": "The program's first precise target (note, Consequences of the mixed-petal analysis): count degree-<=d polynomials W with many zeros across the shifted-target family W - c_i L_D on T_i; super-polynomial amplification must force quotient, low-defect, or another explicitly budgeted structured family. A lower-dimensional incidence question. || RE-POSED -> TARGET (wave-8, 2026-07-16): the conditional route consumed pma_wide_residual, now REFUTED (both readings) -- the implication is vacuous and retired; req wiring converted to ev (history). The v4 re-posed narrowed statement is banked as a dated addendum in the node folder (statement.md); the surviving inputs (root-pinning ledger, saturated kernel, rich-fiber reduction, the sigma-one payment/owner suite) are ev-wired. Crosswalk to master's critical-slot red: l1_mixed_petal_amplification (see its v4_pma_crosswalk.md note).",
+    "attack_surface": "the incidence count over the shifted-target family; Q2.9's fixed-excess data grounds the exponents",
+    "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/petal_mixed_amplification/conditional.md. | AMBER STRESS 2026-07-06: PMA correlated-target search varied defect locators and scalar patterns in the F_109, ell=3, d=5 toy window; 10 exact profiles + 3 sampled M=12 profiles completed, exact M=9 max threshold count 176, no large spread-residual alarm."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 1540
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 587,
+  "node": {
+    "id": "xr_triangular_minor_certificate_soundness",
+    "title": "XR triangular minor-certificate soundness",
+    "status": "PROVED",
+    "statement": "If an admissible specialization of an XR normal-form maximal minor makes the selected square submatrix triangular with every diagonal entry nonzero, then that specialization is a valid nonzero-minor certificate.",
+    "attack_surface": "finite determinant criterion for triangular specialized matrices",
+    "falsifier": "a specialized triangular minor with nonzero diagonal and zero determinant"
+  },
+  "requires": [
+    {
+      "from": "xr_triangle_eliminant_form",
+      "order": 890
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1106
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 611,
+  "node": {
+    "id": "e1_folded_certificate_manifest_soundness",
+    "title": "E1 folded-certificate manifest soundness",
+    "status": "PROVED",
+    "statement": "If a manifest covers N' in {128,256} with named exhibit fields and complete folded kernel certificate records, each returning zero nonzero non-cyclotomic folded vectors, then e1_open_cell_control_payload holds by the named folded-certificate route.",
+    "attack_surface": "formal coverage and route-shape dispatch for E1 folded-certificate manifests",
+    "falsifier": "a manifest covering both open cells with complete zero folded certificates while the E1 open-cell payload route is not satisfied"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

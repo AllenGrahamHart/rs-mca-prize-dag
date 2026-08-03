@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 931,
+  "node": {
+    "id": "xr_split_pencil_rank_two_maxwell_properness",
+    "title": "XR rank-two trades are proper subcircuits of official Maxwell cores",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_split_pencil_rank_two_maxwell_properness/statement.md",
+      "background/nodes/xr_split_pencil_rank_two_maxwell_properness/proof.md",
+      "background/nodes/xr_split_pencil_rank_two_maxwell_properness/verify.py",
+      "background/nodes/xr_split_pencil_rank_two_maxwell_properness/result.md"
+    ],
+    "statement": "Embed any of the five rank-two support profiles into full official Maxwell blocks. Charging every coordinate saved beyond private placement to newly consumed pair-intersection slack gives exact lower bounds on Delta_J=2|union J|-8-c|J|. Across P-A block types (m,c)=(9,5),(7,3) and P-B one-loop types (10,6),(8,4), the minimum is Delta_J=2 and all twenty profile bounds are explicit and set-system sharp. The full Maxwell core has deficit -e<=0, so a rank-two relation can never activate every block. Hence every rank-two anomaly is a proper local subcircuit, while every full-block-support anomaly has trade rank at least three. This is a circuit split, not a payment of the local branch."
+  },
+  "requires": [
+    {
+      "from": "xr_split_pencil_trade_rank_two_support_atlas",
+      "order": 1633
+    },
+    {
+      "from": "xr_split_pencil_maxwell_core_extraction",
+      "order": 1634
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1635
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1636
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 144,
+  "node": {
+    "id": "e1_prize_n256_s18_profile_36_m64_exclusion",
+    "title": "Prize N=256 profile-(3,6) cofactor-64 exclusion",
+    "status": "PROVED",
+    "closure": "exact product ledger, dual two-atlas radius census, and certified norm intervals",
+    "refs": [
+      "background/nodes/e1_prize_n256_s18_profile_36_m64_exclusion/statement.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m64_exclusion/proof.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m64_exclusion/claim_contract.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m64_exclusion/dependency_subdag.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m64_exclusion/audit.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m64_exclusion/result.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m64_exclusion/source_pin.json",
+      "background/nodes/e1_prize_n256_s18_profile_36_m64_exclusion/verify.py"
+    ],
+    "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 64 is impossible. Exact product certification leaves 255 (E,q,L) chambers through E=46; dual complete radius engines exhaust 8256 primitive and 4480 all-one-parity affine orbits, and certified fixed-root intervals place all 7191566 product-live vectors outside the prize interval.",
+    "notes": "EXACT FINITE EXCLUSION 2026-07-28: a primitive-only audit caught and repaired the all-one-parity support gap. Direct-triple and reverse hash-block engines agree on both atlases, totaling 10179448632 unique radius triples, 81435589056 exact sign tests, 7191424 below-window vectors, 142 above-window vectors, and zero unresolved. Five profile-(3,6) cofactors remain."
+  },
+  "requires": [
+    {
+      "from": "e1_prize_n256_s18_profile_36_energy_adaptive_product_windows",
+      "order": 4464
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4465
+    },
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4466
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4467
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 286,
+  "node": {
+    "id": "beta2_irreducibility",
+    "title": "(I) geometric irreducibility of F",
+    "status": "CONJECTURE",
+    "key": true,
+    "refs": [
+      "experimental/notes/m1/m1_beta2_conditional_close.md"
+    ],
+    "notes": "corroborated (2nd moments -> 1 over primes <= 181); PROVABLY not closable by local data (non-rigid, moduli dim >= 74) \u2014 needs a global big-monodromy input"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

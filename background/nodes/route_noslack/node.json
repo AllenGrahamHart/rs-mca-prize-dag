@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 298,
+  "node": {
+    "id": "route_noslack",
+    "title": "Route: the original no-slack MCA conjecture",
+    "status": "REFUTED",
+    "refs": [
+      "tex/RS_disproof_v3.tex"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

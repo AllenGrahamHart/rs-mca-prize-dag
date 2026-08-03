@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1109,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_pure_ramification_passport",
+    "title": "Budget-three antipodal pure ramification passport",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The pure Euler and second-Wronskian linear residuals satisfy Lambda=dL. The associated degree-4r rational cover lies in exactly four printed Belyi defect passports or one generic almost-Belyi passport, with same-side collisions exactly at the unique deleted-or-zero intersection.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_ramification_passport/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_ramification_passport/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_ramification_passport/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_ramification_passport/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_ramification_passport/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_ramification_passport/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_ramification_passport/verify.py",
+      "background/nodes/rate_half_list_budget_three_antipodal_pure_ramification_passport/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_pure_euler_ramification_router",
+      "order": 2051
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_pure_quartic_degree_rigidity",
+      "order": 2052
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2053
+    }
+  ],
+  "refutes": []
+}

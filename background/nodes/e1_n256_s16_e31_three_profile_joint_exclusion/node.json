@@ -1,0 +1,55 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 60,
+  "node": {
+    "id": "e1_n256_s16_e31_three_profile_joint_exclusion",
+    "title": "N=256 E=31 three-profile joint exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e31_three_profile_joint_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e31_three_profile_joint_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e31_three_profile_joint_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e31_three_profile_joint_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e31_three_profile_joint_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e31_three_profile_joint_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e31_three_profile_joint_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e31_three_profile_joint_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e31_three_profile_joint_exclusion/verify_audit.py",
+      "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/notes/e31_three_profile_joint_census.cpp",
+      "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/notes/e31_three_profile_joint_census_modal.py",
+      "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/notes/e31_three_profile_joint_census_result.json",
+      "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/notes/e31_three_profile_joint_census_audit.cpp",
+      "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/notes/e31_three_profile_joint_census_audit_modal.py",
+      "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/notes/e31_three_profile_joint_census_audit_result.json"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), and V=62, none of the residual profiles (3,7), (2,5,1), (1,3,2) can collide. Two independent exact engines each cover all 158,783,488 representative signed vectors. Unrestricted maxima 1068 and 1122 exclude (2,5,1) and (1,3,2) below the M_3=1302 cutoff; full-conductor maximum 1206 excludes that part of (3,7), and the proved conductor theorem excludes its complement.",
+    "notes": "ROUTE CLOSURE 2026-07-27: closes all three V=62 profiles with two exact census engines and an explicit proper/full conductor split."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e31_profile_parity_light_reduction",
+      "order": 341
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 342
+    },
+    {
+      "from": "e1_n256_proper_conductor_collision_exclusion",
+      "order": 343
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 443
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 444
+    }
+  ],
+  "refutes": []
+}

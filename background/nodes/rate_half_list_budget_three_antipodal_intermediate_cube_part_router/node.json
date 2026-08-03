@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1046,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_intermediate_cube_part_router",
+    "title": "Budget-three antipodal intermediate cube-part router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every polynomial intermediate Hensel candidate is a coprime cube factor of the known residual. Candidate polynomiality is equivalent to an exact cube-divisor cofactor test, with derivative-gcd divisibilities providing factorization-free rejection gates.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_cube_part_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_cube_part_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_cube_part_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_cube_part_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_cube_part_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_cube_part_router/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_cube_part_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_intermediate_hensel_certifier",
+      "order": 1953
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1954
+    }
+  ],
+  "refutes": []
+}

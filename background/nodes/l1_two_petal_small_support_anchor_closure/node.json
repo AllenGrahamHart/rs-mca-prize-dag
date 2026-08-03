@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1071,
+  "node": {
+    "id": "l1_two_petal_small_support_anchor_closure",
+    "title": "L1 two-petal bounded-small-support automatic B11 anchor closure",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In a maximal L1 sunflower, let a>=z be the two positive petal support sizes, r the background agreement count, and d the exact core defect. If z<=A for a fixed A>=1, the threshold, per-petal defect cap, and nonzero numerator imply d<=ell+A-1 and G_R=(ell-r)+(ell-a)<=2A. The proved B11 background-petal gate therefore bounds the whole class polynomially. At z=1 one has exactly r=ell-1 and d=a in {ell-1,ell}; hence every unpaid singleton-petal mixed contributor touches at least three petals.",
+    "refs": [
+      "background/nodes/l1_two_petal_small_support_anchor_closure/statement.md",
+      "background/nodes/l1_two_petal_small_support_anchor_closure/proof.md",
+      "background/nodes/l1_two_petal_small_support_anchor_closure/claim_contract.md",
+      "background/nodes/l1_two_petal_small_support_anchor_closure/dependency_subdag.md",
+      "background/nodes/l1_two_petal_small_support_anchor_closure/audit.md",
+      "background/nodes/l1_two_petal_small_support_anchor_closure/verify.py",
+      "background/nodes/l1_two_petal_small_support_anchor_closure/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "petal_reserve_rich_fiber_reduction",
+      "order": 2066
+    },
+    {
+      "from": "pma_b11_first_match_router",
+      "order": 2067
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2068
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2069
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2070
+    }
+  ],
+  "refutes": []
+}

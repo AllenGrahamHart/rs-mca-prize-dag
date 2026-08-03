@@ -1,0 +1,53 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 53,
+  "node": {
+    "id": "e1_n256_s16_e32_profile_parity_diameter_reduction",
+    "title": "N=256 square-mass-16 E=32 profile/parity/diameter reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/statement.md",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/proof.md",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/claim_contract.md",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/audit.md",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/result.md",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/source_pin.json",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/verify.py",
+      "background/nodes/e1_n256_s16_e32_profile_parity_diameter_reduction/verify_audit.py"
+    ],
+    "statement": "For profile (3,4,0) at V=64, the exact slack recurrence gives L<=18. Of 18 integer magnitude profiles, the exact rational cubic threshold M_3=1517 and the six-unit-chord parity gate leave only (4,7),(0,8),(3,5,1). Even energy forces zero or two light-light diameters, D_64 in {0,2,4,8,12,16,18,20}, and C=(D_64-70)/2.",
+    "notes": "ROUTE REDUCTION 2026-07-27: reduces the next live variance endpoint to three exact profiles and eight diameter ledgers. It does not exclude V=64 or any lower variance."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e33_endpoint_exclusion",
+      "order": 320
+    },
+    {
+      "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+      "order": 321
+    },
+    {
+      "from": "e1_n256_s16_signed_chord_collision_gate",
+      "order": 322
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 323
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 429
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 430
+    }
+  ],
+  "refutes": []
+}

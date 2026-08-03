@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 730,
+  "node": {
+    "id": "f2_arcclass_recursion",
+    "status": "PROVED",
+    "statement": "F2 ARC-CLASS RECURSION LEMMA (2026-07-09, campaign L3; note critical/nodes/u2c_giant_tnull_dichotomy/notes/F2_L3_ARCCLASS_RECURSION.md, verifier f2_l3_arcclass_recursion_modal.py, digest F2_L3_ARCCLASS_RECURSION_PASS, 6 cells, four identities exact): one-line orthogonality \u2014 each structured arc CLASS sums to a lower-order census: (1/q^2) sum_{l1} E_b((l1,0)) = N^{p1}(0)/q, (1/q^2) sum_{l2} E_b((0,l2)) = N^{p2}(0)/q; hence the EXACT regrouping N^{(2)}(0) = mean + [N^{p1}(0)/q - mean] + [N^{p2}(0)/q - mean] + generic-class mass. The t-level assembly recurses to order-1 censuses (general t: inclusion-exclusion over condition subsets); the assembly NEVER needs per-arc values. CATCH #3 of the day banked: the L3 design note's 'structured arcs exactly computable' was wrong at official scale (per-arc e_b at mid-band costs ~2^80 ops) \u2014 corrected by this lemma. CONSEQUENCE: M1's target instance drops to t = 1 (the single-linear-condition census #{S: sum(S)=0}) \u2014 the mildest possible instance; p2's census is a doubled t=1 census on mu_{n/2} (double cover, exact)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1249
+    }
+  ],
+  "refutes": []
+}

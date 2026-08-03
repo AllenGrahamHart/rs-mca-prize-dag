@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 245,
+  "node": {
+    "id": "a384_bucket",
+    "title": "A=384 bucket identified (d=1; PR #172 turn 1)",
+    "status": "PROVED",
+    "refs": [
+      "wp_detail/wp2_6_underdetermined_program.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "deficiency_ladder",
+      "order": 86
+    }
+  ],
+  "refutes": []
+}

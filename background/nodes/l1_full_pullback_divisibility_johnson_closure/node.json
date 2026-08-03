@@ -1,0 +1,48 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 530,
+  "node": {
+    "id": "l1_full_pullback_divisibility_johnson_closure",
+    "title": "L1 full-pullback divisibility/Johnson closure",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On an official dyadic row with k>1 and source petal ell=sigma+1, fix a nontrivial dyadic s|n and s|ell whose monic degree-s fibers partition the domain. A fully fiberwise exact support has size divisible by s, while the source threshold a*=k+ell-1 is not; the class starts at h0=ceil(a*/s) quotient agreements. With b=n/s, K0=ceil(k/s), and d=K0-1, a direct pairwise-intersection argument bounds every fixed-map list by floor(b(h0-d)/(h0^2-bd))<=b^2 whenever h0^2>bd. For s<=k this gate is exactly (k+ell)^2>(k-s)n; for s>k it is automatic. Combining with the tame map census pays all tame fixed-source maps in this full-partition fully fiberwise Johnson sector by at most n b^2<=n^3. This theorem alone leaves the full-partition sub-Johnson, partial-fiber, sparse-coverage, wild, unanchored, and arbitrary-locator branches; the later full-domain intrinsic-rigidity theorem routes the first of those to the exact-periodic owner.",
+    "refs": [
+      "background/nodes/l1_full_pullback_divisibility_johnson_closure/statement.md",
+      "background/nodes/l1_full_pullback_divisibility_johnson_closure/proof.md",
+      "background/nodes/l1_full_pullback_divisibility_johnson_closure/claim_contract.md",
+      "background/nodes/l1_full_pullback_divisibility_johnson_closure/dependency_subdag.md",
+      "background/nodes/l1_full_pullback_divisibility_johnson_closure/audit.md",
+      "background/nodes/l1_full_pullback_divisibility_johnson_closure/lineage.md",
+      "background/nodes/l1_full_pullback_divisibility_johnson_closure/result.md",
+      "background/nodes/l1_full_pullback_divisibility_johnson_closure/verify.py",
+      "background/nodes/l1_full_pullback_divisibility_johnson_closure/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_tame_fixed_petal_refinement_census",
+      "order": 2876
+    },
+    {
+      "from": "l1_general_pullback_interleaving_descent",
+      "order": 2877
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2878
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2879
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2880
+    }
+  ],
+  "refutes": []
+}

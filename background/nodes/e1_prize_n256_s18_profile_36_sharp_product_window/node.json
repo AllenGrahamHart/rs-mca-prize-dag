@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 136,
+  "node": {
+    "id": "e1_prize_n256_s18_profile_36_sharp_product_window",
+    "title": "Prize N=256 profile-(3,6) sharp product window",
+    "status": "PROVED",
+    "closure": "analytic extremum reduction plus exact rational certificate",
+    "refs": [
+      "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/statement.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/proof.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/claim_contract.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/dependency_subdag.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/audit.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/result.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/source_pin.json",
+      "background/nodes/e1_prize_n256_s18_profile_36_sharp_product_window/verify.py"
+    ],
+    "statement": "On prize-envelope N=256 rows, every profile-(3,6,S=18) collision with cofactor 1024 or 1028 has variance in {4,6,8,10,12}. The sharp fixed-mean/fixed-variance product envelope excludes all even V from 14 through 34 by 649 exact rational comparisons.",
+    "notes": "ROUTE CONTRACTION 2026-07-28: the two shortest profile-(3,6) cofactor windows contract from V<=34 to five low-energy chambers. The exact certificate also proves that this envelope alone does not remove V=12."
+  },
+  "requires": [
+    {
+      "from": "e1_prize_n256_s18_profile_36_cofactor_windows",
+      "order": 4431
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4432
+    },
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4433
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4434
+    }
+  ],
+  "refutes": []
+}

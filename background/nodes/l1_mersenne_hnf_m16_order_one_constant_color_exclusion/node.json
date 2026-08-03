@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1706,
+  "node": {
+    "id": "l1_mersenne_hnf_m16_order_one_constant_color_exclusion",
+    "title": "L1 Mersenne HNF m=16 order-one constant-color exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Both quadratic trace gcds from the h=15 constant-color reduction are unit over F_8191. Direct lower-factor values and primitive-quartic pseudo-remainders with terminal residues 4509 and 4947 exclude every sixteenth-root trace, closing the complete constant-color chamber.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/statement.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/proof.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/audit.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/result.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_exclusion/verify.py"
+    ],
+    "notes": "Complete proof close of the h=15 constant-color stratum. Combined with the degree barrier, live h=15 color degrees are four through thirteen; cyclotomic and inner conditions remain open."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_m16_order_one_constant_color_reduction",
+      "order": 3982
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3983
+    }
+  ],
+  "refutes": []
+}

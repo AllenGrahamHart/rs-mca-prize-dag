@@ -1,0 +1,17 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 343,
+  "node": {
+    "id": "subgroup_expsum_input",
+    "title": "The named exp-sum import: subgroup ranges beyond N >= p^{3/7+eps}",
+    "status": "CONJECTURE",
+    "refs": [
+      "tex/slackMCA_v4.tex"
+    ],
+    "notes": "exp sums are DEAD as a route to the core (route_expsums) but ALIVE as this ladder's import \u2014 the nuance matters | AMBER STRESS 2026-07-06: subgroup_expsum_probe.py found max relative additive Fourier mass about 0.6553 over 749 subgroup rows up to p <= 2800, with 0 near-linear failures at threshold 0.72 and 9/9 controls detected."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

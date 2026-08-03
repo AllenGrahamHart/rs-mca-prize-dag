@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 332,
+  "node": {
+    "id": "ldsw_ld_separation",
+    "title": "LD_sw does NOT imply ABF/GG line-decodability (finite counterexample)",
+    "status": "PROVED",
+    "refs": [
+      "experimental/notes/m2/m2_ldsw_line_decoding_separation.md"
+    ],
+    "notes": "the bridge imports external LD theorems FORWARD only; mandatory loss-column entry"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "ld_bridge",
+      "order": 220
+    }
+  ],
+  "refutes": [
+    {
+      "to": "pma_johnson_regime",
+      "order": 588
+    }
+  ]
+}

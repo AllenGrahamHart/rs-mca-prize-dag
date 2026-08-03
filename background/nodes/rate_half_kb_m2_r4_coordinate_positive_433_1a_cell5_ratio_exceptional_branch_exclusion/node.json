@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1445,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion",
+    "title": "KoalaBear positive 433-1a cell-5 ratio exceptional-branch exclusion",
+    "status": "PROVED",
+    "closure": "deployed-field saturated unit-ideal deletion of the ratio denominator branch",
+    "statement": "For deployed-field cell 5, signs (-1,-1), chart C1, the fully guarded exceptional ratio branch a0=a1=L1=L2=0 has saturated standard basis {1}. Hence every admissible common survivor lies on a1!=0 and the generic two-eliminant ratio presentation. No outside equation, cell, route, K3 row, or Prize result is closed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_ratio_exceptional_compiler.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_ratio_exceptional_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_cell5_ratio_exceptional_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler",
+      "order": 3191
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3192
+    }
+  ],
+  "refutes": []
+}

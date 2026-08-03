@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1668,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router",
+    "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional q-quotient router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Reducing the degree-at-most-six coefficient compatibility polynomial modulo the quadratic F_b gives one affine equation in q; off its leading and linear-coefficient singular charts, the generic coefficient endpoint is one explicit univariate polynomial U(b) of degree at most 58.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/lineage.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/upstream_crosswalk.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_q_quotient_router/verify.py"
+    ],
+    "notes": "Exact quadratic-quotient router only. The univariate U, simultaneous affine-remainder singular chart, fixed leading-coefficient chart, substituted structural equations, role-discriminant weld, P_4, and arithmetic-lift obligations remain open."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_bivariate_compiler",
+      "order": 4049
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4050
+    }
+  ],
+  "refutes": []
+}

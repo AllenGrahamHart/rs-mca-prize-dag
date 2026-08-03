@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 802,
+  "node": {
+    "id": "f3_h3_cutoff18_nonswap_compiler",
+    "title": "C36' cutoff-18 non-swap compiler",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/f3_h3_cutoff18_nonswap_compiler/statement.md",
+      "background/nodes/f3_h3_cutoff18_nonswap_compiler/proof.md"
+    ],
+    "statement": "For X_18=sum_{t!=1}(P(t)-18)_+R(t) and S_ns=sum_{t!=1}[P(t)(P(t)-2)+D(t)]R(t), one has 68X_18<=S_ns. Consequently S_ns<=1200n^2 implies 17X_18<=300n^2, the repaired critical weighted-excess target."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1344
+    }
+  ],
+  "refutes": []
+}

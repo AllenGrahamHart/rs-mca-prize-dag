@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1114,
+  "node": {
+    "id": "xr_lowcore_u0_loop_defect_ratio_router",
+    "title": "XR low-core u=0 loop-defect ratio router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In every RowC rank-five P-B cell with u=0 and v>=1, deleting the v kernel loops removes at most v selected slopes and leaves a GRS_4 extension family on N=R+4 points. For every reused four-core T, the exact interpolation ratio has at most v-1 denominator-zero points per incident agreement set, so each slope contributes at least h+1 points to a disjoint ratio fiber and the line population is at most floor(R/(h+1)). A multiplicity-sensitive peeling formula D_r=C(4+h+v,4)-floor((r-1)C(R+4,4)/(8n^3+1-v)) supplies the complete rich-core interface. This reaches but does not pay the residual v<=1,2,6 cells.",
+    "refs": [
+      "background/nodes/xr_lowcore_u0_loop_defect_ratio_router/statement.md",
+      "background/nodes/xr_lowcore_u0_loop_defect_ratio_router/proof.md",
+      "background/nodes/xr_lowcore_u0_loop_defect_ratio_router/claim_contract.md",
+      "background/nodes/xr_lowcore_u0_loop_defect_ratio_router/dependency_subdag.md",
+      "background/nodes/xr_lowcore_u0_loop_defect_ratio_router/result.md",
+      "background/nodes/xr_lowcore_u0_loop_defect_ratio_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_rank_five_extension_list_reduction",
+      "order": 2238
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 2239
+    }
+  ],
+  "refutes": []
+}

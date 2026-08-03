@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 834,
+  "node": {
+    "id": "mca_quadratic_prize_rows",
+    "title": "Quadratic MCA staircase and four exact prize rows",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/mca_quadratic_prize_rows/statement.md",
+      "background/nodes/mca_quadratic_prize_rows/proof.md",
+      "background/nodes/mca_quadratic_prize_rows/verify.py",
+      "background/nodes/mca_quadratic_prize_rows/result.md",
+      "background/nodes/mca_quadratic_prize_rows/upstream_crosswalk.md"
+    ],
+    "statement": "For every RS row and every 0<=r<=n-k-1 satisfying (n-r)^2>=n(k+r), the full-field support-wise MCA bad-slope numerator is exactly r+1. Four explicit power-of-two subgroup rows, one at each official rate and with k=2^40, have exact target-2^-128 safe set [0,B/n), where B=floor(p/2^128); the largest safe grid radius is (B-1)/n and B/n is unsafe. These particular 167--171-bit prime rows do not determine the separately frozen near-capacity or rate-half razor rows and make no list claim.",
+    "upstream": {
+      "label": "thm:intro-prize-rows (four exact full-MCA rows)",
+      "relation": "IDENTICAL"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "mca_grand",
+      "order": 1404
+    }
+  ],
+  "refutes": []
+}

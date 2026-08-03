@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1283,
+  "node": {
+    "id": "f3_h3_quotient_orbit_canonical_resultant_manifest",
+    "title": "H3 quotient-orbit canonical resultant manifest",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every odd-Galois quotient block at n=2^s has a unique canonical identifier (j,+,w), with w nonunit or a nonidentity odd unit modulo 2^(j+1), or (j,-,w), with w nonzero even. Its monic irreducible orbit polynomial is the explicit cyclotomic resultant Res(Phi_L,T-S_w), or the power-of-two-normalized reciprocal resultant. This generates all 3(n-s-1) block polynomials without orbit enumeration. It does not identify support across reciprocal blocks, compute official-scale resultants or annihilators, reduce total degree, prove a runtime bound, or close C36'.",
+    "refs": [
+      "background/nodes/f3_h3_quotient_orbit_canonical_resultant_manifest/statement.md",
+      "background/nodes/f3_h3_quotient_orbit_canonical_resultant_manifest/proof.md",
+      "background/nodes/f3_h3_quotient_orbit_canonical_resultant_manifest/claim_contract.md",
+      "background/nodes/f3_h3_quotient_orbit_canonical_resultant_manifest/dependency_subdag.md",
+      "background/nodes/f3_h3_quotient_orbit_canonical_resultant_manifest/audit.md",
+      "background/nodes/f3_h3_quotient_orbit_canonical_resultant_manifest/result.md",
+      "background/nodes/f3_h3_quotient_orbit_canonical_resultant_manifest/verify.py",
+      "background/nodes/f3_h3_quotient_orbit_canonical_resultant_manifest/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_quotient_galois_orbit_scalar_decomposition",
+      "order": 2710
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2711
+    },
+    {
+      "to": "f3_h3_official_order_template_survivor",
+      "order": 2712
+    }
+  ],
+  "refutes": []
+}

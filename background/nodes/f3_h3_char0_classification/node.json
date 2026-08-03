@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 713,
+  "node": {
+    "id": "f3_h3_char0_classification",
+    "status": "PROVED",
+    "statement": "F3 h=3 CHAR-0 CLASSIFICATION (2026-07-08, Codex overnight Terminal A, REPLAYED + VERIFIED; nodes/u1_x4_direct_column_budget/notes/F3_H3_CHAR0_CLASSIFICATION.md): any two DISTINCT 3-subsets of roots of unity with equal e1 and e2 are zero-sum mu_3 cosets (the toral column, C(n/3,2) pairs, existing iff 3 | n). Proof (three lines, no Conway-Jones): on the unit circle e2 = e3 * conj(e1); distinct sets sharing (e1, e2) differ in e3, so conj(e1) = 0; zero-sum unit triples have Re(u) = -1/2 after normalization = primitive cube roots. NORM-GATE COROLLARY: every non-toral shape has a nonzero obstruction E_i in Z[zeta_n] with |Norm| <= 6^phi(n), so each shape activates at <= floor(phi(n) log6 / (2 log n)) primes >= n^2 (per-shape bound; pair-coprimality per-row remains open). Machine-verified: exact cyclotomic enumeration through n = 96 (toral counts exact, zero exotics at all orders incl. 5, 7, 9 | n) + the three banked norm-gate shapes certified. The proof uses complex conjugation \u2014 no char-p analogue \u2014 EXPLAINING why interior families exist only as p-selected accidents. STRUCTURAL CONSEQUENCE: h=3 interior mass = norm-gate accidents with proved activation bounds; the F3-green path's h=3 gap narrows to pair-coprimality + the Poisson accident census."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u1_x4_direct_column_budget",
+      "order": 1218
+    },
+    {
+      "to": "shared_census_kernel",
+      "order": 1219
+    }
+  ],
+  "refutes": []
+}

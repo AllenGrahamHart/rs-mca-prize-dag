@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 589,
+  "node": {
+    "id": "xr_profile_minor_certificate_payload",
+    "title": "XR profile minor-certificate payload",
+    "status": "PROVED",
+    "statement": "For every budget-meeting unpaid non-boundary light-triangle profile, supply either an admissible triangular maximal-minor certificate, an admissible monomial/noncancellation certificate, or a complete remote certificate-table record giving a nonzero maximal-minor specialization. This is reduced to the proved record-inventory soundness rule plus the remaining actual XR profile record inventory payload.",
+    "attack_surface": "assembly from the record-inventory soundness rule and the actual uniform profile-by-profile certificate inventory without local E32 search",
+    "falsifier": "a budget-meeting unpaid non-boundary light profile with no payload entry or with only a determinant-zero or inadmissible specialization"
+  },
+  "requires": [
+    {
+      "from": "xr_triangle_eliminant_form",
+      "order": 893
+    },
+    {
+      "from": "xr_profile_minor_record_inventory_soundness",
+      "order": 894
+    },
+    {
+      "from": "xr_profile_minor_record_inventory_payload",
+      "order": 895
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1108
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 685,
+  "node": {
+    "id": "e22_minimal_scale_partition",
+    "title": "E22 minimal-scale class partition",
+    "status": "PROVED",
+    "statement": "For dyadic E22 support-scale data, the classes with at least one admissible quotient modulus decompose disjointly by their unique minimal admissible modulus. Equivalently, the tail-minimal predicates from e22_minimal_scale_tail_criterion form a disjoint partition of the selected canonical representatives.",
+    "attack_surface": "finite-chain partition induced by the dyadic minimal-scale selector",
+    "falsifier": "a dyadic support class with two different minimal admissible moduli, or with an admissible modulus but no tail-minimal partition cell",
+    "notes": "FIFTH-BRANCH REPLAY (2026-07-10): REPLAY-CLEAN as WEIGHT-PARAMETRIC identities (fresh verifiers, exhaustive n=8/16 + sampled n=32 ground truth, mutation controls; suites banked at critical/nodes/petal_growth/notes/g3_replay_20260710/). CATCH #44: the prior REPLAY-PENDING note undercounted \u2014 THREE nodes have verifiers (selector, tail_criterion, partition), not one. SCOPE CAVEAT (catch #47): the four pricing statements (pricing_compatibility, column_evaluation, count_formula, cross_scale head) reference a 'declared multiplicity' that is declared nowhere and is UNFILLABLE by any per-scale constant or integer weight (exact ratios 8/5, 640/3 vs dyadic_profile_evaluation) \u2014 their PROVED labels certify the parametric identities only; the instantiated readings need the catch-#47 re-pose. Does NOT discharge petal_g3_pricing_multiplicity (see that node). Still ev-only; do not req-wire."
+  },
+  "requires": [
+    {
+      "from": "e22_dyadic_minimal_scale_selector",
+      "order": 1001
+    },
+    {
+      "from": "e22_minimal_scale_tail_criterion",
+      "order": 1002
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1166
+    }
+  ],
+  "refutes": []
+}

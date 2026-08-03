@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 804,
+  "node": {
+    "id": "cyclic_fiber_interleaving_descent",
+    "title": "Cyclic-fiber agreement descends to an interleaved quotient list",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/cyclic_fiber_interleaving_descent/statement.md",
+      "background/nodes/cyclic_fiber_interleaving_descent/proof.md",
+      "background/nodes/cyclic_fiber_interleaving_descent/verify.py",
+      "background/nodes/exact_support_interleaving_projection/proof.md"
+    ],
+    "statement": "If M|gcd(n,k), exact K_M-invariant agreement supports of size A for RS[F,H,k] inject into the common-support M-interleaved list of RS[F,H^M,k/M] at agreement A/M. Hence the general projection-collision theorem bounds the periodic class by floor(L(|F|-1)/(|F|-L)), and by the ordinary quotient-row list size L whenever L^2<|F|. If M is the intrinsic stabilizer size, the descended support is aperiodic; exact_support_interleaving_projection bounds this class in terms of the ordinary aperiodic quotient-row list without losing the support property."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_small_scale_staircase_census",
+      "order": 1354
+    },
+    {
+      "to": "petal_g1_k4_scale_reserve",
+      "order": 1366
+    }
+  ],
+  "refutes": []
+}

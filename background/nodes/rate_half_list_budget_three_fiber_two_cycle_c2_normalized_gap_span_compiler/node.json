@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1273,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler",
+    "title": "Budget-three fiber-two c=2 mismatch is one normalized gap-span recurrence interface",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the maximal official generic c=2 mismatch chamber, E(z)=(1-z)(1-tz)(1-Sz+Pz^2) determines every fourth-root coefficient by one explicit four-term recurrence. The primary gap is a_(2H-2)=a_(2H-1)=0 with c=a_(2H) nonzero; the secondary gap is the exact two-window square LT=cC^2 mod z^H. Canonical span then uniquely reconstructs alpha=4c, beta, and gamma, and selected-pair coupling is one scalar outer-invariant equation at z_t=(1+t)^2/t. Together with the normalized torsion/split chamber this is an exact decision interface, not an exclusion or compute authorization.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+      "order": 2670
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_boundary_transfer",
+      "order": 2671
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_normalized_pair_torsion_compiler",
+      "order": 2672
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2673
+    }
+  ],
+  "refutes": []
+}

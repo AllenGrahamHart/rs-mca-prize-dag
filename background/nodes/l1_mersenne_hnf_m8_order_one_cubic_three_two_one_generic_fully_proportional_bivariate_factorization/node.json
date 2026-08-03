@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1665,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization",
+    "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional bivariate factorization",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The fully proportional conic endpoint F_N is an explicit quadratic in q with factored coefficients in z=b^2; z=9 is excluded and the vanishing-leading-coefficient chart reconstructs q.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/lineage.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/upstream_crosswalk.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization/verify.py"
+    ],
+    "notes": "Exact bivariate factorization only. The quadratic and exceptional linear charts remain open with all coefficient-zero, role-discriminant, P_4, and arithmetic-lift obligations."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_parameter_reduction",
+      "order": 4043
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4044
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,72 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1388,
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion",
+    "title": "KoalaBear c2 (1,1,2) near positive other-xi mixed exclusion",
+    "status": "PROVED",
+    "closure": "the deployed-field positive near-aligned fixed-moving xi=b mixed allocation c,d->{1/b,1/d} is empty",
+    "statement": "Over the deployed KoalaBear field F_(2130706433^6), normalize a=2, xi=b, eta=c, ell=d and w=1/c. Require the residual over each q-root c,d to have the two distinct roots 1/b and 1/d. Exact parent resultants split each root into one low and one high component. The four component pairs have complete characteristic-zero and deployed modular routers; every irreducible factor whose degree divides six is independently reconstructed, and every point is collision, inversion-fixed, reciprocal, z=1, or finite-incidence. Direct/resultant and no-import fraction-free/subresultant certificates agree. Thus this chart is empty; the other nine affine positive charts, projective boundary, and negative loci remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_parent_d.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_product_low.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_low_fields.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_w01_router.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_w10_router.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_w01_fields.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_w10_fields.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_hp0_router.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_hp1_router.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_hp0_linear.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_hp0_quadratic01.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_hp0_quadratic2.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_hp1_lowdegree.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_hp1_cubic.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_hp1_sextic.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_parent_c.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_parent_d.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_product_low.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_w01_router.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_w10_router.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_hp0_router.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_hp1_router.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_low_fields.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_w01_fields.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_w10_fields.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_hp0_linear.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_hp0_quadratic01.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_hp0_quadratic2.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_hp1_lowdegree.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_hp1_cubic.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion/verify_audit_hp1_sextic.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+      "order": 4717
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+      "order": 4718
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4719
+    }
+  ],
+  "refutes": []
+}

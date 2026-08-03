@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 481,
+  "node": {
+    "id": "w4_direct_column_rewiring",
+    "title": "PROVED (autonomous #47): the n^2 -> n^3 sufficiency rewiring",
+    "status": "PROVED",
+    "statement": "Both hard consumers (U1's primitive star/PTE column, B's exit 3) can consume the row-wise fully-stripped split-pair count R_PTE(row) DIRECTLY as a single compiler column (one shared residue_column_id \u2014 they are the SAME family by star-PTE + X-10 + B-WRITEUP, not two), charged like the already-accepted quotient/dihedral staircase columns. The compiler's exact integer room (QA.22 + QA.25 certificates) satisfies n^3 <= B* - repaired_budget_total at every row (31 checks; even two such columns fit). CONSEQUENCE: the terminal target drops from R_PTE <= n^2 to R_PTE <= n^3. HONEST SCOPE (verified here): W4 proves SUFFICIENCY only \u2014 the estimate R_PTE <= n^3 itself remains open; and the charging is legitimate because R_PTE is the same shape of structured row-count the compiler already prices.",
+    "refs": [
+      "experimental/notes/roadmaps/w4_direct_column_rewiring.md"
+    ],
+    "notes": "Autonomous proof, verified as sound bookkeeping. NOT a closure \u2014 it lowers the bar by a full power of n."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1073
+    }
+  ],
+  "refutes": []
+}

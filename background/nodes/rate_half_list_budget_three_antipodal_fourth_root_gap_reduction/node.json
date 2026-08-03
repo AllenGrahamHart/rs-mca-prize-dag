@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1007,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_fourth_root_gap_reduction",
+    "title": "Budget-three antipodal fourth-root gap reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "If the antipodal differential residual has degree at most three, the monic direction U is uniquely the reversed degree-r truncation of E(z)^(-1/4), where E=z^4D(z^-1). Exact norm contact becomes an exact gap in the first omitted coefficients. The official generic boundary requires two consecutive zero coefficients and the intermediate boundary requires one.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_fourth_root_gap_reduction/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_fourth_root_gap_reduction/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_fourth_root_gap_reduction/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_fourth_root_gap_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_fourth_root_gap_reduction/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_fourth_root_gap_reduction/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_fourth_root_gap_reduction/verify.py",
+      "background/nodes/rate_half_list_budget_three_antipodal_fourth_root_gap_reduction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_reverse_residual_stratification",
+      "order": 1828
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1829
+    }
+  ],
+  "refutes": []
+}

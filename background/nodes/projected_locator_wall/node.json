@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 280,
+  "node": {
+    "id": "projected_locator_wall",
+    "title": "Projected locator local-limit wall (fourth face of the crystallization core)",
+    "status": "WALL",
+    "refs": [
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
+    ],
+    "notes": "named by PR #173; same collision family as SPI/XR/perfiber in projected-list coordinates"
+  },
+  "requires": [
+    {
+      "from": "plv_reduction",
+      "order": 124
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "r2_rigidity",
+      "order": 125
+    }
+  ],
+  "refutes": []
+}

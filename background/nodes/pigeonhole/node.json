@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 251,
+  "node": {
+    "id": "pigeonhole",
+    "title": "thm:pigeonhole: exponential lists below tau*",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s4_reserve_dictionary.md#1"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "list_unsafe",
+      "order": 93
+    }
+  ],
+  "refutes": []
+}

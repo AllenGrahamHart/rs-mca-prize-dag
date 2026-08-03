@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1751,
+  "node": {
+    "id": "xr_band_ledger_theorems",
+    "title": "XR band ledger theorems: line cap under J >= k (the applicable version), ray rigidity (rays not slopes), the interaction strip d_1+d_2 >= h => tangent event, two-column determinacy; master ledger with exact six-row pricing; Theorem 6 recorded as a WARNING",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Hypotheses: (H1) banked k-packing (xr_mismatch_chart_nongeneric_joint_support_equivalence/proof.md:19-22) + (H3) pencil-wide tangent gate; hypothesis line cites the generic core ceiling (BAND_LANE_DEFINITIONS item 4), never 'below cascade' (item 5); band column [1, h-1] with the cascade tier NAMED, at zero proof cost. T3 (line cap): a pair with |Z_P| = J >= k has L_P <= floor((n-J)/(A-J)) (disjoint off-core blocks); PRECISION: the banked common_code_line_budget prints this formula under a + b - n >= k, which is FALSE at all six rows -- the J >= k version is the one of record, strictly sharper than the F5 sunflower form (n-k)/(t-d); verified TIGHT at d = 1,2,3 and cap+1 point-count unrealisable. T4 (ray rigidity, keyed on RAYS): two distinct pairs with |Z| >= k are subordinate to at most ONE common ray, only via f_1-f_2 = -z(g_1-g_2), z unique; the slope-keyed reading is FALSE (re-selection freedom at 15/76 admissible fixtures -- occupancy-pilot correction; selection = first-match, item 7). T5 + COROLLARY (interaction strip): proportional differences make one codeword agree on all of Z_1 u Z_2, size >= k+d_1+d_2+1, so d_1+d_2 >= h forces a T2/P2 tangent event and the pair leaves the generic branch; overlap-(k-1) makes proportionality AUTOMATIC (the class strips itself; kills the shared-block doubling attack). T7 (two-column determinacy): the direction map zeta_P(i) -- centre-and-direction form for codeword PAIRS (the banked zeta_c is the g = 0 case); two distinct directions at a coordinate determine (u_i, v_i) and hence every other pair's direction: band occupancy becomes point-line incidence in A^2 (the designated lever, recorded as structure). MASTER LEDGER: |Gamma_band| <= SUM_d N_d L(d), L(d) = floor((R-d)/(h-d)); six-row pins recomputed exactly: band-proper SUM L(d) = 828/967/479 (RowC), 36839268578566/43010571891409/44764496190275 (prize); L(h-1) = n-A+1 EXACTLY (cascade separability); the printed n-A+1 column is exceeded on 5 of 6 rows even at N_d = 1 -- the band column must be a THIRD generic column from the 13n^3 headroom, never a B_tan enlargement (as ratified; xr_graded_tangent_band_charge). WARNING (Theorem 6, not a tool): per-ray band multiplicity = punctured-[A,k]-MDS list size at agreement k+1 (below Johnson, unbounded by anything banked); the master inequality is lossy generically but WORST-CASE TIGHT (slack 1.000 attained; exactly 2.000 on the max-N_d sunflower family -- verified here) -- slope-counting buys at most a factor 2. NOT claimed: any occupancy bound (the interleaving collapse is TRUE BUT VACUOUS -- do not cite as progress); Route-S impossibility (refuted); k-packing as new (banked, cited). SUPERSESSION FLAG recorded: the (unminted) band-occupancy unified fibre-strip Theorem 1 contains T4/T5's mechanism extended to z in {0,(0:1)} -- coordinator decision, see AUDIT_CHECKLIST. Provenance notes/pilots_20260802/xr_graded_band_ledger/ + the xr_band_occupancy amendment.",
+    "refs": [
+      "background/nodes/xr_band_ledger_theorems/statement.md",
+      "background/nodes/xr_band_ledger_theorems/proof.md",
+      "background/nodes/xr_band_ledger_theorems/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_mismatch_chart_nongeneric_joint_support_equivalence",
+      "order": 4848
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_graded_tangent_band_charge",
+      "order": 4858
+    }
+  ],
+  "refutes": []
+}

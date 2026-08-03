@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 682,
+  "node": {
+    "id": "e22_common_tail_invariance_certificate_soundness",
+    "title": "E22 common-tail invariance certificate soundness",
+    "status": "PROVED",
+    "statement": "If an E22 cofactor-tail certificate specifies a common tail B, dyadic local moduli M_i>t, verifies |B|<min_i M_i, and verifies that each T_i\\B is invariant under the M_i-th-root kernel, then e22_cofactor_common_tail_kernel_invariance holds.",
+    "attack_surface": "finite certificate semantics for common-tail, tail-bound, local-modulus, and kernel-invariance data",
+    "falsifier": "a verified common-tail invariance certificate that does not imply the E22 common-tail kernel-invariance predicate"
+  },
+  "requires": [
+    {
+      "from": "e22_cofactor_petal_divisibility",
+      "order": 988
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1163
+    }
+  ],
+  "refutes": []
+}

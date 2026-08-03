@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1087,
+  "node": {
+    "id": "l1_bounded_plotkin_excess_payment",
+    "title": "L1 bounded Plotkin-excess payment",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let E=N+b-4ell>=0 for the combined core/background constant-weight code. Partition contributors by their pattern on any E coordinates. Puncturing within one pattern class preserves distance and leaves length 4ell with distance at least 2ell, so Rankin gives at most 2(4ell) members per class and at most 2^(E+1)(N+b-E) contributors per exact support cell. Hence every fixed (petal polarity, Plotkin excess) box is polynomial per chart, and a counterfamily must have N+b-4ell unbounded. Officially, (r-1)E=(M-3(r-1)+1)ell-r(g+1).",
+    "refs": [
+      "background/nodes/l1_bounded_plotkin_excess_payment/statement.md",
+      "background/nodes/l1_bounded_plotkin_excess_payment/proof.md",
+      "background/nodes/l1_bounded_plotkin_excess_payment/claim_contract.md",
+      "background/nodes/l1_bounded_plotkin_excess_payment/dependency_subdag.md",
+      "background/nodes/l1_bounded_plotkin_excess_payment/audit.md",
+      "background/nodes/l1_bounded_plotkin_excess_payment/verify.py",
+      "background/nodes/l1_bounded_plotkin_excess_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_joint_plotkin_boundary_payment",
+      "order": 2159
+    },
+    {
+      "from": "l1_cross_quotient_split_descent_obstruction",
+      "order": 2160
+    },
+    {
+      "from": "pma_petal_pattern_root_pinning_ledger",
+      "order": 2161
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2162
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2163
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2164
+    }
+  ],
+  "refutes": []
+}

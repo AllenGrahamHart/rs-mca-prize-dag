@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 31,
+  "node": {
+    "id": "e1_n256_s16_autocorrelation_subfield_exclusion",
+    "title": "N=256 square-mass-16 autocorrelation-subfield exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/result.md",
+      "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_autocorrelation_subfield_exclusion/verify.py"
+    ],
+    "statement": "For a profile-(3,4,0) N=256,s=5 candidate at variance V=76, the exact slack recurrence gives L<=22 and conjugate squares at most 60. If A_d=0 whenever 4 does not divide d, then beta=F(zeta)conjugate(F(zeta)) lies in Q(zeta_64). Writing R=Norm_Q(zeta_256)(F(zeta)) and N=Norm_Q(zeta_64)(beta), the tower law gives R^2=N^4 while 0<|N|<=60^32<2^250. Hence no pair-feasible row prime divides R. Every live V=76 candidate has a nonzero autocorrelation distance not divisible by four.",
+    "notes": "ROUTE REDUCTION 2026-07-27: removes the subgroup-concentrated weighted-third-moment extremizer from the V=76 route. The nonperiodic variance-76 residual remains open."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+      "order": 249
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 250
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 385
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 386
+    }
+  ],
+  "refutes": []
+}

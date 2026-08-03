@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1078,
+  "node": {
+    "id": "l1_fixed_support_defect_johnson_bound",
+    "title": "L1 fixed-support defect Johnson bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For one source chart and exact labelled petal support of size h, distinct exact saturated degree-d defect sets inside the (k-1)-point source core intersect in at most r_J=2d-h. Hence a negative-r_J cell is a singleton, while every cell with d^2>(k-1)r_J has size at most (k-1)(d-r_J)/(d^2-(k-1)r_J). All positive-denominator cells are polynomial per source chart at fixed petal polarity, with no field or syndrome factor. Thus a bounded-polarity counterfamily may be restricted to (k-1)(e-1)>=d^2; retaining the background gap g=ell-b further gives d^2<=(k-1)(d-g).",
+    "refs": [
+      "background/nodes/l1_fixed_support_defect_johnson_bound/statement.md",
+      "background/nodes/l1_fixed_support_defect_johnson_bound/proof.md",
+      "background/nodes/l1_fixed_support_defect_johnson_bound/claim_contract.md",
+      "background/nodes/l1_fixed_support_defect_johnson_bound/dependency_subdag.md",
+      "background/nodes/l1_fixed_support_defect_johnson_bound/audit.md",
+      "background/nodes/l1_fixed_support_defect_johnson_bound/verify.py",
+      "background/nodes/l1_fixed_support_defect_johnson_bound/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_polarized_petal_entropy_ledger",
+      "order": 2104
+    },
+    {
+      "from": "pma_saturated_mixed_support_kernel",
+      "order": 2105
+    },
+    {
+      "from": "pma_petal_pattern_root_pinning_ledger",
+      "order": 2106
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2107
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2108
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2109
+    }
+  ],
+  "refutes": []
+}

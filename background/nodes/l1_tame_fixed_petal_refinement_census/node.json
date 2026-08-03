@@ -1,0 +1,48 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 527,
+  "node": {
+    "id": "l1_tame_fixed_petal_refinement_census",
+    "title": "L1 tame fixed-petal refinement census",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Fix one maximal source with M_src disjoint ell-point petals. For s|ell, put r=ell/s. If a monic degree-s quotient polynomial partitions one whole source petal into complete s-point level fibers, then its locator is F(P), with F monic split squarefree of degree r. When the field characteristic does not divide r, the top s-1 coefficients of F(P) recursively determine every nonconstant lower coefficient of P; its constant is exactly additive-shift freedom. Hence each petal carries at most one degree-s refinement class and all tame classes number at most M_src tau(ell)<=n. This counts maps only: small-scale fiber-role payment, wild divisors, unanchored maps, growing polarity, and arbitrary locators remain open. The exact F_9 decomposition of X^9-X into four inequivalent normalized cubic right components proves the tame guard cannot be removed by coefficient triangularity alone, but is not asserted to be an admissible-domain counterexample.",
+    "refs": [
+      "background/nodes/l1_tame_fixed_petal_refinement_census/statement.md",
+      "background/nodes/l1_tame_fixed_petal_refinement_census/proof.md",
+      "background/nodes/l1_tame_fixed_petal_refinement_census/claim_contract.md",
+      "background/nodes/l1_tame_fixed_petal_refinement_census/dependency_subdag.md",
+      "background/nodes/l1_tame_fixed_petal_refinement_census/audit.md",
+      "background/nodes/l1_tame_fixed_petal_refinement_census/lineage.md",
+      "background/nodes/l1_tame_fixed_petal_refinement_census/result.md",
+      "background/nodes/l1_tame_fixed_petal_refinement_census/verify.py",
+      "background/nodes/l1_tame_fixed_petal_refinement_census/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_general_first_layout_domination",
+      "order": 2862
+    },
+    {
+      "from": "l1_fixed_source_quotient_partition_anchor_census",
+      "order": 2863
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2864
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2865
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2866
+    }
+  ],
+  "refutes": []
+}

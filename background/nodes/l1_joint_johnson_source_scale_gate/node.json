@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1085,
+  "node": {
+    "id": "l1_joint_johnson_source_scale_gate",
+    "title": "L1 joint-Johnson source-scale gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The nonpositive joint-Johnson region implies the variance constraint a(N-a)/N+u(b-u)/b>=ell when b>0; zero background gives the analogous core-only constraint. Hence every bounded-polarity live cell has N+b>=4ell and N>=3ell+1. In an official rate-1/r source, (r-1)k+1=Mell+b then forces M>=3(r-1), so all smaller source scales are polynomial per chart. The first live counts are M>=3,9,21,45 at rates 1/2,1/4,1/8,1/16. The arithmetic family ell=2r,b=2r-1,k=6r+2,M=3(r-1) attains N+b=4ell, so the source-scale constant is arithmetically sharp.",
+    "refs": [
+      "background/nodes/l1_joint_johnson_source_scale_gate/statement.md",
+      "background/nodes/l1_joint_johnson_source_scale_gate/proof.md",
+      "background/nodes/l1_joint_johnson_source_scale_gate/claim_contract.md",
+      "background/nodes/l1_joint_johnson_source_scale_gate/dependency_subdag.md",
+      "background/nodes/l1_joint_johnson_source_scale_gate/audit.md",
+      "background/nodes/l1_joint_johnson_source_scale_gate/verify.py",
+      "background/nodes/l1_joint_johnson_source_scale_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_joint_core_background_johnson_bound",
+      "order": 2147
+    },
+    {
+      "from": "l1_fixed_support_defect_johnson_bound",
+      "order": 2148
+    },
+    {
+      "from": "pma_official_rate_small_source_degree_sieve",
+      "order": 2149
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2150
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2151
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2152
+    }
+  ],
+  "refutes": []
+}

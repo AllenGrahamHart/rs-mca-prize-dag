@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 800,
+  "node": {
+    "id": "list_interleaved_support_census",
+    "title": "Arbitrary-arity support census and exact high-arity value at agreement k",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/list_interleaved_support_census/statement.md",
+      "background/nodes/list_interleaved_support_census/proof.md"
+    ],
+    "statement": "For every RS row, m>=1, and a>=k, the worst common-support m-interleaved list is at most binom(n,a). For every a, it is at least the ceiling of sum_{s>=a} binom(n,s)(q^m-1)^(n-s)/q^(m(n-k)), the exact received-word average. If q^m>binom(n,k+1), its exact value at a=k is binom(n,k)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "list_large_m_scope_closure",
+      "order": 1341
+    }
+  ],
+  "refutes": []
+}

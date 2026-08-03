@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1700,
+  "node": {
+    "id": "l1_mersenne_hnf_order_one_linear_color_exclusion",
+    "title": "L1 Mersenne HNF order-one linear-color exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On all five official next-to-maximal order-one rows, the colored Frobenius interpolant on the reduced roots cannot have degree one. If E(W)=aW+b, its injective colors all satisfy the quadratic -(b^p+a^(p+1))X^2+(1+b^(p+1))X-b=0, contradicting the six or fourteen distinct colors required.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/statement.md",
+      "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/proof.md",
+      "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/audit.md",
+      "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/result.md",
+      "background/nodes/l1_mersenne_hnf_order_one_linear_color_exclusion/verify.py"
+    ],
+    "notes": "Complete exclusion of degree one only. Combined with the m=8 constant-color theorem, the active h=7 branch starts at color degree two; h=15 still has a constant-color chamber."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+      "order": 3968
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3969
+    }
+  ],
+  "refutes": []
+}

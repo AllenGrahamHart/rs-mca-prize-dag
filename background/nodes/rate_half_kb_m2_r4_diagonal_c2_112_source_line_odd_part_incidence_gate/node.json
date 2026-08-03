@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1365,
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate",
+    "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) source-line odd-part incidence gate",
+    "status": "PROVED",
+    "closure": "internal-orbit unramified common-root gate and explicit odd-part incidence map for unramified forced-square packets",
+    "statement": "In every saturated source-line diagonal (1,1,2) packet, the unique internal common-K orbit is unramified and the two pure stars over either fiber share exactly one J_0 endpoint a, forcing U(a,z)=V(a,z)=0. If the forced square orbit w is also unramified, deck distinction and the square cut uniquely pin the projective odd part V. The internal label must then equal one explicit rational value z=-N_epsilon(a)/D_epsilon(a), with nonzero denominator, for one sign and one J_0 orbit. This is an exact deletion gate, not a packet or row deletion.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+      "order": 4679
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut",
+      "order": 4680
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4681
+    }
+  ],
+  "refutes": []
+}

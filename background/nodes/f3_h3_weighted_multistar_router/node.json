@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 997,
+  "node": {
+    "id": "f3_h3_weighted_multistar_router",
+    "title": "H3 weighted low-distance multistar router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every cutoff-18 rich shifted-product fiber contains a center whose incident distance-four/six deficit weight is at least four. The row prime divides the norm of the resulting normalized two-to-four-generator ideal, and one fixed primitive root gives an exact weighted-degree candidate sieve.",
+    "refs": [
+      "background/nodes/f3_h3_weighted_multistar_router/statement.md",
+      "background/nodes/f3_h3_weighted_multistar_router/proof.md",
+      "background/nodes/f3_h3_weighted_multistar_router/claim_contract.md",
+      "background/nodes/f3_h3_weighted_multistar_router/dependency_subdag.md",
+      "background/nodes/f3_h3_weighted_multistar_router/audit.md",
+      "background/nodes/f3_h3_weighted_multistar_router/result.md",
+      "background/nodes/f3_h3_weighted_multistar_router/verify.py",
+      "background/nodes/f3_h3_weighted_multistar_router/verify_audit.py",
+      "experiments/prize_resolution/h3_weighted_multistar_alignment_pilot_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_rich_fiber_norm_cutoff",
+      "order": 1885
+    },
+    {
+      "from": "f3_h3_rich_fiber_ideal_batching",
+      "order": 1886
+    },
+    {
+      "from": "f3_h3_distance_two_collision_2primary_exclusion",
+      "order": 1887
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1888
+    }
+  ],
+  "refutes": []
+}

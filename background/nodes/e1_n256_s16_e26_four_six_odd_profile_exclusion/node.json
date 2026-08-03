@@ -1,0 +1,55 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 80,
+  "node": {
+    "id": "e1_n256_s16_e26_four_six_odd_profile_exclusion",
+    "title": "N=256 E=26 four six-odd profile exclusion",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e26_four_six_odd_profile_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e26_four_six_odd_profile_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e26_four_six_odd_profile_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e26_four_six_odd_profile_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e26_four_six_odd_profile_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e26_four_six_odd_profile_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e26_four_six_odd_profile_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e26_four_six_odd_profile_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e26_four_six_odd_profile_exclusion/verify_audit.py",
+      "experiments/prize_resolution/e26_four_six_odd_profile_census.cpp",
+      "experiments/prize_resolution/e26_four_six_odd_profile_census_audit.cpp",
+      "experiments/prize_resolution/e26_four_six_odd_profile_census_modal.py",
+      "experiments/prize_resolution/e26_four_six_odd_profile_census_result.json",
+      "experiments/prize_resolution/e26_four_six_odd_profile_norm_modal.py",
+      "experiments/prize_resolution/e26_four_six_odd_profile_norm_result.json"
+    ],
+    "statement": "At N=256, folded profile (3,4,0), and V=52, all four six-odd profiles (6,5), (5,3,1), (4,1,2), and (6,1,0,1) are impossible. Independent folded-chord and direct-negacyclic engines agree after 24,492,353,024 vectors per engine. They leave 74,614 cubic exceptions, 45,408 with full conductor; FLINT and PARI agree on every primitive norm and prove N_max<2^250<2*N_max.",
+    "notes": "ROUTE CLOSURE 2026-07-27: closes the complete six-odd V=52 branch by a dual 1,234-template census, conductor routing, and dual exact norms."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e26_profile_parity_light_reduction",
+      "order": 4175
+    },
+    {
+      "from": "e1_n256_proper_conductor_collision_exclusion",
+      "order": 4176
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 4177
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4181
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4182
+    }
+  ],
+  "refutes": []
+}

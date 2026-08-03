@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 135,
+  "node": {
+    "id": "e1_prize_n256_s18_profile_36_m1538_exclusion",
+    "title": "Prize N=256 profile-(3,6) cofactor-1538 exclusion",
+    "status": "PROVED",
+    "closure": "dual exact finite enumeration",
+    "refs": [
+      "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/statement.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/proof.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/claim_contract.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/dependency_subdag.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/audit.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/result.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/source_pin.json",
+      "background/nodes/e1_prize_n256_s18_profile_36_m1538_exclusion/verify.py"
+    ],
+    "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 1538 is impossible. Its valuation mu=1 and residual V in {4,6,8,10,12} would require autocorrelation energy 2 through 6. A complete 1969-affine-orbit classification with two exact XOR engines proves that no such coefficient vector exists.",
+    "notes": "EXACT FINITE EXCLUSION 2026-07-28: dual pair-plus-third and triple-table engines agree on 2216832 low-energy targets, 16970 candidate heavy supports, and 135760 exact sign tests. Eleven profile-(3,6) cofactors remain."
+  },
+  "requires": [
+    {
+      "from": "e1_prize_n256_s18_profile_36_cofactor_windows",
+      "order": 4427
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4428
+    },
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4429
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4430
+    }
+  ],
+  "refutes": []
+}

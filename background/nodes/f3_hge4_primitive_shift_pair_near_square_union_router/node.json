@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1230,
+  "node": {
+    "id": "f3_hge4_primitive_shift_pair_near_square_union_router",
+    "title": "HGE4 primitive shift-pair near-square union router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "An unordered primitive top shift pair is equivalent to a 2h-subset U whose locator D_U has the unique form S_U^2-d_U^2 with S_U monic of degree h and d_U a nonzero field element; the two signs reconstruct the pair. If V_free,V_swap count free and antipodal-swap scaling orbits of valid primitive unions, then O_h^prim=2V_free+V_swap. Distinct valid unions containing 1 satisfy A_h^union=hO_h^prim, so sum_h A_h^union/h<=14n^2 is exactly the HGE4 orbit target. The anchored candidate space falls by binom(2h-1,h-1) compared with ordered disjoint-pair enumeration. The aggregate count remains open.",
+    "refs": [
+      "background/nodes/f3_hge4_primitive_shift_pair_near_square_union_router/statement.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_near_square_union_router/proof.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_near_square_union_router/claim_contract.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_near_square_union_router/dependency_subdag.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_near_square_union_router/audit.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_near_square_union_router/result.md",
+      "background/nodes/f3_hge4_primitive_shift_pair_near_square_union_router/verify.py",
+      "background/nodes/f3_hge4_primitive_shift_pair_near_square_union_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_primitive_shift_pair_orbit_aggregate_router",
+      "order": 2544
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2545
+    }
+  ],
+  "refutes": []
+}

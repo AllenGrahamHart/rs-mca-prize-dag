@@ -1,0 +1,47 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1603,
+  "node": {
+    "id": "xr_prize_rank_one_trade_flat_basis_owner",
+    "title": "XR prize rank-one trade flat/basis owner",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a rank-one trade, two active slopes force both received directions to restrict into W on the whole common dual support S. If S spans W, its first basis is shared by every active block, the remaining support is persistent for that basis pencil, and the active population is at most floor((R-v)/h). If rank_W(S)=j<a, its closure is a proper flat of size at most j+u, which requires u>=1. This is a canonical owner dichotomy, not an aggregate count.",
+    "refs": [
+      "background/nodes/xr_prize_rank_one_trade_flat_basis_owner/statement.md",
+      "background/nodes/xr_prize_rank_one_trade_flat_basis_owner/proof.md",
+      "background/nodes/xr_prize_rank_one_trade_flat_basis_owner/claim_contract.md",
+      "background/nodes/xr_prize_rank_one_trade_flat_basis_owner/dependency_subdag.md",
+      "background/nodes/xr_prize_rank_one_trade_flat_basis_owner/audit.md",
+      "background/nodes/xr_prize_rank_one_trade_flat_basis_owner/result.md",
+      "background/nodes/xr_prize_rank_one_trade_flat_basis_owner/verify.py",
+      "background/nodes/xr_prize_rank_one_trade_flat_basis_owner/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_prize_flat_nullity_maxwell_trade_space_compiler",
+      "order": 3784
+    },
+    {
+      "from": "xr_prize_flat_nullity_rank_metric_trade_router",
+      "order": 3785
+    },
+    {
+      "from": "xr_rs_flat_nullity_basis_charge",
+      "order": 3786
+    },
+    {
+      "from": "xr_poststrip_affine_pencil_charge",
+      "order": 3787
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3788
+    }
+  ],
+  "refutes": []
+}

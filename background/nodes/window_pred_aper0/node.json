@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 236,
+  "node": {
+    "id": "window_pred_aper0",
+    "title": "Prediction: window aperiodic numerator 0 throughout",
+    "status": "CONJECTURE",
+    "key": true,
+    "refs": [
+      "proof_sketch/s3a_regular_window.md#2"
+    ],
+    "notes": "TEST-STATUS RETIRED 2026-07-06 (node-semantics law: every node is a truth claim). This node is now the CLAIM about its computation; a computation claim is PROVED only with a pinned result + replayable verifier in the node folder (none exists yet -- run evidence, where any, is anecdotal notes). Obligation: pin + replay, then flip to PROVED-by-computation."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "window_program",
+      "order": 75
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 420,
+  "node": {
+    "id": "xr_e3_to_expansion",
+    "title": "Bridge 1: E_3-large = walk-trapping = non-expanding (elementary spectral bookkeeping)",
+    "status": "PROVABLE",
+    "statement": "E_3(A) = <1_A, (P_A M P_A)^3 1_A> (the cubed restricted one-exchange operator), so E_3 large implies large local spectral radius of M on A, which implies small edge expansion of A in J(n,j) (Courant-Fischer). Connects our energy functional to the expansion language of the literature.",
+    "refs": [
+      "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
+    ],
+    "notes": "PACKET WRITTEN (wave 1): full proofs + verifier 167/167 green in-branch \u2014 the walk identity, spectral cap, and phi(A) <= 1 - E_3(A)/mu(A)."
+  },
+  "requires": [
+    {
+      "from": "johnson_gap",
+      "order": 706
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

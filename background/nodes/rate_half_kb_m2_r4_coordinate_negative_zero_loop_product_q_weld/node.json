@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1412,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld",
+    "title": "KoalaBear m2 r4 coordinate negative zero-loop product-to-q weld",
+    "status": "PROVED",
+    "closure": "quadratic-interpolation product-q weld equivalent to the five common-K sum equations in the zero-loop skeleton",
+    "statement": "In the negative zero-loop 433 skeleton, reconstruct the nonconstant Mobius product map p=N/D. The five values v_s=q_sD(s) are samples of one quadratic polynomial, so the rows [1,s,s^2,v_s] have rank at most three. After fixing any three common-K labels, two 4 x 4 determinant welds are necessary and sufficient for all five common-K sum equations. The signed atlas and complement fibers remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+      "order": 3084
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler",
+      "order": 3085
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3086
+    }
+  ],
+  "refutes": []
+}

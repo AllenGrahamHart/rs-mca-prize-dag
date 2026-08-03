@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 342,
+  "node": {
+    "id": "free_pool_ladder",
+    "title": "thm:ladder: polynomial-range free-pool ladder",
+    "status": "CONDITIONAL",
+    "refs": [
+      "tex/slackMCA_v4.tex"
+    ],
+    "notes": "conditional on a precise subgroup exponential-sum import | AMBER STRESS 2026-07-06: subgroup_expsum_probe.py checked 749 small-prime subgroup rows in/above the N >= p^(3/7) range, with no near-linear additive-character concentration; this remains evidence only because the analytic import is still open.",
+    "statement": "Conditional on the named subgroup exponential-sum input, the polynomial-range free-pool ladder theorem holds in the slackMCA_v4 ladder route."
+  },
+  "requires": [
+    {
+      "from": "subgroup_expsum_input",
+      "order": 543
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "unsafe_at_crossing",
+      "order": 544
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 61,
+  "node": {
+    "id": "e1_n256_s16_e31_endpoint_exclusion",
+    "title": "N=256 square-mass-16 variance-62 endpoint exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e31_endpoint_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e31_endpoint_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e31_endpoint_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e31_endpoint_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e31_endpoint_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e31_endpoint_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e31_endpoint_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e31_endpoint_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e31_endpoint_exclusion/verify_audit.py"
+    ],
+    "statement": "No pair-feasible N=256 folded-profile (3,4,0) collision has autocorrelation variance V=62. The exact reduction leaves only (3,7), (2,5,1), and (1,3,2), and the proved joint exclusion exhausts all three. The remaining positive even variance frontier is 0<V<=60.",
+    "notes": "ENDPOINT CLOSURE 2026-07-27: synthesizes the complete E31 chain and advances the live variance frontier by two. Lower positive even variances remain open."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e31_profile_parity_light_reduction",
+      "order": 344
+    },
+    {
+      "from": "e1_n256_s16_e31_three_profile_joint_exclusion",
+      "order": 345
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 445
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 446
+    }
+  ],
+  "refutes": []
+}

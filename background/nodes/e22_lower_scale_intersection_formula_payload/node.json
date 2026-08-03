@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 675,
+  "node": {
+    "id": "e22_lower_scale_intersection_formula_payload",
+    "title": "E22 lower-scale intersection formula payload",
+    "status": "PROVED",
+    "statement": "For every dyadic pair M_i<M_j and every subset of smaller dyadic scales, the dyadic-tree tail polynomial gives exact weighted coefficient formulas for the residual profiles raw-admissible at M_j and admissible at the selected lower scales, with atom weights supplied by dyadic_profile_evaluation.",
+    "attack_surface": "verify the structural intersection formulas for all subsets of smaller dyadic scales, with dyadic_profile_evaluation multiplicities",
+    "falsifier": "a missing subset, an incorrect coefficient formula, or a multiplicity mismatch with dyadic_profile_evaluation"
+  },
+  "requires": [
+    {
+      "from": "e22_cross_scale_support_canonical_form",
+      "order": 1024
+    },
+    {
+      "from": "e22_residual_profile_generating_function",
+      "order": 1025
+    },
+    {
+      "from": "dyadic_profile_evaluation",
+      "order": 1026
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1156
+    }
+  ],
+  "refutes": []
+}

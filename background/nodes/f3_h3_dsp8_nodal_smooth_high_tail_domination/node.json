@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1222,
+  "node": {
+    "id": "f3_h3_dsp8_nodal_smooth_high_tail_domination",
+    "title": "DSP8 nodal/smooth high-tail domination",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On every retained product fiber, the nodal signed-disjoint distance-six graph has maximum degree three while the total disjoint graph has the proved multiplicity lower bound. Hence nodal edges are dominated targetwise by smooth edges for antipodal-free P>=33 and antipodal P>=35. The high-tail quotient-weighted moment is at most twice its smooth part; the bounded lower multiplicity bands and the smooth moment remain open.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_nodal_smooth_high_tail_domination/statement.md",
+      "background/nodes/f3_h3_dsp8_nodal_smooth_high_tail_domination/proof.md",
+      "background/nodes/f3_h3_dsp8_nodal_smooth_high_tail_domination/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_nodal_smooth_high_tail_domination/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_nodal_smooth_high_tail_domination/audit.md",
+      "background/nodes/f3_h3_dsp8_nodal_smooth_high_tail_domination/result.md",
+      "background/nodes/f3_h3_dsp8_nodal_smooth_high_tail_domination/verify.py",
+      "background/nodes/f3_h3_dsp8_nodal_smooth_high_tail_domination/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_dsp8_disjoint_six_multiplicity_gate",
+      "order": 2513
+    },
+    {
+      "from": "f3_h3_dsp8_smooth_trace_substar_router",
+      "order": 2514
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2515
+    }
+  ],
+  "refutes": []
+}

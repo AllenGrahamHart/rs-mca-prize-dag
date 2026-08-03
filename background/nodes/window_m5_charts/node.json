@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 240,
+  "node": {
+    "id": "window_m5_charts",
+    "title": "Window residual charts (per-point, finite)",
+    "status": "TARGET",
+    "refs": [
+      "wp_detail/wp2_5_wp4_1_window_charts_and_displacement.md#1"
+    ],
+    "closure": "artifact",
+    "notes": "NODE-KIND FLAG (hygiene audit 2026-07-04): deliverable \u2014 not truth-apt as stated; queue: reword to its propositional core or demote to support/queue item."
+  },
+  "requires": [
+    {
+      "from": "m1_packet_transport",
+      "order": 156
+    },
+    {
+      "from": "m1_rank_defect_nf",
+      "order": 157
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "window_program",
+      "order": 78
+    },
+    {
+      "to": "adjacency_closing",
+      "order": 621
+    }
+  ],
+  "refutes": []
+}

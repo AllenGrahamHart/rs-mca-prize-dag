@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1666,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router",
+    "title": "L1 Mersenne HNF m=8 order-one cubic three-two-one generic fully-proportional coefficient router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the fully proportional coefficient-zero locus, M_1=M_0=0 reconstruct D,Q_0 from (b,q), while C_1=C_0=0 become two explicit affine equations in G_2; the generic and singly exceptional charts reconstruct G_2,H,Y.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/lineage.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/upstream_crosswalk.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_coefficient_router/verify.py"
+    ],
+    "notes": "Exact coefficient router only. The bivariate compatibility equations, doubly exceptional chart, role-discriminant weld, P_4, and arithmetic-lift obligations remain open."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_two_one_generic_fully_proportional_bivariate_factorization",
+      "order": 4045
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4046
+    }
+  ],
+  "refutes": []
+}

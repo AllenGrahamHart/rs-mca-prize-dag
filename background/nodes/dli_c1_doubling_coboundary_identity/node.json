@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1737,
+  "node": {
+    "id": "dli_c1_doubling_coboundary_identity",
+    "title": "C1 Fourier weight is an exact multiplicative coboundary under doubling on F_q^*/H: A(C)=D(2C)/D(C), cycle products = 1, small-orbit resultant router, exact-flatness rows",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For any subgroup H=<omega> of F_q^* with -1 in H (official L=1: |H|=512), define D(C)=prod_(h in H)(1-zeta_q^(ch)) > 0 and A(C)=prod(1+zeta_q^(ch)) on cosets C in Q=F_q^*/H. Then EXACTLY: A(C)=D(2C)/D(C) (the identity 1+x=(1-x^2)/(1-x) plus squaring maps cH onto 2cH); log A is a coboundary of L=log D under the doubling permutation, so products around every doubling cycle equal 1; the L=1 C1 excess is X = (q-1)/(q 2^N) avg_C A(C), making C1-ZERO an exponential-moment inequality for the discrete derivative of L along doubling orbits. Small-orbit dichotomy: order-r class of 2 gives q | 2^(|H|r)-1 (finite resultant router per cutoff); at r=1 (2 in H) A==1 identically and X=(q-1)/(q 2^N) exactly (the exact-flatness rows, e.g. q=257). NOT claimed: any bound on long doubling orbits, C1-ZERO, SWIF-4, transfer beyond L=1. Provenance: Pro adversarial audit of the inverse-flatness strategy (notes/pro_briefs_20260801/responses/blackhole/), symbolically re-derived and exactly replayed 2026-08-01 (integer polynomial identity mod X^q-1 at q=257 and q=7681; exact flat-row DP check).",
+    "refs": [
+      "background/nodes/dli_c1_doubling_coboundary_identity/statement.md",
+      "background/nodes/dli_c1_doubling_coboundary_identity/proof.md",
+      "background/nodes/dli_c1_doubling_coboundary_identity/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_c1r3_gated_envelope_bound",
+      "order": 4826
+    }
+  ],
+  "refutes": []
+}

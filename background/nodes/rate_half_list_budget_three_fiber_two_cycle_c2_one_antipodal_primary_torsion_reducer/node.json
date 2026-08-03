@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1308,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer",
+    "title": "Budget-three fiber-two c=2 one-antipodal stratum has a sign-free primary/torsion circuit",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "If an official c=2 denominator contains one antipodal pair, common scaling gives roots {1,-1,c,d}. With S=c+d, P=cd, and X=S^2, the two primary coefficients are F_H(X,P) and S G_H(X,P). On the exactly-one-antipodal stratum they vanish exactly when F_H=G_H=0. Complementary-root torsion is the sign-free 39-step circuit U_0=X-2P, V_0=P^2, U_(j+1)=U_j^2-2V_j, V_(j+1)=V_j^2, ending at (2,1). Together with square and distinctness gates this is an exact two-variable circuit modulo S->-S. It does not prove the circuit empty, use the secondary gap, or prove C2-PAR.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_primary_torsion_reducer/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_normalized_gap_span_compiler",
+      "order": 2782
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router",
+      "order": 2783
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2784
+    }
+  ],
+  "refutes": []
+}

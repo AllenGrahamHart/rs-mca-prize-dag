@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1206,
+  "node": {
+    "id": "xr_mismatch_chart_nongeneric_joint_support_equivalence",
+    "title": "Mismatch-chart nongenericity is an alternative joint A-support",
+    "status": "PROVED",
+    "statement": "For a full-external-zero chart (T,Z), scaled endpoint genericity fails at radius |T|-(A-|Z|) iff there are degree-below-(K-|Z|) polynomials g0,g1 such that c_i+P_Z g_i jointly explain the received pair on Z union R for some R subset T of size at least A-|Z|. Thus recursive nongenericity is exactly a second joint agreement support of size at least A extending Z. Supports for distinct joint codeword-pair explanations intersect in at most K-1 coordinates.",
+    "refs": [
+      "background/nodes/xr_mismatch_chart_nongeneric_joint_support_equivalence/statement.md",
+      "background/nodes/xr_mismatch_chart_nongeneric_joint_support_equivalence/proof.md",
+      "background/nodes/xr_mismatch_chart_nongeneric_joint_support_equivalence/claim_contract.md",
+      "background/nodes/xr_mismatch_chart_nongeneric_joint_support_equivalence/audit.md",
+      "background/nodes/xr_mismatch_chart_nongeneric_joint_support_equivalence/result.md",
+      "background/nodes/xr_mismatch_chart_nongeneric_joint_support_equivalence/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 2484
+    },
+    {
+      "to": "xr_graded_tangent_band_charge",
+      "order": 4840
+    }
+  ],
+  "refutes": []
+}

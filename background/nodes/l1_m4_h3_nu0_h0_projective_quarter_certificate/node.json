@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1639,
+  "node": {
+    "id": "l1_m4_h3_nu0_h0_projective_quarter_certificate",
+    "title": "L1 m=4, h=3, nu=0, h=0 projective quarter certificate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In the surviving nu=0,b!=0,deg H=0 endpoint, the exact 16-quarter fiber-product certificate restricts (a/R(0)^2,b/R(0)^3) to (6,20) on the first three official characteristics and to that pair or (844833809,2002167159) on p=2147483647. This necessary projective classification does not assert that either packet lifts or close L1.",
+    "refs": [
+      "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/statement.md",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/proof.md",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/claim_contract.md",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/dependency_subdag.md",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/audit.md",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/result.md",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/lineage.md",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/upstream_crosswalk.md",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/verify.py",
+      "background/nodes/l1_m4_h3_nu0_h0_projective_quarter_certificate/verify_audit.py",
+      "experiments/prize_resolution/l1_m4_h3_nu0_h0_projective_quarter_check.py",
+      "experiments/prize_resolution/l1_m4_h3_nu0_h0_projective_quarter_result.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_m4_h3_nu0_h0_projective_branch_exclusion",
+      "order": 3890
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3891
+    }
+  ],
+  "refutes": []
+}

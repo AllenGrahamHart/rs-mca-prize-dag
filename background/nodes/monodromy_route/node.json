@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 219,
+  "node": {
+    "id": "monodromy_route",
+    "title": "Monodromy route: BETA_2 => SL_8 for rank-8 sheaf",
+    "status": "WALL",
+    "refs": [
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#3"
+    ]
+  },
+  "requires": [
+    {
+      "from": "beta2_reduction",
+      "order": 54
+    },
+    {
+      "from": "beta2_irreducibility",
+      "order": 132
+    },
+    {
+      "from": "beta2_primitivity_trace",
+      "order": 133
+    },
+    {
+      "from": "monodromy_realization",
+      "order": 577
+    }
+  ],
+  "alternatives": [
+    {
+      "from": "beta2_dead_routes",
+      "order": 135
+    }
+  ],
+  "evidence_for": [
+    {
+      "to": "r2_rigidity",
+      "order": 51
+    }
+  ],
+  "refutes": []
+}

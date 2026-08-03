@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 701,
+  "node": {
+    "id": "v13_sp_shift_pair_residual",
+    "status": "CONJECTURE",
+    "title": "v13 SP: shift-pair residual is a distinct class",
+    "statement": "HYGIENE CONJECTURE (upstream: przchojecki/rs-mca towards-prize.md (2026-07-01 revision) + cap25 v13 raw notes): primitive shift-pair coincidences form a residual class DISTINCT from quotient-pullback pairs and must not be hidden inside Q or BC. Aligns with our verified moment-trade / fifth-mechanism discoveries (the x4 moment column; Pro round-5 engineered relation orbits are exactly primitive shift-pair objects). Prevents the DAG from pretending all cancellation is quotient symmetry."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u1_pullback_dichotomy",
+      "order": 1195
+    },
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1196
+    },
+    {
+      "to": "x4_exactlist_staircase_split",
+      "order": 1197
+    },
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1198
+    },
+    {
+      "to": "payment_completeness",
+      "order": 1199
+    }
+  ],
+  "refutes": []
+}

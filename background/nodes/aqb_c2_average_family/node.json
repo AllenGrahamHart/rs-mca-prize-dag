@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 575,
+  "node": {
+    "id": "aqb_c2_average_family",
+    "title": "AQB c=2 averaged quotient-box family",
+    "status": "REFUTED",
+    "statement": "There exists an averaged family over the c=2 quotient-box geometry at sigma*=8,592,912,738 whose members share enough quotient structure for their list contributions to be averaged before paying the full box charge separately for each member. This is reduced to certificate semantics plus the remaining concrete averaged-family certificate payload.",
+    "attack_surface": "assembly from the proved averaged-family certificate semantics and the remaining concrete c=2 family certificate payload",
+    "falsifier": "a structural theorem showing every admissible c=2 quotient-box family at sigma* decomposes into single-word boxes with no nontrivial shared quotient charge, or a defect in the certificate semantics",
+    "notes": "AQB ROUTE REFUTED (Pro, verified): convex-combination obstruction \u2014 the averaging transfer needs the family AVERAGE (convex comb of single-box counts <= max box), so box-sharing saves log|F| but the \u00f7|F| normalization cancels it. Gain needs a heavy-fiber theorem (forbidden, circular). See aqb_coupled_family_entropy_manifest_payload/refutation.md."
+  },
+  "requires": [
+    {
+      "from": "aqb_family_certificate_semantics",
+      "order": 872
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "aqb_averaged_quotient_box",
+      "order": 871
+    },
+    {
+      "to": "aqb_box_charge_amortization",
+      "order": 879
+    },
+    {
+      "to": "aqb_shared_entropy_gain_payload",
+      "order": 882
+    },
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1095
+    }
+  ],
+  "refutes": []
+}

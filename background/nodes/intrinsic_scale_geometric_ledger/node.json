@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 806,
+  "node": {
+    "id": "intrinsic_scale_geometric_ledger",
+    "title": "Intrinsic dyadic scales have a geometric quotient-row ledger",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/intrinsic_scale_geometric_ledger/statement.md",
+      "background/nodes/intrinsic_scale_geometric_ledger/proof.md",
+      "background/nodes/intrinsic_scale_geometric_ledger/verify.py"
+    ],
+    "statement": "If each intrinsic scale M=2^j class injects into a primitive quotient-row family of size at most C(n/M)^B, their disjoint aggregate is less than Cn^B/(2^B-1). At B=6 the descended cost is below Cn^6/63, and coefficient C<=63/64 pays current and descended primitive classes together inside n^6."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_small_scale_staircase_census",
+      "order": 1357
+    },
+    {
+      "to": "petal_g1_k4_scale_reserve",
+      "order": 1368
+    }
+  ],
+  "refutes": []
+}

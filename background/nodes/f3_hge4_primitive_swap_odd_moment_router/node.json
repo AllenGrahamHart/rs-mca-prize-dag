@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1243,
+  "node": {
+    "id": "f3_hge4_primitive_swap_odd_moment_router",
+    "title": "HGE4 primitive swap odd-moment router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "A primitive near-square union with antipodal swap stabilizer exists only at odd width. Its two supports are P and -P, and the odd elementary symmetric functions e_j(P), equivalently the odd power sums through j<h, vanish. Conversely these equations, antipodal-freeness, and trivial common scaling stabilizer reconstruct the primitive swap pair. Thus the swap branch is empty at even h; at odd h it reduces to a signed odd-Vandermonde kernel on h antipodal pairs, with A_h^swap=hV_h^swap<=binom(n/2-1,h-1). The free-union class and the aggregate HGE4 bound remain open.",
+    "refs": [
+      "background/nodes/f3_hge4_primitive_swap_odd_moment_router/statement.md",
+      "background/nodes/f3_hge4_primitive_swap_odd_moment_router/proof.md",
+      "background/nodes/f3_hge4_primitive_swap_odd_moment_router/claim_contract.md",
+      "background/nodes/f3_hge4_primitive_swap_odd_moment_router/dependency_subdag.md",
+      "background/nodes/f3_hge4_primitive_swap_odd_moment_router/audit.md",
+      "background/nodes/f3_hge4_primitive_swap_odd_moment_router/result.md",
+      "background/nodes/f3_hge4_primitive_swap_odd_moment_router/verify.py",
+      "background/nodes/f3_hge4_primitive_swap_odd_moment_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_primitive_shift_pair_near_square_union_router",
+      "order": 2587
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 2588
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1594,
+  "node": {
+    "id": "xr_quotient_image_remainder_one_boundary_descent",
+    "title": "XR threshold quotient image localizes to one-point-tail tangents",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_quotient_image_remainder_one_boundary_descent/statement.md",
+      "background/nodes/xr_quotient_image_remainder_one_boundary_descent/proof.md",
+      "background/nodes/xr_quotient_image_remainder_one_boundary_descent/claim_contract.md",
+      "background/nodes/xr_quotient_image_remainder_one_boundary_descent/dependency_subdag.md",
+      "background/nodes/xr_quotient_image_remainder_one_boundary_descent/verify.py",
+      "background/nodes/xr_quotient_image_remainder_one_boundary_descent/verify_audit.py",
+      "background/nodes/xr_quotient_image_remainder_one_boundary_descent/audit.md",
+      "background/nodes/xr_quotient_image_remainder_one_boundary_descent/result.md"
+    ],
+    "statement": "For one quotient fiber size and A>=k+1, every noncontained quotient-remainder support above agreement A has a profile-preserving noncontained one-point deletion unless it has remainder one and its pure-fiber predecessor is contained. Iteration shows that the threshold quotient slope image is exactly the union of the exact-A image and these remainder-one boundary factors. Every boundary factor is a genuine tangent to the predecessor's codeword pair; this node alone does not own their union."
+  },
+  "requires": [
+    {
+      "from": "xr_threshold_quotient_image_lcm_normal_form",
+      "order": 3752
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 3753
+    }
+  ],
+  "refutes": []
+}

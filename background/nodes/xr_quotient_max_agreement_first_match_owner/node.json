@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1596,
+  "node": {
+    "id": "xr_quotient_max_agreement_first_match_owner",
+    "title": "XR quotient first match occurs at maximum agreement",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_quotient_max_agreement_first_match_owner/statement.md",
+      "background/nodes/xr_quotient_max_agreement_first_match_owner/proof.md",
+      "background/nodes/xr_quotient_max_agreement_first_match_owner/claim_contract.md",
+      "background/nodes/xr_quotient_max_agreement_first_match_owner/dependency_subdag.md",
+      "background/nodes/xr_quotient_max_agreement_first_match_owner/verify.py",
+      "background/nodes/xr_quotient_max_agreement_first_match_owner/verify_audit.py",
+      "background/nodes/xr_quotient_max_agreement_first_match_owner/audit.md",
+      "background/nodes/xr_quotient_max_agreement_first_match_owner/result.md"
+    ],
+    "statement": "At threshold A, quotient slopes with higher agreement are carried into the existing B_(A+1) term, while every remaining exact quotient slope has maximum agreement exactly A. Any A-point quotient witness for such a slope is the witness codeword's full agreement set. A deterministic scale/codeword order removes cross-threshold and representation duplication; bounding the resulting full-agreement quotient image remains open."
+  },
+  "requires": [
+    {
+      "from": "xr_quotient_boundary_agreement_raise_owner",
+      "order": 3757
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 3758
+    }
+  ],
+  "refutes": []
+}

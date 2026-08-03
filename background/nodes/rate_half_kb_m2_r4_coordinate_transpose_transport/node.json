@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1405,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_transpose_transport",
+    "title": "KoalaBear m2 r4 coordinate-transpose transport",
+    "status": "PROVED",
+    "closure": "endpoint-axis transport of the transposed coordinate subgroup to a fresh source record in the proved coordinate chain",
+    "statement": "The endpoint self-correspondence f(T)=f(W) is invariant under transposition. Thus every actual order-two component with stabilizer <1 x tau> transposes to an actual component with stabilizer <tau x 1>. After exchanging endpoint roles, one must rerun the degree-two source reduction on the new second projection; the resulting primed source record satisfies the complete coordinate source-facet, parity, colored-resultant, and Vieta-rank chain. Hence the two coordinate subgroups are one existence/deletion route, while their source presentations are not identified and the diagonal route remains separate.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_transpose_transport/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
+      "order": 3626
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler",
+      "order": 3627
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3628
+    }
+  ],
+  "refutes": []
+}

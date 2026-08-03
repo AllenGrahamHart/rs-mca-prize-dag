@@ -1,0 +1,53 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 33,
+  "node": {
+    "id": "e1_n256_s16_e37_quotient_schur_exclusion",
+    "title": "N=256 square-mass-16 E=37 quotient-Schur exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/verify_audit.py",
+      "background/nodes/e1_n256_s16_e37_quotient_schur_exclusion/verify_census_remote.py",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e37_mod16_quotient_census.cpp",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e37_mod16_quotient_census_result.json",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e37_mod16_quotient_census_check.py"
+    ],
+    "statement": "For profile (3,4,0) at V=74, the exact slack recurrence gives E=37 and L<=21. A complete 19,732,753-allocation quotient census, split according to the weight-two layer's 4Z support and refined by the exact Z/32 Z bound R(B,B,B)<=174, gives M_3<=2576<2592 across all 29 magnitude profiles. The rational cubic-Hermite certificate therefore puts the norm below 2^250 and excludes V=74. Every unresolved vector in this profile has positive even V<=72.",
+    "notes": "ROUTE CLOSURE 2026-07-27: closes the variance-74 slice with exact quotient chambers, a 6,435-set inner Schur census, and no new assumptions. Lower positive even variances remain open."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e38_quotient_schur_exclusion",
+      "order": 254
+    },
+    {
+      "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+      "order": 255
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 256
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 389
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 390
+    }
+  ],
+  "refutes": []
+}

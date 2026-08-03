@@ -1,0 +1,705 @@
+{
+ "doc": "x3_rigidity.py -- ROUTE (2): CLAIM H (rigidity) tested where the banked\nTHEOREM F's range d <= w-2j is genuinely NON-EMPTY, i.e. w >= 2j+1.\n\nFull enumeration cannot reach that regime with a live population (PREREG D-7).\nSo the test is EXHAUSTIVE LOCAL SEARCH in the d-ball: around each base band\nsolution T0 (structured ones always exist), enumerate EVERY T at symmetric\ndistance exactly d, for d = 1..dmax, and test band membership.  The d-ball is\nenumerated with prefix-shared series division/multiplication, so the cost is\nO(w) per candidate and the search is genuinely exhaustive up to dmax.\n\nFalsifiers:\n  F-F : two band solutions with  j < d <= w-2j                    [kills (H1)]\n  F-G : d(T1,T2),d(T2,T3) <= j but j < d(T1,T3) <= w-2j           [kills (H4)]\n  F-H : a band solution at  1 < d <= w-2j  from a STRUCTURED one,\n        or a d <= w-2j neighbour whose z is not -a^j (a = removed pt) [kills (H3)]\nPlus: the (RIG) polynomial identity  G'(1+zY^j)Q = G(1+z'Y^j)Q'  must hold\nEXACTLY for every found pair with d <= w-2j, and must FAIL for pairs beyond it.\n",
+ "rows": [
+  {
+   "n": 20,
+   "k": 5,
+   "w": 5,
+   "M": 5,
+   "q": 41,
+   "j": 1,
+   "rp": 9,
+   "D_range": 3,
+   "dmax_searched": 3,
+   "n_candidates": 63756,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 36
+   },
+   "n_pairs_checked": 720
+  },
+  {
+   "n": 20,
+   "k": 5,
+   "w": 5,
+   "M": 5,
+   "q": 41,
+   "j": 2,
+   "rp": 9,
+   "D_range": 1,
+   "dmax_searched": 1,
+   "n_candidates": 396,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 36
+   },
+   "n_pairs_checked": 720
+  },
+  {
+   "n": 20,
+   "k": 5,
+   "w": 5,
+   "M": 5,
+   "q": 101,
+   "j": 1,
+   "rp": 9,
+   "D_range": 3,
+   "dmax_searched": 3,
+   "n_candidates": 63756,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 36
+   },
+   "n_pairs_checked": 720
+  },
+  {
+   "n": 20,
+   "k": 5,
+   "w": 5,
+   "M": 5,
+   "q": 101,
+   "j": 2,
+   "rp": 9,
+   "D_range": 1,
+   "dmax_searched": 1,
+   "n_candidates": 396,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 36
+   },
+   "n_pairs_checked": 720
+  },
+  {
+   "n": 18,
+   "k": 6,
+   "w": 6,
+   "M": 6,
+   "q": 37,
+   "j": 1,
+   "rp": 5,
+   "D_range": 4,
+   "dmax_searched": 4,
+   "n_candidates": 29120,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 20
+   },
+   "n_pairs_checked": 240
+  },
+  {
+   "n": 18,
+   "k": 6,
+   "w": 6,
+   "M": 6,
+   "q": 37,
+   "j": 2,
+   "rp": 5,
+   "D_range": 2,
+   "dmax_searched": 2,
+   "n_candidates": 3380,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 68,
+    "2": 96
+   },
+   "n_pairs_checked": 4222
+  },
+  {
+   "n": 24,
+   "k": 12,
+   "w": 6,
+   "M": 6,
+   "q": 73,
+   "j": 1,
+   "rp": 5,
+   "D_range": 4,
+   "dmax_searched": 4,
+   "n_candidates": 123500,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 20
+   },
+   "n_pairs_checked": 240
+  },
+  {
+   "n": 24,
+   "k": 12,
+   "w": 6,
+   "M": 6,
+   "q": 73,
+   "j": 2,
+   "rp": 5,
+   "D_range": 2,
+   "dmax_searched": 2,
+   "n_candidates": 7220,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 92,
+    "2": 144
+   },
+   "n_pairs_checked": 6018
+  },
+  {
+   "n": 21,
+   "k": 7,
+   "w": 7,
+   "M": 7,
+   "q": 43,
+   "j": 1,
+   "rp": 6,
+   "D_range": 5,
+   "dmax_searched": 5,
+   "n_candidates": 197032,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 24
+   },
+   "n_pairs_checked": 336
+  },
+  {
+   "n": 21,
+   "k": 7,
+   "w": 7,
+   "M": 7,
+   "q": 43,
+   "j": 2,
+   "rp": 6,
+   "D_range": 3,
+   "dmax_searched": 3,
+   "n_candidates": 43060,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 24
+   },
+   "n_pairs_checked": 336
+  },
+  {
+   "n": 21,
+   "k": 7,
+   "w": 7,
+   "M": 7,
+   "q": 43,
+   "j": 3,
+   "rp": 6,
+   "D_range": 1,
+   "dmax_searched": 1,
+   "n_candidates": 360,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 24
+   },
+   "n_pairs_checked": 336
+  },
+  {
+   "n": 21,
+   "k": 7,
+   "w": 7,
+   "M": 7,
+   "q": 127,
+   "j": 1,
+   "rp": 6,
+   "D_range": 5,
+   "dmax_searched": 5,
+   "n_candidates": 197032,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 24
+   },
+   "n_pairs_checked": 336
+  },
+  {
+   "n": 21,
+   "k": 7,
+   "w": 7,
+   "M": 7,
+   "q": 127,
+   "j": 2,
+   "rp": 6,
+   "D_range": 3,
+   "dmax_searched": 3,
+   "n_candidates": 43060,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 24
+   },
+   "n_pairs_checked": 336
+  },
+  {
+   "n": 21,
+   "k": 7,
+   "w": 7,
+   "M": 7,
+   "q": 127,
+   "j": 3,
+   "rp": 6,
+   "D_range": 1,
+   "dmax_searched": 1,
+   "n_candidates": 360,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 24
+   },
+   "n_pairs_checked": 336
+  },
+  {
+   "n": 24,
+   "k": 8,
+   "w": 8,
+   "M": 8,
+   "q": 73,
+   "j": 1,
+   "rp": 7,
+   "D_range": 6,
+   "dmax_searched": 6,
+   "n_candidates": 1306620,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 28
+   },
+   "n_pairs_checked": 448
+  },
+  {
+   "n": 24,
+   "k": 8,
+   "w": 8,
+   "M": 8,
+   "q": 73,
+   "j": 2,
+   "rp": 7,
+   "D_range": 4,
+   "dmax_searched": 4,
+   "n_candidates": 440300,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 92,
+    "2": 192
+   },
+   "n_pairs_checked": 15173
+  },
+  {
+   "n": 24,
+   "k": 8,
+   "w": 8,
+   "M": 8,
+   "q": 73,
+   "j": 3,
+   "rp": 7,
+   "D_range": 2,
+   "dmax_searched": 2,
+   "n_candidates": 11900,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 28
+   },
+   "n_pairs_checked": 448
+  },
+  {
+   "n": 24,
+   "k": 8,
+   "w": 8,
+   "M": 8,
+   "q": 97,
+   "j": 1,
+   "rp": 7,
+   "D_range": 6,
+   "dmax_searched": 6,
+   "n_candidates": 1306620,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 28
+   },
+   "n_pairs_checked": 448
+  },
+  {
+   "n": 24,
+   "k": 8,
+   "w": 8,
+   "M": 8,
+   "q": 97,
+   "j": 2,
+   "rp": 7,
+   "D_range": 4,
+   "dmax_searched": 4,
+   "n_candidates": 440300,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 92,
+    "2": 192
+   },
+   "n_pairs_checked": 15173
+  },
+  {
+   "n": 24,
+   "k": 8,
+   "w": 8,
+   "M": 8,
+   "q": 97,
+   "j": 3,
+   "rp": 7,
+   "D_range": 2,
+   "dmax_searched": 2,
+   "n_candidates": 11900,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 28
+   },
+   "n_pairs_checked": 448
+  },
+  {
+   "n": 27,
+   "k": 9,
+   "w": 9,
+   "M": 9,
+   "q": 109,
+   "j": 1,
+   "rp": 8,
+   "D_range": 7,
+   "dmax_searched": 7,
+   "n_candidates": 8577968,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 32
+   },
+   "n_pairs_checked": 576
+  },
+  {
+   "n": 27,
+   "k": 9,
+   "w": 9,
+   "M": 9,
+   "q": 109,
+   "j": 2,
+   "rp": 8,
+   "D_range": 5,
+   "dmax_searched": 4,
+   "n_candidates": 1322096,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 32
+   },
+   "n_pairs_checked": 576
+  },
+  {
+   "n": 27,
+   "k": 9,
+   "w": 9,
+   "M": 9,
+   "q": 109,
+   "j": 3,
+   "rp": 8,
+   "D_range": 3,
+   "dmax_searched": 3,
+   "n_candidates": 236816,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 176,
+    "2": 1116,
+    "3": 1224
+   },
+   "n_pairs_checked": 124307
+  },
+  {
+   "n": 27,
+   "k": 9,
+   "w": 9,
+   "M": 9,
+   "q": 109,
+   "j": 4,
+   "rp": 8,
+   "D_range": 1,
+   "dmax_searched": 1,
+   "n_candidates": 608,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 32
+   },
+   "n_pairs_checked": 576
+  },
+  {
+   "n": 30,
+   "k": 10,
+   "w": 10,
+   "M": 10,
+   "q": 61,
+   "j": 1,
+   "rp": 9,
+   "D_range": 8,
+   "dmax_searched": 3,
+   "n_candidates": 477876,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 36
+   },
+   "n_pairs_checked": 720
+  },
+  {
+   "n": 30,
+   "k": 10,
+   "w": 10,
+   "M": 10,
+   "q": 61,
+   "j": 2,
+   "rp": 9,
+   "D_range": 6,
+   "dmax_searched": 3,
+   "n_candidates": 477876,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 116,
+    "2": 320
+   },
+   "n_pairs_checked": 24170
+  },
+  {
+   "n": 30,
+   "k": 10,
+   "w": 10,
+   "M": 10,
+   "q": 61,
+   "j": 3,
+   "rp": 9,
+   "D_range": 4,
+   "dmax_searched": 3,
+   "n_candidates": 477876,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 36
+   },
+   "n_pairs_checked": 720
+  },
+  {
+   "n": 30,
+   "k": 10,
+   "w": 10,
+   "M": 10,
+   "q": 61,
+   "j": 4,
+   "rp": 9,
+   "D_range": 2,
+   "dmax_searched": 2,
+   "n_candidates": 30996,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 116,
+    "2": 320
+   },
+   "n_pairs_checked": 9000
+  },
+  {
+   "n": 33,
+   "k": 11,
+   "w": 11,
+   "M": 11,
+   "q": 67,
+   "j": 1,
+   "rp": 10,
+   "D_range": 9,
+   "dmax_searched": 3,
+   "n_candidates": 896540,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 40
+   },
+   "n_pairs_checked": 880
+  },
+  {
+   "n": 33,
+   "k": 11,
+   "w": 11,
+   "M": 11,
+   "q": 67,
+   "j": 2,
+   "rp": 10,
+   "D_range": 7,
+   "dmax_searched": 3,
+   "n_candidates": 896540,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 40
+   },
+   "n_pairs_checked": 880
+  },
+  {
+   "n": 33,
+   "k": 11,
+   "w": 11,
+   "M": 11,
+   "q": 67,
+   "j": 3,
+   "rp": 10,
+   "D_range": 5,
+   "dmax_searched": 3,
+   "n_candidates": 896540,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 40
+   },
+   "n_pairs_checked": 880
+  },
+  {
+   "n": 33,
+   "k": 11,
+   "w": 11,
+   "M": 11,
+   "q": 67,
+   "j": 4,
+   "rp": 10,
+   "D_range": 3,
+   "dmax_searched": 3,
+   "n_candidates": 896540,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 40
+   },
+   "n_pairs_checked": 880
+  },
+  {
+   "n": 33,
+   "k": 11,
+   "w": 11,
+   "M": 11,
+   "q": 67,
+   "j": 5,
+   "rp": 10,
+   "D_range": 1,
+   "dmax_searched": 1,
+   "n_candidates": 920,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 40
+   },
+   "n_pairs_checked": 880
+  },
+  {
+   "n": 36,
+   "k": 12,
+   "w": 12,
+   "M": 12,
+   "q": 73,
+   "j": 1,
+   "rp": 11,
+   "D_range": 10,
+   "dmax_searched": 3,
+   "n_candidates": 1585100,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 44
+   },
+   "n_pairs_checked": 1056
+  },
+  {
+   "n": 36,
+   "k": 12,
+   "w": 12,
+   "M": 12,
+   "q": 73,
+   "j": 2,
+   "rp": 11,
+   "D_range": 8,
+   "dmax_searched": 3,
+   "n_candidates": 1585100,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 140,
+    "2": 480
+   },
+   "n_pairs_checked": 35046
+  },
+  {
+   "n": 36,
+   "k": 12,
+   "w": 12,
+   "M": 12,
+   "q": 73,
+   "j": 3,
+   "rp": 11,
+   "D_range": 6,
+   "dmax_searched": 3,
+   "n_candidates": 1585100,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 236,
+    "2": 2064,
+    "3": 3312
+   },
+   "n_pairs_checked": 329574
+  },
+  {
+   "n": 36,
+   "k": 12,
+   "w": 12,
+   "M": 12,
+   "q": 73,
+   "j": 4,
+   "rp": 11,
+   "D_range": 4,
+   "dmax_searched": 3,
+   "n_candidates": 1585100,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 332,
+    "2": 4752,
+    "3": 18032
+   },
+   "n_pairs_checked": 1330320
+  },
+  {
+   "n": 36,
+   "k": 12,
+   "w": 12,
+   "M": 12,
+   "q": 73,
+   "j": 5,
+   "rp": 11,
+   "D_range": 2,
+   "dmax_searched": 2,
+   "n_candidates": 67100,
+   "n_bases": 4,
+   "found_by_d": {
+    "0": 4,
+    "1": 44
+   },
+   "n_pairs_checked": 1056
+  }
+ ],
+ "F_fired": [],
+ "checks": 4686418,
+ "failures": 0
+}

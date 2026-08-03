@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1735,
+  "node": {
+    "id": "e1_s18_m514_e12_all_unit_parity_cubic_exclusion",
+    "title": "E1 square-mass-18 cofactor-514 energy-twelve all-unit exclusion",
+    "status": "PROVED",
+    "closure": "parity-split relation cap and cubic Hermite norm majorant",
+    "statement": "Exact local parity forces an odd number of odd lags in the all-unit energy-twelve profile. Splitting signed cubic relations into EEE and EOO types gives M3<=510, and a global cubic Hermite majorant puts every such norm below the prize field floor. Eleven magnitude profiles remain.",
+    "refs": [
+      "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/statement.md",
+      "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/proof.md",
+      "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/claim_contract.md",
+      "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/dependency_subdag.md",
+      "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/audit.md",
+      "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/result.md",
+      "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/frontier.md",
+      "background/nodes/e1_s18_m514_e12_all_unit_parity_cubic_exclusion/verify.py"
+    ],
+    "notes": "ANALYTIC REFINEMENT 2026-07-29: parity-split additive counting closes the former all-unit boundary without lag enumeration. The five-ideal occupancy threshold remains open on eleven rows at E=5,...,11."
+  },
+  "requires": [
+    {
+      "from": "e1_profile210_m514_parity_trace_cap",
+      "order": 4648
+    },
+    {
+      "from": "e1_prize_field_floor_even_norm_exclusion",
+      "order": 4649
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_profile018_m514_five_ideal_occupancy",
+      "order": 4650
+    },
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4651
+    }
+  ],
+  "refutes": []
+}

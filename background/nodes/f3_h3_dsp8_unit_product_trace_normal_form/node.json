@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1210,
+  "node": {
+    "id": "f3_h3_dsp8_unit_product_trace_normal_form",
+    "title": "DSP8 unit-product trace normal form",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every decorated DSP8 primitive cubic shift pair has a unique product-one normalization. If q^3=RS and the six roots are divided by q, then q=rs, ruv=sxy=1, the two triples have common trace sigma, and the retained target is t=1+rs(r+s-sigma). Conversely these normalized data reconstruct the decorated pair with no free H-scale. Thus the exact residual is a common-trace pair of subgroup-split quadratics coupled to one quotient line; generic degree-three SP all-pairs counting is too coarse and supplies no DSP8 bound.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_unit_product_trace_normal_form/statement.md",
+      "background/nodes/f3_h3_dsp8_unit_product_trace_normal_form/proof.md",
+      "background/nodes/f3_h3_dsp8_unit_product_trace_normal_form/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_unit_product_trace_normal_form/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_unit_product_trace_normal_form/audit.md",
+      "background/nodes/f3_h3_dsp8_unit_product_trace_normal_form/result.md",
+      "background/nodes/f3_h3_dsp8_unit_product_trace_normal_form/verify.py",
+      "background/nodes/f3_h3_dsp8_unit_product_trace_normal_form/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_dsp8_primitive_shift_pair_adapter",
+      "order": 2022
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

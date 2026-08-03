@@ -1,0 +1,65 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1354,
+  "node": {
+    "id": "rate_half_kb_m2_v4_outer_recurrence_router",
+    "title": "KoalaBear m2 V4 outer-recurrence router",
+    "status": "PROVED",
+    "closure": "exact V4 component-stabilizer law, complete primitive degree-30 exclusion, recurrence ledger, and coordinate-stabilized source-star parity",
+    "statement": "For the three residual inner-degree-two transverse types, h x h is the V4 quotient and delta is exactly the order of the setwise stabilizer of the actual bidegree-(4,4) component: full V4 for (r,delta)=(2,4), one of three order-two subgroups for (4,2), and trivial for (8,1). The complete primitive degree-30 catalogue has only subdegrees 1,29, so every outer map decomposes; all proper-factor destinations are impossible or recurrent to m=2. If tau x 1 stabilizes the component, the actual source lift is (tau,b), paired source rows avoid both paired locators, and the source-star weight-three defect is impossible. No m2 type, owner charge, or prize row is closed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/statement.md",
+      "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/proof.md",
+      "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/audit.md",
+      "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/result.md",
+      "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/frontier.md",
+      "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/verify.py",
+      "background/nodes/rate_half_kb_m2_v4_outer_recurrence_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
+      "order": 3028
+    },
+    {
+      "from": "rate_half_kb_source_pencil_rank_transverse_compiler",
+      "order": 3029
+    },
+    {
+      "from": "rate_half_kb_decomposition_source_pencil_compiler",
+      "order": 3030
+    },
+    {
+      "from": "rate_half_kb_m4_adjacency_genus_exclusion",
+      "order": 3031
+    },
+    {
+      "from": "rate_half_kb_m6_scott_cartesian_degree2_router",
+      "order": 3032
+    },
+    {
+      "from": "rate_half_kb_m10_scott_strip_lower_degree_router",
+      "order": 3033
+    },
+    {
+      "from": "rate_half_kb_m12_secondary_degree5_decomposition_exclusion",
+      "order": 3034
+    },
+    {
+      "from": "rate_half_kb_m3_primitive_outer_degree2_router",
+      "order": 3035
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3036
+    }
+  ],
+  "refutes": []
+}

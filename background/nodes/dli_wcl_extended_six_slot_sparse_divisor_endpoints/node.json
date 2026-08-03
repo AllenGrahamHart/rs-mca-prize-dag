@@ -1,0 +1,59 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1324,
+  "node": {
+    "id": "dli_wcl_extended_six_slot_sparse_divisor_endpoints",
+    "title": "Extended WCL six-slot sparse squared-root divisor endpoints",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Each of the six C1'-r3 widened WCL slots has an exact squared-root divisor form G=YA^2-B^2 or G=E^2-YB^2 dividing a 2-power cyclotomic polynomial. The six characteristic-zero schemes are unit ideals and have pruned cubic-or-lower straight-line presentations with 76--142 variables and 78--147 equations. Computing and factoring one nonzero integer certificate per slot remains open; no slot is closed.",
+    "refs": [
+      "background/nodes/dli_wcl_extended_six_slot_sparse_divisor_endpoints/statement.md",
+      "background/nodes/dli_wcl_extended_six_slot_sparse_divisor_endpoints/proof.md",
+      "background/nodes/dli_wcl_extended_six_slot_sparse_divisor_endpoints/claim_contract.md",
+      "background/nodes/dli_wcl_extended_six_slot_sparse_divisor_endpoints/dependency_subdag.md",
+      "background/nodes/dli_wcl_extended_six_slot_sparse_divisor_endpoints/audit.md",
+      "background/nodes/dli_wcl_extended_six_slot_sparse_divisor_endpoints/result.md",
+      "background/nodes/dli_wcl_extended_six_slot_sparse_divisor_endpoints/verify.py",
+      "background/nodes/dli_wcl_extended_six_slot_sparse_divisor_endpoints/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_newton_short_window_exclusion",
+      "order": 2956
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_slot_1_7_emptiness",
+      "order": 2957
+    },
+    {
+      "to": "dli_wcl_slot_1_8_emptiness",
+      "order": 2958
+    },
+    {
+      "to": "dli_wcl_slot_2_8_emptiness",
+      "order": 2959
+    },
+    {
+      "to": "dli_wcl_slot_2_9_emptiness",
+      "order": 2960
+    },
+    {
+      "to": "dli_wcl_slot_4_10_emptiness",
+      "order": 2961
+    },
+    {
+      "to": "dli_wcl_slot_4_11_emptiness",
+      "order": 2962
+    },
+    {
+      "to": "dli_wcl_zone_coverage",
+      "order": 2963
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 609,
+  "node": {
+    "id": "e1_two_cell_folded_manifest_assembly_soundness",
+    "title": "E1 two-cell folded manifest assembly soundness",
+    "status": "PROVED",
+    "statement": "If the N'=128 and N'=256 E1 cell payloads each supply a named complete folded certificate with zero nonzero non-cyclotomic folded vectors, then e1_folded_certificate_manifest_payload holds.",
+    "attack_surface": "finite manifest coverage and schema assembly for the two E1 open cells",
+    "falsifier": "both cell certificates are complete and zero but the two-cell E1 manifest is invalid"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

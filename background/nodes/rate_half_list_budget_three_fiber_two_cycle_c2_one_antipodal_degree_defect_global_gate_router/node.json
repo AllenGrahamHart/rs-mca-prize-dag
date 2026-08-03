@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1321,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router",
+    "title": "Budget-three fiber-two c=2 one-antipodal degree defect globalizes the maximal-degree gates",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every complete one-antipodal c=2 packet has an exact even support ledger indexed by the degree defect e=H-3-deg C. On the maximal-degree branch, the Euler, infinity-cell, selected-antipodal affine, and official Stepanov gates hold at every support; the support split-divisor and endpoint Xi remain equality-only.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler",
+      "order": 2825
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_collision_or_high_support_router",
+      "order": 2826
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_secondary_differential_certifier",
+      "order": 2827
+    },
+    {
+      "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+      "order": 2828
+    },
+    {
+      "from": "f3_h2_stepanov_inhouse",
+      "order": 2829
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2830
+    }
+  ],
+  "refutes": []
+}

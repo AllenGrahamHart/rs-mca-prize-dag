@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 370,
+  "node": {
+    "id": "are_exceptional_density",
+    "title": "Almost-all-primes collision-lightness (the density partial)",
+    "status": "PROVED",
+    "statement": "Sum over the bounded-height norm family: Sum_p #collisions(p) <= Sum_pairs Omega(Norm(diff)) <= #pairs * log(height). Hence in ANY dyadic prime range, all but a poly-sized exceptional set of primes have collision-light e1 value sets. Partial (the official p could be exceptional) but dossier-grade.",
+    "refs": [
+      "tex/slackMCA_v4.tex"
+    ],
+    "notes": "IN FLIGHT: #180's 'Bound E1 exceptional collision primes' commit (QZ.2 executed). | PROVED-IN-FLIGHT: #206 \u2014 with the Markov anchor: at most TWO primes in range can collide >= half of rate-1/2 cell pairs under the height bound | FLIP on replay (Codex wave 3): PROVABLE -> PROVED."
+  },
+  "requires": [
+    {
+      "from": "collision_norm_criterion",
+      "order": 598
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_fullness",
+      "order": 599
+    },
+    {
+      "to": "dossier_partial",
+      "order": 600
+    },
+    {
+      "to": "e1_random_prime_model",
+      "order": 611
+    }
+  ],
+  "refutes": []
+}

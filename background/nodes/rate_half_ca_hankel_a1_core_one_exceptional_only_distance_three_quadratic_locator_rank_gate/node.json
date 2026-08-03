@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1119,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quadratic_locator_rank_gate",
+    "title": "Rate-half distance-three quadratic locator-rank gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official pair-Lagrange distance-three chart, let V be the X-coefficient space spanned by A and the e polynomials B A/D_i. Its quadratic product space has dimension at most 3e+1. Consequently the quadratic Veronese matrix of the 6e+3 external monic locator vectors has rank at most 3e+1, giving at least 3e+2 row dependencies and e(e-3)/2 independent quadratic equations. This is a necessary gate, not an exclusion of the chart.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quadratic_locator_rank_gate/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quadratic_locator_rank_gate/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quadratic_locator_rank_gate/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quadratic_locator_rank_gate/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quadratic_locator_rank_gate/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quadratic_locator_rank_gate/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form",
+      "order": 2248
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation",
+      "order": 2249
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2250
+    }
+  ],
+  "refutes": []
+}

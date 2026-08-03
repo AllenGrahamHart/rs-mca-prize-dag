@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1177,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_second_jet_hermite_gate",
+    "title": "A=1 exceptional quotient clean-fiber second-jet Hermite gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Twice differentiating the reversed first complement along every transverse selected root determines W_vee,t on each clean fiber. Normalizing against W_0 and P_cl' gives degree-at-most-r-1 polynomials D_gamma which must satisfy D_gamma=gamma A_W+B_W. Any two clean slopes reconstruct the corrections; every other slope and the independent unit-remainder reconstruction must agree.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_second_jet_hermite_gate/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_second_jet_hermite_gate/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_second_jet_hermite_gate/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_second_jet_hermite_gate/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_second_jet_hermite_gate/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_second_jet_hermite_gate/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_second_jet_hermite_gate/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent",
+      "order": 2405
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_first_jet_transversality",
+      "order": 2406
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_w_interpolation_normal_form",
+      "order": 2407
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_unit_bezout_remainder_gate",
+      "order": 2408
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2409
+    }
+  ],
+  "refutes": []
+}

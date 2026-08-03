@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 652,
+  "node": {
+    "id": "m720_mitm_enumerator_soundness",
+    "title": "M720 MITM enumerator soundness",
+    "status": "PROVED",
+    "statement": "For the parameter range used by modal_midlarge_h7_20.py (n<=1024, W<=n, and exponents encoded in 11-bit fields), mitm_slice is an exact anchored MITM enumerator over the window [0,W): it counts exactly disjoint anchored pairs P={0} union P', Q subset {1,...,W-1}, with equal e_1,...,e_{h-1} and unequal e_h, classifies toral pairs exactly as pairs of mu_h cosets, and marks complete only when W=n and the run did not abort.",
+    "attack_surface": "static proof of the enumerator contract; independent of the expensive calibration count replay",
+    "falsifier": "a window-contained anchored trade missed by mitm_slice, a spurious counted non-trade, or an incomplete slice marked complete"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1134
+    }
+  ],
+  "refutes": []
+}

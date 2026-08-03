@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1545,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_outside_product_involution_compiler",
+    "title": "KoalaBear m2 r4 coordinate negative two-loop 433 outside-product involution compiler",
+    "status": "PROVED",
+    "closure": "forced xi product and explicit outside paired-product involution for M2/M3",
+    "statement": "The two antipodal K product pairs in M2 or M3 determine an explicit nonsingular projective involution. The missing invariant-set label is xi=-M, and its product is a printed finite nonzero rational function protected by resultant 2^32. The remaining three wholly outside antipodal pairs must satisfy the same explicit bilinear involution equation; these rows exactly compile the six-row paired-product gate, not full twelve-row interpolation.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_outside_product_involution_compiler/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_outside_product_involution_compiler/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_outside_product_involution_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_outside_product_involution_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_outside_product_involution_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_outside_product_involution_compiler/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_outside_product_involution_compiler/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_outside_product_involution_compiler/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_outside_product_involution_compiler/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_outside_product_involution_compiler/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_433_outside_product_involution_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_product_q_classifier",
+      "order": 3559
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
+      "order": 3560
+    },
+    {
+      "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+      "order": 3561
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3562
+    }
+  ],
+  "refutes": []
+}

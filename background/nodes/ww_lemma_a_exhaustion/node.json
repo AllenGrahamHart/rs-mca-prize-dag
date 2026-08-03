@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 772,
+  "node": {
+    "id": "ww_lemma_a_exhaustion",
+    "status": "PROVED",
+    "statement": "LEMMA A \u2014 CHALLENGER EXHAUSTION (clause (i) of the worst_word floor; proof at background/nodes/worst_word_challenger_pricing/LEMMA_A_EXHAUSTION_PROOF.md; re-derived line-by-line + the E15 gate replayed PASS at the 2026-07-10 amber audit): in every official-convention cell (max-fill, bg <= 1), every non-planted list word (deg < k, agreement >= k + sigma, sigma >= 1) touches >= 2 petals \u2014 it IS a mixed/full-petal challenger; no third class exists. The bg <= 1 hypothesis is load-bearing and SHARP (bg = 5/9 counterexample witnesses banked). Consequence used by the close: 'challenger count' = ALL non-planted list-word count at official cells \u2014 the W3 predicate's envelope covers everything non-planted."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "ww_two_class_minimal_ledger_reduction",
+      "order": 210
+    }
+  ],
+  "refutes": []
+}

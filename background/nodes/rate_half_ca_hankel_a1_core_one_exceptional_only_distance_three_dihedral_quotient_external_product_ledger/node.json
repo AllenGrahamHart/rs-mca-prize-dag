@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1153,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_quotient_external_product_ledger",
+    "title": "Rate-half distance-three dihedral quotient external-product ledger",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For either surviving dihedral external design, the product of the 3e monic descended degree-(2e+1) factors is C_2^(2e)C_1^e, where C_2 locates two-row quotient orbits and C_1 singleton active orbits. Every nonexceptional involution-paired row set is disjoint across the external blocks. A zero-or-one printed exceptional pair has identical row polynomials and codegree e. Hence all quotient factors are squarefree, or exactly e factors have the same single double root.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_quotient_external_product_ledger/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_quotient_external_product_ledger/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_quotient_external_product_ledger/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_quotient_external_product_ledger/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_quotient_external_product_ledger/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_quotient_external_product_ledger/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_subgroup_norm_descent",
+      "order": 2341
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_external_split_design_saturation",
+      "order": 2342
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2343
+    }
+  ],
+  "refutes": []
+}

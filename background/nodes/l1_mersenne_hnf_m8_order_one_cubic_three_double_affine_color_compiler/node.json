@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1680,
+  "node": {
+    "id": "l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler",
+    "title": "L1 Mersenne HNF m=8 order-one cubic three-double affine-color compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The ordered m=8 three-color role resultant descends, through the depressed-cubic affine invariant, to seven explicit characteristic-zero affine color shapes. Every h=7 cubic 2+2+2 packet satisfies the resulting homogeneous color equation, leaving four equations in (x,q,d) on the generic branch after eliminating b.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler/statement.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler/proof.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler/audit.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler/result.md",
+      "background/nodes/l1_mersenne_hnf_m8_order_one_cubic_three_double_affine_color_compiler/verify.py"
+    ],
+    "notes": "Exact necessary color compiler only. The full homogeneous resultant is the safe equation; its primitive characteristic-zero squarefree radical has the printed degree-seven polynomial. Reflection does not merge the two scalene conjugate pairs. No unit verdict is supplied."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_m8_order_one_cubic_three_double_linear_remainder_reduction",
+      "order": 4082
+    },
+    {
+      "from": "l1_mersenne_hnf_m8_cubic_three_two_one_role_polynomial_compiler",
+      "order": 4083
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4084
+    }
+  ],
+  "refutes": []
+}

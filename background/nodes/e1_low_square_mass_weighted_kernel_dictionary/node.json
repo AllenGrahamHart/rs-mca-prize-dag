@@ -1,0 +1,54 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 23,
+  "node": {
+    "id": "e1_low_square_mass_weighted_kernel_dictionary",
+    "title": "Exact weighted dictionary from E1 collision pairs to folded kernel vectors",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/statement.md",
+      "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/proof.md",
+      "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/claim_contract.md",
+      "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/dependency_subdag.md",
+      "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/audit.md",
+      "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/frontier.md",
+      "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/result.md",
+      "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/source_pin.json",
+      "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/verify.py",
+      "background/nodes/e1_low_square_mass_weighted_kernel_dictionary/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "(Q) prefix / quotient flatness (prob:capfpr-Q)",
+      "relation": "ANALOGY_ONLY"
+    },
+    "statement": "For every official E1 row, an oriented folded kernel vector d of profile (a,b) represents exactly M_ell(a,b) ordered class pairs, where M_ell is an explicit binomial sum over singleton allocations and common signed coordinates. Hence E_low=(1/2)sum_d M_ell(a(d),b(d)) exactly. The prize field floor removes S=16 on the binding prize-rate-1/8 row; the maximum live weight is at (4,2,S=18), and the sharpened edge budget makes |D_p(33)|<=69541 oriented low-mass vectors a simple sufficient condition. The weighted condition is weaker and preferred.",
+    "notes": "ROUTE DICTIONARY 2026-07-28: restores exact class-pair multiplicities to folded-vector/orbit counts and converts the binding aggregate premise to a finite weighted kernel-vector budget without adding a red node; recalibrated after the prize-field-floor exclusion."
+  },
+  "requires": [
+    {
+      "from": "e1_collision_square_mass_reparametrization",
+      "order": 4410
+    },
+    {
+      "from": "e1_prime_field_l2_norm_collision_radius",
+      "order": 4411
+    },
+    {
+      "from": "e1_low_square_mass_plotkin_coloring_compiler",
+      "order": 4412
+    },
+    {
+      "from": "e1_prize_field_floor_even_norm_exclusion",
+      "order": 4416
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4418
+    }
+  ],
+  "refutes": []
+}

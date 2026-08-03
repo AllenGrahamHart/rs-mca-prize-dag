@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1742,
+  "node": {
+    "id": "dli_norm_gate_forward_and_ofold",
+    "title": "DLI norm gate, forward direction: a block-U skew/relation solution forces q^o | Norm in Z[zeta_n], with the basis-range hypothesis load-bearing, plus the determinant-free evaluation form",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let n=2^s>=4, h=phi(n)=n/2, Z[zeta_n]=Z[x]/(x^h+1), q an odd prime with n | q-1, and zeta in F_q of exact order n. (LN0) x^h+1 splits mod q into h distinct linear factors (x-zeta^j), j odd mod n, so q is unramified, the h primes p_j=ker(zeta_n->zeta^j) are distinct of residue degree 1 and norm q, and Gal=(Z/n)^* permutes them SIMPLY TRANSITIVELY via sigma_a^{-1}(p_j)=p_{ja}; q odd with n a power of two gives unramifiedness and n | q-1 gives residue degree 1 -- both hypotheses are used. (LN1) If alpha=sum_{i in G} eps_i zeta_n^i with G inside the BASIS RANGE [0,h) and eps in {+-1}^G satisfies alpha(zeta)=0 in F_q, then Norm(alpha) != 0 and q | Norm(alpha); the basis-range hypothesis is LOAD-BEARING (an opposite pair {i,i+h} folds to the zero element, Norm 0), and it is exactly the banked C1 reduced-signed-support clause, satisfied by construction at every junction of the DLI tower. (LN2) If in addition alpha(zeta^u)=0 for every u in U with |U|=o, then q^o | Norm(alpha) != 0; more generally v_q(Norm(alpha)) >= m(alpha) := #{j odd : alpha(zeta^j)=0}. Two independent proofs: Hensel-lifting x^h+1 over Z_q (elementary), and the o primes p_u being pairwise distinct by simple transitivity. Official instantiation: at junction j, U_j={odd u : u 2^j <= t}, so every nonzero junction-j skew has q^{L_j} | Norm != 0. (LN3) Norm(alpha) = prod_{j odd mod n} alpha(zeta^j) in F_q, so q | Norm iff m(alpha)>=1 -- the measurement is h modular evaluations, not an hxh determinant. At t=2 the junction-0 block is U_0={1} with columns zeta^i, i in Z/(n/2), so a junction-0 C2'' skew solution IS a C1 ternary relation at 2N=n; the two censuses agree byte-for-byte where they overlap. NOT claimed: any converse (q^o | Norm does not imply a U-solution), any statement outside the basis range, any upper bound on Norm, or the C1 census identification at j>0. Provenance notes/pilots_20260802/dli_norm_gate/ (LN0-LN3); formalizes the C2'' pilot's L13.",
+    "refs": [
+      "background/nodes/dli_norm_gate_forward_and_ofold/statement.md",
+      "background/nodes/dli_norm_gate_forward_and_ofold/proof.md",
+      "background/nodes/dli_norm_gate_forward_and_ofold/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_c2pp_joint_reserve",
+      "order": 4836
+    }
+  ],
+  "refutes": []
+}

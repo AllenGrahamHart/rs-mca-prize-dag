@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 138,
+  "node": {
+    "id": "e1_prize_n256_s18_profile_36_m1024_exclusion",
+    "title": "Prize N=256 profile-(3,6) cofactor-1024 exclusion",
+    "status": "PROVED",
+    "closure": "dual exact finite enumeration",
+    "refs": [
+      "background/nodes/e1_prize_n256_s18_profile_36_m1024_exclusion/statement.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m1024_exclusion/proof.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m1024_exclusion/claim_contract.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m1024_exclusion/dependency_subdag.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m1024_exclusion/audit.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m1024_exclusion/result.md",
+      "background/nodes/e1_prize_n256_s18_profile_36_m1024_exclusion/source_pin.json",
+      "background/nodes/e1_prize_n256_s18_profile_36_m1024_exclusion/verify.py"
+    ],
+    "statement": "On prize-envelope N=256 rows, profile-(3,6,S=18) cofactor 1024 is impossible. Its multiplicity mu=10 and sharp residual E in {2,3,4,5,6} reduce to 68 affine singleton orbits; two exact XOR engines find no coefficient vector in the residual.",
+    "notes": "EXACT FINITE EXCLUSION 2026-07-28: pair-plus-third and triple-table engines agree on 194816 targets, 606 candidate heavy supports, and 4848 exact sign tests. Ten profile-(3,6) cofactors remain."
+  },
+  "requires": [
+    {
+      "from": "e1_prize_n256_s18_profile_36_sharp_product_window",
+      "order": 4439
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4440
+    },
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4441
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4442
+    }
+  ],
+  "refutes": []
+}

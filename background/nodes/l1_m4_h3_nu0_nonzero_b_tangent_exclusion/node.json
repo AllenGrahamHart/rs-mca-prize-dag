@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1636,
+  "node": {
+    "id": "l1_m4_h3_nu0_nonzero_b_tangent_exclusion",
+    "title": "L1 m=4, h=3, nu=0 nonzero-b tangent exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For nu=0 and nonzero depressed constant b, every tangent root lies on H=kappa with kappa=-48 alpha a^2/Delta, while the tangent radical has degree at least 5-deg H. This excludes deg H=1,2; at deg H=0 it forces H=kappa and R(0)Delta+12a^2g(R(0))=0, and at deg H=3 there are only two or three tangent roots. The b=0 arm and endpoint cases remain open, so L1 is not closed.",
+    "refs": [
+      "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/statement.md",
+      "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/proof.md",
+      "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/claim_contract.md",
+      "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/dependency_subdag.md",
+      "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/audit.md",
+      "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/result.md",
+      "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/lineage.md",
+      "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/upstream_crosswalk.md",
+      "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/verify.py",
+      "background/nodes/l1_m4_h3_nu0_nonzero_b_tangent_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_m4_h3_euler_quotient_factorization",
+      "order": 3884
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3885
+    }
+  ],
+  "refutes": []
+}

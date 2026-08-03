@@ -1,0 +1,61 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 68,
+  "node": {
+    "id": "e1_n256_s16_e30_endpoint_exclusion",
+    "title": "N=256 E=30 endpoint exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e30_endpoint_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_e30_endpoint_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_e30_endpoint_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_e30_endpoint_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e30_endpoint_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_e30_endpoint_exclusion/result.md",
+      "background/nodes/e1_n256_s16_e30_endpoint_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e30_endpoint_exclusion/verify.py",
+      "background/nodes/e1_n256_s16_e30_endpoint_exclusion/verify_audit.py"
+    ],
+    "statement": "At N=256 and folded profile (3,4,0), V=60 is impossible. The exact profiles (6,6), (2,7), (5,4,1), (1,5,1), (4,2,2), (0,3,2), (6,2,0,1), and (3,0,3) are exhausted by five proved exclusions. The live positive even frontier is 0<V<=58.",
+    "notes": "ENDPOINT CLOSURE 2026-07-27: the entire E30 chamber is empty; continue at V=58 without rerunning any V>=60 profile."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e30_profile_parity_light_reduction",
+      "order": 4107
+    },
+    {
+      "from": "e1_n256_s16_e30_three_profile_quotient_exclusion",
+      "order": 4108
+    },
+    {
+      "from": "e1_n256_s16_e30_two_odd_profile_exclusion",
+      "order": 4109
+    },
+    {
+      "from": "e1_n256_s16_e30_profile_422_exclusion",
+      "order": 4110
+    },
+    {
+      "from": "e1_n256_s16_e30_profile_541_exclusion",
+      "order": 4111
+    },
+    {
+      "from": "e1_n256_s16_e30_profile_66_exclusion",
+      "order": 4112
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 4115
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 4116
+    }
+  ],
+  "refutes": []
+}

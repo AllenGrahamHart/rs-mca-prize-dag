@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 998,
+  "node": {
+    "id": "f3_h3_excess_multistar_degree_ladder",
+    "title": "H3 rich-excess multistar degree ladder",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "If e=P(t)-18 is positive, the rich product fiber contains at least 7+ceil(e/2) squared-norm-at-most-three representations. Their distance-four/six weighted graph has a center of incident weight L(7+ceil(e/2)); only the boundary profiles (P,D)=(19,1),(20,2) can avoid weight six.",
+    "refs": [
+      "background/nodes/f3_h3_excess_multistar_degree_ladder/statement.md",
+      "background/nodes/f3_h3_excess_multistar_degree_ladder/proof.md",
+      "background/nodes/f3_h3_excess_multistar_degree_ladder/claim_contract.md",
+      "background/nodes/f3_h3_excess_multistar_degree_ladder/dependency_subdag.md",
+      "background/nodes/f3_h3_excess_multistar_degree_ladder/audit.md",
+      "background/nodes/f3_h3_excess_multistar_degree_ladder/result.md",
+      "background/nodes/f3_h3_excess_multistar_degree_ladder/verify.py",
+      "background/nodes/f3_h3_excess_multistar_degree_ladder/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_rich_fiber_norm_cutoff",
+      "order": 1889
+    },
+    {
+      "from": "f3_h3_weighted_multistar_router",
+      "order": 1890
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1891
+    },
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2694
+    }
+  ],
+  "refutes": []
+}

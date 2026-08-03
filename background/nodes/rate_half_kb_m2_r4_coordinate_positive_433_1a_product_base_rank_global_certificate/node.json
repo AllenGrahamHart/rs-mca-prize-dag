@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1437,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate",
+    "title": "KoalaBear m2 r4 positive 433-1a global product-base rank certificate",
+    "status": "PROVED",
+    "closure": "exact product-rank-five and base-rank-six certificate in all fifteen common matching cells",
+    "statement": "Hand factor identities and three deployed-field localized Singular unit-ideal certificates prove that the five common product rows have rank five in every matching cell. The loop row is independent, so the six-row base has rank six globally and the base-rank-drop branch of 433-1a to O0b is empty. Principal charts and outside rows remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_product_base_rank_singular_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_product_base_rank_singular_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+      "order": 3170
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion",
+      "order": 3171
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3172
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1160,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse",
+    "title": "Rate-half distance-three corrected-square converse",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official exceptional-only quotient-distance-three chart, exact row divisibility Q(z;x)|P(z) over every saturated row and exact ordinary-fiber divisibility Q(z;X)|P_X reconstruct both complement equations by coefficientwise interpolation. Primitivity then forces the two-sided weld. Hence the corrected complement square and all proved reciprocal/resultant/Bezout descendants are automatic consequences of the exact pair-Lagrange split design; only realization/exclusion of that design and an exact original column-far lift remain independent.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_corrected_square_converse/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_source_weight_reconstruction",
+      "order": 2358
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2359
+    }
+  ],
+  "refutes": []
+}

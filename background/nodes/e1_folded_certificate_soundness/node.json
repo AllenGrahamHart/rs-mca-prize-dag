@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 603,
+  "node": {
+    "id": "e1_folded_certificate_soundness",
+    "title": "E1 folded kernel certificate soundness",
+    "status": "PROVED",
+    "statement": "For 2-power N', the folded short-vector certificate is sound for E1: if the complete folded search over w in {-2,-1,0,1,2}^{N'/2} finds no nonzero vector with sum_x w_x zeta^x=0 mod p, then every E1 collision is cyclotomic/antipodal and there is no non-quotient exceptional collision at that row.",
+    "attack_surface": "folding identity from kernel_lattice_reframing plus complete finite search semantics",
+    "falsifier": "a row with a non-quotient E1 collision despite a complete folded search reporting no nonzero folded kernel vector"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 928
+    }
+  ],
+  "refutes": []
+}

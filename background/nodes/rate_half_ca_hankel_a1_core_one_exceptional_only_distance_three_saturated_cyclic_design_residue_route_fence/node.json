@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1123,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_saturated_cyclic_design_residue_route_fence",
+    "title": "Rate-half distance-three saturated cyclic-design residue route fence",
+    "status": "PROVED",
+    "closure": "explicit finite-field construction",
+    "statement": "Over F_151 at e=5, an explicit 33-block cyclic split-divisor design is exactly 1-(15,5,11), has saturated quadratic locator rank 16=3e+1, and has complement span 9=e+4. Thus biregularity and both uncalibrated rank shadows coexist. For every degree-five internal locator I with I(0) nonzero, however, the complement residues modulo I have rank at least four. The calibrated rank-three residue gate is therefore load-bearing in the official saturated generic branch.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_saturated_cyclic_design_residue_route_fence/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_saturated_cyclic_design_residue_route_fence/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_saturated_cyclic_design_residue_route_fence/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_saturated_cyclic_design_residue_route_fence/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_saturated_cyclic_design_residue_route_fence/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_saturated_cyclic_design_residue_route_fence/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_saturated_cyclic_design_residue_route_fence/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quadratic_locator_rank_gate",
+      "order": 2259
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_complement_residue_rank_three_gate",
+      "order": 2260
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2261
+    }
+  ],
+  "refutes": []
+}

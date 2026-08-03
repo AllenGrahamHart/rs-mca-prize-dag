@@ -1,0 +1,47 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1429,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler",
+    "title": "KoalaBear m2 r4 positive three-loop target-neighbor norm compiler",
+    "status": "REFUTED",
+    "closure": "refuted weld between an ordinary source-root resultant and the divisor-weighted target-incidence product at ramified loops",
+    "statement": "The two printed degree-(2,2) resultant identities and the separate target-neighbor graph tables are valid, but their proposed identification is not a consequence of the common-lane hypotheses: ordinary roots of H(r,X) do not manually double a ramified loop incidence. An admissible F_13 root-low 433 common kernel gives resultant norm N(1)=8 while the claimed graph product is bc=6. The compressed 433/442 gates must not be used.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_three_loop_neighbor_norm.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+      "order": 3143
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas",
+      "order": 3144
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas",
+      "order": 3145
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3146
+    }
+  ],
+  "refutes": []
+}

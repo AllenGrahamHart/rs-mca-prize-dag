@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1154,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_pair_complement_quadratic_trace",
+    "title": "Rate-half distance-three dihedral pair-complement quadratic trace",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every nonexceptional two-active-row dihedral orbit, the complement of its two disjoint degree-e row locators is a split squarefree degree-e divisor of the common degree-3e external-slope locator. At least 3e-3 distinct such divisors lie in one four-dimensional polynomial space, and their projective coordinates satisfy one explicit quadric-cone equation.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_pair_complement_quadratic_trace/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_pair_complement_quadratic_trace/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_pair_complement_quadratic_trace/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_pair_complement_quadratic_trace/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_pair_complement_quadratic_trace/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_pair_complement_quadratic_trace/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_dihedral_quotient_external_product_ledger",
+      "order": 2344
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form",
+      "order": 2345
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2346
+    }
+  ],
+  "refutes": []
+}

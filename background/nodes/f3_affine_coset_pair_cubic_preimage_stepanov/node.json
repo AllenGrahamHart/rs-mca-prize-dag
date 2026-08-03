@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1216,
+  "node": {
+    "id": "f3_affine_coset_pair_cubic_preimage_stepanov",
+    "title": "Cubic-preimage affine coset-pair Stepanov bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At every official H3 ambient row, for a subgroup K of order m=n or 3n and any two nonconstant nonproportional affine forms, the simultaneous K-membership set has size below (51/16)m^(2/3). The exact Stepanov parameters work under p>=n^2 even when m=3n. This is a one-fiber theorem and supplies no energy estimate.",
+    "refs": [
+      "background/nodes/f3_affine_coset_pair_cubic_preimage_stepanov/statement.md",
+      "background/nodes/f3_affine_coset_pair_cubic_preimage_stepanov/proof.md",
+      "background/nodes/f3_affine_coset_pair_cubic_preimage_stepanov/claim_contract.md",
+      "background/nodes/f3_affine_coset_pair_cubic_preimage_stepanov/dependency_subdag.md",
+      "background/nodes/f3_affine_coset_pair_cubic_preimage_stepanov/audit.md",
+      "background/nodes/f3_affine_coset_pair_cubic_preimage_stepanov/result.md",
+      "background/nodes/f3_affine_coset_pair_cubic_preimage_stepanov/verify.py",
+      "background/nodes/f3_affine_coset_pair_cubic_preimage_stepanov/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h2_stepanov_inhouse",
+      "order": 2029
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1595,
+  "node": {
+    "id": "xr_quotient_boundary_agreement_raise_owner",
+    "title": "XR quotient boundaries are owned by the agreement raise",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_quotient_boundary_agreement_raise_owner/statement.md",
+      "background/nodes/xr_quotient_boundary_agreement_raise_owner/proof.md",
+      "background/nodes/xr_quotient_boundary_agreement_raise_owner/claim_contract.md",
+      "background/nodes/xr_quotient_boundary_agreement_raise_owner/dependency_subdag.md",
+      "background/nodes/xr_quotient_boundary_agreement_raise_owner/verify.py",
+      "background/nodes/xr_quotient_boundary_agreement_raise_owner/verify_audit.py",
+      "background/nodes/xr_quotient_boundary_agreement_raise_owner/audit.md",
+      "background/nodes/xr_quotient_boundary_agreement_raise_owner/result.md"
+    ],
+    "statement": "Across every declared quotient scale, the full threshold quotient image is contained in the union of the exact-A quotient image and the original bad-slope set at agreement A+1. Every remainder-one boundary factor has at least A pure-core agreements plus its tangent cancellation point, so quotient migration has no independent boundary-tangent debit. The exact-threshold image, raised bad set, and generic-chart aggregate remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_quotient_image_remainder_one_boundary_descent",
+      "order": 3754
+    },
+    {
+      "from": "xr_mismatch_terminal_tangent_agreement_raise",
+      "order": 3755
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 3756
+    }
+  ],
+  "refutes": []
+}

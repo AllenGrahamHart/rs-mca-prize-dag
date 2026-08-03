@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1727,
+  "node": {
+    "id": "l1_m31_rank7_dense_top_decorated_shift_pair_router",
+    "title": "M31 rank-seven dense top decorated shift-pair router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every forbidden M31 Q=147595 proper-G zero-excess class has more than one tenth of all member pairs at maximal combined intersection 4980. Hence one member has at least 215793 neighbors satisfying the primitive decorated top-stratum identity A C_i-B C_j=c!=0 with deg A=deg B=w+1=67448 and gcd(C_i,C_j)=1. At most 14 neighbors share a projective difference direction, so at least 15414 monic degree-4980 divisors of the anchor support locator lie in the six-dimensional direction space. A local cap 215792 or fixed-support divisor cap 15413 eliminates the terminal.",
+    "refs": [
+      "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/statement.md",
+      "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/proof.md",
+      "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/claim_contract.md",
+      "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/dependency_subdag.md",
+      "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/audit.md",
+      "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/result.md",
+      "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/lineage.md",
+      "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/upstream_crosswalk.md",
+      "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/verify.py",
+      "background/nodes/l1_m31_rank7_dense_top_decorated_shift_pair_router/verify_audit.py"
+    ],
+    "notes": "Exact local successor theorem only. It proves the forced lower degree in the primitive decorated top stratum, not the excluding upper cap, an upstream atom, a row closure, or a Prize result."
+  },
+  "requires": [
+    {
+      "from": "l1_m31_rank7_zero_excess_two_block_incidence_router",
+      "order": 4498
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 4499
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4500
+    }
+  ],
+  "refutes": []
+}

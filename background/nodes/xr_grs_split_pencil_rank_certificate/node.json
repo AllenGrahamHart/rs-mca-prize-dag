@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 886,
+  "node": {
+    "id": "xr_grs_split_pencil_rank_certificate",
+    "title": "XR coherent GRS split pencils have an exact extra-kernel certificate",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_grs_split_pencil_rank_certificate/statement.md",
+      "background/nodes/xr_grs_split_pencil_rank_certificate/proof.md",
+      "background/nodes/xr_grs_split_pencil_rank_certificate/verify.py",
+      "background/nodes/xr_grs_split_pencil_rank_certificate/result.md"
+    ],
+    "statement": "For a common GRS_4 split-pencil family with received word U, extension direction q, distinct slopes gamma_i, and agreement blocks A_i, stack zero-extended cubic parity checks as M_F=[H_i|-gamma_i H_i]. The unavoidable cubic-pair kernel has dimension eight, while the genuine pair (U,q) supplies a ninth direction whose second projection is noncubic, so rank M_F<=2N-9; rank 2N-8 excludes the proposed family. Moreover, on every six-set the five-face divided-difference colors are a fractional-linear function of the omitted coordinate, hence all defined colors are either pairwise distinct or all equal. This is an exact necessary rank/Plucker certificate interface, not the aggregate split-pencil count."
+  },
+  "requires": [
+    {
+      "from": "xr_rank_five_divided_difference_clique_bridge",
+      "order": 1586
+    },
+    {
+      "from": "xr_lowcore_u0_v1_grs_defect_reduction",
+      "order": 1587
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1588
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1589
+    }
+  ],
+  "refutes": []
+}

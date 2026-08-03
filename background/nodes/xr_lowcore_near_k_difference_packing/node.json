@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1327,
+  "node": {
+    "id": "xr_lowcore_near_k_difference_packing",
+    "title": "XR low-core near-K oriented-difference packing",
+    "status": "PROVED",
+    "closure": "proof plus exact subset-packing verifier",
+    "statement": "For a low-core family and an oriented indicator difference of width t=K-c, distinct residuals intersect in at most c-1 and therefore own disjoint c-subsets. Hence one fiber has size at most floor(C(N-2K+2c,c)/C(H+c-1,c)), and any set of such widths contributes at most the maximum fiber bound times |F|(|F|-1) to difference energy. The exact 8n threshold pays codimension prefixes 2,1,1,6,5,4 on the six clean-rate rows. This is an aggregate near-K energy payment; it does not count difference types, prove the P-B slope bound, or imply CAP25's local locator-SPI estimate.",
+    "refs": [
+      "background/nodes/xr_lowcore_near_k_difference_packing/statement.md",
+      "background/nodes/xr_lowcore_near_k_difference_packing/proof.md",
+      "background/nodes/xr_lowcore_near_k_difference_packing/claim_contract.md",
+      "background/nodes/xr_lowcore_near_k_difference_packing/dependency_subdag.md",
+      "background/nodes/xr_lowcore_near_k_difference_packing/audit.md",
+      "background/nodes/xr_lowcore_near_k_difference_packing/result.md",
+      "background/nodes/xr_lowcore_near_k_difference_packing/lineage.md",
+      "background/nodes/xr_lowcore_near_k_difference_packing/verify.py",
+      "background/nodes/xr_lowcore_near_k_difference_packing/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_lowcore_shift_pair_terminal_fiber_bound",
+      "order": 2969
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 2970
+    }
+  ],
+  "refutes": []
+}

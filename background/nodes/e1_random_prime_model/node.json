@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 377,
+  "node": {
+    "id": "e1_random_prime_model",
+    "title": "Random-prime typicality model for zone-(b) collisions (grounded by E1)",
+    "status": "CONJECTURE",
+    "statement": "The official-scale prime behaves collision-typically: #collisions at quotient order N' matches the random-prime expectation #pairs * E[Omega(Norm)] / pi(range) \u2014 negligible at the open cells (N' >= 128, log2 A >= 100, log2 p ~ 250), and with collision ONSET at the birthday scale of a 2^49.7 support for the feasible N'=64 cell (~2^25 samples). Via collision_norm_criterion + thm:upstairs this is exactly 'p divides none of the bounded-height difference norms beyond chance'.",
+    "attack_surface": "the N'=64 decisive run tests the model QUANTITATIVELY (onset curve, not just presence); the R4 conspiracy search attacks it adversarially (hunt primes dividing many norms); are_exceptional_density proves it for almost all primes",
+    "falsifier": "CORRECTED: the N'=64 cell tests NOTHING (fullness there is unconditionally forced by graded_collision_radius \u2014 E1's zero collisions were a theorem, not evidence). The model's support is the density theorem + the R4 conspiracy search; no sampling test reaches its open content at N' >= 128.",
+    "refs": [
+      "experimental/notes/roadmaps/evidence_plan_codex.md"
+    ],
+    "notes": "the E1 pilot's zero-collision data is consistent with the model; the model converts the un-sampleable open cells into a per-prime typicality question with a provable almost-all backstop (Pilot packet ref: PR #180's e1_row_c_value_set_sampling.md \u2014 repoint on integration.)"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_fullness",
+      "order": 609
+    },
+    {
+      "to": "certified_valueset_lower",
+      "order": 633
+    }
+  ],
+  "refutes": []
+}

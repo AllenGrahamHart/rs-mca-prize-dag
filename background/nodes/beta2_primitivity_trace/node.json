@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 287,
+  "node": {
+    "id": "beta2_primitivity_trace",
+    "title": "(II) primitivity <=> ONE integer: Tr(gamma|V) = m+ - m- != 0 at z = -2",
+    "status": "CONJECTURE",
+    "key": true,
+    "refs": [
+      "experimental/notes/m1/m1_beta2_conditional_close.md"
+    ],
+    "notes": "reduced exactly and p-independently to a single deck-trace integer; elementary Lefschetz route provably dead (sigma permutes the psi-variable)"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

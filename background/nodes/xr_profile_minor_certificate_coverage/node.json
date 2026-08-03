@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 591,
+  "node": {
+    "id": "xr_profile_minor_certificate_coverage",
+    "title": "XR profile minor-certificate coverage",
+    "status": "PROVED",
+    "statement": "For every budget-meeting unpaid non-boundary light-triangle profile, produce a maximal minor of the normal-form matrix from xr_triangle_eliminant_form and an admissible chart specialization at which that determinant is nonzero. This is reduced to the proved triangular-minor soundness criterion, the record-inventory soundness rule, and the remaining actual uniform profile record inventory payload.",
+    "attack_surface": "assembly from the triangular determinant criterion, record-inventory soundness, and the remaining uniform profile inventory payload; toy E32 data remains evidence only",
+    "falsifier": "a budget-meeting unpaid non-boundary light profile for which every maximal minor vanishes at every admissible specialization"
+  },
+  "requires": [
+    {
+      "from": "xr_triangle_eliminant_form",
+      "order": 889
+    },
+    {
+      "from": "xr_triangular_minor_certificate_soundness",
+      "order": 891
+    },
+    {
+      "from": "xr_profile_minor_certificate_payload",
+      "order": 896
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1110
+    }
+  ],
+  "refutes": []
+}

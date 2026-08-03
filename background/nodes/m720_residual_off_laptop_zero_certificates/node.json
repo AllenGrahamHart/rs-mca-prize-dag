@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 658,
+  "node": {
+    "id": "m720_residual_off_laptop_zero_certificates",
+    "title": "M720 residual off-laptop zero certificates",
+    "status": "PROVED",
+    "statement": "Every h=7..20 calibration cell not covered by the WSL-safe complete zero subcertificates is either explicitly outside the complete-cell certificate set as a window slice, or is one of the over-ceiling n=32,h=16 complete-window cells with a separate zero certificate.",
+    "attack_surface": "assembly from residual slice metadata and over-ceiling complete-window certificates",
+    "falsifier": "a residual complete calibration cell with nonzero unpaid non-toral active cores, or missing/false completeness metadata"
+  },
+  "requires": [
+    {
+      "from": "m720_residual_slice_metadata",
+      "order": 973
+    },
+    {
+      "from": "m720_overceiling_complete_window_certificates",
+      "order": 974
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1140
+    }
+  ],
+  "refutes": []
+}

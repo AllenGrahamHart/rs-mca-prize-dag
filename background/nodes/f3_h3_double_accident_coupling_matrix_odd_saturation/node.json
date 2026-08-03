@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1036,
+  "node": {
+    "id": "f3_h3_double_accident_coupling_matrix_odd_saturation",
+    "title": "H3 double-accident coupling-matrix odd saturation",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For distinct product lifts and quotient lifts, the normalized coupling matrix satisfies exact product-direction and quotient-direction syzygies. After inverting two, the traditional joint ideal, one coupling row and column, and the full coupling rectangle are equal. Characteristic-zero zero entries form a partial matching, so at least mr-min(m,r) entries are nonzero, but the cross-generation equality proves they are not independent ideal generators.",
+    "refs": [
+      "background/nodes/f3_h3_double_accident_coupling_matrix_odd_saturation/statement.md",
+      "background/nodes/f3_h3_double_accident_coupling_matrix_odd_saturation/proof.md",
+      "background/nodes/f3_h3_double_accident_coupling_matrix_odd_saturation/claim_contract.md",
+      "background/nodes/f3_h3_double_accident_coupling_matrix_odd_saturation/dependency_subdag.md",
+      "background/nodes/f3_h3_double_accident_coupling_matrix_odd_saturation/audit.md",
+      "background/nodes/f3_h3_double_accident_coupling_matrix_odd_saturation/result.md",
+      "background/nodes/f3_h3_double_accident_coupling_matrix_odd_saturation/verify.py",
+      "background/nodes/f3_h3_double_accident_coupling_matrix_odd_saturation/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_double_accident_coupling_batch_odd_saturation",
+      "order": 1975
+    },
+    {
+      "from": "f3_h3_shifted_product_sidon",
+      "order": 1976
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1977
+    }
+  ],
+  "refutes": []
+}

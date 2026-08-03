@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 184,
+  "node": {
+    "id": "e1_n512_four_singleton_collision_exclusion",
+    "title": "N=512 four-singleton E1 collision exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n512_four_singleton_collision_exclusion/statement.md",
+      "background/nodes/e1_n512_four_singleton_collision_exclusion/proof.md",
+      "background/nodes/e1_n512_four_singleton_collision_exclusion/claim_contract.md",
+      "background/nodes/e1_n512_four_singleton_collision_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n512_four_singleton_collision_exclusion/audit.md",
+      "background/nodes/e1_n512_four_singleton_collision_exclusion/result.md",
+      "background/nodes/e1_n512_four_singleton_collision_exclusion/source_pin.json",
+      "background/nodes/e1_n512_four_singleton_collision_exclusion/verify.py"
+    ],
+    "statement": "At N=512,s=2, a folded profile (a,b,c)=(0,4,0) has four distinct coefficients in {+1,-1}. Its negacyclic autocorrelation variance V is even. If V=0 its cyclotomic norm is the pure power 2^256; if V=2 an exact primitive-power-of-two product gives geometric conjugate-square mean G<19/5; if V>=4 a uniform logarithmic deficit gives G<180/47. In the latter cases |Norm(alpha)|=G^128<2^250, while no odd row prime divides the V=0 norm. Hence this profile cannot collide at any pair-feasible anchor, leaving only (1,2,0) in the first N=512 band.",
+    "notes": "ROUTE REDUCTION 2026-07-27: closes one of the two first-band N=512 profiles by exact norm structure. It does not control profile (1,2,0), later bands, or the total collision-pair ledger."
+  },
+  "requires": [
+    {
+      "from": "e1_prime_field_l2_norm_collision_radius",
+      "order": 364
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 365
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 513
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 514
+    }
+  ],
+  "refutes": []
+}

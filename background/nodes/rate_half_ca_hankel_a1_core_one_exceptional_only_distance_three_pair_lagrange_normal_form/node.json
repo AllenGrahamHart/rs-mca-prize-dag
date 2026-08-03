@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1117,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form",
+    "title": "Rate-half distance-three pair-Lagrange normal form",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official exceptional-only quotient-distance-three chart, normalize Q(0;X)=A(X). The e internal fibers partition the 2e exceptional roots into pairs D_i and determine the entire residual generator by Q(z;X)=Phi(z)A(X)+zB_T(X) sum_i (lambda_i/xi_i)L_i(z)A(X)/D_i(X), where xi_i are the internal slopes and L_i their Lagrange basis. The displayed X-side and parameter-side families are both independent, so this is a minimal rank-(e+1) separated expansion. The external split-fiber classification remains open.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_lagrange_normal_form/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_mds_escape_router",
+      "order": 2244
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2245
+    }
+  ],
+  "refutes": []
+}

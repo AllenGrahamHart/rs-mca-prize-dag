@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1705,
+  "node": {
+    "id": "l1_mersenne_hnf_m16_order_one_constant_color_reduction",
+    "title": "L1 Mersenne HNF m=16 order-one constant-color reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official m=16,h=15 row, a constant color forces rho*c=1-alpha and 182alpha(c-1)=(alpha+1)zeta+28alpha^2. Norm contraction reduces the chamber to two explicit quadratic gcds against the degree-nine mu_16 trace polynomial over F_8191.",
+    "refs": [
+      "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/statement.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/proof.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/claim_contract.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/dependency_subdag.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/audit.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/result.md",
+      "background/nodes/l1_mersenne_hnf_m16_order_one_constant_color_reduction/verify.py"
+    ],
+    "notes": "Exact constant-color reduction layer. Its downstream modular pseudo-remainder theorem proves both gcds unit without Modal; degrees four through thirteen and all inner conditions remain open."
+  },
+  "requires": [
+    {
+      "from": "l1_mersenne_hnf_order_one_frobenius_gate",
+      "order": 3980
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3981
+    }
+  ],
+  "refutes": []
+}

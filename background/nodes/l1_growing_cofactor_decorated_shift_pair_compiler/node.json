@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 557,
+  "node": {
+    "id": "l1_growing_cofactor_decorated_shift_pair_compiler",
+    "title": "L1 growing-cofactor decorated shift-pair compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Two distinct members of one exact shell compile bijectively to an ordered record Omega=GABN with equal-degree disjoint split tails A,B, degree-e cofactors Q1,Q2, cross-coprimality from exactness, and nonzero residual R=AQ1-BQ2 of degree at most deg(A)-w-1; the ordered record count is exactly Z_a(U)(Z_a(U)-1). At scalar cofactor this is exactly the locator-Q shift-pair/second-moment ledger. For cofactor-primitive records gcd(Q1,Q2)=1 and e<=w, a fixed ordered pair (A,B) supports at most one cofactor decoration. A nonconstant common cofactor divides R and is coprime to ABN, so its domain roots lie in the common agreement core G. The support-pair census, common-cofactor payment, and e>w range remain open.",
+    "refs": [
+      "background/nodes/l1_growing_cofactor_decorated_shift_pair_compiler/statement.md",
+      "background/nodes/l1_growing_cofactor_decorated_shift_pair_compiler/proof.md",
+      "background/nodes/l1_growing_cofactor_decorated_shift_pair_compiler/claim_contract.md",
+      "background/nodes/l1_growing_cofactor_decorated_shift_pair_compiler/dependency_subdag.md",
+      "background/nodes/l1_growing_cofactor_decorated_shift_pair_compiler/audit.md",
+      "background/nodes/l1_growing_cofactor_decorated_shift_pair_compiler/lineage.md",
+      "background/nodes/l1_growing_cofactor_decorated_shift_pair_compiler/upstream_crosswalk.md",
+      "background/nodes/l1_growing_cofactor_decorated_shift_pair_compiler/verify.py",
+      "background/nodes/l1_growing_cofactor_decorated_shift_pair_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_exact_shell_fixed_cofactor_prefix_transport",
+      "order": 2952
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2953
+    }
+  ],
+  "refutes": []
+}

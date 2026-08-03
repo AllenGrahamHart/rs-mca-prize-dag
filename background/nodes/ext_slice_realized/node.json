@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 308,
+  "node": {
+    "id": "ext_slice_realized",
+    "title": "Extension line = M_z-coupled slice of e-fold base object (realized over F_17^2)",
+    "status": "PROVED",
+    "refs": [
+      "experimental/notes/x1/x1_deep_point_interleaved_bridge.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f1_classification",
+      "order": 170
+    }
+  ],
+  "refutes": []
+}

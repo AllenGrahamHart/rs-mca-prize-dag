@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 995,
+  "node": {
+    "id": "f3_h3_distance_two_collision_2primary_exclusion",
+    "title": "H3 distance-two collisions are 2-primary",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "A nonzero dyadic shifted-product collision whose half-basis vector has squared norm two is a cyclotomic binomial with 2-power rational norm. It cannot vanish at an odd row prime. Removing distance two strengthens the seven-vector rich-fiber packing count from four to at least six distance-at-most-six edges.",
+    "refs": [
+      "background/nodes/f3_h3_distance_two_collision_2primary_exclusion/statement.md",
+      "background/nodes/f3_h3_distance_two_collision_2primary_exclusion/proof.md",
+      "background/nodes/f3_h3_distance_two_collision_2primary_exclusion/claim_contract.md",
+      "background/nodes/f3_h3_distance_two_collision_2primary_exclusion/dependency_subdag.md",
+      "background/nodes/f3_h3_distance_two_collision_2primary_exclusion/audit.md",
+      "background/nodes/f3_h3_distance_two_collision_2primary_exclusion/result.md",
+      "background/nodes/f3_h3_distance_two_collision_2primary_exclusion/verify.py",
+      "background/nodes/f3_h3_distance_two_collision_2primary_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_shifted_product_sidon",
+      "order": 1879
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1881
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1316,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate",
+    "title": "Budget-three fiber-two c=2 one-antipodal minimum support has an endpoint torsion gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At minimum barycentric support, the constant-to-leading ratio of the even support compiler polynomial is the explicit scalar Xi=H/(P c_m^2 Delta_inf). Its split subgroup roots occur in negation pairs, so Xi lies in mu_(2^39). The theorem does not exclude this scalar gate or address larger support.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_endpoint_torsion_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_barycentric_support_polynomial_compiler",
+      "order": 2806
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_minimum_support_euler_divisor_gate",
+      "order": 2807
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2808
+    }
+  ],
+  "refutes": []
+}

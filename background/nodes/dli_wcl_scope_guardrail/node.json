@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 838,
+  "node": {
+    "id": "dli_wcl_scope_guardrail",
+    "title": "DLI WCL scope guardrail: the isolated generated-row strengthening is false",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the isolated generated C1' row (q,n',N,ell)=(65537,512,256,1), omega=15028 has exact order 512 and 1+omega^95-omega^146=0. This primitive weight-3 relation has a full 512-element signed-shift orbit and first-owner ledger charge 64>1/32. The row satisfies q=1 mod n', 2^N>=q^ell, and N>=16ell, but v_2(q-1)=16<41, so it cannot host the official DLI production tower's ambient top subgroup. Thus WCL-ZONE cannot be extended from official production rows to arbitrary isolated C1' rows.",
+    "refs": [
+      "background/nodes/dli_wcl_scope_guardrail/statement.md",
+      "background/nodes/dli_wcl_scope_guardrail/proof.md",
+      "background/nodes/dli_wcl_scope_guardrail/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_zone_coverage",
+      "order": 1405
+    }
+  ],
+  "refutes": []
+}

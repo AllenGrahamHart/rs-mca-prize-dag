@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 521,
+  "node": {
+    "id": "l1_coset_chart_residue_bridge",
+    "title": "UPSTREAM (Vadim, integrated by Przemek): the full-petal coset-chart residue-line bridge",
+    "status": "PROVED",
+    "statement": "PROVED-LOCAL / NORMAL-FORM (693-line verifier, upstream main ab8d125b): in a full-petal coset chart (H of order ell, t distinct active petals, C a union of H-cosets), every capped kernel set is EITHER quotient-coset structured OR emits a low-degree projective residue pair, which after cancelling simultaneous active quotient-label basepoints becomes ordinary residue-line data on the surviving labels. Consumes the merged L1 collapse chain (coset-petal rank collapse + general reconstruction collapse). NOT a primitive-vacancy theorem \u2014 the prime-ell mixed minimal examples are classified by the residue data, not excluded.",
+    "refs": [
+      "experimental/notes/l1/l1_coset_chart_residue_bridge_v1.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_growth",
+      "order": 834
+    }
+  ],
+  "refutes": []
+}

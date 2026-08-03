@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 689,
+  "node": {
+    "id": "e22_overlap_residual_profile_formula",
+    "title": "E22 overlap residual-profile formula",
+    "status": "PROVED",
+    "statement": "For every dyadic pair M_i<M_j, count exactly the canonical minimal-scale-M_i E22 support data whose scale-M_i tail and incomplete-M_j-parent residual profile satisfy the raw M_j admissibility inequality from e22_overlap_nested_fiber_residual_identity, with the declared dyadic_profile_evaluation multiplicity. This is reduced to the proved residual generating function and the remaining lower-scale minimality/multiplicity filter.",
+    "attack_surface": "assembly from the residual generating function and the remaining minimality/multiplicity filter",
+    "falsifier": "a minimal-scale-M_i support whose residual profile is counted with the wrong binomial coefficient or multiplicity"
+  },
+  "requires": [
+    {
+      "from": "dyadic_profile_evaluation",
+      "order": 1012
+    },
+    {
+      "from": "e22_minimal_scale_partition",
+      "order": 1013
+    },
+    {
+      "from": "e22_residual_profile_generating_function",
+      "order": 1015
+    },
+    {
+      "from": "e22_residual_minimality_multiplicity_filter",
+      "order": 1032
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1170
+    }
+  ],
+  "refutes": []
+}

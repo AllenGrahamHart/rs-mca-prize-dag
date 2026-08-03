@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 442,
+  "node": {
+    "id": "pma_pullback_lists",
+    "title": "COUNTEREXAMPLE (verified): quotient-pullback families give exponential sub-Johnson auxiliary lists",
+    "status": "PROVABLE",
+    "key": true,
+    "statement": "Explicit construction (Codex; verified here by hand + numerically at F_31): petals = quotient fibers T_i = {x^ell = alpha_i}, L_D = H(X^ell) a pullback locator, W_S = G_S(X^ell) with G_S(Y) = Y H(Y) - prod_{i in S}(Y - alpha_i) (leading terms cancel): each W_S agrees with U* on exactly (m+1) ell = d + ell points; C(M, m+1) distinct members; sub-Johnson whenever (m+1)^2 < Mm. The unqualified correlated-target hope is FALSE: shared L_D alone cannot give poly wide lists. The family is PURE PULLBACK \u2014 chargeable to the quotient-profile budget; at the L1 cutoff M = O(log n), so the mass is poly-but-budgeted (it consumes exponent, realizing the conj:B profile term concretely).",
+    "refs": [
+      "experimental/notes/l1/l1_full_list_quotient_proof_program.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "pma_wide_residual",
+      "order": 747
+    }
+  ],
+  "refutes": []
+}

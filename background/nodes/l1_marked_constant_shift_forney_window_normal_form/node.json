@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1092,
+  "node": {
+    "id": "l1_marked_constant_shift_forney_window_normal_form",
+    "title": "L1 marked constant-shift Forney-window normal form",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every marked common constant-shift survivor with t<=2m in strip m has a reduced rank-two interpolation-module basis of Forney degrees mu<=nu<=m, mu+nu=t, and determinant kappa product_i(Z-a_i). Its degree-at-most-m coefficient kernel has exact dimension 2m-t+2 and full row rank t. The enlarged numerator/denominator have a unique reconstruction from those generators, with evaluated multiplier gcd dividing the mark locator J. Every admissible Forney pair is populated by an explicit saturated family F=1+lambda X^cR(P)V(P), W=U(P), so the finite strata must be priced or profile-owned rather than excluded.",
+    "refs": [
+      "background/nodes/l1_marked_constant_shift_forney_window_normal_form/statement.md",
+      "background/nodes/l1_marked_constant_shift_forney_window_normal_form/proof.md",
+      "background/nodes/l1_marked_constant_shift_forney_window_normal_form/claim_contract.md",
+      "background/nodes/l1_marked_constant_shift_forney_window_normal_form/dependency_subdag.md",
+      "background/nodes/l1_marked_constant_shift_forney_window_normal_form/audit.md",
+      "background/nodes/l1_marked_constant_shift_forney_window_normal_form/verify.py",
+      "background/nodes/l1_marked_constant_shift_forney_window_normal_form/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_marked_constant_shift_multistrip_exclusion",
+      "order": 2186
+    },
+    {
+      "from": "pma_saturated_mixed_support_kernel",
+      "order": 2187
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2188
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2189
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2190
+    }
+  ],
+  "refutes": []
+}

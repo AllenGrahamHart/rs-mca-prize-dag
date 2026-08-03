@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 813,
+  "node": {
+    "id": "qrl_t3_one_fiber_lemma",
+    "status": "PROVED",
+    "refs": [
+      "critical/nodes/petal_small_scale_staircase_census/notes/qrl_packet_20260713/qrl_statement.md",
+      "critical/nodes/petal_small_scale_staircase_census/notes/qrl_packet_20260713/qrl_proof.md"
+    ],
+    "statement": "QRL-T3 (one-fiber lemma; audited SOUND). At scales M in [k, t]: a shared full M-fiber has M >= k points and pins the degree-< k codeword; the first-fiber map injects classes into the n/M fibers, so the CLASS-TOTAL is <= n/M. Closes the 87 M-not-dividing-k pairs (catch #111) \u2014 the supplier no other node provided; those pairs are also covered class-total by T1's binomial sums (n' in {4,8})."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_small_scale_staircase_census",
+      "order": 1360
+    }
+  ],
+  "refutes": []
+}

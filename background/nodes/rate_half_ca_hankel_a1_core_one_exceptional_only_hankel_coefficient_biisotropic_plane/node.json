@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1180,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_coefficient_biisotropic_plane",
+    "title": "A=1 exceptional-only Hankel coefficient bi-isotropic plane",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The e+1 parameter-coefficient vectors of the degree-e primitive minimal Hankel kernel are linearly independent and pair to zero under both coefficient forms M_0 and M_1. They span a maximal common totally isotropic plane, meeting ker M_0 only in the exceptional locator line and ker M_1 only in the leading-coefficient line. This packages the full quadratic Hankel coefficient ledger.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_coefficient_biisotropic_plane/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_coefficient_biisotropic_plane/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_coefficient_biisotropic_plane/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_coefficient_biisotropic_plane/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_coefficient_biisotropic_plane/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_coefficient_biisotropic_plane/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_coefficient_biisotropic_plane/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_middle_adjugate_factorization",
+      "order": 2416
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_hankel_factor_pin",
+      "order": 2417
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_kernel_plane_transversality",
+      "order": 2418
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2419
+    }
+  ],
+  "refutes": []
+}

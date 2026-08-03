@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 328,
+  "node": {
+    "id": "galois_amplification",
+    "title": "Split-prime transfer: for p > exp(Cn log n / sigma), finite prefix collisions ARE char-0 collisions",
+    "status": "PROVED",
+    "refs": [
+      "tex/slackMCA_v4.tex"
+    ],
+    "notes": "cor:quasipoly-upper machinery \u2014 the proved beachhead of the transfer; prize-scale p ~ 2^256 is far below the proved range"
+  },
+  "requires": [
+    {
+      "from": "char0_collision_classification",
+      "order": 204
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "amplification_range_ext",
+      "order": 205
+    },
+    {
+      "to": "e1_fullness",
+      "order": 207
+    }
+  ],
+  "refutes": []
+}

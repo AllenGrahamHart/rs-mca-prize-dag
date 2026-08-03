@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 162,
+  "node": {
+    "id": "e1_profile210_m514_middle_shape_log_router",
+    "title": "E1 profile-(2,10) cofactor-514 middle-shape logarithm router",
+    "status": "PROVED",
+    "closure": "exact shape-sensitive bounded-deviation logarithm bounds",
+    "refs": [
+      "background/nodes/e1_profile210_m514_middle_shape_log_router/statement.md",
+      "background/nodes/e1_profile210_m514_middle_shape_log_router/proof.md",
+      "background/nodes/e1_profile210_m514_middle_shape_log_router/claim_contract.md",
+      "background/nodes/e1_profile210_m514_middle_shape_log_router/dependency_subdag.md",
+      "background/nodes/e1_profile210_m514_middle_shape_log_router/audit.md",
+      "background/nodes/e1_profile210_m514_middle_shape_log_router/result.md",
+      "background/nodes/e1_profile210_m514_middle_shape_log_router/frontier.md",
+      "background/nodes/e1_profile210_m514_middle_shape_log_router/verify.py"
+    ],
+    "statement": "Among the 32 integral autocorrelation magnitude profiles in the live cofactor-514 energy window 5 through 13, exact shape-sensitive logarithm bounds exclude 15 and leave the printed 17-profile ledger. In particular energies 12 and 13 are reduced to their all-unit profiles.",
+    "notes": "MIDDLE-SHAPE ROUTER 2026-07-29: one sparse energy-five profile lies above the field ceiling and five downward-closed L1 classes lie below the field floor. The proof uses rational atanh and exponential bounds only. Signed lags, local multiplicity, mod-257 compatibility, and support realizability remain; no E1 close or Prize movement."
+  },
+  "requires": [
+    {
+      "from": "e1_profile210_m514_outer_energy_log_exclusion",
+      "order": 4570
+    },
+    {
+      "from": "e1_profile210_split_prime_ideal_router",
+      "order": 4571
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4572
+    }
+  ],
+  "refutes": []
+}

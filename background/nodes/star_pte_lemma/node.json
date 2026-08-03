@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 470,
+  "node": {
+    "id": "star_pte_lemma",
+    "title": "PROVED (X-5): the star-PTE normal form \u2014 no non-PTE cancellation exists",
+    "status": "PROVED",
+    "statement": "For any family of monic degree-A locators with roots in D sharing top t coefficients, and any base member S0: every member S decomposes canonically as S = C u P, S0 = C u Q with |P| = |Q| >= t+1 (unless S = S0) and e_r(P) = e_r(Q) for r <= t. Proof: L_S - L_S0 = L_C (L_P - L_Q); the degree constraint forces the top-t agreement; h <= t forces L_P = L_Q. Exact, scale-free, transports verbatim to quotient rows. CONSEQUENCE: there is no non-PTE cancellation mechanism at the two-locator level \u2014 any residual hardness is COMPRESSION of many trades, not representation.",
+    "refs": [
+      "experimental/notes/roadmaps/f_matching_composition.md"
+    ],
+    "notes": "PROVENANCE: GPT Pro X-5 (demolition brief), verified here. Also the tautology catch: unrestricted PTE stripping makes literal U1 trivially true (remainder <= 1) \u2014 my U1 wording had a definitional flaw that would have made a 'proof' vacuous; caught pre-investment."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u1_pullback_dichotomy",
+      "order": 784
+    }
+  ],
+  "refutes": []
+}

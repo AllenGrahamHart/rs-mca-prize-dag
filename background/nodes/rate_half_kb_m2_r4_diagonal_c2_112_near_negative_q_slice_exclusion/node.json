@@ -1,0 +1,48 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1379,
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
+    "title": "KoalaBear c2 (1,1,2) near-aligned negative q-slice exclusion",
+    "status": "PROVED",
+    "closure": "all near-aligned saturated source-line negative candidates, including forced ramification, fail the q-slice gate",
+    "statement": "Normalize J_0={2,1/2,b,1/b}, q=(T-c)(T-d), and the near target Omega={xi,d} with xi in {2,1/2,b}. The negative factor gate and b-inversion reduce both internal templates to B=0; exact reconstruction gives common z,V and opposite U, hence the same q-slice quartic. Its monic constant is one, so passage forces xi*d=+/-1. The plus branch is a label collision. On the minus branches the xi=2 and xi=1/2 projections reconstruct only w=+/-1. For xi=b, the projection factors as d^2(d-1)^6(d+1)^6(d+2)^4(d^3-6d^2+3d-2)^4; its fibers are d=0,+/-1, b=1/2, or w=+/-1. Exact characteristic-zero projection and direct saturation modulo 2130706433 agree. Thus no admissible near-aligned negative candidate passes the necessary q-slice identity, including w=0; the positive homogenized w=0 boundary and later packet assembly remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/README.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/verify_audit.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/verify_runner.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/verify_template.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/verify_xi_a.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/verify_xi_other.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion/verify_xi_tau.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
+      "order": 4741
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+      "order": 4742
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4743
+    }
+  ],
+  "refutes": []
+}

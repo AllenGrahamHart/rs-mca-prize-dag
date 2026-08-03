@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 161,
+  "node": {
+    "id": "e1_profile210_m514_outer_energy_log_exclusion",
+    "title": "E1 profile-(2,10) cofactor-514 outer-energy exclusion",
+    "status": "PROVED",
+    "closure": "exact bounded-deviation logarithm bounds",
+    "refs": [
+      "background/nodes/e1_profile210_m514_outer_energy_log_exclusion/statement.md",
+      "background/nodes/e1_profile210_m514_outer_energy_log_exclusion/proof.md",
+      "background/nodes/e1_profile210_m514_outer_energy_log_exclusion/claim_contract.md",
+      "background/nodes/e1_profile210_m514_outer_energy_log_exclusion/dependency_subdag.md",
+      "background/nodes/e1_profile210_m514_outer_energy_log_exclusion/audit.md",
+      "background/nodes/e1_profile210_m514_outer_energy_log_exclusion/result.md",
+      "background/nodes/e1_profile210_m514_outer_energy_log_exclusion/frontier.md",
+      "background/nodes/e1_profile210_m514_outer_energy_log_exclusion/verify.py"
+    ],
+    "statement": "No binding-row profile-(2,10,S=18) collision with cofactor 514 has autocorrelation energy 0 through 4 or 14 through 17. Exact bounded-deviation logarithm bounds put the low energies above the official field ceiling and the high energies below the field floor. Only energies 5 through 13 remain.",
+    "notes": "ANALYTIC COFACTOR-514 CONTRACTION 2026-07-29: rational atanh margins and exact exponential comparisons remove nine of eighteen energy values without a support or norm census. Energies 5 through 13 and all 128 prime ideals above 257 remain; no E1 close or Prize movement."
+  },
+  "requires": [
+    {
+      "from": "e1_profile210_split_prime_ideal_router",
+      "order": 4567
+    },
+    {
+      "from": "e1_s18_m514_sharp_product_ceiling",
+      "order": 4568
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4569
+    }
+  ],
+  "refutes": []
+}

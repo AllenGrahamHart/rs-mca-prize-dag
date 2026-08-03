@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 842,
+  "node": {
+    "id": "dli_wcl_weight5_first64_mitm_exclusion",
+    "title": "DLI terminal weight-5 relations excluded on the first 64 ambient split primes",
+    "status": "PROVED",
+    "closure": "computation",
+    "statement": "For q=k*2^41+1, the first 64 prime rows in increasing positive k occur over 3<=k<=996. Exact pair/triple meet-in-the-middle replay checks all 130,560 legal pairs and 22,108,160 legal triples per row and finds no reduced signed weight-5 relation. Proper-divisor witnesses cover the 932 intervening composite values, and direct Pocklington certificates prove all 64 prime rows. This is finite evidence only: the remaining ambient weight-5 rows, weight 6, and WCL-ZONE remain open.",
+    "refs": [
+      "background/nodes/dli_wcl_weight5_first64_mitm_exclusion/statement.md",
+      "background/nodes/dli_wcl_weight5_first64_mitm_exclusion/proof.md",
+      "background/nodes/dli_wcl_weight5_first64_mitm_exclusion/verify.py",
+      "background/nodes/dli_wcl_weight5_first64_mitm_exclusion/notes/verify_search_remote.py",
+      "experiments/prize_resolution/dli_wcl_terminal_weight5_mitm.cpp",
+      "experiments/prize_resolution/dli_wcl_terminal_weight5_mitm_modal.py",
+      "experiments/prize_resolution/dli_wcl_terminal_weight5_mitm_result.json"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_zone_coverage",
+      "order": 1409
+    }
+  ],
+  "refutes": []
+}

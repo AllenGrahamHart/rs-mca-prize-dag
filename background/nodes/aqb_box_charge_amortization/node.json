@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 580,
+  "node": {
+    "id": "aqb_box_charge_amortization",
+    "title": "AQB shared box-charge amortization",
+    "status": "REFUTED",
+    "statement": "For the averaged c=2 quotient-box family, the shared box charge amortizes by at least 429,645,547 bits relative to the single-word floor at sigma*.",
+    "attack_surface": "assembly from the family definition, proved threshold accounting, and the remaining shared-family entropy-gain inequality",
+    "falsifier": "a certified upper bound showing that the proposed averaged family saves less than 429,645,547 bits after all multiplicities, overlaps, and quotient/fiber normalizations are charged",
+    "notes": "AQB ROUTE REFUTED (Pro, verified): convex-combination obstruction \u2014 the averaging transfer needs the family AVERAGE (convex comb of single-box counts <= max box), so box-sharing saves log|F| but the \u00f7|F| normalization cancels it. Gain needs a heavy-fiber theorem (forbidden, circular). See aqb_coupled_family_entropy_manifest_payload/refutation.md."
+  },
+  "requires": [
+    {
+      "from": "aqb_amortization_threshold_accounting",
+      "order": 880
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "aqb_averaged_quotient_box",
+      "order": 878
+    },
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1100
+    }
+  ],
+  "refutes": []
+}

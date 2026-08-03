@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1631,
+  "node": {
+    "id": "l1_m4_h3_nu2_prime_field_belyi_normal_form",
+    "title": "L1 m=4, h=3, nu=2 prime-field Belyi normal form",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In the surviving (nu,deg H)=(2,1) stratum, the three tangent multiplicities e_1,e_2,e_3 are pairwise distinct positive integers summing to p and determine all tangent-root ratios by r_i=lambda(e_j-e_k)^(-1). Consequently R(X)=lambda^p(S_e(X/lambda)-S_e(0)) for an explicit S_e in F_p[X] with only critical values 0 and the tangent value. This is a discrete multiplicity normal form plus one scalar conjugacy, not an exclusion, regular-fiber count, or L1 closure.",
+    "refs": [
+      "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/statement.md",
+      "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/proof.md",
+      "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/claim_contract.md",
+      "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/dependency_subdag.md",
+      "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/audit.md",
+      "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/result.md",
+      "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/lineage.md",
+      "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/upstream_crosswalk.md",
+      "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/verify.py",
+      "background/nodes/l1_m4_h3_nu2_prime_field_belyi_normal_form/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_m4_h3_tangent_radical_exclusion",
+      "order": 3871
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 3872
+    }
+  ],
+  "refutes": []
+}

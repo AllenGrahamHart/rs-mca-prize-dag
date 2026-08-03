@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1301,
+  "node": {
+    "id": "xr_rank_two_fundamental_circuit_owner",
+    "title": "XR rank-two trades have canonical fundamental-circuit owners",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_rank_two_fundamental_circuit_owner/statement.md",
+      "background/nodes/xr_rank_two_fundamental_circuit_owner/proof.md",
+      "background/nodes/xr_rank_two_fundamental_circuit_owner/claim_contract.md",
+      "background/nodes/xr_rank_two_fundamental_circuit_owner/dependency_subdag.md",
+      "background/nodes/xr_rank_two_fundamental_circuit_owner/verify.py",
+      "background/nodes/xr_rank_two_fundamental_circuit_owner/verify_audit.py",
+      "background/nodes/xr_rank_two_fundamental_circuit_owner/audit.md",
+      "background/nodes/xr_rank_two_fundamental_circuit_owner/result.md"
+    ],
+    "statement": "For a rank-two uniform split-pencil trade, the Segre coefficient configuration has rank q in {3,4}. Relative to its lexicographically first q-column basis, every non-anchor block has one unique fundamental row-scaling circuit on four or five blocks. These fundamental vectors form a basis of the full scaling kernel and their sum is the original all-one trade vector. Thus every fixed rank-two trade has at most four anchors and canonical intratrade first-match owners; first Maxwell-core selection, support embeddings, cross-core deduplication, and aggregate slope payment remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_trade_circuit_arity_segre_atlas",
+      "order": 2763
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 2764
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 514,
+  "node": {
+    "id": "midlarge_partner_cap_reduction",
+    "title": "midlarge partner cap reduction",
+    "status": "PROVED",
+    "statement": "ASSEMBLY (via the PROVED value_set_partner_cap: <= floor(n/h) partners per anchored core at every h): the mid/large-h trade bound reduces to bounding ACTIVE CORES per h \u2014 the budget tolerates ~3.3e3 active cores/h. Pure reduction on a proved lemma; write-up pending.",
+    "attack_surface": "one page: compose the cap with the per-h budget table",
+    "falsifier": "none \u2014 arithmetic",
+    "refs": [
+      "experimental/notes/roadmaps/midlarge_h_routes.md"
+    ],
+    "notes": "FLIP on replay (Codex wave 5): PROVABLE -> PROVED."
+  },
+  "requires": [
+    {
+      "from": "value_set_partner_cap",
+      "order": 820
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1090
+    }
+  ],
+  "refutes": []
+}

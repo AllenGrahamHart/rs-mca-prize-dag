@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 814,
+  "node": {
+    "id": "quotient_row_subjohnson_bound",
+    "status": "REFUTED",
+    "key": true,
+    "refs": [
+      "background/nodes/quotient_row_subjohnson_bound/sjb_refutation_statement.md",
+      "background/nodes/quotient_row_subjohnson_bound/sjb_refutation_proof.md",
+      "background/nodes/quotient_row_subjohnson_bound/sjb_falsify_exact.py"
+    ],
+    "statement": "ROW-LEVEL APERIODIC SUB-JOHNSON QUOTIENT BOUND (the unified successor red; drafted by the packet audit 2026-07-13, strength pin per catches #109 + #115): for every dyadic quotient row (n' = 2^{s'} >= 64, k' = rho n', rho in {1/2, 1/4, 1/8, 1/16}) arising from an official row at scale M = n/n' >= 2, every prime q = 1 mod M n' with q >= (M n')^2, every received word U' on RS[F_q, H^M, k'], and every cell a in [max(k'+1, 7), min(n'-7, isqrt((k'-1) n'))] (P1-OWN reading: the single cell a = k'+1, present iff k' >= 8): the number of deg < k' codewords whose exact agreement support with U' has size exactly a and is APERIODIC in Z_{n'} is at most min((63/128) n'^6, (q - 3n')/2). STRENGTH PIN (#115, PROVED sufficient \u2014 swept exactly at 4,000 points): THIS strength, not bare (63/64) n'^6, forces D > 0 AND ESP inflation <= 2, keeping the transported class <= (63/64) n'^6 at every official field (a bare-cap mint feeds ESP yet outputs 64x cap at the packet's own threshold pair \u2014 necessary-not-sufficient, the #109 spec's gap). An ESP-free transport may substitute, relaxing to (63/64) n'^6 per cell plus the #113 band pin. The APERIODICITY restriction is load-bearing (planted binomial columns are quotient-periodic). Conjectural true size O(n'^2) satisfies every branch. CONVERGENCE: this is petal_k4_primitive_bound's kernel in row-level form at oversized field \u2014 one lemma serves both reds. FALSIFIER: as pre-registered in qrl_modal_shard_spec.md (QRL-MODAL-1: exact census at n' = 64..512, kill = max list at a = k'+1 exceeding 2n'). || REFUTED (2026-07-13, catch #124 \u2014 the program's first fired falsifier on a minted red; T-KILL, decisive): CONSTRUCTIVE COUNTEREXAMPLE at the P1-OWN cell a = k'+1 for ALL FOUR RATES. Family: W_tau = X^{k'}(X - tau) \u2014 exact agreement of size k'+1 bijects with (k'+1)-subsets S with e1(S) = tau (W - c monic of degree exactly k'+1 = L_S), so the list is an EXACT subset-sum count; pigeonhole gives max_tau >= C(n', k'+1)/q. APERIODICITY IS FREE: odd-size subsets of Z_{2^{s'}} are all aperiodic \u2014 the restriction is void at the consumed cell. Verified exact-integer instances: (rho=1/2, s=13, n'=64, q=67,239,937): floor 2.64e10 > cap 3.36e7 (x786); margins to 2^73 at n'=128; prize-wide the word-uniform n'^6 form is false for all n' >= 512/1024 at every q < 2^256 (Vandermonde-doubling persistence). In-vivo: at QRL-MODAL-1's own grid cell (n'=64, q=65537) every family word has list ~2.71e13 (x802 cap; x2.1e11 the probe's expected 2n'). CONSISTENT with everything banked: T1/T2/T3 remain TRUE (the Johnson radius is exactly the truth boundary \u2014 #127: the mint overshot Paper D's own prob:band left edge k + 2n/N, whose excluded strip this family shows to be tight within factor 2); the K4 CHART form remains PROVED \u2014 the G5 honest-scope clause is vindicated maximally (row-level FALSE, chart-level TRUE). Catch #125: the #115 ESP strength pin was unsatisfiable-by-truth at minimal fields (no future lemma can feed that transport at s=13 open scales). Catch #126: QRL-MODAL-1's design was structurally blind to this family (constructed-classes-only) and the O(n'^2) conjecture is false. Scope note: the family is degree-(k'+1)-received-word specific \u2014 agreement beyond k'+1 is impossible for it (deg(W - c) = k'+1), so NO implication for the rate-half band cells (a = k + t_u, t_u ~ 2^33)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_k4_primitive_bound",
+      "order": 1361
+    }
+  ],
+  "refutes": []
+}

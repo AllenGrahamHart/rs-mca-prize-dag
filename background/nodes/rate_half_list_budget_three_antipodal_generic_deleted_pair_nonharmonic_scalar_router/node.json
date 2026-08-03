@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1017,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_scalar_router",
+    "title": "Budget-three antipodal generic deleted-pair nonharmonic scalar router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "After harmonic exclusion, the Mobius and Euclidean remainder equations eliminate the outer ratio. Each of three branches is exactly one polynomial scalar identity in the lift ratio, one torsion trace, and one reciprocal-root-invariant square test.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_scalar_router/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_scalar_router/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_scalar_router/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_scalar_router/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_scalar_router/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_scalar_router/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_nonharmonic_scalar_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_mobius_ratio_router",
+      "order": 1855
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_remainder_square_router",
+      "order": 1856
+    },
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_harmonic_exclusion",
+      "order": 1857
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1858
+    }
+  ],
+  "refutes": []
+}

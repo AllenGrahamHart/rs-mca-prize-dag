@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 216,
+  "node": {
+    "id": "budget_b3",
+    "title": "Poly budget B <= 3 at n = 2^41 (123 < 128 bits)",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#3"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "r2_rigidity",
+      "order": 52
+    },
+    {
+      "to": "safe_assembly_uniformity",
+      "order": 667
+    }
+  ],
+  "refutes": []
+}

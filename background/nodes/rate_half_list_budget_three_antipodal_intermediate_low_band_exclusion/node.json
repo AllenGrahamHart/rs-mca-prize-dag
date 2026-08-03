@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1050,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion",
+    "title": "Budget-three antipodal intermediate low-band exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The residual annihilator excludes every official intermediate degree from the floor 91,625,968,980 through 96,207,267,428. Any remaining intermediate survivor must have degree at least 96,207,267,429.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_intermediate_low_band_exclusion/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_intermediate_residual_square_gcd_gate",
+      "order": 1957
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1958
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1268,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_all_branch_jacobi_norm_compiler",
+    "title": "Budget-three fiber-two c=1 parity has fourteen shared-norm Jacobi tests",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For each c=1 parity source branch, the constant gate is h_Xj=sP with s^2=-epsilon. Eliminating r against r^4-2xr^2+1 collapses the six roles to four explicit polynomials: R0, common R1/R2, P0, and common P1/P2. The even x-sign norm then gives exactly seven degree-2^36 Jacobi gcds per torsion sign. All fourteen tests share the existing CR-002 order-2^39 minus norm and 37-level plus tower. Absence of official divisors of both norms empties the full generic two-antipodal c=1 parity packet; compatible divisors still require scalar and Euclidean replay.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_all_branch_jacobi_norm_compiler/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_all_branch_jacobi_norm_compiler/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_all_branch_jacobi_norm_compiler/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_all_branch_jacobi_norm_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_all_branch_jacobi_norm_compiler/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_all_branch_jacobi_norm_compiler/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_all_branch_jacobi_norm_compiler/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c1_parity_all_branch_jacobi_norm_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_nonharmonic_scalar_compiler",
+      "order": 2651
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_frobenius_router",
+      "order": 2652
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c1_parity_r0_jacobi_norm_transfer",
+      "order": 2653
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2654
+    }
+  ],
+  "refutes": []
+}

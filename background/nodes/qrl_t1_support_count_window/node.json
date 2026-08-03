@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 811,
+  "node": {
+    "id": "qrl_t1_support_count_window",
+    "status": "PROVED",
+    "refs": [
+      "critical/nodes/petal_small_scale_staircase_census/notes/qrl_packet_20260713/qrl_statement.md",
+      "critical/nodes/petal_small_scale_staircase_census/notes/qrl_packet_20260713/qrl_proof.md",
+      "critical/nodes/petal_small_scale_staircase_census/notes/qrl_packet_20260713/qrl_verify.py"
+    ],
+    "statement": "QRL-T1 (support-count window; packet r1, audited SOUND 2026-07-13). Per received word and per cell a >= k'+1 on a dyadic quotient row, the aperiodic exact list is <= C(n',a) (multiplicity-1 THEOREM: shared exact support of size a >= k'+1 forces equality; class-level via the S <-> S/K full-fiber-union bijection, needing only M | n \u2014 ESP-FREE). Numerics exact: max_a C(n',a) <= (63/64) n'^6 for n' <= 32 (C(32,16) = 601,080,390 <= 1,056,964,608; fails at 64) and for cells a <= 6 or a >= n'-6 at any n'. PER-SCALE CLASS-TOTAL CLAUSE (catch #113 repair): total <= 2^{n'} <= (63/64) n'^6 for n' <= 16 at ALL band readings; at n' = 32 the class-total holds under the P1-OWN reading, or for rho in {1/8, 1/16} jointly with QRL-T2 \u2014 the widest ALL reading at n' = 32, rho in {1/2, 1/4} is NOT delivered (exact sums 1.85e9/4.28e9 > cap) and is excluded from consumption."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_small_scale_staircase_census",
+      "order": 1358
+    }
+  ],
+  "refutes": []
+}

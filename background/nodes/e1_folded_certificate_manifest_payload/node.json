@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 610,
+  "node": {
+    "id": "e1_folded_certificate_manifest_payload",
+    "title": "E1 actual folded-certificate manifest payload",
+    "status": "CONDITIONAL",
+    "statement": "Construct the named folded-certificate manifest for the E1 open cells N' in {128,256}. This is now conditional on the proved two-cell assembly rule plus the actual N'=128 and N'=256 folded-certificate cell payloads, each with a named exhibit field, complete folded kernel certificate, and zero nonzero non-cyclotomic folded vectors.",
+    "attack_surface": "assembly from the two explicit E1 folded-certificate cell payloads",
+    "falsifier": "missing N'=128 or N'=256 cell payload, an incomplete folded certificate, or a nonzero folded vector in either listed certificate"
+  },
+  "requires": [
+    {
+      "from": "e1_two_cell_folded_manifest_assembly_soundness",
+      "order": 944
+    },
+    {
+      "from": "e1_folded_certificate_cell_128_payload",
+      "order": 945
+    },
+    {
+      "from": "e1_folded_certificate_cell_256_payload",
+      "order": 946
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

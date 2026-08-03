@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1286,
+  "node": {
+    "id": "f3_h3_quotient_orbit_taylor_cutoff_ladder",
+    "title": "H3 quotient-orbit Taylor cutoff ladder",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every canonical quotient block and cutoff c>=2, the odd coefficient content of Res_T(q_O,sum_(i=0)^c Pcal_n^[i](T)X^i) has exactly the prime radical of the cutoff-c scalar annihilator. These supports descend with c, so any c<=35 is a complete cutoff-35 superset. At n=8192, c=2 exactly screens quotient-supported triple product collisions with 24,534 blocks, maximum X-degree 8,192 and total possible X-degree 134,168,580; exact row filtering removes multiplicities 3 through 35. No optimal-cutoff, implementation, factorization, resource, moment, or C36 bound is claimed.",
+    "refs": [
+      "background/nodes/f3_h3_quotient_orbit_taylor_cutoff_ladder/statement.md",
+      "background/nodes/f3_h3_quotient_orbit_taylor_cutoff_ladder/proof.md",
+      "background/nodes/f3_h3_quotient_orbit_taylor_cutoff_ladder/claim_contract.md",
+      "background/nodes/f3_h3_quotient_orbit_taylor_cutoff_ladder/dependency_subdag.md",
+      "background/nodes/f3_h3_quotient_orbit_taylor_cutoff_ladder/audit.md",
+      "background/nodes/f3_h3_quotient_orbit_taylor_cutoff_ladder/result.md",
+      "background/nodes/f3_h3_quotient_orbit_taylor_cutoff_ladder/verify.py",
+      "background/nodes/f3_h3_quotient_orbit_taylor_cutoff_ladder/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_quotient_orbit_taylor_content_support_compiler",
+      "order": 2721
+    },
+    {
+      "from": "f3_h3_quotient_algebra_fitting_support_compiler",
+      "order": 2722
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2723
+    },
+    {
+      "to": "f3_h3_official_order_template_survivor",
+      "order": 2724
+    }
+  ],
+  "refutes": []
+}

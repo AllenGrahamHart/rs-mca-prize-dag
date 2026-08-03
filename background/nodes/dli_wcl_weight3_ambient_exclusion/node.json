@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 840,
+  "node": {
+    "id": "dli_wcl_weight3_ambient_exclusion",
+    "title": "DLI official terminal weight-3 relations excluded by exhaustive affine-Galois norm census",
+    "status": "PROVED",
+    "closure": "computation",
+    "statement": "All C(256,3)2^2=11,054,080 reduced signed weight-3 polynomials at order 512 form exactly 254 affine-Galois norm classes. Exact resultants and complete certified factorizations have 439 distinct prime factors; none below 2^256 has v_2(q-1)>=41, and the maximum is 18. Hence no official DLI production row contains a terminal weight-3 relation. The verifier independently proves orbit coverage, reconstructs every resultant modulo a CRT modulus exceeding 2*3^256, and checks a shared 1,498-node recursive Pocklington tree. Weights 4 through 6 and WCL-ZONE remain open.",
+    "refs": [
+      "background/nodes/dli_wcl_weight3_ambient_exclusion/statement.md",
+      "background/nodes/dli_wcl_weight3_ambient_exclusion/proof.md",
+      "background/nodes/dli_wcl_weight3_ambient_exclusion/verify.py",
+      "background/nodes/dli_wcl_weight3_ambient_exclusion/notes/verify_sweep_remote.py",
+      "experiments/prize_resolution/dli_wcl_weight3_classes_modal.py",
+      "experiments/prize_resolution/dli_wcl_weight3_classes_result.json"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_zone_coverage",
+      "order": 1407
+    }
+  ],
+  "refutes": []
+}

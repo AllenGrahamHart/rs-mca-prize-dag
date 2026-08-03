@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 221,
+  "node": {
+    "id": "hooley_katz",
+    "title": "Odd-moment (Hooley-Katz) averaged input",
+    "status": "TARGET",
+    "refs": [
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#3"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_wall",
+      "order": 55
+    },
+    {
+      "to": "spi_wall",
+      "order": 56
+    },
+    {
+      "to": "xr_crystallization",
+      "order": 139
+    },
+    {
+      "to": "xr_inverse",
+      "order": 572
+    },
+    {
+      "to": "xr_e3_calculus",
+      "order": 595
+    }
+  ],
+  "refutes": []
+}

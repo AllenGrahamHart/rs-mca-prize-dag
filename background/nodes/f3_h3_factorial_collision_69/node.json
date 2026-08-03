@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 796,
+  "node": {
+    "id": "f3_h3_factorial_collision_69",
+    "title": "H3 product-product-quotient factorial moment is at most 69n^2",
+    "status": "TARGET",
+    "refs": [
+      "background/nodes/f3_h3_factorial_collision_69/statement.md",
+      "background/nodes/f3_h3_factorial_collision_69/attack.md"
+    ],
+    "statement": "BACKGROUND SUFFICIENT ROUTE. For every official row, with P and R as in f3_h3_mobius_excess_half, M_21=sum_{t!=1}P(t)(P(t)-1)R(t) <=69n^2. Since (m-35)_+ <=m(m-1)/138 for every integer m, this implies X_35<=n^2/2 and closes the critical weighted leaf. The count is the exact codimension-two six-variable incidence ledger consisting of two distinct ordered product representations and one quotient representation of the same t. FALSIFIER: one official row with M_21>69n^2. Boundary calibration: M_21=132310328=1.971577525n^2 at (n,p)=(8192,67657729)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1335
+    }
+  ],
+  "refutes": []
+}

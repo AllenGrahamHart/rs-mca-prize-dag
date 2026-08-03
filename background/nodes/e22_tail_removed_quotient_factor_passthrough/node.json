@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 688,
+  "node": {
+    "id": "e22_tail_removed_quotient_factor_passthrough",
+    "title": "E22 tail-removed quotient-factor passthrough",
+    "status": "PROVED",
+    "statement": "If a touched-petal locator L_T divides a cofactor H, and T is the disjoint union of a tail B and full quotient fibers with locators X^{M}-z, then after removing the tail factor L_B the cofactor divisibility supplies exactly those quotient factors. Products of distinct quotient fibers pass through with their multiplicity one.",
+    "attack_surface": "formal squarefree locator divisibility after splitting tail and quotient-fiber factors",
+    "falsifier": "a squarefree locator factorization L_T=L_B prod_z (X^M-z) dividing H while one quotient factor fails to divide the tail-removed cofactor"
+  },
+  "requires": [
+    {
+      "from": "e22_fiber_locator_saturation",
+      "order": 991
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1169
+    }
+  ],
+  "refutes": []
+}

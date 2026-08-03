@@ -1,0 +1,56 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 59,
+  "node": {
+    "id": "e1_n256_s16_e31_profile_parity_light_reduction",
+    "title": "N=256 E=31 profile/parity/light reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/statement.md",
+      "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/proof.md",
+      "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/claim_contract.md",
+      "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/audit.md",
+      "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/result.md",
+      "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/source_pin.json",
+      "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/verify.py",
+      "background/nodes/e1_n256_s16_e31_profile_parity_light_reduction/verify_audit.py",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e31_three_odd_light_orbit_classifier.py",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e31_three_odd_light_orbit_check.py",
+      "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e31_three_odd_light_orbit_result.json"
+    ],
+    "statement": "For N=256 folded profile (3,4,0) at V=62, exact slack gives L<=17 and the exact cubic cutoff M_3=1302. Of 15 magnitude profiles, light-chord parity leaves only (3,7),(2,5,1),(1,3,2). Their common geometry consists of 960 normalized supports in eight affine odd-unit orbits, each with one diameter and a repeated-distance wedge. The diameter ledger is D_64 in {1,5,9,17,21}.",
+    "notes": "ROUTE REDUCTION 2026-07-27: converts the V=62 endpoint into three profiles on a complete eight-template light router. It does not exclude those profiles or any lower variance."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e32_endpoint_exclusion",
+      "order": 337
+    },
+    {
+      "from": "e1_n256_s16_sparse_l1_variance_exclusion",
+      "order": 338
+    },
+    {
+      "from": "e1_n256_s16_signed_chord_collision_gate",
+      "order": 339
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 340
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 441
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 442
+    }
+  ],
+  "refutes": []
+}

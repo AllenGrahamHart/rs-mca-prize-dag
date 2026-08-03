@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 172,
+  "node": {
+    "id": "e1_qzeta128_p257_j65_harbater_nonprincipality",
+    "title": "Q(zeta_128) J_65 Harbater nonprincipality",
+    "status": "PROVED",
+    "closure": "published Hilbert-class field plus exact modulo-257 Frobenius replay",
+    "refs": [
+      "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/statement.md",
+      "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/proof.md",
+      "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/claim_contract.md",
+      "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/source_evidence.md",
+      "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/dependency_subdag.md",
+      "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/audit.md",
+      "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/result.md",
+      "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/frontier.md",
+      "background/nodes/e1_qzeta128_p257_j65_harbater_nonprincipality/verify.py"
+    ],
+    "statement": "The ideal (257,zeta_128-9)(257,zeta_128-248) is nonprincipal. Its descended prime has nontrivial Artin symbol because the published degree-17 Hilbert-class polynomial is irreducible modulo 257.",
+    "notes": "HARBATER CLOSE 2026-07-29: Dembele identifies the class-number-17 CM subfield and its Hilbert class field, whose Elkies polynomial is exactly irreducible modulo 257. Norm descent proves J_65 nonprincipal without a degree-64 BNF."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

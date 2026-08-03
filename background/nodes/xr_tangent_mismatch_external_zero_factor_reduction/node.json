@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1204,
+  "node": {
+    "id": "xr_tangent_mismatch_external_zero_factor_reduction",
+    "title": "Nonzero tangent mismatches reduce to fixed-excess punctured GRS charts",
+    "status": "PROVED",
+    "statement": "Let A=K+h and q_z=p_z-(c0+z c1) be a nonzero difference codeword for an exact-A witness S, with T the recovered-pair discrepancy support. If W=S\\T and d=|W|, then P_W divides q_z, d<=K-1, and q_z/P_W has degree below K-d. On T, after scaling e0,e1 by P_W^{-1}, it agrees on A-d coordinates. Thus every mismatch enters a punctured GRS chart of dimension K-d, agreement A-d, invariant excess h, and error radius R-h. This is a per-witness reduction, not an aggregate over W.",
+    "refs": [
+      "background/nodes/xr_tangent_mismatch_external_zero_factor_reduction/statement.md",
+      "background/nodes/xr_tangent_mismatch_external_zero_factor_reduction/proof.md",
+      "background/nodes/xr_tangent_mismatch_external_zero_factor_reduction/claim_contract.md",
+      "background/nodes/xr_tangent_mismatch_external_zero_factor_reduction/audit.md",
+      "background/nodes/xr_tangent_mismatch_external_zero_factor_reduction/result.md",
+      "background/nodes/xr_tangent_mismatch_external_zero_factor_reduction/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 2481
+    }
+  ],
+  "refutes": []
+}

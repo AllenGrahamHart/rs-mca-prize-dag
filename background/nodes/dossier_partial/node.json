@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 274,
+  "node": {
+    "id": "dossier_partial",
+    "title": "Dossier v-PARTIAL (buildable now, S0-conditioned)",
+    "status": "PROVED",
+    "refs": [
+      "notes/dossier/PARTIAL_DOSSIER.md",
+      "notes/dossier/PARTIAL_DOSSIER_MANIFEST.json",
+      "background/nodes/dossier_partial/audit.py"
+    ],
+    "statement": "The gate-checked partial dossier packages the exact F_(17^32) adjacent row, high-agreement envelope family, closed convention freeze, Tier-1 Lean certificates, replay commands, and an exhaustive machine-checked list of current red-leaf non-claims. [MASTER IMPORT 2026-07-12: catch #92 repaired \u2014 the non-claims manifest now lists ELEVEN open truth leaves (petal_small_scale_staircase_census added; the node's audit compares only the local orbit and could not see the delta). Lean Tier-1: rebuilt at import-audit time (13.4s, 773MB, lake v4.31.0) with kernel #print axioms on all 8 pinned theorems \u2014 axioms subset {propext, Classical.choice, Quot.sound}; no sorryAx, no native_decide.]",
+    "notes": "Align the v-PARTIAL assembly with Paper D as the submission spine (maintainer framing, 2026-07-03) \u2014 the dossier becomes Paper D-attached packets rather than a freestanding document. | #213's skeletons = the per-row certificate scaffolding for the determined region (clean rates, |F| < ~2^168-170) \u2014 the three-rate dossier's guaranteed floor. | Fleet A M5: the three-rate dossier skeleton exists (32 open slots, all DAG-id-verified); NEW thin-margin flag: Row C at rate 1/16 is gate-knife-edged (GM = +6.85) \u2014 add to the QA.4 census objects; Row-C-class rows carry only 23.2-61.8 bits at A*+1 (per-row-class caveats recorded, prize-max headroom 130-181 bits stands). | NODE-KIND FLAG (hygiene audit 2026-07-04): deliverable \u2014 not truth-apt as stated; queue: reword to its propositional core or demote to support/queue item.",
+    "closure": "artifact"
+  },
+  "requires": [
+    {
+      "from": "pinned_row",
+      "order": 42
+    },
+    {
+      "from": "lean_tier1",
+      "order": 119
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

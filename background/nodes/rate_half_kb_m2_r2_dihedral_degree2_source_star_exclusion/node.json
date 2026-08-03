@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1561,
+  "node": {
+    "id": "rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion",
+    "title": "KoalaBear m2 r2 dihedral degree-two source-star exclusion",
+    "status": "PROVED",
+    "closure": "regular D2 coset incidence, normalized source cross-edge lemma, and exact four-vertex defect floor",
+    "statement": "In the full-V4 (m,r,delta)=(2,2,4) row, the degree-two Dickson/Chebyshev factor profile is impossible. At one generic pole of the outer map, regular D2=V4 incidence makes both Z values see the same two Y values. Their endpoint and complete-source lifts force eight star units onto four cross vertices, whose minimum defect is four, above the proved budget three. Together with the degree-five exclusion, the surviving factor degrees are n=3,6. No m=2 type, owner charge, or prize row is closed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+      "order": 3642
+    },
+    {
+      "from": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
+      "order": 3643
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3644
+    }
+  ],
+  "refutes": []
+}

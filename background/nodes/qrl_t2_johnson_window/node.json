@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 812,
+  "node": {
+    "id": "qrl_t2_johnson_window",
+    "status": "PROVED",
+    "refs": [
+      "critical/nodes/petal_small_scale_staircase_census/notes/qrl_packet_20260713/qrl_statement.md",
+      "critical/nodes/petal_small_scale_staircase_census/notes/qrl_packet_20260713/qrl_proof.md"
+    ],
+    "statement": "QRL-T2 (Johnson window; audited SOUND). On dyadic quotient rows, cells with a^2 > (k'-1) n' have list <= n'^2 (Paper D thm:capf-johnson-list, verified in source to hold for arbitrary finite evaluation sets, kappa = k'-1) and the ESP transport carries <= 2 n'^2 at every official field (D >= q(q - 2r - L) > 0 at q >= 4n'^2; inflation factor <= 4n'/(3n'-2) <= 2, worst at the boundary \u2014 exact sweep incl. q = 4n'^2). Descent hypotheses (M | gcd(n,k), char not dividing M, M | A) verified at n' >= 64."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_small_scale_staircase_census",
+      "order": 1359
+    }
+  ],
+  "refutes": []
+}

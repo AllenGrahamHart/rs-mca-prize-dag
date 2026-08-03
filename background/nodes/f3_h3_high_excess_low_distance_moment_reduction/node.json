@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1000,
+  "node": {
+    "id": "f3_h3_high_excess_low_distance_moment_reduction",
+    "title": "H3 high-excess low-distance moment reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the selected P(t)>=33 tail, the product excess P(t)-18 is at most 16/83 times the full distance-four/six centroid weight W(t)=2N_4(t)+N_6(t). Hence the exact weighted edge-quotient moment bound 272M_33<=83(300n^2-238(n-1)(n-2)) implies C36'.",
+    "refs": [
+      "background/nodes/f3_h3_high_excess_low_distance_moment_reduction/statement.md",
+      "background/nodes/f3_h3_high_excess_low_distance_moment_reduction/proof.md",
+      "background/nodes/f3_h3_high_excess_low_distance_moment_reduction/claim_contract.md",
+      "background/nodes/f3_h3_high_excess_low_distance_moment_reduction/dependency_subdag.md",
+      "background/nodes/f3_h3_high_excess_low_distance_moment_reduction/audit.md",
+      "background/nodes/f3_h3_high_excess_low_distance_moment_reduction/result.md",
+      "background/nodes/f3_h3_high_excess_low_distance_moment_reduction/verify.py",
+      "background/nodes/f3_h3_high_excess_low_distance_moment_reduction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_excess_multistar_degree_ladder",
+      "order": 1895
+    },
+    {
+      "from": "f3_h3_excess_budget_degree_tradeoff",
+      "order": 1896
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1897
+    }
+  ],
+  "refutes": []
+}

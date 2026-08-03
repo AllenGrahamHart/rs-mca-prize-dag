@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 463,
+  "node": {
+    "id": "spread_syzygy_ident",
+    "title": "FACE-3 (identification): below-cap configurations = the syzygy anatomy at general supports",
+    "status": "PROVED",
+    "statement": "Face 3's rank-loss configurations are syzygies of constrained-support dual codewords \u2014 the SAME anatomy as face 4's alpha, at general (not necessarily aligned) supports: the k+1 overlap budget transports verbatim (MDS weights are support-agnostic); E13's observed exception classes (AG/net, v-degenerate, syzygy circuits) are the general-support siblings of beta-3b's vanishing-eliminant configurations. Face 3's classification and beta-3b's census are ONE body of work \u2014 merge the E32-ext census design to cover both.",
+    "attack_surface": "restate E13's classes in the eliminant normal form's language (the evaluator exists); one census, two consumers",
+    "falsifier": "an E13 exception class not expressible as a vanishing-eliminant configuration (the restatement exercise finds it immediately)",
+    "refs": [
+      "experimental/notes/roadmaps/xr_triangle_eliminant_form.md"
+    ],
+    "notes": "E32-MERGED executed the restatement: E13's exception classes are now written in the 2c eliminant normal form \u2014 the identification is formal; face 3's classification and beta-3b are confirmed one body of work. | FLIP on replay (Codex rednode wave 2): TARGET -> PROVED; packet in nodes/spread_syzygy_ident/."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "spread_exception_classification",
+      "order": 777
+    }
+  ],
+  "refutes": []
+}

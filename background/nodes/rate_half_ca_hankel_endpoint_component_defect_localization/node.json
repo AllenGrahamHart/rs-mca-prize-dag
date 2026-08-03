@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 925,
+  "node": {
+    "id": "rate_half_ca_hankel_endpoint_component_defect_localization",
+    "title": "Component-defect localization at the strict endpoint",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the first strict A=3 endpoint, let E be overlap among the distinct irreducible-component incidence sets, D_i=T r_i-I_i the row deficit, C_i=N e_i-I_i the column deficit, and b the total parameter degree outside the unique defect-one component. The generator is geometrically squarefree and the exact ledgers are sum D_i=O-E and sum C_i=1+O-E. The dominant component satisfies C_*-D_*=4b+1, while every balanced residual component satisfies D_i-C_i=4e_i. Hence 4b<=O-E and e_*>=m-floor((O-E)/4). Every component splits disjointly on at least 3m+2 supported slopes and at least 15m domain fibers; at least 3m+1-O supported slopes are also parameter-transverse. The dominant nonlinear component remains open.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_endpoint_component_defect_localization/statement.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_component_defect_localization/proof.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_component_defect_localization/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_component_defect_localization/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_component_defect_localization/verify.py",
+      "background/nodes/rate_half_ca_hankel_endpoint_component_defect_localization/audit.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_endpoint_rational_branch_exclusion",
+      "order": 1670
+    },
+    {
+      "from": "rate_half_ca_hankel_endpoint_norm_factorization",
+      "order": 1671
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 1672
+    }
+  ],
+  "refutes": []
+}

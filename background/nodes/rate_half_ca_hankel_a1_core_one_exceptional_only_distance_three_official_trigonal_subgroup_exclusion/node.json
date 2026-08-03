@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1122,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_official_trigonal_subgroup_exclusion",
+    "title": "Rate-half distance-three official trigonal-subgroup exclusion",
+    "status": "PROVED",
+    "closure": "proof using published finite-field subgroup bounds",
+    "statement": "On the official prime-field order-2^41 subgroup, the rank-three pair-locator branch has zero trigonal recovery kernel. A nonzero kernel would place 2e ordered exceptional pairs on one degree-three rational-map coincidence curve. Explicit subgroup bounds exclude its absolutely irreducible bidegree-(2,2), or after a torus change bidegree-(2,3), case; geometric reducibility would force an impossible order-three Mobius deck map. Hence the official generic quadratic rank is exactly 3e+1. The saturated external-design branch remains open.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_official_trigonal_subgroup_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_official_trigonal_subgroup_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_official_trigonal_subgroup_exclusion/source.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_official_trigonal_subgroup_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_official_trigonal_subgroup_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_official_trigonal_subgroup_exclusion/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_official_trigonal_subgroup_exclusion/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_official_trigonal_subgroup_exclusion/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_generic_schur_defect_trigonal_fiber_classification",
+      "order": 2256
+    },
+    {
+      "from": "rate_half_residual_prime_field_collapse",
+      "order": 2257
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2258
+    }
+  ],
+  "refutes": []
+}

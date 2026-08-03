@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 341,
+  "node": {
+    "id": "dyadic_descent",
+    "title": "thm:descent: dyadic descent failure mechanism (unconditional)",
+    "status": "PROVED",
+    "refs": [
+      "tex/slackMCA_v4.tex"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "cap_theorem",
+      "order": 541
+    },
+    {
+      "to": "unsafe_at_crossing",
+      "order": 542
+    }
+  ],
+  "refutes": []
+}

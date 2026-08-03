@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 930,
+  "node": {
+    "id": "xr_split_pencil_nonlocal_rank_two_rational_fibers",
+    "title": "XR nonlocal rank-two trades are quadratic or cubic rational fibers",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_split_pencil_nonlocal_rank_two_rational_fibers/statement.md",
+      "background/nodes/xr_split_pencil_nonlocal_rank_two_rational_fibers/proof.md",
+      "background/nodes/xr_split_pencil_nonlocal_rank_two_rational_fibers/verify.py",
+      "background/nodes/xr_split_pencil_nonlocal_rank_two_rational_fibers/result.md"
+    ],
+    "statement": "For either nonlocal rank-two profile, dual-GRS_4 scaling identifies the two-dimensional row space with a polynomial pencil of degree at most R-5. Since there are four slopes, the row-coefficient code equals dual RS_2, so a projective change turns the pencil ratio into a rational function phi whose four fibers on the active set are exactly the row zero sets. The R=7 profile is degree two and its three pairs are orbits of one Mobius involution. The R=8 profile has degree two or three; its quadratic branch has four involution pairs, while an explicit F_103 cube-fiber trade proves the cubic branch is genuine. This is a rational-fiber dictionary, not an ownership/counting theorem."
+  },
+  "requires": [
+    {
+      "from": "xr_split_pencil_trade_rank_two_support_atlas",
+      "order": 1641
+    },
+    {
+      "from": "xr_split_pencil_six_face_syzygy_quotient",
+      "order": 1642
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1643
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 1644
+    }
+  ],
+  "refutes": []
+}

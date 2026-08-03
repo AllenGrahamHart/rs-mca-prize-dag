@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1729,
+  "node": {
+    "id": "l1_m31_top_neighbor_core_shadow_payment",
+    "title": "M31 top-neighbor core-shadow payment",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For the M31 dense top-neighbor terminal, every fixed degree-(4980-r) divisor core supports at most floor(C(1053557-4981+r+1,r+1)/C(67447+r+1,r+1))-1 actual top neighbors. In particular a degree-4979 one-root-swap core supports at most 240 neighbors. Therefore an anchor with 215793 top neighbors realizes at least 4477705 distinct degree-4979 cores.",
+    "refs": [
+      "background/nodes/l1_m31_top_neighbor_core_shadow_payment/statement.md",
+      "background/nodes/l1_m31_top_neighbor_core_shadow_payment/proof.md",
+      "background/nodes/l1_m31_top_neighbor_core_shadow_payment/claim_contract.md",
+      "background/nodes/l1_m31_top_neighbor_core_shadow_payment/dependency_subdag.md",
+      "background/nodes/l1_m31_top_neighbor_core_shadow_payment/audit.md",
+      "background/nodes/l1_m31_top_neighbor_core_shadow_payment/result.md",
+      "background/nodes/l1_m31_top_neighbor_core_shadow_payment/lineage.md",
+      "background/nodes/l1_m31_top_neighbor_core_shadow_payment/upstream_crosswalk.md",
+      "background/nodes/l1_m31_top_neighbor_core_shadow_payment/verify.py",
+      "background/nodes/l1_m31_top_neighbor_core_shadow_payment/verify_audit.py"
+    ],
+    "notes": "Exact actual-list fixed-core payment and shadow floor only. It does not aggregate across cores, prove the local excluding cap, pay Q=147595, or move a Prize endpoint."
+  },
+  "requires": [
+    {
+      "from": "l1_m31_rank7_dense_top_decorated_shift_pair_router",
+      "order": 4503
+    },
+    {
+      "from": "upstream_gfv4_affine_span_list_compiler",
+      "order": 4504
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 4506
+    }
+  ],
+  "refutes": []
+}

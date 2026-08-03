@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1538,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier",
+    "title": "KoalaBear m2 r4 coordinate negative two-loop 442 exceptional-product classifier",
+    "status": "PROVED",
+    "closure": "six exact quadratic-linear common-K product rows on the sixth/eighth-root exceptional label loci",
+    "statement": "Normalize the three signed J-pair representatives by A=1 and let tau be the product of the three cross-edge signs. On the sixth-root and two eighth-root K-label loci, all five negative Mobius product minors vanish exactly on six printed rows: one quadratic equation for b=B/A and one linear equation for c=C/A for each locus and tau sign. Hence at most twelve normalized geometric common-K product packets remain. All six rows are geometrically nonempty; q signs and the seven complement fibers remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+      "order": 3536
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier",
+      "order": 3537
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3538
+    }
+  ],
+  "refutes": []
+}

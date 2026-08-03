@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1722,
+  "node": {
+    "id": "f3_hge4_multiscale_haar_m128_frontier",
+    "title": "HGE4 balanced-factor Haar augmentation and m=128 frontier",
+    "status": "PROVED",
+    "closure": "proof",
+    "gate": "all",
+    "statement": "For every nonzero norm in the multiscale Haar product, balanced signed support gives the independent factor Norm(1-zeta_O)=2. The sharpened exact gate closes all exact-ratio m=128 widths h=12,...,64 and prunes the h=9,10,11 Haar patterns explicitly.",
+    "upstream": {
+      "label": "SP / primitive shift-pair exact second-moment ledger",
+      "relation": "OVERLAP"
+    },
+    "refs": [
+      "background/nodes/f3_hge4_multiscale_haar_m128_frontier/statement.md",
+      "background/nodes/f3_hge4_multiscale_haar_m128_frontier/proof.md",
+      "background/nodes/f3_hge4_multiscale_haar_m128_frontier/claim_contract.md",
+      "background/nodes/f3_hge4_multiscale_haar_m128_frontier/dependency_subdag.md",
+      "background/nodes/f3_hge4_multiscale_haar_m128_frontier/audit.md",
+      "background/nodes/f3_hge4_multiscale_haar_m128_frontier/result.md",
+      "background/nodes/f3_hge4_multiscale_haar_m128_frontier/upstream_crosswalk.md",
+      "background/nodes/f3_hge4_multiscale_haar_m128_frontier/verify.py",
+      "background/nodes/f3_hge4_multiscale_haar_m128_frontier/verify_audit.py"
+    ],
+    "notes": "Exact theorem payment only. The m=128 residual is h=4,...,11; no status change for f3_hge4_norm_gate_count."
+  },
+  "requires": [
+    {
+      "from": "f3_hge4_multiscale_haar_m64_level_close",
+      "order": 4099
+    },
+    {
+      "from": "f3_hge4_cyclotomic_norm_quarter_width_exclusion",
+      "order": 4100
+    },
+    {
+      "from": "f3_hge4_nonfull_complement_third_gate",
+      "order": 4101
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_hge4_norm_gate_count",
+      "order": 4102
+    }
+  ],
+  "refutes": []
+}

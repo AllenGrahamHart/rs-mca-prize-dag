@@ -1,10 +1,21 @@
 # Frontier
 
 The six-basis norm route, nested-quadratic cut, finite direct solvers, and
-parallel-edge transport have now proved all `288` cases with
-`xi in {0,1,2}` and `pairing in {0,1,2,3,4,5}`.  The next route decision is
-between `pairing=6` for the parallel-`DE` missing block and
-`xi=3,pairing=0` in the localized quadratic algebra
+parallel-edge transport have now proved all `720` cases with
+`xi in {0,1,2}` and
+`pairing in {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14}`. No parallel-`DE`
+matching remains. The `xi=3,pairing in {0,1,2}` routes are now proved by
+the three-branch reciprocal-square and reciprocal-linear theorems, raising
+the paid cell-3 ledger to 768 cases. The opposite-DE parity theorem pays
+`xi=3,pairing in {3,6}`, and the two fully mixed theorems pay
+`xi=3,pairing in {7,8,10,11,13,14}`. The final parity-`x` theorem pays
+`xi=3,pairing in {4,5,9,12}`, raising the ledger to 960 cases and completing
+the `xi=3` slice. The source-only endpoint-compatibility theorem pays all 240
+cases at `xi=6`, raising the ledger to 1200. Every pairing at `xi=4` remains.
+At `xi=5`, exact source compatibility leaves 24 source points across the four
+source signs, and the dual finite-source elimination theorem excludes every
+matching and lane over those points. The ledger is therefore 1440, with only
+the 240 cases at `xi=4` remaining.
 
 ```text
 b^2 = -(B_epsilon/A_epsilon)b - 1,
@@ -12,16 +23,25 @@ c = -C_epsilon/D_epsilon.
 ```
 
 Retain every element in the basis `{1,t,t^2,b,bt,bt^2}`.  The successful
-pairing-3 through pairing-5 routes used FLINT-backed rational functions, direct
+pairing-3 through pairing-14 routes used FLINT-backed rational functions, direct
 and tower norm cross-checks, and direct lifts of every norm and intermediate
 exceptional root.  Pairing 5 established that the target-label exchange
 maps cell 3 to cell 6; do not use it as a within-cell transport.
 
-The direct `xi=3,pairing=0` colored/missing-sum quartic resultant already
-exceeded the 300-second cap in both Sylvester and Euclidean forms, so that
-branch still needs a lower elimination degree or shared-`f` structure.
+At `xi=3,pairing=0`, factoring `paired(q,q)` and setting `y=1/d^2`
+replaced the timed-out colored/missing-sum quartic resultant by two
+quadratics. Pairings 1 and 2 reused the three `q` branches and reduced their
+even quartic in `z=1/d` modulo the remaining quadratic paired cut. Both
+routes are now exact proved exclusions. The opposite-sign equation is an
+even quartic in `q`; parity descent closes pairings 3 and 6. Fully mixed
+pairings 11 and 14 use a linear-`z` compatibility cut; pairings 7, 8, 10, and
+13 use a quadratic-`q` resultant reduced modulo the monic missing-`f`
+quartic. Pairings 4, 5, 9, and 12 use a parity-`x` resultant followed by the
+same monic reduction; this replaces the earlier compiler that exceeded the
+300-second row cap.
 
 Do not return to the monolithic six-variable SymPy expansion or Singular at
 the deployed characteristic.  Do not call a quadratic relation a
-parametrization, and do not infer complete cell-3 closure from the six paid
-parallel-`DE` matching indices.
+parametrization, and do not infer complete cell-3 closure from the fully paid
+parallel-`DE` matching block, the fully paid `xi=3` slice, or the source-only
+`xi=6` exclusion.

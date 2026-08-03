@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 830,
+  "node": {
+    "id": "xr_highcore_collision_line_basis_ledger",
+    "title": "High-core collision-line basis ledger",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/xr_highcore_collision_line_basis_ledger/statement.md",
+      "background/nodes/xr_highcore_collision_line_basis_ledger/proof.md",
+      "background/nodes/xr_highcore_collision_line_basis_ledger/verify.py",
+      "background/nodes/xr_highcore_collision_line_basis_ledger/result.md"
+    ],
+    "statement": "For a syndrome-line error family of affine rank s, every size-k collision line has core-restriction rank s-1. If b_ell counts its independent (s-1)-minors, then sum_ell b_ell<=C(n,s-1), while each line contains at most floor((n-k)/(A-k)) errors. A minimum-basis line with b_*=b puts the whole affine family in a fixed chart of excess at most b+s-2 and self-localizes the line ledger to |P_hi|<=L floor(C(min(n,R+b+s-2),s-1)/b). This closes rank four on RowC 1/4 and prize 1/4,1/8 before the cogirth handoff."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 1392
+    }
+  ],
+  "refutes": []
+}

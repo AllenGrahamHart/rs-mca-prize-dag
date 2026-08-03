@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 765,
+  "node": {
+    "id": "ww_paid_residual_partition_adapter",
+    "title": "W3 paid/residual first-match partition adapter",
+    "status": "PROVED",
+    "statement": "For any received word and any ordered paid predicates, the first-match guards plus the residual complement form an exhaustive disjoint partition of its list words. Sound paid upper allocations u_i and residual-cell allocations b_c therefore give |X(U)| <= sum_i u_i + sum_c b_c; with B_chal=B*-sum_i u_i, the W3 residual inequality implies |X(U)|<=B*. This closes only abstract ownership and additive composition, not the paid formulas or residual envelope.",
+    "refs": [
+      "background/nodes/ww_paid_residual_partition_adapter/proof.md",
+      "background/nodes/ww_paid_residual_partition_adapter/audit.md"
+    ],
+    "closure": "proof"
+  },
+  "requires": [
+    {
+      "from": "stratification_partition_thm",
+      "order": 794
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "ww_row_envelope_clause",
+      "order": 795
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 780,
+  "node": {
+    "id": "f3_active_core_width_cap",
+    "status": "CONJECTURE",
+    "statement": "F3 ACTIVE-CORE WIDTH CAP (the named band lemma; minted 2026-07-10 from the band derivation resolving catch #38): at official rows, every fully-stripped primitive active core has width h <= H*(row) for some H* small enough to enumerate (heuristic target: the first-moment vacancy curve H_vac(row) = min{h : h!^2 > n^2/2} = 8 at s=13 rising to 16 at s=41 \u2014 but any proof must beat the structured norm-gate counterexample class, e.g. A_8 = 976 at F1153/mu32 q = 1.13n^2, which the Poisson model does not survive; full-corridor quantifier per finding F-1). EQUIVALENTLY SUFFICIENT: a proved per-h cap T_h <= C_h n^2 with Sigma_h C_h <= n at every row. ABSENT EITHER: the uniform-in-h gate shape is FORCED for u1_x4 (the F-3 ledger leaves ~1n^2 average per stratum at the binding row; 4093 strata cannot be separately certified; two ACT(4096)-grade strata already bust n^3). PROVED OUTER PIN (context): the obligation band is 2 <= h <= min(A(row), floor(n/2)), A = k+t \u2014 star_pte_support_bound (t < h <= A, both edges realized), star-PTE injectivity, core-suborder; h_window_derivation adjudicated H_max := A once already. FALSIFIER of the cap at the vacancy target: a certified fully-stripped primitive active core of width > H_vac(row) at any official row, p >= n^2 (the SP-CENSUS-2 class is where to look). Interaction pin F-4: resolve with the minimal-trade scope pin together. || CATCH #95 CORRECTION (2026-07-12, dichotomy replay \u2014 MAJOR, outlook-improving): the 'structured norm-gate counterexample class (A_8 = 976 at F1153/mu32)' cited above is a CURRENCY MISLABEL \u2014 exhaustive ground truth at that row (sharded C(32,8) = 10.5M census): the minimal-currency count A_8^nt = 0; the 976 is anchored ordered uncharged BAND (t=3) pairs (e_1..e_3 only \u2014 pre-decomposition supply, X-10 territory; reproduced exactly under both anchoring conventions). The only claimed in-range h >= 4 minimal-currency violator of the first-moment vacancy model DISSOLVES: the vacancy-curve target H_vac(row) = 8..16 has no known counterexample in the correct currency. RECLASS-976: resolved."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u1_x4_direct_column_budget",
+      "order": 1316
+    },
+    {
+      "to": "f3_hge4_aggregate_budget",
+      "order": 1321
+    }
+  ],
+  "refutes": []
+}

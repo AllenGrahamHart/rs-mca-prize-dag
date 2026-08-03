@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 673,
+  "node": {
+    "id": "e22_minimal_scale_overlap_counts",
+    "title": "E22 minimal-scale overlap count formulas",
+    "status": "PROVED",
+    "statement": "For each dyadic pair of scales M_i<M_j, compute exactly the number of support classes whose minimal admissible scale is M_i and which are also counted by the raw quotient staircase summand at M_j. This is reduced to the proved nested-fiber residual identity and the remaining exact residual-profile formula, including all declared duplicate or multiplicity factors used by dyadic_profile_evaluation.",
+    "attack_surface": "assembly from the nested-fiber residual identity and the remaining exact residual-profile formulas",
+    "falsifier": "a smaller-minimal-scale class contributing to a larger raw scale with an unaccounted or wrongly weighted overlap",
+    "notes": "FIFTH-BRANCH REPLAY (2026-07-10): REPLAY-CLEAN as WEIGHT-PARAMETRIC identities (fresh verifiers, exhaustive n=8/16 + sampled n=32 ground truth, mutation controls; suites banked at critical/nodes/petal_growth/notes/g3_replay_20260710/). CATCH #44: the prior REPLAY-PENDING note undercounted \u2014 THREE nodes have verifiers (selector, tail_criterion, partition), not one. SCOPE CAVEAT (catch #47): the four pricing statements (pricing_compatibility, column_evaluation, count_formula, cross_scale head) reference a 'declared multiplicity' that is declared nowhere and is UNFILLABLE by any per-scale constant or integer weight (exact ratios 8/5, 640/3 vs dyadic_profile_evaluation) \u2014 their PROVED labels certify the parametric identities only; the instantiated readings need the catch-#47 re-pose. Does NOT discharge petal_g3_pricing_multiplicity (see that node). Still ev-only; do not req-wire."
+  },
+  "requires": [
+    {
+      "from": "dyadic_profile_evaluation",
+      "order": 1008
+    },
+    {
+      "from": "e22_minimal_scale_partition",
+      "order": 1009
+    },
+    {
+      "from": "e22_overlap_nested_fiber_residual_identity",
+      "order": 1011
+    },
+    {
+      "from": "e22_overlap_residual_profile_formula",
+      "order": 1033
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1154
+    }
+  ],
+  "refutes": []
+}

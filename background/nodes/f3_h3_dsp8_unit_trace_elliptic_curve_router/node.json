@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1212,
+  "node": {
+    "id": "f3_h3_dsp8_unit_trace_elliptic_curve_router",
+    "title": "DSP8 unit-trace elliptic-curve router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The unit-product trace fiber is the plane cubic X^2Y+XY^2-sigma XYZ+Z^3=0. In characteristic different from 2,3 it is a smooth geometrically irreducible genus-one curve when sigma^3!=27 and a one-node genus-zero curve when sigma^3=27. Raw ordered point-pair records have exact multiplicity G_25^c=4K_25^c=J_25^c, so DSP8 is a quotient-weighted subgroup point-pair estimate on this mostly elliptic family. The upstream same-(e1,e2) rational-conic chart does not parameterize this same-(e1,e3) residue.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_unit_trace_elliptic_curve_router/statement.md",
+      "background/nodes/f3_h3_dsp8_unit_trace_elliptic_curve_router/proof.md",
+      "background/nodes/f3_h3_dsp8_unit_trace_elliptic_curve_router/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_unit_trace_elliptic_curve_router/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_unit_trace_elliptic_curve_router/audit.md",
+      "background/nodes/f3_h3_dsp8_unit_trace_elliptic_curve_router/result.md",
+      "background/nodes/f3_h3_dsp8_unit_trace_elliptic_curve_router/verify.py",
+      "background/nodes/f3_h3_dsp8_unit_trace_elliptic_curve_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_dsp8_unit_product_trace_normal_form",
+      "order": 2023
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

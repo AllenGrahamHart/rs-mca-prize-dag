@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 26,
+  "node": {
+    "id": "e1_n256_s16_high_variance_collision_exclusion",
+    "title": "N=256 square-mass-16 high-variance collision exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_high_variance_collision_exclusion/statement.md",
+      "background/nodes/e1_n256_s16_high_variance_collision_exclusion/proof.md",
+      "background/nodes/e1_n256_s16_high_variance_collision_exclusion/claim_contract.md",
+      "background/nodes/e1_n256_s16_high_variance_collision_exclusion/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_high_variance_collision_exclusion/audit.md",
+      "background/nodes/e1_n256_s16_high_variance_collision_exclusion/result.md",
+      "background/nodes/e1_n256_s16_high_variance_collision_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_high_variance_collision_exclusion/verify.py"
+    ],
+    "statement": "For profile (3,4,0) at N=256,s=5, the conjugate-square mean is 16, the maximum is 100, and the exact negacyclic autocorrelation variance V is even. If V=0 the norm is the pure power 2^256. If V>=136, an exact logarithmic majorant log x<=log16+(x-16)/16-(x-16)^2/2070 gives |Norm(alpha)|<2^250. Hence any unresolved collision in this profile has positive even V<=134.",
+    "notes": "ROUTE REDUCTION 2026-07-27: removes the zero- and high-variance portions of one first-band N=256 profile. The bounded low-variance residual, profile (4,2,0), later bands, and total ledger remain open."
+  },
+  "requires": [
+    {
+      "from": "e1_prime_field_l2_norm_collision_radius",
+      "order": 240
+    },
+    {
+      "from": "collision_norm_criterion",
+      "order": 241
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 375
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 376
+    }
+  ],
+  "refutes": []
+}

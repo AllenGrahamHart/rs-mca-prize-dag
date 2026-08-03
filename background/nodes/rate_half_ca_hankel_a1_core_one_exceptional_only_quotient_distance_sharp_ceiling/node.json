@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1170,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling",
+    "title": "A=1 exceptional quotient-distance sharp ceiling",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The exceptional high quotient distance is at most 3(e+1)/2-1=412316860415. At equality the ordinary complement and exceptional-intersection sizes lie in exactly two printed near-constant profiles.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_sharp_ceiling/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_minimal_support_packing",
+      "order": 2382
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_distance_ceiling",
+      "order": 2383
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2384
+    }
+  ],
+  "refutes": []
+}

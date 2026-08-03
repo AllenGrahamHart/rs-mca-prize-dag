@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1173,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_first_jet_transversality",
+    "title": "A=1 exceptional quotient clean-fiber first-jet transversality",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At every ordinary supported slope, each selected domain root of the exceptional-only corrected square is transverse in the parameter direction. Writing N_sq=n_X+r-1, differentiation and the unit equation give F_t U W_vee=-P_cl' E Y^N_sq. On the order-M smooth domain the exact velocity is dot(y)=-(P_cl' E/M)y^(r-2)(1-sy)(1-x_0y)/W_vee. This first-jet weight is additional to the endpoint resultant multiplicities.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_first_jet_transversality/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_first_jet_transversality/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_first_jet_transversality/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_first_jet_transversality/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_first_jet_transversality/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_first_jet_transversality/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_quotient_clean_fiber_first_jet_transversality/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_full_reciprocal_square_descent",
+      "order": 2391
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_two_sided_resultant_saturation",
+      "order": 2392
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_active_core_two_sided_partition",
+      "order": 2393
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2394
+    }
+  ],
+  "refutes": []
+}

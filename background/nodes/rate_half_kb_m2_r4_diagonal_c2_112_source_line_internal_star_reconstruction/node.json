@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1367,
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+    "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) source-line internal-star reconstruction",
+    "status": "PROVED",
+    "closure": "injective two-fiber reconstruction reducing every classified source-line packet to at most eight source-deck candidate pairs",
+    "statement": "For every saturated source-line diagonal (1,1,2) packet, evaluation at the internal common-K label is injective on the forced-square reciprocal U space. It is a 3-by-3 isomorphism in the positive sign and a two-plane embedding in the negative sign. The pinned odd part and a compatible internal pure-edge pair determine the target U value, so each sign yields at most one source form modulo deck conjugation. Each classified pure multiset has at most four internal assignments, hence at most eight source-deck candidate pairs and no continuous coefficient family.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
+      "order": 4685
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
+      "order": 4686
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 4687
+    }
+  ],
+  "refutes": []
+}

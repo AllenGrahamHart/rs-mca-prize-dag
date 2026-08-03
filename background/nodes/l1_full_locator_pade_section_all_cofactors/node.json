@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 542,
+  "node": {
+    "id": "l1_full_locator_pade_section_all_cofactors",
+    "title": "L1 full-locator Pade section for all cofactor degrees",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every exact shell degree, put w=a-k, e=deg(U)-a, and d=e+w with no restriction on e. For a full reversed monic locator Lhat, deg(U-LQ)<k is equivalent to the w quotient coefficients [T^(e+1..e+w)] Uhat/Lhat vanishing; the first e+1 quotient coefficients recover Q. Exact shells are exactly the split locators in this full-locator Pade section whose recovered cofactors satisfy the complement gcd guard. If e<k, the section is the prefix Pade graph times F^(k-e) and has exactly q^k ambient locator points. If e>=k, the same section remains exact as the reciprocal continues past locator degree a, but no cardinality, codimension, transversality, or row-sharp bound is asserted.",
+    "refs": [
+      "background/nodes/l1_full_locator_pade_section_all_cofactors/statement.md",
+      "background/nodes/l1_full_locator_pade_section_all_cofactors/proof.md",
+      "background/nodes/l1_full_locator_pade_section_all_cofactors/claim_contract.md",
+      "background/nodes/l1_full_locator_pade_section_all_cofactors/dependency_subdag.md",
+      "background/nodes/l1_full_locator_pade_section_all_cofactors/audit.md",
+      "background/nodes/l1_full_locator_pade_section_all_cofactors/lineage.md",
+      "background/nodes/l1_full_locator_pade_section_all_cofactors/upstream_crosswalk.md",
+      "background/nodes/l1_full_locator_pade_section_all_cofactors/verify.py",
+      "background/nodes/l1_full_locator_pade_section_all_cofactors/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_cofactor_prefix_pade_graph_normal_form",
+      "order": 2915
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2916
+    }
+  ],
+  "refutes": []
+}

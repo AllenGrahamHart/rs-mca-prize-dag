@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1322,
+  "node": {
+    "id": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse",
+    "title": "Budget-three fiber-two c=2 reciprocal selected-antipodal affine shard is empty",
+    "status": "PROVED",
+    "closure": "proof plus exact arithmetic certificate",
+    "statement": "On the maximal-degree selected-antipodal collision shard in the reciprocal quadratic-field chamber, Frobenius collapses the three-affine-image subgroup intersection to y=(7+4a)/9 and r=(2a-1)/3. Membership is equivalent to one forty-squaring base-field trace test. A registered 16-shard screen covered all 4,495,442 official progression moduli, including composites, with no hit, so this reciprocal shard is empty.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse/statement.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse/proof.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse/audit.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse/result.md",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse/verify.py",
+      "background/nodes/rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse/verify_audit.py",
+      "experiments/prize_resolution/rate_half_list_c2_reciprocal_affine_torsion_modal.py",
+      "experiments/prize_resolution/rate_half_list_c2_reciprocal_affine_torsion_result.json",
+      "experiments/prize_resolution/rate_half_list_c2_reciprocal_affine_torsion_result.md",
+      "experiments/prize_resolution/rate_half_list_c2_reciprocal_affine_torsion_check.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router",
+      "order": 2831
+    },
+    {
+      "from": "rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router",
+      "order": 2832
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 2833
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1590,
+  "node": {
+    "id": "xr_mismatch_global_explanation_list_owner",
+    "title": "XR mismatch terminal tangents have global pair-list owners",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_mismatch_global_explanation_list_owner/statement.md",
+      "background/nodes/xr_mismatch_global_explanation_list_owner/proof.md",
+      "background/nodes/xr_mismatch_global_explanation_list_owner/claim_contract.md",
+      "background/nodes/xr_mismatch_global_explanation_list_owner/dependency_subdag.md",
+      "background/nodes/xr_mismatch_global_explanation_list_owner/verify.py",
+      "background/nodes/xr_mismatch_global_explanation_list_owner/verify_audit.py",
+      "background/nodes/xr_mismatch_global_explanation_list_owner/audit.md",
+      "background/nodes/xr_mismatch_global_explanation_list_owner/result.md"
+    ],
+    "statement": "Every terminal genuine-tangent mismatch slope is owned once by one distinct nonroot original common-support codeword-pair explanation. A fixed pair owns at most n-A slopes, so the whole tangent currency is at most (n-A)(E-1), independent of descent depth and locator-flag multiplicity. The two-fold interleaving theorem bounds E by the ordinary worst list. Generic terminal charts and the required ordinary-list estimate remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_mismatch_accumulated_locator_flag_normal_form",
+      "order": 3739
+    },
+    {
+      "from": "xr_true_tangent_coordinate_injection",
+      "order": 3740
+    },
+    {
+      "from": "list_subsqrt_interleaving_collapse",
+      "order": 3741
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_tangent_support_mismatch_bridge",
+      "order": 3742
+    }
+  ],
+  "refutes": []
+}

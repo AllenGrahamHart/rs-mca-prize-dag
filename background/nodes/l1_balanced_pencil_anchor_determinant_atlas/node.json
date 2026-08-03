@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 847,
+  "node": {
+    "id": "l1_balanced_pencil_anchor_determinant_atlas",
+    "title": "L1 balanced-pencil anchor determinant atlas",
+    "status": "PROVED",
+    "closure": "exact interpolation-module determinant identity and root-matroid basis packing",
+    "refs": [
+      "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/statement.md",
+      "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/proof.md",
+      "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/claim_contract.md",
+      "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/dependency_subdag.md",
+      "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/audit.md",
+      "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/result.md",
+      "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/frontier.md",
+      "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/lineage.md",
+      "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/upstream_crosswalk.md",
+      "background/nodes/l1_balanced_pencil_anchor_determinant_atlas/verify.py"
+    ],
+    "statement": "For one exact anchor in a balanced interpolation-module split pencil, the coefficient determinant Delta_0=A_0B-B_0A is an affine coordinate on the complete monic coefficient body. A Bezout-dual vector gives W(P-P_0)=gamma Delta_0L_0 and W=Delta_0J mod W_0 with gcd(J,W_0)=1. If Delta_0J=Q_Delta W_0+R_Delta, the complete exact shell is exactly the primitive split graph W_Delta=W_0+R_Delta, W_Delta|Omega, gcd(Delta_0,1-Q_Delta)=1. Every common-complement owner is one gcd stratum of this family. At deficiency j and fixed owner, the neighbor locators lie in projective dimension at most j+1 and obey both the root-matroid ceiling |C_D|<=floor(C(m,r)/(w+j-r+2)) and the rank-free local Johnson ceiling |C_D|<=floor(C(m,j+1)/C(w+1+j,j+1)). The j=0 stratum is the one-parameter moving-root pencil. A row-sharp count or typed Q transport remains open.",
+    "notes": "EXACT L1/BC BRIDGE 2026-07-29. This pays fixed common-complement charts and removes coefficient multiplicity, but supplies no global owner coalescence, finite-row reserve fit, or L1 promotion."
+  },
+  "requires": [
+    {
+      "from": "l1_exact_shell_balanced_shifted_lattice_reduction",
+      "order": 2943
+    },
+    {
+      "from": "l1_split_pencil_content_exact_shell_descent",
+      "order": 2944
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2945
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 364,
+  "node": {
+    "id": "pma_wide_residual",
+    "title": "PMA stage 3 (the residue): many-petal, sub-Johnson regime with CORRELATED targets",
+    "status": "REFUTED",
+    "key": true,
+    "statement": "RESTATED after the pullback counterexample (verified): split L(D) = L_quot u L_lowdef u L_prim. The quotient-pullback stratum is REAL and exponential-in-M (pma_pullback_lists) \u2014 charged to the quotient-profile budget (M = O(log n) at the cutoff => poly-but-budgeted). The low-defect stratum is covered by the fixed-excess machinery. The corrected target: THE PRIMITIVE RESIDUAL \u2014 non-pullback, non-low-defect wide sub-Johnson lists are polynomial. The third appearance of strip-quotient-first (after XR's E2 caveat and F's scale recursion). || REFUTED (wave-8 audited import, 2026-07-16; both readings die): (i) master's polynomial-primitive-residual reading falls to pma_sigma_one_variable_defect_exact_hit_floor -- an EXPONENTIAL primitive wide-sub-Johnson residual at sigma=1 on poly-field rows (Linnik/Xylouris-based family; non-pullback, d=n/8 not low-defect, inside the wide regime d^2 <= d|T|); (ii) the sharpened finite n^6 Post allocation falls to pma_sigma_one_d4_generic_source_obstruction (exact first moment 2^104 > n^6 = 2^97 at (65537^2, 65536, 32768), integer-verified, escapes all three owners). Folder banked from the v4 pin with master's original statement preserved. The refutations sit OUTSIDE imgfib's entropy reserve (audited guard (b)) -- imgfib remains viable CONDITIONAL.",
+    "attack_surface": "two independent angles: (a) correlated-target strengthening of GS (the c_i are scalars times a COMMON L_D \u2014 one-dimensional target space per petal); (b) descent: extras of the auxiliary problem are degree-d objects \u2014 the SAME problem at (k, sigma) -> (d+1, ...), strictly smaller; iterate until Johnson-safe. Q2.9 fixed-excess data calibrates both.",
+    "falsifier": "an adversarial many-petal family (R3 attack) with super-poly auxiliary list",
+    "refs": [
+      "experimental/notes/l1/l1_full_list_quotient_proof_program.md",
+      "background/nodes/pma_wide_residual/statement.md",
+      "background/nodes/pma_wide_residual/refutation.md"
+    ],
+    "notes": "E4 (PR #186): exact toy window F_109 l=3 d=5 \u2014 Johnson-covered rows empty, wide rows nonempty but tame (M=12: 2023 aux polys, max agreement 11). NO_SUPERPOLY_SIGNAL. Prior up mildly; window small. | AMBER STRESS 2026-07-06: pma_correlated_target_search.py varied defect locators and scalar patterns; constant scalar controls gave the single full-agreement locator target, exact nonconstant M=6/M=9 profiles stayed small (max exact threshold count 176), sampled M=12 profiles estimated about 3.3e4-3.9e4 threshold candidates with no high-agreement runaway."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_mixed_amplification",
+      "order": 584
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1121,
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_generic_schur_defect_trigonal_fiber_classification",
+    "title": "Rate-half distance-three generic Schur-defect trigonal-fiber classification",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the rank-three pair-locator branch, let V=span{A,B A/D_i}. The exact defect (3e+1)-dim(VV) equals the dimension of the linear solution space of D_i | R-y_iB with deg R<=2, and that solution space has dimension at most one. Thus the generic quadratic rank is exactly 3e+1 or 3e; in the latter case all but at most one pair lie in distinct fibers of one projectively unique recovered degree-three rational map B/R. On official active rows, dim(VV) is exactly the quadratic locator-matrix rank.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_generic_schur_defect_trigonal_fiber_classification/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_generic_schur_defect_trigonal_fiber_classification/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_generic_schur_defect_trigonal_fiber_classification/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_generic_schur_defect_trigonal_fiber_classification/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_generic_schur_defect_trigonal_fiber_classification/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_generic_schur_defect_trigonal_fiber_classification/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_generic_schur_defect_trigonal_fiber_classification/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_quadratic_locator_rank_gate",
+      "order": 2253
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_exceptional_only_distance_three_pair_locator_mobius_dichotomy",
+      "order": 2254
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 2255
+    }
+  ],
+  "refutes": []
+}

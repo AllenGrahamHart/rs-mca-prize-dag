@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 692,
+  "node": {
+    "id": "q_cofactor_normal_form",
+    "title": "Quotient-cofactor normal form (SHARED TERMINAL: e22 + petal)",
+    "status": "PROVED",
+    "statement": "For D=mu_n, M|n, char\u2224n: f(eta x)=eta^e f(x) for all eta in mu_M IFF f=X^e G(X^M) (isotypic projector Pi_{M,e}), and off a bounded tail the retained root set is a union of full x->x^M fibers with locator prod_z(X^M - z). This is the shared terminal consumed by BOTH the e22 factor manifest and the petal paid-quotient ledger. NOTE: the NAIVE sharing (dimension/quotient-compatible-constraints alone => scalar pullback) is REFUTED (verified counterexample P(X^M)(A(X^M)+X^r B(X^M)): full-fiber divisible, support in 2 classes). Character selection needs SOURCE data \u2014 so e22 (pointwise covariance E22-COV) and petal (family chargeability P5-CL) stay SEPARATE upstream leaves.",
+    "attack_surface": "proved via mu_M isotypic projectors + full-fiber factorization (char\u2224n).",
+    "falsifier": "a mu_M-character-component polynomial that is not X^e G(X^M), or a covariant retained root set that is not a fiber union.",
+    "notes": "PROVED (Pro T2, verified F_37). Shared TERMINAL of e22+petal; the sources do NOT merge (naive sharing refuted). Mild generalization of kernel_invariance_full_fiber_criterion to twist e!=0. | 2nd T2 pass CONFIRMS the split (T2a=this, T2b=e22_mixed_petal_covariance, T2c=petal_cofactor_chargeability). 2nd counterexample (affine family A_c={1+X+sum a_k X^k}: dim c-1 grows but support in classes 0,1 mod M => never a pullback, VERIFIED) reinforces that dimension-excess alone forces nothing on the P5 side."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1171
+    }
+  ],
+  "refutes": []
+}

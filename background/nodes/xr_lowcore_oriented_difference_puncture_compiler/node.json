@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1326,
+  "node": {
+    "id": "xr_lowcore_oriented_difference_puncture_compiler",
+    "title": "XR low-core oriented-difference puncture compiler",
+    "status": "PROVED",
+    "closure": "proof plus exact locator-factor verifier",
+    "statement": "Fix a repeated oriented support difference (X,Y) of width h+1<=t<=K-1 in a globally generic P-B family. Factoring the full locator of X turns its residual common supports into a globally generic low-core RS-line instance on D minus (X union Y), with parameters (N-2t,K-t,A-t) and unchanged excess h; the Y-side gives a simultaneous second instance. The reduced affine error rank is at most K-t+1, so the all-LineRay bound gives fiber size at most C(K-t+1+N-A-t,K-t+1). The boundary widths t=K-1,K-2 cost less than n^3 per fixed difference at every official row. No difference-type aggregate, CAP25 local locator-SPI bound, or P-B slope count is claimed.",
+    "refs": [
+      "background/nodes/xr_lowcore_oriented_difference_puncture_compiler/statement.md",
+      "background/nodes/xr_lowcore_oriented_difference_puncture_compiler/proof.md",
+      "background/nodes/xr_lowcore_oriented_difference_puncture_compiler/claim_contract.md",
+      "background/nodes/xr_lowcore_oriented_difference_puncture_compiler/dependency_subdag.md",
+      "background/nodes/xr_lowcore_oriented_difference_puncture_compiler/audit.md",
+      "background/nodes/xr_lowcore_oriented_difference_puncture_compiler/result.md",
+      "background/nodes/xr_lowcore_oriented_difference_puncture_compiler/verify.py",
+      "background/nodes/xr_lowcore_oriented_difference_puncture_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_lowcore_shift_pair_terminal_fiber_bound",
+      "order": 2966
+    },
+    {
+      "from": "xr_all_lineray_affine_core_bound",
+      "order": 2967
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 2968
+    }
+  ],
+  "refutes": []
+}

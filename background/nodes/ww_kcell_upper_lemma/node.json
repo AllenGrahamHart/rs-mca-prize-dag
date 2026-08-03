@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 770,
+  "node": {
+    "id": "ww_kcell_upper_lemma",
+    "status": "WALL",
+    "statement": "K_CELL CERTIFICATE (W1). For every official row, a machine-checkable symbolic rank certificate for the codim-sigma coincidence system giving K-hat(row) >= sup over the row's cells/layouts of K_cell, with K-hat exact-arithmetic replayable and K-hat/|B|^sigma within the row's challenger-column allowance under the operative #493 branch. The consumer's word 'certified' is discharged HERE and nowhere else. No stratification needed: K_cell is proved equal across base-valued/generic strata (f7_beta_check, 24/24 census). Falsifier: an official cell with K_cell > K-hat, or a certificate replay failure. || QUALITY CERT (2026-07-10, red-quality program): background/nodes/worst_word_challenger_pricing/notes/QUALITY_ww_kcell_upper_lemma.md || RETIRED -> WALL (2026-07-12, Codex 8d1c28c, audit-confirmed; catch #76): NOT TRUTH-APT AS POSED \u2014 neither K_cell nor its coincidence matrix is DEFINED anywhere in the repo (master + archive + worktree greps, independently confirmed); the only executable object was the proxy challenger_count*q^sigma, computed AFTER enumerating the very count the certificate was to bound \u2014 circular. The certificate obligation is ABSORBED into the re-posed W3 (ww_row_envelope_clause, direct form, repair R2: the consumer's 'certified' discharges there). Master's own quality certificate carried the unsupported 'machinery exists' label \u2014 catch #76, the eighth instance of the shape. Folder: background/nodes/ww_kcell_upper_lemma/."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1295
+    }
+  ],
+  "refutes": []
+}

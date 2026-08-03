@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 0,
+  "node": {
+    "id": "prize",
+    "title": "Proximity Prize resolved",
+    "status": "CONDITIONAL",
+    "gate": "all",
+    "key": true,
+    "refs": [
+      "proof_sketch/prize_proof_sketch_spine.md#1"
+    ],
+    "statement": "Both grand challenges resolved per the official statement, packaged per the rules (partials creditable).",
+    "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/prize/conditional.md."
+  },
+  "requires": [
+    {
+      "from": "mca_grand",
+      "order": 0
+    },
+    {
+      "from": "list_grand",
+      "order": 1
+    },
+    {
+      "from": "packaging",
+      "order": 2
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

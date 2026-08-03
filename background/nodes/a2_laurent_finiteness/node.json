@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 488,
+  "node": {
+    "id": "a2_laurent_finiteness",
+    "title": "(A2): Laurent's theorem gives the n-UNIFORM char-0 count",
+    "status": "PROVABLE",
+    "key": true,
+    "statement": "By Laurent's theorem (Lang's conjecture for tori, PROVED classical mathematics), the torsion points of W_h lie in finitely many torsion cosets contained in W_h. Contained torus cosets = the toral components = the fiber loci (X24/x83 geometrically). Hence char-0 non-fiber trades number <= C(h), UNIFORMLY IN n. Subsumes X24's classification and explains every empty sweep. NEEDS: the citation verification + an effective version (Evertse / Beukers-Smyth / Aliev-Smyth lineage) for explicit C(h) at h <= ~40. [CITATION NEEDED - stated from memory]",
+    "attack_surface": "literature verification task (GPT-Pro-shaped: pull the effective-Laurent papers, extract the bound's shape in deg(W_h) and height)",
+    "falsifier": "char-0 non-fiber trades growing with n at fixed h (the sweeps say no)",
+    "refs": [
+      "experimental/notes/roadmaps/x24_char0_dyadic_descent.md"
+    ],
+    "notes": "DEMOTED req -> ev per the assembly's G2: at fixed n, X24 alone classifies the char-0 set (empty at window sizes) \u2014 Laurent is packaging for the n-uniform story, not load-bearing for closure."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1080
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1012,
+  "node": {
+    "id": "rate_half_list_budget_three_antipodal_generic_deleted_pair_fourier_resultant_branch_collapse",
+    "title": "Budget-three antipodal generic deleted-pair Fourier-resultant branch collapse",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The flat signed root coloring and its primitive cyclotomic resultant exclude complete deleted-pair survivors in the official prime-field and nonsplit quadratic maximal-row branches. Only the split quadratic branch remains for this sublocus.",
+    "refs": [
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_fourier_resultant_branch_collapse/statement.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_fourier_resultant_branch_collapse/proof.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_fourier_resultant_branch_collapse/claim_contract.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_fourier_resultant_branch_collapse/dependency_subdag.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_fourier_resultant_branch_collapse/audit.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_fourier_resultant_branch_collapse/result.md",
+      "background/nodes/rate_half_list_budget_three_antipodal_generic_deleted_pair_fourier_resultant_branch_collapse/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_list_budget_three_antipodal_generic_deleted_pair_even_factorization",
+      "order": 1839
+    },
+    {
+      "from": "rate_half_list_budget_three_maximal_field_degree_collapse",
+      "order": 1840
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing",
+      "order": 1841
+    }
+  ],
+  "refutes": []
+}

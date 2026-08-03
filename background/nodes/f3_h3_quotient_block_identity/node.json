@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 791,
+  "node": {
+    "id": "f3_h3_quotient_block_identity",
+    "title": "H3 quotient multiplicities are coefficient-coset block sizes minus one",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/f3_h3_quotient_block_identity/proof.md",
+      "background/nodes/f3_h3_quotient_block_identity/verify.py"
+    ],
+    "statement": "For A=(1-H)\\{0} and nonidentity t, set u(t)=1/(1-t), v(t)=-t/(1-t), and partition F_p\\{0,1} by the HxH coefficient coset (u(t)H,v(t)H). If B is a block and t is in B, then the quotient multiplicity R(t)=#{(c,d) in A^2:d/c=t} equals |B|-1 and is constant on B. Consequently sum_B |B|(|B|-1)=(n-1)(n-2). Proof: coefficient points in a block are (u(t)h,v(t)k) on U+V=1; (h,k)=(1,1) is the unique zero/zero excluded pair, and every other point is exactly one valid shifted quotient representation. This is the exact quotient collision ledger consumed by the weighted C36' attack."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1328
+    }
+  ],
+  "refutes": []
+}

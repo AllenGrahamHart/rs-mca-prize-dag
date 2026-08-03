@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 223,
+  "node": {
+    "id": "johnson_gap",
+    "title": "Johnson graph exact gap lam0 - lam1 = n",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s3b_iii_2_displacement_spectral.md#3"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

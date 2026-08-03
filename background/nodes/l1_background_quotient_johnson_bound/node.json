@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1083,
+  "node": {
+    "id": "l1_background_quotient_johnson_bound",
+    "title": "L1 background-quotient Johnson bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For one source chart, defect degree, and exact h-point petal support X, put N=k-1, c=N-h, s=h-d, b=ell-g, and u=ell-s. Subtracting the degree-<h interpolant on X and dividing by L_X injects compatible codewords into degree-at-most-c polynomials on the b-point background that agree with one derived word in at least u positions. If u^2>bc, the Johnson bound gives at most b(u-c)/(u^2-bc)<=n^2 codewords, so all such cells are polynomial per chart at fixed petal polarity. The live balanced tail also satisfies (ell-a+c)^2<=(ell-g)c together with a^2/N<=c<=2a-ell-g. The exact F_17 equality cell (b,u,c)=(1,1,1) has two contributors, so strictness is load-bearing.",
+    "refs": [
+      "background/nodes/l1_background_quotient_johnson_bound/statement.md",
+      "background/nodes/l1_background_quotient_johnson_bound/proof.md",
+      "background/nodes/l1_background_quotient_johnson_bound/claim_contract.md",
+      "background/nodes/l1_background_quotient_johnson_bound/dependency_subdag.md",
+      "background/nodes/l1_background_quotient_johnson_bound/audit.md",
+      "background/nodes/l1_background_quotient_johnson_bound/verify.py",
+      "background/nodes/l1_background_quotient_johnson_bound/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_background_overlap_singleton_payment",
+      "order": 2134
+    },
+    {
+      "from": "l1_fixed_support_codeword_quotient_bound",
+      "order": 2135
+    },
+    {
+      "from": "pma_petal_pattern_root_pinning_ledger",
+      "order": 2136
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2137
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2138
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2139
+    }
+  ],
+  "refutes": []
+}

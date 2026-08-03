@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 471,
+  "node": {
+    "id": "u2_large_characteristic_lift",
+    "title": "PROVED (X-6): the characteristic-zero lifting theorem",
+    "status": "PROVED",
+    "statement": "If char(F_q) = p > max_{r <= t} C(b,r)^phi(n), then every b-subset of mu_n (2-power n) with e_1 = ... = e_t = 0 is a union of mu_M-cosets, M = 2^ceil(log2(t+1)) > t \u2014 quotient-staircase charged; if M does not divide b, no such block exists. UNIFORM IN b. Proof: mod-p vanishing lifts to characteristic zero above the norm bound; char-0 e_1 = 0 with 0/1 indicator forces Phi_n | P_B hence antipodal closure B = -B; locator descends to Q_1(X^2); iterate. Verified here. The threshold (~phi(n) log2 C(b,r) bits \u2014 thousands) is far above 2^128: correct but not the requested bound.",
+    "refs": [
+      "experimental/notes/roadmaps/f2_moment_trade_census.md"
+    ],
+    "notes": "PROVENANCE: GPT Pro X-6. The elegant core: antipodal descent \u2014 each moment level halves the domain; the 2-power structure does the rest."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1067
+    }
+  ],
+  "refutes": []
+}

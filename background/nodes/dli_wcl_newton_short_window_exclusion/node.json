@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 846,
+  "node": {
+    "id": "dli_wcl_newton_short_window_exclusion",
+    "title": "DLI odd-moment Newton cutoff excludes every WCL weight w<=2ell",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In characteristic zero or greater than w, a reduced signed relation satisfying the first ell odd-power equations cannot have weight w<=2ell. Newton identities kill every odd elementary symmetric coefficient: odd w contradicts the nonzero root product, while even w forces antipodal pairs forbidden by reduced support. On the actual tower every ell>=8 window is empty, ell=4 leaves only weight 9, and ell=2 leaves weights 5,6,7. Combined with the terminal ambient exclusions, WCL-ZONE has exactly six unresolved slots: (1,5),(1,6),(2,5),(2,6),(2,7),(4,9).",
+    "refs": [
+      "background/nodes/dli_wcl_newton_short_window_exclusion/statement.md",
+      "background/nodes/dli_wcl_newton_short_window_exclusion/proof.md",
+      "background/nodes/dli_wcl_newton_short_window_exclusion/verify.py",
+      "background/nodes/dli_wcl_ell2_weight4_newton_exclusion/statement.md",
+      "critical/nodes/dli_prime_weighted_large_block_support/DLI_CLOSE_PINNED.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_zone_coverage",
+      "order": 1413
+    }
+  ],
+  "refutes": []
+}

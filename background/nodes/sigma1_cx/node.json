@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 269,
+  "node": {
+    "id": "sigma1_cx",
+    "title": "sigma=1 extension counterexample (audited)",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s6_extension_lift.md#4"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f1_classification",
+      "order": 111
+    }
+  ],
+  "refutes": []
+}

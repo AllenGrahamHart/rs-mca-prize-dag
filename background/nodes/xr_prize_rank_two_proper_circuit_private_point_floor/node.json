@@ -1,0 +1,55 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1586,
+  "node": {
+    "id": "xr_prize_rank_two_proper_circuit_private_point_floor",
+    "title": "XR prize proper rank-two circuits have a private-point rank floor",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_prize_rank_two_proper_circuit_private_point_floor/statement.md",
+      "background/nodes/xr_prize_rank_two_proper_circuit_private_point_floor/proof.md",
+      "background/nodes/xr_prize_rank_two_proper_circuit_private_point_floor/claim_contract.md",
+      "background/nodes/xr_prize_rank_two_proper_circuit_private_point_floor/dependency_subdag.md",
+      "background/nodes/xr_prize_rank_two_proper_circuit_private_point_floor/verify.py",
+      "background/nodes/xr_prize_rank_two_proper_circuit_private_point_floor/verify_audit.py",
+      "background/nodes/xr_prize_rank_two_proper_circuit_private_point_floor/audit.md",
+      "background/nodes/xr_prize_rank_two_proper_circuit_private_point_floor/result.md"
+    ],
+    "statement": "For a proper four/five-block rank-two circuit in a prize-row minimal Maxwell core, the exact extension ledger lower-bounds multiplicity-one outside points by th+t(t-2)D-(2t-3)Z+2C+I. Minimal-core private-point control and the exact core-size caps then force affine ranks at least 11265488,9646193,2243389. Composing with the full-core rank floor excludes every rank-two trade below those three levels; trade rank at least three remains."
+  },
+  "requires": [
+    {
+      "from": "xr_rank_two_proper_circuit_defect_host_router",
+      "order": 3721
+    },
+    {
+      "from": "xr_rank_two_extension_family_collision_ledger",
+      "order": 3722
+    },
+    {
+      "from": "xr_higher_rank_uniform_split_pencil_reduction",
+      "order": 3723
+    },
+    {
+      "from": "xr_prize_primitive_rank_two_shell_band",
+      "order": 3724
+    },
+    {
+      "from": "xr_trade_circuit_arity_segre_atlas",
+      "order": 3725
+    },
+    {
+      "from": "xr_rank_two_fullcore_global_rank_floor",
+      "order": 3726
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3727
+    }
+  ],
+  "refutes": []
+}

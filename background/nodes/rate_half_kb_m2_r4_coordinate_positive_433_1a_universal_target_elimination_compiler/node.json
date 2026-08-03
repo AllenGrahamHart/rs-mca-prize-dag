@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1443,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler",
+    "title": "KoalaBear m2 r4 positive 433-1a universal target elimination compiler",
+    "status": "PROVED",
+    "closure": "exact four-binomial product and seven-row squared-sum elimination of all outside target representatives in every formal case",
+    "statement": "For every formal positive 433-1a outside case, four universal binomials are necessary and sufficient for the seven target products, with explicit reconstruction of d,e,f, and seven cleared equations give all target squared sums.  Relabeling this one system compiles all 267 target-gauge representatives and repairs the missing cross relation in the earlier triangle templates.  Source-system emptiness and route deletion remain open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_universal_target_elimination.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1a_universal_target_elimination_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient",
+      "order": 3186
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 3187
+    }
+  ],
+  "refutes": []
+}

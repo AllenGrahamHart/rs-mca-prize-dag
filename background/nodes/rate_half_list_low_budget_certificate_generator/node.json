@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 953,
+  "node": {
+    "id": "rate_half_list_low_budget_certificate_generator",
+    "title": "Low-budget rate-half list certificate generator",
+    "status": "PROVED",
+    "closure": "artifact semantics",
+    "statement": "The deterministic fail-closed generator maps an exact canonical rate-half row input with B*=floor(|F|/2^128) in {1,2} and an explicit LIST or INTERLEAVED_LIST selector to a self-contained prize-facing adjacent certificate. It records arity one or all positive common-support arities respectively, canonical descriptor and external preconditions, theorem provenance, proved ledgers, compiler input/output, safe agreement 3n/4, radius numerator n/4, and the unattained unsafe boundary n/4+1. Every unsupported rate, budget, object, or row shape is refused.",
+    "refs": [
+      "background/nodes/rate_half_list_low_budget_certificate_generator/statement.md",
+      "background/nodes/rate_half_list_low_budget_certificate_generator/proof.md",
+      "background/nodes/rate_half_list_low_budget_certificate_generator/claim_contract.md",
+      "background/nodes/rate_half_list_low_budget_certificate_generator/dependency_subdag.md",
+      "background/nodes/rate_half_list_low_budget_certificate_generator/audit.md",
+      "background/nodes/rate_half_list_low_budget_certificate_generator/result.md",
+      "background/nodes/rate_half_list_low_budget_certificate_generator/verify.py",
+      "background/nodes/rate_half_list_low_budget_certificate_generator/verify_audit.py",
+      "tools/rate_half_list_low_budget_certificate.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "compiler",
+      "order": 1731
+    },
+    {
+      "from": "rate_half_list_low_budget_exact_crossing",
+      "order": 1732
+    },
+    {
+      "from": "rate_half_list_low_budget_all_arity_crossing",
+      "order": 1733
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "list_grand",
+      "order": 1734
+    }
+  ],
+  "refutes": []
+}

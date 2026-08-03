@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1736,
+  "node": {
+    "id": "e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion",
+    "title": "E1 square-mass-18 cofactor-514 energy-eleven all-unit exclusion",
+    "status": "PROVED",
+    "closure": "dyadic relation recursion and cubic Hermite norm majorant",
+    "statement": "A dyadic recursion for symmetric zero-sum relations, restricted by exact local parity, gives M3<=384 for the all-unit energy-eleven profile. A global cubic Hermite majorant puts every such norm below the prize field floor. Ten magnitude profiles remain.",
+    "refs": [
+      "background/nodes/e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion/statement.md",
+      "background/nodes/e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion/proof.md",
+      "background/nodes/e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion/claim_contract.md",
+      "background/nodes/e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion/dependency_subdag.md",
+      "background/nodes/e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion/audit.md",
+      "background/nodes/e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion/result.md",
+      "background/nodes/e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion/frontier.md",
+      "background/nodes/e1_s18_m514_e11_all_unit_dyadic_cubic_exclusion/verify.py"
+    ],
+    "notes": "ANALYTIC REFINEMENT 2026-07-29: recursively pricing the even support closes energy eleven without lag enumeration. The five-ideal occupancy threshold remains open on ten rows at E=5,...,10."
+  },
+  "requires": [
+    {
+      "from": "e1_profile210_m514_parity_trace_cap",
+      "order": 4652
+    },
+    {
+      "from": "e1_prize_field_floor_even_norm_exclusion",
+      "order": 4653
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_profile018_m514_five_ideal_occupancy",
+      "order": 4654
+    },
+    {
+      "to": "e1_official_low_square_mass_pair_budget",
+      "order": 4655
+    }
+  ],
+  "refutes": []
+}

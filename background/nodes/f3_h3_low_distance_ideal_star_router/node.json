@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 993,
+  "node": {
+    "id": "f3_h3_low_distance_ideal_star_router",
+    "title": "H3 low-distance two-generator ideal-star router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every cutoff-18 rich shifted-product fiber contains a rooted pair of low-distance collisions with one common center among coefficient vectors of squared norm at most three. The row prime divides the norm of their normalized two-generator ideal, which divides the gcd of the two normalized principal norms. This strictly sharpens the fixed-order candidate union from single collision norms to ideal-star norms.",
+    "refs": [
+      "background/nodes/f3_h3_low_distance_ideal_star_router/statement.md",
+      "background/nodes/f3_h3_low_distance_ideal_star_router/proof.md",
+      "background/nodes/f3_h3_low_distance_ideal_star_router/claim_contract.md",
+      "background/nodes/f3_h3_low_distance_ideal_star_router/dependency_subdag.md",
+      "background/nodes/f3_h3_low_distance_ideal_star_router/audit.md",
+      "background/nodes/f3_h3_low_distance_ideal_star_router/result.md",
+      "background/nodes/f3_h3_low_distance_ideal_star_router/verify.py",
+      "background/nodes/f3_h3_low_distance_ideal_star_router/verify_audit.py",
+      "experiments/prize_resolution/h3_rich_norm_gcd_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_h3_rich_fiber_norm_cutoff",
+      "order": 1874
+    },
+    {
+      "from": "f3_h3_rich_fiber_ideal_batching",
+      "order": 1875
+    },
+    {
+      "from": "f3_h3_distance_two_collision_2primary_exclusion",
+      "order": 1880
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_mobius_excess_half",
+      "order": 1876
+    }
+  ],
+  "refutes": []
+}

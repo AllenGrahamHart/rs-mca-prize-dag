@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1219,
+  "node": {
+    "id": "f3_h3_dsp8_nodal_cube_preimage_envelope",
+    "title": "DSP8 nodal cube-preimage envelope",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "All singular-trace subgroup points combine into one affine intersection of the cube-preimage subgroup K={x:x^3 in H}, of order gcd(3,p-1)n. Applying the Mattarei affine-pair theorem to both this fiber and every twisted quotient fiber lowers the class-weighted raw nodal DSP8 contribution below 116n^2 when p=2 mod 3 and below 498n^2 when p=1 mod 3. Both fit the live allowance, leaving more than 1443n^2 in the three-root case; the smooth quotient-weighted correlation remains open.",
+    "refs": [
+      "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/statement.md",
+      "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/proof.md",
+      "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/claim_contract.md",
+      "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/dependency_subdag.md",
+      "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/audit.md",
+      "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/result.md",
+      "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/verify.py",
+      "background/nodes/f3_h3_dsp8_nodal_cube_preimage_envelope/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f3_affine_coset_pair_mattarei_bound",
+      "order": 2030
+    },
+    {
+      "from": "f3_h3_dsp8_nodal_trace_parameter_router",
+      "order": 2033
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f3_h3_dsp8_correlation_bound",
+      "order": 2034
+    }
+  ],
+  "refutes": []
+}

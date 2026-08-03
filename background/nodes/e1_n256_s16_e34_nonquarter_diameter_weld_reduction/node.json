@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 40,
+  "node": {
+    "id": "e1_n256_s16_e34_nonquarter_diameter_weld_reduction",
+    "title": "N=256 E=34 nonquarter-diameter weld reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/statement.md",
+      "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/proof.md",
+      "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/claim_contract.md",
+      "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/audit.md",
+      "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/result.md",
+      "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/source_pin.json",
+      "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/verify.py",
+      "background/nodes/e1_n256_s16_e34_nonquarter_diameter_weld_reduction/verify_audit.py"
+    ],
+    "statement": "Every residual N=256, folded-(3,4,0), V=68 nonquarter-diameter template has a unique normal form H={0,64,t}, 1<=t<=31. Its four light positions meet one of three common weld positions or contain both exceptional weld positions. This exact chamber has 915,125 supports per t and 1,815,608,000 normalized signed vectors; D_64=20 exactly when 64+t is light.",
+    "notes": "ROUTE REDUCTION 2026-07-27: converts the two forced singleton-class welds into one five-position support disjunction. It does not exclude the nonquarter-diameter template."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e34_heavy_chord_template_reduction",
+      "order": 275
+    },
+    {
+      "from": "e1_n256_s16_e34_parity_profile_reduction",
+      "order": 276
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "e1_official_prime_exception_control",
+      "order": 403
+    },
+    {
+      "to": "unsafe_crossing_family_instantiation",
+      "order": 404
+    }
+  ],
+  "refutes": []
+}

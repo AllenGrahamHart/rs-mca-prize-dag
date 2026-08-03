@@ -1,0 +1,17 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 316,
+  "node": {
+    "id": "u2_nondegeneracy",
+    "title": "U2: pencil nondegeneracy certified per declared family",
+    "status": "PROVABLE",
+    "refs": [
+      "wp_detail/wp2_6_underdetermined_program.md"
+    ],
+    "notes": "IN FLIGHT: PR #176 (Codex). | See #199 (modular lemma form)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

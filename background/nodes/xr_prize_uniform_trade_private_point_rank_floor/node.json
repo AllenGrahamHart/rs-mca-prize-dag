@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1587,
+  "node": {
+    "id": "xr_prize_uniform_trade_private_point_rank_floor",
+    "title": "XR prize uniform trades have a private-point rank floor",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "background/nodes/xr_prize_uniform_trade_private_point_rank_floor/statement.md",
+      "background/nodes/xr_prize_uniform_trade_private_point_rank_floor/proof.md",
+      "background/nodes/xr_prize_uniform_trade_private_point_rank_floor/claim_contract.md",
+      "background/nodes/xr_prize_uniform_trade_private_point_rank_floor/dependency_subdag.md",
+      "background/nodes/xr_prize_uniform_trade_private_point_rank_floor/verify.py",
+      "background/nodes/xr_prize_uniform_trade_private_point_rank_floor/verify_audit.py",
+      "background/nodes/xr_prize_uniform_trade_private_point_rank_floor/audit.md",
+      "background/nodes/xr_prize_uniform_trade_private_point_rank_floor/result.md"
+    ],
+    "statement": "For the active blocks of any nonzero trade in a prize-row uniform minimal Maxwell core, pairwise block intersections force at least th-t(t-2)a points private within the active subfamily. Minimal-core privacy and bounded host absorption imply a>=ceil((h+1)/(2(L-2))). Hence the complete uniform P-A branch is empty through selector ranks 11243370,9629972,2241633 at rates 1/4,1/8,1/16, independent of trade rank. High-rank uniform and all nonuniform cells remain open."
+  },
+  "requires": [
+    {
+      "from": "xr_higher_rank_uniform_split_pencil_reduction",
+      "order": 3728
+    },
+    {
+      "from": "xr_prize_primitive_rank_two_shell_band",
+      "order": 3729
+    },
+    {
+      "from": "xr_target_budget_audit",
+      "order": 3730
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 3731
+    }
+  ],
+  "refutes": []
+}
