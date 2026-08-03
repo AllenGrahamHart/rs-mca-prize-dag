@@ -689,3 +689,18 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   independent target. Flag-6 explained (4-wise < k+2 forbids
   support-4 deficits; support >= 5 = named attack surface). Open
   surface: RS list-size terminus + L-A. Pilot 3/3 (L-A) running.
+
+## 2026-08-03: round-9 pilot 3/3 BANKED — ROUND 9 COMPLETE; the heart = list-size + one sliver
+
+- **la_pencil_rigidity (Opus) AUDITED + BANKED** (30/30; FA fired as
+  pre-registered). L-A REFUTED as stated (W1/W2: V=4 non-pencil
+  zero-escape non-collapsing, the Z-escape and dim-G escape both
+  real); L-A' adopted (V >= 5 pencil up to one block, residual
+  named); CONSUMER PROVED WITHOUT THE PENCIL (D1: V=4 disjointness
+  forced; D2/D3: e <= 2 and t = 2 closed). ROUND-9 NET SURFACE:
+  (1) RS list-size at tau = k+ceil(h/2) (primary, positive target #1
+  species); (2) the overlap sliver (e >= 3, V >= 5 overlapping
+  zero-escape; carries L-B residual). Consolidation UPDATE 3 = final.
+  Candidate next anchors: the sliver (toy-attackable); support >= 5
+  all-escape-1 deficits (L-B flag); the list-size problem itself
+  (Pro-brief-scale, or Codex lane).

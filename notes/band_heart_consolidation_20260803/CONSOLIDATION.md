@@ -137,3 +137,16 @@ exists iff L-B holds at the ray), and the residual open configuration
 is precisely L-A's subject. OPEN SURFACE OF RECORD (final form of
 this note): the xr_band_occupancy RS list-size terminus (primary) +
 L-A (pencil rigidity at e >= 2, which now also carries L-B).
+
+## UPDATE 3 (2026-08-03, L-A pilot — FINAL surface of this note)
+
+L-A as stated in section 5.2 is REFUTED (V = 4 non-pencil zero-escape
+non-collapsing fixtures W1/W2 at e = 2, 3); repaired L-A' holds at
+V >= 5 up to one block modulo the named residual (1 <= dim G < e,
+Z != empty). The consumer V_0 <= n/2 is PROVED without the pencil at
+V = 4 (disjointness forced), e <= 2 (matching bound), t = 2, and all
+disjoint systems. FINAL OPEN SURFACE OF RECORD for the occupancy
+heart: (1) the xr_band_occupancy RS list-size terminus at
+tau = k + ceil(h/2) (primary; codeword-pair side; positive target #1
+species); (2) the OVERLAP SLIVER — overlapping zero-escape block
+systems at e >= 3, V >= 5 (carries the L-B residual via L-A => L-B).
