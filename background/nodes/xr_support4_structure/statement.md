@@ -233,3 +233,20 @@ fixture by Corollary 3c). Consequences of record:
 5. New proved tools: the duality criterion (collapse <=> Ann = 0), the
    V = 4 cross-ratio classification (exact dual of S4-4), and the
    improved unconditional floor `rank >= m + dim Sum C_{I_ab}`.
+
+## Addendum 3 (2026-08-03, V >= 5 pilot): the secondary criterion is refuted; the exact boundary
+
+The claim-7 secondary criterion ("the zero-escape channel can reach
+per-ray charge < 2 only when k > 2h^2") is REFUTED: its computation
+was the ceiling 2m/Vmax, an upper bound that cannot certify a lower
+bound; the record's own clique shape at (k,h,d) = (5,3,1), V = 5 has
+k <= 2h^2 and true charge 1.8 < 2
+(`notes/pilots_20260803/v5_occupancy/REPORT.md`, coordinator-replayed
+67/67). CORRECTED CRITERION (proved, tight): for the block class of
+record, 3h <= rank <= 2m = 2(t+h) with dim Ann <= 2t-h, so charge
+>= 2 holds iff 2V <= 3h. The pencil-fibre family extends to every
+V >= 4 (dim Ann = 2t-h on the Mobius locus) — the collapse is dead at
+every V. At the PRIZE rows 2V <= 3h holds by ~1e8 (no number moves;
+the justification is now a proved floor); at the RowC toy rows the
+channel provably fails (ceiling charge < 1), and the claim-7 "RowC
+load-bearing kill" is unrestorable by any shape-only argument.

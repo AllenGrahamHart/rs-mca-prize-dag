@@ -50,7 +50,12 @@ and `V <= m/2` as general statements — the heart's remaining open
 channels are exactly V >= 5 zero-escape below the Corollary-3b
 threshold, and escape-1. The reduction of record above is unchanged;
 the re-pose was RATIFIED and APPLIED 2026-08-03 — the heart section
-below is the form of record.)*
+below is the form of record. LATER SAME DAY: channel (i) DECIDED —
+charge >= 2 iff 2V <= 3h for the block class of record; at the prize
+rows it holds by ~1e8 on a proved floor, so channel (i) is CLOSED at
+the prize rows; the RowC toy rows provably fail the channel (the
+arithmetic route is dead there); the sole remaining open channel is
+escape-1. Definitions addendum 4; support-4 addendum 3.)*
 
 Cost side PROVED (two-slope cost theorem): condition rank exactly `2h`
 per generic pair (a FAMILY-RANK statement — per-ray accounting is the

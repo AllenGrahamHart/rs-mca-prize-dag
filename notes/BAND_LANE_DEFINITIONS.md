@@ -88,3 +88,14 @@ escape form) is now the occupancy heart's hypothesis OF RECORD in
 synced). Item 12's one-step form survives as a sufficient special
 case. Open channels of record: V >= 5 zero-escape below the Cor-3b
 threshold; escape-1 core rays.
+
+## Addendum 4 (2026-08-03): channel (i) DECIDED
+
+For the block class of record (the clique model forces disjoint
+blocks): charge >= 2 holds iff 2V <= 3h (proved both directions;
+floor rank >= 3h tight, ceiling 2m V-independent). At the prize rows
+this holds by ~1e8 — channel (i) of item 12' is CLOSED at the prize
+rows. The banked k <= 2h^2 criterion is refuted (see support-4
+addendum 3). Remaining open channel of item 12': escape-1 only
+(V >= 6 overlapping-block generality also open, but outside the model
+of record).

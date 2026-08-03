@@ -607,3 +607,20 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   corrected to b >= a+2; e-coordinate reading adopted. DAG 1768/4906.
   ROUND 7 COMPLETE: 3/3 pilots banked (unification, refutation, mint).
   Round-8 pilots (v5_occupancy + escape1_realizability) RUNNING.
+
+## 2026-08-03: round-8 pilot 1/2 BANKED — channel (i) DECIDED (2V <= 3h)
+
+- **v5_occupancy (Opus) AUDITED + BANKED** (FABLE_AUDIT.md; replay
+  67/67; PREREG Q1-Q12 all as registered; class arithmetic + LEMMA 1 +
+  THEOREM B embedding + trichotomy + Y1 + RowC identification
+  hand-verified). Channel (i) DECIDED: charge >= 2 iff 2V <= 3h
+  (proved tight floor rank >= 3h, V-independent ceiling 2m = 2(t+h));
+  collapse dead at EVERY V >= 4 (pencil fibres + Mobius,
+  dim Ann = 2t-h); CLOSED at the prize rows (~1e8 margin, proved
+  floor); RowC toy rows provably fail the channel — task #33 RESOLVED:
+  kill unrestorable shape-only (Y5 rank 15 vs Y6 rank 18, same
+  recorded invariants). BONUS CATCH: banked k <= 2h^2 criterion
+  REFUTED (ceiling-as-lower-bound error; Y1 witness) — replaced by
+  2V <= 3h; no prize-row number moves. Addenda: support-4 addendum 3,
+  definitions addendum 4, TARGET note. Sole remaining heart channel:
+  escape-1 (pilot 2/2 running).
