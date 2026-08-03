@@ -21,6 +21,7 @@
           + DE-P14-1: 48 [PROVED]
           + XI3-P0-RS-1: 16 [PROVED]
           + XI3-P12-RL-1: 32 [PROVED]
+          + XI3-P36-OD-1: 32 [PROVED]
                               |
                               |
                               v
@@ -35,7 +36,7 @@
 
 The displayed structural and exclusion edges are `req`. The thirteen
 parallel-`DE` children pay matching indices zero through fourteen for all
-three parallel missing copies; the reciprocal-square and reciprocal-linear
-children pay `xi=3,pairing in {0,1,2}`. Edges to
+three parallel missing copies; the reciprocal-square, reciprocal-linear, and
+opposite-DE children pay `xi=3,pairing in {0,1,2,3,6}`. Edges to
 `rate_half_band_closure` remain evidence-only until the remaining outside
 ledger and complete cell-3 exclusion are proved.

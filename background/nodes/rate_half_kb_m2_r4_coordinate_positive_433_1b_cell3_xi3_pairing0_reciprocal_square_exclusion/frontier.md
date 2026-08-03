@@ -1,11 +1,10 @@
 # Frontier
 
-The `xi=3,pairing in {0,1,2}` block is proved empty, paying 48 raw cell-3
-cases. Together with the complete parallel-`DE` block, 768 cell-3 cases are
-paid.
+The paid cell-3 ledger is 800 raw cases: 720 parallel-`DE` cases and 80 cases
+at `xi=3,pairing in {0,1,2,3,6}`.
 
-The remaining ledger is `xi=3,pairing in {3,...,14}` and every pairing at
-`xi in {4,5,6}`. Classify their repeated-product and shared-variable orbits
-before selecting the next exact eliminant.
+The remaining `xi=3` pairings are `{4,5,7,8,9,10,11,12,13,14}`, grouped
+under positive-`de` exchange as `{4,9}`, `{5,12}`, `{7,10}`, `{8,13}`,
+and `{11,14}`. Every pairing at `xi in {4,5,6}` also remains.
 
 Do not infer complete cell-3, K3, LIST, MCA, or Prize closure.

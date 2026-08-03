@@ -16436,6 +16436,57 @@ zero. The 36-row exact census completed in one bounded 16-container Modal
 campaign in under one minute; the host performed only bounded artifact
 validation.
 
+### Work-cycle theorem: positive 433-1b cell-3 xi3 pairings3/6 block
+
+```text
+aggregate scope:          xi=3 (missing df), pairing in {3,6}
+raw atlas cover:          2 matchings x 4 source signs x 4 target lanes
+                          = 32 cases
+computed representative: pairing 3 = ((0,2),(1,3),(4,5))
+transport representative:pairing 6 = ((0,3),(1,2),(4,5)), obtained by
+                          exchanging the two identical positive de records
+paired symmetry:          paired(x,y)=paired(y,x), formally replayed
+opposite-product cut:     paired(q,-q)=4(C4 q^4+C2 q^2+C0), hence a
+                          quadratic in x=q^2
+reciprocal variable:      y=1/d^2, with m=df and s=(d+f)^2
+missing quadratic:        1+(2m-s)y+m^2 y^2
+next quadratic:           paired(q,sigma_o q m y)
+first elimination:        division-free quadratic resultant in y
+q reduction:              cached one-inverse reduction modulo the even
+                          quartic to R(q)=E(x)+q O(x), degree <=3
+parity descent:           E(x)^2-x O(x)^2, then a linear remainder modulo
+                          the quadratic x cut
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       all norm, inverse, reduction, and base-leading
+                          roots lifted
+computed rows:            4 source signs x 2 sigma_o = 8; each checks both
+                          sigma_c lanes and pays 16 matching-3 raw cases
+aggregate direct replay:  108 candidate r values, 184 source points,
+                          480 q rows, 192 reconstructed targets
+terminal mechanism:       all 384 paired(bf,sigma_c cf) values nonzero
+terminal ledgers:         0 witnesses, 0 boundaries, 0 unresolved
+transport payment:        exact positive-de exchange pays 16 matching-6 cases
+result:                   complete 32-case xi3/pairings3/6 block PROVED empty
+Modal apps:               ap-D63zIvOHLyI1G10tHDX2cr corrected pilot,
+                          ap-INPl4xN0RbETNb6HKTMGdx census
+artifact custody:         compiler sha256 fce2ee32837f802fea4d28735a61c8cb
+                          ccef1130681267cdf10968a94d159c33;
+                          census sha256 e603cedb11de9ed4ed75c2cc2094a6dd6
+                          0682841bc4e137bc108a87302de3f6f
+paid cell-3 ledger:       720 parallel-DE + 80 xi3 = 800 cases
+remaining xi3 orbits:     {4,9}, {5,12}, {7,10}, {8,13}, {11,14}
+do-not-scale record:      pairing-4 quartic-versus-quadratic compiler still
+                          timed out at 300 seconds after cached reduction;
+                          refactor before any census or larger run
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `9c1ff69a`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The eight-row exact census ran in parallel on Modal and completed in
+166 seconds wall time. The host performed only bounded artifact validation.
+
 ### Work-cycle theorem: positive 433-1b cell-14 kernel normalization boundary
 
 ```text

@@ -100,7 +100,7 @@ def main():
             "branch multiplicity discipline")
     require("timed out" in lineage and "lowers the source elimination" in lineage,
             "failed-route replacement recorded")
-    require("xi=3,pairing in {0,1,2}" in frontier and
+    require("800 raw cases" in frontier and
             "Do not infer complete cell-3" in frontier,
             "retained frontier")
     print(
