@@ -61,8 +61,9 @@ def main():
     proof = (NODE / "proof.md").read_text()
     frontier = (NODE / "frontier.md").read_text()
     require("does not assert birationality" in statement and
+            "outside signed-edge exclusion" in statement and
             "saturation cannot move" in proof and
-            "Do not return" in frontier and "outside" in frontier,
+            "Do not return" in frontier,
             "nonclaim and containment audit")
     print("audit=ok charts=24 generators=3 reductions=240 outside=open")
 

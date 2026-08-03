@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Independent source and claim audit for the pairing-3 exclusion."""
+"""Independent source and claim audit for the pairing-4 exclusion."""
 
 import ast
 import json
@@ -10,11 +10,11 @@ NODE = Path(__file__).resolve().parent
 ROOT = NODE.parents[2]
 EXPERIMENTS = ROOT / "experiments/prize_resolution"
 SCRIPT = EXPERIMENTS / (
-    "rate_half_kb_positive_433_1b_cell3_de_pairing3_"
+    "rate_half_kb_positive_433_1b_cell3_de_pairing4_"
     "nested_quadratic_pilot_modal.py"
 )
 RESULT = EXPERIMENTS / (
-    "rate_half_kb_positive_433_1b_cell3_de_pairing3_"
+    "rate_half_kb_positive_433_1b_cell3_de_pairing4_"
     "nested_quadratic_census_result.json"
 )
 
@@ -28,25 +28,25 @@ def main():
     source = SCRIPT.read_text()
     ast.parse(source)
     for snippet in (
-        "class RationalFunction:",
-        "common = numer.gcd(denom)",
-        "return Cubic(*solve(",
-        "p_u = paired_polynomial(",
-        "p_v = paired_polynomial(",
-        "nested_quartic = (",
-        "remainder_linear**2*p_v_c",
-        "guard_values.append((\"base_cubic_leading\", base_leading))",
+        "p_f = paired_polynomial(",
+        "variable_polynomial*common_b",
+        "u_linear = -p_u_b/p_u_a",
+        "u_constant = -p_u_c/p_u_a",
+        "uf_eliminant = (",
+        "PairPolynomial(p_u_a)*relation_constant**2",
+        "remainder = polynomial_remainder(uf_eliminant, p_f)",
         "candidate_r_values = set(roots or []) | exceptional_r_values",
-        "de_value*pow(u_value+eta*v_value, 2, PRIME)",
-        "u_value*v_value*pow(de_value, -1, PRIME)",
-        "colored_cut = paired_value_at(",
+        "+ eta*de_value*f_value*f_value,",
+        "for lane_c in (-1, 1):",
+        "for lane_o in (-1, 1):",
+        "third_pair_cut = paired_value_at(",
         'raise ValueError("direct lift replay failed")',
         "for selected_xi in (0, 2)",
     ):
         require(snippet in source, f"source construction {snippet}")
 
     payload = json.loads(RESULT.read_text())
-    require(len(payload["rows"]) == 32, "32-row census")
+    require(len(payload["rows"]) == 8, "eight-row source census")
     require(all(
         row["status"] == "COMPLETE" and row["tower_norm_match"] and
         row["direct_lift"]["case_excluded"] and
@@ -58,7 +58,7 @@ def main():
         item for row in payload["rows"]
         for item in row["direct_lift"]["boundary_solutions"]
     ]
-    require(len(boundaries) == 32 and all(
+    require(len(boundaries) == 8 and all(
         item["f"] == 0 and item["failed_guards"] == ["nonzero_5"]
         for item in boundaries
     ), "f=0 boundary ledger")
@@ -68,16 +68,15 @@ def main():
     audit = (NODE / "audit.md").read_text()
     frontier = (NODE / "frontier.md").read_text()
     require("= 48 raw cases" in statement and
-            "32 computed and 16 transported" in proof,
+            "32 computed and 16 transported" in audit,
             "raw-case discipline")
-    require("does not treat vanishing elimination coefficients" in proof and
-            "directly solved" in audit,
-            "exceptional-stratum discipline")
-    require("matching indices `5,...,14`" in frontier and
-            "do not infer complete cell-3" in frontier and
-            "closure from the five paid matching indices" in frontier,
+    require("No vanishing elimination coefficient" in proof and
+            "64 nonboundary lane evaluations" in audit,
+            "exceptional and lane discipline")
+    require("Pairing index 5" in frontier and
+            "complete cell-3 closure" in frontier,
             "retained frontier")
-    print("audit=ok pairing=3 exceptional_roots=lifted boundary_f_zero=32")
+    print("audit=ok pairing=4 source_rows=8 lanes=4 boundary_f_zero=8")
 
 
 if __name__ == "__main__":
