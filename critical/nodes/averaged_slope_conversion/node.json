@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 336,
+  "node": {
+    "id": "averaged_slope_conversion",
+    "title": "Averaged fiber-to-slope conversion: FM locator mean => existence of a many-SLOPE pair",
+    "status": "PROVED",
+    "closure": "proof",
+    "refs": [
+      "critical/nodes/averaged_slope_conversion/statement.md",
+      "critical/nodes/averaged_slope_conversion/proof.md"
+    ],
+    "notes": "Exact occupancy proof: 1_(X_z>0)>=X_z-X_z(X_z-1)/2, summed over slopes. No cross-slope independence is used. Prize payloads must still supply paid-family ownership, overlap profile, and ambient-field scope.",
+    "statement": "For a deterministic support family A with exact strict-overlap profile, put nu(A)=E[N(A)]-(q/2)C_t(A). For every integer B>=1, nu(A)>B-1 implies the existence of a received pair with at least B distinct finite bad slopes. Prize use with B=B*+1 therefore requires the strict certificate nu(A)>B*."
+  },
+  "requires": [
+    {
+      "from": "fm1",
+      "order": 531
+    },
+    {
+      "from": "averaged_xr",
+      "order": 563
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

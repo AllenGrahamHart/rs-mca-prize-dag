@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 687,
+  "node": {
+    "id": "e22_cross_scale_rootset_recovery",
+    "title": "E22 cross-scale root-set recovery",
+    "status": "PROVED",
+    "statement": "If two E22 staircase locators at possibly different quotient moduli are equal, then they have the same root set; applying fixed-scale recovery at each modulus recovers the corresponding tail and selected fibers at each scale. Thus any hidden multiplicity is exactly a cross-scale equality of recovered root-set data.",
+    "attack_surface": "locator root-set uniqueness plus fixed-scale recovery",
+    "falsifier": "equal staircase locators with different root sets, or a fixed-scale tail/fiber recovery failure"
+  },
+  "requires": [
+    {
+      "from": "e22_fixed_scale_staircase_injectivity",
+      "order": 993
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1168
+    }
+  ],
+  "refutes": []
+}

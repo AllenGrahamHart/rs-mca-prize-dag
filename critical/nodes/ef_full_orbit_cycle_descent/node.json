@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 598,
+  "node": {
+    "id": "ef_full_orbit_cycle_descent",
+    "title": "EF full-orbit pole-free cycle descent",
+    "status": "PROVED",
+    "statement": "In the B-defined extension-fiber incidence with B-defined extension-pole divisor, any full Galois orbit of horizontal components avoiding the pole divisor has a B-defined reduced cycle as its union, and that cycle is still disjoint from the pole divisor.",
+    "attack_surface": "standard Galois descent for the orbit cycle and B-defined closed divisors",
+    "falsifier": "a Galois orbit of components disjoint from a B-defined divisor whose reduced union is not B-defined or meets the divisor"
+  },
+  "requires": [
+    {
+      "from": "ef_galois_stabilizer_descent",
+      "order": 908
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

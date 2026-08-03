@@ -1,0 +1,17 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1062,
+  "node": {
+    "id": "dli_wcl_slot_4_10_emptiness",
+    "title": "WCL slot 4,10 emptiness (extended)",
+    "status": "TARGET",
+    "refs": [
+      "critical/nodes/dli_wcl_slot_4_10_emptiness/statement.md"
+    ],
+    "statement": "No reduced signed weight-10 polynomial has the four odd-power vanishings at order-2048 roots at any official row (ell=4 extended window). FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted at the C1'-r3 adoption (2026-07-19); bookkeeping of record = the zone node's official_terminal_attack.md; the weight-3/4 norm-census machinery is the named attack."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 268,
+  "node": {
+    "id": "f1_classification",
+    "title": "F-valued slopes: B-rational / pole / tower",
+    "status": "CONDITIONAL",
+    "refs": [
+      "proof_sketch/s6_extension_lift.md#4"
+    ],
+    "statement": "Trichotomy: every F-valued bad slope above the reserve is (i) B-pencil-rational, (ii) pole-type, or (iii) confined to an intermediate subfield B <= K <= F, each priced by its ledger.",
+    "notes": "CONDITIONAL on {pole_forcing, case_pole}: the trichotomy assembly (conditional.md); tower case PROVED. | AMBER AUDIT 2026-07-06: REPAIRABLE verdict = stale status artifacts around promoted children; conditional.md refreshed. | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md."
+  },
+  "requires": [
+    {
+      "from": "b_rational_lift",
+      "order": 196
+    },
+    {
+      "from": "f1_case_pole",
+      "order": 197
+    },
+    {
+      "from": "f1_case_tower",
+      "order": 198
+    },
+    {
+      "from": "f1_minimal_field_descent",
+      "order": 827
+    },
+    {
+      "from": "f1_full_field_pole_forcing",
+      "order": 832
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

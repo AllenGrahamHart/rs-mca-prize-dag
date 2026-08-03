@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 392,
+  "node": {
+    "id": "census_window_arithmetic",
+    "title": "The undecided set as an explicit function of certification strength L",
+    "status": "PROVED",
+    "statement": "For each (rate, candidate A): undecided rows = {admissible q = 1 mod n : floor(q/2^128) in [L(n,A), K(n,A))} \u2014 explicit prime-counting windows. Deliverables: the window list, size estimates, and the dodge complement. As L -> K the windows vanish; the census OUTPUT is the map from certification strength to residual undecided rows. | PRIME-POWER EXTENSION (2026-07-07, mechanical item from the circle-scope audit; nodes/census_window_arithmetic/notes/prime_power_windows.py, VALIDATED formula == brute force on a toy window): the admissible-row quantifier extends to prime powers q = p^e = 1 mod n (< 2^256). Exact residue arithmetic for n = 2^s: #{r mod 2^s : r^e = 1} = gcd(e,2)*gcd(e,2^(s-2)); e odd forces p = 1 mod n (ALL such rows base-domain, d = 1, non-generating); e = 2 has 4 classes {+-1, 2^(s-1)+-1} of which only p = 1 mod n is non-generating (p = -1 mod n = the m2_antinorm_lever family, generating). Every window's undecided-row list gains these (e, d = ord(p mod n)) strata; non-generating rows (d < e) leave the direct corridor and are priced by the f1/ext import \u2014 the beta-lesson (catches #11-13) at the census level.",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ],
+    "notes": "couples the census to certified_valueset_lower parametrically instead of blocking on it | IN FLIGHT: #195 | Family now definitively pinned (2-power cosets, k <= 2^40, |F| < 2^256): the exposure census is EXACT finite arithmetic \u2014 compute the actual number of knife-edge-exposed cells and their prime-window sizes per rate. Coset domains: collision structure identical (multiplication by gamma is a bijection mod p) \u2014 one-line lemma to include. | PROVED (my lane, exact computation, verifier green): the L -> window map with K exact; dodge complement cited."
+  },
+  "requires": [
+    {
+      "from": "census_exact_counts",
+      "order": 635
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

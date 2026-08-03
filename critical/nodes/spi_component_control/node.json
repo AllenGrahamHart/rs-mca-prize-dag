@@ -1,0 +1,17 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 358,
+  "node": {
+    "id": "spi_component_control",
+    "title": "SPI stage 1: effective component control \u2014 count and degrees of irreducible components",
+    "status": "PROVED",
+    "statement": "#Irr(I_{u,v}) <= t+1 and Segre degree <= j+t+1 for the Hankel slope-incidence variety (one horizontal scroll + <= r <= t vertical rank-drop fibers); same per paid stratum. Far stronger than the poly target. (Pro G, refereed, verified.)",
+    "refs": [
+      "proof_sketch/s3b_iii_1_divisor_pencil_incidence.md#1"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

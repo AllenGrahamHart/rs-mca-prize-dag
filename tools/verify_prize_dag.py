@@ -18,6 +18,9 @@ import json
 import os
 import re
 import sys
+from pathlib import Path
+
+from dag_manifest import ManifestError, canonical_dag_text
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(os.path.dirname(HERE))          # repo root (parent of experimental/)
@@ -37,6 +40,16 @@ def main() -> None:
     nodes = {n["id"]: n for n in data["nodes"]}
     edges = data["edges"]
     errors: list[str] = []
+
+    try:
+        compiled = canonical_dag_text(Path(DAG).resolve().parent)
+        if open(DAG, encoding="utf-8").read() != compiled:
+            errors.append(
+                "dag.json is stale relative to node-local manifests; "
+                "run tools/compile_dag.py --write"
+            )
+    except (ManifestError, ValueError) as error:
+        errors.append(f"node-local manifest compilation failed: {error}")
 
     if len(nodes) != len(data["nodes"]):
         errors.append("duplicate node ids")

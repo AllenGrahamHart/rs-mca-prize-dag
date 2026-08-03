@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1203,
+  "node": {
+    "id": "xr_true_tangent_coordinate_injection",
+    "title": "True recovered-line tangent slopes inject into discrepancy coordinates",
+    "status": "PROVED",
+    "statement": "For any linear code, write u=c0+e0 and v=c1+e1 with joint discrepancy support T. Finite support-wise MCA-bad slopes whose witness codeword is exactly c0+z c1 inject into T: every bad witness meets T and supplies a root e0(i)+z e1(i)=0 at a nonzero error coordinate, while one coordinate has at most one finite root. Hence their number is at most |T|, and in the official tangent branch at most n-A. No deep-regime hypothesis is used.",
+    "refs": [
+      "critical/nodes/xr_true_tangent_coordinate_injection/statement.md",
+      "critical/nodes/xr_true_tangent_coordinate_injection/proof.md",
+      "critical/nodes/xr_true_tangent_coordinate_injection/claim_contract.md",
+      "critical/nodes/xr_true_tangent_coordinate_injection/audit.md",
+      "critical/nodes/xr_true_tangent_coordinate_injection/result.md",
+      "critical/nodes/xr_true_tangent_coordinate_injection/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

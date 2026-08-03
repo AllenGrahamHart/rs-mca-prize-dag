@@ -1,0 +1,19 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 520,
+  "node": {
+    "id": "b2b_near_tail_bound",
+    "title": "b2b near tail bound",
+    "status": "PROVED",
+    "statement": "Lemmas 8-9 + Theorem 10 (verified, exact arithmetic): by degree-(k-1) interpolation, N_{t+k} <= C(n,k)/C(t+k,k) < 2^{8k} at official parameters; both near-tails (15 layers above t and their complements) together contribute < 2^122 \u2014 half the n^3 budget, unconditionally. | SCOPE CAVEAT (2026-07-10, I5 of the 3C extraction): the proof is at the rate-1/2 row (t = 2^33+1; replayed 2^121.006, and 2^120.998 at t* = 8592912739); the bound FAILS at lower-rate t* values (exact: 2^125.4 / 2^133.9 / 2^144.2 at rates 1/4 / 1/8 / 1/16) \u2014 harmless because those rows admit no field under |F| < 2^256 (they fail sub-balance), but the 'at official parameters' wording overreached.",
+    "attack_surface": "n/a (proved)",
+    "falsifier": "n/a (proved)",
+    "refs": [
+      "archive/compressed_dli_lane_20260705/b2_modp_giant_extras/notes/pro_b2b_partial_packet.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

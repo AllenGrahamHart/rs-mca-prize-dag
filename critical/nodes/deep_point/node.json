@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 258,
+  "node": {
+    "id": "deep_point",
+    "title": "Deep-point identity BadVec = Deep_alpha^mu (x1)",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s7_list_side.md#3"
+    ],
+    "statement": "[transcribed 2026-07-27 from the upstream source read via git -C ../rs-mca show origin/main:experimental/notes/roadmaps/proof_sketch/s7_list_side.md#3, tagged 'PROVED-cited (mine) + verified budgets']. THE DEEP-POINT IDENTITY: BadVec = Deep_alpha^mu. Consequently the worst-case a-regular collapse has interleaved list equal to the base list \u2014 exponent exactly 1 \u2014 which is the identity the interleaved conversion budget consumes alongside the codegree reduction."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "plv_reduction",
+      "order": 126
+    }
+  ],
+  "refutes": []
+}

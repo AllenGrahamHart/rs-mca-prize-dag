@@ -1,0 +1,48 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 227,
+  "node": {
+    "id": "conj_f",
+    "title": "Conjecture F: plane sections of D_j have poly unpaid points",
+    "status": "PROVED",
+    "gate": "all",
+    "key": true,
+    "refs": [
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
+    ],
+    "statement": "For every linear P <= P^j and pair (u,v): the D_j-points of P are, up to n^{B_F} exceptions, covered by a shared divisor of degree >= j - dim P - O(log_n) (tangent shape) or a proper quotient-pullback stratum (periodic shape).",
+    "attack_surface": "prove coordinate planes first (= prob:perfiber, minimal instance), then kernel planes; the crux is classifying exceptional planes (ES-type)",
+    "falsifier": "a toy-scale plane family (n = 16..32, enumerable) with super-poly D_j points, no deep shared divisor, no pullback symmetry",
+    "notes": "FLIP on replay (Codex wave 7): assembly conditional \u2014 gcd-reduction + scale-recursion PROVED; closes on f_primitive_case."
+  },
+  "requires": [
+    {
+      "from": "f_gcd_reduction",
+      "order": 554
+    },
+    {
+      "from": "f_scale_recursion",
+      "order": 555
+    },
+    {
+      "from": "f_primitive_case",
+      "order": 556
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "r2_rigidity",
+      "order": 53
+    },
+    {
+      "to": "spi_dimension_free",
+      "order": 219
+    },
+    {
+      "to": "averaged_slope_conversion",
+      "order": 532
+    }
+  ],
+  "refutes": []
+}

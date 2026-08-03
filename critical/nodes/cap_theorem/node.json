@@ -1,0 +1,19 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 13,
+  "node": {
+    "id": "cap_theorem",
+    "title": "Paper D universal cap (unsafe above 1-rho-2^-9)",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3",
+      "tex/cs25_cap_v12.tex"
+    ],
+    "notes": "v12 audit DONE (#177 integrated e7042160; one rounding fix patched by maintainer); external G3 rank-boundary toy packet open (#175, latifkasuli \u2014 NEW external lane). | Blueprint: the universal cap is 'modulo the imported Crites-Stewart conversion' \u2014 v12's self-contained half-Johnson CA mitigates; the bridge row must state which variant the dossier uses.",
+    "statement": "THE UNIVERSAL CAP (Paper D, tex/cs25_cap_v12.tex; the cap line of proof_sketch/s2_paid_ledger.md#3-#4 reads 'cap (proved): eta = 2^-9 (2^-10 at rho = 1/16)'). The Paper D cap construction proves the row UNSAFE at reserve eta = 2^-9 (2^-10 at rate 1/16) \u2014 i.e. delta* <= cap \u2014 and, per the same source, it does so REGARDLESS of the zone-(b) resolution. Audit state: v12 audit DONE (#177, integrated e7042160; one rounding fix patched by the maintainer). CAVEAT carried from the blueprint: the universal cap is stated 'modulo the imported Crites-Stewart conversion'; v12's self-contained half-Johnson CA variant mitigates this, and the submission dossier's bridge row must state which variant it uses. SCOPE: this is the cap (an upper bracket on delta*) only \u2014 it does NOT pin delta* at the adjacent grid point, which is the separate unsafe_at_crossing obligation. [statement written 2026-07-27]"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

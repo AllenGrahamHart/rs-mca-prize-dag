@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 250,
+  "node": {
+    "id": "qcore",
+    "title": "thm:qcore: C(n/M-1, k/M) codewords, q-independent",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s7_list_side.md#2"
+    ],
+    "notes": " | CATCH #78 REPAIR (2026-07-12): the ref proof_sketch/s7_list_side.md#2 exists nowhere (compression rot the #66 sweep missed); the first in-repo proof is now background/nodes/ww_lower_witnesses/proof.md (independently replayed).",
+    "statement": "[transcribed 2026-07-27 from the upstream source read via git -C ../rs-mca show origin/main:experimental/notes/roadmaps/proof_sketch/s7_list_side.md#2, tagged 'PROVED-cited + verified']. THE QUOTIENT-CORE COUNT (thm:qcore): quotient cores produce at least C(n/M - 1, k/M) codewords at agreement k + sigma whenever M | k and sigma < M. The bound is independent of q \u2014 a pure combinatorial count with no norm threshold and no value-set collision question, the codewords being distinct by construction. Verified exponent: log2 C(n/M-1, k/M) ~ (n/M) H(rho)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": [
+    {
+      "to": "route_one_scale",
+      "order": 153
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 797,
+  "node": {
+    "id": "list_subsqrt_interleaving_collapse",
+    "title": "Sub-square-root interleaving collapse",
+    "status": "PROVED",
+    "refs": [
+      "critical/nodes/list_subsqrt_interleaving_collapse/statement.md",
+      "critical/nodes/list_subsqrt_interleaving_collapse/proof.md"
+    ],
+    "statement": "For every F-linear code, agreement threshold, and base worst-list size 1<=L<q=|F|, the m-fold common-support interleaved worst list satisfies L<=L_m<=floor(L(q-1)/(q-L)); hence L_m=L for every m>=1 whenever L^2<q. [2026-07-12 import: independently brute-forced from the statement alone \u2014 1,132 theorem checks + 215 collapse-equality checks, 0 violations; the common-support hypothesis is LOAD-BEARING (separate-support mutation fires); honest limitation: no growth instance exists in the tested grid, so the rational bound's constant is untested (the collapse equality is the tested content). Strictly improves survey Lemma 2.10 [GGR11] in the sub-sqrt regime. audit_bruteforce_20260712.py banked.]"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

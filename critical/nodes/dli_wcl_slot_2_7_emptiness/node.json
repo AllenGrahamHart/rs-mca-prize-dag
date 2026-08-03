@@ -1,0 +1,17 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1054,
+  "node": {
+    "id": "dli_wcl_slot_2_7_emptiness",
+    "title": "WCL slot 2,7 emptiness",
+    "status": "TARGET",
+    "refs": [
+      "critical/nodes/dli_wcl_slot_2_7_emptiness/statement.md"
+    ],
+    "statement": "No reduced signed weight-7 polynomial P has P(w) = P(w^3) = 0 at exact order 1024 at any official row (ell=2 window; siblings (2,5)/(2,6) closed by the audited norm-gcd/recursive-norm certificates). FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

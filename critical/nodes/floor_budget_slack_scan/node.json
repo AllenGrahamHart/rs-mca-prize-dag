@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 727,
+  "node": {
+    "id": "floor_budget_slack_scan",
+    "status": "PROVED",
+    "statement": "FLOOR-BUDGET SLACK SCAN (2026-07-09; AUDIT, ours; note notes/slack_scan/FLOOR_BUDGET_SLACK_SCAN.md, verifier floor_budget_slack_scan.py, digest FLOOR_BUDGET_SLACK_SCAN_PASS; Codex's F3 retarget tactic applied to F4/F5/F7 with exact arithmetic + banked-verifier citations). F5: RETARGET-DEAD \u2014 poly-forcing compiler pins prize rows at 29n^3 vs consumed 16n^3 = 0.86 bits; the heart must deliver n^3 as stated. F4: NOT BINDING \u2014 the saturated degree-6 binomial column sits at exponent 5.7685..5.7843 vs the n^6 budget (~9.5 bits of room) at all four official maximal rows n = 2^41..2^44, c-sweep column same exponent; B_max > 6 gated by the codegree-conversion emission (named open cell). F7: NO FREE SLACK without a conventions decision \u2014 QA.22's aggregate line at prize rows is 0.9 bits (conservative convention); the 27.0/60.6+ bit within-column staircase room would require re-attribution under the QA.22 conventions note (flagged, not spent). Net: the retarget tactic pays once more (F4); the kernel-summit instances cannot be softened by consumer arithmetic \u2014 mildest-instance ordering stands."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_growth",
+      "order": 1244
+    }
+  ],
+  "refutes": []
+}

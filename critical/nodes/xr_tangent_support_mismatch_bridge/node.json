@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1202,
+  "node": {
+    "id": "xr_tangent_support_mismatch_bridge",
+    "title": "XR support-wise tangent/mismatch scope bridge",
+    "status": "PROVED",
+    "key": true,
+    "statement": "Every received pair lies in one of two exhaustive routes. If globally generic, the R2 partition of record (ratified 2026-08-02) splits selected post-strip slopes BY DEFINITION into Gamma_band (some pairwise core >= k+1; band depths [1,h-1], the depth-(h-1) cascade tier included and named; charged by xr_graded_tangent_band_charge from the 13n^3 headroom), Gamma_hi (not band, some core exactly k) = P-A1 with its exact-k form unchanged, and Gamma_lo (all cores <= k-1) = P-B. The partition is exhaustive and disjoint by construction with NO core-cap premise; participation in a >=k+1 core is symmetric, so outside Gamma_band all pairwise cores are <= k. The strip rung is consumed for its FORCING content only (cores >= k+1 force a codeword pair on > k points), never as a removal. Generic budgets: 4n^3 + 8n^3 + 8n^3 inside the proved 29n^3 allowance. If a joint A-support explanation exists, only q_z=0 recovered-line tangents are removed, every q_z!=0 mismatch remains support-locally transverse, and the complete retained mismatch population routes to P-A2's one combined 16n^3 clause. Thus P-A1, P-A2, P-B, and the band column imply the exact residual bound for every pair. This node proves routing only and assumes no numerical clause. [Former = K split superseded: it rested on an unproved core cap; see notes/FLAG_ADJUDICATION_20260802.md.]",
+    "falsifier": "a pair outside the generic/nongeneric dichotomy, a retained mismatch which is not support-locally transverse, or a slope not routed to P-A1, P-A2, or P-B",
+    "refs": [
+      "critical/nodes/xr_tangent_support_mismatch_bridge/statement.md",
+      "critical/nodes/xr_tangent_support_mismatch_bridge/proof.md",
+      "critical/nodes/xr_tangent_support_mismatch_bridge/audit.md",
+      "critical/nodes/xr_tangent_support_mismatch_bridge/result.md",
+      "critical/nodes/xr_tangent_support_mismatch_bridge/verify.py",
+      "critical/nodes/xr_tangent_support_mismatch_bridge/attack.md",
+      "critical/nodes/xr_tangent_support_mismatch_bridge/claim_contract.md",
+      "critical/nodes/xr_tangent_support_mismatch_bridge/dependency_subdag.md"
+    ],
+    "notes": "OBLIGATION-PRESERVING SCOPE CONTRACTION: P-A1/P-B retain their original generic 8+8 allocation. The former standalone nongeneric 16n^3 branch-width target is merged verbatim as P-A2, with no stronger per-stratum split. The canonical full-zero descent (depth caps 169,169,255,254,254,510; terminal breadth and low ranks paid) remains the P-A2 attack."
+  },
+  "requires": [
+    {
+      "from": "xr_strip_classification_rungs",
+      "order": 2473
+    },
+    {
+      "from": "xr_true_tangent_coordinate_injection",
+      "order": 2480
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_highcore_collision_count",
+      "order": 2475
+    },
+    {
+      "to": "xr_lowcore_spread_heart",
+      "order": 2476
+    }
+  ],
+  "refutes": []
+}

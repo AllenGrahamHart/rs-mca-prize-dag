@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 594,
+  "node": {
+    "id": "ef_component_control_alignment",
+    "title": "EF component-control alignment",
+    "status": "PROVED",
+    "statement": "The banked spi_component_control theorem applies to the extension-fiber alignment incidence used by ef_ru: after removing the base-descended section and restricting to relevant paid strata, there are at most polynomially many controlled-degree horizontal components to classify.",
+    "attack_surface": "assembly of spi_component_control with the EF incidence notation",
+    "falsifier": "an EF horizontal component not controlled by the Hankel slope-incidence component theorem"
+  },
+  "requires": [
+    {
+      "from": "spi_component_control",
+      "order": 902
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

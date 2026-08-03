@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1790,
+  "node": {
+    "id": "f2_parity_defect_certificate",
+    "title": "F2 parity-defect certificate: the exact mode-uniform integer bound max_{k odd}|R_k| <= D/m from the signed parity classes mod p; with the full-group evaluation D = ((p-1)/2)^2 PROVED (and its exact scope a_c b_c != 0 identified -- the record's phrasing was too broad by 2(p-1) frequencies)",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Banked first-descent window model (p odd, n_ord | p^2-1 even and not dividing p-1, frequency c = (a_c,b_c) in F_{p^2}^*, m = (n_ord - gcd(n_ord,p-1))/2 genuine Frobenius pairs, Delta_i in Z/2p, omega = zeta_{2p}, R_k = (1/m) sum_i omega^{k Delta_i}, flat = 1 - max_{k odd}|R_k|). THEOREM 1 (certificate): with c_d := #{i : Delta_i == d (p), Delta_i EVEN} - #{i : ... ODD}, x_d := the EVEN element of {d,d+p}, D := sum_d |c_d|, then for EVERY odd k, (ID) R_k = (1/m) sum_d c_d omega^{k x_d} -- because omega^{k(x+p)} = -omega^{kx} for odd k collapses each residue class -- hence (DEF) max_{k odd}|R_k| <= D/m and (FLAT) flat >= 1 - D/m. D is an exact integer; one integer bounds all p odd modes at once; a class split evenly between the parities has c_d = 0 (perfect local cancellation). THEOREM 2 (full group, n_ord = p^2-1): m = p(p-1)/2 and, for every frequency with a_c != 0 AND b_c != 0, D = ((p-1)/2)^2 EXACTLY, so flat >= (p+1)/(2p) > 1/2. Proof chain (reconstructed -- the record has the VALUE and a 12-instance check, no derivation and no scope condition): with M = (p-1)/2 and kappa(x) = (-1)^{centred rep of x mod p}, a_c != 0 makes a_y sweep F_p bijectively so c_d = A(d) with A(t) = sum_a kappa(a)kappa(a+t); A(t) = (-1)^t (p-2t) for 0 <= t <= M and A is even (parametrise by the centred rep: exactly t of the p values overflow); b_c != 0 makes the support {4 N_0 b_c b : b = 1..M} a HALF-SYSTEM of F_p^*, so |A| takes each of p-2t, t = 1..M, exactly once; D = sum_{t=1}^M (p-2t) = M^2. THEOREM 3 (the exact scope): the hypothesis is NECESSARY and the failure is total on both excluded lines -- b_c = 0 (c in F_p^*) gives s^+ = s^- and Delta == 0; a_c = 0 (c in w F_p^*) gives s^- = -s^+ and all Delta EVEN (the f2_antipodal_descent_lemma mechanism, reached from the frequency side); both give D = m and a vacuous (FLAT). These are exactly the two parity-pure lines. COROLLARY 4 (degenerate branch): any parity-homogeneous window has every c_d >= 0, so D = m and (FLAT) says only flat >= 0; at deployed rung windows the true value is flat = 0, so the certificate is TIGHT BUT EMPTY there. The certificate is informative exactly to the extent the window is parity-INhomogeneous. Also proved: D is invariant under the GLOBAL orientation reversal but NOT under partial flips (verifier exhibits both), so D must always be quoted with its labelling. NOT claimed: this is NOT an (H-flat) certificate for any DEPLOYED window (the full group is a window the tower does not deploy -- its value is as the TEMPLATE for whatever windows the frequency-space case split sends to the slice theorem); (DEF) is an upper bound, not an identity, and no sharpness is claimed outside the degenerate branch; nothing about EVEN modes k (the collapse needs k odd); generic-frequency flatness (T3, OPEN); the multiplicity law (sorted non-zero Delta-counts = [1..p-1]) is MEASURED (exhaustive over all a_c b_c != 0 frequencies at p = 11..23, plus the pilot's p = 41) and is NOT used in any proof; nothing about the K1 mass obligations (O1)-(O3). Verified: (ID) exactly in Z[zeta_p] at every odd k over 24 (p, window, frequency) cases; A(t) at 8 primes; the half-system property exhaustively; THEOREM 2 EXHAUSTIVELY over every frequency of F_{p^2}^* at p = 11,13,19,23,31,41 (3,552 frequencies) including the pilot's own A8 row; THEOREM 3's exception count (exactly p-1 on each line, none elsewhere). Provenance notes/pilots_20260802/f2_deployed_windows/deployed.py:37-56 and :126-147, census.py:65-75, verify.py:300-321 (A8), REPORT.md:37,45, FABLE_AUDIT.md:61-66.",
+    "refs": [
+      "background/nodes/f2_parity_defect_certificate/statement.md",
+      "background/nodes/f2_parity_defect_certificate/proof.md",
+      "background/nodes/f2_parity_defect_certificate/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 4994
+    }
+  ]
+}

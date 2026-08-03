@@ -1,0 +1,17 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 786,
+  "node": {
+    "id": "petal_g3_profile_conversion_identity",
+    "status": "PROVED",
+    "refs": [
+      "critical/nodes/petal_g3_profile_conversion_identity/proof.md",
+      "critical/nodes/petal_g3_profile_conversion_identity/verify.py"
+    ],
+    "statement": "G3 PROFILE CONVERSION IDENTITY. For n=MN and A=hM+b with 0<=b<M and h<N, the number raw_M(A) of size-A supports whose points outside their full M-fibers form a tail of size <M is C(N,h)[x^b]H_M(x)^(N-h), where H_M(x)=sum_{j=0}^{M-1}C(M,j)x^j. Since Q_M(A)=C(N-1,h), this equals Q_M(A)*N/(N-h)*[x^b]H_M(x)^(N-h). Thus the canonical-class weight is one and the exact conversion to the fixed-tail quotient profile has no undeclared multiplicity. [2026-07-12 import: proves IN GENERAL the conversion identity master re-posed as G3 clause (b) after the fifth-branch replay (catch #47) \u2014 raw_M = C(N,h)[x^b]H_M^{N-h} = Q_M * N/(N-h) * [x^b]H_M^{N-h}; replayed exhaustively at n=8/16 in the AP-fiber convention over ALL dyadic scales incl. M <= t; the catch-#47 cells 8/5 and 880/3 reproduce exactly.]"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

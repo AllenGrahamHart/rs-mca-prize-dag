@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 679,
+  "node": {
+    "id": "e22_cross_scale_support_canonical_form",
+    "title": "E22 cross-scale support canonical form",
+    "status": "PROVED",
+    "statement": "For any E22 staircase support R, the set of quotient moduli M>t for which R has a tail-plus-full-M-fibers representation is recovered canonically from R by taking all M with tail B_M=R minus the union of full M-fibers contained in R satisfying |B_M|<M. Equal-support cross-scale representations therefore have the same canonical support-scale data.",
+    "attack_surface": "fixed-scale full-fiber recovery applied simultaneously over all quotient moduli",
+    "falsifier": "a support R with a staircase representation at M that is not recovered by the full-fiber/tail rule, or equal supports with different canonical scale data"
+  },
+  "requires": [
+    {
+      "from": "e22_cross_scale_rootset_recovery",
+      "order": 994
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1160
+    }
+  ],
+  "refutes": []
+}

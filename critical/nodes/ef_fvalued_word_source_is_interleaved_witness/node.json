@@ -1,0 +1,14 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 630,
+  "node": {
+    "id": "ef_fvalued_word_source_is_interleaved_witness",
+    "title": "F-valued word source => e-interleaved base-list witness (Pro, verified)",
+    "status": "PROVED",
+    "statement": "Every trivial-stabilizer noncontainment non-tower horizontal component with F-valued word source is, at its generic point, an e=[E:B]-interleaved base-field multiplication-slice witness (syndrome commutes with B-basis expansion since D subset B; mult-by-z = M_z; noncontainment preserved). The ordinary-base-list version is FALSE (proved extension-line counterexample)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

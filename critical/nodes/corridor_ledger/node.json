@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 503,
+  "node": {
+    "id": "corridor_ledger",
+    "title": "THE CORRIDOR LEDGER: per-rate, eaters (i)+(ii)+(iii) >= W(rate) - 1",
+    "status": "PROVED",
+    "key": true,
+    "statement": "Exhaustive over the three clean rates: with W = the current corridor widths (1.12-2.17 grid steps), the three eaters \u2014 acl_second_order (i), corridor_window_cleanup (ii), corridor_ext_crossing (iii) \u2014 jointly recover at least W(rate) - 1 grid steps, collapsing the bracket to adjacency. Pure arithmetic ONCE the eaters' numeric outputs exist (evidence-gated on them); this node is the future assembly implication of adjacency_closing. If the sum falls short at any rate: the determination lands bracket-grade there \u2014 the honest failure mode, priced.",
+    "attack_surface": "a three-row table; each entry an interval comparison",
+    "falsifier": "any rate where the eater intervals cannot reach W - 1",
+    "refs": [
+      "experimental/notes/roadmaps/proof_sketch/s2_paid_ledger.md"
+    ],
+    "notes": "THE REQUIRED-MAGNITUDE TABLE (agent, exact, identity (i)+(ii)+(iii) = W-1 verified): X_acl(1/4) >= 0.367, X_acl(1/8) >= 0.023, X_acl(1/16) >= 0.304 grid steps. RATE 1/8 IS ~0.02 STEPS FROM ADJACENCY. The ledger is now pure arithmetic conditional on acl_second_order delivering these magnitudes. | LEDGER COMPLETE WITH VERDICT: (i)+(ii)+(iii) delivers LESS than W-1 at all three clean rates \u2014 bracket-grade under current mechanisms. THE NEW SHARPEST TARGET: find ~0.007 grid steps (~0.9 bits) at rate 1/8 from a FOURTH mechanism (cap-end sharpening, tau* reserve tightening, or knife-edge census pinning) \u2014 the smallest named quantity standing between the campaign and its first full determination corridor. | UN-HELD on reading the packet (a read-ordering artifact had hidden it): CONDITIONAL on fourth_mechanism_rate8 \u2014 the three eaters are numeric, the ledger closes iff the wedge lands. Correct. | RATE-1/8 ROW DISCHARGED (the wedge PROVED, 8.8x margin). Rates 1/4 and 1/16 remain short (0.318 / 0.310 steps) under the three-eater partition \u2014 but see cap_envelope_parameter_sweep: the same floor at finer scales may close them too. | AUTO-DISCHARGE REVERTED (my referee): the wiring said four eaters, but the STATEMENT is the all-rates conjunction \u2014 only the 1/8 row is discharged (the wedge); 1/4 and 1/16 remain short under the current mechanisms. cap_envelope_parameter_sweep wired as the missing req (the candidate closer for the other two rows); the node discharges when the sweep resolves them or the statement is honestly split per-rate. | ALL THREE ROWS DISCHARGED: the sweep supplies rates 1/4 and 1/16 (and a better 1/8 optimum). The three-eater deficits are covered by the fourth mechanism at every clean rate. The wave-1 corridor widths were measured against the lazy cap."
+  },
+  "requires": [
+    {
+      "from": "acl_second_order",
+      "order": 802
+    },
+    {
+      "from": "corridor_window_cleanup",
+      "order": 803
+    },
+    {
+      "from": "corridor_ext_crossing",
+      "order": 804
+    },
+    {
+      "from": "fourth_mechanism_rate8",
+      "order": 817
+    },
+    {
+      "from": "cap_envelope_parameter_sweep",
+      "order": 838
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

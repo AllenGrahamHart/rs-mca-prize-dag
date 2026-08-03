@@ -1,0 +1,20 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 512,
+  "node": {
+    "id": "list_corridor_widths",
+    "title": "list corridor widths",
+    "status": "PROVED",
+    "statement": "Compute the LIST-side corridor widths per clean rate: the gap in grid steps between the proved list-safe radius (|Lambda| <= eps*|F| above the window) and the proved list-unsafe radius (crossing at the gate), at each rate's official row \u2014 the list analogue of W = 2.17/2.00/1.12. Previously unpriced; pure computation from the banked list-safe/unsafe formulas (imgfib-conditional bounds + planted arithmetic).",
+    "attack_surface": "the corridor_eaters machinery, list-side formulas; delegable compute",
+    "falsifier": "a rate where the list corridor is already <= 1 grid step (adjacency free)",
+    "refs": [
+      "experimental/notes/roadmaps/corridor_eaters_computation.md"
+    ],
+    "notes": "PROVED on replay (Codex packet, verifier PASS): W_list = 1.6125 / 1.0751 / 1.3283 cap-grid steps at 1/4, 1/8, 1/16. CRITICAL OBSERVATION for the ledger: all three sit just INSIDE the scale-free floor's total reach (1.633 / 1.099 / 1.375 from the sweep) \u2014 margins +0.021 / +0.024 / +0.047 steps. If exact arithmetic confirms (floats too close to call at 1/4), the LIST corridor family closes by the same mechanism. The ledger packet must do the comparison in exact rationals."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

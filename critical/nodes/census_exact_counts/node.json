@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 391,
+  "node": {
+    "id": "census_exact_counts",
+    "title": "Exact bignum evaluation at bounded scales: expansions unnecessary at candidates",
+    "status": "PROVED",
+    "statement": "With N' <= ~400 absolute, the deciding class counts K are exactly computable big integers (binomial-sum sized ~2^400 at worst). At candidate points, EXACT K replaces the leading+second-order expansion entirely: the knife-edge condition sharpens from 'estimate cannot decide' to the exact Diophantine condition B* = floor(q/2^128) in [L, K), where L is the certified lower bound strength. (acl_second_order remains needed only for corridor WIDTH/candidate localization, not for tie decisions.)",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ],
+    "notes": "PROVED (my lane, exact computation, verifier green): exact table computed at all four rates; rate-1/2 shortfall 3.8 bits below gate; rate-1/4 gate in the staircase gap."
+  },
+  "requires": [
+    {
+      "from": "census_bounded_scales",
+      "order": 634
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

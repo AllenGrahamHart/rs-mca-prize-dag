@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 212,
+  "node": {
+    "id": "isotypic",
+    "title": "Isotypic refinement: escape iff multi-isotypic (x1)",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s3b_ii_strip_periodic.md#1"
+    ],
+    "statement": "[transcribed 2026-07-27 from the upstream source read via git -C ../rs-mca show origin/main:experimental/notes/roadmaps/proof_sketch/s3b_ii_strip_periodic.md#1, tagged 'PROVED-cited']. THE ISOTYPIC REFINEMENT: the confinement/equivariance bridge is EXACT only on the equivariant stratum. Multi-isotypic words on K_M-stable supports produce slopes that ESCAPE confinement \u2014 established by a verified witness on main. Hence support-periodicity implies line-periodicity only after restricting to the equivariant (single-isotypic) stratum."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "payment_completeness",
+      "order": 568
+    }
+  ],
+  "refutes": []
+}

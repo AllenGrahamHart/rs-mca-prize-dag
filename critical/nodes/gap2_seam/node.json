@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 214,
+  "node": {
+    "id": "gap2_seam",
+    "title": "GAP-2 seam closed: pullback => M | t_denom",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s4_reserve_dictionary.md#3"
+    ],
+    "notes": "IN FLIGHT: PR #189 (Q2.2 executed). | FLIP on replay (consolidation agent): PROVABLE -> PROVED (verify 3/3 replayed).",
+    "statement": "[lifted verbatim 2026-07-27 from this node's own proof.md Statement section] GAP-2 seam. In the normal-form / residue framework (`thm:normalform`,\n`def:residue`, banked), a bad-slope datum on a residue line carries a\n**denominator polynomial** `E in F[X]` of degree `t_denom` with\n`1 <= t_denom <= r`, where `r = n - k`. Say the datum is a **pullback** if\n`E = g(X^M)` for some `g in F[X]` and integer `M >= 2`. Claim:\n\n1. **(Divisibility.)** A pullback denominator forces `M | t_denom`.\n2. **(Strip coincidence.)** If moreover `M | gcd(n,k)`, then the line-side\n   aperiodic strip (`rem:aper`: remove pullback denominators) coincides with\n   the support-side **rate-preserving** quotient strip (the `Q_M = Q_1(H_{n/M})`\n   recursion, banked): on every exact-agreement bucket `A`,\n   `M | j  <=>  M | t_win`, where `j = n - A`, `t_win = A - k`.\n3. **(Residual seam classified.)** The only strata that are periodic on the\n   support side but *not* pulled back rate-preservingly are those with\n   `M | gcd(n,j)` but `M !| k`: these are **non-rate-preserving folds** \u2014 the\n   quotient row `(n/M, k/M)` is not integral, the syndrome conditions do not\n   descend to a valid RS row, so they stay on the aperiodic side and carry no\n   alignment boost (checker convention `rem:aper`).\n\nParts 1\u20132 are the load-bearing divisibility content and are proved here in full.\nPart 3's classification is proved; its \"no boost\" clause is the banked\n`rem:aper` convention, cited (not re-derived), and flagged as such."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

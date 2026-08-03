@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 820,
+  "node": {
+    "id": "petal_column_lemma",
+    "status": "PROVED",
+    "refs": [
+      "critical/nodes/petal_g1_layer_maps/notes/bsr_repose_20260713/bsr_gate_repromotion.md",
+      "critical/nodes/petal_g1_layer_maps/notes/bsr_repose_20260713/bsra_findings.md"
+    ],
+    "statement": "LEMMA COL (the column lemma; designed + independently audited 2026-07-13, word-free \u2014 NO G1 supply consumed): realized scale-M top-band classes per received word <= C(n/M, A/M) = [n/(n-A)] * Q_M(A) <= 4 Q_M(A) at P1-OWN cells, uniform in n (per-rate maxima {4, 2, 4/3, 4/3}; attained only at rho = 1/2, M = t). CHAIN (all PROVED): the stabilizer partition (petal_g2_support_forcing) -> fiber-union support injection (counts ALL possible supports \u2014 hence word-free) -> multiplicity-1 (petal_g3_full_support_codeword_injectivity) -> the Pascal ratio identity. PIN #151: 'M <= t is the nondegeneracy boundary' is an iff only when M | k (counterexample (32,8,16)); the load-bearing direction (all M <= t nondegenerate) holds grid-wide. Verified against all 514 banked profile cells (zero violations) + a fresh unbanked cell."
+  },
+  "requires": [
+    {
+      "from": "petal_g2_support_forcing",
+      "order": 1374
+    },
+    {
+      "from": "petal_g3_full_support_codeword_injectivity",
+      "order": 1375
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

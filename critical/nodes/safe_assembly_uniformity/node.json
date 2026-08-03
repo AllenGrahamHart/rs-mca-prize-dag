@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 404,
+  "node": {
+    "id": "safe_assembly_uniformity",
+    "title": "The mca_safe assembly implication, priced: constants and conventions uniform over the family",
+    "status": "PROVED",
+    "key": true,
+    "statement": "The implicit lemma 'counting_frame + fm1 + strip + paid_closure + r2 + ext_lift => mca_safe' holds UNIFORMLY over the admissible family: (i) every exponent (B <= 3, B_F, budget arithmetic) is an absolute constant, not n-drifting; (ii) the stratified sum + first-match dedup compose with endpoint conventions printed once (descriptor-generated); (iii) the composition survives k up to 2^40 scales symbolically (wp3_2). The last unpriced composite implication of the adjacency/payment-completeness class.",
+    "attack_surface": "mostly bookkeeping made explicit: a one-note assembly proof template with a constants ledger; the genuine content is the uniformity audit of each input's constant",
+    "falsifier": "any input theorem whose constant is discovered to drift with n (would localize immediately in the constants ledger)",
+    "refs": [
+      "proof_sketch/s8_s9_assembly_and_negative.md"
+    ],
+    "notes": "prices the children => parent step that the map previously asserted silently; its mirror on the list side rides list_planted_arithmetic + imgfib's uniform exponent | PROMOTED red -> amber (my referee): the uniformity claim's TRUE hypotheses wired \u2014 clause (i) exponents-absolute is carried by xr_target_budget_audit (six-row exact, PROVED) + dyadic_profile_evaluation (n-uniform, RowC = prize, PROVED) + census_bounded_scales (absolute scale window, PROVED); clause (ii) dedup composition = strat_tree (CONDITIONAL, the partition theorem). The descriptor was a packaging convenience wired as a hypothesis \u2014 demoted to ev. Discharges when strat_tree lands."
+  },
+  "requires": [
+    {
+      "from": "xr_target_budget_audit",
+      "order": 840
+    },
+    {
+      "from": "dyadic_profile_evaluation",
+      "order": 841
+    },
+    {
+      "from": "census_bounded_scales",
+      "order": 842
+    },
+    {
+      "from": "strat_tree",
+      "order": 843
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

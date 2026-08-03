@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 243,
+  "node": {
+    "id": "strat_tree",
+    "title": "Stratification case-tree T0-T7 (= dedup convention)",
+    "status": "PROVED",
+    "refs": [
+      "wp_detail/wp2_3_stratification_case_tree.md"
+    ],
+    "statement": "The executable T0-T7 first-match tree = THE dedup convention; partition theorem proved; fuzz-tested per wp2_3 \u00a74.",
+    "closure": "artifact",
+    "notes": "NODE-KIND FLAG (hygiene audit 2026-07-04): artifact+embedded theorem (partition thm is the propositional core) \u2014 not truth-apt as stated; queue: reword to its propositional core or demote to support/queue item. | FLIP on replay (Codex rednode wave 2): TARGET -> CONDITIONAL; packet in nodes/strat_tree/."
+  },
+  "requires": [
+    {
+      "from": "stratification_partition_thm",
+      "order": 217
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

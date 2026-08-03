@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 322,
+  "node": {
+    "id": "paid_ext_fn",
+    "title": "Paid_ext(A): the s6 import rule (0 if generating)",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s6_extension_lift.md#2"
+    ],
+    "notes": "IN FLIGHT: #194 | FLIP on replay (Codex wave 3): PROVABLE -> PROVED.",
+    "statement": "THE EXTENSION PAID COLUMN Paid_ext(A), by cases. On GENERATING rows `generating_escape` proves the extension escape column is zero (the generator field is already the row field, so there is no nontrivial intermediate extension contribution to price). On NON-GENERATING rows `ext_import` gives that the extension-pole witness count crosses the gate exactly at the imported S7 list window, so the column is computed by applying that imported list-window rule to the base row. [statement written 2026-07-27 from this node's own proof.md]"
+  },
+  "requires": [
+    {
+      "from": "ext_import",
+      "order": 194
+    },
+    {
+      "from": "generating_escape",
+      "order": 195
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

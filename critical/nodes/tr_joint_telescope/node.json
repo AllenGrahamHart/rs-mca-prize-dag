@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 462,
+  "node": {
+    "id": "tr_joint_telescope",
+    "title": "FACE-1 CORE (derivation candidate): jointness telescopes to the joint stabilizer",
+    "status": "PROVED",
+    "key": true,
+    "statement": "Simultaneous K_M-stability across an active character set R is agreement with the JOINT stabilizer subcode \u2014 if the product over R telescopes into a single instance at the joint scale, Conjecture TR's jointness is STRUCTURAL (a tower statement, #212's machinery) rather than analytic, and the q^{M-1} per-leaf over-aggregation that M4 identified disappears by construction. E29's measurement then calibrates constants instead of deciding existence. AMENDED PER E34 (15/15, 519 cells): replace R by its congruence-class CLOSURE mod D = gcd(M, {r - r'}): the joint stabilizer is K_D, all of R lies in one class r0 mod D, and the joint-stabilizer subcode is a SINGLE character-r0 isotypic instance at scale D (Lemma J1); joint data is contained in telescoped data always, with EQUALITY iff |R| = M/D (Lemma J2). Census: containment in all 519 cells (falsifier never fired); equality on all 343 full-class cells \u2014 the q^{M-1} over-aggregation vanishes BY CONSTRUCTION. E29 demotes to constants calibration.",
+    "attack_surface": "compose #212's per-character confinement with the tower recursion at the joint subgroup; the F_13 toy (already instrumented in the M4 verifier) tests telescoping exactly",
+    "falsifier": "the F_13 joint product strictly exceeding every telescoped bound (mechanical check)",
+    "refs": [
+      "experimental/notes/roadmaps/gap1_terminal_reserve.md"
+    ],
+    "notes": "Scoping caveat (honest): E34's identity is in the linear-model counts (E6/M4 convention); LIFTING it to the aligned A_r sets is face 1's residual statement \u2014 small, named, and toy-instrumented by the same verifier. | LIFTED AND PROVED (tr_lifting_lemma.md, 21/21 over 330 cells with real codeword enumeration): LL1 is a POINTWISE identity for every codeword \u2014 the agreement condition never has to decompose, it merely filters the domain \u2014 so telescoping commutes with alignment exactly on stable sets (LL2). Count transfer holds iff the tower is NON-DEGENERATE ([K(gamma):K] = M/D); degenerate towers lose it (CONDITIONAL there, with an engineered collision witness word W5 \u2014 10 degenerate cells verified). Genuine-instance containment is one-directional (harmless direction). Exact stability is load-bearing; weakest repair stated. Face 1's jointness face is CLOSED. | QA.24 (#19, 28/28 replayed): degenerate towers are NOT absent \u2014 all 153 nontrivial (row, M) triples admit correction cases, including all 50 M > t consumer triples. The F2 correction column is emitted (mechanical bookkeeping, not a gap): TR's count transfer carries the correction column everywhere rather than assuming non-degeneracy."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "gap1_noneq_mass",
+      "order": 776
+    }
+  ],
+  "refutes": []
+}

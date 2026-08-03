@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 513,
+  "node": {
+    "id": "list_corridor_ledger",
+    "title": "list corridor ledger",
+    "status": "PROVED",
+    "statement": "The list-side assembly: per clean rate, the available eaters (planted-arithmetic pinning, census windows, any list analogue of the second-order term) recover >= W_list(rate) - 1 grid steps \u2014 collapsing the list bracket to adjacency. Exhaustive over the three rates; becomes list_adjacency_closing's implication packet. Evidence-gated on list_corridor_widths.",
+    "attack_surface": "the three-row table, mirroring corridor_ledger",
+    "falsifier": "a rate whose list eaters cannot reach W_list - 1",
+    "refs": [
+      "experimental/notes/roadmaps/corridor_eaters_computation.md"
+    ],
+    "notes": "PROVED on replay (Codex assembly packet, verifier PASS): the scale-free floor covers W_list - 1 at all three clean rates with exact-rational gains (81/128, 203/2048, 3/8); margins +0.0203 / +0.0240 / +0.0467. THE LIST CORRIDOR FAMILY CLOSES by the same mechanism as the mca family \u2014 the floor is list-native (it constructs the list)."
+  },
+  "requires": [
+    {
+      "from": "list_corridor_widths",
+      "order": 818
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 602,
+  "node": {
+    "id": "ef_descended_cycle_inventory_soundness",
+    "title": "EF descended-cycle inventory soundness",
+    "status": "PROVED",
+    "statement": "If an inventory covers every B-defined pole-free horizontal cycle produced after full-orbit descent and labels each cycle with a verified base-descended, proper-subfield/tower-confined, or noncontainment-degenerate certificate, then ef_descended_cycle_classification_payload holds.",
+    "attack_surface": "formal coverage and label-dispatch rule for EF descended-cycle inventories",
+    "falsifier": "a complete valid descended-cycle inventory while the EF classification payload fails"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

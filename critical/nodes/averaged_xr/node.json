@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 225,
+  "node": {
+    "id": "averaged_xr",
+    "title": "Exact slope-resolved support-pair moment",
+    "status": "PROVED",
+    "closure": "proof",
+    "upstream": {
+      "label": "M1 average support-collinearity / restricted-family certificate",
+      "relation": "IDENTICAL"
+    },
+    "refs": [
+      "critical/nodes/averaged_xr/statement.md",
+      "critical/nodes/averaged_xr/proof.md",
+      "critical/nodes/averaged_xr/claim_contract.md",
+      "critical/nodes/averaged_xr/verify.py",
+      "critical/nodes/averaged_xr/source_pin.json",
+      "critical/nodes/averaged_xr/status_ruling.md",
+      "critical/nodes/averaged_xr/sketch.md"
+    ],
+    "statement": "For exact (k+t)-supports S,T at exchange distance d, the joint top-coefficient interpolation map has rank t+min(d,t). Hence for each fixed slope z their exact joint contribution probability is alpha_d(1-2q^(-t)+alpha_d), alpha_d=q^(-t-min(d,t)); supports at distance d>=t are exactly independent. Summing gives the exact restricted-family fixed-slope factorial moment consumed by averaged_slope_conversion.",
+    "notes": "REPAIRED CLOSURE 2026-07-27. The former auto-proof was invalid, but upstream commit 674503f contains a later elementary exact support-collinearity theorem. Locally rederived and verified on 9,047 interpolation-matrix support pairs plus exhaustive toy pair counts. Scope is the averaged fixed-slope moment only, not worst-case XR or cross-slope independence."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_wall",
+      "order": 60
+    },
+    {
+      "to": "petal_growth",
+      "order": 105
+    },
+    {
+      "to": "xr_gvn",
+      "order": 571
+    }
+  ],
+  "refutes": []
+}

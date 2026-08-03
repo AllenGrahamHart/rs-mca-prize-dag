@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 776,
+  "node": {
+    "id": "petal_k4_primitive_bound",
+    "status": "PROVED",
+    "key": true,
+    "statement": "PETAL PREDICATE K4 (stabilizer-primitive bound, band-restricted chart form; pin G5 inside): for every chart supplied by petal_g1_layer_maps at official rows, the stabilizer-primitive part (aperiodic agreement sets, c(S)=1, the same pinned notion as petal_g2_support_forcing \u2014 pin G5) of the auxiliary list ImgFib_{U_{D0}}^{<=d}(a;T) has size <= n^{b4}, uniformly over charts and U, under imgfib's reserve and lower cutoff. PROVENANCE: the band-restricted instantiation of upstream prob:capf-primitive-image-fiber (kernel K4 of the kernel-basis program; v13_capf_planted_lower_count fixed the correct target form \u2014 the quotient-periodic branch must be charged separately, and that charge is NECESSARY). HONEST SCOPE: stated where the chain consumes it; neither implies nor follows from the row-level upstream form; a future row-level proof needs a band-restriction bridge before consumption here. FALSIFIER: a chart family with super-polynomial aperiodic auxiliary lists above the reserve. || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/petal_growth/notes/QUALITY_petal_k4_primitive_bound.md || JOHNSON NARROWING (2026-07-12 wave-3; append per catch #104 \u2014 the v13 planted provenance and the band-restriction-bridge clause above STAND): three PROVED tools narrow the open content \u2014 petal_k4_johnson_slice (Johnson double-count, honest Paper-D provenance), petal_top_band_residual_free_johnson (list <= m on the pinned band; the band condition d >= l(m-2) IS pin P1's d >= M(t-2) exactly), petal_retained_zero_effective_degree (retained-zero factorization drops effective degree d -> d-r preserving support + stabilizer; needs R cap T = 0, pinned upstream). The a = l+d-r seam checked against the banked a = sigma+d+1-|R0| (petal size l = sigma+1 pinned upstream); pin G5 verbatim. CATCH #107: the narrowed form consumes a retained-zero chart constraint G1's atlas never pinned \u2014 now pinned there (upstream prop:capf-concrete-sunflower shows the banked construction satisfies it). || CHART-LEVEL CLOSE (2026-07-13 wave-4 import; the branch rewrote rather than appended \u2014 custody-merged per #104/#120; binding new content follows, full text in the node folder): PETAL K4 THEOREM (b4=1): for every full-petal G1 chart on a length-n row with k>=2 satisfying the canonical E22 remainder |R0|<ell and P1 top band d>=ell(m-2), the complete chart image has size at most m+1<=n, hence its stabilizer-primitive part has size at most n. This includes all quotient descendants in G1's scope. PROOF CHAIN: retained-zero effective-degree factorization; full-petal touched-set CRT injection; top-band binomial-tail collapse. Mixed-petal lists are outside this consumer.",
+    "notes": " | 2026-07-13 CONVERGENCE: the census gate's post-packet residual (row-level aperiodic sub-Johnson quotient bound at oversized field, single cell a = k'+1 per pair under P1-own) is THIS node's content in row-level form \u2014 one lemma now serves both reds; the oversized field q >= M^2 n'^2 is the new leverage unavailable at official-row charts. | 2026-07-13 WAVE-4: CLOSED at the chart level (retained-zero factorization -> CRT touched-set injection -> EXACT tail collapse Sigma C(m,t) = m+1; audited link-by-link, 4 verifiers + live mutation controls, row-agnostic). Lands ONLY as a package with G1's weighted re-pose (catch #117: the weighted census alone gives ~n^7/2 through the OLD abstract K4 \u2014 the package ledger (64/63)(121/128) = 121/126 < 1 is exact). The row-level successor red remains open (the census gate's lemma). | 2026-07-13 #124: the row-level general-word form is now REFUTED (quotient_row_subjohnson_bound) while this chart-level close stands \u2014 the G5 honest-scope clause ('neither implies nor follows from the row-level form') is vindicated in the strongest possible way."
+  },
+  "requires": [
+    {
+      "from": "petal_top_band_tail_collapse",
+      "order": 1365
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_g1_k4_scale_reserve",
+      "order": 1369
+    }
+  ],
+  "refutes": []
+}

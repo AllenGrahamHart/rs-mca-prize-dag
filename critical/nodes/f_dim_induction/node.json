@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 399,
+  "node": {
+    "id": "f_dim_induction",
+    "title": "The divisor-depth induction: excess concurrency buys shared-divisor depth, one unit per dimension",
+    "status": "PROVED",
+    "key": true,
+    "statement": "F_r for gcd-trivial r-flats by induction: at each multiplicity->=j point, either the hyperplanes through it are SPREAD (pair/r-tuple counting binds \u2014 now PROVED as f_spread_descent_dichotomy L1+L2) or RANK-DEFECT coincidence (corrected from 'twin-type': equal hyperplanes OR a common pencil/subflat) forces a shared divisor and strict descent (PROVED, L3). REMAINING CONTENT (the honest residue): the GLOBAL PACKING STEP \u2014 the spread bound carries an n^r-type numerator; the induction closes only if f_scale_recursion (or a packing argument) absorbs the r-tuple count into an absolute exponent B_F.",
+    "attack_surface": "REGIME-CORRECTED (Brief E): the induction/packing bound is for PROPER low-dim planes dim P << j (the applied fiber-plane regime), NOT the degenerate full-space j=dim P case. Close the packing step in that regime via f_scale_recursion + the spread bound (now non-vacuous).",
+    "falsifier": "toy r = 3 census (extend E7) exceeding the compounding-depth prediction",
+    "refs": [
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
+    ],
+    "notes": "PRO BRIEF B (partial, certified): dichotomy + descent PROVED and banked as f_spread_descent_dichotomy; the twin-only reading REFUTED in dim >= 3 (statement corrected); the residue is exactly the global packing step. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/f_dim_induction/conditional.md. | BRIEF E (Pro, target B): the rational-normal/MDS flat P=span{1..X^r} at j=r (the FULL ambient P^j) has #(P cap D_r)=C(n,r) >> n^{B_F}, gcd-trivial, no spread reuse \u2014 REFUTES the absolute-B_F bound AS STATED. But this is the DEGENERATE j=dim P case where the spread bound C(n,r)/C(j,r) is VACUOUS (=C(n,r)) and conj_f's forced shared divisor has degree j-dim P = 0. The applied regime is dim P << j (low-dim fiber/kernel planes in high-degree ambient) where C(n,r)/C(j,r) BITES (verified 120/10, 120/28...). FIX: the bound holds in the regime dim P <= j-1 (proper planes); the full-space case is out of Conjecture F's scope. FLAG: verify f_primitive_case carries this regime qualifier (content audit)."
+  },
+  "requires": [
+    {
+      "from": "f_dim2_skeleton",
+      "order": 653
+    },
+    {
+      "from": "f_dual_distance_frame",
+      "order": 655
+    },
+    {
+      "from": "f_spread_moment_count",
+      "order": 656
+    },
+    {
+      "from": "f_sparse_descent_step",
+      "order": 657
+    },
+    {
+      "from": "f_many_sparse_structure",
+      "order": 658
+    },
+    {
+      "from": "f_descent_termination",
+      "order": 693
+    },
+    {
+      "from": "f_spread_descent_dichotomy",
+      "order": 837
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

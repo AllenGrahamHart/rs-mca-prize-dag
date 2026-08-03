@@ -1,0 +1,15 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 569,
+  "node": {
+    "id": "hankel_moment_clean_leaves",
+    "title": "hankel moment clean leaves",
+    "status": "PROVED",
+    "statement": "L4: direction-dual cleanliness (or pinned-value variant) at terminal unpaid primitive Hankel leaves \u2014 the member-count input QF.12 leaves family-specific.",
+    "notes": "PROVED via the pinned-value variant (cleanliness is FALSE in general \u2014 the MDS monic-slice example); verified 279 flats."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

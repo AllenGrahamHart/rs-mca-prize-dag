@@ -1,0 +1,49 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 4,
+  "node": {
+    "id": "s0_zero_open",
+    "title": "S0 object audit: zero OPEN axes",
+    "status": "PROVED",
+    "gate": "all",
+    "key": true,
+    "refs": [
+      "proof_sketch/s5_s0_statements_and_object.md#4"
+    ],
+    "statement": "Every object axis is EQUAL to the official reading or BRIDGED with the loss printed (the propositional core; the process discipline 'zero OPEN axes before any prize-facing claim' is the campaign rule that enforces it, not part of the claim).",
+    "notes": "PROMOTED red -> amber (ring-2 sweep, node 2): the statement IS the conjunction of the per-axis resolution nodes \u2014 inventory verified COMPLETE against s5_s0's axis table (axes 3/5/6/7 = axes_verified PROVED; axes 1/2/4/8/9 = nodes; the rules layer = rules_freeze PROVED). Axis 8 was MISSING (defect #5) \u2014 node-ified and wired by this audit. Definitional assembly: flips green when the axis nodes land. | DISCHARGED on the axis cascade: all seven axis/rules inputs green; the pinned definitional conjunction lands. THE CONVENTIONS GUARD IS GREEN."
+  },
+  "requires": [
+    {
+      "from": "axes_verified",
+      "order": 9
+    },
+    {
+      "from": "axis1_batching",
+      "order": 10
+    },
+    {
+      "from": "axis2_ell",
+      "order": 11
+    },
+    {
+      "from": "axis4_predicate",
+      "order": 12
+    },
+    {
+      "from": "axis9_dither",
+      "order": 13
+    },
+    {
+      "from": "rules_freeze",
+      "order": 15
+    },
+    {
+      "from": "axis8_generating",
+      "order": 798
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

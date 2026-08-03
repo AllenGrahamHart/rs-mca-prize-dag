@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 680,
+  "node": {
+    "id": "e22_residual_profile_generating_function",
+    "title": "E22 residual-profile generating function",
+    "status": "PROVED",
+    "statement": "For fixed dyadic M_i<M_j, before imposing lower-scale minimality, canonical scale-M_i data raw-admissible at M_j are counted exactly by the product generating function that chooses selected M_i-fibers by complete or incomplete M_j-parent and then chooses canonical tails in unselected M_i-fibers subject to b+M_i*r<M_j.",
+    "attack_surface": "finite product enumeration over coarse parents and unselected fine fibers",
+    "falsifier": "a canonical scale-M_i support counted by the product formula with the wrong residual statistic or tail multiplicity"
+  },
+  "requires": [
+    {
+      "from": "e22_overlap_nested_fiber_residual_identity",
+      "order": 1014
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1161
+    }
+  ],
+  "refutes": []
+}

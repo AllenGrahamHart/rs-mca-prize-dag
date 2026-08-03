@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 634,
+  "node": {
+    "id": "dli_deligne_weyl_transfer",
+    "title": "DLI Deligne-to-Weyl transfer",
+    "status": "PROVED",
+    "statement": "If, for every central profile, nonzero frequency, and harmonic m in the DLI ranges, the odd-evaluation phase on each square-root component defines a geometrically nontrivial bounded-conductor trace sheaf whose conductor budget has harmonic total o(t), then Deligne/Weil square-root cancellation gives the finite-frequency Weyl-sum bounds required by dli_odd_eval_exponential_sum_bound.",
+    "attack_surface": "standard curve/sheaf exponential-sum transfer plus harmonic summation of the conductor budget",
+    "falsifier": "a geometrically nontrivial bounded-conductor odd-evaluation phase satisfying the stated conductor budget but failing square-root Weyl cancellation"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 483,
+  "node": {
+    "id": "x24_char0_dyadic_descent",
+    "title": "PROVED (autonomous x24, replayed 15/15): char-0 dyadic trades ARE full fibers",
+    "status": "PROVED",
+    "key": true,
+    "statement": "n = 2^s, H = mu_n(C): disjoint h-subsets P, Q with equal first h-1 elementary symmetric sums satisfy \u2014 h not a power of two: NO such trade exists; h a power of two: P and Q are full mu_h fibers (the PAID cyclic class). Characteristic-zero dyadic trades are EXACTLY cyclic full-fiber trades. The antipodal-descent classification, completed.",
+    "refs": [
+      "experimental/notes/roadmaps/x24_char0_dyadic_descent.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1075
+    }
+  ],
+  "refutes": []
+}

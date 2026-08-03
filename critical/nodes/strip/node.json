@@ -1,0 +1,49 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 208,
+  "node": {
+    "id": "strip",
+    "title": "Strip-periodic decomposition: quotient columns plus GAP-1 residual",
+    "status": "CONDITIONAL",
+    "gate": "all",
+    "refs": [
+      "proof_sketch/s3b_ii_strip_periodic.md"
+    ],
+    "notes": "combinatorics PROVED; completeness rests on GAP-1 pricing | AMBER AUDIT 2026-07-06: was ILL-POSED (terse stub); exact assertion written from the folder ledger + req structure. | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md.",
+    "statement": "EXACT FORM (written 2026-07-06, replacing the terse stub): for each admissible row, the stratified first-match decomposition of B_C(a_safe) strips the periodic strata EXACTLY -- periodic_strata + q_recursion + confinement + isotypic + gap2_seam (all PROVED) account for every periodic-stratum codeword with no double counting -- so the residual aperiodic-stratum count equals the non-equivariant gap-1 alignment mass. IMPLICATION: given gap1_noneq_mass (<= poly(n)*FM on the isotypic escape stratum), the aperiodic stratum is priced and the mca_safe stratified sum closes."
+  },
+  "requires": [
+    {
+      "from": "periodic_strata",
+      "order": 43
+    },
+    {
+      "from": "q_recursion",
+      "order": 44
+    },
+    {
+      "from": "confinement",
+      "order": 45
+    },
+    {
+      "from": "isotypic",
+      "order": 46
+    },
+    {
+      "from": "gap1_noneq_mass",
+      "order": 47
+    },
+    {
+      "from": "gap2_seam",
+      "order": 48
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_globalness_from_ledger",
+      "order": 713
+    }
+  ],
+  "refutes": []
+}

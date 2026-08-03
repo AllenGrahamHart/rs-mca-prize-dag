@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 731,
+  "node": {
+    "id": "f2_newton_empty_extremes",
+    "status": "PROVED",
+    "statement": "F2 NEWTON EMPTY-EXTREMES LEMMA (2026-07-09, campaign; CORRECTED same night, catch #6; note critical/nodes/u2c_giant_tnull_dichotomy/notes/F2_NEWTON_EMPTY_EXTREMES.md, digest F2_NEWTON_EMPTY_EXTREMES_PASS, 6 rows exhaustive): for 1 <= b <= min(t, q-1) there is NO t-null block of size b (Newton inversion needs 1..b invertible in F_q, i.e. b < char q: p_1..p_b = 0 forces e_1..e_b = 0, but e_b = +-prod(S) != 0); none at b >= n - min(t, q-1) by the PROVED complementation lemma. CATCH #6 (self-caught within the hour): the first banked version applied this with width t at the official shape \u2014 but char q ~ 2^31 < t ~ 7e10 there, so the EMPTY bands have width min(t, q-1) ~ 2^31 per side (still enormous; NOT 2^36 as first claimed). The toy verification (q > n rows) could not see the char bound. Also noted: in char q the conditions are Frobenius-redundant (p_{qj} = p_j^q), and any p->e dictionary at indices >= q is char-limited \u2014 mid-band structure arguments must respect this. OFFICIAL SHAPE (pinned, beta-normalized): t*log2(q) ~ 2.15e12 > n ~ 1.1e12; extreme bands EMPTY to width ~2^31 each side; Weil-Newton zero reach (unchanged); mid-band tolerance ~2^{1.05e12} and the per-condition-loss target ~2^15 (unchanged \u2014 the tolerance never used the band width). || UPGRADED TO UNCONDITIONAL (2026-07-10, squarefree/p-th-power argument, digest F2_UNCONDITIONAL_EMPTY_BAND_PASS): for b <= t the full-ladder dictionary forces ell*_S into F_q[X^p], i.e. a p-TH POWER \u2014 but ell*_S is squarefree (distinct roots), so b = 0. NO t-null blocks at ANY 1 <= b <= t, in any characteristic, any q = p^k; none at b >= n-t by complementation. Catch #6's char-limited width min(t, p-1) is SUPERSEDED: the empty bands have FULL width t (~2^36/side at prize-max) with a correct proof. Decisive extension-field test: F_25 (p=5, n=24), b = 6/7/8 > p-1 = 4 (where the Newton proof is silent), 1.2M subsets, dictionary exact, zero t-nulls. PRECISION (same run): at official rows mu_n lives in the EXTENSION field (n > p-1), so the dictionary's free indices are p-multiples (char), not q-multiples \u2014 verified in F_25."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1250
+    }
+  ],
+  "refutes": []
+}

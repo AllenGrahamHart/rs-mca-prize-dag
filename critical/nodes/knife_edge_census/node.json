@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 387,
+  "node": {
+    "id": "knife_edge_census",
+    "title": "The genuine residue: census + exact handling of knife-edge rows",
+    "status": "CONDITIONAL",
+    "key": true,
+    "statement": "REFINED: with bounded scales + exact counts, the census is exact Diophantine arithmetic \u2014 windows [L(n,A), K(n,A)) in B*-space per rate/candidate, undecided rows = admissible primes landing inside. Ties exist systematically (B* sweeps all integers as q varies); the residual undecided set shrinks exactly as certification strength L grows toward K. Full grand-challenge closure requires L within O(1) of K at the tie point OR per-prime typicality; exhibited-row partials dodge entirely (census_dodge_selection).",
+    "attack_surface": "needs acl_second_order first (the error band's width); then the census is mechanical over the descriptor family",
+    "falsifier": "a dense knife-edge family (would mean the expansion's error model is wrong, not that adjacency fails)",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ],
+    "notes": "PROMOTED red -> amber (Codex flip packet, my replay 8/8; flip_packets/knife_edge_census.md): statement-level assembly over the wired kids."
+  },
+  "requires": [
+    {
+      "from": "certified_valueset_lower",
+      "order": 631
+    },
+    {
+      "from": "census_window_arithmetic",
+      "order": 636
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

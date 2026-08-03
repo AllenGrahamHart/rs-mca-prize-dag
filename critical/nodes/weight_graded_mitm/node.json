@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 436,
+  "node": {
+    "id": "weight_graded_mitm",
+    "title": "Per-row certified radius extension: multiplier + meet-in-the-middle to weight ~24",
+    "status": "PROVED",
+    "statement": "SIMPLIFIED (post-impossibility): direct meet-in-the-middle MOD P needs NO multiplier \u2014 enumerate signed sparse sums of zeta-powers directly, check none vanish beyond the cyclotomic relations; cost ~C(N', w/2) 2^{w/2}, feasible to w ~ 24-30 at N' = 128. Extends the certified radius per row with a printed certificate.",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ],
+    "notes": "FLIP on replay (consolidation agent, verifier replayed): PROVABLE -> PROVED (HONESTY CORRECTION folded in: feasibility ceiling w~20 routine / w~24 with the Galois-orbit reduction; w~30 was aspirational and is withdrawn)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

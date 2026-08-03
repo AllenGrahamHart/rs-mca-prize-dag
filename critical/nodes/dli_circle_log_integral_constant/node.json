@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 632,
+  "node": {
+    "id": "dli_circle_log_integral_constant",
+    "title": "DLI circle log-integral constant",
+    "status": "PROVED",
+    "statement": "The exact circle constant in DLI is int_0^1 log |cos(2 pi x)|^2 dx = -2 log 2.",
+    "attack_surface": "classical one-dimensional integral",
+    "falsifier": "a corrected evaluation of the circle integral"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

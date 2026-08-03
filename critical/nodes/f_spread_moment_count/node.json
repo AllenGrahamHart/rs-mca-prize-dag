@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 401,
+  "node": {
+    "id": "f_spread_moment_count",
+    "title": "Dually-spread flats: r-wise moment count gives C(n,r)/C(j,r) \u2014 poly to LOG dimension",
+    "status": "PROVED",
+    "statement": "If w*(P-perp) > r: every r-subset of traces meets in exactly one point, so sum of C(mult, r) <= C(n,r), giving #(P cap D_j) <= C(n,r)/C(j,r) ~ (n/j)^r. HONEST SCOPE: poly(n) only for r = O(log n); in-band deficiencies r ~ n 2^-9 exceed this \u2014 high dimension MUST route through descent/structure, not moments.",
+    "refs": [
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
+    ],
+    "notes": "FLIP on replay (Codex wave 4): PROVABLE -> PROVED."
+  },
+  "requires": [
+    {
+      "from": "f_dual_distance_frame",
+      "order": 659
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f_consumer_scoped",
+      "order": 686
+    }
+  ],
+  "refutes": []
+}

@@ -37,6 +37,9 @@ EXPECTED_COUNTS = {
 }
 
 EXPECTED_NO_PROOF = {
+    # Manifest migration made five legacy-ref-only PROVED critical nodes own a
+    # folder for the first time. node.json is graph metadata, not a proof.
+    "b1_char0_giant_coset_theorem",
     "f2_edge_lemma",
     "f2_full_ladder_dictionary",
     "f2_k1_contraction_theorem",
@@ -45,8 +48,12 @@ EXPECTED_NO_PROOF = {
     "f5_lineray_saturation_instrument",
     "f5_wcollision_pair_moment_identity",
     "floor_budget_slack_scan",
+    "petal_column_lemma",
     "petal_small_scale_staircase_census",
     "v13_capf_planted_lower_count",
+    "x24_char0_dyadic_descent",
+    "x81_minimal_trade_square_shift",
+    "x83_uniform_square_shift_obstruction_gate",
 }
 
 EXPECTED_UNREGISTERED_VERIFIER_NODES = {
@@ -125,7 +132,7 @@ def main() -> None:
             category = "local-verifier"
         elif remote:
             category = "remote-only"
-        elif directories:
+        elif any(any(directory.rglob("*.md")) for directory in directories):
             category = "folder-md-only"
         elif node.get("refs"):
             category = "legacy-ref-only"

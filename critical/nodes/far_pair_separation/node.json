@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 407,
+  "node": {
+    "id": "far_pair_separation",
+    "title": "THE RESIDUE: generator-factored difference designs + per-row generator certification",
+    "status": "CONDITIONAL",
+    "key": true,
+    "statement": "Conditional on generator_economy and cluster_certificates, a sufficiently large pairwise-nonzero center design expands to a class family whose internal and cross-cluster e1 differences are all certified by polynomially many per-row generator checks. || N11 STATUS RULING (2026-07-22, wave-20 ratified): demoted from the false-green frontier; the stated claim is an OPEN PROBLEM pending re-proof (banked implication proofs and the return-to-PROVED path are in status_ruling.md).",
+    "attack_surface": "toy design search at small N' (measure achievable |F| vs g); telescoping-chain and hierarchical-core approaches provably fail by height_only_impossibility unless generator-factored; the difference-set literature in abelian groups is the import candidate",
+    "falsifier": "n/a (construction target); partial designs have PROPORTIONAL value \u2014 census_window_arithmetic converts any achieved L into decided window fractions",
+    "refs": [
+      "critical/nodes/far_pair_separation/statement.md",
+      "critical/nodes/far_pair_separation/conditional.md",
+      "critical/nodes/far_pair_separation/status_ruling.md"
+    ],
+    "notes": "The assembly implication is proved. The generator_economy premise is open after the signed-core padding route was refuted."
+  },
+  "requires": [
+    {
+      "from": "cluster_certificates",
+      "order": 676
+    },
+    {
+      "from": "generator_economy",
+      "order": 677
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

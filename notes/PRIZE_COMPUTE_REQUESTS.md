@@ -11662,29 +11662,3 @@ the matching enumeration, two boundary profiles, exact missing-role identity,
 and hostile count mutations.  PASS promotes only
 `rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion`;
 1536 raw cell-14 outside cases remain open.
-
-### 2026-08-03 coordinator Modal runs: PF2/PF3 full gate + SOL_TARGET_4 N=256
-
-**Authorization.** The user explicitly authorized these Modal runs
-("launch any modal runs you want", 2026-08-03) and directed the
-coordinator to run them directly. Both are falsifier-decisive,
-bounded, exact-arithmetic censuses; estimated aggregate cost < $5.
-
-**Run 1 (support5_pf23_full_gate_modal.py).** Decides the FULL band
-gate for the charge-defeating all-escape-1 fixtures PF2 (q=29, k=15,
-V=10) and PF3 = the E1 pin (q=31, k=19, V=12): per-slope max-agreement
-scan over all C(n, A+1) candidate over-agreement sets (53,130 and
-2,035,800), all q+1 slopes, chunked map. Class-invariance argument
-(dim Ann = 1; trivial shifts act bijectively on codewords) reduces
-the decision to ONE realiser representative per fixture — recorded in
-the launcher docstring. Local part reuses the pilot's own constructor
-(build_pencil_E1) and solves the realiser system exactly.
-
-**Run 2 (sol_target4_n256_modal.py).** Task #36 decisive rung:
-T_4(q, N) at N = 256 for q = 257 (index 1) and q = 769 (index 3,
-the maelcar-audit row), same exact algorithm as the audited replay
-(validated at (32,97) = 792 banked and maelcar's n=128 row).
-C(256,4) = 174,792,640 quadruples, single 48GB container each.
-
-Results land as *_result.json with sha256 printed; both to be
-integrated with custody records after replay.

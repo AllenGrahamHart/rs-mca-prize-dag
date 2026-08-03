@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 511,
+  "node": {
+    "id": "fourth_mechanism_rate8",
+    "title": "THE WEDGE: 0.00707 grid steps at rate 1/8 from any fourth mechanism",
+    "status": "PROVED",
+    "key": true,
+    "statement": "Recover >= 0.00707 grid steps (~0.9 bits) at rate 1/8 from ANY mechanism outside the three-eater partition \u2014 (a) cap-end sharpening, (b) tau* reserve tightening, (c) census crossing pinning. ONE suffices (gate: any). Closing this closes the campaign's first full determination corridor; failing all three lands rate 1/8 bracket-grade honestly.",
+    "attack_surface": "the three alt routes; (b) is likely cheapest (pure re-derivation), (c) is compute-shaped, (a) is proof-shaped",
+    "falsifier": "all three mechanisms exactly computed below the wedge",
+    "refs": [
+      "experimental/notes/roadmaps/acl_second_order_evaluation.md"
+    ],
+    "notes": "PROVED (Pro Brief C, my 11/11 exact replay + real tex citation): route (a) \u2014 the quotient-remainder floor at c = 2^28 delivers 0.0625 steps, 8.8x the wedge. THE RATE-1/8 CORRIDOR'S LEDGER ROW CLOSES. | GATE NORMALIZED ON CLOSE (2026-07-06, minimality law): the delivering route (cap_end_sharpening) is now a req edge; reserve routes (taustar_reserve_tightening, census_crossing_pinning) demoted to ev -- re-promotable if the winner is ever falsified."
+  },
+  "requires": [
+    {
+      "from": "cap_end_sharpening",
+      "order": 814
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

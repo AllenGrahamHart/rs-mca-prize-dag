@@ -1,0 +1,20 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 515,
+  "node": {
+    "id": "f1_minimal_field_descent",
+    "title": "f1 minimal field descent",
+    "status": "PROVED",
+    "statement": "Every bad slope's pencil data has a well-defined minimal field of definition K with B <= K <= F; the trichotomy's CASE SPLIT (K = B / B < K < F / K = F) is exhaustive by field theory. Near-definitional; write-up pending.",
+    "attack_surface": "one page of Galois descent bookkeeping on the pencil data",
+    "falsifier": "pencil data without a well-defined minimal field (composite ambiguity)",
+    "refs": [
+      "experimental/notes/roadmaps/proof_sketch/s6_extension_lift.md"
+    ],
+    "notes": "FLIP on replay (consolidation agent): PROVABLE -> PROVED (verify A+B replayed, concrete F_2^12/F_5^4 cases). | SECOND INDEPENDENT PROOF (Codex red-walk): the projective Frobenius-stabilizer framing, agreeing with the Opus divisor-lattice version \u2014 archived in notes/second_proof_codex.md. Cross-validated twice over. Codex has also imported the f1_full_field_pole_forcing frontier node \u2014 its walk converges on the pole-forcing lemma next, the trichotomy's real remaining content."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

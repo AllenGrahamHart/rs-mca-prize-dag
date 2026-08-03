@@ -1,0 +1,16 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 639,
+  "node": {
+    "id": "dli_artin_schreier_conductor_criterion",
+    "title": "DLI Artin-Schreier conductor criterion",
+    "status": "PROVED",
+    "statement": "For an additive phase f on a smooth curve component, the associated Artin-Schreier trace sheaf is geometrically trivial exactly when f differs from a constant by g^p-g; otherwise its conductor is bounded by the reduced polar divisor of f after Artin-Schreier reduction.",
+    "attack_surface": "standard Artin-Schreier sheaf triviality and conductor bookkeeping",
+    "falsifier": "a non-Artin-Schreier rational phase whose additive trace sheaf is geometrically trivial, or whose conductor exceeds its reduced polar-divisor bound"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 601,
+  "node": {
+    "id": "ef_descended_cycle_inventory_payload",
+    "title": "EF actual descended-cycle inventory payload",
+    "status": "PROVED",
+    "statement": "Construct the actual inventory of every B-defined pole-free horizontal cycle produced after full-orbit descent, with each cycle certified as base-descended, proper-subfield/tower-confined, or noncontainment-degenerate.",
+    "attack_surface": "project-specific EF extension-fiber cycle enumeration and classification",
+    "falsifier": "a descended pole-free cycle missing from the inventory, or an inventory label whose base/tower/noncontainment certificate fails",
+    "notes": "ATTACK (node 3): completeness assembly \u2014 3 exit classes all PROVED (full-orbit descent, galois-stabilizer descent, noncontainment); ext_pole_floor forces pole-free off genuinely-E. Open = no hidden-fiber leakage. Pro brief issued; likely close-by-assembly per repo referee note. Closes ef_ru -> f1_full_field_pole_forcing. | Pro completeness proof banked (stabilizer trichotomy, Galois-descent part UNCONDITIONAL); reduced to the single seam ef_fullfield_bridge (= s6 F1 typecheck). No longer a construction task."
+  },
+  "requires": [
+    {
+      "from": "ef_fullfield_bridge",
+      "order": 953
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

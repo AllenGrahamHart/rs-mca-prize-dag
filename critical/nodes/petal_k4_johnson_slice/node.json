@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 807,
+  "node": {
+    "id": "petal_k4_johnson_slice",
+    "title": "Exact Johnson bound closes the above-threshold K4 auxiliary charts",
+    "status": "PROVED",
+    "statement": "For an auxiliary RS list of degree-<=d polynomials on T, |T|=ell, with agreement N and N^2>d ell, the complete list has size at most floor(ell(N-d)/(N^2-d ell))<=ell^2. Hence every G1 chart in this range satisfies K4 with b4=2 before imposing the stabilizer-primitive filter; only N^2<=d|T| remains open.",
+    "refs": [
+      "critical/nodes/petal_k4_johnson_slice/statement.md",
+      "critical/nodes/petal_k4_johnson_slice/proof.md",
+      "critical/nodes/petal_k4_johnson_slice/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_k4_primitive_bound",
+      "order": 1348
+    }
+  ],
+  "refutes": []
+}

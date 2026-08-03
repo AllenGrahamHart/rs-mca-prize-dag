@@ -1,0 +1,17 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 562,
+  "node": {
+    "id": "skew_support_threshold",
+    "title": "skew support threshold",
+    "status": "PROVED",
+    "statement": "Vandermonde rigidity: a nonzero level-j skew under L_j odd constraints needs active support >= L_j + 1; at prize t = 2^33 the thresholds are 2^{32-j} + 1 per level. In the small-support regime the branch factor is profile-only ({0,1} by parity). (Pro; replayed.)",
+    "refs": [
+      "archive/compressed_dli_lane_20260705/b2b_primitive_core/notes/pro_skew_tower_packet.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

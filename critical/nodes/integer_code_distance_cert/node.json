@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 439,
+  "node": {
+    "id": "integer_code_distance_cert",
+    "title": "THE RESIDUE: certify min ternary distance > 2l' for the explicit k x N' system",
+    "status": "TARGET",
+    "key": true,
+    "statement": "For every row assigned to this lattice route, pin the prime field, quotient order and root, exact class cell and cardinality, support bound 2l', integer kernel matrix, and allowed cyclotomic-relation basis. Prove by a machine-checkable certificate that no non-cyclotomic ternary kernel vector within the support bound remains and that the cell cardinality exceeds B*. There is no hidden finite official-prime registry: closure must be family-uniform, or explicitly exhibit-scoped with every consumer narrowed to the same field. The complete order-128 branch with p>253^32 is proved analytically by integer_code_distance_high_field_folded_box_exclusion; lower fields, other orders, the universal row assignment, and the row value-set budget remain open.",
+    "attack_surface": "Before computation, bind the literal row payload and prove its exact class count exceeds B*. Apply integer_code_distance_high_field_folded_box_exclusion first on order-128 prime-field rows. On a residual pinned row use proof-logged pseudo-Boolean/SAT, MITM, or LP/Delsarte. A collision verdict is a valid route outcome but does not prove this no-vector target. E24's BKZ hunt is search evidence only.",
+    "falsifier": "a non-cyclotomic ternary kernel vector inside the declared support bound, or a declared cell whose exact cardinality is at most B*",
+    "refs": [
+      "critical/nodes/integer_code_distance_cert/statement.md",
+      "critical/nodes/integer_code_distance_cert/status_ruling.md",
+      "critical/nodes/integer_code_distance_cert/execution_report.md",
+      "critical/nodes/integer_code_distance_cert/execution_report.json"
+    ],
+    "notes": "DISPATCH SKIP CONFIRMS Codex's report: the missing input is the row OBJECT (no matrix/descriptor), not a computation; dependency multi_multiplier_reduction is REFUTED. Restate or reroute \u2014 not compute-closable as stated. | DESK RULING: restated exhibit-conditional; the missing 'row object' was a category error under Reading B. Remaining content = LP/cone certifier soundness \u2014 same family as lattice_cone_certificate's machinery (its two other reqs are PROVED). | BAKE-OFF DONE (folded_certificate.md): both nodes reduce (via kernel_lattice_reframing PROVED) to a folded short-vector decision in dim N/2, shared with e1_fullness. Procedure defined + proved-correct; TOY EXEMPLAR shipped (N=16 both verdicts, exhaustive). Prize cells = dim-64/128 LATTICE enumeration (fplll-feasible, NOT a theorem) \u2014 needs the pinned exhibit cell; answer may be collision-found (survivable). Tier-0 CONFIRMED: the remaining work is a lattice computation. | LATTICE RUN LAUNCHED (fpylll, Modal rs-mca-lattice-cert): exact-SVP verdict at 4 cells incl. the REAL dim-64 Row-C cell (250-bit stand-in prime, q=1 mod 128). CERTIFIED iff lambda_1 > 2 sqrt(N/2); validation cells (N=16 certified / N=32 collision) confirm the pipeline. Result closes the node by machine-checkable computation OR returns a survivable collision. | PROVED by machine-checkable computation (Reading B): the certifying procedure IS kernel_lattice_reframing (PROVED, codim-1 e1 lattice) + the exact bounded-enumeration certifier. RIGOROUS RUN at the REAL dim-64 stand-in cell recorded rounded output only; wave-20/N12 correctly ruled that this is not a replayable certificate. | NEW PROVED BRANCH: integer_code_distance_high_field_folded_box_exclusion replaces SVP by an exact Parseval proof for order 128 and p>253^32. | QUANTIFIER REPAIR: official_row_primes_pinning proves that no finite official-prime registry exists. The four pinned Proth exhibits are below the theorem threshold; the corridor prime has no lattice-route value-set consumer. The target is now explicitly uniform-per-input or exhibit-scoped, with cell-count and B* metadata mandatory."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 337,
+  "node": {
+    "id": "dyadic_profile_evaluation",
+    "title": "Compute Q_H(eta) exactly for 2-power domains at the four rates",
+    "status": "PROVED",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ],
+    "notes": "pure divisor-count computation; conj:B's profile hypothesis is unverifiable on official rows without it | IN FLIGHT: #195 (#205 closed as redundant) | pma_pullback_lists REALIZES the quotient-profile mass concretely \u2014 the profile budget this node computes is exactly what charges the counterexample family. | FLIP on replay (consolidation agent): exact big-int reproduction of QA.22 (log2 Q_M* = 99.81/66.15/82.97); first-scale dominance proved; n-uniform (RowC = prize); rate-1/2 parity-killed. | #156 SCOPE (2026-07-13): the 'rate-1/2 carries no dyadic quotient mass / parity-killed' claim is scoped to the ODD-A M > t_res rows; the qa22 extension's even-A rate-1/2 own rows are nonzero (and carry the grid's largest first-scale column + the exact COL cap 4).",
+    "statement": "[lifted verbatim 2026-07-27 from this node's own proof.md Statement section] Compute the quotient profile `Q_H(eta)` exactly for **2-power (dyadic) domains**\n`n = 2^m` at the four rates `rho in {1/2, 1/4, 1/8, 1/16}`. Here the quotient\nmass on a dyadic scale `M = 2^i | n` (with `M > t`, `t = A - k`) is the fixed-tail\nquotient-coset count (banked `thm:qcore` / `prop:qfloor`, and the QA.22 column\nconvention)\n\n```\nQ_M = C(n/M - 1, floor(A/M)),          M | n,  M > t,                      (Q)\n```\n\nand the profile is `Q_H = sum_{M|n, M>t} Q_M` (with the dihedral/Chebyshev\ncompanion `D_M`, below). \"`eta`\" is the reserve `eta = t/n`, which sets the\nsmallest admissible `M`. The deliverable is the *exact* value of `(Q)` at each\nrate for both a small dyadic row (RowC, `n = 2^10`) and the prize dyadic row\n(`n = 2^41`), together with the structural facts that make the profile\nwell-defined and computable: **first-scale dominance** and **n-uniformity**."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "paid_quot_fn",
+      "order": 534
+    }
+  ],
+  "refutes": []
+}

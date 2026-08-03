@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 486,
+  "node": {
+    "id": "x83_uniform_square_shift_obstruction_gate",
+    "title": "PROVED (x83, sympy-spot-verified + 97 replay checks): the UNIFORM obstruction gate \u2014 the complete dichotomy",
+    "status": "PROVED",
+    "key": true,
+    "statement": "For any split 2h-support: the top h+1 locator coefficients FORCE a unique square-root candidate S_R (coefficient recursion, denominators controlled: s_{h-q} in 2^{-(2q-1)} O_K, so 2^{4h-2} E_R is a cyclotomic integer); the support underlies a minimal h-trade iff the h-1 low obstruction coefficients vanish and lambda_R is a nonzero square. COMBINED WITH X24: every finite-row minimal h-trade is EITHER a char-0 trade = full mu_h fiber = PAID (possible only at power-of-two h), OR a p-SPECIFIC NORM-GATE EVENT \u2014 the row prime divides the cyclotomic norm of a nonzero cleared low obstruction. UNIFORM IN h; verified: denominator recurrence through h=12, constructed trades h=3..8, exhaustive finite-row agreement at F17/F97 mu16 h=3..7; core algebra independently sympy-verified at h=3 (recursion recovery, E_R degree, lambda identity).",
+    "refs": [
+      "experimental/notes/roadmaps/x83_uniform_square_shift_obstruction_gate.md"
+    ],
+    "notes": "The 64-commit autonomous consolidation (x40-x83 working state compressed into this + x81/x82). THE COMPLETE DICHOTOMY: the entire small-h mathematics of the terminal node is DONE. | IMPORT ADDENDUM (2026-07-12 dichotomy replay): the proof uses an implicit Teichmuller-style lift mu_n(F_p) = mu_n(K) mod P (p not dividing 2n) \u2014 standard, verified numerically at import; spell out at any formal write-up. Catch #97 (minor): the title's '97 replay checks' is stale (verifier emits 101); the F97 scope line says h=3..7 where the runs cover h=3..6."
+  },
+  "requires": [
+    {
+      "from": "x24_char0_dyadic_descent",
+      "order": 788
+    },
+    {
+      "from": "x81_minimal_trade_square_shift",
+      "order": 789
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_smallcore_spread_count",
+      "order": 1078
+    }
+  ],
+  "refutes": []
+}

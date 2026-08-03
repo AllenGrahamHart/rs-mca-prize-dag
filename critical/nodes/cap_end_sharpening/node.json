@@ -1,0 +1,20 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 508,
+  "node": {
+    "id": "cap_end_sharpening",
+    "title": "cap end sharpening",
+    "status": "PROVED",
+    "statement": "Fourth mechanism (a): sharpen the unsafe-side cap beyond 1 - rho - 2^-9 at rate 1/8 \u2014 the Paper D cap carries a 2^-9 reserve; any improvement moves W itself. Needs >= 0.00707 grid steps equivalent.",
+    "attack_surface": "the cap proof's slack terms at the specific rate-1/8 row",
+    "falsifier": "an exact computation showing the mechanism's contribution < 0.00707 steps at 1/8",
+    "refs": [
+      "experimental/notes/roadmaps/acl_second_order_evaluation.md"
+    ],
+    "notes": "PROVED (Pro Brief C = route (a), my 11/11 exact replay): the quotient-remainder floor at c = 2^28 sharpens the rate-1/8 cap by 1/16 grid step (8.8x the wedge). Proof in this folder; satisfies fourth_mechanism_rate8's gate:any."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

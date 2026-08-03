@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 597,
+  "node": {
+    "id": "ef_descended_cycle_classification_payload",
+    "title": "EF descended pole-free cycle classification payload",
+    "status": "PROVED",
+    "statement": "Classify every B-defined pole-free horizontal cycle in the extension-fiber incidence, after full-orbit descent, as base-descended, proper-subfield/tower-confined, or noncontainment-degenerate. This is reduced to the proved descended-cycle inventory soundness rule plus the remaining actual EF descended-cycle inventory payload.",
+    "attack_surface": "assembly from the inventory soundness rule and actual EF extension-fiber arithmetic and noncontainment classification for descended pole-free cycles",
+    "falsifier": "a B-defined pole-free cycle that is not base-descended, not tower-confined, and survives the noncontainment gate"
+  },
+  "requires": [
+    {
+      "from": "ef_descended_cycle_inventory_soundness",
+      "order": 915
+    },
+    {
+      "from": "ef_descended_cycle_inventory_payload",
+      "order": 916
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

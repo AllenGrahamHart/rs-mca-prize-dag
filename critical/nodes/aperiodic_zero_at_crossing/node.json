@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 386,
+  "node": {
+    "id": "aperiodic_zero_at_crossing",
+    "title": "Clean-rate integrality: R2 + tiny FM pin the aperiodic zero threshold",
+    "status": "CONDITIONAL",
+    "statement": "At the clean-rate decision candidates (rho in {1/4, 1/8, 1/16}), integrality does not kill the aperiodic contribution at A* or A*+1. The exactly-zero range begins at A_zero = A*+2, after applying fm1 and the compiled clean-rate R2 bound. Thus the adjacency machinery must decide A*+1 with a live aperiodic term; it may use exact zero only from A*+2. RATE SCOPE (amber audit 2026-07-06): this node makes no rate-1/2 claim; the rate-1/2 thin point is carried by rate_half_band_closure.",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ],
+    "notes": "conditional on r2_rigidity; crystallizes the integrality mechanism discovered in the proved-results survey (pinned row, exactslack, qfloor, FM1 are all exactness-on-a-stratum) | R2 IDENTIFICATION REWIRING (2026-07-04, referee packet in r2_identification.md): the consumer needs R2 only at the admissible rows, where the PROVED compiler/budget chain converts the obligation to the compiled form r2_clean_rates (R_post <= 16n^3) verbatim \u2014 the general n^B FM conjecture (r2_rigidity) demoted to ev. The critical path now flows through r2_clean_rates <- the proved xr engines + xr_clean_residual_any_gate <- the smallcore/spread chain <- THE TERMINAL CLUSTER \u2014 the dichotomy/A3/C1 campaign is now visibly the safe side's aperiodic engine. | AMBER AUDIT 2026-07-06: REPAIRED (rate-scope split; full-vs-clean conflation found by the overnight audit). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md."
+  },
+  "requires": [
+    {
+      "from": "fm1",
+      "order": 628
+    },
+    {
+      "from": "r2_clean_rates",
+      "order": 809
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 717,
+  "node": {
+    "id": "f5_lineray_saturation_instrument",
+    "status": "PROVED",
+    "statement": "F5 W-AGGREGATION INSTRUMENT (2026-07-08, P8; IMPORT from upstream grande_finale.tex thm:saturation + prop:line-ray-saturation, proof read + machine-replayed under our laws): the size-m agreement-support census factors EXACTLY through codeword rays, Cen(U;m) = sum_c C(s_c(U),m), fiber above ray c exactly C(s_c,m); line version sum_z Cen(U_z;m) = sum_{rays (z,c)} C(s_{z,c},m), so N_live_slopes <= #rays <= sum_z Cen(U_z;m). W-scan corollary (the form F5 consumes): sum_{|W|=k} #(rays through W) = sum_rays C(s_{z,c},k) \u2014 per-W pencil budgets aggregate by RAYS with an exact fiber factor, never by raw (W,z) pairs. Replay: f5_p8_lineray_saturation_modal.py, 14 pairs (random + near-pencil, n=12/16, q=97), full enumeration, all three identities EXACT; datum: n=16 near-pencil 8442 (W,z) pairs -> 160 rays -> 97 slopes. Consequence for F5-OS stratum (i): the naive C(n,k) aggregation factor is not real; the open reduces to the W-COLLISION count (#k-cores carrying >= 2 live slopes; per-W multiplicity <= (n-k)/(t-d) by the sunflower lemma) \u2014 a second-moment-shaped question adjacent to v13_second_moment_shift_pair_identity."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

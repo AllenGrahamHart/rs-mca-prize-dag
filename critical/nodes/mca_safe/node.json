@@ -1,0 +1,58 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 196,
+  "node": {
+    "id": "mca_safe",
+    "title": "MCA safe side: B_C(a_safe) <= B* in-band",
+    "status": "CONDITIONAL",
+    "gate": "all",
+    "key": true,
+    "refs": [
+      "proof_sketch/prize_proof_sketch_spine.md#4"
+    ],
+    "statement": "B_C(a_safe) <= B*: via the stratified sum tan+quot+ap+ext with dedup (first-match) and R2 on the aperiodic stratum. RATE SCOPE (amber audit 2026-07-06): the wired premises deliver the CLEAN RATES (1/4, 1/8, 1/16); the rate-1/2 instance of this claim is additionally conditional on rate_half_band_closure (red). The previous unscoped wording over-claimed.",
+    "notes": "PROMOTED red -> amber (ring-1 assembly sweep 2026-07-04): see assembly_sweep_ring1.md + the pinned manifest entry. | R2 IDENTIFICATION REWIRING (2026-07-04, referee packet in r2_identification.md): the consumer needs R2 only at the admissible rows, where the PROVED compiler/budget chain converts the obligation to the compiled form r2_clean_rates (R_post <= 16n^3) verbatim \u2014 the general n^B FM conjecture (r2_rigidity) demoted to ev. The critical path now flows through r2_clean_rates <- the proved xr engines + xr_clean_residual_any_gate <- the smallcore/spread chain <- THE TERMINAL CLUSTER \u2014 the dichotomy/A3/C1 campaign is now visibly the safe side's aperiodic engine. | AMBER AUDIT 2026-07-06: REPAIRED (rate-scope split; full-vs-clean conflation found by the overnight audit). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md."
+  },
+  "requires": [
+    {
+      "from": "counting_frame",
+      "order": 25
+    },
+    {
+      "from": "fm1",
+      "order": 26
+    },
+    {
+      "from": "strip",
+      "order": 27
+    },
+    {
+      "from": "paid_closure",
+      "order": 28
+    },
+    {
+      "from": "ext_lift",
+      "order": 30
+    },
+    {
+      "from": "safe_assembly_uniformity",
+      "order": 665
+    },
+    {
+      "from": "r2_clean_rates",
+      "order": 808
+    },
+    {
+      "from": "rate_half_band_closure",
+      "order": 1061
+    }
+  ],
+  "alternatives": [
+    {
+      "from": "route_noslack",
+      "order": 152
+    }
+  ],
+  "evidence_for": [],
+  "refutes": []
+}

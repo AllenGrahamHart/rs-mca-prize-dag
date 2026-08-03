@@ -1,0 +1,19 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 390,
+  "node": {
+    "id": "census_bounded_scales",
+    "title": "The deciding scale is PINNED in an absolute window (n-uniformity of the census)",
+    "status": "PROVED",
+    "key": true,
+    "statement": "At agreement A the quotient stratum on scale N' has forced class ratio l'/N' = j/n, so counts grow strictly as 2^{N' H(j/n)} with H(j/n) bounded below on the corridor (j/n ~ 0.4-0.5 => H >= 0.97). Hence exactly ONE scale's count lands within the staircase-step factor of B*, and it lies in an ABSOLUTE window N' in [~120, ~400] \u2014 independent of n and k up to 2^40. The census is n-uniform because every crossing only sees bounded scales.",
+    "refs": [
+      "proof_sketch/s2_paid_ledger.md#3"
+    ],
+    "notes": "the lemma that makes a symbolic census possible at all; also gives UNIQUENESS of the deciding scale (monotone counts, q-factor gaps) | FLIP on replay (consolidation agent, verifier replayed): PROVABLE -> PROVED (unique deciding scale in N [120,400], n-uniform)."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 330,
+  "node": {
+    "id": "stratification_partition_thm",
+    "title": "The T0-T7 first-match stratification is a PARTITION (total + disjoint) of all pairs",
+    "status": "PROVED",
+    "refs": [
+      "wp_detail/wp2_3_stratification_case_tree.md"
+    ],
+    "notes": "PROVED (Opus write-up, my replay: 1536-point exhaustive + 307200 randomized, PASS): first-match + catch-all => partition, for ANY predicates. THE NINE-CELL READING: {T0..T7, L} with L nonempty by design \u2014 T0-T7 alone are NOT total; do not confuse with the open L=0 paid-completeness claim.",
+    "statement": "THE T0-T7 FIRST-MATCH STRATIFICATION IS A PARTITION (total and pairwise disjoint) of the pair space. Precisely: for fixed exact agreement A (t = A-k, j = n-A) let Pi_A be the ordered pairs (u,v) of syndrome vectors at exact agreement A, so that the whole pair space is the disjoint union Pi = disjoint-union over A of Pi_A. The tree defines a classification map cls : Pi_A -> {T0,...,T7, L} (the eight gates plus the terminal residual leaf L), and the theorem is that cls is WELL-DEFINED and EVERYWHERE-DEFINED \u2014 every pair lands in exactly one cell. Machine-checked by this node's verify.py (exhaustive toy-model check + fuzz spec). Consumers: strat_tree takes it as its single predicate ('every pair enters exactly one T0-T7 cell'), and safe_assembly_uniformity clause (ii) is exactly this partition ('the stratified sum with first-match dedup composes'). [statement written 2026-07-27 from this node's own proof.md, which transcribes wp_detail/wp2_3_stratification_case_tree.md section 2]"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

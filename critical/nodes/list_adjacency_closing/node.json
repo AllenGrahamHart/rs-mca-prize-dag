@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 394,
+  "node": {
+    "id": "list_adjacency_closing",
+    "title": "The LIST adjacency endgame: worst-word list crosses eps*|F| at consecutive grid radii",
+    "status": "CONDITIONAL",
+    "key": true,
+    "statement": "For each admissible row, for the ordinary code (m=1), exhibit adjacent agreements a0,a0+1 with L_1(a0) > floor(|F|/2^128) >= L_1(a0+1). This is the exact base-list closing obligation; list_large_m_scope_closure transports the same pair to every constant arity. CLEAN RATES: list_unsafe supplies the lower witness, list_safe the upper bound, and list_corridor_ledger the exact adjacent-grid collapse. RATE ONE HALF: rate_half_cyclic_rotated_prefix_floor supplies the lower side and rate_half_list_adjacent_crossing is the remaining safe-side/exact-crossing premise. The retired W3/worst-word route is evidence only.",
+    "attack_surface": "Clean-rate live input: l1_mixed_petal_amplification through list_safe. Rate-half live input: rate_half_list_adjacent_crossing. The corridor arithmetic and unsafe witnesses are proved.",
+    "falsifier": "n/a (composite obligation)",
+    "refs": [
+      "proof_sketch/s7_list_side.md"
+    ],
+    "notes": "AUDITED TRUE RED (ring-1 sweep): the local content is the final quantitative corridor arithmetic \u2014 not promotable by referee argument; this is genuine open work. | FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/list_adjacency_closing/conditional.md. | AMBER AUDIT 2026-07-06: REPAIRED (rate-scope split; full-vs-clean conflation found by the overnight audit). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md. | CODEX ROUND-2 (replayed): premise package weakened (redundant diamonds -> ev); logical surface minimized. | W3 SCOPE REPAIR: the historical corridor residue is superseded; list_corridor_ledger is PROVED, literal safe-side W3 remains an open background target, and direct list_safe/list_unsafe requirements carry the clean-rate polarity correctly."
+  },
+  "requires": [
+    {
+      "from": "list_crossing_localization",
+      "order": 640
+    },
+    {
+      "from": "list_safe",
+      "order": 643
+    },
+    {
+      "from": "list_unsafe",
+      "order": 644
+    },
+    {
+      "from": "list_corridor_ledger",
+      "order": 819
+    },
+    {
+      "from": "rate_half_cyclic_rotated_prefix_floor",
+      "order": 1466
+    },
+    {
+      "from": "rate_half_list_adjacent_crossing",
+      "order": 1710
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "list_grand",
+      "order": 639
+    }
+  ],
+  "refutes": []
+}

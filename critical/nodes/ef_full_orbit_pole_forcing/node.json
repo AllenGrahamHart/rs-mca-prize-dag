@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 600,
+  "node": {
+    "id": "ef_full_orbit_pole_forcing",
+    "title": "EF full-orbit pole forcing",
+    "status": "PROVED",
+    "statement": "A genuinely full-field Galois orbit of horizontal extension-fiber components, neither base-descended nor confined to a proper intermediate subfield, must meet the extension-pole divisor. This is reduced to the proved descent of a pole-free full orbit to a B-defined horizontal cycle plus the remaining pole-free-cycle exclusion theorem.",
+    "attack_surface": "assembly from ef_full_orbit_cycle_descent and ef_pole_free_cycle_exclusion",
+    "falsifier": "a full Galois orbit of horizontal components over a non-generating row that is not base-descended, not subfield-confined, avoids the pole divisor, and survives noncontainment"
+  },
+  "requires": [
+    {
+      "from": "ext_import",
+      "order": 904
+    },
+    {
+      "from": "paid_ext_fn",
+      "order": 905
+    },
+    {
+      "from": "noncontain_degeneracy",
+      "order": 906
+    },
+    {
+      "from": "f1_case_tower",
+      "order": 907
+    },
+    {
+      "from": "ef_full_orbit_cycle_descent",
+      "order": 909
+    },
+    {
+      "from": "ef_pole_free_cycle_exclusion",
+      "order": 910
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

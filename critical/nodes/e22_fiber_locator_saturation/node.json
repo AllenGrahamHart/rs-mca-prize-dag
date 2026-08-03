@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 663,
+  "node": {
+    "id": "e22_fiber_locator_saturation",
+    "title": "E22 quotient-fiber locator saturation",
+    "status": "PROVED",
+    "statement": "In the multiplicative subgroup domain, for any divisor M of the domain size and any quotient value z in the image of x -> x^M, divisibility by the fiber locator X^M-z is equivalent to containing the entire fiber {x: x^M=z}. Products of distinct such factors are therefore exactly local unions of full quotient fibers.",
+    "attack_surface": "elementary locator identity for quotient fibers in a cyclic subgroup",
+    "falsifier": "a quotient value z whose fiber locator is not X^M-z, or a squarefree support locator divisible by X^M-z without containing the full fiber"
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "worst_word_challenger_pricing",
+      "order": 1144
+    }
+  ],
+  "refutes": []
+}

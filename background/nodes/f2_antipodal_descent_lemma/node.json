@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1789,
+  "node": {
+    "id": "f2_antipodal_descent_lemma",
+    "title": "F2 antipodal descent lemma: in the 2-power Frobenius tower over p with v_2(p-1) = e >= 2 every rung's descent pairs are ANTIPODAL {y,-y}; hence every deployed window is parity-homogeneous (all Delta even), the mode k = p is slice-dead (|R_p| = 1, flat = 0 EXACTLY), and window SELECTION is impossible in principle",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "p odd prime, e := v_2(p-1) >= 2, n_j = 2^{e+j}, q_j = p^{2^j}. THEOREM: (i) v_2(q_j - 1) = e+j for every j >= 0 (2-adic LTE: p^{2^j}-1 = (p-1)(p+1)prod_{i=1}^{j-1}(p^{2^i}+1), with v_2(p+1) = 1 since e >= 2 forces p == 1 mod 4, and v_2(p^{2^i}+1) = 1 since an odd square is 1 mod 8); (ii) mu_{n_j} <= F_{q_j}^*, and mu_{n_j} ^ F_{q_{j-1}} = mu_{n_{j-1}} for j >= 1 (gcd(n_j, q_{j-1}-1) = 2^{e+j-1}); (iii) every y of order exactly n_j satisfies y^{q_{j-1}} = -y (q_{j-1}-1 = 2^{e+j-1} u with u odd, and y^{2^{e+j-1}} = -1). COROLLARY A: the rung-j Frobenius conjugate pairs are exactly the ANTIPODAL pairs {y,-y}. COROLLARY B (in the banked first-descent window model -- F_{p^2} = F_p(w), pair reps with w-component in [1,(p-1)/2], s^pm = Tr(c y^{pm}), sigma = s + p[2s>p] in Z/2p, Delta = sigma^+ - sigma^-): s^- = -s^+, and sigma is exactly the CENTRED representative of s mod p hence an ODD function, so sigma^- = -sigma^+ and Delta_i = 2 sigma_i^+ is EVEN for every i, every frequency c, every rung -- every deployed window is parity-homogeneous. COROLLARY C: omega^p = -1 and p is odd, so R_p = (1/m) sum_i (-1)^{Delta_i} = 1, hence max_{k odd}|R_k| = 1 and flat = 0 EXACTLY (not approximately). COROLLARY D: all-Delta-even is COORDINATEWISE, so every non-empty sub-window inherits it -- window SELECTION cannot repair the degeneracy; the escape, if any, is in FREQUENCY space. NOT claimed: the degeneracy law (n_ord/gcd(n_ord,p-1) == 2 <=> all Delta even) is CENSUSED (194 rows, 0 violations), measured not proved -- only the => direction for rung subgroups is proved here; the corollary -log2 rho_b <= log2 p + o(1) (the 1/p ceiling ladder is exact at toy scale with measured saturation, the o(1) is not proved); generic-frequency flatness (T3, OPEN -- needs an incomplete-character-sum bound, not attempted); the K1 mass obligations (O1) E_{c in K1}[exp S_c] <= 2^{n/2+o(n)}, (O2) the same at fixed b, (O3) PP5.0 carrying the pullback ramification 2^d -- these are OPEN constructive obligations (the fixed-sector ABSORPTION route was REFUTED, Theorem B), untouched here; and the law FAILS if n has an odd part or if e = 1. Verified: LTE at the official KoalaBear prime p = 2^31-2^24+1 (e = 24) for all 16 rungs by two independent routes, the antipodal identity at rung 1 (64 genuine elements), all-Delta-even EXHAUSTIVELY over all 2,976 frequencies of F_{p^2}^* at four primes, R_p = 1 exactly, sub-window inheritance, and NON-VACUITY (the full-group window at the same primes has odd Delta and |R_p| < 1). Provenance notes/pilots_20260802/f2_deployed_windows/tower.py:22-43 (statement + proof of record), REPORT.md:23-33,45, FABLE_AUDIT.md:27-33 (independent hand-derivation).",
+    "refs": [
+      "background/nodes/f2_antipodal_descent_lemma/statement.md",
+      "background/nodes/f2_antipodal_descent_lemma/proof.md",
+      "background/nodes/f2_antipodal_descent_lemma/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": [
+    {
+      "to": "f2_parity_defect_certificate",
+      "order": 4989
+    }
+  ]
+}
