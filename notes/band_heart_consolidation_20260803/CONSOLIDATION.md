@@ -98,3 +98,30 @@ admissibility filter, and the refuted routes are all closed chapters.
 - No node status changed by this note; the TARGET's single open input
   is unchanged in substance — it is now NAMED (L-D) with two named
   fallbacks, and the primary lens is corrected from charge to cores.
+
+## CORRECTION (2026-08-03, same day — L-D pilot, coordinator-accepted)
+
+The L-D pilot REFUTED section 4's wording and terminated its route:
+1. "(k+d)-sets Z with A(Z)=B(Z)=0" is FALSE as a <= 0.68n^2 claim
+   (raw subsets of one deep joint agreement set explode: RAW_d =
+   SUM_{e>=d} MAX_e C(k+e,k+d); machine-verified fixture 334 > 272;
+   prize rows by 2^6.4e10). CORRECT object: codeword pairs whose
+   joint agreement set has size EXACTLY k+d (maximal) — which IS the
+   ledger's N_d.
+2. Section 2's final sentence over-reached: pairwise <= k-1 holds for
+   the MAXIMAL cores of DISTINCT pairs, not for raw subsets.
+3. The "count CORES" route was ALREADY BANKED AND TERMINATED in
+   notes/pilots_20260802/xr_band_occupancy/ (THEOREM 2: N_d <= min_z
+   punctured-MDS list size at agreement k+d; THEOREM 4; PROPOSITION 5:
+   the slope side CANNOT close — needs |Gamma_band| <= 1.32n^2). This
+   note failed to subtract against it (fifth-surface rule).
+4. The 0.68n^2 budget is VACUOUS at the three RowC rows; the
+   obligation binds at the PRIZE rows only.
+SURVIVES from this note: the negative finding (ray/pair lens
+insufficient — sharpened by the pilot to V* = 1.166n, factor 1.072
+above the granted-both-lemmas bound) and the L-A/L-B statements as
+independent lemmas. THE OPEN SURFACE OF RECORD (corrected): the
+banked xr_band_occupancy terminus — an RS list-size bound at
+tau = k + ceil(h/2) for some pencil member (positive target #1
+species) — with L-A/L-B as supporting, provably-insufficient-alone
+lemmas.

@@ -661,3 +661,18 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   only banked machinery; calibration U-mechanism N_1 ~ n/2, >1000x
   headroom). Open surface after consolidation: exactly {L-D primary;
   L-A, L-B fallbacks}. Next pilot anchor: L-D dimension count.
+
+## 2026-08-03: round-9 pilot 1/3 BANKED — L-D refuted-as-worded; route already banked; consolidation CORRECTED
+
+- **ld_core_count (Opus) AUDITED + BANKED.** L-D as worded REFUTED
+  (raw-subset explosion; fixture 334 > 272; prize rows 2^6.4e10 vs
+  2^81.4); L filter powerless (monotone under subsets); intended
+  maximal reading = the ledger's N_d, whose route was banked and
+  TERMINATED 2026-08-02 in xr_band_occupancy (THM 2/4 + PROP 5
+  slope-side no-go). COORDINATOR ERROR acknowledged: the consolidation
+  mis-worded L-D, misapplied core-disjointness, and failed to subtract
+  against xr_band_occupancy — CORRECTION block applied. RowC rows
+  vacuous for 0.68n^2 (prize rows only bind). Open surface of record:
+  RS list-size at tau = k+ceil(h/2) (positive target #1 species);
+  L-A/L-B supporting but provably insufficient (PROP 5; V* = 1.166n
+  vs 1.25n granted). Pilots 2/3 (L-A, L-B) still running.
