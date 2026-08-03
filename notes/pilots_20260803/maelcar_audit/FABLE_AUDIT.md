@@ -24,3 +24,21 @@ assertion; uncertified headline counterexample; 7 unexplained sieve
 normals; unattainable envelope) recorded as trust-calibration for
 future citation of maelcar material. Brief corrections accepted (kb_*
 = KoalaBear; the ell-11 false friend).
+
+## Dated addendum (2026-08-03, coordinator Modal run ap-sx9plNuGHtzGtGYisoYrh0)
+
+Task #36 DECIDED — **SOL_TARGET_4 IS FALSIFIED AS STATED.** Exact
+census (sol_target4_n256_result.json, sha256 27ed261e...):
+- N=256, q=257 (index 1, fully admissible under the conjecture's own
+  hypotheses): T_4 = 1,729,295,040, **T_4/N^3 = 103.07**;
+- N=256, q=769 (index 3): T_4 = 63,361,728, T_4/N^3 = 3.78 (still
+  rising from 2.87 at N=128).
+No absolute constant C survives: the index-1 family's ratio scales as
+~N^2/576 (first-moment pigeonhole into q^3 ~ N^3 keys — the mechanism
+is elementary and predicts unbounded growth), and 103 > any C the
+trail ever contemplated. The REPRICE IS FORCED: the conjecture needs
+an index hypothesis (index = (q-1)/N), and even at fixed index 3 the
+ratio has not yet plateaued — the repriced form should be stated as
+T_4 <= C(index) N^3 with C(index) DECREASING, or with an explicit
+index floor, and re-calibrated on the banked (32,97) anchor. Reprice
+wording = surfaced decision; falsification = banked fact.

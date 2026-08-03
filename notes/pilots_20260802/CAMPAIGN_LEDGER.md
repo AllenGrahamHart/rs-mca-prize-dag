@@ -784,3 +784,13 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   Channel (ii) realised with charge < 2 under every gate at toy
   scale; prize-row protection (n_1 >= 3h-2) certified sufficient and
   sole. Result JSON + sha pinned. SOL_TARGET_4 N=256 run in flight.
+
+## 2026-08-03: Modal run 2 DECIDED — SOL_TARGET_4 FALSIFIED as stated
+
+- Coordinator Modal run (ap-sx9plNuGHtzGtGYisoYrh0, ~$1): T_4/N^3 =
+  103.07 at the fully admissible (N,q) = (256,257) index-1 row
+  (mechanism: pigeonhole into q^3 keys, ratio ~ N^2/576, unbounded);
+  index-3 row still rising (3.78 at N=256 vs 2.87 at N=128). The
+  maelcar-audit HIGH flag is CONFIRMED at the strongest level; task
+  #36 closed as FALSIFIED; index-hypothesis reprice surfaced (C as a
+  decreasing function of index = (q-1)/N). Result JSON + sha pinned.
