@@ -1,11 +1,11 @@
 # Frontier
 
-The parallel-`DE` block is now proved for matching indices
-`0,1,2,3,4,5,6,7,8,9,10,11,12,13`, paying `672` raw cases.
+The parallel-`DE` block is now completely proved for all matching indices
+`0,1,2,3,4,5,6,7,8,9,10,11,12,13,14`, paying all `720` raw cases with
+`xi in {0,1,2}`. No parallel-`DE` matching remains.
 
-Matching 14 changes the pairs to `(de,sigma_c cf)`,
-`(second_de,bf)`, and `(df,sigma_o ef)`.  Derive its lowest
-elimination degree before another norm campaign.  The competing
-`xi=3,pairing=0` branch still needs a lower-degree shared-`f` elimination.
-
-Do not infer complete cell-3 closure from the fourteen paid matching indices.
+Complete cell-3 exclusion remains open for missing indices `xi in {3,4,5,6}`.
+The first route decision is `xi=3,pairing=0`, where the direct
+colored/missing-sum quartic resultant exceeded the 300-second cap. Derive a
+lower-degree shared-`f` or paired-product elimination before another norm
+campaign. Do not infer complete cell-3 closure from the paid parallel block.

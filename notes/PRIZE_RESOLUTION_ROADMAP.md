@@ -16290,6 +16290,57 @@ Cycle burn-down: start `6180c80e`; result `PROVED`; DAG delta
 zero. The 32-row source census completed in one bounded Modal wave; the host
 performed only bounded artifact validation.
 
+### Work-cycle theorem: positive 433-1b cell-3 DE pairing-14 block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing=14
+canonical matching:       ((0,5),(1,4),(2,3))
+raw atlas cover:          3 DE copies x 1 matching x 4 source signs
+                          x 4 target lanes = 48 cases
+new computed cover:       16 source rows at xi in {0,2}, each fixing
+                          sigma_c and covering both sigma_o lanes = 32 cases
+new transport cover:      xi=1 = 16 raw cases
+shared variable:          f in paired(second_de,bf) and
+                          paired(de,sigma_c cf)
+elimination:              division-free resultant of two quadratics in f;
+                          then one six-dimensional norm
+finite residual:          for each common nonzero f, solve the monic quartic
+                          u^4+f^2(2 eta de-s)u^2+de^2 f^4=0, u=ef
+terminal check:           paired(df,sigma_o ef) in both sigma_o lanes
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       every norm and intermediate exceptional root lifted
+per-sign row profiles:    (sigma_c,xi)=(-1,0): 6 field roots, 1 live,
+                          8 candidate r, 6 source, 8 (u,f), 0 boundary,
+                          16 final checks; (-1,2): 8 roots, 3 live,
+                          10 candidate r, 12 source, 0 (u,f), 2 boundaries;
+                          (+1,0): 6 roots, 1 live, 8 candidate r, 4 source,
+                          0 (u,f); (+1,2): 7 roots, 2 live, 9 candidate r,
+                          12 source, 0 (u,f), 2 boundaries
+aggregate direct replay:  140 candidate r values, 136 source points,
+                          32 (u,f) candidates, 16 f=0 boundaries
+terminal mechanism:       all 64 nonboundary final-pair evaluations nonzero
+terminal ledgers:         0 witnesses, 0 unresolved
+result:                   complete 48-case pairing-14 block PROVED empty
+Modal apps:               ap-BUG0gUxRtQMNmQ3aeQ41S2 pilot,
+                          ap-QygBmqugIEorqz2vSufLco census
+artifact custody:         compiler sha256 99e163807aa2020ff72afdf777f6be3f
+                          220962b5826bf697767ae11ac28d60ca;
+                          census sha256 0c21b47cc5275efaffb90c4c04a053740
+                          12a910104d8a07acd2148e27d3d3cc1
+paid DE block:            xi in {0,1,2}, all 15 matching indices,
+                          720 raw cases; parallel-DE block COMPLETE
+next route step:          derive a lower-degree route for xi=3,pairing=0;
+                          missing indices 3 through 6 remain open
+nonclaim:                 no other missing role, cell-3, K3, LIST, MCA,
+                          or Prize closure
+```
+
+Cycle burn-down: start `871bfa7b`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The 16-container exact census completed in one bounded Modal wave;
+all rows completed in about 20 seconds wall time and the host performed only
+bounded validation.
+
 ### Work-cycle theorem: positive 433-1b cell-14 kernel normalization boundary
 
 ```text

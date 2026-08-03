@@ -85,8 +85,8 @@ def main():
     require("sends source role cell 3 to" in lineage and
             "duplicate cell 6" in lineage,
             "failed symmetry shortcut recorded")
-    require("`0,1,2,3,4,5,6,7,8,9,10,11,12,13`" in frontier and
-            "complete cell-3 closure" in frontier,
+    require("`0,1,2,3,4,5,6,7,8,9,10,11,12,13,14`" in frontier and
+            "Complete cell-3 exclusion remains open" in frontier,
             "retained frontier")
     print(
         "audit=ok pairing=11 source_rows=16 "
