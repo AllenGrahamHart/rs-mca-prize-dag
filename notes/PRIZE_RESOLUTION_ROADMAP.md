@@ -15928,6 +15928,27 @@ nonclaim:                 no other matching, complete cell/orbit exclusion,
                           K3, LIST, MCA, or Prize closure
 ```
 
+### Work-cycle theorem: positive 433-1b cell-4 xi1 parallel-edge transport
+
+```text
+cell/orbit/field:         cell 4 representing [4,7], F_2130706433
+transport:                interchange the two positive parallel DE copies
+fixed data:               product de, squared-sum (d+e)^2, source cell,
+                          source signs, target lanes, representatives, guards
+fixed residual system:    deleting xi0 or xi1 leaves the same ordered list;
+                          pairing 0 gives (de,-de), (df,sigma_o ef),
+                          (bf,sigma_c cf)
+raw payment:              xi1/pairing0, 4 source signs x 4 lanes = 16 cases
+computation:              none; exact executable system-signature comparison
+result:                   xi1/pairing0 PROVED empty by xi0 transport
+cumulative payment:       32 raw cases across 2 of 105 slices
+remaining cell-4 ledger:  103 missing/matching slices
+next route step:          derive the orbit-distinct xi2/pairing0
+                          positive-positive DE target-free specialization
+nonclaim:                 no other matching, cell-4 or orbit [4,7] closure,
+                          K3, LIST, MCA, or Prize closure
+```
+
 ### Work-cycle theorem: positive 433-1b cell-3 xi3 opposite-DE parity orbits
 
 ```text
