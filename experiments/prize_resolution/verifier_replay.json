@@ -2,121 +2,17 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 14,
+    "PASS": 1,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/verify.py",
-      "seconds": 0.054413,
+      "script": "background/nodes/pb_design_ceiling/verify.py",
+      "seconds": 0.695665,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cell=3 charts=24 curve_dim=1 beta_boundary=unit kernels=4 rows=40\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/verify_audit.py",
-      "seconds": 0.04371,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "audit=ok charts=24 signs=4 beta_boundary=unit kernels=4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_firstpair_complete_exclusion/verify.py",
-      "seconds": 0.053137,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "cell=3 xi=0,1,2 pairings=0,1,2 raw_cases=144 computed=64 transported=32\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_firstpair_complete_exclusion/verify_audit.py",
-      "seconds": 0.039136,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "audit=ok DE_copies=3 pairings=3 raw_cases=144 witnesses=0\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing3_complete_exclusion/verify.py",
-      "seconds": 0.071579,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "cell=3 pairing=3 DE_copies=3 raw_cases=48 computed=32 transported=16 witnesses=0\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing3_complete_exclusion/verify_audit.py",
-      "seconds": 0.093347,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "audit=ok pairing=3 exceptional_roots=lifted boundary_f_zero=32\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/verify.py",
-      "seconds": 0.054282,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "cell=3 charts=24 quotient=quadratic exact_reductions=240\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/verify_audit.py",
-      "seconds": 0.043662,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "audit=ok charts=24 generators=3 reductions=240 outside=open\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/verify.py",
-      "seconds": 0.061239,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "cell=3 xi=0 pairing=0 raw_cases=16 fibers=64 f_candidates=64 witnesses=0\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/verify_audit.py",
-      "seconds": 0.055094,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "audit=ok xi=0 pairing=0 signs=4 lanes=4 raw_cases=16\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi1_pairing0_parallel_edge_transport/verify.py",
-      "seconds": 0.055954,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "cell=3 transport=xi0_to_xi1 pairing=0 raw_cases=16\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi1_pairing0_parallel_edge_transport/verify_audit.py",
-      "seconds": 0.03909,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "audit=ok parallel_positive_DE=2 pairing=0 transport=exact\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi2_pairing0_outside_exclusion/verify.py",
-      "seconds": 0.054984,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "cell=3 xi=2 pairing=0 raw_cases=16 fibers=32 f_candidates=32 witnesses=0\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi2_pairing0_outside_exclusion/verify_audit.py",
-      "seconds": 0.052459,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "audit=ok xi=2 pairing=0 de=-m squared_sum=(d-e)^2 raw_cases=16\n"
+      "stdout_tail": "tical to the banked per-RAY column, xr_two_slope_cost_theorem/proof.md:133)  [307, 358, 639, 383, 447, 959]\nPASS D2: NOT-PROVED free-slope form floor((2(n-K)-1)/(h-1)) = 383/447/959 on BOTH triples (the pilot's headline number, recorded as a determinantal count -- see statement THEOREM 2)  [383, 447, 959, 383, 447, 959]\nPASS D3: the banked per-DATUM free form floor((2(n-K)-1)/(2h-2)) = 191/223/479 on both triples, and 2*191 = 382 != 383 -- the per-support and per-datum free numbers are NOT the same integer  [191, 223, 479, 191, 223, 479]\nPASS E: forcedness -- at most floor((2r-1)/h) <= 960 members of any realised family carry independent condition blocks, against budgets 8n^3 = 2^33 (RowC) / 2^126 (prize). EXACT INTEGER checks: cap = 959; every row has 8n^3 > ceiling * 2^23 (so margin > 23 bits, i.e. >= 1 - 2^-23 FORCED); and RowC 1/16 has 8n^3 < ceiling * 2^24 (so 23 bits is the honest headline, not 24). Bit figures below are a printed float DIAGNOSTIC  cap=959; (row, ceiling, bits below 8n^3) = [('RowC 1/4', 307, 24.74), ('RowC 1/8', 358, 24.52), ('RowC 1/16', 639, 23.68), ('prize 1/4', 383, 117.42), ('prize 1/8', 447, 117.2), ('prize 1/16', 959, 116.09)]\nPASS F: THEOREM 3 -- the monomial pencil U=X^7, V=-X^6 on mu_20 over F_41: all 77,520 supports scanned, 40 witnesses in 2 full mu_20-orbits, ONE of them SPREAD (max core 3 = K-1, zero self-collision) with 20 DISTINCT slopes, condition rank 31 of 60 rows against 2r = 32 (kernel strictly beyond RS_K x RS_K). M = 20 exceeds BOTH ceilings (10 prescribed, 15 free): the independence hypothesis is load-bearing and 'rank deficit forces self-collision' is FALSE  scanned=77520 witnesses=40 full_orbits=2 spread_full=1 maxcore=3 slopes=20 rank=31/60 2r=32 kernel_beyond=1 ceilings=(10,15)\nPASS F2: DEFICIT WITHOUT EXCESS (recorded, not claimed) -- 40 witnesses against mean supply C(20,7)/q^{h-1} = 77520/1681 = 46.11...: symmetry buys rank deficit, not over-supply  witnesses=40 mean_supply=77520/1681\nPB_DESIGN_CEILING_ALL_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

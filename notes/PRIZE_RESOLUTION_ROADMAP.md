@@ -15856,6 +15856,86 @@ zero.  Dense SymPy function-field arithmetic was replaced by an exact FLINT
 backend; all successful rows stayed below 90 seconds and the final 32-row
 campaign used 16 Modal containers.
 
+### Work-cycle theorem: positive 433-1b cell-3 DE pairing-4 block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing=4
+raw atlas cover:          3 DE copies x 1 matching x 4 source signs
+                          x 4 target lanes = 48 cases
+new computed cover:       8 source rows cover xi in {0,2} and all 4 lanes
+                          = 32 raw cases
+new transport cover:      xi=1 = 16 raw cases
+paired cuts:              quadratic P_u for (de,df), quadratic P_f for
+                          (second_de,bf)
+missing relation:         (u^2+eta de f^2)^2-s f^2 u^2=0
+elimination:              reduce modulo P_u, degree-8 f eliminant, reduce
+                          modulo P_f, then one six-dimensional norm
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       every norm and intermediate exceptional root lifted
+positive-DE rows:         14 candidate r values, 20 guarded source points,
+                          0 (u,f) candidates
+negative-DE rows:         15 candidate r values, 36 guarded source points,
+                          6 (u,f) candidates: 2 have f=0 and 4 reach lanes
+lane replay:              64 nonboundary third-pair evaluations, all nonzero
+terminal ledgers:         0 witnesses, 0 unresolved; 8 source-level f=0
+                          boundary records
+result:                   complete 48-case pairing-4 block PROVED empty
+Modal app:                ap-BCk36DbxUBHd0xMasFlaBQ
+paid DE block:            xi in {0,1,2}, pairing in {0,1,2,3,4},
+                          240 raw cases
+next route step:          test pairing-5 transport under b/c and lane-sign
+                          exchange before another norm campaign
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `6bc692e87`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero.  The final eight-container source census shared lane-independent norm
+work and completed in under three minutes wall time.
+
+### Work-cycle theorem: positive 433-1b cell-3 DE pairing-5 block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing=5
+raw atlas cover:          3 DE copies x 1 matching x 4 source signs
+                          x 4 target lanes = 48 cases
+failed shortcut:          b<->c exchanges AB/AC and maps role cell 3 to
+                          duplicate cell 6; no within-cell transport
+new computed cover:       16 source rows fix sigma_c, cover both sigma_o,
+                          and pay xi in {0,2} = 32 raw cases
+new transport cover:      xi=1 = 16 raw cases
+paired cuts:              quadratic P_u for (de,df), quadratic P_f for
+                          (second_de,sigma_c c f)
+final pair:               (sigma_o e f,b f)
+missing relation:         (u^2+eta de f^2)^2-s f^2 u^2=0
+elimination:              degree-8 f eliminant reduced modulo P_f, then
+                          one six-dimensional norm for fixed sigma_c
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       every norm and intermediate exceptional root lifted
+xi=0 rows:                13 candidate r values, 20 guarded source points,
+                          4 (u,f) candidates, no boundary
+xi=2 rows:                11 candidate r values, 18 guarded source points,
+                          4 (u,f) candidates, 2 with f=0
+aggregate direct replay:  192 candidate r values, 304 source points,
+                          64 (u,f) candidates, 16 f=0 boundaries
+lane replay:              96 nonboundary third-pair evaluations, all nonzero
+terminal ledgers:         0 witnesses, 0 unresolved
+result:                   complete 48-case pairing-5 block PROVED empty
+Modal app:                ap-N0QmFOGezoSyQ7sJCJzamG
+paid DE block:            xi in {0,1,2}, pairing in {0,1,2,3,4,5},
+                          288 raw cases
+next route step:          derive a low-degree cut for pairing 6, whose first
+                          pair is no longer (de,df)
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `4c1f697d3`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero.  The sixteen-container source census completed in under three minutes
+wall time and used no host computation beyond bounded validation.
+
 ### Work-cycle theorem: positive 433-1b cell-14 kernel normalization boundary
 
 ```text
