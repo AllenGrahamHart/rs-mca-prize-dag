@@ -892,6 +892,17 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   xr_mc_depth_quantization; xr_window_system_descent mint QUEUED;
   SL-2-RES = the Pro brief when Pro resumes. Pilots OV/F9/E_j running.
 
+### Codex correction to SL-2-RES currency (2026-08-03)
+
+The phrase "monic degree-r' divisors on a codimension-2d affine
+subspace" is not the exact occupancy endpoint. W counts raw
+interpolation subsets; a maximal depth-e pair contributes
+`C(k+e,k+d)` raw depth-d locators. R proves each single-word rank is d,
+not that the stacked rank is 2d. The corrected target is the maximal,
+selected, post-strip locator count in
+`xr_band_maximal_window_divisor_count`; it retains small-scale
+mixed-class systems. The W/D/R/L theorems remain banked unchanged.
+
 ## 2026-08-03: WAVE 45 (v11 math half) INTEGRATED — CELL 3 + CELL 6 CLOSED; round-12 pilot 2/4 (E_j) BANKED
 
 - WAVE 45: 23 nodes + 85 edges (dag 1793/4995); cell 3 closed

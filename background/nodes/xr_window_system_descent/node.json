@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1795,
+  "node": {
+    "id": "xr_window_system_descent",
+    "title": "XR window-system descent: exact locator equations, quotient descent, single-word Toeplitz rank, and large-scale periodic liveness exclusion",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For H=mu_n and r'=n-k-d, a monic locator E_T of degree r' admits a degree-<k word agreeing off T iff the top d coefficients of uE_T mod (X^n-1) vanish. Coset-union locators E_T=G(X^M) descend exactly by residue classes to the quotient window system. Under the tangent gate each single-word Toeplitz matrix has full rank d; no joint rank 2d is claimed. For M=2^j|gcd(n,k,d), individually residue-supported word pairs at odd h can be exact-A live only if M<=floor((n-k-d)/(h-d)); this excludes all M>=2^21 throughout the prize-row high band. Common-class systems descend to strip P3. This proves no occupancy count; small-scale mixed-class and aperiodic systems remain.",
+    "refs": [
+      "background/nodes/xr_window_system_descent/statement.md",
+      "background/nodes/xr_window_system_descent/proof.md",
+      "background/nodes/xr_window_system_descent/verify.py",
+      "notes/pilots_20260803/sl2_unstructured/FABLE_AUDIT.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_band_maximal_window_divisor_count",
+      "order": 4998
+    }
+  ],
+  "refutes": []
+}

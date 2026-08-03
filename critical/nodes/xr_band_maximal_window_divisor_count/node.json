@@ -1,0 +1,19 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1797,
+  "node": {
+    "id": "xr_band_maximal_window_divisor_count",
+    "title": "XR SL-2-RES maximal selected window-divisor count: exact-depth residual <=17n^2/25",
+    "status": "TARGET",
+    "closure": "",
+    "statement": "At each prize row and high band-proper depth, let R_d(u,v) contain the degree-(n-k-d) monic split squarefree divisors E_T|X^n-1 satisfying both top-d window systems, whose reconstructed codeword pair has full joint core exactly H\\T, has L_P>=2 under support-wise first-match selection, and survives the generic strip order. Then 25|R_d|<=17n^2. The window lemma identifies this set exactly with N_d. Common-class quotient-periodic, BP-parity, and large sub-depth liveness exclusions are removed only where proved; small-scale mixed-class and aperiodic systems remain. Raw affine divisors without maximality/selection are explicitly outside the assertion.",
+    "refs": [
+      "critical/nodes/xr_band_maximal_window_divisor_count/statement.md",
+      "critical/nodes/xr_band_maximal_window_divisor_count/attack.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

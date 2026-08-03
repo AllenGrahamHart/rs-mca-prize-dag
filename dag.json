@@ -27980,12 +27980,50 @@
   {
    "id": "xr_band_high_window_exclusion",
    "title": "XR SL-2 high-window exclusion: selected band occupancy N_d <= 17n^2/25 at every prize-row high band-proper depth",
-   "status": "TARGET",
-   "closure": "",
-   "statement": "At each of the three prize rows, for every globally generic-branch received pair after the ratified strip order and every ceil(h/2)<=d<=h-2, the support-wise first-match selected occupancy N_d of depth-d joint-explanation pairs carrying at least two selected live slopes satisfies 25N_d<=17n^2. Together with the banked low-depth envelope and cascade cap this fits the row-exact H_band=s_lo-16n^3 budget. The constant is not a claim about the stronger row-specific single-word window thresholds. The RowC rows are outside this node because their occupancy budget is vacuous. The canonical MC/coset construction is already excluded from this depth window by xr_mc_depth_quantization, so any falsifier requires a non-coset or finite-characteristic-accidental mechanism; this is not claimed as a complete classification. The windowed-list inequality in xr_band_windowed_projection_reduction is a sufficient attack route, not part of this assertion.",
+   "status": "CONDITIONAL",
+   "closure": "conditional",
+   "statement": "At each of the three prize rows, for every globally generic-branch received pair after the ratified strip order and every ceil(h/2)<=d<=h-2, the support-wise first-match selected occupancy N_d of depth-d joint-explanation pairs carrying at least two selected live slopes satisfies 25N_d<=17n^2. The exact remaining premise is xr_band_maximal_window_divisor_count (SL-2-RES), which counts only maximal exact-depth locators with L_P>=2 and retains small-scale mixed-class survivors. The proved window system and maximality fiber identity give a bijection with N_d. Raw affine divisors and a claimed joint codimension 2d are not valid substitutes. Together with the banked low-depth envelope and cascade cap this fits H_band=s_lo-16n^3. RowC is outside this node.",
    "refs": [
     "critical/nodes/xr_band_high_window_exclusion/statement.md",
-    "critical/nodes/xr_band_high_window_exclusion/attack.md"
+    "critical/nodes/xr_band_high_window_exclusion/attack.md",
+    "critical/nodes/xr_band_high_window_exclusion/conditional.md"
+   ]
+  },
+  {
+   "id": "xr_window_system_descent",
+   "title": "XR window-system descent: exact locator equations, quotient descent, single-word Toeplitz rank, and large-scale periodic liveness exclusion",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For H=mu_n and r'=n-k-d, a monic locator E_T of degree r' admits a degree-<k word agreeing off T iff the top d coefficients of uE_T mod (X^n-1) vanish. Coset-union locators E_T=G(X^M) descend exactly by residue classes to the quotient window system. Under the tangent gate each single-word Toeplitz matrix has full rank d; no joint rank 2d is claimed. For M=2^j|gcd(n,k,d), individually residue-supported word pairs at odd h can be exact-A live only if M<=floor((n-k-d)/(h-d)); this excludes all M>=2^21 throughout the prize-row high band. Common-class systems descend to strip P3. This proves no occupancy count; small-scale mixed-class and aperiodic systems remain.",
+   "refs": [
+    "background/nodes/xr_window_system_descent/statement.md",
+    "background/nodes/xr_window_system_descent/proof.md",
+    "background/nodes/xr_window_system_descent/verify.py",
+    "notes/pilots_20260803/sl2_unstructured/FABLE_AUDIT.md"
+   ]
+  },
+  {
+   "id": "xr_window_divisor_maximality_filter",
+   "title": "XR window-divisor maximality filter: RAW_d fiber identity and the mandatory exact-core plus selected-liveness predicates",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "If MAX_e counts maximal joint codeword pairs of full core size k+e and RAW_d counts all degree-(n-k-d) locators satisfying both linear window systems, then RAW_d=SUM_{e>=d} MAX_e*C(k+e,k+d). Thus a deeper pair contributes no depth-d selected occupancy but contributes C(k+e,k+d) raw divisors; the raw affine-divisor count is not equivalent to SL-2 and can exceed 17n^2/25 from one deeper pair. The residual must require exact maximality and L_P>=2 under first-match selection. Full rank d of each single-word system also does not imply joint codimension 2d.",
+   "refs": [
+    "background/nodes/xr_window_divisor_maximality_filter/statement.md",
+    "background/nodes/xr_window_divisor_maximality_filter/proof.md",
+    "background/nodes/xr_window_divisor_maximality_filter/verify.py",
+    "notes/pilots_20260803/ld_core_count/REPORT.md"
+   ]
+  },
+  {
+   "id": "xr_band_maximal_window_divisor_count",
+   "title": "XR SL-2-RES maximal selected window-divisor count: exact-depth residual <=17n^2/25",
+   "status": "TARGET",
+   "closure": "",
+   "statement": "At each prize row and high band-proper depth, let R_d(u,v) contain the degree-(n-k-d) monic split squarefree divisors E_T|X^n-1 satisfying both top-d window systems, whose reconstructed codeword pair has full joint core exactly H\\T, has L_P>=2 under support-wise first-match selection, and survives the generic strip order. Then 25|R_d|<=17n^2. The window lemma identifies this set exactly with N_d. Common-class quotient-periodic, BP-parity, and large sub-depth liveness exclusions are removed only where proved; small-scale mixed-class and aperiodic systems remain. Raw affine divisors without maximality/selection are explicitly outside the assertion.",
+   "refs": [
+    "critical/nodes/xr_band_maximal_window_divisor_count/statement.md",
+    "critical/nodes/xr_band_maximal_window_divisor_count/attack.md"
    ]
   }
  ],
@@ -52978,6 +53016,26 @@
   {
    "from": "xr_mc_depth_quantization",
    "to": "xr_band_high_window_exclusion",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_window_system_descent",
+   "to": "xr_band_maximal_window_divisor_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_window_divisor_maximality_filter",
+   "to": "xr_band_maximal_window_divisor_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_band_maximal_window_divisor_count",
+   "to": "xr_band_high_window_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "xr_mc_depth_quantization",
+   "to": "xr_band_maximal_window_divisor_count",
    "kind": "ev"
   }
  ]

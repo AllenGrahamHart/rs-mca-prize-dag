@@ -17102,3 +17102,38 @@ floor(17n^2/25) sum_{d=1}^{h-2} L(d)
 at every prize row. The low-depth envelope and cascade cap are already
 banked, so SL-2 remains the sole open premise. As a drift guard, the
 same verifier confirms that `18/25` fails at rates `1/8` and `1/16`.
+
+## r3.4 ROUND-12 HARVEST AND MAXIMALITY CORRECTION (2026-08-03)
+
+Canonical commit `9678c5ca` supplied exact window coordinates (W),
+coset descent (D), single-word Toeplitz rank (R), and a large-scale
+periodic liveness exclusion (L). These are minted in
+`xr_window_system_descent`. The proved periodic conclusions are:
+common-class quotient systems descend to P3; the official odd-`h`
+arithmetic excludes individually periodic sub-depth scales
+`M>=2^21`. Small-scale mixed-class and genuinely aperiodic systems
+remain.
+
+The harvest also caught a load-bearing endpoint error before minting.
+The proposed count of all degree-`n-k-d` divisors in the affine window
+intersection is RAW rather than maximal:
+
+```text
+RAW_d = sum_{e>=d} MAX_e binom(k+e,k+d).
+```
+
+The existing `ld_core_count` fixture has `RAW_1=334>272` while selected
+maximal `N_1=0`. Moreover R proves rank `d` separately for the `u` and
+`v` systems, not stacked codimension `2d`. The corrected DAG is
+
+```text
+xr_window_system_descent                 PROVED
+xr_window_divisor_maximality_filter      PROVED
+xr_band_maximal_window_divisor_count     TARGET (SL-2-RES)
+xr_band_high_window_exclusion            CONDITIONAL on SL-2-RES
+```
+
+SL-2-RES counts only locators whose reconstructed pair has exact full
+core `H\T`, carries `L_P>=2` under first-match selection, and survives
+the strips. This preserves the actual occupancy currency and leaves one
+honest residual rather than a stronger false raw-divisor conjecture.

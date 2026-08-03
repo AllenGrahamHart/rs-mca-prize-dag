@@ -115,9 +115,10 @@ def main() -> None:
     manifest = json.loads(MANIFEST.read_text())
     proved = [node["id"] for node in critical["nodes"] if node["label"] == "PROVED"]
 
-    # SL-2 decomposition adds one conditional parent while replacing, rather
-    # than adding, the Route-T TARGET leaf. Its proved reduction is evidence-only.
-    require(len(critical["nodes"]) == 243, "critical orbit size drift")
+    # The maximality correction adds a second conditional wrapper while
+    # replacing, rather than adding, the SL-2 TARGET leaf. Both proved
+    # coordinate reductions are evidence-only.
+    require(len(critical["nodes"]) == 244, "critical orbit size drift")
     require(len(proved) == 179, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()

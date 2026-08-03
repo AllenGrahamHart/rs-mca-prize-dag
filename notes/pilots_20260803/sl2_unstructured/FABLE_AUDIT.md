@@ -44,3 +44,30 @@ mint-prep round; (3) SL-2-RES as the Pro brief when Pro resumes — the
 divisor-counting form is exactly brief-shaped. Routes 1-2 quantified
 dead (packing 2^1.7e12 over budget; the counting route dies at
 N = 1/rate). Subtraction clean.
+
+## Codex maximality correction (2026-08-03)
+
+The theorem-grade W/D/R/L content above survives, but lines 33-35 do
+not give an equivalent formulation of selected occupancy as written.
+The window equations count RAW `(k+d)` interpolation sets. If a maximal
+pair has full core size `k+e`, it contributes
+`binom(k+e,k+d)` degree-`n-k-d` locators. Thus
+
+```text
+RAW_d = sum_{e>=d} MAX_e binom(k+e,k+d),
+```
+
+and one deeper pair can swamp the `0.68n^2` raw-divisor threshold while
+contributing zero to `N_d`. This is the same raw-subset defect already
+certified in `ld_core_count` (`RAW_1=334>272`, selected maximal
+`N_1=0`). Also, Theorem R proves rank `d` for each single-word window
+matrix; it does not prove that the stacked joint system has codimension
+exactly `2d`.
+
+The corrected residual is
+`xr_band_maximal_window_divisor_count`: degree-`n-k-d` locators in the
+joint window intersection whose reconstructed pair has full core
+exactly `H\T`, has `L_P>=2` under first-match selection, and survives
+the strips. Its scope includes small-scale mixed-class quotient
+patterns as well as non-coset aperiodic systems. First-moment margins
+remain evidence only.

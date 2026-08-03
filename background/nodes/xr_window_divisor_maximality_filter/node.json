@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1796,
+  "node": {
+    "id": "xr_window_divisor_maximality_filter",
+    "title": "XR window-divisor maximality filter: RAW_d fiber identity and the mandatory exact-core plus selected-liveness predicates",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "If MAX_e counts maximal joint codeword pairs of full core size k+e and RAW_d counts all degree-(n-k-d) locators satisfying both linear window systems, then RAW_d=SUM_{e>=d} MAX_e*C(k+e,k+d). Thus a deeper pair contributes no depth-d selected occupancy but contributes C(k+e,k+d) raw divisors; the raw affine-divisor count is not equivalent to SL-2 and can exceed 17n^2/25 from one deeper pair. The residual must require exact maximality and L_P>=2 under first-match selection. Full rank d of each single-word system also does not imply joint codimension 2d.",
+    "refs": [
+      "background/nodes/xr_window_divisor_maximality_filter/statement.md",
+      "background/nodes/xr_window_divisor_maximality_filter/proof.md",
+      "background/nodes/xr_window_divisor_maximality_filter/verify.py",
+      "notes/pilots_20260803/ld_core_count/REPORT.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_band_maximal_window_divisor_count",
+      "order": 4999
+    }
+  ],
+  "refutes": []
+}

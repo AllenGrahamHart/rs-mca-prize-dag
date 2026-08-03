@@ -1153,8 +1153,13 @@
   },
   {
    "id": "xr_band_high_window_exclusion",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "XR SL-2 high-window exclusion: selected band occupancy N_d <= 17n^2/25 at every prize-row high band-proper depth"
+  },
+  {
+   "id": "xr_band_maximal_window_divisor_count",
+   "label": "UNPROVED",
+   "title": "XR SL-2-RES maximal selected window-divisor count: exact-depth residual <=17n^2/25"
   },
   {
    "id": "xr_clean_residual_any_gate",
@@ -2422,6 +2427,10 @@
   {
    "from": "xr_band_high_window_exclusion",
    "to": "xr_graded_tangent_band_charge"
+  },
+  {
+   "from": "xr_band_maximal_window_divisor_count",
+   "to": "xr_band_high_window_exclusion"
   }
  ]
 }

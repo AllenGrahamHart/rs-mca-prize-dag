@@ -1,6 +1,6 @@
 # XR band high-window exclusion (SL-2)
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **scope:** the three prize rows, where the band occupancy budget binds
 - **consumer:** `xr_graded_tangent_band_charge`
 - **board alias:** SL-2, unstructured high-window exclusion
@@ -20,6 +20,12 @@ having at least two selected live slopes, exactly as in items 7-9 of
 ```text
 25 N_d <= 17 n^2.                                           (SL2)
 ```
+
+The exact remaining premise is now
+`xr_band_maximal_window_divisor_count` (SL-2-RES). The proved window
+system and maximality filter identify its residual locator set
+bijectively with the pairs counted by `N_d`; hence closing SL-2-RES
+promotes this node without another mathematical premise.
 
 The constant `17/25=0.68` is deliberately uniform. Together with the
 banked low-depth envelope and the stronger cascade cap, the exact
@@ -42,6 +48,12 @@ route through the averaged single-member window counts `W_d(z)`, but
 that route is not part of the assertion. Large `W_d(z)` values from
 codewords which do not assemble into selected joint pairs do not
 refute `(SL2)`.
+
+The round-12 locator coordinates are also a reduction only. Counting
+all degree-`n-k-d` divisors in the affine window intersection is the
+raw-subset currency and is not equivalent to `N_d`: a deeper maximal
+pair contributes `binom(k+e,k+d)` raw divisors. Exact maximality and
+selected liveness are load-bearing in SL-2-RES.
 
 ## Falsifier
 

@@ -4,15 +4,21 @@
   "node": {
     "id": "xr_band_high_window_exclusion",
     "title": "XR SL-2 high-window exclusion: selected band occupancy N_d <= 17n^2/25 at every prize-row high band-proper depth",
-    "status": "TARGET",
-    "closure": "",
-    "statement": "At each of the three prize rows, for every globally generic-branch received pair after the ratified strip order and every ceil(h/2)<=d<=h-2, the support-wise first-match selected occupancy N_d of depth-d joint-explanation pairs carrying at least two selected live slopes satisfies 25N_d<=17n^2. Together with the banked low-depth envelope and cascade cap this fits the row-exact H_band=s_lo-16n^3 budget. The constant is not a claim about the stronger row-specific single-word window thresholds. The RowC rows are outside this node because their occupancy budget is vacuous. The canonical MC/coset construction is already excluded from this depth window by xr_mc_depth_quantization, so any falsifier requires a non-coset or finite-characteristic-accidental mechanism; this is not claimed as a complete classification. The windowed-list inequality in xr_band_windowed_projection_reduction is a sufficient attack route, not part of this assertion.",
+    "status": "CONDITIONAL",
+    "closure": "conditional",
+    "statement": "At each of the three prize rows, for every globally generic-branch received pair after the ratified strip order and every ceil(h/2)<=d<=h-2, the support-wise first-match selected occupancy N_d of depth-d joint-explanation pairs carrying at least two selected live slopes satisfies 25N_d<=17n^2. The exact remaining premise is xr_band_maximal_window_divisor_count (SL-2-RES), which counts only maximal exact-depth locators with L_P>=2 and retains small-scale mixed-class survivors. The proved window system and maximality fiber identity give a bijection with N_d. Raw affine divisors and a claimed joint codimension 2d are not valid substitutes. Together with the banked low-depth envelope and cascade cap this fits H_band=s_lo-16n^3. RowC is outside this node.",
     "refs": [
       "critical/nodes/xr_band_high_window_exclusion/statement.md",
-      "critical/nodes/xr_band_high_window_exclusion/attack.md"
+      "critical/nodes/xr_band_high_window_exclusion/attack.md",
+      "critical/nodes/xr_band_high_window_exclusion/conditional.md"
     ]
   },
-  "requires": [],
+  "requires": [
+    {
+      "from": "xr_band_maximal_window_divisor_count",
+      "order": 5000
+    }
+  ],
   "alternatives": [],
   "evidence_for": [],
   "refutes": []

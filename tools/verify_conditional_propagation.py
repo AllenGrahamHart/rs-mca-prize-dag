@@ -17,7 +17,7 @@ Claim, in three parts, all pinned here:
      re-audit, because that is exactly how an unwired hypothesis would appear.
 
 Consequence: the remaining mathematics of the math orbit is exactly its TARGETs.
-The Convergence Ledger's "Definition of DONE" second conjunct ("39 CONDITIONALs
+The Convergence Ledger's "Definition of DONE" second conjunct ("40 CONDITIONALs
 discharged against a deduped joint hypothesis set") is IMPLIED by the first on our
 side of the tree -- there is no separate hypothesis set of ours left to dedup.
 
@@ -43,8 +43,10 @@ GRANDS = {"mca_grand", "list_grand"}
 # 2026-08-02 Route T added xr_graded_tangent_band_charge: 24 -> 25 TARGETs.
 # 2026-08-03 SL-2 decomposition moved that parent to CONDITIONAL and replaced
 # it with one exact TARGET leaf: targets stay 25, conditionals 38 -> 39.
+# The round-12 maximality correction wraps that leaf in the exact locator
+# residual: targets stay 25, conditionals 39 -> 40.
 EXPECTED_TARGETS = 25
-EXPECTED_CONDITIONALS = 39
+EXPECTED_CONDITIONALS = 40
 EXPECTED_ROUNDS = 8
 
 # Audited 2026-07-26.  Each entry: (conditional, mentioned open node, why benign).

@@ -1,5 +1,10 @@
 # Attack plan
 
+The current red is `xr_band_maximal_window_divisor_count`. The routes
+below remain supporting attacks, but every locator formulation must use
+the maximality and selected-liveness filters stated there. The former
+raw affine-divisor endpoint is refuted by the fiber identity.
+
 ## Exact object
 
 Audit `N_d`, not a raw Reed-Solomon list. Every candidate must pass the

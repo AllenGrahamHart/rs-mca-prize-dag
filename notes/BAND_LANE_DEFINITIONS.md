@@ -137,3 +137,20 @@ so the band column and the `16n^3` post-band remainder total at most
 `13n^3` breaks the ratified `17/25` occupancy arithmetic. The exact
 integer check lives in `critical/nodes/xr_graded_tangent_band_charge/
 verify.py` and includes the separately capped cascade tier.
+
+## Addendum 7 (2026-08-03): window locators use maximal selected currency
+
+For depth `d`, the two top-coefficient window systems parametrize raw
+`(k+d)` interpolation sets, not automatically the maximal pairs counted
+by `N_d`. If `MAX_e` counts full joint cores of depth `e`, then
+
+```text
+RAW_d = sum_{e>=d} MAX_e binom(k+e,k+d).
+```
+
+Therefore every window-divisor count consumed by the band lane must
+require: (i) the reconstructed pair's full core is exactly `H\T`, and
+(ii) that pair has `L_P>=2` under the support-wise first-match selector.
+Single-word Toeplitz rank `d` also does not imply stacked joint
+codimension `2d`. The corrected residual of record is
+`xr_band_maximal_window_divisor_count`.

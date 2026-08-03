@@ -36,6 +36,10 @@
     {
       "to": "xr_band_high_window_exclusion",
       "order": 4997
+    },
+    {
+      "to": "xr_band_maximal_window_divisor_count",
+      "order": 5001
     }
   ],
   "refutes": []
