@@ -774,3 +774,13 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   support, up to 2.96e12 tuples). RAY SIDE FINISHED. Open surface:
   SL-1, SL-2, OV. DECISION STACK: SOL_TARGET_4 reprice (#36); SL-2
   Pro brief; SL-1 pilot; PF2/PF3 + N=256 compute requests.
+
+## 2026-08-03: Modal run 1 DECIDED — PF2 full-gate PASS (charge 1.9), PF3 gate-killed
+
+- Coordinator Modal run (ap-OtZPijv1jV2rWFhllPZUn2, < $1): PF2 is the
+  first FULL-GATE admissible charge-defeating all-escape-1 fixture
+  (all 30 slopes capped at A; n_1 = 3h-2 exactly); PF3 (E1 pin) fails
+  the gate through its own designed slope 10 (forced over-agreement).
+  Channel (ii) realised with charge < 2 under every gate at toy
+  scale; prize-row protection (n_1 >= 3h-2) certified sufficient and
+  sole. Result JSON + sha pinned. SOL_TARGET_4 N=256 run in flight.
