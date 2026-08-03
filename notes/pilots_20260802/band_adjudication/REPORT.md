@@ -109,3 +109,17 @@ threshold already assumed, so caveats 1-2 were ONE hypothesis, not two;
 more robust than the set claim — state them separately. Lemma wording of
 record: "confinement = the j=1 coset theorem + realizability; j >= 2
 inherits from the gate inequality X < 1."]
+
+[COORDINATOR AMENDMENT 2 (2026-08-03, gamma_j2_close pilot, banked):
+lemma wording of record UPDATED — confinement = THEOREM Y +
+realizability = the E_1 = 1 case of the unconditional REDUCTION
+|Gamma_j| <= n . E_j (THEOREM D), E_j the mu_n-coset count of
+e_{j-1}(T^{-1}); structured part confined to -H^j (THEOREM E). The
+prize rows have w = M hence j <= w-1, a regime with NO gate-intact
+excess ever exhibited (39 rows to X = 4.44); every banked
+counterexample has w = 2 < M, j >= w. The "inherits from X < 1"
+clause is a CALIBRATION, not a theorem: X >= 1 is necessary (min
+1.045) but NOT sufficient. Residual = bound E_j (consumer needs
+<= 29.6 n vs trivial 2^209) — one symmetric function's coset spread,
+attached to the unified structured-liveness kernel. Named obstruction
+to any X < 1 proof: the one-parameter averaging gap (q^{w-1} short).]

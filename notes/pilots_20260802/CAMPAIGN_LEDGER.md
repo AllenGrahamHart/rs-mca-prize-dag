@@ -847,3 +847,19 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   — realisability is what kills them: 0/720 vs control 200/200).
   Residual = EXACTLY v5 flag F9. Unified mystery kernel: {SL-2, OV,
   F9}. Awaiting: gamma_j2_close (the last gate for the 7->4 board).
+
+## 2026-08-03: round-11 pilot 4 BANKED — ROUND 11 COMPLETE; BOARD REVISED 7 -> 4 (task #37 executed)
+
+- **gamma_j2_close (Opus, retry) BANKED** (9,415 checks 0 fail, 0/9
+  falsifiers; e2/e3 coordinator-replayed). PARTIAL: THEOREM D
+  unconditional reduction |Gamma_j| <= n.E_j (Y = E_1 = 1 case;
+  mintable); scope theorem (all 18 counterexamples w = 2 < M, j >= w;
+  prize rows j <= w-1, no gate-intact excess to X = 4.44); banked "X
+  governs" corrected to necessary-not-sufficient; one-parameter
+  averaging gap named as THE obstruction. Heart 7 NOT retired —
+  residual = E_j, attached to the unified kernel. Amendment 2 applied
+  to band_adjudication; advlib docstring fixed.
+- **BOARD REVISION EXECUTED (r3.2)**: four mysteries — UNIFIED
+  (kernel {SL-2, OV, F9, E_j} + P-B appendix), F2, C1/C2'', CROSSING.
+  Task #37 complete. Next levers: OV pilot, F9 pilot, SL-2 Pro brief,
+  E_j identification.
