@@ -8,9 +8,11 @@
    `(h-d)`-block in `D` and forces every outside root of its degree-`ell`
    scalar factor into that agreement core.
 3. Low affine span plus one mixed core/block layer is paid: a counterexample
-   has parameter dimension at least `11,11,10` on the three rates.  Continue
-   the mixed-incidence compiler from those new boundary dimensions; the
-   one-line/two-block-point case is now banked.
+   has parameter dimension at least `11,11,10` on the three rates.  The next
+   affine-plane layer is also banked: three points in one selected block pay
+   the printed `ell=1` lower-x slices unless the residual two-dimensional
+   code has a zero or repeated projective evaluation on the triple.  Bound
+   that restriction-degeneracy incidence; do not assume generic conics.
 4. Use the pairwise core cap `k-ell-1` together with the active blocks.
    Ordinary punctured Johnson is below threshold and is insufficient alone.
 5. Split by `1<=ell<=3d-2h-1`. Small `ell` limits every scalar factor;

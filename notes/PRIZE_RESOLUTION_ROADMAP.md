@@ -17407,3 +17407,36 @@ new assumptions: none
 compute: exact integer arithmetic only; Modal stopped
 next: generalize the mixed incidence count beyond the one-line residual layer
 ```
+
+### Affine-plane triple router
+
+The next mixed-incidence layer is now exact without assuming that two plane
+conics are generically transverse. After `s-2` independent core cuts, three
+pairwise distinct-`phi` points in one selected block impose two conics on the
+residual affine plane. If the residual two-dimensional direction code has
+nonzero pairwise distinct projective evaluations on the triple, the conics
+have no common component. Their leading forms share one point at infinity,
+so Bezout leaves at most three affine target parameters.
+
+Double counting all such block triples gives `(APT1)`. Every failure is
+retained explicitly as a restriction-degenerate flag: one direction-code
+evaluation is zero or two are projectively equal. On `ell=1`, exact official
+arithmetic pays the subfamily whose flags are all restriction-generic at the
+next affine dimensions through `d+1=6,840,580,025` at rates `1/4,1/8` and through
+`d+1=3,523,371,941` at rate `1/16`. The target remains red because the
+aggregate degeneracy incidence is not yet bounded.
+
+Burn-down record:
+
+```text
+starting pin: 91b55b3e; canonical a89e26ae; upstream main 93fba1be
+open upstream PRs checked: #1145-#1148; no uniform restriction-rank supplier
+node attacked: xr_band_forced_commonroot_syzygy_count
+result: NARROWED
+DAG status delta: one proved affine-plane router; no new red
+upstream terminal delta: none; PR #1148 remains fixture-specific
+delta-star bracket movement: none
+new assumptions: none
+compute: exact integer arithmetic only; no Modal use
+next: bound restriction-degenerate triple flags by core matroid or rational-map fibers
+```
