@@ -876,3 +876,18 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   the occupancy question in-house — non-coset window-system solution
   count + core-disjointness correlation cap; construction as the
   falsifier branch. Explicit-path commits while running.
+
+## 2026-08-03: round-12 pilot 1/4 BANKED — SL-2: scope gap found AND closed; residual = SL-2-RES
+
+- **sl2_unstructured (Opus) BANKED** (677 checks; 1 deliberately
+  recorded PREREG mis-specification, corrected forms pass). CATCH:
+  BP(1) scoped to M >= d only — sub-depth coset scales live in the
+  band proper at the prize rows; CLOSED by THEOREM L (M <= cap_d
+  from h-odd parity; M = 2^21..2^31 unconditional) + first-moment
+  margins on small M. NEW: LEMMA W (cores = divisors of X^n - 1 on a
+  codim-2d affine subspace), THEOREM D (descent bijection; settles
+  "syndromes descend"), THEOREM R (full Toeplitz rank via B-M).
+  RESIDUAL = SL-2-RES: the aperiodic divisor-count statement (h odd +
+  q >= 2^209 load-bearing). Addendum applied to
+  xr_mc_depth_quantization; xr_window_system_descent mint QUEUED;
+  SL-2-RES = the Pro brief when Pro resumes. Pilots OV/F9/E_j running.

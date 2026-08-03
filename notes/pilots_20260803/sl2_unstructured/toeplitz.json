@@ -1,0 +1,400 @@
+{
+ "checks": [
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n16k4d3q97#0",
+   "ok": true,
+   "extra": {
+    "rank": 3,
+    "d": 3
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n16k4d3q97#1",
+   "ok": true,
+   "extra": {
+    "rank": 3,
+    "d": 3
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n16k4d3q97#2",
+   "ok": true,
+   "extra": {
+    "rank": 3,
+    "d": 3
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n16k4d3q97#3",
+   "ok": true,
+   "extra": {
+    "rank": 3,
+    "d": 3
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n16k4d3q97#4",
+   "ok": true,
+   "extra": {
+    "rank": 3,
+    "d": 3
+   }
+  },
+  {
+   "check": "T2: rank = L exactly when u is at distance L < d (gate violated)",
+   "fixture": "n16k4d3q97L1",
+   "ok": true,
+   "extra": {
+    "rank": 1,
+    "L": 1,
+    "d": 3,
+    "dft_ok": true
+   }
+  },
+  {
+   "check": "T2: rank = L exactly when u is at distance L < d (gate violated)",
+   "fixture": "n16k4d3q97L2",
+   "ok": true,
+   "extra": {
+    "rank": 2,
+    "L": 2,
+    "d": 3,
+    "dft_ok": true
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n16k4d5q97#0",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "d": 5
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n16k4d5q97#1",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "d": 5
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n16k4d5q97#2",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "d": 5
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n16k4d5q97#3",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "d": 5
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n16k4d5q97#4",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "d": 5
+   }
+  },
+  {
+   "check": "T2: rank = L exactly when u is at distance L < d (gate violated)",
+   "fixture": "n16k4d5q97L1",
+   "ok": true,
+   "extra": {
+    "rank": 1,
+    "L": 1,
+    "d": 5,
+    "dft_ok": true
+   }
+  },
+  {
+   "check": "T2: rank = L exactly when u is at distance L < d (gate violated)",
+   "fixture": "n16k4d5q97L2",
+   "ok": true,
+   "extra": {
+    "rank": 2,
+    "L": 2,
+    "d": 5,
+    "dft_ok": true
+   }
+  },
+  {
+   "check": "T2: rank = L exactly when u is at distance L < d (gate violated)",
+   "fixture": "n16k4d5q97L3",
+   "ok": true,
+   "extra": {
+    "rank": 3,
+    "L": 3,
+    "d": 5,
+    "dft_ok": true
+   }
+  },
+  {
+   "check": "T2: rank = L exactly when u is at distance L < d (gate violated)",
+   "fixture": "n16k4d5q97L4",
+   "ok": true,
+   "extra": {
+    "rank": 4,
+    "L": 4,
+    "d": 5,
+    "dft_ok": true
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n12k4d3q13#0",
+   "ok": true,
+   "extra": {
+    "rank": 3,
+    "d": 3
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n12k4d3q13#1",
+   "ok": true,
+   "extra": {
+    "rank": 3,
+    "d": 3
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n12k4d3q13#2",
+   "ok": true,
+   "extra": {
+    "rank": 3,
+    "d": 3
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n12k4d3q13#3",
+   "ok": true,
+   "extra": {
+    "rank": 3,
+    "d": 3
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n12k4d3q13#4",
+   "ok": true,
+   "extra": {
+    "rank": 3,
+    "d": 3
+   }
+  },
+  {
+   "check": "T2: rank = L exactly when u is at distance L < d (gate violated)",
+   "fixture": "n12k4d3q13L1",
+   "ok": true,
+   "extra": {
+    "rank": 1,
+    "L": 1,
+    "d": 3,
+    "dft_ok": true
+   }
+  },
+  {
+   "check": "T2: rank = L exactly when u is at distance L < d (gate violated)",
+   "fixture": "n12k4d3q13L2",
+   "ok": true,
+   "extra": {
+    "rank": 2,
+    "L": 2,
+    "d": 3,
+    "dft_ok": true
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n20k6d4q41#0",
+   "ok": true,
+   "extra": {
+    "rank": 4,
+    "d": 4
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n20k6d4q41#1",
+   "ok": true,
+   "extra": {
+    "rank": 4,
+    "d": 4
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n20k6d4q41#2",
+   "ok": true,
+   "extra": {
+    "rank": 4,
+    "d": 4
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n20k6d4q41#3",
+   "ok": true,
+   "extra": {
+    "rank": 4,
+    "d": 4
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n20k6d4q41#4",
+   "ok": true,
+   "extra": {
+    "rank": 4,
+    "d": 4
+   }
+  },
+  {
+   "check": "T2: rank = L exactly when u is at distance L < d (gate violated)",
+   "fixture": "n20k6d4q41L1",
+   "ok": true,
+   "extra": {
+    "rank": 1,
+    "L": 1,
+    "d": 4,
+    "dft_ok": true
+   }
+  },
+  {
+   "check": "T2: rank = L exactly when u is at distance L < d (gate violated)",
+   "fixture": "n20k6d4q41L2",
+   "ok": true,
+   "extra": {
+    "rank": 2,
+    "L": 2,
+    "d": 4,
+    "dft_ok": true
+   }
+  },
+  {
+   "check": "T2: rank = L exactly when u is at distance L < d (gate violated)",
+   "fixture": "n20k6d4q41L3",
+   "ok": true,
+   "extra": {
+    "rank": 3,
+    "L": 3,
+    "d": 4,
+    "dft_ok": true
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n16k8d4q17#0",
+   "ok": true,
+   "extra": {
+    "rank": 4,
+    "d": 4
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n16k8d4q17#1",
+   "ok": true,
+   "extra": {
+    "rank": 4,
+    "d": 4
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n16k8d4q17#2",
+   "ok": true,
+   "extra": {
+    "rank": 4,
+    "d": 4
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n16k8d4q17#3",
+   "ok": true,
+   "extra": {
+    "rank": 4,
+    "d": 4
+   }
+  },
+  {
+   "check": "T1: rank = d for a generic (gated) word",
+   "fixture": "n16k8d4q17#4",
+   "ok": true,
+   "extra": {
+    "rank": 4,
+    "d": 4
+   }
+  },
+  {
+   "check": "T2: rank = L exactly when u is at distance L < d (gate violated)",
+   "fixture": "n16k8d4q17L1",
+   "ok": true,
+   "extra": {
+    "rank": 1,
+    "L": 1,
+    "d": 4,
+    "dft_ok": true
+   }
+  },
+  {
+   "check": "T2: rank = L exactly when u is at distance L < d (gate violated)",
+   "fixture": "n16k8d4q17L2",
+   "ok": true,
+   "extra": {
+    "rank": 2,
+    "L": 2,
+    "d": 4,
+    "dft_ok": true
+   }
+  },
+  {
+   "check": "T2: rank = L exactly when u is at distance L < d (gate violated)",
+   "fixture": "n16k8d4q17L3",
+   "ok": true,
+   "extra": {
+    "rank": 3,
+    "L": 3,
+    "d": 4,
+    "dft_ok": true
+   }
+  },
+  {
+   "check": "T3: the MC word has FULL rank w yet many solutions (rank is not the degeneracy the adversary buys)",
+   "fixture": "MC n16k4w2",
+   "ok": true,
+   "extra": {
+    "rank": 2,
+    "w": 2,
+    "solutions": 9
+   }
+  }
+ ],
+ "n_checks": 40,
+ "n_fail": 0,
+ "mc": {
+  "rank": 2,
+  "solutions": 9
+ },
+ "verdict": "PASS"
+}
