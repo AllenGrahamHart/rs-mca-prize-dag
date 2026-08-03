@@ -1154,7 +1154,7 @@
   {
    "id": "xr_band_forced_commonroot_syzygy_count",
    "label": "UNPROVED",
-   "title": "XR SL-2 G-local primitive Pade-pencil parameter census"
+   "title": "XR SL-2 active-defect primitive Pade-list census"
   },
   {
    "id": "xr_band_fullrank_window_divisor_count",

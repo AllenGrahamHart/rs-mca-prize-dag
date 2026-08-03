@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "xr_deficient_window_active_defect_list_router",
+    "title": "XR deficient Padé family: active-defect payment and punctured-list router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In a nonempty deficient primitive Pade family (f_tau,g_tau)=(f_*+Q tau,g_*-P tau), the residual rho=P(u-f_*)+Q(v-g_*) is invariant across tau and has support D contained in the whole-kernel forced set G_d, with e=|D|<=d-ell-1. No joint core meets D. On H\\D there is a fixed word w with E_tau=Q(w-tau), E_tau'=-P(w-tau), so the family injects into the exact punctured RS list of degree-<k-ell polynomials agreeing with w on k+d points. Every projective scalar error factors as (alpha Q-beta P)(w-tau). A D-local selected ray has an (h-d)-point block in D and every outside root of its degree-ell factor already in the core; distinct selected blocks are disjoint. All pairs exposing a selected off-core point outside D cost at most n-e, so only the D-local family remains, necessarily e>=2(h-d).",
+    "refs": [
+      "background/nodes/xr_deficient_window_active_defect_list_router/statement.md",
+      "background/nodes/xr_deficient_window_active_defect_list_router/proof.md",
+      "background/nodes/xr_deficient_window_active_defect_list_router/claim_contract.md",
+      "background/nodes/xr_deficient_window_active_defect_list_router/dependency_subdag.md",
+      "background/nodes/xr_deficient_window_active_defect_list_router/audit.md",
+      "background/nodes/xr_deficient_window_active_defect_list_router/result.md",
+      "background/nodes/xr_deficient_window_active_defect_list_router/lineage.md",
+      "background/nodes/xr_deficient_window_active_defect_list_router/verify.py"
+    ]
+  },
+  "requires": [
+    {"from": "xr_deficient_window_primitive_pade_pencil_router"},
+    {"from": "xr_band_ledger_theorems"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "xr_band_forced_commonroot_syzygy_count"},
+    {"to": "xr_band_maximal_window_divisor_count"}
+  ],
+  "refutes": []
+}

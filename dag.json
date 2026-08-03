@@ -28020,7 +28020,7 @@
    "title": "XR SL-2-RES maximal selected window-divisor count: exact-depth residual <=17n^2/25",
    "status": "CONDITIONAL",
    "closure": "conditional",
-   "statement": "At each prize row and high band-proper depth, let R_d(u,v) contain the degree-(n-k-d) monic split squarefree divisors E_T|X^n-1 satisfying both top-d window systems, whose reconstructed codeword pair has full joint core exactly H\\T, has L_P>=2 under support-wise first-match selection, and survives the generic strip order. Then 25|R_d|<=17n^2. The exact remaining alternatives are the full-joint-rank split-divisor target and, at deficient rank, the G_d-local target whose every selected off-core block lies in the whole-kernel forced-root set. The complementary deficient family is proved to have size at most n-|G_d| and the red leaf receives the exact remaining budget. Raw affine divisors without maximality/selection remain outside the assertion.",
+   "statement": "At each prize row and high band-proper depth, let R_d(u,v) contain the degree-(n-k-d) monic split squarefree divisors E_T|X^n-1 satisfying both top-d window systems, whose reconstructed codeword pair has full joint core exactly H\\T, has L_P>=2 under support-wise first-match selection, and survives the generic strip order. Then 25|R_d|<=17n^2. The exact remaining alternatives are the full-joint-rank split-divisor target and, at deficient rank, the active-defect-local target whose every selected off-core block lies in the support D of the invariant primitive residual. The complementary deficient family is proved to have size at most n-|D| and the red leaf receives the exact remaining budget. Raw affine divisors without maximality/selection remain outside the assertion.",
    "refs": [
     "critical/nodes/xr_band_maximal_window_divisor_count/statement.md",
     "critical/nodes/xr_band_maximal_window_divisor_count/attack.md",
@@ -28069,10 +28069,10 @@
   },
   {
    "id": "xr_band_forced_commonroot_syzygy_count",
-   "title": "XR SL-2 G-local primitive Pade-pencil parameter census",
+   "title": "XR SL-2 active-defect primitive Pade-list census",
    "status": "TARGET",
    "closure": "",
-   "statement": "At every prize-row depth ceil((2h+2)/3)<=d<=h-2 with rank J_d<2d and g=|G_d|>=2(h-d), let R_d^G be the maximal selected post-strip pairs for which every selected off-core block lies in G_d. The proved primitive Pade router writes the whole kernel as {(SP,SQ):S in W}, with gcd(P,Q)=1 and ell=max(deg P,deg Q)<=3d-2h-1, and writes every counted pair uniquely as (f0+Q tau,g0-P tau), deg tau<k-ell; distinct full cores intersect in at most k-ell-1 points. Then 25|R_d^G|<=17n^2-25(n-g). Maximality, first-match liveness, G-locality, and strip ownership remain load-bearing; no locator-pencil transport is assumed.",
+   "statement": "At every prize-row depth ceil((2h+2)/3)<=d<=h-2 with rank J_d<2d, let D be the support of the invariant primitive residual rho=P(u-f)+Q(v-g), with e=|D|>=2(h-d) and e<=|G_d|<=d-ell-1. Let R_d^D be the maximal selected post-strip pairs for which every selected off-core block lies in D. The proved routers write each pair uniquely as (f0+Q tau,g0-P tau), deg tau<k-ell, and embed tau into an exact punctured RS list at agreement k+d on H\\D. Every selected slope contributes a disjoint (h-d)-block in D and forces the outside roots of its degree-ell scalar factor into the core. Then 25|R_d^D|<=17n^2-25(n-e). Maximality, first-match liveness, active-defect locality, and strip ownership remain load-bearing.",
    "refs": [
     "critical/nodes/xr_band_forced_commonroot_syzygy_count/statement.md",
     "critical/nodes/xr_band_forced_commonroot_syzygy_count/attack.md"
@@ -28117,6 +28117,23 @@
     "background/nodes/xr_deficient_window_primitive_pade_pencil_router/result.md",
     "background/nodes/xr_deficient_window_primitive_pade_pencil_router/lineage.md",
     "background/nodes/xr_deficient_window_primitive_pade_pencil_router/verify.py"
+   ]
+  },
+  {
+   "id": "xr_deficient_window_active_defect_list_router",
+   "title": "XR deficient Pad\u00e9 family: active-defect payment and punctured-list router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In a nonempty deficient primitive Pade family (f_tau,g_tau)=(f_*+Q tau,g_*-P tau), the residual rho=P(u-f_*)+Q(v-g_*) is invariant across tau and has support D contained in the whole-kernel forced set G_d, with e=|D|<=d-ell-1. No joint core meets D. On H\\D there is a fixed word w with E_tau=Q(w-tau), E_tau'=-P(w-tau), so the family injects into the exact punctured RS list of degree-<k-ell polynomials agreeing with w on k+d points. Every projective scalar error factors as (alpha Q-beta P)(w-tau). A D-local selected ray has an (h-d)-point block in D and every outside root of its degree-ell factor already in the core; distinct selected blocks are disjoint. All pairs exposing a selected off-core point outside D cost at most n-e, so only the D-local family remains, necessarily e>=2(h-d).",
+   "refs": [
+    "background/nodes/xr_deficient_window_active_defect_list_router/statement.md",
+    "background/nodes/xr_deficient_window_active_defect_list_router/proof.md",
+    "background/nodes/xr_deficient_window_active_defect_list_router/claim_contract.md",
+    "background/nodes/xr_deficient_window_active_defect_list_router/dependency_subdag.md",
+    "background/nodes/xr_deficient_window_active_defect_list_router/audit.md",
+    "background/nodes/xr_deficient_window_active_defect_list_router/result.md",
+    "background/nodes/xr_deficient_window_active_defect_list_router/lineage.md",
+    "background/nodes/xr_deficient_window_active_defect_list_router/verify.py"
    ]
   }
  ],
@@ -53200,6 +53217,26 @@
    "from": "xr_deficient_window_primitive_pade_pencil_router",
    "to": "xr_band_forced_commonroot_syzygy_count",
    "kind": "ev"
+  },
+  {
+   "from": "xr_band_ledger_theorems",
+   "to": "xr_deficient_window_active_defect_list_router",
+   "kind": "req"
+  },
+  {
+   "from": "xr_deficient_window_active_defect_list_router",
+   "to": "xr_band_forced_commonroot_syzygy_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_deficient_window_active_defect_list_router",
+   "to": "xr_band_maximal_window_divisor_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_deficient_window_primitive_pade_pencil_router",
+   "to": "xr_deficient_window_active_defect_list_router",
+   "kind": "req"
   }
  ]
 }

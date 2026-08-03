@@ -15,12 +15,12 @@ The monolithic residual has been replaced by two exhaustive targets:
 rank J_d=2d
   -> xr_band_fullrank_window_divisor_count,
 rank J_d<2d, restricted to pairs whose every selected off-core block
-lies in G_d, with |G_d|>=2(h-d)
+lies in the active residual support D, with |D|>=2(h-d)
   -> xr_band_forced_commonroot_syzygy_count.
 ```
 
-The proved rational-direction payment handles the outside-`G_d` part of
-every deficient system with `N_d^out<=n-|G_d|`; the red leaf receives
+The proved active-defect router handles the outside-`D` part of every
+deficient system with `N_d^out<=n-|D|`; the red leaf receives
 the exact complementary budget. Do not recombine the full-rank and
 deficient targets by summing their budgets: they are alternative states
 of the fixed depth matrix.
@@ -72,6 +72,7 @@ checkpoints.
 - The two single-word ranks do not add without a transversality proof.
 - A deficient joint rank is not arbitrary: consume the nonproportional Padé
   syzygy router before introducing another structural conjecture.
-- Every deficient pair with a selected off-core point outside `G_d` is
-  already paid; only the all-selected-rays `G_d`-local family remains.
+- Every deficient pair with a selected off-core point outside the active
+  residual support `D` is already paid; only the all-selected-rays
+  `D`-local family remains.
 - "Aperiodic" must include mixed residue-class systems that evade P3.

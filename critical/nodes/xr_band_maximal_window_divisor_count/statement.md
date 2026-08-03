@@ -39,11 +39,11 @@ exclusion applies.
 
 The residual is now split exactly by stacked rank. Full joint rank is
 `xr_band_fullrank_window_divisor_count`. At deficient rank, partition
-the family into pairs with a selected off-core point outside the forced
-common-root set `G_d` and pairs whose complete selected off-core geometry
-lies in `G_d`. The proved rational-direction payment bounds the first
-part by `n-|G_d|`; the exact complementary-budget count for the second
-part is `xr_band_forced_commonroot_syzygy_count`.
+the family using the support `D` of the invariant primitive residual.
+Pairs with a selected off-core point outside `D` cost at most `n-|D|`;
+pairs whose complete selected off-core geometry lies in `D` form an exact
+punctured ordinary-list/active-block system. The complementary-budget count
+for that second part is `xr_band_forced_commonroot_syzygy_count`.
 
 ## Falsifier
 

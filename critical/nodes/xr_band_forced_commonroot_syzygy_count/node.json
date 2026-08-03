@@ -3,10 +3,10 @@
   "order": 1801,
   "node": {
     "id": "xr_band_forced_commonroot_syzygy_count",
-    "title": "XR SL-2 G-local primitive Pade-pencil parameter census",
+    "title": "XR SL-2 active-defect primitive Pade-list census",
     "status": "TARGET",
     "closure": "",
-    "statement": "At every prize-row depth ceil((2h+2)/3)<=d<=h-2 with rank J_d<2d and g=|G_d|>=2(h-d), let R_d^G be the maximal selected post-strip pairs for which every selected off-core block lies in G_d. The proved primitive Pade router writes the whole kernel as {(SP,SQ):S in W}, with gcd(P,Q)=1 and ell=max(deg P,deg Q)<=3d-2h-1, and writes every counted pair uniquely as (f0+Q tau,g0-P tau), deg tau<k-ell; distinct full cores intersect in at most k-ell-1 points. Then 25|R_d^G|<=17n^2-25(n-g). Maximality, first-match liveness, G-locality, and strip ownership remain load-bearing; no locator-pencil transport is assumed.",
+    "statement": "At every prize-row depth ceil((2h+2)/3)<=d<=h-2 with rank J_d<2d, let D be the support of the invariant primitive residual rho=P(u-f)+Q(v-g), with e=|D|>=2(h-d) and e<=|G_d|<=d-ell-1. Let R_d^D be the maximal selected post-strip pairs for which every selected off-core block lies in D. The proved routers write each pair uniquely as (f0+Q tau,g0-P tau), deg tau<k-ell, and embed tau into an exact punctured RS list at agreement k+d on H\\D. Every selected slope contributes a disjoint (h-d)-block in D and forces the outside roots of its degree-ell scalar factor into the core. Then 25|R_d^D|<=17n^2-25(n-e). Maximality, first-match liveness, active-defect locality, and strip ownership remain load-bearing.",
     "refs": [
       "critical/nodes/xr_band_forced_commonroot_syzygy_count/statement.md",
       "critical/nodes/xr_band_forced_commonroot_syzygy_count/attack.md"

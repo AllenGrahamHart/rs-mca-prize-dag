@@ -1,23 +1,20 @@
 # Attack plan
 
-1. Count the surviving `G_d`-local parameter polynomials `tau`, not raw
-   locators. Retain full-core maximality, two selected live slopes, the
-   condition that every selected off-core block lies in `G_d`, and the
-   prior strip owner in the parameter predicate.
-2. Exploit the strengthened pairwise cap `k-ell-1`. Determine whether a
-   punctured Johnson, support-flag, or first-match incidence bound becomes
-   row-sharp after the `ell`-point gain.
-3. Split by the primitive direction degree
-   `1<=ell<=3d-2h-1`. The smallest `ell` cells are the closest candidates
-   for an existing polynomial-pencil or bounded-deficiency owner.
-4. Do not invoke the upstream moving-root theorem without a transport:
-   it counts split locators in a projective coefficient pencil, whereas
-   this family is affine in codeword-pair space.
-5. The whole range `d<ceil((2h+2)/3)` is proved empty. No computation
-   should be spent there.
-6. Exploit locality before generic incidence estimates. For a selected
-   slope `z`, the primitive relation factors the scalar error outside
-   `G_d` through `Q-zP`; local pairs therefore require every outside
-   root of this degree-`ell` factor to lie in the joint core. Distinct
-   slopes have disjoint outside root sets. This is the next exact
-   transport to formalize.
+1. Count the surviving active-defect-local parameters `tau`, not raw
+   locators. Retain exact core maximality, two selected live slopes, every
+   selected off-core block in `D`, and the prior strip owner.
+2. Exploit the coupled representation: `tau` has exactly `k+d` agreements
+   with one word on `H\D`, while every selected slope supplies an exact
+   `(h-d)`-block in `D` and forces every outside root of its degree-`ell`
+   scalar factor into that agreement core.
+3. Use the pairwise core cap `k-ell-1` together with the active blocks.
+   Ordinary punctured Johnson is below threshold and is insufficient alone.
+4. Split by `1<=ell<=3d-2h-1`. Small `ell` limits every scalar factor;
+   larger `ell` reduces both the parameter dimension and the defect ceiling
+   `e<=d-ell-1`.
+5. Do not invoke upstream moving-root BC without a locator-currency
+   transport. Do not invoke upstream rational-owner localization: it puts
+   whole supports inside its owner set, whereas only off-core blocks lie in
+   `D` here.
+6. The range `d<ceil((2h+2)/3)` is proved empty. No computation should be
+   spent there.

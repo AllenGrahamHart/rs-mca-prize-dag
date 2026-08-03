@@ -6,26 +6,27 @@ Assume `xr_band_fullrank_window_divisor_count` and
 Fix one official row and high band-proper depth. If `rank J_d=2d`,
 the first premise gives `25|R_d|<=17n^2`.
 
-Otherwise `rank J_d<2d`. Define the forced common-root set `G_d` of
-the left syzygy kernel and put `g=|G_d|`. Partition
+Otherwise `rank J_d<2d`. Use the primitive pair supplied by the proved
+Padé router, let `D` be the support of its invariant residual, and put
+`e=|D|`. Partition
 
 ```text
-R_d = R_d^out disjoint-union R_d^G
+R_d = R_d^out disjoint-union R_d^D
 ```
 
-according as some selected off-core point lies outside `G_d` or every
-selected off-core point lies in `G_d`. The proved
-`xr_deficient_window_rational_direction_payment` gives
+according as some selected off-core point lies outside `D` or every
+selected off-core point lies in `D`. The proved
+`xr_deficient_window_active_defect_list_router` gives
 
 ```text
-|R_d^out| <= n-g.
+|R_d^out| <= n-e.
 ```
 
-If `g<2(h-d)`, it also gives `R_d^G=empty`, so the desired bound follows.
+If `e<2(h-d)`, it also gives `R_d^D=empty`, so the desired bound follows.
 Otherwise the second premise gives the exact complementary allowance
 
 ```text
-25|R_d^G| <= 17n^2-25(n-g).
+25|R_d^D| <= 17n^2-25(n-e).
 ```
 
 Adding the two disjoint currencies yields `25|R_d|<=17n^2`.
