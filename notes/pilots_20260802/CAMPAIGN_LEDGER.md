@@ -646,3 +646,18 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   NEXT ANCHORS (surfaced): consolidate the general-V admissible case
   at prize rows under the four floors; the sharp E1-family deficit
   question; the m >= 9 full-gate oracle (COMPUTE REQUEST).
+
+## 2026-08-03: CONSOLIDATION (task #34) — the heart's open surface is now three named lemmas
+
+- Coordinator derivation, ratified; note + machine-checked arithmetic
+  at notes/band_heart_consolidation_20260803/. NEW: CORE-DISJOINTNESS
+  LEMMA (depth-d cores pairwise <= k-1 under (T); each core >= k+1
+  forces the KEY-LEMMA joint-explanation event). NEGATIVE FINDING
+  (machine-checked): even granting L-A (pencil rigidity e >= 2) and
+  L-B (escape-1 over-agreement), the ray/pair lens gives 0.78-2.12 n^2
+  > 0.68 n^2 at every row — the charge route is retired as primary.
+  ROUTE OF RECORD -> count CORES: L-D = "depth-d joint-explanation
+  cores with L_P >= 2 number <= 0.68 n^2" (subsumes L-A/L-B; consumes
+  only banked machinery; calibration U-mechanism N_1 ~ n/2, >1000x
+  headroom). Open surface after consolidation: exactly {L-D primary;
+  L-A, L-B fallbacks}. Next pilot anchor: L-D dimension count.
