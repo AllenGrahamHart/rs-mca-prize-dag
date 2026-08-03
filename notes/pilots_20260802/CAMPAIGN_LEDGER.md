@@ -943,3 +943,16 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   with named next attacks. MINT QUEUE (5 packages):
   xr_window_system_descent, gamma THEOREM D, T0+P-SHARE, OV THEOREM
   2/5, E_j THEOREM G/H.
+
+## 2026-08-03: MINT-3 line-audited — 2 wired, 1 held; mint-4 queue set
+
+- mint3_prep: 3 drafts (42/42, three checks STRONGER than sources);
+  gamma/E_j package refused (banked wording + unaudited G/H —
+  endorsed; the missing ej FABLE_AUDIT debt paid); LEMMA W downgraded
+  to counting_frame attribution. WIRED: xr_pencil_forcing_t0 +
+  xr_ov_slope_free_reduction (dag 1795/4998; census unchanged; all
+  verifiers green; OV REPORT persisted pre-wiring). HELD:
+  xr_window_system_descent (THEOREM L reconstructed-with-gaps; W/D/L/R
+  need fresh coordinator line-audit). MINT-4 QUEUE: window-descent
+  line-audit + THEOREM D (3-drop) + UPB. Then: stage-2 refactor
+  review; export batch (cells 3/6/14); next Codex wave.
