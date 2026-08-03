@@ -27586,6 +27586,28 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-3 xi3 fully mixed pairings-7-8-10-13 exclusion",
+   "status": "PROVED",
+   "closure": "all 64 cases with missing df record xi=3 and canonical matching index 7, 8, 10, or 13",
+   "statement": "On the guarded positive deployed 433-1b role-cell-3 branch, every case with missing df record xi=3 and pairing index in {7,8,10,13} is empty across all source and target signs. For pairings 7 and 8, two equations linear in the missing factor f give an exact degree-eight quadratic-q resultant. Monic reduction modulo the missing-f quartic, a division-free 4-by-4 Bezout eliminant, exhaustive guard, f, and common-q replay, and both final sigma_o equations exclude all 32 computed cases. Exchange of the two identical positive de records transports pairings 7 and 8 value-for-value to pairings 10 and 13. There is no witness, boundary, free-gcd, or unresolved stratum. No other matching, missing role, cell closure, or Prize result is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_xi3_fully_mixed_linear_pair_bezout_pilot_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_xi3_fully_mixed_linear_pair_bezout_census_result.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion",
    "title": "KoalaBear m2 r4 positive 433-1b cell-14 linear-pair outside exclusion",
    "status": "PROVED",
@@ -52251,6 +52273,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

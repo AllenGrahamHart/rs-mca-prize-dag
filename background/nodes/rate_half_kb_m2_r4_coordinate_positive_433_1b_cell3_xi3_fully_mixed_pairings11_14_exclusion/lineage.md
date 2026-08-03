@@ -10,6 +10,7 @@
   resultant. The final rows completed in 220-362 seconds on Modal.
 - The quadratic-over-cubic tower norm avoids a redundant 6-by-6 determinant
   while computing the same field norm by transitivity.
-- Representative pairings 7 and 8 remain unclaimed, as do the lower-growth
-  refactors required for opposite-DE representatives 4 and 5.
+- A later monic missing-`f` theorem closes representatives 7 and 8 and their
+  transports 10 and 13. Lower-growth refactors are still required for
+  opposite-DE representatives 4 and 5.
 - The result remains background evidence toward `rate_half_band_closure`.

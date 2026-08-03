@@ -16670,3 +16670,44 @@ next route step:         downstream rate-half consumer or upstream finite-packet
 nonclaim:                no full 433-1b, rate-half band, K3, LIST, MCA, or Prize
                           closure
 ```
+
+### Work-cycle theorem: positive 433-1b cell-3 xi3 fully mixed linear-pair orbits
+
+```text
+aggregate scope:          xi=3 (missing df), pairing in {7,8,10,13}
+raw atlas cover:          4 matchings x 4 source signs x 4 target lanes
+                          = 64 cases
+computed representatives:pairings 7 and 8, 4 source signs x 2 sigma_c anchors;
+                          each row covers both sigma_o lanes = 32 cases
+transport representatives:pairing 7 -> 10 and pairing 8 -> 13 under exchange
+                          of the two identical positive de records
+defining equations:      F(q,bf)=F(-q,sigma_c cf)=0 for pairing 7;
+                          b and sigma_c c exchanged for pairing 8
+q elimination:           exact quadratic resultant J(f), degree 8
+missing relation:        monic M(f)=f^4+(2m-s)f^2+m^2, m=df,s=(d+f)^2
+f reduction:             monic remainder R=J mod M, degree 3, no new inverse
+target-free eliminant:    division-free 4 x 4 Bezout determinant of M and R
+norm route:               quadratic-over-cubic tower norm
+exceptional policy:       all norm, inverse, and base-leading roots lifted;
+                          every M root and every common-q gcd root replayed;
+                          an identically zero q gcd is unresolved, never dropped
+computed rows:            4 source signs x 2 pairings x 2 sigma_c = 16
+aggregate direct replay:  152 candidate r values, 176 source points,
+                          512 f rows, 64 targets, 128 final lane checks
+terminal mechanism:       all 128 F(q,sigma_o ef) values nonzero
+terminal ledgers:         0 witnesses, 0 boundaries, 0 free-q, 0 unresolved
+transport payment:        exact positive-de exchange pays 32 further cases
+result:                   complete 64-case xi3/pairings7,8,10,13 block PROVED
+Modal apps:               ap-WQS43McWsXJzkdc4g3LNwv pilot,
+                          ap-XMo58NE6XXcToWhPOWv2xG census
+artifact custody:         compiler sha256 17998157cf0bd624452a8404cfb2b288c
+                          1151147f20f8cba6a17431a06fef210;
+                          census sha256 32045c3dec4f16791eb71b6354cac03670
+                          bad4f3ac9b593adb58d5d742ed7808
+paid cell-3 ledger:       720 parallel-DE + 176 xi3 = 896 cases
+remaining xi3 orbits:     {4,9}, {5,12}
+failed-route fence:       pairing-4 cached-product retry again crossed 300s
+                          without its first nested-cut checkpoint; do not scale
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```

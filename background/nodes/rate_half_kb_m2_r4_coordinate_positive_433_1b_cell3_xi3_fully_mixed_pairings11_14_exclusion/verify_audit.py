@@ -100,9 +100,9 @@ def main():
     require("maps pairing 11 to pairing 14" in audit,
             "transport discipline")
     require("timed out at 300 seconds" in lineage and
-            "pairings 7 and 8 remain unclaimed" in lineage,
+            "later monic missing-`f` theorem" in lineage,
             "failed-route discipline")
-    require("832 raw cases" in frontier and
+    require("896 raw cases" in frontier and
             "Do not infer complete cell-3" in frontier,
             "retained frontier")
     print(
