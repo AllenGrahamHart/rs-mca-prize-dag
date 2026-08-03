@@ -183,3 +183,23 @@ clique at `(3,5,3,5)`, `n = 10` — `rank = 2m = 14` over 60
 deterministic slope tuples, labeled MEASURED; and the re-pricing
 consistency pins (`510 = 51 x 10`, ratio `1.328125`, margin
 `512 - 510 = 2`).
+
+## Addendum (2026-08-03, round-7 audit): the peel is ONE pass; the kernel floor
+
+Two facts from the audited round-7 unification pilot
+(`notes/pilots_20260803/k_escape_unification/REPORT.md`, Theorems U1-U4,
+coordinator-replayed 18/18):
+
+1. **Claim 6's peel terminates after one pass** (definitional, no defect):
+   with no ray-death rule, a point leaves every support simultaneously or
+   none, so `S_a^inf = S_a ^ W_0` always. All recorded floor and fixture
+   values are unchanged.
+2. **The escape floor is dominated by the KERNEL FLOOR**
+   `rank >= sum_a min(h, |S_a \ T*_a|)` where `T*` is the stable limit of
+   the full `(3, k+1)`-core operator (support-shrink AND ray-death,
+   iterated): proved, strictly better on explicit `(T)`-clean fixtures
+   (escape floor 8 vs kernel floor 10 = rank at `k = h = 2`), and equal to
+   the escape floor on both banked fixtures here (which is why the two
+   residuals looked identical). P-A1's un-peelable core `|K|` is the ray
+   side of the SAME operator's greatest fixed point — the two lanes'
+   residuals are one covering condition read twice.

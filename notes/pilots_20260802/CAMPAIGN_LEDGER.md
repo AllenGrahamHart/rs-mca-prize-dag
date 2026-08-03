@@ -550,3 +550,22 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   rank = 2m for zero-escape cliques (duality route pre-briefed) +
   V <= m/2. All three write only under notes/pilots_20260803/;
   coordinator line-audit gates any wiring.
+
+## 2026-08-03: round-7 pilot 1/3 BANKED — |K|-escape unification
+
+- **k_escape_unification (Opus) AUDITED + BANKED** (FABLE_AUDIT.md in
+  the pilot dir; coordinator replay 18/18, all 7 pre-registered
+  falsifiers survived; U1-U5 hand-verified). Verdict: UNIFIED as one
+  operator — both residuals are the (3, k+1)-core of the ray/point
+  incidence; the band escape residual is its FIRST ITERATE (U1: the
+  no-death peel is one-pass), P-A1's |K| its greatest fixed point (U2)
+  — SEPARATED as sets (explicit (T)-clean fixture: heart hypothesis
+  fails, conclusion holds via the core; escape floor 8 < kernel floor
+  10 = rank). KERNEL FLOOR (U3) dominates the escape floor (U4);
+  heart relaxed to the strictly weaker U5 core form. Node-local
+  addenda applied (support4 statement, definitions item 12', TARGET
+  factual pointer). Conditional first ceiling on |K| recorded
+  (Gamma_0 <= (2R-1)/2 — conditional, not banked). NEW OPEN: escape-1
+  gate-clean realizability (flag 5). SURFACED: re-pose the heart in U5
+  form; commission escape-1 as an anchor. Pilots 2/3 (mint2_prep,
+  zero_escape_collapse) still running.

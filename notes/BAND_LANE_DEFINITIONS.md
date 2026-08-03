@@ -50,3 +50,19 @@ use; older wordings are corrected via dated node addenda, never silently.
     lying in at most two supports" => the occupancy lemma is PROVED;
     open sub-items = the zero-escape collapse (rank = 2m exactly) and
     V <= m/2 for non-collapsing systems (m = |union S| - k).
+
+## Addendum (2026-08-03): item 12', the iterated (kernel) escape form
+
+The round-7 unification pilot (audited; `notes/pilots_20260803/
+k_escape_unification/REPORT.md` U1-U5) proves item 12's one-step peel is
+the FIRST ITERATE of the full `(3, k+1)`-core operator (delete points
+covered `< 3` times AND rays holding `<= k` surviving points, to the
+greatest fixed point). Item 12' (PROVED, Corollary U5): if `h >= 2` and
+every ray of the core escapes `>= 2` points relative to `W_infinity`,
+then `rank >= 2V`. This hypothesis is implied by and strictly weaker
+than item 12's (an explicit `(T)`-clean fixture fails item 12's
+hypothesis while the conclusion holds through the core). The only
+channels that can defeat per-ray charge 2 are core rays of escape 0
+(the zero-escape collapse, the named open sub-item) and escape 1 (named
+by the pilot; whether it reaches the gate-clean admissible class is
+OPEN — flag 5 of the report).
