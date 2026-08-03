@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "xr_deficient_window_phi_fiber_split_pencil_router",
+    "title": "XR deficient window: exact phi-fiber and split-pencil router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every selected r-point active-defect block, the number of triples on three distinct phi=[P:Q] fibers is the third elementary symmetric function of the fiber multiplicities and is minimized by the maximally packed ell-capped profile. Conditional on at least three fibers, the exact minimum is r-2 for r<=ell+2, ell(r-ell-1) for ell+2<r<=2ell, and the packed-profile value for r>2ell. A block on at most two fibers has its square-free locator dividing one or two members of the primitive pencil bP-aQ. Thus the triple-incidence method routes every uncounted target into an exact split-pencil endpoint with at least two disjoint selected block locators; it does not by itself pay that endpoint or the high-fiber upper tails.",
+    "refs": [
+      "background/nodes/xr_deficient_window_phi_fiber_split_pencil_router/statement.md",
+      "background/nodes/xr_deficient_window_phi_fiber_split_pencil_router/proof.md",
+      "background/nodes/xr_deficient_window_phi_fiber_split_pencil_router/claim_contract.md",
+      "background/nodes/xr_deficient_window_phi_fiber_split_pencil_router/dependency_subdag.md",
+      "background/nodes/xr_deficient_window_phi_fiber_split_pencil_router/audit.md",
+      "background/nodes/xr_deficient_window_phi_fiber_split_pencil_router/result.md",
+      "background/nodes/xr_deficient_window_phi_fiber_split_pencil_router/lineage.md",
+      "background/nodes/xr_deficient_window_phi_fiber_split_pencil_router/verify.py"
+    ]
+  },
+  "requires": [
+    {"from": "xr_deficient_window_active_defect_list_router"},
+    {"from": "xr_deficient_window_affine_plane_component_payment"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "xr_band_forced_commonroot_syzygy_count"},
+    {"to": "xr_band_maximal_window_divisor_count"}
+  ],
+  "refutes": []
+}

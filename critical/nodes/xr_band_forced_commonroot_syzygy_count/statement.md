@@ -62,9 +62,21 @@ every `r>2ell` tuple with `d+ell<=6,840,580,025` at rates `1/4,1/8` and
 with `d+ell<=3,435,973,837` at rate `1/16`; its `ell=1` payment at rate
 `1/16` extends through `d+1=3,523,371,941`.  The
 positive-dimensional conic degeneracies have constant selected ray and are
-removed by the same-ray interaction strip.  Larger `d` in `ell=1`, the
-two-`phi`-fiber regime `r<=2ell`, and the remaining higher-`ell` tuples stay
-open, so the node remains `TARGET`.
+removed by the same-ray interaction strip.
+
+The exact `phi`-fiber router sharpens the triple count to
+
+```text
+T_pack(r,ell)=binom(q,3)ell^3+binom(q,2)ell^2 u,
+q=floor(r/ell),       u=r-q ell.
+```
+
+It also identifies the precise triple-invisible endpoint: every selected
+block locator divides one or two members `bP-aQ` of the primitive pencil,
+and every target in that endpoint owns at least two disjoint such locators.
+Thus `r<=2ell` is not itself an unresolved stratum; high-fiber blocks there
+remain available to triple incidence.  The high-fiber upper tails and the
+split-pencil locator census stay open, so the node remains `TARGET`.
 
 Together with the unconditional outside-`D` payment, `(SL2-D)` gives
 `25|R_d(u,v)|<=17n^2` exactly. This is an owner-aware punctured list with

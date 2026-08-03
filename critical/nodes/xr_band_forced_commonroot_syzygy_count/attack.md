@@ -12,19 +12,24 @@
    affine-plane layer is also banked: three points in one selected block pay
    the printed lower-`d+ell` slices uniformly while `r>2ell`.  Common conic
    components have constant selected ray and are stripped.  Continue with
-   the upper-`d` `ell=1` tail, the `r<=2ell` two-fiber regime, and higher
-   `ell`; do not reopen the proportional-conic case.
+   the high-fiber upper tails and the split-pencil endpoint; do not reopen
+   the proportional-conic case.
 4. Use the pairwise core cap `k-ell-1` together with the active blocks.
    Ordinary punctured Johnson is below threshold and is insufficient alone.
-5. Split by `1<=ell<=3d-2h-1`. Small `ell` limits every scalar factor;
+5. Use the exact packed fiber profile, not the coarse label `r<=2ell`.
+   Any selected block with at least three `phi` values supplies the sharp
+   third-symmetric triple count. A block with at most two values has locator
+   dividing one or two pencil members `bP-aQ`; count these split-pencil
+   divisors jointly across the at least two disjoint selected blocks.
+6. Split by `1<=ell<=3d-2h-1`. Small `ell` limits every scalar factor;
    larger `ell` reduces both the parameter dimension and the defect ceiling
    `e<=d-ell-1`.
-6. Do not invoke upstream moving-root BC without a locator-currency
+7. Do not invoke upstream moving-root BC without a locator-currency
    transport. Do not invoke upstream rational-owner localization: it puts
    whole supports inside its owner set, whereas only off-core blocks lie in
    `D` here.
-7. Primitive SP does not transport: after removing the core, two selected
+8. Primitive SP does not transport: after removing the core, two selected
    block locators share only the automatic monic leading coefficient, not
    the deep common prefix required by the useful shift-pair ledgers.
-8. The range `d<ceil((2h+2)/3)` is proved empty. No computation should be
+9. The range `d<ceil((2h+2)/3)` is proved empty. No computation should be
    spent there.

@@ -28072,7 +28072,7 @@
    "title": "XR SL-2 active-defect primitive Pade-list census",
    "status": "TARGET",
    "closure": "",
-   "statement": "At every prize-row depth ceil((2h+2)/3)<=d<=h-2 with rank J_d<2d, let D be the support of the invariant primitive residual rho=P(u-f)+Q(v-g), with e=|D|>=2(h-d) and e<=|G_d|<=d-ell-1. Let R_d^D be the maximal selected post-strip pairs for which every selected off-core block lies in D. The proved routers write each pair uniquely as (f0+Q tau,g0-P tau), deg tau<k-ell, and embed tau into an exact punctured RS list at agreement k+d on H\\D. Every selected slope contributes a disjoint (h-d)-block in D and forces the outside roots of its degree-ell scalar factor into the core. Then 25|R_d^D|<=17n^2-25(n-e). The claim is proved for affine parameter dimensions through 10,10,9 by the low-span and mixed core/block payments; any counterexample has dimension at least 11,11,10. At those next dimensions, the affine-plane component payment closes every r>2ell tuple with d+ell<=6840580025 at rates 1/4,1/8 and d+ell<=3435973837 at rate 1/16; the latter ell=1 slice extends to d+1=3523371941. The upper tails and r<=2ell regime remain open. Maximality, first-match liveness, active-defect locality, and strip ownership remain load-bearing.",
+   "statement": "At every prize-row depth ceil((2h+2)/3)<=d<=h-2 with rank J_d<2d, let D be the support of the invariant primitive residual rho=P(u-f)+Q(v-g), with e=|D|>=2(h-d) and e<=|G_d|<=d-ell-1. Let R_d^D be the maximal selected post-strip pairs for which every selected off-core block lies in D. The proved routers write each pair uniquely as (f0+Q tau,g0-P tau), deg tau<k-ell, and embed tau into an exact punctured RS list at agreement k+d on H\\D. Every selected slope contributes a disjoint (h-d)-block in D and forces the outside roots of its degree-ell scalar factor into the core. Then 25|R_d^D|<=17n^2-25(n-e). The claim is proved for affine parameter dimensions through 10,10,9 by the low-span and mixed core/block payments; any counterexample has dimension at least 11,11,10. At those next dimensions, the affine-plane component payment closes every r>2ell tuple with d+ell<=6840580025 at rates 1/4,1/8 and d+ell<=3435973837 at rate 1/16; the latter ell=1 slice extends to d+1=3523371941. The exact phi-fiber router sharpens every high-fiber block to the packed third-symmetric count and identifies the complementary endpoint: at least two disjoint selected block locators, each dividing one or two members of the primitive pencil bP-aQ. The high-fiber upper tails and this split-pencil locator census remain open. Maximality, first-match liveness, active-defect locality, and strip ownership remain load-bearing.",
    "refs": [
     "critical/nodes/xr_band_forced_commonroot_syzygy_count/statement.md",
     "critical/nodes/xr_band_forced_commonroot_syzygy_count/attack.md"
@@ -28178,6 +28178,23 @@
     "background/nodes/xr_deficient_window_mixed_core_block_payment/result.md",
     "background/nodes/xr_deficient_window_mixed_core_block_payment/lineage.md",
     "background/nodes/xr_deficient_window_mixed_core_block_payment/verify.py"
+   ]
+  },
+  {
+   "id": "xr_deficient_window_phi_fiber_split_pencil_router",
+   "title": "XR deficient window: exact phi-fiber and split-pencil router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every selected r-point active-defect block, the number of triples on three distinct phi=[P:Q] fibers is the third elementary symmetric function of the fiber multiplicities and is minimized by the maximally packed ell-capped profile. Conditional on at least three fibers, the exact minimum is r-2 for r<=ell+2, ell(r-ell-1) for ell+2<r<=2ell, and the packed-profile value for r>2ell. A block on at most two fibers has its square-free locator dividing one or two members of the primitive pencil bP-aQ. Thus the triple-incidence method routes every uncounted target into an exact split-pencil endpoint with at least two disjoint selected block locators; it does not by itself pay that endpoint or the high-fiber upper tails.",
+   "refs": [
+    "background/nodes/xr_deficient_window_phi_fiber_split_pencil_router/statement.md",
+    "background/nodes/xr_deficient_window_phi_fiber_split_pencil_router/proof.md",
+    "background/nodes/xr_deficient_window_phi_fiber_split_pencil_router/claim_contract.md",
+    "background/nodes/xr_deficient_window_phi_fiber_split_pencil_router/dependency_subdag.md",
+    "background/nodes/xr_deficient_window_phi_fiber_split_pencil_router/audit.md",
+    "background/nodes/xr_deficient_window_phi_fiber_split_pencil_router/result.md",
+    "background/nodes/xr_deficient_window_phi_fiber_split_pencil_router/lineage.md",
+    "background/nodes/xr_deficient_window_phi_fiber_split_pencil_router/verify.py"
    ]
   },
   {
@@ -53312,6 +53329,11 @@
    "kind": "req"
   },
   {
+   "from": "xr_deficient_window_active_defect_list_router",
+   "to": "xr_deficient_window_phi_fiber_split_pencil_router",
+   "kind": "req"
+  },
+  {
    "from": "xr_deficient_window_affine_plane_component_payment",
    "to": "xr_band_forced_commonroot_syzygy_count",
    "kind": "ev"
@@ -53320,6 +53342,11 @@
    "from": "xr_deficient_window_affine_plane_component_payment",
    "to": "xr_band_maximal_window_divisor_count",
    "kind": "ev"
+  },
+  {
+   "from": "xr_deficient_window_affine_plane_component_payment",
+   "to": "xr_deficient_window_phi_fiber_split_pencil_router",
+   "kind": "req"
   },
   {
    "from": "xr_deficient_window_affine_plane_triple_router",
@@ -53360,6 +53387,16 @@
    "from": "xr_deficient_window_mixed_core_block_payment",
    "to": "xr_deficient_window_affine_plane_triple_router",
    "kind": "req"
+  },
+  {
+   "from": "xr_deficient_window_phi_fiber_split_pencil_router",
+   "to": "xr_band_forced_commonroot_syzygy_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_deficient_window_phi_fiber_split_pencil_router",
+   "to": "xr_band_maximal_window_divisor_count",
+   "kind": "ev"
   },
   {
    "from": "xr_deficient_window_primitive_pade_pencil_router",
