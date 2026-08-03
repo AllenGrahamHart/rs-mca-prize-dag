@@ -914,3 +914,17 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   Fourier-prescription reduction; named next-fixture for the live
   excess test (n=35,k=10,w=M=5,q=71, C(n,A)=4.06e9 — COMPUTE
   REQUEST scale). OV + F9 pilots still running.
+
+## 2026-08-03: round-12 pilot 3/4 BANKED — F9 adjudicated + T0 PROVED; C = 1/2 stands
+
+- **f9_pencil_forcing (Opus) BANKED** (39/39; PREREG incl. the full
+  construction pre-dated; honest in-run check correction). Literal F9
+  CLOSED-YES at V=4 (W1/W2); T2/T1 REFUTED (18 fixtures — la's FB
+  fired at Delta = 0, its V >= 5 evidence void, its theorems intact);
+  T0 (the anchor-exact statement) PROVED via LEMMAS 2-5 + P-SHARE
+  (distinct pencils share <= 1 fibre — NEW, sharpens Q5, keeps the
+  pinning out of V=4); residual = the t <= 2e-3 band (includes prize
+  shapes; 54+12 complete sweeps find zero there; dim G = 1 in all 134
+  non-collapsing systems). C = 1/2 UNCHANGED. Addenda applied to la +
+  unified audits. KERNEL NOW: {SL-2-RES, OV, T0-residual, E_j}.
+  OV pilot still running.

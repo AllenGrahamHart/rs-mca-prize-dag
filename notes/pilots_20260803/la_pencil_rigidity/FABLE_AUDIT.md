@@ -26,3 +26,11 @@ list-size terminus at tau = k + ceil(h/2) — the real problem,
 positive target #1 species, codeword-pair side, and (2) the overlap
 sliver (combinatorial, precisely named, toy-attackable). Everything
 else on the ray side is proved or refuted-and-rerouted.
+
+## Dated addendum (2026-08-03, F9 pilot): FB FIRED — the V >= 5
+non-existence evidence is VOID (random partitions blind to a codim-4
+condition; exhaustive fields too small for a 5th disjoint block); 18
+explicit V >= 5 non-pencil-forcing fixtures exist (T2/T1 false). The
+proved THEOREMS 1/2/3/5 + D1-D3 replay clean on all of them; the
+"forces >= V-1 blocks" claim corrects to >= V-2-e. See
+f9_pencil_forcing/.
