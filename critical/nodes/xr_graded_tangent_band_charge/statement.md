@@ -49,8 +49,8 @@ the collapse pilot SETTLED the escape-0 channel at `V = 4` positively
 and `V <= m/2` as general statements — the heart's remaining open
 channels are exactly V >= 5 zero-escape below the Corollary-3b
 threshold, and escape-1. The reduction of record above is unchanged;
-re-posing the open input in the weaker form is a surfaced decision,
-not applied.)*
+the re-pose was RATIFIED and APPLIED 2026-08-03 — the heart section
+below is the form of record.)*
 
 Cost side PROVED (two-slope cost theorem): condition rank exactly `2h`
 per generic pair (a FAMILY-RANK statement — per-ray accounting is the
@@ -61,15 +61,25 @@ family, extremal, `d <= (h-1)/2` only); connectivity floor
 MC quantized out of the band (depth profile supported on `{0, h-1}`);
 standing calibration adversaries: K_V, MC, U-mechanism (deficit 1/ray).
 
-## The heart (open; support-4 structure theory, banked 2026-08-02)
+## The heart (open; RE-POSED 2026-08-03 in the iterated-core form, ratified)
 
-An admissible, non-collapsing, pairwise-intersecting ray system with
-`V > m/2` — equivalently, per-ray charge `< 2`. Purely combinatorial
-escape form: **"every ray support has >= 2 points lying in at most two
-supports" implies the occupancy lemma.** Two named sub-items: prove the
-zero-escape collapse (`rank = 2m` exactly — measured exhaustively at two
-fixtures, the toy rows' load-bearing kill), and prove `V <= m/2` for
-non-collapsing systems (all 9 known families conform).
+Form of record (item 12' of `notes/BAND_LANE_DEFINITIONS.md`): the
+implication **"every ray of the `(3, k+1)`-core escapes `>= 2` points
+relative to `W_infinity`" `=>` per-ray charge `>= 2`** is PROVED
+(Corollary U5, round-7 unification); what remains OPEN is that
+admissible band systems satisfy the hypothesis. The only channels that
+can defeat it are exactly: (i) `V >= 5` zero-escape systems below the
+Corollary-3b threshold `(V-3)t + |A_0| <= k-1` — pre-registered
+falsifier: such a system with `rank < 2V`; and (ii) escape-1 core rays
+(gate-clean realizability OPEN, unification flag 5). SETTLED: the
+escape-0 channel at `V = 4` (charge `>= 2` unconditional, Prop 6 of
+the collapse pilot). STRUCK (2026-08-03, refuted as general
+statements): the former sub-items "zero-escape collapse
+(`rank = 2m`)" and "`V <= m/2` for non-collapsing systems" — see
+Addendum 2 of `background/nodes/xr_support4_structure/statement.md`;
+the measured fixtures' collapses survive as THEOREMS (MDS-chain /
+triple-cover criteria), and the old one-step escape form survives as a
+sufficient special case of the form of record.
 
 ## Falsifier
 

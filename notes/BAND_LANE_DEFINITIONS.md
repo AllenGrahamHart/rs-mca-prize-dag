@@ -79,3 +79,12 @@ Corollary-3b kill threshold), and (ii) escape-1 core rays (gate-clean
 realizability OPEN, unification flag 5). Wherever this file or item 12'
 says "the zero-escape collapse, the named open sub-item", read: struck
 as a conjecture; survives only as fixture theorems.
+
+## Addendum 3 (2026-08-03, ratified): item 12' is the heart's form of record
+
+The re-pose was ratified and applied: item 12' (the iterated-core
+escape form) is now the occupancy heart's hypothesis OF RECORD in
+`critical/nodes/xr_graded_tangent_band_charge` (statement + dag text
+synced). Item 12's one-step form survives as a sufficient special
+case. Open channels of record: V >= 5 zero-escape below the Cor-3b
+threshold; escape-1 core rays.
