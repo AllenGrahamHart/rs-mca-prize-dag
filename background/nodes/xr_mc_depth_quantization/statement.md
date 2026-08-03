@@ -147,3 +147,17 @@ BP(3)/BP(2) fresh replication of the adjudication fixtures — `h = 6`
 `j`; `h = 5`, `d = h-1`: `j = 1` productive (cascade tier, allowed);
 and the structured-floor completeness census at `(16,8,2,2)`,
 `q = 65537`.
+
+## Addendum (2026-08-03, SL-2 pilot): BP(1)'s scale pin, and the sub-depth closure
+
+BP(1) ("structured => depth a power of two") is proved AT THE PINNED
+SCALE M = 2^ceil(log2 d) >= d (definitions item 10). Coset structure
+alone forces only M | d: SUB-DEPTH scales M < d are non-empty inside
+the band proper at all three prize rows (M = 2 .. 2^31; the largest
+lands on the quotient's cascade tier) and are NOT excluded by
+BP(1)/BP(3). They ARE excluded by the SL-2 pilot's THEOREM L
+(separately M-quotient-periodic (u,v) with h odd force M <= cap_d;
+kills M = 2^21..2^31 unconditionally at the prize rows) with
+first-moment margins >= 3.09e5 bits on M <= 2^20 (heuristic-grade,
+labeled). THEOREM D there settles "syndromes descend" affirmatively
+for the window system. See notes/pilots_20260803/sl2_unstructured/.

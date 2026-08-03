@@ -1,0 +1,535 @@
+{
+ "row": {
+  "n": 16,
+  "k": 4,
+  "q": 97,
+  "M": 2,
+  "d": 4,
+  "h": 5,
+  "band_proper": [
+   3,
+   3
+  ],
+  "A_gate": 9,
+  "item10_scale": 4
+ },
+ "quotient": {
+  "N": 8,
+  "k": 2,
+  "d": 2,
+  "m": 4,
+  "Mprime": 2,
+  "cores": 2
+ },
+ "upstairs": {
+  "joint": 2,
+  "coset": 2,
+  "u": 2,
+  "v": 2
+ },
+ "classes": {
+  "u": [
+   0
+  ],
+  "v": [
+   1
+  ],
+  "wz": {
+   "1": [
+    0,
+    1
+   ],
+   "2": [
+    0,
+    1
+   ],
+   "3": [
+    0,
+    1
+   ],
+   "5": [
+    0,
+    1
+   ]
+  }
+ },
+ "checks": [
+  {
+   "check": "quotient r' == m",
+   "ok": true,
+   "extra": {
+    "mq": 4,
+    "m": 4
+   }
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient lemmaW == direct",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "quotient joint family NON-EMPTY",
+   "ok": true,
+   "extra": {
+    "count": 2
+   }
+  },
+  {
+   "check": "L1: upstairs joint cores == LIFTED quotient joint cores",
+   "ok": true,
+   "extra": {
+    "upstairs": 2,
+    "lifted": 2,
+    "coset_unions": 2
+   }
+  },
+  {
+   "check": "L1b: every upstairs joint core is a mu_M-coset union",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "L1c: E_T(X) = G(X^M) for every upstairs joint core",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "L2: M < d  (BP(1)/item-10 scale would be 2^ceil(log2 d) >= d)",
+   "ok": true,
+   "extra": {
+    "M": 2,
+    "d": 4,
+    "item10_scale": 4,
+    "M_divides_d": true
+   }
+  },
+  {
+   "check": "L3 [PREREG, MIS-SPECIFIED -- recorded as failed]: d = h-M with h the toy's MEASURED ceiling",
+   "ok": false,
+   "extra": {
+    "predicted_d": 3,
+    "actual_d": 4,
+    "prereg_ok": false,
+    "band_proper_measured": [
+     3,
+     3
+    ],
+    "landed": "cascade tier"
+   }
+  },
+  {
+   "check": "L3': d = M * d' exactly (the descent depth relation)",
+   "ok": true,
+   "extra": {
+    "d": 4,
+    "M": 2,
+    "dprime": 2
+   }
+  },
+  {
+   "check": "L3'': relative to the toy's own measured ceiling the lifted family sits at the CASCADE tier d = h-1",
+   "ok": true,
+   "extra": {
+    "h_measured": 5,
+    "d": 4
+   }
+  },
+  {
+   "check": "L3''': d is NOT a power of two is NOT required -- d = 4 IS a power of two here; what matters is M != 2^ceil(log2 d)",
+   "ok": true,
+   "extra": {
+    "d": 4,
+    "M": 2,
+    "item10": 4
+   }
+  },
+  {
+   "check": "L4: u, v each 1-class; every member w_z meets 2 classes mod M",
+   "ok": true,
+   "extra": {
+    "classes_u": [
+     0
+    ],
+    "classes_v": [
+     1
+    ],
+    "classes_wz": {
+     "1": [
+      0,
+      1
+     ],
+     "2": [
+      0,
+      1
+     ],
+     "3": [
+      0,
+      1
+     ],
+     "5": [
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "check": "L4b: every member w_z admits the WHOLE family",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "L5: KEY LEMMA -- all members interpolate to codewords on Z",
+   "ok": true,
+   "extra": null
+  }
+ ],
+ "n_checks": 83,
+ "n_fail": 1,
+ "verdict": "FAIL"
+}

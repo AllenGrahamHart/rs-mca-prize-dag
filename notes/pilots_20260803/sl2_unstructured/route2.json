@@ -1,0 +1,278 @@
+{
+ "rows": [
+  {
+   "name": "RowC 1/4",
+   "n": 1024,
+   "k": 256,
+   "h": 5,
+   "band_proper": [
+    3,
+    3
+   ],
+   "budget_bits": 19.443606651475616,
+   "packing": [
+    {
+     "d": 3,
+     "log2_bound": 804.1813637768181,
+     "excess_bits": 784.7377571253425
+    },
+    {
+     "d": 3,
+     "log2_bound": 804.1813637768181,
+     "excess_bits": 784.7377571253425
+    }
+   ],
+   "rate_inv": 4,
+   "dimension_obstruction_N": 4,
+   "budget_over_obstruction_bits": 17.443606651475616
+  },
+  {
+   "name": "RowC 1/8",
+   "n": 1024,
+   "k": 128,
+   "h": 5,
+   "band_proper": [
+    3,
+    3
+   ],
+   "budget_bits": 19.443606651475616,
+   "packing": [
+    {
+     "d": 3,
+     "log2_bound": 533.39755271628,
+     "excess_bits": 513.9539460648043
+    },
+    {
+     "d": 3,
+     "log2_bound": 533.39755271628,
+     "excess_bits": 513.9539460648043
+    }
+   ],
+   "rate_inv": 8,
+   "dimension_obstruction_N": 8,
+   "budget_over_obstruction_bits": 16.443606651475616
+  },
+  {
+   "name": "RowC 1/16",
+   "band_proper_empty": true
+  },
+  {
+   "name": "prize 1/4",
+   "n": 2199023255552,
+   "k": 549755813888,
+   "h": 8589934593,
+   "band_proper": [
+    4294967297,
+    8589934591
+   ],
+   "budget_bits": 81.67945496491241,
+   "packing": [
+    {
+     "d": 4294967297,
+     "log2_bound": 1747734221686.1245,
+     "excess_bits": 1747734221604.445
+    },
+    {
+     "d": 8589934591,
+     "log2_bound": 1719990881550.2249,
+     "excess_bits": 1719990881468.5454
+    }
+   ],
+   "rate_inv": 4,
+   "dimension_obstruction_N": 4,
+   "budget_over_obstruction_bits": 79.67945496491241
+  },
+  {
+   "name": "prize 1/8",
+   "n": 2199023255552,
+   "k": 274877906944,
+   "h": 8589934593,
+   "band_proper": [
+    4294967297,
+    8589934591
+   ],
+   "budget_bits": 81.45599635644622,
+   "packing": [
+    {
+     "d": 4294967297,
+     "log2_bound": 1163296561048.5352,
+     "excess_bits": 1163296560967.079
+    },
+    {
+     "d": 8589934591,
+     "log2_bound": 1139776873338.2734,
+     "excess_bits": 1139776873256.8174
+    }
+   ],
+   "rate_inv": 8,
+   "dimension_obstruction_N": 8,
+   "budget_over_obstruction_bits": 78.45599635644622
+  },
+  {
+   "name": "prize 1/16",
+   "n": 2199023255552,
+   "k": 137438953472,
+   "h": 4294967297,
+   "band_proper": [
+    2147483649,
+    4294967295
+   ],
+   "budget_bits": 81.3997612967127,
+   "packing": [
+    {
+     "d": 2147483649,
+     "log2_bound": 725701555133.7075,
+     "excess_bits": 725701555052.3077
+    },
+    {
+     "d": 4294967295,
+     "log2_bound": 713941711284.3558,
+     "excess_bits": 713941711202.956
+    }
+   ],
+   "rate_inv": 16,
+   "dimension_obstruction_N": 16,
+   "budget_over_obstruction_bits": 77.3997612967127
+  }
+ ],
+ "checks": [
+  {
+   "check": "(2a) the packing bound is ASTRONOMICALLY above the budget (route insufficient)",
+   "fixture": "RowC 1/4 d=3",
+   "ok": true,
+   "extra": {
+    "log2_bound": 804.1813637768181,
+    "budget": 19.443606651475616
+   }
+  },
+  {
+   "check": "(2a) the packing bound is ASTRONOMICALLY above the budget (route insufficient)",
+   "fixture": "RowC 1/4 d=3",
+   "ok": true,
+   "extra": {
+    "log2_bound": 804.1813637768181,
+    "budget": 19.443606651475616
+   }
+  },
+  {
+   "check": "(2b) the planting/dimension obstruction dies at N = 1/rate, far below the budget",
+   "fixture": "RowC 1/4",
+   "ok": true,
+   "extra": {
+    "N_crit": 4,
+    "budget_bits": 19.443606651475616
+   }
+  },
+  {
+   "check": "(2a) the packing bound is ASTRONOMICALLY above the budget (route insufficient)",
+   "fixture": "RowC 1/8 d=3",
+   "ok": true,
+   "extra": {
+    "log2_bound": 533.39755271628,
+    "budget": 19.443606651475616
+   }
+  },
+  {
+   "check": "(2a) the packing bound is ASTRONOMICALLY above the budget (route insufficient)",
+   "fixture": "RowC 1/8 d=3",
+   "ok": true,
+   "extra": {
+    "log2_bound": 533.39755271628,
+    "budget": 19.443606651475616
+   }
+  },
+  {
+   "check": "(2b) the planting/dimension obstruction dies at N = 1/rate, far below the budget",
+   "fixture": "RowC 1/8",
+   "ok": true,
+   "extra": {
+    "N_crit": 8,
+    "budget_bits": 19.443606651475616
+   }
+  },
+  {
+   "check": "(2a) the packing bound is ASTRONOMICALLY above the budget (route insufficient)",
+   "fixture": "prize 1/4 d=4294967297",
+   "ok": true,
+   "extra": {
+    "log2_bound": 1747734221686.1245,
+    "budget": 81.67945496491241
+   }
+  },
+  {
+   "check": "(2a) the packing bound is ASTRONOMICALLY above the budget (route insufficient)",
+   "fixture": "prize 1/4 d=8589934591",
+   "ok": true,
+   "extra": {
+    "log2_bound": 1719990881550.2249,
+    "budget": 81.67945496491241
+   }
+  },
+  {
+   "check": "(2b) the planting/dimension obstruction dies at N = 1/rate, far below the budget",
+   "fixture": "prize 1/4",
+   "ok": true,
+   "extra": {
+    "N_crit": 4,
+    "budget_bits": 81.67945496491241
+   }
+  },
+  {
+   "check": "(2a) the packing bound is ASTRONOMICALLY above the budget (route insufficient)",
+   "fixture": "prize 1/8 d=4294967297",
+   "ok": true,
+   "extra": {
+    "log2_bound": 1163296561048.5352,
+    "budget": 81.45599635644622
+   }
+  },
+  {
+   "check": "(2a) the packing bound is ASTRONOMICALLY above the budget (route insufficient)",
+   "fixture": "prize 1/8 d=8589934591",
+   "ok": true,
+   "extra": {
+    "log2_bound": 1139776873338.2734,
+    "budget": 81.45599635644622
+   }
+  },
+  {
+   "check": "(2b) the planting/dimension obstruction dies at N = 1/rate, far below the budget",
+   "fixture": "prize 1/8",
+   "ok": true,
+   "extra": {
+    "N_crit": 8,
+    "budget_bits": 81.45599635644622
+   }
+  },
+  {
+   "check": "(2a) the packing bound is ASTRONOMICALLY above the budget (route insufficient)",
+   "fixture": "prize 1/16 d=2147483649",
+   "ok": true,
+   "extra": {
+    "log2_bound": 725701555133.7075,
+    "budget": 81.3997612967127
+   }
+  },
+  {
+   "check": "(2a) the packing bound is ASTRONOMICALLY above the budget (route insufficient)",
+   "fixture": "prize 1/16 d=4294967295",
+   "ok": true,
+   "extra": {
+    "log2_bound": 713941711284.3558,
+    "budget": 81.3997612967127
+   }
+  },
+  {
+   "check": "(2b) the planting/dimension obstruction dies at N = 1/rate, far below the budget",
+   "fixture": "prize 1/16",
+   "ok": true,
+   "extra": {
+    "N_crit": 16,
+    "budget_bits": 81.3997612967127
+   }
+  }
+ ],
+ "n_checks": 15,
+ "n_fail": 0,
+ "verdict": "PASS"
+}

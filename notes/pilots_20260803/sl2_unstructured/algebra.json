@@ -1,0 +1,3167 @@
+{
+ "results": {
+  "W": [
+   {
+    "tag": "n12k6d3q13#0",
+    "n": 12,
+    "k": 6,
+    "d": 3,
+    "q": 13,
+    "rprime": 3,
+    "single": 1,
+    "joint": 0,
+    "mismatches": 0
+   },
+   {
+    "tag": "n12k6d3q13#1",
+    "n": 12,
+    "k": 6,
+    "d": 3,
+    "q": 13,
+    "rprime": 3,
+    "single": 0,
+    "joint": 0,
+    "mismatches": 0
+   },
+   {
+    "tag": "n12k6d3q13#2",
+    "n": 12,
+    "k": 6,
+    "d": 3,
+    "q": 13,
+    "rprime": 3,
+    "single": 0,
+    "joint": 0,
+    "mismatches": 0
+   },
+   {
+    "tag": "n16k8d4q17#0",
+    "n": 16,
+    "k": 8,
+    "d": 4,
+    "q": 17,
+    "rprime": 4,
+    "single": 0,
+    "joint": 0,
+    "mismatches": 0
+   },
+   {
+    "tag": "n16k8d4q17#1",
+    "n": 16,
+    "k": 8,
+    "d": 4,
+    "q": 17,
+    "rprime": 4,
+    "single": 0,
+    "joint": 0,
+    "mismatches": 0
+   },
+   {
+    "tag": "n16k8d4q17#2",
+    "n": 16,
+    "k": 8,
+    "d": 4,
+    "q": 17,
+    "rprime": 4,
+    "single": 0,
+    "joint": 0,
+    "mismatches": 0
+   },
+   {
+    "tag": "n16k8d2q17#0",
+    "n": 16,
+    "k": 8,
+    "d": 2,
+    "q": 17,
+    "rprime": 6,
+    "single": 37,
+    "joint": 0,
+    "mismatches": 0
+   },
+   {
+    "tag": "n16k8d2q17#1",
+    "n": 16,
+    "k": 8,
+    "d": 2,
+    "q": 17,
+    "rprime": 6,
+    "single": 19,
+    "joint": 0,
+    "mismatches": 0
+   },
+   {
+    "tag": "n16k8d2q17#2",
+    "n": 16,
+    "k": 8,
+    "d": 2,
+    "q": 17,
+    "rprime": 6,
+    "single": 17,
+    "joint": 0,
+    "mismatches": 0
+   },
+   {
+    "tag": "n8k4d2q17#0",
+    "n": 8,
+    "k": 4,
+    "d": 2,
+    "q": 17,
+    "rprime": 2,
+    "single": 0,
+    "joint": 0,
+    "mismatches": 0
+   },
+   {
+    "tag": "n8k4d2q17#1",
+    "n": 8,
+    "k": 4,
+    "d": 2,
+    "q": 17,
+    "rprime": 2,
+    "single": 0,
+    "joint": 0,
+    "mismatches": 0
+   },
+   {
+    "tag": "n8k4d2q17#2",
+    "n": 8,
+    "k": 4,
+    "d": 2,
+    "q": 17,
+    "rprime": 2,
+    "single": 0,
+    "joint": 0,
+    "mismatches": 0
+   }
+  ],
+  "MC": [
+   {
+    "tag": "MC n16k4w2q97",
+    "n": 16,
+    "k": 4,
+    "w": 2,
+    "q": 97,
+    "rprime": 10,
+    "nW": 9,
+    "nMC": 9,
+    "ncoset": 7,
+    "mc3_predicted": 7
+   },
+   {
+    "tag": "MC n12k4w2q13",
+    "n": 12,
+    "k": 4,
+    "w": 2,
+    "q": 13,
+    "rprime": 6,
+    "nW": 4,
+    "nMC": 4,
+    "ncoset": 4,
+    "mc3_predicted": null
+   },
+   {
+    "tag": "MC n16k4w4q97",
+    "n": 16,
+    "k": 4,
+    "w": 4,
+    "q": 97,
+    "rprime": 8,
+    "nW": 2,
+    "nMC": 2,
+    "ncoset": 2,
+    "mc3_predicted": null
+   }
+  ],
+  "D": [
+   {
+    "tag": "n12k6d3M3rho0q13",
+    "n": 12,
+    "k": 6,
+    "d": 3,
+    "M": 3,
+    "rho": 0,
+    "N": 4,
+    "kquot": 2,
+    "dquot": 1,
+    "m": 1,
+    "cores_up": 0,
+    "cores_down": 0,
+    "rank_periodic": 1,
+    "rank_generic": 2
+   },
+   {
+    "tag": "n12k6d3M3rho1q13",
+    "n": 12,
+    "k": 6,
+    "d": 3,
+    "M": 3,
+    "rho": 1,
+    "N": 4,
+    "kquot": 2,
+    "dquot": 1,
+    "m": 1,
+    "cores_up": 0,
+    "cores_down": 0,
+    "rank_periodic": 1,
+    "rank_generic": 2
+   },
+   {
+    "tag": "n12k6d3M3rho2q13",
+    "n": 12,
+    "k": 6,
+    "d": 3,
+    "M": 3,
+    "rho": 2,
+    "N": 4,
+    "kquot": 2,
+    "dquot": 1,
+    "m": 1,
+    "cores_up": 0,
+    "cores_down": 0,
+    "rank_periodic": 1,
+    "rank_generic": 2
+   },
+   {
+    "tag": "n16k8d2M2rho0q17",
+    "n": 16,
+    "k": 8,
+    "d": 2,
+    "M": 2,
+    "rho": 0,
+    "N": 8,
+    "kquot": 4,
+    "dquot": 1,
+    "m": 3,
+    "cores_up": 3,
+    "cores_down": 3,
+    "rank_periodic": 1,
+    "rank_generic": 2
+   },
+   {
+    "tag": "n16k8d2M2rho1q17",
+    "n": 16,
+    "k": 8,
+    "d": 2,
+    "M": 2,
+    "rho": 1,
+    "N": 8,
+    "kquot": 4,
+    "dquot": 1,
+    "m": 3,
+    "cores_up": 6,
+    "cores_down": 6,
+    "rank_periodic": 1,
+    "rank_generic": 2
+   },
+   {
+    "tag": "n16k8d4M4rho0q17",
+    "n": 16,
+    "k": 8,
+    "d": 4,
+    "M": 4,
+    "rho": 0,
+    "N": 4,
+    "kquot": 2,
+    "dquot": 1,
+    "m": 1,
+    "cores_up": 0,
+    "cores_down": 0,
+    "rank_periodic": 1,
+    "rank_generic": 2
+   },
+   {
+    "tag": "n16k8d4M4rho1q17",
+    "n": 16,
+    "k": 8,
+    "d": 4,
+    "M": 4,
+    "rho": 1,
+    "N": 4,
+    "kquot": 2,
+    "dquot": 1,
+    "m": 1,
+    "cores_up": 0,
+    "cores_down": 0,
+    "rank_periodic": 1,
+    "rank_generic": 2
+   },
+   {
+    "tag": "n16k8d4M4rho2q17",
+    "n": 16,
+    "k": 8,
+    "d": 4,
+    "M": 4,
+    "rho": 2,
+    "N": 4,
+    "kquot": 2,
+    "dquot": 1,
+    "m": 1,
+    "cores_up": 0,
+    "cores_down": 0,
+    "rank_periodic": 1,
+    "rank_generic": 2
+   },
+   {
+    "tag": "n16k8d4M4rho3q17",
+    "n": 16,
+    "k": 8,
+    "d": 4,
+    "M": 4,
+    "rho": 3,
+    "N": 4,
+    "kquot": 2,
+    "dquot": 1,
+    "m": 1,
+    "cores_up": 0,
+    "cores_down": 0,
+    "rank_periodic": 1,
+    "rank_generic": 2
+   },
+   {
+    "tag": "n16k8d4M2rho0q17",
+    "n": 16,
+    "k": 8,
+    "d": 4,
+    "M": 2,
+    "rho": 0,
+    "N": 8,
+    "kquot": 4,
+    "dquot": 2,
+    "m": 2,
+    "cores_up": 0,
+    "cores_down": 0,
+    "rank_periodic": 2,
+    "rank_generic": 3
+   },
+   {
+    "tag": "n16k8d4M2rho1q17",
+    "n": 16,
+    "k": 8,
+    "d": 4,
+    "M": 2,
+    "rho": 1,
+    "N": 8,
+    "kquot": 4,
+    "dquot": 2,
+    "m": 2,
+    "cores_up": 0,
+    "cores_down": 0,
+    "rank_periodic": 2,
+    "rank_generic": 3
+   },
+   {
+    "tag": "n24k12d3M3rho0q73",
+    "n": 24,
+    "k": 12,
+    "d": 3,
+    "M": 3,
+    "rho": 0,
+    "N": 8,
+    "kquot": 4,
+    "dquot": 1,
+    "m": 3,
+    "cores_up": 0,
+    "cores_down": 0,
+    "rank_periodic": 1,
+    "rank_generic": 3
+   },
+   {
+    "tag": "n24k12d3M3rho1q73",
+    "n": 24,
+    "k": 12,
+    "d": 3,
+    "M": 3,
+    "rho": 1,
+    "N": 8,
+    "kquot": 4,
+    "dquot": 1,
+    "m": 3,
+    "cores_up": 0,
+    "cores_down": 0,
+    "rank_periodic": 1,
+    "rank_generic": 3
+   },
+   {
+    "tag": "n24k12d3M3rho2q73",
+    "n": 24,
+    "k": 12,
+    "d": 3,
+    "M": 3,
+    "rho": 2,
+    "N": 8,
+    "kquot": 4,
+    "dquot": 1,
+    "m": 3,
+    "cores_up": 0,
+    "cores_down": 0,
+    "rank_periodic": 1,
+    "rank_generic": 3
+   }
+  ]
+ },
+ "checks": [
+  {
+   "check": "W: LEMMA W <=> direct (exhaustive, both directions)",
+   "fixture": "n12k6d3q13#0",
+   "ok": true,
+   "extra": {
+    "solutions": 1,
+    "direct": 1
+   }
+  },
+  {
+   "check": "J: joint = intersection of the two single systems",
+   "fixture": "n12k6d3q13#0",
+   "ok": true,
+   "extra": {
+    "joint": 0
+   }
+  },
+  {
+   "check": "W: LEMMA W <=> direct (exhaustive, both directions)",
+   "fixture": "n12k6d3q13#1",
+   "ok": true,
+   "extra": {
+    "solutions": 0,
+    "direct": 0
+   }
+  },
+  {
+   "check": "J: joint = intersection of the two single systems",
+   "fixture": "n12k6d3q13#1",
+   "ok": true,
+   "extra": {
+    "joint": 0
+   }
+  },
+  {
+   "check": "W: LEMMA W <=> direct (exhaustive, both directions)",
+   "fixture": "n12k6d3q13#2",
+   "ok": true,
+   "extra": {
+    "solutions": 0,
+    "direct": 0
+   }
+  },
+  {
+   "check": "J: joint = intersection of the two single systems",
+   "fixture": "n12k6d3q13#2",
+   "ok": true,
+   "extra": {
+    "joint": 0
+   }
+  },
+  {
+   "check": "W: LEMMA W <=> direct (exhaustive, both directions)",
+   "fixture": "n16k8d4q17#0",
+   "ok": true,
+   "extra": {
+    "solutions": 0,
+    "direct": 0
+   }
+  },
+  {
+   "check": "J: joint = intersection of the two single systems",
+   "fixture": "n16k8d4q17#0",
+   "ok": true,
+   "extra": {
+    "joint": 0
+   }
+  },
+  {
+   "check": "W: LEMMA W <=> direct (exhaustive, both directions)",
+   "fixture": "n16k8d4q17#1",
+   "ok": true,
+   "extra": {
+    "solutions": 0,
+    "direct": 0
+   }
+  },
+  {
+   "check": "J: joint = intersection of the two single systems",
+   "fixture": "n16k8d4q17#1",
+   "ok": true,
+   "extra": {
+    "joint": 0
+   }
+  },
+  {
+   "check": "W: LEMMA W <=> direct (exhaustive, both directions)",
+   "fixture": "n16k8d4q17#2",
+   "ok": true,
+   "extra": {
+    "solutions": 0,
+    "direct": 0
+   }
+  },
+  {
+   "check": "J: joint = intersection of the two single systems",
+   "fixture": "n16k8d4q17#2",
+   "ok": true,
+   "extra": {
+    "joint": 0
+   }
+  },
+  {
+   "check": "W: LEMMA W <=> direct (exhaustive, both directions)",
+   "fixture": "n16k8d2q17#0",
+   "ok": true,
+   "extra": {
+    "solutions": 37,
+    "direct": 37
+   }
+  },
+  {
+   "check": "J: joint = intersection of the two single systems",
+   "fixture": "n16k8d2q17#0",
+   "ok": true,
+   "extra": {
+    "joint": 0
+   }
+  },
+  {
+   "check": "W: LEMMA W <=> direct (exhaustive, both directions)",
+   "fixture": "n16k8d2q17#1",
+   "ok": true,
+   "extra": {
+    "solutions": 19,
+    "direct": 19
+   }
+  },
+  {
+   "check": "J: joint = intersection of the two single systems",
+   "fixture": "n16k8d2q17#1",
+   "ok": true,
+   "extra": {
+    "joint": 0
+   }
+  },
+  {
+   "check": "W: LEMMA W <=> direct (exhaustive, both directions)",
+   "fixture": "n16k8d2q17#2",
+   "ok": true,
+   "extra": {
+    "solutions": 17,
+    "direct": 17
+   }
+  },
+  {
+   "check": "J: joint = intersection of the two single systems",
+   "fixture": "n16k8d2q17#2",
+   "ok": true,
+   "extra": {
+    "joint": 0
+   }
+  },
+  {
+   "check": "W: LEMMA W <=> direct (exhaustive, both directions)",
+   "fixture": "n8k4d2q17#0",
+   "ok": true,
+   "extra": {
+    "solutions": 0,
+    "direct": 0
+   }
+  },
+  {
+   "check": "J: joint = intersection of the two single systems",
+   "fixture": "n8k4d2q17#0",
+   "ok": true,
+   "extra": {
+    "joint": 0
+   }
+  },
+  {
+   "check": "W: LEMMA W <=> direct (exhaustive, both directions)",
+   "fixture": "n8k4d2q17#1",
+   "ok": true,
+   "extra": {
+    "solutions": 0,
+    "direct": 0
+   }
+  },
+  {
+   "check": "J: joint = intersection of the two single systems",
+   "fixture": "n8k4d2q17#1",
+   "ok": true,
+   "extra": {
+    "joint": 0
+   }
+  },
+  {
+   "check": "W: LEMMA W <=> direct (exhaustive, both directions)",
+   "fixture": "n8k4d2q17#2",
+   "ok": true,
+   "extra": {
+    "solutions": 0,
+    "direct": 0
+   }
+  },
+  {
+   "check": "J: joint = intersection of the two single systems",
+   "fixture": "n8k4d2q17#2",
+   "ok": true,
+   "extra": {
+    "joint": 0
+   }
+  },
+  {
+   "check": "M: LEMMA W solution set == MC-1 solution set",
+   "fixture": "MC n16k4w2q97",
+   "ok": true,
+   "extra": {
+    "W": 9,
+    "MC": 9
+   }
+  },
+  {
+   "check": "M: LEMMA W == direct",
+   "fixture": "MC n16k4w2q97",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "M: MC-3 coset-union count = C(N,m)/N (banked)",
+   "fixture": "MC n16k4w2q97",
+   "ok": true,
+   "extra": {
+    "cosets": 7,
+    "predicted": 7,
+    "N": 8,
+    "m": 5
+   }
+  },
+  {
+   "check": "M: LEMMA W solution set == MC-1 solution set",
+   "fixture": "MC n12k4w2q13",
+   "ok": true,
+   "extra": {
+    "W": 4,
+    "MC": 4
+   }
+  },
+  {
+   "check": "M: LEMMA W == direct",
+   "fixture": "MC n12k4w2q13",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "M: MC-3 coset-union count = C(N,m)/N (banked)",
+   "fixture": "MC n12k4w2q13",
+   "ok": true,
+   "extra": {
+    "cosets": 4,
+    "predicted": null,
+    "N": 6,
+    "m": 3
+   }
+  },
+  {
+   "check": "M: LEMMA W solution set == MC-1 solution set",
+   "fixture": "MC n16k4w4q97",
+   "ok": true,
+   "extra": {
+    "W": 2,
+    "MC": 2
+   }
+  },
+  {
+   "check": "M: LEMMA W == direct",
+   "fixture": "MC n16k4w4q97",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "M: MC-3 coset-union count = C(N,m)/N (banked)",
+   "fixture": "MC n16k4w4q97",
+   "ok": true,
+   "extra": {
+    "cosets": 2,
+    "predicted": null,
+    "N": 4,
+    "m": 2
+   }
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n12M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n12M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n12M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n12M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(c): scale-M cores <-> quotient cores (BIJECTION)",
+   "fixture": "n12k6d3M3rho0q13",
+   "ok": true,
+   "extra": {
+    "up": 0,
+    "down": 0,
+    "Ntot": 4
+   }
+  },
+  {
+   "check": "R: rank on scale-M locus = d/M iff M-quotient-periodic",
+   "fixture": "n12k6d3M3rho0q13",
+   "ok": true,
+   "extra": {
+    "rank_periodic": 1,
+    "rank_generic": 2,
+    "dprime": 1,
+    "m": 1
+   }
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n12M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n12M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n12M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n12M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(c): scale-M cores <-> quotient cores (BIJECTION)",
+   "fixture": "n12k6d3M3rho1q13",
+   "ok": true,
+   "extra": {
+    "up": 0,
+    "down": 0,
+    "Ntot": 4
+   }
+  },
+  {
+   "check": "R: rank on scale-M locus = d/M iff M-quotient-periodic",
+   "fixture": "n12k6d3M3rho1q13",
+   "ok": true,
+   "extra": {
+    "rank_periodic": 1,
+    "rank_generic": 2,
+    "dprime": 1,
+    "m": 1
+   }
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n12M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n12M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n12M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n12M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(c): scale-M cores <-> quotient cores (BIJECTION)",
+   "fixture": "n12k6d3M3rho2q13",
+   "ok": true,
+   "extra": {
+    "up": 0,
+    "down": 0,
+    "Ntot": 4
+   }
+  },
+  {
+   "check": "R: rank on scale-M locus = d/M iff M-quotient-periodic",
+   "fixture": "n12k6d3M3rho2q13",
+   "ok": true,
+   "extra": {
+    "rank_periodic": 1,
+    "rank_generic": 2,
+    "dprime": 1,
+    "m": 1
+   }
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(c): scale-M cores <-> quotient cores (BIJECTION)",
+   "fixture": "n16k8d2M2rho0q17",
+   "ok": true,
+   "extra": {
+    "up": 3,
+    "down": 3,
+    "Ntot": 56
+   }
+  },
+  {
+   "check": "R: rank on scale-M locus = d/M iff M-quotient-periodic",
+   "fixture": "n16k8d2M2rho0q17",
+   "ok": true,
+   "extra": {
+    "rank_periodic": 1,
+    "rank_generic": 2,
+    "dprime": 1,
+    "m": 3
+   }
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(c): scale-M cores <-> quotient cores (BIJECTION)",
+   "fixture": "n16k8d2M2rho1q17",
+   "ok": true,
+   "extra": {
+    "up": 6,
+    "down": 6,
+    "Ntot": 56
+   }
+  },
+  {
+   "check": "R: rank on scale-M locus = d/M iff M-quotient-periodic",
+   "fixture": "n16k8d2M2rho1q17",
+   "ok": true,
+   "extra": {
+    "rank_periodic": 1,
+    "rank_generic": 2,
+    "dprime": 1,
+    "m": 3
+   }
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M4rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M4rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M4rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M4rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(c): scale-M cores <-> quotient cores (BIJECTION)",
+   "fixture": "n16k8d4M4rho0q17",
+   "ok": true,
+   "extra": {
+    "up": 0,
+    "down": 0,
+    "Ntot": 4
+   }
+  },
+  {
+   "check": "R: rank on scale-M locus = d/M iff M-quotient-periodic",
+   "fixture": "n16k8d4M4rho0q17",
+   "ok": true,
+   "extra": {
+    "rank_periodic": 1,
+    "rank_generic": 2,
+    "dprime": 1,
+    "m": 1
+   }
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M4rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M4rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M4rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M4rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(c): scale-M cores <-> quotient cores (BIJECTION)",
+   "fixture": "n16k8d4M4rho1q17",
+   "ok": true,
+   "extra": {
+    "up": 0,
+    "down": 0,
+    "Ntot": 4
+   }
+  },
+  {
+   "check": "R: rank on scale-M locus = d/M iff M-quotient-periodic",
+   "fixture": "n16k8d4M4rho1q17",
+   "ok": true,
+   "extra": {
+    "rank_periodic": 1,
+    "rank_generic": 2,
+    "dprime": 1,
+    "m": 1
+   }
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M4rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M4rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M4rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M4rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(c): scale-M cores <-> quotient cores (BIJECTION)",
+   "fixture": "n16k8d4M4rho2q17",
+   "ok": true,
+   "extra": {
+    "up": 0,
+    "down": 0,
+    "Ntot": 4
+   }
+  },
+  {
+   "check": "R: rank on scale-M locus = d/M iff M-quotient-periodic",
+   "fixture": "n16k8d4M4rho2q17",
+   "ok": true,
+   "extra": {
+    "rank_periodic": 1,
+    "rank_generic": 2,
+    "dprime": 1,
+    "m": 1
+   }
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M4rho3",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M4rho3",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M4rho3",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M4rho3",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(c): scale-M cores <-> quotient cores (BIJECTION)",
+   "fixture": "n16k8d4M4rho3q17",
+   "ok": true,
+   "extra": {
+    "up": 0,
+    "down": 0,
+    "Ntot": 4
+   }
+  },
+  {
+   "check": "R: rank on scale-M locus = d/M iff M-quotient-periodic",
+   "fixture": "n16k8d4M4rho3q17",
+   "ok": true,
+   "extra": {
+    "rank_periodic": 1,
+    "rank_generic": 2,
+    "dprime": 1,
+    "m": 1
+   }
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(c): scale-M cores <-> quotient cores (BIJECTION)",
+   "fixture": "n16k8d4M2rho0q17",
+   "ok": true,
+   "extra": {
+    "up": 0,
+    "down": 0,
+    "Ntot": 28
+   }
+  },
+  {
+   "check": "R: rank on scale-M locus = d/M iff M-quotient-periodic",
+   "fixture": "n16k8d4M2rho0q17",
+   "ok": true,
+   "extra": {
+    "rank_periodic": 2,
+    "rank_generic": 3,
+    "dprime": 2,
+    "m": 2
+   }
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n16M2rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(c): scale-M cores <-> quotient cores (BIJECTION)",
+   "fixture": "n16k8d4M2rho1q17",
+   "ok": true,
+   "extra": {
+    "up": 0,
+    "down": 0,
+    "Ntot": 28
+   }
+  },
+  {
+   "check": "R: rank on scale-M locus = d/M iff M-quotient-periodic",
+   "fixture": "n16k8d4M2rho1q17",
+   "ok": true,
+   "extra": {
+    "rank_periodic": 2,
+    "rank_generic": 3,
+    "dprime": 2,
+    "m": 2
+   }
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(c): scale-M cores <-> quotient cores (BIJECTION)",
+   "fixture": "n24k12d3M3rho0q73",
+   "ok": true,
+   "extra": {
+    "up": 0,
+    "down": 0,
+    "Ntot": 56
+   }
+  },
+  {
+   "check": "R: rank on scale-M locus = d/M iff M-quotient-periodic",
+   "fixture": "n24k12d3M3rho0q73",
+   "ok": true,
+   "extra": {
+    "rank_periodic": 1,
+    "rank_generic": 3,
+    "dprime": 1,
+    "m": 3
+   }
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(c): scale-M cores <-> quotient cores (BIJECTION)",
+   "fixture": "n24k12d3M3rho1q73",
+   "ok": true,
+   "extra": {
+    "up": 0,
+    "down": 0,
+    "Ntot": 56
+   }
+  },
+  {
+   "check": "R: rank on scale-M locus = d/M iff M-quotient-periodic",
+   "fixture": "n24k12d3M3rho1q73",
+   "ok": true,
+   "extra": {
+    "rank_periodic": 1,
+    "rank_generic": 3,
+    "dprime": 1,
+    "m": 3
+   }
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(b): E_T(X) = G(X^M) for coset unions",
+   "fixture": "n24M3rho2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D(c): scale-M cores <-> quotient cores (BIJECTION)",
+   "fixture": "n24k12d3M3rho2q73",
+   "ok": true,
+   "extra": {
+    "up": 0,
+    "down": 0,
+    "Ntot": 56
+   }
+  },
+  {
+   "check": "R: rank on scale-M locus = d/M iff M-quotient-periodic",
+   "fixture": "n24k12d3M3rho2q73",
+   "ok": true,
+   "extra": {
+    "rank_periodic": 1,
+    "rank_generic": 3,
+    "dprime": 1,
+    "m": 3
+   }
+  }
+ ],
+ "n_checks": 425,
+ "n_fail": 0,
+ "verdict": "PASS"
+}

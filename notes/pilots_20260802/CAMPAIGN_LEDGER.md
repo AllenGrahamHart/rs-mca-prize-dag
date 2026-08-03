@@ -863,3 +863,54 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   (kernel {SL-2, OV, F9, E_j} + P-B appendix), F2, C1/C2'', CROSSING.
   Task #37 complete. Next levers: OV pilot, F9 pilot, SL-2 Pro brief,
   E_j identification.
+
+## 2026-08-03: ROUND 12 LAUNCHED — the kernel round (4 Opus on the r3.2 unified kernel)
+
+- (1) ov_conjecture: overlap => collapse (shared-point forcing route
+  first; PG(2,3) as extremal lemma; pays band cleanup + P-A1's |K|).
+  (2) f9_pencil_forcing: ADJUDICATE-then-attack (W1/W2 may answer the
+  literal F9 at V=4 — the anchor needs V >= 5 forcing = L-A residual;
+  graceful-degradation fallback for C). (3) ej_coset_spread: bound
+  E_j via window rigidity + THEOREM F's newly non-empty prize-shape
+  range (w >> 2j); empirical law + falsifiers. (4) sl2_unstructured:
+  the occupancy question in-house — non-coset window-system solution
+  count + core-disjointness correlation cap; construction as the
+  falsifier branch. Explicit-path commits while running.
+
+## 2026-08-03: round-12 pilot 1/4 BANKED — SL-2: scope gap found AND closed; residual = SL-2-RES
+
+- **sl2_unstructured (Opus) BANKED** (677 checks; 1 deliberately
+  recorded PREREG mis-specification, corrected forms pass). CATCH:
+  BP(1) scoped to M >= d only — sub-depth coset scales live in the
+  band proper at the prize rows; CLOSED by THEOREM L (M <= cap_d
+  from h-odd parity; M = 2^21..2^31 unconditional) + first-moment
+  margins on small M. NEW: LEMMA W (cores = divisors of X^n - 1 on a
+  codim-2d affine subspace), THEOREM D (descent bijection; settles
+  "syndromes descend"), THEOREM R (full Toeplitz rank via B-M).
+  RESIDUAL = SL-2-RES: the aperiodic divisor-count statement (h odd +
+  q >= 2^209 load-bearing). Addendum applied to
+  xr_mc_depth_quantization; xr_window_system_descent mint QUEUED;
+  SL-2-RES = the Pro brief when Pro resumes. Pilots OV/F9/E_j running.
+
+## 2026-08-03: WAVE 45 (v11 math half) INTEGRATED — CELL 3 + CELL 6 CLOSED; round-12 pilot 2/4 (E_j) BANKED
+
+- WAVE 45: 23 nodes + 85 edges (dag 1793/4995); cell 3 closed
+  1680/1680 (DE 6-14 + xi3 x6 + xi4 transport + xi5 + xi6); cell 6 =
+  duplicate-role transport, closed; cell 4 opens (four-basis tower).
+  Atlas: 1a complete; 1b cells 0, 1/2, 3, 6, 14 closed. Refactor
+  commit held for stage-2 review. Self-catch: roadmap adoption
+  clobbered r3.2 — restored same-turn; both-directions rule adopted.
+- **ej_coset_spread (Opus) BANKED** (4,744,495 checks, 2 failures =
+  the pre-registered falsifier killing the pilot's own post-hoc
+  hypothesis — flagged honest). E_j <= 29.6n NOT proved; REPRICING:
+  THEOREM G (mu_g action; at prize rows E_j = |Gamma_j|/n within 9
+  bits — THEOREM D is a re-coordinatisation, NOT a shrink; heart 7's
+  residual pricing corrected in r3.2); THEOREM H (rigidity sharpened
+  to d <= (j-1)+gcd(j,n); d <= 1 vs structured at gcd(j,n)=1 = the
+  prize regime; 25.9M-candidate exhaustive d-ball verification);
+  empirical law E_j = 1 on ALL 152 gate-intact j<w rows (every
+  E_j >= 2 at j<w is gate-broken — 46 bits better than needed,
+  unproved); species identification UPGRADED to an explicit
+  Fourier-prescription reduction; named next-fixture for the live
+  excess test (n=35,k=10,w=M=5,q=71, C(n,A)=4.06e9 — COMPUTE
+  REQUEST scale). OV + F9 pilots still running.
