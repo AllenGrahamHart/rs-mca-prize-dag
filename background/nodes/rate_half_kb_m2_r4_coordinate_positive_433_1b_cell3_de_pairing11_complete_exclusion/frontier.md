@@ -10,8 +10,8 @@ Matching 12 is the next canonical matching:
 = (de,sigma_c cf), (second_de,df), (sigma_o ef,bf).
 ```
 
-Derive its lowest-degree shared-`f` route before another norm campaign.
-The separate `xi=3,pairing=0` branch still needs a lower-degree shared-`f`
+Derive its lowest-degree paired route before another norm campaign. The
+separate `xi=3,pairing=0` branch still needs a lower-degree shared-`f`
 elimination.
 
 Do not infer complete cell-3 closure from the twelve paid matching indices.

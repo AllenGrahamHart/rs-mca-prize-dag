@@ -78,7 +78,7 @@ def main():
     require("No vanishing elimination coefficient" in proof and
             "128 nonboundary final-pair evaluations" in audit,
             "exceptional and lane discipline")
-    require("Matching 11" in frontier and
+    require("Matching 12" in frontier and
             "complete cell-3 closure" in frontier,
             "retained frontier")
     print("audit=ok pairing=9 source_rows=8 lanes=4 boundary_f_zero=8")

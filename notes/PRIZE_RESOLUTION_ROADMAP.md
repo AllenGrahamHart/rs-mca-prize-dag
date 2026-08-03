@@ -16143,6 +16143,57 @@ zero. The 16-container exact census completed in one bounded Modal wave;
 all roots were directly lifted and the host performed only bounded
 validation.
 
+### Work-cycle theorem: positive 433-1b cell-3 DE pairing-11 block
+
+```text
+aggregate scope:          xi in {0,1,2}, pairing=11
+canonical matching:       ((0,4),(1,5),(2,3))
+raw atlas cover:          3 DE copies x 1 matching x 4 source signs
+                          x 4 target lanes = 48 cases
+new computed cover:       16 source rows at xi in {0,2}, each fixing
+                          sigma_c and covering both sigma_o lanes = 32 cases
+new transport cover:      xi=1 = 16 raw cases
+shared variable:          f in paired(de,bf) and
+                          paired(second_de,sigma_c cf)
+elimination:              division-free resultant of two quadratics in f;
+                          then one six-dimensional norm
+finite residual:          for each common nonzero f, solve the monic quartic
+                          u^4+f^2(2 eta de-s)u^2+de^2 f^4=0, u=ef
+terminal check:           paired(df,sigma_o ef) in both sigma_o lanes
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       every norm and intermediate exceptional root lifted
+per-sign row profiles:    (sigma_c,xi)=(-1,0): 9 candidate r, 10 source,
+                          8 (u,f), 0 boundary, 16 final checks;
+                          (-1,2): 10 candidate r, 12 source, 0 (u,f),
+                          2 boundaries; (+1,0): 9 candidate r, 8 source,
+                          0 (u,f); (+1,2): 9 candidate r, 12 source,
+                          0 (u,f), 2 boundaries
+aggregate direct replay:  148 candidate r values, 168 source points,
+                          32 (u,f) candidates, 16 f=0 boundaries
+terminal mechanism:       all 64 nonboundary final-pair evaluations nonzero
+terminal ledgers:         0 witnesses, 0 unresolved
+result:                   complete 48-case pairing-11 block PROVED empty
+Modal apps:               ap-E9mJmFx4s0itl9HzgSoSOq pilot,
+                          ap-15tL1T7wJbkxrTbCSRUrjE census
+artifact custody:         compiler sha256 22d9c5b90d145af836fcc38a6d213116
+                          42f4729cc80dfd2952da73337671a604;
+                          census sha256 cb5587cb00b011d668ce28953992be665
+                          de9a45246a5a6ea9a4bb542942cd98c
+paid DE block:            xi in {0,1,2},
+                          pairing in {0,1,2,3,4,5,6,7,8,9,10,11},
+                          576 raw cases
+next route step:          derive pairing 12 with pairs
+                          (de,sigma_c cf),(second_de,df),(sigma_o ef,bf)
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `702ad6c5`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The 16-container exact census completed in one bounded Modal wave;
+all rows completed in at most 21 seconds and the host performed only bounded
+validation.
+
 ### Work-cycle theorem: positive 433-1b cell-14 kernel normalization boundary
 
 ```text
