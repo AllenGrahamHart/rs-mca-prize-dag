@@ -1,0 +1,108 @@
+{
+ "checks": [
+  "A1 (D1) pair union = m-d <= m-1 and MDS-independent",
+  "A2 (D2) gate (T) <=> every triple union >= m+1",
+  "A3 (D3) zero escape => cap over pairs of (A_a u A_b) empty",
+  "A4 (D4) dim(W_a ^ W_b) = w_ab",
+  "A5 (D5) dim(W_a + W_b) = m - d",
+  "A6 (D5) L_ab*F[X]_{<d} construction = syndrome-perp construction",
+  "A7 (THM 3) Jperp = {v k-flat on every I_ab}/RS_k",
+  "B1 X1/X2/X3: dim Ann >= 1 and dim Jperp >= 2",
+  "C0 PG(2,3) gate-clean, overlapping, zero escape",
+  "C1 PG(2,3): dim Jperp <= 1 on every point set tried",
+  "D0 MINWIT gate-clean overlapping zero-escape",
+  "D1 MINWIT: dim Jperp <= 1 on every point set tried",
+  "E1 overlapping gate-clean zero-escape: dim Jperp <= 1 always",
+  "E2 overlapping gate-clean zero-escape: dim Jperp = 0 always",
+  "F1 overlapping designs: the e_1 (r=d) mechanism is DEAD (every solution has repeated points)",
+  "F2 the e_1 mechanism is dead in every characteristic tried (and the disjoint control stays alive)",
+  "F3 PG(2,3) has uniform block multiplicity mu with V-1-mu != 0",
+  "G1 cap over any V-1 of the W_a is 0 (zero escape)",
+  "H1 OV2: dim Jperp = 0 on every overlapping system x point set",
+  "H2 OV6: lam >= 2 overlapping systems behave like lam = 1",
+  "H3 OV1: dim Ann = 0 on every overlapping tuple replayed",
+  "H4 OV1: MINWIT exhaustive-mod-affine slope sweep, dim Ann = 0 always"
+ ],
+ "failures": [],
+ "record": {
+  "A": [
+   "PG(2,3) V=13 t=4 h=4 k=5 m=8",
+   "MINWIT V=6 t=4 h=4 k=3 m=8",
+   "PG(2,3) q=17 flat=0 Jperp=0",
+   "PG(2,3) q=23 flat=0 Jperp=0",
+   "MINWIT q=17 flat=0 Jperp=0",
+   "MINWIT q=23 flat=0 Jperp=0"
+  ],
+  "B": [
+   "X1 dimAnn=1 dimJperp=2 m=5",
+   "X2 dimAnn=1 dimJperp=2 m=11",
+   "X3 dimAnn=2 dimJperp=4 m=7"
+  ],
+  "C": [
+   "PG(2,3) q=17 consecutive dimJperp=0",
+   "PG(2,3) q=17 shifted dimJperp=0",
+   "PG(2,3) q=17 geom g=3 dimJperp=0",
+   "PG(2,3) q=17 random dimJperp=0",
+   "PG(2,3) q=19 consecutive dimJperp=0",
+   "PG(2,3) q=19 shifted dimJperp=0",
+   "PG(2,3) q=19 geom g=2 dimJperp=0",
+   "PG(2,3) q=19 random dimJperp=0",
+   "PG(2,3) q=23 consecutive dimJperp=0",
+   "PG(2,3) q=23 shifted dimJperp=0",
+   "PG(2,3) q=23 geom g=5 dimJperp=0",
+   "PG(2,3) q=23 random dimJperp=0",
+   "PG(2,3) q=29 consecutive dimJperp=0",
+   "PG(2,3) q=29 shifted dimJperp=0",
+   "PG(2,3) q=29 geom g=2 dimJperp=0",
+   "PG(2,3) q=29 squares dimJperp=0",
+   "PG(2,3) q=29 random dimJperp=0"
+  ],
+  "D": [
+   "q=13 consecutive dimJperp=0",
+   "q=13 shifted dimJperp=0",
+   "q=13 geom g=2 dimJperp=0",
+   "q=13 random dimJperp=0",
+   "q=17 consecutive dimJperp=0",
+   "q=17 shifted dimJperp=0",
+   "q=17 geom g=3 dimJperp=0",
+   "q=17 random dimJperp=0",
+   "q=19 consecutive dimJperp=0",
+   "q=19 shifted dimJperp=0",
+   "q=19 geom g=2 dimJperp=0",
+   "q=19 random dimJperp=0",
+   "q=23 consecutive dimJperp=0",
+   "q=23 shifted dimJperp=0",
+   "q=23 geom g=2 dimJperp=0",
+   "q=23 squares dimJperp=0",
+   "q=23 random dimJperp=0"
+  ],
+  "E_sigma_alive": [],
+  "E": {
+   "n": 24,
+   "worst": 0,
+   "hits": []
+  },
+  "F": [
+   "PG(2,3): soln dim=1 forced-collisions=78 distinct-solution=False",
+   "MINWIT: soln dim=1 forced-collisions=55 distinct-solution=False",
+   "X1-shape (DISJOINT control): soln dim=5 forced-collisions=0 distinct-solution=True"
+  ],
+  "G": [
+   "PG(2,3): max dim cap_{a != drop} W_a = 0",
+   "MINWIT: max dim cap_{a != drop} W_a = 0"
+  ],
+  "H": [
+   "PG(2,3) lam=1 V=13 t=4 h=4 k=5 minw=1 maxJperp=0",
+   "MINWIT lam=1 V=6 t=4 h=4 k=3 minw=1 maxJperp=0",
+   "grown lam>=1 #0 V=5 t=4 h=4 k=2 minw=1 maxJperp=0",
+   "grown lam>=1 #1 V=5 t=4 h=4 k=2 minw=1 maxJperp=0",
+   "grown lam>=1 #2 V=6 t=4 h=4 k=3 minw=1 maxJperp=0",
+   "grown lam>=1 #3 V=5 t=4 h=4 k=3 minw=1 maxJperp=0",
+   "grown lam>=1 #4 V=6 t=4 h=4 k=3 minw=1 maxJperp=0",
+   "grown lam>=1 #5 V=9 t=4 h=4 k=4 minw=1 maxJperp=0",
+   "grown lam>=2 #0 V=8 t=6 h=5 k=4 minw=2 maxJperp=0",
+   "grown lam>=2 #1 V=12 t=6 h=5 k=4 minw=2 maxJperp=0"
+  ],
+  "H_hits": []
+ }
+}

@@ -925,3 +925,32 @@ mixed-class systems. The W/D/R/L theorems remain banked unchanged.
   Fourier-prescription reduction; named next-fixture for the live
   excess test (n=35,k=10,w=M=5,q=71, C(n,A)=4.06e9 — COMPUTE
   REQUEST scale). OV + F9 pilots still running.
+
+## 2026-08-03: round-12 pilot 3/4 BANKED — F9 adjudicated + T0 PROVED; C = 1/2 stands
+
+- **f9_pencil_forcing (Opus) BANKED** (39/39; PREREG incl. the full
+  construction pre-dated; honest in-run check correction). Literal F9
+  CLOSED-YES at V=4 (W1/W2); T2/T1 REFUTED (18 fixtures — la's FB
+  fired at Delta = 0, its V >= 5 evidence void, its theorems intact);
+  T0 (the anchor-exact statement) PROVED via LEMMAS 2-5 + P-SHARE
+  (distinct pencils share <= 1 fibre — NEW, sharpens Q5, keeps the
+  pinning out of V=4); residual = the t <= 2e-3 band (includes prize
+  shapes; 54+12 complete sweeps find zero there; dim G = 1 in all 134
+  non-collapsing systems). C = 1/2 UNCHANGED. Addenda applied to la +
+  unified audits. KERNEL NOW: {SL-2-RES, OV, T0-residual, E_j}.
+  OV pilot still running.
+
+## 2026-08-03: round-12 pilot 4/4 BANKED — ROUND 12 COMPLETE; the kernel in sharpest form
+
+- **ov_conjecture (Opus) BANKED** (22/22; OV1-OV8 pre-registered,
+  none fired). OV OPEN but REDUCED slope-free: Jperp = 0 (THEOREM 2;
+  the sliver's slope evidence re-labeled wrong-space); THEOREM 1
+  dictionary explains the sibling wall (gates = always-independent
+  pairs + always-dependent triples); THEOREM 5 proves the r = d
+  branch incl. PG(2,3) (shared-point forcing); residual = r > d
+  (s=1 telescoping cocycle = named next attack); consumers correctly
+  still blocked. ROUND-12 NET: kernel = {SL-2-RES, Jperp = 0 (r > d),
+  T0-residual (t <= 2e-3), E_j/Fourier} — every item sharpest-form
+  with named next attacks. MINT QUEUE (5 packages):
+  xr_window_system_descent, gamma THEOREM D, T0+P-SHARE, OV THEOREM
+  2/5, E_j THEOREM G/H.

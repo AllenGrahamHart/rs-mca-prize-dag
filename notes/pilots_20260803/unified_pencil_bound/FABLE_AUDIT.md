@@ -25,3 +25,10 @@ dependency reduction of the unification (after L-A => L-B and
 {SL-2, OV, F9} — three named, toy-attackable conjectures, each
 paying multiple lanes. Flags honest (toy-scale confirmations;
 sampled G2 direction-correct; Q1 fixture-verified).
+
+## Dated addendum (2026-08-03, F9 pilot): the across-pencils residual
+is RESOLVED — T0 proved (no two distinct pencils each with >= 3 live
+blocks; residual only in the t <= 2e-3 band, empirically zero there),
+and Q5 sharpens to "distinct pencils share <= 1 fibre" (P-SHARE,
+load-bearing: keeps the pinning subfamily out of V = 4). C = 1/2
+now stands on {UPB e=1, T0, P-SHARE}. See f9_pencil_forcing/.
