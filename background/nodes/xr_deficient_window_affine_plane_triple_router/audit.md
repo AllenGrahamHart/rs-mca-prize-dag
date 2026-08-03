@@ -5,7 +5,7 @@
 - Distinct `phi` is used twice: to make each determinant genuinely quadratic
   and to exclude the common radial line component.
 - Distinct `psi_C` is not asserted universally.  Its failures are counted in
-  `I_deg`, which remains open.
+  `I_deg`; the downstream component-payment theorem later pays them.
 - Undefinedness and projective equality of `psi_C` are invariant under a
   basis change in the residual two-dimensional direction space.
 - Bezout contributes at most three affine points, not four, because the two

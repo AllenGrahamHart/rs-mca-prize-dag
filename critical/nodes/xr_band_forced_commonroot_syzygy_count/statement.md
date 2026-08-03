@@ -57,14 +57,14 @@ the affine hull of the parameter set has dimension at most `10,10,9` at rates
 `1/4,1/8,1/16`.  Thus a counterexample necessarily has affine dimension at
 least `11,11,10`.
 
-At those next dimensions, the proved affine-plane triple router pays the
-`ell=1` subfamily whose triple flags are all restriction-generic through
-`d+1=6,840,580,025` at rates
-`1/4,1/8` and through `d+1=3,523,371,941` at rate `1/16`.  A counterexample
-there must contain a core-plane/selected-block triple on which the residual
-two-dimensional direction code has a zero or repeated projective
-evaluation.  The aggregate mass of these restriction-degenerate flags is
-not yet bounded, so the node remains `TARGET`.
+At those next dimensions, the proved affine-plane component payment closes
+every `r>2ell` tuple with `d+ell<=6,840,580,025` at rates `1/4,1/8` and
+with `d+ell<=3,435,973,837` at rate `1/16`; its `ell=1` payment at rate
+`1/16` extends through `d+1=3,523,371,941`.  The
+positive-dimensional conic degeneracies have constant selected ray and are
+removed by the same-ray interaction strip.  Larger `d` in `ell=1`, the
+two-`phi`-fiber regime `r<=2ell`, and the remaining higher-`ell` tuples stay
+open, so the node remains `TARGET`.
 
 Together with the unconditional outside-`D` payment, `(SL2-D)` gives
 `25|R_d(u,v)|<=17n^2` exactly. This is an owner-aware punctured list with

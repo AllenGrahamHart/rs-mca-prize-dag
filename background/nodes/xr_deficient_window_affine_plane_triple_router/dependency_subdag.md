@@ -7,5 +7,6 @@ xr_deficient_window_active_defect_list_router [PROVED]
             ~> xr_band_forced_commonroot_syzygy_count [TARGET]
 ```
 
-The final edge is evidence only.  The open payload is the aggregate mass of
-restriction-degenerate triple flags.
+The final edge is evidence only.  This node exposes the aggregate mass of
+restriction-degenerate triple flags; the downstream component-payment node
+pays it.

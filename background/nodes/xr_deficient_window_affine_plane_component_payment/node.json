@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "xr_deficient_window_affine_plane_component_payment",
+    "title": "XR deficient window: affine-plane component payment",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a fixed residual core plane and three pairwise distinct-phi points in one selected defect block, the two block conics contain at most three target parameters without any restriction-genericity premise. On every positive-dimensional common component, a varying ray would produce three Mobius functions with three distinct poles but one affine-linear dependence; hence the ray is constant and the same-ray interaction strip caps the component. The triple incidence bound is therefore unconditional. At the next dimensions it pays every r>2ell tuple with d+ell<=6840580025 at rates 1/4,1/8 and d+ell<=3435973837 at rate 1/16; the rate-1/16 ell=1 slice extends to d+1=3523371941.",
+    "refs": [
+      "background/nodes/xr_deficient_window_affine_plane_component_payment/statement.md",
+      "background/nodes/xr_deficient_window_affine_plane_component_payment/proof.md",
+      "background/nodes/xr_deficient_window_affine_plane_component_payment/claim_contract.md",
+      "background/nodes/xr_deficient_window_affine_plane_component_payment/dependency_subdag.md",
+      "background/nodes/xr_deficient_window_affine_plane_component_payment/audit.md",
+      "background/nodes/xr_deficient_window_affine_plane_component_payment/result.md",
+      "background/nodes/xr_deficient_window_affine_plane_component_payment/lineage.md",
+      "background/nodes/xr_deficient_window_affine_plane_component_payment/verify.py"
+    ]
+  },
+  "requires": [
+    {"from": "xr_deficient_window_affine_plane_triple_router"},
+    {"from": "xr_band_ledger_theorems"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "xr_band_forced_commonroot_syzygy_count"},
+    {"to": "xr_band_maximal_window_divisor_count"}
+  ],
+  "refutes": []
+}

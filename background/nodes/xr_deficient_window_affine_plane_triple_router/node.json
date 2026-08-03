@@ -5,7 +5,7 @@
     "title": "XR deficient window: affine-plane triple router",
     "status": "PROVED",
     "closure": "proof",
-    "statement": "After s-2 independent active-core cuts, three pairwise distinct-phi points in one selected defect block impose two conics on the residual affine plane. If the residual two-dimensional direction code has nonzero pairwise distinct projective evaluations on the triple, the conics have no common component and at most three affine intersections. Double counting gives (APT1)-(APT2). At the next unpaid dimensions this pays the printed ell=1 lower-x slices unless a restriction-degenerate triple flag occurs. The degeneracy mass remains open, so no critical status changes.",
+    "statement": "After s-2 independent active-core cuts, three pairwise distinct-phi points in one selected defect block impose two conics on the residual affine plane. If the residual two-dimensional direction code has nonzero pairwise distinct projective evaluations on the triple, the conics have no common component and at most three affine intersections. Double counting gives (APT1)-(APT2). At the next unpaid dimensions this pays the printed ell=1 lower-x slices unless a restriction-degenerate triple flag occurs. This first-stage router leaves that mass explicit; the downstream affine-plane component payment removes it.",
     "refs": [
       "background/nodes/xr_deficient_window_affine_plane_triple_router/statement.md",
       "background/nodes/xr_deficient_window_affine_plane_triple_router/proof.md",
