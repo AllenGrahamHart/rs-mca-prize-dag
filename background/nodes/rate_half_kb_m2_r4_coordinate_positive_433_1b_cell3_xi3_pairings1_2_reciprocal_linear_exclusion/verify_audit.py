@@ -103,7 +103,7 @@ def main():
     require("reducing the quartic" in lineage.lower() and
             "exceptional strata" in lineage,
             "route lineage")
-    require("896 raw cases" in frontier and
+    require("960 raw cases" in frontier and
             "Do not infer complete cell-3" in frontier,
             "retained frontier")
     print(

@@ -15850,6 +15850,49 @@ nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
                           MCA, or Prize closure
 ```
 
+### Work-cycle theorem: positive 433-1b cell-3 xi3 opposite-DE parity orbits
+
+```text
+aggregate scope:          xi=3 (missing df), pairing in {4,5,9,12}
+raw atlas cover:          4 matchings x 4 source signs x 4 target lanes
+                          = 64 cases
+computed representatives:pairing 4, 4 source rows covering 4 lanes each;
+                          pairing 5, 8 source/anchor rows covering 2 lanes each
+transport representatives:pairing 4 -> 9 and pairing 5 -> 12 under exchange
+                          of the two identical positive de records
+opposite-DE cut:          P(q)=F(q,-q), even quartic; x=q^2 gives quadratic P_x
+linear-f cut:             A(q,f)=a2(f)q^2+a1(f)q+a0(f)
+parity cut:               H(x,f)=(a2*x+a0)^2-a1^2*x=A(q,f)A(-q,f)
+x elimination:           exact quadratic resultant J(f), degree 8
+missing relation:        monic M(f)=f^4+(2m-s)f^2+m^2, m=df,s=(d+f)^2
+f reduction:             monic remainder R=J mod M, degree 3, no new inverse
+target-free eliminant:    division-free 4 x 4 Bezout determinant of M and R
+norm route:               quadratic-over-cubic tower norm
+exceptional policy:       all norm, inverse, and base-leading roots lifted;
+                          every M root and original common-q gcd root replayed;
+                          an identically zero q gcd is unresolved, never dropped
+computed rows:            4 pairing-4 + 8 pairing-5 = 12
+aggregate direct replay:  200 candidate r values, 296 source points,
+                          928 f rows, 184 targets, 480 final lane checks
+terminal mechanism:       all 480 remaining paired values nonzero
+terminal ledgers:         0 witnesses, 0 boundaries, 0 free-q, 0 unresolved
+transport payment:        exact positive-de exchange pays 32 further cases
+result:                   complete 64-case xi3/pairings4,5,9,12 block PROVED;
+                          all 240 xi3 cases are now paid
+Modal apps:               ap-D3PsppOT8w1yD26epUDBOp pilot,
+                          ap-jQzOqq8ORVrIQ2sQWVyJYi census
+artifact custody:         compiler sha256 810032f1be4e1d6ebcdce1bd68a289958
+                          989d46148f6d92b35380a7fab8607b3;
+                          census sha256 2bd07012540e7536918e10937800019972
+                          e14e89e1dc241369a0f32199a2369d
+paid cell-3 ledger:       720 parallel-DE + 240 xi3 = 960 cases
+remaining cell-3 ledger:  all 720 cases at xi in {4,5,6}
+failed-route lesson:      quotient-ring missing-quartic elimination crossed
+                          300s; parity x must precede target elimination
+nonclaim:                 no xi4-6, complete cell-3, K3, LIST, MCA, or Prize
+                          closure
+```
+
 Cycle burn-down: start `99dd7b7c7`; result `PROVED`; DAG delta
 `+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
 zero.  Dense SymPy function-field arithmetic was replaced by an exact FLINT

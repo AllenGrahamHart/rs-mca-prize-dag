@@ -102,7 +102,7 @@ def main():
     require("timed out at 300 seconds" in lineage and
             "later monic missing-`f` theorem" in lineage,
             "failed-route discipline")
-    require("896 raw cases" in frontier and
+    require("960 raw cases" in frontier and
             "Do not infer complete cell-3" in frontier,
             "retained frontier")
     print(

@@ -12,6 +12,7 @@
   eliminable in `q`.
 - The exact rows completed in 82-160 seconds on Modal. No local heavy
   computation was used.
-- The fully mixed `xi=3` representatives are now closed. Only opposite-DE
-  representatives 4 and 5, and their transports 9 and 12, remain at `xi=3`.
+- The fully mixed `xi=3` representatives are closed here. A later parity-`x`
+  theorem closes opposite-DE representatives 4 and 5 and their transports 9
+  and 12, completing the `xi=3` slice.
 - The result remains background evidence toward `rate_half_band_closure`.

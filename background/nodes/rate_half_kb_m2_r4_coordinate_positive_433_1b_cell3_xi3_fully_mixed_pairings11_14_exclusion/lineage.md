@@ -11,6 +11,6 @@
 - The quadratic-over-cubic tower norm avoids a redundant 6-by-6 determinant
   while computing the same field norm by transitivity.
 - A later monic missing-`f` theorem closes representatives 7 and 8 and their
-  transports 10 and 13. Lower-growth refactors are still required for
-  opposite-DE representatives 4 and 5.
+  transports 10 and 13. A subsequent parity-`x` theorem closes opposite-DE
+  representatives 4 and 5 and their transports 9 and 12.
 - The result remains background evidence toward `rate_half_band_closure`.
