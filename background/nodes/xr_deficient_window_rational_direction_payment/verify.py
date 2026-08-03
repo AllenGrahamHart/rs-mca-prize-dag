@@ -106,6 +106,17 @@ assert len(basis) <= 2 * (d2 - len(G))
 for h in (5, 7, 9, 17):
     for depth in range((h + 1) // 2, (2 * h + 1) // 3 + 1):
         assert depth - 2 < 2 * (h - depth)
-assert 25 * n <= 17 * n * n
 
-print("XR_DEFICIENT_WINDOW_RATIONAL_DIRECTION_PAYMENT_ALL_PASS checks=14")
+# The outside/local partition spends exactly the original budget when the
+# local target receives the complementary allowance.
+partition_checks = 0
+for n0 in range(2, 65):
+    for g in range(n0 + 1):
+        outside_cap = n0 - g
+        local_budget = 17 * n0 * n0 - 25 * outside_cap
+        assert local_budget >= 0
+        assert 25 * outside_cap + local_budget == 17 * n0 * n0
+        partition_checks += 1
+
+print("XR_DEFICIENT_WINDOW_RATIONAL_DIRECTION_PAYMENT_ALL_PASS "
+      f"checks={14 + partition_checks}")

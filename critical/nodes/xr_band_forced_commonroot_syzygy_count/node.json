@@ -3,10 +3,10 @@
   "order": 1801,
   "node": {
     "id": "xr_band_forced_commonroot_syzygy_count",
-    "title": "XR SL-2 primitive Pade-pencil parameter census",
+    "title": "XR SL-2 G-local primitive Pade-pencil parameter census",
     "status": "TARGET",
     "closure": "",
-    "statement": "At every prize-row depth ceil((2h+2)/3)<=d<=h-2 with rank J_d<2d and |G_d|>=2(h-d), the proved primitive Pade router writes the whole kernel as {(SP,SQ):S in W}, with gcd(P,Q)=1 and ell=max(deg P,deg Q)<=3d-2h-1, and writes every counted pair uniquely as (f0+Q tau,g0-P tau), deg tau<k-ell; distinct full cores intersect in at most k-ell-1 points. The maximal selected post-strip family in this exact normal form satisfies 25|R_d|<=17n^2. Maximality, first-match liveness, and strip ownership remain load-bearing; no locator-pencil transport is assumed.",
+    "statement": "At every prize-row depth ceil((2h+2)/3)<=d<=h-2 with rank J_d<2d and g=|G_d|>=2(h-d), let R_d^G be the maximal selected post-strip pairs for which every selected off-core block lies in G_d. The proved primitive Pade router writes the whole kernel as {(SP,SQ):S in W}, with gcd(P,Q)=1 and ell=max(deg P,deg Q)<=3d-2h-1, and writes every counted pair uniquely as (f0+Q tau,g0-P tau), deg tau<k-ell; distinct full cores intersect in at most k-ell-1 points. Then 25|R_d^G|<=17n^2-25(n-g). Maximality, first-match liveness, G-locality, and strip ownership remain load-bearing; no locator-pencil transport is assumed.",
     "refs": [
       "critical/nodes/xr_band_forced_commonroot_syzygy_count/statement.md",
       "critical/nodes/xr_band_forced_commonroot_syzygy_count/attack.md"

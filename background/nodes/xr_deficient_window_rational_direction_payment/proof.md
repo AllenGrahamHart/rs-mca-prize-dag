@@ -35,7 +35,7 @@ Every component of every syzygy vanishes on the distinct points of
 components have degree `<d-g_d`; the ambient space has dimension
 `2(d-g_d)`. This proves `(FR)`.
 
-## Occupancy payment
+## Outside-`G_d` occupancy payment
 
 Choose the syzygy whose common-root set is exactly `G_d`. Outside
 `G_d`, `(RD)` says that the unique projective slope cancelling the
@@ -45,21 +45,37 @@ nonzero error pair is the fixed rational direction
 phi(x)=[B(x):A(x)].
 ```
 
-Fix a counted pair `P`. Each of its selected live rays has exactly
-`h-d` off-core agreement points, and the off-core sets for distinct
-slopes are disjoint. If all off-core points of two selected rays lay
-in `G_d`, then `|G_d|>=2(h-d)`. Under the strict reverse inequality,
-every counted pair therefore has a selected ray whose slope belongs to
-`phi(H\G_d)`, a set of at most `n` slopes.
+Let `N_d^out` count the pairs having a selected ray with an off-core
+agreement point outside `G_d`. For each such pair choose one such ray
+and one such point. Its slope belongs to
 
-Assign one such slope to each pair. Item 7 of
+```text
+phi(H\G_d),
+```
+
+a set of at most `n-g_d` projective slopes. Assign one such slope to
+each pair. Item 7 of
 `notes/BAND_LANE_DEFINITIONS.md` selects one global first-match
 exact-`A` ray at each slope, so two pairs assigned the same slope are
 subordinate to the same selected ray. The high-depth interaction strip
 in `xr_band_ledger_theorems` then gives `d+d<=h-1` for two distinct
 generic-branch pairs on that ray, contrary to `d>=ceil(h/2)`. Thus the
-assignment is injective, and `N_d<=n`. The prize rows have `n>=2`, and
-therefore `25n<=17n^2`.
+assignment is injective, and
+
+```text
+N_d^out<=|phi(H\G_d)|<=n-g_d.                  (3)
+```
+
+The complementary pairs counted by `N_d^G` have every selected
+off-core point in `G_d`. Each selected live ray has exactly `h-d`
+off-core points. A counted pair has at least two selected slopes, and
+the corresponding off-core blocks are disjoint: a common point would
+annul the two distinct scalar combinations of the same error pair and
+would therefore lie in the joint core. Hence `N_d^G>0` implies
+
+```text
+g_d>=2(h-d).                                  (4)
+```
 
 Finally, a nonzero nonproportional pair of polynomials of degree `<d`
 has common-gcd degree at most `d-2`. If

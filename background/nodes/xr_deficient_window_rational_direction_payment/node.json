@@ -3,13 +3,18 @@
   "order": 1799,
   "node": {
     "id": "xr_deficient_window_rational_direction_payment",
-    "title": "XR deficient-window payment: rational error directions leave only a forced-common-root kernel",
+    "title": "XR deficient-window payment: outside-forced-set pairs cost at most n-|G|",
     "status": "PROVED",
     "closure": "proof",
-    "statement": "For the left syzygy space K_d of a deficient stacked high-window matrix, let G_d be the evaluation points at which both components of every syzygy vanish. Vandermonde inversion makes every syzygy a pointwise rational error-direction law for every maximal depth-d pair. At q>n there is a syzygy whose common H-root set is exactly G_d, all syzygies are divisible by its locator, dim K_d<=2(d-|G_d|), and rank J_d>=2|G_d|. If |G_d|<2(h-d), every counted pair has a selected ray in one fixed rational image of at most n slopes; high-depth ray injectivity gives N_d<=n<17n^2/25. Hence only full joint rank or a deficient kernel with at least 2(h-d) forced common roots remains.",
+    "statement": "For the left syzygy space K_d of a deficient stacked high-window matrix, let G_d be the evaluation points at which both components of every syzygy vanish. Vandermonde inversion makes every syzygy a pointwise rational error-direction law for every maximal depth-d pair. At q>n there is a syzygy whose common H-root set is exactly G_d, all syzygies are divisible by its locator, dim K_d<=2(d-|G_d|), and rank J_d>=2|G_d|. Partition N_d into N_d^out, whose pairs have a selected off-core point outside G_d, and N_d^G, whose complete selected off-core geometry lies in G_d. High-depth first-match ray injectivity gives N_d^out<=n-|G_d| unconditionally, while N_d^G>0 implies |G_d|>=2(h-d). Hence only the G_d-local deficient family remains unpaid.",
     "refs": [
       "background/nodes/xr_deficient_window_rational_direction_payment/statement.md",
       "background/nodes/xr_deficient_window_rational_direction_payment/proof.md",
+      "background/nodes/xr_deficient_window_rational_direction_payment/claim_contract.md",
+      "background/nodes/xr_deficient_window_rational_direction_payment/dependency_subdag.md",
+      "background/nodes/xr_deficient_window_rational_direction_payment/audit.md",
+      "background/nodes/xr_deficient_window_rational_direction_payment/result.md",
+      "background/nodes/xr_deficient_window_rational_direction_payment/lineage.md",
       "background/nodes/xr_deficient_window_rational_direction_payment/verify.py"
     ]
   },

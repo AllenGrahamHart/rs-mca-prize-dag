@@ -28020,7 +28020,7 @@
    "title": "XR SL-2-RES maximal selected window-divisor count: exact-depth residual <=17n^2/25",
    "status": "CONDITIONAL",
    "closure": "conditional",
-   "statement": "At each prize row and high band-proper depth, let R_d(u,v) contain the degree-(n-k-d) monic split squarefree divisors E_T|X^n-1 satisfying both top-d window systems, whose reconstructed codeword pair has full joint core exactly H\\T, has L_P>=2 under support-wise first-match selection, and survives the generic strip order. Then 25|R_d|<=17n^2. The exact remaining alternatives are the full-joint-rank split-divisor target and the deficient-rank target where at least 2(h-d) evaluation roots are forced on the entire left syzygy kernel; every other deficient system is proved to have N_d<=n. Raw affine divisors without maximality/selection remain outside the assertion.",
+   "statement": "At each prize row and high band-proper depth, let R_d(u,v) contain the degree-(n-k-d) monic split squarefree divisors E_T|X^n-1 satisfying both top-d window systems, whose reconstructed codeword pair has full joint core exactly H\\T, has L_P>=2 under support-wise first-match selection, and survives the generic strip order. Then 25|R_d|<=17n^2. The exact remaining alternatives are the full-joint-rank split-divisor target and, at deficient rank, the G_d-local target whose every selected off-core block lies in the whole-kernel forced-root set. The complementary deficient family is proved to have size at most n-|G_d| and the red leaf receives the exact remaining budget. Raw affine divisors without maximality/selection remain outside the assertion.",
    "refs": [
     "critical/nodes/xr_band_maximal_window_divisor_count/statement.md",
     "critical/nodes/xr_band_maximal_window_divisor_count/attack.md",
@@ -28041,13 +28041,18 @@
   },
   {
    "id": "xr_deficient_window_rational_direction_payment",
-   "title": "XR deficient-window payment: rational error directions leave only a forced-common-root kernel",
+   "title": "XR deficient-window payment: outside-forced-set pairs cost at most n-|G|",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "For the left syzygy space K_d of a deficient stacked high-window matrix, let G_d be the evaluation points at which both components of every syzygy vanish. Vandermonde inversion makes every syzygy a pointwise rational error-direction law for every maximal depth-d pair. At q>n there is a syzygy whose common H-root set is exactly G_d, all syzygies are divisible by its locator, dim K_d<=2(d-|G_d|), and rank J_d>=2|G_d|. If |G_d|<2(h-d), every counted pair has a selected ray in one fixed rational image of at most n slopes; high-depth ray injectivity gives N_d<=n<17n^2/25. Hence only full joint rank or a deficient kernel with at least 2(h-d) forced common roots remains.",
+   "statement": "For the left syzygy space K_d of a deficient stacked high-window matrix, let G_d be the evaluation points at which both components of every syzygy vanish. Vandermonde inversion makes every syzygy a pointwise rational error-direction law for every maximal depth-d pair. At q>n there is a syzygy whose common H-root set is exactly G_d, all syzygies are divisible by its locator, dim K_d<=2(d-|G_d|), and rank J_d>=2|G_d|. Partition N_d into N_d^out, whose pairs have a selected off-core point outside G_d, and N_d^G, whose complete selected off-core geometry lies in G_d. High-depth first-match ray injectivity gives N_d^out<=n-|G_d| unconditionally, while N_d^G>0 implies |G_d|>=2(h-d). Hence only the G_d-local deficient family remains unpaid.",
    "refs": [
     "background/nodes/xr_deficient_window_rational_direction_payment/statement.md",
     "background/nodes/xr_deficient_window_rational_direction_payment/proof.md",
+    "background/nodes/xr_deficient_window_rational_direction_payment/claim_contract.md",
+    "background/nodes/xr_deficient_window_rational_direction_payment/dependency_subdag.md",
+    "background/nodes/xr_deficient_window_rational_direction_payment/audit.md",
+    "background/nodes/xr_deficient_window_rational_direction_payment/result.md",
+    "background/nodes/xr_deficient_window_rational_direction_payment/lineage.md",
     "background/nodes/xr_deficient_window_rational_direction_payment/verify.py"
    ]
   },
@@ -28064,10 +28069,10 @@
   },
   {
    "id": "xr_band_forced_commonroot_syzygy_count",
-   "title": "XR SL-2 primitive Pade-pencil parameter census",
+   "title": "XR SL-2 G-local primitive Pade-pencil parameter census",
    "status": "TARGET",
    "closure": "",
-   "statement": "At every prize-row depth ceil((2h+2)/3)<=d<=h-2 with rank J_d<2d and |G_d|>=2(h-d), the proved primitive Pade router writes the whole kernel as {(SP,SQ):S in W}, with gcd(P,Q)=1 and ell=max(deg P,deg Q)<=3d-2h-1, and writes every counted pair uniquely as (f0+Q tau,g0-P tau), deg tau<k-ell; distinct full cores intersect in at most k-ell-1 points. The maximal selected post-strip family in this exact normal form satisfies 25|R_d|<=17n^2. Maximality, first-match liveness, and strip ownership remain load-bearing; no locator-pencil transport is assumed.",
+   "statement": "At every prize-row depth ceil((2h+2)/3)<=d<=h-2 with rank J_d<2d and g=|G_d|>=2(h-d), let R_d^G be the maximal selected post-strip pairs for which every selected off-core block lies in G_d. The proved primitive Pade router writes the whole kernel as {(SP,SQ):S in W}, with gcd(P,Q)=1 and ell=max(deg P,deg Q)<=3d-2h-1, and writes every counted pair uniquely as (f0+Q tau,g0-P tau), deg tau<k-ell; distinct full cores intersect in at most k-ell-1 points. Then 25|R_d^G|<=17n^2-25(n-g). Maximality, first-match liveness, G-locality, and strip ownership remain load-bearing; no locator-pencil transport is assumed.",
    "refs": [
     "critical/nodes/xr_band_forced_commonroot_syzygy_count/statement.md",
     "critical/nodes/xr_band_forced_commonroot_syzygy_count/attack.md"

@@ -38,10 +38,12 @@ all other aperiodic systems remain unless a proved strip or liveness
 exclusion applies.
 
 The residual is now split exactly by stacked rank. Full joint rank is
-`xr_band_fullrank_window_divisor_count`. At deficient rank, the proved
-rational-direction payment closes every system unless the entire left
-syzygy kernel has at least `2(h-d)` forced common roots; that remaining
-case is `xr_band_forced_commonroot_syzygy_count`.
+`xr_band_fullrank_window_divisor_count`. At deficient rank, partition
+the family into pairs with a selected off-core point outside the forced
+common-root set `G_d` and pairs whose complete selected off-core geometry
+lies in `G_d`. The proved rational-direction payment bounds the first
+part by `n-|G_d|`; the exact complementary-budget count for the second
+part is `xr_band_forced_commonroot_syzygy_count`.
 
 ## Falsifier
 
