@@ -119,3 +119,21 @@ lemma's conclusion and the column bound are untouched (Zfib11's own
 ledger: N_d = 0.11 n^2). Heart status: route through admissibility +
 row arithmetic; open = consolidating the general-V admissible case at
 prize rows.
+
+## Addendum 6 (2026-08-03): exact Route-T budget interface
+
+The campaign phrase "the `13n^3` headroom" denotes the floored lower
+bound on the free third-column budget. It is not an upper bound. The
+critical-DAG interface is
+
+```text
+H_band(C) := s_lo(C)-16n^3,
+|Gamma_band| <= H_band(C),
+```
+
+so the band column and the `16n^3` post-band remainder total at most
+`s_lo(C)` exactly. At the three prize rows `H_band/n^3` is about
+`13.857`; replacing it by either `4n^3` or a literal upper bound of
+`13n^3` breaks the ratified `17/25` occupancy arithmetic. The exact
+integer check lives in `critical/nodes/xr_graded_tangent_band_charge/
+verify.py` and includes the separately capped cascade tier.

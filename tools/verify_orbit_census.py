@@ -7,20 +7,20 @@ declared one of them "stale". This verifier pins both and their exact delta so
 the confusion cannot silently return.
 
   MATH ORBIT      req-ancestry (+ the alt-closure rule) of the two grand-challenge
-                  nodes {mca_grand, list_grand}.  242 = 179 PROVED / 38 CONDITIONAL
+                  nodes {mca_grand, list_grand}.  243 = 179 PROVED / 39 CONDITIONAL
                   / 25 TARGET.  This is what orbit/critical_dag.json, the radial
                   SVG, the published site, the partition law in verify_prize_dag.py,
                   and verify_critical_harness_coverage.py all measure.  Its 25
                   TARGETs are the mathematical leaves of the roadmap.
 
-  SUBMISSION ORBIT  the same closure rooted at `prize`.  257 = 191 / 40 / 26.
+  SUBMISSION ORBIT  the same closure rooted at `prize`.  258 = 191 / 41 / 26.
                   Strict superset: MATH ORBIT + 15 packaging/bridge/Lean-harness
                   nodes (12 PROVED, 2 CONDITIONAL, 1 TARGET), enumerated below.
                   This is the Convergence Ledger's baseline and equals the
                   dominator set printed by verify_prize_dag.py's every-route
                   analysis (26 open dominators == the 26 submission-orbit TARGETs).
 
-Neither census is stale; 257 - 242 = 15 is definitional, not drift. Consumers must
+Neither census is stale; 258 - 243 = 15 is definitional, not drift. Consumers must
 say WHICH orbit they mean. Burn-down of *mathematics* is the math orbit; the
 "all-green DAG" end state is the submission orbit (it owns the dossier leaf).
 
@@ -58,8 +58,11 @@ SUBMISSION_ROOT = "prize"
 # ROUTE-T REPRICE (2026-08-02, coordinated edit f72ca9e5): the new
 # xr_graded_tangent_band_charge TARGET is a mathematical leaf.  The unchanged
 # 15-node submission spine therefore raises both orbit TARGET counts by one.
-EXPECTED_MATH = {"PROVED": 179, "CONDITIONAL": 38, "TARGET": 25}
-EXPECTED_SUBMISSION = {"PROVED": 191, "CONDITIONAL": 40, "TARGET": 26}
+# SL-2 DECOMPOSITION (2026-08-03): the monolithic Route-T target becomes
+# CONDITIONAL on one new TARGET leaf. The proved reduction is evidence-only and
+# remains off-orbit. This adds one CONDITIONAL while preserving 25 TARGETs.
+EXPECTED_MATH = {"PROVED": 179, "CONDITIONAL": 39, "TARGET": 25}
+EXPECTED_SUBMISSION = {"PROVED": 191, "CONDITIONAL": 41, "TARGET": 26}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no
@@ -88,7 +91,7 @@ EXPECTED_DELTA = {
 NON_MATH_TARGET = "submission_quality_paper_dossier"
 
 # ...and the two CONDITIONALs on the spine are likewise non-mathematical, so a
-# conditional-dedup ledger over the 40 must account for 38 mathematical ones.
+# conditional-dedup ledger over the 41 must account for 39 mathematical ones.
 NON_MATH_CONDITIONALS = {"prize", "packaging"}
 
 

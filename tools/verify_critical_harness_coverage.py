@@ -115,8 +115,9 @@ def main() -> None:
     manifest = json.loads(MANIFEST.read_text())
     proved = [node["id"] for node in critical["nodes"] if node["label"] == "PROVED"]
 
-    # Route-T added one TARGET leaf without changing the proved-node coverage.
-    require(len(critical["nodes"]) == 242, "critical orbit size drift")
+    # SL-2 decomposition adds one conditional parent while replacing, rather
+    # than adding, the Route-T TARGET leaf. Its proved reduction is evidence-only.
+    require(len(critical["nodes"]) == 243, "critical orbit size drift")
     require(len(proved) == 179, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()

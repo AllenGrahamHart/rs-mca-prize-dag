@@ -1,27 +1,65 @@
 # xr_graded_tangent_band_charge
 
-- **status:** TARGET (red)
+- **status:** CONDITIONAL
 - **ratification:** Route T + cascade-tier fold-in, user-ratified
   2026-08-02 (CAMPAIGN_LEDGER RATIFICATION block). Resurrects the mission
   of the archived `archive/retraction_xr_20260705/xr_partial_tangent_band`
   as a THIRD GENERIC COLUMN, never as a B_tan enlargement.
 - **consumer:** `xr_smallcore_spread_count` (route of record).
 
+## Current closure interface (2026-08-03)
+
+The rounds 7-11 reconciliation replaces the monolithic occupancy red by
+one exact leaf:
+
+```text
+xr_band_high_window_exclusion (SL-2)
+  25 N_d <= 17 n^2 at every prize-row depth
+  ceil(h/2) <= d <= h-2.
+```
+
+The projective multiplicity identity, high-depth projection
+injectivity, and averaged window inequality are now isolated and proved
+in `xr_band_windowed_projection_reduction`. The canonical MC/coset
+adversary is excluded from the same depth window by the already proved
+`xr_mc_depth_quantization`. The RowC occupancy budgets are vacuous. On
+the prize rows the banked low-depth estimate already lies below the
+same `17n^2/25` envelope, and the cascade tier has the stronger cap
+`N_{h-1}<=n/2`. Therefore this node is conditional on SL-2 alone;
+proving that leaf promotes this node without another mathematical
+premise.
+
+The historical reduction narrative below is retained for provenance.
+Where it describes the iterated-core charge route as current, the
+current closure interface above and consolidation Updates 5-6
+supersede it.
+
 ## Statement (the obligation)
 
-At each of the six clean-rate candidates, for every globally
-generic-branch received pair `(u,v)`: the band-column slope count
+At each of the six clean-rate candidates define the exact free
+third-column budget
+
+```text
+H_band(C) := s_lo(C) - 16 n^3,
+```
+
+where `s_lo=B*_C-B_quot_ub-(n-A+1)` is the banked post-strip allowance.
+For every globally generic-branch received pair `(u,v)`, the band-column
+slope count satisfies
 
 ```text
 |Gamma_band| = #{ post-strip live slopes whose selected agreement support
                   shares a core of size in [k+1, A-1] with another live
-                  member }                                <=  4 n^3,
+                  member }                                <=  H_band(C).
 ```
 
-charged to the third generic column from the `13n^3` consumption headroom
-(`16n^3 + 4n^3 = 20n^3 <= 29n^3` at every row — proved allowance;
-`B_tan` untouched at `n-A+1`; the `8n^3 + 8n^3` generic reserves never
-split — the AZC discharge margin is 0.5005%). Depth grading
+This is the ratified third generic column. The phrase "the `13n^3`
+headroom" in the campaign records is a floored description:
+`H_band(C)>=13n^3`, while at the prize rows
+`H_band(C)/n^3` is about `13.857`. The consumer uses the exact identity
+`16n^3+H_band(C)=s_lo(C)`, not an asserted upper bound of `13n^3`.
+`B_tan` remains untouched at `n-A+1`, and the `8n^3 + 8n^3` generic
+reserves never split; the AZC discharge margin is 0.5005%. Depth grading
 `d = core - k in [1, h-1]`; the depth-`h-1` CASCADE TIER is a NAMED tier
 of this column (fold-in ratified), so the cascade forcing
 (`xr_pencil_cascade`, scope-corrected) stays citable as structure while
@@ -29,12 +67,13 @@ its charge lives here.
 
 ## Reduction of record (banked pilot evidence, coordinator-verified)
 
-`|Gamma_band| = Sum_{d=1}^{h-1} Sum_{depth-d pairs P} L_P` with the ledger
+`|Gamma_band| <= Sum_{d=1}^{h-1} Sum_{depth-d pairs P} L_P`, with the ledger
 TIGHT at the cascade tier (k-packing exclusivity: the Lambda_P are
 disjoint) and `L_P <= floor((n-J)/(A-J))` at joint agreement `J`. Under
-the BAND OCCUPANCY LEMMA — `N_d <= ~0.68n^2` at every band depth — the
-column prices at `<= ~0.57n^2` at the prize rows, `2^46` inside the
-headroom. The occupancy lemma is the SINGLE open input. Its sharpened
+the BAND OCCUPANCY LEMMA — `N_d <= 17n^2/25` at every band depth — the
+proper-band column plus the separately capped cascade tier fits the
+row-exact `H_band(C)` at all prize rows. The occupancy lemma is the
+SINGLE open input. Its sharpened
 form (SHARP-OCC, conjectured): `N_d <= floor((n-k+1)/(h-d))` at
 `d <= (h-1)/2` and `<= floor((2(n-k)-1)/(2h-2))` above — in particular
 `N_d <= n/2`; sharpest calibration on record: RowC 1/4, U-mechanism
@@ -103,7 +142,7 @@ sufficient special case of the form of record.
 ## Falsifier
 
 A globally generic received pair at a scaled row with `|Gamma_band| >
-4n^3`; or a band depth `d` with `N_d` super-quadratic; or an admissible
+H_band(C)`; or a band depth `d` with `N_d` super-quadratic; or an admissible
 non-collapsing ray system with `V > m/2` (which would refute the heart's
 route, not yet the column bound).
 

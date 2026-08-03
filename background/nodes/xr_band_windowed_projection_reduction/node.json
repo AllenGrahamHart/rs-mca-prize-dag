@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1793,
+  "node": {
+    "id": "xr_band_windowed_projection_reduction",
+    "title": "XR high-band windowed-projection reduction: exact projective multiplicity identity, high-depth injectivity, and averaged window inequality",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every tangent-gate Reed-Solomon pencil and every depth ceil(h/2)<=d<=h-2, let N_d^raw count all depth-d joint-explanation pairs, W_d(z) count codewords with agreement in [k+d,A-2] at member z, and beta_d=floor((n-k-d)/(h-d-1)). Then (q+1-beta_d)N_d^raw <= sum_z W_d(z). Hence the selected occupancy N_d obeys the same bound, and 25 sum_z W_d(z) <= 17n^2(q+1-beta_d) implies N_d<=17n^2/25. The proof is the exact P^1 cell identity sum_z(a_P(z)-k-d)=n-k-d, the beta over-agreement packing bound, and injectivity of P->pi_z(P) when 2d>=h. This is a reduction only; it does not assert the high-window list estimate.",
+    "refs": [
+      "background/nodes/xr_band_windowed_projection_reduction/statement.md",
+      "background/nodes/xr_band_windowed_projection_reduction/proof.md",
+      "background/nodes/xr_band_windowed_projection_reduction/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_band_high_window_exclusion",
+      "order": 4995
+    }
+  ],
+  "refutes": []
+}

@@ -32,6 +32,10 @@
     {
       "to": "xr_graded_tangent_band_charge",
       "order": 4856
+    },
+    {
+      "to": "xr_band_high_window_exclusion",
+      "order": 4997
     }
   ],
   "refutes": []
