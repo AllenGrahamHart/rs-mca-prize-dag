@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1803,
+  "node": {
+    "id": "xr_ov_slope_free_reduction",
+    "title": "OV slope-free obstruction reduction and minimal-degree branch",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For gate-clean zero-escape support systems, pair-unions are MDS-independent, triple-unions are MDS-dependent, and the intersection of all pair-unions is empty. If Ann is nonzero for some slope tuple, then the support-only space Jperp has dimension at least two; hence dim Jperp<=1 kills Ann for every slope tuple. Under the additional L=1, uniform-multiplicity, and characteristic hypotheses, the minimal-degree r=d branch is empty. The r>d branch and Conjecture OV remain open; no consumer is closed.",
+    "refs": [
+      "background/nodes/xr_ov_slope_free_reduction/statement.md",
+      "background/nodes/xr_ov_slope_free_reduction/proof.md",
+      "background/nodes/xr_ov_slope_free_reduction/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": [
+    {
+      "to": "xr_support4_structure",
+      "order": 5013
+    }
+  ]
+}

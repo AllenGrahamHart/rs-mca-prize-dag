@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1802,
+  "node": {
+    "id": "xr_pencil_forcing_t0",
+    "title": "Pencil forcing outside the residual band, and distinct-pencil fibre sharing",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a gate-clean zero-escape block system B(V,t,t_0,k) with V>=5 and dim Ann>=1, if t>=2e-2 then the blocks cannot be covered by two distinct pencils each carrying at least three blocks. Independently, two distinct pencil-structured live families share at most one fibre. The complementary band t<=2e-3, equivalently h>=3d+3, is not proved and includes the prize shapes; no full T0 or occupancy conclusion is asserted there.",
+    "refs": [
+      "background/nodes/xr_pencil_forcing_t0/statement.md",
+      "background/nodes/xr_pencil_forcing_t0/proof.md",
+      "background/nodes/xr_pencil_forcing_t0/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_graded_tangent_band_charge",
+      "order": 5011
+    }
+  ],
+  "refutes": []
+}

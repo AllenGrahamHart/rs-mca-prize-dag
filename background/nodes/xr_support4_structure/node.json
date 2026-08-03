@@ -30,5 +30,10 @@
       "order": 4859
     }
   ],
-  "refutes": []
+  "refutes": [
+    {
+      "to": "xr_pencil_forcing_t0",
+      "order": 5012
+    }
+  ]
 }

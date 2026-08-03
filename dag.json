@@ -28072,6 +28072,30 @@
     "critical/nodes/xr_band_forced_commonroot_syzygy_count/statement.md",
     "critical/nodes/xr_band_forced_commonroot_syzygy_count/attack.md"
    ]
+  },
+  {
+   "id": "xr_pencil_forcing_t0",
+   "title": "Pencil forcing outside the residual band, and distinct-pencil fibre sharing",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a gate-clean zero-escape block system B(V,t,t_0,k) with V>=5 and dim Ann>=1, if t>=2e-2 then the blocks cannot be covered by two distinct pencils each carrying at least three blocks. Independently, two distinct pencil-structured live families share at most one fibre. The complementary band t<=2e-3, equivalently h>=3d+3, is not proved and includes the prize shapes; no full T0 or occupancy conclusion is asserted there.",
+   "refs": [
+    "background/nodes/xr_pencil_forcing_t0/statement.md",
+    "background/nodes/xr_pencil_forcing_t0/proof.md",
+    "background/nodes/xr_pencil_forcing_t0/verify.py"
+   ]
+  },
+  {
+   "id": "xr_ov_slope_free_reduction",
+   "title": "OV slope-free obstruction reduction and minimal-degree branch",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For gate-clean zero-escape support systems, pair-unions are MDS-independent, triple-unions are MDS-dependent, and the intersection of all pair-unions is empty. If Ann is nonzero for some slope tuple, then the support-only space Jperp has dimension at least two; hence dim Jperp<=1 kills Ann for every slope tuple. Under the additional L=1, uniform-multiplicity, and characteristic hypotheses, the minimal-degree r=d branch is empty. The r>d branch and Conjecture OV remain open; no consumer is closed.",
+   "refs": [
+    "background/nodes/xr_ov_slope_free_reduction/statement.md",
+    "background/nodes/xr_ov_slope_free_reduction/proof.md",
+    "background/nodes/xr_ov_slope_free_reduction/verify.py"
+   ]
   }
  ],
  "edges": [
@@ -53129,6 +53153,21 @@
    "from": "xr_deficient_window_rational_direction_payment",
    "to": "xr_band_maximal_window_divisor_count",
    "kind": "ev"
+  },
+  {
+   "from": "xr_pencil_forcing_t0",
+   "to": "xr_graded_tangent_band_charge",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_support4_structure",
+   "to": "xr_pencil_forcing_t0",
+   "kind": "ref"
+  },
+  {
+   "from": "xr_ov_slope_free_reduction",
+   "to": "xr_support4_structure",
+   "kind": "ref"
   }
  ]
 }
