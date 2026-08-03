@@ -30,10 +30,13 @@ the selected `L_P>=2` predicate.
 ## Route 3: joint row-space transversality
 
 The two single-word Toeplitz systems each have rank `d`, but their
-stacked rank need not be `2d`. Classify large row-space intersections.
-A useful theorem would show that intersection dimension above a stated
-threshold forces quotient periodicity or another paid strip. Do not
-assume transversality from the tangent gate alone.
+stacked rank need not be `2d`. The proved
+`xr_joint_window_rank_syzygy_router` identifies every deficient case
+with a genuinely two-sided, nonproportional Padé syzygy across
+the complete syndrome window. Classify these rational directions. A
+useful theorem would show that intersection dimension above a stated
+threshold forces quotient periodicity or another paid strip. The
+complementary full-rank stratum is a pure arithmetic divisor problem.
 
 ## Route 4: bounded falsification
 
@@ -49,4 +52,6 @@ checkpoints.
 - First-moment margins are average-case evidence, not a uniform bound.
 - Packing by `k`-subsets is exponentially too weak.
 - The two single-word ranks do not add without a transversality proof.
+- A deficient joint rank is not arbitrary: consume the nonproportional Padé
+  syzygy router before introducing another structural conjecture.
 - "Aperiodic" must include mixed residue-class systems that evade P3.

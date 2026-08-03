@@ -17137,3 +17137,21 @@ SL-2-RES counts only locators whose reconstructed pair has exact full
 core `H\T`, carries `L_P>=2` under first-match selection, and survives
 the strips. This preserves the actual occupancy currency and leaves one
 honest residual rather than a stronger false raw-divisor conjecture.
+
+### Joint-rank router
+
+The first post-correction theorem isolates the only way stacked
+codimension can fail. If `J_d=[R_u;R_v]`, then
+
+```text
+d <= rank J_d <= 2d,
+rank J_d < 2d
+  iff the two syndrome windows admit a degree-<d Padé syzygy.
+```
+
+The pencil-wide tangent gate excludes one-sided and proportional
+relations, so every deficient case has a nonconstant rational
+direction `A/B`. SL-2-RES therefore has an exact two-stratum attack:
+full joint rank (arithmetic distribution of maximal split divisors) or
+nonproportional Padé syzygy (structure/inverse theorem). No new red was minted
+because this is a proved exhaustive router, not yet a quantitative split.

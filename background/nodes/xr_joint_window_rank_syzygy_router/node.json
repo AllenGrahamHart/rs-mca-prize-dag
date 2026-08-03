@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1798,
+  "node": {
+    "id": "xr_joint_window_rank_syzygy_router",
+    "title": "XR joint-window rank router: full codimension 2d or a nonproportional Pade syndrome syzygy",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let J_d be the stack of the two full-rank d-row Toeplitz window matrices. Then d<=rank J_d<=2d. Rank below 2d is equivalent to a degree-<d two-sided Pade syzygy across the complete syndrome window. Under the pencil-wide tangent gate neither coefficient polynomial vanishes and they cannot be proportional, since either case gives a forbidden recurrence for one pencil member. Hence the exact residual partitions into full-joint-rank arithmetic and genuinely two-sided nonproportional syzygy strata; no count is claimed.",
+    "refs": [
+      "background/nodes/xr_joint_window_rank_syzygy_router/statement.md",
+      "background/nodes/xr_joint_window_rank_syzygy_router/proof.md",
+      "background/nodes/xr_joint_window_rank_syzygy_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_window_system_descent",
+      "order": 5002
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_band_maximal_window_divisor_count",
+      "order": 5003
+    }
+  ],
+  "refutes": []
+}
