@@ -590,3 +590,20 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   persisted by coordinator (pilot's write harness-blocked). SURFACED:
   commission V >= 5 occupancy + escape-1 realizability as the next two
   anchors; RowC re-derivation queued. Pilot 3/3 (mint2_prep) running.
+
+## 2026-08-03: round-7 pilot 3/3 BANKED — mint-2 wired (4 nodes)
+
+- **mint2_prep (Opus) AUDITED + WIRED** (FABLE_AUDIT.md; 37/37 replayed;
+  both reconstructed proofs hand-verified line by line). Wired:
+  f2_antipodal_descent_lemma, f2_parity_defect_certificate (standalone
+  pair + campaign ref to u2c), pb_design_ceiling, pb_block_dichotomy
+  (ev x2 into xr_lowcore_spread_heart; req from the banked cost
+  theorem). pb_l1_lemma REFUSED as banked duplicate (accepted).
+  Three corrections adopted: parity-defect scope a_c b_c != 0 (record
+  too broad by 2(p-1) frequencies); spread<=>transverse one-directional
+  (gap = core-K = Gamma_hi); design ceiling NOT unconditional (mu_20
+  witness) -> dated addendum applied to xr_two_slope_cost_theorem.
+  Free-slope ceiling demoted to non-claim; block-dichotomy hypothesis
+  corrected to b >= a+2; e-coordinate reading adopted. DAG 1768/4906.
+  ROUND 7 COMPLETE: 3/3 pilots banked (unification, refutation, mint).
+  Round-8 pilots (v5_occupancy + escape1_realizability) RUNNING.
