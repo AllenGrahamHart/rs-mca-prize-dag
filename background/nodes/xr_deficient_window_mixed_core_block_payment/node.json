@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "xr_deficient_window_mixed_core_block_payment",
+    "title": "XR deficient active-defect family: mixed core/block payment",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For an affine dimension-s active-defect-local deficient family, double counting (s-1) independent punctured-core hyperplanes with two points in one selected defect block gives |Tau| <= (n-e)_(s-1)e(e-1)/(r(r-ell) product_{j=2}^s(d+ell+j)) whenever ell<r. The line residual has at most two members per witness; a degenerate determinant forces a constant selected slope and is removed by same-ray interaction. Combined with the affine-span compiler, exact official arithmetic pays dimensions 10,10,9 at rates 1/4,1/8,1/16. Any SL2-D counterexample has dimension at least 11,11,10.",
+    "refs": [
+      "background/nodes/xr_deficient_window_mixed_core_block_payment/statement.md",
+      "background/nodes/xr_deficient_window_mixed_core_block_payment/proof.md",
+      "background/nodes/xr_deficient_window_mixed_core_block_payment/claim_contract.md",
+      "background/nodes/xr_deficient_window_mixed_core_block_payment/dependency_subdag.md",
+      "background/nodes/xr_deficient_window_mixed_core_block_payment/audit.md",
+      "background/nodes/xr_deficient_window_mixed_core_block_payment/result.md",
+      "background/nodes/xr_deficient_window_mixed_core_block_payment/lineage.md",
+      "background/nodes/xr_deficient_window_mixed_core_block_payment/verify.py"
+    ]
+  },
+  "requires": [
+    {"from": "xr_deficient_window_active_defect_list_router"},
+    {"from": "upstream_gfv4_affine_span_list_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "xr_band_forced_commonroot_syzygy_count"},
+    {"to": "xr_band_maximal_window_divisor_count"}
+  ],
+  "refutes": []
+}

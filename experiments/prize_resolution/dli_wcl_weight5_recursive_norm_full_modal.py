@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Exhaust terminal weight-five norms and their official split factors."""
+"""Exhaust terminal weight-five norms and their official split factors.
+
+The complete census is an external CR-004 computation.  The local entrypoint
+requires an explicit acknowledgement before it will schedule the full fleet;
+bounded pilots remain available through ``--limit``.
+"""
 
 from __future__ import annotations
 
@@ -37,9 +42,9 @@ image = modal.Image.debian_slim().pip_install("python-flint").apt_install("pari-
 @app.function(
     image=image,
     cpu=2,
-    memory=4096,
+    memory=2048,
     timeout=2100,
-    max_containers=500,
+    max_containers=100,
     volumes={"/classes": volume},
 )
 def process_batch(payload: tuple[int, int, int]) -> dict[str, object]:
@@ -527,7 +532,13 @@ def checkpoint_progress() -> dict[str, object]:
 
 
 @app.local_entrypoint()
-def main(limit: int = 0) -> None:
+def main(limit: int = 0, external_full: bool = False) -> None:
+    if limit <= 0 and not external_full:
+        raise RuntimeError(
+            "full CR-004 census is not locally authorized; pass a positive "
+            "--limit for a bounded pilot or --external-full for an approved "
+            "external campaign"
+        )
     row_count = CLASS_COUNT if limit <= 0 else min(limit, CLASS_COUNT)
     bounds = [
         (index, start, min(start + BATCH_SIZE, row_count))

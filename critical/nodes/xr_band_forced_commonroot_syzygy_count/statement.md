@@ -52,9 +52,10 @@ Then the `D`-local maximal, selected, post-strip locator set satisfies
 25 |R_d^D(u,v)| <= 17 n^2 - 25(n-e).               (SL2-D)
 ```
 
-The proved affine-span payment closes `(SL2-D)` whenever the affine hull of
-the parameter set has dimension at most `9,9,8` at rates `1/4,1/8,1/16`.
-Thus a counterexample necessarily has affine dimension at least `10,10,9`.
+The proved affine-span and mixed core/block payments close `(SL2-D)` whenever
+the affine hull of the parameter set has dimension at most `10,10,9` at rates
+`1/4,1/8,1/16`.  Thus a counterexample necessarily has affine dimension at
+least `11,11,10`.
 
 Together with the unconditional outside-`D` payment, `(SL2-D)` gives
 `25|R_d(u,v)|<=17n^2` exactly. This is an owner-aware punctured list with

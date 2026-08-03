@@ -7,10 +7,10 @@
    with one word on `H\D`, while every selected slope supplies an exact
    `(h-d)`-block in `D` and forces every outside root of its degree-`ell`
    scalar factor into that agreement core.
-3. Low affine span is paid: a counterexample has parameter dimension at
-   least `10,10,9` on the three rates. Apply the generalized-weight form of
-   the affine compiler and active-block incidence first at those boundary
-   dimensions.
+3. Low affine span plus one mixed core/block layer is paid: a counterexample
+   has parameter dimension at least `11,11,10` on the three rates.  Continue
+   the mixed-incidence compiler from those new boundary dimensions; the
+   one-line/two-block-point case is now banked.
 4. Use the pairwise core cap `k-ell-1` together with the active blocks.
    Ordinary punctured Johnson is below threshold and is insufficient alone.
 5. Split by `1<=ell<=3d-2h-1`. Small `ell` limits every scalar factor;

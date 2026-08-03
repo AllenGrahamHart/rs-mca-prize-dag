@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Resolve every retained hard-tail norm from the weight-five easy pass."""
+"""Resolve every retained hard-tail norm from the weight-five easy pass.
+
+This is the external CR-004 hard-tail stage and is intentionally guarded at
+the local entrypoint.
+"""
 
 from __future__ import annotations
 
@@ -251,6 +255,7 @@ def aggregate_tail() -> dict[str, object]:
         raise AssertionError("tail manifest")
 
     factors = []
+    factors_by_index: dict[int, dict[str, object]] = {}
     missing = []
     for row in manifest["rows"]:
         tail_index = row["tail_index"]
@@ -335,7 +340,12 @@ def aggregate_tail() -> dict[str, object]:
 
 
 @app.local_entrypoint()
-def main() -> None:
+def main(external_full: bool = False) -> None:
+    if not external_full:
+        raise RuntimeError(
+            "full CR-004 tail is not locally authorized; pass "
+            "--external-full only for an approved external campaign"
+        )
     manifest = compile_tail_manifest.remote()
     payloads = [
         (int(row["tail_index"]), str(row["norm"])) for row in manifest["rows"]
