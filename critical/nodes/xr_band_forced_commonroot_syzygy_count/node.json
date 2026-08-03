@@ -1,0 +1,19 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1801,
+  "node": {
+    "id": "xr_band_forced_commonroot_syzygy_count",
+    "title": "XR SL-2 deficient-rank forced-common-root syzygy census",
+    "status": "TARGET",
+    "closure": "",
+    "statement": "At every prize-row high band-proper depth with rank J_d<2d, let G_d be the evaluation points where both components of every left Pade syzygy vanish. In the residual case |G_d|>=2(h-d), the maximal selected post-strip locator set R_d satisfies 25|R_d|<=17n^2. This counts only the exact SL-2-RES currency and treats G_d as a factor forced on the whole syzygy kernel.",
+    "refs": [
+      "critical/nodes/xr_band_forced_commonroot_syzygy_count/statement.md",
+      "critical/nodes/xr_band_forced_commonroot_syzygy_count/attack.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

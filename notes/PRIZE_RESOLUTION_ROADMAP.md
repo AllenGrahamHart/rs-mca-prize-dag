@@ -17155,3 +17155,22 @@ direction `A/B`. SL-2-RES therefore has an exact two-stratum attack:
 full joint rank (arithmetic distribution of maximal split divisors) or
 nonproportional Padé syzygy (structure/inverse theorem). No new red was minted
 because this is a proved exhaustive router, not yet a quantitative split.
+
+### Deficient-window payment and exact SL-2 leaf split
+
+Vandermonde inversion upgrades a left window syzygy from a coefficient
+relation to the pointwise law
+
+```text
+A(x)(u-f)(x)+B(x)(v-g)(x)=0
+```
+
+for every maximal depth-`d` pair. At `q>n`, one syzygy has exactly the
+common roots forced on the whole kernel. If their number is below
+`2(h-d)`, every counted pair exposes a selected ray in one fixed
+rational image of at most `n` slopes; high-depth ray injectivity gives
+`N_d<=n`. The SL-2 residual is therefore no longer monolithic. Its
+two exact leaves are the full-joint-rank split-divisor count and the
+deficient kernel with at least `2(h-d)` forced common roots. The
+lower high-depth range through `floor((2h+1)/3)` has no deficient
+common-root remainder.

@@ -115,10 +115,10 @@ def main() -> None:
     manifest = json.loads(MANIFEST.read_text())
     proved = [node["id"] for node in critical["nodes"] if node["label"] == "PROVED"]
 
-    # The maximality correction adds a second conditional wrapper while
-    # replacing, rather than adding, the SL-2 TARGET leaf. Both proved
-    # coordinate reductions are evidence-only.
-    require(len(critical["nodes"]) == 244, "critical orbit size drift")
+    # The maximality correction and joint-rank split add conditional wrappers;
+    # the latter replaces one SL-2 TARGET by two exact leaves. All proved
+    # coordinate reductions remain evidence-only.
+    require(len(critical["nodes"]) == 246, "critical orbit size drift")
     require(len(proved) == 179, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()

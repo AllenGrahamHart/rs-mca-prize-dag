@@ -7,20 +7,20 @@ declared one of them "stale". This verifier pins both and their exact delta so
 the confusion cannot silently return.
 
   MATH ORBIT      req-ancestry (+ the alt-closure rule) of the two grand-challenge
-                  nodes {mca_grand, list_grand}.  244 = 179 PROVED / 40 CONDITIONAL
-                  / 25 TARGET.  This is what orbit/critical_dag.json, the radial
+                  nodes {mca_grand, list_grand}.  246 = 179 PROVED / 41 CONDITIONAL
+                  / 26 TARGET.  This is what orbit/critical_dag.json, the radial
                   SVG, the published site, the partition law in verify_prize_dag.py,
-                  and verify_critical_harness_coverage.py all measure.  Its 25
+                  and verify_critical_harness_coverage.py all measure.  Its 26
                   TARGETs are the mathematical leaves of the roadmap.
 
-  SUBMISSION ORBIT  the same closure rooted at `prize`.  259 = 191 / 42 / 26.
+  SUBMISSION ORBIT  the same closure rooted at `prize`.  261 = 191 / 43 / 27.
                   Strict superset: MATH ORBIT + 15 packaging/bridge/Lean-harness
                   nodes (12 PROVED, 2 CONDITIONAL, 1 TARGET), enumerated below.
                   This is the Convergence Ledger's baseline and equals the
                   dominator set printed by verify_prize_dag.py's every-route
                   analysis (26 open dominators == the 26 submission-orbit TARGETs).
 
-Neither census is stale; 259 - 244 = 15 is definitional, not drift. Consumers must
+Neither census is stale; 261 - 246 = 15 is definitional, not drift. Consumers must
 say WHICH orbit they mean. Burn-down of *mathematics* is the math orbit; the
 "all-green DAG" end state is the submission orbit (it owns the dossier leaf).
 
@@ -64,8 +64,12 @@ SUBMISSION_ROOT = "prize"
 # ROUND-12 MAXIMALITY CORRECTION: SL-2 becomes CONDITIONAL on the exact
 # maximal selected locator residual. Two new proved coordinate nodes are
 # evidence-only, so this again adds one CONDITIONAL and preserves the leaves.
-EXPECTED_MATH = {"PROVED": 179, "CONDITIONAL": 40, "TARGET": 25}
-EXPECTED_SUBMISSION = {"PROVED": 191, "CONDITIONAL": 42, "TARGET": 26}
+# 2026-08-03 JOINT-RANK SPLIT: the maximal-locator residual becomes
+# CONDITIONAL on two alternative TARGET leaves (full joint rank and deficient
+# forced-common-root kernel). The rational-direction payment is evidence-only.
+# Net: +1 CONDITIONAL and +1 TARGET in both orbits.
+EXPECTED_MATH = {"PROVED": 179, "CONDITIONAL": 41, "TARGET": 26}
+EXPECTED_SUBMISSION = {"PROVED": 191, "CONDITIONAL": 43, "TARGET": 27}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no
@@ -94,7 +98,7 @@ EXPECTED_DELTA = {
 NON_MATH_TARGET = "submission_quality_paper_dossier"
 
 # ...and the two CONDITIONALs on the spine are likewise non-mathematical, so a
-# conditional-dedup ledger over the 42 must account for 40 mathematical ones.
+# conditional-dedup ledger over the 43 must account for 41 mathematical ones.
 NON_MATH_CONDITIONALS = {"prize", "packaging"}
 
 

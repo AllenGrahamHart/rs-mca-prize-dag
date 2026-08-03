@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1799,
+  "node": {
+    "id": "xr_deficient_window_rational_direction_payment",
+    "title": "XR deficient-window payment: rational error directions leave only a forced-common-root kernel",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For the left syzygy space K_d of a deficient stacked high-window matrix, let G_d be the evaluation points at which both components of every syzygy vanish. Vandermonde inversion makes every syzygy a pointwise rational error-direction law for every maximal depth-d pair. At q>n there is a syzygy whose common H-root set is exactly G_d, all syzygies are divisible by its locator, dim K_d<=2(d-|G_d|), and rank J_d>=2|G_d|. If |G_d|<2(h-d), every counted pair has a selected ray in one fixed rational image of at most n slopes; high-depth ray injectivity gives N_d<=n<17n^2/25. Hence only full joint rank or a deficient kernel with at least 2(h-d) forced common roots remains.",
+    "refs": [
+      "background/nodes/xr_deficient_window_rational_direction_payment/statement.md",
+      "background/nodes/xr_deficient_window_rational_direction_payment/proof.md",
+      "background/nodes/xr_deficient_window_rational_direction_payment/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_joint_window_rank_syzygy_router",
+      "order": 5004
+    },
+    {
+      "from": "xr_band_ledger_theorems",
+      "order": 5005
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_band_forced_commonroot_syzygy_count",
+      "order": 5007
+    },
+    {
+      "to": "xr_band_maximal_window_divisor_count",
+      "order": 5010
+    }
+  ],
+  "refutes": []
+}

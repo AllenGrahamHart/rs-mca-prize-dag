@@ -7,6 +7,21 @@ window intersection. Record the reconstructed pair, its full agreement
 set, selected supports, live slopes, and strip classification for every
 candidate family.
 
+## Exact rank split
+
+The monolithic residual has been replaced by two exhaustive targets:
+
+```text
+rank J_d=2d
+  -> xr_band_fullrank_window_divisor_count,
+rank J_d<2d and |G_d|>=2(h-d)
+  -> xr_band_forced_commonroot_syzygy_count.
+```
+
+The proved rational-direction payment handles every other deficient
+system with `N_d<=n`. Do not recombine the two targets by summing their
+budgets: they are alternative states of the fixed depth matrix.
+
 ## Route 1: arithmetic inverse theorem
 
 Show that more than `17n^2/25` maximal selected locators force a common
@@ -54,4 +69,6 @@ checkpoints.
 - The two single-word ranks do not add without a transversality proof.
 - A deficient joint rank is not arbitrary: consume the nonproportional Padé
   syzygy router before introducing another structural conjecture.
+- A deficient system with fewer than `2(h-d)` forced common roots is
+  already paid; only the whole-kernel common factor remains.
 - "Aperiodic" must include mixed residue-class systems that evade P3.

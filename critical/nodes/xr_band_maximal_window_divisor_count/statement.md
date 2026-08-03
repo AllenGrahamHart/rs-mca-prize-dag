@@ -1,6 +1,6 @@
 # XR maximal selected window-divisor count (SL-2-RES)
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **consumer:** `xr_band_high_window_exclusion`
 - **scope:** the three prize rows and high band-proper depths
 
@@ -36,6 +36,12 @@ depth-`d` pairs counted by `N_d`. The word "residual" does not mean
 only non-coset locators: small-scale mixed-class quotient patterns and
 all other aperiodic systems remain unless a proved strip or liveness
 exclusion applies.
+
+The residual is now split exactly by stacked rank. Full joint rank is
+`xr_band_fullrank_window_divisor_count`. At deficient rank, the proved
+rational-direction payment closes every system unless the entire left
+syzygy kernel has at least `2(h-d)` forced common roots; that remaining
+case is `xr_band_forced_commonroot_syzygy_count`.
 
 ## Falsifier
 

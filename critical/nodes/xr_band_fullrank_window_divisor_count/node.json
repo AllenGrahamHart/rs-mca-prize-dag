@@ -1,0 +1,19 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1800,
+  "node": {
+    "id": "xr_band_fullrank_window_divisor_count",
+    "title": "XR SL-2 full-joint-rank maximal split-divisor count",
+    "status": "TARGET",
+    "closure": "",
+    "statement": "At every prize-row high band-proper depth for which rank J_d=2d, the maximal selected post-strip locator set R_d of SL-2-RES satisfies 25|R_d|<=17n^2. Exact maximality, L_P>=2 first-match selection, and strip survival are retained. Full linear codimension alone is not treated as an anti-concentration proof.",
+    "refs": [
+      "critical/nodes/xr_band_fullrank_window_divisor_count/statement.md",
+      "critical/nodes/xr_band_fullrank_window_divisor_count/attack.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

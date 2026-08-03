@@ -1152,13 +1152,23 @@
    "title": "PROVED (x83, sympy-spot-verified + 97 replay checks): the UNIFORM obstruction gate \u2014 the complete dichotomy"
   },
   {
+   "id": "xr_band_forced_commonroot_syzygy_count",
+   "label": "UNPROVED",
+   "title": "XR SL-2 deficient-rank forced-common-root syzygy census"
+  },
+  {
+   "id": "xr_band_fullrank_window_divisor_count",
+   "label": "UNPROVED",
+   "title": "XR SL-2 full-joint-rank maximal split-divisor count"
+  },
+  {
    "id": "xr_band_high_window_exclusion",
    "label": "CONDITIONAL",
    "title": "XR SL-2 high-window exclusion: selected band occupancy N_d <= 17n^2/25 at every prize-row high band-proper depth"
   },
   {
    "id": "xr_band_maximal_window_divisor_count",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "XR SL-2-RES maximal selected window-divisor count: exact-depth residual <=17n^2/25"
   },
   {
@@ -2431,6 +2441,14 @@
   {
    "from": "xr_band_maximal_window_divisor_count",
    "to": "xr_band_high_window_exclusion"
+  },
+  {
+   "from": "xr_band_fullrank_window_divisor_count",
+   "to": "xr_band_maximal_window_divisor_count"
+  },
+  {
+   "from": "xr_band_forced_commonroot_syzygy_count",
+   "to": "xr_band_maximal_window_divisor_count"
   }
  ]
 }

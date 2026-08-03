@@ -4,15 +4,25 @@
   "node": {
     "id": "xr_band_maximal_window_divisor_count",
     "title": "XR SL-2-RES maximal selected window-divisor count: exact-depth residual <=17n^2/25",
-    "status": "TARGET",
-    "closure": "",
-    "statement": "At each prize row and high band-proper depth, let R_d(u,v) contain the degree-(n-k-d) monic split squarefree divisors E_T|X^n-1 satisfying both top-d window systems, whose reconstructed codeword pair has full joint core exactly H\\T, has L_P>=2 under support-wise first-match selection, and survives the generic strip order. Then 25|R_d|<=17n^2. The window lemma identifies this set exactly with N_d. Common-class quotient-periodic, BP-parity, and large sub-depth liveness exclusions are removed only where proved; small-scale mixed-class and aperiodic systems remain. Raw affine divisors without maximality/selection are explicitly outside the assertion.",
+    "status": "CONDITIONAL",
+    "closure": "conditional",
+    "statement": "At each prize row and high band-proper depth, let R_d(u,v) contain the degree-(n-k-d) monic split squarefree divisors E_T|X^n-1 satisfying both top-d window systems, whose reconstructed codeword pair has full joint core exactly H\\T, has L_P>=2 under support-wise first-match selection, and survives the generic strip order. Then 25|R_d|<=17n^2. The exact remaining alternatives are the full-joint-rank split-divisor target and the deficient-rank target where at least 2(h-d) evaluation roots are forced on the entire left syzygy kernel; every other deficient system is proved to have N_d<=n. Raw affine divisors without maximality/selection remain outside the assertion.",
     "refs": [
       "critical/nodes/xr_band_maximal_window_divisor_count/statement.md",
-      "critical/nodes/xr_band_maximal_window_divisor_count/attack.md"
+      "critical/nodes/xr_band_maximal_window_divisor_count/attack.md",
+      "critical/nodes/xr_band_maximal_window_divisor_count/conditional.md"
     ]
   },
-  "requires": [],
+  "requires": [
+    {
+      "from": "xr_band_fullrank_window_divisor_count",
+      "order": 5008
+    },
+    {
+      "from": "xr_band_forced_commonroot_syzygy_count",
+      "order": 5009
+    }
+  ],
   "alternatives": [],
   "evidence_for": [],
   "refutes": []

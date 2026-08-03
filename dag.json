@@ -28018,12 +28018,13 @@
   {
    "id": "xr_band_maximal_window_divisor_count",
    "title": "XR SL-2-RES maximal selected window-divisor count: exact-depth residual <=17n^2/25",
-   "status": "TARGET",
-   "closure": "",
-   "statement": "At each prize row and high band-proper depth, let R_d(u,v) contain the degree-(n-k-d) monic split squarefree divisors E_T|X^n-1 satisfying both top-d window systems, whose reconstructed codeword pair has full joint core exactly H\\T, has L_P>=2 under support-wise first-match selection, and survives the generic strip order. Then 25|R_d|<=17n^2. The window lemma identifies this set exactly with N_d. Common-class quotient-periodic, BP-parity, and large sub-depth liveness exclusions are removed only where proved; small-scale mixed-class and aperiodic systems remain. Raw affine divisors without maximality/selection are explicitly outside the assertion.",
+   "status": "CONDITIONAL",
+   "closure": "conditional",
+   "statement": "At each prize row and high band-proper depth, let R_d(u,v) contain the degree-(n-k-d) monic split squarefree divisors E_T|X^n-1 satisfying both top-d window systems, whose reconstructed codeword pair has full joint core exactly H\\T, has L_P>=2 under support-wise first-match selection, and survives the generic strip order. Then 25|R_d|<=17n^2. The exact remaining alternatives are the full-joint-rank split-divisor target and the deficient-rank target where at least 2(h-d) evaluation roots are forced on the entire left syzygy kernel; every other deficient system is proved to have N_d<=n. Raw affine divisors without maximality/selection remain outside the assertion.",
    "refs": [
     "critical/nodes/xr_band_maximal_window_divisor_count/statement.md",
-    "critical/nodes/xr_band_maximal_window_divisor_count/attack.md"
+    "critical/nodes/xr_band_maximal_window_divisor_count/attack.md",
+    "critical/nodes/xr_band_maximal_window_divisor_count/conditional.md"
    ]
   },
   {
@@ -28036,6 +28037,40 @@
     "background/nodes/xr_joint_window_rank_syzygy_router/statement.md",
     "background/nodes/xr_joint_window_rank_syzygy_router/proof.md",
     "background/nodes/xr_joint_window_rank_syzygy_router/verify.py"
+   ]
+  },
+  {
+   "id": "xr_deficient_window_rational_direction_payment",
+   "title": "XR deficient-window payment: rational error directions leave only a forced-common-root kernel",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For the left syzygy space K_d of a deficient stacked high-window matrix, let G_d be the evaluation points at which both components of every syzygy vanish. Vandermonde inversion makes every syzygy a pointwise rational error-direction law for every maximal depth-d pair. At q>n there is a syzygy whose common H-root set is exactly G_d, all syzygies are divisible by its locator, dim K_d<=2(d-|G_d|), and rank J_d>=2|G_d|. If |G_d|<2(h-d), every counted pair has a selected ray in one fixed rational image of at most n slopes; high-depth ray injectivity gives N_d<=n<17n^2/25. Hence only full joint rank or a deficient kernel with at least 2(h-d) forced common roots remains.",
+   "refs": [
+    "background/nodes/xr_deficient_window_rational_direction_payment/statement.md",
+    "background/nodes/xr_deficient_window_rational_direction_payment/proof.md",
+    "background/nodes/xr_deficient_window_rational_direction_payment/verify.py"
+   ]
+  },
+  {
+   "id": "xr_band_fullrank_window_divisor_count",
+   "title": "XR SL-2 full-joint-rank maximal split-divisor count",
+   "status": "TARGET",
+   "closure": "",
+   "statement": "At every prize-row high band-proper depth for which rank J_d=2d, the maximal selected post-strip locator set R_d of SL-2-RES satisfies 25|R_d|<=17n^2. Exact maximality, L_P>=2 first-match selection, and strip survival are retained. Full linear codimension alone is not treated as an anti-concentration proof.",
+   "refs": [
+    "critical/nodes/xr_band_fullrank_window_divisor_count/statement.md",
+    "critical/nodes/xr_band_fullrank_window_divisor_count/attack.md"
+   ]
+  },
+  {
+   "id": "xr_band_forced_commonroot_syzygy_count",
+   "title": "XR SL-2 deficient-rank forced-common-root syzygy census",
+   "status": "TARGET",
+   "closure": "",
+   "statement": "At every prize-row high band-proper depth with rank J_d<2d, let G_d be the evaluation points where both components of every left Pade syzygy vanish. In the residual case |G_d|>=2(h-d), the maximal selected post-strip locator set R_d satisfies 25|R_d|<=17n^2. This counts only the exact SL-2-RES currency and treats G_d as a factor forced on the whole syzygy kernel.",
+   "refs": [
+    "critical/nodes/xr_band_forced_commonroot_syzygy_count/statement.md",
+    "critical/nodes/xr_band_forced_commonroot_syzygy_count/attack.md"
    ]
   }
  ],
@@ -53057,6 +53092,41 @@
   },
   {
    "from": "xr_joint_window_rank_syzygy_router",
+   "to": "xr_band_maximal_window_divisor_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_joint_window_rank_syzygy_router",
+   "to": "xr_deficient_window_rational_direction_payment",
+   "kind": "req"
+  },
+  {
+   "from": "xr_band_ledger_theorems",
+   "to": "xr_deficient_window_rational_direction_payment",
+   "kind": "req"
+  },
+  {
+   "from": "xr_joint_window_rank_syzygy_router",
+   "to": "xr_band_fullrank_window_divisor_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_deficient_window_rational_direction_payment",
+   "to": "xr_band_forced_commonroot_syzygy_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_band_fullrank_window_divisor_count",
+   "to": "xr_band_maximal_window_divisor_count",
+   "kind": "req"
+  },
+  {
+   "from": "xr_band_forced_commonroot_syzygy_count",
+   "to": "xr_band_maximal_window_divisor_count",
+   "kind": "req"
+  },
+  {
+   "from": "xr_deficient_window_rational_direction_payment",
    "to": "xr_band_maximal_window_divisor_count",
    "kind": "ev"
   }
