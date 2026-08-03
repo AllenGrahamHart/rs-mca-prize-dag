@@ -863,3 +863,16 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   (kernel {SL-2, OV, F9, E_j} + P-B appendix), F2, C1/C2'', CROSSING.
   Task #37 complete. Next levers: OV pilot, F9 pilot, SL-2 Pro brief,
   E_j identification.
+
+## 2026-08-03: ROUND 12 LAUNCHED — the kernel round (4 Opus on the r3.2 unified kernel)
+
+- (1) ov_conjecture: overlap => collapse (shared-point forcing route
+  first; PG(2,3) as extremal lemma; pays band cleanup + P-A1's |K|).
+  (2) f9_pencil_forcing: ADJUDICATE-then-attack (W1/W2 may answer the
+  literal F9 at V=4 — the anchor needs V >= 5 forcing = L-A residual;
+  graceful-degradation fallback for C). (3) ej_coset_spread: bound
+  E_j via window rigidity + THEOREM F's newly non-empty prize-shape
+  range (w >> 2j); empirical law + falsifiers. (4) sl2_unstructured:
+  the occupancy question in-house — non-coset window-system solution
+  count + core-disjointness correlation cap; construction as the
+  falsifier branch. Explicit-path commits while running.
