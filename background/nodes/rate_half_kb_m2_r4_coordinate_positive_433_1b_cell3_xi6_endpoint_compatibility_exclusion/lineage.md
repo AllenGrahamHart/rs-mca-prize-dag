@@ -8,6 +8,7 @@
   Modal; no heavy local computation was used.
 - The `xi=6` endpoint condition excludes its full slice. The analogous
   `xi=5` condition does not: six compatible sources survive per source sign.
-- The next `xi=5` route should solve only those 24 finite sources rather than
-  repeat a global symbolic elimination.
+- The downstream `xi=5` theorem solves only those 24 finite sources and
+  excludes every matching and lane without repeating a global elimination.
+- The cell-3 frontier is now `xi=4` only.
 - The result remains background evidence toward `rate_half_band_closure`.

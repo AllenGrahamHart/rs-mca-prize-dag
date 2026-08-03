@@ -15932,6 +15932,44 @@ nonclaim:                 no xi4, xi5, complete cell-3, K3, LIST, MCA, or
                           Prize closure
 ```
 
+### Work-cycle theorem: positive 433-1b cell-3 xi5 finite-source exclusion
+
+```text
+input frontier:           6 endpoint-compatible sources per source sign,
+                          24 exact points total
+fixed target coordinate:  f=m/b
+remaining variables:      u=df, v=ef, q=de=uv/f^2
+residual records:         q,q,-q,u,sigma_o*v,sigma_c*c*f
+finite subcases:          24 sources x 15 matchings x 4 lanes = 1440
+primary route:            all three pairwise resultants in v; selected
+                          degree-8 resultant in u; exact field-root gcd;
+                          original three-equation gcd in v
+primary aggregate:        2208 outer u roots; every inner gcd is 1
+independent route:        reverse variables, eliminate u, enumerate v,
+                          then original three-equation gcd in u
+audit aggregate:          2208 outer v roots; 0 inner u roots
+per-source profile:       eight each with 44, 108, and 124 outer roots;
+                          exact agreement in both directions
+terminal ledgers:         0 boundaries, 0 witnesses, 0 free fibers,
+                          0 unresolved in both directions
+result:                   complete xi5 slice, 240 raw cases, PROVED empty
+Modal apps:               ap-ASPspplGjYppHtU1SgOt0P pilot,
+                          ap-ktYckYqQlxXbMlDWHZFlrA primary census,
+                          ap-vpzdSl63FgUGaAxRyaD9pl independent census
+artifact custody:         primary compiler/result sha256
+                          059bebe72375f5adcb215aaf9a3fa41ba1ecf56e5078decf19f073b1a1cdef60 /
+                          bd5819475633a6f188635c2fefdd338cd1707db2249cb5e4276ef7687db248a2;
+                          audit compiler/result sha256
+                          10a830f0e2864393548e50e8705e2b2c8c3a408b32fbf7d38b47e9f19cb64401 /
+                          fbdeb02f8baaa12af3c9240299eed49f932b24b9f0dde66fdf872fdc6b9d49c0
+paid cell-3 ledger:       720 xi0-2 + 240 xi3 + 240 xi5 + 240 xi6 = 1440
+remaining cell-3 ledger:  all 240 xi4 cases
+next route step:          derive the xi4 endpoint/source reduction before
+                          any global pairing elimination
+nonclaim:                 no xi4, complete cell-3, K3, LIST, MCA, or Prize
+                          closure
+```
+
 ### Work-cycle theorem: positive 433-1b cell-3 DE pairing-4 block
 
 ```text

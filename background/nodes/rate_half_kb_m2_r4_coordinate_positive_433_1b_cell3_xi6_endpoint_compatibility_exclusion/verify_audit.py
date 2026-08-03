@@ -80,7 +80,7 @@ def main():
             "identity and finite ledger")
     require("source-only" in audit and "24 compatible `xi=5`" in audit,
             "audit nonclaim")
-    require("paid cell-3 ledger is now 1200" in frontier and
+    require("paid cell-3 ledger is now 1440" in frontier and
             "All 240 cases at `xi=4` remain" in frontier,
             "retained frontier")
     print(

@@ -27652,6 +27652,30 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-3 xi5 finite-source pairing exclusion",
+   "status": "PROVED",
+   "closure": "all 240 cases with missing bf record xi=5, across every canonical matching and target lane",
+   "statement": "On the guarded positive deployed 433-1b role-cell-3 branch, every case with missing bf record xi=5 is empty across all source signs, all 15 canonical matchings, and all four target lanes. The endpoint source census leaves 24 compatible points and fixes f=m/b. Setting u=df and v=ef makes the residual records q,q,-q,u,sigma_o v,sigma_c cf with q=uv/f^2. Two independent exact censuses eliminate v and u respectively across all 1440 source/matching/lane subcases. Each enumerates 2208 outer deployed-field roots; every specialized three-equation gcd has no inner root. Boundary, witness, solution, free-fiber, and unresolved ledgers are empty. This pays all 240 raw xi=5 cases and claims no xi=4, cell, or Prize result.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_xi5_finite_source_pairing_solver_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_xi5_finite_source_pairing_solver_census_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_xi5_finite_source_pairing_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell3_xi5_finite_source_pairing_audit_census_result.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion",
    "title": "KoalaBear m2 r4 positive 433-1b cell-14 linear-pair outside exclusion",
    "status": "PROVED",
@@ -52347,6 +52371,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi6_endpoint_compatibility_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi6_endpoint_compatibility_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

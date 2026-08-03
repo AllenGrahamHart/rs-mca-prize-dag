@@ -13,7 +13,9 @@ the paid cell-3 ledger to 768 cases. The opposite-DE parity theorem pays
 the `xi=3` slice. The source-only endpoint-compatibility theorem pays all 240
 cases at `xi=6`, raising the ledger to 1200. Every pairing at `xi=4` remains.
 At `xi=5`, exact source compatibility leaves 24 source points across the four
-source signs; their matching and lane equations remain.
+source signs, and the dual finite-source elimination theorem excludes every
+matching and lane over those points. The ledger is therefore 1440, with only
+the 240 cases at `xi=4` remaining.
 
 ```text
 b^2 = -(B_epsilon/A_epsilon)b - 1,
