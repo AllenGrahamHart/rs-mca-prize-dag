@@ -15901,6 +15901,33 @@ nonclaim:                 no outside exclusion, orbit close, rate-half band,
                           K3, LIST, MCA, or Prize closure
 ```
 
+### Work-cycle theorem: positive 433-1b cell-4 xi0/pairing0 exclusion
+
+```text
+cell/orbit/field:         cell 4 representing [4,7], F_2130706433
+outside slice:            missing xi=0, canonical pairing=0
+raw payment:              4 source signs x 4 target lanes = 16 cases
+algebra:                  exact four-basis target-free opposite-DE cut,
+                          normed from the b-quadratic through the t-quadratic
+norm profile:             numerator degree 298 / 265 terms;
+                          denominator degree 156 / 157 terms
+root census:              5 target roots and 7 total target/inverse candidates
+                          in every source-sign row
+boundary replay:          r in {0,+1,-1,+iota,-iota}, or the only base lifts
+                          satisfy t=+/-iota and hit t^2+1=0
+terminal ledgers:         no route-open source point, witness, free fiber, or
+                          unresolved branch
+independent audit:        all 44 stored finite-field root parts reconstructed;
+                          candidate unions and boundary payment exact
+Modal app:                ap-7c3gryhV1UAm4x1DxpxfgM
+result:                   xi0/pairing0 PROVED empty in all 16 raw cases
+remaining cell-4 ledger:  104 of 105 missing/matching slices
+next route step:          transport xi0 to the identical positive-DE xi1
+                          slice, then specialize the new xi2/pairing0 cut
+nonclaim:                 no other matching, complete cell/orbit exclusion,
+                          K3, LIST, MCA, or Prize closure
+```
+
 ### Work-cycle theorem: positive 433-1b cell-3 xi3 opposite-DE parity orbits
 
 ```text

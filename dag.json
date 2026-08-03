@@ -27872,6 +27872,28 @@
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_compact_kernel_modal.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_compact_kernel_result.json"
    ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi0_pairing0_four_basis_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-4 xi0 pairing0 four-basis exclusion",
+   "status": "PROVED",
+   "closure": "all 16 source-sign and target-lane cases excluded by exact four-basis norm, complete candidate-root union, and route-guard lift replay",
+   "statement": "On the guarded principal branch of deployed positive 433-1b role cell 4, every case with missing outside record xi=0 and canonical residual matching 0 is empty across all four source signs and four target lanes. The opposite-DE target-free element has a quadratic-over-quadratic norm whose degree-298 numerator has exactly five deployed-field roots in each source-sign row. Adding roots of every inverse numerator, inverse denominator, and norm denominator yields exactly seven candidates per row. Five hit r guards and the remaining two lift only to t^2+1=0. There are no route-open source points, witnesses, free fibers, or unresolved boundaries. The target-free cut is lane-independent, so four exact sign computations pay all 16 raw cases. The other 104 missing/matching slices in cell 4 remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi0_pairing0_four_basis_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi0_pairing0_four_basis_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi0_pairing0_four_basis_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi0_pairing0_four_basis_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi0_pairing0_four_basis_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi0_pairing0_four_basis_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi0_pairing0_four_basis_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi0_pairing0_four_basis_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi0_pairing0_four_basis_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi0_pairing0_four_basis_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi0_pairing0_four_basis_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_xi0_pairing0_four_basis_norm_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_xi0_pairing0_four_basis_norm_result.json"
+   ]
   }
  ],
  "edges": [
@@ -52787,6 +52809,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_four_basis_tower_kernel",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_four_basis_tower_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi0_pairing0_four_basis_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi0_pairing0_four_basis_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi0_pairing0_four_basis_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   }
