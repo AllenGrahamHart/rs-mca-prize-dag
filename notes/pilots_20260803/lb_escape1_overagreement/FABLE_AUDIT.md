@@ -21,3 +21,10 @@ consolidation's corrected open surface therefore simplifies again:
 RS list-size terminus (primary) + L-A (now carrying L-B for free).
 Flag-6's named attack surface (support >= 5 relations) queued as a
 pilot anchor candidate.
+
+## Dated addendum (2026-08-03, support-5 pilot): flag-6 surface
+DISSOLVED — the all-escape-1 deficit is a SUPPORT-4 phenomenon (the
+"4-wise < k+2 forbids support-4" inference had a broken step:
+L <= C_{intersection} does not follow). The deficit exists (E1-PENCIL:
+dim Ann = 2s-h+1 on pencil+Mobius configs; exhaustive at the smallest
+shape). See support5_deficit/.

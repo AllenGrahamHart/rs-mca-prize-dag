@@ -746,3 +746,19 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   q-vs-N hypothesis and their admissible n=128 row gives T4/N^3 =
   2.87, exponent ~N^5.6 at bounded index — reprice-or-expect-
   falsification SURFACED; decisive N=256 q=769 run = COMPUTE REQUEST.
+
+## 2026-08-03: round-10 pilot 3/4 BANKED — all-escape-1 deficits EXIST; prize rows still protected
+
+- **support5_deficit (Opus) BANKED** (168/168 --full; 0/17 falsifiers;
+  PREREG amendment A1 honest). EXISTS: E1-PENCIL construction
+  (dim Ann = 2s-h+1, whole gate window; exhaustive 680,400-case
+  classification at smallest shape, deficit iff pencil+Mobius); PF3 =
+  the record's E1 pin (charge 1.75); PF1 FULL-GATE with escape-1 rays
+  live at exactly A; PROP 0 (private points give deficits free).
+  THEOREM D now TIGHT. Five upstream corrections adopted (escape-1
+  implication 4; flag-6 dissolved -> support-4; LEMMA R mult>=2
+  hypothesis explicit; support-4 addendum 4). RECONCILIATION: every
+  charge defeat obeys n_1 >= 3h-2 (PF2 exactly at threshold) — PRIZE
+  ROWS REMAIN PROTECTED arithmetically; the structural-exclusion hope
+  is dead at toy scale. PF2/PF3 full gate = standing COMPUTE REQUEST.
+  Pilot 4/4 (overlap_sliver) running.

@@ -61,3 +61,10 @@ deficit; the full-gate oracle at m >= 9) recorded as next anchors.
   open for the heart at prize-row parameters under the four new
   floors (candidate: nothing in the block class; the general-V
   admissible case via LEMMA R + THEOREM D needs one more argument).
+
+## Dated addendum (2026-08-03, support-5 pilot): implication 4 REFUTED;
+sharp question CLOSED. Pure escape-1 counterexamples CAN be realisable
+(PF2/PF3 rank = 2m-1; PF1 FULL-GATE with all escape-1 rays live at
+exactly A) — the mult-2 branch of the DICHOTOMY, as this pilot's own
+LB-F2 anticipated. Prize-row protection unchanged (n_1 >= 3h-2 still
+required; THEOREM D now TIGHT). See support5_deficit/.

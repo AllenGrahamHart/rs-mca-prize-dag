@@ -250,3 +250,16 @@ every V. At the PRIZE rows 2V <= 3h holds by ~1e8 (no number moves;
 the justification is now a proved floor); at the RowC toy rows the
 channel provably fails (ceiling charge < 1), and the claim-7 "RowC
 load-bearing kill" is unrestorable by any shape-only argument.
+
+## Addendum 4 (2026-08-03, support-5 pilot): the all-escape-1 deficit is support-4; THEOREM D tight
+
+Gate-clean all-escape-1 systems with dim Ann >= 1 EXIST (pencil-fibre
+blocks + Mobius-matched slopes: dim Ann = 2s-h+1 across the gate
+window; exhaustive classification at the smallest shape, 0
+unexplained; `notes/pilots_20260803/support5_deficit/`,
+coordinator-replayed 168/168). The deficits are SUPPORT-4 relations
+(the earlier "4-wise < k+2 forbids support 4" inference is corrected:
+c_a in C_{S_a} holds only per-ray). The 3-drop floor (THEOREM D) is
+TIGHT on this family. Prize-row charge protection unchanged
+(n_1 >= 3h-2 required; ~2.6e10 there). LEMMA R's bite requires every
+point multiplicity >= 2 (private points make rank <= 2m-1 automatic).
