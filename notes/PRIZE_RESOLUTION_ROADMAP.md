@@ -16018,6 +16018,37 @@ nonclaim:                 no role-cell-6, full 433-1b, positive coordinate,
                           K3, LIST, MCA, or Prize closure
 ```
 
+### Work-cycle theorem: positive 433-1b duplicate-role orbit [3,6]
+
+```text
+input theorem:            complete deployed role-cell-3 exclusion
+common target action:     B <-> C
+outside gauge:            (D,E,F) -> sigma_c (D,E,F)
+source-sign action:       (epsilon1,epsilon2) -> (epsilon1,-epsilon2)
+common Vieta action:      LA fixed; AB <- AC; AC <- AB; BC+ and BC- fixed
+                          with product, weighted-sum, and quotient-label rows
+                          all exact
+outside atlas action:     bf <-> sigma_c cf; other five rows fixed
+lane/guard action:        both cycle invariants and full target guard fixed
+case transport:           bijection on all 7*15=105 missing/matching cases
+principal payment:        all 1680 signed cell-6 systems map to closed cell 3
+rank-drop payment:        cell 6 is independently in the classifier's
+                          four-row unit-ideal list
+result:                   complete source role-cell orbit [3,6] PROVED empty
+symmetry discipline:      B/C exchange is used only after complete cell-3
+                          closure, never as a within-cell matching shortcut
+exact audits:             sparse polynomial compiler plus independent
+                          4096 common and 4096 outside integer rows
+artifact custody:         compiler sha256
+                          2b90594a38175ce2fae6bba95b4803ecc36be67b7262c51b3b54240c29fefaf2
+Modal spend:              none
+DAG delta:                +1 PROVED node, +6 edges
+next route step:          audit exact orbit transports for already closed
+                          cells [1,2] and 14, then classify live 433-1b orbits
+nonclaim:                 no other role orbit, full 433-1b, positive row,
+                          K3, LIST, MCA, or Prize closure
+```
+
 ### Work-cycle theorem: positive 433-1b cell-3 DE pairing-4 block
 
 ```text

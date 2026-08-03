@@ -27717,6 +27717,27 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b duplicate-role cells 3-6 complete exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed exclusion of source role-cell orbit [3,6] by exact duplicate-common-role transport plus the cell-6 rank-drop unit ideal",
+   "statement": "The complete deployed positive 433-1b to O0a route is empty in source role cells 3 and 6. Cell 3 is already closed. Exchanging common targets B,C, gauging D,E,F by sigma_c, and mapping source signs (epsilon1,epsilon2) to (epsilon1,-epsilon2) preserves every complete common Vieta row, target lane, and target guard while swapping only outside records bf and sigma_c cf. Exact enumeration gives a bijection of all 105 missing-record/matching cases and all 1680 signed principal systems from cell 6 to cell 3. The rank-drop classifier independently excludes cell 6 in all four source-sign rows. This complete-cell use of B/C exchange does not claim a within-cell matching transport, another role orbit, or a Prize result.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cells3_6_duplicate_role_transport.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion",
    "title": "KoalaBear m2 r4 positive 433-1b cell-14 linear-pair outside exclusion",
    "status": "PROVED",
@@ -52582,6 +52603,36 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
