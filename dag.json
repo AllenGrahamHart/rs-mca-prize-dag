@@ -28072,7 +28072,7 @@
    "title": "XR SL-2 active-defect primitive Pade-list census",
    "status": "TARGET",
    "closure": "",
-   "statement": "At every prize-row depth ceil((2h+2)/3)<=d<=h-2 with rank J_d<2d, let D be the support of the invariant primitive residual rho=P(u-f)+Q(v-g), with e=|D|>=2(h-d) and e<=|G_d|<=d-ell-1. Let R_d^D be the maximal selected post-strip pairs for which every selected off-core block lies in D. The proved routers write each pair uniquely as (f0+Q tau,g0-P tau), deg tau<k-ell, and embed tau into an exact punctured RS list at agreement k+d on H\\D. Every selected slope contributes a disjoint (h-d)-block in D and forces the outside roots of its degree-ell scalar factor into the core. Then 25|R_d^D|<=17n^2-25(n-e). Maximality, first-match liveness, active-defect locality, and strip ownership remain load-bearing.",
+   "statement": "At every prize-row depth ceil((2h+2)/3)<=d<=h-2 with rank J_d<2d, let D be the support of the invariant primitive residual rho=P(u-f)+Q(v-g), with e=|D|>=2(h-d) and e<=|G_d|<=d-ell-1. Let R_d^D be the maximal selected post-strip pairs for which every selected off-core block lies in D. The proved routers write each pair uniquely as (f0+Q tau,g0-P tau), deg tau<k-ell, and embed tau into an exact punctured RS list at agreement k+d on H\\D. Every selected slope contributes a disjoint (h-d)-block in D and forces the outside roots of its degree-ell scalar factor into the core. Then 25|R_d^D|<=17n^2-25(n-e). The claim is proved for affine parameter dimensions through 9,9,8; any counterexample has dimension at least 10,10,9. Maximality, first-match liveness, active-defect locality, and strip ownership remain load-bearing.",
    "refs": [
     "critical/nodes/xr_band_forced_commonroot_syzygy_count/statement.md",
     "critical/nodes/xr_band_forced_commonroot_syzygy_count/attack.md"
@@ -28134,6 +28134,23 @@
     "background/nodes/xr_deficient_window_active_defect_list_router/result.md",
     "background/nodes/xr_deficient_window_active_defect_list_router/lineage.md",
     "background/nodes/xr_deficient_window_active_defect_list_router/verify.py"
+   ]
+  },
+  {
+   "id": "xr_deficient_window_low_affine_span_payment",
+   "title": "XR deficient active-defect family: low-affine-span payment",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For the exact punctured parameter list of a D-local deficient Pade family, an affine dimension-s parameter set has size at most floor(C(R+ell-e+s,s)/C(d+ell+s,s)). Over the full official active-defect range this cap is maximized at d=ceil((2h+2)/3), ell=1, e=2(h-d). Exact integer evaluation pays the SL2-D budget through affine dimensions 9,9,8 at rates 1/4,1/8,1/16. Hence every counterexample has affine parameter dimension at least 10,10,9 respectively.",
+   "refs": [
+    "background/nodes/xr_deficient_window_low_affine_span_payment/statement.md",
+    "background/nodes/xr_deficient_window_low_affine_span_payment/proof.md",
+    "background/nodes/xr_deficient_window_low_affine_span_payment/claim_contract.md",
+    "background/nodes/xr_deficient_window_low_affine_span_payment/dependency_subdag.md",
+    "background/nodes/xr_deficient_window_low_affine_span_payment/audit.md",
+    "background/nodes/xr_deficient_window_low_affine_span_payment/result.md",
+    "background/nodes/xr_deficient_window_low_affine_span_payment/lineage.md",
+    "background/nodes/xr_deficient_window_low_affine_span_payment/verify.py"
    ]
   }
  ],
@@ -53219,6 +53236,11 @@
    "kind": "ev"
   },
   {
+   "from": "upstream_gfv4_affine_span_list_compiler",
+   "to": "xr_deficient_window_low_affine_span_payment",
+   "kind": "req"
+  },
+  {
    "from": "xr_band_ledger_theorems",
    "to": "xr_deficient_window_active_defect_list_router",
    "kind": "req"
@@ -53230,6 +53252,21 @@
   },
   {
    "from": "xr_deficient_window_active_defect_list_router",
+   "to": "xr_band_maximal_window_divisor_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_deficient_window_active_defect_list_router",
+   "to": "xr_deficient_window_low_affine_span_payment",
+   "kind": "req"
+  },
+  {
+   "from": "xr_deficient_window_low_affine_span_payment",
+   "to": "xr_band_forced_commonroot_syzygy_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_deficient_window_low_affine_span_payment",
    "to": "xr_band_maximal_window_divisor_count",
    "kind": "ev"
   },

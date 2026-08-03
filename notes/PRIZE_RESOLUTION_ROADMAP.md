@@ -17302,3 +17302,46 @@ new assumptions: none
 compute: none
 next: exploit coupled punctured-core/active-block incidence, not either alone
 ```
+
+### Low-affine-span payment and shift-pair fence
+
+The proved punctured-list router can be composed directly with the affine-span
+RS list compiler. If the surviving parameter set has affine dimension `s`,
+then
+
+```text
+|Tau| <= floor(C(R+ell-e+s,s)/C(d+ell+s,s)).
+```
+
+For every official active-defect tuple and `s<=10`, the cap is maximized at
+
+```text
+d=ceil((2h+2)/3),    ell=1,    e=2(h-d).
+```
+
+The target budget is uniformly at least its value at `e=4`. Exact arithmetic
+therefore pays all families through affine dimensions `9,9,8` at rates
+`1/4,1/8,1/16`. Any counterexample must have dimension at least `10,10,9`.
+The next cap exceeds even the larger budget at the maximizing corner, so the
+plain affine compiler genuinely stops there.
+
+The local primitive shift-pair theorems do not supply the missing payment.
+After the common core is removed, two selected support locators are arbitrary
+disjoint `(h-d)`-block locators and share only their automatic monic leading
+coefficient. The existing shift-pair bounds require a deeper common locator
+prefix. Treating monicity as that prefix would silently strengthen the
+hypotheses, so this transport is fenced off.
+
+Burn-down record:
+
+```text
+starting pin: aa4046d7; canonical a89e26ae; upstream 93fba1be
+node attacked: xr_band_forced_commonroot_syzygy_count
+result: NARROWED
+DAG status delta: one proved low-affine payment node; no new red
+upstream terminal delta: none; affine compiler reused exactly
+delta-star bracket movement: none
+new assumptions: none
+compute: exact integer arithmetic and a 947-case bounded monotonicity audit
+next: combine generalized RS weights with active D-block incidence at s=10,10,9
+```

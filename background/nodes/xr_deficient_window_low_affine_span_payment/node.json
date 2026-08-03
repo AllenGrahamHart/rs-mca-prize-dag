@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "xr_deficient_window_low_affine_span_payment",
+    "title": "XR deficient active-defect family: low-affine-span payment",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For the exact punctured parameter list of a D-local deficient Pade family, an affine dimension-s parameter set has size at most floor(C(R+ell-e+s,s)/C(d+ell+s,s)). Over the full official active-defect range this cap is maximized at d=ceil((2h+2)/3), ell=1, e=2(h-d). Exact integer evaluation pays the SL2-D budget through affine dimensions 9,9,8 at rates 1/4,1/8,1/16. Hence every counterexample has affine parameter dimension at least 10,10,9 respectively.",
+    "refs": [
+      "background/nodes/xr_deficient_window_low_affine_span_payment/statement.md",
+      "background/nodes/xr_deficient_window_low_affine_span_payment/proof.md",
+      "background/nodes/xr_deficient_window_low_affine_span_payment/claim_contract.md",
+      "background/nodes/xr_deficient_window_low_affine_span_payment/dependency_subdag.md",
+      "background/nodes/xr_deficient_window_low_affine_span_payment/audit.md",
+      "background/nodes/xr_deficient_window_low_affine_span_payment/result.md",
+      "background/nodes/xr_deficient_window_low_affine_span_payment/lineage.md",
+      "background/nodes/xr_deficient_window_low_affine_span_payment/verify.py"
+    ]
+  },
+  "requires": [
+    {"from": "xr_deficient_window_active_defect_list_router"},
+    {"from": "upstream_gfv4_affine_span_list_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "xr_band_forced_commonroot_syzygy_count"},
+    {"to": "xr_band_maximal_window_divisor_count"}
+  ],
+  "refutes": []
+}
