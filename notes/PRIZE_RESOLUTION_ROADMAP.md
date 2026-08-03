@@ -15899,6 +15899,39 @@ zero.  Dense SymPy function-field arithmetic was replaced by an exact FLINT
 backend; all successful rows stayed below 90 seconds and the final 32-row
 campaign used 16 Modal containers.
 
+### Work-cycle theorem: positive 433-1b cell-3 xi6 endpoint compatibility
+
+```text
+source-only scope:        xi in {5,6}, all four source signs, before pairing
+xi6 identity:             m=sigma_c*c*f, g=sigma_c*f, s=(c+g)^2;
+                          (c^2+m)^2-s*c^2=0 is necessary
+norm route:               quadratic-over-cubic tower norm in the six-element
+                          quotient basis
+exceptional policy:       all norm, inverse-guard, and base-leading roots
+                          lifted through the original source equations
+computed rows:            4 source signs x 2 missing roles = 8
+xi6 direct replay:        32 candidate r values, 32 recovered source points;
+                          8 missing-product boundaries, 24 eligible points
+xi6 terminal ledgers:     0 compatible sources, 0 unresolved
+xi6 payment:              source-only exclusion covers 15 matchings x 4 lanes
+                          x 4 source signs = 240 raw cases
+xi5 retained frontier:    exactly 6 compatible sources per source sign,
+                          24 total; no target witness inferred
+result:                   complete xi6 slice PROVED empty
+Modal apps:               ap-rRf1apG4CvcyKAjHkeiSTu pilot,
+                          ap-8ZYPpYsrUBdVJ9B33PbOHq census
+artifact custody:         compiler sha256 3e5ad66722ba7b4890a2c29333a1525ce
+                          91a5efe87357e779d472c3ffd2f3f87;
+                          census sha256 74aad0cbb33fad989d11f2d412d2f74c4d
+                          1e52e47865a0d6106fae4d4b0e05fc
+paid cell-3 ledger:       720 xi0-2 + 240 xi3 + 240 xi6 = 1200 cases
+remaining cell-3 ledger:  240 xi4 cases plus the 24-source xi5 frontier
+next route step:          solve the 15 pairings only on the 24 exact xi5
+                          source points; do not repeat global elimination
+nonclaim:                 no xi4, xi5, complete cell-3, K3, LIST, MCA, or
+                          Prize closure
+```
+
 ### Work-cycle theorem: positive 433-1b cell-3 DE pairing-4 block
 
 ```text

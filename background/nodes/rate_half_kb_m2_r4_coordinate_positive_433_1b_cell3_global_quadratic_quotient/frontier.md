@@ -10,7 +10,10 @@ the paid cell-3 ledger to 768 cases. The opposite-DE parity theorem pays
 `xi=3,pairing in {3,6}`, and the two fully mixed theorems pay
 `xi=3,pairing in {7,8,10,11,13,14}`. The final parity-`x` theorem pays
 `xi=3,pairing in {4,5,9,12}`, raising the ledger to 960 cases and completing
-the `xi=3` slice. Every pairing at `xi in {4,5,6}` remains.
+the `xi=3` slice. The source-only endpoint-compatibility theorem pays all 240
+cases at `xi=6`, raising the ledger to 1200. Every pairing at `xi=4` remains.
+At `xi=5`, exact source compatibility leaves 24 source points across the four
+source signs; their matching and lane equations remain.
 
 ```text
 b^2 = -(B_epsilon/A_epsilon)b - 1,
@@ -38,4 +41,5 @@ same monic reduction; this replaces the earlier compiler that exceeded the
 Do not return to the monolithic six-variable SymPy expansion or Singular at
 the deployed characteristic.  Do not call a quadratic relation a
 parametrization, and do not infer complete cell-3 closure from the fully paid
-parallel-`DE` matching block or the fully paid `xi=3` slice.
+parallel-`DE` matching block, the fully paid `xi=3` slice, or the source-only
+`xi=6` exclusion.
