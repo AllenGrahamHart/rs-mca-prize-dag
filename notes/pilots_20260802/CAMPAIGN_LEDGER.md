@@ -704,3 +704,16 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   Candidate next anchors: the sliver (toy-attackable); support >= 5
   all-escape-1 deficits (L-B flag); the list-size problem itself
   (Pro-brief-scale, or Codex lane).
+
+## 2026-08-03: ROUND 10 LAUNCHED — 4 Opus pilots, non-overlapping
+
+- (1) maelcar_audit: literature-map audit of upstream #1145-#1148
+  (gates our L1 + LIST/M31 moves; read-only gh access; subtraction
+  both ways). (2) overlap_sliver: the last ray-side configuration
+  (overlapping zero-escape, e >= 3, V >= 5; admissibility-kill route
+  first; carries L-B residual). (3) support5_deficit: all-escape-1
+  dim Ann >= 1 existence (support-5 relation classification; decisive
+  smallest-shape sweep). (4) listsize_program: the PRIMARY terminus —
+  structured attack on RS list size at tau = k+ceil(h/2) (min-over-z
+  averaging via THEOREM I; obstruction map; ranked sub-lemmas).
+  Explicit-path commits while running.
