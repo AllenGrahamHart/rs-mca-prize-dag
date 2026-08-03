@@ -77,7 +77,7 @@ def main():
     require("`u=ef`, `v=df`" in audit and
             "`d=v/f`," in audit and "`e=u/f`" in audit,
             "variable-role discipline")
-    require("`0,1,2,3,4,5,6`" in frontier and
+    require("`0,1,2,3,4,5,6,7`" in frontier and
             "complete cell-3 closure" in frontier,
             "retained frontier")
     print("audit=ok pairing=6 rows=32 uv_candidates=48 boundary_f_zero=32")
