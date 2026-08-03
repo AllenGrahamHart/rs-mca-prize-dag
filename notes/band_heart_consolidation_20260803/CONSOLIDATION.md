@@ -125,3 +125,15 @@ banked xr_band_occupancy terminus — an RS list-size bound at
 tau = k + ceil(h/2) for some pencil member (positive target #1
 species) — with L-A/L-B as supporting, provably-insufficient-alone
 lemmas.
+
+## UPDATE 2 (2026-08-03, L-B pilot): L-A => L-B — the surface simplifies
+
+L-B's conclusion (V_1 = 0) is PROVED on the group-fibre/pencil-block
+class (THEOREM F pins realisers by any 3 fibre rays; the E1P
+phenomenon is now a theorem); its MECHANISM is refuted as stated
+(over-agreement is forced only for PRIVATE escaped points — LB-F2,
+five fixtures); the general case is an exact DICHOTOMY (forced point
+exists iff L-B holds at the ray), and the residual open configuration
+is precisely L-A's subject. OPEN SURFACE OF RECORD (final form of
+this note): the xr_band_occupancy RS list-size terminus (primary) +
+L-A (pencil rigidity at e >= 2, which now also carries L-B).

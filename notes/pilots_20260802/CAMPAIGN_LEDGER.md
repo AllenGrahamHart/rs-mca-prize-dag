@@ -676,3 +676,16 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   RS list-size at tau = k+ceil(h/2) (positive target #1 species);
   L-A/L-B supporting but provably insufficient (PROP 5; V* = 1.166n
   vs 1.25n granted). Pilots 2/3 (L-A, L-B) still running.
+
+## 2026-08-03: round-9 pilot 2/3 BANKED — L-B partial; L-A => L-B adopted
+
+- **lb_escape1_overagreement (Opus) AUDITED + BANKED** (237/237;
+  LB-F2 fired as pre-registered). V_1 = 0 PROVED on the
+  group-fibre/block class (THEOREM F: 3 fibre rays pin Ann, quadratic
+  in c_a; E1P 520-sample phenomenon -> THEOREM, extra point = the
+  removed point 12/12); mechanism REFUTED (mult-2 escaped points sit
+  at exactly A; only private points force over-agreement); DICHOTOMY
+  = exact pointwise criterion; L-A => L-B ADOPTED, L-B dropped as
+  independent target. Flag-6 explained (4-wise < k+2 forbids
+  support-4 deficits; support >= 5 = named attack surface). Open
+  surface: RS list-size terminus + L-A. Pilot 3/3 (L-A) running.
