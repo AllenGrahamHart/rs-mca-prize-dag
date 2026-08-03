@@ -16386,6 +16386,56 @@ Cycle burn-down: start `0d3893b8`; result `PROVED`; DAG delta
 zero. The old 300-second quartic-resultant route was replaced by a 24-row
 quadratic census completing in about 15 seconds wall time.
 
+### Work-cycle theorem: positive 433-1b cell-3 xi3/pairings1-2 block
+
+```text
+aggregate scope:          xi=3 (missing df), pairing in {1,2}
+raw atlas cover:          2 matchings x 4 source signs x 4 target lanes
+                          = 32 cases
+same-product identity:    paired(q,q)=
+                          4(A0 q-B0)(A1 q-B1)^2(A2 q-B2)
+internal branch cover:    q=de=B_i/A_i, i in {0,1,2}
+pairing 1 rows:           4 source signs x 3 branches = 12 rows,
+                          each checking all four target lanes
+pairing 2 rows:           4 source signs x 3 branches x 2 sigma_c = 24,
+                          each checking both sigma_o lanes
+reciprocal variable:      z=1/d, with m=df and s=(d+f)^2
+missing quartic:          M=1+(2m-s)z^2+m^2 z^4
+next quadratic:           pairing 1: paired(-q,bmz);
+                          pairing 2: paired(-q,sigma_c cmz)
+elimination:              reduce M modulo the next quadratic to
+                          R=r0+r1 z, then use the division-free cut
+                          r1^2 p0-r1 r0 p1+p2 r0^2
+norm audit:               direct 6 x 6 norm equals quadratic-over-cubic norm
+exceptional policy:       all norm, inverse, branch-denominator, polynomial-
+                          division, and base-leading roots lifted
+finite lift:              intersect exact M and P roots; d=1/z, e=qz, f=mz
+aggregate direct replay:  372 candidate r values, 448 source points,
+                          56 z candidates
+terminal mechanism:       all 128 matching-specific final-pair values nonzero
+terminal ledgers:         0 witnesses, 0 boundaries, 0 free branches,
+                          0 unresolved
+result:                   complete 32-case xi3/pairings1-2 block PROVED empty
+Modal apps:               ap-hs4uDcvYeeO8qjJim89mnv pairing-1 pilot,
+                          ap-I4n9rvJ20zJShDvHzeSuZa pairing-2 pilot,
+                          ap-tllBAlAaW2yhCLFi8MFFgb census
+artifact custody:         compiler sha256 66480d33177930d0376ff10ed1ae9713
+                          44a247de803a8e8aa015dc4c8d757f21;
+                          census sha256 df010f16c1b70213b03527570e7b0a51
+                          d07f2604d519f62b290ce212a4349786
+paid cell-3 ledger:       720 parallel-DE + 48 xi3/pairings0-2 = 768 cases
+next route step:          classify matching orbits at xi3 pairings 3-14 and
+                          all pairings at xi in {4,5,6}
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `95cf3add`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. The 36-row exact census completed in one bounded 16-container Modal
+campaign in under one minute; the host performed only bounded artifact
+validation.
+
 ### Work-cycle theorem: positive 433-1b cell-14 kernel normalization boundary
 
 ```text
