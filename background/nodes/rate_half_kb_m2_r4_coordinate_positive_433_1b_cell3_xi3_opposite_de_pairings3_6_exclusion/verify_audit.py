@@ -100,7 +100,7 @@ def main():
     require("timed out" in lineage and "300 seconds" in lineage and
             "pairings 4 and 5 are not claimed" in lineage,
             "failed-route discipline")
-    require("800 raw cases" in frontier and
+    require("832 raw cases" in frontier and
             "Do not infer complete cell-3" in frontier,
             "retained frontier")
     print(

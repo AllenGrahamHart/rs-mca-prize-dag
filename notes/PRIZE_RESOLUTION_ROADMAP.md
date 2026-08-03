@@ -16487,6 +16487,55 @@ Cycle burn-down: start `9c1ff69a`; result `PROVED`; DAG delta
 zero. The eight-row exact census ran in parallel on Modal and completed in
 166 seconds wall time. The host performed only bounded artifact validation.
 
+### Work-cycle theorem: positive 433-1b cell-3 xi3 pairings11/14 block
+
+```text
+aggregate scope:          xi=3 (missing df), pairing in {11,14}
+raw atlas cover:          2 matchings x 4 source signs x 4 target lanes
+                          = 32 cases
+computed representative: pairing 11 = ((0,4),(1,5),(2,3))
+transport representative:pairing 14 = ((0,5),(1,4),(2,3)), obtained by
+                          exchanging the two identical positive de records
+fully mixed equations:    paired(q,bmz), paired(q,sigma_c cmz),
+                          paired(-q,sigma_o ef), with q=de,m=df,z=1/d
+linear-z subtraction:     D(q)z+B(q)=0, D=(b+sigma_c c)m A(q)
+compatibility quartic:    G=C A(U+V)^2-B^2 U V, U=bm,V=sigma_c cm
+missing substitution:     K=D^4+(2m-s)B^2D^2+m^2B^4, degree <=8
+q reduction:              cached one-inverse modular multiplication reduces
+                          K modulo G to a cubic
+target-free eliminant:    division-free 4 x 4 Bezout determinant; equal to
+                          lc(G) times Res(G,R), with lc(G) guarded
+norm route:               quadratic-over-cubic tower norm
+exceptional policy:       all norm, inverse, reduction, and base-leading
+                          roots lifted; D=B=0 branch enumerates all missing
+                          quartic roots
+computed rows:            4 source signs x 4 target lanes = 16
+aggregate direct replay:  160 candidate r values, 208 source points,
+                          240 q rows, 64 reconstructed targets
+terminal mechanism:       all 64 paired(-q,sigma_o ef) values nonzero
+terminal ledgers:         0 witnesses, 0 boundaries, 0 unresolved
+transport payment:        exact positive-de exchange pays 16 pairing-14 cases
+result:                   complete 32-case xi3/pairings11/14 block PROVED empty
+Modal apps:               ap-Fkq7dmFUQUxsBGltZX3qUE successful pilot,
+                          ap-Y859bzC6ukDPGchgWIzl4o census
+artifact custody:         compiler sha256 068326c0d28732e83afa96d4a88163f5
+                          c7aaf316bfa043a16e485608d5a6da95;
+                          census sha256 a37aaa98b0fb4716d188a765e665aeff3
+                          fa7044653db37759e74738c601a5985
+paid cell-3 ledger:       720 parallel-DE + 112 xi3 = 832 cases
+remaining xi3 orbits:     {4,9}, {5,12}, {7,10}, {8,13}
+compute policy:           600-second cap was used only after exact profiling;
+                          the 16-container census remained below $1 projected
+nonclaim:                 no other matching/missing role, cell-3, K3, LIST,
+                          MCA, or Prize closure
+```
+
+Cycle burn-down: start `700e82a9`; result `PROVED`; DAG delta
+`+1 PROVED` background theorem, `+1 req`, `+1 ev`; critical-orbit delta
+zero. Full-degree and repeated-inverse routes timed out at 300 seconds; the
+modular Bezout route completed all 16 rows in parallel in 362 seconds wall
+time. The host performed only bounded artifact validation.
+
 ### Work-cycle theorem: positive 433-1b cell-14 kernel normalization boundary
 
 ```text
