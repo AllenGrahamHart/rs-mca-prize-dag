@@ -834,3 +834,16 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   orbit ceiling M = n (free orbits at all six rows); selector vs L-B
   = different-but-complementary, K1/PP4.0 de-coupling route SURFACED.
   Addenda applied to both P-B nodes. In flight: anchor, gamma close.
+
+## 2026-08-03: round-11 pilot 3 BANKED — anchor: C = 1/2 at e = 1; residual = F9
+
+- **unified_pencil_bound (Opus, retry; killed-run PREREG honored)
+  BANKED** (42/42 + both replay halves, 0/10 falsifiers; one in-run
+  proxy retraction). PROVED: s >= 2 forced by the gates; C = 1/2 at
+  e = 1 UNCONDITIONALLY for ALL live slopes (k-packing disjointness;
+  tight at Zfib11 + a new local FULL-GATE q=11 witness); C = 1/2 per
+  pencil at every e; M <= 1 pencils at e = 1 via Ann-monotone 3+3
+  pinning (combinatorial M <= 1 is FALSE — 170 multi-pencil matchings
+  — realisability is what kills them: 0/720 vs control 200/200).
+  Residual = EXACTLY v5 flag F9. Unified mystery kernel: {SL-2, OV,
+  F9}. Awaiting: gamma_j2_close (the last gate for the 7->4 board).

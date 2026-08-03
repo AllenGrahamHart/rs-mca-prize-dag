@@ -1,0 +1,258 @@
+{
+ "A": {
+  "Q0_bad": 0,
+  "Q5_q11_s2": {
+   "n_pencils": 131,
+   "worst_shared": 1
+  },
+  "Q5_q13_s2": {
+   "n_pencils": 181,
+   "worst_shared": 1
+  },
+  "Q5_q11_s3": {
+   "n_pencils": 1055,
+   "worst_shared": 1
+  }
+ },
+ "B": {
+  "admissible_rows": 126,
+  "s1_rows": 0,
+  "lambda_is_e_minus_1": true,
+  "e1_rows": [
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    4,
+    7
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    7,
+    13
+   ],
+   [
+    8,
+    15
+   ],
+   [
+    9,
+    17
+   ],
+   [
+    10,
+    19
+   ],
+   [
+    11,
+    21
+   ]
+  ],
+  "t2_window": [
+   3
+  ]
+ },
+ "C": {
+  "Zfib11": {
+   "name": "Zfib11",
+   "n": 22,
+   "k": 17,
+   "h": 3,
+   "q": 31,
+   "A": 20,
+   "V": 11,
+   "U": 22,
+   "m": 5,
+   "t": 2,
+   "e": 1,
+   "rank": 9,
+   "dimAnn": 1,
+   "gate_clean": true,
+   "max_block_meet": 0,
+   "V_over_n": 0.5,
+   "note": "zero escape, one pencil"
+  },
+  "PF1": {
+   "name": "PF1",
+   "n": 10,
+   "k": 3,
+   "h": 4,
+   "q": 11,
+   "A": 7,
+   "V": 4,
+   "U": 10,
+   "m": 7,
+   "t": 3,
+   "e": 2,
+   "rank": 13,
+   "dimAnn": 1,
+   "gate_clean": true,
+   "max_block_meet": 0,
+   "V_over_n": 0.4,
+   "note": "escape-1 matched, FULL GATE upstream"
+  },
+  "modal": {
+   "PF2": "PASS: max agreement = A at every slope",
+   "PF3": "FAIL: 1 slopes exceed A"
+  },
+  "PF2": {
+   "name": "PF2",
+   "n": 25,
+   "k": 15,
+   "h": 4,
+   "q": 29,
+   "A": 19,
+   "V": 10,
+   "U": 25,
+   "m": 10,
+   "t": 6,
+   "e": 8,
+   "rank": 19,
+   "dimAnn": 1,
+   "gate_clean": true,
+   "max_block_meet": 0,
+   "V_over_n": 0.4,
+   "note": "escape-1 matched, FULL GATE via Modal"
+  }
+ },
+ "D": {
+  "q11_pencils_ge3": 121,
+  "q11_tested": 79080,
+  "q11_gate_surviving": 170,
+  "q11_best": {
+   "blocks": [
+    [
+     3,
+     7
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     1,
+     5
+    ]
+   ],
+   "one_pencil": false
+  },
+  "q11_branch_a_refuted": true,
+  "q13_pencils_ge3": 169,
+  "q13_tested": 973020,
+  "q13_gate_surviving": 8646,
+  "q13_best": {
+   "blocks": [
+    [
+     1,
+     11
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     2,
+     12
+    ]
+   ],
+   "one_pencil": false
+  },
+  "q13_branch_a_refuted": true
+ },
+ "E": {
+  "n_configs": 170,
+  "control": {
+   "live": 5,
+   "gate": 200,
+   "realised": 200,
+   "n": 10
+  },
+  "best": {
+   "live": 0
+  },
+  "attempts": 720,
+  "diag": {
+   "realised": 0,
+   "gate": 0,
+   "fail_reason": {}
+  }
+ },
+ "F": {
+  "F1": {
+   "agree": 360,
+   "bad": 0
+  },
+  "F2_identity": true,
+  "F3": {
+   "q": 11,
+   "matchings": 945,
+   "one_pencil": 6,
+   "with_deficit": 6,
+   "nonpencil_deficit": 0
+  },
+  "F4_ratios": [
+   [
+    "toy_pencil_q11",
+    5,
+    10,
+    0.5
+   ],
+   [
+    "Zfib11",
+    11,
+    22,
+    0.5
+   ],
+   [
+    "PF2(Modal full gate)",
+    10,
+    25,
+    0.4
+   ],
+   [
+    "PF1",
+    4,
+    10,
+    0.4
+   ]
+  ]
+ },
+ "summary": {
+  "checks": 34,
+  "passed": 34,
+  "failed": 0,
+  "falsifiers_fired": {}
+ }
+}

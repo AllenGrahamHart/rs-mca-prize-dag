@@ -1,0 +1,28 @@
+{
+ "G": {
+  "G1": {
+   "live": 5,
+   "n": 10,
+   "e": 1,
+   "worst_meet": 0,
+   "full_gate": true
+  },
+  "G2": {
+   "sampled": 50,
+   "one_pencil": 0,
+   "with_deficit": 0,
+   "nonpencil_deficit": 0
+  }
+ },
+ "H": {
+  "ok": 1000,
+  "bad_U": 0,
+  "bad_mono": 0
+ },
+ "summary": {
+  "checks": 8,
+  "passed": 8,
+  "failed": 0,
+  "falsifiers_fired": {}
+ }
+}
