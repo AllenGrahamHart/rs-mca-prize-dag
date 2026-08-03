@@ -794,3 +794,16 @@ parity-defect certificate, P-B L1 + design ceiling + block dichotomy
   maelcar-audit HIGH flag is CONFIRMED at the strongest level; task
   #36 closed as FALSIFIED; index-hypothesis reprice surfaced (C as a
   decreasing function of index = (q-1)/N). Result JSON + sha pinned.
+
+## 2026-08-03: ROUND 11 LAUNCHED — the unification round (3 Opus + gamma close in flight)
+
+- (1) unified_pencil_bound: the anchor — full-gate admissible pairs
+  admit <= Cn live pencil-structured slopes (THEOREM F pinning across
+  pencils; PF2/Zfib11 calibration; multi-pencil compatibility).
+  (2) sl1_windowed_projection: band-proper pairs project at <= A-2
+  (the THEOREM 2 windowed upgrade; Psi_y machinery adapted to pairs;
+  MC saved-by-cascade check). (3) crosslane_cashout: best
+  unconditional |K| bound at the rows from the new floors + the
+  realised-family replacement ceiling for P-B + the selector/
+  dichotomy identification. Plus gamma_j2_close (heart 7) still
+  running from earlier. Explicit-path commits while pilots run.
