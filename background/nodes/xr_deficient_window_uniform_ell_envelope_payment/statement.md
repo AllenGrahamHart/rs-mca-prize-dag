@@ -41,3 +41,29 @@ block has at least `s+1` `phi` fibers and the full-affine tuple count applies.
 This is a conservative uniform envelope. Exact `(UE1)` and lower-dimensional
 tuple choices pay additional tuples outside it. Failure of `(UE2)` is not a
 falsifier, and the target remains open.
+
+There is also an exact no-go fence for this family of incidence bounds. Put
+
+```text
+ell_0=floor((h-4)/7),       r_0=2ell_0+1,
+d_0=h-r_0,                  e_0=d_0-ell_0-1.        (UE3)
+```
+
+The allowed packed profile `(ell_0,ell_0,1)` has
+
+```text
+T_2=ell_0^2+2ell_0,       T_3=ell_0^2,
+T_p=0 for p>=4.
+```
+
+At the next dimensions, the exact pair and triple incidence caps are:
+
+| rates | pair cap | triple cap | `B_0` |
+|---|---:|---:|---:|
+| `1/4,1/8` | `45,181,176,163,178,354,561,043,298` | `371,272,336,285,157,761,266,139,535,266,618` | `3,288,278,229,349,592,331,945,250` |
+| `1/16` | `77,453,444,237,271,295,453,973,206` | `159,116,714,494,935,354,830,177,169,055,992` | `3,288,278,229,349,592,331,945,250` |
+
+Thus no optimization over tuple order can prove the complete target using
+only the current fiber cap, core incidence, and independent block counts.
+This is a no-go for those currencies, not a target counterexample: the next
+route must exploit realizability or coupling absent from the numerical model.

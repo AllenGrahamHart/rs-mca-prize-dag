@@ -5,7 +5,7 @@
     "title": "XR deficient window: uniform higher-ell envelope payment",
     "status": "PROVED",
     "closure": "proof",
-    "statement": "For every order p, the exact minimum number of distinct-phi p-tuples in an r-point block with fiber cap ell is binom(q,p)ell^p+binom(q,p-1)ell^(p-1)u, where r=qell+u. Combining the p=s+1 case with the common-ray owner cap gives a uniform comparison to ell=1 at y=d+ell+(s-1)(ell-1). Hence the next-dimensional target is paid whenever d+11ell-10<=8500560263 at rates 1/4,1/8 or d+10ell-9<=4265559234 at rate 1/16. The comparison is conservative; its failure is not a counterexample.",
+    "statement": "For every order p, the exact minimum number of distinct-phi p-tuples in an r-point block with fiber cap ell is binom(q,p)ell^p+binom(q,p-1)ell^(p-1)u, where r=qell+u. Combining the p=s+1 case with the common-ray owner cap gives a uniform comparison to ell=1 at y=d+ell+(s-1)(ell-1). Hence the next-dimensional target is paid whenever d+11ell-10<=8500560263 at rates 1/4,1/8 or d+10ell-9<=4265559234 at rate 1/16. At the admissible packed boundary r=2ell+1, however, the exact pair and triple caps both exceed budget while every higher tuple count vanishes; tuple-order optimization using only the current fiber/core currencies therefore cannot close the target. This is a method no-go, not a target counterexample.",
     "refs": [
       "background/nodes/xr_deficient_window_uniform_ell_envelope_payment/statement.md",
       "background/nodes/xr_deficient_window_uniform_ell_envelope_payment/proof.md",

@@ -69,3 +69,37 @@ y<=4,265,559,234       for s=10.
 Expanding `(5)` gives `(UE2)`. At either endpoint the smallest reference
 factor `h-y+1-s` is positive. Equation `(7)` then gives `r-s ell>0`, so the
 tuple lower bound used in `(3)` is admissible. QED.
+
+## Tuple-incidence no-go fence
+
+Let `ell_0,r_0,d_0,e_0` be as in `(UE3)`. The defining floor gives
+
+```text
+7ell_0<=h-4.                                        (8)
+```
+
+Hence
+
+```text
+ell_0<=3d_0-2h-1,       e_0>=2r_0,                 (9)
+```
+
+and the verifier checks the remaining official depth inequalities exactly.
+Thus these numbers and the packed three-fiber profile satisfy every numerical
+hypothesis currently used by the tuple-incidence route.
+
+For `p=2,3`, `(UE1)` gives
+
+```text
+T_2=ell_0^2+2ell_0,       T_3=ell_0^2.             (10)
+```
+
+For `p>=4` it gives zero. Use the common-ray owner constants `2` and `3` in
+`(CRE2)`, take the permitted worst cases `N=n` and `e=e_0`, and evaluate the
+resulting exact pair and triple caps. Their floors are the four integers in
+the statement, all strictly above `B_0`. There is no higher-order incidence
+to use. This proves the scoped no-go claim.
+
+The calculation does not construct `P,Q`, a received pair, or a target
+family realizing the packed profile. It proves only that the presently
+banked numerical currencies cannot exclude or pay that profile. QED.
