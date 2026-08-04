@@ -109,6 +109,19 @@ At the tuple-incidence no-go boundary this is at most `6,6,2` on the three
 rates. Thus the extremal residue is a bounded-nullity extension of the
 separate full-rank window-divisor target, not an arbitrary-rank family.
 
+Retaining the degree slack gives a stronger boundary normal form. Put
+
+```text
+sigma=d-ell-1-2(h-d).
+```
+
+At the same obstruction `sigma=5,5,1`. Every target has exactly two selected
+live slopes; their blocks cover all but at most `sigma` points of the complete
+forced-root set, and every kernel multiplier is the forced-root locator times
+a polynomial of degree below `sigma+1`. Thus the positive-nullity residue is
+an almost complete two-ray cover. This extra structure is absent from the
+full-rank branch.
+
 Together with the unconditional outside-`D` payment, `(SL2-D)` gives
 `25|R_d(u,v)|<=17n^2` exactly. This is an owner-aware punctured list with
 active-defect blocks. It is not a raw ordinary list, a one-parameter

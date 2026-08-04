@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "xr_deficient_window_two_block_kernel_slack_router",
+    "title": "XR deficient window: two-block kernel-slack router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Put r=h-d and sigma=d-ell-1-2r. Every nonempty D-local deficient target has 2r<=|D|<=|G_d|<=2r+sigma. If sigma<r, it has exactly two selected live blocks, those blocks cover all but sigma points of both D and G_d, and every kernel multiplier is the G_d locator times a polynomial of degree below sigma+1. At the tuple-incidence obstruction sigma is exactly 5,5,1 on the three official rows, so the deficient residue has cofactor degree below 6,6,2 and is structurally stronger than a generic nullity-at-most-six window.",
+    "refs": [
+      "background/nodes/xr_deficient_window_two_block_kernel_slack_router/statement.md",
+      "background/nodes/xr_deficient_window_two_block_kernel_slack_router/proof.md",
+      "background/nodes/xr_deficient_window_two_block_kernel_slack_router/claim_contract.md",
+      "background/nodes/xr_deficient_window_two_block_kernel_slack_router/dependency_subdag.md",
+      "background/nodes/xr_deficient_window_two_block_kernel_slack_router/audit.md",
+      "background/nodes/xr_deficient_window_two_block_kernel_slack_router/result.md",
+      "background/nodes/xr_deficient_window_two_block_kernel_slack_router/lineage.md",
+      "background/nodes/xr_deficient_window_two_block_kernel_slack_router/verify.py"
+    ]
+  },
+  "requires": [
+    {"from": "xr_deficient_window_primitive_pade_pencil_router"},
+    {"from": "xr_deficient_window_active_defect_list_router"},
+    {"from": "xr_deficient_window_uniform_ell_envelope_payment"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "xr_band_forced_commonroot_syzygy_count"},
+    {"to": "xr_band_maximal_window_divisor_count"}
+  ],
+  "refutes": []
+}

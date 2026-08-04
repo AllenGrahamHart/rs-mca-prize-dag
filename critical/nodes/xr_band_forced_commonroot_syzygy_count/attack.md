@@ -29,9 +29,12 @@
    packed boundary `r=2ell+1`, the exact pair and triple caps both exceed the
    local budget and every higher tuple count is zero. A new close must use
    algebraic fiber realizability, maximality, or coupling between the two
-   selected blocks. The two blocks also pin stacked-window nullity to
-   `<=6,6,2` there; seek one maximal-locator census uniform for nullity
-   `0<=c<=6`, so it can address this residue and the full-rank sibling.
+   selected blocks. The two-block kernel-slack router now proves more than
+   nullity `<=6,6,2`: there are exactly two selected rays, they cover all but
+   `5,5,1` forced-root points, and the residual kernel cofactors have degree
+   below `6,6,2`. Attack this near-binary two-ray geometry directly. Keep the
+   full-rank `c=0` split-divisor target separate until a theorem genuinely
+   transports maximality between the two branches.
 7. Split by `1<=ell<=3d-2h-1`. Small `ell` limits every scalar factor;
    larger `ell` reduces both the parameter dimension and the defect ceiling
    `e<=d-ell-1`.
