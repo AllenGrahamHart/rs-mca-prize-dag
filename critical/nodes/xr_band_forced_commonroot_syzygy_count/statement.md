@@ -98,6 +98,17 @@ rate 1/16:     d+10ell-9 <=4,265,559,234.            (SL2-UE)
 The residual high-fiber tails outside `(SL2-UE)` and the split-pencil locator
 census stay open, so the node remains `TARGET`.
 
+Finally, the two selected blocks lie in `G_d`, so the primitive multiplier
+space satisfies
+
+```text
+dim K_d<=d-ell-|G_d|<=3d-2h-ell.                   (SL2-ABN)
+```
+
+At the tuple-incidence no-go boundary this is at most `6,6,2` on the three
+rates. Thus the extremal residue is a bounded-nullity extension of the
+separate full-rank window-divisor target, not an arbitrary-rank family.
+
 Together with the unconditional outside-`D` payment, `(SL2-D)` gives
 `25|R_d(u,v)|<=17n^2` exactly. This is an owner-aware punctured list with
 active-defect blocks. It is not a raw ordinary list, a one-parameter

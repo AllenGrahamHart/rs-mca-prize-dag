@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "xr_deficient_window_active_block_nullity_pin",
+    "title": "XR deficient window: active-block nullity pin",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every D-local deficient target, the two disjoint selected r-blocks force |G_d|>=2r, while the primitive Pade router gives dim K_d<=d-ell-|G_d|. Hence dim K_d<=3d-2h-ell. At the admissible tuple-incidence no-go boundary ell=floor((h-4)/7), r=2ell+1, this pins dim K_d<=6 at rates 1/4,1/8 and dim K_d<=2 at rate 1/16. Thus the extremal residue is bounded-nullity and adjacent to the separate full-rank census, not an arbitrary-rank Pade family.",
+    "refs": [
+      "background/nodes/xr_deficient_window_active_block_nullity_pin/statement.md",
+      "background/nodes/xr_deficient_window_active_block_nullity_pin/proof.md",
+      "background/nodes/xr_deficient_window_active_block_nullity_pin/claim_contract.md",
+      "background/nodes/xr_deficient_window_active_block_nullity_pin/dependency_subdag.md",
+      "background/nodes/xr_deficient_window_active_block_nullity_pin/audit.md",
+      "background/nodes/xr_deficient_window_active_block_nullity_pin/result.md",
+      "background/nodes/xr_deficient_window_active_block_nullity_pin/lineage.md",
+      "background/nodes/xr_deficient_window_active_block_nullity_pin/verify.py"
+    ]
+  },
+  "requires": [
+    {"from": "xr_deficient_window_primitive_pade_pencil_router"},
+    {"from": "xr_deficient_window_active_defect_list_router"},
+    {"from": "xr_deficient_window_uniform_ell_envelope_payment"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "xr_band_forced_commonroot_syzygy_count"},
+    {"to": "xr_band_maximal_window_divisor_count"}
+  ],
+  "refutes": []
+}

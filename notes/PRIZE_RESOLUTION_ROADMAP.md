@@ -17611,6 +17611,28 @@ compute: exact integer arithmetic only; no Modal
 next: prove a simultaneous-fiber realizability bound or a two-block coupling
       theorem; otherwise seek a genuine packed-profile construction
 ```
+
+### Active-block nullity pin
+
+The two selected blocks already provide the needed coupling at the stacked
+window level. Since both disjoint `r`-blocks lie in `D subset G_d`,
+`|G_d|>=2r`; the primitive multiplier router then gives
+
+```text
+dim K_d<=d-ell-|G_d|<=3d-2h-ell.
+```
+
+At the tuple-incidence no-go boundary this is `<=6` at rates `1/4,1/8` and
+`<=2` at rate `1/16`.
+
+```text
+node: xr_deficient_window_active_block_nullity_pin [PROVED]
+verifier: 18 exact identity, endpoint, and mutation checks
+target: xr_band_forced_commonroot_syzygy_count remains TARGET
+compute: exact integer arithmetic only; no Modal
+next: formulate one maximal selected window-divisor census for nullities
+      0 through 6, sharing its c=0 endpoint with the full-rank target
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

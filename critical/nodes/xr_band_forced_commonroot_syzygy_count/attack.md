@@ -29,7 +29,9 @@
    packed boundary `r=2ell+1`, the exact pair and triple caps both exceed the
    local budget and every higher tuple count is zero. A new close must use
    algebraic fiber realizability, maximality, or coupling between the two
-   selected blocks.
+   selected blocks. The two blocks also pin stacked-window nullity to
+   `<=6,6,2` there; seek one maximal-locator census uniform for nullity
+   `0<=c<=6`, so it can address this residue and the full-rank sibling.
 7. Split by `1<=ell<=3d-2h-1`. Small `ell` limits every scalar factor;
    larger `ell` reduces both the parameter dimension and the defect ceiling
    `e<=d-ell-1`.
