@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "xr_deficient_window_common_ray_eliminant_payment",
+    "title": "XR deficient window: common-ray eliminant payment",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On an m-dimensional active-defect affine slice, a fixed (m+1)-tuple of pairwise distinct phi values belongs to one selected block for at most m+1 target parameters. Introducing the common error ray turns the block conditions into m+1 affine-linear equations in m parameters with coefficients linear in the ray. Generic consistency would create a varying-ray component, forbidden by the distinct-pole argument; a nonzero rank minor of degree at most m+1 therefore contains every admissible ray, and the same-ray strip leaves one target per root. At the full next dimensions this improves the ell=1 payment through d+1=8500560263 at rates 1/4,1/8 and d+1=4265559234 at rate 1/16.",
+    "refs": [
+      "background/nodes/xr_deficient_window_common_ray_eliminant_payment/statement.md",
+      "background/nodes/xr_deficient_window_common_ray_eliminant_payment/proof.md",
+      "background/nodes/xr_deficient_window_common_ray_eliminant_payment/claim_contract.md",
+      "background/nodes/xr_deficient_window_common_ray_eliminant_payment/dependency_subdag.md",
+      "background/nodes/xr_deficient_window_common_ray_eliminant_payment/audit.md",
+      "background/nodes/xr_deficient_window_common_ray_eliminant_payment/result.md",
+      "background/nodes/xr_deficient_window_common_ray_eliminant_payment/lineage.md",
+      "background/nodes/xr_deficient_window_common_ray_eliminant_payment/verify.py"
+    ]
+  },
+  "requires": [
+    {"from": "xr_deficient_window_full_affine_tuple_payment"},
+    {"from": "xr_deficient_window_phi_fiber_split_pencil_router"},
+    {"from": "xr_band_ledger_theorems"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "xr_band_forced_commonroot_syzygy_count"},
+    {"to": "xr_band_maximal_window_divisor_count"}
+  ],
+  "refutes": []
+}

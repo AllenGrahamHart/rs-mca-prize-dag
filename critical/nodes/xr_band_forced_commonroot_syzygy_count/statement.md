@@ -77,13 +77,14 @@ and every target in that endpoint owns at least two disjoint such locators.
 Thus `r<=2ell` is not itself an unresolved stratum; high-fiber blocks there
 remain available to triple incidence.
 
-The full-affine tuple payment uses `s+1` distinct-`phi` points directly on
-the `s`-dimensional affine hull.  At the next dimensions it extends the
+The common-ray eliminant uses `s+1` distinct-`phi` points directly on the
+`s`-dimensional affine hull.  Its matrix-pencil argument improves the fixed
+tuple owner cap from `2^s` to `s+1`.  At the next dimensions it extends the
 proved `ell=1` slices through
 
 ```text
-rates 1/4,1/8: d+1<=8,453,534,100,
-rate 1/16:     d+1<=4,250,714,177.                  (SL2-FAT)
+rates 1/4,1/8: d+1<=8,500,560,263,
+rate 1/16:     d+1<=4,265,559,234.                  (SL2-CRE)
 ```
 
 The residual high-fiber tails, higher-`ell` tuples, and split-pencil locator

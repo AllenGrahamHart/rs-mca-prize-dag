@@ -12,10 +12,10 @@
    affine-plane layer is also banked: three points in one selected block pay
    the printed lower-`d+ell` slices uniformly while `r>2ell`.  Common conic
    components have constant selected ray and are stripped.  The full-affine
-   `(s+1)`-tuple payment extends the next-dimensional `ell=1` slices through
-   `8,453,534,100` and `4,250,714,177`. Continue with the residual high-fiber
-   tails, higher `ell`, and the split-pencil endpoint; do not reopen the
-   component case.
+   common-ray eliminant improves the fixed `(s+1)`-tuple owner cap to `s+1`
+   and extends the next-dimensional `ell=1` slices through `8,500,560,263`
+   and `4,265,559,234`. Continue with the residual high-fiber tails, higher
+   `ell`, and the split-pencil endpoint; do not reopen the component case.
 4. Use the pairwise core cap `k-ell-1` together with the active blocks.
    Ordinary punctured Johnson is below threshold and is insufficient alone.
 5. Use the exact packed fiber profile, not the coarse label `r<=2ell`.
