@@ -14,8 +14,10 @@
    components have constant selected ray and are stripped.  The full-affine
    common-ray eliminant improves the fixed `(s+1)`-tuple owner cap to `s+1`
    and extends the next-dimensional `ell=1` slices through `8,500,560,263`
-   and `4,265,559,234`. Continue with the residual high-fiber tails, higher
-   `ell`, and the split-pencil endpoint; do not reopen the component case.
+   and `4,265,559,234`. The uniform higher-`ell` envelope pays
+   `d+11ell-10<=8,500,560,263` or `d+10ell-9<=4,265,559,234`. Continue with
+   the residual high-fiber tails outside that envelope and the split-pencil
+   endpoint; do not reopen the component case.
 4. Use the pairwise core cap `k-ell-1` together with the active blocks.
    Ordinary punctured Johnson is below threshold and is insufficient alone.
 5. Use the exact packed fiber profile, not the coarse label `r<=2ell`.

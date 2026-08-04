@@ -87,7 +87,15 @@ rates 1/4,1/8: d+1<=8,500,560,263,
 rate 1/16:     d+1<=4,265,559,234.                  (SL2-CRE)
 ```
 
-The residual high-fiber tails, higher-`ell` tuples, and split-pencil locator
+The exact higher-order fiber profile and a factorwise comparison with these
+`ell=1` endpoints give the uniform higher-`ell` envelope
+
+```text
+rates 1/4,1/8: d+11ell-10<=8,500,560,263,
+rate 1/16:     d+10ell-9 <=4,265,559,234.            (SL2-UE)
+```
+
+The residual high-fiber tails outside `(SL2-UE)` and the split-pencil locator
 census stay open, so the node remains `TARGET`.
 
 Together with the unconditional outside-`D` payment, `(SL2-D)` gives

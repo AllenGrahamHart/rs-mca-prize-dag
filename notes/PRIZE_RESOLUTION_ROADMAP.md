@@ -17559,6 +17559,35 @@ compute: exact local polynomial and integer arithmetic; no Modal
 next: combine the m+1 owner cap with exact higher elementary-symmetric
       fiber profiles and optimize m across the remaining tuples
 ```
+
+### Uniform higher-ell envelope
+
+For every tuple order `p`, concentration of the `ell`-capped `phi` fiber
+multiplicities gives the exact minimum
+
+```text
+T_pack,p=binom(q,p)ell^p+binom(q,p-1)ell^(p-1)u,
+r=qell+u.
+```
+
+For a concise official payment, compare the full-hull common-ray cap at
+`x=d+ell` to the proved `ell=1` cap at
+`y=x+(s-1)(ell-1)`. The comparison is factorwise and gives
+
+```text
+rates 1/4,1/8: d+11ell-10<=8,500,560,263,
+rate 1/16:     d+10ell-9 <=4,265,559,234.
+```
+
+```text
+node: xr_deficient_window_uniform_ell_envelope_payment [PROVED]
+verifier: 985 exhaustive profile and official comparison checks
+target: xr_band_forced_commonroot_syzygy_count remains TARGET
+unpaid: high-fiber tails outside the envelope; split-pencil census
+compute: exact local combinatorics only; no Modal
+next: optimize residual dimension m using the exact profile, then decide
+      whether the worst survivor is high-fiber or split-pencil
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
