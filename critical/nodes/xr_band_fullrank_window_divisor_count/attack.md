@@ -1,6 +1,8 @@
 # Attack plan
 
-1. Use the exact maximality fiber filter before any moment estimate.
+1. Use the exact predicate-filtered maximality inversion before any moment
+   estimate. An even Bonferroni truncation is a valid upper bound only when
+   its alternating raw support moments are controlled as one aggregate.
 2. Seek a row-sharp split-polynomial anti-concentration theorem for the
    codimension-`2d` window. Average or first-moment estimates do not
    imply the required worst-case maximum.

@@ -28004,13 +28004,18 @@
   },
   {
    "id": "xr_window_divisor_maximality_filter",
-   "title": "XR window-divisor maximality filter: RAW_d fiber identity and the mandatory exact-core plus selected-liveness predicates",
+   "title": "XR window-divisor maximality filter: predicate-filtered inversion and Bonferroni support moments",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "If MAX_e counts maximal joint codeword pairs of full core size k+e and RAW_d counts all degree-(n-k-d) locators satisfying both linear window systems, then RAW_d=SUM_{e>=d} MAX_e*C(k+e,k+d). Thus a deeper pair contributes no depth-d selected occupancy but contributes C(k+e,k+d) raw divisors; the raw affine-divisor count is not equivalent to SL-2 and can exceed 17n^2/25 from one deeper pair. The residual must require exact maximality and L_P>=2 under first-match selection. Full rank d of each single-word system also does not imply joint codimension 2d.",
+   "statement": "For every predicate Pi of the uniquely reconstructed maximal pair, RAW_d^Pi=SUM_{e>=d} MAX_e^Pi*C(k+e,k+d), and finite binomial inversion recovers MAX_d^Pi. Its truncations satisfy the exact Bonferroni bounds S_(2a+1)^Pi(d)<=MAX_d^Pi<=S_(2a)^Pi(d). Thus maximality, selected liveness, and strip survival have an exact support-moment interface, but a closing use must control the signed sum as a whole. Raw affine-divisor counts remain inequivalent to SL-2, and full rank d of each single-word system does not imply joint codimension 2d.",
    "refs": [
     "background/nodes/xr_window_divisor_maximality_filter/statement.md",
     "background/nodes/xr_window_divisor_maximality_filter/proof.md",
+    "background/nodes/xr_window_divisor_maximality_filter/claim_contract.md",
+    "background/nodes/xr_window_divisor_maximality_filter/dependency_subdag.md",
+    "background/nodes/xr_window_divisor_maximality_filter/audit.md",
+    "background/nodes/xr_window_divisor_maximality_filter/result.md",
+    "background/nodes/xr_window_divisor_maximality_filter/lineage.md",
     "background/nodes/xr_window_divisor_maximality_filter/verify.py",
     "notes/pilots_20260803/ld_core_count/REPORT.md"
    ]
@@ -53664,6 +53669,16 @@
    "from": "xr_support4_structure",
    "to": "xr_pencil_forcing_t0",
    "kind": "ref"
+  },
+  {
+   "from": "xr_window_divisor_maximality_filter",
+   "to": "xr_band_forced_commonroot_syzygy_count",
+   "kind": "ev"
+  },
+  {
+   "from": "xr_window_divisor_maximality_filter",
+   "to": "xr_band_fullrank_window_divisor_count",
+   "kind": "ev"
   }
  ]
 }

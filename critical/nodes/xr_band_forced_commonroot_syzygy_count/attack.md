@@ -38,7 +38,11 @@
    The exact-packed four-fiber plane census handles every official tail at
    the next dimensions by counting individual block occurrences. Mixed
    profiles still need one shared weighted budget rather than summed
-   stratum-local allowances, and higher affine dimensions remain open.
+   stratum-local allowances, and higher affine dimensions remain open. The
+   predicate-filtered maximality inversion now supplies one nonadditive
+   interface: bound an even signed support-moment truncation for the entire
+   mixed family. Preserve the reconstructed two-block profile in every raw
+   moment, and never upper-bound the alternating terms independently.
 7. Split by `1<=ell<=3d-2h-1`. Small `ell` limits every scalar factor;
    larger `ell` reduces both the parameter dimension and the defect ceiling
    `e<=d-ell-1`.

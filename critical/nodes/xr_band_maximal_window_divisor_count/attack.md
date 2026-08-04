@@ -37,13 +37,21 @@ BP parity, or liveness L. A statement about raw locators is insufficient.
 Use the fiber identity
 
 ```text
-RAW_d = sum_{e>=d} MAX_e binom(k+e,k+d)
+RAW_d^Pi = sum_{e>=d} MAX_e^Pi binom(k+e,k+d)
 ```
 
-in the reverse direction: quotient out all fibers belonging to deeper
-maximal pairs, then seek a polynomial or incidence bound on the
-remaining exact-depth representatives. Any compression must preserve
-the selected `L_P>=2` predicate.
+with `Pi` equal to maximal selected liveness plus strip survival. The proved
+predicate-filtered inversion gives
+
+```text
+MAX_d^Pi=sum_{j>=0}(-1)^j binom(k+d+j,k+d) RAW_(d+j)^Pi,
+S_(2a+1)^Pi(d)<=MAX_d^Pi<=S_(2a)^Pi(d).
+```
+
+Seek a polynomial, energy, or incidence bound on one even signed truncation.
+The predicate must be evaluated on the reconstructed maximal pair and hence
+is constant on each fiber. Do not substitute unrelated upper bounds for all
+raw moments: the negative terms make that inference invalid.
 
 ## Route 3: joint row-space transversality
 
