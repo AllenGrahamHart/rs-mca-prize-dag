@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "xr_deficient_window_packed_four_fiber_plane_payment",
+    "title": "XR deficient window: packed four-fiber plane payment",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the tuple-incidence boundary, a stratum whose two selected blocks both have exact phi profile (ell,ell,1) uses four fixed full fibers and two points from a tail of size t=e-4ell in [2,sigma+2]. There are 6t individual block geometries, every target contributes two, and each fixed block owns at most three targets on an affine plane. Hence |Tau_pack| B_(s-2)<=9t binom(n-e,s-2). At the next dimensions this lies below the local allowance for every official tail. The bound is stratum-local and is not additive across mixed profiles or higher dimensions.",
+    "refs": [
+      "background/nodes/xr_deficient_window_packed_four_fiber_plane_payment/statement.md",
+      "background/nodes/xr_deficient_window_packed_four_fiber_plane_payment/proof.md",
+      "background/nodes/xr_deficient_window_packed_four_fiber_plane_payment/claim_contract.md",
+      "background/nodes/xr_deficient_window_packed_four_fiber_plane_payment/dependency_subdag.md",
+      "background/nodes/xr_deficient_window_packed_four_fiber_plane_payment/audit.md",
+      "background/nodes/xr_deficient_window_packed_four_fiber_plane_payment/result.md",
+      "background/nodes/xr_deficient_window_packed_four_fiber_plane_payment/lineage.md",
+      "background/nodes/xr_deficient_window_packed_four_fiber_plane_payment/verify.py"
+    ]
+  },
+  "requires": [
+    {"from": "xr_deficient_window_two_block_kernel_slack_router"},
+    {"from": "xr_deficient_window_phi_fiber_split_pencil_router"},
+    {"from": "xr_deficient_window_common_ray_eliminant_payment"},
+    {"from": "xr_deficient_window_mixed_core_block_payment"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "xr_band_forced_commonroot_syzygy_count"}
+  ],
+  "refutes": []
+}

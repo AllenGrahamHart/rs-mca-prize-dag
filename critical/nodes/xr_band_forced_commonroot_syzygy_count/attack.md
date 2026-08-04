@@ -35,6 +35,10 @@
    below `6,6,2`. Attack this near-binary two-ray geometry directly. Keep the
    full-rank `c=0` split-divisor target separate until a theorem genuinely
    transports maximality between the two branches.
+   The exact-packed four-fiber plane census handles every official tail at
+   the next dimensions by counting individual block occurrences. Mixed
+   profiles still need one shared weighted budget rather than summed
+   stratum-local allowances, and higher affine dimensions remain open.
 7. Split by `1<=ell<=3d-2h-1`. Small `ell` limits every scalar factor;
    larger `ell` reduces both the parameter dimension and the defect ceiling
    `e<=d-ell-1`.

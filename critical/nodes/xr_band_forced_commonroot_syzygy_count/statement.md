@@ -122,6 +122,13 @@ a polynomial of degree below `sigma+1`. Thus the positive-nullity residue is
 an almost complete two-ray cover. This extra structure is absent from the
 full-rank branch.
 
+For the exact packed block profile `(ell,ell,1)`, both blocks use four fixed
+full members of the primitive pencil and two points from a tail of size
+`t=e-4ell`. A finite plane census pays the next-dimensional exact-packed
+stratum for every possible tail on all three rates. This is a stratum bound,
+not an additive payment for a family mixing different fiber profiles or a
+payment at higher affine dimensions.
+
 Together with the unconditional outside-`D` payment, `(SL2-D)` gives
 `25|R_d(u,v)|<=17n^2` exactly. This is an owner-aware punctured list with
 active-defect blocks. It is not a raw ordinary list, a one-parameter
