@@ -1173,3 +1173,19 @@ Integration freeze pending the upstream-sync wiring and stocktake:
   slope-free gate (2,618x) + four lemmas. Awaiting:
   f2_sl1_powersums, mun_anticoncentration (now the campaign's
   single most important open thread).
+
+## 2026-08-04: round-15 pilot 3/4 BANKED — THE TERMINAL UNIFIED AS (ES); the coding-theory label refuted by theorem
+
+- **mun_anticoncentration (Opus) BANKED** (50/50; 4 own-PREREG
+  withdrawals; 2 own predictions refuted openly). (ES) entropic
+  suppression = the unified terminal of FOUR lanes (band, crossing,
+  syzygy, u2c/dli). ROUTE CUT PROVED: identical-enumerator code pairs
+  with different 0/1 counts — MacWilliams/Delsarte/Krawtchouk/
+  Sidelnikov/BCH-family CANNOT decide it in principle; Weil vacuous
+  13.5-107 bits; L2 loses exactly 2^128. MDS/RS identification;
+  prime-power scope (n = 2^41 good); suppression measured 1-2 orders
+  EARLY (for (ES)); above-balance accident witness pins the boundary.
+  CATCH-15A: MC-4 = PROVED b1 node — dischargeable by citation
+  (mint-4, with the b1 repair). NEXT: Ax-Katz transfer = the one
+  untested classical route; Pro brief targets p-adic/Deligne-Katz
+  people. Awaiting: f2_sl1_powersums (4/4).
