@@ -3,7 +3,8 @@
 
 The complete census is an external CR-004 computation.  The local entrypoint
 requires an explicit acknowledgement before it will schedule the full fleet;
-bounded pilots remain available through ``--limit``.
+bounded pilots remain available through ``--limit``.  The ``--resume-missing``
+mode consumes a checked inventory and schedules only a bounded missing wave.
 """
 
 from __future__ import annotations
@@ -33,6 +34,10 @@ PRIME_GROUP_ROOT = f"{RUN_ROOT}/prime_groups"
 PRIME_FILE = f"{RUN_ROOT}/distinct_primes.txt"
 REMOTE_RESULT_FILE = f"{RUN_ROOT}/result.json"
 OUTPUT = Path(__file__).with_name("dli_wcl_weight5_recursive_norm_full_result.json")
+REPOSITORY = Path(__file__).resolve().parents[2]
+INVENTORY = (
+    REPOSITORY / "notes" / "pilots_20260806" / "wcl15_finish" / "inventory.json"
+)
 
 app = modal.App("rs-mca-dli-wcl-weight5-recursive-norm-full")
 volume = modal.Volume.from_name("rs-mca-dli-wcl-weight5-affine-classes-v1")
@@ -531,8 +536,155 @@ def checkpoint_progress() -> dict[str, object]:
     }
 
 
+def resume_bounds(maximum_batches: int) -> tuple[dict[str, object], list[tuple[int, int, int]]]:
+    inventory_bytes = INVENTORY.read_bytes()
+    inventory = json.loads(inventory_bytes)
+    recorded_digest = inventory.get("inventory_digest")
+    unsigned = dict(inventory)
+    unsigned.pop("inventory_digest", None)
+    computed_digest = hashlib.sha256(
+        json.dumps(unsigned, sort_keys=True, separators=(",", ":")).encode()
+    ).hexdigest()
+    expected = {
+        "schema": "wcl15-finish-inventory-v1",
+        "status": "COMPLETE",
+        "run_id": RUN_ID,
+        "representative_sha256": REPRESENTATIVE_SHA256,
+        "class_count": CLASS_COUNT,
+        "batch_size": BATCH_SIZE,
+        "expected_batches": (CLASS_COUNT + BATCH_SIZE - 1) // BATCH_SIZE,
+    }
+    mismatches = {
+        key: [inventory.get(key), value]
+        for key, value in expected.items()
+        if inventory.get(key) != value
+    }
+    if mismatches or recorded_digest != computed_digest:
+        raise RuntimeError(
+            f"resume inventory mismatch: fields={mismatches} "
+            f"digest={recorded_digest}/{computed_digest}"
+        )
+    indices = []
+    for start, end in inventory["missing_ranges"]:
+        if not 0 <= start <= end < expected["expected_batches"]:
+            raise RuntimeError(f"invalid missing range: {[start, end]}")
+        indices.extend(range(start, end + 1))
+    if len(indices) != inventory["missing_batches"] or len(indices) != len(set(indices)):
+        raise RuntimeError("missing-range coverage mismatch")
+    if maximum_batches <= 0:
+        raise RuntimeError("resume wave requires --max-missing-batches > 0")
+    indices = indices[:maximum_batches]
+    bounds = [
+        (index, index * BATCH_SIZE, min((index + 1) * BATCH_SIZE, CLASS_COUNT))
+        for index in indices
+    ]
+    provenance = {
+        "inventory_sha256": hashlib.sha256(inventory_bytes).hexdigest(),
+        "inventory_digest": recorded_digest,
+        "inventory_missing_batches": inventory["missing_batches"],
+        "selected_batches": len(bounds),
+        "selected_first": indices[0] if indices else None,
+        "selected_last": indices[-1] if indices else None,
+    }
+    return provenance, bounds
+
+
 @app.local_entrypoint()
-def main(limit: int = 0, external_full: bool = False) -> None:
+def main(
+    limit: int = 0,
+    external_full: bool = False,
+    resume_missing: bool = False,
+    max_missing_batches: int = 0,
+) -> None:
+    if resume_missing:
+        if not external_full or limit:
+            raise RuntimeError(
+                "resume mode requires --external-full and is incompatible with --limit"
+            )
+        provenance, bounds = resume_bounds(max_missing_batches)
+        completed_rows = []
+        errors = []
+        for row in process_batch.map(
+            bounds,
+            order_outputs=False,
+            return_exceptions=True,
+        ):
+            if isinstance(row, BaseException):
+                errors.append({"error": repr(row)})
+            else:
+                completed_rows.append(row)
+        completed_rows.sort(key=lambda row: int(row["batch_index"]))
+        digest = hashlib.sha256()
+        for row in completed_rows:
+            digest.update(
+                (
+                    f"{row['batch_index']}:{row['candidate_digest']}:"
+                    f"{row['factor_digest']}:{row['resolved_rows']}:"
+                    f"{len(row['unresolved_cases'])}\n"
+                ).encode()
+            )
+        result = {
+            "schema": "dli-wcl-weight5-recursive-norm-resume-wave-v1",
+            "run_id": RUN_ID,
+            "status": (
+                "COMPLETE"
+                if not errors and len(completed_rows) == len(bounds)
+                else "PARTIAL"
+            ),
+            **provenance,
+            "requested_batches": len(bounds),
+            "completed_batches": len(completed_rows),
+            "cache_hits": sum(int(bool(row.get("cache_hit"))) for row in completed_rows),
+            "covered_rows": sum(int(row["rows"]) for row in completed_rows),
+            "resolved_rows": sum(int(row["resolved_rows"]) for row in completed_rows),
+            "unresolved_cases": [
+                case for row in completed_rows for case in row["unresolved_cases"]
+            ],
+            "high_gate_cases": [
+                case for row in completed_rows for case in row["high_gate_cases"]
+            ],
+            "max_v2_prime_minus_1": max(
+                (int(row["max_v2_prime_minus_1"]) for row in completed_rows),
+                default=-1,
+            ),
+            "max_norm_bits": max(
+                (int(row["max_norm_bits"]) for row in completed_rows), default=0
+            ),
+            "max_batch_seconds": max(
+                (float(row["seconds"]) for row in completed_rows), default=0.0
+            ),
+            "wave_digest": digest.hexdigest(),
+            "source_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+            "client_errors": errors,
+        }
+        first = provenance["selected_first"]
+        last = provenance["selected_last"]
+        output = Path(__file__).with_name(
+            f"dli_wcl_weight5_recursive_norm_resume_{first}_{last}_result.json"
+        )
+        output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+        print(
+            "DLI_WCL_WEIGHT5_RECURSIVE_NORM_RESUME "
+            + json.dumps(
+                {
+                    "status": result["status"],
+                    "requested_batches": result["requested_batches"],
+                    "completed_batches": result["completed_batches"],
+                    "covered_rows": result["covered_rows"],
+                    "resolved_rows": result["resolved_rows"],
+                    "unresolved": len(result["unresolved_cases"]),
+                    "eligible": len(result["high_gate_cases"]),
+                    "max_v2": result["max_v2_prime_minus_1"],
+                    "cache_hits": result["cache_hits"],
+                    "errors": len(errors),
+                    "max_batch_seconds": result["max_batch_seconds"],
+                    "output": str(output),
+                },
+                sort_keys=True,
+            )
+        )
+        return
+
     if limit <= 0 and not external_full:
         raise RuntimeError(
             "full CR-004 census is not locally authorized; pass a positive "

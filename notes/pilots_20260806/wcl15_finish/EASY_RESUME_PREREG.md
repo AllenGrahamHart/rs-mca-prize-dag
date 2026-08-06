@@ -1,0 +1,53 @@
+# WCL `(1,5)` easy-census resume - preregistration
+
+- **date:** 2026-08-06
+- **consumer:** `dli_wcl_slot_1_5_emptiness`
+- **starting pin:** `66762875`
+- **inventory:** COMPLETE, SHA-256
+  `52aaac5ba078999383d62b586007874772c1f5bef909e639d8b0fe4076df754d`
+
+## Decision
+
+Resume the exact recursive-norm census in bounded waves, scheduling only
+batch indices declared missing by the independently banked inventory.  Wave
+1 contains the first 5,000 missing batches in increasing order: the 47
+interrupted holes below index 21,379 followed by the first 4,953 indices of
+the contiguous suffix.  It covers at most 320,000 new affine-Galois classes.
+
+The worker algorithm and checkpoint schema are unchanged.  Each batch
+reconstructs 64 pinned representatives, computes each exact cyclotomic norm
+by recursive quadratic descent, gives PARI/GP at most 60 seconds per norm,
+checks every returned factor for primality and exact product, filters
+`q<2^256` and `v_2(q-1)>=41`, and atomically writes a summary plus prime
+shard.  A timed-out factor is retained as an explicit hard-tail norm.
+
+## Predictions and outcomes
+
+**P1.**  All 5,000 batches complete with zero cache hits and zero client
+errors, adding 320,000 rows.
+
+**P2.**  The unresolved rate remains below `2e-4`, so the wave adds fewer
+than 64 hard-tail norms.
+
+**P3.**  No completely factored row reaches the official split gate.  A
+recorded gate factor is a candidate falsifier and stops further waves pending
+direct reconstruction.
+
+`COMPLETE` authorizes a fresh metadata inventory, not another wave
+automatically.  `PARTIAL` retains every atomic checkpoint and requires an
+inventory before retry.  Neither outcome changes the DAG until the full easy
+census, hard tails, aggregation, and independent replay all pass.
+
+## Resource ceiling
+
+At most 100 Modal containers; each batch uses two CPUs, 2 GiB RAM, a
+2,100-second function cap, two factor threads, and a 60-second cap per norm.
+Historical metering was about `$3.03` for 21,332 batches; Wave 1 is expected
+below `$0.75` and has a conservative ceiling of `$1.25`.  The app is stopped
+when the client exits.  No aggregation or hard-tail work is launched.
+
+```text
+tools/ramguard modal -- modal run \
+  experiments/prize_resolution/dli_wcl_weight5_recursive_norm_full_modal.py \
+  --external-full --resume-missing --max-missing-batches 5000
+```
