@@ -1764,3 +1764,50 @@ verify chain):
   rename; the D2/D3 shard addenda; the remaining round-15 mint queue
   (UPB, 3-drop THEOREM D, F2 A/B/C wave, crossing X/Q/Y/MW wave,
   b2b retyping).
+
+## 2026-08-06: ROUND 19 LAUNCHED — the ternary unification, attacked before adoption (4 Opus pilots)
+
+Per the user's directive (speculative unifications have collapsed
+before — attack/strengthen before proceeding), the round-18
+convergence candidate goes through the fire the (ES) unification
+never got:
+- **tern_unification_adversary (ADVERSARIAL, blind to the builder)**:
+  the (ES)-collapse failure modes as registered falsifiers — the
+  shape-pun test (one parametrized statement specializing EXACTLY,
+  vs the proved mass/existence split, R-vs-one conditions,
+  fibred-vs-native ternary, differing evaluation structures); the
+  regime-compatibility audit (mutually satisfiable or provably
+  disjoint — with the honest note that a method-unification can
+  survive disjoint regimes, unlike (ES)'s discharge claim); the
+  instrument transfer matrix (exact hypothesis matching); the
+  structural-disanalogy hunt. Deliverable: a GRADED verdict
+  (statement / regime / method), each surviving or killed, with
+  proofs.
+- **tern_master_statement (GENERATIVE, blind to the adversary)**:
+  the strongest honest form — T(P, Lambda) with exact dictionaries
+  (existence/count/mass as a PARAMETER per CATCH-Z1), the shared
+  spine proved with subtraction (char-0 emptiness at 2-power
+  orders; CS over Frobenius-stable Lambda; orbits; Z-FLOOR scope),
+  the constructive instrument matrix, THE VALUE TEST (>= 1 proved
+  cross-instance consequence or the honest zero), the draft master
+  node.
+- **tern_route_b (GENERATIVE)**: the one route Z-NOGO leaves open,
+  made precise or killed — the exact character-sum form of Z_1
+  (gate: machine-verified identity), the cancellation ledger (the
+  factor-2 headroom to theorem grade or dead-with-gap), the
+  round-15 L2-barrier precedent test, toy calibration, and the
+  LIVE/DEAD/TRANSFORMED verdict (chasing 2-power-conductor
+  Gauss-sum exactness hard).
+- **tern_small_scale_laws (ADVERSARIAL-EMPIRICAL, blind to
+  route-b)**: matched exact censuses across the three instance
+  miniatures; the TRACKING TEST (dictionaries pre-stated; a
+  structured deviation = quantitative refutation); the p = 5
+  zero-ternary anomaly explained or weaponized (shared anomaly =
+  best positive evidence; local = disanalogy datum); the
+  cross-instance scaling verdict. One labelled composite-length
+  negative-control cell; otherwise 2-power only (CATCH-Z6).
+
+Blind pairs: adversary/builder on the statement; route-b/laws on
+the quantitative side. The coordinator reconciles the two
+instrument matrices at the bank. Standing rules as round 18
+(hardened compute-law clause; REPORT.md persistence at bank).
