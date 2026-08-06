@@ -1,3 +1,7 @@
+# b1_char0_giant_coset_theorem — statement addenda
+
+(The statement of record for this node lives in node.json; this file carries dated addenda only.)
+
 
 ## Addendum (2026-08-06, mint-4 — CATCH-15B repair)
 

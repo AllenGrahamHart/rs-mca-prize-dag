@@ -1,3 +1,7 @@
+# u2c_giant_tnull_dichotomy — statement addenda
+
+(The statement of record for this node lives in node.json; this file carries dated addenda only.)
+
 
 ## Addendum (2026-08-06, mint-4, rounds 16-18)
 
