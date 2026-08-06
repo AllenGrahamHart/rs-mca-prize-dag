@@ -5110,6 +5110,12 @@ makes a bounded range complete.
   launch.  Full details are preregistered in
   `notes/pilots_20260806/wcl15_finish/PREREG.md`; this authorization does not
   lift the external-full guard.
+  App `ap-UTEn7QKVL578dJdILqaWrp` stopped normally with a valid partial after
+  serially checking 1,325 of 21,332 present summaries in 240 seconds.  It
+  found no invalid record, missing prime shard, or high-gate factor; 49
+  unresolved norms and maximum `v_2(p-1)=29`.  One same-ceiling retry is
+  authorized with at most 64 concurrent I/O threads; a second partial ends
+  the inventory route.
 
 - **2026-08-03 interrupted-census checkpoint (Codex pin `8502b105`):**
   app `ap-f8oZLbaSVpbTXtCz4cPG2Z` extended the exact `(1,5)` recursive-norm

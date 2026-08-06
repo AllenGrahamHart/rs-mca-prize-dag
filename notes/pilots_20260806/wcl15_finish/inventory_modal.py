@@ -49,11 +49,16 @@ def ranges(values: list[int]) -> list[list[int]]:
     volumes={"/classes": volume},
 )
 def inventory() -> dict[str, object]:
+    import concurrent.futures
     import time
 
     started = time.monotonic()
     volume.reload()
     paths = sorted(BATCH_ROOT.glob("part_*.json"))
+    prime_indices = {
+        int(path.stem.removeprefix("part_"))
+        for path in PRIME_ROOT.glob("part_*.txt")
+    }
     valid_indices = set()
     invalid = []
     extras = []
@@ -64,62 +69,78 @@ def inventory() -> dict[str, object]:
     maximum_v2 = -1
     partial = False
 
-    for position, path in enumerate(paths):
-        if time.monotonic() - started > 240:
-            partial = True
-            break
+    def read_one(path: Path) -> tuple[str, int | None, dict | None, str | None]:
         try:
             index = int(path.stem.removeprefix("part_"))
             row = json.loads(path.read_text())
         except (ValueError, OSError, json.JSONDecodeError) as error:
-            invalid.append({"path": str(path), "error": repr(error)})
-            continue
-        if not 0 <= index < EXPECTED_BATCHES:
-            extras.append(index)
-            continue
-        start = index * BATCH_SIZE
-        end = min(start + BATCH_SIZE, CLASS_COUNT)
-        expected = {
-            "schema": "dli-wcl-weight5-recursive-norm-batch-v2",
-            "run_id": RUN_ID,
-            "representative_sha256": REPRESENTATIVE_SHA256,
-            "status": "COMPLETE",
-            "batch_index": index,
-            "start": start,
-            "end": end,
-            "rows": end - start,
-        }
-        mismatches = {
-            key: [row.get(key), value]
-            for key, value in expected.items()
-            if row.get(key) != value
-        }
-        if mismatches or index in valid_indices:
-            invalid.append(
-                {
-                    "path": str(path),
-                    "index": index,
-                    "mismatches": mismatches,
-                    "duplicate": index in valid_indices,
-                }
-            )
-            continue
-        valid_indices.add(index)
-        covered_rows += int(row["rows"])
-        resolved_rows += int(row["resolved_rows"])
-        cases = row.get("unresolved_cases", [])
-        unresolved_cases += len(cases)
-        unresolved_norms.update(str(case["norm"]) for case in cases)
-        maximum_v2 = max(maximum_v2, int(row["max_v2_prime_minus_1"]))
-        high_gate_cases.extend(row.get("high_gate_cases", []))
-        if not (PRIME_ROOT / f"part_{index:05d}.txt").is_file():
-            missing_prime_shards.append(index)
-        if position and position % 2000 == 0:
-            print(
-                f"inventory_progress files={position}/{len(paths)} "
-                f"valid={len(valid_indices)} unresolved={unresolved_cases}",
-                flush=True,
-            )
+            return str(path), None, None, repr(error)
+        return str(path), index, row, None
+
+    scanned = 0
+    executor = concurrent.futures.ThreadPoolExecutor(max_workers=64)
+    futures = [executor.submit(read_one, path) for path in paths]
+    try:
+        for future in concurrent.futures.as_completed(futures):
+            if time.monotonic() - started > 240:
+                partial = True
+                break
+            path_text, index, row, error = future.result()
+            scanned += 1
+            if error is not None or index is None or row is None:
+                invalid.append({"path": path_text, "error": error})
+                continue
+            if not 0 <= index < EXPECTED_BATCHES:
+                extras.append(index)
+                continue
+            start = index * BATCH_SIZE
+            end = min(start + BATCH_SIZE, CLASS_COUNT)
+            expected = {
+                "schema": "dli-wcl-weight5-recursive-norm-batch-v2",
+                "run_id": RUN_ID,
+                "representative_sha256": REPRESENTATIVE_SHA256,
+                "status": "COMPLETE",
+                "batch_index": index,
+                "start": start,
+                "end": end,
+                "rows": end - start,
+            }
+            mismatches = {
+                key: [row.get(key), value]
+                for key, value in expected.items()
+                if row.get(key) != value
+            }
+            if mismatches or index in valid_indices:
+                invalid.append(
+                    {
+                        "path": path_text,
+                        "index": index,
+                        "mismatches": mismatches,
+                        "duplicate": index in valid_indices,
+                    }
+                )
+                continue
+            valid_indices.add(index)
+            covered_rows += int(row["rows"])
+            resolved_rows += int(row["resolved_rows"])
+            cases = row.get("unresolved_cases", [])
+            unresolved_cases += len(cases)
+            unresolved_norms.update(str(case["norm"]) for case in cases)
+            maximum_v2 = max(maximum_v2, int(row["max_v2_prime_minus_1"]))
+            high_gate_cases.extend(row.get("high_gate_cases", []))
+            if index not in prime_indices:
+                missing_prime_shards.append(index)
+            if scanned % 2000 == 0:
+                print(
+                    f"inventory_progress files={scanned}/{len(paths)} "
+                    f"valid={len(valid_indices)} unresolved={unresolved_cases}",
+                    flush=True,
+                )
+    finally:
+        if partial:
+            for future in futures:
+                future.cancel()
+        executor.shutdown(wait=not partial, cancel_futures=partial)
 
     missing = sorted(set(range(EXPECTED_BATCHES)) - valid_indices)
     payload = {
@@ -131,7 +152,7 @@ def inventory() -> dict[str, object]:
         "batch_size": BATCH_SIZE,
         "expected_batches": EXPECTED_BATCHES,
         "files_seen": len(paths),
-        "files_scanned": len(valid_indices) + len(invalid) + len(extras),
+        "files_scanned": scanned,
         "valid_batches": len(valid_indices),
         "covered_rows": covered_rows,
         "resolved_rows": resolved_rows,

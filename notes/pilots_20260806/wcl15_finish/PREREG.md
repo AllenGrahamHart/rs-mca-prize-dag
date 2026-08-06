@@ -45,3 +45,18 @@ campaign is authorized by this preregistration.
 tools/ramguard modal -- modal run \
   notes/pilots_20260806/wcl15_finish/inventory_modal.py
 ```
+
+## First attempt and bounded retry
+
+App `ap-UTEn7QKVL578dJdILqaWrp` completed and stopped normally with a valid
+`PARTIAL` packet after the internal 240-second timer.  It serially validated
+1,325 of 21,332 present summaries: no invalid record, missing prime shard, or
+high-gate factor; 49 unresolved norms; maximum recorded `v_2(p-1)=29`.  Its
+partial missing range is not a coverage claim.
+
+The measured bottleneck is per-file latency on the many-small-file Modal
+volume, not parsing or mathematics.  One corrected retry is authorized under
+the same container, timeout, and cost ceiling, changing only the reader to at
+most 64 concurrent I/O threads.  It performs the identical validations and
+still launches no norm or factor computation.  A second partial result ends
+this inventory route; no further retry is authorized here.
