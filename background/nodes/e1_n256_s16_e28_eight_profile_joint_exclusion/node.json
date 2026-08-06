@@ -16,14 +16,14 @@
       "background/nodes/e1_n256_s16_e28_eight_profile_joint_exclusion/source_pin.json",
       "background/nodes/e1_n256_s16_e28_eight_profile_joint_exclusion/verify.py",
       "background/nodes/e1_n256_s16_e28_eight_profile_joint_exclusion/verify_audit.py",
-      "background/nodes/e1_n256_s16_e28_profile_parity_light_reduction/notes/e28_eight_profile_joint_census.cpp",
-      "background/nodes/e1_n256_s16_e28_profile_parity_light_reduction/notes/e28_eight_profile_joint_census_modal.py",
-      "background/nodes/e1_n256_s16_e28_profile_parity_light_reduction/notes/e28_eight_profile_joint_census_result.json",
-      "background/nodes/e1_n256_s16_e28_profile_parity_light_reduction/notes/e28_eight_profile_joint_census_audit.cpp",
-      "background/nodes/e1_n256_s16_e28_profile_parity_light_reduction/notes/e28_eight_profile_joint_census_audit_modal.py",
-      "background/nodes/e1_n256_s16_e28_profile_parity_light_reduction/notes/e28_eight_profile_joint_census_audit_result.json",
-      "background/nodes/e1_n256_s16_e28_profile_parity_light_reduction/notes/e28_eight_profile_exceptional_norm_modal.py",
-      "background/nodes/e1_n256_s16_e28_profile_parity_light_reduction/notes/e28_eight_profile_exceptional_norm_result.json"
+      "background/nodes/e1_n256_s16_e28_eight_profile_joint_exclusion/notes/e28_eight_profile_joint_census.cpp",
+      "background/nodes/e1_n256_s16_e28_eight_profile_joint_exclusion/notes/e28_eight_profile_joint_census_modal.py",
+      "background/nodes/e1_n256_s16_e28_eight_profile_joint_exclusion/notes/e28_eight_profile_joint_census_result.json",
+      "background/nodes/e1_n256_s16_e28_eight_profile_joint_exclusion/notes/e28_eight_profile_joint_census_audit.cpp",
+      "background/nodes/e1_n256_s16_e28_eight_profile_joint_exclusion/notes/e28_eight_profile_joint_census_audit_modal.py",
+      "background/nodes/e1_n256_s16_e28_eight_profile_joint_exclusion/notes/e28_eight_profile_joint_census_audit_result.json",
+      "background/nodes/e1_n256_s16_e28_eight_profile_joint_exclusion/notes/e28_eight_profile_exceptional_norm_modal.py",
+      "background/nodes/e1_n256_s16_e28_eight_profile_joint_exclusion/notes/e28_eight_profile_exceptional_norm_result.json"
     ],
     "statement": "At N=256, folded profile (3,4,0), and V=56, all eight exact profiles are impossible. Folded-chord and direct-negacyclic engines agree after 3,056,582,144 vectors per engine, leaving 12,638 cubic exceptions, of which 4,372 have full conductor. The conductor theorem removes 8,266; FLINT and PARI put all primitive norms below threshold with 6*N_max<2^250<7*N_max.",
     "notes": "ROUTE CLOSURE 2026-07-27: removes every profile in the exact V=56 reduction."

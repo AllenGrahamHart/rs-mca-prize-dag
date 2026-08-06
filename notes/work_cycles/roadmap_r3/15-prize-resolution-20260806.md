@@ -692,3 +692,33 @@ new assumptions: none in the reduction; primitive flatness uniform under punctur
 compute: five tiny exhaustive cyclic fields, 6,294 local checks; no Modal spend
 next: reconcile the finite signed-alignment consumer; if mass remains required, attack primitive master flatness on the printed punctures
 ```
+
+### Node-local proof-payload refactor
+
+The large E1 evidence umbrellas had accumulated downstream census and norm
+packets after their claims had already been decomposed into narrower DAG
+nodes. The physical ownership now matches the theorem graph: 138 production,
+launcher, result, and independent-audit files (47,588,230 bytes) were moved
+from the E26, E28, E30, and square-mass-18 reduction directories into the 16
+existing exclusion nodes whose claims they certify. Shared E30 light atlases
+remain with the common profile reducer.
+
+No theorem statement, status, dependency edge, or certificate content
+changed. All 27 affected primary and audit verifiers pass, including the full
+E26/E28/E30 census summaries and every square-mass-18 cofactor branch. The
+compiled graph remains at 1,840 nodes and 5,121 edges. The ownership rule is
+recorded in `background/NODE_PAYLOAD_OWNERSHIP.md`: generated packets belong
+to the narrowest claiming node, and cross-node storage is reserved for real
+shared suppliers.
+
+```text
+starting pin: 29d0c3941; canonical 18be2c0c3; upstream main 93fba1be
+lane: repository integrity / DAG-local evidence ownership
+result: 138 files and 47.6 MB moved to 16 existing theorem owners
+DAG status delta: none; 1,840 nodes and 5,121 edges preserved
+upstream terminal delta: none
+delta-star bracket movement: none
+new assumptions: none
+compute: verifier-scale local replay only; no Modal spend
+next: resume the highest-value live prize dependency after canonical Round-20/Wave-47 reconciliation
+```

@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[3]
-NOTES = ROOT / "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes"
+NOTES = Path(__file__).resolve().parent / "notes"
 MAXIMUM_NORM = 384340001363476246612319029755636117549080229904040014178244445877664108548
 
 

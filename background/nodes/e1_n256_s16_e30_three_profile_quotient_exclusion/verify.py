@@ -18,17 +18,17 @@ CLOSED = ("0,3,2", "6,2,0,1", "3,0,3")
 EXPECTED_PIN = {
     "base_census_file": "background/nodes/e1_n256_s16_sparse_l1_variance_exclusion/notes/e34_nested_quotient_census.cpp",
     "base_census_file_sha256": "ccdcefeb71d7805183c763aca062fe4da6a86ff6ff542ab8a0200267021f69f4",
-    "checker_file": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_eight_profile_quotient_probe_check.py",
+    "checker_file": "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/notes/e30_eight_profile_quotient_probe_check.py",
     "checker_file_sha256": "157275395a2bf09c7c4a8e17f980fcd6faa17c0e23555b00b61cf9ef29f114e3",
     "collision_norm_file": "critical/nodes/collision_norm_criterion/statement.md",
     "collision_norm_file_sha256": "862ec8444336d720abe4f4d64edb2f28a1edf8e6b0d10fe3611923378e951566",
-    "launcher_file": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_eight_profile_quotient_probe_modal.py",
+    "launcher_file": "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/notes/e30_eight_profile_quotient_probe_modal.py",
     "launcher_file_sha256": "13087c885fc72c901593cfe708704097458b98006e0184ddd4abe3fdf65bf033",
     "profile_reduction_file": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/statement.md",
     "profile_reduction_file_sha256": "7d988ae69d03e78167eea76ca9746782b35627bb9fde645a187a121ee291aef4",
-    "result_file": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_eight_profile_quotient_probe_result.json",
+    "result_file": "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/notes/e30_eight_profile_quotient_probe_result.json",
     "result_file_sha256": "bf441e338cced58d72a8490dd08bd95cca08c2cc1ba1d23327d0dab837e27538",
-    "wrapper_census_file": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_eight_profile_quotient_census.cpp",
+    "wrapper_census_file": "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/notes/e30_eight_profile_quotient_census.cpp",
     "wrapper_census_file_sha256": "ec5a71ea442bcbd96ab5109d8d6356989997a30083bc78230d7bdecb6a164e66",
 }
 
