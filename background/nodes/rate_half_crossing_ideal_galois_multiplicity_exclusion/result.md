@@ -15,6 +15,9 @@ The successful independent artifact is
 `notes/pilots_20260806/cs_transport/cs_independent_audit_rerun_result.json`,
 Modal app `ap-JNBoN1s1INvr1ovkHvbf8h`, checker SHA-256
 `efc707ece973addc639c3e1463e7c0605e08158836dd28054ed9cb2ac2562c60`.
+The final two-verifier artifact is `cs_node_verify_final_result.json`, Modal
+app `ap-MCOrXFtNvxPe9tbqfvGCl6`, SHA-256
+`ae71d6737c1b98809640d70bbdc58fb37560d45f43d9316b6cb7be2144cb687c`.
 
 No critical node changes status.  The surviving work is rowwise: pairs
 `(p,w)` for which `(IG4)` does not bite, plus the exact structural-count or

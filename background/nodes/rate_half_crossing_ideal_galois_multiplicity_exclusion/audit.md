@@ -44,3 +44,9 @@ preserved.  After a separate remediation registration, app
 
 These checks support the audit but are not used as proof of the general
 statement.
+
+The completed node packet was then replayed in a separate Modal image.
+App `ap-MCOrXFtNvxPe9tbqfvGCl6` returned `2/2` PASS: the primary verifier
+matched the persisted audit and checked both DAG edges, while the independent
+contract verifier rechecked the boundary, tower, scope, failed-run provenance,
+and tamper contract.

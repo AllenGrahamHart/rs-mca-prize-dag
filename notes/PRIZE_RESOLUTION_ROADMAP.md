@@ -17978,21 +17978,23 @@ uniform official-row coverage: `(CS)` depends on the base characteristic
 larger residual (the bound is vacuous throughout the bracket at
 `log2 p<=64`).  The exact unresolved set is therefore the rowwise set of
 `(p,w)` failing the printed inequality, together with the structural
-strata.  This remains a higher-value endpoint than generic WCL certificate
-extraction: independently audit `(CS)`, transport its exact rowwise scope
-into the critical DAG without flipping a crossing target, and then attack
-the exceptional-floor sparsity statement.
+strata.  The theorem has now been independently audited and transported as
+the PROVED supplier
+`rate_half_crossing_ideal_galois_multiplicity_exclusion`, with evidence edges
+to the crossing and F2 consumers and no target-status flip.  The next useful
+attack is the rowwise exceptional-floor sparsity or a stronger norm floor in
+the printed low-characteristic/low-window residual.
 
 ```text
 starting pin: edc40e0f; canonical c987f5d1; upstream main 93fba1be
 lane: crossing / F2 quotient-prefix flatness
-result: O1 FALSIFIED at non-generating admissible rows; CS is rowwise, with a 71.16% near-256-bit benchmark
-DAG status delta: pending independent transport audit
+result: O1 FALSIFIED; CS independently PROVED rowwise, with a 71.16% near-256-bit benchmark
+DAG status delta: one PROVED supplier added; two evidence edges; no target flip
 upstream terminal delta: potentially shared with (Q), not yet exported
 delta-star bracket movement: rowwise partial exclusion; no uniform movement
 new assumptions: none for CS; E_floor sparsity remains open below threshold
-compute: canonical exact proof/check packets only; no new run yet
-next: independently replay CS and identify its exact critical consumer/edge
+compute: apps ap-JNBoN1s1INvr1ovkHvbf8h and ap-MCOrXFtNvxPe9tbqfvGCl6, bounded PASS
+next: attack rowwise E_floor sparsity or strengthen the norm floor below CS
 ```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 

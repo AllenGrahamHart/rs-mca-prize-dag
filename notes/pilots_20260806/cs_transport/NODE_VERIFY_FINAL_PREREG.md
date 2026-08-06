@@ -15,3 +15,13 @@ against the same compiled DAG.
 One Modal container, one CPU, 1 GiB RAM, 120 seconds, no retry.  Only a final
 `2/2` PASS authorizes promotion.  Any failure ends this verification route
 and leaves the node unpromoted.
+
+## Result
+
+Modal app `ap-MCOrXFtNvxPe9tbqfvGCl6` returned `2/2` PASS.  The primary
+verifier reported 816 norm checks, 1,104 finite-field divisibility checks,
+the exact first-excluded boundary, and both DAG evidence edges.  The
+independent verifier reported the two boundary checks, all 65 tower checks,
+preserved failed-run provenance, and the tamper contract.  Result JSON
+SHA-256:
+`ae71d6737c1b98809640d70bbdc58fb37560d45f43d9316b6cb7be2144cb687c`.

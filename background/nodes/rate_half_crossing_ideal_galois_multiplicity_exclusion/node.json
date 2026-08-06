@@ -18,7 +18,8 @@
       "notes/pilots_20260806/es_coprimality/PROOFS.md",
       "notes/pilots_20260806/cs_transport/AUDIT_PREREG.md",
       "notes/pilots_20260806/cs_transport/AUDIT_RERUN_PREREG.md",
-      "notes/pilots_20260806/cs_transport/cs_independent_audit_rerun_result.json"
+      "notes/pilots_20260806/cs_transport/cs_independent_audit_rerun_result.json",
+      "notes/pilots_20260806/cs_transport/cs_node_verify_final_result.json"
     ]
   },
   "requires": [],

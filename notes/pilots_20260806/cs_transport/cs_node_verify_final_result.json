@@ -1,0 +1,19 @@
+{
+  "app": "rs-mca-cs-proved-node-verification",
+  "records": [
+    {
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "RATE_HALF_CROSSING_IDEAL_GALOIS_MULTIPLICITY_EXCLUSION_PASS norm_checks=816 divisibility_checks=1104 first_excluded=170752922588 dag=2/2\n",
+      "verifier": "verify.py"
+    },
+    {
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "AUDIT_RATE_HALF_CROSSING_IDEAL_GALOIS_MULTIPLICITY_EXCLUSION_PASS boundary=2/2 tower=65/65 failed_run_preserved=1 tamper=1\n",
+      "verifier": "verify_audit.py"
+    }
+  ],
+  "schema": "cs-proved-node-verification-v1",
+  "status": "PASS"
+}
