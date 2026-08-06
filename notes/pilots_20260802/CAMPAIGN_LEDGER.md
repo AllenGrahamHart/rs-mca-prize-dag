@@ -1438,3 +1438,88 @@ census machinery; candidate for a coordinator-launched run next.
   question (catch #11/#13 analogue — if the base moves to the
   generated field every band verdict WORSENS).
 - Awaiting: es_coprimality, f2_adm.
+
+## 2026-08-06: round-17 pilots 3+4 BANKED — ROUND 17 COMPLETE: (O1) false off-generation; THEOREM CS covers 71% of the crossing bracket
+
+- **f2_adm (Opus) BANKED, MAINTAINER-LEVEL** (373/373; clean-state
+  replay byte-identical). The falsifier does NOT fire — the F2
+  mechanism reconstructs on <= 2 rungs (LEMMA ADM-2: one-step
+  direct-sum into prime-field GRS codes; dim L EXACT, sl1b's bracket
+  collapses to a point; ADM-3 kills the coefficient-field ambiguity)
+  — but the reconstruction is worse than vacuity: THEOREM A
+  discharges NO moving rung on ANY admissible row (0.78% of domain
+  at prize-max); LEMMA 3 exactly SATURATED (k/e = 1.000, zero
+  margin, vs the tower's 7.89x); and **CATCH-1 (maintainer): (O1)
+  IS FALSE by 2^{Theta(n)} on every non-generating admissible row
+  (k = ord_n(p) < e)** — explicit exhibit p = 3·2^41+1, q = p^6
+  (COORDINATOR-VERIFIED independently; the SAME row es_g_lanes
+  exhibited above balance — blind cross-pilot convergence on the
+  extension-row adversary). F2 HEADLINE OF RECORD (replaces all rung
+  bands): "(O1) discharged on order layers <= 2t (<= 4.9% of domain,
+  none moving); at every moving rung it equals SL-1b' with LEMMA 3
+  exactly saturated; and it is FALSE unless the smooth domain
+  generates the field." The generation hypothesis goes to Przemek.
+  SL-1b' now EXPLICIT: ternary mass of [2^38, 2^38-R, R+1]_p GRS on
+  the half-system of mu_{2^39}, R = 4.295e9, p ~ 2^64, C <= 4.
+  **THE SEAM IDENTITY (D5)**: (O1)'s necessary condition = the
+  PP5.0 avg-vs-sum seam (log2|K1|_eff >= n/2), equality exactly on
+  k = e rows — the pending user decision is sharpened: sum = bits
+  already spent; average = (O1) as a zero-slack claim. CATCH-2
+  (sl1b constant, addendum written), CATCH-3 (the tower
+  inconsistent with its own t: 7e10 is 1.29e5x too large by tower
+  arithmetic), CATCH-4 (empty (40,6) class), CATCH-6 (the
+  COSET-DOMAIN gap — antipodal law fails off-subgroup; new named
+  obligation). ~9 bare-python3 text edits self-reported.
+- **es_coprimality (Opus) BANKED** (143,974/0; fail-closure proven
+  by permanent injected-failure stage). **THEOREM CS** — the first
+  UNCONDITIONAL positive coverage of the (ES) crossing terminal:
+  ideal-level Galois multiplicity (p^{|Z_w^odd|} | N(x_1)) squeezed
+  against a SHARP AM-GM ceiling proves the instance outright
+  wherever ceil((w-1)/2)·log2 p > (n/4)·log2 r' — at 256-bit p,
+  71.16% of the bracket (w > 2^37.3131, incl. w = 2^38, 2^39);
+  coverage scales with log2 p (39.57% at 128 bits) and the
+  obligation quantifies over all admissible rows — NO STATUS FLIP,
+  banked as strong partial. LEMMA TWO (r' even => 2 | N; N_odd is
+  the invariant — the naive conjecture false at every prize row,
+  self-caught); LEMMA STRAT (the round-16 deep witnesses are w' = 2
+  PRINCIPAL instances — triangulates with es_g_lanes' one-condition
+  binding stratum); all 5 witnesses in the exceptional class with
+  exponents matching on the nose; crossing-shape rate EXACTLY
+  1.00000 (21,282/21,282 orbits, all characteristics); round-16's
+  r' = 7 gap closed. CATCH-17B: "generically coprime" was never
+  banked math — CC-sparsity = the SHARPENED form of the repo's own
+  named pair-coprimality open lemma (u2c + u1_x4 consumers).
+  CATCH-17D: C4-c's gcd-of-norms mechanism corrected (the collapse
+  identity makes it blind). CS2 SHARP — the low-w gap cannot close
+  archimedeanly. w = 3 NOT closed (CS degenerates to M3).
+
+ROUND-17 NET (4/4): t-naming refuted with CATCH-E (the Lambda parity
+pin, maintainer) + the sliver retired + 7e10 downgraded; the
+four-lane unification BROKEN AS WIRED (mutually unsatisfiable
+regimes; u2c alone correctly pinned; dli RES unwired); (O1) FALSE
+off-generation (the F2 lane conditional on a hypothesis the rules
+do not supply); THEOREM CS covers the high-w crossing
+unconditionally. THREE BLIND PILOTS CONVERGED on one frontier: the
+LOW-w CROSSING CORE (w in [2^34, 2^37.31]) — deep strata = w' = 2
+principal-ideal instances, n_a = 256 one-condition — plus E_floor
+sparsity (= pair-coprimality), the Z_1 ternary mass (SL-1b',
+explicit GRS), and the band lanes' re-pose. The universal adversary
+everywhere: extension/non-generating rows.
+
+BOARD AFTER ROUND 17:
+- Mystery 2 (F2): {the generation hypothesis (Przemek), Z_1/SL-1b'
+  (explicit prime-field GRS), the coset-domain re-derivation, the
+  PP5.0 seam choice (user; = (O1)'s own necessary condition), the
+  Lambda parity pin (maintainer)}.
+- Mysteries 1+3+4: {the low-w crossing core; E_floor sparsity
+  (pair-coprimality); the band re-pose (weight-aware form or
+  non-balance route) + the effective-base question + CATCH-16B;
+  u2c stands on its own correct pin; dli RES on its own
+  instruments}.
+- PENDING USER: W = 5 rollback (+ CR-W5-ELL1); the PP5.0 reading.
+- PENDING MAINTAINER (Przemek queue): the generation hypothesis;
+  the Lambda parity pin; the t*/mca_floor conflict-of-use; CATCH-1
+  tower answer to field_cap_check.
+- MINT-4 (still growing): (ES-G) re-scope + CS/STRAT/TWO + ADM
+  lemmas + |Z_w| closed forms + all round-16/17 catches + the
+  recovered reports.
