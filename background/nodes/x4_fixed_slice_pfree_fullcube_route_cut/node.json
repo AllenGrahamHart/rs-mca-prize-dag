@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "x4_fixed_slice_pfree_fullcube_route_cut",
+    "title": "Full-prefix to p-free syndrome reduction and full-cube route cut",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In characteristic p, every full depth-t elementary locator-prefix fiber on A-subsets is contained in one fixed-weight fiber of the p-free power-sum map Psi_J(S)=(sum_{x in S}x^j)_{1<=j<=t,p not dividing j}; hence it is also contained in a fiber of the same F_p-linear map on the full Boolean cube. At the official N=2^41 exact-list depth, however, t log2|B0|<=N-129. The full-cube map has at most |B0|^t outputs, so pigeonhole forces a fiber of size at least 2^(N-t log2|B0|)>=2^129>N^3=2^123. Therefore replacing the fixed Hamming slice by the unweighted Boolean cube cannot prove the N^3 maximum-prefix target; any F2/list-recovery bridge must retain the weight or an equally strong owner decomposition.",
+    "refs": [
+      "background/nodes/x4_fixed_slice_pfree_fullcube_route_cut/statement.md",
+      "background/nodes/x4_fixed_slice_pfree_fullcube_route_cut/proof.md",
+      "background/nodes/x4_fixed_slice_pfree_fullcube_route_cut/audit.md",
+      "background/nodes/x4_fixed_slice_pfree_fullcube_route_cut/claim_contract.md",
+      "background/nodes/x4_fixed_slice_pfree_fullcube_route_cut/dependency_subdag.md",
+      "background/nodes/x4_fixed_slice_pfree_fullcube_route_cut/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "x4_exact_slice_f2_guard_route_cut"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_exact_slice_extras_budget"
+    }
+  ],
+  "refutes": []
+}

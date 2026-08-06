@@ -3,6 +3,7 @@
 ```text
 x4_locator_prefix_consumer_scope [PROVED] --------ev--> u2c_exact_slice_extras_budget [TARGET]
 x4_exact_slice_f2_guard_route_cut [PROVED] --ev--> u2c_exact_slice_extras_budget [TARGET]
+x4_fixed_slice_pfree_fullcube_route_cut [PROVED] --ev--> u2c_exact_slice_extras_budget [TARGET]
 b2b_near_tail_bound [PROVED] --------------------ev--> u2c_exact_slice_extras_budget [TARGET]
 
 u2c_exact_slice_extras_budget [TARGET] --req--> x4_exactlist_staircase_split [CONDITIONAL]

@@ -16,8 +16,8 @@ def require(condition: bool, label: str) -> None:
 
 
 def main() -> None:
-    t_min = (N >> 8) - 1
-    require(2 * t_min * t_min > 385 * N, "uniform Hoeffding margin exceeds 385 bits")
+    t_min = (N >> 8) - 2
+    require(2 * t_min * t_min > 641 * N, "uniform Hoeffding margin exceeds 641 bits")
 
     t_upper = (N - 1) // 128
     require(t_upper < N // 64, "comparison depth is below N/64")
@@ -32,7 +32,8 @@ def main() -> None:
     for rho, t_xr in zip(RATES, PRINTED_T):
         require(t_xr * 2559 < 10 * N, f"rate {rho} printed exact-slice depth is guard-rejected")
 
-    require(128 + 256 < 385, "floor and gate overhead is below the Hoeffding margin")
+    require(2 * 256 + 129 < 642, "floor and gate overhead is below the Hoeffding margin")
+    require(N - ((N - 1) // 128 - 1) * 128 >= 129, "official lower-L gap is at least 129 bits")
     print("X4_EXACT_SLICE_F2_GUARD_ROUTE_CUT_PASS")
 
 

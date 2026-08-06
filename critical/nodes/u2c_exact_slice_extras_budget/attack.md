@@ -14,7 +14,10 @@ theorem and not a null-fiber theorem.
 4. Treat the full-ladder dictionary, complement involution, empty edge bands,
    and near-tail widths `15,14,13,12` as null-route inputs only until step 2
    is proved.
-5. If the count exceeds `N^3`, exhibit the official family and re-pose the
+5. Preserve the fixed Hamming weight. The proved
+   `x4_fixed_slice_pfree_fullcube_route_cut` shows that the unweighted Boolean
+   syndrome map necessarily has a fiber of size at least `2^129>N^3`.
+6. If the count exceeds `N^3`, exhibit the official family and re-pose the
    `x4` direct-column budget rather than weakening the falsifier.
 
 The guarded `(C)`-depth F2 mass problem and historical all-`t`-null target

@@ -18732,6 +18732,47 @@ new assumptions: none
 compute: bounded exact enumeration under tiny RAM guard; no Modal spend
 next: prove that heavy even-index faces descend to paid quotient rungs, or bound primitive high moments
 ```
+
+### Fixed-weight fence: the full Boolean syndrome route is too large
+
+The characteristic-`p` dictionary gives a valid but potentially lossy
+linearization. A full elementary prefix determines all first power sums and,
+in particular, its `p`-free power-sum syndrome. Hence each full prefix fiber
+is contained in a fixed-weight fiber of an explicit `F_p`-linear map.
+
+The weight cannot be discarded. Strengthening
+`x4_exact_slice_f2_guard_route_cut` by one comparison step proves uniformly
+
+```text
+t_XR log2|B0| <= N-129.
+```
+
+The same syndrome map on all `2^N` incidence vectors has at most
+`|B0|^t_XR` outputs, so pigeonhole forces
+
+```text
+max full-cube fiber >= 2^129 > N^3=2^123.
+```
+
+This is banked as `x4_fixed_slice_pfree_fullcube_route_cut`. It does not
+threaten the prize target: the large fiber can collect many weights. It proves
+that a direct F2/full-agreement-list-recovery maximum is the wrong supplier;
+the proof must retain the exact weight `A`, use weight-resolved high moments,
+or preserve an equally strong first-match owner decomposition. The verifier
+checks 12,870 fixed-weight subsets and all 65,536 subsets at the finite
+conformance row, plus the official integer inequalities.
+
+```text
+starting pin: 817c41971; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / fixed-slice linearization
+result: strengthened the guard cut to 129 bits and proved the full-cube route cannot meet N^3
+DAG status delta: +1 off-orbit PROVED route-cut node; no strict status change
+upstream terminal delta: none; sharpens the shared Q/F2 route discipline
+delta-star bracket movement: none
+new assumptions: none
+compute: bounded exact enumeration under tiny RAM guard; no Modal spend
+next: stay on the constant-weight collision hierarchy or prove strip-aware exchange compression
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

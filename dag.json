@@ -28554,10 +28554,10 @@
   },
   {
    "id": "x4_exact_slice_f2_guard_route_cut",
-   "title": "Official exact-slice depths lie outside the generated-field F2 guard",
+   "title": "Official exact-slice depths miss the generated-field F2 guard by 129 bits",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "Let N=2^41, rho in {1/2,1/4,1/8,1/16}, K=rho N, 128<=L=log2(q)<256, and t_XR=min{t:tL>=log2 binom(N,N-K-t)+128}. Then t_XR L<N. Since B0=F_p(mu_N) is a subfield of F_q, t_XR log2|B0|<N as well. Thus every official exact-list corridor depth fails the generated-field guard |B0|^t>=2^N, including generating rows. Consequently the guarded full-subset F2 terminal cannot by itself discharge the exact-slice u2c/x4 consumer.",
+   "statement": "Let N=2^41, rho in {1/2,1/4,1/8,1/16}, K=rho N, 128<=L=log2(q)<256, and t_XR=min{t:tL>=log2 binom(N,N-K-t)+128}. Then t_XR L<=N-129. Since B0=F_p(mu_N) is a subfield of F_q, t_XR log2|B0|<=N-129 as well. Thus every official exact-list corridor depth fails the generated-field guard |B0|^t>=2^N by at least 129 bits, including generating rows. Consequently the guarded full-subset F2 terminal cannot by itself discharge the exact-slice u2c/x4 consumer.",
    "refs": [
     "background/nodes/x4_exact_slice_f2_guard_route_cut/statement.md",
     "background/nodes/x4_exact_slice_f2_guard_route_cut/proof.md",
@@ -28566,6 +28566,21 @@
     "background/nodes/x4_exact_slice_f2_guard_route_cut/audit.md",
     "background/nodes/x4_exact_slice_f2_guard_route_cut/result.md",
     "background/nodes/x4_exact_slice_f2_guard_route_cut/verify.py"
+   ]
+  },
+  {
+   "id": "x4_fixed_slice_pfree_fullcube_route_cut",
+   "title": "Full-prefix to p-free syndrome reduction and full-cube route cut",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In characteristic p, every full depth-t elementary locator-prefix fiber on A-subsets is contained in one fixed-weight fiber of the p-free power-sum map Psi_J(S)=(sum_{x in S}x^j)_{1<=j<=t,p not dividing j}; hence it is also contained in a fiber of the same F_p-linear map on the full Boolean cube. At the official N=2^41 exact-list depth, however, t log2|B0|<=N-129. The full-cube map has at most |B0|^t outputs, so pigeonhole forces a fiber of size at least 2^(N-t log2|B0|)>=2^129>N^3=2^123. Therefore replacing the fixed Hamming slice by the unweighted Boolean cube cannot prove the N^3 maximum-prefix target; any F2/list-recovery bridge must retain the weight or an equally strong owner decomposition.",
+   "refs": [
+    "background/nodes/x4_fixed_slice_pfree_fullcube_route_cut/statement.md",
+    "background/nodes/x4_fixed_slice_pfree_fullcube_route_cut/proof.md",
+    "background/nodes/x4_fixed_slice_pfree_fullcube_route_cut/audit.md",
+    "background/nodes/x4_fixed_slice_pfree_fullcube_route_cut/claim_contract.md",
+    "background/nodes/x4_fixed_slice_pfree_fullcube_route_cut/dependency_subdag.md",
+    "background/nodes/x4_fixed_slice_pfree_fullcube_route_cut/verify.py"
    ]
   },
   {
@@ -54210,6 +54225,16 @@
   {
    "from": "x4_exact_slice_f2_guard_route_cut",
    "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "x4_exact_slice_f2_guard_route_cut",
+   "to": "x4_fixed_slice_pfree_fullcube_route_cut",
+   "kind": "req"
+  },
+  {
+   "from": "x4_fixed_slice_pfree_fullcube_route_cut",
+   "to": "u2c_exact_slice_extras_budget",
    "kind": "ev"
   },
   {
