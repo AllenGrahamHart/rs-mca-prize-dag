@@ -1523,3 +1523,41 @@ BOARD AFTER ROUND 17:
 - MINT-4 (still growing): (ES-G) re-scope + CS/STRAT/TWO + ADM
   lemmas + |Z_w| closed forms + all round-16/17 catches + the
   recovered reports.
+
+## 2026-08-06: ROUND 18 LAUNCHED — 4 Opus pilots on the four named hard cores (2 generative, 1 adversarial, 1 hybrid)
+
+- **crossing_low_w (GENERATIVE)**: the low-w crossing core — state
+  the w = 2 principal question exactly; attack the n_a = 256
+  one-condition deep-stratum instance via the LIFT-CONSTRAINT
+  conjecture (toy-gated at three shapes); refine the
+  covered/uncovered split; if a reduced solution lifts, follow it up
+  toward a genuine accident (campaign-critical either way). Balance
+  frame forbidden (CS2 sharp; no admissible row clears the stratum).
+- **o1_generating_adversary (ADVERSARIAL, blind to z1)**: break (O1)
+  on the surviving generating rows (k = e, zero margin): V1
+  zero-margin loss hunt; V2 the coset attack (CATCH-6); V3 the Z_1
+  lower-bound attack (crosswalk check first — the DLI wt >= 2R+1
+  law under char > w may now APPLY since admissible p ~ 2^64 > w);
+  V4 the generating-class vacuity sweep FIRST. Failed attacks
+  reported as SURVIVED-with-margin; every step under both Lambda
+  parity readings.
+- **z1_ternary_mass (GENERATIVE, blind to o1)**: SL-1b' on the
+  explicit object — crosswalk check FIRST (transport the DLI
+  stronger distance law if char > w now holds), then the mass bound
+  via norm-sandwich transport / GRS-dual second moments / the
+  C <= 4 class structure; calibration grid pre-registered; DLI
+  subtraction mandatory; consistency with the 61 witnesses required.
+- **efloor_sparsity (HYBRID, blind to crossing_low_w)**: the
+  pair-coprimality debt — S1 prove small-prime exclusion (p = 3
+  first; union bound over the finite CS3-surviving range = the
+  theorem shape); S2 adversarially construct the densest floor
+  families (non-vanishing density refutes CC-sparsity); S3 the
+  n = 64 asymptotic (close or honestly re-flag); S4 the u2c
+  conversion statement.
+
+Brief hardening this round: the COMPUTE LAW clause now explicitly
+covers file patching and JSON peeking (the recurring round-17 breach
+pattern). Standing rules otherwise as round 17. STILL PENDING USER:
+W = 5 rollback (+ CR-W5-ELL1); the PP5.0 reading (= the seam
+identity). PENDING PRZEMEK: generation hypothesis; Lambda parity;
+t*/mca_floor conflict. Mint-4 queued after this round.
