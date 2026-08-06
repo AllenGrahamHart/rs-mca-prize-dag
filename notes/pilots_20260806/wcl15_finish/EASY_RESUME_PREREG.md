@@ -52,6 +52,17 @@ tools/ramguard modal -- modal run \
   --external-full --resume-missing --max-missing-batches 5000
 ```
 
+Wave-2 app `ap-OhRBjzWUFxlkiyknJAjQnj` completed and stopped normally.  It
+returned 5,000/5,000 batches, 320,000 rows, 319,993 fully factored rows,
+seven hard tails, no cache hit, client error, or gate factor, and maximum
+`v_2(p-1)=27`.  Maximum batch time was 157.261801 seconds.  Compact result
+SHA-256 is
+`6bc6f5a46670cb3fcf98acf3bb7aee7af4bc63fe441603135fb904364247f0e2`.
+
+One post-Wave-2 inventory is authorized under the same metadata-only
+96-thread, one-CPU, 1-GiB, 420/390-second and sub-`$0.03` ceiling.  It must
+complete before the final suffix is authorized.
+
 ## Packaging-only first launch
 
 App `ap-Zz4V2PkJVwGCxmOICMrEov` was stopped immediately after its workers

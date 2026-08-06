@@ -5151,6 +5151,12 @@ makes a bounded range complete.
   **Wave-2 authorization:** process indices 26,332--31,331 under the identical
   5,000-batch caps and `$1.25` conservative ceiling.  No aggregation or tail;
   require another inventory before the final suffix.
+  Wave-2 app `ap-OhRBjzWUFxlkiyknJAjQnj` completed and stopped normally:
+  5,000 batches, 320,000 rows, 319,993 fully factored, seven hard tails, no
+  error/cache/gate factor, and maximum `v_2(p-1)=27`.  Result SHA-256 is
+  `6bc6f5a46670cb3fcf98acf3bb7aee7af4bc63fe441603135fb904364247f0e2`.
+  One metadata-only post-wave inventory is authorized under the same
+  420/390-second and sub-`$0.03` ceiling before the final suffix.
 
 - **2026-08-03 interrupted-census checkpoint (Codex pin `8502b105`):**
   app `ap-f8oZLbaSVpbTXtCz4cPG2Z` extended the exact `(1,5)` recursive-norm
