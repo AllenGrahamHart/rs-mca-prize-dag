@@ -42,3 +42,13 @@ tools/ramguard modal -- modal run \
   notes/pilots_20260806/wcl15_finish/tail191_factor_cert_modal.py
 ```
 
+## Result
+
+App `ap-hMfVc7KQMaSvmDtSO5a9kS` completed normally.  FLINT certified both
+returned factors prime, their product equals the exact tail norm, their bit
+lengths are `112,158`, and their `v_2(p-1)` values are `9,12`.  There is no
+official-gate factor.  The certificate completed in 0.009617 seconds and has
+digest
+`4c18195abaa5932b7528cd5bf5c4dcc820525fb4b36a3aa184f4e57746b5c876`;
+the JSON file SHA-256 is
+`37fc520d9f5e2f34da0e6e8e5bed3e5ed8e735258f88fc8f29c509b266517271`.
