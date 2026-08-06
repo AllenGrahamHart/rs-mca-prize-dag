@@ -93,3 +93,25 @@ dissolved: these were conventions inside OUR chain, decided by what
 makes the chain sound, and the spec-level scope question is decided
 by the spec text itself (non-generating rows in-family; see the
 2026-08-06 rulings entry in CAMPAIGN_LEDGER).
+
+## Addendum 2 (2026-08-06, from round-20 f2_repose — the ensemble ruling RE-OPENED; the scope question DISSOLVED)
+
+1. The ensemble ruling above (= the slice (T*)) is DOWNGRADED to
+   PROVISIONAL: the consumer's own text is mixed (its mean is
+   slice-calibrated, its window-empty test is the 2^n balance — one
+   sentence, both ensembles; f2_repose A1), and the readings differ
+   by EXISTENCE of a candidate, not margin (under (C): the FINITE
+   target Z(L) <= 1 + N^3, a 4.77-bit Z_1 window; under (T*): an
+   exact-value obligation no upper bound can meet, CATCH-R6). The
+   fence/contract reconciliation is a named open task.
+2. The maintainer-question line above is RESOLVED INTERNALLY: u2c
+   CATCH #11 (banked 2026-07-07) is the consumer-side k = e rule —
+   extension rows route through the f1/ext descent; the F2 lane
+   never owed them. The right split is k = 1 (reduces verbatim to
+   the PROVED f2_k1_contraction_theorem, bypassing (O1)) vs
+   k >= 2 (open: k in {2,4}). Our rounds-17/18 non-generating kill
+   was a re-derivation of CATCH #11 (subtraction, CATCH-R4).
+3. The five-face seam: the consumer's own tolerance = the
+   counting-balance surplus (CATCH-R1), reproducing the banked
+   2^{1.05e12} to 0.047% — with the A2 arithmetic defect (n = 2^40
+   vs N = 2^41) flagged for the extras-contraction node.
