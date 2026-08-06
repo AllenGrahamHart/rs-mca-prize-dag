@@ -456,6 +456,15 @@ minus/order-four witness is `p=25*2^39-1`, `q=p^4`; a complete-factor
 Pocklington certificate proves primality and exact arithmetic verifies the
 order and field cap. Thus M61 is not an isolated omitted case.
 
+The follow-on PROVED `f2_admissible_degree_order_classification` removes the
+remaining extension-degree ambiguity. There are exactly 12 signed
+`(valuation,k,e)` types and seven are non-generating: plus/order-one with
+`e=2,3,4,5,6`, plus/order-two with `e=4`, and minus/order-two with `e=4`.
+The apparent `e=6,k=2` type is empty: the field cap leaves nine elementary
+characteristic candidates across the two branches and every one has a
+printed proper divisor. The direct non-generating payment can now be posed
+against these seven exact families.
+
 The collision identity now has the exact PROVED upper interface
 `f2_weighted_mass_max_fiber_sandwich`. If `M=max_v N(v)`, then
 
@@ -483,12 +492,12 @@ list-recovery corollary.
 ```text
 starting pin: 5d9afd69; canonical 5a8f0dba; upstream main 93fba1be
 lane: F2 / row-sharp quotient-prefix flatness
-result: five generating types classified; heaviest-fiber/mass sandwich PROVED; Mint-4 regression quarantined
-DAG status delta: two PROVED suppliers and five edges; no target flip
+result: 12 degree/order types and seven non-generating families classified; mass sandwich PROVED
+DAG status delta: three PROVED suppliers and seven edges; no target flip
 upstream terminal delta: a proved Q-to-F2 map/owner transport would make Q a sufficient supplier
-upstream custody: draft PR https://github.com/przchojecki/rs-mca/pull/1150 at 82bb32cf
+upstream custody: draft PR https://github.com/przchojecki/rs-mca/pull/1150 at bb045450
 delta-star bracket movement: none
 new assumptions: none
-compute: local tiny verifiers only, 80 exact checks; no Modal spend
-next: attack max_v N(v) for the fixed dyadic plus and minus maps, retaining exact average 2^m/p^d
+compute: local tiny verifiers only, 110 exact checks; no Modal spend
+next: attack max_v N(v) on the five generating types and seek direct extras payments on the seven non-generating types
 ```
