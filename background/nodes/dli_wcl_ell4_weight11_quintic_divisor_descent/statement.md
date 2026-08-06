@@ -197,3 +197,15 @@ failed on the bridge pencil.
 four-parameter Pell form and its `114`-variable/`119`-equation cubic lift are
 strictly smaller. A future certificate attempt must state which interface it uses;
 failure of direct expanded remainders is not a fence against the sparse lift.
+
+## Addendum 2026-08-03 — false-friend guard (ell = 4, NOT ell = 11)
+
+Subtraction check against upstream PRs #1145/#1146 (maelcar, UNMERGED,
+experimental/). Those PRs concern `ell = 11`: a subgroup `H <= F_p^*` of
+order 11 with `p = 1 mod 11`, exact-five quintics, and the sharp bound
+`S_3(P|Q^2) <= 10`. THIS NODE IS A DIFFERENT OBJECT: it is `ell = 4`,
+weight `= 11`, over `mu_2048`. The shared tokens (11, "quintic", cyclotomic
+roots, a Bezout-flavoured normalisation) are coincidental. Do NOT score this
+node — or `notes/ell4_uniform_form_20260727.md` — as prior coverage of, or
+as covered by, any `ell = 11` result. Nothing from #1145/#1146 is imported
+here; our repo contains no `ell = 11` object at all.
