@@ -507,7 +507,7 @@
     "file": "experimental/grande_finale.tex",
     "line": "sec:fourier / sec:primitive-q-proof"
    },
-   "relation": "IDENTICAL",
+   "relation": "OVERLAP",
    "chain": "f2_zero_prefix_q_equivalence",
    "scope": "zero-prefix instance, level j < char q; the pruned-vs-raw K2 gap is OPEN",
    "owner": "JOINT",
@@ -521,6 +521,26 @@
    "provenance": {
     "our_sha": "da8b9a85",
     "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "f2_generated_field_ambient_invariance",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact generated-field/coset invariance of F2 t-null blocks, trade families, syndrome fibers and weighted mass; 12 official degree/order types reduce to five signed generating types",
+   "owner": "US",
+   "nonclaims": [
+    "does not restore ambient-normalized (O1)",
+    "does not prove max-fiber or weighted-mass upper bound",
+    "does not identify these fibers with def:q-row-atom"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "draft PR #1150 at bbd61489",
+   "lean": null,
+   "provenance": {
+    "our_sha": "f6fba9ad5",
+    "his_sha": "bbd61489"
    }
   },
   {

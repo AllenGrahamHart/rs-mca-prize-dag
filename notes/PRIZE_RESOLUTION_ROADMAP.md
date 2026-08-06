@@ -18255,6 +18255,58 @@ new assumptions: none
 compute: local tiny verifiers only, 110 exact checks; no Modal spend
 next: attack max_v N(v) on the five generating types and seek direct extras payments on the seven non-generating types
 ```
+
+### F2 generated-field ambient descent
+
+Canonical `prize@d6cfa1d7` added the Round-18 admissible-object packet and
+preregistered four Round-19 ternary-mass pilots. The composite
+`f2_admissible_object` cannot remain PROVED as written: it applies the
+plus-branch `v_2(p-1)` order/class model to every row, while the exact M61
+minus-branch witness has `ord_{2^41}(p)=2=e` and `2^40` singleton
+prime-field proportionality classes after antipodal quotienting. The node
+is therefore REFUTED, with its valid field-cap, trace-rank, and
+coset-invariance components retained at their corrected scopes.
+
+The new PROVED `f2_generated_field_ambient_invariance` removes the seven
+non-generating families as separate final block/kernel obligations. Write
+`F=F_{p^e}`, `B=F_p(mu_n)=F_{p^k}`, and `D=g mu_n`. For `S=gT`,
+
+```text
+sum_{x in S} x^j = g^j sum_{y in T} y^j,
+e_j(S) = g^j e_j(T).
+```
+
+Hence scalar descent preserves the exact t-null blocks, equal-moment
+pairs, complements, subgroup-coset and trade families, and every relevant
+syndrome kernel. At matrix level `A_D=diag(g^ell) A_B`, so the
+`F_p`-kernel, rank, weighted ternary mass, subset-syndrome fibers, maximum
+fiber, and collision sum are identical. The seven non-generating types
+therefore descend exactly as follows:
+
+```text
+plus k=1, e=2,3,4,5,6 -> plus k=e=1
+plus k=2, e=4         -> plus k=e=2
+minus k=2, e=4        -> minus k=e=2
+```
+
+All 12 official degree/order types now reduce to the five signed generating
+types. This theorem does not restore the false ambient-normalized `(O1)`,
+prove a weighted-mass upper bound, discharge PP5.0, or pay the final `n^3`
+extras budget. Draft upstream PR `#1150` now carries the theorem and exact
+replay at commit `bbd61489`; this is a review handoff, not upstream
+acceptance.
+
+```text
+starting pin: a5e3b98d; canonical d6cfa1d7; upstream main 93fba1be
+lane: F2 / generated-field normalization
+result: ambient-extension axis CLOSED by proof; 12 official types reduce to five generating signed types
+DAG status delta: +1 PROVED, canonical false composite PROVED -> REFUTED; F2 target remains TARGET
+upstream terminal delta: draft #1150 extended with generated-field descent at bbd61489
+delta-star bracket movement: none
+new assumptions: none
+compute: local exact F25/F5 replay only; no Modal spend
+next: prove a common upper-mass theorem for the five generating signed types and settle PP5.0
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
