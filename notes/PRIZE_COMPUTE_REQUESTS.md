@@ -5223,6 +5223,19 @@ makes a bounded range complete.
   containers.  This fails the pilot's 7,200-CPU-second auto-scale gate but is
   compatible with a separately preregistered grouped audit below `$1`; the
   pilot itself authorizes no scale-up.
+  **Full independent easy replay:** initial app
+  `ap-0OBpQSj0V7998tTvkzixwx` completed 99 groups and checkpointed the sole
+  slow group with 15 batches left; authorized resume
+  `ap-y5FDRVADCUfOqoflndTSDg` completed that suffix.  Final coverage is all
+  35,890 batches and 2,296,920 rows, with 6,177,403 FLINT primality checks,
+  6,528,119 reconstructed factor records, exactly 194 retained timeout rows,
+  no missing/duplicate batch, and no failure.  Global custody digest is
+  `975220600606e8f9fac4de09d7d350121ea04ea3de23b9e492fb0651b331e033`;
+  compact-result SHA-256 is
+  `04dc6160585c122a9022b922d867bde6d64967a16a41359d6c327c4f03dd5c6c`.
+  The easy census is now independently certified.  Remaining work is exactly
+  the 194 hard tails: independent certification of 193 primary rows and a
+  complete certified factorization of tail 191.
 
 - **2026-08-03 interrupted-census checkpoint (Codex pin `8502b105`):**
   app `ap-f8oZLbaSVpbTXtCz4cPG2Z` extended the exact `(1,5)` recursive-norm

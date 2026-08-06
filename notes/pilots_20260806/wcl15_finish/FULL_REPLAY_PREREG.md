@@ -59,3 +59,28 @@ proof-relevant data is written to the existing audit volume before return.
 tools/ramguard modal -- modal run --detach \
   notes/pilots_20260806/wcl15_finish/full_batch_replay_modal.py
 ```
+
+## Outcome
+
+Initial app `ap-0OBpQSj0V7998tTvkzixwx` completed 99 groups and stopped group
+78 voluntarily at 380 seconds, leaving exactly 15 batches.  Authorized
+checkpoint-resume app `ap-y5FDRVADCUfOqoflndTSDg` computed only that suffix
+while returning the other 99 certificates from cache.
+
+The final result is `COMPLETE`: 100/100 groups, 35,890/35,890 batches,
+2,296,920/2,296,920 rows, 6,177,403 FLINT primality checks, 6,528,119 factor
+records, 194 retained timeout rows, no duplicate or missing batch, and no
+failure.  Global custody digest is
+`975220600606e8f9fac4de09d7d350121ea04ea3de23b9e492fb0651b331e033`;
+partition digest is
+`3be1a3d950949d3d579ed88d26fdf5dbd9fac10e23920a2cb3dc3de15d563d27`;
+compact-result SHA-256 is
+`04dc6160585c122a9022b922d867bde6d64967a16a41359d6c327c4f03dd5c6c`.
+
+P1 and P2 pass exactly.  P3 passes operationally through its specified
+checkpoint resume: no invocation crossed the voluntary 380-second cap, while
+group 78's cumulative two-invocation time is 384.354 seconds.  Total worker
+time is 17,865.481 seconds, below the pilot projection.  Independent
+primality used 9,810.365 seconds, direct resultants 756.147, and trial
+division 53.267.  The complete easy-factor replay is banked; no DAG status
+changes until the 194 hard tails are independently discharged.

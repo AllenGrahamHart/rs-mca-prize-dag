@@ -17856,16 +17856,26 @@ misses the pilot's deliberately strict 7,200-CPU-second gate but remains a
 plausible sub-`$1` grouped audit; it needs a fresh preregistration rather than
 an automatic scale-up.
 
+That grouped audit is now complete.  One hundred checkpointed workers replay
+all 35,890 batches and 2,296,920 rows using direct FLINT resultants, 6,177,403
+FLINT primality checks, and independent trial division.  All 6,528,119 factor
+records and every primary digest reproduce; coverage has no duplicate or
+missing batch.  The global custody digest is
+`975220600606e8f9fac4de09d7d350121ea04ea3de23b9e492fb0651b331e033`.
+The easy census is therefore proof-grade.  The exact residual is only the 194
+retained hard norms: independently certify the 193 primary factorizations and
+obtain one complete factorization for tail 191.
+
 ```text
 starting pin: fd4f2d23; canonical cee6244c; upstream main 93fba1be
 node: dli_wcl_slot_1_5_emptiness [TARGET]
-result: easy census/custody COMPLETE; independent 128-batch replay PASS; hard tails 193/194
+result: full easy census and independent replay COMPLETE; hard tails 193/194
 DAG status delta: none
 upstream terminal delta: none
 delta-star bracket movement: none
 new assumptions: none
-compute: final custody app ap-QctfVdgXi0IsLhxDIMLR0j; replay pilot ap-ghDRZvjFIf7BFrEw2AM46h; all apps stopped
-next: preregister grouped full replay under $1; await certified factorization of tail 191
+compute: full replay apps ap-0OBpQSj0V7998tTvkzixwx and ap-y5FDRVADCUfOqoflndTSDg; all apps stopped
+next: independently certify 193 tail rows; await complete certified factorization of tail 191
 ```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
