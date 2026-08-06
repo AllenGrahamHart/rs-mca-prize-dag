@@ -1,0 +1,95 @@
+==========================================================================
+F2 RE-POSE VERIFIER — round 20, 2026-08-06
+==========================================================================
+
+--- S1: the banked tolerance 2^{1.05e12} IS the balance surplus ---
+  [PASS] S1.1 tower L = t.L/t ~ 31 (prime-field reading) -- L = 30.7143
+  [PASS] S1.2 formula reproduces the banked 1.05e12 -- derived 1.05049e+12 vs banked 1.05000e+12 (rel 0.047%)
+  [PASS] S1.3 the surplus IS t.L - n up to O(log n) -- t.L - n = 1.05049e+12
+
+--- S2: the node's own I1 correction (N = 2^41) flips the sign ---
+  [PASS] S2.1 tolerance at N = 2^41 is NEGATIVE -- -4.90233e+10 bits
+  [PASS] S2.2 deficit matches BRIEF5's '49.5G bits' -- deficit 4.90233e+10 vs 4.95e10
+  [PASS] S2.3 == N/2 - banked TOL (identical arithmetic) -- N/2 - TOL = 4.95116e+10
+
+--- S3/S4: THE COLLAPSE  |K1|.2^m = 4^m  at the balance ---
+  [PASS] S3.1 balance surplus t.L - N in [0, L) -- t* = 8589934679, t.L - N = 109.969 bits
+  [PASS] S3.2 log2|K1| = t.L/2 to within L/2 -- log2|K1| = 1.0995116e+12
+  [PASS] S4.1 log2|K1| = m to within L  (THE COLLAPSE) -- log2|K1| - m = 182.984 bits
+  [PASS] S4.2 hence |K1|.2^m = 4^m to within 2^L -- (log2|K1|+m) - 2m = 182.984 bits
+
+--- S5: the (C) contract on the punctured K1 class is Z <= 1 + N^3 ---
+  [PASS] S5.1 budget for log2 Z lies in [4log2N - L/2, 4log2N + L/2] -- budget = 90.984 bits (range [36.0, 292.0]; 4log2N = 164)
+  [PASS] S5.2 the contract is FINITE (not an o(n) label) -- 91.0 bits
+  [PASS] S5.3 Z >= 1 (Corollary 1.1) is INSIDE the contract -- headroom above the trivial floor = 91.0 bits
+
+--- S6: under the RULED (T*) the contract is an EXACT-VALUE obligation ---
+  [PASS] S6.1 (T*) balance deficit 2N/(L^2 ln2) ~ 9.68e7 -- 9.68176e+07 bits
+  [PASS] S6.2 LEMMA 3 FORCES log2 Z >= N/(L^2 ln2) ~ 4.84e7 -- forced floor = 4.84088e+07 bits
+  [PASS] S6.3 multiplicative headroom above the LEMMA-3 floor is 2^{164 - 2N/(L^2 ln2)} -- headroom exponent = -9.68175e+07 bits (i.e. 164 - 9.6818e+07)
+  [PASS] S6.4 => the contract PINS Z to its forced floor to rel. precision 2^{-9.68e7}: an EXACT-VALUE obligation no mass UPPER bound can meet -- cap exponent + gap = 164.0 = 4log2N
+
+--- S7: the knife-edge firing value is INSIDE the (C) contract ---
+  [PASS] S7.e=1  Z_1 >= 2^17.98 => log2 Z = 17.98 <= 91.0 -- headroom 73.00 bits
+  [PASS] S7.e=2  Z_1 >= 2^17.98 => log2 Z = 35.96 <= 91.0 -- headroom 55.02 bits
+  [PASS] S7.e=4  Z_1 >= 2^17.98 => log2 Z = 71.92 <= 91.0 -- headroom 19.06 bits
+  [PASS] S7.4 live window for Z_1 at e=4 is [17.98, 22.75] -- width 4.77 bits
+
+--- S8: THEOREM 7 at the FULL-GROUP window MISSES ---
+  [PASS] S8.1 THEOREM 7 gives log2 Z <= 0.8908.m, e-independent (Z=Z_1^e, S=m/e) -- 9.79445e+11 bits
+  [PASS] S8.2 it MISSES the (C) contract -- miss 9.79445e+11 bits; exponent must shrink by 1.076e+10x
+
+--- S9: CAUCHY-SCHWARZ (pre-registered B3) is strictly WORSE ---
+  [PASS] S9.1 E_c[T^2] >= 6^m: (2+z+z^-1)^2 has constant term 6 -- log2 6 = 2.584963
+  [PASS] S9.2 C-S bound exceeds the exact Lemma-1 value -- C-S 2.520610e+12 vs exact 2.199023e+12 (worse by 3.21587e+11 bits)
+  [PASS] S9.3 C-S CANNOT discharge the absolute contract -- B3 REFUTED -- exceeds budget by 3.21587e+11 bits
+
+--- S10: non-generating rows against the (C) budget ---
+  [PASS] S10 (k,e)=(1,6): Z-3 excess 9.16260e+11 > budget 91.0 -- over by 9.16260e+11 bits
+  [PASS] S10 (k,e)=(1,4): Z-3 excess 8.24634e+11 > budget 91.0 -- over by 8.24634e+11 bits
+  [PASS] S10 (k,e)=(1,2): Z-3 excess 5.49756e+11 > budget 91.0 -- over by 5.49756e+11 bits
+  [PASS] S10 (k,e)=(2,6): Z-3 excess 7.33008e+11 > budget 91.0 -- over by 7.33008e+11 bits
+  [PASS] S10 (k,e)=(2,4): Z-3 excess 5.49756e+11 > budget 91.0 -- over by 5.49756e+11 bits
+  [PASS] S10 (k,e)=(4,6): Z-3 excess 3.66504e+11 > budget 91.0 -- over by 3.66504e+11 bits
+  [PASS] S10 (k,e)=(4,5): Z-3 excess 2.19902e+11 > budget 91.0 -- over by 2.19902e+11 bits
+  [PASS] S10.8 the (1,6) excess is exactly 5N/12 (= f2_adm CATCH-1's nested reading) -- 5N/12 = 9.162597e+11
+
+--- S11: partial (rung) windows retain a Theta(N) budget ---
+  [PASS] S11 top rung (ord N), m=N/4: budget 5.49756e+11 >= THEOREM 7 4.89722e+11 -- slack 6.00333e+10 bits
+  [PASS] S11 rung 1 (ord N/2), m=N/8: budget 8.24634e+11 >= THEOREM 7 2.44861e+11 -- slack 5.79772e+11 bits
+  [PASS] S11.3 LEMMA 3 is VACUOUS at m_W = N/4 -- log2|K1| - m_W = 5.49756e+11
+
+--- S12: the rung slack cannot be aggregated ---
+  [PASS] S12.1 sum_j |W_j|/2 = N/2 EXACTLY (sectors partition mu_N) -- sum = N/2 = 1099511627776
+  [PASS] S12.2 multiplicative composition returns m = N/2 and zero slack -- 1.099512e+12
+
+--- S13/S14: k=1 collapse, and the MINUS-BRANCH witness ---
+  [PASS] S13.1 exhibit p = 3.2^41+1: N | p-1, so k=1 and mu_N <= F_p^* -- (p-1)/N = 3
+  [PASS] S13.2 N >= 3 sqrt(p) and N >= 512 (f2_k1_contraction_theorem hypotheses) -- 3sqrt(p) = 7.7054e+06 << N = 2.1990e+12
+  [PASS] S14.1 p = 2^61-1 is 3 mod 4 (MINUS branch) -- p mod 4 = 3
+  [PASS] S14.2 v2(p-1) = 1 but v2(p+1) = 61 -- v2(p-1)=1, v2(p+1)=61
+  [PASS] S14.3 2^41 | q-1 with q = p^2 -- v2(q-1) = 62
+  [PASS] S14.4 ord_N(p) = 2 = e  => GENERATING -- p = -1 mod N
+  [PASS] S14.5 admissible: log2 q = 121 < 256, e=2<=6, v2(e)=1<=2, log2 p=61>=39 -- log2 q = 121
+  [PASS] S14.6 e_p := v2(p-1) = 1 is OUTSIDE G1's census {>=41,40,39} => G1 FALSE as stated -- e_p = 1
+
+--- S15: EXACT DESCENT (derived here; verified by field arithmetic) ---
+  [PASS] S15 p=7 e=2 n=6 k=1 (non-generating k=1<e=2): 882 checks, 0 bad; image p^k=7, fibres p^(e-k)=7
+  [PASS] S15 p=7 e=4 n=8 k=2 (non-generating k=2<e=4): 76832 checks, 0 bad; image p^k=49, fibres p^(e-k)=49
+  [PASS] S15 p=5 e=4 n=6 k=2 (non-generating k=2<e=4): 11250 checks, 0 bad; image p^k=25, fibres p^(e-k)=25
+  [PASS] S15 p=3 e=2 n=8 k=2 (GENERATING control k=e=2): 288 checks, 0 bad; image p^k=9, fibres p^(e-k)=1
+
+--- S16/S17: the consumer's own CATCH-#11 scope rule IS generation ---
+  [PASS] S16 (k,e)=(1,6): |B0|^t >= 2^N  FAILS  (ratio k/e = 0.1667) -- rule ratio = 0.166667
+  [PASS] S16 (k,e)=(1,2): |B0|^t >= 2^N  FAILS  (ratio k/e = 0.5000) -- rule ratio = 0.500000
+  [PASS] S16 (k,e)=(2,4): |B0|^t >= 2^N  FAILS  (ratio k/e = 0.5000) -- rule ratio = 0.500000
+  [PASS] S16 (k,e)=(4,6): |B0|^t >= 2^N  FAILS  (ratio k/e = 0.6667) -- rule ratio = 0.666667
+  [PASS] S16 (k,e)=(2,2): |B0|^t >= 2^N  HOLDS  (ratio k/e = 1.0000) -- rule ratio = 1.000000
+  [PASS] S16 (k,e)=(4,4): |B0|^t >= 2^N  HOLDS  (ratio k/e = 1.0000) -- rule ratio = 1.000000
+  [PASS] S16 (k,e)=(1,1): |B0|^t >= 2^N  HOLDS  (ratio k/e = 1.0000) -- rule ratio = 1.000000
+  [PASS] S17.1 CATCH-#11 KoalaBear excess ~ banked 1,740,627 bits -- derived 1747600
+  [PASS] S17.2 and equals (1 - k/e).t.log2 q = 5/6 of the balance (= Z-3's 5n/12 at m=n/2) -- (5/6).t.log2q = 1747762
+
+==========================================================================
+RESULT: 60/60 checks, 0 FAIL
+DIGEST: F2_REPOSE_ALL_PASS

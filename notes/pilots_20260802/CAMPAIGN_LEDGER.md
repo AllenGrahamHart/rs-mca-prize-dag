@@ -2153,3 +2153,39 @@ git -C <path>; the coordinator shell never cd's into a worktree.
   addendum (crossing) composes into the wave-47 integration edit
   pass. Board: mystery 4 RESHAPED — the accident upper bound is the
   crossing lane's sharpest named obligation.
+
+## 2026-08-06: round-20 pilot 2 BANKED — THE FINITE TARGET; the ensemble ruling re-opened; the scope question dissolved
+
+- **f2_repose (Opus) BANKED, MAINTAINER-LEVEL** (60/60; the
+  CATCH #11 anchor coordinator-verified; the five-class G1
+  refutation independently confirmed by a third route). **CATCH-R1:
+  the consumer's tolerance IS the counting-balance surplus — THE
+  SEAM'S FIFTH FACE** (banked 2^{1.05e12} reproduced to 0.047%).
+  UNDER (C) THE TERMINAL COLLAPSES TO A FINITE TARGET:
+  **F2-MASS-N^3: Z(L) <= 1 + N^3 — Z_1 in a 4.77-BIT WINDOW
+  [2^{17.98}, 2^{22.75}]** (open; falsifier registered; THEOREM 7
+  misses by 9.79e11 bits). UNDER THE RULED (T*): NO CANDIDATE
+  (CATCH-R6 — an EXACT-VALUE obligation; upper bounds dead as a
+  class). **THE ENSEMBLE RULING IS RE-OPENED** (the consumer's own
+  sentence uses both ensembles; existence-vs-death fork; the
+  fence/contract reconciliation is a named task; the (C)-side
+  finite target is the working obligation meanwhile). **THE SCOPE
+  QUESTION DISSOLVES**: u2c CATCH #11 (2026-07-07) is the
+  consumer-side k = e rule — extension rows route through f1/ext;
+  k = 1 reduces VERBATIM to the PROVED f2_k1_contraction_theorem
+  (bypassing (O1), covering the killer exhibit row); the right
+  split is k = 1 vs k >= 2; **k in {2,4} is the uncovered residual**
+  (+ the minus-branch generating types have the target but no
+  object model). CATCH-R2 (consumer-chain arithmetic defect:
+  n = 2^40 vs N = 2^41 — the tolerance flips negative by 4.9e10
+  bits = BRIEF5's threshold; mint-queued). CATCH-R4 (our
+  rounds-17/18 non-generating kill re-derived CATCH #11 —
+  subtraction hit accepted). CATCH-R3/R5 ((O1) was UNDER-posed; the
+  sum reading makes it a finite certificate). Median/C-S/partial-
+  window candidates triaged (refuted / refuted / conditional on a
+  nonexistent PP5.0 statement). The pilot's headline prereg REFUTED
+  AT ITS OWN FALSIFIER — real risk taken, honestly reported.
+  NODE-DRAFT delivered; mint composes with the wave-47 five-class
+  correction.
+- Awaiting: tail_count, crossing_gap; the wave-47 integration batch
+  executes next.
