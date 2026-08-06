@@ -13,9 +13,9 @@ nose, and only E_floor SPARSITY remains conjectural.**
 Replay (coordinator, under ramguard): self 65,613/0; floor/strat/wit
 clean; failclosed exits 1 as designed (fail-closure proven, not
 asserted); the rate stage's persisted output shows 21,282/0 at the
-crossing shape (a fresh grid re-run exceeds the foreground window and
-was left to the pilot's byte-identical persisted outputs — the rate
-stage is measurement, not a proof gate). Anchors verified by the
+crossing shape (a fresh full-grid re-run subsequently COMPLETED in a
+background replay, exit 0 — the live-replay chain is now complete
+across all stages). Anchors verified by the
 coordinator directly, verbatim-exact: the collapse identity
 (archive/compressed_dli_lane_20260705/pcf_evaluation_flatness/statement.md:8-12)
 and the pair-coprimality open lemma
