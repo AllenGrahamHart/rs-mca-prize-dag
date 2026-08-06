@@ -1,0 +1,116 @@
+{
+  "cache_hits": 1,
+  "client_errors": [],
+  "completed_batches": 5000,
+  "covered_rows": 320000,
+  "high_gate_cases": [],
+  "inventory_digest": "e66c4badb927d59dc637fe9d57028b95ba97e0f32dce920dd43d9938176890a8",
+  "inventory_missing_batches": 14558,
+  "inventory_sha256": "52aaac5ba078999383d62b586007874772c1f5bef909e639d8b0fe4076df754d",
+  "max_batch_seconds": 101.878462,
+  "max_norm_bits": 269,
+  "max_v2_prime_minus_1": 26,
+  "requested_batches": 5000,
+  "resolved_rows": 319987,
+  "run_id": "weight5-recursive-norm-full-v2",
+  "schema": "dli-wcl-weight5-recursive-norm-resume-wave-v1",
+  "selected_batches": 5000,
+  "selected_first": 20393,
+  "selected_last": 26331,
+  "source_sha256": "665250d08f9cdcee0bd1d75db5935d9af4e1daae2334fbc4b10b340d631b9fbc",
+  "status": "COMPLETE",
+  "unresolved_cases": [
+    {
+      "class_index": 1364135,
+      "key": 6093352206848,
+      "norm": "104185916702721156455913364123267433656476741913956272045748555509289011713",
+      "norm_bits": 246,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1395571,
+      "key": 6161871669248,
+      "norm": "633840653907935233278339905206607474702636911157379333399558948200306689",
+      "norm_bits": 239,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1396238,
+      "key": 6162091869184,
+      "norm": "16056934992502868519162962029667425833227428760087529015747879247874957313",
+      "norm_bits": 244,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1444685,
+      "key": 6295492495360,
+      "norm": "3303620532493791337864379417302870538320280725955853132794795069395709953",
+      "norm_bits": 241,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1458606,
+      "key": 6328578999296,
+      "norm": "12490878650030476377355378462676874855240460483614762608222124636255924979201",
+      "norm_bits": 253,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1481558,
+      "key": 6396221067264,
+      "norm": "357434751713894768020395144773948943981714825593753852045743581306373764097",
+      "norm_bits": 248,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1510818,
+      "key": 6466286912512,
+      "norm": "47656284733310816608462117464200255634580485480250673851129469867894988950017",
+      "norm_bits": 255,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1527114,
+      "key": 6502655984128,
+      "norm": "128823796759585151553092563511895106968360080274707271655301004788933633",
+      "norm_bits": 237,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1529660,
+      "key": 6505017639424,
+      "norm": "65668152139840874470007713598248761347984373834609095058745538503385544193",
+      "norm_bits": 246,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1531235,
+      "key": 6506340942848,
+      "norm": "11794861978368685232854211082770752138874684073721139466340129391787614209",
+      "norm_bits": 243,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1551875,
+      "key": 6570504364032,
+      "norm": "393284054329278703751203937926216238074982570501061116638273208137649234227201",
+      "norm_bits": 258,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1567044,
+      "key": 6605665211904,
+      "norm": "201270266564570873950587227535242938968053994572773544764797875003135489",
+      "norm_bits": 237,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1595149,
+      "key": 6709553401856,
+      "norm": "648504938724625892617537595827566622528651020454874372151735040370465231483079169",
+      "norm_bits": 269,
+      "reason": "FACTOR_TIMEOUT_60S"
+    }
+  ],
+  "wave_digest": "4d881554aa4d6bd369548cac07249b746dd07acf3a2635957994164a390d7a19"
+}

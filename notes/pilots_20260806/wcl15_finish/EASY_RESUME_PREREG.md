@@ -61,3 +61,20 @@ raised `IndexError` before any worker read a representative, computed a norm,
 or wrote a checkpoint.  The correction makes the inventory a local-entrypoint
 relative path; remote workers no longer inspect it.  One retry of the exact
 same 5,000-batch wave is authorized under the unchanged resource ceiling.
+
+## Wave 1 result and post-wave inventory
+
+Corrected app `ap-qYbLkmB7CKxnSWjPttlp1d` completed and stopped normally.
+All 5,000 batches returned: 320,000 rows, 319,987 fully factored rows, 13
+explicit hard tails, zero client errors, zero gate factors, maximum
+`v_2(p-1)=26`, and maximum batch time 101.878462 seconds.  One batch was a
+cache hit because its atomic checkpoint appeared after the inventory pin.
+The compact result has SHA-256
+`ba210ccadf33b43801c8d740966a6215f581d8db7e0be5fbefe780c206aad43c`.
+
+One fresh metadata inventory is authorized before any further wave.  It uses
+the identical validation logic with at most 96 I/O threads, one CPU, 1 GiB,
+one container, a 420-second function cap, and a 390-second partial-output
+timer.  Expected cost is below `$0.03`.  It computes no norm or factor.  A
+partial result stops the resume decision; no wave is inferred from arithmetic
+subtraction alone.

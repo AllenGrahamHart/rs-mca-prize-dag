@@ -44,7 +44,7 @@ def ranges(values: list[int]) -> list[list[int]]:
     image=image,
     cpu=1,
     memory=1024,
-    timeout=270,
+    timeout=420,
     max_containers=1,
     volumes={"/classes": volume},
 )
@@ -82,7 +82,7 @@ def inventory() -> dict[str, object]:
     futures = [executor.submit(read_one, path) for path in paths]
     try:
         for future in concurrent.futures.as_completed(futures):
-            if time.monotonic() - started > 240:
+            if time.monotonic() - started > 390:
                 partial = True
                 break
             path_text, index, row, error = future.result()
