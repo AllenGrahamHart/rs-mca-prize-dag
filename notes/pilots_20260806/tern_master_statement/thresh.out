@@ -1,0 +1,31 @@
+=== STAGE thresh: the master threshold  g*log2 p  vs  h ===
+  [I1] p = 18446735827372343297, e_p = 39, h = S = 2^38
+       log2 p = 63.999999355
+       R = 4294967340  ->  h - g*log2 p = -46.0249 bits   [banked -46.0249]
+       R = 4294967339  ->  h - g*log2 p = 17.9751 bits   [banked 17.9751]
+       h/g = 63.999999344  ==  log2 p  (saturation: the object sits ON the master threshold)
+  [I2] n = 2^41; deep stratum a = v-1 vs stratum a = 0
+        w     L=n/w  DSA thr (L-2)   a=0: h0/g0   agree?
+       2^34     128          126           128       yes
+       2^35      64           62            64       yes
+       2^36      32           30            32       yes
+       2^37      16           14            16       yes
+       2^38       8            6             8       yes
+       2^39       4            2             4       yes
+       => DSA's deep-stratum threshold and the stratum-0 threshold are the SAME number (to within 2).
+  [I2] witness row p = 6597069766657, log2 p = 42.585
+       log2 p < 126 (DSA fires) and < 128 = h0/g0 (stratum-0 floor fires): BOTH strata forced at the same row
+  [I2] e = 1 rows: log2 p >= 129.585 > 128 > 126 -> outside BOTH regimes (the banked dichotomy, reproduced by the master threshold)
+  [I3] n = 2^41, h = 2^40, delta = 1, Lambda = odd s in [1,w-1]
+        w      g=2^{v-1}   h/g      log2 p for which the floor fires
+       2^34   2^33         128    log2 p < 128
+       2^35   2^34          64    log2 p < 64
+       2^36   2^35          32    log2 p < 32
+       2^37   2^36          16    log2 p < 16
+       2^38   2^37           8    log2 p < 8
+       2^39   2^38           4    log2 p < 4
+       recorded rows log2 p = 256: floor SILENT at every w (256 > 128) -- consistent with the banked 'prime rows untouched'
+       tower rows   log2 p = 42.6: floor FIRES at w = 2^34 (42.6 < 128)
+
+[thresh] 24 checks, 0 FAIL
+STAGE_THRESH_ALL_PASS

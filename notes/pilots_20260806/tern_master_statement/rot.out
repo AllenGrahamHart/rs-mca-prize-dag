@@ -1,0 +1,21 @@
+=== STAGE rot: LEMMA ROT-M (negacyclic shift, sign, dilates) ===
+   n   p   w   g  #ternary  orbits  max orbit  |Stab(Lam*)|  n=2h
+  16   3   2   4        80       5         16             4    16
+  16   3   3   4        80       5         16             4    16
+  16   3   4   4        80       5         16             4    16
+  16   3   5   4        80       5         16             4    16
+  16   7   2   2       128       8         16             2    16
+  16   7   3   2       128       8         16             2    16
+  16   7   4   4        16       1         16             2    16
+  16   7   5   4        16       1         16             2    16
+  16   7   6   4        16       1         16             2    16
+  16   7   7   4        16       1         16             2    16
+  16   7   8   4        16       1         16             2    16
+  16  17   2   1       384      24         16             1    16
+  16  17   3   1       384      24         16             1    16
+  16  17   4   2        16       1         16             1    16
+  16  17   5   2        16       1         16             1    16
+  every orbit size divides n = 2h (LEMMA ROT at master level); Stab(Lambda^*) always contains <p>.
+
+[rot] 4057 checks, 0 FAIL
+STAGE_ROT_ALL_PASS

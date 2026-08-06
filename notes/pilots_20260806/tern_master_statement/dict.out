@@ -1,0 +1,8 @@
+=== STAGE dict: the 0/1 <-> ternary dictionary (LEMMA AB bridge) ===
+  n=16 : r' - a_{n/2}(S) == wt(A-B) on 65536 subsets
+  n=32 : r' - a_{n/2}(S) == wt(A-B) on 4000 subsets
+  n= 8 : sum_{c odd} |X_c|^2 == h*wt(eps) on 80 ternary eps
+  n=16 : sum_{c odd} |X_c|^2 == h*wt(eps) on 6560 ternary eps
+
+[dict] 76176 checks, 0 FAIL
+STAGE_DICT_ALL_PASS

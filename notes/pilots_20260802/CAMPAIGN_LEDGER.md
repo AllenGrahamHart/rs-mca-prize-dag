@@ -1811,3 +1811,101 @@ Blind pairs: adversary/builder on the statement; route-b/laws on
 the quantitative side. The coordinator reconciles the two
 instrument matrices at the bank. Standing rules as round 18
 (hardened compute-law clause; REPORT.md persistence at bank).
+
+## 2026-08-06: round-19 pilot 1 BANKED — the unification's exact core SURVIVES; two heuristics refuted; the anomaly closed
+
+- **tern_small_scale_laws (Opus) BANKED** (412/0 staged; coordinator
+  replay 122/0; licensing controls reproduce banked numbers
+  verbatim). THE DICTIONARIES VERIFY EXACTLY: I3's binding stratum
+  IS I2 vector-for-vector (D1); I1 at R = 1 = I2 (D2); the efloor
+  S-count and z1 mass are ONE functional (D3: Sct = 2^N(Z-1),
+  disjoint code paths) — the unification's exact content at full
+  strength. HEURISTICS REFUTED with exact laws: CATCH-19A (the
+  LEMMA ROT orbit constant 2N collapses to 2 for I1's mixed-parity
+  windows at R >= 2 — negacyclic iff all-odd T); CATCH-19B (shift-0
+  = a p-INDEPENDENT INTEGER layer, count T(N)-1 exactly —
+  CATCH-Z6's second door; CONTAMINATES a quarter of z1's
+  calibration grid [addendum written]; COORDINATOR SCOPE
+  CORRECTION: the official window is odd and never contains s = 0 —
+  the pilot's "2^44 excess at the official row" line is mis-scoped;
+  calibration hazard only). CATCH-19C (the (3/2)^N convention gap —
+  name the functional, standing rule). CATCH-19D (DISJOINT PRIME
+  STRATA: SELF-ORTH needs |T| >= N/2, I1 forces split primes — the
+  instances share the object, sample non-overlapping strata).
+  THE ANOMALY CLOSED: **LEMMA TWT** (self-orthogonal + ternary =>
+  p | wt; sharp predicate, 83/0) x orbit quantization = the full
+  155x; instance-local (the weaker outcome). NEW LEAD: the
+  p = 7, w = 4 484x OVER-representation — an opposite-signed
+  mechanism TWT does not explain. Scaling: exact structure
+  scale-free; TWT dies for I1 at scale; orbit gap grows log2 N.
+- Awaiting: tern_unification_adversary (resumed after an API-error
+  kill), tern_master_statement, tern_route_b.
+
+## 2026-08-06: round-19 pilot 2 BANKED — the master statement is REAL and PAYS TWICE; a minted-node constant corrected
+
+- **tern_master_statement (Opus) BANKED** (92,263/0 staged;
+  coordinator replayed all six stages + failclosed). PROPOSITION HS:
+  T(P, Lambda) = the ternary words of a negacyclic F_p-code — the
+  master object in one sentence; all three instances specialize
+  EXACTLY (I2 mass-reading only, I3 odd-conditions only — both
+  partials honestly reported; the recursion named). THE SPINE
+  PROVED: CZ-M (CATCH-Z6 -> a rank statement, closed count);
+  **CS-M** (CS verbatim for ANY Frobenius-stable unit Lambda — no
+  window hypothesis — via **LEMMA BR: r' - a_{n/2}(S) = wt(A-B)**,
+  the unification's prettiest fact); ROT-M; Z-FLOOR-M (exact
+  boundary). VALUE TEST PAYS TWICE: **THEOREM I3-FORCE** (first
+  EXISTENCE instrument on the (ES) object: below |Z_w^odd| log2 p <
+  n/2 the odd-condition exclusion mechanism PROVABLY FAILS — on
+  named tower rows; CATCH E-3 upgraded from vacuous to false-there)
+  and **THEOREM MT** (ONE inequality g log2 p vs h governs I1's
+  knife edge, I2's DSA boundary, I3's stratum-0 boundary —
+  reproducing -46.0249/+17.9751 to FOUR DECIMALS; COROLLARY MX: norm
+  and pigeonhole mechanisms never simultaneously informative —
+  route (a)'s death is structural). 19-instrument matrix delivered
+  (12 master / 1 subsumed / 4 instance-only / 2 cited). BLIND
+  CONVERGENCE with ssl (the one-framework object + the D3 functional
+  identity — subtraction caught it, credit given). **CATCH-T3
+  (against a minted node): FORCED CORRECTION APPLIED** —
+  f2_z1_mass_knife_edge's route-(a) constant 2.0000 -> 4.0000 (the
+  banked sharp ceiling is w^{n/4} not w^{n/2}; dead either way; dag
+  recompiled, verify PASS). CATCH-T4 citation drift noted. NOTHING
+  CLOSED — stated plainly. NODE_DRAFT (tern_master_threshold)
+  delivered; THE MINT IS GATED on the adversary sibling's graded
+  verdict, per the blind-pair design.
+- Awaiting: tern_unification_adversary (resumed), tern_route_b.
+
+## 2026-08-06: round-19 pilot 3 BANKED — ROUTE (b) DEAD AS POSED; the F2 terminal has NO NAMED ROUTE; second forced node correction
+
+- **tern_route_b (Opus) BANKED** (137/137). The minted "factor-2
+  headroom" REFUTED — the sizing dropped the DEGREE factor
+  (restored: deg·sqrt p = 2^65 vs |H| = 2^39, Weil vacuous by
+  exactly 26.000 bits); the executable substitute (LEMMA 5 AM-GM +
+  Z-2 moments) yields **THEOREM 7: Z_1 <= 2^{0.8908·S}
+  unconditional** (first nontrivial unconditional mass bound,
+  3.0e10 bits below trivial) but closes only at p <= 8.30 —
+  Z-NOGO's own threshold, structurally (the moment route consumes
+  distance+count). **PROPOSITION 3: the object is a sum of p^R
+  NON-NEGATIVE terms — cancellation between tuples does not exist
+  in principle; the route was mis-conceived, not mis-sized.** The
+  true open form: THE TAIL-COUNT CRITERION
+  (|{u : P(u) >= 2^{cS}}| <= 2^{(1-c)S+46+o(S)} for all c).
+  Favourable reductions banked: LEMMA 2 (oddness => COMPLETE
+  subgroup sums — no partial-sum loss) + LEMMA 5 (first moment in
+  V_1 only — no L2->Linf loss): both round-15 loss modes provably
+  do not bite; the fatal one is DEGREE (which my brief did not
+  name — CATCH-B4 brief defect accepted; the round-15 "1-2 orders"
+  gloss re-labelled: ratios track sqrt p). PROPOSITION 9 (my
+  Gauss-chase brief hint was misdirected — quadratic/quartic
+  evaluations govern the opposite object; chased and killed
+  properly). **PROPOSITION 10 (the lead)**: log2 P(u) exactly as a
+  doubling-map/log-sine functional — Dedekind-sum-shaped, strictly
+  finer than V_1, no bound known. CATCH-B1 (z1's 1+2cos line = the
+  unweighted count; disclaimed in situ, nothing breaks). CATCH-B3:
+  **SECOND FORCED CORRECTION to f2_z1_mass_knife_edge this round**
+  (route (b) sizing struck; "NO NAMED ROUTE REMAINS" is the node's
+  text now; dag recompiled, verify PASS). BOARD CONSEQUENCE: the F2
+  knife edge has no route with a named instrument — the open form
+  is the tail count; the leads are Prop 10 + whatever the
+  adversary/master pair surfaces. Honest limit: implementation-
+  death, not a Z-NOGO-strength no-go.
+- Awaiting: tern_unification_adversary (the round's gate).

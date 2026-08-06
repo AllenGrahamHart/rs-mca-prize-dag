@@ -94,3 +94,91 @@ As in the minted nodes — quote them verbatim before formalizing:
 - Verbatim quotes with file:line for every statement relied on.
 - Do NOT write REPORT.md — your final message IS the report; the
   coordinator persists it verbatim.
+
+---
+
+# PILOT PRE-REGISTRATIONS (appended by the Opus pilot BEFORE any computation)
+
+Round 19, 2026-08-06. Appended before a single line of code was run and
+before any tools/ramguard invocation in this pilot directory. Sources read
+first (statements only, no computation): the three minted instance nodes and
+their four provenance PROOFS.md files, plus
+`critical/nodes/b1_char0_giant_coset_theorem/node.json`.
+
+## T-A1. The master object I will define (M1)
+
+`T(P, Lambda) := {eps in {0,±1}^M : sum_{j<M} eps_j theta_j^l = 0 for all
+l in Lambda}` with `P = (theta_0,...,theta_{M-1})` a tuple in `F_{p^d}^*`.
+I register in advance the SPECIALIZED form I expect to be the load-bearing
+one — `P = the half-system (xi^j)_{j<h}` of `mu_n`, `n = 2h = 2^m`,
+`Lambda ⊆ (Z/n)^*` — and the claim that in that form
+
+```text
+T(P, Lambda)  =  the ternary words of the negacyclic F_p-code of length h
+                 with defining set Lambda^* := <p>·Lambda,
+                 of F_p-codimension g := |Lambda^*|.
+```
+
+## T-A2. The target is a PARAMETER (round-18 CATCH-Z1), registered as a weight
+
+I register the target as `Phi_omega(P,Lambda) := sum_{eps in T, eps != 0}
+omega(eps)` with `omega` a weight depending on the support size
+`U = wt(eps)`, and the four settings I expect to see:
+`omega = 1` (count), `omega = 2^{-U}` (I1 mass), `omega = 2^{h-U}` (I3
+census), `omega = C(h-U, (r'_a-U)/2)` (I2 crossing fibre).
+**Falsifier:** if any instance's banked target is NOT of this form, I report
+the failure and do not force it.
+
+## T-A3. Registered predictions (each may fail; failures will be reported)
+
+- **P1 (dictionary).** All three instances specialize EXACTLY, with I3
+  specializing only onto its ODD-condition sub-object (the even conditions
+  being a different-length instance). PRE-REGISTERED AS A PARTIAL: I expect
+  I3 to be partial and I say so now.
+- **P2 (CS reads verbatim).** THEOREM CS's proof transports to T(P,Lambda)
+  for every `Lambda ⊆ (Z/n)^*`, with `|Z_w^odd| -> |Lambda^*|` and
+  `(r' - a_{n/2}(S)) -> U(eps)`, and needs NO window/consecutivity
+  hypothesis. Sub-prediction **P2a**: `r' - a_{n/2}(S) = wt(A-B)` exactly.
+- **P3 (the master threshold).** The single quantity `g·log2 p` versus `h`
+  is simultaneously I1's knife edge, I2's DSA regime boundary, and I3's
+  stratum-0 odd-class existence boundary. Quantitative sub-prediction
+  **P3a**: at the banked I1 constants `h - g log2 p = -46.02` bits and
+  `+17.98` bits under the two t-readings. **P3b**: at I2, `h/g = n/w = L`
+  and DSA's `L-2` agrees with `h/g` to within 2.
+- **P4 (Z-FLOOR forces existence off-instance).** `g log2 p < h` forces a
+  nonzero ternary codeword in I3's `C_odd`. **Falsifier: any banked I3 cell
+  with `g log2 p < h` and an exact ternary count of 0 KILLS this and I
+  report it as killed.**
+- **P5 (CS at I1).** CS-M at I1 yields `U >= p^{4R/n}`, a factor-2 exponent
+  improvement on the banked dead norm route `p^{2R/n}`, and is still
+  dominated by Z-1's `2R+1`. Registered as an EXPECTED DOMINATED transfer:
+  if it is dominated I say the transfer paid nothing.
+- **P6 (SP-COVER at I1).** SP-COVER-M is VACUOUS at I1, by exactly the
+  saturation factor `log2 p` (`coverage needs R >= S`, object has
+  `R = S/log2 p`). Registered as an expected ZERO.
+
+## T-A4. Falsifiers / honesty clauses I bind myself to
+
+1. Any master theorem contradicting a banked exact count is WRONG and I
+   retract it, naming the cell.
+2. If the value test (M4) yields only dominated or vacuous transfers, I
+   write "the unification pays nothing" in those words.
+3. Every instrument in the M3 matrix gets one of exactly three verdicts:
+   MASTER (proved at master level, with hypothesis class), INSTANCE-ONLY
+   (with the exact obstruction), or NOT ATTEMPTED.
+4. Novelty is claimed only after the subtraction sweep returns; anything the
+   sweep finds banked is cited, not claimed.
+
+## T-A5. Grid rules
+
+Toy grids: 2-POWER `n` only (CATCH-Z6), EXCEPT one explicitly labelled
+rule-test stage that runs composite `2N in {12,20,24}` for the sole purpose
+of reproducing CATCH-Z6's own numbers (8 / 8 / 80 common vectors). That
+stage's outputs are never used in any conclusion about the official rows.
+
+## T-A6. Compute discipline
+
+Every execution via `tools/ramguard tiny|local -- python3` from the repo
+root. No bare `python3`, including for file patching or JSON peeking. All
+checks fail-closed, exit nonzero on failure, with a permanent failclosed
+stage that exits 1 by construction.
