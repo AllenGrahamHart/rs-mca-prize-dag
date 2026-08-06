@@ -52,3 +52,35 @@ ADOPTED:
   the one classical family sensitive to defining sets. THE NEXT
   TERMINAL PILOT ATTACKS AX-KATZ TRANSFER FIRST; the Pro brief (when
   Pro resumes) targets Deligne-Katz/p-adic people, not coding theory.
+
+## ADDENDUM (2026-08-06, coordinator, from round-16 es_boundary_adversary CATCH-16C)
+
+Two repairs of record:
+1. This pilot's REPORT was not persisted at bank time (systemic
+   round-13-15 defect); now recovered verbatim from the session
+   transcript as REPORT.md in this dir.
+2. The phrase "four proved structural constraints on any solution" in
+   this audit was a coordinator GLOSS, not the report's wording; the
+   list of record is REPORT.md §4 "THE PROVED PARTIALS" (P1-P6 line
+   items, MDS/RS identification, scope theorem Z5, etc.). Cite those
+   directly, not this audit's gloss.
+3. The "suppression 1-2 orders EARLY" line above is REPRICED by
+   round 16: it reproduces only at n = 16, decays to ~0.1 orders at
+   n = 32, and goes negative for w >= 3 — do not cite as scaling
+   evidence. The per-weight balance reading itself is REFUTED
+   (five sub-balance witnesses); the global reading and the faithful
+   crossing shape survive. See
+   notes/pilots_20260806/es_boundary_adversary/ for the re-pose
+   (ES-G).
+
+## ADDENDUM 2 (2026-08-06, coordinator, from round-17 es_g_lanes)
+
+REPORT.md §1's "(ES) discharges all four consumers" is REFUTED for
+the dli RES lane: that lane is ABOVE global balance by its own proved
+scoping hypothesis (2^N >= q^L, H2/A2 — exact strict inequality at
+every admissible q), so "the SAME hard shape" never meant "discharged
+by". (ES-G) is unwired from dli RES; its above-balance flatness
+instruments remain the route of record. The four-lane unification is
+re-scoped per notes/pilots_20260806/es_g_lanes/FABLE_AUDIT.md — the
+lanes' field regimes are mutually unsatisfiable, so the shared
+terminal was a shape identification, not a shared discharge.

@@ -1,0 +1,120 @@
+==========================================================================
+S0. Numerical hygiene of log2C (the only floating primitive used)
+==========================================================================
+S0.1      PASS log2C matches math.comb exactly on 5 toy rows (rel <= 1e-6)
+S0.2      PASS log2C(2^41, 2^41/2 - t*) vs de Moivre-Laplace (quadratic + quartic): |resid| = 0.0242 bits (< 1 bit; the (T*) step is L = 255.9 bits, so the integer crossing is unambiguous). Omitted quartic term = 986.2 bits.
+
+==========================================================================
+S1. CONTROL -- reproduce the banked four-rate corridor table (T*)
+==========================================================================
+S1.2      PASS rate 1/2   t* = 8592912739  (banked 8592912739)
+S1.4      PASS rate 1/4   t* = 7014660390  (banked 7014660390)
+S1.8      PASS rate 1/8   t* = 4722556392  (banked 4722556392)
+S1.16     PASS rate 1/16  t* = 2943177800  (banked 2943177800)
+S1.adj    PASS t*-1 fails (T*) and t* satisfies it, at all four rates
+
+==========================================================================
+S2/S3. (N2, U1) t_F2 = n/L is RATE-INDEPENDENT; t_XR is RATE-DEPENDENT
+==========================================================================
+S2.0      PASS t_F2 = n/L = 8593291346.4  (one number, no rate argument)
+          rate 1/2  : t_XR/t_F2 = 0.999956   deviation  -0.0044%
+          rate 1/4  : t_XR/t_F2 = 0.816295   deviation -18.3705%
+          rate 1/8  : t_XR/t_F2 = 0.549563   deviation -45.0437%
+          rate 1/16 : t_XR/t_F2 = 0.342497   deviation -65.7503%
+S2.1      PASS rate 1/2  : |deviation| = 0.004406% < 0.1%  (they COINCIDE here)
+S3.1      PASS rate 1/4  : deviation -18.37% > 10%  -> NOT the same quantity
+S3.2      PASS rate 1/8  : deviation -45.04% > 35%  -> NOT the same quantity
+S3.3      PASS rate 1/16 : deviation -65.75% > 55%  -> NOT the same quantity
+S3.F      PASS U1 FALSIFIER not triggered: (T*) does NOT reproduce n/L at all rates
+
+==========================================================================
+S4/S5/S6. (N2, U2) the exact error term Delta and its closed form
+==========================================================================
+S4.2      PASS rate 1/2  : Delta = 9.688565e+07 ; Delta/L = 378607.5 vs (n/L - t*) = 378607.4 (gap 0.03 <= L)
+S4.4      PASS rate 1/4  : Delta = 4.039717e+11 ; Delta/L = 1578630957.1 vs (n/L - t*) = 1578630956.4 (gap 0.71 <= L)
+S4.8      PASS rate 1/8  : Delta = 9.905211e+11 ; Delta/L = 3870734954.9 vs (n/L - t*) = 3870734954.4 (gap 0.51 <= L)
+S4.16     PASS rate 1/16 : Delta = 1.445864e+12 ; Delta/L = 5650113547.1 vs (n/L - t*) = 5650113546.4 (gap 0.67 <= L)
+S5        PASS rate 1/2 closed form  Delta = 2t*^2/(n ln2) + (1/2)log2(pi n/2) - 128 = 9.688466e+07 vs exact 9.688565e+07 (rel 1.02e-05 < 1%, as pre-registered in U2)
+S5.q      PASS with the quartic term added: Delta = 9.68856497e+07 vs exact 9.68856497e+07 (rel 2.48e-10 < 1e-7) -- the error term is CLOSED, nothing unexplained remains
+S6        PASS the banked 0.0044% agreement = 2/(L^2 ln2) = 4.406198e-05 vs measured 4.405849e-05
+S6.b      PASS UFMB with (ensemble, gate) = (2^n, 0) reproduces t_F2 = n/L exactly
+
+==========================================================================
+S7-S10. (N4, U3) the near-collision: sigma_max vs t*
+==========================================================================
+S7.1      PASS sigma_max = d*c + (c-1) = 2048*2^22 + (2^22-1) = 8594128895  (banked 8594128895)
+S7.2      PASS CLOSED FORM: sigma_max = 2^33 + 2^22 - 1 EXACTLY (= 2^22*(2^11+1) - 1)
+S8        PASS mca_floor's sigma* = 8592912738 equals t* - 1 = 8592912738 EXACTLY -> SAME OBJECT as the XR corridor edge (an excess A-k), NOT a different one
+S8.b      PASS the 'previously conjectured safe point at k+sigma*+1' sits at excess sigma*+1 = 8592912739 = t*
+S9.1      PASS sigma_max - t* = 1216156  (the brief's 1,216,156)
+S9.2      PASS t* - 2^33 = 2978147  (the L-offset of the corridor edge above the L->256 counting floor)
+S9.3      PASS DECOMPOSITION: 1,216,156 = (2^22 - 1) - (t* - 2^33) = 4194303 - 2978147  [= residual prefix s, minus the L-offset]
+S10.1     PASS CONTAINMENT: 1 <= t* = 8592912739 <= sigma_max = 8594128895, so t* lies INSIDE the interval mca_floor proves prize-unsafe (SP2)
+S10.2     PASS mca_floor is non-vacuous at q = 2^255: log2 L_q = 2250.1 >> 0, so the cyclic list is huge and E(q,L_q) ~ L_q/(k L_q) is a genuine floor
+
+==========================================================================
+S11/S12. (N5, U7) the sliver: mis-typed, and empty when recomputed
+==========================================================================
+S11.1     PASS CATCH-2 reproduces: n/t* - 255.9 = 0.011275 bits (banked 'below by 0.011')
+S11.2     PASS CATCH-2's gap = Delta/t* = 0.011275 -> it is the per-condition share of the ENTROPY DEFICIT, i.e. a SYMPTOM of the N2 refutation, not a convention error
+S12.2     PASS rate 1/2  : max over L in (41,256) of [t*(L)*L - n] = -9.6811e+07 < 0 at L = 255.999 -> {L : t*(L) L >= n} is EMPTY
+S12.4     PASS rate 1/4  : max over L in (41,256) of [t*(L)*L - n] = -3.4772e+11 < 0 at L = 41.500 -> {L : t*(L) L >= n} is EMPTY
+S12.8     PASS rate 1/8  : max over L in (41,256) of [t*(L)*L - n] = -9.1995e+11 < 0 at L = 41.500 -> {L : t*(L) L >= n} is EMPTY
+S12.16    PASS rate 1/16 : max over L in (41,256) of [t*(L)*L - n] = -1.3825e+12 < 0 at L = 41.500 -> {L : t*(L) L >= n} is EMPTY
+S12.F     PASS U7(b) FALSIFIER not triggered: NO L in [255.9,256) satisfies t*(L)*L >= n at rate 1/2 -- the sliver cannot be reached by any convention
+S12.c     PASS the sliver would first become reachable at L = 2.4332e+05 bits, i.e. a field of size ~2^243316 -- the |F| < 2^256 cap would have to rise by ~950x IN BITS. The sliver is not marginally unreachable, it is unreachable by three orders of magnitude.
+S12.b     PASS dt*/dL at L = 255.9 (rate 1/2) = -3.3576e+07 per bit -- t* is a FUNCTION of L, not a constant; freezing it is what produced the phantom sliver
+
+==========================================================================
+S13. (U4) the 7e10 exclusion, dependency-audited
+==========================================================================
+S13.2^41  PASS n = 2^41: t = 7e10 back-implies L = n/t = 31.415, below the (R1) floor log2 n = 41.0 -> EXCLUDED
+S13.2^40  PASS n = 2^40: t = 7e10 back-implies L = n/t = 15.707, below the (R1) floor log2 n = 40.0 -> EXCLUDED
+S13.p     PASS also excluded under the base-field reading: L = 31.415 < log2 p >= 39 (the admissible-region floor)
+S13.orig  PASS origin of the literal reproduced: n / log2 p_KoalaBear = 7.0962e+10 ~ 7e10 (a unit error -- wrong divisor)
+S13.dep   PASS DEPENDENCY AUDIT: the exclusion consumed only {n, (C), (R1)}; it touched no C(n,j), no gate B*, no (T*), no t* -> t-NAMING-INDEPENDENT
+
+==========================================================================
+S14. (U5) LEMMA 3 / THEOREM A-B bands under each t, retyped
+==========================================================================
+S14.c1    PASS CONTROL: rung-16 LEMMA 3 margin at t = 7e10 = 7.8915x (banked 7.8915x)
+S14.c2    PASS CONTROL: rung-16 LEMMA 3 margin at t = t* = 0.9687x (banked 0.9687x)
+S14.c3    PASS CONTROL: new-part @ 7e10 -> LEMMA 3 rungs 1-16, THEOREM A/B 1-13
+S14.c4    PASS CONTROL: new-part @ t*    -> LEMMA 3 rungs 1-15, THEOREM A/B 1-10
+S14.1     PASS RETYPE new-part: bands at t_XR = t* (15, 10) == bands at t_F2 = 2^33 (15, 10) -> the CONCLUSION survives retyping
+S14.2     PASS RETYPE nested  : bands at t_XR = t* (14, 9) == bands at t_F2 = 2^33 (14, 9)
+S14.3     PASS worst case over the t_F2 interval, stricter window: LEMMA 3 rungs 1-14, THEOREM A/B rungs 1-9  (the unsoftened band)
+
+==========================================================================
+S15. (U6) the THIRD t: |Lambda| vs the degree bound (factor 2)
+==========================================================================
+S15.1     PASS t_deg = 2|Lambda| = 2n/L = 1.7187e+10  (exactly 2x t_F2)
+S15.2     PASS THE AMBIGUITY IS DECISIVE: rung-16 LEMMA 3 margin is 1.9375x under the degree reading (HOLDS) vs 0.9687x under the count reading (VIOLATED) -- the factor 2 straddles 1.0
+S15.3     PASS under the degree reading the new-part bands become (16, 11), not (15, 10)
+
+==========================================================================
+S16. (U8) the |K1| = 2^{n/2} pricing identity, retyped
+==========================================================================
+S16.1     PASS with t_F2: (t/2)*L = 1.099512e+12 = n/2 EXACTLY (structural -- it IS the (C) balance halved)
+S16.2     PASS with t_XR = t*: (t*/2)*L / (n/2) = 0.99995594 != 1 -- short of n/2 by Delta/2 = 4.8443e+07 bits; the identity is APPROXIMATE, not structural
+S16.3     PASS the shortfall is exactly the same 4.406e-5 = 2/(L^2 ln2) as S6
+
+==========================================================================
+S17-S21. POST-SWEEP: the count-vs-degree normalization decides more
+         than expected (evidence found after U1-U9 were registered)
+==========================================================================
+S17.1     PASS under the F2 lane's OWN (degree) reading t_F2 = 2n/L = 1.71866e+10, which is 2.00009x t* -- a FACTOR 2 disagreement at rate 1/2 as well
+S17.2     PASS the celebrated 0.0044% agreement at rate 1/2 is an artefact of the COUNT normalization; under the degree normalization the rate-1/2 gap is 100.0%
+S18       PASS REDUCTIO: t = |Lambda| AND |Lambda| = ceil(t/2) force t = ceil(t/2), whose only positive solution is t = 1. The two banked readings are inconsistent for every t >= 2.
+S19.1     PASS wave-10 supersedes: proved unsafe band is 1 <= sigma <= 2^34-1 = 17179869183; t* = 8592912739 sits at 0.50017 of that reach -- DEEP inside, not 1.2e6 below the edge
+S19.2     PASS CAUTION (a coincidence of the very genus this pilot exists to police): the degree-reading counting floor 2n/256 = 2^34 equals the wave-10 band top 2^34-1 plus one. Both are dyadic multiples of n/256; this is NOT evidence of identity and is recorded only so nobody reads it as such.
+S20.1     PASS banked at WAVE9_AUDIT_FINDINGS.md:190: sigma* = 2048*2^22 + 2,978,146 = 8592912738 -- the closed form was already in the repo; my S9.3 RE-DERIVES a banked fact and must not be reported as novel
+S20.2     PASS banked 'delta = 1,216,157' = sigma_max - sigma*; the brief's 1,216,156 = sigma_max - t* differs by exactly 1 because t* = sigma* + 1
+S21.1     PASS COUNT reading : t = 7e10 => L = n/t = 31.415 < log2 n = 41.0 -> EXCLUDED
+S21.2     PASS DEGREE reading: t = 7e10 => L = 2n/t = 62.829, and 41.0 < 62.829 < 256 -- a RULES-ADMISSIBLE field. NOT EXCLUDED.
+S21.3     PASS VERDICT REVISION: the 7e10 exclusion survives the t_F2/t_XR collision (it consumes no t_XR, S13) but does NOT survive the count/degree collision -- it holds under one normalization and fails under the other. 't-naming-independent' is true only for the collision as posed.
+S21.4     PASS under the degree reading the rules-forced interval is (2^34, 1.0727e+11] = (1.7180e+10, 1.0727e+11], and 7e10 lies INSIDE it
+
+==========================================================================
+TOTAL: 68 checks, 68 PASS, 0 FAIL
+T_NAMING_VERIFY_ALL_PASS

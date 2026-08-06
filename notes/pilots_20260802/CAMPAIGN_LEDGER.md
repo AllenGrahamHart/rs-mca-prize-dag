@@ -1283,3 +1283,158 @@ queued for mint-4.
   branch moot; round-15 CATCH-4 sign flip CONFIRMED AND STRENGTHENED
   — now rules-forced, not t*-specific).
 - Awaiting: es_boundary_adversary (main hunt running).
+
+## 2026-08-06: round-16 pilot 4 BANKED — (ES) SPLIT BY READING; ROUND 16 COMPLETE; the lost-reports recovery
+
+- **es_boundary_adversary (Opus) BANKED** (296/296 + witness script
+  exit 0, both coordinator-replayed). **(ES) per-weight is REFUTED**:
+  five verified non-periodic sub-balance witnesses at n = 32 (deepest
+  Lam -8.284; cleanest in-scope p = 47, delta = 2, exact integer
+  sub-balance), each reproduced from scratch-built fields by a
+  disjoint code path. **The GLOBAL reading (u2c floor's q^t >= 2^n)
+  survives everything measured** — 0/5 witnesses below it — and the
+  faithful crossing shape (n=32, r'=w=8, ALL subsets, ALL
+  characteristics) is CLEAN: zero accidents. RE-POSE OF RECORD:
+  **(ES-G)** = global balance with TRUE |Z_w|, imposed
+  stratum-by-stratum (C4-a); per-weight retired to heuristic status
+  (thin boundary band [-8.3, +0.1] bits). Mechanism lead: GENERIC
+  COPRIMALITY of the window ideals (C4-c), pairing with the AK
+  pilot's char-p rigidity frontier. Round-15 "1-2 orders EARLY"
+  REPRICED (n=16-only; never cite as scaling). Above-balance witness
+  sharpened to p = 665857. Next compute: the n = 64 census +
+  ES-G-LANES (re-check all four lanes against (ES-G) with true
+  |Z_w|). Exemplary subtraction (norm-floor novelty withdrawn).
+- **CATCH-16C (coordinator, systemic) + REPAIR**: all ELEVEN
+  round-13-15 pilot dirs were missing REPORT.md — final-message
+  reports were audited but never persisted. All 11 recovered VERBATIM
+  from the session transcript by task-id (opening sanity lines match
+  the ledger bank entries) and persisted with recovery headers; the
+  mun "four proved structural constraints" gloss repaired by
+  addendum. STANDING RULE HARDENED: REPORT.md persistence is part of
+  the bank — check before the bank commit.
+
+ROUND-16 NET (4/4): the t/q pin resolved HARDER than posed (7e10 a
+unit error; the 16-rung tower NOT prize-admissible; F2 headline
+withdrawn to rungs 1-10/1-9; F2-ADM named); SL-1b split
+(proved-literal via LEMMA SL-1b-DIM / refuted-intended, 61 witnesses
+— non-load-bearing); Ax-Katz DEAD four ways (THEOREM AK-UNIT closes
+the whole congruence family; frontier reframed as char-p
+vanishing-sums rigidity; CATCH-16B band seam live); (ES) split by
+reading and RE-POSED as (ES-G) with the crossing shape clean.
+
+BOARD AFTER ROUND 16:
+- Mystery 2 = {SL-1b' (= Z(L) terminal), F2-ADM (re-derive on an
+  admissible <= 2-rung row), the PP5.0 average-vs-sum choice
+  (SURFACED; stricter-reading clause suggests sum), the t-naming
+  identification (|Lambda| vs A - k)}.
+- Mysteries 1+3+4 residual = (ES-G) + ES-G-LANES + the char-p
+  rigidity / generic-coprimality frontier + CATCH-16B; plus the W-5
+  rollback (still awaiting ratification) and CR-W5-ELL1 behind it.
+- Mint-4 queue grows: (ES-G) node, AK-UNIT/AK-WARN, LEMMA SL-1b-DIM,
+  the stratum lemma, the recovery-repaired report set, all round-16
+  catches.
+
+NEXT-ROUND CANDIDATES: ES-G-LANES (per-lane re-check, true |Z_w|);
+the n = 64 boundary census (Modal-scale); F2-ADM; the t-naming
+identification; mint-4 (very large).
+
+## 2026-08-06: ROUND 17 LAUNCHED — 4 Opus pilots (2 on (ES-G), 2 on mystery 2)
+
+- **es_g_lanes** ((ES-G) audit lens): true |Z_w| per row for all four
+  consuming lanes; global-balance status per admissible (p, delta)
+  incl. possible sign flips (C4-d); binding stratum per lane; exact
+  per-lane obligation under (ES-G); the u2c pin check. Broken routing
+  reported plainly if a lane sits above global balance.
+- **es_coprimality** ((ES-G) proof lens, sibling-blind to es_g_lanes):
+  formalize the COPRIMALITY CONJECTURE (N(I_S) = 1 outside a
+  characterized exceptional class => the (ES-G) crossing instance);
+  w = 3 proof attempt via resultants / Galois orbits / Lam-Leung
+  pushed to norms; exceptional class must contain all five round-16
+  witnesses; exact coprimality-rate measurements; AK-UNIT
+  self-checked.
+- **f2_adm** (mystery 2): F2-ADM — reconstruct F2 on a <= 2-rung
+  admissible row (explicit witness p = 18446735827372343297, q = p^4);
+  theorem survival table; margins worst-case over t in
+  (2^33, 5.364e10], both window readings; re-based obligation list;
+  PP5.0 seam priced both ways. Falsifier: if the descent needed 16
+  rungs, the F2 lane is VACUOUS AS POSED.
+- **t_naming** (mystery 2, sibling-blind to f2_adm): prove/refute the
+  t_F2 = |Lambda| vs t_XR = A - k identification; re-tag every banked
+  consumer of "t"; reconcile 8,592,912,739 vs 8,594,128,895; the
+  sliver-seam corrected convention (N5); independent re-check that
+  the 7e10 exclusion is naming-independent.
+
+Standing rules as round 16 (PREREG appended before compute; verbatim
+quotes; ramguard; DRAFT ONLY; coordinator persists reports — NOW WITH
+the hardened persistence check at bank time). STILL PENDING USER:
+W = 5 rollback (+ CR-W5-ELL1); PP5.0 average-vs-sum choice.
+DEFERRED COMPUTE (not launched this round): the n = 64 boundary
+census — Modal-scale; needs a distributed adaptation of the round-16
+census machinery; candidate for a coordinator-launched run next.
+
+## 2026-08-06: round-17 pilot 1 BANKED — the t-naming collision RESOLVED BY REFUTATION; round-16 headlines repriced
+
+- **t_naming (Opus) BANKED, MAINTAINER-LEVEL** (68/68). The
+  identification is REFUTED: one SCHEMA (UFMB: t·L >= log2 N + G),
+  two different balances (t_F2: (2^n, 0); t_XR: (C(n,n-k-t), 128));
+  divergence 0.0044%/18.4%/45.0%/65.8% by rate; the rate-1/2
+  near-miss is the central binomial (0.0044% = 2/(L^2 ln 2), a
+  Stirling correction — f2_tq_pin CATCH-4's tightness demoted).
+  **CATCH-E (maintainer, definitional)**: t_F2 is the MAX Newton
+  index (5 sources), not |Lambda| (f2_tq_pin PROOFS.md:158) — the
+  factor 2 leaves rung-16 LEMMA 3, the t_F2 interval, and the 7e10
+  exclusion each with TWO LIVE VALUES pending the Lambda parity pin.
+  **7e10 DOWNGRADED**: unit-error origin unconditional; excluded
+  under count normalization; NOT excluded under degree normalization.
+  Band 1-10/1-9 SURVIVES (t = 2^33 endpoint naming-independent);
+  "rungs 1-13" stays withdrawn. **N4**: t* = t_XR = the mca_floor
+  object (sigma* = t*-1 exactly); the 8,594,128,895 endpoint is
+  SUPERSEDED (unsafe band 1..2^34-1) — t* sits at 0.50017 of the
+  proved-unsafe reach; conflict-of-use to maintainer;
+  xr_radius_arithmetic lacks the cross-reference. **N5 FORCED
+  CORRECTIONS APPLIED**: the sliver is RETIRED (empty for all
+  L < 256; repair provably impossible); the two balances are NEVER
+  cross-audited again. SURFACED CHOICE: re-label L = 255.9 as a
+  representative evaluation point publishing dt*/dL = -3.36e7/bit.
+  CATCH-G: a THIRD t* (SOL_TARGET_3, unrenamed) to hygiene queue.
+  f2_tq_pin FABLE_AUDIT addendum written (P3 downgraded, P5
+  caveated, residual 4 corrected, CATCH-2/5 subsumed; CATCH-1
+  untouched). Cross-pilot: the running f2_adm registered the
+  CATCH-E-correct max-index reading — reconcile at its bank.
+  Honest residual of note: the pilot self-reports WEAK PREREG (8/8
+  registered post-reading; all surprises post-registration).
+- Awaiting: es_g_lanes, es_coprimality, f2_adm.
+
+## 2026-08-06: round-17 pilot 2 BANKED — THE FOUR-LANE UNIFICATION IS BROKEN AS WIRED
+
+- **es_g_lanes (Opus) BANKED, MAINTAINER-LEVEL** (1413/1413; certified
+  140-digit comparator, no float decides a boundary; one self-caught
+  float defect fixed by its own PREREG clause). THE TERMINAL RE-SCOPE
+  OF RECORD: the "unified terminal of four lanes" is WITHDRAWN —
+  the four lanes' field regimes are MUTUALLY UNSATISFIABLE (u2c needs
+  log2 Q >= 255.9113; band 1/4-1/8 low depth >= 255.99999994; band
+  1/16 >= 256 exactly, i.e. NEVER; dli RES needs < 256 strictly by
+  its own proved H2). Per lane: **u2c YES** — its pin IS (ES-G)
+  verbatim (q^t >= 2^n), witnesses re-excluded independently;
+  **crossing** YES at w >= 2^37, NO at w = 2^34 (all 19 admissible
+  (p-class, e) pairs fail the binding deep stratum — the requirement
+  log2 p >= 256 IS the rules cap; explicit admissible exhibit
+  p = 3·2^41+1, e = 6 above balance at a = 0); **band both nodes** NO
+  at rate 1/16 anywhere (>= 512-bit deficit at the cap) and on the
+  low-depth 22.5% of 1/4-1/8 scope; **dli RES** NO anywhere —
+  UNWIRED (above balance by its own H2/A2; round-15's "discharges
+  all four consumers" REFUTED for this lane; mun addendum 2 written).
+  MECHANISM: THEOREM Q makes extension degree free for the count
+  while e divides log2 p — tower rows are the adversary's best
+  choice against (ES-G). BANKED: exact |Z_w| closed forms for all 8
+  admissible p-classes (CATCH-B: delta(w-1) bracket top never
+  attained at delta = 4; CATCH-C: orbit merge at w = 2^38/2^39).
+  CATCH-D: the band q >= 2^209 pin computes the RETIRED per-weight
+  threshold, 47.5 bits short of (ES-G) — re-derive under the band's
+  adopted form. CATCH-E: u2c three-bases wording + "~2%" prose to
+  the u2c statement addendum queue. NEW NAMED OBLIGATIONS: the
+  crossing deep-stratum instance at w in {2^34..2^36} (n_a = 256,
+  one condition — direct attack candidate); the band effective-base
+  question (catch #11/#13 analogue — if the base moves to the
+  generated field every band verdict WORSENS).
+- Awaiting: es_coprimality, f2_adm.

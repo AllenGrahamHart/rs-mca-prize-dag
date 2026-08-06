@@ -75,3 +75,33 @@ Process defect self-reported (one bare python3, read-only, re-run
 under ramguard, no result used) — accepted with disclosure; the
 violation-and-disclosure pattern is exactly what the law is for.
 DRAFT-ONLY confirmed via git status.
+
+## ADDENDUM (2026-08-06, coordinator, from round-17 t_naming — banked same day)
+
+Repricings of record against this pilot's verdicts:
+1. **(P3) DOWNGRADED**: the 7e10 exclusion holds under the COUNT
+   normalization only; under the rules-admissible DEGREE normalization
+   (L = 2n/t) 7e10 is NOT excluded. Unconditional survivor: 7e10's
+   origin is a unit error — still unusable as a pin. The positive
+   identification of t with t* is WITHDRAWN (CATCH-B: one schema, two
+   balances; the 0.0044% is a Stirling correction, CATCH-C —
+   demoting this pilot's CATCH-4 tightness reading).
+2. **(P5) CAVEATED**: the rung-16 LEMMA 3 verdict depends on the
+   unpinned Lambda parity convention (t_naming CATCH-E,
+   maintainer-level): 0.9687x VIOLATED under t = |Lambda| (this
+   pilot's PROOFS.md:158 reading) vs 1.9375x HOLDS under the
+   max-Newton-index reading (5 sources). TWO LIVE VALUES until the
+   maintainer pin. The band rungs 1-10/1-9 SURVIVES independently
+   (the t = 2^33 endpoint run is naming-independent), and the
+   WITHDRAWAL of "rungs 1-13" stands under either reading.
+3. **Residual 4 CORRECTED**: 8,592,912,739 is the SAME object as
+   t_XR (mca_floor sigma* = t* - 1 exactly; sigma = A - k by (SP2)),
+   not a different one; and the 8,594,128,895 endpoint is superseded
+   (unsafe band now 1 <= sigma <= 2^34 - 1), leaving t* at 0.50017 of
+   the proved-unsafe reach. Conflict of USE flagged to the maintainer.
+4. **CATCH-2/CATCH-5 SUBSUMED**: the sliver is EMPTY when computed
+   self-consistently (dt*/dL = -3.36e7/bit); retired as a forced
+   correction. CATCH-2's 0.011 bits = Delta/t*, a symptom of the
+   two-balance divergence, not a convention error.
+CATCH-1 (tower inadmissibility) and the admissible region are
+UNTOUCHED — they consume only the field cap and n | q-1.
