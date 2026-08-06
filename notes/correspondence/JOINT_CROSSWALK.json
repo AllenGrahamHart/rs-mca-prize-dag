@@ -536,11 +536,31 @@
     "does not identify these fibers with def:q-row-atom"
    ],
    "status_ours": "PROVED",
-   "status_his": "draft PR #1150 at bbd61489",
+   "status_his": "draft PR #1150 at f15c8b07",
    "lean": null,
    "provenance": {
     "our_sha": "f6fba9ad5",
-    "his_sha": "bbd61489"
+    "his_sha": "f15c8b07"
+   }
+  },
+  {
+   "our_node": "f2_fixed_weight_flatness_mass_bridge",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact bridge from fixed-weight mean-plus-one syndrome flatness on a central band to the full-cube weighted F2 mass, retaining cross-weight collisions",
+   "owner": "US",
+   "nonclaims": [
+    "does not prove the fixed-weight flatness premise",
+    "does not identify weighted odd-prefix fibers with upstream unweighted split-locator fibers",
+    "does not transport the pruned first-match owner in def:q-row-atom"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "draft PR #1150 at f15c8b07",
+   "lean": null,
+   "provenance": {
+    "our_sha": "117e84c09",
+    "his_sha": "f15c8b07"
    }
   },
   {

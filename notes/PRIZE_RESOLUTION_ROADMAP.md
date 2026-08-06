@@ -18307,6 +18307,58 @@ new assumptions: none
 compute: local exact F25/F5 replay only; no Modal spend
 next: prove a common upper-mass theorem for the five generating signed types and settle PP5.0
 ```
+
+### F2 fixed-weight flatness bridge
+
+Canonical Round 19 (`prize@fed71a06`) proved that the shared ternary-code
+framework does not itself discharge F2: the F2 object sits at the critical
+mass threshold, while the crossing/ES instances sit in an emptiness regime.
+It also killed the proposed pointwise Weil route after restoring its omitted
+degree factor; the bound is vacuous by 26 bits at the official witness. The
+remaining character formulation is a tail-count problem, not a
+nontrivial-character cancellation problem.
+
+The new PROVED `f2_fixed_weight_flatness_mass_bridge` replaces the need for
+a full-cube max-fiber theorem by a fixed-weight one. For a linear map on
+`{0,1}^S`, write `B_b=binom(S,b)`, `M_b` for the largest syndrome fiber on
+weight `b`, and let `T_G` be the total binomial mass outside a good weight
+set `G`. If
+
+```text
+M_b <= L(1+B_b/Q)  for b in G,
+```
+
+then, with every cross-weight collision retained,
+
+```text
+Z <= 3 T_G^2/2^S + 3L(S+1+2^S/Q).
+```
+
+When all weights are covered the factor is `2` and the tail term vanishes.
+Complementation identifies weights `b` and `S-b`. Consequently
+`log L=o(S)`, `2^S/Q=2^o(S)`, and omitted tails
+`T_G=2^(S/2+o(S))` suffice for the required full-cube mass. Equivalently,
+one needs mean-plus-one flatness only on a central binomial band whose
+complement has entropy at most `1/2+o(1)`.
+
+This is exactly the normalization shape of upstream
+`prob:capfr1-master-flatness` and `prob:capfp-Q`, but not yet an object
+identification: the F2 map has weighted odd-power columns and uses the full
+fixed-weight slice, while upstream Q is unweighted or pruned by a
+first-match owner. The theorem is exported in draft PR `#1150` at
+`f15c8b07` with 4,601 replay checks.
+
+```text
+starting pin: 117e84c09; canonical fed71a06; upstream main 93fba1be
+lane: F2 / fixed-weight split-locator flatness
+result: fixed-weight mean-plus-one flatness on a central band implies full-cube mass
+DAG status delta: +1 PROVED supplier; F2 target remains TARGET
+upstream terminal delta: draft #1150 extended with the exact bridge at f15c8b07
+delta-star bracket movement: none
+new assumptions: none in the bridge; the fixed-weight flatness estimate remains open
+compute: four tiny exhaustive maps, 130 local checks; no Modal spend
+next: prove weighted odd-prefix mean-plus-one flatness on the central band for the five signed generating types
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
