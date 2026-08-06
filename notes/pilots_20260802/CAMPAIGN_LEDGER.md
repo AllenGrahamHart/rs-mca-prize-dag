@@ -2010,3 +2010,39 @@ criterion (leads: Prop 10; the 484x creation anomaly); (3) the
 crossing low-w prime-row emptiness (the SP/CS gap; the
 even-condition extension; the PT-2 cliff needs its floor
 re-verified); (4) the band re-pose.
+
+## 2026-08-06: ROUND 20 LAUNCHED — the post-rulings frontier (4 Opus pilots)
+
+(Quarantine marker: round-20 pilots must not read ledger entries
+below this line until the round completes.)
+
+- **gamma_shell (THE PRIORITY)**: refutation-or-repose — the shell
+  map of the DSA accident family (sig-arithmetic of the periodic
+  lift, toy-gated), the per-shell budget comparison with the
+  concentration danger case FIRST, the verdict under the strict
+  refutation protocol (budget-break = CANDIDATE for coordinator
+  replay, consumer chain traced to the prize-level statement), the
+  PT-2 stability note.
+- **f2_repose (blind to tail_count)**: the F2 lane rebuilt from the
+  consumer down — the quoted consumer contract; the weakest
+  sufficient intermediate at generating rows (median/quantile
+  candidates before mass); at least one candidate per route for
+  non-generating rows; the lane NODE-DRAFT.
+- **tail_count (blind to f2_repose)**: the terminal's open form
+  attacked via the two leads — the Prop-10 doubling/log-sine
+  functional (orbit telescoping, multiset second moments evading
+  the Corollary-8 trap, a large-P structure theorem) + the p=7 w=4
+  484x CREATION mechanism identified from its 288 codewords; the
+  exact toy tail profile vs the criterion.
+- **crossing_gap (blind to gamma_shell)**: the even-condition
+  SP-COVER recursion (gated on the p=7 w=7 census cell); the
+  constant-weight Z-FLOOR at the crossing instance (the round-19
+  untested cell); the ADVERSARIAL PT-2 cliff re-verification
+  (RHL-LB's 2^34 re-derived from source; the 0.336-bit clearance
+  under all banked readings); the exact remaining gap.
+
+Standing rules as round 19 + the quarantine marker above. All four
+mysteries' post-rulings frontier covered: the gamma-shell question
+(crossing/prize-level), the F2 re-pose + terminal, the prime-row
+gap, with the band re-pose queued behind the ternary-functional
+outcome.
