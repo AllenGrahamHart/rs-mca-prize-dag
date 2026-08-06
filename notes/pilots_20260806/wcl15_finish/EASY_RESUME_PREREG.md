@@ -83,6 +83,19 @@ tools/ramguard modal -- modal run \
   --external-full --resume-missing --max-missing-batches 4558
 ```
 
+Final-wave app `ap-lPz2qBADvEdizYneaGoS2a` completed and stopped normally.
+It returned 4,558/4,558 batches, 291,672 rows, 291,609 fully factored rows,
+63 hard tails, one cache hit, no client error or gate factor, and maximum
+`v_2(p-1)=29`.  Maximum batch time was 278.15059 seconds.  Compact result
+SHA-256 is
+`c7cc723272f72cf9693e7b0391f79063eb89bc3de977c36fbbbd8f333f694221`.
+
+One final all-volume inventory is authorized under the same metadata-only
+96-thread, one-CPU, 1-GiB, 420/390-second and sub-`$0.03` ceiling.  Only a
+complete inventory with 35,890 valid batches, 2,296,920 covered rows, zero
+missing/invalid/shard/gate records, and the exact hard-tail count can close
+the easy stage.
+
 ## Packaging-only first launch
 
 App `ap-Zz4V2PkJVwGCxmOICMrEov` was stopped immediately after its workers
