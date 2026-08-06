@@ -62,6 +62,35 @@ successful continuation must exploit that joint system, rather than factor the
 first-moment norm class by class. The six-slot statement and its status are
 unchanged.
 
+## Exact squared-root compression
+
+The proved `dli_wcl_weight5_squared_root_hypersurface_router` gives a smaller
+exact presentation for the terminal `(1,5)` slot. After the unique
+product-one normalization and squaring, a candidate is a five-subset of
+`mu_256` with product one. If `e_j` are its elementary symmetric functions,
+put
+
+```text
+d=4e_2-e_1^2,
+Psi=(d^2-64e_4)^2-16384e_3+2048e_1d.
+```
+
+The subset lifts to a relation if and only if `Psi=0`. Equivalently, on the
+product-one square-root torus, `Psi` is the product of the 16 allowed signed
+first-moment sums. Exact Burnside counting gives
+
+```text
+34,412,301 product-one subsets,
+   289,043 odd-dilation classes.
+```
+
+This is a factor-`7.95` class compression relative to the signed affine
+census. It is not a factorization shortcut: the norm of `Psi` is an aggregate
+of the sign-lift norms, so its cofactors are larger and a blind aggregate-norm
+sweep would merely move the hard characteristic certification. The useful
+next step is theorem-level control of `Psi=0` under the official split gate,
+or a structured resultant that isolates only compatible prime factors.
+
 ## Replay
 
 ```bash

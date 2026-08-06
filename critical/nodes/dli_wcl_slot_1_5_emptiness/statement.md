@@ -8,5 +8,8 @@ weight-5 polynomial vanishes at an order-512 root (the ell=1 window slot
 per the ratified schedule r2 / raw ledger; bookkeeping of record:
 ../dli_wcl_zone_coverage/official_terminal_attack.md). Zero-event
 obligation. Evidence: the streaming terminal weight-five sweep (partial,
-pilot max_v2 = 17-21); the first-64-primes MITM survival record.
+pilot max_v2 = 17-21); the first-64-primes MITM survival record; and the
+proved squared-root hypersurface router, which reduces the exact search to
+`289,043` product-one `mu_256` Galois classes but does not factor their
+aggregate obstruction norms.
 FALSIFIER: one official-admissible prime with such a vanisher.

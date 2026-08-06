@@ -8,7 +8,7 @@
     "refs": [
       "critical/nodes/dli_wcl_slot_1_5_emptiness/statement.md"
     ],
-    "statement": "No reduced signed weight-5 polynomial vanishes at an order-512 root at any official row (ell=1 window; zero-event; sweep partial, pilot max_v2 17-21). FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
+    "statement": "No reduced signed weight-5 polynomial vanishes at an order-512 root at any official row (ell=1 window; zero-event; sweep partial, pilot max_v2 17-21). The proved squared-root hypersurface router reduces the exact search to 289043 product-one mu_256 Galois classes but does not factor their aggregate obstruction norms. FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
   },
   "requires": [],
   "alternatives": [],
