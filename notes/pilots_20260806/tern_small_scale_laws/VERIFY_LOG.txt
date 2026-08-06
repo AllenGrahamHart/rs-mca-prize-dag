@@ -1,0 +1,364 @@
+
+==============================================================================
+[CTRL] C1 replication / C2 factor independence / C3 disjoint paths / D3 dictionary
+==============================================================================
+
+  C1 -- replication of efloor_sparsity/PROOFS.md:320-326 (n=32)
+  n    p    w    banked     measured   rank
+  32   3    2    6560       6560       8
+  32   5    2    0          0          8
+  32   7    2    16640      16640      4
+  32   17   2    148224     148224     2
+  32   3    4    6560       6560       8
+  32   5    4    0          0          16
+  32   7    4    288        288        8
+  32   17   4    288        288        4
+  32   3    6    0          0          16
+  32   5    6    0          0          16
+  32   7    6    288        288        8
+  32   17   6    0          0          6
+  32   3    8    0          0          16
+  32   5    8    0          0          16
+  32   7    8    288        288        8
+  32   17   8    0          0          8
+
+  C2 -- factor independence (the choice of prime P above p)
+  n=16  p=3   w=2   2 factor(s), all agree, count=80
+  n=16  p=3   w=4   2 factor(s), all agree, count=80
+  n=16  p=5   w=2   2 factor(s), all agree, count=0
+  n=16  p=5   w=4   2 factor(s), all agree, count=0
+  n=16  p=7   w=2   4 factor(s), all agree, count=128
+  n=16  p=7   w=4   4 factor(s), all agree, count=16
+  n=16  p=17  w=2   8 factor(s), all agree, count=384
+  n=16  p=17  w=4   8 factor(s), all agree, count=16
+  n=32  p=3   w=2   2 factor(s), all agree, count=6560
+  n=32  p=3   w=4   2 factor(s), all agree, count=6560
+  n=32  p=5   w=2   2 factor(s), all agree, count=0
+  n=32  p=5   w=4   2 factor(s), all agree, count=0
+  n=32  p=7   w=2   4 factor(s), all agree, count=16640
+  n=32  p=7   w=4   4 factor(s), all agree, count=288
+  n=32  p=17  w=2   8 factor(s), all agree, count=148224
+  n=32  p=17  w=4   8 factor(s), all agree, count=288
+
+  C3 -- two disjoint code paths (brute 3^N vs meet-in-the-middle)
+  all n=16 cells: brute force over 3^8 agrees with MITM, weight distribution by weight
+
+  D3 -- the multiplicity dictionary  Sct = 2^N (Z - 1)
+  n    p    w    Sct (subsets)    2^N(Z-1)         agree
+  16   3    2    768              768              YES
+  16   5    2    0                0                YES
+  16   7    2    1152             1152             YES
+  16   17   2    3600             3600             YES
+  32   3    2    983040           983040           YES
+  32   5    2    0                0                YES
+  32   7    2    1916928          1916928          YES
+  32   17   2    14803200         14803200         YES
+  D3 CONFIRMED in every cell: the efloor S-count and the z1 weighted mass are ONE functional.
+
+  [CTRL] 122 checks, 0 failures
+
+==============================================================================
+[L1] THE MATCHED CENSUS -- one framework, three instance shapes
+==============================================================================
+
+  L1.1 -- the relation-count law in p at FIXED shape
+  I3 at n=32 (N=16), w=2: every odd prime p <= 61.
+  flat_count = (3^N-1)/p^rk ; flat_mass = 2^N/p^rk (the z1 first
+  moment, f2_sl1_powersums/PROOFS.md:291); Z-1 = measured mass.
+
+  p    rk    count     flat_count  ratio     Z-1         flat_mass  SELF-ORTH
+  3    8     6560      6561.00     1.000     15.0000     9.9887     True
+  5    8     0         110.20      0.000     0.0000      0.1678     True
+  7    4     16640     17928.66    0.928     29.2500     27.2953    False
+  11   8     0         0.20        0.000     0.0000      0.0003     True
+  13   8     0         0.05        0.000     0.0000      0.0001     True
+  17   2     148224    148950.59   0.995     225.8789    226.7682   False
+  19   8     0         0.00        0.000     0.0000      0.0000     True
+  23   4     288       153.83      1.872     1.2500      0.2342     False
+  29   8     0         0.00        0.000     0.0000      0.0000     True
+  31   2     44544     44793.67    0.994     67.5093     68.1956    False
+  37   8     0         0.00        0.000     0.0000      0.0000     True
+  41   4     0         15.23       0.000     0.0000      0.0232     False
+  43   8     0         0.00        0.000     0.0000      0.0000     True
+  47   2     17152     19486.97    0.880     30.4766     29.6677    False
+  53   8     0         0.00        0.000     0.0000      0.0000     True
+  59   8     0         0.00        0.000     0.0000      0.0000     True
+  61   8     0         0.00        0.000     0.0000      0.0000     True
+
+  L1.2 -- the SAME shape at every matched 2-power length
+  (single condition, w=2 / R=1 / I2 -- the shared cell)
+  2N    N     p     count     flat_count  ratio    orbits    orbit sizes
+  8     4     3     8         8.89        0.900    1         8
+  8     4     5     0         3.20        0.000    0         -
+  8     4     7     0         1.63        0.000    0         -
+  8     4     17    0         4.71        0.000    0         -
+  16    8     3     80        80.99       0.988    5         16
+  16    8     5     0         10.50       0.000    0         -
+  16    8     7     128       133.88      0.956    8         16
+  16    8     17    384       385.88      0.995    24        16
+  32    16    3     6560      6561.00     1.000    205       32
+  32    16    5     0         110.20      0.000    0         -
+  32    16    7     16640     17928.66    0.928    520       32
+  32    16    17    148224    148950.59   0.995    4632      32
+
+  L1.3 -- weighted mass vs unweighted count (the ratio the
+  mandate asks for).  count/(Z-1) measured, and its flat value
+  (3/2)^N -- the CONVENTION GAP between the two instances.
+  N     p     count     Z-1          count/(Z-1)  flat (3/2)^N
+  8     3     80        3.00000      26.67        25.63
+  8     7     128       4.50000      28.44        25.63
+  8     17    384       14.06250     27.31        25.63
+  16    3     6560      15.00000     437.33       656.84
+  16    7     16640     29.25000     568.89       656.84
+  16    17    148224    225.87891    656.21       656.84
+  [L1] cumulative 122 checks
+
+==============================================================================
+[L2] THE TRACKING TEST -- the adversarial core
+==============================================================================
+
+  D1 -- the LEMMA STRAT dictionary: I2(L,p) == I3(2L,p,w=2)
+  compared as SETS OF VECTORS, not as counts.
+  D1 CONFIRMED exactly: I2's relation set and I3's binding
+  stratum are the SAME SET OF VECTORS at every matched cell.
+
+  D2 -- I1(2N,p,R=1,a=1) == I2(N,p), built from I1's OWN
+  description (GRS half-system evaluation points omega^e).
+  D2 CONFIRMED: I1's GRS half-system parity check at R=1, a=1 IS
+  I2's single relation, coordinate for coordinate.
+
+  P1 -- INDEPENDENT LAYERS: I1 at R conditions vs (3^N-1)/p^R
+  N    p      R    a    rank   count     flat=(3^N-1)/p^rk ratio    orbit sizes
+  16   97     1    0    1      5196626   443780.619  11.710   -
+  16   97     1    1    1      443776    443780.619  1.000    -
+  16   97     2    0    2      53514     4575.058    11.697   2
+  16   97     2    1    2      4526      4575.058    0.989    2
+  16   97     3    0    3      526       47.166      11.152   2
+  16   97     3    1    3      40        47.166      0.848    2
+  16   97     4    0    4      2         0.486       4.113    2
+  16   97     4    1    4      0         0.486       0.000    -
+
+  P1 ratio (measured/flat) aggregated by (R, shift a):
+  R      a      mean ratio n cells
+  1      0      17.384     6
+  1      1      1.004      6
+  1      2      1.126      6
+  2      0      15.246     6
+  2      1      0.648      6
+  2      2      0.790      6
+  3      0      10.767     6
+  3      1      0.703      6
+  3      2      1.063      6
+  4      0      34.466     6
+  4      1      0.000      6
+  4      2      0.686      6
+
+  P2 -- ORBIT QUANTIZATION and its registered BREAK
+  inst   N      p      T-par  count    clos_neg  clos_rneg clos_rcyc orbit sizes
+  I2     8      17     odd    384      True      True      False     16
+  I1 R=1 a=1 8      17     odd    384      True      True      False     16
+  I1 R=1 a=0 8      17     even   1106     True      False     True      2,4,8,16
+  I1 R=2 a=1 8      17     MIXED  20       True      False     False     2
+  I1 R=2 a=0 8      17     MIXED  64       True      False     False     2
+  I1 R=3 a=0 8      17     MIXED  2        True      False     False     2
+  I2     8      97     odd    64       True      True      False     16
+  I1 R=1 a=1 8      97     odd    64       True      True      False     16
+  I1 R=1 a=0 8      97     even   1106     True      False     True      2,4,8,16
+  I1 R=2 a=0 8      97     MIXED  8        True      False     False     2
+  P2 CONFIRMED AS REGISTERED: the 2N-orbit quantization holds
+  for I2/I3 (all-odd T) and BREAKS for I1 at R >= 2 (mixed T).
+
+  P6 -- the onset threshold (the empirical balance point)
+  functional  F = N*log2(3) - rk*log2(p) - log2(2N)
+  N    p       R    rank   F         count     nonempty?
+  16   353     3    3      -5.03     0         NO
+  8    113     2    2      -4.96     0         NO
+  8    97      2    2      -4.52     0         NO
+  16   257     3    3      -3.66     6         yes
+  8    17      3    3      -3.58     0         NO
+  16   193     3    3      -2.42     6         yes
+  8    17      2    2      0.50      20        yes
+  16   97      3    3      0.56      40        yes
+  8    193     1    1      1.09      32        yes
+  8    113     1    1      1.86      64        yes
+  8    97      1    1      2.08      64        yes
+  16   353     2    2      3.43      422       yes
+  16   257     2    2      4.35      664       yes
+  8    17      1    1      4.59      384       yes
+  16   193     2    2      5.17      1152      yes
+  cells with F > 0 but EMPTY : 0
+  cells with F < 0 but NONEMPTY: 2
+  [L2] cumulative 214 checks
+
+==============================================================================
+[L3] THE ANOMALY -- P3 (LEMMA TWT) and P4 (its transport)
+==============================================================================
+
+  P3a -- registered SELF-ORTH predicate  vs  DIRECT test that
+         the F_p code satisfies C <= C^perp (no theory assumed)
+  n    p    w    rank   SELF-ORTH  C<=C^perp  agree
+  32   3    2    8      True       True       YES
+  32   3    4    8      True       True       YES
+  32   5    2    8      True       True       YES
+  32   5    4    16     True       True       YES
+  32   7    2    4      False      False      YES
+  32   7    4    8      True       True       YES
+  32   11   2    8      True       True       YES
+  32   11   4    8      True       True       YES
+  32   13   2    8      True       True       YES
+  32   13   4    16     True       True       YES
+  32   17   2    2      False      False      YES
+  32   17   4    4      False      False      YES
+  32   19   2    8      True       True       YES
+  32   19   4    8      True       True       YES
+  32   23   2    4      False      False      YES
+  32   23   4    8      True       True       YES
+  P3a CONFIRMED: the registered combinatorial predicate T u (-T) >= (Z/2N)^*  IS  self-orthogonality of the code.
+
+  P3b -- LEMMA TWT: SELF-ORTH  =>  p | wt(v) for every nonzero
+         ternary codeword.  Tested on the EXACT weight spectrum.
+  n    p    w    SELF-ORTH  count    weights      p | all wts?
+  32   3    2    True       6560     3,6,9,12     YES
+  32   3    4    True       6560     3,6,9,12     YES
+  32   7    2    False      16640    3,4,5,6...   NO
+  32   7    4    True       288      7,14         YES
+  32   17   2    False      148224   3,4,5,6...   NO
+  32   17   4    False      288      6,12         NO
+  32   23   2    False      288      5,10         NO
+  P3b: 83 SELF-ORTH cells tested, 0 violations. 13 non-SELF-ORTH cells.
+
+  P3c -- the CONVERSE control: in non-SELF-ORTH cells the
+         weights must NOT be p-restricted (else mechanism is
+         misidentified).
+  P3c CONFIRMED: no non-SELF-ORTH cell shows p-divisible weights.  The predicate is SHARP, not a coincidence.
+
+  P3d -- THE ANOMALY LEDGER at n=32, p=5, w=2
+  ternary population              3^16           = 43046721
+  syndrome space                  5^8          = 390625
+  FLAT model (banked, ~110)                     = 110.20
+  admissible after LEMMA TWT (wt in {5,10,15})  = 8864256
+  corrected expected codewords                  = 22.69
+  ... and per LEMMA ROT orbit of size 2N = 32    = 0.709 orbits
+  Poisson P(0 orbits) = exp(-0.709)              = 0.49
+  MEASURED                                      = 0
+  => the round-18 anomaly is FULLY ACCOUNTED FOR: suppression
+     factor 155x = 4.9x (LEMMA TWT) * 32 (LEMMA ROT orbits),
+     leaving an expected 0.709 orbits.  0 is the MODAL outcome.
+
+  P4 -- transport: is the mechanism SHARED or INSTANCE-LOCAL?
+  I1 structurally forces p = 1 mod 2N (f2_adm/PROOFS.md:232-235),
+  so <p> = {1}, |T| = R, and SELF-ORTH needs R >= N/2.
+  N     p      R    a    SELF-ORTH  note
+  8     17     1    1    False      needs R >= N/2 = 4
+  8     17     2    1    False      needs R >= N/2 = 4
+  8     17     3    1    False      needs R >= N/2 = 4
+  8     17     4    1    False      needs R >= N/2 = 4
+  P4 VERDICT: SELF-ORTH is FALSE at every I1 miniature with
+  R <= 4 and N >= 8 -- the anomaly's mechanism is INSTANCE-LOCAL
+  to I3/I2 at NON-SPLIT primes.  A disanalogy datum.
+
+  [L3] cumulative 397 checks, 0 failures
+
+==============================================================================
+[L4] THE SCALING VERDICT -- where each law lives and where it dies
+==============================================================================
+
+  L4.1 -- CATCH: I1's shift a=0 layer is NOT an F_p layer.
+  omega^0 = 1, so the t=0 condition is  sum_e v_e = 0 in F_p;
+  |sum v_e| <= N < p at every I1 miniature (p = 1 mod 2N), so it
+  is the INTEGER condition sum v_e = 0 -- p-INDEPENDENT.
+  Registered null said (3^N-1)/p; the truth is T(N)-1.
+  N    p       measured     T(N)-1       (3^N-1)/p    measured==T(N)-1
+  4    17      18           18           4.7          YES
+  4    41      18           18           2.0          YES
+  4    73      18           18           1.1          YES
+  8    17      1106         1106         385.9        YES
+  8    97      1106         1106         67.6         YES
+  8    113     1106         1106         58.1         YES
+  16   97      5196626      5196626      443780.6     YES
+  16   193     5196626      5196626      223040.0     YES
+  16   257     5196626      5196626      167497.0     YES
+  => EXACT, for every p.  The a=0 layer is a p-independent
+     INTEGER relation: CATCH-Z6's parasitic-relation disease at
+     2-power length, entering through the SHIFT instead.
+
+  L4.2 -- the CORRECTED independent-layers law at a=0:
+  count ~ T(N)/p^{R-1}   (one integer layer + (R-1) F_p layers)
+  N    p       R    measured   T(N)/p^(R-1) ratio     (3^N-1)/p^R  old ratio
+  16   97      1    5196626    5196627.0    1.000     443780.6     11.71
+  16   97      2    53514      53573.5      0.999     4575.1       11.70
+  16   97      3    526        552.3        0.952     47.2         11.15
+  16   193     1    5196626    5196627.0    1.000     223040.0     23.30
+  16   193     2    26988      26925.5      1.002     1155.6       23.35
+  16   193     3    108        139.5        0.774     6.0          18.04
+  16   257     1    5196626    5196627.0    1.000     167497.0     31.03
+  16   257     2    19848      20220.3      0.982     651.7        30.45
+  16   257     3    86         78.7         1.093     2.5          33.91
+  => the corrected law tracks to a few percent; the registered
+     independent-layers null was off by a factor ~p/T-ratio,
+     GROWING WITH p.  Structured deviation, fully explained.
+
+  L4.3 -- the orbit constant is INSTANCE-DEPENDENT (from P2).
+  Threshold functional F = N log2 3 - rk log2 p - log2(orbit).
+  orbit = 2N for I2/I3 and for I1 at R=1,a odd; = 2 for I1, R>=2.
+  N    p       R    count  F(2N)     F(correct) orbit     verdict
+  8    17      2    20     0.50      3.50      2         ok
+  8    17      3    0      -3.58     -0.58     2         ok
+  8    17      4    0      -7.67     -4.67     2         ok
+  8    97      2    0      -4.52     -1.52     2         ok
+  8    113     2    0      -4.96     -1.96     2         ok
+  8    193     2    0      -6.51     -3.51     2         ok
+  16   97      3    40     0.56      4.56      2         ok
+  16   97      4    0      -6.04     -2.04     2         ok
+  16   193     3    6      -2.42     1.58      2         ok
+  16   257     3    6      -3.66     0.34      2         ok
+  16   353     3    0      -5.03     -1.03     2         ok
+  threshold mispredictions with the I2/I3 constant 2N : 2
+  threshold mispredictions with the instance-correct   : 0
+
+  L4.4 -- EXTRAPOLATION: the size of each correction, in bits,
+  as a function of N (main term is N log2 3).
+  N          orbit corr     TWT corr       shift-0 corr     main term
+  16         5.00           log2(p)        3.03             25.36
+  128        8.00           log2(p)        4.53             202.9
+  2^20       21.00          log2(p)        11.03            1.662e+06
+  2^38       39.00          log2(p)        20.03            4.357e+11
+
+  The three small-scale corrections, priced at the prize rows:
+  * ORBIT (LEMMA ROT): log2(2N) bits, and the I1-vs-I2/I3 GAP is
+    log2(N) bits -- 4 bits at N=16, 38 bits at the official I1
+    row N = 2^38.  Absolute, not relative: it matters only when
+    the balance is within log2(N) bits of zero.
+  * LEMMA TWT (weight divisibility): needs SELF-ORTH, i.e.
+    |T| >= N/2 conditions.  At the official I1 row R ~ 2^32 and
+    N/2 = 2^37, so SELF-ORTH is FALSE by five orders of
+    magnitude: the mechanism is dead at scale for I1.
+  * SHIFT-0 INTEGER LAYER: worth 0.5*log2(N)+1.2 bits instead of
+    log2(p) bits.  At N=2^38, p~2^64 that is 20.2 vs 64 bits --
+    a 2^43.8 EXCESS of accidents over the independent-layers
+    heuristic, and it does NOT decay with N.  This is the ONLY
+    one of the three that survives to the prize scale.
+  [L4] cumulative 407 checks
+
+==============================================================================
+[CTL] the ONE labelled composite negative control (P5, CATCH-Z6)
+==============================================================================
+
+  Deliberately composite M = 2N. Registered prediction: at
+  composite M there are p-INDEPENDENT ternary relations (the SAME
+  vectors for every admissible p); at 2-power M there are none.
+  2N     N     type     primes p = 1 mod 2N        common     min wt
+  12     6     COMPOSITE 13,37,61,73,97             8          3
+  24     12    COMPOSITE 73,97,193,241,313          80         3
+  20     10    COMPOSITE 41,61,101,181,241          8          5
+  16     8     2-power  17,97,113,193,241          0          -
+  32     16    2-power  97,193,257,353,449         0          -
+
+  P5 CONFIRMED in both directions: CATCH-Z6 reproduced exactly.
+  The composite cells are labelled controls and are excluded
+  from every law reported in L1/L2/L4.
+  [CTL] cumulative 412 checks
+
+==============================================================================
+ALL 412 CHECKS PASSED
+==============================================================================

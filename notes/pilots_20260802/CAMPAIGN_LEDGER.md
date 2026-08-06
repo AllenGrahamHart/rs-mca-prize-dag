@@ -1811,3 +1811,32 @@ Blind pairs: adversary/builder on the statement; route-b/laws on
 the quantitative side. The coordinator reconciles the two
 instrument matrices at the bank. Standing rules as round 18
 (hardened compute-law clause; REPORT.md persistence at bank).
+
+## 2026-08-06: round-19 pilot 1 BANKED — the unification's exact core SURVIVES; two heuristics refuted; the anomaly closed
+
+- **tern_small_scale_laws (Opus) BANKED** (412/0 staged; coordinator
+  replay 122/0; licensing controls reproduce banked numbers
+  verbatim). THE DICTIONARIES VERIFY EXACTLY: I3's binding stratum
+  IS I2 vector-for-vector (D1); I1 at R = 1 = I2 (D2); the efloor
+  S-count and z1 mass are ONE functional (D3: Sct = 2^N(Z-1),
+  disjoint code paths) — the unification's exact content at full
+  strength. HEURISTICS REFUTED with exact laws: CATCH-19A (the
+  LEMMA ROT orbit constant 2N collapses to 2 for I1's mixed-parity
+  windows at R >= 2 — negacyclic iff all-odd T); CATCH-19B (shift-0
+  = a p-INDEPENDENT INTEGER layer, count T(N)-1 exactly —
+  CATCH-Z6's second door; CONTAMINATES a quarter of z1's
+  calibration grid [addendum written]; COORDINATOR SCOPE
+  CORRECTION: the official window is odd and never contains s = 0 —
+  the pilot's "2^44 excess at the official row" line is mis-scoped;
+  calibration hazard only). CATCH-19C (the (3/2)^N convention gap —
+  name the functional, standing rule). CATCH-19D (DISJOINT PRIME
+  STRATA: SELF-ORTH needs |T| >= N/2, I1 forces split primes — the
+  instances share the object, sample non-overlapping strata).
+  THE ANOMALY CLOSED: **LEMMA TWT** (self-orthogonal + ternary =>
+  p | wt; sharp predicate, 83/0) x orbit quantization = the full
+  155x; instance-local (the weaker outcome). NEW LEAD: the
+  p = 7, w = 4 484x OVER-representation — an opposite-signed
+  mechanism TWT does not explain. Scaling: exact structure
+  scale-free; TWT dies for I1 at scale; orbit gap grows log2 N.
+- Awaiting: tern_unification_adversary (resumed after an API-error
+  kill), tern_master_statement, tern_route_b.

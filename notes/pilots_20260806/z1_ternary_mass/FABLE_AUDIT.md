@@ -79,3 +79,17 @@ are no evidence at the official row; route-(b) sizing explicitly
 back-of-envelope; C <= 4 inherited). Process CLEAN (second fully
 clean pilot; Edit/Write used for all patching). DRAFT-ONLY
 confirmed; sibling never read.
+
+## ADDENDUM (2026-08-06, coordinator, from round-19 tern_small_scale_laws CATCH-19B)
+
+A second calibration-grid contamination (after CATCH-Z6): the Z3
+grid's shift range a in {0,1,2,3} (PROOFS §7) includes a = 0 cells
+whose window contains s = 0 — there the condition Sigma v_i = 0 is
+an INTEGER condition (|Sigma| <= N < p), p-independent, with count
+T(N) - 1 exactly (central trinomial). One quarter of the 696 cells
+carries this structural layer that no p-accident model prices. The
+THEOREMS (Z-FLOOR/Z-1/Z-2/Z-NOGO) are proofs and unaffected; the
+a = 0 calibration ratios should be discarded or re-derived against
+the integer-layer-corrected null. The OFFICIAL object is unaffected
+(its window is the odd set and never contains s = 0; coordinator
+scope ruling at the ssl bank).
