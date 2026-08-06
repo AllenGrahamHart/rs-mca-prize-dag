@@ -366,3 +366,20 @@ degree-three presentations have `114/119` variables/equations at `(4,9)`,
 strictly smaller, not because even parity leaves `(4,10)` without a descent.
 
 Excludes no cell and closes nothing; this is route selection.
+
+## Slot `(1,5)` closure (2026-08-06)
+
+The direct census route is complete and independently replayed. All
+`2,296,920` affine-Galois classes have exact nonzero order-512 cyclotomic
+norms; the easy stage pays `2,296,726` rows and the hard manifest pays all
+`194` remaining rows. The global maximum factor depth is
+`v_2(p-1)=30<41`, with no official-gate factor. The proof packet is
+`../dli_wcl_slot_1_5_emptiness/proof.md`.
+
+The current extended-window residual therefore has nine slots:
+
+```text
+(1,6) (1,7) (1,8)
+(2,7) (2,8) (2,9)
+(4,9) (4,10) (4,11).
+```

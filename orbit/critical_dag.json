@@ -273,7 +273,7 @@
   },
   {
    "id": "dli_wcl_slot_1_5_emptiness",
-   "label": "UNPROVED",
+   "label": "PROVED",
    "title": "WCL slot 1,5 emptiness"
   },
   {
@@ -320,6 +320,11 @@
    "id": "dli_wcl_slot_4_9_emptiness",
    "label": "UNPROVED",
    "title": "WCL slot 4,9 emptiness"
+  },
+  {
+   "id": "dli_wcl_weight4_ambient_exclusion",
+   "label": "PROVED",
+   "title": "DLI official terminal weight-4 relations excluded by normalized-section norm census"
   },
   {
    "id": "dli_wcl_zone_coverage",
@@ -2449,6 +2454,10 @@
   {
    "from": "xr_band_forced_commonroot_syzygy_count",
    "to": "xr_band_maximal_window_divisor_count"
+  },
+  {
+   "from": "dli_wcl_weight4_ambient_exclusion",
+   "to": "dli_wcl_slot_1_5_emptiness"
   }
  ]
 }

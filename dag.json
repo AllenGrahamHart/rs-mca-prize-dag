@@ -10588,12 +10588,12 @@
    "closure": "computation",
    "statement": "All C(256,4)2^3=1,398,341,120 reduced signed weight-4 polynomials meet a 1,014,080-key normalized section that partitions into exactly 24,979 affine-Galois norm classes. Exact resultants have 88,086 factor records and 44,599 distinct prime factors; none below 2^256 has v_2(q-1)>=41, and the maximum is 29. Hence no official DLI production row contains a terminal weight-4 relation. Independent verifiers reconstruct the normalized orbit partition, certify every resultant by 17-prime CRT beyond 2*4^256, and check a shared 154,086-node recursive Pocklington graph. Weights 5 and 6 and WCL-ZONE remain open.",
    "refs": [
-    "background/nodes/dli_wcl_weight4_ambient_exclusion/statement.md",
-    "background/nodes/dli_wcl_weight4_ambient_exclusion/proof.md",
-    "background/nodes/dli_wcl_weight4_ambient_exclusion/verify_ledger.py",
-    "background/nodes/dli_wcl_weight4_ambient_exclusion/verify_primes.py",
-    "background/nodes/dli_wcl_weight4_ambient_exclusion/notes/verify_section_remote.py",
-    "background/nodes/dli_wcl_weight4_ambient_exclusion/notes/verify_prime_cert_remote.py",
+    "critical/nodes/dli_wcl_weight4_ambient_exclusion/statement.md",
+    "critical/nodes/dli_wcl_weight4_ambient_exclusion/proof.md",
+    "critical/nodes/dli_wcl_weight4_ambient_exclusion/verify_ledger.py",
+    "critical/nodes/dli_wcl_weight4_ambient_exclusion/verify_primes.py",
+    "critical/nodes/dli_wcl_weight4_ambient_exclusion/notes/verify_section_remote.py",
+    "critical/nodes/dli_wcl_weight4_ambient_exclusion/notes/verify_prime_cert_remote.py",
     "experiments/prize_resolution/dli_wcl_weight4_section_modal.py",
     "experiments/prize_resolution/dli_wcl_weight4_section_result.json.gz",
     "experiments/prize_resolution/dli_wcl_weight4_prime_cert_modal.py",
@@ -13902,11 +13902,24 @@
   {
    "id": "dli_wcl_slot_1_5_emptiness",
    "title": "WCL slot 1,5 emptiness",
-   "status": "TARGET",
+   "status": "PROVED",
+   "closure": "computation",
    "refs": [
-    "critical/nodes/dli_wcl_slot_1_5_emptiness/statement.md"
+    "critical/nodes/dli_wcl_slot_1_5_emptiness/statement.md",
+    "critical/nodes/dli_wcl_slot_1_5_emptiness/proof.md",
+    "critical/nodes/dli_wcl_slot_1_5_emptiness/dependency_subdag.md",
+    "critical/nodes/dli_wcl_slot_1_5_emptiness/verify.py",
+    "experiments/prize_resolution/dli_wcl_weight5_affine_representatives_modal.py",
+    "experiments/prize_resolution/dli_wcl_weight5_recursive_norm_full_modal.py",
+    "notes/pilots_20260806/wcl15_finish/full_batch_replay_modal.py",
+    "notes/pilots_20260806/wcl15_finish/full_batch_replay.json",
+    "notes/pilots_20260806/wcl15_finish/tail_independent_cert_modal.py",
+    "notes/pilots_20260806/wcl15_finish/tail_independent_cert.json",
+    "notes/pilots_20260806/wcl15_finish/tail191_cado_portable_v2_result.json",
+    "notes/pilots_20260806/wcl15_finish/tail191_factor_cert_modal.py",
+    "notes/pilots_20260806/wcl15_finish/tail191_factor_cert.json"
    ],
-   "statement": "No reduced signed weight-5 polynomial vanishes at an order-512 root at any official row (ell=1 window; zero-event; sweep partial, pilot max_v2 17-21). The proved squared-root hypersurface router reduces the exact search to 289043 product-one mu_256 Galois classes but does not factor their aggregate obstruction norms. FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
+   "statement": "No reduced signed weight-5 polynomial vanishes at an order-512 root at any official row. A complete normalized-section extension gives exactly 2,296,920 affine-Galois classes. Independent direct-resultant replay checks all 35,890 batches and 2,296,920 class norms: 2,296,726 easy rows and all 194 hard tails are completely factored with proved-prime factors. The maximum v_2(p-1) is 30, below the official threshold 41; hence no official-admissible q can support such a vanisher."
   },
   {
    "id": "dli_wcl_slot_1_6_emptiness",
@@ -53421,6 +53434,11 @@
    "from": "dli_wcl_weight5_squared_root_hypersurface_router",
    "to": "dli_wcl_slot_1_5_emptiness",
    "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_weight4_ambient_exclusion",
+   "to": "dli_wcl_slot_1_5_emptiness",
+   "kind": "req"
   },
   {
    "from": "upstream_gfv4_affine_span_list_compiler",

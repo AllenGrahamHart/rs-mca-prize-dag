@@ -17874,16 +17874,26 @@ reproduces the factor-vocabulary digest, and confirms maximum
 has one residual only: complete factorization and independent primality
 certification of the explicit 269-bit tail-191 norm.
 
+That final residual is discharged. Official CADO-NFS image
+`sha256:d89bc19...fc10` factored tail 191 in 80.457 seconds as a 112-bit
+prime times a 158-bit prime. A separate content-pinned FLINT app proves both
+factors prime, multiplies them back to the exact norm, and computes
+`v_2(p-1)=9,12`. Combining the easy maximum 30, the 193-tail maximum 17,
+and tail 191 gives global maximum 30, strictly below the official gate 41.
+The finite extension router, norm obstruction, complete replay, and hard-tail
+certificates are assembled in the node proof; `dli_wcl_slot_1_5_emptiness`
+is now PROVED. The WCL zone residual drops from ten slots to nine.
+
 ```text
 starting pin: fd4f2d23; canonical cee6244c; upstream main 93fba1be
-node: dli_wcl_slot_1_5_emptiness [TARGET]
-result: easy census plus 193 tails independently certified; tail 191 only residual
-DAG status delta: none
+node: dli_wcl_slot_1_5_emptiness [PROVED]
+result: complete 2,296,920-class norm census and all 194 tails certified
+DAG status delta: one TARGET promoted to PROVED; WCL-zone residual 10 -> 9
 upstream terminal delta: none
 delta-star bracket movement: none
 new assumptions: none
-compute: full replay apps ap-0OBpQSj0V7998tTvkzixwx/ap-y5FDRVADCUfOqoflndTSDg; tail cert ap-beZVadXTE7z94tsQiEsGZ7
-next: obtain and independently certify the complete factorization of tail 191
+compute: full replay apps ap-0OBpQSj0V7998tTvkzixwx/ap-y5FDRVADCUfOqoflndTSDg; tail cert ap-beZVadXTE7z94tsQiEsGZ7; CADO ap-gyFwY6AxmBrU0NioPlsJ5C; final cert ap-hMfVc7KQMaSvmDtSO5a9kS
+next: export the closed slot and attack the nine remaining WCL cells
 ```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 

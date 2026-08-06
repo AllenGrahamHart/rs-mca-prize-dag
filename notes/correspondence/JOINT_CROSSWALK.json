@@ -946,9 +946,9 @@
    "scope": "no upstream counterpart: their assembly has no tower (THREE_VS_SEVEN)",
    "owner": "US",
    "nonclaims": [
-    "offered upstream only as the CR-004 contributor register (#1050)"
+    "offered upstream only as the CR-004 contributor register (#1050); complete local closure not yet exported"
    ],
-   "status_ours": "TARGET",
+   "status_ours": "PROVED",
    "status_his": "open",
    "lean": null,
    "provenance": {

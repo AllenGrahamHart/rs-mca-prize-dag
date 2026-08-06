@@ -16,3 +16,10 @@ norms are odd (no 2-adic forcing in family (d)). IRREDUCIBLE CORE:
 lift the proved fraction to 11.99% — SPEND LINE surfaced to the maintainer
 (exceeds the $1 overlay + current balance). Full write-up:
 notes/wcl_decomposition_audit_20260722/wsz_sizing_weight5_findings.md.
+
+## Supersession (2026-08-06)
+
+This sizing note is historical. The complete `2,296,920`-class census, full
+independent direct-resultant replay, and all `194` hard tails are now paid.
+See `../proof.md`; the slot is PROVED with global maximum
+`v_2(p-1)=30<41`.

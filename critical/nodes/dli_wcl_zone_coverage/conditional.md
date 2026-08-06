@@ -36,3 +36,13 @@ minimum breach factor 32x at (4,11)). The enumeration is machine-checked by
 `verify_slot_decomposition.py`. A census program closing only the four
 pre-extension slots does NOT discharge this assembly — all ten cells are
 req-wired and load-bearing.
+
+As of 2026-08-06, `(1,5)` is PROVED by the complete normalized-section norm
+census and independent factor replay. The equivalence still has ten cells,
+but the live conditional residual is now the other nine:
+
+```text
+(1,6) (1,7) (1,8)
+(2,7) (2,8) (2,9)
+(4,9) (4,10) (4,11).
+```

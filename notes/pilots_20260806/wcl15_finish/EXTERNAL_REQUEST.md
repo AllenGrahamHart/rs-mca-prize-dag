@@ -1,5 +1,18 @@
 # External request: factor WCL `(1,5)` tail 191
 
+**Status: RETIRED 2026-08-06.** Bounded official CADO-NFS app
+`ap-gyFwY6AxmBrU0NioPlsJ5C` returned the complete split
+
+```text
+2618025003265620701077592958097921
+*
+247707694890502006805474333259382717013127180289.
+```
+
+Independent FLINT app `ap-hMfVc7KQMaSvmDtSO5a9kS` proves both factors prime,
+checks the product, and gives `v_2(p-1)=9,12`. No external work remains for
+this integer. The original request is retained below as custody history.
+
 Factor the following 269-bit composite integer completely:
 
 ```text

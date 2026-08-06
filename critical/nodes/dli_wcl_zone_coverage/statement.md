@@ -83,3 +83,8 @@ complete by `verify_slot_decomposition.py` in this folder (enumeration from
 pinned primitives; 5/5 mutation controls incl. the catch-#205
 index/dimension conflation). Bookkeeping of record: the ten-slot section of
 `official_terminal_attack.md` (appended same date).
+
+**Current residual (2026-08-06).** Slot `(1,5)` is PROVED by a complete
+`2,296,920`-class norm census and independent direct-resultant/factor replay.
+The ten-cell equivalence is unchanged, but only the other nine req-wired
+slots remain unresolved.

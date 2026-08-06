@@ -95,3 +95,21 @@ top of the same immutable official image.  It uses the fresh work directory
 `/work/tail191-cado-portable-v2` and writes
 `tail191_cado_portable_v2_result.json`.  All compute and no-resume limits are
 unchanged; no further packaging retry is authorized by this preregistration.
+
+## Successful result
+
+App `ap-gyFwY6AxmBrU0NioPlsJ5C` completed normally in 80.456646 seconds.
+It reached square root and returned the complete split
+
+```text
+2618025003265620701077592958097921
+*
+247707694890502006805474333259382717013127180289.
+```
+
+The work packet contains 320 files and 115,220,826 bytes, result digest
+`73b759d20b4d03bf05b8b71b3c629eea14849f5631752d66ccef3d1fe61bfd43`,
+and local file SHA-256
+`c093d5e05aea1e2b2851042e550f89cf44f093c8b1714c80780efd27b72ec608`.
+P3 passed. Independent primality and gate checks are in
+`TAIL191_FACTOR_CERT_PREREG.md` and `tail191_factor_cert.json`.

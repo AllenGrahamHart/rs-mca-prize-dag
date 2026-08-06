@@ -31,9 +31,12 @@ EXPECTED_COUNTS = {
     # 2026-07-27 (averaged_xr false-green cascade): 131 -> 129, 44 -> 43.
     # WAVE-26 (2026-07-27): averaged_xr gained a real verifier and the cascade
     # returned to PROVED; 129 -> 130 md-only, 43 -> 44 local-verifier.
+    # 2026-08-06: the complete WCL (1,5) certificate promotes its target and
+    # makes the proved weight-four section census an explicit critical parent.
+    # Both have local verifiers, so local-verifier 44 -> 46.
     "folder-md-only": 130,
     "legacy-ref-only": 5,
-    "local-verifier": 44,
+    "local-verifier": 46,
 }
 
 EXPECTED_NO_PROOF = {
@@ -118,8 +121,8 @@ def main() -> None:
     # The maximality correction and joint-rank split add conditional wrappers;
     # the latter replaces one SL-2 TARGET by two exact leaves. All proved
     # coordinate reductions remain evidence-only.
-    require(len(critical["nodes"]) == 246, "critical orbit size drift")
-    require(len(proved) == 179, "critical PROVED count drift")
+    require(len(critical["nodes"]) == 247, "critical orbit size drift")
+    require(len(proved) == 181, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()
     no_artifact: set[str] = set()
