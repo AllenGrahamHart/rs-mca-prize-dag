@@ -1270,3 +1270,52 @@ new assumptions: none
 compute: none
 next: attack maximum local general shift-pair degree after the fixed strips
 ```
+
+### Exact local partition: minimal versus nonconstant difference
+
+The first direct attack now has an exact algebraic coordinate.  For a base
+support `S0` and a same-prefix neighbour `S`, remove the common core and put
+
+```text
+P=S\S0,  Q=S0\S,  e=|P|=|Q|,
+d=deg(L_P-L_Q).
+```
+
+The PROVED node
+`x4_general_shiftpair_difference_degree_partition` gives
+
+```text
+0<=d<=e-t-1,                    e>=t+d+1,
+d=0 iff e_j(P)=e_j(Q) for 1<=j<=e-1.
+```
+
+Thus the local primitive degree partitions disjointly into `D_0` and
+`sum_(d>=1)D_d`.  The `D_0` term is exactly the F-4 minimal/constant-shift
+currency developed in `u1`; every genuinely nonminimal record lies in the
+nonconstant low-degree-difference incidence branch, starts at side width
+`e=t+2`, and remains unpaid.  In particular, small-h minimal results cannot
+be presented as coverage of the official general order-`t` fiber.
+
+The row scope is now pinned.  Local official X4 base rows use `N=2^41`,
+`K=rho N`, and the exact corridor depth
+
+```text
+t_XR=min{0<=j<=N-K : q^j>=2^128 binom(N,N-K-j)}.
+```
+
+Upstream v13.2's active deployed LIST rows use `n=2^21`.  The identification
+with `prob:capg-active-shiftpairs` is exact at the structural
+`(n,m,w)<->(N,A,t)` level, but no finite constant transports between the row
+sets.  Quotient rows must likewise be printed and replayed individually.
+
+```text
+starting pin: daf87575d; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / local primitive SP
+result: NARROWED by exact d=0 versus d>=1 partition; official row scope pinned
+DAG status delta: +1 background PROVED structural node; critical target unchanged
+upstream terminal delta: shared SP low-degree-difference sublemma isolated
+delta-star bracket movement: none
+new assumptions: none
+compute: small exact convention replay only; no Modal spend
+next: attack the local nonconstant split-difference incidence sum at d>=1
+```

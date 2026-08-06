@@ -5,14 +5,16 @@
     "title": "Primitive exact-list local general-star budget",
     "status": "TARGET",
     "closure": "open",
-    "statement": "At every x4 official row and every transported quotient row, fix the same support-wise first-match priority map used by the final list ledger. For every primitive residual full-prefix fiber F_z^prim and base support S0, the canonical map S -> (S\\S0,S0\\S) injects F_z^prim\\{S0} into general order-t star-PTE records. Prove uniformly that |F_z^prim|-1<=16n^3-1, equivalently that the post-strip local general shift-pair degree is at most 16n^3-1. Then the actual primitive list column U_prim=max_z|F_z^prim| is at most 16n^3. A strip-aware injection into the F-4 minimal ledger plus u1_x4_direct_column_budget is one route; a direct bound on all surviving general records is another. The consumer requires only this local column bound.",
-    "falsifier": "A consumed official or quotient row with a correctly stripped primitive full-prefix fiber containing more than 16n^3 actual list supports under the declared first-owner map.",
+    "statement": "At an official base row let N=2^41, K=rho N, t=t_XR=min{0<=j<=N-K:q^j>=2^128 binom(N,N-K-j)}, and A=K+t. Fix the same support-wise first-match map as the final LIST ledger. For every primitive residual full locator-prefix fiber F_z^prim and base support S0, S maps injectively to (S\\S0,S0\\S), a general order-t star-PTE record. Prove |F_z^prim|-1<=16N^3-1 uniformly over official fields and domains. The exact difference-degree partition writes this local degree as D_0+sum_{d>=1}D_d, where d=deg(L_P-L_Q), D_0 is precisely the F-4 minimal constant-shift stratum, and d>=1 implies side width e>=t+d+1. Minimal-record results can pay only D_0; the nonconstant residue needs its own bound. Transported quotient rows use their exact compiler-emitted tuple and own allowance and must appear in the final table.",
+    "falsifier": "A consumed official or quotient row with a correctly stripped primitive full-prefix fiber containing more than 16N^3 actual LIST supports at that row's own scale under the declared first-owner map.",
     "refs": [
       "critical/nodes/x4_primitive_star_u1_coverage/statement.md",
       "critical/nodes/x4_primitive_star_u1_coverage/attack.md",
       "critical/nodes/x4_primitive_star_u1_coverage/claim_contract.md",
       "critical/nodes/x4_primitive_star_u1_coverage/dependency_subdag.md",
-      "background/nodes/x4_general_star_minimal_trade_route_cut/statement.md"
+      "critical/nodes/x4_primitive_star_u1_coverage/row_scope.md",
+      "background/nodes/x4_general_star_minimal_trade_route_cut/statement.md",
+      "background/nodes/x4_general_shiftpair_difference_degree_partition/statement.md"
     ],
     "upstream": {
       "source": "rs-mca v13 prob:capg-active-shiftpairs local primitive SP input",

@@ -55,8 +55,11 @@ def main():
 
     coverage = load_node("x4_primitive_star_u1_coverage")
     assert coverage["node"]["status"] == "TARGET"
-    assert "local general shift-pair degree" in coverage["node"]["statement"]
-    assert "16n^3-1" in coverage["node"]["statement"]
+    coverage_statement = coverage["node"]["statement"]
+    assert "general order-t star-PTE record" in coverage_statement
+    assert "D_0+sum_{d>=1}D_d" in coverage_statement
+    assert "nonconstant residue needs its own bound" in coverage_statement
+    assert "16N^3-1" in coverage_statement
     assert {edge["to"] for edge in u1.get("evidence_for", [])} == {
         "x4_primitive_star_u1_coverage"
     }
@@ -71,10 +74,17 @@ def main():
         "x4_primitive_star_u1_coverage"
     }
 
+    partition = load_node("x4_general_shiftpair_difference_degree_partition")
+    assert partition["node"]["status"] == "PROVED"
+    assert "d=0 if and only if" in partition["node"]["statement"]
+    assert {edge["to"] for edge in partition.get("evidence_for", [])} == {
+        "x4_primitive_star_u1_coverage"
+    }
+
     assert 0 + 1 + 1 + 14 == 16
     print(
         "U1_X4_MINIMAL_CURRENCY_CONTRACT_PASS "
-        "inputs=4 coverage=separate total=16"
+        "inputs=4 coverage=separate partition=d0+nonconstant total=16"
     )
 
 

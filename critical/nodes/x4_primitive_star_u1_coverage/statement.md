@@ -5,30 +5,50 @@
 - **legacy ID:** the ID records the original `u1` minimalization route; the
   proposition below is the weaker direct consumer obligation.
 
-At every official `x4` row and transported quotient row, fix the same
-support-wise first-match priority map used by the final list ledger.  For a
-primitive residual full-prefix fiber `F_z^prim` and a base support `S0`, the
-canonical map
+At an official base row put
+
+```text
+N=2^41,  K=rho N,  rho in {1/2,1/4,1/8,1/16},
+t=t_XR=min{0<=j<=N-K : q^j >= 2^128 binom(N,N-K-j)},
+A=K+t.
+```
+
+Use the first `t` sub-leading coefficients of the monic locator as the full
+prefix.  Fix the same support-wise first-match priority map used by the final
+LIST ledger.  For a primitive residual full-prefix fiber `F_z^prim` and a
+base support `S0`, the canonical map
 
 ```text
 S -> (S\S0,S0\S)
 ```
 
-injects `F_z^prim\{S0}` into general order-`t` star-PTE records.  Prove the
-uniform local bound
+injects `F_z^prim\{S0}` into general order-`t` star-PTE records.  Prove,
+uniformly over every official field and domain, the local bound
 
 ```text
-|F_z^prim|-1 <= 16n^3-1,
+|F_z^prim|-1 <= 16N^3-1,
 ```
 
 equivalently that the post-strip local general shift-pair degree is at most
-`16n^3-1`.  Then the primitive list column satisfies
+`16N^3-1`.  Then the primitive list column satisfies
 
 ```text
-U_prim=max_z |F_z^prim| <= 16n^3.
+U_prim=max_z |F_z^prim| <= 16N^3.
 ```
 
-There are two legitimate proof routes.  A strip-aware minimalization theorem
-together with `u1_x4_direct_column_budget` would prove the target.  A direct
-bound on the general order-`t` records would also prove it and does not need
-minimalization.  The critical consumer requires only this local column bound.
+The proved difference-degree partition writes the local degree as `D_0` plus
+the disjoint sum over `D_d`, `d>=1`, where
+
+```text
+d=deg(L_P-L_Q),  D_0 is exactly the F-4 minimal stratum,
+d>=1 implies side width e>=t+d+1.
+```
+
+Thus a minimal-record theorem can pay only `D_0`; the nonconstant
+low-degree-difference residue must still be bounded.  A direct bound on all
+`D_d` is the preferred route and is exactly the local primitive SP problem.
+
+For a quotient row consumed through `TR`, replace `(N,K,q,t,A)` by the exact
+transported tuple emitted by that compiler and use its own `16N^3` allowance.
+No base-row numerical bound transports merely from the algebraic dictionary;
+every consumed quotient tuple must appear in the final summed table.
