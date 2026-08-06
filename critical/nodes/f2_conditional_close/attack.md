@@ -63,6 +63,7 @@ are an affine rescaling of the F2 syndrome, so every full-cube fiber embeds
 in a standard half-size, depth-`2R` locator-prefix fiber. The preferred
 common attack is therefore upstream `prob:capfr1-master-flatness` at these
 transported central parameters. What remains to justify is its
-normalized-band scope and the quotient/common-divisor owner decomposition;
-the pruned deployed `def:q-row-atom` is still not automatically the same
-family.
+normalized-band scope and common-divisor owner decomposition. The upstream
+quotient-periodic bucket is provably absent: every selector is aperiodic on
+the power-of-two doubled domain. The pruned deployed `def:q-row-atom` is
+still not automatically the same family.

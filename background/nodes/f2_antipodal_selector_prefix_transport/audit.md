@@ -12,4 +12,5 @@
 5. Forgetting the transversal condition is an upper-bound injection. It is
    not equality with the full split-locator fiber.
 6. Upstream master flatness removes structured components before asserting
-   its bound. Their ownership still has to be matched to the F2 ledger.
+   its bound. Quotient-periodic supports are absent on the selector image,
+   but common-divisor subfamilies and their ownership remain to be handled.

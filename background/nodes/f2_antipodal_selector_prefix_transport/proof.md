@@ -23,6 +23,13 @@ equivalent to equality of the first `2R` elementary symmetric functions,
 or of the top `2R` nonleading coefficients of the monic locator
 `prod_(a in E)(X-a)`. This is the split-locator prefix dictionary.
 
+Suppose now that `m` is a power of two and `E_x` has a nontrivial
+multiplicative stabilizer in `mu_(2m)`. Every nontrivial subgroup of this
+cyclic `2`-group has even order and contains its unique element of order
+two, namely `-1`. Stabilizer invariance would give `-E_x=E_x`. But an
+antipodal transversal contains exactly one point from each pair, so
+`E_x` and `-E_x` are disjoint. This contradiction proves aperiodicity.
+
 The plus-branch class matrix has columns
 `theta^(s(2j-1))`. The exact-order presentation can add a nonzero factor
 depending only on `j`, which is an invertible row scaling. The minus-branch

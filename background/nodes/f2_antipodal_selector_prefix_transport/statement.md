@@ -48,6 +48,11 @@ or exact bound for that full locator fiber transfers without loss to the
 F2 binary max fiber and hence, by the weighted collision sandwich, to its
 weighted ternary mass.
 
+If `m` is a power of two, every selector `E_x` is aperiodic in upstream's
+stabilizer sense. Indeed any nontrivial subgroup of the cyclic group
+`mu_(2m)` contains `-1`, whereas `E_x` is disjoint from `-E_x`. Therefore
+no transported F2 object lies in the quotient-periodic support bucket.
+
 The plus-branch GRS class maps and the minus-branch coupled root-code maps
 have exactly this form, up to invertible row scalings. The transport also
 applies to their generated-field ambient images.
@@ -55,4 +60,6 @@ applies to their generated-field ambient images.
 This theorem removes the weighted odd-power map mismatch with upstream
 `prob:capfr1-master-flatness`. It does not prove that flatness statement,
 place the transported parameters inside its normalized band, or supply its
-quotient/common-divisor removal and first-match owner bookkeeping.
+common-divisor removal and first-match owner bookkeeping. The
+quotient-periodic removal is vacuous on the selector image by the preceding
+aperiodicity corollary.
