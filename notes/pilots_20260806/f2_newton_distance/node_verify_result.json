@@ -1,0 +1,8 @@
+{
+  "app": "rs-mca-f2-admissible-newton-distance-verify",
+  "returncode": 0,
+  "schema": "f2-admissible-newton-distance-verify-v1",
+  "status": "PASS",
+  "stderr": "",
+  "stdout": "F2_ADMISSIBLE_NEWTON_SIGNED_DISTANCE_PASS small_checks=328240 floor=8589934681 dag=3/3\n"
+}
