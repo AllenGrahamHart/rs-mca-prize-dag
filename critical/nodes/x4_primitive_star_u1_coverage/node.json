@@ -11,7 +11,8 @@
       "critical/nodes/x4_primitive_star_u1_coverage/statement.md",
       "critical/nodes/x4_primitive_star_u1_coverage/attack.md",
       "critical/nodes/x4_primitive_star_u1_coverage/claim_contract.md",
-      "critical/nodes/x4_primitive_star_u1_coverage/dependency_subdag.md"
+      "critical/nodes/x4_primitive_star_u1_coverage/dependency_subdag.md",
+      "background/nodes/x4_general_star_minimal_trade_route_cut/statement.md"
     ],
     "upstream": {
       "source": "rs-mca v13 prob:capg-active-shiftpairs coverage clause",

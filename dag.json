@@ -28622,6 +28622,28 @@
    ]
   },
   {
+   "id": "x4_general_star_minimal_trade_route_cut",
+   "title": "General star records do not universally inject into minimal trades",
+   "status": "PROVED",
+   "closure": "exact finite-field counterexample and complete census",
+   "statement": "On D=F_17^*, the disjoint pair P={1,2,3}, Q={4,5,14} is a general order-1 width-3 star-PTE record but is not minimal and contains no width-2 minimal subrecord. Exhaustively, D has 4576 unordered general order-1 width-3 records, while its entire unordered F-4 minimal ledger has only 963 records over widths 1,...,8 (843 over widths 2,...,8). Hence no scale-free multiplicity-one injection from all general star records into all minimal records exists, and subset peeling also fails. This is not an official-row or strip-aware counterexample: n=16 and |F|=17<n^2, so x4 coverage may still use official-row first-owner strips or a broadened general-record u1 ledger.",
+   "refs": [
+    "background/nodes/x4_general_star_minimal_trade_route_cut/statement.md",
+    "background/nodes/x4_general_star_minimal_trade_route_cut/proof.md",
+    "background/nodes/x4_general_star_minimal_trade_route_cut/audit.md",
+    "background/nodes/x4_general_star_minimal_trade_route_cut/claim_contract.md",
+    "background/nodes/x4_general_star_minimal_trade_route_cut/dependency_subdag.md",
+    "background/nodes/x4_general_star_minimal_trade_route_cut/result.md",
+    "background/nodes/x4_general_star_minimal_trade_route_cut/provenance.md",
+    "background/nodes/x4_general_star_minimal_trade_route_cut/verify.py",
+    "background/nodes/x4_general_star_minimal_trade_route_cut/audit_verify.py"
+   ],
+   "upstream": {
+    "source": "rs-mca v13 primitive shift-pair coverage input",
+    "relation": "ROUTE_CUT"
+   }
+  },
+  {
    "id": "x4_locator_prefix_consumer_scope",
    "title": "Exact locator-prefix consumer and null-fiber scope",
    "status": "PROVED",
@@ -28685,7 +28707,8 @@
     "critical/nodes/x4_primitive_star_u1_coverage/statement.md",
     "critical/nodes/x4_primitive_star_u1_coverage/attack.md",
     "critical/nodes/x4_primitive_star_u1_coverage/claim_contract.md",
-    "critical/nodes/x4_primitive_star_u1_coverage/dependency_subdag.md"
+    "critical/nodes/x4_primitive_star_u1_coverage/dependency_subdag.md",
+    "background/nodes/x4_general_star_minimal_trade_route_cut/statement.md"
    ],
    "upstream": {
     "source": "rs-mca v13 prob:capg-active-shiftpairs coverage clause",
@@ -54360,6 +54383,11 @@
   {
    "from": "x4_fixed_slice_pfree_fullcube_route_cut",
    "to": "u2c_exact_slice_extras_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "x4_general_star_minimal_trade_route_cut",
+   "to": "x4_primitive_star_u1_coverage",
    "kind": "ev"
   },
   {

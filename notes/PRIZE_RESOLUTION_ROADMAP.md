@@ -18887,6 +18887,53 @@ new assumptions: none; two old implicit assumptions made explicit
 compute: manifest and exact finite verifier replay only; no Modal spend
 next: prove or falsify the general-star-to-F-4-minimal u1 coverage map
 ```
+
+### Route cut: general star records are not universally minimal-coverable
+
+The first coverage attack found that the implicit F-4 passage cannot be an
+algebraic convention.  On `F_17^*`,
+
+```text
+P={1,2,3}, Q={4,5,14}
+```
+
+share `e_1=6`, so they are a general order-1, width-3 star-PTE record.  They
+do not share `e_2`, and their two-element sum sets are disjoint, so the record
+is neither minimal nor peelable to a contained width-2 minimal trade.
+
+The complete row census gives a cardinality obstruction stronger than this
+witness:
+
+```text
+general order-1 width-3 records                         4576
+minimal records, widths 1..8       120+364+352+126+0+0+0+1 = 963
+minimal records, widths 2..8                                   843
+```
+
+Thus no multiplicity-one injection from *all* general records into even the
+generously padded minimal ledger exists.  The PROVED node
+`x4_general_star_minimal_trade_route_cut` has independent prefix-bucket and
+union-partition exact replays.
+
+This is not an official-row counterexample: `17<16^2`, and the raw census
+precedes the quotient/dihedral/moment/U2/DLI first-owner strips.  It does,
+however, decide the next proof architecture.  Coverage must now either prove
+that those official strips remove enough nonminimal records to admit an
+injective minimal first owner, or re-pose `u1` to count general order-`t`
+records and establish a new tail budget.  The existing `14n^3` minimal tail
+cannot be transferred by an unproved dictionary.
+
+```text
+starting pin: 97ee6fcb0; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / primitive SP coverage
+result: refuted universal and subset-peeling general-to-minimal bridges
+DAG status delta: +1 off-orbit PROVED route-cut node; no critical status change
+upstream terminal delta: narrows the finite SP coverage obligation
+delta-star bracket movement: none
+new assumptions: none
+compute: two complete F_17^* censuses under tiny RAM guard; no Modal spend
+next: audit the exact u1 counted object, then attack strip-aware official coverage
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
