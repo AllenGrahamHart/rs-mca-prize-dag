@@ -1,0 +1,10 @@
+==========================================================================
+ROUND 18 -- E_floor SPARSITY PILOT   stage=failclosed
+==========================================================================
+--------------------------------------------------------------------------
+[FAILCLOSED] permanent injected failure -- this stage MUST exit 1
+  FAIL  injected false check (fail-closed proof)  by construction
+  [FAILCLOSED] 1 checks, 1 failures
+==========================================================================
+TOTAL 1 checks, 1 FAILURES
+==========================================================================

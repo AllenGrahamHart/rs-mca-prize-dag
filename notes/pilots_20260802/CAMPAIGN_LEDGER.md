@@ -1627,3 +1627,32 @@ t*/mca_floor conflict. Mint-4 queued after this round.
   maintainer note leads with the DSA witness. Next-round residuals:
   the gamma-shell population; shallower strata via LEMMA OE; the
   prime-row emptiness proof at the ternary margin.
+
+## 2026-08-06: round-18 pilot 3 BANKED — the first sparsity theorems; CC-sparsity re-labelled as (ES)-again
+
+- **efloor_sparsity (Opus) BANKED** (56,542/0 across 10 stages;
+  coordinator replayed self 52,510/0; ZERO compute-law breaches —
+  the hardened clause worked). **THEOREM SP-COVER + SP-UNIFORM**:
+  a = 0 bad primes force p > sqrt(w+1) — p = 3 dead for all w >= 6
+  at every n; the bad-prime range is TWO-SIDED (CS-EXCL above).
+  THEOREM SP-TERNARY (second mechanism); LEMMA AB (the engine — the
+  ternary object again); LEMMA QS + the F1 quarter-shift family
+  (49% of floor mass at 116x density, dies at one step of w — the
+  adversarial half finds NO refutation of CC-sparsity); the SPD
+  union-bound shape proved VACUOUS (the middle of the prime range
+  needs a non-character-sum idea); round-16's n = 64 flag CLOSED
+  (+ n = 128) via a new exact MITM census over all 2^32 subsets;
+  (CONV) stated exactly with the official q provably in neither
+  closed end. **CATCH E-1 (round-17 downgrade)**: E_floor is a
+  TAUTOLOGY given CS — the (K5) conditional re-labelled (hypothesis
+  as hard as conclusion); CS's 71.16% untouched. **CATCH E-2**:
+  CC-sparsity IS (ES) at half length over ternary. **CATCH E-3**:
+  the official v_2(q-1) >= 41 gate is exactly SP-COVER's blind spot
+  (gap 2^4.69 in w between the two proved exclusions).
+  **COORDINATOR CONVERGENCE NOTE**: third independent appearance of
+  TERNARY-IN-CODE as the primitive this round (crossing LEMMA TC,
+  this LEMMA AB, z1's mandate) — the true shared terminal candidate,
+  to be tested at the z1 bank and posed for round 19 if it survives.
+  Leads: the p = 5, w = 2 zero-ternary anomaly; even-condition
+  SP-COVER.
+- Awaiting: z1_ternary_mass (the last of round 18).

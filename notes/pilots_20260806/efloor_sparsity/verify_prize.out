@@ -1,0 +1,22 @@
+==========================================================================
+ROUND 18 -- E_floor SPARSITY PILOT   stage=prize
+==========================================================================
+--------------------------------------------------------------------------
+[PRIZE] SP-COVER vs the official crossing bracket
+  crossing row constants quoted verbatim at
+  es_coprimality/PROOFS.md:341 -- n = 2^41, r' = 2^40 - w,
+  w in [2^34, 2^39], log2 p = 256, v_2(q-1) >= 41 (official gate)
+  v_2(q-1)=41   ->  j_q = v_2(q^2-1) = 42   ->  SP-COVER needs w >= 2^42 ; bracket caps at w = 2^39  ->  VACUOUS
+  v_2(q-1)=42   ->  j_q = v_2(q^2-1) = 43   ->  SP-COVER needs w >= 2^43 ; bracket caps at w = 2^39  ->  VACUOUS
+  v_2(q-1)=45   ->  j_q = v_2(q^2-1) = 46   ->  SP-COVER needs w >= 2^46 ; bracket caps at w = 2^39  ->  VACUOUS
+  v_2(q-1)=50   ->  j_q = v_2(q^2-1) = 51   ->  SP-COVER needs w >= 2^51 ; bracket caps at w = 2^39  ->  VACUOUS
+  CS-EXCL threshold w* = 170752922588 = 2^37.3131  (round 17: 2^37.3131)
+  UNCOVERED bracket segment: w in [2^34, 2^37.3131]; SP-COVER would need w >= 2^42.  GAP = 2^4.6869 in w.
+  SP-UNIFORM contrapositive at the bracket ends:
+    w=2^34   ->  every a=0 bad prime has p > sqrt(w+1) = 2^17.00
+    w=2^37   ->  every a=0 bad prime has p > sqrt(w+1) = 2^18.50
+    w=2^39   ->  every a=0 bad prime has p > sqrt(w+1) = 2^19.50
+  [PRIZE] 5 checks
+==========================================================================
+TOTAL 5 checks, 0 FAILURES; 0 registered predictions, 0 misses
+==========================================================================
