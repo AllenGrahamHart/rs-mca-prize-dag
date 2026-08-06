@@ -1146,3 +1146,16 @@ Integration freeze pending the upstream-sync wiring and stocktake:
   internal/transfer/open verdict BEFORE paying for outside help.
   Standing rules: verbatim theorem quotes in briefs; explicit-path
   commits while running.
+
+## 2026-08-04: round-15 pilot 1/4 BANKED — A1 verdict LOSSY; the W = 5 rollback SURFACED
+
+- **a1_window_audit (Opus) BANKED** (7/7 controls). The +7 window is
+  a +2 overshoot with NO derivation (ceiling-not-floor; numeral
+  semantics collision; the only pro-argument used a retired
+  instrument); W_min = 5 EXACT (the q = 918552577 w6-orbit binding
+  inequality); the margin/slot curve plotted for the first time
+  (+7 -> +8 buys zero); A2 gap 21.4x but STERILE. ROLLBACK SURFACED
+  with coordinator recommendation RATIFY: board 10/8-routeless ->
+  4/1-closable, consumer arithmetic bit-identical, costs are
+  watch-line (margin 2.85x -> 2.30x). Awaiting: bc_block_census,
+  f2_sl1_powersums, mun_anticoncentration.
