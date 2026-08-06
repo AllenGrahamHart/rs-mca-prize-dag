@@ -1015,3 +1015,14 @@ Integration freeze pending the upstream-sync wiring and stocktake:
   write-path, push.
 - THEN: full stocktake + next-move plan (surfaced to the user before
   unfreezing).
+
+## 2026-08-04: MOVE 1 SHIPPED — the diagonal six-cell export (1646bbba); THE DIAGONAL HOLD IS LIFTED
+
+- Third #1143 batch pushed + maintainer comment
+  (issuecomment-5203979880): the aligned-positive-unramified six-cell
+  block closed 6/6, correspondence with Scott's in-flight atlas
+  labeled PROBABLE NOT ESTABLISHED (mapping row offered as a
+  request); replay honesty verbatim (11/15 exact FLINT PASS, 4
+  per-stage-cap timeouts recorded). The 2026-08-01 diagonal-node
+  export HOLD is formally LIFTED (its premise died at #1149).
+  Remaining export queue: cells 3+6, band-flip narrative.
