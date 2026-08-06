@@ -29,3 +29,12 @@ change.  The first failed JSON remains immutable; the rerun writes
 One Modal container, one CPU, 1 GiB RAM, 120 seconds, no retry.  A pass
 authorizes construction of the PROVED supplier packet, subject to a separate
 written proof audit.  Any other failure blocks promotion.
+
+## Result
+
+Modal app `ap-JNBoN1s1INvr1ovkHvbf8h` returned `PASS` with checker SHA-256
+`efc707ece973addc639c3e1463e7c0605e08158836dd28054ed9cb2ac2562c60`.
+It completed 816 norm-ceiling checks, 1,104 finite-field divisibility checks,
+all three tamper self-tests, 65 power-of-two tower checks, and both exact
+boundary comparisons.  The result JSON SHA-256 is
+`e23771db0c4a07fc015cf9286e30b6dd209eb01e5f9af0bfdd687fd2417193aa`.

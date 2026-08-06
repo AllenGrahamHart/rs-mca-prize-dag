@@ -28131,6 +28131,27 @@
    ]
   },
   {
+   "id": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
+   "title": "Ideal-level Galois multiplicity exclusion for dyadic moment windows",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For n=2^m, an odd prime p, and a subset S of Z/n with nonzero first cyclotomic moment, divisibility by p of the first-(w-1)-moment ideal forces p^{|Z_w^odd|} to divide the first-moment norm, while that norm squared is at most (|S|-a_{n/2}(S))^{n/2}. Hence ceil((w-1)/2)log_2(p) <= (n/4)log_2|S| is necessary for a finite-characteristic accident. Periodic S reduce exactly to smaller dyadic instances; arbitrary windows require the printed per-stratum test, while for power-of-two w the top test propagates through every nonstructural stratum. The result is rowwise in p, not q=p^e.",
+   "refs": [
+    "background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/statement.md",
+    "background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/proof.md",
+    "background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/audit.md",
+    "background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/claim_contract.md",
+    "background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/result.md",
+    "background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/verify.py",
+    "background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/verify_audit.py",
+    "notes/pilots_20260806/es_coprimality/PROOFS.md",
+    "notes/pilots_20260806/cs_transport/AUDIT_PREREG.md",
+    "notes/pilots_20260806/cs_transport/AUDIT_RERUN_PREREG.md",
+    "notes/pilots_20260806/cs_transport/cs_independent_audit_rerun_result.json"
+   ]
+  },
+  {
    "id": "xr_deficient_window_active_block_nullity_pin",
    "title": "XR deficient window: active-block nullity pin",
    "status": "PROVED",
@@ -53439,6 +53460,16 @@
    "from": "dli_wcl_weight4_ambient_exclusion",
    "to": "dli_wcl_slot_1_5_emptiness",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
   },
   {
    "from": "upstream_gfv4_affine_span_list_compiler",
