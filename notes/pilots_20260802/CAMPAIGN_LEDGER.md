@@ -1204,3 +1204,30 @@ Integration freeze pending the upstream-sync wiring and stocktake:
   the rules freeze. ROUND 15 COMPLETE. Next-round board: Ax-Katz on
   (ES); the t/q pin; the W-5 rollback (awaiting ratification);
   mint-4.
+
+## 2026-08-06: ROUND 16 LAUNCHED — 4 Opus pilots (2 on mystery 2, 2 on the (ES) terminal)
+
+- **f2_tq_pin** (mystery 2, DEDICATED): derive q = p^k and t from
+  rules-level sources; adjudicate t ~ 7e10 vs t* = 8,592,912,739;
+  resolve the m_16 = 2^38-vs-2^39 contradiction; recompute LEMMA 3
+  at all 16 rungs; state the true surjectivity band. Secondary: the
+  |K1|/PP5.0 seam. Derivation task.
+- **f2_sl1b** (mystery 2): prove/refute SL-1b (dim L >= m log_p 3);
+  counterexample search first; sharpness; discharge-chain consequence.
+  t-pin interactions flagged, not resolved (sibling owns it).
+- **es_axkatz_transfer** ((ES) lead): algebraize the 0/1
+  constant-weight count; exact Ax-Katz exponent at the four rows;
+  verdict LIVE / DEAD-VACUOUS / DEAD-INSENSITIVE, adversarially
+  self-checked; toy-row calibration against the round-15 verifiers.
+- **es_boundary_adversary** ((ES) adversarial lens, sibling-blind):
+  hunt a sub-balance accident at scaled admissible families; fit the
+  suppression curve; sharpen the above-balance witness; constraint
+  feedback. A sub-balance accident = campaign-critical catch.
+
+Composition per user direction ("at least 1 dedicated to 2"); the two
+(ES) pilots are mutually blind (proof lens vs falsification lens).
+Standing rules: PREREG appended before compute; verbatim quotes;
+ramguard law; DRAFT ONLY; coordinator persists reports verbatim;
+explicit-path commits while running. STILL PENDING USER RATIFICATION:
+the W = 5 rollback (+ CR-W5-ELL1 census gated on it); CATCH-15A edit
+queued for mint-4.
