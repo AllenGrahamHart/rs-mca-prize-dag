@@ -16,6 +16,9 @@
 - **Exact quotient sieve:** on cyclic coset rows, common coefficient scale
   `c>1` is quotient-borne and satisfies `c|gcd(N,e,d)`; the residual pair is
   coefficient-primitive.
+- **First nonconstant interface:** `d=1` is a translated complementary-divisor
+  incidence and is automatically coefficient-primitive; fixed `H` can have
+  multiplicity greater than one.
 - **Optional route:** a compatible F-4 minimal bound plus an independently
   priced `d>=1` residue.
 - **Nonclaims:** `u1` is required; general records are automatically minimal;

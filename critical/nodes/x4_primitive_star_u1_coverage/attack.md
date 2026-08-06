@@ -21,6 +21,8 @@
    `16N^3-1`.  Start with low `d`, where the problem is an explicit split
    low-degree-difference incidence, but do not infer a tail bound from finitely
    many `d`.
+   At `d=1`, use the translated complementary-divisor interface and retain
+   divisor multiplicity: fixed `H=aX+b` is not injective even for a fixed base.
 7. Optional split route: bound `D_0` with a row- and strip-compatible minimal
    theorem, then give a separate allowance for `sum_(d>=1)D_d`.  Universal
    minimalization and subset peeling are unavailable by

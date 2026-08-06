@@ -61,6 +61,13 @@ pair has even `e` and even `d`.  After this maximal-scale first owner, the
 live direct incidence problem is the coefficient-primitive part of every
 `D_d`; the sieve supplies no bound on that residue.
 
+At `d=1` the record is automatically coefficient-primitive and has an exact
+fixed-base translated-divisor form: `B|L_(S0)` and
+`B+aX+b|L_(D\S0)`.  The linear polynomial is not an injective key; a proved
+`F_17^*` witness has three distinct records for one fixed base and one fixed
+`aX+b`.  Thus this first nonconstant branch requires a genuine
+predicate-filtered divisor-incidence bound.
+
 For a quotient row consumed through `TR`, replace `(N,K,q,t,A)` by the exact
 transported tuple emitted by that compiler and use its own `16N^3` allowance.
 No base-row numerical bound transports merely from the algebraic dictionary;

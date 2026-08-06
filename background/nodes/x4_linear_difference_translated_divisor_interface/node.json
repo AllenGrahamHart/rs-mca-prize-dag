@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "x4_linear_difference_translated_divisor_interface",
+    "title": "Linear-difference local records are translated complementary divisors",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a fixed base support S0 with locator L0 and complementary-domain locator U, depth-t local records of side width e are in exact bijection with pairs (B,H) such that B is a monic degree-e divisor of L0, B+H is a monic degree-e divisor of U, H is nonzero, and deg H<=e-t-1. On a cyclic multiplicative coset every d=1 record is coefficient-primitive. Over F_17^* one fixed five-point base has three distinct same-prefix neighbours whose reduced locator difference is the same 6X+10, so H is not an injective record key.",
+    "refs": [
+      "background/nodes/x4_linear_difference_translated_divisor_interface/statement.md",
+      "background/nodes/x4_linear_difference_translated_divisor_interface/proof.md",
+      "background/nodes/x4_linear_difference_translated_divisor_interface/claim_contract.md",
+      "background/nodes/x4_linear_difference_translated_divisor_interface/audit.md",
+      "background/nodes/x4_linear_difference_translated_divisor_interface/result.md",
+      "background/nodes/x4_linear_difference_translated_divisor_interface/dependency_subdag.md",
+      "background/nodes/x4_linear_difference_translated_divisor_interface/lineage.md",
+      "background/nodes/x4_linear_difference_translated_divisor_interface/verify.py"
+    ],
+    "upstream": {
+      "label": "SP2: Low-degree difference incidence",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {
+      "from": "upstream_sp_coefficient_scale_quotient_sieve"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "x4_primitive_star_u1_coverage"
+    }
+  ],
+  "refutes": []
+}

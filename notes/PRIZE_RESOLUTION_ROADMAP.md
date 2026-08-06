@@ -19112,6 +19112,46 @@ new assumptions: cyclic multiplicative-coset domain and char not dividing n
 compute: 256-subset and 553-pair exact local replay; no Modal spend
 next: bound coefficient-primitive nonconstant split-difference incidence locally
 ```
+
+### First nonconstant SP stratum: translated complementary divisors
+
+For one fixed base support `S0`, the `d=1` part of the local primitive SP
+problem now has a certificate-level form.  If
+
+```text
+L0=L_(S0),       U=L_(D\S0),       H=aX+b,
+```
+
+then neighbours of side width `e` are in exact bijection with
+
+```text
+B|L0,            B+H|U,            deg B=e,
+deg H=1<=e-t-1.
+```
+
+This is `x4_linear_difference_translated_divisor_interface`.  Every such
+record is coefficient-primitive because a common quotient scale would divide
+`d=1`.  The reduction is exact, but it is not a count.
+
+The most tempting count is false: fixed base and fixed `H` do not determine
+the record.  Over `F_17^*`, one fixed five-point base has three distinct
+same-prefix neighbours whose reduced locator difference is the identical
+`6X+10`.  The explicit locators replay directly.  Therefore neither the
+number of possible linear polynomials nor a `q^2` parameter count is a local
+degree bound.  The next X4 theorem must bound the translated-divisor
+intersection itself while retaining the final first-owner predicates.
+
+```text
+starting pin: 7c0ec652d; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / primitive SP low-degree difference
+result: NARROWED to an exact translated complementary-divisor incidence
+DAG status delta: +1 background PROVED interface; critical target unchanged
+upstream terminal delta: SP2 now has an exact local divisor formulation and an injectivity route cut
+delta-star bracket movement: none
+new assumptions: none
+compute: tiny F_17 exact replay only; no Modal spend
+next: retain first-owner strips and seek a uniform translated-divisor incidence bound; do not count H alone
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

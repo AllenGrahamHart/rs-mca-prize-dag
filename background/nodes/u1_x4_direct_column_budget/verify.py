@@ -59,7 +59,7 @@ def main():
     assert "general order-t star-PTE record" in coverage_statement
     assert "D_0+sum_{d>=1}D_d" in coverage_statement
     assert "remaining direct residue is coefficient-primitive" in coverage_statement
-    assert "Neither structural theorem bounds that residue" in coverage_statement
+    assert "None of these structural theorems bounds the residue" in coverage_statement
     assert "16N^3-1" in coverage_statement
     assert {edge["to"] for edge in u1.get("evidence_for", [])} == {
         "x4_primitive_star_u1_coverage"
@@ -87,6 +87,13 @@ def main():
     assert "c|gcd(n,e,deg(A-B))" in quotient_sieve["node"]["statement"]
     assert {edge["to"] for edge in quotient_sieve.get("evidence_for", [])} == {
         "x4_primitive_star_u1_coverage"
+    }
+
+    linear_interface = load_node("x4_linear_difference_translated_divisor_interface")
+    assert linear_interface["node"]["status"] == "PROVED"
+    assert "three distinct same-prefix neighbours" in linear_interface["node"]["statement"]
+    assert {edge["from"] for edge in linear_interface.get("requires", [])} == {
+        "upstream_sp_coefficient_scale_quotient_sieve"
     }
 
     assert 0 + 1 + 1 + 14 == 16
