@@ -1,0 +1,11633 @@
+{
+ "n": 32,
+ "rpmin": 2,
+ "rpmax": 6,
+ "records": [
+  {
+   "n": 32,
+   "rp": 3,
+   "w": 2,
+   "p": 3,
+   "delta": 8,
+   "zw": 8,
+   "lam": -0.4035756004950102,
+   "struct": 0,
+   "witness": [
+    0,
+    4,
+    12
+   ],
+   "inscope": false,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 3,
+   "w": 2,
+   "p": 7,
+   "delta": 4,
+   "zw": 4,
+   "lam": 1.0467047170438217,
+   "struct": 0,
+   "witness": [
+    0,
+    4,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 3,
+   "w": 2,
+   "p": 17,
+   "delta": 2,
+   "zw": 2,
+   "lam": 4.10119872277356,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    6
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 3,
+   "w": 2,
+   "p": 47,
+   "delta": 2,
+   "zw": 2,
+   "lam": 1.1669467019189632,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 3,
+   "w": 2,
+   "p": 97,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.676211563087111,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 3,
+   "w": 2,
+   "p": 193,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.683667368006158,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    4
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 3,
+   "w": 2,
+   "p": 257,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.2704998560803595,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 3,
+   "w": 2,
+   "p": 353,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.8126000320030577,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    5
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 3,
+   "w": 2,
+   "p": 449,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.465552770533092,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 7,
+   "delta": 4,
+   "zw": 4,
+   "lam": 3.9046857121713927,
+   "struct": 120,
+   "witness": [
+    0,
+    4,
+    6,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 17,
+   "delta": 2,
+   "zw": 2,
+   "lam": 6.959179717901131,
+   "struct": 120,
+   "witness": [
+    0,
+    2,
+    4,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 47,
+   "delta": 2,
+   "zw": 2,
+   "lam": 4.024927697046534,
+   "struct": 120,
+   "witness": [
+    0,
+    4,
+    7,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 79,
+   "delta": 2,
+   "zw": 2,
+   "lam": 2.526543904047603,
+   "struct": 120,
+   "witness": [
+    0,
+    2,
+    7,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 97,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.53419255821468,
+   "struct": 120,
+   "witness": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 193,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.541648363133729,
+   "struct": 120,
+   "witness": [
+    0,
+    1,
+    2,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 257,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.1284808512079305,
+   "struct": 120,
+   "witness": [
+    0,
+    1,
+    2,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 353,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.670581027130629,
+   "struct": 120,
+   "witness": [
+    0,
+    1,
+    3,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 449,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.323533765660663,
+   "struct": 120,
+   "witness": [
+    0,
+    1,
+    3,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 577,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.961677891756327,
+   "struct": 120,
+   "witness": [
+    0,
+    1,
+    4,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 641,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.809924853783068,
+   "struct": 120,
+   "witness": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 673,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.739642705791493,
+   "struct": 120,
+   "witness": [
+    0,
+    2,
+    3,
+    6
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 929,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.274570614019156,
+   "struct": 120,
+   "witness": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 1153,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.962928602750038,
+   "struct": 120,
+   "witness": [
+    0,
+    2,
+    3,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 1217,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.88499194768808,
+   "struct": 120,
+   "witness": [
+    0,
+    1,
+    2,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 1249,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.847547638793852,
+   "struct": 120,
+   "witness": [
+    0,
+    1,
+    3,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 1409,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.6736495040921735,
+   "struct": 120,
+   "witness": [
+    0,
+    2,
+    6,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 2113,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.089028348466869,
+   "struct": 120,
+   "witness": [
+    0,
+    1,
+    6,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 2273,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.983723431583961,
+   "struct": 120,
+   "witness": [
+    0,
+    2,
+    3,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 2593,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.7936989095485156,
+   "struct": 120,
+   "witness": [
+    0,
+    1,
+    8,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 2689,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.7412513605289366,
+   "struct": 120,
+   "witness": [
+    0,
+    4,
+    5,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 3137,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.5189355865582073,
+   "struct": 120,
+   "witness": [
+    0,
+    1,
+    6,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 3457,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.37880051213941,
+   "struct": 120,
+   "witness": [
+    0,
+    1,
+    4,
+    6
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 4001,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.1679604870562077,
+   "struct": 120,
+   "witness": [
+    0,
+    1,
+    4,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 4129,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.1225286972256328,
+   "struct": 120,
+   "witness": [
+    0,
+    2,
+    6,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 4993,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.8484142090717164,
+   "struct": 120,
+   "witness": [
+    0,
+    1,
+    7,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 5857,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.6181592212922915,
+   "struct": 120,
+   "witness": [
+    0,
+    3,
+    4,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 4,
+   "w": 2,
+   "p": 7937,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.1797273102577623,
+   "struct": 120,
+   "witness": [
+    0,
+    1,
+    5,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 3,
+   "delta": 8,
+   "zw": 8,
+   "lam": 4.939832221802803,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    13,
+    16
+   ],
+   "inscope": false,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 7,
+   "delta": 4,
+   "zw": 4,
+   "lam": 6.390112539341635,
+   "struct": 0,
+   "witness": [
+    0,
+    4,
+    6,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 17,
+   "delta": 2,
+   "zw": 2,
+   "lam": 9.444606545071373,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    4,
+    6,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 23,
+   "delta": 4,
+   "zw": 4,
+   "lam": -0.4747155966560008,
+   "struct": 0,
+   "witness": [
+    0,
+    4,
+    6,
+    8,
+    18
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 31,
+   "delta": 2,
+   "zw": 2,
+   "lam": 7.711139606798302,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    6
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 47,
+   "delta": 2,
+   "zw": 2,
+   "lam": 6.510354524216776,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    4,
+    5,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 79,
+   "delta": 2,
+   "zw": 2,
+   "lam": 5.011970731217845,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    4,
+    9,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 97,
+   "delta": 1,
+   "zw": 1,
+   "lam": 11.019619385384924,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 113,
+   "delta": 2,
+   "zw": 2,
+   "lam": 3.9791743027416757,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    4,
+    8,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 127,
+   "delta": 2,
+   "zw": 2,
+   "lam": 3.6421628540277204,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    6,
+    11,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 193,
+   "delta": 1,
+   "zw": 1,
+   "lam": 10.027075190303972,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 239,
+   "delta": 2,
+   "zw": 2,
+   "lam": 1.817798611610554,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    5,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 241,
+   "delta": 2,
+   "zw": 2,
+   "lam": 1.7937535551121275,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    4,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 257,
+   "delta": 1,
+   "zw": 1,
+   "lam": 9.613907678378173,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    6,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 271,
+   "delta": 2,
+   "zw": 2,
+   "lam": 1.4552341448643098,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    4,
+    7,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 353,
+   "delta": 1,
+   "zw": 1,
+   "lam": 9.15600785430087,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    8,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 401,
+   "delta": 2,
+   "zw": 2,
+   "lam": 0.324615374662212,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    4,
+    8,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 433,
+   "delta": 2,
+   "zw": 2,
+   "lam": 0.10308579811860241,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    8,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 449,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.808960592830905,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 463,
+   "delta": 2,
+   "zw": 2,
+   "lam": -0.09020453894842007,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 577,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.44710471892657,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 641,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.29535168095331,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    4,
+    7,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 673,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.225069532961735,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 769,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.032692439610225,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 929,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.759997441189398,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    6
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 1153,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.44835542992028,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    3,
+    5,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 1217,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.370418774858322,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 1249,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.332974465964094,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    6
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 1409,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.1590763312624155,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 1601,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.974774635055795,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    4,
+    6,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 1697,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.890761378029389,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    4,
+    5,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 1889,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.736125241183682,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    6,
+    10,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 2017,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.641536858959089,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 2081,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.5964709778367165,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 2113,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.574455175637111,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 2273,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.469150258754203,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    9,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 2593,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.279125736718758,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    6
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 2657,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.243949715081545,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    3,
+    5,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 2689,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.226678187699179,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 2753,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.192743332976491,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    4,
+    5,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 3041,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.049202126541253,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 3169,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.989720283189818,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    6,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 3329,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.9186590724317885,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    4,
+    5,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 3361,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.904857400264049,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    3,
+    6,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 3457,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.864227339309652,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    6
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 3617,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.798954344916277,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    6,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 4001,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.65338731422645,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 4289,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.553106626936495,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    9,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 4481,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.489927216419547,
+   "struct": 0,
+   "witness": [
+    0,
+    4,
+    6,
+    7,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 4513,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.479661164359564,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    6,
+    7,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 4673,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.429398905707252,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 5153,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.288335350419022,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 5281,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.2529368015006135,
+   "struct": 0,
+   "witness": [
+    0,
+    4,
+    5,
+    6,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 5441,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.2098761145122,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    5,
+    6,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 5569,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.17632965027504,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    7,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 5953,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.080131048543938,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    5,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 6113,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.041867375807206,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    6,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 6337,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.989947927378202,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    6,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 6529,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.946885901447425,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    7,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 6689,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.911957397645079,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    6,
+    7,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 6977,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.851141109267804,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 7297,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.786444489150043,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 7393,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.767588029572552,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    3,
+    6,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 7457,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.755152601385813,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 7649,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.718476795018779,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 7681,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.712453793275566,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    5,
+    9,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 7873,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.676834464685294,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 8513,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.564080312477024,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    4,
+    6,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 8609,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.5479022754188065,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    7,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 8641,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.542549661590893,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 8737,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.5266099524402765,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 9281,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.439467683105063,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    9,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 9473,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.409926558428483,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 9857,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.352599316964694,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    4,
+    9,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 10177,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.306507504976533,
+   "struct": 0,
+   "witness": [
+    0,
+    4,
+    5,
+    8,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 10337,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.284002300001232,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    4,
+    6,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 10369,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.279543082570244,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    4,
+    6,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 10433,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.270665784815501,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 10657,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.240018478804927,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    7,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 11329,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.15179932655629,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    6,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 11489,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.131566616428914,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 11681,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.107656060680938,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    7,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 11777,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.095847765249021,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    6,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 12161,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.049557981434953,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    6,
+    7,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 12577,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.0010320117570775,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    5,
+    8,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 13217,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.929425097521987,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    3,
+    6,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 13313,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.918984137972437,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    7,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 13441,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.905179370518141,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    4,
+    5,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 13537,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.894911796308449,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    5,
+    6,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 13633,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.8847167797253412,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    3,
+    8,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 14081,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.8380700535494334,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    8,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 14593,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.7865433478913637,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 14657,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.7802300056715765,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    6,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 14753,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.7708114938845245,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    8,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 15073,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.739853260922187,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    8,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 15137,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.733740541905407,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    6,
+    8,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 15809,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.671073735270584,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    4,
+    8,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 16033,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.6507754487201236,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    7,
+    9,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 16417,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.6166293311718114,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    5,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 16481,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.6110160659825645,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    10,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 16993,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.566879274896996,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 17921,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.490168705337542,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    7,
+    8,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 18401,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.4520356765316915,
+   "struct": 0,
+   "witness": [
+    0,
+    4,
+    5,
+    6,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 18593,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.4370602786294704,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 19073,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.4002880644284783,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    6,
+    8,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 19681,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.3550163215330358,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    5,
+    9,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 19777,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.347996249699726,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 19937,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.3363715100386724,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    4,
+    6,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 20641,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.2863069809390986,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    7,
+    8,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 20929,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.266316467604648,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    6,
+    7,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 21121,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.2531417055190737,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 21569,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.222860557406669,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    4,
+    8,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 21601,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.2207217457428303,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 22273,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.1765239569992847,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    7,
+    8,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 22369,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.1703190854694707,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    4,
+    5,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 22433,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.1661972808436687,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    5,
+    8,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 22817,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.1417107307886667,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 23297,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.111675659828826,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    6,
+    7,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 24001,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.0687253311477427,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    7,
+    9,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 24097,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.062966301340307,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    11,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 24481,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.0401573575747634,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    3,
+    5,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 25153,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.001089367395103,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    8,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 25409,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.9864802504129155,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    7,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 25537,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.9792307959395643,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    5,
+    7,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 26113,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.947051636388835,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    3,
+    5,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 26209,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.941757539093526,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    3,
+    7,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 26561,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.9225103840229156,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    8,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 27073,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.8949650843961017,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    8,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 28289,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.8315786688331457,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    7,
+    9,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 29153,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.788175495903058,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    7,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 29761,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.758396844735172,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    6,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 30593,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.7186182611360934,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    8,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 30881,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.705100376774066,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 33857,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.5723657034029994,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    8,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 34273,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.554747367992384,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 35201,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.5162034340876307,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    8,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 35809,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.4914976174173624,
+   "struct": 0,
+   "witness": [
+    0,
+    5,
+    7,
+    8,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 36161,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.4773852732813246,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    4,
+    7,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 37217,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.435858081168199,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    6,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 38113,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.401536676115521,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    4,
+    6,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 38977,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.3691967951815815,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    9,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 39841,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.3375659888461495,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    9,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 45377,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.1498586164515405,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    7,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 45569,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.1437671366861704,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    4,
+    5,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 47137,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.0949599057868475,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    8,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 47521,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.0832546524592335,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    4,
+    7,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 52609,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.9365102206595033,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 52769,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.9321292040540268,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    6,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 56417,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.8356898960337968,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    4,
+    10,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 60289,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.739925048104638,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    9,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 61121,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.7201517005383575,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    10,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 61409,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.7133697379671116,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    4,
+    10,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 63521,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.6645862232670972,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    5,
+    6,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 63809,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.6580599234111926,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    7,
+    10,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 76481,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.3967184611368744,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    5,
+    6,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 84673,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.2499178427620805,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 84961,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.2450191011066352,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    4,
+    6,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 88129,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.192203013079702,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 88609,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.1843666075273944,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 88993,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.1781279868025933,
+   "struct": 0,
+   "witness": [
+    0,
+    4,
+    5,
+    7,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 91873,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.132178909134403,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    5,
+    8,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 95873,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.0706952710542552,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    5,
+    7,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 99137,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.022396246170267,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    4,
+    5,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 103969,
+   "delta": 1,
+   "zw": 1,
+   "lam": 0.953738322971958,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    9,
+    12,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 115553,
+   "delta": 1,
+   "zw": 1,
+   "lam": 0.8013370374323436,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    7,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 134401,
+   "delta": 1,
+   "zw": 1,
+   "lam": 0.5833478807203996,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 140321,
+   "delta": 1,
+   "zw": 1,
+   "lam": 0.5211608188125041,
+   "struct": 0,
+   "witness": [
+    0,
+    3,
+    4,
+    6,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 143489,
+   "delta": 1,
+   "zw": 1,
+   "lam": 0.4889516103368905,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    6,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 155137,
+   "delta": 1,
+   "zw": 1,
+   "lam": 0.37634894457873713,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    9,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 161761,
+   "delta": 1,
+   "zw": 1,
+   "lam": 0.3160279320713535,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    8,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 3,
+   "p": 17,
+   "delta": 2,
+   "zw": 3,
+   "lam": 5.357143703821034,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    5,
+    7,
+    16
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 3,
+   "p": 257,
+   "delta": 1,
+   "zw": 2,
+   "lam": 1.6082831291842936,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    4,
+    12,
+    16
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 3,
+   "delta": 8,
+   "zw": 8,
+   "lam": 7.109757223245115,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    12,
+    13
+   ],
+   "inscope": false,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 7,
+   "delta": 4,
+   "zw": 4,
+   "lam": 8.560037540783947,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    10,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 17,
+   "delta": 2,
+   "zw": 2,
+   "lam": 11.614531546513685,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 31,
+   "delta": 2,
+   "zw": 2,
+   "lam": 9.881064608240614,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 47,
+   "delta": 2,
+   "zw": 2,
+   "lam": 8.680279525659088,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    9,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 79,
+   "delta": 2,
+   "zw": 2,
+   "lam": 7.181895732660157,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    8,
+    12,
+    16
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 97,
+   "delta": 1,
+   "zw": 1,
+   "lam": 13.189544386827237,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 113,
+   "delta": 2,
+   "zw": 2,
+   "lam": 6.149099304183988,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 127,
+   "delta": 2,
+   "zw": 2,
+   "lam": 5.812087855470033,
+   "struct": 560,
+   "witness": [
+    0,
+    4,
+    6,
+    7,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 191,
+   "delta": 2,
+   "zw": 2,
+   "lam": 4.634599572942866,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    7,
+    9,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 193,
+   "delta": 1,
+   "zw": 1,
+   "lam": 12.197000191746284,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 239,
+   "delta": 2,
+   "zw": 2,
+   "lam": 3.987723613052866,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    12,
+    13,
+    14,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 257,
+   "delta": 1,
+   "zw": 1,
+   "lam": 11.783832679820485,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    6,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 271,
+   "delta": 2,
+   "zw": 2,
+   "lam": 3.625159146306622,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    10,
+    11,
+    12,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 353,
+   "delta": 1,
+   "zw": 1,
+   "lam": 11.325932855743183,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 367,
+   "delta": 2,
+   "zw": 2,
+   "lam": 2.750184723327937,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    6,
+    7,
+    8,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 449,
+   "delta": 1,
+   "zw": 1,
+   "lam": 10.978885594273217,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 577,
+   "delta": 1,
+   "zw": 1,
+   "lam": 10.617029720368881,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    7,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 641,
+   "delta": 1,
+   "zw": 1,
+   "lam": 10.465276682395622,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    7,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 673,
+   "delta": 1,
+   "zw": 1,
+   "lam": 10.394994534404047,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 769,
+   "delta": 1,
+   "zw": 1,
+   "lam": 10.202617441052537,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 929,
+   "delta": 1,
+   "zw": 1,
+   "lam": 9.92992244263171,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    6,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 1153,
+   "delta": 1,
+   "zw": 1,
+   "lam": 9.618280431362592,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 1217,
+   "delta": 1,
+   "zw": 1,
+   "lam": 9.540343776300634,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    7,
+    9,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 1249,
+   "delta": 1,
+   "zw": 1,
+   "lam": 9.502899467406406,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 1409,
+   "delta": 1,
+   "zw": 1,
+   "lam": 9.329001332704728,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    8,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 1601,
+   "delta": 1,
+   "zw": 1,
+   "lam": 9.144699636498107,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    7,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 1697,
+   "delta": 1,
+   "zw": 1,
+   "lam": 9.0606863794717,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 1889,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.906050242625994,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    5,
+    7,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 2017,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.811461860401401,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 2081,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.766395979279029,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    6,
+    7,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 2113,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.744380177079423,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 2273,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.639075260196515,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    6,
+    7,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 2593,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.44905073816107,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    6,
+    7,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 2657,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.413874716523857,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    8
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 2689,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.39660318914149,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    7,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 2753,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.362668334418803,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    6,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 3041,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.219127127983565,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    7,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 3137,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.174287415170761,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    5,
+    6,
+    7,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 3169,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.15964528463213,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    8,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 3329,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.0885840738741,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 3361,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.074782401706361,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    6,
+    9,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 3457,
+   "delta": 1,
+   "zw": 1,
+   "lam": 8.034152340751964,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    9,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 3617,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.968879346358589,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 4001,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.823312315668762,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    8,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 4129,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.777880525838187,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 4289,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.723031628378807,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    9,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 4481,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.659852217861859,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 4513,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.6495861658018764,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    5,
+    8,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 4673,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.599323907149564,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    7,
+    8,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 4801,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.560338008355769,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    5,
+    6,
+    7,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 4993,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.5037660376842705,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    8,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 5153,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.458260351861334,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    10,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 5281,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.422861802942926,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    7,
+    8,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 5441,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.379801115954512,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 5569,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.346254651717352,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 5857,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.273511049904846,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    5,
+    6,
+    7,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 5953,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.2500560499862505,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    7,
+    10,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 6113,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.211792377249518,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    7,
+    11,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 6337,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.159872928820514,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    6,
+    7,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 6529,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.116810902889737,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    8,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 6689,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.081882399087391,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    6,
+    10,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 6977,
+   "delta": 1,
+   "zw": 1,
+   "lam": 7.021066110710116,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    9,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 7297,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.956369490592355,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    6,
+    8,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 7393,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.9375130310148645,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 7457,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.925077602828125,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    7,
+    8,
+    10,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 7489,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.9188998546879485,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    6,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 7649,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.888401796461091,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    6,
+    7,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 7681,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.882378794717878,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    6,
+    7,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 7841,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.852635284521984,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 7873,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.846759466127606,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    6,
+    7,
+    8,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 7937,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.8350791388703165,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    8,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 8161,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.794927002125153,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    6,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 8353,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.761378506309477,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    6,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 8513,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.7340053139193365,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    7,
+    9,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 8641,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.7124746630332055,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    5,
+    6,
+    7,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 8737,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.696534953882589,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    7,
+    9,
+    10,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 8929,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.665174334047762,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    7,
+    8,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 9281,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.609392684547375,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    7,
+    8,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 9377,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.594546511738999,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 9601,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.560488265611635,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    6,
+    8,
+    9,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 9857,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.522524318407006,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    6,
+    7,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 10273,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.462887299444553,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    6,
+    9,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 10337,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.453927301443544,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    6,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 10369,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.4494680840125564,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    9,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 10433,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.440590786257813,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    6,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 10529,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.427376427683361,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 10657,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.4099434802472395,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    7,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 10753,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.397005633248677,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 11329,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.321724327998602,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 11393,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.31359716253848,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 11489,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.301491617871227,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    6,
+    7,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 11617,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.28550729741109,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    7
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 11681,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.27758106212325,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    5,
+    7,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 11969,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.2424422281197725,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    7,
+    8,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 12097,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.227095539299825,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    6,
+    8,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 12161,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.219482982877265,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    6,
+    8,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 12289,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.204377326247256,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    6,
+    11,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 12577,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.17095701319939,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 12641,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.1636342531986905,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    6,
+    8,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 13121,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.109867172187048,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    8,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 13249,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.095861376542658,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 13313,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.088909139414749,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    8,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 13441,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.075104371960453,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    7,
+    8,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 13537,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.064836797750761,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 13633,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.054641781167653,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    6,
+    7,
+    11,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 13697,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.047884909495885,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 13729,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.044518303920286,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    6,
+    7,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 13921,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.024482000115743,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    6,
+    7,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 14081,
+   "delta": 1,
+   "zw": 1,
+   "lam": 6.007995054991746,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    11,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 14177,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.998192573800333,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    13,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 14369,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.978785187477694,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    8,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 14401,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.975575854120269,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    6,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 14561,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.959635411132972,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    5,
+    7,
+    8,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 14593,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.956468349333676,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    8,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 14657,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.950155007113889,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    5,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 14753,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.940736495326837,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    8,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 15073,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.909778262364499,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    5,
+    8,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 15137,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.903665543347719,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    6,
+    7,
+    9,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 15233,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.8945447540673985,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    6,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 15329,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.885481264803355,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    7,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 15649,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.855674380238991,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 15809,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.840998736712896,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    8,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 16001,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.823582778729868,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    6,
+    10,
+    12,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 16193,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.80637455782221,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 16417,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.7865543326141236,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    8,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 16481,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.780941067424877,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    6,
+    8,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 16673,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.764231135319372,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 16993,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.736804276339308,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    5,
+    6,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 17569,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.688712771726939,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    7,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 17729,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.675633685801779,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    7,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 17761,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.67303203723489,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    7,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 17921,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.660093706779854,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    5,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 18049,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.649825942269709,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    6,
+    8,
+    9,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 18401,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.621960677974004,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    10,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 18433,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.619453958479891,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    5,
+    8,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 18593,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.6069852800717825,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 18913,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.582366626217334,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    6,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 19009,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.5750622108497225,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    6,
+    7,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 19073,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.5702130658707905,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    9,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 19489,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.539084783089395,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    7,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 19553,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.534354873488374,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    7,
+    9,
+    10,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 19681,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.524941322975348,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    9,
+    12,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 19777,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.517921251142038,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 19841,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.513260109088721,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    7,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 19937,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.5062965114809845,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    10,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 20129,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.49246934789004,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    9,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 20161,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.490177650147871,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    7,
+    10,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 20353,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.47650338833307,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 20641,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.456231982381411,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    8,
+    9,
+    12,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 20897,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.438449007435336,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    8,
+    10,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 20929,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.43624146904696,
+   "struct": 560,
+   "witness": [
+    0,
+    5,
+    7,
+    8,
+    9,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 21089,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.42525416254788,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    8,
+    9,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 21121,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.423066706961386,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    8,
+    9,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 21313,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.410011169507152,
+   "struct": 560,
+   "witness": [
+    0,
+    4,
+    5,
+    6,
+    8,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 21377,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.405685446771587,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    7,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 21569,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.392785558848981,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    8,
+    12,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 21601,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.3906467471851425,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    7,
+    8,
+    9,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 22273,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.346448958441597,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    8,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 22369,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.340244086911783,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    7,
+    10,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 22433,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.336122282285981,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    6,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 22721,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.317718517118253,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    8,
+    9,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 22817,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.311635732230979,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    9,
+    10,
+    11,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 23201,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.287557860321153,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    5,
+    9,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 23297,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.281600661271138,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    7,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 23873,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.246364975413599,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    8,
+    9
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 24097,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.232891302782619,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 24481,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.2100823590170755,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    9,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 25057,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.176531154047227,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    6,
+    7,
+    8,
+    10
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 25121,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.172850954251075,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    6,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 25409,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.156405251855228,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    9,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 25537,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.1491557973818765,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    7,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 25601,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.145544685065264,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    7,
+    8,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 25633,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.143742512784682,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    5,
+    8,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 26113,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.116976637831147,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    6,
+    10,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 26209,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.111682540535838,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    12,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 26561,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.092435385465228,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    8,
+    13,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 26881,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.0751580406560635,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    8,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 27073,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.064890085838414,
+   "struct": 560,
+   "witness": [
+    0,
+    4,
+    6,
+    8,
+    9,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 27329,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.051312178533012,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    6,
+    7,
+    12,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 27457,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.044570846760715,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    7,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 27617,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.036188239506581,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    7,
+    10,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 27809,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.026192982557371,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    10,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 28097,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.01132875162283,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    6,
+    11,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 28289,
+   "delta": 1,
+   "zw": 1,
+   "lam": 5.001503670275458,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    10,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 28513,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.990125008806215,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    5,
+    10,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 28961,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.967633431086163,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    6,
+    11,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 29153,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.95810049734537,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    7,
+    12,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 29473,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.9423509323745165,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    8,
+    10,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 29633,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.934540159512972,
+   "struct": 560,
+   "witness": [
+    0,
+    4,
+    6,
+    7,
+    9,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 29761,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.928321846177484,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    6,
+    7,
+    10,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 30113,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.911358406114269,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    7,
+    11,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 30241,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.905239002525395,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    10,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 30817,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.878018425502642,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    7,
+    9,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 30881,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.875025378216378,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    11,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 31393,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.851301946116267,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    6,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 31489,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.846896907105869,
+   "struct": 560,
+   "witness": [
+    0,
+    5,
+    6,
+    7,
+    8,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 31873,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.829410032375225,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    8,
+    13,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 32257,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.812132579798979,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    6,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 32321,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.809273014224141,
+   "struct": 560,
+   "witness": [
+    0,
+    5,
+    6,
+    7,
+    10,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 32353,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.807845354111086,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    9,
+    13,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 32609,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.796474649935169,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    8,
+    12,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 33409,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.761508048971979,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    7,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 34273,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.724672369434696,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    7,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 34369,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.720636973781152,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 34721,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.705936350004379,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    8,
+    11,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 34849,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.700627591240368,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 35201,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.686128435529943,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    6,
+    12,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 35393,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.67828079604628,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    6,
+    8,
+    10,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 36161,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.647310274723637,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    8,
+    9,
+    11,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 36929,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.61699065311619,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    6,
+    7,
+    10,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 37057,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.611998758717949,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    12,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 37313,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.602066490620139,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    10,
+    12,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 37441,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.597125881536799,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 37633,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.589746547765564,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 37889,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.579965785999374,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    6,
+    10,
+    12,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 38177,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.569041111185388,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    9,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 38561,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.554602384091696,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    8,
+    10,
+    12,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 38977,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.539121796623894,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    6,
+    8,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 39233,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.529677192366442,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    7,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 40129,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.497099644331717,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    7,
+    10,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 40609,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.479945348250546,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    8,
+    9,
+    10,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 40961,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.467493912510054,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    6,
+    7,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 41729,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.44069450140919,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 41953,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.432970870018616,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    7,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 42209,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.424194199561178,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    6,
+    10,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 43457,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.38215626616779,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 43649,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.375796247421581,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    5,
+    6,
+    9,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 43777,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.3715717582036895,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 44129,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.360017794455278,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    6,
+    8,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 44257,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.355839189374587,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    5,
+    8,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 44417,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.350632895375215,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 45121,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.3279458074583985,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    7,
+    8,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 45377,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.319783617893853,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    14,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 45569,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.3136921381284825,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    7,
+    9,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 46049,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.298575022371008,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    6,
+    7,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 47041,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.267826120079192,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    7,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 47521,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.253179653901546,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    13,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 47713,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.247362449475675,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    8,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 48193,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.232921238251945,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    7,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 48353,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.228139446818545,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 48449,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.225277961119286,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    6,
+    10,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 48481,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.224325392399887,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 49057,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.207285838509849,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    6,
+    8,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 49121,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.205404918228409,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    9,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 49409,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.196970992417404,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 49537,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.193238348990775,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    8,
+    10,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 49921,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.182098015413169,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 50497,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.16554716880216,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    10,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 50753,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.158251747222193,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    7,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 51361,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.141071557421439,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    5,
+    9,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 51521,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.13658425366301,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    8,
+    10,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 51713,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.131217847881308,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 52289,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.11523736981059,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    8,
+    9,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 52321,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.114354734445932,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    8,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 52609,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.106435222101815,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    5,
+    9,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 52769,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.102054205496339,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    7,
+    13,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 53441,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.083797845366595,
+   "struct": 560,
+   "witness": [
+    0,
+    4,
+    5,
+    8,
+    11,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 54721,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.049650254441056,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    5,
+    7,
+    10,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 55681,
+   "delta": 1,
+   "zw": 1,
+   "lam": 4.024559728039662,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    5,
+    6,
+    10,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 56993,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.9909601141426716,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    6,
+    9,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 57089,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.988532057891611,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    8,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 57793,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.970850088172499,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    7,
+    8,
+    10,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 58337,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.9573336524027596,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    7,
+    9,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 58369,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.9565424978354624,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    7,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 59617,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.9260210704796457,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    9,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 59809,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.921382253362772,
+   "struct": 560,
+   "witness": [
+    0,
+    4,
+    5,
+    7,
+    8,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 61729,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.8757964293453284,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    8,
+    10,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 62017,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.8690811105154115,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    8,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 62273,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.863138066783078,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 62753,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.8520604185821306,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    8,
+    9,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 63361,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.838149744418981,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    6,
+    10,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 63841,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.8272615994751167,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    8,
+    9,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 64513,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.8121549424833923,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    9,
+    10,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 65921,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.7810067215660794,
+   "struct": 560,
+   "witness": [
+    0,
+    4,
+    5,
+    6,
+    11,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 66337,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.7719310797717043,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    6,
+    8,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 67777,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.740949068956194,
+   "struct": 560,
+   "witness": [
+    0,
+    5,
+    9,
+    10,
+    11,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 68161,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.732798347755949,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    6,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 69313,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.7086188870501715,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    8,
+    10,
+    12,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 70913,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.6756947182439923,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    6,
+    9,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 71233,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.66919909834645,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    8,
+    9,
+    12,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 71777,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.6582232241037644,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    5,
+    10,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 72161,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.650525518007921,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    6,
+    9,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 72353,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.646692012453695,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    5,
+    8,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 74561,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.603323640151821,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    6,
+    7,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 75937,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.5769418451170125,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    6,
+    10,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 76801,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.5606197535491013,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    5,
+    6,
+    8,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 76961,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.5576173044413153,
+   "struct": 560,
+   "witness": [
+    0,
+    4,
+    6,
+    7,
+    8,
+    18
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 77569,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.54626464656063,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 78241,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.53382003993881,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    9,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 78497,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.529107331356535,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    8,
+    9,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 79201,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.516226203428552,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    9,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 79393,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.5127330374427324,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    5,
+    6,
+    7,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 80737,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.4885148688581893,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    9,
+    10,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 81409,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.4765565520542516,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    5,
+    11,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 82241,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.4618870425417114,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    7,
+    10,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 84673,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.4198428442043927,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    8,
+    9,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 85121,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.4122297497704714,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    5,
+    9,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 85889,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.3992714755125526,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    9,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 88513,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.3558554885271548,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    7,
+    10,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 89153,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.345461504084618,
+   "struct": 560,
+   "witness": [
+    0,
+    5,
+    6,
+    7,
+    8,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 89633,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.3377148652709785,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    5,
+    6,
+    10,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 91009,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.315735627083999,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    8,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 91393,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.309661179280301,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    6,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 91841,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.3026064987493697,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    8,
+    9,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 92353,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.294586022909879,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    8,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 93601,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.275220906330013,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 97729,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.212958119942016,
+   "struct": 560,
+   "witness": [
+    0,
+    5,
+    6,
+    7,
+    9,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 100129,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.1779568773378735,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    7,
+    10,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 100193,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.1770350366438045,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    6,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 101377,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.160086377874883,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    10,
+    11,
+    12,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 102593,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.14288445647669,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    8,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 108193,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.066209593601119,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    6,
+    8,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 108289,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.064930053195873,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    8,
+    10,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 109121,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.0538879839845166,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    7,
+    8,
+    11,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 109793,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.0450306782600585,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    8,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 110273,
+   "delta": 1,
+   "zw": 1,
+   "lam": 3.0387371597901094,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    4,
+    10,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 117281,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.9498474447577685,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    5,
+    10,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 118529,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.934576674039807,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    6,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 118913,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.9299103102230823,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    5,
+    7,
+    8,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 120641,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.909096462228849,
+   "struct": 560,
+   "witness": [
+    0,
+    4,
+    5,
+    6,
+    9,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 124193,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.867232894625328,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    9,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 125921,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.847297851429932,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    5,
+    6,
+    12,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 126241,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.84363621596615,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    7,
+    8,
+    11,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 127297,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.8316183348364916,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    10,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 127873,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.825105078928715,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    10,
+    12,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 129953,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.8018268153794814,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    8,
+    9,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 131041,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.7897984829504594,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    6,
+    11,
+    12,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 136481,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.7311166321041718,
+   "struct": 560,
+   "witness": [
+    0,
+    4,
+    7,
+    8,
+    9,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 138497,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.7099620283536154,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    6,
+    12,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 142433,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.669533314588435,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    5,
+    8,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 143617,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.657590222936971,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    5,
+    8,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 144577,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.6479786948554285,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    7,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 154081,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.556127783028355,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    5,
+    10,
+    11,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 154369,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.5534336913277933,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    8,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 155201,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.5456789013669905,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    8,
+    12,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 157889,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.5209060912847185,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    8,
+    11,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 158657,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.5139055797291867,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    10,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 159169,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.5092573728492447,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    7,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 159361,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.5075181490310925,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    8,
+    9,
+    10,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 167809,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.432996661522264,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    6,
+    10,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 168769,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.42476682478301,
+   "struct": 560,
+   "witness": [
+    0,
+    4,
+    5,
+    6,
+    7,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 169217,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.420942241771648,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    8,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 175937,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.36475783741194,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 177409,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.352737554825751,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    6,
+    11,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 177889,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.3488394521574136,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    9,
+    12,
+    13,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 178561,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.3433997427111137,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    14,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 184321,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.2975963055843884,
+   "struct": 560,
+   "witness": [
+    0,
+    4,
+    5,
+    7,
+    8,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 184609,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.2953438660637424,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    5,
+    9,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 186049,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.284134118475155,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    7,
+    19
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 187009,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.2767090516147874,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    7,
+    8,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 190369,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.251018187630738,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 190913,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.2469014098400706,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    5,
+    7,
+    11,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 205537,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.140418628740587,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    7,
+    10,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 206209,
+   "delta": 1,
+   "zw": 1,
+   "lam": 2.1357094540150108,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    4,
+    5,
+    7,
+    18
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 228929,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.9849165240731566,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    5,
+    6,
+    12,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 231809,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.9668801744138946,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    9,
+    11,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 257953,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.8127085294091039,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    7,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 271393,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.7394332445633225,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    9,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 302977,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.580608476540668,
+   "struct": 560,
+   "witness": [
+    0,
+    3,
+    8,
+    9,
+    10,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 306913,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.5619869988405384,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    5,
+    11,
+    12,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 325217,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.4784140814983502,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    2,
+    4,
+    9,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 376577,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.2668718666786205,
+   "struct": 560,
+   "witness": [
+    0,
+    5,
+    6,
+    9,
+    10,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 396001,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.19431268110797,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    3,
+    8,
+    9,
+    18
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 397057,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.190470624502833,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    9,
+    12,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 406817,
+   "delta": 1,
+   "zw": 1,
+   "lam": 1.1554367870260727,
+   "struct": 560,
+   "witness": [
+    0,
+    2,
+    3,
+    8,
+    11,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 503137,
+   "delta": 1,
+   "zw": 1,
+   "lam": 0.848865467252427,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    7,
+    10,
+    18
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 506593,
+   "delta": 1,
+   "zw": 1,
+   "lam": 0.8389896122587963,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    4,
+    8,
+    13,
+    15
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 2,
+   "p": 665857,
+   "delta": 1,
+   "zw": 1,
+   "lam": 0.44460437839575917,
+   "struct": 560,
+   "witness": [
+    0,
+    1,
+    5,
+    8,
+    9,
+    20
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 3,
+   "p": 3,
+   "delta": 8,
+   "zw": 12,
+   "lam": 0.7699072203604906,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    6,
+    16,
+    18,
+    22
+   ],
+   "inscope": false,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 3,
+   "p": 7,
+   "delta": 4,
+   "zw": 6,
+   "lam": 2.9453276966687376,
+   "struct": 0,
+   "witness": [
+    0,
+    4,
+    8,
+    10,
+    12,
+    18
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 3,
+   "p": 17,
+   "delta": 2,
+   "zw": 3,
+   "lam": 7.527068705263346,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    6,
+    8,
+    10,
+    14
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 3,
+   "p": 47,
+   "delta": 2,
+   "zw": 4,
+   "lam": -2.428898177696187,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    8,
+    9,
+    10,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 3,
+   "p": 97,
+   "delta": 1,
+   "zw": 2,
+   "lam": 6.589631544640108,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    3,
+    7,
+    9,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 3,
+   "p": 193,
+   "delta": 1,
+   "zw": 2,
+   "lam": 4.604543154478202,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    4,
+    8,
+    9,
+    12
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 3,
+   "p": 353,
+   "delta": 1,
+   "zw": 2,
+   "lam": 2.862408482472002,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    5,
+    8,
+    10,
+    13
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 3,
+   "p": 449,
+   "delta": 1,
+   "zw": 2,
+   "lam": 2.168313959532071,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    8,
+    9,
+    11
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 4,
+   "p": 3,
+   "delta": 8,
+   "zw": 12,
+   "lam": 0.7699072203604906,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    6,
+    16,
+    18,
+    22
+   ],
+   "inscope": false,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 4,
+   "p": 7,
+   "delta": 4,
+   "zw": 10,
+   "lam": -8.284091991561677,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    5,
+    16,
+    18,
+    21
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 4,
+   "p": 17,
+   "delta": 2,
+   "zw": 5,
+   "lam": -0.6478569772373319,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    16,
+    17,
+    19
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  }
+ ],
+ "refutations": [
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 23,
+   "delta": 4,
+   "zw": 4,
+   "lam": -0.4747155966560008,
+   "struct": 0,
+   "witness": [
+    0,
+    4,
+    6,
+    8,
+    18
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 5,
+   "w": 2,
+   "p": 463,
+   "delta": 2,
+   "zw": 2,
+   "lam": -0.09020453894842007,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    3,
+    4,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 3,
+   "p": 47,
+   "delta": 2,
+   "zw": 4,
+   "lam": -2.428898177696187,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    8,
+    9,
+    10,
+    17
+   ],
+   "inscope": true,
+   "p_gt_n": true
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 4,
+   "p": 7,
+   "delta": 4,
+   "zw": 10,
+   "lam": -8.284091991561677,
+   "struct": 0,
+   "witness": [
+    0,
+    2,
+    5,
+    16,
+    18,
+    21
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  },
+  {
+   "n": 32,
+   "rp": 6,
+   "w": 4,
+   "p": 17,
+   "delta": 2,
+   "zw": 5,
+   "lam": -0.6478569772373319,
+   "struct": 0,
+   "witness": [
+    0,
+    1,
+    3,
+    16,
+    17,
+    19
+   ],
+   "inscope": true,
+   "p_gt_n": false
+  }
+ ],
+ "unfactored": []
+}
