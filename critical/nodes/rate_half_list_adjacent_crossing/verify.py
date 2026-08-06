@@ -14,6 +14,12 @@ SCALAR_DESCENT = "list_support_distance_scalar_descent"
 FLOOR = "rate_half_cyclic_rotated_prefix_floor"
 SAFE_ANCHOR = "rate_half_list_integer_johnson_safe_anchor"
 LOW_BUDGET = "rate_half_list_low_budget_exact_crossing"
+COMMON_MISMATCH_ZERO = "rate_half_list_budget_three_common_mismatch_zero"
+CYCLIC_BUDGET_STAIRCASE = "rate_half_list_cyclic_budget_staircase"
+CHAMBER_AFFINE_RANK = "rate_half_list_chamber_affine_rank_bridge"
+M31_ROTATION_SPECTRUM = "rate_half_m31_adjacent_quotient_rotation_product_spectrum"
+M31_ZERO_EXCESS = "l1_m31_rank7_zero_excess_two_block_incidence_router"
+M31_DENSE_TOP = "l1_m31_rank7_dense_top_decorated_shift_pair_router"
 BUDGET_THREE = "rate_half_list_budget_three_intersection_reduction"
 AFFINE_RANK = "rate_half_list_budget_three_affine_rank_rigidity"
 CYCLE_BIMOBIUS = "rate_half_list_budget_three_cycle_bimobius_transversal"
@@ -127,7 +133,10 @@ def main() -> int:
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
     packet = ROOT / "critical" / "nodes" / NODE_ID
-    statement = (packet / "statement.md").read_text()
+    statement = (packet / "statement.md").read_text() + "\n" + "".join(
+        path.read_text()
+        for path in sorted((packet / "statement_sections").glob("*.md"))
+    )
     consumer = (
         ROOT / "critical" / "nodes" / CONSUMER / "conditional.md"
     ).read_text()
@@ -158,6 +167,12 @@ def main() -> int:
         ("floor_is_proved", nodes[FLOOR]["status"] == "PROVED"),
         ("safe_anchor_is_proved", nodes[SAFE_ANCHOR]["status"] == "PROVED"),
         ("low_budget_is_proved", nodes[LOW_BUDGET]["status"] == "PROVED"),
+        ("common_mismatch_zero_is_proved", nodes[COMMON_MISMATCH_ZERO]["status"] == "PROVED"),
+        ("cyclic_budget_staircase_is_proved", nodes[CYCLIC_BUDGET_STAIRCASE]["status"] == "PROVED"),
+        ("chamber_affine_rank_is_proved", nodes[CHAMBER_AFFINE_RANK]["status"] == "PROVED"),
+        ("m31_rotation_spectrum_is_proved", nodes[M31_ROTATION_SPECTRUM]["status"] == "PROVED"),
+        ("m31_zero_excess_is_proved", nodes[M31_ZERO_EXCESS]["status"] == "PROVED"),
+        ("m31_dense_top_is_proved", nodes[M31_DENSE_TOP]["status"] == "PROVED"),
         ("budget_three_reduction_is_proved", nodes[BUDGET_THREE]["status"] == "PROVED"),
         ("affine_rank_rigidity_is_proved", nodes[AFFINE_RANK]["status"] == "PROVED"),
         ("cycle_bimobius_transversal_is_proved", nodes[CYCLE_BIMOBIUS]["status"] == "PROVED"),
@@ -268,7 +283,13 @@ def main() -> int:
         (
             "brackets_are_evidence",
             incoming
-            == [
+            == sorted([
+                (COMMON_MISMATCH_ZERO, "ev"),
+                (CYCLIC_BUDGET_STAIRCASE, "ev"),
+                (CHAMBER_AFFINE_RANK, "ev"),
+                (M31_ROTATION_SPECTRUM, "ev"),
+                (M31_ZERO_EXCESS, "ev"),
+                (M31_DENSE_TOP, "ev"),
                 (SCALAR_DESCENT, "ev"),
                 (FLOOR, "ev"),
                 (AFFINE_RANK, "ev"),
@@ -380,7 +401,7 @@ def main() -> int:
                 (SPLIT_UNIT_SINGLE_FIBER, "ev"),
                 (SAFE_ANCHOR, "ev"),
                 (LOW_BUDGET, "ev"),
-            ],
+            ]),
         ),
         ("direct_consumer", outgoing_req == [CONSUMER]),
         ("floor_remains_parent_requirement", old_floor_consumer == ["req"]),

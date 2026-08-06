@@ -9,6 +9,7 @@
     "key": true,
     "refs": [
       "critical/nodes/rate_half_list_adjacent_crossing/statement.md",
+      "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/document.json",
       "critical/nodes/rate_half_list_adjacent_crossing/attack.md",
       "critical/nodes/rate_half_list_adjacent_crossing/frontier.md",
       "critical/nodes/rate_half_list_adjacent_crossing/verify.py"

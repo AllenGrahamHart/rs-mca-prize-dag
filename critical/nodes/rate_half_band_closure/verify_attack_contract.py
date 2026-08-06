@@ -41,7 +41,10 @@ def main() -> None:
     assert normalized_ab == 37_255_818_600
     assert paired == 558_837_279_000
 
-    attack = (NODE / "attack.md").read_text()
+    attack = (NODE / "attack.md").read_text() + "\n" + "".join(
+        path.read_text()
+        for path in sorted((NODE / "attack_sections").glob("*.md"))
+    )
     statement = (NODE / "statement.md").read_text()
     requests = (ROOT / "notes/PRIZE_COMPUTE_REQUESTS.md").read_text()
     roadmap = (ROOT / "notes/PRIZE_RESOLUTION_ROADMAP.md").read_text()

@@ -1,0 +1,71 @@
+{
+  "pre_refactor_line_count": 940,
+  "pre_refactor_sha256": "6b1287214fbf161c2baabbb571a8b19d5dd6275b4c8b687ccb2938761c69ed46",
+  "schema": "sectioned-critical-node-document-v1",
+  "sections": [
+    {
+      "dag_nodes": [
+        "l1_mixed_petal_amplification"
+      ],
+      "original_lines": [
+        1,
+        24
+      ],
+      "path": "critical/nodes/l1_mixed_petal_amplification/attack_sections/00-falsification-and-growth.md"
+    },
+    {
+      "dag_nodes": [
+        "l1_exact_shell_prefix_hankel_bridge",
+        "l1_pade_remainder_jacobian_tangent_dichotomy"
+      ],
+      "original_lines": [
+        25,
+        361
+      ],
+      "path": "critical/nodes/l1_mixed_petal_amplification/attack_sections/01-global-exact-shell-program.md"
+    },
+    {
+      "dag_nodes": [
+        "l1_first_match_totality_scope_pin",
+        "l1_fixed_source_anchored_triple_polarity_closure"
+      ],
+      "original_lines": [
+        362,
+        468
+      ],
+      "path": "critical/nodes/l1_mixed_petal_amplification/attack_sections/02-local-first-owner-program.md"
+    },
+    {
+      "dag_nodes": [
+        "l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion"
+      ],
+      "original_lines": [
+        469,
+        651
+      ],
+      "path": "critical/nodes/l1_mixed_petal_amplification/attack_sections/03-order-zero-checkpoint-program.md"
+    },
+    {
+      "dag_nodes": [
+        "l1_mersenne_hnf_order_one_newton_reciprocal_reduction"
+      ],
+      "original_lines": [
+        652,
+        914
+      ],
+      "path": "critical/nodes/l1_mixed_petal_amplification/attack_sections/04-order-one-checkpoint-program.md"
+    },
+    {
+      "dag_nodes": [
+        "l1_balanced_pencil_anchor_determinant_atlas"
+      ],
+      "original_lines": [
+        915,
+        940
+      ],
+      "path": "critical/nodes/l1_mixed_petal_amplification/attack_sections/05-balanced-pencil-program.md"
+    }
+  ],
+  "source_index": "critical/nodes/l1_mixed_petal_amplification/attack.md",
+  "status_semantics": "presentation-only; node.json remains authoritative"
+}
