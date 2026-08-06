@@ -1026,3 +1026,17 @@ Integration freeze pending the upstream-sync wiring and stocktake:
   per-stage-cap timeouts recorded). The 2026-08-01 diagonal-node
   export HOLD is formally LIFTED (its premise died at #1149).
   Remaining export queue: cells 3+6, band-flip narrative.
+
+## 2026-08-04: round-13 pilot 1/2 BANKED — syzygy leaf NARROWED to (FR)
+
+- **commonroot_syzygy (Opus) BANKED** (41,077 exact checks; P6 refuted
+  as posed — the ladder is CAPPED, not open; brief-staleness
+  adjudicated correctly against the coordinator). (WTB) proved; block
+  budget X = 118/136 exact; NO-GO: s <= 11/11/10 for the entire
+  incidence-counting family (X = 0 one dimension up, collapse = N/w);
+  near-packed extension + the ell-size tail exception; residual
+  boundary exhibited (~1e18 x X). THE LEAF'S OBLIGATION OF RECORD IS
+  NOW **(FR)** (fiber rigidity: blocks = full phi-fibers + at most
+  one point => beta <= 6t < X closes everything in range). Next
+  anchors: (FR) pilot; the s >= 12 mechanism via the signed
+  support-moment interface. Awaiting: fullrank_divisor_count pilot.

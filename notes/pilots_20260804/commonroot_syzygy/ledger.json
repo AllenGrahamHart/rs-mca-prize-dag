@@ -1,0 +1,179 @@
+{
+  "pilot": "commonroot_syzygy",
+  "script": "ledger.py",
+  "checks": 40704,
+  "results": {
+    "exhaustive_admissible_families": 32768,
+    "tight_families": 2,
+    "second_ground_admissible_families": 7056,
+    "negative_control": {
+      "by_cap": {
+        "3": {
+          "targets": 18,
+          "lhs_2Tau": 36,
+          "rhs_3B": 45,
+          "holds": true
+        },
+        "4": {
+          "targets": 25,
+          "lhs_2Tau": 50,
+          "rhs_3B": 39,
+          "holds": false
+        },
+        "5": {
+          "targets": 33,
+          "lhs_2Tau": 66,
+          "rhs_3B": 42,
+          "holds": false
+        },
+        "6": {
+          "targets": 45,
+          "lhs_2Tau": 90,
+          "rhs_3B": 45,
+          "holds": false
+        }
+      },
+      "first_breaking_cap": 4
+    },
+    "fiber_count_sweep_ell": 399,
+    "1/4,1/8": {
+      "n": 2199023255552,
+      "h": 8589934593,
+      "s": 11,
+      "ell": 1227133512,
+      "r": 2454267025,
+      "d": 6135667568,
+      "sigma": 5,
+      "w": 7362801080,
+      "tails": {
+        "2": {
+          "e": 4908534050,
+          "X": 118,
+          "six_t": 12,
+          "headroom_multiple": 9,
+          "wtb_cap_at_6t": 333594496688188697227430,
+          "budget": 3288278229349597240479296
+        },
+        "3": {
+          "e": 4908534051,
+          "X": 118,
+          "six_t": 18,
+          "headroom_multiple": 6,
+          "wtb_cap_at_6t": 500391745030230497876741,
+          "budget": 3288278229349597240479297
+        },
+        "4": {
+          "e": 4908534052,
+          "X": 118,
+          "six_t": 24,
+          "headroom_multiple": 4,
+          "wtb_cap_at_6t": 667188993370903933216457,
+          "budget": 3288278229349597240479298
+        },
+        "5": {
+          "e": 4908534053,
+          "X": 118,
+          "six_t": 30,
+          "headroom_multiple": 3,
+          "wtb_cap_at_6t": 833986241710209003246588,
+          "budget": 3288278229349597240479299
+        },
+        "6": {
+          "e": 4908534054,
+          "X": 118,
+          "six_t": 36,
+          "headroom_multiple": 3,
+          "wtb_cap_at_6t": 1000783490048145707967140,
+          "budget": 3288278229349597240479300
+        },
+        "7": {
+          "e": 4908534055,
+          "X": 118,
+          "six_t": 42,
+          "headroom_multiple": 2,
+          "wtb_cap_at_6t": 1167580738384714047378121,
+          "budget": 3288278229349597240479301
+        }
+      }
+    },
+    "1/16": {
+      "n": 2199023255552,
+      "h": 4294967297,
+      "s": 10,
+      "ell": 613566756,
+      "r": 1227133513,
+      "d": 3067833784,
+      "sigma": 1,
+      "w": 3681400540,
+      "tails": {
+        "2": {
+          "e": 2454267026,
+          "X": 136,
+          "six_t": 12,
+          "headroom_multiple": 11,
+          "wtb_cap_at_6t": 289152338183910832037167,
+          "budget": 3288278229349594786212272
+        },
+        "3": {
+          "e": 2454267027,
+          "X": 136,
+          "six_t": 18,
+          "headroom_multiple": 7,
+          "wtb_cap_at_6t": 433728507274286589926945,
+          "budget": 3288278229349594786212273
+        }
+      }
+    },
+    "dimension_scan": {
+      "1/4,1/8": {
+        "payable_s": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "is_upward_closed": false,
+        "first_payable_s": 2,
+        "X_by_s": {
+          "9": 10504211,
+          "10": 35249,
+          "11": 118,
+          "12": 0,
+          "13": 0,
+          "14": 0
+        },
+        "collapse_ratio_N_over_w": 297
+      },
+      "1/16": {
+        "payable_s": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "is_upward_closed": false,
+        "first_payable_s": 2,
+        "X_by_s": {
+          "9": 81424,
+          "10": 136,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0
+        },
+        "collapse_ratio_N_over_w": 596
+      }
+    }
+  }
+}
