@@ -832,3 +832,50 @@ new assumptions: none
 compute: exact integer inequalities and bounded verifier replay only; no Modal spend
 next: attack the post-strip exact-slice zero fiber directly or prove a weight-aware replacement payment
 ```
+
+### Exact-slice near-tail payment at all four rates
+
+The previous `b2b_near_tail_bound` paid 15 layers only at the rate-half
+depth. Its own scope caveat recorded that carrying those same 15 layers to
+rates `1/4`, `1/8`, and `1/16` exceeded the reserved `2^122` half-budget.
+That gap is now closed without a generated-field balance hypothesis.
+
+For the official exact-list depth `t=t_XR`, the route cut gives `t<N/128`.
+Type-class lower bounds on the corridor binomial then give
+
+```text
+rho       1/2   1/4   1/8   1/16
+C_rho     257   316   472    760
+t        >N/C  >N/C  >N/C   >N/C
+w_rho      15    14    13     12
+```
+
+The banked interpolation inequality
+
+```text
+A_(t+j) <= binom(N,j)/binom(t+j,j) < C_rho^j
+```
+
+and complementation therefore give
+
+```text
+2 sum_(j=1)^(w_rho) A_(t+j) < 2^122
+```
+
+at every official row. All entropy comparisons and final budget inequalities
+are replayed as exact integer inequalities. The unpaid lower half-band in
+`u2c_exact_slice_extras_budget` now starts at offsets `16,15,14,13`,
+respectively. This is a real all-rates payment, but it does not bound any
+middle layer.
+
+```text
+starting pin: caf91b93e; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / u2c exact-slice near tail
+result: proved rate-dependent two-sided near-tail payment at all four prize rates
+DAG status delta: no status flip; one proved route repaired and strengthened
+upstream terminal delta: none; possible later export as finite list-completion support
+delta-star bracket movement: none
+new assumptions: none
+compute: exact integer inequalities under local RAM guard; no Modal spend
+next: attack the primitive middle bands beginning at offsets 16,15,14,13
+```

@@ -74,7 +74,7 @@
   {
    "id": "b2b_near_tail_bound",
    "label": "PROVED",
-   "title": "b2b near tail bound"
+   "title": "Official exact-slice rate-dependent near-tail bound"
   },
   {
    "id": "b_rational_lift",

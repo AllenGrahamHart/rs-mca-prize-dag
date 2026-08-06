@@ -7556,12 +7556,20 @@
   },
   {
    "id": "b2b_near_tail_bound",
-   "title": "b2b near tail bound",
+   "title": "Official exact-slice rate-dependent near-tail bound",
    "status": "PROVED",
-   "statement": "Lemmas 8-9 + Theorem 10 (verified, exact arithmetic): by degree-(k-1) interpolation, N_{t+k} <= C(n,k)/C(t+k,k) < 2^{8k} at official parameters; both near-tails (15 layers above t and their complements) together contribute < 2^122 \u2014 half the n^3 budget, unconditionally. | SCOPE CAVEAT (2026-07-10, I5 of the 3C extraction): the proof is at the rate-1/2 row (t = 2^33+1; replayed 2^121.006, and 2^120.998 at t* = 8592912739); the bound FAILS at lower-rate t* values (exact: 2^125.4 / 2^133.9 / 2^144.2 at rates 1/4 / 1/8 / 1/16) \u2014 harmless because those rows admit no field under |F| < 2^256 (they fail sub-balance), but the 'at official parameters' wording overreached.",
+   "closure": "proof",
+   "statement": "Let N=2^41, rho in {1/2,1/4,1/8,1/16}, 128<=L=log2(q)<256, and let t=t_XR be the official exact-list corridor depth. If A_b is the number of t-null b-subsets of the smooth domain, then 2 sum_{j=1}^{w_rho} A_{t+j}<2^122, where (w_1/2,w_1/4,w_1/8,w_1/16)=(15,14,13,12); complementation identifies the factor two with the corresponding upper near-tail layers. The proof combines the banked interpolation bound A_{t+j}<=binom(N,j)/binom(t+j,j), a self-contained exact-slice comparison giving t<N/128, type-class entropy lower bounds giving t>N/C_rho for C_rho=(257,316,472,760), and exact integer budget inequalities. This replaces the former rate-half-only 15-layer statement and its lower-rate scope caveat.",
    "attack_surface": "n/a (proved)",
    "falsifier": "n/a (proved)",
    "refs": [
+    "critical/nodes/b2b_near_tail_bound/statement.md",
+    "critical/nodes/b2b_near_tail_bound/proof.md",
+    "critical/nodes/b2b_near_tail_bound/claim_contract.md",
+    "critical/nodes/b2b_near_tail_bound/dependency_subdag.md",
+    "critical/nodes/b2b_near_tail_bound/audit.md",
+    "critical/nodes/b2b_near_tail_bound/result.md",
+    "critical/nodes/b2b_near_tail_bound/verify.py",
     "archive/compressed_dli_lane_20260705/b2_modp_giant_extras/notes/pro_b2b_partial_packet.md"
    ]
   },
@@ -28534,7 +28542,7 @@
    "title": "Official exact-slice t-null extras budget",
    "status": "TARGET",
    "closure": "open",
-   "statement": "At every official exact-list corridor row, with agreement numerator A, code dimension K=rho N, and t_XR=A-K defined by t_XR log2(q)>=log2 binom(N,N-K-t_XR)+128, prove that the total non-coset-union t_XR-null blocks and unpriced trade families consumed by the u2c/x4 direct column are at most N^3=2^123 after the named quotient, dihedral, boundary, and near-tail classes are removed. The proved route cut shows t_XR log2|F_p(mu_N)|<N on every official row, so the generated-field-guarded full-subset F2 terminal is not a proof of this statement. A direct fixed-slice census/payment or a proved replacement of the consumer guard is required.",
+   "statement": "At every official exact-list corridor row, with agreement numerator A, code dimension K=rho N, and t_XR=A-K defined by t_XR log2(q)>=log2 binom(N,N-K-t_XR)+128, prove that the total non-coset-union t_XR-null blocks and unpriced trade families consumed by the u2c/x4 direct column are at most N^3=2^123 after the named quotient, dihedral, boundary, and rate-dependent near-tail classes are removed. The proved near-tail theorem pays 15,14,13,12 layers at rates 1/2,1/4,1/8,1/16, so the unpaid half-band begins at t_XR+16,t_XR+15,t_XR+14,t_XR+13. The proved route cut shows t_XR log2|F_p(mu_N)|<N on every official row, so the generated-field-guarded full-subset F2 terminal is not a proof of this statement. A direct fixed-slice census/payment or a proved replacement of the consumer guard is required.",
    "falsifier": "An official corridor row and certified post-strip exact-slice census with more than N^3 non-coset-union t_XR-null blocks plus unpriced trade families.",
    "refs": [
     "critical/nodes/u2c_exact_slice_extras_budget/statement.md",
@@ -53846,6 +53854,11 @@
    "kind": "ev"
   },
   {
+   "from": "b2b_near_tail_bound",
+   "to": "u2c_exact_slice_extras_budget",
+   "kind": "ev"
+  },
+  {
    "from": "crossing_dsa_refutation",
    "to": "rate_half_list_adjacent_crossing",
    "kind": "ref"
@@ -54149,6 +54162,11 @@
    "from": "upstream_gfv4_affine_span_list_compiler",
    "to": "xr_deficient_window_mixed_core_block_payment",
    "kind": "req"
+  },
+  {
+   "from": "x4_exact_slice_f2_guard_route_cut",
+   "to": "b2b_near_tail_bound",
+   "kind": "ev"
   },
   {
    "from": "x4_exact_slice_f2_guard_route_cut",

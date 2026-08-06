@@ -6,7 +6,7 @@ balance theorem.
 1. Preserve the exact `x4` first-match strips and count only the residual they
    actually send to the direct column.
 2. Use the full-ladder locator dictionary, complement involution, empty edge
-   bands, and near-tail payments at the exact corridor depth.
+   bands, and the proved exact-slice near-tail widths `15,14,13,12`.
 3. Attack the remaining middle band through zero-fiber structure or a
    weight-aware payment. Generic `R`-local moments, interpolation, Weil-per-
    power-sum bounds, and the retired even-condition recursion do not supply

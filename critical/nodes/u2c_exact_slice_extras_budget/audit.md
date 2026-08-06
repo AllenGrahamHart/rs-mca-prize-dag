@@ -8,3 +8,5 @@
 4. The exact-value F2 diagnostic under `(T*)` is evidence of difficulty, not a
    contradiction and not a guarded consumer obligation.
 5. No numerical experiment is promoted to proof.
+6. The lower-rate near-tail overreach is removed: each rate uses only the
+   width proved by `b2b_near_tail_bound`.

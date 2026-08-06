@@ -2,6 +2,7 @@
 
 ```text
 x4_exact_slice_f2_guard_route_cut [PROVED] --ev--> u2c_exact_slice_extras_budget [TARGET]
+b2b_near_tail_bound [PROVED] --------------------ev--> u2c_exact_slice_extras_budget [TARGET]
 
 u2c_exact_slice_extras_budget [TARGET] --req--> u2c_giant_tnull_dichotomy [CONDITIONAL]
 

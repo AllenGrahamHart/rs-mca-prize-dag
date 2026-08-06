@@ -31,6 +31,9 @@
     },
     {
       "to": "u2c_giant_tnull_dichotomy"
+    },
+    {
+      "to": "b2b_near_tail_bound"
     }
   ],
   "refutes": []

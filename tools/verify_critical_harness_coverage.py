@@ -38,9 +38,12 @@ EXPECTED_COUNTS = {
     # is not a requirement of the official exact-slice consumer. Moving that
     # branch off the strict orbit removes four md-only proofs and one legacy-
     # ref-only proof; local verifier coverage is unchanged.
-    "folder-md-only": 126,
+    # 2026-08-06 exact-slice near-tail repair: b2b_near_tail_bound gained an
+    # exact integer verifier while remaining PROVED, so one critical proof
+    # moves from md-only to local-verifier.
+    "folder-md-only": 125,
     "legacy-ref-only": 4,
-    "local-verifier": 46,
+    "local-verifier": 47,
 }
 
 EXPECTED_NO_PROOF = {

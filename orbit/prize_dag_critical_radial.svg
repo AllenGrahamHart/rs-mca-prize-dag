@@ -338,7 +338,7 @@
 <g data-id="axis8_generating"><circle cx="2541" cy="1858" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>axis8_generating [PROVED] Axis 8: non-generating rows / tower-case admissibility (node-ified from s5_s0 F3)</title></circle></g>
 <g data-id="axis9_dither"><circle cx="1844" cy="2544" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>axis9_dither [PROVED] Axis 9: exact rates (dither adverse, provisional)</title></circle></g>
 <g data-id="b2b_dyadic_descent_packet"><circle cx="1783" cy="1029" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>b2b_dyadic_descent_packet [PROVED] b2b dyadic descent packet</title></circle></g>
-<g data-id="b2b_near_tail_bound"><circle cx="1831" cy="1037" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>b2b_near_tail_bound [PROVED] b2b near tail bound</title></circle></g>
+<g data-id="b2b_near_tail_bound"><circle cx="1831" cy="1037" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>b2b_near_tail_bound [PROVED] Official exact-slice rate-dependent near-tail bound</title></circle></g>
 <g data-id="b_rational_lift"><circle cx="2069" cy="1842" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>b_rational_lift [PROVED] B-rational pencils give B-slopes (linearity)</title></circle></g>
 <g data-id="bounded_coeff_norm_gate"><circle cx="1878" cy="1048" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>bounded_coeff_norm_gate [PROVED] bounded coeff norm gate</title></circle></g>
 <g data-id="cap_end_sharpening"><circle cx="1537" cy="1334" r="5.5" fill="#15803d" stroke="#0b1220" stroke-width="1"><title>cap_end_sharpening [PROVED] cap end sharpening</title></circle></g>
