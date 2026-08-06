@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "es_ternary_suppression_instruments",
+    "title": "The proved suppression instruments: THEOREM CS (ideal Galois multiplicity vs a SHARP AM-GM ceiling — the (ES) crossing instance unconditional on 71.16% of the bracket at 256-bit p) + LEMMA STRAT/TWO (exact stratum reduction; N_odd is the invariant, even r' forces 2 | N) + THEOREM SP-COVER/SP-UNIFORM (a = 0 bad primes > sqrt(w+1); p = 3 dead for w >= 6; the bad-prime range TWO-SIDED) — with the proved structural limits: E_floor is tautological given CS, CC-sparsity is (ES) again at half length over ternary, and the official primes sit provably in the 2^4.69-wide gap between the two closed ends",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/es_ternary_suppression_instruments/statement.md",
+      "notes/pilots_20260806/es_coprimality/PROOFS.md",
+      "notes/pilots_20260806/es_coprimality/verify_cop.py",
+      "notes/pilots_20260806/efloor_sparsity/PROOFS.md",
+      "notes/pilots_20260806/efloor_sparsity/verify_sp.py"
+    ],
+    "closure": "proof",
+    "statement": "THEOREM CS: p | N(I_S) with x_1 != 0 forces p^{|Z_w^odd|} | |N(x_1)| <= (r'-a_{n/2}(S))^{n/4} (CS2 sharp, AM-GM equality attained), so ceil((w-1)/2) log2 p <= (n/4) log2 r'; contrapositive: the (ES) crossing instance HOLDS unconditionally wherever the reverse strict inequality holds — 71.16% of the bracket at 256-bit p (w > 2^37.3131), complete over all S via the strat dichotomy (CS / STRAT+CS-TOWER / LEMMA Z). LEMMA STRAT: exact reduction to (n/2^a, r'/2^a, w_a); binding stratum = largest a with w_a = 2 (principal). LEMMA TWO: even r' forces 2 | N(I_S); the invariant of record is N_odd. THEOREM SP-COVER/LEMMA COS/SP-UNIFORM: full coset coverage forces periodicity (engine LEMMA AB: A-B is TERNARY); a = 0 bad primes satisfy p > sqrt(w+1); p = 3 dead for all w >= 6 at every n; the bad-prime range is two-sided with the CS3 ceiling. THEOREM SP-TERNARY: second per-(n,p,w)-certified mechanism. Adversarial nulls banked: the densest floor family (LEMMA QS quarter-shift: 49% of floor mass in 0.42% of sets) dies at one w-step; exact all-characteristic censuses close round-16's n = 64 flag (+ n = 128); quantization reproduced. PROVED LIMITS: (E-1) E_floor tautological given CS (the CC decomposition is a restatement); (E-2) CC-sparsity IS (ES) at half length over ternary; (E-3) the official v_2(q-1) >= 41 gate is SP-COVER's blind spot — official primes provably in the 2^4.69 gap; the SPD union-bound shape proved vacuous. NOT claimed: CC-sparsity/pair-coprimality (open, as hard as the original); the prime-range middle; w = 3; band rows. Provenance: notes/pilots_20260806/{es_coprimality (143,974/0), efloor_sparsity (56,542/0)}, coordinator-replayed."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing"
+    }
+  ],
+  "refutes": [
+    {
+      "to": "u2c_giant_tnull_dichotomy"
+    }
+  ]
+}

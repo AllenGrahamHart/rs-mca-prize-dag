@@ -1717,3 +1717,50 @@ BOARD AFTER ROUND 18:
 - NEXT: MINT-4 (massively overdue — three rounds of theorems in
   notes) + the Przemek note + the round-19 ternary unification
   draft + the gamma-shell question + route (b).
+
+## 2026-08-06: MINT-4 CORE EXECUTED + the two parked decisions ruled (user-delegated)
+
+DECISIONS (coordinator rulings under user delegation, 2026-08-06):
+- **W = 5 ROLLBACK RATIFIED** (round-16 a1_window_audit verdict
+  LOSSY; the +7 was underived): W = 5 is the window of record;
+  board 10/8-routeless -> 4/1-closable; recorded as a statement
+  addendum on xr_band_high_window_exclusion. CR-W5-ELL1 census
+  DEFERRED until the band functional re-pose settles (no compute
+  spent calibrating a retired frame).
+- **PP5.0 = the SUM reading** as campaign working convention, by the
+  rules-freeze stricter-reading clause; flagged for maintainer
+  confirmation; both pricings carried in all statements (recorded in
+  f2_o1_status_split).
+
+MINT-4 CORE (six new background nodes + six statement addenda;
+write-path: shards -> compile_dag --write -> sectioned docs ->
+verify chain):
+- NEW: f2_admissible_object (ADM lemmas, G1/G2 census, C1 coset
+  invariance); f2_o1_status_split (ADM-B + Z-3 + Z2 + the minimal
+  surviving form + the FOUR-FACE SEAM); f2_z1_mass_knife_edge
+  (Z-FLOOR, Z-1/D1, Z-2, Z-NOGO, the 46-bit knife edge, route (b),
+  terminal = the MASS form); crossing_dsa_refutation (DSA + witness
+  + DS/FREE/OE/TC/ROT + the prime-row re-pricing);
+  es_ternary_suppression_instruments (CS + STRAT + TWO +
+  SP-COVER/SP-UNIFORM/SP-TERNARY + the E-1/E-2/E-3 limits);
+  esg_lane_rescope (the re-scope of record + |Z_w| closed forms).
+  Edges: supplier-owned ev/ref into u2c, crossing, band leaf, dli.
+- ADDENDA: u2c (base pin per THEOREM Q, ~2% -> 0.089-bit, witness
+  exclusion, the two-closed-ends state); crossing node (DSA scope
+  note, gamma-shell re-opened, CS coverage); band leaf (W = 5
+  ratification + functional status); xr_radius_arithmetic (t* =
+  mca_floor object, sliver retired, never cross-audit);
+  dli_wcl_newton_short_window_exclusion (scope reversal + the l1
+  strengthening); b1 (CATCH-15B verifier-of-record repair, MC-4 by
+  citation).
+- Compiled: dag 1817/5070 -> 1823/5081; sectioned docs recompiled;
+  verify_prize_dag PASS (no warnings on the six; x81/x83 warnings
+  pre-existing); ORBIT_CENSUS_PASS unchanged (246 = 179/41/26,
+  submission 261 = 191/43/27) — the six are orbit-external
+  satellites.
+- DEFERRED to mint-4b: the critical-lane re-wiring of the F2/crossing
+  terminals (blocked on the Przemek scope answers by design); the
+  naming ledger extension (six t symbols); the SOL_TARGET_3 t*
+  rename; the D2/D3 shard addenda; the remaining round-15 mint queue
+  (UPB, 3-drop THEOREM D, F2 A/B/C wave, crossing X/Q/Y/MW wave,
+  b2b retyping).

@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f2_z1_mass_knife_edge",
+    "title": "The F2 terminal pinned to the MASS form with its proved constraints: THEOREM Z-FLOOR (pointwise first-moment floor Z >= 2^m/p^{dim L}, one Cauchy-Schwarz from a banked identity, tight in 2x), THEOREM Z-1 (the DLI distance law transports — min ternary weight >= 2R+1, blind-convergent with the adversary's D1, shift-0 scope), THEOREM Z-2 (l1 extension gifted back to DLI), THEOREM Z-NOGO (distance+counting needs p <= 8 and can NEVER close the terminal); at k = e the floor sits on a 46-bit knife edge (one Lambda condition = 64 bits; the two t-readings straddle zero, exact-zero form dies where it fires); the open terminal = Z_1 <= 2^{o(m)} via route (b) only",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/f2_z1_mass_knife_edge/statement.md",
+      "notes/pilots_20260806/z1_ternary_mass/PROOFS.md",
+      "notes/pilots_20260806/z1_ternary_mass/verify.py"
+    ],
+    "closure": "proof",
+    "statement": "On the admissible F2 object ([S,S-R,R+1]_p negacyclic GRS on the half-system, S = 2^40/e, R/S = 1/log2 p, Z(L) = Z_1^C, C <= 4): THEOREM Z-FLOOR: Z(L) >= 2^m/p^{dim L} POINTWISE for every subspace (Cauchy-Schwarz on the banked collision identity dli_c1_l1_block_owner_ledger:15,18; tight within 2x of the ensemble mean; 696 configs 0 violations). THEOREM Z-1: char > w holds on every admissible row (p > m by the e_p case split; the tower verdict reversed), so min ternary weight >= 2R+1 = 8,589,934,681 — blind-convergent with o1_generating_adversary THEOREM D1; shift-0 windows only (43 shifted counterexamples; legitimate because the official window starts at 1). THEOREM Z-2: the DLI exclusion holds for all integer coefficients at l1 weight ({+1,-1} unnecessary). THEOREM Z-NOGO: saturation pins R/S = 1/log2 p, so the whole distance+counting family (39.2x -> 28.3x -> 21.3x ladder) needs p <= 8 vs admissible log2 p >= 39 — structurally incapable of closing the terminal. KNIFE EDGE at k = e: the floor is silent by 46.02 bits of 2.75e11 under R = ceil(t/2) and FIRES (+17.98 bits) under the exact-balance reading — there ternary kernel vectors provably exist (Z_1 >= 2^{17.98}), the EXACT-ZERO form dies, the MASS form survives (Z = 2^{o(n)}); the reading belongs to the maintainer stack. CATCH-Z1: mass form != exact-zero form (differ by log2 3 per vector) — the terminal of record is the MASS form: prove Z_1 <= 2^{o(m)} at k = e. Only live route: (b) Weil-type products over the 2^{e_p}-subgroup (factor-2 headroom, back-of-envelope); (a) dead quantified; (c) localises only. Calibration at or below random median on all valid miniatures (2-power 2N only, CATCH-Z6 grid rule); no toy is evidence at the official row. NOT claimed: the open mass bound; the t-reading; a shifted law. Provenance: notes/pilots_20260806/z1_ternary_mass (81/81), coordinator-replayed."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": [
+    {
+      "to": "u2c_giant_tnull_dichotomy"
+    },
+    {
+      "to": "dli_prime_weighted_large_block_support"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f2_o1_status_split",
+    "title": "(O1)'s status on admissible rows, split: FALSE by 2^{Theta(n)} on every non-generating row (k < e) by two independent routes (ADM-B necessary-condition + Z-3 object-level, exponents matching exactly, coset-robust); on the three generating classes decided by two unpinned conventions (THEOREM Z2 ensemble dichotomy — the banked 0.0044% 'agreement' IS the sign of (O1) at zero margin; the internally-forced cell reading-A + slice is the FALSE one); minimal surviving form E[T] = 2^{n/2} Z_1^e banked; the four-face maintainer seam identified",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/f2_o1_status_split/statement.md",
+      "notes/pilots_20260806/f2_adm/PROOFS.md",
+      "notes/pilots_20260806/z1_ternary_mass/PROOFS.md",
+      "notes/pilots_20260806/o1_generating_adversary/PROOFS.md"
+    ],
+    "closure": "proof",
+    "statement": "Non-generating admissible rows (k = ord_n(p) < e): (O1) FALSE by 2^{Theta(n)} twice over — THEOREM ADM-B (LEMMA 3 ratio k/e, t-naming-independent) and THEOREM Z-3 (object-level: Z(L) >= 2^{m(1-(k/e)(tL/n))}), exhibit p = 3 2^41+1 q = p^6 with matching exponents 2^{5n/12}; the F2 lane needs a generation hypothesis the rules do not supply (MAINTAINER, open). Generating rows (exactly three classes by G1/G2): THEOREM Z2 — at k = e LEMMA 3's requirement IS the balance tL >= n, so (O1) survives under the full-subset calibration (C) (<= 184 bits slack) and is FALSE by 2^{n/(L^2 ln 2)} >= 2^{4.84e7} under the exact slice calibration (T*); the 0.0044% between them (banked twice as agreement) is the SIGN of (O1) at zero margin. Kill is parity-reading-A-only; CATCH-H: A is internally forced (proved K1/K2/G trichotomy + the lane's own min(m_j, t/2) text); CATCH-G: the (O1)=>(O2) fence demands the slice — the lane's internal logic points at the false cell. Minimal surviving form: E_{K1}[T_W] = 2^{n/2} Z_1^e exactly, (O1) iff Z_1 <= 2^{o(n)/e}, subject to the two unpinned conventions. FOUR-FACE SEAM: balance = LEMMA 3 = Z-FLOOR vacuity boundary = PP5.0 avg-vs-sum, one inequality on k = e rows; campaign working convention (coordinator ruling 2026-08-06, stricter-reading clause, flagged for maintainer): the SUM reading, both pricings carried. NOT claimed: (O1) itself on generating rows; the maintainer pins; any Z_1 upper bound. Provenance: notes/pilots_20260806/{f2_adm, z1_ternary_mass, o1_generating_adversary}, all coordinator-replayed."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": [
+    {
+      "to": "u2c_giant_tnull_dichotomy"
+    }
+  ]
+}

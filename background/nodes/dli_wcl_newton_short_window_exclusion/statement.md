@@ -61,3 +61,17 @@ and the residual of record is the TEN slot cells; see
 `critical/nodes/dli_wcl_zone_coverage/official_terminal_attack.md` (ten-slot
 section) and `verify_slot_decomposition.py`. The theorem content of this
 node is window-independent and unchanged.
+
+## Addendum (2026-08-06, mint-4, round-18 z1/o1)
+
+1. SCOPE REVERSAL: the char > w hypothesis, which FAILED on the
+   KoalaBear tower (p ~ 2^31 < w), HOLDS on every prize-admissible
+   row (p > m always — the field cap forces it; THEOREM D1/Z-1,
+   blind-convergent in two round-18 pilots). This node's distance
+   law (wt >= 2R+1) therefore applies to the admissible F2 object —
+   the F2<->DLI crosswalk's first dividend. Shift-0 windows only
+   (43 shifted counterexamples on record).
+2. STRENGTHENING (THEOREM Z-2, gifted back): the exclusion holds
+   for ALL integer coefficient vectors with w read as the l1 weight
+   — the {+1,-1} restriction is unnecessary. Same cutoff, same
+   char > w hypothesis.

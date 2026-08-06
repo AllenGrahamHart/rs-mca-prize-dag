@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "esg_lane_rescope",
+    "title": "The (ES-G) terminal re-scope of record: the four-lane unification WITHDRAWN — mutually unsatisfiable field regimes (u2c >= 255.9113 / band low-depth >= 255.99999994 / band 1/16 >= 256 i.e. NEVER / dli RES < 256 strictly by its own H2); per-lane verdicts (u2c pinned the global form correctly; crossing (ES-G)-covered at w >= 2^37, and the w = 2^34 deep-stratum failure was detecting round-18's REAL DSA refutation; band needs a re-posed functional — the q >= 2^209 pin computes the RETIRED per-weight form; dli RES unwired to its own instruments); |Z_w| closed forms banked for all 8 admissible p-classes; the tower-row mechanism (THEOREM Q: extension degree free for the count, e divides log2 p)",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/esg_lane_rescope/statement.md",
+      "notes/pilots_20260806/es_g_lanes/PROOFS.md",
+      "notes/pilots_20260806/es_g_lanes/esg_selftest.py",
+      "notes/pilots_20260806/es_g_lanes/esg_lib.py"
+    ],
+    "closure": "proof",
+    "statement": "The four (ES)/(ES-G)-consuming lanes' field regimes are mutually unsatisfiable (u2c: log2 Q >= 255.9113; band 1/4-1/8 low depth: >= 255.99999994; band 1/16: >= 256 exactly — deficit >= 512 bits at the cap, NEVER; dli RES: < 256 strictly by its proved H2/A2) — the round-15 unification was of statement shape, not regime, and is WITHDRAWN. Per lane: u2c's pin IS the global form verbatim (five round-16 witnesses re-excluded independently); crossing is covered at w >= 2^37 (19/19 admissible pairs) and fails the binding deep stratum at w = 2^34 at ALL 19 (requirement log2 p >= 256 = the cap) — round 18's THEOREM DSA proved this failure was detecting a real refutation at tower rows; band (both nodes) cannot cite (ES-G) at rate 1/16 anywhere or the low-depth 22.5% of 1/4-1/8, and the banked q >= 2^209 pin computes the RETIRED per-weight threshold, 47.5 bits short (re-derive under the adopted functional — round-18's ternary form is the transfer candidate); dli RES is UNWIRED (above balance by its own hypothesis; round-15's 'discharges all four consumers' REFUTED for it). |Z_w| closed forms for all 8 admissible p-classes banked, with the delta = 4 bracket top NEVER attained (33% over-credit) and the w = 2^38/2^39 orbit merge (ratios not w-uniform). Mechanism: THEOREM Q makes extension degree free for the count while e divides log2 p — tower rows are the adversary, confirmed by round 18. NOT claimed: the band effective-base question; the syzygy bracket end; the band pin repair. Provenance: notes/pilots_20260806/es_g_lanes (1,413/0, certified 140-digit comparator; one self-caught float defect), coordinator-replayed."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": [
+    {
+      "to": "u2c_giant_tnull_dichotomy"
+    },
+    {
+      "to": "rate_half_list_adjacent_crossing"
+    },
+    {
+      "to": "xr_band_high_window_exclusion"
+    },
+    {
+      "to": "dli_prime_weighted_large_block_support"
+    }
+  ]
+}

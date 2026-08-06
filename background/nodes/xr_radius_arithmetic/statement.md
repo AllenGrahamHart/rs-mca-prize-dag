@@ -11,3 +11,20 @@ FULL VERDICT (wave 1, 215/215 checks — CORRECTING the premature 's*=1' reading
 ## Ledger (migrated notes)
 
 UNBLOCKED: c(s,t) = min(s,t-1) pinned — QX.14 is RUNNABLE NOW. Ledger reach resolved in principle: s_L = t-1 (full linear reach to the independence plateau); QX.14 determines the much smaller s* the coverage actually needs. | Ball profile N_s = C(j,s)C(n-j,s) proved + exhaustively verified; bulk peak formula verified exactly.
+
+## Addendum (2026-08-06, mint-4, round-17 t_naming)
+
+1. t* (= A - k at the corridor edge) is the SAME OBJECT as
+   rate_half_cyclic_simple_pole_mca_floor's sigma* + 1 (sigma = A-k
+   by (SP2); sigma* = t* - 1 exactly), and the superseding
+   rotated-prefix contract proves the unsafe band 1 <= sigma <=
+   2^34 - 1 — t* sits at 0.50017 of the proved-unsafe reach.
+   Conflict of USE flagged to the maintainer; formal
+   predicate-compatibility unchecked.
+2. THE SLIVER IS RETIRED (forced): {L : t*(L)·L >= n} is EMPTY for
+   every L < 256 (dt*/dL = -3.36e7/bit); the L = 255.9 convention
+   is re-labelled a representative evaluation point of an L-indexed
+   family. NEVER cross-audit this node's (T*) balance against the
+   F2 counting balance — they are different instantiations of one
+   schema (UFMB) and comparisons manufacture phantom
+   inconsistencies of size Delta = n - log2 C(n,n-k-t) - 128.

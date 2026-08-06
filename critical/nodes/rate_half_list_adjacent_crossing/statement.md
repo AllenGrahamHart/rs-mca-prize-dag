@@ -4057,3 +4057,19 @@ Measured: affine rank `s=3`, generalized weights `(9,12,14)`, `z=2`, `g=2`,
 minimum-weight codeword), and **no triple collinear**. Both compilers give cap
 `8` against the actual list size `4` — slack 4, i.e. neither is within a factor
 of two of tight on the only concrete configuration on record.
+
+## Addendum (2026-08-06, mint-4, round 18 — DSA scope note)
+
+THEOREM DSA (background/nodes/crossing_dsa_refutation, witness
+verified at n = 2^41) proves non-structural window members EXIST at
+admissible tower rows (p^{delta_a} < 2^{L-2}; 10 of 19 admissible
+pairs at w = 2^34). Consequence for THIS node: the (ES)-route to
+the count bound is DEAD at those rows; the gamma-shell population
+of the accidents (hence this node's budget question there) is
+RE-OPENED, not decided. At e = 1 prime rows DSA provably cannot
+apply (B* >= 3 forces log2 p >= 129.585 > 126) and the heuristic
+ternary re-pricing gives a 53-61 bit margin. Whether tower rows are
+in the official family is a MAINTAINER question that decides the
+scope of this obligation. Unconditional positive coverage at
+w > 2^37.3131 (256-bit p) via THEOREM CS
+(es_ternary_suppression_instruments).
