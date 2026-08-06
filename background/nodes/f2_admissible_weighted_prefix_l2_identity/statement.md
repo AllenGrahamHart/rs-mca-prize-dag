@@ -34,3 +34,13 @@ Z_1 >= max(1,2^S/p^R),                                 (L2-3)
 and `Z_1<=2^{o(S)}` is equivalent to
 `sum_v N(v)^2<=2^{S+o(S)}`.  This is a restricted weighted odd-prefix
 `L^2` collision statement.  It is not the full max-fiber `(Q)` theorem.
+
+For every nonempty fiber, choose one incidence vector `x_0`.  Since the
+moment matrix is a parity check for the `[S,S-R]` GRS code `C`,
+
+```text
+N(v)=#{c in C: c_s in {-x_0(s),1-x_0(s)} for every s}.        (L2-4)
+```
+
+Thus each `N(v)` is also a full-agreement list-recovery output size for the
+explicit GRS code with coordinate lists of size two.

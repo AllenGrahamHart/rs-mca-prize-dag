@@ -24,7 +24,7 @@ def element_of_order(p: int, order: int) -> int:
     raise AssertionError("no element of requested order")
 
 
-def check_row(p: int, s: int, r: int) -> tuple[int, int]:
+def check_row(p: int, s: int, r: int) -> tuple[int, int, int]:
     assert (p - 1) % (2 * s) == 0
     omega = element_of_order(p, 2 * s)
     columns = [
@@ -33,25 +33,38 @@ def check_row(p: int, s: int, r: int) -> tuple[int, int]:
     ]
 
     fibers: Counter[tuple[int, ...]] = Counter()
+    representatives: dict[tuple[int, ...], int] = {}
     for mask in range(1 << s):
         value = tuple(
             sum(columns[index][j] for index in range(s) if mask >> index & 1) % p
             for j in range(r)
         )
         fibers[value] += 1
+        representatives.setdefault(value, mask)
     collisions = sum(count * count for count in fibers.values())
 
     mass = Fraction(0)
     kernel_words = 0
+    kernel = []
     for eps in itertools.product((-1, 0, 1), repeat=s):
         if all(sum(eps[index] * columns[index][j] for index in range(s)) % p == 0 for j in range(r)):
             weight = sum(value != 0 for value in eps)
             mass += Fraction(1, 1 << weight)
             kernel_words += 1
+            kernel.append(eps)
     assert collisions == (1 << s) * mass
     assert mass >= 1
     assert mass >= Fraction(1 << s, p**r)
-    return collisions, kernel_words
+
+    for value, count in fibers.items():
+        mask = representatives[value]
+        x0 = tuple((mask >> index) & 1 for index in range(s))
+        recovered = sum(
+            all(eps[index] in (-x0[index], 1 - x0[index]) for index in range(s))
+            for eps in kernel
+        )
+        assert recovered == count
+    return collisions, kernel_words, len(fibers)
 
 
 def main() -> None:
@@ -73,7 +86,8 @@ def main() -> None:
     print(
         "F2_ADMISSIBLE_WEIGHTED_PREFIX_L2_IDENTITY_PASS "
         f"rows={len(rows)} collisions={sum(row[0] for row in rows)} "
-        f"kernel_words={sum(row[1] for row in rows)} dag=2/2"
+        f"kernel_words={sum(row[1] for row in rows)} "
+        f"list_fibers={sum(row[2] for row in rows)} dag=2/2"
     )
 
 

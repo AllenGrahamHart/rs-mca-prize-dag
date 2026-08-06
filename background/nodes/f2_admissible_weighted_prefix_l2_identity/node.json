@@ -5,7 +5,7 @@
     "title": "Admissible F2 weighted odd-prefix L2 identity",
     "status": "PROVED",
     "closure": "proof",
-    "statement": "For one admissible prime-field class, if N(v) counts subsets of the half-system with a prescribed first-R odd-moment vector, then Z_1=2^{-S} sum_v N(v)^2 exactly. Equivalently Z_1 is the normalized cosine-product Fourier partition function. Hence Z_1>=max(1,2^S/p^R), and the desired subexponential mass is exactly a near-diagonal L2 collision bound. This is not a full max-fiber Q theorem.",
+    "statement": "For one admissible prime-field class, if N(v) counts subsets of the half-system with a prescribed first-R odd-moment vector, then Z_1=2^{-S} sum_v N(v)^2 exactly. Equivalently Z_1 is the normalized cosine-product Fourier partition function, and each N(v) is a full-agreement list-recovery output size for the explicit [S,S-R] GRS code with coordinate lists of size two. Hence Z_1>=max(1,2^S/p^R), and the desired subexponential mass is exactly a near-diagonal L2 collision bound. This is not a full max-fiber Q theorem or a list-size bound.",
     "refs": [
       "background/nodes/f2_admissible_weighted_prefix_l2_identity/statement.md",
       "background/nodes/f2_admissible_weighted_prefix_l2_identity/proof.md",

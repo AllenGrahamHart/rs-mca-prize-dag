@@ -18080,6 +18080,15 @@ than a full max-fiber `(Q)` theorem.  Upstream terminology should call it a
 restricted weighted odd-prefix L2 instance, not silently identify it with
 the standard unweighted quotient fiber.
 
+Each fiber is also a full-agreement list-recovery instance for the explicit
+`[S,S-R]` GRS code with two allowed symbols per coordinate.  The current
+near-capacity RS literature does not supply this endpoint: Guo--Li--
+Shangguan--Tamo--Wootters prove existence for selected exponentially-large-
+field evaluation sets, and Doron--Venkitesh treat random evaluation points.
+Neither theorem covers this fixed dyadic half-system at essentially zero
+entropy gap.  Import those methods only after an explicit structured-point
+specialization; generic-RS language alone is not a proof.
+
 ```text
 starting pin: ac9d2373; canonical ec542009; upstream main 93fba1be
 lane: F2 / restricted quotient-prefix L2 flatness
@@ -18088,7 +18097,7 @@ DAG status delta: one PROVED supplier; one evidence edge; no target flip
 upstream terminal delta: Q max-fiber implies this instance, converse not claimed
 delta-star bracket movement: none
 new assumptions: none beyond the proved admissible class model
-compute: app ap-Lik7i7u6TSwxHdBhbDIxzK, four complete rows, bounded PASS
+compute: apps ap-Lik7i7u6TSwxHdBhbDIxzK and ap-aKhhNL94Wn8oytoS1Fu1dB, bounded PASS
 next: bound the nonzero Fourier mass or L2 excess on generating rows
 ```
 

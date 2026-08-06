@@ -23,3 +23,16 @@ Modal app `ap-Lik7i7u6TSwxHdBhbDIxzK` returned PASS.  The four rows contained
 4,688 ordered subset collisions and 404 ternary kernel words, with exact
 agreement and the complete DAG contract.  The captured result has SHA-256
 `a4def485e2604a26a38decb915209f1a02e91f2f76574529d8364f4d0181d408`.
+
+## List-recovery audit addendum
+
+After deriving `(L2-4)`, extend the same four-row verifier before rerunning:
+for every nonempty fiber, choose one incidence vector and independently
+count kernel words meeting its induced two-symbol coordinate lists.  Every
+count must equal the fiber size.  The original identity, lower-bound, and
+DAG checks remain mandatory; any mismatch blocks the addendum.
+
+Modal app `ap-aKhhNL94Wn8oytoS1Fu1dB` returned PASS for all 753 nonempty
+fiber/list instances while retaining the original 4,688 collision, 404
+kernel-word, and DAG checks.  The amended captured result has SHA-256
+`74db70af72a1ed57603c8c11acba54a33f9ab943a60ddbe87741740f52f63ddc`.
