@@ -1909,3 +1909,57 @@ instrument matrices at the bank. Standing rules as round 18
   adversary/master pair surfaces. Honest limit: implementation-
   death, not a Z-NOGO-strength no-go.
 - Awaiting: tern_unification_adversary (the round's gate).
+
+## 2026-08-06: round-19 pilot 4 BANKED — ROUND 19 COMPLETE: THE GRADED VERDICT; tern_master_threshold MINTED
+
+- **tern_unification_adversary (Opus) BANKED — THE GATE** (54/54;
+  two self-corrections caught by its own fail-closed gates). THE
+  GRADED VERDICT, ADOPTED OF RECORD: **OBJECT survives** (proved —
+  one negacyclic code, all-odd shift-0 window; PROPOSITION FIB:
+  I1's mass IS a count of binary pairs, my disanalogy (iii) false;
+  the real split = constant-weight vs full-cube); **REGIME survives
+  as satisfiability** (THEOREM SR: an explicit shared admissible
+  256-bit prime row for ALL THREE — the anti-(ES) result; no shared
+  discharge); **METHOD survives but INERT** (verbatim transfers,
+  every one vacuous at its target's tau); **STATEMENT KILLED** by
+  **THEOREM PT — the phase transition**: tau = g log2 p / h puts I1
+  AT tau = 1 (forced by saturation; supercritical — only MASS can
+  be true; CATCH-Z1's re-pin was FORCED by sign(Tcrit)) vs I2/I3 at
+  tau = 2 (subcritical — EMPTINESS the target); the coordinate
+  reproduces FOUR banked constants unfitted. **COROLLARY PT-2 (WATCH
+  LINE)**: the crossing bracket's proved lower endpoint clears the
+  ternary threshold by 0.336 BITS — one step below, prime rows go
+  supercritical; re-run on any bracket change. ADJUDICATIONS:
+  CATCH-19A RE-SCOPED (the official I1 window is ALL-ODD — the 2N
+  orbit constant STANDS for the official object; ssl's collapse is
+  miniature-convention-only; addendum written); I4 DEMOTED (three
+  instances, not four — the (ES)-style inflation caught); the
+  QUARANTINE RULE adopted (blind pilots must not read in-round
+  ledger sections — the porosity was disclosed with an honest
+  timeline; the -46.0249/+17.9751 is now a THREE-way blind
+  convergence); the CRITICALITY-COMPATIBILITY gate adopted as the
+  standing third unification test; CATCH E-3 re-labelled a
+  shared-row property (es_ternary addendum queued). Elevated
+  residual: **the untested cell — constant-weight Z-FLOOR at I2 —
+  the one place a genuinely new instrument might live** (round-20
+  candidate).
+- **tern_master_threshold MINTED** (background, PROVED — the graded
+  form ONLY: object + dictionaries + spine + MT/PT/SR + per-tau
+  targets + the instrument matrix + PT-2 watch line; explicitly NOT
+  a single-theorem target; refs = all four pilot verifiers; ref
+  edges to the three instance nodes). dag 1823/5081 -> 1824/5084;
+  verify PASS; census UNCHANGED.
+
+ROUND-19 NET (4/4): the unification ATTACKED FIRST per the user's
+directive and it SURVIVED IN GRADED FORM — object/regime/method
+proved, single-theorem form killed by a proved phase transition;
+the master node minted gated on the adversary's verdict; route (b)
+died honestly (the F2 terminal has NO named route; open form = the
+tail count; leads = Prop 10 + the constant-weight-Z-FLOOR cell);
+two forced corrections landed on the knife-edge node; the (ES)
+post-mortem toolkit grew a third gate. BOARD: mystery 2's terminal
+= the tail-count criterion at tau = 1 (no named route; two leads);
+crossing low-w = emptiness at tau = 2 with the official primes in
+the SP/CS gap + the PT-2 cliff on the watch line; the maintainer
+stack unchanged and still the highest-leverage item (the Przemek
+note next).

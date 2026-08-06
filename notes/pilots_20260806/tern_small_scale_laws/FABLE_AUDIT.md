@@ -78,3 +78,15 @@ building formally — the unification survives at the OBJECT and
 DICTIONARY level, fails at the TRANSPORTED-HEURISTIC level, and its
 instances live on provably disjoint parameter strata. Reconcile
 with the adversary's A1-A4 at its bank.
+
+## ADDENDUM (2026-08-06, coordinator, from the round-19 adversary bank)
+
+CATCH-19A is RE-SCOPED: the official I1 window of record is ALL-ODD
+(z1 PROOFS:87-94, Lambda = {odd l <= t} from l = 1), which IS
+negacyclic-closed — the 2N orbit constant STANDS for the official F2
+object. The collapse-to-2 applies to THIS pilot's consecutive-window
+miniature convention (T = {a..a+R-1}, mixed parity) only — the second
+scope slip from the same root cause as the shift-0 projection (the
+I1-mini dictionary differs from the official window). The MECHANISM
+(negacyclic iff all-odd T) is confirmed and banked; it is what makes
+the official window choice load-bearing.
