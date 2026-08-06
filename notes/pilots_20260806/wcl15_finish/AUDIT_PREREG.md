@@ -48,3 +48,18 @@ this preregistration.
 tools/ramguard modal -- modal run \
   notes/pilots_20260806/wcl15_finish/prime_vocabulary_inventory_modal.py
 ```
+
+## Operational null run
+
+App `ap-8BYMKPa1sEwm7704oy8pjj` was canceled before producing an output after
+the WSL client missed its Modal heartbeat for 88 seconds.  Modal killed the
+remote input when the local client disconnected; no result file was written,
+so this is not an experimental outcome.  One detached replacement using the
+identical committed code and resource ceiling is authorized.  Its result is
+retrieved from the separately named audit path on the volume; no second
+mathematical retry is authorized.
+
+```text
+tools/ramguard modal -- modal run --detach \
+  notes/pilots_20260806/wcl15_finish/prime_vocabulary_inventory_modal.py
+```
