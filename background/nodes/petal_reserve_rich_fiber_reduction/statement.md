@@ -65,3 +65,15 @@ fiber of size `Omega(n/log^2 n)` inside one petal.
 This is a reduction, not a count of rich fibers. It does not prove that every
 rich fiber is quotient-periodic or that all such fibers have polynomial total
 multiplicity.
+
+## Addendum 2026-08-03 — false-friend guard (`ell` here is a petal size)
+
+Subtraction check against upstream PRs #1145/#1146 (maelcar, UNMERGED).
+`verify.py` contains the literal `ell = 11`. This is NOT the maelcar
+`ell = 11` (the order of a subgroup `H <= F_p^*` with `p = 1 mod 11`). Here
+`ell` is the SUNFLOWER PETAL SIZE `ell = sigma + 1`, and the literal 11 is a
+mutation-control constant for the two load-bearing strict inequalities — not
+a fixture, not a group order, and not tied to any prime. Because this node is
+`ev` for `petal_mixed_amplification` and `imgfib`, a token-level grep for
+`ell = 11` while scoring L1 coverage would hit it spuriously. Do not score it
+as coverage of, or as covered by, any `ell = 11` result.

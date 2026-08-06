@@ -212,3 +212,16 @@ outside this interface.
 
 The existing clean-rate corridor ledger does not cover rate `1/2`, and the
 rate-half MCA node is a different counting object.
+
+## Addendum 2026-08-03 — do not price maelcar #1148 into this target
+
+External evidence, unmerged: PR #1148 (maelcar), head `7b21de0e...`,
+UNREPLAYED sieves. Its M31 affine syndrome-locator hull rigidity looks
+adjacent to this target and is NOT to be priced into it. Our supplier
+`rate_half_list_chamber_affine_rank_bridge` is a PROVED route fence showing
+the locator-side-to-codeword-side bridge does not fire (0/13 chambers). #1148
+is locator-side and ships no incidence-to-codeword map, so it moves nothing
+here. Separately, `upstream_gfv4_affine_span_list_compiler` (PROVED) at
+direction dimension 15 on our M31 row yields a cap ~7.5e17 — numerically
+vacuous against 16 vertices, so we neither already have their bite nor
+duplicate their compiler.

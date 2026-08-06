@@ -18,9 +18,13 @@ in-repo and are not the ask.
   Successor posted: SOL_TARGET_3C_PRIMITIVE_CENSUS.md — MECHANICALLY
   EXTRACTED from the live consumer, 32/32 adversarial checklist,
   every known falsifier family provably fails its hypotheses. OPEN.
-- SOL_TARGET_4_H4_COLLISION_CENSUS.md — the next ladder rung above
-  two proved predecessors (h=2 Heath-Brown--Konyagin, h=3 char-0
-  classification)
+- SOL_TARGET_4_H4_COLLISION_CENSUS.md — REFUTED AS WRITTEN
+  (2026-08-03, Modal ap-sx9plNuGHtzGtGYisoYrh0): T_4/N^3 = 103.07 at
+  the fully admissible index-1 row (N,q) = (256,257); no absolute C
+  survives (ratio ~ N^2/576 at index 1). Reprice with C(index)
+  decreasing or an index floor — see the dated falsification appendix
+  in the census file. Ladder context retained: two proved
+  predecessors (h=2 Heath-Brown--Konyagin, h=3 char-0 classification)
 
 Context, if wanted: notes/f2_campaign/FINDINGS.md (one page),
 notes/floor_campaign/pro_briefs/PRO_FLOOR_2_F2_SUMMIT_V4.md (the

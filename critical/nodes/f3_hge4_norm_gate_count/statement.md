@@ -728,3 +728,19 @@ whose correctly stripped F-4-minimal norm-gate aggregate is greater than
   overlap or control widths below its cutoff.
 - Reopening F-4 minimality changes the counted object and requires DAG
   surgery.
+
+## Addendum 2026-08-03 — the `p >= n^2` corridor guard is load-bearing
+
+Ours. Modal run `ap-sx9plNuGHtzGtGYisoYrh0`; result
+`experiments/prize_resolution/sol_target4_n256_result.json` (sha256
+`27ed261e...`); commit `8d6f1aeb`.
+
+This node's statement is scoped to "every prime `p = 1 mod n` with
+`p >= n^2`". That guard is now known to be load-bearing rather than
+conventional. The sibling `n^3`-shaped counting statement over the same
+family but WITHOUT the guard (`SOL_TARGET_4_H4_COLLISION_CENSUS.md`,
+`T_4 <= C N^3`, hypotheses only `N | q-1`) is FALSE: at the admissible
+index-1 row `N = 256, q = 257` the exact census gives `T_4/N^3 = 103.07`,
+and the index-1 ratio grows as `~N^2/576` by first-moment pigeonhole into
+`q^3 ~ N^3` keys. Do not weaken or drop the corridor hypothesis here, and do
+not import any `n^3` census bound that lacks an index/corridor guard.
