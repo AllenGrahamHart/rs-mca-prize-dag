@@ -11689,3 +11689,43 @@ the matching enumeration, two boundary profiles, exact missing-role identity,
 and hostile count mutations.  PASS promotes only
 `rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion`;
 1536 raw cell-14 outside cases remain open.
+
+### 2026-08-06 XR fiber-rigidity boundary fixture
+
+**Decision.**  Test the proposed field-independent `(FR)` mechanism for
+`xr_band_forced_commonroot_syzygy_count` on one exact smooth boundary
+fixture.  The construction has `q=193`, `n=64`, `k=4`, `d=13`, `h=18`,
+`ell=2`, and `r=h-d=2ell+1=5`.  The remote task exhausts all
+`C(64,4)=635376` interpolation anchors and all 194 projective slopes, checks
+the global tangent ceiling, and applies the normative lexicographic
+first-match selector.
+
+**Scope.**  PASS with split selected blocks falsifies only the broad
+field-independent/THEOREM-R-style reading of `(FR)`.  It does not falsify an
+official-row conjecture restricted to the first unpaid affine dimensions or
+post-envelope profiles.  The preregistration and full adjudication are in
+`notes/pilots_20260804/fiber_rigidity/`.
+
+**Execution.**  The packaging-only app
+`ap-3mwM41d1SzL3tjsBGyEZoG` failed before mathematical work began and was
+stopped.  Primary app `ap-z6h81Tc1oAr9HAKqIdbkxZ` completed and stopped
+normally.  It exhausted all 635,376 anchors, retained 631,833 canonical
+codeword pairs, found global maximum 22, exactly two live slopes, and
+`L_P=2`; both selected blocks have profile `(2,1,1,1)`.  Certificate SHA-256
+is
+`91248465187ab72abd9cbb4e9debe6e0feef9e52d26afed7fb568a0826680ec2`.
+
+Independent-audit app `ap-wQGFHF5dPs7XXgZEBMq9cC` completed and stopped
+normally.  Its checker imports no constructor code, rebuilds all structural
+algebra, repeats the complete anchor/slope scan, agrees on all per-slope
+maxima and first-match supports, and rejects twelve hostile mutations.
+
+```text
+XR_FIBER_RIGIDITY_BOUNDARY_COUNTEREXAMPLE_PASS seed=20260806 subsets=635376 canonical_pairs=631833 live=2 Lp=2 profiles=2,1,1,1/2,1,1,1
+XR_FIBER_RIGIDITY_INDEPENDENT_AUDIT_PASS full_scan=true mutations=12
+```
+
+**Effect.**  The broad mechanism is refuted, while the official
+post-envelope `(FR)` remains open.  No DAG status or edge changes.  A repaired
+statement must use an explicit official-subgroup, high-affine, or
+post-envelope hypothesis; local primitive equations alone are insufficient.

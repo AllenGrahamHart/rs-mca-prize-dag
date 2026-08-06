@@ -17791,6 +17791,35 @@ verifier: exact 530/495-term identity, 128-map Burnside count, small-field iff
 compute: local exact arithmetic under RAMguard; no Modal
 next: exploit Psi under q=1 mod 2^41; do not resume blind norm factorization
 ```
+
+### XR broad fiber-rigidity route fence
+
+The round-13 syzygy audit proposed `(FR)`: selected blocks at the
+tuple-incidence boundary should be complete `phi=[P:Q]` fibers plus at most
+one point.  An exact scaled smooth fixture shows that this does not follow
+from primitive deficiency, maximality, tangent saturation, active-defect
+locality, `sigma=0`, and the normative first-match selector alone.  Its two
+selected blocks both have profile `(2,1,1,1)` across five two-point fibers.
+
+The primary and independently implemented scans each exhausted all
+`C(64,4)=635376` interpolation anchors and all 194 projective slopes; twelve
+hostile certificate mutations were rejected.  The fixture has affine target
+dimension zero and is not an official prize row, so the official first-unpaid
+post-envelope `(FR)` remains open.  The result narrows the permissible proof
+route: a repaired statement must explicitly consume official-subgroup,
+high-affine, or post-envelope structure.
+
+```text
+starting pin: 1065918d; canonical 9c3a6d90; upstream main 93fba1be
+node: xr_band_forced_commonroot_syzygy_count [TARGET]
+result: broad field-independent (FR) FALSIFIED; official scoped (FR) OPEN
+DAG status delta: none
+upstream terminal delta: none
+delta-star bracket movement: none
+new assumptions: none
+compute: two bounded exact Modal apps, both stopped; independent full replay
+next: formulate and attack official first-unpaid post-envelope (FR), not generic local forcing
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
