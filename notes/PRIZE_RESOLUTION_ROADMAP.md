@@ -19073,6 +19073,45 @@ new assumptions: none
 compute: small exact convention replay only; no Modal spend
 next: attack the local nonconstant split-difference incidence sum at d>=1
 ```
+
+### Upstream SP harvest: exact coefficient-scale quotient sieve
+
+Upstream main already contains a fully proved SP subcase in
+`experimental/grande_finale_work/sp_next_section.tex`.  An independent local
+proof and exact replay now bank it as
+`upstream_sp_coefficient_scale_quotient_sieve`.
+
+For a cyclic multiplicative coset, coefficient gaps characterize subgroup
+periodicity exactly.  A shift pair with maximal common coefficient scale
+`c>1` descends uniquely by
+
+```text
+(n,e,t,d) -> (n/c,e/c,ceil((t+1)/c)-1,d/c).
+```
+
+The maximal quotient pair is coefficient-primitive.  In particular
+`c|gcd(n,e,d)`, so at local dyadic length `2^41` every quotient-borne
+nonconstant pair lies in the even-`e`, even-`d` branch.  All common-scale
+mass can therefore be assigned to the quotient owner before the local SP
+incidence count.
+
+This is a sieve, not a bound.  The X4 residue is now precisely the
+coefficient-primitive part of `D_0+sum_(d>=1)D_d`.  The open upstream PR
+`#1150` is a draft correction to the separate F2/max-fiber bridge and does
+not supply an SP estimate; no unreviewed PR premise is consumed here.
+
+```text
+starting pin: 9c478e255; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs relevant to this cycle: #1150 draft (F2/u2c-adjacent, no SP supplier)
+lane: LIST / primitive SP quotient sieve
+result: HARVESTED exact maximal coefficient-scale quotient extraction
+DAG status delta: +1 background PROVED import; critical target unchanged
+upstream terminal delta: one upstream SP structural subcase independently banked locally
+delta-star bracket movement: none
+new assumptions: cyclic multiplicative-coset domain and char not dividing n
+compute: 256-subset and 553-pair exact local replay; no Modal spend
+next: bound coefficient-primitive nonconstant split-difference incidence locally
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

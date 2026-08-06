@@ -48,6 +48,19 @@ Thus a minimal-record theorem can pay only `D_0`; the nonconstant
 low-degree-difference residue must still be bounded.  A direct bound on all
 `D_d` is the preferred route and is exactly the local primitive SP problem.
 
+On a cyclic multiplicative-coset row, the proved coefficient-scale quotient
+sieve removes every pair with common coefficient scale `c>1`, descending it
+to depth `ceil((t+1)/c)-1`.  It also gives
+
+```text
+c | gcd(N,e,d).
+```
+
+Hence at the official dyadic base length every quotient-borne nonconstant
+pair has even `e` and even `d`.  After this maximal-scale first owner, the
+live direct incidence problem is the coefficient-primitive part of every
+`D_d`; the sieve supplies no bound on that residue.
+
 For a quotient row consumed through `TR`, replace `(N,K,q,t,A)` by the exact
 transported tuple emitted by that compiler and use its own `16N^3` allowance.
 No base-row numerical bound transports merely from the algebraic dictionary;

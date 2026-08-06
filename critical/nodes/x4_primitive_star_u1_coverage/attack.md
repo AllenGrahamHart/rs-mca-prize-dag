@@ -12,19 +12,24 @@
    branch is exactly the F-4 minimal ledger.  The live direct residue is
    `d>=1`, where `e>=t+d+1` and `L_P-L_Q` is a nonconstant polynomial of
    degree `d`.
-5. Direct route: prove that the sum over all surviving `d` is at most
+5. Apply `upstream_sp_coefficient_scale_quotient_sieve` on multiplicative
+   coset rows.  Extract the maximal common coefficient scale before counting.
+   At dyadic length an imprimitive nonconstant pair lies in the even-`e`,
+   even-`d` branch; odd `e` or odd `d` is automatically coefficient-primitive.
+6. Direct route: prove that the sum over all surviving coefficient-primitive
+   `d` is at most
    `16N^3-1`.  Start with low `d`, where the problem is an explicit split
    low-degree-difference incidence, but do not infer a tail bound from finitely
    many `d`.
-6. Optional split route: bound `D_0` with a row- and strip-compatible minimal
+7. Optional split route: bound `D_0` with a row- and strip-compatible minimal
    theorem, then give a separate allowance for `sum_(d>=1)D_d`.  Universal
    minimalization and subset peeling are unavailable by
    `x4_general_star_minimal_trade_route_cut`.
-7. Audit orientation, common-core multiplicity, quotient transport, and every
+8. Audit orientation, common-core multiplicity, quotient transport, and every
    strip boundary.  Any multiplicity above one must be charged in the final
    summed budget.
 
-The next proof attempt should attack the nonconstant low-degree-difference
-incidence locally.  This is upstream's SP2 route at the correct maximum-degree
-quantifier.  Minimal-stratum results remain useful evidence but are not
-mandatory dependencies.
+The next proof attempt should attack the coefficient-primitive nonconstant
+low-degree-difference incidence locally.  This is upstream's SP2 route at the
+correct maximum-degree quantifier.  Minimal-stratum results remain useful
+evidence but are not mandatory dependencies.

@@ -28566,6 +28566,27 @@
    ]
   },
   {
+   "id": "upstream_sp_coefficient_scale_quotient_sieve",
+   "title": "Coefficient-scale quotient sieve for primitive shift pairs",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a subset S of a cyclic multiplicative coset D=alpha H, the maximal divisor c|n for which S is a union of order-c subgroup orbits equals gcd(n,e,{j:lambda_j(L_S)!=0}); equivalently L_S(X)=L_bar(X^c). A disjoint depth-t shift pair with maximal common coefficient scale c>1 descends uniquely to degree e/c and depth ceil((t+1)/c)-1, with deg(A-B)=c deg(A_c-B_c), and the maximal quotient pair is coefficient-primitive. Conversely every coefficient-primitive quotient pair pulls back with maximal common scale c. Hence every quotient-borne pair has c|gcd(n,e,deg(A-B)); at dyadic length 2^41 an imprimitive nonconstant pair has even e and even difference degree.",
+   "refs": [
+    "background/nodes/upstream_sp_coefficient_scale_quotient_sieve/statement.md",
+    "background/nodes/upstream_sp_coefficient_scale_quotient_sieve/proof.md",
+    "background/nodes/upstream_sp_coefficient_scale_quotient_sieve/claim_contract.md",
+    "background/nodes/upstream_sp_coefficient_scale_quotient_sieve/audit.md",
+    "background/nodes/upstream_sp_coefficient_scale_quotient_sieve/result.md",
+    "background/nodes/upstream_sp_coefficient_scale_quotient_sieve/dependency_subdag.md",
+    "background/nodes/upstream_sp_coefficient_scale_quotient_sieve/lineage.md",
+    "background/nodes/upstream_sp_coefficient_scale_quotient_sieve/verify.py"
+   ],
+   "upstream": {
+    "label": "lem:sp-next-periodicity-equivalence; thm:sp-next-maximal-extraction",
+    "relation": "IDENTICAL"
+   }
+  },
+  {
    "id": "x4_exact_slice_f2_guard_route_cut",
    "title": "Official exact-slice depths miss the generated-field F2 guard by 129 bits",
    "status": "PROVED",
@@ -28732,7 +28753,7 @@
    "title": "Primitive exact-list local general-star budget",
    "status": "TARGET",
    "closure": "open",
-   "statement": "At an official base row let N=2^41, K=rho N, t=t_XR=min{0<=j<=N-K:q^j>=2^128 binom(N,N-K-j)}, and A=K+t. Fix the same support-wise first-match map as the final LIST ledger. For every primitive residual full locator-prefix fiber F_z^prim and base support S0, S maps injectively to (S\\S0,S0\\S), a general order-t star-PTE record. Prove |F_z^prim|-1<=16N^3-1 uniformly over official fields and domains. The exact difference-degree partition writes this local degree as D_0+sum_{d>=1}D_d, where d=deg(L_P-L_Q), D_0 is precisely the F-4 minimal constant-shift stratum, and d>=1 implies side width e>=t+d+1. Minimal-record results can pay only D_0; the nonconstant residue needs its own bound. Transported quotient rows use their exact compiler-emitted tuple and own allowance and must appear in the final table.",
+   "statement": "At an official base row let N=2^41, K=rho N, t=t_XR=min{0<=j<=N-K:q^j>=2^128 binom(N,N-K-j)}, and A=K+t. Fix the same support-wise first-match map as the final LIST ledger. For every primitive residual full locator-prefix fiber F_z^prim and base support S0, S maps injectively to (S\\S0,S0\\S), a general order-t star-PTE record. Prove |F_z^prim|-1<=16N^3-1 uniformly over official fields and domains. The exact difference-degree partition writes this local degree as D_0+sum_{d>=1}D_d, where d=deg(L_P-L_Q), D_0 is precisely the F-4 minimal constant-shift stratum, and d>=1 implies side width e>=t+d+1. The coefficient-scale quotient sieve removes every common scale c>1 and gives c|gcd(N,e,d); the remaining direct residue is coefficient-primitive. Neither structural theorem bounds that residue. Transported quotient rows use their exact compiler-emitted tuple and own allowance and must appear in the final table.",
    "falsifier": "A consumed official or quotient row with a correctly stripped primitive full-prefix fiber containing more than 16N^3 actual LIST supports at that row's own scale under the declared first-owner map.",
    "refs": [
     "critical/nodes/x4_primitive_star_u1_coverage/statement.md",
@@ -28741,7 +28762,8 @@
     "critical/nodes/x4_primitive_star_u1_coverage/dependency_subdag.md",
     "critical/nodes/x4_primitive_star_u1_coverage/row_scope.md",
     "background/nodes/x4_general_star_minimal_trade_route_cut/statement.md",
-    "background/nodes/x4_general_shiftpair_difference_degree_partition/statement.md"
+    "background/nodes/x4_general_shiftpair_difference_degree_partition/statement.md",
+    "background/nodes/upstream_sp_coefficient_scale_quotient_sieve/statement.md"
    ],
    "upstream": {
     "source": "rs-mca v13 prob:capg-active-shiftpairs local primitive SP input",
@@ -54357,6 +54379,11 @@
    "from": "upstream_gfv4_affine_span_list_compiler",
    "to": "xr_deficient_window_mixed_core_block_payment",
    "kind": "req"
+  },
+  {
+   "from": "upstream_sp_coefficient_scale_quotient_sieve",
+   "to": "x4_primitive_star_u1_coverage",
+   "kind": "ev"
   },
   {
    "from": "v13_prefix_collision_ledger",

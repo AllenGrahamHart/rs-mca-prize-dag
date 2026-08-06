@@ -13,10 +13,14 @@
   record mass and not MCA slopes.
 - **Exact partition:** `d=0` is the F-4 minimal part; `d>=1` is a disjoint
   nonminimal low-degree-difference residue.
+- **Exact quotient sieve:** on cyclic coset rows, common coefficient scale
+  `c>1` is quotient-borne and satisfies `c|gcd(N,e,d)`; the residual pair is
+  coefficient-primitive.
 - **Optional route:** a compatible F-4 minimal bound plus an independently
   priced `d>=1` residue.
 - **Nonclaims:** `u1` is required; general records are automatically minimal;
   a global second moment controls the maximum; a base-row number transports
-  to every quotient row; or QA.22 is a LIST bound.
+  to every quotient row; coefficient-primitivity bounds the residue; or QA.22
+  is a LIST bound.
 - **Falsifier:** one correctly stripped consumed fiber with more than
   `16N^3` members at its own row scale.

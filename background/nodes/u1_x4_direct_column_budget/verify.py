@@ -58,7 +58,8 @@ def main():
     coverage_statement = coverage["node"]["statement"]
     assert "general order-t star-PTE record" in coverage_statement
     assert "D_0+sum_{d>=1}D_d" in coverage_statement
-    assert "nonconstant residue needs its own bound" in coverage_statement
+    assert "remaining direct residue is coefficient-primitive" in coverage_statement
+    assert "Neither structural theorem bounds that residue" in coverage_statement
     assert "16N^3-1" in coverage_statement
     assert {edge["to"] for edge in u1.get("evidence_for", [])} == {
         "x4_primitive_star_u1_coverage"
@@ -78,6 +79,13 @@ def main():
     assert partition["node"]["status"] == "PROVED"
     assert "d=0 if and only if" in partition["node"]["statement"]
     assert {edge["to"] for edge in partition.get("evidence_for", [])} == {
+        "x4_primitive_star_u1_coverage"
+    }
+
+    quotient_sieve = load_node("upstream_sp_coefficient_scale_quotient_sieve")
+    assert quotient_sieve["node"]["status"] == "PROVED"
+    assert "c|gcd(n,e,deg(A-B))" in quotient_sieve["node"]["statement"]
+    assert {edge["to"] for edge in quotient_sieve.get("evidence_for", [])} == {
         "x4_primitive_star_u1_coverage"
     }
 
