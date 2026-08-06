@@ -28180,6 +28180,23 @@
    ]
   },
   {
+   "id": "f2_admissible_weighted_prefix_l2_identity",
+   "title": "Admissible F2 weighted odd-prefix L2 identity",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For one admissible prime-field class, if N(v) counts subsets of the half-system with a prescribed first-R odd-moment vector, then Z_1=2^{-S} sum_v N(v)^2 exactly. Equivalently Z_1 is the normalized cosine-product Fourier partition function. Hence Z_1>=max(1,2^S/p^R), and the desired subexponential mass is exactly a near-diagonal L2 collision bound. This is not a full max-fiber Q theorem.",
+   "refs": [
+    "background/nodes/f2_admissible_weighted_prefix_l2_identity/statement.md",
+    "background/nodes/f2_admissible_weighted_prefix_l2_identity/proof.md",
+    "background/nodes/f2_admissible_weighted_prefix_l2_identity/audit.md",
+    "background/nodes/f2_admissible_weighted_prefix_l2_identity/claim_contract.md",
+    "background/nodes/f2_admissible_weighted_prefix_l2_identity/dependency_subdag.md",
+    "background/nodes/f2_admissible_weighted_prefix_l2_identity/result.md",
+    "background/nodes/f2_admissible_weighted_prefix_l2_identity/verify.py",
+    "notes/pilots_20260806/f2_weighted_prefix_l2/node_verify_result.json"
+   ]
+  },
+  {
    "id": "f2_all_admissible_o1_mass_bound",
    "title": "All-admissible-row F2 O1 mass bound",
    "status": "REFUTED",
@@ -53514,6 +53531,11 @@
   },
   {
    "from": "f2_admissible_direct_sum_grs_reduction",
+   "to": "f2_admissible_weighted_prefix_l2_identity",
+   "kind": "req"
+  },
+  {
+   "from": "f2_admissible_direct_sum_grs_reduction",
    "to": "f2_all_admissible_o1_mass_bound",
    "kind": "req"
   },
@@ -53524,6 +53546,11 @@
   },
   {
    "from": "f2_admissible_newton_signed_distance",
+   "to": "f2_conditional_close",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_admissible_weighted_prefix_l2_identity",
    "to": "f2_conditional_close",
    "kind": "ev"
   },

@@ -18059,6 +18059,39 @@ compute: app ap-lOOp59znUr1hMtB85YraY7, 328,240 checks, bounded PASS
 next: subtract canonical Round-18 reports, then attack weighted counts above 2R
 ```
 
+### Admissible F2 weighted-prefix L2 identity
+
+The explicit ternary mass is now identified exactly with a second moment.
+For the odd-moment subset map `Phi` on one half-system, let `N(v)` be its
+fiber sizes.  Removing the common intersection of an ordered pair of
+subsets gives a ternary kernel word, and adding an arbitrary common
+intersection reverses the map.  Therefore
+
+```text
+Z_1 = 2^-S sum_v N(v)^2.
+```
+
+Finite Fourier inversion gives the equivalent cosine-product partition
+function over the `R`-dimensional family of odd polynomials.  The zero mode
+is `2^S/p^R`, so the same identity explains why non-generating rows fail at
+the entropy-average level.  On generating rows, the remaining theorem is
+near-diagonal L2 collision mass `sum_v N(v)^2<=2^{S+o(S)}`.  This is weaker
+than a full max-fiber `(Q)` theorem.  Upstream terminology should call it a
+restricted weighted odd-prefix L2 instance, not silently identify it with
+the standard unweighted quotient fiber.
+
+```text
+starting pin: ac9d2373; canonical ec542009; upstream main 93fba1be
+lane: F2 / restricted quotient-prefix L2 flatness
+result: exact ternary-mass/collision/Fourier identity, PROVED
+DAG status delta: one PROVED supplier; one evidence edge; no target flip
+upstream terminal delta: Q max-fiber implies this instance, converse not claimed
+delta-star bracket movement: none
+new assumptions: none beyond the proved admissible class model
+compute: app ap-Lik7i7u6TSwxHdBhbDIxzK, four complete rows, bounded PASS
+next: bound the nonzero Fourier mass or L2 excess on generating rows
+```
+
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
