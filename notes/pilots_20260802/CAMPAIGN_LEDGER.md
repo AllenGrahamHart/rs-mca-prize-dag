@@ -2046,3 +2046,36 @@ mysteries' post-rulings frontier covered: the gamma-shell question
 (crossing/prize-level), the F2 re-pose + terminal, the prime-row
 gap, with the band re-pose queued behind the ternary-functional
 outcome.
+
+## 2026-08-06: WAVE-47 AUDIT LAUNCHED (Codex, from pin 88238fd0 — audit head PINNED at 48fc9efcf)
+
+Codex has been merging canonical continuously (through fed71a06b)
+and working the SAME F2 terminal in real time — AND IS LIVE NOW
+(a newer commit f8ad8cb5e "Record F2 selector transport handoff" +
+uncommitted pilot results appeared during the survey; post-pin work
+queues for wave 48 per protocol). Two streams, two Opus auditors
+(drafts to WAVE47_{F2,WCL}_DRAFT.md):
+- **F2 STREAM**: a NEW CRITICAL NODE f2_conditional_close + eight
+  new background nodes (the admissible direct-sum/GRS reductions,
+  the weighted prefix L2 identity, the kernel collision floor, the
+  max-fiber sandwich, the all-admissible o1 mass bound, and a
+  minted CS supplier rate_half_crossing_ideal_galois_multiplicity_
+  exclusion) + the route repair + the generated-field descent
+  commits. KEY AUDIT QUESTIONS: soundness/replay; consistency with
+  our minted rounds-16-19 nodes AND with the 2026-08-06 rulings
+  (which POSTDATE Codex's latest commits); collisions with the
+  RUNNING f2_repose pilot (reconcile at that pilot's bank).
+- **WCL + REMAINDER**: the WCL hard-tail certificate stream (CADO
+  runs + self-contained certificates + slot-emptiness proofs +
+  batch replays); the crossing/band/l1 critical-node edits
+  (BOTH-diff-direction clobber check vs our addenda); roadmap/
+  compute-request/work_cycles repricing; Codex's own pilot dirs.
+
+PROCESS NEAR-MISS, disclosed: the coordinator's launch ledger entry
+was briefly committed ONTO CODEX'S BRANCH (cwd drift into the
+worktree — the third cwd incident; the standing absolute-path rule
+was violated by the coordinator). Repaired within minutes: the
+stray commit removed (git reset + ledger checkout), Codex's own
+newer commit and dirty in-flight state fully preserved, verified
+clean. RULE HARDENED: every worktree-inspection command uses
+git -C <path>; the coordinator shell never cd's into a worktree.
