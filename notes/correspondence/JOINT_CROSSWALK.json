@@ -536,11 +536,11 @@
     "does not identify these fibers with def:q-row-atom"
    ],
    "status_ours": "PROVED",
-   "status_his": "draft PR #1150 at e6ad4142",
+   "status_his": "draft PR #1150 at 8d89959b",
    "lean": null,
    "provenance": {
     "our_sha": "f6fba9ad5",
-    "his_sha": "e6ad4142"
+    "his_sha": "8d89959b"
    }
   },
   {
@@ -556,11 +556,11 @@
     "does not transport the pruned first-match owner in def:q-row-atom"
    ],
    "status_ours": "PROVED",
-   "status_his": "draft PR #1150 at e6ad4142",
+   "status_his": "draft PR #1150 at 8d89959b",
    "lean": null,
    "provenance": {
     "our_sha": "117e84c09",
-    "his_sha": "e6ad4142"
+    "his_sha": "8d89959b"
    }
   },
   {
@@ -572,20 +572,20 @@
    },
    "relation": "OVERLAP",
    "chain": "f2_antipodal_selector_prefix_transport",
-   "scope": "every F2 full-cube fiber injects into the central half-size depth-2R instance of the ordinary split-locator prefix fiber",
+   "scope": "every F2 full-cube fiber injects into the central half-size depth-2R instance of the ordinary split-locator prefix fiber; every official selector is aperiodic, so the quotient-periodic bucket is absent on these images",
    "owner": "JOINT",
    "nonclaims": [
     "does not prove master split-locator flatness",
     "does not instantiate the upstream normalized band",
-    "does not align quotient/common-divisor removals with F2 structured owners",
+    "does not pay the common-divisor/first-match seam for the F2 structured owners",
     "does not identify the deployed pruned def:q-row-atom family"
    ],
    "status_ours": "PROVED",
-   "status_his": "open; transport in draft PR #1150 at e6ad4142",
+   "status_his": "open; transport and aperiodicity corollary in draft PR #1150 at 8d89959b",
    "lean": null,
    "provenance": {
-    "our_sha": "48fc9efcf",
-    "his_sha": "e6ad4142"
+    "our_sha": "75b97465c",
+    "his_sha": "8d89959b"
    }
   },
   {

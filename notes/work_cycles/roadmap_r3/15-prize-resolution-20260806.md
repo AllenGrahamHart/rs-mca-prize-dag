@@ -628,21 +628,24 @@ matrix, up to invertible row scalings, and generated-field invariance covers
 all ambient extensions.
 
 This makes upstream `prob:capfr1-master-flatness` a literal common theorem
-target rather than an analogy. It does not yet instantiate the upstream
-normalized band or match its quotient/common-divisor removals to the F2
-structured owners. Nor does it identify the deployed pruned
-`def:q-row-atom` family. The transport is exported in draft PR `#1150` at
-`e6ad4142`; its replay now has 33,355 checks and a warning-free seven-page
-TeX build.
+target rather than an analogy. Moreover, every official selector is
+aperiodic in the upstream sense: every nontrivial subgroup of the cyclic
+`mu_(2m)` contains `-1`, whereas a selector and its negative are disjoint.
+The quotient-periodic support bucket is therefore absent on the transported
+F2 images. It does not yet instantiate the upstream normalized band or pay
+the common-divisor/first-match owner seam. Nor does it identify the deployed
+pruned `def:q-row-atom` family. The transport and aperiodicity corollary are
+exported in draft PR `#1150` at `8d89959b`; its replay now has 33,627 checks
+and a warning-free seven-page TeX build.
 
 ```text
-starting pin: 48fc9efcf; canonical fed71a06; upstream main 93fba1be
+starting pin: 75b97465c; canonical fed71a06; upstream main 93fba1be
 lane: F2 / master split-locator flatness
-result: every F2 cube fiber injects into an ordinary central depth-2R split-locator prefix fiber
+result: every F2 cube fiber injects into an ordinary central depth-2R split-locator prefix fiber; every official selector is aperiodic
 DAG status delta: +1 PROVED supplier; F2 target remains TARGET
-upstream terminal delta: draft #1150 extended with selector transport at e6ad4142
+upstream terminal delta: draft #1150 extended with selector transport and aperiodicity at 8d89959b
 delta-star bracket movement: none
 new assumptions: none in the transport; master flatness and owner deployment remain open
-compute: three tiny exhaustive cyclic fields, 28,754 local checks; no Modal spend
-next: instantiate prob:capfr1-master-flatness at the transported parameters and align quotient/common-divisor owners with F2 structure
+compute: three tiny exhaustive cyclic fields, 29,026 local checks; no Modal spend
+next: instantiate prob:capfr1-master-flatness at the transported parameters and pay the common-divisor/first-match owner seam
 ```
