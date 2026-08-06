@@ -1,0 +1,1000 @@
+{
+ "A_shift": [
+  {
+   "n": 16,
+   "k": 4,
+   "q": 97,
+   "d": 3,
+   "delta": 1,
+   "rank": 4,
+   "bound": 4,
+   "cap": 6
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "q": 97,
+   "d": 3,
+   "delta": 2,
+   "rank": 5,
+   "bound": 5,
+   "cap": 6
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "q": 97,
+   "d": 3,
+   "delta": 3,
+   "rank": 6,
+   "bound": 6,
+   "cap": 6
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "q": 97,
+   "d": 3,
+   "delta": 4,
+   "rank": 6,
+   "bound": 6,
+   "cap": 6
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "q": 97,
+   "d": 3,
+   "delta": 5,
+   "rank": 6,
+   "bound": 6,
+   "cap": 6
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "q": 97,
+   "d": 4,
+   "delta": 1,
+   "rank": 5,
+   "bound": 5,
+   "cap": 8
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "q": 97,
+   "d": 4,
+   "delta": 2,
+   "rank": 6,
+   "bound": 6,
+   "cap": 8
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "q": 97,
+   "d": 4,
+   "delta": 3,
+   "rank": 7,
+   "bound": 7,
+   "cap": 8
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "q": 97,
+   "d": 4,
+   "delta": 4,
+   "rank": 8,
+   "bound": 8,
+   "cap": 8
+  },
+  {
+   "n": 16,
+   "k": 4,
+   "q": 97,
+   "d": 4,
+   "delta": 5,
+   "rank": 8,
+   "bound": 8,
+   "cap": 8
+  },
+  {
+   "n": 14,
+   "k": 4,
+   "q": 29,
+   "d": 3,
+   "delta": 1,
+   "rank": 4,
+   "bound": 4,
+   "cap": 6
+  },
+  {
+   "n": 14,
+   "k": 4,
+   "q": 29,
+   "d": 3,
+   "delta": 2,
+   "rank": 5,
+   "bound": 5,
+   "cap": 6
+  },
+  {
+   "n": 14,
+   "k": 4,
+   "q": 29,
+   "d": 3,
+   "delta": 3,
+   "rank": 6,
+   "bound": 6,
+   "cap": 6
+  },
+  {
+   "n": 14,
+   "k": 4,
+   "q": 29,
+   "d": 3,
+   "delta": 4,
+   "rank": 6,
+   "bound": 6,
+   "cap": 6
+  },
+  {
+   "n": 14,
+   "k": 4,
+   "q": 29,
+   "d": 3,
+   "delta": 5,
+   "rank": 6,
+   "bound": 6,
+   "cap": 6
+  },
+  {
+   "n": 12,
+   "k": 4,
+   "q": 13,
+   "d": 3,
+   "delta": 1,
+   "rank": 4,
+   "bound": 4,
+   "cap": 6
+  },
+  {
+   "n": 12,
+   "k": 4,
+   "q": 13,
+   "d": 3,
+   "delta": 2,
+   "rank": 5,
+   "bound": 5,
+   "cap": 6
+  },
+  {
+   "n": 12,
+   "k": 4,
+   "q": 13,
+   "d": 3,
+   "delta": 3,
+   "rank": 5,
+   "bound": 6,
+   "cap": 6
+  },
+  {
+   "n": 12,
+   "k": 4,
+   "q": 13,
+   "d": 3,
+   "delta": 4,
+   "rank": 6,
+   "bound": 6,
+   "cap": 6
+  },
+  {
+   "n": 12,
+   "k": 4,
+   "q": 13,
+   "d": 3,
+   "delta": 5,
+   "rank": 6,
+   "bound": 6,
+   "cap": 6
+  },
+  {
+   "n": 20,
+   "k": 6,
+   "q": 41,
+   "d": 4,
+   "delta": 1,
+   "rank": 5,
+   "bound": 5,
+   "cap": 8
+  },
+  {
+   "n": 20,
+   "k": 6,
+   "q": 41,
+   "d": 4,
+   "delta": 2,
+   "rank": 6,
+   "bound": 6,
+   "cap": 8
+  },
+  {
+   "n": 20,
+   "k": 6,
+   "q": 41,
+   "d": 4,
+   "delta": 3,
+   "rank": 7,
+   "bound": 7,
+   "cap": 8
+  },
+  {
+   "n": 20,
+   "k": 6,
+   "q": 41,
+   "d": 4,
+   "delta": 4,
+   "rank": 8,
+   "bound": 8,
+   "cap": 8
+  },
+  {
+   "n": 20,
+   "k": 6,
+   "q": 41,
+   "d": 4,
+   "delta": 5,
+   "rank": 8,
+   "bound": 8,
+   "cap": 8
+  }
+ ],
+ "B_planted": {
+  "raw": 2,
+  "maximal": 2,
+  "live2": 2,
+  "A_gate": 9,
+  "h": 5,
+  "Lp": [
+   8,
+   8
+  ],
+  "excess_bits_raw": 40.14757830438896,
+  "equidistribution_log2": -39.14757830438896,
+  "rank_J": 5,
+  "delta": 1
+ },
+ "C_search": [
+  {
+   "tag": "n14k4d3q29",
+   "n": 14,
+   "k": 4,
+   "d": 3,
+   "q": 29,
+   "rprime": 7,
+   "divisors": 3432,
+   "affine_dim": 1,
+   "equidistribution_log2": -17.403052133265884,
+   "strata": {
+    "2": {
+     "max_raw": 792,
+     "maximal": 0,
+     "live2": 0,
+     "source": "greedy(seeds=212)",
+     "A_gate": null,
+     "h": null,
+     "Lp": [],
+     "excess_bits": 27.032408753345493
+    },
+    "4": {
+     "max_raw": 37,
+     "maximal": 1,
+     "live2": 0,
+     "source": "greedy(seeds=10)",
+     "A_gate": 13,
+     "h": 9,
+     "Lp": [
+      1
+     ],
+     "excess_bits": 22.612505498894834
+    },
+    "5": {
+     "max_raw": 1,
+     "maximal": 1,
+     "live2": 1,
+     "source": "MC(w=3)+shift(2)",
+     "A_gate": 8,
+     "h": 4,
+     "Lp": [
+      7
+     ],
+     "excess_bits": 17.403052133265884
+    },
+    "6": {
+     "max_raw": 1,
+     "maximal": 1,
+     "live2": 1,
+     "source": "MC(w=3)+shift(3)",
+     "A_gate": 8,
+     "h": 4,
+     "Lp": [
+      7
+     ],
+     "excess_bits": 17.403052133265884
+    }
+   },
+   "n_pi": 295
+  },
+  {
+   "tag": "n16k4d3q97",
+   "n": 16,
+   "k": 4,
+   "d": 3,
+   "q": 97,
+   "rprime": 9,
+   "divisors": 11440,
+   "affine_dim": 3,
+   "equidistribution_log2": -26.117677621457016,
+   "strata": {
+    "2": {
+     "max_raw": 3432,
+     "maximal": 0,
+     "live2": 0,
+     "source": "greedy(seeds=280)",
+     "A_gate": null,
+     "h": null,
+     "Lp": [],
+     "excess_bits": 37.86251145895656
+    },
+    "4": {
+     "max_raw": 331,
+     "maximal": 1,
+     "live2": 0,
+     "source": "greedy(seeds=33)",
+     "A_gate": 15,
+     "h": 11,
+     "Lp": [
+      1
+     ],
+     "excess_bits": 34.488365028264234
+    },
+    "5": {
+     "max_raw": 8,
+     "maximal": 0,
+     "live2": 0,
+     "source": "MC(w=4)+shift(2)",
+     "A_gate": 10,
+     "h": 6,
+     "Lp": [],
+     "excess_bits": 29.117677621457016
+    },
+    "6": {
+     "max_raw": 8,
+     "maximal": 0,
+     "live2": 0,
+     "source": "MC(w=4)+shift(3)",
+     "A_gate": 9,
+     "h": 5,
+     "Lp": [],
+     "excess_bits": 29.117677621457016
+    }
+   },
+   "n_pi": 125
+  }
+ ],
+ "checks": [
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n16k4d3q97delta1",
+   "ok": true,
+   "extra": {
+    "rank": 4,
+    "bound": 4
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n16k4d3q97delta1",
+   "ok": true,
+   "extra": {
+    "rank": 4,
+    "twod": 6,
+    "rp1": 10
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n16k4d3q97delta2",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "bound": 5
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n16k4d3q97delta2",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "twod": 6,
+    "rp1": 10
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n16k4d3q97delta3",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "bound": 6
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n16k4d3q97delta3",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "twod": 6,
+    "rp1": 10
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n16k4d3q97delta4",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "bound": 6
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n16k4d3q97delta4",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "twod": 6,
+    "rp1": 10
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n16k4d3q97delta5",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "bound": 6
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n16k4d3q97delta5",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "twod": 6,
+    "rp1": 10
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n16k4d4q97delta1",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "bound": 5
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n16k4d4q97delta1",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "twod": 8,
+    "rp1": 9
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n16k4d4q97delta2",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "bound": 6
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n16k4d4q97delta2",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "twod": 8,
+    "rp1": 9
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n16k4d4q97delta3",
+   "ok": true,
+   "extra": {
+    "rank": 7,
+    "bound": 7
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n16k4d4q97delta3",
+   "ok": true,
+   "extra": {
+    "rank": 7,
+    "twod": 8,
+    "rp1": 9
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n16k4d4q97delta4",
+   "ok": true,
+   "extra": {
+    "rank": 8,
+    "bound": 8
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n16k4d4q97delta4",
+   "ok": true,
+   "extra": {
+    "rank": 8,
+    "twod": 8,
+    "rp1": 9
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n16k4d4q97delta5",
+   "ok": true,
+   "extra": {
+    "rank": 8,
+    "bound": 8
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n16k4d4q97delta5",
+   "ok": true,
+   "extra": {
+    "rank": 8,
+    "twod": 8,
+    "rp1": 9
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n14k4d3q29delta1",
+   "ok": true,
+   "extra": {
+    "rank": 4,
+    "bound": 4
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n14k4d3q29delta1",
+   "ok": true,
+   "extra": {
+    "rank": 4,
+    "twod": 6,
+    "rp1": 8
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n14k4d3q29delta2",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "bound": 5
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n14k4d3q29delta2",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "twod": 6,
+    "rp1": 8
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n14k4d3q29delta3",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "bound": 6
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n14k4d3q29delta3",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "twod": 6,
+    "rp1": 8
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n14k4d3q29delta4",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "bound": 6
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n14k4d3q29delta4",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "twod": 6,
+    "rp1": 8
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n14k4d3q29delta5",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "bound": 6
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n14k4d3q29delta5",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "twod": 6,
+    "rp1": 8
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n12k4d3q13delta1",
+   "ok": true,
+   "extra": {
+    "rank": 4,
+    "bound": 4
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n12k4d3q13delta1",
+   "ok": true,
+   "extra": {
+    "rank": 4,
+    "twod": 6,
+    "rp1": 6
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n12k4d3q13delta2",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "bound": 5
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n12k4d3q13delta2",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "twod": 6,
+    "rp1": 6
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n12k4d3q13delta3",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "bound": 6
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n12k4d3q13delta3",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "twod": 6,
+    "rp1": 6
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n12k4d3q13delta4",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "bound": 6
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n12k4d3q13delta4",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "twod": 6,
+    "rp1": 6
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n12k4d3q13delta5",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "bound": 6
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n12k4d3q13delta5",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "twod": 6,
+    "rp1": 6
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n20k6d4q41delta1",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "bound": 5
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n20k6d4q41delta1",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "twod": 8,
+    "rp1": 11
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n20k6d4q41delta2",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "bound": 6
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n20k6d4q41delta2",
+   "ok": true,
+   "extra": {
+    "rank": 6,
+    "twod": 8,
+    "rp1": 11
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n20k6d4q41delta3",
+   "ok": true,
+   "extra": {
+    "rank": 7,
+    "bound": 7
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n20k6d4q41delta3",
+   "ok": true,
+   "extra": {
+    "rank": 7,
+    "twod": 8,
+    "rp1": 11
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n20k6d4q41delta4",
+   "ok": true,
+   "extra": {
+    "rank": 8,
+    "bound": 8
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n20k6d4q41delta4",
+   "ok": true,
+   "extra": {
+    "rank": 8,
+    "twod": 8,
+    "rp1": 11
+   }
+  },
+  {
+   "check": "A/S1: shift pencil rank J_d <= d + min(|delta|,d)",
+   "fixture": "n20k6d4q41delta5",
+   "ok": true,
+   "extra": {
+    "rank": 8,
+    "bound": 8
+   }
+  },
+  {
+   "check": "A/S1b: shift pencil is DEFICIENT when |delta| < d and 2d <= r'+1",
+   "fixture": "n20k6d4q41delta5",
+   "ok": true,
+   "extra": {
+    "rank": 8,
+    "twod": 8,
+    "rp1": 11
+   }
+  },
+  {
+   "check": "B/S2: the recorded coset adversary IS a cyclic shift pencil",
+   "fixture": "planted",
+   "ok": true,
+   "extra": {
+    "delta": 1,
+    "predicted": 1
+   }
+  },
+  {
+   "check": "B/S2b: the recorded coset adversary is stacked-rank DEFICIENT (routes to the SIBLING leaf, not this one)",
+   "fixture": "planted",
+   "ok": true,
+   "extra": {
+    "rank": 5,
+    "twod": 8,
+    "cap": 8
+   }
+  },
+  {
+   "check": "B/P8: the recorded adversary's family survives MAXIMALITY",
+   "fixture": "planted",
+   "ok": true,
+   "extra": {
+    "raw": 2,
+    "maximal": 2,
+    "live2": 2,
+    "A_gate": 9,
+    "h": 5,
+    "Lp": [
+     8,
+     8
+    ],
+    "excess_bits_raw": 40.14757830438896,
+    "equidistribution_log2": -39.14757830438896,
+    "rank_J": 5,
+    "delta": 1
+   }
+  },
+  {
+   "check": "C0: W_T = Syn(T)^perp = Y^i E_{T^-1}, dim d",
+   "fixture": "n14k4d3",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "C0: W_T = Syn(T)^perp = Y^i E_{T^-1}, dim d",
+   "fixture": "n14k4d3",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "C0: W_T = Syn(T)^perp = Y^i E_{T^-1}, dim d",
+   "fixture": "n14k4d3",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "C0: W_T = Syn(T)^perp = Y^i E_{T^-1}, dim d",
+   "fixture": "n14k4d3",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "C0: W_T = Syn(T)^perp = Y^i E_{T^-1}, dim d",
+   "fixture": "n14k4d3",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "C/S3: the LARGEST family lives in a DEFICIENT stratum",
+   "fixture": "n14k4d3q29",
+   "ok": true,
+   "extra": {
+    "full_rank_max": 1,
+    "deficient_max": 792
+   }
+  },
+  {
+   "check": "C/S4: the full-rank stratum is non-vacuous (a full-rank pi with a non-empty family exists)",
+   "fixture": "n14k4d3q29",
+   "ok": true,
+   "extra": {
+    "full_rank_max": 1
+   }
+  },
+  {
+   "check": "C0: W_T = Syn(T)^perp = Y^i E_{T^-1}, dim d",
+   "fixture": "n16k4d3",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "C0: W_T = Syn(T)^perp = Y^i E_{T^-1}, dim d",
+   "fixture": "n16k4d3",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "C0: W_T = Syn(T)^perp = Y^i E_{T^-1}, dim d",
+   "fixture": "n16k4d3",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "C0: W_T = Syn(T)^perp = Y^i E_{T^-1}, dim d",
+   "fixture": "n16k4d3",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "C0: W_T = Syn(T)^perp = Y^i E_{T^-1}, dim d",
+   "fixture": "n16k4d3",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "C/S3: the LARGEST family lives in a DEFICIENT stratum",
+   "fixture": "n16k4d3q97",
+   "ok": true,
+   "extra": {
+    "full_rank_max": 8,
+    "deficient_max": 3432
+   }
+  },
+  {
+   "check": "C/S4: the full-rank stratum is non-vacuous (a full-rank pi with a non-empty family exists)",
+   "fixture": "n16k4d3q97",
+   "ok": true,
+   "extra": {
+    "full_rank_max": 8
+   }
+  }
+ ],
+ "n_checks": 67,
+ "n_fail": 0,
+ "verdict": "PASS"
+}
