@@ -1231,3 +1231,9 @@ ramguard law; DRAFT ONLY; coordinator persists reports verbatim;
 explicit-path commits while running. STILL PENDING USER RATIFICATION:
 the W = 5 rollback (+ CR-W5-ELL1 census gated on it); CATCH-15A edit
 queued for mint-4.
+
+- 2026-08-06 CRASH + RECOVERY: a harness crash killed all four round-16
+  pilots mid-run (after PREREG appendices and partial state reached
+  disk). All four RESUMED from their own transcripts with context
+  intact, with instructions to re-verify on-disk state (half-written
+  files) before continuing. No work lost; no relaunch.
