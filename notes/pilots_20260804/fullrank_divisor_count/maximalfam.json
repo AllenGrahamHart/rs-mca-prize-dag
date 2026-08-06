@@ -1,0 +1,305 @@
+{
+ "fixtures": [
+  {
+   "tag": "n16k4d3q97",
+   "n": 16,
+   "k": 4,
+   "d": 3,
+   "q": 97,
+   "rprime": 9,
+   "best": {
+    "maximal": 3,
+    "full": true,
+    "rank": 6,
+    "h": 7,
+    "A": 11,
+    "band": [
+     4,
+     5
+    ],
+    "band_proper": false,
+    "Lp": [
+     1,
+     2,
+     1
+    ],
+    "family": 3
+   },
+   "best_fullrank": {
+    "maximal": 3,
+    "full": true,
+    "rank": 6,
+    "h": 7,
+    "A": 11,
+    "band": [
+     4,
+     5
+    ],
+    "band_proper": false,
+    "Lp": [
+     1,
+     2,
+     1
+    ],
+    "family": 3,
+    "raw": 3
+   },
+   "size_distribution": {
+    "0": 88,
+    "3": 270,
+    "2": 42
+   },
+   "divisors": 11440
+  },
+  {
+   "tag": "n16k4d3q17",
+   "n": 16,
+   "k": 4,
+   "d": 3,
+   "q": 17,
+   "rprime": 9,
+   "best": {
+    "maximal": 4,
+    "full": false,
+    "rank": 4,
+    "h": 11,
+    "A": 15,
+    "band": [
+     6,
+     9
+    ],
+    "band_proper": false,
+    "Lp": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "family": 4
+   },
+   "best_fullrank": {
+    "maximal": 3,
+    "full": true,
+    "rank": 6,
+    "h": 7,
+    "A": 11,
+    "band": [
+     4,
+     5
+    ],
+    "band_proper": false,
+    "Lp": [
+     0,
+     1,
+     1
+    ],
+    "family": 3,
+    "raw": 3
+   },
+   "size_distribution": {
+    "2": 107,
+    "3": 207,
+    "0": 73,
+    "1": 12,
+    "4": 1
+   },
+   "divisors": 11440
+  },
+  {
+   "tag": "n14k4d3q29",
+   "n": 14,
+   "k": 4,
+   "d": 3,
+   "q": 29,
+   "rprime": 7,
+   "best": {
+    "maximal": 3,
+    "full": false,
+    "rank": 4,
+    "h": 9,
+    "A": 13,
+    "band": [
+     5,
+     7
+    ],
+    "band_proper": false,
+    "Lp": [
+     1,
+     1,
+     1
+    ],
+    "family": 3
+   },
+   "best_fullrank": {
+    "maximal": 2,
+    "full": true,
+    "rank": 6,
+    "h": 7,
+    "A": 11,
+    "band": [
+     4,
+     5
+    ],
+    "band_proper": false,
+    "Lp": [
+     1,
+     1
+    ],
+    "family": 2,
+    "raw": 2
+   },
+   "size_distribution": {
+    "2": 359,
+    "0": 20,
+    "3": 10,
+    "1": 11
+   },
+   "divisors": 3432
+  }
+ ],
+ "checks": [
+  {
+   "check": "X0: |T1 u T2| <= n-k  =>  NEITHER locator is maximal (dual form of k-packing)",
+   "fixture": "n16k4d3q97",
+   "ok": true,
+   "extra": {
+    "tested": 37,
+    "violations": 0
+   }
+  },
+  {
+   "check": "X1: the FULL-RANK stratum carries a 2-member MAXIMAL depth-d family",
+   "fixture": "n16k4d3q97",
+   "ok": true,
+   "extra": {
+    "maximal": 3,
+    "full": true,
+    "rank": 6,
+    "h": 7,
+    "A": 11,
+    "band": [
+     4,
+     5
+    ],
+    "band_proper": false,
+    "Lp": [
+     1,
+     2,
+     1
+    ],
+    "family": 3,
+    "raw": 3
+   }
+  },
+  {
+   "check": "X2 [P5]: the toy maximal families are subcritical -- the count is O(1), far below any budget",
+   "fixture": "n16k4d3q97",
+   "ok": true,
+   "extra": {
+    "best": 3,
+    "distribution": {
+     "0": 88,
+     "3": 270,
+     "2": 42
+    }
+   }
+  },
+  {
+   "check": "X0: |T1 u T2| <= n-k  =>  NEITHER locator is maximal (dual form of k-packing)",
+   "fixture": "n16k4d3q17",
+   "ok": true,
+   "extra": {
+    "tested": 48,
+    "violations": 0
+   }
+  },
+  {
+   "check": "X1: the FULL-RANK stratum carries a 2-member MAXIMAL depth-d family",
+   "fixture": "n16k4d3q17",
+   "ok": true,
+   "extra": {
+    "maximal": 3,
+    "full": true,
+    "rank": 6,
+    "h": 7,
+    "A": 11,
+    "band": [
+     4,
+     5
+    ],
+    "band_proper": false,
+    "Lp": [
+     0,
+     1,
+     1
+    ],
+    "family": 3,
+    "raw": 3
+   }
+  },
+  {
+   "check": "X2 [P5]: the toy maximal families are subcritical -- the count is O(1), far below any budget",
+   "fixture": "n16k4d3q17",
+   "ok": true,
+   "extra": {
+    "best": 4,
+    "distribution": {
+     "2": 107,
+     "3": 207,
+     "0": 73,
+     "1": 12,
+     "4": 1
+    }
+   }
+  },
+  {
+   "check": "X0: |T1 u T2| <= n-k  =>  NEITHER locator is maximal (dual form of k-packing)",
+   "fixture": "n14k4d3q29",
+   "ok": true,
+   "extra": {
+    "tested": 62,
+    "violations": 0
+   }
+  },
+  {
+   "check": "X1: the FULL-RANK stratum carries a 2-member MAXIMAL depth-d family",
+   "fixture": "n14k4d3q29",
+   "ok": true,
+   "extra": {
+    "maximal": 2,
+    "full": true,
+    "rank": 6,
+    "h": 7,
+    "A": 11,
+    "band": [
+     4,
+     5
+    ],
+    "band_proper": false,
+    "Lp": [
+     1,
+     1
+    ],
+    "family": 2,
+    "raw": 2
+   }
+  },
+  {
+   "check": "X2 [P5]: the toy maximal families are subcritical -- the count is O(1), far below any budget",
+   "fixture": "n14k4d3q29",
+   "ok": true,
+   "extra": {
+    "best": 3,
+    "distribution": {
+     "2": 359,
+     "0": 20,
+     "3": 10,
+     "1": 11
+    }
+   }
+  }
+ ],
+ "n_checks": 9,
+ "n_fail": 0,
+ "verdict": "PASS"
+}

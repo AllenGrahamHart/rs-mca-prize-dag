@@ -1040,3 +1040,35 @@ Integration freeze pending the upstream-sync wiring and stocktake:
   one point => beta <= 6t < X closes everything in range). Next
   anchors: (FR) pilot; the s >= 12 mechanism via the signed
   support-moment interface. Awaiting: fullrank_divisor_count pilot.
+
+## 2026-08-04: round-13 pilot 2/2 BANKED — ROUND 13 COMPLETE; the two-leaf landscape mapped
+
+- **fullrank_divisor_count (Opus) BANKED** (213 checks; 6 honest
+  prediction corrections; P3 refuted — THEOREM SHIFT routes the
+  recorded adversary to the sibling leaf). Dual Gr(2, n-k) form;
+  route cut (full rank => no anti-concentration, witnessed in-scope);
+  LEMMA X0 transversality; exact M = 2..2^20 survival region owned by
+  this leaf; M^2-slack self-reduction (transfer gap flagged);
+  aperiodic obstruction = sub-Johnson list size, all lenses
+  equivalent. BAND PROMOTION now = (FR) + {transfer-gap + quotient
+  count | aperiodic anti-concentration}. NEXT-ROUND CANDIDATES: (FR)
+  pilot; transfer-gap check; approximate-shift boundary; s >= 12
+  mechanism.
+
+## 2026-08-04: ROUND 14 LAUNCHED — one pilot per mystery (the full-board round)
+
+- (1) fr_fiber_rigidity: (FR) — mystery 1's highest-leverage
+  conjecture (B-M forcing / selection-exchange / toy-decisive
+  liveness routes; the ell-size tail exception carried as a
+  constraint). (2) f2_opening: first dedicated F2 round — K1 mass
+  obligations (O1)-(O3) obstruction map + exact small-rung
+  E[exp S_c] + the T3 character-sum scoping verdict
+  (internal/Burgess/beyond). (3) c1_sharpest_leaf: junction-0 lane
+  map (norm-gate + wcl slots + C1-ZERO/SWIF-4) + attack the sharpest
+  leaf + compute request if needed. (4) crossing_w2_opening: the
+  FIRST crossing opening — the w >= 2 obligation verbatim, the
+  q-dependence obstruction map, one proved partial, and the
+  MERGE CHECK (is the crossing count a divisor-window count in
+  disguise? LEMMA W is the same window system — a potential FIFTH
+  dependency reduction, flagged prominently either way).
+  Explicit-path commits while running.

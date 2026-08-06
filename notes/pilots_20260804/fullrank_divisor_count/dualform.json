@@ -1,0 +1,694 @@
+{
+ "census": [
+  {
+   "tag": "n8k4d2q17#0",
+   "n": 8,
+   "k": 4,
+   "d": 2,
+   "q": 17,
+   "rprime": 2,
+   "rank_J": 3,
+   "full_rank": false,
+   "dim_pi": 2,
+   "raw": 0,
+   "maximal": 0,
+   "total_divisors": 28
+  },
+  {
+   "tag": "n8k4d2q17#1",
+   "n": 8,
+   "k": 4,
+   "d": 2,
+   "q": 17,
+   "rprime": 2,
+   "rank_J": 3,
+   "full_rank": false,
+   "dim_pi": 2,
+   "raw": 0,
+   "maximal": 0,
+   "total_divisors": 28
+  },
+  {
+   "tag": "n8k4d2q17#2",
+   "n": 8,
+   "k": 4,
+   "d": 2,
+   "q": 17,
+   "rprime": 2,
+   "rank_J": 3,
+   "full_rank": false,
+   "dim_pi": 2,
+   "raw": 0,
+   "maximal": 0,
+   "total_divisors": 28
+  },
+  {
+   "tag": "n12k6d3q13#0",
+   "n": 12,
+   "k": 6,
+   "d": 3,
+   "q": 13,
+   "rprime": 3,
+   "rank_J": 4,
+   "full_rank": false,
+   "dim_pi": 2,
+   "raw": 0,
+   "maximal": 0,
+   "total_divisors": 220
+  },
+  {
+   "tag": "n12k6d3q13#1",
+   "n": 12,
+   "k": 6,
+   "d": 3,
+   "q": 13,
+   "rprime": 3,
+   "rank_J": 4,
+   "full_rank": false,
+   "dim_pi": 2,
+   "raw": 0,
+   "maximal": 0,
+   "total_divisors": 220
+  },
+  {
+   "tag": "n12k6d3q13#2",
+   "n": 12,
+   "k": 6,
+   "d": 3,
+   "q": 13,
+   "rprime": 3,
+   "rank_J": 4,
+   "full_rank": false,
+   "dim_pi": 2,
+   "raw": 0,
+   "maximal": 0,
+   "total_divisors": 220
+  },
+  {
+   "tag": "n12k4d3q13#0",
+   "n": 12,
+   "k": 4,
+   "d": 3,
+   "q": 13,
+   "rprime": 5,
+   "rank_J": 6,
+   "full_rank": true,
+   "dim_pi": 2,
+   "raw": 0,
+   "maximal": 0,
+   "total_divisors": 792
+  },
+  {
+   "tag": "n12k4d3q13#1",
+   "n": 12,
+   "k": 4,
+   "d": 3,
+   "q": 13,
+   "rprime": 5,
+   "rank_J": 6,
+   "full_rank": true,
+   "dim_pi": 2,
+   "raw": 0,
+   "maximal": 0,
+   "total_divisors": 792
+  },
+  {
+   "tag": "n12k4d3q13#2",
+   "n": 12,
+   "k": 4,
+   "d": 3,
+   "q": 13,
+   "rprime": 5,
+   "rank_J": 6,
+   "full_rank": true,
+   "dim_pi": 2,
+   "raw": 0,
+   "maximal": 0,
+   "total_divisors": 792
+  },
+  {
+   "tag": "n16k8d4q17#0",
+   "n": 16,
+   "k": 8,
+   "d": 4,
+   "q": 17,
+   "rprime": 4,
+   "rank_J": 5,
+   "full_rank": false,
+   "dim_pi": 2,
+   "raw": 0,
+   "maximal": 0,
+   "total_divisors": 1820
+  },
+  {
+   "tag": "n16k8d4q17#1",
+   "n": 16,
+   "k": 8,
+   "d": 4,
+   "q": 17,
+   "rprime": 4,
+   "rank_J": 5,
+   "full_rank": false,
+   "dim_pi": 2,
+   "raw": 0,
+   "maximal": 0,
+   "total_divisors": 1820
+  },
+  {
+   "tag": "n16k8d4q17#2",
+   "n": 16,
+   "k": 8,
+   "d": 4,
+   "q": 17,
+   "rprime": 4,
+   "rank_J": 5,
+   "full_rank": false,
+   "dim_pi": 2,
+   "raw": 0,
+   "maximal": 0,
+   "total_divisors": 1820
+  },
+  {
+   "tag": "n16k4d3q97#0",
+   "n": 16,
+   "k": 4,
+   "d": 3,
+   "q": 97,
+   "rprime": 9,
+   "rank_J": 6,
+   "full_rank": true,
+   "dim_pi": 2,
+   "raw": 0,
+   "maximal": 0,
+   "total_divisors": 11440
+  },
+  {
+   "tag": "n16k4d3q97#1",
+   "n": 16,
+   "k": 4,
+   "d": 3,
+   "q": 97,
+   "rprime": 9,
+   "rank_J": 6,
+   "full_rank": true,
+   "dim_pi": 2,
+   "raw": 0,
+   "maximal": 0,
+   "total_divisors": 11440
+  },
+  {
+   "tag": "n16k4d3q97#2",
+   "n": 16,
+   "k": 4,
+   "d": 3,
+   "q": 97,
+   "rprime": 9,
+   "rank_J": 6,
+   "full_rank": true,
+   "dim_pi": 2,
+   "raw": 0,
+   "maximal": 0,
+   "total_divisors": 11440
+  }
+ ],
+ "gate": [
+  {
+   "tag": "n8k4q17#0",
+   "n": 8,
+   "k": 4,
+   "q": 17,
+   "A_gate": 6,
+   "h": 2,
+   "min_dep": 2
+  },
+  {
+   "tag": "n8k4q17#1",
+   "n": 8,
+   "k": 4,
+   "q": 17,
+   "A_gate": 5,
+   "h": 1,
+   "min_dep": 3
+  },
+  {
+   "tag": "n12k6q13#0",
+   "n": 12,
+   "k": 6,
+   "q": 13,
+   "A_gate": 9,
+   "h": 3,
+   "min_dep": 3
+  },
+  {
+   "tag": "n12k6q13#1",
+   "n": 12,
+   "k": 6,
+   "q": 13,
+   "A_gate": 8,
+   "h": 2,
+   "min_dep": 4
+  },
+  {
+   "tag": "n12k4q13#0",
+   "n": 12,
+   "k": 4,
+   "q": 13,
+   "A_gate": 7,
+   "h": 3,
+   "min_dep": 5
+  },
+  {
+   "tag": "n12k4q13#1",
+   "n": 12,
+   "k": 4,
+   "q": 13,
+   "A_gate": 7,
+   "h": 3,
+   "min_dep": 5
+  },
+  {
+   "tag": "n16k8q17#0",
+   "n": 16,
+   "k": 8,
+   "q": 17,
+   "A_gate": 12,
+   "h": 4,
+   "min_dep": 4
+  },
+  {
+   "tag": "n16k8q17#1",
+   "n": 16,
+   "k": 8,
+   "q": 17,
+   "A_gate": 11,
+   "h": 3,
+   "min_dep": 5
+  }
+ ],
+ "checks": [
+  {
+   "check": "D0: dim Syn(T) = |T| for every divisor (MDS)",
+   "fixture": "n8k4d2q17#0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1: LEMMA W single system == sigma(w) in Syn(T)",
+   "fixture": "n8k4d2q17#0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1j: joint system == 2-plane containment pi <= Syn(T)",
+   "fixture": "n8k4d2q17#0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D0: dim Syn(T) = |T| for every divisor (MDS)",
+   "fixture": "n8k4d2q17#1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1: LEMMA W single system == sigma(w) in Syn(T)",
+   "fixture": "n8k4d2q17#1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1j: joint system == 2-plane containment pi <= Syn(T)",
+   "fixture": "n8k4d2q17#1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D0: dim Syn(T) = |T| for every divisor (MDS)",
+   "fixture": "n8k4d2q17#2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1: LEMMA W single system == sigma(w) in Syn(T)",
+   "fixture": "n8k4d2q17#2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1j: joint system == 2-plane containment pi <= Syn(T)",
+   "fixture": "n8k4d2q17#2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D0: dim Syn(T) = |T| for every divisor (MDS)",
+   "fixture": "n12k6d3q13#0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1: LEMMA W single system == sigma(w) in Syn(T)",
+   "fixture": "n12k6d3q13#0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1j: joint system == 2-plane containment pi <= Syn(T)",
+   "fixture": "n12k6d3q13#0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D0: dim Syn(T) = |T| for every divisor (MDS)",
+   "fixture": "n12k6d3q13#1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1: LEMMA W single system == sigma(w) in Syn(T)",
+   "fixture": "n12k6d3q13#1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1j: joint system == 2-plane containment pi <= Syn(T)",
+   "fixture": "n12k6d3q13#1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D0: dim Syn(T) = |T| for every divisor (MDS)",
+   "fixture": "n12k6d3q13#2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1: LEMMA W single system == sigma(w) in Syn(T)",
+   "fixture": "n12k6d3q13#2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1j: joint system == 2-plane containment pi <= Syn(T)",
+   "fixture": "n12k6d3q13#2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D0: dim Syn(T) = |T| for every divisor (MDS)",
+   "fixture": "n12k4d3q13#0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1: LEMMA W single system == sigma(w) in Syn(T)",
+   "fixture": "n12k4d3q13#0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1j: joint system == 2-plane containment pi <= Syn(T)",
+   "fixture": "n12k4d3q13#0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D0: dim Syn(T) = |T| for every divisor (MDS)",
+   "fixture": "n12k4d3q13#1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1: LEMMA W single system == sigma(w) in Syn(T)",
+   "fixture": "n12k4d3q13#1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1j: joint system == 2-plane containment pi <= Syn(T)",
+   "fixture": "n12k4d3q13#1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D0: dim Syn(T) = |T| for every divisor (MDS)",
+   "fixture": "n12k4d3q13#2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1: LEMMA W single system == sigma(w) in Syn(T)",
+   "fixture": "n12k4d3q13#2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1j: joint system == 2-plane containment pi <= Syn(T)",
+   "fixture": "n12k4d3q13#2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D0: dim Syn(T) = |T| for every divisor (MDS)",
+   "fixture": "n16k8d4q17#0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1: LEMMA W single system == sigma(w) in Syn(T)",
+   "fixture": "n16k8d4q17#0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1j: joint system == 2-plane containment pi <= Syn(T)",
+   "fixture": "n16k8d4q17#0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D0: dim Syn(T) = |T| for every divisor (MDS)",
+   "fixture": "n16k8d4q17#1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1: LEMMA W single system == sigma(w) in Syn(T)",
+   "fixture": "n16k8d4q17#1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1j: joint system == 2-plane containment pi <= Syn(T)",
+   "fixture": "n16k8d4q17#1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D0: dim Syn(T) = |T| for every divisor (MDS)",
+   "fixture": "n16k8d4q17#2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1: LEMMA W single system == sigma(w) in Syn(T)",
+   "fixture": "n16k8d4q17#2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1j: joint system == 2-plane containment pi <= Syn(T)",
+   "fixture": "n16k8d4q17#2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D0: dim Syn(T) = |T| for every divisor (MDS)",
+   "fixture": "n16k4d3q97#0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1: LEMMA W single system == sigma(w) in Syn(T)",
+   "fixture": "n16k4d3q97#0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1j: joint system == 2-plane containment pi <= Syn(T)",
+   "fixture": "n16k4d3q97#0",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D0: dim Syn(T) = |T| for every divisor (MDS)",
+   "fixture": "n16k4d3q97#1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1: LEMMA W single system == sigma(w) in Syn(T)",
+   "fixture": "n16k4d3q97#1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1j: joint system == 2-plane containment pi <= Syn(T)",
+   "fixture": "n16k4d3q97#1",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D0: dim Syn(T) = |T| for every divisor (MDS)",
+   "fixture": "n16k4d3q97#2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1: LEMMA W single system == sigma(w) in Syn(T)",
+   "fixture": "n16k4d3q97#2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D1j: joint system == 2-plane containment pi <= Syn(T)",
+   "fixture": "n16k4d3q97#2",
+   "ok": true,
+   "extra": null
+  },
+  {
+   "check": "D3 [AS FIRST WRITTEN, over-broad -- recorded as failed]: random pairs are stacked-FULL-rank in every draw",
+   "fixture": "all",
+   "ok": false,
+   "extra": {
+    "full": 6,
+    "n": 15
+   }
+  },
+  {
+   "check": "D3': rank J_d = min(2d, r'+1) in every random draw; the full-rank stratum is NON-EMPTY iff n-k >= 3d-1",
+   "fixture": "all",
+   "ok": true,
+   "extra": {
+    "rule": "rank = min(2d, r'+1)",
+    "full_rank_draws": 6,
+    "draws": 15
+   }
+  },
+  {
+   "check": "D3b [P5, pre-committed]: toy budget 0.68 n^2 exceeds the TOTAL divisor count -- no toy count claim is possible",
+   "fixture": "all",
+   "ok": true,
+   "extra": {
+    "subcritical": [
+     {
+      "tag": "n8k4d2q17#0",
+      "budget": 43.52,
+      "total_divisors": 28
+     },
+     {
+      "tag": "n8k4d2q17#1",
+      "budget": 43.52,
+      "total_divisors": 28
+     },
+     {
+      "tag": "n8k4d2q17#2",
+      "budget": 43.52,
+      "total_divisors": 28
+     }
+    ]
+   }
+  },
+  {
+   "check": "D2: min dependent support in F^{n-k}/pi == n - A_gate (tangent gate == near-MDS position)",
+   "fixture": "n8k4q17#0",
+   "ok": true,
+   "extra": {
+    "A_gate": 6,
+    "h": 2,
+    "min_dep": 2,
+    "predicted": 2
+   }
+  },
+  {
+   "check": "D2: min dependent support in F^{n-k}/pi == n - A_gate (tangent gate == near-MDS position)",
+   "fixture": "n8k4q17#1",
+   "ok": true,
+   "extra": {
+    "A_gate": 5,
+    "h": 1,
+    "min_dep": 3,
+    "predicted": 3
+   }
+  },
+  {
+   "check": "D2: min dependent support in F^{n-k}/pi == n - A_gate (tangent gate == near-MDS position)",
+   "fixture": "n12k6q13#0",
+   "ok": true,
+   "extra": {
+    "A_gate": 9,
+    "h": 3,
+    "min_dep": 3,
+    "predicted": 3
+   }
+  },
+  {
+   "check": "D2: min dependent support in F^{n-k}/pi == n - A_gate (tangent gate == near-MDS position)",
+   "fixture": "n12k6q13#1",
+   "ok": true,
+   "extra": {
+    "A_gate": 8,
+    "h": 2,
+    "min_dep": 4,
+    "predicted": 4
+   }
+  },
+  {
+   "check": "D2: min dependent support in F^{n-k}/pi == n - A_gate (tangent gate == near-MDS position)",
+   "fixture": "n12k4q13#0",
+   "ok": true,
+   "extra": {
+    "A_gate": 7,
+    "h": 3,
+    "min_dep": 5,
+    "predicted": 5
+   }
+  },
+  {
+   "check": "D2: min dependent support in F^{n-k}/pi == n - A_gate (tangent gate == near-MDS position)",
+   "fixture": "n12k4q13#1",
+   "ok": true,
+   "extra": {
+    "A_gate": 7,
+    "h": 3,
+    "min_dep": 5,
+    "predicted": 5
+   }
+  },
+  {
+   "check": "D2: min dependent support in F^{n-k}/pi == n - A_gate (tangent gate == near-MDS position)",
+   "fixture": "n16k8q17#0",
+   "ok": true,
+   "extra": {
+    "A_gate": 12,
+    "h": 4,
+    "min_dep": 4,
+    "predicted": 4
+   }
+  },
+  {
+   "check": "D2: min dependent support in F^{n-k}/pi == n - A_gate (tangent gate == near-MDS position)",
+   "fixture": "n16k8q17#1",
+   "ok": true,
+   "extra": {
+    "A_gate": 11,
+    "h": 3,
+    "min_dep": 5,
+    "predicted": 5
+   }
+  }
+ ],
+ "n_checks": 56,
+ "n_fail": 1,
+ "verdict": "FAIL"
+}

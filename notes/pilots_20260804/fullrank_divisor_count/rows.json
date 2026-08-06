@@ -1,0 +1,1063 @@
+{
+ "rows": [
+  {
+   "name": "RowC 1/4",
+   "n": 1024,
+   "k": 256,
+   "h": 5,
+   "A": 261,
+   "band": [
+    3,
+    3
+   ],
+   "prize": false,
+   "fullrank_needs": {
+    "rule": "n-k >= 3d-1",
+    "n_minus_k": 768,
+    "d": 3,
+    "need": 8,
+    "ok": true,
+    "margin_ratio": 96.0
+   },
+   "affine_dim": {
+    "3": 759
+   },
+   "h_is_2s_plus_1": true,
+   "max_2power_dividing_gcd_nk": 256,
+   "structured_survivors": {},
+   "max_surviving_M": null,
+   "budget_17n2_25": 713031,
+   "log2_budget": 19.443606651475616,
+   "first_moment": {
+    "3": {
+     "rprime": 765,
+     "log2_divisors": 830.3456471262457,
+     "log2_first_moment_qmin": -669.6543528737543,
+     "log2_first_moment_qmax": -705.6543528737543,
+     "beta_d": 765
+    }
+   }
+  },
+  {
+   "name": "RowC 1/8",
+   "n": 1024,
+   "k": 128,
+   "h": 5,
+   "A": 133,
+   "band": [
+    3,
+    3
+   ],
+   "prize": false,
+   "fullrank_needs": {
+    "rule": "n-k >= 3d-1",
+    "n_minus_k": 896,
+    "d": 3,
+    "need": 8,
+    "ok": true,
+    "margin_ratio": 112.0
+   },
+   "affine_dim": {
+    "3": 887
+   },
+   "h_is_2s_plus_1": true,
+   "max_2power_dividing_gcd_nk": 128,
+   "structured_survivors": {},
+   "max_surviving_M": null,
+   "budget_17n2_25": 713031,
+   "log2_budget": 19.443606651475616,
+   "first_moment": {
+    "3": {
+     "rprime": 893,
+     "log2_divisors": 560.2298200309502,
+     "log2_first_moment_qmin": -939.7701799690498,
+     "log2_first_moment_qmax": -975.7701799690498,
+     "beta_d": 893
+    }
+   }
+  },
+  {
+   "name": "RowC 1/16",
+   "n": 1024,
+   "k": 64,
+   "h": 3,
+   "A": 67,
+   "band": [
+    2,
+    1
+   ],
+   "prize": false,
+   "fullrank_needs": {
+    "rule": "n-k >= 3d-1",
+    "n_minus_k": 960,
+    "d": 1,
+    "need": 2,
+    "ok": true,
+    "margin_ratio": 480.0
+   },
+   "affine_dim": {
+    "2": 954,
+    "1": 957
+   },
+   "h_is_2s_plus_1": true,
+   "max_2power_dividing_gcd_nk": 64,
+   "structured_survivors": {},
+   "max_surviving_M": null,
+   "budget_17n2_25": 713031,
+   "log2_budget": 19.443606651475616,
+   "first_moment": {
+    "2": {
+     "rprime": 958,
+     "log2_divisors": 348.8494642005188,
+     "log2_first_moment_qmin": -651.1505357994812,
+     "log2_first_moment_qmax": -675.1505357994812,
+     "beta_d": null
+    },
+    "1": {
+     "rprime": 959,
+     "log2_divisors": 344.9884713148602,
+     "log2_first_moment_qmin": -155.0115286851398,
+     "log2_first_moment_qmax": -167.0115286851398,
+     "beta_d": 959
+    }
+   }
+  },
+  {
+   "name": "prize 1/4",
+   "n": 2199023255552,
+   "k": 549755813888,
+   "h": 8589934593,
+   "A": 558345748481,
+   "band": [
+    4294967297,
+    8589934591
+   ],
+   "prize": true,
+   "fullrank_needs": {
+    "rule": "n-k >= 3d-1",
+    "n_minus_k": 1649267441664,
+    "d": 8589934591,
+    "need": 25769803772,
+    "ok": true,
+    "margin_ratio": 64.00000000993411
+   },
+   "affine_dim": {
+    "4294967297": 1636382539773,
+    "8589934591": 1623497637891
+   },
+   "h_is_2s_plus_1": true,
+   "max_2power_dividing_gcd_nk": 549755813888,
+   "structured_survivors": {
+    "2": {
+     "n_depths": 2147483647,
+     "d_max": 8589934590,
+     "d_min": 4294967298,
+     "h_minus_d_max": 4294967295,
+     "band_depths_at_scale": 2147483648,
+     "L_bites": true,
+     "slice_frac": 0.9999999995343387
+    },
+    "4": {
+     "n_depths": 1073741823,
+     "d_max": 8589934588,
+     "d_min": 4294967300,
+     "h_minus_d_max": 4294967293,
+     "band_depths_at_scale": 1073741824,
+     "L_bites": true,
+     "slice_frac": 0.9999999990686774
+    },
+    "8": {
+     "n_depths": 536870911,
+     "d_max": 8589934584,
+     "d_min": 4294967304,
+     "h_minus_d_max": 4294967289,
+     "band_depths_at_scale": 536870912,
+     "L_bites": true,
+     "slice_frac": 0.9999999981373549
+    },
+    "16": {
+     "n_depths": 268435455,
+     "d_max": 8589934576,
+     "d_min": 4294967312,
+     "h_minus_d_max": 4294967281,
+     "band_depths_at_scale": 268435456,
+     "L_bites": true,
+     "slice_frac": 0.9999999962747097
+    },
+    "32": {
+     "n_depths": 134217727,
+     "d_max": 8589934560,
+     "d_min": 4294967328,
+     "h_minus_d_max": 4294967265,
+     "band_depths_at_scale": 134217728,
+     "L_bites": true,
+     "slice_frac": 0.9999999925494194
+    },
+    "64": {
+     "n_depths": 67108863,
+     "d_max": 8589934528,
+     "d_min": 4294967360,
+     "h_minus_d_max": 4294967233,
+     "band_depths_at_scale": 67108864,
+     "L_bites": true,
+     "slice_frac": 0.9999999850988388
+    },
+    "128": {
+     "n_depths": 33554431,
+     "d_max": 8589934464,
+     "d_min": 4294967424,
+     "h_minus_d_max": 4294967169,
+     "band_depths_at_scale": 33554432,
+     "L_bites": true,
+     "slice_frac": 0.9999999701976776
+    },
+    "256": {
+     "n_depths": 16777215,
+     "d_max": 8589934336,
+     "d_min": 4294967552,
+     "h_minus_d_max": 4294967041,
+     "band_depths_at_scale": 16777216,
+     "L_bites": true,
+     "slice_frac": 0.9999999403953552
+    },
+    "512": {
+     "n_depths": 6270935,
+     "d_max": 8589934080,
+     "d_min": 5379215872,
+     "h_minus_d_max": 3210718721,
+     "band_depths_at_scale": 8388608,
+     "L_bites": true,
+     "slice_frac": 0.7475537061691284
+    },
+    "1024": {
+     "n_depths": 1566201,
+     "d_max": 8589933568,
+     "d_min": 6986144768,
+     "h_minus_d_max": 1603789825,
+     "band_depths_at_scale": 4194304,
+     "L_bites": true,
+     "slice_frac": 0.3734114170074463
+    },
+    "2048": {
+     "n_depths": 391359,
+     "d_max": 8589932544,
+     "d_min": 7788431360,
+     "h_minus_d_max": 801503233,
+     "band_depths_at_scale": 2097152,
+     "L_bites": true,
+     "slice_frac": 0.1866145133972168
+    },
+    "4096": {
+     "n_depths": 97815,
+     "d_max": 8589930496,
+     "d_min": 8189284352,
+     "h_minus_d_max": 400650241,
+     "band_depths_at_scale": 1048576,
+     "L_bites": true,
+     "slice_frac": 0.09328365325927734
+    },
+    "8192": {
+     "n_depths": 24450,
+     "d_max": 8589926400,
+     "d_min": 8389640192,
+     "h_minus_d_max": 200294401,
+     "band_depths_at_scale": 524288,
+     "L_bites": true,
+     "slice_frac": 0.046634674072265625
+    },
+    "16384": {
+     "n_depths": 6112,
+     "d_max": 8589918208,
+     "d_min": 8489795584,
+     "h_minus_d_max": 100139009,
+     "band_depths_at_scale": 262144,
+     "L_bites": true,
+     "slice_frac": 0.0233154296875
+    },
+    "32768": {
+     "n_depths": 1528,
+     "d_max": 8589901824,
+     "d_min": 8539865088,
+     "h_minus_d_max": 50069505,
+     "band_depths_at_scale": 131072,
+     "L_bites": true,
+     "slice_frac": 0.01165771484375
+    },
+    "65536": {
+     "n_depths": 382,
+     "d_max": 8589869056,
+     "d_min": 8564899840,
+     "h_minus_d_max": 25034753,
+     "band_depths_at_scale": 65536,
+     "L_bites": true,
+     "slice_frac": 0.005828857421875
+    },
+    "131072": {
+     "n_depths": 95,
+     "d_max": 8589803520,
+     "d_min": 8577482752,
+     "h_minus_d_max": 12451841,
+     "band_depths_at_scale": 32768,
+     "L_bites": true,
+     "slice_frac": 0.002899169921875
+    },
+    "262144": {
+     "n_depths": 23,
+     "d_max": 8589672448,
+     "d_min": 8583905280,
+     "h_minus_d_max": 6029313,
+     "band_depths_at_scale": 16384,
+     "L_bites": true,
+     "slice_frac": 0.00140380859375
+    },
+    "524288": {
+     "n_depths": 5,
+     "d_max": 8589410304,
+     "d_min": 8587313152,
+     "h_minus_d_max": 2621441,
+     "band_depths_at_scale": 8192,
+     "L_bites": true,
+     "slice_frac": 0.0006103515625
+    },
+    "1048576": {
+     "n_depths": 1,
+     "d_max": 8588886016,
+     "d_min": 8588886016,
+     "h_minus_d_max": 1048577,
+     "band_depths_at_scale": 4096,
+     "L_bites": true,
+     "slice_frac": 0.000244140625
+    }
+   },
+   "max_surviving_M": 1048576,
+   "budget_17n2_25": 3288278229351791355200798,
+   "log2_budget": 81.44360665147562,
+   "first_moment": {
+    "4294967297": {
+     "rprime": 1644972474367,
+     "log2_divisors": 1790794607725.9302,
+     "log2_first_moment_qmin": -356689040774.0698,
+     "log2_first_moment_qmax": -408228648338.0698,
+     "beta_d": 383
+    },
+    "8589934591": {
+     "rprime": 1640677507073,
+     "log2_divisors": 1797505540609.3962,
+     "log2_first_moment_qmin": -2497461754890.6035,
+     "log2_first_moment_qmax": -2600540969982.6035,
+     "beta_d": 1640677507073
+    }
+   }
+  },
+  {
+   "name": "prize 1/8",
+   "n": 2199023255552,
+   "k": 274877906944,
+   "h": 8589934593,
+   "A": 283467841537,
+   "band": [
+    4294967297,
+    8589934591
+   ],
+   "prize": true,
+   "fullrank_needs": {
+    "rule": "n-k >= 3d-1",
+    "n_minus_k": 1924145348608,
+    "d": 8589934591,
+    "need": 25769803772,
+    "ok": true,
+    "margin_ratio": 74.66666667825646
+   },
+   "affine_dim": {
+    "4294967297": 1911260446717,
+    "8589934591": 1898375544835
+   },
+   "h_is_2s_plus_1": true,
+   "max_2power_dividing_gcd_nk": 274877906944,
+   "structured_survivors": {
+    "2": {
+     "n_depths": 2147483647,
+     "d_max": 8589934590,
+     "d_min": 4294967298,
+     "h_minus_d_max": 4294967295,
+     "band_depths_at_scale": 2147483648,
+     "L_bites": true,
+     "slice_frac": 0.9999999995343387
+    },
+    "4": {
+     "n_depths": 1073741823,
+     "d_max": 8589934588,
+     "d_min": 4294967300,
+     "h_minus_d_max": 4294967293,
+     "band_depths_at_scale": 1073741824,
+     "L_bites": true,
+     "slice_frac": 0.9999999990686774
+    },
+    "8": {
+     "n_depths": 536870911,
+     "d_max": 8589934584,
+     "d_min": 4294967304,
+     "h_minus_d_max": 4294967289,
+     "band_depths_at_scale": 536870912,
+     "L_bites": true,
+     "slice_frac": 0.9999999981373549
+    },
+    "16": {
+     "n_depths": 268435455,
+     "d_max": 8589934576,
+     "d_min": 4294967312,
+     "h_minus_d_max": 4294967281,
+     "band_depths_at_scale": 268435456,
+     "L_bites": true,
+     "slice_frac": 0.9999999962747097
+    },
+    "32": {
+     "n_depths": 134217727,
+     "d_max": 8589934560,
+     "d_min": 4294967328,
+     "h_minus_d_max": 4294967265,
+     "band_depths_at_scale": 134217728,
+     "L_bites": true,
+     "slice_frac": 0.9999999925494194
+    },
+    "64": {
+     "n_depths": 67108863,
+     "d_max": 8589934528,
+     "d_min": 4294967360,
+     "h_minus_d_max": 4294967233,
+     "band_depths_at_scale": 67108864,
+     "L_bites": true,
+     "slice_frac": 0.9999999850988388
+    },
+    "128": {
+     "n_depths": 33554431,
+     "d_max": 8589934464,
+     "d_min": 4294967424,
+     "h_minus_d_max": 4294967169,
+     "band_depths_at_scale": 33554432,
+     "L_bites": true,
+     "slice_frac": 0.9999999701976776
+    },
+    "256": {
+     "n_depths": 16777215,
+     "d_max": 8589934336,
+     "d_min": 4294967552,
+     "h_minus_d_max": 4294967041,
+     "band_depths_at_scale": 16777216,
+     "L_bites": true,
+     "slice_frac": 0.9999999403953552
+    },
+    "512": {
+     "n_depths": 7321563,
+     "d_max": 8589934080,
+     "d_min": 4841294336,
+     "h_minus_d_max": 3748640257,
+     "band_depths_at_scale": 8388608,
+     "L_bites": true,
+     "slice_frac": 0.8727983236312866
+    },
+    "1024": {
+     "n_depths": 1828601,
+     "d_max": 8589933568,
+     "d_min": 6717447168,
+     "h_minus_d_max": 1872487425,
+     "band_depths_at_scale": 4194304,
+     "L_bites": true,
+     "slice_frac": 0.4359724521636963
+    },
+    "2048": {
+     "n_depths": 456927,
+     "d_max": 8589932544,
+     "d_min": 7654148096,
+     "h_minus_d_max": 935786497,
+     "band_depths_at_scale": 2097152,
+     "L_bites": true,
+     "slice_frac": 0.2178797721862793
+    },
+    "4096": {
+     "n_depths": 114203,
+     "d_max": 8589930496,
+     "d_min": 8122159104,
+     "h_minus_d_max": 467775489,
+     "band_depths_at_scale": 1048576,
+     "L_bites": true,
+     "slice_frac": 0.10891246795654297
+    },
+    "8192": {
+     "n_depths": 28547,
+     "d_max": 8589926400,
+     "d_min": 8356077568,
+     "h_minus_d_max": 233857025,
+     "band_depths_at_scale": 524288,
+     "L_bites": true,
+     "slice_frac": 0.05444908142089844
+    },
+    "16384": {
+     "n_depths": 7136,
+     "d_max": 8589918208,
+     "d_min": 8473018368,
+     "h_minus_d_max": 116916225,
+     "band_depths_at_scale": 262144,
+     "L_bites": true,
+     "slice_frac": 0.0272216796875
+    },
+    "32768": {
+     "n_depths": 1784,
+     "d_max": 8589901824,
+     "d_min": 8531476480,
+     "h_minus_d_max": 58458113,
+     "band_depths_at_scale": 131072,
+     "L_bites": true,
+     "slice_frac": 0.01361083984375
+    },
+    "65536": {
+     "n_depths": 446,
+     "d_max": 8589869056,
+     "d_min": 8560705536,
+     "h_minus_d_max": 29229057,
+     "band_depths_at_scale": 65536,
+     "L_bites": true,
+     "slice_frac": 0.006805419921875
+    },
+    "131072": {
+     "n_depths": 111,
+     "d_max": 8589803520,
+     "d_min": 8575385600,
+     "h_minus_d_max": 14548993,
+     "band_depths_at_scale": 32768,
+     "L_bites": true,
+     "slice_frac": 0.003387451171875
+    },
+    "262144": {
+     "n_depths": 27,
+     "d_max": 8589672448,
+     "d_min": 8582856704,
+     "h_minus_d_max": 7077889,
+     "band_depths_at_scale": 16384,
+     "L_bites": true,
+     "slice_frac": 0.00164794921875
+    },
+    "524288": {
+     "n_depths": 6,
+     "d_max": 8589410304,
+     "d_min": 8586788864,
+     "h_minus_d_max": 3145729,
+     "band_depths_at_scale": 8192,
+     "L_bites": true,
+     "slice_frac": 0.000732421875
+    },
+    "1048576": {
+     "n_depths": 1,
+     "d_max": 8588886016,
+     "d_min": 8588886016,
+     "h_minus_d_max": 1048577,
+     "band_depths_at_scale": 4096,
+     "L_bites": true,
+     "slice_frac": 0.000244140625
+    }
+   },
+   "max_surviving_M": 1048576,
+   "budget_17n2_25": 3288278229351791355200798,
+   "log2_budget": 81.44360665147562,
+   "first_moment": {
+    "4294967297": {
+     "rprime": 1919850381311,
+     "log2_divisors": 1207313269717.3296,
+     "log2_first_moment_qmin": -940170378782.6704,
+     "log2_first_moment_qmax": -991709986346.6704,
+     "beta_d": 447
+    },
+    "8589934591": {
+     "rprime": 1915555414017,
+     "log2_divisors": 1219206494032.3489,
+     "log2_first_moment_qmin": -3075760801467.6514,
+     "log2_first_moment_qmax": -3178840016559.6514,
+     "beta_d": 1915555414017
+    }
+   }
+  },
+  {
+   "name": "prize 1/16",
+   "n": 2199023255552,
+   "k": 137438953472,
+   "h": 4294967297,
+   "A": 141733920769,
+   "band": [
+    2147483649,
+    4294967295
+   ],
+   "prize": true,
+   "fullrank_needs": {
+    "rule": "n-k >= 3d-1",
+    "n_minus_k": 2061584302080,
+    "d": 4294967295,
+    "need": 12884901884,
+    "ok": true,
+    "margin_ratio": 160.00000004967055
+   },
+   "affine_dim": {
+    "2147483649": 2055141851133,
+    "4294967295": 2048699400195
+   },
+   "h_is_2s_plus_1": true,
+   "max_2power_dividing_gcd_nk": 137438953472,
+   "structured_survivors": {
+    "2": {
+     "n_depths": 1073741823,
+     "d_max": 4294967294,
+     "d_min": 2147483650,
+     "h_minus_d_max": 2147483647,
+     "band_depths_at_scale": 1073741824,
+     "L_bites": true,
+     "slice_frac": 0.9999999990686774
+    },
+    "4": {
+     "n_depths": 536870911,
+     "d_max": 4294967292,
+     "d_min": 2147483652,
+     "h_minus_d_max": 2147483645,
+     "band_depths_at_scale": 536870912,
+     "L_bites": true,
+     "slice_frac": 0.9999999981373549
+    },
+    "8": {
+     "n_depths": 268435455,
+     "d_max": 4294967288,
+     "d_min": 2147483656,
+     "h_minus_d_max": 2147483641,
+     "band_depths_at_scale": 268435456,
+     "L_bites": true,
+     "slice_frac": 0.9999999962747097
+    },
+    "16": {
+     "n_depths": 134217727,
+     "d_max": 4294967280,
+     "d_min": 2147483664,
+     "h_minus_d_max": 2147483633,
+     "band_depths_at_scale": 134217728,
+     "L_bites": true,
+     "slice_frac": 0.9999999925494194
+    },
+    "32": {
+     "n_depths": 67108863,
+     "d_max": 4294967264,
+     "d_min": 2147483680,
+     "h_minus_d_max": 2147483617,
+     "band_depths_at_scale": 67108864,
+     "L_bites": true,
+     "slice_frac": 0.9999999850988388
+    },
+    "64": {
+     "n_depths": 33554431,
+     "d_max": 4294967232,
+     "d_min": 2147483712,
+     "h_minus_d_max": 2147483585,
+     "band_depths_at_scale": 33554432,
+     "L_bites": true,
+     "slice_frac": 0.9999999701976776
+    },
+    "128": {
+     "n_depths": 16777215,
+     "d_max": 4294967168,
+     "d_min": 2147483776,
+     "h_minus_d_max": 2147483521,
+     "band_depths_at_scale": 16777216,
+     "L_bites": true,
+     "slice_frac": 0.9999999403953552
+    },
+    "256": {
+     "n_depths": 8388607,
+     "d_max": 4294967040,
+     "d_min": 2147483904,
+     "h_minus_d_max": 2147483393,
+     "band_depths_at_scale": 8388608,
+     "L_bites": true,
+     "slice_frac": 0.9999998807907104
+    },
+    "512": {
+     "n_depths": 4194303,
+     "d_max": 4294966784,
+     "d_min": 2147484160,
+     "h_minus_d_max": 2147483137,
+     "band_depths_at_scale": 4194304,
+     "L_bites": true,
+     "slice_frac": 0.9999997615814209
+    },
+    "1024": {
+     "n_depths": 1963901,
+     "d_max": 4294966272,
+     "d_min": 2283932672,
+     "h_minus_d_max": 2011034625,
+     "band_depths_at_scale": 2097152,
+     "L_bites": true,
+     "slice_frac": 0.9364609718322754
+    },
+    "2048": {
+     "n_depths": 490735,
+     "d_max": 4294965248,
+     "d_min": 3289942016,
+     "h_minus_d_max": 1005025281,
+     "band_depths_at_scale": 1048576,
+     "L_bites": true,
+     "slice_frac": 0.4680013656616211
+    },
+    "4096": {
+     "n_depths": 122653,
+     "d_max": 4294963200,
+     "d_min": 3792580608,
+     "h_minus_d_max": 502386689,
+     "band_depths_at_scale": 524288,
+     "L_bites": true,
+     "slice_frac": 0.23394203186035156
+    },
+    "8192": {
+     "n_depths": 30659,
+     "d_max": 4294959104,
+     "d_min": 4043808768,
+     "h_minus_d_max": 251158529,
+     "band_depths_at_scale": 262144,
+     "L_bites": true,
+     "slice_frac": 0.11695480346679688
+    },
+    "16384": {
+     "n_depths": 7664,
+     "d_max": 4294950912,
+     "d_min": 4169400320,
+     "h_minus_d_max": 125566977,
+     "band_depths_at_scale": 131072,
+     "L_bites": true,
+     "slice_frac": 0.0584716796875
+    },
+    "32768": {
+     "n_depths": 1916,
+     "d_max": 4294934528,
+     "d_min": 4232183808,
+     "h_minus_d_max": 62783489,
+     "band_depths_at_scale": 65536,
+     "L_bites": true,
+     "slice_frac": 0.02923583984375
+    },
+    "65536": {
+     "n_depths": 479,
+     "d_max": 4294901760,
+     "d_min": 4263575552,
+     "h_minus_d_max": 31391745,
+     "band_depths_at_scale": 32768,
+     "L_bites": true,
+     "slice_frac": 0.014617919921875
+    },
+    "131072": {
+     "n_depths": 119,
+     "d_max": 4294836224,
+     "d_min": 4279369728,
+     "h_minus_d_max": 15597569,
+     "band_depths_at_scale": 16384,
+     "L_bites": true,
+     "slice_frac": 0.00726318359375
+    },
+    "262144": {
+     "n_depths": 29,
+     "d_max": 4294705152,
+     "d_min": 4287365120,
+     "h_minus_d_max": 7602177,
+     "band_depths_at_scale": 8192,
+     "L_bites": true,
+     "slice_frac": 0.0035400390625
+    },
+    "524288": {
+     "n_depths": 7,
+     "d_max": 4294443008,
+     "d_min": 4291297280,
+     "h_minus_d_max": 3670017,
+     "band_depths_at_scale": 4096,
+     "L_bites": true,
+     "slice_frac": 0.001708984375
+    },
+    "1048576": {
+     "n_depths": 1,
+     "d_max": 4293918720,
+     "d_min": 4293918720,
+     "h_minus_d_max": 1048577,
+     "band_depths_at_scale": 2048,
+     "L_bites": true,
+     "slice_frac": 0.00048828125
+    }
+   },
+   "max_surviving_M": 1048576,
+   "budget_17n2_25": 3288278229351791355200798,
+   "log2_budget": 81.44360665147562,
+   "first_moment": {
+    "2147483649": {
+     "rprime": 2059436818431,
+     "log2_divisors": 750072990505.0819,
+     "log2_first_moment_qmin": -323668833994.9181,
+     "log2_first_moment_qmax": -349438637782.9181,
+     "beta_d": 959
+    },
+    "4294967295": {
+     "rprime": 2057289334785,
+     "log2_divisors": 758386384098.7137,
+     "log2_first_moment_qmin": -1389097263401.2861,
+     "log2_first_moment_qmax": -1440636870941.2861,
+     "beta_d": 2057289334785
+    }
+   }
+  }
+ ],
+ "checks": [
+  {
+   "check": "R1: the full-rank stratum is non-vacuous at every band-proper depth (n-k >= 3d-1)",
+   "fixture": "RowC 1/4",
+   "ok": true,
+   "extra": {
+    "rule": "n-k >= 3d-1",
+    "n_minus_k": 768,
+    "d": 3,
+    "need": 8,
+    "ok": true,
+    "margin_ratio": 96.0
+   }
+  },
+  {
+   "check": "R2: affine window dimension r'-2d is positive across the band",
+   "fixture": "RowC 1/4",
+   "ok": true,
+   "extra": {
+    "3": 759
+   }
+  },
+  {
+   "check": "R4: the raw first moment is astronomically below the budget at both band ends (evidence only, not a bound)",
+   "fixture": "RowC 1/4",
+   "ok": true,
+   "extra": {
+    "3": -705.6543528737543
+   }
+  },
+  {
+   "check": "R1: the full-rank stratum is non-vacuous at every band-proper depth (n-k >= 3d-1)",
+   "fixture": "RowC 1/8",
+   "ok": true,
+   "extra": {
+    "rule": "n-k >= 3d-1",
+    "n_minus_k": 896,
+    "d": 3,
+    "need": 8,
+    "ok": true,
+    "margin_ratio": 112.0
+   }
+  },
+  {
+   "check": "R2: affine window dimension r'-2d is positive across the band",
+   "fixture": "RowC 1/8",
+   "ok": true,
+   "extra": {
+    "3": 887
+   }
+  },
+  {
+   "check": "R4: the raw first moment is astronomically below the budget at both band ends (evidence only, not a bound)",
+   "fixture": "RowC 1/8",
+   "ok": true,
+   "extra": {
+    "3": -975.7701799690498
+   }
+  },
+  {
+   "check": "R1: the full-rank stratum is non-vacuous at every band-proper depth (n-k >= 3d-1)",
+   "fixture": "RowC 1/16",
+   "ok": true,
+   "extra": {
+    "rule": "n-k >= 3d-1",
+    "n_minus_k": 960,
+    "d": 1,
+    "need": 2,
+    "ok": true,
+    "margin_ratio": 480.0
+   }
+  },
+  {
+   "check": "R2: affine window dimension r'-2d is positive across the band",
+   "fixture": "RowC 1/16",
+   "ok": true,
+   "extra": {
+    "2": 954,
+    "1": 957
+   }
+  },
+  {
+   "check": "R4: the raw first moment is astronomically below the budget at both band ends (evidence only, not a bound)",
+   "fixture": "RowC 1/16",
+   "ok": true,
+   "extra": {
+    "2": -675.1505357994812,
+    "1": -167.0115286851398
+   }
+  },
+  {
+   "check": "R1: the full-rank stratum is non-vacuous at every band-proper depth (n-k >= 3d-1)",
+   "fixture": "prize 1/4",
+   "ok": true,
+   "extra": {
+    "rule": "n-k >= 3d-1",
+    "n_minus_k": 1649267441664,
+    "d": 8589934591,
+    "need": 25769803772,
+    "ok": true,
+    "margin_ratio": 64.00000000993411
+   }
+  },
+  {
+   "check": "R2: affine window dimension r'-2d is positive across the band",
+   "fixture": "prize 1/4",
+   "ok": true,
+   "extra": {
+    "4294967297": 1636382539773,
+    "8589934591": 1623497637891
+   }
+  },
+  {
+   "check": "R3: the maximal surviving coset scale is 2^20 (banked audit: M = 2^1..2^20)",
+   "fixture": "prize 1/4",
+   "ok": true,
+   "extra": {
+    "max_M": 1048576,
+    "log2": 20.0
+   }
+  },
+  {
+   "check": "R3b: at the maximal scale the surviving depths are a THIN slice at the top of the band",
+   "fixture": "prize 1/4",
+   "ok": true,
+   "extra": {
+    "n_depths": 1,
+    "d_max": 8588886016,
+    "d_min": 8588886016,
+    "h_minus_d_max": 1048577,
+    "band_depths_at_scale": 4096,
+    "L_bites": true,
+    "slice_frac": 0.000244140625
+   }
+  },
+  {
+   "check": "R4: the raw first moment is astronomically below the budget at both band ends (evidence only, not a bound)",
+   "fixture": "prize 1/4",
+   "ok": true,
+   "extra": {
+    "4294967297": -408228648338.0698,
+    "8589934591": -2600540969982.6035
+   }
+  },
+  {
+   "check": "R1: the full-rank stratum is non-vacuous at every band-proper depth (n-k >= 3d-1)",
+   "fixture": "prize 1/8",
+   "ok": true,
+   "extra": {
+    "rule": "n-k >= 3d-1",
+    "n_minus_k": 1924145348608,
+    "d": 8589934591,
+    "need": 25769803772,
+    "ok": true,
+    "margin_ratio": 74.66666667825646
+   }
+  },
+  {
+   "check": "R2: affine window dimension r'-2d is positive across the band",
+   "fixture": "prize 1/8",
+   "ok": true,
+   "extra": {
+    "4294967297": 1911260446717,
+    "8589934591": 1898375544835
+   }
+  },
+  {
+   "check": "R3: the maximal surviving coset scale is 2^20 (banked audit: M = 2^1..2^20)",
+   "fixture": "prize 1/8",
+   "ok": true,
+   "extra": {
+    "max_M": 1048576,
+    "log2": 20.0
+   }
+  },
+  {
+   "check": "R3b: at the maximal scale the surviving depths are a THIN slice at the top of the band",
+   "fixture": "prize 1/8",
+   "ok": true,
+   "extra": {
+    "n_depths": 1,
+    "d_max": 8588886016,
+    "d_min": 8588886016,
+    "h_minus_d_max": 1048577,
+    "band_depths_at_scale": 4096,
+    "L_bites": true,
+    "slice_frac": 0.000244140625
+   }
+  },
+  {
+   "check": "R4: the raw first moment is astronomically below the budget at both band ends (evidence only, not a bound)",
+   "fixture": "prize 1/8",
+   "ok": true,
+   "extra": {
+    "4294967297": -991709986346.6704,
+    "8589934591": -3178840016559.6514
+   }
+  },
+  {
+   "check": "R1: the full-rank stratum is non-vacuous at every band-proper depth (n-k >= 3d-1)",
+   "fixture": "prize 1/16",
+   "ok": true,
+   "extra": {
+    "rule": "n-k >= 3d-1",
+    "n_minus_k": 2061584302080,
+    "d": 4294967295,
+    "need": 12884901884,
+    "ok": true,
+    "margin_ratio": 160.00000004967055
+   }
+  },
+  {
+   "check": "R2: affine window dimension r'-2d is positive across the band",
+   "fixture": "prize 1/16",
+   "ok": true,
+   "extra": {
+    "2147483649": 2055141851133,
+    "4294967295": 2048699400195
+   }
+  },
+  {
+   "check": "R3: the maximal surviving coset scale is 2^20 (banked audit: M = 2^1..2^20)",
+   "fixture": "prize 1/16",
+   "ok": true,
+   "extra": {
+    "max_M": 1048576,
+    "log2": 20.0
+   }
+  },
+  {
+   "check": "R3b: at the maximal scale the surviving depths are a THIN slice at the top of the band",
+   "fixture": "prize 1/16",
+   "ok": true,
+   "extra": {
+    "n_depths": 1,
+    "d_max": 4293918720,
+    "d_min": 4293918720,
+    "h_minus_d_max": 1048577,
+    "band_depths_at_scale": 2048,
+    "L_bites": true,
+    "slice_frac": 0.00048828125
+   }
+  },
+  {
+   "check": "R4: the raw first moment is astronomically below the budget at both band ends (evidence only, not a bound)",
+   "fixture": "prize 1/16",
+   "ok": true,
+   "extra": {
+    "2147483649": -349438637782.9181,
+    "4294967295": -1440636870941.2861
+   }
+  }
+ ],
+ "n_checks": 24,
+ "n_fail": 0,
+ "verdict": "PASS"
+}
