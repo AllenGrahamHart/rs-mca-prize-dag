@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 742,
+  "node": {
+    "id": "f2_growing_order_myerson",
+    "status": "TARGET",
+    "statement": "LEGACY F2 SUMMIT, scope-corrected after Round 17: for the Frobenius tower's moving sectors, the Gaussian-period-norm census deviation obeys a max-to-mean bound within tolerance 2^{1.05e12}. This remains a meaningful growing-order Myerson/Q target on sectors where its hypotheses apply, but the tower is not the official admissible-row decomposition and (O1) is false on non-generating admissible rows. It is therefore evidence for, not the sole requirement of, the repaired all-row F2 close.",
+    "upstream": {
+      "label": "U_Q / row-sharp Q atom (K2, Sidon-Fourier payment)",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f2_conditional_close"
+    }
+  ],
+  "refutes": []
+}

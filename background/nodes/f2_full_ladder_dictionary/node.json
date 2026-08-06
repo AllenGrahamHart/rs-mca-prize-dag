@@ -16,6 +16,9 @@
     {
       "to": "shared_census_kernel",
       "order": 1254
+    },
+    {
+      "to": "f2_conditional_close"
     }
   ],
   "refutes": []

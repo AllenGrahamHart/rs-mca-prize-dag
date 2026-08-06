@@ -37,3 +37,11 @@ cost is below `$0.02`.
   critical wiring without promoting the F2 conclusion.
 - Any failure: preserve the result and do not alter the critical route until
   the source/provenance discrepancy is understood.
+
+## Result
+
+Modal app `ap-gc4EOdiUFEghRR4qkIjUfX` returned `373 PASS`, `0 FAIL`, digest
+`F2_ADM_ALL_PASS`.  Result JSON SHA-256:
+`3e736e49a75ae3f944f3608fbd0e384ca08a94a3c16939a4a12c382f0c82e6ca`.
+The promotion rule therefore authorizes the printed direct-sum supplier and
+critical-route repair, subject to node-level verification below.

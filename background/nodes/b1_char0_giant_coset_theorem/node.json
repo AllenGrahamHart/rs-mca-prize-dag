@@ -17,6 +17,9 @@
     {
       "to": "u2c_giant_tnull_dichotomy",
       "order": 1082
+    },
+    {
+      "to": "f2_conditional_close"
     }
   ],
   "refutes": []

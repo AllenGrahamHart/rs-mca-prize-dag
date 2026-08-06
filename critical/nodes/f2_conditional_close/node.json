@@ -3,39 +3,21 @@
   "order": 743,
   "node": {
     "id": "f2_conditional_close",
-    "status": "CONDITIONAL",
-    "statement": "F2 CONDITIONAL CLOSE (2026-07-10, the campaign's L5 assembly executed conditionally \u2014 house pattern of f3_h3_officialrow_conditional_close and f5_npb_conditional_close): CONDITIONAL ON f2_growing_order_myerson, the consumer arithmetic closes: extras(official row) = [b <= t: 0, EMPTY unconditional] + [edge band: 0, PROVED] + [Frobenius-fixed and symmetric sectors: 1 + o(1) flat, PROVED chain] + [moving-sector interior: <= mean x 2^{1.05e12} by the assumed summit <= 2^{-1e12}-scale x tolerance << n^3] => total extras + trades <= n^3 = 2^123 at official prize-max rows with astronomical room; the consumer (x4 via the giant-extras budget) is served. The F2 red therefore reduces, as wired DAG structure, to exactly one named open input. Assembly arithmetic replayed in the campaign log; every non-summit link PROVED with digests. | PROOF-SKELETON WIRING (2026-07-10, completing the route commitment): the assembly's proved inputs are now req-wired \u2014 empty bands (f2_newton_empty_extremes), edge band (f2_edge_lemma), the dictionary (f2_full_ladder_dictionary), sector contraction (f2_k1_contraction_theorem), near-tails (b2b_near_tail_bound), and the struct census (b1_char0_giant_coset_theorem) \u2014 so the committed chain's green skeleton is on the critical surface alongside its one red leaf (the summit). Evidence-grade satellites (measurements, no-gos, watches) remain ev by design."
+    "status": "TARGET",
+    "title": "All-admissible-row F2 extras-budget close",
+    "statement": "ROUND-17 REPAIR: prove directly that non-coset-union F2 extras plus trade families are at most n^3=2^123 on every official prize-max admissible row. The July conditional close on growing-order Myerson is not valid at this scope: the 16-rung tower is inadmissible, there are at most two moving rungs, and (O1) is false whenever ord_n(p)<[F_q:F_p]. The proved empty/edge bands, dictionary, contraction, near-tail, structural census, and admissible direct-sum reduction remain available. The honest attack surface is: generating-row prime-field GRS ternary mass; a direct replacement payment on non-generating rows; the PP5.0 average-to-sum seam; and any coset-sensitive use of Frobenius antipodal descent. No consumer status is promoted by this repair.",
+    "refs": [
+      "critical/nodes/f2_conditional_close/statement.md",
+      "critical/nodes/f2_conditional_close/attack.md",
+      "critical/nodes/f2_conditional_close/audit.md",
+      "critical/nodes/f2_conditional_close/claim_contract.md",
+      "critical/nodes/f2_conditional_close/dependency_subdag.md",
+      "critical/nodes/f2_conditional_close/verify.py",
+      "notes/pilots_20260806/f2_adm/PROOFS.md",
+      "notes/pilots_20260806/f2_adm/FABLE_AUDIT.md"
+    ]
   },
-  "requires": [
-    {
-      "from": "f2_growing_order_myerson",
-      "order": 1263
-    },
-    {
-      "from": "f2_newton_empty_extremes",
-      "order": 1285
-    },
-    {
-      "from": "f2_edge_lemma",
-      "order": 1286
-    },
-    {
-      "from": "f2_full_ladder_dictionary",
-      "order": 1287
-    },
-    {
-      "from": "f2_k1_contraction_theorem",
-      "order": 1288
-    },
-    {
-      "from": "b2b_near_tail_bound",
-      "order": 1289
-    },
-    {
-      "from": "b1_char0_giant_coset_theorem",
-      "order": 1290
-    }
-  ],
+  "requires": [],
   "alternatives": [],
   "evidence_for": [],
   "refutes": []

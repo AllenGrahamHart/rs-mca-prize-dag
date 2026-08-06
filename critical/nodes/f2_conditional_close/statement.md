@@ -1,6 +1,15 @@
 # f2_conditional_close
 
-- **status:** see dag.json
-- **source:** F2 campaign (prize/notes/f2_campaign/, log entries 0-84)
+- **status:** TARGET
+- **consumer:** `u2c_giant_tnull_dichotomy`
 
-See the dag.json statement field (authoritative).
+Prove, for every official prize-max admissible row,
+
+```text
+#{non-coset-union F2 extras + trade families} <= n^3=2^123.
+```
+
+The July growing-order Myerson conditional close is retired as the route of
+record. Round 17 proves that its tower is not the official decomposition and
+that its `(O1)` premise is false on non-generating admissible rows. The
+target conclusion itself is not refuted.
