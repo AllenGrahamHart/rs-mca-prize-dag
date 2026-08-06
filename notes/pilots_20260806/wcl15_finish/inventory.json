@@ -1,0 +1,114 @@
+{
+  "batch_size": 64,
+  "class_count": 2296920,
+  "covered_rows": 1365248,
+  "distinct_unresolved_norms": 111,
+  "expected_batches": 35890,
+  "extra_indices": [],
+  "files_scanned": 21332,
+  "files_seen": 21332,
+  "high_gate_cases": [],
+  "invalid": [],
+  "inventory_digest": "e66c4badb927d59dc637fe9d57028b95ba97e0f32dce920dd43d9938176890a8",
+  "maximum_v2_prime_minus_1": 30,
+  "missing_batches": 14558,
+  "missing_prime_shards": [],
+  "missing_ranges": [
+    [
+      20393,
+      20393
+    ],
+    [
+      20929,
+      20929
+    ],
+    [
+      21107,
+      21107
+    ],
+    [
+      21148,
+      21148
+    ],
+    [
+      21180,
+      21180
+    ],
+    [
+      21256,
+      21256
+    ],
+    [
+      21298,
+      21298
+    ],
+    [
+      21305,
+      21305
+    ],
+    [
+      21312,
+      21315
+    ],
+    [
+      21318,
+      21320
+    ],
+    [
+      21322,
+      21324
+    ],
+    [
+      21327,
+      21327
+    ],
+    [
+      21332,
+      21332
+    ],
+    [
+      21335,
+      21335
+    ],
+    [
+      21338,
+      21339
+    ],
+    [
+      21346,
+      21346
+    ],
+    [
+      21348,
+      21351
+    ],
+    [
+      21353,
+      21353
+    ],
+    [
+      21358,
+      21360
+    ],
+    [
+      21362,
+      21365
+    ],
+    [
+      21367,
+      21377
+    ],
+    [
+      21379,
+      35889
+    ]
+  ],
+  "representative_sha256": "9ac0ca650e704a13514180fe2d8bcea94943c771f125b3942888a6aba8c87f00",
+  "resolved_rows": 1365137,
+  "run_id": "weight5-recursive-norm-full-v2",
+  "schema": "wcl15-finish-inventory-v1",
+  "seconds": 210.018416,
+  "status": "COMPLETE",
+  "unresolved_cases": 111,
+  "valid_batches": 21332
+}

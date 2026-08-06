@@ -60,3 +60,11 @@ the same container, timeout, and cost ceiling, changing only the reader to at
 most 64 concurrent I/O threads.  It performs the identical validations and
 still launches no norm or factor computation.  A second partial result ends
 this inventory route; no further retry is authorized here.
+
+The retry completed in app `ap-glG3TjqDK6BZ7fnKLzf0qw` and stopped normally.
+It validated all 21,332 summaries, covering 1,365,248 rows with 111 distinct
+unresolved norms.  Exactly 14,558 batches remain; no invalid summary, extra
+index, missing prime shard, or high-gate case was found.  The recorded maximum
+is `v_2(p-1)=30`.  The complete inventory took 210.018416 seconds and has
+file SHA-256
+`52aaac5ba078999383d62b586007874772c1f5bef909e639d8b0fe4076df754d`.

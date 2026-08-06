@@ -5116,6 +5116,13 @@ makes a bounded range complete.
   unresolved norms and maximum `v_2(p-1)=29`.  One same-ceiling retry is
   authorized with at most 64 concurrent I/O threads; a second partial ends
   the inventory route.
+  Retry app `ap-glG3TjqDK6BZ7fnKLzf0qw` completed and stopped normally.  It
+  validates all 21,332 summaries and prime shards: 1,365,248 covered rows,
+  111 distinct unresolved norms, 14,558 missing batches, no invalid/extra
+  record, no missing shard, no official-gate factor, and maximum
+  `v_2(p-1)=30`.  The complete inventory is
+  `notes/pilots_20260806/wcl15_finish/inventory.json`, SHA-256
+  `52aaac5ba078999383d62b586007874772c1f5bef909e639d8b0fe4076df754d`.
 
 - **2026-08-03 interrupted-census checkpoint (Codex pin `8502b105`):**
   app `ap-f8oZLbaSVpbTXtCz4cPG2Z` extended the exact `(1,5)` recursive-norm
