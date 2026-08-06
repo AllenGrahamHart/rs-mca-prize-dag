@@ -7,20 +7,20 @@ declared one of them "stale". This verifier pins both and their exact delta so
 the confusion cannot silently return.
 
   MATH ORBIT      req-ancestry (+ the alt-closure rule) of the two grand-challenge
-                  nodes {mca_grand, list_grand}.  240 = 176 PROVED / 39 CONDITIONAL
-                  / 25 TARGET.  This is what orbit/critical_dag.json, the radial
+                  nodes {mca_grand, list_grand}.  242 = 176 PROVED / 39 CONDITIONAL
+                  / 27 TARGET.  This is what orbit/critical_dag.json, the radial
                   SVG, the published site, the partition law in verify_prize_dag.py,
-                  and verify_critical_harness_coverage.py all measure.  Its 25
+                  and verify_critical_harness_coverage.py all measure.  Its 27
                   TARGETs are the mathematical leaves of the roadmap.
 
-  SUBMISSION ORBIT  the same closure rooted at `prize`.  255 = 188 / 41 / 26.
+  SUBMISSION ORBIT  the same closure rooted at `prize`.  257 = 188 / 41 / 28.
                   Strict superset: MATH ORBIT + 15 packaging/bridge/Lean-harness
                   nodes (12 PROVED, 2 CONDITIONAL, 1 TARGET), enumerated below.
                   This is the Convergence Ledger's baseline and equals the
                   dominator set printed by verify_prize_dag.py's every-route
-                  analysis (26 open dominators == the 26 submission-orbit TARGETs).
+                  analysis (28 open dominators == the 28 submission-orbit TARGETs).
 
-Neither census is stale; 255 - 240 = 15 is definitional, not drift. Consumers must
+Neither census is stale; 257 - 242 = 15 is definitional, not drift. Consumers must
 say WHICH orbit they mean. Burn-down of *mathematics* is the math orbit; the
 "all-green DAG" end state is the submission orbit (it owns the dossier leaf).
 
@@ -81,8 +81,14 @@ SUBMISSION_ROOT = "prize"
 # The corrected maximum-prefix TARGET replaces it at the same leaf position;
 # only the obsolete CONDITIONAL adapter leaves each orbit. The submission
 # spine remains exactly 15 nodes.
-EXPECTED_MATH = {"PROVED": 176, "CONDITIONAL": 39, "TARGET": 25}
-EXPECTED_SUBMISSION = {"PROVED": 188, "CONDITIONAL": 41, "TARGET": 26}
+# 2026-08-06 X4 OWNERSHIP REPAIR: the maximum-prefix leaf had conflated the
+# structured moment/null pullback population with the primitive star-PTE
+# residue, and the x4 amber silently reused MCA budget arithmetic. Two genuine
+# list-side leaves are now explicit: primitive-star-to-u1 coverage and the
+# summed per-word numerator. Net: +2 TARGET in both orbits; no theorem status
+# changed and the 15-node submission spine is unchanged.
+EXPECTED_MATH = {"PROVED": 176, "CONDITIONAL": 39, "TARGET": 27}
+EXPECTED_SUBMISSION = {"PROVED": 188, "CONDITIONAL": 41, "TARGET": 28}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no

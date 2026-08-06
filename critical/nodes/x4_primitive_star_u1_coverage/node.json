@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "x4_primitive_star_u1_coverage",
+    "title": "Primitive exact-list star coverage by the u1 record ledger",
+    "status": "TARGET",
+    "closure": "open",
+    "statement": "At every x4 official row and every transported quotient row, fix the declared support-wise priority map and a primitive residual locator-prefix fiber. For each base support S0, inject every other residual support S, through its canonical order-t star-PTE record (S\\S0,S0\\S), into exactly one record counted by the u1_x4_direct_column_budget ledger, with multiplicity at most one and with the same quotient/dihedral/moment/U2/DLI strips. In particular justify the load-bearing F-4 passage from general order-t star records to the order-(h-1) minimal records used by the current h>=4 route, or re-pose u1 to count all required records and re-prove its budget. This coverage gives |F_z^prim|-1<=R_post and is required uniformly before the u1 bound can be consumed as a worst-word list bound.",
+    "falsifier": "A correctly stripped primitive same-prefix pair whose canonical star-PTE record is not assigned to any u1 record, is assigned only after changing strip ownership, or incurs unbounded multiplicity under the proposed coverage map.",
+    "refs": [
+      "critical/nodes/x4_primitive_star_u1_coverage/statement.md",
+      "critical/nodes/x4_primitive_star_u1_coverage/attack.md",
+      "critical/nodes/x4_primitive_star_u1_coverage/claim_contract.md",
+      "critical/nodes/x4_primitive_star_u1_coverage/dependency_subdag.md"
+    ],
+    "upstream": {
+      "source": "rs-mca v13 prob:capg-active-shiftpairs coverage clause",
+      "relation": "FINITE_COVERAGE_INSTANCE"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

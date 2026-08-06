@@ -2,11 +2,11 @@
   "schema": "prize-dag-node-v1",
   "node": {
     "id": "u2c_exact_slice_extras_budget",
-    "title": "Official exact-slice worst-prefix residual budget",
+    "title": "Official exact-slice structured moment/pullback column budget",
     "status": "TARGET",
     "closure": "open",
-    "statement": "At every official exact-list corridor row, let A=K+t_XR and let Phi_{A,t_XR} map each A-subset to the first t_XR sub-leading coefficients of its monic locator. For every prefix z, remove the quotient, dihedral, boundary, moment-trade, and other explicitly paid x4 first-match classes, and let R_z be the remaining primitive support/list-member fiber. Prove max_z |R_z| <= N^3=2^123. This is the sufficient exact-slice boundary-prefix budget consumed by x4. A census only of t_XR-null blocks does not prove it: in characteristic p, t-nullity fixes only p-free prefix coordinates, and even a full null fiber need not be heaviest. The guarded full-subset F2 terminal and the proved null-fiber near tails remain evidence for a possible strip-aware exchange-compression route, not logical substitutes for the maximum-prefix quantifier.",
-    "falsifier": "An official corridor row, a locator prefix z, and a certified first-match post-strip fiber R_z with more than N^3 distinct residual supports/list members.",
+    "statement": "At every official exact-list corridor row, let A=K+t_XR and partition each full locator-prefix fiber by one declared support-wise first-match rule. After the quotient and dihedral owners, let M_z be the actual set of list supports assigned to the structured non-quotient moment-null/U2-boundary pullback bucket, including every staircase expansion and after parameter-image coalescing. Prove max_z |M_z|<=N^3=2^123. This is a structured Q/MT column, disjoint from the primitive star-PTE residue owned by u1. A census of t_XR-null generator blocks or families does not by itself prove the claim: it must also prove the expansion, first ownership, maximum-prefix transport, and coalescing needed to count actual list members. The guarded F2 terminal and null-fiber near-tail payments remain evidence for that structured-column proof, not substitutes for its quantifiers.",
+    "falsifier": "An official corridor row, locator prefix z, and certified first-match structured moment/U2 pullback bucket containing more than N^3 actual list supports after expansion and coalescing, or an unbounded expansion multiplicity omitted by the proposed ledger.",
     "refs": [
       "critical/nodes/u2c_exact_slice_extras_budget/statement.md",
       "critical/nodes/u2c_exact_slice_extras_budget/attack.md",

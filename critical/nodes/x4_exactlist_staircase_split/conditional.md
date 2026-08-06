@@ -1,9 +1,12 @@
 # conditional: x4_exactlist_staircase_split
 
 Hypotheses (matches wiring after full-lane compression):
+- moment_trade_staircase
 - dli_prime_weighted_large_block_support (FRONTIER red: weighted/RES count)
-- u2c_exact_slice_extras_budget (maximum post-strip locator-prefix fiber)
-- u1_pullback_dichotomy (red: compression theorem)
+- u2c_exact_slice_extras_budget (structured moment/U2 list column)
+- x4_primitive_star_u1_coverage (general star records -> u1 ledger)
+- u1_x4_direct_column_budget (strict universal record bound)
+- x4_exactlist_summed_budget (one list-side integer sum)
 - b2b_dyadic_descent_packet
 - b2b_near_tail_bound
 - bounded_coeff_norm_gate
@@ -20,5 +23,7 @@ Hypotheses (matches wiring after full-lane compression):
 - skew_support_threshold
 - subfield_trace_paid_gate
 - u2_per_row_certifier
+- xr_syzygy_support_lemma
+- xr_scattered_syzygy_flattice
 
 Composed proof: REDUCTION_PACKET.md.

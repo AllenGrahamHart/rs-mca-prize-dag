@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "x4_exactlist_summed_budget",
+    "title": "Exact-list first-match summed numerator budget",
+    "status": "TARGET",
+    "closure": "open",
+    "statement": "For every official x4 row and every quotient row consumed by TR, print one support-wise priority map and exact integer list-side numerators U_paid, U_QD, U_MT, and U_prim for the paid background, quotient/dihedral, structured moment/U2, and primitive star buckets. Prove coverage, coalescing, and the single comparison U_paid+U_QD+U_MT+U_prim <= B*=floor(|F|/2^128), using U_MT<=n^3 only from u2c and U_prim<=16n^3 only after the primitive-star-to-u1 coverage theorem. QA.22 may supply arithmetic evidence but its per-pair MCA slope reserve is not this list-side certificate. The table must include every row actually consumed; six-candidate arithmetic cannot silently certify the wider 29-row or quotient-row family.",
+    "falsifier": "A consumed official or quotient row where the complete disjoint list-side column sum exceeds B*, an assigned support is omitted or counted twice, or the asserted sum uses an MCA slope numerator in place of a list-member numerator.",
+    "refs": [
+      "critical/nodes/x4_exactlist_summed_budget/statement.md",
+      "critical/nodes/x4_exactlist_summed_budget/attack.md",
+      "critical/nodes/x4_exactlist_summed_budget/claim_contract.md",
+      "critical/nodes/x4_exactlist_summed_budget/dependency_subdag.md"
+    ],
+    "upstream": {
+      "source": "rs-mca v13 def:capg-frontier-ledger and prop:capg-final-active-package",
+      "relation": "FINITE_LIST_LEDGER_INSTANCE"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

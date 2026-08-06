@@ -1,0 +1,47 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "x4_exactlist_bucket_currency_ownership",
+    "title": "Exact-list bucket ownership and currency separation",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Fix a depth-t locator-prefix fiber and a support-wise first-match partition. Choosing one residual base support S0 injects every other residual support S into its canonical star-PTE record (S\\S0,S0\\S), of width h in [t+1,min(A,n-A)] and with equal elementary coefficients through order t. Hence a proved injection of all residual star records into a universal record ledger of size R gives a local primitive fiber bound 1+R. This is the primitive SP bucket. In contrast, t-null blocks and their staircase expansions are structured moment/pullback generators and belong to a separate Q/MT bucket; counting generators alone does not count the expanded list members. Finally, QA.22's per-pair bad-slope reserve is MCA currency and does not by itself bound a per-word list fiber. Therefore x4 needs three separately typed inputs: structured-column population, primitive-star coverage into its record ledger, and one list-side summed budget. None may be substituted for another without a proved adapter.",
+    "refs": [
+      "background/nodes/x4_exactlist_bucket_currency_ownership/statement.md",
+      "background/nodes/x4_exactlist_bucket_currency_ownership/proof.md",
+      "background/nodes/x4_exactlist_bucket_currency_ownership/audit.md",
+      "background/nodes/x4_exactlist_bucket_currency_ownership/dependency_subdag.md"
+    ],
+    "upstream": {
+      "source": "rs-mca v13 frontier upper ledger and active Q/BC/SP inputs",
+      "relation": "OWNERSHIP_ADAPTER"
+    }
+  },
+  "requires": [
+    {
+      "from": "star_pte_lemma"
+    },
+    {
+      "from": "x4_maxfiber_local_shiftpair_equivalence"
+    },
+    {
+      "from": "moment_trade_staircase"
+    },
+    {
+      "from": "ww_qa22_currency_separation"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_exact_slice_extras_budget"
+    },
+    {
+      "to": "x4_primitive_star_u1_coverage"
+    },
+    {
+      "to": "x4_exactlist_summed_budget"
+    }
+  ],
+  "refutes": []
+}

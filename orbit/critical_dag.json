@@ -1064,7 +1064,7 @@
   {
    "id": "u2c_exact_slice_extras_budget",
    "label": "UNPROVED",
-   "title": "Official exact-slice worst-prefix residual budget"
+   "title": "Official exact-slice structured moment/pullback column budget"
   },
   {
    "id": "unsafe_at_crossing",
@@ -1109,7 +1109,17 @@
   {
    "id": "x4_exactlist_staircase_split",
    "label": "CONDITIONAL",
-   "title": "THE CORRECTED LIST TARGET (X-4 verdict, verified): staircase split + primitive bound"
+   "title": "Conditional exact-list first-match assembly with typed Q/MT and SP columns"
+  },
+  {
+   "id": "x4_exactlist_summed_budget",
+   "label": "UNPROVED",
+   "title": "Exact-list first-match summed numerator budget"
+  },
+  {
+   "id": "x4_primitive_star_u1_coverage",
+   "label": "UNPROVED",
+   "title": "Primitive exact-list star coverage by the u1 record ledger"
   },
   {
    "id": "x81_minimal_trade_square_shift",
@@ -2391,6 +2401,14 @@
   {
    "from": "dli_wcl_weight4_ambient_exclusion",
    "to": "dli_wcl_slot_1_5_emptiness"
+  },
+  {
+   "from": "x4_exactlist_summed_budget",
+   "to": "x4_exactlist_staircase_split"
+  },
+  {
+   "from": "x4_primitive_star_u1_coverage",
+   "to": "x4_exactlist_staircase_split"
   }
  ]
 }

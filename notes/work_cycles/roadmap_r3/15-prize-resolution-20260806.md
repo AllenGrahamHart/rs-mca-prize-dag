@@ -1059,3 +1059,77 @@ new assumptions: none
 compute: bounded exact enumeration under tiny RAM guard; no Modal spend
 next: bound local primitive shift-pair degree after quotient and moment-trade strips
 ```
+
+### Exact-list ownership repair: structured Q/MT, primitive SP, and final budget
+
+The repository and upstream scan found no new theorem-bearing PR that closes
+the current exact-list frontier. Draft PR `#1150` remains the only directly
+relevant open Q/F2 packet and still has no mathematical review. Upstream v13
+now states the useful discipline explicitly: a finite upper certificate needs
+one priority map, disjoint Q/BC/SP buckets, a coverage theorem, and one summed
+numerator. Its primitive shift-pair input also says that the global second
+moment does not replace the required local maximum.
+
+Applying that discipline exposed an ownership error in our August 6 re-pose.
+The corrected full-prefix quantifier was right, but assigning the entire
+post-strip primitive fiber to `u2c_exact_slice_extras_budget` was not. The
+historical `x4` graph required both `u2c` and `u1` because they own different
+objects:
+
+```text
+u2c : structured moment/null and U2-boundary pullback list column;
+u1  : primitive star-PTE record population;
+x4  : one first-match list assembly and final sum.
+```
+
+The PROVED `x4_exactlist_bucket_currency_ownership` theorem now records the
+exact algebra. Choosing a base support in one residual prefix fiber injects
+every other member into its canonical general order-`t` star-PTE record. Thus
+a universal record ledger of size `R` gives a local primitive fiber bound
+`1+R`. Moment-null blocks instead generate structured staircases, so counting
+blocks or maps does not count their expanded list members. QA.22 remains MCA
+per-pair bad-slope arithmetic and cannot by itself certify a per-word list
+sum.
+
+Two previously hidden assumptions are now explicit critical leaves:
+
+1. `x4_primitive_star_u1_coverage`: inject every general order-`t` residual
+   star record into the exact `u1` ledger with multiplicity one. This must
+   justify the current F-4 passage to order-`(h-1)` minimal records or broaden
+   `u1` and re-prove its bound. If it lands, the strict `R_post<16n^3` premise
+   gives `U_prim<=16n^3` including the base member.
+2. `x4_exactlist_summed_budget`: print every consumed official and quotient
+   row, actual list-member columns, one priority map, and the exact comparison
+   `U_paid+U_QD+U_MT+U_prim<=floor(|F|/2^128)`.
+
+`u2c_exact_slice_extras_budget` is re-posed accordingly as
+`max_z |M_z|<=n^3`, where `M_z` is the actual structured moment/U2 bucket
+after staircase expansion and coalescing. The guarded F2, near-tail, and
+null-fiber results remain relevant evidence for this column. The maximum-fiber
+and local shift-pair theorems now feed the primitive coverage leaf.
+
+This repair adds two honest mathematical TARGETs without changing any theorem
+status:
+
+```text
+math orbit       242 = 176 PROVED / 39 CONDITIONAL / 27 TARGET
+submission orbit 257 = 188 PROVED / 41 CONDITIONAL / 28 TARGET
+packaging spine   15 nodes, unchanged
+```
+
+The immediate proof priority is the coverage leaf. It is algebraic and may
+either validate the current minimal-trade `u1` program or show exactly where
+that program must be broadened. Only after its multiplicities are known is the
+final list-side budget table meaningful.
+
+```text
+starting pin: 85826850e; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / x4 ownership and finite upper ledger
+result: separated structured Q/MT, primitive SP, and MCA currencies; exposed two missing list-side leaves
+DAG status delta: +1 PROVED background ownership theorem, +2 TARGET critical leaves
+upstream terminal delta: none; exact alignment with v13 coverage and one-budget requirements
+delta-star bracket movement: none
+new assumptions: none; two old implicit assumptions made explicit
+compute: manifest and exact finite verifier replay only; no Modal spend
+next: prove or falsify the general-star-to-F-4-minimal u1 coverage map
+```

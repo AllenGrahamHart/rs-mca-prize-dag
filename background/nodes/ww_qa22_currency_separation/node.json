@@ -25,6 +25,9 @@
   "alternatives": [],
   "evidence_for": [
     {
+      "to": "x4_exactlist_summed_budget"
+    },
+    {
       "to": "ww_row_envelope_clause",
       "order": 215
     },

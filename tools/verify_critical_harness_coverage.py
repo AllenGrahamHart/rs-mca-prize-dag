@@ -120,9 +120,9 @@ def main() -> None:
     manifest = json.loads(MANIFEST.read_text())
     proved = [node["id"] for node in critical["nodes"] if node["label"] == "PROVED"]
 
-    # The exact-slice route correction removes the guarded six-node F2 branch
-    # from strict requirement ancestry. Its mathematics remains in background.
-    require(len(critical["nodes"]) == 240, "critical orbit size drift")
+    # The exact-slice route correction removes the guarded F2 branch from
+    # strict ancestry; the ownership audit then exposes two list-side leaves.
+    require(len(critical["nodes"]) == 242, "critical orbit size drift")
     require(len(proved) == 176, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()

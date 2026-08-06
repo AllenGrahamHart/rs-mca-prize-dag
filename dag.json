@@ -6670,16 +6670,19 @@
   },
   {
    "id": "x4_exactlist_staircase_split",
-   "title": "THE CORRECTED LIST TARGET (X-4 verdict, verified): staircase split + primitive bound",
+   "title": "Conditional exact-list first-match assembly with typed Q/MT and SP columns",
    "status": "CONDITIONAL",
    "key": true,
-   "statement": "The unqualified worst-word exact-list bound is FALSE (verified counterexample: the quotient-coset staircase \u2014 locators L_B(X) G(X^M), M | n, M > t, S_Q = tail B plus h full M-cosets; top t+1 coefficients Q-independent so differences are codewords; ExactList >= C(n/M - 1, h), = 2^82.97 at the Row-C toy point vs 16n^3 = 2^34, pairwise overlaps < k throughout). THE CORRECTED STATEMENT: ExactList_C(w, A) <= QuotientStaircase(n,k,t) + DihedralStaircase-analogue + PrimitiveExactList, where QuotientStaircase = the explicit sum over M | n, M > t of coset-staircase terms (exact binomials), and the primitive target is PrimitiveExactList <= n^2 at corridor rows after stripping locators of the forms L_B(X) G(X^M) and X^e L_B(X) G(X^M + zeta X^-M). Transported quotient-row version identical (needed by TR's per-leaf term). MCA-side damage bounded: R_post counts SLOPES, and staircase supports share slopes (v8), so the compiler survives; the split is load-bearing for the LIST challenge and TR arithmetic. At prize rows M > t ~ 2^33 forces n/M <= 256, so staircase terms ~ C(128..256, 32..65) ~ 2^105-115 \u2014 under B* but far above 16n^3: QA.22 must re-run the budget with the staircase column. FOUR-COLUMN AMENDMENT (X-4b verdict, witness verified): the split gains the MomentTradeStaircase column \u2014 the primitive moment-null blocks are a THIRD cancellation mechanism outside all symmetry; see moment_trade_staircase and x4b_moment_trade_exclusion. The n^2 primitive target now applies AFTER the moment column.",
-   "attack_surface": "the staircase terms are EXACT binomials (chargeable by census); the primitive bound post-strip is the new deep target \u2014 the strip removes precisely the coefficient-cancellation mechanism, so a primitive list member's locator has full coefficient spread: quantify via the eliminant/Wronskian of the locator differences",
-   "falsifier": "a primitive (post-strip) worst-word exact list exceeding n^2 at a toy corridor row (searchable: extend the staircase enumerator with a strip filter)",
+   "statement": "CONDITIONAL EXACT-LIST ASSEMBLY. At every official x4 row and transported quotient row, fix one support-wise first-match priority map on each full locator-prefix fiber. Partition actual list supports into already-paid background classes, explicit quotient/dihedral staircases, the structured moment-null/U2 pullback column, and the remaining primitive star-PTE column. The paid theorem inputs bound their declared classes; u2c_exact_slice_extras_budget bounds the structured column by n^3 after expansion and coalescing; x4_primitive_star_u1_coverage injects every non-base primitive list member into the record population bounded strictly below 16n^3 by u1_x4_direct_column_budget, hence the primitive list column is at most 16n^3; and x4_exactlist_summed_budget proves the one list-side integer sum is at most B*=floor(|F|/2^128). Under those hypotheses every exact list is at most B*. The quotient/dihedral and moment-trade counterexamples explain why the priority columns are necessary. QA.22's MCA slope arithmetic is evidence only and is not used as an unproved per-word list conversion.",
+   "attack_surface": "close the typed structured-column population, primitive-star coverage, and list-side summed-budget leaves separately; preserve one support-wise priority map across them",
+   "falsifier": "a support omitted or multiply owned by the priority map, a primitive star record outside the u1 ledger, or a consumed row whose complete list-side sum exceeds B*",
    "refs": [
+    "critical/nodes/x4_exactlist_staircase_split/statement.md",
+    "critical/nodes/x4_exactlist_staircase_split/conditional.md",
+    "critical/nodes/x4_exactlist_staircase_split/REDUCTION_PACKET.md",
     "experimental/notes/roadmaps/e35_weight2_abundance.md"
    ],
-   "notes": "QA.22: the staircase columns are AFFORDABLE at every candidate \u2014 the split's arithmetic viability is now verified, not expected. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate u1_pullback_dichotomy was not wired req \u2014 promoted. | FULL-LANE COMPRESSION 2026-07-05: the 7 dli-lane ambers -> REDUCTION_PACKET.md. Folders archived at archive/compressed_dli_lane_20260705/. | AMBER AUDIT 2026-07-06: REPAIRED (packet hypothesis list aligned with wired reqs; missing frontier statement.md written). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md. | CONSUMER-SCOPE REPAIR 2026-08-06: the historical t-null premise was insufficient for worst-word exact lists; strict wiring now uses u2c_exact_slice_extras_budget in its maximum full-prefix form, with x4_locator_prefix_consumer_scope proving the quantifier correction. The old t-null/F2 packet remains evidence pending strip-aware exchange compression.",
+   "notes": "Historical quotient, dihedral, and moment-trade counterexamples remain valid and force explicit columns. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | FULL-LANE COMPRESSION 2026-07-05: the dli lane is recorded in REDUCTION_PACKET.md. | OWNERSHIP REPAIR 2026-08-06: u2c owns the structured moment/null pullback list column; the primitive full-prefix residue requires a separate general-star-to-u1 coverage theorem; and the final sum is list currency, not QA.22 MCA slope currency. Two explicit target leaves now carry those missing obligations.",
    "upstream": {
     "label": "prob:list-completion assembly",
     "relation": "OVERLAP"
@@ -28539,11 +28542,11 @@
   },
   {
    "id": "u2c_exact_slice_extras_budget",
-   "title": "Official exact-slice worst-prefix residual budget",
+   "title": "Official exact-slice structured moment/pullback column budget",
    "status": "TARGET",
    "closure": "open",
-   "statement": "At every official exact-list corridor row, let A=K+t_XR and let Phi_{A,t_XR} map each A-subset to the first t_XR sub-leading coefficients of its monic locator. For every prefix z, remove the quotient, dihedral, boundary, moment-trade, and other explicitly paid x4 first-match classes, and let R_z be the remaining primitive support/list-member fiber. Prove max_z |R_z| <= N^3=2^123. This is the sufficient exact-slice boundary-prefix budget consumed by x4. A census only of t_XR-null blocks does not prove it: in characteristic p, t-nullity fixes only p-free prefix coordinates, and even a full null fiber need not be heaviest. The guarded full-subset F2 terminal and the proved null-fiber near tails remain evidence for a possible strip-aware exchange-compression route, not logical substitutes for the maximum-prefix quantifier.",
-   "falsifier": "An official corridor row, a locator prefix z, and a certified first-match post-strip fiber R_z with more than N^3 distinct residual supports/list members.",
+   "statement": "At every official exact-list corridor row, let A=K+t_XR and partition each full locator-prefix fiber by one declared support-wise first-match rule. After the quotient and dihedral owners, let M_z be the actual set of list supports assigned to the structured non-quotient moment-null/U2-boundary pullback bucket, including every staircase expansion and after parameter-image coalescing. Prove max_z |M_z|<=N^3=2^123. This is a structured Q/MT column, disjoint from the primitive star-PTE residue owned by u1. A census of t_XR-null generator blocks or families does not by itself prove the claim: it must also prove the expansion, first ownership, maximum-prefix transport, and coalescing needed to count actual list members. The guarded F2 terminal and null-fiber near-tail payments remain evidence for that structured-column proof, not substitutes for its quantifiers.",
+   "falsifier": "An official corridor row, locator prefix z, and certified first-match structured moment/U2 pullback bucket containing more than N^3 actual list supports after expansion and coalescing, or an unbounded expansion multiplicity omitted by the proposed ledger.",
    "refs": [
     "critical/nodes/u2c_exact_slice_extras_budget/statement.md",
     "critical/nodes/u2c_exact_slice_extras_budget/attack.md",
@@ -28567,6 +28570,41 @@
     "background/nodes/x4_exact_slice_f2_guard_route_cut/result.md",
     "background/nodes/x4_exact_slice_f2_guard_route_cut/verify.py"
    ]
+  },
+  {
+   "id": "x4_exactlist_bucket_currency_ownership",
+   "title": "Exact-list bucket ownership and currency separation",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Fix a depth-t locator-prefix fiber and a support-wise first-match partition. Choosing one residual base support S0 injects every other residual support S into its canonical star-PTE record (S\\S0,S0\\S), of width h in [t+1,min(A,n-A)] and with equal elementary coefficients through order t. Hence a proved injection of all residual star records into a universal record ledger of size R gives a local primitive fiber bound 1+R. This is the primitive SP bucket. In contrast, t-null blocks and their staircase expansions are structured moment/pullback generators and belong to a separate Q/MT bucket; counting generators alone does not count the expanded list members. Finally, QA.22's per-pair bad-slope reserve is MCA currency and does not by itself bound a per-word list fiber. Therefore x4 needs three separately typed inputs: structured-column population, primitive-star coverage into its record ledger, and one list-side summed budget. None may be substituted for another without a proved adapter.",
+   "refs": [
+    "background/nodes/x4_exactlist_bucket_currency_ownership/statement.md",
+    "background/nodes/x4_exactlist_bucket_currency_ownership/proof.md",
+    "background/nodes/x4_exactlist_bucket_currency_ownership/audit.md",
+    "background/nodes/x4_exactlist_bucket_currency_ownership/dependency_subdag.md"
+   ],
+   "upstream": {
+    "source": "rs-mca v13 frontier upper ledger and active Q/BC/SP inputs",
+    "relation": "OWNERSHIP_ADAPTER"
+   }
+  },
+  {
+   "id": "x4_exactlist_summed_budget",
+   "title": "Exact-list first-match summed numerator budget",
+   "status": "TARGET",
+   "closure": "open",
+   "statement": "For every official x4 row and every quotient row consumed by TR, print one support-wise priority map and exact integer list-side numerators U_paid, U_QD, U_MT, and U_prim for the paid background, quotient/dihedral, structured moment/U2, and primitive star buckets. Prove coverage, coalescing, and the single comparison U_paid+U_QD+U_MT+U_prim <= B*=floor(|F|/2^128), using U_MT<=n^3 only from u2c and U_prim<=16n^3 only after the primitive-star-to-u1 coverage theorem. QA.22 may supply arithmetic evidence but its per-pair MCA slope reserve is not this list-side certificate. The table must include every row actually consumed; six-candidate arithmetic cannot silently certify the wider 29-row or quotient-row family.",
+   "falsifier": "A consumed official or quotient row where the complete disjoint list-side column sum exceeds B*, an assigned support is omitted or counted twice, or the asserted sum uses an MCA slope numerator in place of a list-member numerator.",
+   "refs": [
+    "critical/nodes/x4_exactlist_summed_budget/statement.md",
+    "critical/nodes/x4_exactlist_summed_budget/attack.md",
+    "critical/nodes/x4_exactlist_summed_budget/claim_contract.md",
+    "critical/nodes/x4_exactlist_summed_budget/dependency_subdag.md"
+   ],
+   "upstream": {
+    "source": "rs-mca v13 def:capg-frontier-ledger and prop:capg-final-active-package",
+    "relation": "FINITE_LIST_LEDGER_INSTANCE"
+   }
   },
   {
    "id": "x4_fixed_slice_pfree_fullcube_route_cut",
@@ -28634,6 +28672,24 @@
    "upstream": {
     "source": "przchojecki/rs-mca archived/grande_finale_v2.tex, prop:twist-orbit and prop:q-orbit-moment",
     "relation": "INDEPENDENT_REPLAY"
+   }
+  },
+  {
+   "id": "x4_primitive_star_u1_coverage",
+   "title": "Primitive exact-list star coverage by the u1 record ledger",
+   "status": "TARGET",
+   "closure": "open",
+   "statement": "At every x4 official row and every transported quotient row, fix the declared support-wise priority map and a primitive residual locator-prefix fiber. For each base support S0, inject every other residual support S, through its canonical order-t star-PTE record (S\\S0,S0\\S), into exactly one record counted by the u1_x4_direct_column_budget ledger, with multiplicity at most one and with the same quotient/dihedral/moment/U2/DLI strips. In particular justify the load-bearing F-4 passage from general order-t star records to the order-(h-1) minimal records used by the current h>=4 route, or re-pose u1 to count all required records and re-prove its budget. This coverage gives |F_z^prim|-1<=R_post and is required uniformly before the u1 bound can be consumed as a worst-word list bound.",
+   "falsifier": "A correctly stripped primitive same-prefix pair whose canonical star-PTE record is not assigned to any u1 record, is assigned only after changing strip ownership, or incurs unbounded multiplicity under the proposed coverage map.",
+   "refs": [
+    "critical/nodes/x4_primitive_star_u1_coverage/statement.md",
+    "critical/nodes/x4_primitive_star_u1_coverage/attack.md",
+    "critical/nodes/x4_primitive_star_u1_coverage/claim_contract.md",
+    "critical/nodes/x4_primitive_star_u1_coverage/dependency_subdag.md"
+   ],
+   "upstream": {
+    "source": "rs-mca v13 prob:capg-active-shiftpairs coverage clause",
+    "relation": "FINITE_COVERAGE_INSTANCE"
    }
   },
   {
@@ -54192,6 +54248,11 @@
    "kind": "ref"
   },
   {
+   "from": "moment_trade_staircase",
+   "to": "x4_exactlist_bucket_currency_ownership",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
    "to": "rate_half_list_adjacent_crossing",
    "kind": "ev"
@@ -54199,6 +54260,16 @@
   {
    "from": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
    "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "star_pte_lemma",
+   "to": "x4_exactlist_bucket_currency_ownership",
+   "kind": "req"
+  },
+  {
+   "from": "star_pte_lemma",
+   "to": "x4_primitive_star_u1_coverage",
    "kind": "ev"
   },
   {
@@ -54237,6 +54308,16 @@
    "kind": "req"
   },
   {
+   "from": "ww_qa22_currency_separation",
+   "to": "x4_exactlist_bucket_currency_ownership",
+   "kind": "req"
+  },
+  {
+   "from": "ww_qa22_currency_separation",
+   "to": "x4_exactlist_summed_budget",
+   "kind": "ev"
+  },
+  {
    "from": "x4_exact_slice_f2_guard_route_cut",
    "to": "b2b_near_tail_bound",
    "kind": "ev"
@@ -54257,6 +54338,26 @@
    "kind": "req"
   },
   {
+   "from": "x4_exactlist_bucket_currency_ownership",
+   "to": "u2c_exact_slice_extras_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "x4_exactlist_bucket_currency_ownership",
+   "to": "x4_exactlist_summed_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "x4_exactlist_bucket_currency_ownership",
+   "to": "x4_primitive_star_u1_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "x4_exactlist_summed_budget",
+   "to": "x4_exactlist_staircase_split",
+   "kind": "req"
+  },
+  {
    "from": "x4_fixed_slice_pfree_fullcube_route_cut",
    "to": "u2c_exact_slice_extras_budget",
    "kind": "ev"
@@ -54267,14 +54368,34 @@
    "kind": "ev"
   },
   {
+   "from": "x4_locator_prefix_consumer_scope",
+   "to": "x4_exactlist_summed_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "x4_locator_prefix_consumer_scope",
+   "to": "x4_primitive_star_u1_coverage",
+   "kind": "ev"
+  },
+  {
    "from": "x4_maxfiber_local_shiftpair_equivalence",
-   "to": "u2c_exact_slice_extras_budget",
+   "to": "x4_exactlist_bucket_currency_ownership",
+   "kind": "req"
+  },
+  {
+   "from": "x4_maxfiber_local_shiftpair_equivalence",
+   "to": "x4_primitive_star_u1_coverage",
    "kind": "ev"
   },
   {
    "from": "x4_prefix_twist_orbit_moment",
    "to": "u2c_exact_slice_extras_budget",
    "kind": "ev"
+  },
+  {
+   "from": "x4_primitive_star_u1_coverage",
+   "to": "x4_exactlist_staircase_split",
+   "kind": "req"
   },
   {
    "from": "xr_band_ledger_theorems",

@@ -1,4 +1,4 @@
-# Official exact-slice worst-prefix residual budget
+# Official exact-slice structured moment/pullback column budget
 
 - **status:** TARGET
 - **closure:** open
@@ -15,23 +15,26 @@ Put `A=K+t_XR`. For each `A`-subset `S` of the evaluation domain, let
 Phi_(A,t_XR)(S)
 ```
 
-be the first `t_XR` sub-leading coefficients of its monic locator. For every
-prefix `z`, remove the quotient, dihedral, boundary, moment-trade, and other
-explicitly paid `x4` first-match classes, and call the residual fiber `R_z`.
-Prove
+be the first `t_XR` sub-leading coefficients of its monic locator. Fix one
+support-wise first-match priority map. After the quotient and dihedral owners,
+let `M_z` be the set of actual supports in the prefix fiber assigned to the
+structured non-quotient moment-null/U2-boundary pullback bucket. Include every
+support produced by an allowed staircase expansion and apply the declared
+parameter-image coalescing. Prove
 
 ```text
-max_z |R_z| <= N^3.
+max_z |M_z| <= N^3.
 ```
 
-This is the sufficient boundary-prefix budget consumed by the exact-list
-assembly. The proved `x4_locator_prefix_consumer_scope` shows why the maximum
-over `z` is load-bearing: exact polynomial boundary words realize every
-prefix fiber as a list, raw mode-at-null is false, and in characteristic `p`
-power-sum nullity leaves the `p`-multiple locator coefficients free.
+This is the structured Q/MT column consumed by the exact-list assembly. It is
+disjoint from the primitive star-PTE residue owned by `u1`. The proved
+`moment_trade_staircase` theorem shows that a family of null blocks can create
+many list members by taking combinations. Consequently a count of generator
+blocks or families is not a count of `M_z` without an exact expansion and
+coalescing ledger.
 
 The guarded full-subset F2 terminal does not supply this claim because the
 route cut gives `t_XR log2|F_p(mu_N)|<N` on every official row. The proved
-null-fiber near-tail widths `15,14,13,12` remain valid evidence for a possible
-strip-aware exchange-compression route, but they do not reduce an arbitrary
-prefix fiber without that additional theorem.
+null-fiber near-tail widths `15,14,13,12` remain valid generator-side evidence.
+They do not prove the maximum-prefix transport, first ownership, staircase
+expansion, or actual list-member bound required here.

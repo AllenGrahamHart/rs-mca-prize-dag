@@ -13,15 +13,23 @@ adversarial-lambda sweep n=32..2048; weighted re-pose coherent end-to-end;
 endpoint (b2b weighted average) measured directly; Lemma 1 exact reduction
 proved. These facts do not supply the maximum-prefix bridge recorded below.
 
-## Consumer-scope correction (2026-08-06)
+## Consumer-scope and ownership correction (2026-08-06)
 
 The official boundary atom is a maximum over full elementary locator-prefix
 fibers. The historical `u2c_giant_tnull_dichotomy` controls a different
 power-sum-null object: in characteristic `p` it fixes only the `p`-free prefix
-coordinates, and raw mode-at-null is false. The strict hypothesis is therefore
-`u2c_exact_slice_extras_budget`, now posed as the maximum post-strip prefix
-fiber. The historical F2/t-null packet below remains route evidence and can be
-reused only after a strip-aware max-to-null or exchange-compression theorem.
+coordinates, and raw mode-at-null is false.
+
+A second audit separates the columns. `u2c_exact_slice_extras_budget` owns the
+actual list members assigned to the structured moment/null pullback bucket,
+including staircase expansion and coalescing. It does not own the final
+primitive residue. Choosing a base in a primitive fiber injects the other
+members into general order-`t` star-PTE records. The open
+`x4_primitive_star_u1_coverage` theorem must put those records into the exact
+F-4/minimal ledger bounded by `u1_x4_direct_column_budget`. Finally,
+`x4_exactlist_summed_budget` supplies one per-word list sum; QA.22's per-pair
+MCA reserve cannot substitute for it. The historical F2/t-null packet below
+remains evidence for the structured column only.
 
 ## Compressed steps (archive/compressed_dli_lane_20260705/)
 
@@ -71,10 +79,12 @@ For each official row (p, n, t): either (a) prove no super-logarithmic disjoint 
 NOTES: Reframed by the unification: the per-row question is 'which polynomial-fiber block families (zero top-t coefficient maps) exist in the row domain' — E37's census language updated; the Luroth frame may make the exclusion provable by degree arithmetic 
 
 ## Wired hypotheses of the interface (complete, audit-aligned 2026-07-06)
+- moment_trade_staircase (PROVED mechanism)
 - dli_prime_weighted_large_block_support (FRONTIER red)
-- u2c_exact_slice_extras_budget (maximum-prefix residual)
-- u1_pullback_dichotomy (red; pre-existing hypothesis of this node)
-- moment_trade_staircase (PROVED; pre-existing hypothesis of this node)
+- u2c_exact_slice_extras_budget (structured Q/MT list-member column)
+- x4_primitive_star_u1_coverage (general star-to-u1 coverage)
+- u1_x4_direct_column_budget (primitive record population)
+- x4_exactlist_summed_budget (list-side final integer sum)
 
 ## Reattached side-inputs
 - b2b_dyadic_descent_packet [PROVED]
