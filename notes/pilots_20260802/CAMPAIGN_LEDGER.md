@@ -2223,3 +2223,43 @@ git -C <path>; the coordinator shell never cd's into a worktree.
   the constant-weight cell + the fence/contract reconciliation.
 - Awaiting: crossing_gap (the last of round 20); then the wave-47
   integration batch.
+
+## 2026-08-06: round-20 pilot 4 BANKED — ROUND 20 COMPLETE: the even route dead, CW-FLOOR minted, PT-2 scope-corrected
+
+- **crossing_gap (Opus) BANKED** (7,192/0; coordinator replayed the
+  pt2 table and the exhaustive census). **CATCH-20B: the
+  even-condition SP-COVER route is STRUCTURALLY DEAD** (even
+  exponents are non-units; 0.00% closes; prime-row margin exactly
+  2) — round-18 residual 5 closed by proof; the true recursion =
+  PROPOSITION HT (the 2-adic Haar tower) + SP-COVER-R (new
+  integrality gate) + **THEOREM SP-COUPLE** (exactly reproduces
+  every observed census emptiness incl. the p = 7, w = 7 gate; the
+  n-UNIFORM FORM is the low-w core's open lever). **THEOREM
+  CW-FLOOR** (the constant-weight Z-FLOOR, from the round-19
+  untested cell): PROVED, upgrades the heuristic tower-row excess
+  to 2^205.7132 (vs DSA's 2^104.267), vacuous at prime rows by
+  3.85 bits, unavailable at odd r' (proved), the break located at
+  the cross-shell terms. **CATCH-20D (MAJOR, against the minted
+  tern_master_threshold): the PT-2 clearance is p-DEPENDENT** —
+  0.336 bits is the log2 p = 256 value only; the endpoint is
+  first-moment supercritical on 57.98% (ternary) to 100% (GLOBAL)
+  of the live prime range; NOT an emptiness refutation (proved
+  regimes unreachable at prime rows; the e = 1 dichotomy
+  re-verified); FOURTH forced correction applied (+ node.json
+  dedup). CATCH-20A (w_cov(11)/(19) = 6, not 8 — REPORT-level,
+  minted node unaffected); CATCH-20C (E-3's gap = 2^3.6869 —
+  addendum written). C4: the exact residual stated; five dead
+  routes named; four live levers (n-uniform SP-COUPLE, p-uniform
+  CS, a NEW endpoint construction above 2^34.6467, anything in
+  tau in (1, 1.585)). Registration discipline the round's best
+  (13/14 held, five numerics to 4 decimals).
+
+ROUND-20 NET (4/4): THEOREM BB (72-bit break = threshold
+relocation; safe side w = 2^35; crux = the accident upper bound);
+the FINITE TARGET Z <= 1 + N^3 (ensemble ruling re-opened; scope
+dissolved; k in {2,4} residual); c* = 1/ln 2 - 1 at zero flat
+margin (deficit = R-locality; both supplies dead); the even route
+dead + CW-FLOOR + PT-2 corrected. FOUR forced corrections to
+minted nodes in one round. NEXT: the wave-47 integration batch
+(five-class correction + the WCL/F2 adoptions + the crossing-node
+addendum + slot_1_5 census flip), then the round-21 board.

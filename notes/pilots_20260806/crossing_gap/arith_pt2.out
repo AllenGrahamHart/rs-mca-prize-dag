@@ -1,0 +1,41 @@
+
+==========================================================================
+STAGE pt2 -- (C3) the PT-2 cliff, ADVERSARIAL re-computation
+==========================================================================
+  L*log2 3 at v=34 : 202.8752   (LEMMA TC prints 202.875)
+  w_tern(log2 p = 256) = 2^33.66445   (PT-2 prints 2^33.66445)
+  clearance at log2 p = 256 : 0.33555 bits  (PT-2 prints 0.336)
+  TERNARY threshold in log2 p at w = 2^34 : 202.8752 (both readings)
+  live e=1 prime range (B* >= 3): log2 p in [129.584963, 256)
+
+  CLEARANCE OF THE ENDPOINT w = 2^34, BY READING AND BY log2 p
+  (clearance = 34 - log2 w_tern(p);  NEGATIVE = endpoint is
+   BELOW the first-moment supercriticality threshold)
+  reading                                              lp=129.585 lp=202.875 lp=255.999
+  TERNARY   (odd-part = deep-stratum = full-window)       -0.6467    -0.0000     0.3355
+  TERNARY orbit-corrected (LEMMA ROT)                     -0.5662     0.0562     0.3820
+  PER-WEIGHT (retired, LEMMA TC: 48.75-bit mispriced)     -0.9393    -0.3030     0.0251
+  GLOBAL (ES-G) functional                                -0.9822    -0.3356    -0.0000
+
+  CROSSOVER log2 p (endpoint w=2^34 is SUPERCRITICAL below it):
+  TERNARY   (odd-part = deep-stratum = full-window)     log2 p < 202.8752   ->  57.98% of the live range
+  TERNARY orbit-corrected (LEMMA ROT)                   log2 p < 194.8752   ->  51.65% of the live range
+  PER-WEIGHT (retired, LEMMA TC: 48.75-bit mispriced)   log2 p < 251.6279   ->  96.54% of the live range
+  GLOBAL (ES-G) functional                              log2 p < 256.0000   -> 100.00% of the live range
+
+  HEADLINE (TERNARY functional, odd-part reading, shift-0 window,
+  2-power w): at the BOTTOM of the live e=1 prime range
+  (log2 p = 129.584963, B* = 3) the endpoint w = 2^34 is -0.6467 bits
+  BELOW the ternary supercriticality threshold, i.e. w_tern =
+  2^34.64669 > 2^34.
+  Fraction of the live e=1 prime range (measured in log2 p) at
+  which the endpoint is supercritical: 57.9757%
+
+  (proved-existence check: THEOREM DSA needs delta_a*log2 p <
+   L-2 = 126; the live e=1 range starts at 129.585, so the
+   supercriticality above is FIRST-MOMENT (heuristic), not proved.
+   THEOREM MT proves existence only for tau < 1, i.e. log2 p <
+   128 -- unreachable since B* >= 1 forces q >= 2^128.)
+
+--------------------------------------------------------------------------
+checks = 21   failures = 0

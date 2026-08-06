@@ -1,0 +1,9 @@
+
+==========================================================================
+STAGE failclosed -- permanent control, MUST exit 1
+==========================================================================
+  FAIL  injected false check (this MUST fail) 
+
+--------------------------------------------------------------------------
+checks = 1   failures = 1
+  FAILED: injected false check (this MUST fail)

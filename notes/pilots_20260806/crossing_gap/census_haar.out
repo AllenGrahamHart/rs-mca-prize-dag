@@ -1,0 +1,11 @@
+
+==========================================================================
+STAGE haar -- (C1) the 2-adic Haar tower / LEMMA OE at every level
+==========================================================================
+  LEMMA OE holds at EVERY level, the tower is a bijection, and
+  strat(S) >= b  <=>  eps^(0) = ... = eps^(b-1) = 0  (G1.1 HELD).
+  The window conditions therefore decompose EXACTLY by v_2(s):
+  s = 2^a t (t odd)  =>  f_S(xi^s) = eps^(a)(theta_a^t).
+
+--------------------------------------------------------------------------
+checks = 6802   failures = 0

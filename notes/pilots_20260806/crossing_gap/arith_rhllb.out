@@ -1,0 +1,23 @@
+
+==========================================================================
+STAGE rhllb -- (C3) RHL-LB's 2^34 re-derived from source
+==========================================================================
+  sigma_cyc = d*c + s = 1*8589934592 + 8589934591 = 17179869183
+  L_cyc = ceil(C(255,129)/256), log2 = 242.6503
+  (CR5) margin at q=2^256 : 114.6503 bits  (statement says '> 114')
+  top certified maximal-prefix excesses (sigma, log2 c, d):
+    sigma = 17179869183  (= 2^34.0000),  c = 2^33,  d = 1
+    sigma = 12884901887  (= 2^33.5850),  c = 2^32,  d = 2
+    sigma = 10737418239  (= 2^33.3219),  c = 2^31,  d = 4
+    sigma = 9663676415  (= 2^33.1699),  c = 2^30,  d = 8
+    sigma = 9126805503  (= 2^33.0875),  c = 2^29,  d = 16
+
+  VERDICT: 2^34 is EXACT (an integer identity d*c+s+1 with
+  d=1, c=2^33, s=c-1), NOT floored.  It is CONVENTIONAL only in
+  its extremality scope (best maximal-prefix instance of ONE
+  printed construction under ONE cap-uniform criterion).
+  DIRECTION: RHL-LB lower-bounds a_L, so any improvement moves
+  w = a_L - k UP, i.e. AWAY from the ternary threshold.
+
+--------------------------------------------------------------------------
+checks = 18   failures = 0

@@ -73,3 +73,25 @@ CC-sparsity / pair-coprimality (open — and by E-2 exactly as hard
 as the original); the middle of the prime range; w = 3 (CS
 degenerates to the banked M3 there); the band rows (outside CS's
 window hypotheses).
+
+## Addendum (2026-08-06, round-20 crossing_gap)
+
+1. CATCH-20C: E-3's gap constant corrected — the operative
+   w_cov(q, 2^41) is 2^41 (LEMMA COS's 2^{j_q} bound needs
+   m >= j_p, which fails at m = 41 < 42), so the gap to CS's w* is
+   2^3.6869, not 2^4.6869. Safe direction; no verdict moves.
+2. CATCH-20B: the even-condition SP-COVER extension is structurally
+   DEAD (even exponents are non-units and can never cover
+   (Z/n)^*); the round-18 "most obvious next step" is closed. The
+   recursion's true form is PROPOSITION HT (the 2-adic Haar tower)
+   + THEOREM SP-COUPLE (the coupled odd/even criterion, which
+   exactly reproduces every observed sub-w_cov census emptiness
+   incl. the p = 7, w = 7 gate) — per-(n,p,w) certified; the
+   n-uniform form is the open lever. See
+   notes/pilots_20260806/crossing_gap/.
+3. THEOREM CW-FLOOR (the constant-weight Z-FLOOR, r' even):
+   |X_r'| >= C(L, r'/2)^2 / p^{delta_a} — the round-19 untested
+   cell yields a real instrument; it upgrades the round-18
+   heuristic tower-row excess to a PROVED 2^205.71 (vs DSA's
+   single-fibre 2^104.27) and is vacuous at every prime row by
+   3.85 bits; unavailable at odd r' (proved).

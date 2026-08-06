@@ -1,0 +1,66 @@
+
+==========================================================================
+STAGE cover -- (C1) w_cov, the level-a coverage law, official rows
+==========================================================================
+  p  j_p=v2(p^2-1)  2^j_p   w_cov(p,2^m), m=4..12
+  3    3             8       [6, 6, 6, 6, 6, 6, 6, 6, 6]
+  5    3             8       [4, 4, 4, 4, 4, 4, 4, 4, 4]
+  7    4             16      [12, 12, 12, 12, 12, 12, 12, 12, 12]
+  11   3             8       [6, 6, 6, 6, 6, 6, 6, 6, 6]
+  13   3             8       [4, 4, 4, 4, 4, 4, 4, 4, 4]
+  17   5             32      [16, 16, 16, 16, 16, 16, 16, 16, 16]
+  19   3             8       [6, 6, 6, 6, 6, 6, 6, 6, 6]
+  23   4             16      [12, 12, 12, 12, 12, 12, 12, 12, 12]
+  47   5             32      [8, 24, 24, 24, 24, 24, 24, 24, 24]
+  97   6             64      [16, 32, 32, 32, 32, 32, 32, 32, 32]
+  257  9             512     [16, 32, 64, 128, 256, 256, 256, 256, 256]
+
+  CATCH-20A (banked constant):
+    w_cov(11, 2^m) = 6 for every m >= 4;  2^{j_p} = 8.
+    w_cov(19, 2^m) = 6 for every m >= 4;  2^{j_p} = 8.
+    efloor_sparsity/REPORT.md:33 and COROLLARY SP5 (PROOFS.md:211-212)
+    print 8; the correct sharp value is 6.  The corollary as
+    printed is still TRUE (w>=8 => w>=6) but NOT SHARP.  The
+    minted node es_ternary_suppression_instruments prints no
+    w_cov value for 11 or 19, so the minted node is UNAFFECTED.
+
+  LEVEL-a COVERAGE THRESHOLDS  w_min(a) = 2^a(w_cov(p,2^{m-a})-1)+1
+  G1.2 FALSIFIED: level-a coverage is EASIER than level-0 in
+  42 (p,m,a) cells. First 8:
+    p=3    m=4   a=2    w_min(a)=5        < w_min(0)=6
+    p=7    m=4   a=1    w_min(a)=7        < w_min(0)=12
+    p=7    m=4   a=2    w_min(a)=5        < w_min(0)=12
+    p=11   m=4   a=2    w_min(a)=5        < w_min(0)=6
+    p=17   m=4   a=1    w_min(a)=15       < w_min(0)=16
+    p=17   m=4   a=2    w_min(a)=13       < w_min(0)=16
+    p=19   m=4   a=2    w_min(a)=5        < w_min(0)=6
+    p=23   m=4   a=1    w_min(a)=7        < w_min(0)=12
+  Structure of every such cell (checked below): ord_{2^{m-a}}(p)
+  = 1, i.e. <p> is trivial on the reduced level.
+  of these, 27 have ord_{2^{m-a}}(p) = 1 (the delta=1 family, which is exactly the official e=1 prime-row family)
+
+  OFFICIAL PRIME ROWS (e=1  =>  n | p-1  =>  p = 1 mod 2^41):
+  ord_n(p) = 1  =>  every <p>-coset of (Z/n)^* is a SINGLETON
+  =>  w_cov = 1 + (n-1) = n = 2^41.
+  The window also obeys w <= r'+w = 2^40, so w < 2^40 < 2^41 ALWAYS.
+
+  LEVEL-a THRESHOLDS AT e=1 PRIME ROWS (delta=1 at every level):
+  the integrality gate p > 2^a passes for EVERY a <= 40 at live
+  rows (log2 p >= 129.585); the threshold w_min(a) = 2^41-2^a+1
+  is MINIMISED at the deepest level a = 40:
+  best admissible level: a = 40, w_min = 1099511627777 = 2^40.00000
+  every crossing instance has r' = 2^40 - w >= 1, i.e.
+  w <= 2^40 - 1 = 1099511627775;  min_a w_min(a) - max w = 2.
+
+  GAP ARITHMETIC (CATCH E-3 re-derived):
+  CS closes  w > 2^37.3131 (banked, es_ternary_suppression_instruments)
+  SP-COVER needs w >= 2^41 at e=1 prime rows (this pilot),
+  NOT 2^42 as CATCH E-3 prints (that uses w_cov <= 2^{j_q} with
+  j_q >= 42, but LEMMA COS's m-uniformity needs m >= j_q and
+  m = 41 < 42, so 2^{j_q} is not the operative value).
+  gap = 2^{41 - 37.3131} = 2^3.6869  (CATCH E-3 prints 2^4.6869)
+  CS covers 71.1645% of the bracket [2^34, 2^39] (banked 71.16%)
+  residual = 28.8355% (banked 28.84%)
+
+--------------------------------------------------------------------------
+checks = 190   failures = 0
