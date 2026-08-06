@@ -63,3 +63,13 @@ mathematical retry is authorized.
 tools/ramguard modal -- modal run --detach \
   notes/pilots_20260806/wcl15_finish/prime_vocabulary_inventory_modal.py
 ```
+
+The detached replacement was stopped manually after a delayed progress feed
+made the initial throughput appear too slow.  At cancellation it had actually
+validated 8,000/35,890 batches and accumulated 1,041,988 distinct factors.
+It wrote no complete result.  This partial observation falsifies P3's
+one-million size prediction and therefore blocks any automatic broad
+primality/replay follow-up.  The observed post-startup rate nevertheless puts
+the complete inventory inside the existing 900-second cap.  One final run of
+the identical code is authorized solely to finish and bank the inventory;
+after that, completion or failure is terminal for this design.
