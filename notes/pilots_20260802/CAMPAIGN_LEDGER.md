@@ -1189,3 +1189,18 @@ Integration freeze pending the upstream-sync wiring and stocktake:
   (mint-4, with the b1 repair). NEXT: Ax-Katz transfer = the one
   untested classical route; Pro brief targets p-adic/Deligne-Katz
   people. Awaiting: f2_sl1_powersums (4/4).
+
+## 2026-08-04: round-15 pilot 4/4 BANKED — SL-1 PROVED; ROUND 15 COMPLETE; the t-pin crisis surfaced
+
+- **f2_sl1_powersums (Opus) BANKED** (85/85). SL-1 PROVED
+  characteristic-free (weight >= ceil(t/2)+1, subsumes THEOREM A;
+  true law min(2R+1, max(p, R+1)) sharp); sixth reduction refuted
+  (shared lens, three blockers) BUT the DLI/WCL lane had a stronger
+  uncited version (char > w necessary — 6 counterexamples gifted
+  back); Z(L) mass bounds + SL-1b named. **MAINTAINER CATCH: t
+  UNPINNED** — t* flips LEMMA 3 at rung 16 (0.969x violation) and
+  shortens the band to rungs 1-10; m_16 contradiction; F2 discharge
+  headlines carry a dated caveat until q = p^k and t are pinned from
+  the rules freeze. ROUND 15 COMPLETE. Next-round board: Ax-Katz on
+  (ES); the t/q pin; the W-5 rollback (awaiting ratification);
+  mint-4.
