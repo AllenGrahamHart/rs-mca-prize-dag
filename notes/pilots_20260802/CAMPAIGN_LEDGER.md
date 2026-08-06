@@ -992,3 +992,13 @@ mixed-class systems. The W/D/R/L theorems remain banked unchanged.
   and the monolithic docs are NEVER hand-edited again. Wire scripts to be
   ported next mint; wave protocol: shards regenerate locally, never
   bulk-checked-out.
+
+## 2026-08-04: WAVE 46 INTEGRATED — THE BAND FLIP (TARGET -> CONDITIONAL on SL-2 alone)
+
+- 22 nodes + 72 edges (dag 1817/5070); census 246 = 179/41/26. Codex
+  minted our rounds-7-12 structure (SL-1 reduction PROVED; their own
+  sound window-descent proof supersedes our held draft; SL-2 as the
+  single conditional leaf; SL-2-RES split into two sharper reds; 13
+  deficient-window payments). H_band exact-budget correction accepted.
+  First worker-initiated critical status flip — audited SOUND. Site +
+  artifact refresh (census changed). See WAVE46_AUDIT.md.
