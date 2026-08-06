@@ -1,0 +1,18 @@
+=== stage compare  (THE COMPARISON -- exact integers only) ===
+  B*                       = 242251802232021244567343686397347233808
+  max-shell accident count >= 1196965228441549604196383902968102364122343852093753081189273
+  structural per shell     = 184239584937908329739504521356773475
+
+  log2 B*                       = 127.5098
+  log2 max-shell accidents      = 199.5751
+  log2 structural per shell     = 117.1491
+
+  ok  : EXACT INTEGER COMPARISON: max-shell accidents > B*
+  break margin = 72.0653 bits
+  ok  : control: the STRUCTURAL family alone stays within budget (margin 10.3607 bits) -- the break is caused by the ACCIDENTS
+  ok  : integer ratio xmax//B* = 4940996175934053617705
+  xmax // B* = 4940996175934053617705
+
+  => L_1(k + 2^34) >= X_{2^34}(gamma_max) >= 1196965228441549604196383902968102364122343852093753081189273 > B*
+  => a_L(C) > k + 2^34 at this row.
+checks=3 failures=0

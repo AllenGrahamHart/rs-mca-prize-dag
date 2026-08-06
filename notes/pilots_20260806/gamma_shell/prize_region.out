@@ -1,0 +1,24 @@
+=== stage region  (admissible rows carrying the break; WORST row) ===
+  live-lane condition : B* >= structural per shell, i.e.
+      log2 q >= 245.1491   (es_g_lanes/full_run.txt:127)
+  DSA / CS condition  : Q = p^delta_a < 2^126
+  break condition     : floor(rho_min*(2^252/Q - 2^126))//256 > B*
+
+  e   delta_a  log2 p LIVE window     break sub-window min margin 
+  2   1        [122.5745, 128.0000)      [122.576, 123.306]    +0.0011
+  3   1        [ 81.7164,  85.3333)      [81.717, 85.333]   +28.8267
+  4   1        [ 61.2873,  64.0000)      [61.288, 63.999]   +50.1634
+  4   2        [ 61.2873,  64.0000)      [61.288, 61.653]    +0.0011
+  5   1        [ 49.0298,  51.2000)      [49.030, 51.199]   +62.9633
+  5   2        [ 49.0298,  51.2000)      [49.030, 51.199]   +11.7638
+  6   1        [ 40.8582,  42.6667)      [40.859, 42.667]   +71.4934
+  6   2        [ 40.8582,  42.6667)      [40.859, 42.667]   +28.8267
+  ok  : the scan visited admissible live rows
+  ok  : the break region is NON-EMPTY
+
+  WORST admissible row inside the break region:
+    e = 2, delta_a = 1, log2 p = 123.3056, log2 q = 246.6112
+    log2 xmax = 118.6123, log2 B* = 118.6112, MARGIN = +0.0011 bits
+  ok  : the break holds at the WORST row of the region (margin +0.0011 bits)
+  ok  : e = 1: the live lane needs log2 p >= 245.149 >= 126, so Q = p >= 2^126 and Cauchy-Schwarz is VACUOUS -- e=1 prime rows are UNTOUCHED (reproduces the DSA dichotomy)
+checks=4 failures=0

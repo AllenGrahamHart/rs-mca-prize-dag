@@ -1,0 +1,20 @@
+=== stage row  (the witness row, re-derived from scratch) ===
+  ok  : p = 6597069766657 is prime
+  ok  : p = 3*2^41 + 1
+  ok  : 2^41 | p-1  (so delta = ord_n(p) = 1)
+  ok  : q = p^6 < 2^256  (rules_freeze cap); log2 q = 255.509775
+  ok  : 2^41 | q-1  (the domain exists)
+  ok  : k = 2^40 <= 2^40  (rules_freeze cap)
+  ok  : B* = floor(q/2^128) >= 3  (the node's open branch)
+  B* = 242251802232021244567343686397347233808
+  log2 B* = 127.510
+  ok  : log2 B* = 127.510 reproduces es_g_lanes/PROOFS.md:177
+  ok  : w = 2^34 <= p  (Newton/BCH linearisation valid)
+  ok  : p >= 2^39+1  (banked characteristic arithmetic)
+  ok  : r' = n-k-w = 2^40 - 2^34
+  ok  : deep shape (a,n_a,L,r'_a)
+  ok  : LEMMA DS: r'_a = L - 2
+  ok  : theta of exact order n_a = 256 in F_p
+  ok  : p = 1 mod 256, so delta_a = ord_256(p) = 1 and Q = p
+  ok  : THEOREM DSA regime: p^delta_a < 2^{L-2} = 2^126
+checks=16 failures=0

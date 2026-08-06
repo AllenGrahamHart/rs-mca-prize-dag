@@ -1,0 +1,8 @@
+=== stage pipeline  (end-to-end gate on the prize-row chain) ===
+    p=193  shells=32  N_acc=2432064  bound=1007700  max-shell=76308   pigeonhole=31490   slack=2.42x
+    p=257  shells=32  N_acc=1823616  bound=753764   max-shell=57366   pigeonhole=23555   slack=2.44x
+    p=449  shells=32  N_acc=1042272  bound=426305   max-shell=32888   pigeonhole=13322   slack=2.47x
+    p=577  shells=32  N_acc=808256   bound=329070   max-shell=25620   pigeonhole=10283   slack=2.49x
+    p=641  shells=32  N_acc=744128   bound=295015   max-shell=23962   pigeonhole=9219    slack=2.60x
+    rho_min(L=16) = 3003/4096 at U=2
+checks=31 failures=0

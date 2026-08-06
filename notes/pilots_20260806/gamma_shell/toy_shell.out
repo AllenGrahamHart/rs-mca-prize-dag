@@ -1,0 +1,17 @@
+=== stage shell  (P2 / falsifier F2 -- the concentration danger case) ===
+    (n,w)=(32,8) p=97   shells: total=4   struct=4   acc=0    (2L=8, L=4)  struct/shell=[1]
+    (n,w)=(32,8) p=193  shells: total=4   struct=4   acc=0    (2L=8, L=4)  struct/shell=[1]
+    (n,w)=(32,8) p=257  shells: total=4   struct=4   acc=0    (2L=8, L=4)  struct/shell=[1]
+    (n,w)=(32,8) p=353  shells: total=4   struct=4   acc=0    (2L=8, L=4)  struct/shell=[1]
+    (n,w)=(32,8) p=449  shells: total=4   struct=4   acc=0    (2L=8, L=4)  struct/shell=[1]
+    (n,w)=(64,8) p=193  shells: total=8   struct=8   acc=8    (2L=16, L=8)  struct/shell=[7]
+    (n,w)=(64,8) p=257  shells: total=8   struct=8   acc=0    (2L=16, L=8)  struct/shell=[7]
+    (n,w)=(64,8) p=449  shells: total=8   struct=8   acc=0    (2L=16, L=8)  struct/shell=[7]
+    (n,w)=(64,8) p=577  shells: total=16  struct=8   acc=8    (2L=16, L=8)  struct/shell=[7]
+    (n,w)=(64,8) p=641  shells: total=8   struct=8   acc=0    (2L=16, L=8)  struct/shell=[7]
+    (n,w)=(64,16) p=193  shells: total=4   struct=4   acc=0    (2L=8, L=4)  struct/shell=[1]
+    (n,w)=(64,16) p=257  shells: total=4   struct=4   acc=0    (2L=8, L=4)  struct/shell=[1]
+    (n,w)=(64,16) p=449  shells: total=4   struct=4   acc=0    (2L=8, L=4)  struct/shell=[1]
+    (n,w)=(64,16) p=577  shells: total=4   struct=4   acc=0    (2L=8, L=4)  struct/shell=[1]
+    (n,w)=(64,16) p=641  shells: total=4   struct=4   acc=0    (2L=8, L=4)  struct/shell=[1]
+checks=844 failures=0

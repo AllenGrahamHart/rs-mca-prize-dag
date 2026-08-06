@@ -1,0 +1,17 @@
+=== stage dsbiject  (independent re-check of the imported lemma) ===
+    (n,w)=(32,8) p=97   members=4    structural=4    accidents=0
+    (n,w)=(32,8) p=193  members=4    structural=4    accidents=0
+    (n,w)=(32,8) p=257  members=4    structural=4    accidents=0
+    (n,w)=(32,8) p=353  members=4    structural=4    accidents=0
+    (n,w)=(32,8) p=449  members=4    structural=4    accidents=0
+    (n,w)=(64,8) p=193  members=72   structural=56   accidents=16
+    (n,w)=(64,8) p=257  members=56   structural=56   accidents=0
+    (n,w)=(64,8) p=449  members=56   structural=56   accidents=0
+    (n,w)=(64,8) p=577  members=72   structural=56   accidents=16
+    (n,w)=(64,8) p=641  members=56   structural=56   accidents=0
+    (n,w)=(64,16) p=193  members=4    structural=4    accidents=0
+    (n,w)=(64,16) p=257  members=4    structural=4    accidents=0
+    (n,w)=(64,16) p=449  members=4    structural=4    accidents=0
+    (n,w)=(64,16) p=577  members=4    structural=4    accidents=0
+    (n,w)=(64,16) p=641  members=4    structural=4    accidents=0
+checks=40350 failures=0

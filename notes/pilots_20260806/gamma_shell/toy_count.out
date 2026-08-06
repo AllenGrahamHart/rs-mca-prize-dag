@@ -1,0 +1,12 @@
+=== stage count  (P3 / falsifier F3 -- the load-bearing new step) ===
+    L=8   p=17   |D|=64     rels=64     P=184          N_restr=184      N_acc=416      bound=165.9  slack=2.51x (odd-U rels dropped)
+    rho_min(L=8) = 15/16 = 0.937500  at U=2
+    L=16  p=97   |D|=16384  rels=73952  P=2751632      N_restr=2379684  N_acc=4848608  bound=2016901.5  slack=2.40x (odd-U rels dropped)
+    L=16  p=193  |D|=16384  rels=37172  P=1377332      N_restr=1191856  N_acc=2432064  bound=1007701.0  slack=2.41x (odd-U rels dropped)
+    L=16  p=257  |D|=16384  rels=27580  P=1029568      N_restr=892000   N_acc=1823616  bound=753764.7  slack=2.42x (odd-U rels dropped)
+    L=16  p=353  |D|=16384  rels=20328  P=758280       N_restr=655224   N_acc=1332800  bound=545508.1  slack=2.44x (odd-U rels dropped)
+    L=16  p=449  |D|=16384  rels=16016  P=590756       N_restr=510780   N_acc=1042272  bound=426305.6  slack=2.44x (odd-U rels dropped)
+    L=16  p=577  |D|=16384  rels=12476  P=459524       N_restr=396800   N_acc=808256   bound=329070.5  slack=2.46x (odd-U rels dropped)
+    L=16  p=641  |D|=16384  rels=11276  P=429416       N_restr=369432   N_acc=744128   bound=295015.5  slack=2.52x (odd-U rels dropped)
+    rho_min(L=16) = 3003/4096 = 0.733154  at U=2
+checks=198907 failures=0

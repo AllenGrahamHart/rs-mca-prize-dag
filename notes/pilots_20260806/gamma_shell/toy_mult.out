@@ -1,0 +1,5 @@
+=== stage mult  (P3.1 / falsifier F3) ===
+    L=4: |D|=4, 12 distinct difference vectors, all mult exact
+    L=6: |D|=16, 120 distinct difference vectors, all mult exact
+    L=8: |D|=64, 1092 distinct difference vectors, all mult exact
+checks=4899 failures=0

@@ -2116,3 +2116,40 @@ git -C <path>; the coordinator shell never cd's into a worktree.
   single batch with the F2 stream (one compile, one verify chain).
   NOTE: the F2 auditor also owns a flagged "f2_admissible_object
   PROVED->REFUTED conflict" — awaiting its report.
+
+## 2026-08-06: round-20 pilot 1 BANKED — THEOREM BB: a PROVED 72-BIT BUDGET-BREAK; the consequence is THRESHOLD RELOCATION
+
+- **gamma_shell (Opus) BANKED, CAMPAIGN-CRITICAL, CANDIDATE
+  CONFIRMED ON COORDINATOR REPLAY** (245,402 checks 0 failures; the
+  coordinator re-ran every load-bearing stage incl. the
+  exact-integer comparison AND re-derived the break arithmetic by
+  hand). **LEMMA SL + THEOREM SM**: the deep-stratum accidents
+  CONCENTRATE into 256 of 2^41 gamma-shells (factor 2^33; the
+  registered danger-case prediction was exactly right); structural
+  members equidistribute over 128 shells (2^117.149 each, [B4]
+  reproduced). **THEOREM AC**: Cauchy-Schwarz accident lower bound
+  N_acc >= 2^207.575 at the witness row (103 bits over round 18;
+  1.5 bits below the banked heuristic, as required). **THEOREM BB**:
+  max-shell X_{2^34} >= 2^199.575 vs B* = 2^127.510 — **a 72.065-bit
+  PROVED budget-break; agreement k + 2^34 is UNSAFE;
+  a_L(C) >= k + 2^34 + 1** on the break region (e >= 3 fully;
+  e = 1 prime rows untouched and provably unreachable). Structural
+  control within budget by 10.36 bits — the break is entirely the
+  accidents. **THE HONEST TRIAGE (the pilot's finest hour)**: the
+  consumer chain (hand-verified, req-only to the root on BOTH grand
+  challenges) is existence/determination-shaped — (RHL-ADJ) cannot
+  be falsified by a larger list, (RHL-LB) is STRENGTHENED, and the
+  joint protocol's own words make relocation a valid resolution
+  route. WHAT DIES: the safe-side pin at w = 2^34 on the break
+  region (no route can establish safety there). THE RE-POSE: safe
+  side moves to w = 2^35 (54-bit deep-stratum margin, stable across
+  [2^35, 2^39]); THE NEW CRUX: an accident UPPER bound on shell
+  populations (nothing supplies one). PT-2 honesty: the proved
+  region is strictly inside the heuristic one; the v = 33 alarm
+  stands un-upgraded. CATCH-B (es_g_lanes' usable-w pricing needs
+  an accident term). Process: 3 bare-python3 text patches + 1
+  subagent quarantine leak (no sibling exposure) — disclosed; RULE:
+  pilots pass the quarantine clause to their subagents. Node
+  addendum (crossing) composes into the wave-47 integration edit
+  pass. Board: mystery 4 RESHAPED — the accident upper bound is the
+  crossing lane's sharpest named obligation.
