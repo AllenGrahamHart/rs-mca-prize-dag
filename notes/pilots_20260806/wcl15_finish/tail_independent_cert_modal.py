@@ -103,24 +103,35 @@ def certify() -> dict[str, object]:
         raise AssertionError("printed manifest digest")
 
     factor_results = packet["factor_results"]
-    if len(factor_results) != 193:
+    if len(factor_results) != 194:
         raise AssertionError("factor result length")
     factors_by_index = {}
+    seen_factor_indices = set()
     prime_set = set()
     primality_checks = 0
     for result in factor_results:
         tail_index = int(result["tail_index"])
-        if tail_index in factors_by_index or tail_index == 191:
+        if tail_index in seen_factor_indices:
             raise AssertionError((tail_index, "factor index"))
+        seen_factor_indices.add(tail_index)
         manifest_row = manifest_by_index[tail_index]
         if (
             result.get("schema")
             != "dli-wcl-weight5-recursive-norm-tail-factor-v1"
-            or result.get("status") != "COMPLETE"
             or result.get("tail_run_id") != TAIL_RUN_ID
             or result.get("norm") != manifest_row["norm"]
         ):
             raise AssertionError((tail_index, "factor custody"))
+        if tail_index == 191:
+            if (
+                result.get("status") != "PARTIAL"
+                or result.get("error") != "FACTOR_TIMEOUT_300S"
+                or result.get("factors")
+            ):
+                raise AssertionError((tail_index, "partial factor custody"))
+            continue
+        if result.get("status") != "COMPLETE" or result.get("error") is not None:
+            raise AssertionError((tail_index, "complete factor status"))
         factors = [(int(prime), int(exponent)) for prime, exponent in result["factors"]]
         if factors != sorted(factors) or len({prime for prime, _ in factors}) != len(factors):
             raise AssertionError((tail_index, "factor order"))
@@ -152,6 +163,8 @@ def certify() -> dict[str, object]:
         prime_set.update(prime for prime, _ in factors)
         factors_by_index[tail_index] = factors
 
+    if seen_factor_indices != set(range(194)):
+        raise AssertionError("factor index coverage")
     if sorted(set(range(194)) - set(factors_by_index)) != [191]:
         raise AssertionError("residual index")
     if packet.get("missing") != [{"error": "FACTOR_TIMEOUT_300S", "tail_index": 191}]:

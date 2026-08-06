@@ -40,3 +40,12 @@ cost is below `$0.01`; no retry or factoring attempt is authorized.
 tools/ramguard modal -- modal run \
   notes/pilots_20260806/wcl15_finish/tail_independent_cert_modal.py
 ```
+
+## Operational null run
+
+App `ap-09Oi6Aze0mEezM6J52sLyS` failed before testing a factor because the
+new checker expected `factor_results` to omit tail 191.  The primary schema
+instead contains all 194 indexed entries and represents tail 191 explicitly
+as `PARTIAL`.  No mathematical prediction was tested.  One corrected run is
+authorized with stricter custody: require all 194 entries, exactly 193
+`COMPLETE`, and the exact partial timeout record at index 191.
