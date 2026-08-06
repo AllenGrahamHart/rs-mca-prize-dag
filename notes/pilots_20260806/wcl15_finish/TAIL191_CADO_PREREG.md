@@ -49,3 +49,13 @@ primality-certificate requirements unless it returns a complete factorization.
 tools/ramguard modal -- modal run --detach \
   notes/pilots_20260806/wcl15_finish/tail191_cado_modal.py
 ```
+
+## Operational null run
+
+App `ap-sCB8nacFFU9jokMNrVx0ti` built and cached official CADO-NFS commit
+`9bb8fc079`, but the installed current CLI rejected the README-style
+`workdir=/path` token and exited code 2 in 0.590 seconds.  It produced no
+parameter snapshot and consumed none of the factoring budget.  Under P1 this
+is an operational null run.  One corrected invocation using the installed
+CLI's printed `--workdir /path` form is authorized; all resource and no-resume
+limits remain unchanged.

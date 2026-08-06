@@ -91,7 +91,8 @@ def run_cado() -> dict[str, object]:
         NORM_TEXT,
         "-t",
         "16",
-        f"workdir={WORKDIR}",
+        "--workdir",
+        str(WORKDIR),
     ]
     timed_out = False
     forced_kill = False
