@@ -1,0 +1,461 @@
+{
+  "pilot": "commonroot_syzygy",
+  "script": "census.py",
+  "checks": 373,
+  "results": {
+    "calibration_ell3": [
+      {
+        "ell": 3,
+        "t": 2,
+        "tail": [
+          1,
+          1
+        ],
+        "mu": [
+          3,
+          3,
+          3,
+          3,
+          1,
+          1
+        ],
+        "beta": 12,
+        "six_t": 12,
+        "unfiltered": 48,
+        "brute_force": 12
+      },
+      {
+        "ell": 3,
+        "t": 3,
+        "tail": [
+          1,
+          1,
+          1
+        ],
+        "mu": [
+          3,
+          3,
+          3,
+          3,
+          1,
+          1,
+          1
+        ],
+        "beta": 18,
+        "six_t": 18,
+        "unfiltered": 54,
+        "brute_force": 18
+      },
+      {
+        "ell": 3,
+        "t": 4,
+        "tail": [
+          2,
+          2
+        ],
+        "mu": [
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "beta": 24,
+        "six_t": 24,
+        "unfiltered": 60,
+        "brute_force": 24
+      },
+      {
+        "ell": 3,
+        "t": 5,
+        "tail": [
+          2,
+          2,
+          1
+        ],
+        "mu": [
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "beta": 30,
+        "six_t": 30,
+        "unfiltered": 66,
+        "brute_force": 30
+      },
+      {
+        "ell": 3,
+        "t": 4,
+        "tail": [
+          2,
+          1,
+          1
+        ],
+        "mu": [
+          3,
+          3,
+          3,
+          3,
+          2,
+          1,
+          1
+        ],
+        "beta": 24,
+        "six_t": 24,
+        "unfiltered": 60,
+        "brute_force": 24
+      }
+    ],
+    "fifth_full_fiber_exception": {
+      "mu": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        1
+      ],
+      "t": 4,
+      "beta": 100,
+      "six_t": 24,
+      "note": "requires t >= ell; excluded at the official rows by ell > sigma+2"
+    },
+    "phi3_stratum_empty": true,
+    "split_calibration_ell3": [
+      {
+        "ell": 3,
+        "t": 2,
+        "pi": [
+          3,
+          2,
+          1,
+          1
+        ],
+        "beta": 432,
+        "brute_force": 432,
+        "six_t": 12
+      },
+      {
+        "ell": 3,
+        "t": 3,
+        "pi": [
+          3,
+          2,
+          1,
+          1
+        ],
+        "beta": 756,
+        "brute_force": 756,
+        "six_t": 18
+      },
+      {
+        "ell": 3,
+        "t": 4,
+        "pi": [
+          3,
+          2,
+          1,
+          1
+        ],
+        "beta": 1080,
+        "brute_force": 1080,
+        "six_t": 24
+      }
+    ],
+    "nonpacked_ell3": [
+      {
+        "mu": [
+          3,
+          3,
+          3,
+          3,
+          1,
+          1
+        ],
+        "pi": [
+          3,
+          2,
+          2
+        ],
+        "beta": 0
+      },
+      {
+        "mu": [
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "pi": [
+          3,
+          2,
+          2
+        ],
+        "beta": 0
+      },
+      {
+        "mu": [
+          3,
+          3,
+          2,
+          2,
+          2,
+          2
+        ],
+        "pi": [
+          3,
+          2,
+          2
+        ],
+        "beta": 12
+      }
+    ],
+    "official_catalogue": {
+      "1/4,1/8": {
+        "ell": 1227133512,
+        "r": 2454267025,
+        "d": 6135667568,
+        "sigma": 5,
+        "w": 7362801080,
+        "X": 118,
+        "tails": [
+          {
+            "t": 2,
+            "e": 4908534050,
+            "X": 118,
+            "beta_packed": 12,
+            "empty_split_profiles": {
+              "(1227133512, 1227133511, 2)": 0
+            },
+            "beta_split_ell_ellm1_1_1": 72281119501125798912,
+            "split_over_X_ratio_log10": 18,
+            "split_paid": false
+          },
+          {
+            "t": 3,
+            "e": 4908534051,
+            "X": 118,
+            "beta_packed": 18,
+            "empty_split_profiles": {
+              "(1227133512, 1227133511, 2)": 0
+            },
+            "beta_split_ell_ellm1_1_1": 108421679295865504800,
+            "split_over_X_ratio_log10": 18,
+            "split_paid": false
+          },
+          {
+            "t": 4,
+            "e": 4908534052,
+            "X": 118,
+            "beta_packed": 24,
+            "empty_split_profiles": {
+              "(1227133512, 1227133511, 2)": 0
+            },
+            "beta_split_ell_ellm1_1_1": 144562239090605210688,
+            "split_over_X_ratio_log10": 19,
+            "split_paid": false
+          },
+          {
+            "t": 5,
+            "e": 4908534053,
+            "X": 118,
+            "beta_packed": 30,
+            "empty_split_profiles": {
+              "(1227133512, 1227133511, 2)": 0
+            },
+            "beta_split_ell_ellm1_1_1": 180702798900070518720,
+            "split_over_X_ratio_log10": 19,
+            "split_paid": false
+          },
+          {
+            "t": 6,
+            "e": 4908534054,
+            "X": 118,
+            "beta_packed": 36,
+            "empty_split_profiles": {
+              "(1227133512, 1227133511, 2)": 0
+            },
+            "beta_split_ell_ellm1_1_1": 216843358724261428896,
+            "split_over_X_ratio_log10": 19,
+            "split_paid": false
+          },
+          {
+            "t": 7,
+            "e": 4908534055,
+            "X": 118,
+            "beta_packed": 42,
+            "empty_split_profiles": {
+              "(1227133512, 1227133511, 2)": 0
+            },
+            "beta_split_ell_ellm1_1_1": 252983918563177941216,
+            "split_over_X_ratio_log10": 19,
+            "split_paid": false
+          }
+        ]
+      },
+      "1/16": {
+        "ell": 613566756,
+        "r": 1227133513,
+        "d": 3067833784,
+        "sigma": 1,
+        "w": 3681400540,
+        "X": 136,
+        "tails": [
+          {
+            "t": 2,
+            "e": 2454267026,
+            "X": 136,
+            "beta_packed": 12,
+            "empty_split_profiles": {
+              "(613566756, 613566755, 2)": 0
+            },
+            "beta_split_ell_ellm1_1_1": 18070279875281449728,
+            "split_over_X_ratio_log10": 18,
+            "split_paid": false
+          },
+          {
+            "t": 3,
+            "e": 2454267027,
+            "X": 136,
+            "beta_packed": 18,
+            "empty_split_profiles": {
+              "(613566756, 613566755, 2)": 0
+            },
+            "beta_split_ell_ellm1_1_1": 27105419835010577808,
+            "split_over_X_ratio_log10": 18,
+            "split_paid": false
+          }
+        ]
+      }
+    },
+    "split_threshold": {
+      "1/4,1/8": 118,
+      "1/16": 136
+    },
+    "tuple_family_at_boundary": {
+      "1/4,1/8": [
+        {
+          "profile": "packed(ell,ell,1)",
+          "m": 2,
+          "usable": true,
+          "pays": false,
+          "cap_over_budget_log10": 9
+        },
+        {
+          "profile": "packed(ell,ell,1)",
+          "m": 3,
+          "T": 0,
+          "usable": false,
+          "reason": "T_(m+1)=0, vacuous"
+        },
+        {
+          "profile": "packed(ell,ell,1)",
+          "m": 4,
+          "T": 0,
+          "usable": false,
+          "reason": "T_(m+1)=0, vacuous"
+        },
+        {
+          "profile": "packed(ell,ell,1)",
+          "m": 5,
+          "T": 0,
+          "usable": false,
+          "reason": "T_(m+1)=0, vacuous"
+        },
+        {
+          "profile": "v4(ell,ell-1,1,1)",
+          "m": 2,
+          "usable": true,
+          "pays": false,
+          "cap_over_budget_log10": 8
+        },
+        {
+          "profile": "v4(ell,ell-1,1,1)",
+          "m": 3,
+          "usable": true,
+          "pays": false,
+          "cap_over_budget_log10": 15
+        },
+        {
+          "profile": "v4(ell,ell-1,1,1)",
+          "m": 4,
+          "T": 0,
+          "usable": false,
+          "reason": "T_(m+1)=0, vacuous"
+        },
+        {
+          "profile": "v4(ell,ell-1,1,1)",
+          "m": 5,
+          "T": 0,
+          "usable": false,
+          "reason": "T_(m+1)=0, vacuous"
+        }
+      ],
+      "1/16": [
+        {
+          "profile": "packed(ell,ell,1)",
+          "m": 2,
+          "usable": true,
+          "pays": false,
+          "cap_over_budget_log10": 8
+        },
+        {
+          "profile": "packed(ell,ell,1)",
+          "m": 3,
+          "T": 0,
+          "usable": false,
+          "reason": "T_(m+1)=0, vacuous"
+        },
+        {
+          "profile": "packed(ell,ell,1)",
+          "m": 4,
+          "T": 0,
+          "usable": false,
+          "reason": "T_(m+1)=0, vacuous"
+        },
+        {
+          "profile": "packed(ell,ell,1)",
+          "m": 5,
+          "T": 0,
+          "usable": false,
+          "reason": "T_(m+1)=0, vacuous"
+        },
+        {
+          "profile": "v4(ell,ell-1,1,1)",
+          "m": 2,
+          "usable": true,
+          "pays": false,
+          "cap_over_budget_log10": 8
+        },
+        {
+          "profile": "v4(ell,ell-1,1,1)",
+          "m": 3,
+          "usable": true,
+          "pays": false,
+          "cap_over_budget_log10": 14
+        },
+        {
+          "profile": "v4(ell,ell-1,1,1)",
+          "m": 4,
+          "T": 0,
+          "usable": false,
+          "reason": "T_(m+1)=0, vacuous"
+        },
+        {
+          "profile": "v4(ell,ell-1,1,1)",
+          "m": 5,
+          "T": 0,
+          "usable": false,
+          "reason": "T_(m+1)=0, vacuous"
+        }
+      ]
+    }
+  }
+}
