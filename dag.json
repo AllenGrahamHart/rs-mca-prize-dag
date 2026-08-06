@@ -28584,6 +28584,25 @@
    ]
   },
   {
+   "id": "x4_prefix_twist_orbit_moment",
+   "title": "Prefix twist-orbit constancy and moment amplification",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Let a cyclic group H of order N act multiplicatively on the evaluation domain D, and let F_z be a depth-t elementary locator-prefix fiber of A-subsets. Multiplication by zeta in H sends F_z bijectively to F_(zeta z_1,...,zeta^t z_t). If I(z)={i:z_i!=0}, the stabilizer has size s(z)=N for z=0 and gcd(N,I(z)) otherwise, so the twist orbit has N/s(z) equal-size fibers. For Q=|B|^t, R(z)=Q|F_z|/binom(N,A), and Gamma_r=Q^(r-1) sum_y (|F_y|/binom(N,A))^r, one has Gamma_r >= (N/s(z))R(z)^r/Q. For N=2^ell, s(z)=2^min_i v_2(i) on nonzero z; any prefix with a nonzero odd coordinate has a full N-element orbit. This is the first exact heavy-fiber descent rung, but supplies no moment upper bound and hence no maximum-prefix estimate by itself.",
+   "refs": [
+    "background/nodes/x4_prefix_twist_orbit_moment/statement.md",
+    "background/nodes/x4_prefix_twist_orbit_moment/proof.md",
+    "background/nodes/x4_prefix_twist_orbit_moment/audit.md",
+    "background/nodes/x4_prefix_twist_orbit_moment/claim_contract.md",
+    "background/nodes/x4_prefix_twist_orbit_moment/dependency_subdag.md",
+    "background/nodes/x4_prefix_twist_orbit_moment/verify.py"
+   ],
+   "upstream": {
+    "source": "przchojecki/rs-mca archived/grande_finale_v2.tex, prop:twist-orbit and prop:q-orbit-moment",
+    "relation": "INDEPENDENT_REPLAY"
+   }
+  },
+  {
    "id": "xr_deficient_window_active_block_nullity_pin",
    "title": "XR deficient window: active-block nullity pin",
    "status": "PROVED",
@@ -54195,6 +54214,11 @@
   },
   {
    "from": "x4_locator_prefix_consumer_scope",
+   "to": "u2c_exact_slice_extras_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "x4_prefix_twist_orbit_moment",
    "to": "u2c_exact_slice_extras_budget",
    "kind": "ev"
   },

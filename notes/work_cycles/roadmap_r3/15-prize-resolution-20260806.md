@@ -940,3 +940,41 @@ new assumptions: none
 compute: 11,692 exact finite checks under tiny RAM guard; no Modal spend
 next: prove strip-aware heavy-fiber descent/exchange compression, or attack max-prefix directly by high moments
 ```
+
+### First heavy-fiber rung: twist-orbit moment amplification
+
+The first upstream `(Q)` rung is now imported and independently proved as
+`x4_prefix_twist_orbit_moment`. Multiplication of the domain by `zeta` sends a
+prefix `z=(z_1,...,z_t)` to
+
+```text
+(zeta z_1,zeta^2 z_2,...,zeta^t z_t)
+```
+
+without changing its fiber size. If `I(z)={i:z_i!=0}` and
+`s(z)=gcd(N,I(z))`, the orbit has exactly `N/s(z)` equal fibers. Hence one
+heavy fiber forces the exact collision-moment contribution
+
+```text
+Gamma_r >= (N/s(z)) R(z)^r / |B|^t.
+```
+
+At `N=2^ell`, any prefix with a nonzero odd coordinate has a full `N`-element
+orbit; larger stabilizers are confined to increasingly even active-index
+faces. This is a rigorous first symmetry descent and aligns exactly with
+upstream's archived `prop:twist-orbit` / `prop:q-orbit-moment`. It does not
+identify even-index faces with quotient-periodic supports and supplies no
+moment upper bound, so the maximum-prefix target remains open. Exact replay:
+12,870 subsets, 4,881 fibers, 77,953 orbit checks, and moments `2,3,4`.
+
+```text
+starting pin: 89dae2543; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / Q heavy-fiber symmetry descent
+result: proved twist-orbit constancy, exact stabilizers, and moment amplification
+DAG status delta: +1 off-orbit PROVED node; no strict status change
+upstream terminal delta: harvested one proved Q rung already present in upstream archive
+delta-star bracket movement: none
+new assumptions: none
+compute: bounded exact enumeration under tiny RAM guard; no Modal spend
+next: prove that heavy even-index faces descend to paid quotient rungs, or bound primitive high moments
+```
