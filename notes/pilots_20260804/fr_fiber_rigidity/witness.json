@@ -1,0 +1,245 @@
+{
+ "all_checks": [
+  {
+   "info": "",
+   "name": "boundary-ell",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "boundary-r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "boundary-d",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "boundary-sigma",
+   "ok": true
+  },
+  {
+   "info": "ell=3 sigma+2=2",
+   "name": "load-bearing ell>sigma+2 HOLDS",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "fibers<=ell",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "tail fiber strictly below ell (exception NOT invoked)",
+   "ok": true
+  },
+  {
+   "info": "profile B1=[1, 2, 1, 2, 1]",
+   "name": "WITNESS splits a phi-fiber by >=2 points",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "AD1 D = supp(rho)",
+   "ok": true
+  },
+  {
+   "info": "e=14",
+   "name": "e = 2r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "maximality: joint core exact",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "core size = k+d",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "AD6 B_lambda1",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "AD6 B_lambda2",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "AD6 |B| = h-d",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "AD6 blocks disjoint",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "TKS2 leftover<=sigma",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "LEMMA A block avoids own fiber",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "AD5 z_lambda = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "LEMMA A block avoids own fiber",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "AD5 z_lambda = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "r > 2ell",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "FSP v>=3",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "FSP v>=3",
+   "ok": true
+  },
+  {
+   "info": "29 vs 29",
+   "name": "liveness max = A",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "exactly two live slopes",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "dim K_d = sigma+1 = 1",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "rank J_d < 2d",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "deg Z_D = e",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "kernel generator has nonzero Q-part",
+   "ok": true
+  },
+  {
+   "info": "S1deg=17 S2deg=14",
+   "name": "PRIMITIVE PAIR IS (P,Q)=(X^3,1), ell=3",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "TKS1",
+   "ok": true
+  },
+  {
+   "info": "17",
+   "name": "PP2 ell+g<=d-1",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "ABN1 c<=d-ell-g",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "AD2 e<=d-ell-1",
+   "ok": true
+  },
+  {
+   "info": "29 at (1, 0), competitors=52360",
+   "name": "TANGENT GATE: max codeword agreement = A",
+   "ok": true
+  }
+ ],
+ "report": {
+  "Bset_size_fixed_uv": 2,
+  "D_fiber_sizes": [
+   3,
+   3,
+   3,
+   3,
+   2
+  ],
+  "checks": 36,
+  "failed": [],
+  "family_maximal_members": 1,
+  "gate_competitors_per_slope": 52360,
+  "gate_max_agreement": 29,
+  "gate_slopes": 230,
+  "selected_slopes": [
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    2
+   ]
+  ],
+  "shape": "h=25 ell=3 r=7 d=18 sigma=0 e=14 t=2 k=4 n=57 q=229 A=29 core=22",
+  "sixt": 12,
+  "verdict": "FR-F1 FIRES -- (FR) REFUTED as stated",
+  "witness_B1": [
+   1,
+   3,
+   9,
+   14,
+   16,
+   44,
+   53
+  ],
+  "witness_B2": [
+   61,
+   83,
+   94,
+   134,
+   159,
+   171,
+   173
+  ],
+  "witness_fiber_profile_B1": [
+   1,
+   2,
+   1,
+   2,
+   1
+  ],
+  "witness_fiber_profile_B2": [
+   2,
+   1,
+   2,
+   1,
+   1
+  ]
+ }
+}

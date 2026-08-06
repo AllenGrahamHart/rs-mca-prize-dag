@@ -1,0 +1,187 @@
+{
+ "all_checks": [
+  {
+   "info": "h=25 ell=3 r=7 d=18 sigma=0 e=14 t=2 k=7 n=60 q=61 A=32 core=25",
+   "name": "family is 4-dimensional",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "dim K_d = sigma+1 [strong]",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "AD1 D = supp(rho) [strong]",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "dim K_d = sigma+1 [strong]",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "AD1 D = supp(rho) [strong]",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "dim K_d = sigma+1 [strong]",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "AD1 D = supp(rho) [strong]",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "dim K_d = sigma+1 [strong]",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "AD1 D = supp(rho) [strong]",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "dim K_d = sigma+1 [rigid]",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "AD1 D = supp(rho) [rigid]",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "dim K_d = sigma+1 [rigid]",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "AD1 D = supp(rho) [rigid]",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "dim K_d = sigma+1 [rigid]",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "AD1 D = supp(rho) [rigid]",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "dim K_d = sigma+1 [rigid]",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "AD1 D = supp(rho) [rigid]",
+   "ok": true
+  }
+ ],
+ "report": {
+  "D_fiber_sizes": [
+   3,
+   3,
+   3,
+   3,
+   2
+  ],
+  "all_Bset_le_6t": true,
+  "checks": 17,
+  "failed": [],
+  "max_Bset": 2,
+  "max_members": 1,
+  "runs": [
+   {
+    "Bset_by_fiber_class": {
+     "strong": 2
+    },
+    "Bset_size": 2,
+    "base_kind": "strong",
+    "candidates_enumerated": 58872,
+    "maximal_selected_members": 1,
+    "seed": 20260806
+   },
+   {
+    "Bset_by_fiber_class": {
+     "strong": 2
+    },
+    "Bset_size": 2,
+    "base_kind": "strong",
+    "candidates_enumerated": 58872,
+    "maximal_selected_members": 1,
+    "seed": 11
+   },
+   {
+    "Bset_by_fiber_class": {
+     "strong": 2
+    },
+    "Bset_size": 2,
+    "base_kind": "strong",
+    "candidates_enumerated": 58872,
+    "maximal_selected_members": 1,
+    "seed": 12345
+   },
+   {
+    "Bset_by_fiber_class": {
+     "strong": 2
+    },
+    "Bset_size": 2,
+    "base_kind": "strong",
+    "candidates_enumerated": 58872,
+    "maximal_selected_members": 1,
+    "seed": 777
+   },
+   {
+    "Bset_by_fiber_class": {
+     "rigid": 2
+    },
+    "Bset_size": 2,
+    "base_kind": "rigid",
+    "candidates_enumerated": 58872,
+    "maximal_selected_members": 1,
+    "seed": 20260806
+   },
+   {
+    "Bset_by_fiber_class": {
+     "rigid": 2
+    },
+    "Bset_size": 2,
+    "base_kind": "rigid",
+    "candidates_enumerated": 58872,
+    "maximal_selected_members": 1,
+    "seed": 11
+   },
+   {
+    "Bset_by_fiber_class": {
+     "rigid": 2
+    },
+    "Bset_size": 2,
+    "base_kind": "rigid",
+    "candidates_enumerated": 58872,
+    "maximal_selected_members": 1,
+    "seed": 12345
+   },
+   {
+    "Bset_by_fiber_class": {
+     "rigid": 2
+    },
+    "Bset_size": 2,
+    "base_kind": "rigid",
+    "candidates_enumerated": 58872,
+    "maximal_selected_members": 1,
+    "seed": 777
+   }
+  ],
+  "shape": "h=25 ell=3 r=7 d=18 sigma=0 e=14 t=2 k=7 n=60 q=61 A=32 core=25",
+  "sixt_bound": 12
+ }
+}

@@ -1,0 +1,193 @@
+{
+ "failed": [],
+ "n_checks": 33995,
+ "report": {
+  "PACK_at_round14": {
+   "h25k4": {
+    "K": 1,
+    "N": 43,
+    "PACK": 1,
+    "w": 22
+   },
+   "h25k7": {
+    "K": 4,
+    "N": 46,
+    "PACK": 12,
+    "w": 25
+   }
+  },
+  "checks": 33995,
+  "failed": [],
+  "prize_rows": {
+   "1/16": {
+    "d": 3067833784,
+    "ell": 613566756,
+    "h": 4294967297,
+    "n": 2199023255552,
+    "r": 1227133513,
+    "rates": {
+     "1/16": {
+      "A": 141733920769,
+      "A_squared": 20088504296553169551361,
+      "K_eq_k_minus_ell": 136825386716,
+      "K_gt_e_punctured_code_is_full_space": true,
+      "K_over_e_ratio_floor": 55,
+      "above_johnson_A2_gt_kn": false,
+      "core": 140506787256,
+      "e": 2454267026,
+      "k": 137438953472,
+      "k_times_n": 302231454903657293676544,
+      "multi_target_room": true,
+      "two_target_margin": 2052380800729
+     }
+    },
+    "s": 10,
+    "sigma": 1
+   },
+   "1/4,1/8": {
+    "d": 6135667568,
+    "ell": 1227133512,
+    "h": 8589934593,
+    "n": 2199023255552,
+    "r": 2454267025,
+    "rates": {
+     "1/4": {
+      "A": 558345748481,
+      "A_squared": 311749974846808113807361,
+      "K_eq_k_minus_ell": 548528680376,
+      "K_gt_e_punctured_code_is_full_space": true,
+      "K_over_e_ratio_floor": 111,
+      "above_johnson_A2_gt_kn": false,
+      "core": 555891481456,
+      "e": 4908534050,
+      "k": 549755813888,
+      "k_times_n": 1208925819614629174706176,
+      "multi_target_room": true,
+      "two_target_margin": 1630860438965
+     },
+     "1/8": {
+      "A": 283467841537,
+      "A_squared": 80354017185645742522369,
+      "K_eq_k_minus_ell": 273650773432,
+      "K_gt_e_punctured_code_is_full_space": true,
+      "K_over_e_ratio_floor": 55,
+      "above_johnson_A2_gt_kn": false,
+      "core": 281013574512,
+      "e": 4908534050,
+      "k": 274877906944,
+      "k_times_n": 604462909807314587353088,
+      "multi_target_room": true,
+      "two_target_margin": 1905738345909
+     }
+    },
+    "s": 11,
+    "sigma": 5
+   }
+  },
+  "round14_shapes": [
+   {
+    "A": 29,
+    "K": 1,
+    "Tau_max_forced": 1,
+    "core": 22,
+    "d": 18,
+    "e": 14,
+    "ell": 3,
+    "h": 25,
+    "k": 4,
+    "n": 57,
+    "n_needed_for_2_targets": 58,
+    "q": 229,
+    "r": 7,
+    "sigma": 0,
+    "t": 2,
+    "two_target_margin": -1
+   },
+   {
+    "A": 32,
+    "K": 4,
+    "Tau_max_forced": 1,
+    "core": 25,
+    "d": 18,
+    "e": 14,
+    "ell": 3,
+    "h": 25,
+    "k": 7,
+    "n": 60,
+    "n_needed_for_2_targets": 61,
+    "q": 61,
+    "r": 7,
+    "sigma": 0,
+    "t": 2,
+    "two_target_margin": -1
+   }
+  ],
+  "shape_scan_entries": 15090,
+  "toy_fixture_parameters": [
+   {
+    "A": 30,
+    "K": 2,
+    "core": 23,
+    "d": 18,
+    "dim_K_d": 1,
+    "e": 14,
+    "ell": 3,
+    "h": 25,
+    "k": 5,
+    "min_n_for_2_targets": 59,
+    "min_n_for_3_targets": 80,
+    "r": 7,
+    "sigma": 0,
+    "t": 2
+   },
+   {
+    "A": 31,
+    "K": 3,
+    "core": 24,
+    "d": 18,
+    "dim_K_d": 1,
+    "e": 14,
+    "ell": 3,
+    "h": 25,
+    "k": 6,
+    "min_n_for_2_targets": 60,
+    "min_n_for_3_targets": 80,
+    "r": 7,
+    "sigma": 0,
+    "t": 2
+   },
+   {
+    "A": 32,
+    "K": 4,
+    "core": 25,
+    "d": 18,
+    "dim_K_d": 1,
+    "e": 14,
+    "ell": 3,
+    "h": 25,
+    "k": 7,
+    "min_n_for_2_targets": 61,
+    "min_n_for_3_targets": 80,
+    "r": 7,
+    "sigma": 0,
+    "t": 2
+   },
+   {
+    "A": 33,
+    "K": 5,
+    "core": 26,
+    "d": 18,
+    "dim_K_d": 1,
+    "e": 14,
+    "ell": 3,
+    "h": 25,
+    "k": 8,
+    "min_n_for_2_targets": 62,
+    "min_n_for_3_targets": 80,
+    "r": 7,
+    "sigma": 0,
+    "t": 2
+   }
+  ]
+ }
+}

@@ -1072,3 +1072,162 @@ Integration freeze pending the upstream-sync wiring and stocktake:
   disguise? LEMMA W is the same window system — a potential FIFTH
   dependency reduction, flagged prominently either way).
   Explicit-path commits while running.
+
+## 2026-08-04: round-14 pilot 1/4 BANKED — crossing OPENED: 3 theorems + the shared terminal
+
+- **crossing_w2_opening (Opus) BANKED** (152 checks; 3 honest
+  recorded resolutions). LEMMA X (general-T equidistribution — all
+  5.3e11 bracket w values vs MC-3's 6; PK2 reconciled); THEOREM Q
+  (q-dependence = characteristic only, tower-invariant); LEMMA Y/MW
+  (window LINEAR at every official razor row: w < p proved; crossing
+  heart = constant-weight count in a length-2^41 cyclic code; MC
+  window = coordinate subspace -> band route cut theorem-grade);
+  q-free floor (12x over MC-3, no bite at 2-power n). MERGE: same
+  counting problem, four blockers, ONE SHARED TERMINAL (mu_n
+  anti-concentration = mysteries 1+4's common deepest question).
+  Anchors A1-A8 (A5/A6 external-shaped; A7/A8 -> Codex). Awaiting:
+  fr_fiber_rigidity, f2_opening, c1_sharpest_leaf.
+
+## 2026-08-04: round-14 pilot 2/4 BANKED — C1/C2'' lane mapped; Delta route dead; A1 = the window-extension audit
+
+- **c1_sharpest_leaf (Opus) BANKED.** Ten slot leaves, minimal set =
+  all ten (zero-event forced); Delta certificate route DEAD at the
+  smallest slot hence all (premise PROVED 61/61, size extrapolated
+  4.4e8 bits vs 1e7 threshold — 44x margin); 8/10 leaves now
+  routeless; census re-priced FEASIBLE at (1,5) (65-130 CPU-h,
+  CR-W5-ELL1 filed, gated on A1); the +5 -> +7 window extension
+  identified as the fault line — A1 (audit it) = the lane's next
+  obligation. v_2-blindness banked as the structural law. Hygiene
+  flags queued. Awaiting: fr_fiber_rigidity, f2_opening.
+
+## 2026-08-04: round-14 pilot 3/4 BANKED — F2 OPENED AND MOSTLY DISCHARGED
+
+- **f2_opening (Opus) BANKED** (V1-V12, 66 PASS; P1-P10 confirmed;
+  two self-catches corrected openly). (O1)+(O2) discharged EXACTLY at
+  rungs 1-13 (THEOREM A surjectivity: E[exp S_c] = 2^{n/2}, o(n)=0;
+  brute-forced at p=5 over all frequencies); (O2) implied by (O1);
+  (O3) exact (pullback as a POWER); LEMMA 3 necessary condition
+  (7.89x margin — pin t, CATCH-4); T3-UNIFORM REFUTED (constructive;
+  the lane's analytic-NT dependency REMOVED; T3 re-posed in measure =
+  internal); the banked annealed drift closed exactly. REMAINING for
+  mystery 2: SL-1 (rungs 14-16 power-sum relations) + SL-2 (the
+  |K1| sum-vs-average seam, settle with PP5.0). Theorems queued
+  mint-shaped for mint-4. Awaiting: fr_fiber_rigidity (4/4).
+
+## 2026-08-04: round-14 pilot 4/4 BANKED — (FR) REFUTED -> (BC); ROUND 14 COMPLETE
+
+- **fr_fiber_rigidity (Opus) BANKED** (47,111+ checks, 0 fail; FR-F1
+  fired as pre-registered). (FR) refuted inside its intended domain
+  (audited witness, gate exhausted-tight, exception not invoked;
+  1,710/1,716 partitions violate; the 6 survivors = the packed case).
+  SURVIVES: the counting consequence (|Bset| = 2 <= 6t empirically).
+  NEW: the two-ray syzygy, self-fiber avoidance, the selection lens
+  (census = punctured-RS list count), GATE-r — mint-shaped.
+  OBLIGATION RE-POSED: **(BC)** block census (reuse = the unmeasured
+  crux; Johnson-regime caveat = falsifier axis 1). Brief-staleness
+  catch against the coordinator recorded (quote theorems verbatim).
+  ROUND 14 COMPLETE — all four mysteries moved. Next-round board:
+  (BC), A1, F2-SL-1, the shared mu_n terminal, mint-4.
+
+## 2026-08-04: ROUND 15 LAUNCHED — the convergence round
+
+- (1) bc_block_census: mystery 1's (BC) — the reuse law (the
+  unmeasured crux), the half-agreement list count via the selection
+  lens, the Johnson-regime split axis. (2) a1_window_audit: mystery
+  3's +5 -> +7 derivation audit (TIGHT/LOSSY/CONDITIONAL verdict +
+  minimal-W arithmetic + the A2 overkill gap). (3) f2_sl1_powersums:
+  mystery 2's rungs 14-16 — the ternary odd-power-sum minimum-weight
+  law, with the CROSS-LANE BCH identification against the crossing
+  pilot's LEMMA Y flagged (potential sixth reduction); pin t first
+  (CATCH-4). (4) mun_anticoncentration: the SHARED TERMINAL of
+  mysteries 1+4 — the unified constant-weight cyclic-code statement,
+  the transfer inventory (sparse-zero-set weight distributions /
+  Carlitz-Uchiyama at w-1 << p), the w = 2 exact case, and the
+  internal/transfer/open verdict BEFORE paying for outside help.
+  Standing rules: verbatim theorem quotes in briefs; explicit-path
+  commits while running.
+
+## 2026-08-04: round-15 pilot 1/4 BANKED — A1 verdict LOSSY; the W = 5 rollback SURFACED
+
+- **a1_window_audit (Opus) BANKED** (7/7 controls). The +7 window is
+  a +2 overshoot with NO derivation (ceiling-not-floor; numeral
+  semantics collision; the only pro-argument used a retired
+  instrument); W_min = 5 EXACT (the q = 918552577 w6-orbit binding
+  inequality); the margin/slot curve plotted for the first time
+  (+7 -> +8 buys zero); A2 gap 21.4x but STERILE. ROLLBACK SURFACED
+  with coordinator recommendation RATIFY: board 10/8-routeless ->
+  4/1-closable, consumer arithmetic bit-identical, costs are
+  watch-line (margin 2.85x -> 2.30x). Awaiting: bc_block_census,
+  f2_sl1_powersums, mun_anticoncentration.
+
+## 2026-08-04: round-15 pilot 2/4 BANKED — (BC) refuted; THREE-WAY convergence on the mu_n terminal
+
+- **bc_block_census (Opus) BANKED** (34,332 checks 0 fail; BC-F1a +
+  BC-F6 fired as registered). (BC) refuted uniform (|Bset| = 2|Tau|
+  admissible, exhaustive gates, both Johnson regimes); round-14
+  |Bset| = 2 WITHDRAWN (pigeonhole margin exactly -(t-1)); route 2
+  dead at rows (K/e = 55-112x); the ordered-pair form CIRCULAR
+  (coordinator statement-defect #4). Honest residual = the OFF-D
+  agreement count = THE mu_n TERMINAL — now consumed by band
+  fullrank + crossing + syzygy alike. Mint-shaped: the bucketed
+  slope-free gate (2,618x) + four lemmas. Awaiting:
+  f2_sl1_powersums, mun_anticoncentration (now the campaign's
+  single most important open thread).
+
+## 2026-08-04: round-15 pilot 3/4 BANKED — THE TERMINAL UNIFIED AS (ES); the coding-theory label refuted by theorem
+
+- **mun_anticoncentration (Opus) BANKED** (50/50; 4 own-PREREG
+  withdrawals; 2 own predictions refuted openly). (ES) entropic
+  suppression = the unified terminal of FOUR lanes (band, crossing,
+  syzygy, u2c/dli). ROUTE CUT PROVED: identical-enumerator code pairs
+  with different 0/1 counts — MacWilliams/Delsarte/Krawtchouk/
+  Sidelnikov/BCH-family CANNOT decide it in principle; Weil vacuous
+  13.5-107 bits; L2 loses exactly 2^128. MDS/RS identification;
+  prime-power scope (n = 2^41 good); suppression measured 1-2 orders
+  EARLY (for (ES)); above-balance accident witness pins the boundary.
+  CATCH-15A: MC-4 = PROVED b1 node — dischargeable by citation
+  (mint-4, with the b1 repair). NEXT: Ax-Katz transfer = the one
+  untested classical route; Pro brief targets p-adic/Deligne-Katz
+  people. Awaiting: f2_sl1_powersums (4/4).
+
+## 2026-08-04: round-15 pilot 4/4 BANKED — SL-1 PROVED; ROUND 15 COMPLETE; the t-pin crisis surfaced
+
+- **f2_sl1_powersums (Opus) BANKED** (85/85). SL-1 PROVED
+  characteristic-free (weight >= ceil(t/2)+1, subsumes THEOREM A;
+  true law min(2R+1, max(p, R+1)) sharp); sixth reduction refuted
+  (shared lens, three blockers) BUT the DLI/WCL lane had a stronger
+  uncited version (char > w necessary — 6 counterexamples gifted
+  back); Z(L) mass bounds + SL-1b named. **MAINTAINER CATCH: t
+  UNPINNED** — t* flips LEMMA 3 at rung 16 (0.969x violation) and
+  shortens the band to rungs 1-10; m_16 contradiction; F2 discharge
+  headlines carry a dated caveat until q = p^k and t are pinned from
+  the rules freeze. ROUND 15 COMPLETE. Next-round board: Ax-Katz on
+  (ES); the t/q pin; the W-5 rollback (awaiting ratification);
+  mint-4.
+
+## 2026-08-06: ROUND 16 LAUNCHED — 4 Opus pilots (2 on mystery 2, 2 on the (ES) terminal)
+
+- **f2_tq_pin** (mystery 2, DEDICATED): derive q = p^k and t from
+  rules-level sources; adjudicate t ~ 7e10 vs t* = 8,592,912,739;
+  resolve the m_16 = 2^38-vs-2^39 contradiction; recompute LEMMA 3
+  at all 16 rungs; state the true surjectivity band. Secondary: the
+  |K1|/PP5.0 seam. Derivation task.
+- **f2_sl1b** (mystery 2): prove/refute SL-1b (dim L >= m log_p 3);
+  counterexample search first; sharpness; discharge-chain consequence.
+  t-pin interactions flagged, not resolved (sibling owns it).
+- **es_axkatz_transfer** ((ES) lead): algebraize the 0/1
+  constant-weight count; exact Ax-Katz exponent at the four rows;
+  verdict LIVE / DEAD-VACUOUS / DEAD-INSENSITIVE, adversarially
+  self-checked; toy-row calibration against the round-15 verifiers.
+- **es_boundary_adversary** ((ES) adversarial lens, sibling-blind):
+  hunt a sub-balance accident at scaled admissible families; fit the
+  suppression curve; sharpen the above-balance witness; constraint
+  feedback. A sub-balance accident = campaign-critical catch.
+
+Composition per user direction ("at least 1 dedicated to 2"); the two
+(ES) pilots are mutually blind (proof lens vs falsification lens).
+Standing rules: PREREG appended before compute; verbatim quotes;
+ramguard law; DRAFT ONLY; coordinator persists reports verbatim;
+explicit-path commits while running. STILL PENDING USER RATIFICATION:
+the W = 5 rollback (+ CR-W5-ELL1 census gated on it); CATCH-15A edit
+queued for mint-4.

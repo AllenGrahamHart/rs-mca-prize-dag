@@ -1,0 +1,1566 @@
+{
+ "all_checks": [
+  {
+   "info": "max=29 vs round-14 gate_max_agreement=29",
+   "name": "[FR-CONTROL] bucketed gate reproduces round-14 verdict at A=29",
+   "ok": true
+  },
+  {
+   "info": "max=29 >= A=29",
+   "name": "[FR-CONTROL] positive control: at threshold A-1 the search FINDS the over-agreement",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "[A2-above] has 2-target room",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A2-above/reuse] AD1 D = supp(rho)",
+   "ok": true
+  },
+  {
+   "info": "2",
+   "name": "[A2-above/reuse] fixture carries >= 2 targets",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A2-above/reuse] AD6 |B| = h-d = r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A2-above/reuse] AD6 blocks disjoint",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A2-above/reuse] TKS2 leftover <= sigma = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A2-above/reuse] AD6 |B| = h-d = r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A2-above/reuse] AD6 blocks disjoint",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A2-above/reuse] TKS2 leftover <= sigma = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A2-above/reuse] BC-F2 REUSE LAW: no two targets share exactly one block",
+   "ok": true
+  },
+  {
+   "info": "2 vs 2",
+   "name": "[A2-above/reuse] |Bset| = 2 * #partitions",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "[A2-above/reuse] dim K_d = sigma+1",
+   "ok": true
+  },
+  {
+   "info": "max=30 A=30",
+   "name": "[A2-above/reuse] TANGENT GATE holds (exhaustive)",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A2-above/noreuse] AD1 D = supp(rho)",
+   "ok": true
+  },
+  {
+   "info": "2",
+   "name": "[A2-above/noreuse] fixture carries >= 2 targets",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A2-above/noreuse] AD6 |B| = h-d = r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A2-above/noreuse] AD6 blocks disjoint",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A2-above/noreuse] TKS2 leftover <= sigma = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A2-above/noreuse] AD6 |B| = h-d = r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A2-above/noreuse] AD6 blocks disjoint",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A2-above/noreuse] TKS2 leftover <= sigma = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A2-above/noreuse] BC-F2 REUSE LAW: no two targets share exactly one block",
+   "ok": true
+  },
+  {
+   "info": "4 vs 4",
+   "name": "[A2-above/noreuse] |Bset| = 2 * #partitions",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "[A2-above/noreuse] dim K_d = sigma+1",
+   "ok": true
+  },
+  {
+   "info": "max=30 A=30",
+   "name": "[A2-above/noreuse] TANGENT GATE holds (exhaustive)",
+   "ok": true
+  },
+  {
+   "info": "2",
+   "name": "[A1-above] has 2-target room",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A1-above/reuse] AD1 D = supp(rho)",
+   "ok": true
+  },
+  {
+   "info": "2",
+   "name": "[A1-above/reuse] fixture carries >= 2 targets",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A1-above/reuse] AD6 |B| = h-d = r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A1-above/reuse] AD6 blocks disjoint",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A1-above/reuse] TKS2 leftover <= sigma = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A1-above/reuse] AD6 |B| = h-d = r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A1-above/reuse] AD6 blocks disjoint",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A1-above/reuse] TKS2 leftover <= sigma = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A1-above/reuse] BC-F2 REUSE LAW: no two targets share exactly one block",
+   "ok": true
+  },
+  {
+   "info": "2 vs 2",
+   "name": "[A1-above/reuse] |Bset| = 2 * #partitions",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "[A1-above/reuse] dim K_d = sigma+1",
+   "ok": true
+  },
+  {
+   "info": "max=29 A=29",
+   "name": "[A1-above/reuse] TANGENT GATE holds (exhaustive)",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A1-above/noreuse] AD1 D = supp(rho)",
+   "ok": true
+  },
+  {
+   "info": "2",
+   "name": "[A1-above/noreuse] fixture carries >= 2 targets",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A1-above/noreuse] AD6 |B| = h-d = r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A1-above/noreuse] AD6 blocks disjoint",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A1-above/noreuse] TKS2 leftover <= sigma = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A1-above/noreuse] AD6 |B| = h-d = r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A1-above/noreuse] AD6 blocks disjoint",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A1-above/noreuse] TKS2 leftover <= sigma = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[A1-above/noreuse] BC-F2 REUSE LAW: no two targets share exactly one block",
+   "ok": true
+  },
+  {
+   "info": "4 vs 4",
+   "name": "[A1-above/noreuse] |Bset| = 2 * #partitions",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "[A1-above/noreuse] dim K_d = sigma+1",
+   "ok": true
+  },
+  {
+   "info": "max=29 A=29",
+   "name": "[A1-above/noreuse] TANGENT GATE holds (exhaustive)",
+   "ok": true
+  },
+  {
+   "info": "155",
+   "name": "[B1-below] has 2-target room",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B1-below/reuse] AD1 D = supp(rho)",
+   "ok": true
+  },
+  {
+   "info": "2",
+   "name": "[B1-below/reuse] fixture carries >= 2 targets",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B1-below/reuse] AD6 |B| = h-d = r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B1-below/reuse] AD6 blocks disjoint",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B1-below/reuse] TKS2 leftover <= sigma = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B1-below/reuse] AD6 |B| = h-d = r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B1-below/reuse] AD6 blocks disjoint",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B1-below/reuse] TKS2 leftover <= sigma = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B1-below/reuse] BC-F2 REUSE LAW: no two targets share exactly one block",
+   "ok": true
+  },
+  {
+   "info": "2 vs 2",
+   "name": "[B1-below/reuse] |Bset| = 2 * #partitions",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "[B1-below/reuse] dim K_d = sigma+1",
+   "ok": true
+  },
+  {
+   "info": "max=29 A=29",
+   "name": "[B1-below/reuse] TANGENT GATE holds (exhaustive)",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B1-below/noreuse] AD1 D = supp(rho)",
+   "ok": true
+  },
+  {
+   "info": "2",
+   "name": "[B1-below/noreuse] fixture carries >= 2 targets",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B1-below/noreuse] AD6 |B| = h-d = r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B1-below/noreuse] AD6 blocks disjoint",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B1-below/noreuse] TKS2 leftover <= sigma = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B1-below/noreuse] AD6 |B| = h-d = r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B1-below/noreuse] AD6 blocks disjoint",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B1-below/noreuse] TKS2 leftover <= sigma = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B1-below/noreuse] BC-F2 REUSE LAW: no two targets share exactly one block",
+   "ok": true
+  },
+  {
+   "info": "4 vs 4",
+   "name": "[B1-below/noreuse] |Bset| = 2 * #partitions",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "[B1-below/noreuse] dim K_d = sigma+1",
+   "ok": true
+  },
+  {
+   "info": "max=29 A=29",
+   "name": "[B1-below/noreuse] TANGENT GATE holds (exhaustive)",
+   "ok": true
+  },
+  {
+   "info": "124",
+   "name": "[B2-below] has 2-target room",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B2-below/reuse] AD1 D = supp(rho)",
+   "ok": true
+  },
+  {
+   "info": "2",
+   "name": "[B2-below/reuse] fixture carries >= 2 targets",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B2-below/reuse] AD6 |B| = h-d = r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B2-below/reuse] AD6 blocks disjoint",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B2-below/reuse] TKS2 leftover <= sigma = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B2-below/reuse] AD6 |B| = h-d = r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B2-below/reuse] AD6 blocks disjoint",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B2-below/reuse] TKS2 leftover <= sigma = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B2-below/reuse] BC-F2 REUSE LAW: no two targets share exactly one block",
+   "ok": true
+  },
+  {
+   "info": "2 vs 2",
+   "name": "[B2-below/reuse] |Bset| = 2 * #partitions",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "[B2-below/reuse] dim K_d = sigma+1",
+   "ok": true
+  },
+  {
+   "info": "max=30 A=30",
+   "name": "[B2-below/reuse] TANGENT GATE holds (exhaustive)",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B2-below/noreuse] AD1 D = supp(rho)",
+   "ok": true
+  },
+  {
+   "info": "2",
+   "name": "[B2-below/noreuse] fixture carries >= 2 targets",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B2-below/noreuse] AD6 |B| = h-d = r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B2-below/noreuse] AD6 blocks disjoint",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B2-below/noreuse] TKS2 leftover <= sigma = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B2-below/noreuse] AD6 |B| = h-d = r",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B2-below/noreuse] AD6 blocks disjoint",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B2-below/noreuse] TKS2 leftover <= sigma = 0",
+   "ok": true
+  },
+  {
+   "info": "",
+   "name": "[B2-below/noreuse] BC-F2 REUSE LAW: no two targets share exactly one block",
+   "ok": true
+  },
+  {
+   "info": "4 vs 4",
+   "name": "[B2-below/noreuse] |Bset| = 2 * #partitions",
+   "ok": true
+  },
+  {
+   "info": "1",
+   "name": "[B2-below/noreuse] dim K_d = sigma+1",
+   "ok": true
+  },
+  {
+   "info": "max=30 A=30",
+   "name": "[B2-below/noreuse] TANGENT GATE holds (exhaustive)",
+   "ok": true
+  }
+ ],
+ "report": {
+  "A1-above": {
+   "above_johnson": true,
+   "cases": {
+    "noreuse": {
+     "B1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      13
+     ],
+     "B2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      17,
+      19
+     ],
+     "admissibility": {
+      "dim_K_d": 1
+     },
+     "census": {
+      "Bset_distinct": 4,
+      "core_candidates": 2,
+      "family_size_qK": 61,
+      "n_targets": 2,
+      "pair_count_2Tau": 4,
+      "partitions": 2,
+      "reuse_ratio_2Tau_over_Bset": 1.0,
+      "targets": [
+       {
+        "blocks": [
+         [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          13
+         ],
+         [
+          17,
+          19,
+          26,
+          33,
+          39,
+          47,
+          52
+         ]
+        ],
+        "coef": [
+         0
+        ],
+        "slopes": [
+         [
+          1,
+          0
+         ],
+         [
+          1,
+          2
+         ]
+        ]
+       },
+       {
+        "blocks": [
+         [
+          1,
+          2,
+          3,
+          4,
+          5,
+          17,
+          19
+         ],
+         [
+          6,
+          13,
+          26,
+          33,
+          39,
+          47,
+          52
+         ]
+        ],
+        "coef": [
+         9
+        ],
+        "slopes": [
+         [
+          1,
+          4
+         ],
+         [
+          1,
+          5
+         ]
+        ]
+       }
+      ]
+     },
+     "gate": {
+      "T": 38,
+      "bucket_sizes": [
+       5,
+       5,
+       5,
+       5,
+       5,
+       5,
+       4,
+       4
+      ],
+      "buckets": 8,
+      "gate_holds": true,
+      "max_found": 29,
+      "need_in_T": 27,
+      "subsets": 32,
+      "threshold": 29
+     }
+    },
+    "reuse": {
+     "B1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      13
+     ],
+     "B2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      13
+     ],
+     "admissibility": {
+      "dim_K_d": 1
+     },
+     "census": {
+      "Bset_distinct": 2,
+      "core_candidates": 2,
+      "family_size_qK": 61,
+      "n_targets": 2,
+      "pair_count_2Tau": 4,
+      "partitions": 1,
+      "reuse_ratio_2Tau_over_Bset": 2.0,
+      "targets": [
+       {
+        "blocks": [
+         [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          13
+         ],
+         [
+          17,
+          19,
+          26,
+          33,
+          39,
+          47,
+          52
+         ]
+        ],
+        "coef": [
+         0
+        ],
+        "slopes": [
+         [
+          1,
+          0
+         ],
+         [
+          1,
+          2
+         ]
+        ]
+       },
+       {
+        "blocks": [
+         [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          13
+         ],
+         [
+          17,
+          19,
+          26,
+          33,
+          39,
+          47,
+          52
+         ]
+        ],
+        "coef": [
+         9
+        ],
+        "slopes": [
+         [
+          1,
+          4
+         ],
+         [
+          1,
+          5
+         ]
+        ]
+       }
+      ]
+     },
+     "gate": {
+      "T": 38,
+      "bucket_sizes": [
+       5,
+       5,
+       5,
+       5,
+       5,
+       5,
+       4,
+       4
+      ],
+      "buckets": 8,
+      "gate_holds": true,
+      "max_found": 29,
+      "need_in_T": 27,
+      "subsets": 32,
+      "threshold": 29
+     }
+    }
+   },
+   "shape": "A1-above h=25 ell=3 r=7 d=18 sigma=0 e=14 t=2 k=4 K=1 n=60 q=61 A=29 core=22 margin=2 ABOVE-Johnson"
+  },
+  "A2-above": {
+   "above_johnson": true,
+   "cases": {
+    "noreuse": {
+     "B1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      13
+     ],
+     "B2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      17,
+      19
+     ],
+     "admissibility": {
+      "dim_K_d": 1
+     },
+     "census": {
+      "Bset_distinct": 4,
+      "core_candidates": 2,
+      "family_size_qK": 3721,
+      "n_targets": 2,
+      "pair_count_2Tau": 4,
+      "partitions": 2,
+      "reuse_ratio_2Tau_over_Bset": 1.0,
+      "targets": [
+       {
+        "blocks": [
+         [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          13
+         ],
+         [
+          17,
+          19,
+          26,
+          33,
+          39,
+          47,
+          52
+         ]
+        ],
+        "coef": [
+         0,
+         0
+        ],
+        "slopes": [
+         [
+          1,
+          0
+         ],
+         [
+          1,
+          2
+         ]
+        ]
+       },
+       {
+        "blocks": [
+         [
+          1,
+          2,
+          3,
+          4,
+          5,
+          17,
+          19
+         ],
+         [
+          6,
+          13,
+          26,
+          33,
+          39,
+          47,
+          52
+         ]
+        ],
+        "coef": [
+         9,
+         0
+        ],
+        "slopes": [
+         [
+          1,
+          4
+         ],
+         [
+          1,
+          5
+         ]
+        ]
+       }
+      ]
+     },
+     "gate": {
+      "T": 37,
+      "bucket_sizes": [
+       7,
+       6,
+       6,
+       6,
+       6,
+       6
+      ],
+      "buckets": 6,
+      "gate_holds": true,
+      "max_found": 30,
+      "need_in_T": 27,
+      "subsets": 51,
+      "threshold": 30
+     }
+    },
+    "reuse": {
+     "B1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      13
+     ],
+     "B2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      13
+     ],
+     "admissibility": {
+      "dim_K_d": 1
+     },
+     "census": {
+      "Bset_distinct": 2,
+      "core_candidates": 2,
+      "family_size_qK": 3721,
+      "n_targets": 2,
+      "pair_count_2Tau": 4,
+      "partitions": 1,
+      "reuse_ratio_2Tau_over_Bset": 2.0,
+      "targets": [
+       {
+        "blocks": [
+         [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          13
+         ],
+         [
+          17,
+          19,
+          26,
+          33,
+          39,
+          47,
+          52
+         ]
+        ],
+        "coef": [
+         0,
+         0
+        ],
+        "slopes": [
+         [
+          1,
+          0
+         ],
+         [
+          1,
+          2
+         ]
+        ]
+       },
+       {
+        "blocks": [
+         [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          13
+         ],
+         [
+          17,
+          19,
+          26,
+          33,
+          39,
+          47,
+          52
+         ]
+        ],
+        "coef": [
+         9,
+         0
+        ],
+        "slopes": [
+         [
+          1,
+          4
+         ],
+         [
+          1,
+          5
+         ]
+        ]
+       }
+      ]
+     },
+     "gate": {
+      "T": 37,
+      "bucket_sizes": [
+       7,
+       6,
+       6,
+       6,
+       6,
+       6
+      ],
+      "buckets": 6,
+      "gate_holds": true,
+      "max_found": 30,
+      "need_in_T": 27,
+      "subsets": 51,
+      "threshold": 30
+     }
+    }
+   },
+   "shape": "A2-above h=25 ell=3 r=7 d=18 sigma=0 e=14 t=2 k=5 K=2 n=60 q=61 A=30 core=23 margin=1 ABOVE-Johnson"
+  },
+  "B1-below": {
+   "above_johnson": false,
+   "cases": {
+    "noreuse": {
+     "B1": [
+      1,
+      9,
+      10,
+      12,
+      14,
+      81,
+      220
+     ],
+     "B2": [
+      1,
+      9,
+      10,
+      12,
+      14,
+      274,
+      318
+     ],
+     "admissibility": {
+      "dim_K_d": 1
+     },
+     "census": {
+      "Bset_distinct": 4,
+      "core_candidates": 2,
+      "family_size_qK": 853,
+      "n_targets": 2,
+      "pair_count_2Tau": 4,
+      "partitions": 2,
+      "reuse_ratio_2Tau_over_Bset": 1.0,
+      "targets": [
+       {
+        "blocks": [
+         [
+          1,
+          9,
+          10,
+          12,
+          14,
+          81,
+          220
+         ],
+         [
+          274,
+          318,
+          349,
+          494,
+          570,
+          632,
+          760
+         ]
+        ],
+        "coef": [
+         0
+        ],
+        "slopes": [
+         [
+          1,
+          0
+         ],
+         [
+          1,
+          2
+         ]
+        ]
+       },
+       {
+        "blocks": [
+         [
+          1,
+          9,
+          10,
+          12,
+          14,
+          274,
+          318
+         ],
+         [
+          81,
+          220,
+          349,
+          494,
+          570,
+          632,
+          760
+         ]
+        ],
+        "coef": [
+         138
+        ],
+        "slopes": [
+         [
+          1,
+          3
+         ],
+         [
+          1,
+          4
+         ]
+        ]
+       }
+      ]
+     },
+     "gate": {
+      "T": 191,
+      "bucket_sizes": [
+       24,
+       24,
+       24,
+       24,
+       24,
+       24,
+       24,
+       23
+      ],
+      "buckets": 8,
+      "gate_holds": true,
+      "max_found": 29,
+      "need_in_T": 27,
+      "subsets": 83237,
+      "threshold": 29
+     }
+    },
+    "reuse": {
+     "B1": [
+      1,
+      9,
+      10,
+      12,
+      14,
+      81,
+      220
+     ],
+     "B2": [
+      1,
+      9,
+      10,
+      12,
+      14,
+      81,
+      220
+     ],
+     "admissibility": {
+      "dim_K_d": 1
+     },
+     "census": {
+      "Bset_distinct": 2,
+      "core_candidates": 2,
+      "family_size_qK": 853,
+      "n_targets": 2,
+      "pair_count_2Tau": 4,
+      "partitions": 1,
+      "reuse_ratio_2Tau_over_Bset": 2.0,
+      "targets": [
+       {
+        "blocks": [
+         [
+          1,
+          9,
+          10,
+          12,
+          14,
+          81,
+          220
+         ],
+         [
+          274,
+          318,
+          349,
+          494,
+          570,
+          632,
+          760
+         ]
+        ],
+        "coef": [
+         0
+        ],
+        "slopes": [
+         [
+          1,
+          0
+         ],
+         [
+          1,
+          2
+         ]
+        ]
+       },
+       {
+        "blocks": [
+         [
+          1,
+          9,
+          10,
+          12,
+          14,
+          81,
+          220
+         ],
+         [
+          274,
+          318,
+          349,
+          494,
+          570,
+          632,
+          760
+         ]
+        ],
+        "coef": [
+         138
+        ],
+        "slopes": [
+         [
+          1,
+          3
+         ],
+         [
+          1,
+          4
+         ]
+        ]
+       }
+      ]
+     },
+     "gate": {
+      "T": 191,
+      "bucket_sizes": [
+       24,
+       24,
+       24,
+       24,
+       24,
+       24,
+       24,
+       23
+      ],
+      "buckets": 8,
+      "gate_holds": true,
+      "max_found": 29,
+      "need_in_T": 27,
+      "subsets": 83237,
+      "threshold": 29
+     }
+    }
+   },
+   "shape": "B1-below h=25 ell=3 r=7 d=18 sigma=0 e=14 t=2 k=4 K=1 n=213 q=853 A=29 core=22 margin=155 BELOW-Johnson"
+  },
+  "B2-below": {
+   "above_johnson": false,
+   "cases": {
+    "noreuse": {
+     "B1": [
+      1,
+      2,
+      4,
+      7,
+      8,
+      31,
+      62
+     ],
+     "B2": [
+      1,
+      2,
+      4,
+      7,
+      8,
+      83,
+      146
+     ],
+     "admissibility": {
+      "dim_K_d": 1
+     },
+     "census": {
+      "Bset_distinct": 4,
+      "core_candidates": 2,
+      "family_size_qK": 134689,
+      "n_targets": 2,
+      "pair_count_2Tau": 4,
+      "partitions": 2,
+      "reuse_ratio_2Tau_over_Bset": 1.0,
+      "targets": [
+       {
+        "blocks": [
+         [
+          1,
+          2,
+          4,
+          7,
+          8,
+          31,
+          62
+         ],
+         [
+          83,
+          146,
+          166,
+          199,
+          214,
+          283,
+          332
+         ]
+        ],
+        "coef": [
+         0,
+         0
+        ],
+        "slopes": [
+         [
+          1,
+          0
+         ],
+         [
+          1,
+          2
+         ]
+        ]
+       },
+       {
+        "blocks": [
+         [
+          1,
+          2,
+          4,
+          7,
+          8,
+          83,
+          146
+         ],
+         [
+          31,
+          62,
+          166,
+          199,
+          214,
+          283,
+          332
+         ]
+        ],
+        "coef": [
+         69,
+         0
+        ],
+        "slopes": [
+         [
+          1,
+          3
+         ],
+         [
+          1,
+          4
+         ]
+        ]
+       }
+      ]
+     },
+     "gate": {
+      "T": 160,
+      "bucket_sizes": [
+       27,
+       27,
+       27,
+       27,
+       26,
+       26
+      ],
+      "buckets": 6,
+      "gate_holds": true,
+      "max_found": 30,
+      "need_in_T": 27,
+      "subsets": 454480,
+      "threshold": 30
+     }
+    },
+    "reuse": {
+     "B1": [
+      1,
+      2,
+      4,
+      7,
+      8,
+      31,
+      62
+     ],
+     "B2": [
+      1,
+      2,
+      4,
+      7,
+      8,
+      31,
+      62
+     ],
+     "admissibility": {
+      "dim_K_d": 1
+     },
+     "census": {
+      "Bset_distinct": 2,
+      "core_candidates": 2,
+      "family_size_qK": 134689,
+      "n_targets": 2,
+      "pair_count_2Tau": 4,
+      "partitions": 1,
+      "reuse_ratio_2Tau_over_Bset": 2.0,
+      "targets": [
+       {
+        "blocks": [
+         [
+          1,
+          2,
+          4,
+          7,
+          8,
+          31,
+          62
+         ],
+         [
+          83,
+          146,
+          166,
+          199,
+          214,
+          283,
+          332
+         ]
+        ],
+        "coef": [
+         0,
+         0
+        ],
+        "slopes": [
+         [
+          1,
+          0
+         ],
+         [
+          1,
+          2
+         ]
+        ]
+       },
+       {
+        "blocks": [
+         [
+          1,
+          2,
+          4,
+          7,
+          8,
+          31,
+          62
+         ],
+         [
+          83,
+          146,
+          166,
+          199,
+          214,
+          283,
+          332
+         ]
+        ],
+        "coef": [
+         69,
+         0
+        ],
+        "slopes": [
+         [
+          1,
+          3
+         ],
+         [
+          1,
+          4
+         ]
+        ]
+       }
+      ]
+     },
+     "gate": {
+      "T": 160,
+      "bucket_sizes": [
+       27,
+       27,
+       27,
+       27,
+       26,
+       26
+      ],
+      "buckets": 6,
+      "gate_holds": true,
+      "max_found": 30,
+      "need_in_T": 27,
+      "subsets": 454480,
+      "threshold": 30
+     }
+    }
+   },
+   "shape": "B2-below h=25 ell=3 r=7 d=18 sigma=0 e=14 t=2 k=5 K=2 n=183 q=367 A=30 core=23 margin=124 BELOW-Johnson"
+  },
+  "checks": 102,
+  "failed": [],
+  "fr_control": {
+   "at_A": {
+    "T": 35,
+    "bucket_sizes": [
+     5,
+     5,
+     5,
+     4,
+     4,
+     4,
+     4,
+     4
+    ],
+    "buckets": 8,
+    "max_found": 29,
+    "need_in_T": 27,
+    "subsets": 20,
+    "threshold": 29
+   },
+   "at_A_minus_1": {
+    "T": 35,
+    "bucket_sizes": [
+     5,
+     5,
+     5,
+     4,
+     4,
+     4,
+     4,
+     4
+    ],
+    "buckets": 8,
+    "max_found": 29,
+    "need_in_T": 26,
+    "subsets": 20,
+    "threshold": 28
+   },
+   "round14_reported_gate_max": 29,
+   "round14_search_size": 52360
+  }
+ }
+}

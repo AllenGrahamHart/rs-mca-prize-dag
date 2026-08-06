@@ -1,0 +1,76 @@
+[1/60] bits= 208 complete=True nfac=2 t_norm=0.00s t_fac=0.23s maxv2=13
+[2/60] bits= 202 complete=True nfac=4 t_norm=0.00s t_fac=0.65s maxv2=12
+[3/60] bits= 234 complete=True nfac=4 t_norm=0.00s t_fac=0.01s maxv2=13
+[4/60] bits= 199 complete=True nfac=4 t_norm=0.00s t_fac=0.01s maxv2=8
+[5/60] bits= 219 complete=True nfac=1 t_norm=0.00s t_fac=0.00s maxv2=10
+[6/60] bits= 216 complete=True nfac=2 t_norm=0.00s t_fac=11.82s maxv2=11
+[7/60] bits= 189 complete=False nfac=3 t_norm=0.00s t_fac=18.01s maxv2=11
+[8/60] bits= 204 complete=True nfac=2 t_norm=0.00s t_fac=1.78s maxv2=9
+[9/60] bits= 201 complete=True nfac=2 t_norm=0.00s t_fac=0.05s maxv2=11
+[10/60] bits= 193 complete=True nfac=1 t_norm=0.00s t_fac=0.00s maxv2=9
+[11/60] bits= 201 complete=True nfac=5 t_norm=0.00s t_fac=0.72s maxv2=11
+[12/60] bits= 210 complete=True nfac=3 t_norm=0.00s t_fac=0.00s maxv2=12
+[13/60] bits= 207 complete=False nfac=1 t_norm=0.00s t_fac=18.01s maxv2=0
+[14/60] bits= 198 complete=True nfac=4 t_norm=0.00s t_fac=4.15s maxv2=10
+[15/60] bits= 204 complete=True nfac=2 t_norm=0.00s t_fac=0.02s maxv2=9
+[16/60] bits= 210 complete=True nfac=6 t_norm=0.00s t_fac=1.69s maxv2=10
+[17/60] bits= 203 complete=True nfac=3 t_norm=0.00s t_fac=0.00s maxv2=10
+[18/60] bits= 215 complete=False nfac=1 t_norm=0.00s t_fac=18.01s maxv2=0
+[19/60] bits= 199 complete=True nfac=2 t_norm=0.00s t_fac=1.42s maxv2=12
+[20/60] bits= 202 complete=True nfac=2 t_norm=0.00s t_fac=0.00s maxv2=9
+[21/60] bits= 196 complete=True nfac=1 t_norm=0.00s t_fac=0.00s maxv2=9
+[22/60] bits= 191 complete=True nfac=3 t_norm=0.00s t_fac=1.68s maxv2=9
+[23/60] bits= 204 complete=True nfac=3 t_norm=0.00s t_fac=1.47s maxv2=11
+[24/60] bits= 210 complete=True nfac=3 t_norm=0.00s t_fac=0.28s maxv2=13
+[25/60] bits= 202 complete=True nfac=3 t_norm=0.00s t_fac=0.37s maxv2=11
+[26/60] bits= 206 complete=True nfac=2 t_norm=0.00s t_fac=0.00s maxv2=11
+[27/60] bits= 211 complete=True nfac=4 t_norm=0.00s t_fac=0.01s maxv2=11
+[28/60] bits= 204 complete=True nfac=4 t_norm=0.00s t_fac=3.66s maxv2=13
+[29/60] bits= 227 complete=True nfac=4 t_norm=0.00s t_fac=17.31s maxv2=10
+[30/60] bits= 203 complete=True nfac=4 t_norm=0.00s t_fac=7.28s maxv2=11
+[31/60] bits= 191 complete=True nfac=1 t_norm=0.00s t_fac=0.00s maxv2=10
+[32/60] bits= 201 complete=True nfac=5 t_norm=0.00s t_fac=0.57s maxv2=9
+[33/60] bits= 204 complete=True nfac=4 t_norm=0.00s t_fac=3.34s maxv2=14
+[34/60] bits= 200 complete=False nfac=1 t_norm=0.00s t_fac=18.00s maxv2=0
+[35/60] bits= 191 complete=True nfac=2 t_norm=0.00s t_fac=0.00s maxv2=10
+[36/60] bits= 201 complete=True nfac=4 t_norm=0.00s t_fac=2.00s maxv2=11
+[37/60] bits= 175 complete=True nfac=4 t_norm=0.00s t_fac=1.55s maxv2=14
+[38/60] bits= 206 complete=True nfac=4 t_norm=0.00s t_fac=2.20s maxv2=11
+[39/60] bits= 190 complete=True nfac=5 t_norm=0.00s t_fac=13.99s maxv2=14
+[40/60] bits= 188 complete=True nfac=3 t_norm=0.00s t_fac=0.00s maxv2=11
+[41/60] bits= 198 complete=True nfac=2 t_norm=0.00s t_fac=0.14s maxv2=10
+[42/60] bits= 187 complete=True nfac=3 t_norm=0.00s t_fac=0.25s maxv2=10
+[43/60] bits= 189 complete=True nfac=5 t_norm=0.00s t_fac=0.00s maxv2=12
+[44/60] bits= 204 complete=True nfac=6 t_norm=0.00s t_fac=1.07s maxv2=10
+[45/60] bits= 208 complete=False nfac=1 t_norm=0.00s t_fac=18.01s maxv2=0
+[46/60] bits= 209 complete=True nfac=3 t_norm=0.00s t_fac=6.09s maxv2=10
+[47/60] bits= 222 complete=True nfac=3 t_norm=0.00s t_fac=0.64s maxv2=9
+[48/60] bits= 206 complete=True nfac=3 t_norm=0.00s t_fac=0.19s maxv2=20
+[49/60] bits= 193 complete=True nfac=3 t_norm=0.00s t_fac=0.21s maxv2=9
+[50/60] bits= 200 complete=True nfac=4 t_norm=0.00s t_fac=7.01s maxv2=12
+[51/60] bits= 196 complete=True nfac=5 t_norm=0.00s t_fac=1.14s maxv2=10
+[52/60] bits= 198 complete=True nfac=2 t_norm=0.00s t_fac=0.00s maxv2=12
+[53/60] bits= 233 complete=True nfac=2 t_norm=0.00s t_fac=0.00s maxv2=15
+[54/60] bits= 204 complete=True nfac=4 t_norm=0.00s t_fac=2.90s maxv2=11
+[55/60] bits= 203 complete=True nfac=2 t_norm=0.00s t_fac=10.28s maxv2=11
+[56/60] bits= 180 complete=True nfac=4 t_norm=0.00s t_fac=5.73s maxv2=13
+[57/60] bits= 207 complete=True nfac=4 t_norm=0.00s t_fac=6.21s maxv2=10
+[58/60] bits= 203 complete=False nfac=2 t_norm=0.00s t_fac=18.00s maxv2=10
+[59/60] bits= 207 complete=True nfac=4 t_norm=0.00s t_fac=0.11s maxv2=8
+[60/60] bits= 195 complete=True nfac=4 t_norm=0.00s t_fac=0.42s maxv2=11
+
+{
+ "seed": 777,
+ "nclasses": 60,
+ "budget_s": 18.0,
+ "elapsed_s": 229.76,
+ "classes_complete": 54,
+ "p2_all_ok": true,
+ "distinct_primes_total": 170,
+ "sum_log2_distinct_primes": 10238,
+ "max_v2": 20,
+ "ELIGIBLE_PRIMES": [],
+ "mean_norm_bits": 202.6,
+ "mean_t_total": 3.812,
+ "median_t_total": 0.716
+}

@@ -1,0 +1,362 @@
+
+=== S1  model self-test: fields, mu_n, antipodal pairs ===
+  [PASS] S1 p=17^1 n=16 deployed m=4   -- ord(zeta)=16 ok=True; zeta^(n/2)=-1 ok=True; y_i^2 distinct=True; reps one-per-pair=True
+  [PASS] S1 p=97^1 n=32 deployed m=8   -- ord(zeta)=32 ok=True; zeta^(n/2)=-1 ok=True; y_i^2 distinct=True; reps one-per-pair=True
+  [PASS] S1 p=193^1 n=64 deployed m=16   -- ord(zeta)=64 ok=True; zeta^(n/2)=-1 ok=True; y_i^2 distinct=True; reps one-per-pair=True
+  [PASS] S1 p=641^1 n=64 deployed m=16   -- ord(zeta)=64 ok=True; zeta^(n/2)=-1 ok=True; y_i^2 distinct=True; reps one-per-pair=True
+  [PASS] S1 p=113^1 n=16 deployed m=4   -- ord(zeta)=16 ok=True; zeta^(n/2)=-1 ok=True; y_i^2 distinct=True; reps one-per-pair=True
+  [PASS] S1 p=257^1 n=32 deployed m=8   -- ord(zeta)=32 ok=True; zeta^(n/2)=-1 ok=True; y_i^2 distinct=True; reps one-per-pair=True
+  [PASS] S1 p=7^2 n=16 deployed m=4   -- ord(zeta)=16 ok=True; zeta^(n/2)=-1 ok=True; y_i^2 distinct=True; reps one-per-pair=True
+  [PASS] S1 p=31^2 n=64 deployed m=16   -- ord(zeta)=64 ok=True; zeta^(n/2)=-1 ok=True; y_i^2 distinct=True; reps one-per-pair=True
+  [PASS] S1 p=23^2 n=16 deployed m=4   -- ord(zeta)=16 ok=True; zeta^(n/2)=-1 ok=True; y_i^2 distinct=True; reps one-per-pair=True
+  [PASS] S1 p=79^2 n=32 deployed m=8   -- ord(zeta)=32 ok=True; zeta^(n/2)=-1 ok=True; y_i^2 distinct=True; reps one-per-pair=True
+  [PASS] S1 p=17^1 n=16 full m=8   -- ord(zeta)=16 ok=True; zeta^(n/2)=-1 ok=True; y_i^2 distinct=True; reps one-per-pair=True
+  [PASS] S1 p=97^1 n=32 full m=16   -- ord(zeta)=32 ok=True; zeta^(n/2)=-1 ok=True; y_i^2 distinct=True; reps one-per-pair=True
+  [PASS] S1 p=7^2 n=16 full m=8   -- ord(zeta)=16 ok=True; zeta^(n/2)=-1 ok=True; y_i^2 distinct=True; reps one-per-pair=True
+
+=== S2  SL-1-THM: designed-distance law  wt(eps) >= R+1 ===
+       (F2 fires on ANY nonzero ternary dual vector of weight <= R)
+  [PASS] S2 designed-distance law holds on every (shape, R, run-start)   -- 268 configurations swept, 0 violations of wt >= R+1
+       configurations with a NONZERO ternary dual vector: 44 of 268
+         p=97^1 n=32 deployed m=8 R=1 start=1: designed=2, TRUE min wt=4, #nonzero=64
+         p=97^1 n=32 deployed m=8 R=1 start=3: designed=2, TRUE min wt=4, #nonzero=64
+         p=97^1 n=32 deployed m=8 R=1 start=7: designed=2, TRUE min wt=4, #nonzero=64
+         p=193^1 n=64 deployed m=16 R=1 start=1: designed=2, TRUE min wt=3, #nonzero=223040
+         p=193^1 n=64 deployed m=16 R=1 start=3: designed=2, TRUE min wt=3, #nonzero=223040
+         p=193^1 n=64 deployed m=16 R=1 start=7: designed=2, TRUE min wt=3, #nonzero=223040
+         p=193^1 n=64 deployed m=16 R=2 start=1: designed=3, TRUE min wt=7, #nonzero=1184
+         p=193^1 n=64 deployed m=16 R=2 start=3: designed=3, TRUE min wt=7, #nonzero=1152
+         p=193^1 n=64 deployed m=16 R=2 start=7: designed=3, TRUE min wt=5, #nonzero=1088
+         p=193^1 n=64 deployed m=16 R=3 start=3: designed=4, TRUE min wt=9, #nonzero=64
+         p=641^1 n=64 deployed m=16 R=1 start=1: designed=2, TRUE min wt=4, #nonzero=67456
+         p=641^1 n=64 deployed m=16 R=1 start=3: designed=2, TRUE min wt=4, #nonzero=67456
+         p=641^1 n=64 deployed m=16 R=1 start=7: designed=2, TRUE min wt=4, #nonzero=67456
+         p=641^1 n=64 deployed m=16 R=2 start=1: designed=3, TRUE min wt=9, #nonzero=128
+         p=641^1 n=64 deployed m=16 R=2 start=3: designed=3, TRUE min wt=9, #nonzero=96
+         p=641^1 n=64 deployed m=16 R=2 start=7: designed=3, TRUE min wt=7, #nonzero=192
+         p=31^2 n=64 deployed m=16 R=1 start=1: designed=2, TRUE min wt=5, #nonzero=44544
+         p=31^2 n=64 deployed m=16 R=1 start=3: designed=2, TRUE min wt=5, #nonzero=44544
+         p=31^2 n=64 deployed m=16 R=1 start=7: designed=2, TRUE min wt=5, #nonzero=44544
+         p=31^2 n=64 deployed m=16 R=2 start=1: designed=3, TRUE min wt=9, #nonzero=96
+         p=31^2 n=64 deployed m=16 R=2 start=3: designed=3, TRUE min wt=13, #nonzero=96
+         p=31^2 n=64 deployed m=16 R=2 start=7: designed=3, TRUE min wt=7, #nonzero=288
+         p=17^1 n=16 full m=8 R=1 start=1: designed=2, TRUE min wt=3, #nonzero=384
+         p=17^1 n=16 full m=8 R=1 start=3: designed=2, TRUE min wt=3, #nonzero=384
+
+=== S3  SL-1 as posed: no ternary relation of weight < t/2 ===
+       'odd l <= t' reading: R = ceil(t/2), so w < t/2  <=>  w < R.
+  [PASS] S3 F1 (task's falsifier: a relation of weight < t/2) NEVER FIRES   -- 0 of 268 configurations admit wt < R
+  [PASS] S3 proved law beats the pre-registered prediction w >= t/2   -- wt >= R+1 = ceil(t/2)+1 > t/2, and holds for EVERY R, not only asymptotically
+
+=== S4  the TRUE weight law and the existence boundary ===
+       F3 (tightness) fires on 0 of 74 configurations
+       existence boundary: the count threshold (m*log2 3 > dim L * log2 p) predicts existence correctly on 62/74 configurations
+         boundary miss: p=17^1 n=16 deployed m=4 R=1 dimL=1: exists=False predicted=True (m log3=6.34 vs dimL log2 p=4)
+         boundary miss: p=97^1 n=32 deployed m=8 R=2 dimL=2: exists=False predicted=True (m log3=12.68 vs dimL log2 p=12)
+         boundary miss: p=193^1 n=64 deployed m=16 R=3 dimL=3: exists=False predicted=True (m log3=25.36 vs dimL log2 p=21)
+         boundary miss: p=113^1 n=16 deployed m=4 R=1 dimL=1: exists=False predicted=True (m log3=6.34 vs dimL log2 p=6)
+         boundary miss: p=257^1 n=32 deployed m=8 R=1 dimL=1: exists=False predicted=True (m log3=12.68 vs dimL log2 p=8)
+         boundary miss: p=7^2 n=16 deployed m=4 R=1 dimL=2: exists=False predicted=True (m log3=6.34 vs dimL log2 p=4)
+         boundary miss: p=31^2 n=64 deployed m=16 R=3 dimL=6: exists=False predicted=True (m log3=25.36 vs dimL log2 p=24)
+         boundary miss: p=79^2 n=32 deployed m=8 R=1 dimL=2: exists=False predicted=True (m log3=12.68 vs dimL log2 p=12)
+         boundary miss: p=17^1 n=16 full m=8 R=3 dimL=3: exists=False predicted=True (m log3=12.68 vs dimL log2 p=12)
+         boundary miss: p=97^1 n=32 full m=16 R=3 dimL=3: exists=False predicted=True (m log3=25.36 vs dimL log2 p=18)
+         boundary miss: p=97^1 n=32 full m=16 R=4 dimL=4: exists=False predicted=True (m log3=25.36 vs dimL log2 p=24)
+         boundary miss: p=7^2 n=16 full m=8 R=5 dimL=6: exists=False predicted=True (m log3=12.68 vs dimL log2 p=12)
+  [PASS] S4 the COUNT threshold predicts existence better than the DISTANCE threshold   -- count threshold 62/74 vs distance threshold 23/74
+  [PASS] S4 the count threshold NEVER under-predicts: existence of a nonzero ternary dual vector ALWAYS implies m*log2 3 > dim L * log2 p   -- 0 of 74 configurations have a dual vector while the entropy budget is exhausted; all 12 misses are OVER-predictions (safe direction)
+
+=== S5  GEN: R >= m forces L^perp = 0 (recovers THEOREM A) ===
+  [PASS] S5 p=17^1 n=16 deployed m=4 Lambda={1,3,..,7}   -- nonzero ternary dual vectors = 0 (need 0); dim L = 4 (= m = 4: True); Z(L) = 1
+  [PASS] S5 p=97^1 n=32 deployed m=8 Lambda={1,3,..,15}   -- nonzero ternary dual vectors = 0 (need 0); dim L = 8 (= m = 8: True); Z(L) = 1
+  [PASS] S5 p=193^1 n=64 deployed m=16 Lambda={1,3,..,31}   -- nonzero ternary dual vectors = 0 (need 0); dim L = 16 (= m = 16: True); Z(L) = 1
+  [PASS] S5 p=641^1 n=64 deployed m=16 Lambda={1,3,..,31}   -- nonzero ternary dual vectors = 0 (need 0); dim L = 16 (= m = 16: True); Z(L) = 1
+  [PASS] S5 p=113^1 n=16 deployed m=4 Lambda={1,3,..,7}   -- nonzero ternary dual vectors = 0 (need 0); dim L = 4 (= m = 4: True); Z(L) = 1
+  [PASS] S5 p=257^1 n=32 deployed m=8 Lambda={1,3,..,15}   -- nonzero ternary dual vectors = 0 (need 0); dim L = 8 (= m = 8: True); Z(L) = 1
+  [PASS] S5 p=7^2 n=16 deployed m=4 Lambda={1,3,..,7}   -- nonzero ternary dual vectors = 0 (need 0); dim L = 4 (= m = 4: True); Z(L) = 1
+  [PASS] S5 p=31^2 n=64 deployed m=16 Lambda={1,3,..,31}   -- nonzero ternary dual vectors = 0 (need 0); dim L = 16 (= m = 16: True); Z(L) = 1
+  [PASS] S5 p=23^2 n=16 deployed m=4 Lambda={1,3,..,7}   -- nonzero ternary dual vectors = 0 (need 0); dim L = 4 (= m = 4: True); Z(L) = 1
+  [PASS] S5 p=79^2 n=32 deployed m=8 Lambda={1,3,..,15}   -- nonzero ternary dual vectors = 0 (need 0); dim L = 8 (= m = 8: True); Z(L) = 1
+  [PASS] S5 p=17^1 n=16 full m=8 Lambda={1,3,..,15}   -- nonzero ternary dual vectors = 0 (need 0); dim L = 8 (= m = 8: True); Z(L) = 1
+  [PASS] S5 p=97^1 n=32 full m=16 Lambda={1,3,..,31}   -- nonzero ternary dual vectors = 0 (need 0); dim L = 16 (= m = 16: True); Z(L) = 1
+  [PASS] S5 p=7^2 n=16 full m=8 Lambda={1,3,..,15}   -- nonzero ternary dual vectors = 0 (need 0); dim L = 8 (= m = 8: True); Z(L) = 1
+
+=== S6  REPLAY of LEMMA 1: E_c[T_W] = 2^m Z(L), exact ===
+  [PASS] S6 p=17^1 n=16 deployed m=4 R=1   -- E_c[T_W] = 16  vs  2^m Z(L) = 16; dim L = 1, |L^perp ∩ T| = 1
+  [PASS] S6 p=17^1 n=16 deployed m=4 R=2   -- E_c[T_W] = 16  vs  2^m Z(L) = 16; dim L = 2, |L^perp ∩ T| = 1
+  [PASS] S6 p=17^1 n=16 deployed m=4 R=3   -- E_c[T_W] = 16  vs  2^m Z(L) = 16; dim L = 3, |L^perp ∩ T| = 1
+  [PASS] S6 p=7^2 n=16 deployed m=4 R=1   -- E_c[T_W] = 16  vs  2^m Z(L) = 16; dim L = 2, |L^perp ∩ T| = 1
+  [PASS] S6 p=7^2 n=16 deployed m=4 R=2   -- E_c[T_W] = 16  vs  2^m Z(L) = 16; dim L = 4, |L^perp ∩ T| = 1
+  [PASS] S6 p=7^2 n=16 deployed m=4 R=3   -- E_c[T_W] = 16  vs  2^m Z(L) = 16; dim L = 4, |L^perp ∩ T| = 1
+  [PASS] S6 p=17^1 n=16 full m=8 R=1   -- E_c[T_W] = 3856  vs  2^m Z(L) = 3856; dim L = 1, |L^perp ∩ T| = 385
+  [PASS] S6 p=17^1 n=16 full m=8 R=2   -- E_c[T_W] = 320  vs  2^m Z(L) = 320; dim L = 2, |L^perp ∩ T| = 17
+  [PASS] S6 p=17^1 n=16 full m=8 R=3   -- E_c[T_W] = 256  vs  2^m Z(L) = 256; dim L = 3, |L^perp ∩ T| = 1
+  [PASS] S6 p=23^2 n=16 deployed m=4 R=1   -- E_c[T_W] = 16  vs  2^m Z(L) = 16; dim L = 2, |L^perp ∩ T| = 1
+  [PASS] S6 p=7^2 n=16 full m=8 R=1   -- E_c[T_W] = 1408  vs  2^m Z(L) = 1408; dim L = 2, |L^perp ∩ T| = 129
+  [PASS] S6 p=7^2 n=16 full m=8 R=2   -- E_c[T_W] = 288  vs  2^m Z(L) = 288; dim L = 4, |L^perp ∩ T| = 17
+  [PASS] S6 p=7^2 n=16 full m=8 R=3   -- E_c[T_W] = 288  vs  2^m Z(L) = 288; dim L = 4, |L^perp ∩ T| = 17
+
+=== S7  CONSEC: is the consecutive hypothesis necessary? ===
+  [PASS] S7a consecutive Lambda: NO singular R x R minor exists   -- 78 consecutive configurations, 0 singular minors (diag * Vandermonde(y_i^2) is always invertible)
+  [PASS] S7b F6 (honest form) FIRES: a GAPPED Lambda drops the F_q minimum distance to <= |Lambda|   -- 1210 witnesses out of 2281 gapped condition sets
+         WITNESS p=17^1 n=16 deployed m=4 Lambda=[1, 5] (longest run 1): singular minor on columns [0, 2] -> a kernel vector of weight <= 2
+         WITNESS p=17^1 n=16 deployed m=4 Lambda=[1, 9] (longest run 1): singular minor on columns [0, 1] -> a kernel vector of weight <= 2
+         WITNESS p=17^1 n=16 deployed m=4 Lambda=[1, 13] (longest run 1): singular minor on columns [0, 2] -> a kernel vector of weight <= 2
+         WITNESS p=17^1 n=16 deployed m=4 Lambda=[3, 7] (longest run 1): singular minor on columns [0, 2] -> a kernel vector of weight <= 2
+         WITNESS p=17^1 n=16 deployed m=4 Lambda=[3, 11] (longest run 1): singular minor on columns [0, 1] -> a kernel vector of weight <= 2
+         WITNESS p=17^1 n=16 deployed m=4 Lambda=[3, 15] (longest run 1): singular minor on columns [0, 2] -> a kernel vector of weight <= 2
+         WITNESS p=17^1 n=16 deployed m=4 Lambda=[5, 9] (longest run 1): singular minor on columns [0, 2] -> a kernel vector of weight <= 2
+         WITNESS p=17^1 n=16 deployed m=4 Lambda=[5, 13] (longest run 1): singular minor on columns [0, 1] -> a kernel vector of weight <= 2
+       S7c F6 AS PRE-REGISTERED (ternary weight <= |Lambda|): 0 witnesses out of 2379 gapped sets
+       TEST POWER: only 51 of those 2379 gapped sets admit ANY nonzero ternary dual vector at all -- with p large relative to m the ternary dual is nearly trivial, so the ternary form of F6 is UNDERPOWERED here and its null result is NOT evidence against (CONSEC).
+  [PASS] S7c the pre-registered ternary form of F6 is reported as UNDERPOWERED, not as a refutation   -- live=51, witnesses=0 -- the honest content is S7b, which fires
+  [PASS] S7 CONCLUSION: SL-1-THM is governed by the longest CONSECUTIVE odd run, not by |Lambda|   -- gapped sets are generalized Vandermonde / Schur minors and do go singular in char p
+
+=== S8  MASS: the two new rigorous bounds at partial condition sets ===
+  [PASS] S8 (M1) Z(L) <= 2^{m-R} on every configuration   -- 70 configurations
+  [PASS] S8 (M3) criterion constant   -- Z < 2 whenever 1.585(m-R) - R - 1 < 0, i.e. R > 0.61315 m; in t: t >= 1.2263 m  (vs LEMMA 2's t >= 2m-1: a 1.631x weaker requirement)
+         p=17^1 n=16 deployed m=4 R=1: Z = 1, (M1) = 8, (M2) = 31/4
+         p=17^1 n=16 deployed m=4 R=2: Z = 1, (M1) = 4, (M2) = 17/8
+         p=17^1 n=16 deployed m=4 R=3: Z = 1, (M1) = 2, (M2) = 19/16
+         p=17^1 n=16 deployed m=4 R=4: Z = 1, (M1) = 1, (M2) = 33/32
+         p=97^1 n=32 deployed m=8 R=1: Z = 23/8, (M1) = 128, (M2) = 2191/4
+         p=97^1 n=32 deployed m=8 R=2: Z = 1, (M1) = 64, (M2) = 737/8
+         p=97^1 n=32 deployed m=8 R=3: Z = 1, (M1) = 32, (M2) = 259/16
+         p=97^1 n=32 deployed m=8 R=4: Z = 1, (M1) = 16, (M2) = 113/32
+         p=97^1 n=32 deployed m=8 R=5: Z = 1, (M1) = 8, (M2) = 91/64
+         p=97^1 n=32 deployed m=8 R=6: Z = 1, (M1) = 4, (M2) = 137/128
+         p=193^1 n=64 deployed m=16 R=1: Z = 695699/2048, (M1) = 32768, (M2) = 14348911/4
+         p=193^1 n=64 deployed m=16 R=2: Z = 1327/512, (M1) = 16384, (M2) = 4782977/8
+         p=193^1 n=64 deployed m=16 R=3: Z = 1, (M1) = 8192, (M2) = 1594339/16
+         p=193^1 n=64 deployed m=16 R=4: Z = 1, (M1) = 4096, (M2) = 531473/32
+         p=193^1 n=64 deployed m=16 R=5: Z = 1, (M1) = 2048, (M2) = 177211/64
+         p=193^1 n=64 deployed m=16 R=6: Z = 1, (M1) = 1024, (M2) = 59177/128
+         p=641^1 n=64 deployed m=16 R=1: Z = 209411/2048, (M1) = 32768, (M2) = 14348911/4
+         p=641^1 n=64 deployed m=16 R=2: Z = 1137/1024, (M1) = 16384, (M2) = 4782977/8
+         p=641^1 n=64 deployed m=16 R=3: Z = 1, (M1) = 8192, (M2) = 1594339/16
+         p=641^1 n=64 deployed m=16 R=4: Z = 1, (M1) = 4096, (M2) = 531473/32
+
+=== S9  NOSTRUCT: every ternary dual vector is 'accidental' ===
+  [PASS] S9 basis argument p=17^1 n=16 deployed m=4   -- n a 2-power=True; reps in [0,n/2)=True; distinct=True  =>  alpha != 0 in Z[zeta_n]
+  [PASS] S9 basis argument p=97^1 n=32 deployed m=8   -- n a 2-power=True; reps in [0,n/2)=True; distinct=True  =>  alpha != 0 in Z[zeta_n]
+  [PASS] S9 basis argument p=193^1 n=64 deployed m=16   -- n a 2-power=True; reps in [0,n/2)=True; distinct=True  =>  alpha != 0 in Z[zeta_n]
+  [PASS] S9 basis argument p=641^1 n=64 deployed m=16   -- n a 2-power=True; reps in [0,n/2)=True; distinct=True  =>  alpha != 0 in Z[zeta_n]
+  [PASS] S9 basis argument p=113^1 n=16 deployed m=4   -- n a 2-power=True; reps in [0,n/2)=True; distinct=True  =>  alpha != 0 in Z[zeta_n]
+  [PASS] S9 basis argument p=257^1 n=32 deployed m=8   -- n a 2-power=True; reps in [0,n/2)=True; distinct=True  =>  alpha != 0 in Z[zeta_n]
+  [PASS] S9 basis argument p=7^2 n=16 deployed m=4   -- n a 2-power=True; reps in [0,n/2)=True; distinct=True  =>  alpha != 0 in Z[zeta_n]
+  [PASS] S9 basis argument p=31^2 n=64 deployed m=16   -- n a 2-power=True; reps in [0,n/2)=True; distinct=True  =>  alpha != 0 in Z[zeta_n]
+  [PASS] S9 basis argument p=23^2 n=16 deployed m=4   -- n a 2-power=True; reps in [0,n/2)=True; distinct=True  =>  alpha != 0 in Z[zeta_n]
+  [PASS] S9 basis argument p=79^2 n=32 deployed m=8   -- n a 2-power=True; reps in [0,n/2)=True; distinct=True  =>  alpha != 0 in Z[zeta_n]
+  [PASS] S9 basis argument p=17^1 n=16 full m=8   -- n a 2-power=True; reps in [0,n/2)=True; distinct=True  =>  alpha != 0 in Z[zeta_n]
+  [PASS] S9 basis argument p=97^1 n=32 full m=16   -- n a 2-power=True; reps in [0,n/2)=True; distinct=True  =>  alpha != 0 in Z[zeta_n]
+  [PASS] S9 basis argument p=7^2 n=16 full m=8   -- n a 2-power=True; reps in [0,n/2)=True; distinct=True  =>  alpha != 0 in Z[zeta_n]
+  [PASS] S9 explicit char-0 sweep (n=16, deployed, all 3^4-1 eps)   -- 0 char-0 vanishing ternary sums (need 0)
+  [PASS] S9 norm bound is DOMINATED by the designed distance   -- norm bound gives w >= p^(2R/n) = 3.93 at rung 16; designed distance gives w >= 3.500e+10 (stronger by 8.91e+09x)
+
+=== S10 OFFICIAL ROWS under every live value of t  (CATCH-4) ===
+       p = 2^31 - 2^24 + 1 = 2130706433, log2 p = 30.988685, v_2(p-1) = 24
+
+       --- t = 7e10        (f2_opening/verify.py:958,1038 literal):  t = 7.000000e+10, R = ceil(t/2) = 3.500000e+10
+           LEMMA 2 (t >= 2m_j-1) discharges rungs 1..13
+           (M3) NEW  (t >= 1.2263 m_j) gives Z(L) < 2 on rungs 1..13
+           LEMMA 3 [m_j = 2^{22+j}  (PROOFS.md:233)] rung 14: need dim L >= 2.2176e+09, t = 7.000e+10 -> OK (margin 31.566x)
+           LEMMA 3 [m_j = 2^{22+j}  (PROOFS.md:233)] rung 15: need dim L >= 4.4351e+09, t = 7.000e+10 -> OK (margin 15.783x)
+           LEMMA 3 [m_j = 2^{22+j}  (PROOFS.md:233)] rung 16: need dim L >= 8.8703e+09, t = 7.000e+10 -> OK (margin 7.892x)
+           LEMMA 3 [m_j = 2^{23+j}  (PREREG.json:58)] rung 14: need dim L >= 4.4351e+09, t = 7.000e+10 -> OK (margin 15.783x)
+           LEMMA 3 [m_j = 2^{23+j}  (PREREG.json:58)] rung 15: need dim L >= 8.8703e+09, t = 7.000e+10 -> OK (margin 7.892x)
+           LEMMA 3 [m_j = 2^{23+j}  (PREREG.json:58)] rung 16: need dim L >= 1.7741e+10, t = 7.000e+10 -> OK (margin 3.946x)
+           SL-1 rung 14: m_j = 2^36 = 6.8719e+10, designed distance R+1 = 3.5000e+10 = 0.50932 * m_j  -> Omega(m): YES
+           SL-1 rung 15: m_j = 2^37 = 1.3744e+11, designed distance R+1 = 3.5000e+10 = 0.25466 * m_j  -> Omega(m): YES
+           SL-1 rung 16: m_j = 2^38 = 2.7488e+11, designed distance R+1 = 3.5000e+10 = 0.12733 * m_j  -> Omega(m): YES
+
+       --- t = 2^36        (F2_CAMPAIGN_LOG.md:213,376,717,734):  t = 6.871948e+10, R = ceil(t/2) = 3.435974e+10
+           LEMMA 2 (t >= 2m_j-1) discharges rungs 1..13
+           (M3) NEW  (t >= 1.2263 m_j) gives Z(L) < 2 on rungs 1..13
+           LEMMA 3 [m_j = 2^{22+j}  (PROOFS.md:233)] rung 14: need dim L >= 2.2176e+09, t = 6.872e+10 -> OK (margin 30.989x)
+           LEMMA 3 [m_j = 2^{22+j}  (PROOFS.md:233)] rung 15: need dim L >= 4.4351e+09, t = 6.872e+10 -> OK (margin 15.494x)
+           LEMMA 3 [m_j = 2^{22+j}  (PROOFS.md:233)] rung 16: need dim L >= 8.8703e+09, t = 6.872e+10 -> OK (margin 7.747x)
+           LEMMA 3 [m_j = 2^{23+j}  (PREREG.json:58)] rung 14: need dim L >= 4.4351e+09, t = 6.872e+10 -> OK (margin 15.494x)
+           LEMMA 3 [m_j = 2^{23+j}  (PREREG.json:58)] rung 15: need dim L >= 8.8703e+09, t = 6.872e+10 -> OK (margin 7.747x)
+           LEMMA 3 [m_j = 2^{23+j}  (PREREG.json:58)] rung 16: need dim L >= 1.7741e+10, t = 6.872e+10 -> OK (margin 3.874x)
+           SL-1 rung 14: m_j = 2^36 = 6.8719e+10, designed distance R+1 = 3.4360e+10 = 0.50000 * m_j  -> Omega(m): YES
+           SL-1 rung 15: m_j = 2^37 = 1.3744e+11, designed distance R+1 = 3.4360e+10 = 0.25000 * m_j  -> Omega(m): YES
+           SL-1 rung 16: m_j = 2^38 = 2.7488e+11, designed distance R+1 = 3.4360e+10 = 0.12500 * m_j  -> Omega(m): YES
+
+       --- t = 2^41/log2 p (base-field: N/log2 p):  t = 7.096214e+10, R = ceil(t/2) = 3.548107e+10
+           LEMMA 2 (t >= 2m_j-1) discharges rungs 1..13
+           (M3) NEW  (t >= 1.2263 m_j) gives Z(L) < 2 on rungs 1..13
+           LEMMA 3 [m_j = 2^{22+j}  (PROOFS.md:233)] rung 14: need dim L >= 2.2176e+09, t = 7.096e+10 -> OK (margin 32.000x)
+           LEMMA 3 [m_j = 2^{22+j}  (PROOFS.md:233)] rung 15: need dim L >= 4.4351e+09, t = 7.096e+10 -> OK (margin 16.000x)
+           LEMMA 3 [m_j = 2^{22+j}  (PROOFS.md:233)] rung 16: need dim L >= 8.8703e+09, t = 7.096e+10 -> OK (margin 8.000x)
+           LEMMA 3 [m_j = 2^{23+j}  (PREREG.json:58)] rung 14: need dim L >= 4.4351e+09, t = 7.096e+10 -> OK (margin 16.000x)
+           LEMMA 3 [m_j = 2^{23+j}  (PREREG.json:58)] rung 15: need dim L >= 8.8703e+09, t = 7.096e+10 -> OK (margin 8.000x)
+           LEMMA 3 [m_j = 2^{23+j}  (PREREG.json:58)] rung 16: need dim L >= 1.7741e+10, t = 7.096e+10 -> OK (margin 4.000x)
+           SL-1 rung 14: m_j = 2^36 = 6.8719e+10, designed distance R+1 = 3.5481e+10 = 0.51632 * m_j  -> Omega(m): YES
+           SL-1 rung 15: m_j = 2^37 = 1.3744e+11, designed distance R+1 = 3.5481e+10 = 0.25816 * m_j  -> Omega(m): YES
+           SL-1 rung 16: m_j = 2^38 = 2.7488e+11, designed distance R+1 = 3.5481e+10 = 0.12908 * m_j  -> Omega(m): YES
+
+       --- t* = 8592912739 (xr_radius_arithmetic/proof.md:41-58, rate 1/2):  t = 8.592913e+09, R = ceil(t/2) = 4.296456e+09
+           LEMMA 2 (t >= 2m_j-1) discharges rungs 1..10
+           (M3) NEW  (t >= 1.2263 m_j) gives Z(L) < 2 on rungs 1..10
+           LEMMA 3 [m_j = 2^{22+j}  (PROOFS.md:233)] rung 14: need dim L >= 2.2176e+09, t = 8.593e+09 -> OK (margin 3.875x)
+           LEMMA 3 [m_j = 2^{22+j}  (PROOFS.md:233)] rung 15: need dim L >= 4.4351e+09, t = 8.593e+09 -> OK (margin 1.937x)
+           LEMMA 3 [m_j = 2^{22+j}  (PROOFS.md:233)] rung 16: need dim L >= 8.8703e+09, t = 8.593e+09 -> VIOLATED (margin 0.969x)
+           LEMMA 3 [m_j = 2^{23+j}  (PREREG.json:58)] rung 14: need dim L >= 4.4351e+09, t = 8.593e+09 -> OK (margin 1.937x)
+           LEMMA 3 [m_j = 2^{23+j}  (PREREG.json:58)] rung 15: need dim L >= 8.8703e+09, t = 8.593e+09 -> VIOLATED (margin 0.969x)
+           LEMMA 3 [m_j = 2^{23+j}  (PREREG.json:58)] rung 16: need dim L >= 1.7741e+10, t = 8.593e+09 -> VIOLATED (margin 0.484x)
+           SL-1 rung 14: m_j = 2^36 = 6.8719e+10, designed distance R+1 = 4.2965e+09 = 0.06252 * m_j  -> Omega(m): YES
+           SL-1 rung 15: m_j = 2^37 = 1.3744e+11, designed distance R+1 = 4.2965e+09 = 0.03126 * m_j  -> Omega(m): YES
+           SL-1 rung 16: m_j = 2^38 = 2.7488e+11, designed distance R+1 = 4.2965e+09 = 0.01563 * m_j  -> Omega(m): YES
+  [PASS] S10 LEMMA 3 at rung 16 HOLDS under t = 7e10   -- margin 7.892x (PROOFS.md:233 claims 7.89x)
+  [PASS] S10 LEMMA 3 at rung 16 IS VIOLATED under t* = 8,592,912,739   -- margin 0.9687x -- a SIGN FLIP of a PROVED necessary condition for (O1), not a shrinkage
+  [PASS] S10 SL-1 survives EVERY live value of t (designed distance is Omega(m) at rungs 14-16)   -- min fraction over all (t, rung) = 0.01563
+  [PASS] S10 the (M3) criterion never reaches rung 14 under any t   -- cutoffs: 13, 13, 13, 10 -- (M3) widens the discharged band in t but not in RUNGS
+
+=== S11 CROSS-LANE: SL-1 vs the crossing pilot's LEMMA Y ===
+
+       crossing LEMMA Y (crossing_w2_opening/PREREG.md, verbatim):
+         W_w = {weight-r' 0/1 vectors in the cyclic code of length n over F_p
+                with defining zeros zeta, zeta^2, ..., zeta^{w-1}}
+         i.e. a CONSTANT-WEIGHT COUNT IN A BCH CODE of designed distance w.
+
+       F2 SL-1 (this pilot, proved in S2):
+         L^perp ∩ T = {ternary vectors of length m, antipodally antisymmetric
+                on the window, in the cyclic code with defining zeros
+                zeta^{2a+1}, ..., zeta^{2a+2R-1}} -- equivalently, after the
+                antipodal fold, the ALTERNANT code with R CONSECUTIVE zeros.
+  [PASS] S11 the F2 dual IS a cyclic code with a CONSECUTIVE defining set   -- checked nu_hat(l) = 0 for l = 0..3 (all even l free, odd l from Lambda) on 200 NONZERO ternary dual vectors at p=193 n=64 m=16 R=2 (of 1184 available)
+  [PASS] S11 the even-frequency zeros are FREE (antipodal antisymmetry), which is what makes the run consecutive   -- nu(a+n/2) = -nu(a)  =>  nu_hat(l) = (1-(-1)^l) * sum_i eps_i y_i^l  =  0 for every even l
+
+       BLOCKERS to a drop-in reduction (each independently fatal):
+         (B1) ALPHABET.  crossing: 0/1 indicator vectors of subsets S.
+              F2/SL-1:    {-1,0,+1}, and the sign is not removable -- it is
+              the antipodal pair-collapse eps_i y_i, i.e. the ternary alphabet
+              IS the binary alphabet of the full window folded by x -> -x.
+         (B2) WEIGHT REGIME.  crossing asks for a count at ONE huge weight
+              r' = n-k-w with a TINY defining set (w-1 zeros, w ~ O(1)), where
+              the BCH bound is VACUOUS.  SL-1 asks for the MINIMUM weight with
+              a HUGE defining set (R ~ 3.5e10 zeros), where the BCH bound is
+              everything.  Same code family, OPPOSITE ENDS of its weight
+              enumerator.
+         (B3) QUESTION TYPE.  minimum distance (a bound) vs enumeration
+              (a count).  The BCH machinery answers the first and is silent
+              on the second.
+  [PASS] S11 VERDICT: shared LENS confirmed, sixth REDUCTION refuted   -- the object class is identical (cyclic code, consecutive defining set); the import direction crossing -> F2 is REAL and pays SL-1; the reverse (F2's residual -> crossing's count) is the SAME open counting problem
+
+=== S12 SL-1b: the first-moment law and where LEMMA 3 sits ===
+  [PASS] S12 exact first moment p=3 m=3 dim L^perp=1   -- E[Z] over all 13 subspaces = 20/13 = 1 + (2^m-1)(p^dim-1)/(p^m-1) = 20/13
+  [PASS] S12 exact first moment p=3 m=3 dim L^perp=2   -- E[Z] over all 13 subspaces = 41/13 = 1 + (2^m-1)(p^dim-1)/(p^m-1) = 41/13
+  [PASS] S12 exact first moment p=5 m=2 dim L^perp=1   -- E[Z] over all 6 subspaces = 3/2 = 1 + (2^m-1)(p^dim-1)/(p^m-1) = 3/2
+  [PASS] S12 exact first moment p=3 m=4 dim L^perp=2   -- E[Z] over all 130 subspaces = 5/2 = 1 + (2^m-1)(p^dim-1)/(p^m-1) = 5/2
+
+       Random-subspace law (proved in (a)):
+         E[Z(L)] = 1 + (2^m - 1)(p^{m-d} - 1)/(p^m - 1) ~ 1 + 2^m / p^d,   d = dim L.
+         => E[Z] = O(1)      iff   p^d >~ 2^m   iff   d >= m / log2 p     <-- EXACTLY LEMMA 3
+         => L^perp ∩ T = {0} iff   p^d >~ 3^m   iff   d >= m * log_p 3    <-- the EXISTENCE threshold
+  [PASS] S12 the two thresholds differ by EXACTLY log2(3)   -- (m log_p 3) / (m / log2 p) = log2 3 = 1.5849625; LEMMA 3 proves the base-2 bound and falls short of the base-3 (existence) bound by 58.5%
+
+       rung 14: m_j = 2^36 = 6.8719e+10;  mass threshold dim L >= 2.2176e+09 (LEMMA 3, PROVED necessary);  existence threshold dim L >= 3.5148e+09
+       rung 15: m_j = 2^37 = 1.3744e+11;  mass threshold dim L >= 4.4351e+09 (LEMMA 3, PROVED necessary);  existence threshold dim L >= 7.0295e+09
+       rung 16: m_j = 2^38 = 2.7488e+11;  mass threshold dim L >= 8.8703e+09 (LEMMA 3, PROVED necessary);  existence threshold dim L >= 1.4059e+10
+
+       [t = 7e10] rung 14: entropy m log2 3 = 1.0892e+11 bits vs MAX condition budget dim L log2 p <= 2.1295e+12 bits -> headroom 19.55x (an UPPER bound on dim L, so this is what the residual must realise, not a proof)
+       [t = 7e10] rung 15: entropy m log2 3 = 2.1784e+11 bits vs MAX condition budget dim L log2 p <= 2.1692e+12 bits -> headroom 9.96x (an UPPER bound on dim L, so this is what the residual must realise, not a proof)
+       [t = 7e10] rung 16: entropy m log2 3 = 4.3567e+11 bits vs MAX condition budget dim L log2 p <= 2.1692e+12 bits -> headroom 4.98x (an UPPER bound on dim L, so this is what the residual must realise, not a proof)
+       [t* = 8592912739] rung 14: entropy m log2 3 = 1.0892e+11 bits vs MAX condition budget dim L log2 p <= 2.6628e+11 bits -> headroom 2.44x (an UPPER bound on dim L, so this is what the residual must realise, not a proof)
+       [t* = 8592912739] rung 15: entropy m log2 3 = 2.1784e+11 bits vs MAX condition budget dim L log2 p <= 2.6628e+11 bits -> headroom 1.22x (an UPPER bound on dim L, so this is what the residual must realise, not a proof)
+       [t* = 8592912739] rung 16: entropy m log2 3 = 4.3567e+11 bits vs MAX condition budget dim L log2 p <= 2.6628e+11 bits -> headroom 0.61x (an UPPER bound on dim L, so this is what the residual must realise, not a proof)
+  [PASS] S12 SL-1b named: the residual is a LOWER bound dim L >= m log_p 3 (or a second-moment step), NOT a distance statement   -- SL-1 (distance) is now PROVED; the mass at rungs 14-16 turns on the COUNT, which is a strictly separate object
+
+=== S13 the TRUE weight law: R+1 vs the banked 2R+1 ===
+       Banked, PROVED, STRONGER, and NOT ours -- verbatim from
+       background/nodes/dli_wcl_newton_short_window_exclusion/statement.md:8-22:
+         "Let F be a field of characteristic zero or characteristic greater
+          than w. Let omega in F have exact order 2N, and let
+          P(X) = sum_(i=1)^w s_i X^e_i be a reduced signed polynomial with
+          distinct e_i in {0,...,N-1} and s_i in {+1,-1}. If
+          P(omega^(2j-1)) = 0 for j=1,...,ell and w<=2ell, then no such
+          polynomial exists."
+       i.e. w >= 2*ell + 1 = 2R+1 -- TWICE our characteristic-free R+1.
+       THE HYPOTHESIS 'char > w' FAILS AT THE F2 OFFICIAL ROW: p ~ 2^31 while
+       w ranges up to m_16 = 2^38.  So the banked node does NOT apply there.
+  [PASS] S13 our char-free bound wt >= R+1 holds on all 39 live configurations   -- 2 attain it exactly
+  [PASS] S13 the banked 2R+1 bound FAILS once char(F) <= 2R -- explicit counterexamples   -- 6 of 39 live configurations have true min weight < 2R+1; EVERY ONE of them has p <= 2R (True)
+         COUNTEREXAMPLE to 2R+1 without 'char > w': p=7^2 n=16 m=8 R=4: true min wt = 7 < 2R+1 = 9 (= p = 7: the CHARACTERISTIC CAP)
+         COUNTEREXAMPLE to 2R+1 without 'char > w': p=3^2 n=8 m=4 R=2: true min wt = 3 < 2R+1 = 5 (= p = 3: the CHARACTERISTIC CAP)
+         COUNTEREXAMPLE to 2R+1 without 'char > w': p=5^2 n=12 m=6 R=3: true min wt = 5 < 2R+1 = 7 (= p = 5: the CHARACTERISTIC CAP)
+         COUNTEREXAMPLE to 2R+1 without 'char > w': p=5^2 n=24 m=12 R=3: true min wt = 5 < 2R+1 = 7 (= p = 5: the CHARACTERISTIC CAP)
+         COUNTEREXAMPLE to 2R+1 without 'char > w': p=5^2 n=24 m=12 R=4: true min wt = 5 < 2R+1 = 9 (= p = 5: the CHARACTERISTIC CAP)
+         COUNTEREXAMPLE to 2R+1 without 'char > w': p=7^2 n=16 m=8 R=4: true min wt = 7 < 2R+1 = 9 (= p = 7: the CHARACTERISTIC CAP)
+  [PASS] S13 every counterexample sits exactly AT the characteristic: true min wt = p   -- the sharp law has a second branch, capped by char(F)
+  [PASS] S13 MEASURED LAW  wt >= min(2R+1, max(p, R+1))  holds on all live configurations   -- 24 of 39 attain it exactly -- both branches are sharp
+  [PASS] S13 the 2R+1 branch is attained where char is large   -- 18 of 39 attain wt = 2R+1 exactly
+  [PASS] S13 DECISIVE: in the regime p < R+1 (the OFFICIAL-ROW regime) the characteristic cap NEVER drops below R+1   -- 12 probes with p < R+1; 12 have NO nonzero ternary dual vector at all; 0 fall below R+1
+         probe p=3^2 n=8 m=4 R=3 (p < R+1 = 4): true min wt = NO RELATION EXISTS
+         probe p=5^2 n=12 m=6 R=5 (p < R+1 = 6): true min wt = NO RELATION EXISTS
+         probe p=5^2 n=24 m=12 R=5 (p < R+1 = 6): true min wt = NO RELATION EXISTS
+         probe p=5^2 n=24 m=12 R=6 (p < R+1 = 7): true min wt = NO RELATION EXISTS
+         probe p=5^2 n=24 m=12 R=7 (p < R+1 = 8): true min wt = NO RELATION EXISTS
+         probe p=5^2 n=24 m=12 R=8 (p < R+1 = 9): true min wt = NO RELATION EXISTS
+         probe p=5^2 n=24 m=12 R=9 (p < R+1 = 10): true min wt = NO RELATION EXISTS
+         probe p=5^2 n=24 m=12 R=10 (p < R+1 = 11): true min wt = NO RELATION EXISTS
+         probe p=5^2 n=24 m=12 R=11 (p < R+1 = 12): true min wt = NO RELATION EXISTS
+         probe p=7^2 n=16 m=8 R=7 (p < R+1 = 8): true min wt = NO RELATION EXISTS
+         probe p=11^2 n=24 m=12 R=11 (p < R+1 = 12): true min wt = NO RELATION EXISTS
+         probe p=13^2 n=28 m=14 R=13 (p < R+1 = 14): true min wt = NO RELATION EXISTS
+       => at the OFFICIAL ROW (p = 2^31 << R+1 ~ 3.5e10) the measured
+          law min(2R+1, max(p, R+1)) collapses to exactly R+1: our
+          characteristic-free bound is predicted SHARP there, and the
+          characteristic cap that breaks 2R+1 cannot reach below it.
+       live configurations (true minimum ternary weight):
+         p=97^1 n=32 deployed m=8 R=1: TRUE min wt = 4  (ours R+1 = 2, banked 2R+1 = 3)
+         p=193^1 n=64 deployed m=16 R=1: TRUE min wt = 3  (ours R+1 = 2, banked 2R+1 = 3)  <-- 2R+1 TIGHT
+         p=193^1 n=64 deployed m=16 R=2: TRUE min wt = 7  (ours R+1 = 3, banked 2R+1 = 5)
+         p=641^1 n=64 deployed m=16 R=1: TRUE min wt = 4  (ours R+1 = 2, banked 2R+1 = 3)
+         p=641^1 n=64 deployed m=16 R=2: TRUE min wt = 9  (ours R+1 = 3, banked 2R+1 = 5)
+         p=31^2 n=64 deployed m=16 R=1: TRUE min wt = 5  (ours R+1 = 2, banked 2R+1 = 3)
+         p=31^2 n=64 deployed m=16 R=2: TRUE min wt = 9  (ours R+1 = 3, banked 2R+1 = 5)
+         p=17^1 n=16 full m=8 R=1: TRUE min wt = 3  (ours R+1 = 2, banked 2R+1 = 3)  <-- 2R+1 TIGHT
+         p=17^1 n=16 full m=8 R=2: TRUE min wt = 6  (ours R+1 = 3, banked 2R+1 = 5)
+         p=97^1 n=32 full m=16 R=1: TRUE min wt = 3  (ours R+1 = 2, banked 2R+1 = 3)  <-- 2R+1 TIGHT
+         p=97^1 n=32 full m=16 R=2: TRUE min wt = 5  (ours R+1 = 3, banked 2R+1 = 5)  <-- 2R+1 TIGHT
+         p=7^2 n=16 full m=8 R=1: TRUE min wt = 3  (ours R+1 = 2, banked 2R+1 = 3)  <-- 2R+1 TIGHT
+         p=7^2 n=16 full m=8 R=2: TRUE min wt = 7  (ours R+1 = 3, banked 2R+1 = 5) [char <= w]
+         p=7^2 n=16 full m=8 R=3: TRUE min wt = 7  (ours R+1 = 4, banked 2R+1 = 7) [char <= w]  <-- 2R+1 TIGHT
+         p=7^2 n=16 full m=8 R=4: TRUE min wt = 7  (ours R+1 = 5, banked 2R+1 = 9) [char <= w]
+         p=3^2 n=8 full m=4 R=1: TRUE min wt = 3  (ours R+1 = 2, banked 2R+1 = 3) [char <= w]  <-- 2R+1 TIGHT
+         p=3^2 n=8 full m=4 R=2: TRUE min wt = 3  (ours R+1 = 3, banked 2R+1 = 5) [char <= w]
+         p=5^2 n=12 full m=6 R=1: TRUE min wt = 3  (ours R+1 = 2, banked 2R+1 = 3)  <-- 2R+1 TIGHT
+         p=5^2 n=12 full m=6 R=2: TRUE min wt = 5  (ours R+1 = 3, banked 2R+1 = 5) [char <= w]  <-- 2R+1 TIGHT
+         p=5^2 n=12 full m=6 R=3: TRUE min wt = 5  (ours R+1 = 4, banked 2R+1 = 7) [char <= w]
+         p=5^2 n=24 full m=12 R=1: TRUE min wt = 3  (ours R+1 = 2, banked 2R+1 = 3)  <-- 2R+1 TIGHT
+         p=5^2 n=24 full m=12 R=2: TRUE min wt = 5  (ours R+1 = 3, banked 2R+1 = 5) [char <= w]  <-- 2R+1 TIGHT
+         p=5^2 n=24 full m=12 R=3: TRUE min wt = 5  (ours R+1 = 4, banked 2R+1 = 7) [char <= w]
+         p=5^2 n=24 full m=12 R=4: TRUE min wt = 5  (ours R+1 = 5, banked 2R+1 = 9) [char <= w]
+         p=7^2 n=16 full m=8 R=1: TRUE min wt = 3  (ours R+1 = 2, banked 2R+1 = 3)  <-- 2R+1 TIGHT
+         p=7^2 n=16 full m=8 R=2: TRUE min wt = 7  (ours R+1 = 3, banked 2R+1 = 5) [char <= w]
+         p=7^2 n=16 full m=8 R=3: TRUE min wt = 7  (ours R+1 = 4, banked 2R+1 = 7) [char <= w]  <-- 2R+1 TIGHT
+         p=7^2 n=16 full m=8 R=4: TRUE min wt = 7  (ours R+1 = 5, banked 2R+1 = 9) [char <= w]
+         p=7^1 n=6 full m=3 R=1: TRUE min wt = 3  (ours R+1 = 2, banked 2R+1 = 3)  <-- 2R+1 TIGHT
+         p=11^2 n=24 full m=12 R=1: TRUE min wt = 3  (ours R+1 = 2, banked 2R+1 = 3)  <-- 2R+1 TIGHT
+         p=11^2 n=24 full m=12 R=2: TRUE min wt = 7  (ours R+1 = 3, banked 2R+1 = 5)
+         p=11^2 n=24 full m=12 R=3: TRUE min wt = 11  (ours R+1 = 4, banked 2R+1 = 7) [char <= w]
+         p=11^2 n=24 full m=12 R=4: TRUE min wt = 11  (ours R+1 = 5, banked 2R+1 = 9) [char <= w]
+         p=11^2 n=24 full m=12 R=5: TRUE min wt = 11  (ours R+1 = 6, banked 2R+1 = 11) [char <= w]  <-- 2R+1 TIGHT
+         p=13^2 n=28 full m=14 R=1: TRUE min wt = 3  (ours R+1 = 2, banked 2R+1 = 3)  <-- 2R+1 TIGHT
+         p=13^2 n=28 full m=14 R=2: TRUE min wt = 6  (ours R+1 = 3, banked 2R+1 = 5)
+         p=13^2 n=28 full m=14 R=3: TRUE min wt = 7  (ours R+1 = 4, banked 2R+1 = 7)  <-- 2R+1 TIGHT
+         p=13^2 n=28 full m=14 R=4: TRUE min wt = 13  (ours R+1 = 5, banked 2R+1 = 9) [char <= w]
+         p=13^2 n=28 full m=14 R=5: TRUE min wt = 13  (ours R+1 = 6, banked 2R+1 = 11) [char <= w]
+  [PASS] S13 the char <= w regime IS reached by the sweep (so the null result on 2R+1 has power)   -- 18 live configurations with char(F) <= true min weight
+
+       CONSEQUENCE, stated honestly:
+         - SL-1 is discharged by the CHAR-FREE bound wt >= R+1 (ours), which
+           is the only one of the two that APPLIES at the official row.
+         - The sharp law is wt >= 2R+1, banked and PROVED elsewhere in the
+           repo under char > w, and observed here to survive char <= w.
+           Extending the banked node to char <= w is a NAMED, TESTED
+           conjecture (SL-1c), not a result of this pilot.
+
+======================================================================
+checks: 85/85 PASS
+DIGEST: F2_SL1_TERNARY_POWERSUM_ALL_PASS  (S1-S13)

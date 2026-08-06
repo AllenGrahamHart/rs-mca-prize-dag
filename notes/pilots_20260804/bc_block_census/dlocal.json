@@ -1,0 +1,127 @@
+{
+ "all_checks": [
+  {
+   "info": "7",
+   "name": "GATE-r holds on D at K=1 (no slope class exceeds r)",
+   "ok": true
+  },
+  {
+   "info": "1 <= 2",
+   "name": "(L1) per-slope packing bound C(e,K)/C(r,K) respected at K=1",
+   "ok": true
+  },
+  {
+   "info": "7",
+   "name": "GATE-r holds on D at K=2 (no slope class exceeds r)",
+   "ok": true
+  },
+  {
+   "info": "1 <= 4",
+   "name": "(L1) per-slope packing bound C(e,K)/C(r,K) respected at K=2",
+   "ok": true
+  },
+  {
+   "info": "7",
+   "name": "GATE-r holds on D at K=3 (no slope class exceeds r)",
+   "ok": true
+  },
+  {
+   "info": "1 <= 10",
+   "name": "(L1) per-slope packing bound C(e,K)/C(r,K) respected at K=3",
+   "ok": true
+  },
+  {
+   "info": "1716/1716",
+   "name": "(L3) at K >= e EVERY partition is realised (D-local route dead)",
+   "ok": true
+  },
+  {
+   "info": "1716",
+   "name": "(L3) partition count = C(e,r)/2",
+   "ok": true
+  }
+ ],
+ "report": {
+  "X_at_rows": {
+   "1/16": 136,
+   "1/4,1/8": 118
+  },
+  "checks": 8,
+  "d_local_sweep_A2": [
+   {
+    "GATE_r_max_class_le_r": true,
+    "K": 1,
+    "N_D_two_block_taus": 2,
+    "blocks": 4,
+    "family_size_qK": 61,
+    "max_slope_class_on_D": 7,
+    "partitions": 2
+   },
+   {
+    "GATE_r_max_class_le_r": true,
+    "K": 2,
+    "N_D_two_block_taus": 2,
+    "blocks": 4,
+    "family_size_qK": 3721,
+    "max_slope_class_on_D": 7,
+    "partitions": 2
+   },
+   {
+    "GATE_r_max_class_le_r": true,
+    "K": 3,
+    "N_D_two_block_taus": 2,
+    "blocks": 4,
+    "family_size_qK": 226981,
+    "max_slope_class_on_D": 7,
+    "partitions": 2
+   }
+  ],
+  "failed": [],
+  "growth_law": {
+   "1": {
+    "N_D": 2,
+    "blocks": 4,
+    "partitions": 2
+   },
+   "2": {
+    "N_D": 2,
+    "blocks": 4,
+    "partitions": 2
+   },
+   "3": {
+    "N_D": 2,
+    "blocks": 4,
+    "partitions": 2
+   }
+  },
+  "per_slope_A2": [
+   {
+    "K": 1,
+    "bound_respected": true,
+    "max_blocks_at_one_slope": 1,
+    "packing_bound_C(e,K)/C(r,K)": 2,
+    "slopes_with_a_block": 4
+   },
+   {
+    "K": 2,
+    "bound_respected": true,
+    "max_blocks_at_one_slope": 1,
+    "packing_bound_C(e,K)/C(r,K)": 4,
+    "slopes_with_a_block": 4
+   },
+   {
+    "K": 3,
+    "bound_respected": true,
+    "max_blocks_at_one_slope": 1,
+    "packing_bound_C(e,K)/C(r,K)": 10,
+    "slopes_with_a_block": 4
+   }
+  ],
+  "surjective_regime": {
+   "C(e,r)/2": 1716,
+   "all_realised": true,
+   "partitions_realised": 1716,
+   "partitions_tested": 1716
+  }
+ }
+}
