@@ -1,0 +1,60 @@
+
+==========================================================================
+STAGE cwtoy -- (C2) CW-FLOOR: LEMMA TC, shells, floor, and break
+==========================================================================
+  L=8 p=5 r'=6 : cross-shell floor FAILS at W = [0, 1, 2, 4, 5, 6]
+      W=0   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 0.045
+      W=1   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 0.717
+      W=2   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 3.136
+  L=8 p=5 r'=4 : cross-shell floor FAILS at W = [0, 1, 3, 4]
+      W=0   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 0.112
+      W=1   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 0.717
+      W=3   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 0.717
+  L=8 p=3 r'=6 : cross-shell floor FAILS at W = [2, 4]
+      W=2   N(W,r'-W)=15        <  C(L,W)C(L,r'-W)/Q = 24.198
+      W=4   N(W,r'-W)=15        <  C(L,W)C(L,r'-W)/Q = 24.198
+  L=8 p=3 r'=4 : cross-shell floor FAILS at W = [0, 1, 3, 4]
+      W=0   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 0.864
+      W=1   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 5.531
+      W=3   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 5.531
+  L=8 p=7 r'=6 : cross-shell floor FAILS at W = [0, 1, 2, 4, 5, 6]
+      W=0   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 0.571
+      W=1   N(W,r'-W)=7         <  C(L,W)C(L,r'-W)/Q = 9.143
+      W=2   N(W,r'-W)=36        <  C(L,W)C(L,r'-W)/Q = 40.000
+  L=8 p=7 r'=4 : cross-shell floor FAILS at W = [0, 1, 3, 4]
+      W=0   N(W,r'-W)=1         <  C(L,W)C(L,r'-W)/Q = 1.429
+      W=1   N(W,r'-W)=6         <  C(L,W)C(L,r'-W)/Q = 9.143
+      W=3   N(W,r'-W)=6         <  C(L,W)C(L,r'-W)/Q = 9.143
+  L=8 p=17 r'=6 : cross-shell floor FAILS at W = [0, 2, 4, 6]
+      W=0   N(W,r'-W)=1         <  C(L,W)C(L,r'-W)/Q = 1.647
+      W=2   N(W,r'-W)=106       <  C(L,W)C(L,r'-W)/Q = 115.294
+      W=4   N(W,r'-W)=106       <  C(L,W)C(L,r'-W)/Q = 115.294
+  L=8 p=17 r'=4 : cross-shell floor FAILS at W = [1, 3]
+      W=1   N(W,r'-W)=21        <  C(L,W)C(L,r'-W)/Q = 26.353
+      W=3   N(W,r'-W)=21        <  C(L,W)C(L,r'-W)/Q = 26.353
+  L=6 p=5 r'=4 : cross-shell floor FAILS at W = [1, 3]
+      W=1   N(W,r'-W)=3         <  C(L,W)C(L,r'-W)/Q = 4.800
+      W=3   N(W,r'-W)=3         <  C(L,W)C(L,r'-W)/Q = 4.800
+  L=6 p=5 r'=2 : cross-shell floor FAILS at W = [0, 2]
+      W=0   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 0.600
+      W=2   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 0.600
+  L=6 p=7 r'=4 : cross-shell floor FAILS at W = [0, 1, 3, 4]
+      W=0   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 0.306
+      W=1   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 2.449
+      W=3   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 2.449
+  L=6 p=7 r'=2 : cross-shell floor FAILS at W = [0, 2]
+      W=0   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 0.306
+      W=2   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 0.306
+  L=4 p=3 r'=2 : cross-shell floor FAILS at W = [0, 2]
+      W=0   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 0.667
+      W=2   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 0.667
+  L=4 p=5 r'=2 : cross-shell floor FAILS at W = [0, 2]
+      W=0   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 0.240
+      W=2   N(W,r'-W)=0         <  C(L,W)C(L,r'-W)/Q = 0.240
+
+  CW-FLOOR verified: the diagonal shell W = r'/2 carries a
+  Cauchy-Schwarz floor, the cross shells do NOT, and at odd r'
+  the diagonal shell is empty of LEMMA TC weight (G2.1, G2.2).
+
+--------------------------------------------------------------------------
+checks = 95   failures = 0

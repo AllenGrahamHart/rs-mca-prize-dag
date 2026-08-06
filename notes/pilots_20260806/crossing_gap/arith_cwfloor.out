@@ -1,0 +1,32 @@
+
+==========================================================================
+STAGE cwfloor -- (C2) CW-FLOOR numerics at the prize deep stratum
+==========================================================================
+  log2 C(128,63)   = 124.1491   (structural, LEMMA TC eps=0 fibre)
+  log2 C(256,126)  = 251.6279   (flat = the retired PER-WEIGHT value)
+  log2 C(128,63)^2 = 248.2981
+  shell-diagonal loss  log2 C(2L,r') - 2 log2 C(L,r'/2) = 3.3298 bits
+
+  FIRING THRESHOLD on delta_a * log2 p:
+    THEOREM DSA (banked)      : < 126.0000
+    CW-FLOOR   (this pilot)   : < 124.1491
+    difference               : 1.8509 bits (CW-FLOOR strictly inside)
+    live e=1 prime rows start at log2 p = 129.5850  -> CW-FLOOR is
+    VACUOUS at every prime row, by 5.4359 bits (B*>=3) / 3.8509 (B*>=1)
+
+  BANKED TOWER WITNESS ROW p = 3*2^41+1 (delta_a = 1):
+    log2 p = 42.5850
+    CW-FLOOR proved count |X_126| >= 2^205.7132
+    structural            C(128,63)  = 2^124.1491
+    DSA-proved excess     C(108,53)  = 2^104.2670
+    heuristic (round 18)  C(256,126)/p = 2^209.0430
+    => CW-FLOOR upgrades round-18's HEURISTIC excess to a PROVED
+       count, losing exactly the 3.3298-bit shell-diagonal gap.
+
+  r' ODD: every equal-weight collision gives a BALANCED eps
+  (#{+1} = #{-1}), hence EVEN support U; LEMMA TC's index set at
+  odd r' has U odd; the two sets are DISJOINT, so the diagonal
+  shell contributes NOTHING.  CW-FLOOR is unavailable at odd r'.
+
+--------------------------------------------------------------------------
+checks = 16   failures = 0

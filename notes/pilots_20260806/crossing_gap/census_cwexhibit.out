@@ -1,0 +1,9 @@
+CW-FLOOR NON-STRUCTURAL EXHIBITS (the corollary firing)
+L    p    r'   Q       C(L,r'/2)      floor     |X_r'|     N(W,W)
+8    7    6    49             56     64.000        168         82 NON-STRUCTURAL FORCED
+8    7    4    49             28     16.000         44         30 
+8    17   6    17             56    184.471        472        198 NON-STRUCTURAL FORCED
+8    17   4    17             28     46.118        108         56 NON-STRUCTURAL FORCED
+6    7    4    49             15      4.592         15         15 
+6    7    2    49              6      0.735          6          6 
+all assertions passed

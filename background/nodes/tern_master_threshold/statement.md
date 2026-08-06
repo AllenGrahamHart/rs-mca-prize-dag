@@ -90,11 +90,23 @@ Z-1 -> I3 transport (min ternary weight >= w+1); THEOREM 7
 (instance-local to non-split primes); the exact 1+cos character
 form with the tail-count criterion.
 
-**WATCH LINE (COROLLARY PT-2):** the crossing bracket's proved
-lower endpoint w = 2^34 clears the ternary counting threshold by
-0.336 bits — one step below, the deep stratum is supercritical at
-RECORDED PRIME rows. Any change to the bracket's lower end must
-re-run this check.
+**WATCH LINE (COROLLARY PT-2 — SCOPE CORRECTED, fourth forced
+correction 2026-08-06, round-20 crossing_gap CATCH-20D):** the
+clearance is p-DEPENDENT: subcritical iff w > w_tern(p) =
+2^41 log2(3)/log2(p); "0.336 bits" is the value AT log2 p = 256
+ONLY. On the live admissible prime range (log2 p in [129.585, 256),
+B* >= 3), the bracket endpoint w = 2^34 sits BELOW the
+supercriticality threshold on 57.98% of the range (ternary
+functional; 51.65% orbit-corrected; 100% under the GLOBAL form) —
+first-moment/heuristic supercriticality inside the tau in
+(1, 1.585) band this node itself labels heuristic; the proved
+existence regimes (MT tau < 1, DSA) remain unreachable at prime
+rows, so this is NOT a refutation of emptiness. RHL-LB's 2^34 is
+EXACT and provably extremal for the printed construction (any
+improvement moves w UP); raising the endpoint above
+w_tern(129.585) = 2^34.6467 would remove the exposure but needs a
+NEW construction. The correct watch line is the pair
+(w_tern(p), the live p-range), re-run on any bracket change.
 
 ## Falsifier
 

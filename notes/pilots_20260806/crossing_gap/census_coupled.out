@@ -1,0 +1,31 @@
+
+==========================================================================
+STAGE coupled -- (C1) the COUPLED odd/even criterion, and the gate
+==========================================================================
+  THEOREM SP-COUPLE (this pilot).  strat(S)=0 and p | N(I_S) force
+  simultaneously:  eps = A-B in C_odd (ternary),
+  u = m^(1) in C_even ({0,1,2}), and supp(eps) = {j : u_j = 1}.
+  SP-TERNARY is the eps-half alone.
+
+  n    p   w     #tern!=0  SP-TERNARY ct   COUPLED ct
+  32   7   4          288          17408          320
+  32   7   5          288          17408           64
+  32   7   6          288          17408           64
+  32   7   7          288          17408            0
+  32   7   8          288          17408            0
+  32   3   4         6560         983040         3072
+  32   3   5         6560         983040           64
+  32   3   6            0              0            0
+  16   7   4           16             32            0
+  16   7   5           16             32            0
+  16   7   6           16             32            0
+  16   7   7           16             32            0
+  16   7   8           16             32            0
+  n=16 p=7 w=7: 16 nonzero ternary codewords in C_odd, 32 SP-TERNARY-counted sets, 0 survive the even coupling.
+  n=32 p=7 w=7: 288 nonzero ternary codewords in C_odd, 17408 SP-TERNARY-counted sets, 0 survive the even coupling.
+
+  => the p=7 / w=7 census cell IS reproduced, by the COUPLED
+     criterion and by nothing weaker (G1.5 HELD).
+
+--------------------------------------------------------------------------
+checks = 30   failures = 0
