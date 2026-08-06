@@ -16,37 +16,18 @@ NORM_TEXT = (
 )
 NORM = int(NORM_TEXT)
 CADO_COMMIT = "9bb8fc0799bbaaf0b47a1edf573ecf5e0cf8e46a"
-WORKDIR = Path("/work/tail191-cado-v1")
+CADO_IMAGE = (
+    "registry.gitlab.inria.fr/cado-nfs/cado-nfs/factoring-full@"
+    "sha256:d89bc19b6a1a9dd00b8c95cd97d60faca73ecbfc3ea71b5e20ec0403b1b3fc10"
+)
+WORKDIR = Path("/work/tail191-cado-portable-v1")
 LOG_FILE = WORKDIR / "cado.log"
 REMOTE_RESULT_FILE = WORKDIR / "result.json"
-OUTPUT = Path(__file__).with_name("tail191_cado_result.json")
+OUTPUT = Path(__file__).with_name("tail191_cado_portable_result.json")
 INNER_SECONDS = 1_200
 
 app = modal.App("rs-mca-wcl15-tail191-cado-nfs")
-image = (
-    modal.Image.debian_slim(python_version="3.11")
-    .apt_install(
-        "build-essential",
-        "cmake",
-        "curl",
-        "git",
-        "gzip",
-        "libgmp-dev",
-        "libhwloc-dev",
-        "pkg-config",
-        "rsync",
-    )
-    .pip_install("flask", "requests")
-    .run_commands(
-        "git clone https://gitlab.inria.fr/cado-nfs/cado-nfs.git /opt/cado-nfs",
-        f"cd /opt/cado-nfs && git checkout {CADO_COMMIT}",
-        "mkdir -p /opt/cado-build /opt/cado-install",
-        "cd /opt/cado-build && cmake /opt/cado-nfs "
-        "-DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/opt/cado-install",
-        "cmake --build /opt/cado-build -j4",
-        "cmake --install /opt/cado-build",
-    )
-)
+image = modal.Image.from_registry(CADO_IMAGE, add_python="3.11")
 volume = modal.Volume.from_name("rs-mca-wcl-tail191-cado-v1", create_if_missing=True)
 
 
@@ -79,6 +60,7 @@ def extract_proper_divisors(root: Path) -> list[str]:
 )
 def run_cado() -> dict[str, object]:
     import os
+    import shutil
     import signal
     import subprocess
     import time
@@ -86,8 +68,11 @@ def run_cado() -> dict[str, object]:
     started = time.monotonic()
     volume.reload()
     WORKDIR.mkdir(parents=True, exist_ok=True)
+    cado_executable = shutil.which("cado-nfs.py")
+    if cado_executable is None:
+        raise RuntimeError(("cado-nfs.py absent from official image PATH", os.environ["PATH"]))
     command = [
-        "/opt/cado-install/bin/cado-nfs.py",
+        cado_executable,
         NORM_TEXT,
         "-t",
         "16",
@@ -158,6 +143,7 @@ def run_cado() -> dict[str, object]:
         "norm": NORM_TEXT,
         "norm_bits": NORM.bit_length(),
         "cado_commit": CADO_COMMIT,
+        "cado_image": CADO_IMAGE,
         "command": command,
         "inner_seconds_cap": INNER_SECONDS,
         "return_code": return_code,

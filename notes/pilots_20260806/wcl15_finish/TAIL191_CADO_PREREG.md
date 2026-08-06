@@ -8,6 +8,8 @@
 - **FactorDB check:** id `1100000009050891514`, status `C`, no proper factor
 - **CADO-NFS source:** official commit
   `9bb8fc0799bbaaf0b47a1edf573ecf5e0cf8e46a`
+- **portable image:** official `factoring-full` image at
+  `sha256:d89bc19b6a1a9dd00b8c95cd97d60faca73ecbfc3ea71b5e20ec0403b1b3fc10`
 
 ## Decision
 
@@ -59,3 +61,22 @@ parameter snapshot and consumed none of the factoring budget.  Under P1 this
 is an operational null run.  One corrected invocation using the installed
 CLI's printed `--workdir /path` form is authorized; all resource and no-resume
 limits remain unchanged.
+
+App `ap-PIC4pd0lqASVDIf6r2xeL9` used that corrected invocation and reached
+polynomial selection, but every `polyselect` work unit exited `-4` (`SIGILL`)
+before doing useful work.  The source image had been compiled on a Modal image
+builder exposing AVX-512 and then scheduled on a runtime CPU without AVX-512.
+CADO consequently found no polynomial and exited with `IndexError` after
+16.277 seconds.  The complete operational record is
+`tail191_cado_result.json`, digest
+`4262ab8f331f08fef8d0b6f9147ba542ae21d21c9931a6d92a3329690c33a0ff`.
+This is another P1 operational null, not a factoring attempt.
+
+One portable-image correction is authorized.  It uses CADO-NFS's official
+`factoring-full` image pinned at the digest above and a fresh work directory
+`/work/tail191-cado-portable-v1`; none of the CPU-incompatible database is
+reused.  The same 1,200-second process cap, 16-CPU allocation, cost ceiling,
+and no-resume rule apply.  Its output is
+`tail191_cado_portable_result.json`.  A registry, image-start, or executable
+discovery failure remains an operational null; once polynomial selection runs
+successfully, the one authorized factoring attempt has begun.
