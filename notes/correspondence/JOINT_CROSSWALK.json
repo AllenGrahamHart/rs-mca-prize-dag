@@ -2,9 +2,9 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "ac5963f4",
+  "our_sha": "61abbbb4c",
   "his_sha": "93fba1be",
-  "note": "re-pinned 2026-07-29 after the July PR review wave (0f7476f0); previous his_sha fde7d56d was a fork branch head, not upstream main"
+  "note": "re-pinned 2026-08-06 after harvesting the SP coefficient-scale quotient sieve; previous his_sha fde7d56d was a fork branch head, not upstream main"
  },
  "rows": [
   {
@@ -1290,6 +1290,31 @@
    "provenance": {
     "our_sha": "da8b9a85",
     "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "upstream_sp_coefficient_scale_quotient_sieve",
+   "his_object": {
+    "label": "SP coefficient-scale quotient sieve",
+    "file": "experimental/grande_finale_work/sp_next_section.tex",
+    "line": "lem:sp-next-periodicity-equivalence; thm:sp-next-maximal-extraction"
+   },
+   "relation": "IDENTICAL",
+   "chain": "upstream_sp_coefficient_scale_quotient_sieve",
+   "scope": "cyclic multiplicative cosets in characteristic coprime to n: common coefficient scale equals common support periodicity; maximal shift-pair quotient extraction with exact descended depth and difference degree",
+   "owner": "HIM",
+   "nonclaims": [
+    "does not bound the coefficient-primitive local degree",
+    "does not prove the converse from gcd(n,e,d)>1",
+    "does not supply quotient-row coalescing, a finite numerator, or X4/SP closure"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "proved subcase",
+   "lean": null,
+   "provenance": {
+    "our_sha": "61abbbb4c",
+    "his_sha": "93fba1be",
+    "his_introducing_sha": "9af5ba8e5"
    }
   },
   {
