@@ -589,6 +589,31 @@
    }
   },
   {
+   "our_node": "f2_selector_face_primitive_reduction",
+   "his_object": {
+    "label": "master split-locator flatness / common-GCD reduction",
+    "file": "tex/cs25_cap_v13_2.tex",
+    "line": "prob:capfr1-master-flatness / lem:capf-gcd"
+   },
+   "relation": "OVERLAP",
+   "chain": "f2_antipodal_selector_prefix_transport -> f2_selector_face_primitive_reduction",
+   "scope": "fiberwise fixed selector roots are factored exactly, leaving a punctured gcd-trivial aperiodic prefix instance; primitive flatness gives an explicit F2 max-fiber bound with only the saturation-rounding factor",
+   "owner": "JOINT",
+   "nonclaims": [
+    "does not prove primitive master split-locator flatness",
+    "requires that primitive flatness be uniform under the printed fixed-root punctures",
+    "does not identify the deployed pruned def:q-row-atom family",
+    "does not settle PP5.0 or the finite n^3 consumer ledger"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not exported; draft PR #1150 remains at 8d89959b pending Round-20/Wave-47 reconciliation",
+   "lean": null,
+   "provenance": {
+    "our_sha": "0c972e31f",
+    "his_sha": "8d89959b"
+   }
+  },
+  {
    "our_node": "l1_mixed_petal_amplification",
    "his_object": {
     "label": "prob:list-completion / U_list_int (arbitrary-word interior)",

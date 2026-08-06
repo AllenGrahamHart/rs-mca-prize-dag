@@ -18403,6 +18403,49 @@ new assumptions: none in the transport; master flatness and owner deployment rem
 compute: three tiny exhaustive cyclic fields, 29,026 local checks; no Modal spend
 next: instantiate prob:capfr1-master-flatness at the transported parameters and pay the common-divisor/first-match owner seam
 ```
+
+### F2 selector-face primitive reduction
+
+The PROVED `f2_selector_face_primitive_reduction` pays the
+common-divisor and normalization seams left by the selector transport. For
+one nonempty syndrome fiber, factor the selector roots belonging to
+coordinates fixed throughout that fiber. If all coordinates are fixed, the
+fiber is a singleton. Otherwise division embeds the fiber into a punctured
+degree-`m-c` locator-prefix instance of codimension `2R`. The residual
+selector family has no common root, and it remains antipodal-free, hence
+aperiodic. Thus it lies in the primitive gcd-trivial part of the upstream
+master-flatness target.
+
+Writing `Delta=m-R log_2|K|`, a primitive flatness bound uniform under these
+punctures gives exactly
+
+```text
+M_F2 <= max(1, P_*(2m) (1+2^(2 max(Delta,0)))).
+```
+
+The locator average is therefore harmless at the saturated official
+windows: only the one-condition rounding imbalance remains. Polynomial
+primitive flatness would imply `2^o(m)` max-fiber and weighted-mass control.
+It would not by itself prove the exact `n^3` consumer ledger.
+
+Canonical Rounds 19-20, now merged through `f4143ab2f`, also rule that
+`(O1)` is false and are actively re-posing F2 from the consumer downward.
+The historical `2^o(m)` mass target may be stronger than the actual finite
+signed-alignment requirement. The face theorem is therefore banked as a
+sound optional supplier, while export beyond draft PR `#1150` head
+`8d89959b` waits for the Round-20/Wave-47 reconciliation.
+
+```text
+starting pin: 0c972e31f; canonical f4143ab2f; upstream main 93fba1be
+lane: F2 / primitive split-locator flatness
+result: fixed selector roots reduce every non-singleton fiber to a punctured gcd-trivial aperiodic prefix instance, with exact rounding-factor normalization
+DAG status delta: +1 PROVED supplier; no critical status change
+upstream terminal delta: none; export queued behind the active F2 consumer re-pose
+delta-star bracket movement: none
+new assumptions: none in the reduction; primitive flatness uniform under punctures remains open
+compute: five tiny exhaustive cyclic fields, 6,294 local checks; no Modal spend
+next: reconcile the finite signed-alignment consumer; if mass remains required, attack primitive master flatness on the printed punctures
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
