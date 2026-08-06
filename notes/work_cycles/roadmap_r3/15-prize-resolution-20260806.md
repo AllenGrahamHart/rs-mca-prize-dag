@@ -419,7 +419,11 @@ the DLI transport gives ternary distance `2R+1`. It does not factor over
 the `2^40` singleton proportionality classes. The remaining minus terminal
 is now only the coupled-code mass upper bound. A scan of all 29 current
 open `przchojecki/rs-mca` PRs (`#1121`--`#1149`) found K3/L1/list-special
-packets and no overlapping F2 or `(Q)` packet to subtract.
+packets and no overlapping F2 or `(Q)` packet to subtract. The corrected
+branch census, M61 counterexample, coupled minus-kernel theorem, and Fourier
+normalization have now been exported for independent upstream review as
+draft PR `przchojecki/rs-mca#1150`; this custody event does not change a DAG
+status or assert upstream acceptance.
 
 ```text
 starting pin: 8418fe26; canonical feadaa03; upstream main 93fba1be
@@ -427,6 +431,7 @@ lane: F2 / ternary-in-cyclotomic-code
 result: generic Z-FLOOR PROVED; minus top-window kernel/rank/L2/distance PROVED
 DAG status delta: two PROVED suppliers and two evidence edges; no target flip
 upstream terminal delta: canonical ternary-in-code primitive corrected to include the minus branch
+upstream custody: draft PR https://github.com/przchojecki/rs-mca/pull/1150
 delta-star bracket movement: none
 new assumptions: none; initial odd run and official 2R<2^36 are deployed facts
 compute: app ap-3u4NDxYLTav3KGsvw6nnhN, bounded PASS
