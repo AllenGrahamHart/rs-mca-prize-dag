@@ -722,3 +722,50 @@ new assumptions: none
 compute: verifier-scale local replay only; no Modal spend
 next: resume the highest-value live prize dependency after canonical Round-20/Wave-47 reconciliation
 ```
+
+### F2 consumer guard and depth reconciliation
+
+Canonical Round 20 (`prize@dc3549d00`) re-posed the F2 consumer and exposed
+an apparent two-way terminal: under the full-subset balance `(C)`, the exact
+first-moment identity yields the finite target `Z(L)<=1+N^3`; after
+substituting the exact-slice `(T*)` depth, the same algebra gives an
+exact-value obligation with essentially no headroom.
+
+The PROVED `f2_consumer_guard_depth_reconciliation` shows that these are not
+two in-scope F2 terminals. Write `q=p^e` and
+`B0=F_p(mu_N)=F_(p^k)`. The banked consumer guard is
+
+```text
+|B0|^t >= 2^N  <=>  t k log2(p) >= N.
+```
+
+At the ambient full-subset depth
+`t_C=ceil(N/(e log2(p)))`, this holds exactly when `k=e` on the 12 official
+signed degree/order types. If `t e log2(p)<N`, as under `(T*)`, it fails even
+when `k=e`, and hence on every official type. Fixed-depth ambient invariance
+does not alter this conclusion: it preserves the object at the same `t`, not
+a rule that recalibrates `t` from the ambient field.
+
+The critical F2 target is therefore repaired to the guarded statement. Under
+`(C)`, attack `Z(L)<=1+N^3` on the five generating signed types. Under
+`(T*)`, the exact-value calculation is a route-cut certificate and the proof
+must supply a different fixed-slice route or explicitly replace the guard.
+No critical status changes: both the finite mass bound and the alternate
+slice route remain open.
+
+Upstream remains unchanged at `main@93fba1be`; draft PR `#1150` remains the
+only directly relevant open F2 packet, with no review and only its unrelated
+Vercel authorization failure. Do not extend it until this scope repair and
+the Wave-47 selector packet are reconciled into one reviewable statement.
+
+```text
+starting pin: ff97f8ac9; canonical dc3549d00; upstream main 93fba1be
+lane: F2 / consumer interface
+result: proved guard/depth route split; (C) selects five generating types, (T*) selects none
+DAG status delta: +1 PROVED background scope node; F2 target remains TARGET
+upstream terminal delta: none; draft #1150 held for reconciliation
+delta-star bracket movement: none
+new assumptions: none
+compute: exact inequality replay only; no Modal spend
+next: prove the finite (C) mass bound or construct the alternate exact-slice route
+```

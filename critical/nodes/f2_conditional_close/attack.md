@@ -19,14 +19,16 @@ with rank `hR`, pointwise floor, and ternary distance `2R+1`. Prove a
 subexponential upper bound for this coupled mass, or pay the final extras
 directly. Do not factor it as independent singleton kernels.
 
-## Ambient extensions
+## Scope and ambient extensions
 
-When `k<e`, `(O1)` is false by `2^Theta(n)`. Do not attempt to repair it by
-assuming generation. The final combinatorial and kernel objects nevertheless
-descend exactly by `f2_generated_field_ambient_invariance`: five plus
-order-one extensions map to `e=1`, and the plus/minus order-two degree-four
-extensions map to `e=2`. No F1 bad-slope trichotomy is needed. A mass theorem
-for the five signed generating types therefore covers all 12 official types.
+At fixed `t`, the final combinatorial and kernel objects descend exactly by
+`f2_generated_field_ambient_invariance`. Consumer scope is separate. By
+`f2_consumer_guard_depth_reconciliation`, the full-subset `(C)` depth is
+guard-accepted exactly at `k=e`, while every exact-slice `(T*)` depth is
+guard-rejected, including at `k=e`. Do not use ambient invariance to
+recompute `t`: that changes the moment condition. Prove the finite mass target
+on the five generating signed types under `(C)`. For `(T*)`, supply the
+alternate fixed-slice route or explicitly replace and re-prove the guard.
 
 ## Seams
 

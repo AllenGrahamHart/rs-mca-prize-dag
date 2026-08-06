@@ -22,6 +22,7 @@ def main() -> None:
     floor = "f2_weighted_kernel_collision_floor"
     minus = "f2_minus_branch_coupled_negacyclic_reduction"
     ambient = "f2_generated_field_ambient_invariance"
+    guard = "f2_consumer_guard_depth_reconciliation"
     stale_object = "f2_admissible_object"
 
     assert nodes[close]["status"] == "TARGET"
@@ -32,6 +33,7 @@ def main() -> None:
     assert nodes[floor]["status"] == "PROVED"
     assert nodes[minus]["status"] == "PROVED"
     assert nodes[ambient]["status"] == "PROVED"
+    assert nodes[guard]["status"] == "PROVED"
     assert nodes[stale_object]["status"] == "REFUTED"
     assert "plus branch" in nodes[reduction]["statement"].lower()
     assert (reduction, close, "ev") in edges
@@ -41,9 +43,11 @@ def main() -> None:
     assert (floor, close, "ev") in edges
     assert (minus, close, "ev") in edges
     assert (ambient, close, "ev") in edges
+    assert (guard, close, "ev") in edges
+    assert "generated-field guard" in nodes[close]["statement"].lower()
     assert (myerson, close, "req") not in edges
     assert (close, "u2c_giant_tnull_dichotomy", "req") in edges
-    print("F2_CRITICAL_ROUTE_REPAIR_PASS statuses=9/9 edges=9/9")
+    print("F2_CRITICAL_ROUTE_REPAIR_PASS statuses=10/10 edges=10/10")
 
 
 if __name__ == "__main__":

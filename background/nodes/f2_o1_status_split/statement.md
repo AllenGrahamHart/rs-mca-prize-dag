@@ -115,3 +115,19 @@ by the spec text itself (non-generating rows in-family; see the
    counting-balance surplus (CATCH-R1), reproducing the banked
    2^{1.05e12} to 0.047% — with the A2 arithmetic defect (n = 2^40
    vs N = 2^41) flagged for the extras-contraction node.
+
+## Addendum 3 (2026-08-06, guard/depth reconciliation)
+
+The provisional ensemble fork is a route fork, not two competing F2
+terminals. The consumer's banked generated-field guard gives:
+
+```text
+(C) depth:  guard passes exactly on generating rows;
+(T*) depth: guard fails on every row, including generating rows.
+```
+
+Thus the `(T*)` exact-value calculation remains a sound algebraic route cut,
+but it is outside the guarded F2 branch unless that guard is explicitly
+overridden. The working F2 terminal under `(C)` is the finite
+`Z(L)<=1+N^3` target. The exact-slice fence still needs a different route;
+this addendum does not close it.

@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f2_consumer_guard_depth_reconciliation",
+    "title": "F2 consumer guard and depth-calibration reconciliation",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let N=2^41, q=p^e, and B0=F_p(mu_N)=F_(p^k), with k|e and e<=6. For the depth t used by the F2 consumer, its banked generated-field guard is |B0|^t>=2^N, equivalently t*k*log2(p)>=N. Fixed-depth ambient invariance preserves the F2 census but does not preserve a depth calibration made using the ambient q. If t_C is the least integer with t_C*log2(q)>=N, then the guard holds exactly when k=e on every official degree/order type. If t*log2(q)<N, as under the exact-slice (T*) calibration, the guard fails even when k=e and hence on every official type. Therefore an exact-value mass obligation obtained by feeding (T*) into the F2 formulas is outside the banked F2 consumer scope unless that guard is explicitly overridden. The alternate non-F2 route remains open.",
+    "refs": [
+      "background/nodes/f2_consumer_guard_depth_reconciliation/statement.md",
+      "background/nodes/f2_consumer_guard_depth_reconciliation/proof.md",
+      "background/nodes/f2_consumer_guard_depth_reconciliation/claim_contract.md",
+      "background/nodes/f2_consumer_guard_depth_reconciliation/dependency_subdag.md",
+      "background/nodes/f2_consumer_guard_depth_reconciliation/audit.md",
+      "background/nodes/f2_consumer_guard_depth_reconciliation/result.md",
+      "background/nodes/f2_consumer_guard_depth_reconciliation/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f2_admissible_degree_order_classification"
+    },
+    {
+      "from": "f2_generated_field_ambient_invariance"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f2_conditional_close"
+    },
+    {
+      "to": "u2c_giant_tnull_dichotomy"
+    }
+  ],
+  "refutes": []
+}

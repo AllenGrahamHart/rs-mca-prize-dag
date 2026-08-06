@@ -3,26 +3,35 @@
 - **status:** TARGET
 - **consumer:** `u2c_giant_tnull_dichotomy`
 
-Prove, for every official prize-max admissible row,
+At every official prize-max row and depth where the banked generated-field
+guard `|B0|^t >= 2^n` invokes F2, prove
 
 ```text
 #{non-coset-union F2 extras + trade families} <= n^3=2^123.
 ```
 
 The July growing-order Myerson conditional close is retired as the route of
-record. Round 17 proves that its tower is not the official decomposition and
-that its `(O1)` premise is false on non-generating admissible rows. The
-bounded prime-field GRS reduction is proved only on the plus branch
-`p=1 mod 4`. On the minus branch `p=3 mod 4`, the top-window kernel is now
-proved to be one Frobenius-coupled negacyclic root code with exact rank and
-collision identity; its mass upper bound remains open. Ambient extension is
-no longer a separate surface: `f2_generated_field_ambient_invariance`
-identifies every non-generating row's final block census and kernel mass
-exactly with its generated-field row. Thus all 12 degree/order types reduce
-to five signed generating types. The proved
-`f2_fixed_weight_flatness_mass_bridge` further reduces each full-cube mass
-terminal to mean-plus-one flatness on fixed-weight slices; a central band
-suffices when its omitted binomial tails total `2^(S/2+o(S))`. More
-directly, `f2_antipodal_selector_prefix_transport` embeds every full-cube
-fiber into an ordinary central depth-`2R` split-locator prefix fiber on the
-doubled cyclic domain. The target conclusion itself is not refuted.
+record. The bounded prime-field GRS reduction is proved only on the plus
+branch `p=1 mod 4`. On the minus branch `p=3 mod 4`, the top-window kernel
+is one Frobenius-coupled negacyclic root code; its mass upper bound remains
+open.
+
+`f2_consumer_guard_depth_reconciliation` separates fixed-depth ambient
+invariance from consumer scope. At the full-subset balance `(C)`, the guard
+selects exactly the five signed generating types. At an exact-slice `(T*)`
+depth, the guard fails even on generating rows, so that slice must route
+elsewhere unless the guard is explicitly replaced. The exact ambient
+invariance theorem remains available as an object identity at any fixed
+depth; it does not recalibrate that depth.
+
+Under `(C)`, the Round-20 consumer re-pose gives the working finite terminal
+
+```text
+Z(L) <= 1 + n^3.
+```
+
+The proved `f2_fixed_weight_flatness_mass_bridge`, selector transport, and
+selector-face primitive reduction remain possible suppliers for this mass
+bound. Under `(T*)`, the algebraic exact-value diagnostic is a route-cut
+certificate, not a guarded F2 terminal. Closing the alternate fixed-slice
+route remains necessary. The target conclusion itself is not refuted.

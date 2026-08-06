@@ -9633,8 +9633,8 @@
   {
    "id": "f2_conditional_close",
    "status": "TARGET",
-   "title": "All-admissible-row F2 extras-budget close",
-   "statement": "Prove directly that non-coset-union F2 extras plus trade families are at most n^3=2^123 on every official prize-max admissible row. The July conditional close on growing-order Myerson is not valid at this scope: the 16-rung tower is inadmissible, and (O1) is false whenever ord_n(p)<[F_q:F_p]. The attempted all-row bounded-class reduction is also refuted by the generating row p=2^61-1, q=p^2. The plus branch reduces to explicit GRS kernels and the minus branch to one coupled negacyclic kernel. Generated-field ambient invariance now identifies every non-generating row's final block census and kernel mass exactly with one of three generating rows, so all 12 official degree/order types reduce to five signed generating types without restoring (O1). The remaining attack surface is common generating-row mass control, PP5.0 normalization, and any coset-sensitive Frobenius antipodal step used by a proposed proof. No consumer status is promoted.",
+   "title": "Generated-field-guarded F2 extras-budget close",
+   "statement": "At every official prize-max row and depth where the consumer's banked generated-field guard |B0|^t>=2^n invokes F2, prove that non-coset-union F2 extras plus trade families are at most n^3=2^123. The July Myerson close and the all-row bounded-class reduction are invalid. The plus generating branch reduces to explicit GRS kernels and the minus generating branch to one coupled negacyclic kernel. Fixed-depth ambient invariance identifies extension-row objects with generated-field objects, but does not transport a depth calibrated using the ambient q. The proved guard/depth reconciliation shows that the full-subset balance (C) selects exactly the five signed generating types, while an exact-slice (T*) depth fails the F2 guard on every type and must use a different route unless the guard is explicitly replaced. Under (C), the working finite mass terminal is Z(L)<=1+n^3; its proof, PP5.0 normalization, and any coset-sensitive Frobenius step remain open. No consumer status is promoted.",
    "refs": [
     "critical/nodes/f2_conditional_close/statement.md",
     "critical/nodes/f2_conditional_close/attack.md",
@@ -28346,6 +28346,22 @@
     "label": "master split-locator flatness (prob:capfr1-master-flatness)",
     "relation": "OVERLAP"
    }
+  },
+  {
+   "id": "f2_consumer_guard_depth_reconciliation",
+   "title": "F2 consumer guard and depth-calibration reconciliation",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Let N=2^41, q=p^e, and B0=F_p(mu_N)=F_(p^k), with k|e and e<=6. For the depth t used by the F2 consumer, its banked generated-field guard is |B0|^t>=2^N, equivalently t*k*log2(p)>=N. Fixed-depth ambient invariance preserves the F2 census but does not preserve a depth calibration made using the ambient q. If t_C is the least integer with t_C*log2(q)>=N, then the guard holds exactly when k=e on every official degree/order type. If t*log2(q)<N, as under the exact-slice (T*) calibration, the guard fails even when k=e and hence on every official type. Therefore an exact-value mass obligation obtained by feeding (T*) into the F2 formulas is outside the banked F2 consumer scope unless that guard is explicitly overridden. The alternate non-F2 route remains open.",
+   "refs": [
+    "background/nodes/f2_consumer_guard_depth_reconciliation/statement.md",
+    "background/nodes/f2_consumer_guard_depth_reconciliation/proof.md",
+    "background/nodes/f2_consumer_guard_depth_reconciliation/claim_contract.md",
+    "background/nodes/f2_consumer_guard_depth_reconciliation/dependency_subdag.md",
+    "background/nodes/f2_consumer_guard_depth_reconciliation/audit.md",
+    "background/nodes/f2_consumer_guard_depth_reconciliation/result.md",
+    "background/nodes/f2_consumer_guard_depth_reconciliation/verify.py"
+   ]
   },
   {
    "id": "f2_fixed_weight_flatness_mass_bridge",
@@ -53849,6 +53865,11 @@
   },
   {
    "from": "f2_admissible_degree_order_classification",
+   "to": "f2_consumer_guard_depth_reconciliation",
+   "kind": "req"
+  },
+  {
+   "from": "f2_admissible_degree_order_classification",
    "to": "f2_generated_field_ambient_invariance",
    "kind": "req"
   },
@@ -53933,6 +53954,16 @@
    "kind": "req"
   },
   {
+   "from": "f2_consumer_guard_depth_reconciliation",
+   "to": "f2_conditional_close",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_consumer_guard_depth_reconciliation",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
    "from": "f2_edge_lemma",
    "to": "f2_conditional_close",
    "kind": "ev"
@@ -53951,6 +53982,11 @@
    "from": "f2_generated_field_ambient_invariance",
    "to": "f2_conditional_close",
    "kind": "ev"
+  },
+  {
+   "from": "f2_generated_field_ambient_invariance",
+   "to": "f2_consumer_guard_depth_reconciliation",
+   "kind": "req"
   },
   {
    "from": "f2_growing_order_myerson",
