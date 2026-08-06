@@ -1128,3 +1128,21 @@ Integration freeze pending the upstream-sync wiring and stocktake:
   catch against the coordinator recorded (quote theorems verbatim).
   ROUND 14 COMPLETE — all four mysteries moved. Next-round board:
   (BC), A1, F2-SL-1, the shared mu_n terminal, mint-4.
+
+## 2026-08-04: ROUND 15 LAUNCHED — the convergence round
+
+- (1) bc_block_census: mystery 1's (BC) — the reuse law (the
+  unmeasured crux), the half-agreement list count via the selection
+  lens, the Johnson-regime split axis. (2) a1_window_audit: mystery
+  3's +5 -> +7 derivation audit (TIGHT/LOSSY/CONDITIONAL verdict +
+  minimal-W arithmetic + the A2 overkill gap). (3) f2_sl1_powersums:
+  mystery 2's rungs 14-16 — the ternary odd-power-sum minimum-weight
+  law, with the CROSS-LANE BCH identification against the crossing
+  pilot's LEMMA Y flagged (potential sixth reduction); pin t first
+  (CATCH-4). (4) mun_anticoncentration: the SHARED TERMINAL of
+  mysteries 1+4 — the unified constant-weight cyclic-code statement,
+  the transfer inventory (sparse-zero-set weight distributions /
+  Carlitz-Uchiyama at w-1 << p), the w = 2 exact case, and the
+  internal/transfer/open verdict BEFORE paying for outside help.
+  Standing rules: verbatim theorem quotes in briefs; explicit-path
+  commits while running.
