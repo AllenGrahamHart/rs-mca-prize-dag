@@ -76,7 +76,7 @@ Rate = fraction of non-structural orbits with `N_odd(I_S) = 1`, exhaustive over 
 
 ## 5. (K5) The exact conditional, banked
 
-> **UNCONDITIONAL (no conjecture used).** At crossing rows `n = 2^41`, `r' = 2^40 − w`, `log2 p = 256`: if `ceil((w−1)/2)·log2 p > (n/4)·log2 r'` then the (ES) crossing instance HOLDS — the count equals the structural count. Exact threshold `w* = 170,752,922,588 = 2^37.3131`; **every w > w\* is excluded**, i.e. **71.16% of the bracket [2^34, 2^39]**, including **2 of the 6 power-of-two w** (2^38, 2^39). By field size: 128 bits → 39.57%, 208 → 63.83%, 256 → 71.16%, 512 → 87.14%.
+> **UNCONDITIONAL (no conjecture used).** At crossing rows `n = 2^41`, `r' = 2^40 − w`, `log2 p = 256`: if `ceil((w−1)/2)·log2 p > (n/4)·log2 r'` then the (ES) crossing instance HOLDS — the count equals the structural count. The first excluded integer is `w_0 = 170,752,922,588 = 2^37.3131` (the last unexcluded integer is `170,752,922,587`); **every w >= w_0 is excluded**, i.e. **71.16% of the bracket [2^34, 2^39]**, including **2 of the 6 power-of-two w** (2^38, 2^39). By field size: 128 bits → 39.57%, 208 → 63.83%, 256 → 71.16%, 512 → 87.14%.
 
 Coverage is **complete over all S**, by a three-way dichotomy with no gaps: `strat(S)=0 ⟹ x_1 != 0` (LEMMA Z at t=1) → THEOREM CS; `1 <= a < log2 M` → LEMMA STRAT + **COROLLARY CS-TOWER** (verified: margins *widen* with a, ratio 1.62→1.85); `a >= log2 M` → LEMMA Z structural.
 

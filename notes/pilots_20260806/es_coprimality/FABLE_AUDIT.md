@@ -3,7 +3,8 @@
 **Auditor:** Fable, 2026-08-06. **Verdict: BANKED — THEOREM CS is the
 campaign's first UNCONDITIONAL positive coverage of the (ES) crossing
 terminal: at 256-bit characteristic it proves the instance outright on
-71.16% of the crossing bracket (every w > 2^37.3131, including 2 of
+71.16% of the crossing bracket (every integer
+`w >= 170,752,922,588`, including 2 of
 the 6 power-of-two w), by an ideal-level Galois-multiplicity squeeze
 (p^{|Z_w^odd|} | N(x_1) vs a SHARP AM-GM ceiling). The exceptional
 class is exactly characterized (E_strat via LEMMA STRAT + E_floor),

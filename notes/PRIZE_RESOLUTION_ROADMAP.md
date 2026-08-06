@@ -17972,7 +17972,7 @@ ceil((w-1)/2) log_2 p > (n/4) log_2 r'.
 ```
 
 At the formal benchmark `log2 p=256`, this covers every
-`w>170,752,922,588`, or 71.16% of the bracket `[2^34,2^39]`.  This is not
+`w>=170,752,922,588`, or 71.16% of the bracket `[2^34,2^39]`.  This is not
 uniform official-row coverage: `(CS)` depends on the base characteristic
 `p`, not the ambient extension-field size `q=p^e`, and smaller `p` leaves a
 larger residual (the bound is vacuous throughout the bracket at

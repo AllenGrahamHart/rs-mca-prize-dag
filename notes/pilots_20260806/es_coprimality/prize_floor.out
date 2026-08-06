@@ -14,7 +14,7 @@ ROUND 17 -- THEOREM CS at the PRIZE CROSSING ROWS
   2^39     2^40-2^39      7.03687e+13      2.14405e+13      EXCLUDED (CS bites)
 
   THRESHOLD SEARCH at log2 p = 256 (bisection on integer w):
-    w* = 170752922588  =  2^37.3131   (CS excludes every w > w*)
+    w0 = 170752922588  =  2^37.3131   (first w excluded by CS)
     covered fraction of the crossing bracket [2^34, 2^39]: 0.7116
 
   THRESHOLD w* vs log2 p:

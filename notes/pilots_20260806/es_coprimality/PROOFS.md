@@ -365,8 +365,10 @@ At `n = 2^41`, `r' = 2^40 - w`, the **benchmark substitution**
 | `2^38` | 3.51844e13 | 2.17621e13 | **EXCLUDED** |
 | `2^39` | 7.03687e13 | 2.14405e13 | **EXCLUDED** |
 
-Exact threshold by bisection: `w* = 170,752,922,588 = 2^37.3131`; CS-EXCL
-excludes every `w > w*`, i.e. **71.16% of the crossing bracket
+Exact boundary by bisection: the first excluded integer is
+`w_0 = 170,752,922,588 = 2^37.3131` (equivalently, the last unexcluded
+integer is `170,752,922,587`).  Thus CS-EXCL excludes every `w >= w_0`,
+i.e. **71.16% of the crossing bracket
 `[2^34, 2^39]`**, and 2 of the 6 power-of-two `w` (the only `w` with a
 nonempty structural family, round-15 `(P4)`).
 

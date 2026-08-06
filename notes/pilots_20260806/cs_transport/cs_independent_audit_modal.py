@@ -14,7 +14,7 @@ import modal
 APP_NAME = "rs-mca-cs-independent-transport-audit"
 HERE = Path(__file__).resolve().parent
 CHECKER = HERE / "cs_independent_audit.py"
-OUTPUT = HERE / "cs_independent_audit_result.json"
+OUTPUT = HERE / "cs_independent_audit_rerun_result.json"
 REMOTE_CHECKER = "/root/cs_independent_audit.py"
 
 app = modal.App(APP_NAME)

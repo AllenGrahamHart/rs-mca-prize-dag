@@ -237,14 +237,14 @@ def last_unexcluded(characteristic_bits: int) -> int:
 
 def check_threshold_and_tower() -> dict[str, object]:
     getcontext().prec = 80
-    threshold_256 = last_unexcluded(256)
-    threshold_128 = last_unexcluded(128)
-    threshold_64 = last_unexcluded(64)
-    assert threshold_256 == 170_752_922_588
-    assert crossing_margin(threshold_256, 256) <= 0
-    assert crossing_margin(threshold_256 + 1, 256) > 0
-    assert threshold_128 > threshold_256
-    assert threshold_64 == 2**39
+    last_safe_256 = last_unexcluded(256)
+    last_safe_128 = last_unexcluded(128)
+    last_safe_64 = last_unexcluded(64)
+    assert last_safe_256 == 170_752_922_587
+    assert crossing_margin(last_safe_256, 256) <= 0
+    assert crossing_margin(last_safe_256 + 1, 256) > 0
+    assert last_safe_128 > last_safe_256
+    assert last_safe_64 == 2**39
 
     tower_checks = 0
     for v in range(2, 12):
@@ -263,13 +263,14 @@ def check_threshold_and_tower() -> dict[str, object]:
     assert deeper_scaled < base
 
     bracket_size = 2**39 - 2**34 + 1
-    excluded = 2**39 - threshold_256
+    excluded = 2**39 - last_safe_256
     percentage = Decimal(100 * excluded) / Decimal(bracket_size)
     return {
-        "threshold_256": threshold_256,
+        "last_unexcluded_256": last_safe_256,
+        "first_excluded_256": last_safe_256 + 1,
         "excluded_percentage_256": str(percentage.quantize(Decimal("0.0001"))),
-        "threshold_128": threshold_128,
-        "threshold_64": threshold_64,
+        "last_unexcluded_128": last_safe_128,
+        "last_unexcluded_64": last_safe_64,
         "power_two_tower_checks": tower_checks,
         "arbitrary_window_counterexample": {
             "w": w,
