@@ -42,7 +42,7 @@ def main() -> None:
 
     contract = (NODE_DIR / "claim_contract.md").read_text()
     proof = (NODE_DIR / "proof.md").read_text()
-    assert "not uniform" in contract
+    assert "no uniform percentage" in contract
     assert "no adjacent list crossing" in contract
     assert "arbitrary `w` uses each exact" in (
         NODE_DIR / "audit.md"

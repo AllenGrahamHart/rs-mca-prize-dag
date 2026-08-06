@@ -16,7 +16,7 @@ ROOT = SOURCE.parents[3] if len(SOURCE.parents) > 3 else Path("/repo")
 NODE_ID = "rate_half_crossing_ideal_galois_multiplicity_exclusion"
 NODE_DIR = ROOT / "background/nodes" / NODE_ID
 PILOT_DIR = SOURCE.parent
-OUTPUT = PILOT_DIR / "cs_node_verify_result.json"
+OUTPUT = PILOT_DIR / "cs_node_verify_final_result.json"
 
 image = (
     modal.Image.debian_slim(python_version="3.12")
