@@ -1561,3 +1561,38 @@ pattern). Standing rules otherwise as round 17. STILL PENDING USER:
 W = 5 rollback (+ CR-W5-ELL1); the PP5.0 reading (= the seam
 identity). PENDING PRZEMEK: generation hypothesis; Lambda parity;
 t*/mca_floor conflict. Mint-4 queued after this round.
+
+## 2026-08-06: round-18 pilot 1 BANKED — the adversary lands: (O1)'s sign is the 0.0044%
+
+- **o1_generating_adversary (Opus) BANKED, MAINTAINER-LEVEL**
+  (187/187). Three attacks FAIL with exact margins: V2 coset costs a
+  FACTOR OF 1 (THEOREM C1, disjoint group-ring route; half of f2_adm
+  CATCH-6 closes; CATCH-1 coset-robust); V4 the generating scope is
+  exactly THREE non-empty classes (THEOREM G1: ord mod 2^41 is
+  always a 2-power, so e in {3,5,6} can NEVER generate; THEOREM G2:
+  Lucas p-1 CERTIFICATES for all witnesses); V3 no ternary
+  construction reaches the floor — and **THEOREM D1: the DLI
+  wt >= 2R+1 law APPLIES on every admissible row** (p > m always;
+  the first family where char > w holds; the tower verdict reversed
+  by the field cap; (M3) still vacuous, 23.9x -> 11.96x). BUT V1
+  LANDS CONDITIONALLY — **THEOREM Z2, the ensemble dichotomy**: at
+  k = e LEMMA 3's requirement IS the balance t·L >= n, so (O1)
+  survives under the full-subset (C) calibration (<= 184 bits
+  slack) and is FALSE by 2^{Theta(n)} (>= 2^{4.84e7}) under the
+  exact fixed-slice (T*) calibration. **CATCH-A: the 0.0044%
+  "agreement" banked twice (f2_tq_pin CATCH-4, t_naming CATCH-C) IS
+  the sign of (O1) at zero margin.** CATCH-G: the (O1)=>(O2) fence
+  itself demands the slice ensemble (THEOREM B' vacuous at every
+  moving rung); CATCH-H: reading A is internally FORCED (proved
+  K1/K2/G trichotomy + the lane's own t/2 text) — so the
+  internally-forced cell of the 2x2 (parity x ensemble) is exactly
+  the FALSE one. STATED OF RECORD: the lane's own internal logic
+  points at the false cell; only a maintainer ruling on intent can
+  restore (O1) on generating rows. THE MINIMAL SURVIVING FORM
+  banked (E[T] = 2^{n/2}·Z_1^e on three classes, two unpinned
+  conditions) — this is what the Przemek note carries. CATCH-B:
+  f2_adm's "margin 1.000" is reading-A-only (addendum written).
+  Addenda: f2_adm (CATCH-6 half-closed, D3 caveat, Z2), t_naming
+  (CATCH-E burden shifted). Third consecutive weak-prereg
+  self-report — noted as systematic for derivation pilots.
+- Awaiting: crossing_low_w, z1_ternary_mass, efloor_sparsity.

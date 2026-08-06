@@ -91,3 +91,134 @@ decisive either way for the Przemek note.
 - Verbatim quotes with file:line for every statement relied on.
 - Do NOT write REPORT.md — your final message IS the report; the
   coordinator persists it verbatim.
+
+---
+
+# APPENDIX (pilot's own pre-registrations, appended BEFORE any computation)
+
+Opus 5, round 18, 2026-08-06. Registered after reading only:
+`f2_adm/{REPORT,PROOFS}.md`, `f2_opening/{REPORT,PROOFS}.md`,
+`f2_sl1_powersums/PROOFS.md`, `f2_sl1b/REPORT.md`, `t_naming/REPORT.md`,
+`f2_tq_pin/PROOFS.md:100-215`,
+`background/nodes/dli_wcl_newton_short_window_exclusion/{statement,proof}.md`.
+No computation of any kind has been run. `z1_ternary_mass/` NOT read.
+
+## Naming used below
+
+- **reading A** (`f2_adm`'s, `t_naming`'s 5-to-1 favourite): `t` is the
+  largest Newton index, the full condition set is `Lambda_full = {1..t}`,
+  and the K1 sector is its ODD part, `R := |Lambda_K1| = ceil(t/2)`.
+- **reading B** (the one `t_naming` CATCH-E refutes 5-to-1 but leaves
+  live): `R := |Lambda_K1| = t`.
+- `Delta := dim_{F_p} L * log2 p - m` (bits). LEMMA 3 holds iff
+  `Delta >= -o(n)`; `(O1)` is FALSE by `2^{-Delta}` when `Delta < 0` and
+  `-Delta = Theta(n)`.
+
+## A1 (V4, run first). Generating admissible classes: exactly three, all non-empty.
+
+`ord_{2^41}(p)` lies in the 2-group `(Z/2^41)^*`, so `k` is ALWAYS a
+2-power. Hence `k = e` forces `e in {1,2,4}` and `e in {3,5,6}` can NEVER
+generate. Predicted census: `(e_p,e,k) in {(>=41,1,1),(40,2,2),(39,4,4)}`,
+each NON-EMPTY. **Falsifier:** any generating class with `e` not a power
+of 2, or any of the three classes empty. I predict the vacuity attack
+FAILS and (O1)'s surviving scope is non-vacuous.
+
+## A2 (V1). The zero-margin premise is TOO STRONG as briefed.
+
+`(O1)`'s target carries `+o(n)`, so a multiplicative loss of `2^{O(1)}`
+or `2^{o(n)}` does NOT kill it at zero margin; only a `Theta(n)` loss in
+the EXPONENT does. I predict the brief's "a constant > 1 kills it" is
+wrong and I will report it as a catch against the brief.
+
+## A3 (V1). Integer/ceiling effects are O(L) and cannot kill.
+
+With `t` at the (C)-threshold, `Delta` is an O(L) residue of the
+irrationality of `n/L`. Prediction: `|Delta| <= L/2 <= 128` bits over the
+whole non-vacuous regime, sign possibly either way, at the banked witness
+`Delta > 0` (LEMMA 3 HOLDS). **Falsifier:** `|Delta| > L` at any
+generating class, or `Delta < -Theta(n)` from rounding alone.
+
+## A4 (V1, the real attack). The ensemble dichotomy is a Theta(n) loss.
+
+`(C)` calibrates `t` against entropy `n` (ALL subsets, `2^n`); the exact
+FM+gate `(T*)` calibrates it against the fixed-size slice
+`log2 C(n, n-k-t) + 128`. LEMMA 3's requirement is calibrated to
+`m = n/2` and is ensemble-free. Prediction: at generating rows under
+reading A the two calibrations differ by exactly
+`n - t*L = 2n/(L^2 ln 2) + O(log n)`, so
+`Delta = -n/(L^2 ln 2) = -Theta(n)` — i.e. **(O1) is FALSE under the
+slice calibration** by at least `2^{n/45426} = 2^{4.84e7}` at `L -> 256`
+and up to `2^{n/1165} = 2^{1.89e9}` at `L = 41`. I further predict the
+relative gap equals `f2_tq_pin`'s banked `0.0044%` EXACTLY, i.e. the
+number the campaign has been reading as "agreement" is, at zero margin,
+the sign of `(O1)`. **Falsifier:** `n - t*L` is `O(polylog n)`, or the
+relative gap is not `2/(L^2 ln 2)`, or `Delta >= 0` under the slice
+calibration. **Reading dependence, registered in advance:** under reading
+B this attack must FAIL (predicted `Delta = +n/2 - Theta(n) > 0`); if it
+also fires under reading B I have made an error.
+
+## A5 (V1). Structural resolution of CATCH-E, registered as a prediction.
+
+The K1/K2/G parity TRICHOTOMY presupposes an ambient condition set
+containing both parities; therefore reading A is forced internally, not
+merely by source-count. Prediction: no F2 file defines K2 or G in a way
+compatible with reading B. **Falsifier:** a source in which `Lambda_full`
+is odd-only and K2/G are still non-empty.
+
+## A6 (V2). The coset costs EXACTLY nothing for (O1).
+
+Prediction: `phi_g : (C_l) -> (g^l C_l)` is a bijection of `K1(Lambda)`
+with `chi_{phi_g(c)}(x) = chi_c(gx)`, hence
+`E_{c in K1}[T_{gW}] = E_{c in K1}[T_W]` EXACTLY (not up to constants),
+and `L`, `dim L`, `Z(L)`, min ternary weight are literally the same
+objects. Consequence predicted: `f2_adm` CATCH-6's gap is confined to the
+parity/descent machinery, which LEMMA 5 already proved is the wrong
+functional for (O1). Second prediction: the coset does NOT rescue `k < e`
+rows (so `f2_adm` CATCH-1 is coset-robust) even though
+`F_p(g mu_n)` can equal `F_q` when `F_p(mu_n)` does not. **Falsifier:**
+any toy coset row on which `dim L`, `Z`, or the K1 average differs.
+
+## A7 (V3, checked FIRST as mandated). The DLI stronger law APPLIES on admissible rows.
+
+Prediction: on EVERY admissible row `p >= 3*2^{e_p} > 2^40 >= m >= w`,
+because `c = 1` would need `2^{e_p}+1` prime with `39 <= e_p < 256`,
+i.e. a Fermat prime `F_6` or `F_7`, both composite. Hence
+`char > w` HOLDS and `dli_wcl_newton_short_window_exclusion` gives
+`wt >= 2R+1`, twice SL-1's `R+1`. This is the first row in the campaign
+where the banked node applies. **Falsifier:** an admissible row with
+`p <= m`.
+
+## A8 (V3). The gift halves the (M3) shortfall but does not close it.
+
+With distance `d`, (M2)/(M3) give `Z < 2` iff `d > 0.61315(S+1)`.
+Predicted: at generating rows `R/S = 1/log2 p` EXACTLY, so SL-1 needs
+`log2 p < 1.63` and DLI needs `log2 p < 3.26`; admissible `log2 p >= 39`
+misses by `>= 23.9x` / `>= 11.96x` respectively. **Falsifier:**
+`R/S != 1/log2 p`, or (M3) closes on some admissible generating row.
+
+## A9 (V3). The attack from below fails, and I register WHY in advance.
+
+To force `Z_1 >= 2` with all weights `>= 2R+1` one needs at least
+`2^{2R+1}` distinct nonzero ternary codewords. The code is NEGACYCLIC, so
+its ternary set carries a symmetry group of order `4S` (shift x sign)
+— predicted `4S = 2^{e_p+1} <= 2^42`, short of `2^{2R+1} = 2^{2^33+1}` by
+an astronomical factor. Prediction: no orbit/symmetry construction can
+refute (O1) at generating rows, and the random-subspace baseline predicts
+`Z_1 ~ 2` and `Z(L) = Z_1^C <= 2^C <= 16`, i.e. (O1) TRUE with
+`o(n) <= 4` bits. **Falsifier:** an explicit ternary kernel element at
+prize scale, or a symmetry group of the code of size `2^{Omega(S)}`.
+
+## A10 (V1/V3 interaction). Heuristic min ternary weight vs the DLI bound.
+
+Predicted heuristic minimum ternary weight `gamma* S` with
+`H(gamma*) + gamma* = 1`, `gamma* ~ 0.227`, versus `2R+1 = 2S/log2 p`
+`~ 0.031 S` at prize-max — so at ADMISSIBLE scale DLI is ~7x BELOW the
+heuristic true minimum (the opposite of the toy scale of
+`f2_sl1_powersums` S13, where `2R+1` is attained). **Falsifier:** the two
+orders coincide at prize scale.
+
+## A11 (scope). What I will NOT claim.
+
+I will not claim any bound on `Z_1`; I will not choose between the two
+`Lambda`-parity readings or between the two ensemble calibrations; I will
+not propose a status flip. Every verdict is reported per reading.
