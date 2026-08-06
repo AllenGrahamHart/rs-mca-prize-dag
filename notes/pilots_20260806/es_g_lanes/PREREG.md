@@ -90,3 +90,97 @@ Sources (read ALL, quote verbatim):
 - Verbatim quotes with file:line for every statement relied on.
 - Do NOT write REPORT.md — return the full report as your final
   message; the coordinator persists it verbatim.
+
+---
+
+# PILOT PRE-REGISTRATION (appended by the ES-G-LANES pilot BEFORE any computation)
+
+Appended 2026-08-06 by the round-17 ES-G-LANES pilot, before running any
+script. Everything below is mine; §0-§3 above are the coordinator's.
+
+## 4. The two functionals, frozen (no third is introduced)
+
+For a window system with condition count `c` over a value field of size
+`V`, domain = subsets of the order-`n` group:
+
+```text
+PER-WEIGHT (round-15's, REFUTED as a statement):  Lam  := log2 C(n,r') - c*log2 V
+GLOBAL     ((ES-G), the statement of record):     LamG := n            - c*log2 V
+sub-balance  <=>  the functional is <= 0.
+```
+
+`GLOBAL => PER-WEIGHT` since `C(n,r') <= 2^n`. I introduce no other
+functional. Where a lane's own pin uses a third quantity (e.g. a budget
+`B` subtracted, as in `descent.py:211-213`), I say so and price it
+separately rather than folding it in.
+
+## 5. My model of `c` and `V` per lane (declared before computing)
+
+- **Crossing** (prefix/cyclic instance, exact): the conditions are
+  `p_s(T)=0, s=1..w-1` on 0/1 vectors, which are `F_p`-rational. The
+  `F_p`-linear condition count is therefore `c = |Z_w| :=` the size of
+  the closure of `{1,...,w-1}` in `Z/n` under multiplication by `p`
+  (`dim C = n - |Z_w|`, `mun PREREG.md:60`), and `V = p`. NOT `q`:
+  THEOREM Q (`crossing_w2_opening/REPORT.md:69-71`) proves the count
+  depends on `q` only through `p`.
+- **Band (full-rank)**: `c = 2d` generic `F_q`-linear forms, `V = q`.
+  No cyclotomic closure exists (the window is not Galois-stable).
+- **Band (syzygy / rank-deficient)**: `c = rank J_d = 2d - dim K_d < 2d`.
+  I will report the BRACKET `[2d - (3d-2h-ell), 2d]` from (SL2-ABN) and
+  BOTH verdicts, never the convenient end.
+- **u2c**: `c = t`, `V = |B0| = |F_p(D)|` per CATCH #11, and `V = q`
+  per the frozen falsifier wording; I report both.
+- **dli RES**: `c = L_j`, `V` per CATCH #13 (generated field), read off
+  the node; I report the row's own balance direction verbatim.
+
+## 6. Pre-registered predictions (each with an explicit kill line)
+
+- **(P1) `|Z_w|` closed form.** At `n=2^41`, `delta=ord_n(p) in {1,2,4}`
+  and `w-1 < 2^38`, the seven non-identity `p`-classes give exactly five
+  values of `|Z_w|/(w-1)`: `{1, 3/2, 2, 11/4, 3}`. **PREDICT: HOLDS.**
+  KILL: any admissible `p`-class whose exact closure size differs from
+  the closed form, or any brute-force disagreement at small `n`.
+  Corollary predicted: the round-15 bracket top `delta(w-1)` is NOT
+  attained for `delta=4` (max is `3(w-1) < 4(w-1)`). **PREDICT: HOLDS.**
+- **(P2) Crossing sign flip is REAL and admissible.** There exist
+  admissible official rate-1/2 rows (obeying `|F|<2^256`, `k<=2^40`,
+  `n|q-1`, `p` prime, `q=p^e`) at which the crossing row `w=2^34` is
+  ABOVE global balance. **PREDICT: FIRES.** KILL: every admissible row
+  is sub-balance at `w=2^34`.
+- **(P3) rate-1/16 band.** For the rate-1/16 band row, `2d*log2 q < n`
+  at EVERY band-proper `d in [2^31+1, 2^32-1]` and every `q < 2^256`.
+  **PREDICT: FIRES** (=> that lane cannot cite (ES-G) anywhere =>
+  BROKEN routing per §2). KILL: some admissible `(q,d)` is sub-balance.
+- **(P4) The binding stratum is the DEEPEST one, and it is unpayable.**
+  For the crossing lane at `w=2^v`, the stratum `a=v-1` reduces to
+  `n_a=2^{42-v}` with a single surviving condition, so global balance
+  there needs `log2 p >= 2^{42-v}`; at `v=34` that is `log2 p >= 256`,
+  which `|F| < 2^256` forbids. **PREDICT: FIRES at v in {34,35,36}.**
+  KILL: the stratum-`a` reduction does not have `|Z^{(a)}|=1` there, or
+  the deepest stratum is not the binding one.
+- **(P5) u2c falsifier excludes all five round-16 witnesses.** Each of
+  the five has `p^{|Z_w|} < 2^n`. **PREDICT: HOLDS.** KILL: any witness
+  with `p^{|Z_w|} >= 2^n`.
+- **(P6) The band `q >= 2^209` pin is a PER-WEIGHT threshold.** The
+  banked `log2_q_critical = 208.47593052630532` equals
+  `(log2 C(n,r') - log2(0.68 n^2))/(2d)` at `d = ceil(h/2)`, i.e. it is
+  derived from the REFUTED functional, and the corresponding (ES-G)
+  threshold `n/(2d)` is ~47.5 bits higher. **PREDICT: HOLDS.**
+  KILL: reproduction misses the banked constant by more than 1e-6.
+
+## 7. My own honesty clauses
+
+- Every balance verdict is decided by EXACT integer/rational reasoning
+  on `c*log2 V >= n`, using rigorous rational bounds for `log2 p`
+  (never a bare float compare); any case whose margin is smaller than
+  the certified error bar is reported as UNDECIDED, not resolved.
+- Brackets are reported at BOTH ends with BOTH verdicts (§2 clause 2).
+- `|Z_w|` closed forms are cross-validated against brute-force closure
+  at small `n = 2^m` (m = 5..16) over ALL `p` of order 1,2,4; a single
+  disagreement voids the L1 deliverable and I say so.
+- Where a lane's obligation is only a RELAXATION of the cyclic form
+  (mun REPORT.md:30-36), I do not silently transport the cyclic
+  computation onto it.
+- Reachable-scale caveat: nothing here is an extrapolation from the
+  n in {16,32} census; all prize-row numbers are exact arithmetic at
+  the prize parameters themselves.

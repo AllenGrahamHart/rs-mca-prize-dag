@@ -72,3 +72,15 @@ Two repairs of record:
    crossing shape survive. See
    notes/pilots_20260806/es_boundary_adversary/ for the re-pose
    (ES-G).
+
+## ADDENDUM 2 (2026-08-06, coordinator, from round-17 es_g_lanes)
+
+REPORT.md §1's "(ES) discharges all four consumers" is REFUTED for
+the dli RES lane: that lane is ABOVE global balance by its own proved
+scoping hypothesis (2^N >= q^L, H2/A2 — exact strict inequality at
+every admissible q), so "the SAME hard shape" never meant "discharged
+by". (ES-G) is unwired from dli RES; its above-balance flatness
+instruments remain the route of record. The four-lane unification is
+re-scoped per notes/pilots_20260806/es_g_lanes/FABLE_AUDIT.md — the
+lanes' field regimes are mutually unsatisfiable, so the shared
+terminal was a shape identification, not a shared discharge.

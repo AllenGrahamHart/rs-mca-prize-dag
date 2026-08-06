@@ -1404,3 +1404,37 @@ census machinery; candidate for a coordinator-launched run next.
   Honest residual of note: the pilot self-reports WEAK PREREG (8/8
   registered post-reading; all surprises post-registration).
 - Awaiting: es_g_lanes, es_coprimality, f2_adm.
+
+## 2026-08-06: round-17 pilot 2 BANKED — THE FOUR-LANE UNIFICATION IS BROKEN AS WIRED
+
+- **es_g_lanes (Opus) BANKED, MAINTAINER-LEVEL** (1413/1413; certified
+  140-digit comparator, no float decides a boundary; one self-caught
+  float defect fixed by its own PREREG clause). THE TERMINAL RE-SCOPE
+  OF RECORD: the "unified terminal of four lanes" is WITHDRAWN —
+  the four lanes' field regimes are MUTUALLY UNSATISFIABLE (u2c needs
+  log2 Q >= 255.9113; band 1/4-1/8 low depth >= 255.99999994; band
+  1/16 >= 256 exactly, i.e. NEVER; dli RES needs < 256 strictly by
+  its own proved H2). Per lane: **u2c YES** — its pin IS (ES-G)
+  verbatim (q^t >= 2^n), witnesses re-excluded independently;
+  **crossing** YES at w >= 2^37, NO at w = 2^34 (all 19 admissible
+  (p-class, e) pairs fail the binding deep stratum — the requirement
+  log2 p >= 256 IS the rules cap; explicit admissible exhibit
+  p = 3·2^41+1, e = 6 above balance at a = 0); **band both nodes** NO
+  at rate 1/16 anywhere (>= 512-bit deficit at the cap) and on the
+  low-depth 22.5% of 1/4-1/8 scope; **dli RES** NO anywhere —
+  UNWIRED (above balance by its own H2/A2; round-15's "discharges
+  all four consumers" REFUTED for this lane; mun addendum 2 written).
+  MECHANISM: THEOREM Q makes extension degree free for the count
+  while e divides log2 p — tower rows are the adversary's best
+  choice against (ES-G). BANKED: exact |Z_w| closed forms for all 8
+  admissible p-classes (CATCH-B: delta(w-1) bracket top never
+  attained at delta = 4; CATCH-C: orbit merge at w = 2^38/2^39).
+  CATCH-D: the band q >= 2^209 pin computes the RETIRED per-weight
+  threshold, 47.5 bits short of (ES-G) — re-derive under the band's
+  adopted form. CATCH-E: u2c three-bases wording + "~2%" prose to
+  the u2c statement addendum queue. NEW NAMED OBLIGATIONS: the
+  crossing deep-stratum instance at w in {2^34..2^36} (n_a = 256,
+  one condition — direct attack candidate); the band effective-base
+  question (catch #11/#13 analogue — if the base moves to the
+  generated field every band verdict WORSENS).
+- Awaiting: es_coprimality, f2_adm.
