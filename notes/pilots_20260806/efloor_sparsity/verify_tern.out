@@ -1,0 +1,66 @@
+==========================================================================
+ROUND 18 -- E_floor SPARSITY PILOT   stage=tern
+==========================================================================
+--------------------------------------------------------------------------
+[TERN] LEMMA AB / SP-TERNARY: exact ternary-codeword counts
+  n   p   w   deg G  w_cov  tern v!=0    sum 2^z(v)     a=0 excluded by odd conditions alone?
+  16  3   2   4      6      80           768            no
+  16  3   3   4      6      80           768            no
+  16  3   4   4      6      80           768            no
+  16  3   5   4      6      80           768            no
+  16  3   6   8      6      0            0              YES (proved, no nonzero ternary codeword)
+  16  3   7   8      6      0            0              YES (proved, no nonzero ternary codeword)
+  16  3   8   8      6      0            0              YES (proved, no nonzero ternary codeword)
+  16  5   2   4      4      0            0              YES (proved, no nonzero ternary codeword)
+  16  5   3   4      4      0            0              YES (proved, no nonzero ternary codeword)
+  16  5   4   8      4      0            0              YES (proved, no nonzero ternary codeword)
+  16  5   5   8      4      0            0              YES (proved, no nonzero ternary codeword)
+  16  5   6   8      4      0            0              YES (proved, no nonzero ternary codeword)
+  16  5   7   8      4      0            0              YES (proved, no nonzero ternary codeword)
+  16  5   8   8      4      0            0              YES (proved, no nonzero ternary codeword)
+  16  7   2   2      12     128          1152           no
+  16  7   3   2      12     128          1152           no
+  16  7   4   4      12     16           32             no
+  16  7   5   4      12     16           32             no
+  16  7   6   4      12     16           32             no
+  16  7   7   4      12     16           32             no
+  16  7   8   4      12     16           32             no
+  16  17  2   1      16     384          3600           no
+  16  17  3   1      16     384          3600           no
+  16  17  4   2      16     16           64             no
+  16  17  5   2      16     16           64             no
+  16  17  6   3      16     0            0              YES (proved, no nonzero ternary codeword)
+  16  17  7   3      16     0            0              YES (proved, no nonzero ternary codeword)
+  16  17  8   4      16     0            0              YES (proved, no nonzero ternary codeword)
+  32  3   2   8      6      6560         983040         no
+  32  3   3   8      6      6560         983040         no
+  32  3   4   8      6      6560         983040         no
+  32  3   5   8      6      6560         983040         no
+  32  3   6   16     6      0            0              YES (proved, no nonzero ternary codeword)
+  32  3   7   16     6      0            0              YES (proved, no nonzero ternary codeword)
+  32  3   8   16     6      0            0              YES (proved, no nonzero ternary codeword)
+  32  5   2   8      4      0            0              YES (proved, no nonzero ternary codeword)
+  32  5   3   8      4      0            0              YES (proved, no nonzero ternary codeword)
+  32  5   4   16     4      0            0              YES (proved, no nonzero ternary codeword)
+  32  5   5   16     4      0            0              YES (proved, no nonzero ternary codeword)
+  32  5   6   16     4      0            0              YES (proved, no nonzero ternary codeword)
+  32  5   7   16     4      0            0              YES (proved, no nonzero ternary codeword)
+  32  5   8   16     4      0            0              YES (proved, no nonzero ternary codeword)
+  32  7   2   4      12     16640        1916928        no
+  32  7   3   4      12     16640        1916928        no
+  32  7   4   8      12     288          17408          no
+  32  7   5   8      12     288          17408          no
+  32  7   6   8      12     288          17408          no
+  32  7   7   8      12     288          17408          no
+  32  7   8   8      12     288          17408          no
+  32  17  2   2      16     148224       14803200       no
+  32  17  3   2      16     148224       14803200       no
+  32  17  4   4      16     288          36864          no
+  32  17  5   4      16     288          36864          no
+  32  17  6   6      16     0            0              YES (proved, no nonzero ternary codeword)
+  32  17  7   6      16     0            0              YES (proved, no nonzero ternary codeword)
+  32  17  8   8      16     0            0              YES (proved, no nonzero ternary codeword)
+  [TERN] 112 checks
+==========================================================================
+TOTAL 112 checks, 0 FAILURES; 0 registered predictions, 0 misses
+==========================================================================

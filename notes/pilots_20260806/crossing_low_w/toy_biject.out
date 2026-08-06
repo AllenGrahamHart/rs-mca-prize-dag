@@ -1,0 +1,17 @@
+=== stage biject ===
+    n=32 p=97: members=4 reduced-solutions=4 structural=4
+    n=32 p=193: members=4 reduced-solutions=4 structural=4
+    n=32 p=257: members=4 reduced-solutions=4 structural=4
+    n=32 p=353: members=4 reduced-solutions=4 structural=4
+    n=32 p=449: members=4 reduced-solutions=4 structural=4
+    n=64 p=193: members=4 reduced-solutions=4 structural=4
+    n=64 p=257: members=4 reduced-solutions=4 structural=4
+    n=64 p=449: members=4 reduced-solutions=4 structural=4
+    n=64 p=577: members=4 reduced-solutions=4 structural=4
+    n=64 p=641: members=4 reduced-solutions=4 structural=4
+    n=64 p=193: members=72 reduced-solutions=72 structural=56
+    n=64 p=257: members=56 reduced-solutions=56 structural=56
+    n=64 p=449: members=56 reduced-solutions=56 structural=56
+    n=64 p=577: members=72 reduced-solutions=72 structural=56
+    n=64 p=641: members=56 reduced-solutions=56 structural=56
+checks=81005 failures=0

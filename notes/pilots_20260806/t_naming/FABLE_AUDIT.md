@@ -79,3 +79,18 @@ Cross-pilot note: the running f2_adm sibling's own appendix already
 registered R = |Lambda| = ceil(t/2) under the max-index reading — it
 is on the CATCH-E-correct convention; reconcile at its bank, no
 mid-flight correction needed.
+
+## ADDENDUM (2026-08-06, coordinator, from round-18 o1_generating_adversary CATCH-H)
+
+CATCH-E's parity question is UPGRADED from "5-to-1 by weight of
+evidence" to "internally forced": the proved K1/K2/G trichotomy
+(class G nonempty forces both parities, hence |Lambda_K1| =
+ceil(t/2)) plus the lane's own frequency-space statement
+(f2_deployed_windows/REPORT.md:55, "codim_j = min(m_j, t/2)" —
+coordinator-verified verbatim) both force reading A. This is an
+internal-consistency argument, not proof of maintainer intent —
+CATCH-E stays OPEN, but the burden has shifted: restoring reading B
+now requires overriding a banked theorem and the lane's own text.
+Also CATCH-C is sharpened: the 0.0044% is not merely "not evidence
+of identity" — at zero margin it IS the sign of (O1) (the ensemble
+dichotomy, o1_generating_adversary CATCH-A).

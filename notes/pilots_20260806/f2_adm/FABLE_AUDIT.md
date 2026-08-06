@@ -87,3 +87,18 @@ D5's numeric pricings inherit the t-interval and are so labelled.
 doubly load-bearing (above balance AND (O1)-false); the two
 findings are one phenomenon: extension degree divides the
 characteristic bits everywhere.
+
+## ADDENDUM (2026-08-06, coordinator, from round-18 o1_generating_adversary)
+
+1. **CATCH-6 HALF-CLOSED**: THEOREM C1 proves (O1) exactly
+   coset-invariant (bijection phi_g, factor of 1); the coset gap is
+   confined to the parity/descent machinery. CATCH-1 is coset-robust.
+2. **D3's "margin 1.000" is reading-A-only** (CATCH-B): under parity
+   reading B generating rows carry margin 2.000 and classes (1,2),
+   (2,4) flip REFUTED -> SATURATED. The (1,6) CATCH-1 witness is
+   unaffected under both readings.
+3. **The saturation's meaning sharpened** (THEOREM Z2): at k = e
+   LEMMA 3's requirement IS the balance t·L >= n — (O1) survives
+   under the (C) calibration and is FALSE by 2^{Theta(n)} under the
+   (T*) slice calibration; the internally-forced cell (reading A +
+   slice) is the FALSE one. See o1_generating_adversary/.

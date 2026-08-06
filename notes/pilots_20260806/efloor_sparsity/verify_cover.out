@@ -1,0 +1,145 @@
+==========================================================================
+ROUND 18 -- E_floor SPARSITY PILOT   stage=cover
+==========================================================================
+--------------------------------------------------------------------------
+[COVER] w_cov(p,n) table and its 2^{v_2(p^2-1)} bound
+  p      j_p=v2 2^j  w_cov(p,2^m) for m=4..12
+  3      3      8    [6, 6, 6, 6, 6, 6, 6, 6, 6]
+  5      3      8    [4, 4, 4, 4, 4, 4, 4, 4, 4]
+  7      4      16   [12, 12, 12, 12, 12, 12, 12, 12, 12]
+  11     3      8    [6, 6, 6, 6, 6, 6, 6, 6, 6]
+  13     3      8    [4, 4, 4, 4, 4, 4, 4, 4, 4]
+  17     5      32   [16, 16, 16, 16, 16, 16, 16, 16, 16]
+  19     3      8    [6, 6, 6, 6, 6, 6, 6, 6, 6]
+  23     4      16   [12, 12, 12, 12, 12, 12, 12, 12, 12]
+  31     6      64   [8, 16, 48, 48, 48, 48, 48, 48, 48]
+  47     5      32   [8, 24, 24, 24, 24, 24, 24, 24, 24]
+  97     6      64   [16, 32, 32, 32, 32, 32, 32, 32, 32]
+  193    7      128  [16, 32, 64, 64, 64, 64, 64, 64, 64]
+  257    9      512  [16, 32, 64, 128, 256, 256, 256, 256, 256]
+  353    6      64   [16, 32, 32, 32, 32, 32, 32, 32, 32]
+  449    7      128  [16, 32, 64, 64, 64, 64, 64, 64, 64]
+--------------------------------------------------------------------------
+[COVER] EXACT per-prime census at n=16 over ALL 2^16 subsets
+  p   w   dlt  e    |Zw|  bad(all)  bad(per)  bad(a=0)  verdict
+  3   2   4    2    4     1024      256       768       
+  3   3   4    2    6     64        32        32        
+  3   4   4    2    6     64        32        32        
+  PREDICTION-MISS  (P2) SP-COVER sharp at w=w_cov-1 n=16 p=3  a0=0
+  3   5   4    2    8     4         4         0         NOT SHARP (P2 miss)
+  3   6   4    2    12    4         4         0         SP-COVER: a=0 EMPTY
+  3   7   4    2    12    4         4         0         SP-COVER: a=0 EMPTY
+  3   8   4    2    12    4         4         0         SP-COVER: a=0 EMPTY
+  3   9   4    2    13    2         2         0         SP-COVER: a=0 EMPTY
+  3   10  4    2    13    2         2         0         SP-COVER: a=0 EMPTY
+  3   11  4    2    15    2         2         0         SP-COVER: a=0 EMPTY
+  3   12  4    2    15    2         2         0         SP-COVER: a=0 EMPTY
+  5   2   4    2    4     256       256       0         
+  PREDICTION-MISS  (P2) SP-COVER sharp at w=w_cov-1 n=16 p=5  a0=0
+  5   3   4    2    6     16        16        0         NOT SHARP (P2 miss)
+  5   4   4    2    10    16        16        0         SP-COVER: a=0 EMPTY
+  5   5   4    2    11    4         4         0         SP-COVER: a=0 EMPTY
+  5   6   4    2    11    4         4         0         SP-COVER: a=0 EMPTY
+  5   7   4    2    13    4         4         0         SP-COVER: a=0 EMPTY
+  5   8   4    2    13    4         4         0         SP-COVER: a=0 EMPTY
+  5   9   4    2    14    2         2         0         SP-COVER: a=0 EMPTY
+  5   10  4    2    14    2         2         0         SP-COVER: a=0 EMPTY
+  5   11  4    2    14    2         2         0         SP-COVER: a=0 EMPTY
+  5   12  4    2    14    2         2         0         SP-COVER: a=0 EMPTY
+  7   2   2    4    2     1408      256       1152      
+  7   3   2    4    4     48        16        32        
+  7   4   2    4    6     16        16        0         
+  7   5   2    4    8     4         4         0         
+  7   6   2    4    8     4         4         0         
+  7   7   2    4    10    4         4         0         
+  7   8   2    4    10    4         4         0         
+  7   9   2    4    11    2         2         0         
+  7   10  2    4    13    2         2         0         
+  PREDICTION-MISS  (P2) SP-COVER sharp at w=w_cov-1 n=16 p=7  a0=0
+  7   11  2    4    13    2         2         0         NOT SHARP (P2 miss)
+  7   12  2    4    15    2         2         0         SP-COVER: a=0 EMPTY
+  17  2   1    8    1     3856      256       3600      
+  17  3   1    8    2     224       16        208       
+  17  4   1    8    3     16        16        0         
+  17  5   1    8    4     4         4         0         
+  17  6   1    8    5     4         4         0         
+  17  7   1    8    6     4         4         0         
+  17  8   1    8    7     4         4         0         
+  17  9   1    8    8     2         2         0         
+  17  10  1    8    9     2         2         0         
+  17  11  1    8    10    2         2         0         
+  17  12  1    8    11    2         2         0         
+--------------------------------------------------------------------------
+[COVER] n=16 p=3 a=0 bad counts by weight r' (the E_floor mass)
+  w=2  a=0 profile (r',count): [(3, 16), (5, 80), (6, 64), (7, 160), (8, 128), (9, 160), (10, 64), (11, 80), (13, 16)]
+  w=3  a=0 profile (r',count): [(7, 16), (9, 16)]
+  w=4  a=0 profile (r',count): [(7, 16), (9, 16)]
+  w=5  a=0 profile (r',count): []
+  w=6  a=0 profile (r',count): []
+  w=7  a=0 profile (r',count): []
+--------------------------------------------------------------------------
+[COVER] EXACT per-prime census at n=32 over ALL 2^32 subsets
+  p   w   dlt  e    |Zw|  bad(all)  bad(per)  bad(a=0)  verdict
+  3   2   8    2    8     1048576   65536     983040    
+  3   3   8    2    12    4096      1024      3072      
+  3   4   8    2    12    4096      1024      3072      
+  3   5   8    2    14    128       64        64        sharp witness a=0
+  3   6   8    2    22    64        64        0         SP-COVER: a=0 EMPTY
+  3   7   8    2    22    64        64        0         SP-COVER: a=0 EMPTY
+  3   8   8    2    22    64        64        0         SP-COVER: a=0 EMPTY
+  3   9   8    2    24    4         4         0         SP-COVER: a=0 EMPTY
+  3   10  8    2    24    4         4         0         SP-COVER: a=0 EMPTY
+  3   11  8    2    28    4         4         0         SP-COVER: a=0 EMPTY
+  3   12  8    2    28    4         4         0         SP-COVER: a=0 EMPTY
+  5   2   8    2    8     65536     65536     0         
+  PREDICTION-MISS  (P2) SP-COVER sharp at w=w_cov-1 n=32 p=5  a0=0
+  5   3   8    2    12    256       256       0         NOT SHARP (P2 miss)
+  5   4   8    2    20    256       256       0         SP-COVER: a=0 EMPTY
+  5   5   8    2    22    16        16        0         SP-COVER: a=0 EMPTY
+  5   6   8    2    22    16        16        0         SP-COVER: a=0 EMPTY
+  5   7   8    2    26    16        16        0         SP-COVER: a=0 EMPTY
+  5   8   8    2    26    16        16        0         SP-COVER: a=0 EMPTY
+  5   9   8    2    27    4         4         0         SP-COVER: a=0 EMPTY
+  5   10  8    2    27    4         4         0         SP-COVER: a=0 EMPTY
+  5   11  8    2    27    4         4         0         SP-COVER: a=0 EMPTY
+  5   12  8    2    27    4         4         0         SP-COVER: a=0 EMPTY
+  7   2   4    4    4     1982464   65536     1916928   
+  7   3   4    4    6     39680     1408      38272     
+  7   4   4    4    10    1728      1408      320       
+  7   5   4    4    12    112       48        64        
+  7   6   4    4    12    112       48        64        
+  7   7   4    4    14    16        16        0         
+  7   8   4    4    14    16        16        0         
+  7   9   4    4    16    4         4         0         
+  7   10  4    4    20    4         4         0         
+  PREDICTION-MISS  (P2) SP-COVER sharp at w=w_cov-1 n=32 p=7  a0=0
+  7   11  4    4    20    4         4         0         NOT SHARP (P2 miss)
+  7   12  4    4    24    4         4         0         SP-COVER: a=0 EMPTY
+  17  2   2    8    2     14868736  65536     14803200  
+  17  3   2    8    3     874384    3856      870528    
+  17  4   2    8    5     6032      3856      2176      
+  17  5   2    8    6     352       224       128       
+  17  6   2    8    8     224       224       0         
+  17  7   2    8    9     16        16        0         
+  17  8   2    8    11    16        16        0         
+  17  9   2    8    12    4         4         0         
+  17  10  2    8    14    4         4         0         
+  17  11  2    8    15    4         4         0         
+  17  12  2    8    17    4         4         0         
+--------------------------------------------------------------------------
+[COVER] n=32 p=3 a=0 bad counts by weight r' (the E_floor mass)
+  w=2  a=0 profile (r',count): [(3, 32), (5, 416), (6, 384), (7, 2496), (8, 3840), (9, 11200), (10, 17280), (11, 37216), (12, 50176), (13, 84192), (14, 97024), (15, 126592)]
+  w=3  a=0 profile (r',count): [(7, 32), (9, 32), (11, 128), (13, 384), (14, 256), (15, 448), (16, 512), (17, 448), (18, 256), (19, 384), (21, 128), (23, 32)]
+  w=4  a=0 profile (r',count): [(7, 32), (9, 32), (11, 128), (13, 384), (14, 256), (15, 448), (16, 512), (17, 448), (18, 256), (19, 384), (21, 128), (23, 32)]
+  w=5  a=0 profile (r',count): [(15, 32), (17, 32)]
+  w=6  a=0 profile (r',count): []
+  w=7  a=0 profile (r',count): []
+  [COVER] 2573 checks
+==========================================================================
+TOTAL 2573 checks, 0 FAILURES; 6 registered predictions, 5 misses
+  registered-prediction MISS: (P2) SP-COVER sharp at w=w_cov-1 n=16 p=3  [a0=0]
+  registered-prediction MISS: (P2) SP-COVER sharp at w=w_cov-1 n=16 p=5  [a0=0]
+  registered-prediction MISS: (P2) SP-COVER sharp at w=w_cov-1 n=16 p=7  [a0=0]
+  registered-prediction MISS: (P2) SP-COVER sharp at w=w_cov-1 n=32 p=5  [a0=0]
+  registered-prediction MISS: (P2) SP-COVER sharp at w=w_cov-1 n=32 p=7  [a0=0]
+==========================================================================

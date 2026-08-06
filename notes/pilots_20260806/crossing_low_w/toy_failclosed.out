@@ -1,0 +1,4 @@
+=== stage failclosed ===
+  injecting a deliberately false check
+  FAIL: injected falsehood (this stage MUST exit 1)
+checks=1 failures=1

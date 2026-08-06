@@ -30,8 +30,10 @@ anchor and unsafe floor do not meet, so this node remains `TARGET`.
   `statement_sections/10-wave12-pin-of-record.md`: forward-facing pin bodies;
   earlier versions remain solely for provenance.
 - `statement_sections/11-h1-s3-addendum.md`: later list-compiler addendum.
+- `statement_addenda/12-round18-dsa-scope.md`: Round-18 DSA scope update.
 
 Each mathematical supplier is already an independent DAG node.  This parent
 does not absorb those theorems and does not become conditional on them.
 `statement_sections/document.json` proves that the extracted packets preserve
-the pre-refactor statement byte-for-byte.
+the pre-refactor statement byte-for-byte.  Later addenda are indexed and
+verified separately, so they do not rewrite that historical archive.

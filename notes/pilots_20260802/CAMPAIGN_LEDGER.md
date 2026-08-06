@@ -1523,3 +1523,291 @@ BOARD AFTER ROUND 17:
 - MINT-4 (still growing): (ES-G) re-scope + CS/STRAT/TWO + ADM
   lemmas + |Z_w| closed forms + all round-16/17 catches + the
   recovered reports.
+
+## 2026-08-06: ROUND 18 LAUNCHED — 4 Opus pilots on the four named hard cores (2 generative, 1 adversarial, 1 hybrid)
+
+- **crossing_low_w (GENERATIVE)**: the low-w crossing core — state
+  the w = 2 principal question exactly; attack the n_a = 256
+  one-condition deep-stratum instance via the LIFT-CONSTRAINT
+  conjecture (toy-gated at three shapes); refine the
+  covered/uncovered split; if a reduced solution lifts, follow it up
+  toward a genuine accident (campaign-critical either way). Balance
+  frame forbidden (CS2 sharp; no admissible row clears the stratum).
+- **o1_generating_adversary (ADVERSARIAL, blind to z1)**: break (O1)
+  on the surviving generating rows (k = e, zero margin): V1
+  zero-margin loss hunt; V2 the coset attack (CATCH-6); V3 the Z_1
+  lower-bound attack (crosswalk check first — the DLI wt >= 2R+1
+  law under char > w may now APPLY since admissible p ~ 2^64 > w);
+  V4 the generating-class vacuity sweep FIRST. Failed attacks
+  reported as SURVIVED-with-margin; every step under both Lambda
+  parity readings.
+- **z1_ternary_mass (GENERATIVE, blind to o1)**: SL-1b' on the
+  explicit object — crosswalk check FIRST (transport the DLI
+  stronger distance law if char > w now holds), then the mass bound
+  via norm-sandwich transport / GRS-dual second moments / the
+  C <= 4 class structure; calibration grid pre-registered; DLI
+  subtraction mandatory; consistency with the 61 witnesses required.
+- **efloor_sparsity (HYBRID, blind to crossing_low_w)**: the
+  pair-coprimality debt — S1 prove small-prime exclusion (p = 3
+  first; union bound over the finite CS3-surviving range = the
+  theorem shape); S2 adversarially construct the densest floor
+  families (non-vanishing density refutes CC-sparsity); S3 the
+  n = 64 asymptotic (close or honestly re-flag); S4 the u2c
+  conversion statement.
+
+Brief hardening this round: the COMPUTE LAW clause now explicitly
+covers file patching and JSON peeking (the recurring round-17 breach
+pattern). Standing rules otherwise as round 17. STILL PENDING USER:
+W = 5 rollback (+ CR-W5-ELL1); the PP5.0 reading (= the seam
+identity). PENDING PRZEMEK: generation hypothesis; Lambda parity;
+t*/mca_floor conflict. Mint-4 queued after this round.
+
+## 2026-08-06: round-18 pilot 1 BANKED — the adversary lands: (O1)'s sign is the 0.0044%
+
+- **o1_generating_adversary (Opus) BANKED, MAINTAINER-LEVEL**
+  (187/187). Three attacks FAIL with exact margins: V2 coset costs a
+  FACTOR OF 1 (THEOREM C1, disjoint group-ring route; half of f2_adm
+  CATCH-6 closes; CATCH-1 coset-robust); V4 the generating scope is
+  exactly THREE non-empty classes (THEOREM G1: ord mod 2^41 is
+  always a 2-power, so e in {3,5,6} can NEVER generate; THEOREM G2:
+  Lucas p-1 CERTIFICATES for all witnesses); V3 no ternary
+  construction reaches the floor — and **THEOREM D1: the DLI
+  wt >= 2R+1 law APPLIES on every admissible row** (p > m always;
+  the first family where char > w holds; the tower verdict reversed
+  by the field cap; (M3) still vacuous, 23.9x -> 11.96x). BUT V1
+  LANDS CONDITIONALLY — **THEOREM Z2, the ensemble dichotomy**: at
+  k = e LEMMA 3's requirement IS the balance t·L >= n, so (O1)
+  survives under the full-subset (C) calibration (<= 184 bits
+  slack) and is FALSE by 2^{Theta(n)} (>= 2^{4.84e7}) under the
+  exact fixed-slice (T*) calibration. **CATCH-A: the 0.0044%
+  "agreement" banked twice (f2_tq_pin CATCH-4, t_naming CATCH-C) IS
+  the sign of (O1) at zero margin.** CATCH-G: the (O1)=>(O2) fence
+  itself demands the slice ensemble (THEOREM B' vacuous at every
+  moving rung); CATCH-H: reading A is internally FORCED (proved
+  K1/K2/G trichotomy + the lane's own t/2 text) — so the
+  internally-forced cell of the 2x2 (parity x ensemble) is exactly
+  the FALSE one. STATED OF RECORD: the lane's own internal logic
+  points at the false cell; only a maintainer ruling on intent can
+  restore (O1) on generating rows. THE MINIMAL SURVIVING FORM
+  banked (E[T] = 2^{n/2}·Z_1^e on three classes, two unpinned
+  conditions) — this is what the Przemek note carries. CATCH-B:
+  f2_adm's "margin 1.000" is reading-A-only (addendum written).
+  Addenda: f2_adm (CATCH-6 half-closed, D3 caveat, Z2), t_naming
+  (CATCH-E burden shifted). Third consecutive weak-prereg
+  self-report — noted as systematic for derivation pilots.
+- Awaiting: crossing_low_w, z1_ternary_mass, efloor_sparsity.
+
+## 2026-08-06: round-18 pilot 2 BANKED — THEOREM DSA: (ES)-crossing FALSE at admissible tower rows, witness AT n = 2^41
+
+- **crossing_low_w (Opus) BANKED, CAMPAIGN-CRITICAL** (1,565,906
+  checks 0 failures; coordinator replayed the bijection gate 81,005/0
+  and the witness verification 2,854/0). MY brief's lift-constraint
+  conjecture REFUTED structurally (the pilot pre-registered the
+  negation, X1: at the binding stratum there are ZERO lift
+  constraints — LEMMA FREE); LEMMA DS (deep-stratum bijection,
+  r'_a = L-2 uniformly — ONE one-parameter family); LEMMA OE (the
+  odd/even epsilon/sigma split — the recursion for shallower strata);
+  LEMMA TC (the primitive object is TERNARY: 3^L, not 2^{n_a} or
+  C(n_a,r'_a) — per-weight mis-priced by 48.75 bits); LEMMA ROT
+  (2L-orbit over-dispersion). **THEOREM DSA (unconditional
+  pigeonhole): accidents EXIST at every admissible row with
+  p^{delta_a} < 2^{L-2}** — (ES)-crossing FALSE at 10/19 pairs
+  outright at w = 2^34 (3/19 at 2^35), with an explicit witness
+  VERIFIED AT n = 2^41 on the triple-refutation row
+  (p = 3·2^41+1, e = 6 — the same row as es_g_lanes' balance exhibit
+  and f2_adm's (O1) kill). e = 1 prime rows PROVABLY outside the
+  regime (B* >= 3 forces log2 p >= 129.6 > 126) and RE-PRICED
+  heuristically to a 53-61 bit margin under the ternary functional
+  (vs the 0.089-bit global cliff). Consumer consequence SCOPED: the
+  refuted statement is |W_w| = structural; the crossing NODE's
+  gamma-shell/budget question at tower rows is RE-OPENED, not
+  decided. es_g_lanes P4 was detecting a REAL refutation. CATCH-18E
+  (self-caught birthday-sizing). SCOPE ESCALATION OF RECORD: the
+  Przemek tower/generation question now DECIDES two lanes — the
+  maintainer note leads with the DSA witness. Next-round residuals:
+  the gamma-shell population; shallower strata via LEMMA OE; the
+  prime-row emptiness proof at the ternary margin.
+
+## 2026-08-06: round-18 pilot 3 BANKED — the first sparsity theorems; CC-sparsity re-labelled as (ES)-again
+
+- **efloor_sparsity (Opus) BANKED** (56,542/0 across 10 stages;
+  coordinator replayed self 52,510/0; ZERO compute-law breaches —
+  the hardened clause worked). **THEOREM SP-COVER + SP-UNIFORM**:
+  a = 0 bad primes force p > sqrt(w+1) — p = 3 dead for all w >= 6
+  at every n; the bad-prime range is TWO-SIDED (CS-EXCL above).
+  THEOREM SP-TERNARY (second mechanism); LEMMA AB (the engine — the
+  ternary object again); LEMMA QS + the F1 quarter-shift family
+  (49% of floor mass at 116x density, dies at one step of w — the
+  adversarial half finds NO refutation of CC-sparsity); the SPD
+  union-bound shape proved VACUOUS (the middle of the prime range
+  needs a non-character-sum idea); round-16's n = 64 flag CLOSED
+  (+ n = 128) via a new exact MITM census over all 2^32 subsets;
+  (CONV) stated exactly with the official q provably in neither
+  closed end. **CATCH E-1 (round-17 downgrade)**: E_floor is a
+  TAUTOLOGY given CS — the (K5) conditional re-labelled (hypothesis
+  as hard as conclusion); CS's 71.16% untouched. **CATCH E-2**:
+  CC-sparsity IS (ES) at half length over ternary. **CATCH E-3**:
+  the official v_2(q-1) >= 41 gate is exactly SP-COVER's blind spot
+  (gap 2^4.69 in w between the two proved exclusions).
+  **COORDINATOR CONVERGENCE NOTE**: third independent appearance of
+  TERNARY-IN-CODE as the primitive this round (crossing LEMMA TC,
+  this LEMMA AB, z1's mandate) — the true shared terminal candidate,
+  to be tested at the z1 bank and posed for round 19 if it survives.
+  Leads: the p = 5, w = 2 zero-ternary anomaly; even-condition
+  SP-COVER.
+- Awaiting: z1_ternary_mass (the last of round 18).
+
+## 2026-08-06: round-18 pilot 4 BANKED — ROUND 18 COMPLETE: the knife edge, the no-go, and the ternary unification
+
+- **z1_ternary_mass (Opus) BANKED** (81/81; process CLEAN — second
+  fully clean pilot). **THEOREM Z-1**: the DLI distance law
+  TRANSPORTS (min ternary weight >= 2R+1 = 8,589,934,681) —
+  CONVERGENT with the blind adversary's D1 (same constant, disjoint
+  derivations); scope: shift-0 only (43 shifted counterexamples;
+  legitimate because the official window starts at 1).
+  **THEOREM Z-FLOOR**: the first moment is a POINTWISE floor
+  (Z >= 2^m/p^{dim L}; one Cauchy-Schwarz from a banked identity
+  nobody had drawn; tight within 2x). **THEOREM Z-3**: (O1) FALSE
+  at the OBJECT level on every k < e admissible row — f2_adm
+  CATCH-1's 2^{5n/12} reproduced EXACTLY by an independent route.
+  **THEOREM Z-NOGO**: distance+counting can NEVER close SL-1b'
+  (needs p <= 8 vs admissible 2^39). **THEOREM Z-2** (gift to DLI:
+  the {±1} restriction unnecessary — l1 weight, same cutoff).
+  At k = e the floor misses by 46 BITS of 2.75e11 (one Lambda
+  condition = 64 bits; the two t-readings STRADDLE ZERO — under
+  exact-balance it FIRES: ternary kernel vectors provably exist,
+  the exact-zero form dies, yet Z stays 2^{o(n)}).
+  **CATCH-Z1 (brief defect, coordinator's)**: mass form != exact-zero
+  form; THE TERMINAL OF RECORD = the MASS form (Z_1 <= 2^{o(m)} at
+  k = e), with route (b) (Weil products over the 2^39-subgroup,
+  factor-2 headroom) the ONLY live route. Calibration honest: at or
+  below random median on all valid miniatures; "better than random"
+  NOT claimed. CATCH-Z6 (composite-2N toy contamination — standing
+  grid rule adopted).
+
+ROUND-18 NET (4/4): the adversary's ensemble dichotomy (the 0.0044%
+IS (O1)'s sign; internally-forced cell FALSE); THEOREM DSA
+((ES)-crossing FALSE at tower rows, witness AT n = 2^41, on the
+triple-refutation row); the first sparsity theorems (SP-COVER/
+SP-UNIFORM two-sided range) with CC-sparsity re-labelled as
+(ES)-again; the F2 terminal re-shaped to the MASS knife edge with a
+proved NO-GO for the whole distance+counting family. THE ROUND'S
+DISCOVERY: all four blind pilots converged on TERNARY VECTORS IN
+p-ARY CODES FROM CYCLOTOMIC WINDOWS as the primitive object — the
+ROUND-19 UNIFICATION CANDIDATE (one question family, three
+instances, the round's theorems as its partial answers).
+
+BOARD AFTER ROUND 18:
+- Mystery 2 (F2): terminal = Z_1 MASS at k = e via route (b);
+  everything else is the maintainer seam (generation/parity/
+  ensemble/PP5.0 — now FOUR faces of one inequality). k < e rows:
+  (O1) dead twice over (necessary-condition + object-level).
+- Crossing: tower rows REFUTED (DSA; scope = the Przemek question);
+  prime rows at a 53-61 bit heuristic ternary margin with proof
+  obligation open; low-w core two-sided (SP-COVER below, CS above)
+  with the official primes provably in the gap.
+- Band: unchanged this round; the ternary functional (LEMMA TC) is
+  the transfer candidate for its re-pose.
+- C1/C2'': own instruments, unchanged.
+- PENDING USER: W = 5 rollback; PP5.0 reading (now the fourth face).
+- PENDING PRZEMEK (the note now writes itself): the tower/generation
+  scope (DECIDES two lanes, with the DSA witness); Lambda parity
+  (internally forced to A); the ensemble calibration; the
+  t*/mca_floor conflict.
+- NEXT: MINT-4 (massively overdue — three rounds of theorems in
+  notes) + the Przemek note + the round-19 ternary unification
+  draft + the gamma-shell question + route (b).
+
+## 2026-08-06: MINT-4 CORE EXECUTED + the two parked decisions ruled (user-delegated)
+
+DECISIONS (coordinator rulings under user delegation, 2026-08-06):
+- **W = 5 ROLLBACK RATIFIED** (round-16 a1_window_audit verdict
+  LOSSY; the +7 was underived): W = 5 is the window of record;
+  board 10/8-routeless -> 4/1-closable; recorded as a statement
+  addendum on xr_band_high_window_exclusion. CR-W5-ELL1 census
+  DEFERRED until the band functional re-pose settles (no compute
+  spent calibrating a retired frame).
+- **PP5.0 = the SUM reading** as campaign working convention, by the
+  rules-freeze stricter-reading clause; flagged for maintainer
+  confirmation; both pricings carried in all statements (recorded in
+  f2_o1_status_split).
+
+MINT-4 CORE (six new background nodes + six statement addenda;
+write-path: shards -> compile_dag --write -> sectioned docs ->
+verify chain):
+- NEW: f2_admissible_object (ADM lemmas, G1/G2 census, C1 coset
+  invariance); f2_o1_status_split (ADM-B + Z-3 + Z2 + the minimal
+  surviving form + the FOUR-FACE SEAM); f2_z1_mass_knife_edge
+  (Z-FLOOR, Z-1/D1, Z-2, Z-NOGO, the 46-bit knife edge, route (b),
+  terminal = the MASS form); crossing_dsa_refutation (DSA + witness
+  + DS/FREE/OE/TC/ROT + the prime-row re-pricing);
+  es_ternary_suppression_instruments (CS + STRAT + TWO +
+  SP-COVER/SP-UNIFORM/SP-TERNARY + the E-1/E-2/E-3 limits);
+  esg_lane_rescope (the re-scope of record + |Z_w| closed forms).
+  Edges: supplier-owned ev/ref into u2c, crossing, band leaf, dli.
+- ADDENDA: u2c (base pin per THEOREM Q, ~2% -> 0.089-bit, witness
+  exclusion, the two-closed-ends state); crossing node (DSA scope
+  note, gamma-shell re-opened, CS coverage); band leaf (W = 5
+  ratification + functional status); xr_radius_arithmetic (t* =
+  mca_floor object, sliver retired, never cross-audit);
+  dli_wcl_newton_short_window_exclusion (scope reversal + the l1
+  strengthening); b1 (CATCH-15B verifier-of-record repair, MC-4 by
+  citation).
+- Compiled: dag 1817/5070 -> 1823/5081; sectioned docs recompiled;
+  verify_prize_dag PASS (no warnings on the six; x81/x83 warnings
+  pre-existing); ORBIT_CENSUS_PASS unchanged (246 = 179/41/26,
+  submission 261 = 191/43/27) — the six are orbit-external
+  satellites.
+- DEFERRED to mint-4b: the critical-lane re-wiring of the F2/crossing
+  terminals (blocked on the Przemek scope answers by design); the
+  naming ledger extension (six t symbols); the SOL_TARGET_3 t*
+  rename; the D2/D3 shard addenda; the remaining round-15 mint queue
+  (UPB, 3-drop THEOREM D, F2 A/B/C wave, crossing X/Q/Y/MW wave,
+  b2b retyping).
+
+## 2026-08-06: ROUND 19 LAUNCHED — the ternary unification, attacked before adoption (4 Opus pilots)
+
+Per the user's directive (speculative unifications have collapsed
+before — attack/strengthen before proceeding), the round-18
+convergence candidate goes through the fire the (ES) unification
+never got:
+- **tern_unification_adversary (ADVERSARIAL, blind to the builder)**:
+  the (ES)-collapse failure modes as registered falsifiers — the
+  shape-pun test (one parametrized statement specializing EXACTLY,
+  vs the proved mass/existence split, R-vs-one conditions,
+  fibred-vs-native ternary, differing evaluation structures); the
+  regime-compatibility audit (mutually satisfiable or provably
+  disjoint — with the honest note that a method-unification can
+  survive disjoint regimes, unlike (ES)'s discharge claim); the
+  instrument transfer matrix (exact hypothesis matching); the
+  structural-disanalogy hunt. Deliverable: a GRADED verdict
+  (statement / regime / method), each surviving or killed, with
+  proofs.
+- **tern_master_statement (GENERATIVE, blind to the adversary)**:
+  the strongest honest form — T(P, Lambda) with exact dictionaries
+  (existence/count/mass as a PARAMETER per CATCH-Z1), the shared
+  spine proved with subtraction (char-0 emptiness at 2-power
+  orders; CS over Frobenius-stable Lambda; orbits; Z-FLOOR scope),
+  the constructive instrument matrix, THE VALUE TEST (>= 1 proved
+  cross-instance consequence or the honest zero), the draft master
+  node.
+- **tern_route_b (GENERATIVE)**: the one route Z-NOGO leaves open,
+  made precise or killed — the exact character-sum form of Z_1
+  (gate: machine-verified identity), the cancellation ledger (the
+  factor-2 headroom to theorem grade or dead-with-gap), the
+  round-15 L2-barrier precedent test, toy calibration, and the
+  LIVE/DEAD/TRANSFORMED verdict (chasing 2-power-conductor
+  Gauss-sum exactness hard).
+- **tern_small_scale_laws (ADVERSARIAL-EMPIRICAL, blind to
+  route-b)**: matched exact censuses across the three instance
+  miniatures; the TRACKING TEST (dictionaries pre-stated; a
+  structured deviation = quantitative refutation); the p = 5
+  zero-ternary anomaly explained or weaponized (shared anomaly =
+  best positive evidence; local = disanalogy datum); the
+  cross-instance scaling verdict. One labelled composite-length
+  negative-control cell; otherwise 2-power only (CATCH-Z6).
+
+Blind pairs: adversary/builder on the statement; route-b/laws on
+the quantitative side. The coordinator reconciles the two
+instrument matrices at the bank. Standing rules as round 18
+(hardened compute-law clause; REPORT.md persistence at bank).

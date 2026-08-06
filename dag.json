@@ -28147,6 +28147,47 @@
    ]
   },
   {
+   "id": "crossing_dsa_refutation",
+   "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/crossing_dsa_refutation/statement.md",
+    "notes/pilots_20260806/crossing_low_w/PROOFS.md",
+    "notes/pilots_20260806/crossing_low_w/prize_exhibit.py",
+    "notes/pilots_20260806/crossing_low_w/toy_gate.py",
+    "notes/pilots_20260806/crossing_low_w/eps_found.json"
+   ],
+   "closure": "proof",
+   "statement": "LEMMA DS: the deepest stratum a = v-1 of the crossing window system is the one-parameter family (n_a, r'_a) = (2L, L-2), L = 2^{41-v}, single condition p_1(S') = 0, bijective with stratum members with NO side conditions (LEMMA FREE \u2014 zero lift constraints; toy-gated exhaustively at three shapes, 81,005/0). LEMMA OE: odd conditions see the ternary eps only, even conditions ARE the next stratum. LEMMA TC: the primitive object is eps in {0,\u00b11}^L \u2014 3^L, requirement log2 p >= 202.875 at v = 34 (orbit-corrected 194.875, LEMMA ROT: 2L-orbits, Poisson over-predicts by 2L) \u2014 vs 256 (global, = the cap) and 251.6 (retired per-weight, 48.75 bits mis-priced). THEOREM DSA (pigeonhole, unconditional): p^{delta_a} < 2^{L-2} forces a nonzero even-support ternary relation, hence a NON-STRUCTURAL member of W_w and |W_w| > C(n/M, r'/M) \u2014 the (ES) crossing instance FALSE at that row. Coverage at w = 2^34: 10/19 admissible pairs ALL + 6 PART; witness verified AT n = 2^41 (2,854/0; all 2^34-1 window conditions; the G(s) product factorisation cross-checked exhaustively at n = 64, 128) on p = 6597069766657 = 3 2^41+1, e = 6 \u2014 the triple-refutation row. DICHOTOMY: e = 1 rows never in the regime (B* >= 3 forces log2 p >= 129.585 > 126); prime rows re-priced (HEURISTIC) to 3^128/p = 2^{-53.1} (orbit 2^{-61.1}). SCOPE: applies under the adopted reading that tower rows are in the crossing obligation (axis8_generating + B* >= 3); if the official family excludes towers (MAINTAINER question) the refutation shrinks to nothing and the lemma kit + re-pricing survive. NOT claimed: prime-row emptiness (heuristic); the gamma-shell population (the crossing node's budget question at tower rows RE-OPENED, not decided); strata a < v-1; w = 2^36+. Provenance: notes/pilots_20260806/crossing_low_w (1,565,906 checks), coordinator-replayed at the two load-bearing stages."
+  },
+  {
+   "id": "es_ternary_suppression_instruments",
+   "title": "The proved suppression instruments: THEOREM CS (ideal Galois multiplicity vs a SHARP AM-GM ceiling \u2014 the (ES) crossing instance unconditional on 71.16% of the bracket at 256-bit p) + LEMMA STRAT/TWO (exact stratum reduction; N_odd is the invariant, even r' forces 2 | N) + THEOREM SP-COVER/SP-UNIFORM (a = 0 bad primes > sqrt(w+1); p = 3 dead for w >= 6; the bad-prime range TWO-SIDED) \u2014 with the proved structural limits: E_floor is tautological given CS, CC-sparsity is (ES) again at half length over ternary, and the official primes sit provably in the 2^4.69-wide gap between the two closed ends",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/es_ternary_suppression_instruments/statement.md",
+    "notes/pilots_20260806/es_coprimality/PROOFS.md",
+    "notes/pilots_20260806/es_coprimality/verify_cop.py",
+    "notes/pilots_20260806/efloor_sparsity/PROOFS.md",
+    "notes/pilots_20260806/efloor_sparsity/verify_sp.py"
+   ],
+   "closure": "proof",
+   "statement": "THEOREM CS: p | N(I_S) with x_1 != 0 forces p^{|Z_w^odd|} | |N(x_1)| <= (r'-a_{n/2}(S))^{n/4} (CS2 sharp, AM-GM equality attained), so ceil((w-1)/2) log2 p <= (n/4) log2 r'; contrapositive: the (ES) crossing instance HOLDS unconditionally wherever the reverse strict inequality holds \u2014 71.16% of the bracket at 256-bit p (w > 2^37.3131), complete over all S via the strat dichotomy (CS / STRAT+CS-TOWER / LEMMA Z). LEMMA STRAT: exact reduction to (n/2^a, r'/2^a, w_a); binding stratum = largest a with w_a = 2 (principal). LEMMA TWO: even r' forces 2 | N(I_S); the invariant of record is N_odd. THEOREM SP-COVER/LEMMA COS/SP-UNIFORM: full coset coverage forces periodicity (engine LEMMA AB: A-B is TERNARY); a = 0 bad primes satisfy p > sqrt(w+1); p = 3 dead for all w >= 6 at every n; the bad-prime range is two-sided with the CS3 ceiling. THEOREM SP-TERNARY: second per-(n,p,w)-certified mechanism. Adversarial nulls banked: the densest floor family (LEMMA QS quarter-shift: 49% of floor mass in 0.42% of sets) dies at one w-step; exact all-characteristic censuses close round-16's n = 64 flag (+ n = 128); quantization reproduced. PROVED LIMITS: (E-1) E_floor tautological given CS (the CC decomposition is a restatement); (E-2) CC-sparsity IS (ES) at half length over ternary; (E-3) the official v_2(q-1) >= 41 gate is SP-COVER's blind spot \u2014 official primes provably in the 2^4.69 gap; the SPD union-bound shape proved vacuous. NOT claimed: CC-sparsity/pair-coprimality (open, as hard as the original); the prime-range middle; w = 3; band rows. Provenance: notes/pilots_20260806/{es_coprimality (143,974/0), efloor_sparsity (56,542/0)}, coordinator-replayed."
+  },
+  {
+   "id": "esg_lane_rescope",
+   "title": "The (ES-G) terminal re-scope of record: the four-lane unification WITHDRAWN \u2014 mutually unsatisfiable field regimes (u2c >= 255.9113 / band low-depth >= 255.99999994 / band 1/16 >= 256 i.e. NEVER / dli RES < 256 strictly by its own H2); per-lane verdicts (u2c pinned the global form correctly; crossing (ES-G)-covered at w >= 2^37, and the w = 2^34 deep-stratum failure was detecting round-18's REAL DSA refutation; band needs a re-posed functional \u2014 the q >= 2^209 pin computes the RETIRED per-weight form; dli RES unwired to its own instruments); |Z_w| closed forms banked for all 8 admissible p-classes; the tower-row mechanism (THEOREM Q: extension degree free for the count, e divides log2 p)",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/esg_lane_rescope/statement.md",
+    "notes/pilots_20260806/es_g_lanes/PROOFS.md",
+    "notes/pilots_20260806/es_g_lanes/esg_selftest.py",
+    "notes/pilots_20260806/es_g_lanes/esg_lib.py"
+   ],
+   "closure": "proof",
+   "statement": "The four (ES)/(ES-G)-consuming lanes' field regimes are mutually unsatisfiable (u2c: log2 Q >= 255.9113; band 1/4-1/8 low depth: >= 255.99999994; band 1/16: >= 256 exactly \u2014 deficit >= 512 bits at the cap, NEVER; dli RES: < 256 strictly by its proved H2/A2) \u2014 the round-15 unification was of statement shape, not regime, and is WITHDRAWN. Per lane: u2c's pin IS the global form verbatim (five round-16 witnesses re-excluded independently); crossing is covered at w >= 2^37 (19/19 admissible pairs) and fails the binding deep stratum at w = 2^34 at ALL 19 (requirement log2 p >= 256 = the cap) \u2014 round 18's THEOREM DSA proved this failure was detecting a real refutation at tower rows; band (both nodes) cannot cite (ES-G) at rate 1/16 anywhere or the low-depth 22.5% of 1/4-1/8, and the banked q >= 2^209 pin computes the RETIRED per-weight threshold, 47.5 bits short (re-derive under the adopted functional \u2014 round-18's ternary form is the transfer candidate); dli RES is UNWIRED (above balance by its own hypothesis; round-15's 'discharges all four consumers' REFUTED for it). |Z_w| closed forms for all 8 admissible p-classes banked, with the delta = 4 bracket top NEVER attained (33% over-credit) and the w = 2^38/2^39 orbit merge (ratios not w-uniform). Mechanism: THEOREM Q makes extension degree free for the count while e divides log2 p \u2014 tower rows are the adversary, confirmed by round 18. NOT claimed: the band effective-base question; the syzygy bracket end; the band pin repair. Provenance: notes/pilots_20260806/es_g_lanes (1,413/0, certified 140-digit comparator; one self-caught float defect), coordinator-replayed."
+  },
+  {
    "id": "f2_admissible_degree_order_classification",
    "title": "F2 admissible extension-degree and order classification",
    "status": "PROVED",
@@ -28216,6 +28257,20 @@
     "notes/pilots_20260806/f2_newton_distance/node_verify_result.json",
     "notes/pilots_20260806/f2_minus_branch/node_verify_result.json"
    ]
+  },
+  {
+   "id": "f2_admissible_object",
+   "title": "The prize-admissible F2 object: the 16-rung KoalaBear tower is NOT admissible (cap broken from rung 4); on the admissible region (v_2(e) <= 2, e <= 6, log2 p >= 39, depth <= 2) the descent collapses to LEMMA ADM-2's exact direct sum of prime-field GRS codes (dim L EXACT), the generating classes are exactly three (Lucas-certified non-empty; e in {3,5,6} can never generate), and the coset domain costs the first moment a factor of exactly 1 (THEOREM C1)",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/f2_admissible_object/statement.md",
+    "notes/pilots_20260806/f2_adm/PROOFS.md",
+    "notes/pilots_20260806/f2_adm/verify.py",
+    "notes/pilots_20260806/o1_generating_adversary/verify.py",
+    "notes/pilots_20260806/f2_tq_pin/verify.py"
+   ],
+   "closure": "proof",
+   "statement": "Admissible region at n = 2^41: v_2(e) <= 2, e <= 6, log2 p >= 39, tower depth <= 2 (f2_tq_pin CATCH-1: the 16-rung tower breaks |F| < 2^256 from rung 4). LEMMA ADM-1/2/3: for D = 41 - v_2(p-1) <= 2, L^perp decomposes as a direct sum of C prime-field GRS/MDS class kernels [S, S-R, R+1]_p, dim_Fp L = C min(S,R) EXACTLY, Z(L) = Z_1^C; the ADM-3 upper-bound constant is k = ord_n(p), not [F_q:F_p] (corrects f2_sl1b LEMMA SL-1b-DIM off-tower). Depth-budget: t <= n/(2^D(41-D)). THEOREM G1/G2: generating classes are exactly (e_p,e,k) in {(>=41,1,1),(40,2,2),(39,4,4)}, all non-empty with Lucas p-1 certificates; e in {3,5,6} can never generate since ord mod 2^41 is a 2-power. THEOREM C1: the rules-level coset domain g mu_n costs E_{K1}[T_W] a factor of EXACTLY 1 (bijection phi_g; verified by a disjoint group-ring route). THEOREM A discharges only order layers <= 42 - log2 L (0.78% of the domain at prize-max; no moving rung, minimum shortfall 39x); (M3) vacuous on admissible rows. NOT claimed: any Z_1 bound; (O1)'s status; the antipodal law on cosets (open \u2014 the coset gap is confined to the parity/descent machinery by C1). Provenance: notes/pilots_20260806/{f2_adm (373/373), o1_generating_adversary (187/187), f2_tq_pin (64/64)}, coordinator-replayed; ledger CAMPAIGN_LEDGER.md round-17/18 banks."
   },
   {
    "id": "f2_admissible_weighted_prefix_l2_identity",
@@ -28290,6 +28345,19 @@
    ]
   },
   {
+   "id": "f2_o1_status_split",
+   "title": "(O1)'s status on admissible rows, split: FALSE by 2^{Theta(n)} on every non-generating row (k < e) by two independent routes (ADM-B necessary-condition + Z-3 object-level, exponents matching exactly, coset-robust); on the three generating classes decided by two unpinned conventions (THEOREM Z2 ensemble dichotomy \u2014 the banked 0.0044% 'agreement' IS the sign of (O1) at zero margin; the internally-forced cell reading-A + slice is the FALSE one); minimal surviving form E[T] = 2^{n/2} Z_1^e banked; the four-face maintainer seam identified",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/f2_o1_status_split/statement.md",
+    "notes/pilots_20260806/f2_adm/PROOFS.md",
+    "notes/pilots_20260806/z1_ternary_mass/PROOFS.md",
+    "notes/pilots_20260806/o1_generating_adversary/PROOFS.md"
+   ],
+   "closure": "proof",
+   "statement": "Non-generating admissible rows (k = ord_n(p) < e): (O1) FALSE by 2^{Theta(n)} twice over \u2014 THEOREM ADM-B (LEMMA 3 ratio k/e, t-naming-independent) and THEOREM Z-3 (object-level: Z(L) >= 2^{m(1-(k/e)(tL/n))}), exhibit p = 3 2^41+1 q = p^6 with matching exponents 2^{5n/12}; the F2 lane needs a generation hypothesis the rules do not supply (MAINTAINER, open). Generating rows (exactly three classes by G1/G2): THEOREM Z2 \u2014 at k = e LEMMA 3's requirement IS the balance tL >= n, so (O1) survives under the full-subset calibration (C) (<= 184 bits slack) and is FALSE by 2^{n/(L^2 ln 2)} >= 2^{4.84e7} under the exact slice calibration (T*); the 0.0044% between them (banked twice as agreement) is the SIGN of (O1) at zero margin. Kill is parity-reading-A-only; CATCH-H: A is internally forced (proved K1/K2/G trichotomy + the lane's own min(m_j, t/2) text); CATCH-G: the (O1)=>(O2) fence demands the slice \u2014 the lane's internal logic points at the false cell. Minimal surviving form: E_{K1}[T_W] = 2^{n/2} Z_1^e exactly, (O1) iff Z_1 <= 2^{o(n)/e}, subject to the two unpinned conventions. FOUR-FACE SEAM: balance = LEMMA 3 = Z-FLOOR vacuity boundary = PP5.0 avg-vs-sum, one inequality on k = e rows; campaign working convention (coordinator ruling 2026-08-06, stricter-reading clause, flagged for maintainer): the SUM reading, both pricings carried. NOT claimed: (O1) itself on generating rows; the maintainer pins; any Z_1 upper bound. Provenance: notes/pilots_20260806/{f2_adm, z1_ternary_mass, o1_generating_adversary}, all coordinator-replayed."
+  },
+  {
    "id": "f2_weighted_kernel_collision_floor",
    "title": "F2 weighted-kernel pointwise collision floor",
    "status": "PROVED",
@@ -28321,6 +28389,18 @@
     "background/nodes/f2_weighted_mass_max_fiber_sandwich/result.md",
     "background/nodes/f2_weighted_mass_max_fiber_sandwich/verify.py"
    ]
+  },
+  {
+   "id": "f2_z1_mass_knife_edge",
+   "title": "The F2 terminal pinned to the MASS form with its proved constraints: THEOREM Z-FLOOR (pointwise first-moment floor Z >= 2^m/p^{dim L}, one Cauchy-Schwarz from a banked identity, tight in 2x), THEOREM Z-1 (the DLI distance law transports \u2014 min ternary weight >= 2R+1, blind-convergent with the adversary's D1, shift-0 scope), THEOREM Z-2 (l1 extension gifted back to DLI), THEOREM Z-NOGO (distance+counting needs p <= 8 and can NEVER close the terminal); at k = e the floor sits on a 46-bit knife edge (one Lambda condition = 64 bits; the two t-readings straddle zero, exact-zero form dies where it fires); the open terminal = Z_1 <= 2^{o(m)} via route (b) only",
+   "status": "PROVED",
+   "refs": [
+    "background/nodes/f2_z1_mass_knife_edge/statement.md",
+    "notes/pilots_20260806/z1_ternary_mass/PROOFS.md",
+    "notes/pilots_20260806/z1_ternary_mass/verify.py"
+   ],
+   "closure": "proof",
+   "statement": "On the admissible F2 object ([S,S-R,R+1]_p negacyclic GRS on the half-system, S = 2^40/e, R/S = 1/log2 p, Z(L) = Z_1^C, C <= 4): THEOREM Z-FLOOR: Z(L) >= 2^m/p^{dim L} POINTWISE for every subspace (Cauchy-Schwarz on the banked collision identity dli_c1_l1_block_owner_ledger:15,18; tight within 2x of the ensemble mean; 696 configs 0 violations). THEOREM Z-1: char > w holds on every admissible row (p > m by the e_p case split; the tower verdict reversed), so min ternary weight >= 2R+1 = 8,589,934,681 \u2014 blind-convergent with o1_generating_adversary THEOREM D1; shift-0 windows only (43 shifted counterexamples; legitimate because the official window starts at 1). THEOREM Z-2: the DLI exclusion holds for all integer coefficients at l1 weight ({+1,-1} unnecessary). THEOREM Z-NOGO: saturation pins R/S = 1/log2 p, so the whole distance+counting family (39.2x -> 28.3x -> 21.3x ladder) needs p <= 8 vs admissible log2 p >= 39 \u2014 structurally incapable of closing the terminal. KNIFE EDGE at k = e: the floor is silent by 46.02 bits of 2.75e11 under R = ceil(t/2) and FIRES (+17.98 bits) under the exact-balance reading \u2014 there ternary kernel vectors provably exist (Z_1 >= 2^{17.98}), the EXACT-ZERO form dies, the MASS form survives (Z = 2^{o(n)}); the reading belongs to the maintainer stack. CATCH-Z1: mass form != exact-zero form (differ by log2 3 per vector) \u2014 the terminal of record is the MASS form: prove Z_1 <= 2^{o(m)} at k = e. Only live route: (b) Weil-type products over the 2^{e_p}-subgroup (factor-2 headroom, back-of-envelope); (a) dead quantified; (c) localises only. Calibration at or below random median on all valid miniatures (2-power 2N only, CATCH-Z6 grid rule); no toy is evidence at the official row. NOT claimed: the open mass bound; the t-reading; a shifted law. Provenance: notes/pilots_20260806/z1_ternary_mass (81/81), coordinator-replayed."
   },
   {
    "id": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
@@ -53630,6 +53710,11 @@
    "kind": "ev"
   },
   {
+   "from": "crossing_dsa_refutation",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ref"
+  },
+  {
    "from": "dli_wcl_newton_short_window_exclusion",
    "to": "f2_admissible_newton_signed_distance",
    "kind": "req"
@@ -53638,6 +53723,36 @@
    "from": "dli_wcl_newton_short_window_exclusion",
    "to": "f2_minus_branch_coupled_negacyclic_reduction",
    "kind": "req"
+  },
+  {
+   "from": "es_ternary_suppression_instruments",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "es_ternary_suppression_instruments",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ref"
+  },
+  {
+   "from": "esg_lane_rescope",
+   "to": "dli_prime_weighted_large_block_support",
+   "kind": "ref"
+  },
+  {
+   "from": "esg_lane_rescope",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ref"
+  },
+  {
+   "from": "esg_lane_rescope",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ref"
+  },
+  {
+   "from": "esg_lane_rescope",
+   "to": "xr_band_high_window_exclusion",
+   "kind": "ref"
   },
   {
    "from": "f2_admissible_degree_order_classification",
@@ -53683,6 +53798,11 @@
    "from": "f2_admissible_newton_signed_distance",
    "to": "f2_conditional_close",
    "kind": "ev"
+  },
+  {
+   "from": "f2_admissible_object",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ref"
   },
   {
    "from": "f2_admissible_weighted_prefix_l2_identity",
@@ -53735,6 +53855,11 @@
    "kind": "ev"
   },
   {
+   "from": "f2_o1_status_split",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ref"
+  },
+  {
    "from": "f2_weighted_kernel_collision_floor",
    "to": "f2_conditional_close",
    "kind": "ev"
@@ -53753,6 +53878,16 @@
    "from": "f2_weighted_mass_max_fiber_sandwich",
    "to": "f2_conditional_close",
    "kind": "ev"
+  },
+  {
+   "from": "f2_z1_mass_knife_edge",
+   "to": "dli_prime_weighted_large_block_support",
+   "kind": "ref"
+  },
+  {
+   "from": "f2_z1_mass_knife_edge",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ref"
   },
   {
    "from": "rate_half_crossing_ideal_galois_multiplicity_exclusion",

@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "crossing_dsa_refutation",
+    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows — unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT — the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
+    "status": "PROVED",
+    "refs": [
+      "background/nodes/crossing_dsa_refutation/statement.md",
+      "notes/pilots_20260806/crossing_low_w/PROOFS.md",
+      "notes/pilots_20260806/crossing_low_w/prize_exhibit.py",
+      "notes/pilots_20260806/crossing_low_w/toy_gate.py",
+      "notes/pilots_20260806/crossing_low_w/eps_found.json"
+    ],
+    "closure": "proof",
+    "statement": "LEMMA DS: the deepest stratum a = v-1 of the crossing window system is the one-parameter family (n_a, r'_a) = (2L, L-2), L = 2^{41-v}, single condition p_1(S') = 0, bijective with stratum members with NO side conditions (LEMMA FREE — zero lift constraints; toy-gated exhaustively at three shapes, 81,005/0). LEMMA OE: odd conditions see the ternary eps only, even conditions ARE the next stratum. LEMMA TC: the primitive object is eps in {0,±1}^L — 3^L, requirement log2 p >= 202.875 at v = 34 (orbit-corrected 194.875, LEMMA ROT: 2L-orbits, Poisson over-predicts by 2L) — vs 256 (global, = the cap) and 251.6 (retired per-weight, 48.75 bits mis-priced). THEOREM DSA (pigeonhole, unconditional): p^{delta_a} < 2^{L-2} forces a nonzero even-support ternary relation, hence a NON-STRUCTURAL member of W_w and |W_w| > C(n/M, r'/M) — the (ES) crossing instance FALSE at that row. Coverage at w = 2^34: 10/19 admissible pairs ALL + 6 PART; witness verified AT n = 2^41 (2,854/0; all 2^34-1 window conditions; the G(s) product factorisation cross-checked exhaustively at n = 64, 128) on p = 6597069766657 = 3 2^41+1, e = 6 — the triple-refutation row. DICHOTOMY: e = 1 rows never in the regime (B* >= 3 forces log2 p >= 129.585 > 126); prime rows re-priced (HEURISTIC) to 3^128/p = 2^{-53.1} (orbit 2^{-61.1}). SCOPE: applies under the adopted reading that tower rows are in the crossing obligation (axis8_generating + B* >= 3); if the official family excludes towers (MAINTAINER question) the refutation shrinks to nothing and the lemma kit + re-pricing survive. NOT claimed: prime-row emptiness (heuristic); the gamma-shell population (the crossing node's budget question at tower rows RE-OPENED, not decided); strata a < v-1; w = 2^36+. Provenance: notes/pilots_20260806/crossing_low_w (1,565,906 checks), coordinator-replayed at the two load-bearing stages."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": [
+    {
+      "to": "rate_half_list_adjacent_crossing"
+    }
+  ]
+}

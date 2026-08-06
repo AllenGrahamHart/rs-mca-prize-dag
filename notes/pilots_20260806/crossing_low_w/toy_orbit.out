@@ -1,0 +1,7 @@
+=== stage orbit ===
+    p=193 : 16 relations = 1 orbit(s); admissible eps = 3024; naive 3^L/p-style estimate 15.67, orbit-corrected 0.98
+    p=257 : 0 relations = 0 orbit(s); admissible eps = 3024; naive 3^L/p-style estimate 11.77, orbit-corrected 0.74
+    p=449 : 0 relations = 0 orbit(s); admissible eps = 3024; naive 3^L/p-style estimate 6.73, orbit-corrected 0.42
+    p=577 : 16 relations = 1 orbit(s); admissible eps = 3024; naive 3^L/p-style estimate 5.24, orbit-corrected 0.33
+    p=641 : 0 relations = 0 orbit(s); admissible eps = 3024; naive 3^L/p-style estimate 4.72, orbit-corrected 0.29
+checks=66 failures=0

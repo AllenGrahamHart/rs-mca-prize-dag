@@ -61,3 +61,22 @@ One prize-row, globally generic-branch pair `(u,v)`, one depth in the
 displayed range, and an auditable support-wise first-match ledger with
 `25N_d>17n^2`. A large raw list, an unselected support family, a
 cascade-tier family at `d=h-1`, or a RowC fixture is not a falsifier.
+
+## Addendum (2026-08-06, mint-4 — the W = 5 rollback RATIFIED + the functional status)
+
+1. THE W = 5 ROLLBACK IS RATIFIED (coordinator ruling 2026-08-06
+   under user delegation; round-16 a1_window_audit verdict LOSSY):
+   the +7 window extension was a +2 overshoot with no derivation;
+   W_min = 5 EXACT (the q = 918552577 w6-orbit binding inequality)
+   is the window of record. Board effect: 10 leaves / 8 routeless ->
+   4 leaves / 1, all closable; consumer arithmetic bit-identical;
+   costs are watch-line (margin 2.85x -> 2.30x). The CR-W5-ELL1
+   census is DEFERRED until the lane's balance functional is
+   re-posed (below), so compute calibrates the functional of record.
+2. FUNCTIONAL STATUS (rounds 16-18): the per-weight balance form is
+   REFUTED and retired; the global form is unavailable at this
+   lane's rows (esg_lane_rescope: rate 1/16 NEVER, low-depth 1/4-1/8
+   excluded; the banked q >= 2^209 pin computes the RETIRED
+   threshold and must be re-derived). The re-pose candidate of
+   record is the TERNARY functional (crossing_dsa_refutation LEMMA
+   TC: primitive count 3^L with 2L-orbit correction).

@@ -1,0 +1,187 @@
+==============================================================================
+Z1 TERNARY MASS -- SL-1b' pilot verifier   (round 18, generative lens)
+==============================================================================
+
+=== S0  constants of record (re-derived from the quoted sources) ===
+  [PASS] S0.1 p is prime   -- p = 18446735827372343297
+  [PASS] S0.2 v_2(p-1) = 39 exactly
+  [PASS] S0.3 mu_{2^39} <= F_p^*
+  [PASS] S0.4 mu_{2^40} NOT in F_p^* (e_p is exact)
+  [PASS] S0.5 S = 2^{e_p-1} = 2^38   -- S = 274877906944
+  [PASS] S0.6 log2 p reproduces the banked 63.999999355   -- log2 p = 63.9999993550649151103
+  [PASS] S0.7 L = log2 q reproduces the banked 255.999997420   -- L = 255.999997420259660441
+  [PASS] S0.8 t = n/L reproduces the banked 8,589,934,678.6   -- t = 8589934678.561722673
+  [PASS] S0.9 banked R = ceil(t/2) = #odd l <= ceil(n/L)   -- R_banked = 4294967340 = #odd <= ceil(t) = 4294967340
+  [PASS] S0.10 the exact-balance reading (tL = n) gives ONE condition fewer   -- R(exact balance) = 4294967339
+
+=== S1  (Z1) THE CROSSWALK: DLI hypotheses vs the admissible object ===
+  background/nodes/dli_wcl_newton_short_window_exclusion/statement.md:8-22
+  (VERBATIM):
+    "Let F be a field of characteristic zero or characteristic greater than
+     w. Let omega in F have exact order 2N, and let P(X) = sum_(i=1)^w s_i
+     X^e_i be a reduced signed polynomial with distinct e_i in {0,...,N-1}
+     and s_i in {+1,-1}. If P(omega^(2j-1)) = 0 for j=1,...,ell and
+     w<=2ell, then no such polynomial exists." 
+  [PASS] S1.1 H1 'char > w': HOLDS -- p exceeds the maximum possible weight S   -- p/S = 6.7109e+07 (the hypothesis holds with 7 orders to spare)
+  [PASS] S1.2 H2 'omega of exact order 2N': 2N = 2^39 realised in F_p^*
+  [PASS] S1.3 H2' N = 2^38 = S: the DLI exponent range {0..N-1} IS the half-system
+  [PASS] S1.4 H3 'distinct e_i in {0..N-1}': one representative per antipodal pair (LEMMA ADM-2 (ii))   -- structural, not numerical
+  [PASS] S1.5 H4 'the first ell odd powers': the official Lambda = {odd l : l <= t} starts at l = 1   -- f2_sl1_powersums/PROOFS.md:121; shift a = 0
+  [PASS] S1.6 transported floor 2R+1   -- 2R+1 = 8589934681
+  [PASS] S1.7 the transport DOUBLES the characteristic-free SL-1 floor R+1   -- SL-1: 4294967341 -> DLI: 8589934681  (ratio 2.000000)
+  [PASS] S1.8 on the KoalaBear tower the SAME hypothesis FAILS   -- p_tower = 2130706433 < m_16 = 2^38
+  [PASS] S1.9 the admissible object flips it: p/w_max goes 7.751e-03 -> 6.711e+07
+  [PASS] S1.10 but the transported floor is still only S/32   -- (2R+1)/S = 0.031250000 ~ 1/32
+
+=== building the calibration grid (pre-registered Z-A12) ===
+  [PASS] G.1 exhaustive and meet-in-the-middle agree on every N <= 8 row (disjoint code paths)   -- 1032 configurations built
+   grid: 1032 configurations, 2N in {8,12,16,20,24,32}, 251 live rows (nonzero ternary kernel)
+
+=== S2  (Z2a) THEOREM Z-FLOOR:  Z(L) >= 2^m / p^{dim L} ===
+  Banked ingredient (NOT ours) -- notes/pro_briefs_20260801/responses/
+  BRIEF1_PRO_DOSSIER.md:47,52 (VERBATIM):
+    "With `Z = sum_(d in ternary kernel) 2^(-w(d))` and `r = q^L/2^N`:
+     sum_s (m_s - 2^N/q^L)^2 = 2^N (Z - 1/r)  (Boolean fibre variance)"
+  and background/nodes/dli_c1_l1_block_owner_ledger/statement.md:15,18:
+    "Z = sum_(d in ternary kernel) 2^(-wt(d))." / "The banked collision
+     identity".   OURS: drawing the inequality, and transporting it.
+  [PASS] S2.1 the collision identity Z = 2^{-N} sum_s |F_s|^2 holds EXACTLY   -- 672 rows checked over the binary cube, 0 mismatches
+  [PASS] S2.2 THEOREM Z-FLOOR holds on EVERY configuration (exact rationals)   -- 1032 configurations, 0 violations
+  [PASS] S2.3 the floor is TIGHT: max(1, 2^N/p^d) <= E_rand[Z] <= 2 max(1, 2^N/p^d) + 1 everywhere   -- 1032 configurations, 0 exceptions
+  [PASS] S2.4 wherever the floor fires (2^N > p^{dim L}) a nonzero ternary kernel vector EXISTS   -- 112 firing configurations, all carry ternary vectors
+  [PASS] S2.5 the floor strictly beats the banked unconditional floor Z >= 1 (f2_opening/PROOFS.md:90)   -- 92 configurations with 2^N/p^d > 2, max = 675.6
+  [PASS] S2.6 the same argument floors the ternary COUNT: |T n ker| >= 2^N/p^{dim L}   -- 0 violations
+
+=== S3  (Z3) calibration: measured Z_1 vs the random baseline ===
+  [PASS] S3.1 the grid contains saturated rows (R log2 p / S in [0.90,1.10]) -- miniatures of the official row's k = e   -- 18 saturated configurations
+   2N   p    R | dim  count      Z_1      E_rand   floor   Z/E_rand  minwt
+   12   97  1 |   1       8    1.5625    1.6495   0.660    0.947    3
+   24   97  2 |   2      48    1.1875    1.4352   0.435    0.827    8
+   16  433  1 |   1      16    1.5000    1.5889   0.591    0.944    5
+   16  401  1 |   1      16    1.5000    1.6359   0.638    0.917    5
+   20   41  2 |   2       8    1.1289    1.6086   0.609    0.702    5
+   16  353  1 |   1      32    1.3750    1.7224   0.725    0.798    6
+   32  353  2 |   2     224    1.1562    1.5259   0.526    0.758    9
+   16  337  1 |   1      16    1.1250    1.7567   0.760    0.640    7
+   12   73  1 |   1       8    1.5625    1.8630   0.877    0.839    3
+   24   73  2 |   2      96    1.5156    1.7684   0.769    0.857    7
+    8   17  1 |   1       0    1.0000    1.8822   0.941    0.531    None
+   16   17  2 |   2      16    1.2500    1.8824   0.886    0.664    6
+  [PASS] S3.2 Z-A13 falsifier does NOT fire: at saturation the measured Z_1 never exceeds 2x the random-subspace mean   -- Z/E_rand over 18 saturated rows: min 0.502, median 0.798, max 0.947
+  [PASS] S3.3 Z-A13 clause 2 FIRES: the GRS half-system code is systematically BELOW the random-subspace mean, on EVERY saturated row   -- Z/E_rand < 1 on 18 of 18 saturated rows (max 0.9473)
+  [PASS] S3.6 MECHANISM: the first moment RESTRICTED to weight > 2R (i.e. the transported DLI floor) predicts the measured mass strictly better than the plain random baseline   -- mean |error|: refined 0.0789 vs plain 0.1236 over 258 rows (1.57x better) -- the deficit against random IS the excluded low-weight mass
+  [PASS] S3.7 NO RESIDUAL: once the weight floor is imposed the refined predictor is UNBIASED -- the deficit against random IS the distance floor and nothing else   -- mean signed residual = -0.0095 over 258 rows (133 of 258 below, 51.6%) -- no structural suppression beyond the distance law is detectable
+  [PASS] S3.4 SEPARATION (catch against the brief's equivalence): rows with MANY ternary kernel vectors but weighted mass Z < 3   -- 87 such configurations; e.g. 2N=12 p=37 R=1: count = 20 but Z_1 = 1.9375
+  [PASS] S3.5 the separation is unbounded in the count while Z stays O(1)   -- extreme: 2N=32 p=193 R=2 -> count = 1184, Z_1 = 2.5918
+
+=== S4  (Z1b) the transported 2R+1 law, and the shift scope study ===
+  [PASS] S4.1 SHIFT 0, char > w: no ternary kernel vector has weight < 2R+1 -- the DLI law transports   -- 56 live shift-0 configurations, 0 violations
+  [PASS] S4.2 SHIFT > 0, char > w: the 2R+1 law FAILS -- the 'first ell odd powers' hypothesis is load-bearing   -- 55 shifted counterexamples; smallest: 2N=12 p=13 R=1 a=1 -> min wt 2 < 2R+1 = 3
+  [PASS] S4.3 CONTROL: the characteristic-free SL-1 floor R+1 holds at EVERY shift   -- 1032 configurations, 0 violations
+  [PASS] S4.4 SCOPE: shifted failures also occur at 2-POWER 2N (the admissible shape), so shift-0 is essential, not an artefact of composite 2N   -- 1 of 55 shifted counterexamples have 2N a power of two
+
+=== S5  (Z3b) the l1 extension: integer coefficients, w = sum|c_i| ===
+  [PASS] S5.1 no nonzero integer vector of l1-weight <= 2R lies in the kernel (shift 0, char > w): the l1 extension of the DLI theorem holds   -- 168 configurations swept over {0,+-1,+-2}^N, 0 violations
+  [PASS] S5.2 distinct ternary codewords are pairwise l1-separated by >= 2R+1 (the packing hypothesis)   -- 23 configurations, 81290 codeword pairs, 0 violations
+  [PASS] S5.3 the l1 sphere-packing bound |T n ker| * sum_{j<=R} C(N,j) <= 3^N holds   -- 23 configurations, 0 violations
+
+=== S6  (Z4a) the official row: the knife edge, high precision ===
+   S = 2^38                       = 274877906944
+   R (banked, ceil-t reading)     = 4294967340 -> log2 floor = -46.024873978654 bits
+   R (exact balance tL = n)       = 4294967339 -> log2 floor = 17.9751253764101 bits
+  [PASS] S6.1 under the banked R the floor is VACUOUS, by fewer than log2 p bits   -- floor exponent = -46.024873 bits
+  [PASS] S6.2 Z-A7's registered point estimate (-46) confirmed within 1 bit   -- measured -46.024873
+  [PASS] S6.3 under the exact-balance R the floor FIRES   -- floor exponent = +17.9751 bits  =>  Z_1 >= 2^17.9751, Z = Z_1^C >= 2^71.9005
+  [PASS] S6.4 ONE condition of Lambda is worth log2 p bits of floor -- the entire verdict lives in a single 64-bit window   -- difference = 63.99999 bits
+  [PASS] S6.5 the margin is 1.7e-10 of the object's size   -- |exponent| / S = 1.6744e-10
+  [PASS] S6.6 STRUCTURAL: S = m/k exactly (nested reading, C = k = 4)
+  [PASS] S6.7 STRUCTURAL: R log2 p = m/e up to the rounding of R   -- R log2 p = 274877906990.0248 ; m/e = 274877906944 ; difference 46.02487 bits
+  [PASS] S6.8 hence ratio = R log2 p / S = k/e = 1.0000 -- f2_adm's LEMMA 3 saturation, re-derived from the mass floor alone   -- ratio = 1.000000000167
+
+=== S7  (Z4b) the dichotomy at k < e, vs f2_adm CATCH-1 ===
+   (k,e) | k/e     | total floor    | (O1) mass target Z <= 2^{o(n)}
+   (1,1) | 1.0     | 2^{0     m}  | floor is silent
+   (1,2) | 0.5     | 2^{1/2   m}  | REFUTED by the mass floor
+   (1,3) | 0.33333 | 2^{2/3   m}  | REFUTED by the mass floor
+   (1,4) | 0.25    | 2^{3/4   m}  | REFUTED by the mass floor
+   (1,5) | 0.2     | 2^{4/5   m}  | REFUTED by the mass floor
+   (1,6) | 0.16666 | 2^{5/6   m}  | REFUTED by the mass floor
+   (2,2) | 1.0     | 2^{0     m}  | floor is silent
+   (2,4) | 0.5     | 2^{1/2   m}  | REFUTED by the mass floor
+   (2,6) | 0.33333 | 2^{2/3   m}  | REFUTED by the mass floor
+   (4,4) | 1.0     | 2^{0     m}  | floor is silent
+  [PASS] S7.1 the dichotomy is exhaustive: floor fires iff k < e
+  [PASS] S7.2 f2_adm CATCH-1's exhibited row is real: p = 3*2^41+1 prime, v_2(p-1) = 41   -- p = 6597069766657
+  [PASS] S7.3 CROSS-CHECK: the mass floor reproduces f2_adm CATCH-1's 2^{5n/12} EXACTLY, by a fully independent route   -- ours (n/2)(1-k/e) = 5/12 n ; f2_adm/REPORT.md:44 'excess 2^{5n/12}'
+  [PASS] S7.4 and the looser new-part reading reproduces f2_adm's 2^{n/6}   -- ours (n/4)(1-max(2,k)/e) = 1/6 n ; banked n/6
+
+=== S8  (Z2b) the discharge ladder and the structural no-go ===
+   route                                       needs R/S >   shortfall
+   (M3) banked      (Singleton + R+1)           0.613147      39.24x
+   + DLI transport  (Singleton + 2R+1)          0.442114      28.30x
+   + l1 packing     (ball volume + 2R+1)        0.333333      21.33x
+   FORCED at the admissible object: R/S = 1/log2 p = 0.01562500
+  [PASS] S8.1 the banked (M3) threshold reproduces f2_sl1_powersums' 0.61315   -- computed 0.6131471
+  [PASS] S8.2 the DLI transport strictly improves (M3)   -- 0.61314 -> 0.44211 (factor 1.3869)
+  [PASS] S8.3 l1 sphere-packing improves it further   -- 0.44211 -> 0.33333 (cumulative factor 1.8394)
+  [PASS] S8.4 ALL THREE still fail at the admissible object   -- best needs 0.3333, the row forces 0.015625 -- short by 21.33x
+  [PASS] S8.5 STRUCTURAL NO-GO: saturation pins R/S = 1/log2 p, so no distance+counting bound of this family can discharge SL-1b' once p > 8.0000   -- critical p = 2^(1/0.3333) = 8.00000 ; every admissible row has p >= 2^39
+  [PASS] S8.6 Z-A10's registered 0.44210 (Singleton + 2R+1) confirmed   -- computed 0.4421141
+  [PASS] S8.7 Z-A10's registered packing figure 0.2565 is SELF-FALSIFIED (I registered a 2^j-weighted ball; only the unweighted ball is available for a full-weight codeword)   -- registered 0.2565, correct value 0.333333
+  [PASS] S8.8 Z-A11's registered no-go threshold (p >= 17) is CORRECTED to p >= 8.000   -- the no-go is stronger than registered: it bites from p = 8.00000 upward
+  [PASS] S8.9 ROUTE (a) IS DEAD: the banked norm sandwich gives only w >= p^{2R/n} = 2.0000 at the admissible object   -- dominated by the transported 2R+1 = 8589934681 by a factor 4.295e+09
+
+=== S9  consistency with f2_sl1b's 61 witnesses (F_{p^2} replay) ===
+  [PASS] S9.1 an element of exact order 12 exists in F_49   -- omega = 0 + 1 x, x^2 = 3
+  [PASS] S9.2 f2_sl1b's smallest witness replays: dim L = 4   -- dim L = 4
+  [PASS] S9.3 ... carrying a ternary dual vector of minimum weight 3   -- min ternary weight = 3 over 8 nonzero ternary kernel vectors
+  [PASS] S9.4 the witness satisfies (R-A): p^{dim L} >= 3^m   -- 7^4 = 2401 >= 3^6 = 729
+  [PASS] S9.5 CONSISTENCY (Z-A14): the mass floor does NOT deny the witness   -- Z = 1.56250 >= 2^6/7^4 = 0.026656
+  [PASS] S9.6 the witness is a SHIFT-2 configuration with char > w -- consistent with S4.2 (2R+1 fails off shift 0)   -- Lambda = {5,7} (a = 2): min wt 3 < 2R+1 = 5, char 7 > 3
+  [PASS] S9.7 the witness's own weighted mass is O(1) despite (R-B) failing   -- Z = 1.5625 -- (R-B) is refuted there, the MASS is not
+
+=== S10 (Z3c) the saturation study: miniatures of the official row ===
+   2N   p   R | ratio  |  Z_1 measured   E_rand   Z/E_rand   count  minwt
+   16  257  1 | 1.0007 |      1.00000   1.9922    0.5020       0   None
+   32  257  2 | 1.0007 |      1.73730   1.9922    0.8720     704   7
+   16  241  1 | 0.9891 |      1.50000   2.0581    0.7288      16   5
+   12   61  1 | 0.9885 |      1.56250   2.0328    0.7686       8   3
+    8   17  1 | 1.0219 |      1.00000   1.8822    0.5313       0   None
+   16   17  2 | 1.0219 |      1.25000   1.8824    0.6641      16   6
+   12   73  1 | 1.0316 |      1.56250   1.8630    0.8387       8   3
+   24   73  2 | 1.0316 |      1.51562   1.7684    0.8570      96   7
+  [PASS] S10.1 at the tightest saturation the measured mass is BELOW the random-subspace mean without exception, and stays O(1)   -- Z/E_rand in [0.5020, 0.8720] over the 8 tightest rows -- never above 1
+  [PASS] S10.2 ... and it is always >= the unconditional floor (S2.2 again, at the parameters that matter)
+  [PASS] S10.3 at saturation the weighted mass is O(1) while the ternary COUNT is large -- the behaviour predicted for the official row   -- max Z_1 = 1.737, max count = 704
+
+=== S11 is the deployed code 'no worse than a random subspace'? ===
+   (the exact question f2_sl1_powersums/PROOFS.md:302-307 poses; the
+    mean is not the median, so we compare against the ENSEMBLE.)
+   2N   p  R | dim |  Z_GRS   ensemble median   percentile   2N a 2-power?
+   16  257  1 |   1 |  1.0000       1.8750        0.0%        YES
+   16  241  1 |   1 |  1.5000       1.9297        2.0%        YES
+   12   61  1 |   1 |  1.5625       1.8750       13.2%        no
+   16   17  2 |   2 |  1.2500       1.8125        0.0%        YES
+   12   73  1 |   1 |  1.5625       1.6875       29.8%        no
+   16  337  1 |   1 |  1.1250       1.6641        0.0%        YES
+   16  193  1 |   1 |  1.7500       2.2188        2.8%        YES
+   16  353  1 |   1 |  1.3750       1.6562       11.2%        YES
+   16  401  1 |   1 |  1.5000       1.5391       42.5%        YES
+   16  433  1 |   1 |  1.5000       1.5078       47.0%        YES
+   12   97  1 |   1 |  1.5625       1.5000       53.2%        no
+  [PASS] S11.1 the ensemble study runs at the saturation points   -- 11 configurations, 400 random codes each
+  [PASS] S11.2 'no worse than a random subspace' -- the lane's exact question -- is CONFIRMED on every VALID (2-power) miniature: at or below the ensemble median, all 8 of them   -- 2-power percentiles [0.0%, 47.0%]; the ONLY row above the median in the whole study is a composite-2N row (53.2%), which S11.6 excludes as contaminated
+  [PASS] S11.3 HONEST NULL: 'BETTER than random' is NOT established -- the 2-power/composite split does not separate the percentiles   -- 2-power [0.0%, 47.0%] vs composite [13.2%, 53.2%] -- overlapping; the extremal appearance at 4 rows was small-sample selection, self-caught by widening the prime list
+  [PASS] S11.4 MECHANISM: at composite 2N the SAME ternary vectors lie in the kernel for EVERY p -- p-independent cyclotomic relations   -- 2N=12: 8 common vectors, min wt 3; 2N=20: 8 common vectors, min wt 5; 2N=24: 80 common vectors, min wt 3
+  [PASS] S11.5 ... and at 2-POWER 2N there are NONE: the half-system is a Z-basis, so every ternary relation is an accident of p (banked: f2_sl1_powersums/PROOFS.md:266-271)   -- 2N=8: 0 common vectors; 2N=16: 0 common vectors
+  [PASS] S11.6 CONSEQUENCE: my own Z-A12 grid was contaminated -- only 2-power 2N rows are valid miniatures of the official object   -- registered grid included 2N in {12,20,24}; those rows carry structural mass the official 2N = 2^39 object cannot have
+
+=== S12 what the transport is WORTH at the official row ===
+   the DLI floor deletes the ternary mass carried by weights <= 2R;
+   at the official row that is the lower tail of Bin(S, 1/2) at S/32.
+  [PASS] S12.1 the transported weight floor sits FAR below the binomial peak S/2 where the mass lives   -- (2R+1)/S = 0.031250, peak at 0.5 -- the floor is at 1/32 of the length
+  [PASS] S12.2 hence the transport changes the PREDICTED mass by a factor 1 - 2^{-Theta(S)}: quantitatively nil at the official row   -- deleted fraction <= 2^{-1.743e+11} -- the crosswalk doubles the DISTANCE but moves the MASS by nothing
+  [PASS] S12.3 by contrast the same correction is LARGE at the calibration scale (S3.6), which is why it is measurable there and not here   -- N=8, R=2: floor 5 of 8 coordinates; official: 2^33 of 2^38
+
+==============================================================================
+RESULT: 81 checks, 0 FAIL   digest Z1_TERNARY_MASS_ALL_PASS

@@ -27,6 +27,7 @@ class Document:
     packet_dir: str
     packets: tuple[tuple[str, int, int, tuple[str, ...]], ...]
     index: str
+    addenda: tuple[tuple[str, tuple[str, ...]], ...] = ()
 
 
 DOCUMENTS = (
@@ -202,12 +203,24 @@ anchor and unsafe floor do not meet, so this node remains `TARGET`.
   `statement_sections/10-wave12-pin-of-record.md`: forward-facing pin bodies;
   earlier versions remain solely for provenance.
 - `statement_sections/11-h1-s3-addendum.md`: later list-compiler addendum.
+- `statement_addenda/12-round18-dsa-scope.md`: Round-18 DSA scope update.
 
 Each mathematical supplier is already an independent DAG node.  This parent
 does not absorb those theorems and does not become conditional on them.
 `statement_sections/document.json` proves that the extracted packets preserve
-the pre-refactor statement byte-for-byte.
+the pre-refactor statement byte-for-byte.  Later addenda are indexed and
+verified separately, so they do not rewrite that historical archive.
 """,
+        addenda=(
+            (
+                "critical/nodes/rate_half_list_adjacent_crossing/statement_addenda/12-round18-dsa-scope.md",
+                (
+                    "rate_half_list_adjacent_crossing",
+                    "crossing_dsa_refutation",
+                    "es_ternary_suppression_instruments",
+                ),
+            ),
+        ),
     ),
     Document(
         source="critical/nodes/rate_half_band_closure/attack.md",
@@ -304,7 +317,7 @@ def digest(data: bytes) -> str:
 
 
 def section_manifest(document: Document) -> dict[str, object]:
-    return {
+    manifest = {
         "schema": "sectioned-critical-node-document-v1",
         "source_index": document.source,
         "pre_refactor_sha256": document.sha256,
@@ -319,6 +332,12 @@ def section_manifest(document: Document) -> dict[str, object]:
             for name, start, end, nodes in document.packets
         ],
     }
+    if document.addenda:
+        manifest["post_refactor_addenda"] = [
+            {"path": path, "dag_nodes": list(nodes)}
+            for path, nodes in document.addenda
+        ]
+    return manifest
 
 
 def write_document(document: Document) -> None:
@@ -384,6 +403,11 @@ def check_document(document: Document) -> list[dict[str, object]]:
         all_small &= path.stat().st_size < 50_000
         all_nodes_exist &= set(nodes) <= dag_nodes
         add(f"index_links_{name}", f"{document.packet_dir.split('/')[-1]}/{name}" in index)
+    for path_string, nodes in document.addenda:
+        path = ROOT / path_string
+        all_small &= path.stat().st_size < 50_000
+        all_nodes_exist &= set(nodes) <= dag_nodes
+        add(f"index_links_{Path(path_string).name}", path_string.split(f"{Path(document.source).parent}/", 1)[-1] in index)
     original = b"".join(chunks)
     add("pre_refactor_sha256", digest(original) == document.sha256)
     add("all_packets_under_50kb", all_small)
@@ -409,6 +433,7 @@ def main() -> int:
         "status": "PASS" if all(check["ok"] for check in checks) else "FAIL",
         "documents": len(DOCUMENTS),
         "packets": sum(len(document.packets) for document in DOCUMENTS),
+        "addenda": sum(len(document.addenda) for document in DOCUMENTS),
         "checks": checks,
     }
     print(json.dumps(result, indent=2, sort_keys=True))

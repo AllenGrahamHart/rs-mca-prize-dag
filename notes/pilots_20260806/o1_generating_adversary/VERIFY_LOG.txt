@@ -1,0 +1,287 @@
+o1_generating_adversary -- ADVERSARIAL verifier, round 18, 2026-08-06
+repo root: /home/u2470931/smooth-read-solomin/prize
+
+==============================================================================
+S0 -- verbatim quote checks (file:line)
+==============================================================================
+[PASS] S0 critical/nodes/rules_freeze/statement.md:9   'smooth domain = coset of a power-of-2-order subgroup'
+[PASS] S0 notes/pilots_20260806/f2_tq_pin/PROOFS.md:114   'v_2(e) <= 2,      e <= 6,      log2 p >= 39,'
+[PASS] S0 notes/pilots_20260806/f2_tq_pin/PROOFS.md:131   'p = 18446735827372343297   (prime, v_2(p-1) = 39 exa'
+[PASS] S0 notes/pilots_20260806/f2_tq_pin/PROOFS.md:174   't · L  >=  n .                                (C)'
+[PASS] S0 notes/pilots_20260806/f2_tq_pin/PROOFS.md:182   'min { t : t * L  >=  log2 C(n, n-k-t) + 128 }.      '
+[PASS] S0 notes/pilots_20260806/f2_tq_pin/PROOFS.md:202   '2^41/256  <  t  <=  2^41/41 ,        i.e.   8.590e9 '
+[PASS] S0 notes/pilots_20260806/f2_tq_pin/PROOFS.md:138   '`t* = 8,589,556,515` (S7.8), and it lies INSIDE the '
+[PASS] S0 notes/pilots_20260804/f2_opening/PROOFS.md:56   'Z(L) := sum_{eps in L^perp cap {-1,0,1}^m} 2^{-wt(ep'
+[PASS] S0 notes/pilots_20260804/f2_opening/PROOFS.md:94   'E_{c in K1}[T_W(c)]  >=  2^{m}  =  2^{|W|/2}   for E'
+[PASS] S0 notes/pilots_20260804/f2_opening/PROOFS.md:219   'E_{c in K1}[T_W] >= T_W(0)/|L| = 4^m / p^{dim L} = 2'
+[PASS] S0 notes/pilots_20260804/f2_opening/PROOFS.md:225   'dim_{F_p} L  >=  m / log2 p  -  o(n)/log2 p.'
+[PASS] S0 notes/pilots_20260804/f2_sl1_powersums/PROOFS.md:36   '`w >= 2R+1` is **twice** the bound proved below.'
+[PASS] S0 notes/pilots_20260804/f2_sl1_powersums/PROOFS.md:99   'and `eps != 0` satisfies **`wt(eps) >= R + 1`**.'
+[PASS] S0 notes/pilots_20260804/f2_sl1_powersums/PROOFS.md:171   '**`char > w` fails by two orders of magnitude.**'
+[PASS] S0 notes/pilots_20260804/f2_sl1_powersums/PROOFS.md:231   'Z(L)  <=  2^{m-R},        i.e.   E_c[T_W]  <=  2^{2m'
+[PASS] S0 notes/pilots_20260804/f2_sl1_powersums/PROOFS.md:240   'Z(L)  <=  1 + 3^{m-R} · 2^{-(R+1)}.'
+[PASS] S0 notes/pilots_20260804/f2_sl1_powersums/PROOFS.md:247   'R > (log2 3 / (1 + log2 3)) · m = 0.61315 · m,'
+[PASS] S0 notes/pilots_20260806/f2_adm/PROOFS.md:184   '>   (iii) dim_{F_p} L  =  C · min(S, R)      EXACTLY'
+[PASS] S0 notes/pilots_20260806/f2_adm/PROOFS.md:185   '>   (iv)  Z(L)  =  prod_c Z_c  =  Z_1^C .'
+[PASS] S0 notes/pilots_20260806/f2_adm/PROOFS.md:234   'ternary mass of an explicit `[2^{e_p-1}, 2^{e_p-1} -'
+[PASS] S0 notes/pilots_20260806/f2_adm/PROOFS.md:378   'ratio(top window)  =  dim L · log2 p / m  =  max(2, '
+[PASS] S0 notes/pilots_20260806/f2_adm/PROOFS.md:643   '- **CATCH-6 (scope, rules-level).** The rules-level '
+[PASS] S0 notes/pilots_20260806/f2_adm/PROOFS.md:626   '- **CATCH-4 (an empty admissibility class).** The cl'
+[PASS] S0 notes/pilots_20260806/t_naming/REPORT.md:29   'The `0.0044%` tightness (`f2_tq_pin` CATCH-4) is exa'
+[PASS] S0 background/nodes/dli_wcl_newton_short_window_exclusion/statement.md:8   'Let `F` be a field of characteristic zero or charact'
+[PASS] S0 background/nodes/dli_wcl_newton_short_window_exclusion/statement.md:22   'and `w<=2ell`, then no such polynomial exists.'
+[PASS] S0 notes/pilots_20260802/f2_fixed_sector/REPORT.md:31   'every sector is antipodally closed; per sector G / K'
+[PASS] S0 notes/pilots_20260802/f2_deployed_windows/REPORT.md:55   'codim_j = min(m_j, t/2) F_p-conditions'
+[PASS] S0 notes/pilots_20260804/f2_opening/PROOFS.md:273   'frequency in the **generic class G** (both parity pa'
+
+==============================================================================
+S1 -- (V4) the GENERATING admissible census (run first: vacuity)
+==============================================================================
+[PASS] S1.1 ord_{2^a}(p) is always a 2-power (p<4000, a=12)   []
+[PASS] S1.2 ord_{2^A}(p) = 2^{(A-e_p)_+} for p=1 mod 4   []
+[PASS] S1.3 generating e-values are exactly {1,2,4}   [1, 2, 4]
+[PASS] S1.4 e in {3,5,6} is NEVER generating   k is a 2-power, k=e forces e a 2-power
+[PASS] S1.5 generating shapes: (>=41,1,1), (40,2,2), (39,4,4)   [(1, 'any>=41'), (2, 40), (4, 39)]
+       full admissible class list (93 (e_p,e,k) cells), generating cells: 21
+
+==============================================================================
+S2 -- (V4) non-emptiness: my own primality proofs, nothing inherited
+==============================================================================
+[PASS] S2 (e_p>=41, e=1, k=1): p=6597069766657 is prime (Miller-Rabin, 12 det. bases)
+[PASS] S2 (e_p>=41, e=1, k=1): DISJOINT route -- Lucas (p-1) certificate PROVES primality   witness a=5, p-1 factors [2, 3]
+[PASS] S2 (e_p>=41, e=1, k=1): v_2(p-1) = e_p exactly   e_p=41
+[PASS] S2 (e_p>=41, e=1, k=1): k = ord_n(p) = e (GENERATING)   k=1, e=1
+[PASS] S2 (e_p>=41, e=1, k=1): n = 2^41 divides q-1 (LTE v_2 = 41)   v2(q-1)=41
+[PASS] S2 (e_p>=41, e=1, k=1): L = e*log2 p < 256   L=42.584962501
+[PASS] S2 (e_p>=41, e=1, k=1): log2 p >= 39   log2 p=42.584962501
+[PASS] S2 (e_p=40,  e=2, k=2): p=29686813949953 is prime (Miller-Rabin, 12 det. bases)
+[PASS] S2 (e_p=40,  e=2, k=2): DISJOINT route -- Lucas (p-1) certificate PROVES primality   witness a=5, p-1 factors [2, 3]
+[PASS] S2 (e_p=40,  e=2, k=2): v_2(p-1) = e_p exactly   e_p=40
+[PASS] S2 (e_p=40,  e=2, k=2): k = ord_n(p) = e (GENERATING)   k=2, e=2
+[PASS] S2 (e_p=40,  e=2, k=2): n = 2^41 divides q-1 (LTE v_2 = 41)   v2(q-1)=41
+[PASS] S2 (e_p=40,  e=2, k=2): L = e*log2 p < 256   L=89.509775004
+[PASS] S2 (e_p=40,  e=2, k=2): log2 p >= 39   log2 p=44.754887502
+[PASS] S2 (e_p=39,  e=4, k=4): p=2748779069441 is prime (Miller-Rabin, 12 det. bases)
+[PASS] S2 (e_p=39,  e=4, k=4): DISJOINT route -- Lucas (p-1) certificate PROVES primality   witness a=3, p-1 factors [2, 5]
+[PASS] S2 (e_p=39,  e=4, k=4): v_2(p-1) = e_p exactly   e_p=39
+[PASS] S2 (e_p=39,  e=4, k=4): k = ord_n(p) = e (GENERATING)   k=4, e=4
+[PASS] S2 (e_p=39,  e=4, k=4): n = 2^41 divides q-1 (LTE v_2 = 41)   v2(q-1)=41
+[PASS] S2 (e_p=39,  e=4, k=4): L = e*log2 p < 256   L=165.287712380
+[PASS] S2 (e_p=39,  e=4, k=4): log2 p >= 39   log2 p=41.321928095
+[PASS] S2 (e_p=39,  e=4, k=4) PRIZE-MAX: p=18446735827372343297 is prime (Miller-Rabin, 12 det. bases)
+[PASS] S2 (e_p=39,  e=4, k=4) PRIZE-MAX: DISJOINT route -- Lucas (p-1) certificate PROVES primality   witness a=3, p-1 factors [2, 13, 467, 5527]
+[PASS] S2 (e_p=39,  e=4, k=4) PRIZE-MAX: v_2(p-1) = e_p exactly   e_p=39
+[PASS] S2 (e_p=39,  e=4, k=4) PRIZE-MAX: k = ord_n(p) = e (GENERATING)   k=4, e=4
+[PASS] S2 (e_p=39,  e=4, k=4) PRIZE-MAX: n = 2^41 divides q-1 (LTE v_2 = 41)   v2(q-1)=41
+[PASS] S2 (e_p=39,  e=4, k=4) PRIZE-MAX: L = e*log2 p < 256   L=255.999997420
+[PASS] S2 (e_p=39,  e=4, k=4) PRIZE-MAX: log2 p >= 39   log2 p=63.999999355
+[PASS] S2.9 the generating vacuity attack FAILS: all 3 classes non-empty
+[PASS] S2.10 f2_adm CATCH-4 replay: (40,6) empty (c in {1,3,5} none prime)   [(1, False), (3, False), (5, False)]
+[PASS] S2.11 ... and (40,6) is non-generating anyway (k=2 != e=6)   so it never sat in (O1)'s surviving scope
+
+==============================================================================
+S3 -- (V1) LEMMA 3's ratio law, both Lambda-parity readings
+==============================================================================
+   reading A (t = largest Newton index, |Lambda_K1| = ceil(t/2)):  ratio = k/e
+   reading B (t = |Lambda_K1|):                                    ratio = 2k/e
+   (k,e)=(1,1)  A=1.0000 SATURATED  B=2.0000 margin      <== GENERATING
+   (k,e)=(1,2)  A=0.5000 REFUTED    B=1.0000 SATURATED 
+   (k,e)=(1,3)  A=0.3333 REFUTED    B=0.6667 REFUTED   
+   (k,e)=(1,4)  A=0.2500 REFUTED    B=0.5000 REFUTED   
+   (k,e)=(1,5)  A=0.2000 REFUTED    B=0.4000 REFUTED   
+   (k,e)=(1,6)  A=0.1667 REFUTED    B=0.3333 REFUTED   
+   (k,e)=(2,2)  A=1.0000 SATURATED  B=2.0000 margin      <== GENERATING
+   (k,e)=(2,4)  A=0.5000 REFUTED    B=1.0000 SATURATED 
+   (k,e)=(2,6)  A=0.3333 REFUTED    B=0.6667 REFUTED   
+   (k,e)=(4,4)  A=1.0000 SATURATED  B=2.0000 margin      <== GENERATING
+[PASS] S3.1 generating rows (k=e): reading A ratio == 1 exactly
+[PASS] S3.2 generating rows (k=e): reading B ratio == 2 exactly
+[PASS] S3.3 NO admissible row is refuted at k=e under either reading
+[PASS] S3.4 CATCH against f2_adm D3: (1,2) and (2,4) flip REFUTED->SATURATED under reading B   [(1, 2), (2, 4)]
+[PASS] S3.5 f2_adm CATCH-1's (k,e)=(1,6) witness survives BOTH readings   reading-B refuted set = [(1, 3), (1, 4), (1, 5), (1, 6), (2, 6)]
+[PASS] S3.10 A5: class G is defined as 'both parity parts nonzero' (f2_opening/PROOFS.md:273) -- G non-empty REQUIRES an ambient condition set with BOTH parities, so Lambda_full != Lambda_K1
+[PASS] S3.11 A5: the K1 sector's own condition count is stated as t/2 (f2_deployed_windows/REPORT.md:55, 'codim_j = min(m_j, t/2)') -- an INDEPENDENT source for reading A
+[PASS] S3.12 A5: the trichotomy is a PROVED theorem (f2_fixed_sector/REPORT.md:31), so reading B (Lambda_full odd-only) would make K2 and G empty and Theorem A vacuous
+[PASS] S3.6 (e_p>=41, e=1, k=1): ratio_A = 1.000000 (|err|<1e-12)   1.000000000000000
+[PASS] S3.7 (e_p>=41, e=1, k=1): ratio_B = 2.000000 (|err|<1e-12)   2.000000000000000
+[PASS] S3.8 (e_p>=41, e=1, k=1): S = 2^(e_p-1) = m/C with C=k   S=2^40
+[PASS] S3.9 (e_p>=41, e=1, k=1): min(S,R) = R (i.e. k < L, so dim L = k|Lambda|)   S=1099511627776 > R=25819246119.0
+[PASS] S3.6 (e_p=40,  e=2, k=2): ratio_A = 1.000000 (|err|<1e-12)   1.000000000000000
+[PASS] S3.7 (e_p=40,  e=2, k=2): ratio_B = 2.000000 (|err|<1e-12)   2.000000000000000
+[PASS] S3.8 (e_p=40,  e=2, k=2): S = 2^(e_p-1) = m/C with C=k   S=2^39
+[PASS] S3.9 (e_p=40,  e=2, k=2): min(S,R) = R (i.e. k < L, so dim L = k|Lambda|)   S=549755813888 > R=12283704519.7
+[PASS] S3.6 (e_p=39,  e=4, k=4): ratio_A = 1.000000 (|err|<1e-12)   1.000000000000000
+[PASS] S3.7 (e_p=39,  e=4, k=4): ratio_B = 2.000000 (|err|<1e-12)   2.000000000000000
+[PASS] S3.8 (e_p=39,  e=4, k=4): S = 2^(e_p-1) = m/C with C=k   S=2^38
+[PASS] S3.9 (e_p=39,  e=4, k=4): min(S,R) = R (i.e. k < L, so dim L = k|Lambda|)   S=274877906944 > R=6652107479.4
+[PASS] S3.6 (e_p=39,  e=4, k=4) PRIZE-MAX: ratio_A = 1.000000 (|err|<1e-12)   1.000000000000000
+[PASS] S3.7 (e_p=39,  e=4, k=4) PRIZE-MAX: ratio_B = 2.000000 (|err|<1e-12)   2.000000000000000
+[PASS] S3.8 (e_p=39,  e=4, k=4) PRIZE-MAX: S = 2^(e_p-1) = m/C with C=k   S=2^38
+[PASS] S3.9 (e_p=39,  e=4, k=4) PRIZE-MAX: min(S,R) = R (i.e. k < L, so dim L = k|Lambda|)   S=274877906944 > R=4294967339.3
+
+==============================================================================
+S4 -- (V1) Delta = dim L * log2 p - m at the (C)-threshold
+==============================================================================
+   (C): t*L >= n.  t_min = ceil(n/L).  R = ceil(t/2).  dim L = k*R.
+   (e_p>=41, e=1, k=1)                t = ceil(n/L)  [(C) holds]                   t=51638492239  Delta=+41.0959 bits
+[PASS] S4 (e_p>=41, e=1, k=1) [t = ceil(n/L) ]: |Delta| <= L (rounding residue only)   |Delta|=41.0959  L=42.5850
+   (e_p>=41, e=1, k=1)                t = floor(n/L) [(C) fails, window NON-empty] t=51638492238  Delta=-1.4891 bits
+[PASS] S4 (e_p>=41, e=1, k=1) [t = floor(n/L)]: |Delta| <= L (rounding residue only)   |Delta|=1.4891  L=42.5850
+   (e_p=40,  e=2, k=2)                t = ceil(n/L)  [(C) holds]                   t=24567409040  Delta=+28.8350 bits
+[PASS] S4 (e_p=40,  e=2, k=2) [t = ceil(n/L) ]: |Delta| <= L (rounding residue only)   |Delta|=28.8350  L=89.5098
+   (e_p=40,  e=2, k=2)                t = floor(n/L) [(C) fails, window NON-empty] t=24567409039  Delta=+28.8350 bits
+[PASS] S4 (e_p=40,  e=2, k=2) [t = floor(n/L)]: |Delta| <= L (rounding residue only)   |Delta|=28.8350  L=89.5098
+   (e_p=39,  e=4, k=4)                t = ceil(n/L)  [(C) holds]                   t=13304214959  Delta=+96.1035 bits
+[PASS] S4 (e_p=39,  e=4, k=4) [t = ceil(n/L) ]: |Delta| <= L (rounding residue only)   |Delta|=96.1035  L=165.2877
+   (e_p=39,  e=4, k=4)                t = floor(n/L) [(C) fails, window NON-empty] t=13304214958  Delta=-69.1843 bits
+[PASS] S4 (e_p=39,  e=4, k=4) [t = floor(n/L)]: |Delta| <= L (rounding residue only)   |Delta|=69.1843  L=165.2877
+   (e_p=39,  e=4, k=4) PRIZE-MAX      t = ceil(n/L)  [(C) holds]                   t=8589934679  Delta=+184.0995 bits
+[PASS] S4 (e_p=39,  e=4, k=4) PRIZE-MAX [t = ceil(n/L) ]: |Delta| <= L (rounding residue only)   |Delta|=184.0995  L=256.0000
+   (e_p=39,  e=4, k=4) PRIZE-MAX      t = floor(n/L) [(C) fails, window NON-empty] t=8589934678  Delta=-71.9005 bits
+[PASS] S4 (e_p=39,  e=4, k=4) PRIZE-MAX [t = floor(n/L)]: |Delta| <= L (rounding residue only)   |Delta|=71.9005  L=256.0000
+[PASS] S4.9 worst rounding shortfall over the non-vacuous regime is O(L), hence o(n)   worst Delta = -71.9005 bits, n = 2199023255552
+[PASS] S4.10 at the banked witness LEMMA 3 HOLDS with a positive integer residue   Delta = +184.0995 bits (R = 4294967340, f2_adm banks R = 4294967340)
+[PASS] S4.11 my R reproduces f2_adm's banked R = 4,294,967,340   R=4294967340
+
+==============================================================================
+S5 -- (V1) THE ENSEMBLE DICHOTOMY: (C) entropy n  vs  (T*) slice entropy
+==============================================================================
+[PASS] S5.1 Stirling log2 C(n,j) matches exact math.comb to <1e-15 bits   []
+[PASS] S5.2 (T*) at L=255.9, rate 1/2 reproduces banked t* = 8,592,912,739   got 8592912739
+[PASS] S5.3 (T*) at rate 1/4 reproduces banked t* = 7014660390   got 7014660390
+[PASS] S5.3 (T*) at rate 1/8 reproduces banked t* = 4722556392   got 4722556392
+[PASS] S5.3 (T*) at rate 1/16 reproduces banked t* = 2943177800   got 2943177800
+
+   Delta under the two calibrations of t (reading A, nested top window):
+   ----------------------------------------------------------------------------------------------------
+   class                                         L         t_(C)        t_(T*)        n - t*L      Delta_(T*)
+   ----------------------------------------------------------------------------------------------------
+   (e_p>=41, e=1, k=1)                   42.584963   51638492239   51556561743     3.4890e+09     -1.7445e+09
+[PASS] S5.4 (e_p>=41, e=1, k=1): (T*) calibration makes Delta STRICTLY NEGATIVE   Delta=-1.744504e+9 bits
+[PASS] S5.5 (e_p>=41, e=1, k=1): n - t*L equals the exact de Moivre-Laplace series (rel < 1e-5)   gap=3.489007e+09 series=3.489006e+09 rel=3.14e-07
+[PASS] S5.5b (e_p>=41, e=1, k=1): leading term 2n/(L^2 ln 2) correct to rel < 3e-3   gap=3.489007e+09 lead=3.498822e+09 rel=2.81e-03
+[PASS] S5.6 (e_p>=41, e=1, k=1): Delta_(T*) = -(n - t*L)/2 up to an O(L) parity residue   Delta=-1.744504e+09, -(n-t*L)/2=-1.744504e+09, residue=+21.2925 (L=42.58)
+   (e_p=40,  e=2, k=2)                   89.509775   24567409040   24558567124     7.9144e+08     -3.9572e+08
+[PASS] S5.4 (e_p=40,  e=2, k=2): (T*) calibration makes Delta STRICTLY NEGATIVE   Delta=-3.957189e+8 bits
+[PASS] S5.5 (e_p=40,  e=2, k=2): n - t*L equals the exact de Moivre-Laplace series (rel < 1e-5)   gap=7.914379e+08 series=7.914378e+08 rel=1.63e-08
+[PASS] S5.5b (e_p=40,  e=2, k=2): leading term 2n/(L^2 ln 2) correct to rel < 3e-3   gap=7.914379e+08 lead=7.919421e+08 rel=6.37e-04
+[PASS] S5.6 (e_p=40,  e=2, k=2): Delta_(T*) = -(n - t*L)/2 up to an O(L) parity residue   Delta=-3.957189e+08, -(n-t*L)/2=-3.957189e+08, residue=+0.0000 (L=89.51)
+   (e_p=39,  e=4, k=4)                  165.287712   13304214959   13302810105     2.3221e+08     -1.1610e+08
+[PASS] S5.4 (e_p=39,  e=4, k=4): (T*) calibration makes Delta STRICTLY NEGATIVE   Delta=-1.161025e+8 bits
+[PASS] S5.5 (e_p=39,  e=4, k=4): n - t*L equals the exact de Moivre-Laplace series (rel < 1e-5)   gap=2.322051e+08 series=2.322052e+08 rel=4.14e-07
+[PASS] S5.5b (e_p=39,  e=4, k=4): leading term 2n/(L^2 ln 2) correct to rel < 3e-3   gap=2.322051e+08 lead=2.322487e+08 rel=1.88e-04
+[PASS] S5.6 (e_p=39,  e=4, k=4): Delta_(T*) = -(n - t*L)/2 up to an O(L) parity residue   Delta=-1.161025e+08, -(n-t*L)/2=-1.161025e+08, residue=+82.6439 (L=165.29)
+   (e_p=39,  e=4, k=4) PRIZE-MAX        255.999997    8589934679    8589556515     9.6810e+07     -4.8405e+07
+[PASS] S5.4 (e_p=39,  e=4, k=4) PRIZE-MAX: (T*) calibration makes Delta STRICTLY NEGATIVE   Delta=-4.840481e+7 bits
+[PASS] S5.5 (e_p=39,  e=4, k=4) PRIZE-MAX: n - t*L equals the exact de Moivre-Laplace series (rel < 1e-5)   gap=9.680987e+07 series=9.680998e+07 rel=1.13e-06
+[PASS] S5.5b (e_p=39,  e=4, k=4) PRIZE-MAX: leading term 2n/(L^2 ln 2) correct to rel < 3e-3   gap=9.680987e+07 lead=9.681763e+07 rel=8.01e-05
+[PASS] S5.6 (e_p=39,  e=4, k=4) PRIZE-MAX: Delta_(T*) = -(n - t*L)/2 up to an O(L) parity residue   Delta=-4.840481e+07, -(n-t*L)/2=-4.840494e+07, residue=+128.0000 (L=256.00)
+[PASS] S5.7 the relative gap IS f2_tq_pin's banked 0.0044%   0.004402%  == 2/(L^2 ln2) = 0.004403%
+[PASS] S5.8 the shortfall is Theta(n): (n - t*L)/n is n-INVARIANT (n=2^39..2^42)   spread=1.00000397, value=4.40239159e-05
+
+   reading B control (|Lambda_K1| = t):
+[PASS] S5.9 (e_p>=41, e=1, k=1): reading B SURVIVES (Delta > 0)   Delta_B = +1.096023e+12 bits (~ +n/2)
+[PASS] S5.9 (e_p=40,  e=2, k=2): reading B SURVIVES (Delta > 0)   Delta_B = +1.098720e+12 bits (~ +n/2)
+[PASS] S5.9 (e_p=39,  e=4, k=4): reading B SURVIVES (Delta > 0)   Delta_B = +1.099279e+12 bits (~ +n/2)
+[PASS] S5.9 (e_p=39,  e=4, k=4) PRIZE-MAX: reading B SURVIVES (Delta > 0)   Delta_B = +1.099415e+12 bits (~ +n/2)
+
+==============================================================================
+S6 -- (V2) THE COSET ATTACK: is (O1) coset-invariant at generating rows?
+==============================================================================
+[PASS] S6 p=5,q=25,n=8   k=e=2  GENERATING: k = ord_n(p) matches the label   k=2, e=2
+[PASS] S6 p=5,q=25,n=8   k=e=2  GENERATING: found coset rep g outside mu_n and outside F_p   (0, 1)
+[PASS] S6 p=5,q=25,n=8   k=e=2  GENERATING: dim L identical on subgroup and coset   dim L = 2 vs 2
+[PASS] S6 p=5,q=25,n=8   k=e=2  GENERATING: the ternary dual SETS are literally equal   |T| = 1 vs 1
+[PASS] S6 p=5,q=25,n=8   k=e=2  GENERATING: Z(L) identical   Z = 1
+[PASS] S6 p=5,q=25,n=8   k=e=2  GENERATING: minimum ternary weight identical   wmin = None
+[PASS] S6 p=5,q=25,n=8   k=e=2  GENERATING: SUM_c T_W(c) identical on coset (exact Z[zeta_p], disjoint route)   400 vs 400
+[PASS] S6 p=5,q=25,n=8   k=e=2  GENERATING: LEMMA 1 reproduced: E_c[T_W] = 2^m Z(L)   16 == 16
+[PASS] S6 p=5,q=25,n=8   k=e=2  GENERATING: antipodal descent y^p = -y FAILS on the coset (f2_adm CATCH-6 replayed)   so the gap is confined to the parity/descent machinery
+[PASS] S6 p=41,q=1681,n=16 k=e=2 GENERATING: k = ord_n(p) matches the label   k=2, e=2
+[PASS] S6 p=41,q=1681,n=16 k=e=2 GENERATING: found coset rep g outside mu_n and outside F_p   (0, 1)
+[PASS] S6 p=41,q=1681,n=16 k=e=2 GENERATING: dim L identical on subgroup and coset   dim L = 4 vs 4
+[PASS] S6 p=41,q=1681,n=16 k=e=2 GENERATING: the ternary dual SETS are literally equal   |T| = 1 vs 1
+[PASS] S6 p=41,q=1681,n=16 k=e=2 GENERATING: Z(L) identical   Z = 1
+[PASS] S6 p=41,q=1681,n=16 k=e=2 GENERATING: minimum ternary weight identical   wmin = None
+[PASS] S6 p=41,q=1681,n=16 k=e=2 GENERATING: antipodal descent y^p = -y FAILS on the coset (f2_adm CATCH-6 replayed)   so the gap is confined to the parity/descent machinery
+[PASS] S6 p=17,q=289,n=16 k=1<e=2 NON-generating: k = ord_n(p) matches the label   k=1, e=2
+[PASS] S6 p=17,q=289,n=16 k=1<e=2 NON-generating: found coset rep g outside mu_n and outside F_p   (0, 1)
+[PASS] S6 p=17,q=289,n=16 k=1<e=2 NON-generating: dim L identical on subgroup and coset   dim L = 1 vs 1
+[PASS] S6 p=17,q=289,n=16 k=1<e=2 NON-generating: the ternary dual SETS are literally equal   |T| = 385 vs 385
+[PASS] S6 p=17,q=289,n=16 k=1<e=2 NON-generating: Z(L) identical   Z = 241/16
+[PASS] S6 p=17,q=289,n=16 k=1<e=2 NON-generating: minimum ternary weight identical   wmin = 3
+[PASS] S6 p=17,q=289,n=16 k=1<e=2 NON-generating: SUM_c T_W(c) identical on coset (exact Z[zeta_p], disjoint route)   1114384 vs 1114384
+[PASS] S6 p=17,q=289,n=16 k=1<e=2 NON-generating: LEMMA 1 reproduced: E_c[T_W] = 2^m Z(L)   3856 == 3856
+[PASS] S6 p=17,q=289,n=16 k=1<e=2 NON-generating: antipodal descent y^p = -y FAILS on the coset (f2_adm CATCH-6 replayed)   so the gap is confined to the parity/descent machinery
+[PASS] S6 p=17,q=289,n=16 k=1<e=2 NON-generating: coset does NOT rescue k<e (dim L still k|Lambda|-shaped, unchanged)   F_p(g mu_n) may equal F_q, but dim L is governed by ord_n(p)
+
+==============================================================================
+S7 -- (V3) does the DLI stronger law (wt >= 2R+1) apply on admissible rows?
+==============================================================================
+[PASS] S7.1 e_p = 39 forces c >= 3 (since 3 | 2^39+1, so c=1 is composite)   2^39+1 = 549755813889 = 3 * 183251937963
+[PASS] S7.2 hence e_p=39 => p >= 3*2^39 > 2^40 >= m
+[PASS] S7.3 e_p=40 => p > 2^40 >= m   p = c*2^40+1 > 2^40
+[PASS] S7.4 e_p>=41 => p > 2^41 > m
+[PASS] S7.5 THEREFORE char = p > m >= w on EVERY admissible row   the DLI hypothesis 'characteristic greater than w' HOLDS
+[PASS] S7.6 contrast: on the KoalaBear tower p = 2^31-2^24+1 < m_16 = 2^38   f2_sl1_powersums:171 -- fails by two orders of magnitude
+
+   toy replay -- char > w regime (DLI must give wt >= 2R+1):
+[PASS] S7 toy p=17,q=p^1,n=16,m=8,R=2: char>w and min wt >= 2R+1 = 5   min ternary wt = 6
+[PASS] S7 toy p=41,q=p^2,n=16,m=8,R=2: char>w and min wt >= 2R+1 = 5   min ternary wt = None
+[PASS] S7 toy p=13,q=p^2,n=8,m=4,R=2: char>w and min wt >= 2R+1 = 5   min ternary wt = None
+
+   necessity of char > w -- my own re-derivation of 2 counterexamples:
+[PASS] S7 counterexample char=3^2, n=8, m=4, R=2: min wt = char = 3 < 2R+1 = 5   min ternary wt = 3; char=3 <= 2R=4
+[PASS] S7 counterexample char=5^2, n=12, m=6, R=3: min wt = char = 5 < 2R+1 = 7   min ternary wt = 5; char=5 <= 2R=6
+[PASS] S7.9 => the DLI 'char > w' hypothesis is NECESSARY, and it is SATISFIED on admissible rows and VIOLATED on the tower
+
+==============================================================================
+S8 -- (V3) what the DLI gift buys: (M3) with d = 2R+1
+==============================================================================
+[PASS] S8.1 (M3) threshold reproduced: log2 3/(1+log2 3) = 0.613147...   0.613147192765458413129753861532179123534858140542896571610505071173357981459277196168347699
+   SL-1  (d = R+1) needs R/S > 0.613147
+   DLI   (d = 2R+1) needs R/S > 0.306574
+[PASS] S8.2 (e_p>=41, e=1, k=1): R/S = 1/log2 p EXACTLY (rel < 1e-12)   R/S = 0.0234824675, 1/log2 p = 0.0234824675
+   (e_p>=41, e=1, k=1)                R/S=0.023482  SL-1 short by 26.11x   DLI short by 13.06x
+[PASS] S8.3 (e_p>=41, e=1, k=1): (M3) STILL VACUOUS even with the doubled distance   short by 13.06x
+[PASS] S8.2 (e_p=40,  e=2, k=2): R/S = 1/log2 p EXACTLY (rel < 1e-12)   R/S = 0.0223439284, 1/log2 p = 0.0223439284
+   (e_p=40,  e=2, k=2)                R/S=0.022344  SL-1 short by 27.44x   DLI short by 13.72x
+[PASS] S8.3 (e_p=40,  e=2, k=2): (M3) STILL VACUOUS even with the doubled distance   short by 13.72x
+[PASS] S8.2 (e_p=39,  e=4, k=4): R/S = 1/log2 p EXACTLY (rel < 1e-12)   R/S = 0.0242002260, 1/log2 p = 0.0242002260
+   (e_p=39,  e=4, k=4)                R/S=0.024200  SL-1 short by 25.34x   DLI short by 12.67x
+[PASS] S8.3 (e_p=39,  e=4, k=4): (M3) STILL VACUOUS even with the doubled distance   short by 12.67x
+[PASS] S8.2 (e_p=39,  e=4, k=4) PRIZE-MAX: R/S = 1/log2 p EXACTLY (rel < 1e-12)   R/S = 0.0156250002, 1/log2 p = 0.0156250002
+   (e_p=39,  e=4, k=4) PRIZE-MAX      R/S=0.015625  SL-1 short by 39.24x   DLI short by 19.62x
+[PASS] S8.3 (e_p=39,  e=4, k=4) PRIZE-MAX: (M3) STILL VACUOUS even with the doubled distance   short by 19.62x
+[PASS] S8.4 best case over the WHOLE admissible region (log2 p = 39): DLI+(M3) still short by ~11.96x   needs log2 p < 3.2619, admissible min is 39 -> short by 11.956x
+
+==============================================================================
+S9 -- (V3) the attack FROM BELOW: what a refutation would need
+==============================================================================
+[PASS] S9.1 to force Z_1 >= 2 with all weights >= d one needs >= 2^d nonzero ternary codewords   d = 2R+1 = 8589934681, so 2^8589934681 of them
+[PASS] S9.2 the code's only visible symmetry (negacyclic shift x sign) has order 4S   4S = 2^40 = 1099511627776
+[PASS] S9.3 => every orbit/symmetry construction is short by 2^{d - log2 4S}   short by 2^8589934641 (= 2^8589934641)
+[PASS] S9.4 random-subspace baseline: log2(2^S / p^R) = 0 EXACTLY at generating rows   S - R log2 p = -46.02 bits (S = 274877906944)
+[PASS] S9.5 => heuristic Z_1 ~ 2 and Z(L) = Z_1^C <= 2^C <= 16, i.e. (O1) TRUE with o(n) <= 4 bits   zero margin in the RATIO, not in the value
+[PASS] S9.6 heuristic min ternary weight fraction gamma* ~ 0.2271   gamma* = 0.227092
+[PASS] S9.7 at PRIZE scale the DLI bound is FAR BELOW the heuristic minimum (opposite of toy scale)   2R+1 = 0.031250 S  vs  gamma* = 0.227092 S  (factor 7.27)
+
+==============================================================================
+S10 -- (V1) the (O1) => (O2) step at generating rows
+==============================================================================
+   THEOREM B gives only E[V_b] <= E[T_W] = 2^m Z.  The b-resolved scale is C(m,b/2) ~ 2^{m H(beta)}.
+   beta = b/(2m) = 0.10:  loss = 2^{m(1-H(beta))} = 2^5.8385e+11
+[PASS] S10 beta=0.10: the (O1)->(O2) step loses Theta(n)   loss = 2^5.8385e+11 bits
+   beta = b/(2m) = 0.25:  loss = 2^{m(1-H(beta))} = 2^2.0750e+11
+[PASS] S10 beta=0.25: the (O1)->(O2) step loses Theta(n)   loss = 2^2.0750e+11 bits
+   beta = b/(2m) = 0.40:  loss = 2^{m(1-H(beta))} = 2^3.1940e+10
+[PASS] S10 beta=0.40: the (O1)->(O2) step loses Theta(n)   loss = 2^3.1940e+10 bits
+   beta = b/(2m) = 0.50:  loss = 2^{m(1-H(beta))} = 2^0.0000e+00
+[PASS] S10.5 at beta=1/2 the loss collapses to the sqrt(m) Stirling factor (o(n))   log2 sqrt(pi m/2) ~ 20.33 bits
+[PASS] S10.6 THEOREM B' (the exact slice law) is VACUOUS at every moving rung on admissible rows   f2_adm survival-table row 5
+
+==============================================================================
+SUMMARY
+==============================================================================
+checks: 187   FAIL: 0
+DIGEST: O1_GEN_ADVERSARY_ALL_PASS

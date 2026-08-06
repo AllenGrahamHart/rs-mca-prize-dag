@@ -87,3 +87,19 @@ verified structurally sound (norm of an individual S, never a count
 congruence). Two bare-python3 breaches self-reported (the recurring
 text-edit pattern) — accepted with disclosure. DRAFT-ONLY confirmed;
 sibling dir never opened.
+
+## ADDENDUM (2026-08-06, coordinator, from round-18 efloor_sparsity)
+
+1. **CATCH E-1**: the (K5) conditional is RE-LABELLED — given THEOREM
+   CS, E_floor = {N_odd > 1} exactly on strat = 0, so the
+   E = E_strat u E_floor decomposition is a restatement and
+   CC-sparsity is precisely as hard as the pair-coprimality lemma it
+   sharpens. THEOREM CS and the unconditional 71.16% coverage are
+   untouched.
+2. **CATCH E-2**: CC-sparsity is structurally (ES) again — ternary
+   vectors in a p-ary cyclic code at half length. Do not route the
+   remaining 28.84% through CC-sparsity as if it were smaller.
+3. Progress on it anyway: SP-COVER/SP-UNIFORM close the small-prime
+   end (p <= sqrt(w+1)) unconditionally; the F1 densest-family attack
+   fails; the range is two-sided with CS-EXCL. See
+   notes/pilots_20260806/efloor_sparsity/.
