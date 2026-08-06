@@ -18191,6 +18191,50 @@ new assumptions: none; initial odd run and official 2R<2^36 are deployed facts
 compute: app ap-3u4NDxYLTav3KGsvw6nnhN, bounded PASS
 next: seek one upper-mass theorem covering plus GRS and minus Frobenius-closed root codes
 ```
+
+### F2 heaviest-fiber interface and Mint-4 subtraction
+
+Canonical `prize@5a8f0dba` minted the Round-18 F2 reports into three
+background nodes. Their generic collision floor is already imported, but
+their all-admissible census is not: `f2_admissible_object` and
+`f2_o1_status_split` again derive the generating classes only from
+`v_2(p-1)` and therefore omit the official M61 minus row. The local critical
+route remains the scope-corrected statement of record until canonical makes
+the same branch split.
+
+The collision identity now has the exact PROVED upper interface
+`f2_weighted_mass_max_fiber_sandwich`. If `M=max_v N(v)`, then
+
+```text
+M^2/2^m <= Z <= M.
+```
+
+Thus an upstream row-sharp bound
+`M <= Lambda_Q*(2^m/p^d)+E_Q` pays the weighted F2 mass with the identical
+constant pair and no Fourier loss. This applies to the plus-branch GRS maps
+and the coupled minus-branch root-code maps. It does not prove the max-fiber
+bound.
+
+A primary-literature refresh found capacity list recovery for random
+evaluation sets (Doron--Venkitesh, arXiv:2404.00206) and zero-error
+list-recovery discrepancy for random linear codes (Doron et al.,
+arXiv:2606.24471). Neither theorem covers the fixed dyadic subgroup or its
+Frobenius-coupled minus branch. The residual is therefore exactly the
+explicit row-sharp `(Q)`/binary full-agreement fiber bound, not a generic RS
+list-recovery corollary.
+
+```text
+starting pin: 5d9afd69; canonical 5a8f0dba; upstream main 93fba1be
+lane: F2 / row-sharp quotient-prefix flatness
+result: heaviest-fiber/mass sandwich PROVED; Mint-4 all-row regression quarantined
+DAG status delta: one PROVED supplier and two edges; no target flip
+upstream terminal delta: (Q) is now an exact sufficient supplier for corrected F2 mass
+upstream custody: draft PR https://github.com/przchojecki/rs-mca/pull/1150 at 6d5dd975
+delta-star bracket movement: none
+new assumptions: none
+compute: local tiny verifier only, 16 exact checks; no Modal spend
+next: attack max_v N(v) for the fixed dyadic plus and minus maps, retaining exact average 2^m/p^d
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

@@ -28275,6 +28275,22 @@
    ]
   },
   {
+   "id": "f2_weighted_mass_max_fiber_sandwich",
+   "title": "F2 weighted mass and heaviest-fiber sandwich",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every finite-field linear syndrome map on the binary cube, let N(v) be its subset-syndrome fiber sizes, M=max_v N(v), and Z the weighted ternary kernel mass. Then M^2/2^m <= Z <= M. If the rank is d and a row-sharp quotient/prefix estimate gives M <= Lambda*(2^m/p^d)+E, then the identical bound holds for Z with no normalization loss. Thus a subexponential uniform binary full-agreement list-recovery bound pays the plus-branch and coupled minus-branch F2 mass terminals. No max-fiber, Q-flatness, or prize bound is claimed.",
+   "refs": [
+    "background/nodes/f2_weighted_mass_max_fiber_sandwich/statement.md",
+    "background/nodes/f2_weighted_mass_max_fiber_sandwich/proof.md",
+    "background/nodes/f2_weighted_mass_max_fiber_sandwich/audit.md",
+    "background/nodes/f2_weighted_mass_max_fiber_sandwich/claim_contract.md",
+    "background/nodes/f2_weighted_mass_max_fiber_sandwich/dependency_subdag.md",
+    "background/nodes/f2_weighted_mass_max_fiber_sandwich/result.md",
+    "background/nodes/f2_weighted_mass_max_fiber_sandwich/verify.py"
+   ]
+  },
+  {
    "id": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
    "title": "Ideal-level Galois multiplicity exclusion for dyadic moment windows",
    "status": "PROVED",
@@ -53670,6 +53686,16 @@
    "from": "f2_weighted_kernel_collision_floor",
    "to": "f2_minus_branch_coupled_negacyclic_reduction",
    "kind": "req"
+  },
+  {
+   "from": "f2_weighted_kernel_collision_floor",
+   "to": "f2_weighted_mass_max_fiber_sandwich",
+   "kind": "req"
+  },
+  {
+   "from": "f2_weighted_mass_max_fiber_sandwich",
+   "to": "f2_conditional_close",
+   "kind": "ev"
   },
   {
    "from": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
