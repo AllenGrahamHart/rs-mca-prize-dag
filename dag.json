@@ -28328,6 +28328,26 @@
    ]
   },
   {
+   "id": "f2_antipodal_selector_prefix_transport",
+   "title": "F2 antipodal-selector prefix transport",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a cyclic odd-prefix syndrome map of binary length m, choosing theta^s or -theta^s according to each bit bijects the cube with antipodal transversal m-subsets of mu_(2m). Their even power sums are fixed and their odd power sums are an affine invertible rescaling of the F2 syndrome. Every F2 fiber therefore injects into one ordinary central depth-2R split-locator prefix fiber. This applies to both signed generating branches and their ambient images. No split-locator flatness, normalized-band, structured-owner, or pruned-Q theorem is claimed.",
+   "refs": [
+    "background/nodes/f2_antipodal_selector_prefix_transport/statement.md",
+    "background/nodes/f2_antipodal_selector_prefix_transport/proof.md",
+    "background/nodes/f2_antipodal_selector_prefix_transport/audit.md",
+    "background/nodes/f2_antipodal_selector_prefix_transport/claim_contract.md",
+    "background/nodes/f2_antipodal_selector_prefix_transport/dependency_subdag.md",
+    "background/nodes/f2_antipodal_selector_prefix_transport/result.md",
+    "background/nodes/f2_antipodal_selector_prefix_transport/verify.py"
+   ],
+   "upstream": {
+    "label": "master split-locator flatness (prob:capfr1-master-flatness)",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "f2_fixed_weight_flatness_mass_bridge",
    "title": "F2 fixed-weight flatness to full-cube mass bridge",
    "status": "PROVED",
@@ -53819,6 +53839,11 @@
   },
   {
    "from": "f2_admissible_direct_sum_grs_reduction",
+   "to": "f2_antipodal_selector_prefix_transport",
+   "kind": "req"
+  },
+  {
+   "from": "f2_admissible_direct_sum_grs_reduction",
    "to": "f2_conditional_close",
    "kind": "ev"
   },
@@ -53863,6 +53888,11 @@
    "kind": "ev"
   },
   {
+   "from": "f2_antipodal_selector_prefix_transport",
+   "to": "f2_conditional_close",
+   "kind": "ev"
+  },
+  {
    "from": "f2_edge_lemma",
    "to": "f2_conditional_close",
    "kind": "ev"
@@ -53899,6 +53929,11 @@
   },
   {
    "from": "f2_minus_branch_coupled_negacyclic_reduction",
+   "to": "f2_antipodal_selector_prefix_transport",
+   "kind": "req"
+  },
+  {
+   "from": "f2_minus_branch_coupled_negacyclic_reduction",
    "to": "f2_conditional_close",
    "kind": "ev"
   },
@@ -53930,6 +53965,11 @@
   {
    "from": "f2_weighted_kernel_collision_floor",
    "to": "f2_weighted_mass_max_fiber_sandwich",
+   "kind": "req"
+  },
+  {
+   "from": "f2_weighted_mass_max_fiber_sandwich",
+   "to": "f2_antipodal_selector_prefix_transport",
    "kind": "req"
   },
   {

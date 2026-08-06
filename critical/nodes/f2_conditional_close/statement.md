@@ -22,5 +22,7 @@ exactly with its generated-field row. Thus all 12 degree/order types reduce
 to five signed generating types. The proved
 `f2_fixed_weight_flatness_mass_bridge` further reduces each full-cube mass
 terminal to mean-plus-one flatness on fixed-weight slices; a central band
-suffices when its omitted binomial tails total `2^(S/2+o(S))`. The target
-conclusion itself is not refuted.
+suffices when its omitted binomial tails total `2^(S/2+o(S))`. More
+directly, `f2_antipodal_selector_prefix_transport` embeds every full-cube
+fiber into an ordinary central depth-`2R` split-locator prefix fiber on the
+doubled cyclic domain. The target conclusion itself is not refuted.

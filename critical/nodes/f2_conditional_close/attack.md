@@ -55,3 +55,14 @@ This implies the required full-cube mass even though cross-weight collisions
 are present. The shape matches upstream split-locator flatness, but the F2
 map has weighted odd-power columns and is not the pruned first-match family;
 those two transports remain mandatory.
+
+The stronger proved `f2_antipodal_selector_prefix_transport` removes the
+weighted-map transport. Encode a bit by choosing one point from each
+antipodal pair. The selector's even moments are fixed, and its odd moments
+are an affine rescaling of the F2 syndrome, so every full-cube fiber embeds
+in a standard half-size, depth-`2R` locator-prefix fiber. The preferred
+common attack is therefore upstream `prob:capfr1-master-flatness` at these
+transported central parameters. What remains to justify is its
+normalized-band scope and the quotient/common-divisor owner decomposition;
+the pruned deployed `def:q-row-atom` is still not automatically the same
+family.
