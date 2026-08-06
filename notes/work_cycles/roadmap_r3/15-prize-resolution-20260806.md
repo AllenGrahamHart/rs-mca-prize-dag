@@ -605,3 +605,44 @@ new assumptions: none in the bridge; the fixed-weight flatness estimate remains 
 compute: four tiny exhaustive maps, 130 local checks; no Modal spend
 next: prove weighted odd-prefix mean-plus-one flatness on the central band for the five signed generating types
 ```
+
+### F2 antipodal-selector transport to split-locator flatness
+
+The PROVED `f2_antipodal_selector_prefix_transport` removes the weighted-map
+seam left by the fixed-weight bridge. For a binary word `x` on a cyclic
+half-system `H={theta^s:0<=s<m}`, choose `theta^s` when `x_s=1` and
+`-theta^s` when `x_s=0`. This bijects the cube with the antipodal
+transversal `m`-subsets of `mu_(2m)`. Their moments satisfy
+
+```text
+p_l(E_x)=2 A(x)_((l+1)/2)-c_l  for l odd,
+p_l(E_x)=c_l                   for l even.
+```
+
+Thus every full-cube F2 syndrome fiber is exactly the transversal part of
+one ordinary central fixed-size, depth-`2R` power-sum fiber and injects into
+the full fiber. Since `p>2R` on every official row, Newton identities turn
+this into the standard top-`2R` split-locator prefix fiber. The theorem
+applies to both the plus GRS class matrices and the minus coupled root-code
+matrix, up to invertible row scalings, and generated-field invariance covers
+all ambient extensions.
+
+This makes upstream `prob:capfr1-master-flatness` a literal common theorem
+target rather than an analogy. It does not yet instantiate the upstream
+normalized band or match its quotient/common-divisor removals to the F2
+structured owners. Nor does it identify the deployed pruned
+`def:q-row-atom` family. The transport is exported in draft PR `#1150` at
+`e6ad4142`; its replay now has 33,355 checks and a warning-free seven-page
+TeX build.
+
+```text
+starting pin: 48fc9efcf; canonical fed71a06; upstream main 93fba1be
+lane: F2 / master split-locator flatness
+result: every F2 cube fiber injects into an ordinary central depth-2R split-locator prefix fiber
+DAG status delta: +1 PROVED supplier; F2 target remains TARGET
+upstream terminal delta: draft #1150 extended with selector transport at e6ad4142
+delta-star bracket movement: none
+new assumptions: none in the transport; master flatness and owner deployment remain open
+compute: three tiny exhaustive cyclic fields, 28,754 local checks; no Modal spend
+next: instantiate prob:capfr1-master-flatness at the transported parameters and align quotient/common-divisor owners with F2 structure
+```

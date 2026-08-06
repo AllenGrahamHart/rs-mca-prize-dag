@@ -536,11 +536,11 @@
     "does not identify these fibers with def:q-row-atom"
    ],
    "status_ours": "PROVED",
-   "status_his": "draft PR #1150 at f15c8b07",
+   "status_his": "draft PR #1150 at e6ad4142",
    "lean": null,
    "provenance": {
     "our_sha": "f6fba9ad5",
-    "his_sha": "f15c8b07"
+    "his_sha": "e6ad4142"
    }
   },
   {
@@ -556,11 +556,36 @@
     "does not transport the pruned first-match owner in def:q-row-atom"
    ],
    "status_ours": "PROVED",
-   "status_his": "draft PR #1150 at f15c8b07",
+   "status_his": "draft PR #1150 at e6ad4142",
    "lean": null,
    "provenance": {
     "our_sha": "117e84c09",
-    "his_sha": "f15c8b07"
+    "his_sha": "e6ad4142"
+   }
+  },
+  {
+   "our_node": "f2_antipodal_selector_prefix_transport",
+   "his_object": {
+    "label": "master split-locator flatness",
+    "file": "tex/cs25_cap_v13_2.tex",
+    "line": "prob:capfr1-master-flatness"
+   },
+   "relation": "OVERLAP",
+   "chain": "f2_antipodal_selector_prefix_transport",
+   "scope": "every F2 full-cube fiber injects into the central half-size depth-2R instance of the ordinary split-locator prefix fiber",
+   "owner": "JOINT",
+   "nonclaims": [
+    "does not prove master split-locator flatness",
+    "does not instantiate the upstream normalized band",
+    "does not align quotient/common-divisor removals with F2 structured owners",
+    "does not identify the deployed pruned def:q-row-atom family"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open; transport in draft PR #1150 at e6ad4142",
+   "lean": null,
+   "provenance": {
+    "our_sha": "48fc9efcf",
+    "his_sha": "e6ad4142"
    }
   },
   {
