@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f2_selector_face_primitive_reduction",
+    "title": "F2 selector-face primitive reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every nonempty antipodal-selector syndrome fiber on a power-of-two half-system, factor the selector roots corresponding to coordinates fixed throughout the fiber. Unless the fiber is a singleton, division embeds it into a punctured split-locator prefix fiber of codimension 2R whose selector subfamily is gcd-trivial and aperiodic. If primitive master flatness is uniform under these punctures, then the max fiber is at most P_*(2m)(1+2^(2 max(Delta,0))), Delta=m-R log_2|K|. Hence polynomial primitive flatness gives 2^o(m) F2 weighted mass at the saturated windows. No master-flatness, first-match, PP5.0, or finite n^3 claim is made.",
+    "refs": [
+      "background/nodes/f2_selector_face_primitive_reduction/statement.md",
+      "background/nodes/f2_selector_face_primitive_reduction/proof.md",
+      "background/nodes/f2_selector_face_primitive_reduction/audit.md",
+      "background/nodes/f2_selector_face_primitive_reduction/claim_contract.md",
+      "background/nodes/f2_selector_face_primitive_reduction/dependency_subdag.md",
+      "background/nodes/f2_selector_face_primitive_reduction/result.md",
+      "background/nodes/f2_selector_face_primitive_reduction/verify.py"
+    ],
+    "upstream": {
+      "label": "master split-locator flatness (prob:capfr1-master-flatness)",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {
+      "from": "f2_antipodal_selector_prefix_transport"
+    },
+    {
+      "from": "f2_weighted_mass_max_fiber_sandwich"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f2_conditional_close"
+    }
+  ],
+  "refutes": []
+}
