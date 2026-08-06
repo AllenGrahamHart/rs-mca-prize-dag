@@ -1,0 +1,116 @@
+SL-1b verifier -- notes/pilots_20260806/f2_sl1b/verify.py
+grid: p in (3, 5, 7, 11, 13, 17, 19), n even <= 48, k = ord_n(p) <= 3, m <= 12, R <= 8, shifts a0 in (0,1,2), windows full/ord
+
+=== S0 provenance: every quoted line is present where cited ===
+  [PASS] S0 all 10 cited lines verbatim at the cited file:line   -- quotes are load-bearing; provenance is machine-checked
+
+       grid built: 1060 configurations
+
+=== S1 PA-1: dim_{F_p} L >= min(m, R)  (the pre-registered proof) ===
+  [PASS] S1 lower bound holds on all 1060 configurations   -- falsifier (F1) not triggered; violations = 0
+       equality dim L = min(m,R) in 431/1060 configurations
+
+=== S2 upper bound: dim L <= min(m, k|Lambda|) ===
+  [PASS] S2 upper bound holds on all 1060 configurations   -- falsifier (S-F3) not triggered
+       equality dim L = min(m,k|Lambda|) in 762/1060 configurations
+
+=== S3 sharpness of the two bounds ===
+  [PASS] S3 every k=1 configuration has dim L = R EXACTLY (131 rows)   -- so min(m,R) is SHARP inside the setting's own hypotheses: no proof can beat t/2 without using k >= 2
+  [PASS] S3 the upper bound min(m,kR) is attained too   -- 557/855 configurations with k>=2 attain it -- so dim L genuinely ranges over the whole interval [min(m,R), min(m,kR)]
+       strictly interior rows: 181
+
+=== S4 does (R-A) dim L >= m log_p 3 imply (R-B) L^perp cap T = {0}? ===
+       threshold tested EXACTLY as the integer comparison p^{dim L} >= 3^m
+       714 configurations satisfy (R-A) with p>3 and m<=10
+  [PASS] S4 counterexamples to (R-A) => (R-B) EXIST (falsifier S-F2 FIRES)   -- 61 configurations satisfy dim L >= m log_p 3 and STILL carry a nonzero ternary dual vector
+       WITNESS p=7 k=2 n=12 W=full m=6 R=2 a0=2 : dim L = 4, p^dimL = 2401 >= 3^m = 729, min ternary dual weight = 3 (>= R+1 = 3, SL-1 respected)
+       WITNESS p=7 k=3 n=18 W=full m=9 R=2 a0=2 : dim L = 6, p^dimL = 117649 >= 3^m = 19683, min ternary dual weight = 3 (>= R+1 = 3, SL-1 respected)
+       WITNESS p=7 k=3 n=18 W=full m=9 R=3 a0=0 : dim L = 7, p^dimL = 823543 >= 3^m = 19683, min ternary dual weight = 9 (>= R+1 = 4, SL-1 respected)
+       WITNESS p=7 k=3 n=18 W=full m=9 R=3 a0=1 : dim L = 7, p^dimL = 823543 >= 3^m = 19683, min ternary dual weight = 9 (>= R+1 = 4, SL-1 respected)
+       WITNESS p=7 k=3 n=18 W=full m=9 R=3 a0=2 : dim L = 7, p^dimL = 823543 >= 3^m = 19683, min ternary dual weight = 6 (>= R+1 = 4, SL-1 respected)
+       WITNESS p=7 k=3 n=18 W=full m=9 R=4 a0=0 : dim L = 7, p^dimL = 823543 >= 3^m = 19683, min ternary dual weight = 9 (>= R+1 = 5, SL-1 respected)
+       WITNESS p=7 k=3 n=18 W=full m=9 R=4 a0=2 : dim L = 7, p^dimL = 823543 >= 3^m = 19683, min ternary dual weight = 6 (>= R+1 = 5, SL-1 respected)
+       WITNESS p=7 k=3 n=18 W=full m=9 R=5 a0=2 : dim L = 7, p^dimL = 823543 >= 3^m = 19683, min ternary dual weight = 6 (>= R+1 = 6, SL-1 respected)
+  [PASS] S4 every witness respects THEOREM SL-1 (wt >= R+1)   -- the counterexamples do not contradict the PROVED distance law
+
+=== S4b round-15's supporting measurement, re-evaluated ===
+  [PASS] S4b with the predicate AS WRITTEN (true log2 p) it DOES under-predict   -- 61 of my 61 witnesses are false negatives for 'm log2 3 > dim L log2 p' -- i.e. a nonzero ternary dual exists although the entropy budget is exhausted
+  [PASS] S4b with the predicate AS CODED (floor(log2 p)) far fewer do   -- 48 false negatives under floor(log2 p) vs 61 under log2 p -- the floor UNDERSTATES the condition budget (log2 7 = 2.807 vs 2), which biases the test towards over-prediction, the 'safe direction' reported at f2_sl1_powersums/PROOFS.md:322
+       FALSE NEGATIVE p=7 k=2 n=12 W=full m=6 R=2 a0=2: m log2 3 = 9.510 vs dim L log2 p = 11.229 (coded: 8.000); ternary dual of weight 3 EXISTS
+       FALSE NEGATIVE p=7 k=3 n=18 W=full m=9 R=3 a0=0: m log2 3 = 14.265 vs dim L log2 p = 19.651 (coded: 14.000); ternary dual of weight 9 EXISTS
+       FALSE NEGATIVE p=7 k=3 n=18 W=full m=9 R=4 a0=0: m log2 3 = 14.265 vs dim L log2 p = 19.651 (coded: 14.000); ternary dual of weight 9 EXISTS
+       FALSE NEGATIVE p=7 k=3 n=18 W=full m=9 R=3 a0=1: m log2 3 = 14.265 vs dim L log2 p = 19.651 (coded: 14.000); ternary dual of weight 9 EXISTS
+
+=== S5 replay of f2_sl1_powersums/PROOFS.md:194-199, now with dim L ===
+  [PASS] S5 p=3 n=8 m=4 R=2: banked true min wt = 3   -- reproduced min ternary weight = 3; dim L = 2; (R-A) p^dimL>=3^m is False
+  [PASS] S5 p=5 n=12 m=6 R=3: banked true min wt = 5   -- reproduced min ternary weight = 5; dim L = 3; (R-A) p^dimL>=3^m is False
+  [PASS] S5 p=5 n=24 m=12 R=3: banked true min wt = 5   -- reproduced min ternary weight = 5; dim L = 4; (R-A) p^dimL>=3^m is False
+  [PASS] S5 p=5 n=24 m=12 R=4: banked true min wt = 5   -- reproduced min ternary weight = 5; dim L = 6; (R-A) p^dimL>=3^m is False
+  [PASS] S5 p=7 n=16 m=8 R=4: banked true min wt = 7   -- reproduced min ternary weight = 7; dim L = 4; (R-A) p^dimL>=3^m is False
+
+=== S6 the PROOFS.md:298 'iff' is a RANDOM-subspace law, not a per-subspace one ===
+  [PASS] S6 p=5 m=4: dim L = m-1 = 3 satisfies (R-A)   -- p^3 = 125 >= 3^4 = 81; yet L^perp = span{(1,1,0,...,0)} contains the ternary vector (1,1,0,...,0), so L^perp cap T != {0}. (R-A) does NOT imply (R-B).
+  [PASS] S6 p=7 m=4: dim L = m-1 = 3 satisfies (R-A)   -- p^3 = 343 >= 3^4 = 81; yet L^perp = span{(1,1,0,...,0)} contains the ternary vector (1,1,0,...,0), so L^perp cap T != {0}. (R-A) does NOT imply (R-B).
+  [PASS] S6 p=11 m=3: dim L = m-1 = 2 satisfies (R-A)   -- p^2 = 121 >= 3^3 = 27; yet L^perp = span{(1,1,0,...,0)} contains the ternary vector (1,1,0,...,0), so L^perp cap T != {0}. (R-A) does NOT imply (R-B).
+  [PASS] S6 p=2130706433 m=4: dim L = m-1 = 3 satisfies (R-A)   -- p^3 = 9673215236899702176256884737 >= 3^4 = 81; yet L^perp = span{(1,1,0,...,0)} contains the ternary vector (1,1,0,...,0), so L^perp cap T != {0}. (R-A) does NOT imply (R-B).
+
+=== S7 official row: (R-A) rung by rung, per live value of t ===
+       p = 2^31-2^24+1 = 2130706433;  log2 p = 30.988685;  log_p 3 = 0.051146492
+
+       --- internal ambiguity branch: m_16 = 2^38 ---
+       [t = 7e10   (f2_opening/verify.py:958,1038 literal)  ] r14:PROVED (9.958x)  r15:PROVED (4.979x)  r16:PROVED (2.490x)
+       [t = 2^36   (F2_CAMPAIGN_LOG.md:213,376,717,734)     ] r14:PROVED (9.776x)  r15:PROVED (4.888x)  r16:PROVED (2.444x)
+       [t = 2^41/log2 p (base-field reading)                ] r14:PROVED (10.095x)  r15:PROVED (5.047x)  r16:PROVED (2.524x)
+       [t* = 8,592,912,739 (xr_radius_arithmetic/proof.md:41-58)] r14:PROVED (1.222x)  r15:OPEN   (0.611x)  r16:REFUTED(0.306x)
+
+       --- internal ambiguity branch: m_16 = 2^39 ---
+       [t = 7e10   (f2_opening/verify.py:958,1038 literal)  ] r14:PROVED (4.979x)  r15:PROVED (2.490x)  r16:PROVED (1.245x)
+       [t = 2^36   (F2_CAMPAIGN_LOG.md:213,376,717,734)     ] r14:PROVED (4.888x)  r15:PROVED (2.444x)  r16:PROVED (1.222x)
+       [t = 2^41/log2 p (base-field reading)                ] r14:PROVED (5.047x)  r15:PROVED (2.524x)  r16:PROVED (1.262x)
+       [t* = 8,592,912,739 (xr_radius_arithmetic/proof.md:41-58)] r14:OPEN   (0.611x)  r15:REFUTED(0.306x)  r16:REFUTED(0.153x)
+  [PASS] S7 (P1) (R-A) holds at rungs 14-16 under t = 7e10 with margin > 2x   -- tightest rung is 16: R = 3.5E+10 vs m log_p 3 = 1.405904E+10; margin 2.4895x
+  [PASS] S7 (P2) (R-A) is REFUTED at rung 16 under t* when k = 2   -- dim L <= k*|Lambda| = 8592912740 < m log_p 3 = 1.405904E+10 (shortfall 0.6112x)
+  [PASS] S7 (P3) that refutation evaporates once k >= 4   -- the refutation needs k < 3.2722; it holds for k in {2,3} and FAILS for k >= 4 -- an interaction with the q = p^k pin, FLAGGED for the sibling pilot, not resolved here
+  [PASS] S7 rung 15 under t* with k=2 is OPEN, not decided   -- R = 4296456370 < 7.029520E+9 <= 8592912740 -- the interval [min(m,R), min(m,kR)] straddles the threshold
+
+       --- the same table under the TOWER k_j = 2^j (tower.py:15-20) ---
+       [t = 7e10   (f2_opening/verify.py:958,1038 literal)  ] r14:PROVED (9.958x)  r15:PROVED (4.979x)  r16:PROVED (2.490x)
+       [t = 2^36   (F2_CAMPAIGN_LOG.md:213,376,717,734)     ] r14:PROVED (9.776x)  r15:PROVED (4.888x)  r16:PROVED (2.444x)
+       [t = 2^41/log2 p (base-field reading)                ] r14:PROVED (10.095x)  r15:PROVED (5.047x)  r16:PROVED (2.524x)
+       [t* = 8,592,912,739 (xr_radius_arithmetic/proof.md:41-58)] r14:PROVED (1.222x)  r15:OPEN   (0.611x)  r16:OPEN   (0.306x)
+  [PASS] S7 under the tower NO rung is REFUTED under any live t   -- every REFUTED cell of the k=2 table becomes OPEN: the refutations were artifacts of the k=2 upper bound
+  [PASS] S7 CATCH-4's rung-16 LEMMA 3 VIOLATION does not survive the tower   -- the banked 0.9687x violation (f2_sl1_powersums/PROOFS.md:391) needs dim L <= t*; under k_16 = 2^16 the upper bound is min(m, 2.8157E+14) = m = 2.7488E+11 >= 8.8703E+9, so NO violation is derivable.  FLAGGED.
+
+       [LEMMA 3 @ rung 16, t = 7e10   (f2_opening/verif] proved dim L >= 3.50000E+10 vs required 8.87027E+9  ->  SATISFIED
+       [LEMMA 3 @ rung 16, t = 2^36   (F2_CAMPAIGN_LOG.] proved dim L >= 3.43597E+10 vs required 8.87027E+9  ->  SATISFIED
+       [LEMMA 3 @ rung 16, t = 2^41/log2 p (base-field ] proved dim L >= 3.54811E+10 vs required 8.87027E+9  ->  SATISFIED
+       [LEMMA 3 @ rung 16, t* = 8,592,912,739 (xr_radiu] proved dim L >= 4.29646E+9 vs required 8.87027E+9  ->  NOT ESTABLISHED
+
+=== S8 the ambient field: F_{p^2} vs the tower q_j = p^{2^j} ===
+       p-1 = 2^24 * 127;  p+1 = 2^1 * 1065353217;  e := v_2(p-1) = 24;  v_2(p^2-1) = 25
+  [PASS] S8 e = v_2(p-1) = 24 and v_2(p^2-1) = 25   -- matches f2_deployed_windows/REPORT.md:17 'p-1 = 2^24 . 127'
+  [PASS] S8 LTE v_2(p^{2^j} - 1) = 24 + j verified directly for j = 0..8   -- so mu_{n_j} <= F_{q_j}^* with n_j = 2^{24+j}, q_j = p^{2^j} -- tower.py:23-28, cited and independently re-checked
+  [PASS] S8 n_j = 2^{24+j} divides p^2-1 ONLY at rung 1   -- f2_opening/PROOFS.md:10 fixes 'n | p^2-1', which holds at j=1 and FAILS at every j in 2..16 -- that setting is a rung-1-only reading and cannot host rungs 14-16
+
+       rung 14: k_j = 2^14 = 16384;  k_j*|Lambda| [t = 7e10] = 5.73440E+14  vs  m_j = 6.87195E+10  ->  upper bound min(m, k|Lambda|) = m (VACUOUS)
+       rung 14: k_j = 2^14 = 16384;  k_j*|Lambda| [t* = 8.59e9] = 7.03931E+13  vs  m_j = 6.87195E+10  ->  upper bound min(m, k|Lambda|) = m (VACUOUS)
+       rung 15: k_j = 2^15 = 32768;  k_j*|Lambda| [t = 7e10] = 1.14688E+15  vs  m_j = 1.37439E+11  ->  upper bound min(m, k|Lambda|) = m (VACUOUS)
+       rung 15: k_j = 2^15 = 32768;  k_j*|Lambda| [t* = 8.59e9] = 1.40786E+14  vs  m_j = 1.37439E+11  ->  upper bound min(m, k|Lambda|) = m (VACUOUS)
+       rung 16: k_j = 2^16 = 65536;  k_j*|Lambda| [t = 7e10] = 2.29376E+15  vs  m_j = 2.74878E+11  ->  upper bound min(m, k|Lambda|) = m (VACUOUS)
+       rung 16: k_j = 2^16 = 65536;  k_j*|Lambda| [t* = 8.59e9] = 2.81573E+14  vs  m_j = 2.74878E+11  ->  upper bound min(m, k|Lambda|) = m (VACUOUS)
+  [PASS] S8 under the tower the upper bound dim L <= k|Lambda| is VACUOUS at rungs 14-16 under every live t   -- dim L <= m is all that survives from above; every verdict that used 'dim L <= t' (= the k=2 case) needs re-derivation
+
+=== S9 independent cross-check via Phi_n(X) mod p (disjoint code path) ===
+  [PASS] S9 p=7 k=2 n=12 W=full m=6 R=2 a0=2   -- cyclotomic route: dim L = 4, min ternary wt = 3; field route: dim L = 4, min ternary wt = 3
+  [PASS] S9 p=7 k=3 n=18 W=full m=9 R=3 a0=0   -- cyclotomic route: dim L = 7, min ternary wt = 9; field route: dim L = 7, min ternary wt = 9
+  [PASS] S9 p=7 k=3 n=18 W=full m=9 R=4 a0=0   -- cyclotomic route: dim L = 7, min ternary wt = 9; field route: dim L = 7, min ternary wt = 9
+  [PASS] S9 p=7 k=3 n=18 W=full m=9 R=3 a0=1   -- cyclotomic route: dim L = 7, min ternary wt = 9; field route: dim L = 7, min ternary wt = 9
+  [PASS] S9 p=7 k=3 n=18 W=full m=9 R=2 a0=2   -- cyclotomic route: dim L = 6, min ternary wt = 3; field route: dim L = 6, min ternary wt = 3
+  [PASS] S9 p=7 k=3 n=18 W=full m=9 R=3 a0=2   -- cyclotomic route: dim L = 7, min ternary wt = 6; field route: dim L = 7, min ternary wt = 6
+  [PASS] S9 p=3 k=2 n=8 W=full m=4 R=2 a0=0   -- cyclotomic route: dim L = 2, min ternary wt = 3; field route: dim L = 2, min ternary wt = 3
+  [PASS] S9 p=5 k=2 n=12 W=full m=6 R=3 a0=0   -- cyclotomic route: dim L = 3, min ternary wt = 5; field route: dim L = 3, min ternary wt = 5
+  [PASS] S9 p=7 k=2 n=16 W=full m=8 R=4 a0=0   -- cyclotomic route: dim L = 4, min ternary wt = 7; field route: dim L = 4, min ternary wt = 7
+
+======================================================================
+ALL PASS
+digest: F2_SL1B_ALL_PASS

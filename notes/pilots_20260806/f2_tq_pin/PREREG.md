@@ -90,3 +90,99 @@ not a compute task — ramguard-tiny arithmetic checks only.
 - Verbatim quotes for every statement you rely on (file:line).
 - Do NOT write REPORT.md — return the full report as your final
   message; the coordinator persists it verbatim.
+
+---
+
+# APPENDIX — PILOT'S OWN PRE-REGISTRATIONS (Opus 5, appended 2026-08-06
+# BEFORE any computation; nothing below was run at the time of writing)
+
+Read-only source sweep completed first (no arithmetic). The following
+claims are registered with falsifiers; each is tested in `verify.py`.
+
+## (Q1) THE ADMISSIBILITY TEST — the load-bearing new claim
+
+**Claim.** The 16-rung KoalaBear tower is **not a prize-admissible row**.
+Concretely, with `p = 2^31 - 2^24 + 1` and `q_j = p^{2^j}`:
+`log2 q_j = 2^j * log2 p` exceeds the rules cap `|F| < 2^256`
+(`critical/nodes/rules_freeze/statement.md:9`) for every `j >= 4`, and at
+`j = 16` exceeds it by a factor `> 7000x IN BITS`.
+
+**Falsifier.** If `q_j < 2^256` for `j` up to 16, this collapses and the
+whole (P1)-(P5) chain below must be withdrawn.
+
+## (Q2) THE DIVISOR-OF-RECORD CLAIM
+
+**Claim.** The banked window-bits product `t * log2 q ~ 2.15e12`
+(`archive/compressed_dli_lane_20260705/b2_modp_giant_extras/statement.md:9`)
+must be divided by `L = log2 q`, not by `log2 p`, and the rules force
+`L > log2 n` because the smooth domain is a multiplicative subgroup of
+`F^*` of size `n`, hence `n | q - 1`, hence `q > n`. Therefore at the
+maximal rate-1/2 row (`n = 2^41`)
+
+```
+    2^41 / 256  <  t  <=  2^41 / 41 ,     i.e.   8.59e9 < t <= 5.37e10 ,
+```
+
+and `t = 7e10` lies OUTSIDE this interval for every admissible field.
+
+**Falsifier F-Q2a.** If the rules do not force `n | q - 1` (i.e. the smooth
+domain need not be a subgroup of `F_q^*`), the lower bound `L > log2 n`
+dies and `t = 7e10` is readmitted.
+**Falsifier F-Q2b.** If a base-field reading is nonetheless defensible,
+the same bound must be run with `log2 p`; I pre-register that I will
+report BOTH and will NOT suppress the base-field column.
+
+## (Q3) THE CHARACTERISTIC BOUND
+
+**Claim.** At any prize-admissible rate-1/2 maximal row (`n = 2^41`,
+`q < 2^256`, `n | q-1`), writing `q = p^e` and `s = v_2(e)`:
+`s <= 2`, `e <= 6`, and `log2 p >= 39`. In particular the KoalaBear
+`log2 p ~ 31` base field is inadmissible, and the tower depth
+`log2 ord_n(p) <= 2` — at most TWO rungs exist, not sixteen.
+
+**Falsifier.** An explicit admissible `(p, e)` with `log2 p < 39` or
+`v_2(e) >= 3` satisfying `2^41 | p^e - 1` and `p^e < 2^256`.
+Registered as an exhaustive search over `s = 0..8`, `u` odd.
+
+## (Q4) THE m_16 PREDICTION (made before computing)
+
+**Claim.** The `2^38`-vs-`2^39` split is exactly the nested-vs-new-part
+window ambiguity of `f2_deployed_windows/REPORT.md:69`:
+new-part `m_j = (n_j - n_{j-1})/2 = 2^{22+j}` (so `m_16 = 2^38`) versus
+nested `m_j = n_j/2 = 2^{23+j}` (so `m_16 = 2^39`). Both are correct
+counts of different windows; neither is an arithmetic error.
+
+**Falsifier.** If `2^39` is not `n_16/2` under the banked ladder, or if
+some third window count is what `PREREG.json:58` meant.
+
+## (Q5) THE SLIVER PREDICTION
+
+**Claim.** The `[255.9113, 256)` sliver of
+`notes/kernel_basis/TARGET_3C_EXTRACTION.md:29-30` is exactly
+`{L : t*(L) <= 2^33}` at `n = 2^41`, rate 1/2, under formula (T*) of
+`background/nodes/xr_radius_arithmetic/proof.md:41-43`.
+
+**Falsifier.** A computed left endpoint differing from 255.9113 by more
+than 0.001 bits.
+
+## (Q6) THE RECOMPUTE PROTOCOL (fixed before seeing results)
+
+LEMMA 3's official-row reading `t >= m_j / log2 p`
+(`notes/pilots_20260804/f2_opening/PROOFS.md:232-233`) and LEMMA 2's
+`Lambda ⊇ {1,3,...,2m-1}` cutoff `t >= 2 m_j - 1`
+(`:327-328`) are recomputed at EVERY rung `j = 1..16` under the full
+cross product {new-part, nested} x {every t on the pinned interval and
+every literal in circulation}. The band is reported as the intersection
+over the admissible t-interval, i.e. the WORST case, never the best.
+
+## (Q7) HONESTY CLAUSES (binding)
+
+- If the derived `t` is an INTERVAL rather than a value, that is the
+  finding; I will not collapse it to a point to force a verdict.
+- If the band is shorter than rungs 1-10 I report it unsoftened.
+- If PP5.0 / `|K1|` cannot be frozen from rules-level sources, I say so
+  and state exactly which choice remains open, rather than adopting the
+  convenient normalisation.
+- Any claim of mine that turns on the KoalaBear prime being the official
+  row is to be read as CONDITIONAL and labelled as such, since (Q1)/(Q3)
+  predict it is not admissible.

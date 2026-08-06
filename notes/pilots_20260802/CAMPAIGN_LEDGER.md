@@ -1231,3 +1231,55 @@ ramguard law; DRAFT ONLY; coordinator persists reports verbatim;
 explicit-path commits while running. STILL PENDING USER RATIFICATION:
 the W = 5 rollback (+ CR-W5-ELL1 census gated on it); CATCH-15A edit
 queued for mint-4.
+
+- 2026-08-06 CRASH + RECOVERY: a harness crash killed all four round-16
+  pilots mid-run (after PREREG appendices and partial state reached
+  disk). All four RESUMED from their own transcripts with context
+  intact, with instructions to re-verify on-disk state (half-written
+  files) before continuing. No work lost; no relaunch.
+
+## 2026-08-06: round-16 pilots 1-3 BANKED — SL-1b non-load-bearing; Ax-Katz DEAD (AK-UNIT); the t/q pin resolves HARDER than posed
+
+- **f2_sl1b (Opus) BANKED** (37/37). SL-1b PROVED as literally stated
+  (new k-free LEMMA SL-1b-DIM, sharp both ends, 131/131 floor rows)
+  but REFUTED in its intended reading (61 deployed-family witnesses,
+  disjoint-code-path confirmed) — NON-LOAD-BEARING, mystery 2 shortens
+  in name only; real residual = SL-1b' = the Z(L) terminal. Real gain:
+  LEMMA 3's necessary condition verified from below at rung 16
+  (large-t readings). CATCH-A: round-15 S4 measurement retracted as
+  support (floor(log2 p) bug, 61/61 false negatives). CATCH-B
+  (coordinator re-derived): v2(p^2-1) = 25, f2_opening's setting is
+  rung-1-only. CATCH-C: uncited DLI "no rank defect" precedent.
+- **es_axkatz_transfer (Opus) BANKED** (32/32 + injected-failure
+  fail-closed check). TRANSFER DEAD four ways; the structural kill is
+  THEOREM AK-UNIT (unconditional): the (ES) crossing target is a
+  p-adic unit, so ANY p-divisibility conclusion has the wrong shape —
+  non-vacuous congruence theorems would prove accident EXISTENCE
+  (refute (ES)), never prove it. AK-WARN: no exact algebraization can
+  ever have positive exponent. The classical-transfer ledger on (ES)
+  is now COMPLETE (enumerator/Weil/L2/congruence all cut). Frontier
+  REFRAMED: char-p vanishing-sums-of-roots-of-unity rigidity
+  (Lam-Leung/Conway-Jones analogue), invariant = the divisor profile
+  D(Z). CATCH-16A (ALG-I inexact for p <= n; ALG-L load-bearing).
+  CATCH-16B kept on the board: at BAND rows mu >= 1 alone would close
+  via the 0.68n^2 budget — the one live p-divisibility seam.
+- **f2_tq_pin (Opus) BANKED, MAINTAINER-LEVEL** (64/64). t = 7e10 is
+  a UNIT ERROR excluded by the rules (back-implies log2 q = 31.4 vs
+  n | q-1 forcing > 41); t* right in kind; t pinned to
+  (2^33, 5.364e10]. **CATCH-1: the 16-rung KoalaBear tower is NOT
+  prize-admissible** (cap broken from rung 4; admissible region
+  v_2(e) <= 2, e <= 6, log2 p >= 39, depth <= 2; answers
+  field_cap_check:9). **The "rungs 1-13" F2 discharge headline is
+  WITHDRAWN of record** -> rungs 1-10 (1-9 stricter window), on a
+  tower whose rungs >= 4 are rules-excluded; F2-ADM (re-derive on an
+  admissible row) is the named successor task. m_16 split resolved
+  (new-part 2^38 vs nested 2^39; stricter governs). |K1|/PP5.0 seam
+  PRICED: average-vs-sum = exactly 2^{n/2}, Theta(n) both readings —
+  the composition choice is a genuine open decision, SURFACED. Q5
+  self-falsified openly; one bare-python3 process defect self-reported.
+  Residual elevated: the t-NAMING COLLISION (|Lambda| vs A - k,
+  unproved identification).
+- CROSS-PILOT: SL-1b's INTERACTION-1 adjudicated via CATCH-1 (tower
+  branch moot; round-15 CATCH-4 sign flip CONFIRMED AND STRENGTHENED
+  — now rules-forced, not t*-specific).
+- Awaiting: es_boundary_adversary (main hunt running).
