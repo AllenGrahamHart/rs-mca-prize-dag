@@ -2079,3 +2079,40 @@ stray commit removed (git reset + ledger checkout), Codex's own
 newer commit and dirty in-flight state fully preserved, verified
 clean. RULE HARDENED: every worktree-inspection command uses
 git -C <path>; the coordinator shell never cd's into a worktree.
+
+## 2026-08-06: wave-47 WCL-stream audit BANKED (integration executes after the F2 auditor)
+
+- **WCL + remainder auditor (Opus) BANKED** (all replays exit 0;
+  draft at notes/wave24_integration_20260727/WAVE47_WCL_DRAFT.md).
+  HEADLINE: the WCL (1,5) SLOT CLOSURE IS REAL AND NOW STRONGER
+  THAN CODEX'S OWN PROOF — the census completeness rested on an
+  unreplayed Modal-volume artifact (2,296,920 affine-Galois
+  classes, SHA-pinned only); the AUDITOR RE-DERIVED IT FROM SCRATCH
+  by Burnside over |G| = 131072 (sum 301,061,898,240, remainder 0,
+  EXACT MATCH) — corroborating completeness AND irredundancy at
+  once. Certificates: tail-191 CADO factorization replayed 20/20
+  (self-certifying — the heavy compute is NOT a trust dependency);
+  193-hard-tail 17/17 with 400 independent primality proofs (own
+  BPSW); node verifier 5/5 tamper controls; the CS supplier node's
+  verifiers PASS. VERDICTS: ADOPT (tail-191 + 193 certs, zone
+  10->9, the wcl16_delta6 fence, the supplier node, roadmap/CR
+  shards, fiber_rigidity pilot); ADOPT-WITH-EDITS (easy census
+  with the volume-resident residual stated; the PROVED promotion;
+  the document decomposition WITH THE VERBATIM ADDENDUM RESTORED;
+  verify.py + 2 constants); HOLD (the weight4 background->critical
+  promotion — census-repricing, needs coordinator; the new
+  sectioning schema). CATCHES: **W-3** (paraphrase-clobber of our
+  ratified DSA addendum — similarity 0.37; surgical restore
+  prescribed); **W-5** (PRE-EXISTING CANONICAL RED:
+  rate_half_list_adjacent_crossing/verify.py FAILS at canonical
+  HEAD — 7 stale edge expectations, Codex fixes 6, 2 remain; repair
+  at integration); W-7 (the restored addendum's "MAINTAINER
+  question" is stale — answered by ruling 85c9d1536; update text at
+  restore); W-1 (opt-in tamper self-test reads as passed when
+  skipped); W-4 (two sectioning schemas now competing); W-6
+  (missing order fields). Honest residual: the easy census's 6.2M
+  primality checks are attested, not re-run — methodologically
+  independent + fail-closed, flagged. INTEGRATION DEFERRED to a
+  single batch with the F2 stream (one compile, one verify chain).
+  NOTE: the F2 auditor also owns a flagged "f2_admissible_object
+  PROVED->REFUTED conflict" — awaiting its report.
