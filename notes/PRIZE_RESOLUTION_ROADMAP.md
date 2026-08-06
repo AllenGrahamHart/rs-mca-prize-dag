@@ -18135,6 +18135,54 @@ new assumptions: none
 compute: apps ap-gD4VmoDpSyQJ2F6a5xsRnQ and ap-nC5KaETV5g1U6tiXAhfyDg, bounded PASS
 next: derive the exact p=3 mod 4 coupled kernel before further mass experiments
 ```
+
+### Round-18 F2 coupled minus-kernel close and canonical harvest
+
+Canonical `prize@feadaa03` completed four Round-18 pilots. The valid new
+field-generic contribution is THEOREM Z-FLOOR: for every rank-`d` linear
+syndrome map,
+
+```text
+2^m Z=sum_v N(v)^2,  Z>=max(1,2^m/p^d).
+```
+
+This is now the self-contained PROVED node
+`f2_weighted_kernel_collision_floor`. Canonical's generating census is not
+imported: its proof explicitly says admissibility forces
+`v_2(p-1)>=39`, again omitting `p=3 mod 4` and the official M61 row.
+
+The minus branch itself is now structurally closed by the PROVED node
+`f2_minus_branch_coupled_negacyclic_reduction`. For each exact/nested top
+window, write a ternary vector as the coefficient polynomial `P`. The
+kernel condition is vanishing at the first `R` odd roots. Frobenius closes
+those roots into `hR` distinct roots and their product is one polynomial
+`G_W in F_p[X]`; the kernel is exactly `G_W|P`. Thus
+
+```text
+window                         h        rank
+exact order 2^40 or 2^41       2        2R
+nested order 2^40              2        2R
+nested order 2^41              k        kR, k in {2,4}
+```
+
+The mass has an exact global L2 collision identity and pointwise floor, and
+the DLI transport gives ternary distance `2R+1`. It does not factor over
+the `2^40` singleton proportionality classes. The remaining minus terminal
+is now only the coupled-code mass upper bound. A scan of all 29 current
+open `przchojecki/rs-mca` PRs (`#1121`--`#1149`) found K3/L1/list-special
+packets and no overlapping F2 or `(Q)` packet to subtract.
+
+```text
+starting pin: 8418fe26; canonical feadaa03; upstream main 93fba1be
+lane: F2 / ternary-in-cyclotomic-code
+result: generic Z-FLOOR PROVED; minus top-window kernel/rank/L2/distance PROVED
+DAG status delta: two PROVED suppliers and two evidence edges; no target flip
+upstream terminal delta: canonical ternary-in-code primitive corrected to include the minus branch
+delta-star bracket movement: none
+new assumptions: none; initial odd run and official 2R<2^36 are deployed facts
+compute: app ap-P8S3Pzo8owNjxZpdZljpno, bounded PASS
+next: seek one upper-mass theorem covering plus GRS and minus Frobenius-closed root codes
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

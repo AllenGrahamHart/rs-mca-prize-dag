@@ -5,10 +5,11 @@
 - **status:** direct TARGET; no conditional proof is currently accepted
 - **proved suppliers:** empty and edge bands, full-ladder dictionary,
   contraction, near tails, structural census, and the admissible direct-sum
-  reduction on the plus branch
+  reduction on the plus branch; the generic pointwise collision floor; and
+  the coupled negacyclic top-window reduction on the minus branch
 - **open surfaces:** plus-branch generating-row GRS ternary mass,
-  minus-branch coupled extension-field kernel and payment, non-generating
-  direct payment, PP5.0 normalization, and coset-sensitive descent
+  minus-branch coupled-code mass upper bound, non-generating direct payment,
+  PP5.0 normalization, and coset-sensitive descent
 - **nonclaim:** `(O1)` is not assumed on non-generating rows; growing-order
   Myerson is not claimed sufficient
 - **route alarm:** the bounded-class direct-sum claim is refuted on the

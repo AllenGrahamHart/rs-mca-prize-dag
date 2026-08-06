@@ -12,9 +12,12 @@ bound alone is not sufficient.
 
 When `p=3 mod 4`, the bounded-class reduction is unavailable even on
 generating rows. The official witness `p=2^61-1`, `q=p^2` has `C=2^40`
-singleton proportionality classes. Derive the coupled extension-field
-odd-moment kernel, its exact weighted collision identity, and a direct mass
-or extras bound. Do not factor it as independent singleton kernels.
+singleton proportionality classes. The coupled kernel and exact weighted
+collision identity are now proved: each top window is the `F_p` coefficient
+code divisible by an explicit Frobenius-closed negacyclic root polynomial,
+with rank `hR`, pointwise floor, and ternary distance `2R+1`. Prove a
+subexponential upper bound for this coupled mass, or pay the final extras
+directly. Do not factor it as independent singleton kernels.
 
 ## Non-generating rows in either branch
 
@@ -34,6 +37,6 @@ show that its hypotheses and constants cover every such row.
   all-row premise.
 
 The preferred next attacks are the explicit GRS ternary mass on plus-branch
-generating rows and the exact coupled kernel on minus-branch generating
-rows. In parallel, seek a direct formulation of the non-generating extras
-count before proposing any conditional assembly.
+generating rows and the explicit coupled negacyclic mass on minus-branch
+generating rows. In parallel, seek a direct formulation of the
+non-generating extras count before proposing any conditional assembly.

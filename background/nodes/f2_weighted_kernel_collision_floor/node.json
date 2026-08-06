@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f2_weighted_kernel_collision_floor",
+    "title": "F2 weighted-kernel pointwise collision floor",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every F_p-linear map A:F_p^m->V of rank d, the weighted ternary kernel mass Z(A) satisfies 2^m Z(A)=sum_v N(v)^2 exactly, where N(v) counts subset incidence vectors of syndrome v. Consequently Z(A)>=max(1,2^m/p^d) pointwise. Each N(v) is also a full-agreement list-recovery output size for ker(A) with coordinate lists of size two. No mass upper bound or max-fiber theorem is claimed.",
+    "refs": [
+      "background/nodes/f2_weighted_kernel_collision_floor/statement.md",
+      "background/nodes/f2_weighted_kernel_collision_floor/proof.md",
+      "background/nodes/f2_weighted_kernel_collision_floor/audit.md",
+      "background/nodes/f2_weighted_kernel_collision_floor/claim_contract.md",
+      "background/nodes/f2_weighted_kernel_collision_floor/dependency_subdag.md",
+      "background/nodes/f2_weighted_kernel_collision_floor/result.md",
+      "background/nodes/f2_weighted_kernel_collision_floor/verify.py",
+      "notes/pilots_20260806/f2_minus_branch/coupled_kernel_result.json"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f2_conditional_close"
+    }
+  ],
+  "refutes": []
+}

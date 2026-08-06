@@ -13,3 +13,9 @@ the antipodal quotient. The old bounded-class theorem is retained only for
 `p=1 mod 4`; its Newton-distance and weighted-L2 descendants receive the
 same scope restriction. The F2 prize target remains open rather than
 refuted.
+
+Canonical Round 18 at `prize@feadaa03` repeats the omitted-branch step in
+its claim that admissibility forces `v_2(p-1)>=39` and that exactly three
+generating classes survive. Its field-generic `Z-FLOOR` theorem is valid and
+has been imported separately. The minus branch is repaired by the coupled
+negacyclic reduction, not by retaining the bounded-class census.

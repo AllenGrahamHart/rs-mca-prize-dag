@@ -13,5 +13,7 @@ The July growing-order Myerson conditional close is retired as the route of
 record. Round 17 proves that its tower is not the official decomposition and
 that its `(O1)` premise is false on non-generating admissible rows. The
 bounded prime-field GRS reduction is proved only on the plus branch
-`p=1 mod 4`; the minus branch `p=3 mod 4` requires a coupled
-extension-field treatment. The target conclusion itself is not refuted.
+`p=1 mod 4`. On the minus branch `p=3 mod 4`, the top-window kernel is now
+proved to be one Frobenius-coupled negacyclic root code with exact rank and
+collision identity; its mass upper bound remains open. The target
+conclusion itself is not refuted.

@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f2_minus_branch_coupled_negacyclic_reduction",
+    "title": "Minus-branch F2 coupled negacyclic top-window reduction",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every official maximal rate-half p=3 mod 4 row, b=v_2(p+1)>=39 and ord_(2^41)(p)=2^max(1,41-b) is 2 or 4. At each exact or nested top window of order 2^40 or 2^41, the F2 kernel is the F_p coefficient code of polynomials divisible by the Frobenius-closed root polynomial on the first R odd powers. Its scalar rank is hR, where h=2 except at the nested top window where h=ord_(2^41)(p). Its weighted ternary mass has the exact L2 collision form and pointwise floor 2^m/p^(hR), and every nonzero ternary word has weight at least 2R+1. The code is Frobenius-coupled and its mass does not factor over singleton proportionality classes. No mass upper bound is claimed.",
+    "refs": [
+      "background/nodes/f2_minus_branch_coupled_negacyclic_reduction/statement.md",
+      "background/nodes/f2_minus_branch_coupled_negacyclic_reduction/proof.md",
+      "background/nodes/f2_minus_branch_coupled_negacyclic_reduction/audit.md",
+      "background/nodes/f2_minus_branch_coupled_negacyclic_reduction/claim_contract.md",
+      "background/nodes/f2_minus_branch_coupled_negacyclic_reduction/dependency_subdag.md",
+      "background/nodes/f2_minus_branch_coupled_negacyclic_reduction/result.md",
+      "background/nodes/f2_minus_branch_coupled_negacyclic_reduction/verify.py",
+      "notes/pilots_20260806/f2_minus_branch/COUPLED_KERNEL_PREREG.md",
+      "notes/pilots_20260806/f2_minus_branch/coupled_kernel_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_newton_short_window_exclusion"
+    },
+    {
+      "from": "f2_weighted_kernel_collision_floor"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f2_conditional_close"
+    }
+  ],
+  "refutes": []
+}
