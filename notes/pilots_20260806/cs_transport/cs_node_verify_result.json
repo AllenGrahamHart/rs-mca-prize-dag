@@ -1,0 +1,19 @@
+{
+  "app": "rs-mca-cs-proved-node-verification",
+  "records": [
+    {
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "RATE_HALF_CROSSING_IDEAL_GALOIS_MULTIPLICITY_EXCLUSION_PASS norm_checks=816 divisibility_checks=1104 first_excluded=170752922588 dag=2/2\n",
+      "verifier": "verify.py"
+    },
+    {
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/repo/background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/verify_audit.py\", line 58, in <module>\n    main()\n  File \"/repo/background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/verify_audit.py\", line 45, in main\n    assert \"not uniform\" in contract\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+      "stdout": "",
+      "verifier": "verify_audit.py"
+    }
+  ],
+  "schema": "cs-proved-node-verification-v1",
+  "status": "FAIL"
+}
