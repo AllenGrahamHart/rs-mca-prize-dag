@@ -96,6 +96,13 @@ complete inventory with 35,890 valid batches, 2,296,920 covered rows, zero
 missing/invalid/shard/gate records, and the exact hard-tail count can close
 the easy stage.
 
+Final inventory app `ap-g4Ct3WA3vwpVbtQ6jvlGgM` completed and stopped
+normally.  It validates all 35,890 batches and 2,296,920 rows, with 2,296,726
+fully factored rows and 194 distinct hard tails.  There is no custody error or
+gate factor; maximum `v_2(p-1)=30`.  The easy stage is complete.  Final
+inventory SHA-256 is
+`98f5a0b35ceb420519ed58589047f921ef962d9eb19efe36c1f5917ac02c131a`.
+
 ## Packaging-only first launch
 
 App `ap-Zz4V2PkJVwGCxmOICMrEov` was stopped immediately after its workers

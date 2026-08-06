@@ -5171,6 +5171,17 @@ makes a bounded range complete.
   is `c7cc723272f72cf9693e7b0391f79063eb89bc3de977c36fbbbd8f333f694221`.
   One final all-volume inventory is authorized under the same 420/390-second
   and sub-`$0.03` metadata-only ceiling.
+  Final inventory app `ap-g4Ct3WA3vwpVbtQ6jvlGgM` completed and stopped
+  normally: all 35,890 batches and 2,296,920 rows, 2,296,726 fully factored,
+  194 distinct hard tails, no custody error or gate factor, maximum
+  `v_2(p-1)=30`.  Final easy-inventory SHA-256 is
+  `98f5a0b35ceb420519ed58589047f921ef962d9eb19efe36c1f5917ac02c131a`.
+  **Hard-tail authorization:** compile the exact 194-norm manifest with one
+  bounded parallel-I/O container, factor those norms in at most 100 one-CPU,
+  2-GiB, 420/300-second workers, and emit a tail-only aggregate.  Expected
+  below `$1.50`, conservative ceiling `$3`; no retry or easy-factor aggregate.
+  Full protocol is
+  `notes/pilots_20260806/wcl15_finish/HARD_TAIL_PREREG.md`.
 
 - **2026-08-03 interrupted-census checkpoint (Codex pin `8502b105`):**
   app `ap-f8oZLbaSVpbTXtCz4cPG2Z` extended the exact `(1,5)` recursive-norm

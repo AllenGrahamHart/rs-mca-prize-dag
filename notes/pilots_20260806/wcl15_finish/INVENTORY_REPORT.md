@@ -52,3 +52,16 @@ maximum `v_2(p-1)=30`, no custody error or gate factor, and exactly the
 contiguous suffix 31,332--35,889 left.  It completed in 44.144918 seconds;
 updated inventory SHA-256 is
 `0d99871c28c6d716e3a2542fd0b003a1c1fbf63e3f7b7522257681129e8b4801`.
+
+## Easy stage complete
+
+Final inventory app `ap-g4Ct3WA3vwpVbtQ6jvlGgM` completed and stopped
+normally.  It validates all 35,890 batches and all 2,296,920 rows.  Exactly
+2,296,726 rows are completely factored and 194 distinct norms are retained
+for the hard-tail stage.  There is no invalid/extra summary, missing batch,
+missing prime shard, or recorded official-gate factor; maximum
+`v_2(p-1)=30`.  Runtime was 105.643959 seconds.  Final easy-inventory SHA-256:
+
+```text
+98f5a0b35ceb420519ed58589047f921ef962d9eb19efe36c1f5917ac02c131a
+```

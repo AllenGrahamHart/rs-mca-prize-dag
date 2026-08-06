@@ -31,6 +31,10 @@ TAIL_RESULT_FILE = f"{TAIL_ROOT}/result.json"
 OUTPUT = Path(__file__).with_name(
     "dli_wcl_weight5_recursive_norm_tail_result.json"
 )
+FACTOR_ONLY_OUTPUT = Path(__file__).with_name(
+    "dli_wcl_weight5_recursive_norm_tail_factor_only_result.json"
+)
+FACTOR_ONLY_RESULT_FILE = f"{TAIL_ROOT}/factor_only_result.json"
 
 app = modal.App("rs-mca-dli-wcl-weight5-recursive-norm-tail")
 volume = modal.Volume.from_name("rs-mca-dli-wcl-weight5-affine-classes-v1")
@@ -49,6 +53,7 @@ def valuation_two(value: int) -> int:
     volumes={"/classes": volume},
 )
 def compile_tail_manifest() -> dict[str, object]:
+    import concurrent.futures
     import time
 
     started = time.monotonic()
@@ -56,45 +61,53 @@ def compile_tail_manifest() -> dict[str, object]:
     expected_batches = (CLASS_COUNT + BATCH_SIZE - 1) // BATCH_SIZE
     by_norm: dict[str, dict[str, object]] = {}
     easy_unresolved = 0
-    for batch_index in range(expected_batches):
-        start = batch_index * BATCH_SIZE
-        end = min(start + BATCH_SIZE, CLASS_COUNT)
+
+    def read_batch(batch_index: int) -> tuple[int, dict[str, object]]:
         path = f"{EASY_BATCH_ROOT}/part_{batch_index:05d}.json"
         with open(path) as handle:
-            batch = json.load(handle)
-        expected = {
-            "schema": "dli-wcl-weight5-recursive-norm-batch-v2",
-            "run_id": EASY_RUN_ID,
-            "status": "COMPLETE",
-            "batch_index": batch_index,
-            "start": start,
-            "end": end,
-            "rows": end - start,
-        }
-        if any(batch.get(key) != value for key, value in expected.items()):
-            raise AssertionError((batch_index, "easy checkpoint"))
-        for case in batch["unresolved_cases"]:
-            easy_unresolved += 1
-            norm = case["norm"]
-            if str(int(norm)) != norm or int(norm).bit_length() != case["norm_bits"]:
-                raise AssertionError((batch_index, "tail norm"))
-            row = by_norm.setdefault(
-                norm,
-                {
-                    "norm": norm,
-                    "norm_bits": case["norm_bits"],
-                    "classes": [],
-                },
-            )
-            if row["norm_bits"] != case["norm_bits"]:
-                raise AssertionError((norm, "norm bits"))
-            row["classes"].append(
-                {
-                    "class_index": case["class_index"],
-                    "key": case["key"],
-                    "reason": case["reason"],
-                }
-            )
+            return batch_index, json.load(handle)
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=96) as executor:
+        batches = executor.map(read_batch, range(expected_batches))
+        for batch_index, batch in batches:
+            start = batch_index * BATCH_SIZE
+            end = min(start + BATCH_SIZE, CLASS_COUNT)
+            expected = {
+                "schema": "dli-wcl-weight5-recursive-norm-batch-v2",
+                "run_id": EASY_RUN_ID,
+                "status": "COMPLETE",
+                "batch_index": batch_index,
+                "start": start,
+                "end": end,
+                "rows": end - start,
+            }
+            if any(batch.get(key) != value for key, value in expected.items()):
+                raise AssertionError((batch_index, "easy checkpoint"))
+            for case in batch["unresolved_cases"]:
+                easy_unresolved += 1
+                norm = case["norm"]
+                if (
+                    str(int(norm)) != norm
+                    or int(norm).bit_length() != case["norm_bits"]
+                ):
+                    raise AssertionError((batch_index, "tail norm"))
+                row = by_norm.setdefault(
+                    norm,
+                    {
+                        "norm": norm,
+                        "norm_bits": case["norm_bits"],
+                        "classes": [],
+                    },
+                )
+                if row["norm_bits"] != case["norm_bits"]:
+                    raise AssertionError((norm, "norm bits"))
+                row["classes"].append(
+                    {
+                        "class_index": case["class_index"],
+                        "key": case["key"],
+                        "reason": case["reason"],
+                    }
+                )
 
     rows = sorted(by_norm.values(), key=lambda row: int(row["norm"]))
     digest = hashlib.sha256()
@@ -339,8 +352,97 @@ def aggregate_tail() -> dict[str, object]:
     return result
 
 
+@app.function(
+    image=image,
+    cpu=2,
+    memory=4096,
+    timeout=900,
+    volumes={"/classes": volume},
+)
+def aggregate_tail_factors() -> dict[str, object]:
+    import time
+
+    started = time.monotonic()
+    volume.reload()
+    with open(TAIL_MANIFEST_FILE) as handle:
+        manifest = json.load(handle)
+    if (
+        manifest.get("schema")
+        != "dli-wcl-weight5-recursive-norm-tail-manifest-v1"
+        or manifest.get("status") != "COMPLETE"
+        or manifest.get("tail_run_id") != TAIL_RUN_ID
+    ):
+        raise AssertionError("tail manifest")
+
+    factors = []
+    missing = []
+    high_gate_cases = []
+    prime_set = set()
+    rows_by_index = {int(row["tail_index"]): row for row in manifest["rows"]}
+    for tail_index, manifest_row in sorted(rows_by_index.items()):
+        path = f"{TAIL_FACTOR_ROOT}/part_{tail_index:05d}.json"
+        try:
+            with open(path) as handle:
+                factor = json.load(handle)
+        except (FileNotFoundError, json.JSONDecodeError) as error:
+            missing.append({"tail_index": tail_index, "error": repr(error)})
+            continue
+        expected = {
+            "schema": "dli-wcl-weight5-recursive-norm-tail-factor-v1",
+            "tail_run_id": TAIL_RUN_ID,
+            "tail_index": tail_index,
+            "norm": manifest_row["norm"],
+        }
+        if any(factor.get(key) != value for key, value in expected.items()):
+            raise AssertionError((tail_index, "tail checkpoint"))
+        factors.append(factor)
+        if factor["status"] != "COMPLETE":
+            missing.append({"tail_index": tail_index, "error": factor.get("error")})
+            continue
+        prime_set.update(int(row[0]) for row in factor["factors"])
+        for candidate in factor["high_gate_factors"]:
+            high_gate_cases.append(
+                {
+                    "tail_index": tail_index,
+                    "norm": manifest_row["norm"],
+                    "classes": manifest_row["classes"],
+                    **candidate,
+                }
+            )
+
+    prime_text = "".join(f"{prime}\n" for prime in sorted(prime_set))
+    result = {
+        "schema": "dli-wcl-weight5-recursive-norm-tail-factor-only-v1",
+        "status": "COMPLETE" if not missing else "PARTIAL",
+        "easy_run_id": EASY_RUN_ID,
+        "tail_run_id": TAIL_RUN_ID,
+        "manifest": manifest,
+        "factor_results": factors,
+        "missing": missing,
+        "tail_distinct_primes": len(prime_set),
+        "tail_prime_digest": hashlib.sha256(prime_text.encode()).hexdigest(),
+        "max_v2_prime_minus_1": max(
+            (valuation_two(prime - 1) for prime in prime_set), default=-1
+        ),
+        "max_v2_below_cap": max(
+            (valuation_two(prime - 1) for prime in prime_set if prime < CAP),
+            default=-1,
+        ),
+        "high_gate_cases": high_gate_cases,
+        "max_tail_seconds": max(
+            (float(row["seconds"]) for row in factors), default=0.0
+        ),
+        "seconds": round(time.monotonic() - started, 6),
+    }
+    temporary = FACTOR_ONLY_RESULT_FILE + ".tmp"
+    Path(temporary).write_text(json.dumps(result, sort_keys=True) + "\n")
+    Path(temporary).replace(FACTOR_ONLY_RESULT_FILE)
+    volume.commit()
+    return result
+
+
 @app.local_entrypoint()
-def main(external_full: bool = False) -> None:
+def main(external_full: bool = False, factor_only: bool = False) -> None:
     if not external_full:
         raise RuntimeError(
             "full CR-004 tail is not locally authorized; pass "
@@ -364,11 +466,14 @@ def main(external_full: bool = False) -> None:
         else:
             completed += int(row["status"] == "COMPLETE")
             cache_hits += int(bool(row.get("cache_hit")))
-    result = aggregate_tail.remote()
+    result = (
+        aggregate_tail_factors.remote() if factor_only else aggregate_tail.remote()
+    )
     result["source_sha256"] = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     result["client_errors"] = client_errors
     result["cache_hits"] = cache_hits
-    OUTPUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    output = FACTOR_ONLY_OUTPUT if factor_only else OUTPUT
+    output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
     print(
         "DLI_WCL_WEIGHT5_RECURSIVE_NORM_TAIL "
         + json.dumps(
@@ -380,7 +485,9 @@ def main(external_full: bool = False) -> None:
                 "cache_hits": cache_hits,
                 "client_errors": len(client_errors),
                 "missing": len(result["missing"]),
-                "distinct_primes": result["combined_distinct_primes"],
+                "distinct_primes": result.get(
+                    "combined_distinct_primes", result.get("tail_distinct_primes")
+                ),
                 "max_v2_below_cap": result["max_v2_below_cap"],
                 "eligible": len(result["high_gate_cases"]),
             },
