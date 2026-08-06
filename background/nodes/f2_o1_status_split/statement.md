@@ -77,3 +77,19 @@ reading A + (C); a proof that the intended ensemble is (C) (restores
 
 (O1) itself, in either direction, on generating rows; the parity or
 ensemble pins (maintainer); any Z_1 upper bound.
+
+## Addendum (2026-08-06, the reading rulings — the 2x2 is RULED)
+
+Coordinator rulings (user-prompted, soundness-forced, of record):
+Lambda parity = READING A (forced by the proved trichotomy + the
+lane's own text); ensemble = THE SLICE (T*) (forced by the
+(O1) => (O2) fence — the consumer demands it); PP5.0 = SUM.
+CONSEQUENCE: **(O1) AS POSED IS FALSE on generating rows as well as
+non-generating ones** — the "two live values" language above is
+superseded. The F2 lane's obligation of record is the minimal
+surviving form with the MASS target and the tail-count criterion
+(see f2_z1_mass_knife_edge). The former "maintainer seam" is
+dissolved: these were conventions inside OUR chain, decided by what
+makes the chain sound, and the spec-level scope question is decided
+by the spec text itself (non-generating rows in-family; see the
+2026-08-06 rulings entry in CAMPAIGN_LEDGER).

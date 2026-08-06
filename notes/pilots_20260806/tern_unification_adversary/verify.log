@@ -1,0 +1,115 @@
+verify.py -- tern_unification_adversary (round 19, ADVERSARIAL)
+
+=== SECTION 1: criticality coordinate vs banked constants (P2,P3,P4) ===
+  [PASS] I1 witness: log2 q = 255.999997420 (f2_adm REPORT.md:10)  --  log2 q = 255.999997420
+  [PASS] I1 witness: R = ceil(t/2) = 4,294,967,340  --  computed 4294967340, t = 8589934678.5617
+  [PASS] I1 knife edge: B = S - R*log2 p = -46.02 bits (banked -46.02)  --  B = -46.0249
+  [PASS] I1 exact-balance reading (one Lambda condition fewer): +17.98 bits  --  B = 17.9751
+  [PASS] I1 one Lambda condition is worth log2 p = 64 bits  --  delta = 63.999999, log2 p = 63.999999
+  [PASS] I1: tau = 1 to within 1e-9 (saturation, THEOREM Z-NOGO)  --  tau = 1.000000000167
+  [PASS] I1: R/S = 1/log2 p to within 1e-9  --  R/S = 0.015625000160, 1/log2 p = 0.015625000157
+  [PASS] I1: Tcrit = 0.585 * 2^38 bits (CATCH-Z1's (3/2)^S)  --  Tcrit = 1.6079e+11 = 0.584963 * 2^38
+  [PASS] I1: Tcrit > 0  (SUPERCRITICAL -- ternary vectors abundant)  --  Tcrit = +1.6079e+11 bits
+  [PASS] I2: L = 2^{41-v} = 128 at v = 34 (LEMMA DS)  --  L = 128
+  [PASS] I2: 3^L = 2^202.875 (LEMMA TC's requirement at v = 34)  --  202.875200
+  [PASS] I2: Tcrit = -53.1 bits (banked 3^128/p = 2^{-53.1})  --  Tcrit = -53.1248
+  [PASS] I2: orbit-corrected Tcrit = -61.1 bits (LEMMA ROT, orbits 2L = 256)  --  -61.1248
+  [PASS] I2: tau = 2 exactly  --  tau = 2
+  [PASS] I2: Tcrit < 0  (SUBCRITICAL -- ternary relations expected absent)
+  [PASS] I3: c = ceil((w-1)/2) = 2^33 at w = 2^34  --  c = 8589934592
+  [PASS] I3: tau = 2 exactly  --  tau = 2
+  [PASS] I3: Tcrit = -0.41504 * 2^40 bits (SUBCRITICAL)  --  Tcrit = -4.56339e+11 = -0.415037 * 2^40
+  [PASS] P4: sign(Tcrit) is + at I1 and - at I2 and I3 (PHASE TRANSITION)  --  I1 +1.608e+11 | I2 -53.125 | I3 -4.563e+11
+  [PASS] I3: bracket bottom w = 2^34 is only 0.336 bits above the ternary threshold w_tern = log2(3)*2^33  --  log2 w_tern = 33.66445, margin = 0.33555 bits
+  [PASS] I2: one step below the bracket (v = 33, L = 256) tau = 1 and Tcrit = +149.75 bits -- SUPERCRITICAL at the recorded PRIME rows  --  tau = 1, Tcrit = +149.7504
+  [PASS] I1 at the shared e = 1 row: tau = 1 to within 1e-9 (saturation is e-independent)  --  tau = 1.000000000067
+  [PASS] I1 at the shared e = 1 row: Tcrit = +0.585 * 2^40 bits  --  Tcrit = +6.43173e+11
+
+=== SECTION 2: the SHARED admissible row (P5) ===
+  [PASS] an explicit 256-bit probable prime p = k*2^41 + 1, k odd, exists INSIDE the prize-max sliver log2 q in [255.9113, 256)  --  p = 108887375294690666722882806605166818982732176609682603652941949788724960165889
+  [PASS] shared row: v_2(p-1) = 41 exactly (=> e_p = 41, S = 2^40 at e = 1)  --  v_2(p-1) = 41
+  [PASS] shared row: log2 p in [255.9113, 256) -- inside BOTH the prize-max admissible sliver and the crossing razor row's (255.900, 256)  --  log2 p = 255.911300000
+  [PASS] shared row I1: ord_n(p) = 1 = e  (GENERATING, k = e)
+  [PASS] shared row I1: e*log2 p < 256 with e = 1
+  [PASS] shared row I2: B* = floor(q/2^128) >= 3  --  B* = 319991236336937980527023781106102947284
+  [PASS] shared row I2: p is NOT in the DSA regime (p^{delta_a} >= 2^{L-2}), so the crossing question is OPEN there  --  delta_a = ord_256(p) = 1 since 256 | p-1
+  [PASS] shared row I2: delta_a = ord_{2L}(p) = 1 at L = 128
+  [PASS] shared row I3: q = p prime with v_2(q-1) >= 41 (official gate)
+  [note] SHARED ROW EXHIBIT: p = 108887375294690666722882806605166818982732176609682603652941949788724960165889
+  [note] Existence is unconditional by Dirichlet/PNT for the progression 1 mod 2^41; the exhibit above is a Miller-Rabin probable prime (40 fixed bases) offered as a convenience, not as the proof.
+
+=== SECTION 3: master object M(N,c,p) on 2-power toys (P1, P6, P7, P8) ===
+    N   c    p   #nonzero  minwt   Tcrit(bits)   2^Tcrit
+    8   1   17        384       3       8.592        385.941
+    8   2   17         16       6       4.505         22.702
+    8   3   17          0    None       0.417          1.335
+    8   4   17          0    None      -3.670          0.079
+    8   1   97         64       4       6.080         67.639
+    8   2   97          0    None      -0.520          0.697
+    8   3   97          0    None      -7.120          0.007
+    8   4   97          0    None     -13.720          0.000
+    8   1  113         64       5       5.860         58.062
+    8   2  113          0    None      -0.961          0.514
+    8   3  113          0    None      -7.781          0.005
+    8   4  113          0    None     -14.601          0.000
+    8   1  193         32       5       5.087         33.995
+    8   2  193          0    None      -2.505          0.176
+    8   3  193          0    None     -10.098          0.001
+    8   4  193          0    None     -17.690          0.000
+    8   1  241         16       5       4.767         27.224
+    8   2  241          0    None      -3.146          0.113
+    8   3  241          0    None     -11.059          0.000
+    8   4  241          0    None     -18.972          0.000
+   16   1   97     443776       3      18.759     443780.629
+   16   2   97       4832       5      12.160       4575.058
+   16   3   97          0    None       5.560         47.166
+   16   4   97          0    None      -1.040          0.486
+  [PASS] P1/P7 LEMMA ROT: negacyclic shift preserves every toy code and all sampled orbit sizes divide 2N  --  24 grids, 449208 codewords
+  [PASS] P8 THEOREM Z-1: min ternary weight >= 2c+1 on every 2-power toy with a shift-0 odd window
+  [PASS] THEOREM Z-FLOOR: Z >= 2^N/p^c on every toy (exact rationals)  --  7 grids where the floor exceeds 1
+  [PASS] P6 THEOREM DSA = Z-FLOOR's existence corollary + support control: p^c < 2^{N-2} always produced a nonzero ternary codeword supported in the first N-2 coordinates  --  3 firing grids
+  [PASS] calibration: sign(Tcrit) predicts nonemptiness on the 2-power toys in >= 80% of grids  --  22/24, misses [(8, 3, 17, 0, 0.4173114820182312), (16, 3, 97, 0, 5.5596614849771155)]
+  [PASS] LEMMA ROT transferred: orbit-correcting the first moment by 2N strictly improves the calibration  --  23/24 vs 22/24; residual misses [(16, 3, 97, 0, 0.56)]
+  [note] Both uncorrected misses are grids with a small POSITIVE Tcrit and an empty code; the 2N orbit correction (LEMMA ROT, transferred from I2 to the master object) accounts for them. The single residual miss sits at a 0.56-bit margin -- inside Poisson noise.
+  [note] The toy sweep calibrates the criticality coordinate only. Per f2_z1_mass_knife_edge/statement.md:68-69, no toy is evidence about any official row.
+
+=== SECTION 4: CATCH-Z6 / the Z-basis property (P11) ===
+    2N =   8  deg Phi_2N =  4  N =  4   p-independent ternary relations: 0   min wt None
+  [PASS] 2-power 2N = 8: deg Phi_2N = N, so ZERO p-independent ternary relations (the Z-basis property)
+    2N =  16  deg Phi_2N =  8  N =  8   p-independent ternary relations: 0   min wt None
+  [PASS] 2-power 2N = 16: deg Phi_2N = N, so ZERO p-independent ternary relations (the Z-basis property)
+    2N =  32  deg Phi_2N = 16  N = 16   p-independent ternary relations: 0   min wt None
+  [PASS] 2-power 2N = 32: deg Phi_2N = N, so ZERO p-independent ternary relations (the Z-basis property)
+    2N =  12  deg Phi_2N =  4  N =  6   p-independent ternary relations: 8   min wt 3
+    2N =  20  deg Phi_2N =  8  N = 10   p-independent ternary relations: 8   min wt 5
+    2N =  24  deg Phi_2N =  8  N = 12   p-independent ternary relations: 80   min wt 3
+  [PASS] CATCH-Z6 reproduced at composite 2N = 12: 8 relations, min weight 3  --  got 8, min wt 3
+  [PASS] CATCH-Z6 reproduced at composite 2N = 20: 8 relations  --  got 8, min wt 5
+  [PASS] CATCH-Z6 reproduced at composite 2N = 24: 80 relations  --  got 80, min wt 3
+  [note] All three instances live at 2-POWER N in their live regimes (I1: S = 2^40/e; I2: L = 2^{41-v}; I3: h = 2^40), hence all three are structurally immune to CATCH-Z6's parasitic relations.
+
+=== SECTION 5: transfer-matrix arithmetic (P9, P10) ===
+  [PASS] P9: at I1, c*log2 p = S to within 50 bits of 2.7e11 (saturation)  --  c*log2 p - S = 46.025
+  [PASS] P9: the ternary extension of CS excludes only U < 4 at I1 -- PROVABLY VACUOUS  --  CS would exclude ternary support U < 4.000000
+  [note] Against THEOREM Z-1's min ternary weight 2R+1 = 8,589,934,681 at I1, a U < 4 exclusion is 9 orders of magnitude short.
+  [PASS] P10 SP-COVER blind spot at the shared row -- I1 (window {1,3,..,2R-1}, top ~ 2^33): needs w >= 2^42, has 2^33  --  short by 9 bits
+  [PASS] P10 SP-COVER blind spot at the shared row -- I2 (window {1}, top = 2^1): needs w >= 2^42, has 2^1  --  short by 41 bits
+  [PASS] P10 SP-COVER blind spot at the shared row -- I3 (window {1,..,w-1}, top <= 2^39 = bracket cap): needs w >= 2^42, has 2^39  --  short by 3 bits
+  [note] E-3 (es_ternary_suppression_instruments/statement.md:57-62) is therefore not an I3 defect: the official smooth-domain gate v_2(q-1) >= 41 blind-spots SP-COVER in ALL THREE instances.
+  [PASS] consistency: Z-FLOOR firing (+17.98) with min weight 2R+1 forces >= 2^{8.59e9} ternary codewords, which fits inside 3^S = 2^{1.74e12}  --  forced >= 2^8.5899e+9, available 3^S = 2^4.3567e+11
+  [PASS] consistency: that forced count is far below the first-moment expectation 2^{0.585*2^38}  --  8.5899e+9 < 1.6079e+11
+
+=== SECTION 6: P7 scope -- all-odd vs MIXED-PARITY windows ===
+    all-odd  {1}     #nonzero=443776  negashift-closed=True   orbit sizes=[32]
+    all-odd  {1,3}   #nonzero= 4832  negashift-closed=True   orbit sizes=[32]
+    all-odd  {1,3,5} #nonzero=    0  negashift-closed=True   orbit sizes=[]
+    MIXED    {1,2}   #nonzero= 4796  negashift-closed=False  orbit sizes=[32]
+    MIXED    {1,2,3} #nonzero=   52  negashift-closed=False  orbit sizes=[32]
+    all-even {2,4}   #nonzero= 4368  negashift-closed=False  orbit sizes=[32]
+  [PASS] P7 scope: on ALL-ODD windows the negacyclic shift closes the code and every orbit size divides 2N (LEMMA ROT transfers)
+  [PASS] NON-VACUITY GUARD: the mixed-parity windows actually carry nonzero ternary codewords (else the next check would fail open)  --  2/2 populated
+  [PASS] sibling CATCH-19A CONFIRMED: on MIXED-PARITY windows the negacyclic shift does NOT close the code -- 'negacyclic iff all-odd'  --  even-index conditions evaluate X^N to +1, odd ones to -1, so no single ambient algebra X^N -+ 1 carries both
+  [note] I1's banked window is ALL-ODD -- 'P(omega^{2j-1}) = 0, j = 1..ell' with 'Lambda = {odd l : l <= t} starts at l = 1' (z1_ternary_mass/PROOFS.md:87-94). So the all-odd branch is the one I1 sits on, and the 2N orbit constant stands for I1. Flagged for coordinator adjudication against CATCH-19A's 'I1's mixed-parity windows' reading.
+
+======================================================================
+RESULT: ALL CHECKS PASSED

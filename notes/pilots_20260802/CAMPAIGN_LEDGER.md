@@ -1909,3 +1909,173 @@ instrument matrices at the bank. Standing rules as round 18
   adversary/master pair surfaces. Honest limit: implementation-
   death, not a Z-NOGO-strength no-go.
 - Awaiting: tern_unification_adversary (the round's gate).
+
+## 2026-08-06: round-19 pilot 4 BANKED — ROUND 19 COMPLETE: THE GRADED VERDICT; tern_master_threshold MINTED
+
+- **tern_unification_adversary (Opus) BANKED — THE GATE** (54/54;
+  two self-corrections caught by its own fail-closed gates). THE
+  GRADED VERDICT, ADOPTED OF RECORD: **OBJECT survives** (proved —
+  one negacyclic code, all-odd shift-0 window; PROPOSITION FIB:
+  I1's mass IS a count of binary pairs, my disanalogy (iii) false;
+  the real split = constant-weight vs full-cube); **REGIME survives
+  as satisfiability** (THEOREM SR: an explicit shared admissible
+  256-bit prime row for ALL THREE — the anti-(ES) result; no shared
+  discharge); **METHOD survives but INERT** (verbatim transfers,
+  every one vacuous at its target's tau); **STATEMENT KILLED** by
+  **THEOREM PT — the phase transition**: tau = g log2 p / h puts I1
+  AT tau = 1 (forced by saturation; supercritical — only MASS can
+  be true; CATCH-Z1's re-pin was FORCED by sign(Tcrit)) vs I2/I3 at
+  tau = 2 (subcritical — EMPTINESS the target); the coordinate
+  reproduces FOUR banked constants unfitted. **COROLLARY PT-2 (WATCH
+  LINE)**: the crossing bracket's proved lower endpoint clears the
+  ternary threshold by 0.336 BITS — one step below, prime rows go
+  supercritical; re-run on any bracket change. ADJUDICATIONS:
+  CATCH-19A RE-SCOPED (the official I1 window is ALL-ODD — the 2N
+  orbit constant STANDS for the official object; ssl's collapse is
+  miniature-convention-only; addendum written); I4 DEMOTED (three
+  instances, not four — the (ES)-style inflation caught); the
+  QUARANTINE RULE adopted (blind pilots must not read in-round
+  ledger sections — the porosity was disclosed with an honest
+  timeline; the -46.0249/+17.9751 is now a THREE-way blind
+  convergence); the CRITICALITY-COMPATIBILITY gate adopted as the
+  standing third unification test; CATCH E-3 re-labelled a
+  shared-row property (es_ternary addendum queued). Elevated
+  residual: **the untested cell — constant-weight Z-FLOOR at I2 —
+  the one place a genuinely new instrument might live** (round-20
+  candidate).
+- **tern_master_threshold MINTED** (background, PROVED — the graded
+  form ONLY: object + dictionaries + spine + MT/PT/SR + per-tau
+  targets + the instrument matrix + PT-2 watch line; explicitly NOT
+  a single-theorem target; refs = all four pilot verifiers; ref
+  edges to the three instance nodes). dag 1823/5081 -> 1824/5084;
+  verify PASS; census UNCHANGED.
+
+ROUND-19 NET (4/4): the unification ATTACKED FIRST per the user's
+directive and it SURVIVED IN GRADED FORM — object/regime/method
+proved, single-theorem form killed by a proved phase transition;
+the master node minted gated on the adversary's verdict; route (b)
+died honestly (the F2 terminal has NO named route; open form = the
+tail count; leads = Prop 10 + the constant-weight-Z-FLOOR cell);
+two forced corrections landed on the knife-edge node; the (ES)
+post-mortem toolkit grew a third gate. BOARD: mystery 2's terminal
+= the tail-count criterion at tau = 1 (no named route; two leads);
+crossing low-w = emptiness at tau = 2 with the official primes in
+the SP/CS gap + the PT-2 cliff on the watch line; the maintainer
+stack unchanged and still the highest-leverage item (the Przemek
+note next).
+
+## 2026-08-06: THE SCOPE AND READING RULINGS (user-prompted; the maintainer stack DISSOLVED)
+
+The user's challenge ("we know what the prize problems are — judge
+for ourselves") is CORRECT and is adopted as of record:
+
+1. **SCOPE RULING (spec-derived, no intent needed).** The frozen
+   public spec ("for every choice of F, L, and k"; the pinned
+   admissibility constraints) contains NO generation restriction —
+   and our own stricter-reading clause points the same way.
+   **Non-generating and tower rows ARE in the challenge family.**
+   Przemek is a fellow researcher, not the prize organizer; the
+   spec text governs. THE PRZEMEK NOTE IS SHELVED (draft kept at
+   notes/przemek_note_20260806/DRAFT.md as a record of the fork;
+   the t*/mca_floor cross-reference survives as a future PR-comment
+   hygiene item, no question attached).
+2. **CONSEQUENCE, stated honestly**: the tower/non-generating
+   counterexamples (DSA; the (O1) kills) refute OUR INTERMEDIATES,
+   not the prize conjectures — those are our constructions. Whether
+   the prize-level statement survives at tower rows runs through
+   the GAMMA-SHELL/BUDGET analysis (left open at the DSA bank),
+   which becomes the board's sharpest question with two live
+   outcomes: within-budget (our intermediates were lossy — re-pose)
+   or budget-break (A REFUTATION PATH FOR THE GRAND CHALLENGE — a
+   resolution either way).
+3. **READING RULINGS (soundness-forced, internal).** Lambda parity
+   = READING A of record (the proved K1/K2/G trichotomy + the
+   lane's own min(m_j, t/2) text); the ensemble = THE SLICE (T*)
+   of record (forced by the (O1) => (O2) fence — the consumer
+   demands it); PP5.0 = SUM (already ruled). CONSEQUENCE ACCEPTED:
+   **(O1) AS POSED IS FALSE on generating rows too** — the
+   two-live-values bookkeeping collapses; the F2 lane's obligation
+   of record is the minimal surviving form (E[T] = 2^{n/2}·Z_1^e)
+   with the TAIL-COUNT criterion at tau = 1, which is where the
+   mathematics already stands. The rung-band caveats and the
+   "internally-forced cell" language are superseded by this ruling.
+4. Node addenda written this bank: f2_o1_status_split (the 2x2
+   ruled); crossing_dsa_refutation (the scope clause resolved —
+   towers in-family; the refutation's scope condition is
+   SATISFIED).
+
+BOARD AFTER THE RULINGS: no external blockers. (1) THE GAMMA-SHELL
+question (refutation-or-repose); (2) the F2 re-pose + tail-count
+criterion (leads: Prop 10; the 484x creation anomaly); (3) the
+crossing low-w prime-row emptiness (the SP/CS gap; the
+even-condition extension; the PT-2 cliff needs its floor
+re-verified); (4) the band re-pose.
+
+## 2026-08-06: ROUND 20 LAUNCHED — the post-rulings frontier (4 Opus pilots)
+
+(Quarantine marker: round-20 pilots must not read ledger entries
+below this line until the round completes.)
+
+- **gamma_shell (THE PRIORITY)**: refutation-or-repose — the shell
+  map of the DSA accident family (sig-arithmetic of the periodic
+  lift, toy-gated), the per-shell budget comparison with the
+  concentration danger case FIRST, the verdict under the strict
+  refutation protocol (budget-break = CANDIDATE for coordinator
+  replay, consumer chain traced to the prize-level statement), the
+  PT-2 stability note.
+- **f2_repose (blind to tail_count)**: the F2 lane rebuilt from the
+  consumer down — the quoted consumer contract; the weakest
+  sufficient intermediate at generating rows (median/quantile
+  candidates before mass); at least one candidate per route for
+  non-generating rows; the lane NODE-DRAFT.
+- **tail_count (blind to f2_repose)**: the terminal's open form
+  attacked via the two leads — the Prop-10 doubling/log-sine
+  functional (orbit telescoping, multiset second moments evading
+  the Corollary-8 trap, a large-P structure theorem) + the p=7 w=4
+  484x CREATION mechanism identified from its 288 codewords; the
+  exact toy tail profile vs the criterion.
+- **crossing_gap (blind to gamma_shell)**: the even-condition
+  SP-COVER recursion (gated on the p=7 w=7 census cell); the
+  constant-weight Z-FLOOR at the crossing instance (the round-19
+  untested cell); the ADVERSARIAL PT-2 cliff re-verification
+  (RHL-LB's 2^34 re-derived from source; the 0.336-bit clearance
+  under all banked readings); the exact remaining gap.
+
+Standing rules as round 19 + the quarantine marker above. All four
+mysteries' post-rulings frontier covered: the gamma-shell question
+(crossing/prize-level), the F2 re-pose + terminal, the prime-row
+gap, with the band re-pose queued behind the ternary-functional
+outcome.
+
+## 2026-08-06: WAVE-47 AUDIT LAUNCHED (Codex, from pin 88238fd0 — audit head PINNED at 48fc9efcf)
+
+Codex has been merging canonical continuously (through fed71a06b)
+and working the SAME F2 terminal in real time — AND IS LIVE NOW
+(a newer commit f8ad8cb5e "Record F2 selector transport handoff" +
+uncommitted pilot results appeared during the survey; post-pin work
+queues for wave 48 per protocol). Two streams, two Opus auditors
+(drafts to WAVE47_{F2,WCL}_DRAFT.md):
+- **F2 STREAM**: a NEW CRITICAL NODE f2_conditional_close + eight
+  new background nodes (the admissible direct-sum/GRS reductions,
+  the weighted prefix L2 identity, the kernel collision floor, the
+  max-fiber sandwich, the all-admissible o1 mass bound, and a
+  minted CS supplier rate_half_crossing_ideal_galois_multiplicity_
+  exclusion) + the route repair + the generated-field descent
+  commits. KEY AUDIT QUESTIONS: soundness/replay; consistency with
+  our minted rounds-16-19 nodes AND with the 2026-08-06 rulings
+  (which POSTDATE Codex's latest commits); collisions with the
+  RUNNING f2_repose pilot (reconcile at that pilot's bank).
+- **WCL + REMAINDER**: the WCL hard-tail certificate stream (CADO
+  runs + self-contained certificates + slot-emptiness proofs +
+  batch replays); the crossing/band/l1 critical-node edits
+  (BOTH-diff-direction clobber check vs our addenda); roadmap/
+  compute-request/work_cycles repricing; Codex's own pilot dirs.
+
+PROCESS NEAR-MISS, disclosed: the coordinator's launch ledger entry
+was briefly committed ONTO CODEX'S BRANCH (cwd drift into the
+worktree — the third cwd incident; the standing absolute-path rule
+was violated by the coordinator). Repaired within minutes: the
+stray commit removed (git reset + ledger checkout), Codex's own
+newer commit and dirty in-flight state fully preserved, verified
+clean. RULE HARDENED: every worktree-inspection command uses
+git -C <path>; the coordinator shell never cd's into a worktree.
