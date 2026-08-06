@@ -1159,3 +1159,17 @@ Integration freeze pending the upstream-sync wiring and stocktake:
   4/1-closable, consumer arithmetic bit-identical, costs are
   watch-line (margin 2.85x -> 2.30x). Awaiting: bc_block_census,
   f2_sl1_powersums, mun_anticoncentration.
+
+## 2026-08-04: round-15 pilot 2/4 BANKED — (BC) refuted; THREE-WAY convergence on the mu_n terminal
+
+- **bc_block_census (Opus) BANKED** (34,332 checks 0 fail; BC-F1a +
+  BC-F6 fired as registered). (BC) refuted uniform (|Bset| = 2|Tau|
+  admissible, exhaustive gates, both Johnson regimes); round-14
+  |Bset| = 2 WITHDRAWN (pigeonhole margin exactly -(t-1)); route 2
+  dead at rows (K/e = 55-112x); the ordered-pair form CIRCULAR
+  (coordinator statement-defect #4). Honest residual = the OFF-D
+  agreement count = THE mu_n TERMINAL — now consumed by band
+  fullrank + crossing + syzygy alike. Mint-shaped: the bucketed
+  slope-free gate (2,618x) + four lemmas. Awaiting:
+  f2_sl1_powersums, mun_anticoncentration (now the campaign's
+  single most important open thread).
