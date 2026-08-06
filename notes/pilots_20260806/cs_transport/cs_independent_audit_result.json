@@ -1,0 +1,9 @@
+{
+  "app": "rs-mca-cs-independent-transport-audit",
+  "checker_sha256": "1d154a5028f95138094ff622be7e21628591aa68ce10885c62f584a3e904f74b",
+  "returncode": 1,
+  "schema": "cs-independent-transport-modal-v1",
+  "status": "FAIL",
+  "stderr": "Traceback (most recent call last):\n  File \"/root/cs_independent_audit.py\", line 322, in <module>\n    main()\n  File \"/root/cs_independent_audit.py\", line 311, in main\n    result = run_audit()\n             ^^^^^^^^^^^\n  File \"/root/cs_independent_audit.py\", line 285, in run_audit\n    threshold_and_tower = check_threshold_and_tower()\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/cs_independent_audit.py\", line 243, in check_threshold_and_tower\n    assert threshold_256 == 170_752_922_588\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "stdout": ""
+}

@@ -61,3 +61,23 @@ self-tests pass, and the written audit confirms that:
 - `71.16%` is only the near-256-bit characteristic benchmark;
 - arbitrary windows use exact per-stratum inequalities; and
 - no consumer target changes status merely from this supplier.
+
+## First-run result
+
+Modal app `ap-Ou79WlOvA1ZtBIl8GuaZvV` returned `FAIL` exactly as the
+registered threshold check required.  The earlier archimedean and
+finite-field routines completed, but the independent bisection did not
+identify `170,752,922,588` as the **last unexcluded** integer.  Inspection
+of the source calculator found the cause: its bisection leaves `hi` at the
+first excluded integer and then labels it as a threshold above which
+exclusion begins.  Thus the imported prose has a one-cell boundary error:
+
+```text
+first excluded w_0 = 170,752,922,588;
+last unexcluded w* = 170,752,922,587.
+```
+
+The failed result is preserved at `cs_independent_audit_result.json`, SHA-256
+`79996adb2f2be109de5260025ab92c9541fb9cce43e6fee1f427714078b0975a`.
+No promotion is authorized by this run.  A corrected run requires a separate
+remediation registration and a new committed checker digest.
