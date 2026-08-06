@@ -1873,3 +1873,39 @@ instrument matrices at the bank. Standing rules as round 18
   delivered; THE MINT IS GATED on the adversary sibling's graded
   verdict, per the blind-pair design.
 - Awaiting: tern_unification_adversary (resumed), tern_route_b.
+
+## 2026-08-06: round-19 pilot 3 BANKED — ROUTE (b) DEAD AS POSED; the F2 terminal has NO NAMED ROUTE; second forced node correction
+
+- **tern_route_b (Opus) BANKED** (137/137). The minted "factor-2
+  headroom" REFUTED — the sizing dropped the DEGREE factor
+  (restored: deg·sqrt p = 2^65 vs |H| = 2^39, Weil vacuous by
+  exactly 26.000 bits); the executable substitute (LEMMA 5 AM-GM +
+  Z-2 moments) yields **THEOREM 7: Z_1 <= 2^{0.8908·S}
+  unconditional** (first nontrivial unconditional mass bound,
+  3.0e10 bits below trivial) but closes only at p <= 8.30 —
+  Z-NOGO's own threshold, structurally (the moment route consumes
+  distance+count). **PROPOSITION 3: the object is a sum of p^R
+  NON-NEGATIVE terms — cancellation between tuples does not exist
+  in principle; the route was mis-conceived, not mis-sized.** The
+  true open form: THE TAIL-COUNT CRITERION
+  (|{u : P(u) >= 2^{cS}}| <= 2^{(1-c)S+46+o(S)} for all c).
+  Favourable reductions banked: LEMMA 2 (oddness => COMPLETE
+  subgroup sums — no partial-sum loss) + LEMMA 5 (first moment in
+  V_1 only — no L2->Linf loss): both round-15 loss modes provably
+  do not bite; the fatal one is DEGREE (which my brief did not
+  name — CATCH-B4 brief defect accepted; the round-15 "1-2 orders"
+  gloss re-labelled: ratios track sqrt p). PROPOSITION 9 (my
+  Gauss-chase brief hint was misdirected — quadratic/quartic
+  evaluations govern the opposite object; chased and killed
+  properly). **PROPOSITION 10 (the lead)**: log2 P(u) exactly as a
+  doubling-map/log-sine functional — Dedekind-sum-shaped, strictly
+  finer than V_1, no bound known. CATCH-B1 (z1's 1+2cos line = the
+  unweighted count; disclaimed in situ, nothing breaks). CATCH-B3:
+  **SECOND FORCED CORRECTION to f2_z1_mass_knife_edge this round**
+  (route (b) sizing struck; "NO NAMED ROUTE REMAINS" is the node's
+  text now; dag recompiled, verify PASS). BOARD CONSEQUENCE: the F2
+  knife edge has no route with a named instrument — the open form
+  is the tail count; the leads are Prop 10 + whatever the
+  adversary/master pair surfaces. Honest limit: implementation-
+  death, not a Z-NOGO-strength no-go.
+- Awaiting: tern_unification_adversary (the round's gate).

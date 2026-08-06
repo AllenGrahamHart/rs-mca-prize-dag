@@ -1,0 +1,178 @@
+
+=== S0. object construction, grid agrees with the pre-registration ===
+  PASS  S0 G1 matches pre-registered (p,e_p,S,R) | G1: p=17 e_p=4 S=8 R=2 p^R=289 zeta=3
+  PASS  S0 G1 zeta has exact order 2^e_p
+  PASS  S0 G1 H = Y u (-Y) is mu_{2^e_p}, |H| = 2S, disjoint
+  PASS  S0 G1 Lambda odd => f_u odd: f_u(-x) = -f_u(x)
+  PASS  S0 G2 matches pre-registered (p,e_p,S,R) | G2: p=113 e_p=4 S=8 R=1 p^R=113 zeta=40
+  PASS  S0 G2 zeta has exact order 2^e_p
+  PASS  S0 G2 H = Y u (-Y) is mu_{2^e_p}, |H| = 2S, disjoint
+  PASS  S0 G2 Lambda odd => f_u odd: f_u(-x) = -f_u(x)
+  PASS  S0 G3 matches pre-registered (p,e_p,S,R) | G3: p=241 e_p=4 S=8 R=1 p^R=241 zeta=111
+  PASS  S0 G3 zeta has exact order 2^e_p
+  PASS  S0 G3 H = Y u (-Y) is mu_{2^e_p}, |H| = 2S, disjoint
+  PASS  S0 G3 Lambda odd => f_u odd: f_u(-x) = -f_u(x)
+  PASS  S0 G4 matches pre-registered (p,e_p,S,R) | G4: p=97 e_p=5 S=16 R=2 p^R=9409 zeta=28
+  PASS  S0 G4 zeta has exact order 2^e_p
+  PASS  S0 G4 H = Y u (-Y) is mu_{2^e_p}, |H| = 2S, disjoint
+  PASS  S0 G4 Lambda odd => f_u odd: f_u(-x) = -f_u(x)
+  PASS  S0 G5 matches pre-registered (p,e_p,S,R) | G5: p=353 e_p=5 S=16 R=2 p^R=124609 zeta=294
+  PASS  S0 G5 zeta has exact order 2^e_p
+  PASS  S0 G5 H = Y u (-Y) is mu_{2^e_p}, |H| = 2S, disjoint
+  PASS  S0 G5 Lambda odd => f_u odd: f_u(-x) = -f_u(x)
+  PASS  S0 G6 matches pre-registered (p,e_p,S,R) | G6: p=673 e_p=5 S=16 R=2 p^R=452929 zeta=118
+  PASS  S0 G6 zeta has exact order 2^e_p
+  PASS  S0 G6 H = Y u (-Y) is mu_{2^e_p}, |H| = 2S, disjoint
+  PASS  S0 G6 Lambda odd => f_u odd: f_u(-x) = -f_u(x)
+
+=== S1. Z_1 exactly, by two independent methods ===
+  PASS  S1 G1 Z_1 meet-in-middle == brute force over 3^S | Z_1 = 5/4 = 1.250000
+  PASS  S1 G1 Z_1 >= 1 (the eps=0 term) | Z_1 = 1.250000, |T cap ker| = 17
+  PASS  S1 G1 Z_1 <= 2^S (trivial bound sum_{T} 2^-wt = 2^S)
+  PASS  S1 G2 Z_1 meet-in-middle == brute force over 3^S | Z_1 = 19/8 = 2.375000
+  PASS  S1 G2 Z_1 >= 1 (the eps=0 term) | Z_1 = 2.375000, |T cap ker| = 65
+  PASS  S1 G2 Z_1 <= 2^S (trivial bound sum_{T} 2^-wt = 2^S)
+  PASS  S1 G3 Z_1 meet-in-middle == brute force over 3^S | Z_1 = 3/2 = 1.500000
+  PASS  S1 G3 Z_1 >= 1 (the eps=0 term) | Z_1 = 1.500000, |T cap ker| = 17
+  PASS  S1 G3 Z_1 <= 2^S (trivial bound sum_{T} 2^-wt = 2^S)
+  PASS  S1 G4 Z_1 >= 1 (the eps=0 term) | Z_1 = 9.387207, |T cap ker| = 4833
+  PASS  S1 G4 Z_1 <= 2^S (trivial bound sum_{T} 2^-wt = 2^S)
+  PASS  S1 G5 Z_1 >= 1 (the eps=0 term) | Z_1 = 1.156250, |T cap ker| = 225
+  PASS  S1 G5 Z_1 <= 2^S (trivial bound sum_{T} 2^-wt = 2^S)
+  PASS  S1 G6 Z_1 >= 1 (the eps=0 term) | Z_1 = 1.097656, |T cap ker| = 97
+  PASS  S1 G6 Z_1 <= 2^S (trivial bound sum_{T} 2^-wt = 2^S)
+
+=== S2. R1 EXACT: the character-sum identity in Z[x]/(x^p-1) ===
+  PASS  S2 G1 EXACT cyclotomic identity Sigma == 2^S p^R Z_1 e_0 + 2^S p^{R-1}(2^S-Z_1) J | Sigma[0]=1201152 pred=1201152 ; Sigma[1]=1108672 pred=1108672
+  PASS  S2 G1 => Z_1 = p^-R sum_u prod_s (1 + cos(2 pi f_u(zeta^s)/p)) EXACTLY | derived from the same identity: prod_s(2+x^c+x^-c)/2^S -> prod_s(1+cos) at x=e^{2pi i/p}
+  PASS  S2 G2 EXACT cyclotomic identity Sigma == 2^S p^R Z_1 e_0 + 2^S p^{R-1}(2^S-Z_1) J | Sigma[0]=133632 pred=133632 ; Sigma[1]=64928 pred=64928
+  PASS  S2 G2 => Z_1 = p^-R sum_u prod_s (1 + cos(2 pi f_u(zeta^s)/p)) EXACTLY | derived from the same identity: prod_s(2+x^c+x^-c)/2^S -> prod_s(1+cos) at x=e^{2pi i/p}
+  PASS  S2 G3 EXACT cyclotomic identity Sigma == 2^S p^R Z_1 e_0 + 2^S p^{R-1}(2^S-Z_1) J | Sigma[0]=157696 pred=157696 ; Sigma[1]=65152 pred=65152
+  PASS  S2 G3 => Z_1 = p^-R sum_u prod_s (1 + cos(2 pi f_u(zeta^s)/p)) EXACTLY | derived from the same identity: prod_s(2+x^c+x^-c)/2^S -> prod_s(1+cos) at x=e^{2pi i/p}
+  PASS  S2 G4 EXACT cyclotomic identity Sigma == 2^S p^R Z_1 e_0 + 2^S p^{R-1}(2^S-Z_1) J | Sigma[0]=422340570112 pred=422340570112 ; Sigma[1]=416552153312 pred=416552153312
+  PASS  S2 G4 => Z_1 = p^-R sum_u prod_s (1 + cos(2 pi f_u(zeta^s)/p)) EXACTLY | derived from the same identity: prod_s(2+x^c+x^-c)/2^S -> prod_s(1+cos) at x=e^{2pi i/p}
+  PASS  S2 exact tier is nonempty and covers >= 3 rows | rows: G1,G2,G3,G4
+
+=== S3. R1 measurement tier: 1+cos vs the banked 1+2cos ===
+  PASS  S3 G1  p^-R sum_u prod_s (1 + cos)  == Z_1   (P1) | got 1.2500000000 vs Z_1 = 1.2500000000 (rel 0.00e+00)
+  PASS  S3 G1  p^-R sum_u prod_s (1 + 2cos) == |T cap ker A|  (P1: the banked PROOFS.md:394 factor is the UNWEIGHTED count) | got 17.000000 vs count = 17 (rel 2.93e-15)
+  PASS  S3 G1 the two differ (1+cos != 1+2cos as formulas for Z_1) | count=17 Z_1=1.250000
+  PASS  S3 G2  p^-R sum_u prod_s (1 + cos)  == Z_1   (P1) | got 2.3750000000 vs Z_1 = 2.3750000000 (rel 0.00e+00)
+  PASS  S3 G2  p^-R sum_u prod_s (1 + 2cos) == |T cap ker A|  (P1: the banked PROOFS.md:394 factor is the UNWEIGHTED count) | got 65.000000 vs count = 65 (rel 8.75e-16)
+  PASS  S3 G2 the two differ (1+cos != 1+2cos as formulas for Z_1) | count=65 Z_1=2.375000
+  PASS  S3 G3  p^-R sum_u prod_s (1 + cos)  == Z_1   (P1) | got 1.5000000000 vs Z_1 = 1.5000000000 (rel 0.00e+00)
+  PASS  S3 G3  p^-R sum_u prod_s (1 + 2cos) == |T cap ker A|  (P1: the banked PROOFS.md:394 factor is the UNWEIGHTED count) | got 17.000000 vs count = 17 (rel 2.30e-15)
+  PASS  S3 G3 the two differ (1+cos != 1+2cos as formulas for Z_1) | count=17 Z_1=1.500000
+  PASS  S3 G4  p^-R sum_u prod_s (1 + cos)  == Z_1   (P1) | got 9.3872070313 vs Z_1 = 9.3872070312 (rel 4.75e-14)
+  PASS  S3 G4  p^-R sum_u prod_s (1 + 2cos) == |T cap ker A|  (P1: the banked PROOFS.md:394 factor is the UNWEIGHTED count) | got 4833.000000 vs count = 4833 (rel 5.76e-14)
+  PASS  S3 G4 the two differ (1+cos != 1+2cos as formulas for Z_1) | count=4833 Z_1=9.387207
+  PASS  S3 G5  p^-R sum_u prod_s (1 + cos)  == Z_1   (P1) | got 1.1562500000 vs Z_1 = 1.1562500000 (rel 3.80e-14)
+  PASS  S3 G5  p^-R sum_u prod_s (1 + 2cos) == |T cap ker A|  (P1: the banked PROOFS.md:394 factor is the UNWEIGHTED count) | got 225.000000 vs count = 225 (rel 1.01e-13)
+  PASS  S3 G5 the two differ (1+cos != 1+2cos as formulas for Z_1) | count=225 Z_1=1.156250
+  PASS  S3 G6  p^-R sum_u prod_s (1 + cos)  == Z_1   (P1) | got 1.0976562500 vs Z_1 = 1.0976562500 (rel 3.07e-14)
+  PASS  S3 G6  p^-R sum_u prod_s (1 + 2cos) == |T cap ker A|  (P1: the banked PROOFS.md:394 factor is the UNWEIGHTED count) | got 97.000000 vs count = 97 (rel 3.44e-13)
+  PASS  S3 G6 the two differ (1+cos != 1+2cos as formulas for Z_1) | count=97 Z_1=1.097656
+
+=== S4. P3: the half-system is NOT a half — complete subgroup sums ===
+  PASS  S4 G1  2 Re W_j(u) = V_j(u) = sum_{x in H} e_p(j f_u(x))  EXACTLY (j=1,2,3) | checked <=400 tuples u, exact F_p multiset identity
+  PASS  S4 G2  2 Re W_j(u) = V_j(u) = sum_{x in H} e_p(j f_u(x))  EXACTLY (j=1,2,3) | checked <=400 tuples u, exact F_p multiset identity
+  PASS  S4 G3  2 Re W_j(u) = V_j(u) = sum_{x in H} e_p(j f_u(x))  EXACTLY (j=1,2,3) | checked <=400 tuples u, exact F_p multiset identity
+  PASS  S4 G4  2 Re W_j(u) = V_j(u) = sum_{x in H} e_p(j f_u(x))  EXACTLY (j=1,2,3) | checked <=400 tuples u, exact F_p multiset identity
+  PASS  S4 G5  2 Re W_j(u) = V_j(u) = sum_{x in H} e_p(j f_u(x))  EXACTLY (j=1,2,3) | checked <=400 tuples u, exact F_p multiset identity
+  PASS  S4 G6  2 Re W_j(u) = V_j(u) = sum_{x in H} e_p(j f_u(x))  EXACTLY (j=1,2,3) | checked <=400 tuples u, exact F_p multiset identity
+
+=== S5. P5: the AM-GM reduction P(u) <= (1 + V_1(u)/|H|)^S ===
+  PASS  S5 G1 AM-GM bound holds for every u (worst ratio P/(1+V_1/|H|)^S = 1.000000)
+  PASS  S5 G2 AM-GM bound holds for every u (worst ratio P/(1+V_1/|H|)^S = 1.000000)
+  PASS  S5 G3 AM-GM bound holds for every u (worst ratio P/(1+V_1/|H|)^S = 1.000000)
+  PASS  S5 G4 AM-GM bound holds for every u (worst ratio P/(1+V_1/|H|)^S = 1.000000)
+  PASS  S5 G5 AM-GM bound holds for every u (worst ratio P/(1+V_1/|H|)^S = 1.000000)
+  PASS  S5 G6 AM-GM bound holds for every u (worst ratio P/(1+V_1/|H|)^S = 1.000000)
+
+=== S6. R5(iii): the exact 2-adic (doubling) evaluation of P(u) ===
+  PASS  S6 G1 exact doubling identity: log2 P = -S + 2n_0 + 2 sum_{c!=0}(n_{c/2}-n_c) log2|2 sin(pi c/p)| | the only 2-power structure found
+  PASS  S6 G2 exact doubling identity: log2 P = -S + 2n_0 + 2 sum_{c!=0}(n_{c/2}-n_c) log2|2 sin(pi c/p)| | the only 2-power structure found
+  PASS  S6 G3 exact doubling identity: log2 P = -S + 2n_0 + 2 sum_{c!=0}(n_{c/2}-n_c) log2|2 sin(pi c/p)| | the only 2-power structure found
+  PASS  S6 G4 exact doubling identity: log2 P = -S + 2n_0 + 2 sum_{c!=0}(n_{c/2}-n_c) log2|2 sin(pi c/p)| | the only 2-power structure found
+
+=== S6b. two floors that fall out of the character form for free ===
+  PASS  S6b G1 Z-FLOOR re-derived from non-negativity: Z_1 >= 2^S / p^R | Z_1 = 1.250000 >= 2^S/p^R = 0.885813
+  PASS  S6b G2 Z-FLOOR re-derived from non-negativity: Z_1 >= 2^S / p^R | Z_1 = 2.375000 >= 2^S/p^R = 2.26549
+  PASS  S6b G3 Z-FLOOR re-derived from non-negativity: Z_1 >= 2^S / p^R | Z_1 = 1.500000 >= 2^S/p^R = 1.06224
+  PASS  S6b G4 Z-FLOOR re-derived from non-negativity: Z_1 >= 2^S / p^R | Z_1 = 9.387207 >= 2^S/p^R = 6.96525
+  PASS  S6b G5 Z-FLOOR re-derived from non-negativity: Z_1 >= 2^S / p^R | Z_1 = 1.156250 >= 2^S/p^R = 0.525933
+  PASS  S6b G6 Z-FLOOR re-derived from non-negativity: Z_1 >= 2^S / p^R | Z_1 = 1.097656 >= 2^S/p^R = 0.144694
+  PASS  S6b G1 Galois-norm line floor: prod_{t!=0} P(tu) >= 2^{-S(p-1)} | => line-average P >= 2^-S (AM-GM); an independent floor
+  PASS  S6b G2 Galois-norm line floor: prod_{t!=0} P(tu) >= 2^{-S(p-1)} | => line-average P >= 2^-S (AM-GM); an independent floor
+
+=== S7. R4 measurements: per-tuple cancellation vs Weil ===
+  row  p      S    R      max|V_1|        |H|    sqrt|H| Weil deg*sqp   max/|H|  maxlgP/S
+  G1   17     8    2         8.030         16      4.000     12.369    0.5018    0.1638
+  PASS  S7 G1 Parseval: RMS |V_1| over u != 0 is ~ sqrt(|H|) (<= 2x) | rms=3.8944 sqrt|H|=4.0000
+  PASS  S7 G1 max|V_1| is a CONSTANT fraction of |H| (>= 1/8), i.e. NOT o(|H|) | max/|H| = 0.5018
+  PASS  S7 G1 Weil-vacuity flag recorded (deg*sqrt(p) < |H|) | deg*sqrt p = 12.369  |H| = 16  => useful
+  PASS  S7 G1 the UNIFORM per-u route provably caps at 2^{cS}, c = 0.1638 > 0 | no per-u bound can give 2^{o(S)}: some u attains log2 P = 0.1638 S
+       tail |{u != 0 : log2 P(u)/S in [c, c+0.1)}| : c=+0.1:32, c=+0.0:16, c=-0.3:16, c=-0.4:16, c=-0.5:48
+  G2   113    8    1         7.395         16      4.000     10.630    0.4622   -0.1778
+  PASS  S7 G2 Parseval: RMS |V_1| over u != 0 is ~ sqrt(|H|) (<= 2x) | rms=3.7225 sqrt|H|=4.0000
+  PASS  S7 G2 max|V_1| is a CONSTANT fraction of |H| (>= 1/8), i.e. NOT o(|H|) | max/|H| = 0.4622
+  PASS  S7 G2 Weil-vacuity flag recorded (deg*sqrt(p) < |H|) | deg*sqrt p = 10.630  |H| = 16  => useful
+  PASS  S7 G2 the UNIFORM per-u route provably caps at 2^{cS}, c = -0.1778 > 0 | no per-u bound can give 2^{o(S)}: some u attains log2 P = -0.1778 S
+       tail |{u != 0 : log2 P(u)/S in [c, c+0.1)}| : c=-0.2:32, c=-0.7:16, c=-0.8:16, c=-0.9:16, c=-1.7:16
+  G3   241    8    1         6.915         16      4.000     15.524    0.4322    0.2212
+  PASS  S7 G3 Parseval: RMS |V_1| over u != 0 is ~ sqrt(|H|) (<= 2x) | rms=3.8730 sqrt|H|=4.0000
+  PASS  S7 G3 max|V_1| is a CONSTANT fraction of |H| (>= 1/8), i.e. NOT o(|H|) | max/|H| = 0.4322
+  PASS  S7 G3 Weil-vacuity flag recorded (deg*sqrt(p) < |H|) | deg*sqrt p = 15.524  |H| = 16  => useful
+  PASS  S7 G3 the UNIFORM per-u route provably caps at 2^{cS}, c = 0.2212 > 0 | no per-u bound can give 2^{o(S)}: some u attains log2 P = 0.2212 S
+       tail |{u != 0 : log2 P(u)/S in [c, c+0.1)}| : c=+0.2:16, c=+0.1:16, c=-0.2:16, c=-0.3:16, c=-0.7:32
+  G4   97     16   2        17.706         32      5.657     29.547    0.5533    0.5721
+  PASS  S7 G4 Parseval: RMS |V_1| over u != 0 is ~ sqrt(|H|) (<= 2x) | rms=5.6475 sqrt|H|=5.6569
+  PASS  S7 G4 max|V_1| is a CONSTANT fraction of |H| (>= 1/8), i.e. NOT o(|H|) | max/|H| = 0.5533
+  PASS  S7 G4 Weil-vacuity flag recorded (deg*sqrt(p) < |H|) | deg*sqrt p = 29.547  |H| = 32  => useful
+  PASS  S7 G4 the UNIFORM per-u route provably caps at 2^{cS}, c = 0.5721 > 0 | no per-u bound can give 2^{o(S)}: some u attains log2 P = 0.5721 S
+       tail |{u != 0 : log2 P(u)/S in [c, c+0.1)}| : c=+0.5:32, c=+0.3:32, c=+0.2:32, c=+0.1:160, c=+0.0:160
+  G5   353    16   2        18.698         32      5.657     56.365    0.5843    0.4764
+  PASS  S7 G5 Parseval: RMS |V_1| over u != 0 is ~ sqrt(|H|) (<= 2x) | rms=5.6562 sqrt|H|=5.6569
+  PASS  S7 G5 max|V_1| is a CONSTANT fraction of |H| (>= 1/8), i.e. NOT o(|H|) | max/|H| = 0.5843
+  PASS  S7 G5 Weil-vacuity flag recorded (deg*sqrt(p) >= |H|) | deg*sqrt p = 56.365  |H| = 32  => VACUOUS
+  PASS  S7 G5 the UNIFORM per-u route provably caps at 2^{cS}, c = 0.4764 > 0 | no per-u bound can give 2^{o(S)}: some u attains log2 P = 0.4764 S
+       tail |{u != 0 : log2 P(u)/S in [c, c+0.1)}| : c=+0.4:192, c=+0.3:384, c=+0.2:864, c=+0.1:1376, c=+0.0:2176
+  G6   673    16   2        20.254         32      5.657     77.827    0.6329    0.6453
+  PASS  S7 G6 Parseval: RMS |V_1| over u != 0 is ~ sqrt(|H|) (<= 2x) | rms=5.6567 sqrt|H|=5.6569
+  PASS  S7 G6 max|V_1| is a CONSTANT fraction of |H| (>= 1/8), i.e. NOT o(|H|) | max/|H| = 0.6329
+  PASS  S7 G6 Weil-vacuity flag recorded (deg*sqrt(p) >= |H|) | deg*sqrt p = 77.827  |H| = 32  => VACUOUS
+  PASS  S7 G6 the UNIFORM per-u route provably caps at 2^{cS}, c = 0.6453 > 0 | no per-u bound can give 2^{o(S)}: some u attains log2 P = 0.6453 S
+       tail |{u != 0 : log2 P(u)/S in [c, c+0.1)}| : c=+0.6:96, c=+0.5:160, c=+0.4:736, c=+0.3:1568, c=+0.2:3072
+
+=== S8. the moment input: N_k and the matching bound (2k-1)!! |H|^k ===
+  PASS  S8 G1 k=1 <= R: N_k <= (2k-1)!! |H|^k  [Z-2 licensed] | N_k = 16, bound = 16, |H|^k = 16
+  PASS  S8 G1 k=2 <= R: N_k <= (2k-1)!! |H|^k  [Z-2 licensed] | N_k = 720, bound = 768, |H|^k = 256
+  PASS  S8 G2 k=1 <= R: N_k <= (2k-1)!! |H|^k  [Z-2 licensed] | N_k = 16, bound = 16, |H|^k = 16
+  PASS  S8 G2 k=2 > R: bound NOT licensed by Z-2; recorded (VIOLATED) | N_k = 1104 vs (2k-1)!!|H|^k = 768
+  PASS  S8 G3 k=1 <= R: N_k <= (2k-1)!! |H|^k  [Z-2 licensed] | N_k = 16, bound = 16, |H|^k = 16
+  PASS  S8 G3 k=2 > R: bound NOT licensed by Z-2; recorded (held by luck) | N_k = 720 vs (2k-1)!!|H|^k = 768
+  PASS  S8 G4 k=1 <= R: N_k <= (2k-1)!! |H|^k  [Z-2 licensed] | N_k = 32, bound = 32, |H|^k = 32
+  PASS  S8 G4 k=2 <= R: N_k <= (2k-1)!! |H|^k  [Z-2 licensed] | N_k = 2976, bound = 3072, |H|^k = 1024
+  PASS  S8 the cap k <= R is SHARP: the matching bound is violated at some k = R+1 row | violations: [('G2', 2, 1104, 768)]
+
+=== S9. the official row: the ledger arithmetic (exact Decimal) ===
+  PASS  S9 log2 p = 63.999999355 as banked | log2 p = 63.9999993550649151103101992268362710751371580639596617051003
+  PASS  S9 e_p = v_2(p-1) = 39 exactly
+  PASS  S9 S = 2^{e_p-1} = 2^38
+  PASS  S9 trivial-character (main) term = 2^{S - R log2 p} = 2^-46.02 (banked reading) | log2(main) = -46.025
+  PASS  S9 exact-balance reading gives +17.98 (matches the knife edge) | log2(main) = 17.975
+  PASS  S9 P4: main term < 1 <= Z_1, so the error term exceeds the main term by >= 46 bits UNCONDITIONALLY (banked reading) | error/main >= 2^46.02
+  PASS  S9 P6: Weil bound deg*sqrt(p) = 2^65.0 vs |H| = 2^39 | log2(deg*sqrt p) = 65.000 ; log2|H| = 39
+  PASS  S9 P6: vacuous by 26 +- 1 bits | gap = 26.000 bits
+  PASS  S9 P6: non-vacuity needs deg <= |H|/sqrt p = 128 | deg threshold = 128.00 ; actual deg = 8589934679 = 2^33.000
+
+=== S10. P7: the moment ledger and its closure threshold ===
+  PASS  S10 the moment ledger gives an unconditional exponential saving c < 1 | Z_1 <= 2^{0.8908 S} at eta = 0.8540, k = 4.295e+09
+  PASS  S10 but c is bounded away from 0: NOT 2^{o(S)} | best c = 0.8908, i.e. short of the terminal by (1-c) S = 0.1092 * 2^38 = 3.001e+10 bits
+  PASS  S10 P7: the ledger can reach 2^{o(S)} only if log2 p <= 3.0529, i.e. p <= 8.30 | threshold log2 p <= 3.0529  <=>  p <= 8.299  (THEOREM Z-NOGO's p <= 8)
+  PASS  S10 official row is log2 p = 64 >> 3.053: DEAD by 60.95 bits in log2 p | log2 p = 63.999999 vs threshold 3.0529
+  PASS  S10 Z-NOGO comparison: distance+counting needs p <= 8 (f2_z1_mass_knife_edge/statement.md:40-44); the moment implementation of route (b) lands on the same threshold | same shape, same constant
+
+========================================================================
+CHECKS: 137/137 PASS
+========================================================================
