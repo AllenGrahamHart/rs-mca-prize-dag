@@ -65,8 +65,27 @@ cancellation exists in principle; the true criterion is the
 TAIL-COUNT |{u : P(u) >= 2^{cS}}| <= 2^{(1-c)S+46+o(S)} for all c);
 two favourable reductions (oddness => COMPLETE subgroup sums, no
 partial-sum loss; AM-GM => first moment in V_1 only, no L2->Linf
-loss); and the recorded lead: the doubling/log-sine exact identity
-(Prop 10 — Dedekind-sum-shaped, no bound known). Route (a)
+loss). THE PROP-10 LEAD IS RETIRED (round-20 tail_count CATCH-T1,
+third forced correction 2026-08-06): the doubling/log-sine
+functional TELESCOPES to the elementary cost form log2 P(u) = S -
+sum_s d(c_s(u)) — no Dedekind content, nothing to bound. THE OPEN
+FORM OF RECORD (normalized): Pr_u[P(u) >= 2^{cS}] <= 2^{-cS+o(S)}
+(the +46.02 was exactly the saturation constant Delta; the knife
+edge = the c = 1 slack, re-identified from the tail side); the tail
+IS a small-values/box count for the MDS value code (structure
+theorem); THE BINDING LAYER is c* = 1/ln 2 - 1 = 0.4427, where the
+flat model saturates with ZERO margin — no per-coordinate-loss
+argument can survive there. Proved: U_c = {0} for
+c > 1 - 2^{-124.19} (an endpoint, honestly, not bulk progress).
+Both standard supplies killed with computed thresholds (Z-2
+moments: p <= 8.30 = Corollary 8; interpolation: no p at all,
+position entropy H(1/L) > 1/L); the common cause: every supplied
+input is R-LOCAL, short by the factor log2 p / log2(e log2 p) =
+8.60; the Fourier escape is circular. The measured genuine tail
+obeys the criterion at every reachable row with the binding layer
+measured at 0.45 (= c* to grid resolution). Remaining leads: a
+non-R-local instrument (nothing named), and the constant-weight
+Z-FLOOR cell (crossing-side). Route (a)
 (norm sandwich) is DEAD quantified (yields w >= 4.0000 — constant corrected per round-19 CATCH-T3, the sharp ceiling being w^{n/4} — dominated
 by 4.3e9); route (c) (class structure) localises but cannot narrow.
 

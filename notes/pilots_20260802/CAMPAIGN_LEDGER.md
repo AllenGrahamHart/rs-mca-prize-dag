@@ -2189,3 +2189,37 @@ git -C <path>; the coordinator shell never cd's into a worktree.
   correction.
 - Awaiting: tail_count, crossing_gap; the wave-47 integration batch
   executes next.
+
+## 2026-08-06: round-20 pilot 3 BANKED — the terminal's exact hard point: c* = 1/ln 2 - 1, zero margin
+
+- **tail_count (Opus) BANKED** (111/111; banked values reproduced by
+  disjoint paths). **CATCH-T1: the Prop-10 lead is a MIRAGE** (it
+  telescopes to log2 P = S - sum d(c_s); no Dedekind content) —
+  THIRD forced correction applied to f2_z1_mass_knife_edge; the
+  open form of record is the NORMALIZED criterion
+  Pr[P >= 2^{cS}] <= 2^{-cS+o(S)} (the +46.02 WAS the saturation
+  constant; the knife edge re-identified as the c = 1 slack — a
+  tail-side cross-validation). **THE BINDING LAYER: c* = 1/ln 2 - 1
+  = 0.4426950409, ZERO flat-model margin** (measured 0.45 on every
+  resolvable row) — no layer can be given away; no per-coordinate
+  loss survives. STRUCTURE THEOREM: the tail IS a small-values/box
+  count of the MDS value code ("C* is not unusually smooth").
+  Endpoint layer PROVED (U_c = {0} for c > 1 - 2^{-124.19} —
+  honestly an endpoint). BOTH supplies killed with thresholds (Z-2
+  moments recover p <= 8.30 layer-by-layer; interpolation dead at
+  EVERY p — position entropy H(1/L) > 1/L). THE NAMED DEFICIT:
+  R-LOCALITY, factor log2 p / log2(e log2 p) = 8.60; the Fourier
+  escape circular. **LEAD 2 FULLY EXPLAINED**: 288 = 16 + 16 + 16^2
+  (decimation rank-collapse 7^4 x TWT x composition; residual = one
+  2.6% Poisson orbit); **THEOREM 14: the decimation dichotomy —
+  forced by saturation R/S = 1/log2 p — proves the creation
+  mechanism CANNOT operate at F2 parameters** (a candidate
+  refutation of the terminal removed; CATCH-T2: creation and
+  discharge die at the same p <= O(1) shape). Honest misses: P6/H1
+  + P7-reason refuted; one grid row mis-specified, declared
+  UNREACHED. Board: the terminal = ONE question three ways (the
+  finite window / the c* layer / the true rate function), no named
+  route, deficit = R-locality; leads = a non-R-local instrument +
+  the constant-weight cell + the fence/contract reconciliation.
+- Awaiting: crossing_gap (the last of round 20); then the wave-47
+  integration batch.

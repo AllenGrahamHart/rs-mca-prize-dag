@@ -1,0 +1,557 @@
+
+========================================================================
+CTRL -- licensing controls (a failure VOIDS the pilot)
+========================================================================
+  [PASS] CTRL-1 p=17 S=8 R=2: character form == exact ternary census  | Z_1=1.250000000 (census 1.250000000) rel=0.00e+00
+  [PASS] CTRL-2 G1 reproduces banked Z_1 = 1.25  | got 5/4
+  [PASS] CTRL-3 p=17 S=8 R=2: S = 2^{v2(p-1)-1}, 2S a 2-power, 0 not in Lambda  | S=8 Lambda=[1, 3]
+  [PASS] CTRL-1 p=113 S=8 R=1: character form == exact ternary census  | Z_1=2.375000000 (census 2.375000000) rel=0.00e+00
+  [PASS] CTRL-3 p=113 S=8 R=1: S = 2^{v2(p-1)-1}, 2S a 2-power, 0 not in Lambda  | S=8 Lambda=[1]
+  [PASS] CTRL-1 p=241 S=8 R=1: character form == exact ternary census  | Z_1=1.500000000 (census 1.500000000) rel=0.00e+00
+  [PASS] CTRL-3 p=241 S=8 R=1: S = 2^{v2(p-1)-1}, 2S a 2-power, 0 not in Lambda  | S=8 Lambda=[1]
+  [PASS] CTRL-1 p=97 S=16 R=2: character form == exact ternary census  | Z_1=9.387207031 (census 9.387207031) rel=4.75e-14
+  [PASS] CTRL-2 G4 reproduces banked Z_1 = 9.387207  | got 9.387207
+  [PASS] CTRL-3 p=97 S=16 R=2: S = 2^{v2(p-1)-1}, 2S a 2-power, 0 not in Lambda  | S=16 Lambda=[1, 3]
+
+========================================================================
+IDENT -- P1: Prop 10 telescopes to log2 P = S - cost
+========================================================================
+  [PASS] P1a p=17 S=8 R=2: Prop 10 RHS == log2 P (all 289 tuples)  | max err 1.07e-14
+  [PASS] P1b p=17 S=8 R=2: S - cost(u) == log2 P (all tuples)  | max err 1.07e-14
+  [PASS] P1c p=17 S=8 R=2: L(2c)-L(c) == log2|2cos(pi c/p)| = 1 - d(c)/2, all c!=0  | max err 1.55e-15
+  [PASS] P1d p=17: prod_{c!=0}|cos(pi c/p)| = 2^{-(p-1)}  | sum=-16.0000000000 vs -16
+  [PASS] P1a p=113 S=8 R=1: Prop 10 RHS == log2 P (all 113 tuples)  | max err 1.83e-13
+  [PASS] P1b p=113 S=8 R=1: S - cost(u) == log2 P (all tuples)  | max err 1.81e-13
+  [PASS] P1c p=113 S=8 R=1: L(2c)-L(c) == log2|2cos(pi c/p)| = 1 - d(c)/2, all c!=0  | max err 8.88e-15
+  [PASS] P1d p=113: prod_{c!=0}|cos(pi c/p)| = 2^{-(p-1)}  | sum=-112.0000000000 vs -112
+  [PASS] P1a p=241 S=8 R=1: Prop 10 RHS == log2 P (all 241 tuples)  | max err 6.34e-13
+  [PASS] P1b p=241 S=8 R=1: S - cost(u) == log2 P (all tuples)  | max err 6.29e-13
+  [PASS] P1c p=241 S=8 R=1: L(2c)-L(c) == log2|2cos(pi c/p)| = 1 - d(c)/2, all c!=0  | max err 3.09e-14
+  [PASS] P1d p=241: prod_{c!=0}|cos(pi c/p)| = 2^{-(p-1)}  | sum=-240.0000000000 vs -240
+  [PASS] P1a p=97 S=16 R=2: Prop 10 RHS == log2 P (all 9409 tuples)  | max err 2.70e-13
+  [PASS] P1b p=97 S=16 R=2: S - cost(u) == log2 P (all tuples)  | max err 2.70e-13
+  [PASS] P1c p=97 S=16 R=2: L(2c)-L(c) == log2|2cos(pi c/p)| = 1 - d(c)/2, all c!=0  | max err 2.49e-14
+  [PASS] P1d p=97: prod_{c!=0}|cos(pi c/p)| = 2^{-(p-1)}  | sum=-96.0000000000 vs -96
+
+========================================================================
+IDENT -- P4(i): |U_1| = 1  (only u=0 attains P = 2^S)
+========================================================================
+  [PASS] P4i p=17 S=8 R=2: argmax P is u=0 alone, max log2 P = S  | argmax=(0, 0) count=1 max=8.000000 S=8
+  [PASS] P4i p=113 S=8 R=1: argmax P is u=0 alone, max log2 P = S  | argmax=(0,) count=1 max=8.000000 S=8
+  [PASS] P4i p=241 S=8 R=1: argmax P is u=0 alone, max log2 P = S  | argmax=(0,) count=1 max=8.000000 S=8
+  [PASS] P4i p=97 S=16 R=2: argmax P is u=0 alone, max log2 P = S  | argmax=(0, 0) count=1 max=16.000000 S=16
+
+========================================================================
+DIST -- P2: marginals, R-wise independence, exact moments
+========================================================================
+  [PASS] P2i p=17 S=8 R=2: every coordinate marginal is exactly uniform (p^{R-1})  | p^{R-1}=17
+  [PASS] P2ii p=17 S=8 R=2: every R-subset of coordinates is jointly uniform (MDS)  | 28 R-subsets tested
+  [PASS] P2iii p=17 S=8 R=2: E_u[log2 P] = -S(1-2/p)  | measured -7.0588235294 predicted -7.0588235294
+  [PASS] P2iv p=17 S=8 R=2: E_u[sum_c n_c^2] = S + S(S-1)/p EXACTLY  | 192/17 == 192/17
+  [PASS] P2v p=17 S=8 R=2: Var_u[log2 P] = S Var(d) (R>=2 => pairwise indep)  | measured 37.400297117 predicted 37.400297117
+  [PASS] P2i p=113 S=8 R=1: every coordinate marginal is exactly uniform (p^{R-1})  | p^{R-1}=1
+  [PASS] P2ii p=113 S=8 R=1: every R-subset of coordinates is jointly uniform (MDS)  | 8 R-subsets tested
+  [PASS] P2iii p=113 S=8 R=1: E_u[log2 P] = -S(1-2/p)  | measured -7.8584070796 predicted -7.8584070796
+  [PASS] P2iv p=113 S=8 R=1: E_u[sum_c n_c^2] = S + S(S-1)/p EXACTLY  | 960/113 == 960/113
+  [PASS] P2i p=241 S=8 R=1: every coordinate marginal is exactly uniform (p^{R-1})  | p^{R-1}=1
+  [PASS] P2ii p=241 S=8 R=1: every R-subset of coordinates is jointly uniform (MDS)  | 8 R-subsets tested
+  [PASS] P2iii p=241 S=8 R=1: E_u[log2 P] = -S(1-2/p)  | measured -7.9336099585 predicted -7.9336099585
+  [PASS] P2iv p=241 S=8 R=1: E_u[sum_c n_c^2] = S + S(S-1)/p EXACTLY  | 1984/241 == 1984/241
+  [PASS] P2i p=97 S=16 R=2: every coordinate marginal is exactly uniform (p^{R-1})  | p^{R-1}=97
+  [PASS] P2ii p=97 S=16 R=2: every R-subset of coordinates is jointly uniform (MDS)  | 120 R-subsets tested
+  [PASS] P2iii p=97 S=16 R=2: E_u[log2 P] = -S(1-2/p)  | measured -15.6701030928 predicted -15.6701030928
+  [PASS] P2iv p=97 S=16 R=2: E_u[sum_c n_c^2] = S + S(S-1)/p EXACTLY  | 1792/97 == 1792/97
+  [PASS] P2v p=97 S=16 R=2: Var_u[log2 P] = S Var(d) (R>=2 => pairwise indep)  | measured 100.183134541 predicted 100.183134541
+
+========================================================================
+THR -- P3/P4: the per-layer certified c-ranges (FAMILY-TRAP CHECK)
+========================================================================
+      official row: log2 p = 63.999999355, S = 2^38, R/S = 1/log2 p
+      (c = 0 is TRIVIAL: |U_0| = p^R and the allowance at c = 0
+       is exactly 2^{S+Delta} = p^R.  The grid below is c >= 0.01.)
+  [PASS] THR-1 Z-2/Chebyshev supply certifies an EMPTY c-range at log2 p=64  | max_c phi = -0.000050 at c = 0.0000 (need >= 0)
+  [PASS] THR-2 its threshold is COROLLARY 8's log2 p <= 3.0529 (p <= 8.30)  | threshold log2 p = 3.0529  =>  p <= 8.299
+      per-layer c-range at the threshold: attained at c = 1.000
+  [PASS] THR-3 interpolation supply (branch m>=2) is EMPTY at log2 p = 64  | max_c phi_interp = -0.100696 at c = 0.0001
+  [PASS] THR-4 interpolation supply is empty for EVERY p (no threshold)  | max_c phi at log2 p = 2:-0.7079, 3:-0.6687, 4:-0.6065, 8:-0.4296, 16:-0.2778, 32:-0.1705, 64:-0.1011, 128:-0.0586, 1024:-0.0107, 1.04858e+06:-0.0005
+      it fails by H(1/L) + 1/L in the exponent as c -> 0:
+      H(1/64) = 0.1161 vs the value gain 1/64 = 0.0156 -- the union
+      bound over WHICH R coordinates are small costs more than
+      the smallness of the values saves.
+  [PASS] THR-5 endpoint: U_c = {0} for every c > 1 - 2^{-124.191}  | d(1) = 2^{-124.1682}, (1-R/S) = 0.984127, width = 2^{-124.191}
+      => the interpolation/endpoint route proves the criterion on
+         a c-range of width 2^{-124.19} -- an ENDPOINT, not a range.
+
+========================================================================
+THR -- P5: the critical layer of the criterion
+========================================================================
+  [PASS] THR-6 m_1(p=17) -> 1/ln2 - 1 = 0.4426950409  | m_1 = 0.4421635851, |diff| = 5.31e-04
+  [PASS] THR-6 m_1(p=97) -> 1/ln2 - 1 = 0.4426950409  | m_1 = 0.4426921904, |diff| = 2.85e-06
+  [PASS] THR-6 m_1(p=673) -> 1/ln2 - 1 = 0.4426950409  | m_1 = 0.4426950324, |diff| = 8.53e-09
+  [PASS] THR-6 m_1(p=65537) -> 1/ln2 - 1 = 0.4426950409  | m_1 = 0.4426950409, |diff| = 9.27e-15
+  [PASS] THR-7 flat-model CGF Lambda(1) = 0 (E[P] = 1 exactly)  | Lambda(1) = -4.441e-16
+  [PASS] THR-8 Lambda'(1) = 1/ln2 - 1 = c*  (the zero-margin layer)  | Lambda'(1) = 0.442695040 vs c* = 0.442695041
+
+      flat-model margin profile  I(c) - c  (0 exactly at c*):
+        c      I(c)     I(c)-c
+       0.0000    0.1574    0.1574
+       0.1000    0.2016    0.1016
+       0.2000    0.2553    0.0553
+       0.3000    0.3209    0.0209
+       0.4000    0.4021    0.0021
+       0.4427    0.4427    0.0000   <== c*
+       0.5000    0.5042    0.0042
+       0.6000    0.6365    0.0365
+       0.8000    1.0815    0.2815
+       1.0000    2.9957    1.9957
+
+========================================================================
+TR -- P7: does the decimation CREATION mechanism transport?
+========================================================================
+  [PASS] TR-1 (R=4294967340) no decimation level has BOTH collapse and dim>0  | levels with both: none
+  [PASS] TR-1 (R=4294967339) no decimation level has BOTH collapse and dim>0  | levels with both: none
+  [PASS] TR-2 the crossover is exactly saturation: 2^32 < R < 2^33  | R = 4294967340, 2^32 = 4294967296, 2^33 = 8589934592
+  [PASS] TR-3 A = R is impossible (R is not a 2-power)  | v_2(R) = 2
+      window diameter 2R-2 = 8589934678 vs half-length S = 274877906944;
+      2R-2 < S by a factor 32.00 = log2(p)/2 -- the SATURATION
+      constant.  The official window is a SHORT INITIAL SEGMENT.
+  [PASS] TR-4 the dichotomy holds on every toy I1 row and every level  | violations: none
+      (SELF-ORTH/TWT, the second ingredient, needs |T| >= N/2 and
+       p <= sublattice length; at the official row R/S = 1/64 and
+       log2 p >= 39, so BOTH fail -- CATCH-19D independently.)
+
+========================================================================
+T2/CTRL -- independent replication of the banked I3 censuses
+========================================================================
+  [PASS] T2/CTRL n=32 w=2 p=3 count = 6560  | got 6560
+  [PASS] T2/CTRL n=32 w=2 p=5 count = 0  | got 0
+  [PASS] T2/CTRL n=32 w=2 p=7 count = 16640  | got 16640
+  [PASS] T2/CTRL n=32 w=2 p=17 count = 148224  | got 148224
+  [PASS] T2/CTRL n=32 w=2 p=23 count = 288  | got 288
+
+========================================================================
+T2/CELL -- the p=7, w=4 cell: 288 codewords, weights {7,14}
+========================================================================
+  [PASS] T2/CELL count = 288  | got 288
+  [PASS] T2/CELL weights = {7,14}  | spectrum [(7, 32), (14, 256)]
+  [PASS] T2/CELL T = <7>-closure of {1,3} mod 32  | T=[1, 3, 5, 7, 17, 19, 21, 23]
+      |T| = 8, ord_32(7) = 4, F_7-rank of the system = 8
+
+========================================================================
+T2/H1 -- GENERATOR-COEFFICIENT hypothesis
+========================================================================
+  [PASS] T2/H1a h = prod_{s in T}(X - omega^s) has coefficients in F_7  | h = [1, 0, 2, 0, 2, 0, 5, 0, 1]
+      h(X) coefficients (const first): [1, 0, 2, 0, 2, 0, 5, 0, 1]
+      h(X) in symmetric residues [-3,3]: [1, 0, 2, 0, 2, 0, -2, 0, 1]
+  [PASS] T2/H1b [P6/H1 REFUTED] h is NOT ternary -- my prediction missed  | symmetric coeffs [1, 0, 2, 0, 2, 0, -2, 0, 1]
+  [PASS] T2/H1c [P6/H1 REFUTED] wt(h) = 5, not the observed minimum 7  | wt(h) = 5
+  [PASS] T2/H1e h is a polynomial in X^2 (a CONSEQUENCE of decimation)  | h = [1, 0, 2, 0, 2, 0, 5, 0, 1]
+  [PASS] T2/H1d all 288 codewords are ordinary-polynomial multiples of h  | (definitional control)
+      distinct quotients q = v/h: 288; of these ternary: 80
+      quotient weight profile: [(3, 8), (4, 24), (6, 16), (7, 96), (8, 144)]
+      sample quotients: [(-1, -1, 1, 1, -1, -1, -1, -1), (-1, -1, 1, 1, -1, 1, -1, 0), (-1, -1, 1, 1, -1, 1, -1, 1), (-1, -1, 1, 1, 1, -1, 0, -1), (-1, -1, 1, 1, 1, -1, 1, -1), (-1, -1, 1, 1, 1, 1, 0, 0)]
+
+========================================================================
+T2/H4 -- MULTIPLIER hypothesis and the orbit structure
+========================================================================
+  [PASS] T2/H4a the 288 are closed under negacyclic rotation and negation
+  [PASS] T2/H4b 9 orbits of size 32 (banked: 9 orbits)  | orbits=9 sizes=[32]
+      multiplier stabiliser of T in (Z/32)^*: [1, 7, 17, 23]
+  [PASS] T2/H4c the 288 are closed under the T-stabiliser multipliers  | orbits under the full group: 3, sizes [32, 128]
+
+========================================================================
+T2/H5 -- THE MECHANISM: decimation + composition (THEOREM 13)
+========================================================================
+  [PASS] T2/H5a every weight-7 codeword is DECIMATED (even- or odd-only)  | even 16, odd 16, mixed 0
+  [PASS] T2/H5b T mod 16 collapses 8 -> 4 (the rank-collapse cause)  | T mod 16 = [1, 3, 5, 7]
+  [PASS] T2/H5c even-sublattice system has rank 4 (not 8): dim 4  | length 8 rank 4 dim 4
+  [PASS] T2/H5d the weight-14 stratum IS exactly {even + odd} (16x16=256)  | |sums| = 256, |w14| = 256, equal = True
+  [PASS] T2/H5e 288 = 16 + 16 + 16*16 exactly
+      LEDGER: flat+TWT whole cell = 0.5951
+        even-w7: flat 0.00017763 -> after decimation 0.4265 -> per 16-orbit 0.0267 orbits -> MEASURED 16 words (1 orbit)
+        w14:     flat 0.1819 -> FORCED by composition = 256
+
+========================================================================
+T2/H6 -- why p=7 and nothing else: cross-p scan of the DECIMATED cell CT(8,p,{1,3,5,7} mod 16)
+========================================================================
+      p=3   |T mod16|=8 rank=8  dim=0 ternary=0     weights=[]
+      p=5   |T mod16|=8 rank=8  dim=0 ternary=0     weights=[]
+      p=7   |T mod16|=4 rank=4  dim=4 ternary=16    weights=[7]
+      p=11  |T mod16|=8 rank=8  dim=0 ternary=0     weights=[]
+      p=13  |T mod16|=8 rank=8  dim=0 ternary=0     weights=[]
+      p=17  |T mod16|=4 rank=4  dim=4 ternary=0     weights=[]
+      p=19  |T mod16|=8 rank=8  dim=0 ternary=0     weights=[]
+      p=23  |T mod16|=4 rank=4  dim=4 ternary=0     weights=[]
+      p=29  |T mod16|=8 rank=8  dim=0 ternary=0     weights=[]
+      p=31  |T mod16|=8 rank=8  dim=0 ternary=0     weights=[]
+      p=41  |T mod16|=8 rank=8  dim=0 ternary=0     weights=[]
+      p=47  |T mod16|=8 rank=8  dim=0 ternary=0     weights=[]
+  [PASS] T2/H6a the rank collapse happens only for ord_16(p) = 2  | collapsed at p = [7, 17, 23]
+  [PASS] T2/H6b among those, only p=7 admits a ternary word (TWT: p<=8)  | nonzero counts at p = [7]
+
+========================================================================
+T2/H3 -- support structure of the weight-7 codewords
+========================================================================
+      32 weight-7 codewords, 16 distinct supports
+      first supports: [(0, 2, 4, 6, 8, 10, 12), (0, 2, 4, 6, 8, 10, 14), (0, 2, 4, 6, 8, 12, 14), (0, 2, 4, 6, 10, 12, 14)]
+      difference multiset of the first support (mod 16): [(2, 6), (4, 6), (6, 6), (8, 6), (10, 6), (12, 6), (14, 6)]
+      (a (16,7,lambda) difference set would give a flat difference multiset; it is flat)
+
+========================================================================
+PROF -- T3: the measured tail profile E(c) = log2 Pr + cS
+========================================================================
+      criterion (normalised): E(c) <= o(S) for every c;
+      E(c) = log2|U_c| - [(1-c)S + Delta], Delta = R log2 p - S.
+
+   FAMILY A  p=17 S=8 R=2   R_sat = 2   Delta = +0.175
+  [PASS] PROF-mean p=17 S=8 R=2: E_u[log2 P] = -S(1-2/p)  | measured -7.05882353 predicted -7.05882353
+  [PASS] PROF-max p=17 S=8 R=2: max log2 P = S attained only at u = 0  | max = 8.000000 (S=8), attained 1 times
+      Z_1 = 1.250000000   m_1(p) = 0.442164 (c* = 0.442695)
+        c     |U_c|   E(c)      |U_c\0|   E_nz(c)   flat      excess
+       0.00       49   -2.560       48    -2.590    -1.259    -1.331
+       0.05       33   -2.731       32    -2.775    -1.028    -1.747
+       0.10       33   -2.331       32    -2.375    -0.813    -1.562
+       0.15       17   -2.887       16    -2.975    -0.617    -2.358
+       0.20        1   -6.575        0      -inf    -0.442      -inf
+       0.25        1   -6.175        0      -inf    -0.291      -inf
+       0.30        1   -5.775        0      -inf    -0.167      -inf
+       0.35        1   -5.375        0      -inf    -0.074      -inf
+       0.40        1   -4.975        0      -inf    -0.017      -inf
+       0.45        1   -4.575        0      -inf    -0.001      -inf
+       0.50        1   -4.175        0      -inf    -0.034      -inf
+       0.55        1   -3.775        0      -inf    -0.126      -inf
+       0.60        1   -3.375        0      -inf    -0.292      -inf
+       0.65        1   -2.975        0      -inf    -0.550      -inf
+       0.70        1   -2.575        0      -inf    -0.929      -inf
+       0.75        1   -2.175        0      -inf    -1.472      -inf
+       0.80        1   -1.775        0      -inf    -2.252      -inf
+       0.85        1   -1.375        0      -inf    -3.406      -inf
+       0.90        1   -0.975        0      -inf    -5.241      -inf
+       0.95        1   -0.575        0      -inf    -8.438      -inf
+       1.00        1   -0.175        0      -inf   -12.038      -inf
+      max_c E(c)    = -0.1749 at c = 1.00  (= -Delta at c=1 because |U_1| = 1)
+      max_c E_nz(c) = -2.3749 at c = 0.10   (c* = 0.4427)
+
+   FAMILY A  p=113 S=8 R=1   R_sat = 1   Delta = -1.180
+  [PASS] PROF-mean p=113 S=8 R=1: E_u[log2 P] = -S(1-2/p)  | measured -7.85840708 predicted -7.85840708
+  [PASS] PROF-max p=113 S=8 R=1: max log2 P = S attained only at u = 0  | max = 8.000000 (S=8), attained 1 times
+      Z_1 = 2.375000000   m_1(p) = 0.442693 (c* = 0.442695)
+        c     |U_c|   E(c)      |U_c\0|   E_nz(c)   flat      excess
+       0.00        1   -6.820        0      -inf    -1.259      -inf
+       0.05        1   -6.420        0      -inf    -1.028      -inf
+       0.10        1   -6.020        0      -inf    -0.813      -inf
+       0.15        1   -5.620        0      -inf    -0.617      -inf
+       0.20        1   -5.220        0      -inf    -0.442      -inf
+       0.25        1   -4.820        0      -inf    -0.291      -inf
+       0.30        1   -4.420        0      -inf    -0.167      -inf
+       0.35        1   -4.020        0      -inf    -0.074      -inf
+       0.40        1   -3.620        0      -inf    -0.017      -inf
+       0.45        1   -3.220        0      -inf    -0.001      -inf
+       0.50        1   -2.820        0      -inf    -0.034      -inf
+       0.55        1   -2.420        0      -inf    -0.126      -inf
+       0.60        1   -2.020        0      -inf    -0.292      -inf
+       0.65        1   -1.620        0      -inf    -0.550      -inf
+       0.70        1   -1.220        0      -inf    -0.929      -inf
+       0.75        1   -0.820        0      -inf    -1.472      -inf
+       0.80        1   -0.420        0      -inf    -2.252      -inf
+       0.85        1   -0.020        0      -inf    -3.406      -inf
+       0.90        1   +0.380        0      -inf    -5.241      -inf
+       0.95        1   +0.780        0      -inf    -8.438      -inf
+       1.00        1   +1.180        0      -inf   -12.038      -inf
+      max_c E(c)    = +1.1798 at c = 1.00  (= -Delta at c=1 because |U_1| = 1)
+      E_nz is empty on the grid (tail = the u=0 atom only)
+
+   FAMILY A  p=241 S=8 R=1   R_sat = 1   Delta = -0.087
+  [PASS] PROF-mean p=241 S=8 R=1: E_u[log2 P] = -S(1-2/p)  | measured -7.93360996 predicted -7.93360996
+  [PASS] PROF-max p=241 S=8 R=1: max log2 P = S attained only at u = 0  | max = 8.000000 (S=8), attained 1 times
+      Z_1 = 1.500000000   m_1(p) = 0.442695 (c* = 0.442695)
+        c     |U_c|   E(c)      |U_c\0|   E_nz(c)   flat      excess
+       0.00       33   -2.868       32    -2.913    -1.259    -1.654
+       0.05       33   -2.468       32    -2.513    -1.028    -1.485
+       0.10       33   -2.068       32    -2.113    -0.813    -1.300
+       0.15       33   -1.668       32    -1.713    -0.617    -1.096
+       0.20       17   -2.225       16    -2.313    -0.442    -1.871
+       0.25        1   -5.913        0      -inf    -0.291      -inf
+       0.30        1   -5.513        0      -inf    -0.167      -inf
+       0.35        1   -5.113        0      -inf    -0.074      -inf
+       0.40        1   -4.713        0      -inf    -0.017      -inf
+       0.45        1   -4.313        0      -inf    -0.001      -inf
+       0.50        1   -3.913        0      -inf    -0.034      -inf
+       0.55        1   -3.513        0      -inf    -0.126      -inf
+       0.60        1   -3.113        0      -inf    -0.292      -inf
+       0.65        1   -2.713        0      -inf    -0.550      -inf
+       0.70        1   -2.313        0      -inf    -0.929      -inf
+       0.75        1   -1.913        0      -inf    -1.472      -inf
+       0.80        1   -1.513        0      -inf    -2.252      -inf
+       0.85        1   -1.113        0      -inf    -3.406      -inf
+       0.90        1   -0.713        0      -inf    -5.241      -inf
+       0.95        1   -0.313        0      -inf    -8.438      -inf
+       1.00        1   +0.087        0      -inf   -12.038      -inf
+      max_c E(c)    = +0.0871 at c = 1.00  (= -Delta at c=1 because |U_1| = 1)
+      max_c E_nz(c) = -1.7129 at c = 0.15   (c* = 0.4427)
+
+   FAMILY A  p=97 S=16 R=2   R_sat = 2   Delta = -2.800
+  [PASS] PROF-mean p=97 S=16 R=2: E_u[log2 P] = -S(1-2/p)  | measured -15.67010309 predicted -15.67010309
+  [PASS] PROF-max p=97 S=16 R=2: max log2 P = S attained only at u = 0  | max = 16.000000 (S=16), attained 1 times
+      Z_1 = 9.387207031   m_1(p) = 0.442692 (c* = 0.442695)
+        c     |U_c|   E(c)      |U_c\0|   E_nz(c)   flat      excess
+       0.00      417   -4.496      416    -4.499    -2.519    -1.981
+       0.05      257   -4.394      256    -4.400    -2.055    -2.345
+       0.10      257   -3.594      256    -3.600    -1.626    -1.974
+       0.15       97   -4.200       96    -4.215    -1.234    -2.981
+       0.20       97   -3.400       96    -3.415    -0.885    -2.530
+       0.25       97   -2.600       96    -2.615    -0.583    -2.032
+       0.30       65   -2.377       64    -2.400    -0.335    -2.065
+       0.35       65   -1.577       64    -1.600    -0.149    -1.451
+       0.40       33   -1.755       32    -1.800    -0.033    -1.767
+       0.45       33   -0.955       32    -1.000    -0.001    -0.999
+       0.50       33   -0.155       32    -0.200    -0.067    -0.132
+       0.55       33   +0.645       32    +0.600    -0.253    +0.853
+       0.60        1   -3.600        0      -inf    -0.584      -inf
+       0.65        1   -2.800        0      -inf    -1.100      -inf
+       0.70        1   -2.000        0      -inf    -1.858      -inf
+       0.75        1   -1.200        0      -inf    -2.943      -inf
+       0.80        1   -0.400        0      -inf    -4.503      -inf
+       0.85        1   +0.400        0      -inf    -6.812      -inf
+       0.90        1   +1.200        0      -inf   -10.483      -inf
+       0.95        1   +2.000        0      -inf   -16.876      -inf
+       1.00        1   +2.800        0      -inf   -24.076      -inf
+      max_c E(c)    = +2.8002 at c = 1.00  (= -Delta at c=1 because |U_1| = 1)
+      max_c E_nz(c) = +0.6002 at c = 0.55   (c* = 0.4427)
+
+   FAMILY A  p=353 S=16 R=2   R_sat = 2   Delta = +0.927
+  [PASS] PROF-mean p=353 S=16 R=2: E_u[log2 P] = -S(1-2/p)  | measured -15.90934844 predicted -15.90934844
+  [PASS] PROF-max p=353 S=16 R=2: max log2 P = S attained only at u = 0  | max = 16.000000 (S=16), attained 1 times
+      Z_1 = 1.156250000   m_1(p) = 0.442695 (c* = 0.442695)
+        c     |U_c|   E(c)      |U_c\0|   E_nz(c)   flat      excess
+       0.00     4993   -4.641     4992    -4.642    -2.519    -2.123
+       0.05     3937   -4.184     3936    -4.185    -2.055    -2.129
+       0.10     2817   -3.867     2816    -3.868    -1.626    -2.242
+       0.15     1953   -3.596     1952    -3.596    -1.234    -2.362
+       0.20     1441   -3.234     1440    -3.235    -0.885    -2.351
+       0.25      993   -2.971      992    -2.973    -0.583    -2.390
+       0.30      577   -2.955      576    -2.957    -0.335    -2.622
+       0.35      353   -2.864      352    -2.868    -0.149    -2.719
+       0.40      193   -2.935      192    -2.942    -0.033    -2.909
+       0.45      129   -2.716      128    -2.727    -0.001    -2.726
+       0.50        1   -8.927        0      -inf    -0.067      -inf
+       0.55        1   -8.127        0      -inf    -0.253      -inf
+       0.60        1   -7.327        0      -inf    -0.584      -inf
+       0.65        1   -6.527        0      -inf    -1.100      -inf
+       0.70        1   -5.727        0      -inf    -1.858      -inf
+       0.75        1   -4.927        0      -inf    -2.943      -inf
+       0.80        1   -4.127        0      -inf    -4.503      -inf
+       0.85        1   -3.327        0      -inf    -6.812      -inf
+       0.90        1   -2.527        0      -inf   -10.483      -inf
+       0.95        1   -1.727        0      -inf   -16.876      -inf
+       1.00        1   -0.927        0      -inf   -24.076      -inf
+      max_c E(c)    = -0.9270 at c = 1.00  (= -Delta at c=1 because |U_1| = 1)
+      max_c E_nz(c) = -2.7270 at c = 0.45   (c* = 0.4427)
+
+   FAMILY A  p=673 S=16 R=2   R_sat = 2   Delta = +2.789
+  [PASS] PROF-mean p=673 S=16 R=2: E_u[log2 P] = -S(1-2/p)  | measured -15.95245171 predicted -15.95245171
+  [PASS] PROF-max p=673 S=16 R=2: max log2 P = S attained only at u = 0  | max = 16.000000 (S=16), attained 1 times
+      Z_1 = 1.097656250   m_1(p) = 0.442695 (c* = 0.442695)
+        c     |U_c|   E(c)      |U_c\0|   E_nz(c)   flat      excess
+       0.00    17985   -4.654    17984    -4.654    -2.519    -2.136
+       0.05    13921   -4.224    13920    -4.224    -2.055    -2.169
+       0.10    10721   -3.801    10720    -3.801    -1.626    -2.175
+       0.15     7649   -3.488     7648    -3.488    -1.234    -2.254
+       0.20     5633   -3.129     5632    -3.129    -0.885    -2.245
+       0.25     3969   -2.834     3968    -2.835    -0.583    -2.252
+       0.30     2561   -2.666     2560    -2.667    -0.335    -2.332
+       0.35     1441   -2.696     1440    -2.697    -0.149    -2.549
+       0.40      993   -2.433      992    -2.435    -0.033    -2.402
+       0.45      673   -2.194      672    -2.197    -0.001    -2.196
+       0.50      257   -2.783      256    -2.789    -0.067    -2.722
+       0.55      129   -2.978      128    -2.989    -0.253    -2.736
+       0.60       97   -2.589       96    -2.604    -0.584    -2.020
+       0.65        1   -8.389        0      -inf    -1.100      -inf
+       0.70        1   -7.589        0      -inf    -1.858      -inf
+       0.75        1   -6.789        0      -inf    -2.943      -inf
+       0.80        1   -5.989        0      -inf    -4.503      -inf
+       0.85        1   -5.189        0      -inf    -6.812      -inf
+       0.90        1   -4.389        0      -inf   -10.483      -inf
+       0.95        1   -3.589        0      -inf   -16.876      -inf
+       1.00        1   -2.789        0      -inf   -24.076      -inf
+      max_c E(c)    = -2.1945 at c = 0.45  (= -Delta at c=1 because |U_1| = 1)
+      max_c E_nz(c) = -2.1966 at c = 0.45   (c* = 0.4427)
+
+   [UNREACHED] p=65537 S=32768 R=1 [off-sat]: p^R = 65537, p^R*S = 2.15e+09 evaluations -- exceeds the compute law (declared unreached, NOT estimated)
+
+   FAMILY B  p=193 S=32 R=2 [off-sat]   R_sat = 4   Delta = -16.815
+  [PASS] PROF-mean p=193 S=32 R=2 [off-sat]: E_u[log2 P] = -S(1-2/p)  | measured -31.66839378 predicted -31.66839378
+  [PASS] PROF-max p=193 S=32 R=2 [off-sat]: max log2 P = S attained only at u = 0  | max = 32.000000 (S=32), attained 1 times
+      Z_1 = 115304.380811244   m_1(p) = 0.442695 (c* = 0.442695)
+        c     |U_c|   E(c)      |U_c\0|   E_nz(c)   flat      excess
+       0.00      257   -7.179      256    -7.185    -5.038    -2.147
+       0.05      193   -5.992      192    -6.000    -4.110    -1.890
+       0.10       65   -5.963       64    -5.985    -3.251    -2.734
+       0.15       65   -4.363       64    -4.385    -2.468    -1.917
+       0.20        1   -8.785        0      -inf    -1.769      -inf
+       0.25        1   -7.185        0      -inf    -1.166      -inf
+       0.30        1   -5.585        0      -inf    -0.670      -inf
+       0.35        1   -3.985        0      -inf    -0.297      -inf
+       0.40        1   -2.385        0      -inf    -0.066      -inf
+       0.45        1   -0.785        0      -inf    -0.002      -inf
+       0.50        1   +0.815        0      -inf    -0.135      -inf
+       0.55        1   +2.415        0      -inf    -0.505      -inf
+       0.60        1   +4.015        0      -inf    -1.168      -inf
+       0.65        1   +5.615        0      -inf    -2.201      -inf
+       0.70        1   +7.215        0      -inf    -3.715      -inf
+       0.75        1   +8.815        0      -inf    -5.887      -inf
+       0.80        1  +10.415        0      -inf    -9.007      -inf
+       0.85        1  +12.015        0      -inf   -13.624      -inf
+       0.90        1  +13.615        0      -inf   -20.966      -inf
+       0.95        1  +15.215        0      -inf   -33.752      -inf
+       1.00        1  +16.815        0      -inf   -48.152      -inf
+      max_c E(c)    = +16.8151 at c = 1.00  (= -Delta at c=1 because |U_1| = 1)
+      max_c E_nz(c) = -4.3849 at c = 0.15   (c* = 0.4427)
+
+   FAMILY B  p=193 S=32 R=3 [off-sat]   R_sat = 4   Delta = -9.223
+  [PASS] PROF-mean p=193 S=32 R=3 [off-sat]: E_u[log2 P] = -S(1-2/p)  | measured -31.66839378 predicted -31.66839378
+  [PASS] PROF-max p=193 S=32 R=3 [off-sat]: max log2 P = S attained only at u = 0  | max = 32.000000 (S=32), attained 1 times
+      Z_1 = 598.386336371   m_1(p) = 0.442695 (c* = 0.442695)
+        c     |U_c|   E(c)      |U_c\0|   E_nz(c)   flat      excess
+       0.00    37185   -7.595    37184    -7.595    -5.038    -2.557
+       0.05    22785   -6.702    22784    -6.702    -4.110    -2.591
+       0.10    12737   -5.941    12736    -5.941    -3.251    -2.690
+       0.15     6721   -5.263     6720    -5.263    -2.468    -2.795
+       0.20     4225   -4.333     4224    -4.333    -1.769    -2.564
+       0.25     1729   -4.022     1728    -4.022    -1.166    -2.857
+       0.30      897   -3.368      896    -3.370    -0.670    -2.700
+       0.35      385   -2.989      384    -2.992    -0.297    -2.695
+       0.40      129   -2.966      128    -2.977    -0.066    -2.911
+       0.45      129   -1.366      128    -1.377    -0.002    -1.375
+       0.50        1   -6.777        0      -inf    -0.135      -inf
+       0.55        1   -5.177        0      -inf    -0.505      -inf
+       0.60        1   -3.577        0      -inf    -1.168      -inf
+       0.65        1   -1.977        0      -inf    -2.201      -inf
+       0.70        1   -0.377        0      -inf    -3.715      -inf
+       0.75        1   +1.223        0      -inf    -5.887      -inf
+       0.80        1   +2.823        0      -inf    -9.007      -inf
+       0.85        1   +4.423        0      -inf   -13.624      -inf
+       0.90        1   +6.023        0      -inf   -20.966      -inf
+       0.95        1   +7.623        0      -inf   -33.752      -inf
+       1.00        1   +9.223        0      -inf   -48.152      -inf
+      max_c E(c)    = +9.2226 at c = 1.00  (= -Delta at c=1 because |U_1| = 1)
+      max_c E_nz(c) = -1.3774 at c = 0.45   (c* = 0.4427)
+
+   FAMILY B  p=577 S=32 R=2 [off-sat]   R_sat = 3   Delta = -13.655
+  [PASS] PROF-mean p=577 S=32 R=2 [off-sat]: E_u[log2 P] = -S(1-2/p)  | measured -31.88908146 predicted -31.88908146
+  [PASS] PROF-max p=577 S=32 R=2 [off-sat]: max log2 P = S attained only at u = 0  | max = 32.000000 (S=32), attained 1 times
+      Z_1 = 12901.084068894   m_1(p) = 0.442695 (c* = 0.442695)
+        c     |U_c|   E(c)      |U_c\0|   E_nz(c)   flat      excess
+       0.00     1665   -7.644     1664    -7.644    -5.038    -2.607
+       0.05     1089   -6.656     1088    -6.657    -4.110    -2.547
+       0.10      833   -5.443      832    -5.444    -3.251    -2.193
+       0.15      577   -4.372      576    -4.375    -2.468    -1.907
+       0.20      385   -3.356      384    -3.360    -1.769    -1.591
+       0.25      129   -3.334      128    -3.345    -1.166    -2.179
+       0.30      129   -1.734      128    -1.745    -0.670    -1.075
+       0.35        1   -7.145        0      -inf    -0.297      -inf
+       0.40        1   -5.545        0      -inf    -0.066      -inf
+       0.45        1   -3.945        0      -inf    -0.002      -inf
+       0.50        1   -2.345        0      -inf    -0.135      -inf
+       0.55        1   -0.745        0      -inf    -0.505      -inf
+       0.60        1   +0.855        0      -inf    -1.168      -inf
+       0.65        1   +2.455        0      -inf    -2.201      -inf
+       0.70        1   +4.055        0      -inf    -3.715      -inf
+       0.75        1   +5.655        0      -inf    -5.887      -inf
+       0.80        1   +7.255        0      -inf    -9.007      -inf
+       0.85        1   +8.855        0      -inf   -13.624      -inf
+       0.90        1  +10.455        0      -inf   -20.966      -inf
+       0.95        1  +12.055        0      -inf   -33.752      -inf
+       1.00        1  +13.655        0      -inf   -48.152      -inf
+      max_c E(c)    = +13.6551 at c = 1.00  (= -Delta at c=1 because |U_1| = 1)
+      max_c E_nz(c) = -1.7449 at c = 0.30   (c* = 0.4427)
+
+   FAMILY B  p=641 S=64 R=2 [off-sat]   R_sat = 7   Delta = -45.352
+  [PASS] PROF-mean p=641 S=64 R=2 [off-sat]: E_u[log2 P] = -S(1-2/p)  | measured -63.80031201 predicted -63.80031201
+  [PASS] PROF-max p=641 S=64 R=2 [off-sat]: max log2 P = S attained only at u = 0  | max = 64.000000 (S=64), attained 1 times
+      Z_1 = 44895587952982.859375000   m_1(p) = 0.442695 (c* = 0.442695)
+        c     |U_c|   E(c)      |U_c\0|   E_nz(c)   flat      excess
+       0.00        1  -18.648        0      -inf   -10.075      -inf
+       0.05        1  -15.448        0      -inf    -8.220      -inf
+       0.10        1  -12.248        0      -inf    -6.502      -inf
+       0.15        1   -9.048        0      -inf    -4.936      -inf
+       0.20        1   -5.848        0      -inf    -3.539      -inf
+       0.25        1   -2.648        0      -inf    -2.331      -inf
+       0.30        1   +0.552        0      -inf    -1.340      -inf
+       0.35        1   +3.752        0      -inf    -0.594      -inf
+       0.40        1   +6.952        0      -inf    -0.133      -inf
+       0.45        1  +10.152        0      -inf    -0.004      -inf
+       0.50        1  +13.352        0      -inf    -0.270      -inf
+       0.55        1  +16.552        0      -inf    -1.010      -inf
+       0.60        1  +19.752        0      -inf    -2.336      -inf
+       0.65        1  +22.952        0      -inf    -4.401      -inf
+       0.70        1  +26.152        0      -inf    -7.431      -inf
+       0.75        1  +29.352        0      -inf   -11.774      -inf
+       0.80        1  +32.552        0      -inf   -18.014      -inf
+       0.85        1  +35.752        0      -inf   -27.247      -inf
+       0.90        1  +38.952        0      -inf   -41.932      -inf
+       0.95        1  +42.152        0      -inf   -67.503      -inf
+       1.00        1  +45.352        0      -inf   -96.303      -inf
+      max_c E(c)    = +45.3516 at c = 1.00  (= -Delta at c=1 because |U_1| = 1)
+      E_nz is empty on the grid (tail = the u=0 atom only)
+
+   FAMILY B  p=257 S=128 R=1 [off-sat]   R_sat = 16   Delta = -119.994
+  [PASS] PROF-mean p=257 S=128 R=1 [off-sat]: E_u[log2 P] = -S(1-2/p)  | measured -127.00389105 predicted -127.00389105
+  [PASS] PROF-max p=257 S=128 R=1 [off-sat]: max log2 P = S attained only at u = 0  | max = 128.000000 (S=128), attained 1 times
+      Z_1 = 1324055902416102989049576226853748736.000000000   m_1(p) = 0.442695 (c* = 0.442695)
+        c     |U_c|   E(c)      |U_c\0|   E_nz(c)   flat      excess
+       0.00        1   -8.006        0      -inf   -20.150      -inf
+       0.05        1   -1.606        0      -inf   -16.441      -inf
+       0.10        1   +4.794        0      -inf   -13.005      -inf
+       0.15        1  +11.194        0      -inf    -9.872      -inf
+       0.20        1  +17.594        0      -inf    -7.077      -inf
+       0.25        1  +23.994        0      -inf    -4.663      -inf
+       0.30        1  +30.394        0      -inf    -2.679      -inf
+       0.35        1  +36.794        0      -inf    -1.188      -inf
+       0.40        1  +43.194        0      -inf    -0.266      -inf
+       0.45        1  +49.594        0      -inf    -0.008      -inf
+       0.50        1  +55.994        0      -inf    -0.539      -inf
+       0.55        1  +62.394        0      -inf    -2.021      -inf
+       0.60        1  +68.794        0      -inf    -4.673      -inf
+       0.65        1  +75.194        0      -inf    -8.803      -inf
+       0.70        1  +81.594        0      -inf   -14.862      -inf
+       0.75        1  +87.994        0      -inf   -23.547      -inf
+       0.80        1  +94.394        0      -inf   -36.028      -inf
+       0.85        1 +100.794        0      -inf   -54.494      -inf
+       0.90        1 +107.194        0      -inf   -83.863      -inf
+       0.95        1 +113.594        0      -inf  -135.007      -inf
+       1.00        1 +119.994        0      -inf  -192.607      -inf
+      max_c E(c)    = +119.9944 at c = 1.00  (= -Delta at c=1 because |U_1| = 1)
+      E_nz is empty on the grid (tail = the u=0 atom only)
+
+   FAMILY B  p=769 S=128 R=2 [off-sat]   R_sat = 13   Delta = -108.826
+  [PASS] PROF-mean p=769 S=128 R=2 [off-sat]: E_u[log2 P] = -S(1-2/p)  | measured -127.66710013 predicted -127.66710013
+  [PASS] PROF-max p=769 S=128 R=2 [off-sat]: max log2 P = S attained only at u = 0  | max = 128.000000 (S=128), attained 1 times
+      Z_1 = 575422401749419495051001400918016.000000000   m_1(p) = 0.442695 (c* = 0.442695)
+        c     |U_c|   E(c)      |U_c\0|   E_nz(c)   flat      excess
+       0.00        1  -19.174        0      -inf   -20.150      -inf
+       0.05        1  -12.774        0      -inf   -16.441      -inf
+       0.10        1   -6.374        0      -inf   -13.005      -inf
+       0.15        1   +0.026        0      -inf    -9.872      -inf
+       0.20        1   +6.426        0      -inf    -7.077      -inf
+       0.25        1  +12.826        0      -inf    -4.663      -inf
+       0.30        1  +19.226        0      -inf    -2.679      -inf
+       0.35        1  +25.626        0      -inf    -1.188      -inf
+       0.40        1  +32.026        0      -inf    -0.266      -inf
+       0.45        1  +38.426        0      -inf    -0.008      -inf
+       0.50        1  +44.826        0      -inf    -0.539      -inf
+       0.55        1  +51.226        0      -inf    -2.021      -inf
+       0.60        1  +57.626        0      -inf    -4.673      -inf
+       0.65        1  +64.026        0      -inf    -8.803      -inf
+       0.70        1  +70.426        0      -inf   -14.862      -inf
+       0.75        1  +76.826        0      -inf   -23.547      -inf
+       0.80        1  +83.226        0      -inf   -36.028      -inf
+       0.85        1  +89.626        0      -inf   -54.494      -inf
+       0.90        1  +96.026        0      -inf   -83.863      -inf
+       0.95        1 +102.426        0      -inf  -135.007      -inf
+       1.00        1 +108.826        0      -inf  -192.607      -inf
+      max_c E(c)    = +108.8263 at c = 1.00  (= -Delta at c=1 because |U_1| = 1)
+      E_nz is empty on the grid (tail = the u=0 atom only)
+
+------------------------------------------------------------------------
+TOTAL: 111 PASS, 0 FAIL
