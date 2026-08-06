@@ -80,17 +80,27 @@ gate factor and maximum valuation 17.
 One 269-bit composite remains.  Two PARI attempts, FLINT, and eight seeded
 GMP-ECM workers all reached 300-second caps without a divisor.  It is now a
 compact external ECM/QS/NFS request.  Separately, the full easy+tail packet
-still needs compact aggregation and an independent exact replay; the target
-therefore remains open.
+still needs an independent exact replay; the target therefore remains open.
+
+An independently implemented custody pass now validates all 35,890 easy
+summary/shard pairs and reconstructs the exact sorted factor vocabulary:
+6,177,403 shard records and 4,443,651 distinct easy factors, with vocabulary
+SHA-256
+`1abfdfddbb9a168522b9413292cff6064308f9d7a0706b1f5cf34329a0d8bc3a`.
+It independently reproduces maximum `v_2(p-1)=30` and finds no official-gate
+factor.  This pays compact aggregation/custody, not factor primality or
+per-row factor products.  The unexpectedly large vocabulary rules out a
+naive monolithic primality pass; the replay must be sharded and separately
+priced.
 
 ```text
-starting pin: fd4f2d23; canonical 9c3a6d90; upstream main 93fba1be
+starting pin: fd4f2d23; canonical cee6244c; upstream main 93fba1be
 node: dli_wcl_slot_1_5_emptiness [TARGET]
-result: easy census COMPLETE; hard tails 193/194; one 269-bit external factor request
+result: easy census and custody COMPLETE; hard tails 193/194; one 269-bit external factor request
 DAG status delta: none
 upstream terminal delta: none
 delta-star bracket movement: none
 new assumptions: none
-compute: bounded Modal waves and inventories; all apps stopped
-next: build independent batch replay and aggregate; await certified factorization of tail 191
+compute: bounded Modal waves and inventories; final audit app ap-QctfVdgXi0IsLhxDIMLR0j; all apps stopped
+next: price sharded factor-primality and per-batch replay; await certified factorization of tail 191
 ```

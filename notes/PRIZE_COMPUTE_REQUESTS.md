@@ -5200,6 +5200,18 @@ makes a bounded range complete.
   resource telemetry.  Full custody and required output are in
   `notes/pilots_20260806/wcl15_finish/EXTERNAL_REQUEST.md`.  No further Modal
   factoring is authorized without a new cost estimate.
+  **Independent easy-factor custody audit:** final app
+  `ap-QctfVdgXi0IsLhxDIMLR0j` validated all 35,890 summary/shard pairs in
+  186.861 seconds and reconstructed 6,177,403 shard records and 4,443,651
+  distinct easy factors.  It independently finds no official-gate factor,
+  maximum `v_2(p-1)=30`, and maximum factor size 262 bits.  Vocabulary
+  SHA-256 is
+  `1abfdfddbb9a168522b9413292cff6064308f9d7a0706b1f5cf34329a0d8bc3a`;
+  compact-result SHA-256 is
+  `25597e973edb63c822af4a8b8b71506e4ecf68f629046aabcdda19ea6d535a31`.
+  This pays exact aggregation and shard custody only.  The 4.44-million
+  vocabulary requires a separately priced sharded primality/replay design;
+  no broad follow-up is authorized by this result.
 
 - **2026-08-03 interrupted-census checkpoint (Codex pin `8502b105`):**
   app `ap-f8oZLbaSVpbTXtCz4cPG2Z` extended the exact `(1,5)` recursive-norm

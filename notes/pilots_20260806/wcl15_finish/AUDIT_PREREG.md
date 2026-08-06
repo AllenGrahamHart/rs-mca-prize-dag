@@ -73,3 +73,20 @@ primality/replay follow-up.  The observed post-startup rate nevertheless puts
 the complete inventory inside the existing 900-second cap.  One final run of
 the identical code is authorized solely to finish and bank the inventory;
 after that, completion or failure is terminal for this design.
+
+## Outcome
+
+Final app `ap-QctfVdgXi0IsLhxDIMLR0j` completed in 186.861 seconds and
+stopped normally.  It validated all 35,890 summary/shard pairs and counted
+6,177,403 shard records, 6,528,119 factor records, and 4,443,651 distinct
+easy factors.  The vocabulary SHA-256 is
+`1abfdfddbb9a168522b9413292cff6064308f9d7a0706b1f5cf34329a0d8bc3a`;
+the compact local result SHA-256 is
+`25597e973edb63c822af4a8b8b71506e4ecf68f629046aabcdda19ea6d535a31`.
+No official-gate factor was found; maximum `v_2(p-1)` is 30 and maximum
+factor size is 262 bits.
+
+P1 and P2 pass.  P3's runtime prediction passes, but its one-million size
+prediction is falsified by a factor of 4.44.  The custody/vocabulary layer is
+banked.  No broad primality or batch-replay campaign is authorized without a
+new sharded design and cost estimate.
