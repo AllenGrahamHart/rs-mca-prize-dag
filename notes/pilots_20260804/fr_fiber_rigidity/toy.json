@@ -1,0 +1,69 @@
+{
+ "FR_F1_strong_violation_realised": 1710,
+ "FR_F2_weak_violation_realised": 0,
+ "FR_compliant_realised": 6,
+ "FR_verdict_at_shape": "REFUTED at this shape",
+ "checks": 4,
+ "dim_histogram": {
+  "rigid:1": 6,
+  "strong:1": 1710
+ },
+ "examples": {
+  "rigid": {
+   "B1": [
+    1,
+    3,
+    16,
+    53,
+    94,
+    134,
+    173
+   ],
+   "B2": [
+    9,
+    14,
+    44,
+    61,
+    83,
+    159,
+    171
+   ],
+   "c1": "rigid",
+   "c2": "rigid",
+   "dim": 1
+  },
+  "strong": {
+   "B1": [
+    1,
+    3,
+    9,
+    14,
+    16,
+    44,
+    53
+   ],
+   "B2": [
+    61,
+    83,
+    94,
+    134,
+    159,
+    171,
+    173
+   ],
+   "c1": "strong",
+   "c2": "strong",
+   "dim": 1
+  }
+ },
+ "fails": [],
+ "partitions_by_kind": {
+  "rigid": 6,
+  "strong": 1710
+ },
+ "realised_by_kind": {
+  "rigid": 6,
+  "strong": 1710
+ },
+ "shape": "h=25 ell=3 r=7 d=18 sigma=0 e=14 t=2 k=4 n=57 q=229 A=29 core=22"
+}

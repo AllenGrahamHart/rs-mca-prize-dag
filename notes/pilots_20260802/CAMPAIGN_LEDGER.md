@@ -1113,3 +1113,18 @@ Integration freeze pending the upstream-sync wiring and stocktake:
   mystery 2: SL-1 (rungs 14-16 power-sum relations) + SL-2 (the
   |K1| sum-vs-average seam, settle with PP5.0). Theorems queued
   mint-shaped for mint-4. Awaiting: fr_fiber_rigidity (4/4).
+
+## 2026-08-04: round-14 pilot 4/4 BANKED — (FR) REFUTED -> (BC); ROUND 14 COMPLETE
+
+- **fr_fiber_rigidity (Opus) BANKED** (47,111+ checks, 0 fail; FR-F1
+  fired as pre-registered). (FR) refuted inside its intended domain
+  (audited witness, gate exhausted-tight, exception not invoked;
+  1,710/1,716 partitions violate; the 6 survivors = the packed case).
+  SURVIVES: the counting consequence (|Bset| = 2 <= 6t empirically).
+  NEW: the two-ray syzygy, self-fiber avoidance, the selection lens
+  (census = punctured-RS list count), GATE-r — mint-shaped.
+  OBLIGATION RE-POSED: **(BC)** block census (reuse = the unmeasured
+  crux; Johnson-regime caveat = falsifier axis 1). Brief-staleness
+  catch against the coordinator recorded (quote theorems verbatim).
+  ROUND 14 COMPLETE — all four mysteries moved. Next-round board:
+  (BC), A1, F2-SL-1, the shared mu_n terminal, mint-4.
