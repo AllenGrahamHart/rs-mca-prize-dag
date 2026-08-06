@@ -1072,3 +1072,18 @@ Integration freeze pending the upstream-sync wiring and stocktake:
   disguise? LEMMA W is the same window system — a potential FIFTH
   dependency reduction, flagged prominently either way).
   Explicit-path commits while running.
+
+## 2026-08-04: round-14 pilot 1/4 BANKED — crossing OPENED: 3 theorems + the shared terminal
+
+- **crossing_w2_opening (Opus) BANKED** (152 checks; 3 honest
+  recorded resolutions). LEMMA X (general-T equidistribution — all
+  5.3e11 bracket w values vs MC-3's 6; PK2 reconciled); THEOREM Q
+  (q-dependence = characteristic only, tower-invariant); LEMMA Y/MW
+  (window LINEAR at every official razor row: w < p proved; crossing
+  heart = constant-weight count in a length-2^41 cyclic code; MC
+  window = coordinate subspace -> band route cut theorem-grade);
+  q-free floor (12x over MC-3, no bite at 2-power n). MERGE: same
+  counting problem, four blockers, ONE SHARED TERMINAL (mu_n
+  anti-concentration = mysteries 1+4's common deepest question).
+  Anchors A1-A8 (A5/A6 external-shaped; A7/A8 -> Codex). Awaiting:
+  fr_fiber_rigidity, f2_opening, c1_sharpest_leaf.
