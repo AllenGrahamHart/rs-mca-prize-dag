@@ -17,10 +17,11 @@ changing any quotient, dihedral, moment-trade, U2-boundary, or DLI/skew owner.
 Then
 
 ```text
-|F_z^prim|-1 <= R_post.
+|F_z^prim|-1 <= R_min.
 ```
 
 The current `u1` tail route counts F-4 order-`(h-1)` minimal records, whereas
 the star-PTE lemma produces general order-`t` records with `t<h`. The theorem
 must justify this minimalization step or broaden the `u1` ledger and re-prove
-its bound.
+its bound. The re-posed `u1_x4_direct_column_budget` now explicitly owns only
+the minimal-record currency.

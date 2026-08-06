@@ -19,7 +19,8 @@ Conditional on the wired inputs:
 2. `u2c_exact_slice_extras_budget` gives `U_MT<=n^3` after expansion and
    coalescing;
 3. `x4_primitive_star_u1_coverage` and
-   `u1_x4_direct_column_budget` give `U_prim<=16n^3`; and
+   the F-4 minimal-record bound in `u1_x4_direct_column_budget` give
+   `U_prim<=16n^3`; and
 4. `x4_exactlist_summed_budget` proves the one list-side integer sum is at
    most `B*=floor(|F|/2^128)`.
 

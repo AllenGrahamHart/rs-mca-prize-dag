@@ -18850,7 +18850,7 @@ Two previously hidden assumptions are now explicit critical leaves:
 1. `x4_primitive_star_u1_coverage`: inject every general order-`t` residual
    star record into the exact `u1` ledger with multiplicity one. This must
    justify the current F-4 passage to order-`(h-1)` minimal records or broaden
-   `u1` and re-prove its bound. If it lands, the strict `R_post<16n^3` premise
+   `u1` and re-prove its bound. If it lands, the strict `R_min<16n^3` premise
    gives `U_prim<=16n^3` including the base member.
 2. `x4_exactlist_summed_budget`: print every consumed official and quotient
    row, actual list-member columns, one priority map, and the exact comparison
@@ -18933,6 +18933,47 @@ delta-star bracket movement: none
 new assumptions: none
 compute: two complete F_17^* censuses under tiny RAM guard; no Modal spend
 next: audit the exact u1 counted object, then attack strip-aware official coverage
+```
+
+### Currency correction: u1 proves a minimal-record budget
+
+The dependency audit confirms that all four terms in the U16 assembly use
+the F-4 minimal currency:
+
+```text
+h=1 : zero bookkeeping term;
+h=2 : equal e_1;
+h=3 : equal (e_1,e_2);
+h>=4: explicitly order-(h-1) minimal records.
+```
+
+Thus the conditional arithmetic proves
+
+```text
+R_min < 16n^3,
+```
+
+not a bound on every general order-`t` primitive list record.  The node
+`u1_x4_direct_column_budget` is re-posed to exactly that weaker proposition,
+without changing its CONDITIONAL status or its open leaves.  Its former
+headline silently bundled the separate general-to-minimal coverage theorem
+that is now exposed as `x4_primitive_star_u1_coverage`.
+
+The exact-list consumer consequently has two typed inputs: `u1` bounds the
+minimal ledger, while the coverage leaf must inject each non-base primitive
+list member into that ledger at multiplicity one and preserve every strip.
+No theorem was demoted; one over-broad amber contract was corrected.
+
+```text
+starting pin: bc7254a0d; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / primitive SP currency audit
+result: re-posed u1 to the exact F-4 minimal-record theorem its inputs prove
+DAG status delta: none; proposition narrowed and coverage ownership made explicit
+upstream terminal delta: aligns local u1 with v13 minimal-SP versus coverage split
+delta-star bracket movement: none
+new assumptions: none
+compute: proof-object audit and existing exact assembly replay; no Modal spend
+next: classify post-strip general records or broaden the u1 ledger
 ```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
