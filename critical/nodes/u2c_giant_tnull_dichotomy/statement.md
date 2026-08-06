@@ -23,3 +23,18 @@
    bad-prime range; the official q sits provably in neither closed
    end — the middle is the surviving open lemma (= pair-coprimality,
    = the (ES) shape again at half length; see the node).
+
+## Addendum (2026-08-06, exact-slice route correction)
+
+With agreement numerator `A` and code dimension `K=rho N`, the official `x4`
+consumer depth is `t_XR=A-K`, defined by the exact-slice corridor equation. The proved
+`x4_exact_slice_f2_guard_route_cut` gives
+
+```text
+t_XR log2|F_p(mu_N)| < N
+```
+
+on every official row. Thus the historical assertion that official rows are
+sub-balance applies only to the separate full-subset F2 calibration. The
+guarded target `f2_conditional_close` is retained as evidence, while the
+official requirement is now `u2c_exact_slice_extras_budget -> this node`.

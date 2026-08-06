@@ -21,7 +21,7 @@ NODE_PATHS = (
     "background/nodes/f2_all_admissible_direct_sum_grs_reduction",
     "background/nodes/f2_admissible_newton_signed_distance",
     "background/nodes/f2_admissible_weighted_prefix_l2_identity",
-    "critical/nodes/f2_conditional_close",
+    "background/nodes/f2_conditional_close",
 )
 INPUTS = (
     "notes/pilots_20260806/f2_route_repair/f2_adm_replay_result.json",

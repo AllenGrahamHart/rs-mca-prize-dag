@@ -18,7 +18,7 @@ REMOTE_ROOT = Path("/repo")
 NODE_PATHS = (
     "background/nodes/f2_weighted_kernel_collision_floor",
     "background/nodes/f2_minus_branch_coupled_negacyclic_reduction",
-    "critical/nodes/f2_conditional_close",
+    "background/nodes/f2_conditional_close",
 )
 
 image = modal.Image.debian_slim(python_version="3.12")

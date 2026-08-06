@@ -34,19 +34,18 @@ EXPECTED_COUNTS = {
     # 2026-08-06: the complete WCL (1,5) certificate promotes its target and
     # makes the proved weight-four section census an explicit critical parent.
     # Both have local verifiers, so local-verifier 44 -> 46.
-    "folder-md-only": 130,
-    "legacy-ref-only": 5,
+    # 2026-08-06 F2 admissibility repair: the generated-field-guarded F2 route
+    # is not a requirement of the official exact-slice consumer. Moving that
+    # branch off the strict orbit removes four md-only proofs and one legacy-
+    # ref-only proof; local verifier coverage is unchanged.
+    "folder-md-only": 126,
+    "legacy-ref-only": 4,
     "local-verifier": 46,
 }
 
 EXPECTED_NO_PROOF = {
     # Manifest migration made five legacy-ref-only PROVED critical nodes own a
     # folder for the first time. node.json is graph metadata, not a proof.
-    "b1_char0_giant_coset_theorem",
-    "f2_edge_lemma",
-    "f2_full_ladder_dictionary",
-    "f2_k1_contraction_theorem",
-    "f2_newton_empty_extremes",
     "f3_h2_stratum_theorem",
     "f5_lineray_saturation_instrument",
     "f5_wcollision_pair_moment_identity",
@@ -118,11 +117,10 @@ def main() -> None:
     manifest = json.loads(MANIFEST.read_text())
     proved = [node["id"] for node in critical["nodes"] if node["label"] == "PROVED"]
 
-    # The maximality correction and joint-rank split add conditional wrappers;
-    # the latter replaces one SL-2 TARGET by two exact leaves. All proved
-    # coordinate reductions remain evidence-only.
-    require(len(critical["nodes"]) == 247, "critical orbit size drift")
-    require(len(proved) == 181, "critical PROVED count drift")
+    # The exact-slice route correction removes the guarded six-node F2 branch
+    # from strict requirement ancestry. Its mathematics remains in background.
+    require(len(critical["nodes"]) == 241, "critical orbit size drift")
+    require(len(proved) == 176, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()
     no_artifact: set[str] = set()

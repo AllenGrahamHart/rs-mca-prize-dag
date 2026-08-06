@@ -7,13 +7,13 @@ declared one of them "stale". This verifier pins both and their exact delta so
 the confusion cannot silently return.
 
   MATH ORBIT      req-ancestry (+ the alt-closure rule) of the two grand-challenge
-                  nodes {mca_grand, list_grand}.  246 = 179 PROVED / 41 CONDITIONAL
-                  / 26 TARGET.  This is what orbit/critical_dag.json, the radial
+                  nodes {mca_grand, list_grand}.  241 = 176 PROVED / 40 CONDITIONAL
+                  / 25 TARGET.  This is what orbit/critical_dag.json, the radial
                   SVG, the published site, the partition law in verify_prize_dag.py,
-                  and verify_critical_harness_coverage.py all measure.  Its 26
+                  and verify_critical_harness_coverage.py all measure.  Its 25
                   TARGETs are the mathematical leaves of the roadmap.
 
-  SUBMISSION ORBIT  the same closure rooted at `prize`.  261 = 191 / 43 / 27.
+  SUBMISSION ORBIT  the same closure rooted at `prize`.  256 = 188 / 42 / 26.
                   Strict superset: MATH ORBIT + 15 packaging/bridge/Lean-harness
                   nodes (12 PROVED, 2 CONDITIONAL, 1 TARGET), enumerated below.
                   This is the Convergence Ledger's baseline and equals the
@@ -68,8 +68,15 @@ SUBMISSION_ROOT = "prize"
 # CONDITIONAL on two alternative TARGET leaves (full joint rank and deficient
 # forced-common-root kernel). The rational-direction payment is evidence-only.
 # Net: +1 CONDITIONAL and +1 TARGET in both orbits.
-EXPECTED_MATH = {"PROVED": 179, "CONDITIONAL": 41, "TARGET": 26}
-EXPECTED_SUBMISSION = {"PROVED": 191, "CONDITIONAL": 43, "TARGET": 27}
+# 2026-08-06 F2 ADMISSIBILITY REPAIR (6ab149e67): the old growing-order
+# Myerson ladder was removed from the strict critical orbit because it proves a
+# generated-field-guarded full-subset statement, not the official exact-slice
+# consumer. This removes five PROVED nodes, one CONDITIONAL, and one TARGET,
+# while the independently proved WCL (1,5) closure adds two PROVED nodes and
+# removes one TARGET. Net from the prior pin: -3 PROVED / -1 CONDITIONAL /
+# -1 TARGET. The 15-node submission spine is unchanged.
+EXPECTED_MATH = {"PROVED": 176, "CONDITIONAL": 40, "TARGET": 25}
+EXPECTED_SUBMISSION = {"PROVED": 188, "CONDITIONAL": 42, "TARGET": 26}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no
@@ -98,7 +105,7 @@ EXPECTED_DELTA = {
 NON_MATH_TARGET = "submission_quality_paper_dossier"
 
 # ...and the two CONDITIONALs on the spine are likewise non-mathematical, so a
-# conditional-dedup ledger over the 43 must account for 41 mathematical ones.
+    # conditional-dedup ledger over the 42 must account for 40 mathematical ones.
 NON_MATH_CONDITIONALS = {"prize", "packaging"}
 
 

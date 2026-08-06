@@ -1,0 +1,22 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "u2c_exact_slice_extras_budget",
+    "title": "Official exact-slice t-null extras budget",
+    "status": "TARGET",
+    "closure": "open",
+    "statement": "At every official exact-list corridor row, with agreement numerator A, code dimension K=rho N, and t_XR=A-K defined by t_XR log2(q)>=log2 binom(N,N-K-t_XR)+128, prove that the total non-coset-union t_XR-null blocks and unpriced trade families consumed by the u2c/x4 direct column are at most N^3=2^123 after the named quotient, dihedral, boundary, and near-tail classes are removed. The proved route cut shows t_XR log2|F_p(mu_N)|<N on every official row, so the generated-field-guarded full-subset F2 terminal is not a proof of this statement. A direct fixed-slice census/payment or a proved replacement of the consumer guard is required.",
+    "falsifier": "An official corridor row and certified post-strip exact-slice census with more than N^3 non-coset-union t_XR-null blocks plus unpriced trade families.",
+    "refs": [
+      "critical/nodes/u2c_exact_slice_extras_budget/statement.md",
+      "critical/nodes/u2c_exact_slice_extras_budget/attack.md",
+      "critical/nodes/u2c_exact_slice_extras_budget/claim_contract.md",
+      "critical/nodes/u2c_exact_slice_extras_budget/dependency_subdag.md",
+      "critical/nodes/u2c_exact_slice_extras_budget/audit.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

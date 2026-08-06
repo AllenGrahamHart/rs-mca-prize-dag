@@ -769,3 +769,66 @@ new assumptions: none
 compute: exact inequality replay only; no Modal spend
 next: prove the finite (C) mass bound or construct the alternate exact-slice route
 ```
+
+### Round-20 completion and exact-slice u2c route cut
+
+Canonical Round 20 is now merged through `prize@23df01a65`. The tail-count
+pilot retires the proposed doubling/log-sine lead: it telescopes to the
+elementary cost identity. The normalized F2 tail criterion binds at
+`c*=1/ln(2)-1`, with zero flat-model margin. The available `R`-local moment
+and interpolation supplies miss the required exponent by the quantified
+factor `8.60`; no nonlocal supplier is currently named. The crossing pilot
+kills the even-condition cover, proves the constant-weight floor on its valid
+tower-row scope, and corrects the PT-2 watch line to a field-dependent one.
+Neither packet closes a prize node, but both prevent further work on dead
+routes.
+
+The PROVED `x4_exact_slice_f2_guard_route_cut` resolves the reopened ensemble
+dispatch. Let `N=2^41`, `K=rho N`, `128<=L=log2(q)<256`, and
+
+```text
+t_XR=min{t:tL>=log2 binom(N,N-K-t)+128}.
+```
+
+For `t0=floor((N-1)/L)`, a one-sided Hoeffding bound at the rate-half
+central deviation gives
+
+```text
+log2 binom(N,N-K-t0)+128 < t0 L < N
+```
+
+uniformly at all four rates. Hence `t_XR L<N`; since
+`B0=F_p(mu_N)<=F_q`, also `t_XR log2|B0|<N`. Every official exact-list
+depth therefore fails the generated-field F2 guard, including generating
+rows. This is not an ambiguity between two admissible F2 calibrations: the
+full-subset `(C)` mass problem and the official exact-slice consumer are
+different routes.
+
+The critical DAG now owns the missing statement explicitly as
+`u2c_exact_slice_extras_budget`: after the named quotient, dihedral,
+boundary, near-tail, and paid-trade strips, prove that the official
+exact-slice residual is at most `N^3`. This TARGET replaces
+`f2_conditional_close` as the requirement of
+`u2c_giant_tnull_dichotomy`. The guarded `(C)` F2 target moves to the
+background and remains an evidence edge. The `f1/ext` chain is not an
+alternate proof: it prices the MCA extension stratum and does not route
+guard-rejected generating `x4` rows.
+
+Upstream `main` remains at `93fba1be`. Draft PR `#1150` remains the only
+directly relevant open F2/Q packet, with no review, and upstream's row-sharp
+Q/Myerson material still identifies an object rather than proving the needed
+finite fixed-slice bound. Hold the PR until its scope is reconciled with the
+new exact-slice leaf.
+
+```text
+starting pin: 9e9b9808c; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / u2c exact-slice consumer interface
+result: proved every official exact-slice depth lies outside the generated-field F2 guard
+DAG status delta: +1 PROVED route cut, +1 TARGET exact-slice leaf; guarded F2 leaves the strict critical orbit
+critical census: math 241 (176/40/25), submission 256 (188/42/26); 15-node packaging spine unchanged
+upstream terminal delta: none; draft #1150 remains held
+delta-star bracket movement: none
+new assumptions: none
+compute: exact integer inequalities and bounded verifier replay only; no Modal spend
+next: attack the post-strip exact-slice zero fiber directly or prove a weight-aware replacement payment
+```

@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "x4_exact_slice_f2_guard_route_cut",
+    "title": "Official exact-slice depths lie outside the generated-field F2 guard",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let N=2^41, rho in {1/2,1/4,1/8,1/16}, K=rho N, 128<=L=log2(q)<256, and t_XR=min{t:tL>=log2 binom(N,N-K-t)+128}. Then t_XR L<N. Since B0=F_p(mu_N) is a subfield of F_q, t_XR log2|B0|<N as well. Thus every official exact-list corridor depth fails the generated-field guard |B0|^t>=2^N, including generating rows. Consequently the guarded full-subset F2 terminal cannot by itself discharge the exact-slice u2c/x4 consumer.",
+    "refs": [
+      "background/nodes/x4_exact_slice_f2_guard_route_cut/statement.md",
+      "background/nodes/x4_exact_slice_f2_guard_route_cut/proof.md",
+      "background/nodes/x4_exact_slice_f2_guard_route_cut/claim_contract.md",
+      "background/nodes/x4_exact_slice_f2_guard_route_cut/dependency_subdag.md",
+      "background/nodes/x4_exact_slice_f2_guard_route_cut/audit.md",
+      "background/nodes/x4_exact_slice_f2_guard_route_cut/result.md",
+      "background/nodes/x4_exact_slice_f2_guard_route_cut/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "xr_radius_arithmetic"
+    },
+    {
+      "from": "f2_consumer_guard_depth_reconciliation"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_exact_slice_extras_budget"
+    },
+    {
+      "to": "u2c_giant_tnull_dichotomy"
+    }
+  ],
+  "refutes": []
+}

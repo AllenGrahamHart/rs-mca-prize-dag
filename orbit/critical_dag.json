@@ -487,11 +487,6 @@
    "title": "Hypothesis (node-ified from f1_case_pole prose): the list-side threshold location at non-generating rows"
   },
   {
-   "id": "f2_conditional_close",
-   "label": "UNPROVED",
-   "title": "Generated-field-guarded F2 extras-budget close"
-  },
-  {
    "id": "f3_h1_singleton_injectivity",
    "label": "PROVED",
    "title": ""
@@ -1067,9 +1062,14 @@
    "title": "U2-B: the per-row moment certificates (small-t rows)"
   },
   {
+   "id": "u2c_exact_slice_extras_budget",
+   "label": "UNPROVED",
+   "title": "Official exact-slice t-null extras budget"
+  },
+  {
    "id": "u2c_giant_tnull_dichotomy",
    "label": "CONDITIONAL",
-   "title": "FLOOR CONJECTURE (EXTRAS-BUDGET): non-coset-union t-null extras <= n^3 = 2^123 at official prize-max rows"
+   "title": "Exact-slice u2c extras-budget assembly (guarded F2 route separated)"
   },
   {
    "id": "unsafe_at_crossing",
@@ -2126,7 +2126,7 @@
    "to": "xr_smallcore_spread_count"
   },
   {
-   "from": "f2_conditional_close",
+   "from": "u2c_exact_slice_extras_budget",
    "to": "u2c_giant_tnull_dichotomy"
   },
   {

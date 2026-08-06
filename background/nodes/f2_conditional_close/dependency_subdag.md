@@ -12,7 +12,8 @@ f2_minus_branch_coupled_negacyclic_reduction [PROVED] --ev---+
 f2_generated_field_ambient_invariance [PROVED] --ev----------+
 f2_consumer_guard_depth_reconciliation [PROVED] --ev---------+
 
-f2_conditional_close [TARGET] --req--> u2c_giant_tnull_dichotomy [CONDITIONAL]
+f2_conditional_close [TARGET, guarded (C) depth] --ev--> u2c_giant_tnull_dichotomy [CONDITIONAL]
+u2c_exact_slice_extras_budget [TARGET] --req--> u2c_giant_tnull_dichotomy [CONDITIONAL]
 ```
 
 The former Myerson requirement is deliberately absent. Its statement may
@@ -22,4 +23,6 @@ restricted to `p=1 mod 4`; the second refuted node guards that scope.
 The coupled minus-branch supplier repairs the structural model but leaves
 its upper-mass terminal open. Ambient invariance is a fixed-depth object
 identity. The guard/depth theorem limits the `(C)` F2 terminal to generating
-types and sends `(T*)` outside F2; it does not prove the alternate route.
+types and sends `(T*)` outside F2. The proved exact-slice route cut now shows
+that this is the official `x4` depth at every rate, so the alternate route is
+owned explicitly by `u2c_exact_slice_extras_budget`.
