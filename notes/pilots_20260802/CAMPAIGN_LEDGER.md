@@ -1002,3 +1002,16 @@ mixed-class systems. The W/D/R/L theorems remain banked unchanged.
   deficient-window payments). H_band exact-budget correction accepted.
   First worker-initiated critical status flip — audited SOUND. Site +
   artifact refresh (census changed). See WAVE46_AUDIT.md.
+
+## 2026-08-04: AUDIT FREEZE (user-ratified)
+
+Integration freeze pending the upstream-sync wiring and stocktake:
+- FROZEN PINS: Codex = 88238fd0 (wave 46, the band flip; worker
+  continues in parallel — its new waves QUEUE, not integrate);
+  upstream = the 2026-08-04 PR state (#1149 head; new PRs queue);
+  ours = b2acdc98+ lineage.
+- IN FLIGHT: upstream_sync pilot (SYNC_PROPOSAL.md) — on return:
+  coordinator line-audit, wire trust-labeled addenda via the shard
+  write-path, push.
+- THEN: full stocktake + next-move plan (surfaced to the user before
+  unfreezing).
