@@ -89,3 +89,171 @@ elevated honest residual 1, verbatim:
 - Verbatim quotes with file:line for every statement relied on.
 - Do NOT write REPORT.md — return the full report as your final
   message; the coordinator persists it verbatim.
+
+---
+
+# PILOT APPENDIX — Opus 5 own pre-registrations (U1-U8)
+
+Appended 2026-08-06 BEFORE any computation. Written after reading only:
+`f2_tq_pin/{REPORT,PROOFS}.md`, `background/nodes/xr_radius_arithmetic/proof.md`,
+`background/nodes/rate_half_cyclic_simple_pole_mca_floor/{node.json,statement.md}`,
+`notes/pilots_20260804/f2_opening/PROOFS.md` (lines 10-60, 150-240),
+`notes/pilots_20260802/f2_deployed_windows/REPORT.md` (grep hits).
+No script has been run. Each U carries an explicit falsifier.
+
+## U1 — the identification is REFUTED, but a common SCHEMA survives (N2)
+
+I predict `t_F2 != t_XR` as quantities. I predict the coordinator's
+"one balance identity" guess is HALF right: both are the unique integer
+crossing of ONE SCHEMA, a first-moment / union-bound balance
+
+        t * L  >=  log2 N  +  G                                     (UFMB)
+
+but with DIFFERENT ensemble `N` and DIFFERENT gate `G`:
+
+    t_F2 : (N, G) = (2^n, 0)                 -> t_F2 = n / L
+    t_XR : (N, G) = (C(n, n-k-t), 128)       -> (T*)
+
+Consequence I predict: `t_F2` is RATE-INDEPENDENT and `t_XR` is
+RATE-DEPENDENT, so they cannot be the same quantity. Concretely I predict
+`n/L` at `L = 255.9` equals `8.5933e9` at ALL FOUR rates, while the banked
+`t*` table is `8.593e9 / 7.015e9 / 4.723e9 / 2.943e9`, i.e. the two agree
+to `~4e-5` at rate 1/2 and disagree by roughly 18% / 45% / 66% at rates
+1/4 / 1/8 / 1/16.
+
+**FALSIFIER.** If (T*) solved at rates 1/4, 1/8, 1/16 reproduces `n/L`
+(within 1%), U1 is wrong and the identification is rate-uniform.
+
+## U2 — the mechanism of the rate-1/2 coincidence, and the exact error term (N2)
+
+I predict the coincidence is the CENTRAL BINOMIAL and nothing deeper:
+`log2 C(n, n-k-t) ~ n*H2(rho + t/n)`, and `H2 = 1` iff `rho + t/n = 1/2`.
+At `rho = 1/2` the deficit is second order in `t/n`. I predict the exact
+error term
+
+    Delta := n - log2 C(n, n-k-t*) - 128 ,      t_F2 - t_XR = Delta / L
+    Delta(rate 1/2) = 2 t*^2/(n ln 2) + (1/2) log2(pi n / 2) - 128 + o(1)
+
+with numerics `Delta ~ 9.688e7`, `Delta/L ~ 3.786e5`, and
+`n/L - t* ~ 3.786e5` (relative `4.406e-5 = 0.0044%`, which I predict is
+exactly `2/(L^2 ln 2)`).
+
+**FALSIFIER.** If the closed-form `Delta` misses the exact
+`n - log2C - 128` by more than 1%, or if `n/L - t*` differs from
+`Delta/L` by more than `L` (one rounding step), U2 is wrong.
+
+## U3 — the near-collision is NOT two different objects (N4)
+
+I predict the brief's own framing ("prove they are different objects") and
+`f2_tq_pin` residual 4 ("different object") are BOTH WRONG. I predict:
+
+  (a) `8,594,128,895 = d*c + (c-1)` with `c = 2^22`, `d = 2048`, EXACTLY
+      `= 2^33 + 2^22 - 1`. It is `sigma_max`, a CONSTRUCTION CEILING (the
+      largest excess the cyclic-rotation construction reaches), not a
+      threshold.
+  (b) `mca_floor`'s `8,592,912,739` is the SAME OBJECT as `t_XR`:
+      "excess" there means agreement minus dimension `= A - k`. I predict
+      `statement.md`'s `sigma* = 8,592,912,738` equals `t* - 1 = s*`
+      exactly, i.e. the node is talking about the XR corridor edge.
+  (c) Therefore this is NOT a near-collision of unrelated numbers but a
+      CONTAINMENT `t* < sigma_max`, and `mca_floor` (status PROVED)
+      refutes `t*` as a safe point. I predict a REAL CONFLICT to surface,
+      not a reconciliation.
+  (d) `1,216,156 = (2^22 - 1) - (t* - 2^33)` with `t* - 2^33 = 2,978,147`.
+      I predict NO closed form for the difference itself (t* is a
+      transcendental crossing), only this decomposition.
+
+**FALSIFIER.** If `sigma* != t* - 1`, or if `mca_floor`'s "excess" is
+defined as anything other than `A - k`, U3(b,c) is wrong and the brief's
+"different object" reading stands.
+
+## U4 — the 7e10 exclusion is t-naming-independent (mandated re-check)
+
+I predict the exclusion of `t = 7e10` uses ONLY: (C) the F2 counting
+balance, (R1) `n | q-1 => L > log2 n`, and the row constant `n`. I predict
+it touches NO XR quantity (`C(n,j)`, the gate `B*`, `(T*)`, `t*`).
+I predict a scope caveat: the exclusion needs `t` read as the EMPTINESS
+THRESHOLD (largest `|Lambda|` with a surviving window), not as a free
+design parameter; under the free-parameter reading `7e10` is merely
+"very empty", not excluded.
+
+**FALSIFIER.** If any step of the exclusion requires `t_XR`, U4 is wrong
+and the exclusion inherits the collision.
+
+## U5 — a wrong-t consumption defect in the LEMMA 3 lane (N3)
+
+I predict `f2_sl1_powersums`, `f2_sl1b` and `f2_tq_pin` all fed
+`t* = 8,592,912,739` (a `t_XR`) into LEMMA 3's slot (a `t_F2`), which is a
+TYPE ERROR: LEMMA 3 needs a condition count in FREQUENCY space, `t*` is an
+agreement excess in COORDINATE space. I predict the CONCLUSION survives
+anyway, because `f2_tq_pin` also ran the worst case at `t = 2^33` — a
+legitimate `t_F2` value — and got the same bands. So: citation defective,
+band intact.
+
+**FALSIFIER.** If the `t = 2^33` row gives a different band from the
+`t = t*` row, the conclusion does not survive retyping and U5's second
+half is wrong.
+
+## U6 — a THIRD t inside the F2 lane (factor 2), predicted as a new catch
+
+`f2_tq_pin/PROOFS.md:158` says `t = |Lambda|` (a COUNT).
+`f2_tq_pin/PROOFS.md:391` says `K1` is "the frequencies supported on odd
+`l <= t`, so `dim K1 = ceil(t/2)`" (a DEGREE BOUND).
+`f2_deployed_windows/REPORT.md:55` says `codim_j = min(m_j, t/2)`.
+These cannot all hold: if `Lambda = {odd l <= t}` then `|Lambda| =
+ceil(t/2)`, not `t`. I predict a genuine THIRD type
+`t_deg` with `t_F2 = |Lambda| = ceil(t_deg / 2)`, and that
+`f2_opening/PROOFS.md:155`'s `|K1(Lambda)| = p^{2|Lambda|}` decides it:
+`dim_{F_p} K1 = 2|Lambda| = t_deg`.
+
+I predict the DOWNSTREAM CONSEQUENCE, and I register it before computing:
+if the (C) balance is imposed on `|Lambda|` (each of `|Lambda|` field
+equations costs `L` bits) then `t_deg = 2 n / L ~ 1.72e10`, and LEMMA 3 at
+rung 16 (`t >= m_16/log2 p = 8.87e9`) would HOLD with margin `~1.94x`
+instead of being violated at `0.9687x`. I do NOT predict which reading is
+correct — I predict only that the factor-2 ambiguity is real, undecided in
+the repo, and that it is exactly large enough to flip `f2_tq_pin`'s (P5)
+headline. I will report it as an ambiguity with both consequences, not as
+a flip.
+
+**FALSIFIER.** If `f2_opening` pins `Lambda` to contain BOTH parities, or
+pins `dim_{F_p} K1 = |Lambda|`, the factor 2 evaporates and U6 is wrong.
+
+## U7 — the sliver is mis-typed and, recomputed self-consistently, EMPTY (N5)
+
+CATCH-2/CATCH-5 test `t* * L >= n`: that is the `t_F2` balance (C) applied
+to a `t_XR`. I predict:
+
+  (a) The reported "0.011 bit" gap is exactly `Delta / t*` — i.e. CATCH-2
+      is a SYMPTOM of U1/U2, not a convention error.
+  (b) `f2_tq_pin` computed the sliver with `t*` FROZEN at its `L = 255.9`
+      value. Recomputed with `t*(L)` varying, I predict
+      `t*(L) * L - n < 0` for EVERY `L < 256` at rate 1/2 (and worse at
+      lower rates), so `{L : t*(L) L >= n}` is EMPTY and no convention in
+      `[255.9, 256)` can repair CATCH-2.
+  (c) Therefore the corrected convention is NOT "move L up into the
+      sliver". I predict the recommendation will be: retire the sliver,
+      and treat `L = 255.9` as a self-labelled evaluation point of an
+      L-indexed family, reporting `dt*/dL`.
+
+**FALSIFIER.** If any `L in [255.9, 256)` satisfies `t*(L) L >= n` at rate
+1/2, U7(b) is wrong and the sliver is a real, reachable region.
+
+## U8 — the |K1| = 2^{n/2} pricing identity is exact only for t_F2 (N3)
+
+`f2_tq_pin/PROOFS.md:399-400` calls `dim K1 * L = (t*/2) L = (t* L)/2 =
+n/2` "structural, not numerical". I predict it is structural for `t_F2`
+(where `t_F2 L = n` holds by definition) and only approximate for `t_XR`,
+missing `n/2` by `Delta/2 ~ 4.84e7` bits. I predict the ratio
+`(t*/2)L / (n/2) = 1 - 4.406e-5`, i.e. `0.99996`, not `1.0000`.
+
+**FALSIFIER.** If `(t*/2) L` equals `n/2` exactly, U8 is wrong.
+
+## U9 — honesty clauses
+
+- I will report the WORST case over any interval, never the best.
+- If the identification turns out UNPROVABLE rather than refutable, I will
+  say so and state the minimal missing premise, per the brief's clause.
+- Any of U1-U8 that falsifies gets reported as a falsification, unsoftened.
+- I will not claim the mca_floor conflict is "reconciled" if it is a real
+  conflict; the brief explicitly permits surfacing one.

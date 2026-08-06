@@ -1371,3 +1371,36 @@ W = 5 rollback (+ CR-W5-ELL1); PP5.0 average-vs-sum choice.
 DEFERRED COMPUTE (not launched this round): the n = 64 boundary
 census — Modal-scale; needs a distributed adaptation of the round-16
 census machinery; candidate for a coordinator-launched run next.
+
+## 2026-08-06: round-17 pilot 1 BANKED — the t-naming collision RESOLVED BY REFUTATION; round-16 headlines repriced
+
+- **t_naming (Opus) BANKED, MAINTAINER-LEVEL** (68/68). The
+  identification is REFUTED: one SCHEMA (UFMB: t·L >= log2 N + G),
+  two different balances (t_F2: (2^n, 0); t_XR: (C(n,n-k-t), 128));
+  divergence 0.0044%/18.4%/45.0%/65.8% by rate; the rate-1/2
+  near-miss is the central binomial (0.0044% = 2/(L^2 ln 2), a
+  Stirling correction — f2_tq_pin CATCH-4's tightness demoted).
+  **CATCH-E (maintainer, definitional)**: t_F2 is the MAX Newton
+  index (5 sources), not |Lambda| (f2_tq_pin PROOFS.md:158) — the
+  factor 2 leaves rung-16 LEMMA 3, the t_F2 interval, and the 7e10
+  exclusion each with TWO LIVE VALUES pending the Lambda parity pin.
+  **7e10 DOWNGRADED**: unit-error origin unconditional; excluded
+  under count normalization; NOT excluded under degree normalization.
+  Band 1-10/1-9 SURVIVES (t = 2^33 endpoint naming-independent);
+  "rungs 1-13" stays withdrawn. **N4**: t* = t_XR = the mca_floor
+  object (sigma* = t*-1 exactly); the 8,594,128,895 endpoint is
+  SUPERSEDED (unsafe band 1..2^34-1) — t* sits at 0.50017 of the
+  proved-unsafe reach; conflict-of-use to maintainer;
+  xr_radius_arithmetic lacks the cross-reference. **N5 FORCED
+  CORRECTIONS APPLIED**: the sliver is RETIRED (empty for all
+  L < 256; repair provably impossible); the two balances are NEVER
+  cross-audited again. SURFACED CHOICE: re-label L = 255.9 as a
+  representative evaluation point publishing dt*/dL = -3.36e7/bit.
+  CATCH-G: a THIRD t* (SOL_TARGET_3, unrenamed) to hygiene queue.
+  f2_tq_pin FABLE_AUDIT addendum written (P3 downgraded, P5
+  caveated, residual 4 corrected, CATCH-2/5 subsumed; CATCH-1
+  untouched). Cross-pilot: the running f2_adm registered the
+  CATCH-E-correct max-index reading — reconcile at its bank.
+  Honest residual of note: the pilot self-reports WEAK PREREG (8/8
+  registered post-reading; all surprises post-registration).
+- Awaiting: es_g_lanes, es_coprimality, f2_adm.
