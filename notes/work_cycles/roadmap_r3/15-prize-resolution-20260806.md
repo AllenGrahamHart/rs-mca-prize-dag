@@ -93,14 +93,23 @@ per-row factor products.  The unexpectedly large vocabulary rules out a
 naive monolithic primality pass; the replay must be sharded and separately
 priced.
 
+A fixed independent replay pilot then checks 128 batches and 8,152 rows via
+direct FLINT resultants, FLINT primality, and trial division against each
+stored shard.  All 21,762 sampled primes, 23,091 factor records, four timeout
+norms, and both per-batch digests agree.  The projected full audit is about
+18,715 CPU-seconds and 187 seconds of idealized 100-container wall time.  This
+misses the pilot's deliberately strict 7,200-CPU-second gate but remains a
+plausible sub-`$1` grouped audit; it needs a fresh preregistration rather than
+an automatic scale-up.
+
 ```text
 starting pin: fd4f2d23; canonical cee6244c; upstream main 93fba1be
 node: dli_wcl_slot_1_5_emptiness [TARGET]
-result: easy census and custody COMPLETE; hard tails 193/194; one 269-bit external factor request
+result: easy census/custody COMPLETE; independent 128-batch replay PASS; hard tails 193/194
 DAG status delta: none
 upstream terminal delta: none
 delta-star bracket movement: none
 new assumptions: none
-compute: bounded Modal waves and inventories; final audit app ap-QctfVdgXi0IsLhxDIMLR0j; all apps stopped
-next: price sharded factor-primality and per-batch replay; await certified factorization of tail 191
+compute: final custody app ap-QctfVdgXi0IsLhxDIMLR0j; replay pilot ap-ghDRZvjFIf7BFrEw2AM46h; all apps stopped
+next: preregister grouped full replay under $1; await certified factorization of tail 191
 ```

@@ -59,3 +59,23 @@ extension, or full replay is authorized.
 tools/ramguard modal -- modal run --detach \
   notes/pilots_20260806/wcl15_finish/batch_replay_pilot_modal.py
 ```
+
+## Outcome
+
+App `ap-ghDRZvjFIf7BFrEw2AM46h` completed and stopped normally.  All 16
+groups and 128 batches passed: 8,152 actual rows, 21,762 independently tested
+shard primes, 23,091 factor records, and four retained timeout rows.  Every
+candidate digest, factor digest, timeout norm, factor product, and FLINT
+primality check agreed.  Selector digest is
+`90fcc2b4f17e6dba7c0b8f6038bcf18baf327e828d6e4b51454d72cdec01bf14`;
+compact-result SHA-256 is
+`928b644d878aea22465248a5a4371dfe2c7b71397555126fbd7ada15a086044c`.
+
+P1 and P2 pass.  P3 fails its CPU gate: measured worker time projects to
+18,714.830 CPU-seconds, versus the preregistered 7,200-second ceiling.  The
+idealized 100-container wall projection is 187.148 seconds and the slowest
+eight-batch group took 7.304 seconds.  Of 66.746 worker-seconds, independent
+primality used 35.549, direct resultants 2.714, and trial division 0.190.
+The pilot is banked as correctness evidence.  A full audit requires a fresh
+grouped/checkpointed design and explicit sub-`$1` pricing; it is not launched
+under this preregistration.
