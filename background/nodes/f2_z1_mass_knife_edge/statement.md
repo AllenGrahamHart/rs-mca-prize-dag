@@ -57,7 +57,7 @@ Z_1 <= 2^{o(m)} at k = e. The only live route is (b): Weil-type /
 square-root cancellation for products over the 2^{e_p}-subgroup
 inside F_p (sizing: sqrt(p)·log p = 2^38 vs subgroup 2^39 — a
 factor-2 headroom; back-of-envelope, not a theorem). Route (a)
-(norm sandwich) is DEAD quantified (yields w >= 2.0000, dominated
+(norm sandwich) is DEAD quantified (yields w >= 4.0000 — constant corrected per round-19 CATCH-T3, the sharp ceiling being w^{n/4} — dominated
 by 4.3e9); route (c) (class structure) localises but cannot narrow.
 
 **Calibration (honest):** on all valid miniatures (2-power 2N ONLY —

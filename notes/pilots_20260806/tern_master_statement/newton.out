@@ -1,0 +1,34 @@
+=== STAGE newton: THEOREM Z-1 transported (prefix scope) ===
+   n   p   ell  Lambda            min wt  2*ell+1  char>wt?  verdict
+  16   17    1  [1]                   3        3  yes       holds
+  16   17    2  [1, 3]                6        5  yes       holds
+  16   97    1  [1]                   4        3  yes       holds
+  16  193    1  [1]                   5        3  yes       holds
+  32   17    1  [1]                   3        3  yes       holds
+  32   17    2  [1, 3]                6        5  yes       holds
+  32   97    1  [1]                   3        3  yes       holds
+  32   97    2  [1, 3]                5        5  yes       holds
+  32  193    1  [1]                   3        3  yes       holds
+  32  193    2  [1, 3]                7        5  yes       holds
+  32  257    1  [1]                   3        3  yes       holds
+  32  257    2  [1, 3]                7        5  yes       holds
+  32  449    1  [1]                   3        3  yes       holds
+  32  449    2  [1, 3]                8        5  yes       holds
+  32  641    1  [1]                   4        3  yes       holds
+  32  641    2  [1, 3]                9        5  yes       holds
+  16 prefix cells, 0 violations.
+  --- scope: shifted Lambda (same |Lambda|) ---
+  shifted counterexamples found: 0
+  *** REGISTERED EXPECTATION MISSED (reported, not buried) ***
+      I expected shifted-Lambda counterexamples to the 2*ell+1
+      law, mirroring I1's 43. My grid is 2-POWER n ONLY (the
+      CATCH-Z6 rule) and finds NONE.  This is CONSISTENT with
+      z1_ternary_mass/PROOFS.md:536-539, which records that of
+      its 43 shifted counterexamples exactly ONE is at 2-power
+      2N -- 'a thin sample'.  So the 2-power grid cannot see
+      the scope failure, and I do NOT get to claim the prefix
+      hypothesis is load-bearing at 2-power orders: at master
+      level that remains OPEN, exactly as at I1.
+
+[newton] 16 checks, 0 FAIL
+STAGE_NEWTON_ALL_PASS

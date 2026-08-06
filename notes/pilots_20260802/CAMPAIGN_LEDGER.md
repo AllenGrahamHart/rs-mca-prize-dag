@@ -1840,3 +1840,36 @@ instrument matrices at the bank. Standing rules as round 18
   scale-free; TWT dies for I1 at scale; orbit gap grows log2 N.
 - Awaiting: tern_unification_adversary (resumed after an API-error
   kill), tern_master_statement, tern_route_b.
+
+## 2026-08-06: round-19 pilot 2 BANKED — the master statement is REAL and PAYS TWICE; a minted-node constant corrected
+
+- **tern_master_statement (Opus) BANKED** (92,263/0 staged;
+  coordinator replayed all six stages + failclosed). PROPOSITION HS:
+  T(P, Lambda) = the ternary words of a negacyclic F_p-code — the
+  master object in one sentence; all three instances specialize
+  EXACTLY (I2 mass-reading only, I3 odd-conditions only — both
+  partials honestly reported; the recursion named). THE SPINE
+  PROVED: CZ-M (CATCH-Z6 -> a rank statement, closed count);
+  **CS-M** (CS verbatim for ANY Frobenius-stable unit Lambda — no
+  window hypothesis — via **LEMMA BR: r' - a_{n/2}(S) = wt(A-B)**,
+  the unification's prettiest fact); ROT-M; Z-FLOOR-M (exact
+  boundary). VALUE TEST PAYS TWICE: **THEOREM I3-FORCE** (first
+  EXISTENCE instrument on the (ES) object: below |Z_w^odd| log2 p <
+  n/2 the odd-condition exclusion mechanism PROVABLY FAILS — on
+  named tower rows; CATCH E-3 upgraded from vacuous to false-there)
+  and **THEOREM MT** (ONE inequality g log2 p vs h governs I1's
+  knife edge, I2's DSA boundary, I3's stratum-0 boundary —
+  reproducing -46.0249/+17.9751 to FOUR DECIMALS; COROLLARY MX: norm
+  and pigeonhole mechanisms never simultaneously informative —
+  route (a)'s death is structural). 19-instrument matrix delivered
+  (12 master / 1 subsumed / 4 instance-only / 2 cited). BLIND
+  CONVERGENCE with ssl (the one-framework object + the D3 functional
+  identity — subtraction caught it, credit given). **CATCH-T3
+  (against a minted node): FORCED CORRECTION APPLIED** —
+  f2_z1_mass_knife_edge's route-(a) constant 2.0000 -> 4.0000 (the
+  banked sharp ceiling is w^{n/4} not w^{n/2}; dead either way; dag
+  recompiled, verify PASS). CATCH-T4 citation drift noted. NOTHING
+  CLOSED — stated plainly. NODE_DRAFT (tern_master_threshold)
+  delivered; THE MINT IS GATED on the adversary sibling's graded
+  verdict, per the blind-pair design.
+- Awaiting: tern_unification_adversary (resumed), tern_route_b.

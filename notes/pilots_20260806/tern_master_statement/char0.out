@@ -1,0 +1,11 @@
+=== STAGE char0: master char-0 emptiness (THEOREM CZ-M) ===
+  n= 8 (2-power): 0 of 80 nonzero ternary eps have X = 0 in char 0
+  n=16 (2-power): 0 of 6560 nonzero ternary eps have X = 0 in char 0
+  rank law: N == phi(2N)  <=>  2N is a power of 2   (6 orders)
+  --- RULE TEST (composite 2N, CATCH-Z6 reproduction) ---
+    2N=12: N= 6 phi= 4 rank=2 ->   8 ternary kernel vectors (= 3^rank - 1), min weight 3   [banked: 8]
+    2N=20: N=10 phi= 8 rank=2 ->   8 ternary kernel vectors (= 3^rank - 1), min weight 5   [banked: 8]
+    2N=24: N=12 phi= 8 rank=4 ->  80 ternary kernel vectors (= 3^rank - 1), min weight 3   [banked: 80]
+
+[char0] 14 checks, 0 FAIL
+STAGE_CHAR0_ALL_PASS

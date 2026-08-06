@@ -1,0 +1,9 @@
+=== STAGE failclosed: this stage MUST exit 1 ===
+Traceback (most recent call last):
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260806/tern_master_statement/check.py", line 625, in <module>
+    STAGES[sys.argv[1]]()
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260806/tern_master_statement/check.py", line 613, in stage_failclosed
+    require(1 == 2, "injected false check -- fail-closed proof")
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260806/tern_master_statement/check.py", line 34, in require
+    raise AssertionError("FAIL: " + msg)
+AssertionError: FAIL: injected false check -- fail-closed proof
