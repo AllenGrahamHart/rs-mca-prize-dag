@@ -5100,6 +5100,17 @@ makes a bounded range complete.
 
 ## CR-004: WCL terminal four-slot classification
 
+- **2026-08-06 finish-inventory authorization:** before considering a resumed
+  `(1,5)` fleet, run one metadata-only inventory of the persisted
+  `weight5-recursive-norm-full-v2` volume.  One CPU, 1 GiB, one container,
+  270-second hard timeout and 240-second partial-output timer; expected cost
+  below `$0.02`.  It validates every present batch summary and prime shard,
+  reports exact coverage and unresolved-tail counts, and emits compact
+  missing ranges.  It performs no norms, factoring, repair, or residual
+  launch.  Full details are preregistered in
+  `notes/pilots_20260806/wcl15_finish/PREREG.md`; this authorization does not
+  lift the external-full guard.
+
 - **2026-08-03 interrupted-census checkpoint (Codex pin `8502b105`):**
   app `ap-f8oZLbaSVpbTXtCz4cPG2Z` extended the exact `(1,5)` recursive-norm
   stream to `21,332` matched batch-summary/prime shards, covering
