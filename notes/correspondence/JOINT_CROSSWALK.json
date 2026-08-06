@@ -2,9 +2,9 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "61abbbb4c",
+  "our_sha": "7f02c2b78",
   "his_sha": "93fba1be",
-  "note": "re-pinned 2026-08-06 after harvesting the SP coefficient-scale quotient sieve; previous his_sha fde7d56d was a fork branch head, not upstream main"
+  "note": "re-pinned 2026-08-06 after the SP quotient-sieve harvest and linear translated-divisor interface; previous his_sha fde7d56d was a fork branch head, not upstream main"
  },
  "rows": [
   {
@@ -1315,6 +1315,31 @@
     "our_sha": "61abbbb4c",
     "his_sha": "93fba1be",
     "his_introducing_sha": "9af5ba8e5"
+   }
+  },
+  {
+   "our_node": "x4_linear_difference_translated_divisor_interface",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2: Low-degree difference incidence"
+   },
+   "relation": "OVERLAP",
+   "chain": "fixed-base local shift pair -> translated complementary divisors; d=1 fixed-H multiplicity route cut",
+   "scope": "the first nonconstant local SP stratum: B divides the fixed base locator, B+aX+b divides its complementary-domain locator, and every such record is coefficient-primitive",
+   "owner": "US",
+   "nonclaims": [
+    "does not bound the translated-divisor intersection",
+    "does not pay the 16N^3 local X4 allowance",
+    "does not transport unless the exact first-owner strips are retained",
+    "fixed linear difference is not an injective record key"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open route",
+   "lean": null,
+   "provenance": {
+    "our_sha": "7f02c2b78",
+    "his_sha": "93fba1be"
    }
   },
   {
