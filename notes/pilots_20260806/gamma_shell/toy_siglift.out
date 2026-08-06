@@ -1,0 +1,11 @@
+=== stage siglift  (P1 / falsifier F1 -- MANDATORY GATE) ===
+  shape (n,w)=(32,8): a=2 n_a=8 L=4 r'=8 r'_a=2 (L-2=2)
+    verified on 256 subsets S' <= Z/8
+    second term at |S'| = r'_a = 2 : 0 mod 32
+  shape (n,w)=(64,8): a=2 n_a=16 L=8 r'=24 r'_a=6 (L-2=6)
+    verified on 65536 subsets S' <= Z/16
+    second term at |S'| = r'_a = 6 : 0 mod 64
+  shape (n,w)=(64,16): a=3 n_a=8 L=4 r'=16 r'_a=2 (L-2=2)
+    verified on 256 subsets S' <= Z/8
+    second term at |S'| = r'_a = 2 : 0 mod 64
+checks=6 failures=0

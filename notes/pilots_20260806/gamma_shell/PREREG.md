@@ -99,3 +99,130 @@ strongest possible falsifier treatment.
 - Verbatim quotes with file:line for every statement relied on.
 - Do NOT write REPORT.md — your final message IS the report; the
   coordinator persists it verbatim.
+
+---
+
+# PILOT PRE-REGISTRATIONS (appended BEFORE any computation)
+
+Opus pilot, round 20, 2026-08-06. Everything below is registered
+before a single line of arithmetic is run. Machine checks land in
+`toy_shell.py` (toy stages) and `shell_exhibit.py` (prize-row stages),
+both fail-closed (a permanent `failclosed` stage exits 1).
+
+## P0. The objects, as I will use them (all quoted in PROOFS.md)
+
+`sig(S) := sum_{i in S} i mod n`;
+`prod T(S) = x_0^{r'} zeta^{sig(S)}`; so the gamma-SHELL is exactly a
+`sig` class mod `n = 2^41` and `X_w(gamma) = #{S in W_w : sig(S) = t(gamma)}`.
+`gamma = (-1)^{r'+1} c` with `c` a FREE parameter of the received word
+`u = X^{n-1} + c X^{k+w-1}`, so every shell is realisable by an actual
+received word: the max-shell count is a genuine lower bound on `L_1(k+w)`.
+
+## P1 (G1). THE SIG-ARITHMETIC OF THE PERIODIC LIFT — registered claim
+
+Let `a = v-1`, `n_a = 2^{42-v}`, `L = 2^{41-v}`, and let `S` be the lift of
+`S' <= Z/n_a`, i.e. `S = {j + n_a t : j in S', 0 <= t < 2^a}`. Registered:
+
+```text
+(SIG-LIFT)   sig(S)  ==  2^a * sigma'(S')  +  |S'| * n_a * 2^{a-1} * (2^a - 1)   (mod n)
+```
+
+with `sigma'(S') = sum_{j in S'} j` as an INTEGER, and at the prize shape
+(`v = 34`, `|S'| = 126`, `a = 33`, `n_a = 256`) the second term is
+**identically 0 mod 2^41**, so `sig(S) = 2^33 * sigma'(S') mod 2^41`, which
+depends on `S'` only through `sigma'(S') mod n_a`.
+
+**Falsifier F1 (MANDATORY GATE):** (SIG-LIFT) fails for a single `(S', shape)`
+at any of the three DSA gate shapes `(n,w) = (32,8), (64,8), (64,16)`,
+exhaustively over every `S'`. If F1 fires I abandon every prize-row claim.
+
+## P2 (G1/G2). THE SHELL MAP — registered claim, and THE DANGER CASE FIRST
+
+Registered predictions, in the order the brief demands (concentration first):
+
+- **(SHELL-CONC)** Every deep-stratum member (structural or accidental) has
+  `sig(S) in 2^a * Z/n`, a subgroup of order `n_a = 2L`. So the whole deep
+  stratum lives in **`2L` shells out of `n`** — at the prize row **256 of
+  `2^41`**, a concentration factor `2^33`. **Regime (ii) is the truth, not
+  regime (i).** I register this BEFORE computing.
+- **(SHELL-STRUCT)** Structural members have `sigma'` EVEN, so they occupy
+  exactly the `L` shells `2^{a+1} Z/n` (128 shells at the prize row), with
+  EXACTLY `C(2L, ...)`-equidistribution: `C(128,63)/128 = 2^117.149`, which
+  must reproduce the banked `[B4]` figure `2^117.1491` EXACTLY. If it does
+  not, my shell dictionary is wrong and I stop.
+- **(SHELL-ACC)** An accident with `sigma'` even lands in a STRUCTURAL shell;
+  with `sigma'` odd it lands in one of `L` shells disjoint from the structural
+  ones. Within one `eps`-fibre the shell is `const + 2*(sum of the chosen
+  zero-pair indices)`, so a fibre spreads over at most `L` shells of ONE
+  parity class.
+
+**Falsifier F2:** at any toy shape the deep-stratum members occupy more than
+`2L` distinct `sig` values, or the structural per-shell count is not
+`|W^struct|/L`.
+
+## P3 (G2). THE PROVED ACCIDENT-COUNT LOWER BOUND (new; the load-bearing step)
+
+Registered new argument (Cauchy-Schwarz + LEMMA TC fibre weight):
+
+Let `D = {x in {0,1}^L : x_{L-1} = 0, |x| even}`, `|D| = 2^{L-2}`, and
+`phi(x) = sum_j x_j theta^j in F_{p^{delta_a}}`. Put `Q = p^{delta_a}`.
+
+1. **(MULT)** For each nonzero relation `eps` with `eps_{L-1} = 0` and `U`
+   even, `#{(x,y) in D^2 : x - y = eps} = 2^{L-2-U}` EXACTLY.
+2. **(PAIRS)** `P := #{(x,y) in D^2, x != y, phi(x) = phi(y)} >= |D|^2/Q - |D|`
+   (Cauchy-Schwarz), and `P = sum_{eps} 2^{L-2-U(eps)}` over those relations.
+3. **(RATIO)** `rho(U) := C(L-U, (r'_a-U)/2) / 2^{L-2-U} >= rho_min :=
+   min over even U in [2, r'_a]`, attained at `U = 2`.
+4. **(COUNT)** Hence the number of NON-STRUCTURAL deep-stratum reduced
+   solutions obeys `N_acc >= rho_min * (|D|^2/Q - |D|)`, PROVED, no heuristic.
+
+**Falsifier F3:** at any toy shape, exhaustively, either (MULT) fails, or the
+exact `N_acc` is smaller than the bound of (COUNT). Either kills the argument.
+
+## P4 (G2/G3). THE COMPARISON — exact integers only
+
+`Xmax := ceil(N_acc_lower / 2L) + structural-per-shell-if-same-parity` vs
+`B* = floor(q/2^128)`, at the witness row `p = 3*2^41+1, e = 6`. All integer
+arithmetic (`math.comb`, `Fraction`); floats only for display `log2`.
+Registered prediction: **the comparison BREAKS the budget** — I predict
+`log2 Xmax` in `[195, 205]` against `log2 B* = 127.510`. I register the
+predicted interval so a miss is visible.
+
+**Falsifier F4:** `Xmax <= B*` at the witness row => verdict is WITHIN-BUDGET
+and I deliver the re-pose guidance instead.
+
+## P5 (G3). WHAT ACTUALLY BREAKS — registered honesty clause
+
+I register IN ADVANCE that I will check the LOGICAL FORM of every consumer
+statement before calling anything a refutation. In particular `(RHL-ADJ)`
+("there is an agreement index `a_L(C)` such that ...") is an EXISTENCE
+statement and a larger `L_1` at one agreement CANNOT refute it — it relocates
+`a_L`. If the budget breaks I must therefore report precisely which claim
+dies (safe-side at `w = 2^34`) and which does NOT (the node's own (RHL-ADJ),
+the grand challenges as determinations), and label the result a CANDIDATE
+for coordinator replay. Overclaiming the grand-challenge consequence is the
+failure mode I am most exposed to and I pre-commit against it.
+
+**Falsifier F5:** if the consumer chain shows no statement of record asserts
+safety at `a = k+2^34`, the correct verdict is THRESHOLD RELOCATION, not
+refutation, and I will say so.
+
+## P6 (G4). PT-2 STABILITY — registered claim
+
+The shell divisor is `2L = 2^{42-v}` and the structural shell count is
+`S(v) = C(2^{41-v}, 2^{40-v}-1)/2^{41-v}`; both are `w`-dependent. Registered
+prediction: the accident term is decisive ONLY at `v = 34` and dies at
+`v >= 35` (proved-existence needs `log2 p < L-2`), so the verdict is NOT
+uniform across the bracket. I will state the whole `v` profile.
+
+**Falsifier F6:** the break survives at `v >= 36` (would contradict THEOREM
+DSA's own coverage table) — that would indicate an error in my count.
+
+## P7. Row scope — the WORST admissible row, not a favourable one
+
+I must report the comparison at the worst row for my claim, and separately
+identify the row set on which the break holds. Registered: the break needs
+BOTH (i) `w = 2^34` live at the row (`log2 B* >= 117.149`, i.e.
+`log2 q >= 245.149`) and (ii) the DSA regime `p^{delta_a} < 2^{L-2}`. I will
+enumerate the admissible `(class, e)` pairs meeting both and report the
+MINIMUM margin over them.

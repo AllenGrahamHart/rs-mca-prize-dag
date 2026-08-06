@@ -1,0 +1,18 @@
+=== stage profile  (the v-profile across the bracket; PT-2 / G4) ===
+  row: p = 3*2^41+1, e = 6, log2 B* = 127.510
+  w      L     n_a    r'_a   struct/shell 2^{L-2}   log2 xmax    verdict  
+  2^34   128   256    126    2^117.149    2^126     199.575      BREAK    
+  2^35   64    128    62     2^54.624     2^62      73.061       within   
+  2^36   32    64     30     2^24.076     2^30      -            no proved acc
+  2^37   16    32     14     2^9.482      2^14      -            no proved acc
+  2^38   8     16     6      2^2.807      2^6       -            no proved acc
+  2^39   4     8      2      2^0.000      2^2       -            no proved acc
+  ok  : the break is at v = 34
+  ok  : and ONLY at v = 34 -- the verdict is NOT uniform across the bracket
+
+  PT-2 (tern_unification_adversary/REPORT.md:69): the ternary
+  threshold at v = 34 is log2(3)*2^33 = 13614724211.967;
+  the bracket endpoint clears it by 0.336 bits.
+  At the DEEP stratum the ternary requirement is L*log2 3 = 202.875
+  ok  : L*log2 3 = 202.875 reproduces crossing_low_w/PROOFS.md:196
+checks=3 failures=0

@@ -1,0 +1,15 @@
+=== stage bound  (the PROVED accident lower bound) ===
+  |D| = 2^126,  Q = p^delta_a = p = 2^42.5850
+  ok  : Cauchy-Schwarz non-vacuous: Q < |D|
+  ok  : P_low > 0
+  P >= |D|^2/Q - |D| = 2^209.4150
+  ok  : rho_min attained at U = 2 (got U = 2)
+  ok  : rho_min = C(126,62)/2^124
+  rho_min = C(126,62)/2^124 = 0.279327484 = 2^-1.8400
+  ok  : N_acc lower bound positive
+  N_acc >= 306423098481036698674274279159834205215320026136000788784454004
+  log2 N_acc >= 207.5751
+  ok  : proved bound (2^207.575) below the banked heuristic C(256,126)/p (2^209.043) -- a necessary sanity condition
+  [banked heuristic total, NOT used in the bound: C(256,126)/p = 2^209.043]
+  ok  : proved bound exceeds round 18's single-relation C(108,53) = 2^104.267
+checks=7 failures=0

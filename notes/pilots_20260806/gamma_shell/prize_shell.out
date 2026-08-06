@@ -1,0 +1,14 @@
+=== stage shell  (the shell dictionary at the prize row) ===
+  ok  : (SIG-LIFT) second term |S'| n_a 2^{a-1}(2^a-1) = 0 mod 2^41
+  => sig(S) = 2^33 * sigma'(S')  mod 2^41,  sigma' = sum_{j in S'} j
+  ok  : deep-stratum shells = n/2^a = 2L = 256 of 2^41
+  CONCENTRATION FACTOR = 2^41 / 256 = 2^33
+  ok  : structural sigma' offset 63*L = 128 mod 256
+  ok  : structural sigma' EVEN
+  ok  : L = 128 divides C(128,63) exactly (v_2 = 7, quotient odd)
+  |W^struct| = C(128,63) = 23582666872052266206656578733667004800 = 2^124.1491
+  structural per shell = C(128,63)/128 = 184239584937908329739504521356773475 = 2^117.1491
+  ok  : reproduces the banked [B4] figure 2^117.1491 EXACTLY (es_g_lanes/full_run.txt:127)
+  ok  : and |W^struct| = 2^124.149 (crossing_low_w/PROOFS.md:283)
+  ok  : gcd(n/M, r'/M) = gcd(128,63) = 1 => exact equidistribution mod 128
+checks=8 failures=0

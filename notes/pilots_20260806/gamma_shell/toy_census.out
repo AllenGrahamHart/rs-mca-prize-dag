@@ -1,0 +1,13 @@
+=== stage census  (X_w(gamma) dictionary + Lemma X, FULL census) ===
+    (n,w)=(16,4) p=17   |W_w|=4      d=4   shells occupied=4   max X_w=1     struct=4    deep=4    deep-shells=4
+    (n,w)=(16,4) p=97   |W_w|=4      d=4   shells occupied=4   max X_w=1     struct=4    deep=4    deep-shells=4
+    (n,w)=(16,4) p=113  |W_w|=4      d=4   shells occupied=4   max X_w=1     struct=4    deep=4    deep-shells=4
+    (n,w)=(16,4) p=193  |W_w|=4      d=4   shells occupied=4   max X_w=1     struct=4    deep=4    deep-shells=4
+    (n,w)=(16,4) p=241  |W_w|=4      d=4   shells occupied=4   max X_w=1     struct=4    deep=4    deep-shells=4
+    (n,w)=(16,4) p=257  |W_w|=4      d=4   shells occupied=4   max X_w=1     struct=4    deep=4    deep-shells=4
+    (n,w)=(32,8) p=97   |W_w|=4      d=8   shells occupied=4   max X_w=1     struct=4    deep=4    deep-shells=4
+    (n,w)=(32,8) p=193  |W_w|=4      d=8   shells occupied=4   max X_w=1     struct=4    deep=4    deep-shells=4
+    (n,w)=(32,8) p=257  |W_w|=4      d=8   shells occupied=4   max X_w=1     struct=4    deep=4    deep-shells=4
+    (n,w)=(32,8) p=353  |W_w|=4      d=8   shells occupied=4   max X_w=1     struct=4    deep=4    deep-shells=4
+    (n,w)=(32,8) p=449  |W_w|=4      d=8   shells occupied=4   max X_w=1     struct=4    deep=4    deep-shells=4
+checks=324 failures=0
