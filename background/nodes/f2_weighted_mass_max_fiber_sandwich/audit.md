@@ -6,5 +6,7 @@
 - The upper bound is by the absolute heaviest fiber, not by an average or a
   zero-prefix fiber.
 - The `(Lambda_Q,E_Q)` line is an implication, not an assumed estimate.
+- No identification with upstream `def:q-row-atom` is made; its domain and
+  first-match owner differ from the full binary syndrome fibers here.
 - The verifier independently enumerates binary fibers and ternary kernel
   mass for several finite maps, including rank-deficient and zero maps.

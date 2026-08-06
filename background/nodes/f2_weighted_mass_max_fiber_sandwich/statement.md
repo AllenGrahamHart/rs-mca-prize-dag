@@ -17,7 +17,7 @@ Then
 M^2/2^m <= Z(A) <= M.                               (MF-1)
 ```
 
-If `A` has rank `d` and a row-sharp quotient/prefix estimate has the
+If `A` has rank `d` and a max-fiber estimate for this syndrome map has the
 normalized form
 
 ```text
@@ -36,4 +36,6 @@ max-fiber bound pays the weighted-mass terminal for both the plus-branch
 GRS maps and the coupled minus-branch root-code maps.
 
 This theorem is an exact interface. It does not prove `(MF-2)`, quotient
-flatness, a weighted-mass upper bound, or an F2/Prize close.
+In particular, upstream `def:q-row-atom` bounds a first-match residual family
+`P_Q(z)` at deployed adjacent rows, not `N(v)` as defined here. It can supply
+`(MF-2)` only after a separate explicit map-and-owner transport theorem.

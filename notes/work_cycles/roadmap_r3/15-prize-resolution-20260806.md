@@ -455,11 +455,14 @@ The collision identity now has the exact PROVED upper interface
 M^2/2^m <= Z <= M.
 ```
 
-Thus an upstream row-sharp bound
+Thus a row-sharp bound for this explicit syndrome map,
 `M <= Lambda_Q*(2^m/p^d)+E_Q` pays the weighted F2 mass with the identical
 constant pair and no Fourier loss. This applies to the plus-branch GRS maps
-and the coupled minus-branch root-code maps. It does not prove the max-fiber
-bound.
+and the coupled minus-branch root-code maps. Upstream `def:q-row-atom` is not
+automatically such a bound: it concerns the first-match residual family
+`P_Q(z)` on different deployed adjacent rows. An explicit map-and-owner
+transport is still required. The sandwich does not prove that transport or
+the max-fiber bound.
 
 A primary-literature refresh found capacity list recovery for random
 evaluation sets (Doron--Venkitesh, arXiv:2404.00206) and zero-error
@@ -474,7 +477,7 @@ starting pin: 5d9afd69; canonical 5a8f0dba; upstream main 93fba1be
 lane: F2 / row-sharp quotient-prefix flatness
 result: heaviest-fiber/mass sandwich PROVED; Mint-4 all-row regression quarantined
 DAG status delta: one PROVED supplier and two edges; no target flip
-upstream terminal delta: (Q) is now an exact sufficient supplier for corrected F2 mass
+upstream terminal delta: a proved Q-to-F2 map/owner transport would make Q a sufficient supplier
 upstream custody: draft PR https://github.com/przchojecki/rs-mca/pull/1150 at 6d5dd975
 delta-star bracket movement: none
 new assumptions: none

@@ -7,5 +7,7 @@ subset-syndrome fiber:
 M^2/2^m <= Z <= M.
 ```
 
-This makes upstream row-sharp `(Q)` a sufficient supplier for both corrected
-F2 branch terminals. The fixed-dyadic max-fiber theorem itself remains open.
+This makes a row-sharp theorem for the explicit F2 syndrome fibers a
+sufficient supplier for both corrected branch terminals. The fixed-dyadic
+max-fiber theorem remains open. Upstream `(Q)` concerns a different pruned
+family and still needs an explicit transport before its constants apply.
