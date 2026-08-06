@@ -10,6 +10,12 @@ class is exactly characterized (E_strat via LEMMA STRAT + E_floor),
 contains all five round-16 witnesses with exponents matching on the
 nose, and only E_floor SPARSITY remains conjectural.**
 
+**Scope precision (Codex transport audit, 2026-08-06):** the `71.16%`
+figure is conditional on the benchmark substitution `log2 p = 256`.
+THEOREM CS is rowwise in the base characteristic `p`; a large extension
+field `q=p^e` does not supply the same percentage when `p` is smaller.
+No uniform crossing-target status change follows from this percentage.
+
 Replay (coordinator, under ramguard): self 65,613/0; floor/strat/wit
 clean; failclosed exits 1 as designed (fail-closure proven, not
 asserted); the rate stage's persisted output shows 21,282/0 at the
