@@ -1,0 +1,12 @@
+=== stage wcover ===
+   w     rows  PROVED-ACC  EXPECTED-ACC  EXPECTED-CLEAN   (by (class,e) pair, ALL/PART counted separately)
+   2^34   19    10 full + 6 part   16 full + 3 part     0 full
+   2^35   19     3 full + 5 part   10 full + 6 part     3 full
+   2^36   19     0 full + 0 part    2 full + 6 part    11 full
+   2^37   19     0 full + 0 part    0 full + 0 part    19 full
+   2^38   19     0 full + 0 part    0 full + 0 part    19 full
+   2^39   19     0 full + 0 part    0 full + 0 part    19 full
+
+  CS coverage (banked, es_coprimality/REPORT.md:79): every w > w* = 2^37.3131 is already UNCONDITIONAL.
+  So the CS-uncovered set is w in {2^34, 2^35, 2^36, 2^37}; the lines above re-price exactly that set at its BINDING stratum.
+checks=1 failures=0

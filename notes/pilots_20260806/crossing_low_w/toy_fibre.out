@@ -1,0 +1,6 @@
+=== stage fibre ===
+    exhaustive fibre identity OK at L=4 (all r'_a)
+    exhaustive fibre identity OK at L=8 (all r'_a)
+    exhaustive fibre identity OK at L=10 (all r'_a)
+    closed-form fibre identity OK up to L=128 (the prize stratum)
+checks=24522 failures=0

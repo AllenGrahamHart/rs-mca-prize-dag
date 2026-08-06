@@ -85,3 +85,18 @@ reading (round 16) -> re-scoped per lane (this bank). What survives
 is SMALLER and TRUE: u2c pinned correctly all along; the crossing
 high-w regime is (ES-G)-covered; everything else now has a named,
 honest obligation instead of a borrowed one.
+
+## ADDENDUM (2026-08-06, coordinator, from round-18 crossing_low_w)
+
+1. P4's 19/19 deep-stratum balance failure at w = 2^34 was DETECTING
+   A REAL REFUTATION: THEOREM DSA proves accidents exist at every
+   admissible tower row in the pigeonhole regime, with a verified
+   witness at n = 2^41 (the same p = 3·2^41+1, e = 6 row as this
+   pilot's exhibit). The balance verdict was not a pricing artefact.
+2. Hygiene: REPORT.md:105's log2 S(2^34) = 117.149 is the
+   per-sig-class shell; the structural count is C(128,63) =
+   2^124.149 (exactly log2 128 larger). Do not interchange.
+3. The GLOBAL functional's deep-stratum requirement (log2 p >= 256)
+   and the retired per-weight one (251.6) are BOTH mis-priced there:
+   the correct primitive count is ternary (3^L, requirement 202.9,
+   orbit-corrected 194.9). See crossing_low_w LEMMA TC.

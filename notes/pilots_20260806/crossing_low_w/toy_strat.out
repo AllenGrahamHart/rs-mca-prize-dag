@@ -1,0 +1,8 @@
+=== stage strat ===
+  shape n=32 v=3 w=8 r'=8 | a=2 n_a=8 L=4 r'_a=2
+    exhausted 28 reduced sets
+  shape n=64 v=4 w=16 r'=16 | a=3 n_a=8 L=4 r'_a=2
+    exhausted 28 reduced sets
+  shape n=64 v=3 w=8 r'=24 | a=2 n_a=16 L=8 r'_a=6
+    exhausted 8008 reduced sets
+checks=348102 failures=0

@@ -1,0 +1,12 @@
+=== stage census ===
+    p= 97 : |W_8| = 4  (searched all 10518300 subsets)   by strat: {3: 4}
+      no non-structural members (deep stratum predicted EMPTY here: L=4, r'_a=2 admits no U=2 relation)
+    p=193 : |W_8| = 4  (searched all 10518300 subsets)   by strat: {3: 4}
+      no non-structural members (deep stratum predicted EMPTY here: L=4, r'_a=2 admits no U=2 relation)
+    p=257 : |W_8| = 4  (searched all 10518300 subsets)   by strat: {3: 4}
+      no non-structural members (deep stratum predicted EMPTY here: L=4, r'_a=2 admits no U=2 relation)
+    p=353 : |W_8| = 4  (searched all 10518300 subsets)   by strat: {3: 4}
+      no non-structural members (deep stratum predicted EMPTY here: L=4, r'_a=2 admits no U=2 relation)
+    p=449 : |W_8| = 4  (searched all 10518300 subsets)   by strat: {3: 4}
+      no non-structural members (deep stratum predicted EMPTY here: L=4, r'_a=2 admits no U=2 relation)
+checks=150 failures=0

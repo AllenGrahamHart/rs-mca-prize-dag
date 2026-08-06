@@ -1,0 +1,15 @@
+=== stage row ===
+  p  = 6597069766657 = 3*2^41 + 1
+  e  = 6,  q = p^6,  log2 q = 255.509775
+  B* = floor(q/2^128), log2 B* = 127.510
+  w  = 2^34 = 17179869184,  r' = 2^40 - w = 1082331758592
+  deep stratum: a = 33, n_a = 256, L = 128, r'_a = 126
+  delta_a = ord_256(p) = 1
+  structural count C(n/M, r'/M) = C(128,63), log2 = 124.149
+  PRICING at this stratum:
+    global   (ES-G) needs log2 p >= n_a/delta_a      = 256
+    per-weight (retired) needs log2 p >= log2 C(256,126) = 251.628
+    TERNARY  (this pilot) needs log2 p >  L*log2 3    = 202.875
+    provable-existence threshold  log2 p <  L-2       = 126
+    this row: log2 p = 42.585  ->  BELOW 126: accidents PROVED
+checks=19 failures=0

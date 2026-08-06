@@ -1596,3 +1596,34 @@ t*/mca_floor conflict. Mint-4 queued after this round.
   (CATCH-E burden shifted). Third consecutive weak-prereg
   self-report — noted as systematic for derivation pilots.
 - Awaiting: crossing_low_w, z1_ternary_mass, efloor_sparsity.
+
+## 2026-08-06: round-18 pilot 2 BANKED — THEOREM DSA: (ES)-crossing FALSE at admissible tower rows, witness AT n = 2^41
+
+- **crossing_low_w (Opus) BANKED, CAMPAIGN-CRITICAL** (1,565,906
+  checks 0 failures; coordinator replayed the bijection gate 81,005/0
+  and the witness verification 2,854/0). MY brief's lift-constraint
+  conjecture REFUTED structurally (the pilot pre-registered the
+  negation, X1: at the binding stratum there are ZERO lift
+  constraints — LEMMA FREE); LEMMA DS (deep-stratum bijection,
+  r'_a = L-2 uniformly — ONE one-parameter family); LEMMA OE (the
+  odd/even epsilon/sigma split — the recursion for shallower strata);
+  LEMMA TC (the primitive object is TERNARY: 3^L, not 2^{n_a} or
+  C(n_a,r'_a) — per-weight mis-priced by 48.75 bits); LEMMA ROT
+  (2L-orbit over-dispersion). **THEOREM DSA (unconditional
+  pigeonhole): accidents EXIST at every admissible row with
+  p^{delta_a} < 2^{L-2}** — (ES)-crossing FALSE at 10/19 pairs
+  outright at w = 2^34 (3/19 at 2^35), with an explicit witness
+  VERIFIED AT n = 2^41 on the triple-refutation row
+  (p = 3·2^41+1, e = 6 — the same row as es_g_lanes' balance exhibit
+  and f2_adm's (O1) kill). e = 1 prime rows PROVABLY outside the
+  regime (B* >= 3 forces log2 p >= 129.6 > 126) and RE-PRICED
+  heuristically to a 53-61 bit margin under the ternary functional
+  (vs the 0.089-bit global cliff). Consumer consequence SCOPED: the
+  refuted statement is |W_w| = structural; the crossing NODE's
+  gamma-shell/budget question at tower rows is RE-OPENED, not
+  decided. es_g_lanes P4 was detecting a REAL refutation. CATCH-18E
+  (self-caught birthday-sizing). SCOPE ESCALATION OF RECORD: the
+  Przemek tower/generation question now DECIDES two lanes — the
+  maintainer note leads with the DSA witness. Next-round residuals:
+  the gamma-shell population; shallower strata via LEMMA OE; the
+  prime-row emptiness proof at the ternary margin.

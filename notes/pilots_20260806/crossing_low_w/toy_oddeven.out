@@ -1,0 +1,5 @@
+=== stage oddeven ===
+    2L=8 p=97 : 1792 (S',t) identities verified [EXHAUSTIVE over all 2^8 subsets]
+    2L=16 p=97 : 983040 (S',t) identities verified [EXHAUSTIVE over all 2^16 subsets]
+    2L=32 p=97 : 124000 (S',t) identities verified [4000 random subsets]
+checks=1108832 failures=0

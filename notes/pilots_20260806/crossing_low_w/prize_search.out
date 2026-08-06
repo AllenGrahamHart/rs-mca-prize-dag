@@ -1,0 +1,7 @@
+=== stage search ===
+  window 0..13 x 14..29 : 3^14 x 3^16 = 3^30, 49 raw relations
+  FOUND: U = 20 (even, 2 <= U <= 126)
+    support = [0, 2, 3, 4, 5, 9, 10, 11, 12, 13, 14, 17, 19, 21, 23, 24, 25, 26, 27, 29]
+    eps     = [-1, -1, -1, 1, 1, -1, 1, -1, -1, -1, -1, -1, 1, 1, 1, -1, -1, 1, -1, 1]
+  written to /home/u2470931/smooth-read-solomin/prize/notes/pilots_20260806/crossing_low_w/eps_found.json
+checks=0 failures=0
