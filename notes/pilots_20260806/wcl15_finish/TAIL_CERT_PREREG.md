@@ -49,3 +49,17 @@ instead contains all 194 indexed entries and represents tail 191 explicitly
 as `PARTIAL`.  No mathematical prediction was tested.  One corrected run is
 authorized with stricter custody: require all 194 entries, exactly 193
 `COMPLETE`, and the exact partial timeout record at index 191.
+
+## Outcome
+
+Corrected app `ap-beZVadXTE7z94tsQiEsGZ7` completed in 1.017 seconds.  P1-P3
+all pass: 194 manifest rows, 193 certified factorizations, 400 FLINT
+primality checks, 399 distinct primes, maximum `v_2(p-1)=17`, no gate factor,
+and tail 191 as the sole residual.  Manifest and prime digests reproduce
+exactly.  Certificate digest is
+`f218fc0a26b2ec2bc1f4084bc5b0fd1eabb58c4b96e0f21aa6729350b0be0d40`;
+compact-result SHA-256 is
+`2292b2a5fccc61fba288dc8566904237b2ce4db05a0c7a83587720512d94c5ba`.
+
+The 193 completed hard tails are now proof-grade.  No node promotion occurs
+until tail 191 is completely factored and independently certified.

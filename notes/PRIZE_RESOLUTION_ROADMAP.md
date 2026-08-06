@@ -17866,16 +17866,24 @@ The easy census is therefore proof-grade.  The exact residual is only the 194
 retained hard norms: independently certify the 193 primary factorizations and
 obtain one complete factorization for tail 191.
 
+The 193 completed hard tails are now also independently certified.  A
+content-pinned FLINT checker reproduces the 194-row manifest digest, verifies
+all 193 products through 400 primality checks and 399 distinct primes,
+reproduces the factor-vocabulary digest, and confirms maximum
+`v_2(p-1)=17` with no gate event.  Thus the entire exhaustive `(1,5)` route
+has one residual only: complete factorization and independent primality
+certification of the explicit 269-bit tail-191 norm.
+
 ```text
 starting pin: fd4f2d23; canonical cee6244c; upstream main 93fba1be
 node: dli_wcl_slot_1_5_emptiness [TARGET]
-result: full easy census and independent replay COMPLETE; hard tails 193/194
+result: easy census plus 193 tails independently certified; tail 191 only residual
 DAG status delta: none
 upstream terminal delta: none
 delta-star bracket movement: none
 new assumptions: none
-compute: full replay apps ap-0OBpQSj0V7998tTvkzixwx and ap-y5FDRVADCUfOqoflndTSDg; all apps stopped
-next: independently certify 193 tail rows; await complete certified factorization of tail 191
+compute: full replay apps ap-0OBpQSj0V7998tTvkzixwx/ap-y5FDRVADCUfOqoflndTSDg; tail cert ap-beZVadXTE7z94tsQiEsGZ7
+next: obtain and independently certify the complete factorization of tail 191
 ```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
