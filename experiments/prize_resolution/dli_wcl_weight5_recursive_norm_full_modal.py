@@ -34,10 +34,7 @@ PRIME_GROUP_ROOT = f"{RUN_ROOT}/prime_groups"
 PRIME_FILE = f"{RUN_ROOT}/distinct_primes.txt"
 REMOTE_RESULT_FILE = f"{RUN_ROOT}/result.json"
 OUTPUT = Path(__file__).with_name("dli_wcl_weight5_recursive_norm_full_result.json")
-REPOSITORY = Path(__file__).resolve().parents[2]
-INVENTORY = (
-    REPOSITORY / "notes" / "pilots_20260806" / "wcl15_finish" / "inventory.json"
-)
+INVENTORY = Path("notes/pilots_20260806/wcl15_finish/inventory.json")
 
 app = modal.App("rs-mca-dli-wcl-weight5-recursive-norm-full")
 volume = modal.Volume.from_name("rs-mca-dli-wcl-weight5-affine-classes-v1")

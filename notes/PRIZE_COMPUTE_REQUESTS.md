@@ -5131,6 +5131,10 @@ makes a bounded range complete.
   stage.  Complete details and outcomes are in
   `notes/pilots_20260806/wcl15_finish/EASY_RESUME_PREREG.md`.  A fresh
   inventory is required before any later wave.
+  Packaging-only app `ap-Zz4V2PkJVwGCxmOICMrEov` was stopped after remote
+  module import failed on a relocated local-path expression.  No
+  representative, norm, factor, or checkpoint was processed.  One corrected
+  retry of the identical wave is authorized with no ceiling change.
 
 - **2026-08-03 interrupted-census checkpoint (Codex pin `8502b105`):**
   app `ap-f8oZLbaSVpbTXtCz4cPG2Z` extended the exact `(1,5)` recursive-norm

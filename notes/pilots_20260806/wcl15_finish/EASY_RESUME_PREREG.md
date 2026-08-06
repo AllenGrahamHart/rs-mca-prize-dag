@@ -51,3 +51,13 @@ tools/ramguard modal -- modal run \
   experiments/prize_resolution/dli_wcl_weight5_recursive_norm_full_modal.py \
   --external-full --resume-missing --max-missing-batches 5000
 ```
+
+## Packaging-only first launch
+
+App `ap-Zz4V2PkJVwGCxmOICMrEov` was stopped immediately after its workers
+crash-looped during module import.  Modal relocates a packaged source file to
+`/root`, so computing the local repository path as `Path(__file__).parents[2]`
+raised `IndexError` before any worker read a representative, computed a norm,
+or wrote a checkpoint.  The correction makes the inventory a local-entrypoint
+relative path; remote workers no longer inspect it.  One retry of the exact
+same 5,000-batch wave is authorized under the unchanged resource ceiling.
