@@ -5654,6 +5654,24 @@ independently, but should not open four incompatible compute frameworks.
   `925f7c28521779da15ff15cfbcffa6eb85b66fc1440b4e4f9479bd2527707121`,
   and `726a8287d8965a6640c03a2f2b42cbcdb3c53aeed7e1d23191800c778d45e356`.
 
+### CR-004-W16-DELTA: expanded rational certificate pricing
+
+- **attempt result (2026-08-06): route fenced.** App
+  `ap-WuMWiEvupHO6w3aghjgG1f` used a minimal Singular image, two CPUs, 4 GiB,
+  and a 60-second exact subprocess cap.  Packaging completed with only 11
+  added packages, but repeated squaring over `Q` did not finish constructing
+  the six coefficients of
+  `Y^256 mod (E^2-YB^2)-1`.  No Groebner basis or lift matrix was reached.
+  Exact packet and preregistration are in
+  `notes/pilots_20260806/wcl16_delta6/`.
+- **decision:** do not retry the expanded-remainder representation and do
+  not substitute the `185,569,028`-class direct census, currently projected
+  at at least 36,000 CPU-hours and roughly `$6.6k`.  The sparse straight-line
+  ideal remains an exact mathematical endpoint, but a follow-up needs a new
+  gate-aware structural reduction, not a longer generic-CAS timeout.
+- **DAG effect:** none.  This is a representation fence, not evidence for
+  slot emptiness, and `dli_wcl_slot_1_6_emptiness` remains `TARGET`.
+
 ## CR-004-X6: WCL extended-window six certificate classification
 
 - **status:** DEFERRED EXTERNAL HANDOFF. The proved node

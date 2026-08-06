@@ -171,3 +171,68 @@ upstream terminal delta: none; WCL register PR #1050 is closed unmerged
 compute: none yet; bounded Singular certificate-pricing pilot next
 next: construct the six exact remainders and test rational unit-certificate extraction
 ```
+
+### WCL `(1,6)` expanded-certificate route fence
+
+The bounded rational pilot removes the expanded six-remainder representation
+from the active route.  A minimal Singular image now works, but exact
+repeated squaring timed out after 60.010725 seconds before coefficient
+extraction; no standard basis or lift was attempted.  This is already the
+wrong cost shape, and a longer run would still produce a certificate blind to
+the official `v_2(q-1)>=41` gate until its prime support was extracted.
+
+The exact cubic straight-line ideal remains a valid theorem and possible
+external endpoint, but there is no current evidence for a tractable
+certificate.  The direct alternative has 185,569,028 classes and a projected
+cost around `$6.6k`.  Do not spend the current Modal allowance on either
+continuation.  The slot remains open and the roadmap pivots to a terminal
+with a proved structural advance.
+
+```text
+starting pin: edc40e0f; canonical c987f5d1; upstream main 93fba1be
+node: dli_wcl_slot_1_6_emptiness [TARGET]
+result: expanded rational endpoint TIMEOUT_REMAINDER; representation retired
+DAG status delta: none
+upstream terminal delta: none
+delta-star bracket movement: none
+new assumptions: none
+compute: app ap-WuMWiEvupHO6w3aghjgG1f, one bounded container
+next: no WCL (1,6) compute without a materially smaller gate-aware theorem
+```
+
+### Round-17 F2 regression and crossing advance
+
+Canonical Round 17 makes two route-deciding changes.  First, `(O1)` is false
+on explicit prize-admissible rows when the smooth domain does not generate
+the ambient field.  The exact admissible decomposition replaces the old
+16-rung picture by at most four prime-field MDS summands and leaves one
+honest mass terminal, `SL-1b'`; the moving-rung discharge band is empty.
+Any F2 route must therefore prove a replacement that covers non-generating
+rows, not silently add `ord_n(p)=[F_q:F_p]`.
+
+Second, the ideal-level Galois-multiplicity theorem `(CS)` proves the crossing
+instance unconditionally whenever
+
+```text
+ceil((w-1)/2) log_2 p > (n/4) log_2 r'.
+```
+
+At the prize crossing this covers every `w>170,752,922,588`, or 71.16% of
+the bracket `[2^34,2^39]`.  The exact residual is the lower 28.84%, including
+the four powers `2^34,...,2^37`, where sparsity of the exceptional floor
+class remains open.  This is now a higher-value endpoint than generic WCL
+certificate extraction: independently audit `(CS)`, transport the proved
+scope into the critical DAG, and then attack the printed low-weight
+exceptional-floor sparsity statement.
+
+```text
+starting pin: edc40e0f; canonical c987f5d1; upstream main 93fba1be
+lane: crossing / F2 quotient-prefix flatness
+result: O1 FALSIFIED at non-generating admissible rows; CS closes 71.16%
+DAG status delta: pending independent transport audit
+upstream terminal delta: potentially shared with (Q), not yet exported
+delta-star bracket movement: crossing residual reduced to lower 28.84%
+new assumptions: none for CS; E_floor sparsity remains open below threshold
+compute: canonical exact proof/check packets only; no new run yet
+next: independently replay CS and identify its exact critical consumer/edge
+```

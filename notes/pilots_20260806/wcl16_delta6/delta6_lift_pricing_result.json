@@ -1,0 +1,14 @@
+{
+  "app": "rs-mca-wcl16-delta6-rational-lift-pricing",
+  "field": "Q",
+  "markers": {},
+  "program_sha256": "61418dfd5a4ca40ef4d091098436110c06225f8e9a81560abcd4afee1bc988aa",
+  "remainder_coefficients_expected": 6,
+  "schema": "wcl16-delta6-rational-lift-pricing-v1",
+  "seconds": 60.010725,
+  "singular_timeout_seconds": 60,
+  "status": "TIMEOUT_REMAINDER",
+  "stderr_tail": "",
+  "stdout_tail": "WCL16_STAGE_REMAINDER_BEGIN\n",
+  "variables": 5
+}

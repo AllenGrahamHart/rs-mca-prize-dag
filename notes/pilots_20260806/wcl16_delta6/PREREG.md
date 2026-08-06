@@ -74,3 +74,20 @@ conservative ceiling is `$0.15`.
   structured elimination before spending more compute.
 - `COMPLETE_NONUNIT` or an identity failure: treat as an implementation or
   supplier-audit alarm; do not promote the target.
+
+## Result
+
+Modal app `ap-WuMWiEvupHO6w3aghjgG1f` completed normally with status
+`TIMEOUT_REMAINDER`.  The minimal image installed 11 packages (`12.8 MB`
+download, `41.8 MB` installed), so the old packaging obstruction is removed.
+Singular emitted `WCL16_STAGE_REMAINDER_BEGIN` and no later marker before the
+60.010725-second subprocess cap.  Thus neither the six expanded coefficients
+nor `liftstd` was reached.  Program SHA-256 is
+`61418dfd5a4ca40ef4d091098436110c06225f8e9a81560abcd4afee1bc988aa`.
+The result JSON SHA-256 is
+`3d3d202059dccaada1f61d9584b3fe1e53896d0f02c8d0a0ff19e437826a4f03`.
+
+By the promotion rule, the expanded-remainder representation is retired and
+no retry is authorized.  This is a computational route fence only.  The
+proved divisor descent and the existence of a rational unit identity remain
+valid, while `dli_wcl_slot_1_6_emptiness` remains `TARGET`.
