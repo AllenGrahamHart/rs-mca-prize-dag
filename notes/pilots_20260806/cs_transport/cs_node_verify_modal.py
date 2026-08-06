@@ -11,10 +11,11 @@ import modal
 
 
 APP_NAME = "rs-mca-cs-proved-node-verification"
-ROOT = Path(__file__).resolve().parents[3]
+SOURCE = Path(__file__).resolve()
+ROOT = SOURCE.parents[3] if len(SOURCE.parents) > 3 else Path("/repo")
 NODE_ID = "rate_half_crossing_ideal_galois_multiplicity_exclusion"
 NODE_DIR = ROOT / "background/nodes" / NODE_ID
-PILOT_DIR = Path(__file__).resolve().parent
+PILOT_DIR = SOURCE.parent
 OUTPUT = PILOT_DIR / "cs_node_verify_result.json"
 
 image = (
