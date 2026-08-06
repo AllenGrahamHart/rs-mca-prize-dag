@@ -1,7 +1,7 @@
 # Result
 
-The generating-row `Z_1` terminal is exactly a weighted odd-prefix second
-moment:
+The plus-branch generating-row `Z_1` terminal is exactly a weighted
+odd-prefix second moment:
 
 ```text
 Z_1=2^-S sum_v N(v)^2.
@@ -15,6 +15,8 @@ explains the non-generating-row failure as an entropy deficit.
 Equivalently, the fiber sizes are full-agreement list-recovery lists for the
 explicit high-rate GRS code with two allowed symbols at each coordinate.
 This is a route translation, not a list-size theorem.
+
+The minus branch is outside this classwise formulation.
 
 The bounded audit in Modal app `ap-Lik7i7u6TSwxHdBhbDIxzK` returned PASS on
 four complete finite rows.  Addendum app `ap-aKhhNL94Wn8oytoS1Fu1dB`

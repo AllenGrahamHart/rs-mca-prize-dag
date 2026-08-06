@@ -1,9 +1,9 @@
-# Admissible F2 weighted-prefix L2 identity
+# Plus-branch admissible F2 weighted-prefix L2 identity
 
 - **status:** PROVED
 - **closure:** proof
 
-For one admissible prime-field class, put
+For one plus-branch (`p=1 mod 4`) admissible prime-field class, put
 
 ```text
 H={zeta^s:0<=s<S},  ord(zeta)=2S,
@@ -44,3 +44,5 @@ N(v)=#{c in C: c_s in {-x_0(s),1-x_0(s)} for every s}.        (L2-4)
 
 Thus each `N(v)` is also a full-agreement list-recovery output size for the
 explicit GRS code with coordinate lists of size two.
+
+No claim is made here for the coupled `p=3 mod 4` kernel.

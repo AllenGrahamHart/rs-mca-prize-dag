@@ -79,6 +79,7 @@ def main() -> None:
     nodes = {node["id"]: node for node in dag["nodes"]}
     edges = {(edge["from"], edge["to"], edge["kind"]) for edge in dag["edges"]}
     assert nodes[NODE]["status"] == "PROVED"
+    assert "plus-branch" in nodes[NODE]["statement"].lower()
     assert nodes[PARENT]["status"] == "PROVED"
     assert nodes[CONSUMER]["status"] == "TARGET"
     assert (PARENT, NODE, "req") in edges

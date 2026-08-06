@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the F2 admissible direct-sum supplier and its DAG contract."""
+"""Verify the plus-branch F2 direct-sum supplier and its DAG contract."""
 
 from __future__ import annotations
 
@@ -30,6 +30,7 @@ def main() -> None:
     nodes = {node["id"]: node for node in dag["nodes"]}
     edges = {(edge["from"], edge["to"], edge["kind"]) for edge in dag["edges"]}
     assert nodes[NODE]["status"] == "PROVED"
+    assert "plus branch" in nodes[NODE]["statement"].lower()
     assert nodes[CONSUMER]["status"] == "TARGET"
     assert (NODE, CONSUMER, "ev") in edges
     print(

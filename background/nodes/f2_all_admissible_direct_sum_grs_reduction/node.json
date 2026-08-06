@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f2_all_admissible_direct_sum_grs_reduction",
+    "title": "All-admissible F2 bounded-class direct-sum reduction",
+    "status": "REFUTED",
+    "closure": "counterexample",
+    "statement": "The claim that every official admissible F2 antipodal window splits into at most four F_p-proportionality classes is false. For the Mersenne prime p=2^61-1 and q=p^2, q<2^256 and ord_(2^41)(p)=2=e, but gcd(2^41,p-1)=2, so the antipodal half-system has 2^40 singleton classes. The corrected p=1 mod 4 reduction survives.",
+    "refs": [
+      "background/nodes/f2_all_admissible_direct_sum_grs_reduction/statement.md",
+      "background/nodes/f2_all_admissible_direct_sum_grs_reduction/proof.md",
+      "background/nodes/f2_all_admissible_direct_sum_grs_reduction/audit.md",
+      "background/nodes/f2_all_admissible_direct_sum_grs_reduction/claim_contract.md",
+      "background/nodes/f2_all_admissible_direct_sum_grs_reduction/dependency_subdag.md",
+      "background/nodes/f2_all_admissible_direct_sum_grs_reduction/result.md",
+      "background/nodes/f2_all_admissible_direct_sum_grs_reduction/verify.py",
+      "notes/pilots_20260806/f2_minus_branch/PREREG.md",
+      "notes/pilots_20260806/f2_minus_branch/counterexample_result.json",
+      "notes/pilots_20260806/f2_minus_branch/CORRECTION.md",
+      "notes/pilots_20260806/f2_minus_branch/node_verify_result.json"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f2_conditional_close"
+    }
+  ],
+  "refutes": []
+}

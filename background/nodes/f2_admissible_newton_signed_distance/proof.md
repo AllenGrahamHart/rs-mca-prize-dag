@@ -1,7 +1,7 @@
 # Proof
 
-The admissible direct-sum theorem identifies each class, after a harmless
-nonzero coordinate scaling of the moment equations, with the half-system
+The plus-branch admissible direct-sum theorem identifies each class, after a
+harmless nonzero coordinate scaling of the moment equations, with the half-system
 `zeta^s`, `0<=s<S`, where `zeta` has exact order `2S` in `F_p^*`.
 In particular,
 

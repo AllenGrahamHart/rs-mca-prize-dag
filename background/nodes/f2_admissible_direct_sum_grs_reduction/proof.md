@@ -1,8 +1,9 @@
 # Proof
 
-Since `n|p^e-1`, `k=ord_n(p)` divides `e`. For dyadic `n`, the standard
-2-adic order calculation gives `k=2^(41-e_p)` when `e_p<41`, and `k=1`
-otherwise. As `e<=6`, only `k in {1,2,4}` occur, so `D<=2`.
+Since `n|p^e-1`, `k=ord_n(p)` divides `e`. In the assumed branch
+`p=1 mod 4`, the standard 2-adic order calculation gives
+`k=2^(41-e_p)` when `e_p<41`, and `k=1` otherwise. As `e<=6`, only
+`k in {1,2,4}` occur, so `D<=2`.
 
 Let `y` have order `2^a`. Two powers `y^u,y^v` are proportional over
 `F_p` exactly when `y^(u-v)` lies in `F_p^*`. The intersection of the

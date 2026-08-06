@@ -16,6 +16,8 @@
    two, but the code rate is `1-R/S` and the evaluation set is the explicit
    dyadic half-system.  Results for random or generic evaluation points, or
    with a fixed gap from list-recovery capacity, do not automatically apply.
+7. The class model is supplied only on the plus branch `p=1 mod 4`. The
+   minus branch requires a separate extension-field collision identity.
 
 Modal app `ap-Lik7i7u6TSwxHdBhbDIxzK` independently enumerated both sides on
 four finite half-systems.  All 4,688 ordered collisions and 404 kernel words

@@ -17956,32 +17956,34 @@ next: no WCL (1,6) compute without a materially smaller gate-aware theorem
 
 ### Round-17 F2 regression and crossing advance
 
-Canonical Round 17 makes two route-deciding changes.  First, `(O1)` is false
+Canonical Round 17 makes two route-deciding changes. First, `(O1)` is false
 on explicit prize-admissible rows when the smooth domain does not generate
-the ambient field.  The exact admissible decomposition replaces the old
-16-rung picture by at most four prime-field MDS summands and leaves one
-honest mass terminal, `SL-1b'`; the moving-rung discharge band is empty.
-Any F2 route must therefore prove a replacement that covers non-generating
-rows, not silently add `ord_n(p)=[F_q:F_p]`.
+the ambient field. On the plus branch `p=1 mod 4`, the exact admissible
+decomposition replaces the old 16-rung picture by at most four prime-field
+MDS summands and leaves one honest mass terminal, `SL-1b'`; the moving-rung
+discharge band is empty. The minus branch was omitted from this Round-17
+statement and is corrected below. Any F2 route must therefore cover both
+the minus branch and non-generating rows, not silently add either a residue
+class or generation hypothesis.
 
-Second, the ideal-level Galois-multiplicity theorem `(CS)` proves a crossing
-row unconditionally whenever
+Second, the ideal-level Galois-multiplicity theorem `(CS)` proves the crossing
+instance unconditionally whenever
 
 ```text
 ceil((w-1)/2) log_2 p > (n/4) log_2 r'.
 ```
 
 At the formal benchmark `log2 p=256`, this covers every
-`w>=170,752,922,588`, or 71.16% of the bracket `[2^34,2^39]`.  This is not
+`w>=170,752,922,588`, or 71.16% of the bracket `[2^34,2^39]`. This is not
 uniform official-row coverage: `(CS)` depends on the base characteristic
 `p`, not the ambient extension-field size `q=p^e`, and smaller `p` leaves a
 larger residual (the bound is vacuous throughout the bracket at
-`log2 p<=64`).  The exact unresolved set is therefore the rowwise set of
+`log2 p<=64`). The exact unresolved set is therefore the rowwise set of
 `(p,w)` failing the printed inequality, together with the structural
-strata.  The theorem has now been independently audited and transported as
+strata. The theorem has now been independently audited and transported as
 the PROVED supplier
 `rate_half_crossing_ideal_galois_multiplicity_exclusion`, with evidence edges
-to the crossing and F2 consumers and no target-status flip.  The next useful
+to the crossing and F2 consumers and no target-status flip. The next useful
 attack is the rowwise exceptional-floor sparsity or a stronger norm floor in
 the printed low-characteristic/low-window residual.
 
@@ -18002,55 +18004,55 @@ next: attack rowwise E_floor sparsity or strengthen the norm floor below CS
 The critical graph formerly retained the July route
 `f2_growing_order_myerson -> f2_conditional_close` even after canonical
 Round 17 invalidated its all-row premise. This is now repaired. The
-admissible-row structure is banked as the PROVED supplier
-`f2_admissible_direct_sum_grs_reduction`: every deployed kernel is a direct
-sum of at most four explicit prime-field GRS/MDS kernels, with exact
-dimension and `Z(L)=Z_1^C`. The false all-row `(O1)` statement is recorded
-separately as `f2_all_admissible_o1_mass_bound [REFUTED]`; the official row
-`p=3*2^41+1`, `q=p^6` has `ord_n(p)=1<6` and an exponential `2^(5n/12)`
-shortfall, with primality certified by Pocklington base 5.
+plus-branch admissible-row structure is banked as the PROVED supplier
+`f2_admissible_direct_sum_grs_reduction`: for `p=1 mod 4`, every deployed
+kernel is a direct sum of at most four explicit prime-field GRS/MDS kernels,
+with exact dimension and `Z(L)=Z_1^C`. The false all-row `(O1)` statement is
+recorded separately as `f2_all_admissible_o1_mass_bound [REFUTED]`; the
+official row `p=3*2^41+1`, `q=p^6` has `ord_n(p)=1<6` and an exponential
+`2^(5n/12)` shortfall, with primality certified by Pocklington base 5.
 
 The prize-facing `f2_conditional_close` conclusion is not refuted. It is
 now an honest critical TARGET leaf with no logical prerequisites. Its
-proved July inputs, the new direct-sum theorem, the counterexample alarm,
-and growing-order Myerson are evidence. The printed attack splits into:
-generating-row GRS ternary mass, a direct non-generating-row payment, the
-PP5.0 average-to-sum seam, and any coset-sensitive descent. Myerson remains
-a useful upstream `(Q)` target but no longer sits on every prize route.
+proved July inputs, the plus-branch direct-sum theorem, the counterexample
+alarm, and growing-order Myerson are evidence. The printed attack splits
+into: plus-branch generating-row GRS ternary mass, a minus-branch coupled
+kernel, a direct non-generating-row payment, the PP5.0 average-to-sum seam,
+and any coset-sensitive descent. Myerson remains a useful upstream `(Q)`
+target but no longer sits on every prize route.
 
 ```text
 starting pin: 99a55c51; canonical c987f5d1; upstream main 93fba1be
 lane: F2 / quotient-prefix flatness
-result: admissible direct-sum GRS reduction PROVED; all-row O1 REFUTED
+result: plus-branch direct-sum GRS reduction PROVED; all-row O1 REFUTED
 DAG status delta: f2_conditional_close CONDITIONAL -> TARGET; Myerson req -> ev/background
 upstream terminal delta: Q remains relevant evidence, not a sufficient all-row close
 delta-star bracket movement: none
 new assumptions: none; generation explicitly not assumed
 compute: apps ap-gc4EOdiUFEghRR4qkIjUfX and ap-bMpQIqA5drSKk82JQgIgGa, bounded PASS
-next: attack the explicit generating-row GRS ternary mass; formulate a direct non-generating count
+next: attack the plus-branch GRS mass, derive the minus-branch kernel, and formulate a direct non-generating count
 ```
 
-### Admissible F2 Newton-distance transport
+### Plus-branch admissible F2 Newton-distance transport
 
 The first reusable theorem on the explicit `Z_1` terminal is now banked.
-Each admissible prime-field class is a half-system generated by an element
-of order `2S`, so `p>=2S+1`.  Under the deployed initial odd run, a ternary
-class word of weight `w<=2R` is exactly a reduced signed polynomial in the
-scope of the PROVED DLI Newton short-window theorem.  It cannot exist.
+Each plus-branch admissible prime-field class is a half-system generated by
+an element of order `2S`, so `p>=2S+1`. Under the deployed initial odd run,
+a ternary class word of weight `w<=2R` is exactly a reduced signed polynomial
+in the scope of the PROVED DLI Newton short-window theorem. It cannot exist.
 Thus the class minimum signed weight is `2R+1`; at the maximal generating
 witness this is `S/32+89`, nearly twice the generic GRS/MDS floor.
 
-This does not control the number of words above the floor.  The honest
-remaining theorem is still the weighted enumerator
-`Z_1<=2^{o(S)}`.  Canonical Round 18 independently launched adversarial and
-generative pilots on this same terminal at `prize@ec542009`; their eventual
-reports should be subtracted against this transport before any further
-node is minted.
+This does not control the number of words above the floor. The honest
+remaining theorem is still the weighted enumerator `Z_1<=2^{o(S)}`.
+Canonical Round 18 independently launched adversarial and generative pilots
+on this same terminal at `prize@ec542009`; their eventual reports should be
+subtracted against this transport before any further node is minted.
 
 ```text
 starting pin: d64df9ab; canonical ec542009; upstream main 93fba1be
 lane: F2 / admissible prime-field ternary mass
-result: DLI Newton signed-distance law transported, PROVED
+result: plus-branch DLI Newton signed-distance law transported, PROVED
 DAG status delta: one PROVED supplier; one evidence edge; no target flip
 upstream terminal delta: none; Q remains open
 delta-star bracket movement: none
@@ -18059,34 +18061,34 @@ compute: app ap-lOOp59znUr1hMtB85YraY7, 328,240 checks, bounded PASS
 next: subtract canonical Round-18 reports, then attack weighted counts above 2R
 ```
 
-### Admissible F2 weighted-prefix L2 identity
+### Plus-branch admissible F2 weighted-prefix L2 identity
 
-The explicit ternary mass is now identified exactly with a second moment.
-For the odd-moment subset map `Phi` on one half-system, let `N(v)` be its
-fiber sizes.  Removing the common intersection of an ordered pair of
-subsets gives a ternary kernel word, and adding an arbitrary common
-intersection reverses the map.  Therefore
+The explicit plus-branch ternary mass is now identified exactly with a
+second moment. For the odd-moment subset map `Phi` on one half-system, let
+`N(v)` be its fiber sizes. Removing the common intersection of an ordered
+pair of subsets gives a ternary kernel word, and adding an arbitrary common
+intersection reverses the map. Therefore
 
 ```text
 Z_1 = 2^-S sum_v N(v)^2.
 ```
 
 Finite Fourier inversion gives the equivalent cosine-product partition
-function over the `R`-dimensional family of odd polynomials.  The zero mode
+function over the `R`-dimensional family of odd polynomials. The zero mode
 is `2^S/p^R`, so the same identity explains why non-generating rows fail at
-the entropy-average level.  On generating rows, the remaining theorem is
-near-diagonal L2 collision mass `sum_v N(v)^2<=2^{S+o(S)}`.  This is weaker
-than a full max-fiber `(Q)` theorem.  Upstream terminology should call it a
+the entropy-average level. On generating rows, the remaining theorem is
+near-diagonal L2 collision mass `sum_v N(v)^2<=2^{S+o(S)}`. This is weaker
+than a full max-fiber `(Q)` theorem. Upstream terminology should call it a
 restricted weighted odd-prefix L2 instance, not silently identify it with
 the standard unweighted quotient fiber.
 
 Each fiber is also a full-agreement list-recovery instance for the explicit
-`[S,S-R]` GRS code with two allowed symbols per coordinate.  The current
+`[S,S-R]` GRS code with two allowed symbols per coordinate. The current
 near-capacity RS literature does not supply this endpoint: Guo--Li--
 Shangguan--Tamo--Wootters prove existence for selected exponentially-large-
 field evaluation sets, and Doron--Venkitesh treat random evaluation points.
 Neither theorem covers this fixed dyadic half-system at essentially zero
-entropy gap.  Import those methods only after an explicit structured-point
+entropy gap. Import those methods only after an explicit structured-point
 specialization; generic-RS language alone is not a proof.
 
 ```text
@@ -18096,11 +18098,43 @@ result: exact ternary-mass/collision/Fourier identity, PROVED
 DAG status delta: one PROVED supplier; one evidence edge; no target flip
 upstream terminal delta: Q max-fiber implies this instance, converse not claimed
 delta-star bracket movement: none
-new assumptions: none beyond the proved admissible class model
+new assumptions: none beyond the proved plus-branch admissible class model
 compute: apps ap-Lik7i7u6TSwxHdBhbDIxzK and ap-aKhhNL94Wn8oytoS1Fu1dB, bounded PASS
 next: bound the nonzero Fourier mass or L2 excess on generating rows
 ```
 
+### Round-18 F2 minus-branch correction
+
+The order calculation behind the purported all-admissible direct-sum
+reduction omitted `p=3 mod 4`. The official generating row
+
+```text
+p=2^61-1, q=p^2
+```
+
+is decisive: `p=-1 mod 2^41`, so `ord_(2^41)(p)=2=e`, while
+`gcd(2^41,p-1)=2`. After the antipodal quotient its `2^40` positions are
+singleton `F_p`-proportionality classes, not at most four classes. The
+all-admissible bounded-class reduction is therefore REFUTED. The
+`p=1 mod 4` theorem survives and the Newton-distance and weighted-L2 nodes
+are now explicitly scoped to it.
+
+This does not refute the F2 prize target. It creates an honest minus-branch
+terminal: derive the coupled extension-field odd-moment kernel and pay its
+mass or extras directly. Treating the singleton classes as independent
+would discard the Frobenius coupling and is forbidden.
+
+```text
+starting pin: 8769beba; canonical ec542009; upstream main 93fba1be
+lane: F2 / admissible branch classification
+result: all-admissible bounded-class reduction REFUTED; plus branch preserved
+DAG status delta: one REFUTED route alarm; three PROVED nodes scope-corrected; no target flip
+upstream terminal delta: Q remains open; a new coupled minus-branch instance is exposed
+delta-star bracket movement: none
+new assumptions: none
+compute: apps ap-gD4VmoDpSyQJ2F6a5xsRnQ and ap-nC5KaETV5g1U6tiXAhfyDg, bounded PASS
+next: derive the exact p=3 mod 4 coupled kernel before further mass experiments
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

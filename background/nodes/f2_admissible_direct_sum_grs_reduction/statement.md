@@ -1,9 +1,10 @@
 # Admissible-row F2 direct-sum reduction
 
-Fix an official maximal row with
+Fix an official maximal row in the plus branch with
 
 ```text
 n=2^41,  q=p^e<2^256,  n divides q-1,
+ p=1 mod 4,
 e_p=v_2(p-1),  D=(41-e_p)_+,  k=ord_n(p)=2^D.
 ```
 
@@ -20,7 +21,7 @@ C=2^D_a                                      (nested layer),
 S=m/C.
 ```
 
-On every admissible row `C<=4`, and the F2 dual kernel satisfies
+On every plus-branch admissible row `C<=4`, and the F2 dual kernel satisfies
 
 ```text
 L^perp = direct_sum_(c=1)^C ker(A_c),
@@ -39,3 +40,7 @@ even when the ambient coefficient field is `F_(p^e)` with `e>k`.
 Multiplying the domain by a nonzero coset representative scales each moment
 equation and therefore leaves `L^perp`, its dimension, distance, and ternary
 mass unchanged. No upper bound on `Z_1` is asserted.
+
+The restriction `p=1 mod 4` is load-bearing. Official rows with
+`p=3 mod 4` use `v_2(p+1)` in their order law and need not have a bounded
+number of prime-field proportionality classes.

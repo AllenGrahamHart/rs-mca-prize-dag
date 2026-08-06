@@ -2,10 +2,10 @@
   "schema": "prize-dag-node-v1",
   "node": {
     "id": "f2_admissible_newton_signed_distance",
-    "title": "Admissible F2 Newton signed-distance transport",
+    "title": "Plus-branch admissible F2 Newton signed-distance transport",
     "status": "PROVED",
     "closure": "proof",
-    "statement": "For every official admissible F2 prime-field class whose imposed moments contain 1,3,...,2R-1, every nonzero ternary class-kernel word has weight at least 2R+1; if 2R>=S the ternary kernel is trivial. At the maximal generating witness the floor is S/32+89. This is a distance supplier, not a ternary-mass bound.",
+    "statement": "For every official plus-branch p=1 mod 4 admissible F2 prime-field class whose imposed moments contain 1,3,...,2R-1, every nonzero ternary class-kernel word has weight at least 2R+1; if 2R>=S the ternary kernel is trivial. At the maximal generating witness the floor is S/32+89. This is a distance supplier, not a ternary-mass bound, and makes no minus-branch claim.",
     "refs": [
       "background/nodes/f2_admissible_newton_signed_distance/statement.md",
       "background/nodes/f2_admissible_newton_signed_distance/proof.md",
@@ -14,7 +14,8 @@
       "background/nodes/f2_admissible_newton_signed_distance/dependency_subdag.md",
       "background/nodes/f2_admissible_newton_signed_distance/result.md",
       "background/nodes/f2_admissible_newton_signed_distance/verify.py",
-      "notes/pilots_20260806/f2_newton_distance/node_verify_result.json"
+      "notes/pilots_20260806/f2_newton_distance/node_verify_result.json",
+      "notes/pilots_20260806/f2_minus_branch/node_verify_result.json"
     ]
   },
   "requires": [

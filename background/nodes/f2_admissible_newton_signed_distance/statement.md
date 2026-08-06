@@ -1,9 +1,10 @@
-# Admissible F2 Newton signed-distance transport
+# Plus-branch admissible F2 Newton signed-distance transport
 
 - **status:** PROVED
 - **closure:** proof
 
-Let one class of an official admissible F2 kernel have support
+Let one class of an official plus-branch (`p=1 mod 4`) admissible F2 kernel
+have support
 
 ```text
 1,zeta,...,zeta^(S-1),   ord(zeta)=2S,
@@ -32,4 +33,5 @@ R=4,294,967,340,
 ```
 
 The theorem applies class by class on generating and non-generating
-admissible rows.  It is a distance theorem, not an upper bound on `Z_1`.
+plus-branch admissible rows. It makes no claim for `p=3 mod 4`. It is a
+distance theorem, not an upper bound on `Z_1`.

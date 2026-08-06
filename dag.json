@@ -9634,7 +9634,7 @@
    "id": "f2_conditional_close",
    "status": "TARGET",
    "title": "All-admissible-row F2 extras-budget close",
-   "statement": "ROUND-17 REPAIR: prove directly that non-coset-union F2 extras plus trade families are at most n^3=2^123 on every official prize-max admissible row. The July conditional close on growing-order Myerson is not valid at this scope: the 16-rung tower is inadmissible, there are at most two moving rungs, and (O1) is false whenever ord_n(p)<[F_q:F_p]. The proved empty/edge bands, dictionary, contraction, near-tail, structural census, and admissible direct-sum reduction remain available. The honest attack surface is: generating-row prime-field GRS ternary mass; a direct replacement payment on non-generating rows; the PP5.0 average-to-sum seam; and any coset-sensitive use of Frobenius antipodal descent. No consumer status is promoted by this repair.",
+   "statement": "ROUND-18 REPAIR: prove directly that non-coset-union F2 extras plus trade families are at most n^3=2^123 on every official prize-max admissible row. The July conditional close on growing-order Myerson is not valid at this scope: the 16-rung tower is inadmissible, there are at most two moving rungs, and (O1) is false whenever ord_n(p)<[F_q:F_p]. The proved empty/edge bands, dictionary, contraction, near-tail, and structural census remain available. The prime-field GRS direct-sum reduction is proved only on the plus branch p=1 mod 4; its attempted all-row extension is refuted by the generating row p=2^61-1, q=p^2. The honest attack surface is: plus-branch generating-row GRS ternary mass; a coupled extension-field kernel and payment on the minus branch; a direct replacement payment on non-generating rows; the PP5.0 average-to-sum seam; and any coset-sensitive use of Frobenius antipodal descent. No consumer status is promoted by this repair.",
    "refs": [
     "critical/nodes/f2_conditional_close/statement.md",
     "critical/nodes/f2_conditional_close/attack.md",
@@ -9644,7 +9644,10 @@
     "critical/nodes/f2_conditional_close/verify.py",
     "notes/pilots_20260806/f2_adm/PROOFS.md",
     "notes/pilots_20260806/f2_adm/FABLE_AUDIT.md",
-    "notes/pilots_20260806/f2_route_repair/f2_route_node_verify_result.json"
+    "notes/pilots_20260806/f2_route_repair/f2_route_node_verify_result.json",
+    "notes/pilots_20260806/f2_minus_branch/CORRECTION.md",
+    "notes/pilots_20260806/f2_minus_branch/counterexample_result.json",
+    "notes/pilots_20260806/f2_minus_branch/node_verify_result.json"
    ]
   },
   {
@@ -28144,10 +28147,10 @@
   },
   {
    "id": "f2_admissible_direct_sum_grs_reduction",
-   "title": "Admissible-row F2 direct-sum reduction to prime-field GRS kernels",
+   "title": "Plus-branch admissible F2 direct-sum reduction to prime-field GRS kernels",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "At every official n=2^41 admissible row q=p^e<2^256, ord_n(p)=2^D with D<=2. Every deployed antipodal window splits into at most four F_p-proportionality classes, and its F2 dual kernel is the direct sum of class kernels that are explicit prime-field [S,S-R,R+1]_p GRS/MDS codes. Consequently dim_Fp L=C min(S,R) exactly and the ternary mass factorizes as Z(L)=Z_1^C. The trace collapse uses ord_n(p), not e, and all K1 kernel/mass statements are invariant under the rules-level domain coset.",
+   "statement": "At every official n=2^41 admissible row q=p^e<2^256 in the plus branch p=1 mod 4, ord_n(p)=2^D with D<=2. Every deployed antipodal window splits into at most four F_p-proportionality classes, and its F2 dual kernel is the direct sum of class kernels that are explicit prime-field [S,S-R,R+1]_p GRS/MDS codes. Consequently dim_Fp L=C min(S,R) exactly and the ternary mass factorizes as Z(L)=Z_1^C. The trace collapse uses ord_n(p), not e, and all K1 kernel/mass statements are invariant under the rules-level domain coset. No claim is made for p=3 mod 4 rows.",
    "refs": [
     "background/nodes/f2_admissible_direct_sum_grs_reduction/statement.md",
     "background/nodes/f2_admissible_direct_sum_grs_reduction/proof.md",
@@ -28159,15 +28162,16 @@
     "notes/pilots_20260806/f2_adm/PROOFS.md",
     "notes/pilots_20260806/f2_adm/FABLE_AUDIT.md",
     "notes/pilots_20260806/f2_route_repair/f2_adm_replay_result.json",
-    "notes/pilots_20260806/f2_route_repair/f2_route_node_verify_result.json"
+    "notes/pilots_20260806/f2_route_repair/f2_route_node_verify_result.json",
+    "notes/pilots_20260806/f2_minus_branch/node_verify_result.json"
    ]
   },
   {
    "id": "f2_admissible_newton_signed_distance",
-   "title": "Admissible F2 Newton signed-distance transport",
+   "title": "Plus-branch admissible F2 Newton signed-distance transport",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "For every official admissible F2 prime-field class whose imposed moments contain 1,3,...,2R-1, every nonzero ternary class-kernel word has weight at least 2R+1; if 2R>=S the ternary kernel is trivial. At the maximal generating witness the floor is S/32+89. This is a distance supplier, not a ternary-mass bound.",
+   "statement": "For every official plus-branch p=1 mod 4 admissible F2 prime-field class whose imposed moments contain 1,3,...,2R-1, every nonzero ternary class-kernel word has weight at least 2R+1; if 2R>=S the ternary kernel is trivial. At the maximal generating witness the floor is S/32+89. This is a distance supplier, not a ternary-mass bound, and makes no minus-branch claim.",
    "refs": [
     "background/nodes/f2_admissible_newton_signed_distance/statement.md",
     "background/nodes/f2_admissible_newton_signed_distance/proof.md",
@@ -28176,15 +28180,16 @@
     "background/nodes/f2_admissible_newton_signed_distance/dependency_subdag.md",
     "background/nodes/f2_admissible_newton_signed_distance/result.md",
     "background/nodes/f2_admissible_newton_signed_distance/verify.py",
-    "notes/pilots_20260806/f2_newton_distance/node_verify_result.json"
+    "notes/pilots_20260806/f2_newton_distance/node_verify_result.json",
+    "notes/pilots_20260806/f2_minus_branch/node_verify_result.json"
    ]
   },
   {
    "id": "f2_admissible_weighted_prefix_l2_identity",
-   "title": "Admissible F2 weighted odd-prefix L2 identity",
+   "title": "Plus-branch admissible F2 weighted odd-prefix L2 identity",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "For one admissible prime-field class, if N(v) counts subsets of the half-system with a prescribed first-R odd-moment vector, then Z_1=2^{-S} sum_v N(v)^2 exactly. Equivalently Z_1 is the normalized cosine-product Fourier partition function, and each N(v) is a full-agreement list-recovery output size for the explicit [S,S-R] GRS code with coordinate lists of size two. Hence Z_1>=max(1,2^S/p^R), and the desired subexponential mass is exactly a near-diagonal L2 collision bound. This is not a full max-fiber Q theorem or a list-size bound.",
+   "statement": "For one plus-branch p=1 mod 4 admissible prime-field class, if N(v) counts subsets of the half-system with a prescribed first-R odd-moment vector, then Z_1=2^{-S} sum_v N(v)^2 exactly. Equivalently Z_1 is the normalized cosine-product Fourier partition function, and each N(v) is a full-agreement list-recovery output size for the explicit [S,S-R] GRS code with coordinate lists of size two. Hence Z_1>=max(1,2^S/p^R), and the desired subexponential mass is exactly a near-diagonal L2 collision bound. This is not a full max-fiber Q theorem, a list-size bound, or a minus-branch identity.",
    "refs": [
     "background/nodes/f2_admissible_weighted_prefix_l2_identity/statement.md",
     "background/nodes/f2_admissible_weighted_prefix_l2_identity/proof.md",
@@ -28193,7 +28198,28 @@
     "background/nodes/f2_admissible_weighted_prefix_l2_identity/dependency_subdag.md",
     "background/nodes/f2_admissible_weighted_prefix_l2_identity/result.md",
     "background/nodes/f2_admissible_weighted_prefix_l2_identity/verify.py",
-    "notes/pilots_20260806/f2_weighted_prefix_l2/node_verify_result.json"
+    "notes/pilots_20260806/f2_weighted_prefix_l2/node_verify_result.json",
+    "notes/pilots_20260806/f2_minus_branch/node_verify_result.json"
+   ]
+  },
+  {
+   "id": "f2_all_admissible_direct_sum_grs_reduction",
+   "title": "All-admissible F2 bounded-class direct-sum reduction",
+   "status": "REFUTED",
+   "closure": "counterexample",
+   "statement": "The claim that every official admissible F2 antipodal window splits into at most four F_p-proportionality classes is false. For the Mersenne prime p=2^61-1 and q=p^2, q<2^256 and ord_(2^41)(p)=2=e, but gcd(2^41,p-1)=2, so the antipodal half-system has 2^40 singleton classes. The corrected p=1 mod 4 reduction survives.",
+   "refs": [
+    "background/nodes/f2_all_admissible_direct_sum_grs_reduction/statement.md",
+    "background/nodes/f2_all_admissible_direct_sum_grs_reduction/proof.md",
+    "background/nodes/f2_all_admissible_direct_sum_grs_reduction/audit.md",
+    "background/nodes/f2_all_admissible_direct_sum_grs_reduction/claim_contract.md",
+    "background/nodes/f2_all_admissible_direct_sum_grs_reduction/dependency_subdag.md",
+    "background/nodes/f2_all_admissible_direct_sum_grs_reduction/result.md",
+    "background/nodes/f2_all_admissible_direct_sum_grs_reduction/verify.py",
+    "notes/pilots_20260806/f2_minus_branch/PREREG.md",
+    "notes/pilots_20260806/f2_minus_branch/counterexample_result.json",
+    "notes/pilots_20260806/f2_minus_branch/CORRECTION.md",
+    "notes/pilots_20260806/f2_minus_branch/node_verify_result.json"
    ]
   },
   {
@@ -53551,6 +53577,11 @@
   },
   {
    "from": "f2_admissible_weighted_prefix_l2_identity",
+   "to": "f2_conditional_close",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_all_admissible_direct_sum_grs_reduction",
    "to": "f2_conditional_close",
    "kind": "ev"
   },

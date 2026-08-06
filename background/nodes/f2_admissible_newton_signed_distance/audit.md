@@ -12,6 +12,8 @@
    not prove `(O1)` or the F2 extras budget.
 5. The result transports an existing DLI theorem; the new content is the
    exact hypothesis match to the admissible prime-field class kernel.
+6. The transport is scoped to `p=1 mod 4`. The minus branch need not split
+   into a bounded number of prime-field classes and is not covered.
 
 Modal app `ap-lOOp59znUr1hMtB85YraY7` exhaustively checked 328,240 signed
 supports on three small half-systems and verified the official arithmetic

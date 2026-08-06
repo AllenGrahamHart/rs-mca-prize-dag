@@ -1,0 +1,8 @@
+{
+  "app": "rs-mca-f2-minus-branch-counterexample",
+  "returncode": 0,
+  "schema": "f2-minus-branch-counterexample-v1",
+  "status": "PASS",
+  "stderr": "",
+  "stdout": "F2_MINUS_BRANCH_COUNTEREXAMPLE_PASS p=2305843009213693951 q_bits=122 order=2 old_order=1099511627776 classes=1099511627776 lucas_lehmer=0\n"
+}
