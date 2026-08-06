@@ -78,3 +78,23 @@ one container, a 420-second function cap, and a 390-second partial-output
 timer.  Expected cost is below `$0.03`.  It computes no norm or factor.  A
 partial result stops the resume decision; no wave is inferred from arithmetic
 subtraction alone.
+
+Post-wave inventory app `ap-9RWWVhxlPTB2FfXKAYCCQI` completed and stopped
+normally.  It validates 26,332 batches and 1,685,248 rows, with 124 distinct
+hard tails, no custody error or gate factor, and exactly 9,558 missing batches
+forming the contiguous suffix 26,332--35,889.  The new inventory SHA-256 is
+`d948248a8c5ef50f1d5c9dcb1722217a2458cdb6282c62b5315042b643d6f030`.
+
+## Wave 2 authorization
+
+Run the identical missing-only worker on the first 5,000 entries of the new
+inventory: batch indices 26,332--31,331, exactly 320,000 classes.  Predictions
+P1--P3 and all worker caps are unchanged.  Expected cost remains below
+`$0.75`, conservative ceiling `$1.25`; no aggregation or hard-tail stage.
+`COMPLETE` again requires a fresh metadata inventory before the final suffix.
+
+```text
+tools/ramguard modal -- modal run \
+  experiments/prize_resolution/dli_wcl_weight5_recursive_norm_full_modal.py \
+  --external-full --resume-missing --max-missing-batches 5000
+```

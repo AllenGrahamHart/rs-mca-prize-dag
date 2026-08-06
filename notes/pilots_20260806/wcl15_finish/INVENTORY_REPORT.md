@@ -33,3 +33,13 @@ retry, app `ap-glG3TjqDK6BZ7fnKLzf0qw`, checked all 21,332 summaries in
 This is route-pricing evidence, not an emptiness certificate.  Completion
 still requires every missing easy batch, every hard-tail norm, compact
 aggregation, and an independent exact replay.
+
+## After Wave 1
+
+Post-wave app `ap-9RWWVhxlPTB2FfXKAYCCQI` completed and stopped normally.  It
+validates 26,332 batches and 1,685,248 rows, with 124 distinct hard tails,
+maximum `v_2(p-1)=30`, no invalid or extra summary, no missing prime shard,
+and no gate factor.  Exactly 9,558 batches remain, the contiguous suffix
+26,332--35,889.  The inventory completed in 70.85711 seconds and now has
+SHA-256
+`d948248a8c5ef50f1d5c9dcb1722217a2458cdb6282c62b5315042b643d6f030`.
