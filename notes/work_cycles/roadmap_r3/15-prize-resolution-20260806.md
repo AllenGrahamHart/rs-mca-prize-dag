@@ -448,6 +448,14 @@ their all-admissible census is not: `f2_admissible_object` and
 route remains the scope-corrected statement of record until canonical makes
 the same branch split.
 
+The PROVED `f2_admissible_generating_branch_classification` now completes
+that split. Generating rows have exactly three plus types
+`(v_2(p-1),e)=(>=41,1),(40,2),(39,4)` and two minus types
+`(v_2(p+1),e)=(>=40,2),(39,4)`. All five are nonempty. The new
+minus/order-four witness is `p=25*2^39-1`, `q=p^4`; a complete-factor
+Pocklington certificate proves primality and exact arithmetic verifies the
+order and field cap. Thus M61 is not an isolated omitted case.
+
 The collision identity now has the exact PROVED upper interface
 `f2_weighted_mass_max_fiber_sandwich`. If `M=max_v N(v)`, then
 
@@ -475,12 +483,12 @@ list-recovery corollary.
 ```text
 starting pin: 5d9afd69; canonical 5a8f0dba; upstream main 93fba1be
 lane: F2 / row-sharp quotient-prefix flatness
-result: heaviest-fiber/mass sandwich PROVED; Mint-4 all-row regression quarantined
-DAG status delta: one PROVED supplier and two edges; no target flip
+result: five generating types classified; heaviest-fiber/mass sandwich PROVED; Mint-4 regression quarantined
+DAG status delta: two PROVED suppliers and five edges; no target flip
 upstream terminal delta: a proved Q-to-F2 map/owner transport would make Q a sufficient supplier
-upstream custody: draft PR https://github.com/przchojecki/rs-mca/pull/1150 at 6d5dd975
+upstream custody: draft PR https://github.com/przchojecki/rs-mca/pull/1150 at 82bb32cf
 delta-star bracket movement: none
 new assumptions: none
-compute: local tiny verifier only, 16 exact checks; no Modal spend
+compute: local tiny verifiers only, 80 exact checks; no Modal spend
 next: attack max_v N(v) for the fixed dyadic plus and minus maps, retaining exact average 2^m/p^d
 ```

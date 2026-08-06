@@ -28168,6 +28168,22 @@
    ]
   },
   {
+   "id": "f2_admissible_generating_branch_classification",
+   "title": "F2 admissible generating-row branch classification",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every official maximal rate-half generating row q=p^e, ord_(2^41)(p)=e, belongs to exactly one of five residue-signed types. On p=1 mod 4 they are (v2(p-1),e)=(>=41,1),(40,2),(39,4). On p=3 mod 4 they are (v2(p+1),e)=(>=40,2),(39,4). All five types are nonempty: p=3*2^41+1, 27*2^40+1, 5*2^39+1, 2^61-1, and 25*2^39-1 respectively give certified prime witnesses with q=p^e<2^256. Thus the unsigned three-class census omits two official minus-branch classes.",
+   "refs": [
+    "background/nodes/f2_admissible_generating_branch_classification/statement.md",
+    "background/nodes/f2_admissible_generating_branch_classification/proof.md",
+    "background/nodes/f2_admissible_generating_branch_classification/audit.md",
+    "background/nodes/f2_admissible_generating_branch_classification/claim_contract.md",
+    "background/nodes/f2_admissible_generating_branch_classification/dependency_subdag.md",
+    "background/nodes/f2_admissible_generating_branch_classification/result.md",
+    "background/nodes/f2_admissible_generating_branch_classification/verify.py"
+   ]
+  },
+  {
    "id": "f2_admissible_newton_signed_distance",
    "title": "Plus-branch admissible F2 Newton signed-distance transport",
    "status": "PROVED",
@@ -53609,6 +53625,11 @@
   },
   {
    "from": "f2_admissible_direct_sum_grs_reduction",
+   "to": "f2_admissible_generating_branch_classification",
+   "kind": "req"
+  },
+  {
+   "from": "f2_admissible_direct_sum_grs_reduction",
    "to": "f2_admissible_newton_signed_distance",
    "kind": "req"
   },
@@ -53624,6 +53645,11 @@
   },
   {
    "from": "f2_admissible_direct_sum_grs_reduction",
+   "to": "f2_conditional_close",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_admissible_generating_branch_classification",
    "to": "f2_conditional_close",
    "kind": "ev"
   },
@@ -53666,6 +53692,11 @@
    "from": "f2_k1_contraction_theorem",
    "to": "f2_conditional_close",
    "kind": "ev"
+  },
+  {
+   "from": "f2_minus_branch_coupled_negacyclic_reduction",
+   "to": "f2_admissible_generating_branch_classification",
+   "kind": "req"
   },
   {
    "from": "f2_minus_branch_coupled_negacyclic_reduction",
