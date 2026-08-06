@@ -42,3 +42,16 @@ The preferred next attacks are the explicit GRS ternary mass on plus-branch
 generating rows and the explicit coupled negacyclic mass on minus-branch
 generating rows, formulated uniformly enough to cover the generated-field
 images of official extensions.
+
+The proved `f2_fixed_weight_flatness_mass_bridge` permits a sharper common
+attack. For each branch map, prove on a central weight band
+
+```text
+max_v N_b(v) <= L(1+binom(S,b)/p^d),
+```
+
+with `log L=o(S)` and omitted binomial tails at most `2^(S/2+o(S))`.
+This implies the required full-cube mass even though cross-weight collisions
+are present. The shape matches upstream split-locator flatness, but the F2
+map has weighted odd-power columns and is not the pruned first-match family;
+those two transports remain mandatory.
