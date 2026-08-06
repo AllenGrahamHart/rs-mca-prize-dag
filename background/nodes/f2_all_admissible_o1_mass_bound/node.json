@@ -12,7 +12,8 @@
       "background/nodes/f2_all_admissible_o1_mass_bound/claim_contract.md",
       "background/nodes/f2_all_admissible_o1_mass_bound/result.md",
       "background/nodes/f2_all_admissible_o1_mass_bound/verify.py",
-      "notes/pilots_20260806/f2_adm/PROOFS.md"
+      "notes/pilots_20260806/f2_adm/PROOFS.md",
+      "notes/pilots_20260806/f2_route_repair/f2_route_node_verify_result.json"
     ]
   },
   "requires": [

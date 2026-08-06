@@ -17996,6 +17996,40 @@ new assumptions: none for CS; E_floor sparsity remains open below threshold
 compute: apps ap-JNBoN1s1INvr1ovkHvbf8h and ap-MCOrXFtNvxPe9tbqfvGCl6, bounded PASS
 next: attack rowwise E_floor sparsity or strengthen the norm floor below CS
 ```
+
+### Round-17 F2 critical-route repair
+
+The critical graph formerly retained the July route
+`f2_growing_order_myerson -> f2_conditional_close` even after canonical
+Round 17 invalidated its all-row premise. This is now repaired. The
+admissible-row structure is banked as the PROVED supplier
+`f2_admissible_direct_sum_grs_reduction`: every deployed kernel is a direct
+sum of at most four explicit prime-field GRS/MDS kernels, with exact
+dimension and `Z(L)=Z_1^C`. The false all-row `(O1)` statement is recorded
+separately as `f2_all_admissible_o1_mass_bound [REFUTED]`; the official row
+`p=3*2^41+1`, `q=p^6` has `ord_n(p)=1<6` and an exponential `2^(5n/12)`
+shortfall, with primality certified by Pocklington base 5.
+
+The prize-facing `f2_conditional_close` conclusion is not refuted. It is
+now an honest critical TARGET leaf with no logical prerequisites. Its
+proved July inputs, the new direct-sum theorem, the counterexample alarm,
+and growing-order Myerson are evidence. The printed attack splits into:
+generating-row GRS ternary mass, a direct non-generating-row payment, the
+PP5.0 average-to-sum seam, and any coset-sensitive descent. Myerson remains
+a useful upstream `(Q)` target but no longer sits on every prize route.
+
+```text
+starting pin: 99a55c51; canonical c987f5d1; upstream main 93fba1be
+lane: F2 / quotient-prefix flatness
+result: admissible direct-sum GRS reduction PROVED; all-row O1 REFUTED
+DAG status delta: f2_conditional_close CONDITIONAL -> TARGET; Myerson req -> ev/background
+upstream terminal delta: Q remains relevant evidence, not a sufficient all-row close
+delta-star bracket movement: none
+new assumptions: none; generation explicitly not assumed
+compute: apps ap-gc4EOdiUFEghRR4qkIjUfX and ap-bMpQIqA5drSKk82JQgIgGa, bounded PASS
+next: attack the explicit generating-row GRS ternary mass; formulate a direct non-generating count
+```
+
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

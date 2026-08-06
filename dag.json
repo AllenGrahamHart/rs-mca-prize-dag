@@ -9643,7 +9643,8 @@
     "critical/nodes/f2_conditional_close/dependency_subdag.md",
     "critical/nodes/f2_conditional_close/verify.py",
     "notes/pilots_20260806/f2_adm/PROOFS.md",
-    "notes/pilots_20260806/f2_adm/FABLE_AUDIT.md"
+    "notes/pilots_20260806/f2_adm/FABLE_AUDIT.md",
+    "notes/pilots_20260806/f2_route_repair/f2_route_node_verify_result.json"
    ]
   },
   {
@@ -28157,7 +28158,8 @@
     "background/nodes/f2_admissible_direct_sum_grs_reduction/verify.py",
     "notes/pilots_20260806/f2_adm/PROOFS.md",
     "notes/pilots_20260806/f2_adm/FABLE_AUDIT.md",
-    "notes/pilots_20260806/f2_route_repair/f2_adm_replay_result.json"
+    "notes/pilots_20260806/f2_route_repair/f2_adm_replay_result.json",
+    "notes/pilots_20260806/f2_route_repair/f2_route_node_verify_result.json"
    ]
   },
   {
@@ -28172,7 +28174,8 @@
     "background/nodes/f2_all_admissible_o1_mass_bound/claim_contract.md",
     "background/nodes/f2_all_admissible_o1_mass_bound/result.md",
     "background/nodes/f2_all_admissible_o1_mass_bound/verify.py",
-    "notes/pilots_20260806/f2_adm/PROOFS.md"
+    "notes/pilots_20260806/f2_adm/PROOFS.md",
+    "notes/pilots_20260806/f2_route_repair/f2_route_node_verify_result.json"
    ]
   },
   {

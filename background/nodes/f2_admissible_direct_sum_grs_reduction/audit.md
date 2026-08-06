@@ -16,3 +16,7 @@ The canonical verifier was replayed in a clean Modal worker and returned
 373/373 PASS. Its toy checks exercise class kernels at set level, dimensions
 up to six, exact GRS parameters, mass factorization, trace collapse, and
 coset behavior. The general result rests on the written proof, not toy scale.
+
+The final route node verifier ran in Modal app
+`ap-bMpQIqA5drSKk82JQgIgGa` and returned `3/3 PASS` across this theorem, the
+counterexample node, and the repaired critical route.

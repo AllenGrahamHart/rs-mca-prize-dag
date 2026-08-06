@@ -15,3 +15,11 @@ F2 conclusion remains a critical TARGET.
 One CPU, 1 GiB RAM, 120-second function cap, 90-second subprocess cap, no
 retry.  Only `3/3` PASS authorizes the route-repair commit.  Any failure
 blocks the surgery without changing the canonical `prize` tree.
+
+## Result
+
+Modal app `ap-bMpQIqA5drSKk82JQgIgGa` returned `3/3 PASS`: the admissible
+direct-sum theorem, the explicit all-row `(O1)` counterexample, and the
+critical-route surgery all passed their independent node verifiers.  The
+captured result has SHA-256
+`4ef3347208bf6fa8ceda4c6419204e84326492372f90ff440a55b00b55d017e0`.

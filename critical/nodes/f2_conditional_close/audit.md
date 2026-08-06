@@ -12,3 +12,6 @@ as an official-row critical edge for four independent reasons:
 This surgery does not mark the target false and does not delete the proved
 July suppliers. It changes `CONDITIONAL -> TARGET`, removes Myerson from
 `requires`, keeps it as evidence, and prints the all-row attack surface.
+
+Modal app `ap-bMpQIqA5drSKk82JQgIgGa` independently checked the final
+manifest statuses and route edges and returned `3/3 PASS`.

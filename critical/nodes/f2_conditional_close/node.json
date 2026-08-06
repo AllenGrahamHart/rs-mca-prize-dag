@@ -14,7 +14,8 @@
       "critical/nodes/f2_conditional_close/dependency_subdag.md",
       "critical/nodes/f2_conditional_close/verify.py",
       "notes/pilots_20260806/f2_adm/PROOFS.md",
-      "notes/pilots_20260806/f2_adm/FABLE_AUDIT.md"
+      "notes/pilots_20260806/f2_adm/FABLE_AUDIT.md",
+      "notes/pilots_20260806/f2_route_repair/f2_route_node_verify_result.json"
     ]
   },
   "requires": [],
