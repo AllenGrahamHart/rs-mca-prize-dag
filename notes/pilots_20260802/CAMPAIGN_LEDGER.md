@@ -1337,3 +1337,37 @@ BOARD AFTER ROUND 16:
 NEXT-ROUND CANDIDATES: ES-G-LANES (per-lane re-check, true |Z_w|);
 the n = 64 boundary census (Modal-scale); F2-ADM; the t-naming
 identification; mint-4 (very large).
+
+## 2026-08-06: ROUND 17 LAUNCHED — 4 Opus pilots (2 on (ES-G), 2 on mystery 2)
+
+- **es_g_lanes** ((ES-G) audit lens): true |Z_w| per row for all four
+  consuming lanes; global-balance status per admissible (p, delta)
+  incl. possible sign flips (C4-d); binding stratum per lane; exact
+  per-lane obligation under (ES-G); the u2c pin check. Broken routing
+  reported plainly if a lane sits above global balance.
+- **es_coprimality** ((ES-G) proof lens, sibling-blind to es_g_lanes):
+  formalize the COPRIMALITY CONJECTURE (N(I_S) = 1 outside a
+  characterized exceptional class => the (ES-G) crossing instance);
+  w = 3 proof attempt via resultants / Galois orbits / Lam-Leung
+  pushed to norms; exceptional class must contain all five round-16
+  witnesses; exact coprimality-rate measurements; AK-UNIT
+  self-checked.
+- **f2_adm** (mystery 2): F2-ADM — reconstruct F2 on a <= 2-rung
+  admissible row (explicit witness p = 18446735827372343297, q = p^4);
+  theorem survival table; margins worst-case over t in
+  (2^33, 5.364e10], both window readings; re-based obligation list;
+  PP5.0 seam priced both ways. Falsifier: if the descent needed 16
+  rungs, the F2 lane is VACUOUS AS POSED.
+- **t_naming** (mystery 2, sibling-blind to f2_adm): prove/refute the
+  t_F2 = |Lambda| vs t_XR = A - k identification; re-tag every banked
+  consumer of "t"; reconcile 8,592,912,739 vs 8,594,128,895; the
+  sliver-seam corrected convention (N5); independent re-check that
+  the 7e10 exclusion is naming-independent.
+
+Standing rules as round 16 (PREREG appended before compute; verbatim
+quotes; ramguard; DRAFT ONLY; coordinator persists reports — NOW WITH
+the hardened persistence check at bank time). STILL PENDING USER:
+W = 5 rollback (+ CR-W5-ELL1); PP5.0 average-vs-sum choice.
+DEFERRED COMPUTE (not launched this round): the n = 64 boundary
+census — Modal-scale; needs a distributed adaptation of the round-16
+census machinery; candidate for a coordinator-launched run next.
